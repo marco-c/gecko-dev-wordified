@@ -56,8 +56,8 @@ markers
 .
 *
 /
+async
 function
-*
 spawnTest
 (
 )
@@ -67,7 +67,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformance
 (
 WORKER_URL
@@ -86,7 +86,7 @@ loadFrameScripts
 (
 )
 ;
-yield
+await
 startRecording
 (
 panel
@@ -112,7 +112,7 @@ performWork
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -270,7 +270,7 @@ true
 }
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -318,7 +318,7 @@ parentNode
 )
 ;
 }
-yield
+await
 teardown
 (
 panel

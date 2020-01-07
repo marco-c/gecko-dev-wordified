@@ -135,12 +135,12 @@ defined
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -169,7 +169,7 @@ host
 doc
 ]
 =
-yield
+await
 createHost
 (
 )
@@ -191,7 +191,7 @@ size
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -240,12 +240,8 @@ removeCurrentTab
 let
 testMaxWidth
 =
-Task
-.
 async
-(
 function
-*
 (
 editor
 )
@@ -715,7 +711,6 @@ RETURN
 )
 ;
 }
-)
 ;
 /
 *

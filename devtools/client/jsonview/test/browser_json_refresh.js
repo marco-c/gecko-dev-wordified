@@ -87,8 +87,8 @@ json
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -151,7 +151,7 @@ dir
 let
 tab
 =
-yield
+await
 addJsonViewTab
 (
 uri
@@ -170,7 +170,7 @@ and
 pricnipals
 in
 loadInfo
-yield
+await
 ContentTask
 .
 spawn
@@ -181,8 +181,8 @@ linkedBrowser
 {
 TEST_JSON_FILE
 }
+async
 function
-*
 (
 {
 TEST_JSON_FILE
@@ -388,7 +388,7 @@ reload
 (
 )
 ;
-yield
+await
 loaded
 ;
 /
@@ -400,7 +400,7 @@ loadInfo
 are
 still
 correct
-yield
+await
 ContentTask
 .
 spawn
@@ -411,8 +411,8 @@ linkedBrowser
 {
 TEST_JSON_FILE
 }
+async
 function
-*
 (
 {
 TEST_JSON_FILE

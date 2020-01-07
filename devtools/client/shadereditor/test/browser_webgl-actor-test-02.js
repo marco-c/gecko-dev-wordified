@@ -55,8 +55,8 @@ first
 .
 *
 /
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -67,7 +67,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_CANVAS_URL
@@ -137,13 +137,13 @@ pass
 "
 )
 ;
-yield
+await
 reload
 (
 target
 )
 ;
-yield
+await
 removeTab
 (
 target

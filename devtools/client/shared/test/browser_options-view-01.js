@@ -127,8 +127,8 @@ PRETTY_PRINT_PREF
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -187,7 +187,7 @@ in
 "
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -203,7 +203,7 @@ host
 win
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -212,7 +212,7 @@ bottom
 OPTIONS_VIEW_URL
 )
 ;
-yield
+await
 testOptionsView
 (
 win
@@ -278,8 +278,8 @@ originalPrettyPrint
 }
 )
 ;
+async
 function
-*
 testOptionsView
 (
 win
@@ -299,7 +299,7 @@ createOptionsView
 win
 )
 ;
-yield
+await
 options
 .
 initialize
@@ -658,7 +658,7 @@ and
 preferences
 are
 updated
-yield
+await
 click
 (
 options
@@ -708,7 +708,7 @@ click
 "
 )
 ;
-yield
+await
 click
 (
 options
@@ -854,7 +854,7 @@ box
 "
 )
 ;
-yield
+await
 options
 .
 destroy
@@ -895,8 +895,8 @@ menupopup
 )
 ;
 }
+async
 function
-*
 click
 (
 view
@@ -959,7 +959,7 @@ button
 win
 )
 ;
-yield
+await
 opened
 ;
 is
@@ -993,7 +993,7 @@ menuitem
 win
 )
 ;
-yield
+await
 closed
 ;
 ok

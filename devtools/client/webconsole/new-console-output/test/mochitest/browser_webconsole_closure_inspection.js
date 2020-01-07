@@ -197,7 +197,6 @@ false
 registerCleanupFunction
 (
 function
-*
 (
 )
 {

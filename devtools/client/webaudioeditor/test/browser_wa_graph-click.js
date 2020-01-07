@@ -55,8 +55,8 @@ InspectorView
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -66,7 +66,7 @@ target
 panel
 }
 =
-yield
+await
 initWebAudioEditor
 (
 COMPLEX_CONTEXT_URL
@@ -140,7 +140,7 @@ actors
 _
 ]
 =
-yield
+await
 events
 ;
 let
@@ -175,7 +175,7 @@ start
 "
 )
 ;
-yield
+await
 clickGraphNode
 (
 panelWin
@@ -227,7 +227,7 @@ set
 "
 )
 ;
-yield
+await
 clickGraphNode
 (
 panelWin
@@ -282,7 +282,7 @@ node
 "
 )
 ;
-yield
+await
 clickGraphNode
 (
 panelWin
@@ -319,7 +319,7 @@ idempotent
 "
 )
 ;
-yield
+await
 clickGraphNode
 (
 panelWin
@@ -365,7 +365,7 @@ expected
 "
 )
 ;
-yield
+await
 clickGraphNode
 (
 panelWin
@@ -432,7 +432,7 @@ clicked
 "
 )
 ;
-yield
+await
 teardown
 (
 target

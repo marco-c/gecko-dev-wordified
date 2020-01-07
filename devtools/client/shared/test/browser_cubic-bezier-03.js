@@ -119,8 +119,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -130,7 +130,7 @@ host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -168,13 +168,13 @@ PREDEFINED
 linear
 )
 ;
-yield
+await
 coordinatesCanBeChangedByProvidingAnArray
 (
 w
 )
 ;
-yield
+await
 coordinatesCanBeChangedByProvidingAValue
 (
 w
@@ -195,8 +195,8 @@ destroy
 }
 )
 ;
+async
 function
-*
 coordinatesCanBeChangedByProvidingAnArray
 (
 widget
@@ -248,7 +248,7 @@ coordinates
 let
 bezier
 =
-yield
+await
 onUpdated
 ;
 ok
@@ -350,8 +350,8 @@ correct
 )
 ;
 }
+async
 function
-*
 coordinatesCanBeChangedByProvidingAValue
 (
 widget
@@ -401,7 +401,7 @@ linear
 let
 bezier
 =
-yield
+await
 onUpdated
 ;
 ok
@@ -551,7 +551,7 @@ bezier
 ;
 bezier
 =
-yield
+await
 onUpdated
 ;
 ok

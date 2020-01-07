@@ -60,8 +60,8 @@ tests
 .
 *
 /
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -72,7 +72,7 @@ target
 panel
 }
 =
-yield
+await
 initShaderEditor
 (
 SIMPLE_CANVAS_URL
@@ -104,7 +104,7 @@ available
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

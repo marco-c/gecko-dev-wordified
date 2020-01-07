@@ -177,12 +177,12 @@ blue
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -192,7 +192,7 @@ blank
 "
 )
 ;
-yield
+await
 performTest
 (
 )
@@ -206,8 +206,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 performTest
 (
 )
@@ -218,7 +218,7 @@ host
 doc
 ]
 =
-yield
+await
 createHost
 (
 )
@@ -234,7 +234,7 @@ doc
 body
 )
 ;
-yield
+await
 graph
 .
 once
@@ -249,7 +249,7 @@ testGraph
 graph
 )
 ;
-yield
+await
 graph
 .
 destroy

@@ -49,8 +49,8 @@ navigation
 .
 *
 /
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -61,7 +61,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_CANVAS_URL
@@ -91,7 +91,7 @@ linked
 "
 )
 ;
-yield
+await
 front
 .
 setup
@@ -117,7 +117,7 @@ successfully
 "
 )
 ;
-yield
+await
 navigated
 ;
 ok
@@ -137,7 +137,7 @@ up
 "
 )
 ;
-yield
+await
 linked
 ;
 ok
@@ -159,7 +159,7 @@ reloading
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

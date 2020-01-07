@@ -170,8 +170,8 @@ wrappedJSObject
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -188,7 +188,7 @@ http
 "
 )
 ;
-yield
+await
 enableServiceWorkerDebugging
 (
 )
@@ -200,7 +200,7 @@ the
 push
 service
 .
-yield
+await
 pushPref
 (
 "
@@ -378,7 +378,7 @@ tab
 document
 }
 =
-yield
+await
 openAboutDebugging
 (
 "
@@ -427,7 +427,7 @@ worker
 let
 swTab
 =
-yield
+await
 addTab
 (
 TAB_URL
@@ -449,14 +449,14 @@ debugging
 "
 )
 ;
-yield
+await
 waitUntilServiceWorkerContainer
 (
 SERVICE_WORKER
 document
 )
 ;
-yield
+await
 waitForServiceWorkerActivation
 (
 SERVICE_WORKER
@@ -577,7 +577,7 @@ URL
 let
 pushURL
 =
-yield
+await
 waitUntilElement
 (
 "
@@ -692,7 +692,7 @@ UI
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -742,7 +742,7 @@ itself
 .
 try
 {
-yield
+await
 unregisterServiceWorker
 (
 swTab
@@ -796,13 +796,13 @@ service
 =
 null
 ;
-yield
+await
 removeTab
 (
 swTab
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab

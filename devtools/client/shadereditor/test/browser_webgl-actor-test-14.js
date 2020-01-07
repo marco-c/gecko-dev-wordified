@@ -57,8 +57,8 @@ contexts
 .
 *
 /
+async
 function
-*
 ifWebGLSupported
 (
 )
@@ -69,7 +69,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 MULTIPLE_CONTEXTS_URL
@@ -92,7 +92,7 @@ firstProgramActor
 secondProgramActor
 ]
 =
-yield
+await
 getPrograms
 (
 front
@@ -102,7 +102,7 @@ front
 let
 firstFragmentShader
 =
-yield
+await
 firstProgramActor
 .
 getFragmentShader
@@ -112,7 +112,7 @@ getFragmentShader
 let
 secondFragmentShader
 =
-yield
+await
 secondProgramActor
 .
 getFragmentShader
@@ -122,7 +122,7 @@ getFragmentShader
 let
 oldFragSource
 =
-yield
+await
 firstFragmentShader
 .
 getText
@@ -159,7 +159,7 @@ vec4
 let
 status
 =
-yield
+await
 firstFragmentShader
 .
 compile
@@ -186,14 +186,14 @@ errors
 "
 )
 ;
-yield
+await
 front
 .
 waitForFrame
 (
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -226,7 +226,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -259,7 +259,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -292,7 +292,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -341,7 +341,7 @@ changed
 ;
 oldFragSource
 =
-yield
+await
 secondFragmentShader
 .
 getText
@@ -376,7 +376,7 @@ vec4
 ;
 status
 =
-yield
+await
 secondFragmentShader
 .
 compile
@@ -403,14 +403,14 @@ errors
 "
 )
 ;
-yield
+await
 front
 .
 waitForFrame
 (
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -443,7 +443,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -476,7 +476,7 @@ canvas1
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -509,7 +509,7 @@ canvas2
 "
 )
 ;
-yield
+await
 ensurePixelIs
 (
 front
@@ -556,7 +556,7 @@ changed
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

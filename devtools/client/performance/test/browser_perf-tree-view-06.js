@@ -160,8 +160,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -352,7 +352,7 @@ for
 right
 click
 .
-yield
+await
 idleWait
 (
 100
@@ -410,7 +410,7 @@ for
 left
 click
 .
-yield
+await
 waitUntil
 (
 (

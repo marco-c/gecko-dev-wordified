@@ -139,8 +139,8 @@ display
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -160,7 +160,7 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
@@ -213,7 +213,7 @@ finish
 being
 fetched
 .
-yield
+await
 waitUntilState
 (
 store
@@ -395,7 +395,7 @@ now
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -435,7 +435,7 @@ tree
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -532,7 +532,7 @@ destroy
 (
 )
 ;
-yield
+await
 front
 .
 detach

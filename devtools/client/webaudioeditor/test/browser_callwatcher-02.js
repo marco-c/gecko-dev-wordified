@@ -78,8 +78,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -89,7 +89,7 @@ target
 panel
 }
 =
-yield
+await
 initWebAudioEditor
 (
 BUG_1112378_URL
@@ -130,13 +130,13 @@ reload
 target
 )
 ;
-yield
+await
 rendered
 ;
 let
 error
 =
-yield
+await
 evalInDebuggee
 (
 "
@@ -312,7 +312,7 @@ fileName
 ;
 error
 =
-yield
+await
 evalInDebuggee
 (
 "
@@ -487,7 +487,7 @@ filename
 "
 )
 ;
-yield
+await
 teardown
 (
 target

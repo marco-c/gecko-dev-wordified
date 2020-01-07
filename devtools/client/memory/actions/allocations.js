@@ -87,8 +87,8 @@ front
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -114,7 +114,7 @@ getState
 recordingAllocationStacks
 )
 {
-yield
+await
 front
 .
 stopRecordingAllocations
@@ -124,7 +124,7 @@ stopRecordingAllocations
 }
 else
 {
-yield
+await
 front
 .
 startRecordingAllocations

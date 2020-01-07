@@ -125,8 +125,8 @@ js
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -140,7 +140,7 @@ be
 200px
 high
 ;
-yield
+await
 pushPref
 (
 "
@@ -160,7 +160,7 @@ let
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -317,7 +317,7 @@ box1
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -427,7 +427,7 @@ box2
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -546,7 +546,7 @@ box3
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -666,7 +666,7 @@ box4
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -763,7 +763,7 @@ expected
 "
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip

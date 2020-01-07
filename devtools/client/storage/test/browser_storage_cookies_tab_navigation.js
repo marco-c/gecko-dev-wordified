@@ -74,12 +74,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -120,7 +120,7 @@ browser
 "
 )
 ;
-yield
+await
 startCellEdit
 (
 id
@@ -192,7 +192,7 @@ cell
 "
 )
 ;
-yield
+await
 finishTests
 (
 )

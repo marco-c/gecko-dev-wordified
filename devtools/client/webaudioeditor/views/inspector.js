@@ -565,14 +565,8 @@ node
 .
 *
 /
-setCurrentAudioNode
-:
-Task
-.
 async
-(
-function
-*
+setCurrentAudioNode
 (
 node
 )
@@ -754,7 +748,6 @@ id
 ;
 }
 }
-)
 /
 *
 *

@@ -189,8 +189,8 @@ panel
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -211,7 +211,7 @@ let
 panel
 }
 =
-yield
+await
 addTestTab
 (
 TEST_PAGE_URL
@@ -229,7 +229,7 @@ children
 are
 displayed
 .
-yield
+await
 expandRow
 (
 panel

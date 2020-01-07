@@ -60,8 +60,8 @@ tests
 .
 *
 /
+async
 function
-*
 ifTestingSupported
 (
 )
@@ -72,7 +72,7 @@ target
 front
 }
 =
-yield
+await
 initCallWatcherBackend
 (
 SIMPLE_CANVAS_URL
@@ -105,7 +105,7 @@ available
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

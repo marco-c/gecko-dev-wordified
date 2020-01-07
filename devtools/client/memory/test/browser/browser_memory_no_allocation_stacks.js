@@ -161,8 +161,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -238,7 +238,7 @@ allocagtions
 "
 )
 ;
-yield
+await
 dispatch
 (
 takeSnapshotAndCensus
@@ -248,7 +248,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 dispatch
 (
 censusDisplayActions

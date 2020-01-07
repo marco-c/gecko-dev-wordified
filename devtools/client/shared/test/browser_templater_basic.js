@@ -107,16 +107,12 @@ html
 var
 test
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -132,7 +128,7 @@ host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -159,7 +155,6 @@ doc
 )
 ;
 }
-)
 ;
 function
 runTest

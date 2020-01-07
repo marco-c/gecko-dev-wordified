@@ -117,12 +117,12 @@ TOOL_DELAY
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 TEST_URI
@@ -135,7 +135,7 @@ loadTelemetryAndRecordLogs
 (
 )
 ;
-yield
+await
 pushPref
 (
 "
@@ -167,7 +167,7 @@ selectedTab
 let
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -196,7 +196,7 @@ button
 "
 )
 ;
-yield
+await
 testButton
 (
 toolbox
@@ -208,7 +208,7 @@ stopRecordingTelemetryLogs
 Telemetry
 )
 ;
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -225,8 +225,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 testButton
 (
 toolbox
@@ -276,8 +276,7 @@ button
 "
 )
 ;
-yield
-*
+await
 delayedClicks
 (
 toolbox
@@ -294,8 +293,8 @@ Telemetry
 )
 ;
 }
+async
 function
-*
 delayedClicks
 (
 toolbox
@@ -319,7 +318,7 @@ i
 +
 )
 {
-yield
+await
 new
 Promise
 (
@@ -448,7 +447,7 @@ click
 (
 )
 ;
-yield
+await
 clicked
 ;
 }

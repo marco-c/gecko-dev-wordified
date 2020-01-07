@@ -124,8 +124,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -183,7 +183,7 @@ CENSUS
 )
 )
 ;
-yield
+await
 takeSnapshot
 (
 panel
@@ -191,7 +191,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 gStore
@@ -260,7 +260,7 @@ forEach
 findNameCell
 )
 ;
-yield
+await
 setCensusDisplay
 (
 panel

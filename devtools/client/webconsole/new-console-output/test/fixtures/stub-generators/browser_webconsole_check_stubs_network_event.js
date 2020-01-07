@@ -102,15 +102,15 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 generatedStubs
 =
-yield
+await
 generateNetworkEventStubs
 (
 )
@@ -135,7 +135,7 @@ js
 let
 repoStubFileContent
 =
-yield
+await
 OS
 .
 File

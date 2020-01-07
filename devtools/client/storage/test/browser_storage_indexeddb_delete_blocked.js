@@ -98,12 +98,12 @@ is
 blocked
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -131,7 +131,7 @@ delete
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -173,7 +173,7 @@ delete
 "
 )
 ;
-yield
+await
 selectTreeItem
 (
 [
@@ -206,7 +206,7 @@ getCurrentFront
 let
 result
 =
-yield
+await
 front
 .
 removeDatabase
@@ -254,7 +254,7 @@ delete
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -299,7 +299,7 @@ store
 -
 objects
 -
-edit
+updated
 "
 )
 ;
@@ -315,7 +315,7 @@ db
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -324,8 +324,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -336,7 +336,7 @@ content
 .
 wrappedJSObject
 ;
-yield
+await
 win
 .
 closeDb
@@ -352,12 +352,12 @@ info
 waiting
 for
 store
-edit
+update
 events
 "
 )
 ;
-yield
+await
 eventWait
 ;
 info
@@ -371,7 +371,7 @@ delete
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -420,7 +420,7 @@ try
 {
 result
 =
-yield
+await
 front
 .
 removeDatabase
@@ -469,7 +469,7 @@ delete
 "
 )
 ;
-yield
+await
 finishTests
 (
 )

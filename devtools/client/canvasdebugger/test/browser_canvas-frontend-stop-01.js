@@ -48,8 +48,8 @@ cycle
 .
 *
 /
+async
 function
-*
 ifTestingSupported
 (
 )
@@ -60,7 +60,7 @@ target
 panel
 }
 =
-yield
+await
 initCanvasDebuggerFrontend
 (
 NO_CANVAS_URL
@@ -77,7 +77,7 @@ panel
 .
 panelWin
 ;
-yield
+await
 reload
 (
 target
@@ -100,7 +100,7 @@ _onRecordButtonClick
 (
 )
 ;
-yield
+await
 recordingStarted
 ;
 is
@@ -172,7 +172,7 @@ _onRecordButtonClick
 (
 )
 ;
-yield
+await
 promise
 .
 all
@@ -254,7 +254,7 @@ shown
 "
 )
 ;
-yield
+await
 teardown
 (
 panel

@@ -86,8 +86,8 @@ objExpr
 )
 {
 return
+async
 function
-*
 (
 )
 {
@@ -122,7 +122,7 @@ json
 +
 objExpr
 ;
-yield
+await
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -131,7 +131,7 @@ TEST_JSON_URL
 let
 objectText
 =
-yield
+await
 getElementText
 (
 "
@@ -173,8 +173,8 @@ objExpr
 )
 {
 return
+async
 function
-*
 (
 )
 {
@@ -214,7 +214,7 @@ objExpr
 ]
 "
 ;
-yield
+await
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -223,7 +223,7 @@ TEST_JSON_URL
 let
 objectCellCount
 =
-yield
+await
 getElementCount
 (
 "
@@ -253,7 +253,7 @@ cell
 let
 objectCellText
 =
-yield
+await
 getElementText
 (
 "
@@ -288,7 +288,7 @@ auto
 expanded
 node
 .
-yield
+await
 clickJsonNode
 (
 "
@@ -304,7 +304,7 @@ treeLabel
 let
 textAfter
 =
-yield
+await
 getElementText
 (
 "

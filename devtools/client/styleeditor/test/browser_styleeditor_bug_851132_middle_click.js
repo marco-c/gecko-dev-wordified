@@ -72,8 +72,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -82,7 +82,7 @@ let
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -100,7 +100,7 @@ TabOpen
 onTabAdded
 )
 ;
-yield
+await
 ui
 .
 editors
@@ -136,7 +136,7 @@ link
 "
 )
 ;
-yield
+await
 clickOnStyleSheetLink
 (
 ui
@@ -166,7 +166,7 @@ selected
 let
 editor
 =
-yield
+await
 ui
 .
 once
@@ -224,7 +224,7 @@ link
 "
 )
 ;
-yield
+await
 clickOnStyleSheetLink
 (
 ui
@@ -291,8 +291,8 @@ with
 .
 *
 /
+async
 function
-*
 clickOnStyleSheetLink
 (
 editor
@@ -333,7 +333,7 @@ focus
 "
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseFocus

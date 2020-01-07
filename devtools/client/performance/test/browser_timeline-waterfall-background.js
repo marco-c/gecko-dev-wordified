@@ -128,8 +128,8 @@ actions
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -138,7 +138,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -160,7 +160,7 @@ panel
 .
 panelWin
 ;
-yield
+await
 startRecording
 (
 panel
@@ -189,13 +189,13 @@ markers
 were
 received
 .
-yield
+await
 waitForOverviewRenderedWithMarkers
 (
 panel
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -276,7 +276,7 @@ correct
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

@@ -97,8 +97,8 @@ toolbox
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -108,7 +108,7 @@ toolbox
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -145,7 +145,7 @@ window
 "
 )
 ;
-yield
+await
 toolbox
 .
 switchHost
@@ -160,7 +160,7 @@ WINDOW
 let
 editor
 =
-yield
+await
 ui
 .
 editors

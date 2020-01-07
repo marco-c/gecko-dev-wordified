@@ -125,8 +125,8 @@ view
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -146,7 +146,7 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
@@ -186,7 +186,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -258,7 +258,7 @@ finish
 being
 fetched
 .
-yield
+await
 waitUntilState
 (
 store
@@ -357,7 +357,7 @@ the
 new
 selection
 .
-yield
+await
 waitUntilState
 (
 store
@@ -414,7 +414,7 @@ destroy
 (
 )
 ;
-yield
+await
 front
 .
 detach

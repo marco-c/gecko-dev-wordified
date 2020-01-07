@@ -599,8 +599,8 @@ is
 ready
 *
 /
+async
 function
-*
 openTab
 (
 url
@@ -613,7 +613,7 @@ options
 let
 tab
 =
-yield
+await
 addTab
 (
 url
@@ -649,7 +649,7 @@ for
 all
 its
 iframes
-yield
+await
 ContentTask
 .
 spawn
@@ -658,8 +658,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -828,7 +828,7 @@ complete
 "
 )
 {
-yield
+await
 new
 Promise
 (
@@ -881,7 +881,7 @@ win
 setup
 )
 {
-yield
+await
 win
 .
 setup
@@ -996,8 +996,8 @@ is
 ready
 *
 /
+async
 function
-*
 openTabAndSetupStorage
 (
 url
@@ -1011,7 +1011,7 @@ options
 /
 open
 tab
-yield
+await
 openTab
 (
 url
@@ -1024,7 +1024,6 @@ open
 storage
 inspector
 return
-yield
 openStoragePanel
 (
 )
@@ -1085,12 +1084,8 @@ ready
 var
 openStoragePanel
 =
-Task
-.
 async
-(
 function
-*
 (
 cb
 )
@@ -1248,7 +1243,7 @@ toolbox
 ;
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -1323,7 +1318,7 @@ update
 "
 )
 ;
-yield
+await
 gUI
 .
 once
@@ -1337,7 +1332,7 @@ updated
 "
 )
 ;
-yield
+await
 waitForToolboxFrameFocus
 (
 toolbox
@@ -1367,7 +1362,6 @@ storage
 }
 ;
 }
-)
 ;
 /
 *
@@ -1505,8 +1499,8 @@ the
 test
 *
 /
+async
 function
-*
 finishTests
 (
 )
@@ -1555,7 +1549,7 @@ length
 1
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -1564,8 +1558,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -1758,7 +1752,7 @@ win
 clear
 )
 {
-yield
+await
 win
 .
 clear
@@ -1770,7 +1764,7 @@ clear
 }
 )
 ;
-yield
+await
 closeTabAndToolbox
 (
 gBrowser
@@ -1812,7 +1806,6 @@ an
 async
 manner
 function
-*
 click
 (
 node
@@ -3381,8 +3374,8 @@ the
 tree
 *
 /
+async
 function
-*
 selectTreeItem
 (
 ids
@@ -3438,7 +3431,7 @@ selectedItem
 =
 ids
 ;
-yield
+await
 updated
 ;
 }
@@ -3473,8 +3466,8 @@ table
 widget
 *
 /
+async
 function
-*
 selectTableItem
 (
 id
@@ -3575,13 +3568,13 @@ updated
 "
 )
 ;
-yield
+await
 click
 (
 target
 )
 ;
-yield
+await
 updated
 ;
 }
@@ -4608,8 +4601,8 @@ row
 .
 *
 /
+async
 function
-*
 editCell
 (
 id
@@ -4648,7 +4641,7 @@ column
 ]
 )
 ;
-yield
+await
 typeWithTerminator
 (
 newValue
@@ -4712,7 +4705,6 @@ true
 *
 /
 function
-*
 startCellEdit
 (
 id
@@ -5198,8 +5190,8 @@ true
 .
 *
 /
+async
 function
-*
 typeWithTerminator
 (
 str
@@ -5332,7 +5324,7 @@ event
 let
 uniqueId
 =
-yield
+await
 gUI
 .
 table
@@ -5358,7 +5350,6 @@ uniqueId
 ;
 }
 return
-yield
 gUI
 .
 table
@@ -5605,8 +5596,8 @@ ones
 .
 *
 /
+async
 function
-*
 checkState
 (
 state
@@ -5645,7 +5636,7 @@ storeName
 }
 )
 ;
-yield
+await
 selectTreeItem
 (
 store
@@ -5840,12 +5831,8 @@ false
 var
 focusSearchBoxUsingShortcut
 =
-Task
-.
 async
-(
 function
-*
 (
 panelWin
 callback
@@ -5933,7 +5920,7 @@ key
 )
 )
 ;
-yield
+await
 focused
 ;
 if
@@ -5947,7 +5934,6 @@ callback
 ;
 }
 }
-)
 ;
 function
 getCookieId
@@ -6106,8 +6092,8 @@ item
 .
 *
 /
+async
 function
-*
 performAdd
 (
 store
@@ -6149,7 +6135,7 @@ store
 0
 ]
 ;
-yield
+await
 selectTreeItem
 (
 store
@@ -6240,10 +6226,10 @@ click
 let
 rowId
 =
-yield
+await
 eventEdit
 ;
-yield
+await
 eventWait
 ;
 let

@@ -90,8 +90,8 @@ COL_NO
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -100,7 +100,7 @@ let
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -128,7 +128,7 @@ sheet
 "
 )
 ;
-yield
+await
 ui
 .
 selectStyleSheet

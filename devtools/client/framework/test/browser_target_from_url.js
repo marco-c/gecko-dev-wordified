@@ -244,15 +244,15 @@ true
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 addTab
 (
 TEST_URI
@@ -279,7 +279,7 @@ type
 ;
 try
 {
-yield
+await
 targetFromURL
 (
 new
@@ -365,7 +365,7 @@ outerWindowID
 ;
 target
 =
-yield
+await
 targetFromURL
 (
 new
@@ -450,7 +450,7 @@ outerWindowID
 ;
 target
 =
-yield
+await
 targetFromURL
 (
 new
@@ -494,7 +494,7 @@ privileges
 ;
 target
 =
-yield
+await
 targetFromURL
 (
 new
@@ -543,7 +543,7 @@ id
 ;
 try
 {
-yield
+await
 targetFromURL
 (
 new
@@ -616,7 +616,7 @@ process
 ;
 target
 =
-yield
+await
 targetFromURL
 (
 new
@@ -663,12 +663,12 @@ href
 true
 )
 ;
-yield
+await
 testRemoteTCP
 (
 )
 ;
-yield
+await
 testRemoteWebSocket
 (
 )
@@ -682,8 +682,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 setupDebuggerServer
 (
 websocket
@@ -791,7 +791,7 @@ webSocket
 =
 websocket
 ;
-yield
+await
 listener
 .
 open
@@ -874,8 +874,8 @@ destroy
 )
 ;
 }
+async
 function
-*
 testRemoteTCP
 (
 )
@@ -895,7 +895,7 @@ Connection
 let
 server
 =
-yield
+await
 setupDebuggerServer
 (
 false
@@ -913,7 +913,7 @@ listener
 let
 target
 =
-yield
+await
 targetFromURL
 (
 new
@@ -1018,7 +1018,7 @@ webSocket
 false
 )
 ;
-yield
+await
 target
 .
 client
@@ -1033,8 +1033,8 @@ server
 )
 ;
 }
+async
 function
-*
 testRemoteWebSocket
 (
 )
@@ -1054,7 +1054,7 @@ Connection
 let
 server
 =
-yield
+await
 setupDebuggerServer
 (
 true
@@ -1072,7 +1072,7 @@ listener
 let
 target
 =
-yield
+await
 targetFromURL
 (
 new
@@ -1184,7 +1184,7 @@ webSocket
 true
 )
 ;
-yield
+await
 target
 .
 client

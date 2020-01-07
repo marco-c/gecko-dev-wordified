@@ -107,8 +107,8 @@ constants
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -128,7 +128,7 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
@@ -153,7 +153,7 @@ store
 let
 destPath
 =
-yield
+await
 createTempFile
 (
 )
@@ -167,7 +167,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -225,13 +225,13 @@ destPath
 )
 )
 ;
-yield
+await
 exportEvents
 ;
 let
 stat
 =
-yield
+await
 OS
 .
 File
@@ -272,7 +272,7 @@ destroy
 (
 )
 ;
-yield
+await
 front
 .
 detach

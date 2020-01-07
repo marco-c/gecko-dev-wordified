@@ -56,15 +56,15 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 fileContent
 =
-yield
+await
 generateCssMessageStubs
 (
 )
@@ -90,7 +90,7 @@ js
 "
 )
 ;
-yield
+await
 OS
 .
 File

@@ -502,12 +502,12 @@ propertyName
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -536,7 +536,7 @@ host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -570,7 +570,7 @@ autocomplete
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -634,12 +634,8 @@ removeCurrentTab
 let
 runAutocompletionTest
 =
-Task
-.
 async
-(
 function
-*
 (
 editor
 )
@@ -785,7 +781,7 @@ offset
 }
 else
 {
-yield
+await
 testCompletion
 (
 data
@@ -811,7 +807,6 @@ defaultView
 )
 ;
 }
-)
 ;
 /
 *

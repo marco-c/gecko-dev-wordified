@@ -117,8 +117,8 @@ display
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -132,7 +132,7 @@ display
 )
 )
 ;
-yield
+await
 dispatch
 (
 refresh

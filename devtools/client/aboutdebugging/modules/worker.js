@@ -61,22 +61,6 @@ use
 strict
 "
 ;
-const
-{
-Task
-}
-=
-require
-(
-"
-devtools
-/
-shared
-/
-task
-"
-)
-;
 loader
 .
 lazyRequireGetter
@@ -320,12 +304,8 @@ exports
 .
 getWorkerForms
 =
-Task
-.
 async
-(
 function
-*
 (
 client
 )
@@ -355,7 +335,7 @@ registrations
 registrations
 }
 =
-yield
+await
 client
 .
 mainRoot
@@ -378,7 +358,7 @@ process
 workers
 }
 =
-yield
+await
 client
 .
 mainRoot
@@ -401,7 +381,7 @@ let
 processes
 }
 =
-yield
+await
 client
 .
 mainRoot
@@ -438,7 +418,7 @@ let
 form
 }
 =
-yield
+await
 client
 .
 getProcess
@@ -458,7 +438,7 @@ actor
 let
 response
 =
-yield
+await
 client
 .
 request
@@ -512,5 +492,4 @@ workers
 }
 ;
 }
-)
 ;

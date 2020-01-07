@@ -198,12 +198,8 @@ this
 .
 openMemoryPanel
 =
-Task
-.
 async
-(
 function
-*
 (
 tab
 )
@@ -231,7 +227,7 @@ tab
 const
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -269,7 +265,6 @@ panel
 }
 ;
 }
-)
 ;
 /
 *
@@ -290,12 +285,8 @@ this
 .
 closeMemoryPanel
 =
-Task
-.
 async
-(
 function
-*
 (
 tab
 )
@@ -330,7 +321,7 @@ getToolbox
 target
 )
 ;
-yield
+await
 toolbox
 .
 destroy
@@ -349,7 +340,6 @@ successfully
 )
 ;
 }
-)
 ;
 /
 *
@@ -434,12 +424,8 @@ generator
 )
 {
 return
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -484,7 +470,7 @@ requestLongerTimeout
 const
 tab
 =
-yield
+await
 addTab
 (
 url
@@ -493,7 +479,7 @@ url
 const
 results
 =
-yield
+await
 openMemoryPanel
 (
 tab
@@ -501,8 +487,7 @@ tab
 ;
 try
 {
-yield
-*
+await
 generator
 (
 results
@@ -533,13 +518,13 @@ err
 )
 ;
 }
-yield
+await
 closeMemoryPanel
 (
 tab
 )
 ;
-yield
+await
 removeTab
 (
 tab
@@ -550,7 +535,6 @@ finish
 )
 ;
 }
-)
 ;
 }
 function

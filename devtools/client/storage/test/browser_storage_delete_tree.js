@@ -98,12 +98,12 @@ tree
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -166,7 +166,7 @@ delete
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -531,7 +531,7 @@ join
 "
 )
 ;
-yield
+await
 selectTreeItem
 (
 store
@@ -559,7 +559,7 @@ cookies
 "
 ?
 "
-edit
+updated
 "
 :
 "
@@ -628,7 +628,7 @@ storeName
 }
 )
 ;
-yield
+await
 waitForContextMenu
 (
 contextMenu
@@ -659,7 +659,7 @@ click
 }
 )
 ;
-yield
+await
 eventWait
 ;
 }
@@ -673,7 +673,7 @@ delete
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -792,7 +792,7 @@ plop
 ]
 )
 ;
-yield
+await
 finishTests
 (
 )

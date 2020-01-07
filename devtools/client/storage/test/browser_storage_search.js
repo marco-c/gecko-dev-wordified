@@ -16,12 +16,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -43,7 +43,7 @@ expandAll
 (
 )
 ;
-yield
+await
 selectTreeItem
 (
 [
@@ -570,7 +570,7 @@ runTests
 testcasesAfterHiding
 )
 ;
-yield
+await
 finishTests
 (
 )

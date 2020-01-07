@@ -86,12 +86,12 @@ testid
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 TESTCASE_URI
@@ -103,12 +103,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -139,7 +139,7 @@ click
 (
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 let
@@ -147,7 +147,7 @@ let
 ui
 }
 =
-yield
+await
 openStyleEditor
 (
 )
@@ -162,7 +162,7 @@ editor
 "
 )
 ;
-yield
+await
 ui
 .
 selectStyleSheet

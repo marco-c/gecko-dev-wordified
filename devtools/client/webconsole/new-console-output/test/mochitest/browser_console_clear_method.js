@@ -132,12 +132,12 @@ Bug
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 loadTab
 (
 TEST_URI
@@ -146,7 +146,7 @@ TEST_URI
 let
 hud
 =
-yield
+await
 HUDService
 .
 toggleBrowserConsole
@@ -176,8 +176,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -197,7 +197,7 @@ msg
 }
 )
 ;
-yield
+await
 waitForMessage
 (
 "
@@ -232,8 +232,8 @@ gBrowser
 selectedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -250,7 +250,7 @@ clear
 }
 )
 ;
-yield
+await
 waitForMessage
 (
 "
