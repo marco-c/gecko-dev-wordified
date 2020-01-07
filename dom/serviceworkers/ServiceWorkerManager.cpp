@@ -11853,6 +11853,15 @@ reservedClient
 )
 )
 ;
+clientInfo
+=
+loadInfo
+-
+>
+GetReservedClientInfo
+(
+)
+;
 }
 }
 /
