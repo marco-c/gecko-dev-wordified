@@ -3584,8 +3584,7 @@ self
 )
 :
         
-handles
-=
+return
 self
 .
 send_session_command
@@ -3597,41 +3596,6 @@ DELETE
 window
 "
 )
-        
-if
-len
-(
-handles
-)
-=
-=
-0
-:
-            
-#
-With
-no
-more
-open
-top
--
-level
-browsing
-contexts
-the
-session
-is
-closed
-.
-            
-self
-.
-session_id
-=
-None
-        
-return
-handles
     
 property
     
