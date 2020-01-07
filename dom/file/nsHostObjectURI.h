@@ -434,6 +434,14 @@ URIParams
 &
 )
 ;
+nsresult
+ReadPrivate
+(
+nsIObjectInputStream
+*
+stream
+)
+;
 public
 :
 class
