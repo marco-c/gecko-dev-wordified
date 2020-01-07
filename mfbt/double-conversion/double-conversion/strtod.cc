@@ -1643,7 +1643,7 @@ return
 false
 ;
 #
-endif
+else
 if
 (
 trimmed
@@ -1984,6 +1984,8 @@ true
 return
 false
 ;
+#
+endif
 }
 /
 /
