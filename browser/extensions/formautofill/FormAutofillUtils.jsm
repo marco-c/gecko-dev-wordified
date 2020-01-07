@@ -976,6 +976,7 @@ country
 param
 {
 string
+?
 }
 level1
 *
@@ -1184,6 +1185,7 @@ country
 param
 {
 string
+?
 }
 level1
 *
@@ -1205,6 +1207,8 @@ getData
 (
 country
 level1
+=
+null
 )
 {
 let
