@@ -380,13 +380,6 @@ h
 #
 include
 "
-jsatominlines
-.
-h
-"
-#
-include
-"
 gc
 /
 Nursery

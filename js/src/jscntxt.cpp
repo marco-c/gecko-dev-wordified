@@ -235,13 +235,6 @@ XP_WIN
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jscompartment
 .
 h

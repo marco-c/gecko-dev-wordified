@@ -211,13 +211,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jsbool
 .
 h
@@ -752,13 +745,6 @@ include
 wasm
 /
 WasmModule
-.
-h
-"
-#
-include
-"
-jsatominlines
 .
 h
 "

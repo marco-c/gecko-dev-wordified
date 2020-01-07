@@ -194,13 +194,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -257,13 +250,6 @@ include
 vm
 /
 StringBuffer
-.
-h
-"
-#
-include
-"
-jsatominlines
 .
 h
 "

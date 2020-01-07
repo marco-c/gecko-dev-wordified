@@ -199,13 +199,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -414,13 +407,6 @@ include
 vm
 /
 TraceLogging
-.
-h
-"
-#
-include
-"
-jsatominlines
 .
 h
 "

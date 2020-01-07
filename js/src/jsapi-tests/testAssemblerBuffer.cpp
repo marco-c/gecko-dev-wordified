@@ -66,13 +66,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jit
 /
 shared

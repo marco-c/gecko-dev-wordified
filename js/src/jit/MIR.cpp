@@ -249,13 +249,6 @@ h
 #
 include
 "
-jsatominlines
-.
-h
-"
-#
-include
-"
 jsboolinlines
 .
 h

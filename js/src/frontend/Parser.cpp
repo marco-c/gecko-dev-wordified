@@ -257,13 +257,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -365,13 +358,6 @@ include
 wasm
 /
 AsmJS
-.
-h
-"
-#
-include
-"
-jsatominlines
 .
 h
 "

@@ -184,13 +184,6 @@ h
 #
 include
 "
-jsatom
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -427,13 +420,6 @@ include
 vm
 /
 TypedArrayObject
-.
-h
-"
-#
-include
-"
-jsatominlines
 .
 h
 "
