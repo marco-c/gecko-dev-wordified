@@ -700,14 +700,6 @@ env_options
 return
 {
 "
-bind_hostname
-"
-:
-"
-true
-"
-            
-"
 supports_debugger
 "
 :
