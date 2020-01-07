@@ -691,6 +691,9 @@ mTabId
 nsString
 mRequestId
 ;
+nsString
+mCompleteStatus
+;
 nsCOMPtr
 <
 nsIPrincipal
