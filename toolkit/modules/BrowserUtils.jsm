@@ -2170,16 +2170,12 @@ f
 return
 values
 .
-indexOf
+includes
 (
 "
 noreferrer
 "
 )
-!
-=
--
-1
 ;
 }
 /

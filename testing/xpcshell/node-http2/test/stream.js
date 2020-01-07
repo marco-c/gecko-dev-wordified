@@ -164,15 +164,10 @@ if
 (
 recorded_events
 .
-indexOf
+includes
 (
 name
 )
-!
-=
-=
--
-1
 )
 {
 events

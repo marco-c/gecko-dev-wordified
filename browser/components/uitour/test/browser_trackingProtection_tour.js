@@ -464,14 +464,10 @@ data
 .
 targets
 .
-indexOf
+includes
 (
 targetID
 )
-!
-=
--
-1
 )
 ;
 is

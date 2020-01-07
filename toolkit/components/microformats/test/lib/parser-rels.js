@@ -410,6 +410,7 @@ resolved
 URLs
 if
 (
+!
 out
 .
 rels
@@ -417,15 +418,10 @@ rels
 item
 ]
 .
-indexOf
+includes
 (
 resolved
 )
-=
-=
-=
--
-1
 )
 {
 out

@@ -301,7 +301,7 @@ toString
 (
 )
 .
-indexOf
+includes
 (
 "
 Incorrect
@@ -314,9 +314,6 @@ connect
 .
 "
 )
->
-=
-0
 "
 exception
 message

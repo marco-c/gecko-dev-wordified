@@ -2238,13 +2238,10 @@ request
 .
 ids
 .
-indexOf
+includes
 (
 guid
 )
->
-=
-0
 |
 |
 guid

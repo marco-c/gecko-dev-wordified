@@ -1095,16 +1095,12 @@ code
 &
 YANDEX_PERMANENT_ERRORS
 .
-indexOf
+includes
 (
 json
 .
 code
 )
-!
-=
--
-1
 )
 this
 .

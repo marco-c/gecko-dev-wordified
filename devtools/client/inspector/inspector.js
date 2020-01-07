@@ -7840,9 +7840,10 @@ isAnonymousNode
 )
 &
 &
+!
 invalidTagNames
 .
-indexOf
+includes
 (
 selection
 .
@@ -7854,11 +7855,6 @@ toLowerCase
 (
 )
 )
-=
-=
-=
--
-1
 ;
 }
 /

@@ -2007,16 +2007,12 @@ networkInfo
 .
 updates
 .
-indexOf
+includes
 (
 "
 requestPostData
 "
 )
-!
-=
--
-1
 )
 {
 expectedLength

@@ -953,6 +953,7 @@ urlString
 ;
 if
 (
+!
 [
 "
 http
@@ -965,16 +966,12 @@ ftp
 "
 ]
 .
-indexOf
+includes
 (
 uri
 .
 scheme
 )
-=
-=
--
-1
 )
 {
 continue

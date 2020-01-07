@@ -6447,15 +6447,12 @@ navigator
 .
 platform
 .
-indexOf
+includes
 (
 "
 Mac
 "
 )
->
-=
-0
 )
 ;
 const

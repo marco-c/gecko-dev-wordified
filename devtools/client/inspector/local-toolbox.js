@@ -814,7 +814,7 @@ location
 .
 href
 .
-indexOf
+includes
 (
 "
 firefox
@@ -822,10 +822,6 @@ firefox
 tab
 "
 )
-!
-=
--
-1
 ;
 if
 (

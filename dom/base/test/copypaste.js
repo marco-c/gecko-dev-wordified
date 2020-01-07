@@ -705,15 +705,12 @@ navigator
 .
 platform
 .
-indexOf
+includes
 (
 "
 Win
 "
 )
->
-=
-0
 )
 {
 /

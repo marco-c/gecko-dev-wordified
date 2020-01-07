@@ -496,7 +496,7 @@ NORMAL_BUFFER_STATUS_MESSAGE
 .
 value
 .
-indexOf
+includes
 (
 gPercent
 +
@@ -504,11 +504,6 @@ gPercent
 %
 "
 )
-!
-=
-=
--
-1
 "
 Buffer
 status

@@ -595,7 +595,7 @@ toLowerCase
 (
 )
 .
-indexOf
+includes
 (
 "
 family
@@ -606,10 +606,6 @@ stepping
 4
 "
 )
-!
-=
--
-1
 )
 {
 cpuIDMatch
@@ -822,7 +818,7 @@ if
 (
 microCodeVersions
 .
-indexOf
+includes
 (
 parseInt
 (
@@ -835,10 +831,6 @@ join
 )
 )
 )
-!
-=
--
-1
 )
 {
 cpuRevMatch

@@ -1148,11 +1148,12 @@ comparison
 ?
 if
 (
+!
 ex
 .
 message
 .
-indexOf
+includes
 (
 "
 User
@@ -1162,10 +1163,6 @@ Password
 entry
 "
 )
-=
-=
--
-1
 )
 {
 throw

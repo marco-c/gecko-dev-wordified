@@ -468,7 +468,7 @@ if
 (
 requestedUrl
 .
-indexOf
+includes
 (
 "
 https
@@ -477,10 +477,6 @@ https
 /
 "
 )
-!
-=
--
-1
 )
 {
 return

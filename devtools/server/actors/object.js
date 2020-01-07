@@ -2591,15 +2591,10 @@ obj
 &
 ownProperties
 .
-indexOf
+includes
 (
 name
 )
-!
-=
-=
--
-1
 )
 )
 {

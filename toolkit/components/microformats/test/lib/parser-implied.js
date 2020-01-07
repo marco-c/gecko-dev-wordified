@@ -1404,9 +1404,10 @@ baseUrl
 '
 &
 &
+!
 value
 .
-indexOf
+includes
 (
 '
 :
@@ -1414,11 +1415,6 @@ indexOf
 /
 '
 )
-=
-=
-=
--
-1
 )
 {
 value
@@ -1767,9 +1763,10 @@ baseUrl
 '
 &
 &
+!
 value
 .
-indexOf
+includes
 (
 '
 :
@@ -1777,11 +1774,6 @@ indexOf
 /
 '
 )
-=
-=
-=
--
-1
 )
 {
 value

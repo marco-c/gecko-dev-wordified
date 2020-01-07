@@ -967,7 +967,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 sw
@@ -977,9 +977,6 @@ stream
 download
 "
 )
->
-=
-0
 )
 {
 return
@@ -1004,7 +1001,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 sw
@@ -1014,9 +1011,6 @@ passthrough
 download
 "
 )
->
-=
-0
 )
 {
 return

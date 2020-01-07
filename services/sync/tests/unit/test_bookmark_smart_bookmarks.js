@@ -750,6 +750,7 @@ id
 )
 {
 return
+!
 [
 "
 menu
@@ -765,14 +766,10 @@ unfiled
 "
 ]
 .
-indexOf
+includes
 (
 id
 )
-=
-=
--
-1
 ;
 }
 )

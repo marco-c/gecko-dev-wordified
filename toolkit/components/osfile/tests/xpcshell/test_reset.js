@@ -346,7 +346,7 @@ ex
 .
 message
 .
-indexOf
+includes
 (
 OS
 .
@@ -357,10 +357,6 @@ basename
 TEST_FILE
 )
 )
-!
-=
--
-1
 )
 {
 thrown
@@ -499,7 +495,7 @@ ex
 .
 message
 .
-indexOf
+includes
 (
 OS
 .
@@ -510,10 +506,6 @@ basename
 TEST_DIR
 )
 )
-!
-=
--
-1
 )
 {
 thrown

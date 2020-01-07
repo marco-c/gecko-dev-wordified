@@ -7319,7 +7319,7 @@ if
 (
 messageText
 .
-indexOf
+includes
 (
 "
 Warning
@@ -7335,11 +7335,6 @@ identifier
 '
 "
 )
-!
-=
-=
--
-1
 )
 {
 deferred
@@ -7474,7 +7469,7 @@ if
 (
 messageText
 .
-indexOf
+includes
 (
 "
 Error
@@ -7492,11 +7487,6 @@ connection
 foo
 "
 )
-!
-=
-=
--
-1
 )
 {
 deferred

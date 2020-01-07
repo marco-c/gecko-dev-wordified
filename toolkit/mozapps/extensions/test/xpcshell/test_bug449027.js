@@ -2378,9 +2378,10 @@ lastTest
 {
 if
 (
+!
 gNewBlocks
 .
-indexOf
+includes
 (
 ADDONS
 [
@@ -2399,8 +2400,6 @@ i
 .
 version
 )
-<
-0
 )
 do_throw
 (
@@ -2476,9 +2475,10 @@ lastTest
 {
 if
 (
+!
 gNewBlocks
 .
-indexOf
+includes
 (
 PLUGINS
 [
@@ -2497,8 +2497,6 @@ i
 .
 version
 )
-<
-0
 )
 do_throw
 (

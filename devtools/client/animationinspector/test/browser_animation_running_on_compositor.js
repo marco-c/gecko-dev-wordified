@@ -503,14 +503,9 @@ title
 return
 tooltip
 .
-indexOf
+includes
 (
 expected
 )
-!
-=
-=
--
-1
 ;
 }

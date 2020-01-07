@@ -1016,7 +1016,7 @@ this
 .
 blockLevelTags
 .
-indexOf
+includes
 (
 node
 .
@@ -1026,11 +1026,6 @@ toLowerCase
 (
 )
 )
-!
-=
-=
--
-1
 )
 {
 out

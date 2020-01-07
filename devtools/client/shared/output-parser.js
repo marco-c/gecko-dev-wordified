@@ -2993,15 +2993,12 @@ expectCubicBezier
 &
 BEZIER_KEYWORDS
 .
-indexOf
+includes
 (
 token
 .
 text
 )
->
-=
-0
 )
 {
 this

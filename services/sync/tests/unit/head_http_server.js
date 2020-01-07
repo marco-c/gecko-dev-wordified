@@ -1828,16 +1828,12 @@ options
 .
 ids
 .
-indexOf
+includes
 (
 wbo
 .
 id
 )
-!
-=
--
-1
 )
 )
 &

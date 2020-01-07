@@ -17278,14 +17278,13 @@ name
 )
 &
 &
+!
 legacyMozPrefixedInterfaces
 .
-indexOf
+includes
 (
 name
 )
-<
-0
 )
 {
 continue

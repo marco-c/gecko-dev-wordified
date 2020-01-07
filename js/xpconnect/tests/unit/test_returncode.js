@@ -348,7 +348,7 @@ messages
 0
 ]
 .
-indexOf
+includes
 (
 "
 a
@@ -356,10 +356,6 @@ requested
 error
 "
 )
-!
-=
--
-1
 "
 got
 the

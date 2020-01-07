@@ -59968,13 +59968,10 @@ detail
 .
 changed
 .
-indexOf
+includes
 (
 attr
 )
->
-=
-0
 )
 ;
 break

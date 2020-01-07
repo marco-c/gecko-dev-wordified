@@ -746,9 +746,10 @@ aBrowser
 currentURI
 |
 |
+!
 topSites
 .
-indexOf
+includes
 (
 aBrowser
 .
@@ -756,10 +757,6 @@ currentURI
 .
 spec
 )
-=
-=
--
-1
 )
 return
 ;

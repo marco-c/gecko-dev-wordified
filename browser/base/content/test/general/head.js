@@ -2750,16 +2750,12 @@ closed
 "
 ]
 .
-indexOf
+includes
 (
 element
 .
 state
 )
-!
-=
--
-1
 ;
 /
 /

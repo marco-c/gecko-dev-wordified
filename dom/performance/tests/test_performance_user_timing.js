@@ -2795,13 +2795,10 @@ secureConnectionStart
 "
 ]
 .
-indexOf
+includes
 (
 n
 )
->
-=
-0
 "
 Measure
 created

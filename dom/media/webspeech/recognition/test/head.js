@@ -477,13 +477,10 @@ self
 .
 eventsReceived
 .
-indexOf
+includes
 (
 dep
 )
->
-=
-0
 eventName
 +
 "

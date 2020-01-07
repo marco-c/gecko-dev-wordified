@@ -556,7 +556,7 @@ toLowerCase
 (
 )
 .
-indexOf
+includes
 (
 this
 .
@@ -568,9 +568,6 @@ toLowerCase
 (
 )
 )
->
-=
-0
 ;
 }
 renderValue

@@ -886,7 +886,7 @@ if
 (
 keys
 .
-indexOf
+includes
 (
 key
 +
@@ -898,9 +898,6 @@ this
 .
 _locale
 )
->
-=
-0
 )
 {
 key
@@ -920,7 +917,7 @@ if
 (
 keys
 .
-indexOf
+includes
 (
 key
 +
@@ -932,9 +929,6 @@ this
 .
 _language
 )
->
-=
-0
 )
 {
 key

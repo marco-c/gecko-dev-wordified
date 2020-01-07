@@ -495,16 +495,13 @@ if
 (
 data
 .
-indexOf
+includes
 (
 "
 SimpleTest
 FINISH
 "
 )
->
-=
-0
 )
 {
 MozillaFileLogger

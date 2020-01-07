@@ -153,7 +153,7 @@ isWinXP
 =
 ua
 .
-indexOf
+includes
 (
 "
 Windows
@@ -163,10 +163,6 @@ NT
 1
 "
 )
-!
-=
--
-1
 ;
 var
 gConverter

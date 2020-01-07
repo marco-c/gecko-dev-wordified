@@ -321,6 +321,7 @@ isNotLoaded
 )
 {
 return
+!
 [
 "
 complete
@@ -330,7 +331,7 @@ interactive
 "
 ]
 .
-indexOf
+includes
 (
 hidden
 .
@@ -338,10 +339,6 @@ document
 .
 readyState
 )
-=
-=
--
-1
 ;
 }
 if

@@ -244,15 +244,10 @@ r
 "
 ]
 .
-indexOf
+includes
 (
 name
 )
-!
-=
-=
--
-1
 )
 ;
 is

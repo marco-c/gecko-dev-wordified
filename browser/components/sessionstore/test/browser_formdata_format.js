@@ -1153,6 +1153,7 @@ restoredFormData
 {
 if
 (
+!
 [
 "
 id
@@ -1165,15 +1166,10 @@ url
 "
 ]
 .
-indexOf
+includes
 (
 key
 )
-=
-=
-=
--
-1
 )
 {
 ok

@@ -350,7 +350,7 @@ ok
 (
 ct
 .
-indexOf
+includes
 (
 "
 mem
@@ -358,10 +358,6 @@ mem
 mapped
 "
 )
-!
-=
--
-1
 "
 Data
 is
@@ -492,7 +488,7 @@ ok
 (
 ct
 .
-indexOf
+includes
 (
 "
 mem
@@ -500,10 +496,6 @@ mem
 mapped
 "
 )
-!
-=
--
-1
 "
 Data
 is
@@ -663,9 +655,10 @@ Type
 ;
 ok
 (
+!
 ct
 .
-indexOf
+includes
 (
 "
 mem
@@ -673,10 +666,6 @@ mem
 mapped
 "
 )
-=
-=
--
-1
 "
 Data
 is

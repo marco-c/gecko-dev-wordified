@@ -414,7 +414,7 @@ Cookie
 "
 )
 .
-indexOf
+includes
 (
 match
 [
@@ -431,10 +431,6 @@ replace
 "
 )
 )
-!
-=
--
-1
 ;
 }
 catch

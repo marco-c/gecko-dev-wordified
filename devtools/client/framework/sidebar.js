@@ -2402,15 +2402,10 @@ if
 (
 knownTabs
 .
-indexOf
+includes
 (
 tab
 )
-!
-=
-=
--
-1
 )
 {
 continue

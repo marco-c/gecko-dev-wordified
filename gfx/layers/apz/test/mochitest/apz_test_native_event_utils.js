@@ -71,15 +71,12 @@ navigator
 .
 appVersion
 .
-indexOf
+includes
 (
 "
 Android
 "
 )
->
-=
-0
 )
 {
 return

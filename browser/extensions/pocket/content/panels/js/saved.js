@@ -3160,9 +3160,10 @@ element
 {
 if
 (
+!
 activetokenstext
 .
-indexOf
+includes
 (
 "
 |
@@ -3180,10 +3181,6 @@ text
 |
 "
 )
-=
-=
--
-1
 )
 {
 (

@@ -1077,14 +1077,10 @@ OMA_DRM_CONTENT_MIME
 OMA_DRM_RIGHTS_MIME
 ]
 .
-indexOf
+includes
 (
 mimeType
 )
-!
-=
--
-1
 ;
 }
 show

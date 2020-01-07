@@ -499,16 +499,12 @@ navigator
 .
 appVersion
 .
-indexOf
+includes
 (
 '
 Android
 '
 )
-!
-=
--
-1
 )
 {
 os

@@ -987,15 +987,11 @@ command
 .
 name
 .
-indexOf
+includes
 (
 '
 '
 )
-!
-=
--
-1
 )
 {
 /

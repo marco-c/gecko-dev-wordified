@@ -565,16 +565,12 @@ groupEnd
 "
 ]
 .
-indexOf
+includes
 (
 aMessage
 .
 level
 )
-!
-=
--
-1
 )
 {
 /

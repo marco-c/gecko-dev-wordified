@@ -456,14 +456,10 @@ values
 idx
 ]
 .
-indexOf
+includes
 (
 aSearchString
 )
-!
-=
--
-1
 )
 {
 values

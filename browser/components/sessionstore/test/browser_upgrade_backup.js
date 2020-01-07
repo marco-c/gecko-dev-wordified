@@ -1256,14 +1256,13 @@ backup
 )
 {
 return
+!
 backups
 .
-indexOf
+includes
 (
 backup
 )
-<
-0
 ;
 }
 )

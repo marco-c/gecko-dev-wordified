@@ -5548,6 +5548,7 @@ if
 realURL
 |
 |
+!
 [
 "
 http
@@ -5560,16 +5561,12 @@ ftp
 "
 ]
 .
-indexOf
+includes
 (
 realURL
 .
 scheme
 )
-=
-=
--
-1
 )
 {
 /

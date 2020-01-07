@@ -321,14 +321,10 @@ C2
 )
 whitelist
 .
-indexOf
+includes
 (
 prop
 )
-!
-=
--
-1
 )
 ;
 }

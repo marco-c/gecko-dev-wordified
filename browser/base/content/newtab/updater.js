@@ -987,14 +987,10 @@ aSite
 |
 aSites
 .
-indexOf
+includes
 (
 aSite
 )
-!
-=
--
-1
 )
 return
 ;

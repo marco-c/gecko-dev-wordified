@@ -581,16 +581,12 @@ if
 (
 input
 .
-indexOf
+includes
 (
 '
 content
 '
 )
-!
-=
--
-1
 )
 {
 /

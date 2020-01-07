@@ -730,13 +730,10 @@ ok
 (
 possibleNames
 .
-indexOf
+includes
 (
 name
 )
->
-=
-0
 name
 +
 "

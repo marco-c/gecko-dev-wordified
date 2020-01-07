@@ -330,15 +330,12 @@ ok
 (
 additionalDumps
 .
-indexOf
+includes
 (
 '
 browser
 '
 )
->
-=
-0
 "
 browser
 in

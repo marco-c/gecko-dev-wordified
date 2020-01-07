@@ -298,13 +298,10 @@ toString
 (
 )
 .
-indexOf
+includes
 (
 throwType
 )
->
-=
-0
 message
 :
 "

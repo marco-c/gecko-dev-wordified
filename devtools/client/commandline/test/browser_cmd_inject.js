@@ -381,7 +381,7 @@ url
 .
 pathname
 .
-indexOf
+includes
 (
 "
 _inject
@@ -389,10 +389,6 @@ _inject
 js
 "
 )
-!
-=
--
-1
 "
 inject
 url
@@ -579,7 +575,7 @@ url
 .
 pathname
 .
-indexOf
+includes
 (
 "
 _inject
@@ -587,10 +583,6 @@ _inject
 js
 "
 )
-!
-=
--
-1
 "
 inject
 url

@@ -1366,7 +1366,7 @@ if
 (
 classList
 .
-indexOf
+includes
 (
 "
 reftest
@@ -1374,10 +1374,6 @@ reftest
 print
 "
 )
-!
-=
--
-1
 )
 {
 SendException
@@ -1402,7 +1398,7 @@ return
 return
 classList
 .
-indexOf
+includes
 (
 "
 reftest
@@ -1410,10 +1406,6 @@ reftest
 paged
 "
 )
-!
-=
--
-1
 ;
 }
 }
@@ -2936,7 +2928,7 @@ s
 /
 )
 .
-indexOf
+includes
 (
 "
 reftest
@@ -2944,10 +2936,6 @@ reftest
 wait
 "
 )
-!
-=
--
-1
 ;
 }
 function
@@ -3000,7 +2988,7 @@ s
 /
 )
 .
-indexOf
+includes
 (
 "
 reftest
@@ -3010,10 +2998,6 @@ snapshot
 all
 "
 )
-!
-=
--
-1
 ;
 }
 function
@@ -6610,7 +6594,7 @@ s
 /
 )
 .
-indexOf
+includes
 (
 "
 reftest
@@ -6622,10 +6606,6 @@ process
 crash
 "
 )
-!
-=
--
-1
 )
 {
 SendExpectProcessCrash

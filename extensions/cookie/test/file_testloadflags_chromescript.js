@@ -310,13 +310,14 @@ favicons
 )
 if
 (
+!
 channel
 .
 URI
 .
 spec
 .
-indexOf
+includes
 (
 "
 http
@@ -337,10 +338,6 @@ test
 /
 "
 )
-=
-=
--
-1
 )
 {
 info

@@ -1903,14 +1903,10 @@ stat
 .
 name
 .
-indexOf
+includes
 (
 URL
 )
-!
-=
--
-1
 )
 "
 The

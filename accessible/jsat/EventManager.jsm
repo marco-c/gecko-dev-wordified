@@ -1833,6 +1833,7 @@ aEvent
 ;
 if
 (
+!
 [
 Roles
 .
@@ -1845,14 +1846,12 @@ Roles
 APPLICATION
 ]
 .
-indexOf
+includes
 (
 acc
 .
 role
 )
-<
-0
 )
 {
 this

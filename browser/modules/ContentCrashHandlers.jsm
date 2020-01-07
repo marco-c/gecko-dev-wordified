@@ -2142,14 +2142,10 @@ this
 .
 unseenCrashedChildIDs
 .
-indexOf
+includes
 (
 childID
 )
-!
-=
--
-1
 )
 {
 if

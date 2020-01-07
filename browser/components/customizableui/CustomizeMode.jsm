@@ -3769,16 +3769,12 @@ if
 (
 areas
 .
-indexOf
+includes
 (
 parent
 .
 id
 )
-!
-=
--
-1
 )
 {
 return

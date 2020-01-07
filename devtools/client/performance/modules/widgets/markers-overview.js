@@ -580,15 +580,10 @@ if
 (
 filter
 .
-indexOf
+includes
 (
 type
 )
-!
-=
-=
--
-1
 )
 {
 continue

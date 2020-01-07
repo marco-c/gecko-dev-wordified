@@ -84,15 +84,12 @@ module
 .
 id
 .
-indexOf
+includes
 (
 "
 worker
 "
 )
->
-=
-0
 )
 {
 /

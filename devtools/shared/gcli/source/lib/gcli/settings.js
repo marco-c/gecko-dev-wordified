@@ -640,15 +640,10 @@ setting
 .
 name
 .
-indexOf
+includes
 (
 filter
 )
-!
-=
-=
--
-1
 ;
 }
 )

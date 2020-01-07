@@ -769,7 +769,7 @@ ok
 (
 tooltip
 .
-indexOf
+includes
 (
 toMs
 (
@@ -778,11 +778,6 @@ mkr
 start
 )
 )
-!
-=
-=
--
-1
 "
 Tooltip
 has
@@ -796,7 +791,7 @@ ok
 (
 tooltip
 .
-indexOf
+includes
 (
 toMs
 (
@@ -805,11 +800,6 @@ mkr
 end
 )
 )
-!
-=
-=
--
-1
 "
 Tooltip
 has

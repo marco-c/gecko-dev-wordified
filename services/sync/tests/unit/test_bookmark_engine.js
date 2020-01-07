@@ -2389,6 +2389,7 @@ id
 )
 {
 return
+!
 [
 "
 menu
@@ -2407,14 +2408,10 @@ folder1
 guid
 ]
 .
-indexOf
+includes
 (
 id
 )
-=
-=
--
-1
 ;
 }
 )

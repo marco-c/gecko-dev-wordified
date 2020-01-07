@@ -3828,15 +3828,10 @@ if
 (
 deprecatedHeaders
 .
-indexOf
+includes
 (
 name
 )
-!
-=
-=
--
-1
 )
 {
 return

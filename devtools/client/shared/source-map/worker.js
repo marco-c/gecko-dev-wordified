@@ -46630,13 +46630,14 @@ consumer
 .
 if
 (
+!
 section
 .
 consumer
 .
 sources
 .
-indexOf
+includes
 (
 util
 .
@@ -46648,11 +46649,6 @@ source
 '
 )
 )
-=
-=
-=
--
-1
 )
 {
 continue

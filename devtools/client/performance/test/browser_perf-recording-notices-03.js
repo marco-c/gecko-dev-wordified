@@ -567,7 +567,7 @@ NORMAL_BUFFER_STATUS_MESSAGE
 .
 value
 .
-indexOf
+includes
 (
 gPercent
 +
@@ -575,11 +575,6 @@ gPercent
 %
 "
 )
-!
-=
-=
--
-1
 "
 Buffer
 status
@@ -728,7 +723,7 @@ NORMAL_BUFFER_STATUS_MESSAGE
 .
 value
 .
-indexOf
+includes
 (
 gPercent
 +
@@ -736,11 +731,6 @@ gPercent
 %
 "
 )
-!
-=
-=
--
-1
 "
 Buffer
 status
@@ -877,7 +867,7 @@ CONSOLE_BUFFER_STATUS_MESSAGE
 .
 value
 .
-indexOf
+includes
 (
 gPercent
 +
@@ -885,11 +875,6 @@ gPercent
 %
 "
 )
-!
-=
-=
--
-1
 "
 Buffer
 status
@@ -1053,7 +1038,7 @@ NORMAL_BUFFER_STATUS_MESSAGE
 .
 value
 .
-indexOf
+includes
 (
 gPercent
 +
@@ -1061,11 +1046,6 @@ gPercent
 %
 "
 )
-!
-=
-=
--
-1
 "
 Buffer
 status

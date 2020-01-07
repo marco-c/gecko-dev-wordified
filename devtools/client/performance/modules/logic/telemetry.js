@@ -515,15 +515,10 @@ if
 (
 RECORDING_FEATURES
 .
-indexOf
+includes
 (
 k
 )
-!
-=
-=
--
-1
 )
 {
 this

@@ -1569,14 +1569,13 @@ object
 {
 if
 (
+!
 refs
 .
-indexOf
+includes
 (
 k
 )
-<
-0
 )
 {
 result

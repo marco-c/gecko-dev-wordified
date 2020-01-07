@@ -1003,16 +1003,12 @@ nsIXMLHttpRequest
 401
 ]
 .
-indexOf
+includes
 (
 aError
 .
 status
 )
-!
-=
--
-1
 )
 {
 let

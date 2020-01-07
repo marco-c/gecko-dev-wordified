@@ -528,11 +528,12 @@ disabled
 !
 =
 (
+!
 msg
 .
 data
 .
-indexOf
+includes
 (
 sheets
 [
@@ -541,10 +542,6 @@ i
 .
 title
 )
-=
-=
--
-1
 )
 )
 {

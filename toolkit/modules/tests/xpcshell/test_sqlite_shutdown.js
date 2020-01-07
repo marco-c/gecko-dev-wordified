@@ -811,7 +811,7 @@ exn
 .
 message
 .
-indexOf
+includes
 (
 "
 Sqlite
@@ -822,10 +822,6 @@ been
 shutdown
 "
 )
-!
-=
--
-1
 )
 ;
 }

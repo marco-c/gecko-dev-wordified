@@ -420,7 +420,7 @@ if
 (
 jsonString
 .
-indexOf
+includes
 (
 "
 &
@@ -432,11 +432,6 @@ START
 &
 "
 )
-!
-=
-=
--
-1
 )
 {
 regex

@@ -1804,15 +1804,12 @@ if
 (
 GMP_PLUGIN_IDS
 .
-indexOf
+includes
 (
 gmpAddon
 .
 id
 )
->
-=
-0
 )
 {
 if

@@ -305,9 +305,10 @@ error1pos
 {
 ok
 (
+!
 text
 .
-indexOf
+includes
 (
 "
 fooDuplicateError1
@@ -316,10 +317,6 @@ error1pos
 +
 1
 )
-=
-=
--
-1
 "
 no
 duplicate

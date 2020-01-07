@@ -3647,16 +3647,12 @@ utilBin
 .
 path
 .
-indexOf
+includes
 (
 "
 xpcshell
 "
 )
-!
-=
--
-1
 )
 {
 utilBin
