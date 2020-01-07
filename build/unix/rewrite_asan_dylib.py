@@ -483,6 +483,7 @@ subprocess
 .
 check_output
 (
+                    
 [
 substs
 [
@@ -599,6 +600,7 @@ absDylibPath
 .
 replace
 (
+                                
 '
 rpath
 '
@@ -664,6 +666,7 @@ subprocess
 .
 check_call
 (
+                                
 [
 substs
 [
@@ -724,6 +727,7 @@ n
 '
 %
 (
+                                
 filename
 copyDylibPath
 )
@@ -757,6 +761,7 @@ path
 .
 relpath
 (
+                        
 path
 root
 )
@@ -780,6 +785,7 @@ INSTALL_NAME_TOOL
 -
 change
 '
+                                           
 absDylibPath
 '
 executable_path

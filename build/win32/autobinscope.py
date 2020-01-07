@@ -176,7 +176,7 @@ argv
 <
 3
 :
-  
+    
 print
 "
 "
@@ -211,7 +211,7 @@ default
 "
 "
 "
-  
+    
 sys
 .
 exit
@@ -245,7 +245,7 @@ argv
 =
 4
 :
-  
+    
 log_file_path
 =
 sys
@@ -256,7 +256,7 @@ argv
 ]
 else
 :
-  
+    
 log_file_path
 =
 BINSCOPE_OUTPUT_LOGFILE
@@ -281,7 +281,7 @@ binscope
 exe
 try
 :
-  
+    
 binscope_path
 =
 os
@@ -295,7 +295,7 @@ BINSCOPE
 except
 KeyError
 :
-  
+    
 print
 "
 TEST
@@ -326,7 +326,7 @@ etc
 status
 .
 "
-  
+    
 sys
 .
 exit
@@ -335,7 +335,7 @@ exit
 )
 try
 :
-  
+    
 proc
 =
 subprocess
@@ -343,26 +343,26 @@ subprocess
 Popen
 (
 [
-    
+        
 binscope_path
-    
+        
 "
 /
 NoLogo
 "
-    
+        
 "
 /
 Target
 "
 binary_path
-    
+        
 "
 /
 SymPath
 "
 symbol_path
-    
+        
 "
 /
 Checks
@@ -370,7 +370,7 @@ Checks
 "
 ATLVersionCheck
 "
-    
+        
 "
 /
 Checks
@@ -378,7 +378,7 @@ Checks
 "
 ATLVulnCheck
 "
-    
+        
 #
 We
 do
@@ -388,7 +388,7 @@ in
 the
 Windows
 Store
-    
+        
 "
 /
 SkippedChecks
@@ -396,7 +396,7 @@ SkippedChecks
 "
 AppContainerCheck
 "
-    
+        
 #
 The
 CompilerVersionCheck
@@ -415,7 +415,7 @@ to
 set
 MinimumCompilerVersion
 )
-    
+        
 #
 But
 we
@@ -434,7 +434,7 @@ doesn
 t
 seem
 useful
-    
+        
 "
 /
 SkippedChecks
@@ -442,7 +442,7 @@ SkippedChecks
 "
 CompilerVersionCheck
 "
-    
+        
 "
 /
 Checks
@@ -450,7 +450,7 @@ Checks
 "
 DBCheck
 "
-    
+        
 "
 /
 Checks
@@ -458,7 +458,7 @@ Checks
 "
 DefaultGSCookieCheck
 "
-    
+        
 "
 /
 Checks
@@ -466,7 +466,7 @@ Checks
 "
 ExecutableImportsCheck
 "
-    
+        
 #
 FunctonPointersCheck
 is
@@ -474,7 +474,7 @@ disabled
 per
 bug
 1014002
-    
+        
 "
 /
 SkippedChecks
@@ -482,7 +482,7 @@ SkippedChecks
 "
 FunctionPointersCheck
 "
-    
+        
 #
 GSCheck
 doesn
@@ -495,7 +495,7 @@ deal
 with
 Rust
 libs
-    
+        
 "
 /
 SkippedChecks
@@ -503,7 +503,7 @@ SkippedChecks
 "
 GSCheck
 "
-    
+        
 "
 /
 Checks
@@ -511,7 +511,7 @@ Checks
 "
 GSFriendlyInitCheck
 "
-    
+        
 #
 We
 are
@@ -521,7 +521,7 @@ safebuffers
 clean
 bug
 1449951
-    
+        
 "
 /
 SkippedChecks
@@ -529,7 +529,7 @@ SkippedChecks
 "
 GSFunctionSafeBuffersCheck
 "
-    
+        
 "
 /
 Checks
@@ -537,7 +537,7 @@ Checks
 "
 HighEntropyVACheck
 "
-    
+        
 "
 /
 Checks
@@ -545,7 +545,7 @@ Checks
 "
 NXCheck
 "
-    
+        
 "
 /
 Checks
@@ -553,7 +553,7 @@ Checks
 "
 RSA32Check
 "
-    
+        
 "
 /
 Checks
@@ -561,7 +561,7 @@ Checks
 "
 SafeSEHCheck
 "
-    
+        
 "
 /
 Checks
@@ -569,7 +569,7 @@ Checks
 "
 SharedSectionCheck
 "
-    
+        
 "
 /
 Checks
@@ -577,7 +577,7 @@ Checks
 "
 VB6Check
 "
-    
+        
 "
 /
 Checks
@@ -605,7 +605,7 @@ errno
 strerror
 )
 :
-  
+    
 if
 errno
 !
@@ -617,7 +617,7 @@ errno
 =
 3
 :
-    
+        
 print
 "
 TEST
@@ -639,20 +639,21 @@ d
 s
 "
 (
+            
 errno
 strerror
 )
-    
+        
 sys
 .
 exit
 (
 0
 )
-  
+    
 else
 :
-    
+        
 print
 "
 TEST
@@ -679,7 +680,7 @@ n
 "
 %
 binscope_path
-    
+        
 sys
 .
 exit
@@ -722,12 +723,12 @@ line
 in
 output
 :
-  
+    
 print
 (
 line
 )
-  
+    
 if
 '
 error
@@ -735,7 +736,7 @@ error
 in
 line
 :
-    
+        
 errors
 +
 =
@@ -748,7 +749,7 @@ returncode
 =
 0
 :
-  
+    
 print
 "
 TEST
@@ -774,6 +775,7 @@ s
 "
 %
 (
+        
 proc
 .
 returncode
@@ -785,7 +787,7 @@ errors
 =
 0
 :
-  
+    
 print
 "
 TEST
@@ -813,12 +815,13 @@ s
 "
 %
 (
+        
 errors
 binary_path
 )
 else
 :
-  
+    
 print
 "
 TEST

@@ -113,7 +113,7 @@ was
 not
 declared
 "
-                        
+                       
 "
 Use
 of
@@ -127,7 +127,7 @@ MutationObserver
 instead
 .
 "
-                        
+                       
 "
 Unexpected
 value
@@ -198,7 +198,6 @@ processArgs
 or
 {
 }
-;
         
 self
 .
@@ -757,6 +756,7 @@ seconds
 "
 %
 (
+                          
 self
 .
 lastTestSeen
@@ -1117,6 +1117,7 @@ tombstones
 force
 =
 True
+                        
 recursive
 =
 True
@@ -1408,6 +1409,7 @@ _device
 .
 get_logcat
 (
+            
 filter_out_regexps
 =
 fennecLogcatFilters
@@ -1419,6 +1421,7 @@ mozcrash
 .
 check_for_java_exception
 (
+            
 logcat
 test_name
 =
@@ -1591,6 +1594,7 @@ mozcrash
 .
 log_crashes
 (
+                
 logger
 dumpDir
 symbolsPath
@@ -1636,6 +1640,7 @@ s
 "
 %
 (
+                    
 dumpDir
 str
 (
@@ -1742,6 +1747,7 @@ Automation
 .
 buildCommandLine
 (
+            
 self
 app
 debuggerInfo
@@ -2136,6 +2142,7 @@ device
 .
 launch_fennec
 (
+                        
 app
 moz_env
 =
@@ -2359,6 +2366,7 @@ device
 .
 get_file
 (
+                    
 self
 .
 proc
@@ -2408,6 +2416,7 @@ re
 .
 findall
 (
+                    
 r
 "
 TEST
