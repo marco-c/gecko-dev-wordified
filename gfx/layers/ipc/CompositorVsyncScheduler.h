@@ -373,6 +373,13 @@ aCompositeTimestamp
 )
 ;
 void
+PostVRTask
+(
+TimeStamp
+aTimestamp
+)
+;
+void
 Destroy
 (
 )
