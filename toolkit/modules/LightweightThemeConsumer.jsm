@@ -361,7 +361,7 @@ icon
 fill
 "
 "
-icons
+icon_color
 "
 ]
 [
@@ -379,7 +379,7 @@ fill
 attention
 "
 "
-icons_attention
+icon_attention_color
 "
 ]
 ]
