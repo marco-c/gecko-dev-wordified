@@ -125,6 +125,15 @@ builtin_Array_h
 #
 include
 "
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
+"
 jspubtd
 .
 h
@@ -250,7 +259,10 @@ length
 |
 |
 !
-JS7_ISDEC
+mozilla
+:
+:
+IsAsciiDigit
 (
 atom
 -
