@@ -120,6 +120,13 @@ List
 of
 test
 names
+      
+name
+-
+Name
+for
+the
+suite
   
 suite_end
   
@@ -1830,6 +1837,19 @@ tests
 "
 )
                 
+Unicode
+(
+"
+name
+"
+default
+=
+None
+optional
+=
+True
+)
+                
 Dict
 (
 Any
@@ -1921,6 +1941,19 @@ keyed
 by
 group
 name
+.
+        
+:
+param
+str
+name
+:
+Optional
+name
+to
+identify
+the
+suite
 .
         
 :
