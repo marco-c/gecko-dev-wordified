@@ -89,6 +89,14 @@ DocumentLayer
 ExternalImageType
 FilterOp
 FontRenderMode
+}
+;
+use
+api
+:
+:
+{
+ImageFormat
 ImageRendering
 }
 ;
@@ -7107,6 +7115,10 @@ screen_size
 :
 DeviceIntSize
 pub
+format
+:
+ImageFormat
+pub
 max_size
 :
 DeviceUintSize
@@ -7142,6 +7154,9 @@ new
 screen_size
 :
 DeviceIntSize
+format
+:
+ImageFormat
 )
 -
 >
@@ -7150,6 +7165,7 @@ Self
 RenderTargetList
 {
 screen_size
+format
 max_size
 :
 DeviceUintSize
@@ -9683,6 +9699,10 @@ RenderTargetList
 new
 (
 screen_size
+ImageFormat
+:
+:
+BGRA8
 )
 alpha
 :
@@ -9692,6 +9712,10 @@ RenderTargetList
 new
 (
 screen_size
+ImageFormat
+:
+:
+A8
 )
 }
 tasks

@@ -1015,6 +1015,7 @@ renderer
 :
 :
 {
+RendererStats
 ThreadListener
 }
 ;
