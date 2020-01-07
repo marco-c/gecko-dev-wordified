@@ -903,16 +903,6 @@ state
 "
 STATE_NORMAL
 "
-&
-&
-AppConstants
-.
-platform
-=
-=
-"
-macosx
-"
 )
 {
 ok
