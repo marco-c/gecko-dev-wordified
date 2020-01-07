@@ -1234,9 +1234,6 @@ nsTArray
 <
 RefPtr
 <
-workers
-:
-:
 WorkerRunnable
 >
 >

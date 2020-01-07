@@ -9820,9 +9820,6 @@ public
 dom
 :
 :
-workers
-:
-:
 WorkerMainThreadRunnable
 {
 public

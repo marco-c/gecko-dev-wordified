@@ -1507,9 +1507,6 @@ ReferrerSameOriginChecker
 final
 :
 public
-workers
-:
-:
 WorkerMainThreadRunnable
 {
 public
@@ -1530,9 +1527,6 @@ nsresult
 &
 aResult
 )
-:
-workers
-:
 :
 WorkerMainThreadRunnable
 (

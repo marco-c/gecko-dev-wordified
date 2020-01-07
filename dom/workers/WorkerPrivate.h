@@ -243,6 +243,9 @@ class
 SharedWorker
 ;
 class
+WorkerControlRunnable
+;
+class
 WorkerDebugger
 ;
 class
@@ -261,6 +264,9 @@ struct
 WorkerOptions
 ;
 class
+WorkerRunnable
+;
+class
 WorkerThread
 ;
 }
@@ -274,12 +280,6 @@ namespace
 mozilla
 namespace
 BEGIN_WORKERS_NAMESPACE
-class
-WorkerControlRunnable
-;
-class
-WorkerRunnable
-;
 /
 /
 SharedMutex

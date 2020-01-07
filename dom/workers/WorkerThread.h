@@ -179,6 +179,9 @@ mozilla
 namespace
 dom
 {
+class
+WorkerRunnable
+;
 namespace
 workers
 {
@@ -194,9 +197,6 @@ class
 >
 class
 WorkerPrivateParent
-;
-class
-WorkerRunnable
 ;
 }
 /
@@ -418,9 +418,6 @@ WorkerThreadFriendKey
 aKey
 already_AddRefed
 <
-workers
-:
-:
 WorkerRunnable
 >
 aWorkerRunnable
