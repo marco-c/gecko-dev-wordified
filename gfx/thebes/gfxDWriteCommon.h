@@ -186,7 +186,7 @@ inline
 DWRITE_FONT_STRETCH
 DWriteFontStretchFromStretch
 (
-int16_t
+uint16_t
 aStretch
 )
 {
@@ -258,7 +258,7 @@ DWRITE_FONT_STRETCH_UNDEFINED
 }
 static
 inline
-int16_t
+uint16_t
 FontStretchFromDWriteStretch
 (
 DWRITE_FONT_STRETCH

@@ -561,7 +561,7 @@ gfxFontFaceSrc
 aFontFaceSrcList
 FontWeight
 aWeight
-int32_t
+uint32_t
 aStretch
 uint8_t
 aStyle
@@ -1754,7 +1754,7 @@ aFamilyList
 FontWeight
 &
 aWeight
-int32_t
+uint32_t
 &
 aStretch
 uint8_t

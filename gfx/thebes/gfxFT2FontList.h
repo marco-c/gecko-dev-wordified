@@ -240,7 +240,7 @@ nsAString
 aFontName
 FontWeight
 aWeight
-int16_t
+uint16_t
 aStretch
 uint8_t
 aStyle
@@ -717,7 +717,7 @@ nsAString
 aFontName
 FontWeight
 aWeight
-int16_t
+uint16_t
 aStretch
 uint8_t
 aStyle
@@ -735,7 +735,7 @@ nsAString
 aFontName
 FontWeight
 aWeight
-int16_t
+uint16_t
 aStretch
 uint8_t
 aStyle

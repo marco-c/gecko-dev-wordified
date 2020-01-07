@@ -27615,7 +27615,7 @@ uint8_t
 aStyle
 FontWeight
 aWeight
-int16_t
+uint16_t
 aStretch
 gfxFloat
 aSize
