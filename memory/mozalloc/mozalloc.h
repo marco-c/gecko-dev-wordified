@@ -311,9 +311,6 @@ Types
 h
 "
 #
-define
-MOZALLOC_HAVE_XMALLOC
-#
 if
 defined
 (
