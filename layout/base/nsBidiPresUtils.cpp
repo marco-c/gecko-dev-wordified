@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+nsBidiPresUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 IntegerRange
@@ -134,13 +141,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-nsBidiPresUtils
 .
 h
 "

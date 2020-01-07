@@ -129,14 +129,14 @@ objects
 #
 include
 "
-gfxContext
+nsInlineFrame
 .
 h
 "
 #
 include
 "
-nsInlineFrame
+gfxContext
 .
 h
 "
