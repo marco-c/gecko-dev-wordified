@@ -5882,7 +5882,7 @@ rv
 mTextEditor
 -
 >
-DeleteSelectionImpl
+DeleteSelectionWithTransaction
 (
 aCollapsedAction
 nsIEditor

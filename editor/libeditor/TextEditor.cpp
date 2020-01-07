@@ -3270,7 +3270,9 @@ true
 ;
 /
 /
-DeleteSelectionImpl
+DeleteSelectionWithTransaction
+(
+)
 doesn
 '
 t
@@ -4108,7 +4110,7 @@ handled
 {
 rv
 =
-DeleteSelectionImpl
+DeleteSelectionWithTransaction
 (
 aDirection
 aStripWrappers
@@ -4148,7 +4150,7 @@ nsresult
 TextEditor
 :
 :
-DeleteSelectionImpl
+DeleteSelectionWithTransaction
 (
 EDirection
 aDirection
