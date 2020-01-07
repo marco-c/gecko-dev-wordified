@@ -616,6 +616,9 @@ const
 nsAString
 &
 aTextContent
+nsIPrincipal
+*
+aSubjectPrincipal
 mozilla
 :
 :
