@@ -6787,7 +6787,7 @@ StyleSheet
 sheet
 =
 new
-ServoStyleSheet
+StyleSheet
 (
 mozilla
 :

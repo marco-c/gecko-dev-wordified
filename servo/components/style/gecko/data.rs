@@ -112,7 +112,9 @@ structs
 self
 RawGeckoPresContextOwned
 ServoStyleSetSizes
-ServoStyleSheet
+StyleSheet
+as
+DomStyleSheet
 }
 ;
 use
@@ -242,7 +244,7 @@ GeckoStyleSheet
 (
 *
 const
-ServoStyleSheet
+DomStyleSheet
 )
 ;
 impl
@@ -306,7 +308,7 @@ GeckoStyleSheet
 from
 a
 raw
-ServoStyleSheet
+DomStyleSheet
 pointer
 .
 #
@@ -322,7 +324,7 @@ s
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 )
 -
 >
@@ -364,7 +366,7 @@ GeckoStyleSheet
 from
 a
 raw
-ServoStyleSheet
+DomStyleSheet
 pointer
 that
 /
@@ -389,7 +391,7 @@ s
 :
 *
 const
-ServoStyleSheet
+DomStyleSheet
 )
 -
 >
@@ -417,7 +419,7 @@ s
 Get
 the
 raw
-ServoStyleSheet
+StyleSheet
 that
 we
 '
@@ -434,7 +436,7 @@ self
 -
 >
 &
-ServoStyleSheet
+DomStyleSheet
 {
 unsafe
 {

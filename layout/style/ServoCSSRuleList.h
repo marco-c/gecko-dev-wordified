@@ -260,7 +260,7 @@ already_AddRefed
 ServoCssRules
 >
 aRawRules
-ServoStyleSheet
+StyleSheet
 *
 aDirectOwnerStyleSheet
 )
@@ -307,7 +307,7 @@ dom
 :
 CSSRuleList
 )
-ServoStyleSheet
+StyleSheet
 *
 GetParentObject
 (
@@ -521,7 +521,7 @@ reference
 to
 us
 .
-ServoStyleSheet
+StyleSheet
 *
 mStyleSheet
 =

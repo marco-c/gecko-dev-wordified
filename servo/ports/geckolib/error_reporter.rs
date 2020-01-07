@@ -174,7 +174,9 @@ structs
 :
 {
 Loader
-ServoStyleSheet
+StyleSheet
+as
+DomStyleSheet
 nsIURI
 }
 ;
@@ -291,7 +293,7 @@ sheet
 :
 *
 mut
-ServoStyleSheet
+DomStyleSheet
 loader
 :
 *
@@ -305,7 +307,7 @@ RawUrlExtraData
 )
 -
 >
-ErrorReporter
+Self
 {
 unsafe
 {

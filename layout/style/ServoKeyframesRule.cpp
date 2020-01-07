@@ -295,7 +295,7 @@ aParentRule
 void
 SetStyleSheet
 (
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -332,7 +332,7 @@ aSheet
 }
 }
 }
-ServoStyleSheet
+StyleSheet
 *
 GetParentObject
 (
@@ -709,7 +709,7 @@ reference
 to
 us
 .
-ServoStyleSheet
+StyleSheet
 *
 mStyleSheet
 =

@@ -3873,7 +3873,7 @@ aCompleted
 nsresult
 DoParseSheetServo
 (
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 const

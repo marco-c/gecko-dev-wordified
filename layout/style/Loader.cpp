@@ -6885,7 +6885,7 @@ sriMetadata
 aSheet
 =
 new
-ServoStyleSheet
+StyleSheet
 (
 aParsingMode
 aCORSMode
@@ -10598,7 +10598,7 @@ Loader
 :
 DoParseSheetServo
 (
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 const
