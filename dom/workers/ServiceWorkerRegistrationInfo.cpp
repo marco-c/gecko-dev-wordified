@@ -1296,7 +1296,7 @@ ServiceWorkerRegistrationInfo
 >
 (
 "
-ServiceWorkerRegistrationInfo
+ServiceWorkerRegistrationInfoProxy
 "
 this
 )

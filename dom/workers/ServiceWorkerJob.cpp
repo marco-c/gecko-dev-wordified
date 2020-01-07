@@ -1241,7 +1241,7 @@ well
 NS_ReleaseOnMainThreadSystemGroup
 (
 "
-ServiceWorkerJob
+ServiceWorkerJobProxyRunnable
 "
 kungFuDeathGrip
 .
