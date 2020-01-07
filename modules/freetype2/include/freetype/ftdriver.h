@@ -1054,9 +1054,7 @@ supplies
 three
 *
 vertical
-sub
--
-pixels
+subpixels
 as
 the
 eye
@@ -1087,9 +1085,7 @@ take
 advantage
 of
 the
-sub
--
-pixels
+subpixels
 to
 add
 *

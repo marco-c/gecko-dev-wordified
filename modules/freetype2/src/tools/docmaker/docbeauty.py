@@ -58,11 +58,8 @@ utils
 import
 *
 import
-utils
-import
 sys
 os
-time
 string
 getopt
 content_processor
@@ -261,6 +258,7 @@ usage
 :
     
 print
+(
 "
 \
 nDocBeauty
@@ -272,8 +270,10 @@ information
 \
 n
 "
+)
     
 print
+(
 "
 docbeauty
 [
@@ -289,8 +289,10 @@ file2
 \
 n
 "
+)
     
 print
+(
 "
 using
 the
@@ -300,8 +302,10 @@ options
 \
 n
 "
+)
     
 print
+(
 "
 -
 h
@@ -310,8 +314,10 @@ print
 this
 page
 "
+)
     
 print
+(
 "
 -
 b
@@ -326,12 +332,16 @@ orig
 '
 extension
 "
+)
     
 print
+(
 "
 "
+)
     
 print
+(
 "
 -
 -
@@ -342,6 +352,7 @@ as
 -
 b
 "
+)
 def
 main
 (

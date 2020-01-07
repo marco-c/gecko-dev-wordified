@@ -795,9 +795,11 @@ lines
 :
             
 print
+(
 prefix
 +
 l
+)
     
 def
 dump_lines
@@ -1032,9 +1034,11 @@ lines
 :
             
 print
+(
 prefix
 +
 l
+)
     
 def
 dump_lines
@@ -1734,6 +1738,7 @@ field
 :
             
 print
+(
 prefix
 +
 self
@@ -1744,6 +1749,7 @@ field
 :
 :
 "
+)
             
 prefix
 =
@@ -1774,8 +1780,10 @@ first
 :
                 
 print
+(
 "
 "
+)
             
 p
 .
@@ -2231,6 +2239,7 @@ margin
 :
         
 print
+(
 "
 "
 *
@@ -2247,6 +2256,7 @@ tag
 "
 >
 "
+)
         
 for
 f
@@ -2265,6 +2275,7 @@ dump
 )
         
 print
+(
 "
 "
 *
@@ -2282,6 +2293,7 @@ tag
 "
 >
 "
+)
 #
 #
 #

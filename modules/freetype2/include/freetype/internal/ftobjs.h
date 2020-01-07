@@ -2004,7 +2004,7 @@ FT_CMapRec
 ;
 /
 *
-typecase
+typecast
 any
 pointer
 to

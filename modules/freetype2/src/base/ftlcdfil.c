@@ -599,6 +599,11 @@ if
 pitch
 >
 0
+&
+&
+height
+>
+0
 )
 origin
 +
@@ -1452,6 +1457,11 @@ flow
 if
 (
 pitch
+>
+0
+&
+&
+height
 >
 0
 )

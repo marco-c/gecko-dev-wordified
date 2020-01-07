@@ -190,9 +190,6 @@ import
 utils
 import
 sys
-os
-time
-string
 glob
 getopt
 def
@@ -202,6 +199,7 @@ usage
 :
     
 print
+(
 "
 \
 nDocMaker
@@ -210,8 +208,10 @@ information
 \
 n
 "
+)
     
 print
+(
 "
 docmaker
 [
@@ -227,8 +227,10 @@ file2
 \
 n
 "
+)
     
 print
+(
 "
 using
 the
@@ -238,8 +240,10 @@ options
 \
 n
 "
+)
     
 print
+(
 "
 -
 h
@@ -248,8 +252,10 @@ print
 this
 page
 "
+)
     
 print
+(
 "
 -
 t
@@ -270,8 +276,10 @@ Project
 "
 '
 "
+)
     
 print
+(
 "
 -
 o
@@ -287,8 +295,10 @@ o
 mydir
 '
 "
+)
     
 print
+(
 "
 -
 p
@@ -304,12 +314,16 @@ p
 ft2
 '
 "
+)
     
 print
+(
 "
 "
+)
     
 print
+(
 "
 -
 -
@@ -334,8 +348,10 @@ Project
 "
 '
 "
+)
     
 print
+(
 "
 -
 -
@@ -355,8 +371,10 @@ output
 mydir
 '
 "
+)
     
 print
+(
 "
 -
 -
@@ -376,6 +394,7 @@ prefix
 ft2
 '
 "
+)
 def
 main
 (

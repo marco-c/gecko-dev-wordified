@@ -3303,9 +3303,7 @@ TPos
 ;
 /
 *
-sub
--
-pixel
+subpixel
 coordinate
 *
 /

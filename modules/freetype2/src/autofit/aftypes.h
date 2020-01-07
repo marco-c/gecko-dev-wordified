@@ -1291,9 +1291,7 @@ position
 width
 in
 device
-sub
--
-pixels
+subpixels
 *
 /
 FT_Pos
@@ -1309,9 +1307,7 @@ position
 width
 in
 device
-sub
--
-pixels
+subpixels
 *
 /
 }

@@ -352,6 +352,7 @@ first
 "
 #
 endif
+FT_BEGIN_HEADER
 /
 *
 *
@@ -1095,6 +1096,7 @@ ppem
 *
 *
 /
+FT_END_HEADER
 #
 endif
 /

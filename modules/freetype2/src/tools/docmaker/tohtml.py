@@ -3180,11 +3180,13 @@ items
 :
         
 print
+(
 self
 .
 make_html_items
 (
 items
+)
 )
     
 def
@@ -3245,6 +3247,7 @@ td
 )
         
 print
+(
 self
 .
 make_html_items
@@ -3252,6 +3255,7 @@ make_html_items
 field
 .
 items
+)
 )
         
 if
@@ -3261,6 +3265,7 @@ name
 :
             
 print
+(
 "
 <
 /
@@ -3275,6 +3280,7 @@ tr
 table
 >
 "
+)
     
 def
 html_source_quote
@@ -3623,6 +3629,7 @@ fields
 :
         
 print
+(
 '
 <
 table
@@ -3633,6 +3640,7 @@ fields
 "
 >
 '
+)
         
 for
 field
@@ -3666,12 +3674,12 @@ name
 "
 >
 '
-                    
+                   
 +
 field
 .
 name
-                    
+                   
 +
 '
 <
@@ -3699,6 +3707,7 @@ items
 )
             
 print
+(
 "
 <
 /
@@ -3709,14 +3718,17 @@ td
 tr
 >
 "
+)
         
 print
+(
 "
 <
 /
 table
 >
 "
+)
     
 def
 print_html_markup
@@ -3843,9 +3855,11 @@ self
 :
         
 print
+(
 self
 .
 html_index_header
+)
         
 self
 .
@@ -3935,6 +3949,7 @@ self
 columns
         
 print
+(
 '
 <
 table
@@ -3945,6 +3960,7 @@ index
 "
 >
 '
+)
         
 for
 r
@@ -4158,15 +4174,19 @@ tr
 "
             
 print
+(
 line
+)
         
 print
+(
 "
 <
 /
 table
 >
 "
+)
         
 print
 (
@@ -4188,9 +4208,11 @@ index_footer_end
 )
         
 print
+(
 self
 .
 html_footer
+)
         
 self
 .
@@ -4255,11 +4277,14 @@ self
 :
         
 print
+(
 self
 .
 html_toc_header
+)
         
 print
+(
 "
 <
 h1
@@ -4272,6 +4297,7 @@ Contents
 h1
 >
 "
+)
     
 def
 toc_chapter_enter
@@ -4282,6 +4308,7 @@ chapter
 :
         
 print
+(
 chapter_header
 +
 string
@@ -4294,8 +4321,10 @@ title
 )
 +
 chapter_inter
+)
         
 print
+(
 '
 <
 table
@@ -4306,6 +4335,7 @@ toc
 "
 >
 '
+)
     
 def
 toc_section_enter
@@ -4330,7 +4360,7 @@ link
 "
 >
 '
-                
+               
 +
 '
 <
@@ -4351,7 +4381,7 @@ section
 "
 >
 '
-                
+               
 +
 section
 .
@@ -4378,6 +4408,7 @@ desc
 )
         
 print
+(
 self
 .
 make_html_para
@@ -4385,6 +4416,7 @@ make_html_para
 section
 .
 abstract
+)
 )
     
 def
@@ -4396,6 +4428,7 @@ section
 :
         
 print
+(
 "
 <
 /
@@ -4406,6 +4439,7 @@ td
 tr
 >
 "
+)
     
 def
 toc_chapter_exit
@@ -4416,15 +4450,19 @@ chapter
 :
         
 print
+(
 "
 <
 /
 table
 >
 "
+)
         
 print
+(
 chapter_footer
+)
     
 def
 toc_index
@@ -4493,9 +4531,11 @@ toc_footer_end
 )
         
 print
+(
 self
 .
 html_footer
+)
     
 def
 toc_dump
@@ -4574,9 +4614,11 @@ section
 :
         
 print
+(
 self
 .
 html_header
+)
         
 print
 (
@@ -4587,12 +4629,12 @@ section
 name
 +
 section_title_header2
-                
+               
 +
 section
 .
 title
-                
+               
 +
 section_title_footer
 )
@@ -4653,9 +4695,12 @@ section
 synopsis
             
 print
+(
 section_synopsis_header
+)
             
 print
+(
 '
 <
 table
@@ -4666,6 +4711,7 @@ synopsis
 "
 >
 '
+)
             
 columns
 =
@@ -4991,23 +5037,32 @@ tr
 "
                 
 print
+(
 line
+)
             
 print
+(
 "
 <
 /
 table
 >
 "
+)
             
 print
+(
 section_synopsis_footer
+)
         
 print
+(
 description_header
+)
         
 print
+(
 self
 .
 make_html_items
@@ -5016,9 +5071,12 @@ section
 .
 description
 )
+)
         
 print
+(
 description_footer
+)
     
 def
 block_enter
@@ -5029,7 +5087,9 @@ block
 :
         
 print
+(
 block_header
+)
         
 #
 place
@@ -5263,7 +5323,7 @@ header
 print
 (
 header_location_header
-                        
+                       
 +
 '
 Defined
@@ -5275,13 +5335,15 @@ header
 '
 .
 '
-                        
+                       
 +
 header_location_footer
 )
             
 print
+(
 source_header
+)
             
 for
 l
@@ -5292,6 +5354,7 @@ code
 :
                 
 print
+(
 self
 .
 html_source_quote
@@ -5301,9 +5364,12 @@ block
 .
 name
 )
+)
             
 print
+(
 source_footer
+)
     
 def
 markup_enter
@@ -5326,12 +5392,15 @@ description
 :
             
 print
+(
 description_header
+)
         
 else
 :
             
 print
+(
 marker_header
 +
 markup
@@ -5339,6 +5408,7 @@ markup
 tag
 +
 marker_inter
+)
         
 self
 .
@@ -5368,13 +5438,17 @@ description
 :
             
 print
+(
 description_footer
+)
         
 else
 :
             
 print
+(
 marker_footer
+)
     
 def
 block_exit
@@ -5424,7 +5498,9 @@ section
 :
         
 print
+(
 html_footer
+)
     
 def
 section_dump_all

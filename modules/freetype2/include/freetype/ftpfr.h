@@ -796,9 +796,7 @@ metrics
 units
 to
 device
-sub
--
-pixels
+subpixels
 .
 This
 is
@@ -1153,9 +1151,7 @@ scale
 these
 to
 device
-sub
--
-pixels
+subpixels
 .
 *
 /
@@ -1351,9 +1347,7 @@ the
 advance
 to
 device
-sub
--
-pixels
+subpixels
 (
 i
 .
