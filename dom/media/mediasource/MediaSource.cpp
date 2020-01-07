@@ -299,6 +299,13 @@ h
 #
 include
 "
+nsMimeTypes
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -635,11 +642,7 @@ MediaContainerType
 (
 MEDIAMIMETYPE
 (
-"
-video
-/
-mp4
-"
+VIDEO_MP4
 )
 )
 aDiagnostics
