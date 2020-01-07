@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

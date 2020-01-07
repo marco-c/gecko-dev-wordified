@@ -1955,7 +1955,7 @@ InTargetPhase
 )
 {
 return
-nsIDOMEvent
+EventBinding
 :
 :
 AT_TARGET
@@ -1972,7 +1972,7 @@ mInCapturePhase
 )
 {
 return
-nsIDOMEvent
+EventBinding
 :
 :
 CAPTURING_PHASE
@@ -1989,14 +1989,14 @@ mInBubblingPhase
 )
 {
 return
-nsIDOMEvent
+EventBinding
 :
 :
 BUBBLING_PHASE
 ;
 }
 return
-nsIDOMEvent
+EventBinding
 :
 :
 NONE

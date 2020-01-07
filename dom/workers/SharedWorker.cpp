@@ -906,9 +906,9 @@ IsFrozen
 )
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDOMEvent
+Event
 >
 event
 =
@@ -950,11 +950,6 @@ EmptyString
 QueueEvent
 (
 event
--
->
-InternalDOMEvent
-(
-)
 )
 ;
 aVisitor

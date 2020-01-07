@@ -12134,7 +12134,7 @@ we
 received
 to
 an
-nsIDOMEvent
+Event
 /
 /
 to
@@ -12527,7 +12527,7 @@ we
 received
 to
 an
-nsIDOMEvent
+Event
 /
 /
 to

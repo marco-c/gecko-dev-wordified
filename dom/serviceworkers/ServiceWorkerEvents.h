@@ -849,7 +849,7 @@ Default
 Pull
 in
 the
-nsIDOMEvent
+Event
 version
 of
 PreventDefault

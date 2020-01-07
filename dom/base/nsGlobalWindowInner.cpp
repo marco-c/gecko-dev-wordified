@@ -946,13 +946,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsIDOMOfflineResourceList
 .
 h

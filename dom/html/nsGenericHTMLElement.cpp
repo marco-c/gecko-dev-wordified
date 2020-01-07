@@ -493,13 +493,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsDOMCSSDeclaration
 .
 h
