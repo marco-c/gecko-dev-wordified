@@ -84,6 +84,8 @@ pages
 custom
 /
 inspector
+/
+index
 .
 html
 *
@@ -98,6 +100,8 @@ nodejs
 generate
 -
 inspector
+-
+index
 -
 html
 .
@@ -122,6 +126,8 @@ pages
 custom
 /
 inspector
+/
+index
 .
 html
 *
