@@ -185,13 +185,6 @@ nsWrapperCache
 .
 h
 "
-#
-include
-"
-StyleSheetInfo
-.
-h
-"
 class
 nsIDocument
 ;
@@ -794,13 +787,6 @@ void
 EnsureUniqueInner
 (
 )
-;
-inline
-void
-AssertHasUniqueInner
-(
-)
-const
 ;
 /
 /
