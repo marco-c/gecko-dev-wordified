@@ -55,11 +55,7 @@ resource
 :
 /
 /
-shield
--
-recipe
--
-client
+normandy
 /
 lib
 /
