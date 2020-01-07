@@ -14321,7 +14321,7 @@ if
 mContext
 -
 >
-ValidateCurFBForRead
+BindCurFBForColorRead
 (
 funcName
 &
@@ -14547,13 +14547,6 @@ Do
 the
 thing
 !
-mContext
--
->
-OnBeforeReadCall
-(
-)
-;
 const
 bool
 isSubImage
@@ -14930,7 +14923,7 @@ if
 mContext
 -
 >
-ValidateCurFBForRead
+BindCurFBForColorRead
 (
 funcName
 &
@@ -15066,13 +15059,6 @@ Do
 the
 thing
 !
-mContext
--
->
-OnBeforeReadCall
-(
-)
-;
 bool
 uploadWillInitialize
 ;

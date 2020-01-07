@@ -7367,7 +7367,7 @@ srcHeight
 if
 (
 !
-ValidateCurFBForRead
+BindCurFBForColorRead
 (
 "
 readPixels
@@ -7595,10 +7595,6 @@ to
 actually
 reading
 !
-OnBeforeReadCall
-(
-)
-;
 if
 (
 !
