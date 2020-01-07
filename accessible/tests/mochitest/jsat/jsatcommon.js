@@ -3149,7 +3149,7 @@ eventType
 =
 AndroidEvents
 .
-ANDROID_VIEW_SCROLLED
+VIEW_SCROLLED
 ;
 }
 ;
@@ -3212,7 +3212,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY
+VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY
 fromIndex
 :
 aStartOffset
@@ -3267,7 +3267,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_CLICKED
+VIEW_CLICKED
 }
 ]
 aOptions
@@ -3305,7 +3305,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_CLICKED
+VIEW_CLICKED
 checked
 :
 aChecked
@@ -3346,7 +3346,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_CLICKED
+VIEW_CLICKED
 checked
 :
 aSwitched
@@ -3483,7 +3483,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_TEXT_CHANGED
+VIEW_TEXT_CHANGED
 }
 ]
 aOptions
@@ -3562,7 +3562,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_TEXT_SELECTION_CHANGED
+VIEW_TEXT_SELECTION_CHANGED
 }
 ]
 aOptions
@@ -3601,7 +3601,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY
+VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY
 fromIndex
 :
 aFrom
@@ -3645,7 +3645,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_ANNOUNCEMENT
+ANNOUNCEMENT
 text
 :
 [

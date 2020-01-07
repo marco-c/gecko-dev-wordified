@@ -389,11 +389,11 @@ AndroidSdkVersion
 ?
 AndroidEvents
 .
-ANDROID_VIEW_ACCESSIBILITY_FOCUSED
+VIEW_ACCESSIBILITY_FOCUSED
 :
 AndroidEvents
 .
-ANDROID_VIEW_FOCUSED
+VIEW_FOCUSED
 ;
 if
 (
@@ -432,7 +432,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_HOVER_EXIT
+VIEW_HOVER_EXIT
 text
 :
 [
@@ -480,7 +480,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY
+VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY
 text
 :
 [
@@ -530,7 +530,7 @@ isExploreByTouch
 ?
 AndroidEvents
 .
-ANDROID_VIEW_HOVER_ENTER
+VIEW_HOVER_ENTER
 :
 focusEventType
 text
@@ -757,7 +757,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_CLICKED
+VIEW_CLICKED
 text
 checked
 :
@@ -811,7 +811,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_TEXT_CHANGED
+VIEW_TEXT_CHANGED
 text
 :
 [
@@ -949,7 +949,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_TEXT_SELECTION_CHANGED
+VIEW_TEXT_SELECTION_CHANGED
 text
 :
 [
@@ -1012,7 +1012,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY
+VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY
 text
 :
 [
@@ -1409,7 +1409,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_SCROLLED
+VIEW_SCROLLED
 text
 :
 [
@@ -1476,7 +1476,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_ACCESSIBILITY_FOCUSED
+VIEW_ACCESSIBILITY_FOCUSED
 bounds
 :
 Utils
@@ -1580,11 +1580,11 @@ AndroidSdkVersion
 ?
 AndroidEvents
 .
-ANDROID_ANNOUNCEMENT
+ANNOUNCEMENT
 :
 AndroidEvents
 .
-ANDROID_VIEW_TEXT_CHANGED
+VIEW_TEXT_CHANGED
 text
 :
 [
@@ -1654,7 +1654,7 @@ eventType
 :
 AndroidEvents
 .
-ANDROID_VIEW_ACCESSIBILITY_FOCUSED
+VIEW_ACCESSIBILITY_FOCUSED
 exitView
 :
 aMoveMethod
