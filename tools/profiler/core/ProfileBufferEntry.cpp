@@ -4587,7 +4587,7 @@ examples
 /
 /
 -
-PseudoStack
+ProfilingStack
 frames
 without
 a
@@ -4686,7 +4686,7 @@ CSS
 /
 /
 -
-PseudoStack
+ProfilingStack
 frames
 with
 a
@@ -4919,7 +4919,8 @@ JS
 /
 -
 A
-pseudoStack
+profiling
+stack
 frame
 with
 a
@@ -4984,7 +4985,8 @@ OTHER
 /
 -
 A
-pseudoStack
+profiling
+stack
 frame
 with
 an

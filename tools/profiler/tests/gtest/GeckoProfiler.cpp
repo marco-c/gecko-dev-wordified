@@ -4044,7 +4044,7 @@ w
 TEST
 (
 GeckoProfiler
-PseudoStack
+ProfilingStack
 )
 {
 uint32_t

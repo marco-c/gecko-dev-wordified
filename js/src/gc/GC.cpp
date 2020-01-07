@@ -41860,7 +41860,8 @@ state
 when
 pushing
 GC
-pseudo
+profiling
+stack
 frames
 !
 "
@@ -41928,7 +41929,7 @@ mainContextFromOwnThread
 >
 heapState
 )
-pseudoFrame
+profilingStackFrame
 (
 rt
 -

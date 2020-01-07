@@ -88,12 +88,10 @@ global
 Details
 about
 each
-profile
-pseudo
--
+label
 stack
-entry
-cateogry
+frame
+category
 .
 *
 see

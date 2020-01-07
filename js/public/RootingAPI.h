@@ -7484,7 +7484,7 @@ zone_
 ;
 }
 inline
-PseudoStack
+ProfilingStack
 *
 GetContextProfilingStack
 (
@@ -7510,7 +7510,7 @@ geckoProfiler
 (
 )
 .
-getPseudoStack
+getProfilingStack
 (
 )
 ;

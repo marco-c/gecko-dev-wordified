@@ -153,11 +153,11 @@ using
 namespace
 js
 ;
-PseudoStack
+ProfilingStack
 :
 :
 ~
-PseudoStack
+ProfilingStack
 (
 )
 {
@@ -171,7 +171,7 @@ a
 reference
 to
 the
-PseudoStack
+ProfilingStack
 to
 avoid
 a
@@ -219,7 +219,7 @@ frames
 ;
 }
 bool
-PseudoStack
+ProfilingStack
 :
 :
 ensureCapacitySlow

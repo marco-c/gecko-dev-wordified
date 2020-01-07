@@ -168,7 +168,7 @@ to
 /
 from
 the
-PseudoStack
+ProfilingStack
 .
 /
 /
@@ -216,7 +216,7 @@ mozglue
 cannot
 directly
 access
-sPseudoStack
+sProfilingStack
 .
 /
 /
@@ -310,13 +310,13 @@ do
 .
 )
 class
-PseudoStack
+ProfilingStack
 ;
 namespace
 mozilla
 {
 typedef
-PseudoStack
+ProfilingStack
 *
 (
 *
@@ -341,7 +341,7 @@ void
 ProfilerLabelExit
 )
 (
-PseudoStack
+ProfilingStack
 *
 )
 ;
@@ -357,7 +357,7 @@ entry
 exit
 work
 involving
-sPseudoStack
+sProfilingStack
 .
 MFBT_API
 void
@@ -426,9 +426,9 @@ AutoProfilerLabel
 private
 :
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
-PseudoStack
+ProfilingStack
 *
-mPseudoStack
+mProfilingStack
 ;
 }
 ;
