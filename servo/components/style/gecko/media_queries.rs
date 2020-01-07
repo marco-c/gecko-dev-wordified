@@ -143,8 +143,8 @@ structs
 :
 :
 {
+nsCSSKTableEntry
 nsCSSKeyword
-nsCSSProps_KTableEntry
 nsCSSUnit
 nsCSSValue
 }
@@ -3724,7 +3724,7 @@ current_entry
 :
 *
 const
-nsCSSProps_KTableEntry
+nsCSSKTableEntry
 mut
 f
 :
@@ -4169,7 +4169,7 @@ first_table_entry
 :
 *
 const
-nsCSSProps_KTableEntry
+nsCSSKTableEntry
 =
 unsafe
 {

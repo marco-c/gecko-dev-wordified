@@ -202,13 +202,6 @@ h
 #
 include
 "
-nsCSSProps
-.
-h
-"
-#
-include
-"
 nsDOMCSSDeclaration
 .
 h
@@ -298,6 +291,9 @@ mozilla
 struct
 ComputedStyleMap
 ;
+struct
+nsCSSKTableEntry
+;
 class
 nsIFrame
 ;
@@ -351,10 +347,7 @@ Convenience
 typedefs
 :
 typedef
-nsCSSProps
-:
-:
-KTableEntry
+nsCSSKTableEntry
 KTableEntry
 ;
 typedef
