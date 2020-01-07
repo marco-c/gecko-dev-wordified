@@ -4710,7 +4710,7 @@ aOpacity
 :
 RecordedEventDerived
 (
-SNAPSHOT
+INTOLUMINANCE
 )
 mRefPtr
 (
@@ -15044,7 +15044,7 @@ aStream
 :
 RecordedEventDerived
 (
-SNAPSHOT
+INTOLUMINANCE
 )
 {
 ReadElement
@@ -18436,6 +18436,13 @@ f
 (
 UNSCALEDFONTDESTRUCTION
 RecordedUnscaledFontDestruction
+)
+;
+\
+f
+(
+INTOLUMINANCE
+RecordedIntoLuminanceSource
 )
 ;
 template
