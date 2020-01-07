@@ -21560,7 +21560,7 @@ nsIStandardURL
 -
 -
 -
-NS_IMETHODIMP
+nsresult
 nsStandardURL
 :
 :
@@ -21830,7 +21830,7 @@ encoding
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsStandardURL
 :
 :
