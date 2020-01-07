@@ -224,6 +224,10 @@ extern
 crate
 webrender_api
 ;
+extern
+crate
+xi_unicode
+;
 #
 [
 macro_use
