@@ -464,7 +464,7 @@ class
 DisplayListBuilder
 ;
 class
-ResourceUpdateQueue
+TransactionBuilder
 ;
 }
 namespace
@@ -4082,7 +4082,7 @@ PushResourceUpdates
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 &
 aResources
 ResourceUpdateOp
@@ -4680,7 +4680,7 @@ PushResourceUpdates
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 &
 aResources
 ResourceUpdateOp

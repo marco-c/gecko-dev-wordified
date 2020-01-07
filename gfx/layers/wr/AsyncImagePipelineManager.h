@@ -847,7 +847,7 @@ UpdateImageKeys
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 &
 aResourceUpdates
 AsyncImagePipeline
@@ -876,7 +876,7 @@ UpdateWithoutExternalImage
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 &
 aResources
 TextureHost

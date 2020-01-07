@@ -5613,7 +5613,7 @@ PushResourceUpdates
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 &
 aResources
 ResourceUpdateOp
@@ -5686,7 +5686,7 @@ ADD_IMAGE
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 :
 :
 AddExternalImage
@@ -5695,7 +5695,7 @@ AddExternalImage
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 :
 :
 UpdateExternalImage
@@ -7172,7 +7172,7 @@ PushResourceUpdates
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 &
 aResources
 ResourceUpdateOp
@@ -7296,7 +7296,7 @@ ADD_IMAGE
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 :
 :
 AddExternalImage
@@ -7305,7 +7305,7 @@ AddExternalImage
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 :
 :
 UpdateExternalImage
