@@ -558,6 +558,17 @@ all
 compareRetainedDisplayLists
 :
 false
+/
+/
+add
+a
+delay
+between
+loading
+tests
+runSlower
+:
+false
 browser
 :
 undefined

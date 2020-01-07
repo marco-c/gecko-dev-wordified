@@ -2377,6 +2377,19 @@ options
 .
 suite
         
+prefs
+[
+'
+reftest
+.
+runSlower
+'
+]
+=
+options
+.
+runSlower
+        
 #
 Unconditionally
 update
