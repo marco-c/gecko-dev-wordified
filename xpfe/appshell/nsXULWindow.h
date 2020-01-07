@@ -468,16 +468,6 @@ aAvailHeight
 )
 ;
 void
-ApplyChromeFlags
-(
-)
-;
-void
-SizeShell
-(
-)
-;
-void
 OnChromeLoaded
 (
 )
