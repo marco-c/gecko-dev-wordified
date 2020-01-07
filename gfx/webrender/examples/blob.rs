@@ -857,14 +857,7 @@ format
 Usupported
 image
 format
-{
-:
-?
-}
 "
-descriptor
-.
-format
 )
 )
 )
