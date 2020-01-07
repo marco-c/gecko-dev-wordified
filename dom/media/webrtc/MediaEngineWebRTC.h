@@ -2753,9 +2753,6 @@ mDeviceName
 nsCString
 mDeviceUUID
 ;
-int32_t
-mSampleFrequency
-;
 uint64_t
 mTotalFrames
 ;
