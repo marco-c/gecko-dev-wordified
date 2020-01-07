@@ -1116,10 +1116,7 @@ products
 '
 [
 "
-firefox
-"
-"
-fennec
+all
 "
 ]
 )
