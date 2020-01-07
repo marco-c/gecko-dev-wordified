@@ -525,11 +525,6 @@ ocspCache
 void
 *
 pinArg
-CertVerifier
-:
-:
-OcspGetConfig
-ocspGETConfig
 mozilla
 :
 :
@@ -1214,13 +1209,6 @@ non
 -
 owning
 !
-const
-CertVerifier
-:
-:
-OcspGetConfig
-mOCSPGetConfig
-;
 const
 mozilla
 :
