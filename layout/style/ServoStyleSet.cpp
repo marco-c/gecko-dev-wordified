@@ -5969,8 +5969,6 @@ aElement
 nsPresContext
 *
 aPresContext
-CSSPseudoElementType
-aPseudoType
 const
 ServoStyleContext
 *
@@ -5991,7 +5989,6 @@ aStyle
 Snapshots
 (
 )
-aPseudoType
 )
 .
 Consume

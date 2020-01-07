@@ -2511,8 +2511,6 @@ aElement
 nsPresContext
 *
 aPresContext
-CSSPseudoElementType
-aPseudoType
 const
 ServoStyleContext
 *

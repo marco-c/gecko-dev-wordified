@@ -4372,9 +4372,8 @@ AsServo
 >
 GetBaseContextForElement
 (
-aElement
+elementOrPseudoElement
 presContext
-pseudoType
 result
 -
 >
@@ -4583,9 +4582,8 @@ servoSet
 >
 GetBaseContextForElement
 (
-aElement
+elementOrPseudoElement
 presContext
-pseudoType
 result
 )
 ;

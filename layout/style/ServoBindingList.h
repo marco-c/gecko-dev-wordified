@@ -3104,11 +3104,6 @@ mozilla
 ServoElementSnapshotTable
 *
 snapshots
-mozilla
-:
-:
-CSSPseudoElementType
-pseudo_type
 )
 /
 /
