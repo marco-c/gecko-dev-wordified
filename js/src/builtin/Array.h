@@ -118,10 +118,10 @@ interface
 /
 #
 ifndef
-jsarray_h
+builtin_Array_h
 #
 define
-jsarray_h
+builtin_Array_h
 #
 include
 "
@@ -1699,6 +1699,6 @@ js
 endif
 /
 *
-jsarray_h
+builtin_Array_h
 *
 /
