@@ -34,14 +34,6 @@ varsIgnorePattern
 "
 ^
 (
-Cc
-|
-Ci
-|
-Cr
-|
-Cu
-|
 EXPORTED_SYMBOLS
 )
 "
