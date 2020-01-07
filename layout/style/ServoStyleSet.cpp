@@ -1974,7 +1974,7 @@ mMallocSizeOf
 ;
 aSizes
 .
-mLayoutServoStyleSetsOther
+mLayoutStyleSetsOther
 +
 =
 mallocSizeOf
@@ -1989,7 +1989,7 @@ mRawSet
 {
 aSizes
 .
-mLayoutServoStyleSetsOther
+mLayoutStyleSetsOther
 +
 =
 mallocSizeOf
@@ -2077,7 +2077,7 @@ mPrecomputedPseudos
 ;
 aSizes
 .
-mLayoutServoStyleSetsStylistRuleTree
+mLayoutStyleSetsStylistRuleTree
 +
 =
 sizes
@@ -2086,7 +2086,7 @@ mRuleTree
 ;
 aSizes
 .
-mLayoutServoStyleSetsStylistElementAndPseudosMaps
+mLayoutStyleSetsStylistElementAndPseudosMaps
 +
 =
 sizes
@@ -2095,7 +2095,7 @@ mElementAndPseudosMaps
 ;
 aSizes
 .
-mLayoutServoStyleSetsStylistInvalidationMap
+mLayoutStyleSetsStylistInvalidationMap
 +
 =
 sizes
@@ -2104,7 +2104,7 @@ mInvalidationMap
 ;
 aSizes
 .
-mLayoutServoStyleSetsStylistRevalidationSelectors
+mLayoutStyleSetsStylistRevalidationSelectors
 +
 =
 sizes
@@ -2113,7 +2113,7 @@ mRevalidationSelectors
 ;
 aSizes
 .
-mLayoutServoStyleSetsStylistOther
+mLayoutStyleSetsStylistOther
 +
 =
 sizes
@@ -2128,7 +2128,7 @@ mStyleRuleMap
 {
 aSizes
 .
-mLayoutServoStyleSetsOther
+mLayoutStyleSetsOther
 +
 =
 mStyleRuleMap
