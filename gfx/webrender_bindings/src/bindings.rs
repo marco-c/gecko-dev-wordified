@@ -9207,10 +9207,6 @@ push_stacking_context
 &
 prim_info
 clip_node_id
-ScrollPolicy
-:
-:
-Scrollable
 transform_binding
 transform_style
 perspective
