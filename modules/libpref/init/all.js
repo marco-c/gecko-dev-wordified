@@ -8128,6 +8128,8 @@ pool_size
 /
 /
 64
+*
+4
 kB
 stack
 per
@@ -8143,7 +8145,7 @@ audioipc
 .
 stack_size
 "
-65536
+262144
 )
 ;
 #
