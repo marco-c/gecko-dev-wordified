@@ -692,7 +692,7 @@ features
 .
 root
 "
-false
+true
 )
 ;
 pref
