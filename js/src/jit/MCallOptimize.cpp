@@ -884,10 +884,10 @@ case
 InlinableNative
 :
 :
-IntlIsCollator
+IntlGuardToCollator
 :
 return
-inlineHasClass
+inlineGuardToClass
 (
 callInfo
 &

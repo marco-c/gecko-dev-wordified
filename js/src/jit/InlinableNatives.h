@@ -216,7 +216,7 @@ Boolean
 \
 _
 (
-IntlIsCollator
+IntlGuardToCollator
 )
 \
 _
