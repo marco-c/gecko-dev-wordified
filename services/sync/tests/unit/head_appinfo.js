@@ -92,6 +92,15 @@ jsm
 "
 )
 ;
+var
+gSyncProfile
+;
+gSyncProfile
+=
+do_get_profile
+(
+)
+;
 /
 /
 Init
