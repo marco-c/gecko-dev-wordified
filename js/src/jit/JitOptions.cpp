@@ -1580,7 +1580,7 @@ true
 SET_DEFAULT
 (
 spectreObjectMitigationsMisc
-false
+true
 )
 ;
 SET_DEFAULT

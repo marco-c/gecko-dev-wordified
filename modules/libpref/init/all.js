@@ -17323,7 +17323,7 @@ object_mitigations
 .
 misc
 "
-false
+true
 )
 ;
 pref
