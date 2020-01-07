@@ -216,13 +216,6 @@ h
 #
 include
 "
-nsIPopupWindowManager
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
