@@ -259,7 +259,7 @@ PTU
 .
 ContentTasks
 .
-createRequest
+createAndShowRequest
 testTask
 args
 )
@@ -551,7 +551,7 @@ PTU
 .
 ContentTasks
 .
-createRequest
+createAndShowRequest
 testTask
 args
 )
@@ -719,7 +719,7 @@ PTU
 .
 ContentTasks
 .
-createRequest
+createAndShowRequest
 testTask
 args
 )
@@ -1051,6 +1051,11 @@ PTU
 .
 MethodData
 .
+basicCard
+PTU
+.
+MethodData
+.
 bobPay
 ]
 details
@@ -1069,7 +1074,7 @@ PTU
 .
 ContentTasks
 .
-createRequest
+createAndShowRequest
 testTask
 args
 )
