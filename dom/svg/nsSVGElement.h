@@ -2010,7 +2010,6 @@ ClearAnyCachedPath
 )
 {
 }
-virtual
 nsIDOMNode
 *
 AsDOMNode
@@ -2197,7 +2196,6 @@ nsSVGElement
 :
 WillChangeValue
 .
-virtual
 nsresult
 BeforeSetAttr
 (

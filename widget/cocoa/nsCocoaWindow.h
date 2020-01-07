@@ -1617,7 +1617,6 @@ aCallback
 )
 override
 ;
-virtual
 nsresult
 MakeFullScreen
 (
@@ -1631,7 +1630,6 @@ nullptr
 )
 final
 ;
-virtual
 nsresult
 MakeFullScreenWithNativeTransition
 (

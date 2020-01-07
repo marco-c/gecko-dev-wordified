@@ -191,7 +191,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 AccessibleNode
 )
 ;
-virtual
 JSObject
 *
 WrapObject

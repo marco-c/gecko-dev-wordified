@@ -578,7 +578,6 @@ F
 :
 E
 {
-virtual
 void
 e
 (

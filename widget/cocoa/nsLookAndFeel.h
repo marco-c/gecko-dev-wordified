@@ -125,7 +125,6 @@ nsLookAndFeel
 (
 )
 ;
-virtual
 void
 NativeInit
 (

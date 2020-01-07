@@ -887,7 +887,6 @@ video
 or
 audio
 .
-virtual
 void
 FirstFrameLoaded
 (
@@ -918,7 +917,6 @@ error
 during
 loading
 .
-virtual
 void
 NetworkError
 (
@@ -956,7 +954,6 @@ loading
 or
 decoding
 .
-virtual
 void
 DecodeError
 (
@@ -999,7 +996,6 @@ can
 continue
 decoding
 .
-virtual
 void
 DecodeWarning
 (
@@ -1021,7 +1017,6 @@ is
 not
 null
 .
-virtual
 bool
 HasError
 (
@@ -1051,7 +1046,6 @@ has
 been
 cancelled
 .
-virtual
 void
 LoadAborted
 (
@@ -1079,7 +1073,6 @@ playback
 has
 ended
 .
-virtual
 void
 PlaybackEnded
 (
@@ -1107,7 +1100,6 @@ has
 started
 seeking
 .
-virtual
 void
 SeekStarted
 (
@@ -1135,7 +1127,6 @@ has
 completed
 seeking
 .
-virtual
 void
 SeekCompleted
 (
@@ -1179,7 +1170,6 @@ suspend
 the
 download
 .
-virtual
 void
 DownloadSuspended
 (
@@ -1238,7 +1228,6 @@ download
 is
 progressing
 .
-virtual
 void
 DownloadProgressed
 (
@@ -1265,7 +1254,6 @@ suspended
 the
 channel
 .
-virtual
 void
 NotifySuspendedByCache
 (
@@ -1308,7 +1296,6 @@ the
 video
 data
 .
-virtual
 VideoFrameContainer
 *
 GetVideoFrameContainer
@@ -1428,7 +1415,6 @@ override
 /
 Dispatch
 events
-virtual
 void
 DispatchAsyncEvent
 (
@@ -2635,7 +2621,6 @@ playback
 .
 *
 /
-virtual
 void
 FireTimeUpdate
 (
@@ -2899,7 +2884,6 @@ a
 media
 stream
 .
-virtual
 void
 SetAudibleState
 (
@@ -4239,7 +4223,6 @@ MediaInfo
 aInfo
 )
 ;
-virtual
 AbstractThread
 *
 AbstractMainThread
@@ -6889,7 +6872,6 @@ and
 null
 otherwise
 .
-virtual
 HTMLMediaElement
 *
 GetMediaElement
@@ -6910,7 +6892,6 @@ decoding
 should
 be
 paused
-virtual
 bool
 GetPaused
 (

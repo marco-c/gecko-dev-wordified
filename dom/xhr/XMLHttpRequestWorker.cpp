@@ -2645,7 +2645,6 @@ EventRunnable
 )
 {
 }
-virtual
 bool
 PreDispatch
 (
@@ -2659,7 +2658,6 @@ unused
 )
 final
 ;
-virtual
 bool
 WorkerRun
 (

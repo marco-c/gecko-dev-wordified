@@ -517,7 +517,6 @@ aFromUser
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -542,7 +541,6 @@ aEnabled
 )
 final
 ;
-virtual
 mozilla
 :
 :
@@ -709,7 +707,6 @@ aType
 )
 override
 ;
-virtual
 mozilla
 :
 :

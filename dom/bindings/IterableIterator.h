@@ -1137,7 +1137,6 @@ it
 happens
 here
 .
-virtual
 void
 UnlinkHelper
 (

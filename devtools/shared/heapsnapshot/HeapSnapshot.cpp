@@ -8361,7 +8361,6 @@ StreamWriter
 override
 {
 }
-virtual
 bool
 writeMetadata
 (
@@ -8390,7 +8389,6 @@ metadata
 )
 ;
 }
-virtual
 bool
 writeNode
 (

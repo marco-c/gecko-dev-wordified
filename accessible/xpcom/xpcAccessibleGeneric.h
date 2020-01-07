@@ -274,7 +274,6 @@ NS_DECL_ISUPPORTS
 /
 /
 nsIAccessible
-virtual
 Accessible
 *
 ToInternalAccessible

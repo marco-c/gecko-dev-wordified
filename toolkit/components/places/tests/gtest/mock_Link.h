@@ -353,7 +353,6 @@ shouldn
 t
 matter
 }
-virtual
 void
 NodeInfoChanged
 (

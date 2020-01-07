@@ -357,7 +357,6 @@ void
 )
 ;
 \
-virtual
 ULONG
 STDMETHODCALLTYPE
 AddRef
@@ -394,7 +393,6 @@ mRefCnt
 \
 }
 \
-virtual
 ULONG
 STDMETHODCALLTYPE
 Release

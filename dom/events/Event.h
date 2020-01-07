@@ -533,7 +533,6 @@ return
 mOwner
 ;
 }
-virtual
 JSObject
 *
 WrapObject

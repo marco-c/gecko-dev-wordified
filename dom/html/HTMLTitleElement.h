@@ -302,7 +302,6 @@ HTMLTitleElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode

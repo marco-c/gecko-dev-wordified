@@ -198,7 +198,6 @@ aIsPrintPreview
 )
 final
 ;
-virtual
 already_AddRefed
 <
 PrintTarget

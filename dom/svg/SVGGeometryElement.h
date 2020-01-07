@@ -396,7 +396,6 @@ cached
 .
 *
 /
-virtual
 void
 ClearAnyCachedPath
 (

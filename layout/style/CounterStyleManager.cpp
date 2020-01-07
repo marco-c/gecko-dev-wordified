@@ -3384,7 +3384,6 @@ aName
 )
 {
 }
-virtual
 nsStaticAtom
 *
 GetStyleName

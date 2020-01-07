@@ -1798,7 +1798,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-virtual
 nsresult
 NotifyIME
 (
@@ -1996,7 +1995,6 @@ aListener
 )
 override
 ;
-virtual
 TextEventDispatcher
 *
 GetTextEventDispatcher

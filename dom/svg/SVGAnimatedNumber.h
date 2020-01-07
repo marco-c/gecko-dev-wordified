@@ -173,7 +173,6 @@ return
 mSVGElement
 ;
 }
-virtual
 JSObject
 *
 WrapObject

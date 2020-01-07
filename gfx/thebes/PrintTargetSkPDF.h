@@ -267,7 +267,6 @@ EndPage
 )
 override
 ;
-virtual
 already_AddRefed
 <
 DrawTarget
@@ -286,7 +285,6 @@ nullptr
 )
 final
 ;
-virtual
 already_AddRefed
 <
 DrawTarget

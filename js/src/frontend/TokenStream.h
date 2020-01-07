@@ -5604,7 +5604,6 @@ public
 ErrorReporter
 API
 .
-virtual
 const
 JS
 :
@@ -5621,7 +5620,6 @@ return
 options_
 ;
 }
-virtual
 void
 lineAndColumnAt
 (
@@ -5637,7 +5635,6 @@ column
 const
 final
 ;
-virtual
 void
 currentLineAndColumn
 (
@@ -5651,7 +5648,6 @@ column
 const
 final
 ;
-virtual
 bool
 hasTokenizationStarted
 (
@@ -5659,7 +5655,6 @@ hasTokenizationStarted
 const
 final
 ;
-virtual
 void
 reportErrorNoOffsetVA
 (
@@ -5670,7 +5665,6 @@ args
 )
 final
 ;
-virtual
 const
 char
 *

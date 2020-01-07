@@ -561,7 +561,6 @@ override
 /
 /
 XULTreeItemAccessibleBase
-virtual
 XULTreeGridCellAccessible
 *
 GetCellAccessible

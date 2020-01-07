@@ -1917,7 +1917,6 @@ Outer
 windows
 only
 .
-virtual
 nsresult
 SetFullscreenInternal
 (
@@ -1928,7 +1927,6 @@ aIsFullscreen
 )
 final
 ;
-virtual
 void
 FullscreenWillChange
 (
@@ -1937,7 +1935,6 @@ aIsFullscreen
 )
 final
 ;
-virtual
 void
 FinishFullscreenChange
 (
