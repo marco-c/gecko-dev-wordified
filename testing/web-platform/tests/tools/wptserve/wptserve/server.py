@@ -720,7 +720,7 @@ request_handler_cls
                  
 router
 rewriter
-bind_hostname
+bind_address
                  
 config
 =
@@ -925,7 +925,7 @@ proxy
         
 :
 param
-bind_hostname
+bind_address
 True
 to
 bind
@@ -934,9 +934,10 @@ server
 to
 both
 the
-hostname
+IP
+address
 and
-                             
+                            
 port
 specified
 in
@@ -944,7 +945,7 @@ the
 server_address
 parameter
 .
-                             
+                            
 False
 to
 bind
@@ -956,14 +957,14 @@ the
 port
 in
 the
-                             
+                            
 server_address
 parameter
 but
 not
 to
 the
-hostname
+address
 .
         
 :
@@ -1034,7 +1035,7 @@ latency
 latency
         
 if
-bind_hostname
+bind_address
 :
             
 hostname_port
@@ -2451,7 +2452,7 @@ values
     
 :
 param
-bind_hostname
+bind_address
 :
 Boolean
 indicating
@@ -2460,7 +2461,8 @@ to
 bind
 server
 to
-hostname
+IP
+address
 .
     
 :
@@ -2672,7 +2674,7 @@ None
 rewriter_cls
 =
 RequestRewriter
-bind_hostname
+bind_address
 =
 True
 rewrites
@@ -2851,9 +2853,9 @@ config
 =
 config
                                     
-bind_hostname
+bind_address
 =
-bind_hostname
+bind_address
                                     
 use_ssl
 =

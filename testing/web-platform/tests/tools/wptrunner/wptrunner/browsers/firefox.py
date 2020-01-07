@@ -889,7 +889,7 @@ test
 "
             
 "
-bind_hostname
+bind_address
 "
 :
 False
