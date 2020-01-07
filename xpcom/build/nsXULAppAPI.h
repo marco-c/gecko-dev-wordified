@@ -2355,12 +2355,6 @@ GPU
 and
 compositor
 process
-GeckoProcessType_PDFium
-/
-/
-Gecko
-PDFium
-process
 GeckoProcessType_End
 GeckoProcessType_Invalid
 =
@@ -2394,9 +2388,6 @@ geckomediaplugin
 "
 "
 gpu
-"
-"
-pdfium
 "
 }
 ;

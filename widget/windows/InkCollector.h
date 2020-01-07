@@ -387,9 +387,6 @@ ClearPointerId
 )
 ;
 static
-mozilla
-:
-:
 StaticAutoPtr
 <
 InkCollector

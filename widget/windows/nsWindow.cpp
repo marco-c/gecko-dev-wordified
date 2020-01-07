@@ -1592,17 +1592,6 @@ PluginProcessParent
 .
 h
 "
-#
-include
-"
-mozilla
-/
-webrender
-/
-WebRenderAPI
-.
-h
-"
 using
 namespace
 mozilla
