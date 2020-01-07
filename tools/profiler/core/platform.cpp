@@ -2426,7 +2426,7 @@ ActivePS
 (
 PSLockRef
 aLock
-int
+uint32_t
 aEntries
 double
 aInterval
@@ -2959,7 +2959,7 @@ Create
 (
 PSLockRef
 aLock
-int
+uint32_t
 aEntries
 double
 aInterval
@@ -3035,7 +3035,7 @@ bool
 Equals
 (
 PSLockRef
-int
+uint32_t
 aEntries
 double
 aInterval
@@ -3244,7 +3244,7 @@ Generation
 )
 PS_GET
 (
-int
+uint32_t
 Entries
 )
 PS_GET
@@ -3558,7 +3558,7 @@ in
 mBuffer
 .
 const
-int
+uint32_t
 mEntries
 ;
 /
@@ -16169,8 +16169,7 @@ locked_profiler_start
 (
 PSLockRef
 aLock
-const
-int
+uint32_t
 aEntries
 double
 aInterval
@@ -19107,7 +19106,7 @@ locked_profiler_start
 (
 PSLockRef
 aLock
-int
+uint32_t
 aEntries
 double
 aInterval
@@ -19286,7 +19285,7 @@ values
 are
 unreasonable
 .
-int
+uint32_t
 entries
 =
 aEntries
@@ -19690,7 +19689,7 @@ aLock
 void
 profiler_start
 (
-int
+uint32_t
 aEntries
 double
 aInterval
@@ -19849,7 +19848,7 @@ aFilterCount
 void
 profiler_ensure_started
 (
-int
+uint32_t
 aEntries
 double
 aInterval

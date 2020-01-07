@@ -1615,7 +1615,7 @@ ignored
 void
 profiler_start
 (
-int
+uint32_t
 aEntries
 double
 aInterval
@@ -1749,7 +1749,7 @@ settings
 void
 profiler_ensure_started
 (
-int
+uint32_t
 aEntries
 double
 aInterval
