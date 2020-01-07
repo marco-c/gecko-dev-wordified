@@ -289,6 +289,9 @@ only
 .
 UniquePtr
 <
+workers
+:
+:
 WorkerHolder
 >
 mWorkerHolder

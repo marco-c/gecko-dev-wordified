@@ -181,6 +181,13 @@ h
 #
 include
 "
+WorkerError
+.
+h
+"
+#
+include
+"
 WorkerPrivate
 .
 h
