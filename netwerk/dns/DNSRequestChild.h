@@ -189,10 +189,6 @@ const
 uint32_t
 &
 aFlags
-const
-nsACString
-&
-aNetworkInterface
 nsIDNSListener
 *
 aListener
@@ -306,9 +302,6 @@ mOriginAttributes
 ;
 uint16_t
 mFlags
-;
-nsCString
-mNetworkInterface
 ;
 bool
 mIPCOpen

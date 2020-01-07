@@ -316,10 +316,6 @@ uint16_t
 aAddressFamily
 uint16_t
 aFlags
-const
-char
-*
-aNetworkInterface
 AddrInfo
 *
 *

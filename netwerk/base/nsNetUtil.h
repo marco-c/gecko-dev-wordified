@@ -284,9 +284,6 @@ class
 nsINestedURI
 ;
 class
-nsINetworkInterface
-;
-class
 nsIOutputStream
 ;
 class
