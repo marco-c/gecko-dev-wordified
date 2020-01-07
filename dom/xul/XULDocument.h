@@ -947,16 +947,7 @@ ErrorResult
 &
 aRv
 )
-{
-aRv
-=
-LoadOverlay
-(
-aURL
-aObserver
-)
 ;
-}
 protected
 :
 virtual
