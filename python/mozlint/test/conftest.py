@@ -289,9 +289,7 @@ linters
 [
 '
 .
-lint
-.
-py
+yml
 '
 ]
 )
