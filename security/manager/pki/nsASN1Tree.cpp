@@ -1682,7 +1682,7 @@ CanDrop
 (
 int32_t
 int32_t
-nsIDOMDataTransfer
+nsISupports
 *
 bool
 *
@@ -1711,7 +1711,7 @@ Drop
 (
 int32_t
 int32_t
-nsIDOMDataTransfer
+nsISupports
 *
 )
 {
