@@ -3024,6 +3024,8 @@ this
 .
 tabbrowser
 .
+mPanelContainer
+.
 removeAttribute
 (
 "
@@ -3105,6 +3107,8 @@ showTab
 this
 .
 tabbrowser
+.
+mPanelContainer
 .
 setAttribute
 (

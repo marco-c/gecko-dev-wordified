@@ -219,7 +219,10 @@ color
 )
 ;
 }
+#
 tabbrowser
+-
+tabpanels
 {
 /
 *
@@ -261,7 +264,10 @@ privatebrowsingmode
 =
 temporary
 ]
+#
 tabbrowser
+-
+tabpanels
 {
 /
 *

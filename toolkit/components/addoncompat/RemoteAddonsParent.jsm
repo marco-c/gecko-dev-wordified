@@ -3179,14 +3179,8 @@ from
 the
 /
 /
-<
 tabbrowser
->
-up
-to
-the
-root
-element
+tabbox
 .
 let
 window
@@ -3238,11 +3232,7 @@ window
 .
 gBrowser
 .
-container
-instanceof
-Ci
-.
-nsIDOMXULElement
+tabbox
 &
 &
 target
@@ -3253,7 +3243,7 @@ window
 .
 gBrowser
 .
-container
+tabbox
 )
 )
 {
