@@ -154,7 +154,7 @@ h
 #
 include
 "
-nsIDOMDocumentFragment
+nsIDOMNode
 .
 h
 "
@@ -189,7 +189,7 @@ DocumentFragment
 public
 FragmentOrElement
 public
-nsIDOMDocumentFragment
+nsIDOMNode
 {
 private
 :
@@ -280,11 +280,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 DocumentFragment
 FragmentOrElement
 )
-/
-/
-interface
-nsIDOMDocumentFragment
-NS_DECL_NSIDOMDOCUMENTFRAGMENT
 explicit
 DocumentFragment
 (

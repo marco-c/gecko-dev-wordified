@@ -2250,7 +2250,7 @@ contents
 *
 param
 aFragment
-nsIDOMDocumentFragment
+DocumentFragment
 containing
 the
 nodes

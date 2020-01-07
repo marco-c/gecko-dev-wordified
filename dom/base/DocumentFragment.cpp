@@ -123,7 +123,7 @@ DOM
 Core
 '
 s
-nsIDOMDocumentFragment
+DocumentFragment
 .
 *
 /
@@ -750,10 +750,6 @@ nsIContent
 NS_INTERFACE_MAP_ENTRY
 (
 nsINode
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIDOMDocumentFragment
 )
 NS_INTERFACE_MAP_ENTRY
 (
