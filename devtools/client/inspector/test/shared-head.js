@@ -107,7 +107,7 @@ from
 .
 .
 /
-shared
+framework
 /
 test
 /

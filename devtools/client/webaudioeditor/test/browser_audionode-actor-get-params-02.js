@@ -104,7 +104,7 @@ node
 )
 ;
 yield
-loadFrameScriptUtils
+loadFrameScripts
 (
 )
 ;

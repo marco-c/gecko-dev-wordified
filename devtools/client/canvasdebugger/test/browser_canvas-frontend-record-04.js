@@ -104,7 +104,7 @@ panel
 .
 panelWin
 ;
-loadFrameScriptUtils
+loadFrameScripts
 (
 )
 ;

@@ -89,7 +89,7 @@ from
 .
 .
 /
-shared
+framework
 /
 test
 /
@@ -229,7 +229,7 @@ API
 into
 devtools
 /
-shared
+framework
 /
 test
 /
@@ -662,8 +662,6 @@ devtools
 /
 shared
 /
-test
-/
 frame
 -
 script
@@ -671,7 +669,7 @@ script
 utils
 .
 js
-loadFrameScriptUtils
+getFrameScript
 (
 )
 ;

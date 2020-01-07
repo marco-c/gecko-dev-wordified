@@ -255,6 +255,7 @@ canvas
 getContext
 (
 WEBGL_CONTEXT_NAME
+aFlags
 )
 ;
 }

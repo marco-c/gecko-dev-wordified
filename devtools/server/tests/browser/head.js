@@ -102,7 +102,7 @@ from
 /
 client
 /
-shared
+framework
 /
 test
 /
@@ -134,7 +134,7 @@ devtools
 /
 client
 /
-shared
+framework
 /
 test
 /

@@ -970,7 +970,7 @@ REQUESTS
 length
 )
 ;
-loadFrameScriptUtils
+loadCommonFrameScript
 (
 )
 ;

@@ -299,7 +299,7 @@ true
 )
 ;
 yield
-loadFrameScriptUtils
+loadFrameScripts
 (
 )
 ;

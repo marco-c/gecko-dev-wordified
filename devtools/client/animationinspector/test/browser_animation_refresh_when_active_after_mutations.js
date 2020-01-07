@@ -261,6 +261,11 @@ content
 yield
 evalInDebuggee
 (
+gBrowser
+.
+selectedBrowser
+.
+messageManager
 document
 .
 querySelector

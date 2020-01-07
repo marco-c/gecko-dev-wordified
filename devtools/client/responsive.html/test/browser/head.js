@@ -71,7 +71,7 @@ from
 .
 .
 /
-shared
+framework
 /
 test
 /
@@ -98,7 +98,7 @@ from
 .
 .
 /
-shared
+framework
 /
 test
 /
@@ -184,7 +184,7 @@ devtools
 /
 client
 /
-shared
+framework
 /
 test
 /
@@ -218,7 +218,7 @@ devtools
 /
 client
 /
-shared
+framework
 /
 test
 /
