@@ -570,7 +570,7 @@ uint64_t
 &
 aFwdTransactionId
 const
-uint64_t
+TransactionId
 &
 aTransactionId
 const
@@ -672,7 +672,7 @@ uint64_t
 &
 aFwdTransactionId
 const
-uint64_t
+TransactionId
 &
 aTransactionId
 const
@@ -1093,7 +1093,7 @@ wr
 Epoch
 &
 aWrEpoch
-uint64_t
+TransactionId
 aTransactionId
 const
 TimeStamp
@@ -1105,17 +1105,17 @@ TimeStamp
 aFwdTime
 )
 ;
-uint64_t
+TransactionId
 LastPendingTransactionId
 (
 )
 ;
-uint64_t
+TransactionId
 FlushPendingTransactionIds
 (
 )
 ;
-uint64_t
+TransactionId
 FlushTransactionIdsForEpoch
 (
 const
@@ -1556,7 +1556,7 @@ wr
 Epoch
 &
 aEpoch
-uint64_t
+TransactionId
 aId
 const
 TimeStamp
@@ -1592,7 +1592,7 @@ wr
 Epoch
 mEpoch
 ;
-uint64_t
+TransactionId
 mId
 ;
 TimeStamp

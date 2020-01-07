@@ -132,6 +132,17 @@ include
 "
 mozilla
 /
+layers
+/
+LayersTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -239,7 +250,7 @@ true
 *
 /
 virtual
-uint64_t
+TransactionId
 GetTransactionId
 (
 bool
@@ -294,7 +305,7 @@ TransactionId
 *
 /
 virtual
-uint64_t
+TransactionId
 LastTransactionId
 (
 )
@@ -357,7 +368,7 @@ virtual
 void
 NotifyTransactionCompleted
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 =
@@ -403,7 +414,7 @@ virtual
 void
 RevokeTransactionId
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 =
@@ -539,7 +550,7 @@ virtual
 void
 ResetInitialTransactionId
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 =

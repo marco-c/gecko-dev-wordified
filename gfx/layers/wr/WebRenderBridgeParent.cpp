@@ -3276,7 +3276,7 @@ uint64_t
 &
 aFwdTransactionId
 const
-uint64_t
+TransactionId
 &
 aTransactionId
 const
@@ -3895,7 +3895,7 @@ uint64_t
 &
 aFwdTransactionId
 const
-uint64_t
+TransactionId
 &
 aTransactionId
 const
@@ -7461,7 +7461,7 @@ wr
 Epoch
 &
 aWrEpoch
-uint64_t
+TransactionId
 aTransactionId
 const
 TimeStamp
@@ -7496,7 +7496,7 @@ aFwdTime
 )
 ;
 }
-uint64_t
+TransactionId
 WebRenderBridgeParent
 :
 :
@@ -7504,10 +7504,11 @@ LastPendingTransactionId
 (
 )
 {
-uint64_t
+TransactionId
 id
-=
+{
 0
+}
 ;
 if
 (
@@ -7534,7 +7535,7 @@ return
 id
 ;
 }
-uint64_t
+TransactionId
 WebRenderBridgeParent
 :
 :
@@ -7542,10 +7543,11 @@ FlushPendingTransactionIds
 (
 )
 {
-uint64_t
+TransactionId
 id
-=
+{
 0
+}
 ;
 if
 (
@@ -7591,7 +7593,7 @@ return
 id
 ;
 }
-uint64_t
+TransactionId
 WebRenderBridgeParent
 :
 :
@@ -7610,10 +7612,11 @@ TimeStamp
 aEndTime
 )
 {
-uint64_t
+TransactionId
 id
-=
+{
 0
+}
 ;
 while
 (

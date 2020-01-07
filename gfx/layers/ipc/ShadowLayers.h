@@ -1873,7 +1873,7 @@ paint
 void
 SendPaintTime
 (
-uint64_t
+TransactionId
 aId
 TimeDuration
 aPaintTime
@@ -1920,7 +1920,7 @@ const
 nsIntRegion
 &
 aRegionToClear
-uint64_t
+TransactionId
 aId
 bool
 aScheduleComposite

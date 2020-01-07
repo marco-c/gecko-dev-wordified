@@ -337,9 +337,9 @@ mWidget
 aWidget
 )
 mLatestTransactionId
-(
+{
 0
-)
+}
 mWindowOverlayChanged
 (
 false
@@ -815,7 +815,7 @@ allocator
 =
 mTransactionIdAllocator
 ;
-uint64_t
+TransactionId
 id
 =
 mLatestTransactionId
@@ -2795,7 +2795,7 @@ WebRenderLayerManager
 :
 DidComposite
 (
-uint64_t
+TransactionId
 aTransactionId
 const
 mozilla
@@ -2904,6 +2904,10 @@ transaction
 if
 (
 aTransactionId
+.
+IsValid
+(
+)
 )
 {
 nsIWidgetListener

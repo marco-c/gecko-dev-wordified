@@ -427,7 +427,7 @@ gfx
 IntSize
 &
 aSize
-uint64_t
+TransactionId
 aTransactionId
 const
 WebRenderScrollData
@@ -449,7 +449,7 @@ const
 FocusTarget
 &
 aFocusTarget
-uint64_t
+TransactionId
 aTransactionId
 const
 mozilla

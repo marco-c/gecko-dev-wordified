@@ -504,6 +504,17 @@ TransactionIdAllocator
 public
 nsARefreshObserver
 {
+using
+TransactionId
+=
+mozilla
+:
+:
+layers
+:
+:
+TransactionId
+;
 public
 :
 explicit
@@ -2080,7 +2091,7 @@ layers
 :
 :
 TransactionIdAllocator
-uint64_t
+TransactionId
 GetTransactionId
 (
 bool
@@ -2088,7 +2099,7 @@ aThrottle
 )
 override
 ;
-uint64_t
+TransactionId
 LastTransactionId
 (
 )
@@ -2098,7 +2109,7 @@ override
 void
 NotifyTransactionCompleted
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 override
@@ -2106,7 +2117,7 @@ override
 void
 RevokeTransactionId
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 override
@@ -2120,7 +2131,7 @@ override
 void
 ResetInitialTransactionId
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 override
@@ -2658,7 +2669,7 @@ allocated
 transaction
 id
 .
-uint64_t
+TransactionId
 mPendingTransaction
 ;
 /
@@ -2670,7 +2681,7 @@ completed
 transaction
 id
 .
-uint64_t
+TransactionId
 mCompletedTransaction
 ;
 uint32_t

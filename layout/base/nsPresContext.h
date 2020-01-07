@@ -777,6 +777,17 @@ mozilla
 StaticPresData
 StaticPresData
 ;
+using
+TransactionId
+=
+mozilla
+:
+:
+layers
+:
+:
+TransactionId
+;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
@@ -6006,7 +6017,7 @@ id
 void
 NotifyInvalidation
 (
-uint64_t
+TransactionId
 aTransactionId
 const
 nsRect
@@ -6024,7 +6035,7 @@ pixels
 void
 NotifyInvalidation
 (
-uint64_t
+TransactionId
 aTransactionId
 const
 nsIntRect
@@ -6035,10 +6046,13 @@ aRect
 void
 NotifyDidPaintForSubtree
 (
-uint64_t
+TransactionId
 aTransactionId
 =
+TransactionId
+{
 0
+}
 const
 mozilla
 :
@@ -6064,7 +6078,7 @@ nsRect
 >
 *
 aList
-uint64_t
+TransactionId
 aTransactionId
 mozilla
 :
@@ -7335,7 +7349,7 @@ aDelay
 struct
 TransactionInvalidations
 {
-uint64_t
+TransactionId
 mTransactionId
 ;
 nsTArray
@@ -7350,7 +7364,7 @@ TransactionInvalidations
 *
 GetInvalidations
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 ;
@@ -8783,7 +8797,7 @@ timeout
 void
 EnsureEventualDidPaintEvent
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 ;
@@ -8813,7 +8827,7 @@ aTransactionId
 void
 CancelDidPaintTimers
 (
-uint64_t
+TransactionId
 aTransactionId
 )
 ;
@@ -9391,7 +9405,7 @@ nsPresContext
 struct
 NotifyDidPaintTimer
 {
-uint64_t
+TransactionId
 mTransactionId
 ;
 nsCOMPtr

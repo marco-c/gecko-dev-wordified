@@ -2653,7 +2653,7 @@ aId
 mLayerTree
 )
 {
-uint64_t
+TransactionId
 transactionId
 =
 layerTree
@@ -2667,6 +2667,10 @@ aCompositeEnd
 if
 (
 transactionId
+.
+IsValid
+(
+)
 )
 {
 Unused
@@ -2697,7 +2701,7 @@ aId
 mWrBridge
 )
 {
-uint64_t
+TransactionId
 transactionId
 =
 wrbridge
@@ -2710,6 +2714,10 @@ FlushPendingTransactionIds
 if
 (
 transactionId
+.
+IsValid
+(
+)
 )
 {
 Unused

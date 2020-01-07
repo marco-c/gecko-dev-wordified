@@ -12102,11 +12102,14 @@ RefreshDriver
 *
 aLastTransactionId
 =
+uint64_t
+(
 driver
 -
 >
 LastTransactionId
 (
+)
 )
 ;
 return

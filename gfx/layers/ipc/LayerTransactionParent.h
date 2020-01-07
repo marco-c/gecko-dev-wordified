@@ -449,7 +449,7 @@ const
 override
 ;
 const
-uint64_t
+TransactionId
 &
 GetPendingTransactionId
 (
@@ -462,7 +462,7 @@ mPendingTransaction
 void
 SetPendingTransactionId
 (
-uint64_t
+TransactionId
 aId
 const
 TimeStamp
@@ -487,7 +487,7 @@ mFwdTime
 aFwdTime
 ;
 }
-uint64_t
+TransactionId
 FlushTransactionId
 (
 TimeStamp
@@ -585,7 +585,7 @@ IPCResult
 RecvPaintTime
 (
 const
-uint64_t
+TransactionId
 &
 aTransactionId
 const
@@ -1232,7 +1232,7 @@ mChildEpoch
 uint64_t
 mParentEpoch
 ;
-uint64_t
+TransactionId
 mPendingTransaction
 ;
 TimeStamp

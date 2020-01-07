@@ -1229,7 +1229,7 @@ virtual
 void
 DidComposite
 (
-uint64_t
+TransactionId
 aTransactionId
 const
 mozilla
@@ -1573,7 +1573,7 @@ aAllocator
 override
 ;
 virtual
-uint64_t
+TransactionId
 GetLastTransactionId
 (
 )
@@ -2011,7 +2011,7 @@ TransactionIdAllocator
 >
 mTransactionIdAllocator
 ;
-uint64_t
+TransactionId
 mLatestTransactionId
 ;
 TimeDuration
