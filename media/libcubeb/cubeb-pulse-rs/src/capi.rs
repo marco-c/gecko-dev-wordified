@@ -797,7 +797,6 @@ sp
 }
 }
 let
-mut
 ctx
 =
 &
@@ -944,7 +943,6 @@ Stream
 i32
 {
 let
-mut
 stm
 =
 &
@@ -989,7 +987,6 @@ Stream
 i32
 {
 let
-mut
 stm
 =
 &
@@ -1447,7 +1444,6 @@ c_void
 i32
 {
 let
-mut
 ctx
 =
 &
