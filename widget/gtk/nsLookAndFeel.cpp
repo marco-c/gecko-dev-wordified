@@ -3683,6 +3683,12 @@ consistency
 size
 *
 =
+mozilla
+:
+:
+widget
+:
+:
 ScreenHelperGTK
 :
 :
