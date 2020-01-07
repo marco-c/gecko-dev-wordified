@@ -13635,6 +13635,13 @@ the
 font
 family
 .
+#
+[
+value_info
+(
+represents_keyword
+)
+]
 pub
 weight
 :
@@ -13676,6 +13683,13 @@ the
 font
 family
 .
+#
+[
+value_info
+(
+represents_keyword
+)
+]
 pub
 style
 :

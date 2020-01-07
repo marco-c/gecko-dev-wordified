@@ -3458,6 +3458,13 @@ packing
 algorithm
 or
 not
+#
+[
+value_info
+(
+represents_keyword
+)
+]
 pub
 dense
 :
