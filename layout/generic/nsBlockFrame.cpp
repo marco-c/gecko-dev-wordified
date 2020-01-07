@@ -2803,6 +2803,8 @@ InvalidateFrame
 (
 uint32_t
 aDisplayItemKey
+bool
+aRebuildDisplayItems
 )
 {
 if
@@ -2854,6 +2856,7 @@ nsContainerFrame
 InvalidateFrame
 (
 aDisplayItemKey
+aRebuildDisplayItems
 )
 ;
 }
@@ -2869,6 +2872,8 @@ nsRect
 aRect
 uint32_t
 aDisplayItemKey
+bool
+aRebuildDisplayItems
 )
 {
 if
@@ -2921,6 +2926,7 @@ InvalidateFrameWithRect
 (
 aRect
 aDisplayItemKey
+aRebuildDisplayItems
 )
 ;
 }

@@ -1412,6 +1412,10 @@ uint32_t
 aDisplayItemKey
 =
 0
+bool
+aRebuildDisplayItems
+=
+true
 )
 override
 ;
@@ -1427,6 +1431,10 @@ uint32_t
 aDisplayItemKey
 =
 0
+bool
+aRebuildDisplayItems
+=
+true
 )
 override
 ;
