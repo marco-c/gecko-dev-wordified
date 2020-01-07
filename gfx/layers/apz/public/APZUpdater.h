@@ -432,11 +432,12 @@ wr
 WrWindowId
 &
 aWindowId
+const
 wr
 :
 :
 WrPipelineInfo
-*
+&
 aInfo
 )
 ;

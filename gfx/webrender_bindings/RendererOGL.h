@@ -545,7 +545,6 @@ wr
 :
 :
 WrPipelineInfo
-*
 FlushPipelineInfo
 (
 )

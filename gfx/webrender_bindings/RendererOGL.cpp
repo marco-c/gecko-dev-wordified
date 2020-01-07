@@ -1083,7 +1083,6 @@ wr
 :
 :
 WrPipelineInfo
-*
 RendererOGL
 :
 :
