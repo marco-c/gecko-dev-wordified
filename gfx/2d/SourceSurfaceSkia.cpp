@@ -955,6 +955,11 @@ aMappedSurface
 >
 mData
 ;
+bool
+isMapped
+=
+mIsMapped
+;
 if
 (
 !
@@ -969,7 +974,7 @@ Unlock
 ;
 }
 return
-mIsMapped
+isMapped
 ;
 }
 void
@@ -980,12 +985,6 @@ Unmap
 (
 )
 {
-mChangeMutex
-.
-Unlock
-(
-)
-;
 MOZ_ASSERT
 (
 mIsMapped
@@ -994,6 +993,12 @@ mIsMapped
 mIsMapped
 =
 false
+;
+mChangeMutex
+.
+Unlock
+(
+)
 ;
 }
 void
