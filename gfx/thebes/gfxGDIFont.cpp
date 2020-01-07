@@ -317,7 +317,7 @@ mScriptCache
 nullptr
 )
 {
-mNeedsBold
+mNeedsSyntheticBold
 =
 aFontStyle
 -
@@ -1241,7 +1241,7 @@ multi
 striking
 if
 (
-mNeedsBold
+mNeedsSyntheticBold
 &
 &
 GetFontEntry
@@ -3303,7 +3303,7 @@ weight
 200
 weight
 =
-mNeedsBold
+mNeedsSyntheticBold
 ?
 700
 :
@@ -3358,7 +3358,7 @@ IsSingle
 ;
 weight
 =
-mNeedsBold
+mNeedsSyntheticBold
 ?
 700
 :
