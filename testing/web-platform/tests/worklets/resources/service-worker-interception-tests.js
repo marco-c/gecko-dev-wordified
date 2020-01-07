@@ -1187,17 +1187,4 @@ worker
 '
 )
 ;
-/
-/
-TODO
-(
-nhiroki
-)
-:
-Add
-tests
-for
-dynamic
-import
-.
 }
