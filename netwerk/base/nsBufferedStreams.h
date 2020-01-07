@@ -507,6 +507,7 @@ mGetBufferCount
 /
 class
 nsBufferedInputStream
+final
 :
 public
 nsBufferedStream

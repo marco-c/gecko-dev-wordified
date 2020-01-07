@@ -225,6 +225,7 @@ nsHttpResponseHead
 ;
 class
 Predictor
+final
 :
 public
 nsINetworkPredictor

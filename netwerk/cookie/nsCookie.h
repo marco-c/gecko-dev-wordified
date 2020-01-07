@@ -357,6 +357,7 @@ implementation
 /
 class
 nsCookie
+final
 :
 public
 nsICookie2

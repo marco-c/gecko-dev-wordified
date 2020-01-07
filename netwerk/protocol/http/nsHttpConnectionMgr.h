@@ -3568,6 +3568,7 @@ nsHalfOpenSocket
 ;
 class
 PendingTransactionInfo
+final
 :
 public
 ARefBase

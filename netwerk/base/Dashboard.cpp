@@ -934,6 +934,7 @@ LookupArgument
 )
 class
 LookupHelper
+final
 :
 public
 nsIDNSListener

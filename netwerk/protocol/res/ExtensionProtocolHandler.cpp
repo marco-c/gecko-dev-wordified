@@ -850,6 +850,7 @@ mIsJarChannel
 ;
 class
 ExtensionJARFileOpener
+final
 :
 public
 nsISupports

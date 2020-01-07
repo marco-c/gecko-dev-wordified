@@ -83,6 +83,7 @@ net
 {
 class
 LoadContextInfo
+final
 :
 public
 nsILoadContextInfo

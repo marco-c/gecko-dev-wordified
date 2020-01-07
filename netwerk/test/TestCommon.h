@@ -166,6 +166,7 @@ h
 -
 class
 WaitForCondition
+final
 :
 public
 nsIRunnable

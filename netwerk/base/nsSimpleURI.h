@@ -410,7 +410,6 @@ nsACString
 input
 )
 ;
-virtual
 nsresult
 SetUsername
 (

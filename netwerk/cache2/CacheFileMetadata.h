@@ -835,6 +835,7 @@ CACHEFILEMETADATALISTENER_IID
 )
 class
 CacheFileMetadata
+final
 :
 public
 CacheFileIOListener

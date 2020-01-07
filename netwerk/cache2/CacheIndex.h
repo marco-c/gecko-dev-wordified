@@ -4193,6 +4193,7 @@ endif
 ;
 class
 CacheIndex
+final
 :
 public
 CacheFileIOListener

@@ -624,6 +624,7 @@ mItems
 ;
 class
 CacheFileChunk
+final
 :
 public
 CacheFileIOListener
