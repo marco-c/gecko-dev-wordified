@@ -952,6 +952,13 @@ nsHostObjectProtocolHandler
 .
 h
 "
+#
+include
+"
+nsThreadManager
+.
+h
+"
 using
 namespace
 mozilla
@@ -1916,6 +1923,13 @@ Initialize
 )
 ;
 }
+nsThreadManager
+:
+:
+InitializeShutdownObserver
+(
+)
+;
 return
 NS_OK
 ;
