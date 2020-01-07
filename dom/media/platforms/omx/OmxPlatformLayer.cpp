@@ -350,9 +350,6 @@ AudioInfo
 aInfo
 )
 {
-OMX_ERRORTYPE
-err
-;
 OMX_PARAM_PORTDEFINITIONTYPE
 def
 ;
@@ -372,6 +369,7 @@ OutputPortIndex
 (
 )
 ;
+OMX_ERRORTYPE
 err
 =
 aOmx
@@ -565,9 +563,6 @@ aInfo
 )
 override
 {
-OMX_ERRORTYPE
-err
-;
 OMX_AUDIO_PARAM_AACPROFILETYPE
 aacProfile
 ;
@@ -587,6 +582,7 @@ InputPortIndex
 (
 )
 ;
+OMX_ERRORTYPE
 err
 =
 aOmx
@@ -715,9 +711,6 @@ aInfo
 )
 override
 {
-OMX_ERRORTYPE
-err
-;
 OMX_AUDIO_PARAM_MP3TYPE
 mp3Param
 ;
@@ -737,6 +730,7 @@ InputPortIndex
 (
 )
 ;
+OMX_ERRORTYPE
 err
 =
 aOmx
@@ -861,9 +855,6 @@ aInfo
 )
 override
 {
-OMX_ERRORTYPE
-err
-;
 OMX_AUDIO_PARAM_AMRTYPE
 def
 ;
@@ -883,6 +874,7 @@ InputPortIndex
 (
 )
 ;
+OMX_ERRORTYPE
 err
 =
 aOmx
@@ -1181,6 +1173,8 @@ override
 {
 OMX_ERRORTYPE
 err
+=
+OMX_ErrorNone
 ;
 OMX_PARAM_PORTDEFINITIONTYPE
 def
