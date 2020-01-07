@@ -488,7 +488,7 @@ revision
     
 if
 '
-comm_repository
+comm_head_repository
 '
 in
 params
