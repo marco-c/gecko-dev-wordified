@@ -562,6 +562,8 @@ set
 bool
 *
 viewport_units_used
+bool
+may_affect_default_style
 )
 /
 /
