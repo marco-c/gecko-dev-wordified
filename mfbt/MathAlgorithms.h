@@ -988,7 +988,6 @@ typename
 T
 >
 inline
-constexpr
 typename
 detail
 :
@@ -1007,9 +1006,7 @@ T
 aValue
 )
 {
-using
-ReturnType
-=
+typedef
 typename
 detail
 :
@@ -1021,6 +1018,7 @@ T
 :
 :
 Type
+ReturnType
 ;
 return
 aValue
