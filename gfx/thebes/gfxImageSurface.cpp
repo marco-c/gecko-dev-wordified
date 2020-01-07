@@ -539,7 +539,7 @@ t
 hurt
 .
 return
-moz_posix_memalign
+posix_memalign
 (
 &
 ptr

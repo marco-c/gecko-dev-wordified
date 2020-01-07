@@ -259,7 +259,7 @@ heap_alloc
 (
 void
 )
-moz_posix_memalign
+posix_memalign
 (
 &
 mBuf
