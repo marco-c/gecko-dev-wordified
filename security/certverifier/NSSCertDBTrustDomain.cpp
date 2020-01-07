@@ -5512,7 +5512,7 @@ PublicKeyPinningService
 :
 ChainHasValidPins
 (
-certList
+nssCertList
 mHostname
 time
 enforceTestMode
