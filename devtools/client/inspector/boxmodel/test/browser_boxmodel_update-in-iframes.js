@@ -91,12 +91,12 @@ html
 let
 {
 inspector
-boxmodel
+view
 testActor
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -104,7 +104,7 @@ yield
 testResizingInIframe
 (
 inspector
-boxmodel
+view
 testActor
 )
 ;
@@ -112,7 +112,7 @@ yield
 testReflowsAfterIframeDeletion
 (
 inspector
-boxmodel
+view
 testActor
 )
 ;
@@ -124,7 +124,7 @@ function
 testResizingInIframe
 (
 inspector
-boxmodel
+view
 testActor
 )
 {
@@ -185,7 +185,7 @@ value
 let
 sizeElt
 =
-boxmodel
+view
 .
 document
 .
@@ -303,7 +303,7 @@ function
 testReflowsAfterIframeDeletion
 (
 inspector
-boxmodel
+view
 testActor
 )
 {
@@ -402,7 +402,7 @@ value
 let
 sizeElt
 =
-boxmodel
+view
 .
 document
 .
