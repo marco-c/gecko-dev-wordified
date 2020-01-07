@@ -4706,6 +4706,15 @@ this
 _article
 .
 url
+preferredWidth
+:
+16
+*
+this
+.
+_win
+.
+devicePixelRatio
 }
 )
 ;
