@@ -1382,6 +1382,14 @@ setSignedInUser
 credentials
 )
 ;
+if
+(
+!
+credentials
+.
+verified
+)
+{
 await
 this
 .
@@ -1392,6 +1400,7 @@ account
 username
 )
 ;
+}
 if
 (
 Weave
