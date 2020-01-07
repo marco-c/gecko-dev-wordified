@@ -2730,6 +2730,10 @@ private
 void
 UpdateProxies
 (
+bool
+aCancelRequest
+bool
+aSyncNotify
 )
 ;
 virtual
