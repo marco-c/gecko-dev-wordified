@@ -114,6 +114,7 @@ talos
 utils
 import
 TalosError
+run_in_debug_mode
 from
 talos
 import
@@ -388,6 +389,15 @@ self
 gecko_profile
 =
 None
+        
+self
+.
+debug_mode
+=
+run_in_debug_mode
+(
+browser_config
+)
     
 def
 _init_env
@@ -1493,6 +1503,13 @@ _init_profile
 try
 :
             
+if
+not
+self
+.
+debug_mode
+:
+                
 self
 .
 _run_profile

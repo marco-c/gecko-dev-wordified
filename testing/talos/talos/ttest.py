@@ -176,6 +176,7 @@ import
 TalosCrash
 TalosError
 TalosRegression
+run_in_debug_mode
 LOG
 =
 get_proxy_logger
@@ -237,7 +238,7 @@ found
 raise
 TalosCrash
 (
-"
+'
 Found
 crashes
 after
@@ -245,7 +246,7 @@ test
 run
 terminating
 test
-"
+'
 )
     
 def
@@ -353,9 +354,9 @@ system
 )
 =
 =
-"
+'
 Linux
-"
+'
 :
             
 return
@@ -371,12 +372,12 @@ system
 )
 in
 (
-"
+'
 Windows
-"
-"
+'
+'
 Microsoft
-"
+'
 )
 :
             
@@ -523,9 +524,9 @@ system
 )
 =
 =
-"
+'
 Darwin
-"
+'
 :
             
 return
@@ -642,11 +643,11 @@ path
 join
 (
 here
-"
+'
 mainthread_io
 .
 log
-"
+'
 )
             
 setup
@@ -681,7 +682,7 @@ stylothreads
 raise
 TalosError
 (
-"
+'
 -
 -
 disable
@@ -694,7 +695,7 @@ with
 stylo
 -
 threads
-"
+'
 )
             
 if
@@ -709,7 +710,7 @@ enable_stylo
 raise
 TalosError
 (
-"
+'
 -
 -
 disable
@@ -722,7 +723,7 @@ with
 enable
 -
 stylo
-"
+'
 )
         
 #
@@ -974,9 +975,9 @@ system
 )
 !
 =
-"
+'
 Darwin
-"
+'
 :
             
 #
@@ -1094,7 +1095,7 @@ LOG
 .
 info
 (
-"
+'
 Using
 mitmproxy
 so
@@ -1102,7 +1103,7 @@ setting
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
 to
 0
-"
+'
 )
             
 setup
@@ -1167,7 +1168,7 @@ LOG
 .
 info
 (
-"
+'
 Running
 cycle
 %
@@ -1182,7 +1183,7 @@ test
 .
 .
 .
-"
+'
                      
 %
 (
@@ -1299,7 +1300,7 @@ LOG
 .
 debug
 (
-"
+'
 Reinstalling
 %
 s
@@ -1308,7 +1309,7 @@ top
 of
 %
 s
-"
+'
                               
 %
 (
@@ -1421,16 +1422,16 @@ GenerateBrowserCommandLine
                 
 browser_config
 [
-"
+'
 browser_path
-"
+'
 ]
                 
 browser_config
 [
-"
+'
 extra_args
-"
+'
 ]
                 
 setup
@@ -1588,6 +1589,33 @@ counter_management
 else
 None
 )
+                    
+debug
+=
+browser_config
+[
+'
+debug
+'
+]
+                    
+debugger
+=
+browser_config
+[
+'
+debugger
+'
+]
+                    
+debugger_args
+=
+browser_config
+[
+'
+debugger_args
+'
+]
                 
 )
             
@@ -1642,11 +1670,11 @@ path
 join
 (
 here
-"
+'
 mainthread_io
 .
 log
-"
+'
 )
                 
 if
@@ -1781,8 +1809,8 @@ strip
 )
 =
 =
-"
-"
+'
+'
 :
                             
 continue
@@ -1962,7 +1990,7 @@ raise
 TalosRegression
 (
                     
-"
+'
 Talos
 has
 found
@@ -1972,9 +2000,9 @@ if
 you
 have
 questions
-"
+'
                     
-"
+'
 ask
 for
 help
@@ -1983,7 +2011,7 @@ irc
 on
 #
 perf
-"
+'
                 
 )
             
@@ -1996,11 +2024,19 @@ the
 browser
 output
             
+if
+not
+run_in_debug_mode
+(
+browser_config
+)
+:
+                
 test_results
 .
 add
 (
-                
+                    
 '
 \
 n
@@ -2012,7 +2048,7 @@ pcontext
 .
 output
 )
-                
+                    
 counter_results
 =
 (
@@ -2021,14 +2057,14 @@ counter_management
 results
 (
 )
-                                 
+                                     
 if
 counter_management
-                                 
+                                     
 else
 None
 )
-            
+                
 )
             
 if
@@ -2120,14 +2156,14 @@ LOG
 .
 debug
 (
-"
+'
 COUNTER
 %
 r
 :
 %
 s
-"
+'
 %
 (
 key
