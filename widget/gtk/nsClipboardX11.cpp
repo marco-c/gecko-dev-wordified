@@ -471,11 +471,9 @@ bug
 .
 #
 if
+defined
 (
 MOZ_WIDGET_GTK
-=
-=
-3
 )
 &
 &

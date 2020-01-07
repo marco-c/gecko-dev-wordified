@@ -3828,13 +3828,8 @@ get
 )
 ;
 #
-if
-(
+ifdef
 MOZ_WIDGET_GTK
-=
-=
-3
-)
 if
 (
 mProcessType
@@ -3870,12 +3865,7 @@ get
 endif
 /
 /
-(
 MOZ_WIDGET_GTK
-=
-=
-3
-)
 if
 (
 ld_library_path

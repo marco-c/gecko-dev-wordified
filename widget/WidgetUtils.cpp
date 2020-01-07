@@ -183,11 +183,8 @@ h
 #
 endif
 #
-if
+ifdef
 MOZ_WIDGET_GTK
-=
-=
-3
 #
 include
 "
@@ -662,10 +659,10 @@ IsTouchDeviceSupportPresent
 ;
 #
 elif
+defined
+(
 MOZ_WIDGET_GTK
-=
-=
-3
+)
 return
 WidgetUtilsGTK
 :
