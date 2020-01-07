@@ -2875,6 +2875,15 @@ nsStyleSet
 aSet
 )
 ;
+ServoStyleSet
+*
+CloneStyleSet
+(
+ServoStyleSet
+*
+aSet
+)
+;
 bool
 VerifyIncrementalReflow
 (
