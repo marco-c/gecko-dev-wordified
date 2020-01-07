@@ -6915,6 +6915,8 @@ mMetadataDuration
 ToMicroseconds
 (
 )
++
+startTime
 ;
 if
 (
