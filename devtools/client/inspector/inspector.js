@@ -7475,6 +7475,13 @@ highlighters
 restoreGridState
 (
 )
+this
+.
+highlighters
+.
+restoreShapeState
+(
+)
 ]
 )
 ;
@@ -8911,9 +8918,6 @@ _destroyMarkup
 (
 )
 ;
-let
-highlighterDestroyer
-=
 this
 .
 highlighters
@@ -9035,7 +9039,6 @@ promise
 all
 (
 [
-highlighterDestroyer
 cssPropertiesDestroyer
 markupDestroyer
 sidebarDestroyer
