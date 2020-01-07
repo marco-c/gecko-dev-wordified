@@ -612,7 +612,7 @@ sHaveAsyncInterrupt
 =
 false
 ;
-bool
+void
 jit
 :
 :
@@ -645,7 +645,6 @@ if
 sTriedInstallAsyncInterrupt
 )
 return
-sHaveAsyncInterrupt
 ;
 sTriedInstallAsyncInterrupt
 =
@@ -772,7 +771,6 @@ version_string
 19
 )
 return
-false
 ;
 }
 #
@@ -945,9 +943,6 @@ XP_WIN
 )
 sHaveAsyncInterrupt
 =
-true
-;
-return
 true
 ;
 }

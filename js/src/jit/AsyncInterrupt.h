@@ -162,8 +162,7 @@ runtime
 must
 fail
 .
-MOZ_MUST_USE
-bool
+void
 EnsureAsyncInterrupt
 (
 JSContext
