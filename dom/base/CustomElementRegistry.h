@@ -824,7 +824,7 @@ mCustomElementDefinition
 ;
 #
 define
-ALEADY_CONSTRUCTED_MARKER
+ALREADY_CONSTRUCTED_MARKER
 nullptr
 /
 /
