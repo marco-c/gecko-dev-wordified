@@ -11882,12 +11882,6 @@ hMargin
 =
 0
 ;
-result
-.
-hPctMargin
-=
-0
-;
 if
 (
 IsBorderCollapse
@@ -11898,12 +11892,6 @@ IsBorderCollapse
 result
 .
 hPadding
-=
-0
-;
-result
-.
-hPctPadding
 =
 0
 ;

@@ -4842,12 +4842,6 @@ hMargin
 =
 0
 ;
-result
-.
-hPctMargin
-=
-0
-;
 WritingMode
 wm
 =
