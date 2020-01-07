@@ -1928,7 +1928,7 @@ UnsupportedFontFaceDescriptor
 (
 b
 "
-PEUnknwnFontDesc
+PEUnknownFontDesc
 \
 0
 "
