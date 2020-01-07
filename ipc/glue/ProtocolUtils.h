@@ -2693,6 +2693,15 @@ override
 ;
 private
 :
+base
+:
+:
+ProcessId
+OtherPidMaybeInvalid
+(
+)
+const
+;
 ProtocolId
 mProtocolId
 ;
