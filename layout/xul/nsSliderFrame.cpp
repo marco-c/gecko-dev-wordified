@@ -2719,7 +2719,6 @@ this
 masterList
 ownLayerASR
 flags
-scrollTargetId
 ScrollbarData
 {
 scrollDirection
@@ -2738,6 +2737,7 @@ thumbLength
 isAsyncDraggable
 sliderTrackStart
 sliderTrackLength
+scrollTargetId
 }
 )
 )

@@ -19802,17 +19802,6 @@ aFlags
 APPEND_OWN_LAYER
 )
 {
-FrameMetrics
-:
-:
-ViewID
-scrollTarget
-=
-FrameMetrics
-:
-:
-NULL_SCROLL_ID
-;
 nsDisplayOwnLayerFlags
 flags
 =
@@ -19867,6 +19856,9 @@ nsDisplayOwnLayerFlags
 eHorizontalScrollbar
 )
 ;
+ScrollbarData
+scrollbarData
+;
 if
 (
 aFlags
@@ -19874,7 +19866,9 @@ aFlags
 APPEND_SCROLLBAR_CONTAINER
 )
 {
-scrollTarget
+scrollbarData
+.
+mTargetViewId
 =
 aBuilder
 -
@@ -19926,7 +19920,7 @@ aSourceFrame
 aSource
 asr
 flags
-scrollTarget
+scrollbarData
 )
 ;
 }

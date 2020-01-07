@@ -8107,16 +8107,6 @@ mozilla
 layers
 :
 :
-FrameMetrics
-:
-:
-NULL_SCROLL_ID
-mozilla
-:
-:
-layers
-:
-:
 ScrollbarData
 {
 }
