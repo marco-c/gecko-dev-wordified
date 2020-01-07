@@ -1873,8 +1873,6 @@ nsIApplicationCacheContainer
 public
 nsStubMutationObserver
 public
-nsIObserver
-public
 nsIDOMXPathEvaluator
 {
 friend
@@ -3972,10 +3970,6 @@ override
 /
 nsIApplicationCacheContainer
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
-/
-/
-nsIObserver
-NS_DECL_NSIOBSERVER
 NS_DECL_NSIDOMXPATHEVALUATOR
 virtual
 nsresult
