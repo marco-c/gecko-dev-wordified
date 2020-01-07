@@ -229,9 +229,6 @@ Service
 Helper
 /
 /
-Presentation
-/
-/
 Shield
 Recipe
 Client
