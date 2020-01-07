@@ -778,17 +778,6 @@ pseudoType1
 ;
 }
 }
-/
-/
-XXX
-Switch
-to
-the
-frame
-version
-of
-DoCompareTreePosition
-?
 int32_t
 cmp
 =

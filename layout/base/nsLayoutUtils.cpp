@@ -10061,7 +10061,7 @@ c1
 c1
 -
 >
-GetParentNode
+GetParentOrHostNode
 (
 )
 )
@@ -10149,7 +10149,7 @@ c2
 c2
 -
 >
-GetParentNode
+GetParentOrHostNode
 (
 )
 )
@@ -10375,7 +10375,7 @@ parent
 content1Ancestor
 -
 >
-GetParentNode
+GetParentOrHostNode
 (
 )
 ;
