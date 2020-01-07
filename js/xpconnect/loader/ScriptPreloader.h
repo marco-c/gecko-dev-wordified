@@ -2622,7 +2622,10 @@ static
 void
 OffThreadDecodeCallback
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 token
 void
@@ -2942,7 +2945,10 @@ thread
 decode
 task
 .
-void
+JS
+:
+:
+OffThreadToken
 *
 mToken
 =

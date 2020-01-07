@@ -393,7 +393,10 @@ inline
 void
 SetToken
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 aToken
 )
@@ -513,7 +516,10 @@ mPromise
 nsString
 mCharset
 ;
-void
+JS
+:
+:
+OffThreadToken
 *
 mToken
 ;
@@ -645,7 +651,10 @@ static
 void
 OffThreadScriptLoaderCallback
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 aToken
 void

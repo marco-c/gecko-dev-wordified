@@ -433,7 +433,10 @@ SetReady
 (
 )
 ;
-void
+JS
+:
+:
+OffThreadToken
 *
 *
 OffThreadTokenPtr
@@ -957,7 +960,10 @@ tracking
 protection
 list
 .
-void
+JS
+:
+:
+OffThreadToken
 *
 mOffThreadToken
 ;

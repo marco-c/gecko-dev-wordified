@@ -1039,7 +1039,10 @@ MOZ_MUST_USE
 nsresult
 JoinAndExec
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 *
 aOffThreadToken
@@ -1202,7 +1205,10 @@ MOZ_MUST_USE
 nsresult
 DecodeJoinAndExec
 (
-void
+JS
+:
+:
+OffThreadToken
 *
 *
 aOffThreadToken

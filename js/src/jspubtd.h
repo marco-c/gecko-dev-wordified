@@ -523,6 +523,9 @@ JS_PUBLIC_API
 PropertyDescriptor
 )
 ;
+class
+OffThreadToken
+;
 typedef
 void
 (
@@ -530,7 +533,7 @@ void
 OffThreadCompileCallback
 )
 (
-void
+OffThreadToken
 *
 token
 void
