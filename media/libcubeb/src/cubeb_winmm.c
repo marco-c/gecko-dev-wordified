@@ -2083,6 +2083,11 @@ XASSERT
 stream
 )
 ;
+XASSERT
+(
+output_stream_params
+)
+;
 if
 (
 input_stream_params

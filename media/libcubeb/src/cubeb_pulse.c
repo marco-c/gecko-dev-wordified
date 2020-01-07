@@ -8579,6 +8579,17 @@ o
 NULL
 )
 {
+WRAP
+(
+pa_threaded_mainloop_unlock
+)
+(
+context
+-
+>
+mainloop
+)
+;
 LOG
 (
 "
