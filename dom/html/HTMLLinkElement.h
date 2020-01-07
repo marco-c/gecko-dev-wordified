@@ -1150,7 +1150,7 @@ HTMLLinkElement
 nsStyleLinkElement
 Maybe
 <
-StyleSheetInfo
+SheetInfo
 >
 GetStyleSheetInfo
 (

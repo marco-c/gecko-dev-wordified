@@ -471,7 +471,7 @@ HTMLStyleElement
 ;
 Maybe
 <
-StyleSheetInfo
+SheetInfo
 >
 GetStyleSheetInfo
 (

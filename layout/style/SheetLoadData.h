@@ -191,9 +191,6 @@ class
 nsIPrincipal
 ;
 class
-nsIStyleLinkingElement
-;
-class
 nsIURI
 ;
 namespace

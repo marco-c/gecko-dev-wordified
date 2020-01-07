@@ -513,7 +513,7 @@ nsStyleLinkElement
 overrides
 Maybe
 <
-StyleSheetInfo
+SheetInfo
 >
 GetStyleSheetInfo
 (

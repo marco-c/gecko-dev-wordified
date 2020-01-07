@@ -12348,7 +12348,7 @@ Loader
 LoadInlineStyle
 (
 const
-StyleSheetInfo
+SheetInfo
 &
 aInfo
 const
@@ -12938,7 +12938,7 @@ Loader
 LoadStyleLink
 (
 const
-StyleSheetInfo
+SheetInfo
 &
 aInfo
 nsICSSLoaderObserver

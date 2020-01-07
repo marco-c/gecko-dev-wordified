@@ -935,7 +935,7 @@ Maybe
 nsStyleLinkElement
 :
 :
-StyleSheetInfo
+SheetInfo
 >
 HTMLStyleElement
 :
@@ -1104,7 +1104,7 @@ mTriggeringPrincipal
 return
 Some
 (
-StyleSheetInfo
+SheetInfo
 {
 *
 OwnerDoc

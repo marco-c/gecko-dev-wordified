@@ -1408,7 +1408,7 @@ Maybe
 nsStyleLinkElement
 :
 :
-StyleSheetInfo
+SheetInfo
 >
 SVGStyleElement
 :
@@ -1544,7 +1544,7 @@ Nothing
 return
 Some
 (
-StyleSheetInfo
+SheetInfo
 {
 *
 OwnerDoc
