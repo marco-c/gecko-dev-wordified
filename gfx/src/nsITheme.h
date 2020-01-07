@@ -570,13 +570,12 @@ false
 *
 Get
 the
-computed
-CSS
 border
 for
 the
 widget
 in
+device
 pixels
 .
 *
@@ -592,7 +591,10 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 *
 aResult
 )

@@ -263,7 +263,10 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -570,7 +573,10 @@ uint8_t
 aWidgetType
 GtkTextDirection
 aDirection
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 *
 aResult
 )
@@ -587,7 +593,10 @@ MOZ_GTK_WIDGET_NODE_COUNT
 8
 ]
 ;
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 mBorderCache
 [
 MOZ_GTK_WIDGET_NODE_COUNT
