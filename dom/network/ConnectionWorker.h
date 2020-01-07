@@ -185,12 +185,8 @@ aRv
 ;
 private
 :
-explicit
 ConnectionWorker
 (
-WorkerPrivate
-*
-aWorkerPrivate
 )
 ;
 ~
@@ -204,10 +200,6 @@ ShutdownInternal
 (
 )
 override
-;
-WorkerPrivate
-*
-mWorkerPrivate
 ;
 RefPtr
 <
