@@ -2648,14 +2648,6 @@ mallocSizeOf
 size_t
 n
 =
-0
-;
-/
-/
-TODO
-:
-should
-be
 aCallbacks
 .
 sizeOfIncludingThis
