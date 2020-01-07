@@ -305,7 +305,7 @@ SkASSERT
 base
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -313,7 +313,7 @@ NULL
 base
 may
 be
-NULL
+nullptr
 if
 count
 is

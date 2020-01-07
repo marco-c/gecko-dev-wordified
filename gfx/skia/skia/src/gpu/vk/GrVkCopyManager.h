@@ -42,6 +42,13 @@ GrVkCopyManager_DEFINED
 #
 include
 "
+GrTypes
+.
+h
+"
+#
+include
+"
 GrVkDescriptorSetManager
 .
 h
@@ -99,9 +106,13 @@ gpu
 GrSurface
 *
 dst
+GrSurfaceOrigin
+dstOrigin
 GrSurface
 *
 src
+GrSurfaceOrigin
+srcOrigin
 const
 SkIRect
 &

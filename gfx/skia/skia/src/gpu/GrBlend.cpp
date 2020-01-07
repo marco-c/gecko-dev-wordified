@@ -40,6 +40,18 @@ GrBlend
 .
 h
 "
+#
+include
+"
+.
+.
+/
+private
+/
+GrColor
+.
+h
+"
 /
 *
 *
@@ -669,7 +681,7 @@ value
 ;
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Illegal

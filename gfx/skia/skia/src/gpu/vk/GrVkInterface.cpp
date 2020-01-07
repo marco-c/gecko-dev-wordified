@@ -99,6 +99,106 @@ device
 GrVkInterface
 :
 :
+GetProc
+make_unified_getter
+(
+const
+GrVkInterface
+:
+:
+GetInstanceProc
+&
+iproc
+const
+GrVkInterface
+:
+:
+GetDeviceProc
+&
+dproc
+)
+{
+return
+[
+&
+iproc
+&
+dproc
+]
+(
+const
+char
+*
+proc_name
+VkInstance
+instance
+VkDevice
+device
+)
+{
+if
+(
+device
+!
+=
+VK_NULL_HANDLE
+)
+{
+return
+dproc
+(
+device
+proc_name
+)
+;
+}
+return
+iproc
+(
+instance
+proc_name
+)
+;
+}
+;
+}
+GrVkInterface
+:
+:
+GrVkInterface
+(
+const
+GetInstanceProc
+&
+getInstanceProc
+const
+GetDeviceProc
+&
+getDeviceProc
+VkInstance
+instance
+VkDevice
+device
+uint32_t
+extensionFlags
+)
+:
+GrVkInterface
+(
+make_unified_getter
+(
+getInstanceProc
+getDeviceProc
+)
+instance
+device
+extensionFlags
+)
+{
+}
+GrVkInterface
+:
+:
 GrVkInterface
 (
 GetProc
@@ -1196,7 +1296,7 @@ always
 required
 if
 (
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1204,7 +1304,7 @@ fFunctions
 fCreateInstance
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1212,7 +1312,7 @@ fFunctions
 fDestroyInstance
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1220,7 +1320,7 @@ fFunctions
 fEnumeratePhysicalDevices
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1228,7 +1328,7 @@ fFunctions
 fGetPhysicalDeviceFeatures
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1236,7 +1336,7 @@ fFunctions
 fGetPhysicalDeviceFormatProperties
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1244,7 +1344,7 @@ fFunctions
 fGetPhysicalDeviceImageFormatProperties
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1252,7 +1352,7 @@ fFunctions
 fGetPhysicalDeviceProperties
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1260,7 +1360,7 @@ fFunctions
 fGetPhysicalDeviceQueueFamilyProperties
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1268,7 +1368,7 @@ fFunctions
 fGetPhysicalDeviceMemoryProperties
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1276,7 +1376,7 @@ fFunctions
 fCreateDevice
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1284,7 +1384,7 @@ fFunctions
 fDestroyDevice
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1292,7 +1392,7 @@ fFunctions
 fEnumerateInstanceExtensionProperties
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1300,7 +1400,7 @@ fFunctions
 fEnumerateDeviceExtensionProperties
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1308,7 +1408,7 @@ fFunctions
 fEnumerateInstanceLayerProperties
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1316,7 +1416,7 @@ fFunctions
 fEnumerateDeviceLayerProperties
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1324,7 +1424,7 @@ fFunctions
 fGetDeviceQueue
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1332,7 +1432,7 @@ fFunctions
 fQueueSubmit
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1340,7 +1440,7 @@ fFunctions
 fQueueWaitIdle
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1348,7 +1448,7 @@ fFunctions
 fDeviceWaitIdle
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1356,7 +1456,7 @@ fFunctions
 fAllocateMemory
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1364,7 +1464,7 @@ fFunctions
 fFreeMemory
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1372,7 +1472,7 @@ fFunctions
 fMapMemory
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1380,7 +1480,7 @@ fFunctions
 fUnmapMemory
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1388,7 +1488,7 @@ fFunctions
 fFlushMappedMemoryRanges
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1396,7 +1496,7 @@ fFunctions
 fInvalidateMappedMemoryRanges
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1404,7 +1504,7 @@ fFunctions
 fGetDeviceMemoryCommitment
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1412,7 +1512,7 @@ fFunctions
 fBindBufferMemory
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1420,7 +1520,7 @@ fFunctions
 fBindImageMemory
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1428,7 +1528,7 @@ fFunctions
 fGetBufferMemoryRequirements
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1436,7 +1536,7 @@ fFunctions
 fGetImageMemoryRequirements
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1444,7 +1544,7 @@ fFunctions
 fGetImageSparseMemoryRequirements
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1452,7 +1552,7 @@ fFunctions
 fGetPhysicalDeviceSparseImageFormatProperties
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1460,7 +1560,7 @@ fFunctions
 fQueueBindSparse
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1468,7 +1568,7 @@ fFunctions
 fCreateFence
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1476,7 +1576,7 @@ fFunctions
 fDestroyFence
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1484,7 +1584,7 @@ fFunctions
 fResetFences
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1492,7 +1592,7 @@ fFunctions
 fGetFenceStatus
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1500,7 +1600,7 @@ fFunctions
 fWaitForFences
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1508,7 +1608,7 @@ fFunctions
 fCreateSemaphore
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1516,7 +1616,7 @@ fFunctions
 fDestroySemaphore
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1524,7 +1624,7 @@ fFunctions
 fCreateEvent
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1532,7 +1632,7 @@ fFunctions
 fDestroyEvent
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1540,7 +1640,7 @@ fFunctions
 fGetEventStatus
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1548,7 +1648,7 @@ fFunctions
 fSetEvent
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1556,7 +1656,7 @@ fFunctions
 fResetEvent
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1564,7 +1664,7 @@ fFunctions
 fCreateQueryPool
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1572,7 +1672,7 @@ fFunctions
 fDestroyQueryPool
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1580,7 +1680,7 @@ fFunctions
 fGetQueryPoolResults
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1588,7 +1688,7 @@ fFunctions
 fCreateBuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1596,7 +1696,7 @@ fFunctions
 fDestroyBuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1604,7 +1704,7 @@ fFunctions
 fCreateBufferView
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1612,7 +1712,7 @@ fFunctions
 fDestroyBufferView
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1620,7 +1720,7 @@ fFunctions
 fCreateImage
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1628,7 +1728,7 @@ fFunctions
 fDestroyImage
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1636,7 +1736,7 @@ fFunctions
 fGetImageSubresourceLayout
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1644,7 +1744,7 @@ fFunctions
 fCreateImageView
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1652,7 +1752,7 @@ fFunctions
 fDestroyImageView
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1660,7 +1760,7 @@ fFunctions
 fCreateShaderModule
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1668,7 +1768,7 @@ fFunctions
 fDestroyShaderModule
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1676,7 +1776,7 @@ fFunctions
 fCreatePipelineCache
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1684,7 +1784,7 @@ fFunctions
 fDestroyPipelineCache
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1692,7 +1792,7 @@ fFunctions
 fGetPipelineCacheData
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1700,7 +1800,7 @@ fFunctions
 fMergePipelineCaches
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1708,7 +1808,7 @@ fFunctions
 fCreateGraphicsPipelines
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1716,7 +1816,7 @@ fFunctions
 fCreateComputePipelines
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1724,7 +1824,7 @@ fFunctions
 fDestroyPipeline
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1732,7 +1832,7 @@ fFunctions
 fCreatePipelineLayout
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1740,7 +1840,7 @@ fFunctions
 fDestroyPipelineLayout
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1748,7 +1848,7 @@ fFunctions
 fCreateSampler
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1756,7 +1856,7 @@ fFunctions
 fDestroySampler
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1764,7 +1864,7 @@ fFunctions
 fCreateDescriptorSetLayout
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1772,7 +1872,7 @@ fFunctions
 fDestroyDescriptorSetLayout
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1780,7 +1880,7 @@ fFunctions
 fCreateDescriptorPool
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1788,7 +1888,7 @@ fFunctions
 fDestroyDescriptorPool
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1796,7 +1896,7 @@ fFunctions
 fResetDescriptorPool
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1804,7 +1904,7 @@ fFunctions
 fAllocateDescriptorSets
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1812,7 +1912,7 @@ fFunctions
 fFreeDescriptorSets
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1820,7 +1920,7 @@ fFunctions
 fUpdateDescriptorSets
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1828,7 +1928,7 @@ fFunctions
 fCreateFramebuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1836,7 +1936,7 @@ fFunctions
 fDestroyFramebuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1844,7 +1944,7 @@ fFunctions
 fCreateRenderPass
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1852,7 +1952,7 @@ fFunctions
 fDestroyRenderPass
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1860,7 +1960,7 @@ fFunctions
 fGetRenderAreaGranularity
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1868,7 +1968,7 @@ fFunctions
 fCreateCommandPool
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1876,7 +1976,7 @@ fFunctions
 fDestroyCommandPool
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1884,7 +1984,7 @@ fFunctions
 fResetCommandPool
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1892,7 +1992,7 @@ fFunctions
 fAllocateCommandBuffers
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1900,7 +2000,7 @@ fFunctions
 fFreeCommandBuffers
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1908,7 +2008,7 @@ fFunctions
 fBeginCommandBuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1916,7 +2016,7 @@ fFunctions
 fEndCommandBuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1924,7 +2024,7 @@ fFunctions
 fResetCommandBuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1932,7 +2032,7 @@ fFunctions
 fCmdBindPipeline
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1940,7 +2040,7 @@ fFunctions
 fCmdSetViewport
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1948,7 +2048,7 @@ fFunctions
 fCmdSetScissor
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1956,7 +2056,7 @@ fFunctions
 fCmdSetLineWidth
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1964,7 +2064,7 @@ fFunctions
 fCmdSetDepthBias
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1972,7 +2072,7 @@ fFunctions
 fCmdSetBlendConstants
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1980,7 +2080,7 @@ fFunctions
 fCmdSetDepthBounds
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1988,7 +2088,7 @@ fFunctions
 fCmdSetStencilCompareMask
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -1996,7 +2096,7 @@ fFunctions
 fCmdSetStencilWriteMask
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2004,7 +2104,7 @@ fFunctions
 fCmdSetStencilReference
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2012,7 +2112,7 @@ fFunctions
 fCmdBindDescriptorSets
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2020,7 +2120,7 @@ fFunctions
 fCmdBindIndexBuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2028,7 +2128,7 @@ fFunctions
 fCmdBindVertexBuffers
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2036,7 +2136,7 @@ fFunctions
 fCmdDraw
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2044,7 +2144,7 @@ fFunctions
 fCmdDrawIndexed
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2052,7 +2152,7 @@ fFunctions
 fCmdDrawIndirect
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2060,7 +2160,7 @@ fFunctions
 fCmdDrawIndexedIndirect
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2068,7 +2168,7 @@ fFunctions
 fCmdDispatch
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2076,7 +2176,7 @@ fFunctions
 fCmdDispatchIndirect
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2084,7 +2184,7 @@ fFunctions
 fCmdCopyBuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2092,7 +2192,7 @@ fFunctions
 fCmdCopyImage
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2100,7 +2200,7 @@ fFunctions
 fCmdBlitImage
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2108,7 +2208,7 @@ fFunctions
 fCmdCopyBufferToImage
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2116,7 +2216,7 @@ fFunctions
 fCmdCopyImageToBuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2124,7 +2224,7 @@ fFunctions
 fCmdUpdateBuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2132,7 +2232,7 @@ fFunctions
 fCmdFillBuffer
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2140,7 +2240,7 @@ fFunctions
 fCmdClearColorImage
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2148,7 +2248,7 @@ fFunctions
 fCmdClearDepthStencilImage
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2156,7 +2256,7 @@ fFunctions
 fCmdClearAttachments
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2164,7 +2264,7 @@ fFunctions
 fCmdResolveImage
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2172,7 +2272,7 @@ fFunctions
 fCmdSetEvent
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2180,7 +2280,7 @@ fFunctions
 fCmdResetEvent
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2188,7 +2288,7 @@ fFunctions
 fCmdWaitEvents
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2196,7 +2296,7 @@ fFunctions
 fCmdPipelineBarrier
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2204,7 +2304,7 @@ fFunctions
 fCmdBeginQuery
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2212,7 +2312,7 @@ fFunctions
 fCmdEndQuery
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2220,7 +2320,7 @@ fFunctions
 fCmdResetQueryPool
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2228,7 +2328,7 @@ fFunctions
 fCmdWriteTimestamp
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2236,7 +2336,7 @@ fFunctions
 fCmdCopyQueryPoolResults
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2244,7 +2344,7 @@ fFunctions
 fCmdPushConstants
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2252,7 +2352,7 @@ fFunctions
 fCmdBeginRenderPass
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2260,7 +2360,7 @@ fFunctions
 fCmdNextSubpass
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2268,7 +2368,7 @@ fFunctions
 fCmdEndRenderPass
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2287,7 +2387,7 @@ kEXT_debug_report_GrVkExtensionFlag
 {
 if
 (
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2295,7 +2395,7 @@ fFunctions
 fCreateDebugReportCallbackEXT
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions
@@ -2303,7 +2403,7 @@ fFunctions
 fDebugReportMessageEXT
 |
 |
-NULL
+nullptr
 =
 =
 fFunctions

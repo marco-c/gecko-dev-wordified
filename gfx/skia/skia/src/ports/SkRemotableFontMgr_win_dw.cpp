@@ -44,7 +44,7 @@ h
 if
 defined
 (
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 )
 #
 include
@@ -2439,5 +2439,5 @@ endif
 /
 defined
 (
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 )

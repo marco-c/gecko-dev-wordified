@@ -114,9 +114,11 @@ Symbol
 {
 FunctionDeclaration
 (
-Position
-position
-String
+int
+offset
+Modifiers
+modifiers
+StringFragment
 name
 std
 :
@@ -136,7 +138,7 @@ returnType
 :
 INHERITED
 (
-position
+offset
 kFunctionDeclaration_Kind
 std
 :
@@ -153,6 +155,10 @@ false
 fBuiltin
 (
 false
+)
+fModifiers
+(
+modifiers
 )
 fParameters
 (
@@ -501,7 +507,7 @@ outReturnType
 )
 const
 {
-assert
+ASSERT
 (
 arguments
 .
@@ -704,7 +710,7 @@ Type
 kGeneric_Kind
 )
 {
-assert
+ASSERT
 (
 genericIndex
 !
@@ -745,6 +751,9 @@ fDefined
 ;
 bool
 fBuiltin
+;
+Modifiers
+fModifiers
 ;
 const
 std

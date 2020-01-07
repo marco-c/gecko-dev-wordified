@@ -242,7 +242,7 @@ count
 ;
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Unknown
@@ -344,7 +344,7 @@ count
 ;
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Unknown

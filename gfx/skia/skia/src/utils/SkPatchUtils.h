@@ -42,7 +42,7 @@ SkPatchUtils_DEFINED
 #
 include
 "
-SkColorPriv
+SkColorData
 .
 h
 "
@@ -303,6 +303,10 @@ int
 lodX
 int
 lodY
+bool
+interpColorsLinearly
+=
+false
 )
 ;
 }

@@ -62,11 +62,14 @@ SkRawAdapterCodec
 SkRawCodec
 *
 codec
+ExifOrientationBehavior
+behavior
 )
 :
 INHERITED
 (
 codec
+behavior
 )
 {
 }
@@ -173,12 +176,6 @@ pixels
 rowBytes
 &
 codecOptions
-options
-.
-fColorPtr
-options
-.
-fColorCount
 )
 ;
 }

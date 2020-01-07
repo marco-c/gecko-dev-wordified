@@ -76,13 +76,13 @@ Statement
 {
 ReturnStatement
 (
-Position
-position
+int
+offset
 )
 :
 INHERITED
 (
-position
+offset
 kReturn_Kind
 )
 {
@@ -104,7 +104,7 @@ INHERITED
 expression
 -
 >
-fPosition
+fOffset
 kReturn_Kind
 )
 fExpression

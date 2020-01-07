@@ -76,7 +76,6 @@ contained
 *
 /
 class
-SK_API
 SkRefDict
 :
 SkNoncopyable

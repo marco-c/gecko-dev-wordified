@@ -334,7 +334,6 @@ arguments
 *
 /
 class
-SK_API
 SkPairPathEffect
 :
 public
@@ -650,7 +649,6 @@ pathEffect
 *
 /
 class
-SK_API
 SkComposePathEffect
 :
 public
@@ -1138,7 +1136,6 @@ succeeded
 *
 /
 class
-SK_API
 SkSumPathEffect
 :
 public

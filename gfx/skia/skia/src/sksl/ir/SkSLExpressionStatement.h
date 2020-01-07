@@ -94,7 +94,7 @@ INHERITED
 expression
 -
 >
-fPosition
+fOffset
 kExpression_Kind
 )
 fExpression

@@ -244,7 +244,7 @@ int32_t
 *
 value
 =
-NULL
+nullptr
 )
 const
 ;
@@ -260,7 +260,7 @@ SkScalar
 *
 value
 =
-NULL
+nullptr
 )
 const
 ;
@@ -282,7 +282,7 @@ values
 [
 ]
 =
-NULL
+nullptr
 )
 const
 ;
@@ -312,11 +312,11 @@ void
 *
 value
 =
-NULL
+nullptr
 PtrProc
 *
 =
-NULL
+nullptr
 )
 const
 ;
@@ -332,7 +332,7 @@ bool
 *
 value
 =
-NULL
+nullptr
 )
 const
 ;
@@ -350,7 +350,7 @@ size_t
 *
 byteCount
 =
-NULL
+nullptr
 )
 const
 ;
@@ -456,13 +456,13 @@ return
 v
 =
 =
-NULL
+nullptr
 &
 &
 value
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -470,13 +470,13 @@ NULL
 v
 !
 =
-NULL
+nullptr
 &
 &
 value
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -653,7 +653,7 @@ values
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -685,7 +685,7 @@ value
 PtrProc
 proc
 =
-NULL
+nullptr
 )
 ;
 void
@@ -805,7 +805,7 @@ SkRefCnt
 *
 ptr
 =
-NULL
+nullptr
 )
 {
 return
@@ -928,7 +928,7 @@ Iter
 :
 fRec
 (
-NULL
+nullptr
 )
 {
 }

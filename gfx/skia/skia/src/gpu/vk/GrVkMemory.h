@@ -212,6 +212,8 @@ const
 GrVkAlloc
 &
 alloc
+VkDeviceSize
+size
 )
 ;
 void
@@ -675,6 +677,13 @@ size
 >
 0
 )
+;
+alloc
+-
+>
+fUsesSystemHeap
+=
+false
 ;
 return
 (

@@ -493,6 +493,10 @@ pts
 ]
 int
 shiftUp
+bool
+sortY
+=
+true
 )
 ;
 int

@@ -42,7 +42,7 @@ GrBlend_DEFINED
 #
 include
 "
-GrColor
+GrTypes
 .
 h
 "

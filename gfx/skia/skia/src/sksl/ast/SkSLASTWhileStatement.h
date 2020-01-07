@@ -69,8 +69,8 @@ ASTStatement
 {
 ASTWhileStatement
 (
-Position
-position
+int
+offset
 std
 :
 :
@@ -91,7 +91,7 @@ statement
 :
 INHERITED
 (
-position
+offset
 kWhile_Kind
 )
 fTest

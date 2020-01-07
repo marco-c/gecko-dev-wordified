@@ -146,7 +146,7 @@ args
 )
 override
 {
-GrGLSLPPFragmentBuilder
+GrGLSLFPFragmentBuilder
 *
 fragBuilder
 =
@@ -231,8 +231,7 @@ fUniformHandler
 addUniform
 (
 kFragment_GrShaderFlag
-kVec4f_GrSLType
-kDefault_GrSLPrecision
+kHalf4_GrSLType
 "
 Color
 "
@@ -274,7 +273,7 @@ codeAppendf
 %
 s
 =
-vec4
+half4
 (
 1
 )
@@ -331,9 +330,9 @@ hasPerspective
 (
 )
 ?
-kVec3f_GrSLType
+kHalf3_GrSLType
 :
-kVec2f_GrSLType
+kHalf2_GrSLType
 ;
 SkString
 strVaryingName
@@ -350,7 +349,7 @@ d
 i
 )
 ;
-GrGLSLVertToFrag
+GrGLSLVarying
 v
 (
 varyingType
@@ -588,7 +587,7 @@ t
 fType
 =
 =
-kVec2f_GrSLType
+kHalf2_GrSLType
 |
 |
 fInstalledTransforms
@@ -599,7 +598,7 @@ t
 fType
 =
 =
-kVec3f_GrSLType
+kHalf3_GrSLType
 )
 ;
 unsigned
@@ -613,7 +612,7 @@ t
 fType
 =
 =
-kVec2f_GrSLType
+kHalf2_GrSLType
 ?
 2
 :
@@ -707,6 +706,10 @@ SkMatrix
 localMatrix
 )
 :
+INHERITED
+(
+kGrPathProcessor_ClassID
+)
 fColor
 (
 color
@@ -720,16 +723,6 @@ fLocalMatrix
 localMatrix
 )
 {
-this
--
->
-initClassID
-<
-GrPathProcessor
->
-(
-)
-;
 }
 void
 GrPathProcessor

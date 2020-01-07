@@ -42,14 +42,14 @@ SkOpCoincidence_DEFINED
 #
 include
 "
-SkTDArray
+SkArenaAlloc
 .
 h
 "
 #
 include
 "
-SkOpTAllocator
+SkTDArray
 .
 h
 "

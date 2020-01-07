@@ -119,7 +119,7 @@ SkDumpCanvas
 Dumper
 *
 =
-0
+nullptr
 )
 ;
 ~
@@ -147,6 +147,7 @@ kDrawPath_Verb
 kDrawBitmap_Verb
 kDrawText_Verb
 kDrawPicture_Verb
+kDrawDrawable_Verb
 kDrawVertices_Verb
 kDrawPatch_Verb
 kDrawData_Verb
@@ -712,6 +713,17 @@ SkMatrix
 *
 const
 SkPaint
+*
+)
+override
+;
+void
+onDrawDrawable
+(
+SkDrawable
+*
+const
+SkMatrix
 *
 )
 override

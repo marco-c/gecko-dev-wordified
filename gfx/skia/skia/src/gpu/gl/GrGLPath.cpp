@@ -1250,7 +1250,7 @@ fill
 {
 default
 :
-SkFAIL
+SK_ABORT
 (
 "
 Incomplete

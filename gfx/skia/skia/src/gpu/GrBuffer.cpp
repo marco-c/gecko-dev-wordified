@@ -113,10 +113,9 @@ else
 {
 cpuData
 =
-sk_malloc_flags
+sk_malloc_throw
 (
 sizeInBytes
-SK_MALLOC_THROW
 )
 ;
 }

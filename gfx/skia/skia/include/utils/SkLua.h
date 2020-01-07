@@ -132,7 +132,7 @@ termCode
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 /
@@ -230,7 +230,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -246,7 +246,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -264,7 +264,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -279,7 +279,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -297,7 +297,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -315,7 +315,7 @@ key
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -333,7 +333,7 @@ key
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -346,7 +346,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -359,7 +359,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -372,7 +372,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -387,7 +387,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -402,7 +402,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -420,7 +420,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -435,7 +435,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -450,7 +450,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -465,7 +465,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -479,7 +479,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 void
@@ -494,7 +494,7 @@ tableKey
 [
 ]
 =
-NULL
+nullptr
 )
 ;
 private

@@ -69,8 +69,8 @@ ASTStatement
 {
 ASTForStatement
 (
-Position
-position
+int
+offset
 std
 :
 :
@@ -107,7 +107,7 @@ statement
 :
 INHERITED
 (
-position
+offset
 kFor_Kind
 )
 fInitializer

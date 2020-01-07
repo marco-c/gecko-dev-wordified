@@ -104,14 +104,6 @@ GrGLSLUniformHandler
 :
 SamplerHandle
 ;
-using
-ImageStorageHandle
-=
-GrGLSLUniformHandler
-:
-:
-ImageStorageHandle
-;
 struct
 EmitArgs
 {
@@ -488,7 +480,7 @@ EmitArgs
 &
 )
 {
-SkFAIL
+SK_ABORT
 (
 "
 emitOutputsForBlendState
@@ -590,7 +582,7 @@ GrXferProcessor
 &
 )
 {
-SkFAIL
+SK_ABORT
 (
 "
 emitBlendCodeForDstRead

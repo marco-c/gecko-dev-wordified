@@ -72,8 +72,8 @@ ASTStatement
 {
 ASTBlock
 (
-Position
-position
+int
+offset
 std
 :
 :
@@ -92,7 +92,7 @@ statements
 :
 INHERITED
 (
-position
+offset
 kBlock_Kind
 )
 fStatements

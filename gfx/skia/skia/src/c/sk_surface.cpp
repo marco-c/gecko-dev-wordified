@@ -1471,7 +1471,11 @@ cimage
 )
 -
 >
-encode
+encodeToData
+(
+)
+.
+release
 (
 )
 )

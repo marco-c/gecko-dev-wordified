@@ -2369,7 +2369,7 @@ is
 treated
 as
 an
-ordiary
+ordinary
 copyable
 C
 +

@@ -114,6 +114,7 @@ SkRawAdapterCodec
 (
 SkRawCodec
 *
+ExifOrientationBehavior
 )
 ;
 ~

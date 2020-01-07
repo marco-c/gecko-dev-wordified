@@ -49,6 +49,13 @@ h
 #
 include
 "
+SkColorData
+.
+h
+"
+#
+include
+"
 SkPoint
 .
 h

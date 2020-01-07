@@ -46,6 +46,12 @@ SkDocument
 .
 h
 "
+struct
+SkDeserialProcs
+;
+struct
+SkSerialProcs
+;
 class
 SkStreamSeekable
 ;
@@ -80,6 +86,11 @@ SkMakeMultiPictureDocument
 SkWStream
 *
 dst
+const
+SkSerialProcs
+*
+=
+nullptr
 )
 ;
 struct
@@ -162,6 +173,11 @@ SkDocumentPage
 dstArray
 int
 dstArrayCount
+const
+SkDeserialProcs
+*
+=
+nullptr
 )
 ;
 #

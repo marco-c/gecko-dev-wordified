@@ -48,6 +48,13 @@ SkSLProgram
 .
 h
 "
+#
+include
+"
+SkSLOutputStream
+.
+h
+"
 namespace
 SkSL
 {

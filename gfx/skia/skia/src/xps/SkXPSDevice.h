@@ -197,11 +197,11 @@ SkISize
 )
 ;
 SK_API
-virtual
 ~
 SkXPSDevice
 (
 )
+override
 ;
 bool
 beginPortfolio
@@ -544,10 +544,10 @@ const
 SkBitmap
 &
 bitmap
-const
-SkMatrix
-&
-matrix
+SkScalar
+x
+SkScalar
+y
 const
 SkPaint
 &

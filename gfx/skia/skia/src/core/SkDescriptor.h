@@ -1076,10 +1076,7 @@ Entry
 +
 sizeof
 (
-SkScalerContext
-:
-:
-Rec
+SkScalerContextRec
 )
 /
 /

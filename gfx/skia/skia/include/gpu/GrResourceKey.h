@@ -658,7 +658,7 @@ finish
 {
 if
 (
-NULL
+nullptr
 =
 =
 fKey
@@ -718,7 +718,7 @@ validate
 ;
 fKey
 =
-NULL
+nullptr
 ;
 }
 uint32_t

@@ -82,6 +82,13 @@ void
 =
 0
 ;
+virtual
+~
+SkBlockComRef
+(
+)
+{
+}
 }
 ;
 template

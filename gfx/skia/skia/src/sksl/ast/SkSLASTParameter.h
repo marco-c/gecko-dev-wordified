@@ -136,8 +136,8 @@ sizes
 .
 ASTParameter
 (
-Position
-position
+int
+offset
 Modifiers
 modifiers
 std
@@ -148,7 +148,7 @@ unique_ptr
 ASTType
 >
 type
-String
+StringFragment
 name
 std
 :
@@ -162,7 +162,7 @@ sizes
 :
 INHERITED
 (
-position
+offset
 )
 fModifiers
 (
@@ -180,13 +180,7 @@ type
 )
 fName
 (
-std
-:
-:
-move
-(
 name
-)
 )
 fSizes
 (
@@ -272,7 +266,7 @@ ASTType
 fType
 ;
 const
-String
+StringFragment
 fName
 ;
 const

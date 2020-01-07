@@ -151,7 +151,7 @@ void
 GrVkDescriptorSet
 :
 :
-abandonSubResources
+abandonGPUData
 (
 )
 const

@@ -1520,7 +1520,7 @@ buffer
 ;
 #
 ifdef
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 int
 len
 =

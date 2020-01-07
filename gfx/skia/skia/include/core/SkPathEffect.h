@@ -535,7 +535,7 @@ fFlags
 )
 fPoints
 (
-NULL
+nullptr
 )
 fNumPoints
 (
@@ -1012,7 +1012,7 @@ DashInfo
 :
 fIntervals
 (
-NULL
+nullptr
 )
 fCount
 (

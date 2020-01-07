@@ -75,11 +75,9 @@ const
 char
 *
 name
-GrGLSLVertToFrag
+GrGLSLVarying
 *
 v
-GrSLPrecision
-fsPrecision
 )
 {
 #
@@ -175,7 +173,6 @@ addVarying
 (
 name
 v
-fsPrecision
 )
 ;
 auto

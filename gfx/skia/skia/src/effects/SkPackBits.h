@@ -282,6 +282,15 @@ bytes
 written
 into
 dst
+or
+0
+if
+srcSize
+or
+dstSize
+are
+too
+small
 .
 *
 /

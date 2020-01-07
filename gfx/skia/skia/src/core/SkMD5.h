@@ -110,7 +110,6 @@ size_t
 size
 )
 final
-override
 ;
 size_t
 bytesWritten
@@ -118,7 +117,6 @@ bytesWritten
 )
 const
 final
-override
 {
 return
 SkToSizeT

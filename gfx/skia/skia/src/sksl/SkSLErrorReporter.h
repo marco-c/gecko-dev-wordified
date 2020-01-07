@@ -78,8 +78,8 @@ ErrorReporter
 void
 error
 (
-Position
-position
+int
+offset
 const
 char
 *
@@ -91,7 +91,7 @@ this
 >
 error
 (
-position
+offset
 String
 (
 msg
@@ -103,8 +103,8 @@ virtual
 void
 error
 (
-Position
-position
+int
+offset
 String
 msg
 )

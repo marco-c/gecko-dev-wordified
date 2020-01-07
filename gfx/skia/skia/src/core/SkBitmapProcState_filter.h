@@ -38,7 +38,7 @@ file
 #
 include
 "
-SkColorPriv
+SkColorData
 .
 h
 "

@@ -2654,6 +2654,8 @@ pts
 ]
 int
 shift
+bool
+sortY
 )
 {
 SkFDot6
@@ -2913,6 +2915,9 @@ winding
 ;
 if
 (
+sortY
+&
+&
 y0
 >
 y3
@@ -2979,6 +2984,9 @@ line
 ?
 if
 (
+sortY
+&
+&
 top
 =
 =

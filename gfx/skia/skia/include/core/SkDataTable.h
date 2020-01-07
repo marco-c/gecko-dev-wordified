@@ -302,7 +302,7 @@ size_t
 *
 size
 =
-NULL
+nullptr
 )
 const
 ;
@@ -322,7 +322,7 @@ size_t
 *
 size
 =
-NULL
+nullptr
 )
 const
 {

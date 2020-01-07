@@ -50,9 +50,6 @@ class
 SkImage
 ;
 class
-SkPixelSerializer
-;
-class
 SkPDFObject
 ;
 /
@@ -100,6 +97,13 @@ any
 data
 .
 *
+*
+quality
+>
+100
+means
+lossless
+*
 /
 sk_sp
 <
@@ -111,8 +115,10 @@ sk_sp
 <
 SkImage
 >
-SkPixelSerializer
-*
+int
+encodingQuality
+=
+101
 )
 ;
 #

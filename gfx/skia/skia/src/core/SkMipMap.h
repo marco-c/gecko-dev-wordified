@@ -49,6 +49,13 @@ h
 #
 include
 "
+SkImageInfoPriv
+.
+h
+"
+#
+include
+"
 SkPixmap
 .
 h
@@ -70,7 +77,7 @@ h
 #
 include
 "
-SkShader
+SkShaderBase
 .
 h
 "
@@ -189,7 +196,7 @@ SkDestinationSurfaceColorMode
 DeduceColorMode
 (
 const
-SkShader
+SkShaderBase
 :
 :
 ContextRec
@@ -199,7 +206,7 @@ rec
 {
 return
 (
-SkShader
+SkShaderBase
 :
 :
 ContextRec

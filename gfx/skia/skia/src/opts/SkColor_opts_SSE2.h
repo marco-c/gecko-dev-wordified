@@ -352,7 +352,7 @@ version
 SkAlphaMulQ
 is
 in
-SkColorPriv
+SkColorData
 .
 h
 .
@@ -703,7 +703,7 @@ version
 SkFastFourByteInterp256
 is
 in
-SkColorPriv
+SkColorData
 .
 h
 .
@@ -908,7 +908,7 @@ version
 SkPMLerp
 is
 in
-SkColorPriv
+SkColorData
 .
 h
 static
@@ -1828,7 +1828,7 @@ version
 is
 SkPMSrcOver
 in
-SkColorPriv
+SkColorData
 .
 h
 .

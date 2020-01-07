@@ -471,7 +471,7 @@ endif
 if
 defined
 (
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 )
 /
 /
@@ -1009,7 +1009,7 @@ GR_ALWAYSBREAK
 if
 defined
 (
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 )
 #
 define

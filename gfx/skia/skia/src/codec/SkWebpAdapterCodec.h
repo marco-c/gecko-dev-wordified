@@ -86,6 +86,7 @@ SkWebpAdapterCodec
 (
 SkWebpCodec
 *
+ExifOrientationBehavior
 )
 ;
 ~

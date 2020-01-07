@@ -245,9 +245,6 @@ SkData
 *
 onRefEncodedData
 (
-GrContext
-*
-ctx
 )
 override
 ;
@@ -263,13 +260,9 @@ void
 pixels
 size_t
 rowBytes
-SkPMColor
-ctable
-[
-]
-int
-*
-ctableCount
+const
+Options
+&
 )
 override
 ;

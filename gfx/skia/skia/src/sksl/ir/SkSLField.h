@@ -136,8 +136,8 @@ Symbol
 {
 Field
 (
-Position
-position
+int
+offset
 const
 Variable
 &
@@ -148,7 +148,7 @@ fieldIndex
 :
 INHERITED
 (
-position
+offset
 kField_Kind
 owner
 .

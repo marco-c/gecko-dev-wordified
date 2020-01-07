@@ -47,7 +47,7 @@ if
 !
 defined
 (
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 )
 &
 &
@@ -112,7 +112,7 @@ endif
 !
 defined
 (
-SK_BUILD_FOR_WIN32
+SK_BUILD_FOR_WIN
 )
 &
 &

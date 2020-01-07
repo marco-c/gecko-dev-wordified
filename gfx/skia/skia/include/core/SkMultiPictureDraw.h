@@ -247,13 +247,13 @@ SkMatrix
 *
 matrix
 =
-NULL
+nullptr
 const
 SkPaint
 *
 paint
 =
-NULL
+nullptr
 )
 ;
 /

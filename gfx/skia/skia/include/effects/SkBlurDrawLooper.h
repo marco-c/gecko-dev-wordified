@@ -83,6 +83,7 @@ sk_sp
 <
 SkDrawLooper
 >
+SK_API
 Make
 (
 SkColor

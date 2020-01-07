@@ -76,7 +76,7 @@ in
 *
 *
 out
-gl_PerVertex
+sk_PerVertex
 {
 *
 layout
@@ -85,8 +85,8 @@ builtin
 =
 0
 )
-vec4
-gl_Position
+float4
+sk_Position
 ;
 *
 layout
@@ -96,7 +96,7 @@ builtin
 1
 )
 float
-gl_PointSize
+sk_PointSize
 ;
 *
 }
@@ -128,8 +128,8 @@ ProgramElement
 {
 InterfaceBlock
 (
-Position
-position
+int
+offset
 const
 Variable
 *
@@ -164,7 +164,7 @@ typeOwner
 :
 INHERITED
 (
-position
+offset
 kInterfaceBlock_Kind
 )
 fVariable
@@ -388,7 +388,6 @@ const
 String
 fInstanceName
 ;
-const
 std
 :
 :

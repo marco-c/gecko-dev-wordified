@@ -49,7 +49,7 @@ h
 #
 include
 "
-SkSLToken
+SkSLLexer
 .
 h
 "
@@ -108,7 +108,7 @@ INHERITED
 operand
 -
 >
-fPosition
+fOffset
 kPostfix_Kind
 operand
 -
@@ -131,7 +131,17 @@ op
 )
 {
 }
-virtual
+bool
+hasSideEffects
+(
+)
+const
+override
+{
+return
+true
+;
+}
 String
 description
 (
@@ -147,7 +157,7 @@ description
 (
 )
 +
-Token
+Compiler
 :
 :
 OperatorName

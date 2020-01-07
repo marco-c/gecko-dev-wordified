@@ -52,7 +52,17 @@ include
 .
 .
 /
-SkSLToken
+SkSLCompiler
+.
+h
+"
+#
+include
+"
+.
+.
+/
+SkSLLexer
 .
 h
 "
@@ -112,7 +122,7 @@ INHERITED
 (
 op
 .
-fPosition
+fOffset
 kBinary_Kind
 )
 fLeft
@@ -165,7 +175,7 @@ description
 "
 "
 +
-Token
+Compiler
 :
 :
 OperatorName

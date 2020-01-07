@@ -543,7 +543,7 @@ origin
 =
 pipeline
 .
-getRenderTarget
+proxy
 (
 )
 -

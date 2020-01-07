@@ -100,7 +100,7 @@ INHERITED
 base
 -
 >
-fPosition
+fOffset
 kSuffix_Kind
 )
 fBase

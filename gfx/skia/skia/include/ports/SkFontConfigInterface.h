@@ -42,13 +42,6 @@ SkFontConfigInterface_DEFINED
 #
 include
 "
-SkDataTable
-.
-h
-"
-#
-include
-"
 SkFontStyle
 .
 h
@@ -388,7 +381,7 @@ void
 *
 buffer
 =
-NULL
+nullptr
 )
 const
 ;

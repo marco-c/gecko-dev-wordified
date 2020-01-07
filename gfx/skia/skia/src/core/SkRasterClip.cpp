@@ -353,16 +353,15 @@ kContinue_MutateResult
 ;
 }
 }
-SkFAIL
+SkASSERT
 (
-"
-should
-not
-get
-here
-"
+false
 )
 ;
+/
+/
+unknown
+op
 return
 kDoNothing_MutateResult
 ;
@@ -371,7 +370,7 @@ void
 SkConservativeClip
 :
 :
-op
+opRect
 (
 const
 SkRect
@@ -460,7 +459,7 @@ break
 this
 -
 >
-op
+opIRect
 (
 ir
 op
@@ -471,7 +470,7 @@ void
 SkConservativeClip
 :
 :
-op
+opRRect
 (
 const
 SkRRect
@@ -497,7 +496,7 @@ doAA
 this
 -
 >
-op
+opRect
 (
 rrect
 .
@@ -515,7 +514,7 @@ void
 SkConservativeClip
 :
 :
-op
+opPath
 (
 const
 SkPath
@@ -606,7 +605,7 @@ return
 this
 -
 >
-op
+opIRect
 (
 ir
 op
@@ -617,7 +616,7 @@ void
 SkConservativeClip
 :
 :
-op
+opRegion
 (
 const
 SkRegion
@@ -633,7 +632,7 @@ op
 this
 -
 >
-op
+opIRect
 (
 rgn
 .
@@ -648,7 +647,7 @@ void
 SkConservativeClip
 :
 :
-op
+opIRect
 (
 const
 SkIRect

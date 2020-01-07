@@ -1509,7 +1509,13 @@ mask
 }
 #
 endif
+/
+*
+not
 static
+*
+/
+inline
 void
 blit_mask_d32_a8
 (
