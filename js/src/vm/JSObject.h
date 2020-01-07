@@ -9152,7 +9152,7 @@ template
 XDRMode
 mode
 >
-bool
+XDRResult
 XDRObjectLiteral
 (
 XDRState

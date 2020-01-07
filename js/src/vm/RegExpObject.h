@@ -1369,7 +1369,7 @@ template
 XDRMode
 mode
 >
-bool
+XDRResult
 XDRScriptRegExpObject
 (
 XDRState

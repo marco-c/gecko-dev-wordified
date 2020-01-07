@@ -6215,7 +6215,7 @@ template
 XDRMode
 mode
 >
-bool
+XDRResult
 XDRInterpretedFunction
 (
 XDRState

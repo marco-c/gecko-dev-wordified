@@ -1201,7 +1201,7 @@ XDRMode
 mode
 >
 static
-bool
+XDRResult
 XDRSizedBindingNames
 (
 XDRState
@@ -1995,7 +1995,7 @@ XDRMode
 mode
 >
 static
-bool
+XDRResult
 XDR
 (
 XDRState
@@ -2768,7 +2768,7 @@ XDRMode
 mode
 >
 static
-bool
+XDRResult
 XDR
 (
 XDRState
@@ -3304,7 +3304,7 @@ XDRMode
 mode
 >
 static
-bool
+XDRResult
 XDR
 (
 XDRState
@@ -3854,7 +3854,7 @@ XDRMode
 mode
 >
 static
-bool
+XDRResult
 XDR
 (
 XDRState
@@ -4432,7 +4432,7 @@ XDRMode
 mode
 >
 static
-bool
+XDRResult
 XDR
 (
 XDRState
