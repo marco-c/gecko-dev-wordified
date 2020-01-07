@@ -16485,11 +16485,12 @@ unsanitized
 property
 fullDesc
 .
-innerHTML
-=
+unsafeSetInnerHTML
+(
 aAddon
 .
 fullDescription
+)
 ;
 }
 else
