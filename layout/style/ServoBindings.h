@@ -3549,6 +3549,17 @@ type
 )
 ;
 void
+Gecko_NewShapeImage
+(
+mozilla
+:
+:
+StyleShapeSource
+*
+shape
+)
+;
+void
 Gecko_StyleShapeSource_SetURLValue
 (
 mozilla
