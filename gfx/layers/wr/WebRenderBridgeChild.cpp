@@ -635,10 +635,7 @@ resourceUpdates
 ;
 nsTArray
 <
-ipc
-:
-:
-Shmem
+RefCountedShmem
 >
 smallShmems
 ;
@@ -809,10 +806,7 @@ resourceUpdates
 ;
 nsTArray
 <
-ipc
-:
-:
-Shmem
+RefCountedShmem
 >
 smallShmems
 ;
@@ -1674,9 +1668,7 @@ wr
 IpcResourceUpdateQueue
 resources
 (
-GetShmemAllocator
-(
-)
+this
 )
 ;
 wr
@@ -1889,9 +1881,7 @@ wr
 IpcResourceUpdateQueue
 resources
 (
-GetShmemAllocator
-(
-)
+this
 )
 ;
 FontFileDataSink
@@ -2052,9 +2042,7 @@ wr
 IpcResourceUpdateQueue
 resources
 (
-GetShmemAllocator
-(
-)
+this
 )
 ;
 if
