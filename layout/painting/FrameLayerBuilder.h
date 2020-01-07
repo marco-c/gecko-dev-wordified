@@ -881,8 +881,6 @@ Layer
 aLayer
 LayerState
 aState
-uint32_t
-aContainerLayerGeneration
 nsDisplayItem
 *
 aItem
@@ -1017,9 +1015,6 @@ mClip
 ;
 uint32_t
 mDisplayItemKey
-;
-uint32_t
-mContainerLayerGeneration
 ;
 LayerState
 mLayerState
@@ -4117,13 +4112,12 @@ PaintedLayer
 struct
 ClippedDisplayItem
 {
+explicit
 ClippedDisplayItem
 (
 nsDisplayItem
 *
 aItem
-uint32_t
-aGeneration
 )
 ;
 ~
@@ -4172,9 +4166,6 @@ RefPtr
 LayerManager
 >
 mInactiveLayerManager
-;
-uint32_t
-mContainerLayerGeneration
 ;
 }
 ;
@@ -4335,9 +4326,6 @@ mLastPaintOffset
 ;
 uint32_t
 mLastCommonClipCount
-;
-uint32_t
-mContainerLayerGeneration
 ;
 bool
 mHasExplicitLastPaintOffset
@@ -4689,12 +4677,6 @@ mInLayerTreeCompressionMode
 ;
 bool
 mIsInactiveLayerManager
-;
-uint32_t
-mContainerLayerGeneration
-;
-uint32_t
-mMaxContainerLayerGeneration
 ;
 }
 ;
