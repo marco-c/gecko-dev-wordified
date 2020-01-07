@@ -36655,10 +36655,7 @@ MSign
 public
 MUnaryInstruction
 public
-NoFloatPolicy
-<
-0
->
+SignPolicy
 :
 :
 Data
@@ -36711,6 +36708,15 @@ MIRType
 :
 :
 Double
+)
+;
+specialization_
+=
+input
+-
+>
+type
+(
 )
 ;
 setResultType
