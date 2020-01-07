@@ -800,6 +800,18 @@ Simulator
 (
 )
 ;
+static
+bool
+supportsAtomics
+(
+)
+{
+return
+HasLDSTREXBHD
+(
+)
+;
+}
 /
 /
 The
@@ -828,7 +840,6 @@ Current
 )
 ;
 static
-inline
 uintptr_t
 StackLimit
 (

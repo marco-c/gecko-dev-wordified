@@ -7996,13 +7996,6 @@ JS_CODEGEN_ARM
 )
 aeabi_idivmod
 aeabi_uidivmod
-AtomicCmpXchg
-AtomicXchg
-AtomicFetchAdd
-AtomicFetchSub
-AtomicFetchAnd
-AtomicFetchOr
-AtomicFetchXor
 #
 endif
 ModD
