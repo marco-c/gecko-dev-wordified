@@ -201,6 +201,13 @@ alert
 -
 animation
 {
+from
+{
+visibility
+:
+visible
+;
+}
 to
 {
 visibility

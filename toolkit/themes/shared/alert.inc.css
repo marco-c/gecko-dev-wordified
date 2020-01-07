@@ -297,6 +297,13 @@ clicked
 -
 animation
 {
+from
+{
+opacity
+:
+1
+;
+}
 to
 {
 opacity
@@ -312,6 +319,13 @@ closing
 -
 animation
 {
+from
+{
+opacity
+:
+1
+;
+}
 to
 {
 opacity
