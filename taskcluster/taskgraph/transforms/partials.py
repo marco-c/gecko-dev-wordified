@@ -1049,6 +1049,17 @@ mozilla
 esr
 '
         
+level
+=
+config
+.
+params
+[
+'
+level
+'
+]
+        
 worker
 =
 {
@@ -1162,6 +1173,7 @@ nightly_sha384
 DATADOG_API_SECRET
 '
 :
+                    
 '
 project
 /
@@ -1173,7 +1185,8 @@ build
 /
 level
 -
-3
+{
+}
 /
 datadog
 -
@@ -1181,6 +1194,11 @@ api
 -
 key
 '
+.
+format
+(
+level
+)
             
 }
         
@@ -1203,17 +1221,6 @@ ACCEPTED_MAR_CHANNEL_IDS
 ]
 =
 mar_channel_id
-        
-level
-=
-config
-.
-params
-[
-'
-level
-'
-]
         
 task
 =
@@ -1379,6 +1386,11 @@ bug
 1436977
         
 if
+level
+=
+=
+3
+and
 any
 (
 [
