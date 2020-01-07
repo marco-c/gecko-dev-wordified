@@ -368,7 +368,9 @@ Get
 iface
 -
 >
-mName
+Name
+(
+)
 )
 ;
 else
@@ -451,6 +453,8 @@ return
 iface
 -
 >
-mName
+Name
+(
+)
 ;
 }

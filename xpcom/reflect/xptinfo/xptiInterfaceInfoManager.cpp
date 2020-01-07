@@ -707,7 +707,9 @@ if
 iface
 -
 >
-mInterfaceDescriptor
+InterfaceDescriptor
+(
+)
 )
 return
 ;
@@ -763,7 +765,9 @@ if
 iface
 -
 >
-mInterfaceDescriptor
+InterfaceDescriptor
+(
+)
 -
 >
 mNumMethods
@@ -775,7 +779,9 @@ mNumMethods
 iface
 -
 >
-mInterfaceDescriptor
+InterfaceDescriptor
+(
+)
 -
 >
 IsBuiltinClass
@@ -817,7 +823,9 @@ n
 iface
 -
 >
-mName
+Name
+(
+)
 )
 ;
 return
