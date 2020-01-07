@@ -1036,12 +1036,15 @@ PlacesUtils
 .
 history
 .
-removePagesFromHost
+removeByFilter
 (
+{
+host
+:
 item
 .
 host
-false
+}
 )
 ;
 }

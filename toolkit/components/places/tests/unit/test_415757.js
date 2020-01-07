@@ -561,12 +561,16 @@ www
 test
 .
 com
+await
 PlacesUtils
 .
 history
 .
-removePagesFromHost
+removeByFilter
 (
+{
+host
+:
 "
 www
 .
@@ -574,7 +578,7 @@ test
 .
 com
 "
-false
+}
 )
 ;
 /
