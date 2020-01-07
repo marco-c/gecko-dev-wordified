@@ -776,6 +776,14 @@ enabled
 ;
 equal
 (
+false
+MarionettePrefs
+.
+clickToStart
+)
+;
+equal
+(
 2828
 MarionettePrefs
 .
