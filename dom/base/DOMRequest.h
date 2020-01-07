@@ -123,7 +123,7 @@ mozilla_dom_domrequest_h__
 #
 include
 "
-nsIDOMDOMRequest
+nsIDOMRequestService
 .
 h
 "
