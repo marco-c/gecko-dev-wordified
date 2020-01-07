@@ -179,13 +179,6 @@ I
 .
 nsIDOMNodeList
 ;
-const
-nsIDOMXULElement
-=
-I
-.
-nsIDOMXULElement
-;
 function
 DOMParser
 (

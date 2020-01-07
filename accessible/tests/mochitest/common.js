@@ -306,13 +306,6 @@ Ci
 nsIDOMWindow
 ;
 const
-nsIDOMXULElement
-=
-Ci
-.
-nsIDOMXULElement
-;
-const
 nsIPropertyElement
 =
 Ci
