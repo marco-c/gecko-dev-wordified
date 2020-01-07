@@ -143,7 +143,7 @@ NarrateTestUtils
 TOGGLE
 :
 "
-.
+#
 narrate
 -
 toggle
@@ -151,7 +151,7 @@ toggle
 POPUP
 :
 "
-.
+#
 narrate
 -
 dropdown
@@ -163,7 +163,7 @@ popup
 VOICE_SELECT
 :
 "
-.
+#
 narrate
 -
 voices
@@ -175,7 +175,7 @@ toggle
 VOICE_OPTIONS
 :
 "
-.
+#
 narrate
 -
 voices
@@ -185,7 +185,7 @@ options
 VOICE_SELECTED
 :
 "
-.
+#
 narrate
 -
 voices
@@ -199,7 +199,7 @@ selected
 VOICE_SELECT_LABEL
 :
 "
-.
+#
 narrate
 -
 voices
@@ -215,7 +215,7 @@ voice
 RATE
 :
 "
-.
+#
 narrate
 -
 rate
@@ -225,7 +225,7 @@ input
 START
 :
 "
-.
+#
 narrate
 -
 dropdown
@@ -235,7 +235,7 @@ not
 .
 speaking
 )
-.
+#
 narrate
 -
 start
@@ -245,13 +245,13 @@ stop
 STOP
 :
 "
-.
+#
 narrate
 -
 dropdown
 .
 speaking
-.
+#
 narrate
 -
 start
@@ -261,7 +261,7 @@ stop
 BACK
 :
 "
-.
+#
 narrate
 -
 skip
@@ -271,7 +271,7 @@ previous
 FORWARD
 :
 "
-.
+#
 narrate
 -
 skip
@@ -701,7 +701,7 @@ document
 .
 querySelector
 (
-.
+#
 narrate
 -
 voices
