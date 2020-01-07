@@ -452,6 +452,12 @@ record
 {
 }
 ;
+let
+addresses
+=
+[
+]
+;
 this
 .
 formHandler
@@ -463,12 +469,18 @@ EditCreditCard
 form
 }
 record
+addresses
 {
 isCCNumber
 :
 PaymentDialogUtils
 .
 isCCNumber
+getAddressLabel
+:
+PaymentDialogUtils
+.
+getAddressLabel
 }
 )
 ;
@@ -573,6 +585,7 @@ record
 let
 {
 page
+savedAddresses
 savedBasicCards
 }
 =
@@ -678,6 +691,7 @@ formHandler
 loadRecord
 (
 record
+savedAddresses
 )
 ;
 }
