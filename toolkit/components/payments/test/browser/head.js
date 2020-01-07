@@ -29,14 +29,6 @@ args
 "
 none
 "
-varsIgnorePattern
-:
-"
-^
-(
-EXPORTED_SYMBOLS
-)
-"
 }
 ]
 *

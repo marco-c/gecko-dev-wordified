@@ -333,14 +333,6 @@ vars
 "
 all
 "
-"
-varsIgnorePattern
-"
-:
-"
-^
-EXPORTED_SYMBOLS
-"
 }
 ]
 /
