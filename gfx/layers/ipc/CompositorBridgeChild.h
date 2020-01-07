@@ -2131,6 +2131,13 @@ GetNextResourceId
 (
 )
 ;
+void
+ClearSharedFrameMetricsData
+(
+LayersId
+aLayersId
+)
+;
 /
 /
 Class
