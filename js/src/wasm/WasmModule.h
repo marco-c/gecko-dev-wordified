@@ -488,7 +488,7 @@ class
 LinkData
 {
 UniqueLinkDataTier
-linkData1_
+tier1_
 ;
 /
 /
@@ -496,7 +496,7 @@ Always
 present
 mutable
 UniqueLinkDataTier
-linkData2_
+tier2_
 ;
 /
 /
@@ -519,14 +519,14 @@ explicit
 LinkData
 (
 UniqueLinkDataTier
-linkData
+tier
 )
 :
-linkData1_
+tier1_
 (
 Move
 (
-linkData
+tier
 )
 )
 {
@@ -542,7 +542,7 @@ const
 const
 LinkDataTier
 &
-linkData
+tier
 (
 Tier
 tier
@@ -1251,7 +1251,7 @@ const
 return
 linkData_
 .
-linkData
+tier
 (
 t
 )
