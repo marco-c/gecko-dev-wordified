@@ -754,10 +754,7 @@ hud
 proxy
 openLink
 :
-(
 url
-e
-)
 =
 >
 {
@@ -768,7 +765,6 @@ owner
 openLink
 (
 url
-e
 )
 ;
 }
