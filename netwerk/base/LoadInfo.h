@@ -640,6 +640,11 @@ SetUpgradeInsecureRequests
 (
 )
 ;
+void
+SetBrowserUpgradeInsecureRequests
+(
+)
+;
 private
 :
 /
@@ -767,6 +772,8 @@ aTainting
 bool
 aUpgradeInsecureRequests
 bool
+aBrowserUpgradeInsecureRequests
+bool
 aVerifySignedContent
 bool
 aEnforceSRI
@@ -774,8 +781,6 @@ bool
 aAllowDocumentToBeAgnosticToCSP
 bool
 aForceAllowDataURI
-bool
-aAllowInsecureRedirectToDataURI
 bool
 aForceInheritPrincipalDropped
 uint64_t
@@ -1100,6 +1105,9 @@ bool
 mUpgradeInsecureRequests
 ;
 bool
+mBrowserUpgradeInsecureRequests
+;
+bool
 mVerifySignedContent
 ;
 bool
@@ -1110,9 +1118,6 @@ mAllowDocumentToBeAgnosticToCSP
 ;
 bool
 mForceAllowDataURI
-;
-bool
-mAllowInsecureRedirectToDataURI
 ;
 bool
 mOriginalFrameSrcLoad

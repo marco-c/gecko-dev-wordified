@@ -792,6 +792,16 @@ block_display_content
 "
 true
 ]
+[
+"
+security
+.
+mixed_content
+.
+upgrade_display_content
+"
+false
+]
 ]
 ;
 return

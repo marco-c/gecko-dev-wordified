@@ -4842,6 +4842,14 @@ loadInfo
 GetUpgradeInsecureRequests
 (
 )
+|
+|
+loadInfo
+-
+>
+GetBrowserUpgradeInsecureRequests
+(
+)
 ;
 }
 nsresult

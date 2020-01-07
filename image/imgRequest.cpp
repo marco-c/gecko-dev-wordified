@@ -7386,6 +7386,14 @@ loadInfo
 GetUpgradeInsecureRequests
 (
 )
+|
+|
+loadInfo
+-
+>
+GetBrowserUpgradeInsecureRequests
+(
+)
 :
 false
 ;
