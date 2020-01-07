@@ -8729,6 +8729,7 @@ CreateWebRenderCommandsForBCBorders
 (
 aBuilder
 aSc
+mVisibleRect
 ToReferenceFrame
 (
 )
@@ -54014,6 +54015,10 @@ StackingContextHelper
 &
 aSc
 const
+nsRect
+&
+aVisibleRect
+const
 nsPoint
 &
 aOffsetToReferenceFrame
@@ -54040,9 +54045,8 @@ webrender
 .
 Passing
 the
-table
+visible
 rect
-as
 /
 /
 dirty
@@ -54051,9 +54055,9 @@ rect
 IterateBCBorders
 (
 action
-GetRect
-(
-)
+aVisibleRect
+-
+aOffsetToReferenceFrame
 )
 ;
 LayoutDeviceRect
