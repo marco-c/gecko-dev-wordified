@@ -3358,6 +3358,11 @@ mTimingEnabled
 1
 ;
 uint32_t
+mReportTiming
+:
+1
+;
+uint32_t
 mAllowSpdy
 :
 1
