@@ -447,6 +447,14 @@ nsIChannel
 >
 mChannel
 ;
+/
+/
+EE
+certificate
+fingerprint
+nsCString
+mFingerprint
+;
 }
 ;
 #
