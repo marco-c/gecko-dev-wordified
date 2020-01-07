@@ -10615,11 +10615,6 @@ typed
 object
 itself
 .
-MakeAccessibleAfterMovingGC
-(
-owner
-)
-;
 MOZ_ASSERT_IF
 (
 owner
