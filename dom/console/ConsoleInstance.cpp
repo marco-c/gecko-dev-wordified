@@ -190,6 +190,15 @@ aOptions
 .
 mConsoleID
 ;
+mConsole
+-
+>
+mPassedInnerID
+=
+aOptions
+.
+mInnerID
+;
 }
 ConsoleInstance
 :
