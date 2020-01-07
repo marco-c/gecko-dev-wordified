@@ -1641,6 +1641,7 @@ Global
 quant
 matrix
 tables
+const
 qm_val_t
 *
 giqmatrix
@@ -1657,6 +1658,7 @@ NUM_QM_LEVELS
 TX_SIZES_ALL
 ]
 ;
+const
 qm_val_t
 *
 gqmatrix
@@ -1682,6 +1684,7 @@ tables
 for
 each
 frame
+const
 qm_val_t
 *
 y_iqmatrix
@@ -1695,6 +1698,7 @@ MAX_SEGMENTS
 TX_SIZES_ALL
 ]
 ;
+const
 qm_val_t
 *
 uv_iqmatrix
@@ -1711,6 +1715,7 @@ TX_SIZES_ALL
 /
 /
 Encoder
+const
 qm_val_t
 *
 y_qmatrix
@@ -1724,6 +1729,7 @@ MAX_SEGMENTS
 TX_SIZES_ALL
 ]
 ;
+const
 qm_val_t
 *
 uv_qmatrix

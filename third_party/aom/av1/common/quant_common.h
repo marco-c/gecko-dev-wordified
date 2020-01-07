@@ -370,6 +370,7 @@ AV1Common
 cm
 )
 ;
+const
 qm_val_t
 *
 aom_iqmatrix
@@ -388,6 +389,7 @@ int
 is_intra
 )
 ;
+const
 qm_val_t
 *
 aom_qmatrix
