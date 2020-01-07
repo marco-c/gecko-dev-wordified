@@ -6202,7 +6202,7 @@ cached
 for
 brevity
 .
-Register
+RegisterOrSP
 sp_
 ;
 public
@@ -7556,7 +7556,10 @@ masm
 .
 wasmEmitStackCheck
 (
+RegisterOrSP
+(
 tmp0
+)
 tmp1
 stackOverflowLabel
 )
