@@ -810,11 +810,6 @@ test_bug455906
 .
 js
 "
-"
-test_signed_verify
-.
-js
-"
 ]
 )
 ;
