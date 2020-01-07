@@ -1023,6 +1023,8 @@ header
 RtpHeaderExtensionMap
 *
 ptrExtensionMap
+bool
+secured
 )
 const
 {
@@ -1355,6 +1357,11 @@ note
 .
 if
 (
+!
+secured
+&
+&
+(
 header
 -
 >
@@ -1369,6 +1376,7 @@ headerLength
 size_t
 )
 length
+)
 )
 {
 return
