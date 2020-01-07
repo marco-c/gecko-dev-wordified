@@ -87,8 +87,6 @@ data
 import
 (
     
-AndroidResDirs
-    
 ChromeManifestEntry
     
 ComputedFlags

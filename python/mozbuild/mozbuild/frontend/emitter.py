@@ -110,14 +110,6 @@ data
 import
 (
     
-AndroidAssetsDirs
-    
-AndroidExtraPackages
-    
-AndroidExtraResDirs
-    
-AndroidResDirs
-    
 BaseRustProgram
     
 BaseSources
@@ -10892,7 +10884,18 @@ script
 )
 context
 )
+                
+else
+:
                     
+script
+=
+None
+                    
+method
+=
+None
+                
 for
 i
 in
@@ -10900,7 +10903,7 @@ flags
 .
 inputs
 :
-                        
+                    
 p
 =
 Path
@@ -10908,7 +10911,7 @@ Path
 context
 i
 )
-                        
+                    
 if
 (
 isinstance
@@ -10917,7 +10920,7 @@ p
 SourcePath
 )
 and
-                                
+                            
 not
 os
 .
@@ -10931,11 +10934,11 @@ full_path
 )
 )
 :
-                            
+                        
 raise
 SandboxValidationError
 (
-                                
+                            
 '
 Input
 for
@@ -10949,7 +10952,7 @@ exist
 %
 s
 '
-                                
+                            
 %
 (
 f
@@ -10959,24 +10962,13 @@ full_path
 )
 context
 )
-                        
+                    
 inputs
 .
 append
 (
 p
 )
-                
-else
-:
-                    
-script
-=
-None
-                    
-method
-=
-None
                 
 yield
 GeneratedFile
