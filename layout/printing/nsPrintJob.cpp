@@ -20666,6 +20666,9 @@ InsertData
 (
 endOffset
 kEllipsis
+IgnoreErrors
+(
+)
 )
 ;
 ellipsisOffset
@@ -20800,6 +20803,9 @@ InsertData
 (
 startOffset
 kEllipsis
+IgnoreErrors
+(
+)
 )
 ;
 startOffset
