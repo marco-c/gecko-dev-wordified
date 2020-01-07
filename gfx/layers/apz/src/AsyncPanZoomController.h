@@ -453,6 +453,13 @@ FlingHandoffState
 aHandoffState
 )
 ;
+static
+void
+InitializeGlobalState
+(
+)
+{
+}
 }
 ;
 /

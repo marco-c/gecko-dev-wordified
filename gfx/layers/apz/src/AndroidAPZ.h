@@ -186,6 +186,12 @@ aHandoffState
 )
 override
 ;
+static
+void
+InitializeGlobalState
+(
+)
+;
 java
 :
 :
