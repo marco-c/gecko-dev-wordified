@@ -55257,6 +55257,10 @@ that
 s
 fixed
 .
+childFrame
+=
+nullptr
+;
 UnregisterDisplayNoneStyleFor
 (
 aChild
