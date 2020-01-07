@@ -596,7 +596,7 @@ SyncedTabs
 ;
 syncedTabsDeckComponent
 .
-_accountStatus
+_getSignedInUser
 .
 restore
 (
@@ -786,7 +786,7 @@ stub
 (
 syncedTabsDeckComponent
 "
-_accountStatus
+_getSignedInUser
 "
 (
 )
@@ -796,7 +796,11 @@ Promise
 .
 resolve
 (
+{
+verified
+:
 true
+}
 )
 )
 ;
@@ -1264,7 +1268,7 @@ stub
 (
 syncedTabsDeckComponent
 "
-_accountStatus
+_getSignedInUser
 "
 (
 )
@@ -1274,7 +1278,11 @@ Promise
 .
 resolve
 (
+{
+verified
+:
 true
+}
 )
 )
 ;
@@ -1694,9 +1702,9 @@ testSyncedTabsSidebarStatus
 )
 {
 let
-accountExists
+account
 =
-false
+null
 ;
 await
 SidebarUI
@@ -1807,7 +1815,7 @@ stub
 (
 syncedTabsDeckComponent
 "
-_accountStatus
+_getSignedInUser
 "
 (
 )
@@ -1879,7 +1887,7 @@ error
 ;
 syncedTabsDeckComponent
 .
-_accountStatus
+_getSignedInUser
 .
 restore
 (
@@ -1891,7 +1899,7 @@ stub
 (
 syncedTabsDeckComponent
 "
-_accountStatus
+_getSignedInUser
 "
 (
 )
@@ -1901,7 +1909,7 @@ Promise
 .
 resolve
 (
-accountExists
+account
 )
 )
 ;
@@ -1954,9 +1962,13 @@ selected
 "
 )
 ;
-accountExists
+account
 =
+{
+verified
+:
 true
+}
 ;
 await
 syncedTabsDeckComponent
@@ -2348,7 +2360,7 @@ stub
 (
 syncedTabsDeckComponent
 "
-_accountStatus
+_getSignedInUser
 "
 (
 )
@@ -2358,7 +2370,11 @@ Promise
 .
 resolve
 (
+{
+verified
+:
 true
+}
 )
 )
 ;
