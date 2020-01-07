@@ -65,7 +65,7 @@ version
 '
 0
 .
-5
+6
 '
 deps
 =
@@ -132,7 +132,7 @@ mozprofile
 =
 1
 .
-0
+1
 .
 0
 '
@@ -141,9 +141,11 @@ mozprofile
 mozrunner
 =
 =
-6
+7
 .
-15
+0
+.
+1
 '
         
 '
