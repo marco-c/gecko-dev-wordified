@@ -3580,8 +3580,6 @@ JAVA
         
 gradle_flags
 =
-shell_split
-(
 self
 .
 substs
@@ -3594,6 +3592,27 @@ GRADLE_FLAGS
 '
 '
 )
+or
+\
+                       
+os
+.
+environ
+.
+get
+(
+'
+GRADLE_FLAGS
+'
+'
+'
+)
+        
+gradle_flags
+=
+shell_split
+(
+gradle_flags
 )
         
 #
