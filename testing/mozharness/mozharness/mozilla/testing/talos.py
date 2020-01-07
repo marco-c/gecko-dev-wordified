@@ -6168,6 +6168,24 @@ True
         
 )
         
+#
+require
+pip
+>
+=
+1
+.
+5
+so
+pip
+will
+prefer
+.
+whl
+files
+to
+install
+        
 super
 (
 Talos
@@ -6176,6 +6194,20 @@ self
 .
 create_virtualenv
 (
+            
+modules
+=
+[
+'
+pip
+>
+=
+1
+.
+5
+'
+]
+        
 )
         
 #
