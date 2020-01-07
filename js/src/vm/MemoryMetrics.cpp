@@ -2228,10 +2228,6 @@ nonSyntacticLexicalScopesTable
 &
 cStats
 .
-templateLiteralMap
-&
-cStats
-.
 jitCompartment
 &
 cStats
