@@ -2731,13 +2731,6 @@ UseCounterReportKind
 eDefault
 )
 ;
-virtual
-void
-NotifyLayerManagerRecreated
-(
-)
-override
-;
 bool
 IsSynthesized
 (
