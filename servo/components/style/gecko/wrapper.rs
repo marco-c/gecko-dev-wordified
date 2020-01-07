@@ -14076,7 +14076,12 @@ state_bit
 )
 {
 return
-true
+!
+context
+.
+in_negation
+(
+)
 ;
 }
 self
@@ -14225,7 +14230,12 @@ t
 bother
 .
 return
-true
+!
+context
+.
+in_negation
+(
+)
 ;
 }
 let
