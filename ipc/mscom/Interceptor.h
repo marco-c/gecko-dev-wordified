@@ -947,6 +947,13 @@ mStdMarshal
 /
 /
 WEAK
+static
+MOZ_THREAD_LOCAL
+(
+bool
+)
+tlsCreatingStdMarshal
+;
 }
 ;
 template
