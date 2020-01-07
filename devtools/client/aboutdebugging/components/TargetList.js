@@ -236,6 +236,11 @@ DebuggerClient
 )
 .
 isRequired
+connect
+:
+PropTypes
+.
+object
 debugDisabled
 :
 PropTypes
@@ -292,6 +297,7 @@ render
 let
 {
 client
+connect
 debugDisabled
 error
 targetClass
@@ -333,6 +339,7 @@ targetClass
 (
 {
 client
+connect
 target
 debugDisabled
 }
