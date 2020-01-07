@@ -201,6 +201,13 @@ PropTypes
 func
 .
 isRequired
+simulateAnimation
+:
+PropTypes
+.
+func
+.
+isRequired
 timeScale
 :
 PropTypes
@@ -223,6 +230,7 @@ getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 setSelectedNode
+simulateAnimation
 timeScale
 }
 =
@@ -260,6 +268,7 @@ getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 setSelectedNode
+simulateAnimation
 timeScale
 }
 )

@@ -238,6 +238,13 @@ PropTypes
 func
 .
 isRequired
+simulateAnimation
+:
+PropTypes
+.
+func
+.
+isRequired
 toggleElementPicker
 :
 PropTypes
@@ -291,6 +298,7 @@ getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 setSelectedNode
+simulateAnimation
 toggleElementPicker
 }
 =
@@ -325,6 +333,7 @@ getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 setSelectedNode
+simulateAnimation
 }
 )
 :

@@ -5618,6 +5618,9 @@ new
 AnimationInspector
 (
 this
+this
+.
+panelWin
 )
 ;
 return
