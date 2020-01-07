@@ -2147,10 +2147,9 @@ CustomElementDefinition
 *
 LookupCustomElementDefinition
 (
-const
-nsAString
-&
-aLocalName
+nsAtom
+*
+aNameAtom
 nsAtom
 *
 aTypeAtom
