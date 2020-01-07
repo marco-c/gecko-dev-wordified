@@ -864,16 +864,11 @@ accesskey
 "
 #
 endif
-#
-ifdef
-XP_UNIX
 key
 =
 "
 key_quitApplication
 "
-#
-endif
 #
 endif
 command
