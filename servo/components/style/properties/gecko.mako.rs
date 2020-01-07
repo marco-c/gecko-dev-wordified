@@ -14860,7 +14860,7 @@ align
 AlignFlags
 :
 :
-AUTO
+LEGACY
 )
 ;
 self
