@@ -281,6 +281,10 @@ mTab
 =
 tab
 ;
+attach
+(
+)
+;
 }
 /
 *
@@ -294,7 +298,7 @@ tab
 .
 *
 /
-public
+private
 void
 attach
 (

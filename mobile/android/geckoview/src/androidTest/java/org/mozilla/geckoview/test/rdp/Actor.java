@@ -875,6 +875,17 @@ JSONObject
 packet
 )
 {
+if
+(
+mPendingReplies
+=
+=
+null
+)
+{
+return
+;
+}
 for
 (
 final
