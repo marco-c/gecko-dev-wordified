@@ -3171,6 +3171,9 @@ parser
 evaluate_parser
 (
 return_code
+                                                                         
+previous_summary
+=
 summary
 )
                 
