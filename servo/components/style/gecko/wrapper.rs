@@ -14612,7 +14612,10 @@ self
 0
 name
 case_sensitivity
-Gecko_ClassOrClassList
+bindings
+:
+:
+Gecko_HasClass
 )
 }
 #
