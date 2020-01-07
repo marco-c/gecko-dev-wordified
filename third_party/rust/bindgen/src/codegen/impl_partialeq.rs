@@ -48,9 +48,6 @@ RUST_DERIVE_IN_ARRAY_LIMIT
 use
 quote
 ;
-use
-proc_macro2
-;
 /
 /
 /
@@ -534,10 +531,10 @@ quote_equals
 (
 name_ident
 :
-proc_macro2
+quote
 :
 :
-Term
+Ident
 )
 -
 >
