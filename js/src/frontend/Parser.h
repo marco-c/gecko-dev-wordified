@@ -7550,6 +7550,9 @@ yieldHandling
 TokenKind
 hint
 =
+TokenKind
+:
+:
 TOK_LIMIT
 )
 ;
@@ -7974,6 +7977,9 @@ yieldHandling
 TokenKind
 hint
 =
+TokenKind
+:
+:
 TOK_LIMIT
 )
 ;
