@@ -24,7 +24,6 @@ expectedResult
 :
 [
 [
-[
 /
 /
 ac
@@ -241,7 +240,6 @@ fieldName
 organization
 "
 }
-]
 ]
 ]
 }

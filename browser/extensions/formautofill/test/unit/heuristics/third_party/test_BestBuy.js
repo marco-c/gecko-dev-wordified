@@ -24,8 +24,6 @@ expectedResult
 :
 [
 [
-[
-]
 ]
 /
 /
@@ -325,8 +323,6 @@ expectedResult
 :
 [
 [
-[
-]
 ]
 /
 /

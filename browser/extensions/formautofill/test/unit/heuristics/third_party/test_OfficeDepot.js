@@ -936,7 +936,6 @@ expectedResult
 :
 [
 [
-[
 /
 /
 ac
@@ -971,7 +970,6 @@ fieldName
 email
 "
 }
-]
 ]
 ]
 }
