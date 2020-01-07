@@ -146,6 +146,13 @@ h
 #
 include
 "
+MozFramebuffer
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
