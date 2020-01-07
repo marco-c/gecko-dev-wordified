@@ -25591,15 +25591,6 @@ false
 ;
 if
 (
-gHttpHandler
--
->
-AllowPlaintextServerTiming
-(
-)
-|
-|
-(
 NS_SUCCEEDED
 (
 mURI
@@ -25617,7 +25608,6 @@ isHTTPS
 &
 &
 isHTTPS
-)
 )
 {
 nsTArray
