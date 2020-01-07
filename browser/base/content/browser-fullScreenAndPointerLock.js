@@ -4151,7 +4151,7 @@ rect
 =
 gBrowser
 .
-mPanelContainer
+tabpanels
 .
 getBoundingClientRect
 (

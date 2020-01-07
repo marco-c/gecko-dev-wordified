@@ -3061,7 +3061,7 @@ this
 .
 tabbrowser
 .
-mPanelContainer
+tabpanels
 .
 removeAttribute
 (
@@ -3145,7 +3145,7 @@ this
 .
 tabbrowser
 .
-mPanelContainer
+tabpanels
 .
 setAttribute
 (
@@ -3244,7 +3244,7 @@ this
 .
 tabbrowser
 .
-mPanelContainer
+tabpanels
 ;
 let
 showPanel
