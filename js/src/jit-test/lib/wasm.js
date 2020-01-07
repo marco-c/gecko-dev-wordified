@@ -1330,13 +1330,6 @@ catch
 e
 )
 {
-print
-(
-e
-.
-message
-)
-;
 }
 WasmHelpers
 .

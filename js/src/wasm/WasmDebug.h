@@ -229,16 +229,7 @@ namespace
 wasm
 {
 struct
-LinkDataTier
-;
-struct
 MetadataTier
-;
-class
-FrameIterator
-;
-class
-LinkData
 ;
 /
 /
