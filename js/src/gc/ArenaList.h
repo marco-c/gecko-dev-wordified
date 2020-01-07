@@ -1735,7 +1735,7 @@ gracefully
 .
 static
 FreeSpan
-placeholder
+emptySentinel
 ;
 ZoneOrGCTaskData
 <
