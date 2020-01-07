@@ -2510,13 +2510,6 @@ initPushService
 )
 ;
 }
-GeckoAccessibility
-.
-setAccessibilityManagerListeners
-(
-this
-)
-;
 AudioFocusAgent
 .
 getInstance
