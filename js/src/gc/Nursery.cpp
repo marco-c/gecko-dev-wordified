@@ -5085,8 +5085,6 @@ traceRuntimeForMinorGC
 &
 mover
 session
-.
-lock
 )
 ;
 endProfile

@@ -7738,8 +7738,6 @@ prep
 session
 (
 )
-.
-lock
 )
 ;
 }
