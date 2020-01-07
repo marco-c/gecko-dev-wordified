@@ -23516,8 +23516,17 @@ cache
 first
 maybeRCWN
 =
+(
 !
 lookupAppCache
+)
+&
+&
+mRequestHead
+.
+IsSafeMethod
+(
+)
 ;
 rv
 =
