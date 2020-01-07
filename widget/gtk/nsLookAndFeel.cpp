@@ -1361,7 +1361,7 @@ border
 gtk_style_context_get_border
 (
 aContext
-GTK_STATE_FLAG_NORMAL
+state
 &
 border
 )
