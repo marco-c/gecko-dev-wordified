@@ -703,6 +703,7 @@ repeat
 derive
 (
 Clone
+Copy
 Debug
 MallocSizeOf
 PartialEq
