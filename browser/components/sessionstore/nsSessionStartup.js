@@ -2397,6 +2397,9 @@ RESUME_SESSION
 *
 Returns
 a
+boolean
+or
+a
 promise
 that
 resolves
@@ -2404,10 +2407,10 @@ to
 a
 boolean
 indicating
+*
 whether
 we
 will
-*
 restore
 a
 session
@@ -2418,9 +2421,9 @@ replacing
 the
 homepage
 .
+*
 True
 guarantees
-*
 that
 we
 '
@@ -2433,6 +2436,7 @@ false
 means
 that
 we
+*
 /
 probably
 /
@@ -2462,7 +2466,7 @@ session
 *
 /
 get
-willOverrideHomepagePromise
+willOverrideHomepage
 (
 )
 {
@@ -2555,12 +2559,7 @@ _resumeSessionEnabled
 )
 {
 return
-Promise
-.
-resolve
-(
 false
-)
 ;
 }
 return
