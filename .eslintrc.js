@@ -287,12 +287,6 @@ offlineAppCache
 jsm
 "
 "
-chrome
-/
-*
-*
-"
-"
 devtools
 /
 *
