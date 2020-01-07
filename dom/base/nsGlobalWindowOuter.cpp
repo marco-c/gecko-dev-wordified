@@ -35049,6 +35049,11 @@ opened
 by
 script
 .
+if
+(
+mDoc
+)
+{
 nsAutoString
 url
 ;
@@ -35172,6 +35177,7 @@ WindowCloseBlockedWarning
 ;
 return
 ;
+}
 }
 }
 if
