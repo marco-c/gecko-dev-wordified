@@ -21604,6 +21604,15 @@ CancelOffThreadJobsForContext
 cx
 )
 ;
+sc
+-
+>
+markObservers
+.
+reset
+(
+)
+;
 JS_DestroyContext
 (
 cx
