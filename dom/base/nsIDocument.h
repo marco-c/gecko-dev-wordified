@@ -17538,7 +17538,7 @@ aCallerType
 virtual
 Element
 *
-GetFullscreenElement
+FullScreenStackTop
 (
 )
 =
@@ -17573,6 +17573,18 @@ this
 )
 ;
 }
+static
+bool
+IsUnprefixedFullscreenEnabled
+(
+JSContext
+*
+aCx
+JSObject
+*
+aObject
+)
+;
 #
 ifdef
 MOZILLA_INTERNAL_API

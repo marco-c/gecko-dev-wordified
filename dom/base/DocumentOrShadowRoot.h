@@ -533,6 +533,12 @@ GetPointerLockElement
 (
 )
 ;
+Element
+*
+GetFullscreenElement
+(
+)
+;
 protected
 :
 nsIContent
