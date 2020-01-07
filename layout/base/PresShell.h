@@ -1229,7 +1229,10 @@ HandleDOMEventWithTarget
 nsIContent
 *
 aTargetContent
-nsIDOMEvent
+dom
+:
+:
+Event
 *
 aEvent
 nsEventStatus

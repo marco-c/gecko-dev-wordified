@@ -50306,7 +50306,7 @@ HandleDOMEventWithTarget
 nsIContent
 *
 aTargetContent
-nsIDOMEvent
+Event
 *
 aEvent
 nsEventStatus
