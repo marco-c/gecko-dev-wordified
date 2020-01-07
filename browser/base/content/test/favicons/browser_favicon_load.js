@@ -250,8 +250,6 @@ tools
 .
 getService
 (
-SpecialPowers
-.
 Ci
 .
 imgITools
