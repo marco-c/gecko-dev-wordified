@@ -3648,6 +3648,9 @@ selection
 >
 CollapseToEnd
 (
+IgnoreErrors
+(
+)
 )
 ;
 }

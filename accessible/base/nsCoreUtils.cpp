@@ -1830,6 +1830,9 @@ selection
 >
 CollapseToStart
 (
+IgnoreErrors
+(
+)
 )
 ;
 return

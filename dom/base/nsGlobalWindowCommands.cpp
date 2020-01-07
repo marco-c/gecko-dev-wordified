@@ -3382,6 +3382,9 @@ sel
 >
 CollapseToEnd
 (
+IgnoreErrors
+(
+)
 )
 ;
 }

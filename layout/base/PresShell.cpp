@@ -19194,6 +19194,9 @@ sel
 >
 CollapseToStart
 (
+IgnoreErrors
+(
+)
 )
 ;
 }

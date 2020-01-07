@@ -2183,6 +2183,9 @@ selection
 >
 CollapseToStart
 (
+IgnoreErrors
+(
+)
 )
 ;
 }
