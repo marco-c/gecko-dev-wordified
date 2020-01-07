@@ -1,6 +1,7 @@
 /
 *
 globals
+startBackground
 analytics
 communication
 makeUuid
@@ -14,15 +15,6 @@ log
 use
 strict
 "
-;
-const
-startTime
-=
-Date
-.
-now
-(
-)
 ;
 this
 .
@@ -501,6 +493,8 @@ now
 (
 )
 -
+startBackground
+.
 startTime
 >
 5
