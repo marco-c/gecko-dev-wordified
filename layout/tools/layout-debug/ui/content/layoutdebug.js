@@ -609,8 +609,13 @@ arguments
 else
 gBrowser
 .
-goHome
+loadURI
 (
+"
+about
+:
+blank
+"
 )
 ;
 gDebugger
