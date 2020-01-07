@@ -244,9 +244,6 @@ NS_EDITINGSESSION_CID
 }
 }
 class
-nsComposerCommandsUpdater
-;
-class
 nsIChannel
 ;
 class
@@ -264,6 +261,9 @@ nsIWebProgress
 namespace
 mozilla
 {
+class
+ComposerCommandsUpdater
+;
 class
 HTMLEditor
 ;
@@ -612,7 +612,10 @@ EDITING
 SESSION
 RefPtr
 <
-nsComposerCommandsUpdater
+mozilla
+:
+:
+ComposerCommandsUpdater
 >
 mStateMaintainer
 ;
