@@ -322,6 +322,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 {
 MOZ_ASSERT

@@ -3799,6 +3799,7 @@ DrawTargetCairo
 GetSize
 (
 )
+const
 {
 return
 mSize

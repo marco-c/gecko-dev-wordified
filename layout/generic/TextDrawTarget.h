@@ -2592,6 +2592,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 {
 MOZ_CRASH

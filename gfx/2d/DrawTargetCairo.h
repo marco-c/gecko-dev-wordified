@@ -356,6 +356,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 ;
 virtual
