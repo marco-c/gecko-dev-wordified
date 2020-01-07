@@ -153,8 +153,6 @@ TRRService
 public
 nsIObserver
 public
-nsITimerCallback
-public
 nsSupportsWeakReference
 public
 AHostResolver
@@ -163,7 +161,6 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
-NS_DECL_NSITIMERCALLBACK
 TRRService
 (
 )
@@ -526,20 +523,6 @@ TRR
 >
 mConfirmer
 ;
-nsCOMPtr
-<
-nsITimer
->
-mRetryConfirmTimer
-;
-uint32_t
-mRetryConfirmInterval
-;
-/
-/
-milliseconds
-until
-retry
 }
 ;
 extern
