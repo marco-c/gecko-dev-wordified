@@ -2457,9 +2457,6 @@ ShutdownNormal
 static
 string
 sShutdownToken
-=
-"
-"
 ;
 void
 FakeDecryptor
