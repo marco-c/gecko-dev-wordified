@@ -672,8 +672,9 @@ SECURITY_TITLE
 SecurityPanel
 (
 {
-request
+connector
 openLink
+request
 }
 )
 )
