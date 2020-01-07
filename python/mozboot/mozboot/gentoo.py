@@ -444,11 +444,11 @@ jdk
 jdk_dir
 =
 '
-8u152
+8u162
 -
-b16
+b12
 /
-aa0333dd3019491ca4f6ddbe78cdb6d0
+0da788060d494f5095bf8624735fa2f1
 '
         
 jdk_file
@@ -456,7 +456,7 @@ jdk_file
 '
 jdk
 -
-8u152
+8u162
 -
 linux
 -
@@ -617,9 +617,7 @@ bin
 .
 0
 .
-152
--
-r1
+162
 '
 ]
 )
