@@ -711,7 +711,7 @@ aContext
 AudioScheduledSourceNode
 (
 aContext
-1
+2
 ChannelCountMode
 :
 :
