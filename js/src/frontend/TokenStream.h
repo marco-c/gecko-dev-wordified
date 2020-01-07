@@ -11111,6 +11111,7 @@ getTokenInternal
 (
 TokenKind
 *
+const
 ttp
 const
 Modifier
