@@ -693,6 +693,8 @@ resolve
 self
 .
 p
+{
+}
 )
         
 self

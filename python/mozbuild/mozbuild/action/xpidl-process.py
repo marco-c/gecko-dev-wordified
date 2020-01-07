@@ -179,10 +179,11 @@ process
 (
 input_dir
 inc_paths
+bindings_conf
 cache_dir
 header_dir
-xpcrs_dir
             
+xpcrs_dir
 xpt_dir
 deps_dir
 module
@@ -217,6 +218,26 @@ mk
 create_rule
 (
 )
+    
+glbl
+=
+{
+}
+    
+execfile
+(
+bindings_conf
+glbl
+)
+    
+webidlconfig
+=
+glbl
+[
+'
+DOMInterfaces
+'
+]
     
 #
 Write
@@ -321,6 +342,7 @@ input_dir
 +
 inc_paths
 p
+webidlconfig
 )
         
 header_path
@@ -616,6 +638,32 @@ parser
 add_argument
 (
 '
+-
+-
+bindings
+-
+conf
+'
+        
+help
+=
+'
+Path
+to
+the
+WebIDL
+binding
+configuration
+file
+.
+'
+)
+    
+parser
+.
+add_argument
+(
+'
 inputdir
 '
         
@@ -819,11 +867,14 @@ args
 incpath
 args
 .
+bindings_conf
+args
+.
 cache_dir
+        
 args
 .
 headerdir
-        
 args
 .
 xpcrsdir
@@ -836,6 +887,7 @@ depsdir
 args
 .
 module
+        
 args
 .
 idls
