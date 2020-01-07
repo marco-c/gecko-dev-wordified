@@ -2800,6 +2800,27 @@ file_generate
 '
 )
             
+if
+obj
+.
+localized
+:
+                
+cmd
+.
+append
+(
+'
+-
+-
+locale
+=
+en
+-
+US
+'
+)
+            
 cmd
 .
 extend
