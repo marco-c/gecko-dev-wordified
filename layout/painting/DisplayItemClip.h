@@ -908,6 +908,7 @@ false
 bool
 ComputeRegionInClips
 (
+const
 DisplayItemClip
 *
 aOldClip
