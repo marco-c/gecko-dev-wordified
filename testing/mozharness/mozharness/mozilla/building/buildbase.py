@@ -13767,15 +13767,7 @@ path
 .
 join
 (
-dirs
-[
-'
-abs_obj_dir
-'
-]
-'
-dist
-'
+dist_dir
 packageName
 )
         
