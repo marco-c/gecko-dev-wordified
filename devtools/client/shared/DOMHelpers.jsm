@@ -531,13 +531,13 @@ if
 (
 previousSibling
 )
+{
 /
 /
 then
 we
 are
 walking
-{
 child
 =
 this

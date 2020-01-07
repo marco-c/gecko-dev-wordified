@@ -1345,13 +1345,6 @@ function
 )
 {
 let
-parent
-=
-this
-.
-_parent
-;
-let
 list
 =
 this
@@ -3107,6 +3100,8 @@ list
 )
 ;
 }
+else
+{
 /
 /
 Skip
@@ -3120,8 +3115,6 @@ title
 is
 shown
 .
-else
-{
 let
 target
 =
@@ -3810,6 +3803,8 @@ arrow
 ;
 }
 }
+else
+{
 /
 /
 Skip
@@ -3826,8 +3821,6 @@ checkbox
 is
 shown
 .
-else
-{
 let
 target
 =

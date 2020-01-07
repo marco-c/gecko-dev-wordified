@@ -3561,6 +3561,18 @@ _getObjectClient
 objGrip
 )
 ;
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+new
+-
+cap
 return
 new
 promise
@@ -5580,6 +5592,8 @@ globalScopeLabel
 )
 ;
 }
+else
+{
 /
 /
 Otherwise
@@ -5588,8 +5602,6 @@ the
 scope
 name
 .
-else
-{
 name
 =
 aEnv
