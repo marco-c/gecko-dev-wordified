@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsIEventTarget
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
