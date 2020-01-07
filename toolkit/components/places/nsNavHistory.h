@@ -3281,12 +3281,6 @@ notifications
 bool
 mCanNotify
 ;
-nsCategoryCache
-<
-nsINavHistoryObserver
->
-mCacheObservers
-;
 /
 /
 Used

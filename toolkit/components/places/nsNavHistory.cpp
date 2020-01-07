@@ -1756,14 +1756,6 @@ mCanNotify
 (
 true
 )
-mCacheObservers
-(
-"
-history
--
-observers
-"
-)
 #
 ifdef
 XP_WIN
@@ -3244,7 +3236,6 @@ mDaysOfHistory
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavHistoryObserver
 OnVisits
@@ -3287,7 +3278,6 @@ IsEmpty
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavHistoryObserver
 OnTitleChanged
@@ -3333,7 +3323,6 @@ IsEmpty
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavHistoryObserver
 OnFrecencyChanged
@@ -3358,7 +3347,6 @@ NotifyManyFrecenciesChanged
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavHistoryObserver
 OnManyFrecenciesChanged
@@ -14748,22 +14736,6 @@ observers
 ;
 /
 /
-First
-add
-the
-category
-cache
-observers
-.
-mCacheObservers
-.
-GetEntries
-(
-observers
-)
-;
-/
-/
 Then
 add
 the
@@ -14906,7 +14878,6 @@ true
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavHistoryObserver
 OnBeginUpdateBatch
@@ -14987,7 +14958,6 @@ nullptr
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavHistoryObserver
 OnEndUpdateBatch
@@ -15825,7 +15795,6 @@ query
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavHistoryObserver
 OnDeleteVisits
@@ -16136,7 +16105,6 @@ i
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavHistoryObserver
 OnDeleteURI
@@ -18394,7 +18362,6 @@ removed
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavHistoryObserver
 OnDeleteURI
@@ -18426,7 +18393,6 @@ removed
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavHistoryObserver
 OnDeleteVisits
@@ -26462,7 +26428,6 @@ IsEmpty
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavHistoryObserver
 OnPageChanged

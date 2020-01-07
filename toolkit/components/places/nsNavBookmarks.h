@@ -2281,12 +2281,6 @@ notifications
 bool
 mCanNotify
 ;
-nsCategoryCache
-<
-nsINavBookmarkObserver
->
-mCacheObservers
-;
 /
 /
 Tracks

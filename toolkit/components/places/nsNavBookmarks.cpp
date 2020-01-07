@@ -1055,14 +1055,6 @@ mCanNotify
 (
 false
 )
-mCacheObservers
-(
-"
-bookmark
--
-observers
-"
-)
 mBatching
 (
 false
@@ -3555,7 +3547,6 @@ rv
 NOTIFY_BOOKMARKS_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 SKIP_TAGS
 (
@@ -3707,7 +3698,6 @@ aNewBookmarkId
 NOTIFY_BOOKMARKS_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 DontSkip
 OnItemChanged
@@ -4364,7 +4354,6 @@ RemoveItem
 NOTIFY_BOOKMARKS_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 SKIP_TAGS
 (
@@ -4497,7 +4486,6 @@ i
 NOTIFY_BOOKMARKS_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 DontSkip
 OnItemChanged
@@ -4995,7 +4983,6 @@ TagsRootId
 NOTIFY_BOOKMARKS_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 SKIP_TAGS
 (
@@ -5263,7 +5250,6 @@ rv
 NOTIFY_BOOKMARKS_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 DontSkip
 OnItemAdded
@@ -7050,7 +7036,6 @@ RemoveFolderChildren
 NOTIFY_BOOKMARKS_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 (
 (
@@ -7191,7 +7176,6 @@ i
 NOTIFY_BOOKMARKS_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 DontSkip
 OnItemChanged
@@ -8419,7 +8403,6 @@ rv
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavBookmarkObserver
 OnItemMoved
@@ -9469,7 +9452,6 @@ aDateAdded
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavBookmarkObserver
 OnItemChanged
@@ -9800,7 +9782,6 @@ aDateAdded
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavBookmarkObserver
 OnItemChanged
@@ -11147,7 +11128,6 @@ rv
 NOTIFY_BOOKMARKS_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 SKIP_TAGS
 (
@@ -14584,7 +14564,6 @@ i
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavBookmarkObserver
 OnItemChanged
@@ -14943,7 +14922,6 @@ i
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavBookmarkObserver
 OnItemChanged
@@ -15394,7 +15372,6 @@ i
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavBookmarkObserver
 OnItemChanged
@@ -15886,30 +15863,6 @@ nsINavBookmarkObserver
 >
 observers
 ;
-/
-/
-First
-add
-the
-category
-cache
-observers
-.
-mCacheObservers
-.
-GetEntries
-(
-observers
-)
-;
-/
-/
-Then
-add
-the
-other
-observers
-.
 for
 (
 uint32_t
@@ -16090,7 +16043,6 @@ uri
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavBookmarkObserver
 OnItemVisited
@@ -16211,7 +16163,6 @@ lastModified
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavBookmarkObserver
 OnItemChanged
@@ -16536,7 +16487,6 @@ OnBeginUpdateBatch
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavBookmarkObserver
 OnBeginUpdateBatch
@@ -16569,7 +16519,6 @@ false
 NOTIFY_OBSERVERS
 (
 mCanNotify
-mCacheObservers
 mObservers
 nsINavBookmarkObserver
 OnEndUpdateBatch
