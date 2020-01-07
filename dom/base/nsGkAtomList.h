@@ -1402,6 +1402,15 @@ autocomplete
 )
 GK_ATOM
 (
+autocomplete_richlistbox
+"
+autocomplete
+-
+richlistbox
+"
+)
+GK_ATOM
+(
 autofocus
 "
 autofocus
