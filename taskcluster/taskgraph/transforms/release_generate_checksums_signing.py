@@ -120,6 +120,14 @@ get_worker_type_for_scope
 from
 taskgraph
 .
+util
+.
+taskcluster
+import
+get_artifact_path
+from
+taskgraph
+.
 transforms
 .
 task
@@ -602,21 +610,21 @@ paths
 :
 [
                 
+get_artifact_path
+(
+dep_job
 "
-public
-/
-build
-/
 SHA256SUMS
 "
+)
                 
+get_artifact_path
+(
+dep_job
 "
-public
-/
-build
-/
 SHA512SUMS
 "
+)
             
 ]
             
