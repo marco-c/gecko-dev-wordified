@@ -558,9 +558,6 @@ all
 compareRetainedDisplayLists
 :
 false
-compareStyloToGecko
-:
-false
 browser
 :
 undefined
