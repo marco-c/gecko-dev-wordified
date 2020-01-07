@@ -344,6 +344,17 @@ ExecutionReady
 )
 const
 ;
+const
+Maybe
+<
+ServiceWorkerDescriptor
+>
+&
+GetController
+(
+)
+const
+;
 void
 AttachHandle
 (
