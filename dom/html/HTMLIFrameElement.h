@@ -314,7 +314,7 @@ nsAString
 &
 aSrc
 nsIPrincipal
-&
+*
 aTriggeringPrincipal
 ErrorResult
 &

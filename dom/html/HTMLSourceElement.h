@@ -407,7 +407,7 @@ nsAString
 &
 aSrc
 nsIPrincipal
-&
+*
 aTriggeringPrincipal
 mozilla
 :
@@ -518,7 +518,7 @@ nsAString
 &
 aSrcset
 nsIPrincipal
-&
+*
 aTriggeringPrincipal
 mozilla
 :

@@ -762,7 +762,7 @@ nsAString
 &
 aString
 nsIPrincipal
-&
+*
 aSubjectPrincipal
 mozilla
 :
@@ -777,7 +777,6 @@ rv
 SetCssText
 (
 aString
-&
 aSubjectPrincipal
 )
 ;
@@ -974,7 +973,7 @@ nsAString
 &
 aPriority
 nsIPrincipal
-&
+*
 aSubjectPrincipal
 mozilla
 :
@@ -991,7 +990,6 @@ SetProperty
 aPropName
 aValue
 aPriority
-&
 aSubjectPrincipal
 )
 ;
