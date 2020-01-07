@@ -769,6 +769,12 @@ const
 wchar_t
 *
 command_line
+base
+:
+:
+EnvironmentMap
+&
+env_map
 scoped_refptr
 <
 TargetPolicy
