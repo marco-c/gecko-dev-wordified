@@ -7822,13 +7822,6 @@ NS_FRAME_SIMPLE_EVENT_REGIONS
 NS_FRAME_SIMPLE_DISPLAYLIST
 )
 ;
-this
--
->
-MarkNeedsDisplayItemRebuild
-(
-)
-;
 mMayHaveRoundedCorners
 =
 true

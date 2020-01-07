@@ -1092,6 +1092,7 @@ aRect
 )
 mStyle
 (
+*
 aStyle
 )
 mAscent
@@ -1390,7 +1391,6 @@ frame
 coordinates
 const
 nsStyleTextOverflowSide
-*
 mStyle
 ;
 nscoord
@@ -1677,8 +1677,7 @@ aOffsetFromRect
 if
 (
 mStyle
--
->
+.
 mType
 =
 =
@@ -1783,16 +1782,14 @@ mFrame
 fm
 aCtx
 mStyle
--
->
+.
 mString
 .
 get
 (
 )
 mStyle
--
->
+.
 mString
 .
 Length
