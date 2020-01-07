@@ -312,8 +312,6 @@ tooltip
 param
 {
 Spectrum
-|
-ColorWidget
 }
 colorPicker
 *
