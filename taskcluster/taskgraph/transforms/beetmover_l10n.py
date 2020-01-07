@@ -144,8 +144,6 @@ chunk_locales
 group
 =
 '
-tc
--
 BM
 -
 L10n

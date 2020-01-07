@@ -432,8 +432,6 @@ setdefault
 symbol
 '
 '
-tc
--
 cs
 (
 N
@@ -653,8 +651,6 @@ symbol
 ]
 =
 '
-tc
--
 cs
 (
 {

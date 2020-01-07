@@ -1259,17 +1259,11 @@ is_nightly
     
 return
 '
-tc
-(
 Ns
-)
 '
 if
 is_nightly
 else
 '
-tc
-(
 Bs
-)
 '

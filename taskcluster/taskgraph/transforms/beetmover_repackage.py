@@ -1551,12 +1551,9 @@ setdefault
 symbol
 '
 '
-tc
-(
 BM
 -
 R
-)
 '
 )
         

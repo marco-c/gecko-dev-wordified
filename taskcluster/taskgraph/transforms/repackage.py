@@ -728,10 +728,7 @@ setdefault
 symbol
 '
 '
-tc
-(
 Nr
-)
 '
 )
         

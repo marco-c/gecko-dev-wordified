@@ -454,8 +454,6 @@ setdefault
 symbol
 '
 '
-tc
--
 BMcs
 (
 N
@@ -777,8 +775,6 @@ symbol
 ]
 =
 '
-tc
--
 BMcs
 (
 {
