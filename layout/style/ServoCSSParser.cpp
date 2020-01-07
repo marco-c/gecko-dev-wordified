@@ -181,6 +181,9 @@ aValue
 nscolor
 *
 aResultColor
+bool
+*
+aWasCurrentColor
 )
 {
 return
@@ -200,6 +203,7 @@ aCurrentColor
 &
 aValue
 aResultColor
+aWasCurrentColor
 )
 ;
 }
