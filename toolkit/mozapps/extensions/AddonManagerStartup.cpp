@@ -3220,11 +3220,9 @@ file
 }
 else
 {
-mExtensionPaths
-.
-AppendElement
+return
+Ok
 (
-file
 )
 ;
 }
