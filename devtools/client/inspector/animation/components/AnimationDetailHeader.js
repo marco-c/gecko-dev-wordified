@@ -174,8 +174,15 @@ isRequired
 }
 onClick
 (
+event
 )
 {
+event
+.
+stopPropagation
+(
+)
+;
 const
 {
 setDetailVisibility
