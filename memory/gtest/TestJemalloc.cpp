@@ -186,9 +186,6 @@ gtest
 h
 "
 #
-ifdef
-NIGHTLY_BUILD
-#
 if
 defined
 (
@@ -349,8 +346,6 @@ ASSERT_DEATH_WRAP
 a
 b
 )
-#
-endif
 #
 endif
 using
@@ -2011,9 +2006,6 @@ false
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 size_t
 sSizes
 [
@@ -4773,5 +4765,3 @@ buf_arena
 )
 ;
 }
-#
-endif
