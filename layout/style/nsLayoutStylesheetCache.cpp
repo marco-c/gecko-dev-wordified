@@ -5378,6 +5378,9 @@ never
 has
 import
 rules
+thus
+no
+loader
 .
 servoSheet
 -
@@ -5386,9 +5389,6 @@ ParseSheetSync
 (
 nullptr
 sheetText
-uri
-uri
-nullptr
 /
 *
 aLoadData
@@ -5396,8 +5396,13 @@ aLoadData
 *
 /
 nullptr
+/
+*
+aLineNumber
+=
+*
+/
 0
-eCompatibility_FullStandards
 )
 ;
 #
