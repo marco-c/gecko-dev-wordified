@@ -702,7 +702,7 @@ findClosestofSymbol
 (
 symbols
 .
-functions
+classes
 location
 )
 ;
