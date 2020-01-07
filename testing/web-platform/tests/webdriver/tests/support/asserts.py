@@ -796,7 +796,7 @@ value
 expected_text
 )
 (
-               
+            
 "
 Dialog
 with
@@ -994,7 +994,7 @@ same
 element
 "
 +
-        
+               
 "
 but
 they

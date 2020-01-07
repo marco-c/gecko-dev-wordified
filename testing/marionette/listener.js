@@ -9045,6 +9045,16 @@ moz
 accessibilityChecks
 "
 )
+capabilities
+.
+get
+(
+"
+moz
+:
+webdriverClick
+"
+)
 )
 ;
 }
