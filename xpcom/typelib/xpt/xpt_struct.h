@@ -767,6 +767,7 @@ DoInterfaceDescriptor
 .
 *
 /
+const
 XPTMethodDescriptor
 *
 method_descriptors

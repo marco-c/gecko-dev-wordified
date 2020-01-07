@@ -487,12 +487,14 @@ num_methods
 idx
 )
 {
+const
 nsXPTMethodInfo
 *
 method
 =
-reinterpret_cast
+static_cast
 <
+const
 nsXPTMethodInfo
 *
 >
@@ -958,8 +960,9 @@ else
 *
 info
 =
-reinterpret_cast
+static_cast
 <
+const
 nsXPTMethodInfo
 *
 >
@@ -1053,8 +1056,9 @@ info
 ;
 info
 =
-reinterpret_cast
+static_cast
 <
+const
 nsXPTMethodInfo
 *
 >
