@@ -1371,12 +1371,6 @@ onDestroy
 (
 )
 {
-mGeckoSession
-.
-closeWindow
-(
-)
-;
 mTextSelection
 .
 destroy
