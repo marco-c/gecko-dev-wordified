@@ -7735,7 +7735,7 @@ DOM
 if
 (
 "
-createShadowRoot
+attachShadow
 "
 in
 document
