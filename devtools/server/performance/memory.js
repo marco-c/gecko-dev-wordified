@@ -657,6 +657,11 @@ state
 attached
 "
 ;
+return
+this
+.
+state
+;
 }
 "
 attaching
@@ -714,6 +719,11 @@ state
 "
 detached
 "
+;
+return
+this
+.
+state
 ;
 }
 "

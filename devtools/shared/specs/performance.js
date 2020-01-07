@@ -440,13 +440,9 @@ number
 "
 )
 }
-response
-:
-{
 oneway
 :
 true
-}
 }
 }
 }

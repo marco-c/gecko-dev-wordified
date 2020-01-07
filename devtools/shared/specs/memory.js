@@ -351,9 +351,12 @@ response
 {
 type
 :
+RetVal
+(
 "
-attached
+string
 "
+)
 }
 }
 detach
@@ -368,9 +371,12 @@ response
 {
 type
 :
+RetVal
+(
 "
-detached
+string
 "
+)
 }
 }
 getState
