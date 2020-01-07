@@ -5801,6 +5801,13 @@ append
 lib
 )
                 
+if
+not
+lib
+.
+installed
+:
+                    
 generated_files
 .
 add
