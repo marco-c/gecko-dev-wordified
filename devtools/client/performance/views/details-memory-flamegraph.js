@@ -127,8 +127,6 @@ DetailsView
 var
 MemoryFlameGraphView
 =
-Heritage
-.
 extend
 (
 DetailsSubview

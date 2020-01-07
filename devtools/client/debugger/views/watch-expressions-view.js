@@ -319,8 +319,6 @@ WatchExpressionsView
 .
 prototype
 =
-Heritage
-.
 extend
 (
 WidgetMethods

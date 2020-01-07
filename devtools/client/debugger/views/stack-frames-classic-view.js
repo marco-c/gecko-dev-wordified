@@ -224,8 +224,6 @@ StackFramesClassicListView
 .
 prototype
 =
-Heritage
-.
 extend
 (
 WidgetMethods

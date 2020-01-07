@@ -449,8 +449,6 @@ MyCustomTreeItem
 .
 prototype
 =
-Heritage
-.
 extend
 (
 AbstractTreeItem

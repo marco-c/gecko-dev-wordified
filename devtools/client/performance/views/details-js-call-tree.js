@@ -120,8 +120,6 @@ DetailsView
 var
 JsCallTreeView
 =
-Heritage
-.
 extend
 (
 DetailsSubview

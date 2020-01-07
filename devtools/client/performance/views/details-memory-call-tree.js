@@ -120,8 +120,6 @@ DetailsView
 var
 MemoryCallTreeView
 =
-Heritage
-.
 extend
 (
 DetailsSubview

@@ -160,8 +160,6 @@ DetailsView
 var
 WaterfallView
 =
-Heritage
-.
 extend
 (
 DetailsSubview

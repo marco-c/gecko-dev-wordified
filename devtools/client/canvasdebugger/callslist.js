@@ -112,8 +112,6 @@ etc
 var
 CallsListView
 =
-Heritage
-.
 extend
 (
 WidgetMethods

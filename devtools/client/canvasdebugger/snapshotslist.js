@@ -98,8 +98,6 @@ UI
 var
 SnapshotsListView
 =
-Heritage
-.
 extend
 (
 WidgetMethods

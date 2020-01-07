@@ -311,7 +311,22 @@ defer
 ;
 const
 {
-Heritage
+extend
+}
+=
+require
+(
+"
+devtools
+/
+shared
+/
+extend
+"
+)
+;
+const
+{
 ViewHelpers
 setNamedTimeout
 }
@@ -13087,8 +13102,6 @@ Variable
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Scope
@@ -18824,8 +18837,6 @@ Property
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Variable
@@ -19362,8 +19373,6 @@ prototype
 .
 commitHierarchyIgnoredItems
 =
-Heritage
-.
 extend
 (
 null
@@ -25475,8 +25484,6 @@ EditableName
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Editable
@@ -25573,8 +25580,6 @@ EditableValue
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Editable
@@ -25672,8 +25677,6 @@ EditableNameAndValue
 .
 prototype
 =
-Heritage
-.
 extend
 (
 EditableName

@@ -530,7 +530,7 @@ devtools
 ;
 const
 {
-Heritage
+extend
 }
 =
 require
@@ -538,15 +538,9 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
-widgets
-/
-view
--
-helpers
+extend
 "
 )
 ;
@@ -13420,8 +13414,6 @@ ScratchpadWindow
 .
 prototype
 =
-Heritage
-.
 extend
 (
 ScratchpadTab
@@ -13561,8 +13553,6 @@ ScratchpadTarget
 .
 prototype
 =
-Heritage
-.
 extend
 (
 ScratchpadTab

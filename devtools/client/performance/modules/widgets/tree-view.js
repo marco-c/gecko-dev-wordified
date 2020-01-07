@@ -113,7 +113,7 @@ global
 ;
 const
 {
-Heritage
+extend
 }
 =
 require
@@ -121,15 +121,9 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
-widgets
-/
-view
--
-helpers
+extend
 "
 )
 ;
@@ -1427,8 +1421,6 @@ CallView
 .
 prototype
 =
-Heritage
-.
 extend
 (
 AbstractTreeItem

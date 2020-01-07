@@ -99,7 +99,7 @@ task
 ;
 const
 {
-Heritage
+extend
 }
 =
 require
@@ -107,15 +107,9 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
-widgets
-/
-view
--
-helpers
+extend
 "
 )
 ;
@@ -500,8 +494,6 @@ PerformanceGraph
 .
 prototype
 =
-Heritage
-.
 extend
 (
 LineGraphWidget
@@ -829,8 +821,6 @@ FramerateGraph
 .
 prototype
 =
-Heritage
-.
 extend
 (
 PerformanceGraph
@@ -931,8 +921,6 @@ MemoryGraph
 .
 prototype
 =
-Heritage
-.
 extend
 (
 PerformanceGraph
@@ -991,8 +979,6 @@ TimelineGraph
 .
 prototype
 =
-Heritage
-.
 extend
 (
 MarkersOverview
@@ -2812,8 +2798,6 @@ OptimizationsGraph
 .
 prototype
 =
-Heritage
-.
 extend
 (
 MountainGraphWidget
