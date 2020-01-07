@@ -294,12 +294,6 @@ window
 )
 override
 ;
-bool
-FocusOnSelectedSource
-(
-)
-override
-;
 private
 :
 /

@@ -517,11 +517,6 @@ aOutBadConstraint
 )
 ;
 nsresult
-FocusOnSelectedSource
-(
-)
-;
-nsresult
 Stop
 (
 )
