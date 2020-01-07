@@ -348,7 +348,7 @@ snapshot
 ;
 for
 (
-var
+let
 k
 in
 errorSnapshot
@@ -385,11 +385,8 @@ errorSnapshot
 [
 k
 ]
-[
-"
+.
 counts
-"
-]
 [
 i
 ]
