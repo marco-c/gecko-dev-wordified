@@ -6613,10 +6613,6 @@ stdout
 nsCString
 text
 ;
-if
-(
-NS_SUCCEEDED
-(
 xpc_exception
 -
 >
@@ -6625,9 +6621,9 @@ ToString
 cx
 text
 )
-)
-&
-&
+;
+if
+(
 !
 text
 .
@@ -6710,9 +6706,6 @@ nullptr
 consoleService
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsIScriptError
@@ -6773,8 +6766,6 @@ scriptError
 nsCString
 newMessage
 ;
-rv
-=
 xpc_exception
 -
 >
@@ -6784,14 +6775,6 @@ cx
 newMessage
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 /
 /
 try
@@ -6866,6 +6849,7 @@ sourceName
 )
 ;
 }
+nsresult
 rv
 =
 scriptError
@@ -6908,7 +6892,6 @@ scriptError
 =
 nullptr
 ;
-}
 }
 }
 if
