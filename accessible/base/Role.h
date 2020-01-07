@@ -2147,9 +2147,14 @@ It
 is
 used
 for
-xul
-:
-spinbuttons
+input
+[
+type
+=
+number
+]
+spin
+buttons
 .
 *
 /
