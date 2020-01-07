@@ -419,7 +419,9 @@ settingName
 {
 case
 "
-proxyConfig
+proxy
+.
+settings
 "
 :
 return
