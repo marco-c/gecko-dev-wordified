@@ -172,7 +172,6 @@ BuildNotFound
 CommandBase
     
 call
-cd
 check_call
 set_osmesa_env
 )
@@ -2182,6 +2181,9 @@ self
 .
 build_env
 (
+test_unit
+=
+True
 )
         
 env
@@ -2194,35 +2196,6 @@ RUST_BACKTRACE
 "
 1
 "
-        
-#
-Work
-around
-https
-:
-/
-/
-github
-.
-com
-/
-rust
--
-lang
-/
-cargo
-/
-issues
-/
-4790
-        
-del
-env
-[
-"
-RUSTDOCFLAGS
-"
-]
         
 if
 "
@@ -2338,6 +2311,18 @@ else
 "
 test
 "
+"
+-
+-
+manifest
+-
+path
+"
+self
+.
+servo_manifest
+(
+)
 ]
             
 for
@@ -2432,19 +2417,14 @@ nocapture
             
 err
 =
-call
+self
+.
+call_rustup_run
 (
 args
 env
 =
 env
-cwd
-=
-self
-.
-servo_crate
-(
-)
 )
             
 if
@@ -2552,7 +2532,7 @@ None
         
 self
 .
-set_use_stable_rust
+set_use_geckolib_toolchain
 (
 )
         
@@ -2617,6 +2597,7 @@ UTF
 args
 =
 (
+            
 [
 "
 cargo
@@ -2626,6 +2607,18 @@ test
 "
 "
 -
+-
+manifest
+-
+path
+"
+self
+.
+geckolib_manifest
+(
+)
+"
+-
 p
 "
 "
@@ -2633,7 +2626,7 @@ stylo_tests
 "
 ]
 +
-                
+            
 (
 [
 "
@@ -2649,33 +2642,20 @@ else
 ]
 )
 +
+            
 (
 test_name
 or
 [
 ]
 )
+        
 )
         
-with
-cd
-(
-path
-.
-join
-(
-"
-ports
-"
-"
-geckolib
-"
-)
-)
-:
-            
 return
-call
+self
+.
+call_rustup_run
 (
 args
 env

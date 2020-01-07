@@ -126,8 +126,6 @@ StringIO
 import
 sys
 import
-tarfile
-import
 zipfile
 import
 urllib2
@@ -1133,7 +1131,7 @@ None
 )
 :
     
-if
+assert
 src
 .
 endswith
@@ -1143,26 +1141,10 @@ endswith
 zip
 "
 )
-:
-        
+    
 zipfile
 .
 ZipFile
-(
-src
-)
-.
-extractall
-(
-dst
-)
-    
-else
-:
-        
-tarfile
-.
-open
 (
 src
 )
