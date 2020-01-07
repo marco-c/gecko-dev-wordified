@@ -6,14 +6,9 @@ usr
 bin
 /
 env
-python
-from
-__future__
+python3
 import
-absolute_import
-print_function
-import
-ConfigParser
+configparser
 import
 argparse
 import
@@ -296,7 +291,7 @@ filename
     
 config
 =
-ConfigParser
+configparser
 .
 ConfigParser
 (
