@@ -11057,6 +11057,7 @@ nsPoint
 *
 aOffset
 )
+const
 {
 if
 (

@@ -3639,6 +3639,7 @@ aOffset
 =
 nullptr
 )
+const
 ;
 /
 *
@@ -3745,6 +3746,7 @@ nsIFrame
 *
 aFrame
 )
+const
 {
 nsPoint
 result
