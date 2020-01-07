@@ -541,10 +541,6 @@ userId
 return
 ClientEnvironment
 .
-getEnvironment
-(
-)
-.
 userId
 ;
 }
