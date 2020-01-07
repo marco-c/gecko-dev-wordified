@@ -176,7 +176,7 @@ include
 "
 mozilla
 /
-ComputedStyle
+ServoComputedDataInlines
 .
 h
 "
@@ -186,15 +186,6 @@ include
 mozilla
 /
 ServoUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ServoBindings
 .
 h
 "
@@ -261,9 +252,6 @@ name_
 if
 (
 mozilla
-:
-:
-ServoStyleSet
 :
 :
 IsInServoTraversal
@@ -465,9 +453,6 @@ MOZ_ASSERT
 (
 !
 mozilla
-:
-:
-ServoStyleSet
 :
 :
 IsInServoTraversal

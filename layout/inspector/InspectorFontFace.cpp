@@ -185,6 +185,15 @@ include
 "
 mozilla
 /
+ServoBindings
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoFontFaceRule
 .
 h
