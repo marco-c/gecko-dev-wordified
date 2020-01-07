@@ -747,7 +747,10 @@ mar
 for
 build
 in
+sorted
+(
 builds
+)
 :
             
 extra
@@ -968,6 +971,14 @@ trust
 True
             
 '
+taskcluster
+-
+proxy
+'
+:
+True
+            
+'
 env
 '
 :
@@ -1072,6 +1083,39 @@ dependencies
 '
 :
 dependencies
+            
+'
+scopes
+'
+:
+[
+'
+secrets
+:
+get
+:
+project
+/
+releng
+/
+gecko
+/
+build
+/
+level
+-
+%
+s
+/
+datadog
+-
+api
+-
+key
+'
+%
+level
+]
             
 '
 attributes
