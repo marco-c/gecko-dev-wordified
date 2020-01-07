@@ -3905,7 +3905,7 @@ docShell
 ;
 }
 }
-onSwitchToFrame
+switchToFrame
 (
 request
 )
@@ -4016,7 +4016,7 @@ return
 }
 ;
 }
-onListFrames
+listFrames
 (
 request
 )
@@ -4041,7 +4041,7 @@ windows
 }
 ;
 }
-onListWorkers
+listWorkers
 (
 request
 )
@@ -4218,7 +4218,7 @@ form
 )
 ;
 }
-onLogInPage
+logInPage
 (
 request
 )
@@ -5928,7 +5928,7 @@ true
 Protocol
 Request
 Handlers
-onAttach
+attach
 (
 request
 )
@@ -5992,7 +5992,7 @@ traits
 }
 ;
 }
-onDetach
+detach
 (
 request
 )
@@ -6042,7 +6042,7 @@ front
 .
 *
 /
-onFocus
+focus
 (
 )
 {
@@ -6080,7 +6080,7 @@ tab
 .
 *
 /
-onReload
+reload
 (
 request
 )
@@ -6201,7 +6201,7 @@ TabActor
 .
 prototype
 .
-onReload
+reload
 '
 s
 delayed
@@ -6228,7 +6228,7 @@ new
 location
 *
 /
-onNavigateTo
+navigateTo
 (
 request
 )
@@ -6286,7 +6286,7 @@ TabActor
 .
 prototype
 .
-onNavigateTo
+navigateTo
 '
 s
 delayed
@@ -6309,7 +6309,7 @@ options
 .
 *
 /
-onReconfigure
+reconfigure
 (
 request
 )
@@ -6744,7 +6744,7 @@ reload
 {
 this
 .
-onReload
+reload
 (
 )
 ;
@@ -8962,7 +8962,7 @@ TabActor
 .
 prototype
 .
-onAttach
+attach
 "
 detach
 "
@@ -8971,7 +8971,7 @@ TabActor
 .
 prototype
 .
-onDetach
+detach
 "
 focus
 "
@@ -8980,7 +8980,7 @@ TabActor
 .
 prototype
 .
-onFocus
+focus
 "
 reload
 "
@@ -8989,7 +8989,7 @@ TabActor
 .
 prototype
 .
-onReload
+reload
 "
 navigateTo
 "
@@ -8998,7 +8998,7 @@ TabActor
 .
 prototype
 .
-onNavigateTo
+navigateTo
 "
 reconfigure
 "
@@ -9007,7 +9007,7 @@ TabActor
 .
 prototype
 .
-onReconfigure
+reconfigure
 "
 ensureCSSErrorReportingEnabled
 "
@@ -9025,7 +9025,7 @@ TabActor
 .
 prototype
 .
-onSwitchToFrame
+switchToFrame
 "
 listFrames
 "
@@ -9034,7 +9034,7 @@ TabActor
 .
 prototype
 .
-onListFrames
+listFrames
 "
 listWorkers
 "
@@ -9043,7 +9043,7 @@ TabActor
 .
 prototype
 .
-onListWorkers
+listWorkers
 "
 logInPage
 "
@@ -9052,7 +9052,7 @@ TabActor
 .
 prototype
 .
-onLogInPage
+logInPage
 }
 ;
 exports
