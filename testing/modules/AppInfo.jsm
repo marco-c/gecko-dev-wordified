@@ -431,6 +431,11 @@ processType
 origRuntime
 .
 processType
+uniqueProcessID
+:
+origRuntime
+.
+uniqueProcessID
 /
 /
 nsIWinAppHelper
