@@ -751,6 +751,12 @@ AutoGCRooter
 parser
 )
 ;
+#
+if
+defined
+(
+JS_BUILD_BINAST
+)
 /
 *
 Trace
@@ -784,6 +790,14 @@ AutoGCRooter
 parser
 )
 ;
+#
+endif
+/
+/
+defined
+(
+JS_BUILD_BINAST
+)
 class
 MOZ_STACK_CLASS
 AutoFrontendTraceLog
