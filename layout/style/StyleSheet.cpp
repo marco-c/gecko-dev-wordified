@@ -3185,10 +3185,6 @@ Rule
 aRule
 )
 {
-DidDirty
-(
-)
-;
 mDirtyFlags
 |
 =
@@ -3237,10 +3233,6 @@ Rule
 aRule
 )
 {
-DidDirty
-(
-)
-;
 mDirtyFlags
 |
 =
@@ -3289,10 +3281,6 @@ Rule
 aRule
 )
 {
-DidDirty
-(
-)
-;
 mDirtyFlags
 |
 =
@@ -3977,10 +3965,6 @@ mPrincipal
 &
 aSubjectPrincipal
 ;
-DidDirty
-(
-)
-;
 }
 bool
 StyleSheet
@@ -4244,10 +4228,6 @@ WillDirty
 PrependStyleSheetSilently
 (
 aSheet
-)
-;
-DidDirty
-(
 )
 ;
 }
