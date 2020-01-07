@@ -2668,7 +2668,7 @@ MOZ_DIAGNOSTIC_ASSERT
 cx
 -
 >
-compartment
+realm
 (
 )
 -
