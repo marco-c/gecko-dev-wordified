@@ -77,11 +77,9 @@ unfiledGuid
 Open
 the
 Library
-and
-select
-the
+on
 "
-UnfilledBookmarks
+UnfiledBookmarks
 "
 .
 let
