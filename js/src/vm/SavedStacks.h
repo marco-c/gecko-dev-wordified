@@ -2317,9 +2317,6 @@ insertFrames
 JSContext
 *
 cx
-FrameIter
-&
-iter
 MutableHandleSavedFrame
 frame
 JS
