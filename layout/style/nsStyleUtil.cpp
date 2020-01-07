@@ -1989,8 +1989,11 @@ nsStyleUtil
 :
 AppendBitmaskCSSValue
 (
-nsCSSPropertyID
-aProperty
+const
+nsCSSKTableEntry
+aTable
+[
+]
 int32_t
 aMaskedValue
 int32_t
@@ -2033,10 +2036,10 @@ AppendASCIItoUTF16
 nsCSSProps
 :
 :
-LookupPropertyValue
+ValueToKeyword
 (
-aProperty
 mask
+aTable
 )
 aResult
 )

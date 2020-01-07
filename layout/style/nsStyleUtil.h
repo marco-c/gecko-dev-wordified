@@ -191,6 +191,9 @@ struct
 gfxAlternateValue
 ;
 struct
+nsCSSKTableEntry
+;
+struct
 nsCSSValueList
 ;
 namespace
@@ -473,8 +476,11 @@ static
 void
 AppendBitmaskCSSValue
 (
-nsCSSPropertyID
-aProperty
+const
+nsCSSKTableEntry
+aTable
+[
+]
 int32_t
 aMaskedValue
 int32_t
