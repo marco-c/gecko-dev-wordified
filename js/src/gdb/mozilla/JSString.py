@@ -124,23 +124,23 @@ JSString_ptr_t
         
 self
 .
-ROPE_FLAGS
+ATOM_BIT
 =
 dummy
 [
 '
-ROPE_FLAGS
+ATOM_BIT
 '
 ]
         
 self
 .
-ATOM_BIT
+LINEAR_BIT
 =
 dummy
 [
 '
-ATOM_BIT
+LINEAR_BIT
 '
 ]
         
@@ -362,23 +362,17 @@ return
 is_rope
 =
 (
-(
 flags
 &
 self
 .
 stc
 .
-TYPE_FLAGS_MASK
+LINEAR_BIT
 )
 =
 =
-self
-.
-stc
-.
-ROPE_FLAGS
-)
+0
         
 if
 is_rope
