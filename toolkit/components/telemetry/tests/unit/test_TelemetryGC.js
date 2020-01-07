@@ -197,7 +197,7 @@ Assert
 .
 equal
 (
-20
+19
 Object
 .
 keys
@@ -359,7 +359,7 @@ i
 ;
 i
 <
-4
+5
 ;
 i
 +
@@ -394,10 +394,9 @@ that
 it
 was
 recorded
-but
 has
-only
-7
+all
+24
 fields
 .
 Assert
@@ -452,7 +451,7 @@ i
 ;
 i
 <
-5
+6
 ;
 i
 +
