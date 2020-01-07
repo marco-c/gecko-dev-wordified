@@ -242,6 +242,9 @@ class
 Layer
 ;
 class
+WebRenderLayerManager
+;
+class
 WebRenderScrollData
 ;
 /

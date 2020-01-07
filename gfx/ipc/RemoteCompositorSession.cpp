@@ -504,6 +504,13 @@ SetCompositorSession
 nullptr
 )
 ;
+mAPZ
+-
+>
+Destroy
+(
+)
+;
 }
 mCompositorBridgeChild
 -
