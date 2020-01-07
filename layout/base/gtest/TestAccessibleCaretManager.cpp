@@ -649,7 +649,7 @@ CaretMode
 )
 )
 ;
-MOCK_CONST_METHOD1
+MOCK_METHOD1
 (
 DispatchCaretStateChangedEvent
 void
