@@ -1904,7 +1904,6 @@ ServiceWorkerDescriptor
 GetController
 (
 )
-const
 ;
 void
 Control
