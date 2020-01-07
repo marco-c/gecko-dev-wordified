@@ -7282,7 +7282,7 @@ dest
 void
 mov
 (
-CodeOffset
+CodeLabel
 *
 label
 Register
@@ -7307,6 +7307,11 @@ encoding
 )
 ;
 label
+-
+>
+patchAt
+(
+)
 -
 >
 bind

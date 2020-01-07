@@ -8486,7 +8486,7 @@ public
 void
 writeCodePointer
 (
-CodeOffset
+CodeLabel
 *
 label
 )
@@ -10891,10 +10891,10 @@ Bind
 uint8_t
 *
 rawCode
-CodeOffset
+const
+CodeLabel
+&
 label
-CodeOffset
-target
 )
 ;
 void
