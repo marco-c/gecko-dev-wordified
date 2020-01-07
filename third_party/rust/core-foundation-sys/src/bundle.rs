@@ -161,7 +161,7 @@ type
 CFBundleRef
 =
 *
-const
+mut
 __CFBundle
 ;
 extern

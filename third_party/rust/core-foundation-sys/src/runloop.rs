@@ -169,7 +169,7 @@ type
 CFRunLoopRef
 =
 *
-const
+mut
 __CFRunLoop
 ;
 #
@@ -191,7 +191,7 @@ type
 CFRunLoopSourceRef
 =
 *
-const
+mut
 __CFRunLoopSource
 ;
 #
@@ -213,7 +213,7 @@ type
 CFRunLoopObserverRef
 =
 *
-const
+mut
 __CFRunLoopObserver
 ;
 /
@@ -921,7 +921,7 @@ type
 CFRunLoopTimerRef
 =
 *
-const
+mut
 __CFRunLoopTimer
 ;
 extern

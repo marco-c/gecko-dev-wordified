@@ -192,10 +192,7 @@ core_foundation
 url
 :
 :
-{
 CFURL
-CFURLRef
-}
 ;
 use
 core_graphics
@@ -1033,7 +1030,6 @@ instance_of
 :
 :
 <
-CFNumberRef
 CFNumber
 >
 (
@@ -1356,12 +1352,14 @@ as_CFTypeRef
 }
 impl
 TCFType
-<
-CTFontDescriptorRef
->
 for
 CTFontDescriptor
 {
+type
+Ref
+=
+CTFontDescriptorRef
+;
 #
 [
 inline
@@ -1562,7 +1560,6 @@ instance_of
 :
 :
 <
-CFStringRef
 CFString
 >
 (
@@ -1626,7 +1623,7 @@ self
 .
 get_string_attribute
 (
-kCTFontDisplayNameAttribute
+kCTFontFamilyNameAttribute
 )
 ;
 value
@@ -1635,14 +1632,13 @@ expect
 (
 "
 A
-font2
+font
 must
 have
 a
 non
 -
 null
-font
 family
 name
 .
@@ -1838,7 +1834,6 @@ instance_of
 :
 :
 <
-CFURLRef
 CFURL
 >
 (
