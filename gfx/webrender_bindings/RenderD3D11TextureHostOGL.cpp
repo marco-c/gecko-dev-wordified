@@ -1648,7 +1648,7 @@ RenderDXGIYCbCrTextureHostOGL
 (
 )
 {
-MOZ_COUNT_CTOR_INHERITED
+MOZ_COUNT_DTOR_INHERITED
 (
 RenderDXGIYCbCrTextureHostOGL
 RenderTextureHostOGL
