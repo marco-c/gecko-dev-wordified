@@ -194,7 +194,7 @@ Gpu
 <
 GeckoProcessType_GPU
 )
-AllChildren
+AllChilds
 =
 0xFFFFFFFF
 -
@@ -203,7 +203,7 @@ AllChildren
 /
 All
 the
-child
+children
 processes
 (
 i
