@@ -2210,6 +2210,12 @@ num_args
 return
 false
 ;
+XPTParamDescriptor
+*
+params
+=
+nullptr
+;
 if
 (
 md
@@ -2231,9 +2237,6 @@ sizeof
 XPTParamDescriptor
 )
 ;
-md
--
->
 params
 =
 static_cast
@@ -2252,9 +2255,6 @@ n
 if
 (
 !
-md
--
->
 params
 )
 return
@@ -2287,9 +2287,6 @@ DoParamDescriptor
 arena
 cursor
 &
-md
--
->
 params
 [
 i
@@ -2301,6 +2298,13 @@ return
 false
 ;
 }
+md
+-
+>
+params
+=
+params
+;
 /
 /
 |
