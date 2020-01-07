@@ -359,15 +359,6 @@ mTotalPages
 -
 1
 )
-mSelectionHeight
-(
--
-1
-)
-mYSelOffset
-(
-0
-)
 mCalledBeginPage
 (
 false
