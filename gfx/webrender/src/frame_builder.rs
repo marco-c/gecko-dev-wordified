@@ -74,6 +74,7 @@ api
 ClipAndScrollInfo
 ClipId
 ColorF
+ColorU
 PropertyBinding
 }
 ;
@@ -1284,7 +1285,7 @@ push
 ClipSource
 :
 :
-RoundedRectangle
+new_rounded_rect
 (
 region
 .
@@ -8020,6 +8021,18 @@ new
 offset
 :
 run_offset
+shadow_color
+:
+ColorU
+:
+:
+new
+(
+0
+0
+0
+0
+)
 }
 ;
 /
@@ -8256,9 +8269,7 @@ clone
 ;
 text_prim
 .
-font
-.
-color
+shadow_color
 =
 color
 .

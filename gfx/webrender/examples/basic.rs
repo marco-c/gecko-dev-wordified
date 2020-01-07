@@ -1618,7 +1618,7 @@ load_file
 /
 wrench
 /
-reftest
+reftests
 /
 text
 /
