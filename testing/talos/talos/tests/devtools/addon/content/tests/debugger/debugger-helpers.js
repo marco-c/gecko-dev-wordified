@@ -70,15 +70,8 @@ reloadPageAndLog
 require
 (
 "
-chrome
-:
-/
-/
-damp
-/
-content
-/
-tests
+.
+.
 /
 head
 "
