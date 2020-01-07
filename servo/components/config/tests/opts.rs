@@ -56,6 +56,10 @@ MPL
 .
 *
 /
+extern
+crate
+servo_config
+;
 use
 servo_config
 :

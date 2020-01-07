@@ -157,14 +157,6 @@ common
 remutex
 .
 rs
-#
-!
-[
-cfg
-(
-test
-)
-]
 extern
 crate
 servo_remutex

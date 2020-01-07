@@ -1258,6 +1258,7 @@ be
 /
 /
 /
+rust
 ignore
 /
 /

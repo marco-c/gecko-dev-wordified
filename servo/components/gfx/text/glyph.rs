@@ -2673,7 +2673,7 @@ detail_store
 ~
 ~
 ~
-ignore
+ascii
 /
 /
 /

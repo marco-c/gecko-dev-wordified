@@ -4875,6 +4875,10 @@ like
 /
 /
 /
+html
+/
+/
+/
 <
 div
 >
@@ -4926,6 +4930,9 @@ span
 /
 div
 >
+/
+/
+/
 fn
 take_applicable_absolute_descendants
 (
@@ -6159,6 +6166,10 @@ following
 /
 /
 /
+html
+/
+/
+/
 <
 div
 >
@@ -6239,6 +6250,9 @@ span
 /
 div
 >
+/
+/
+/
 /
 /
 /
@@ -10647,6 +10661,10 @@ like
 /
 /
 /
+html
+/
+/
+/
 <
 div
 >
@@ -10698,6 +10716,9 @@ span
 /
 div
 >
+/
+/
+/
 fn
 take_applicable_absolute_descendants
 (

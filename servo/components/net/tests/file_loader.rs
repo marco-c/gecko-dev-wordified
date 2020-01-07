@@ -105,6 +105,8 @@ path
 push
 (
 "
+tests
+/
 test
 .
 jpeg
