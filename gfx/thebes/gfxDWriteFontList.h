@@ -220,6 +220,13 @@ need
 .
 #
 if
+!
+defined
+(
+__MINGW32__
+)
+&
+&
 WINVER
 <
 0x0A00
