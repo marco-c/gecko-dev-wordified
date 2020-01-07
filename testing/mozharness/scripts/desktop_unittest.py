@@ -7495,10 +7495,6 @@ get_timeout_for_category
 suite_category
 )
                 
-summary
-=
-None
-                
 for
 per_test_args
 in
@@ -7939,17 +7935,16 @@ success_codes
                     
 tbpl_status
 log_level
-summary
 =
 parser
 .
 evaluate_parser
 (
 return_code
-                                                                             
+                                                                    
 success_codes
-                                                                             
-summary
+=
+success_codes
 )
                     
 parser
