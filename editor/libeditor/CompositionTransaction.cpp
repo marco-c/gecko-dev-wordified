@@ -1511,7 +1511,7 @@ selectionOfIME
 selCon
 -
 >
-GetDOMSelection
+GetSelection
 (
 kIMESelections
 [
@@ -2033,7 +2033,7 @@ selectionOfIME
 selCon
 -
 >
-GetDOMSelection
+GetSelection
 (
 ToRawSelectionType
 (

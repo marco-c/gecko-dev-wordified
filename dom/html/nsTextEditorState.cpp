@@ -1554,11 +1554,11 @@ aOutEnable
 override
 ;
 NS_IMETHOD
-GetSelection
+GetSelectionFromScript
 (
 RawSelectionType
 aRawSelectionType
-nsISelection
+Selection
 *
 *
 aSelection
@@ -1567,7 +1567,7 @@ override
 ;
 Selection
 *
-GetDOMSelection
+GetSelection
 (
 RawSelectionType
 aRawSelectionType
@@ -2134,11 +2134,11 @@ NS_IMETHODIMP
 nsTextInputSelectionImpl
 :
 :
-GetSelection
+GetSelectionFromScript
 (
 RawSelectionType
 aRawSelectionType
-nsISelection
+Selection
 *
 *
 aSelection
@@ -2207,7 +2207,7 @@ Selection
 nsTextInputSelectionImpl
 :
 :
-GetDOMSelection
+GetSelection
 (
 RawSelectionType
 aRawSelectionType

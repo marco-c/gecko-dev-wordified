@@ -497,11 +497,14 @@ UpdatePreferenceStyles
 override
 ;
 NS_IMETHOD
-GetSelection
+GetSelectionFromScript
 (
 RawSelectionType
 aRawSelectionType
-nsISelection
+dom
+:
+:
+Selection
 *
 *
 aSelection
@@ -513,7 +516,7 @@ dom
 :
 Selection
 *
-GetDOMSelection
+GetSelection
 (
 RawSelectionType
 aRawSelectionType

@@ -3147,7 +3147,7 @@ selection
 selcon
 -
 >
-GetDOMSelection
+GetSelection
 (
 nsISelectionController
 :
