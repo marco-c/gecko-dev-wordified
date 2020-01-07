@@ -182,7 +182,7 @@ data
 /
 test_update
 .
-rdf
+json
 "
 targetApplications
 :

@@ -182,7 +182,7 @@ data
 /
 test_bug655254
 .
-rdf
+json
 "
 testserver
 )
@@ -320,7 +320,7 @@ data
 /
 test_bug655254
 .
-rdf
+json
 "
 targetApplications
 :

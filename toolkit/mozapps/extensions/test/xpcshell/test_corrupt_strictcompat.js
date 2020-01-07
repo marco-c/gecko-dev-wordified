@@ -123,7 +123,7 @@ data
 /
 test_corrupt
 .
-rdf
+json
 "
 testserver
 )
@@ -335,7 +335,7 @@ data
 /
 test_corrupt
 .
-rdf
+json
 "
 targetApplications
 :
@@ -421,7 +421,7 @@ data
 /
 test_corrupt
 .
-rdf
+json
 "
 targetApplications
 :

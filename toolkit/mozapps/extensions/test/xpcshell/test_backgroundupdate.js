@@ -143,7 +143,7 @@ data
 /
 test_backgroundupdate
 .
-rdf
+json
 "
 testserver
 )
@@ -413,7 +413,7 @@ data
 /
 test_backgroundupdate
 .
-rdf
+json
 "
 targetApplications
 :
@@ -491,7 +491,7 @@ data
 /
 test_backgroundupdate
 .
-rdf
+json
 "
 targetApplications
 :
@@ -657,7 +657,7 @@ data
 /
 test_backgroundupdate
 .
-rdf
+json
 "
 )
 ;

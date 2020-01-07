@@ -113,7 +113,7 @@ gPort
 /
 update
 .
-rdf
+json
 ?
 itemID
 =
@@ -362,7 +362,7 @@ registerPathHandler
 /
 update
 .
-rdf
+json
 "
 function
 (

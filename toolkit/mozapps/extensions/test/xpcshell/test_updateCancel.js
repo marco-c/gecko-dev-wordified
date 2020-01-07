@@ -397,7 +397,7 @@ data
 /
 test_update
 .
-rdf
+json
 "
 dataHandler
 )
@@ -468,7 +468,7 @@ data
 /
 test_update
 .
-rdf
+json
 "
 targetApplications
 :
@@ -656,7 +656,7 @@ append
 "
 test_update
 .
-rdf
+json
 "
 )
 ;
@@ -877,7 +877,7 @@ append
 "
 test_update
 .
-rdf
+json
 "
 )
 ;

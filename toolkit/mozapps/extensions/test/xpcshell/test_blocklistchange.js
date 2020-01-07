@@ -352,7 +352,7 @@ blocklistchange
 /
 addon_update1
 .
-rdf
+json
 "
 testserver
 )
@@ -367,7 +367,7 @@ blocklistchange
 /
 addon_update2
 .
-rdf
+json
 "
 testserver
 )
@@ -382,7 +382,7 @@ blocklistchange
 /
 addon_update3
 .
-rdf
+json
 "
 testserver
 )
@@ -529,7 +529,7 @@ blocklistchange
 /
 addon_update1
 .
-rdf
+json
 "
 targetApplications
 :
@@ -609,7 +609,7 @@ blocklistchange
 /
 addon_update2
 .
-rdf
+json
 "
 targetApplications
 :
@@ -689,7 +689,7 @@ blocklistchange
 /
 addon_update3
 .
-rdf
+json
 "
 targetApplications
 :
@@ -769,7 +769,7 @@ blocklistchange
 /
 addon_update1
 .
-rdf
+json
 "
 targetApplications
 :
@@ -849,7 +849,7 @@ blocklistchange
 /
 addon_update2
 .
-rdf
+json
 "
 targetApplications
 :
@@ -929,7 +929,7 @@ blocklistchange
 /
 addon_update3
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1009,7 +1009,7 @@ blocklistchange
 /
 addon_update1
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1089,7 +1089,7 @@ blocklistchange
 /
 addon_update2
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1169,7 +1169,7 @@ blocklistchange
 /
 addon_update3
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1249,7 +1249,7 @@ blocklistchange
 /
 addon_update1
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1329,7 +1329,7 @@ blocklistchange
 /
 addon_update2
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1409,7 +1409,7 @@ blocklistchange
 /
 addon_update3
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1489,7 +1489,7 @@ blocklistchange
 /
 addon_update1
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1569,7 +1569,7 @@ blocklistchange
 /
 addon_update2
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1649,7 +1649,7 @@ blocklistchange
 /
 addon_update3
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1731,7 +1731,7 @@ blocklistchange
 /
 addon_update1
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1813,7 +1813,7 @@ blocklistchange
 /
 addon_update2
 .
-rdf
+json
 "
 targetApplications
 :
@@ -1895,7 +1895,7 @@ blocklistchange
 /
 addon_update3
 .
-rdf
+json
 "
 targetApplications
 :
