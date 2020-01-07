@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsIGlobalObject
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

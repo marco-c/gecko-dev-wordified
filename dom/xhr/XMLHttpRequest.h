@@ -151,13 +151,6 @@ XMLHttpRequestBinding
 .
 h
 "
-#
-include
-"
-nsIXMLHttpRequest
-.
-h
-"
 class
 nsIJSID
 ;

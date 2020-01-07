@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsIXMLHttpRequest
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
