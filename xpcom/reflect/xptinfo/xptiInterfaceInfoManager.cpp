@@ -707,7 +707,7 @@ if
 iface
 -
 >
-interface_descriptor
+mInterfaceDescriptor
 )
 return
 ;
@@ -763,7 +763,7 @@ if
 iface
 -
 >
-interface_descriptor
+mInterfaceDescriptor
 -
 >
 num_methods
@@ -775,7 +775,7 @@ num_methods
 iface
 -
 >
-interface_descriptor
+mInterfaceDescriptor
 -
 >
 IsBuiltinClass
@@ -817,7 +817,7 @@ n
 iface
 -
 >
-name
+mName
 )
 ;
 return
@@ -844,7 +844,7 @@ Get
 iface
 -
 >
-iid
+mIID
 )
 ;
 if
@@ -887,15 +887,15 @@ Create
 iface
 -
 >
-name
+mName
 iface
 -
 >
-iid
+mIID
 iface
 -
 >
-interface_descriptor
+mInterfaceDescriptor
 typelib
 )
 ;
@@ -928,7 +928,7 @@ SetScriptableFlag
 iface
 -
 >
-interface_descriptor
+mInterfaceDescriptor
 -
 >
 IsScriptable
@@ -944,7 +944,7 @@ SetBuiltinClassFlag
 iface
 -
 >
-interface_descriptor
+mInterfaceDescriptor
 -
 >
 IsBuiltinClass
@@ -960,7 +960,7 @@ SetMainProcessScriptableOnlyFlag
 iface
 -
 >
-interface_descriptor
+mInterfaceDescriptor
 -
 >
 IsMainProcessScriptableOnly
