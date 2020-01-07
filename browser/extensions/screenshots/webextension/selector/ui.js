@@ -1749,11 +1749,11 @@ marginLeft
 {
 bodyBoundingRect
 .
-right
+left
 -
 docBoundingRect
 .
-right
+left
 }
 px
 ;
@@ -1769,11 +1769,11 @@ marginTop
 {
 bodyBoundingRect
 .
-bottom
+top
 -
 docBoundingRect
 .
-bottom
+top
 }
 px
 ;
