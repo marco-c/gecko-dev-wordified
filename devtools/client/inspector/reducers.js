@@ -190,7 +190,7 @@ sidebar
 ;
 exports
 .
-flexbox
+flexboxes
 =
 require
 (
@@ -205,7 +205,7 @@ flexbox
 /
 reducers
 /
-flexbox
+flexboxes
 "
 )
 ;
