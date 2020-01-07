@@ -1031,6 +1031,11 @@ coords
 nsGkAtoms
 :
 :
+crossorigin
+&
+nsGkAtoms
+:
+:
 datetime
 &
 nsGkAtoms
@@ -1107,6 +1112,11 @@ nsGkAtoms
 :
 :
 id
+&
+nsGkAtoms
+:
+:
+integrity
 &
 nsGkAtoms
 :
