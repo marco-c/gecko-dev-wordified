@@ -497,7 +497,6 @@ clearCache
 (
 )
 ;
-await
 engine
 .
 _tracker

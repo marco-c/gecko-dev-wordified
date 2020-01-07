@@ -220,6 +220,31 @@ h
 )
 }
 ;
+function
+deferredStop
+(
+server
+)
+{
+return
+new
+Promise
+(
+resolve
+=
+>
+{
+server
+.
+stop
+(
+resolve
+)
+;
+}
+)
+;
+}
 add_task
 (
 async
@@ -380,7 +405,7 @@ msg
 )
 ;
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -554,7 +579,7 @@ foo
 )
 ;
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -708,7 +733,7 @@ message
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -1117,7 +1142,7 @@ yes
 )
 ;
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -1777,7 +1802,7 @@ errno
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -2434,7 +2459,7 @@ errno
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -2685,7 +2710,7 @@ errno
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -2956,7 +2981,7 @@ errno
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -3116,7 +3141,7 @@ true
 )
 ;
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -3373,7 +3398,7 @@ errno
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -3963,7 +3988,7 @@ errno
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -4301,7 +4326,7 @@ errno
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -4752,7 +4777,7 @@ code
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -5139,7 +5164,7 @@ code
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -5470,7 +5495,7 @@ code
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -5744,7 +5769,7 @@ code
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -5938,7 +5963,7 @@ code
 ;
 }
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -6120,7 +6145,7 @@ errno
 )
 ;
 await
-promiseStopServer
+deferredStop
 (
 server
 )
@@ -6470,7 +6495,7 @@ attempts
 )
 ;
 await
-promiseStopServer
+deferredStop
 (
 server
 )

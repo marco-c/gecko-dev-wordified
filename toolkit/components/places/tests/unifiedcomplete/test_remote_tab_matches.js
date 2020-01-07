@@ -158,11 +158,6 @@ name
 "
 tabs
 "
-startTracking
-(
-)
-{
-}
 getAllClients
 (
 )

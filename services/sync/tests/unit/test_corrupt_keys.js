@@ -412,7 +412,6 @@ register
 HistoryEngine
 )
 ;
-await
 Service
 .
 engineManager
