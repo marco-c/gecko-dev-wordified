@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -366,7 +359,7 @@ class
 Event
 :
 public
-nsIDOMEvent
+nsISupports
 public
 nsWrapperCache
 {
@@ -717,11 +710,6 @@ return
 nullptr
 ;
 }
-/
-/
-nsIDOMEvent
-Interface
-NS_DECL_NSIDOMEVENT
 void
 InitEvent
 (

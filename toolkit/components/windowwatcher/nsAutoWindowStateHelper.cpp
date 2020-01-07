@@ -142,13 +142,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
