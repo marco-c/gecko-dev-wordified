@@ -149,10 +149,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -239,9 +235,9 @@ NS_NewSVGUseFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -251,7 +247,7 @@ aPresShell
 )
 nsSVGUseFrame
 (
-aStyle
+aContext
 )
 ;
 }

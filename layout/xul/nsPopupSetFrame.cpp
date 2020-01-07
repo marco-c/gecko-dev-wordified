@@ -152,9 +152,7 @@ h
 #
 include
 "
-mozilla
-/
-ComputedStyle
+nsStyleContext
 .
 h
 "
@@ -193,9 +191,9 @@ NS_NewPopupSetFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -205,7 +203,7 @@ aPresShell
 )
 nsPopupSetFrame
 (
-aStyle
+aContext
 )
 ;
 }

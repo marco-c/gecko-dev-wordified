@@ -125,7 +125,7 @@ struct
 data
 provided
 by
-ComputedStyle
+nsStyleContext
 *
 /
 #
@@ -161,7 +161,7 @@ XXX
 fold
 this
 into
-ComputedStyle
+nsStyleContext
 and
 group
 by

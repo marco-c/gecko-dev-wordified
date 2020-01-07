@@ -218,7 +218,7 @@ aContext
 aFromFrame
 -
 >
-Style
+StyleContext
 (
 )
 aImgContainer
@@ -242,9 +242,9 @@ SVGImageContext
 >
 &
 aContext
-ComputedStyle
+nsStyleContext
 *
-aFromComputedStyle
+aFromStyleContext
 imgIContainer
 *
 aImgContainer
@@ -255,7 +255,7 @@ nsStyleSVG
 *
 style
 =
-aFromComputedStyle
+aFromStyleContext
 -
 >
 StyleSVG

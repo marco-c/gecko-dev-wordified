@@ -1047,7 +1047,7 @@ needed
 *
 Note
 that
-ComputedStyle
+nsStyleContext
 :
 :
 CalcStyleDifference

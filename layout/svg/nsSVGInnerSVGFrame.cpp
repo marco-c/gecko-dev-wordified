@@ -134,9 +134,9 @@ NS_NewSVGInnerSVGFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -146,7 +146,7 @@ aPresShell
 )
 nsSVGInnerSVGFrame
 (
-aStyle
+aContext
 )
 ;
 }

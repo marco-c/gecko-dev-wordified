@@ -128,9 +128,7 @@ h
 #
 include
 "
-mozilla
-/
-ComputedStyle
+nsStyleContext
 .
 h
 "
@@ -331,9 +329,9 @@ mElement
 ;
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
-mComputedStyle
+mStyleContext
 ;
 }
 ;

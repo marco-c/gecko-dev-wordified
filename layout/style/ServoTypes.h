@@ -986,7 +986,7 @@ mPtr
 }
 ;
 class
-ComputedStyle
+ServoStyleContext
 ;
 struct
 ServoVisitedStyle
@@ -1023,7 +1023,7 @@ a
 /
 regular
 pointer
-ComputedStyle
+ServoStyleContext
 *
 mPtr
 ;
@@ -1311,7 +1311,7 @@ class
 mozilla
 :
 :
-ComputedStyle
+ServoStyleContext
 ;
 public
 :

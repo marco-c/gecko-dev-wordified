@@ -180,9 +180,9 @@ protected
 :
 nsSVGViewportFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 nsIFrame
 :
 :
@@ -192,7 +192,7 @@ aID
 :
 nsSVGDisplayContainerFrame
 (
-aStyle
+aContext
 aID
 )
 {

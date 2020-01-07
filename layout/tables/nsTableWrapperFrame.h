@@ -234,9 +234,9 @@ NS_NewTableWrapperFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 /
@@ -670,9 +670,9 @@ override
 #
 endif
 virtual
-ComputedStyle
+nsStyleContext
 *
-GetParentComputedStyle
+GetParentStyleContext
 (
 nsIFrame
 *
@@ -1122,9 +1122,9 @@ protected
 explicit
 nsTableWrapperFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 ClassID
 aID
 =

@@ -233,9 +233,9 @@ NS_NewPlaceholderFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 nsFrameState
 aTypeBits
 )
@@ -247,7 +247,7 @@ aPresShell
 )
 nsPlaceholderFrame
 (
-aStyle
+aContext
 aTypeBits
 )
 ;
@@ -1354,12 +1354,12 @@ CanContinueTextRun
 )
 ;
 }
-ComputedStyle
+nsStyleContext
 *
 nsPlaceholderFrame
 :
 :
-GetParentComputedStyleForOutOfFlow
+GetParentStyleContextForOutOfFlow
 (
 nsIFrame
 *
@@ -1406,7 +1406,7 @@ if
 parentContent
 )
 {
-ComputedStyle
+nsStyleContext
 *
 sc
 =
@@ -1447,7 +1447,7 @@ aProviderFrame
 )
 ;
 }
-ComputedStyle
+nsStyleContext
 *
 nsPlaceholderFrame
 :
@@ -1524,7 +1524,7 @@ aProviderFrame
 )
 -
 >
-Style
+StyleContext
 (
 )
 :

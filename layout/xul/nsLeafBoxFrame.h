@@ -163,9 +163,9 @@ NS_NewLeafBoxFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 virtual
@@ -508,9 +508,9 @@ override
 explicit
 nsLeafBoxFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 ClassID
 aID
 =
@@ -519,7 +519,7 @@ kClassID
 :
 nsLeafFrame
 (
-aStyle
+aContext
 aID
 )
 {

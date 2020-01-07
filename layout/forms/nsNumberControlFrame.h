@@ -232,9 +232,9 @@ NS_NewNumberControlFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 typedef
@@ -281,9 +281,9 @@ WidgetGUIEvent
 explicit
 nsNumberControlFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 public

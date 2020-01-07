@@ -61882,7 +61882,7 @@ Enables
 some
 assertions
 in
-ComputedStyle
+nsStyleContext
 that
 are
 too

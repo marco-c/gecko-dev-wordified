@@ -150,10 +150,6 @@ StyleSetHandleInlines
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsTreeStyleCache
 :
 :
@@ -291,12 +287,12 @@ style
 context
 cache
 impl
-ComputedStyle
+nsStyleContext
 *
 nsTreeStyleCache
 :
 :
-GetComputedStyle
+GetStyleContext
 (
 nsPresContext
 *
@@ -304,9 +300,9 @@ aPresContext
 nsIContent
 *
 aContent
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 nsICSSAnonBoxPseudo
 *
 aPseudoElement
@@ -543,7 +539,7 @@ for
 this
 state
 .
-ComputedStyle
+nsStyleContext
 *
 result
 =
@@ -586,7 +582,7 @@ style
 .
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 newResult
 =
@@ -607,7 +603,7 @@ AsElement
 (
 )
 aPseudoElement
-aStyle
+aContext
 aInputWord
 )
 ;
@@ -637,7 +633,7 @@ mCache
 mCache
 =
 new
-ComputedStyleCache
+StyleContextCache
 (
 )
 ;

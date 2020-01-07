@@ -367,9 +367,9 @@ NS_NewMathMLmactionFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -379,7 +379,7 @@ aPresShell
 )
 nsMathMLmactionFrame
 (
-aStyle
+aContext
 )
 ;
 }

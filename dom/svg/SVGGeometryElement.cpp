@@ -847,14 +847,14 @@ StyleFillRule
 Nonzero
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 styleContext
 =
 nsComputedDOMStyle
 :
 :
-GetComputedStyleNoFlush
+GetStyleContextNoFlush
 (
 this
 nullptr

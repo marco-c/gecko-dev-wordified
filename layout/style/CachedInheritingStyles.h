@@ -148,7 +148,7 @@ namespace
 mozilla
 {
 class
-ComputedStyle
+ServoStyleContext
 ;
 /
 /
@@ -246,12 +246,12 @@ public
 void
 Insert
 (
-ComputedStyle
+ServoStyleContext
 *
 aStyle
 )
 ;
-ComputedStyle
+ServoStyleContext
 *
 Lookup
 (
@@ -300,7 +300,7 @@ IsEmpty
 {
 RefPtr
 <
-ComputedStyle
+ServoStyleContext
 >
 ref
 =
@@ -346,7 +346,7 @@ AutoTArray
 <
 RefPtr
 <
-ComputedStyle
+ServoStyleContext
 >
 4
 >
@@ -377,7 +377,7 @@ mBits
 )
 ;
 }
-ComputedStyle
+ServoStyleContext
 *
 AsDirect
 (
@@ -395,7 +395,7 @@ IsIndirect
 return
 reinterpret_cast
 <
-ComputedStyle
+ServoStyleContext
 *
 >
 (

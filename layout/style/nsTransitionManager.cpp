@@ -168,9 +168,7 @@ h
 #
 include
 "
-mozilla
-/
-ComputedStyle
+nsStyleContext
 .
 h
 "
@@ -2629,7 +2627,7 @@ ExtractNonDiscreteComputedValue
 nsCSSPropertyID
 aProperty
 const
-ComputedStyle
+ServoStyleContext
 *
 aComputedStyle
 AnimationValue
@@ -2692,11 +2690,11 @@ aElement
 CSSPseudoElementType
 aPseudoType
 const
-ComputedStyle
+ServoStyleContext
 *
 aOldStyle
 const
-ComputedStyle
+ServoStyleContext
 *
 aNewStyle
 )

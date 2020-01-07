@@ -972,9 +972,9 @@ NS_NewHTMLScrollFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 bool
 aIsRoot
 )
@@ -986,7 +986,7 @@ aPresShell
 )
 nsHTMLScrollFrame
 (
-aStyle
+aContext
 aIsRoot
 )
 ;
@@ -1000,9 +1000,9 @@ nsHTMLScrollFrame
 :
 nsHTMLScrollFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 nsIFrame
 :
 :
@@ -1014,7 +1014,7 @@ aIsRoot
 :
 nsContainerFrame
 (
-aStyle
+aContext
 aID
 )
 mHelper
@@ -8420,9 +8420,9 @@ NS_NewXULScrollFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 bool
 aIsRoot
 bool
@@ -8436,7 +8436,7 @@ aPresShell
 )
 nsXULScrollFrame
 (
-aStyle
+aContext
 aIsRoot
 aClipAllDescendants
 )
@@ -8451,9 +8451,9 @@ nsXULScrollFrame
 :
 nsXULScrollFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 bool
 aIsRoot
 bool
@@ -8462,7 +8462,7 @@ aClipAllDescendants
 :
 nsBoxFrame
 (
-aStyle
+aContext
 kClassID
 aIsRoot
 )

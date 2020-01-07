@@ -339,7 +339,7 @@ nsresult
 RestyleManager
 :
 :
-ReparentComputedStyle
+ReparentStyleContext
 (
 nsIFrame
 *
@@ -348,7 +348,7 @@ aFrame
 {
 MOZ_STYLO_FORWARD
 (
-ReparentComputedStyle
+ReparentStyleContext
 (
 aFrame
 )

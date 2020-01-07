@@ -630,7 +630,7 @@ heap
 /
 /
 param
-aBaseComputedStyle
+aBaseStyleContext
 An
 optional
 style
@@ -658,12 +658,9 @@ nsISMILAttr
 >
 CreateSMILAttr
 (
-mozilla
-:
-:
-ComputedStyle
+nsStyleContext
 *
-aBaseComputedStyle
+aBaseStyleContext
 )
 ;
 /

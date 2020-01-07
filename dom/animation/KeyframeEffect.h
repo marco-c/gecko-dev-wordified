@@ -387,7 +387,7 @@ NotifySpecifiedTimingUpdated
 This
 method
 calls
-GetTargetComputedStyle
+GetTargetStyleContext
 which
 is
 not
@@ -421,7 +421,7 @@ we
 should
 pass
 the
-ComputedStyle
+nsStyleContext
 into
 this
 method
@@ -439,7 +439,7 @@ than
 calling
 /
 /
-GetComputedStyle
+GetStyleContext
 .
 void
 SetTarget

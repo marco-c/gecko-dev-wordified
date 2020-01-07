@@ -155,12 +155,12 @@ h
 class
 nsIFrame
 ;
+class
+nsStyleContext
+;
 namespace
 mozilla
 {
-class
-ComputedStyle
-;
 /
 /
 SVG
@@ -505,9 +505,9 @@ SVGImageContext
 >
 &
 aContext
-ComputedStyle
+nsStyleContext
 *
-aFromComputedStyle
+aFromStyleContext
 imgIContainer
 *
 aImgContainer

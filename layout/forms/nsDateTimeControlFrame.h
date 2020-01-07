@@ -270,9 +270,9 @@ DateTimeValue
 explicit
 nsDateTimeControlFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 public
@@ -285,9 +285,9 @@ NS_NewDateTimeControlFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 void

@@ -137,6 +137,9 @@ h
 class
 nsContainerFrame
 ;
+class
+nsStyleContext
+;
 namespace
 mozilla
 {
@@ -185,9 +188,9 @@ NS_DECL_QUERYFRAME
 explicit
 DetailsFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 virtual

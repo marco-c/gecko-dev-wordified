@@ -319,9 +319,9 @@ NS_NewSimplePageSequenceFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -331,7 +331,7 @@ aPresShell
 )
 nsSimplePageSequenceFrame
 (
-aStyle
+aContext
 )
 ;
 }
@@ -344,14 +344,14 @@ nsSimplePageSequenceFrame
 :
 nsSimplePageSequenceFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 :
 nsContainerFrame
 (
-aStyle
+aContext
 kClassID
 )
 mTotalPages
@@ -425,7 +425,7 @@ PresContext
 GetDefaultFont
 (
 kGenericFont_serif
-aStyle
+aContext
 -
 >
 StyleFont

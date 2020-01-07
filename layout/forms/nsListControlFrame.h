@@ -289,9 +289,9 @@ NS_NewListControlFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 NS_DECL_QUERYFRAME
@@ -1804,9 +1804,9 @@ aAllowScrolling
 explicit
 nsListControlFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 virtual

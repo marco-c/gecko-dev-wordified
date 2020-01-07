@@ -23939,12 +23939,9 @@ bool
 aAllowWillPaintBorderOptimization
 =
 true
-mozilla
-:
-:
-ComputedStyle
+nsStyleContext
 *
-aComputedStyle
+aStyleContext
 =
 nullptr
 const

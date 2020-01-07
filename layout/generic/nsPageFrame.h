@@ -183,9 +183,9 @@ NS_NewPageFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 virtual
@@ -385,9 +385,9 @@ protected
 explicit
 nsPageFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 virtual
@@ -528,9 +528,9 @@ nsPageBreakFrame
 explicit
 nsPageBreakFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 ~
@@ -601,9 +601,9 @@ NS_NewPageBreakFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 }

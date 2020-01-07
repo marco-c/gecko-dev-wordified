@@ -18750,7 +18750,7 @@ UsedAlignSelf
 alignCB
 -
 >
-Style
+StyleContext
 (
 )
 )
@@ -18763,7 +18763,7 @@ UsedJustifySelf
 alignCB
 -
 >
-Style
+StyleContext
 (
 )
 )
@@ -18882,7 +18882,7 @@ Legend
 mFrame
 -
 >
-Style
+StyleContext
 (
 )
 -
@@ -21667,9 +21667,9 @@ inline
 nscoord
 ComputeLineHeight
 (
-ComputedStyle
+nsStyleContext
 *
-aComputedStyle
+aStyleContext
 nscoord
 aBlockBSize
 float
@@ -21681,7 +21681,7 @@ nsStyleCoord
 &
 lhCoord
 =
-aComputedStyle
+aStyleContext
 -
 >
 StyleText
@@ -21801,7 +21801,7 @@ GetFactorValue
 *
 aFontSizeInflation
 *
-aComputedStyle
+aStyleContext
 -
 >
 StyleFont
@@ -21896,9 +21896,9 @@ fm
 nsLayoutUtils
 :
 :
-GetFontMetricsForComputedStyle
+GetFontMetricsForStyleContext
 (
-aComputedStyle
+aStyleContext
 aFontSizeInflation
 )
 ;
@@ -21958,7 +21958,7 @@ GetContent
 mFrame
 -
 >
-Style
+StyleContext
 (
 )
 blockBSize
@@ -21986,9 +21986,9 @@ CalcLineHeight
 nsIContent
 *
 aContent
-ComputedStyle
+nsStyleContext
 *
-aComputedStyle
+aStyleContext
 nscoord
 aBlockBSize
 float
@@ -21997,7 +21997,7 @@ aFontSizeInflation
 {
 NS_PRECONDITION
 (
-aComputedStyle
+aStyleContext
 "
 Must
 have
@@ -22012,7 +22012,7 @@ lineHeight
 =
 ComputeLineHeight
 (
-aComputedStyle
+aStyleContext
 aBlockBSize
 aFontSizeInflation
 )
@@ -22084,7 +22084,7 @@ lineHeightOne
 =
 aFontSizeInflation
 *
-aComputedStyle
+aStyleContext
 -
 >
 StyleFont

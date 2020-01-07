@@ -440,9 +440,9 @@ NS_NewSimplePageSequenceFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 NS_DECL_QUERYFRAME
@@ -680,9 +680,9 @@ protected
 explicit
 nsSimplePageSequenceFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 virtual

@@ -3212,7 +3212,7 @@ aProperty
 ]
 ;
 return
-ComputedStyle
+nsStyleContext
 :
 :
 IsInherited

@@ -252,9 +252,9 @@ NS_NewSVGContainerFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 nsIFrame
@@ -267,7 +267,7 @@ aPresShell
 )
 nsSVGContainerFrame
 (
-aStyle
+aContext
 nsSVGContainerFrame
 :
 :

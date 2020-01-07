@@ -277,9 +277,9 @@ ContainerLayerParameters
 explicit
 nsVideoFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 NS_DECL_QUERYFRAME

@@ -3412,7 +3412,7 @@ ctx
 mForFrame
 -
 >
-Style
+StyleContext
 (
 )
 aPresContext
