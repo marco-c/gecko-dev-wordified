@@ -252,6 +252,9 @@ panelWin
 .
 gInit
 (
+this
+.
+toolbox
 perfFront
 )
 ;
