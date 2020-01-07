@@ -2926,10 +2926,6 @@ LC_ALL
 }
 #
 endif
-NS_StartupLocalFile
-(
-)
-;
 nsDirectoryService
 :
 :
@@ -5414,16 +5410,6 @@ BeginLateWriteChecks
 )
 ;
 }
-/
-/
-Shutdown
-nsLocalFile
-string
-conversion
-NS_ShutdownLocalFile
-(
-)
-;
 /
 /
 Shutdown

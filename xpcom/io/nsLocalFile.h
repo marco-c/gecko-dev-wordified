@@ -677,15 +677,5 @@ nsresultForErrno
 (
 errno
 )
-void
-NS_StartupLocalFile
-(
-)
-;
-void
-NS_ShutdownLocalFile
-(
-)
-;
 #
 endif
