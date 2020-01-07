@@ -2169,9 +2169,15 @@ node
 {
 node
 .
+style
+.
 width
 =
 width
++
+"
+px
+"
 ;
 }
 )
