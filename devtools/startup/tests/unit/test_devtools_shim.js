@@ -460,7 +460,7 @@ isInitialized
 "
 DevTools
 are
-installed
+initialized
 "
 )
 ;
