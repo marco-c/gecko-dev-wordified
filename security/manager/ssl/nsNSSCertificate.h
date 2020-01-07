@@ -177,13 +177,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h
@@ -215,8 +208,6 @@ public
 nsISerializable
 public
 nsIClassInfo
-public
-nsNSSShutDownObject
 {
 public
 :
@@ -449,8 +440,6 @@ public
 nsIX509CertList
 public
 nsISerializable
-public
-nsNSSShutDownObject
 {
 public
 :
@@ -763,8 +752,6 @@ nsNSSCertListEnumerator
 :
 public
 nsISimpleEnumerator
-public
-nsNSSShutDownObject
 {
 public
 :

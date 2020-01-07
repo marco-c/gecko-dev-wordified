@@ -79,13 +79,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -132,9 +125,6 @@ blobs
 /
 class
 nsPKCS12Blob
-:
-public
-nsNSSShutDownObject
 {
 public
 :

@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsIThread
 .
 h
@@ -411,8 +404,6 @@ KeyPair
 :
 public
 nsIIdentityKeyPair
-public
-nsNSSShutDownObject
 {
 public
 :
@@ -433,11 +424,11 @@ aOperationThread
 ;
 private
 :
+virtual
 ~
 KeyPair
 (
 )
-override
 {
 if
 (
@@ -508,8 +499,6 @@ KeyGenRunnable
 :
 public
 Runnable
-public
-nsNSSShutDownObject
 {
 public
 :
@@ -528,13 +517,6 @@ aOperationThread
 ;
 private
 :
-~
-KeyGenRunnable
-(
-)
-override
-{
-}
 const
 KeyType
 mKeyType
@@ -599,8 +581,6 @@ SignRunnable
 :
 public
 Runnable
-public
-nsNSSShutDownObject
 {
 public
 :

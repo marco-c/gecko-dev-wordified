@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -151,8 +144,6 @@ nsPKCS11Slot
 :
 public
 nsIPKCS11Slot
-public
-nsNSSShutDownObject
 {
 public
 :
@@ -227,8 +218,6 @@ nsPKCS11Module
 :
 public
 nsIPKCS11Module
-public
-nsNSSShutDownObject
 {
 public
 :

@@ -138,13 +138,6 @@ ScopedNSSTypes
 .
 h
 "
-#
-include
-"
-nsNSSShutDown
-.
-h
-"
 /
 *
 *
@@ -180,8 +173,6 @@ final
 :
 public
 U2FTokenTransport
-public
-nsNSSShutDownObject
 {
 public
 :

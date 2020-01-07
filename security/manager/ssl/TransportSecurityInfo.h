@@ -185,13 +185,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsSSLStatus
 .
 h
@@ -265,8 +258,6 @@ public
 nsISerializable
 public
 nsIClassInfo
-public
-nsNSSShutDownObject
 {
 protected
 :

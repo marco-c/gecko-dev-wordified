@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 pk11pub
 .
 h
@@ -570,8 +563,6 @@ public
 nsISupports
 public
 nsWrapperCache
-public
-nsNSSShutDownObject
 {
 public
 :

@@ -178,13 +178,6 @@ nsIGlobalObject
 .
 h
 "
-#
-include
-"
-nsNSSShutDown
-.
-h
-"
 namespace
 mozilla
 {
@@ -376,8 +369,6 @@ WebCryptoTask
 :
 public
 CancelableRunnable
-public
-nsNSSShutDownObject
 {
 public
 :

@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 prtime
 .
 h
@@ -262,8 +255,6 @@ public
 nsISupports
 public
 nsWrapperCache
-public
-nsNSSShutDownObject
 {
 public
 :

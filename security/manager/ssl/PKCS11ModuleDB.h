@@ -107,13 +107,6 @@ h
 #
 include
 "
-nsNSSShutDown
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -149,8 +142,6 @@ PKCS11ModuleDB
 :
 public
 nsIPKCS11ModuleDB
-public
-nsNSSShutDownObject
 {
 public
 :

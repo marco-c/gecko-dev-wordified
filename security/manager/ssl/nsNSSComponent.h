@@ -503,9 +503,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 nsINSSComponent
 NS_INSSCOMPONENT_IID
 )
-class
-nsNSSShutDownList
-;
 /
 /
 Implementation
