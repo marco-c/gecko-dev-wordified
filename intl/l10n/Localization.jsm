@@ -2289,7 +2289,7 @@ attrs
 for
 (
 const
-attrName
+name
 in
 msg
 .
@@ -2297,7 +2297,7 @@ attrs
 )
 {
 const
-formattedAttr
+value
 =
 ctx
 .
@@ -2307,7 +2307,7 @@ msg
 .
 attrs
 [
-attrName
+name
 ]
 args
 errors
@@ -2315,7 +2315,7 @@ errors
 ;
 if
 (
-formattedAttr
+value
 !
 =
 =
@@ -2328,10 +2328,10 @@ attrs
 .
 push
 (
-[
-attrName
-formattedAttr
-]
+{
+name
+value
+}
 )
 ;
 }

@@ -276,10 +276,14 @@ null
 attrs
 :
 [
-[
+{
+name
+:
 "
 label
 "
+value
+:
 elem
 .
 getAttribute
@@ -288,7 +292,7 @@ getAttribute
 label
 "
 )
-]
+}
 ]
 }
 )
