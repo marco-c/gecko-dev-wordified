@@ -2816,6 +2816,9 @@ aSelection
 SetInterlinePosition
 (
 true
+IgnoreErrors
+(
+)
 )
 ;
 /
@@ -2940,6 +2943,9 @@ aSelection
 SetInterlinePosition
 (
 true
+IgnoreErrors
+(
+)
 )
 ;
 /
@@ -6119,6 +6125,9 @@ selection
 SetInterlinePosition
 (
 true
+IgnoreErrors
+(
+)
 )
 ;
 }
