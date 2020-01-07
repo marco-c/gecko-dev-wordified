@@ -2055,9 +2055,9 @@ NS_IMETHODIMP
 FileDescriptorFile
 :
 :
-GetDirectoryEntries
+GetDirectoryEntriesImpl
 (
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 *
 *
 aEntries
