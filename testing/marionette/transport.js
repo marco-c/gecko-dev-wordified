@@ -5336,6 +5336,10 @@ worker
 thread
 .
 *
+*
+class
+WorkerDebuggerTransport
+*
 /
 function
 WorkerDebuggerTransport
@@ -5586,6 +5590,10 @@ the
 main
 thread
 .
+*
+*
+class
+WorkerDebuggerTransportThread
 *
 /
 function
