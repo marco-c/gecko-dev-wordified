@@ -155,7 +155,7 @@ module
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

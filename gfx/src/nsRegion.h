@@ -245,7 +245,7 @@ nsIntRegion
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

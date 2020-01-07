@@ -281,7 +281,7 @@ h
 '
     
 '
-nsStringGlue
+nsString
 .
 h
 '

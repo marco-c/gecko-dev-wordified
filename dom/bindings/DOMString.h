@@ -123,7 +123,7 @@ mozilla_dom_DOMString_h
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "

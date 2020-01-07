@@ -102,7 +102,7 @@ mozilla_toolkit_system_windowsproxy_ProxyUtils_h
 #
 include
 "
-nsStringGlue
+nsString
 .
 h
 "
