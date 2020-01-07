@@ -160,6 +160,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+WrappingOperations
+.
+h
+"
+#
+include
 <
 math
 .
