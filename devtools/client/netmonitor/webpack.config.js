@@ -155,7 +155,7 @@ join
 (
 __dirname
 "
-index
+launchpad
 .
 js
 "
