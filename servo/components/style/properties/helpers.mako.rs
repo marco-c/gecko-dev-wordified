@@ -4047,7 +4047,7 @@ value
 }
 %
 endfor
-x
+_
 =
 >
 panic
@@ -4067,13 +4067,7 @@ keyword
 name
 }
 property
-:
-{
-:
-?
-}
 "
-x
 )
 }
 }

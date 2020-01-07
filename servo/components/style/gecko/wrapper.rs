@@ -6519,7 +6519,7 @@ kGenericFont_fantasy
 self
 .
 mDefaultFantasySize
-x
+_
 =
 >
 unreachable
@@ -6529,10 +6529,7 @@ unreachable
 Unknown
 generic
 ID
-{
-}
 "
-x
 )
 }
 )
