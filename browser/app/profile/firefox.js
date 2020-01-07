@@ -13847,6 +13847,18 @@ endif
 if
 defined
 (
+XP_MACOSX
+)
+|
+|
+defined
+(
+XP_WIN
+)
+#
+if
+defined
+(
 MOZ_SANDBOX
 )
 &
@@ -13918,6 +13930,8 @@ tempDirSuffix
 "
 )
 ;
+#
+endif
 #
 endif
 #
