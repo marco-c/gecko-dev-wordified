@@ -14013,6 +14013,9 @@ byteLength
 (
 )
 ;
+return
+true
+;
 }
 if
 (
