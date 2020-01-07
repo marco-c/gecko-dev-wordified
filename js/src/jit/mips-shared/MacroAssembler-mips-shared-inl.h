@@ -4970,7 +4970,7 @@ index
 Register
 length
 Register
-scratch
+maybeScratch
 Label
 *
 failure
@@ -5009,7 +5009,7 @@ Address
 &
 length
 Register
-scratch
+maybeScratch
 Label
 *
 failure
