@@ -447,6 +447,7 @@ Mutator
 nsIURISetters
 nsIURIMutator
 nsIStandardURLMutator
+nsIURLMutator
 )
 nsresult
 SubstitutingURL

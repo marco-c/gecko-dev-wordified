@@ -14661,6 +14661,17 @@ return
 NS_OK
 ;
 }
+/
+/
+When
+updating
+this
+also
+update
+SubstitutingURL
+:
+:
+Mutator
 NS_IMPL_ISUPPORTS
 (
 nsStandardURL
@@ -14670,6 +14681,7 @@ Mutator
 nsIURISetters
 nsIURIMutator
 nsIStandardURLMutator
+nsIURLMutator
 )
 NS_IMETHODIMP
 nsStandardURL
