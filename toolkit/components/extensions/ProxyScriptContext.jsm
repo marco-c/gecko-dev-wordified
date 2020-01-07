@@ -2346,6 +2346,12 @@ this
 initialized
 )
 {
+this
+.
+initGlobal
+(
+)
+;
 let
 entries
 =
