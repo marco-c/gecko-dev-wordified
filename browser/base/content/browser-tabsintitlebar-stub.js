@@ -109,11 +109,6 @@ init
 )
 {
 }
-whenWindowLayoutReady
-(
-)
-{
-}
 uninit
 (
 )
