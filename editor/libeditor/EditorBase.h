@@ -587,6 +587,9 @@ class
 DataTransfer
 ;
 class
+DragEvent
+;
+class
 Element
 ;
 class
@@ -8405,7 +8408,10 @@ virtual
 nsresult
 InsertFromDrop
 (
-nsIDOMEvent
+dom
+:
+:
+DragEvent
 *
 aDropEvent
 )
