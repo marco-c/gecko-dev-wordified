@@ -791,6 +791,7 @@ XULTreeAccessible
 NativeState
 (
 )
+const
 {
 /
 /
@@ -5718,6 +5719,7 @@ XULTreeItemAccessibleBase
 NativeState
 (
 )
+const
 {
 /
 /

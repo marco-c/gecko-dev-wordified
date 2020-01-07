@@ -1789,6 +1789,7 @@ DocAccessible
 NativeState
 (
 )
+const
 {
 /
 /

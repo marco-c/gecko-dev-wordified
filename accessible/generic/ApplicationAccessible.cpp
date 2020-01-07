@@ -829,6 +829,7 @@ ApplicationAccessible
 NativeState
 (
 )
+const
 {
 return
 0

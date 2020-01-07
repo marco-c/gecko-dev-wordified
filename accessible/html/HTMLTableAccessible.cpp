@@ -623,6 +623,7 @@ HTMLTableCellAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state
@@ -3299,6 +3300,7 @@ HTMLTableAccessible
 NativeState
 (
 )
+const
 {
 return
 Accessible

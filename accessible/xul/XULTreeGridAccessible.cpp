@@ -4352,6 +4352,7 @@ XULTreeGridCellAccessible
 NativeState
 (
 )
+const
 {
 if
 (

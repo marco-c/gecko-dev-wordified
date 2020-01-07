@@ -492,6 +492,7 @@ ImageAccessible
 NativeState
 (
 )
+const
 {
 /
 /

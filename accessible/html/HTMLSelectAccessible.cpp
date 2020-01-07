@@ -505,6 +505,7 @@ HTMLSelectListAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state
@@ -1470,6 +1471,7 @@ HTMLSelectOptionAccessible
 NativeState
 (
 )
+const
 {
 /
 /
@@ -3027,6 +3029,7 @@ HTMLComboboxAccessible
 NativeState
 (
 )
+const
 {
 /
 /
@@ -4101,6 +4104,7 @@ HTMLComboboxListAccessible
 NativeState
 (
 )
+const
 {
 /
 /

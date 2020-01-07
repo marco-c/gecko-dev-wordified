@@ -678,6 +678,7 @@ XULTabAccessible
 NativeState
 (
 )
+const
 {
 /
 /

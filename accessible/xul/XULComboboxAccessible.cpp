@@ -526,6 +526,7 @@ XULComboboxAccessible
 NativeState
 (
 )
+const
 {
 /
 /

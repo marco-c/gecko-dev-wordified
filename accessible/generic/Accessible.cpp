@@ -2751,6 +2751,7 @@ Accessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state

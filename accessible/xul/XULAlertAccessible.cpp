@@ -350,6 +350,7 @@ XULAlertAccessible
 NativeState
 (
 )
+const
 {
 return
 Accessible

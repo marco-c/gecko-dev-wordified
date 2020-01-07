@@ -383,6 +383,7 @@ HTMLListAccessible
 NativeState
 (
 )
+const
 {
 return
 HyperTextAccessibleWrap
@@ -708,6 +709,7 @@ HTMLLIAccessible
 NativeState
 (
 )
+const
 {
 return
 HyperTextAccessibleWrap
@@ -1467,6 +1469,7 @@ HTMLListBulletAccessible
 NativeState
 (
 )
+const
 {
 return
 LeafAccessible

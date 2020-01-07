@@ -554,6 +554,7 @@ HTMLBRAccessible
 NativeState
 (
 )
+const
 {
 return
 states
@@ -1513,6 +1514,7 @@ HTMLSummaryAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state

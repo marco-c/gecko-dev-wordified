@@ -616,6 +616,7 @@ HTMLCheckboxAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state
@@ -961,6 +962,7 @@ HTMLRadioButtonAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state
@@ -1692,6 +1694,7 @@ HTMLButtonAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state
@@ -2812,6 +2815,7 @@ HTMLTextFieldAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state

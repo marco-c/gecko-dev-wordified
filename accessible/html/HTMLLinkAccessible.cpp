@@ -455,6 +455,7 @@ HTMLLinkAccessible
 NativeState
 (
 )
+const
 {
 return
 HyperTextAccessibleWrap

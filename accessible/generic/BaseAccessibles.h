@@ -629,6 +629,7 @@ uint64_t
 NativeState
 (
 )
+const
 final
 ;
 uint64_t

@@ -823,6 +823,7 @@ XULButtonAccessible
 NativeState
 (
 )
+const
 {
 /
 /
@@ -2005,6 +2006,7 @@ XULDropmarkerAccessible
 NativeState
 (
 )
+const
 {
 return
 DropmarkerOpen
@@ -2321,6 +2323,7 @@ XULCheckboxAccessible
 NativeState
 (
 )
+const
 {
 /
 /
@@ -3064,6 +3067,7 @@ XULRadioButtonAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state
@@ -4772,6 +4776,7 @@ XULToolbarSeparatorAccessible
 NativeState
 (
 )
+const
 {
 return
 0

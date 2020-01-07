@@ -460,6 +460,7 @@ XULMenuitemAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state
@@ -2454,6 +2455,7 @@ XULMenuSeparatorAccessible
 NativeState
 (
 )
+const
 {
 /
 /
@@ -2836,6 +2838,7 @@ XULMenupopupAccessible
 NativeState
 (
 )
+const
 {
 uint64_t
 state
