@@ -302,6 +302,8 @@ aURI
 nsIScriptElement
 *
 aElement
+ValidJSVersion
+aValidJSVersion
 CORSMode
 aCORSMode
 const

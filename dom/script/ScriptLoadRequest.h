@@ -213,6 +213,16 @@ eClassic
 eModule
 }
 ;
+enum
+class
+ValidJSVersion
+:
+bool
+{
+eInvalid
+eValid
+}
+;
 /
 *
 *
@@ -301,6 +311,8 @@ aURI
 nsIScriptElement
 *
 aElement
+ValidJSVersion
+aValidJSVersion
 mozilla
 :
 :
@@ -1075,6 +1087,9 @@ the
 bytecode
 in
 mScriptBytecode
+ValidJSVersion
+mValidJSVersion
+;
 const
 nsCOMPtr
 <

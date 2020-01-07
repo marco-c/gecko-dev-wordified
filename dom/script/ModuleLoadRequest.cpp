@@ -204,6 +204,8 @@ aURI
 nsIScriptElement
 *
 aElement
+ValidJSVersion
+aValidJSVersion
 CORSMode
 aCORSMode
 const
@@ -234,6 +236,7 @@ ScriptKind
 eModule
 aURI
 aElement
+aValidJSVersion
 aCORSMode
 aIntegrity
 aReferrer
@@ -288,6 +291,10 @@ aParent
 -
 >
 mElement
+aParent
+-
+>
+mValidJSVersion
 aParent
 -
 >
