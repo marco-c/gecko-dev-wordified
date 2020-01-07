@@ -158,13 +158,6 @@ h
 #
 include
 "
-nsIDOMClientRect
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

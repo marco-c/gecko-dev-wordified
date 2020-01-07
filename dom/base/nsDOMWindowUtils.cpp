@@ -8131,7 +8131,7 @@ GetBoundsWithoutFlushing
 nsIDOMElement
 *
 aElement
-nsIDOMClientRect
+nsISupports
 *
 *
 aResult
@@ -8365,7 +8365,7 @@ nsDOMWindowUtils
 :
 GetRootBounds
 (
-nsIDOMClientRect
+nsISupports
 *
 *
 aResult

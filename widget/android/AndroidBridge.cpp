@@ -307,13 +307,6 @@ h
 #
 include
 "
-nsIDOMClientRect
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ClearOnShutdown

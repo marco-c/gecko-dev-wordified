@@ -224,13 +224,6 @@ h
 #
 include
 "
-nsIDOMClientRect
-.
-h
-"
-#
-include
-"
 nsIDOMWakeLockListener
 .
 h
