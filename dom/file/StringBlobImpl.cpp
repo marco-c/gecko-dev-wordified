@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-StreamBlobImpl
+StringBlobImpl
 .
 h
 "
