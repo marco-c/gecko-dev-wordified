@@ -49,11 +49,3 @@ appendChild
 i
 )
 ;
-log
-(
-"
-TEST
-COMPLETE
-"
-)
-;

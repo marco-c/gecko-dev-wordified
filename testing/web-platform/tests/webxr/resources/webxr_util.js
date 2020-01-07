@@ -141,6 +141,16 @@ callback
 (
 window
 .
+XRPresentationContext
+'
+XRPresentationContext
+'
+)
+;
+callback
+(
+window
+.
 XRPresentationFrame
 '
 XRPresentationFrame
