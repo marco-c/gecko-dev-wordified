@@ -456,6 +456,13 @@ PropTypes
 object
 .
 isRequired
+closeSplitConsole
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -798,6 +805,7 @@ hud
 notifications
 onFirstMeaningfulPaint
 serviceContainer
+closeSplitConsole
 }
 =
 this
@@ -918,6 +926,7 @@ serviceContainer
 {
 attachRefToHud
 }
+closeSplitConsole
 }
 )
 ConsoleOutput
