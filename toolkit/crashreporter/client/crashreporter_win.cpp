@@ -9162,11 +9162,6 @@ pop_back
 )
 ;
 }
-FindClose
-(
-dirlist
-)
-;
 }
 bool
 UIRunProgram
@@ -9362,6 +9357,7 @@ UIGetEnv
 (
 const
 string
+&
 name
 )
 {
