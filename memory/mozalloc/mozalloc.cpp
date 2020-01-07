@@ -427,9 +427,7 @@ bad_alloc
 #
 include
 <
-string
-.
-h
+cstring
 >
 #
 include
