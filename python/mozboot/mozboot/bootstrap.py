@@ -2242,6 +2242,28 @@ exists
 state_dir
 )
         
+#
+We
+need
+to
+enable
+the
+loading
+of
+hgrc
+in
+case
+extensions
+are
+        
+#
+required
+to
+open
+the
+repo
+.
+        
 r
 =
 current_firefox_checkout
@@ -2260,8 +2282,11 @@ self
 .
 instance
 .
-_hgplain_env
+_hg_cleanenv
 (
+load_hgrc
+=
+True
 )
                                      
 hg
