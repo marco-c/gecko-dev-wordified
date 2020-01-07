@@ -194,7 +194,7 @@ TOPIC_LOCALES_CHANGE
 "
 intl
 :
-requested
+app
 -
 locales
 -
