@@ -2278,7 +2278,7 @@ defaultView
 ;
 browserWin
 .
-openTrustedLinkIn
+openWebLinkIn
 (
 target
 .
