@@ -1038,12 +1038,14 @@ attributes
 .
 ok
 (
+!
 gModuleDB
 .
 canToggleFIPS
 "
 It
 should
+NOT
 be
 possible
 to
