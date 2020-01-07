@@ -161,7 +161,13 @@ nsNativeDragSource
 :
 nsNativeDragSource
 (
-nsIDOMDataTransfer
+mozilla
+:
+:
+dom
+:
+:
+DataTransfer
 *
 aDataTransfer
 )
@@ -181,10 +187,7 @@ false
 {
 mDataTransfer
 =
-do_QueryInterface
-(
 aDataTransfer
-)
 ;
 }
 nsNativeDragSource
