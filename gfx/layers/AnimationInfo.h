@@ -123,9 +123,7 @@ GFX_ANIMATIONINFO_H
 #
 include
 "
-mozilla
-/
-StyleAnimationValue
+nsAutoPtr
 .
 h
 "
@@ -136,6 +134,12 @@ nsDisplayItemTypes
 .
 h
 "
+struct
+RawServoAnimationValue
+;
+class
+nsIFrame
+;
 namespace
 mozilla
 {
@@ -378,7 +382,8 @@ return
 mCompositorAnimationsId
 ;
 }
-AnimationValue
+RawServoAnimationValue
+*
 GetBaseAnimationStyle
 (
 )
@@ -495,7 +500,10 @@ manager
 uint64_t
 mAnimationGeneration
 ;
-AnimationValue
+RefPtr
+<
+RawServoAnimationValue
+>
 mBaseAnimationStyle
 ;
 bool
