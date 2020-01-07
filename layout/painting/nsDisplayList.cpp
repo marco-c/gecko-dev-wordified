@@ -57331,16 +57331,6 @@ DisplayItemType
 TYPE_TRANSFORM
 )
 ;
-if
-(
-aBuilder
--
->
-IsRetainingDisplayList
-(
-)
-)
-{
 mTransformFrame
 -
 >
@@ -57349,7 +57339,6 @@ AddDisplayItem
 this
 )
 ;
-}
 }
 already_AddRefed
 <
