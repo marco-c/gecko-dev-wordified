@@ -3217,10 +3217,11 @@ i
 ]
 )
 ;
-AppendASCIItoUTF16
+text
+.
+AppendASCII
 (
 buffer
-text
 )
 ;
 if
@@ -6517,10 +6518,11 @@ AppendLiteral
 "
 )
 ;
-AppendASCIItoUTF16
+text
+.
+AppendASCII
 (
 buffer
-text
 )
 ;
 }
