@@ -3629,6 +3629,11 @@ UseAPZ
 (
 )
 ;
+bool
+AllowWebRenderForThisWindow
+(
+)
+;
 /
 *
 *
