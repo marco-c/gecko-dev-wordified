@@ -1989,6 +1989,12 @@ None
         
 self
 .
+test_count
+=
+0
+        
+self
+.
 unexpected_count
 =
 0
@@ -4002,6 +4008,13 @@ status
 CRASH
 "
         
+self
+.
+test_count
++
+=
+1
+        
 is_unexpected
 =
 expected
@@ -5546,6 +5559,27 @@ set
 in
 ManagerGroup
 "
+)
+    
+def
+test_count
+(
+self
+)
+:
+        
+return
+sum
+(
+item
+.
+test_count
+for
+item
+in
+self
+.
+pool
 )
     
 def

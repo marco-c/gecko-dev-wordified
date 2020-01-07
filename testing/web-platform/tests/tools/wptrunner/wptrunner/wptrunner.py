@@ -1139,6 +1139,10 @@ processes
 ]
 )
         
+test_total
+=
+0
+        
 unexpected_total
 =
 0
@@ -1305,6 +1309,10 @@ repeat_count
 repeat
 )
 )
+                
+test_count
+=
+0
                 
 unexpected_count
 =
@@ -1748,6 +1756,15 @@ stop
                             
 raise
                     
+test_count
++
+=
+manager_group
+.
+test_count
+(
+)
+                    
 unexpected_count
 +
 =
@@ -1756,6 +1773,11 @@ manager_group
 unexpected_count
 (
 )
+                
+test_total
++
+=
+test_count
                 
 unexpected_total
 +
@@ -1792,6 +1814,27 @@ logger
 suite_end
 (
 )
+    
+if
+test_total
+=
+=
+0
+:
+        
+logger
+.
+error
+(
+"
+No
+tests
+ran
+"
+)
+        
+return
+False
     
 return
 unexpected_total
