@@ -4414,9 +4414,15 @@ PostWriteBarrier
 JSRuntime
 *
 rt
-JSObject
+js
+:
+:
+gc
+:
+:
+Cell
 *
-obj
+cell
 )
 {
 AutoUnsafeCallWithABI
@@ -4427,7 +4433,7 @@ MOZ_ASSERT
 !
 IsInsideNursery
 (
-obj
+cell
 )
 )
 ;
@@ -4442,7 +4448,7 @@ storeBuffer
 .
 putWholeCell
 (
-obj
+cell
 )
 ;
 }
