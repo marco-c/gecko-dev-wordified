@@ -86,7 +86,7 @@ bytes
 ;
 extern
 crate
-cubeb_core
+cubeb
 ;
 #
 [
@@ -108,10 +108,6 @@ extern
 crate
 memmap
 ;
-extern
-crate
-serde
-;
 #
 [
 macro_use
@@ -119,6 +115,10 @@ macro_use
 extern
 crate
 scoped_tls
+;
+extern
+crate
+serde
 ;
 extern
 crate

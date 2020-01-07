@@ -44,7 +44,7 @@ cubeb_backend
 ;
 extern
 crate
-cubeb_core
+foreign_types
 ;
 extern
 crate
@@ -97,13 +97,10 @@ use
 cubeb_backend
 :
 :
+{
 capi
-;
-use
-cubeb_core
-:
-:
 ffi
+}
 ;
 use
 std
