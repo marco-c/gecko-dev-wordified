@@ -550,7 +550,7 @@ const
 char16_t
 *
 const
-sTagUnicodeTable
+sTagNames
 [
 ]
 ;
