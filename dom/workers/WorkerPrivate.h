@@ -963,9 +963,6 @@ IsOnCurrentThread
 bool
 CloseInternal
 (
-JSContext
-*
-aCx
 )
 {
 AssertIsOnWorkerThread
@@ -975,7 +972,6 @@ AssertIsOnWorkerThread
 return
 NotifyInternal
 (
-aCx
 Closing
 )
 ;
@@ -1143,9 +1139,6 @@ aMessage
 bool
 NotifyInternal
 (
-JSContext
-*
-aCx
 WorkerStatus
 aStatus
 )
@@ -4282,9 +4275,6 @@ aHolder
 void
 NotifyHolders
 (
-JSContext
-*
-aCx
 WorkerStatus
 aStatus
 )
