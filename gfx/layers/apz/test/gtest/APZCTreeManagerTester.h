@@ -256,6 +256,7 @@ new
 APZSampler
 (
 manager
+false
 )
 ;
 }
