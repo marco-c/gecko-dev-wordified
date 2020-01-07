@@ -87,8 +87,8 @@ use
 strict
 "
 ;
-let
-PaymentRequest
+var
+paymentRequest
 =
 {
 domReadyPromise
@@ -572,7 +572,7 @@ this
 }
 }
 ;
-PaymentRequest
+paymentRequest
 .
 init
 (

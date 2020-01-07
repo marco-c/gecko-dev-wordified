@@ -60,7 +60,6 @@ MPL
 *
 global
 PaymentStateSubscriberMixin
-PaymentRequest
 *
 /
 "

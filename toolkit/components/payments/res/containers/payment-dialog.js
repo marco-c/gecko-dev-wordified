@@ -60,7 +60,7 @@ MPL
 *
 global
 PaymentStateSubscriberMixin
-PaymentRequest
+paymentRequest
 *
 /
 "
@@ -384,7 +384,7 @@ cancelRequest
 (
 )
 {
-PaymentRequest
+paymentRequest
 .
 cancel
 (
@@ -395,7 +395,7 @@ pay
 (
 )
 {
-PaymentRequest
+paymentRequest
 .
 pay
 (
