@@ -123,6 +123,13 @@ nsLayoutUtils_h__
 #
 include
 "
+LayoutConstants
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MemoryReporting
