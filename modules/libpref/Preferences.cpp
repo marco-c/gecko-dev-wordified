@@ -1585,14 +1585,14 @@ ArenaAllocator
 gPrefNameArena
 ;
 class
-PrefHashEntry
+Pref
 :
 public
 PLDHashEntryHdr
 {
 public
 :
-PrefHashEntry
+Pref
 (
 const
 char
@@ -1636,7 +1636,7 @@ entries
 .
 }
 ~
-PrefHashEntry
+Pref
 (
 )
 {
@@ -1886,7 +1886,7 @@ pref
 static_cast
 <
 const
-PrefHashEntry
+Pref
 *
 >
 (
@@ -1969,7 +1969,7 @@ pref
 =
 static_cast
 <
-PrefHashEntry
+Pref
 *
 >
 (
@@ -1980,7 +1980,7 @@ pref
 -
 >
 ~
-PrefHashEntry
+Pref
 (
 )
 ;
@@ -1990,7 +1990,7 @@ pref
 0
 sizeof
 (
-PrefHashEntry
+Pref
 )
 )
 ;
@@ -3782,7 +3782,7 @@ PLDHashTable
 :
 :
 HashStringKey
-PrefHashEntry
+Pref
 :
 :
 MatchEntry
@@ -3790,7 +3790,7 @@ PLDHashTable
 :
 :
 MoveEntryStub
-PrefHashEntry
+Pref
 :
 :
 ClearEntry
@@ -3875,7 +3875,7 @@ nullptr
 -
 -
 static
-PrefHashEntry
+Pref
 *
 pref_HashTableLookup
 (
@@ -3947,7 +3947,7 @@ pref
 =
 static_cast
 <
-PrefHashEntry
+Pref
 *
 >
 (
@@ -4197,7 +4197,7 @@ endif
 /
 DEBUG
 static
-PrefHashEntry
+Pref
 *
 pref_HashTableLookup
 (
@@ -4409,7 +4409,7 @@ endif
 return
 static_cast
 <
-PrefHashEntry
+Pref
 *
 >
 (
@@ -4461,7 +4461,7 @@ pref
 =
 static_cast
 <
-PrefHashEntry
+Pref
 *
 >
 (
@@ -4511,7 +4511,7 @@ new
 (
 pref
 )
-PrefHashEntry
+Pref
 (
 aPrefName
 aType
@@ -11232,7 +11232,7 @@ GetPrefName
 aPrefName
 )
 ;
-PrefHashEntry
+Pref
 *
 pref
 ;
@@ -13838,7 +13838,7 @@ pref
 =
 static_cast
 <
-PrefHashEntry
+Pref
 *
 >
 (
@@ -14123,7 +14123,7 @@ pref
 =
 static_cast
 <
-PrefHashEntry
+Pref
 *
 >
 (
@@ -18011,7 +18011,7 @@ pref
 =
 static_cast
 <
-PrefHashEntry
+Pref
 *
 >
 (
@@ -18978,7 +18978,7 @@ PLDHashTable
 pref_HashTableOps
 sizeof
 (
-PrefHashEntry
+Pref
 )
 PREF_HASHTABLE_INITIAL_LENGTH
 )
@@ -20504,7 +20504,7 @@ pref
 =
 static_cast
 <
-PrefHashEntry
+Pref
 *
 >
 (
@@ -21137,7 +21137,7 @@ Pref
 aDomPref
 )
 {
-PrefHashEntry
+Pref
 *
 pref
 =
@@ -21239,7 +21239,7 @@ pref
 =
 static_cast
 <
-PrefHashEntry
+Pref
 *
 >
 (
@@ -25499,7 +25499,7 @@ InitStaticMembers
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-PrefHashEntry
+Pref
 *
 pref
 =
@@ -25565,7 +25565,7 @@ InitStaticMembers
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-PrefHashEntry
+Pref
 *
 pref
 =
@@ -25700,7 +25700,7 @@ SetIsVoid
 true
 )
 ;
-PrefHashEntry
+Pref
 *
 pref
 =
@@ -26409,7 +26409,7 @@ InitStaticMembers
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-PrefHashEntry
+Pref
 *
 pref
 =
@@ -26529,7 +26529,7 @@ InitStaticMembers
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-PrefHashEntry
+Pref
 *
 pref
 =
@@ -26606,7 +26606,7 @@ if
 gIsAnyPrefLocked
 )
 {
-PrefHashEntry
+Pref
 *
 pref
 =
@@ -26662,7 +26662,7 @@ InitStaticMembers
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-PrefHashEntry
+Pref
 *
 pref
 =
@@ -26785,7 +26785,7 @@ InitStaticMembers
 false
 )
 ;
-PrefHashEntry
+Pref
 *
 pref
 =
