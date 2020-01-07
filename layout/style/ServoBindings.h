@@ -2547,6 +2547,16 @@ RawGeckoElementBorrowed
 element
 )
 ;
+bool
+Gecko_AnimationNameMayBeReferencedFromStyle
+(
+RawGeckoPresContextBorrowed
+pres_context
+nsAtom
+*
+name
+)
+;
 /
 /
 Incremental
