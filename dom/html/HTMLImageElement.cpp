@@ -2908,9 +2908,13 @@ new
 cross
 origin
 policy
+IgnoredErrorResult
+error
+;
 ForceReload
 (
 aNotify
+error
 )
 ;
 }
