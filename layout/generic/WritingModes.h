@@ -3937,6 +3937,9 @@ aOther
 )
 const
 {
+mozilla
+:
+:
 Side
 myStartSide
 =
@@ -4001,6 +4004,9 @@ aLogicalAxis
 :
 aLogicalAxis
 ;
+mozilla
+:
+:
 Side
 otherWMStartSide
 =
