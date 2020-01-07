@@ -2621,6 +2621,8 @@ composite_needed
 ;
 }
 else
+if
+composite_needed
 {
 wr_notifier_new_frame_ready
 (
