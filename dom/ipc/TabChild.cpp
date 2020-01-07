@@ -603,17 +603,12 @@ include
 algorithm
 >
 #
-ifdef
-MOZ_CRASHREPORTER
-#
 include
 "
 nsExceptionHandler
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -6460,9 +6455,6 @@ do
 )
 ;
 }
-#
-ifdef
-MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -6477,8 +6469,6 @@ URL
 aURI
 )
 ;
-#
-endif
 return
 IPC_OK
 (
@@ -7236,11 +7226,11 @@ clientOffset
 (
 )
 ;
-mChromeOffset
+mChromeDisp
 =
 aDimensionInfo
 .
-chromeOffset
+chromeDisp
 (
 )
 ;
@@ -7397,7 +7387,7 @@ mClientOffset
 .
 x
 +
-mChromeOffset
+mChromeDisp
 .
 x
 screenRect
@@ -7408,7 +7398,7 @@ mClientOffset
 .
 y
 +
-mChromeOffset
+mChromeDisp
 .
 y
 screenSize
@@ -18876,7 +18866,7 @@ mClientOffset
 .
 x
 +
-mChromeOffset
+mChromeDisp
 .
 x
 screenRect
@@ -18887,7 +18877,7 @@ mClientOffset
 .
 y
 +
-mChromeOffset
+mChromeDisp
 .
 y
 screenSize
