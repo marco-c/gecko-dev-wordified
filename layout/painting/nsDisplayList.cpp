@@ -41014,6 +41014,15 @@ mFrame
 GetNextContinuation
 (
 )
+|
+|
+mFrame
+-
+>
+HasAnyStateBits
+(
+NS_FRAME_PART_OF_IBSPLIT
+)
 )
 {
 /
