@@ -3580,7 +3580,9 @@ public
 explicit
 NotifyManyVisitsObservers
 (
+const
 VisitData
+&
 aPlace
 )
 :
@@ -3666,7 +3668,9 @@ URIParams
 >
 &
 aNotifyVisitedURIs
+const
 VisitData
+&
 aPlace
 )
 {
