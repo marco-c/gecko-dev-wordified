@@ -117,15 +117,6 @@ TraceLoggingTypes
 .
 h
 "
-#
-include
-"
-vm
-/
-StringType
-.
-h
-"
 class
 JSLinearString
 ;

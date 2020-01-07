@@ -120,9 +120,7 @@ h
 #
 include
 "
-builtin
-/
-Number
+jsnum
 .
 h
 "
@@ -150,15 +148,6 @@ include
 jit
 /
 MIRGraph
-.
-h
-"
-#
-include
-"
-util
-/
-PortableMath
 .
 h
 "

@@ -117,9 +117,7 @@ TraceLoggingTypes_h
 #
 include
 "
-builtin
-/
-String
+jsstr
 .
 h
 "

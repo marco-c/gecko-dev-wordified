@@ -131,9 +131,7 @@ h
 #
 include
 "
-builtin
-/
-Number
+jsnum
 .
 h
 "
@@ -194,9 +192,9 @@ h
 #
 include
 "
-util
+vm
 /
-StringBuffer
+JSScript
 .
 h
 "
@@ -205,7 +203,7 @@ include
 "
 vm
 /
-JSScript
+StringBuffer
 .
 h
 "

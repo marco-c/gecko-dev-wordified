@@ -135,9 +135,7 @@ h
 #
 include
 "
-builtin
-/
-Number
+jsnum
 .
 h
 "
@@ -155,7 +153,7 @@ include
 "
 vm
 /
-StringType
+String
 .
 h
 "

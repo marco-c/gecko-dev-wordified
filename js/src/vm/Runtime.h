@@ -225,7 +225,7 @@ include
 "
 builtin
 /
-Atomics
+AtomicsObject
 .
 h
 "
@@ -470,7 +470,7 @@ include
 "
 vm
 /
-SymbolType
+Symbol
 .
 h
 "
@@ -4917,9 +4917,7 @@ Number
 localization
 used
 by
-builtin
-/
-Number
+jsnum
 .
 cpp
 .

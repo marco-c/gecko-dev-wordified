@@ -120,6 +120,13 @@ h
 #
 include
 "
+jsdate
+.
+h
+"
+#
+include
+"
 jsexn
 .
 h
@@ -134,9 +141,7 @@ h
 #
 include
 "
-builtin
-/
-Atomics
+jsmath
 .
 h
 "
@@ -145,7 +150,7 @@ include
 "
 builtin
 /
-DataView
+AtomicsObject
 .
 h
 "
@@ -154,7 +159,7 @@ include
 "
 builtin
 /
-Date
+DataViewObject
 .
 h
 "
@@ -181,16 +186,7 @@ include
 "
 builtin
 /
-Map
-.
-h
-"
-#
-include
-"
-builtin
-/
-Math
+MapObject
 .
 h
 "
@@ -253,7 +249,7 @@ include
 "
 builtin
 /
-Symbol
+SymbolObject
 .
 h
 "
@@ -271,7 +267,7 @@ include
 "
 builtin
 /
-WeakMap
+WeakMapObject
 .
 h
 "
@@ -280,7 +276,7 @@ include
 "
 builtin
 /
-WeakSet
+WeakSetObject
 .
 h
 "

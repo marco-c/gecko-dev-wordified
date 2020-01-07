@@ -118,9 +118,7 @@ h
 #
 include
 "
-builtin
-/
-String
+jsstr
 .
 h
 "

@@ -8173,9 +8173,7 @@ GetXrayJitInfo
 *
 Implemented
 in
-builtin
-/
-Date
+jsdate
 .
 cpp
 .

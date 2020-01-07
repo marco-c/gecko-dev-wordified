@@ -165,9 +165,9 @@ h
 #
 include
 "
-util
+vm
 /
-StringBuffer
+JSFunction
 .
 h
 "
@@ -176,7 +176,7 @@ include
 "
 vm
 /
-JSFunction
+StringBuffer
 .
 h
 "

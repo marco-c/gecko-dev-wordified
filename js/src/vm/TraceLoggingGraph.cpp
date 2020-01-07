@@ -172,9 +172,7 @@ h
 #
 include
 "
-builtin
-/
-String
+jsstr
 .
 h
 "
@@ -202,15 +200,6 @@ include
 threading
 /
 Thread
-.
-h
-"
-#
-include
-"
-util
-/
-Text
 .
 h
 "

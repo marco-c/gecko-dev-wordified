@@ -350,9 +350,7 @@ h
 #
 include
 "
-builtin
-/
-DataView
+jsdate
 .
 h
 "
@@ -361,7 +359,7 @@ include
 "
 builtin
 /
-Date
+DataViewObject
 .
 h
 "
@@ -370,7 +368,7 @@ include
 "
 builtin
 /
-Map
+MapObject
 .
 h
 "

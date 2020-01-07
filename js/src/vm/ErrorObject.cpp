@@ -165,7 +165,7 @@ include
 "
 vm
 /
-StringType
+String
 .
 h
 "

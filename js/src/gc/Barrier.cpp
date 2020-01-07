@@ -203,7 +203,7 @@ include
 "
 vm
 /
-SymbolType
+Symbol
 .
 h
 "

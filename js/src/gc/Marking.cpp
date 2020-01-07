@@ -293,7 +293,7 @@ include
 "
 vm
 /
-SymbolType
+Symbol
 .
 h
 "
@@ -384,7 +384,7 @@ include
 "
 vm
 /
-StringType
+String
 -
 inl
 .
