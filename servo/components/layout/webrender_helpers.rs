@@ -2084,7 +2084,7 @@ as
 u64
 cursor
 as
-u8
+u16
 )
 )
 None
@@ -2139,8 +2139,6 @@ functionality
 is_backface_visible
 :
 true
-tag
-:
 tag
 edge_aa_segment_mask
 :
