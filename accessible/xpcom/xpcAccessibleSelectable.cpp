@@ -173,7 +173,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Intl
 (
@@ -334,7 +334,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Intl
 (
@@ -404,7 +404,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Intl
 (
@@ -493,7 +493,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Intl
 (
@@ -550,7 +550,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Intl
 (
@@ -606,7 +606,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Intl
 (
@@ -673,7 +673,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Intl
 (
@@ -727,7 +727,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Intl
 (

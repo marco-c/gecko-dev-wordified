@@ -1600,7 +1600,7 @@ nsXULPrototypeDocument
 aPrototype
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocument
 !
@@ -2457,7 +2457,7 @@ be
 no
 new
 elements
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mState
 !
@@ -2472,7 +2472,7 @@ epilog
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aAttsCount
 %
@@ -3519,7 +3519,7 @@ bool
 _retval
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aError
 &

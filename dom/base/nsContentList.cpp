@@ -3193,7 +3193,7 @@ nsAttrValue
 aOldValue
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aElement
 "
@@ -3423,7 +3423,7 @@ GetParent
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 container
 "
@@ -4424,7 +4424,7 @@ nsIContent
 aContent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent
 "
@@ -4439,7 +4439,7 @@ know
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mDeep
 |

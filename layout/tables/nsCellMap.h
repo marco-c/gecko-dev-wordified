@@ -2998,7 +2998,7 @@ mFoundCells
 0
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aMap
 "
@@ -3008,7 +3008,7 @@ map
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mCol
 <

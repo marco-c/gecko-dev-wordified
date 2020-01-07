@@ -711,7 +711,7 @@ nsFrameList
 aFrameList
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mFirstChild
@@ -2344,7 +2344,7 @@ get
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 AtEnd
@@ -2750,7 +2750,7 @@ FrameLinkEnumerator
 aOther
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 &
 List

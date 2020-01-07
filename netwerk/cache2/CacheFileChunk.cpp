@@ -1423,7 +1423,7 @@ return
 count
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 0
 !

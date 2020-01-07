@@ -4053,7 +4053,7 @@ EventTarget
 aHandler
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aItem
 "
@@ -4252,7 +4252,7 @@ nsIDocShell
 aParentNode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aItem
 "
@@ -4263,7 +4263,7 @@ treeitem
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOwnerContent
 "

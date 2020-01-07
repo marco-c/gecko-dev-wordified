@@ -1108,7 +1108,7 @@ EndEditorInit
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mInitTriggerCounter
 >

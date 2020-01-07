@@ -4403,7 +4403,7 @@ Start
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mStarted

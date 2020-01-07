@@ -3526,7 +3526,7 @@ aUniqueId
 0
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNativeKeyEvent
 "

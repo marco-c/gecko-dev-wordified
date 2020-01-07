@@ -457,7 +457,7 @@ default
 text
 attributes
 .
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mHyperTextAcc
 &

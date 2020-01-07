@@ -3449,7 +3449,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsFramePartOfIBSplit
 (
@@ -3526,7 +3526,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsFramePartOfIBSplit
 (
@@ -3666,7 +3666,7 @@ nsContainerFrame
 aIBSplitSibling
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -3858,7 +3858,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsFramePartOfIBSplit
 (
@@ -4525,7 +4525,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aFrame
@@ -4670,7 +4670,7 @@ nsIFrame
 aChild
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 "
@@ -7414,7 +7414,7 @@ nsFrameConstructorSaveState
 aSaveState
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aNewFloatContainingBlock
@@ -7526,7 +7526,7 @@ aContentParentFrame
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStyleDisplay
 "
@@ -8424,7 +8424,7 @@ nsIFrame
 aInsertAfterFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aNewFrame
@@ -8796,7 +8796,7 @@ kFixedList
 #
 ifdef
 MOZ_XUL
-NS_PRECONDITION
+MOZ_ASSERT
 (
 NS_NONXUL_LIST_TEST
 |
@@ -8829,7 +8829,7 @@ combination
 ;
 #
 else
-NS_PRECONDITION
+MOZ_ASSERT
 (
 NS_NONXUL_LIST_TEST
 "
@@ -13232,7 +13232,7 @@ ComputedStyle
 aComputedStyle
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aComputedStyle
 "
@@ -13245,7 +13245,7 @@ style
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFCData
 "
@@ -13480,7 +13480,7 @@ nsFrameItems
 aFrameItems
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDisplay
 -
@@ -15328,7 +15328,7 @@ that
 s
 fixed
 .
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aChildContent
@@ -17816,7 +17816,7 @@ nsIContent
 aDocElement
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocElement
 "
@@ -17826,7 +17826,7 @@ element
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aDocElement
@@ -17843,7 +17843,7 @@ content
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocElement
 -
@@ -17860,7 +17860,7 @@ document
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocElement
 -
@@ -19767,7 +19767,7 @@ nsIContent
 aEndContent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStartContent
 |
@@ -22203,7 +22203,7 @@ nsFrameItems
 aFrameItems
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 "
@@ -35358,7 +35358,7 @@ FrameConstructionItemList
 aItems
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent
 -
@@ -39907,7 +39907,7 @@ bool
 aIsRecursiveCall
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsFramePartOfIBSplit
@@ -39951,7 +39951,7 @@ kids
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aPrevSibling
@@ -42309,7 +42309,7 @@ nsIContent
 aChildContent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aParentFrame
@@ -42431,7 +42431,7 @@ nsIContent
 aEndSkipChild
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aInsertion
 -
@@ -43186,7 +43186,7 @@ FrameConstructionItemList
 aItems
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleTextContent
 "
@@ -47803,7 +47803,7 @@ GetPresContext
 FrameC
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStartChild
 "
@@ -53831,7 +53831,7 @@ nsIContent
 node
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 presShell
 -
@@ -53847,7 +53847,7 @@ here
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 presShell
 -
@@ -57994,7 +57994,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -58005,7 +58005,7 @@ frame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 -
@@ -58023,7 +58023,7 @@ root
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 =
@@ -61300,7 +61300,7 @@ nsIFrame
 aBlockFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBlockFrame
 "
@@ -67356,7 +67356,7 @@ nsIFrame
 aPossiblyLeafFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -67368,7 +67368,7 @@ here
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 -
@@ -70259,7 +70259,7 @@ nsIContent
 aContent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent
 "
@@ -70893,7 +70893,7 @@ nsFrameItems
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTextContent
 -
@@ -75414,7 +75414,7 @@ block
 -
 level
 .
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChildItems
 .
@@ -75429,7 +75429,7 @@ items
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aChildItems
@@ -76184,7 +76184,7 @@ nsIFrame
 aNextSibling
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsInlineFrame
 (
@@ -80173,7 +80173,7 @@ aState
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aState
 .
@@ -80374,7 +80374,7 @@ int32_t
 aDelta
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDelta
 =
@@ -80627,7 +80627,7 @@ ParentType
 aParentType
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsDone
@@ -80694,7 +80694,7 @@ ParentType
 aParentType
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsDone
@@ -81032,7 +81032,7 @@ bool
 aIsLegacyBox
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsDone
@@ -81102,7 +81102,7 @@ bool
 aIsLegacyBox
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsDone
@@ -81169,7 +81169,7 @@ SkipItemsNotWantingRubyParent
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsDone
@@ -81238,7 +81238,7 @@ nsFrameConstructorState
 aState
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsDone
@@ -81254,7 +81254,7 @@ yet
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 item
 (
@@ -81338,7 +81338,7 @@ call
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsDone
@@ -81434,7 +81434,7 @@ call
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 &
 mList
@@ -81763,7 +81763,7 @@ Iterator
 aEnd
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 &
 mList
@@ -81784,7 +81784,7 @@ list
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 *
 this

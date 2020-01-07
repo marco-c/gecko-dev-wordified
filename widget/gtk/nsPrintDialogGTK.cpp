@@ -3039,7 +3039,7 @@ nsIPrintSettings
 aNSSettings
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNSSettings
 "
@@ -3189,7 +3189,7 @@ nsIPrintSettings
 aNSSettings
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNSSettings
 "
@@ -4587,7 +4587,7 @@ GtkWindow
 aWindow
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aWindow
 "
@@ -4599,7 +4599,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mPrintAndPageSettings
 "
@@ -6336,7 +6336,7 @@ nsIWebBrowserPrint
 aWebBrowserPrint
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 "
@@ -6348,7 +6348,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSettings
 "
@@ -6765,7 +6765,7 @@ nsIPrintSettings
 aNSSettings
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 "
@@ -6777,7 +6777,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNSSettings
 "

@@ -4525,7 +4525,7 @@ do_QueryInterface
 aOldChannel
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOldRequest
 "
@@ -4552,7 +4552,7 @@ rv
 rv
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewChannel
 "
@@ -7277,7 +7277,7 @@ IsClosed
 return
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 thisObject

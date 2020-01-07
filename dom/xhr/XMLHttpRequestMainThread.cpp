@@ -17704,7 +17704,7 @@ nsIAsyncVerifyRedirectCallback
 callback
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewChannel
 "

@@ -2155,7 +2155,7 @@ check
 those
 last
 .
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mXMLMatchAtom
 "

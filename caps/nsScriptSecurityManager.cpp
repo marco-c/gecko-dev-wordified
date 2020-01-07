@@ -1645,7 +1645,7 @@ bool
 aIgnoreSandboxing
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChannel
 "
@@ -2221,7 +2221,7 @@ nsIPrincipal
 aPrincipal
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChannel
 "
@@ -3346,7 +3346,7 @@ uint32_t
 aURIFlags
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "
@@ -3541,7 +3541,7 @@ uint32_t
 aFlags
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPrincipal
 "

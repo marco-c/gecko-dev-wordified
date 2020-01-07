@@ -2315,7 +2315,7 @@ nsXULPrototypePI
 aPI
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPI
 "
@@ -2375,7 +2375,7 @@ nsIURI
 aURI
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "
@@ -2444,7 +2444,7 @@ DocumentPrincipal
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mNodeInfoManager
 "

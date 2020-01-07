@@ -5484,7 +5484,7 @@ nsMultiMixedConv
 aMultiMixedConv
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aMultiMixedConv
 !

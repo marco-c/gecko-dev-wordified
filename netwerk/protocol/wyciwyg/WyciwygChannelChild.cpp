@@ -3239,7 +3239,7 @@ owner
 or
 loadinfo
 .
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOwner
 |

@@ -481,7 +481,7 @@ nsHtml5AtomTable
 interner
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 local
 "
@@ -492,7 +492,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 interner
 "

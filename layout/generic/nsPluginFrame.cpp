@@ -10744,10 +10744,12 @@ void
 *
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSupports
 "
+null
+parameter
 "
 )
 ;
@@ -10886,10 +10888,12 @@ void
 *
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSupports
 "
+null
+parameter
 "
 )
 ;

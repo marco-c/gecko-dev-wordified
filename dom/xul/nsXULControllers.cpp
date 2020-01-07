@@ -311,7 +311,7 @@ void
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOuter
 =

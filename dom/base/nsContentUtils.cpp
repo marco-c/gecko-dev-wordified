@@ -4692,7 +4692,7 @@ wyciwyg
 isWyciwyg
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 isWyciwyg
 "
@@ -6260,7 +6260,7 @@ HTMLInputElement
 aInput
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aInput
 "
@@ -12130,7 +12130,7 @@ nsINode
 aNode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -13234,7 +13234,7 @@ nsINode
 aChild
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 "
@@ -13366,7 +13366,7 @@ nsINode
 aPossibleAncestor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleDescendant
 "
@@ -13379,7 +13379,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleAncestor
 "
@@ -13439,7 +13439,7 @@ nsINode
 aPossibleAncestor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleDescendant
 "
@@ -13452,7 +13452,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleAncestor
 "
@@ -13685,7 +13685,7 @@ nsINode
 aPossibleAncestor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleDescendant
 "
@@ -13698,7 +13698,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleAncestor
 "
@@ -13759,7 +13759,7 @@ nsINode
 aPossibleAncestor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleDescendant
 "
@@ -13772,7 +13772,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleAncestor
 "
@@ -13837,7 +13837,7 @@ nsINode
 aPossibleAncestor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleDescendant
 "
@@ -13850,7 +13850,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleAncestor
 "
@@ -19304,7 +19304,7 @@ uint32_t
 aContentType
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "
@@ -19315,7 +19315,7 @@ URI
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLoadingDocument
 "
@@ -19326,7 +19326,7 @@ document
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLoadingPrincipal
 "
@@ -20407,7 +20407,7 @@ bool
 aUseUrgentStartForChannel
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "
@@ -20418,7 +20418,7 @@ URI
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContext
 "
@@ -20429,7 +20429,7 @@ context
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLoadingDocument
 "
@@ -20440,7 +20440,7 @@ document
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLoadingPrincipal
 "
@@ -20451,7 +20451,7 @@ principal
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRequest
 "
@@ -20977,7 +20977,7 @@ nsIContent
 aContent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent
 "
@@ -25174,7 +25174,7 @@ nsAString
 aId
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aId
@@ -25972,7 +25972,7 @@ nsIDocument
 aOwnerDoc
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 "
@@ -25981,7 +25981,7 @@ child
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 -
@@ -25998,7 +25998,7 @@ parent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 -
@@ -29802,7 +29802,7 @@ nsIContent
 aContent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -29816,7 +29816,7 @@ with
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent
 "
@@ -30220,7 +30220,7 @@ nsPresContext
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLinkURI
 "
@@ -34900,7 +34900,7 @@ nsIAsyncVerifyRedirectCallback
 cb
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewChannel
 "
@@ -34988,7 +34988,7 @@ nsACString
 aOrigin
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPrincipal
 "
@@ -35074,7 +35074,7 @@ nsACString
 aOrigin
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "
@@ -35367,7 +35367,7 @@ nsAString
 aOrigin
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPrincipal
 "
@@ -35453,7 +35453,7 @@ nsAString
 aOrigin
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "

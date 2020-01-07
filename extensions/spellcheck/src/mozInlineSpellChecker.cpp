@@ -10511,7 +10511,7 @@ nsINode
 aPossibleAncestor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleDescendant
 "
@@ -10524,7 +10524,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPossibleAncestor
 "

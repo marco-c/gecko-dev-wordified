@@ -567,7 +567,7 @@ nsINode
 aNode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -1465,7 +1465,7 @@ uint32_t
 aEndOffset
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -3217,7 +3217,7 @@ nsINode
 aNode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -3322,7 +3322,7 @@ bool
 aIsUnlinking
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -6994,7 +6994,7 @@ bool
 aNotInsertedYet
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 (
 aStart
@@ -7043,7 +7043,7 @@ none
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aRoot
@@ -7112,7 +7112,7 @@ root
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aRoot

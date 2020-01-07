@@ -3249,7 +3249,7 @@ EventStates
 aStates
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aStates
@@ -3290,7 +3290,7 @@ EventStates
 aStates
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aStates
@@ -3333,7 +3333,7 @@ bool
 aNotify
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aStates

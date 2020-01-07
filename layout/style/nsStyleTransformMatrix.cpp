@@ -1535,7 +1535,7 @@ TransformReferenceBox
 aRefBox
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -1742,7 +1742,7 @@ TransformReferenceBox
 aRefBox
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -3244,7 +3244,7 @@ bool
 aContains3dTransform
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -3673,7 +3673,7 @@ TransformReferenceBox
 aRefBox
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -3755,7 +3755,7 @@ TransformReferenceBox
 aRefBox
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -3822,7 +3822,7 @@ Array
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -3898,7 +3898,7 @@ TransformReferenceBox
 aRefBox
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -4029,7 +4029,7 @@ TransformReferenceBox
 aRefBox
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -4181,7 +4181,7 @@ Array
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -4247,7 +4247,7 @@ Array
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -4304,7 +4304,7 @@ Array
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -4361,7 +4361,7 @@ Array
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -4443,7 +4443,7 @@ Array
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -4885,7 +4885,7 @@ Array
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -4942,7 +4942,7 @@ Array
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -4999,7 +4999,7 @@ Array
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -5056,7 +5056,7 @@ Array
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -5170,7 +5170,7 @@ Array
 aData
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -5260,7 +5260,7 @@ MOZ_ASSERT
 aContains3dTransform
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 "

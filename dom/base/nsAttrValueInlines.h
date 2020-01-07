@@ -762,7 +762,7 @@ GetIntegerValue
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Type
 (
@@ -810,7 +810,7 @@ GetEnumValue
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Type
 (
@@ -905,7 +905,7 @@ GetPercentValue
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Type
 (
@@ -963,7 +963,7 @@ GetAtomArrayValue
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Type
 (
@@ -1002,7 +1002,7 @@ GetCSSDeclarationValue
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Type
 (
@@ -1038,7 +1038,7 @@ GetURLValue
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Type
 (
@@ -1073,7 +1073,7 @@ GetDoubleValue
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Type
 (
@@ -1109,7 +1109,7 @@ aMargin
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Type
 (
@@ -1489,7 +1489,7 @@ GetAtomValue
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 Type
 (

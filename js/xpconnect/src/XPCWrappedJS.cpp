@@ -1439,7 +1439,7 @@ nullptr
 aInstancePtr
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 false
 "
@@ -3975,7 +3975,7 @@ nsIID
 iid
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 iid
 "

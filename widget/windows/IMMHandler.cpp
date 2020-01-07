@@ -8248,7 +8248,7 @@ IMEContext
 aContext
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsComposing

@@ -901,7 +901,7 @@ nsresult
 pErr
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 s
 "
@@ -2642,7 +2642,7 @@ nsresult
 pErr
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 d
 "
@@ -8218,7 +8218,7 @@ nsresult
 pErr
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 s
 "
@@ -10716,7 +10716,7 @@ nsresult
 pErr
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 s
 "
@@ -10914,7 +10914,7 @@ nsresult
 pErr
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 s
@@ -10928,7 +10928,7 @@ param
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 d
 "

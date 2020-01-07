@@ -3893,7 +3893,7 @@ int32_t
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aResult
 "
@@ -3931,7 +3931,7 @@ int32_t
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aResult
 "

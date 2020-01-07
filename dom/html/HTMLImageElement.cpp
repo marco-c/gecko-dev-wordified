@@ -4964,7 +4964,7 @@ HTMLFormElement
 aForm
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aForm
 "

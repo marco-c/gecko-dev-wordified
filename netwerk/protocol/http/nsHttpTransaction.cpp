@@ -9144,7 +9144,7 @@ uint32_t
 len
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mHaveAllHeaders
@@ -9491,7 +9491,7 @@ countRead
 =
 0
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mHaveAllHeaders
@@ -14750,7 +14750,7 @@ Release
 nsrefcnt
 count
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 0
 !

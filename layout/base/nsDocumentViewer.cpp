@@ -15255,7 +15255,7 @@ nsView
 aContainerView
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mPresShell
@@ -15274,7 +15274,7 @@ presentation
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mDocument
 "

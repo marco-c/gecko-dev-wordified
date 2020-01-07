@@ -3698,7 +3698,7 @@ EventChainVisitor
 aVisitor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nsCOMPtr
 <
@@ -3968,7 +3968,7 @@ aURI
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "
@@ -10489,7 +10489,7 @@ HTMLFormElement
 aForm
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aForm
 "
@@ -13309,7 +13309,7 @@ Element
 aFormIdElement
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aBindToTree

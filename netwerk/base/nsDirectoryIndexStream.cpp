@@ -697,7 +697,7 @@ rv
 return
 rv
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 isDir
 "

@@ -4832,7 +4832,7 @@ Value
 aArgv
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aArg
 "

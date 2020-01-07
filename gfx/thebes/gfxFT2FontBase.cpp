@@ -668,7 +668,7 @@ cairo_text_extents_t
 aExtents
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aExtents
 !

@@ -574,7 +574,7 @@ int32_t
 aCharsetSource
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mExecutor
@@ -593,7 +593,7 @@ late
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 GetStreamParser
 (
@@ -923,7 +923,7 @@ OnStartRequest
 !
 *
 /
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mExecutor
@@ -945,7 +945,7 @@ parser
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 GetStreamParser
 (
@@ -3690,7 +3690,7 @@ char
 aCommand
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mStreamListener
@@ -4735,7 +4735,7 @@ ContinueAfterFailedCharsetSwitch
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 GetStreamParser
 (

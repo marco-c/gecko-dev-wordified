@@ -9493,7 +9493,7 @@ AddRef
 void
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 int32_t
 (
@@ -9559,7 +9559,7 @@ Release
 void
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 0
 !

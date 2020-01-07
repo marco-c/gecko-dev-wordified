@@ -20809,7 +20809,7 @@ iterator
 aLineEnd
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 0
 =
@@ -21951,7 +21951,7 @@ nscoord
 aDeltaBCoord
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDeltaBCoord
 !
@@ -23490,7 +23490,7 @@ bool
 aKeepReflowGoing
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 *
 aKeepReflowGoing
@@ -37650,7 +37650,7 @@ nsFrameList
 aPropValue
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 !
@@ -44827,7 +44827,7 @@ bool
 aDeletingEmptyFrames
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNextInFlow
 -
@@ -45321,7 +45321,7 @@ nsIFrame
 aFloat
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFloat
 -
@@ -45449,7 +45449,7 @@ nsReflowStatus
 aReflowStatus
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFloat
 -
@@ -47407,7 +47407,7 @@ nsSize
 aContainerSize
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -53660,7 +53660,7 @@ nsIFrame
 aBlock
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBlock
 "

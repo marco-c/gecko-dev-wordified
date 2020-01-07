@@ -4620,7 +4620,7 @@ MOZ_ASSERT_TYPE_OK_FOR_REFCOUNTING
 _class
 )
 \
-NS_PRECONDITION
+MOZ_ASSERT
 (
 _aggregator
 "
@@ -5306,7 +5306,7 @@ void
 \
 {
 \
-NS_PRECONDITION
+MOZ_ASSERT
 (
 _aggregator
 "

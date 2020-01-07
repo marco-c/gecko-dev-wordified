@@ -1279,7 +1279,7 @@ lockIt
 this
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mActionNesting
 >

@@ -4293,7 +4293,7 @@ nscoord
 aAvailableISize
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLineLayout
 "
@@ -4304,7 +4304,7 @@ layout
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mBlock
 -
@@ -4321,7 +4321,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFloat
 -

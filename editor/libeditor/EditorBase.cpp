@@ -20265,7 +20265,7 @@ to
 check
 params
 .
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsDescendantOfEditorRoot
 (
@@ -23250,7 +23250,7 @@ BeginUpdateViewBatch
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mUpdateCount
 >
@@ -23314,7 +23314,7 @@ EndUpdateViewBatch
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mUpdateCount
 >

@@ -2211,7 +2211,7 @@ int32_t
 aNsID
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNsID
 !

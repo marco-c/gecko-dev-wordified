@@ -8686,7 +8686,7 @@ nsContainerFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -10006,7 +10006,7 @@ nsIContent
 aCommonAncestor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent1
 "
@@ -10018,7 +10018,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent2
 "
@@ -10633,7 +10633,7 @@ nsIFrame
 aCommonAncestor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame1
 "
@@ -10645,7 +10645,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame2
 "
@@ -10724,7 +10724,7 @@ nsIFrame
 aCommonAncestor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame1
 "
@@ -10736,7 +10736,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame2
 "
@@ -13032,7 +13032,7 @@ nsPresContext
 aPresContext
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPresContext
 "
@@ -31991,7 +31991,7 @@ nscoord
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aProperty
 =
@@ -33367,7 +33367,7 @@ nscoord
 aMarginBoxMinSizeClamp
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -33376,7 +33376,7 @@ frame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 -
@@ -33395,7 +33395,7 @@ tree
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aType
 =
@@ -36504,7 +36504,7 @@ passing
 auto
 '
 .
-NS_PRECONDITION
+MOZ_ASSERT
 (
 NS_AUTOHEIGHT
 !
@@ -40867,7 +40867,7 @@ nsBlockFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -41023,7 +41023,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -51172,7 +51172,7 @@ uint32_t
 aMaxRanges
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -51349,7 +51349,7 @@ uint32_t
 aMaxRanges
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -51863,7 +51863,7 @@ uint32_t
 aMaxRanges
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -52211,7 +52211,7 @@ bool
 clear
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "

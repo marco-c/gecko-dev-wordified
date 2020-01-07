@@ -438,7 +438,7 @@ nsIDOMDocument
 aContentDocument
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContentDocument
 "

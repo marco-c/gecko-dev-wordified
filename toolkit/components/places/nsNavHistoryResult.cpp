@@ -16944,7 +16944,7 @@ uint32_t
 aTransitionType
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOptions
 -

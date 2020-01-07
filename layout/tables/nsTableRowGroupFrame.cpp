@@ -7451,7 +7451,7 @@ GetPrevInFlow
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mFrames
 .
@@ -7677,7 +7677,7 @@ bool
 aRowForcedPageBreak
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPresContext
 -

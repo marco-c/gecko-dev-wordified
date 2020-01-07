@@ -7331,7 +7331,7 @@ siblingIndex
 mCurrentIndex
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mCurrentIndex
 >

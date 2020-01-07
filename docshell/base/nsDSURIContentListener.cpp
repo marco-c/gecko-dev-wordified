@@ -1493,7 +1493,7 @@ bool
 aCanHandleContent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aCanHandleContent
 "

@@ -241,7 +241,7 @@ nsIAboutModule
 aModule
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aAboutURI
 "

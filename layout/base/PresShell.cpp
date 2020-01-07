@@ -5695,7 +5695,7 @@ ServoStyleSet
 aStyleSet
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocument
 "
@@ -5704,7 +5704,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPresContext
 "
@@ -5713,7 +5713,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aViewManager
 "
@@ -5722,7 +5722,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mDocument
@@ -11752,7 +11752,7 @@ ResizeReflowOptions
 aOptions
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsReflowing
@@ -15011,7 +15011,7 @@ aUpdateType
 #
 ifdef
 DEBUG
-NS_PRECONDITION
+MOZ_ASSERT
 (
 0
 !
@@ -15290,7 +15290,7 @@ nsIDocument
 aDocument
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocument
 =
@@ -15703,7 +15703,7 @@ ReflowRootHandling
 aRootHandling
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBitToAdd
 =
@@ -16694,7 +16694,7 @@ dirty
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mCurrentReflowRoot
 "
@@ -23577,7 +23577,7 @@ nsILayoutHistoryState
 aState
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -26269,7 +26269,7 @@ CharacterDataChangeInfo
 aInfo
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsDocumentGone
@@ -26279,7 +26279,7 @@ CharacterDataChanged
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent
 -
@@ -26342,7 +26342,7 @@ EventStates
 aStateMask
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsDocumentGone
@@ -26352,7 +26352,7 @@ ContentStateChanged
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocument
 =
@@ -26404,7 +26404,7 @@ EventStates
 aStateMask
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsDocumentGone
@@ -26414,7 +26414,7 @@ DocumentStatesChanged
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocument
 =
@@ -26506,7 +26506,7 @@ nsAttrValue
 aNewValue
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsDocumentGone
@@ -26516,7 +26516,7 @@ AttributeWillChange
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aElement
 -
@@ -26620,7 +26620,7 @@ nsAttrValue
 aOldValue
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsDocumentGone
@@ -26630,7 +26630,7 @@ AttributeChanged
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aElement
 -
@@ -26723,7 +26723,7 @@ nsIContent
 aFirstNewContent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsDocumentGone
@@ -26733,7 +26733,7 @@ ContentAppended
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFirstNewContent
 -
@@ -26901,7 +26901,7 @@ nsIContent
 aChild
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsDocumentGone
@@ -26911,7 +26911,7 @@ ContentInserted
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 -
@@ -27020,7 +27020,7 @@ nsIContent
 aPreviousSibling
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mIsDocumentGone
@@ -27030,7 +27030,7 @@ ContentRemoved
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 -
@@ -27355,7 +27355,7 @@ ReconstructFrames
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mFrameConstructor
@@ -54729,7 +54729,7 @@ PresShell
 aPresShell
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTimer
 =
@@ -54767,7 +54767,7 @@ ScheduleReflowOffTimer
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mObservingLayoutFlushes
@@ -67527,7 +67527,7 @@ bool
 aIsActive
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mDocument
 "

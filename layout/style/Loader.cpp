@@ -1260,7 +1260,7 @@ mPreloadEncoding
 nullptr
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mLoader
 "
@@ -1406,7 +1406,7 @@ mPreloadEncoding
 nullptr
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mLoader
 "
@@ -1609,7 +1609,7 @@ mPreloadEncoding
 aPreloadEncoding
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mLoader
 "
@@ -5731,7 +5731,7 @@ CreateSheet
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSheet
 "
@@ -7056,7 +7056,7 @@ IsAlternate
 aIsAlternate
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSheet
 "
@@ -7304,7 +7304,7 @@ InsertSheetInDoc
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSheet
 "
@@ -7314,7 +7314,7 @@ insert
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocument
 "
@@ -8093,7 +8093,7 @@ LoadSheet
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLoadData
 "
@@ -8104,7 +8104,7 @@ data
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLoadData
 -
@@ -8119,7 +8119,7 @@ load
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLoadData
 -
@@ -8135,7 +8135,7 @@ into
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSheetState
 !
@@ -8148,7 +8148,7 @@ bother
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aLoadData
@@ -11404,7 +11404,7 @@ DoSheetComplete
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLoadData
 "
@@ -11417,7 +11417,7 @@ data
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLoadData
 -
@@ -13019,7 +13019,7 @@ nsICSSLoaderObserver
 aObserver
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURL
 "
@@ -14055,7 +14055,7 @@ LoadChildSheet
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURL
 "
@@ -14068,7 +14068,7 @@ load
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParentSheet
 "
@@ -14892,7 +14892,7 @@ call
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSheet
 "
@@ -15026,7 +15026,7 @@ nsAString
 aIntegrity
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURL
 "
@@ -15039,7 +15039,7 @@ load
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSheet
 |
@@ -15058,7 +15058,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aUseSystemPrincipal
@@ -15411,7 +15411,7 @@ PostLoadEvent
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSheet
 "
@@ -15421,7 +15421,7 @@ sheet
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aObserver
 |
@@ -16333,7 +16333,7 @@ nsICSSLoaderObserver
 aObserver
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aObserver
 "
@@ -16388,7 +16388,7 @@ StartDeferredLoads
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mSheets
 "

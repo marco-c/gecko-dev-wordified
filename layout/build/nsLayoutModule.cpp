@@ -1747,7 +1747,7 @@ Shutdown
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 gInitialized
 "

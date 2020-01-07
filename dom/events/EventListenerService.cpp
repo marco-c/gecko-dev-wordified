@@ -1822,7 +1822,7 @@ JSContext
 aCx
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTarget
 "
@@ -1933,7 +1933,7 @@ JSContext
 aCx
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTarget
 "

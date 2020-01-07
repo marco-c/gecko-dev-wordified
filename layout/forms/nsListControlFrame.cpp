@@ -2664,7 +2664,7 @@ status
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aReflowInput
 .
@@ -3632,7 +3632,7 @@ nsReflowStatus
 aStatus
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aReflowInput
 .
@@ -8386,7 +8386,7 @@ int32_t
 aIndex
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aIndex
 >
@@ -10619,7 +10619,7 @@ int32_t
 aNumberOfOptions
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsInDropDownMode

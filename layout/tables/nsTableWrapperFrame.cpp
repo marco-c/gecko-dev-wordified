@@ -924,7 +924,7 @@ should
 be
 the
 caption
-NS_PRECONDITION
+MOZ_ASSERT
 (
 kCaptionList
 =

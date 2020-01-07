@@ -1968,7 +1968,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -12777,7 +12777,7 @@ PaintStyleImageLayer
 GRAPHICS
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParams
 .
@@ -13326,7 +13326,7 @@ nsDisplayItem
 aItem
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParams
 .
@@ -16803,7 +16803,7 @@ nsStyleBorder
 aBorder
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParams
 .

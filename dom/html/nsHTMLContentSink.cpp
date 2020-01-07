@@ -4265,7 +4265,7 @@ nsParserBase
 aParser
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParser
 "
@@ -5036,7 +5036,7 @@ NotifyRootInsertion
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mNotifiedRootInsertion

@@ -723,7 +723,7 @@ DestinationType
 aDestination
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDestination
 "
@@ -772,7 +772,7 @@ DestinationType
 aDestination
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDestination
 "
@@ -824,7 +824,7 @@ DestinationType
 aDestination
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContractID
 "
@@ -833,7 +833,7 @@ parameter
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDestination
 "
@@ -882,7 +882,7 @@ DestinationType
 aDestination
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContractID
 "
@@ -891,7 +891,7 @@ parameter
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDestination
 "
@@ -942,7 +942,7 @@ DestinationType
 aDestination
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFactory
 "
@@ -951,7 +951,7 @@ parameter
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDestination
 "
@@ -1001,7 +1001,7 @@ DestinationType
 aDestination
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFactory
 "
@@ -1010,7 +1010,7 @@ parameter
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDestination
 "
@@ -1061,7 +1061,7 @@ DestinationType
 aDestination
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDestination
 "
@@ -1109,7 +1109,7 @@ DestinationType
 aDestination
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDestination
 "

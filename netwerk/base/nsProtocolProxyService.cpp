@@ -12802,7 +12802,7 @@ nsProtocolInfo
 info
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 uri
 "
@@ -12812,7 +12812,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 info
 "

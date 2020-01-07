@@ -5507,7 +5507,7 @@ started
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mExecutor

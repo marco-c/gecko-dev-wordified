@@ -666,7 +666,7 @@ nsDeviceContext
 aContext
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -805,7 +805,7 @@ nsView
 aView
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aView
@@ -4012,7 +4012,7 @@ nsRect
 aRect
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -5087,10 +5087,12 @@ nsIWidget
 aNewWidget
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewWidget
 "
+null
+widget
 "
 )
 ;
@@ -5300,7 +5302,7 @@ nsView
 aParent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 "
@@ -5311,7 +5313,7 @@ parent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aView
 "
@@ -5491,7 +5493,7 @@ bool
 aAfter
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -5503,7 +5505,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -6923,7 +6925,7 @@ CallWillPaintOnObservers
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsRootVM
 (

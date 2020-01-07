@@ -4872,7 +4872,7 @@ ComputedStyle
 aStyle
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPresShell
 "

@@ -264,7 +264,7 @@ nsILayoutDebugger
 aResult
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aResult
 "

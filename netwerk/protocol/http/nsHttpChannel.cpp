@@ -3267,7 +3267,7 @@ OnBeforeConnectContinue
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCallOnResume
@@ -5206,7 +5206,7 @@ HandleAsyncRedirect
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCallOnResume
@@ -5622,7 +5622,7 @@ HandleAsyncNotModified
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCallOnResume
@@ -5734,7 +5734,7 @@ HandleAsyncFallback
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCallOnResume
@@ -14525,7 +14525,7 @@ ContinueProcessResponse1
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCallOnResume
@@ -17607,7 +17607,7 @@ HandleAsyncRedirectChannelToHttps
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCallOnResume
@@ -17800,7 +17800,7 @@ HandleAsyncAPIRedirect
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCallOnResume
@@ -17813,7 +17813,7 @@ happen
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mAPIRedirectToURI
 "
@@ -18697,7 +18697,7 @@ rv
 return
 rv
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mRedirectChannel
 "
@@ -22779,7 +22779,7 @@ rv
 return
 rv
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mRedirectChannel
 "
@@ -23069,7 +23069,7 @@ not
 abusing
 this
 function
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCacheEntry
@@ -24273,7 +24273,7 @@ not
 abusing
 this
 function
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mOfflineCacheEntry
@@ -36005,7 +36005,7 @@ rv
 return
 rv
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mRedirectChannel
 "
@@ -40298,7 +40298,7 @@ HandleBeginConnectContinue
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCallOnResume
@@ -42286,7 +42286,7 @@ this
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCallOnResume

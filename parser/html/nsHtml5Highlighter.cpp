@@ -2658,7 +2658,7 @@ nsHtml5UTF16Buffer
 aBuffer
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mBuffer
@@ -2695,7 +2695,7 @@ int32_t
 aPos
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mBuffer
 "
@@ -2798,7 +2798,7 @@ StartCharacters
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mInCharacters
@@ -2843,7 +2843,7 @@ EndCharactersAndStartMarkupRun
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mInCharacters
 "
@@ -3515,7 +3515,7 @@ HTMLContentCreatorFunction
 aCreator
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aName
 "
@@ -3576,7 +3576,7 @@ CurrentNode
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mStack
 .
@@ -3631,7 +3631,7 @@ HTMLContentCreatorFunction
 aCreator
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mStack
 .
@@ -3704,7 +3704,7 @@ Pop
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mStack
 .
@@ -3747,7 +3747,7 @@ int32_t
 aLength
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBuffer
 "
@@ -4025,7 +4025,7 @@ char
 aMsgId
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mCurrentRun
 "
@@ -4086,7 +4086,7 @@ nsAtom
 aName
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mCurrentRun
 "
@@ -4151,7 +4151,7 @@ nsAtom
 aOther
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mCurrentRun
 "
@@ -4211,7 +4211,7 @@ char
 aMsgId
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mAmpersand
 "
@@ -4269,7 +4269,7 @@ char
 aMsgId
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mSlash
 "

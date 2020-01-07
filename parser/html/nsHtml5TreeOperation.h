@@ -890,7 +890,7 @@ eHtml5TreeOperation
 aOpCode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -924,7 +924,7 @@ nsIContentHandle
 aNode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -942,7 +942,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -989,7 +989,7 @@ nsIContentHandle
 aParent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -1007,7 +1007,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -1021,7 +1021,7 @@ node
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 "
@@ -1082,7 +1082,7 @@ int32_t
 aInt32
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -1233,7 +1233,7 @@ int32_t
 aInt32
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -1318,7 +1318,7 @@ nsIContentHandle
 aTable
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -1336,7 +1336,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -1350,7 +1350,7 @@ node
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 "
@@ -1364,7 +1364,7 @@ parent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTable
 "
@@ -1433,7 +1433,7 @@ nsHtml5DocumentMode
 aMode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -1471,7 +1471,7 @@ nsIContentHandle
 aNode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -1489,7 +1489,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -1552,7 +1552,7 @@ nsHtml5ContentCreatorFunction
 aCreator
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -1570,7 +1570,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aName
 "
@@ -1584,7 +1584,7 @@ name
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTarget
 "
@@ -1746,7 +1746,7 @@ nsIContentHandle
 aTable
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -1764,7 +1764,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBuffer
 "
@@ -1839,7 +1839,7 @@ nsIContentHandle
 aParent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -1857,7 +1857,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBuffer
 "
@@ -1915,7 +1915,7 @@ int32_t
 aLength
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -1933,7 +1933,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBuffer
 "
@@ -1976,7 +1976,7 @@ nsHtml5HtmlAttributes
 aAttributes
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -1994,7 +1994,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aElement
 "
@@ -2050,7 +2050,7 @@ nsAString
 aSystemId
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -2109,7 +2109,7 @@ nsAtom
 aOtherAtom
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -2229,7 +2229,7 @@ int32_t
 aLineNumber
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -2289,7 +2289,7 @@ nsAString
 aString
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -2340,7 +2340,7 @@ int32_t
 aInt
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -2358,7 +2358,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -2405,7 +2405,7 @@ nsresult
 aRv
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -2423,7 +2423,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -2465,7 +2465,7 @@ char16_t
 aClass
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -2483,7 +2483,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -2497,7 +2497,7 @@ node
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aClass
 "
@@ -2565,7 +2565,7 @@ int32_t
 aLineNumber
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mOpCode
 =
@@ -2583,7 +2583,7 @@ initializing
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
@@ -2597,7 +2597,7 @@ node
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLineNumber
 >
@@ -2708,7 +2708,7 @@ eTreeOpRunScript
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSnapshot
 "

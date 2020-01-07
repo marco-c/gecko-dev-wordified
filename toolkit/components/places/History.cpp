@@ -3293,7 +3293,7 @@ aCallback
 nullptr
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "
@@ -16920,7 +16920,7 @@ XRE_IsContentProcess
 )
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aLink
 "

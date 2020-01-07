@@ -4286,7 +4286,7 @@ nsISupports
 aSecurityInfo
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSecurityInfo
 "

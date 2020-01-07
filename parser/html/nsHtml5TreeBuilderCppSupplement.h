@@ -415,7 +415,7 @@ nsHtml5ContentCreatorFunction
 aCreator
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aAttributes
 "
@@ -426,7 +426,7 @@ attributes
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aName
 "
@@ -437,7 +437,7 @@ name
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNamespace
 =
@@ -2758,7 +2758,7 @@ nsHtml5ContentCreatorFunction
 aCreator
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTable
 "
@@ -2767,7 +2767,7 @@ table
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStackParent
 "
@@ -2976,7 +2976,7 @@ nsIContentHandle
 aElement
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aElement
 "
@@ -3064,7 +3064,7 @@ nsIContentHandle
 aParent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 "
@@ -3073,7 +3073,7 @@ child
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 "
@@ -3195,7 +3195,7 @@ nsIContentHandle
 aNewParent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aOldParent
 "
@@ -3205,7 +3205,7 @@ parent
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewParent
 "
@@ -3327,7 +3327,7 @@ nsIContentHandle
 aStackParent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBuffer
 "
@@ -3336,7 +3336,7 @@ buffer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTable
 "
@@ -3345,7 +3345,7 @@ table
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStackParent
 "
@@ -3570,7 +3570,7 @@ nsIContentHandle
 aStackParent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChild
 "
@@ -3579,7 +3579,7 @@ child
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTable
 "
@@ -3588,7 +3588,7 @@ table
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStackParent
 "
@@ -3716,7 +3716,7 @@ int32_t
 aLength
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBuffer
 "
@@ -3725,7 +3725,7 @@ buffer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 "
@@ -3949,7 +3949,7 @@ int32_t
 aLength
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBuffer
 "
@@ -3958,7 +3958,7 @@ buffer
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aParent
 "
@@ -4179,7 +4179,7 @@ int32_t
 aLength
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aBuffer
 "
@@ -4382,7 +4382,7 @@ nsHtml5HtmlAttributes
 aAttributes
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aElement
 "
@@ -4391,7 +4391,7 @@ element
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aAttributes
 "
@@ -4538,7 +4538,7 @@ nsIContentHandle
 aElement
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aElement
 "
@@ -4678,7 +4678,7 @@ nsHtml5String
 aSystemId
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aName
 "
@@ -7596,7 +7596,7 @@ builder
 return
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 HasScript
 (
@@ -7613,7 +7613,7 @@ to
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSnapshot
 "

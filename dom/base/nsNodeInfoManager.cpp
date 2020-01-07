@@ -608,7 +608,7 @@ nsIDocument
 aDocument
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mPrincipal
@@ -1667,7 +1667,7 @@ NodeInfo
 aNodeInfo
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNodeInfo
 "

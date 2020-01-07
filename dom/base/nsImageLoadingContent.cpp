@@ -886,7 +886,7 @@ request
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRequest
 =
@@ -1973,7 +1973,7 @@ int16_t
 aStatus
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStatus
 "
@@ -3767,7 +3767,7 @@ int32_t
 aRequestType
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRequestType
 "
@@ -6642,7 +6642,7 @@ nsIURI
 aURI
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocument
 "
@@ -6653,7 +6653,7 @@ document
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "
@@ -9290,4 +9290,3 @@ net
 RP_Unset
 ;
 }
-;

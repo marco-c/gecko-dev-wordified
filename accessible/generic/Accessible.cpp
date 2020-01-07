@@ -15231,7 +15231,7 @@ StartOffset
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsLink
 (
@@ -15285,7 +15285,7 @@ EndOffset
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsLink
 (
@@ -15343,7 +15343,7 @@ AnchorCount
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsLink
 (
@@ -15375,7 +15375,7 @@ uint32_t
 aAnchorIndex
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsLink
 (
@@ -15416,7 +15416,7 @@ uint32_t
 aAnchorIndex
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 IsLink
 (

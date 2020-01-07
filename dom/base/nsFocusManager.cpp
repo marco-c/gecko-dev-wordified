@@ -9770,7 +9770,7 @@ nsIContent
 aContent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent
 "
@@ -9782,7 +9782,7 @@ NULL
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent
 -

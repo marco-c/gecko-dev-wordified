@@ -551,7 +551,7 @@ passed
 -
 through
 parameters
-NS_PRECONDITION
+MOZ_ASSERT
 (
 decision
 "
@@ -1334,7 +1334,7 @@ location
 but
 we
 do
-NS_PRECONDITION
+MOZ_ASSERT
 (
 contentLocation
 "

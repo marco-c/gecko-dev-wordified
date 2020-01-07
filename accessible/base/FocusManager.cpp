@@ -1397,7 +1397,7 @@ Accessible
 aTarget
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocument
 "
@@ -1668,7 +1668,7 @@ AccEvent
 aEvent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aEvent
 -

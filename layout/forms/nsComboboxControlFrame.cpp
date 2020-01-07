@@ -7545,7 +7545,7 @@ See
 bug
 282607
 .
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mInRedisplayText

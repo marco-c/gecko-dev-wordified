@@ -1058,7 +1058,7 @@ operator
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mRawPtr
 !
@@ -1239,7 +1239,7 @@ Args
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mRawPtr
 !
@@ -1360,7 +1360,7 @@ operator
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mRawPtr
 !

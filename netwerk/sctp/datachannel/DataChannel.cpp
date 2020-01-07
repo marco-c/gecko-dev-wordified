@@ -4188,7 +4188,7 @@ remoteport
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mMasterSocket
 "

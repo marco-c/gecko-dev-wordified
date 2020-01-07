@@ -1987,7 +1987,7 @@ popTemplateRule
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mTemplateRules
@@ -2300,7 +2300,7 @@ getCurrentTemplateRule
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mTemplateRules

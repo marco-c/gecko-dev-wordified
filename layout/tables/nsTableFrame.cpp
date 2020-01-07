@@ -1211,7 +1211,7 @@ normally
 have
 returned
 .
-NS_PRECONDITION
+MOZ_ASSERT
 (
 GetParent
 (
@@ -1337,7 +1337,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mCellMap
@@ -1348,7 +1348,7 @@ twice
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mTableLayoutStrategy
@@ -1359,7 +1359,7 @@ twice
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aPrevInFlow
@@ -3154,7 +3154,7 @@ GetCellMap
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !
@@ -5059,7 +5059,7 @@ bool
 aAddToTable
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aColGroupFrame
 "
@@ -5068,7 +5068,7 @@ frame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aColType
 !
@@ -5498,7 +5498,7 @@ DidResizeColumns
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 GetPrevInFlow
@@ -7484,7 +7484,7 @@ nsTableRowFrame
 aCollection
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -16586,7 +16586,7 @@ int32_t
 aPushFrom
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPushFrom
 >
@@ -34274,7 +34274,7 @@ aWidth
 nullptr
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "
@@ -34283,7 +34283,7 @@ frame
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aStyle
 &
@@ -54363,7 +54363,7 @@ GetCellMap
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 cellMap
 "
@@ -54423,7 +54423,7 @@ GetCellMap
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 cellMap
 "

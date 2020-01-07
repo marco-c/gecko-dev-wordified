@@ -2141,7 +2141,7 @@ nsPresContext
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mShell
@@ -16067,7 +16067,7 @@ nsIContent
 aContent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aContent
 "

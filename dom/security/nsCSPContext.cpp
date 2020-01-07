@@ -4552,7 +4552,7 @@ nsIPrincipal
 aPrincipal
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDOMDocument
 |

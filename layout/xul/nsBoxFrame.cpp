@@ -5460,7 +5460,7 @@ nsIFrame
 aOldFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aListID
 =
@@ -5634,7 +5634,7 @@ list
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aListID
 =
@@ -5785,7 +5785,7 @@ nsFrameList
 aFrameList
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aListID
 =

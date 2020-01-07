@@ -27944,7 +27944,7 @@ int32_t
 aAppUnitsPerDevPixel
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 variantSubSuper
 !

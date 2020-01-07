@@ -8988,7 +8988,7 @@ bool
 aForceReuseInnerWindow
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mDocumentPrincipal
 =
@@ -25787,7 +25787,7 @@ Run
 )
 override
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

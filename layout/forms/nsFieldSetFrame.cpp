@@ -2345,7 +2345,7 @@ status
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aReflowInput
 .

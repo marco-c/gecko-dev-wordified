@@ -11144,7 +11144,7 @@ nsIURI
 result
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nestedURI
 "
@@ -11157,7 +11157,7 @@ URI
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 *
@@ -11328,7 +11328,7 @@ nsIURI
 result
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 uri
 "
@@ -11604,7 +11604,7 @@ nsIURI
 aURI
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "

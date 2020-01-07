@@ -641,10 +641,12 @@ nsINode
 aNode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNode
 "
+null
+node
 "
 )
 ;
@@ -9886,7 +9888,7 @@ do_QueryInterface
 aParent
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 content
 "

@@ -1543,7 +1543,7 @@ nsXULElement
 from
 a
 prototype
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPrototype
 !
@@ -1563,7 +1563,7 @@ aPrototype
 return
 NS_ERROR_NULL_POINTER
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aResult
 !
@@ -1722,7 +1722,7 @@ nodeInfo
 =
 aNodeInfo
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nodeInfo
 "
@@ -1841,7 +1841,7 @@ ni
 =
 aNodeInfo
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 ni
 "
@@ -13365,7 +13365,7 @@ NodeInfo
 aNodeInfos
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNodeInfos
 "
@@ -14205,7 +14205,7 @@ nsIURI
 aDocumentURI
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPos
 <

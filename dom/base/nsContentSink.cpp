@@ -1245,7 +1245,7 @@ nsIChannel
 aChannel
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDoc
 "
@@ -1254,7 +1254,7 @@ ptr
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
 "

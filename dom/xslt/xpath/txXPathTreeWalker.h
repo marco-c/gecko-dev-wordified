@@ -1035,7 +1035,7 @@ txXPathNode
 aNode
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aNode

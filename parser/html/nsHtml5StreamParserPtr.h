@@ -852,7 +852,7 @@ operator
 const
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mRawPtr
 !
@@ -955,7 +955,7 @@ operator
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mRawPtr
 !

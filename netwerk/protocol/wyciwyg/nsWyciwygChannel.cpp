@@ -4538,7 +4538,7 @@ nsCString
 aCharset
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mCacheEntry
 "

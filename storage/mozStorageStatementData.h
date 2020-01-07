@@ -214,7 +214,7 @@ mStatementOwner
 aStatementOwner
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mStatementOwner
 "
@@ -255,7 +255,7 @@ aSource
 mStatementOwner
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mStatementOwner
 "
@@ -469,7 +469,7 @@ reset
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mStatementOwner
 "

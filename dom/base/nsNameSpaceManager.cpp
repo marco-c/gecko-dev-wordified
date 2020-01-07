@@ -793,7 +793,7 @@ nsAString
 aURI
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNameSpaceID
 >

@@ -337,7 +337,7 @@ HandleObject
 scope
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mEvaluated

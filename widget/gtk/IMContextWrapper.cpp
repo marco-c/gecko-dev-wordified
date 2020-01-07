@@ -1854,7 +1854,7 @@ GetMozContainer
 (
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 container
 "
@@ -3266,7 +3266,7 @@ sLastFocusedContext
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aWindow
 "
@@ -4052,7 +4052,7 @@ false
 /
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aEvent
 "

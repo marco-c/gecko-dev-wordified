@@ -3566,7 +3566,7 @@ txInstructionContainer
 aContainer
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mNextInstrPtr
@@ -3645,7 +3645,7 @@ txInstruction
 aInstruction
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mNextInstrPtr
 "

@@ -475,7 +475,7 @@ GetScriptURI
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mFrozen
 "
@@ -499,7 +499,7 @@ GetScriptURITriggeringPrincipal
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mFrozen
 "
@@ -643,7 +643,7 @@ GetScriptIsModule
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mFrozen
 "
@@ -684,7 +684,7 @@ GetScriptDeferred
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mFrozen
 "
@@ -725,7 +725,7 @@ GetScriptAsync
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mFrozen
 "
@@ -761,7 +761,7 @@ GetScriptExternal
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mFrozen
 "

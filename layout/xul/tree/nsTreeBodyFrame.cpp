@@ -7617,7 +7617,7 @@ nsRect
 aTextRect
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aColumn
 &
@@ -8499,7 +8499,7 @@ nsTreeColumn
 aColumn
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aColumn
 &
@@ -9759,7 +9759,7 @@ nscoord
 aCurrentSize
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aCol
 "
@@ -9771,7 +9771,7 @@ null
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRenderingContext
 "
@@ -11097,7 +11097,7 @@ nsTreeColumn
 aCol
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aCol
@@ -18092,7 +18092,7 @@ nsRect
 aDirtyRect
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aColumn
 &
@@ -19622,7 +19622,7 @@ nsDisplayListBuilder
 aBuilder
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aColumn
 &
@@ -20889,7 +20889,7 @@ nscoord
 aCurrX
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aColumn
 &
@@ -21550,7 +21550,7 @@ nsDisplayListBuilder
 aBuilder
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aColumn
 &
@@ -22950,7 +22950,7 @@ nscoord
 aCurrX
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aColumn
 &
@@ -23797,7 +23797,7 @@ nsRect
 aDirtyRect
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aColumn
 &

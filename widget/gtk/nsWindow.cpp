@@ -3088,7 +3088,7 @@ CheckDestroyInvisibleContainer
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 gInvisibleContainer
 "
@@ -4396,10 +4396,12 @@ nsIWidget
 aNewParent
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNewParent
 "
+null
+widget
 "
 )
 ;

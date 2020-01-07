@@ -869,7 +869,7 @@ uint32_t
 bytesConsumed
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mChunkRemaining
 =
@@ -884,7 +884,7 @@ zero
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 count
 "

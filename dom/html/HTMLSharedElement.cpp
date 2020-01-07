@@ -707,7 +707,7 @@ nsIContent
 aMustMatch
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocument
 "
@@ -1085,7 +1085,7 @@ nsIContent
 aMustMatch
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aDocument
 "

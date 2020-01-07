@@ -1661,7 +1661,7 @@ CORSUsed
 )
 return
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPrincipal
 "

@@ -220,7 +220,7 @@ dom
 :
 XMLStylesheetProcessingInstruction
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aNodeInfoManager
 "

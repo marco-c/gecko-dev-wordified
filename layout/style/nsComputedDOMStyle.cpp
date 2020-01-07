@@ -9101,7 +9101,7 @@ case
 eCSSKeyword_translatex
 :
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -9179,7 +9179,7 @@ case
 eCSSKeyword_translate
 :
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -9314,7 +9314,7 @@ case
 eCSSKeyword_translate3d
 :
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -9560,7 +9560,7 @@ number
 case
 eCSSKeyword_scalex
 :
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -9613,7 +9613,7 @@ case
 eCSSKeyword_scale
 :
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -9710,7 +9710,7 @@ case
 eCSSKeyword_scale3d
 :
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -9911,7 +9911,7 @@ case
 eCSSKeyword_rotate
 :
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -9985,7 +9985,7 @@ case
 eCSSKeyword_rotate3d
 :
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aData
 -
@@ -32623,7 +32623,7 @@ nscoord
 aMaxAppUnits
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aValue
 "
@@ -33203,7 +33203,7 @@ bool
 aClampNegativeCalc
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aPercentageBaseGetter
 "

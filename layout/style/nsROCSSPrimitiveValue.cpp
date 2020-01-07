@@ -2692,7 +2692,7 @@ nsCSSKeyword
 aKeyword
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aKeyword
 !
@@ -2946,7 +2946,7 @@ nsDOMCSSRGBColor
 aColor
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aColor
 "
@@ -3012,7 +3012,7 @@ nsDOMCSSRect
 aRect
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRect
 "

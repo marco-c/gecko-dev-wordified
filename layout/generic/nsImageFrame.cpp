@@ -1818,7 +1818,7 @@ imgIContainer
 aImage
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aImage
 "
@@ -2043,7 +2043,7 @@ imgIContainer
 aImage
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aImage
 "
@@ -6365,7 +6365,7 @@ AvailableHeight
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mState
 &
@@ -14271,7 +14271,7 @@ rv
 =
 NS_OK
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aSpec
@@ -14644,7 +14644,7 @@ aPresContext
 )
 return
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 nullptr
 !

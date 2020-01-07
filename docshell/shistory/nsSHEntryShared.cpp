@@ -793,7 +793,7 @@ nsIContentViewer
 aViewer
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aViewer

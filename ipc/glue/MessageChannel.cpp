@@ -4389,7 +4389,7 @@ Side
 aSide
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 mLink
@@ -4683,7 +4683,7 @@ of
 PA
 to
 Connected
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aTargetChan
 "
@@ -4694,7 +4694,7 @@ channel
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 ChannelClosed
 =
@@ -4862,7 +4862,7 @@ begun
 the
 open
 .
-NS_PRECONDITION
+MOZ_ASSERT
 (
 ChannelClosed
 =
@@ -4875,7 +4875,7 @@ closed
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 ChannelOpening
 =

@@ -10160,7 +10160,7 @@ GetDefaultSubmitElement
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mDefaultSubmitElement
 =
@@ -10197,7 +10197,7 @@ aControl
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aControl
 "
@@ -10503,7 +10503,7 @@ aControl
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aControl
 "

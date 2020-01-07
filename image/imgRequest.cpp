@@ -1172,7 +1172,7 @@ imgRequestProxy
 proxy
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 proxy
 "

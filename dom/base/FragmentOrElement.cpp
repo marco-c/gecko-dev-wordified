@@ -5065,7 +5065,7 @@ FragmentOrElement
 (
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 IsInUncomposedDoc
@@ -7586,7 +7586,7 @@ bool
 aNotify
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aKid
 "
@@ -7642,7 +7642,7 @@ bool
 aNotify
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aKid
 "

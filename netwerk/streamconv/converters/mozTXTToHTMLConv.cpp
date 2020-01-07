@@ -9218,7 +9218,7 @@ mozTXTToHTMLConv
 aConv
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aConv
 !

@@ -3840,7 +3840,7 @@ nsHTTPCompressConv
 aHTTPCompressConv
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aHTTPCompressConv
 !

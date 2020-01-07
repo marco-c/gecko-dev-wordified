@@ -3483,7 +3483,7 @@ nsIFrame
 aFrame
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aFrame
 "

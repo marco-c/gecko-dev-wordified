@@ -2319,7 +2319,7 @@ get
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 m_targetStreamListener
@@ -4125,7 +4125,7 @@ return
 NS_ERROR_ABORT
 ;
 }
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aSrcContentType
 !
@@ -4586,7 +4586,7 @@ mFlags
 )
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aListener
 "
@@ -4600,7 +4600,7 @@ listener
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aChannel
 "

@@ -1141,7 +1141,7 @@ aStartHint
 )
 const
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aRowGroup
 "
@@ -3581,7 +3581,7 @@ TableArea
 aDamageArea
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aRowsToInsert
@@ -16386,7 +16386,7 @@ int32_t
 aIncrement
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aIncrement
 >
@@ -16398,7 +16398,7 @@ increment
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 mCurMap
 "
