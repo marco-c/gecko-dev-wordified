@@ -64,6 +64,7 @@ strict
 const
 {
 EnterprisePolicyTesting
+PoliciesPrefTracker
 }
 =
 ChromeUtils
@@ -87,6 +88,12 @@ jsm
 }
 )
 ;
+PoliciesPrefTracker
+.
+start
+(
+)
+;
 async
 function
 setupPolicyEngineWithJson
@@ -95,6 +102,12 @@ json
 customSchema
 )
 {
+PoliciesPrefTracker
+.
+restoreDefaultValues
+(
+)
+;
 if
 (
 typeof
@@ -302,6 +315,12 @@ test
 EnterprisePolicyTesting
 .
 resetRunOnceState
+(
+)
+;
+PoliciesPrefTracker
+.
+stop
 (
 )
 ;
