@@ -1992,7 +1992,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLLinkElement
 :
 :
@@ -2003,7 +2003,6 @@ EventChainPreVisitor
 aVisitor
 )
 {
-return
 GetEventTargetParentForAnchors
 (
 aVisitor

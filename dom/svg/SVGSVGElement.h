@@ -606,8 +606,7 @@ y
 /
 nsIContent
 interface
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

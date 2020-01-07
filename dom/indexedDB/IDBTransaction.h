@@ -1091,9 +1091,8 @@ override
 ;
 /
 /
-nsIDOMEventTarget
-virtual
-nsresult
+EventTarget
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

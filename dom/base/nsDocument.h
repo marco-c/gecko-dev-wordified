@@ -1327,9 +1327,8 @@ GetElementsByClassName
 ;
 /
 /
-nsIDOMEventTarget
-virtual
-nsresult
+EventTarget
+void
 GetEventTargetParent
 (
 mozilla

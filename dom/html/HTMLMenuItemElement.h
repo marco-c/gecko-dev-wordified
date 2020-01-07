@@ -206,8 +206,7 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 HTMLMenuItemElement
 nsGenericHTMLElement
 )
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

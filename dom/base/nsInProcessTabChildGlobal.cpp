@@ -1329,7 +1329,7 @@ return
 mOwner
 ;
 }
-nsresult
+void
 nsInProcessTabChildGlobal
 :
 :
@@ -1443,7 +1443,6 @@ false
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -1557,9 +1556,6 @@ false
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsresult
 nsInProcessTabChildGlobal

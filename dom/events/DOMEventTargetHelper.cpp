@@ -1346,7 +1346,7 @@ StealNSResult
 )
 ;
 }
-nsresult
+void
 DOMEventTargetHelper
 :
 :
@@ -1370,9 +1370,6 @@ SetParentTarget
 nullptr
 false
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

@@ -311,8 +311,7 @@ aTabIndex
 )
 override
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

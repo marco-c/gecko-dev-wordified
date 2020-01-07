@@ -419,8 +419,7 @@ GenericSpecifiedValues
 aGenericData
 )
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 mozilla

@@ -335,9 +335,8 @@ DOMRequest
 )
 /
 /
-nsIDOMEventTarget
-virtual
-nsresult
+EventTarget
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

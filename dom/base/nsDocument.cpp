@@ -42424,7 +42424,7 @@ return
 mListenerManager
 ;
 }
-nsresult
+void
 nsDocument
 :
 :
@@ -42558,9 +42558,6 @@ false
 )
 ;
 }
-return
-NS_OK
-;
 }
 already_AddRefed
 <

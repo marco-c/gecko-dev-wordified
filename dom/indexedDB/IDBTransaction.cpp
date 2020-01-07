@@ -5156,7 +5156,7 @@ aGivenProto
 )
 ;
 }
-nsresult
+void
 IDBTransaction
 :
 :
@@ -5184,9 +5184,6 @@ SetParentTarget
 mDatabase
 false
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

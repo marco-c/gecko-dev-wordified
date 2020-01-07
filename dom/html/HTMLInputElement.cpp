@@ -18936,7 +18936,7 @@ GetPrimaryFrame
 )
 ;
 }
-nsresult
+void
 HTMLInputElement
 :
 :
@@ -18980,7 +18980,6 @@ mMessage
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -19046,7 +19045,6 @@ aVisitor
 mPresContext
 )
 {
-return
 nsGenericHTMLFormElementWithState
 :
 :
@@ -19054,6 +19052,8 @@ GetEventTargetParent
 (
 aVisitor
 )
+;
+return
 ;
 }
 /
@@ -20479,9 +20479,6 @@ InvalidateFrame
 }
 }
 }
-nsresult
-rv
-=
 nsGenericHTMLFormElementWithState
 :
 :
@@ -21031,9 +21028,6 @@ false
 ;
 }
 }
-return
-rv
-;
 }
 nsresult
 HTMLInputElement

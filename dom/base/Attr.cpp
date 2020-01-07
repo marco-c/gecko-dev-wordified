@@ -1509,7 +1509,7 @@ aNotify
 )
 {
 }
-nsresult
+void
 Attr
 :
 :
@@ -1525,9 +1525,6 @@ aVisitor
 mCanHandle
 =
 true
-;
-return
-NS_OK
 ;
 }
 void

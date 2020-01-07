@@ -232,8 +232,7 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 /
 nsIContent
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

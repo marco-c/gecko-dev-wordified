@@ -266,8 +266,7 @@ NS_DECL_ISUPPORTS_INHERITED
 nsINode
 interface
 methods
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

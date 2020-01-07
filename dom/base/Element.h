@@ -11990,7 +11990,7 @@ cancelled
 .
 *
 /
-nsresult
+void
 GetEventTargetParentForLinks
 (
 EventChainPreVisitor

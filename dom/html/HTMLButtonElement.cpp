@@ -930,7 +930,7 @@ formFrame
 )
 ;
 }
-nsresult
+void
 HTMLButtonElement
 :
 :
@@ -961,7 +961,6 @@ mMessage
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -1156,7 +1155,6 @@ this
 ;
 }
 }
-return
 nsGenericHTMLElement
 :
 :

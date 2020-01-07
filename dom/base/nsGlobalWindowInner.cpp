@@ -10984,7 +10984,7 @@ GetOuterWindowInternal
 )
 ;
 }
-nsresult
+void
 nsGlobalWindowInner
 :
 :
@@ -11258,9 +11258,6 @@ mAddActiveEventFuzzTime
 false
 ;
 }
-return
-NS_OK
-;
 }
 bool
 nsGlobalWindowInner

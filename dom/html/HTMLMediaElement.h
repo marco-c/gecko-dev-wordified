@@ -722,9 +722,8 @@ audio
 )
 /
 /
-nsIDOMEventTarget
-virtual
-nsresult
+EventTarget
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

@@ -2492,7 +2492,7 @@ formFrame
 )
 ;
 }
-nsresult
+void
 HTMLTextAreaElement
 :
 :
@@ -2523,7 +2523,6 @@ mMessage
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -2564,7 +2563,6 @@ mHandlingSelect
 )
 {
 return
-NS_OK
 ;
 }
 mHandlingSelect
@@ -2718,7 +2716,6 @@ mWantsPreHandleEvent
 true
 ;
 }
-return
 nsGenericHTMLFormElementWithState
 :
 :

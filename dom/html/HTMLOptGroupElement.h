@@ -242,8 +242,7 @@ override
 /
 /
 nsIContent
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

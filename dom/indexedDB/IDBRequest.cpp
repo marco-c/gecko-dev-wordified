@@ -1874,7 +1874,7 @@ NS_IMPL_RELEASE_INHERITED
 IDBRequest
 IDBWrapperCache
 )
-nsresult
+void
 IDBRequest
 :
 :
@@ -1902,9 +1902,6 @@ SetParentTarget
 mTransaction
 false
 )
-;
-return
-NS_OK
 ;
 }
 class

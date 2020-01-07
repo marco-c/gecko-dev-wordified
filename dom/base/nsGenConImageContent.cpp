@@ -402,8 +402,7 @@ IntrinsicState
 const
 override
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 EventChainPreVisitor
@@ -456,10 +455,8 @@ the
 parent
 .
 return
-NS_OK
 ;
 }
-return
 nsGenericHTMLElement
 :
 :

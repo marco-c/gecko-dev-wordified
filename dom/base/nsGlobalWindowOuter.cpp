@@ -15162,7 +15162,7 @@ GetCurrentInnerWindowInternal
 )
 ;
 }
-nsresult
+void
 nsGlobalWindowOuter
 :
 :

@@ -1768,8 +1768,7 @@ nsStyledElement
 /
 /
 nsINode
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 mozilla

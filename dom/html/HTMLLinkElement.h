@@ -227,9 +227,8 @@ LinkRemoved
 ;
 /
 /
-nsIDOMEventTarget
-virtual
-nsresult
+EventTarget
+void
 GetEventTargetParent
 (
 EventChainPreVisitor

@@ -3284,7 +3284,7 @@ aFlags
 )
 ;
 }
-nsresult
+void
 SVGSVGElement
 :
 :
@@ -3368,7 +3368,6 @@ AnimationNeedsResample
 ;
 }
 }
-return
 SVGSVGElementBase
 :
 :

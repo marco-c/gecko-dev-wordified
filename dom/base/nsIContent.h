@@ -5162,8 +5162,7 @@ nullptr
 )
 const
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 mozilla

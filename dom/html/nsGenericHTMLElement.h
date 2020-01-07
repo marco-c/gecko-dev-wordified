@@ -1766,7 +1766,7 @@ EventChainVisitor
 aVisitor
 )
 ;
-nsresult
+void
 GetEventTargetParentForAnchors
 (
 mozilla
@@ -6133,8 +6133,7 @@ IntrinsicState
 const
 override
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
 mozilla

@@ -8673,7 +8673,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsXULElement
 :
 :
@@ -8737,7 +8737,6 @@ false
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -8956,11 +8955,9 @@ mItemFlags
 NS_DISPATCH_XUL_COMMAND
 ;
 return
-NS_OK
 ;
 }
 }
-return
 nsStyledElement
 :
 :

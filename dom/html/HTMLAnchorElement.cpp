@@ -1074,7 +1074,7 @@ return
 false
 ;
 }
-nsresult
+void
 HTMLAnchorElement
 :
 :
@@ -1085,7 +1085,6 @@ EventChainPreVisitor
 aVisitor
 )
 {
-return
 GetEventTargetParentForAnchors
 (
 aVisitor

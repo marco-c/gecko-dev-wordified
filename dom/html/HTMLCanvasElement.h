@@ -1498,13 +1498,9 @@ bool
 aPreallocateChildren
 )
 ;
-virtual
-nsresult
+void
 GetEventTargetParent
 (
-mozilla
-:
-:
 EventChainPreVisitor
 &
 aVisitor

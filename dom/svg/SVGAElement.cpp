@@ -726,7 +726,7 @@ IsExplicitlySet
 /
 nsINode
 methods
-nsresult
+void
 SVGAElement
 :
 :
@@ -737,9 +737,6 @@ EventChainPreVisitor
 aVisitor
 )
 {
-nsresult
-rv
-=
 Element
 :
 :
@@ -748,13 +745,6 @@ GetEventTargetParent
 aVisitor
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
-return
 GetEventTargetParentForLinks
 (
 aVisitor
