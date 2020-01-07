@@ -663,7 +663,7 @@ new
 Map
 (
 )
-mIsBusy
+_isBusy
 :
 false
 _outerWindowIDBrowserMap
@@ -5900,12 +5900,12 @@ busy
 !
 this
 .
-mIsBusy
+_isBusy
 )
 {
 this
 .
-mIsBusy
+_isBusy
 =
 true
 ;
@@ -5982,12 +5982,12 @@ busy
 &
 this
 .
-mIsBusy
+_isBusy
 )
 {
 this
 .
-mIsBusy
+_isBusy
 =
 false
 ;
@@ -19679,7 +19679,7 @@ selected
 )
 this
 .
-mIsBusy
+_isBusy
 =
 true
 ;
@@ -28039,7 +28039,7 @@ selected
 {
 gBrowser
 .
-mIsBusy
+_isBusy
 =
 true
 ;
@@ -28592,7 +28592,7 @@ selected
 )
 gBrowser
 .
-mIsBusy
+_isBusy
 =
 false
 ;
