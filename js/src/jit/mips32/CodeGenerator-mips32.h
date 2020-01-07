@@ -350,14 +350,6 @@ ScratchTagScope
 tag
 )
 ;
-void
-setReturnDoubleRegs
-(
-LiveRegisterSet
-*
-regs
-)
-;
 }
 ;
 typedef

@@ -1228,14 +1228,6 @@ generateInvalidateEpilogue
 )
 ;
 void
-setReturnDoubleRegs
-(
-LiveRegisterSet
-*
-regs
-)
-;
-void
 canonicalizeIfDeterministic
 (
 Scalar
