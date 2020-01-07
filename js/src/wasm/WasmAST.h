@@ -5754,9 +5754,6 @@ operand_
 }
 }
 ;
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 /
 /
 Like
@@ -5847,8 +5844,6 @@ operand_
 }
 }
 ;
-#
-endif
 /
 /
 This

@@ -10342,9 +10342,6 @@ false
 ;
 break
 ;
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 case
 AstExprKind
 :
@@ -10372,8 +10369,6 @@ false
 ;
 break
 ;
-#
-endif
 case
 AstExprKind
 :
