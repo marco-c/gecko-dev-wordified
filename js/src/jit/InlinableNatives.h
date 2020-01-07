@@ -231,12 +231,12 @@ IntlGuardToNumberFormat
 \
 _
 (
-IntlIsRelativeTimeFormat
+IntlGuardToPluralRules
 )
 \
 _
 (
-IntlGuardToPluralRules
+IntlGuardToRelativeTimeFormat
 )
 \
 \
