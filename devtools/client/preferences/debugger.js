@@ -783,7 +783,7 @@ map
 -
 scopes
 "
-false
+true
 )
 ;
 pref

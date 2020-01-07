@@ -169,7 +169,7 @@ previewed
 ;
 }
 function
-assertTooltip
+assertPreviewTooltip
 (
 dbg
 {
@@ -263,7 +263,7 @@ expression
 ;
 }
 function
-assertPopup
+assertPreviewPopup
 (
 dbg
 {
