@@ -8195,6 +8195,8 @@ info
 for
 all
 NEW
+and
+UNKNOWN
 local
 items
 that
@@ -8202,9 +8204,9 @@ don
 '
 t
 exist
+*
 in
 the
-*
 mirror
 .
 We
@@ -8219,9 +8221,9 @@ changed
 items
 with
 similar
+*
 contents
 and
-*
 different
 GUIDs
 in
@@ -15797,7 +15799,7 @@ won
 t
 have
 "
-needsMerge
+hasRemoteValue
 "
 set
 .
@@ -15811,6 +15813,17 @@ guid
 OLD
 .
 newGuid
+syncStatus
+=
+{
+PlacesUtils
+.
+bookmarks
+.
+SYNC_STATUS
+.
+NORMAL
+}
 WHERE
 OLD
 .
