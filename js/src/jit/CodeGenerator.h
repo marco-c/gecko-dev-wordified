@@ -3448,6 +3448,14 @@ ins
 )
 ;
 void
+visitWasmAlignmentCheck
+(
+LWasmAlignmentCheck
+*
+ins
+)
+;
+void
 visitRecompileCheck
 (
 LRecompileCheck
