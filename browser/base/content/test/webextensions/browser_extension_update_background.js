@@ -583,9 +583,9 @@ for
 the
 update
 await
-PanelUI
+gCUITestUtils
 .
-show
+openMainMenu
 (
 )
 ;
@@ -1003,9 +1003,9 @@ gone
 )
 ;
 await
-PanelUI
+gCUITestUtils
 .
-show
+openMainMenu
 (
 )
 ;
@@ -1034,9 +1034,9 @@ gone
 )
 ;
 await
-PanelUI
+gCUITestUtils
 .
-hide
+hideMainMenu
 (
 )
 ;
@@ -1097,9 +1097,9 @@ for
 the
 update
 await
-PanelUI
+gCUITestUtils
 .
-show
+openMainMenu
 (
 )
 ;
