@@ -2135,6 +2135,11 @@ grid
 .
 actorID
 color
+direction
+:
+grid
+.
+direction
 gridFragments
 :
 grid
@@ -2151,6 +2156,11 @@ highlighters
 .
 gridHighlighterShown
 nodeFront
+writingMode
+:
+grid
+.
+writingMode
 }
 )
 ;
