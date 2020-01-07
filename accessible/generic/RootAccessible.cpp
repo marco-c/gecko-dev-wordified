@@ -116,13 +116,6 @@ CreateEventA
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 Accessible
 -
 inl
