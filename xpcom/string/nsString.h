@@ -779,10 +779,6 @@ declared
 for
 backwards
 compatibility
-typedef
-nsAutoString
-nsVoidableString
-;
 #
 include
 "
