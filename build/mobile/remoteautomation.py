@@ -70,8 +70,6 @@ tempfile
 import
 shutil
 import
-subprocess
-import
 sys
 from
 automation
@@ -155,46 +153,6 @@ _devicemanager
 =
 None
     
-#
-Part
-of
-a
-hack
-for
-Robocop
-:
-"
-am
-COMMAND
-"
-is
-handled
-specially
-if
-COMMAND
-    
-#
-is
-in
-this
-set
-.
-See
-usages
-below
-.
-    
-_specialAmCommands
-=
-(
-'
-instrument
-'
-'
-start
-'
-)
-    
 def
 __init__
 (
@@ -216,7 +174,7 @@ None
         
 self
 .
-_devicemanager
+_dm
 =
 deviceManager
         
@@ -248,21 +206,6 @@ or
 }
 ;
         
-#
-Default
-our
-product
-to
-fennec
-        
-self
-.
-_product
-=
-"
-fennec
-"
-        
 self
 .
 lastTestSeen
@@ -290,7 +233,7 @@ deviceManager
         
 self
 .
-_devicemanager
+_dm
 =
 deviceManager
     
@@ -321,20 +264,6 @@ self
 _remoteProfile
 =
 remoteProfile
-    
-def
-setProduct
-(
-self
-product
-)
-:
-        
-self
-.
-_product
-=
-product
     
 def
 setRemoteLog
@@ -860,7 +789,7 @@ topActivity
 =
 self
 .
-_devicemanager
+_dm
 .
 getTopActivity
 (
@@ -1075,7 +1004,7 @@ try
             
 self
 .
-_devicemanager
+_dm
 .
 shellCheckOutput
 (
@@ -1093,7 +1022,7 @@ traces
 root
 =
 True
-                                                 
+                                       
 timeout
 =
 DeviceManager
@@ -1103,7 +1032,7 @@ short_timeout
             
 self
 .
-_devicemanager
+_dm
 .
 shellCheckOutput
 (
@@ -1119,7 +1048,7 @@ traces
 root
 =
 True
-                                                 
+                                       
 timeout
 =
 DeviceManager
@@ -1166,7 +1095,7 @@ txt
 if
 self
 .
-_devicemanager
+_dm
 .
 fileExists
 (
@@ -1181,7 +1110,7 @@ t
 =
 self
 .
-_devicemanager
+_dm
 .
 pullFile
 (
@@ -1286,7 +1215,6 @@ self
 #
 delete
 any
-existing
 tombstone
 files
 from
@@ -1308,7 +1236,7 @@ try
             
 self
 .
-_devicemanager
+_dm
 .
 shellCheckOutput
 (
@@ -1325,7 +1253,7 @@ tombstones
 root
 =
 True
-                                                 
+                                       
 timeout
 =
 DeviceManager
@@ -1378,7 +1306,7 @@ data
 tombstones
 "
         
-blobberUploadDir
+uploadDir
 =
 os
 .
@@ -1393,7 +1321,7 @@ None
 )
         
 if
-blobberUploadDir
+uploadDir
 :
             
 if
@@ -1404,7 +1332,7 @@ path
 .
 exists
 (
-blobberUploadDir
+uploadDir
 )
 :
                 
@@ -1412,13 +1340,13 @@ os
 .
 mkdir
 (
-blobberUploadDir
+uploadDir
 )
             
 if
 self
 .
-_devicemanager
+_dm
 .
 dirExists
 (
@@ -1434,7 +1362,6 @@ from
 device
 to
 local
-blobber
 upload
 directory
                 
@@ -1443,7 +1370,7 @@ try
                     
 self
 .
-_devicemanager
+_dm
 .
 shellCheckOutput
 (
@@ -1459,7 +1386,7 @@ remoteDir
 root
 =
 True
-                                                 
+                                               
 timeout
 =
 DeviceManager
@@ -1469,7 +1396,7 @@ short_timeout
                     
 self
 .
-_devicemanager
+_dm
 .
 shellCheckOutput
 (
@@ -1492,10 +1419,10 @@ remoteDir
 '
 )
 ]
+                                               
 root
 =
 True
-                                                 
 timeout
 =
 DeviceManager
@@ -1505,12 +1432,12 @@ short_timeout
                     
 self
 .
-_devicemanager
+_dm
 .
 getDirectory
 (
 remoteDir
-blobberUploadDir
+uploadDir
 False
 )
                 
@@ -1538,27 +1465,6 @@ deleteTombstones
 (
 )
                 
-#
-add
-a
-.
-txt
-file
-extension
-to
-each
-tombstone
-file
-name
-so
-                
-#
-that
-blobber
-will
-upload
-it
-                
 for
 f
 in
@@ -1572,7 +1478,7 @@ path
 .
 join
 (
-blobberUploadDir
+uploadDir
 "
 tombstone_
 ?
@@ -1721,7 +1627,7 @@ logcat
 =
 self
 .
-_devicemanager
+_dm
 .
 getLogcat
 (
@@ -1812,7 +1718,7 @@ if
 not
 self
 .
-_devicemanager
+_dm
 .
 dirExists
 (
@@ -1883,27 +1789,12 @@ device
 %
 remoteCrashDir
                 
-#
-Whilst
-no
-crash
-was
-found
-the
-run
-should
-still
-display
-as
-a
-failure
-                
 return
 True
             
 self
 .
-_devicemanager
+_dm
 .
 getDirectory
 (
@@ -1917,13 +1808,6 @@ get_default_logger
 (
 )
             
-if
-logger
-is
-not
-None
-:
-                
 crashed
 =
 mozcrash
@@ -1938,20 +1822,6 @@ test
 self
 .
 lastTestSeen
-)
-            
-else
-:
-                
-crashed
-=
-Automation
-.
-checkForCrashes
-(
-self
-dumpDir
-symbolsPath
 )
         
 finally
@@ -2011,11 +1881,9 @@ that
 instead
         
 if
-(
 self
 .
 _remoteProfile
-)
 :
             
 profileDir
@@ -2066,9 +1934,14 @@ extraArgs
 0
 ]
 in
-RemoteAutomation
-.
-_specialAmCommands
+(
+'
+instrument
+'
+'
+start
+'
+)
 :
             
 return
@@ -2090,22 +1963,6 @@ testURL
 extraArgs
 )
         
-#
-Remove
--
-foreground
-if
-it
-exists
-if
-it
-doesn
-'
-t
-this
-just
-returns
-        
 try
 :
             
@@ -2123,31 +1980,6 @@ except
 :
             
 pass
-#
-TODO
-:
-figure
-out
-which
-platform
-require
-NO_EM_RESTART
-#
-return
-app
-[
-'
--
--
-environ
-:
-NO_EM_RESTART
-=
-1
-'
-]
-+
-args
         
 return
 app
@@ -2173,32 +2005,6 @@ None
 )
 :
         
-if
-stdout
-=
-=
-None
-or
-stdout
-=
-=
--
-1
-or
-stdout
-=
-=
-subprocess
-.
-PIPE
-:
-            
-stdout
-=
-self
-.
-_remoteLog
-        
 return
 self
 .
@@ -2206,10 +2012,11 @@ RProcess
 (
 self
 .
-_devicemanager
+_dm
 cmd
-stdout
-stderr
+self
+.
+_remoteLog
 env
 cwd
 self
@@ -2223,35 +2030,12 @@ self
 _processArgs
 )
     
-#
-be
-careful
-here
-as
-this
-inner
-class
-doesn
-'
-t
-have
-access
-to
-outer
-class
-members
-    
 class
 RProcess
 (
 object
 )
 :
-        
-#
-device
-manager
-process
         
 dm
 =
@@ -2264,9 +2048,6 @@ self
 dm
 cmd
 stdout
-=
-None
-stderr
 =
 None
 env
@@ -2386,46 +2167,18 @@ todo
 0
             
 if
-(
 self
 .
 proc
 is
 None
-)
 :
                 
-if
-cmd
-[
-0
-]
-=
-=
-'
-am
-'
-:
-                    
 self
 .
 proc
 =
 stdout
-                
-else
-:
-                    
-raise
-Exception
-(
-"
-unable
-to
-launch
-process
-"
-)
             
 self
 .
@@ -2438,9 +2191,9 @@ cmd
 .
 split
 (
-'
-/
-'
+posixpath
+.
+sep
 )
 [
 -
@@ -2463,9 +2216,14 @@ cmd
 1
 ]
 in
-RemoteAutomation
-.
-_specialAmCommands
+(
+'
+instrument
+'
+'
+start
+'
+)
 :
                 
 self
@@ -2511,29 +2269,6 @@ self
 timeout
 =
 5400
-            
-#
-The
-benefit
-of
-the
-following
-sleep
-is
-unclear
-;
-it
-was
-formerly
-15
-seconds
-            
-time
-.
-sleep
-(
-1
-)
             
 #
 Used
