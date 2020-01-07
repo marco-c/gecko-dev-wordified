@@ -3345,7 +3345,8 @@ null
 *
 *
 *
-Returns
+Asynchronously
+returns
 the
 newest
 available
@@ -3453,6 +3454,7 @@ if
 not
 *
 /
+async
 getNewestCompatibleUpdate
 (
 aUpdates
@@ -3514,6 +3516,7 @@ continue
 let
 state
 =
+await
 Services
 .
 blocklist

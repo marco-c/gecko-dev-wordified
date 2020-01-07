@@ -1783,6 +1783,7 @@ getAddons
 ADDON_IDS
 )
 ;
+async
 function
 isBlocklisted
 (
@@ -1791,7 +1792,10 @@ appVer
 toolkitVer
 )
 {
-return
+let
+state
+=
+await
 Services
 .
 blocklist
@@ -1802,6 +1806,9 @@ addon
 appVer
 toolkitVer
 )
+;
+return
+state
 !
 =
 Services
@@ -1843,6 +1850,7 @@ blocklisted
 {
 ok
 (
+await
 isBlocklisted
 (
 addons
@@ -1893,6 +1901,8 @@ notBlocklisted
 ok
 (
 !
+(
+await
 isBlocklisted
 (
 addons
@@ -1905,6 +1915,7 @@ id
 .
 .
 notBlocklisted
+)
 )
 Add
 -

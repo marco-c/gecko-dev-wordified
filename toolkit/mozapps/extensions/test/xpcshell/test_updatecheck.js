@@ -282,6 +282,7 @@ length
 let
 update
 =
+await
 AddonUpdateChecker
 .
 getNewestCompatibleUpdate
@@ -1137,6 +1138,7 @@ length
 let
 update
 =
+await
 AddonUpdateChecker
 .
 getNewestCompatibleUpdate
@@ -1269,6 +1271,7 @@ appMaxVersion
 let
 update
 =
+await
 AddonUpdateChecker
 .
 getNewestCompatibleUpdate
@@ -1337,6 +1340,7 @@ length
 let
 update
 =
+await
 AddonUpdateChecker
 .
 getNewestCompatibleUpdate
