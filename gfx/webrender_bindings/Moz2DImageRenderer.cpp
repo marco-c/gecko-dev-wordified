@@ -1712,6 +1712,11 @@ length
 )
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+ret
+)
+;
 offset
 =
 extra_end
