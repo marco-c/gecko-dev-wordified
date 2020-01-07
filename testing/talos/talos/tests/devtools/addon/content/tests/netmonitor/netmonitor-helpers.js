@@ -416,6 +416,8 @@ resolve
 !
 window
 .
+api
+.
 off
 (
 EVENTS
@@ -425,6 +427,8 @@ onPayloadReady
 )
 ;
 window
+.
+api
 .
 off
 (
@@ -442,6 +446,8 @@ resolve
 }
 window
 .
+api
+.
 on
 (
 EVENTS
@@ -451,6 +457,8 @@ onPayloadReady
 )
 ;
 window
+.
+api
 .
 on
 (

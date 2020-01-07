@@ -262,6 +262,8 @@ waitFor
 monitor
 .
 panelWin
+.
+api
 EVENTS
 .
 RECEIVED_EVENT_TIMINGS
