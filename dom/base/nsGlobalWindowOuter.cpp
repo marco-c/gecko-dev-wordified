@@ -38079,10 +38079,6 @@ return
 this
 ;
 }
-NS_IMPL_REMOVE_SYSTEM_EVENT_LISTENER
-(
-nsGlobalWindowOuter
-)
 NS_IMETHODIMP
 nsGlobalWindowOuter
 :
