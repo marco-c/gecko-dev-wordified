@@ -1273,7 +1273,7 @@ mCurrentContext
 currentContext
 -
 >
-SetIsOpaque
+SetOpaqueValueFromOpaqueAttr
 (
 GetOpaqueAttr
 (
