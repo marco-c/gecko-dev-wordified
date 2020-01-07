@@ -733,6 +733,11 @@ DispatchDOMEvent
 aCx
 aWorkerPrivate
 aWorkerPrivate
+-
+>
+ParentEventTargetRef
+(
+)
 !
 aWorkerPrivate
 -
