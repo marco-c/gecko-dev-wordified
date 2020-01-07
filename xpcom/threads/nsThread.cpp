@@ -6324,6 +6324,7 @@ if
 labeled
 &
 &
+(
 priority
 =
 =
@@ -6331,6 +6332,16 @@ EventPriority
 :
 :
 Normal
+|
+|
+priority
+=
+=
+EventPriority
+:
+:
+Idle
+)
 )
 {
 TimeStamp
