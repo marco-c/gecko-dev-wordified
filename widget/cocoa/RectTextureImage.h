@@ -383,7 +383,7 @@ DeleteTexture
 (
 )
 ;
-void
+bool
 BindIOSurfaceToTexture
 (
 gl
