@@ -1449,7 +1449,7 @@ InstanceOf
 \
 _
 (
-InstanceOfCache
+CallInstanceOf
 )
 \
 _
