@@ -178,10 +178,6 @@ UnscaledFont
 aUnscaledFont
 Float
 aSize
-bool
-aNeedsOblique
-=
-false
 )
 ;
 ~
@@ -405,9 +401,6 @@ nullptr
 FcPattern
 *
 mPattern
-;
-bool
-mNeedsOblique
 ;
 }
 ;

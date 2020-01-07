@@ -199,10 +199,6 @@ mForceGDIMode
 (
 false
 )
-mNeedsOblique
-(
-false
-)
 mGamma
 (
 2
@@ -235,8 +231,6 @@ bool
 aUseEmbeddedBitmap
 bool
 aForceGDIMode
-bool
-aNeedsOblique
 IDWriteRenderingParams
 *
 aParams
@@ -431,9 +425,6 @@ mUseEmbeddedBitmap
 ;
 bool
 mForceGDIMode
-;
-bool
-mNeedsOblique
 ;
 /
 /

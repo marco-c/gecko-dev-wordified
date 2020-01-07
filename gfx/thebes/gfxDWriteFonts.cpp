@@ -3956,9 +3956,6 @@ GetAdjustedSize
 )
 useEmbeddedBitmap
 forceGDI
-IsSyntheticOblique
-(
-)
 params
 params
 -
