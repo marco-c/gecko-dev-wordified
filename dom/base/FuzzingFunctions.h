@@ -123,6 +123,9 @@ mozilla_dom_FuzzingFunctions
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {
