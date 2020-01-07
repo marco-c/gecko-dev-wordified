@@ -379,7 +379,7 @@ h
 #
 include
 "
-qsObjectHelper
+xpcObjectHelper
 .
 h
 "
@@ -9675,10 +9675,13 @@ rval
 return
 true
 ;
-qsObjectHelper
+xpcObjectHelper
 helper
 (
+ToSupports
+(
 p
+)
 cache
 )
 ;
@@ -10396,7 +10399,7 @@ nsWrapperCache
 cache
 )
 {
-qsObjectHelper
+xpcObjectHelper
 helper
 (
 ToSupports
