@@ -603,7 +603,7 @@ darling
 ast
 :
 :
-Body
+Data
 |
 The
 body
@@ -732,7 +732,7 @@ ty
 syn
 :
 :
-Ty
+Type
 |
 The
 type

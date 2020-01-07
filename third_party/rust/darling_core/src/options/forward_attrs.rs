@@ -2,7 +2,7 @@ use
 syn
 :
 :
-NestedMetaItem
+NestedMeta
 ;
 use
 {
@@ -138,7 +138,7 @@ nested
 :
 &
 [
-NestedMetaItem
+NestedMeta
 ]
 )
 -

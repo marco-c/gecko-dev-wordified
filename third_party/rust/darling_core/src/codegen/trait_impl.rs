@@ -23,7 +23,7 @@ codegen
 DefaultExpression
 Field
 Variant
-VariantDataGen
+FieldsGen
 }
 ;
 use
@@ -48,7 +48,7 @@ use
 ast
 :
 :
-Body
+Data
 ;
 #
 [
@@ -80,9 +80,9 @@ generics
 a
 Generics
 pub
-body
+data
 :
-Body
+Data
 <
 Variant
 <
@@ -234,7 +234,7 @@ Tokens
 {
 if
 let
-Body
+Data
 :
 :
 Struct
@@ -245,7 +245,7 @@ vd
 =
 self
 .
-body
+data
 {
 let
 vdr
@@ -322,7 +322,7 @@ Tokens
 {
 if
 let
-Body
+Data
 :
 :
 Struct
@@ -333,7 +333,7 @@ vd
 =
 self
 .
-body
+data
 {
 let
 vdr
@@ -508,7 +508,7 @@ Tokens
 {
 if
 let
-Body
+Data
 :
 :
 Struct
@@ -519,7 +519,7 @@ vd
 =
 self
 .
-body
+data
 {
 let
 check_nones
@@ -589,9 +589,9 @@ foo
 match
 self
 .
-body
+data
 {
-Body
+Data
 :
 :
 Enum
@@ -614,7 +614,7 @@ t
 supported
 "
 )
-Body
+Data
 :
 :
 Struct
@@ -625,7 +625,7 @@ data
 =
 >
 {
-VariantDataGen
+FieldsGen
 (
 data
 )
@@ -674,9 +674,9 @@ foo
 match
 self
 .
-body
+data
 {
-Body
+Data
 :
 :
 Enum
@@ -699,7 +699,7 @@ t
 supported
 "
 )
-Body
+Data
 :
 :
 Struct
@@ -710,7 +710,7 @@ data
 =
 >
 {
-VariantDataGen
+FieldsGen
 (
 data
 )

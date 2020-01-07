@@ -82,7 +82,7 @@ _
 syn
 :
 :
-MetaItem
+Meta
 )
 -
 >
@@ -105,7 +105,7 @@ _
 syn
 :
 :
-NestedMetaItem
+NestedMeta
 )
 -
 >

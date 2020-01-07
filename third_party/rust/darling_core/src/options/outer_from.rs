@@ -6,7 +6,7 @@ syn
 self
 Field
 Ident
-MetaItem
+Meta
 }
 ;
 use
@@ -24,7 +24,7 @@ Core
 DefaultExpression
 ForwardAttrs
 ParseAttribute
-ParseBody
+ParseData
 }
 ;
 use
@@ -292,7 +292,7 @@ self
 mi
 :
 &
-MetaItem
+Meta
 )
 -
 >
@@ -306,6 +306,10 @@ match
 mi
 .
 name
+(
+)
+.
+as_ref
 (
 )
 {
@@ -434,7 +438,7 @@ mi
 }
 }
 impl
-ParseBody
+ParseData
 for
 OuterFrom
 {

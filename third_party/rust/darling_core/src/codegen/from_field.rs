@@ -392,7 +392,6 @@ __fwd_attrs
 ;
 /
 /
-/
 Determine
 which
 attributes

@@ -22,7 +22,7 @@ options
 :
 {
 ParseAttribute
-ParseBody
+ParseData
 OuterFrom
 Shape
 }
@@ -93,7 +93,7 @@ Option
 Ident
 >
 pub
-body
+data
 :
 Option
 <
@@ -157,7 +157,7 @@ Default
 default
 (
 )
-body
+data
 :
 Default
 :
@@ -190,7 +190,7 @@ parse_body
 &
 di
 .
-body
+data
 )
 }
 }
@@ -211,7 +211,7 @@ mi
 syn
 :
 :
-MetaItem
+Meta
 )
 -
 >
@@ -225,6 +225,10 @@ match
 mi
 .
 name
+(
+)
+.
+as_ref
 (
 )
 {
@@ -268,7 +272,7 @@ mi
 }
 }
 impl
-ParseBody
+ParseData
 for
 FdiOptions
 {
@@ -376,7 +380,7 @@ Ok
 Some
 (
 "
-body
+data
 "
 )
 =
@@ -384,7 +388,7 @@ body
 {
 self
 .
-body
+data
 =
 field
 .
@@ -537,11 +541,11 @@ vis
 as_ref
 (
 )
-body
+data
 :
 v
 .
-body
+data
 .
 as_ref
 (

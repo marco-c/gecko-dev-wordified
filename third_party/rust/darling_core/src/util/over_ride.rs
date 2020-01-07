@@ -10,7 +10,7 @@ syn
 :
 {
 Lit
-NestedMetaItem
+NestedMeta
 }
 ;
 use
@@ -945,7 +945,7 @@ val
 /
 Parses
 a
-MetaItem
+Meta
 .
 A
 bare
@@ -1007,7 +1007,7 @@ items
 :
 &
 [
-NestedMetaItem
+NestedMeta
 ]
 )
 -

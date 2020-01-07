@@ -77,12 +77,12 @@ String
 dolor
 :
 Dolor
-body
+data
 :
 ast
 :
 :
-Body
+Data
 <
 (
 )
@@ -156,7 +156,7 @@ input
 syn
 :
 :
-parse_derive_input
+parse_str
 (
 r
 #
@@ -218,6 +218,8 @@ unwrap_err
 (
 )
 ;
+/
+/
 assert_eq
 !
 (
@@ -275,7 +277,7 @@ input
 syn
 :
 :
-parse_derive_input
+parse_str
 (
 r
 #
@@ -428,7 +430,7 @@ input
 syn
 :
 :
-parse_derive_input
+parse_str
 (
 r
 #
@@ -550,7 +552,7 @@ input
 syn
 :
 :
-parse_derive_input
+parse_str
 (
 r
 #

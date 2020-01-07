@@ -1504,7 +1504,7 @@ FieldName
 String
 ;
 type
-MetaItemFormat
+MetaFormat
 =
 String
 ;
@@ -1582,7 +1582,7 @@ FieldName
 )
 UnexpectedFormat
 (
-MetaItemFormat
+MetaFormat
 )
 UnexpectedType
 (

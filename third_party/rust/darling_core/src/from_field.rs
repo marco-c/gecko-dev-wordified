@@ -111,7 +111,7 @@ for
 syn
 :
 :
-Ty
+Type
 {
 fn
 from_field

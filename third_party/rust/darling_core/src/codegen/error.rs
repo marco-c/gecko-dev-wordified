@@ -70,7 +70,7 @@ Tokens
 {
 tokens
 .
-append
+append_all
 (
 quote
 !
@@ -249,7 +249,7 @@ quote
 ;
 tokens
 .
-append
+append_all
 (
 quote
 !
