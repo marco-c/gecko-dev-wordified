@@ -1524,9 +1524,6 @@ MOZ_WIDGET_TOOLKIT
 in
 (
 '
-gtk2
-'
-'
 gtk3
 '
 '
@@ -1561,15 +1558,11 @@ CONFIG
 MOZ_WIDGET_TOOLKIT
 '
 ]
-in
-(
-'
-gtk2
-'
+=
+=
 '
 gtk3
 '
-)
 :
     
 CXXFLAGS
@@ -3696,15 +3689,11 @@ CONFIG
 MOZ_WIDGET_TOOLKIT
 '
 ]
-in
-(
-'
-gtk2
-'
+=
+=
 '
 gtk3
 '
-)
 :
 \
 n
