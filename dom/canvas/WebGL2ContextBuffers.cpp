@@ -682,6 +682,13 @@ writeOffset
 size
 )
 ;
+writeBuffer
+-
+>
+ResetLastUpdateFenceId
+(
+)
+;
 }
 void
 WebGL2Context
@@ -876,7 +883,7 @@ buffer
 mLastUpdateFenceId
 )
 {
-GeneratePerfWarning
+GenerateWarning
 (
 "
 %
@@ -914,7 +921,7 @@ break
 ;
 default
 :
-GeneratePerfWarning
+GenerateWarning
 (
 "
 %

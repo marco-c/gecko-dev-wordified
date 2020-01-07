@@ -575,6 +575,7 @@ mTFBindCount
 size_t
 mNonTFBindCount
 ;
+mutable
 uint64_t
 mLastUpdateFenceId
 =
@@ -667,6 +668,12 @@ public
 :
 CacheMapInvalidator
 mFetchInvalidator
+;
+void
+ResetLastUpdateFenceId
+(
+)
+const
 ;
 }
 ;

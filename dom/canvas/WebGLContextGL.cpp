@@ -6601,6 +6601,13 @@ offset
 bytesAfterOffset
 )
 ;
+buffer
+-
+>
+ResetLastUpdateFenceId
+(
+)
+;
 }
 static
 webgl
