@@ -2884,7 +2884,7 @@ handle
 nsAutoString
 locationStr
 ;
-aHandle
+mActivatedHandle
 -
 >
 GetAttribute
