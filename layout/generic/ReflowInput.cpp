@@ -1501,7 +1501,7 @@ false
 ;
 mFlags
 .
-mIsFlexContainerMeasuringHeight
+mIsFlexContainerMeasuringBSize
 =
 false
 ;
@@ -19015,7 +19015,7 @@ our
 /
 /
 auto
-height
+BSize
 pass
 that
 information
@@ -19029,7 +19029,7 @@ if
 (
 mFlags
 .
-mIsFlexContainerMeasuringHeight
+mIsFlexContainerMeasuringBSize
 )
 {
 computeSizeFlags
@@ -19053,7 +19053,7 @@ MOZ_ASSERT
 !
 mFlags
 .
-mIsFlexContainerMeasuringHeight
+mIsFlexContainerMeasuringBSize
 "
 We
 '
@@ -19069,7 +19069,7 @@ flag
 "
 "
 '
-mIsFlexContainerMeasuringHeight
+mIsFlexContainerMeasuringBSize
 '
 shouldn
 '
@@ -23257,7 +23257,7 @@ CalcHasPercent
 |
 mFlags
 .
-mIsFlexContainerMeasuringHeight
+mIsFlexContainerMeasuringBSize
 )
 {
 ComputedMinBSize
@@ -23459,7 +23459,7 @@ CalcHasPercent
 |
 mFlags
 .
-mIsFlexContainerMeasuringHeight
+mIsFlexContainerMeasuringBSize
 )
 {
 ComputedMaxBSize

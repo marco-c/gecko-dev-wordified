@@ -1390,7 +1390,7 @@ is
 balancing
 columns
 bool
-mIsFlexContainerMeasuringHeight
+mIsFlexContainerMeasuringBSize
 :
 1
 ;
@@ -1409,7 +1409,7 @@ to
 measure
 its
 intrinsic
-height
+BSize
 .
 bool
 mDummyParentReflowInput
