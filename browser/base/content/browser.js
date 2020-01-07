@@ -51501,7 +51501,7 @@ the
 definition
 of
 the
-UCS2_CHAR_IS_BIDI
+UTF16_CODE_UNIT_IS_BIDI
 /
 /
 macro
@@ -51566,6 +51566,14 @@ ufe70
 -
 \
 ufefc
+\
+ud802
+\
+ud803
+\
+ud83a
+\
+ud83b
 ]
 /
 .
