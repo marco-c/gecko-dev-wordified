@@ -1515,39 +1515,6 @@ dependencies
 '
 )
     
-CommandArgument
-(
-'
--
--
-custom
--
-path
-'
-'
--
-c
-'
-                     
-action
-=
-'
-store_true
-'
-                     
-help
-=
-'
-Get
-Cargo
-path
-from
-CARGO_HOME
-environment
-variable
-'
-)
-    
 def
 clean_cargo_cache
 (
@@ -1561,9 +1528,6 @@ False
 keep
 =
 None
-custom_path
-=
-False
 )
 :
         
@@ -1701,8 +1665,6 @@ CARGO_HOME
 "
 "
 )
-and
-custom_path
 :
             
 cargo_dir
@@ -3190,8 +3152,27 @@ crate_path
 )
 :
                                         
+try
+:
+                                            
 delete
 (
+crate_path
+)
+                                        
+except
+:
+                                            
+print
+(
+"
+Delete
+%
+s
+failed
+!
+"
+%
 crate_path
 )
                             
