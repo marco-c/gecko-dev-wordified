@@ -101,6 +101,13 @@ activitystream
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 Context
@@ -1560,8 +1567,6 @@ TopSites
 .
 TYPE_BLANK
 :
-default
-:
 throw
 new
 IllegalStateException
@@ -1574,6 +1579,9 @@ type
 :
 "
 +
+(
+int
+)
 topSite
 .
 getType
