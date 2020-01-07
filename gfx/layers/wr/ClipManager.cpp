@@ -426,7 +426,9 @@ top
 )
 .
 mASR
-Nothing
+aStackingContext
+.
+ReferenceFrameId
 (
 )
 )
@@ -1927,7 +1929,10 @@ clips
 .
 mScrollId
 =
+ClipIdAfterOverride
+(
 scrollId
+)
 ;
 }
 else
