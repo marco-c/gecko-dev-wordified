@@ -1177,15 +1177,6 @@ toolbox
 .
 highlighterUtils
 ;
-if
-(
-hUtils
-.
-supportsCustomHighlighters
-(
-)
-)
-{
 try
 {
 this
@@ -1275,7 +1266,6 @@ highlighted
 "
 )
 ;
-}
 }
 }
 /

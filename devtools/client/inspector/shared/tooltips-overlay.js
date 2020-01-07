@@ -1107,15 +1107,6 @@ tooltipType
 =
 null
 ;
-let
-inspector
-=
-this
-.
-view
-.
-inspector
-;
 /
 /
 Image
@@ -1128,11 +1119,6 @@ type
 =
 =
 VIEW_NODE_IMAGE_URL_TYPE
-&
-&
-inspector
-.
-hasUrlToImageDataResolver
 )
 {
 tooltipType
