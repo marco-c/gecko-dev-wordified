@@ -5577,9 +5577,6 @@ propertiesToCheck
 scheme
 "
 "
-userPass
-"
-"
 username
 "
 "

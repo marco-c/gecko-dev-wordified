@@ -4592,9 +4592,6 @@ spec
 scheme
 "
 "
-userPass
-"
-"
 username
 "
 "
