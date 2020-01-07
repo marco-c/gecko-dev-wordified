@@ -834,6 +834,9 @@ mExtension
 bool
 mHasActiveTabPermission
 ;
+bool
+mRestricted
+;
 RefPtr
 <
 MatchPatternSet

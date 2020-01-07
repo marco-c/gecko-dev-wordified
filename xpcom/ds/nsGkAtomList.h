@@ -13587,6 +13587,13 @@ debugger
 )
 GK_ATOM
 (
+mozillaAddons
+"
+mozillaAddons
+"
+)
+GK_ATOM
+(
 tabs
 "
 tabs
