@@ -37,7 +37,7 @@ strict
 Test
 for
 following
-time
+timeline
 tick
 items
 .
@@ -52,7 +52,7 @@ existence
 /
 /
 *
-time
+timeline
 tick
 item
 elements
@@ -64,7 +64,7 @@ count
 and
 label
 of
-time
+timeline
 tick
 elements
 changing
