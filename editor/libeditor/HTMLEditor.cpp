@@ -8449,17 +8449,6 @@ element
 NS_ERROR_NULL_POINTER
 )
 ;
-nsCOMPtr
-<
-nsIDOMNode
->
-node
-=
-do_QueryInterface
-(
-aElement
-)
-;
 CommitComposition
 (
 )
@@ -8732,7 +8721,7 @@ HTMLEditUtils
 :
 IsNamedAnchor
 (
-node
+element
 )
 )
 {
@@ -8928,7 +8917,7 @@ HTMLEditUtils
 :
 IsTable
 (
-node
+element
 )
 &
 &
