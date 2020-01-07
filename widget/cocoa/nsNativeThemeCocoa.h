@@ -152,9 +152,6 @@ class
 NSProgressBarCell
 ;
 class
-ContextAwareSearchFieldCell
-;
-class
 nsDeviceContext
 ;
 struct
@@ -971,9 +968,13 @@ NSButtonCell
 *
 mCheckboxCell
 ;
-ContextAwareSearchFieldCell
+NSSearchFieldCell
 *
 mSearchFieldCell
+;
+NSSearchFieldCell
+*
+mToolbarSearchFieldCell
 ;
 NSPopUpButtonCell
 *
