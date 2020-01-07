@@ -531,7 +531,7 @@ update
 targetApplications
 .
 length
-1
+2
 )
 ;
 let
@@ -933,7 +933,7 @@ update
 targetApplications
 .
 length
-1
+2
 )
 ;
 let
