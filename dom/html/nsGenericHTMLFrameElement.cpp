@@ -1149,6 +1149,16 @@ return
 NS_OK
 ;
 }
+bool
+origSrc
+=
+!
+mSrcLoadHappened
+;
+mSrcLoadHappened
+=
+true
+;
 nsresult
 rv
 =
@@ -1157,6 +1167,7 @@ mFrameLoader
 >
 LoadFrame
 (
+origSrc
 )
 ;
 #
