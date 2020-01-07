@@ -3335,7 +3335,7 @@ result
 *
 param
 {
-nsIDOMEvent
+Event
 }
 event
 *
@@ -3513,7 +3513,7 @@ result
 *
 param
 {
-nsIDOMEvent
+Event
 }
 event
 *

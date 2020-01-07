@@ -285,13 +285,6 @@ Ci
 nsIDOMDocument
 ;
 const
-nsIDOMEvent
-=
-Ci
-.
-nsIDOMEvent
-;
-const
 nsIDOMNode
 =
 Ci

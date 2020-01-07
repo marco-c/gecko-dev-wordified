@@ -10383,7 +10383,7 @@ editor
 *
 *
 param
-nsIDOMEvent
+Event
 aEvent
 *
 /
@@ -11399,7 +11399,7 @@ editor
 *
 *
 param
-nsIDOMEvent
+Event
 aEvent
 *
 /
@@ -11936,7 +11936,7 @@ changes
 *
 *
 param
-nsIDOMEvent
+Event
 aEvent
 *
 param

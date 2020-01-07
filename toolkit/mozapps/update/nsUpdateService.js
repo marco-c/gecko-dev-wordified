@@ -21056,7 +21056,7 @@ param
 event
 *
 The
-nsIDOMEvent
+Event
 for
 the
 load
@@ -21336,7 +21336,7 @@ param
 event
 *
 The
-nsIDOMEvent
+Event
 for
 the
 error

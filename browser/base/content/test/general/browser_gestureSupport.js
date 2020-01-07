@@ -526,9 +526,7 @@ shiftKey
 (
 test_expectedModifiers
 &
-Ci
-.
-nsIDOMEvent
+Event
 .
 SHIFT_MASK
 )
@@ -555,9 +553,7 @@ ctrlKey
 (
 test_expectedModifiers
 &
-Ci
-.
-nsIDOMEvent
+Event
 .
 CONTROL_MASK
 )
@@ -584,9 +580,7 @@ altKey
 (
 test_expectedModifiers
 &
-Ci
-.
-nsIDOMEvent
+Event
 .
 ALT_MASK
 )
@@ -613,9 +607,7 @@ metaKey
 (
 test_expectedModifiers
 &
-Ci
-.
-nsIDOMEvent
+Event
 .
 META_MASK
 )
@@ -1280,9 +1272,7 @@ shiftKey
 let
 modifier
 =
-Ci
-.
-nsIDOMEvent
+Event
 .
 SHIFT_MASK
 ;
@@ -1305,9 +1295,7 @@ event
 metaKey
 modifier
 =
-Ci
-.
-nsIDOMEvent
+Event
 .
 META_MASK
 ;
@@ -1330,9 +1318,7 @@ event
 altKey
 modifier
 =
-Ci
-.
-nsIDOMEvent
+Event
 .
 ALT_MASK
 ;
@@ -1355,9 +1341,7 @@ event
 ctrlKey
 modifier
 =
-Ci
-.
-nsIDOMEvent
+Event
 .
 CONTROL_MASK
 ;

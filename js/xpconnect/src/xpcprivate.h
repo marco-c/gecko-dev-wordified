@@ -17274,6 +17274,11 @@ Directory
 1
 ;
 bool
+Event
+:
+1
+;
+bool
 File
 :
 1

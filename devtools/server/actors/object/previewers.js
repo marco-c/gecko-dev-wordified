@@ -3933,12 +3933,11 @@ rawObj
 |
 |
 !
+Event
+.
+isInstance
 (
 rawObj
-instanceof
-Ci
-.
-nsIDOMEvent
 )
 )
 {

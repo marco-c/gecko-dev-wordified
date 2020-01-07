@@ -2573,7 +2573,7 @@ selection
 *
 param
 {
-nsIDOMEvent
+Event
 }
 event
 When

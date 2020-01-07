@@ -3834,7 +3834,7 @@ handler
 private
 *
 param
-nsIDOMEvent
+Event
 event
 *
 /
