@@ -1905,6 +1905,7 @@ XULLinkAccessible
 IsLink
 (
 )
+const
 {
 /
 /

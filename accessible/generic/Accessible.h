@@ -4360,6 +4360,7 @@ bool
 IsLink
 (
 )
+const
 ;
 /
 *

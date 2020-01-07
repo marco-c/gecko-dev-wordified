@@ -966,6 +966,7 @@ HTMLLinkAccessible
 IsLink
 (
 )
+const
 {
 /
 /
