@@ -272,6 +272,7 @@ AccIterator
 :
 AccIterator
 (
+const
 Accessible
 *
 aAccessible
@@ -534,6 +535,7 @@ IteratorState
 :
 IteratorState
 (
+const
 Accessible
 *
 aParent
