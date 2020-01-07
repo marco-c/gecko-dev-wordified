@@ -418,6 +418,7 @@ HTML_PREVIEW
 /
 *
 *
+*
 Properties
 View
 component
@@ -511,6 +512,11 @@ propTypes
 return
 {
 object
+:
+PropTypes
+.
+object
+provider
 :
 PropTypes
 .
@@ -1257,6 +1263,7 @@ renderRow
 renderValue
 sectionNames
 openLink
+provider
 }
 =
 this
@@ -1332,6 +1339,7 @@ TreeView
 (
 {
 object
+provider
 columns
 :
 [

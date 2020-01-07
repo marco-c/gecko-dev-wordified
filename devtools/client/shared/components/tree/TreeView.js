@@ -588,7 +588,7 @@ that
 is
 used
 to
-puputate
+populate
 the
 tree
 .
@@ -757,7 +757,7 @@ func
 /
 Custom
 value
-renderef
+renderer
 renderValue
 :
 PropTypes
