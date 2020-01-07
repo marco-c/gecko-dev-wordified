@@ -949,6 +949,9 @@ nsISupports
 aSecInfo
 )
 ;
+#
+ifdef
+XP_UNIX
 /
 /
 This
@@ -991,6 +994,8 @@ char
 filename
 )
 ;
+#
+endif
 /
 /
 nsASocketHandler
