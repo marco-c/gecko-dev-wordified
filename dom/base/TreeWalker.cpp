@@ -205,7 +205,8 @@ nsINode
 aRoot
 uint32_t
 aWhatToShow
-NodeFilterHolder
+NodeFilter
+*
 aFilter
 )
 :
@@ -213,10 +214,7 @@ nsTraversal
 (
 aRoot
 aWhatToShow
-Move
-(
 aFilter
-)
 )
 mCurrentNode
 (
