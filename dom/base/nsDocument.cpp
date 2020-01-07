@@ -41734,9 +41734,6 @@ docType
 nsAutoString
 docId
 ;
-nsresult
-rv
-=
 docType
 -
 >
@@ -41745,14 +41742,6 @@ GetPublicId
 docId
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 if
 (
 (
@@ -41836,7 +41825,6 @@ allowZoom
 true
 )
 ;
-}
 }
 }
 nsAutoString
