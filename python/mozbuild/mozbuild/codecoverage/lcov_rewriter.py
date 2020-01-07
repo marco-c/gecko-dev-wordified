@@ -4982,6 +4982,47 @@ pp_info
 =
 res
             
+#
+We
+can
+'
+t
+assert
+that
+the
+file
+exists
+here
+because
+we
+don
+'
+t
+have
+the
+source
+checkout
+available
+            
+#
+on
+test
+machines
+.
+We
+can
+bring
+back
+this
+assertion
+when
+bug
+1432287
+is
+fixed
+.
+            
+#
 assert
 os
 .
@@ -5020,8 +5061,7 @@ found_valid
 True
             
 return
-source_file
-pp_info
+res
         
 in_paths
 =
