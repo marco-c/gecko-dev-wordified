@@ -7961,7 +7961,10 @@ this
 &
 masterList
 ownLayerASR
-0
+nsDisplayOwnLayerFlags
+:
+:
+eNone
 mozilla
 :
 :
