@@ -207,7 +207,6 @@ nametype
 {
 eTypeNotInitialized
 eTypeProperty
-eTypeExternalConstructor
 eTypeClassConstructor
 eTypeClassProto
 }
