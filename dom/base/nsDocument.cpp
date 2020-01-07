@@ -19635,7 +19635,7 @@ aContentType
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 SetContentType
@@ -21632,7 +21632,7 @@ nullptr
 endif
 }
 void
-nsDocument
+nsIDocument
 :
 :
 SetDocumentCharacterSet
