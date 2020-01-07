@@ -2459,7 +2459,9 @@ AppUnitsToDevPixels
 (
 shellArea
 .
-width
+Width
+(
+)
 )
 ;
 int32_t
@@ -2472,7 +2474,9 @@ AppUnitsToDevPixels
 (
 shellArea
 .
-height
+Height
+(
+)
 )
 ;
 return
