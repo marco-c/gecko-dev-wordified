@@ -2825,7 +2825,7 @@ mozilla
 MakeScopeExit
 (
 [
-&
+self
 ]
 {
 self
