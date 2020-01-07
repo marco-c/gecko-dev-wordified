@@ -6338,11 +6338,6 @@ mHadOriginalOpener
 1
 ;
 bool
-mOriginalOpenerWasSecureContext
-:
-1
-;
-bool
 mIsPopupSpam
 :
 1
