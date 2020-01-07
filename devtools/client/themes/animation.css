@@ -249,6 +249,15 @@ height
 100
 %
 ;
+overflow
+:
+hidden
+;
+width
+:
+100
+%
+;
 }
 /
 *
@@ -405,8 +414,6 @@ type
 none
 ;
 margin
--
-top
 :
 0
 ;
