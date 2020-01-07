@@ -142,7 +142,9 @@ getElementsByTagName
 some
 properties
 on
-nsIDOMHTMLDocument
+HTMLDocument
+/
+Document
 etc
 )
 .

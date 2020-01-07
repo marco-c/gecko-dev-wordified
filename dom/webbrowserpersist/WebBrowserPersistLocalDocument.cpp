@@ -309,13 +309,6 @@ h
 #
 include
 "
-nsIDOMHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLInputElement
 .
 h

@@ -204,7 +204,7 @@ h
 #
 include
 "
-nsIDOMHTMLDocument
+nsIDOMDocument
 .
 h
 "

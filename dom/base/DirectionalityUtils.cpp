@@ -2190,13 +2190,6 @@ h
 #
 include
 "
-nsIDOMHTMLDocument
-.
-h
-"
-#
-include
-"
 nsUnicodeProperties
 .
 h

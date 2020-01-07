@@ -973,13 +973,6 @@ h
 #
 include
 "
-nsIDOMHTMLDocument
-.
-h
-"
-#
-include
-"
 nsHTMLDocument
 .
 h

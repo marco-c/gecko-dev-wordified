@@ -347,13 +347,6 @@ h
 #
 include
 "
-nsIDOMHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIImageLoadingContent
 .
 h
