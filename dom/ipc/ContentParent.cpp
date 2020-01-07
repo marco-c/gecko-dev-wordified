@@ -1441,6 +1441,17 @@ mozilla
 /
 dom
 /
+ChromeMessageBroadcaster
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 nsMixedContentBlocker
 .
 h
@@ -13735,7 +13746,7 @@ domainPolicy
 ;
 if
 (
-nsFrameMessageManager
+ChromeMessageBroadcaster
 *
 mm
 =

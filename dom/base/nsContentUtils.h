@@ -538,9 +538,6 @@ class
 nsILoadGroup
 ;
 class
-nsIMessageBroadcaster
-;
-class
 nsNameSpaceManager
 ;
 class
@@ -690,6 +687,9 @@ HTMLEditor
 namespace
 dom
 {
+class
+ChromeMessageBroadcaster
+;
 struct
 CustomElementDefinition
 ;
@@ -4540,8 +4540,6 @@ IsCustomElementName
 nsAtom
 *
 aName
-uint32_t
-aNameSpaceID
 )
 ;
 static
@@ -21278,7 +21276,13 @@ static
 bool
 CallOnAllRemoteChildren
 (
-nsIMessageBroadcaster
+mozilla
+:
+:
+dom
+:
+:
+ChromeMessageBroadcaster
 *
 aManager
 CallOnRemoteChildFunction

@@ -153,7 +153,7 @@ ipc
 MessageManagerCallback
 *
 aCallback
-nsFrameMessageManager
+ChromeMessageBroadcaster
 *
 aParentManager
 MessageManagerFlags

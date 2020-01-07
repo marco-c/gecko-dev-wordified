@@ -198,6 +198,13 @@ h
 #
 include
 "
+nsFrameMessageManager
+.
+h
+"
+#
+include
+"
 nsHTMLContentSerializer
 .
 h
@@ -1914,7 +1921,7 @@ aResult
 nsresult
 NS_NewGlobalMessageManager
 (
-nsIMessageBroadcaster
+nsISupports
 *
 *
 aResult
@@ -1923,7 +1930,7 @@ aResult
 nsresult
 NS_NewParentProcessMessageManager
 (
-nsIMessageBroadcaster
+nsISupports
 *
 *
 aResult
@@ -2332,13 +2339,13 @@ NS_NewEventListenerService
 MAKE_CTOR
 (
 CreateGlobalMessageManager
-nsIMessageBroadcaster
+nsISupports
 NS_NewGlobalMessageManager
 )
 MAKE_CTOR
 (
 CreateParentMessageManager
-nsIMessageBroadcaster
+nsISupports
 NS_NewParentProcessMessageManager
 )
 MAKE_CTOR
