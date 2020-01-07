@@ -122,18 +122,6 @@ common
 ;
 const
 {
-resolve
-}
-=
-require
-(
-"
-promise
-"
-)
-;
-const
-{
 joinURI
 }
 =
@@ -2780,6 +2768,8 @@ sourceMapURL
 )
 {
 return
+Promise
+.
 resolve
 (
 null
@@ -3061,6 +3051,8 @@ _useSourceMaps
 )
 {
 return
+Promise
+.
 resolve
 (
 null
@@ -3105,6 +3097,8 @@ sourceMapURL
 )
 {
 return
+Promise
+.
 resolve
 (
 null
@@ -3274,6 +3268,8 @@ source
 )
 {
 return
+Promise
+.
 resolve
 (
 this
@@ -3320,6 +3316,8 @@ _sourceMaps
 set
 (
 source
+Promise
+.
 resolve
 (
 map
@@ -4151,6 +4149,8 @@ _sourceMapCache
 url
 ]
 =
+Promise
+.
 resolve
 (
 map

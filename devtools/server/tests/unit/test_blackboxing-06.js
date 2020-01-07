@@ -148,7 +148,7 @@ gThreadClient
 =
 threadClient
 ;
-promise
+Promise
 .
 resolve
 (

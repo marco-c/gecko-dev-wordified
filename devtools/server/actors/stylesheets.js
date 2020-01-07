@@ -84,16 +84,6 @@ Services
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 defer
 =
 require
@@ -1619,7 +1609,7 @@ rules
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -1636,7 +1626,7 @@ ownerNode
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -2264,7 +2254,7 @@ string
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -2302,7 +2292,7 @@ text
 cssText
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -2344,7 +2334,7 @@ text
 content
 ;
 return
-promise
+Promise
 .
 resolve
 (

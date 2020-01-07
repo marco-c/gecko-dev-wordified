@@ -74,16 +74,6 @@ chrome
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 protocol
 =
 require
@@ -8523,7 +8513,7 @@ KEYFRAME_RULE
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -8547,7 +8537,7 @@ string
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

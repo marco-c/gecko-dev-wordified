@@ -250,16 +250,6 @@ path
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 sourceSpec
 }
@@ -3401,7 +3391,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -5440,7 +5430,7 @@ length
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -5611,7 +5601,7 @@ maxLine
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -5757,7 +5747,7 @@ actor
 }
 }
 return
-promise
+Promise
 .
 resolve
 (

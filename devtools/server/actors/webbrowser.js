@@ -129,16 +129,6 @@ Services
 "
 )
 ;
-var
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
 const
 defer
 =
@@ -2433,7 +2423,7 @@ _checkListening
 )
 ;
 return
-promise
+Promise
 .
 all
 (
@@ -2663,7 +2653,7 @@ isChromeWindow
 )
 {
 return
-promise
+Promise
 .
 reject
 (
@@ -2787,7 +2777,7 @@ browser
 }
 }
 return
-promise
+Promise
 .
 reject
 (
@@ -2884,7 +2874,7 @@ browser
 }
 }
 return
-promise
+Promise
 .
 reject
 (
@@ -2954,7 +2944,7 @@ selectedBrowser
 ;
 }
 return
-promise
+Promise
 .
 reject
 (

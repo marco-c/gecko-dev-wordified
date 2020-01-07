@@ -78,16 +78,6 @@ main
 )
 ;
 var
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-var
 protocol
 =
 require
@@ -263,7 +253,7 @@ end
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

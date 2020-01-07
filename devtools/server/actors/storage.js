@@ -135,16 +135,6 @@ Services
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 defer
 =
 require
@@ -9183,7 +9173,7 @@ keys
 )
 ;
 yield
-promise
+Promise
 .
 all
 (

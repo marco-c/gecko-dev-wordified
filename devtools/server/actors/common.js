@@ -108,16 +108,6 @@ strict
 "
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 {
 method
 }
@@ -3145,7 +3135,7 @@ state
 .
 ;
 return
-promise
+Promise
 .
 reject
 (

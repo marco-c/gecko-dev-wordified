@@ -1179,7 +1179,7 @@ sequence
 )
 )
 ;
-promise
+Promise
 .
 all
 (
