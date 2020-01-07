@@ -663,6 +663,11 @@ LazyInstantiator
 )
 ;
 bool
+IsBlockedInjection
+(
+)
+;
+bool
 ShouldInstantiate
 (
 const
