@@ -9577,8 +9577,6 @@ not
 cloning
 /
 /
-nsCSSFontFaceRules
-or
 nsCSSCounterStyleRules
 OMT
 (

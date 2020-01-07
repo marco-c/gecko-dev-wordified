@@ -110,7 +110,6 @@ bindings
 {
 RawServoFontFeatureValuesRule
 RawServoImportRule
-RawServoSupportsRule
 }
 ;
 use
@@ -123,6 +122,7 @@ bindings
 {
 RawServoKeyframe
 RawServoKeyframesRule
+RawServoSupportsRule
 }
 ;
 use
@@ -170,7 +170,7 @@ structs
 {
 RawServoAnimationValue
 RawServoDeclarationBlock
-RawServoStyleRule
+RawServoFontFaceRule
 }
 ;
 use
@@ -182,6 +182,7 @@ structs
 :
 {
 RawServoMediaList
+RawServoStyleRule
 RawServoStyleSheetContents
 }
 ;
@@ -273,6 +274,7 @@ stylesheets
 :
 :
 {
+FontFaceRule
 FontFeatureValuesRule
 NamespaceRule
 PageRule
@@ -626,6 +628,22 @@ RawServoFontFeatureValuesRule
 [
 Servo_FontFeatureValuesRule_AddRef
 Servo_FontFeatureValuesRule_Release
+]
+)
+;
+impl_arc_ffi
+!
+(
+Locked
+<
+FontFaceRule
+>
+=
+>
+RawServoFontFaceRule
+[
+Servo_FontFaceRule_AddRef
+Servo_FontFaceRule_Release
 ]
 )
 ;
