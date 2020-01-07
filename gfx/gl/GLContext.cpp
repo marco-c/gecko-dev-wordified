@@ -7164,6 +7164,17 @@ mMaxSamples
 )
 ;
 }
+mMaxTexOrRbSize
+=
+std
+:
+:
+min
+(
+mMaxTextureSize
+mMaxRenderbufferSize
+)
+;
 /
 /
 /
