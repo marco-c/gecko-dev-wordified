@@ -7564,7 +7564,7 @@ aResult
 nsresult
 rv
 =
-ResolveAndStat
+Resolve
 (
 )
 ;
@@ -7653,7 +7653,7 @@ NS_ERROR_FILE_UNKNOWN_TYPE
 nsresult
 rv
 =
-ResolveAndStat
+Resolve
 (
 )
 ;
@@ -10417,7 +10417,7 @@ aResult
 nsresult
 rv
 =
-ResolveAndStat
+Resolve
 (
 )
 ;
@@ -14165,7 +14165,7 @@ CHECK_mWorkingPath
 nsresult
 rv
 =
-ResolveAndStat
+Resolve
 (
 )
 ;
@@ -14995,7 +14995,7 @@ SetPermissionsOfLink
 nsresult
 rv
 =
-ResolveAndStat
+Resolve
 (
 )
 ;
@@ -15385,7 +15385,7 @@ CHECK_mWorkingPath
 nsresult
 rv
 =
-ResolveAndStat
+Resolve
 (
 )
 ;
@@ -17910,7 +17910,7 @@ NS_ERROR_FILE_INVALID_PATH
 }
 #
 endif
-ResolveAndStat
+Resolve
 (
 )
 ;
