@@ -4436,10 +4436,6 @@ if
 self
 .
 verify_enabled
-or
-self
-.
-per_test_coverage
 :
             
 cmd
