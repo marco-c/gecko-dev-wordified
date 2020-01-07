@@ -366,7 +366,7 @@ nsAString
 aName
 int32_t
 aNsID
-nsIDocument
+nsIDOMDocument
 *
 aSourceDocument
 bool

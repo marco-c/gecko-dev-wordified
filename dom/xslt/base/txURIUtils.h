@@ -110,7 +110,7 @@ class
 nsIDocument
 ;
 class
-nsINode
+nsIDOMNode
 ;
 /
 *
@@ -165,7 +165,7 @@ ResetWithSource
 nsIDocument
 *
 aNewDoc
-nsINode
+nsIDOMNode
 *
 aSourceNode
 )
