@@ -1780,6 +1780,19 @@ threads
 )
         
 if
+not
+(
+self
+.
+verify_enabled
+or
+self
+.
+per_test_coverage
+)
+:
+            
+if
 os
 .
 environ
@@ -1791,7 +1804,7 @@ MOZHARNESS_TEST_PATHS
 '
 )
 :
-            
+                
 prefix
 =
 '
@@ -1801,7 +1814,7 @@ web
 -
 platform
 '
-            
+                
 paths
 =
 os
@@ -1819,7 +1832,7 @@ split
 :
 '
 )
-            
+                
 paths
 =
 [
@@ -1845,7 +1858,7 @@ p
 prefix
 )
 )
-                     
+                         
 for
 p
 in
@@ -1858,21 +1871,17 @@ startswith
 prefix
 )
 ]
-            
+                
 cmd
 .
 extend
 (
 paths
 )
-        
-elif
-not
-self
-.
-verify_enabled
-:
             
+else
+:
+                
 for
 opt
 in
@@ -1885,7 +1894,7 @@ this_chunk
 "
 ]
 :
-                
+                    
 val
 =
 c
@@ -1894,11 +1903,11 @@ get
 (
 opt
 )
-                
+                    
 if
 val
 :
-                    
+                        
 cmd
 .
 append
@@ -2092,7 +2101,7 @@ dirs
 abs_work_dir
 "
 ]
-            
+        
 }
         
 test_type_suite

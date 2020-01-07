@@ -4108,9 +4108,22 @@ str_format_values
 )
         
 if
-user_paths
+not
+(
+self
+.
+verify_enabled
+or
+self
+.
+per_test_coverage
+)
 :
             
+if
+user_paths
+:
+                
 cmd
 .
 extend
@@ -4124,14 +4137,20 @@ split
 '
 )
 )
-        
+            
 elif
 not
+(
 self
 .
 verify_enabled
+or
+self
+.
+per_test_coverage
+)
 :
-            
+                
 if
 self
 .
@@ -4140,7 +4159,7 @@ is
 not
 None
 :
-                
+                    
 cmd
 .
 extend
@@ -4158,7 +4177,7 @@ self
 this_chunk
 ]
 )
-            
+                
 if
 self
 .
@@ -4167,7 +4186,7 @@ is
 not
 None
 :
-                
+                    
 cmd
 .
 extend
