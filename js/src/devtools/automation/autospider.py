@@ -1590,6 +1590,19 @@ AUTOSPIDER
 )
 :
     
+if
+creation_marker_filename
+is
+None
+:
+        
+marker
+=
+None
+    
+else
+:
+        
 marker
 =
 os
@@ -1609,6 +1622,8 @@ clobber
 if
 not
 AUTOMATION
+and
+marker
 and
 os
 .
@@ -1672,6 +1687,10 @@ mkdir
 name
 )
         
+if
+marker
+:
+            
 open
 (
 marker
@@ -2081,6 +2100,9 @@ MOZ_UPLOAD_DIR
 clobber
 =
 False
+creation_marker_filename
+=
+None
 )
 #
 Some
