@@ -8588,7 +8588,7 @@ nsINode
 (
 nullNodeInfo
 )
-StyleScope
+DocumentOrShadowRoot
 (
 *
 this
@@ -26934,7 +26934,7 @@ emilio
 :
 Stop
 touching
-StyleScope
+DocumentOrShadowRoot
 '
 s
 members

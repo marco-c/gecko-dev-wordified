@@ -3770,7 +3770,7 @@ mozilla
 dom
 :
 :
-StyleScope
+DocumentOrShadowRoot
 :
 :
 GetElementById
@@ -3782,7 +3782,7 @@ mozilla
 dom
 :
 :
-StyleScope
+DocumentOrShadowRoot
 :
 :
 GetElementsByTagName
@@ -3794,7 +3794,7 @@ mozilla
 dom
 :
 :
-StyleScope
+DocumentOrShadowRoot
 :
 :
 GetElementsByTagNameNS
@@ -3806,7 +3806,7 @@ mozilla
 dom
 :
 :
-StyleScope
+DocumentOrShadowRoot
 :
 :
 GetElementsByClassName
