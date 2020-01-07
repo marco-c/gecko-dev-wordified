@@ -13767,6 +13767,13 @@ this
 talking
 about
 ?
+if
+(
+IsContentDocument
+(
+)
+)
+{
 /
 /
 Inform
@@ -13851,6 +13858,7 @@ BeginLoad
 (
 )
 ;
+}
 }
 }
 }
