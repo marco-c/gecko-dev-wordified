@@ -37916,7 +37916,7 @@ exist
 /
 Note
 that
-ensureGrayRoot
+EnsureGrayRoot
 (
 )
 will
