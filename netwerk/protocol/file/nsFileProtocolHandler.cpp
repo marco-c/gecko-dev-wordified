@@ -1067,7 +1067,7 @@ char
 charset
 nsIURI
 *
-baseURI
+aBaseURI
 nsIURI
 *
 *
@@ -1121,6 +1121,15 @@ spec
 }
 #
 endif
+nsCOMPtr
+<
+nsIURI
+>
+base
+(
+aBaseURI
+)
+;
 return
 NS_MutateURI
 (
@@ -1128,9 +1137,8 @@ url
 )
 .
 Apply
-<
-nsIStandardURLMutator
->
+(
+NS_MutatorMethod
 (
 &
 nsIStandardURLMutator
@@ -1145,8 +1153,9 @@ URLTYPE_NO_AUTHORITY
 1
 buf
 charset
-baseURI
+base
 nullptr
+)
 )
 .
 Finalize
