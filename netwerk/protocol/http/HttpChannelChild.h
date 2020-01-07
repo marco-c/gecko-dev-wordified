@@ -1802,6 +1802,9 @@ mSynthesizedCacheInfo
 nsCString
 mProtocolVersion
 ;
+TimeStamp
+mLastStatusReported
+;
 /
 /
 If
