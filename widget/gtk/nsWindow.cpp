@@ -21044,6 +21044,11 @@ the
 parent
 window
 .
+if
+(
+mIsX11Display
+)
+{
 gtk_widget_realize
 (
 mShell
@@ -21059,6 +21064,7 @@ popup_take_focus_filter
 nullptr
 )
 ;
+}
 #
 endif
 }
