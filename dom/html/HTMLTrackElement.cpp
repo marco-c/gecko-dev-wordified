@@ -618,13 +618,13 @@ subtitles
 in
 GetKind
 static
+constexpr
 const
 nsAttrValue
 :
 :
 EnumTable
 *
-const
 kKindTableInvalidValueDefault
 =
 &
