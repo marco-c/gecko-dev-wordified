@@ -1170,10 +1170,10 @@ processed
 before
 we
 prioritize
-an
+a
 /
 /
-active
+visible
 tab
 .
 This
@@ -1208,7 +1208,7 @@ LabeledEventQueue
 cpp
 .
 int64_t
-mAvoidActiveTabCount
+mAvoidVisibleTabCount
 =
 0
 ;
