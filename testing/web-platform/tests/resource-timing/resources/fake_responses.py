@@ -1,5 +1,6 @@
 #
-XMLHttpRequest
+/
+xhr
 /
 resources
 /

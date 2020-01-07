@@ -1433,6 +1433,7 @@ output
 latex_elements
 =
 {
+    
 #
 The
 paper
@@ -1447,6 +1448,7 @@ a4paper
 '
 )
 .
+    
 #
 '
 papersize
@@ -1455,6 +1457,7 @@ papersize
 '
 letterpaper
 '
+    
 #
 The
 font
@@ -1472,6 +1475,7 @@ or
 '
 )
 .
+    
 #
 '
 pointsize
@@ -1480,6 +1484,7 @@ pointsize
 '
 10pt
 '
+    
 #
 Additional
 stuff
@@ -1488,6 +1493,7 @@ the
 LaTeX
 preamble
 .
+    
 #
 '
 preamble
@@ -1531,7 +1537,7 @@ class
 latex_documents
 =
 [
-  
+    
 (
 '
 index
@@ -1546,7 +1552,7 @@ u
 wptrunner
 Documentation
 '
-   
+     
 u
 '
 James
@@ -1856,7 +1862,7 @@ category
 texinfo_documents
 =
 [
-  
+    
 (
 '
 index
@@ -1869,7 +1875,7 @@ u
 wptrunner
 Documentation
 '
-   
+     
 u
 '
 James
@@ -1886,7 +1892,7 @@ of
 project
 .
 '
-   
+     
 '
 Miscellaneous
 '
