@@ -774,8 +774,6 @@ store
 =
 setupStore
 (
-[
-]
 )
 ;
 const

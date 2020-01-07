@@ -185,6 +185,14 @@ setupStore
 [
 ]
 {
+storeOptions
+:
+{
+logLimit
+}
+hud
+:
+{
 proxy
 :
 {
@@ -206,8 +214,6 @@ actor
 }
 }
 }
-{
-logLimit
 }
 )
 ;
@@ -505,6 +511,14 @@ setupStore
 [
 ]
 {
+storeOptions
+:
+{
+logLimit
+}
+hud
+:
+{
 proxy
 :
 {
@@ -526,8 +540,6 @@ actor
 }
 }
 }
-{
-logLimit
 }
 )
 ;
@@ -925,6 +937,9 @@ setupStore
 [
 ]
 {
+hud
+:
+{
 proxy
 :
 {
@@ -943,6 +958,7 @@ push
 actor
 )
 ;
+}
 }
 }
 }
