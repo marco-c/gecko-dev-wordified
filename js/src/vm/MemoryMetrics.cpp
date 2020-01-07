@@ -2049,6 +2049,18 @@ JSCompartment
 compartment
 )
 {
+Realm
+*
+realm
+=
+JS
+:
+:
+GetRealmForCompartment
+(
+compartment
+)
+;
 /
 /
 Append
@@ -2134,7 +2146,7 @@ compartment
 realmStats
 )
 ;
-compartment
+realm
 -
 >
 setRealmStats
@@ -2147,7 +2159,7 @@ realmStats
 /
 Measure
 the
-compartment
+realm
 object
 itself
 and
@@ -2156,7 +2168,7 @@ hanging
 off
 it
 .
-compartment
+realm
 -
 >
 addSizeOfIncludingThis

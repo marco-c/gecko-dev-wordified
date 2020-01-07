@@ -3010,7 +3010,7 @@ if
 varobj
 -
 >
-compartment
+realm
 (
 )
 -
