@@ -958,6 +958,11 @@ return
 mDiscarded
 ;
 }
+bool
+IsChanged
+(
+)
+;
 nsDisplayItem
 *
 mItem
