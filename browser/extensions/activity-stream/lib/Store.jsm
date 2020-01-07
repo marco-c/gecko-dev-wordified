@@ -240,7 +240,8 @@ store
 .
 *
 /
-var
+this
+.
 Store
 =
 class
@@ -1163,7 +1164,7 @@ destroyChannel
 }
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

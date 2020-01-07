@@ -219,7 +219,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 ManualMigration
 =
 class
@@ -716,7 +717,7 @@ break
 }
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

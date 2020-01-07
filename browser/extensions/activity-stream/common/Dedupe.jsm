@@ -1,4 +1,5 @@
-var
+this
+.
 Dedupe
 =
 class
@@ -213,7 +214,7 @@ values
 }
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

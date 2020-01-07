@@ -174,7 +174,8 @@ SYSTEM_TICK_INTERVAL
 *
 1000
 ;
-var
+this
+.
 SystemTickFeed
 =
 class
@@ -261,7 +262,7 @@ SYSTEM_TICK_INTERVAL
 =
 SYSTEM_TICK_INTERVAL
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

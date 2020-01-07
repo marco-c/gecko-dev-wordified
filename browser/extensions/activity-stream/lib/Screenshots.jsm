@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -257,7 +257,8 @@ GREY_10
 F9F9FA
 "
 ;
-var
+this
+.
 Screenshots
 =
 {

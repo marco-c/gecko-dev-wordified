@@ -126,8 +126,6 @@ type_label_pocket
 "
 :
 "
-Saved
-to
 Pocket
 "
 "
@@ -234,8 +232,6 @@ menu_action_delete_pocket
 "
 :
 "
-Delete
-from
 Pocket
 "
 "
@@ -588,7 +584,6 @@ topsites_form_title_label
 "
 :
 "
-Title
 "
 "
 topsites_form_title_placeholder
@@ -790,14 +785,6 @@ Down
 "
 "
 section_menu_action_privacy_notice
-"
-:
-"
-Privacy
-Notice
-"
-"
-edit_topsites_add_button_tooltip
 "
 :
 "

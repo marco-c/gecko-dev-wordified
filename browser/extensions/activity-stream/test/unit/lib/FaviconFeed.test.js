@@ -2074,11 +2074,16 @@ PlacesUtils
 favicons
 .
 setAndFetchFaviconForPage
+sinon
+.
+match
+(
 {
 spec
 :
 url
 }
+)
 {
 ref
 :

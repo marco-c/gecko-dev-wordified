@@ -24,7 +24,7 @@ Core
 Module
 *
 /
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -67,7 +67,8 @@ Object
 =
 Object
 ;
-var
+this
+.
 redux
 =
 /

@@ -278,7 +278,8 @@ true
 ;
 }
 }
-var
+this
+.
 PrerenderData
 =
 new
@@ -588,7 +589,7 @@ _PrerenderData
 =
 _PrerenderData
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

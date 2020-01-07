@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -216,7 +216,8 @@ url
 .
 *
 /
-var
+this
+.
 LinksCache
 =
 class

@@ -141,7 +141,8 @@ object
 .
 *
 /
-var
+this
+.
 PersistentCache
 =
 class
@@ -614,7 +615,7 @@ tmp
 }
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

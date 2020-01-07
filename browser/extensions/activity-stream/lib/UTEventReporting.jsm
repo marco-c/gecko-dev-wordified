@@ -145,7 +145,8 @@ action_position
 "
 ]
 ;
-var
+this
+.
 UTEventReporting
 =
 class
@@ -370,7 +371,7 @@ false
 }
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

@@ -82,10 +82,6 @@ context_menu_button_sr
 "
 :
 "
-Open
-context
-menu
-for
 {
 title
 }
@@ -792,6 +788,12 @@ section_menu_action_privacy_notice
 "
 Privacy
 Notice
+"
+"
+edit_topsites_add_button_tooltip
+"
+:
+"
 "
 }
 ;

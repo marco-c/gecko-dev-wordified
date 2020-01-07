@@ -413,7 +413,8 @@ faviconSize
 "
 ]
 ;
-var
+this
+.
 TopSitesFeed
 =
 class
@@ -2499,7 +2500,7 @@ DEFAULT_TOP_SITES
 =
 DEFAULT_TOP_SITES
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

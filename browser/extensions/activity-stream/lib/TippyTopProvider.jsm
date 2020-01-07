@@ -173,7 +173,8 @@ return
 domain
 ;
 }
-var
+this
+.
 TippyTopProvider
 =
 class
@@ -382,7 +383,7 @@ site
 }
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
