@@ -279,7 +279,7 @@ firefox
 '
         
 '
-desktop_release_type
+release_type
 '
 :
 '
@@ -311,7 +311,7 @@ firefox
 '
         
 '
-desktop_release_type
+release_type
 '
 :
 '
@@ -2097,7 +2097,7 @@ release_history
 parameters
 [
 '
-desktop_release_type
+release_type
 '
 ]
 =
@@ -2106,7 +2106,7 @@ promotion_config
 get
 (
 '
-desktop_release_type
+release_type
 '
 '
 '
