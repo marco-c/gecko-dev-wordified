@@ -459,9 +459,11 @@ addVisits
 {
 uri
 :
-PlacesUtils
+Services
 .
-_uri
+io
+.
+newURI
 (
 TEST_URI
 )

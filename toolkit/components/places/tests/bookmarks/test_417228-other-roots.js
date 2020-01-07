@@ -275,9 +275,11 @@ this
 .
 _testURI
 =
-PlacesUtils
+Services
 .
-_uri
+io
+.
+newURI
 (
 "
 http
@@ -814,9 +816,11 @@ Assert
 .
 ok
 (
-PlacesUtils
+Services
 .
-_uri
+io
+.
+newURI
 (
 child
 .
