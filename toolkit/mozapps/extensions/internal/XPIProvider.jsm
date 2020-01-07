@@ -28932,6 +28932,14 @@ signedState
 aAddon
 .
 signedState
+temporarilyInstalled
+:
+aAddon
+.
+_installLocation
+=
+=
+TemporaryInstallLocation
 }
 ;
 if
