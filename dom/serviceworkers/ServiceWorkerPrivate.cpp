@@ -236,6 +236,13 @@ h
 #
 include
 "
+WorkerDebugger
+.
+h
+"
+#
+include
+"
 WorkerRunnable
 .
 h

@@ -168,6 +168,9 @@ ErrorResult
 namespace
 mozilla
 BEGIN_WORKERS_NAMESPACE
+struct
+WorkerLoadInfo
+;
 enum
 WorkerScriptType
 {
