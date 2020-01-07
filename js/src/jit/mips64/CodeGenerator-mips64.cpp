@@ -5320,6 +5320,12 @@ convertUInt64ToDouble
 (
 input
 output
+Register
+:
+:
+Invalid
+(
+)
 )
 ;
 else
@@ -5354,6 +5360,12 @@ convertUInt64ToFloat32
 (
 input
 output
+Register
+:
+:
+Invalid
+(
+)
 )
 ;
 else
