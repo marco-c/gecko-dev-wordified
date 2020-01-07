@@ -55177,7 +55177,6 @@ frame
 .
 uint32_t
 equalStructs
-samePointerStructs
 ;
 /
 /
@@ -55201,15 +55200,6 @@ CalcStyleDifference
 newStyle
 &
 equalStructs
-&
-samePointerStructs
-/
-*
-aIgnoreVariables
-=
-*
-/
-true
 )
 ;
 /

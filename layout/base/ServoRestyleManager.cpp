@@ -3683,7 +3683,6 @@ false
 ;
 uint32_t
 equalStructs
-samePointerStructs
 ;
 mComputedHint
 =
@@ -3696,8 +3695,6 @@ CalcStyleDifference
 aNewStyle
 &
 equalStructs
-&
-samePointerStructs
 )
 ;
 mComputedHint
@@ -4374,7 +4371,6 @@ nullptr
 ;
 uint32_t
 equalStructs
-samePointerStructs
 ;
 /
 /
@@ -4392,8 +4388,6 @@ CalcStyleDifference
 newStyle
 &
 equalStructs
-&
-samePointerStructs
 )
 ;
 if
