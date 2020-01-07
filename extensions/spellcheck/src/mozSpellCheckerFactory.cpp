@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsTextServicesCID
-.
-h
-"
-#
-include
-"
 mozPersonalDictionary
 .
 h

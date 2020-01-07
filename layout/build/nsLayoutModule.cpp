@@ -850,14 +850,9 @@ h
 #
 include
 "
-nsTextServicesDocument
-.
-h
-"
-#
-include
-"
-nsTextServicesCID
+mozilla
+/
+TextServicesDocument
 .
 h
 "
@@ -1405,7 +1400,7 @@ nsParserUtils
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsTextServicesDocument
+TextServicesDocument
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -4968,7 +4963,7 @@ nsEditingCommandTableConstructor
 kNS_TEXTSERVICESDOCUMENT_CID
 false
 nullptr
-nsTextServicesDocumentConstructor
+TextServicesDocumentConstructor
 }
 {
 &
