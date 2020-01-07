@@ -549,6 +549,17 @@ aID
 )
 const
 ;
+ServiceWorkerInfo
+*
+GetByDescriptor
+(
+const
+ServiceWorkerDescriptor
+&
+aDescriptor
+)
+const
+;
 /
 /
 Set
