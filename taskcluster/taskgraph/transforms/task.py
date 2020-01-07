@@ -5003,6 +5003,11 @@ job
 name
 }
 "
+#
+noqa
+-
+too
+long
     
 "
 index
@@ -5200,6 +5205,11 @@ name
 locale
 }
 "
+#
+noqa
+-
+too
+long
     
 "
 index
@@ -5240,6 +5250,11 @@ name
 locale
 }
 "
+#
+noqa
+-
+too
+long
 ]
 V2_L10N_TEMPLATES
 =
@@ -5320,6 +5335,11 @@ name
 locale
 }
 "
+#
+noqa
+-
+too
+long
     
 "
 index
