@@ -1370,6 +1370,13 @@ WasmStackAlignment
 =
 SimdMemoryAlignment
 ;
+static
+const
+uint32_t
+WasmTrapInstructionLength
+=
+2
+;
 struct
 ImmTag
 :

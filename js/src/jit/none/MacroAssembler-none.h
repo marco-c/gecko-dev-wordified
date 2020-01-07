@@ -657,6 +657,17 @@ invalid_reg
 static
 constexpr
 Register
+ABINonVolatileReg
+{
+Registers
+:
+:
+invalid_reg
+}
+;
+static
+constexpr
+Register
 ABINonArgReturnVolatileReg
 {
 Registers

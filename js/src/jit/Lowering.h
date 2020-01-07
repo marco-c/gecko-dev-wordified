@@ -1648,6 +1648,14 @@ ins
 )
 ;
 void
+visitWasmInterruptCheck
+(
+MWasmInterruptCheck
+*
+ins
+)
+;
+void
 visitWasmTrap
 (
 MWasmTrap
