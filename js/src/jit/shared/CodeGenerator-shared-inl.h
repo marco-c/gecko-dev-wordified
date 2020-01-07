@@ -1062,7 +1062,7 @@ a
 static
 inline
 ValueOperand
-GetValueOutput
+ToOutValue
 (
 LInstruction
 *
