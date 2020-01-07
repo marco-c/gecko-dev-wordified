@@ -1291,6 +1291,9 @@ argsobj
 return
 false
 ;
+#
+ifndef
+JS_CODEGEN_NONE
 /
 /
 Disabling
@@ -1352,6 +1355,8 @@ cx
 script
 )
 ;
+#
+endif
 args
 .
 rval
