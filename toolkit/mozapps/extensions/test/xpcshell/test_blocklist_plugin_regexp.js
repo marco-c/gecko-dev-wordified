@@ -64,7 +64,7 @@ PLUGINS
 /
 /
 Normal
-blacklisted
+blocklisted
 plugin
 before
 an
@@ -91,7 +91,7 @@ false
 /
 /
 Normal
-blacklisted
+blocklisted
 plugin
 with
 an
@@ -118,7 +118,7 @@ false
 /
 /
 Normal
-blacklisted
+blocklisted
 plugin
 after
 an
@@ -167,8 +167,11 @@ false
 }
 ]
 ;
+add_task
+(
+async
 function
-run_test
+checkBlocklistForRegexes
 (
 )
 {
@@ -243,8 +246,9 @@ check
 )
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -262,8 +266,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_BLOCKED
@@ -284,8 +286,9 @@ invalid
 regexp
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -303,8 +306,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_NOT_BLOCKED
@@ -329,8 +330,9 @@ this
 one
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -348,8 +350,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_BLOCKED
@@ -373,8 +373,9 @@ a
 wildcard
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -392,11 +393,11 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_NOT_BLOCKED
 )
 ;
 }
+)
+;

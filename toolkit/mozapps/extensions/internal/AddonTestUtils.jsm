@@ -1130,7 +1130,7 @@ r
 setTimeout
 (
 r
-0
+150
 )
 )
 ;
@@ -1209,6 +1209,7 @@ return
 null
 ;
 }
+async
 getPluginBlocklistState
 (
 plugin
@@ -1217,6 +1218,20 @@ appVersion
 toolkitVersion
 )
 {
+await
+new
+Promise
+(
+r
+=
+>
+setTimeout
+(
+r
+150
+)
+)
+;
 return
 Ci
 .

@@ -138,8 +138,11 @@ return
 null
 ;
 }
+add_task
+(
+async
 function
-run_test
+checkFlashOnlyPluginState
 (
 )
 {
@@ -242,12 +245,13 @@ closed
 "
 )
 ;
+await
+new
+Promise
+(
 executeSoon
-(
-function
-(
 )
-{
+;
 /
 /
 should
@@ -260,8 +264,9 @@ the
 blocklist
 Assert
 .
-ok
+equal
 (
+await
 Services
 .
 blocklist
@@ -278,8 +283,6 @@ plugin
 9
 "
 )
-=
-=
 nsIBLS
 .
 STATE_OUTDATED
@@ -288,4 +291,3 @@ STATE_OUTDATED
 }
 )
 ;
-}

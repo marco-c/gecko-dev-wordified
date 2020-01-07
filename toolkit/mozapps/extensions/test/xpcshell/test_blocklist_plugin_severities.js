@@ -167,8 +167,11 @@ false
 }
 ]
 ;
+add_task
+(
+async
 function
-run_test
+checkBlocklistSeverities
 (
 )
 {
@@ -225,8 +228,9 @@ check
 )
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -244,8 +248,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_BLOCKED
@@ -256,8 +258,9 @@ STATE_BLOCKED
 outdated
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -275,8 +278,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_OUTDATED
@@ -287,8 +288,9 @@ STATE_OUTDATED
 outdated
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -306,8 +308,6 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_OUTDATED
@@ -319,8 +319,9 @@ not
 blocked
 Assert
 .
-ok
+equal
 (
+await
 blocklist
 .
 getPluginBlocklistState
@@ -338,11 +339,11 @@ PLUGINS
 9
 "
 )
-=
-=
 blocklist
 .
 STATE_NOT_BLOCKED
 )
 ;
 }
+)
+;
