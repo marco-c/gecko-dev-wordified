@@ -8908,9 +8908,9 @@ FrameMetrics
 :
 ViewID
 aScrollId
-LayerBox
+LayerRectAbsolute
 aOuter
-LayerBox
+LayerRectAbsolute
 aInner
 )
 {
@@ -9633,7 +9633,7 @@ StickyScrollContainerId
 ;
 }
 const
-LayerBox
+LayerRectAbsolute
 &
 GetStickyScrollRangeOuter
 (
@@ -9648,7 +9648,7 @@ StickyScrollRangeOuter
 ;
 }
 const
-LayerBox
+LayerRectAbsolute
 &
 GetStickyScrollRangeInner
 (

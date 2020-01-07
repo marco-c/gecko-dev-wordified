@@ -3739,7 +3739,7 @@ those
 intervals
 .
 const
-LayerBox
+LayerRectAbsolute
 &
 stickyOuter
 =
@@ -3751,7 +3751,7 @@ GetStickyScrollRangeOuter
 )
 ;
 const
-LayerBox
+LayerRectAbsolute
 &
 stickyInner
 =
