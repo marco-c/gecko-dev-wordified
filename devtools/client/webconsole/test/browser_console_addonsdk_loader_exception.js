@@ -84,7 +84,9 @@ scripts
 loaded
 with
 the
-DevTools
+addon
+-
+sdk
 loader
 are
 /
@@ -224,7 +226,9 @@ script
 loaded
 with
 the
-DevTools
+addon
+-
+sdk
 loader
 .
 let

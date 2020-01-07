@@ -299,7 +299,7 @@ Overload
 Components
 to
 prevent
-DevTools
+SDK
 loader
 exception
 on

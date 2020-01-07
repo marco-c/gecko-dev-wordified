@@ -1499,7 +1499,7 @@ break
 ;
 case
 "
-devtools
+sdk
 :
 loader
 :
@@ -4673,7 +4673,7 @@ break
 *
 Either
 the
-DevTools
+SDK
 Loader
 has
 been
@@ -4799,7 +4799,7 @@ removeObserver
 (
 gDevToolsBrowser
 "
-devtools
+sdk
 :
 loader
 :
@@ -5060,7 +5060,7 @@ addObserver
 (
 gDevToolsBrowser
 "
-devtools
+sdk
 :
 loader
 :

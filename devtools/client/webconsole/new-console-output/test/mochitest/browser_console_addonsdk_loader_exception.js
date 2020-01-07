@@ -96,7 +96,9 @@ scripts
 loaded
 with
 the
-DevTools
+addon
+-
+sdk
 loader
 are
 /
@@ -132,7 +134,7 @@ utf8
 <
 p
 >
-browser_console_devtools_loader_exception
+browser_console_addonsdk_loader_exception
 .
 js
 <
@@ -198,7 +200,9 @@ script
 loaded
 with
 the
-DevTools
+addon
+-
+sdk
 loader
 .
 let
