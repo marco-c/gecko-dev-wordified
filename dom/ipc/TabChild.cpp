@@ -12146,6 +12146,10 @@ IPC
 Principal
 &
 aRequestingPrincipal
+const
+uint32_t
+&
+aContentPolicyType
 )
 {
 nsresult
@@ -12200,6 +12204,7 @@ IPCTransferableToTransferable
 aDataTransfer
 aIsPrivateData
 aRequestingPrincipal
+aContentPolicyType
 trans
 nullptr
 this

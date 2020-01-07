@@ -1440,16 +1440,6 @@ layers
 SetAllowedTouchBehaviorCallback
 SetAllowedTouchBehaviorCallback
 ;
-typedef
-mozilla
-:
-:
-layers
-:
-:
-TouchBehaviorFlags
-TouchBehaviorFlags
-;
 public
 :
 /
@@ -2490,6 +2480,10 @@ IPC
 Principal
 &
 aRequestingPrincipal
+const
+uint32_t
+&
+aContentPolicyType
 )
 override
 ;

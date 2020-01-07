@@ -4925,6 +4925,10 @@ Principal
 &
 aRequestingPrincipal
 const
+uint32_t
+&
+aContentPolicyType
+const
 int32_t
 &
 aWhichClipboard

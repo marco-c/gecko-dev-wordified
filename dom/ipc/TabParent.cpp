@@ -13020,6 +13020,10 @@ IPC
 Principal
 &
 aRequestingPrincipal
+const
+uint32_t
+&
+aContentPolicyType
 )
 {
 return
@@ -13031,6 +13035,7 @@ SendPasteTransferable
 aDataTransfer
 aIsPrivateData
 aRequestingPrincipal
+aContentPolicyType
 )
 ;
 }
