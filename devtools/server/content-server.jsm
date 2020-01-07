@@ -290,9 +290,6 @@ DebuggerServer
 registerActors
 (
 {
-browser
-:
-false
 root
 :
 true
