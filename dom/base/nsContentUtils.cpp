@@ -28756,9 +28756,9 @@ CreateWithoutOriginAttributes
 ;
 nsCOMPtr
 <
-nsIDOMDocument
+nsIDocument
 >
-domDocument
+document
 ;
 nsresult
 rv
@@ -28767,7 +28767,7 @@ NS_NewDOMDocument
 (
 getter_AddRefs
 (
-domDocument
+document
 )
 EmptyString
 (
@@ -28792,13 +28792,13 @@ rv
 ;
 nsCOMPtr
 <
-nsIDocument
+nsIDOMDocument
 >
-document
+domDocument
 =
 do_QueryInterface
 (
-domDocument
+document
 )
 ;
 rv
