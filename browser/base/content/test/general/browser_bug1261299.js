@@ -213,11 +213,6 @@ true
 ctrlKey
 :
 true
-code
-:
-"
-ArrowRight
-"
 }
 gBrowser
 .
@@ -286,11 +281,6 @@ true
 ctrlKey
 :
 true
-code
-:
-"
-ArrowRight
-"
 }
 gBrowser
 .
@@ -511,11 +501,6 @@ true
 ctrlKey
 :
 true
-code
-:
-"
-ArrowRight
-"
 }
 gBrowser
 .
@@ -567,11 +552,6 @@ true
 ctrlKey
 :
 true
-code
-:
-"
-ArrowRight
-"
 }
 gBrowser
 .

@@ -3589,11 +3589,6 @@ synthesizeKey
 KEY_ArrowDown
 "
 {
-code
-:
-"
-ArrowDown
-"
 }
 )
 ;

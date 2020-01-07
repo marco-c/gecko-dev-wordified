@@ -989,11 +989,6 @@ synthesizeKey
 m
 "
 {
-code
-:
-"
-KeyM
-"
 }
 browser
 )
@@ -1296,11 +1291,6 @@ synthesizeKey
 m
 "
 {
-code
-:
-"
-KeyM
-"
 }
 browser
 )

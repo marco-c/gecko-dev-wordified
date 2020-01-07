@@ -1179,11 +1179,6 @@ type
 "
 keydown
 "
-code
-:
-"
-ArrowDown
-"
 }
 )
 ;
