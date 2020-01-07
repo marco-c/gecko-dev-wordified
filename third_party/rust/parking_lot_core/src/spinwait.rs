@@ -151,8 +151,8 @@ atomic
 :
 :
 {
-Ordering
 fence
+Ordering
 }
 ;
 /

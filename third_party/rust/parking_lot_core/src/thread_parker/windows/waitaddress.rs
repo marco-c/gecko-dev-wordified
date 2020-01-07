@@ -659,6 +659,7 @@ and_then
 |
 x
 |
+{
 x
 .
 checked_add
@@ -677,6 +678,7 @@ u64
 /
 1000000
 )
+}
 )
 .
 map
@@ -684,6 +686,7 @@ map
 |
 ms
 |
+{
 if
 ms
 >
@@ -714,6 +717,7 @@ winapi
 :
 :
 DWORD
+}
 }
 )
 .

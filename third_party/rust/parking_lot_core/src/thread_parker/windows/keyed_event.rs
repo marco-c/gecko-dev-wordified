@@ -921,6 +921,7 @@ and_then
 |
 x
 |
+{
 x
 .
 checked_sub
@@ -942,6 +943,7 @@ LARGE_INTEGER
 /
 100
 )
+}
 )
 ;
 let
