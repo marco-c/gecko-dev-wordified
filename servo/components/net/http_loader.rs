@@ -3220,7 +3220,7 @@ log_enabled
 log
 :
 :
-LogLevel
+Level
 :
 :
 Info
@@ -7876,7 +7876,7 @@ log_enabled
 log
 :
 :
-LogLevel
+Level
 :
 :
 Info
