@@ -361,15 +361,6 @@ interfaces
 nsIDOMNode
 ;
 const
-nsIDOMHTMLElement
-=
-Components
-.
-interfaces
-.
-nsIDOMHTMLElement
-;
-const
 nsIDOMWindow
 =
 Components

@@ -158,13 +158,6 @@ h
 #
 include
 "
-nsIDOMHTMLElement
-.
-h
-"
-#
-include
-"
 nsICSSDeclaration
 .
 h
