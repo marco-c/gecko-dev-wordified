@@ -446,7 +446,7 @@ clientY
 htmlEditor
 -
 >
-MouseUp
+OnMouseUp
 (
 clientX
 clientY
@@ -1333,7 +1333,7 @@ clientY
 htmlEditor
 -
 >
-MouseDown
+OnMouseDown
 (
 clientX
 clientY
