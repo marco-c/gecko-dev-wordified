@@ -153,7 +153,7 @@ type_traits
 #
 include
 "
-nsString
+nsStringFwd
 .
 h
 "
