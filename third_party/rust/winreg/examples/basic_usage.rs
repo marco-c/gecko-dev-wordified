@@ -117,7 +117,7 @@ cur_ver
 =
 hklm
 .
-open_subkey_with_flags
+open_subkey
 (
 "
 SOFTWARE
@@ -131,7 +131,6 @@ Windows
 \
 CurrentVersion
 "
-KEY_READ
 )
 .
 unwrap
@@ -475,9 +474,6 @@ key
 "
 )
 ;
-let
-key2
-=
 hkcu
 .
 open_subkey

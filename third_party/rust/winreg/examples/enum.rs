@@ -149,7 +149,7 @@ predef
 HKEY_LOCAL_MACHINE
 )
 .
-open_subkey_with_flags
+open_subkey
 (
 "
 HARDWARE
@@ -160,7 +160,6 @@ DESCRIPTION
 \
 System
 "
-KEY_READ
 )
 .
 unwrap
