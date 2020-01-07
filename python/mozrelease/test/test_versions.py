@@ -329,7 +329,6 @@ around
 0b9
 '
     
-#
 '
 10
 .
@@ -338,7 +337,6 @@ around
 2esr
 '
     
-#
 '
 10
 .
@@ -377,14 +375,12 @@ around
 0
 '
     
-#
 '
 60
 .
 0esr
 '
     
-#
 '
 60
 .
@@ -399,13 +395,10 @@ around
 1
 '
     
-#
 '
 60
 .
-1
-.
-0esr
+1esr
 '
     
 '
@@ -549,7 +542,7 @@ is
 not
 None
 def
-test_versions_compare
+test_versions_compare_less
 (
 comparable_versions
 )
@@ -585,6 +578,32 @@ MozillaVersion
 (
 larger_version
 )
+def
+test_versions_compare_greater
+(
+comparable_versions
+)
+:
+    
+"
+"
+"
+Test
+that
+versions
+properly
+compare
+in
+order
+.
+"
+"
+"
+    
+smaller_version
+larger_version
+=
+comparable_versions
     
 assert
 MozillaVersion
@@ -592,18 +611,6 @@ MozillaVersion
 larger_version
 )
 >
-MozillaVersion
-(
-smaller_version
-)
-    
-assert
-MozillaVersion
-(
-larger_version
-)
-!
-=
 MozillaVersion
 (
 smaller_version
