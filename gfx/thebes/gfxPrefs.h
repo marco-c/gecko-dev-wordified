@@ -5497,7 +5497,7 @@ bool
 false
 )
 ;
-DECL_OVERRIDE_PREF
+DECL_GFX_PREF
 (
 Live
 "
@@ -5510,12 +5510,8 @@ blob
 images
 "
 WebRenderBlobImages
-gfxPrefs
-:
-:
-WebRenderAll
-(
-)
+bool
+true
 )
 ;
 DECL_GFX_PREF
@@ -5921,7 +5917,7 @@ bool
 false
 )
 ;
-DECL_OVERRIDE_PREF
+DECL_GFX_PREF
 (
 Live
 "
@@ -5932,12 +5928,8 @@ mem
 shared
 "
 ImageMemShared
-gfxPrefs
-:
-:
-WebRenderAll
-(
-)
+bool
+true
 )
 ;
 DECL_GFX_PREF

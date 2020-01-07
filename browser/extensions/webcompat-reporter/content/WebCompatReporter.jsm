@@ -247,7 +247,7 @@ blob
 -
 images
 "
-1
+true
 )
 ;
 XPCOMUtils
@@ -291,7 +291,7 @@ mem
 .
 shared
 "
-2
+true
 )
 ;
 if
