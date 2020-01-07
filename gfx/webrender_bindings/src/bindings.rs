@@ -10542,6 +10542,9 @@ bool
 pipeline_id
 :
 WrPipelineId
+ignore_missing_pipeline
+:
+bool
 )
 {
 debug_assert
@@ -10592,7 +10595,7 @@ push_iframe
 &
 prim_info
 pipeline_id
-true
+ignore_missing_pipeline
 )
 ;
 }

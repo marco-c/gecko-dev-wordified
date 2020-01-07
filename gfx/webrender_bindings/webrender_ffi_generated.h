@@ -5318,6 +5318,8 @@ bool
 aIsBackfaceVisible
 WrPipelineId
 aPipelineId
+bool
+aIgnoreMissingPipeline
 )
 WR_FUNC
 ;

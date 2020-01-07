@@ -2351,6 +2351,8 @@ wr
 :
 PipelineId
 aPipeline
+bool
+aIgnoreMissingPipeline
 )
 ;
 /
