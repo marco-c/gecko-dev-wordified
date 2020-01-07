@@ -2762,15 +2762,8 @@ i
 )
 mImages
 .
-RemoveElementAt
+RemoveLastElement
 (
-mImages
-.
-Length
-(
-)
--
-1
 )
 ;
 /

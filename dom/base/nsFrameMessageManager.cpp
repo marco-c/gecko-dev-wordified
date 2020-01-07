@@ -6432,16 +6432,8 @@ Failed
 aRetVal
 -
 >
-RemoveElementAt
+RemoveLastElement
 (
-aRetVal
--
->
-Length
-(
-)
--
-1
 )
 ;
 nsString

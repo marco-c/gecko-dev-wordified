@@ -5547,15 +5547,8 @@ from
 mSoftTextDOMMapping
 mSoftTextDOMMapping
 .
-RemoveElementAt
+RemoveLastElement
 (
-mSoftTextDOMMapping
-.
-Length
-(
-)
--
-1
 )
 ;
 exit

@@ -19483,15 +19483,8 @@ aCallback
 ;
 visitData
 .
-RemoveElementAt
+RemoveLastElement
 (
-visitData
-.
-Length
-(
-)
--
-1
 )
 ;
 initialUpdatedCount

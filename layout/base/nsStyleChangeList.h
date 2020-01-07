@@ -371,13 +371,8 @@ mContent
 aContent
 )
 {
-RemoveElementAt
+RemoveLastElement
 (
-Length
-(
-)
--
-1
 )
 ;
 }

@@ -4170,15 +4170,8 @@ UniquePtrLessThan
 ;
 mTimers
 .
-RemoveElementAt
+RemoveLastElement
 (
-mTimers
-.
-Length
-(
-)
--
-1
 )
 ;
 }

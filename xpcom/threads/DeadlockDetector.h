@@ -2411,16 +2411,8 @@ true
 aChain
 -
 >
-RemoveElementAt
+RemoveLastElement
 (
-aChain
--
->
-Length
-(
-)
--
-1
 )
 ;
 }

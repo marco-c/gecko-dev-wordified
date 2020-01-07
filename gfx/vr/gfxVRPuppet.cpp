@@ -4655,15 +4655,8 @@ mPuppetDisplayCount
 {
 mPuppetHMDs
 .
-RemoveElementAt
+RemoveLastElement
 (
-mPuppetHMDs
-.
-Length
-(
-)
--
-1
 )
 ;
 }

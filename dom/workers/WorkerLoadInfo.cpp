@@ -2945,15 +2945,8 @@ next
 one
 mTabChildList
 .
-RemoveElementAt
+RemoveLastElement
 (
-mTabChildList
-.
-Length
-(
-)
--
-1
 )
 ;
 }

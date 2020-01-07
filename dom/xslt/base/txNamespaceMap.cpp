@@ -362,15 +362,8 @@ nullptr
 {
 mPrefixes
 .
-RemoveElementAt
+RemoveLastElement
 (
-mPrefixes
-.
-Length
-(
-)
--
-1
 )
 ;
 return

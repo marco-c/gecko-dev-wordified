@@ -3726,15 +3726,8 @@ short
 ;
 mStack
 .
-RemoveElementAt
+RemoveLastElement
 (
-mStack
-.
-Length
-(
-)
--
-1
 )
 ;
 }

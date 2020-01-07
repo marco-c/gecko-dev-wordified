@@ -1627,15 +1627,8 @@ override
 {
 mClipStack
 .
-RemoveElementAt
+RemoveLastElement
 (
-mClipStack
-.
-Length
-(
-)
--
-1
 )
 ;
 }

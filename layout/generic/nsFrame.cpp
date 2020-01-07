@@ -81223,15 +81223,8 @@ parentNode
 {
 mFrameTreeLeaves
 .
-RemoveElementAt
+RemoveLastElement
 (
-mFrameTreeLeaves
-.
-Length
-(
-)
--
-1
 )
 ;
 }

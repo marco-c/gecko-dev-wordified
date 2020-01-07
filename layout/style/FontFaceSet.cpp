@@ -7831,15 +7831,8 @@ src
 array
 srcArray
 .
-RemoveElementAt
+RemoveLastElement
 (
-srcArray
-.
-Length
-(
-)
--
-1
 )
 ;
 NS_WARNING
