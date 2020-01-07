@@ -8927,6 +8927,12 @@ compatible
 .
 aOldAddon
 .
+brokenManifest
+=
+true
+;
+aOldAddon
+.
 appDisabled
 =
 true
