@@ -352,6 +352,13 @@ mIsInline
 =
 false
 ;
+mScriptMode
+=
+aParent
+-
+>
+mScriptMode
+;
 }
 void
 ModuleLoadRequest
