@@ -29417,6 +29417,15 @@ thread
 "
 )
 ;
+if
+(
+!
+mElement
+)
+{
+return
+;
+}
 mElement
 -
 >
@@ -29428,8 +29437,10 @@ aStream
 }
 private
 :
+WeakPtr
+<
 HTMLMediaElement
-*
+>
 mElement
 ;
 }
