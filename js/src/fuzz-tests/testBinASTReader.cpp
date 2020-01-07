@@ -421,7 +421,7 @@ js
 frontend
 :
 :
-BinTokenReaderTester
+BinTokenReaderMultipart
 >
 reader
 (
