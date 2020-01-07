@@ -980,7 +980,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -1414,7 +1414,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -1880,7 +1880,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -2319,7 +2319,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -3137,7 +3137,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -4767,7 +4767,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -5050,7 +5050,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer
@@ -5090,7 +5090,7 @@ corrupt
 Since
 /
 /
-decodeImageBuffer
+decodeImageFromBuffer
 (
 )
 only
@@ -5103,9 +5103,9 @@ doesn
 '
 t
 decode
+/
+/
 far
-/
-/
 enough
 to
 realize
@@ -5122,9 +5122,9 @@ do
 a
 full
 decode
+/
+/
 during
-/
-/
 encodeImage
 (
 )
@@ -5298,7 +5298,7 @@ container
 =
 imgTools
 .
-decodeImageBuffer
+decodeImageFromBuffer
 (
 buffer
 buffer

@@ -1030,7 +1030,7 @@ bufferData
 )
 ;
 return
-DecodeImageBuffer
+DecodeImageFromBuffer
 (
 (
 char
@@ -1047,7 +1047,7 @@ NS_IMETHODIMP
 imgTools
 :
 :
-DecodeImageBuffer
+DecodeImageFromBuffer
 (
 const
 char

@@ -6391,7 +6391,7 @@ rv
 imgtool
 -
 >
-DecodeImageBuffer
+DecodeImageFromBuffer
 (
 reinterpret_cast
 <
