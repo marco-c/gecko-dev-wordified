@@ -86,7 +86,10 @@ use
 context
 :
 :
+{
 LayoutContext
+LayoutFontContext
+}
 ;
 use
 display_list
@@ -190,15 +193,6 @@ font
 :
 :
 FontMetrics
-;
-use
-gfx
-:
-:
-font_context
-:
-:
-FontContext
 ;
 use
 gfx_traits
@@ -9201,7 +9195,7 @@ font_context
 :
 &
 mut
-FontContext
+LayoutFontContext
 style
 :
 &
@@ -9283,7 +9277,7 @@ font_context
 :
 &
 mut
-FontContext
+LayoutFontContext
 style
 :
 &
