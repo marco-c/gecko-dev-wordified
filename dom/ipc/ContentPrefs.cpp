@@ -1206,6 +1206,17 @@ options
 .
 spectre
 .
+object_mitigations
+.
+barriers
+"
+"
+javascript
+.
+options
+.
+spectre
+.
 string_mitigations
 "
 "

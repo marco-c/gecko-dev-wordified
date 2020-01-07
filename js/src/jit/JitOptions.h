@@ -505,6 +505,9 @@ bool
 spectreIndexMasking
 ;
 bool
+spectreObjectMitigationsBarriers
+;
+bool
 spectreStringMitigations
 ;
 bool
