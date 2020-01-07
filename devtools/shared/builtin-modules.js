@@ -275,6 +275,7 @@ const
 CSS
 FileReader
 indexedDB
+InspectorUtils
 URL
 }
 =
@@ -311,6 +312,9 @@ FileReader
 "
 "
 indexedDB
+"
+"
+InspectorUtils
 "
 "
 URL
@@ -1262,6 +1266,7 @@ Promise
 PromiseDebugging
 ChromeUtils
 HeapSnapshot
+InspectorUtils
 FileReader
 }
 ;
