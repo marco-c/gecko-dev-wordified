@@ -611,3 +611,6 @@ address
 /
 namespace
 mozilla
+#
+undef
+LOG
