@@ -1315,6 +1315,8 @@ return
 PR_FALSE
 ;
 }
+rv
+=
 readKey
 (
 destType

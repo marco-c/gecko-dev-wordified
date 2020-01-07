@@ -1325,7 +1325,7 @@ size_t
 num_attr_names
 )
 {
-int
+size_t
 i
 j
 ;

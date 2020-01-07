@@ -138,8 +138,6 @@ const
 int
 NSS_PBE_DEFAULT_ITERATION_COUNT
 =
-100000
-;
 /
 *
 used
@@ -150,6 +148,16 @@ c
 too
 *
 /
+#
+ifdef
+DEBUG
+10000
+#
+else
+1000000
+#
+endif
+;
 static
 SECStatus
 sec_pkcs7_init_content_info
