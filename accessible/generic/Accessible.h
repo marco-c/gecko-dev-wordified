@@ -2475,6 +2475,7 @@ Accessible
 FirstChild
 (
 )
+const
 {
 return
 GetChildAt
@@ -2489,6 +2490,7 @@ Accessible
 LastChild
 (
 )
+const
 {
 uint32_t
 childCount
