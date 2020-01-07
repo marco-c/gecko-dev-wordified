@@ -219,6 +219,10 @@ mozilla
 namespace
 dom
 {
+using
+namespace
+SVGTransformBinding
+;
 static
 nsSVGAttrTearoffTable
 <

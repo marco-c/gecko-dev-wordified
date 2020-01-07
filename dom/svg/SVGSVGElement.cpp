@@ -284,6 +284,14 @@ mozilla
 namespace
 dom
 {
+using
+namespace
+SVGPreserveAspectRatioBinding
+;
+using
+namespace
+SVGSVGElementBinding
+;
 nsSVGEnumMapping
 SVGSVGElement
 :

@@ -163,6 +163,13 @@ h
 namespace
 mozilla
 {
+using
+namespace
+dom
+:
+:
+SVGPathSegBinding
+;
 /
 /
 We

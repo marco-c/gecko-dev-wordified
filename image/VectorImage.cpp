@@ -376,6 +376,13 @@ dom
 ;
 using
 namespace
+dom
+:
+:
+SVGPreserveAspectRatioBinding
+;
+using
+namespace
 gfx
 ;
 using

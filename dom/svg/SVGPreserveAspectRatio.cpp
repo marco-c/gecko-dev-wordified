@@ -154,6 +154,10 @@ using
 namespace
 dom
 ;
+using
+namespace
+SVGPreserveAspectRatioBinding
+;
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED
 (
 DOMSVGPreserveAspectRatio

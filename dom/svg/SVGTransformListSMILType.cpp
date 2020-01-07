@@ -160,6 +160,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+dom
+:
+:
+SVGTransformBinding
+;
 typedef
 FallibleTArray
 <

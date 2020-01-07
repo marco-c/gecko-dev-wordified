@@ -230,6 +230,16 @@ namespace
 mozilla
 :
 :
+dom
+:
+:
+SVGAngleBinding
+;
+using
+namespace
+mozilla
+:
+:
 gfx
 ;
 namespace
