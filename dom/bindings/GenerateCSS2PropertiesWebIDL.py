@@ -59,6 +59,8 @@ import
 string
 import
 argparse
+import
+runpy
 #
 Generates
 a
@@ -133,28 +135,19 @@ dataFile
 )
 :
     
-with
-open
-(
-dataFile
-"
-r
-"
-)
-as
-f
-:
-        
 propList
 =
-eval
-(
-f
+runpy
 .
-read
+run_path
 (
+dataFile
 )
-)
+[
+"
+data
+"
+]
     
 props
 =
@@ -162,12 +155,7 @@ props
 "
     
 for
-name
-prop
-id
-flags
-pref
-proptype
+p
 in
 propList
 :
@@ -180,6 +168,8 @@ CSSPropFlags
 Internal
 "
 in
+p
+.
 flags
 :
             
@@ -230,6 +220,8 @@ NonSystem
 ]
         
 if
+p
+.
 pref
 is
 not
@@ -250,8 +242,16 @@ s
 "
 '
 %
+p
+.
 pref
 )
+        
+prop
+=
+p
+.
+method
         
 #
 webkit
@@ -556,6 +556,8 @@ if
 prop
 !
 =
+p
+.
 name
 :
             
@@ -572,6 +574,8 @@ s
 "
 '
 %
+p
+.
 name
 )
         
