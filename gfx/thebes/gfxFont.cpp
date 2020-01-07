@@ -21813,7 +21813,10 @@ uint32_t
 aOffset
 uint32_t
 aLength
-uint8_t
+gfxTextRange
+:
+:
+MatchType
 aMatchType
 gfx
 :
@@ -22863,7 +22866,10 @@ uint32_t
 aOffset
 uint32_t
 aLength
-uint8_t
+gfxTextRange
+:
+:
+MatchType
 aMatchType
 gfx
 :

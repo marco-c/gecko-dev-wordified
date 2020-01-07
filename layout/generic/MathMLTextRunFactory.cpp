@@ -3753,7 +3753,10 @@ is
 actually
 available
 .
-uint8_t
+gfxTextRange
+:
+:
+MatchType
 matchType
 ;
 RefPtr
