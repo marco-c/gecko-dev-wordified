@@ -2898,7 +2898,9 @@ Trigger
 the
 updates
 to
-moz_hosts
+the
+moz_origins
+tables
 nsCOMPtr
 <
 mozIStorageStatement
@@ -2913,7 +2915,7 @@ GetStatement
 "
 DELETE
 FROM
-moz_updatehostsinsert_temp
+moz_updateoriginsinsert_temp
 "
 )
 ;

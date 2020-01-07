@@ -7096,7 +7096,7 @@ query
 "
 DELETE
 FROM
-moz_updatehostsinsert_temp
+moz_updateoriginsinsert_temp
 "
 )
 ;
@@ -11892,7 +11892,7 @@ query
 "
 DELETE
 FROM
-moz_updatehostsdelete_temp
+moz_updateoriginsdelete_temp
 "
 )
 ;

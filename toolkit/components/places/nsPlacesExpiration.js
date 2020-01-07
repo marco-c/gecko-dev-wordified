@@ -2027,7 +2027,7 @@ sql
 :
 DELETE
 FROM
-moz_updatehostsdelete_temp
+moz_updateoriginsdelete_temp
 actions
 :
 ACTION

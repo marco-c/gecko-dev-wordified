@@ -1012,13 +1012,6 @@ moz_icons
 "
 )
 ;
-dump_table
-(
-"
-moz_hosts
-"
-)
-;
 }
 Assert
 .
