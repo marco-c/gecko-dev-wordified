@@ -3425,7 +3425,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 txMozillaXSLTProcessor
 :
 :
