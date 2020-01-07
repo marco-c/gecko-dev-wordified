@@ -1618,17 +1618,6 @@ RemotePrompt
 "
 Reader
 :
-ArticleGet
-"
-:
-[
-"
-ReaderParent
-"
-]
-"
-Reader
-:
 FaviconRequest
 "
 :
