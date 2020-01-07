@@ -3681,13 +3681,7 @@ False
 enable_stylo
 '
 :
-False
-                
-'
-disable_stylo
-'
-:
-False
+True
                 
 '
 stylothreads
