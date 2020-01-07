@@ -550,7 +550,7 @@ ValueSetter
 mTextEditor
 -
 >
-SetSuppressDispatchingInputEvent
+SuppressDispatchingInputEvent
 (
 mOuterTransaction
 )
@@ -564,7 +564,7 @@ Init
 mTextEditor
 -
 >
-SetSuppressDispatchingInputEvent
+SuppressDispatchingInputEvent
 (
 true
 )
