@@ -2410,7 +2410,7 @@ source
 node
 '
 s
-nsIDOMDataTransfer
+DataTransfer
 dropEffect
 value
 so

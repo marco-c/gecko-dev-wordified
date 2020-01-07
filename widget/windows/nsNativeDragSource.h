@@ -108,13 +108,6 @@ h
 "
 #
 include
-"
-nsIDOMDataTransfer
-.
-h
-"
-#
-include
 <
 ole2
 .

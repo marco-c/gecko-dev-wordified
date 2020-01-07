@@ -7827,7 +7827,7 @@ static
 void
 GetStringFromDataTransfer
 (
-nsIDOMDataTransfer
+DataTransfer
 *
 aDataTransfer
 const
@@ -7847,13 +7847,7 @@ nsIVariant
 >
 variant
 ;
-DataTransfer
-:
-:
-Cast
-(
 aDataTransfer
-)
 -
 >
 GetDataAtNoSecurityCheck
@@ -8064,13 +8058,7 @@ nsIVariant
 >
 variant
 ;
-DataTransfer
-:
-:
-Cast
-(
 aDataTransfer
-)
 -
 >
 GetDataAtNoSecurityCheck
