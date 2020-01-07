@@ -1954,6 +1954,13 @@ winUtils
 isStyledByServo
 ;
 }
+if
+(
+Services
+.
+policies
+)
+{
 data
 .
 policiesStatus
@@ -1964,6 +1971,7 @@ policies
 .
 status
 ;
+}
 const
 keyGoogle
 =
