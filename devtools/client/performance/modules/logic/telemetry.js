@@ -238,6 +238,12 @@ event
 this
 .
 onFlagEvent
+.
+bind
+(
+this
+event
+)
 )
 ;
 }
@@ -421,7 +427,6 @@ onRecordingStateChange
 =
 function
 (
-_
 status
 model
 )
@@ -549,7 +554,6 @@ onViewSelected
 =
 function
 (
-_
 viewName
 )
 {

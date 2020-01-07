@@ -764,7 +764,6 @@ _onLink
 :
 function
 (
-_
 treeItem
 )
 {

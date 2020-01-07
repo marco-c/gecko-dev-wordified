@@ -791,7 +791,6 @@ _onNewRecording
 :
 function
 (
-_
 recording
 )
 {
@@ -799,7 +798,6 @@ this
 .
 _onRecordingStateChange
 (
-_
 null
 recording
 )
@@ -859,7 +857,6 @@ _onRecordingStateChange
 :
 function
 (
-_
 state
 recording
 )
@@ -1042,7 +1039,6 @@ _onRecordingDeleted
 :
 function
 (
-_
 recording
 )
 {
@@ -1123,14 +1119,8 @@ container
 .
 *
 /
-_onSelect
-:
-Task
-.
 async
-(
-function
-*
+_onSelect
 (
 recording
 )
@@ -1160,7 +1150,6 @@ _renderList
 )
 ;
 }
-)
 /
 *
 *
@@ -1335,7 +1324,6 @@ _onRecordingExported
 :
 function
 (
-_
 recording
 file
 )
