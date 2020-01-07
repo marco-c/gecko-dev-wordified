@@ -2296,6 +2296,7 @@ virtual
 MediaConduitErrorCode
 SendVideoFrame
 (
+const
 unsigned
 char
 *
@@ -2321,6 +2322,7 @@ virtual
 MediaConduitErrorCode
 SendVideoFrame
 (
+const
 webrtc
 :
 :
