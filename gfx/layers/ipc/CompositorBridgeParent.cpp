@@ -10428,6 +10428,11 @@ MOZ_ASSERT
 mCompositorScheduler
 )
 ;
+{
+/
+/
+scope
+lock
 MonitorAutoLock
 lock
 (
@@ -10457,6 +10462,7 @@ mWrBridge
 =
 mWrBridge
 ;
+}
 *
 aTextureFactoryIdentifier
 =
