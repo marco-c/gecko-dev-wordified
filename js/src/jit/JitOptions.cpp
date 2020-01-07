@@ -134,7 +134,9 @@ cstdlib
 #
 include
 "
-jsfun
+vm
+/
+JSFunction
 .
 h
 "

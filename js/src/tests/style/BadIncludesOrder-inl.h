@@ -162,7 +162,7 @@ endif
 #
 include
 "
-jsfun
+jsscript
 .
 h
 "
@@ -183,14 +183,16 @@ order
 #
 include
 "
-jsscript
+jstypes
 .
 h
 "
 #
 include
 "
-jstypes
+vm
+/
+JSFunction
 .
 h
 "

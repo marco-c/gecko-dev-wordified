@@ -120,7 +120,11 @@ support
 #
 include
 "
-jsfuninlines
+vm
+/
+JSFunction
+-
+inl
 .
 h
 "

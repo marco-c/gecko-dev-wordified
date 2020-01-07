@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsfun_h
+vm_JSFunction_h
 #
 define
-jsfun_h
+vm_JSFunction_h
 /
 *
 *
@@ -6515,6 +6515,6 @@ endif
 endif
 /
 *
-jsfun_h
+vm_JSFunction_h
 *
 /

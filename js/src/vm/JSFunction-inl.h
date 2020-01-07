@@ -110,14 +110,16 @@ MPL
 /
 #
 ifndef
-jsfuninlines_h
+vm_JSFunction_inl_h
 #
 define
-jsfuninlines_h
+vm_JSFunction_inl_h
 #
 include
 "
-jsfun
+vm
+/
+JSFunction
 .
 h
 "
@@ -667,6 +669,6 @@ js
 endif
 /
 *
-jsfuninlines_h
+vm_JSFunction_inl_h
 *
 /
