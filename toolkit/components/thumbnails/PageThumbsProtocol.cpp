@@ -822,11 +822,9 @@ NS_ERROR_MALFORMED_URI
 ;
 }
 URLParams
-params
-;
-params
-.
-ParseInput
+:
+:
+Extract
 (
 Substring
 (
@@ -835,12 +833,6 @@ queryBegins
 +
 1
 )
-)
-;
-params
-.
-Get
-(
 NS_LITERAL_STRING
 (
 "
