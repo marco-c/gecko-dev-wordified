@@ -487,6 +487,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 private

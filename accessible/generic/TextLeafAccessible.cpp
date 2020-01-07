@@ -414,6 +414,7 @@ nsString
 &
 aName
 )
+const
 {
 /
 /

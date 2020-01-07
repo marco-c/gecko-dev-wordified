@@ -1015,6 +1015,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 /

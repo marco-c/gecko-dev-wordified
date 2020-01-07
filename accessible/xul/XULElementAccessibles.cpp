@@ -561,6 +561,7 @@ nsString
 &
 aName
 )
+const
 {
 /
 /
@@ -1658,6 +1659,7 @@ nsString
 &
 aName
 )
+const
 {
 mContent
 -

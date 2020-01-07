@@ -385,6 +385,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 }

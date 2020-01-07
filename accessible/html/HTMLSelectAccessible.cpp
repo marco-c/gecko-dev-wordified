@@ -1323,6 +1323,7 @@ nsString
 &
 aName
 )
+const
 {
 /
 /

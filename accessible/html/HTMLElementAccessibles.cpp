@@ -572,6 +572,7 @@ nsString
 &
 aName
 )
+const
 {
 aName
 =
@@ -767,6 +768,7 @@ nsString
 &
 aName
 )
+const
 {
 nsTextEquivUtils
 :

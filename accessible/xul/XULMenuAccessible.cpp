@@ -1021,6 +1021,7 @@ nsString
 &
 aName
 )
+const
 {
 mContent
 -
@@ -2501,6 +2502,7 @@ nsString
 &
 aName
 )
+const
 {
 return
 eNameOK
@@ -3003,6 +3005,7 @@ nsString
 &
 aName
 )
+const
 {
 nsIContent
 *
@@ -3789,6 +3792,7 @@ nsString
 &
 aName
 )
+const
 {
 aName
 .

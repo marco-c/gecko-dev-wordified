@@ -3731,6 +3731,7 @@ nsString
 &
 aName
 )
+const
 {
 nsIContent
 *

@@ -214,6 +214,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 private
@@ -536,6 +537,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 enum

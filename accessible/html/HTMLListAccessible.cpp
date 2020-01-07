@@ -1387,6 +1387,7 @@ nsString
 &
 aName
 )
+const
 {
 aName
 .

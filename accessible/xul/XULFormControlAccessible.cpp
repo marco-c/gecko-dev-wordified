@@ -2619,6 +2619,7 @@ nsString
 &
 aName
 )
+const
 {
 /
 /
@@ -4527,6 +4528,7 @@ nsString
 &
 aName
 )
+const
 {
 if
 (

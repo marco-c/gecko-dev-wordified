@@ -634,6 +634,7 @@ nsString
 &
 aName
 )
+const
 {
 bool
 hasAltAttrib

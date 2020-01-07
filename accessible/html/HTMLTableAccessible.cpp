@@ -3324,6 +3324,7 @@ nsString
 &
 aName
 )
+const
 {
 ENameValueFlag
 nameFlag

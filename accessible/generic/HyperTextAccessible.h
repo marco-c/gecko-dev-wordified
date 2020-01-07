@@ -2757,6 +2757,7 @@ nsString
 &
 aName
 )
+const
 override
 ;
 /

@@ -1221,6 +1221,7 @@ nsString
 &
 aName
 )
+const
 {
 /
 /
