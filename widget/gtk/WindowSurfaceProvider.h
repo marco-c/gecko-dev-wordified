@@ -177,6 +177,13 @@ Display
 Visual
 etc
 .
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 class
 nsWindow
 ;
