@@ -260,6 +260,8 @@ extensions
 /
 content
 /
+parent
+/
 ext
 -
 i18n
