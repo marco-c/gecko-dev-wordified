@@ -8676,7 +8676,16 @@ useRegisterAtStart
 ins
 -
 >
-input
+getIterator
+(
+)
+)
+useBoxAtStart
+(
+ins
+-
+>
+getNextMethod
 (
 )
 )

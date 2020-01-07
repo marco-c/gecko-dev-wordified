@@ -15973,6 +15973,10 @@ JOF_UINT24
 Pops
 the
 iterator
+and
+its
+next
+method
 from
 the
 top
@@ -15980,10 +15984,10 @@ of
 the
 stack
 and
+*
 create
 async
 iterator
-*
 from
 it
 and
@@ -15994,6 +15998,7 @@ iterator
 back
 onto
 the
+*
 stack
 .
 *
@@ -16011,6 +16016,7 @@ Operands
 Stack
 :
 iter
+next
 =
 >
 asynciter
@@ -16026,7 +16032,7 @@ toasynciter
 "
 NULL
 1
-1
+2
 1
 JOF_BYTE
 )
