@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsIDOMAttr
-.
-h
-"
-#
-include
-"
 nsIDOMMutationEvent
 .
 h

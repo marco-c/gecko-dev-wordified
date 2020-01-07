@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIDOMAttr
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h

@@ -207,13 +207,6 @@ h
 #
 include
 "
-nsIDOMAttr
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h

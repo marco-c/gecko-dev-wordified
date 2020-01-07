@@ -760,17 +760,6 @@ nsIContent
 #
 include
 "
-nsIDOMAttr
-.
-h
-"
-/
-/
-for
-nsIDOMAttr
-#
-include
-"
 nsIDOMCharacterData
 .
 h
