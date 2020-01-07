@@ -4095,7 +4095,7 @@ update
 -
 application
 -
-info
+version
 "
 {
 version
