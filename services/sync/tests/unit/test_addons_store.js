@@ -784,6 +784,7 @@ change
 it
 missed
 .
+async
 function
 checkReconcilerUpToDate
 (
@@ -811,6 +812,7 @@ id
 ]
 )
 ;
+await
 store
 .
 reconciler
@@ -1161,6 +1163,7 @@ addon
 userDisabled
 )
 ;
+await
 checkReconcilerUpToDate
 (
 addon
@@ -1243,6 +1246,7 @@ addon
 userDisabled
 )
 ;
+await
 checkReconcilerUpToDate
 (
 addon
@@ -1556,6 +1560,7 @@ addon
 userDisabled
 )
 ;
+await
 checkReconcilerUpToDate
 (
 addon
@@ -1638,6 +1643,7 @@ addon
 userDisabled
 )
 ;
+await
 checkReconcilerUpToDate
 (
 addon

@@ -2404,6 +2404,7 @@ id
 =
 true
 ;
+await
 this
 .
 rectifyStateFromAddon
@@ -2629,6 +2630,7 @@ Manager
 id
 )
 ;
+await
 this
 .
 _addChange
@@ -2749,6 +2751,7 @@ updated
 .
 *
 /
+async
 rectifyStateFromAddon
 (
 addon
@@ -2895,6 +2898,7 @@ locally
 id
 )
 ;
+await
 this
 .
 _addChange
@@ -3030,6 +3034,7 @@ changed
 id
 )
 ;
+await
 this
 .
 _addChange
@@ -3167,9 +3172,7 @@ addons
 .
 *
 /
-_addChange
-:
-function
+async
 _addChange
 (
 date
@@ -3221,6 +3224,7 @@ _listeners
 {
 try
 {
+await
 listener
 .
 changeListener
@@ -3240,7 +3244,7 @@ this
 .
 _log
 .
-warn
+error
 (
 "
 Exception
@@ -3620,6 +3624,7 @@ listeners
 .
 *
 /
+async
 _handleListener
 (
 action
@@ -3818,6 +3823,7 @@ case
 onOperationCancelled
 "
 :
+await
 this
 .
 rectifyStateFromAddon
@@ -3905,6 +3911,7 @@ listener
 id
 )
 ;
+await
 this
 .
 _addChange
@@ -3930,15 +3937,11 @@ this
 _shouldPersist
 )
 {
-Async
-.
-promiseSpinningly
-(
+await
 this
 .
 saveState
 (
-)
 )
 ;
 }
@@ -3974,6 +3977,10 @@ addon
 requiresRestart
 )
 {
+Async
+.
+promiseSpinningly
+(
 this
 .
 _handleListener
@@ -3984,6 +3991,7 @@ onEnabling
 addon
 requiresRestart
 )
+)
 ;
 }
 onEnabled
@@ -3994,6 +4002,10 @@ onEnabled
 addon
 )
 {
+Async
+.
+promiseSpinningly
+(
 this
 .
 _handleListener
@@ -4002,6 +4014,7 @@ _handleListener
 onEnabled
 "
 addon
+)
 )
 ;
 }
@@ -4014,6 +4027,10 @@ addon
 requiresRestart
 )
 {
+Async
+.
+promiseSpinningly
+(
 this
 .
 _handleListener
@@ -4024,6 +4041,7 @@ onDisabling
 addon
 requiresRestart
 )
+)
 ;
 }
 onDisabled
@@ -4034,6 +4052,10 @@ onDisabled
 addon
 )
 {
+Async
+.
+promiseSpinningly
+(
 this
 .
 _handleListener
@@ -4042,6 +4064,7 @@ _handleListener
 onDisabled
 "
 addon
+)
 )
 ;
 }
@@ -4054,6 +4077,10 @@ addon
 requiresRestart
 )
 {
+Async
+.
+promiseSpinningly
+(
 this
 .
 _handleListener
@@ -4064,6 +4091,7 @@ onInstalling
 addon
 requiresRestart
 )
+)
 ;
 }
 onInstalled
@@ -4074,6 +4102,10 @@ onInstalled
 addon
 )
 {
+Async
+.
+promiseSpinningly
+(
 this
 .
 _handleListener
@@ -4082,6 +4114,7 @@ _handleListener
 onInstalled
 "
 addon
+)
 )
 ;
 }
@@ -4094,6 +4127,10 @@ addon
 requiresRestart
 )
 {
+Async
+.
+promiseSpinningly
+(
 this
 .
 _handleListener
@@ -4104,6 +4141,7 @@ onUninstalling
 addon
 requiresRestart
 )
+)
 ;
 }
 onUninstalled
@@ -4114,6 +4152,10 @@ onUninstalled
 addon
 )
 {
+Async
+.
+promiseSpinningly
+(
 this
 .
 _handleListener
@@ -4122,6 +4164,7 @@ _handleListener
 onUninstalled
 "
 addon
+)
 )
 ;
 }
@@ -4133,6 +4176,10 @@ onOperationCancelled
 addon
 )
 {
+Async
+.
+promiseSpinningly
+(
 this
 .
 _handleListener
@@ -4141,6 +4188,7 @@ _handleListener
 onOperationCancelled
 "
 addon
+)
 )
 ;
 }
@@ -4156,6 +4204,10 @@ install
 addon
 )
 {
+Async
+.
+promiseSpinningly
+(
 this
 .
 _handleListener
@@ -4164,6 +4216,7 @@ _handleListener
 onInstallEnded
 "
 addon
+)
 )
 ;
 }
