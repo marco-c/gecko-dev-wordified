@@ -375,6 +375,7 @@ aSendTrack
 nsresult
 UpdateSinkIdentity
 (
+const
 dom
 :
 :

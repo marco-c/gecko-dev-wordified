@@ -1013,6 +1013,7 @@ EXPIRY_TIME_MILLISECONDS
 *
 1000
 ;
+const
 uint32_t
 mCsrc
 ;
@@ -1299,6 +1300,7 @@ MediaPipeline
 >
 mPipeline
 ;
+const
 nsCOMPtr
 <
 nsIEventTarget
@@ -1490,6 +1492,7 @@ virtual
 nsresult
 SendPacket
 (
+const
 TransportFlow
 *
 aFlow
@@ -1512,7 +1515,7 @@ StateChange
 (
 TransportFlow
 *
-flow
+aFlow
 TransportLayer
 :
 :
@@ -1564,6 +1567,7 @@ size_t
 aLen
 )
 ;
+const
 DirectionType
 mDirection
 ;
@@ -1634,12 +1638,14 @@ over
 the
 place
 .
+const
 nsCOMPtr
 <
 nsIEventTarget
 >
 mMainThread
 ;
+const
 nsCOMPtr
 <
 nsIEventTarget
@@ -1732,6 +1738,7 @@ on
 STS
 thread
 .
+const
 std
 :
 :
@@ -1766,6 +1773,7 @@ MediaPipelineFilter
 >
 mFilter
 ;
+const
 nsAutoPtr
 <
 webrtc
@@ -1809,6 +1817,7 @@ aData
 size_t
 aLen
 )
+const
 ;
 /
 /
@@ -1890,6 +1899,7 @@ NS_OK
 }
 private
 :
+const
 RefPtr
 <
 MediaSessionConduit
@@ -2045,6 +2055,7 @@ virtual
 void
 UpdateSinkIdentity_m
 (
+const
 dom
 :
 :
@@ -2189,11 +2200,23 @@ SetDescription
 ;
 private
 :
+const
+bool
+mIsVideo
+;
+const
 RefPtr
 <
 PipelineListener
 >
 mListener
+;
+const
+RefPtr
+<
+VideoFrameFeeder
+>
+mFeeder
 ;
 RefPtr
 <
@@ -2203,18 +2226,9 @@ mAudioProcessing
 ;
 RefPtr
 <
-VideoFrameFeeder
->
-mFeeder
-;
-RefPtr
-<
 VideoFrameConverter
 >
 mConverter
-;
-bool
-mIsVideo
 ;
 RefPtr
 <
@@ -2592,6 +2606,7 @@ counting
 class
 PipelineListener
 ;
+const
 RefPtr
 <
 PipelineRenderer

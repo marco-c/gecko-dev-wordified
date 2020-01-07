@@ -8554,6 +8554,7 @@ PeerConnectionMedia
 :
 UpdateSinkIdentity_m
 (
+const
 MediaStreamTrack
 *
 aTrack
