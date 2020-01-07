@@ -759,17 +759,6 @@ key
 event
 .
 *
-param
-aIsProcessedByIME
-true
-if
-aGdkKeyEvent
-is
-handled
-by
-IME
-.
-*
 /
 static
 void
@@ -781,8 +770,6 @@ aKeyEvent
 GdkEventKey
 *
 aGdkKeyEvent
-bool
-aIsProcessedByIME
 )
 ;
 /

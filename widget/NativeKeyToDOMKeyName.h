@@ -3541,14 +3541,6 @@ Mae
 Koho
 /
 /
-Process
-KEY_MAP_WIN
-(
-Process
-VK_PROCESSKEY
-)
-/
-/
 SingleCandidate
 KEY_MAP_GTK
 (
