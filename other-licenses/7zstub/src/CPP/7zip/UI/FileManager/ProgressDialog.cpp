@@ -710,6 +710,18 @@ _inCancelMessageBox
 =
 true
 ;
+/
+/
+Mozilla
+Customization
+-
+Removed
+redundant
+cancel
+button
+from
+dialog
+.
 int
 res
 =
@@ -731,7 +743,7 @@ cancel
 ?
 "
 _title
-MB_YESNOCANCEL
+MB_YESNO
 )
 ;
 _inCancelMessageBox
