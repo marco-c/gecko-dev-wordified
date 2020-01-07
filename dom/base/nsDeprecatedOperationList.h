@@ -306,3 +306,7 @@ DEPRECATED_OPERATION
 (
 AmbientLightEvent
 )
+DEPRECATED_OPERATION
+(
+IDBOpenDBOptions_StorageType
+)
