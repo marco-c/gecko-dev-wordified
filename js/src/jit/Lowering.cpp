@@ -37303,6 +37303,9 @@ ins
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 static
 void
 SpewResumePoint
@@ -37581,6 +37584,8 @@ n
 ;
 }
 }
+#
+endif
 void
 LIRGenerator
 :
@@ -37970,6 +37975,9 @@ resumePoint
 (
 )
 ;
+#
+ifdef
+JS_JITSPEW
 if
 (
 JitSpewEnabled
@@ -37987,6 +37995,8 @@ ins
 lastResumePoint_
 )
 ;
+#
+endif
 }
 void
 LIRGenerator
@@ -38166,6 +38176,9 @@ entryResumePoint
 (
 )
 ;
+#
+ifdef
+JS_JITSPEW
 if
 (
 JitSpewEnabled
@@ -38183,6 +38196,8 @@ nullptr
 lastResumePoint_
 )
 ;
+#
+endif
 }
 bool
 LIRGenerator

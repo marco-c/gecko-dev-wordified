@@ -36029,6 +36029,9 @@ return
 true
 ;
 }
+#
+ifdef
+JS_JITSPEW
 static
 void
 DumpDefinition
@@ -36122,6 +36125,8 @@ printf
 ;
 }
 }
+#
+endif
 void
 jit
 :
@@ -36133,6 +36138,9 @@ MIRGraph
 graph
 )
 {
+#
+ifdef
+JS_JITSPEW
 if
 (
 !
@@ -36234,4 +36242,6 @@ n
 ;
 }
 }
+#
+endif
 }

@@ -525,6 +525,9 @@ char
 reason
 )
 {
+#
+ifdef
+JS_JITSPEW
 if
 (
 !
@@ -596,6 +599,8 @@ n
 reason
 )
 ;
+#
+endif
 }
 static
 void
@@ -614,6 +619,9 @@ char
 post
 )
 {
+#
+ifdef
+JS_JITSPEW
 if
 (
 !
@@ -664,6 +672,8 @@ n
 post
 )
 ;
+#
+endif
 }
 /
 /
@@ -1281,6 +1291,9 @@ return
 false
 ;
 }
+#
+ifdef
+JS_JITSPEW
 if
 (
 JitSpewEnabled
@@ -1336,6 +1349,8 @@ flags
 )
 ;
 }
+#
+endif
 }
 else
 {

@@ -37758,6 +37758,9 @@ LInstruction
 ins
 )
 {
+#
+ifdef
+JS_JITSPEW
 /
 /
 Prefix
@@ -37838,6 +37841,8 @@ opName
 )
 )
 ;
+#
+endif
 }
 ~
 ScriptCountBlockState

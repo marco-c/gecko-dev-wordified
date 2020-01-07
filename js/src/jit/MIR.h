@@ -2557,6 +2557,9 @@ writer
 )
 const
 ;
+#
+ifdef
+JS_JITSPEW
 virtual
 void
 dump
@@ -2578,6 +2581,8 @@ const
 =
 0
 ;
+#
+endif
 protected
 :
 /
@@ -3711,7 +3716,9 @@ return
 op_
 ;
 }
-virtual
+#
+ifdef
+JS_JITSPEW
 const
 char
 *
@@ -3719,8 +3726,6 @@ opName
 (
 )
 const
-=
-0
 ;
 void
 printName
@@ -3784,6 +3789,8 @@ dumpLocation
 )
 const
 ;
+#
+endif
 /
 /
 For
@@ -7963,23 +7970,6 @@ M
 #
 opcode
 ;
-\
-const
-char
-*
-opName
-(
-)
-const
-override
-{
-\
-return
-#
-opcode
-;
-\
-}
 #
 define
 INSTRUCTION_HEADER
@@ -10337,6 +10327,9 @@ return
 res
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -10347,6 +10340,8 @@ out
 const
 override
 ;
+#
+endif
 HashNumber
 valueHash
 (
@@ -12938,6 +12933,9 @@ lane
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -12948,6 +12946,8 @@ out
 const
 override
 ;
+#
+endif
 ALLOW_CLONE
 (
 MSimdInsertElement
@@ -14838,6 +14838,9 @@ operation
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -14848,6 +14851,8 @@ out
 const
 override
 ;
+#
+endif
 ALLOW_CLONE
 (
 MSimdUnaryArith
@@ -15431,6 +15436,9 @@ signedness
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -15441,6 +15449,8 @@ out
 const
 override
 ;
+#
+endif
 ALLOW_CLONE
 (
 MSimdBinaryComp
@@ -15840,6 +15850,9 @@ operation
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -15850,6 +15863,8 @@ out
 const
 override
 ;
+#
+endif
 ALLOW_CLONE
 (
 MSimdBinaryArith
@@ -16131,6 +16146,9 @@ signedness
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -16141,6 +16159,8 @@ out
 const
 override
 ;
+#
+endif
 ALLOW_CLONE
 (
 MSimdBinarySaturating
@@ -16377,6 +16397,9 @@ operation
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -16387,6 +16410,8 @@ out
 const
 override
 ;
+#
+endif
 ALLOW_CLONE
 (
 MSimdBinaryBitwise
@@ -16708,6 +16733,9 @@ operation
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -16718,6 +16746,8 @@ out
 const
 override
 ;
+#
+endif
 bool
 congruentTo
 (
@@ -17034,6 +17064,9 @@ return
 index_
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -17044,6 +17077,8 @@ out
 const
 override
 ;
+#
+endif
 HashNumber
 valueHash
 (
@@ -17278,6 +17313,9 @@ return
 true
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -17288,6 +17326,8 @@ out
 const
 override
 ;
+#
+endif
 }
 ;
 class
@@ -21241,6 +21281,9 @@ None
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -21251,6 +21294,8 @@ out
 const
 override
 ;
+#
+endif
 MOZ_MUST_USE
 bool
 writeRecoverData
@@ -21447,6 +21492,9 @@ None
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -21457,6 +21505,8 @@ out
 const
 override
 ;
+#
+endif
 }
 ;
 /
@@ -26130,6 +26180,9 @@ None
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -26140,6 +26193,8 @@ out
 const
 override
 ;
+#
+endif
 void
 collectRangeInfoPreTrunc
 (
@@ -27402,6 +27457,9 @@ None
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -27412,6 +27470,8 @@ out
 const
 override
 ;
+#
+endif
 void
 makeInfallible
 (
@@ -27803,6 +27863,9 @@ None
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -27813,6 +27876,8 @@ out
 const
 override
 ;
+#
+endif
 }
 ;
 /
@@ -34234,6 +34299,9 @@ alloc
 )
 override
 ;
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -34244,6 +34312,8 @@ out
 const
 override
 ;
+#
+endif
 virtual
 double
 getIdentity
@@ -36711,6 +36781,9 @@ alloc
 )
 override
 ;
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -36721,6 +36794,8 @@ out
 const
 override
 ;
+#
+endif
 static
 const
 char
@@ -41661,6 +41736,9 @@ INSTRUCTION_HEADER
 Beta
 )
 TRIVIAL_NEW_WRAPPERS
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -41671,6 +41749,8 @@ out
 const
 override
 ;
+#
+endif
 AliasSet
 getAliasSet
 (
@@ -45616,6 +45696,9 @@ return
 value_
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -45626,6 +45709,8 @@ out
 const
 override
 ;
+#
+endif
 HashNumber
 valueHash
 (
@@ -52750,6 +52835,9 @@ other
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -52760,6 +52848,8 @@ out
 const
 override
 ;
+#
+endif
 void
 computeRange
 (
@@ -60002,6 +60092,9 @@ store
 const
 override
 ;
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -60012,6 +60105,8 @@ out
 const
 override
 ;
+#
+endif
 ALLOW_CLONE
 (
 MLoadSlot
@@ -60719,6 +60814,9 @@ DynamicSlot
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -60729,6 +60827,8 @@ out
 const
 override
 ;
+#
+endif
 ALLOW_CLONE
 (
 MStoreSlot
@@ -63802,6 +63902,9 @@ roundingMode
 roundingMode_
 ;
 }
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -63812,6 +63915,8 @@ out
 const
 override
 ;
+#
+endif
 MOZ_MUST_USE
 bool
 writeRecoverData
@@ -65594,6 +65699,9 @@ INSTRUCTION_HEADER
 TypeBarrier
 )
 TRIVIAL_NEW_WRAPPERS
+#
+ifdef
+JS_JITSPEW
 void
 printOpcode
 (
@@ -65604,6 +65712,8 @@ out
 const
 override
 ;
+#
+endif
 bool
 congruentTo
 (
@@ -67593,6 +67703,9 @@ end
 )
 ;
 }
+#
+ifdef
+JS_JITSPEW
 virtual
 void
 dump
@@ -67612,6 +67725,8 @@ dump
 const
 override
 ;
+#
+endif
 }
 ;
 class
