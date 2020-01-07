@@ -7777,6 +7777,8 @@ gfx
 IntSize
 &
 destSize
+GLuint
+filter
 )
 const
 {
@@ -7825,7 +7827,7 @@ destSize
 .
 height
 LOCAL_GL_COLOR_BUFFER_BIT
-LOCAL_GL_NEAREST
+filter
 )
 ;
 }
@@ -7859,6 +7861,8 @@ gfx
 IntSize
 &
 destSize
+GLuint
+filter
 )
 const
 {
@@ -7935,6 +7939,7 @@ BlitFramebuffer
 (
 srcSize
 destSize
+filter
 )
 ;
 }

@@ -880,6 +880,10 @@ gfx
 IntSize
 &
 destSize
+GLuint
+filter
+=
+LOCAL_GL_NEAREST
 )
 const
 ;
@@ -904,6 +908,10 @@ gfx
 IntSize
 &
 destSize
+GLuint
+filter
+=
+LOCAL_GL_NEAREST
 )
 const
 ;
