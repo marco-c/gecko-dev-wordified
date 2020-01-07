@@ -2625,8 +2625,8 @@ a
 tuple
 :
 (
-skipped_tests
-test_list
+test_count
+test_gen
 )
         
 test_count
