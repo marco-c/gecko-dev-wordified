@@ -251,9 +251,6 @@ class
 ArrayObject
 ;
 class
-MatchPairs
-;
-class
 RegExpCompartment
 ;
 class
@@ -261,6 +258,9 @@ RegExpShared
 ;
 class
 RegExpStatics
+;
+class
+VectorMatchPairs
 ;
 using
 RootedRegExpShared
@@ -921,7 +921,7 @@ HandleLinearString
 input
 size_t
 searchIndex
-MatchPairs
+VectorMatchPairs
 *
 matches
 size_t
