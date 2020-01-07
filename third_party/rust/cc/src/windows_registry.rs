@@ -652,6 +652,7 @@ and_then
 |
 path
 |
+{
 env
 :
 :
@@ -685,6 +686,7 @@ exists
 (
 )
 )
+}
 )
 .
 map
@@ -1084,7 +1086,6 @@ version
 )
 =
 >
-{
 match
 &
 version
@@ -1184,7 +1185,6 @@ n
 vers
 )
 )
-}
 }
 _
 =
@@ -1833,6 +1833,7 @@ exists
 {
 return
 None
+;
 }
 ;
 let
@@ -3522,6 +3523,7 @@ sub
 host
 )
 |
+{
 (
 path
 .
@@ -3555,6 +3557,7 @@ join
 host
 )
 )
+}
 )
 .
 filter
@@ -4055,7 +4058,6 @@ filter
 |
 dir
 |
-{
 dir
 .
 components
@@ -4116,7 +4118,6 @@ unwrap_or
 (
 false
 )
-}
 )
 .
 max
@@ -5271,6 +5272,17 @@ Some
 arm
 "
 )
+"
+aarch64
+"
+=
+>
+Some
+(
+"
+arm64
+"
+)
 _
 =
 >
@@ -5364,6 +5376,17 @@ Some
 (
 "
 arm
+"
+)
+"
+aarch64
+"
+=
+>
+Some
+(
+"
+arm64
 "
 )
 _
@@ -5760,7 +5783,6 @@ is_some
 "
 =
 >
-{
 LOCAL_MACHINE
 .
 open
@@ -5798,7 +5820,6 @@ version
 is_ok
 (
 )
-}
 _
 =
 >
@@ -5962,7 +5983,6 @@ and_then
 |
 key
 |
-{
 key
 .
 query_str
@@ -5977,7 +5997,6 @@ query_str
 ok
 (
 )
-}
 )
 .
 map

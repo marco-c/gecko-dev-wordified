@@ -166,8 +166,8 @@ winapi
 :
 :
 {
-CLSCTX_ALL
 CoCreateInstance
+CLSCTX_ALL
 }
 ;
 use
