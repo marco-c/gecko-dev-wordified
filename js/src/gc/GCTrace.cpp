@@ -109,9 +109,6 @@ MPL
 *
 /
 #
-ifdef
-JS_GC_TRACE
-#
 include
 "
 gc
@@ -199,6 +196,9 @@ gc
 GCTrace
 gcTracer
 ;
+#
+ifdef
+JS_GC_TRACE
 JS_STATIC_ASSERT
 (
 NumAllocKinds
@@ -1302,6 +1302,8 @@ TraceEventMajorGCEnd
 )
 ;
 }
+#
+endif
 }
 /
 /
@@ -1310,5 +1312,3 @@ js
 /
 /
 gc
-#
-endif
