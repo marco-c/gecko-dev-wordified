@@ -237,7 +237,7 @@ props
 ;
 const
 {
-openAboutDebugging
+openTrustedLink
 }
 =
 serviceContainer
@@ -331,8 +331,15 @@ onClick
 )
 =
 >
-openAboutDebugging
+openTrustedLink
 (
+"
+about
+:
+debugging
+#
+workers
+"
 )
 }
 "
