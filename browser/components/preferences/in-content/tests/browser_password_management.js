@@ -436,8 +436,6 @@ VK_DELETE
 ;
 }
 await
-TestUtils
-.
 waitForCondition
 (
 (
