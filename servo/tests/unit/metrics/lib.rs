@@ -98,6 +98,10 @@ profile_traits
 ;
 extern
 crate
+servo_url
+;
+extern
+crate
 style
 ;
 extern
