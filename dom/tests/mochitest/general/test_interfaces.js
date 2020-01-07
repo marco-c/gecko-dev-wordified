@@ -3409,7 +3409,7 @@ insecureContext
 true
 disabled
 :
-isEarlyBetaOrEarlier
+true
 }
 /
 /
@@ -3490,7 +3490,7 @@ insecureContext
 true
 disabled
 :
-isEarlyBetaOrEarlier
+true
 }
 /
 /
@@ -14718,7 +14718,7 @@ insecureContext
 true
 disabled
 :
-isEarlyBetaOrEarlier
+true
 }
 /
 /
