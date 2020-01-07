@@ -2350,13 +2350,6 @@ Standalone
 override
 ;
 virtual
-bool
-IsScriptEnabled
-(
-)
-override
-;
-virtual
 void
 OnPageShow
 (

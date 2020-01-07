@@ -43782,7 +43782,7 @@ no
 }
 }
 bool
-nsDocument
+nsIDocument
 :
 :
 IsScriptEnabled
