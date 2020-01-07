@@ -1534,9 +1534,13 @@ engine
 .
 toFetch
 =
+new
+SerializableSet
+(
 [
 BOGUS_GUID
 ]
+)
 ;
 let
 error
