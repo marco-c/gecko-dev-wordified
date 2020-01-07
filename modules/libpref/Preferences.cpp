@@ -23772,6 +23772,9 @@ aName
 Parser
 parser
 ;
+if
+(
+!
 parser
 .
 Parse
@@ -23787,7 +23790,12 @@ Length
 (
 )
 )
+)
+{
+return
+NS_ERROR_FILE_CORRUPTED
 ;
+}
 return
 NS_OK
 ;
