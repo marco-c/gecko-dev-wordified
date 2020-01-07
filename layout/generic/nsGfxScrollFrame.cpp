@@ -32965,7 +32965,7 @@ PresContext
 )
 -
 >
-GetPresShell
+Document
 (
 )
 -
