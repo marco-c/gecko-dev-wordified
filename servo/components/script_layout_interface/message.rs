@@ -843,10 +843,6 @@ ContentBoxesQuery
 (
 TrustedNodeAddress
 )
-NodeOverflowQuery
-(
-TrustedNodeAddress
-)
 NodeScrollRootIdQuery
 (
 TrustedNodeAddress
@@ -872,7 +868,7 @@ OffsetParentQuery
 (
 TrustedNodeAddress
 )
-MarginStyleQuery
+StyleQuery
 (
 TrustedNodeAddress
 )
@@ -1012,14 +1008,6 @@ _
 ReflowGoal
 :
 :
-NodeOverflowQuery
-(
-_
-)
-|
-ReflowGoal
-:
-:
 NodeScrollRootIdQuery
 (
 _
@@ -1045,7 +1033,7 @@ _
 ReflowGoal
 :
 :
-MarginStyleQuery
+StyleQuery
 (
 _
 )
@@ -1101,7 +1089,7 @@ self
 ReflowGoal
 :
 :
-MarginStyleQuery
+StyleQuery
 (
 _
 )
@@ -1143,14 +1131,6 @@ ReflowGoal
 :
 :
 NodeScrollGeometryQuery
-(
-_
-)
-|
-ReflowGoal
-:
-:
-NodeOverflowQuery
 (
 _
 )
