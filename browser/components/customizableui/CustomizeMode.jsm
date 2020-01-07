@@ -12628,11 +12628,9 @@ targetAreaType
 =
 CustomizableUI
 .
-getAreaType
+getPlaceForItem
 (
 targetArea
-.
-id
 )
 ;
 let
