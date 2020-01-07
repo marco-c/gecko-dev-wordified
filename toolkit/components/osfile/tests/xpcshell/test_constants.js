@@ -201,9 +201,6 @@ nsIDebug2
 )
 .
 isDebugBuild
-=
-=
-true
 )
 {
 Assert

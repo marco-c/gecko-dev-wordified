@@ -410,12 +410,10 @@ the
 app
 if
 (
+!
 cancelQuit
 .
 data
-=
-=
-false
 )
 {
 let

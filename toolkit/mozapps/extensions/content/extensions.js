@@ -12236,6 +12236,7 @@ notifyInitialized
 ;
 if
 (
+!
 Services
 .
 prefs
@@ -12244,9 +12245,6 @@ getBoolPref
 (
 PREF_GETADDONS_CACHE_ENABLED
 )
-=
-=
-false
 )
 {
 setURL

@@ -540,6 +540,7 @@ unpacked
 directories
 if
 (
+!
 Services
 .
 prefs
@@ -552,9 +553,6 @@ extensions
 alwaysUnpack
 "
 )
-=
-=
-false
 )
 return
 ;

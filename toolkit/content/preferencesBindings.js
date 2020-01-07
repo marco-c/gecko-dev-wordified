@@ -1535,10 +1535,8 @@ event
 ;
 if
 (
+!
 rv
-=
-=
-false
 )
 cancel
 =

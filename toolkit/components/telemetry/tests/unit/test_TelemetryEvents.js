@@ -1883,12 +1883,11 @@ filter
 e
 =
 >
+!
+!
 e
 .
 optout
-=
-=
-true
 )
 ;
 checkEvents

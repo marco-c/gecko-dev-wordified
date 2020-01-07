@@ -664,12 +664,10 @@ record
 )
 =
 >
+!
 record
 .
 deleted
-!
-=
-true
 )
 /
 /

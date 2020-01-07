@@ -2860,9 +2860,6 @@ true
 if
 (
 doNextPage
-=
-=
-true
 )
 {
 if
@@ -3726,10 +3723,8 @@ useMozAfterPaint
 {
 if
 (
+!
 gPaintListener
-=
-=
-false
 )
 gPaintWindow
 .
@@ -4040,10 +4035,8 @@ return
 }
 if
 (
+!
 gPaintListener
-=
-=
-false
 )
 gPaintWindow
 .
@@ -4572,10 +4565,8 @@ try
 {
 if
 (
+!
 force
-=
-=
-false
 )
 {
 pageIndex
