@@ -457,7 +457,7 @@ aGivenProto
 )
 {
 return
-DataChannelBinding
+RTCDataChannelBinding
 :
 :
 Wrap
