@@ -860,11 +860,6 @@ NS_OK
 ;
 }
 }
-if
-(
-mDocViewerPrint
-)
-{
 bool
 donePrePrint
 =
@@ -985,7 +980,6 @@ StartWatchDogTimer
 (
 )
 ;
-}
 }
 return
 NS_OK
