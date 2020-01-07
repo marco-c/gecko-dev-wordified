@@ -858,14 +858,13 @@ templates
 }
             
 for
-name
 cls
 in
 self
 .
 templates
 .
-iteritems
+itervalues
 (
 )
 :
@@ -894,11 +893,11 @@ None
 args
 .
 templates
-[
-name
-]
-=
+.
+update
+(
 context
+)
         
 return
 args
