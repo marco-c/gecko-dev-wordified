@@ -24416,7 +24416,7 @@ ObjectPolicy
 <
 0
 >
-NoTypePolicy
+UnboxedInt32Policy
 <
 1
 >
