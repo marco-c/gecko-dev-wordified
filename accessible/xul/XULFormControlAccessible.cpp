@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsCoreUtils
-.
-h
-"
-#
-include
-"
 DocAccessible
 .
 h
