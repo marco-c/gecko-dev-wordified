@@ -1246,7 +1246,7 @@ chromeWindow
 ;
 mainWindow
 .
-openUILinkIn
+openWebLinkIn
 (
 imageSummary
 .
@@ -1254,6 +1254,13 @@ href
 "
 tab
 "
+{
+triggeringPrincipal
+:
+document
+.
+nodePrincipal
+}
 )
 ;
 }

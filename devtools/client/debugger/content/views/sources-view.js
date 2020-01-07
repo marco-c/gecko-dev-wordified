@@ -6324,7 +6324,7 @@ attachment
 ;
 win
 .
-openUILinkIn
+openWebLinkIn
 (
 selected
 .
@@ -6335,6 +6335,13 @@ url
 tab
 "
 {
+triggeringPrincipal
+:
+win
+.
+document
+.
+nodePrincipal
 relatedToCurrent
 :
 true

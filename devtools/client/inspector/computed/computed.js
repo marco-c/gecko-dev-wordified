@@ -4467,7 +4467,7 @@ defaultView
 ;
 browserWin
 .
-openUILinkIn
+openWebLinkIn
 (
 target
 .
@@ -7434,7 +7434,7 @@ defaultView
 ;
 browserWin
 .
-openUILinkIn
+openWebLinkIn
 (
 this
 .

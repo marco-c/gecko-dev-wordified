@@ -132,7 +132,7 @@ requestPostData
 {
 win
 .
-openUILinkIn
+openWebLinkIn
 (
 url
 "

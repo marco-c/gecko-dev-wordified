@@ -765,7 +765,7 @@ chromeWindowType
 ;
 mainWindow
 .
-openUILinkIn
+openWebLinkIn
 (
 request
 .
@@ -773,6 +773,15 @@ url
 "
 tab
 "
+{
+triggeringPrincipal
+:
+mainWindow
+.
+document
+.
+nodePrincipal
+}
 )
 ;
 }

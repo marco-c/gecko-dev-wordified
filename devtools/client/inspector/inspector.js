@@ -16019,7 +16019,7 @@ defaultView
 ;
 browserWin
 .
-openUILinkIn
+openWebLinkIn
 (
 url
 "
