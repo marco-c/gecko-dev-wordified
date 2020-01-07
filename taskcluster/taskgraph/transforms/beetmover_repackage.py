@@ -572,69 +572,6 @@ xpi
 r
 '
 ^
-linux64
--
-asan
--
-reporter
--
-nightly
-'
-:
-        
-filter
-(
-lambda
-a
-:
-a
-not
-in
-(
-'
-target
-.
-crashreporter
--
-symbols
-.
-zip
-'
-'
-target
-.
-jsshell
-.
-zip
-'
-)
-               
-_DESKTOP_UPSTREAM_ARTIFACTS_UNSIGNED_EN_US
-+
-[
-                    
-"
-host
-/
-bin
-/
-mar
-"
-                    
-"
-host
-/
-bin
-/
-mbsdiff
-"
-                
-]
-)
-    
-r
-'
-^
 win
 (
 32
@@ -883,11 +820,6 @@ linux
 |
 -
 devedition
-|
--
-asan
--
-reporter
 )
 -
 nightly
@@ -898,7 +830,6 @@ l10n
 )
 '
 :
-        
 [
 '
 target
@@ -1117,11 +1048,6 @@ macosx64
 |
 -
 devedition
-|
--
-asan
--
-reporter
 )
 -
 nightly
@@ -1132,7 +1058,6 @@ l10n
 )
 '
 :
-        
 [
 '
 target
@@ -2406,7 +2331,7 @@ mapping
 )
 :
         
-platform_was_previously_matched_by_regex
+plarform_was_previously_matched_by_regex
 =
 None
         
@@ -2438,7 +2363,7 @@ _check_platform_matched_only_one_regex
                     
 tasktype
 platform
-platform_was_previously_matched_by_regex
+plarform_was_previously_matched_by_regex
 platform_regex
                 
 )
@@ -2512,7 +2437,7 @@ US
 }
 )
                 
-platform_was_previously_matched_by_regex
+plarform_was_previously_matched_by_regex
 =
 platform_regex
     
@@ -2647,13 +2572,13 @@ _check_platform_matched_only_one_regex
     
 task_type
 platform
-platform_was_previously_matched_by_regex
+plarform_was_previously_matched_by_regex
 platform_regex
 )
 :
     
 if
-platform_was_previously_matched_by_regex
+plarform_was_previously_matched_by_regex
 is
 not
 None
@@ -2717,7 +2642,7 @@ platform
             
 first_matched
 =
-platform_was_previously_matched_by_regex
+plarform_was_previously_matched_by_regex
 .
 pattern
             
