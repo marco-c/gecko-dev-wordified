@@ -3665,7 +3665,7 @@ type
 }
 masm
 .
-memoryBarrier
+memoryBarrierBefore
 (
 mir
 -
@@ -3674,7 +3674,7 @@ access
 (
 )
 .
-barrierBefore
+sync
 (
 )
 )
@@ -3856,9 +3856,8 @@ SignExtend
 )
 ;
 }
-return
-;
 }
+else
 if
 (
 byteSize
@@ -4052,7 +4051,7 @@ framePushed
 }
 masm
 .
-memoryBarrier
+memoryBarrierAfter
 (
 mir
 -
@@ -4061,7 +4060,7 @@ access
 (
 )
 .
-barrierAfter
+sync
 (
 )
 )
@@ -4364,7 +4363,7 @@ type
 }
 masm
 .
-memoryBarrier
+memoryBarrierBefore
 (
 mir
 -
@@ -4373,7 +4372,7 @@ access
 (
 )
 .
-barrierBefore
+sync
 (
 )
 )
@@ -4510,9 +4509,8 @@ ZeroExtend
 )
 ;
 }
-return
-;
 }
+else
 if
 (
 byteSize
@@ -4632,7 +4630,7 @@ SizeWord
 }
 masm
 .
-memoryBarrier
+memoryBarrierAfter
 (
 mir
 -
@@ -4641,7 +4639,7 @@ access
 (
 )
 .
-barrierAfter
+sync
 (
 )
 )
