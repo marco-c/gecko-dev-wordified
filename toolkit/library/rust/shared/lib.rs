@@ -175,6 +175,10 @@ extern
 crate
 syn
 ;
+extern
+crate
+cosec
+;
 use
 std
 :
