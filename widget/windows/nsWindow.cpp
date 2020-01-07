@@ -8974,12 +8974,10 @@ nsIWidget
 aNewParent
 )
 {
-MOZ_ASSERT
+NS_PRECONDITION
 (
 aNewParent
 "
-null
-widget
 "
 )
 ;
@@ -28518,9 +28516,6 @@ aBuilder
 .
 DefineClip
 (
-Nothing
-(
-)
 Nothing
 (
 )

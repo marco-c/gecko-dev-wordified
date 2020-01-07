@@ -228,8 +228,13 @@ mCapacity
 0
 ;
 }
-WrScrollId
-WrScrollId
+/
+*
+static
+*
+/
+WrClipId
+WrClipId
 :
 :
 RootScrollNode
@@ -237,7 +242,7 @@ RootScrollNode
 )
 {
 return
-WrScrollId
+WrClipId
 {
 wr_root_scroll_node_id
 (

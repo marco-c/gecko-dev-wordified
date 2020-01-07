@@ -3122,9 +3122,6 @@ DefineClip
 Nothing
 (
 )
-Nothing
-(
-)
 dest
 &
 clips
@@ -7764,7 +7761,7 @@ aPresContext
 )
 return
 ;
-MOZ_ASSERT
+NS_PRECONDITION
 (
 nullptr
 !
