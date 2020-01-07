@@ -929,10 +929,6 @@ aContentPolicyType
 nullptr
 /
 /
-PerformanceStorage
-nullptr
-/
-/
 loadGroup
 nullptr
 /

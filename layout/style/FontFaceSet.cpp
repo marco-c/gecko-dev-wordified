@@ -3660,10 +3660,6 @@ nsIContentPolicy
 :
 :
 TYPE_FONT
-nullptr
-/
-/
-PerformanceStorage
 loadGroup
 )
 ;

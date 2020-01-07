@@ -6853,10 +6853,6 @@ nsIContentPolicy
 :
 :
 TYPE_XBL
-nullptr
-/
-/
-aPerformanceStorage
 loadGroup
 )
 ;
@@ -6886,10 +6882,6 @@ nsIContentPolicy
 :
 :
 TYPE_XBL
-nullptr
-/
-/
-PerformanceStorage
 loadGroup
 )
 ;

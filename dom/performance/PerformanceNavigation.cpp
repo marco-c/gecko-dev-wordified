@@ -246,11 +246,6 @@ GetPerformanceTiming
 )
 -
 >
-Data
-(
-)
--
->
 GetRedirectCount
 (
 )

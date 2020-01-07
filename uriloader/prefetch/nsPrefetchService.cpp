@@ -1286,10 +1286,6 @@ ServiceWorkerDescriptor
 )
 securityFlags
 mPolicyType
-nullptr
-/
-/
-aPerformanceStorage
 loadGroup
 /
 /

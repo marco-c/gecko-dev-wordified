@@ -1512,10 +1512,6 @@ TYPE_SCRIPT
 nullptr
 /
 /
-aPerformanceStorage
-nullptr
-/
-/
 aLoadGroup
 nullptr
 /

@@ -15989,10 +15989,6 @@ mURI
 thisContent
 securityFlags
 contentPolicyType
-nullptr
-/
-/
-aPerformanceStorage
 group
 /
 /

@@ -299,17 +299,6 @@ mozilla
 /
 dom
 /
-PerformanceStorage
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 workers
 /
 Workers
@@ -2117,9 +2106,6 @@ aLoadGroup
 nsIEventTarget
 *
 aMainThreadEventTarget
-PerformanceStorage
-*
-aPerformanceStorage
 bool
 aIsTrackingFetch
 )
@@ -2139,10 +2125,6 @@ aRequest
 mMainThreadEventTarget
 (
 aMainThreadEventTarget
-)
-mPerformanceStorage
-(
-aPerformanceStorage
 )
 mNeedToObserveOnDataAvailable
 (
@@ -3380,12 +3362,6 @@ mRequest
 ContentPolicyType
 (
 )
-nullptr
-/
-*
-aPerformanceStorage
-*
-/
 mLoadGroup
 nullptr
 /
@@ -3431,7 +3407,6 @@ mRequest
 ContentPolicyType
 (
 )
-mPerformanceStorage
 mLoadGroup
 nullptr
 /
@@ -3463,7 +3438,6 @@ mRequest
 ContentPolicyType
 (
 )
-mPerformanceStorage
 mLoadGroup
 nullptr
 /

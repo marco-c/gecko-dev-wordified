@@ -417,10 +417,6 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
-nullptr
-/
-/
-aPerformanceStorage
 loadGroup
 nullptr
 /

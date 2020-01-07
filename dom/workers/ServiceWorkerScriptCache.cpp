@@ -3569,12 +3569,6 @@ uri
 aPrincipal
 secFlags
 contentPolicyType
-nullptr
-/
-*
-aPerformanceStorage
-*
-/
 loadGroup
 nullptr
 /

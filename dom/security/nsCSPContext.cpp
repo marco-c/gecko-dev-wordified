@@ -6628,10 +6628,6 @@ TYPE_CSP_REPORT
 nullptr
 /
 /
-aPerformanceStorage
-nullptr
-/
-/
 aLoadGroup
 nullptr
 /
@@ -6661,10 +6657,6 @@ nsIContentPolicy
 :
 :
 TYPE_CSP_REPORT
-nullptr
-/
-/
-PerformanceStorage
 nullptr
 /
 /

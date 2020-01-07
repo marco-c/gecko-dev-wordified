@@ -6688,10 +6688,6 @@ aRequest
 mTriggeringPrincipal
 securityFlags
 contentPolicyType
-nullptr
-/
-/
-aPerformanceStorage
 loadGroup
 prompter
 nsIRequest

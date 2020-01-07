@@ -3042,10 +3042,6 @@ TYPE_OTHER
 nullptr
 /
 /
-PerformanceStorage
-nullptr
-/
-/
 aLoadGroup
 nullptr
 /

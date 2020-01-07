@@ -1903,12 +1903,6 @@ workerPrivate
 MainThreadEventTarget
 (
 )
-workerPrivate
--
->
-GetPerformanceStorage
-(
-)
 false
 )
 ;
@@ -2567,10 +2561,6 @@ TaskCategory
 :
 Other
 )
-nullptr
-/
-/
-PerformanceStorage
 isTrackingFetch
 )
 ;

@@ -2100,10 +2100,6 @@ nsIContentPolicy
 :
 :
 TYPE_XSLT
-nullptr
-/
-/
-aPerformanceStorage
 loadGroup
 )
 ;
