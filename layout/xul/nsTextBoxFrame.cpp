@@ -1544,7 +1544,9 @@ PaintTextShadow
 mFrame
 aCtx
 drawRect
-mVisibleRect
+GetPaintRect
+(
+)
 mFrame
 -
 >
@@ -1605,7 +1607,9 @@ PaintTitle
 (
 *
 aCtx
-mVisibleRect
+GetPaintRect
+(
+)
 ToReferenceFrame
 (
 )

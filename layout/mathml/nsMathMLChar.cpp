@@ -13759,7 +13759,9 @@ presContext
 *
 aCtx
 mFrame
-mVisibleRect
+GetPaintRect
+(
+)
 rect
 computedStyle
 flags
@@ -13775,7 +13777,9 @@ presContext
 *
 aCtx
 mFrame
-mVisibleRect
+GetPaintRect
+(
+)
 rect
 computedStyle
 )

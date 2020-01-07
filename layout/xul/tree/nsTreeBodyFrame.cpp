@@ -16877,7 +16877,9 @@ PaintTreeBody
 (
 *
 aCtx
-mVisibleRect
+GetPaintRect
+(
+)
 ToReferenceFrame
 (
 )

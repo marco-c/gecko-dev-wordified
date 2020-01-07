@@ -5546,7 +5546,7 @@ previousVisible
 wrapperItem
 -
 >
-GetVisibleRectForChildren
+GetBuildingRectForChildren
 (
 )
 ;

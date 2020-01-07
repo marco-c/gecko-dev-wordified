@@ -5170,7 +5170,7 @@ styleBorder
 aItem
 -
 >
-GetVisibleRect
+GetPaintRect
 (
 )
 aForFrame

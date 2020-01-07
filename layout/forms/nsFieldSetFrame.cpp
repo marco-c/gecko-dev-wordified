@@ -755,7 +755,9 @@ aCtx
 ToReferenceFrame
 (
 )
-mVisibleRect
+GetPaintRect
+(
+)
 )
 ;
 nsDisplayItemGenericImageGeometry

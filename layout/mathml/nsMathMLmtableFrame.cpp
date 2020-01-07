@@ -2062,7 +2062,9 @@ PresContext
 *
 aCtx
 mFrame
-mVisibleRect
+GetPaintRect
+(
+)
 bounds
 styleBorder
 mFrame

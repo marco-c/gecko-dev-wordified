@@ -741,7 +741,7 @@ vis
 aItem
 -
 >
-GetVisibleRect
+GetPaintRect
 (
 )
 ;

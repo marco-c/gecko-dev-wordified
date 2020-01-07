@@ -33977,7 +33977,9 @@ LayoutDeviceRect
 :
 FromAppUnits
 (
-mVisibleRect
+GetPaintRect
+(
+)
 A2D
 )
 ;

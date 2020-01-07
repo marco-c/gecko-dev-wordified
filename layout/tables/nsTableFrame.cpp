@@ -8663,7 +8663,9 @@ PaintBCBorders
 (
 *
 drawTarget
-mVisibleRect
+GetPaintRect
+(
+)
 -
 pt
 )
@@ -8722,7 +8724,9 @@ CreateWebRenderCommandsForBCBorders
 (
 aBuilder
 aSc
-mVisibleRect
+GetPaintRect
+(
+)
 ToReferenceFrame
 (
 )

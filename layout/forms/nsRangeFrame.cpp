@@ -1414,7 +1414,9 @@ PresContext
 *
 aCtx
 mFrame
-mVisibleRect
+GetPaintRect
+(
+)
 GetBounds
 (
 aBuilder

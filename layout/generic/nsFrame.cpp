@@ -13812,7 +13812,9 @@ ComputeColor
 nsIntRect
 pxRect
 =
-mVisibleRect
+GetPaintRect
+(
+)
 .
 ToOutsidePixels
 (

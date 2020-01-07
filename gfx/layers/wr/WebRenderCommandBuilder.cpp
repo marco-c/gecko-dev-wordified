@@ -13326,13 +13326,13 @@ nsDisplayBoxShadowInner
 /
 /
 uses
-mVisibleRegion
+mPaintRect
 in
 Paint
 (
 )
 and
-mVisibleRegion
+mPaintRect
 is
 computed
 in
@@ -13354,10 +13354,9 @@ paintBounds
 aItem
 -
 >
-SetVisibleRect
+SetPaintRect
 (
 paintBounds
-false
 )
 ;
 aItem

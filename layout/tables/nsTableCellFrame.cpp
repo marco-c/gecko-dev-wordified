@@ -2576,7 +2576,9 @@ PaintBackground
 (
 *
 aCtx
-mVisibleRect
+GetPaintRect
+(
+)
 ToReferenceFrame
 (
 )

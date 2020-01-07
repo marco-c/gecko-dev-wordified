@@ -10637,7 +10637,9 @@ rect
 =
 NSRectToSnappedRect
 (
-mVisibleRect
+GetPaintRect
+(
+)
 appUnitsPerDevPixel
 *
 drawTarget

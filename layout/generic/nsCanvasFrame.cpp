@@ -2194,7 +2194,9 @@ PaintInternal
 (
 aBuilder
 aCtx
-mVisibleRect
+GetPaintRect
+(
+)
 &
 bgClipRect
 )
@@ -2438,7 +2440,9 @@ PaintInternal
 (
 aBuilder
 aCtx
-mVisibleRect
+GetPaintRect
+(
+)
 &
 bgClipRect
 )

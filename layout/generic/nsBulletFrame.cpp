@@ -3940,7 +3940,9 @@ aCtx
 ToReferenceFrame
 (
 )
-mVisibleRect
+GetPaintRect
+(
+)
 flags
 mDisableSubpixelAA
 )
