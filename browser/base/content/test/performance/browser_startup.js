@@ -1316,6 +1316,12 @@ NIGHTLY_BUILD
 !
 AppConstants
 .
+MOZ_DEV_EDITION
+&
+&
+!
+AppConstants
+.
 DEBUG
 )
 {
@@ -1351,6 +1357,14 @@ this
 non
 -
 nightly
+/
+non
+-
+devedition
+/
+"
++
+"
 non
 -
 debug
