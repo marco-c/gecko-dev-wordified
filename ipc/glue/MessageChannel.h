@@ -1830,6 +1830,16 @@ sIsPumpingMessages
 aIsPumping
 ;
 }
+void
+SetInKillHardShutdown
+(
+)
+{
+mInKillHardShutdown
+=
+true
+;
+}
 #
 ifdef
 OS_WIN
@@ -5408,6 +5418,9 @@ Message
 >
 >
 mPostponedSends
+;
+bool
+mInKillHardShutdown
 ;
 }
 ;
