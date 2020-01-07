@@ -8528,7 +8528,7 @@ Register
 dest
 )
 {
-ma_dsrl
+ma_dsll
 (
 dest
 src
