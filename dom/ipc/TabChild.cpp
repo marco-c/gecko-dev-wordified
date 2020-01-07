@@ -15174,9 +15174,9 @@ if
 fm
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDOMElement
+Element
 >
 result
 ;

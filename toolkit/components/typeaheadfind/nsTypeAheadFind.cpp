@@ -4349,7 +4349,7 @@ nsTypeAheadFind
 :
 GetFoundLink
 (
-nsIDOMElement
+Element
 *
 *
 aFoundLink

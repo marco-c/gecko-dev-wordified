@@ -1231,9 +1231,9 @@ win
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMElement
+Element
 >
 result
 ;
@@ -1281,7 +1281,7 @@ nsXULCommandDispatcher
 :
 AdvanceFocusIntoSubtree
 (
-nsIDOMElement
+Element
 *
 aElt
 )
@@ -1300,9 +1300,9 @@ win
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMElement
+Element
 >
 result
 ;

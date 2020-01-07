@@ -535,9 +535,9 @@ fm
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDOMElement
+Element
 >
 result
 ;

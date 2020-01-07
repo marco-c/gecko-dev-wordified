@@ -537,7 +537,13 @@ mDidAddObservers
 ;
 nsCOMPtr
 <
-nsIDOMElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 >
 mFoundLink
 ;

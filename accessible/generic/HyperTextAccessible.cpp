@@ -9136,9 +9136,12 @@ GetWindow
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMElement
+dom
+:
+:
+Element
 >
 result
 ;
