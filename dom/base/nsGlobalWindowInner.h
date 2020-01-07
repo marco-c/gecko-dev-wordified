@@ -6363,15 +6363,6 @@ aMouseDownEvent
 mozilla
 :
 :
-dom
-:
-:
-Element
-*
-aPanel
-mozilla
-:
-:
 ErrorResult
 &
 aError
