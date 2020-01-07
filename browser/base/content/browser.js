@@ -57512,13 +57512,9 @@ popupCount
 ;
 text
 .
-setAttribute
-(
-"
-value
-"
+textContent
+=
 message
-)
 ;
 text
 .
