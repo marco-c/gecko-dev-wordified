@@ -1116,6 +1116,15 @@ aCallback
 override
 ;
 virtual
+void
+CleanupFullscreenTransition
+(
+)
+override
+{
+}
+;
+virtual
 already_AddRefed
 <
 nsIScreen
