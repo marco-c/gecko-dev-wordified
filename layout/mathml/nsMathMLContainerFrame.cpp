@@ -4587,10 +4587,11 @@ Content
 >
 AppendToTop
 (
-MakeDisplayItem
-<
+new
+(
+aBuilder
+)
 nsDisplayMathMLError
->
 (
 aBuilder
 this

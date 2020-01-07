@@ -7712,10 +7712,11 @@ BorderBackground
 >
 AppendToTop
 (
-MakeDisplayItem
-<
+new
+(
+aBuilder
+)
 nsDisplaymtdBorder
->
 (
 aBuilder
 this

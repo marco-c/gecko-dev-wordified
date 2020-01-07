@@ -10785,10 +10785,11 @@ Content
 >
 AppendToTop
 (
-MakeDisplayItem
-<
+new
+(
+aBuilder
+)
 nsDisplayComboboxFocus
->
 (
 aBuilder
 this

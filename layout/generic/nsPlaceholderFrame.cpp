@@ -1767,10 +1767,11 @@ Outlines
 >
 AppendToTop
 (
-MakeDisplayItem
-<
+new
+(
+aBuilder
+)
 nsDisplayGeneric
->
 (
 aBuilder
 this

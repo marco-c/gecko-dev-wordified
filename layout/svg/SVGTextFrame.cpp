@@ -19536,10 +19536,11 @@ Content
 >
 AppendToTop
 (
-MakeDisplayItem
-<
+new
+(
+aBuilder
+)
 nsDisplaySVGText
->
 (
 aBuilder
 this

@@ -4192,10 +4192,11 @@ Content
 >
 AppendToTop
 (
-MakeDisplayItem
-<
+new
+(
+aBuilder
+)
 nsDisplayMathMLSlash
->
 (
 aBuilder
 aFrame

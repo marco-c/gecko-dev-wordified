@@ -1083,9 +1083,6 @@ public
 explicit
 nsDisplayCanvasBackgroundImage
 (
-nsDisplayListBuilder
-*
-aBuilder
 const
 InitData
 &
@@ -1094,7 +1091,6 @@ aInitData
 :
 nsDisplayBackgroundImage
 (
-aBuilder
 aInitData
 )
 {
