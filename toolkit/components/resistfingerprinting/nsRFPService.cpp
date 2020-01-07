@@ -1342,7 +1342,7 @@ d
 .
 0
 "
-SPOOFED_OSCPU
+SPOOFED_UA_OS
 spoofedVersion
 LEGACY_BUILD_ID
 spoofedVersion
