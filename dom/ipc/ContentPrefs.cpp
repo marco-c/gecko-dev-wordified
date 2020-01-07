@@ -764,6 +764,13 @@ dom
 .
 performance
 .
+enable_scheduler_timing
+"
+"
+dom
+.
+performance
+.
 enable_user_timing_logging
 "
 "
