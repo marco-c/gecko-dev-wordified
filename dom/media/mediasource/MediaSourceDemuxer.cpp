@@ -150,6 +150,13 @@ h
 #
 include
 "
+VideoUtils
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

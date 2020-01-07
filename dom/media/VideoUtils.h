@@ -223,6 +223,15 @@ include
 "
 mozilla
 /
+SharedThreadPool
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -1294,9 +1303,6 @@ T
 mValue
 ;
 }
-;
-class
-SharedThreadPool
 ;
 /
 /
