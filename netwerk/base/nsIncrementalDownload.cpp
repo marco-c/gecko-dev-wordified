@@ -320,13 +320,13 @@ define
 UPDATE_PROGRESS_INTERVAL
 PRTime
 (
-500
+100
 *
 PR_USEC_PER_MSEC
 )
 /
 /
-500ms
+100ms
 /
 /
 Number
