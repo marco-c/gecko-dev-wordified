@@ -1776,17 +1776,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_PERMISSIONS
-#
 include
 "
 nsPermissionManager
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_WIDGET_ANDROID
@@ -10311,9 +10306,6 @@ PostTask
 (
 NewRunnableFunction
 (
-"
-DelayedDeleteSubprocessRunnable
-"
 DelayedDeleteSubprocess
 mSubprocess
 )
@@ -18828,9 +18820,6 @@ PostTask
 (
 NewRunnableFunction
 (
-"
-EnsureProcessTerminatedRunnable
-"
 &
 ProcessWatcher
 :
@@ -29561,9 +29550,6 @@ nsIPrincipal
 aPrincipal
 )
 {
-#
-ifdef
-MOZ_PERMISSIONS
 /
 /
 Create
@@ -29619,8 +29605,6 @@ key
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -29637,9 +29621,6 @@ nsCString
 aKey
 )
 {
-#
-ifdef
-MOZ_PERMISSIONS
 /
 /
 NOTE
@@ -29778,8 +29759,6 @@ aKey
 perms
 )
 ;
-#
-endif
 }
 bool
 ContentParent

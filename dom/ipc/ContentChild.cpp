@@ -1272,9 +1272,6 @@ h
 #
 endif
 #
-ifdef
-MOZ_PERMISSIONS
-#
 include
 "
 nsPermission
@@ -1288,8 +1285,6 @@ nsPermissionManager
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -10879,9 +10874,6 @@ firstIdleTask
 =
 NewCancelableRunnableFunction
 (
-"
-FirstIdleRunnable
-"
 FirstIdle
 )
 ;
@@ -14261,9 +14253,6 @@ Permission
 permission
 )
 {
-#
-if
-MOZ_PERMISSIONS
 nsCOMPtr
 <
 nsIPermissionManager
@@ -14456,8 +14445,6 @@ nsPermissionManager
 eNoDBOperation
 )
 ;
-#
-endif
 return
 IPC_OK
 (
