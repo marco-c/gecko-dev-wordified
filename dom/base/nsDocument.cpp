@@ -8567,10 +8567,6 @@ mDidCallBeginLoad
 (
 false
 )
-mBufferingCSPViolations
-(
-false
-)
 mAllowPaymentRequest
 (
 false
