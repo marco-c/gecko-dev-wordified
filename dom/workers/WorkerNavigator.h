@@ -305,6 +305,13 @@ GetAppCodeName
 nsString
 &
 aAppCodeName
+ErrorResult
+&
+/
+*
+unused
+*
+/
 )
 const
 {
