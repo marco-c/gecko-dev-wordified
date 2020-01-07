@@ -8494,6 +8494,7 @@ n
 "
 -
 MOZ_LOG
+=
 <
 modules
 >
@@ -8515,6 +8516,7 @@ n
 "
 -
 MOZ_LOG_FILE
+=
 <
 file
 >
