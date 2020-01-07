@@ -1448,6 +1448,27 @@ IOError
 return
 None
         
+except
+ValueError
+:
+            
+logger
+.
+warning
+(
+"
+%
+r
+may
+be
+corrupted
+"
+manifest
+)
+            
+return
+None
+        
 return
 rv
     
