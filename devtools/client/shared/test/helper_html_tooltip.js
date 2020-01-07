@@ -168,8 +168,8 @@ done
 .
 *
 /
-async
 function
+*
 showTooltip
 (
 tooltip
@@ -208,7 +208,7 @@ y
 }
 )
 ;
-await
+yield
 onShown
 ;
 return
@@ -280,8 +280,8 @@ done
 .
 *
 /
-async
 function
+*
 hideTooltip
 (
 tooltip
@@ -305,7 +305,7 @@ hide
 (
 )
 ;
-await
+yield
 onPopupHidden
 ;
 return

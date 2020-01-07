@@ -112,8 +112,8 @@ hud
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -230,7 +230,7 @@ let
 browser
 }
 =
-await
+yield
 loadTab
 (
 "
@@ -243,7 +243,7 @@ remoteType
 ;
 hud
 =
-await
+yield
 openConsole
 (
 )
@@ -276,10 +276,10 @@ uri
 spec
 )
 ;
-await
+yield
 loaded
 ;
-await
+yield
 testMessages
 (
 )

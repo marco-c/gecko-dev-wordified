@@ -75,8 +75,8 @@ corresponding
 nodes
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -98,7 +98,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 url
@@ -244,7 +244,7 @@ clientY
 }
 )
 ;
-await
+yield
 onHighlighted
 ;
 ok

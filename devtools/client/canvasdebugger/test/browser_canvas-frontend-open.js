@@ -46,8 +46,8 @@ tool
 .
 *
 /
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -58,7 +58,7 @@ target
 panel
 }
 =
-await
+yield
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
@@ -427,7 +427,7 @@ hidden
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

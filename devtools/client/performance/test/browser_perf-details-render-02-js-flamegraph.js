@@ -145,8 +145,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -155,7 +155,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -179,13 +179,13 @@ panel
 .
 panelWin
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -202,7 +202,7 @@ EVENTS
 UI_JS_FLAMEGRAPH_RENDERED
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -214,7 +214,7 @@ flamegraph
 "
 )
 ;
-await
+yield
 rendered
 ;
 ok
@@ -231,13 +231,13 @@ stopped
 "
 )
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -272,7 +272,7 @@ time
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

@@ -102,12 +102,12 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 enableServiceWorkerDebugging
 (
 )
@@ -118,7 +118,7 @@ tab
 document
 }
 =
-await
+yield
 openAboutDebugging
 (
 "
@@ -129,7 +129,7 @@ workers
 let
 swTab
 =
-await
+yield
 addTab
 (
 TAB_URL
@@ -143,7 +143,7 @@ getServiceWorkerList
 document
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -227,7 +227,7 @@ list
 ;
 try
 {
-await
+yield
 unregisterServiceWorker
 (
 swTab
@@ -340,13 +340,13 @@ list
 names
 )
 ;
-await
+yield
 removeTab
 (
 swTab
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab

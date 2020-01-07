@@ -214,8 +214,12 @@ span
 const
 createInplaceEditorAndClick
 =
+Task
+.
 async
+(
 function
+*
 (
 options
 doc
@@ -288,6 +292,7 @@ click
 )
 ;
 }
+)
 ;
 /
 *
@@ -594,8 +599,8 @@ being
 tested
 *
 /
-async
 function
+*
 testCompletion
 (
 [
@@ -782,13 +787,13 @@ input
 defaultView
 )
 ;
-await
+yield
 onSuggest
 ;
-await
+yield
 onVisibilityChange
 ;
-await
+yield
 waitForTime
 (
 5

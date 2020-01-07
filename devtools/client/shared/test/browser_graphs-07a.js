@@ -385,12 +385,12 @@ LineGraphWidget
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -400,7 +400,7 @@ blank
 "
 )
 ;
-await
+yield
 performTest
 (
 )
@@ -414,8 +414,8 @@ removeCurrentTab
 }
 )
 ;
-async
 function
+*
 performTest
 (
 )
@@ -426,7 +426,7 @@ host
 doc
 ]
 =
-await
+yield
 createHost
 (
 )
@@ -445,7 +445,7 @@ fps
 "
 )
 ;
-await
+yield
 graph
 .
 once
@@ -461,7 +461,7 @@ graph
 normalDragStop
 )
 ;
-await
+yield
 graph
 .
 destroy
@@ -482,7 +482,7 @@ fps
 "
 )
 ;
-await
+yield
 graph2
 .
 once
@@ -498,7 +498,7 @@ graph2
 buggyDragStop
 )
 ;
-await
+yield
 graph2
 .
 destroy

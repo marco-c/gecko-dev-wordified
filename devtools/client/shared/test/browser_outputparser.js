@@ -86,12 +86,12 @@ enabled
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -101,7 +101,7 @@ blank
 "
 )
 ;
-await
+yield
 performTest
 (
 )
@@ -115,8 +115,8 @@ removeCurrentTab
 }
 )
 ;
-async
 function
+*
 performTest
 (
 )
@@ -127,7 +127,7 @@ host
 doc
 ]
 =
-await
+yield
 createHost
 (
 "
@@ -199,7 +199,7 @@ false
 }
 }
 ;
-await
+yield
 initCssProperties
 (
 toolbox

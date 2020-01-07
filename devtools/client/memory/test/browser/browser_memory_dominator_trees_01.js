@@ -149,8 +149,8 @@ test
 makeMemoryTest
 (
 TEST_URL
-async
 function
+*
 (
 {
 tab
@@ -257,7 +257,7 @@ computed
 and
 fetched
 .
-await
+yield
 waitUntilDominatorTreeState
 (
 store
@@ -571,7 +571,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -666,7 +666,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -772,7 +772,7 @@ fetch
 to
 complete
 .
-await
+yield
 waitUntilState
 (
 store
@@ -1089,7 +1089,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitUntilState
 (
 store

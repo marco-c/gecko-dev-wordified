@@ -48,8 +48,8 @@ argument
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -59,7 +59,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 SIMPLE_CONTEXT_URL
@@ -75,7 +75,7 @@ gainNode
 ]
 ]
 =
-await
+yield
 Promise
 .
 all
@@ -103,7 +103,7 @@ node
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -120,7 +120,7 @@ setValueAtTime
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -139,7 +139,7 @@ linearRampToValueAtTime
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -156,7 +156,7 @@ setValueAtTime
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -173,7 +173,7 @@ exponentialRampToValueAtTime
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -195,7 +195,7 @@ events
 values
 }
 =
-await
+yield
 oscNode
 .
 getAutomationData
@@ -281,7 +281,7 @@ values
 9
 )
 ;
-await
+yield
 removeTab
 (
 target

@@ -50,8 +50,8 @@ linked
 .
 *
 /
-async
 function
+*
 ifWebGLSupported
 (
 )
@@ -62,7 +62,7 @@ target
 panel
 }
 =
-await
+yield
 initShaderEditor
 (
 MULTIPLE_CONTEXTS_URL
@@ -147,7 +147,7 @@ firstProgramActor
 secondProgramActor
 ]
 =
-await
+yield
 promise
 .
 all
@@ -318,7 +318,7 @@ list
 let
 vertexShader
 =
-await
+yield
 firstProgramActor
 .
 getVertexShader
@@ -328,7 +328,7 @@ getVertexShader
 let
 fragmentShader
 =
-await
+yield
 firstProgramActor
 .
 getFragmentShader
@@ -338,7 +338,7 @@ getFragmentShader
 let
 vertSource
 =
-await
+yield
 vertexShader
 .
 getText
@@ -348,7 +348,7 @@ getText
 let
 fragSource
 =
-await
+yield
 fragmentShader
 .
 getText
@@ -358,7 +358,7 @@ getText
 let
 vsEditor
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -371,7 +371,7 @@ vs
 let
 fsEditor
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -526,7 +526,7 @@ items
 target
 )
 ;
-await
+yield
 shown
 ;
 is
@@ -572,7 +572,7 @@ selected
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

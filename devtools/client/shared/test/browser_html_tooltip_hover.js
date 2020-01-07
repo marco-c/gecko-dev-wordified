@@ -120,8 +120,8 @@ js
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -130,7 +130,7 @@ let
 doc
 ]
 =
-await
+yield
 createHost
 (
 "
@@ -153,7 +153,7 @@ on
 the
 page
 .
-await
+yield
 waitUntil
 (
 (
@@ -267,8 +267,8 @@ appear
 "
 )
 ;
-async
 function
+*
 showAndCheck
 (
 boxId
@@ -324,7 +324,7 @@ doc
 defaultView
 )
 ;
-await
+yield
 shown
 ;
 checkTooltipGeometry
@@ -339,7 +339,7 @@ height
 )
 ;
 }
-await
+yield
 showAndCheck
 (
 "
@@ -350,7 +350,7 @@ bottom
 "
 )
 ;
-await
+yield
 showAndCheck
 (
 "
@@ -361,7 +361,7 @@ bottom
 "
 )
 ;
-await
+yield
 showAndCheck
 (
 "
@@ -372,7 +372,7 @@ top
 "
 )
 ;
-await
+yield
 showAndCheck
 (
 "
@@ -423,7 +423,7 @@ doc
 defaultView
 )
 ;
-await
+yield
 hidden
 ;
 info

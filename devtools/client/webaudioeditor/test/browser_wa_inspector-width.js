@@ -48,8 +48,8 @@ preference
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -59,7 +59,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 SIMPLE_CONTEXT_URL
@@ -137,7 +137,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -192,7 +192,7 @@ click
 (
 )
 ;
-await
+yield
 once
 (
 panelWin
@@ -273,7 +273,7 @@ target
 actors
 ]
 =
-await
+yield
 events
 ;
 nodeIds
@@ -310,7 +310,7 @@ click
 (
 )
 ;
-await
+yield
 once
 (
 panelWin
@@ -319,7 +319,7 @@ EVENTS
 UI_INSPECTOR_TOGGLED
 )
 ;
-await
+yield
 clickGraphNode
 (
 panelWin
@@ -382,7 +382,7 @@ preference
 "
 )
 ;
-await
+yield
 teardown
 (
 target

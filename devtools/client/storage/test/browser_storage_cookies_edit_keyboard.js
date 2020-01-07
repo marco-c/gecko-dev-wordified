@@ -77,12 +77,12 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -130,7 +130,7 @@ browser
 "
 )
 ;
-await
+yield
 startCellEdit
 (
 id
@@ -139,7 +139,7 @@ name
 "
 )
 ;
-await
+yield
 typeWithTerminator
 (
 "
@@ -150,7 +150,7 @@ KEY_Tab
 "
 )
 ;
-await
+yield
 typeWithTerminator
 (
 "
@@ -164,7 +164,7 @@ KEY_Tab
 "
 )
 ;
-await
+yield
 typeWithTerminator
 (
 "
@@ -175,7 +175,7 @@ KEY_Tab
 "
 )
 ;
-await
+yield
 typeWithTerminator
 (
 "
@@ -195,7 +195,7 @@ KEY_Tab
 "
 )
 ;
-await
+yield
 typeWithTerminator
 (
 "
@@ -206,7 +206,7 @@ KEY_Tab
 "
 )
 ;
-await
+yield
 typeWithTerminator
 (
 "
@@ -217,7 +217,7 @@ KEY_Tab
 "
 )
 ;
-await
+yield
 typeWithTerminator
 (
 "
@@ -228,7 +228,7 @@ KEY_Tab
 "
 )
 ;
-await
+yield
 finishTests
 (
 )

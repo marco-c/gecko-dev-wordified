@@ -2041,8 +2041,8 @@ stubPackets
 ;
 ;
 }
-async
 function
+*
 generateConsoleApiStubs
 (
 )
@@ -2138,7 +2138,7 @@ packets
 let
 toolbox
 =
-await
+yield
 openNewTabAndToolbox
 (
 TEST_URI
@@ -2312,7 +2312,7 @@ listener
 }
 )
 ;
-await
+yield
 ContentTask
 .
 spawn
@@ -2402,7 +2402,7 @@ remove
 }
 )
 ;
-await
+yield
 received
 ;
 }
@@ -2419,7 +2419,7 @@ FILTER
 LOG
 )
 ;
-await
+yield
 closeTabAndToolbox
 (
 )
@@ -2434,8 +2434,8 @@ ConsoleMessage
 )
 ;
 }
-async
 function
+*
 generateCssMessageStubs
 (
 )
@@ -2500,7 +2500,7 @@ packets
 let
 toolbox
 =
-await
+yield
 openNewTabAndToolbox
 (
 TEST_URI
@@ -2659,7 +2659,7 @@ resolve
 }
 )
 ;
-await
+yield
 ContentTask
 .
 spawn
@@ -2727,11 +2727,11 @@ style
 }
 )
 ;
-await
+yield
 received
 ;
 }
-await
+yield
 closeTabAndToolbox
 (
 )
@@ -2746,8 +2746,8 @@ ConsoleMessage
 )
 ;
 }
-async
 function
+*
 generateEvaluationResultStubs
 (
 )
@@ -2788,7 +2788,7 @@ packets
 let
 toolbox
 =
-await
+yield
 openNewTabAndToolbox
 (
 TEST_URI
@@ -2811,7 +2811,7 @@ evaluationResult
 const
 packet
 =
-await
+yield
 new
 Promise
 (
@@ -2861,7 +2861,7 @@ packet
 )
 ;
 }
-await
+yield
 closeTabAndToolbox
 (
 )
@@ -2876,8 +2876,8 @@ ConsoleMessage
 )
 ;
 }
-async
 function
+*
 generateNetworkEventStubs
 (
 )
@@ -2942,7 +2942,7 @@ packets
 let
 toolbox
 =
-await
+yield
 openNewTabAndToolbox
 (
 TEST_URI
@@ -3281,7 +3281,7 @@ resolve
 }
 )
 ;
-await
+yield
 ContentTask
 .
 spawn
@@ -3371,7 +3371,7 @@ remove
 }
 )
 ;
-await
+yield
 Promise
 .
 all
@@ -3383,7 +3383,7 @@ onNetworkUpdate
 )
 ;
 }
-await
+yield
 closeTabAndToolbox
 (
 )
@@ -3398,8 +3398,8 @@ NetworkEventMessage
 )
 ;
 }
-async
 function
+*
 generatePageErrorStubs
 (
 )
@@ -3464,7 +3464,7 @@ packets
 let
 toolbox
 =
-await
+yield
 openNewTabAndToolbox
 (
 TEST_URI
@@ -3607,7 +3607,7 @@ expectUncaughtException
 )
 ;
 }
-await
+yield
 ContentTask
 .
 spawn
@@ -3681,11 +3681,11 @@ remove
 }
 )
 ;
-await
+yield
 received
 ;
 }
-await
+yield
 closeTabAndToolbox
 (
 )

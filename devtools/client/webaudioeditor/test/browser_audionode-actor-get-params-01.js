@@ -41,8 +41,8 @@ getParams
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -52,7 +52,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 SIMPLE_NODES_URL
@@ -64,7 +64,7 @@ _
 nodes
 ]
 =
-await
+yield
 Promise
 .
 all
@@ -93,7 +93,7 @@ node
 ]
 )
 ;
-await
+yield
 loadFrameScriptUtils
 (
 )
@@ -101,7 +101,7 @@ loadFrameScriptUtils
 let
 allNodeParams
 =
-await
+yield
 Promise
 .
 all
@@ -175,7 +175,7 @@ StereoPannerNode
 let
 defaults
 =
-await
+yield
 Promise
 .
 all
@@ -364,7 +364,7 @@ flag
 }
 )
 ;
-await
+yield
 removeTab
 (
 target

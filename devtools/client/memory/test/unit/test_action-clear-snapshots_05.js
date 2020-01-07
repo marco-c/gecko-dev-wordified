@@ -81,8 +81,8 @@ constants
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -102,7 +102,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -169,7 +169,7 @@ census
 "
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -269,7 +269,7 @@ errorHeapWorker
 )
 )
 ;
-await
+yield
 deleteEvents
 ;
 ok
@@ -309,7 +309,7 @@ destroy
 (
 )
 ;
-await
+yield
 front
 .
 detach

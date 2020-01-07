@@ -182,8 +182,8 @@ div
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -192,7 +192,7 @@ let
 doc
 ]
 =
-await
+yield
 createHost
 (
 "
@@ -444,7 +444,7 @@ test
 "
 )
 ;
-await
+yield
 hideTooltip
 (
 tooltip

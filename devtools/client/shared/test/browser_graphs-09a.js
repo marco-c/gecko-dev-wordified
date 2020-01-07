@@ -383,12 +383,12 @@ LineGraphWidget
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -398,7 +398,7 @@ blank
 "
 )
 ;
-await
+yield
 performTest
 (
 )
@@ -412,8 +412,8 @@ removeCurrentTab
 }
 )
 ;
-async
 function
+*
 performTest
 (
 )
@@ -424,7 +424,7 @@ host
 doc
 ]
 =
-await
+yield
 createHost
 (
 )
@@ -447,13 +447,13 @@ fps
 }
 )
 ;
-await
+yield
 testGraph
 (
 graph
 )
 ;
-await
+yield
 graph
 .
 destroy
@@ -467,8 +467,8 @@ destroy
 )
 ;
 }
-async
 function
+*
 testGraph
 (
 graph
@@ -495,7 +495,7 @@ event
 "
 )
 ;
-await
+yield
 graph
 .
 setDataWhenReady

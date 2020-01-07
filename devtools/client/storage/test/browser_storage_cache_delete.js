@@ -100,12 +100,12 @@ context
 menu
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -189,7 +189,7 @@ delete
 "
 )
 ;
-await
+yield
 selectTreeItem
 (
 cacheToDelete
@@ -295,7 +295,7 @@ present
 "
 )
 ;
-await
+yield
 waitForContextMenu
 (
 contextMenu
@@ -360,7 +360,7 @@ cacheName
 }
 )
 ;
-await
+yield
 eventWait
 ;
 info
@@ -373,7 +373,7 @@ delete
 "
 )
 ;
-await
+yield
 selectTreeItem
 (
 cacheToDelete
@@ -403,7 +403,7 @@ tree
 "
 )
 ;
-await
+yield
 finishTests
 (
 )

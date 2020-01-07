@@ -172,8 +172,8 @@ view
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -193,7 +193,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -225,7 +225,7 @@ CENSUS
 )
 )
 ;
-await
+yield
 dispatch
 (
 setCensusDisplayAndRefresh
@@ -274,7 +274,7 @@ default
 const
 s1
 =
-await
+yield
 dispatch
 (
 takeSnapshot
@@ -287,7 +287,7 @@ heapWorker
 const
 s2
 =
-await
+yield
 dispatch
 (
 takeSnapshot
@@ -300,7 +300,7 @@ heapWorker
 const
 s3
 =
-await
+yield
 dispatch
 (
 takeSnapshot
@@ -337,7 +337,7 @@ s3
 )
 )
 ;
-await
+yield
 waitUntilSnapshotState
 (
 store
@@ -354,7 +354,7 @@ READ
 ]
 )
 ;
-await
+yield
 dispatch
 (
 toggleDiffing
@@ -394,7 +394,7 @@ snapshots
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -521,7 +521,7 @@ func
 (
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -552,7 +552,7 @@ recompute
 "
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -724,7 +724,7 @@ destroy
 (
 )
 ;
-await
+yield
 front
 .
 detach

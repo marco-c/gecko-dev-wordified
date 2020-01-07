@@ -129,12 +129,12 @@ useXulWrapper
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -149,7 +149,7 @@ let
 doc
 ]
 =
-await
+yield
 createHost
 (
 "
@@ -178,7 +178,7 @@ useXulWrapper
 =
 false
 ;
-await
+yield
 runTests
 (
 doc
@@ -203,7 +203,7 @@ useXulWrapper
 =
 true
 ;
-await
+yield
 runTests
 (
 doc
@@ -212,8 +212,8 @@ doc
 }
 )
 ;
-async
 function
+*
 runTests
 (
 doc
@@ -324,7 +324,7 @@ width
 "
 )
 ;
-await
+yield
 showTooltip
 (
 tooltip
@@ -366,7 +366,7 @@ width
 "
 )
 ;
-await
+yield
 hideTooltip
 (
 tooltip

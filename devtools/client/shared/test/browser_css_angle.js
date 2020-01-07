@@ -66,12 +66,12 @@ angle
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -86,7 +86,7 @@ let
 host
 ]
 =
-await
+yield
 createHost
 (
 "

@@ -157,8 +157,8 @@ view
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -178,7 +178,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -210,7 +210,7 @@ CENSUS
 )
 )
 ;
-await
+yield
 dispatch
 (
 setCensusDisplayAndRefresh
@@ -231,7 +231,7 @@ heapWorker
 )
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -398,7 +398,7 @@ invertedAllocationStack
 )
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -415,7 +415,7 @@ SAVING
 ]
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store

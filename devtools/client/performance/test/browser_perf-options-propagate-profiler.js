@@ -151,8 +151,8 @@ actions
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -162,7 +162,7 @@ panel
 toolbox
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -195,7 +195,7 @@ PROFILER_SAMPLE_RATE_PREF
 2
 )
 ;
-await
+yield
 startRecording
 (
 panel
@@ -207,7 +207,7 @@ entries
 interval
 }
 =
-await
+yield
 toolbox
 .
 performance
@@ -216,7 +216,7 @@ getConfiguration
 (
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -254,7 +254,7 @@ profiler
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

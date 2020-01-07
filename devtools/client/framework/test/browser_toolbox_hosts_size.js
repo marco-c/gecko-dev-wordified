@@ -135,8 +135,8 @@ toolbox
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -208,7 +208,7 @@ width
 let
 tab
 =
-await
+yield
 addTab
 (
 URL
@@ -238,7 +238,7 @@ nbox
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -336,7 +336,7 @@ space
 "
 )
 ;
-await
+yield
 toolbox
 .
 switchHost
@@ -407,7 +407,7 @@ space
 "
 )
 ;
-await
+yield
 cleanup
 (
 toolbox
@@ -418,8 +418,8 @@ toolbox
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -485,7 +485,7 @@ width
 let
 tab
 =
-await
+yield
 addTab
 (
 URL
@@ -515,7 +515,7 @@ nbox
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -609,7 +609,7 @@ properly
 "
 )
 ;
-await
+yield
 toolbox
 .
 switchHost
@@ -676,7 +676,7 @@ properly
 "
 )
 ;
-await
+yield
 cleanup
 (
 toolbox
@@ -685,8 +685,8 @@ toolbox
 }
 )
 ;
-async
 function
+*
 cleanup
 (
 toolbox
@@ -741,7 +741,7 @@ width
 "
 )
 ;
-await
+yield
 toolbox
 .
 destroy

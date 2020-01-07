@@ -197,8 +197,8 @@ null
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -207,7 +207,7 @@ let
 doc
 ]
 =
-await
+yield
 createHost
 (
 "

@@ -368,8 +368,14 @@ source
 .
 *
 /
-async
 _buildPropertiesView
+:
+Task
+.
+async
+(
+function
+*
 (
 )
 {
@@ -408,7 +414,7 @@ AudioParams
 let
 props
 =
-await
+yield
 node
 .
 getParams
@@ -525,6 +531,7 @@ id
 )
 ;
 }
+)
 /
 *
 *
@@ -714,8 +721,14 @@ UI
 .
 *
 /
-async
 _onEval
+:
+Task
+.
+async
+(
+function
+*
 (
 variable
 value
@@ -822,7 +835,7 @@ value
 }
 error
 =
-await
+yield
 node
 .
 actor
@@ -926,5 +939,6 @@ value
 ;
 }
 }
+)
 }
 ;

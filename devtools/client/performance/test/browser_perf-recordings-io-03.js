@@ -123,8 +123,12 @@ jsm
 var
 test
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -135,7 +139,7 @@ panel
 toolbox
 }
 =
-await
+yield
 initPerformance
 (
 SIMPLE_URL
@@ -188,7 +192,7 @@ parseInt
 )
 )
 ;
-await
+yield
 asyncCopy
 (
 {
@@ -203,7 +207,7 @@ file
 ;
 try
 {
-await
+yield
 PerformanceController
 .
 importRecording
@@ -264,7 +268,7 @@ cancelled
 )
 ;
 }
-await
+yield
 teardown
 (
 panel
@@ -275,6 +279,7 @@ finish
 )
 ;
 }
+)
 ;
 function
 getUnicodeConverter

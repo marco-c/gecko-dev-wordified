@@ -129,8 +129,8 @@ actions
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -139,7 +139,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -271,7 +271,7 @@ load
 "
 )
 ;
-await
+yield
 startRecording
 (
 panel
@@ -326,7 +326,7 @@ panel
 "
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -381,7 +381,7 @@ graphs
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

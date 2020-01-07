@@ -51,8 +51,8 @@ context
 .
 *
 /
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -63,7 +63,7 @@ target
 front
 }
 =
-await
+yield
 initCanvasDebuggerBackend
 (
 SIMPLE_CANVAS_URL
@@ -80,7 +80,7 @@ navigate
 "
 )
 ;
-await
+yield
 front
 .
 setup
@@ -106,7 +106,7 @@ successfully
 "
 )
 ;
-await
+yield
 navigated
 ;
 ok
@@ -129,7 +129,7 @@ up
 let
 snapshotActor
 =
-await
+yield
 front
 .
 recordAnimationFrame
@@ -154,7 +154,7 @@ recording
 let
 animationOverview
 =
-await
+yield
 snapshotActor
 .
 getOverview
@@ -678,7 +678,7 @@ correct
 "
 )
 ;
-await
+yield
 removeTab
 (
 target

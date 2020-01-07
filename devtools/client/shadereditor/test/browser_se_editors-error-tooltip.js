@@ -56,8 +56,8 @@ error
 .
 *
 /
-async
 function
+*
 ifWebGLSupported
 (
 )
@@ -68,7 +68,7 @@ target
 panel
 }
 =
-await
+yield
 initShaderEditor
 (
 SIMPLE_CANVAS_URL
@@ -90,7 +90,7 @@ reload
 target
 )
 ;
-await
+yield
 promise
 .
 all
@@ -120,7 +120,7 @@ SOURCES_SHOWN
 let
 vsEditor
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -133,7 +133,7 @@ vs
 let
 fsEditor
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -168,7 +168,7 @@ ch
 }
 )
 ;
-await
+yield
 once
 (
 panel
@@ -550,7 +550,7 @@ text
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

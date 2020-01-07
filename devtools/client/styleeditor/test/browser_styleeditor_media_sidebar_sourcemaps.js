@@ -133,8 +133,8 @@ waitForExplicitFinish
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -153,7 +153,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -192,7 +192,7 @@ editors
 0
 ]
 ;
-await
+yield
 openEditor
 (
 mediaEditor

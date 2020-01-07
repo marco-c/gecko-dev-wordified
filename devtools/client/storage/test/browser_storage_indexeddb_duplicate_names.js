@@ -85,8 +85,8 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -115,13 +115,13 @@ indexedDB
 "
 )
 ;
-await
+yield
 openTabAndSetupStorage
 (
 TESTPAGE
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -184,7 +184,7 @@ persistent
 ]
 )
 ;
-await
+yield
 finishTests
 (
 )

@@ -102,15 +102,15 @@ jsm
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
 let
 generatedStubs
 =
-await
+yield
 generateEvaluationResultStubs
 (
 )
@@ -135,7 +135,7 @@ js
 let
 repoStubFileContent
 =
-await
+yield
 OS
 .
 File

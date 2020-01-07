@@ -694,8 +694,8 @@ gBrowser
 selectedBrowser
 {
 }
-async
 function
+*
 (
 )
 {

@@ -205,8 +205,8 @@ n
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -215,7 +215,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 DOCUMENT
@@ -247,7 +247,7 @@ editors
 0
 ]
 ;
-await
+yield
 editor
 .
 getSourceEditor

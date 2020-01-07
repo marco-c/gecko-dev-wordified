@@ -142,8 +142,8 @@ exports
 .
 initPanelInNewTab
 =
-async
 function
+*
 (
 {
 tool
@@ -159,7 +159,7 @@ options
 let
 tab
 =
-await
+yield
 addTab
 (
 {
@@ -170,6 +170,8 @@ options
 )
 ;
 return
+(
+yield
 exports
 .
 initPanelInTab
@@ -178,6 +180,7 @@ initPanelInTab
 tool
 tab
 }
+)
 )
 ;
 }
@@ -201,8 +204,8 @@ exports
 .
 initPanelInTab
 =
-async
 function
+*
 (
 {
 tool
@@ -233,7 +236,7 @@ forTab
 tab
 )
 ;
-await
+yield
 target
 .
 makeRemote
@@ -279,7 +282,7 @@ methods
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -288,7 +291,7 @@ target
 tool
 )
 ;
-await
+yield
 toolbox
 .
 initPerformance
@@ -332,8 +335,8 @@ exports
 .
 initPerformanceInNewTab
 =
-async
 function
+*
 (
 {
 url
@@ -348,7 +351,7 @@ options
 let
 tab
 =
-await
+yield
 addTab
 (
 {
@@ -359,6 +362,8 @@ options
 )
 ;
 return
+(
+yield
 exports
 .
 initPerformanceInTab
@@ -366,6 +371,7 @@ initPerformanceInTab
 {
 tab
 }
+)
 )
 ;
 }
@@ -389,8 +395,8 @@ exports
 .
 initPerformanceInTab
 =
-async
 function
+*
 (
 {
 tab
@@ -398,6 +404,8 @@ tab
 )
 {
 return
+(
+yield
 exports
 .
 initPanelInTab
@@ -412,6 +420,7 @@ tab
 :
 tab
 }
+)
 )
 ;
 }
@@ -448,8 +457,8 @@ exports
 .
 initConsoleInNewTab
 =
-async
 function
+*
 (
 {
 url
@@ -464,7 +473,7 @@ options
 let
 tab
 =
-await
+yield
 addTab
 (
 {
@@ -475,6 +484,8 @@ options
 )
 ;
 return
+(
+yield
 exports
 .
 initConsoleInTab
@@ -482,6 +493,7 @@ initConsoleInTab
 {
 tab
 }
+)
 )
 ;
 }
@@ -518,8 +530,8 @@ exports
 .
 initConsoleInTab
 =
-async
 function
+*
 (
 {
 tab
@@ -533,7 +545,7 @@ toolbox
 panel
 }
 =
-await
+yield
 exports
 .
 initPanelInTab
@@ -553,8 +565,8 @@ tab
 let
 consoleMethod
 =
-async
 function
+*
 (
 method
 label
@@ -581,7 +593,7 @@ label
 undefined
 )
 {
-await
+yield
 panel
 .
 hud
@@ -602,7 +614,7 @@ method
 }
 else
 {
-await
+yield
 panel
 .
 hud
@@ -626,7 +638,7 @@ label
 )
 ;
 }
-await
+yield
 recordingEventReceived
 ;
 }
@@ -634,13 +646,14 @@ recordingEventReceived
 let
 profile
 =
-async
 function
+*
 (
 label
 )
 {
 return
+yield
 consoleMethod
 (
 "
@@ -659,13 +672,14 @@ started
 let
 profileEnd
 =
-async
 function
+*
 (
 label
 )
 {
 return
+yield
 consoleMethod
 (
 "
@@ -717,8 +731,8 @@ exports
 .
 teardownToolboxAndRemoveTab
 =
-async
 function
+*
 (
 panel
 options
@@ -744,7 +758,7 @@ target
 .
 tab
 ;
-await
+yield
 panel
 .
 toolbox
@@ -753,7 +767,7 @@ destroy
 (
 )
 ;
-await
+yield
 removeTab
 (
 tab

@@ -171,8 +171,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -181,7 +181,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -217,13 +217,13 @@ UI_FLATTEN_RECURSION_PREF
 true
 )
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -240,7 +240,7 @@ EVENTS
 UI_JS_FLAMEGRAPH_RENDERED
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -252,7 +252,7 @@ flamegraph
 "
 )
 ;
-await
+yield
 rendered
 ;
 let
@@ -333,7 +333,7 @@ UI_FLATTEN_RECURSION_PREF
 false
 )
 ;
-await
+yield
 rendered
 ;
 ok
@@ -448,7 +448,7 @@ UI_FLATTEN_RECURSION_PREF
 true
 )
 ;
-await
+yield
 rendered
 ;
 ok
@@ -544,7 +544,7 @@ used
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

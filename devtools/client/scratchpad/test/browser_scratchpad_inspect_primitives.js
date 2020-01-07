@@ -45,6 +45,22 @@ an
 inline
 comment
 .
+var
+{
+Task
+}
+=
+require
+(
+"
+devtools
+/
+shared
+/
+task
+"
+)
+;
 function
 test
 (
@@ -88,8 +104,8 @@ error
 )
 ;
 }
-async
 function
+*
 runTests
 (
 [
@@ -104,7 +120,7 @@ Inspect
 a
 number
 .
-await
+yield
 checkResults
 (
 sp
@@ -117,7 +133,7 @@ Inspect
 a
 string
 .
-await
+yield
 checkResults
 (
 sp
@@ -133,7 +149,7 @@ Inspect
 a
 boolean
 .
-await
+yield
 checkResults
 (
 sp
@@ -154,8 +170,12 @@ testing
 var
 checkResults
 =
+Task
+.
 async
+(
 function
+*
 (
 sp
 value
@@ -210,7 +230,7 @@ setText
 source
 )
 ;
-await
+yield
 sp
 .
 inspect
@@ -368,4 +388,5 @@ hidden
 )
 ;
 }
+)
 ;

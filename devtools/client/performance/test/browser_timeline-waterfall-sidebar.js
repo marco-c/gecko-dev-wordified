@@ -53,8 +53,8 @@ selected
 .
 *
 /
-async
 function
+*
 spawnTest
 (
 )
@@ -65,7 +65,7 @@ target
 panel
 }
 =
-await
+yield
 initPerformance
 (
 SIMPLE_URL
@@ -196,7 +196,7 @@ markers
 ;
 }
 ;
-await
+yield
 startRecording
 (
 panel
@@ -213,7 +213,7 @@ started
 "
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -301,7 +301,7 @@ Paint
 }
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -810,7 +810,7 @@ time
 )
 ;
 }
-await
+yield
 teardown
 (
 panel

@@ -112,12 +112,12 @@ Baz
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -127,7 +127,7 @@ blank
 "
 )
 ;
-await
+yield
 performTest
 (
 )
@@ -141,8 +141,8 @@ removeCurrentTab
 }
 )
 ;
-async
 function
+*
 performTest
 (
 )
@@ -153,7 +153,7 @@ host
 doc
 ]
 =
-await
+yield
 createHost
 (
 )
@@ -213,7 +213,7 @@ fixedHeight
 =
 100
 ;
-await
+yield
 graph
 .
 once
@@ -223,13 +223,13 @@ ready
 "
 )
 ;
-await
+yield
 testGraph
 (
 graph
 )
 ;
-await
+yield
 graph
 .
 destroy
@@ -243,8 +243,8 @@ destroy
 )
 ;
 }
-async
 function
+*
 testGraph
 (
 graph
@@ -660,7 +660,7 @@ graph
 "
 )
 ;
-await
+yield
 testLegend
 (
 graph
@@ -823,7 +823,7 @@ bottom
 }
 )
 ;
-await
+yield
 testLegend
 (
 graph
@@ -978,7 +978,7 @@ bottom
 }
 )
 ;
-await
+yield
 testLegend
 (
 graph
@@ -1152,8 +1152,8 @@ len
 *
 /
 }
-async
 function
+*
 testLegend
 (
 graph
@@ -1264,7 +1264,7 @@ type
 rects
 ]
 =
-await
+yield
 debounced
 ;
 ok
@@ -1365,7 +1365,7 @@ anymore
 "
 )
 ;
-await
+yield
 unhovered
 ;
 ok
@@ -1461,7 +1461,7 @@ left
 right
 ]
 =
-await
+yield
 selected
 ;
 is

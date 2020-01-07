@@ -52,8 +52,8 @@ profiling
 .
 *
 /
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -88,7 +88,7 @@ target
 front
 }
 =
-await
+yield
 initCanvasDebuggerBackend
 (
 WEBGL_DRAW_ARRAYS
@@ -105,7 +105,7 @@ navigate
 "
 )
 ;
-await
+yield
 front
 .
 setup
@@ -131,7 +131,7 @@ successfully
 "
 )
 ;
-await
+yield
 navigated
 ;
 ok
@@ -154,7 +154,7 @@ up
 let
 snapshotActor
 =
-await
+yield
 front
 .
 recordAnimationFrame
@@ -179,7 +179,7 @@ recording
 let
 animationOverview
 =
-await
+yield
 snapshotActor
 .
 getOverview
@@ -324,7 +324,7 @@ correct
 "
 )
 ;
-await
+yield
 removeTab
 (
 target
@@ -351,7 +351,7 @@ target
 front
 }
 =
-await
+yield
 initCanvasDebuggerBackend
 (
 WEBGL_DRAW_ELEMENTS
@@ -367,7 +367,7 @@ navigate
 "
 )
 ;
-await
+yield
 front
 .
 setup
@@ -393,7 +393,7 @@ successfully
 "
 )
 ;
-await
+yield
 navigated
 ;
 ok
@@ -415,7 +415,7 @@ up
 ;
 snapshotActor
 =
-await
+yield
 front
 .
 recordAnimationFrame
@@ -439,7 +439,7 @@ recording
 ;
 animationOverview
 =
-await
+yield
 snapshotActor
 .
 getOverview
@@ -583,7 +583,7 @@ correct
 "
 )
 ;
-await
+yield
 removeTab
 (
 target

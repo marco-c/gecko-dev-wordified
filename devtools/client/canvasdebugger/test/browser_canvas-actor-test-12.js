@@ -52,8 +52,8 @@ found
 .
 *
 /
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -64,7 +64,7 @@ target
 front
 }
 =
-await
+yield
 initCanvasDebuggerBackend
 (
 NO_CANVAS_URL
@@ -85,7 +85,7 @@ navigate
 "
 )
 ;
-await
+yield
 front
 .
 setup
@@ -111,7 +111,7 @@ successfully
 "
 )
 ;
-await
+yield
 navigated
 ;
 ok
@@ -140,7 +140,7 @@ recordAnimationFrame
 (
 )
 ;
-await
+yield
 front
 .
 stopRecordingAnimationFrame
@@ -151,7 +151,7 @@ ok
 (
 !
 (
-await
+yield
 startRecording
 )
 "
@@ -169,7 +169,7 @@ cancelled
 "
 )
 ;
-await
+yield
 removeTab
 (
 target

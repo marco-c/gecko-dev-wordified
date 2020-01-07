@@ -262,8 +262,8 @@ LINE_TO_SELECT
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -272,7 +272,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 DOCUMENT_WITH_LONG_SHEET
@@ -373,7 +373,7 @@ longEditor
 ui
 )
 ;
-await
+yield
 ui
 .
 selectStyleSheet
@@ -384,7 +384,7 @@ styleSheet
 LINE_TO_SELECT
 )
 ;
-await
+yield
 selectEventPromise
 ;
 info
@@ -512,7 +512,7 @@ css
 "
 )
 ;
-await
+yield
 ui
 .
 selectStyleSheet
@@ -579,7 +579,7 @@ restored
 let
 summary
 =
-await
+yield
 ui
 .
 getEditorSummary
@@ -610,7 +610,7 @@ selected
 "
 )
 ;
-await
+yield
 selectEventPromise
 ;
 let
@@ -699,8 +699,12 @@ to
 var
 waitForEditorToBeSelected
 =
+Task
+.
 async
+(
 function
+*
 (
 editor
 ui
@@ -724,7 +728,7 @@ selected
 let
 selected
 =
-await
+yield
 ui
 .
 once
@@ -762,7 +766,7 @@ friendlyName
 ;
 selected
 =
-await
+yield
 ui
 .
 once
@@ -791,4 +795,5 @@ friendlyName
 )
 ;
 }
+)
 ;

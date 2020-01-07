@@ -113,8 +113,8 @@ test
 makeMemoryTest
 (
 TEST_URL
-async
 function
+*
 (
 {
 tab
@@ -145,7 +145,7 @@ MemoryFront
 const
 snapshotFilePath
 =
-await
+yield
 memoryFront
 .
 saveHeapSnapshot
@@ -188,7 +188,7 @@ ok
 !
 !
 (
-await
+yield
 OS
 .
 File

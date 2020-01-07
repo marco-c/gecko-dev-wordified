@@ -275,8 +275,12 @@ finish
 var
 startTests
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -284,7 +288,7 @@ populateTable
 (
 )
 ;
-await
+yield
 testKeyboardInteraction
 (
 )
@@ -294,6 +298,7 @@ endTests
 )
 ;
 }
+)
 ;
 function
 populateTable
@@ -702,8 +707,12 @@ behavior
 var
 testKeyboardInteraction
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -760,10 +769,10 @@ click
 node
 )
 ;
-await
+yield
 event
 ;
-await
+yield
 testRow
 (
 "
@@ -778,7 +787,7 @@ row
 "
 )
 ;
-await
+yield
 testRow
 (
 "
@@ -793,7 +802,7 @@ row
 "
 )
 ;
-await
+yield
 testRow
 (
 "
@@ -808,7 +817,7 @@ row
 "
 )
 ;
-await
+yield
 testRow
 (
 "
@@ -823,7 +832,7 @@ row
 "
 )
 ;
-await
+yield
 testRow
 (
 "
@@ -838,7 +847,7 @@ row
 "
 )
 ;
-await
+yield
 testRow
 (
 "
@@ -853,7 +862,7 @@ row
 "
 )
 ;
-await
+yield
 testRow
 (
 "
@@ -868,7 +877,7 @@ row
 "
 )
 ;
-await
+yield
 testRow
 (
 "
@@ -883,7 +892,7 @@ row
 "
 )
 ;
-await
+yield
 testRow
 (
 "
@@ -931,7 +940,7 @@ to
 first
 row
 .
-await
+yield
 testRow
 (
 "
@@ -957,7 +966,7 @@ to
 last
 row
 .
-await
+yield
 testRow
 (
 "
@@ -973,9 +982,10 @@ row
 )
 ;
 }
+)
 ;
-async
 function
+*
 testRow
 (
 id
@@ -1064,7 +1074,7 @@ defaultView
 let
 uniqueId
 =
-await
+yield
 event
 ;
 is

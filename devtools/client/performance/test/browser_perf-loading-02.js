@@ -205,8 +205,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -215,7 +215,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -288,7 +288,7 @@ pane
 "
 )
 ;
-await
+yield
 startRecording
 (
 panel
@@ -373,7 +373,7 @@ stopRecording
 panel
 )
 ;
-await
+yield
 recordingStopping
 ;
 is
@@ -398,7 +398,7 @@ stopping
 "
 )
 ;
-await
+yield
 recordingStopped
 ;
 is
@@ -422,10 +422,10 @@ stopped
 "
 )
 ;
-await
+yield
 everythingStopped
 ;
-await
+yield
 startRecording
 (
 panel
@@ -467,7 +467,7 @@ panel
 0
 )
 ;
-await
+yield
 recordingSelected
 ;
 recordingStopping
@@ -527,7 +527,7 @@ stopRecording
 panel
 )
 ;
-await
+yield
 recordingStopping
 ;
 is
@@ -572,7 +572,7 @@ selected
 "
 )
 ;
-await
+yield
 recordingStopped
 ;
 is
@@ -616,10 +616,10 @@ selected
 "
 )
 ;
-await
+yield
 everythingStopped
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

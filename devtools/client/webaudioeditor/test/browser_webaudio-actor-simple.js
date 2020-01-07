@@ -42,8 +42,8 @@ actor
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -53,7 +53,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 SIMPLE_CONTEXT_URL
@@ -74,7 +74,7 @@ connect2
 ]
 ]
 =
-await
+yield
 Promise
 .
 all
@@ -316,7 +316,7 @@ dest
 "
 )
 ;
-await
+yield
 removeTab
 (
 target

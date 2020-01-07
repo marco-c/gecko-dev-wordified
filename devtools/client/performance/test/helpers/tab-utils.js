@@ -389,8 +389,8 @@ exports
 .
 addWindow
 =
-async
 function
+*
 (
 options
 )
@@ -419,7 +419,7 @@ OpenBrowserWindow
 options
 )
 ;
-await
+yield
 waitForDelayedStartupFinished
 (
 win

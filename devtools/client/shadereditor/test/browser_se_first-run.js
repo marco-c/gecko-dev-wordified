@@ -45,8 +45,8 @@ opened
 .
 *
 /
-async
 function
+*
 ifWebGLSupported
 (
 )
@@ -57,7 +57,7 @@ target
 panel
 }
 =
-await
+yield
 initShaderEditor
 (
 SIMPLE_CANVAS_URL
@@ -188,7 +188,7 @@ reload
 target
 )
 ;
-await
+yield
 navigating
 ;
 is
@@ -278,7 +278,7 @@ hidden
 "
 )
 ;
-await
+yield
 linked
 ;
 is
@@ -369,7 +369,7 @@ anymore
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

@@ -151,8 +151,8 @@ toolbox
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -274,7 +274,7 @@ I
 "
 )
 ;
-await
+yield
 testToggle
 (
 "
@@ -330,7 +330,7 @@ F12
 "
 )
 ;
-await
+yield
 testToggle
 (
 "
@@ -343,8 +343,8 @@ VK_F12
 }
 )
 ;
-async
 function
+*
 testToggle
 (
 key
@@ -354,7 +354,7 @@ modifiers
 let
 tab
 =
-await
+yield
 addTab
 (
 URL
@@ -373,7 +373,7 @@ key
 "
 )
 ;
-await
+yield
 gDevTools
 .
 showToolbox
@@ -386,7 +386,7 @@ tab
 )
 )
 ;
-await
+yield
 testToggleDockedToolbox
 (
 tab
@@ -394,7 +394,7 @@ key
 modifiers
 )
 ;
-await
+yield
 testToggleDetachedToolbox
 (
 tab
@@ -402,14 +402,14 @@ key
 modifiers
 )
 ;
-await
+yield
 cleanup
 (
 )
 ;
 }
-async
 function
+*
 testToggleDockedToolbox
 (
 tab
@@ -482,7 +482,7 @@ key
 modifiers
 )
 ;
-await
+yield
 onToolboxDestroyed
 ;
 ok
@@ -537,7 +537,7 @@ key
 modifiers
 )
 ;
-await
+yield
 onToolboxReady
 ;
 ok
@@ -556,8 +556,8 @@ key
 )
 ;
 }
-async
 function
+*
 testToggleDetachedToolbox
 (
 tab
@@ -585,7 +585,7 @@ WINDOW
 "
 )
 ;
-await
+yield
 toolbox
 .
 switchHost
@@ -629,7 +629,7 @@ window
 "
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -679,7 +679,7 @@ focus
 (
 )
 ;
-await
+yield
 onMainWindowFocus
 ;
 ok
@@ -746,7 +746,7 @@ key
 modifiers
 )
 ;
-await
+yield
 onToolboxWindowFocus
 ;
 ok
@@ -805,7 +805,7 @@ modifiers
 toolboxWindow
 )
 ;
-await
+yield
 onToolboxDestroyed
 ;
 ok
@@ -839,6 +839,7 @@ tab
 ;
 }
 function
+*
 cleanup
 (
 )

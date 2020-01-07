@@ -70,12 +70,12 @@ in
 CacheStorage
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -107,7 +107,7 @@ frameContent
 "
 ]
 ;
-await
+yield
 selectTreeItem
 (
 cacheItemId
@@ -142,7 +142,7 @@ the
 tree
 )
 ;
-await
+yield
 finishTests
 (
 )

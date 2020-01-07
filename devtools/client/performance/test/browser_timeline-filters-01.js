@@ -52,8 +52,8 @@ EPSILON
 .
 00000001
 ;
-async
 function
+*
 spawnTest
 (
 )
@@ -63,7 +63,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformance
 (
 SIMPLE_URL
@@ -114,7 +114,7 @@ TimelineGraph
 .
 prototype
 ;
-await
+yield
 startRecording
 (
 panel
@@ -131,7 +131,7 @@ started
 "
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -219,7 +219,7 @@ Paint
 }
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -481,7 +481,7 @@ overview
 .
 fixedHeight
 ;
-await
+yield
 waterfallRendered
 ;
 ok
@@ -636,7 +636,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitForOverviewAndCommand
 (
 overview
@@ -808,7 +808,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitForOverviewAndCommand
 (
 overview
@@ -978,7 +978,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitForOverviewAndCommand
 (
 overview
@@ -1139,7 +1139,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitForOverviewAndCommand
 (
 overview
@@ -1295,7 +1295,7 @@ panel
 panelWin
 )
 ;
-await
+yield
 waitForOverviewAndCommand
 (
 overview
@@ -1441,7 +1441,7 @@ restored
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

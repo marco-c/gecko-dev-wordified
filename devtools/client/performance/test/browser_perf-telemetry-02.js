@@ -152,8 +152,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -162,7 +162,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -215,13 +215,13 @@ IMPORTED
 DEVTOOLS_PERFTOOLS_RECORDING_IMPORT_FLAG
 "
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -275,7 +275,7 @@ EVENTS
 RECORDING_EXPORTED
 )
 ;
-await
+yield
 PerformanceController
 .
 exportRecording
@@ -290,7 +290,7 @@ getCurrentRecording
 file
 )
 ;
-await
+yield
 exported
 ;
 ok
@@ -323,7 +323,7 @@ EVENTS
 RECORDING_IMPORTED
 )
 ;
-await
+yield
 PerformanceController
 .
 importRecording
@@ -332,7 +332,7 @@ null
 file
 )
 ;
-await
+yield
 imported
 ;
 ok
@@ -354,7 +354,7 @@ importing
 .
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

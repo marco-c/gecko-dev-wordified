@@ -109,15 +109,15 @@ webaudio
 "
 )
 ;
-async
 function
+*
 testTarget
 (
 client
 target
 )
 {
-await
+yield
 target
 .
 makeRemote
@@ -229,7 +229,7 @@ form
 let
 desc
 =
-await
+yield
 target
 .
 getActorDescription
@@ -299,7 +299,7 @@ actor
 ;
 desc
 =
-await
+yield
 target
 .
 getActorDescription
@@ -331,7 +331,7 @@ actor
 ;
 desc
 =
-await
+yield
 target
 .
 getActorDescription
@@ -359,7 +359,7 @@ actor
 let
 hasMethod
 =
-await
+yield
 target
 .
 actorHasMethod
@@ -394,7 +394,7 @@ method
 ;
 hasMethod
 =
-await
+yield
 target
 .
 actorHasMethod
@@ -430,7 +430,7 @@ method
 ;
 hasMethod
 =
-await
+yield
 target
 .
 actorHasMethod
@@ -468,7 +468,7 @@ method
 ;
 hasMethod
 =
-await
+yield
 target
 .
 actorHasMethod

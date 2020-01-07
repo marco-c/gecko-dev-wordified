@@ -1203,8 +1203,8 @@ tree
 item
 *
 /
-async
 function
+*
 testTables
 (
 tests
@@ -1342,7 +1342,7 @@ slice
 )
 )
 {
-await
+yield
 selectTreeItem
 (
 treeItem
@@ -1472,8 +1472,8 @@ present
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -1495,7 +1495,7 @@ storages
 let
 tabDefault
 =
-await
+yield
 openTab
 (
 MAIN_DOMAIN
@@ -1547,7 +1547,7 @@ one
 or
 not
 .
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -1637,7 +1637,7 @@ treeItemName
 }
 )
 ;
-await
+yield
 selectTreeItem
 (
 treeItem
@@ -1690,11 +1690,11 @@ store
 -
 objects
 -
-edit
+updated
 "
 )
 ;
-await
+yield
 waitForContextMenu
 (
 contextMenu
@@ -1786,7 +1786,7 @@ truncated
 }
 )
 ;
-await
+yield
 eventWait
 ;
 ok
@@ -1834,7 +1834,7 @@ intact
 or
 not
 .
-await
+yield
 BrowserTestUtils
 .
 switchTab
@@ -1843,7 +1843,7 @@ gBrowser
 tabDefault
 )
 ;
-await
+yield
 openStoragePanel
 (
 )
@@ -1853,13 +1853,13 @@ testTree
 storageItemsForDefault
 )
 ;
-await
+yield
 testTables
 (
 storageItemsForDefault
 )
 ;
-await
+yield
 finishTests
 (
 )

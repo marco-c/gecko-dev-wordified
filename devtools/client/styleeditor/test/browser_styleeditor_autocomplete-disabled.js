@@ -101,8 +101,8 @@ enabled
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -121,7 +121,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -130,7 +130,7 @@ TESTCASE_URI
 let
 editor
 =
-await
+yield
 ui
 .
 editors

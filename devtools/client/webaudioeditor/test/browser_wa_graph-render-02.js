@@ -43,8 +43,8 @@ graphs
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -54,7 +54,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 COMPLEX_CONTEXT_URL
@@ -124,7 +124,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -357,7 +357,7 @@ msg
 }
 )
 ;
-await
+yield
 teardown
 (
 target

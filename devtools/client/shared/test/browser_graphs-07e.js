@@ -386,12 +386,12 @@ CURRENT_ZOOM
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -401,7 +401,7 @@ blank
 "
 )
 ;
-await
+yield
 performTest
 (
 )
@@ -415,8 +415,8 @@ removeCurrentTab
 }
 )
 ;
-async
 function
+*
 performTest
 (
 )
@@ -427,7 +427,7 @@ host
 doc
 ]
 =
-await
+yield
 createHost
 (
 )
@@ -446,7 +446,7 @@ fps
 "
 )
 ;
-await
+yield
 graph
 .
 once
@@ -528,7 +528,7 @@ testGraph
 graph
 )
 ;
-await
+yield
 graph
 .
 destroy

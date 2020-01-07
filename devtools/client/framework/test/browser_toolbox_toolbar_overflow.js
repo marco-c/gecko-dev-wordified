@@ -139,15 +139,15 @@ toolbox
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
 let
 tab
 =
-await
+yield
 addTab
 (
 "
@@ -175,7 +175,7 @@ window
 let
 toolbox
 =
-await
+yield
 openToolboxForTab
 (
 tab
@@ -249,7 +249,7 @@ resizeTo
 300
 )
 ;
-await
+yield
 onResize
 ;
 let
@@ -321,7 +321,7 @@ resizeTo
 300
 )
 ;
-await
+yield
 onResize
 ;
 info
@@ -338,7 +338,7 @@ available
 "
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -417,7 +417,7 @@ checked
 let
 menuPopup
 =
-await
+yield
 openAllToolsMenu
 (
 toolbox
@@ -567,7 +567,7 @@ click
 (
 )
 ;
-await
+yield
 onSelected
 ;
 info
@@ -601,7 +601,7 @@ hidePopup
 (
 )
 ;
-await
+yield
 onPopupHidden
 ;
 info
@@ -629,7 +629,7 @@ checked
 ;
 menuPopup
 =
-await
+yield
 openAllToolsMenu
 (
 toolbox
@@ -737,8 +737,8 @@ originalHeight
 }
 )
 ;
-async
 function
+*
 openAllToolsMenu
 (
 toolbox
@@ -822,7 +822,7 @@ displayed
 "
 )
 ;
-await
+yield
 waitUntil
 (
 (

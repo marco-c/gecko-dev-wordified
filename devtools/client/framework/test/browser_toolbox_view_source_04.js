@@ -97,8 +97,8 @@ doc_viewsource
 .
 html
 ;
-async
 function
+*
 viewSource
 (
 )
@@ -106,7 +106,7 @@ viewSource
 let
 toolbox
 =
-await
+yield
 openNewTabAndToolbox
 (
 URL
@@ -115,7 +115,7 @@ URL
 let
 win
 =
-await
+yield
 openScratchpadWindow
 (
 )
@@ -184,7 +184,7 @@ another
 tool
 for
 focus
-await
+yield
 toolbox
 .
 selectTool
@@ -194,7 +194,7 @@ webconsole
 "
 )
 ;
-await
+yield
 toolbox
 .
 viewSourceInScratchpad
@@ -236,7 +236,7 @@ close
 (
 )
 ;
-await
+yield
 closeToolboxAndTab
 (
 toolbox
@@ -252,8 +252,11 @@ test
 (
 )
 {
-viewSource
+Task
+.
+spawn
 (
+viewSource
 )
 .
 then

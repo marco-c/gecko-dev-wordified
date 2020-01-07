@@ -30,12 +30,12 @@ ITEMS_PER_PAGE
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -57,7 +57,7 @@ expandAll
 (
 )
 ;
-await
+yield
 selectTreeItem
 (
 [
@@ -83,7 +83,7 @@ checkCellLength
 ITEMS_PER_PAGE
 )
 ;
-await
+yield
 scroll
 (
 )
@@ -95,7 +95,7 @@ ITEMS_PER_PAGE
 2
 )
 ;
-await
+yield
 scroll
 (
 )
@@ -167,7 +167,7 @@ DEC
 "
 )
 ;
-await
+yield
 finishTests
 (
 )
@@ -314,8 +314,8 @@ order
 )
 ;
 }
-async
 function
+*
 scroll
 (
 )
@@ -404,7 +404,7 @@ cellHeight
 *
 50
 ;
-await
+yield
 onStoresUpdate
 ;
 }
