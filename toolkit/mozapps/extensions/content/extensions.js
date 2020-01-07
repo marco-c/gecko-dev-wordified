@@ -12795,7 +12795,7 @@ this
 .
 _browser
 .
-loadURIWithFlags
+loadURI
 (
 aURL
 {

@@ -98,7 +98,7 @@ gBrowser
 .
 selectedBrowser
 .
-loadURIWithFlags
+loadURI
 (
 "
 about

@@ -1678,7 +1678,7 @@ Blur
 ;
 browser
 .
-loadURIWithFlags
+loadURI
 (
 submission
 .
@@ -1686,13 +1686,6 @@ uri
 .
 spec
 {
-flags
-:
-Ci
-.
-nsIWebNavigation
-.
-LOAD_FLAGS_NONE
 postData
 :
 submission
