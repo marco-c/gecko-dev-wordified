@@ -8035,7 +8035,7 @@ column
 ;
 tokenStream_
 .
-lineNumAndColumnIndex
+lineAndColumnAt
 (
 spec
 -
@@ -8963,7 +8963,7 @@ node
 )
 tokenStream_
 .
-lineNumAndColumnIndex
+lineAndColumnAt
 (
 node
 -
@@ -9040,7 +9040,7 @@ column
 ;
 tokenStream_
 .
-lineNumAndColumnIndex
+lineAndColumnAt
 (
 node
 -
@@ -9125,7 +9125,7 @@ column
 ;
 tokenStream_
 .
-lineNumAndColumnIndex
+lineAndColumnAt
 (
 node
 -
