@@ -255,6 +255,11 @@ mPrintProgressParams
 bool
 mActive
 ;
+bool
+mDialogOpenedSent
+=
+false
+;
 }
 ;
 }
