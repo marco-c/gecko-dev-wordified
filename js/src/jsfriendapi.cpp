@@ -6502,7 +6502,7 @@ functionDisplayAtom
 =
 iter
 .
-functionDisplayAtom
+maybeFunctionDisplayAtom
 (
 )
 )
