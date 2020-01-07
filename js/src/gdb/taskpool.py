@@ -498,54 +498,13 @@ self
 .
 next_pending
 =
-self
-.
-get_next_pending
-(
-)
-    
-#
-Set
-self
-.
-next_pending
-to
-the
 next
-task
-that
-has
-not
-yet
-been
-executed
-.
-    
-def
-get_next_pending
 (
-self
-)
-:
-        
-try
-:
-            
-return
 self
 .
 pending
-.
-next
-(
-)
-        
-except
-StopIteration
-:
-            
-return
 None
+)
     
 def
 run_all
@@ -759,10 +718,12 @@ self
 .
 next_pending
 =
+next
+(
 self
 .
-get_next_pending
-(
+pending
+None
 )
                 
 #
@@ -1015,11 +976,10 @@ read
 )
                         
 if
+len
+(
 output
-!
-=
-"
-"
+)
 :
                             
 try
@@ -1030,6 +990,15 @@ t
 onStdout
 (
 output
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 )
                             
 except
@@ -1067,11 +1036,10 @@ read
 )
                         
 if
+len
+(
 output
-!
-=
-"
-"
+)
 :
                             
 try
@@ -1082,6 +1050,15 @@ t
 onStderr
 (
 output
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 )
                             
 except
@@ -1614,6 +1591,7 @@ text
 :
                 
 print
+(
 '
 %
 d
@@ -1629,6 +1607,7 @@ self
 n
 text
 )
+)
             
 def
 onStderr
@@ -1639,6 +1618,7 @@ text
 :
                 
 print
+(
 '
 %
 d
@@ -1654,6 +1634,7 @@ self
 n
 text
 )
+)
             
 def
 onFinished
@@ -1664,6 +1645,7 @@ returncode
 :
                 
 print
+(
 '
 %
 d
@@ -1680,6 +1662,7 @@ self
 .
 n
 returncode
+)
 )
                 
 sorted
@@ -1699,6 +1682,7 @@ self
 :
                 
 print
+(
 '
 %
 d
@@ -1710,6 +1694,7 @@ out
 self
 .
 n
+)
 )
         
 p
@@ -1747,6 +1732,7 @@ return
 sorted
     
 print
+(
 repr
 (
 sleep_sort
@@ -1763,5 +1749,6 @@ sleep_sort
 34
 ]
 15
+)
 )
 )
