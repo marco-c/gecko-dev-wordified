@@ -786,6 +786,13 @@ sandboxName
 :
 script
 addonId
+wantGlobalProperties
+:
+[
+"
+ChromeUtils
+"
+]
 metadata
 :
 {
@@ -7936,6 +7943,13 @@ getSystemPrincipal
 wantXrays
 :
 false
+wantGlobalProperties
+:
+[
+"
+ChromeUtils
+"
+]
 sandboxName
 :
 Namespace
@@ -7977,7 +7991,6 @@ assign
 global
 {
 Cc
-ChromeUtils
 ChromeWorker
 Ci
 Cr
