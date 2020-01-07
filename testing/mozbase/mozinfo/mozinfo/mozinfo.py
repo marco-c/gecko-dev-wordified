@@ -133,6 +133,10 @@ ctypes
 util
 import
 find_library
+from
+six
+import
+string_types
 #
 keep
 a
@@ -1549,7 +1553,7 @@ if
 isinstance
 (
 new_info
-basestring
+string_types
 )
 :
         
@@ -1955,10 +1959,13 @@ update
 exports
 __all__
 =
+list
+(
 info
 .
 keys
 (
+)
 )
 __all__
 +
@@ -2141,7 +2148,7 @@ arg
                 
 string
 =
-file
+open
 (
 arg
 )
