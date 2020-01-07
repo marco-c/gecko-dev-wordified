@@ -337,7 +337,7 @@ void
 nsCSSPseudoElements
 :
 :
-AddRefAtoms
+RegisterStaticAtoms
 (
 )
 {

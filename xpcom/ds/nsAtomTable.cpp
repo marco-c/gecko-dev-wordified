@@ -4671,7 +4671,7 @@ static
 nsGkAtoms
 :
 :
-AddRefAtoms
+RegisterStaticAtoms
 (
 )
 ;
