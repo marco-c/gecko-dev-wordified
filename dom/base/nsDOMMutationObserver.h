@@ -2002,9 +2002,6 @@ virtual
 void
 AttributeSetToCurrentValue
 (
-nsIDocument
-*
-aDocument
 mozilla
 :
 :
@@ -2032,7 +2029,6 @@ implementation
 .
 AttributeWillChange
 (
-aDocument
 aElement
 aNameSpaceID
 aAttribute

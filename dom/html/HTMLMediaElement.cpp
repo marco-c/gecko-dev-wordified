@@ -8721,12 +8721,6 @@ HTMLMediaElement
 :
 ContentRemoved
 (
-nsIDocument
-*
-aDocument
-nsIContent
-*
-aContainer
 nsIContent
 *
 aChild

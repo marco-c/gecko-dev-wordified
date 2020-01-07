@@ -1653,9 +1653,6 @@ nsDOMStringMap
 :
 AttributeChanged
 (
-nsIDocument
-*
-aDocument
 Element
 *
 aElement

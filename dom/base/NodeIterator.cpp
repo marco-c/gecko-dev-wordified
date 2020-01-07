@@ -979,12 +979,6 @@ NodeIterator
 :
 ContentRemoved
 (
-nsIDocument
-*
-aDocument
-nsIContent
-*
-aContainer
 nsIContent
 *
 aChild
@@ -997,10 +991,11 @@ nsINode
 *
 container
 =
-NODE_FROM
+aChild
+-
+>
+GetParentNode
 (
-aContainer
-aDocument
 )
 ;
 mPointer

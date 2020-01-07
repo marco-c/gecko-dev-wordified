@@ -475,9 +475,6 @@ ScriptElement
 :
 CharacterDataChanged
 (
-nsIDocument
-*
-aDocument
 nsIContent
 *
 aContent
@@ -497,9 +494,6 @@ ScriptElement
 :
 AttributeChanged
 (
-nsIDocument
-*
-aDocument
 Element
 *
 aElement
@@ -527,12 +521,6 @@ ScriptElement
 :
 ContentAppended
 (
-nsIDocument
-*
-aDocument
-nsIContent
-*
-aContainer
 nsIContent
 *
 aFirstNewContent
@@ -549,12 +537,6 @@ ScriptElement
 :
 ContentInserted
 (
-nsIDocument
-*
-aDocument
-nsIContent
-*
-aContainer
 nsIContent
 *
 aChild
