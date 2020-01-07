@@ -530,6 +530,7 @@ MInstruction
 *
 ins
 )
+const
 {
 MIRType
 specialization
@@ -930,6 +931,7 @@ MInstruction
 *
 def
 )
+const
 {
 MOZ_ASSERT
 (
@@ -2255,6 +2257,7 @@ MInstruction
 *
 def
 )
+const
 {
 MOZ_ASSERT
 (
@@ -2491,6 +2494,7 @@ MInstruction
 *
 def
 )
+const
 {
 MTypeBarrier
 *
@@ -2948,6 +2952,7 @@ MInstruction
 *
 ins
 )
+const
 {
 MDefinition
 *
@@ -3109,6 +3114,7 @@ MInstruction
 *
 ins
 )
+const
 {
 MIRType
 specialization
@@ -3313,6 +3319,7 @@ MInstruction
 *
 ins
 )
+const
 {
 MIRType
 specialization
@@ -4703,6 +4710,7 @@ MInstruction
 *
 def
 )
+const
 {
 MIRType
 policyType
@@ -4768,6 +4776,7 @@ MInstruction
 *
 def
 )
+const
 ;
 template
 <
@@ -4895,6 +4904,7 @@ MInstruction
 *
 def
 )
+const
 {
 for
 (
@@ -4947,6 +4957,7 @@ MInstruction
 *
 def
 )
+const
 ;
 template
 bool
@@ -4965,6 +4976,7 @@ MInstruction
 *
 def
 )
+const
 ;
 template
 bool
@@ -4983,6 +4995,7 @@ MInstruction
 *
 def
 )
+const
 ;
 template
 <
@@ -6615,6 +6628,7 @@ MInstruction
 *
 ins
 )
+const
 {
 for
 (
@@ -6688,6 +6702,7 @@ MInstruction
 *
 ins
 )
+const
 {
 MOZ_ASSERT
 (
@@ -6734,6 +6749,7 @@ MInstruction
 *
 ins
 )
+const
 ;
 bool
 SimdShufflePolicy
@@ -6748,6 +6764,7 @@ MInstruction
 *
 ins
 )
+const
 {
 MSimdGeneralShuffle
 *
@@ -6958,6 +6975,7 @@ MInstruction
 *
 ins
 )
+const
 {
 /
 /
@@ -7061,6 +7079,7 @@ MInstruction
 *
 ins
 )
+const
 {
 MCall
 *
@@ -7228,6 +7247,7 @@ MInstruction
 *
 ins
 )
+const
 {
 /
 /
@@ -7348,6 +7368,7 @@ MInstruction
 *
 def
 )
+const
 {
 /
 /
@@ -8059,6 +8080,7 @@ MInstruction
 *
 ins
 )
+const
 {
 if
 (
@@ -8160,6 +8182,7 @@ MInstruction
 *
 ins
 )
+const
 {
 MStoreTypedArrayElementHole
 *
@@ -8272,6 +8295,7 @@ MInstruction
 *
 ins
 )
+const
 {
 if
 (
@@ -8600,6 +8624,7 @@ MInstruction
 *
 ins
 )
+const
 {
 if
 (
@@ -8807,6 +8832,7 @@ MInstruction
 *
 ins
 )
+const
 {
 MDefinition
 *
@@ -8890,6 +8916,7 @@ MInstruction
 *
 ins
 )
+const
 {
 MOZ_ASSERT
 (
@@ -10648,6 +10675,7 @@ DEFINE_TYPE_POLICY_SINGLETON_INSTANCES_
 .
 )
 \
+const
 TypePolicy
 *
 \
@@ -10664,6 +10692,7 @@ thisTypePolicy
 {
 \
 static
+constexpr
 __VA_ARGS__
 singletonType
 ;
@@ -10856,6 +10885,7 @@ DEFINE_MIR_TYPEPOLICY_MEMBERS_
 op
 )
 \
+const
 TypePolicy
 *
 \
