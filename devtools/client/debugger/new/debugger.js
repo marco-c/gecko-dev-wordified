@@ -199621,7 +199621,6 @@ MPL
 function
 willNavigate
 (
-_
 event
 )
 {

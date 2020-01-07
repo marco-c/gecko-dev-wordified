@@ -221,10 +221,7 @@ BrowserToolboxProcess
 init
 (
 onClose
-(
-event
 _process
-)
 =
 >
 {
