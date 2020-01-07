@@ -321,6 +321,11 @@ mozilla
 :
 DOMEventTargetHelper
 )
+void
+MarkForCC
+(
+)
+;
 virtual
 JSObject
 *
@@ -438,10 +443,6 @@ GetTabEventTarget
 )
 override
 ;
-NS_FORWARD_SAFE_NSIMESSAGELISTENERMANAGER
-(
-mMessageManager
-)
 NS_FORWARD_SAFE_NSIMESSAGESENDER
 (
 mMessageManager

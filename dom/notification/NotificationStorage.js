@@ -1591,9 +1591,6 @@ generateQI
 Ci
 .
 nsINotificationStorage
-Ci
-.
-nsIMessageListener
 ]
 )
 }

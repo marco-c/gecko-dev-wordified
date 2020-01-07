@@ -1808,9 +1808,6 @@ generateQI
 [
 Ci
 .
-nsIMessageListener
-Ci
-.
 nsIObserver
 Ci
 .

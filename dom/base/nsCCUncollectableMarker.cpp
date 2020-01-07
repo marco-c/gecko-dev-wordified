@@ -1744,9 +1744,9 @@ if
 tabChild
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIContentFrameMessageManager
+TabChildGlobal
 >
 mm
 =

@@ -1451,9 +1451,6 @@ nsITimerCallback
 Ci
 .
 nsIObserver
-Ci
-.
-nsIMessageListener
 ]
 )
 }

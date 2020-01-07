@@ -417,9 +417,6 @@ integration
 .
 getService
 (
-Ci
-.
-nsIMessageListener
 )
 ;
 listener

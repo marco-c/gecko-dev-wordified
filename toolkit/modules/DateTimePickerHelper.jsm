@@ -276,7 +276,7 @@ this
 }
 /
 /
-nsIMessageListener
+MessageListener
 receiveMessage
 (
 aMessage
