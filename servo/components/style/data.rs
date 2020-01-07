@@ -1965,12 +1965,9 @@ StackLimitChecker
 >
 nth_index_cache
 :
-Option
-<
 &
 mut
 NthIndexCache
->
 )
 -
 >

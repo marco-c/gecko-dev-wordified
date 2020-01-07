@@ -543,14 +543,11 @@ mut
 ElementData
 nth_index_cache
 :
-Option
-<
 &
 '
 a
 mut
 NthIndexCache
->
 )
 -
 >
@@ -569,7 +566,10 @@ MatchingMode
 :
 Normal
 None
+Some
+(
 nth_index_cache
+)
 VisitedHandlingMode
 :
 :
