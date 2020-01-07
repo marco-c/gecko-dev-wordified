@@ -355,6 +355,15 @@ expr
 )
 )
 #
+define
+MOZ_KnownLive
+(
+expr
+)
+(
+expr
+)
+#
 endif
 /
 *
