@@ -701,7 +701,6 @@ mTransforms
 SetBaseValueString
 (
 aParams
-mRoot
 )
 )
 )

@@ -4161,7 +4161,6 @@ transformList
 SetBaseValueString
 (
 aValue
-this
 )
 ;
 if
