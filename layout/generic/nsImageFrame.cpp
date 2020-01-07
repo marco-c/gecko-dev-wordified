@@ -13535,7 +13535,11 @@ aPresContext
 uri
 target
 clicked
-true
+/
+*
+isTrusted
+*
+/
 true
 )
 ;
