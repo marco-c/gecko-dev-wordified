@@ -120,7 +120,7 @@ shared
 /
 components
 /
-Tree
+VirtualizedTree
 "
 )
 )
