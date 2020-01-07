@@ -408,9 +408,6 @@ restored
 yield
 refreshTab
 (
-gBrowser
-.
-selectedTab
 )
 ;
 let

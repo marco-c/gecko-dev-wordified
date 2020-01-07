@@ -514,9 +514,6 @@ highlighted
 yield
 refreshTab
 (
-gBrowser
-.
-selectedTab
 )
 ;
 let
