@@ -5003,9 +5003,11 @@ JSObject
 unscopableObj
 (
 cx
-JS_NewPlainObject
+JS_NewObjectWithGivenProto
 (
 cx
+nullptr
+nullptr
 )
 )
 ;
