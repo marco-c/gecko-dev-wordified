@@ -9911,16 +9911,6 @@ expireStartCountFailure
 )
 ;
 }
-shutdown
-(
-)
-{
-dbClose
-(
-true
-)
-;
-}
 }
 ;
 /
