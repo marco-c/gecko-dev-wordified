@@ -77,15 +77,10 @@ dialog
 inc
 .
 css
-label
-textbox
-description
-.
-tab
--
-text
-menulist
-label
+:
+root
+>
+*
 {
 font
 -
@@ -93,6 +88,6 @@ size
 :
 1
 .
-11rem
+05em
 ;
 }
