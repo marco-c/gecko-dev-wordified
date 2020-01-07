@@ -252,7 +252,7 @@ async
 {
 const
 {
-perfFront
+perfFrontMock
 getRecordingState
 receiveProfileCalls
 mountComponent
@@ -294,9 +294,9 @@ state
 )
 ;
 await
-perfFront
+perfFrontMock
 .
-flushAsyncQueue
+_flushAsyncQueue
 (
 )
 ;
@@ -386,9 +386,9 @@ recording
 )
 ;
 await
-perfFront
+perfFrontMock
 .
-flushAsyncQueue
+_flushAsyncQueue
 (
 )
 ;
@@ -449,9 +449,9 @@ profiler
 )
 ;
 await
-perfFront
+perfFrontMock
 .
-flushAsyncQueue
+_flushAsyncQueue
 (
 )
 ;
@@ -480,9 +480,9 @@ again
 )
 ;
 await
-perfFront
+perfFrontMock
 .
-flushAsyncQueue
+_flushAsyncQueue
 (
 )
 ;
