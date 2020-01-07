@@ -2119,11 +2119,7 @@ fill
 .
 plugin
 -
-icon
-.
 blocked
--
-permission
 -
 icon
 {
@@ -2151,6 +2147,13 @@ blocked
 .
 svg
 )
+;
+transition
+:
+fill
+1
+.
+5s
 ;
 }
 #
