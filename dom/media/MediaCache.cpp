@@ -202,7 +202,7 @@ include
 "
 mozilla
 /
-Preferences
+Monitor
 .
 h
 "
@@ -211,7 +211,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+Preferences
 .
 h
 "
@@ -1077,12 +1077,7 @@ MediaCache
 using
 AutoLock
 =
-ReentrantMonitorAutoEnter
-;
-using
-AutoUnlock
-=
-ReentrantMonitorAutoExit
+MonitorAutoLock
 ;
 public
 :
@@ -1914,7 +1909,10 @@ AutoLock
 }
 #
 endif
-ReentrantMonitor
+mozilla
+:
+:
+Monitor
 &
 Monitor
 (
@@ -2004,7 +2002,7 @@ aMediaCache
 >
 mMonitor
 .
-AssertCurrentThreadIn
+AssertCurrentThreadOwns
 (
 )
 ;
@@ -3343,7 +3341,10 @@ on
 this
 monitor
 .
-ReentrantMonitor
+mozilla
+:
+:
+Monitor
 mMonitor
 ;
 /
@@ -18510,6 +18511,9 @@ MediaCacheStream
 :
 Read
 (
+AutoLock
+&
+aLock
 char
 *
 aBuffer
@@ -18524,17 +18528,6 @@ MOZ_ASSERT
 (
 !
 NS_IsMainThread
-(
-)
-)
-;
-AutoLock
-lock
-(
-mMediaCache
--
->
-Monitor
 (
 )
 )
@@ -18700,7 +18693,7 @@ rv
 =
 ReadBlockFromCache
 (
-lock
+aLock
 streamOffset
 buffer
 true
@@ -18839,7 +18832,7 @@ iter
 .
 Next
 (
-lock
+aLock
 )
 )
 {
@@ -18880,7 +18873,7 @@ stream
 >
 ReadPartialBlock
 (
-lock
+aLock
 streamOffset
 buffer
 )
@@ -18980,7 +18973,7 @@ bytes
 =
 ReadPartialBlock
 (
-lock
+aLock
 streamOffset
 buffer
 )
@@ -19047,7 +19040,7 @@ mMediaCache
 >
 QueueUpdate
 (
-lock
+aLock
 )
 ;
 }
@@ -19059,7 +19052,7 @@ to
 read
 so
 block
-lock
+aLock
 .
 Wait
 (
@@ -19119,7 +19112,7 @@ mMediaCache
 >
 QueueUpdate
 (
-lock
+aLock
 )
 ;
 LOG
@@ -19213,6 +19206,7 @@ rv
 return
 Read
 (
+lock
 aBuffer
 aCount
 aBytes
