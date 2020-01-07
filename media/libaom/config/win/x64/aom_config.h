@@ -166,7 +166,7 @@ RESTRICT
 #
 define
 INLINE
-__forceinline
+__inline
 #
 define
 ARCH_ARM
