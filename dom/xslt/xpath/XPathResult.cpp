@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsIStyleSheetLinkingElement
 .
 h

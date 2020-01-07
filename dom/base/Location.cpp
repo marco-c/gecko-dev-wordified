@@ -257,13 +257,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

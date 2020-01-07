@@ -164,13 +164,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsIMultiplexInputStream
 .
 h
