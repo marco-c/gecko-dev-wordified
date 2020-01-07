@@ -8,8 +8,7 @@ be
 able
 to
 use
-try
-!
+?
 and
 such
 in
@@ -420,7 +419,7 @@ crate
 ChainedError
 :
 :
-display
+display_chain
 (
 e
 )
