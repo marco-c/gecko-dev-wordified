@@ -271,9 +271,6 @@ class
 nsIPrincipal
 ;
 class
-nsScriptNameSpaceManager
-;
-class
 nsIHandleReportCallback
 ;
 namespace
