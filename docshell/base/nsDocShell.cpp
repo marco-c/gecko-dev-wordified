@@ -83855,8 +83855,9 @@ ShouldPrepareForIntercept
 nsIURI
 *
 aURI
-bool
-aIsNonSubresourceRequest
+nsIChannel
+*
+aChannel
 bool
 *
 aShouldIntercept
@@ -83915,7 +83916,13 @@ window
 if
 (
 !
-aIsNonSubresourceRequest
+nsContentUtils
+:
+:
+IsNonSubresourceRequest
+(
+aChannel
+)
 )
 {
 nsCOMPtr
