@@ -6888,6 +6888,12 @@ debuggerInfo
 =
 debuggerInfo
                 
+symbolsPath
+=
+options
+.
+symbolsPath
+                
 *
 *
 kwargs
