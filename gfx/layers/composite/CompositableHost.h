@@ -470,9 +470,6 @@ class
 WebRenderImageHost
 ;
 class
-ContentHost
-;
-class
 ContentHostTexture
 ;
 struct
@@ -1055,17 +1052,6 @@ aLayer
 mLayer
 =
 aLayer
-;
-}
-virtual
-ContentHost
-*
-AsContentHost
-(
-)
-{
-return
-nullptr
 ;
 }
 virtual

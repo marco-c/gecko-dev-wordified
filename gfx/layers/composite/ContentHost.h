@@ -661,17 +661,6 @@ IntRect
 )
 ;
 }
-virtual
-ContentHost
-*
-AsContentHost
-(
-)
-{
-return
-this
-;
-}
 protected
 :
 explicit
