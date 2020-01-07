@@ -591,6 +591,7 @@ nsAString
 &
 aType
 )
+const
 {
 return
 mListenerManager
@@ -612,6 +613,7 @@ nsAtom
 *
 aTypeWithOn
 )
+const
 {
 return
 mListenerManager

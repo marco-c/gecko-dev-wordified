@@ -1982,6 +1982,7 @@ nsAString
 &
 aEventName
 )
+const
 ;
 /
 *
@@ -2020,6 +2021,7 @@ nsAtom
 *
 aEventNameWithOn
 )
+const
 ;
 /
 *
@@ -2042,6 +2044,7 @@ bool
 HasListeners
 (
 )
+const
 ;
 /
 *

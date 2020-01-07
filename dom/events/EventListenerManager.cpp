@@ -8618,6 +8618,7 @@ nsAString
 &
 aEventName
 )
+const
 {
 if
 (
@@ -8674,6 +8675,7 @@ count
 i
 )
 {
+const
 Listener
 *
 listener
@@ -8716,6 +8718,7 @@ nsAtom
 *
 aEventNameWithOn
 )
+const
 {
 #
 ifdef
@@ -8783,6 +8786,7 @@ count
 i
 )
 {
+const
 Listener
 *
 listener
@@ -8822,6 +8826,7 @@ EventListenerManager
 HasListeners
 (
 )
+const
 {
 return
 !
