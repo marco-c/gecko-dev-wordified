@@ -3766,11 +3766,6 @@ overrideBlocklist
 blocklistAddons
 )
 ;
-await
-promiseRestartManager
-(
-)
-;
 for
 (
 let

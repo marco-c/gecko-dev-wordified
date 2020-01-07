@@ -267,9 +267,7 @@ Assert
 equal
 (
 await
-Services
-.
-blocklist
+Blocklist
 .
 getPluginBlocklistState
 (

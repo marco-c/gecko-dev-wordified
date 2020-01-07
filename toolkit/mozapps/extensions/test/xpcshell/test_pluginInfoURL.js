@@ -390,9 +390,7 @@ Assert
 .
 strictEqual
 (
-Services
-.
-blocklist
+Blocklist
 .
 getPluginInfoURL
 (
@@ -481,9 +479,7 @@ Assert
 .
 strictEqual
 (
-Services
-.
-blocklist
+Blocklist
 .
 getPluginInfoURL
 (
@@ -545,9 +541,7 @@ Assert
 .
 strictEqual
 (
-Services
-.
-blocklist
+Blocklist
 .
 getPluginInfoURL
 (
@@ -602,9 +596,7 @@ Assert
 .
 strictEqual
 (
-Services
-.
-blocklist
+Blocklist
 .
 getPluginInfoURL
 (
@@ -626,9 +618,7 @@ Assert
 .
 strictEqual
 (
-Services
-.
-blocklist
+Blocklist
 .
 getPluginInfoURL
 (

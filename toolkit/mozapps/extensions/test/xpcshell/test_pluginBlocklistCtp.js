@@ -812,9 +812,7 @@ var
 blocklistState
 =
 await
-Services
-.
-blocklist
+Blocklist
 .
 getPluginBlocklistState
 (
@@ -924,9 +922,7 @@ var
 blocklistState
 =
 await
-Services
-.
-blocklist
+Blocklist
 .
 getPluginBlocklistState
 (
@@ -1037,9 +1033,7 @@ var
 blocklistState
 =
 await
-Services
-.
-blocklist
+Blocklist
 .
 getPluginBlocklistState
 (
@@ -1149,9 +1143,7 @@ var
 blocklistState
 =
 await
-Services
-.
-blocklist
+Blocklist
 .
 getPluginBlocklistState
 (
@@ -1197,9 +1189,7 @@ false
 blocklistState
 =
 await
-Services
-.
-blocklist
+Blocklist
 .
 getPluginBlocklistState
 (
