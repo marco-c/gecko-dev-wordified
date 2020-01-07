@@ -495,6 +495,7 @@ def
 update_checkpoint_paths
 (
 checkpoint_files
+checkpoints
 )
 :
     
@@ -503,7 +504,7 @@ checkpoint_files
 "
     
 Updates
-CHECKPOINTS
+checkpoints
 with
 memory
 report
@@ -521,6 +522,19 @@ of
 files
 in
 data_path
+    
+:
+param
+checkpoints
+:
+The
+checkpoints
+to
+update
+the
+path
+of
+.
     
 "
 "
@@ -648,9 +662,43 @@ x
 ]
 )
         
-CHECKPOINTS
+if
+paths
+:
+            
+indices
+=
 [
 i
+for
+i
+x
+in
+enumerate
+(
+checkpoints
+)
+if
+name
+in
+x
+[
+'
+path
+'
+]
+]
+            
+if
+indices
+:
+                
+checkpoints
+[
+indices
+[
+0
+]
 ]
 [
 '
@@ -662,12 +710,33 @@ paths
 [
 idx
 ]
+            
+else
+:
+                
+print
+"
+found
+files
+but
+couldn
+'
+t
+find
+%
+s
+"
+%
+name
 def
 create_suite
 (
 name
 node
 data_path
+checkpoints
+=
+CHECKPOINTS
 )
 :
     
@@ -743,6 +812,16 @@ to
 retrieve
 data
 from
+.
+    
+:
+param
+checkpoints
+:
+Which
+checkpoints
+to
+include
 .
     
 "
@@ -874,6 +953,7 @@ report
 "
 )
 )
+checkpoints
 )
     
 total
@@ -883,7 +963,7 @@ total
 for
 checkpoint
 in
-CHECKPOINTS
+checkpoints
 :
         
 memory_report_path
@@ -1178,7 +1258,7 @@ total
 /
 len
 (
-CHECKPOINTS
+checkpoints
 )
 )
     
@@ -1188,6 +1268,12 @@ def
 create_perf_data
 (
 data_path
+perf_suites
+=
+PERF_SUITES
+checkpoints
+=
+CHECKPOINTS
 )
 :
     
@@ -1284,7 +1370,7 @@ suites
 for
 suite
 in
-PERF_SUITES
+perf_suites
 :
         
 perf_blob
@@ -1311,6 +1397,7 @@ node
 '
 ]
 data_path
+checkpoints
 )
 )
     
