@@ -4802,10 +4802,9 @@ used
 by
 /
 /
-computed
-view
-and
+the
 layout
+view
 which
 retrieves
 an
