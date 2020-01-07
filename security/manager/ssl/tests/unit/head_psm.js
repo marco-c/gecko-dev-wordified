@@ -2692,6 +2692,9 @@ add_tls_server_setup
 (
 serverBinName
 certsPath
+addDefaultRoot
+=
+true
 )
 {
 add_test
@@ -2704,6 +2707,7 @@ _setupTLSServerTest
 (
 serverBinName
 certsPath
+addDefaultRoot
 )
 ;
 }
@@ -3775,6 +3779,7 @@ _setupTLSServerTest
 (
 serverBinName
 certsPath
+addDefaultRoot
 )
 {
 let
@@ -3817,6 +3822,11 @@ good
 "
 certificates
 .
+if
+(
+addDefaultRoot
+)
+{
 addCertFromFile
 (
 certdb
@@ -3836,6 +3846,7 @@ u
 "
 )
 ;
+}
 const
 CALLBACK_PORT
 =
