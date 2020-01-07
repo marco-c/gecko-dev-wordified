@@ -592,7 +592,6 @@ result
 )
 ;
 }
-static
 nsresult
 PIPBundleFormatStringFromName
 (
