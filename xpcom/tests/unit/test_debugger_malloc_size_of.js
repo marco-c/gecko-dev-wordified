@@ -159,13 +159,6 @@ callback
 it
 needs
 .
-var
-Cu
-=
-Components
-.
-utils
-;
 const
 {
 byteSize
