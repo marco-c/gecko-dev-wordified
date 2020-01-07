@@ -9562,6 +9562,24 @@ build
 build_label
 }
         
+jobdesc
+[
+'
+job
+-
+from
+'
+]
+=
+test
+[
+'
+job
+-
+from
+'
+]
+        
 if
 test
 [
