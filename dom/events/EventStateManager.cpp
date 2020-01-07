@@ -30337,7 +30337,7 @@ in
 nsPresShell
 :
 :
-HandlePositionedEvent
+HandleEvent
 .
 while
 (
