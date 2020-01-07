@@ -444,9 +444,12 @@ ZEAL_MODE
 #
 undef
 ZEAL_MODE
+Count
 Limit
 =
-18
+Count
+-
+1
 }
 ;
 }
