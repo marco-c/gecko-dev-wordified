@@ -177,7 +177,7 @@ nsPagePrintTimer
 This
 matches
 the
-IncrementDestroyRefCount
+IncrementDestroyBlockedCount
 call
 in
 the
@@ -186,7 +186,7 @@ constructor
 mDocViewerPrint
 -
 >
-DecrementDestroyRefCount
+DecrementDestroyBlockedCount
 (
 )
 ;

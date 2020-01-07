@@ -357,7 +357,7 @@ aDocument
 mDocViewerPrint
 -
 >
-IncrementDestroyRefCount
+IncrementDestroyBlockedCount
 (
 )
 ;
