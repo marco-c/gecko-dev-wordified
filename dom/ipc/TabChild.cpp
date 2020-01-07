@@ -1090,6 +1090,13 @@ Telemetry
 h
 "
 #
+include
+"
+nsIDocShellLoadInfo
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -5566,6 +5573,9 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
+nsIDocShellLoadInfo
+*
+aLoadInfo
 bool
 *
 aWindowIsNew
@@ -5832,6 +5842,7 @@ aURI
 aName
 aFeatures
 aForceNoOpener
+aLoadInfo
 aWindowIsNew
 aReturn
 )

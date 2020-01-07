@@ -315,6 +315,13 @@ h
 #
 include
 "
+nsIDocShellLoadInfo
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h
@@ -5666,6 +5673,9 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
+nsIDocShellLoadInfo
+*
+aLoadInfo
 bool
 *
 aWindowIsNew

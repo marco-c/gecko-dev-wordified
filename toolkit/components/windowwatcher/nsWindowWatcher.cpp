@@ -5037,6 +5037,7 @@ uriToLoad
 name
 features
 aForceNoOpener
+aLoadInfo
 &
 windowIsNew
 getter_AddRefs

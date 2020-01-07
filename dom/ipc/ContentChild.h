@@ -282,6 +282,9 @@ nsIURIClassifierCallback
 struct
 LookAndFeelInt
 ;
+class
+nsIDocShellLoadInfo
+;
 namespace
 mozilla
 {
@@ -664,6 +667,9 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
+nsIDocShellLoadInfo
+*
+aLoadInfo
 bool
 *
 aWindowIsNew
