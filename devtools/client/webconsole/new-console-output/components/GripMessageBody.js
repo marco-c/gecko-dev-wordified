@@ -338,6 +338,13 @@ PropTypes
 object
 .
 isRequired
+onViewSourceInDebugger
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 )
 userProvidedStyle
@@ -664,6 +671,11 @@ actor
 )
 ;
 }
+onViewSourceInDebugger
+:
+serviceContainer
+.
+onViewSourceInDebugger
 openLink
 :
 serviceContainer
