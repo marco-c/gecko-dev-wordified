@@ -157,6 +157,13 @@ ServoBindingTypes
 .
 h
 "
+#
+include
+"
+nsStyleStruct
+.
+h
+"
 namespace
 mozilla
 {
