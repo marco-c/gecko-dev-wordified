@@ -800,6 +800,7 @@ so
 recompute
 it
 .
+static
 void
 UpdatePlaybackRate
 (
@@ -807,6 +808,9 @@ const
 PlaybackRateInfo
 &
 aInfo
+BaseMediaResource
+*
+aResource
 )
 ;
 /
