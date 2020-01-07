@@ -246,6 +246,9 @@ class
 OwningIDBObjectStoreOrIDBIndexOrIDBCursor
 ;
 class
+StrongWorkerRef
+;
+class
 IDBRequest
 :
 public
@@ -786,9 +789,6 @@ final
 public
 IDBRequest
 {
-class
-WorkerHolder
-;
 /
 /
 Only
@@ -804,11 +804,11 @@ IDBFactory
 >
 mFactory
 ;
-nsAutoPtr
+RefPtr
 <
-WorkerHolder
+StrongWorkerRef
 >
-mWorkerHolder
+mWorkerRef
 ;
 const
 bool
