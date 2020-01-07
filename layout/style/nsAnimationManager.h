@@ -354,13 +354,7 @@ mEvent
 .
 mPseudoElement
 =
-AnimationCollection
-<
-dom
-:
-:
-CSSAnimation
->
+nsCSSPseudoElements
 :
 :
 PseudoTypeAsString
