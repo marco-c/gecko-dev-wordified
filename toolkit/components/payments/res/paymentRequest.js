@@ -96,11 +96,6 @@ fallbacks
 js
 *
 /
-"
-use
-strict
-"
-;
 var
 paymentRequest
 =
@@ -893,4 +888,8 @@ paymentRequest
 init
 (
 )
+;
+export
+default
+paymentRequest
 ;
