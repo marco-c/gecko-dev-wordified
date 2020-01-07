@@ -2988,6 +2988,7 @@ no
 yes
 }
 ;
+MOZ_MUST_USE
 nsresult
 GetNodesForOperation
 (
@@ -3013,11 +3014,6 @@ EditAction
 aOperationType
 TouchContent
 aTouchContent
-=
-TouchContent
-:
-:
-yes
 )
 ;
 void
@@ -3037,6 +3033,7 @@ nsINode
 outArrayOfNodes
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetNodesFromPoint
 (
@@ -3059,6 +3056,7 @@ TouchContent
 aTouchContent
 )
 ;
+MOZ_MUST_USE
 nsresult
 GetNodesFromSelection
 (
@@ -3075,11 +3073,6 @@ nsINode
 outArrayOfNodes
 TouchContent
 aTouchContent
-=
-TouchContent
-:
-:
-yes
 )
 ;
 enum
@@ -3090,6 +3083,7 @@ no
 yes
 }
 ;
+MOZ_MUST_USE
 nsresult
 GetListActionNodes
 (
@@ -3106,11 +3100,6 @@ EntireList
 aEntireList
 TouchContent
 aTouchContent
-=
-TouchContent
-:
-:
-yes
 )
 ;
 void
@@ -3139,13 +3128,6 @@ nsINode
 >
 &
 outArrayOfNodes
-TouchContent
-aTouchContent
-=
-TouchContent
-:
-:
-yes
 )
 ;
 void
