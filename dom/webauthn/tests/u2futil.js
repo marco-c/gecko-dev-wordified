@@ -1449,6 +1449,7 @@ aaguid
 )
 )
 ;
+let
 cborPubKey
 =
 aAuthData

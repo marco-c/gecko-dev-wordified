@@ -2273,12 +2273,19 @@ opt_aTimeoutSeconds
 WebAuthnMakeCredentialInfo
 info
 (
+mOrigin
 rpIdHash
 clientDataHash
 adjustedTimeoutMillis
 excludeList
 extensions
 authSelection
+false
+/
+*
+RequestDirectAttestation
+*
+/
 )
 ;
 MOZ_ASSERT
@@ -2986,6 +2993,7 @@ opt_aTimeoutSeconds
 WebAuthnGetAssertionInfo
 info
 (
+mOrigin
 rpIdHash
 clientDataHash
 adjustedTimeoutMillis
