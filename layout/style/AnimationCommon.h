@@ -199,9 +199,6 @@ nsContentUtils
 h
 "
 class
-nsIFrame
-;
-class
 nsPresContext
 ;
 namespace

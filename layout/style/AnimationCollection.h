@@ -194,6 +194,9 @@ class
 nsAtom
 ;
 class
+nsIFrame
+;
+class
 nsPresContext
 ;
 namespace
