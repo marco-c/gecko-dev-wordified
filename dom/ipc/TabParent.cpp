@@ -1132,7 +1132,7 @@ aManager
 )
 mDocShellIsActive
 (
-false
+true
 )
 mMarkedDestroying
 (
