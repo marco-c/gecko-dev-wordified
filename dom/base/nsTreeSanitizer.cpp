@@ -7571,6 +7571,8 @@ aBaseURI
 {
 nsresult
 rv
+=
+NS_OK
 ;
 aSanitized
 .
@@ -7732,8 +7734,6 @@ IsStyledByServo
 )
 )
 {
-rv
-=
 sheet
 -
 >
@@ -7742,7 +7742,7 @@ AsServo
 )
 -
 >
-ParseSheet
+ParseSheetSync
 (
 aDocument
 -

@@ -3879,6 +3879,8 @@ SheetLoadData
 *
 aLoadData
 bool
+aAllowAsync
+bool
 &
 aCompleted
 )
@@ -3981,6 +3983,8 @@ aUTF8
 SheetLoadData
 *
 aLoadData
+bool
+aAllowAsync
 bool
 &
 aCompleted

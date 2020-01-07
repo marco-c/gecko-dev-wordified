@@ -862,6 +862,13 @@ From
 skip
 )
 mSheetLoadData
+/
+*
+aAllowAsync
+=
+*
+/
+true
 dummy
 )
 ;
