@@ -579,7 +579,7 @@ LayoutPixel
 [
 repr
 (
-u8
+u64
 )
 ]
 #
@@ -2632,8 +2632,7 @@ Serialize
 [
 repr
 (
-C
-u8
+u32
 )
 ]
 pub
