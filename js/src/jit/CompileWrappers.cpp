@@ -878,6 +878,14 @@ nursery
 canAllocateStrings
 (
 )
+&
+&
+zone
+(
+)
+-
+>
+allocNurseryStrings
 ;
 }
 bool
