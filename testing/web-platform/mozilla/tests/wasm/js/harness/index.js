@@ -776,11 +776,6 @@ print
 console
 .
 log
-.
-bind
-(
-console
-)
 global
 :
 666

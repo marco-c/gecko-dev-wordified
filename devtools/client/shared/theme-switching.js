@@ -967,11 +967,6 @@ notifyWindow
 console
 .
 error
-.
-bind
-(
-console
-)
 )
 ;
 }

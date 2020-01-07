@@ -3556,11 +3556,6 @@ then
 console
 .
 log
-.
-bind
-(
-console
-)
 )
 *
 .
@@ -3569,11 +3564,6 @@ catch
 console
 .
 error
-.
-bind
-(
-console
-)
 )
 ;
 *

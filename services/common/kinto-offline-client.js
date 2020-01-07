@@ -3743,11 +3743,6 @@ catch
 console
 .
 error
-.
-bind
-(
-console
-)
 )
 ;
 *
@@ -3757,11 +3752,6 @@ then
 console
 .
 log
-.
-bind
-(
-console
-)
 )
 ;
 /
