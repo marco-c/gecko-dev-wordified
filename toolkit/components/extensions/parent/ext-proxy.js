@@ -382,9 +382,11 @@ destroy
 ;
 super
 (
+{
 context
 name
 register
+}
 )
 ;
 }
@@ -456,12 +458,17 @@ onError
 new
 EventManager
 (
+{
 context
+name
+:
 "
 proxy
 .
 onError
 "
+register
+:
 fire
 =
 >
@@ -517,6 +524,7 @@ listener
 ;
 }
 ;
+}
 }
 )
 .

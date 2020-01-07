@@ -1271,12 +1271,17 @@ onChanged
 new
 EventManager
 (
+{
 context
+name
+:
 "
 sessions
 .
 onChanged
 "
+register
+:
 fire
 =
 >
@@ -1325,6 +1330,7 @@ SS_ON_CLOSED_OBJECTS_CHANGED
 ;
 }
 ;
+}
 }
 )
 .

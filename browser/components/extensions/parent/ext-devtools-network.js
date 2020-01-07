@@ -88,12 +88,17 @@ onNavigated
 new
 EventManager
 (
+{
 context
+name
+:
 "
 devtools
 .
 onNavigated
 "
+register
+:
 fire
 =
 >
@@ -175,6 +180,7 @@ listener
 }
 ;
 }
+}
 )
 .
 api
@@ -201,7 +207,10 @@ onRequestFinished
 new
 EventManager
 (
+{
 context
+name
+:
 "
 devtools
 .
@@ -209,6 +218,8 @@ network
 .
 onRequestFinished
 "
+register
+:
 fire
 =
 >
@@ -260,6 +271,7 @@ listener
 ;
 }
 ;
+}
 }
 )
 .

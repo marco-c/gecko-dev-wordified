@@ -181,7 +181,10 @@ onRequestFinished
 new
 EventManager
 (
+{
 context
+name
+:
 "
 devtools
 .
@@ -189,6 +192,8 @@ network
 .
 onRequestFinished
 "
+register
+:
 fire
 =
 >
@@ -301,6 +306,7 @@ onFinished
 ;
 }
 ;
+}
 }
 )
 .

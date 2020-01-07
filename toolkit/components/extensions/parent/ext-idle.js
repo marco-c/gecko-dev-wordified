@@ -397,12 +397,17 @@ onStateChanged
 new
 EventManager
 (
+{
 context
+name
+:
 "
 idle
 .
 onStateChanged
 "
+register
+:
 fire
 =
 >
@@ -462,6 +467,7 @@ listener
 ;
 }
 ;
+}
 }
 )
 .

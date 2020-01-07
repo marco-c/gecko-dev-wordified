@@ -711,12 +711,17 @@ onAlarm
 new
 EventManager
 (
+{
 context
+name
+:
 "
 alarms
 .
 onAlarm
 "
+register
+:
 fire
 =
 >
@@ -765,6 +770,7 @@ callback
 ;
 }
 ;
+}
 }
 )
 .

@@ -371,10 +371,15 @@ manager
 new
 EventManager
 (
+{
 context
+name
+:
 "
 EventManager
 "
+register
+:
 _fire
 =
 >
@@ -402,6 +407,7 @@ return
 {
 }
 ;
+}
 }
 )
 ;

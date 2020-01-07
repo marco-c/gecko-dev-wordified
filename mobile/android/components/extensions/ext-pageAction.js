@@ -1546,12 +1546,17 @@ onClicked
 new
 EventManager
 (
+{
 context
+name
+:
 "
 pageAction
 .
 onClicked
 "
+register
+:
 fire
 =
 >
@@ -1618,6 +1623,7 @@ listener
 ;
 }
 ;
+}
 }
 )
 .

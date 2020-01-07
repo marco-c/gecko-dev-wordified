@@ -982,12 +982,17 @@ onChanged
 new
 EventManager
 (
+{
 context
+name
+:
 "
 storage
 .
 onChanged
 "
+register
+:
 fire
 =
 >
@@ -1089,6 +1094,7 @@ onChanged
 ;
 }
 ;
+}
 }
 )
 .

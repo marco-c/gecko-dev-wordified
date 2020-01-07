@@ -1067,12 +1067,17 @@ onClicked
 new
 EventManager
 (
+{
 context
+name
+:
 "
 menus
 .
 onClicked
 "
+register
+:
 fire
 =
 >
@@ -1145,6 +1150,7 @@ listener
 ;
 }
 ;
+}
 }
 )
 .

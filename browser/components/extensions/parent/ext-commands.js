@@ -2568,12 +2568,17 @@ onCommand
 new
 EventManager
 (
+{
 context
+name
+:
 "
 commands
 .
 onCommand
 "
+register
+:
 fire
 =
 >
@@ -2625,6 +2630,7 @@ listener
 ;
 }
 ;
+}
 }
 )
 .

@@ -3345,7 +3345,10 @@ onSelectionChanged
 new
 EventManager
 (
+{
 context
+name
+:
 "
 devtools
 .
@@ -3355,6 +3358,8 @@ elements
 .
 onSelectionChanged
 "
+register
+:
 fire
 =
 >
@@ -3404,6 +3409,7 @@ listener
 ;
 }
 ;
+}
 }
 )
 .

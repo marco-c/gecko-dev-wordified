@@ -3343,12 +3343,17 @@ onRunning
 new
 EventManager
 (
+{
 context
+name
+:
 "
 geckoProfiler
 .
 onRunning
 "
+register
+:
 fire
 =
 >
@@ -3379,6 +3384,7 @@ async
 ;
 }
 ;
+}
 }
 )
 .
