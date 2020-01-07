@@ -97,17 +97,6 @@ stage
 "
 no
 -
-cond
--
-assign
-"
-:
-"
-off
-"
-"
-no
--
 lonely
 -
 if
