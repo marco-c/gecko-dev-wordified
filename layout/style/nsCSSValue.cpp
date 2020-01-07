@@ -19718,10 +19718,7 @@ GetReferrer
 (
 )
 this
-CORSMode
-:
-:
-CORS_NONE
+mCORSMode
 )
 ;
 mLoadedImage
