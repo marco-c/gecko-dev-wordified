@@ -28,11 +28,6 @@ zero
 /
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 Tests
@@ -55,7 +50,7 @@ const
 TEST_URI
 =
 "
-https
+http
 :
 /
 /
@@ -564,7 +559,7 @@ line
 .
 "
 "
-https
+http
 :
 /
 /
@@ -609,7 +604,7 @@ line
 .
 "
 "
-https
+http
 :
 /
 /
@@ -733,7 +728,7 @@ line
 "
 The
 file
-https
+http
 :
 /
 /
@@ -767,7 +762,7 @@ modified
 +
 "
 after
-https
+http
 :
 /
 /
@@ -856,7 +851,7 @@ line
 .
 "
 "
-https
+http
 :
 /
 /
@@ -881,7 +876,7 @@ line
 .
 "
 "
-https
+http
 :
 /
 /
@@ -922,7 +917,7 @@ line
 .
 "
 "
-https
+http
 :
 /
 /

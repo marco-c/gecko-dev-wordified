@@ -28,11 +28,6 @@ zero
 /
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 Tests
@@ -48,7 +43,7 @@ const
 TEST_URI
 =
 "
-https
+http
 :
 /
 /
@@ -623,7 +618,7 @@ TEST_URI
 /
 appcache
 validate
-https
+http
 :
 /
 /
@@ -895,7 +890,7 @@ viewentry
 -
 -
 key
-https
+http
 :
 /
 /
