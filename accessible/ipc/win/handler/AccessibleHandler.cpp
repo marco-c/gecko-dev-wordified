@@ -935,7 +935,7 @@ proxy
 >
 QueryInterface
 (
-IID_IAccessibleHypertext
+IID_IAccessibleHypertext2
 reinterpret_cast
 <
 void
