@@ -5256,12 +5256,8 @@ if
 aNode
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 )
 {
@@ -5839,12 +5835,8 @@ if
 node
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 )
 {

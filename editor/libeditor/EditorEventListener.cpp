@@ -6488,12 +6488,8 @@ if
 node
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 &
 &

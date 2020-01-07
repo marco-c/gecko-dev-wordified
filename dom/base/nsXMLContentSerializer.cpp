@@ -7800,12 +7800,8 @@ mAddNewlineForRootNode
 parent
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 ;
 }

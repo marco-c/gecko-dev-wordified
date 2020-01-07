@@ -7202,12 +7202,8 @@ GetParentNode
 aRoot
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 |
 |
@@ -8517,12 +8513,8 @@ NS_ASSERTION
 root
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 "
 GetUncomposedDoc

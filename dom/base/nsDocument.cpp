@@ -24136,13 +24136,7 @@ aFlags
 const
 {
 return
-!
-(
-aFlags
-&
-~
-eDOCUMENT
-)
+false
 ;
 }
 Element

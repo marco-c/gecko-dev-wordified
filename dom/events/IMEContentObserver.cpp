@@ -2223,12 +2223,8 @@ mRootContent
 mEditableNode
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 )
 {

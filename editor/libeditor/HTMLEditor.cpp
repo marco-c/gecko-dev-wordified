@@ -1970,12 +1970,8 @@ NS_PRECONDITION
 aNode
 -
 >
-IsNodeOfType
+IsDocument
 (
-nsINode
-:
-:
-eDOCUMENT
 )
 |
 |
