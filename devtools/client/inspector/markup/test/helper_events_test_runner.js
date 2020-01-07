@@ -594,6 +594,12 @@ evHolder
 "
 )
 ;
+evHolder
+.
+scrollIntoView
+(
+)
+;
 EventUtils
 .
 synthesizeMouseAtCenter
