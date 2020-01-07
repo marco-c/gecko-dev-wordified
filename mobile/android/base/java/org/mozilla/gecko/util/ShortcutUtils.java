@@ -210,17 +210,6 @@ db
 UrlAnnotations
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
-BitmapUtils
-;
-import
 java
 .
 lang

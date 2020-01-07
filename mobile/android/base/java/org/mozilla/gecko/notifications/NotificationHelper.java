@@ -185,9 +185,9 @@ mozilla
 .
 gecko
 .
-gfx
+mozglue
 .
-BitmapUtils
+SafeIntent
 ;
 import
 org
@@ -196,9 +196,9 @@ mozilla
 .
 gecko
 .
-mozglue
+util
 .
-SafeIntent
+BitmapUtils
 ;
 import
 org

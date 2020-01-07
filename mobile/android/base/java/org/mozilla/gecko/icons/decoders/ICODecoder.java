@@ -129,7 +129,7 @@ mozilla
 .
 gecko
 .
-gfx
+util
 .
 BitmapUtils
 ;

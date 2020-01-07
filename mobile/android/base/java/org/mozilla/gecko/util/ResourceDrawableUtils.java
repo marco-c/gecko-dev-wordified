@@ -228,7 +228,7 @@ mozilla
 .
 gecko
 .
-gfx
+util
 .
 BitmapUtils
 .
@@ -242,7 +242,7 @@ mozilla
 .
 gecko
 .
-gfx
+util
 .
 BitmapUtils
 .
