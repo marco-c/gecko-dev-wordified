@@ -18112,11 +18112,17 @@ rval
 .
 setNumber
 (
+JS
+:
+:
+CanonicalizeNaN
+(
 (
 double
 )
 *
 target
+)
 )
 ;
 \
