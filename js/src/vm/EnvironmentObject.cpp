@@ -3826,7 +3826,7 @@ importBindings
 (
 )
 .
-putNew
+put
 (
 cx
 importNameId
@@ -3834,16 +3834,9 @@ env
 localNameId
 )
 )
-{
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
-}
 return
 true
 ;
