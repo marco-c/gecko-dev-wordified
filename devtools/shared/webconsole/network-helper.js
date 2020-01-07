@@ -3603,12 +3603,9 @@ broken
 -
 errorMessage
 :
-full
 error
-message
-from
-*
-nsITransportSecurityInfo
+code
+string
 .
 *
 If
@@ -4972,7 +4969,7 @@ errorMessage
 =
 securityInfo
 .
-errorMessage
+errorCodeString
 ;
 }
 return
