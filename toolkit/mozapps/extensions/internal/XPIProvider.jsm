@@ -32930,12 +32930,6 @@ strictCompatibility
 this
 .
 strictCompatibility
-&
-&
-!
-this
-.
-hasBinaryComponents
 )
 {
 /
@@ -37327,9 +37321,6 @@ size
 "
 "
 foreignInstall
-"
-"
-hasBinaryComponents
 "
 "
 strictCompatibility

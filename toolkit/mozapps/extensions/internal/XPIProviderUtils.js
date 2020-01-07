@@ -534,9 +534,6 @@ softDisabled
 foreignInstall
 "
 "
-hasBinaryComponents
-"
-"
 strictCompatibility
 "
 "

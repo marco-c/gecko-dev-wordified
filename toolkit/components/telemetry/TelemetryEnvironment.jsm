@@ -5157,9 +5157,7 @@ foreignInstall
 )
 hasBinaryComponents
 :
-addon
-.
-hasBinaryComponents
+false
 installDay
 :
 Utils
@@ -5434,9 +5432,7 @@ foreignInstall
 )
 hasBinaryComponents
 :
-theme
-.
-hasBinaryComponents
+false
 installDay
 :
 Utils
