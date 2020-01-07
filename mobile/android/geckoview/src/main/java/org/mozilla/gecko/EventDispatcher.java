@@ -905,9 +905,7 @@ listener
 catch
 (
 final
-IllegalAccessException
-|
-InstantiationException
+Exception
 e
 )
 {
