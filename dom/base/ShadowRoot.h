@@ -565,10 +565,12 @@ SlotAssignment
 HTMLSlotElement
 *
 aSlot
+const
 Maybe
 <
 uint32_t
 >
+&
 aIndex
 )
 :
