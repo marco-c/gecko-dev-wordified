@@ -1248,6 +1248,16 @@ PlacesUtils
 bookmarks
 .
 virtualUnfiledGuid
+|
+|
+guid
+=
+=
+PlacesUtils
+.
+bookmarks
+.
+virtualMobileGuid
 ;
 }
 /
