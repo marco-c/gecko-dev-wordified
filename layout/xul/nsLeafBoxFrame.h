@@ -411,9 +411,9 @@ virtual
 nsresult
 CharacterDataChanged
 (
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 override
 ;

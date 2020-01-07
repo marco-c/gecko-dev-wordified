@@ -992,8 +992,9 @@ CharacterDataWillChange
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
+&
 aInfo
 )
 {
@@ -1033,8 +1034,9 @@ CharacterDataChanged
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
+&
 aInfo
 )
 {

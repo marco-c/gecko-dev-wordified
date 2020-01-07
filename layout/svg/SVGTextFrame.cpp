@@ -20617,9 +20617,9 @@ aDocument
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 {
 mFrame

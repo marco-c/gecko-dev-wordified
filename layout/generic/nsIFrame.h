@@ -15093,9 +15093,9 @@ virtual
 nsresult
 CharacterDataChanged
 (
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 =
 0

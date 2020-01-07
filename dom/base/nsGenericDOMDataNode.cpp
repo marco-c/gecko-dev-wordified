@@ -1763,7 +1763,6 @@ nsNodeUtils
 CharacterDataWillChange
 (
 this
-&
 info
 )
 ;
@@ -2307,7 +2306,6 @@ nsNodeUtils
 CharacterDataChanged
 (
 this
-&
 info
 )
 ;

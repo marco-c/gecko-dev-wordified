@@ -2098,8 +2098,9 @@ CharacterDataChanged
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
+&
 aInfo
 )
 ;

@@ -791,9 +791,9 @@ aDocument
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 =
 0
@@ -963,9 +963,9 @@ aDocument
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 =
 0
@@ -2410,8 +2410,9 @@ nsIContent
 *
 aContent
 \
+const
 CharacterDataChangeInfo
-*
+&
 aInfo
 )
 override
@@ -2432,8 +2433,9 @@ nsIContent
 *
 aContent
 \
+const
 CharacterDataChangeInfo
-*
+&
 aInfo
 )
 override
@@ -2704,8 +2706,9 @@ nsIContent
 *
 aContent
 \
+const
 CharacterDataChangeInfo
-*
+&
 aInfo
 )
 \
@@ -2728,8 +2731,9 @@ nsIContent
 *
 aContent
 \
+const
 CharacterDataChangeInfo
-*
+&
 aInfo
 )
 \

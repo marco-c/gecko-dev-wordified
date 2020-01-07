@@ -481,9 +481,9 @@ aDocument
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 {
 MaybeProcessScript

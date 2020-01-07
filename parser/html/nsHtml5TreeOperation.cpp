@@ -762,7 +762,6 @@ nsNodeUtils
 CharacterDataWillChange
 (
 aTextNode
-&
 info
 )
 ;
@@ -791,7 +790,6 @@ nsNodeUtils
 CharacterDataChanged
 (
 aTextNode
-&
 info
 )
 ;

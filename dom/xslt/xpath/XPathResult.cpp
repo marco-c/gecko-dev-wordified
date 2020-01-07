@@ -600,9 +600,9 @@ aDocument
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 {
 Invalidate

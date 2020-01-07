@@ -25671,8 +25671,9 @@ aDocument
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
+&
 aInfo
 )
 {
@@ -25797,8 +25798,7 @@ AsElement
 if
 (
 aInfo
--
->
+.
 mAppend
 &
 &

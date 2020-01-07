@@ -333,9 +333,9 @@ aDocument
 nsIContent
 *
 aContent
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 {
 SendTitleChangeEvent

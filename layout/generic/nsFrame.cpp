@@ -44471,9 +44471,9 @@ nsFrame
 :
 CharacterDataChanged
 (
+const
 CharacterDataChangeInfo
-*
-aInfo
+&
 )
 {
 NS_NOTREACHED
