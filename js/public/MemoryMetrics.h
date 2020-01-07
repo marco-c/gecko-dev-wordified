@@ -4321,6 +4321,13 @@ Other
 MallocHeap
 privateData
 )
+\
+macro
+(
+Other
+MallocHeap
+scriptCountsMap
+)
 CompartmentStats
 (
 )
