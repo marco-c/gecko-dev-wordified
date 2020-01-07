@@ -2324,6 +2324,7 @@ super
 "
 proxy
 "
+Schemas
 )
 ;
 this
@@ -2699,7 +2700,9 @@ this
 can
 )
 ;
-Schemas
+proxyScriptAPIManager
+.
+schema
 .
 inject
 (
