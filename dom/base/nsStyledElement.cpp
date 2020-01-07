@@ -616,6 +616,11 @@ same
 if
 (
 hasListeners
+|
+|
+GetCustomElementData
+(
+)
 )
 {
 /
