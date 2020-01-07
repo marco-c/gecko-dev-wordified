@@ -165,6 +165,15 @@ include
 "
 vm
 /
+StringType
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 -
 inl

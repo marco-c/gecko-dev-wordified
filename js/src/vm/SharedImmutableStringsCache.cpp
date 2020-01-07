@@ -128,6 +128,15 @@ String
 .
 h
 "
+#
+include
+"
+util
+/
+Text
+.
+h
+"
 namespace
 js
 {

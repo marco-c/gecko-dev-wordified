@@ -372,6 +372,15 @@ h
 #
 include
 "
+vm
+/
+StringType
+.
+h
+"
+#
+include
+"
 wasm
 /
 AsmJS
