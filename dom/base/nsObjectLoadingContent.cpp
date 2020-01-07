@@ -5287,7 +5287,7 @@ objectElement
 HTMLObjectElement
 :
 :
-FromContent
+FromNode
 (
 parent
 )
@@ -18763,7 +18763,7 @@ embed
 HTMLEmbedElement
 :
 :
-FromContent
+FromNode
 (
 child
 )
@@ -18792,7 +18792,7 @@ object
 HTMLObjectElement
 :
 :
-FromContent
+FromNode
 (
 child
 )
@@ -23670,7 +23670,7 @@ object
 HTMLObjectElement
 :
 :
-FromContent
+FromNode
 (
 parent
 )

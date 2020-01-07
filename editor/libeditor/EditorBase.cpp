@@ -3138,7 +3138,7 @@ element
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -24292,7 +24292,7 @@ deleteCharData
 CharacterData
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 deleteNode
 )

@@ -51195,7 +51195,7 @@ xulElement
 nsXULElement
 :
 :
-FromContent
+FromNode
 (
 focusedContent
 )

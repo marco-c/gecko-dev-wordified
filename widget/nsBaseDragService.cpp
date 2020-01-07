@@ -4454,7 +4454,7 @@ canvas
 HTMLCanvasElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )

@@ -3835,7 +3835,7 @@ dom
 HTMLTableElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )

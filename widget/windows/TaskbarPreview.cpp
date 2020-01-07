@@ -2070,7 +2070,7 @@ dom
 HTMLCanvasElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )

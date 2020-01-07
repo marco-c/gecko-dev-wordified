@@ -8407,7 +8407,7 @@ inputElement
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aContent
 )

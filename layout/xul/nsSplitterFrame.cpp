@@ -2118,7 +2118,7 @@ element
 nsXULElement
 :
 :
-FromContent
+FromNode
 (
 mOuter
 -

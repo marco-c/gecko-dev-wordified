@@ -3067,7 +3067,7 @@ xulEl
 nsXULElement
 :
 :
-FromContent
+FromNode
 (
 aSourceNode
 )
@@ -4491,7 +4491,7 @@ xulEl
 nsXULElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 sourceNode
 -

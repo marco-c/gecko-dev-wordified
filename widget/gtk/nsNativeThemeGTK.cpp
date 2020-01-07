@@ -1710,7 +1710,7 @@ inputElt
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 aFrame
 -

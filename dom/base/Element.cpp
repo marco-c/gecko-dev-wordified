@@ -8962,7 +8962,7 @@ htmlElem
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 aContent
 )
@@ -9305,7 +9305,7 @@ xulElem
 nsXULElement
 :
 :
-FromContent
+FromNode
 (
 this
 )
@@ -12038,7 +12038,7 @@ xulElem
 nsXULElement
 :
 :
-FromContent
+FromNode
 (
 this
 )

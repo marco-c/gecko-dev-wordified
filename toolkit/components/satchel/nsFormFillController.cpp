@@ -1895,7 +1895,7 @@ MaybeStartControllingInput
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 node
 )
@@ -2097,7 +2097,7 @@ MaybeStartControllingInput
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 node
 )
@@ -5404,7 +5404,7 @@ MaybeStartControllingInput
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 input
 )

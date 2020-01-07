@@ -12284,7 +12284,7 @@ htmlElement
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 dragContent
 )
@@ -30707,7 +30707,7 @@ dom
 HTMLLabelElement
 :
 :
-FromContent
+FromNode
 (
 aPossibleLabel
 )

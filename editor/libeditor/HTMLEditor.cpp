@@ -16587,7 +16587,7 @@ anchor
 HTMLAnchorElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )

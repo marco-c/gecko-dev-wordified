@@ -4391,7 +4391,7 @@ dom
 HTMLCanvasElement
 :
 :
-FromContent
+FromNode
 (
 canvasFrame
 -
@@ -7196,7 +7196,7 @@ htmlElement
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )

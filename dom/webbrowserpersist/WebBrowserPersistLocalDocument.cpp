@@ -2294,7 +2294,7 @@ dom
 ProcessingInstruction
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -2713,7 +2713,7 @@ dom
 HTMLLinkElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -2998,7 +2998,7 @@ dom
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -4743,14 +4743,9 @@ dom
 ProcessingInstruction
 :
 :
-FromContent
+FromNode
 (
 aNodeIn
--
->
-AsContent
-(
-)
 )
 )
 {
@@ -5107,7 +5102,7 @@ dom
 HTMLAnchorElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -5164,7 +5159,7 @@ dom
 HTMLAreaElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -6135,7 +6130,7 @@ dom
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )
@@ -6244,7 +6239,7 @@ dom
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 (
 *
@@ -6425,7 +6420,7 @@ dom
 HTMLTextAreaElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -6518,7 +6513,7 @@ dom
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -6562,7 +6557,7 @@ dom
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 (
 *

@@ -907,7 +907,7 @@ xulele
 nsXULElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 mContent
 )

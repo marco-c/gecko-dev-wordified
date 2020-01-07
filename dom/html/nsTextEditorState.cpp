@@ -4193,7 +4193,7 @@ input
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -4224,7 +4224,7 @@ textArea
 HTMLTextAreaElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -7056,7 +7056,7 @@ inputElement
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )
@@ -7089,7 +7089,7 @@ textAreaElement
 HTMLTextAreaElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )
@@ -10103,7 +10103,7 @@ input
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 parentOfParent
 )
@@ -10693,7 +10693,7 @@ inputElement
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )
@@ -10722,7 +10722,7 @@ textAreaElement
 HTMLTextAreaElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )
@@ -11096,7 +11096,7 @@ element
 nsGenericHTMLElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )

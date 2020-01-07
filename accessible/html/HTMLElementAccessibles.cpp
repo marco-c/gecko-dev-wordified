@@ -832,7 +832,7 @@ dom
 HTMLLabelElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -1398,7 +1398,7 @@ dom
 HTMLSummaryElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -1527,7 +1527,7 @@ dom
 HTMLSummaryElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )

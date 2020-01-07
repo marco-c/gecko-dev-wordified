@@ -1773,7 +1773,7 @@ anchor
 HTMLAnchorElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aNode
 -

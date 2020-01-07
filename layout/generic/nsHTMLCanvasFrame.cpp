@@ -593,7 +593,7 @@ canvas
 HTMLCanvasElement
 :
 :
-FromContent
+FromNode
 (
 f
 -
@@ -1512,7 +1512,7 @@ if
 HTMLCanvasElement
 :
 :
-FromContent
+FromNode
 (
 mFrame
 -
@@ -1720,7 +1720,7 @@ canvas
 HTMLCanvasElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 GetContent
 (

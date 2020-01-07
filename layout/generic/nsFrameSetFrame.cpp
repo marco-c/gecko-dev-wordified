@@ -1771,7 +1771,7 @@ ourContent
 HTMLFrameSetElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -4026,7 +4026,7 @@ content
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -5094,7 +5094,7 @@ content
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -5151,7 +5151,7 @@ content
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 aContent
 )
@@ -5202,7 +5202,7 @@ content
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -5275,7 +5275,7 @@ content
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 aContent
 )
@@ -5729,7 +5729,7 @@ ourContent
 HTMLFrameSetElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -8437,7 +8437,7 @@ ourContent
 HTMLFrameSetElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -8645,7 +8645,7 @@ ourContent
 HTMLFrameSetElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )

@@ -4004,7 +4004,7 @@ xulElement
 nsXULElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 targetContent
 )
@@ -4040,7 +4040,7 @@ htmlTextArea
 HTMLTextAreaElement
 :
 :
-FromContent
+FromNode
 (
 targetContent
 )
@@ -4074,7 +4074,7 @@ htmlInputElement
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 targetContent
 )

@@ -1172,7 +1172,7 @@ nsXULElement
 *
 element
 =
-FromContent
+FromNode
 (
 baseElement
 )
@@ -3748,7 +3748,7 @@ nsXULElement
 *
 elm
 =
-FromContent
+FromNode
 (
 content
 )
@@ -5824,7 +5824,7 @@ nsXULElement
 >
 xulElement
 =
-FromContentOrNull
+FromNodeOrNull
 (
 controlContent
 )
@@ -6501,7 +6501,7 @@ nsXULElement
 >
 xulElement
 =
-FromContentOrNull
+FromNodeOrNull
 (
 controlContent
 )

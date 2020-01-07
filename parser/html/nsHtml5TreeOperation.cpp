@@ -3902,7 +3902,7 @@ dom
 HTMLImageElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aNode
 )
@@ -3964,7 +3964,7 @@ dom
 HTMLFormElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aParent
 )

@@ -532,7 +532,7 @@ tab
 nsXULElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 mContent
 )

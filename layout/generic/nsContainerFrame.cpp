@@ -12335,7 +12335,7 @@ hc
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -12655,7 +12655,7 @@ summary
 HTMLSummaryElement
 :
 :
-FromContent
+FromNode
 (
 kid
 -

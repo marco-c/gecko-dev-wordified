@@ -262,7 +262,7 @@ return
 HTMLTableRowElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 GetParent
 (

@@ -6357,7 +6357,7 @@ content
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )

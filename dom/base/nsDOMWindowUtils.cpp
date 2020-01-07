@@ -7047,7 +7047,7 @@ canvas1
 HTMLCanvasElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 contentCanvas1
 )
@@ -7058,7 +7058,7 @@ canvas2
 HTMLCanvasElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 contentCanvas2
 )
@@ -20228,7 +20228,7 @@ img
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 content
 )

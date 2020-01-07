@@ -1659,7 +1659,7 @@ element
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 target
 )

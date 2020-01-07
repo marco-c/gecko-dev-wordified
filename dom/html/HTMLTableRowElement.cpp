@@ -380,7 +380,7 @@ table
 HTMLTableElement
 :
 :
-FromContent
+FromNode
 (
 parent
 )
@@ -398,7 +398,7 @@ return
 HTMLTableElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 parent
 -

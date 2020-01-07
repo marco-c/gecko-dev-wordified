@@ -488,7 +488,7 @@ mSelect
 HTMLSelectElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aSelect
 )
@@ -1473,7 +1473,7 @@ optElement
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 aOptions
 )
@@ -1596,7 +1596,7 @@ optElement
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 child
 )
@@ -1990,7 +1990,7 @@ optElement
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 aOptions
 )
@@ -2123,7 +2123,7 @@ optElement
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 child
 )
@@ -3161,7 +3161,7 @@ optElement
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 aOptions
 )
@@ -3994,7 +3994,7 @@ option
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 aElement
 )
@@ -6028,7 +6028,7 @@ optGroupElement
 HTMLOptGroupElement
 :
 :
-FromContent
+FromNode
 (
 node
 )
@@ -9077,7 +9077,7 @@ opt
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 child
 )
@@ -9141,7 +9141,7 @@ opt
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 grandchild
 )
@@ -9489,7 +9489,7 @@ opt
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 child
 )
@@ -9566,7 +9566,7 @@ opt
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 grandchild
 )

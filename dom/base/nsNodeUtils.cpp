@@ -3671,7 +3671,7 @@ mediaElem
 HTMLMediaElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )

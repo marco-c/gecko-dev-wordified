@@ -1808,7 +1808,7 @@ domOpt
 HTMLOptionElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 focusedContent
 )
@@ -1999,7 +1999,7 @@ if
 HTMLOptGroupElement
 :
 :
-FromContent
+FromNode
 (
 option
 -
@@ -5419,7 +5419,7 @@ optgroup
 HTMLOptGroupElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -7201,7 +7201,7 @@ dom
 HTMLSelectElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 mContent
 )
@@ -7249,7 +7249,7 @@ dom
 HTMLSelectElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 mContent
 )
@@ -7375,7 +7375,7 @@ selectElement
 HTMLSelectElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -7591,7 +7591,7 @@ dom
 HTMLSelectElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 mContent
 )
@@ -7730,7 +7730,7 @@ dom
 HTMLSelectElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -8731,7 +8731,7 @@ dom
 HTMLSelectElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -8861,7 +8861,7 @@ dom
 HTMLSelectElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -10340,7 +10340,7 @@ dom
 HTMLSelectElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -10646,7 +10646,7 @@ dom
 HTMLSelectElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 mContent
 )
@@ -11766,7 +11766,7 @@ dom
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 content
 )
@@ -12223,7 +12223,7 @@ option
 HTMLOptionElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 econtent
 )

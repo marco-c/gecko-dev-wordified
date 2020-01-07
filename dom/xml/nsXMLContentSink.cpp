@@ -1621,7 +1621,7 @@ pi
 ProcessingInstruction
 :
 :
-FromContent
+FromNode
 (
 child
 )

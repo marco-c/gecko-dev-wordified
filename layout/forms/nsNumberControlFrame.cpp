@@ -1825,7 +1825,7 @@ NS_EVENT_STATE_FOCUS
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mTextField
 )
@@ -2239,7 +2239,7 @@ content
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -2251,7 +2251,7 @@ textField
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mTextField
 )
@@ -2727,17 +2727,13 @@ GetAnonTextControl
 )
 {
 return
-mTextField
-?
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mTextField
 )
-:
-nullptr
 ;
 }
 /
@@ -3560,7 +3556,7 @@ return
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -3584,7 +3580,7 @@ return
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mContent
 )
@@ -3721,7 +3717,7 @@ textField
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mTextField
 )
@@ -3755,7 +3751,7 @@ textField
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mTextField
 )
@@ -4288,7 +4284,7 @@ reason
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mTextField
 )
@@ -4336,7 +4332,7 @@ return
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mTextField
 )
@@ -4846,7 +4842,7 @@ value
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 mTextField
 )

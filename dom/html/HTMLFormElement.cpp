@@ -9242,7 +9242,7 @@ inputElement
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 aOriginatingElement
 )
@@ -9269,7 +9269,7 @@ buttonElement
 HTMLButtonElement
 :
 :
-FromContent
+FromNode
 (
 aOriginatingElement
 )
@@ -12707,7 +12707,7 @@ radio
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 radioGroup
 -

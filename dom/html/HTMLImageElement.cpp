@@ -5976,7 +5976,7 @@ source
 HTMLSourceElement
 :
 :
-FromContent
+FromNode
 (
 aSourceNode
 )
@@ -7055,7 +7055,7 @@ source
 HTMLSourceElement
 :
 :
-FromContent
+FromNode
 (
 aSourceElement
 )

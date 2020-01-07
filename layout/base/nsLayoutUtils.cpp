@@ -50668,7 +50668,7 @@ element
 HTMLImageElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )
@@ -51779,7 +51779,7 @@ canvas
 HTMLCanvasElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aElement
 )
@@ -51813,7 +51813,7 @@ video
 HTMLVideoElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aElement
 )

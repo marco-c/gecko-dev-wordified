@@ -820,7 +820,7 @@ optElement
 HTMLOptionElement
 :
 :
-FromContent
+FromNode
 (
 child
 )

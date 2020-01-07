@@ -2898,7 +2898,7 @@ areaElem
 HTMLAreaElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 draggedNode
 )

@@ -10161,7 +10161,7 @@ return
 HTMLMenuElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 doc
 -
@@ -10232,7 +10232,7 @@ element
 HTMLLabelElement
 :
 :
-FromContent
+FromNode
 (
 aElement
 )
@@ -14083,7 +14083,7 @@ fieldset
 HTMLFieldSetElement
 :
 :
-FromContent
+FromNode
 (
 parent
 )
@@ -14386,7 +14386,7 @@ input
 HTMLInputElement
 :
 :
-FromContent
+FromNode
 (
 this
 )
@@ -15598,7 +15598,7 @@ nsGenericHTMLElement
 *
 element
 =
-FromContent
+FromNode
 (
 content
 )

@@ -5321,7 +5321,7 @@ hc
 nsGenericHTMLElement
 :
 :
-FromContent
+FromNode
 (
 parentContent
 )

@@ -22037,7 +22037,7 @@ input
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 aContent
 )

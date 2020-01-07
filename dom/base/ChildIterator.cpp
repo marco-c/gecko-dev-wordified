@@ -242,7 +242,7 @@ mParent
 HTMLSlotElement
 :
 :
-FromContent
+FromNode
 (
 mParent
 )

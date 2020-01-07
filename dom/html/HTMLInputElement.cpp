@@ -13446,7 +13446,7 @@ grandparent
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 GetParent
 (
@@ -23828,7 +23828,7 @@ selectedRadioButton
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )
@@ -24077,7 +24077,7 @@ previous
 HTMLInputElement
 :
 :
-FromContentOrNull
+FromNodeOrNull
 (
 content
 )

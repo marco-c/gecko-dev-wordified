@@ -2043,7 +2043,7 @@ img
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 mImageContent
 )
@@ -2187,7 +2187,7 @@ image
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 mImageContent
 )
@@ -3488,7 +3488,7 @@ img
 HTMLImageElement
 :
 :
-FromContent
+FromNode
 (
 mImageContent
 )
