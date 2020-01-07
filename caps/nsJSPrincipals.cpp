@@ -1285,6 +1285,14 @@ spec
 }
 else
 {
+#
+ifdef
+FUZZING
+return
+false
+;
+#
+else
 MOZ_CRASH
 (
 "
@@ -1296,6 +1304,8 @@ tag
 "
 )
 ;
+#
+endif
 }
 return
 true
