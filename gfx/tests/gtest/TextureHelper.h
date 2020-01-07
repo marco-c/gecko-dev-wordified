@@ -901,9 +901,6 @@ CreateTextureHostWithBackend
 TextureClient
 *
 aClient
-ISurfaceAllocator
-*
-aDeallocator
 LayersBackend
 &
 aLayersBackend
@@ -957,7 +954,7 @@ TextureHost
 Create
 (
 descriptor
-aDeallocator
+nullptr
 aLayersBackend
 aClient
 -
