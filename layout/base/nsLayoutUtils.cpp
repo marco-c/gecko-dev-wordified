@@ -949,10 +949,17 @@ mozilla
 /
 layers
 /
-APZCTreeManager
+APZUtils
 .
 h
 "
+/
+/
+for
+apz
+:
+:
+CalculatePendingDisplayPort
 #
 include
 "
@@ -21467,7 +21474,7 @@ aScrollFrame
 ScreenMargin
 displayportMargins
 =
-APZCTreeManager
+apz
 :
 :
 CalculatePendingDisplayPort

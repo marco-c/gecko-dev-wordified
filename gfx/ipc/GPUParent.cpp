@@ -283,10 +283,17 @@ mozilla
 /
 layers
 /
-APZCTreeManager
+APZUtils
 .
 h
 "
+/
+/
+for
+apz
+:
+:
+InitializeGlobalState
 #
 include
 "
@@ -902,7 +909,7 @@ Loop
 )
 )
 ;
-APZCTreeManager
+apz
 :
 :
 InitializeGlobalState
