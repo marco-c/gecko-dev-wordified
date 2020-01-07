@@ -2424,11 +2424,7 @@ options
 exclude_file
 :
             
-try
-:
-                
-fp
-=
+with
 open
 (
 filename
@@ -2436,6 +2432,9 @@ filename
 r
 '
 )
+as
+fp
+:
                 
 for
 line
@@ -2453,6 +2452,7 @@ startswith
 '
 )
 :
+                        
 continue
                     
 line
@@ -2467,25 +2467,14 @@ if
 not
 line
 :
+                        
 continue
                     
 excluded_paths
-|
-=
-set
-(
+.
+add
 (
 line
-)
-)
-            
-finally
-:
-                
-fp
-.
-close
-(
 )
     
 #
