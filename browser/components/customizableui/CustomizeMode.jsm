@@ -1191,9 +1191,6 @@ lwthemeButton
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -1782,9 +1779,6 @@ resetButton
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -2717,9 +2711,6 @@ resetButton
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -2735,9 +2726,6 @@ undoResetButton
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -4528,9 +4516,6 @@ overflowButton
 =
 this
 .
-document
-.
-getElementById
 (
 "
 nav
@@ -6691,9 +6676,6 @@ command
 =
 this
 .
-document
-.
-getElementById
 (
 commandID
 )
@@ -7132,9 +7114,6 @@ aTarget
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -7286,9 +7265,6 @@ aTarget
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -7585,9 +7561,6 @@ btn
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -8251,9 +8224,6 @@ wrapper
 =
 this
 .
-document
-.
-getElementById
 (
 "
 wrapper
@@ -8325,9 +8295,6 @@ widgetNode
 =
 this
 .
-document
-.
-getElementById
 (
 aWidgetId
 )
@@ -10189,9 +10156,6 @@ footer
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -10209,9 +10173,6 @@ recommendedLabel
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -10350,9 +10311,6 @@ whimsyButton
 =
 this
 .
-document
-.
-getElementById
 (
 "
 whimsy
@@ -10425,9 +10383,6 @@ btn
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -10456,9 +10411,6 @@ undoResetButton
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -10725,9 +10677,6 @@ originalTarget
 |
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -10800,9 +10749,6 @@ contentContainer
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -10864,9 +10810,6 @@ contentContainer
 =
 this
 .
-document
-.
-getElementById
 (
 "
 customization
@@ -14784,9 +14727,6 @@ draggedWrapper
 =
 this
 .
-document
-.
-getElementById
 (
 "
 wrapper
@@ -15348,9 +15288,6 @@ draggedWrapper
 =
 this
 .
-document
-.
-getElementById
 (
 "
 wrapper
@@ -16630,9 +16567,6 @@ _setupDownloadAutoHideToggle
 {
 this
 .
-document
-.
-getElementById
 (
 kDownloadAutohidePanelId
 )
@@ -16681,9 +16615,6 @@ true
 ;
 this
 .
-document
-.
-getElementById
 (
 kDownloadAutohidePanelId
 )
@@ -17412,9 +17343,6 @@ whimsyButton
 =
 this
 .
-document
-.
-getElementById
 (
 "
 whimsy
