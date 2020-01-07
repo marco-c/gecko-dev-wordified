@@ -83,6 +83,22 @@ central
 "
     
 #
+mar
+    
+"
+mar_tools_url
+"
+:
+os
+.
+environ
+[
+"
+MAR_TOOLS_URL
+"
+]
+    
+#
 repositories
     
 "
