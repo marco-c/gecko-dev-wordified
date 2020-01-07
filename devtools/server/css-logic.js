@@ -220,7 +220,8 @@ useful
 API
 to
 a
-nsIDOMCSSRule
+DOM
+CSSRule
 including
 access
 to
@@ -2255,7 +2256,7 @@ i
 Get
 the
 number
-nsIDOMCSSRule
+CSSRule
 objects
 in
 the
@@ -2285,7 +2286,7 @@ only
 the
 number
 of
-nsIDOMCSSRule
+CSSRule
 objects
 inside
 the
@@ -2329,7 +2330,7 @@ number
 the
 number
 of
-nsIDOMCSSRule
+CSSRule
 (
 all
 rules
@@ -4886,7 +4887,7 @@ number
 the
 number
 of
-nsIDOMCSSRule
+CSSRule
 objects
 in
 this

@@ -200,12 +200,6 @@ Rule
 NAMESPACE_RULE
 ;
 }
-using
-Rule
-:
-:
-GetType
-;
 virtual
 nsAtom
 *
@@ -240,7 +234,7 @@ const
 final
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 NAMESPACE_RULE

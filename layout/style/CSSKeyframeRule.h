@@ -180,12 +180,6 @@ Rule
 KEYFRAME_RULE
 ;
 }
-using
-Rule
-:
-:
-GetType
-;
 bool
 IsCCLeaf
 (
@@ -214,7 +208,7 @@ const
 final
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 KEYFRAME_RULE

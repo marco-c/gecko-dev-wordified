@@ -191,12 +191,6 @@ Rule
 KEYFRAMES_RULE
 ;
 }
-using
-Rule
-:
-:
-GetType
-;
 /
 /
 WebIDL
@@ -209,7 +203,7 @@ const
 final
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 KEYFRAMES_RULE

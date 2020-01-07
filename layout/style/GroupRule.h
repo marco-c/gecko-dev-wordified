@@ -1098,12 +1098,6 @@ aRv
 ;
 protected
 :
-/
-/
-to
-help
-implement
-nsIDOMCSSRule
 void
 AppendRulesToCssText
 (

@@ -287,7 +287,8 @@ useful
 API
 to
 a
-nsIDOMCSSRule
+DOM
+CSSRule
 including
 access
 to

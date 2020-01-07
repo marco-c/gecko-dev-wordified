@@ -158,13 +158,6 @@ CSSNamespaceRule
 .
 h
 "
-#
-include
-"
-nsIDOMCSSRule
-.
-h
-"
 class
 nsAtom
 ;

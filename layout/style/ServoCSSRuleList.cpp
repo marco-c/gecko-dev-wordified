@@ -458,7 +458,7 @@ if
 type
 =
 =
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 FONT_FACE_RULE
@@ -467,7 +467,7 @@ FONT_FACE_RULE
 type
 =
 =
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 COUNTER_STYLE_RULE
@@ -646,7 +646,7 @@ name_
 )
 \
 case
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 const_
@@ -833,7 +833,7 @@ set
 properly
 .
 case
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 FONT_FACE_RULE
@@ -851,7 +851,7 @@ break
 ;
 }
 case
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 COUNTER_STYLE_RULE
@@ -869,7 +869,7 @@ break
 ;
 }
 case
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 KEYFRAME_RULE

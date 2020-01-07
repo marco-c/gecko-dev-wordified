@@ -273,6 +273,7 @@ possible
 const
 {
 CSS
+CSSRule
 FileReader
 indexedDB
 InspectorUtils
@@ -306,6 +307,9 @@ wantGlobalProperties
 [
 "
 CSS
+"
+"
+CSSRule
 "
 "
 FileReader
@@ -1561,6 +1565,7 @@ TextDecoder
 TextDecoder
 URL
 CSS
+CSSRule
 loader
 :
 {
@@ -2122,20 +2127,6 @@ jsm
 setInterval
 ;
 }
-)
-;
-lazyGlobal
-(
-"
-CSSRule
-"
-(
-)
-=
->
-Ci
-.
-nsIDOMCSSRule
 )
 ;
 lazyGlobal

@@ -202,12 +202,6 @@ Rule
 PAGE_RULE
 ;
 }
-using
-Rule
-:
-:
-GetType
-;
 /
 /
 WebIDL
@@ -220,7 +214,7 @@ const
 final
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 PAGE_RULE

@@ -182,16 +182,6 @@ MEDIA_RULE
 }
 /
 /
-XPCOM
-interface
-using
-Rule
-:
-:
-GetType
-;
-/
-/
 WebIDL
 interface
 uint16_t
@@ -202,7 +192,7 @@ const
 override
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 MEDIA_RULE

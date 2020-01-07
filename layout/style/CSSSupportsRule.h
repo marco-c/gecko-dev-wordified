@@ -180,12 +180,6 @@ Rule
 SUPPORTS_RULE
 ;
 }
-using
-Rule
-:
-:
-GetType
-;
 /
 /
 WebIDL
@@ -198,7 +192,7 @@ const
 override
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 SUPPORTS_RULE

@@ -3261,9 +3261,7 @@ rule
 type
 !
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 MEDIA_RULE
 )
@@ -3436,9 +3434,7 @@ item
 type
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 CHARSET_RULE
 )
@@ -3557,9 +3553,7 @@ cssRules
 type
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 CHARSET_RULE
 )
@@ -5282,9 +5276,7 @@ rule
 type
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 IMPORT_RULE
 )
@@ -5449,9 +5441,7 @@ rule
 type
 !
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 CHARSET_RULE
 )
