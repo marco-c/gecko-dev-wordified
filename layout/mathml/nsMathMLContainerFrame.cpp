@@ -9381,9 +9381,9 @@ italicCorrection
 =
 0
 ;
-aFrame
--
->
+nsMathMLContainerFrame
+:
+:
 GetItalicCorrection
 (
 aDesiredSize

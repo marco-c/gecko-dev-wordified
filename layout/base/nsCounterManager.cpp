@@ -433,9 +433,9 @@ list
 ;
 mValueAfter
 =
-aList
--
->
+nsCounterList
+:
+:
 ValueBefore
 (
 this
@@ -537,9 +537,9 @@ nsCounterManager
 :
 IncrementCounter
 (
-aList
--
->
+nsCounterList
+:
+:
 ValueBefore
 (
 this

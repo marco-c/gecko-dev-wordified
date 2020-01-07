@@ -485,8 +485,9 @@ i
 }
 }
 return
-mConnections
-.
+ConnectionArray
+:
+:
 NoIndex
 ;
 }
@@ -536,8 +537,9 @@ aSessionId
 )
 !
 =
-mConnections
-.
+ConnectionArray
+:
+:
 NoIndex
 ?
 true

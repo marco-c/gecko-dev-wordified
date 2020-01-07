@@ -1292,9 +1292,9 @@ cases
 .
 if
 (
-styleSet
--
->
+ServoStyleSet
+:
+:
 MayTraverseFrom
 (
 newContent

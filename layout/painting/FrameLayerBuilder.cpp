@@ -10987,9 +10987,9 @@ ImageContainer
 >
 container
 =
-mLayerManager
--
->
+LayerManager
+:
+:
 CreateImageContainer
 (
 )

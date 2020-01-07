@@ -1170,8 +1170,9 @@ SdpMediaSection
 Protocol
 protocol
 (
-mSdpHelper
-.
+SdpHelper
+:
+:
 GetProtocolForMediaType
 (
 sendTrack
@@ -1352,8 +1353,9 @@ IsStopped
 )
 )
 {
-mSdpHelper
-.
+SdpHelper
+:
+:
 DisableMsection
 (
 local
@@ -3478,8 +3480,9 @@ IsStopped
 )
 )
 {
-mSdpHelper
-.
+SdpHelper
+:
+:
 DisableMsection
 (
 sdp
@@ -3643,8 +3646,9 @@ m
 -
 section
 .
-mSdpHelper
-.
+SdpHelper
+:
+:
 DisableMsection
 (
 sdp

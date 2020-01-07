@@ -722,9 +722,9 @@ database
 int
 numberOfAzimuths
 =
-database
--
->
+HRTFDatabase
+:
+:
 numberOfAzimuths
 (
 )

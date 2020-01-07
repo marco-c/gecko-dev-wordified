@@ -1541,9 +1541,9 @@ StyleContext
 presContext
 dummy
 refBox
-presContext
--
->
+nsPresContext
+:
+:
 AppUnitsPerCSSPixel
 (
 )
