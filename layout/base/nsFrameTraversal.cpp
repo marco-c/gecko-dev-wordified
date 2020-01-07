@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+nsFrameTraversal
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -125,13 +132,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsFrameTraversal
 .
 h
 "

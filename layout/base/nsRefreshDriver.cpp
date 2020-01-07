@@ -227,6 +227,13 @@ vsync
 *
 /
 #
+include
+"
+nsRefreshDriver
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -310,13 +317,6 @@ h
 include
 "
 nsHostObjectProtocolHandler
-.
-h
-"
-#
-include
-"
-nsRefreshDriver
 .
 h
 "
