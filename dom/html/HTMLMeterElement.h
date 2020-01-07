@@ -224,6 +224,7 @@ aPreallocateChildren
 const
 override
 ;
+virtual
 bool
 ParseAttribute
 (
@@ -236,6 +237,9 @@ const
 nsAString
 &
 aValue
+nsIPrincipal
+*
+aMaybeScriptedPrincipal
 nsAttrValue
 &
 aResult
