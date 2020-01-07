@@ -1464,7 +1464,7 @@ Cu
 import
 result
 as
-SDK
+DevTools
 loader
 would
 freeze
@@ -1774,7 +1774,7 @@ XMLHttpRequest
 ;
 /
 /
-SDK
+DevTools
 loader
 copy
 globals
@@ -1784,9 +1784,9 @@ on
 each
 module
 global
+/
+/
 object
-/
-/
 so
 that
 we
@@ -1799,7 +1799,7 @@ here
 in
 order
 to
-instanciate
+instantiate
 each
 /
 /

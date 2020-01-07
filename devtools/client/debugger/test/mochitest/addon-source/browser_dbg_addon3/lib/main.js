@@ -62,7 +62,7 @@ debuggerAttached
 )
 ;
 var
-sdkLoaderDestroyObserver
+devtoolsLoaderDestroyObserver
 =
 {
 observe
@@ -77,7 +77,7 @@ Remove
 all
 observers
 on
-sdk
+devtools
 :
 loader
 :
@@ -96,9 +96,9 @@ observerService
 .
 removeObserver
 (
-sdkLoaderDestroyObserver
+devtoolsLoaderDestroyObserver
 "
-sdk
+devtools
 :
 loader
 :
@@ -113,9 +113,9 @@ observerService
 .
 addObserver
 (
-sdkLoaderDestroyObserver
+devtoolsLoaderDestroyObserver
 "
-sdk
+devtools
 :
 loader
 :
