@@ -195,16 +195,7 @@ return
 mList
 ;
 }
-enum
-class
-PartialUpdateResult
-{
-Failed
-NoChange
-Updated
-}
-;
-PartialUpdateResult
+bool
 AttemptPartialUpdate
 (
 nscolor
@@ -272,7 +263,7 @@ RetainedDisplayListBuilder
 )
 private
 :
-bool
+void
 PreProcessDisplayList
 (
 nsDisplayList
@@ -283,7 +274,7 @@ AnimatedGeometryRoot
 aAGR
 )
 ;
-bool
+void
 MergeDisplayLists
 (
 nsDisplayList
