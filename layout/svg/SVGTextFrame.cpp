@@ -28653,6 +28653,16 @@ a
 )
 )
 {
+MOZ_ASSERT
+(
+aContent
+-
+>
+IsSVGElement
+(
+)
+)
+;
 /
 /
 We

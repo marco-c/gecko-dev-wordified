@@ -9671,6 +9671,9 @@ FindTextData
 nsIFrame
 *
 aParentFrame
+nsIContent
+*
+aTextContent
 )
 ;
 void
