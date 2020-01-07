@@ -6,7 +6,7 @@ Media
 Source
 Extensions
 tests
-var
+let
 gMSETestPrefs
 =
 [
@@ -21,7 +21,7 @@ enabled
 true
 ]
 [
-'
+"
 media
 .
 audio
@@ -31,11 +31,11 @@ max
 decode
 -
 error
-'
+"
 0
 ]
 [
-'
+"
 media
 .
 video
@@ -45,7 +45,7 @@ max
 decode
 -
 error
-'
+"
 0
 ]
 ]
@@ -96,7 +96,7 @@ bootstrapTest
 (
 )
 {
-var
+const
 ms
 =
 new
@@ -104,7 +104,7 @@ MediaSource
 (
 )
 ;
-var
+const
 el
 =
 document
@@ -214,7 +214,7 @@ uri
 onLoadFunction
 )
 {
-var
+const
 p
 =
 new
@@ -226,7 +226,7 @@ resolve
 reject
 )
 {
-var
+const
 xhr
 =
 new
@@ -327,7 +327,6 @@ return
 p
 ;
 }
-;
 function
 range
 (
@@ -335,7 +334,7 @@ start
 end
 )
 {
-var
+const
 rv
 =
 [
@@ -343,7 +342,7 @@ rv
 ;
 for
 (
-var
+let
 i
 =
 start
@@ -377,7 +376,7 @@ name
 cb
 )
 {
-var
+const
 p
 =
 new
@@ -436,7 +435,7 @@ timeRangeToString
 r
 )
 {
-var
+let
 str
 =
 "
@@ -446,7 +445,7 @@ TimeRanges
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -502,7 +501,7 @@ sb
 typedArrayOrArrayBuffer
 )
 {
-var
+const
 typedArray
 =
 (
@@ -542,7 +541,7 @@ byteLength
 )
 )
 ;
-var
+const
 beforeBuffered
 =
 timeRangeToString
@@ -565,9 +564,9 @@ reject
 once
 (
 sb
-'
+"
 update
-'
+"
 )
 .
 then
@@ -576,7 +575,7 @@ function
 (
 )
 {
-var
+const
 afterBuffered
 =
 timeRangeToString
@@ -637,13 +636,13 @@ buffers
 in
 parallel
 .
-var
+const
 buffers
 =
 {
 }
 ;
-var
+const
 fetches
 =
 [
@@ -651,7 +650,7 @@ fetches
 ;
 for
 (
-var
+const
 chunk
 of
 chunks
@@ -721,7 +720,7 @@ function
 (
 )
 {
-var
+let
 rv
 =
 Promise
@@ -732,7 +731,7 @@ resolve
 ;
 for
 (
-var
+const
 chunk
 of
 chunks
@@ -772,7 +771,7 @@ sb
 typedArrayOrArrayBuffer
 )
 {
-var
+const
 typedArray
 =
 (
@@ -812,7 +811,7 @@ byteLength
 )
 )
 ;
-var
+const
 beforeBuffered
 =
 timeRangeToString
@@ -837,7 +836,7 @@ then
 =
 >
 {
-var
+const
 afterBuffered
 =
 timeRangeToString
@@ -884,13 +883,13 @@ buffers
 in
 parallel
 .
-var
+const
 buffers
 =
 {
 }
 ;
-var
+const
 fetches
 =
 [
@@ -898,7 +897,7 @@ fetches
 ;
 for
 (
-var
+const
 chunk
 of
 chunks
@@ -968,7 +967,7 @@ function
 (
 )
 {
-var
+let
 rv
 =
 Promise
@@ -979,7 +978,7 @@ resolve
 ;
 for
 (
-var
+const
 chunk
 of
 chunks
@@ -1032,7 +1031,7 @@ function
 {
 for
 (
-var
+const
 v
 of
 document
@@ -1054,7 +1053,7 @@ mozDumpDebugInfo
 }
 for
 (
-var
+const
 a
 of
 document
