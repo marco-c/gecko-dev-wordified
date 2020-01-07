@@ -7228,9 +7228,6 @@ RegExpCompartment
 :
 RegExpCompartment
 (
-Zone
-*
-zone
 )
 :
 matchResultTemplateObject_
@@ -7653,9 +7650,6 @@ RegExpCompartment
 :
 sweep
 (
-JSRuntime
-*
-rt
 )
 {
 if

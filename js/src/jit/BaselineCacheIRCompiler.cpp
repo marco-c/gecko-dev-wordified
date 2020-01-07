@@ -5086,7 +5086,6 @@ emitLoadTypedObjectResultShared
 (
 fieldAddr
 scratch2
-layout
 typeDescr
 output
 )

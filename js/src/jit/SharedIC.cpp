@@ -7754,15 +7754,6 @@ engine
 (
 )
 ;
-HandleScript
-script
-=
-info
-.
-innerScript
-(
-)
-;
 /
 /
 This
@@ -7871,8 +7862,6 @@ if
 NegOperation
 (
 cx
-script
-pc
 val
 res
 )

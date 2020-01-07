@@ -2750,9 +2750,6 @@ Interpret
 void
 initCallFrame
 (
-JSContext
-*
-cx
 InterpreterFrame
 *
 prev

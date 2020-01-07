@@ -3023,11 +3023,6 @@ NegOperation
 JSContext
 *
 cx
-HandleScript
-script
-jsbytecode
-*
-pc
 HandleValue
 val
 MutableHandleValue
@@ -3159,11 +3154,6 @@ ToIdOperation
 JSContext
 *
 cx
-HandleScript
-script
-jsbytecode
-*
-pc
 HandleValue
 idval
 MutableHandleValue
