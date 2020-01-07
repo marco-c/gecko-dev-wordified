@@ -995,6 +995,11 @@ RefCountedShmem
 aShm
 )
 ;
+void
+Capture
+(
+)
+;
 private
 :
 friend
