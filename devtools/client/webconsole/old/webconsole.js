@@ -482,6 +482,8 @@ client
 /
 webconsole
 /
+old
+/
 jsterm
 "
 true
@@ -501,6 +503,8 @@ devtools
 client
 /
 webconsole
+/
+old
 /
 jsterm
 "
