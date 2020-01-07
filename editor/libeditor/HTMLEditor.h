@@ -382,6 +382,9 @@ dom
 class
 DocumentFragment
 ;
+class
+MouseEvent
+;
 }
 /
 /
@@ -2842,7 +2845,10 @@ event
 nsresult
 OnMouseMove
 (
-nsIDOMMouseEvent
+dom
+:
+:
+MouseEvent
 *
 aMouseEvent
 )

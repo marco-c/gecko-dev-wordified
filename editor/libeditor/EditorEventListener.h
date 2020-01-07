@@ -220,6 +220,9 @@ dom
 class
 DragEvent
 ;
+class
+MouseEvent
+;
 }
 /
 /
@@ -335,7 +338,10 @@ virtual
 nsresult
 MouseDown
 (
-nsIDOMMouseEvent
+dom
+:
+:
+MouseEvent
 *
 aMouseEvent
 )
@@ -344,7 +350,10 @@ virtual
 nsresult
 MouseUp
 (
-nsIDOMMouseEvent
+dom
+:
+:
+MouseEvent
 *
 aMouseEvent
 )
