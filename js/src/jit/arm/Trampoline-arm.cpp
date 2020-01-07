@@ -207,6 +207,17 @@ inl
 .
 h
 "
+#
+include
+"
+jit
+/
+SharedICHelpers
+-
+inl
+.
+h
+"
 using
 namespace
 js

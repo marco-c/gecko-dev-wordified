@@ -241,6 +241,17 @@ inl
 .
 h
 "
+#
+include
+"
+jit
+/
+SharedICHelpers
+-
+inl
+.
+h
+"
 using
 mozilla
 :
