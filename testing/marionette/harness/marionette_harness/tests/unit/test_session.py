@@ -326,11 +326,17 @@ self
 with
 self
 .
-assertRaises
+assertRaisesRegexp
 (
 errors
 .
-InvalidSessionIdException
+MarionetteException
+"
+Please
+start
+a
+session
+"
 )
 :
             

@@ -6317,9 +6317,6 @@ delete_session
 send_request
 =
 False
-reset_session_id
-=
-True
 )
             
 message
@@ -8465,16 +8462,6 @@ _request_in_app_shutdown
 (
 )
             
-#
-Ensure
-to
-explicitely
-mark
-the
-session
-as
-deleted
-            
 self
 .
 delete_session
@@ -8482,9 +8469,6 @@ delete_session
 send_request
 =
 False
-reset_session_id
-=
-True
 )
             
 #
@@ -8592,9 +8576,6 @@ self
 .
 delete_session
 (
-reset_session_id
-=
-True
 )
             
 self
@@ -8938,16 +8919,6 @@ eRestart
 "
 )
             
-#
-Ensure
-to
-explicitely
-mark
-the
-session
-as
-deleted
-            
 self
 .
 delete_session
@@ -8955,9 +8926,6 @@ delete_session
 send_request
 =
 False
-reset_session_id
-=
-True
 )
             
 try
@@ -9802,9 +9770,6 @@ self
 send_request
 =
 True
-reset_session_id
-=
-False
 )
 :
         
@@ -9871,44 +9836,6 @@ to
 True
 .
         
-:
-param
-reset_session_id
-:
-Optional
-if
-True
-the
-current
-session
-id
-will
-            
-be
-reset
-which
-will
-require
-an
-explicit
-call
-to
-:
-func
-:
-start_session
-            
-before
-the
-test
-can
-continue
-.
-Defaults
-to
-False
-.
-        
 "
 "
 "
@@ -9932,13 +9859,15 @@ deleteSession
 finally
 :
             
-if
-reset_session_id
-:
-                
 self
 .
-session_id
+process_id
+=
+None
+            
+self
+.
+profile
 =
 None
             
@@ -9950,13 +9879,7 @@ None
             
 self
 .
-process_id
-=
-None
-            
-self
-.
-profile
+session_id
 =
 None
             
