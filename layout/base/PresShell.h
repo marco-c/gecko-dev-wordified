@@ -1273,17 +1273,6 @@ PAINT_DEFAULT
 override
 ;
 void
-DispatchSynthMouseMove
-(
-WidgetGUIEvent
-*
-aEvent
-bool
-aFlushOnHoverChange
-)
-override
-;
-void
 ClearMouseCaptureOnView
 (
 nsView

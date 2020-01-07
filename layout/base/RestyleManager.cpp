@@ -465,10 +465,6 @@ mUndisplayedRestyleGeneration
 (
 1
 )
-mHoverGeneration
-(
-0
-)
 mInStyleRefresh
 (
 false

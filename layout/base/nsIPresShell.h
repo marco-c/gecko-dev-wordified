@@ -9699,7 +9699,6 @@ IsVisible
 =
 0
 ;
-virtual
 void
 DispatchSynthMouseMove
 (
@@ -9709,11 +9708,7 @@ mozilla
 WidgetGUIEvent
 *
 aEvent
-bool
-aFlushOnHoverChange
 )
-=
-0
 ;
 virtual
 void
