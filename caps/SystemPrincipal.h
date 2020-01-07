@@ -298,7 +298,7 @@ override
 NS_IMETHOD
 EnsureCSP
 (
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 nsIContentSecurityPolicy
@@ -321,7 +321,7 @@ override
 NS_IMETHOD
 EnsurePreloadCSP
 (
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 nsIContentSecurityPolicy
