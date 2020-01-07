@@ -159,8 +159,8 @@ the
 object
 that
 it
-points
 *
+points
 to
 from
 a
@@ -176,8 +176,8 @@ DropDelegate
 is
 only
 called
-on
 *
+on
 the
 main
 thread

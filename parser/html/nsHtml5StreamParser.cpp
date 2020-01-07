@@ -444,6 +444,7 @@ creation
 nsHtml5StreamParserPtr
 addrefs
 the
+*
 object
 it
 holds
@@ -8127,6 +8128,8 @@ this
 threshold
 corresponds
 to
+/
+/
 "
 confident
 "
@@ -9568,6 +9571,8 @@ speculationAutoLock
 into
 the
 tokenizerAutoLock
+/
+/
 block
 }
 else
@@ -10695,6 +10700,7 @@ an
 nsHtml5StreamParserPtr
 that
 addrefs
+*
 this
 *
 stream

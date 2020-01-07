@@ -2802,13 +2802,6 @@ continue
 ;
 }
 }
-MOZ_FALLTHROUGH_ASSERT
-(
-"
-unreachable
-"
-)
-;
 }
 default
 :
@@ -10889,9 +10882,9 @@ root
 of
 the
 stack
+"
+"
 in
-"
-"
 foreign
 content
 only

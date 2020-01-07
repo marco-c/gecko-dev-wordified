@@ -73,14 +73,14 @@ h
 #
 include
 "
-nsUTF8Utils
+nsHtml5TreeBuilder
 .
 h
 "
 #
 include
 "
-nsHtml5TreeBuilder
+nsUTF8Utils
 .
 h
 "

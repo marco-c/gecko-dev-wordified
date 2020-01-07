@@ -1533,9 +1533,9 @@ the
 "
 srcset
 "
+*
 attribute
 .
-*
 If
 the
 attribute
@@ -1549,6 +1549,7 @@ a
 void
 string
 .
+*
 Otherwise
 it
 '
@@ -1806,6 +1807,7 @@ will
 be
 a
 void
+*
 string
 .
 *

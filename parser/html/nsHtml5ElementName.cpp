@@ -3071,11 +3071,11 @@ nsHtml5ElementName
 nsGkAtoms
 :
 :
-set_
+set
 nsGkAtoms
 :
 :
-set_
+set
 NS_NewHTMLUnknownElement
 NS_NewSVGSetElement
 nsHtml5TreeBuilder
