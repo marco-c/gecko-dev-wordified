@@ -476,7 +476,6 @@ inner
 new
 ServiceWorkerRegistrationWorkerThread
 (
-aWorkerPrivate
 aDescriptor
 )
 ;
