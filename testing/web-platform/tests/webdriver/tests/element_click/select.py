@@ -1309,6 +1309,11 @@ option
 disabled
 >
 foo
+          
+<
+option
+>
+bar
         
 <
 /
