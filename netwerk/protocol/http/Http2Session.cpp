@@ -22510,6 +22510,15 @@ streamID
 CleanupStream
 (
 streamID
+(
+rv
+=
+=
+NS_BINDING_RETARGETED
+)
+?
+NS_BINDING_RETARGETED
+:
 NS_OK
 CANCEL_ERROR
 )
