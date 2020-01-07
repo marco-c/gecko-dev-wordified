@@ -527,7 +527,7 @@ aMedia
 WebIDL
 interface
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -793,7 +793,7 @@ aURLs
 WebIDL
 interface
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -1001,7 +1001,7 @@ override
 WebIDL
 interface
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -1506,7 +1506,7 @@ override
 WebIDL
 interface
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -1757,7 +1757,7 @@ override
 WebIDL
 interface
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -2188,7 +2188,7 @@ WebIDL
 interfaces
 virtual
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
@@ -2376,7 +2376,7 @@ NS_DECL_ISUPPORTS_INHERITED
 WebIDL
 interface
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

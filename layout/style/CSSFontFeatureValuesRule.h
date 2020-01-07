@@ -218,7 +218,7 @@ FONT_FEATURE_VALUES_RULE
 }
 virtual
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

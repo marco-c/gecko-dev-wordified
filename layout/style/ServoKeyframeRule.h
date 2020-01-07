@@ -257,7 +257,7 @@ mRaw
 WebIDL
 interface
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

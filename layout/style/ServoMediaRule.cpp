@@ -591,7 +591,7 @@ void
 ServoMediaRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

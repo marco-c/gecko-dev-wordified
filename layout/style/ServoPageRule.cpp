@@ -1082,7 +1082,7 @@ void
 ServoPageRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

@@ -7796,7 +7796,7 @@ void
 StyleRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

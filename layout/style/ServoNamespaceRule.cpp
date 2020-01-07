@@ -358,7 +358,7 @@ void
 ServoNamespaceRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

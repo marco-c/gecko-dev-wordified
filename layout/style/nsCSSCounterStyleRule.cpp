@@ -548,7 +548,7 @@ void
 nsCSSCounterStyleRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

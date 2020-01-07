@@ -240,7 +240,7 @@ override
 WebIDL
 interface
 void
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

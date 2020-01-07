@@ -476,7 +476,7 @@ void
 ServoSupportsRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &

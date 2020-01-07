@@ -1695,7 +1695,7 @@ void
 ServoKeyframesRule
 :
 :
-GetCssTextImpl
+GetCssText
 (
 nsAString
 &
