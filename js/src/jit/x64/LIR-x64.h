@@ -231,7 +231,6 @@ extraName
 (
 )
 const
-override
 {
 return
 StringFromMIRType
@@ -301,7 +300,6 @@ extraName
 (
 )
 const
-override
 {
 return
 StringFromMIRType
@@ -769,7 +767,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir

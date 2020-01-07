@@ -4160,7 +4160,8 @@ for
 the
 op
 .
-virtual
+private
+:
 const
 char
 *
@@ -4173,6 +4174,16 @@ return
 nullptr
 ;
 }
+public
+:
+const
+char
+*
+getExtraName
+(
+)
+const
+;
 virtual
 Opcode
 op
@@ -4460,7 +4471,6 @@ recoversInput
 )
 const
 ;
-virtual
 void
 dump
 (
@@ -4485,7 +4495,6 @@ Opcode
 op
 )
 ;
-virtual
 void
 printName
 (
@@ -4494,7 +4503,6 @@ GenericPrinter
 out
 )
 ;
-virtual
 void
 printOperands
 (
