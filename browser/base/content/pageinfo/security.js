@@ -937,6 +937,17 @@ if
 (
 !
 info
+|
+|
+uri
+.
+scheme
+=
+=
+=
+"
+about
+"
 )
 {
 document
