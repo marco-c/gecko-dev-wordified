@@ -1368,7 +1368,7 @@ Declaration
 &
 &
 !
-isIgnoredPathForImplicitCtor
+inThirdPartyPath
 (
 Declaration
 )
