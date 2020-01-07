@@ -672,12 +672,9 @@ Size2D
 <
 i32
 >
-IpcSender
-<
-IpcSender
+IpcReceiver
 <
 CanvasMsg
->
 >
 )
 /
