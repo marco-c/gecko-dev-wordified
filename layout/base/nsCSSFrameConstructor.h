@@ -5259,7 +5259,6 @@ mFCData
 nsICSSAnonBoxPseudo
 *
 const
-*
 mPseudoType
 ;
 }

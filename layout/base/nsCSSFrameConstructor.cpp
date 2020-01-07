@@ -61860,7 +61860,6 @@ nsCSSFrameConstructor
 :
 ConstructTableCell
 )
-&
 nsCSSAnonBoxes
 :
 :
@@ -61890,7 +61889,6 @@ nsCSSFrameConstructor
 :
 ConstructTableRowOrRowGroup
 )
-&
 nsCSSAnonBoxes
 :
 :
@@ -61921,7 +61919,6 @@ nsCSSFrameConstructor
 :
 ConstructTableRowOrRowGroup
 )
-&
 nsCSSAnonBoxes
 :
 :
@@ -61973,7 +61970,6 @@ eTypeTable
 )
 NS_NewTableColGroupFrame
 )
-&
 nsCSSAnonBoxes
 :
 :
@@ -61996,7 +61992,6 @@ nsCSSFrameConstructor
 :
 ConstructTable
 )
-&
 nsCSSAnonBoxes
 :
 :
@@ -62017,7 +62012,6 @@ FCDATA_IS_WRAPPER_ANON_BOX
 FCDATA_SKIP_FRAMESET
 NS_NewRubyFrame
 )
-&
 nsCSSAnonBoxes
 :
 :
@@ -62044,7 +62038,6 @@ eTypeRubyBaseContainer
 FCDATA_SKIP_FRAMESET
 NS_NewRubyBaseFrame
 )
-&
 nsCSSAnonBoxes
 :
 :
@@ -62072,7 +62065,6 @@ eTypeRuby
 FCDATA_SKIP_FRAMESET
 NS_NewRubyBaseContainerFrame
 )
-&
 nsCSSAnonBoxes
 :
 :
@@ -62099,7 +62091,6 @@ eTypeRubyTextContainer
 FCDATA_SKIP_FRAMESET
 NS_NewRubyTextFrame
 )
-&
 nsCSSAnonBoxes
 :
 :
@@ -62125,7 +62116,6 @@ eTypeRuby
 FCDATA_SKIP_FRAMESET
 NS_NewRubyTextContainerFrame
 )
-&
 nsCSSAnonBoxes
 :
 :
@@ -66220,11 +66210,10 @@ sPseudoParentData
 aWrapperType
 ]
 ;
-nsAtom
+nsICSSAnonBoxPseudo
 *
 pseudoType
 =
-*
 pseudoData
 .
 mPseudoType
@@ -66841,7 +66830,6 @@ StyleSet
 >
 ResolveInheritingAnonymousBoxStyle
 (
-*
 pseudoData
 .
 mPseudoType
@@ -66886,7 +66874,6 @@ GetContent
 /
 Tag
 type
-*
 pseudoData
 .
 mPseudoType
