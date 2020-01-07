@@ -184,6 +184,9 @@ addon_study
 "
 preference_rollout
 "
+"
+preference_study
+"
 ]
 extra_keys
 :
@@ -288,6 +291,9 @@ objects
 [
 "
 preference_rollback
+"
+"
+preference_study
 "
 ]
 extra_keys
