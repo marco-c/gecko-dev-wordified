@@ -335,7 +335,6 @@ define
 STYLE_STRUCT
 (
 name_
-cb_
 )
 \
 NS_STYLE_SIZES_FIELD
@@ -380,7 +379,6 @@ define
 STYLE_STRUCT
 (
 name_
-cb_
 )
 \
 aSizes
@@ -431,7 +429,6 @@ define
 STYLE_STRUCT
 (
 name_
-cb_
 )
 \
 total
@@ -467,7 +464,6 @@ define
 STYLE_STRUCT
 (
 name_
-cb_
 )
 \
 size_t

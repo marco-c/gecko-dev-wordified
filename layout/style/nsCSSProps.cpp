@@ -15610,9 +15610,7 @@ define
 STYLE_STRUCT
 (
 name
-checkdata_cb
 )
-\
 ePropertyCount_for_
 #
 #

@@ -3473,7 +3473,6 @@ define
 STYLE_STRUCT
 (
 name_
-cb_
 )
 \
 {
@@ -5247,7 +5246,6 @@ define
 STYLE_STRUCT
 (
 name_
-cb_
 )
 \
 servoStyleTotal

@@ -466,7 +466,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 struct
 Gecko
@@ -498,7 +497,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 \
 const
@@ -4483,7 +4481,6 @@ define
 STYLE_STRUCT
 (
 name
-checkdata_cb
 )
 \
 void

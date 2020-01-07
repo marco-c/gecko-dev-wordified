@@ -5826,7 +5826,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 \
 const
@@ -5895,7 +5894,6 @@ name_
 aStyleStruct
 )
 const
-\
 MOZ_NONNULL_RETURN
 {
 \

@@ -246,9 +246,7 @@ define
 STYLE_STRUCT_INHERITED
 (
 name
-checkdata_cb
 )
-\
 eStyleStruct_
 #
 #
@@ -258,7 +256,6 @@ define
 STYLE_STRUCT_RESET
 (
 name
-checkdata_cb
 )
 #
 include
@@ -302,9 +299,7 @@ define
 STYLE_STRUCT_RESET
 (
 name
-checkdata_cb
 )
-\
 eStyleStruct_
 #
 #
@@ -314,7 +309,6 @@ define
 STYLE_STRUCT_INHERITED
 (
 name
-checkdata_cb
 )
 #
 include
