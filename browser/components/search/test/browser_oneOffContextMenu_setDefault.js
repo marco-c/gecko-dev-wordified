@@ -1046,13 +1046,11 @@ focus
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 a
 "
-{
-}
 )
 ;
 }
@@ -1332,10 +1330,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 await

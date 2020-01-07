@@ -960,8 +960,6 @@ synthesizeKey
 "
 KEY_Enter
 "
-{
-}
 )
 ;
 return
@@ -1779,8 +1777,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 await
@@ -1810,8 +1806,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 }

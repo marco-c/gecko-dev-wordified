@@ -94,7 +94,7 @@ body
 key
 :
 "
-VK_LEFT
+KEY_ArrowLeft
 "
 newSelection
 :
@@ -120,7 +120,7 @@ html
 key
 :
 "
-VK_LEFT
+KEY_ArrowLeft
 "
 newSelection
 :
@@ -151,7 +151,7 @@ element
 key
 :
 "
-VK_LEFT
+KEY_ArrowLeft
 "
 newSelection
 :
@@ -175,7 +175,7 @@ body
 key
 :
 "
-VK_RIGHT
+KEY_ArrowRight
 "
 newSelection
 :
@@ -199,7 +199,7 @@ i2
 key
 :
 "
-VK_RIGHT
+KEY_ArrowRight
 "
 newSelection
 :
@@ -230,7 +230,7 @@ element
 key
 :
 "
-VK_RIGHT
+KEY_ArrowRight
 "
 newSelection
 :
@@ -420,8 +420,6 @@ EventUtils
 synthesizeKey
 (
 key
-{
-}
 )
 ;
 yield

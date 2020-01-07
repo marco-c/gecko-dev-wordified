@@ -258,13 +258,11 @@ executeSoon
 {
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 .
 "
-{
-}
 )
 ;
 }
@@ -296,10 +294,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 yield

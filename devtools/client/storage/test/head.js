@@ -4581,7 +4581,7 @@ typeWithTerminator
 (
 newValue
 "
-VK_RETURN
+KEY_Enter
 "
 validate
 )
@@ -5108,9 +5108,9 @@ e
 .
 g
 .
-VK_RETURN
+KEY_Enter
 or
-VK_TAB
+KEY_Tab
 *
 param
 {
@@ -5234,8 +5234,6 @@ EventUtils
 synthesizeKey
 (
 terminator
-{
-}
 )
 ;
 if

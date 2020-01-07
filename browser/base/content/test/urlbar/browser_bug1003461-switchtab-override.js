@@ -281,13 +281,11 @@ dummy_pag
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 e
 "
-{
-}
 )
 ;
 await
@@ -311,10 +309,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 ok
@@ -464,7 +460,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_SHIFT
+KEY_Shift
 "
 {
 type
@@ -480,10 +476,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 info
@@ -504,7 +498,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_SHIFT
+KEY_Shift
 "
 {
 type

@@ -323,10 +323,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RIGHT
+KEY_ArrowRight
 "
-{
-}
 )
 ;
 await
@@ -335,10 +333,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
-{
-}
 )
 ;
 let

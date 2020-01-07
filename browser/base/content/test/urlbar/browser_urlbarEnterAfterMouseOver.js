@@ -56,7 +56,7 @@ slice
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 inputText
 .
@@ -65,8 +65,6 @@ slice
 -
 1
 )
-{
-}
 )
 ;
 await
@@ -308,10 +306,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 is_selected
@@ -484,10 +480,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 await

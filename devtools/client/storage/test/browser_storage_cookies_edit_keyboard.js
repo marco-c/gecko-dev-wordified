@@ -146,7 +146,7 @@ typeWithTerminator
 test6
 "
 "
-VK_TAB
+KEY_Tab
 "
 )
 ;
@@ -160,7 +160,7 @@ example
 org
 "
 "
-VK_TAB
+KEY_Tab
 "
 )
 ;
@@ -171,7 +171,7 @@ typeWithTerminator
 /
 "
 "
-VK_TAB
+KEY_Tab
 "
 )
 ;
@@ -191,7 +191,7 @@ Dec
 GMT
 "
 "
-VK_TAB
+KEY_Tab
 "
 )
 ;
@@ -202,7 +202,7 @@ typeWithTerminator
 test6value
 "
 "
-VK_TAB
+KEY_Tab
 "
 )
 ;
@@ -213,7 +213,7 @@ typeWithTerminator
 false
 "
 "
-VK_TAB
+KEY_Tab
 "
 )
 ;
@@ -224,7 +224,7 @@ typeWithTerminator
 false
 "
 "
-VK_TAB
+KEY_Tab
 "
 )
 ;

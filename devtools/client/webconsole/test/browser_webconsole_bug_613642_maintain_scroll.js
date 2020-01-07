@@ -348,7 +348,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_HOME
+KEY_Home
 "
 {
 }
@@ -626,10 +626,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_END
+KEY_End
 "
-{
-}
 )
 ;
 yield

@@ -262,13 +262,11 @@ foo
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 .
 "
-{
-}
 )
 ;
 await
@@ -329,10 +327,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 await

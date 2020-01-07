@@ -238,13 +238,11 @@ updated
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 u
 "
-{
-}
 )
 ;
 await

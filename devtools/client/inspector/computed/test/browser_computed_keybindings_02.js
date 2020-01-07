@@ -472,10 +472,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 ;
 EventUtils
@@ -483,10 +481,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 yield
@@ -583,7 +579,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -597,10 +593,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_SPACE
 "
-{
-}
 )
 ;
 yield

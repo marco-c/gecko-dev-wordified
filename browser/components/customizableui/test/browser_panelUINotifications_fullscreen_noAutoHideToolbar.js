@@ -483,10 +483,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_F11
+KEY_F11
 "
-{
-}
 )
 ;
 await
@@ -801,10 +799,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_F11
+KEY_F11
 "
-{
-}
 )
 ;
 await

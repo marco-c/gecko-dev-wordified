@@ -362,8 +362,6 @@ synthesizeKey
 "
 KEY_ArrowUp
 "
-{
-}
 )
 ;
 }
@@ -472,7 +470,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_PAGE_UP
+KEY_PageUp
 "
 {
 shiftKey
@@ -521,7 +519,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_PAGE_DOWN
+KEY_PageDown
 "
 {
 shiftKey

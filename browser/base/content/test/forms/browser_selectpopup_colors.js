@@ -3588,8 +3588,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 if

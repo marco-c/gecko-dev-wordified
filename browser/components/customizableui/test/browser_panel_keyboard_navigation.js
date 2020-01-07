@@ -118,8 +118,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 Assert
@@ -153,8 +151,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 Assert
@@ -229,8 +225,6 @@ synthesizeKey
 "
 KEY_ArrowUp
 "
-{
-}
 )
 ;
 Assert
@@ -339,8 +333,6 @@ synthesizeKey
 "
 KEY_ArrowUp
 "
-{
-}
 )
 ;
 let
@@ -430,8 +422,6 @@ synthesizeKey
 "
 KEY_ArrowUp
 "
-{
-}
 )
 ;
 focusedElement
@@ -450,8 +440,6 @@ synthesizeKey
 "
 KEY_Enter
 "
-{
-}
 )
 ;
 await
@@ -567,8 +555,6 @@ synthesizeKey
 "
 KEY_ArrowUp
 "
-{
-}
 )
 ;
 focusedElement
@@ -629,8 +615,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 focusedElement
@@ -680,8 +664,6 @@ synthesizeKey
 "
 KEY_Enter
 "
-{
-}
 )
 ;
 await
@@ -746,8 +728,6 @@ synthesizeKey
 "
 KEY_ArrowUp
 "
-{
-}
 )
 ;
 focusedElement
@@ -790,8 +770,6 @@ synthesizeKey
 "
 KEY_Enter
 "
-{
-}
 )
 ;
 await
@@ -898,8 +876,6 @@ synthesizeKey
 "
 KEY_ArrowUp
 "
-{
-}
 )
 ;
 focusedElement
@@ -972,8 +948,6 @@ synthesizeKey
 "
 KEY_ArrowRight
 "
-{
-}
 )
 ;
 await
@@ -1009,8 +983,6 @@ synthesizeKey
 "
 KEY_ArrowLeft
 "
-{
-}
 )
 ;
 await
@@ -1135,8 +1107,6 @@ synthesizeKey
 "
 KEY_Tab
 "
-{
-}
 )
 ;
 Assert
@@ -1169,8 +1139,6 @@ synthesizeKey
 "
 KEY_Tab
 "
-{
-}
 )
 ;
 Assert
@@ -1418,8 +1386,6 @@ synthesizeKey
 "
 KEY_Tab
 "
-{
-}
 )
 ;
 }
@@ -1432,8 +1398,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 }
@@ -1562,8 +1526,6 @@ synthesizeKey
 "
 KEY_Tab
 "
-{
-}
 )
 ;
 if

@@ -209,13 +209,11 @@ document
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 .
 "
-{
-}
 )
 ;
 await
@@ -256,10 +254,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
-{
-}
 )
 ;
 const

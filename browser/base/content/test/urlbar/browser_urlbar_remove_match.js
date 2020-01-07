@@ -162,10 +162,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 Assert
@@ -208,7 +206,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DELETE
+KEY_Delete
 "
 options
 )

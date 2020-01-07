@@ -1102,13 +1102,11 @@ Suggestions
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 x
 "
-{
-}
 )
 ;
 /
@@ -1167,10 +1165,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DELETE
+KEY_Delete
 "
-{
-}
 )
 ;
 await

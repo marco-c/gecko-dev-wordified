@@ -289,10 +289,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_F11
+KEY_F11
 "
-{
-}
 )
 )
 ;

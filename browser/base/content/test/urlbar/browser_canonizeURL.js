@@ -546,7 +546,7 @@ slice
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 inputValue
 .
@@ -555,8 +555,6 @@ slice
 -
 1
 )
-{
-}
 )
 ;
 }
@@ -574,7 +572,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+KEY_Enter
 "
 options
 )

@@ -1732,8 +1732,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 is
@@ -1781,8 +1779,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 is
@@ -1830,8 +1826,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 /
@@ -1945,8 +1939,6 @@ synthesizeKey
 "
 KEY_ArrowUp
 "
-{
-}
 )
 ;
 is
@@ -2157,10 +2149,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
-{
-}
 )
 ;
 window
@@ -2366,10 +2356,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 ;
 EventUtils
@@ -2377,7 +2365,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -2477,8 +2465,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 await
@@ -2572,10 +2558,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
-{
-}
 )
 ;
 EventUtils
@@ -2583,7 +2567,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_TAB
+KEY_Tab
 "
 {
 shiftKey
@@ -4263,8 +4247,6 @@ synthesizeKey
 "
 KEY_ArrowDown
 "
-{
-}
 )
 ;
 await
@@ -6114,7 +6096,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 {
 }
@@ -6146,7 +6128,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 {
 }
@@ -6179,7 +6161,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 {
 }
@@ -6257,7 +6239,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 {
 }
@@ -6290,7 +6272,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_BACK_SPACE
+KEY_Backspace
 "
 {
 }

@@ -183,13 +183,11 @@ sc
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 r
 "
-{
-}
 )
 ;
 yield

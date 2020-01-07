@@ -243,12 +243,10 @@ popupshown
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 "
-{
-}
 )
 ;
 await

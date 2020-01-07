@@ -201,13 +201,11 @@ sc
 ;
 EventUtils
 .
-synthesizeKey
+sendString
 (
 "
 r
 "
-{
-}
 )
 ;
 await

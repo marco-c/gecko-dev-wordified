@@ -178,10 +178,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 is
@@ -256,10 +254,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ALT
+KEY_Alt
 "
-{
-}
 )
 ;
 }
@@ -286,10 +282,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_F4
+KEY_F4
 "
-{
-}
 )
 ;
 }

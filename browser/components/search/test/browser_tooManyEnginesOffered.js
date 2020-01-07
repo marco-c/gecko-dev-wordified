@@ -184,10 +184,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 await
@@ -501,10 +499,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_UP
+KEY_ArrowUp
 "
-{
-}
 )
 ;
 }
@@ -536,10 +532,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RIGHT
+KEY_ArrowRight
 "
-{
-}
 )
 ;
 await
@@ -587,10 +581,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ESCAPE
+KEY_Escape
 "
-{
-}
 )
 ;
 await

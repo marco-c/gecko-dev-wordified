@@ -1394,10 +1394,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_DOWN
+KEY_ArrowDown
 "
-{
-}
 )
 ;
 EventUtils
@@ -1405,10 +1403,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RIGHT
+KEY_ArrowRight
 "
-{
-}
 )
 ;
 yield
@@ -1433,10 +1429,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_LEFT
+KEY_ArrowLeft
 "
-{
-}
 )
 ;
 yield
@@ -1460,10 +1454,8 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RIGHT
+KEY_ArrowRight
 "
-{
-}
 )
 ;
 yield
