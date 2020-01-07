@@ -298,15 +298,6 @@ NS_IMETHOD
 OpenDocument
 (
 const
-char
-*
-aFileName
-)
-;
-NS_IMETHOD
-OpenDocument
-(
-const
 FileDescriptor
 &
 aFD
