@@ -217,9 +217,10 @@ content
 .
 document
 .
-getElementById
+querySelector
 (
 "
+.
 reader
 -
 estimated
@@ -401,9 +402,10 @@ content
 .
 document
 .
-getElementById
+querySelector
 (
 "
+.
 reader
 -
 estimated
@@ -589,9 +591,10 @@ content
 .
 document
 .
-getElementById
+querySelector
 (
 "
+.
 reader
 -
 estimated

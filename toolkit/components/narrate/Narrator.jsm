@@ -724,9 +724,10 @@ this
 .
 _doc
 .
-getElementById
+querySelector
 (
 "
+.
 container
 "
 )
