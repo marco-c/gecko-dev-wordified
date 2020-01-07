@@ -3718,10 +3718,6 @@ mDictionaryIndex
 =
 0
 ;
-mDictionaryFetcherGroup
-+
-+
-;
 mSpellChecker
 =
 nullptr
