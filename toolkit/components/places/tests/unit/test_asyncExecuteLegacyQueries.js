@@ -35,7 +35,7 @@ is
 a
 test
 for
-asyncExecuteLegacyQueries
+asyncExecuteLegacyQuery
 API
 .
 add_task
@@ -134,12 +134,9 @@ Ci
 nsPIPlacesDatabase
 )
 .
-asyncExecuteLegacyQueries
+asyncExecuteLegacyQuery
 (
-[
 query
-]
-1
 options
 {
 handleResult
@@ -379,12 +376,9 @@ Ci
 nsPIPlacesDatabase
 )
 .
-asyncExecuteLegacyQueries
+asyncExecuteLegacyQuery
 (
-[
 query
-]
-1
 options
 {
 handleResult
