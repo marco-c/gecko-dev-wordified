@@ -1401,6 +1401,9 @@ MutexAutoLock
 aProofOfLock
 )
 {
+auto
+guard
+=
 MakeScopeExit
 (
 [
