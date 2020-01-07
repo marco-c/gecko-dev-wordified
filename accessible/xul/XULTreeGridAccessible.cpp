@@ -3524,6 +3524,7 @@ XULTreeGridCellAccessible
 ActionCount
 (
 )
+const
 {
 bool
 isCycler
@@ -3727,6 +3728,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (

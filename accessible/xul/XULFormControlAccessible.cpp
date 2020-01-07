@@ -650,6 +650,7 @@ XULButtonAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -694,6 +695,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (
@@ -1751,6 +1753,7 @@ XULDropmarkerAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -1950,6 +1953,7 @@ DoAction
 uint8_t
 index
 )
+const
 {
 if
 (
@@ -2222,6 +2226,7 @@ XULCheckboxAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -2289,6 +2294,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (

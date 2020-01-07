@@ -867,6 +867,7 @@ ImageAccessible
 ActionCount
 (
 )
+const
 {
 uint8_t
 actionCount
@@ -950,6 +951,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 /
 /
@@ -1711,6 +1713,7 @@ IsLongDescIndex
 uint8_t
 aIndex
 )
+const
 {
 return
 aIndex

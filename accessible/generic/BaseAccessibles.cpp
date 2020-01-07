@@ -964,6 +964,7 @@ LinkableAccessible
 ActionCount
 (
 )
+const
 {
 bool
 isLink
@@ -1337,6 +1338,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (

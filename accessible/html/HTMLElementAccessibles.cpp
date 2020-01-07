@@ -867,6 +867,7 @@ HTMLLabelAccessible
 ActionCount
 (
 )
+const
 {
 return
 nsCoreUtils
@@ -933,6 +934,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (
@@ -1362,6 +1364,7 @@ HTMLSummaryAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -1483,6 +1486,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (

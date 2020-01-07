@@ -1853,6 +1853,7 @@ DoAction
 uint8_t
 index
 )
+const
 {
 if
 (
@@ -1915,6 +1916,7 @@ XULMenuitemAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -2533,6 +2535,7 @@ DoAction
 uint8_t
 index
 )
+const
 {
 return
 false
@@ -2565,6 +2568,7 @@ XULMenuSeparatorAccessible
 ActionCount
 (
 )
+const
 {
 return
 0

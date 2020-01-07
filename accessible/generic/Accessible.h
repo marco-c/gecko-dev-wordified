@@ -4110,6 +4110,7 @@ uint8_t
 ActionCount
 (
 )
+const
 ;
 /
 *
@@ -4191,6 +4192,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 ;
 /
 *

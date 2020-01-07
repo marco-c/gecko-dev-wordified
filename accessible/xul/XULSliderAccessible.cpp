@@ -496,6 +496,7 @@ XULSliderAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -546,6 +547,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (

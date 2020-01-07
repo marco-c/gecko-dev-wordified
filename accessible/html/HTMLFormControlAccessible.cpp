@@ -487,6 +487,7 @@ HTMLCheckboxAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -588,6 +589,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (
@@ -1497,6 +1499,7 @@ HTMLButtonAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -1541,6 +1544,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (
@@ -3303,6 +3307,7 @@ HTMLTextFieldAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -3347,6 +3352,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (

@@ -190,6 +190,7 @@ uint8_t
 ActionCount
 (
 )
+const
 override
 ;
 virtual
@@ -211,6 +212,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 override
 ;
 /
@@ -406,6 +408,7 @@ IsLongDescIndex
 uint8_t
 aIndex
 )
+const
 ;
 }
 ;

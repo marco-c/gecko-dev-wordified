@@ -462,6 +462,7 @@ XULTabAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -506,6 +507,7 @@ DoAction
 uint8_t
 index
 )
+const
 {
 if
 (
@@ -1188,6 +1190,7 @@ XULTabsAccessible
 ActionCount
 (
 )
+const
 {
 return
 0
