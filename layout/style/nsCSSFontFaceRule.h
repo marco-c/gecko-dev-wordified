@@ -568,14 +568,6 @@ override
 #
 endif
 virtual
-int32_t
-GetType
-(
-)
-const
-override
-;
-virtual
 already_AddRefed
 <
 mozilla
