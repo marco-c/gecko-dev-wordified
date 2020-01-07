@@ -282,7 +282,6 @@ dbg
 Select
 a
 source
-.
 ok
 (
 !
@@ -329,6 +328,12 @@ sourceNode
 ;
 await
 selected
+;
+await
+waitForSelectedSource
+(
+dbg
+)
 ;
 ok
 (
