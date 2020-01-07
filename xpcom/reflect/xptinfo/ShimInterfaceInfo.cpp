@@ -548,13 +548,6 @@ h
 #
 include
 "
-nsIDOMStyleSheetList
-.
-h
-"
-#
-include
-"
 nsIDOMSVGElement
 .
 h
@@ -2511,10 +2504,6 @@ SimpleGestureEvent
 DEFINE_SHIM
 (
 StyleSheet
-)
-DEFINE_SHIM
-(
-StyleSheetList
 )
 DEFINE_SHIM
 (
