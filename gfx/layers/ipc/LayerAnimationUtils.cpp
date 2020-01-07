@@ -151,6 +151,13 @@ For
 TimingFunction
 etc
 .
+#
+include
+"
+nsTimingFunction
+.
+h
+"
 namespace
 mozilla
 {

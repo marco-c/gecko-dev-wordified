@@ -974,14 +974,10 @@ h
 #
 include
 "
-nsStyleStruct
+nsTimingFunction
 .
 h
 "
-/
-/
-for
-nsTimingFunction
 #
 include
 "

@@ -133,13 +133,10 @@ nsSMILKeySpline
 #
 include
 "
-nsStyleStruct
+nsTimingFunction
 .
 h
 "
-/
-/
-nsTimingFunction
 namespace
 mozilla
 {
