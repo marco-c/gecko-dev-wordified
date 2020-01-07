@@ -4022,6 +4022,7 @@ offset_
 ;
 public
 :
+explicit
 RelocationIterator
 (
 CompactBufferReader
@@ -17726,6 +17727,7 @@ ONES
 )
 {
 }
+explicit
 Header
 (
 const

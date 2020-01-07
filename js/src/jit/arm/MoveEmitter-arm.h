@@ -382,6 +382,7 @@ move
 ;
 public
 :
+explicit
 MoveEmitterARM
 (
 MacroAssembler
