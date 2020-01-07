@@ -4269,7 +4269,7 @@ void
 MacroAssembler
 :
 :
-outOfLineWasmTruncateDoubleToInt32
+oolWasmTruncateCheckF64ToI32
 (
 FloatRegister
 input
@@ -4424,7 +4424,7 @@ void
 MacroAssembler
 :
 :
-outOfLineWasmTruncateFloat32ToInt32
+oolWasmTruncateCheckF32ToI32
 (
 FloatRegister
 input
@@ -4557,7 +4557,7 @@ void
 MacroAssembler
 :
 :
-outOfLineWasmTruncateDoubleToInt64
+oolWasmTruncateCheckF64ToI64
 (
 FloatRegister
 input
@@ -4746,7 +4746,7 @@ void
 MacroAssembler
 :
 :
-outOfLineWasmTruncateFloat32ToInt64
+oolWasmTruncateCheckF32ToI64
 (
 FloatRegister
 input
