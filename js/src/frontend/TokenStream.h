@@ -7599,6 +7599,12 @@ TokenStart
 start
 )
 ;
+MOZ_COLD
+bool
+badToken
+(
+)
+;
 int32_t
 getCharIgnoreEOL
 (
@@ -9002,6 +9008,12 @@ CharsSharedBase
 :
 :
 atomizeChars
+;
+using
+GeneralCharsBase
+:
+:
+badToken
 ;
 using
 GeneralCharsBase
