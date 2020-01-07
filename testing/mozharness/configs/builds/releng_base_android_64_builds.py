@@ -1981,23 +1981,13 @@ postflight_build_mach_commands
         
 [
 '
-gradle
+android
 '
          
 '
+archive
+-
 geckoview
-:
-assembleWithGeckoBinaries
-'
-         
-'
-geckoview_example
-:
-assembleWithGeckoBinaries
-'
-         
-'
-uploadArchives
 '
         
 ]
