@@ -120,7 +120,7 @@ with_thread_local_font_context
 }
 ;
 use
-display_list_builder
+display_list
 :
 :
 {
@@ -129,7 +129,7 @@ ListItemFlowDisplayListBuilding
 }
 ;
 use
-display_list_builder
+display_list
 :
 :
 StackingContextCollectionState
