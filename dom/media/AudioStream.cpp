@@ -2345,6 +2345,12 @@ AUDIO_OUTPUT_FORMAT
 :
 value
 ;
+params
+.
+prefs
+=
+CUBEB_STREAM_PREF_NONE
+;
 mAudioClock
 .
 Init
