@@ -2436,7 +2436,7 @@ jitLazyLink
 builder
 -
 >
-sizeOfIncludingThis
+sizeOfExcludingThis
 (
 mallocSizeOf
 )
