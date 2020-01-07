@@ -165,6 +165,11 @@ winnt
 h
 >
 #
+include
+<
+cstdint
+>
+#
 else
 #
 include

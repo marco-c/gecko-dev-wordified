@@ -188,6 +188,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 VideoLimits
 .
 h
