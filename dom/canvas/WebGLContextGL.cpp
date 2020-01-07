@@ -11865,6 +11865,15 @@ fFinish
 (
 )
 ;
+mCompletedFenceId
+=
+mNextFenceId
+;
+mNextFenceId
++
+=
+1
+;
 }
 void
 WebGLContext

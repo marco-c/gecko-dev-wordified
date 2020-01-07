@@ -575,6 +575,11 @@ mTFBindCount
 size_t
 mNonTFBindCount
 ;
+uint64_t
+mLastUpdateFenceId
+=
+0
+;
 struct
 IndexRange
 final
