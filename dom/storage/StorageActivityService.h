@@ -298,7 +298,7 @@ OriginAttributes
 nsDataHashtable
 <
 nsCStringHashKey
-TimeStamp
+PRTime
 >
 mActivities
 ;
