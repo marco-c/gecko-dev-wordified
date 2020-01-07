@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsIDOMSVGLength
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -708,7 +701,7 @@ DOMSVGLength
 final
 :
 public
-nsIDOMSVGLength
+nsISupports
 public
 nsWrapperCache
 {
@@ -763,7 +756,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGLength
 )
-NS_DECL_NSIDOMSVGLENGTH
 /
 *
 *

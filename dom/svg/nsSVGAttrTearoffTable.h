@@ -172,7 +172,7 @@ e
 .
 g
 .
-nsIDOMSVGLength
+DOMSVGLength
 )
 .
 This

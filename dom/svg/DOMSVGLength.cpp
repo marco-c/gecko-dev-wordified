@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsIDOMSVGLength
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -389,10 +382,6 @@ DOMSVGLength
 pseudo
 -
 interface
-NS_INTERFACE_MAP_ENTRY
-(
-nsIDOMSVGLength
-)
 NS_INTERFACE_MAP_ENTRY
 (
 nsISupports
