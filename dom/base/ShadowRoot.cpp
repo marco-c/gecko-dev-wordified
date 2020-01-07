@@ -3532,6 +3532,6 @@ aResult
 nullptr
 ;
 return
-NS_ERROR_DOM_DATA_CLONE_ERR
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 }
