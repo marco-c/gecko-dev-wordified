@@ -124,12 +124,12 @@ JSString_ptr_t
         
 self
 .
-ATOM_BIT
+NON_ATOM_BIT
 =
 dummy
 [
 '
-ATOM_BIT
+NON_ATOM_BIT
 '
 ]
         
