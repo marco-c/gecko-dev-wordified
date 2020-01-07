@@ -11479,16 +11479,9 @@ a
 DOM
 peer
 !
-{
-name
-:
 "
 VTTRegion
 "
-disabled
-:
-true
-}
 /
 /
 IMPORTANT
