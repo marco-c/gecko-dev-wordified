@@ -128,6 +128,15 @@ h
 #
 include
 "
+base
+/
+shared_memory
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
