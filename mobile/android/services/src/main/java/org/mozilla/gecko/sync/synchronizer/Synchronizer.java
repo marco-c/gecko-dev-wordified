@@ -248,7 +248,7 @@ LOG_TAG
 SyncDelSDelegate
 "
 ;
-protected
+private
 String
 configSyncID
 ;
@@ -268,7 +268,7 @@ save
 (
 )
 .
-protected
+private
 SynchronizerDelegate
 synchronizerDelegate
 ;
