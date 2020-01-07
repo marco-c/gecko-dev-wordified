@@ -1367,7 +1367,6 @@ nsTArray
 nsCString
 >
 &
-&
 extra_keys
 bool
 recordOnRelease
@@ -1387,10 +1386,7 @@ object
 )
 extra_keys
 (
-Move
-(
 extra_keys
-)
 )
 recordOnRelease
 (
@@ -7622,10 +7618,7 @@ info
 aCategory
 method
 object
-Move
-(
 extra_keys
-)
 recordOnRelease
 }
 ;
