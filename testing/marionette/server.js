@@ -1697,13 +1697,9 @@ network
 .
 [
 "
-extensions
+app
 .
-shield
--
-recipe
--
-client
+normandy
 .
 api_url
 "

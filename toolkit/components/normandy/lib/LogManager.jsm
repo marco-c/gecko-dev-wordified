@@ -93,13 +93,9 @@ const
 ROOT_LOGGER_NAME
 =
 "
-extensions
+app
 .
-shield
--
-recipe
--
-client
+normandy
 "
 ;
 let
