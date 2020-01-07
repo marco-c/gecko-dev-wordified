@@ -3644,6 +3644,11 @@ if
 options
 .
 printDeviceInfo
+and
+not
+options
+.
+verify
 :
         
 reftest
@@ -3729,6 +3734,11 @@ if
 options
 .
 printDeviceInfo
+and
+not
+options
+.
+verify
 :
         
 reftest

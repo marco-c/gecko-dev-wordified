@@ -2728,6 +2728,11 @@ options
 log_mach
 is
 None
+and
+not
+options
+.
+verify
 :
         
 mochitest
@@ -2836,6 +2841,11 @@ options
 log_mach
 is
 None
+and
+not
+options
+.
+verify
 :
         
 mochitest
