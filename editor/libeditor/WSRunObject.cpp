@@ -9346,7 +9346,7 @@ return
 htmlEditor
 -
 >
-DeleteText
+DeleteTextWithTransaction
 (
 *
 aStartPoint
@@ -9518,7 +9518,7 @@ rv
 htmlEditor
 -
 >
-DeleteText
+DeleteTextWithTransaction
 (
 *
 node
@@ -9591,7 +9591,7 @@ rv
 htmlEditor
 -
 >
-DeleteText
+DeleteTextWithTransaction
 (
 *
 node

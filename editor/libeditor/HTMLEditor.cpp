@@ -19679,7 +19679,7 @@ nsresult
 HTMLEditor
 :
 :
-DeleteText
+DeleteTextWithTransaction
 (
 CharacterData
 &
@@ -19719,7 +19719,7 @@ return
 EditorBase
 :
 :
-DeleteText
+DeleteTextWithTransaction
 (
 aCharData
 aOffset
