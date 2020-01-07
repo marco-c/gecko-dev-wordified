@@ -373,10 +373,15 @@ override
 ;
 virtual
 void
-SetNotificationsDeferred
+MarkPendingNotify
 (
-bool
-aDeferNotifications
+)
+override
+;
+virtual
+void
+ClearPendingNotify
+(
 )
 override
 ;
@@ -435,7 +440,7 @@ Image
 mNextPart
 ;
 bool
-mDeferNotifications
+mPendingNotify
 :
 1
 ;
