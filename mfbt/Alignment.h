@@ -514,7 +514,7 @@ support
 and
 16
 -
-bit
+byte
 alignment
 .
 *
