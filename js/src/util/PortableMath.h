@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jslibmath_h
+util_PortableMath_h
 #
 define
-jslibmath_h
+util_PortableMath_h
 #
 include
 "
@@ -489,6 +489,6 @@ js
 endif
 /
 *
-jslibmath_h
+util_PortableMath_h
 *
 /
