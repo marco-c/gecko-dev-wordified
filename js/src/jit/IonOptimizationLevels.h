@@ -479,7 +479,7 @@ stalling
 the
 /
 /
-active
+main
 thread
 .
 uint32_t

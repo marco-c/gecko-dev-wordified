@@ -9033,7 +9033,7 @@ the
 cx
 '
 s
-active
+main
 thread
 .
 AutoNoteSingleThreadedRegion

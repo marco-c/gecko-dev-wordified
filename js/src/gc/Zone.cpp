@@ -1704,7 +1704,7 @@ this
 happens
 on
 the
-active
+main
 thread
 and
 all
@@ -1716,7 +1716,7 @@ reads
 happen
 on
 the
-active
+main
 thread
 this
 is

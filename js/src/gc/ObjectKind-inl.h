@@ -213,7 +213,7 @@ the
 finalizer
 on
 the
-active
+main
 thread
 *
 AllocKind

@@ -1638,7 +1638,7 @@ synchronously
 (
 on
 the
-active
+main
 thread
 or
 during

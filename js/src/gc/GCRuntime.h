@@ -687,7 +687,7 @@ on
 the
 /
 /
-active
+main
 thread
 it
 will
@@ -6067,8 +6067,9 @@ GC
 helper
 threads
 and
-active
-threads
+the
+main
+thread
 .
 *
 /

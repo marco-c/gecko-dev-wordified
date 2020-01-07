@@ -337,7 +337,7 @@ finalization
 happens
 on
 the
-active
+main
 thread
 so
 /

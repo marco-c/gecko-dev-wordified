@@ -3359,7 +3359,7 @@ swept
 incrementally
 on
 the
-active
+main
 thread
 .
 *
@@ -3417,7 +3417,7 @@ swept
 incrementally
 on
 the
-active
+main
 thread
 .
 *
@@ -14643,7 +14643,7 @@ only
 called
 from
 the
-active
+main
 thread
 while
 we
@@ -19677,7 +19677,7 @@ being
 called
 off
 the
-active
+main
 thread
 from
 *
@@ -21348,7 +21348,7 @@ to
 avoid
 blocking
 the
-active
+main
 thread
 from
 /
@@ -22133,7 +22133,7 @@ lock
 /
 /
 The
-active
+main
 thread
 may
 call
@@ -25227,7 +25227,7 @@ on
 the
 /
 /
-active
+main
 thread
 .
 /
@@ -45565,7 +45565,7 @@ threads
 other
 than
 the
-active
+main
 thread
 have
 suppressGC
@@ -55693,7 +55693,7 @@ the
 runtime
 '
 s
-active
+main
 thread
 .
 Helper

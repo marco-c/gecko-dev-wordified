@@ -2963,7 +2963,7 @@ other
 than
 the
 *
-active
+main
 thread
 which
 could
@@ -3025,7 +3025,7 @@ other
 than
 the
 *
-active
+main
 thread
 which
 could

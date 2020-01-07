@@ -159,7 +159,7 @@ be
 running
 on
 the
-active
+main
 thread
 .
 MOZ_ASSERT

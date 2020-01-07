@@ -6025,7 +6025,7 @@ actually
 be
 on
 the
-active
+main
 thread
 check
 the
@@ -6059,7 +6059,7 @@ must
 be
 on
 the
-active
+main
 thread
 during
 MIR

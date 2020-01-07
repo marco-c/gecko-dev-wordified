@@ -694,7 +694,7 @@ false
 /
 Whether
 the
-active
+main
 thread
 is
 trying

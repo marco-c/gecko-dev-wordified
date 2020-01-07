@@ -2367,7 +2367,7 @@ only
 modified
 by
 the
-active
+main
 thread
 and
 all
@@ -2381,7 +2381,7 @@ access
 /
 on
 the
-active
+main
 thread
 .
 /

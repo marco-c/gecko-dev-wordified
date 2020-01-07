@@ -2998,7 +2998,7 @@ be
 the
 /
 /
-active
+main
 thread
 or
 a
@@ -3006,7 +3006,7 @@ helper
 thread
 while
 the
-active
+main
 thread
 is
 running
@@ -3042,7 +3042,7 @@ could
 /
 be
 the
-active
+main
 thread
 or
 a
@@ -3050,7 +3050,7 @@ helper
 thread
 while
 the
-active
+main
 thread
 is
 running
@@ -3568,7 +3568,7 @@ Threads
 parsing
 off
 the
-active
+main
 thread
 do
 not

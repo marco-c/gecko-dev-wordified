@@ -406,7 +406,7 @@ when
 executing
 on
 the
-active
+main
 thread
 .
 Not

@@ -2952,7 +2952,7 @@ to
 allocate
 on
 the
-active
+main
 thread
 while
 we
@@ -3039,7 +3039,7 @@ be
 happening
 on
 the
-active
+main
 thread
 but
 zones

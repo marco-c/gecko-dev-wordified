@@ -8096,7 +8096,7 @@ only
 done
 on
 the
-active
+main
 thread
 .
 If
@@ -8139,7 +8139,7 @@ when
 rejoining
 to
 the
-active
+main
 thread
 .
 If

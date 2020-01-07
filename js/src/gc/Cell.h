@@ -2308,7 +2308,7 @@ only
 enabled
 on
 the
-active
+main
 thread
 and
 are
@@ -2382,7 +2382,7 @@ we
 re
 on
 the
-active
+main
 thread
 .
 MOZ_ASSERT

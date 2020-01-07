@@ -669,7 +669,7 @@ we
 re
 on
 the
-active
+main
 thread
 .
 *

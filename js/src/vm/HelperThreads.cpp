@@ -3977,7 +3977,7 @@ been
 finished
 by
 the
-active
+main
 thread
 .
 GlobalHelperThreadState
@@ -10476,7 +10476,7 @@ task
 /
 /
 No
-active
+main
 thread
 should
 be
@@ -10726,7 +10726,7 @@ dispatchResolveAndDestroy
 /
 /
 No
-active
+main
 thread
 should
 be
@@ -11081,7 +11081,7 @@ reset
 /
 Notify
 the
-active
+main
 thread
 in
 case
@@ -11663,7 +11663,7 @@ reset
 /
 Notify
 the
-active
+main
 thread
 in
 case
@@ -11845,7 +11845,7 @@ reset
 /
 Notify
 the
-active
+main
 thread
 in
 case

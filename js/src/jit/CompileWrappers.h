@@ -165,7 +165,7 @@ off
 thread
 while
 the
-active
+main
 thread
 is
 mutating

@@ -204,7 +204,7 @@ performed
 *
 on
 the
-active
+main
 thread
 but
 GCHelperState
@@ -246,7 +246,7 @@ Condvar
 for
 notifying
 the
-active
+main
 thread
 when
 work

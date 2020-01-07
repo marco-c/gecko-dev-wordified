@@ -168,7 +168,7 @@ expensive
 and
 stall
 the
-active
+main
 thread
 for
 too
