@@ -2411,8 +2411,6 @@ Type
 aType
 )
 ;
-private
-:
 mozilla
 :
 :
@@ -2464,6 +2462,8 @@ WarningReporter
 >
 mOldWarningReporter
 ;
+private
+:
 void
 InitInternal
 (
