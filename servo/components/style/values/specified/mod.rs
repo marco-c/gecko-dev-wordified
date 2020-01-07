@@ -601,6 +601,16 @@ use
 self
 :
 :
+list
+:
+:
+Quotes
+;
+pub
+use
+self
+:
+:
 outline
 :
 :
@@ -825,6 +835,10 @@ image
 pub
 mod
 length
+;
+pub
+mod
+list
 ;
 pub
 mod
