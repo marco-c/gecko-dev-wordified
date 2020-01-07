@@ -282,6 +282,9 @@ this
 .
 updateTickList
 (
+this
+.
+props
 )
 ;
 }
@@ -294,6 +297,7 @@ this
 .
 updateTickList
 (
+nextProps
 )
 ;
 }
@@ -374,13 +378,13 @@ if
 (
 currentTickItem
 .
-text
+timeTickLabel
 !
 =
 =
 nextTickItem
 .
-text
+timeTickLabel
 )
 {
 return
@@ -394,6 +398,7 @@ false
 }
 updateTickList
 (
+props
 )
 {
 const
@@ -401,8 +406,6 @@ const
 timeScale
 }
 =
-this
-.
 props
 ;
 const
