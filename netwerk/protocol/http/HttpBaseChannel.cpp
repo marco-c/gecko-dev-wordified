@@ -12958,6 +12958,11 @@ the
 flag
 here
 .
+if
+(
+mLoadInfo
+)
+{
 mLoadInfo
 -
 >
@@ -12966,6 +12971,7 @@ SetAllowInsecureRedirectToDataURI
 false
 )
 ;
+}
 return
 NS_OK
 ;
