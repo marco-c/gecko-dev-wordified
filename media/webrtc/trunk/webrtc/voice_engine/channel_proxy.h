@@ -192,6 +192,9 @@ class
 RtcpRttStats
 ;
 class
+RtpPacketObserver
+;
+class
 RtpPacketSender
 ;
 class
@@ -729,6 +732,15 @@ SetRtcpRttStats
 RtcpRttStats
 *
 rtcp_rtt_stats
+)
+;
+virtual
+void
+SetRtpPacketObserver
+(
+RtpPacketObserver
+*
+observer
 )
 ;
 private
