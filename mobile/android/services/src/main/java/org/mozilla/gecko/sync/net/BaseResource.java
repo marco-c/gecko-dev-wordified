@@ -711,6 +711,7 @@ HttpRequestBase
 request
 ;
 public
+static
 final
 String
 charset
