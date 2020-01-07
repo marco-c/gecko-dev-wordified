@@ -1958,17 +1958,6 @@ anonymous
 )
 ;
 }
-aName
-.
-AppendASCII
-(
-"
-(
-labeled
-)
-"
-)
-;
 return
 NS_OK
 ;
