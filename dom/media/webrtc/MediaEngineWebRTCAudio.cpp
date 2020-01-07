@@ -181,13 +181,6 @@ nsAutoPtr
 .
 h
 "
-#
-include
-"
-Tracing
-.
-h
-"
 /
 /
 scoped_ptr
@@ -7290,10 +7283,6 @@ uint32_t
 aChannels
 )
 {
-TRACE_AUDIO_CALLBACK
-(
-)
-;
 /
 /
 If
