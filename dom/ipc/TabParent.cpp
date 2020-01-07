@@ -9788,7 +9788,7 @@ TabParent
 RecvSetCursor
 (
 const
-uint32_t
+nsCursor
 &
 aCursor
 const
@@ -9799,13 +9799,7 @@ aForce
 {
 mCursor
 =
-static_cast
-<
-nsCursor
->
-(
 aCursor
-)
 ;
 mCustomCursor
 =
