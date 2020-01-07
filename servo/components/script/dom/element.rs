@@ -2932,6 +2932,7 @@ display
 :
 none
 .
+pub
 fn
 style
 (
