@@ -1759,7 +1759,7 @@ ONLY
 -
 DCMAKE_MACOSX_RPATH
 =
-executable_path
+ON
 "
                        
 "
@@ -1775,6 +1775,26 @@ DDARWIN_osx_ARCHS
 =
 x86_64
 "
+                       
+"
+-
+DDARWIN_osx_SYSROOT
+=
+%
+s
+"
+%
+slashify_path
+(
+os
+.
+getenv
+(
+"
+CROSS_SYSROOT
+"
+)
+)
                        
 "
 -
@@ -3305,6 +3325,37 @@ Clean
 the
 build
 directory
+"
+)
+    
+parser
+.
+add_argument
+(
+'
+-
+-
+skip
+-
+tar
+'
+required
+=
+False
+                        
+action
+=
+'
+store_true
+'
+                        
+help
+=
+"
+Skip
+tar
+packaging
+stage
 "
 )
     
@@ -5177,6 +5228,13 @@ clang
 tidy
 "
     
+if
+not
+args
+.
+skip_tar
+:
+        
 ext
 =
 "
@@ -5194,7 +5252,7 @@ else
 "
 xz
 "
-    
+        
 build_tar_package
 (
 "
