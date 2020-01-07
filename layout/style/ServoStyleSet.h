@@ -1563,7 +1563,7 @@ aIndex
 const
 ;
 void
-AppendAllXBLStyleSheets
+AppendAllNonDocumentAuthorSheets
 (
 nsTArray
 <
