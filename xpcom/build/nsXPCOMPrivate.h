@@ -134,13 +134,6 @@ nsXPCOM
 .
 h
 "
-#
-include
-"
-xptcall
-.
-h
-"
 /
 *
 *
