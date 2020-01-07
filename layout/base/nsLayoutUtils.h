@@ -8807,6 +8807,9 @@ GetFontMetricsForComputedStyle
 ComputedStyle
 *
 aComputedStyle
+nsPresContext
+*
+aPresContext
 float
 aSizeInflation
 =
@@ -8884,6 +8887,9 @@ GetFontMetricsOfEmphasisMarks
 ComputedStyle
 *
 aComputedStyle
+nsPresContext
+*
+aPresContext
 float
 aInflation
 )
@@ -8892,6 +8898,7 @@ return
 GetFontMetricsForComputedStyle
 (
 aComputedStyle
+aPresContext
 aInflation
 *
 0
@@ -14163,6 +14170,9 @@ GetTextRunFlagsForStyle
 ComputedStyle
 *
 aComputedStyle
+nsPresContext
+*
+aPresContext
 const
 nsStyleFont
 *
