@@ -165,6 +165,16 @@ nsAString
 aName
 )
 ;
+enum
+class
+OnFailure
+:
+uint8_t
+{
+DoNothing
+Uninstall
+}
+;
 class
 CompareCallback
 {
@@ -228,6 +238,8 @@ nsresult
 aStatus
 bool
 aInCacheAndEqual
+OnFailure
+aOnFailure
 const
 nsAString
 &

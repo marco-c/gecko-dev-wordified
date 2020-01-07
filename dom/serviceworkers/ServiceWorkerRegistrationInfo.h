@@ -315,6 +315,9 @@ removed
 bool
 mPendingUninstall
 ;
+bool
+mCorrupt
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -470,6 +473,17 @@ void
 Clear
 (
 )
+;
+void
+ClearAsCorrupt
+(
+)
+;
+bool
+IsCorrupt
+(
+)
+const
 ;
 void
 TryToActivateAsync
