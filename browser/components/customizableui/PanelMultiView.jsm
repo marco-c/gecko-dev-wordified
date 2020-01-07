@@ -1910,8 +1910,6 @@ PanelMultiView
 =
 class
 extends
-this
-.
 AssociatedToNode
 {
 /
@@ -8886,8 +8884,6 @@ PanelView
 =
 class
 extends
-this
-.
 AssociatedToNode
 {
 constructor

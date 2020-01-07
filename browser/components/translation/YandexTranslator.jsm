@@ -308,11 +308,6 @@ MAX_REQUESTS
 15
 ;
 const
-YANDEX_RETURN_CODE_OK
-=
-200
-;
-const
 YANDEX_ERR_KEY_INVALID
 =
 401
@@ -359,6 +354,8 @@ limit
 of
 chars
 reached
+/
+/
 const
 YANDEX_ERR_TEXT_TOO_LONG
 =
@@ -372,6 +369,8 @@ size
 exceeds
 the
 maximum
+/
+/
 const
 YANDEX_ERR_UNPROCESSABLE_TEXT
 =
@@ -385,6 +384,8 @@ could
 not
 be
 translated
+/
+/
 const
 YANDEX_ERR_LANG_NOT_SUPPORTED
 =

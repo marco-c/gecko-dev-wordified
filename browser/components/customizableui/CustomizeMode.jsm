@@ -136,11 +136,6 @@ extraDragSpace
 "
 ;
 const
-kMaxTransitionDurationMs
-=
-2000
-;
-const
 kKeepBroadcastAttributes
 =
 "
