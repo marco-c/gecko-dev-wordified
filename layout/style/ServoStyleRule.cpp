@@ -1142,17 +1142,6 @@ GetStyleSheet
 )
 )
 {
-ServoStyleSheet
-*
-servoSheet
-=
-sheet
--
->
-AsServo
-(
-)
-;
 nsIDocument
 *
 doc
@@ -1217,7 +1206,7 @@ RawServoStyleSheetContents
 *
 contents
 =
-servoSheet
+sheet
 -
 >
 RawContents

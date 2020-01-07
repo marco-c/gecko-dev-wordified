@@ -323,11 +323,6 @@ StyleSheetAt
 (
 index
 )
--
->
-AsServo
-(
-)
 )
 ;
 }
@@ -377,11 +372,6 @@ aShadowRoot
 SheetAt
 (
 index
-)
--
->
-AsServo
-(
 )
 )
 ;
@@ -890,11 +880,6 @@ FillTableFromStyleSheet
 rule
 .
 GetStyleSheet
-(
-)
--
->
-AsServo
 (
 )
 )

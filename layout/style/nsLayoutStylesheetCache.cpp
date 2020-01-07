@@ -5356,17 +5356,6 @@ reallocation
 "
 )
 ;
-ServoStyleSheet
-*
-servoSheet
-=
-sheet
--
->
-AsServo
-(
-)
-;
 /
 /
 NB
@@ -5382,7 +5371,7 @@ thus
 no
 loader
 .
-servoSheet
+sheet
 -
 >
 ParseSheetSync

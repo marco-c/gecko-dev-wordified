@@ -14213,7 +14213,7 @@ Singleton
 (
 )
 ;
-ServoStyleSheet
+StyleSheet
 *
 contentEditableSheet
 =
@@ -14221,11 +14221,6 @@ cache
 -
 >
 ContentEditableSheet
-(
-)
--
->
-AsServo
 (
 )
 ;
@@ -14304,7 +14299,7 @@ overrides
 contentEditable
 )
 .
-ServoStyleSheet
+StyleSheet
 *
 designModeSheet
 =
@@ -14312,11 +14307,6 @@ cache
 -
 >
 DesignModeSheet
-(
-)
--
->
-AsServo
 (
 )
 ;
@@ -14382,11 +14372,6 @@ cache
 -
 >
 DesignModeSheet
-(
-)
--
->
-AsServo
 (
 )
 )

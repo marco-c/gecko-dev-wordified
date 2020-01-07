@@ -10529,7 +10529,7 @@ aCompleted
 =
 false
 ;
-ServoStyleSheet
+StyleSheet
 *
 sheet
 =
@@ -10537,11 +10537,6 @@ aLoadData
 -
 >
 mSheet
--
->
-AsServo
-(
-)
 ;
 MOZ_ASSERT
 (
