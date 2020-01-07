@@ -308,7 +308,7 @@ true
 topSitesRows
 "
 :
-2
+1
 "
 collapseTopSites
 "

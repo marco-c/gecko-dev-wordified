@@ -1318,6 +1318,11 @@ id
 hostname
 "
 :
+s
+.
+domain
+|
+|
 shortURL
 (
 Object

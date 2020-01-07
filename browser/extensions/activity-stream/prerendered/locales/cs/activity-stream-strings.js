@@ -350,7 +350,7 @@ Vyhledat
 {
 search_term
 }
-s
+pomoc
 :
 "
 "
