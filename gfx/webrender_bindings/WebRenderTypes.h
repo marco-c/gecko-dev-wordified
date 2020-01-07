@@ -4482,7 +4482,7 @@ them
 struct
 WrClipId
 {
-uint64_t
+size_t
 id
 ;
 bool
@@ -4549,7 +4549,7 @@ C
 struct
 WrScrollId
 {
-uint64_t
+size_t
 id
 ;
 bool
@@ -4638,7 +4638,7 @@ C
 struct
 WrStickyId
 {
-uint64_t
+size_t
 id
 ;
 bool
