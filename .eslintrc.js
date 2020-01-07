@@ -394,14 +394,6 @@ pref
 *
 *
 "
-"
-mobile
-/
-android
-/
-*
-*
-"
 ]
 "
 rules
