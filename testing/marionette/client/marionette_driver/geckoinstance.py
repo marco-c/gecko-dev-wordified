@@ -370,6 +370,25 @@ dataSubmissionPolicyBypassNotification
 :
 True
         
+#
+Automatically
+unload
+beforeunload
+alerts
+        
+"
+dom
+.
+disable_beforeunload
+"
+:
+True
+        
+#
+Disable
+the
+ProcessHangMonitor
+        
 "
 dom
 .
