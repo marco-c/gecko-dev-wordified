@@ -1089,11 +1089,6 @@ aUri
 .
 spec
 }
-params
-=
-{
-aParams
-}
 where
 =
 {
