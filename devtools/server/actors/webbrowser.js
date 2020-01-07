@@ -5605,9 +5605,12 @@ more
 than
 just
 one
-childtab
+content
 .
 js
+(
+ContentActor
+)
 up
 and
 running

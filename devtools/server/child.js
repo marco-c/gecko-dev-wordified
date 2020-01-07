@@ -452,7 +452,7 @@ server
 /
 actors
 /
-childtab
+content
 "
 )
 ;
