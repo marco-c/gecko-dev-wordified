@@ -4207,11 +4207,13 @@ cell
 &
 &
 !
-group
+runtimeFromActiveCooperatingThread
 (
 )
 -
 >
+gc
+.
 nursery
 (
 )
