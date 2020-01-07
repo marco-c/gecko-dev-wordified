@@ -2179,7 +2179,7 @@ on
 this
 class
 .
-nsresult
+void
 InitAsClone
 (
 MediaCacheStream
