@@ -56,7 +56,7 @@ run_test
 /
 empty
 array
-ok
+check
 (
 [
 ]
@@ -71,7 +71,7 @@ one
 -
 element
 array
-ok
+check
 (
 [
 2
@@ -81,7 +81,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -91,7 +91,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -107,7 +107,7 @@ two
 -
 element
 array
-ok
+check
 (
 [
 2
@@ -118,7 +118,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -129,7 +129,7 @@ true
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -140,7 +140,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -151,7 +151,7 @@ false
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -168,7 +168,7 @@ three
 -
 element
 array
-ok
+check
 (
 [
 2
@@ -180,7 +180,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -192,7 +192,7 @@ true
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -204,7 +204,7 @@ true
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -216,7 +216,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -228,7 +228,7 @@ false
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -240,7 +240,7 @@ false
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -255,7 +255,7 @@ false
 /
 /
 duplicates
-ok
+check
 (
 [
 2
@@ -266,7 +266,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -277,7 +277,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -294,7 +294,7 @@ duplicates
 on
 the
 left
-ok
+check
 (
 [
 2
@@ -306,7 +306,7 @@ true
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -318,7 +318,7 @@ true
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -330,7 +330,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -342,7 +342,7 @@ false
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -360,7 +360,7 @@ duplicates
 on
 the
 right
-ok
+check
 (
 [
 2
@@ -372,7 +372,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -384,7 +384,7 @@ true
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -396,7 +396,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -408,7 +408,7 @@ false
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -426,7 +426,7 @@ duplicates
 in
 the
 middle
-ok
+check
 (
 [
 2
@@ -439,7 +439,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -452,7 +452,7 @@ true
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -465,7 +465,7 @@ true
 3
 )
 ;
-ok
+check
 (
 [
 2
@@ -478,7 +478,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -491,7 +491,7 @@ false
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -504,7 +504,7 @@ false
 3
 )
 ;
-ok
+check
 (
 [
 2
@@ -522,7 +522,7 @@ false
 duplicates
 all
 around
-ok
+check
 (
 [
 2
@@ -537,7 +537,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -552,7 +552,7 @@ true
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -567,7 +567,7 @@ true
 4
 )
 ;
-ok
+check
 (
 [
 2
@@ -582,7 +582,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -597,7 +597,7 @@ false
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -612,7 +612,7 @@ false
 4
 )
 ;
-ok
+check
 (
 [
 2
@@ -629,7 +629,7 @@ false
 ;
 }
 function
-ok
+check
 (
 array
 target
