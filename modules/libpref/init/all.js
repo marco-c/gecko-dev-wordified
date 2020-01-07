@@ -2528,7 +2528,7 @@ net
 /
 p
 /
-mensuel
+*
 .
 framapad
 .
