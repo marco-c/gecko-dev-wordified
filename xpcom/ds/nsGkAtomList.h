@@ -8491,6 +8491,13 @@ toolbaritem
 )
 GK_ATOM
 (
+toolbarpaletteitem
+"
+toolbarpaletteitem
+"
+)
+GK_ATOM
+(
 toolbox
 "
 toolbox

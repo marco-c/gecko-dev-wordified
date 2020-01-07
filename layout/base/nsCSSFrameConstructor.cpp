@@ -27392,6 +27392,11 @@ SCROLLABLE_XUL_CREATE
 resizer
 NS_NewResizerFrame
 )
+SCROLLABLE_XUL_CREATE
+(
+toolbarpaletteitem
+NS_NewBoxFrame
+)
 SIMPLE_XUL_CREATE
 (
 image
