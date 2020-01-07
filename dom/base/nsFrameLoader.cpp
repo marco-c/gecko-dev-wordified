@@ -19294,6 +19294,9 @@ aRunInGlobalScope
 *
 /
 true
+IgnoreErrors
+(
+)
 )
 ;
 }

@@ -213,7 +213,7 @@ Length
 i
 )
 {
-LoadFrameScript
+LoadScript
 (
 mPendingScripts
 [
@@ -224,6 +224,9 @@ mPendingScriptsGlobalStates
 [
 i
 ]
+IgnoreErrors
+(
+)
 )
 ;
 }
