@@ -97,6 +97,12 @@ HandyDandyRectBuilder
 }
 ;
 use
+euclid
+:
+:
+TypedScale
+;
+use
 gleam
 :
 :
@@ -110,12 +116,6 @@ api
 :
 :
 *
-;
-use
-euclid
-:
-:
-TypedScale
 ;
 /
 /

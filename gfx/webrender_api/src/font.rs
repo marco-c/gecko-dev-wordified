@@ -56,13 +56,6 @@ MPL
 .
 *
 /
-use
-{
-ColorU
-IdNamespace
-LayoutPoint
-}
-;
 #
 [
 cfg
@@ -199,6 +192,13 @@ sync
 :
 :
 Arc
+;
+use
+{
+ColorU
+IdNamespace
+LayoutPoint
+}
 ;
 #
 [
