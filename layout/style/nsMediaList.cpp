@@ -1679,6 +1679,11 @@ mFeature
 mGetter
 (
 aPresContext
+-
+>
+Document
+(
+)
 entry
 -
 >
@@ -3251,6 +3256,11 @@ mFeature
 mGetter
 (
 aPresContext
+-
+>
+Document
+(
+)
 expr
 .
 mFeature

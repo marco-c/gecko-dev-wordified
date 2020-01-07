@@ -3851,7 +3851,12 @@ PresContext
 )
 -
 >
-IsGlyph
+Document
+(
+)
+-
+>
+IsSVGGlyphsDocument
 (
 )
 "
