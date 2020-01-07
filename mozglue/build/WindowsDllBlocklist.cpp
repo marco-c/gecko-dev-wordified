@@ -303,6 +303,8 @@ include
 "
 mozilla
 /
+glue
+/
 WindowsDllServices
 .
 h
@@ -6291,6 +6293,9 @@ static
 mozilla
 :
 :
+glue
+:
+:
 detail
 :
 :
@@ -6788,6 +6793,9 @@ void
 DllBlocklist_SetDllServices
 (
 mozilla
+:
+:
+glue
 :
 :
 detail
