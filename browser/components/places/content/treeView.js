@@ -11915,11 +11915,11 @@ false
 ;
 }
 let
-itemId
+itemGuid
 =
 node
 .
-itemId
+bookmarkGuid
 ;
 /
 /
@@ -11944,11 +11944,11 @@ children
 .
 if
 (
-itemId
+itemGuid
 =
 =
--
-1
+"
+"
 )
 return
 false
@@ -12056,7 +12056,7 @@ PlacesUtils
 .
 isRootItem
 (
-itemId
+itemGuid
 )
 )
 return
