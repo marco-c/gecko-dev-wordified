@@ -2591,6 +2591,13 @@ parameters
 taskgraph_decision
 (
 {
+'
+root
+'
+:
+graph_config
+.
+root_dir
 }
 parameters
 =
