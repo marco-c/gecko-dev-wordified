@@ -2398,7 +2398,7 @@ rv
 mTextEditor
 -
 >
-DeleteSelection
+DeleteSelectionAsAction
 (
 nsIEditor
 :
@@ -3867,7 +3867,7 @@ rv
 mTextEditor
 -
 >
-DeleteSelection
+DeleteSelectionAsAction
 (
 nsIEditor
 :

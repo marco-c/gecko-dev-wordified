@@ -5348,7 +5348,7 @@ rv
 textEditor
 -
 >
-DeleteSelection
+DeleteSelectionAsAction
 (
 nsIEditor
 :
