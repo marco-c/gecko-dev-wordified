@@ -251,13 +251,6 @@ h
 #
 include
 "
-nsICSSStyleRuleDOMWrapper
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
