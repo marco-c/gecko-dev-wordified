@@ -1088,13 +1088,6 @@ h
 #
 include
 "
-nsIInterfaceInfo
-.
-h
-"
-#
-include
-"
 nsIXPCScriptable
 .
 h

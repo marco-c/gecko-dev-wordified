@@ -107,13 +107,6 @@ xptcprivate
 .
 h
 "
-#
-include
-"
-xptiprivate
-.
-h
-"
 /
 *
 Prototype

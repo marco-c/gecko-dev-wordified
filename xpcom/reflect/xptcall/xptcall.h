@@ -125,13 +125,6 @@ h
 #
 include
 "
-xpt_struct
-.
-h
-"
-#
-include
-"
 xptinfo
 .
 h

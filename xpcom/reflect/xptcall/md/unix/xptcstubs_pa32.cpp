@@ -106,13 +106,6 @@ xptcprivate
 h
 "
 #
-include
-"
-xptiprivate
-.
-h
-"
-#
 if
 _HPUX
 #

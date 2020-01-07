@@ -134,9 +134,6 @@ Attributes
 .
 h
 "
-class
-xptiInterfaceEntry
-;
 #
 if
 !

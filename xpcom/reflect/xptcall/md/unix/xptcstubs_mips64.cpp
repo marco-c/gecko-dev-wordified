@@ -99,13 +99,6 @@ xptcprivate
 h
 "
 #
-include
-"
-xptiprivate
-.
-h
-"
-#
 if
 (
 _MIPS_SIM

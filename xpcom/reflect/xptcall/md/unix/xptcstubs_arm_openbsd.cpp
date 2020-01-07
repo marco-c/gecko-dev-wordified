@@ -108,13 +108,6 @@ xptcprivate
 h
 "
 #
-include
-"
-xptiprivate
-.
-h
-"
-#
 ifdef
 __GNUC__
 /

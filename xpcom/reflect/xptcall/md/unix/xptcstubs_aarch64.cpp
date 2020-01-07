@@ -99,13 +99,6 @@ xptcprivate
 h
 "
 #
-include
-"
-xptiprivate
-.
-h
-"
-#
 ifndef
 __AARCH64EL__
 #
