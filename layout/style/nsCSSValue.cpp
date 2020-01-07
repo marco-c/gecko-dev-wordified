@@ -138,15 +138,6 @@ include
 "
 mozilla
 /
-CORSMode
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoBindings
 .
 h
@@ -19718,7 +19709,6 @@ GetReferrer
 (
 )
 this
-mCORSMode
 )
 ;
 mLoadedImage
