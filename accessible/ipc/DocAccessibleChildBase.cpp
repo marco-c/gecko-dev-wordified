@@ -402,10 +402,7 @@ aRoot
 ;
 #
 endif
-a11y
-:
-:
-role
+uint32_t
 role
 =
 aRoot
