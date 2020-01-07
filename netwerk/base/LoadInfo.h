@@ -724,6 +724,8 @@ aIsPreflight
 bool
 aLoadTriggeredFromExternal
 bool
+aServiceWorkerTaintingSynthesized
+bool
 aForceHSTSPriming
 bool
 aMixedContentWouldBlock
@@ -1054,6 +1056,9 @@ mIsPreflight
 ;
 bool
 mLoadTriggeredFromExternal
+;
+bool
+mServiceWorkerTaintingSynthesized
 ;
 bool
 mForceHSTSPriming
