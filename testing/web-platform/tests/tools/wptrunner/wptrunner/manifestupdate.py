@@ -1778,7 +1778,7 @@ is
 not
 None
 :
-                        
+                       
 self
 .
 set
@@ -1800,7 +1800,7 @@ children
 0
 ]
 )
-                        
+                       
 self
 .
 new_disabled

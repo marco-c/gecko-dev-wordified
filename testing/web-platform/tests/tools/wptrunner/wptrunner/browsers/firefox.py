@@ -636,7 +636,7 @@ wdspec
 "
 :
         
-options
+fxOptions
 =
 {
 }
@@ -650,7 +650,7 @@ binary
 ]
 :
             
-options
+fxOptions
 [
 "
 binary
@@ -673,7 +673,7 @@ binary_args
 ]
 :
             
-options
+fxOptions
 [
 "
 args
@@ -687,7 +687,7 @@ binary_args
 "
 ]
         
-options
+fxOptions
 [
 "
 prefs
@@ -723,7 +723,7 @@ firefoxOptions
 "
 ]
 =
-options
+fxOptions
     
 if
 kwargs
@@ -2690,7 +2690,7 @@ certutil_dir
 .
 encode
 (
-                            
+                                
 sys
 .
 getfilesystemencoding

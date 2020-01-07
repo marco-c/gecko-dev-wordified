@@ -403,6 +403,14 @@ txt
 "
 browsers
 /
+b2g_setup
+/
+*
+"
+                                  
+"
+browsers
+/
 sauce_setup
 /
 *
@@ -434,7 +442,7 @@ requirements_files
 install_requires
 =
 deps
-      
+     
 )
 if
 "
