@@ -1758,6 +1758,11 @@ D
 FULL_SHAPE_BUFFER
 )
 \
+D
+(
+TOO_MUCH_WASM_MEMORY
+)
+\
 \
 /
 *
@@ -1814,11 +1819,6 @@ RESERVED7
 D
 (
 RESERVED8
-)
-\
-D
-(
-RESERVED9
 )
 \
 \
