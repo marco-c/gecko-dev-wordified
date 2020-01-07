@@ -236,7 +236,6 @@ class
 Name
 {
 AbortError
-InternalError
 InvalidStateError
 NotAllowedError
 NotFoundError

@@ -221,15 +221,6 @@ aborted
 )
 MAP_MEDIAERR
 (
-InternalError
-"
-Internal
-error
-.
-"
-)
-MAP_MEDIAERR
-(
 InvalidStateError
 "
 The
