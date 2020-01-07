@@ -3963,13 +3963,6 @@ state
 height
 )
 ;
-if
-(
-this
-.
-isSplitRuleViewEnabled
-)
-{
 Services
 .
 prefs
@@ -3996,7 +3989,6 @@ state
 width
 )
 ;
-}
 }
 onSidebarResized
 :
