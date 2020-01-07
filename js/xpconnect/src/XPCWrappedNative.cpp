@@ -1621,13 +1621,6 @@ GetClassInfo
 (
 )
 scrProto
-/
-*
-callPostCreatePrototype
-=
-*
-/
-false
 )
 ;
 if
