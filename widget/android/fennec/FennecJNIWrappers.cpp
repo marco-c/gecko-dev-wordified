@@ -1436,6 +1436,9 @@ signature
 [
 ]
 ;
+#
+ifdef
+MOZ_NATIVE_DEVICES
 const
 char
 PresentationMediaPlayerManager
@@ -1527,6 +1530,11 @@ signature
 [
 ]
 ;
+#
+endif
+/
+/
+MOZ_NATIVE_DEVICES
 const
 char
 Telemetry
