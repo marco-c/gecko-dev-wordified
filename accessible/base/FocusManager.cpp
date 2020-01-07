@@ -1182,7 +1182,7 @@ focusedElm
 domfm
 -
 >
-GetFocusedElement
+GetFocusedContent
 (
 )
 ;
@@ -2421,7 +2421,7 @@ focusedElm
 DOMFocusManager
 -
 >
-GetFocusedElement
+GetFocusedContent
 (
 )
 ;

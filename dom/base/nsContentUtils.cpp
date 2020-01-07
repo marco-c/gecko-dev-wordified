@@ -36978,7 +36978,7 @@ fm
 fm
 -
 >
-GetFocusedElement
+GetFocusedContent
 (
 )
 =

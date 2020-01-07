@@ -53198,7 +53198,7 @@ if
 mTopWindow
 -
 >
-GetFocusedElement
+GetFocusedNode
 (
 )
 )

@@ -27910,7 +27910,7 @@ content
 fm
 -
 >
-GetFocusedElement
+GetFocusedContent
 (
 )
 ;

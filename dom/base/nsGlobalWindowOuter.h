@@ -5817,7 +5817,7 @@ px
 ;
 virtual
 void
-SetFocusedElement
+SetFocusedNode
 (
 mozilla
 :
@@ -5827,7 +5827,7 @@ dom
 :
 Element
 *
-aElement
+aNode
 uint32_t
 aFocusMethod
 =

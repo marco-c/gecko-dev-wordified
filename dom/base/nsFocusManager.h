@@ -388,12 +388,12 @@ dom
 :
 Element
 *
-GetFocusedElement
+GetFocusedContent
 (
 )
 {
 return
-mFocusedElement
+mFocusedContent
 ;
 }
 /
@@ -564,7 +564,7 @@ aElement
 {
 if
 (
-mFocusedElement
+mFocusedContent
 =
 =
 aElement
@@ -4100,7 +4100,7 @@ dom
 :
 Element
 >
-mFocusedElement
+mFocusedContent
 ;
 /
 /
