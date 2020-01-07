@@ -186,6 +186,24 @@ options
 )
 )
         
+if
+hasattr
+(
+options
+'
+log
+'
+)
+:
+            
+delattr
+(
+options
+'
+log
+'
+)
+        
 self
 .
 _automation
