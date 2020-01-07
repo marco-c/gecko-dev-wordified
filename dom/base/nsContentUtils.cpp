@@ -2625,6 +2625,14 @@ Dump
 "
 )
 ;
+PopupControlState
+nsContentUtils
+:
+:
+sPopupControlState
+=
+openAbused
+;
 /
 /
 Subset
