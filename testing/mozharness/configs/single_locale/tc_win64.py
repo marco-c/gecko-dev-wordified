@@ -275,13 +275,17 @@ tooltool_url
 "
 :
 '
-http
+https
 :
 /
 /
-relengapi
-/
 tooltool
+.
+mozilla
+-
+releng
+.
+net
 /
 '
     
