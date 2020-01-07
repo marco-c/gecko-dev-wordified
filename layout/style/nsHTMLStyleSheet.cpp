@@ -3097,11 +3097,6 @@ restyle
 mDocument
 -
 >
-GetShell
-(
-)
--
->
 GetPresContext
 (
 )
