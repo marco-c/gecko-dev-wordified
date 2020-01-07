@@ -1319,6 +1319,11 @@ IsOnPaintWorkerThread
 )
 ;
 void
+UpdateRenderMode
+(
+)
+;
+void
 PrepareBuffer
 (
 CapturedBufferState
@@ -1580,6 +1585,11 @@ ShutdownOnPaintThread
 ;
 void
 InitOnPaintThread
+(
+)
+;
+void
+InitPaintWorkers
 (
 )
 ;
