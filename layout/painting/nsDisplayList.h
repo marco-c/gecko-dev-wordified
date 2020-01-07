@@ -7531,9 +7531,9 @@ AutoSaveRestorePerspectiveIndex
 nsDisplayListBuilder
 *
 aBuilder
-nsIFrame
-*
-aFrame
+const
+bool
+aChildrenHavePerspective
 )
 :
 mBuilder
@@ -7543,12 +7543,7 @@ nullptr
 {
 if
 (
-aFrame
--
->
-ChildrenHavePerspective
-(
-)
+aChildrenHavePerspective
 )
 {
 mBuilder
