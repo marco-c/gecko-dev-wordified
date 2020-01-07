@@ -90,10 +90,12 @@ browser
 window
 *
 /
-class
-TabBrowser
+window
+.
+_gBrowser
+=
 {
-constructor
+init
 (
 )
 {
@@ -27229,6 +27231,7 @@ finishMediaBlockTimer
 ;
 }
 }
+;
 /
 *
 *
