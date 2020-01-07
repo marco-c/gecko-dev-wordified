@@ -405,10 +405,6 @@ nullptr
 )
 #
 endif
-mHaveJavaC2PJSObjectQuirk
-(
-false
-)
 mCachedParamLength
 (
 0
