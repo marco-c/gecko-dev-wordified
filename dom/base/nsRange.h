@@ -2101,14 +2101,7 @@ ErrorResult
 aError
 nsIContent
 *
-aStartContainer
-uint32_t
-aStartOffset
-nsIContent
-*
-aEndContainer
-uint32_t
-aEndOffset
+aContainer
 )
 ;
 nsINode
