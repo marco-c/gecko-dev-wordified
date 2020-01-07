@@ -133,9 +133,6 @@ MOZ_MUST_USE
 bool
 ReorderInstructions
 (
-MIRGenerator
-*
-mir
 MIRGraph
 &
 graph

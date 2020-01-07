@@ -4957,8 +4957,6 @@ InitFromBailout
 JSContext
 *
 cx
-HandleScript
-caller
 jsbytecode
 *
 callerPC
@@ -4966,9 +4964,6 @@ HandleFunction
 fun
 HandleScript
 script
-IonScript
-*
-ionScript
 SnapshotIterator
 &
 iter
@@ -13819,15 +13814,9 @@ if
 InitFromBailout
 (
 cx
-caller
 callerPC
 fun
 scr
-iter
-.
-ionScript
-(
-)
 snapIter
 invalidate
 builder

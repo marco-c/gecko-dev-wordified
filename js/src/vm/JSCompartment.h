@@ -6572,12 +6572,6 @@ sweepSelfHostingScriptSource
 void
 sweepJitCompartment
 (
-js
-:
-:
-FreeOp
-*
-fop
 )
 ;
 void

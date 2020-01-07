@@ -1708,9 +1708,6 @@ UpdateJitActivationsForMinorGC
 JSRuntime
 *
 rt
-JSTracer
-*
-trc
 )
 ;
 static

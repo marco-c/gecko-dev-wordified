@@ -840,17 +840,9 @@ PrepareOsrTempData
 JSContext
 *
 cx
-ICWarmUpCounter_Fallback
-*
-stub
 BaselineFrame
 *
 frame
-HandleScript
-script
-jsbytecode
-*
-pc
 void
 *
 jitcode
@@ -1453,10 +1445,7 @@ info
 PrepareOsrTempData
 (
 cx
-stub
 frame
-script
-pc
 jitcode
 )
 ;
@@ -11281,7 +11270,6 @@ here
 .
 assumeStubFrame
 (
-masm
 )
 ;
 bailoutReturnOffset_
@@ -16413,7 +16401,6 @@ script
 pc
 op
 stub
-stub
 -
 >
 state
@@ -20150,7 +20137,6 @@ here
 .
 assumeStubFrame
 (
-masm
 )
 ;
 bailoutReturnOffset_

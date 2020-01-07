@@ -4140,9 +4140,6 @@ JitCompartment
 :
 sweep
 (
-FreeOp
-*
-fop
 JSCompartment
 *
 compartment
@@ -4285,9 +4282,6 @@ JitZone
 :
 sweep
 (
-FreeOp
-*
-fop
 )
 {
 baselineCacheIRStubCodes_
@@ -6739,9 +6733,6 @@ const
 SafepointIndex
 *
 si
-MacroAssembler
-&
-masm
 )
 {
 /
@@ -6812,9 +6803,6 @@ const
 OsiIndex
 *
 oi
-MacroAssembler
-&
-masm
 )
 {
 memcpy
@@ -8243,9 +8231,6 @@ static
 void
 OptimizeSinCos
 (
-MIRGenerator
-*
-mir
 MIRGraph
 &
 graph
@@ -11129,7 +11114,6 @@ TraceLogger_Sincos
 ;
 OptimizeSinCos
 (
-mir
 graph
 )
 ;
@@ -11310,7 +11294,6 @@ if
 !
 ReorderInstructions
 (
-mir
 graph
 )
 )
@@ -13511,7 +13494,6 @@ NewBaselineFrameInspector
 (
 temp
 baselineFrame
-info
 )
 ;
 if
@@ -14493,8 +14475,6 @@ cx
 JSScript
 *
 script
-bool
-osr
 )
 {
 if
@@ -14929,8 +14909,6 @@ cx
 JSScript
 *
 script
-bool
-osr
 )
 {
 if
@@ -14949,7 +14927,6 @@ CheckScript
 (
 cx
 script
-osr
 )
 )
 return
@@ -15098,10 +15075,6 @@ CheckScript
 (
 cx
 script
-bool
-(
-osrPc
-)
 )
 )
 {

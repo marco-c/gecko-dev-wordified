@@ -535,8 +535,6 @@ cx
 JSScript
 *
 script
-bool
-osr
 )
 ;
 MOZ_MUST_USE

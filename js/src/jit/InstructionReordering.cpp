@@ -435,9 +435,6 @@ jit
 :
 ReorderInstructions
 (
-MIRGenerator
-*
-mir
 MIRGraph
 &
 graph

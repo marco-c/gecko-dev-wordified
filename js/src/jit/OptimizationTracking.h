@@ -589,9 +589,6 @@ MOZ_MUST_USE
 bool
 writeCompact
 (
-JSContext
-*
-cx
 CompactBufferWriter
 &
 writer

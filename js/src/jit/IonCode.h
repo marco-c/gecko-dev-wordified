@@ -2948,9 +2948,6 @@ const
 SafepointIndex
 *
 firstSafepointIndex
-MacroAssembler
-&
-masm
 )
 ;
 void
@@ -2960,9 +2957,6 @@ const
 OsiIndex
 *
 firstOsiIndex
-MacroAssembler
-&
-masm
 )
 ;
 void

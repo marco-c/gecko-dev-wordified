@@ -8588,8 +8588,6 @@ HandleObject
 obj
 ObjOperandId
 objId
-uint32_t
-index
 Int32OperandId
 indexId
 )
@@ -9795,8 +9793,6 @@ HandleObject
 obj
 ObjOperandId
 objId
-uint32_t
-index
 Int32OperandId
 indexId
 )
@@ -9808,8 +9804,6 @@ HandleObject
 obj
 ObjOperandId
 objId
-uint32_t
-index
 Int32OperandId
 indexId
 )
@@ -10196,9 +10190,6 @@ jsbytecode
 pc
 JSOp
 op
-ICCall_Fallback
-*
-stub
 ICState
 :
 :

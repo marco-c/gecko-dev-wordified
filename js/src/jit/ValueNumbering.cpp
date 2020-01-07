@@ -6975,10 +6975,6 @@ visitControlInstruction
 MBasicBlock
 *
 block
-const
-MBasicBlock
-*
-dominatorRoot
 )
 {
 /
@@ -7798,10 +7794,6 @@ visitBlock
 MBasicBlock
 *
 block
-const
-MBasicBlock
-*
-dominatorRoot
 )
 {
 MOZ_ASSERT
@@ -8008,7 +8000,6 @@ return
 visitControlInstruction
 (
 block
-dominatorRoot
 )
 ;
 }
@@ -8391,7 +8382,6 @@ if
 visitBlock
 (
 block
-dominatorRoot
 )
 )
 return

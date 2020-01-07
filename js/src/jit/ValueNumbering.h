@@ -640,10 +640,6 @@ visitControlInstruction
 MBasicBlock
 *
 block
-const
-MBasicBlock
-*
-root
 )
 ;
 MOZ_MUST_USE
@@ -662,10 +658,6 @@ visitBlock
 MBasicBlock
 *
 block
-const
-MBasicBlock
-*
-root
 )
 ;
 MOZ_MUST_USE

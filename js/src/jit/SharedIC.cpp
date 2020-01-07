@@ -3701,9 +3701,6 @@ ICStubCompiler
 :
 assumeStubFrame
 (
-MacroAssembler
-&
-masm
 )
 {
 MOZ_ASSERT
@@ -13584,7 +13581,6 @@ here
 .
 assumeStubFrame
 (
-masm
 )
 ;
 bailoutReturnOffset_

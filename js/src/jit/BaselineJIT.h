@@ -2371,9 +2371,6 @@ const
 BaselineICEntry
 *
 entries
-MacroAssembler
-&
-masm
 )
 ;
 void
@@ -2636,9 +2633,6 @@ JS_TRACE_LOGGING
 void
 initTraceLogger
 (
-JSRuntime
-*
-runtime
 JSScript
 *
 script
@@ -2654,9 +2648,6 @@ offsets
 void
 toggleTraceLoggerScripts
 (
-JSRuntime
-*
-runtime
 JSScript
 *
 script
@@ -3152,8 +3143,6 @@ cx
 InterpreterFrame
 *
 fp
-bool
-newType
 )
 ;
 JitExecStatus

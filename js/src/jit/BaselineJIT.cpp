@@ -2034,8 +2034,6 @@ cx
 InterpreterFrame
 *
 fp
-bool
-newType
 )
 {
 if
@@ -4812,9 +4810,6 @@ const
 BaselineICEntry
 *
 entries
-MacroAssembler
-&
-masm
 )
 {
 /
@@ -6151,9 +6146,6 @@ BaselineScript
 :
 initTraceLogger
 (
-JSRuntime
-*
-runtime
 JSScript
 *
 script
@@ -6302,9 +6294,6 @@ BaselineScript
 :
 toggleTraceLoggerScripts
 (
-JSRuntime
-*
-runtime
 JSScript
 *
 script
@@ -7561,7 +7550,6 @@ baselineScript
 >
 toggleTraceLoggerScripts
 (
-runtime
 script
 enable
 )

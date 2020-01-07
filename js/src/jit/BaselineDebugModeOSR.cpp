@@ -4274,9 +4274,6 @@ const
 ActivationIterator
 &
 activation
-DebugModeOSREntryVector
-&
-entries
 size_t
 *
 start
@@ -6318,7 +6315,6 @@ SkipInterpreterFrameEntries
 (
 obs
 iter
-entries
 &
 processed
 )

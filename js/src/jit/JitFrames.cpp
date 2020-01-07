@@ -6527,12 +6527,10 @@ nextInstruction
 ;
 }
 }
+static
 void
 UpdateIonJSFrameForMinorGC
 (
-JSTracer
-*
-trc
 const
 JSJitFrameIter
 &
@@ -9035,9 +9033,6 @@ UpdateJitActivationsForMinorGC
 JSRuntime
 *
 rt
-JSTracer
-*
-trc
 )
 {
 MOZ_ASSERT
@@ -9133,7 +9128,6 @@ JitFrame_IonJS
 )
 UpdateIonJSFrameForMinorGC
 (
-trc
 iter
 .
 frame

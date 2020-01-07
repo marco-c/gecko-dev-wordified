@@ -2208,9 +2208,6 @@ init
 bool
 getIndexOf
 (
-JSContext
-*
-cx
 TypeSet
 :
 :
@@ -2271,9 +2268,6 @@ UniqueTrackedTypes
 :
 getIndexOf
 (
-JSContext
-*
-cx
 TypeSet
 :
 :
@@ -2646,9 +2640,6 @@ IonEntry
 :
 trackedOptimizationIndexAtAddr
 (
-JSRuntime
-*
-rt
 void
 *
 ptr
@@ -2740,9 +2731,6 @@ IonEntry
 :
 forEachOptimizationAttempt
 (
-JSRuntime
-*
-rt
 uint8_t
 index
 ForEachTrackedOptimizationAttemptOp
@@ -2770,9 +2758,6 @@ IonEntry
 :
 forEachOptimizationTypeInfo
 (
-JSRuntime
-*
-rt
 uint8_t
 index
 IonTrackedOptimizationsTypeInfo
@@ -3654,9 +3639,6 @@ OptimizationTypeInfo
 :
 writeCompact
 (
-JSContext
-*
-cx
 CompactBufferWriter
 &
 writer
@@ -3727,7 +3709,6 @@ uniqueTypes
 .
 getIndexOf
 (
-cx
 types_
 [
 i
@@ -6392,7 +6373,6 @@ t
 >
 writeCompact
 (
-cx
 writer
 uniqueTypes
 )

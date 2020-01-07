@@ -5550,8 +5550,6 @@ jit
 UpdateJitActivationsForMinorGC
 (
 rt
-&
-mover
 )
 ;
 forwardedBuffers
