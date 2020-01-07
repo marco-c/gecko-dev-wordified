@@ -17087,16 +17087,10 @@ mimetype
 )
 )
 |
-DOMString
-:
-:
-from
-(
 mimetype
 .
-to_string
+clone
 (
-)
 )
 )
 ;

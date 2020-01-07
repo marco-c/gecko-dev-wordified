@@ -215,6 +215,12 @@ jsapi
 JSObject
 ;
 use
+mime
+:
+:
+Mime
+;
+use
 script_traits
 :
 :
@@ -295,7 +301,7 @@ content_type
 :
 Option
 <
-DOMString
+Mime
 >
 last_modified
 :
@@ -374,7 +380,7 @@ content_type
 :
 Option
 <
-DOMString
+Mime
 >
 last_modified
 :
