@@ -831,11 +831,6 @@ test_bug470377_4
 js
 "
 "
-test_bug655254
-.
-js
-"
-"
 test_signed_verify
 .
 js
