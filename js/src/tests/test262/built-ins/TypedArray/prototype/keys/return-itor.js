@@ -117,15 +117,11 @@ TypedArray
 var
 sample
 =
-new
-Int8Array
-(
 [
 0
 42
 64
 ]
-)
 ;
 testWithTypedArrayConstructors
 (

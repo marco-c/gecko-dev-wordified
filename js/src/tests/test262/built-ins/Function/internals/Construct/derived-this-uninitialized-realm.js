@@ -66,7 +66,7 @@ derived
 constructor
 does
 not
-intialize
+initialize
 the
 this
 binding

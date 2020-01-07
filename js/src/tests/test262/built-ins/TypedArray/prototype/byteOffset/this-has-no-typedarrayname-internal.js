@@ -48,15 +48,6 @@ typedarray
 prototype
 .
 byteoffset
-es6id
-:
-22
-.
-2
-.
-3
-.
-3
 description
 :
 >

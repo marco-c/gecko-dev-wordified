@@ -55,7 +55,7 @@ description
 :
 Use
 of
-intializer
+initializer
 when
 argument
 value

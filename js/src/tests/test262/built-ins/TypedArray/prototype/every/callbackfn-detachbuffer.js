@@ -223,6 +223,11 @@ testTypedArray
 .
 js
 ]
+features
+:
+[
+TypedArray
+]
 -
 -
 -

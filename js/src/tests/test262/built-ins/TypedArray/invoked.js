@@ -37,7 +37,11 @@ file
 -
 esid
 :
-pending
+sec
+-
+%
+typedarray
+%
 description
 :
 Throw

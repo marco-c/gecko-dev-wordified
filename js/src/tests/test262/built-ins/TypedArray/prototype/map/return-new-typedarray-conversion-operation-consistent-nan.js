@@ -374,6 +374,11 @@ compareArray
 .
 js
 ]
+features
+:
+[
+TypedArray
+]
 -
 -
 -
@@ -391,7 +396,7 @@ sample
 new
 FloatArray
 (
-distinctNaNs
+NaNs
 )
 ;
 var
@@ -415,7 +420,7 @@ function
 )
 {
 return
-distinctNaNs
+NaNs
 [
 i
 +

@@ -132,6 +132,11 @@ testTypedArray
 .
 js
 ]
+features
+:
+[
+TypedArray
+]
 -
 -
 -
@@ -206,6 +211,9 @@ buffer
 loops
 +
 +
+;
+return
+0
 ;
 }
 )

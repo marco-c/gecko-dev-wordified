@@ -147,6 +147,7 @@ key
 in
 f
 )
+{
 if
 (
 key
@@ -156,11 +157,14 @@ key
 length
 "
 )
+{
 var
 lengthenumed
 =
 true
 ;
+}
+}
 /
 /
 CHECK

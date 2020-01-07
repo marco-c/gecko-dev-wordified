@@ -218,6 +218,13 @@ TypedArray
 -
 *
 /
+testWithTypedArrayConstructors
+(
+function
+(
+TA
+)
+{
 var
 obj
 =
@@ -252,13 +259,6 @@ Symbol
 44
 }
 ;
-testWithTypedArrayConstructors
-(
-function
-(
-TA
-)
-{
 var
 sample
 =

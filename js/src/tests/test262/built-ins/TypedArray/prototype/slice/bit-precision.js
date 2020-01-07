@@ -46,15 +46,6 @@ typedarray
 prototype
 .
 slice
-es6id
-:
-22
-.
-2
-.
-3
-.
-23
 description
 :
 Preservation
@@ -233,6 +224,11 @@ testTypedArray
 .
 js
 ]
+features
+:
+[
+TypedArray
+]
 -
 -
 -
@@ -250,7 +246,7 @@ subject
 new
 FloatArray
 (
-distinctNaNs
+NaNs
 )
 ;
 var

@@ -76,13 +76,8 @@ onlyStrict
 -
 *
 /
-"
-use
-strict
-"
-;
 function
-_15_3_5_1_gs
+fn
 (
 )
 {
@@ -96,7 +91,7 @@ function
 (
 )
 {
-_15_3_5_1_gs
+fn
 .
 caller
 ;

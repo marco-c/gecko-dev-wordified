@@ -166,15 +166,6 @@ value
 should
 be
 2
-Expected
-SameValue
-(
-1
-0
-)
-to
-be
-true
 '
 )
 {

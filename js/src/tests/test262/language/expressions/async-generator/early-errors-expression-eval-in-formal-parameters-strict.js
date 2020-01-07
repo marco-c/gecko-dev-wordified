@@ -57,7 +57,15 @@ com
 >
 esid
 :
-pending
+sec
+-
+strict
+-
+mode
+-
+of
+-
+ecmascript
 description
 :
 >

@@ -55,6 +55,14 @@ esid
 sec
 -
 identifiers
+-
+static
+-
+semantics
+-
+early
+-
+errors
 description
 :
 >

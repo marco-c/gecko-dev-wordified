@@ -46,15 +46,6 @@ typedarray
 prototype
 .
 copywithin
-es6id
-:
-22
-.
-2
-.
-3
-.
-5
 description
 :
 >
@@ -244,6 +235,11 @@ js
 testTypedArray
 .
 js
+]
+features
+:
+[
+TypedArray
 ]
 -
 -

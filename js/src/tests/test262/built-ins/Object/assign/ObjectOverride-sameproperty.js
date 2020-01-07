@@ -31,6 +31,7 @@ file
 -
 description
 :
+>
 Object
 properties
 are

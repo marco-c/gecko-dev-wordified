@@ -1313,13 +1313,11 @@ configurable
 }
 }
 assert
-.
-sameValue
 (
+!
 failures
 .
 length
-0
 failures
 .
 join

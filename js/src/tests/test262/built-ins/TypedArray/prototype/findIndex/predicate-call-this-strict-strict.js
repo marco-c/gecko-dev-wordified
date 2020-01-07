@@ -51,15 +51,6 @@ typedarray
 prototype
 .
 findindex
-es6id
-:
-22
-.
-2
-.
-3
-.
-11
 description
 :
 >

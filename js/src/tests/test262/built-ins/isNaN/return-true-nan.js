@@ -97,7 +97,7 @@ js
 -
 *
 /
-distinctNaNs
+NaNs
 .
 forEach
 (

@@ -46,15 +46,6 @@ typedarray
 prototype
 .
 find
-es6id
-:
-22
-.
-2
-.
-3
-.
-10
 description
 :
 >

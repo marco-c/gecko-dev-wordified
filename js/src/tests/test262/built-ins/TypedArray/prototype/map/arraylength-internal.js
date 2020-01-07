@@ -183,6 +183,9 @@ loop
 +
 +
 ;
+return
+0
+;
 }
 )
 ;
@@ -256,6 +259,9 @@ function
 loop
 +
 +
+;
+return
+0
 ;
 }
 )

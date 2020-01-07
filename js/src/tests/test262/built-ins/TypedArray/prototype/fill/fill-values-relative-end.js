@@ -46,15 +46,6 @@ typedarray
 prototype
 .
 fill
-es6id
-:
-22
-.
-2
-.
-3
-.
-8
 description
 :
 >
@@ -297,6 +288,11 @@ js
 testTypedArray
 .
 js
+]
+features
+:
+[
+TypedArray
 ]
 -
 -

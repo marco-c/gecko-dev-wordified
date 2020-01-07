@@ -46,15 +46,6 @@ typedarray
 prototype
 .
 fill
-es6id
-:
-22
-.
-2
-.
-3
-.
-8
 description
 :
 >
@@ -481,7 +472,9 @@ function
 )
 {
 return
+"
 1
+"
 ;
 }
 valueOf
@@ -537,7 +530,9 @@ function
 )
 {
 return
+"
 7
+"
 ;
 }
 }
