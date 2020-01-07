@@ -877,13 +877,6 @@ bin
 :
 \
 /
-tools
-/
-python27
-/
-bin
-:
-/
 home
 /
 cltbld
