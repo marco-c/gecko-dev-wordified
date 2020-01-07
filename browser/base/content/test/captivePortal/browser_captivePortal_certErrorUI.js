@@ -543,11 +543,11 @@ focused
 )
 ;
 let
-portalTabRemoved
+portalTabClosing
 =
 BrowserTestUtils
 .
-tabRemoved
+waitForTabClosing
 (
 portalTab
 )
@@ -581,7 +581,7 @@ success
 )
 ;
 await
-portalTabRemoved
+portalTabClosing
 ;
 info
 (

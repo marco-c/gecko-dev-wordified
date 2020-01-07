@@ -548,7 +548,7 @@ awaitTabSwitch
 =
 BrowserTestUtils
 .
-tabRemoved
+waitForTabClosing
 (
 testTab
 )

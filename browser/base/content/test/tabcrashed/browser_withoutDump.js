@@ -106,11 +106,11 @@ browser
 )
 ;
 let
-tabRemovedPromise
+tabClosingPromise
 =
 BrowserTestUtils
 .
-tabRemoved
+waitForTabClosing
 (
 tab
 )
@@ -219,7 +219,7 @@ click
 )
 ;
 await
-tabRemovedPromise
+tabClosingPromise
 ;
 }
 )

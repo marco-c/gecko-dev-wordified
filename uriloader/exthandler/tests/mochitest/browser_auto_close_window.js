@@ -475,7 +475,7 @@ event
 target
 BrowserTestUtils
 .
-tabRemoved
+waitForTabClosing
 (
 event
 .
@@ -529,14 +529,14 @@ windowContext
 let
 [
 tab
-closed
+closingPromise
 ]
 =
 await
 tabOpened
 ;
 await
-closed
+closingPromise
 ;
 is
 (
