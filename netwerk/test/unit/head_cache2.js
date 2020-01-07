@@ -1494,6 +1494,8 @@ entry
 openOutputStream
 (
 0
+-
+1
 )
 ;
 /
@@ -1606,6 +1608,8 @@ entry
 openOutputStream
 (
 offset
+-
+1
 )
 ;
 LOG_C2

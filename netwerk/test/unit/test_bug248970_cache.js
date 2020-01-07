@@ -349,6 +349,15 @@ entry
 openOutputStream
 (
 0
+entries
+[
+store_idx
+]
+[
+1
+]
+.
+length
 )
 ;
 var

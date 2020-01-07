@@ -191,6 +191,8 @@ entry
 openOutputStream
 (
 0
+-
+1
 )
 )
 ;
@@ -326,6 +328,8 @@ entry
 openOutputStream
 (
 0
+-
+1
 )
 )
 ;

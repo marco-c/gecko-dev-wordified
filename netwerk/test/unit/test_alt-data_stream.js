@@ -627,6 +627,9 @@ cc
 openAlternativeOutputStream
 (
 altContentType
+altContent
+.
+length
 )
 ;
 /

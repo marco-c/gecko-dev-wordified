@@ -17756,6 +17756,8 @@ const
 nsACString
 &
 aType
+int64_t
+aPredictedSize
 nsIOutputStream
 *
 *
@@ -17786,6 +17788,7 @@ mSynthesizedCacheInfo
 OpenAlternativeOutputStream
 (
 aType
+aPredictedSize
 _retval
 )
 ;
@@ -17881,6 +17884,7 @@ nsCString
 (
 aType
 )
+aPredictedSize
 this
 )
 )

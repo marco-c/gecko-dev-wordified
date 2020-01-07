@@ -2108,6 +2108,8 @@ OpenOutputStream
 (
 int64_t
 offset
+int64_t
+predictedSize
 nsIOutputStream
 *
 *

@@ -8193,6 +8193,8 @@ entry
 openOutputStream
 (
 0
+-
+1
 )
 ;
 outputStream

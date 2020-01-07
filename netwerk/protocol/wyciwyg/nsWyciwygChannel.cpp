@@ -2318,6 +2318,8 @@ mCacheEntry
 OpenOutputStream
 (
 0
+-
+1
 getter_AddRefs
 (
 mCacheOutputStream

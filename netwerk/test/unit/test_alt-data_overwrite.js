@@ -620,6 +620,9 @@ cc
 openAlternativeOutputStream
 (
 altContentType
+altContent
+.
+length
 )
 ;
 os
@@ -888,6 +891,9 @@ cc
 openAlternativeOutputStream
 (
 altContentType
+altContent
+.
+length
 )
 ;
 os
@@ -1104,6 +1110,9 @@ cc
 openAlternativeOutputStream
 (
 altContentType2
+altContent2
+.
+length
 )
 ;
 os

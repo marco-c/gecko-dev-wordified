@@ -2169,6 +2169,10 @@ const
 nsCString
 &
 type
+const
+int64_t
+&
+predictedSize
 PHttpChannelParent
 *
 channel
@@ -2202,6 +2206,7 @@ chan
 OpenAlternativeOutputStream
 (
 type
+predictedSize
 getter_AddRefs
 (
 stream

@@ -16225,6 +16225,14 @@ nsContentUtils
 JSBytecodeMimeType
 (
 )
+aRequest
+-
+>
+mScriptBytecode
+.
+length
+(
+)
 getter_AddRefs
 (
 output
