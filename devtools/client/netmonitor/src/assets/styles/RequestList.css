@@ -2245,6 +2245,8 @@ requests
 list
 -
 duration
+-
+time
 {
 width
 :
@@ -2264,6 +2266,8 @@ requests
 list
 -
 latency
+-
+time
 {
 width
 :
