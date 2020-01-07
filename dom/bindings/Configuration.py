@@ -3648,20 +3648,6 @@ register
 True
 )
         
-self
-.
-hasXPConnectImpls
-=
-desc
-.
-get
-(
-'
-hasXPConnectImpls
-'
-False
-)
-        
 #
 If
 we
@@ -6653,17 +6639,6 @@ to
 do
 this
 if
-our
-this
-value
-might
-be
-an
-XPConnect
-        
-object
-or
-if
 we
 need
 to
@@ -6671,6 +6646,7 @@ coerce
 null
 /
 undefined
+        
 to
 the
 global
@@ -6681,10 +6657,6 @@ global
 "
         
 return
-self
-.
-hasXPConnectImpls
-or
 self
 .
 interface
