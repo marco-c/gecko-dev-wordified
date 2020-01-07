@@ -593,6 +593,10 @@ getUrlEditText
 getText
 (
 )
+.
+toString
+(
+)
 )
 ;
 return
