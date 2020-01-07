@@ -484,12 +484,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -518,7 +518,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -539,7 +539,7 @@ rule
 "
 )
 ;
-yield
+await
 testBodyRuleView
 (
 view
@@ -556,7 +556,7 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -586,7 +586,7 @@ rule
 "
 )
 ;
-yield
+await
 testDivRuleView
 (
 view
@@ -614,7 +614,7 @@ edited
 "
 )
 ;
-yield
+await
 testTooltipAppearsEvenInEditMode
 (
 view
@@ -656,7 +656,7 @@ selectComputedView
 inspector
 )
 ;
-yield
+await
 onComputedViewReady
 ;
 info
@@ -677,7 +677,7 @@ too
 "
 )
 ;
-yield
+await
 testComputedView
 (
 view
@@ -686,8 +686,8 @@ view
 }
 )
 ;
+async
 function
-*
 testBodyRuleView
 (
 view
@@ -753,7 +753,7 @@ link
 let
 previewTooltip
 =
-yield
+await
 assertShowPreviewTooltip
 (
 view
@@ -817,7 +817,7 @@ fine
 "
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 previewTooltip
@@ -825,8 +825,8 @@ uriSpan
 )
 ;
 }
+async
 function
-*
 testDivRuleView
 (
 view
@@ -879,7 +879,7 @@ link
 let
 previewTooltip
 =
-yield
+await
 assertShowPreviewTooltip
 (
 view
@@ -948,7 +948,7 @@ expected
 "
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 previewTooltip
@@ -956,8 +956,8 @@ uriSpan
 )
 ;
 }
+async
 function
-*
 testTooltipAppearsEvenInEditMode
 (
 view
@@ -980,7 +980,7 @@ view
 let
 editor
 =
-yield
+await
 turnToEditMode
 (
 view
@@ -1036,7 +1036,7 @@ link
 let
 previewTooltip
 =
-yield
+await
 assertShowPreviewTooltip
 (
 view
@@ -1069,7 +1069,7 @@ focused
 "
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 previewTooltip
@@ -1108,8 +1108,8 @@ brace
 )
 ;
 }
+async
 function
-*
 testComputedView
 (
 view
@@ -1171,7 +1171,7 @@ scrollIntoView
 let
 previewTooltip
 =
-yield
+await
 assertShowPreviewTooltip
 (
 view
@@ -1243,7 +1243,7 @@ too
 "
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 previewTooltip

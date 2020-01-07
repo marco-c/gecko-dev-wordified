@@ -66,12 +66,12 @@ toggled
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -104,7 +104,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )

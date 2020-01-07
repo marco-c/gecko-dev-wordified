@@ -268,8 +268,8 @@ shown
 correctly
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -278,7 +278,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URI
@@ -292,7 +292,7 @@ searchClearButton
 =
 inspector
 ;
-yield
+await
 focusSearchBoxUsingShortcut
 (
 inspector
@@ -340,7 +340,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 command
 ;
 info
@@ -359,7 +359,7 @@ suggestions
 "
 )
 ;
-yield
+await
 inspector
 .
 searchSuggestions
@@ -401,7 +401,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 command
 ;
 info
@@ -420,7 +420,7 @@ suggestions
 "
 )
 ;
-yield
+await
 inspector
 .
 searchSuggestions

@@ -94,8 +94,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -105,7 +105,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 URL_1
@@ -115,7 +115,7 @@ assertMarkupViewIsLoaded
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -141,7 +141,7 @@ navigate
 "
 )
 ;
-yield
+await
 testActor
 .
 eval
@@ -168,7 +168,7 @@ navigate
 "
 )
 ;
-yield
+await
 willNavigate
 ;
 info
@@ -203,7 +203,7 @@ root
 "
 )
 ;
-yield
+await
 inspector
 .
 once
@@ -237,7 +237,7 @@ assertMarkupViewIsLoaded
 (
 )
 ;
-yield
+await
 selectNode
 (
 "

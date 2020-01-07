@@ -120,12 +120,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -154,7 +154,7 @@ inspector
 gridInspector
 }
 =
-yield
+await
 openLayoutView
 (
 )
@@ -175,7 +175,7 @@ highlighters
 =
 inspector
 ;
-yield
+await
 selectNode
 (
 "

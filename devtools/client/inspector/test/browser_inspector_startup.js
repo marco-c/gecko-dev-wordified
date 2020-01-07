@@ -279,8 +279,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -290,7 +290,7 @@ inspector
 tab
 }
 =
-yield
+await
 openInspectorForURL
 (
 "
@@ -364,7 +364,7 @@ target
 .
 activeTab
 ;
-yield
+await
 activeTab
 .
 navigateTo
@@ -388,7 +388,7 @@ image
 let
 response
 =
-yield
+await
 onRequest
 ;
 /
@@ -415,7 +415,7 @@ DOMContentLoaded
 "
 )
 ;
-yield
+await
 domContentLoaded
 ;
 /
@@ -439,7 +439,7 @@ loaded
 "
 )
 ;
-yield
+await
 markupLoaded
 ;
 ok
@@ -479,7 +479,7 @@ rendering
 ;
 is
 (
-yield
+await
 contentReadyState
 (
 tab
@@ -535,7 +535,7 @@ load
 "
 )
 ;
-yield
+await
 pageLoaded
 ;
 }

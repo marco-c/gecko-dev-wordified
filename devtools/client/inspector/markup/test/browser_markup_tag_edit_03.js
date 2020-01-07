@@ -114,8 +114,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -125,13 +125,13 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -150,7 +150,7 @@ node
 "
 )
 ;
-yield
+await
 focusNode
 (
 "
@@ -180,7 +180,7 @@ node
 let
 container
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -208,7 +208,7 @@ expanded
 let
 parentInfo
 =
-yield
+await
 testActor
 .
 getNodeInfo
@@ -271,7 +271,7 @@ child
 let
 childInfo
 =
-yield
+await
 testActor
 .
 getNodeInfo
@@ -371,7 +371,7 @@ p
 inspector
 )
 ;
-yield
+await
 mutated
 ;
 info
@@ -392,7 +392,7 @@ correct
 ;
 container
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -447,7 +447,7 @@ done
 ;
 parentInfo
 =
-yield
+await
 testActor
 .
 getNodeInfo
@@ -506,7 +506,7 @@ child
 ;
 childInfo
 =
-yield
+await
 testActor
 .
 getNodeInfo

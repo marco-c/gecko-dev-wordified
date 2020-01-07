@@ -120,12 +120,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -154,12 +154,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -168,7 +168,7 @@ a
 inspector
 )
 ;
-yield
+await
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -178,7 +178,7 @@ element
 2
 )
 ;
-yield
+await
 elementStyleInherit
 (
 inspector
@@ -189,7 +189,6 @@ view
 )
 ;
 function
-*
 elementStyleInherit
 (
 inspector

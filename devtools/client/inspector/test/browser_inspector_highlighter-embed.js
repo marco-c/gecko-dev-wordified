@@ -87,8 +87,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -97,7 +97,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -126,13 +126,13 @@ it
 let
 body
 =
-yield
+await
 getEmbeddedBody
 (
 inspector
 )
 ;
-yield
+await
 selectAndHighlightNode
 (
 body
@@ -207,8 +207,8 @@ element
 }
 )
 ;
+async
 function
-*
 getEmbeddedBody
 (
 {
@@ -219,7 +219,7 @@ walker
 let
 embed
 =
-yield
+await
 walker
 .
 querySelector
@@ -237,7 +237,7 @@ let
 nodes
 }
 =
-yield
+await
 walker
 .
 children
@@ -256,7 +256,7 @@ nodes
 let
 body
 =
-yield
+await
 walker
 .
 querySelector

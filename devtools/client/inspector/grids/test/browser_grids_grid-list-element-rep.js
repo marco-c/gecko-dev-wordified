@@ -126,12 +126,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -161,7 +161,7 @@ gridInspector
 toolbox
 }
 =
-yield
+await
 openLayoutView
 (
 )
@@ -293,7 +293,7 @@ defaultView
 let
 nodeFront
 =
-yield
+await
 onHighlight
 ;
 ok
@@ -416,7 +416,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 onSelection
 ;
 is

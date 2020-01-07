@@ -253,8 +253,8 @@ dimensions
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -264,7 +264,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -285,7 +285,7 @@ highlighter
 let
 divFront
 =
-yield
+await
 getNodeFront
 (
 "
@@ -294,7 +294,7 @@ div
 inspector
 )
 ;
-yield
+await
 inspector
 .
 highlighter
@@ -315,7 +315,7 @@ ELEMENTS
 let
 foundId
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -354,7 +354,7 @@ highlighter
 "
 )
 ;
-yield
+await
 inspector
 .
 highlighter

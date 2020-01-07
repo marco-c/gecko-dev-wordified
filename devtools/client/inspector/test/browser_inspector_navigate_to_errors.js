@@ -178,8 +178,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -198,7 +198,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL_1
@@ -214,7 +214,7 @@ port
 "
 )
 ;
-yield
+await
 navigateTo
 (
 inspector
@@ -224,7 +224,7 @@ TEST_URL_2
 let
 documentURI
 =
-yield
+await
 testActor
 .
 eval
@@ -260,7 +260,7 @@ correct
 let
 hasPage
 =
-yield
+await
 getNodeFront
 (
 "
@@ -297,7 +297,7 @@ node
 let
 hasNetErrorNode
 =
-yield
+await
 getNodeFront
 (
 "
@@ -393,7 +393,7 @@ domain
 ;
 is
 (
-yield
+await
 getDisplayedNodeTextContent
 (
 "
@@ -423,7 +423,7 @@ domain
 "
 )
 ;
-yield
+await
 navigateTo
 (
 inspector
@@ -473,7 +473,7 @@ domain
 ;
 is
 (
-yield
+await
 getDisplayedNodeTextContent
 (
 "
@@ -505,7 +505,7 @@ url
 "
 )
 ;
-yield
+await
 navigateTo
 (
 inspector
@@ -514,7 +514,7 @@ TEST_URL_4
 ;
 is
 (
-yield
+await
 getDisplayedNodeTextContent
 (
 "

@@ -142,12 +142,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -176,7 +176,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -188,7 +188,7 @@ view
 .
 highlighters
 ;
-yield
+await
 selectNode
 (
 "
@@ -270,7 +270,7 @@ click
 (
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 info
@@ -294,7 +294,7 @@ block
 let
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -356,10 +356,10 @@ view
 styleWindow
 )
 ;
-yield
+await
 onHighlighterHidden
 ;
-yield
+await
 onDone
 ;
 info

@@ -156,12 +156,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -190,7 +190,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -212,7 +212,7 @@ name
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -277,7 +277,7 @@ span
 "
 )
 ;
-yield
+await
 focusEditableField
 (
 view
@@ -464,7 +464,7 @@ requests
 "
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 info
@@ -481,7 +481,7 @@ updated
 "
 )
 ;
-yield
+await
 onPropertyValueUpdate
 ;
 info
@@ -504,7 +504,7 @@ tab
 let
 tab
 =
-yield
+await
 onTabOpened
 ;
 ok

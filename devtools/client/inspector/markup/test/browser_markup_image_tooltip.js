@@ -186,12 +186,12 @@ u00D7
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -208,7 +208,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspector
 (
 )
@@ -226,7 +226,7 @@ tag
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -246,14 +246,14 @@ TEST_NODES
 let
 target
 =
-yield
+await
 getImageTooltipTarget
 (
 testNode
 inspector
 )
 ;
-yield
+await
 assertTooltipShownOnHover
 (
 inspector
@@ -270,7 +270,7 @@ testNode
 inspector
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 inspector
@@ -285,8 +285,8 @@ target
 }
 )
 ;
+async
 function
-*
 getImageTooltipTarget
 (
 {
@@ -298,7 +298,7 @@ inspector
 let
 nodeFront
 =
-yield
+await
 getNodeFront
 (
 selector

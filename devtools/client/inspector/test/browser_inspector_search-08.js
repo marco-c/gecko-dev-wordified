@@ -320,8 +320,8 @@ svg
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -330,7 +330,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URI
@@ -352,7 +352,7 @@ searchSuggestions
 .
 searchPopup
 ;
-yield
+await
 focusSearchBoxUsingShortcut
 (
 inspector
@@ -416,7 +416,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 command
 ;
 info
@@ -435,7 +435,7 @@ suggestions
 "
 )
 ;
-yield
+await
 inspector
 .
 searchSuggestions

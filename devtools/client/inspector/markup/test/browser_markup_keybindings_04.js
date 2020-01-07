@@ -117,8 +117,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -128,7 +128,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -149,7 +149,7 @@ menu
 "
 )
 ;
-yield
+await
 clickOnInspectMenuItem
 (
 testActor
@@ -192,7 +192,7 @@ properly
 "
 )
 ;
-yield
+await
 selectPreviousNodeWithArrowUp
 (
 inspector
@@ -220,7 +220,7 @@ picker
 "
 )
 ;
-yield
+await
 selectWithElementPicker
 (
 inspector
@@ -261,7 +261,7 @@ properly
 "
 )
 ;
-yield
+await
 selectPreviousNodeWithArrowUp
 (
 inspector
@@ -368,15 +368,15 @@ onNodeHighlighted
 )
 ;
 }
+async
 function
-*
 selectWithElementPicker
 (
 inspector
 testActor
 )
 {
-yield
+await
 startPicker
 (
 inspector
@@ -384,7 +384,7 @@ inspector
 toolbox
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -404,7 +404,7 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
+await
 testActor
 .
 synthesizeKey
@@ -422,7 +422,7 @@ options
 }
 )
 ;
-yield
+await
 inspector
 .
 once

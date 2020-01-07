@@ -153,12 +153,12 @@ CssTransformHighlighter
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -187,7 +187,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -373,7 +373,7 @@ valueSpan
 }
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 ok
@@ -409,7 +409,7 @@ onMouseOut
 (
 )
 ;
-yield
+await
 onHighlighterHidden
 ;
 ok
@@ -483,7 +483,7 @@ valueSpan
 }
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 is
@@ -559,7 +559,7 @@ passed
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -609,7 +609,7 @@ valueSpan
 }
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 is
@@ -637,7 +637,7 @@ highlighter
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -687,7 +687,7 @@ valueSpan
 }
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 is
@@ -778,7 +778,7 @@ valueSpan
 }
 )
 ;
-yield
+await
 onHighlighterHidden
 ;
 ok

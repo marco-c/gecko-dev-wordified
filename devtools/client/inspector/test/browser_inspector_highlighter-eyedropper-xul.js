@@ -110,8 +110,8 @@ h1
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -120,7 +120,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -182,7 +182,7 @@ picker
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -282,7 +282,7 @@ click
 (
 )
 ;
-yield
+await
 onColorPickerReady
 ;
 button
@@ -332,7 +332,7 @@ document
 "
 )
 ;
-yield
+await
 navigateTo
 (
 inspector
@@ -413,7 +413,7 @@ rule
 -
 view
 .
-yield
+await
 selectNode
 (
 "
@@ -498,7 +498,7 @@ click
 (
 )
 ;
-yield
+await
 onColorPickerReady
 ;
 button

@@ -88,12 +88,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 TESTCASE_URI
@@ -105,12 +105,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -136,7 +136,7 @@ numbers
 "
 )
 ;
-yield
+await
 addProperty
 (
 view
@@ -151,7 +151,7 @@ size
 "
 )
 ;
-yield
+await
 selectNode
 (
 "

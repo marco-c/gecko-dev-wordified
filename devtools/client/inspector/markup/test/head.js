@@ -802,12 +802,8 @@ MarkupContainer
 var
 getContainerForSelector
 =
-Task
-.
 async
-(
 function
-*
 (
 selector
 inspector
@@ -834,7 +830,7 @@ selector
 let
 nodeFront
 =
-yield
+await
 getNodeFront
 (
 selector
@@ -899,7 +895,6 @@ return
 container
 ;
 }
-)
 ;
 /
 *
@@ -950,8 +945,8 @@ the
 first
 *
 /
+async
 function
-*
 getFirstChildNodeValue
 (
 selector
@@ -961,7 +956,7 @@ testActor
 let
 nodeValue
 =
-yield
+await
 testActor
 .
 eval
@@ -1168,12 +1163,8 @@ selected
 var
 clickContainer
 =
-Task
-.
 async
-(
 function
-*
 (
 selector
 inspector
@@ -1198,7 +1189,7 @@ selector
 let
 nodeFront
 =
-yield
+await
 getNodeFront
 (
 selector
@@ -1288,7 +1279,6 @@ return
 updated
 ;
 }
-)
 ;
 /
 *
@@ -1557,12 +1547,8 @@ mutated
 var
 addNewAttributes
 =
-Task
-.
 async
-(
 function
-*
 (
 selector
 text
@@ -1592,7 +1578,7 @@ selector
 let
 container
 =
-yield
+await
 focusNode
 (
 selector
@@ -1652,11 +1638,10 @@ text
 inspector
 )
 ;
-yield
+await
 nodeMutated
 ;
 }
-)
 ;
 /
 *
@@ -1766,12 +1751,8 @@ return
 var
 assertAttributes
 =
-Task
-.
 async
-(
 function
-*
 (
 selector
 expected
@@ -1785,7 +1766,7 @@ attributes
 actual
 }
 =
-yield
+await
 testActor
 .
 getNodeInfo
@@ -1913,7 +1894,6 @@ value
 ;
 }
 }
-)
 ;
 /
 *
@@ -2454,12 +2434,8 @@ checked
 var
 isEditingMenuDisabled
 =
-Task
-.
 async
-(
 function
-*
 (
 nodeFront
 inspector
@@ -2494,7 +2470,7 @@ p
 "
 )
 ;
-yield
+await
 selectNode
 (
 nodeFront
@@ -2650,7 +2626,6 @@ pasteHTMLMenuItem
 disabled
 ;
 }
-)
 ;
 /
 *
@@ -2733,12 +2708,8 @@ checked
 var
 isEditingMenuEnabled
 =
-Task
-.
 async
-(
 function
-*
 (
 nodeFront
 inspector
@@ -2773,7 +2744,7 @@ p
 "
 )
 ;
-yield
+await
 selectNode
 (
 nodeFront
@@ -2935,7 +2906,6 @@ pasteHTMLMenuItem
 disabled
 ;
 }
-)
 ;
 /
 *
@@ -3366,12 +3336,8 @@ href
 var
 getAttributesFromEditor
 =
-Task
-.
 async
-(
 function
-*
 (
 selector
 inspector
@@ -3381,7 +3347,7 @@ let
 nodeList
 =
 (
-yield
+await
 getContainerForSelector
 (
 selector
@@ -3428,7 +3394,6 @@ attr
 )
 ;
 }
-)
 ;
 /
 *
@@ -3882,8 +3847,8 @@ by
 .
 *
 /
+async
 function
-*
 simulateNodeDrag
 (
 inspector
@@ -3908,7 +3873,7 @@ selector
 string
 "
 ?
-yield
+await
 getContainerForSelector
 (
 selector
@@ -4053,7 +4018,7 @@ container
 node
 )
 {
-yield
+await
 inspector
 .
 once
@@ -4169,8 +4134,8 @@ node
 .
 *
 /
+async
 function
-*
 simulateNodeDrop
 (
 inspector
@@ -4201,7 +4166,7 @@ selector
 string
 "
 ?
-yield
+await
 getContainerForSelector
 (
 selector
@@ -4310,8 +4275,8 @@ by
 .
 *
 /
+async
 function
-*
 simulateNodeDragAndDrop
 (
 inspector
@@ -4320,7 +4285,7 @@ xOffset
 yOffset
 )
 {
-yield
+await
 simulateNodeDrag
 (
 inspector
@@ -4329,7 +4294,7 @@ xOffset
 yOffset
 )
 ;
-yield
+await
 simulateNodeDrop
 (
 inspector
@@ -4619,8 +4584,8 @@ element
 .
 *
 /
+async
 function
-*
 checkDeleteAndSelection
 (
 inspector
@@ -4683,14 +4648,14 @@ focused
 "
 )
 ;
-yield
+await
 selectNode
 (
 selector
 inspector
 )
 ;
-yield
+await
 clickContainer
 (
 selector
@@ -4732,7 +4697,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -4755,7 +4720,7 @@ updated
 let
 nodeFront
 =
-yield
+await
 getNodeFront
 (
 focusedSelector
@@ -4810,7 +4775,7 @@ let
 nodes
 }
 =
-yield
+await
 inspector
 .
 walker
@@ -4879,7 +4844,7 @@ removed
 let
 node
 =
-yield
+await
 getNodeFront
 (
 selector
@@ -4919,7 +4884,7 @@ markup
 "
 )
 ;
-yield
+await
 undoChange
 (
 inspector
@@ -4927,7 +4892,7 @@ inspector
 ;
 node
 =
-yield
+await
 getNodeFront
 (
 selector

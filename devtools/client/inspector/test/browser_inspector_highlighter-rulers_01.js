@@ -192,8 +192,8 @@ RULERS_TEXT_STEP
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -203,7 +203,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -219,7 +219,7 @@ inspector
 let
 highlighter
 =
-yield
+await
 front
 .
 getHighlighterByType
@@ -229,7 +229,7 @@ RulersHighlighter
 "
 )
 ;
-yield
+await
 isHiddenByDefault
 (
 highlighter
@@ -237,7 +237,7 @@ inspector
 testActor
 )
 ;
-yield
+await
 hasRightLabelsContent
 (
 highlighter
@@ -245,7 +245,7 @@ inspector
 testActor
 )
 ;
-yield
+await
 highlighter
 .
 finalize
@@ -255,8 +255,8 @@ finalize
 }
 )
 ;
+async
 function
-*
 isHiddenByDefault
 (
 highlighterFront
@@ -280,7 +280,7 @@ default
 let
 hidden
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -351,7 +351,7 @@ given
 let
 body
 =
-yield
+await
 getNodeFront
 (
 "
@@ -360,7 +360,7 @@ body
 inspector
 )
 ;
-yield
+await
 highlighterFront
 .
 show
@@ -370,7 +370,7 @@ body
 ;
 hidden
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -402,8 +402,8 @@ show
 )
 ;
 }
+async
 function
-*
 hasRightLabelsContent
 (
 highlighterFront
@@ -432,7 +432,7 @@ size
 let
 contentX
 =
-yield
+await
 testActor
 .
 getHighlighterNodeTextContent
@@ -451,7 +451,7 @@ highlighterFront
 let
 contentY
 =
-yield
+await
 testActor
 .
 getHighlighterNodeTextContent

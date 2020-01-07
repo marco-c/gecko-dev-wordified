@@ -134,8 +134,8 @@ pagesize
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -145,7 +145,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -161,7 +161,7 @@ node
 "
 )
 ;
-yield
+await
 clickContainer
 (
 "
@@ -188,14 +188,14 @@ children
 "
 )
 ;
-yield
+await
 reloadPage
 (
 inspector
 testActor
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -227,13 +227,13 @@ children
 "
 )
 ;
-yield
+await
 showAllNodes
 (
 inspector
 )
 ;
-yield
+await
 assertAllNodesAreVisible
 (
 inspector
@@ -243,8 +243,8 @@ testActor
 }
 )
 ;
+async
 function
-*
 showAllNodes
 (
 inspector
@@ -253,7 +253,7 @@ inspector
 let
 container
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -312,7 +312,7 @@ button
 win
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -322,8 +322,8 @@ _waitForChildren
 )
 ;
 }
+async
 function
-*
 assertAllNodesAreVisible
 (
 inspector
@@ -333,7 +333,7 @@ testActor
 let
 container
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -370,7 +370,7 @@ anymore
 let
 numItems
 =
-yield
+await
 testActor
 .
 getNumberOfElementMatches

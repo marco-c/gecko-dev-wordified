@@ -312,12 +312,9 @@ tests
 )
 ;
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -331,7 +328,7 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -348,7 +345,7 @@ of
 tests
 )
 {
-yield
+await
 runAddAttributesTest
 (
 test
@@ -361,6 +358,8 @@ testActor
 ;
 }
 }
+)
+(
 )
 ;
 }
@@ -580,8 +579,8 @@ instance
 opened
 *
 /
+async
 function
-*
 runAddAttributesTest
 (
 test
@@ -621,7 +620,7 @@ test
 desc
 )
 ;
-yield
+await
 addNewAttributes
 (
 selector
@@ -650,7 +649,7 @@ correctly
 "
 )
 ;
-yield
+await
 assertAttributes
 (
 selector
@@ -670,7 +669,7 @@ validate
 let
 container
 =
-yield
+await
 getContainerForSelector
 (
 selector
@@ -695,7 +694,7 @@ change
 "
 )
 ;
-yield
+await
 undoChange
 (
 inspector
@@ -720,7 +719,7 @@ correctly
 "
 )
 ;
-yield
+await
 assertAttributes
 (
 selector
@@ -930,12 +929,9 @@ tests
 )
 ;
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -953,7 +949,7 @@ view
 "
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -970,7 +966,7 @@ of
 tests
 )
 {
-yield
+await
 runEditAttributesTest
 (
 test
@@ -980,6 +976,8 @@ testActor
 ;
 }
 }
+)
+(
 )
 ;
 }
@@ -1171,8 +1169,8 @@ instance
 opened
 *
 /
+async
 function
-*
 runEditAttributesTest
 (
 test
@@ -1210,7 +1208,7 @@ test
 node
 )
 ;
-yield
+await
 selectNode
 (
 test
@@ -1236,7 +1234,7 @@ with
 "
 )
 ;
-yield
+await
 assertAttributes
 (
 test
@@ -1272,7 +1270,7 @@ value
 let
 container
 =
-yield
+await
 focusNode
 (
 test
@@ -1363,7 +1361,7 @@ value
 inspector
 )
 ;
-yield
+await
 nodeMutated
 ;
 info
@@ -1378,7 +1376,7 @@ edition
 "
 )
 ;
-yield
+await
 assertAttributes
 (
 test
@@ -1408,13 +1406,13 @@ back
 "
 )
 ;
-yield
+await
 undoChange
 (
 inspector
 )
 ;
-yield
+await
 assertAttributes
 (
 test
@@ -1447,13 +1445,13 @@ again
 "
 )
 ;
-yield
+await
 redoChange
 (
 inspector
 )
 ;
-yield
+await
 assertAttributes
 (
 test

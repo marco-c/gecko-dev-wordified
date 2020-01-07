@@ -85,8 +85,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -95,7 +95,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -104,7 +104,7 @@ TEST_URL
 let
 span
 =
-yield
+await
 getNodeFrontInFrame
 (
 "
@@ -116,7 +116,7 @@ iframe
 inspector
 )
 ;
-yield
+await
 selectNode
 (
 span
@@ -145,7 +145,7 @@ parentNode
 (
 )
 ;
-yield
+await
 inspector
 .
 walker
@@ -165,7 +165,7 @@ to
 process
 the
 mutation
-yield
+await
 inspector
 .
 once

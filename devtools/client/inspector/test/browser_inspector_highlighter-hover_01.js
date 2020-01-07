@@ -141,8 +141,8 @@ p
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -152,7 +152,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -176,7 +176,7 @@ view
 "
 )
 ;
-yield
+await
 hoverContainer
 (
 "
@@ -188,7 +188,7 @@ inspector
 let
 isVisible
 =
-yield
+await
 testActor
 .
 isHighlighting
@@ -226,7 +226,7 @@ view
 "
 )
 ;
-yield
+await
 clickContainer
 (
 "
@@ -235,7 +235,7 @@ p
 inspector
 )
 ;
-yield
+await
 testActor
 .
 setProperty
@@ -280,12 +280,12 @@ selected
 "
 )
 ;
-yield
+await
 waitForTheBrieflyShowBoxModelTimeout
 (
 )
 ;
-yield
+await
 testActor
 .
 setProperty
@@ -307,7 +307,7 @@ dary
 ;
 isVisible
 =
-yield
+await
 testActor
 .
 isHighlighting

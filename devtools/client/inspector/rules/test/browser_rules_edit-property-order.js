@@ -99,12 +99,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -133,12 +133,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -183,7 +183,7 @@ style
 let
 firstProp
 =
-yield
+await
 addProperty
 (
 view
@@ -201,7 +201,7 @@ green
 let
 secondProp
 =
-yield
+await
 addProperty
 (
 view
@@ -269,7 +269,7 @@ blue
 is
 (
 (
-yield
+await
 getValue
 (
 "
@@ -318,7 +318,7 @@ again
 "
 )
 ;
-yield
+await
 removeProperty
 (
 view
@@ -338,7 +338,7 @@ green
 is
 (
 (
-yield
+await
 getValue
 (
 "
@@ -399,7 +399,7 @@ same
 ;
 secondProp
 =
-yield
+await
 addProperty
 (
 view
@@ -417,7 +417,7 @@ blue
 is
 (
 (
-yield
+await
 getValue
 (
 "
@@ -506,7 +506,7 @@ style
 "
 )
 ;
-yield
+await
 togglePropStatus
 (
 view
@@ -516,7 +516,7 @@ secondProp
 is
 (
 (
-yield
+await
 getValue
 (
 "
@@ -567,7 +567,7 @@ style
 "
 )
 ;
-yield
+await
 togglePropStatus
 (
 view
@@ -577,7 +577,7 @@ firstProp
 is
 (
 (
-yield
+await
 getValue
 (
 "
@@ -630,7 +630,7 @@ style
 "
 )
 ;
-yield
+await
 togglePropStatus
 (
 view
@@ -640,7 +640,7 @@ secondProp
 is
 (
 (
-yield
+await
 getValue
 (
 "
@@ -698,7 +698,7 @@ respected
 "
 )
 ;
-yield
+await
 togglePropStatus
 (
 view
@@ -708,7 +708,7 @@ firstProp
 is
 (
 (
-yield
+await
 getValue
 (
 "
@@ -810,7 +810,7 @@ style
 "
 )
 ;
-yield
+await
 setProperty
 (
 view
@@ -823,7 +823,7 @@ purple
 is
 (
 (
-yield
+await
 getValue
 (
 "
@@ -864,8 +864,8 @@ property
 }
 )
 ;
+async
 function
-*
 getValue
 (
 selector
@@ -875,7 +875,7 @@ propName
 let
 value
 =
-yield
+await
 getComputedStyleProperty
 (
 selector

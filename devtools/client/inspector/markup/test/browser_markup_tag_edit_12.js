@@ -139,8 +139,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -149,19 +149,19 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-yield
+await
 testAttributeEditing
 (
 inspector
 )
 ;
-yield
+await
 testAttributeDeletion
 (
 inspector
@@ -170,8 +170,8 @@ inspector
 }
 )
 ;
+async
 function
-*
 testAttributeEditing
 (
 inspector
@@ -209,7 +209,7 @@ mode
 /
 focuses
 id
-yield
+await
 activateFirstAttribute
 (
 "
@@ -235,7 +235,7 @@ inspector
 let
 attrs
 =
-yield
+await
 getAttributesFromEditor
 (
 "
@@ -266,7 +266,7 @@ next
 "
 )
 ;
-yield
+await
 editAttributeAndTab
 (
 attrs
@@ -314,7 +314,7 @@ previous
 "
 )
 ;
-yield
+await
 editAttributeAndTab
 (
 attrs
@@ -353,7 +353,7 @@ order
 "
 )
 ;
-yield
+await
 editAttributeAndTab
 (
 "
@@ -399,8 +399,8 @@ panelWin
 )
 ;
 }
+async
 function
-*
 testAttributeDeletion
 (
 inspector
@@ -438,7 +438,7 @@ mode
 /
 focuses
 id
-yield
+await
 activateFirstAttribute
 (
 "
@@ -464,7 +464,7 @@ inspector
 let
 attrs
 =
-yield
+await
 getAttributesFromEditor
 (
 "
@@ -488,7 +488,7 @@ attribute
 "
 )
 ;
-yield
+await
 editAttributeAndTab
 (
 '
@@ -516,7 +516,7 @@ attribute
 "
 )
 ;
-yield
+await
 editAttributeAndTab
 (
 "
@@ -579,8 +579,8 @@ active
 )
 ;
 }
+async
 function
-*
 editAttributeAndTab
 (
 newValue
@@ -652,7 +652,7 @@ panelWin
 )
 ;
 }
-yield
+await
 onEditMutation
 ;
 }
@@ -678,8 +678,8 @@ field
 .
 *
 /
+async
 function
-*
 activateFirstAttribute
 (
 container
@@ -691,7 +691,7 @@ let
 editor
 }
 =
-yield
+await
 focusNode
 (
 container

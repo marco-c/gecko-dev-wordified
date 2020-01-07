@@ -659,8 +659,8 @@ elms
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -687,7 +687,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 url
@@ -726,7 +726,7 @@ elms
 .
 div
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -739,7 +739,7 @@ elms
 .
 body
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -809,7 +809,7 @@ of
 TESTS
 )
 {
-yield
+await
 runAccessibilityNavigationTest
 (
 inspector

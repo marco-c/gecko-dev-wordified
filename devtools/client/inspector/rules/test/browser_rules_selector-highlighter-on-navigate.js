@@ -125,12 +125,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -159,7 +159,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -185,7 +185,7 @@ icon
 let
 icon
 =
-yield
+await
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -227,7 +227,7 @@ styleWindow
 let
 isVisible
 =
-yield
+await
 onToggled
 ;
 ok
@@ -273,7 +273,7 @@ visible
 "
 )
 ;
-yield
+await
 navigateTo
 (
 inspector

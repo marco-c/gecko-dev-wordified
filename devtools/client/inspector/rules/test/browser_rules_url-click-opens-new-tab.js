@@ -118,8 +118,8 @@ repeat
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -128,7 +128,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -145,7 +145,7 @@ selectRuleView
 inspector
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -217,7 +217,7 @@ tab
 let
 tab
 =
-yield
+await
 onTabOpened
 ;
 ok

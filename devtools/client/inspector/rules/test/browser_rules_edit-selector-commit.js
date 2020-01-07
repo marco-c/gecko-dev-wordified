@@ -287,12 +287,12 @@ testclass3
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -321,7 +321,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -334,7 +334,7 @@ of
 TEST_DATA
 )
 {
-yield
+await
 runTestData
 (
 inspector
@@ -346,8 +346,8 @@ data
 }
 )
 ;
+async
 function
-*
 runTestData
 (
 inspector
@@ -407,7 +407,7 @@ element
 "
 )
 ;
-yield
+await
 selectNode
 (
 node
@@ -442,7 +442,7 @@ view
 let
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -590,7 +590,7 @@ span
 return
 ;
 }
-yield
+await
 once
 (
 view

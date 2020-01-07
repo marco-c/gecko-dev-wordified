@@ -94,8 +94,8 @@ showAllAnonymousContent
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -114,7 +114,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -123,7 +123,7 @@ TEST_URL
 let
 native
 =
-yield
+await
 getNodeFront
 (
 "
@@ -154,7 +154,7 @@ div
 let
 nativeChildren
 =
-yield
+await
 inspector
 .
 walker
@@ -219,7 +219,7 @@ anonymous
 let
 videoChildren
 =
-yield
+await
 inspector
 .
 walker
@@ -319,7 +319,7 @@ anonymous
 "
 )
 ;
-yield
+await
 isEditingMenuDisabled
 (
 node

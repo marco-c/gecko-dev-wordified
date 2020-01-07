@@ -176,8 +176,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -198,7 +198,7 @@ appear
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -241,7 +241,7 @@ done
 }
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -270,12 +270,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -365,7 +365,7 @@ view
 let
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -405,7 +405,7 @@ element
 "
 )
 ;
-yield
+await
 clickOnRuleviewScrollbar
 (
 view
@@ -513,7 +513,7 @@ KEY_Enter
 "
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 ok
@@ -541,8 +541,8 @@ exists
 }
 )
 ;
+async
 function
-*
 clickOnRuleviewScrollbar
 (
 view
@@ -614,7 +614,7 @@ view
 styleWindow
 )
 ;
-yield
+await
 onScroll
 ;
 ok

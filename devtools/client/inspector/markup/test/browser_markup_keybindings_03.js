@@ -120,8 +120,8 @@ node
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -130,7 +130,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -160,7 +160,7 @@ visible
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -172,7 +172,7 @@ inspector
 let
 divFront
 =
-yield
+await
 walker
 .
 querySelector
@@ -188,7 +188,7 @@ div
 let
 textFront
 =
-yield
+await
 walker
 .
 nextSibling
@@ -211,7 +211,7 @@ node
 "
 )
 ;
-yield
+await
 clickContainer
 (
 textFront
@@ -268,7 +268,7 @@ node
 "
 )
 ;
-yield
+await
 clickContainer
 (
 divFront
@@ -412,7 +412,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 onFocus
 ;
 is

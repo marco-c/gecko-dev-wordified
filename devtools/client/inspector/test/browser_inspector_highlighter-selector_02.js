@@ -245,8 +245,8 @@ requestLongerTimeout
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -256,7 +256,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -272,7 +272,7 @@ inspector
 let
 highlighter
 =
-yield
+await
 front
 .
 getHighlighterByType
@@ -328,7 +328,7 @@ inIframe
 {
 contextNode
 =
-yield
+await
 getNodeFrontInFrame
 (
 "
@@ -345,7 +345,7 @@ else
 {
 contextNode
 =
-yield
+await
 getNodeFront
 (
 "
@@ -355,7 +355,7 @@ inspector
 )
 ;
 }
-yield
+await
 highlighter
 .
 show
@@ -369,7 +369,7 @@ selector
 let
 nb
 =
-yield
+await
 testActor
 .
 getSelectorHighlighterBoxNb
@@ -411,7 +411,7 @@ created
 "
 )
 ;
-yield
+await
 highlighter
 .
 hide
@@ -419,7 +419,7 @@ hide
 )
 ;
 }
-yield
+await
 highlighter
 .
 finalize

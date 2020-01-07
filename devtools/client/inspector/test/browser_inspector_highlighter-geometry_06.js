@@ -659,15 +659,15 @@ y
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 inspector
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -676,7 +676,7 @@ TEST_URL
 let
 helper
 =
-yield
+await
 getHighlighterHelperFor
 (
 HIGHLIGHTER_TYPE
@@ -709,7 +709,7 @@ highlighter
 "
 )
 ;
-yield
+await
 show
 (
 "
@@ -726,7 +726,7 @@ in
 TESTS
 )
 {
-yield
+await
 executeTest
 (
 helper
@@ -747,12 +747,12 @@ highlighter
 "
 )
 ;
-yield
+await
 hide
 (
 )
 ;
-yield
+await
 finalize
 (
 )
@@ -760,8 +760,8 @@ finalize
 }
 )
 ;
+async
 function
-*
 executeTest
 (
 helper
@@ -777,7 +777,7 @@ desc
 ok
 (
 (
-yield
+await
 areElementAndHighlighterMovedCorrectly
 (
 helper
@@ -795,8 +795,8 @@ expects
 )
 ;
 }
+async
 function
-*
 areElementAndHighlighterMovedCorrectly
 (
 helper
@@ -819,7 +819,7 @@ x
 y
 }
 =
-yield
+await
 getHandlerCoords
 (
 helper
@@ -847,7 +847,7 @@ y
 let
 beforeDragStyle
 =
-yield
+await
 highlightedNode
 .
 getComputedStyle
@@ -860,7 +860,7 @@ simulate
 drag
 &
 drop
-yield
+await
 mouse
 .
 down
@@ -869,7 +869,7 @@ x
 y
 )
 ;
-yield
+await
 mouse
 .
 move
@@ -878,14 +878,14 @@ dx
 dy
 )
 ;
-yield
+await
 mouse
 .
 up
 (
 )
 ;
-yield
+await
 reflow
 (
 )
@@ -902,7 +902,7 @@ moved
 correctly
 )
 ;
-yield
+await
 isHandlerPositionUpdated
 (
 helper
@@ -990,7 +990,6 @@ drop
 )
 ;
 return
-yield
 areElementSideValuesCorrect
 (
 highlightedNode
@@ -1000,8 +999,8 @@ delta
 )
 ;
 }
+async
 function
-*
 isHandlerPositionUpdated
 (
 helper
@@ -1021,7 +1020,7 @@ y
 afterDragY
 }
 =
-yield
+await
 getHandlerCoords
 (
 helper
@@ -1125,8 +1124,8 @@ updated
 ;
 }
 }
+async
 function
-*
 areElementSideValuesCorrect
 (
 node
@@ -1138,7 +1137,7 @@ delta
 let
 afterDragStyle
 =
-yield
+await
 node
 .
 getComputedStyle
@@ -1302,8 +1301,8 @@ return
 isSideCorrect
 ;
 }
+async
 function
-*
 getHandlerCoords
 (
 {
@@ -1320,7 +1319,7 @@ Math
 .
 round
 (
-yield
+await
 getElementAttribute
 (
 "
@@ -1340,7 +1339,7 @@ Math
 .
 round
 (
-yield
+await
 getElementAttribute
 (
 "

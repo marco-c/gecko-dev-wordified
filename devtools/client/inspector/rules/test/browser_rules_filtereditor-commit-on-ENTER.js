@@ -56,12 +56,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 TEST_URL
@@ -72,7 +72,7 @@ let
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -197,7 +197,7 @@ click
 (
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 info
@@ -271,7 +271,7 @@ blur
 "
 )
 ;
-yield
+await
 waitForComputedStyleProperty
 (
 "
@@ -289,7 +289,7 @@ blur
 "
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 ok
@@ -353,13 +353,13 @@ widget
 styleWindow
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 is
 (
 (
-yield
+await
 getComputedStyleProperty
 (
 "
