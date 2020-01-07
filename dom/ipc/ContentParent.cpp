@@ -3236,7 +3236,7 @@ ScriptableCPInfo
 :
 GetMessageManager
 (
-nsIMessageSender
+nsISupports
 *
 *
 aMessenger
