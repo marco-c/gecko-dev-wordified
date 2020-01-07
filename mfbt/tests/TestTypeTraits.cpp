@@ -680,6 +680,8 @@ IsPointerTest
 :
 *
 )
+(
+)
 not
 a
 pointer
