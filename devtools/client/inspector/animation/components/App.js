@@ -333,6 +333,13 @@ PropTypes
 func
 .
 isRequired
+setAnimationsPlaybackRate
+:
+PropTypes
+.
+func
+.
+isRequired
 setAnimationsPlayState
 :
 PropTypes
@@ -427,6 +434,7 @@ onShowBoxModelHighlighterForNode
 removeAnimationsCurrentTimeListener
 rewindAnimationsCurrentTime
 selectAnimation
+setAnimationsPlaybackRate
 setAnimationsPlayState
 setDetailVisibility
 setSelectedNode
@@ -479,6 +487,7 @@ addAnimationsCurrentTimeListener
 animations
 removeAnimationsCurrentTimeListener
 rewindAnimationsCurrentTime
+setAnimationsPlaybackRate
 setAnimationsPlayState
 }
 )
