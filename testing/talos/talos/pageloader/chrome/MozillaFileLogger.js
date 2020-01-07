@@ -66,16 +66,6 @@ msg
 )
 ;
 }
-if
-(
-Cc
-=
-=
-=
-undefined
-)
-{
-}
 const
 FOSTREAM_CID
 =
