@@ -402,12 +402,6 @@ android
 *
 *
 "
-"
-testing
-/
-*
-*
-"
 ]
 "
 rules
