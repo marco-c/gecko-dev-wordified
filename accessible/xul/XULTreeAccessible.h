@@ -1101,6 +1101,7 @@ bool
 IsExpandable
 (
 )
+const
 ;
 /
 *
@@ -1127,6 +1128,7 @@ nsAString
 &
 aName
 )
+const
 ;
 nsCOMPtr
 <
