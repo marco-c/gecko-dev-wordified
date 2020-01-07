@@ -950,9 +950,6 @@ bool
 no_subpixel_aa
 :
 bool
-debug
-:
-bool
 verbose
 :
 bool
@@ -1234,7 +1231,6 @@ enable_subpixel_aa
 :
 !
 no_subpixel_aa
-debug
 debug_flags
 enable_clear_scissor
 :

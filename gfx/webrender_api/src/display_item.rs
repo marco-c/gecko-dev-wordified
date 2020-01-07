@@ -2335,11 +2335,11 @@ radius
 :
 LayoutSize
 pub
-start_radius
+start_offset
 :
 f32
 pub
-end_radius
+end_offset
 :
 f32
 pub

@@ -542,9 +542,6 @@ webrender
 :
 RendererOptions
 {
-debug
-:
-true
 device_pixel_ratio
 clear_color
 :

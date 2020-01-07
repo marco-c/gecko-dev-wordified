@@ -255,17 +255,6 @@ features
 :
 CACHE_FEATURES
 }
-Shader
-{
-name
-:
-"
-cs_text_run
-"
-features
-:
-CACHE_FEATURES
-}
 /
 /
 Prim

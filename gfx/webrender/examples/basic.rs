@@ -1184,6 +1184,7 @@ ImageFormat
 :
 R8
 true
+false
 )
 ImageData
 :

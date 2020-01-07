@@ -959,9 +959,6 @@ RendererOptions
 resource_override_path
 :
 res_path
-debug
-:
-true
 precache_shaders
 :
 E

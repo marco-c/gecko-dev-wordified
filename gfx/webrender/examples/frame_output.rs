@@ -433,6 +433,7 @@ ImageFormat
 :
 BGRA8
 true
+false
 )
 ImageData
 :

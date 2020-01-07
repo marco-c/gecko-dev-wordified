@@ -683,6 +683,7 @@ ImageFormat
 :
 R8
 true
+false
 )
 ImageData
 :
@@ -734,6 +735,7 @@ ImageFormat
 :
 RG8
 true
+false
 )
 ImageData
 :
@@ -785,6 +787,7 @@ ImageFormat
 :
 R8
 true
+false
 )
 ImageData
 :
@@ -836,6 +839,7 @@ ImageFormat
 :
 R8
 true
+false
 )
 ImageData
 :

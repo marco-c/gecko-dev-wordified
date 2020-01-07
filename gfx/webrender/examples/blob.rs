@@ -1971,6 +1971,7 @@ ImageFormat
 :
 BGRA8
 true
+false
 )
 api
 :
@@ -2035,6 +2036,7 @@ ImageFormat
 :
 BGRA8
 true
+false
 )
 api
 :
