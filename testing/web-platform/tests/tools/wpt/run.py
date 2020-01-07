@@ -3135,7 +3135,6 @@ wptrunner
 import
 wptrunner
     
-return
 wptrunner
 .
 start
@@ -3144,6 +3143,8 @@ start
 *
 kwargs
 )
+    
+return
 def
 main
 (
