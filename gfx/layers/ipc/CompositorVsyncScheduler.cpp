@@ -880,7 +880,6 @@ task
 forget
 (
 )
-0
 )
 ;
 }
@@ -1332,7 +1331,6 @@ task
 forget
 (
 )
-0
 )
 ;
 return
@@ -2205,8 +2203,6 @@ already_AddRefed
 CancelableRunnable
 >
 aTask
-int
-aTime
 )
 {
 MOZ_ASSERT
@@ -2217,14 +2213,6 @@ CompositorThreadHolder
 Loop
 (
 )
-)
-;
-MOZ_ASSERT
-(
-aTime
->
-=
-0
 )
 ;
 CompositorThreadHolder
@@ -2241,7 +2229,7 @@ Move
 (
 aTask
 )
-aTime
+0
 )
 ;
 }
