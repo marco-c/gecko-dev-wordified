@@ -1865,19 +1865,18 @@ headless
 }
 )
         
-stylo
-=
-self
-.
-config
-.
-get
+#
+FIXME
 (
-'
-enable_stylo
-'
-False
+emilio
 )
+:
+Need
+to
+update
+test
+expectations
+.
         
 mozinfo
 .
@@ -1888,7 +1887,7 @@ update
 stylo
 '
 :
-stylo
+True
 }
 )
         

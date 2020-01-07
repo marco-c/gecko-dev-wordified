@@ -767,6 +767,26 @@ MOZ_SERVICES_SYNC
 1
 '
     
+#
+FIXME
+(
+emilio
+)
+:
+We
+need
+to
+update
+a
+lot
+of
+WPT
+expectations
+before
+removing
+this
+.
+    
 d
 [
 '
@@ -774,19 +794,7 @@ stylo
 '
 ]
 =
-substs
-.
-get
-(
-'
-MOZ_STYLO_ENABLE
-'
-)
-=
-=
-'
-1
-'
+True
     
 d
 [
