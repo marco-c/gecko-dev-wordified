@@ -780,6 +780,17 @@ const
 int
 kMIdDefaultId
 ;
+static
+const
+char
+*
+kCsrcAudioLevelUri
+;
+static
+const
+int
+kCsrcAudioLevelDefaultId
+;
 std
 :
 :

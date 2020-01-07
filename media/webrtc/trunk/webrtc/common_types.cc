@@ -379,6 +379,9 @@ videoRotation
 (
 kVideoRotation_0
 )
+csrcAudioLevels
+(
+)
 {
 }
 RTPHeaderExtension

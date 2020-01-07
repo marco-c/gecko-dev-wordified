@@ -12426,7 +12426,7 @@ SdpDirectionAttribute
 Direction
 :
 :
-kSendonly
+kSendrecv
 )
 ;
 AddAudioRtpExtension
