@@ -13376,6 +13376,12 @@ uninit
 )
 ;
 }
+TabsInTitlebar
+.
+uninit
+(
+)
+;
 /
 /
 In
@@ -13557,12 +13563,6 @@ uninit
 )
 ;
 BookmarkingUI
-.
-uninit
-(
-)
-;
-TabsInTitlebar
 .
 uninit
 (
