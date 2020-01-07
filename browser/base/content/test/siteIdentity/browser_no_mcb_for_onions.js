@@ -261,6 +261,13 @@ openNewForegroundTab
 gBrowser
 TEST_URL
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 const
 browser
