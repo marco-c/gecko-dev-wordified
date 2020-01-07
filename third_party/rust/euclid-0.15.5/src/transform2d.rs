@@ -113,7 +113,7 @@ super
 :
 {
 UnknownUnit
-Angle
+Radians
 }
 ;
 use
@@ -2014,7 +2014,7 @@ create_rotation
 (
 theta
 :
-Angle
+Radians
 <
 T
 >
@@ -2111,7 +2111,7 @@ post_rotate
 self
 theta
 :
-Angle
+Radians
 <
 T
 >
@@ -2171,7 +2171,7 @@ pre_rotate
 self
 theta
 :
-Angle
+Radians
 <
 T
 >
@@ -3175,7 +3175,7 @@ point
 Point2D
 ;
 use
-Angle
+Radians
 ;
 use
 std
@@ -3206,15 +3206,15 @@ f32
 )
 -
 >
-Angle
+Radians
 <
 f32
 >
 {
-Angle
+Radians
 :
 :
-radians
+new
 (
 v
 )
