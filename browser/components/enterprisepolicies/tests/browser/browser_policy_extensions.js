@@ -51,6 +51,13 @@ test_addon_install
 (
 )
 {
+let
+installPromise
+=
+wait_for_addon_install
+(
+)
+;
 await
 setupPolicyEngineWithJson
 (
@@ -111,9 +118,7 @@ addonID
 )
 ;
 await
-wait_for_addon_install
-(
-)
+installPromise
 ;
 let
 addon
