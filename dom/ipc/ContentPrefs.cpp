@@ -2907,15 +2907,6 @@ enabled
 "
 svg
 .
-path
--
-caching
-.
-enabled
-"
-"
-svg
-.
 transform
 -
 box
