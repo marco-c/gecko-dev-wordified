@@ -4419,7 +4419,7 @@ operator
 =
 (
 const
-WrClipId
+WrStickyId
 &
 other
 )
