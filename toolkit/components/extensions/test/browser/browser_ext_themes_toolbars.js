@@ -418,7 +418,7 @@ frame
 :
 ACCENT_COLOR
 "
-background_tab_text
+tab_background_text
 "
 :
 TEXT_COLOR
