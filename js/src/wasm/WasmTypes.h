@@ -8818,6 +8818,8 @@ CurrentMemory
 WaitI32
 WaitI64
 Wake
+MemCopy
+MemFill
 #
 if
 defined
