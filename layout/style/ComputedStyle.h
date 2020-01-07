@@ -270,10 +270,6 @@ ComputedStyle
 )
 ;
 }
-MOZ_DEFINE_MALLOC_ENCLOSING_SIZE_OF
-(
-ServoComputedValuesMallocEnclosingSizeOf
-)
 /
 *
 *
