@@ -6276,11 +6276,6 @@ SetActive
 sending
 )
 ;
-if
-(
-sending
-)
-{
 transceiver
 -
 >
@@ -6292,7 +6287,6 @@ answer
 remote
 )
 ;
-}
 JsepTrack
 &
 recvTrack
@@ -6309,11 +6303,6 @@ SetActive
 receiving
 )
 ;
-if
-(
-receiving
-)
-{
 recvTrack
 .
 Negotiate
@@ -6437,7 +6426,6 @@ dropped
 "
 )
 ;
-}
 }
 if
 (
