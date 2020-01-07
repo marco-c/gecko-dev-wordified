@@ -1118,6 +1118,12 @@ GetSCTListFromOCSPStapling
 )
 const
 ;
+bool
+GetIsErrorDueToDistrustedCAPolicy
+(
+)
+const
+;
 private
 :
 enum
@@ -1258,6 +1264,9 @@ mNetscapeStepUpPolicy
 ;
 DistrustedCAPolicy
 mDistrustedCAPolicy
+;
+bool
+mSawDistrustedCAByPolicyError
 ;
 const
 OriginAttributes
