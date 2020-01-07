@@ -425,6 +425,7 @@ constructCertFromFile
 certificatePath
 )
 ;
+return
 checkCertErrorGeneric
 (
 certdb
@@ -459,6 +460,7 @@ constructX509FromBase64
 base64
 )
 ;
+return
 checkCertErrorGeneric
 (
 certdb
@@ -748,6 +750,7 @@ constructX509FromBase64
 base64
 )
 ;
+return
 checkCertErrorGeneric
 (
 certdb
@@ -757,8 +760,10 @@ certificateUsageSSLServer
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
 (
 )
 {
@@ -851,6 +856,7 @@ pem
 "
 )
 ;
+await
 ensureSignatureVerificationFailure
 (
 "
@@ -864,6 +870,7 @@ pem
 "
 )
 ;
+await
 ensureSignatureVerificationFailure
 (
 "
@@ -899,6 +906,7 @@ not
 validate
 successfully
 .
+await
 tamperWithSignatureAndEnsureVerificationFailure
 (
 "
@@ -914,6 +922,7 @@ pem
 "
 )
 ;
+await
 tamperWithSignatureAndEnsureVerificationFailure
 (
 "
@@ -985,6 +994,7 @@ pem
 "
 )
 ;
+await
 ensureSignatureVerificationFailure
 (
 "
@@ -998,6 +1008,7 @@ pem
 "
 )
 ;
+await
 ensureSignatureVerificationFailure
 (
 "
@@ -1034,6 +1045,7 @@ not
 validate
 successfully
 .
+await
 tamperWithSerialNumberAndEnsureVerificationFailure
 (
 "
@@ -1049,6 +1061,7 @@ pem
 "
 )
 ;
+await
 tamperWithSerialNumberAndEnsureVerificationFailure
 (
 "
@@ -1065,3 +1078,5 @@ pem
 )
 ;
 }
+)
+;

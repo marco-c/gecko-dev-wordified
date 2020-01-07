@@ -211,6 +211,7 @@ VALIDATION_TIME
 =
 1477958400
 ;
+return
 checkCertErrorGenericAtTime
 (
 certdb
@@ -221,6 +222,13 @@ VALIDATION_TIME
 )
 ;
 }
+add_task
+(
+async
+function
+(
+)
+{
 loadCertWithTrust
 (
 "
@@ -248,9 +256,9 @@ the
 same
 distinguished
 name
+/
+/
 as
-/
-/
 one
 (
 namely
@@ -271,10 +279,10 @@ CN
 StartCom
 Certification
 Authority
+/
+/
 G2
 "
-/
-/
 encoded
 with
 PrintableStrings
@@ -287,9 +295,9 @@ specific
 DNs
 we
 can
+/
+/
 enforce
-/
-/
 the
 date
 -
@@ -311,6 +319,7 @@ StartComCA
 "
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -326,6 +335,7 @@ cutoff
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -380,9 +390,9 @@ Authority
 of
 WoSign
 "
+/
+/
 encoded
-/
-/
 with
 PrintableStrings
 )
@@ -396,6 +406,7 @@ WoSignCA
 "
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -411,6 +422,7 @@ cutoff
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -424,5 +436,8 @@ cutoff
 "
 )
 SEC_ERROR_REVOKED_CERTIFICATE
+)
+;
+}
 )
 ;

@@ -225,8 +225,10 @@ return
 derString
 ;
 }
+add_task
+(
+async
 function
-run_test
 (
 )
 {
@@ -302,6 +304,7 @@ cert_pem
 )
 )
 ;
+await
 checkCertErrorGeneric
 (
 certDB
@@ -383,6 +386,7 @@ certificate
 "
 )
 ;
+await
 checkCertErrorGeneric
 (
 certDB
@@ -392,3 +396,5 @@ certificateUsageSSLServer
 )
 ;
 }
+)
+;

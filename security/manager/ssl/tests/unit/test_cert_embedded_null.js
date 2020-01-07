@@ -196,6 +196,7 @@ Ci
 nsIX509CertDB
 )
 ;
+async
 function
 do_testcase
 (
@@ -291,14 +292,14 @@ byte
 )
 ;
 }
+await
 checkCertErrorGeneric
 (
 certdb
 cert
 SSL_ERROR_BAD_CERT_DOMAIN
 certificateUsageSSLServer
-{
-}
+undefined
 "
 www
 .
@@ -308,14 +309,14 @@ com
 "
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
 cert
 SSL_ERROR_BAD_CERT_DOMAIN
 certificateUsageSSLServer
-{
-}
+undefined
 "
 www
 .
@@ -328,8 +329,10 @@ com
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
 (
 )
 {
@@ -348,6 +351,7 @@ CTu
 "
 )
 ;
+await
 do_testcase
 (
 "
@@ -356,6 +360,7 @@ embeddedNull
 true
 )
 ;
+await
 do_testcase
 (
 "
@@ -364,6 +369,7 @@ embeddedNullSAN
 false
 )
 ;
+await
 do_testcase
 (
 "
@@ -372,6 +378,7 @@ embeddedNullCNAndSAN
 true
 )
 ;
+await
 do_testcase
 (
 "
@@ -381,3 +388,5 @@ false
 )
 ;
 }
+)
+;

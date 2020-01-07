@@ -188,8 +188,7 @@ certdb
 cert
 PRErrorCodeSuccess
 certificateUsageSSLServer
-{
-}
+false
 hostname
 )
 ;
@@ -208,8 +207,7 @@ certdb
 cert
 MOZILLA_PKIX_ERROR_KEY_PINNING_FAILURE
 certificateUsageSSLServer
-{
-}
+false
 hostname
 )
 ;
@@ -827,6 +825,61 @@ gPreloadStateSeen
 return
 ;
 }
+async_check_pins
+(
+)
+.
+then
+(
+function
+(
+)
+{
+return
+new
+Promise
+(
+(
+resolve
+reject
+)
+=
+>
+{
+do_timeout
+(
+1250
+resolve
+)
+;
+}
+)
+;
+}
+)
+.
+then
+(
+checkExpiredState
+)
+.
+then
+(
+checkPreloadClear
+)
+.
+then
+(
+do_test_finished
+)
+;
+}
+async
+function
+async_check_pins
+(
+)
+{
 notEqual
 (
 gSSService
@@ -976,6 +1029,7 @@ example
 com
 with
 subdomains
+await
 checkFail
 (
 certFromFile
@@ -1003,6 +1057,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1030,6 +1085,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1061,6 +1117,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1092,6 +1149,7 @@ com
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -1119,6 +1177,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1146,6 +1205,7 @@ com
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -1177,6 +1237,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1255,6 +1316,7 @@ PINNING_ROOT_KEY_HASH
 ]
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -1282,6 +1344,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1309,6 +1372,7 @@ com
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -1340,6 +1404,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1371,6 +1436,7 @@ com
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -1398,6 +1464,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1425,6 +1492,7 @@ com
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -1456,6 +1524,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1654,6 +1723,7 @@ PINNING_ROOT_KEY_HASH
 ]
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -1681,6 +1751,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1708,6 +1779,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1739,6 +1811,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1770,6 +1843,7 @@ com
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -1797,6 +1871,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1824,6 +1899,7 @@ com
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -1855,6 +1931,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -1959,6 +2036,7 @@ fail
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -1986,6 +2064,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2013,6 +2092,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2044,6 +2124,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2075,6 +2156,7 @@ com
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -2102,6 +2184,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2129,6 +2212,7 @@ com
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -2160,6 +2244,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2418,6 +2503,7 @@ file
 works
 as
 expected
+await
 checkFail
 (
 certFromFile
@@ -2445,6 +2531,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2497,6 +2584,7 @@ there
 s
 no
 pin
+await
 checkOK
 (
 certFromFile
@@ -2581,6 +2669,7 @@ PINNING_ROOT_KEY_HASH
 true
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -2608,18 +2697,14 @@ com
 "
 )
 ;
-do_timeout
-(
-1250
-checkExpiredState
-)
-;
 }
+async
 function
 checkExpiredState
 (
 )
 {
+await
 checkOK
 (
 certFromFile
@@ -2647,6 +2732,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2674,6 +2760,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2705,6 +2792,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2736,6 +2824,7 @@ com
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -2763,6 +2852,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2790,6 +2880,7 @@ com
 "
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -2821,6 +2912,7 @@ com
 "
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2850,13 +2942,10 @@ example
 .
 com
 "
-)
-;
-checkPreloadClear
-(
 )
 ;
 }
+async
 function
 checkPreloadClear
 (
@@ -2882,6 +2971,7 @@ clearAll
 (
 )
 ;
+await
 checkFail
 (
 certFromFile
@@ -2928,6 +3018,7 @@ clearPreloads
 (
 )
 ;
+await
 checkOK
 (
 certFromFile
@@ -2953,10 +3044,6 @@ example
 .
 com
 "
-)
-;
-do_test_finished
-(
 )
 ;
 }

@@ -431,6 +431,7 @@ cert
 expectedResult
 )
 {
+return
 checkCertErrorGeneric
 (
 certdb
@@ -447,6 +448,7 @@ cert
 expectedResult
 )
 {
+return
 checkCertErrorGeneric
 (
 certdb
@@ -549,8 +551,10 @@ match
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
 (
 )
 {
@@ -588,6 +592,7 @@ noBC_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -603,6 +608,7 @@ noBC_ca
 MOZILLA_PKIX_ERROR_V1_CERT_USED_AS_CA
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -653,6 +659,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -668,6 +675,7 @@ noBC_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -696,6 +704,7 @@ noBC_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -711,6 +720,7 @@ noBC_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -740,6 +750,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -755,6 +766,7 @@ noBC_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -783,6 +795,7 @@ noBC_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -798,6 +811,7 @@ noBC_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -827,6 +841,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -842,6 +857,7 @@ noBC_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -870,6 +886,7 @@ noBC_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -885,6 +902,7 @@ noBC_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -914,6 +932,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -929,6 +948,7 @@ noBC_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -972,6 +992,7 @@ cA_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -991,6 +1012,7 @@ cA_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1028,6 +1050,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1047,6 +1070,7 @@ cA_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1083,6 +1107,7 @@ cA_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1102,6 +1127,7 @@ cA_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1139,6 +1165,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1158,6 +1185,7 @@ cA_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1194,6 +1222,7 @@ cA_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1213,6 +1242,7 @@ cA_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1250,6 +1280,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1269,6 +1300,7 @@ cA_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1305,6 +1337,7 @@ cA_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1324,6 +1357,7 @@ cA_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1361,6 +1395,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1380,6 +1415,7 @@ cA_ca
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1424,6 +1460,7 @@ cA_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1441,6 +1478,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1474,6 +1512,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1491,6 +1530,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1523,6 +1563,7 @@ cA_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1540,6 +1581,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1573,6 +1615,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1590,6 +1633,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1622,6 +1666,7 @@ cA_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1639,6 +1684,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1672,6 +1718,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1689,6 +1736,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1721,6 +1769,7 @@ cA_ca
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1738,6 +1787,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1771,6 +1821,7 @@ CTu
 "
 )
 ;
+await
 checkIntermediate
 (
 certFromFile
@@ -1788,6 +1839,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1817,6 +1869,7 @@ with
 various
 basicConstraints
 :
+await
 checkEndEntity
 (
 certFromFile
@@ -1832,6 +1885,7 @@ noBC_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1847,6 +1901,7 @@ noBC_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1862,6 +1917,7 @@ noBC_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1877,6 +1933,7 @@ noBC_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1896,6 +1953,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1915,6 +1973,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1934,6 +1993,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1953,6 +2013,7 @@ cA_ca
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1970,6 +2031,7 @@ cA_ca
 MOZILLA_PKIX_ERROR_CA_CERT_USED_AS_END_ENTITY
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -1987,6 +2049,7 @@ cA_ca
 MOZILLA_PKIX_ERROR_CA_CERT_USED_AS_END_ENTITY
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2004,6 +2067,7 @@ cA_ca
 MOZILLA_PKIX_ERROR_CA_CERT_USED_AS_END_ENTITY
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2030,6 +2094,7 @@ self
 signed
 certificates
 :
+await
 checkEndEntity
 (
 certFromFile
@@ -2045,6 +2110,7 @@ noBC
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2060,6 +2126,7 @@ noBC
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2075,6 +2142,7 @@ noBC
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2090,6 +2158,7 @@ noBC
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2109,6 +2178,7 @@ cA
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2128,6 +2198,7 @@ cA
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2147,6 +2218,7 @@ cA
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2166,6 +2238,7 @@ cA
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2183,6 +2256,7 @@ cA
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2200,6 +2274,7 @@ cA
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2217,6 +2292,7 @@ cA
 SEC_ERROR_UNKNOWN_ISSUER
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -2317,3 +2393,5 @@ Version
 )
 ;
 }
+)
+;

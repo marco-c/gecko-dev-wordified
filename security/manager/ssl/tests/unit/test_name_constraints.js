@@ -418,6 +418,7 @@ checkCertNotInNameSpace
 cert
 )
 {
+return
 checkCertErrorGeneric
 (
 certdb
@@ -433,6 +434,7 @@ checkCertInNameSpace
 cert
 )
 {
+return
 checkCertErrorGeneric
 (
 certdb
@@ -442,8 +444,10 @@ certificateUsageSSLServer
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
 (
 )
 {
@@ -492,6 +496,7 @@ permitted
 "
 )
 ;
+await
 checkCertNotInNameSpace
 (
 certFromFile
@@ -510,6 +515,7 @@ org
 )
 )
 ;
+await
 checkCertNotInNameSpace
 (
 certFromFile
@@ -524,6 +530,7 @@ com
 )
 )
 ;
+await
 checkCertNotInNameSpace
 (
 certFromFile
@@ -538,6 +545,7 @@ org
 )
 )
 ;
+await
 checkCertNotInNameSpace
 (
 certFromFile
@@ -578,6 +586,7 @@ CTu
 "
 )
 ;
+await
 checkCertInNameSpace
 (
 certFromFile
@@ -590,6 +599,7 @@ dcissallowed
 )
 )
 ;
+await
 checkCertNotInNameSpace
 (
 certFromFile
@@ -603,3 +613,5 @@ dcissblocked
 )
 ;
 }
+)
+;
