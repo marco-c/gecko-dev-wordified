@@ -640,6 +640,9 @@ requestData
 request
 [
 "
+eventTimings
+"
+"
 responseHeaders
 "
 ]
@@ -679,6 +682,9 @@ connector
 requestData
 request
 [
+"
+eventTimings
+"
 "
 responseHeaders
 "

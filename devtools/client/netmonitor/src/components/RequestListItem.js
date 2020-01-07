@@ -1599,8 +1599,9 @@ waterfall
 RequestListColumnWaterfall
 (
 {
-item
+connector
 firstRequestStartedMillis
+item
 onWaterfallMouseDown
 }
 )

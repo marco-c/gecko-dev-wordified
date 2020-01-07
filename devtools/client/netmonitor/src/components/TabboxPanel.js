@@ -572,6 +572,7 @@ TIMINGS_TITLE
 TimingsPanel
 (
 {
+connector
 request
 }
 )
