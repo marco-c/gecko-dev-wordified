@@ -775,7 +775,7 @@ seek
 target
 .
 virtual
-nsresult
+void
 Seek
 (
 double
