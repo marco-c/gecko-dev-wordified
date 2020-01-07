@@ -72520,7 +72520,6 @@ Linker
 linker
 (
 masm
-nogc
 )
 ;
 AutoFlushICache
