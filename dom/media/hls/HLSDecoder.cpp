@@ -1037,7 +1037,7 @@ forget
 )
 ;
 }
-nsresult
+void
 HLSDecoder
 :
 :

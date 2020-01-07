@@ -820,7 +820,7 @@ been
 called
 .
 virtual
-nsresult
+void
 Play
 (
 )
