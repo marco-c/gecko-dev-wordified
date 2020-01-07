@@ -161,6 +161,7 @@ waitForContentRequests
 waitForNetworkEvents
 (
 monitor
+0
 2
 )
 ;

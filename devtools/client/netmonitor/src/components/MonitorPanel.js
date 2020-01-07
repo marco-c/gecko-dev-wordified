@@ -675,9 +675,6 @@ panel
 }
 Toolbar
 (
-{
-connector
-}
 )
 SplitBox
 (
