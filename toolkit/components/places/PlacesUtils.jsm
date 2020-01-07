@@ -2744,13 +2744,6 @@ livemark
 /
 siteURI
 "
-READ_ONLY_ANNO
-:
-"
-placesInternal
-/
-READ_ONLY
-"
 CHARSET_ANNO
 :
 "
