@@ -143,9 +143,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 .
 nsISlowScriptDebug
 ]

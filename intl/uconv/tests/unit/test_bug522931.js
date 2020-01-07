@@ -17,9 +17,7 @@ run_test
 var
 textToSubURI
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -36,9 +34,7 @@ texttosuburi
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsITextToSubURI
 )

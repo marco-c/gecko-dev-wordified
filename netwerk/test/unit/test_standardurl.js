@@ -6,9 +6,7 @@ strict
 const
 gPrefs
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -25,9 +23,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefBranch
 )
@@ -1014,9 +1010,7 @@ target
 var
 newProvided
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1035,9 +1029,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )
@@ -1054,9 +1046,7 @@ provided
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIURL
 )
@@ -7560,9 +7550,7 @@ url
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISensitiveInfoHiddenURI
 )
@@ -8115,9 +8103,7 @@ url
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISensitiveInfoHiddenURI
 )

@@ -1848,9 +1848,7 @@ doc
 .
 nodePrincipal
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIPrincipal
 true
@@ -1891,9 +1889,7 @@ doc
 .
 baseURIObject
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIURI
 true
@@ -1933,9 +1929,7 @@ doc
 .
 documentURIObject
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIURI
 true

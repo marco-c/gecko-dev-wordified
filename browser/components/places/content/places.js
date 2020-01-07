@@ -1371,9 +1371,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDOMEventListener
 )
@@ -1383,9 +1381,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -1394,9 +1390,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_NOINTERFACE
 ;
@@ -2911,9 +2905,7 @@ false
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )
@@ -3055,9 +3047,7 @@ path
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )
@@ -8883,9 +8873,7 @@ catch
 ex
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

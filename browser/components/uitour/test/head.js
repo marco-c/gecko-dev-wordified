@@ -817,9 +817,7 @@ resolve
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1044,9 +1042,7 @@ args
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1193,9 +1189,7 @@ resolve
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1243,9 +1237,7 @@ function
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1787,9 +1779,7 @@ contentArgs
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -2132,9 +2122,7 @@ contentArgs
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -2315,9 +2303,7 @@ else
 {
 gContentWindow
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (

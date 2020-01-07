@@ -185,9 +185,7 @@ machinery
 sendAsyncMessage
 (
 TEST_MSG
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -514,9 +512,7 @@ req
 .
 cancel
 (
-Components
-.
-results
+Cr
 .
 NS_ERROR_FAILURE
 )

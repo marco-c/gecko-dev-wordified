@@ -99,9 +99,7 @@ Assert
 equal
 (
 status
-Components
-.
-results
+Cr
 .
 NS_OK
 )

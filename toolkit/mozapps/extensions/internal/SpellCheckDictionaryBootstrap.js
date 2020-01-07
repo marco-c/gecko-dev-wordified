@@ -75,9 +75,7 @@ data
 {
 hunspell
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -94,9 +92,7 @@ engine
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 mozISpellCheckingEngine
 )

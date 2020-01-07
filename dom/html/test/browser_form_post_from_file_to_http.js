@@ -317,9 +317,7 @@ filePaths
 =
 >
 {
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

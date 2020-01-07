@@ -787,9 +787,7 @@ true
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )
@@ -799,9 +797,7 @@ chan
 loadFlags
 |
 =
-Components
-.
-interfaces
+Ci
 .
 nsIChannel
 .
@@ -840,9 +836,7 @@ request
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIChannel
 )
@@ -854,9 +848,7 @@ equal
 chan
 .
 status
-Components
-.
-results
+Cr
 .
 NS_OK
 )
@@ -1044,9 +1036,7 @@ e
 ;
 }
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_ABORT
 ;

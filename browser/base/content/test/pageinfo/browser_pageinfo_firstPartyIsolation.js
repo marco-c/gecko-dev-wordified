@@ -420,9 +420,7 @@ triggeringprincipal
 let
 serial
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -441,9 +439,7 @@ helper
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsISerializationHelper
 )

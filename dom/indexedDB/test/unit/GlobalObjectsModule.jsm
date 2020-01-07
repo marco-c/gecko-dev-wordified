@@ -30,9 +30,7 @@ zero
 /
 *
 /
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

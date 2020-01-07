@@ -464,9 +464,7 @@ try
 var
 bis
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -481,9 +479,7 @@ binaryinputstream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIBinaryInputStream
 )
@@ -607,9 +603,7 @@ chan
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )

@@ -401,9 +401,7 @@ subtitle
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )

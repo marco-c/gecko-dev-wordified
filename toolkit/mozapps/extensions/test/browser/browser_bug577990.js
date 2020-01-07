@@ -88,9 +88,7 @@ try
 {
 if
 (
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -107,9 +105,7 @@ info
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIGfxInfo
 )

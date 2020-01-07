@@ -209,9 +209,7 @@ cb
 {
 cb
 (
-Components
-.
-results
+Cr
 .
 NS_OK
 {
@@ -231,9 +229,7 @@ cb
 {
 cb
 (
-Components
-.
-results
+Cr
 .
 NS_OK
 true
@@ -384,9 +380,7 @@ cb
 {
 cb
 (
-Components
-.
-results
+Cr
 .
 NS_ERROR_ABORT
 )
@@ -499,9 +493,7 @@ cb
 {
 cb
 (
-Components
-.
-results
+Cr
 .
 NS_ERROR_ABORT
 )

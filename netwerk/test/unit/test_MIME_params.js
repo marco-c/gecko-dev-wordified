@@ -4682,9 +4682,7 @@ whichRFC
 var
 mhp
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -4703,9 +4701,7 @@ hdrparam
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIMIMEHeaderParam
 )
@@ -5119,9 +5115,7 @@ test_decode5987Param
 var
 mhp
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -5140,9 +5134,7 @@ hdrparam
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIMIMEHeaderParam
 )

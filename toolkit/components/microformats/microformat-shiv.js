@@ -14688,9 +14688,7 @@ undefined
 try
 {
 return
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -14707,9 +14705,7 @@ domparser
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDOMParser
 )
@@ -26756,9 +26752,7 @@ try
 mozilla
 jsm
 support
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

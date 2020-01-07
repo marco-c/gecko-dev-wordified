@@ -271,9 +271,7 @@ principal
 let
 webNav
 =
-Components
-.
-interfaces
+Ci
 .
 nsIWebNavigation
 ;

@@ -44,9 +44,7 @@ doesn
 t
 break
 things
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

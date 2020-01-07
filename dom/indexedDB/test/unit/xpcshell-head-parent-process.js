@@ -944,9 +944,7 @@ timeout
 let
 timer
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -961,9 +959,7 @@ timer
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 )
@@ -990,9 +986,7 @@ initWithCallback
 (
 event
 timeout
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 .
@@ -2066,9 +2060,7 @@ is
 (
 blob1
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMBlob
 true
@@ -2907,9 +2899,7 @@ scheduledGCCallback
 (
 )
 {
-Components
-.
-utils
+Cu
 .
 forceCC
 (
@@ -2937,9 +2927,7 @@ callback
 ;
 }
 }
-Components
-.
-utils
+Cu
 .
 schedulePreciseGC
 (

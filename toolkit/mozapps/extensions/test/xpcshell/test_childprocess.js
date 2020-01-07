@@ -80,9 +80,7 @@ the
 module
 works
 .
-Components
-.
-utils
+Cu
 .
 unload
 (

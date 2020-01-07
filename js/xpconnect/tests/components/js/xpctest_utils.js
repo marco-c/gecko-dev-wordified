@@ -98,9 +98,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 [
 "
 nsIXPCTestUtils

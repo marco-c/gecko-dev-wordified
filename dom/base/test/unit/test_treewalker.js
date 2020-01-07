@@ -81,9 +81,7 @@ MPL
 .
 *
 /
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

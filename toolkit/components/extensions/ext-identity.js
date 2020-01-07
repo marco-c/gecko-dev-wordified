@@ -278,9 +278,7 @@ callback
 .
 onRedirectVerifyCallback
 (
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 )
@@ -292,9 +290,7 @@ callback
 .
 onRedirectVerifyCallback
 (
-Components
-.
-results
+Cr
 .
 NS_OK
 )

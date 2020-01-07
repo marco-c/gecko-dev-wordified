@@ -1063,9 +1063,7 @@ SECURITY_UI
 .
 add
 (
-Components
-.
-interfaces
+Ci
 .
 nsISecurityUITelemetry
 .

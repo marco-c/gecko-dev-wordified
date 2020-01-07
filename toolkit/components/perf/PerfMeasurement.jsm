@@ -173,9 +173,7 @@ h
 *
 *
 /
-Components
-.
-classes
+Cc
 [
 "
 mozilla

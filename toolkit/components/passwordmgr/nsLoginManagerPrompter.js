@@ -1022,9 +1022,7 @@ context
 }
 else
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -4090,9 +4088,7 @@ epicfail
 =
 true
 ;
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -4556,9 +4552,7 @@ catch
 e
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -4843,9 +4837,7 @@ catch
 e
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

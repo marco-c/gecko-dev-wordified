@@ -11689,9 +11689,7 @@ return
 let
 clipboardHelper
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -11708,9 +11706,7 @@ clipboardhelper
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIClipboardHelper
 )
@@ -16701,9 +16697,7 @@ format
 let
 clipboardHelper
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -16720,9 +16714,7 @@ clipboardhelper
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIClipboardHelper
 )

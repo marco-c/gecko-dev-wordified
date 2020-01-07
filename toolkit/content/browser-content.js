@@ -3876,9 +3876,7 @@ catch
 e
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -5083,9 +5081,7 @@ of
 print
 preview
 .
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -5240,9 +5236,7 @@ of
 print
 preview
 .
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -7744,9 +7738,7 @@ sessionHistory
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISHistoryInternal
 )
@@ -7755,9 +7747,7 @@ indexEntry
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISHEntry
 )

@@ -59,9 +59,7 @@ MPL
 const
 nsIBLS
 =
-Components
-.
-interfaces
+Ci
 .
 nsIBlocklistService
 ;
@@ -239,9 +237,7 @@ xml
 var
 blocklist
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

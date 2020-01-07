@@ -675,9 +675,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsICacheEntryOpenCallback
 )
@@ -687,9 +685,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -698,9 +694,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;

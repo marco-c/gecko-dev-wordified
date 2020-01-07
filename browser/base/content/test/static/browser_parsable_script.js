@@ -228,9 +228,7 @@ problem
 const
 init
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

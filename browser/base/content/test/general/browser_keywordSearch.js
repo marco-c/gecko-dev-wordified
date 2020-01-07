@@ -328,9 +328,7 @@ req
 .
 cancel
 (
-Components
-.
-results
+Cr
 .
 NS_ERROR_FAILURE
 )
@@ -391,9 +389,7 @@ this
 ;
 }
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;

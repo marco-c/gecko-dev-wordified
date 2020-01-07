@@ -114,9 +114,7 @@ setup
 var
 cr
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -135,9 +133,7 @@ registry
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIChromeRegistry
 )

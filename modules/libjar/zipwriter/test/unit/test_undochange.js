@@ -213,9 +213,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_FILE_ALREADY_EXISTS
 )

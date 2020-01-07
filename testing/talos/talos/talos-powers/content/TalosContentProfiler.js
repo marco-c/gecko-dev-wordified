@@ -331,9 +331,7 @@ chromeutils
 import
 *
 /
-Components
-.
-utils
+Cu
 .
 import
 (

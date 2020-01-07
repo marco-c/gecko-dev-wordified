@@ -119,9 +119,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_NOINTERFACE
 ;

@@ -218,9 +218,7 @@ testPageURL
 indexedDB
 "
 )
-Components
-.
-interfaces
+Ci
 .
 nsIPermissionManager
 .
@@ -386,9 +384,7 @@ testPageURL
 indexedDB
 "
 )
-Components
-.
-interfaces
+Ci
 .
 nsIPermissionManager
 .

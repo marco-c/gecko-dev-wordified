@@ -223,9 +223,7 @@ get
 "
 CurWorkD
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

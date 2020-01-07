@@ -123,9 +123,7 @@ Unload
 the
 JS
 module
-Components
-.
-utils
+Cu
 .
 unload
 (

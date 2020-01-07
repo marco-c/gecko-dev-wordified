@@ -84,9 +84,7 @@ MPL
 const
 nsICookie
 =
-Components
-.
-interfaces
+Ci
 .
 nsICookie
 ;
@@ -675,9 +673,7 @@ if
 (
 aCookie
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsICookie
 )
@@ -3456,9 +3452,7 @@ cookie
 &
 cookie
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsICookie
 )

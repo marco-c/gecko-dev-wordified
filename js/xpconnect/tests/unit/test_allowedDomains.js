@@ -485,9 +485,7 @@ getComponentsForScope
 sbMaster
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

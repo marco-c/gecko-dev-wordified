@@ -320,9 +320,7 @@ run_test
 var
 idnService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -341,9 +339,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIDNService
 )

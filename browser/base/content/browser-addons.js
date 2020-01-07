@@ -259,9 +259,7 @@ aDocShell
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDocShellTreeItem
 )

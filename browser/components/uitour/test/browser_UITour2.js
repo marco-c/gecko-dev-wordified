@@ -732,9 +732,7 @@ items
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )

@@ -145,9 +145,7 @@ historyItems
 var
 um
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -166,9 +164,7 @@ manager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIUpdateManager
 )

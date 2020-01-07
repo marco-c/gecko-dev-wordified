@@ -78,9 +78,7 @@ installLocation
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -135,9 +133,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDirectoryServiceProvider
 )
@@ -147,9 +143,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -160,9 +154,7 @@ this
 ;
 }
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -175,9 +167,7 @@ dirsvc
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDirectoryService
 )

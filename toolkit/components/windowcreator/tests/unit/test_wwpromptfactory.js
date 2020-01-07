@@ -33,9 +33,7 @@ nsIPromptService
 var
 ww
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -106,9 +104,7 @@ nsIPromptFactory
 getPrompt
 (
 null
-Components
-.
-interfaces
+Ci
 .
 nsIPrompt
 )
@@ -130,9 +126,7 @@ nsIPromptFactory
 getPrompt
 (
 null
-Components
-.
-interfaces
+Ci
 .
 nsIAuthPrompt
 )
@@ -154,9 +148,7 @@ nsIPromptFactory
 getPrompt
 (
 null
-Components
-.
-interfaces
+Ci
 .
 nsIAuthPrompt2
 )

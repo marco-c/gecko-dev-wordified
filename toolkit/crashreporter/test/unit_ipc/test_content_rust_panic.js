@@ -101,9 +101,7 @@ function
 (
 )
 {
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -120,9 +118,7 @@ debug
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDebug2
 )

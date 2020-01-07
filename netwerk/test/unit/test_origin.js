@@ -626,9 +626,7 @@ ok
 (
 request
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )
@@ -816,9 +814,7 @@ ok
 (
 request
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )
@@ -1789,9 +1785,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -2010,9 +2004,7 @@ pushChannel
 .
 cancel
 (
-Components
-.
-results
+Cr
 .
 NS_ERROR_ABORT
 )

@@ -64,9 +64,7 @@ run_test
 var
 clClass
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

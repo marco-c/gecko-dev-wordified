@@ -2815,9 +2815,7 @@ catch
 e
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -10223,9 +10221,7 @@ true
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )
@@ -10369,9 +10365,7 @@ catch
 ex
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

@@ -162,9 +162,7 @@ count
 const
 sin
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

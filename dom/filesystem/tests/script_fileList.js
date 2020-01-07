@@ -220,9 +220,7 @@ parent
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -263,9 +261,7 @@ nextFile
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -291,9 +287,7 @@ nextFile
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -458,9 +452,7 @@ tmpFile
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -492,9 +484,7 @@ file1
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -524,9 +514,7 @@ dir
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -558,9 +546,7 @@ file2
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .

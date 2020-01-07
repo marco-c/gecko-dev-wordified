@@ -81,9 +81,7 @@ grips
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (
@@ -229,9 +227,7 @@ eval_code
 (
 )
 {
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

@@ -418,9 +418,7 @@ use
 services
 _profiler
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -437,9 +435,7 @@ profiler
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProfiler
 )

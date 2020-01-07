@@ -21,9 +21,7 @@ up
 var
 isXrayWrapper
 =
-Components
-.
-utils
+Cu
 .
 isXrayWrapper
 ;
@@ -75,9 +73,7 @@ try
 {
 isSuccessCode
 (
-Components
-.
-results
+Cr
 .
 NS_OK
 )

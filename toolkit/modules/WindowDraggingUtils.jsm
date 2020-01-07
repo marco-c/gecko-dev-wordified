@@ -407,9 +407,7 @@ this
 .
 _elem
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULElement
 &

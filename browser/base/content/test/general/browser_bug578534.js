@@ -104,9 +104,7 @@ uriString
 let
 cp
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -123,9 +121,7 @@ permission
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICookiePermission
 )

@@ -115,9 +115,7 @@ arguments
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIKeygenThread
 )

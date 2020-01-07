@@ -117,9 +117,7 @@ request
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannelInternal
 )
@@ -273,9 +271,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIRequestObserver
 )
@@ -285,9 +281,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -296,9 +290,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_NOINTERFACE
 ;
@@ -327,9 +319,7 @@ true
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )

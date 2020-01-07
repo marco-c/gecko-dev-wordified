@@ -204,9 +204,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (
@@ -419,9 +417,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 .
 nsIObserver
 ]
@@ -2299,9 +2295,7 @@ outer
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;

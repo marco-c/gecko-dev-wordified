@@ -293,9 +293,7 @@ sourcemapped
 map
 "
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

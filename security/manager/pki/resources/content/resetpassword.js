@@ -81,9 +81,7 @@ resetPassword
 var
 pk11db
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -100,9 +98,7 @@ pk11tokendb
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPK11TokenDB
 )
@@ -154,9 +150,7 @@ pippki_bundle
 var
 promptService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -183,9 +177,7 @@ promptService
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPromptService
 )

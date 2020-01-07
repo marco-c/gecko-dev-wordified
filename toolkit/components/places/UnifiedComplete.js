@@ -11386,9 +11386,7 @@ _originalSearchString
 )
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

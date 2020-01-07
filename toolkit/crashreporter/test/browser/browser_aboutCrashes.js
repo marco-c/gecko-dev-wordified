@@ -57,9 +57,7 @@ get
 "
 UAppData
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

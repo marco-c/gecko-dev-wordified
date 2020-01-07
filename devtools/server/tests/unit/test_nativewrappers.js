@@ -154,9 +154,7 @@ createBadEvent
 let
 parser
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -173,9 +171,7 @@ domparser
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDOMParser
 )

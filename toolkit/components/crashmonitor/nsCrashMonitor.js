@@ -178,9 +178,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 .
 nsIObserver
 ]

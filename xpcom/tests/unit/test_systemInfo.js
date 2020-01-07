@@ -94,9 +94,7 @@ memsize
 let
 sysInfo
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -113,9 +111,7 @@ info
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPropertyBag2
 )

@@ -99,9 +99,7 @@ strict
 const
 nsIDialogParamBlock
 =
-Components
-.
-interfaces
+Ci
 .
 nsIDialogParamBlock
 ;

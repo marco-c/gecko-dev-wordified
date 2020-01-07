@@ -1,9 +1,7 @@
 const
 ONLY_NONASCII
 =
-Components
-.
-interfaces
+Ci
 .
 nsINetUtil
 .
@@ -12,9 +10,7 @@ ESCAPE_URL_ONLY_NONASCII
 const
 SKIP_CONTROL
 =
-Components
-.
-interfaces
+Ci
 .
 nsINetUtil
 .
@@ -275,9 +271,7 @@ run_test
 var
 util
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -294,9 +288,7 @@ util
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsINetUtil
 )

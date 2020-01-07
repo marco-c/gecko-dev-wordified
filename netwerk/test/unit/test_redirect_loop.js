@@ -454,9 +454,7 @@ equal
 request
 .
 status
-Components
-.
-results
+Cr
 .
 NS_ERROR_REDIRECT_LOOP
 )
@@ -497,9 +495,7 @@ equal
 request
 .
 status
-Components
-.
-results
+Cr
 .
 NS_ERROR_REDIRECT_LOOP
 )
@@ -540,9 +536,7 @@ equal
 request
 .
 status
-Components
-.
-results
+Cr
 .
 NS_ERROR_REDIRECT_LOOP
 )

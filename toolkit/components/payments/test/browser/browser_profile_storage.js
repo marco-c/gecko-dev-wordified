@@ -353,9 +353,7 @@ checkInitialStore
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -675,9 +673,7 @@ checkAdd
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -939,9 +935,7 @@ checkUpdate
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1227,9 +1221,7 @@ checkRemove
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (

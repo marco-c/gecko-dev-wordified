@@ -116,9 +116,7 @@ test_non_ascii_path
 let
 env
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -135,9 +133,7 @@ environment
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIEnvironment
 )

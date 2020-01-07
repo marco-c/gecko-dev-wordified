@@ -238,9 +238,7 @@ matches
 var
 cookieSvc
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -255,9 +253,7 @@ cookieService
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICookieService
 )

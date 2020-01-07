@@ -1269,9 +1269,7 @@ i
 ;
 if
 (
-Components
-.
-utils
+Cu
 .
 isXrayWrapper
 (

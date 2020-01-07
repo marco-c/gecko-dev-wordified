@@ -39,9 +39,7 @@ http
 var
 gPluginHost
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -58,9 +56,7 @@ host
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPluginHost
 )
@@ -571,9 +567,7 @@ test
 let
 npobj1
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -599,9 +593,7 @@ false
 ;
 try
 {
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (

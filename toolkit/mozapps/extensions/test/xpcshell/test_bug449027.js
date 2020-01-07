@@ -1484,9 +1484,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -1645,9 +1643,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -2043,9 +2039,7 @@ NORMAL_FILE_TYPE
 var
 stream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2580,9 +2574,7 @@ file
 var
 blocklist
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

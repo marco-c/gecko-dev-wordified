@@ -219,9 +219,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -408,9 +406,7 @@ with
 appropriate
 sanity
 checks
-Components
-.
-utils
+Cu
 .
 reportError
 (

@@ -1177,9 +1177,7 @@ getElementById
 contentId
 )
 ;
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1251,9 +1249,7 @@ contentId
 )
 ;
 return
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (

@@ -221,9 +221,7 @@ callback
 .
 openSignedAppFileFinished
 (
-Components
-.
-results
+Cr
 .
 NS_OK
 null
@@ -242,9 +240,7 @@ callback
 .
 verifySignedDirectoryFinished
 (
-Components
-.
-results
+Cr
 .
 NS_OK
 fakeCert
@@ -338,9 +334,7 @@ null
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;

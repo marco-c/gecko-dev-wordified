@@ -5154,9 +5154,7 @@ catch
 ex
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

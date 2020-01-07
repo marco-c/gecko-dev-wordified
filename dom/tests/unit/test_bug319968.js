@@ -64,9 +64,7 @@ run_test
 var
 domParser
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -83,9 +81,7 @@ domparser
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDOMParser
 )

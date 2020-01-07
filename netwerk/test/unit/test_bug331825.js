@@ -85,9 +85,7 @@ request
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )
@@ -192,9 +190,7 @@ channel
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )

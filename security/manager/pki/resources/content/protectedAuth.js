@@ -90,9 +90,7 @@ arguments
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProtectedAuthThread
 )

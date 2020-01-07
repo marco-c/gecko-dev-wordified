@@ -19,9 +19,7 @@ try
 var
 serviceA
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -42,9 +40,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICacheStorageService
 )
@@ -59,9 +55,7 @@ serviceA
 var
 serviceB
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -82,9 +76,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICacheStorageService
 )

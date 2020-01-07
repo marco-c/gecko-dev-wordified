@@ -2521,9 +2521,7 @@ put
 histogram
 object
 key
-Components
-.
-utils
+Cu
 .
 now
 (
@@ -2652,9 +2650,7 @@ try
 let
 delta
 =
-Components
-.
-utils
+Cu
 .
 now
 (

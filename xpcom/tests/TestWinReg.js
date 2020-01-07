@@ -73,9 +73,7 @@ xpcshell
 const
 nsIWindowsRegKey
 =
-Components
-.
-interfaces
+Ci
 .
 nsIWindowsRegKey
 ;
@@ -364,9 +362,7 @@ BASE_PATH
 var
 key
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

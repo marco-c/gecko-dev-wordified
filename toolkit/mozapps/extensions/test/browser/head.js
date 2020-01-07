@@ -986,9 +986,7 @@ events
 var
 gCatMan
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1003,9 +1001,7 @@ categorymanager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICategoryManager
 )
@@ -4379,9 +4375,7 @@ Exception
 No
 interface
 "
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 )
@@ -4401,9 +4395,7 @@ sslStatus
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISSLStatus
 )

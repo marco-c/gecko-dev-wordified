@@ -120,9 +120,7 @@ manager
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIComponentRegistrar
 )
@@ -211,9 +209,7 @@ manager
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIComponentRegistrar
 )

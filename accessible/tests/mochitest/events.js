@@ -8232,9 +8232,7 @@ this
 .
 DOMNode
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMNSEditableElement
 &
@@ -8250,9 +8248,7 @@ this
 .
 DOMNode
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULTextBoxElement
 )
@@ -9061,9 +9057,7 @@ this
 .
 DOMNode
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMHTMLInputElement
 |
@@ -9072,9 +9066,7 @@ this
 .
 DOMNode
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULTextBoxElement
 )

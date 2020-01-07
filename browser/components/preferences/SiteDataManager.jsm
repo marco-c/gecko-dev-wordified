@@ -702,14 +702,10 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 .
 nsICacheStorageConsumptionObserver
-Components
-.
-interfaces
+Ci
 .
 nsISupportsWeakReference
 ]

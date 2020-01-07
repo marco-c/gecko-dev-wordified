@@ -247,9 +247,7 @@ persistent
 storage
 "
 )
-Components
-.
-interfaces
+Ci
 .
 nsIPermissionManager
 .

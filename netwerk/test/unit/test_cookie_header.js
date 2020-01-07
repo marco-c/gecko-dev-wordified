@@ -260,9 +260,7 @@ request
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )
@@ -295,9 +293,7 @@ e
 ;
 }
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_ABORT
 ;
@@ -310,9 +306,7 @@ test_ODA
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_UNEXPECTED
 ;
@@ -388,9 +382,7 @@ true
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )
@@ -504,9 +496,7 @@ makeChan
 var
 cookServ
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -521,9 +511,7 @@ cookieService
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICookieService
 )

@@ -56,9 +56,7 @@ MPL
 .
 *
 /
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (
@@ -93,9 +91,7 @@ path
 var
 file
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -408,9 +404,7 @@ fail
 var
 dir
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

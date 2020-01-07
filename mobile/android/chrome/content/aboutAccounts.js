@@ -1052,9 +1052,7 @@ failure
 aStatus
 !
 =
-Components
-.
-results
+Cr
 .
 NS_OK
 ;
@@ -1091,9 +1089,7 @@ failure
 aStatus
 !
 =
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 )
@@ -1102,9 +1098,7 @@ aRequest
 .
 cancel
 (
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 )
@@ -1237,9 +1231,7 @@ aRequest
 .
 cancel
 (
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 )

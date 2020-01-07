@@ -301,9 +301,7 @@ try
 var
 cancelQuit
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -320,9 +318,7 @@ PRBool
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupportsPRBool
 )
@@ -396,9 +392,7 @@ startup
 .
 quit
 (
-Components
-.
-interfaces
+Ci
 .
 nsIAppStartup
 .
@@ -470,9 +464,7 @@ catch
 e
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -543,9 +535,7 @@ catch
 e
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

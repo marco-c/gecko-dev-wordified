@@ -426,9 +426,7 @@ e
 result
 !
 =
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
@@ -528,9 +526,7 @@ e
 result
 !
 =
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )

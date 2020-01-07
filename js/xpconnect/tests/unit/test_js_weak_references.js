@@ -101,9 +101,7 @@ try
 var
 nullWeak
 =
-Components
-.
-utils
+Cu
 .
 getWeakReference
 (
@@ -156,9 +154,7 @@ foo
 var
 weak
 =
-Components
-.
-utils
+Cu
 .
 getWeakReference
 (
@@ -219,9 +215,7 @@ foo
 Force
 garbage
 collection
-Components
-.
-utils
+Cu
 .
 forceGC
 (
@@ -369,9 +363,7 @@ foo2
 var
 weak2
 =
-Components
-.
-utils
+Cu
 .
 getWeakReference
 (
@@ -393,9 +385,7 @@ get
 obj
 )
 ;
-Components
-.
-utils
+Cu
 .
 forceGC
 (

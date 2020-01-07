@@ -2486,9 +2486,7 @@ catch
 ex
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -3432,9 +3430,7 @@ onError
 aReason
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

@@ -37,9 +37,7 @@ try
 var
 prefs
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -56,9 +54,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefBranch
 )

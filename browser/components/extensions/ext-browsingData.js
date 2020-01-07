@@ -645,9 +645,7 @@ request
 resultCode
 !
 =
-Components
-.
-results
+Cr
 .
 NS_OK
 )

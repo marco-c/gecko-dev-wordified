@@ -312,9 +312,7 @@ keys
 =
 null
 ;
-Components
-.
-utils
+Cu
 .
 forceGC
 (

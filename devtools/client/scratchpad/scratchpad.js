@@ -6904,9 +6904,7 @@ aCallback
 call
 (
 this
-Components
-.
-results
+Cr
 .
 NS_OK
 )
@@ -6952,9 +6950,7 @@ aCallback
 call
 (
 this
-Components
-.
-results
+Cr
 .
 NS_ERROR_UNEXPECTED
 )
@@ -7827,9 +7823,7 @@ else
 {
 file
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -7846,9 +7840,7 @@ local
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

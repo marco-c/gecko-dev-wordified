@@ -463,9 +463,7 @@ try
 var
 cancelQuit
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -482,9 +480,7 @@ PRBool
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupportsPRBool
 )
@@ -607,9 +603,7 @@ startup
 ;
 forceQuit
 =
-Components
-.
-interfaces
+Ci
 .
 nsIAppStartup
 .
@@ -634,9 +628,7 @@ appShell
 ;
 forceQuit
 =
-Components
-.
-interfaces
+Ci
 .
 nsIAppShellService
 .

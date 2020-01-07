@@ -757,9 +757,7 @@ setup_http_server
 ;
 setupHttpRequests
 (
-Components
-.
-results
+Cr
 .
 NS_ERROR_ABORT
 )

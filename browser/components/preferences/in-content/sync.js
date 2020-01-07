@@ -543,9 +543,7 @@ it
 let
 xps
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -562,9 +560,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -2219,9 +2215,7 @@ updateWeavePrefs
 let
 service
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2238,9 +2232,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )

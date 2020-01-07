@@ -5263,9 +5263,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )

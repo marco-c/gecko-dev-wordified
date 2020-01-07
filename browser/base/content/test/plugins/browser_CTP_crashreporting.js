@@ -342,9 +342,7 @@ environment
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIEnvironment
 )
@@ -772,9 +770,7 @@ activate
 ;
 try
 {
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1548,9 +1544,7 @@ activate
 ;
 try
 {
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (

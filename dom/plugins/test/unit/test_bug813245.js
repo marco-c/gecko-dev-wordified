@@ -263,9 +263,7 @@ dat
 var
 foStream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -286,9 +284,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileOutputStream
 )

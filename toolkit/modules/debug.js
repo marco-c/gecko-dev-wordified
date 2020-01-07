@@ -443,9 +443,7 @@ error
 to
 the
 console
-Components
-.
-utils
+Cu
 .
 reportError
 (

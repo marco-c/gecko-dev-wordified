@@ -84,9 +84,7 @@ subject
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIChannel
 )
@@ -112,9 +110,7 @@ toString
 .
 includes
 (
-Components
-.
-interfaces
+Ci
 .
 nsIInterfaceRequestor
 )

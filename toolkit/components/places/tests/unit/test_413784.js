@@ -309,9 +309,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -351,9 +349,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -379,9 +375,7 @@ url
 var
 controller
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -398,9 +392,7 @@ controller
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIAutoCompleteController
 )

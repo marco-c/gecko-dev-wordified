@@ -564,9 +564,7 @@ stmt
 =
 null
 ;
-Components
-.
-utils
+Cu
 .
 forceGC
 (

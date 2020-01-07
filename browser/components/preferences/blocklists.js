@@ -722,9 +722,7 @@ table
 let
 listmanager
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -743,9 +741,7 @@ listmanager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIUrlListManager
 )

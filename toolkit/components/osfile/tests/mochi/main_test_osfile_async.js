@@ -826,9 +826,7 @@ getNext
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -3337,9 +3335,7 @@ if
 (
 aMessage
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIConsoleMessage
 )

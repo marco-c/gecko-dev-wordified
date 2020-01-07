@@ -75,9 +75,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (
@@ -205,9 +203,7 @@ path
 var
 file
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -556,9 +552,7 @@ fail
 var
 dir
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -745,9 +739,7 @@ var
 interfaces
 =
 [
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 ]
@@ -785,9 +777,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 ]

@@ -196,9 +196,7 @@ equal
 request
 .
 status
-Components
-.
-results
+Cr
 .
 NS_ERROR_CORRUPTED_CONTENT
 )

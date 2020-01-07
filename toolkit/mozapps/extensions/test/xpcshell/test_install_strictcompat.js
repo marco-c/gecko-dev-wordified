@@ -1748,9 +1748,7 @@ function
 (
 )
 {
-Components
-.
-utils
+Cu
 .
 forceGC
 (
@@ -8063,9 +8061,7 @@ equal
 aChannel
 .
 status
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 )

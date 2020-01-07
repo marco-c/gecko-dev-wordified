@@ -529,9 +529,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -567,9 +565,7 @@ nsIChannel
 .
 cancel
 (
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 )
@@ -589,9 +585,7 @@ Assert
 equal
 (
 status
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 )
@@ -681,9 +675,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -820,9 +812,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -866,9 +856,7 @@ Assert
 equal
 (
 status
-Components
-.
-results
+Cr
 .
 NS_ERROR_CORRUPTED_CONTENT
 )

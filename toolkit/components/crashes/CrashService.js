@@ -1373,9 +1373,7 @@ reporter
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICrashReporter
 )

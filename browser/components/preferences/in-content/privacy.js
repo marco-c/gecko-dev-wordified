@@ -1696,9 +1696,7 @@ _initAutocomplete
 (
 )
 {
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1719,9 +1717,7 @@ unifiedcomplete
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 mozIPlacesAutoComplete
 )
@@ -8768,9 +8764,7 @@ table
 let
 listmanager
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -8789,9 +8783,7 @@ listmanager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIUrlListManager
 )

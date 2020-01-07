@@ -288,9 +288,7 @@ cert
 const
 nsIX509Cert
 =
-Components
-.
-interfaces
+Ci
 .
 nsIX509Cert
 ;
@@ -423,9 +421,7 @@ domain
 const
 nsIX509Cert
 =
-Components
-.
-interfaces
+Ci
 .
 nsIX509Cert
 ;

@@ -155,9 +155,7 @@ jsm
 let
 resProtocol
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -178,9 +176,7 @@ resource
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIResProtocolHandler
 )

@@ -559,9 +559,7 @@ aToolkitVersion
 )
 {
 return
-Components
-.
-interfaces
+Ci
 .
 nsIBlocklistService
 .

@@ -390,9 +390,7 @@ true
 let
 dragService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -409,9 +407,7 @@ dragservice
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDragService
 )

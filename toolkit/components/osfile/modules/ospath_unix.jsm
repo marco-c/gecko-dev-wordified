@@ -182,9 +182,7 @@ undefined
 "
 )
 {
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

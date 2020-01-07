@@ -141,9 +141,7 @@ i
 var
 cls
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -196,9 +194,7 @@ cls
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 [
 ifname
 ]

@@ -599,9 +599,7 @@ eslint
 disable
 *
 /
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (
@@ -655,9 +653,7 @@ BLACK_BOXED_URL
 1
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

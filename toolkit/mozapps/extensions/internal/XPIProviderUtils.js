@@ -2552,9 +2552,7 @@ path
 ;
 fstream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2575,9 +2573,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileInputStream
 )
@@ -2604,9 +2600,7 @@ try
 {
 cstream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2627,9 +2621,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIConverterInputStream
 )

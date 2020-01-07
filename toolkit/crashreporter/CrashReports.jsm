@@ -207,9 +207,7 @@ getNext
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -390,9 +388,7 @@ getNext
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -509,9 +505,7 @@ get
 "
 UAppData
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -556,9 +550,7 @@ get
 "
 UAppData
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -594,9 +586,7 @@ get
 "
 UAppData
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

@@ -126,9 +126,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 .
 nsIProfileMigrator
 ]

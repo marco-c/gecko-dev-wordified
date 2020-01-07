@@ -79,9 +79,7 @@ of
 ctypes
 .
 jsm
-Components
-.
-utils
+Cu
 .
 unload
 (

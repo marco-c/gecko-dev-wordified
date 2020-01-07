@@ -83,9 +83,7 @@ browser_docshell_type_editor
 let
 file
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -102,9 +100,7 @@ local
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

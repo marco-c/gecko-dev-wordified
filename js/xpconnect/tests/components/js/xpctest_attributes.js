@@ -98,9 +98,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 [
 "
 nsIXPCTestObjectReadWrite
@@ -228,9 +226,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 [
 "
 nsIXPCTestObjectReadOnly

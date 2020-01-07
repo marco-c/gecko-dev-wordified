@@ -1108,9 +1108,7 @@ if
 (
 aThing
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMNode
 &
@@ -1684,9 +1682,7 @@ if
 (
 aThing
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMNode
 &

@@ -383,9 +383,7 @@ chan
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )
@@ -649,9 +647,7 @@ equal
 request
 .
 status
-Components
-.
-results
+Cr
 .
 NS_ERROR_UNEXPECTED
 )
@@ -888,9 +884,7 @@ equal
 request
 .
 status
-Components
-.
-results
+Cr
 .
 NS_ERROR_UNEXPECTED
 )
@@ -1641,9 +1635,7 @@ equal
 request
 .
 status
-Components
-.
-results
+Cr
 .
 NS_ERROR_UNEXPECTED
 )

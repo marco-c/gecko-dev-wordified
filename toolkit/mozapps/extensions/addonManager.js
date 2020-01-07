@@ -588,9 +588,7 @@ catch
 e
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

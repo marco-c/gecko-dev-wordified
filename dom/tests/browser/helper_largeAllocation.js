@@ -365,9 +365,7 @@ null
 const
 appinfo
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -386,9 +384,7 @@ info
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIXULRuntime
 )

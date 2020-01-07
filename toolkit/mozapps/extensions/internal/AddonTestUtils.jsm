@@ -2516,9 +2516,7 @@ entry
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

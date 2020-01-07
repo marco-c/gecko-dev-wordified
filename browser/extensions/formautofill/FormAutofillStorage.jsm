@@ -1175,9 +1175,7 @@ getNext
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPropertyElement
 )

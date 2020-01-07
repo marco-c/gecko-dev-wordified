@@ -1290,9 +1290,7 @@ do_test_pending
 (
 )
 ;
-Components
-.
-utils
+Cu
 .
 schedulePreciseGC
 (

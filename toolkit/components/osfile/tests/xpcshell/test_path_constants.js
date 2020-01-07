@@ -122,9 +122,7 @@ dirsvc
 get
 (
 key
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

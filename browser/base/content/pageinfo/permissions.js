@@ -212,9 +212,7 @@ aSubject
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPermission
 )
@@ -1649,9 +1647,7 @@ label
 let
 pluginHost
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1668,9 +1664,7 @@ host
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPluginHost
 )

@@ -127,9 +127,7 @@ false
 var
 gPrintSettingsInterface
 =
-Components
-.
-interfaces
+Ci
 .
 nsIPrintSettings
 ;
@@ -2205,9 +2203,7 @@ try
 {
 gPrintService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2248,9 +2244,7 @@ gPrintService
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrintSettingsService
 )
@@ -3010,9 +3004,7 @@ arguments
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrintSettings
 )
@@ -3028,9 +3020,7 @@ arguments
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDialogParamBlock
 )

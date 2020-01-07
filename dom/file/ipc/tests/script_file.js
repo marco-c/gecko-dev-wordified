@@ -76,9 +76,7 @@ testFile
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -89,9 +87,7 @@ NORMAL_FILE_TYPE
 var
 outStream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -112,9 +108,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileOutputStream
 )
@@ -262,9 +256,7 @@ testFile
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -275,9 +267,7 @@ NORMAL_FILE_TYPE
 var
 outStream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -298,9 +288,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileOutputStream
 )

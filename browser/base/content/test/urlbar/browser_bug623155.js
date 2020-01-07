@@ -370,9 +370,7 @@ webProgress
 addProgressListener
 (
 gWebProgressListener
-Components
-.
-interfaces
+Ci
 .
 nsIWebProgress
 .
@@ -395,9 +393,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIWebProgressListener
 )
@@ -407,9 +403,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupportsWeakReference
 )
@@ -419,9 +413,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -430,9 +422,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_NOINTERFACE
 ;

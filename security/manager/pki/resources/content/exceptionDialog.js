@@ -174,9 +174,7 @@ SECURITY_UI
 ;
 gNsISecTel
 =
-Components
-.
-interfaces
+Ci
 .
 nsISecurityUITelemetry
 ;
@@ -1944,9 +1942,7 @@ return
 var
 overrideService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1963,9 +1959,7 @@ certoverride
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICertOverrideService
 )

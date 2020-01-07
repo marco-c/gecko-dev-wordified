@@ -329,9 +329,7 @@ eslint
 disable
 *
 /
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

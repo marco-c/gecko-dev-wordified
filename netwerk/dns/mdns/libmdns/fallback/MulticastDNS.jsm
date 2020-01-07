@@ -282,9 +282,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIObserverService
 )

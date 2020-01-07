@@ -110,9 +110,7 @@ UniversalXPConnect
 var
 fp
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -193,9 +191,7 @@ this
 .
 configUrl
 =
-Components
-.
-classes
+Cc
 [
 STDURLMUT_CTRID
 ]
@@ -1084,9 +1080,7 @@ this
 .
 configUrl
 =
-Components
-.
-classes
+Cc
 [
 STDURLMUT_CTRID
 ]

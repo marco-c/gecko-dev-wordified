@@ -5509,9 +5509,7 @@ rest
 ;
 }
 return
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -5570,9 +5568,7 @@ rest
 ;
 }
 return
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

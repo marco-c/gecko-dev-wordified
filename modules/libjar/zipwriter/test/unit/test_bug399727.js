@@ -205,9 +205,7 @@ Assert
 equal
 (
 aStatusCode
-Components
-.
-results
+Cr
 .
 NS_OK
 )

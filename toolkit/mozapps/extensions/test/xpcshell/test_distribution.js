@@ -648,9 +648,7 @@ testURI
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileURL
 )

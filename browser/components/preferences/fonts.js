@@ -818,9 +818,7 @@ element
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )

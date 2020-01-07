@@ -647,9 +647,7 @@ info
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsILoginMetaInfo
 )

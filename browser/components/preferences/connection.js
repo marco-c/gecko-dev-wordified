@@ -2048,9 +2048,7 @@ reloadPAC
 (
 )
 {
-Components
-.
-classes
+Cc
 [
 "
 mozilla

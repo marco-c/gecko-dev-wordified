@@ -248,9 +248,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 "
@@ -266,9 +264,7 @@ x
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 )
@@ -296,9 +292,7 @@ x
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDOMNode
 )
@@ -326,9 +320,7 @@ x
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDOMDocument
 )
@@ -398,9 +390,7 @@ component
 const
 flags
 =
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 .
@@ -452,9 +442,7 @@ x
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 )
@@ -465,9 +453,7 @@ ci
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -478,9 +464,7 @@ ci
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 )

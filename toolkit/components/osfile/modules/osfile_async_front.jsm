@@ -10553,9 +10553,7 @@ services
 const
 isContent
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

@@ -460,9 +460,7 @@ result
 >
 resolve
 (
-Components
-.
-utils
+Cu
 .
 cloneInto
 (
@@ -475,9 +473,7 @@ error
 >
 reject
 (
-Components
-.
-utils
+Cu
 .
 cloneInto
 (
@@ -494,9 +490,7 @@ contentGlobal
 .
 Promise
 (
-Components
-.
-utils
+Cu
 .
 exportFunction
 (
@@ -621,9 +615,7 @@ contentGlobal
 ;
 }
 return
-Components
-.
-utils
+Cu
 .
 cloneInto
 (
@@ -687,9 +679,7 @@ contentGlobal
 let
 result
 =
-Components
-.
-utils
+Cu
 .
 createObjectIn
 (
@@ -718,9 +708,7 @@ case
 function
 "
 :
-Components
-.
-utils
+Cu
 .
 exportFunction
 (
@@ -747,9 +735,7 @@ case
 object
 "
 :
-Components
-.
-utils
+Cu
 .
 cloneInto
 (

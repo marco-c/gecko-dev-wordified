@@ -582,9 +582,7 @@ return
 const
 wpl
 =
-Components
-.
-interfaces
+Ci
 .
 nsIWebProgressListener
 ;

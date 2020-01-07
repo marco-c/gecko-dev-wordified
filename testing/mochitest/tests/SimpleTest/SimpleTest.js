@@ -6014,9 +6014,7 @@ isChildProcess
 )
 {
 return
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -6033,9 +6031,7 @@ manager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFocusManager
 )
@@ -6475,9 +6471,7 @@ isChildProcess
 var
 fm
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -6494,9 +6488,7 @@ manager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFocusManager
 )

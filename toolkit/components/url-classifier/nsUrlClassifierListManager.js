@@ -5106,9 +5106,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -5249,9 +5247,7 @@ outer
 null
 )
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;

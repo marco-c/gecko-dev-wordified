@@ -214,9 +214,7 @@ subject
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupportsPRUint64
 )
@@ -248,9 +246,7 @@ await
 promise
 ;
 return
-Components
-.
-utils
+Cu
 .
 isDeadWrapper
 (

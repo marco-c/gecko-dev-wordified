@@ -54,9 +54,7 @@ run_test
 let
 env
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -73,9 +71,7 @@ environment
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIEnvironment
 )
@@ -90,9 +86,7 @@ env
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

@@ -190,9 +190,7 @@ true
 var
 cacheService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -213,9 +211,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIApplicationCacheService
 )

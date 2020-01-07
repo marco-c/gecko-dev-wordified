@@ -80,9 +80,7 @@ Yes
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 getJSTestingFunctions
 (
@@ -92,9 +90,7 @@ reportOutOfMemory
 (
 )
 ;
-Components
-.
-utils
+Cu
 .
 forceGC
 (
@@ -106,9 +102,7 @@ recover
 from
 first
 OOM
-Components
-.
-utils
+Cu
 .
 getJSTestingFunctions
 (

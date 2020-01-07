@@ -209,9 +209,7 @@ yourself
 const
 init
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

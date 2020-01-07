@@ -934,9 +934,7 @@ helper
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsISerializationHelper
 )

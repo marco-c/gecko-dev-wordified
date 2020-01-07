@@ -106,9 +106,7 @@ resource
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISubstitutingProtocolHandler
 )

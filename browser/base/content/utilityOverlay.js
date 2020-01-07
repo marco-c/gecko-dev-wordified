@@ -737,9 +737,7 @@ referrerURI
 aReferrerURI
 referrerPolicy
 :
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 .
@@ -1513,9 +1511,7 @@ referrerURI
 aReferrerURI
 referrerPolicy
 :
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 .
@@ -1807,9 +1803,7 @@ if
 aInitiatingDoc
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

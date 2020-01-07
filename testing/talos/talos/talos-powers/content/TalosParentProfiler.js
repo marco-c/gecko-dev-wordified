@@ -277,9 +277,7 @@ implementation
 let
 TalosPowers
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -300,9 +298,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )

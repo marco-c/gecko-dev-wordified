@@ -470,9 +470,7 @@ button
 let
 aboutNewTabService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -491,9 +489,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIAboutNewTabService
 )

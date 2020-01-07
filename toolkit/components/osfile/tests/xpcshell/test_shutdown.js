@@ -253,9 +253,7 @@ if
 (
 aMessage
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIConsoleMessage
 )

@@ -2130,9 +2130,7 @@ cert
 var
 certDumpTree
 =
-Components
-.
-classes
+Cc
 [
 nsASN1Tree
 ]
@@ -2456,9 +2454,7 @@ database
 var
 certdb
 =
-Components
-.
-classes
+Cc
 [
 nsX509CertDB
 ]
@@ -2653,9 +2649,7 @@ display
 var
 certdb
 =
-Components
-.
-classes
+Cc
 [
 nsX509CertDB
 ]

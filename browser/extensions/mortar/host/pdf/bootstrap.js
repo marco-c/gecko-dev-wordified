@@ -136,9 +136,7 @@ n
 "
 )
 ;
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -157,9 +155,7 @@ loader
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 mozIJSSubScriptLoader
 )

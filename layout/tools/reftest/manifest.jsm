@@ -540,9 +540,7 @@ if
 (
 channel
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 &
@@ -1253,9 +1251,7 @@ them
 .
 cond
 =
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (
@@ -1441,9 +1437,7 @@ false
 ;
 if
 (
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (
@@ -1758,9 +1752,7 @@ false
 ;
 if
 (
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (
@@ -1999,9 +1991,7 @@ false
 ;
 if
 (
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (
@@ -3547,9 +3537,7 @@ var
 sandbox
 =
 new
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -5139,9 +5127,7 @@ aRefPrefSettings
 var
 prefVal
 =
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

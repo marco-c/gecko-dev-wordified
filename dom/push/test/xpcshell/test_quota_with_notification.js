@@ -59,9 +59,7 @@ b88e9e7d7559
 const
 nsIPushQuotaManager
 =
-Components
-.
-interfaces
+Ci
 .
 nsIPushQuotaManager
 ;

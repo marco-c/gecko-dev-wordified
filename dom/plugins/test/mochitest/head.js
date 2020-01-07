@@ -700,9 +700,7 @@ in
 let
 ph
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -719,9 +717,7 @@ host
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPluginHost
 )

@@ -1136,9 +1136,7 @@ array
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIMutableArray
 )

@@ -110,9 +110,7 @@ try
 var
 cancelQuit
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -129,9 +127,7 @@ PRBool
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupportsPRBool
 )
@@ -459,9 +455,7 @@ appShell
 var
 windowManager
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -489,9 +483,7 @@ windowManager
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIWindowMediator
 )

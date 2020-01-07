@@ -164,9 +164,7 @@ var
 interfaces
 =
 [
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 ]
@@ -261,9 +259,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 )
@@ -273,9 +269,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -284,9 +278,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -378,9 +370,7 @@ var
 interfaces
 =
 [
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 ]
@@ -418,9 +408,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 ]

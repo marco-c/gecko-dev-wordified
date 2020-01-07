@@ -7887,9 +7887,7 @@ data
 var
 fstream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -7910,9 +7908,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileInputStream
 )
@@ -7920,9 +7916,7 @@ nsIFileInputStream
 var
 cstream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -7943,9 +7937,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIConverterInputStream
 )
@@ -8382,9 +8374,7 @@ data
 let
 fstream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -8405,9 +8395,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileInputStream
 )
@@ -8415,9 +8403,7 @@ nsIFileInputStream
 let
 cstream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -8438,9 +8424,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIConverterInputStream
 )

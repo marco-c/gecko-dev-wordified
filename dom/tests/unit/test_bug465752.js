@@ -64,9 +64,7 @@ run_test
 const
 ios
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -85,9 +83,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )
@@ -221,9 +217,7 @@ uri3
 var
 simple
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -244,9 +238,7 @@ mutator
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIURIMutator
 )

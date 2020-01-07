@@ -397,9 +397,7 @@ Start
 a
 new
 script
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

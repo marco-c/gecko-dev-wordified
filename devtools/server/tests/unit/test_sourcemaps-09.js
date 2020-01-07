@@ -644,9 +644,7 @@ EAAII
 }
 '
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

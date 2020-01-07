@@ -2587,9 +2587,7 @@ function
 )
 {
 return
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2606,9 +2604,7 @@ push
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )

@@ -145,9 +145,7 @@ x509certdb
 const
 CertDb
 =
-Components
-.
-classes
+Cc
 [
 nsX509CertDB
 ]

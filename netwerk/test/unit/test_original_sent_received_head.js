@@ -327,9 +327,7 @@ channel1
 .
 loadFlags
 =
-Components
-.
-interfaces
+Ci
 .
 nsIRequest
 .
@@ -437,9 +435,7 @@ channel2
 .
 loadFlags
 =
-Components
-.
-interfaces
+Ci
 .
 nsIRequest
 .
@@ -579,9 +575,7 @@ true
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )
@@ -954,9 +948,7 @@ request
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )

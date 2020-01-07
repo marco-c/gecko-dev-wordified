@@ -288,9 +288,7 @@ generateUuid
 var
 uuidGenerator
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

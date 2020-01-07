@@ -6583,9 +6583,7 @@ zipwriter
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIZipWriter
 )

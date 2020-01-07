@@ -827,9 +827,7 @@ API
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1272,9 +1270,7 @@ API
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1760,9 +1756,7 @@ API
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -2322,9 +2316,7 @@ API
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -2764,9 +2756,7 @@ nonRecordedTestEvents
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -3346,9 +3336,7 @@ linkedBrowser
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -3459,9 +3447,7 @@ linkedBrowser
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (

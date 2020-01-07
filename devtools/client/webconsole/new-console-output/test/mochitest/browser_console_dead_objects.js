@@ -441,9 +441,7 @@ subject
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupportsPRUint64
 )

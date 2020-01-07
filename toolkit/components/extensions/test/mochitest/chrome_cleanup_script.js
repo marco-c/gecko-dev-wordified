@@ -59,9 +59,7 @@ void
 (
 msg
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIConsoleMessage
 )

@@ -154,9 +154,7 @@ true
 var
 NS_ERROR_INVALID_ARG
 =
-Components
-.
-results
+Cr
 .
 NS_ERROR_INVALID_ARG
 ;
