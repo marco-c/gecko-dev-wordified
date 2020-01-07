@@ -710,7 +710,7 @@ u1
 .
 flags
 =
-ROPE_FLAGS
+INIT_ROPE_FLAGS
 ;
 if
 (
@@ -1451,7 +1451,7 @@ u1
 .
 flags
 =
-FLAT_BIT
+LINEAR_BIT
 ;
 d
 .
@@ -1496,7 +1496,7 @@ u1
 .
 flags
 =
-FLAT_BIT
+LINEAR_BIT
 |
 LATIN1_CHARS_BIT
 ;
