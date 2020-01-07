@@ -912,7 +912,7 @@ Zlib
 data
 *
 /
-zxx_stream
+z_stream
 zStream
 ;
 }

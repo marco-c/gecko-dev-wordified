@@ -1256,7 +1256,7 @@ return
 nullptr
 ;
 }
-zxx_stream
+z_stream
 zStream
 =
 stream
