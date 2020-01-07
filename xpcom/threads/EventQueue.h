@@ -163,14 +163,6 @@ public
 EventQueue
 (
 )
-{
-}
-explicit
-EventQueue
-(
-EventPriority
-aPriority
-)
 ;
 void
 PutEvent

@@ -139,8 +139,6 @@ EventQueue
 :
 EventQueue
 (
-EventPriority
-aPriority
 )
 {
 }
