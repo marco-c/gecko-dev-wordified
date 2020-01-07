@@ -2734,6 +2734,30 @@ flag_variables
             
 (
 '
+DEFINES
+'
+None
+(
+'
+SFLAGS
+'
+)
+)
+            
+(
+'
+LIBRARY_DEFINES
+'
+None
+(
+'
+SFLAGS
+'
+)
+)
+            
+(
+'
 OS
 '
 context
@@ -2752,6 +2776,9 @@ ASFLAGS
 '
 ASFLAGS
 '
+'
+SFLAGS
+'
 )
 )
             
@@ -2768,6 +2795,21 @@ _debug_flags
 '
 ASFLAGS
 '
+'
+SFLAGS
+'
+)
+)
+            
+(
+'
+LOCAL_INCLUDES
+'
+None
+(
+'
+SFLAGS
+'
 )
 )
             
@@ -2779,6 +2821,9 @@ None
 (
 '
 ASFLAGS
+'
+'
+SFLAGS
 '
 )
 )
