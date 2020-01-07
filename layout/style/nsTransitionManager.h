@@ -2958,12 +2958,11 @@ ConsiderInitiatingTransition
 nsCSSPropertyID
 aProperty
 const
-mozilla
-:
-:
-StyleTransition
+nsStyleDisplay
 &
-aTransition
+aStyleDisplay
+uint32_t
+transitionIdx
 mozilla
 :
 :
