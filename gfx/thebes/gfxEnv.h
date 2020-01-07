@@ -651,7 +651,7 @@ Very
 noisy
 GLContext
 and
-GLContextProviderELG
+GLContextProviderEGL
 DECL_GFX_ENV
 (
 "
