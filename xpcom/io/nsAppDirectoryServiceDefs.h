@@ -1008,12 +1008,6 @@ UChrm
 "
 #
 define
-NS_APP_USER_SEARCH_DIR
-"
-UsrSrchPlugns
-"
-#
-define
 NS_APP_LOCALSTORE_50_FILE
 "
 LclSt
