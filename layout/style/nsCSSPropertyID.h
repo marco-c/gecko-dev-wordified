@@ -170,7 +170,7 @@ list
 of
 properties
 see
-nsCSSPropList
+ServoCSSPropList
 .
 h
 *
@@ -184,7 +184,7 @@ eCSSProperty_UNKNOWN
 1
 #
 define
-CSS_PROP
+CSS_PROP_LONGHAND
 (
 name_
 id_
@@ -199,13 +199,15 @@ id_
 #
 include
 "
-nsCSSPropList
+mozilla
+/
+ServoCSSPropList
 .
 h
 "
 #
 undef
-CSS_PROP
+CSS_PROP_LONGHAND
 eCSSProperty_COUNT_no_shorthands
 /
 /
@@ -240,7 +242,9 @@ id_
 #
 include
 "
-nsCSSPropList
+mozilla
+/
+ServoCSSPropList
 .
 h
 "
@@ -282,7 +286,9 @@ aliasid_
 #
 include
 "
-nsCSSPropAliasList
+mozilla
+/
+ServoCSSPropList
 .
 h
 "
