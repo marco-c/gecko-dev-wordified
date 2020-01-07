@@ -1263,26 +1263,22 @@ query_abs_dirs
 )
             
 #
-Package
-GCOV
-coverage
-data
+Zip
+gcda
+files
+(
+will
+be
+given
+in
+input
+to
+grcov
+)
 .
             
 file_path_gcda
 =
-os
-.
-path
-.
-join
-(
-dirs
-[
-'
-abs_blob_upload_dir
-'
-]
 '
 code
 -
@@ -1292,7 +1288,6 @@ gcda
 .
 zip
 '
-)
             
 self
 .
@@ -1301,6 +1296,14 @@ run_command
 [
 '
 zip
+'
+'
+-
+q
+'
+'
+-
+0
 '
 '
 -
