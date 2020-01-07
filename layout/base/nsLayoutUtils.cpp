@@ -24126,9 +24126,10 @@ builder
 .
 SetAncestorHasApzAwareEventHandler
 (
-builder
-.
-IsBuildingLayerEventRegions
+nsDisplayListBuilder
+:
+:
+LayerEventRegionsEnabled
 (
 )
 &
