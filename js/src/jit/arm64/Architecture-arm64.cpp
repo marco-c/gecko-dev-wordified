@@ -461,6 +461,15 @@ double
 )
 ;
 }
+uint32_t
+GetARM64Flags
+(
+)
+{
+return
+0
+;
+}
 }
 /
 /

@@ -3813,6 +3813,11 @@ return
 false
 ;
 }
+uint32_t
+GetARM64Flags
+(
+)
+;
 }
 /
 /
