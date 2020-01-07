@@ -900,14 +900,14 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_task
 (
 )
 {
   
-yield
+await
 Promise
 .
 resolve
@@ -916,7 +916,7 @@ true
 )
 ;
   
-yield
+await
 Promise
 .
 resolve
@@ -968,14 +968,14 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_task
 (
 )
 {
   
-yield
+await
 Promise
 .
 resolve
@@ -988,14 +988,14 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_2
 (
 )
 {
   
-yield
+await
 Promise
 .
 resolve
@@ -2477,14 +2477,14 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_task
 (
 )
 {
   
-yield
+await
 Promise
 .
 resolve
@@ -2497,14 +2497,14 @@ true
 ;
 add_task
 (
+async
 function
-*
 test_2
 (
 )
 {
   
-yield
+await
 Promise
 .
 resolve
