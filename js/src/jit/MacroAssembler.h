@@ -12162,7 +12162,7 @@ Spectre
 .
 inline
 void
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 Register
 index
@@ -12184,7 +12184,7 @@ x86_shared
 ;
 inline
 void
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 Register
 index

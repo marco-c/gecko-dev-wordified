@@ -12261,7 +12261,7 @@ in
 the
 rightChild
 .
-boundsCheck32ForLoad
+spectreBoundsCheck32
 (
 index
 Address
