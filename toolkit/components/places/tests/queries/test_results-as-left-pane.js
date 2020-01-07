@@ -117,10 +117,6 @@ nsINavHistoryQueryOptions
 .
 RESULTS_AS_TAG_QUERY
 }
-&
-queryType
-=
-1
 guid
 :
 "
@@ -146,10 +142,6 @@ nsINavHistoryQueryOptions
 .
 RESULTS_AS_ROOTS_QUERY
 }
-&
-queryType
-=
-1
 guid
 :
 "
@@ -291,7 +283,11 @@ i
 {
 Assert
 .
-equal
+ok
+(
+PlacesTestUtils
+.
+ComparePlacesURIs
 (
 root
 .
@@ -307,6 +303,7 @@ i
 ]
 .
 uri
+)
 "
 Should
 have
