@@ -6796,7 +6796,7 @@ aEndEntity
 No
 self
 -
-sigend
+signed
 (
 or
 empty
