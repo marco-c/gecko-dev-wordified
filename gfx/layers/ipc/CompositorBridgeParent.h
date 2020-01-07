@@ -3201,15 +3201,6 @@ return
 mEGLSurfaceSize
 ;
 }
-uint64_t
-GetRootLayerTreeId
-(
-)
-{
-return
-mRootLayerTreeID
-;
-}
 #
 endif
 /
