@@ -6661,6 +6661,14 @@ origURL
 "
 self
 "
+&
+&
+origURL
+!
+=
+=
+"
+"
 )
 {
 let
