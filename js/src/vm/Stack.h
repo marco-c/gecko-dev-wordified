@@ -8686,7 +8686,7 @@ s
 /
 /
 bit
-it
+is
 set
 it
 must
