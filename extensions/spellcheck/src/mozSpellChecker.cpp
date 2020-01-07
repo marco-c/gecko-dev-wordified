@@ -161,6 +161,13 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+"
+RemoteSpellCheckEngineChild
+.
+h
+"
 using
 mozilla
 :

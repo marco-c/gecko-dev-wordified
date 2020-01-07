@@ -169,13 +169,6 @@ nsCycleCollectionParticipant
 .
 h
 "
-#
-include
-"
-RemoteSpellCheckEngineChild
-.
-h
-"
 namespace
 mozilla
 {
