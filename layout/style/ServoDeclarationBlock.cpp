@@ -325,7 +325,7 @@ property
 )
 ;
 }
-void
+bool
 ServoDeclarationBlock
 :
 :
@@ -347,6 +347,7 @@ property
 aProperty
 )
 ;
+return
 Servo_DeclarationBlock_RemoveProperty
 (
 mRaw
