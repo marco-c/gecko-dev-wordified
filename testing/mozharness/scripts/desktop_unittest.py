@@ -3578,6 +3578,11 @@ get
 this_chunk
 '
 )
+and
+not
+self
+.
+verify_enabled
 :
                 
 base_cmd

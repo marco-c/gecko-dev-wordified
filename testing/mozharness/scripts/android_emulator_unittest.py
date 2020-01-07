@@ -4368,7 +4368,11 @@ split
 )
 )
         
-else
+elif
+not
+self
+.
+verify_enabled
 :
             
 if
