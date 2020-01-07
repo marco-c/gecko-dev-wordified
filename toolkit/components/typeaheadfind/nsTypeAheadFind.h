@@ -207,6 +207,9 @@ nsIPresShell
 class
 nsPresContext
 ;
+class
+nsRange
+;
 #
 define
 TYPEAHEADFIND_NOTFOUND_WAV_URL
@@ -286,7 +289,7 @@ aWebBrowserFind
 void
 RangeStartsInsideLink
 (
-nsIDOMRange
+nsRange
 *
 aRange
 nsIPresShell
