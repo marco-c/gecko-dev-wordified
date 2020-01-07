@@ -3046,9 +3046,10 @@ header
 "
 )
 .
-innerHTML
-=
+unsafeSetInnerHTML
+(
 msg1
+)
 ;
 /
 /
@@ -3079,9 +3080,10 @@ message
 "
 )
 .
-innerHTML
-=
+unsafeSetInnerHTML
+(
 msg2
+)
 ;
 }
 else
