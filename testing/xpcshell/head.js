@@ -1210,7 +1210,7 @@ msg
 if
 (
 typeof
-do_print
+info
 =
 =
 =
@@ -1218,7 +1218,7 @@ do_print
 function
 "
 )
-do_print
+info
 (
 "
 CONSOLE_MESSAGE
@@ -3272,7 +3272,7 @@ catch
 ex
 )
 {
-do_print
+info
 (
 "
 Failed
@@ -3405,13 +3405,13 @@ true
 }
 )
 ;
-do_print
+info
 (
 "
 "
 )
 ;
-do_print
+info
 (
 "
 *
@@ -3484,7 +3484,7 @@ do_print
 "
 )
 ;
-do_print
+info
 (
 "
 Waiting
@@ -3500,13 +3500,13 @@ port
 port
 )
 ;
-do_print
+info
 (
 "
 "
 )
 ;
-do_print
+info
 (
 "
 To
@@ -3524,7 +3524,7 @@ Connect
 "
 )
 ;
-do_print
+info
 (
 "
 from
@@ -3541,7 +3541,7 @@ as
 port
 )
 ;
-do_print
+info
 (
 "
 *
@@ -3614,7 +3614,7 @@ do_print
 "
 )
 ;
-do_print
+info
 (
 "
 "
@@ -3742,7 +3742,7 @@ return
 true
 ;
 }
-do_print
+info
 (
 "
 Still
@@ -3817,7 +3817,7 @@ continue
 .
 .
 .
-do_print
+info
 (
 "
 Debugger
@@ -4978,7 +4978,7 @@ log
 *
 /
 function
-do_print
+info
 (
 msg
 data
@@ -5095,7 +5095,7 @@ delay
 ;
 }
 function
-do_execute_soon
+executeSoon
 (
 callback
 aName
@@ -7356,7 +7356,7 @@ running
 *
 /
 function
-do_register_cleanup
+registerCleanupFunction
 (
 aFunction
 )
@@ -10118,7 +10118,7 @@ SKIP
 _message
 )
 ;
-do_execute_soon
+executeSoon
 (
 run_next_test
 )
@@ -10299,13 +10299,13 @@ run
 /
 /
 (
-do_execute_soon
+executeSoon
 bumps
 that
 counter
 )
 .
-do_execute_soon
+executeSoon
 (
 _run_next_test
 "

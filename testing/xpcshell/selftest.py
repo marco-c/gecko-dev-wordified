@@ -1719,13 +1719,13 @@ run_test
 (
 )
 {
-do_print
+info
 (
 "
 a
 message
 from
-do_print
+info
 "
 )
 }
@@ -1937,7 +1937,7 @@ in
 reverse
 order
   
-do_register_cleanup
+registerCleanupFunction
 (
 function
 cleanup_checkout
@@ -1962,7 +1962,7 @@ join
 )
 ;
     
-do_print
+info
 (
 "
 At
@@ -1995,7 +1995,7 @@ log
 )
 ;
   
-do_register_cleanup
+registerCleanupFunction
 (
 function
 sync_cleanup_2
@@ -2015,7 +2015,7 @@ push
 )
 ;
   
-do_register_cleanup
+registerCleanupFunction
 (
 async
 function
@@ -2040,7 +2040,7 @@ push
 )
 ;
   
-do_register_cleanup
+registerCleanupFunction
 (
 function
 *
@@ -2065,7 +2065,7 @@ push
 )
 ;
   
-do_register_cleanup
+registerCleanupFunction
 (
 function
 async_cleanup_2
@@ -2083,7 +2083,7 @@ defer
 )
 ;
     
-do_execute_soon
+executeSoon
 (
 deferred
 .
@@ -2119,7 +2119,7 @@ push
 )
 ;
   
-do_register_cleanup
+registerCleanupFunction
 (
 function
 sync_cleanup
@@ -2139,7 +2139,7 @@ push
 )
 ;
   
-do_register_cleanup
+registerCleanupFunction
 (
 function
 async_cleanup
@@ -2157,7 +2157,7 @@ defer
 )
 ;
     
-do_execute_soon
+executeSoon
 (
 deferred
 .
@@ -8829,7 +8829,7 @@ self
         
 Check
 that
-do_print
+info
 (
 )
 and
@@ -8894,7 +8894,7 @@ assertNotInLog
 a
 message
 from
-do_print
+info
 "
 )
     
@@ -8911,7 +8911,7 @@ self
         
 Check
 that
-do_print
+info
 (
 )
 and
@@ -8977,7 +8977,7 @@ assertInLog
 a
 message
 from
-do_print
+info
 "
 )
     
@@ -8994,7 +8994,7 @@ self
         
 Check
 that
-do_print
+info
 (
 )
 and
@@ -9077,7 +9077,7 @@ assertInLog
 a
 message
 from
-do_print
+info
 "
 )
     
@@ -9094,7 +9094,7 @@ self
         
 Check
 that
-do_register_cleanup
+registerCleanupFunction
 handles
 nicely
 async
