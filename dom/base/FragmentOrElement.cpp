@@ -12117,7 +12117,7 @@ if
 tmp
 -
 >
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 &
