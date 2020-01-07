@@ -899,9 +899,9 @@ querySelector
 (
 "
 .
-theme
+collapse
 -
-twisty
+button
 "
 )
 ;
