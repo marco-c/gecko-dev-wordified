@@ -477,9 +477,6 @@ ImageFormat
 :
 uint32_t
 {
-Invalid
-=
-0
 R8
 =
 1
