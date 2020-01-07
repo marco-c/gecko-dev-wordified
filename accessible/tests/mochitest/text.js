@@ -3557,7 +3557,7 @@ instanceof
 Array
 )
 {
-var
+let
 ids
 =
 (
@@ -3581,7 +3581,7 @@ aArgs
 ]
 ]
 ;
-var
+let
 boundaryType
 =
 aArgs
@@ -3589,7 +3589,7 @@ aArgs
 1
 ]
 ;
-var
+let
 list
 =
 aArgs
@@ -3599,7 +3599,7 @@ aArgs
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3615,7 +3615,7 @@ i
 +
 )
 {
-var
+let
 offset1
 =
 list
@@ -3635,7 +3635,7 @@ i
 1
 ]
 ;
-var
+let
 text
 =
 list
@@ -3664,7 +3664,7 @@ i
 4
 ]
 ;
-var
+let
 failureList
 =
 list
@@ -3677,7 +3677,7 @@ i
 ;
 for
 (
-var
+let
 offset
 =
 offset1
@@ -3694,7 +3694,7 @@ offset
 {
 for
 (
-var
+let
 idIdx
 =
 0
@@ -3710,7 +3710,7 @@ idIdx
 +
 )
 {
-var
+let
 id
 =
 ids
@@ -3718,7 +3718,7 @@ ids
 idIdx
 ]
 ;
-var
+let
 flagOk1
 =
 kOk
@@ -3736,7 +3736,7 @@ failureList
 {
 for
 (
-var
+let
 fIdx
 =
 0
@@ -3813,7 +3813,7 @@ break
 }
 }
 }
-var
+let
 acc
 =
 getAccessible
@@ -3910,7 +3910,7 @@ instanceof
 Array
 )
 {
-var
+let
 ids
 =
 aArgs
@@ -3920,7 +3920,7 @@ aArgs
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3936,7 +3936,7 @@ i
 +
 )
 {
-var
+let
 acc
 =
 getAccessible
@@ -3986,7 +3986,7 @@ separately
 .
 for
 (
-var
+let
 i
 =
 5
@@ -4004,7 +4004,7 @@ i
 4
 )
 {
-var
+let
 ID
 =
 aArgs
@@ -4012,7 +4012,7 @@ aArgs
 i
 ]
 ;
-var
+let
 acc
 =
 getAccessible
@@ -4021,7 +4021,7 @@ ID
 nsIAccessibleText
 )
 ;
-var
+let
 toDoFlag1
 =
 aArgs
@@ -4031,7 +4031,7 @@ i
 1
 ]
 ;
-var
+let
 toDoFlag2
 =
 aArgs
@@ -4041,7 +4041,7 @@ i
 2
 ]
 ;
-var
+let
 toDoFlag3
 =
 aArgs

@@ -108,15 +108,6 @@ off
 "
 no
 -
-redeclare
-"
-:
-"
-off
-"
-"
-no
--
 undef
 "
 :

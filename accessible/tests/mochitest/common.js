@@ -2753,7 +2753,7 @@ prop
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -2949,7 +2949,7 @@ prevOffset
 1
 )
 {
-var
+let
 attrs
 =
 accTree
@@ -3002,7 +3002,7 @@ nsIAccessibleText
 .
 characterCount
 ;
-var
+let
 attrs
 =
 accTree
@@ -3125,7 +3125,7 @@ childCount
 {
 for
 (
-var
+let
 i
 =
 0
@@ -3387,7 +3387,7 @@ kSkipTreeFullCheck
 {
 for
 (
-var
+let
 i
 =
 0
@@ -3401,7 +3401,7 @@ i
 +
 )
 {
-var
+let
 child
 =
 children
@@ -3566,7 +3566,7 @@ i
 +
 )
 {
-var
+let
 child
 =
 children
@@ -4932,7 +4932,7 @@ instanceof
 Array
 )
 {
-var
+let
 msg
 =
 "
@@ -5009,7 +5009,7 @@ getAccessibleDOMNodeID
 acc
 )
 ;
-var
+let
 msg
 =
 "

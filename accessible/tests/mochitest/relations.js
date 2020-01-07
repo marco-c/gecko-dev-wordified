@@ -541,7 +541,7 @@ targets
 ;
 for
 (
-var
+let
 idx
 =
 0
@@ -607,7 +607,7 @@ relation
 .
 for
 (
-var
+let
 idx
 =
 0
@@ -628,7 +628,7 @@ isFound
 =
 false
 ;
-var
+let
 enumerate
 =
 actualTargets
@@ -646,7 +646,7 @@ hasMoreElements
 )
 )
 {
-var
+let
 relatedAcc
 =
 enumerate
@@ -714,7 +714,7 @@ given
 related
 accessibles
 .
-var
+let
 enumerate
 =
 actualTargets
@@ -732,7 +732,7 @@ hasMoreElements
 )
 )
 {
-var
+let
 relatedAcc
 =
 enumerate
@@ -746,9 +746,11 @@ QueryInterface
 nsIAccessible
 )
 ;
+let
+idx
+;
 for
 (
-var
 idx
 =
 0
@@ -981,7 +983,7 @@ targets
 ;
 for
 (
-var
+let
 idx
 =
 0
@@ -1047,7 +1049,7 @@ out
 .
 for
 (
-var
+let
 idx
 =
 0

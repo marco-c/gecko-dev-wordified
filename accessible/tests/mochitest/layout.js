@@ -1565,7 +1565,7 @@ areaCoords
 -
 areaY
 ;
-var
+let
 rect
 =
 img
@@ -1601,7 +1601,7 @@ areaHeight
 }
 else
 {
-var
+let
 rect
 =
 elm
