@@ -6169,7 +6169,7 @@ mCount
 ;
 uint8_t
 *
-lastPseudoCppStackAddr
+lastLabelFrameStackAddr
 =
 nullptr
 ;
@@ -6278,12 +6278,12 @@ if
 (
 pseudoEntry
 .
-isCpp
+isLabelFrame
 (
 )
 )
 {
-lastPseudoCppStackAddr
+lastLabelFrameStackAddr
 =
 (
 uint8_t
@@ -6403,12 +6403,12 @@ continue
 }
 MOZ_ASSERT
 (
-lastPseudoCppStackAddr
+lastLabelFrameStackAddr
 )
 ;
 pseudoStackAddr
 =
-lastPseudoCppStackAddr
+lastLabelFrameStackAddr
 ;
 }
 if
@@ -6673,7 +6673,7 @@ Pseudo
 frames
 with
 the
-CPP_MARKER_FOR_JS
+LABEL_MARKER_FOR_JS
 kind
 are
 just
@@ -6707,7 +6707,7 @@ ProfileEntry
 Kind
 :
 :
-CPP_MARKER_FOR_JS
+LABEL_MARKER_FOR_JS
 )
 {
 /
@@ -6731,7 +6731,7 @@ MOZ_ASSERT_IF
 (
 pseudoEntry
 .
-isJs
+isJsFrame
 (
 )
 &
@@ -8108,7 +8108,7 @@ if
 !
 entry
 .
-isJs
+isJsFrame
 (
 )
 &
@@ -16957,7 +16957,7 @@ pseudoStack
 pseudoStack
 -
 >
-pushCppFrame
+pushLabelFrame
 (
 aLabel
 aDynamicString
@@ -16972,7 +16972,7 @@ ProfileEntry
 Kind
 :
 :
-CPP_NORMAL
+LABEL
 js
 :
 :

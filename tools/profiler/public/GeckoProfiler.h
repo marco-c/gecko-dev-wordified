@@ -6281,7 +6281,7 @@ mPseudoStack
 mPseudoStack
 -
 >
-pushCppFrame
+pushLabelFrame
 (
 aLabel
 aDynamicString
@@ -6296,7 +6296,7 @@ ProfileEntry
 Kind
 :
 :
-CPP_NORMAL
+LABEL
 aCategory
 )
 ;

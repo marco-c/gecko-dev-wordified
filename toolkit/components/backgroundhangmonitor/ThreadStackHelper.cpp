@@ -1740,7 +1740,7 @@ if
 !
 aEntry
 .
-isJs
+isJsFrame
 (
 )
 )

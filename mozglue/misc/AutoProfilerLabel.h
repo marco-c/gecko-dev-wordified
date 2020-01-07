@@ -260,7 +260,7 @@ ProfileEntry
 Kind
 :
 :
-CPP_NORMAL
+LABEL
 as
 the
 kind
