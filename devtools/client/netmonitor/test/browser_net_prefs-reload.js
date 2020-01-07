@@ -308,6 +308,10 @@ validateValue
 )
 =
 >
+Object
+.
+entries
+(
 getState
 (
 )
@@ -315,13 +319,6 @@ getState
 filters
 .
 requestFilterTypes
-.
-entrySeq
-(
-)
-.
-toArray
-(
 )
 .
 filter
