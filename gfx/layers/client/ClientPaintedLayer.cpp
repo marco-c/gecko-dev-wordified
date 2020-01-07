@@ -1527,6 +1527,16 @@ if
 state
 .
 mBufferState
+&
+&
+state
+.
+mBufferState
+-
+>
+HasOperations
+(
+)
 )
 {
 PaintThread
