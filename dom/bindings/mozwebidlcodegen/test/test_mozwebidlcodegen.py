@@ -359,6 +359,12 @@ self
 .
 _config_path
             
+webidl_root
+=
+'
+/
+'
+            
 inputs
 =
 inputs
