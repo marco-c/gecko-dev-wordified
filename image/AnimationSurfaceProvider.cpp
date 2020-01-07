@@ -155,6 +155,8 @@ Decoder
 *
 >
 aDecoder
+size_t
+aCurrentFrame
 )
 :
 ISurfaceProvider
