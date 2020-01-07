@@ -328,6 +328,9 @@ str
 AppendPrintf
 (
 "
+0x
+%
+p
 <
 %
 s
@@ -338,6 +341,7 @@ s
 p
 ]
 "
+sc
 sc
 -
 >
@@ -367,6 +371,9 @@ str
 AppendPrintf
 (
 "
+0x
+%
+p
 <
 %
 s
@@ -376,6 +383,7 @@ root
 asr
 ]
 "
+sc
 sc
 -
 >
