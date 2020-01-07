@@ -6353,7 +6353,7 @@ FileReader
 )
 )
 {
-fileReader
+FileReader
 =
 true
 ;
@@ -6375,7 +6375,7 @@ MessageChannel
 )
 )
 {
-messageChannel
+MessageChannel
 =
 true
 ;
@@ -6397,7 +6397,7 @@ InspectorUtils
 )
 )
 {
-inspectorUtils
+InspectorUtils
 =
 true
 ;
@@ -6870,7 +6870,7 @@ false
 ;
 if
 (
-fileReader
+FileReader
 &
 &
 !
@@ -6890,7 +6890,7 @@ false
 ;
 if
 (
-messageChannel
+MessageChannel
 &
 &
 (
@@ -6925,7 +6925,7 @@ false
 ;
 if
 (
-inspectorUtils
+InspectorUtils
 &
 &
 !

@@ -17770,12 +17770,12 @@ caches
 1
 ;
 bool
-fileReader
+FileReader
 :
 1
 ;
 bool
-messageChannel
+MessageChannel
 :
 1
 ;
@@ -17785,7 +17785,7 @@ ChromeUtils
 1
 ;
 bool
-inspectorUtils
+InspectorUtils
 :
 1
 ;
