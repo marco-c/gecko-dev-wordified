@@ -1480,16 +1480,6 @@ aNode
 )
 override
 ;
-virtual
-bool
-IsContainer
-(
-nsIDOMNode
-*
-aNode
-)
-override
-;
 /
 *
 *
