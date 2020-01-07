@@ -9646,6 +9646,16 @@ e
 {
 if
 (
+!
+(
+e
+.
+originalTarget
+instanceof
+Element
+)
+|
+|
 e
 .
 originalTarget
