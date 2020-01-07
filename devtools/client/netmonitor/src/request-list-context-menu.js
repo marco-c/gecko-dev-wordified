@@ -328,6 +328,7 @@ method
 mimeType
 httpVersion
 requestHeaders
+requestPostData
 requestPostDataAvailable
 responseHeaders
 responseContentAvailable
@@ -554,7 +555,12 @@ visible
 selectedRequest
 &
 &
+(
 requestPostDataAvailable
+|
+|
+requestPostData
+)
 )
 click
 :

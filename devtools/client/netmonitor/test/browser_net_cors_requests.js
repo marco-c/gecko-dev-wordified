@@ -139,8 +139,7 @@ wait
 waitForNetworkEvents
 (
 monitor
-1
-1
+2
 )
 ;
 info
