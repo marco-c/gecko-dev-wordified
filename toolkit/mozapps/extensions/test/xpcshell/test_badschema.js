@@ -171,6 +171,9 @@ name
 Test
 1
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -263,6 +266,9 @@ name
 Test
 2
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -362,6 +368,9 @@ name
 Test
 3
 "
+bootstrap
+:
+true
 updateURL
 :
 "
@@ -478,6 +487,9 @@ name
 Test
 4
 "
+bootstrap
+:
+true
 updateURL
 :
 "
@@ -601,6 +613,9 @@ name
 Test
 5
 "
+bootstrap
+:
+true
 targetApplications
 :
 [

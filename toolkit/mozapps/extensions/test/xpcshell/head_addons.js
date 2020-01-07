@@ -811,11 +811,6 @@ test_bad_json
 js
 "
 "
-test_badschema
-.
-js
-"
-"
 test_blocklist_metadata_filters
 .
 js
