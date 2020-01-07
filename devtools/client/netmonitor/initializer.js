@@ -157,8 +157,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -858,7 +856,6 @@ API
 /
 onRequestAdded
 (
-event
 requestId
 )
 {

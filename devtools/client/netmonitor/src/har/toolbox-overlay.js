@@ -358,7 +358,6 @@ onDestroy
 :
 function
 (
-eventId
 toolbox
 )
 {
