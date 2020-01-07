@@ -542,15 +542,6 @@ const
 ;
 ServiceWorkerInfo
 *
-GetByID
-(
-uint64_t
-aID
-)
-const
-;
-ServiceWorkerInfo
-*
 GetByDescriptor
 (
 const
