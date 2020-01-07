@@ -143,6 +143,7 @@ MoveEmitterNone
 {
 public
 :
+explicit
 MoveEmitterNone
 (
 MacroAssemblerNone
