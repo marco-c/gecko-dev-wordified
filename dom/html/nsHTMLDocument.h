@@ -1603,7 +1603,7 @@ nsIURI
 aOrigHost
 )
 ;
-nsresult
+void
 WriteCommon
 (
 JSContext
@@ -1615,6 +1615,12 @@ nsAString
 aText
 bool
 aNewlineTerminate
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 ;
 /
