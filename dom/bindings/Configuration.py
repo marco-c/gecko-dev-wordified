@@ -3802,18 +3802,16 @@ LegacyCaller
 :
 None
             
-'
-Jsonifier
-'
-:
-None
-            
 }
+        
+self
+.
+hasDefaultToJSON
+=
+False
         
 #
 Stringifiers
-and
-jsonifiers
 need
 to
 be
@@ -3989,18 +3987,16 @@ isMethod
 and
 m
 .
-isJsonifier
+isDefaultToJSON
 (
 )
 :
                     
-addOperation
-(
-'
-Jsonifier
-'
-m
-)
+self
+.
+hasDefaultToJSON
+=
+True
         
 if
 self

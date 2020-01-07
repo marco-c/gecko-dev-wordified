@@ -7646,7 +7646,8 @@ interface
 headers
 needed
 for
-jsonifier
+default
+toJSON
 code
 .
         
@@ -7665,12 +7666,7 @@ if
 not
 desc
 .
-operations
-[
-'
-Jsonifier
-'
-]
+hasDefaultToJSON
 :
                 
 continue
@@ -7703,12 +7699,7 @@ name
 if
 parentDesc
 .
-operations
-[
-'
-Jsonifier
-'
-]
+hasDefaultToJSON
 :
                     
 jsonInterfaceParents
@@ -18023,111 +18014,6 @@ append
 toStringDesc
 )
             
-jsonifier
-=
-descriptor
-.
-operations
-[
-'
-Jsonifier
-'
-]
-            
-if
-(
-jsonifier
-and
-                
-unforgeable
-=
-=
-MemberIsUnforgeable
-(
-jsonifier
-descriptor
-)
-)
-:
-                
-toJSONDesc
-=
-{
-                    
-"
-name
-"
-:
-"
-toJSON
-"
-                    
-"
-nativeName
-"
-:
-jsonifier
-.
-identifier
-.
-name
-                    
-"
-length
-"
-:
-0
-                    
-"
-flags
-"
-:
-"
-JSPROP_ENUMERATE
-"
-                    
-"
-condition
-"
-:
-PropertyDefiner
-.
-getControllingCondition
-(
-jsonifier
-descriptor
-)
-                
-}
-                
-if
-isChromeOnly
-(
-jsonifier
-)
-:
-                    
-self
-.
-chrome
-.
-append
-(
-toJSONDesc
-)
-                
-else
-:
-                    
-self
-.
-regular
-.
-append
-(
-toJSONDesc
-)
-            
 if
 (
 unforgeable
@@ -21603,7 +21489,7 @@ define
 self
 )
 class
-CGJsonifyAttributesMethod
+CGCollectJSONAttributesMethod
 (
 CGAbstractMethod
 )
@@ -21615,7 +21501,7 @@ CGAbstractMethod
     
 Generate
 the
-JsonifyAttributes
+CollectJSONAttributes
 method
 for
 an
@@ -21631,7 +21517,7 @@ __init__
 (
 self
 descriptor
-jsonifierMethod
+toJSONMethod
 )
 :
         
@@ -21708,7 +21594,7 @@ __init__
 self
 descriptor
 '
-JsonifyAttributes
+CollectJSONAttributes
 '
                                   
 '
@@ -21722,9 +21608,9 @@ True
         
 self
 .
-jsonifierMethod
+toJSONMethod
 =
-jsonifierMethod
+toJSONMethod
     
 def
 definition_body
@@ -21746,7 +21632,7 @@ descriptor
 .
 interface
         
-jsonifierCondition
+toJSONCondition
 =
 PropertyDefiner
 .
@@ -21754,8 +21640,8 @@ getControllingCondition
 (
 self
 .
-jsonifierMethod
-                                                                     
+toJSONMethod
+                                                                  
 self
 .
 descriptor
@@ -21919,7 +21805,7 @@ the
 disablers
 for
 our
-jsonifier
+toJSON
 method
 can
 '
@@ -21958,7 +21844,7 @@ and
 condition
 !
 =
-jsonifierCondition
+toJSONCondition
 :
                     
 ret
@@ -67571,7 +67457,7 @@ methodName
 _promiseWrapper
 "
 class
-CGJsonifierMethod
+CGDefaultToJSONMethod
 (
 CGSpecializedMethod
 )
@@ -67589,7 +67475,7 @@ method
 assert
 method
 .
-isJsonifier
+isDefaultToJSON
 (
 )
         
@@ -67693,12 +67579,7 @@ name
 if
 descriptor
 .
-operations
-[
-'
-Jsonifier
-'
-]
+hasDefaultToJSON
 :
                 
 jsonDescriptors
@@ -67755,7 +67636,7 @@ parentclass
 }
 :
 :
-JsonifyAttributes
+CollectJSONAttributes
 (
 cx
 obj
@@ -95828,12 +95709,6 @@ self
 isCrossOriginSetter
 =
 False
-        
-self
-.
-isJsonifier
-=
-False
 def
 memberProperties
 (
@@ -95857,26 +95732,6 @@ isMethod
 :
         
 if
-m
-=
-=
-descriptor
-.
-operations
-[
-'
-Jsonifier
-'
-]
-:
-            
-props
-.
-isJsonifier
-=
-True
-        
-elif
 (
 not
 m
@@ -96234,7 +96089,7 @@ parentPrototypeName
 )
 )
         
-jsonifierMethod
+defaultToJSONMethod
 =
 None
         
@@ -96362,12 +96217,14 @@ name
 )
                 
 if
-props
+m
 .
-isJsonifier
+isDefaultToJSON
+(
+)
 :
                     
-jsonifierMethod
+defaultToJSONMethod
 =
 m
                 
@@ -96942,17 +96799,17 @@ m
 )
         
 if
-jsonifierMethod
+defaultToJSONMethod
 :
             
 cgThings
 .
 append
 (
-CGJsonifierMethod
+CGDefaultToJSONMethod
 (
 descriptor
-jsonifierMethod
+defaultToJSONMethod
 )
 )
             
@@ -96963,7 +96820,7 @@ append
 CGMemberJITInfo
 (
 descriptor
-jsonifierMethod
+defaultToJSONMethod
 )
 )
         
@@ -97147,7 +97004,7 @@ properties
 )
         
 if
-jsonifierMethod
+defaultToJSONMethod
 :
             
 #
@@ -97166,8 +97023,9 @@ can
 output
 our
 "
-jsonify
-attributes
+collect
+attribute
+values
 "
 method
 which
@@ -97179,10 +97037,10 @@ cgThings
 .
 append
 (
-CGJsonifyAttributesMethod
+CGCollectJSONAttributesMethod
 (
 descriptor
-jsonifierMethod
+defaultToJSONMethod
 )
 )
         
@@ -116121,24 +115979,6 @@ added
 this
 method
                     
-return
-            
-if
-name
-=
-=
-"
-Jsonifier
-"
-:
-                
-#
-We
-already
-added
-this
-method
-                
 return
             
 self
