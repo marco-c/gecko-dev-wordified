@@ -197,12 +197,6 @@ requestLongerTimeout
 100
 )
 ;
-SimpleTest
-.
-requestCompleteLog
-(
-)
-;
 /
 /
 Generate
@@ -219,6 +213,13 @@ for
 the
 long
 session
+.
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 info
 (
 "
