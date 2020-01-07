@@ -2363,7 +2363,6 @@ event
 ;
 }
 else
-{
 if
 (
 checker
@@ -2405,7 +2404,6 @@ handled
 .
 )
 ;
-}
 }
 }
 }
@@ -12759,6 +12757,20 @@ removeObserver
 will
 throw
 .
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+no
+-
+lonely
+-
+if
 if
 (
 -
