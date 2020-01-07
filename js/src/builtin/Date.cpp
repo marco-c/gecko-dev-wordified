@@ -182,7 +182,9 @@ Effect
 #
 include
 "
-jsdate
+builtin
+/
+Date
 .
 h
 "
@@ -286,15 +288,6 @@ include
 js
 /
 Conversions
-.
-h
-"
-#
-include
-"
-js
-/
-Date
 .
 h
 "
