@@ -19200,7 +19200,12 @@ mColumnGap
 [
 reset
 ]
-coord
+<
+length
+-
+percentage
+>
+|
 normal
 mozilla
 :
