@@ -17360,6 +17360,11 @@ DOMParser
 1
 ;
 bool
+Element
+:
+1
+;
+bool
 Event
 :
 1
