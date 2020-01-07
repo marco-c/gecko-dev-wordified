@@ -2444,6 +2444,15 @@ nsAString
 aMessage
 )
 ;
+bool
+IsEnabled
+(
+JSContext
+*
+aCx
+)
+const
+;
 /
 /
 All
@@ -2669,6 +2678,9 @@ mDumpToStdout
 ;
 nsString
 mDumpPrefix
+;
+bool
+mChromeInstance
 ;
 enum
 {
