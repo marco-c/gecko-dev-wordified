@@ -841,6 +841,7 @@ TEST_F
 AccessibleCaretManagerTester
 TestUpdatesInSelectionMode
 )
+MOZ_CAN_RUN_SCRIPT
 {
 EXPECT_CALL
 (
@@ -968,6 +969,7 @@ TEST_F
 AccessibleCaretManagerTester
 TestSingleTapOnNonEmptyInput
 )
+MOZ_CAN_RUN_SCRIPT
 {
 EXPECT_CALL
 (
@@ -1415,6 +1417,7 @@ TEST_F
 AccessibleCaretManagerTester
 TestSingleTapOnEmptyInput
 )
+MOZ_CAN_RUN_SCRIPT
 {
 EXPECT_CALL
 (
@@ -1860,6 +1863,7 @@ TEST_F
 AccessibleCaretManagerTester
 TestTypingAtEndOfInput
 )
+MOZ_CAN_RUN_SCRIPT
 {
 EXPECT_CALL
 (
@@ -2113,6 +2117,7 @@ TEST_F
 AccessibleCaretManagerTester
 TestScrollInSelectionMode
 )
+MOZ_CAN_RUN_SCRIPT
 {
 /
 /
@@ -2636,6 +2641,7 @@ TEST_F
 AccessibleCaretManagerTester
 TestScrollInSelectionModeWithAlwaysTiltPref
 )
+MOZ_CAN_RUN_SCRIPT
 {
 /
 /
@@ -3346,6 +3352,7 @@ TEST_F
 AccessibleCaretManagerTester
 TestScrollInCursorModeWhenLogicallyVisible
 )
+MOZ_CAN_RUN_SCRIPT
 {
 /
 /
@@ -3778,6 +3785,7 @@ TEST_F
 AccessibleCaretManagerTester
 TestScrollInCursorModeWhenHidden
 )
+MOZ_CAN_RUN_SCRIPT
 {
 /
 /
@@ -4156,6 +4164,7 @@ TEST_F
 AccessibleCaretManagerTester
 TestScrollInCursorModeOnEmptyContent
 )
+MOZ_CAN_RUN_SCRIPT
 {
 /
 /
@@ -4620,6 +4629,7 @@ TEST_F
 AccessibleCaretManagerTester
 TestScrollInCursorModeWithCaretShownWhenLongTappingOnEmptyContentPref
 )
+MOZ_CAN_RUN_SCRIPT
 {
 /
 /
