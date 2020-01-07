@@ -13442,6 +13442,8 @@ FloatRegister
 input
 Register
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -13455,6 +13457,8 @@ FloatRegister
 input
 Register
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -13466,8 +13470,10 @@ oolWasmTruncateCheckF64ToI32
 (
 FloatRegister
 input
-bool
-isUnsigned
+Register
+output
+TruncFlags
+flags
 wasm
 :
 :
@@ -13491,6 +13497,8 @@ FloatRegister
 input
 Register
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -13504,6 +13512,8 @@ FloatRegister
 input
 Register
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -13515,8 +13525,10 @@ oolWasmTruncateCheckF32ToI32
 (
 FloatRegister
 input
-bool
-isUnsigned
+Register
+output
+TruncFlags
+flags
 wasm
 :
 :
@@ -13563,6 +13575,8 @@ FloatRegister
 input
 Register64
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -13586,6 +13600,8 @@ FloatRegister
 input
 Register64
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -13607,8 +13623,10 @@ oolWasmTruncateCheckF64ToI64
 (
 FloatRegister
 input
-bool
-isUnsigned
+Register64
+output
+TruncFlags
+flags
 wasm
 :
 :
@@ -13632,6 +13650,8 @@ FloatRegister
 input
 Register64
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -13655,6 +13675,8 @@ FloatRegister
 input
 Register64
 output
+bool
+isSaturating
 Label
 *
 oolEntry
@@ -13676,8 +13698,10 @@ oolWasmTruncateCheckF32ToI64
 (
 FloatRegister
 input
-bool
-isUnsigned
+Register64
+output
+TruncFlags
+flags
 wasm
 :
 :

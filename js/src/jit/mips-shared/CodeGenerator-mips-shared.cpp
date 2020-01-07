@@ -10873,6 +10873,12 @@ wasmTruncateDoubleToInt32
 (
 input
 output
+mir
+-
+>
+isSaturating
+(
+)
 oolEntry
 )
 ;
@@ -10893,6 +10899,12 @@ wasmTruncateFloat32ToInt32
 (
 input
 output
+mir
+-
+>
+isSaturating
+(
+)
 oolEntry
 )
 ;
