@@ -589,8 +589,8 @@ sep
 )
             
 if
-not
 test_dir
+not
 in
 by_dir
 :
@@ -1965,6 +1965,10 @@ badness
 self_
 )
 :
+#
+noqa
+:
+N805
                 
 "
 "
@@ -4187,6 +4191,11 @@ current_metadata
 None
     
 abstractmethod
+    
+#
+noqa
+:
+N805
     
 #
 classmethod

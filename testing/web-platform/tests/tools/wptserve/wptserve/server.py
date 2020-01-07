@@ -716,7 +716,8 @@ __init__
 (
 self
 server_address
-RequestHandlerClass
+request_handler_cls
+                 
 router
 rewriter
 bind_hostname
@@ -770,7 +771,7 @@ port
         
 :
 param
-RequestHandlerClass
+request_handler_cls
 :
 BaseHTTPRequestHandler
 -
@@ -1078,7 +1079,7 @@ __init__
 (
 self
 hostname_port
-RequestHandlerClass
+request_handler_cls
 *
 *
 kwargs

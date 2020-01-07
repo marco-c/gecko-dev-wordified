@@ -1914,6 +1914,13 @@ handler
 request
 response
 )
+                
+wrap_pipeline
+(
+path
+request
+response
+)
             
 else
 :
@@ -2095,6 +2102,14 @@ response
 content
 =
 content
+            
+wrap_pipeline
+(
+'
+'
+request
+response
+)
 #
 The
 generic
@@ -2380,6 +2395,13 @@ f
 read
 (
 )
+)
+            
+wrap_pipeline
+(
+path
+request
+response
 )
             
 response

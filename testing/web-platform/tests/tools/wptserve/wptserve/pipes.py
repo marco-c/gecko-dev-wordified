@@ -18,6 +18,10 @@ from
 cStringIO
 import
 StringIO
+from
+six
+import
+text_type
 def
 resolve_content
 (
@@ -1919,7 +1923,7 @@ object
 def
 ident
 (
-scanner
+self
 token
 )
 :
@@ -1935,7 +1939,7 @@ token
 def
 index
 (
-scanner
+self
 token
 )
 :
@@ -1966,12 +1970,13 @@ ValueError
             
 token
 =
-unicode
-(
 token
-"
+.
+decode
+(
+'
 utf8
-"
+'
 )
         
 return
@@ -1985,7 +1990,7 @@ token
 def
 var
 (
-scanner
+self
 token
 )
 :
@@ -3076,7 +3081,7 @@ response
 return
 escape_func
 (
-unicode
+text_type
 (
 value
 )
