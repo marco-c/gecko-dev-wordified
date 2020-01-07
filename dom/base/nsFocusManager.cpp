@@ -10058,9 +10058,13 @@ case
 we
 come
 from
-an
-autofocus
-event
+a
+script
+calling
+focus
+(
+)
+early
 .
 mEventHandlingNeedsFlush
 =
