@@ -281,7 +281,7 @@ label
 ;
 this
 .
-_shippingRequestedEls
+_shippingRelatedEls
 =
 contents
 .
@@ -289,7 +289,9 @@ querySelectorAll
 (
 "
 .
-shippingRequested
+shipping
+-
+related
 "
 )
 ;
@@ -1166,7 +1168,7 @@ element
 of
 this
 .
-_shippingRequestedEls
+_shippingRelatedEls
 )
 {
 element
