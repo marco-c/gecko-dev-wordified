@@ -4996,12 +4996,6 @@ null
 do
 {
 commandDispatcher
-.
-suppressFocusScroll
-=
-true
-;
-commandDispatcher
 [
 aDirection
 ]
