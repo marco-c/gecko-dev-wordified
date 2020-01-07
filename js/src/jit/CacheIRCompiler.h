@@ -467,6 +467,11 @@ Breakpoint
 \
 _
 (
+MegamorphicLoadSlotResult
+)
+\
+_
+(
 MegamorphicLoadSlotByValueResult
 )
 \
@@ -3638,7 +3643,7 @@ DEFINE_SHARED_OP
 undef
 DEFINE_SHARED_OP
 void
-EmitLoadStubField
+emitLoadStubField
 (
 StubFieldOffset
 val
@@ -3647,7 +3652,7 @@ dest
 )
 ;
 void
-EmitLoadStubFieldConstant
+emitLoadStubFieldConstant
 (
 StubFieldOffset
 val
