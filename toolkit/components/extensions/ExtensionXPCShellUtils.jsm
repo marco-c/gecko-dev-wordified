@@ -1317,7 +1317,7 @@ this
 .
 testScope
 .
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -1675,7 +1675,7 @@ this
 .
 testScope
 .
-do_print
+info
 (
 Extension
 attached
@@ -1886,7 +1886,7 @@ this
 .
 testScope
 .
-do_print
+info
 (
 msg
 )
@@ -3916,7 +3916,7 @@ dirProvider
 ;
 scope
 .
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )

@@ -2310,7 +2310,7 @@ not
 }
 testScope
 .
-do_register_cleanup
+registerCleanupFunction
 (
 (
 )
@@ -2424,7 +2424,7 @@ ex
 {
 testScope
 .
-do_print
+info
 (
 Got
 exception

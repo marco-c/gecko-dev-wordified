@@ -1119,7 +1119,7 @@ null
 const
 LOG_FUNCTION
 =
-do_print
+info
 ;
 const
 gHTTPHandlerPath

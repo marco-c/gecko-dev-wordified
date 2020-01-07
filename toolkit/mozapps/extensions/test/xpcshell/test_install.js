@@ -2790,7 +2790,9 @@ AddonManager
 STATE_DOWNLOADED
 )
 ;
-do_check_neq
+Assert
+.
+ok
 (
 install
 .
