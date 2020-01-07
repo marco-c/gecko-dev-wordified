@@ -1145,7 +1145,7 @@ aCx
 )
 )
 ;
-qsObjectHelper
+xpcObjectHelper
 helper
 (
 ToSupports
@@ -1153,7 +1153,6 @@ ToSupports
 &
 aArgument
 )
-nullptr
 )
 ;
 JS
