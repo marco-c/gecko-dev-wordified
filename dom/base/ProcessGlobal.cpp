@@ -375,7 +375,7 @@ Get
 {
 nsCOMPtr
 <
-nsIMessageSender
+nsIGlobalObject
 >
 service
 =

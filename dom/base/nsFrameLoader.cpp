@@ -17741,7 +17741,7 @@ NS_ERROR_UNEXPECTED
 }
 already_AddRefed
 <
-nsIMessageSender
+MessageSender
 >
 nsFrameLoader
 :
@@ -20055,7 +20055,7 @@ return
 NS_OK
 ;
 }
-nsIMessageSender
+ChromeMessageSender
 *
 nsFrameLoader
 :
