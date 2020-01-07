@@ -26320,7 +26320,10 @@ ViewID
 >
 mScrollTarget
 ;
-nsRect
+mozilla
+:
+:
+LayoutDeviceRect
 mArea
 ;
 uint32_t
