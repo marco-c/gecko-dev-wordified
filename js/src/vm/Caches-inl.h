@@ -475,6 +475,12 @@ entry
 -
 >
 kind
+/
+*
+nDynamicSlots
+=
+*
+/
 0
 heap
 group

@@ -9000,6 +9000,16 @@ canHaveNonEmptyElements
 #
 endif
 void
+setEmptyElements
+(
+)
+{
+elements_
+=
+emptyObjectElements
+;
+}
+void
 setFixedElements
 (
 uint32_t

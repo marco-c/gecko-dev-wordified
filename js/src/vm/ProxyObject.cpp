@@ -1424,7 +1424,7 @@ cx
 allocKind
 /
 *
-numDynamicSlots
+nDynamicSlots
 =
 *
 /
@@ -1462,9 +1462,7 @@ obj
 pobj
 -
 >
-group_
-.
-init
+initGroup
 (
 group
 )
