@@ -30562,9 +30562,6 @@ Data
 bool
 canBeNegativeZero_
 ;
-MacroAssembler
-:
-:
 IntConversionInputKind
 conversion_
 ;
@@ -30574,15 +30571,9 @@ MToNumberInt32
 MDefinition
 *
 def
-MacroAssembler
-:
-:
 IntConversionInputKind
 conversion
 =
-MacroAssembler
-:
-:
 IntConversion_Any
 )
 :
@@ -30719,9 +30710,6 @@ canBeNegativeZero_
 negativeZero
 ;
 }
-MacroAssembler
-:
-:
 IntConversionInputKind
 conversion
 (
