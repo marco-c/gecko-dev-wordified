@@ -466,7 +466,7 @@ prototype
 {
 QueryInterface
 :
-ChromeUtils
+XPCOMUtils
 .
 generateQI
 (
@@ -743,7 +743,7 @@ _isOnIceCandidateCalledResolve
 }
 QueryInterface
 :
-ChromeUtils
+XPCOMUtils
 .
 generateQI
 (
@@ -881,7 +881,7 @@ _isRemoveDeviceCalledResolve
 }
 QueryInterface
 :
-ChromeUtils
+XPCOMUtils
 .
 generateQI
 (
@@ -1555,7 +1555,7 @@ id
 }
 QueryInterface
 :
-ChromeUtils
+XPCOMUtils
 .
 generateQI
 (
