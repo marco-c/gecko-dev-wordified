@@ -198,7 +198,7 @@ xml
 /
 multilocale
 .
-json
+txt
 '
 ]
 )
