@@ -1920,6 +1920,8 @@ res2
 "
 Compare
 messages
+and
+terms
 of
 two
 FTL
@@ -1936,6 +1938,9 @@ to
 compare
 all
 messages
+/
+terms
+        
 in
 two
 FTL
@@ -2002,6 +2007,7 @@ in
 res1
 .
 body
+             
 if
 isinstance
 (
@@ -2009,6 +2015,15 @@ entry
 FTL
 .
 Message
+)
+                
+or
+isinstance
+(
+entry
+FTL
+.
+Term
 )
 )
             
@@ -2030,6 +2045,7 @@ in
 res2
 .
 body
+             
 if
 isinstance
 (
@@ -2037,6 +2053,15 @@ entry
 FTL
 .
 Message
+)
+                
+or
+isinstance
+(
+entry
+FTL
+.
+Term
 )
 )
             
