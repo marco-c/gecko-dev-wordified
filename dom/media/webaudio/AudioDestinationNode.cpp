@@ -1834,6 +1834,7 @@ MediaStreamGraph
 :
 AUDIO_THREAD_DRIVER
 window
+aSampleRate
 )
 ;
 AudioNodeEngine

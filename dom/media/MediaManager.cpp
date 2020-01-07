@@ -6935,6 +6935,10 @@ GetInstance
 (
 graphDriverType
 window
+MediaStreamGraph
+:
+:
+REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 nsMainThreadPtrHandle
@@ -27975,6 +27979,10 @@ MediaStreamGraph
 :
 AUDIO_THREAD_DRIVER
 window
+MediaStreamGraph
+:
+:
+REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 graph

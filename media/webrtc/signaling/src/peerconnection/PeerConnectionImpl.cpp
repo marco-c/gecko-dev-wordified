@@ -13229,6 +13229,10 @@ SYSTEM_THREAD_DRIVER
 GetWindow
 (
 )
+MediaStreamGraph
+:
+:
+REQUEST_DEFAULT_SAMPLE_RATE
 )
 ;
 RefPtr
