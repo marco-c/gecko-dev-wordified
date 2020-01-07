@@ -1069,6 +1069,7 @@ break
 .
 *
 /
+MOZ_MUST_USE
 nsresult
 RemoveRedundantTrailingBR
 (
