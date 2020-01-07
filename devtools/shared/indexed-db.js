@@ -240,11 +240,6 @@ let
 options
 =
 {
-storage
-:
-"
-persistent
-"
 }
 ;
 if
@@ -306,13 +301,6 @@ deleteForPrincipal
 (
 principal
 name
-{
-storage
-:
-"
-persistent
-"
-}
 )
 ;
 }
