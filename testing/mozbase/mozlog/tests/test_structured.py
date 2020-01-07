@@ -4708,6 +4708,15 @@ logger
 suite_end
 (
 )
+            
+self
+.
+logger
+.
+remove_handler
+(
+_handler
+)
     
 def
 test_arguments

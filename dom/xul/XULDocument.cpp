@@ -23607,7 +23607,7 @@ rv
 aOverlayElement
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 0
 false
@@ -23620,7 +23620,7 @@ continue
 aOverlayElement
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 0
 false
@@ -25872,7 +25872,7 @@ aChild
 aParent
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 nodeOffset
 true

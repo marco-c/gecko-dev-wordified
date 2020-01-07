@@ -72,7 +72,7 @@ PACKAGE_VERSION
 '
 3
 .
-5
+6
 '
 setup
 (

@@ -2257,6 +2257,23 @@ True
 if
 options
 .
+verify
+:
+            
+prefs
+[
+'
+reftest
+.
+verify
+'
+]
+=
+True
+        
+if
+options
+.
 cleanupCrashes
 :
             
