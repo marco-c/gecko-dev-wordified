@@ -128,7 +128,12 @@ WorkerPrivate
 .
 h
 "
-BEGIN_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
 namespace
 {
 void
@@ -238,7 +243,7 @@ HoldWorker
 WorkerPrivate
 *
 aWorkerPrivate
-Status
+WorkerStatus
 aFailStatus
 )
 {
@@ -362,4 +367,13 @@ nullptr
 ;
 }
 }
-END_WORKERS_NAMESPACE
+}
+/
+/
+dom
+namespace
+}
+/
+/
+mozilla
+namespace

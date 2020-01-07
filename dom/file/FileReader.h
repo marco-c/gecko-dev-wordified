@@ -241,9 +241,6 @@ nsITimerCallback
 public
 nsINamed
 public
-workers
-:
-:
 WorkerHolder
 {
 friend
@@ -521,10 +518,7 @@ WorkerHolder
 bool
 Notify
 (
-workers
-:
-:
-Status
+WorkerStatus
 )
 override
 ;

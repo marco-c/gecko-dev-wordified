@@ -175,14 +175,14 @@ dom
 class
 Promise
 ;
+class
+WorkerHolder
+;
 namespace
 workers
 {
 class
 WorkerPrivate
-;
-class
-WorkerHolder
 ;
 }
 template
@@ -512,9 +512,6 @@ cycle
 .
 UniquePtr
 <
-workers
-:
-:
 WorkerHolder
 >
 mWorkerHolder

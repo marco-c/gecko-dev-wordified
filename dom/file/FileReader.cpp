@@ -3840,7 +3840,7 @@ FileReader
 :
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 {

@@ -203,9 +203,6 @@ FetchBodyWorkerHolder
 final
 :
 public
-workers
-:
-:
 WorkerHolder
 {
 RefPtr
@@ -232,9 +229,6 @@ Derived
 *
 aConsumer
 )
-:
-workers
-:
 :
 WorkerHolder
 (
@@ -267,10 +261,7 @@ default
 bool
 Notify
 (
-workers
-:
-:
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -279,9 +270,6 @@ MOZ_ASSERT
 (
 aStatus
 >
-workers
-:
-:
 Running
 )
 ;

@@ -939,7 +939,7 @@ aResolver
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -3596,7 +3596,7 @@ WorkerNotifier
 :
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 {

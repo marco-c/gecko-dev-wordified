@@ -220,9 +220,6 @@ WorkerHolderToken
 final
 :
 public
-workers
-:
-:
 WorkerHolder
 {
 public
@@ -310,10 +307,7 @@ workers
 WorkerPrivate
 *
 aWorkerPrivate
-workers
-:
-:
-Status
+WorkerStatus
 aShutdownStatus
 Behavior
 aBehavior
@@ -428,10 +422,7 @@ private
 :
 WorkerHolderToken
 (
-workers
-:
-:
-Status
+WorkerStatus
 aShutdownStatus
 Behavior
 aBehavior
@@ -450,10 +441,7 @@ virtual
 bool
 Notify
 (
-workers
-:
-:
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -466,10 +454,7 @@ Listener
 mListenerList
 ;
 const
-workers
-:
-:
-Status
+WorkerStatus
 mShutdownStatus
 ;
 bool

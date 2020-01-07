@@ -184,17 +184,9 @@ PostMessageRunnable
 class
 SharedMessagePortMessage
 ;
-namespace
-workers
-{
 class
 WorkerHolder
 ;
-}
-/
-/
-namespace
-workers
 class
 MessagePort
 final
@@ -911,9 +903,6 @@ mIsKeptAlive
 }
 nsAutoPtr
 <
-workers
-:
-:
 WorkerHolder
 >
 mWorkerHolder

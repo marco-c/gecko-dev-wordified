@@ -169,10 +169,6 @@ mozilla
 /
 dom
 /
-workers
-/
-bindings
-/
 WorkerHolder
 .
 h
@@ -1552,9 +1548,6 @@ mCleanUpLock
 ;
 UniquePtr
 <
-workers
-:
-:
 WorkerHolder
 >
 mWorkerHolder

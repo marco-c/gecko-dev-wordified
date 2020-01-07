@@ -3887,7 +3887,7 @@ aProxy
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override

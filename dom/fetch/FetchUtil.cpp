@@ -1571,9 +1571,6 @@ self
 HoldWorker
 (
 aWorker
-workers
-:
-:
 Closing
 )
 )
@@ -1663,10 +1660,7 @@ WorkerHolder
 bool
 Notify
 (
-workers
-:
-:
-Status
+WorkerStatus
 aStatus
 )
 override

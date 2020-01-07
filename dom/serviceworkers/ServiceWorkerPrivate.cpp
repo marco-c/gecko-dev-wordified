@@ -1598,7 +1598,7 @@ Rejected
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -3479,7 +3479,7 @@ true
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override
@@ -5380,7 +5380,7 @@ methods
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override

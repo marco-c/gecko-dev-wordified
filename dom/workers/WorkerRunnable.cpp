@@ -3100,7 +3100,7 @@ WorkerMainThreadRunnable
 :
 Dispatch
 (
-Status
+WorkerStatus
 aFailStatus
 mozilla
 :
@@ -3954,7 +3954,7 @@ SimpleWorkerHolder
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override

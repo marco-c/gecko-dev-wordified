@@ -11919,7 +11919,7 @@ NotificationWorkerHolder
 :
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 {

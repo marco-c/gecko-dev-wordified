@@ -728,7 +728,7 @@ boolean
 uint32_t
 mParentWindowPausedDepth
 ;
-Status
+WorkerStatus
 mParentStatus
 ;
 bool
@@ -977,7 +977,7 @@ this
 bool
 NotifyPrivate
 (
-Status
+WorkerStatus
 aStatus
 )
 ;
@@ -1174,7 +1174,7 @@ thread
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 {
@@ -1599,7 +1599,7 @@ mParentStatus
 Terminating
 ;
 }
-Status
+WorkerStatus
 ParentStatus
 (
 )
@@ -3102,6 +3102,12 @@ WorkerPrivate
 {
 friend
 class
+mozilla
+:
+:
+dom
+:
+:
 WorkerHolder
 ;
 friend
@@ -3427,7 +3433,7 @@ mErrorHandlerRecursionCount
 uint32_t
 mNextTimeoutId
 ;
-Status
+WorkerStatus
 mStatus
 ;
 UniquePtr
@@ -4057,7 +4063,7 @@ NotifyInternal
 JSContext
 *
 aCx
-Status
+WorkerStatus
 aStatus
 )
 ;
@@ -4878,7 +4884,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-Status
+WorkerStatus
 status
 ;
 {
@@ -5080,7 +5086,7 @@ nsIEventTarget
 >
 CreateNewSyncLoop
 (
-Status
+WorkerStatus
 aFailStatus
 )
 ;
@@ -5124,7 +5130,7 @@ AddHolder
 WorkerHolder
 *
 aHolder
-Status
+WorkerStatus
 aFailStatus
 )
 ;
@@ -5142,7 +5148,7 @@ NotifyHolders
 JSContext
 *
 aCx
-Status
+WorkerStatus
 aStatus
 )
 ;
@@ -5369,7 +5375,7 @@ AutoSyncLoopHolder
 WorkerPrivate
 *
 aWorkerPrivate
-Status
+WorkerStatus
 aFailStatus
 )
 :

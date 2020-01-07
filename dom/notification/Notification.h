@@ -156,10 +156,6 @@ mozilla
 /
 dom
 /
-workers
-/
-bindings
-/
 WorkerHolder
 .
 h
@@ -259,9 +255,6 @@ NotificationWorkerHolder
 final
 :
 public
-workers
-:
-:
 WorkerHolder
 {
 /
@@ -304,10 +297,7 @@ aNotification
 bool
 Notify
 (
-workers
-:
-:
-Status
+WorkerStatus
 aStatus
 )
 override

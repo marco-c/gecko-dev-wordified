@@ -169,9 +169,6 @@ CacheWorkerHolder
 final
 :
 public
-workers
-:
-:
 WorkerHolder
 {
 public
@@ -237,10 +234,7 @@ virtual
 bool
 Notify
 (
-workers
-:
-:
-Status
+WorkerStatus
 aStatus
 )
 override

@@ -133,12 +133,12 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerHolder
 ;
+namespace
+workers
+{
 class
 WorkerPrivate
 ;
@@ -289,9 +289,6 @@ only
 .
 UniquePtr
 <
-workers
-:
-:
 WorkerHolder
 >
 mWorkerHolder

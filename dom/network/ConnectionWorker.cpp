@@ -257,7 +257,7 @@ virtual
 bool
 Notify
 (
-Status
+WorkerStatus
 aStatus
 )
 override
