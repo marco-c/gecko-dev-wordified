@@ -4535,12 +4535,6 @@ js
 RegExpCompartment
 regExps
 ;
-js
-:
-:
-ArraySpeciesLookup
-arraySpeciesLookup
-;
 using
 IteratorCache
 =
@@ -7311,6 +7305,12 @@ js
 :
 NewProxyCache
 newProxyCache
+;
+js
+:
+:
+ArraySpeciesLookup
+arraySpeciesLookup
 ;
 js
 :

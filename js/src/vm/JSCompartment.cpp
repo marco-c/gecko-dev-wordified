@@ -417,9 +417,6 @@ nullptr
 regExps
 (
 )
-arraySpeciesLookup
-(
-)
 globalWriteBarriered
 (
 0
