@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-vm_StringBuffer_h
+util_StringBuffer_h
 #
 define
-vm_StringBuffer_h
+util_StringBuffer_h
 #
 include
 "
@@ -2332,6 +2332,6 @@ js
 endif
 /
 *
-vm_StringBuffer_h
+util_StringBuffer_h
 *
 /

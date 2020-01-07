@@ -214,7 +214,7 @@ include
 "
 vm
 /
-String
+StringType
 .
 h
 "

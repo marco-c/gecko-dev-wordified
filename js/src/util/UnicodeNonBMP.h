@@ -134,10 +134,10 @@ version
 /
 #
 ifndef
-vm_UnicodeNonBMP_h
+util_UnicodeNonBMP_h
 #
 define
-vm_UnicodeNonBMP_h
+util_UnicodeNonBMP_h
 /
 /
 |
@@ -842,6 +842,6 @@ macro
 endif
 /
 *
-vm_UnicodeNonBMP_h
+util_UnicodeNonBMP_h
 *
 /
