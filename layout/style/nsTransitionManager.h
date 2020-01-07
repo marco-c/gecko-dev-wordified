@@ -2212,7 +2212,7 @@ aMessage
 nsCSSPropertyID
 aProperty
 StickyTimeDuration
-aDuration
+aElapsedTime
 const
 TimeStamp
 &
@@ -2275,7 +2275,7 @@ mEvent
 .
 mElapsedTime
 =
-aDuration
+aElapsedTime
 .
 ToSeconds
 (
