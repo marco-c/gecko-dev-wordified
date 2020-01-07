@@ -63,7 +63,7 @@ mozilla
 .
 gecko
 .
-toolbar
+customtabs
 ;
 import
 android
