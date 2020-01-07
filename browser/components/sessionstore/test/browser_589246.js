@@ -61,9 +61,9 @@ MPL
 Mirrors
 WINDOW_ATTRIBUTES
 IN
-nsSessionStore
+SessionStore
 .
-js
+jsm
 const
 WINDOW_ATTRIBUTES
 =
@@ -367,7 +367,9 @@ out
 in
 _prepDataForDeferredRestore
 in
-nsSessionStore
+SessionStore
+.
+jsm
 .
 /
 /
