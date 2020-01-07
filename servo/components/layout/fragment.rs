@@ -633,7 +633,6 @@ values
 {
 self
 Either
-Auto
 }
 ;
 use
@@ -19577,6 +19576,7 @@ html
 z
 -
 index
+!
 self
 .
 style
@@ -19588,14 +19588,9 @@ get_position
 )
 .
 z_index
-!
-=
-Either
-:
-:
-Second
+.
+is_auto
 (
-Auto
 )
 }
 /

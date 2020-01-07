@@ -2219,10 +2219,6 @@ Integer
 "
                 
 "
-IntegerOrAuto
-"
-                
-"
 JustifyContent
 "
                 
@@ -2300,6 +2296,10 @@ XSpan
                 
 "
 XTextZoom
+"
+                
+"
+ZIndex
 "
             
 }
