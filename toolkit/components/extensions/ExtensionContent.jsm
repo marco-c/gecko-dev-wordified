@@ -3005,7 +3005,8 @@ script
 API
 enabled
 (
-bug
+See
+Bug
 1214658
 )
 Schemas
@@ -3143,7 +3144,8 @@ the
 content
 window
 (
-bug
+See
+Bug
 1214658
 )
 .
