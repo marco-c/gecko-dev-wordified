@@ -9298,8 +9298,7 @@ OfflineResourceList
 "
 insecureContext
 :
-!
-isEarlyBetaOrEarlier
+false
 }
 /
 /
