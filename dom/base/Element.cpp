@@ -22304,6 +22304,9 @@ DOMMatrix
 (
 this
 transform
+IsStyledByServo
+(
+)
 )
 ;
 RefPtr
@@ -22386,6 +22389,9 @@ DOMMatrix
 (
 this
 transform
+IsStyledByServo
+(
+)
 )
 ;
 RefPtr
@@ -22463,6 +22469,9 @@ DOMMatrix
 (
 this
 transform
+IsStyledByServo
+(
+)
 )
 ;
 RefPtr
