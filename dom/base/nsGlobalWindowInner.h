@@ -261,13 +261,6 @@ h
 #
 include
 "
-nsIDOMModalContentWindow
-.
-h
-"
-#
-include
-"
 mozilla
 /
 EventListenerManager

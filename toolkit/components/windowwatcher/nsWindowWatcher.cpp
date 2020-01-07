@@ -302,13 +302,6 @@ h
 #
 include
 "
-nsIDOMModalContentWindow
-.
-h
-"
-#
-include
-"
 nsIPrompt
 .
 h
