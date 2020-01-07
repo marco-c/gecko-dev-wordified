@@ -2782,6 +2782,8 @@ iteritems
 )
 :
             
+self
+.
 resp_headers
 .
 append

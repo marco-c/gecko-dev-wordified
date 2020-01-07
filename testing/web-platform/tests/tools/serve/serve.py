@@ -1900,8 +1900,22 @@ path
 format_args
 content_type
 route
+headers
+=
+None
 )
 :
+        
+if
+headers
+is
+None
+:
+            
+headers
+=
+{
+}
         
 handler
 =
@@ -1912,6 +1926,9 @@ StaticHandler
 path
 format_args
 content_type
+*
+*
+headers
 )
         
 self
