@@ -1057,7 +1057,7 @@ path
 )
 ;
 await
-promiseRestartManager
+promiseShutdownManager
 (
 )
 ;
@@ -1138,7 +1138,7 @@ addon1
 )
 ;
 await
-promiseRestartManager
+promiseStartupManager
 (
 )
 ;
