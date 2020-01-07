@@ -5116,6 +5116,12 @@ AbstractThread
 >
 mAbstractMainThread
 ;
+RefPtr
+<
+SharedThreadPool
+>
+mThreadPool
+;
 /
 /
 used
