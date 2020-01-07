@@ -10719,9 +10719,10 @@ guid
 let
 currentAnnos
 =
+await
 PlacesUtils
 .
-getAnnotationsForItem
+promiseAnnotationsForItem
 (
 itemId
 )

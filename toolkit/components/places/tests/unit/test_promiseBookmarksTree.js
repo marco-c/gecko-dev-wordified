@@ -376,9 +376,10 @@ parentGuid
 let
 expectedAnnos
 =
+await
 PlacesUtils
 .
-getAnnotationsForItem
+promiseAnnotationsForItem
 (
 aItem
 .
