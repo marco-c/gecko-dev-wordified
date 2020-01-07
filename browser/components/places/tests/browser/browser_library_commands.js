@@ -653,7 +653,11 @@ ok
 !
 (
 await
-promiseIsURIVisited
+PlacesUtils
+.
+history
+.
+hasVisits
 (
 TEST_URI
 )

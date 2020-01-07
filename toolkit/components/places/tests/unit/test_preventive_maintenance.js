@@ -14147,7 +14147,11 @@ let
 isVisited
 =
 await
-promiseIsURIVisited
+PlacesUtils
+.
+history
+.
+hasVisits
 (
 this
 .
@@ -14164,7 +14168,11 @@ isVisited
 isVisited
 =
 await
-promiseIsURIVisited
+PlacesUtils
+.
+history
+.
+hasVisits
 (
 this
 .

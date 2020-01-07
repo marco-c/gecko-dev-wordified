@@ -510,7 +510,11 @@ Assert
 ok
 (
 await
-promiseIsURIVisited
+PlacesUtils
+.
+history
+.
+hasVisits
 (
 uri
 (
@@ -533,7 +537,11 @@ Assert
 ok
 (
 await
-promiseIsURIVisited
+PlacesUtils
+.
+history
+.
+hasVisits
 (
 uri
 (
