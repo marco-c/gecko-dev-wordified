@@ -1744,9 +1744,8 @@ const
 HIRect
 &
 aRect
-nsIFrame
-*
-aFrame
+bool
+aIsRTL
 )
 ;
 void
