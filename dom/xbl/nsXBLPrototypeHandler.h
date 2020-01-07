@@ -210,9 +210,6 @@ class
 nsIContent
 ;
 class
-nsIDOMUIEvent
-;
-class
 nsIObjectInputStream
 ;
 class
@@ -241,6 +238,9 @@ KeyboardEvent
 ;
 class
 MouseEvent
+;
+class
+UIEvent
 ;
 }
 /
@@ -1106,7 +1106,13 @@ type
 bool
 ModifiersMatchMask
 (
-nsIDOMUIEvent
+mozilla
+:
+:
+dom
+:
+:
+UIEvent
 *
 aEvent
 const

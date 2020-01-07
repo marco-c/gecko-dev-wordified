@@ -4134,11 +4134,6 @@ nsLayoutUtils
 GetDOMEventCoordinatesRelativeTo
 (
 mouseEvent
--
->
-AsEvent
-(
-)
 mParentBox
 )
 ;

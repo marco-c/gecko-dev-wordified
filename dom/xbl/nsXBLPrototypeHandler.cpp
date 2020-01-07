@@ -6085,7 +6085,7 @@ nsXBLPrototypeHandler
 :
 ModifiersMatchMask
 (
-nsIDOMUIEvent
+UIEvent
 *
 aEvent
 const
@@ -6099,11 +6099,6 @@ WidgetInputEvent
 inputEvent
 =
 aEvent
--
->
-AsEvent
-(
-)
 -
 >
 WidgetEventPtr
