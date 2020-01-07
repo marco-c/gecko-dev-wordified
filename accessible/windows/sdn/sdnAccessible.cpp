@@ -1357,15 +1357,11 @@ E_FAIL
 uint32_t
 length
 =
-0
-;
 cssDecl
 -
 >
-GetLength
+Length
 (
-&
-length
 )
 ;
 uint32_t
