@@ -713,9 +713,6 @@ key
 :
 None
 }
-image_data
-:
-None
 stretch_size
 :
 LayoutSize

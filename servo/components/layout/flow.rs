@@ -390,7 +390,6 @@ euclid
 :
 :
 {
-Transform3D
 Point2D
 Vector2D
 Rect
@@ -737,6 +736,12 @@ table_wrapper
 :
 :
 TableWrapperFlow
+;
+use
+webrender_api
+:
+:
+LayoutTransform
 ;
 /
 /
@@ -3122,7 +3127,7 @@ position
 .
 unwrap_or
 (
-Transform3D
+LayoutTransform
 :
 :
 identity
@@ -3131,6 +3136,10 @@ identity
 )
 .
 to_2d
+(
+)
+.
+to_untyped
 (
 )
 ;

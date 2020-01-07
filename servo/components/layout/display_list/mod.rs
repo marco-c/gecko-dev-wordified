@@ -104,6 +104,16 @@ self
 builder
 :
 :
+IndexableText
+;
+pub
+use
+self
+:
+:
+builder
+:
+:
 InlineFlowDisplayListBuilding
 ;
 pub

@@ -176,6 +176,12 @@ PostorderFlowTraversal
 PreorderFlowTraversal
 }
 ;
+use
+webrender_api
+:
+:
+LayoutPoint
+;
 pub
 fn
 resolve_generated_content
@@ -690,7 +696,7 @@ matrix
 transform_point2d
 (
 &
-Point2D
+LayoutPoint
 :
 :
 zero
