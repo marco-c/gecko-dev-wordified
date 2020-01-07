@@ -411,6 +411,7 @@ AnimationIterationCount
 AnimationName
 Display
 OverscrollBehavior
+Contain
 }
 ;
 pub
