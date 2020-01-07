@@ -367,7 +367,7 @@ aNode
 bool
 IsVisibleNode
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
