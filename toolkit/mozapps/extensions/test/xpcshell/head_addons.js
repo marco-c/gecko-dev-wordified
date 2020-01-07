@@ -840,11 +840,6 @@ test_signed_verify
 .
 js
 "
-"
-test_syncGUID
-.
-js
-"
 ]
 )
 ;
