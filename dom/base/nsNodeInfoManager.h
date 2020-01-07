@@ -210,9 +210,6 @@ class
 nsIDocument
 ;
 class
-nsIDOMDocumentType
-;
-class
 nsIPrincipal
 ;
 class

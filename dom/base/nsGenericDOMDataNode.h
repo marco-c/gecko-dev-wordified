@@ -125,7 +125,7 @@ Core
 '
 s
 nsIDOMComment
-nsIDOMDocumentType
+DocumentType
 nsIDOMText
 *
 CDATASection

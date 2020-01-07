@@ -123,7 +123,7 @@ DOM
 Core
 '
 s
-nsIDOMDocumentType
+DocumentType
 node
 .
 *
@@ -377,7 +377,7 @@ nsAString
 aInternalSubset
 )
 :
-DocumentTypeForward
+nsGenericDOMDataNode
 (
 aNodeInfo
 )
@@ -428,7 +428,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 DocumentType
 nsGenericDOMDataNode
 nsIDOMNode
-nsIDOMDocumentType
 )
 bool
 DocumentType
