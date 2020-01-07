@@ -307,6 +307,10 @@ Element
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 const
 int32_t
@@ -402,9 +406,6 @@ aFlags
 uint32_t
 aWrapColumn
 const
-mozilla
-:
-:
 Encoding
 *
 aEncoding
@@ -1365,9 +1366,6 @@ index
 continue
 ;
 }
-mozilla
-:
-:
 dom
 :
 :
@@ -2638,9 +2636,6 @@ nsXHTMLContentSerializer
 :
 CheckElementEnd
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -2838,9 +2833,6 @@ aOutputStr
 Append
 (
 aStr
-mozilla
-:
-:
 fallible
 )
 ;
