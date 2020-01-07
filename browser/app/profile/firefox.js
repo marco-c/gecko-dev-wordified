@@ -21375,6 +21375,8 @@ supportedCountries
 "
 "
 US
+CA
+DE
 "
 )
 ;

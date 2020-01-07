@@ -4328,7 +4328,7 @@ value
 =
 FormAutofillUtils
 .
-getAbbreviatedStateName
+getAbbreviatedSubregionName
 (
 [
 value

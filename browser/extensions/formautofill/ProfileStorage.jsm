@@ -8576,7 +8576,7 @@ country
 |
 FormAutofillUtils
 .
-DEFAULT_COUNTRY_CODE
+DEFAULT_REGION
 )
 ;
 if
@@ -9399,7 +9399,7 @@ country
 |
 FormAutofillUtils
 .
-DEFAULT_COUNTRY_CODE
+DEFAULT_REGION
 ;
 let
 tel
