@@ -11896,8 +11896,6 @@ nsACString
 filename
 int32_t
 lineNo
-JSVersion
-jsVersion
 MutableHandleValue
 rval
 )
