@@ -938,11 +938,9 @@ tempArea
 =
 screenRect
 .
-width
-*
-screenRect
-.
-height
+Area
+(
+)
 ;
 if
 (
