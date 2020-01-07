@@ -1243,6 +1243,8 @@ nsAString
 aPattern
 bool
 aIgnorePath
+bool
+aRestrictSchemes
 ErrorResult
 &
 aRv
