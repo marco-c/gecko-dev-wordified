@@ -1502,12 +1502,6 @@ enableOCSPStapling
 ;
 unsigned
 int
-enableNPN
-:
-1
-;
-unsigned
-int
 enableALPN
 :
 1
@@ -2646,8 +2640,6 @@ signedCertTimestamps
 /
 *
 The
-NPN
-/
 ALPN
 value
 negotiated
@@ -9942,7 +9934,7 @@ ssl_ResetSelfEncryptKeys
 ;
 extern
 SECStatus
-ssl3_ValidateNextProtoNego
+ssl3_ValidateAppProtocol
 (
 const
 unsigned

@@ -306,11 +306,6 @@ ssl_renegotiation_info_xtn
 ssl3_HandleRenegotiationInfoXtn
 }
 {
-ssl_next_proto_nego_xtn
-&
-ssl3_ServerHandleNextProtoNegoXtn
-}
-{
 ssl_app_layer_protocol_xtn
 &
 ssl3_ServerHandleAppProtoXtn
@@ -423,11 +418,6 @@ ssl3_ClientHandleSessionTicketXtn
 ssl_renegotiation_info_xtn
 &
 ssl3_HandleRenegotiationInfoXtn
-}
-{
-ssl_next_proto_nego_xtn
-&
-ssl3_ClientHandleNextProtoNegoXtn
 }
 {
 ssl_app_layer_protocol_xtn
@@ -756,11 +746,6 @@ ssl_session_ticket_xtn
 ssl3_ClientSendSessionTicketXtn
 }
 {
-ssl_next_proto_nego_xtn
-&
-ssl3_ClientSendNextProtoNegoXtn
-}
-{
 ssl_app_layer_protocol_xtn
 &
 ssl3_ClientSendAppProtoXtn
@@ -1056,10 +1041,6 @@ ssl_ext_native_only
 {
 ssl_tls13_certificate_authorities_xtn
 ssl_ext_native
-}
-{
-ssl_next_proto_nego_xtn
-ssl_ext_none
 }
 {
 ssl_renegotiation_info_xtn

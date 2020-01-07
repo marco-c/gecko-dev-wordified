@@ -601,6 +601,9 @@ saw
 "
 abi
 "
+"
+coverage
+"
 ]
 ;
 let

@@ -3719,12 +3719,6 @@ EnsureTlsSetup
 )
 )
 ;
-SetOption
-(
-SSL_ENABLE_ALPN
-PR_TRUE
-)
-;
 EXPECT_EQ
 (
 SECSuccess
@@ -3758,7 +3752,7 @@ expected
 const
 {
 SSLNextProtoState
-npn_state
+alpn_state
 ;
 char
 chosen
@@ -3779,7 +3773,7 @@ ssl_fd
 (
 )
 &
-npn_state
+alpn_state
 reinterpret_cast
 <
 unsigned
@@ -3806,12 +3800,12 @@ rv
 EXPECT_EQ
 (
 expected_state
-npn_state
+alpn_state
 )
 ;
 if
 (
-npn_state
+alpn_state
 =
 =
 SSL_NEXT_PROTO_NO_SUPPORT

@@ -2629,7 +2629,7 @@ SSL_ERROR_BASE
 SSL
 received
 invalid
-NPN
+ALPN
 extension
 data
 .
