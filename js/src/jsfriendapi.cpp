@@ -360,7 +360,7 @@ autoGCRooters_
 (
 nullptr
 )
-compartment_
+realm_
 (
 nullptr
 )
@@ -8158,7 +8158,7 @@ unsigned
 js
 :
 :
-GetEnterCompartmentDepth
+GetEnterRealmDepth
 (
 JSContext
 *
@@ -8169,7 +8169,7 @@ return
 cx
 -
 >
-getEnterCompartmentDepth
+getEnterRealmDepth
 (
 )
 ;

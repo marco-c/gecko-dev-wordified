@@ -17213,7 +17213,7 @@ temp
 JSContext
 :
 :
-offsetOfCompartment
+offsetOfRealm
 (
 )
 )
@@ -17223,7 +17223,7 @@ temp
 size_t
 offset
 =
-JSCompartment
+Realm
 :
 :
 offsetOfRegExps
@@ -17562,7 +17562,7 @@ temp
 JSContext
 :
 :
-offsetOfCompartment
+offsetOfRealm
 (
 )
 )
@@ -17572,7 +17572,7 @@ temp
 size_t
 offset
 =
-JSCompartment
+Realm
 :
 :
 offsetOfRegExps

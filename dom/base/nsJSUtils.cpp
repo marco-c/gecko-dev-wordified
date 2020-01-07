@@ -634,7 +634,7 @@ MOZ_ASSERT
 js
 :
 :
-GetEnterCompartmentDepth
+GetEnterRealmDepth
 (
 cx
 )

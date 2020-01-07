@@ -722,8 +722,8 @@ numActualArgs
 )
 ;
 {
-AssertCompartmentUnchanged
-pcc
+AssertRealmUnchanged
+aru
 (
 cx
 )
