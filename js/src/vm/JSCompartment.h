@@ -6614,12 +6614,7 @@ void
 forgetAllocationMetadataBuilder
 (
 )
-{
-allocationMetadataBuilder
-=
-nullptr
 ;
-}
 void
 setNewObjectMetadata
 (
