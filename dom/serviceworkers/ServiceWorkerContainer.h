@@ -231,7 +231,12 @@ ServiceWorkerRegistrationPromise
 >
 GetReady
 (
+const
+ClientInfo
+&
+aClientInfo
 )
+const
 =
 0
 ;
