@@ -3376,7 +3376,7 @@ U
 Constructor
 setting
 all
-copmonents
+components
 to
 zero
 .
@@ -3886,7 +3886,7 @@ vector
 /
 Equivalent
 to
-substracting
+subtracting
 the
 origin
 to
