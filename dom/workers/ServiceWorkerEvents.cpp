@@ -1899,7 +1899,7 @@ cacheInfoChannel
 mInternalResponse
 -
 >
-GetCacheInfoChannel
+TakeCacheInfoChannel
 (
 )
 ;
