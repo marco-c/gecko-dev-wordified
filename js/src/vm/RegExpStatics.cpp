@@ -413,12 +413,6 @@ create
 JSContext
 *
 cx
-Handle
-<
-GlobalObject
-*
->
-parent
 )
 {
 RegExpStaticsObject

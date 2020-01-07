@@ -4097,8 +4097,6 @@ WasmArrayRawBuffer
 uint8_t
 *
 buffer
-uint32_t
-length
 const
 Maybe
 <
@@ -4798,7 +4796,6 @@ header
 WasmArrayRawBuffer
 (
 base
-numBytes
 maxSize
 mappedSize
 )
@@ -7726,14 +7723,6 @@ proto
 *
 =
 nullptr
-*
-/
-NewObjectKind
-newKind
-/
-*
-=
-GenericObject
 *
 /
 )

@@ -793,9 +793,6 @@ GeneratorObject
 :
 finalSuspend
 (
-JSContext
-*
-cx
 HandleObject
 obj
 )

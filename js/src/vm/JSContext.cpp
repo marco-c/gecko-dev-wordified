@@ -3180,9 +3180,6 @@ static
 void
 PrintErrorLine
 (
-JSContext
-*
-cx
 FILE
 *
 file
@@ -3427,9 +3424,6 @@ static
 void
 PrintErrorLine
 (
-JSContext
-*
-cx
 FILE
 *
 file
@@ -3780,7 +3774,6 @@ file
 ;
 PrintErrorLine
 (
-cx
 file
 prefix
 .

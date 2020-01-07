@@ -12714,9 +12714,6 @@ ObjectGroupCompartment
 :
 sweep
 (
-FreeOp
-*
-fop
 )
 {
 /

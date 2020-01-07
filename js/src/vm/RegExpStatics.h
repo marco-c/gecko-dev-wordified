@@ -319,12 +319,6 @@ create
 JSContext
 *
 cx
-Handle
-<
-GlobalObject
-*
->
-parent
 )
 ;
 private

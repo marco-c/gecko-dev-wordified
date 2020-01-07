@@ -1670,12 +1670,6 @@ cx
 ParseTask
 *
 parseTask
-Handle
-<
-GlobalObject
-*
->
-global
 JSCompartment
 *
 dest
@@ -2761,9 +2755,6 @@ state
 bool
 StartOffThreadIonCompile
 (
-JSContext
-*
-cx
 jit
 :
 :

@@ -2710,8 +2710,6 @@ makeTypedInstance
 JSContext
 *
 cx
-uint32_t
-len
 CreateSingleton
 createSingleton
 gc
@@ -3082,7 +3080,6 @@ obj
 makeTypedInstance
 (
 cx
-len
 createSingleton
 allocKind
 )

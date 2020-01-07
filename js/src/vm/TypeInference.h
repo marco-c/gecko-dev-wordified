@@ -8839,9 +8839,6 @@ ref
 void
 beginSweep
 (
-FreeOp
-*
-fop
 bool
 releaseTypes
 AutoClearTypeInferenceStateOnOOM

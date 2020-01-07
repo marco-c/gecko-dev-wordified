@@ -762,7 +762,6 @@ reinitialize
 .
 reset
 (
-cx
 )
 ;
 if
@@ -1229,9 +1228,6 @@ Chain
 :
 reset
 (
-JSContext
-*
-cx
 )
 {
 /

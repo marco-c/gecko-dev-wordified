@@ -13222,9 +13222,6 @@ static
 bool
 isMagicMissingArgumentsValue
 (
-JSContext
-*
-cx
 EnvironmentObject
 &
 env
@@ -14435,7 +14432,6 @@ if
 (
 isMagicMissingArgumentsValue
 (
-cx
 *
 env
 v
@@ -14810,7 +14806,6 @@ if
 (
 isMagicMissingArgumentsValue
 (
-cx
 *
 env
 vp
@@ -15150,7 +15145,6 @@ if
 (
 isMagicMissingArgumentsValue
 (
-cx
 *
 env
 vp
@@ -17300,9 +17294,6 @@ DebugEnvironments
 :
 checkHashTablesAfterMovingGC
 (
-JSRuntime
-*
-runtime
 )
 {
 /

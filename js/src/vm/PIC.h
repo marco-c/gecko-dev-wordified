@@ -1257,9 +1257,6 @@ it
 void
 reset
 (
-JSContext
-*
-cx
 )
 ;
 /

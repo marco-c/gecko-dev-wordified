@@ -5642,7 +5642,6 @@ RegExpStatics
 create
 (
 cx
-global
 )
 ;
 if

@@ -2352,9 +2352,6 @@ AsyncGeneratorObject
 :
 peekRequest
 (
-JSContext
-*
-cx
 Handle
 <
 AsyncGeneratorObject

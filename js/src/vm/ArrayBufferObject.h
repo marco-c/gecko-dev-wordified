@@ -1856,10 +1856,6 @@ HandleObject
 proto
 =
 nullptr
-NewObjectKind
-newKind
-=
-GenericObject
 )
 ;
 /
