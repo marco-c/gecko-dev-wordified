@@ -16563,6 +16563,13 @@ self_type
 &
 aOther
 )
+:
+nsTArray
+<
+E
+>
+(
+)
 {
 Init
 (
