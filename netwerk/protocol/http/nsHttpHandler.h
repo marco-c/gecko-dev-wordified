@@ -1048,6 +1048,15 @@ mThrottleVersion
 mThrottleReadLimit
 ;
 }
+bool
+AllowPlaintextServerTiming
+(
+)
+{
+return
+mAllowPlaintextServerTiming
+;
+}
 /
 /
 TCP
@@ -3444,6 +3453,9 @@ first
 .
 bool
 mActiveTabPriority
+;
+bool
+mAllowPlaintextServerTiming
 ;
 private
 :
