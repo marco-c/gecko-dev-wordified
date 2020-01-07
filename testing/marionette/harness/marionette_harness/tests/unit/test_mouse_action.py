@@ -523,7 +523,7 @@ x
 :
 elem
 .
-location
+rect
 [
 "
 x
@@ -532,7 +532,7 @@ x
 +
 elem
 .
-size
+rect
 [
 "
 width
@@ -547,7 +547,7 @@ y
 :
 elem
 .
-location
+rect
 [
 "
 y
@@ -556,7 +556,7 @@ y
 +
 elem
 .
-size
+rect
 [
 "
 height
