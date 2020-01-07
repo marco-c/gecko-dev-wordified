@@ -1513,6 +1513,9 @@ getTheme
 "
 openBrowserConsole
 "
+"
+getToolboxes
+"
 ]
 ;
 for
