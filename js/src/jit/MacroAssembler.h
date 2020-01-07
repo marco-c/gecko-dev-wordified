@@ -21499,6 +21499,16 @@ alloc
 )
 {
 }
+~
+WasmMacroAssembler
+(
+)
+{
+assertNoGCThings
+(
+)
+;
+}
 }
 ;
 /
