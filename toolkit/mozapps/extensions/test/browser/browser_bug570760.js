@@ -57,6 +57,7 @@ focusCount
 =
 0
 ;
+async
 function
 test
 (
@@ -66,14 +67,15 @@ waitForExplicitFinish
 (
 )
 ;
+let
+aWindow
+=
+await
 open_manager
 (
 null
-function
-(
-aWindow
 )
-{
+;
 gManagerWindow
 =
 aWindow
@@ -140,9 +142,6 @@ focusHandler
 ;
 end_test
 (
-)
-;
-}
 )
 ;
 }

@@ -180,6 +180,7 @@ enableBackgroundUpdateTimer
 }
 )
 ;
+async
 function
 test
 (
@@ -234,6 +235,10 @@ AUTOUPDATE_DISABLE
 ]
 )
 ;
+let
+aWindow
+=
+await
 open_manager
 (
 "
@@ -245,11 +250,8 @@ list
 /
 extension
 "
-function
-(
-aWindow
 )
-{
+;
 gManagerWindow
 =
 aWindow
@@ -288,9 +290,6 @@ menu
 ;
 run_next_test
 (
-)
-;
-}
 )
 ;
 }
