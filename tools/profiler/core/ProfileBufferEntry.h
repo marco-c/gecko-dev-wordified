@@ -1225,9 +1225,6 @@ mHash
 explicit
 UniqueStacks
 (
-JSContext
-*
-aContext
 )
 ;
 /
@@ -1295,6 +1292,9 @@ FrameKey
 >
 GetOrAddJITFrameKeysForAddress
 (
+JSContext
+*
+aContext
 void
 *
 aJITAddress
@@ -1372,6 +1372,9 @@ frame
 void
 MaybeAddJITFrameIndex
 (
+JSContext
+*
+aContext
 const
 FrameKey
 &
@@ -1397,6 +1400,9 @@ aFrame
 void
 StreamJITFrame
 (
+JSContext
+*
+aContext
 const
 JS
 :
@@ -1422,10 +1428,6 @@ mUniqueStrings
 ;
 private
 :
-JSContext
-*
-mContext
-;
 /
 /
 To
