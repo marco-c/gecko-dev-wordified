@@ -699,10 +699,10 @@ millisSinceLastUserInput
 if
 (
 millis
->
+<
 0
-&
-&
+|
+|
 millis
 >
 =

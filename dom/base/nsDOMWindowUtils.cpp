@@ -17614,7 +17614,10 @@ IsNull
 *
 aMillisSinceLastUserInput
 =
-0
+-
+1
+.
+0f
 ;
 return
 NS_OK
