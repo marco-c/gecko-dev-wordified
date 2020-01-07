@@ -7394,11 +7394,11 @@ pref
 "
 browser
 .
-snapshots
+history_swipe_animation
 .
-limit
+disabled
 "
-0
+false
 )
 ;
 /
