@@ -127,6 +127,22 @@ optimization
 "
                             
 "
+Array
+.
+prototype
+.
+flatMap
+"
+                            
+"
+Array
+.
+prototype
+.
+flatten
+"
+                            
+"
 BigInt
 "
                             
