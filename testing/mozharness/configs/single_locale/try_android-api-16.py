@@ -573,21 +573,6 @@ android
 XXX
 Validate
     
-"
-build_type
-"
-:
-"
-api
--
-16
--
-opt
-"
-#
-XXX
-Validate
-    
 #
 Balrog
     

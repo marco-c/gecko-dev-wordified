@@ -583,18 +583,6 @@ platform
 android
 "
     
-"
-build_type
-"
-:
-"
-api
--
-16
--
-opt
-"
-    
 #
 Balrog
     

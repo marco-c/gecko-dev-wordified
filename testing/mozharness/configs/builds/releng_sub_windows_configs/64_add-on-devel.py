@@ -44,18 +44,6 @@ on
 devel
 '
     
-'
-build_type
-'
-:
-'
-add
--
-on
--
-devel
-'
-    
 #
 #
 #
