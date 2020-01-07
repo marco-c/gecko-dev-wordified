@@ -2452,7 +2452,7 @@ void
 setFunctionFormalParametersAndBody
 (
 Node
-pn
+funcNode
 Node
 kid
 )

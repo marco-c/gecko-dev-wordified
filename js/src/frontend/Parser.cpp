@@ -19723,7 +19723,7 @@ skipLazyInnerFunction
 (
 ParseNode
 *
-pn
+funcNode
 uint32_t
 toStringStart
 FunctionSyntaxKind
@@ -19811,7 +19811,7 @@ funbox
 =
 newFunctionBox
 (
-pn
+funcNode
 fun
 toStringStart
 Directives
@@ -20040,7 +20040,7 @@ CharT
 skipLazyInnerFunction
 (
 Node
-pn
+funcNode
 uint32_t
 toStringStart
 FunctionSyntaxKind
@@ -20082,7 +20082,7 @@ CharT
 skipLazyInnerFunction
 (
 Node
-node
+funcNode
 uint32_t
 toStringStart
 FunctionSyntaxKind
@@ -20099,7 +20099,7 @@ asFinalParser
 >
 skipLazyInnerFunction
 (
-node
+funcNode
 toStringStart
 kind
 tryAnnexB
@@ -20459,7 +20459,7 @@ CharT
 functionDefinition
 (
 Node
-pn
+funcNode
 uint32_t
 toStringStart
 InHandling
@@ -20545,7 +20545,7 @@ if
 !
 skipLazyInnerFunction
 (
-pn
+funcNode
 toStringStart
 kind
 tryAnnexB
@@ -20557,7 +20557,7 @@ null
 )
 ;
 return
-pn
+funcNode
 ;
 }
 RootedObject
@@ -20814,7 +20814,7 @@ if
 (
 trySyntaxParseInnerFunction
 (
-pn
+funcNode
 fun
 toStringStart
 inHandling
@@ -20929,7 +20929,7 @@ handler
 .
 setFunctionFormalParametersAndBody
 (
-pn
+funcNode
 null
 (
 )
@@ -20937,7 +20937,7 @@ null
 ;
 }
 return
-pn
+funcNode
 ;
 }
 template
@@ -20957,7 +20957,7 @@ trySyntaxParseInnerFunction
 (
 ParseNode
 *
-pn
+funcNode
 HandleFunction
 fun
 uint32_t
@@ -21050,7 +21050,7 @@ code
 .
 if
 (
-pn
+funcNode
 -
 >
 isLikelyIIFE
@@ -21193,7 +21193,7 @@ funbox
 =
 newFunctionBox
 (
-pn
+funcNode
 fun
 toStringStart
 inheritedDirectives
@@ -21375,7 +21375,7 @@ the
 parse
 node
 .
-pn
+funcNode
 -
 >
 pn_pos
@@ -21408,8 +21408,10 @@ parsing
 if
 (
 tryAnnexB
-&
-&
+)
+{
+if
+(
 !
 pc
 -
@@ -21428,6 +21430,7 @@ funbox
 return
 false
 ;
+}
 return
 true
 ;
@@ -21456,7 +21459,7 @@ parse
 return
 innerFunction
 (
-pn
+funcNode
 pc
 fun
 toStringStart
@@ -21487,7 +21490,7 @@ CharT
 trySyntaxParseInnerFunction
 (
 Node
-pn
+funcNode
 HandleFunction
 fun
 uint32_t
@@ -21529,7 +21532,7 @@ function
 return
 innerFunction
 (
-pn
+funcNode
 pc
 fun
 toStringStart
@@ -21563,7 +21566,7 @@ CharT
 trySyntaxParseInnerFunction
 (
 Node
-node
+funcNode
 HandleFunction
 fun
 uint32_t
@@ -21595,7 +21598,7 @@ asFinalParser
 >
 trySyntaxParseInnerFunction
 (
-node
+funcNode
 fun
 toStringStart
 inHandling
@@ -21627,7 +21630,7 @@ CharT
 innerFunctionForFunctionBox
 (
 Node
-pn
+funcNode
 ParseContext
 *
 outerpc
@@ -21741,7 +21744,7 @@ functionFormalParametersAndBody
 (
 inHandling
 yieldHandling
-pn
+funcNode
 kind
 )
 )
@@ -21773,7 +21776,7 @@ CharT
 innerFunction
 (
 Node
-pn
+funcNode
 ParseContext
 *
 outerpc
@@ -21868,7 +21871,7 @@ funbox
 =
 newFunctionBox
 (
-pn
+funcNode
 fun
 toStringStart
 inheritedDirectives
@@ -21898,7 +21901,7 @@ if
 !
 innerFunctionForFunctionBox
 (
-pn
+funcNode
 outerpc
 funbox
 inHandling
@@ -21907,9 +21910,11 @@ kind
 newDirectives
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Append
@@ -21926,8 +21931,10 @@ parsing
 if
 (
 tryAnnexB
-&
-&
+)
+{
+if
+(
 !
 pc
 -
@@ -21946,6 +21953,7 @@ funbox
 return
 false
 ;
+}
 return
 true
 ;
