@@ -388,6 +388,13 @@ AbstractEventQueue
 {
 public
 :
+static
+const
+bool
+SupportsPrioritization
+=
+true
+;
 PrioritizedEventQueue
 (
 UniquePtr

@@ -160,6 +160,13 @@ AbstractEventQueue
 {
 public
 :
+static
+const
+bool
+SupportsPrioritization
+=
+false
+;
 EventQueue
 (
 )
