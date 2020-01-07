@@ -8008,7 +8008,7 @@ nullptr
 )
 ;
 return
-IAPZCTreeManager
+APZInputBridge
 :
 :
 WillHandleWheelEvent

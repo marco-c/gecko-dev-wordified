@@ -121,7 +121,7 @@ mozilla
 /
 layers
 /
-IAPZCTreeManager
+APZInputBridge
 .
 h
 "
@@ -146,7 +146,7 @@ h
 /
 /
 for
-InputData
+MouseInput
 etc
 #
 include
@@ -160,7 +160,7 @@ h
 /
 /
 for
-WheelPrefs
+EventStateManager
 #
 include
 "
@@ -302,7 +302,7 @@ static
 *
 /
 bool
-IAPZCTreeManager
+APZInputBridge
 :
 :
 WillHandleWheelEvent
@@ -361,7 +361,7 @@ DOM_DELTA_PAGE
 ;
 }
 nsEventStatus
-IAPZCTreeManager
+APZInputBridge
 :
 :
 ReceiveInputEvent
