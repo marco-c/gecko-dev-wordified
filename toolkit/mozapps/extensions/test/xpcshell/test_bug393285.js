@@ -1553,31 +1553,6 @@ restartManager
 (
 )
 ;
-var
-blocklist
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-extensions
-/
-blocklist
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIBlocklistService
-)
-;
 AddonManager
 .
 getAddonsByIDs
@@ -1617,6 +1592,8 @@ be
 blocked
 do_check_false
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1641,6 +1618,8 @@ be
 blocked
 do_check_true
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1667,6 +1646,8 @@ be
 blocked
 do_check_true
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1685,6 +1666,8 @@ a3
 ;
 do_check_false
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1712,6 +1695,8 @@ version
 1
 do_check_true
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1730,6 +1715,8 @@ a5
 ;
 do_check_false
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1758,6 +1745,8 @@ different
 OS
 do_check_false
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1782,6 +1771,8 @@ on
 OS
 do_check_true
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1800,6 +1791,8 @@ a7
 ;
 do_check_true
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1828,6 +1821,8 @@ different
 ABI
 do_check_false
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1852,6 +1847,8 @@ on
 ABI
 do_check_true
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1870,6 +1867,8 @@ a10
 ;
 do_check_true
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1899,6 +1898,8 @@ not
 blocked
 do_check_false
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1917,6 +1918,8 @@ a12
 ;
 do_check_false
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1935,6 +1938,8 @@ a13
 ;
 do_check_false
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
@@ -1962,6 +1967,8 @@ so
 blocked
 do_check_true
 (
+Services
+.
 blocklist
 .
 isAddonBlocklisted
