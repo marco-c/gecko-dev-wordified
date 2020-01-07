@@ -1518,9 +1518,9 @@ safeseh
 as_sources
 sources
 ldflags
-asflags
 lib
 flags
+asflags
 =
 self
 .
@@ -3771,9 +3771,9 @@ foo
 sources
 passthru
 ldflags
-asflags
 lib
 flags
+asflags
 =
 self
 .
@@ -3802,7 +3802,7 @@ self
 .
 assertIsInstance
 (
-asflags
+flags
 ComputedFlags
 )
         
@@ -3810,7 +3810,7 @@ self
 .
 assertIsInstance
 (
-flags
+asflags
 ComputedFlags
 )
         
@@ -9178,6 +9178,22 @@ read_topsrcdir
 reader
 )
         
+as_flags
+=
+objs
+.
+pop
+(
+)
+        
+self
+.
+assertIsInstance
+(
+as_flags
+ComputedFlags
+)
+        
 computed_flags
 =
 objs
@@ -9196,7 +9212,7 @@ ComputedFlags
         
 #
 The
-second
+third
 to
 last
 object
@@ -9220,22 +9236,6 @@ assertTrue
 linkable
 .
 cxx_link
-)
-        
-as_flags
-=
-objs
-.
-pop
-(
-)
-        
-self
-.
-assertIsInstance
-(
-as_flags
-ComputedFlags
 )
         
 ld_flags
@@ -9504,6 +9504,22 @@ read_topsrcdir
 reader
 )
         
+as_flags
+=
+objs
+.
+pop
+(
+)
+        
+self
+.
+assertIsInstance
+(
+as_flags
+ComputedFlags
+)
+        
 flags
 =
 objs
@@ -9522,7 +9538,7 @@ ComputedFlags
         
 #
 The
-second
+third
 to
 last
 object
@@ -9710,6 +9726,22 @@ read_topsrcdir
 reader
 )
         
+as_flags
+=
+objs
+.
+pop
+(
+)
+        
+self
+.
+assertIsInstance
+(
+as_flags
+ComputedFlags
+)
+        
 flags
 =
 objs
@@ -9728,7 +9760,7 @@ ComputedFlags
         
 #
 The
-second
+third
 to
 last
 object
@@ -9778,7 +9810,7 @@ len
 (
 objs
 )
-7
+6
 )
         
 generated_sources
