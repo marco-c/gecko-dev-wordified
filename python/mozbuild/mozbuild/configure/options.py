@@ -2439,11 +2439,17 @@ InvalidOptionError
 Environment
 variable
 name
+"
+%
+s
+"
 must
 be
 all
 uppercase
 '
+%
+name
 )
         
 return
