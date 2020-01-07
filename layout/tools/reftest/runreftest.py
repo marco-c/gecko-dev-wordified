@@ -2647,9 +2647,9 @@ marionette
 .
 split
 (
-'
+"
 :
-'
+"
 )
 [
 1
@@ -2657,13 +2657,11 @@ split
             
 prefs
 [
-'
+"
 marionette
 .
-defaultPrefs
-.
 port
-'
+"
 ]
 =
 int
@@ -2695,11 +2693,13 @@ bug
             
 prefs
 [
-'
+"
 marionette
 .
-logging
-'
+log
+.
+level
+"
 ]
 =
 "
