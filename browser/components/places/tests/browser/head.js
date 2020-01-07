@@ -93,12 +93,6 @@ leftPaneFolderId
 "
 null
 ]
-[
-"
-allBookmarksFolderId
-"
-null
-]
 ]
 )
 ;
