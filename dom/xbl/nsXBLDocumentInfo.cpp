@@ -1883,10 +1883,9 @@ spec
 get
 (
 )
-buf
-.
-get
+Move
 (
+buf
 )
 len
 )
