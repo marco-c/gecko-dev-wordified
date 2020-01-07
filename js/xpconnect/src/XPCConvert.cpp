@@ -6508,7 +6508,7 @@ methodName
 nsISupports
 *
 data
-nsIException
+Exception
 *
 *
 exceptn
@@ -6850,7 +6850,7 @@ const
 JSErrorReport
 *
 report
-nsIException
+Exception
 *
 *
 exceptn
@@ -7104,7 +7104,7 @@ const
 char
 *
 methodName
-nsIException
+Exception
 *
 *
 exceptn
@@ -7227,7 +7227,7 @@ unwrapped
 {
 nsCOMPtr
 <
-nsIException
+Exception
 >
 iface
 =
@@ -7255,15 +7255,7 @@ ref
 and
 all
 )
-nsCOMPtr
-<
-nsIException
->
-temp
-=
 iface
-;
-temp
 .
 forget
 (
@@ -7274,8 +7266,6 @@ return
 NS_OK
 ;
 }
-else
-{
 /
 /
 it
@@ -7301,7 +7291,6 @@ nullptr
 nullptr
 )
 ;
-}
 }
 else
 {

@@ -174,6 +174,17 @@ h
 #
 include
 "
+nsIException
+.
+h
+"
+/
+/
+for
+nsIStackFrame
+#
+include
+"
 nsIScriptContext
 .
 h

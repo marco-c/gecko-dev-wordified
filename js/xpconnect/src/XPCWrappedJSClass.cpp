@@ -5982,7 +5982,7 @@ const
 char
 *
 anInterfaceName
-nsIException
+Exception
 *
 aSyntheticException
 )
@@ -6009,9 +6009,9 @@ cx
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIException
+Exception
 >
 xpc_exception
 =
@@ -8874,9 +8874,9 @@ HasException
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIException
+Exception
 >
 syntheticException
 ;

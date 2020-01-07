@@ -400,6 +400,17 @@ h
 #
 include
 "
+nsIException
+.
+h
+"
+/
+/
+for
+nsIStackFrame
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h

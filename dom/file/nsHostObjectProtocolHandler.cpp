@@ -290,6 +290,17 @@ h
 #
 include
 "
+nsIException
+.
+h
+"
+/
+/
+for
+nsIStackFrame
+#
+include
+"
 nsIMemoryReporter
 .
 h
