@@ -181,9 +181,6 @@ class
 nsIContentIterator
 ;
 class
-nsIDOMEvent
-;
-class
 nsISimpleEnumerator
 ;
 class

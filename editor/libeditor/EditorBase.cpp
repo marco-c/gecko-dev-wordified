@@ -940,17 +940,6 @@ nsIDOMElement
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-/
-/
-for
-nsIDOMEvent
-#
-include
-"
 nsIDOMEventListener
 .
 h

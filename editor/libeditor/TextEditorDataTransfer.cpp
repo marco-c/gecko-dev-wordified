@@ -230,13 +230,6 @@ h
 #
 include
 "
-nsIDOMEvent
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

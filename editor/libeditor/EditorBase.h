@@ -468,9 +468,6 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMEvent
-;
-class
 nsIDOMNode
 ;
 class
