@@ -3585,7 +3585,7 @@ _mountReactComponent
 ;
 this
 .
-_buildDockButtons
+_buildDockOptions
 (
 )
 ;
@@ -7524,7 +7524,7 @@ _notificationBox
 *
 Build
 the
-buttons
+options
 for
 changing
 hosts
@@ -7539,7 +7539,7 @@ changes
 .
 *
 /
-_buildDockButtons
+_buildDockOptions
 :
 function
 (
@@ -7559,7 +7559,7 @@ this
 .
 component
 .
-setDockButtonsEnabled
+setDockOptionsEnabled
 (
 false
 )
@@ -7571,7 +7571,7 @@ this
 .
 component
 .
-setDockButtonsEnabled
+setDockOptionsEnabled
 (
 true
 )
@@ -15977,7 +15977,7 @@ hostType
 ;
 this
 .
-_buildDockButtons
+_buildDockOptions
 (
 )
 ;
