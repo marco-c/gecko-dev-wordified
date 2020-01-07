@@ -27310,8 +27310,7 @@ cx
 expected
 object
 (
-typed
-array
+ArrayBuffer
 )
 to
 parse
@@ -27344,7 +27343,7 @@ toObject
 if
 (
 !
-JS_IsTypedArrayObject
+JS_IsArrayBufferObject
 (
 obj
 )
@@ -27368,8 +27367,7 @@ JS_ReportErrorASCII
 cx
 "
 expected
-typed
-array
+ArrayBuffer
 to
 parse
 got
