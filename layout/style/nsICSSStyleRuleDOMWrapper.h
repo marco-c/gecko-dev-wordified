@@ -139,13 +139,6 @@ nsICSSStyleRuleDOMWrapper_h_
 #
 define
 nsICSSStyleRuleDOMWrapper_h_
-#
-include
-"
-nsIDOMCSSStyleRule
-.
-h
-"
 /
 /
 IID
@@ -200,7 +193,7 @@ class
 nsICSSStyleRuleDOMWrapper
 :
 public
-nsIDOMCSSStyleRule
+nsISupports
 {
 public
 :

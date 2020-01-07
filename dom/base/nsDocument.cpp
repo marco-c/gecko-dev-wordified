@@ -1853,13 +1853,6 @@ h
 #
 include
 "
-nsIDOMCSSStyleRule
-.
-h
-"
-#
-include
-"
 mozilla
 /
 css
@@ -8924,10 +8917,15 @@ mAllowXULXBL
 (
 eTriUnset
 )
+#
+ifdef
+DEBUG
 mIsLinkUpdateRegistrationsForbidden
 (
 false
 )
+#
+endif
 mBidiOptions
 (
 IBMBIDI_DEFAULT_BIDI_OPTIONS
@@ -56648,7 +56646,7 @@ Link
 aLink
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mIsLinkUpdateRegistrationsForbidden
@@ -56811,7 +56809,7 @@ FlushPendingLinkUpdates
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mIsLinkUpdateRegistrationsForbidden
@@ -56824,6 +56822,9 @@ mHasLinksToUpdate
 )
 return
 ;
+#
+ifdef
+DEBUG
 AutoRestore
 <
 bool
@@ -56837,6 +56838,8 @@ mIsLinkUpdateRegistrationsForbidden
 =
 true
 ;
+#
+endif
 for
 (
 auto
