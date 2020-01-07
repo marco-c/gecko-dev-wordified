@@ -142,6 +142,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+EndianUtils
+.
+h
+"
+#
+include
 <
 stdint
 .

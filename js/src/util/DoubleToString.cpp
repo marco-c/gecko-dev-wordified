@@ -134,6 +134,15 @@ h
 #
 include
 "
+mozilla
+/
+EndianUtils
+.
+h
+"
+#
+include
+"
 jsprf
 .
 h

@@ -147,6 +147,15 @@ include
 "
 mozilla
 /
+EndianUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FloatingPoint
 .
 h

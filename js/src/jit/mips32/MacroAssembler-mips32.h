@@ -117,6 +117,15 @@ jit_mips32_MacroAssembler_mips32_h
 #
 include
 "
+mozilla
+/
+EndianUtils
+.
+h
+"
+#
+include
+"
 jit
 /
 JitFrames

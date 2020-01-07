@@ -135,6 +135,15 @@ include
 "
 mozilla
 /
+EndianUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MathAlgorithms
 .
 h

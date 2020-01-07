@@ -131,6 +131,15 @@ include
 "
 mozilla
 /
+EndianUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
