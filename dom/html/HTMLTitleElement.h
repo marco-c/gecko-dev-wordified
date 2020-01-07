@@ -169,12 +169,6 @@ Element
 :
 GetText
 ;
-using
-Element
-:
-:
-SetText
-;
 explicit
 HTMLTitleElement
 (

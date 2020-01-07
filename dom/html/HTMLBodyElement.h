@@ -163,12 +163,6 @@ Element
 :
 GetText
 ;
-using
-Element
-:
-:
-SetText
-;
 explicit
 HTMLBodyElement
 (

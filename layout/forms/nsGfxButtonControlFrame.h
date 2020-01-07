@@ -150,6 +150,9 @@ nsIAnonymousContentCreator
 .
 h
 "
+class
+nsTextNode
+;
 /
 /
 Class
@@ -355,9 +358,9 @@ true
 }
 private
 :
-nsCOMPtr
+RefPtr
 <
-nsIContent
+nsTextNode
 >
 mTextContent
 ;

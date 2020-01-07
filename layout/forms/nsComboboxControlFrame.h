@@ -257,6 +257,9 @@ nsIDOMEventListener
 class
 nsIScrollableFrame
 ;
+class
+nsTextNode
+;
 namespace
 mozilla
 {
@@ -381,11 +384,8 @@ nsIContent
 GetDisplayNode
 (
 )
-{
-return
-mDisplayContent
+const
 ;
-}
 nsIFrame
 *
 CreateFrameForDisplayNode
@@ -1561,9 +1561,9 @@ additional
 named
 child
 list
-nsCOMPtr
+RefPtr
 <
-nsIContent
+nsTextNode
 >
 mDisplayContent
 ;

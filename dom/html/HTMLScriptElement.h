@@ -170,12 +170,6 @@ Element
 :
 GetText
 ;
-using
-Element
-:
-:
-SetText
-;
 HTMLScriptElement
 (
 already_AddRefed
