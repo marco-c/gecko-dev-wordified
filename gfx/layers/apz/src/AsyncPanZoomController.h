@@ -6702,6 +6702,15 @@ animation
 .
 *
 /
+SCROLLBAR_DRAG
+/
+*
+Async
+scrollbar
+drag
+.
+*
+/
 }
 ;
 /
