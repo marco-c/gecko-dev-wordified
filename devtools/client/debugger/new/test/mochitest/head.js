@@ -1765,7 +1765,7 @@ selectors
 :
 {
 getSelectedSource
-getTopFrame
+getVisibleSelectedFrame
 }
 getState
 }
@@ -1774,7 +1774,7 @@ dbg
 ;
 ok
 (
-isTopFrameSelected
+isSelectedFrameSelected
 (
 dbg
 getState
@@ -1801,7 +1801,7 @@ location
 const
 frame
 =
-getTopFrame
+getVisibleSelectedFrame
 (
 getState
 (
@@ -2705,7 +2705,7 @@ scopes
 ;
 }
 function
-isTopFrameSelected
+isSelectedFrameSelected
 (
 dbg
 state
@@ -2718,7 +2718,7 @@ dbg
 .
 selectors
 .
-getTopFrame
+getVisibleSelectedFrame
 (
 state
 )
