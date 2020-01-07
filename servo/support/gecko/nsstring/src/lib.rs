@@ -1553,14 +1553,6 @@ non_camel_case_types
 )
 ]
 #
-!
-[
-deny
-(
-warnings
-)
-]
-#
 [
 macro_use
 ]

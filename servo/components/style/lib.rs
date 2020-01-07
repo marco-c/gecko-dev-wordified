@@ -295,14 +295,6 @@ html
 [
 deny
 (
-warnings
-)
-]
-#
-!
-[
-deny
-(
 missing_docs
 )
 ]

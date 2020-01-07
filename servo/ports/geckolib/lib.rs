@@ -56,14 +56,6 @@ MPL
 .
 *
 /
-#
-!
-[
-deny
-(
-warnings
-)
-]
 extern
 crate
 cssparser
