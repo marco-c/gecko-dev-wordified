@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsStaticAtom
-.
-h
-"
-#
-include
-"
 nsCSSAnonBoxes
 .
 h

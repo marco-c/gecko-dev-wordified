@@ -102,13 +102,6 @@ nsHTMLTags_h___
 #
 include
 "
-nsStaticAtom
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
