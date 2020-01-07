@@ -1881,12 +1881,11 @@ in
 jobs
 :
         
-yield
 validate_schema
 (
 l10n_description_schema
 job
-                              
+                        
 "
 In
 job
@@ -1912,6 +1911,9 @@ unknown
 )
 )
 )
+        
+yield
+job
 transforms
 .
 add
@@ -3342,12 +3344,11 @@ in
 jobs
 :
         
-yield
 validate_schema
 (
 l10n_description_schema
 job
-                              
+                        
 "
 In
 job
@@ -3373,6 +3374,9 @@ unknown
 )
 )
 )
+        
+yield
+job
 transforms
 .
 add
