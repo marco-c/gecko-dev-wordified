@@ -836,11 +836,6 @@ test_bug655254
 js
 "
 "
-test_cacheflush
-.
-js
-"
-"
 test_checkcompatibility
 .
 js
