@@ -10359,6 +10359,11 @@ MIRType
 :
 Magic
 *
+or
+MIRType
+:
+:
+Object
 .
 bool
 MOZ_MUST_USE
@@ -10399,6 +10404,11 @@ be
 a
 magic
 value
+/
+/
+or
+an
+object
 .
 bool
 valueToBooleanInfallible
