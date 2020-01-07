@@ -566,11 +566,6 @@ mServo
 Servo_ComputedValues_ExtractAnimationValue
 (
 mBaseComputedStyle
--
->
-AsServo
-(
-)
 mPropID
 )
 .
