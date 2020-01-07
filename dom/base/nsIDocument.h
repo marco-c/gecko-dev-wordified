@@ -698,9 +698,6 @@ class
 nsIDocumentObserver
 ;
 class
-nsIDOMDocument
-;
-class
 nsIHTMLCollection
 ;
 class
@@ -26189,7 +26186,7 @@ null
 nsresult
 NS_NewDOMDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aInstancePtrResult
@@ -26262,7 +26259,7 @@ documents
 nsresult
 NS_NewXBLDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aInstancePtrResult

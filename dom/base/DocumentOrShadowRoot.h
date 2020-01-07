@@ -579,9 +579,6 @@ aElements
 *
 Helper
 for
-nsIDOMDocument
-:
-:
 elementFromPoint
 implementation
 that
