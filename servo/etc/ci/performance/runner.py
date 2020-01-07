@@ -778,6 +778,11 @@ line_bytes
 .
 decode
 (
+'
+utf
+-
+8
+'
 )
         
 if
@@ -2058,6 +2063,13 @@ open
 filename
 '
 w
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as
