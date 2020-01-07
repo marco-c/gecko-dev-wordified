@@ -167,13 +167,6 @@ h
 #
 include
 "
-xpt_xdr
-.
-h
-"
-#
-include
-"
 nsIInterfaceInfo
 .
 h
@@ -467,6 +460,9 @@ xptiInterfaceEntry
 ;
 class
 xptiTypelibGuts
+;
+struct
+XPTArena
 ;
 extern
 XPTArena
