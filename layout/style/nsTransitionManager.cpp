@@ -1139,7 +1139,7 @@ PlayStateFromJS
 )
 const
 {
-FlushStyle
+FlushUnanimatedStyle
 (
 )
 ;
@@ -1228,7 +1228,7 @@ Pending
 )
 )
 {
-FlushStyle
+FlushUnanimatedStyle
 (
 )
 ;
@@ -1253,7 +1253,7 @@ ErrorResult
 aRv
 )
 {
-FlushStyle
+FlushUnanimatedStyle
 (
 )
 ;

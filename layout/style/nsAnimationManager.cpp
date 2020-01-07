@@ -498,7 +498,7 @@ ErrorResult
 aRv
 )
 {
-FlushStyle
+FlushUnanimatedStyle
 (
 )
 ;
@@ -601,7 +601,7 @@ are
 fully
 updated
 .
-FlushStyle
+FlushUnanimatedStyle
 (
 )
 ;
@@ -650,7 +650,7 @@ now
 be
 pending
 .
-FlushStyle
+FlushUnanimatedStyle
 (
 )
 ;
@@ -698,7 +698,7 @@ on
 this
 object
 .
-FlushStyle
+FlushUnanimatedStyle
 (
 )
 ;
