@@ -263,16 +263,7 @@ include
 "
 mozilla
 /
-StyleSetHandle
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StyleSetHandleInlines
+ServoStyleSet
 .
 h
 "

@@ -1250,7 +1250,8 @@ mDocument
 mozilla
 :
 :
-StyleSetHandle
+ServoStyleSet
+*
 StyleSet
 (
 )

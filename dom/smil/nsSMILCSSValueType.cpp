@@ -228,7 +228,7 @@ include
 "
 mozilla
 /
-StyleSetHandleInlines
+ServoStyleSet
 .
 h
 "
@@ -3153,11 +3153,6 @@ aPresContext
 -
 >
 StyleSet
-(
-)
--
->
-AsServo
 (
 )
 -

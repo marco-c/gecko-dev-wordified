@@ -215,16 +215,7 @@ include
 "
 mozilla
 /
-StyleSetHandle
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StyleSetHandleInlines
+ServoStyleSet
 .
 h
 "
@@ -10590,7 +10581,8 @@ by
 the
 parser
 .
-StyleSetHandle
+ServoStyleSet
+*
 styleSet
 =
 mPresContext
@@ -10942,7 +10934,8 @@ toBeRemoved
 =
 false
 ;
-StyleSetHandle
+ServoStyleSet
+*
 styleSet
 =
 mPresContext

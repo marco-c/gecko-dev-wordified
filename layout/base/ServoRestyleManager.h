@@ -193,6 +193,9 @@ Element
 /
 namespace
 dom
+class
+ServoStyleSet
+;
 }
 /
 /
@@ -2064,11 +2067,6 @@ PresContext
 -
 >
 StyleSet
-(
-)
--
->
-AsServo
 (
 )
 ;

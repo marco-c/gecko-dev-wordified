@@ -181,7 +181,7 @@ include
 "
 mozilla
 /
-StyleSetHandle
+ServoStyleSet
 .
 h
 "
@@ -331,6 +331,9 @@ AutoPointerEventTargetUpdater
 namespace
 mozilla
 {
+class
+ServoStyleSheet
+;
 namespace
 dom
 {
@@ -477,7 +480,10 @@ aPresContext
 nsViewManager
 *
 aViewManager
-StyleSetHandle
+UniquePtr
+<
+ServoStyleSet
+>
 aStyleSet
 )
 ;
@@ -875,7 +881,7 @@ nsTArray
 <
 RefPtr
 <
-StyleSheet
+ServoStyleSheet
 >
 >
 &
@@ -891,7 +897,7 @@ nsTArray
 <
 RefPtr
 <
-StyleSheet
+ServoStyleSheet
 >
 >
 &
@@ -2640,8 +2646,10 @@ mCaretEnabled
 #
 ifdef
 DEBUG
+UniquePtr
+<
 ServoStyleSet
-*
+>
 CloneStyleSet
 (
 ServoStyleSet

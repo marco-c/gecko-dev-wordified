@@ -2306,11 +2306,6 @@ StyleSet
 )
 -
 >
-AsServo
-(
-)
--
->
 GetBaseContextForElement
 (
 animatingElement
@@ -8698,11 +8693,6 @@ PresContext
 -
 >
 StyleSet
-(
-)
--
->
-AsServo
 (
 )
 ;

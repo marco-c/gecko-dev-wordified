@@ -196,15 +196,6 @@ nsSVGUtils
 :
 :
 IsInSVGTextSubtree
-#
-include
-"
-mozilla
-/
-ServoStyleSet
-.
-h
-"
 inline
 void
 nsStyleImage

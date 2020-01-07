@@ -2494,11 +2494,6 @@ StyleSet
 )
 -
 >
-AsServo
-(
-)
--
->
 EvaluateSourceSizeList
 (
 mServoSourceSizeList

@@ -2355,11 +2355,6 @@ aPresContext
 StyleSet
 (
 )
--
->
-AsServo
-(
-)
 ;
 MOZ_ASSERT
 (

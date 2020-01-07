@@ -1242,8 +1242,6 @@ will
 do
 nothing
 .
-if
-(
 ServoStyleSet
 *
 styleSet
@@ -1254,13 +1252,7 @@ ps
 StyleSet
 (
 )
--
->
-GetAsServo
-(
-)
-)
-{
+;
 /
 /
 Sometimes
@@ -1305,7 +1297,6 @@ StyleNewSubtree
 newContent
 )
 ;
-}
 }
 ElementDeletionObserver
 *

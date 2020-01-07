@@ -292,16 +292,7 @@ include
 "
 mozilla
 /
-StyleSetHandle
-.
-h
-"
-#
-include
-"
-mozilla
-/
-StyleSetHandleInlines
+ServoStyleSet
 .
 h
 "
@@ -5372,7 +5363,8 @@ PresShell
 (
 )
 ;
-StyleSetHandle
+ServoStyleSet
+*
 styleSet
 =
 shell
