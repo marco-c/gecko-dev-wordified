@@ -1998,7 +1998,7 @@ InstanceOfV
 \
 _
 (
-CallInstanceOf
+InstanceOfCache
 )
 \
 _

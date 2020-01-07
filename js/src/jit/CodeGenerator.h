@@ -3106,9 +3106,9 @@ ins
 override
 ;
 void
-visitCallInstanceOf
+visitInstanceOfCache
 (
-LCallInstanceOf
+LInstanceOfCache
 *
 ins
 )
