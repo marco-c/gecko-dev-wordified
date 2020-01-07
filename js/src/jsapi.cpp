@@ -43847,7 +43847,12 @@ JS
 :
 MutableHandleObject
 stackp
-unsigned
+const
+Maybe
+<
+size_t
+>
+&
 maxFrameCount
 )
 {
