@@ -662,6 +662,8 @@ devtools
 /
 shared
 /
+test
+/
 frame
 -
 script
