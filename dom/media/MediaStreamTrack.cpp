@@ -1094,6 +1094,14 @@ DisabledTrackMode
 SILENCE_BLACK
 )
 ;
+GetSource
+(
+)
+.
+SinkEnabledStateChanged
+(
+)
+;
 }
 void
 MediaStreamTrack
