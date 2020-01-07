@@ -4449,7 +4449,7 @@ poll_attempt
 while
 runner
 .
-is_running
+running
 (
 )
 {
@@ -4576,7 +4576,7 @@ browser
 if
 runner
 .
-is_running
+running
 (
 )
 {
