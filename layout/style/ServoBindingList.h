@@ -967,6 +967,13 @@ ServoStyleSheet
 *
 gecko_sheet
 )
+SERVO_BINDING_FUNC
+(
+Servo_AuthorStyles_ForceDirty
+void
+RawServoAuthorStylesBorrowedMut
+self
+)
 /
 /
 TODO
