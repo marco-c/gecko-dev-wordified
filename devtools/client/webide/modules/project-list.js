@@ -619,7 +619,7 @@ self
 .
 _telemetry
 .
-actionOccurred
+toolOpened
 (
 "
 webideNewProject
