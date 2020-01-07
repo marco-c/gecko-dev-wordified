@@ -173,6 +173,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+InspectorUtils
+"
+]
+)
+;
 const
 kStateActive
 =
@@ -2152,7 +2163,7 @@ via
 keyboard
 or
 mouse
-DOMUtils
+InspectorUtils
 .
 removeContentState
 (
@@ -2285,7 +2296,7 @@ Forms
 MouseOver
 "
 :
-DOMUtils
+InspectorUtils
 .
 setContentState
 (
@@ -2304,7 +2315,7 @@ Forms
 MouseOut
 "
 :
-DOMUtils
+InspectorUtils
 .
 removeContentState
 (
@@ -2355,7 +2366,7 @@ mouseup
 )
 ;
 }
-DOMUtils
+InspectorUtils
 .
 removeContentState
 (

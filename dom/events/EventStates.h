@@ -875,7 +875,7 @@ need
 that
 method
 for
-inDOMUtils
+InspectorUtils
 :
 :
 GetContentState
@@ -883,7 +883,7 @@ GetContentState
 /
 /
 If
-inDOMUtils
+InspectorUtils
 :
 :
 GetContentState
@@ -892,6 +892,8 @@ removed
 this
 method
 should
+/
+/
 be
 removed
 .
