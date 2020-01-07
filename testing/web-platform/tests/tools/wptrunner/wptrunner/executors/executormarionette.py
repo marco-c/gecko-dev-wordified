@@ -91,6 +91,8 @@ SelectorProtocolPart
                        
 ClickProtocolPart
                        
+SendKeysProtocolPart
+                       
 TestDriverProtocolPart
 )
 from
@@ -2091,6 +2093,46 @@ click
 (
 )
 class
+MarionetteSendKeysProtocolPart
+(
+SendKeysProtocolPart
+)
+:
+    
+def
+setup
+(
+self
+)
+:
+        
+self
+.
+marionette
+=
+self
+.
+parent
+.
+marionette
+    
+def
+send_keys
+(
+self
+element
+keys
+)
+:
+        
+return
+element
+.
+send_keys
+(
+keys
+)
+class
 MarionetteTestDriverProtocolPart
 (
 TestDriverProtocolPart
@@ -2220,6 +2262,8 @@ MarionetteStorageProtocolPart
 MarionetteSelectorProtocolPart
                   
 MarionetteClickProtocolPart
+                  
+MarionetteSendKeysProtocolPart
                   
 MarionetteTestDriverProtocolPart
 ]
