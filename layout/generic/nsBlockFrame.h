@@ -1770,7 +1770,13 @@ override
 bool
 IsVisibleInSelection
 (
-nsISelection
+mozilla
+:
+:
+dom
+:
+:
+Selection
 *
 aSelection
 )
