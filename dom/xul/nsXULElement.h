@@ -1991,6 +1991,9 @@ aWithMouse
 )
 override
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 NS_IMETHOD
 WalkContentStyleRules
 (
@@ -2000,6 +2003,8 @@ aRuleWalker
 )
 override
 ;
+#
+endif
 virtual
 nsChangeHint
 GetAttributeChangeHint

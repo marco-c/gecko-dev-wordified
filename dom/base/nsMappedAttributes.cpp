@@ -930,6 +930,9 @@ delete
 this
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 NS_IMPL_ADDREF
 (
 nsMappedAttributes
@@ -946,6 +949,8 @@ NS_IMPL_QUERY_INTERFACE
 nsMappedAttributes
 nsIStyleRule
 )
+#
+endif
 void
 nsMappedAttributes
 :
@@ -1538,6 +1543,9 @@ not
 ref
 counted
 }
+#
+ifdef
+MOZ_OLD_STYLE
 /
 *
 virtual
@@ -1786,6 +1794,8 @@ get
 ;
 }
 }
+#
+endif
 #
 endif
 void

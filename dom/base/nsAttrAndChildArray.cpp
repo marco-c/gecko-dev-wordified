@@ -3840,6 +3840,9 @@ mapped
 )
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 void
 nsAttrAndChildArray
 :
@@ -3875,6 +3878,8 @@ mMappedAttrs
 ;
 }
 }
+#
+endif
 void
 nsAttrAndChildArray
 :

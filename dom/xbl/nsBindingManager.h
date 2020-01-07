@@ -707,6 +707,9 @@ void
 aResult
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 /
 Style
@@ -741,6 +744,8 @@ ElementDependentRuleProcessorData
 aData
 )
 ;
+#
+endif
 /
 /
 Do

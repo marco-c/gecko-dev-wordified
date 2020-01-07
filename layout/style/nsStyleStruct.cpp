@@ -27054,6 +27054,9 @@ nsStyleVariables
 &
 aSource
 )
+#
+ifdef
+MOZ_OLD_STYLE
 :
 mVariables
 (
@@ -27061,6 +27064,8 @@ aSource
 .
 mVariables
 )
+#
+endif
 {
 MOZ_COUNT_CTOR
 (

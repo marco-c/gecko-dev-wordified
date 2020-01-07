@@ -2229,6 +2229,9 @@ return
 nullptr
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 class
 ResolvedStyleCache
 {
@@ -2548,6 +2551,8 @@ return
 result
 ;
 }
+#
+endif
 class
 MOZ_STACK_CLASS
 ServoCSSAnimationBuilder
@@ -2942,6 +2947,9 @@ Animation
 aAnimation
 )
 {
+dom
+:
+:
 AnimationEffectReadOnly
 *
 effect
@@ -3005,6 +3013,9 @@ mStyleContext
 ;
 }
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 class
 MOZ_STACK_CLASS
 GeckoCSSAnimationBuilder
@@ -3212,6 +3223,8 @@ nsTimingFunction
 aTimingFunction
 )
 ;
+#
+endif
 template
 <
 class
@@ -4095,6 +4108,9 @@ forget
 )
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 bool
 GeckoCSSAnimationBuilder
 :
@@ -6218,6 +6234,8 @@ propertyValue
 }
 }
 }
+#
+endif
 template
 <
 class
@@ -6415,6 +6433,9 @@ return
 result
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 void
 nsAnimationManager
 :
@@ -6546,6 +6567,8 @@ builder
 )
 ;
 }
+#
+endif
 void
 nsAnimationManager
 :

@@ -1744,6 +1744,9 @@ Initialize
 #
 ifdef
 DEBUG
+#
+ifdef
+MOZ_OLD_STYLE
 GeckoStyleContext
 :
 :
@@ -1751,6 +1754,8 @@ Initialize
 (
 )
 ;
+#
+endif
 mozilla
 :
 :
@@ -2040,6 +2045,9 @@ Shutdown
 (
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 nsCSSParser
 :
 :
@@ -2047,6 +2055,8 @@ Shutdown
 (
 )
 ;
+#
+endif
 nsMediaFeatures
 :
 :
@@ -2245,6 +2255,9 @@ Shutdown
 (
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 RuleProcessorCache
 :
 :
@@ -2252,6 +2265,8 @@ Shutdown
 (
 )
 ;
+#
+endif
 ShutdownJSEnvironment
 (
 )

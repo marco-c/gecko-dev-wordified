@@ -284,6 +284,9 @@ mPresContext
 aPresContext
 )
 {
+#
+ifdef
+MOZ_OLD_STYLE
 for
 (
 size_t
@@ -321,6 +324,8 @@ cascadeLevel
 )
 ;
 }
+#
+endif
 }
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
@@ -900,6 +905,9 @@ CSSPseudoElementType
 aPseudoType
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 /
 Updates
@@ -1171,6 +1179,8 @@ nsStyleContext
 aStyleContext
 )
 ;
+#
+endif
 /
 /
 Get
@@ -1260,6 +1270,9 @@ HasThrottledStyleUpdates
 )
 const
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 /
 Tell
@@ -1315,6 +1328,8 @@ aCascadeLevel
 ]
 ;
 }
+#
+endif
 static
 bool
 HasAnimationsForCompositor
@@ -1919,6 +1934,9 @@ EffectCompositor
 =
 default
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 /
 Rebuilds
@@ -1961,6 +1979,8 @@ CascadeLevel
 aCascadeLevel
 )
 ;
+#
+endif
 /
 /
 Get
@@ -2368,6 +2388,9 @@ mIsInPreTraverse
 =
 false
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 class
 AnimationStyleRuleProcessor
 final
@@ -2549,6 +2572,8 @@ AnimationStyleRuleProcessor
 >
 mRuleProcessors
 ;
+#
+endif
 }
 ;
 }

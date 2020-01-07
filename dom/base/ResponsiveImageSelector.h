@@ -883,6 +883,9 @@ RawServoSourceSizeList
 >
 mServoSourceSizeList
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 /
 Gecko
@@ -903,6 +906,8 @@ nsCSSValue
 >
 mSizeValues
 ;
+#
+endif
 }
 ;
 class

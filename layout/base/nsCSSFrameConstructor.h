@@ -568,6 +568,9 @@ ReconstructDocElementHierarchy
 InsertionKind
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 /
 Create
@@ -628,8 +631,13 @@ CreateNeededFrames
 (
 )
 ;
+#
+endif
 private
 :
+#
+ifdef
+MOZ_OLD_STYLE
 void
 CreateNeededFrames
 (
@@ -641,6 +649,8 @@ TreeMatchContext
 aTreeMatchContext
 )
 ;
+#
+endif
 enum
 Operation
 {
@@ -12258,6 +12268,9 @@ nsFrameItems
 aFrameItems
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 *
 *
@@ -12331,6 +12344,8 @@ Element
 aElement
 )
 ;
+#
+endif
 /
 *
 *

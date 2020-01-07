@@ -2236,6 +2236,9 @@ CSSTransition
 >
 CSSTransitionCollection
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 *
 *
@@ -2378,6 +2381,8 @@ inout
 /
 )
 ;
+#
+endif
 /
 *
 *
@@ -2422,6 +2427,9 @@ ServoStyleContext
 aNewStyle
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 *
 *
@@ -2512,6 +2520,8 @@ GeckoStyleContext
 aNewStyleContext
 )
 ;
+#
+endif
 void
 SetInAnimationOnlyStyleUpdate
 (

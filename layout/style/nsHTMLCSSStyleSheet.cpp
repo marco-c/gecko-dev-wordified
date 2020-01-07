@@ -422,6 +422,9 @@ Remove
 ;
 }
 }
+#
+ifdef
+MOZ_OLD_STYLE
 NS_IMPL_ISUPPORTS
 (
 nsHTMLCSSStyleSheet
@@ -1204,6 +1207,8 @@ aMallocSizeOf
 )
 ;
 }
+#
+endif
 void
 nsHTMLCSSStyleSheet
 :

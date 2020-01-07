@@ -394,6 +394,9 @@ aResult
 )
 const
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 *
 *
@@ -443,6 +446,8 @@ return
 mRuleProcessor
 ;
 }
+#
+endif
 /
 /
 Updates
@@ -551,6 +556,9 @@ StyleSheet
 >
 mStyleSheetList
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 /
 The
@@ -569,6 +577,8 @@ nsCSSRuleProcessor
 >
 mRuleProcessor
 ;
+#
+endif
 /
 /
 The

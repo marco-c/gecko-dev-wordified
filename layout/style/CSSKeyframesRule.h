@@ -281,6 +281,9 @@ aKey
 =
 0
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 bool
 UseForPresentation
 (
@@ -294,6 +297,8 @@ aKey
 final
 override
 ;
+#
+endif
 size_t
 SizeOfIncludingThis
 (

@@ -2123,6 +2123,9 @@ CSSAnimation
 >
 OwningCSSAnimationPtrArray
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 *
 *
@@ -2206,6 +2209,8 @@ Element
 aElement
 )
 ;
+#
+endif
 /
 *
 *

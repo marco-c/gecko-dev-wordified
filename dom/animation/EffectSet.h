@@ -985,6 +985,9 @@ Count
 )
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 RefPtr
 <
 AnimValuesStyleRule
@@ -1006,6 +1009,8 @@ aCascadeLevel
 ]
 ;
 }
+#
+endif
 const
 TimeStamp
 &
@@ -1132,6 +1137,9 @@ aPseudoType
 OwningEffectSet
 mEffects
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 /
 These
@@ -1214,6 +1222,8 @@ AnimValuesStyleRule
 >
 mAnimationRule
 ;
+#
+endif
 /
 /
 Refresh

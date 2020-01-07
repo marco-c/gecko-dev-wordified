@@ -629,6 +629,9 @@ aOldDoc
 )
 override
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 NS_IMETHOD
 WalkContentStyleRules
 (
@@ -646,6 +649,8 @@ nsRuleWalker
 aRuleWalker
 )
 ;
+#
+endif
 NS_IMETHOD_
 (
 bool

@@ -142,6 +142,9 @@ mozilla
 namespace
 dom
 {
+#
+ifdef
+MOZ_OLD_STYLE
 /
 *
 virtual
@@ -175,6 +178,8 @@ return
 false
 ;
 }
+#
+endif
 /
 *
 virtual

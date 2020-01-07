@@ -3173,6 +3173,9 @@ GetNext
 }
 }
 }
+#
+ifdef
+MOZ_OLD_STYLE
 nsIStyleRuleProcessor
 *
 nsXBLPrototypeBinding
@@ -3200,6 +3203,8 @@ return
 nullptr
 ;
 }
+#
+endif
 void
 nsXBLPrototypeBinding
 :

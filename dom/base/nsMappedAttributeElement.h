@@ -255,6 +255,9 @@ GenericSpecifiedValues
 aGenericData
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 NS_IMETHOD
 WalkContentStyleRules
 (
@@ -264,6 +267,8 @@ aRuleWalker
 )
 override
 ;
+#
+endif
 virtual
 bool
 SetAndSwapMappedAttribute

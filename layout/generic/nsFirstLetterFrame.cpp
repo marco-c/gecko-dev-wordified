@@ -547,6 +547,9 @@ containers
 "
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 MOZ_ASSERT_IF
 (
 f
@@ -583,6 +586,8 @@ StyleContext
 )
 )
 ;
+#
+endif
 nsLayoutUtils
 :
 :

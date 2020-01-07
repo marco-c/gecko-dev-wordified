@@ -581,6 +581,9 @@ RGBAColorData
 aEndColor
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 *
 *
@@ -749,6 +752,8 @@ double
 aDistance
 )
 ;
+#
+endif
 /
 *
 *
@@ -1156,6 +1161,9 @@ methods
 -
 -
 -
+#
+ifdef
+MOZ_OLD_STYLE
 /
 *
 *
@@ -1634,6 +1642,8 @@ PropertyStyleAnimationValuePair
 aResult
 )
 ;
+#
+endif
 /
 *
 *
@@ -1837,6 +1847,9 @@ nsAString
 aSpecifiedValue
 )
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 *
 *
@@ -1972,6 +1985,8 @@ StyleAnimationValue
 aComputedValue
 )
 ;
+#
+endif
 /
 *
 *

@@ -1925,6 +1925,9 @@ eColAnonymousCol
 #
 ifdef
 DEBUG
+#
+ifdef
+MOZ_OLD_STYLE
 nsIFrame
 *
 providerFrame
@@ -2086,6 +2089,8 @@ style
 context
 .
 }
+#
+endif
 #
 endif
 nextCol

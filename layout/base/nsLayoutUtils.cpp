@@ -53891,6 +53891,9 @@ nsIPrincipal
 aPrincipal
 )
 {
+#
+ifdef
+MOZ_OLD_STYLE
 /
 /
 Disable
@@ -53976,6 +53979,8 @@ return
 false
 ;
 }
+#
+endif
 return
 true
 ;

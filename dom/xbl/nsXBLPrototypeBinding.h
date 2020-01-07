@@ -1029,12 +1029,17 @@ aResult
 )
 const
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 nsIStyleRuleProcessor
 *
 GetRuleProcessor
 (
 )
 ;
+#
+endif
 void
 ComputeServoStyleSet
 (

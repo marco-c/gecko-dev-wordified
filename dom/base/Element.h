@@ -2573,6 +2573,9 @@ aModType
 )
 const
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 NS_IMETHOD
 WalkContentStyleRules
 (
@@ -2585,6 +2588,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 inline
 Directionality
 GetDirectionality
