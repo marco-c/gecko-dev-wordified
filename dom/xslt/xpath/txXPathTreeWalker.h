@@ -1346,12 +1346,8 @@ Content
 )
 -
 >
-IsNodeOfType
+IsComment
 (
-nsINode
-:
-:
-eCOMMENT
 )
 ;
 }
