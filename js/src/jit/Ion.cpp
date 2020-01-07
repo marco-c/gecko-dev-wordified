@@ -18149,6 +18149,7 @@ info
 .
 maybeIonScriptToInvalidate
 (
+types
 )
 ;
 if
@@ -18355,6 +18356,7 @@ info
 .
 maybeIonScriptToInvalidate
 (
+types
 )
 ;
 if
@@ -18519,6 +18521,7 @@ info
 .
 maybeIonScriptToInvalidate
 (
+types
 )
 )
 ClearIonScriptAfterInvalidation
