@@ -2864,7 +2864,7 @@ descriptor
 :
 &
 BlobImageDescriptor
-_dirty_rect
+dirty_rect
 :
 Option
 <
@@ -3522,6 +3522,11 @@ option_to_nullable
 request
 .
 tile
+)
+option_to_nullable
+(
+&
+dirty_rect
 )
 MutByteSlice
 :

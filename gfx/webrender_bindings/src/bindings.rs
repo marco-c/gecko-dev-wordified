@@ -11969,6 +11969,11 @@ tile_offset
 *
 const
 TileOffset
+dirty_rect
+:
+*
+const
+DeviceUintRect
 output
 :
 MutByteSlice
