@@ -562,6 +562,11 @@ createOnboardingTourButton
 div
 buttonId
 l10nId
+buttonElementTagName
+=
+"
+button
+"
 )
 {
 let
@@ -604,9 +609,7 @@ doc
 .
 createElement
 (
-"
-button
-"
+buttonElementTagName
 )
 ;
 button
@@ -3770,6 +3773,9 @@ screenshots
 .
 button
 "
+"
+a
+"
 )
 ;
 let
@@ -3780,7 +3786,7 @@ aside
 querySelector
 (
 "
-button
+a
 "
 )
 ;
