@@ -3836,6 +3836,10 @@ hasVisits
 child
 .
 uri
+)
+.
+then
+(
 isVisited
 =
 >
@@ -3851,6 +3855,13 @@ isVisited
 )
 ;
 }
+)
+.
+catch
+(
+Cu
+.
+reportError
 )
 ;
 }
