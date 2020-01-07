@@ -914,11 +914,9 @@ privatebrowsing
 "
 :
 "
-Open
-a
-private
-window
-?
+about
+:
+privatebrowsing
 "
 }
 ;

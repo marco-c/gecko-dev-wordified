@@ -5036,16 +5036,6 @@ if
 (
 !
 docTitle
-|
-|
-docTitle
-=
-=
-this
-.
-tabContainer
-.
-emptyTabTitle
 )
 docTitle
 =
