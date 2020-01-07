@@ -251,6 +251,8 @@ Bruno
 /
 city
 "
+Test
+locality
 "
 /
 /
@@ -278,6 +280,8 @@ en
 language
 code
 "
+Testing
+Org
 "
 /
 /
