@@ -702,11 +702,6 @@ IntrinsicIsSetIterator
 \
 _
 (
-IntrinsicIsStringIterator
-)
-\
-_
-(
 IntrinsicGuardToStringIterator
 )
 \
