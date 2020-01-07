@@ -4054,12 +4054,6 @@ JSContext
 ;
 public
 :
-js
-:
-:
-PerformanceGroupHolder
-performanceMonitoring
-;
 JS
 :
 :
@@ -6000,6 +5994,12 @@ js
 :
 ArraySpeciesLookup
 arraySpeciesLookup
+;
+js
+:
+:
+PerformanceGroupHolder
+performanceMonitoring
 ;
 js
 :

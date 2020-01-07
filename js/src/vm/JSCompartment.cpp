@@ -394,10 +394,6 @@ runtimeFromAnyThread
 (
 )
 )
-performanceMonitoring
-(
-runtime_
-)
 data
 (
 nullptr
@@ -522,6 +518,10 @@ zone
 runtimeFromMainThread
 (
 )
+)
+performanceMonitoring
+(
+runtime_
 )
 {
 MOZ_ASSERT_IF
