@@ -2429,10 +2429,7 @@ offset
 i64
 data
 :
-Option
-<
 ArrayBufferViewOrArrayBuffer
->
 )
 {
 self
