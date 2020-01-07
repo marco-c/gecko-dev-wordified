@@ -3245,17 +3245,6 @@ star
 \
 macro
 (
-starDefaultStar
-starDefaultStar
-"
-*
-default
-*
-"
-)
-\
-macro
-(
 start
 start
 "

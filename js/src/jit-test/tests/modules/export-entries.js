@@ -320,9 +320,7 @@ null
 localName
 :
 '
-*
 default
-*
 '
 }
 ]
@@ -352,9 +350,7 @@ null
 localName
 :
 '
-*
 default
-*
 '
 }
 ]
