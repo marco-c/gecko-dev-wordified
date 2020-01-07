@@ -94,7 +94,7 @@ filename
 digest
 chunk_size
 =
-1024
+131072
 )
 :
     
