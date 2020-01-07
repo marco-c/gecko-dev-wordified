@@ -242,6 +242,7 @@ blank
 correctly
 class
 nsNestedAboutURI
+final
 :
 public
 nsSimpleNestedURI

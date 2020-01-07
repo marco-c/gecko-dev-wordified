@@ -240,6 +240,7 @@ mediasource
 /
 class
 nsHostObjectURI
+final
 :
 public
 mozilla

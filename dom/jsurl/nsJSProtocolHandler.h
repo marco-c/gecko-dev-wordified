@@ -317,6 +317,7 @@ mTextToSubURI
 ;
 class
 nsJSURI
+final
 :
 public
 mozilla
