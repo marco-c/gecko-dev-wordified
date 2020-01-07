@@ -2424,7 +2424,7 @@ compositor
 /
 virtual
 bool
-MayBeAsynchronouslyScrolled
+IsMaybeAsynchronouslyScrolled
 (
 )
 =
