@@ -1983,6 +1983,13 @@ x86_64
 return
 1
         
+if
+path
+is
+not
+None
+:
+            
 path
 =
 self
