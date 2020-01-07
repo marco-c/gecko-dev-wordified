@@ -327,6 +327,7 @@ add
 ons
 engine
 .
+await
 Service
 .
 engineManager
@@ -2118,6 +2119,7 @@ clearChangedIDs
 (
 )
 ;
+await
 Service
 .
 engineManager

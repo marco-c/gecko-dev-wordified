@@ -535,6 +535,7 @@ clearChangedIDs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -640,6 +641,7 @@ clearChangedIDs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -825,6 +827,7 @@ clearChangedIDs
 (
 )
 ;
+await
 Service
 .
 engineManager
@@ -1081,6 +1084,7 @@ clearChangedIDs
 (
 )
 ;
+await
 Service
 .
 engineManager

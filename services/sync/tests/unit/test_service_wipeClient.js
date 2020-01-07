@@ -263,6 +263,7 @@ setup
 (
 )
 {
+await
 Service
 .
 engineManager

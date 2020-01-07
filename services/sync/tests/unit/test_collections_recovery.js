@@ -312,6 +312,7 @@ be
 initialized
 here
 .
+await
 Service
 .
 engineManager
