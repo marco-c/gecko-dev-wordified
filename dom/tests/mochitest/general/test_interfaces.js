@@ -11427,7 +11427,7 @@ name
 "
 VRDisplay
 "
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -11453,7 +11453,7 @@ name
 "
 VRDisplayCapabilities
 "
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -11479,7 +11479,7 @@ name
 "
 VRDisplayEvent
 "
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -11505,7 +11505,7 @@ name
 "
 VREyeParameters
 "
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -11531,7 +11531,7 @@ name
 "
 VRFieldOfView
 "
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -11557,7 +11557,7 @@ name
 "
 VRFrameData
 "
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -11583,7 +11583,7 @@ name
 "
 VRPose
 "
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -11609,7 +11609,7 @@ name
 "
 VRStageParameters
 "
-releaseNonWindowsAndMac
+releaseNonWindows
 :
 false
 }
@@ -12915,7 +12915,7 @@ isRelease
 (
 entry
 .
-releaseNonWindowsAndMac
+releaseNonWindows
 =
 =
 =
@@ -12926,10 +12926,6 @@ isRelease
 &
 !
 isWindows
-&
-&
-!
-isMac
 )
 )
 |
