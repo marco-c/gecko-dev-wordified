@@ -72,6 +72,11 @@ early
 type
 :
 SyntaxError
+features
+:
+[
+generators
+]
 -
 -
 -

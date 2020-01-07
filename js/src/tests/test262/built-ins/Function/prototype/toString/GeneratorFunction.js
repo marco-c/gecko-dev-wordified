@@ -54,6 +54,11 @@ with
 the
 GeneratorFunction
 constructor
+features
+:
+[
+generators
+]
 -
 -
 -

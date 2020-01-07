@@ -9,6 +9,8 @@ skip
 class
 -
 fields
+-
+public
 is
 not
 supported
@@ -49,7 +51,7 @@ class
 -
 fields
 /
-default
+productions
 /
 cls
 -
@@ -91,8 +93,11 @@ property
 -
 names
 class
+class
 -
 fields
+-
+public
 ]
 flags
 :

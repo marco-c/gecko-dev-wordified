@@ -83,6 +83,11 @@ literal
 \
 c
 "
+features
+:
+[
+generators
+]
 -
 -
 -

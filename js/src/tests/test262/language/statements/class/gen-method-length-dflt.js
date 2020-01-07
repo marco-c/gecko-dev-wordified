@@ -203,6 +203,7 @@ count
 features
 :
 [
+generators
 default
 -
 parameters

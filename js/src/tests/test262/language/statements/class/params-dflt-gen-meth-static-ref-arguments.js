@@ -71,6 +71,7 @@ es6id
 features
 :
 [
+generators
 default
 -
 parameters

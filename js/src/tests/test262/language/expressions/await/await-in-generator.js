@@ -55,6 +55,11 @@ generator
 is
 an
 identifier
+features
+:
+[
+generators
+]
 -
 -
 -

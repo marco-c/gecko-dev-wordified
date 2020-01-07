@@ -122,6 +122,11 @@ flags
 [
 module
 ]
+features
+:
+[
+generators
+]
 -
 -
 -

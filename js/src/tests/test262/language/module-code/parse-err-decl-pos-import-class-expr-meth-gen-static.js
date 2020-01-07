@@ -70,6 +70,11 @@ flags
 [
 module
 ]
+features
+:
+[
+generators
+]
 -
 -
 -

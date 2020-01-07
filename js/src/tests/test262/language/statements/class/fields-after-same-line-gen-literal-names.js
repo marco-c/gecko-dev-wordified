@@ -9,6 +9,8 @@ skip
 class
 -
 fields
+-
+public
 is
 not
 supported
@@ -47,7 +49,7 @@ class
 -
 fields
 /
-default
+productions
 /
 cls
 -
@@ -91,9 +93,13 @@ FieldDefinition
 features
 :
 [
+generators
+class
 class
 -
 fields
+-
+public
 ]
 flags
 :

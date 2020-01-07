@@ -12,6 +12,8 @@ SyntaxError
 class
 -
 fields
+-
+public
 is
 not
 supported
@@ -115,8 +117,11 @@ features
 :
 [
 class
+class
 -
 fields
+-
+public
 ]
 flags
 :

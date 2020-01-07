@@ -9,6 +9,8 @@ skip
 class
 -
 fields
+-
+public
 is
 not
 supported
@@ -51,7 +53,7 @@ class
 -
 fields
 /
-default
+productions
 /
 cls
 -
@@ -108,8 +110,11 @@ property
 -
 names
 class
+class
 -
 fields
+-
+public
 generators
 ]
 flags
@@ -163,10 +168,12 @@ Symbol
 class
 C
 {
+static
 [
 x
 ]
 ;
+static
 [
 y
 ]
@@ -290,7 +297,7 @@ hasOwnProperty
 .
 call
 (
-C
+c
 x
 )
 false
@@ -298,7 +305,7 @@ false
 ;
 verifyProperty
 (
-c
+C
 x
 {
 value
@@ -344,7 +351,7 @@ hasOwnProperty
 .
 call
 (
-C
+c
 y
 )
 false
@@ -352,7 +359,7 @@ false
 ;
 verifyProperty
 (
-c
+C
 y
 {
 value

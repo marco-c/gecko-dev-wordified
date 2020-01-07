@@ -361,6 +361,11 @@ flags
 [
 module
 ]
+features
+:
+[
+generators
+]
 -
 -
 -

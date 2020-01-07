@@ -53,6 +53,11 @@ should
 operate
 independently
 .
+features
+:
+[
+generators
+]
 -
 -
 -

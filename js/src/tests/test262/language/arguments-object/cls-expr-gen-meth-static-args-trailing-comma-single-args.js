@@ -85,6 +85,11 @@ arguments
 exotic
 -
 objects
+features
+:
+[
+generators
+]
 flags
 :
 [

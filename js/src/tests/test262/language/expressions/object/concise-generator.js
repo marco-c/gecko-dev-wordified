@@ -53,6 +53,11 @@ object
 literal
 concise
 generator
+features
+:
+[
+generators
+]
 -
 -
 -

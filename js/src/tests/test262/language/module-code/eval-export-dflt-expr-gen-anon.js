@@ -199,6 +199,11 @@ flags
 [
 module
 ]
+features
+:
+[
+generators
+]
 -
 -
 -
