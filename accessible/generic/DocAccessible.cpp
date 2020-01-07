@@ -15230,7 +15230,7 @@ role
 roles
 :
 :
-DOCUMENT
+NON_NATIVE_DOCUMENT
 )
 )
 {
