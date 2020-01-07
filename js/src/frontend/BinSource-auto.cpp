@@ -30612,6 +30612,14 @@ prepend
 callee
 )
 ;
+result
+-
+>
+setOp
+(
+JSOP_NEW
+)
+;
 return
 result
 ;
