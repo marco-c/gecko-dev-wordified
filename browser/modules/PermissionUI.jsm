@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -628,8 +627,7 @@ properties
 }
 )
 ;
-this
-.
+var
 PermissionUI
 =
 {
@@ -696,8 +694,7 @@ instead
 .
 *
 /
-this
-.
+var
 PermissionPromptPrototype
 =
 {
@@ -2399,8 +2396,7 @@ PermissionPromptPrototype
 .
 *
 /
-this
-.
+var
 PermissionPromptForRequestPrototype
 =
 {

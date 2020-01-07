@@ -298,8 +298,7 @@ PREF_LOGLEVEL
 }
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -308,8 +307,7 @@ Policies
 "
 ]
 ;
-this
-.
+var
 Policies
 =
 {
