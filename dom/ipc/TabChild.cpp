@@ -14463,6 +14463,7 @@ ProcessHangMonitor
 :
 ClearForcePaint
 (
+mLayerObserverEpoch
 )
 ;
 }
