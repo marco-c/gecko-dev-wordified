@@ -1064,6 +1064,11 @@ aComposite
 )
 ;
 void
+NotifySpecifiedTimingUpdated
+(
+)
+;
+void
 NotifyAnimationTimingUpdated
 (
 )
