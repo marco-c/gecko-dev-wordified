@@ -669,6 +669,8 @@ result
 False
 (
 "
+INTERNAL
+-
 ERROR
 "
 e
@@ -1339,6 +1341,8 @@ test
 result_cls
 (
 "
+INTERNAL
+-
 ERROR
 "
 message
