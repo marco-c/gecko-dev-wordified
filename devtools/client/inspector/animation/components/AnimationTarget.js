@@ -63,7 +63,7 @@ strict
 ;
 const
 {
-PureComponent
+Component
 }
 =
 require
@@ -185,7 +185,7 @@ ElementNode
 class
 AnimationTarget
 extends
-PureComponent
+Component
 {
 static
 get
