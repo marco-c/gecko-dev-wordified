@@ -1087,6 +1087,13 @@ globalmessagemanager
 .
 getService
 (
+content
+.
+SpecialPowers
+.
+Ci
+.
+nsIMessageListenerManager
 )
 ;
 mm
