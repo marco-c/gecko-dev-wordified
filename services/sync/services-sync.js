@@ -448,6 +448,13 @@ blob
 :
 .
 *
+|
+moz
+-
+extension
+:
+.
+*
 )
 "
 )
