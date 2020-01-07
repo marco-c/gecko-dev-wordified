@@ -152,8 +152,8 @@ public
 void
 onRecordStoreSucceeded
 (
-String
-guid
+int
+count
 )
 {
 log

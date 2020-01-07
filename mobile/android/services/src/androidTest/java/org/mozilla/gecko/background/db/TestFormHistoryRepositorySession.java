@@ -2073,9 +2073,7 @@ rec
 new
 ExpectStoredDelegate
 (
-rec
-.
-guid
+1
 )
 )
 )
@@ -2273,9 +2271,7 @@ rec
 new
 ExpectStoredDelegate
 (
-rec
-.
-guid
+1
 )
 )
 )
@@ -2342,9 +2338,7 @@ rec
 new
 ExpectStoredDelegate
 (
-rec
-.
-guid
+1
 )
 )
 )
@@ -2429,9 +2423,7 @@ rec
 new
 ExpectStoredDelegate
 (
-rec
-.
-guid
+1
 )
 )
 )
@@ -2824,9 +2816,7 @@ rec
 new
 ExpectStoredDelegate
 (
-rec
-.
-guid
+1
 )
 )
 )

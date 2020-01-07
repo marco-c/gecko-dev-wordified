@@ -477,9 +477,7 @@ storeDelegate
 .
 onRecordStoreSucceeded
 (
-record
-.
-guid
+1
 )
 ;
 }
@@ -1009,9 +1007,7 @@ delegate
 .
 onRecordStoreSucceeded
 (
-preparedToStore
-.
-guid
+1
 )
 ;
 return
@@ -1697,13 +1693,16 @@ trackRecord
 succeeded
 )
 ;
+}
 delegate
 .
 onRecordStoreSucceeded
 (
-succeeded
+outgoing
 .
-guid
+size
+(
+)
 )
 ;
 /
@@ -1716,6 +1715,5 @@ are
 really
 inserted
 .
-}
 }
 }

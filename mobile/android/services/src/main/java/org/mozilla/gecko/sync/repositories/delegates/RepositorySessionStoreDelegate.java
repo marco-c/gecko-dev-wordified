@@ -178,8 +178,8 @@ succeeded
 void
 onRecordStoreSucceeded
 (
-String
-guid
+int
+count
 )
 ;
 void

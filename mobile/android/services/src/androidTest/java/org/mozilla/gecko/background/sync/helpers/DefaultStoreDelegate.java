@@ -99,8 +99,8 @@ public
 void
 onRecordStoreSucceeded
 (
-String
-guid
+int
+count
 )
 {
 performNotify
@@ -208,8 +208,8 @@ void
 onRecordStoreSucceeded
 (
 final
-String
-guid
+int
+count
 )
 {
 executor
@@ -232,7 +232,7 @@ self
 .
 onRecordStoreSucceeded
 (
-guid
+count
 )
 ;
 }
