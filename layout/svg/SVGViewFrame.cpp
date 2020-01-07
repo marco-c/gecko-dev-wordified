@@ -549,15 +549,6 @@ nsGkAtoms
 :
 :
 viewBox
-|
-|
-aAttribute
-=
-=
-nsGkAtoms
-:
-:
-viewTarget
 )
 )
 {

@@ -779,15 +779,6 @@ false
 }
 else
 {
-/
-/
-We
-don
-'
-t
-support
-viewTarget
-currently
 return
 false
 ;
