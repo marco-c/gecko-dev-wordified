@@ -5339,6 +5339,9 @@ jitCompartment
 size_t
 *
 privateData
+size_t
+*
+scriptCountsMapArg
 )
 ;
 /

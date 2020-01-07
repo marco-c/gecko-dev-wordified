@@ -908,13 +908,6 @@ h
 #
 include
 "
-nsIDocCharset
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

@@ -2226,6 +2226,10 @@ jitCompartment
 cStats
 .
 privateData
+&
+cStats
+.
+scriptCountsMap
 )
 ;
 }

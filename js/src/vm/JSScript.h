@@ -1423,6 +1423,16 @@ size_t
 offset
 )
 ;
+size_t
+sizeOfIncludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+mallocSizeOf
+)
+;
 private
 :
 friend
