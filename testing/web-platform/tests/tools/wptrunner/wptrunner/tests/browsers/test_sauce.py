@@ -205,12 +205,16 @@ net
 }
         
 sauce_connect
-.
-__enter__
 (
 None
 env_config
 )
+        
+with
+sauce_connect
+:
+            
+pass
 pytest
 .
 mark
@@ -408,6 +412,12 @@ net
         
 }
         
+sauce_connect
+(
+None
+env_config
+)
+        
 with
 pytest
 .
@@ -419,13 +429,11 @@ SauceException
 )
 :
             
+with
 sauce_connect
-.
-__enter__
-(
-None
-env_config
-)
+:
+                
+pass
         
 #
 Given
@@ -601,6 +609,12 @@ net
         
 }
         
+sauce_connect
+(
+None
+env_config
+)
+        
 with
 pytest
 .
@@ -612,13 +626,11 @@ SauceException
 )
 :
             
+with
 sauce_connect
-.
-__enter__
-(
-None
-env_config
-)
+:
+                
+pass
         
 #
 We
@@ -817,33 +829,35 @@ net
 }
         
 sauce_connect
-.
-__enter__
 (
 None
 env_config
 )
         
+with
+sauce_connect
+:
+            
 Popen
 .
 assert_called_once
 (
 )
-        
+            
 args
 kwargs
 =
 Popen
 .
 call_args
-        
+            
 cmd
 =
 args
 [
 0
 ]
-        
+            
 assert
 "
 -
@@ -854,7 +868,7 @@ domains
 "
 in
 cmd
-        
+            
 i
 =
 cmd
@@ -869,7 +883,7 @@ tunnel
 domains
 "
 )
-        
+            
 rest
 =
 cmd
@@ -879,7 +893,7 @@ i
 1
 :
 ]
-        
+            
 assert
 len
 (
@@ -888,7 +902,7 @@ rest
 >
 =
 1
-        
+            
 if
 len
 (
@@ -897,7 +911,7 @@ rest
 >
 1
 :
-            
+                
 assert
 rest
 [
@@ -929,7 +943,7 @@ separated
 list
 )
 "
-        
+            
 assert
 set
 (
