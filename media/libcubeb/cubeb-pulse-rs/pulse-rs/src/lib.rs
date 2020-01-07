@@ -2152,7 +2152,6 @@ mem
 transmute
 (
 (
-(
 self
 .
 0
@@ -2165,7 +2164,6 @@ PA_SUBSCRIPTION_EVENT_TYPE_MASK
 >
 >
 4
-)
 )
 }
 }
