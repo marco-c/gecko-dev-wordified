@@ -504,7 +504,7 @@ mozilla
 /
 dom
 /
-WebAuthnTransactionChildBase
+WebAuthnTransactionChild
 .
 h
 "
@@ -705,7 +705,7 @@ mozilla
 dom
 :
 :
-WebAuthnTransactionChildBase
+WebAuthnTransactionChild
 ;
 /
 /
@@ -3828,7 +3828,7 @@ RefPtr
 dom
 :
 :
-WebAuthnTransactionChildBase
+WebAuthnTransactionChild
 >
 child
 =
@@ -3839,7 +3839,7 @@ static_cast
 dom
 :
 :
-WebAuthnTransactionChildBase
+WebAuthnTransactionChild
 *
 >
 (
