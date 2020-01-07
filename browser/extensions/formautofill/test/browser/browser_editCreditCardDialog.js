@@ -1304,6 +1304,10 @@ test
 win
 )
 ;
+EventUtils
+.
+synthesizeMouseAtCenter
+(
 win
 .
 document
@@ -1315,9 +1319,9 @@ querySelector
 save
 "
 )
-.
-click
-(
+{
+}
+win
 )
 ;
 is
