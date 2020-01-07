@@ -48673,6 +48673,15 @@ Type
 ;
 if
 (
+!
+nsLayoutUtils
+:
+:
+IsContentSelectEnabled
+(
+)
+&
+&
 frameType
 =
 =
