@@ -733,7 +733,7 @@ ReflectionTarget
 public
 static
 synchronized
-void
+boolean
 onCreate
 (
 Context
@@ -749,6 +749,7 @@ null
 )
 {
 return
+false
 ;
 }
 sInstance
@@ -770,6 +771,9 @@ sInstance
 onStartup
 (
 )
+;
+return
+true
 ;
 }
 protected
