@@ -13523,11 +13523,8 @@ cache
 nsLayoutStylesheetCache
 :
 :
-For
+Singleton
 (
-GetStyleBackendType
-(
-)
 )
 ;
 agentSheets
@@ -14290,11 +14287,8 @@ cache
 nsLayoutStylesheetCache
 :
 :
-For
+Singleton
 (
-GetStyleBackendType
-(
-)
 )
 ;
 StyleSheet

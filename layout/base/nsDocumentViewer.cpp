@@ -13728,9 +13728,8 @@ cache
 nsLayoutStylesheetCache
 :
 :
-For
+Singleton
 (
-backendType
 )
 ;
 /

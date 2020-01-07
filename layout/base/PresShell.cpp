@@ -9387,14 +9387,8 @@ cache
 nsLayoutStylesheetCache
 :
 :
-For
+Singleton
 (
-mStyleSet
--
->
-BackendType
-(
-)
 )
 ;
 RefPtr
