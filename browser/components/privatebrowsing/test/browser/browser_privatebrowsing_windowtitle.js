@@ -232,9 +232,9 @@ Browsing
 ;
 pb_about_pb_title
 =
+app_name
++
 "
-Private
-Browsing
 -
 (
 Private
@@ -302,12 +302,6 @@ Browsing
 ;
 pb_about_pb_title
 =
-"
-Private
-Browsing
--
-"
-+
 app_name
 +
 "
@@ -501,7 +495,7 @@ expected_title
 }
 got
 {
-aWindow
+win
 .
 document
 .
