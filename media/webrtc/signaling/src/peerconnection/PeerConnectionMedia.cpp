@@ -6719,9 +6719,12 @@ AddTransceiver
 JsepTransceiver
 *
 aJsepTransceiver
-DOMMediaStream
+dom
+:
+:
+MediaStreamTrack
 &
-aReceiveStream
+aReceiveTrack
 dom
 :
 :
@@ -6778,7 +6781,8 @@ mSTSThread
 get
 (
 )
-aReceiveStream
+&
+aReceiveTrack
 aSendTrack
 mCall
 .
