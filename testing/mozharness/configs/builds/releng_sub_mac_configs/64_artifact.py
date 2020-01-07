@@ -111,13 +111,6 @@ clone
 tools
 '
         
-#
-'
-setup
--
-mock
-'
-        
 '
 checkout
 -

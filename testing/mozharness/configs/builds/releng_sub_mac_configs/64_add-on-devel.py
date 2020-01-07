@@ -25,12 +25,6 @@ checkout
 -
 sources
 '
-#
-'
-setup
--
-mock
-'
         
 '
 build

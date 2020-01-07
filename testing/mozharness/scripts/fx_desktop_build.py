@@ -259,12 +259,6 @@ sources
 '
                 
 '
-setup
--
-mock
-'
-                
-'
 build
 '
                 
@@ -2076,31 +2070,6 @@ BuildingMixin
 -
 >
 PurgeMixin
-        
-#
-if
-Linux
-config
-:
-        
-#
-reset_mock
-in
-BuildingMixing
--
->
-MockMixin
-        
-#
-setup_mock
-in
-BuildingMixing
-(
-overrides
-MockMixin
-.
-mock_setup
-)
     
 def
 set_extra_try_arguments

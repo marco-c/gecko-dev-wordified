@@ -26,18 +26,6 @@ checkout
 sources
 '
         
-#
-'
-setup
--
-mock
-'
-windows
-do
-not
-use
-mock
-        
 '
 build
 '
