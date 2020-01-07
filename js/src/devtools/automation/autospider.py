@@ -3771,6 +3771,18 @@ bin
 "
 )
         
+if
+not
+os
+.
+path
+.
+isdir
+(
+hostdir
+)
+:
+            
 os
 .
 makedirs
@@ -3848,6 +3860,18 @@ RUST_TARGET
 RUSTC_COMMIT
 =
 0
+'
+            
+'
+MOZ_CRASHREPORTER
+=
+1
+'
+            
+'
+MOZ_AUTOMATION_BUILD_SYMBOLS
+=
+1
 '
         
 ]
