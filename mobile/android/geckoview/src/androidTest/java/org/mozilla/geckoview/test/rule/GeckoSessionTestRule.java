@@ -4142,7 +4142,7 @@ mCallbackProxy
 }
 mSession
 .
-open
+openWindow
 (
 mInstrumentation
 .
@@ -4248,7 +4248,7 @@ isOpen
 {
 mSession
 .
-close
+closeWindow
 (
 )
 ;
