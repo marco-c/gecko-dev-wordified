@@ -2986,6 +2986,14 @@ contentWindow
 .
 document
 ;
+doc
+.
+docShell
+.
+cssErrorReportingEnabled
+=
+true
+;
 /
 /
 Parse
