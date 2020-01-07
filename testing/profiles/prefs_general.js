@@ -2478,9 +2478,9 @@ network
 .
 activity
 .
-blipIntervalMilliseconds
+intervalMilliseconds
 "
-250
+5000
 )
 ;
 /
