@@ -6623,6 +6623,10 @@ picture
 ?
 "
 )
+&
+metadata
+.
+local_rect
 child_tasks
 parent_tasks
 )
@@ -9957,6 +9961,8 @@ height
 .
 0
 {
+/
+/
 warn
 !
 (
