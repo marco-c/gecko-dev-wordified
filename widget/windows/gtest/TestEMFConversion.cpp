@@ -1155,7 +1155,7 @@ ASSERT_FALSE
 PDFHelper
 -
 >
-DrawPageToFile
+PageToFile
 (
 emfPath
 .
