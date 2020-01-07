@@ -4890,7 +4890,7 @@ init
 group
 )
 ;
-if
+MOZ_ASSERT
 (
 clasp
 -
@@ -4899,6 +4899,7 @@ shouldDelayMetadataBuilder
 (
 )
 )
+;
 cx
 -
 >
@@ -4908,15 +4909,6 @@ compartment
 -
 >
 setObjectPendingMetadata
-(
-cx
-uobj
-)
-;
-else
-uobj
-=
-SetNewObjectMetadata
 (
 cx
 uobj
