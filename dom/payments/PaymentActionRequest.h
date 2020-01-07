@@ -251,6 +251,9 @@ nsIPaymentOptions
 >
 mOptions
 ;
+nsString
+mShippingOption
+;
 }
 ;
 class
@@ -329,6 +332,9 @@ nsCOMPtr
 nsIPaymentDetails
 >
 mDetails
+;
+nsString
+mShippingOption
 ;
 }
 ;
