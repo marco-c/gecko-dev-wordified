@@ -401,6 +401,21 @@ psutil
 disk_io_counters
 (
 )
+        
+if
+io_counters
+is
+None
+:
+            
+return
+PsutilStub
+(
+)
+.
+disk_io_counters
+(
+)
     
 except
 RuntimeError
