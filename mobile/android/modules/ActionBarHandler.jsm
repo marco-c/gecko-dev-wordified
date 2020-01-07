@@ -4769,13 +4769,6 @@ OutputRaw
 return
 selection
 .
-QueryInterface
-(
-Ci
-.
-nsISelectionPrivate
-)
-.
 toStringWithFormat
 (
 "

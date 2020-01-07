@@ -2712,13 +2712,6 @@ line
 .
 selection
 .
-QueryInterface
-(
-Ci
-.
-nsISelectionPrivate
-)
-.
 interlinePosition
 =
 true
