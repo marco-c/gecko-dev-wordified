@@ -148,6 +148,13 @@ windows
 h
 >
 #
+include
+"
+StringOperations
+.
+h
+"
+#
 else
 #
 include
@@ -413,9 +420,9 @@ std
 string
 Hash
 =
-Hash
+hash
 (
-filename
+Filename
 )
 ;
 std
@@ -622,7 +629,7 @@ Filename
 )
 {
 char
-full
+Full
 [
 _MAX_PATH
 ]
