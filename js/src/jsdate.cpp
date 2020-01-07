@@ -8647,7 +8647,7 @@ clampAndJitter
 JS
 :
 :
-CompartmentCreationOptionsRef
+RealmCreationOptionsRef
 (
 js
 :

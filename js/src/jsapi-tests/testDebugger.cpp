@@ -166,7 +166,7 @@ global
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS

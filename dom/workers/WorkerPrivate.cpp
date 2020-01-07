@@ -12901,7 +12901,7 @@ mJSSettings
 .
 chrome
 .
-compartmentOptions
+realmOptions
 .
 creationOptions
 (
@@ -12916,7 +12916,7 @@ mJSSettings
 .
 chrome
 .
-compartmentOptions
+realmOptions
 .
 creationOptions
 (
@@ -12931,7 +12931,7 @@ mJSSettings
 .
 content
 .
-compartmentOptions
+realmOptions
 .
 creationOptions
 (
@@ -12946,7 +12946,7 @@ mJSSettings
 .
 content
 .
-compartmentOptions
+realmOptions
 .
 creationOptions
 (

@@ -1369,7 +1369,7 @@ object
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS

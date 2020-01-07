@@ -526,7 +526,7 @@ zone
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 globalOptions
 ;
 RootedObject
@@ -944,7 +944,7 @@ compartment
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 globalOptions
 ;
 RootedObject

@@ -4788,7 +4788,7 @@ mContext
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 options

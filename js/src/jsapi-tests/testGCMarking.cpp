@@ -223,7 +223,7 @@ zone
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 global2

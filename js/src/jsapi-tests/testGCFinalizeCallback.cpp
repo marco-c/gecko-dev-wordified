@@ -1193,7 +1193,7 @@ createTestGlobal
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 return

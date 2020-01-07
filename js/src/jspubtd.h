@@ -250,7 +250,7 @@ TransitiveCompileOptions
 class
 JS_PUBLIC_API
 (
-CompartmentOptions
+RealmOptions
 )
 ;
 }

@@ -1289,7 +1289,7 @@ initStandardClasses
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 XPCWrappedNative

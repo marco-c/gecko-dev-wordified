@@ -236,7 +236,7 @@ compartment
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS
@@ -376,7 +376,7 @@ compartment
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS

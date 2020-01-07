@@ -10069,7 +10069,7 @@ static
 JS
 :
 :
-CompartmentCreationOptions
+RealmCreationOptions
 &
 SelectZone
 (
@@ -10079,7 +10079,7 @@ aNewInner
 JS
 :
 :
-CompartmentCreationOptions
+RealmCreationOptions
 &
 aOptions
 )
@@ -10291,7 +10291,7 @@ supported
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 SelectZone

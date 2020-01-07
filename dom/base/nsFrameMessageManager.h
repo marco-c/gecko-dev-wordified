@@ -2587,7 +2587,7 @@ aCx
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 aOptions
 JS

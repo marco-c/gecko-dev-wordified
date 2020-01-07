@@ -4744,8 +4744,8 @@ compartment
 JS
 :
 :
-CompartmentOptions
-compartmentOptions
+RealmOptions
+realmOptions
 (
 currentCompartment
 -
@@ -4765,7 +4765,7 @@ auto
 &
 creationOptions
 =
-compartmentOptions
+realmOptions
 .
 creationOptions
 (
@@ -4823,7 +4823,7 @@ JS
 :
 :
 DontFireOnNewGlobalHook
-compartmentOptions
+realmOptions
 )
 ;
 if

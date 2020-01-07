@@ -383,14 +383,14 @@ const
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 &
 options
 =
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 (
 )
 )

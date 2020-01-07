@@ -647,7 +647,7 @@ GlobalClassOps
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS

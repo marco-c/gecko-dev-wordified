@@ -301,8 +301,8 @@ JSContentChromeSettings
 JS
 :
 :
-CompartmentOptions
-compartmentOptions
+RealmOptions
+realmOptions
 ;
 int32_t
 maxScriptRuntime
@@ -311,7 +311,7 @@ JSContentChromeSettings
 (
 )
 :
-compartmentOptions
+realmOptions
 (
 )
 maxScriptRuntime

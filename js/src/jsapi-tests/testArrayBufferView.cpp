@@ -778,7 +778,7 @@ ExpectedLength
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS

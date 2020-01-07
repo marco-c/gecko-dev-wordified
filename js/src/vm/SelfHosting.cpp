@@ -19566,7 +19566,7 @@ compartment
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 options

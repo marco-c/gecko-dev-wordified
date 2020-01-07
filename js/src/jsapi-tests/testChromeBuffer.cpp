@@ -280,7 +280,7 @@ system_principals
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 trusted_glob

@@ -187,7 +187,7 @@ FireOnNewGlobalHook
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 :
 :
 default
@@ -883,7 +883,7 @@ FireOnNewGlobalHook
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 :
 :
 default

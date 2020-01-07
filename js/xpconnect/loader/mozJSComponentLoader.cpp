@@ -3306,7 +3306,7 @@ NS_ENSURE_SUCCESS_VOID
 rv
 )
 ;
-CompartmentOptions
+RealmOptions
 options
 ;
 options

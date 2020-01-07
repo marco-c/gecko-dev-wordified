@@ -497,7 +497,7 @@ object
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 RootedObject

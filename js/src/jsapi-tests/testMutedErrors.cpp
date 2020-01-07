@@ -613,7 +613,7 @@ len
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 globalOptions
 ;
 JS

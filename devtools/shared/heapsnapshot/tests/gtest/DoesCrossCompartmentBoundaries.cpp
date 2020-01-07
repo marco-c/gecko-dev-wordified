@@ -132,7 +132,7 @@ compartment
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS

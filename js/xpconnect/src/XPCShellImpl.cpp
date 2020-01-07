@@ -8081,7 +8081,7 @@ coverage
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 options
@@ -8395,7 +8395,7 @@ scripts
 JS
 :
 :
-CompartmentBehaviorsRef
+RealmBehaviorsRef
 (
 glob
 )

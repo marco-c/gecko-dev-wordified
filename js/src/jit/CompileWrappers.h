@@ -561,7 +561,7 @@ hasAllocationMetadataBuilder
 /
 /
 Mirror
-CompartmentOptions
+RealmOptions
 .
 void
 setSingletonsAsValues

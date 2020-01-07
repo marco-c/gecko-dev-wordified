@@ -1639,7 +1639,7 @@ name
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 JS

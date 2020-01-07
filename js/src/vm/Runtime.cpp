@@ -1235,7 +1235,7 @@ false
 JS
 :
 :
-CompartmentOptions
+RealmOptions
 options
 ;
 ScopedJSDeletePtr

@@ -10638,7 +10638,7 @@ if
 JS
 :
 :
-CompartmentCreationOptionsRef
+RealmCreationOptionsRef
 (
 cx
 )
