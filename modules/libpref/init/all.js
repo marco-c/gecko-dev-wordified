@@ -19787,7 +19787,7 @@ tls
 .
 enable_0rtt_data
 "
-false
+true
 )
 ;
 /
