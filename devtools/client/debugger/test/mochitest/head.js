@@ -321,8 +321,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -2926,7 +2924,6 @@ aEventName
 function
 onEvent
 (
-aEventName
 .
 .
 .

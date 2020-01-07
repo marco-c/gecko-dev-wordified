@@ -932,8 +932,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -3306,7 +3304,6 @@ SOURCE_SHOWN
 function
 onShown
 (
-_
 source
 )
 {
