@@ -601,6 +601,11 @@ CreateExternalImageIfNeeded
 (
 )
 ;
+void
+DoClearCachedResources
+(
+)
+;
 wr
 :
 :
@@ -706,6 +711,12 @@ UserDataType
 eFallback
 ;
 }
+void
+ClearCachedResources
+(
+)
+override
+;
 nsDisplayItemGeometry
 *
 GetGeometry
@@ -980,6 +991,11 @@ override
 ;
 protected
 :
+void
+DoClearCachedResources
+(
+)
+;
 UniquePtr
 <
 WebRenderCanvasRendererAsync
