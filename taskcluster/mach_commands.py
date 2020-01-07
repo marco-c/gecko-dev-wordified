@@ -2815,7 +2815,7 @@ taskgraph
 :
         
 for
-label
+index
 in
 taskgraph
 .
@@ -2828,6 +2828,13 @@ visit_postorder
             
 print
 (
+taskgraph
+.
+tasks
+[
+index
+]
+.
 label
 )
     
