@@ -1135,12 +1135,7 @@ mDoPaintFocus
 =
 false
 ;
-PresContext
-(
-)
--
->
-FrameManager
+PresShell
 (
 )
 -
@@ -1178,12 +1173,7 @@ mDoPaintFocus
 =
 aHasFocus
 ;
-PresContext
-(
-)
--
->
-FrameManager
+PresShell
 (
 )
 -

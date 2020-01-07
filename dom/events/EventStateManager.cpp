@@ -16301,12 +16301,7 @@ GetCrossDocParentFrame
 aTargetFrame
 -
 >
-PresContext
-(
-)
--
->
-FrameManager
+PresShell
 (
 )
 -

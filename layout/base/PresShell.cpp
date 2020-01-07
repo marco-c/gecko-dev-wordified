@@ -66155,11 +66155,6 @@ rootFrame
 mPresShell
 -
 >
-FrameManager
-(
-)
--
->
 GetRootFrame
 (
 )

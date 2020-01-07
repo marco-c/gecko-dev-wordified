@@ -231,11 +231,6 @@ rootFrame
 aShell
 -
 >
-FrameManager
-(
-)
--
->
 GetRootFrame
 (
 )

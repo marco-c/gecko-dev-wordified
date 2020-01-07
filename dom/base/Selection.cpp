@@ -1388,11 +1388,6 @@ PresShell
 )
 -
 >
-FrameManager
-(
-)
--
->
 GetRootFrame
 (
 )
@@ -10653,7 +10648,7 @@ GetPrimaryFrame
 aPresContext
 -
 >
-FrameManager
+PresShell
 (
 )
 -
@@ -12975,11 +12970,6 @@ PresShell
 )
 -
 >
-FrameManager
-(
-)
--
->
 GetRootFrame
 (
 )
@@ -13341,11 +13331,6 @@ presContextPoint
 globalPoint
 -
 shell
--
->
-FrameManager
-(
-)
 -
 >
 GetRootFrame

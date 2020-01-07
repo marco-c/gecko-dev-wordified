@@ -8766,7 +8766,7 @@ rootFrame
 aRootPresContext
 -
 >
-FrameManager
+PresShell
 (
 )
 -
@@ -8969,11 +8969,6 @@ presContext
 -
 >
 PresShell
-(
-)
--
->
-FrameManager
 (
 )
 -

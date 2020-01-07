@@ -3170,11 +3170,6 @@ rootFrame
 mShell
 -
 >
-FrameManager
-(
-)
--
->
 GetRootFrame
 (
 )

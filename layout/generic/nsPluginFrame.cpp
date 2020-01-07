@@ -1513,11 +1513,6 @@ PresShell
 )
 -
 >
-FrameManager
-(
-)
--
->
 GetRootFrame
 (
 )
@@ -3920,11 +3915,6 @@ rootPC
 -
 >
 PresShell
-(
-)
--
->
-FrameManager
 (
 )
 -
