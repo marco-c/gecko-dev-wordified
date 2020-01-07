@@ -3108,12 +3108,12 @@ value
 is
 /
 /
-nsIDOMUIEvent
+UIEvent
 :
 :
 SCROLL_PAGE_UP
 or
-nsIDOMUIEvent
+UIEvent
 :
 :
 SCROLL_PAGE_DOWN
