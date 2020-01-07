@@ -437,6 +437,12 @@ const
 FocusTarget
 &
 aFocusTarget
+const
+ScrollUpdatesMap
+&
+aUpdates
+uint32_t
+aPaintSequenceNumber
 TransactionId
 aTransactionId
 const

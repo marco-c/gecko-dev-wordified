@@ -822,6 +822,12 @@ const
 FocusTarget
 &
 aFocusTarget
+const
+ScrollUpdatesMap
+&
+aUpdates
+uint32_t
+aPaintSequenceNumber
 TransactionId
 aTransactionId
 const
@@ -870,6 +876,8 @@ this
 SendEmptyTransaction
 (
 aFocusTarget
+aUpdates
+aPaintSequenceNumber
 mParentCommands
 mDestroyedActors
 GetFwdTransactionId
