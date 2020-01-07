@@ -2045,6 +2045,16 @@ extra_prefixes
 =
 "
 moz
+:
+layout
+.
+css
+.
+prefixes
+.
+border
+-
+image
 webkit
 "
 spec

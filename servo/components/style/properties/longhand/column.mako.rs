@@ -664,6 +664,16 @@ extra_prefixes
 =
 "
 moz
+:
+layout
+.
+css
+.
+column
+-
+span
+.
+enabled
 "
 )
 }
