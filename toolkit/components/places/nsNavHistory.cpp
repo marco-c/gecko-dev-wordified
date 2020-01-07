@@ -16073,7 +16073,7 @@ NS_ENSURE_ARG_POINTER
 _DBConnection
 )
 ;
-RefPtr
+nsCOMPtr
 <
 mozIStorageConnection
 >

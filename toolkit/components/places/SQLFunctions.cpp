@@ -3645,7 +3645,7 @@ the
 database
 .
 {
-RefPtr
+nsCOMPtr
 <
 mozIStorageStatement
 >
