@@ -234,6 +234,10 @@ NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 ServiceWorkerRegistration
 )
+NS_INTERFACE_MAP_ENTRY
+(
+ServiceWorkerRegistration
+)
 NS_INTERFACE_MAP_END_INHERITING
 (
 DOMEventTargetHelper
