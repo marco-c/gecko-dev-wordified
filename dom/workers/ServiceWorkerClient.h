@@ -165,17 +165,6 @@ ClientBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-DOMPreferences
-.
-h
-"
 class
 nsIDocument
 ;
