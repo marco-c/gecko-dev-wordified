@@ -1439,6 +1439,9 @@ click
 selectTool
 (
 id
+"
+tab_switch
+"
 )
 ;
 }

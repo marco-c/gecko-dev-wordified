@@ -3194,6 +3194,9 @@ toolbox
 selectTool
 (
 toolId
+"
+toolbox_show
+"
 )
 ;
 }

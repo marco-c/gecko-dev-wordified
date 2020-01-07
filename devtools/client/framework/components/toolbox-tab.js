@@ -434,6 +434,9 @@ onMouseDown
 selectTool
 (
 id
+"
+tab_switch
+"
 )
 onKeyDown
 :
@@ -469,6 +472,9 @@ key
 selectTool
 (
 id
+"
+tab_switch
+"
 )
 ;
 }
