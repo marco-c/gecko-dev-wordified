@@ -6451,7 +6451,7 @@ return
 true
 ;
 }
-bool
+void
 StyleShapeSource
 :
 :
@@ -6503,9 +6503,6 @@ StyleShapeSourceType
 :
 :
 URL
-;
-return
-true
 ;
 }
 void
