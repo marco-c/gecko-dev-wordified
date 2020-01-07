@@ -5969,7 +5969,7 @@ Frame
 /
 MOZ_MUST_USE
 bool
-getScriptFrameWithIter
+getFrameWithIter
 (
 JSContext
 *
@@ -5986,7 +5986,7 @@ vp
 ;
 MOZ_MUST_USE
 bool
-getScriptFrameWithIter
+getFrameWithIter
 (
 JSContext
 *
@@ -7873,7 +7873,7 @@ stack
 /
 MOZ_MUST_USE
 bool
-getScriptFrame
+getFrame
 (
 JSContext
 *
@@ -7885,7 +7885,7 @@ vp
 )
 {
 return
-getScriptFrameWithIter
+getFrameWithIter
 (
 cx
 frame
@@ -7956,7 +7956,7 @@ paid
 /
 MOZ_MUST_USE
 bool
-getScriptFrame
+getFrame
 (
 JSContext
 *
@@ -7970,7 +7970,7 @@ vp
 )
 {
 return
-getScriptFrameWithIter
+getFrameWithIter
 (
 cx
 iter
@@ -7986,7 +7986,7 @@ vp
 }
 MOZ_MUST_USE
 bool
-getScriptFrame
+getFrame
 (
 JSContext
 *
