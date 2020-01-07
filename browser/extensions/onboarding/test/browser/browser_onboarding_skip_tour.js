@@ -317,9 +317,9 @@ tests
 ok
 (
 !
-gBrowser
+content
 .
-contentDocumentAsCPOW
+document
 .
 querySelector
 (

@@ -59,7 +59,7 @@ ok
 (
 browser
 .
-contentDocumentAsCPOW
+contentDocument
 .
 getElementById
 (

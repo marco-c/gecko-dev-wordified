@@ -138,7 +138,7 @@ onReflowListenersReady
 {
 browser
 .
-contentDocumentAsCPOW
+contentDocument
 .
 body
 .
@@ -152,7 +152,7 @@ none
 ;
 browser
 .
-contentDocumentAsCPOW
+contentDocument
 .
 body
 .

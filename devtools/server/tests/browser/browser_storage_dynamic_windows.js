@@ -1469,9 +1469,9 @@ tests
 let
 iframe
 =
-gBrowser
+content
 .
-contentDocumentAsCPOW
+document
 .
 createElement
 (
@@ -1514,9 +1514,9 @@ cpows
 in
 -
 tests
-gBrowser
+content
 .
-contentDocumentAsCPOW
+document
 .
 querySelector
 (

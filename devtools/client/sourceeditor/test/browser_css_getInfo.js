@@ -1373,9 +1373,9 @@ tests
 /
 doc
 =
-gBrowser
+content
 .
-contentDocumentAsCPOW
+document
 ;
 /
 *

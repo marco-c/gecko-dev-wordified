@@ -2073,7 +2073,7 @@ gBrowser
 .
 selectedBrowser
 .
-contentDocumentAsCPOW
+contentDocument
 ;
 let
 frame

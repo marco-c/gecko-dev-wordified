@@ -131,10 +131,10 @@ addTab
 gBrowser
 )
 ;
-gBrowser
+content
 .
-loadURI
-(
+location
+=
 "
 data
 :
@@ -153,7 +153,6 @@ unsaved
 file
 changes
 "
-)
 ;
 }
 function

@@ -285,14 +285,13 @@ call
 ?
 ?
 await
-BrowserTestUtils
-.
 waitForEvent
 (
 gNewWindow
 "
 load
 "
+null
 true
 )
 ;
