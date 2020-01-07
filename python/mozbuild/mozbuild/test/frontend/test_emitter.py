@@ -11806,7 +11806,6 @@ US
 /
 or
 contain
-/
 locales
 /
 en
@@ -11856,7 +11855,6 @@ US
 /
 or
 contain
-/
 locales
 /
 en
