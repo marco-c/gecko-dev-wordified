@@ -54,12 +54,6 @@ in
 env
     
 '
-enable_signing
-'
-:
-True
-    
-'
 vcs_share_base
 '
 :

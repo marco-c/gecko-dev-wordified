@@ -15,12 +15,6 @@ en
 +
     
 '
-enable_signing
-'
-:
-False
-    
-'
 base_name
 '
 :

@@ -52,12 +52,6 @@ debug_build
 :
 True
     
-'
-enable_signing
-'
-:
-False
-    
 #
 #
 #

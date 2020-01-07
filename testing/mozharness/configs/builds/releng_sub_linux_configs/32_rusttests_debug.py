@@ -44,12 +44,6 @@ rusttests
 debug
 '
     
-'
-enable_signing
-'
-:
-False
-    
 #
 #
 #

@@ -227,12 +227,6 @@ in
 env
     
 '
-enable_signing
-'
-:
-True
-    
-'
 secret_files
 '
 :

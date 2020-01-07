@@ -52,12 +52,6 @@ linux
 debug
 '
     
-'
-enable_signing
-'
-:
-False
-    
 #
 #
 #

@@ -45,12 +45,6 @@ on
 devel
 '
     
-'
-enable_signing
-'
-:
-False
-    
 #
 #
 #

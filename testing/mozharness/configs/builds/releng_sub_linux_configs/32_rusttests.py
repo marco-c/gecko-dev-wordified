@@ -36,12 +36,6 @@ linux
 rusttests
 '
     
-'
-enable_signing
-'
-:
-False
-    
 #
 #
 #

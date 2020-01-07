@@ -94,12 +94,6 @@ moz_sign_cmd
 in
 env
     
-'
-enable_signing
-'
-:
-False
-    
 #
 allows
 triggering

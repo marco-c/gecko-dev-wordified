@@ -51,12 +51,6 @@ debug_build
 True
     
 '
-enable_signing
-'
-:
-False
-    
-'
 tooltool_manifest_src
 '
 :

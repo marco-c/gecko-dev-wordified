@@ -46,12 +46,6 @@ linux64
 ccov
 '
     
-'
-enable_signing
-'
-:
-False
-    
 #
 #
 #

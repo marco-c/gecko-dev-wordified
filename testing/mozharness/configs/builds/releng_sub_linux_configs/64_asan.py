@@ -41,12 +41,6 @@ linux64
 asan
 '
     
-'
-enable_signing
-'
-:
-False
-    
 #
 #
 #
