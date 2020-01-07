@@ -16848,10 +16848,10 @@ JSObject
 >
 shim
 (
-cx
+aCx
 JS_NewObject
 (
-cx
+aCx
 clazz
 )
 )
