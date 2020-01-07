@@ -277,6 +277,13 @@ nsAttrValueInlines
 .
 h
 "
+#
+include
+"
+HTMLLinkElement
+.
+h
+"
 namespace
 mozilla
 {
@@ -965,7 +972,7 @@ return
 if
 (
 !
-nsStyleLinkElement
+HTMLLinkElement
 :
 :
 CheckPreloadAttrs
@@ -1390,7 +1397,7 @@ asPolicyType
 if
 (
 !
-nsStyleLinkElement
+HTMLLinkElement
 :
 :
 CheckPreloadAttrs
@@ -1520,7 +1527,7 @@ aOldValue
 if
 (
 !
-nsStyleLinkElement
+HTMLLinkElement
 :
 :
 CheckPreloadAttrs
@@ -1614,7 +1621,7 @@ notUsed
 ;
 if
 (
-nsStyleLinkElement
+HTMLLinkElement
 :
 :
 CheckPreloadAttrs
@@ -1688,7 +1695,7 @@ EmptyString
 }
 if
 (
-nsStyleLinkElement
+HTMLLinkElement
 :
 :
 CheckPreloadAttrs

@@ -466,6 +466,13 @@ Link
 .
 h
 "
+#
+include
+"
+HTMLLinkElement
+.
+h
+"
 using
 namespace
 mozilla
@@ -5094,7 +5101,7 @@ notUsed
 if
 (
 !
-nsStyleLinkElement
+HTMLLinkElement
 :
 :
 CheckPreloadAttrs
