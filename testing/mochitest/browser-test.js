@@ -2263,11 +2263,14 @@ walker
 init
 (
 element
-Ci
-.
-nsIDOMNodeFilter
+1
+/
+*
+NodeFilter
 .
 SHOW_ELEMENT
+*
+/
 )
 ;
 yield

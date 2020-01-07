@@ -14702,11 +14702,14 @@ init
 node
 .
 ownerDocument
-Ci
-.
-nsIDOMNodeFilter
+0xFFFFFFFF
+/
+*
+NodeFilter
 .
 SHOW_ALL
+*
+/
 )
 ;
 walker

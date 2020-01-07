@@ -3594,11 +3594,14 @@ document
 createTreeWalker
 (
 pre
-Ci
-.
-nsIDOMNodeFilter
+4
+/
+*
+NodeFilter
 .
 SHOW_TEXT
+*
+/
 null
 )
 ;
