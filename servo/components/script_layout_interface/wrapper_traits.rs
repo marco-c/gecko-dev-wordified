@@ -1886,16 +1886,6 @@ Self
 ConcreteNode
 ;
 fn
-can_be_fragmented
-(
-&
-self
-)
--
->
-bool
-;
-fn
 node_text_content
 (
 &
