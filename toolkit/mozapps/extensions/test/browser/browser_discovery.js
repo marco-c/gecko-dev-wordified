@@ -3857,7 +3857,7 @@ content
 RELATIVE_DIR
 +
 "
-addon_about
+addon_prefs
 .
 xul
 "
