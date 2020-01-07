@@ -734,6 +734,9 @@ the
 SYMBOL_SECRET
 or
 SOCORRO_SYMBOL_UPLOAD_TOKEN_FILE
+'
+                  
+'
 environment
 variables
 !
