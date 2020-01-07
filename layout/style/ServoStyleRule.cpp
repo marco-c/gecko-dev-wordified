@@ -264,6 +264,14 @@ ServoStyleRuleDeclaration
 (
 )
 {
+mDecls
+-
+>
+SetOwningRule
+(
+nullptr
+)
+;
 }
 /
 /
