@@ -3252,36 +3252,11 @@ try
 :
             
 import
-zstd
-            
+zstandard
 #
-There
-are
-two
-zstd
-libraries
-that
-exist
-in
-the
-wild
-ensure
-we
-            
-#
-have
-the
-right
-one
-.
-            
-zstd
-.
-ZstdCompressor
-            
-zstd
-.
-ZstdDecompressor
+noqa
+:
+F401
         
 except
 (
@@ -3308,9 +3283,9 @@ zstandard
 =
 0
 .
-8
+9
 .
-1
+0
 '
 )
     
