@@ -11586,6 +11586,9 @@ parent
 members
                  
 isKnownNonPartial
+classNameOverride
+=
+None
 )
 :
         
@@ -11602,6 +11605,12 @@ parent
 members
 isKnownNonPartial
 )
+        
+self
+.
+classNameOverride
+=
+classNameOverride
     
 def
 __str__
@@ -11634,6 +11643,31 @@ self
         
 return
 True
+    
+def
+getClassName
+(
+self
+)
+:
+        
+if
+self
+.
+classNameOverride
+:
+            
+return
+self
+.
+classNameOverride
+        
+return
+self
+.
+identifier
+.
+name
     
 def
 addExtendedAttributes

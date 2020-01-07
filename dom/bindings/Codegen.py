@@ -3808,9 +3808,9 @@ descriptor
 .
 interface
 .
-identifier
-.
-name
+getClassName
+(
+)
             
 flags
 =
@@ -4867,9 +4867,9 @@ descriptor
 .
 interface
 .
-identifier
-.
-name
+getClassName
+(
+)
             
 slotCount
 =
