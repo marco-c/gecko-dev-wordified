@@ -8194,9 +8194,7 @@ and
 build_obj
 :
             
-options
-.
-robocopApk
+apk
 =
 build_obj
 .
@@ -8208,6 +8206,25 @@ get
 GRADLE_ANDROID_APP_ANDROIDTEST_APK
 '
 )
+            
+if
+apk
+and
+os
+.
+path
+.
+exists
+(
+apk
+)
+:
+                
+options
+.
+robocopApk
+=
+apk
         
 if
 options
