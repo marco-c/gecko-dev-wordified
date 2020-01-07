@@ -1186,7 +1186,6 @@ nursery
 allocateString
 (
 cx
-cx
 -
 >
 zone
@@ -1279,7 +1278,6 @@ nursery
 .
 allocateString
 (
-cx
 cx
 -
 >
@@ -2081,7 +2079,6 @@ refillFreeListFromAnyThread
 (
 cx
 kind
-thingSize
 )
 )
 ;
@@ -2898,8 +2895,6 @@ JSContext
 cx
 AllocKind
 thingKind
-size_t
-thingSize
 )
 {
 cx
@@ -2930,7 +2925,6 @@ refillFreeListFromActiveCooperatingThread
 (
 cx
 thingKind
-thingSize
 )
 ;
 return
@@ -2958,8 +2952,6 @@ JSContext
 cx
 AllocKind
 thingKind
-size_t
-thingSize
 )
 {
 /
@@ -5026,7 +5018,6 @@ poisoning
 /
 decommitAllArenas
 (
-rt
 )
 ;
 /
@@ -5075,9 +5066,6 @@ Chunk
 :
 decommitAllArenas
 (
-JSRuntime
-*
-rt
 )
 {
 decommittedArenas

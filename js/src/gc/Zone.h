@@ -1892,12 +1892,6 @@ fop
 void
 sweepUniqueIds
 (
-js
-:
-:
-FreeOp
-*
-fop
 )
 ;
 void

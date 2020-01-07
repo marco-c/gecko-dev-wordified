@@ -5315,9 +5315,6 @@ private
 void
 decommitAllArenas
 (
-JSRuntime
-*
-rt
 )
 ;
 /
@@ -5357,9 +5354,6 @@ arena
 void
 addArenaToDecommittedList
 (
-JSRuntime
-*
-rt
 const
 Arena
 *
