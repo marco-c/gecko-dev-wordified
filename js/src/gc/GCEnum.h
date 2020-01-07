@@ -302,6 +302,11 @@ D
 (
 CompartmentRevived
 )
+\
+D
+(
+GrayRootBufferingFailed
+)
 enum
 class
 AbortReason
