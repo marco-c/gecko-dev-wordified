@@ -13809,6 +13809,9 @@ GetUpdater
 >
 RunOnUpdaterThread
 (
+aGuid
+.
+mLayersId
 NewRunnableMethod
 <
 ScrollableLayerGuid

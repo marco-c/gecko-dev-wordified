@@ -3562,6 +3562,7 @@ mApzUpdater
 >
 ClearTree
 (
+mRootLayerTreeID
 )
 ;
 mApzUpdater
