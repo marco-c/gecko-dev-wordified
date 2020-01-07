@@ -1069,6 +1069,17 @@ Disabled
 )
 )
 ;
+if
+(
+mEnabled
+=
+=
+aEnabled
+)
+{
+return
+;
+}
 mEnabled
 =
 aEnabled
