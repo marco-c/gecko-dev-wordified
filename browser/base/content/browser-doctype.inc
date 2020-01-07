@@ -1,10 +1,5 @@
 <
 !
-DOCTYPE
-window
-[
-<
-!
 ENTITY
 %
 brandDTD
@@ -297,5 +292,3 @@ dtd
 %
 editBookmarkOverlayDTD
 ;
-]
->

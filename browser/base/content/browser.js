@@ -14712,7 +14712,11 @@ windows
 in
 /
 /
-macBrowserOverlay
+macWindow
+.
+inc
+.
+xul
 gBrowserInit
 .
 nonBrowserWindowStartup
