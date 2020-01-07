@@ -130,6 +130,18 @@ setuptools
 '
         
 '
+python
+'
+#
+This
+is
+Python
+3
+on
+Arch
+.
+        
+'
 unzip
 '
         
