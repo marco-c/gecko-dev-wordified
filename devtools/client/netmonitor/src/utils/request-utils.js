@@ -2986,10 +2986,7 @@ requestPostDataAvailable
 requestPostData
 )
 {
-(
-{
 requestPostData
-}
 =
 await
 connector
@@ -3000,7 +2997,6 @@ id
 "
 requestPostData
 "
-)
 )
 ;
 }
@@ -3170,15 +3166,9 @@ result
 .
 requestHeadersFromUploadStream
 =
-{
-headers
-:
-[
-]
-headersSize
-:
-0
-}
+value
+.
+uploadHeaders
 ;
 break
 ;
