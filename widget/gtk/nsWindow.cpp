@@ -38291,16 +38291,6 @@ GetCSDSupportLevel
 (
 )
 {
-/
-/
-Disabled
-due
-to
-Bug
-1440461
-return
-CSD_SUPPORT_NONE
-;
 if
 (
 sCSDSupportLevel
