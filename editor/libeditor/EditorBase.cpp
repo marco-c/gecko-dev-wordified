@@ -24677,8 +24677,11 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-MOZ_ASSERT
+if
 (
+NS_WARN_IF
+(
+!
 selection
 -
 >
@@ -24686,7 +24689,12 @@ GetAnchorFocusRange
 (
 )
 )
+)
+{
+return
+NS_OK
 ;
+}
 if
 (
 !
