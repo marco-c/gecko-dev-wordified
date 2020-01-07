@@ -867,6 +867,7 @@ LetterSpacing
 LineHeight
 MozTabSize
 TextAlign
+TextEmphasisStyle
 }
 ;
 pub
