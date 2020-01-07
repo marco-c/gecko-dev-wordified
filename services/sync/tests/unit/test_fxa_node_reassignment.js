@@ -766,8 +766,15 @@ getTokenFromBrowserIDAssertion
 (
 uri
 assertion
-cb
 )
+{
+return
+new
+Promise
+(
+res
+=
+>
 {
 /
 /
@@ -870,9 +877,8 @@ numTokenRequests
 =
 1
 ;
-cb
+res
 (
-null
 token
 )
 ;
@@ -886,6 +892,9 @@ cbAfterTokenFetch
 )
 ;
 }
+}
+)
+;
 }
 }
 ;
