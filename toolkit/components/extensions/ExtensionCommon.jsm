@@ -6029,7 +6029,9 @@ promises
 .
 push
 (
-this
+extension
+.
+apiManager
 .
 asyncGetAPI
 (
@@ -6683,7 +6685,9 @@ apiName
 let
 api
 =
-this
+extension
+.
+apiManager
 .
 getAPI
 (
@@ -6822,7 +6826,9 @@ let
 api
 =
 await
-this
+extension
+.
+apiManager
 .
 asyncGetAPI
 (
