@@ -3626,11 +3626,13 @@ metadata_root
     
 if
 kwargs
-[
+.
+get
+(
 "
 manifest_path
 "
-]
+)
 :
         
 if
@@ -3725,6 +3727,11 @@ platform
 -
 tests
 "
+)
+    
+check_paths
+(
+kwargs
 )
 def
 get_test_paths
@@ -4144,11 +4151,6 @@ kwargs
 :
     
 set_from_config
-(
-kwargs
-)
-    
-check_paths
 (
 kwargs
 )
@@ -5024,11 +5026,6 @@ kwargs
 :
     
 set_from_config
-(
-kwargs
-)
-    
-check_paths
 (
 kwargs
 )
