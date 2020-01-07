@@ -2545,6 +2545,8 @@ animation
 :
 maybe_start_animations
 (
+*
+self
 &
 shared_context
 new_animations_sender

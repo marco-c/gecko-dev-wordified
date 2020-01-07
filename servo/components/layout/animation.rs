@@ -343,6 +343,7 @@ Keyframes
 (
 ref
 node
+_
 ref
 name
 ref
@@ -425,6 +426,7 @@ Animation
 :
 Keyframes
 (
+_
 _
 ref
 anim_name
@@ -671,6 +673,7 @@ Animation
 :
 Keyframes
 (
+_
 _
 _
 ref

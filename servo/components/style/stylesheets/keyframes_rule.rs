@@ -1932,6 +1932,7 @@ this
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )
@@ -2058,6 +2059,7 @@ animation
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )
@@ -2492,6 +2494,7 @@ properties
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )
