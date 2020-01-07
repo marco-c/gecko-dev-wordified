@@ -807,7 +807,7 @@ Err
 WebGLError
 :
 :
-InvalidOperation
+InvalidEnum
 )
 }
 ;
