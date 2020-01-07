@@ -13683,9 +13683,6 @@ BytecodeEmitter
 parent
 const
 EitherParser
-<
-FullParseHandler
->
 &
 parser
 SharedContext
@@ -13867,9 +13864,6 @@ BytecodeEmitter
 parent
 const
 EitherParser
-<
-FullParseHandler
->
 &
 parser
 SharedContext
