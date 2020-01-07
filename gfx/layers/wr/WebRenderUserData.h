@@ -215,6 +215,9 @@ class
 WebRenderLayerManager
 ;
 class
+WebRenderGroupData
+;
+class
 WebRenderUserData
 {
 public
@@ -285,6 +288,17 @@ return
 nullptr
 ;
 }
+virtual
+WebRenderGroupData
+*
+AsGroupData
+(
+)
+{
+return
+nullptr
+;
+}
 enum
 class
 UserDataType
@@ -293,6 +307,7 @@ eImage
 eFallback
 eAnimation
 eCanvas
+eGroup
 }
 ;
 virtual
