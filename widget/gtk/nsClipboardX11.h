@@ -208,6 +208,14 @@ aTargetNums
 )
 override
 ;
+virtual
+bool
+HasSelectionSupport
+(
+void
+)
+override
+;
 /
 /
 Call
