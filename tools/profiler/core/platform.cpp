@@ -7018,10 +7018,7 @@ aCollector
 .
 CollectJitReturnAddr
 (
-jsFrames
-[
-jsIndex
-]
+jsFrame
 .
 returnAddress
 )
