@@ -198,8 +198,8 @@ types
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -237,7 +237,7 @@ list
 has
 been
 loaded
-yield
+await
 waitUntilState
 (
 store
@@ -391,7 +391,7 @@ save
 "
 )
 ;
-yield
+await
 addDeviceInModal
 (
 ui
@@ -543,8 +543,8 @@ selector
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -582,7 +582,7 @@ list
 has
 been
 loaded
-yield
+await
 waitUntilState
 (
 store
@@ -659,7 +659,7 @@ selector
 "
 )
 ;
-yield
+await
 selectDevice
 (
 ui
@@ -812,7 +812,7 @@ click
 (
 )
 ;
-yield
+await
 removed
 ;
 submitButton
@@ -835,7 +835,7 @@ selector
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -929,7 +929,7 @@ reset
 "
 )
 ;
-yield
+await
 testUserAgent
 (
 ui
@@ -944,8 +944,8 @@ userAgent
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -983,7 +983,7 @@ list
 has
 been
 loaded
-yield
+await
 waitUntilState
 (
 store
@@ -1105,7 +1105,7 @@ save
 "
 )
 ;
-yield
+await
 addDeviceInModal
 (
 ui
@@ -1262,8 +1262,8 @@ selector
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -1301,7 +1301,7 @@ list
 has
 been
 loaded
-yield
+await
 waitUntilState
 (
 store

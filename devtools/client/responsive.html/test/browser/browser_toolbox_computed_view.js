@@ -156,8 +156,8 @@ html
 addRDMTask
 (
 TEST_URI
+async
 function
-*
 (
 {
 ui
@@ -184,7 +184,7 @@ start
 "
 )
 ;
-yield
+await
 setViewportSize
 (
 ui
@@ -216,12 +216,12 @@ inspector
 view
 }
 =
-yield
+await
 openComputedView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -245,7 +245,7 @@ styles
 "
 )
 ;
-yield
+await
 testShrink
 (
 view
@@ -269,7 +269,7 @@ styles
 "
 )
 ;
-yield
+await
 testGrow
 (
 view
@@ -278,7 +278,7 @@ ui
 manager
 )
 ;
-yield
+await
 closeToolbox
 (
 )
@@ -286,8 +286,8 @@ closeToolbox
 }
 )
 ;
+async
 function
-*
 testShrink
 (
 computedView
@@ -330,7 +330,7 @@ refreshed
 "
 )
 ;
-yield
+await
 setViewportSize
 (
 ui
@@ -339,7 +339,7 @@ manager
 100
 )
 ;
-yield
+await
 onRefresh
 ;
 is
@@ -362,8 +362,8 @@ shrinking
 )
 ;
 }
+async
 function
-*
 testGrow
 (
 computedView
@@ -388,7 +388,7 @@ refreshed
 "
 )
 ;
-yield
+await
 setViewportSize
 (
 ui
@@ -397,7 +397,7 @@ manager
 500
 )
 ;
-yield
+await
 onRefresh
 ;
 is

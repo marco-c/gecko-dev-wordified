@@ -94,8 +94,8 @@ browser
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -126,7 +126,7 @@ DUMMY_2_URL
 let
 tab
 =
-yield
+await
 addTab
 (
 DUMMY_1_URL
@@ -139,14 +139,14 @@ tab
 .
 linkedBrowser
 ;
-yield
+await
 load
 (
 browser
 TEST_URL
 )
 ;
-yield
+await
 load
 (
 browser
@@ -162,7 +162,7 @@ state
 let
 history
 =
-yield
+await
 getSessionHistory
 (
 browser
@@ -271,7 +271,7 @@ at
 the
 test
 page
-yield
+await
 back
 (
 browser
@@ -285,7 +285,7 @@ history
 state
 history
 =
-yield
+await
 getSessionHistory
 (
 browser
@@ -397,7 +397,7 @@ be
 lost
 on
 reload
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -415,7 +415,7 @@ let
 ui
 }
 =
-yield
+await
 openRDM
 (
 tab
@@ -431,14 +431,13 @@ viewport
 let
 color
 =
-yield
+await
 spawnViewportTask
 (
 ui
 {
 }
 function
-*
 (
 )
 {
@@ -507,7 +506,7 @@ viewport
 "
 )
 ;
-yield
+await
 closeRDM
 (
 tab
@@ -524,7 +523,7 @@ browser
 tab
 color
 =
-yield
+await
 ContentTask
 .
 spawn
@@ -532,8 +531,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -611,7 +610,7 @@ history
 state
 history
 =
-yield
+await
 getSessionHistory
 (
 browser
@@ -707,7 +706,7 @@ matches
 "
 )
 ;
-yield
+await
 removeTab
 (
 tab

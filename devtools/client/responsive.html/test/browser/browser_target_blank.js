@@ -103,8 +103,8 @@ g
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -129,7 +129,7 @@ viewport
 has
 been
 added
-yield
+await
 waitUntilState
 (
 store
@@ -162,7 +162,7 @@ for
 a
 new
 tab
-yield
+await
 waitForFrameLoad
 (
 ui
@@ -186,7 +186,6 @@ ui
 {
 }
 function
-*
 (
 )
 {
@@ -218,7 +217,7 @@ line
 let
 newTab
 =
-yield
+await
 newTabPromise
 ;
 ok
@@ -233,7 +232,7 @@ link
 "
 )
 ;
-yield
+await
 removeTab
 (
 newTab

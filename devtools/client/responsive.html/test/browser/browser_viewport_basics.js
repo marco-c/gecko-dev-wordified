@@ -60,8 +60,8 @@ org
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -86,7 +86,7 @@ viewport
 has
 been
 added
-yield
+await
 waitUntilState
 (
 store
@@ -197,7 +197,7 @@ should
 match
 original
 tab
-yield
+await
 waitForFrameLoad
 (
 ui
@@ -207,14 +207,13 @@ TEST_URL
 let
 location
 =
-yield
+await
 spawnViewportTask
 (
 ui
 {
 }
 function
-*
 (
 )
 {

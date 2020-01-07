@@ -274,8 +274,8 @@ resolve
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -287,7 +287,7 @@ URL
 let
 tab
 =
-yield
+await
 addTab
 (
 TEST_URL
@@ -309,7 +309,7 @@ state
 let
 history
 =
-yield
+await
 getSessionHistory
 (
 browser
@@ -371,7 +371,7 @@ matches
 /
 Open
 RDM
-yield
+await
 openRDM
 (
 tab
@@ -404,7 +404,7 @@ hide
 .
 history
 =
-yield
+await
 getSessionHistory
 (
 browser
@@ -485,7 +485,7 @@ been
 ignored
 correctly
 .
-yield
+await
 flushContainerTabState
 (
 tab
@@ -558,13 +558,13 @@ matches
 "
 )
 ;
-yield
+await
 closeRDM
 (
 tab
 )
 ;
-yield
+await
 removeTab
 (
 tab

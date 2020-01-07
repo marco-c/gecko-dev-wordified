@@ -184,8 +184,8 @@ types
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -269,7 +269,7 @@ list
 has
 been
 loaded
-yield
+await
 waitUntilState
 (
 store
@@ -357,7 +357,7 @@ checked
 let
 remoteList
 =
-yield
+await
 getDevices
 (
 )
@@ -1134,8 +1134,8 @@ addedDevice
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -1185,7 +1185,7 @@ list
 has
 been
 loaded
-yield
+await
 waitUntilState
 (
 store
@@ -1224,7 +1224,7 @@ ui
 let
 remoteList
 =
-yield
+await
 getDevices
 (
 )

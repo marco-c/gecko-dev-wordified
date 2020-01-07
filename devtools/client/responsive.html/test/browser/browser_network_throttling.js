@@ -81,8 +81,8 @@ test
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -108,7 +108,7 @@ viewport
 has
 been
 added
-yield
+await
 waitUntilState
 (
 store
@@ -138,7 +138,7 @@ throttling
 "
 )
 ;
-yield
+await
 testNetworkThrottlingState
 (
 ui
@@ -151,7 +151,7 @@ Test
 a
 fast
 profile
-yield
+await
 testThrottlingProfile
 (
 ui
@@ -168,7 +168,7 @@ Test
 a
 slower
 profile
-yield
+await
 testThrottlingProfile
 (
 ui
@@ -186,7 +186,7 @@ back
 to
 no
 throttling
-yield
+await
 selectNetworkThrottling
 (
 ui
@@ -205,7 +205,7 @@ throttling
 "
 )
 ;
-yield
+await
 testNetworkThrottlingState
 (
 ui
@@ -276,12 +276,8 @@ expected
 var
 testNetworkThrottlingState
 =
-Task
-.
 async
-(
 function
-*
 (
 ui
 expected
@@ -290,7 +286,7 @@ expected
 let
 state
 =
-yield
+await
 ui
 .
 emulationFront
@@ -324,23 +320,18 @@ null
 )
 ;
 }
-)
 ;
 var
 testThrottlingProfile
 =
-Task
-.
 async
-(
 function
-*
 (
 ui
 profile
 )
 {
-yield
+await
 selectNetworkThrottling
 (
 ui
@@ -382,7 +373,7 @@ latency
 =
 data
 ;
-yield
+await
 testNetworkThrottlingState
 (
 ui
@@ -398,5 +389,4 @@ latency
 )
 ;
 }
-)
 ;

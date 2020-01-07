@@ -118,12 +118,12 @@ list
 file
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -158,8 +158,8 @@ json
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -212,7 +212,7 @@ indicates
 /
 an
 error
-yield
+await
 waitUntilState
 (
 store

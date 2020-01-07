@@ -81,8 +81,8 @@ types
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -149,7 +149,7 @@ list
 has
 been
 loaded
-yield
+await
 waitUntilState
 (
 store

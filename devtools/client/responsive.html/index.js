@@ -383,14 +383,8 @@ Telemetry
 store
 :
 null
-init
-:
-Task
-.
 async
-(
-function
-*
+init
 (
 )
 {
@@ -501,7 +495,6 @@ done
 )
 ;
 }
-)
 destroy
 (
 )

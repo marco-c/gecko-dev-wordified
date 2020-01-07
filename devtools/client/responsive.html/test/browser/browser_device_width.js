@@ -52,8 +52,8 @@ utf
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -80,7 +80,7 @@ tab
 "
 )
 ;
-yield
+await
 setViewportSize
 (
 ui
@@ -102,7 +102,7 @@ properties
 "
 )
 ;
-yield
+await
 doInitialChecks
 (
 ui
@@ -118,7 +118,7 @@ size
 "
 )
 ;
-yield
+await
 setViewportSize
 (
 ui
@@ -137,7 +137,7 @@ props
 "
 )
 ;
-yield
+await
 checkScreenProps
 (
 ui
@@ -156,7 +156,7 @@ keys
 "
 )
 ;
-yield
+await
 setViewportSizeWithInputKeys
 (
 ui
@@ -174,7 +174,7 @@ false
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -186,8 +186,8 @@ getViewportBrowser
 )
 {
 }
+async
 function
-*
 (
 )
 {
@@ -239,7 +239,7 @@ again
 "
 )
 ;
-yield
+await
 checkScreenProps2
 (
 ui
@@ -248,8 +248,8 @@ ui
 }
 )
 ;
+async
 function
-*
 setViewportSizeWithInputKeys
 (
 ui
@@ -283,7 +283,7 @@ height
 }
 )
 ;
-yield
+await
 resized
 ;
 let
@@ -372,7 +372,7 @@ ArrowUp
 )
 ;
 }
-yield
+await
 resized
 ;
 /
@@ -443,7 +443,7 @@ ArrowDown
 )
 ;
 }
-yield
+await
 resized
 ;
 /
@@ -491,7 +491,7 @@ true
 }
 )
 ;
-yield
+await
 resized
 ;
 /
@@ -540,12 +540,12 @@ true
 }
 )
 ;
-yield
+await
 resized
 ;
 }
+async
 function
-*
 doInitialChecks
 (
 ui
@@ -557,7 +557,7 @@ innerWidth
 matchesMedia
 }
 =
-yield
+await
 grabContentInfo
 (
 ui
@@ -592,8 +592,8 @@ match
 )
 ;
 }
+async
 function
-*
 checkScreenProps
 (
 ui
@@ -605,7 +605,7 @@ matchesMedia
 screen
 }
 =
-yield
+await
 grabContentInfo
 (
 ui
@@ -685,8 +685,8 @@ height
 )
 ;
 }
+async
 function
-*
 checkScreenProps2
 (
 ui
@@ -698,7 +698,7 @@ matchesMedia
 screen
 }
 =
-yield
+await
 grabContentInfo
 (
 ui
@@ -764,8 +764,8 @@ getViewportBrowser
 )
 {
 }
+async
 function
-*
 (
 )
 {

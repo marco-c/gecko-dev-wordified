@@ -773,14 +773,8 @@ mmTunnel
 ;
 return
 {
-start
-:
-Task
-.
 async
-(
-function
-*
+start
 (
 )
 {
@@ -2167,7 +2161,6 @@ this
 )
 ;
 }
-)
 handleEvent
 (
 event

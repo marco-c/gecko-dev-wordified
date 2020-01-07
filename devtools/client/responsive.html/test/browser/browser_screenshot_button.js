@@ -78,7 +78,6 @@ jsm
 )
 ;
 function
-*
 waitUntilScreenshot
 (
 )
@@ -87,12 +86,8 @@ return
 new
 Promise
 (
-Task
-.
 async
-(
 function
-*
 (
 resolve
 )
@@ -122,7 +117,7 @@ jsm
 let
 list
 =
-yield
+await
 Downloads
 .
 getList
@@ -177,7 +172,7 @@ view
 }
 }
 ;
-yield
+await
 list
 .
 addView
@@ -187,14 +182,13 @@ view
 ;
 }
 )
-)
 ;
 }
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -222,7 +216,7 @@ viewport
 has
 been
 added
-yield
+await
 waitUntilState
 (
 store
@@ -281,7 +275,7 @@ waitUntilScreenshot
 let
 filePath
 =
-yield
+await
 whenScreenshotSucceeded
 ;
 let
@@ -305,7 +299,7 @@ toFileURI
 filePath
 )
 ;
-yield
+await
 once
 (
 image
@@ -385,7 +379,7 @@ height
 "
 )
 ;
-yield
+await
 OS
 .
 File

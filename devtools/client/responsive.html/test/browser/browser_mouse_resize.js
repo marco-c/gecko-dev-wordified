@@ -52,8 +52,8 @@ utf
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -79,7 +79,7 @@ viewport
 has
 been
 added
-yield
+await
 waitUntilState
 (
 store
@@ -96,7 +96,7 @@ length
 1
 )
 ;
-yield
+await
 setViewportSize
 (
 ui
@@ -112,7 +112,7 @@ horizontal
 +
 vertical
 resize
-yield
+await
 testViewportResize
 (
 ui
@@ -143,7 +143,7 @@ handle
 Do
 horizontal
 resize
-yield
+await
 testViewportResize
 (
 ui
@@ -178,7 +178,7 @@ handle
 Do
 vertical
 resize
-yield
+await
 testViewportResize
 (
 ui

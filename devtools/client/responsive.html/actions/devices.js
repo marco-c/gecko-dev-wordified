@@ -451,8 +451,8 @@ device
 )
 {
 return
+async
 function
-*
 (
 dispatch
 )
@@ -465,7 +465,7 @@ device
 to
 device
 storage
-yield
+await
 addDevice
 (
 device
@@ -528,8 +528,8 @@ device
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -597,7 +597,7 @@ device
 from
 device
 storage
-yield
+await
 removeDevice
 (
 device
@@ -647,8 +647,8 @@ loadDevices
 )
 {
 return
+async
 function
-*
 (
 dispatch
 )
@@ -676,7 +676,7 @@ try
 {
 devices
 =
-yield
+await
 getDevices
 (
 )

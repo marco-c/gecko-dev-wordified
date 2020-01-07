@@ -86,8 +86,8 @@ spawn
 browser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -169,12 +169,8 @@ _connections
 let
 checkServerConnectionCount
 =
-Task
-.
 async
-(
 function
-*
 (
 browser
 expected
@@ -184,7 +180,7 @@ msg
 let
 conns
 =
-yield
+await
 getServerConnections
 (
 browser
@@ -210,17 +206,12 @@ msg
 )
 ;
 }
-)
 ;
 let
 checkToolbox
 =
-Task
-.
 async
-(
 function
-*
 (
 tab
 location
@@ -254,19 +245,18 @@ location
 )
 ;
 }
-)
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 tab
 =
-yield
+await
 addTab
 (
 TEST_URL
@@ -326,7 +316,7 @@ No
 DevTools
 connections
 yet
-yield
+await
 checkServerConnectionCount
 (
 tab
@@ -348,7 +338,7 @@ let
 toolbox
 }
 =
-yield
+await
 openInspector
 (
 )
@@ -371,7 +361,7 @@ one
 per
 content
 process
-yield
+await
 checkServerConnectionCount
 (
 tab
@@ -413,7 +403,7 @@ one
 we
 opened
 )
-yield
+await
 checkServerConnectionCount
 (
 tab
@@ -440,7 +430,7 @@ opened
 )
 ;
 }
-yield
+await
 checkToolbox
 (
 tab
@@ -455,7 +445,7 @@ let
 ui
 }
 =
-yield
+await
 openRDM
 (
 tab
@@ -481,7 +471,7 @@ connection
 1
 =
 2
-yield
+await
 checkServerConnectionCount
 (
 ui
@@ -520,7 +510,7 @@ connection
 1
 =
 3
-yield
+await
 checkServerConnectionCount
 (
 ui
@@ -542,7 +532,7 @@ connection
 )
 ;
 }
-yield
+await
 checkToolbox
 (
 tab
@@ -553,7 +543,7 @@ RDM
 "
 )
 ;
-yield
+await
 closeRDM
 (
 tab
@@ -576,7 +566,7 @@ to
 previous
 connection
 count
-yield
+await
 checkServerConnectionCount
 (
 tab
@@ -612,7 +602,7 @@ to
 previous
 connection
 count
-yield
+await
 checkServerConnectionCount
 (
 tab
@@ -634,7 +624,7 @@ count
 )
 ;
 }
-yield
+await
 checkToolbox
 (
 tab
@@ -648,7 +638,7 @@ RDM
 "
 )
 ;
-yield
+await
 toolbox
 .
 destroy
@@ -663,7 +653,7 @@ All
 DevTools
 usage
 closed
-yield
+await
 checkServerConnectionCount
 (
 tab
@@ -700,7 +690,7 @@ No
 DevTools
 connections
 yet
-yield
+await
 checkServerConnectionCount
 (
 tab
@@ -722,7 +712,7 @@ let
 ui
 }
 =
-yield
+await
 openRDM
 (
 tab
@@ -738,7 +728,7 @@ uses
 an
 extra
 connection
-yield
+await
 checkServerConnectionCount
 (
 ui
@@ -764,7 +754,7 @@ let
 toolbox
 }
 =
-yield
+await
 openInspector
 (
 )
@@ -787,7 +777,7 @@ one
 per
 content
 process
-yield
+await
 checkServerConnectionCount
 (
 ui
@@ -831,7 +821,7 @@ one
 we
 opened
 )
-yield
+await
 checkServerConnectionCount
 (
 ui
@@ -860,7 +850,7 @@ opened
 )
 ;
 }
-yield
+await
 checkToolbox
 (
 tab
@@ -875,7 +865,7 @@ RDM
 "
 )
 ;
-yield
+await
 closeRDM
 (
 tab
@@ -896,7 +886,7 @@ closed
 one
 less
 connection
-yield
+await
 checkServerConnectionCount
 (
 tab
@@ -928,7 +918,7 @@ closed
 one
 less
 connection
-yield
+await
 checkServerConnectionCount
 (
 tab
@@ -948,7 +938,7 @@ connection
 )
 ;
 }
-yield
+await
 checkToolbox
 (
 tab
@@ -962,7 +952,7 @@ RDM
 "
 )
 ;
-yield
+await
 toolbox
 .
 destroy
@@ -977,7 +967,7 @@ All
 DevTools
 usage
 closed
-yield
+await
 checkServerConnectionCount
 (
 tab
@@ -995,7 +985,7 @@ closed
 )
 ;
 }
-yield
+await
 removeTab
 (
 tab

@@ -177,8 +177,8 @@ Device
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -230,7 +230,7 @@ list
 has
 been
 loaded
-yield
+await
 waitUntilState
 (
 store
@@ -343,7 +343,7 @@ device
 "
 )
 ;
-yield
+await
 addDeviceInModal
 (
 ui
@@ -392,7 +392,7 @@ device
 "
 )
 ;
-yield
+await
 addDeviceInModal
 (
 ui
@@ -680,7 +680,7 @@ click
 (
 )
 ;
-yield
+await
 removed
 ;
 submitButton
@@ -801,8 +801,8 @@ removed
 addRDMTask
 (
 TEST_URL
+async
 function
-*
 (
 {
 ui
@@ -840,7 +840,7 @@ list
 has
 been
 loaded
-yield
+await
 waitUntilState
 (
 store

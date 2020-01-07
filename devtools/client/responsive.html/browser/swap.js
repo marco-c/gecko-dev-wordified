@@ -863,14 +863,8 @@ failed
 ;
 return
 {
-start
-:
-Task
-.
 async
-(
-function
-*
+start
 (
 )
 {
@@ -1473,7 +1467,7 @@ loaded
 "
 )
 ;
-yield
+await
 tabLoaded
 (
 containerTab
@@ -1492,7 +1486,7 @@ browser
 ;
 innerBrowser
 =
-yield
+await
 getInnerBrowser
 (
 containerBrowser
@@ -1784,7 +1778,7 @@ start
 "
 )
 ;
-yield
+await
 tunnel
 .
 start
@@ -1936,7 +1930,6 @@ visibility
 "
 ;
 }
-)
 stop
 (
 )

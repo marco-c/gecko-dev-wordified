@@ -195,12 +195,12 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 startup
 (
 window
@@ -226,7 +226,7 @@ default
 const
 tab
 =
-yield
+await
 addTab
 (
 TEST_URL
@@ -250,7 +250,7 @@ tab
 "
 )
 ;
-yield
+await
 openRDM
 (
 tab
@@ -276,7 +276,7 @@ open
 const
 tab2
 =
-yield
+await
 addTab
 (
 TEST_URL
@@ -300,7 +300,7 @@ tab
 "
 )
 ;
-yield
+await
 activateTab
 (
 tab
@@ -327,7 +327,7 @@ open
 "
 )
 ;
-yield
+await
 closeRDM
 (
 tab
@@ -352,13 +352,13 @@ closed
 "
 )
 ;
-yield
+await
 removeTab
 (
 tab
 )
 ;
-yield
+await
 removeTab
 (
 tab2
