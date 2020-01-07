@@ -1356,6 +1356,7 @@ reason
 "
 test
 "
+isSlotted
 )
 {
 info
@@ -1408,6 +1409,7 @@ setNodeFront
 nodeFront
 {
 reason
+isSlotted
 }
 )
 ;

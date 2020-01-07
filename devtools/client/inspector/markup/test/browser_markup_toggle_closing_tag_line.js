@@ -203,7 +203,7 @@ inspector
 )
 ;
 await
-expandContainer
+expandContainerByClick
 (
 inspector
 container
@@ -268,7 +268,7 @@ inspector
 )
 ;
 await
-expandContainer
+expandContainerByClick
 (
 inspector
 container
@@ -421,7 +421,7 @@ inspector
 )
 ;
 await
-expandContainer
+expandContainerByClick
 (
 inspector
 container
