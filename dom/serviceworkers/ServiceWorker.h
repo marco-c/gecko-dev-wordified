@@ -505,13 +505,11 @@ ErrorResult
 aRv
 )
 ;
-bool
-MatchesDescriptor
-(
 const
 ServiceWorkerDescriptor
 &
-aDescriptor
+Descriptor
+(
 )
 const
 ;
