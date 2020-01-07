@@ -691,6 +691,16 @@ nsACString
 &
 )
 ;
+MOZ_MUST_USE
+nsresult
+ConvertResponseTrailers
+(
+Http2Decompressor
+*
+nsACString
+&
+)
+;
 bool
 AllowFlowControlledWrite
 (

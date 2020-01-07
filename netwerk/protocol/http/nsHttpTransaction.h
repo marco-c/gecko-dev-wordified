@@ -1440,6 +1440,14 @@ aStatus
 )
 override
 ;
+void
+SetHttpTrailers
+(
+nsCString
+&
+aTrailers
+)
+;
 private
 :
 friend
