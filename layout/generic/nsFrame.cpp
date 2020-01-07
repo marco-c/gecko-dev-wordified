@@ -14110,7 +14110,7 @@ element
 CSSPseudoElementType
 :
 :
-mozSelection
+selection
 Style
 (
 )

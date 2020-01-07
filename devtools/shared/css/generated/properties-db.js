@@ -36975,9 +36975,6 @@ line
 "
 "
 :
--
-moz
--
 selection
 "
 "
