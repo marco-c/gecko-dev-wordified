@@ -211,6 +211,13 @@ shutdown
 (
 )
 {
+txStylesheetCompilerState
+:
+:
+shutdown
+(
+)
+;
 txHandlerTable
 :
 :
