@@ -2,7 +2,7 @@ use
 super
 :
 :
-internal
+plumbing
 :
 :
 *
@@ -115,6 +115,14 @@ nothing
 unless
 consumed
 "
+]
+#
+[
+derive
+(
+Debug
+Clone
+)
 ]
 pub
 struct
@@ -293,7 +301,6 @@ Item
 let
 Chain
 {
-mut
 a
 b
 }
@@ -448,7 +455,6 @@ fn
 opt_len
 (
 &
-mut
 self
 )
 -
@@ -560,7 +566,6 @@ Item
 let
 Chain
 {
-mut
 a
 b
 }
@@ -623,7 +628,6 @@ fn
 len
 (
 &
-mut
 self
 )
 -
@@ -662,7 +666,6 @@ with_producer
 CB
 >
 (
-mut
 self
 callback
 :

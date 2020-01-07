@@ -85,6 +85,13 @@ traits
 using
 it
 .
+#
+[
+allow
+(
+missing_debug_implementations
+)
+]
 pub
 struct
 PrivateMarker

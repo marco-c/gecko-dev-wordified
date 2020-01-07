@@ -2,7 +2,7 @@ use
 super
 :
 :
-internal
+plumbing
 :
 :
 *
@@ -54,7 +54,7 @@ take
 method
 on
 [
-ParallelIterator
+IndexedParallelIterator
 ]
 /
 /
@@ -70,7 +70,7 @@ take
 :
 trait
 .
-ParallelIterator
+IndexedParallelIterator
 .
 html
 #
@@ -81,12 +81,12 @@ take
 /
 /
 [
-ParallelIterator
+IndexedParallelIterator
 ]
 :
 trait
 .
-ParallelIterator
+IndexedParallelIterator
 .
 html
 #
@@ -104,6 +104,14 @@ nothing
 unless
 consumed
 "
+]
+#
+[
+derive
+(
+Debug
+Clone
+)
 ]
 pub
 struct
@@ -158,7 +166,6 @@ new
 I
 >
 (
-mut
 base
 :
 I
@@ -261,7 +268,6 @@ fn
 opt_len
 (
 &
-mut
 self
 )
 -
@@ -300,7 +306,6 @@ fn
 len
 (
 &
-mut
 self
 )
 -
