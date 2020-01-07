@@ -873,7 +873,7 @@ document
 getElementById
 (
 "
-historyRememberClear
+clearHistoryButton
 "
 )
 .
