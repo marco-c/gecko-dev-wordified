@@ -6343,6 +6343,9 @@ ignored
 }
 else
 {
+IgnoredErrorResult
+ignored
+;
 outElt
 -
 >
@@ -6350,6 +6353,7 @@ SetAttribute
 (
 valueAttr
 valueStr
+ignored
 )
 ;
 }
