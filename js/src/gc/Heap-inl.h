@@ -196,12 +196,6 @@ hasDelayedMarking
 MOZ_ASSERT
 (
 !
-allocatedDuringIncremental
-)
-;
-MOZ_ASSERT
-(
-!
 markOverflow
 )
 ;
