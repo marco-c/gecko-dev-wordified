@@ -2516,6 +2516,10 @@ fastOpenNotSupported
 =
 true
 ;
+tfoStatus
+=
+TFO_DISABLED
+;
 }
 }
 else
@@ -2786,6 +2790,10 @@ PR_GetError
 )
 ;
 }
+tfoStatus
+=
+TFO_DISABLED
+;
 }
 else
 {
