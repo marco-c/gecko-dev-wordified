@@ -134,6 +134,7 @@ computed
 {
 LengthOrPercentage
 ComputedUrl
+Image
 }
 ;
 use
@@ -243,7 +244,7 @@ FloatAreaShape
 GenericFloatAreaShape
 <
 BasicShape
-ComputedUrl
+Image
 >
 ;
 /
