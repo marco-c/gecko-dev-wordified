@@ -30,8 +30,6 @@ py
 or
 similar
 .
-import
-os
 config
 =
 {
