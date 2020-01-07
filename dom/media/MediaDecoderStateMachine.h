@@ -965,6 +965,7 @@ PlaybackStarted
 PlaybackStopped
 PlaybackEnded
 SeekStarted
+Loop
 Invalidate
 EnterVideoSuspend
 ExitVideoSuspend
