@@ -407,11 +407,11 @@ bool
 URLParamsIterator
 (
 const
-nsString
+nsAString
 &
 aName
 const
-nsString
+nsAString
 &
 aValue
 )
