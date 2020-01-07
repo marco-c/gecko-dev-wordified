@@ -2580,6 +2580,7 @@ bool
 IsCSSEnabled
 (
 )
+const
 {
 /
 /
