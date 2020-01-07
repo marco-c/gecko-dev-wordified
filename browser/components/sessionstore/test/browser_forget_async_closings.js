@@ -286,9 +286,7 @@ it
 let
 promise
 =
-BrowserTestUtils
-.
-removeTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

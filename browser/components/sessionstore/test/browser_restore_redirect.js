@@ -215,8 +215,9 @@ cleared
 /
 Cleanup
 .
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )
@@ -479,8 +480,9 @@ cleared
 /
 Cleanup
 .
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )

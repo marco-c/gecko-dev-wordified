@@ -594,8 +594,9 @@ cleared
 /
 Cleanup
 .
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 gBrowser
 .

@@ -589,13 +589,13 @@ all
 tabs
 .
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab2
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -718,8 +718,9 @@ discarded
 /
 Cleanup
 .
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )

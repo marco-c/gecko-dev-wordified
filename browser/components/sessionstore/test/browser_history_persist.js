@@ -151,8 +151,9 @@ state
 "
 )
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )
@@ -389,8 +390,9 @@ URL
 /
 Cleanup
 .
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )
@@ -503,8 +505,9 @@ entries
 .
 persist
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )
@@ -767,8 +770,9 @@ URL
 /
 Cleanup
 .
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )

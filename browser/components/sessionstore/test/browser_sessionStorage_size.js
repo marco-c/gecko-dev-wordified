@@ -250,8 +250,9 @@ title
 OUTER_VALUE
 )
 ;
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )

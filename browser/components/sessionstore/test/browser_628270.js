@@ -189,7 +189,7 @@ and
 restore
 hidden
 tab
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

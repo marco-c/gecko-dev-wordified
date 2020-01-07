@@ -510,7 +510,7 @@ arrives
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -624,7 +624,7 @@ arrives
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -731,7 +731,7 @@ arrives
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -916,7 +916,7 @@ arrives
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -1097,7 +1097,7 @@ arrives
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -1250,7 +1250,7 @@ arrives
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -1371,7 +1371,7 @@ arrives
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -1463,8 +1463,9 @@ closed
 /
 Cleanup
 .
-await
-promiseRemoveTab
+BrowserTestUtils
+.
+removeTab
 (
 tab
 )
@@ -1528,7 +1529,7 @@ arrives
 let
 promise
 =
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

@@ -844,7 +844,7 @@ flush
 (
 browser
 )
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

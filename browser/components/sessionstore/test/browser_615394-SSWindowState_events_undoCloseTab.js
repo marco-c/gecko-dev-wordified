@@ -251,9 +251,7 @@ SSTabRestored
 )
 ;
 await
-BrowserTestUtils
-.
-removeTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

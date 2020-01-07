@@ -292,7 +292,7 @@ form
 data
 .
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

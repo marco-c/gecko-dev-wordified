@@ -585,7 +585,7 @@ close
 the
 tab
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

@@ -92,7 +92,7 @@ linkedBrowser
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -602,7 +602,7 @@ re
 opened
 .
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -635,7 +635,7 @@ tab
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab2
 )

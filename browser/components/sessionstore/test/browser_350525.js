@@ -468,7 +468,7 @@ value
 clean
 up
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -628,7 +628,7 @@ max_tabs_undo
 remove
 tab
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )

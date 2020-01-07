@@ -165,7 +165,7 @@ linkedBrowser
 )
 ;
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 win
 .

@@ -235,7 +235,7 @@ the
 tab
 .
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -1008,7 +1008,7 @@ data
 correctly
 .
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -1304,7 +1304,7 @@ the
 tab
 .
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
@@ -1401,7 +1401,7 @@ the
 tab
 .
 await
-promiseRemoveTab
+promiseRemoveTabAndSessionState
 (
 tab
 )
