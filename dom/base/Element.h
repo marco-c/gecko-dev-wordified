@@ -497,6 +497,17 @@ class
 TextEditor
 ;
 namespace
+css
+{
+struct
+URLValue
+;
+}
+/
+/
+namespace
+css
+namespace
 dom
 {
 struct
