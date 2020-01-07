@@ -110,14 +110,16 @@ MPL
 /
 #
 ifndef
-jsgcinlines_h
+gc_GC_inl_h
 #
 define
-jsgcinlines_h
+gc_GC_inl_h
 #
 include
 "
-jsgc
+gc
+/
+GC
 .
 h
 "
@@ -2427,6 +2429,6 @@ js
 endif
 /
 *
-jsgcinlines_h
+gc_GC_inl_h
 *
 /

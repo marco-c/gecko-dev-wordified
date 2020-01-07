@@ -9399,7 +9399,9 @@ bug
 803376
 in
 *
-jsgc
+gc
+/
+GC
 .
 cpp
 regarding
@@ -9414,8 +9416,8 @@ incremental
 GC
 while
 the
-wrapper
 *
+wrapper
 is
 in
 use
@@ -9427,6 +9429,7 @@ ensure
 the
 wrapper
 gets
+*
 marked
 .
 *

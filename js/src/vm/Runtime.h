@@ -4750,11 +4750,6 @@ getDefaultLocale
 Garbage
 collector
 state
-used
-by
-jsgc
-.
-c
 .
 *
 /

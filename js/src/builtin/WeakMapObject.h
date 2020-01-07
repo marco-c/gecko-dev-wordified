@@ -117,7 +117,9 @@ builtin_WeakMapObject_h
 #
 include
 "
-jsweakmap
+gc
+/
+WeakMap
 .
 h
 "

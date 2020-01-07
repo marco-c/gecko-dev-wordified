@@ -1247,7 +1247,11 @@ ZoneCellIter
 /
 /
 in
-jsgcinlines
+gc
+/
+GC
+-
+inl
 .
 h
 for

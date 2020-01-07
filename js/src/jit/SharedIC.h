@@ -117,7 +117,9 @@ jit_SharedIC_h
 #
 include
 "
-jsgc
+gc
+/
+GC
 .
 h
 "

@@ -1545,7 +1545,9 @@ WeakMap
 implementation
 provided
 in
-jsweakmap
+gc
+/
+WeakMap
 .
 h
 because
@@ -1582,9 +1584,9 @@ are
 used
 to
 aggregate
+/
+/
 code
-/
-/
 coverage
 results
 on

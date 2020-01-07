@@ -121,10 +121,10 @@ API
 /
 #
 ifndef
-jsgc_h
+gc_GC_h
 #
 define
-jsgc_h
+gc_GC_h
 #
 include
 "
@@ -803,7 +803,9 @@ used
 correctly
 .
 See
-jsgc
+gc
+/
+Verifier
 .
 cpp
 .
@@ -1081,6 +1083,6 @@ js
 endif
 /
 *
-jsgc_h
+gc_GC_h
 *
 /
