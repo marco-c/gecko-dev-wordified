@@ -1003,11 +1003,11 @@ decl
 nsDOMCSSDeclaration
 :
 :
-ServoCSSParsingEnvironment
+ParsingEnvironment
 nsDOMCSSAttributeDeclaration
 :
 :
-GetServoCSSParsingEnvironment
+GetParsingEnvironment
 (
 nsIPrincipal
 *

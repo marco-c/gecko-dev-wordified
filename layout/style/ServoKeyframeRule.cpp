@@ -389,8 +389,8 @@ return
 NS_OK
 ;
 }
-ServoCSSParsingEnvironment
-GetServoCSSParsingEnvironment
+ParsingEnvironment
+GetParsingEnvironment
 (
 nsIPrincipal
 *
@@ -400,7 +400,7 @@ const
 final
 {
 return
-GetServoCSSParsingEnvironmentForRule
+GetParsingEnvironmentForRule
 (
 mRule
 )

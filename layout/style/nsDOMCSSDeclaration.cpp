@@ -692,10 +692,10 @@ DocToUpdate
 true
 )
 ;
-ServoCSSParsingEnvironment
+ParsingEnvironment
 servoEnv
 =
-GetServoCSSParsingEnvironment
+GetParsingEnvironment
 (
 aSubjectPrincipal
 )
@@ -1159,11 +1159,11 @@ static
 nsDOMCSSDeclaration
 :
 :
-ServoCSSParsingEnvironment
+ParsingEnvironment
 nsDOMCSSDeclaration
 :
 :
-GetServoCSSParsingEnvironmentForRule
+GetParsingEnvironmentForRule
 (
 const
 css
@@ -1379,10 +1379,10 @@ EnsureMutable
 bool
 changed
 ;
-ServoCSSParsingEnvironment
+ParsingEnvironment
 servoEnv
 =
-GetServoCSSParsingEnvironment
+GetParsingEnvironment
 (
 aSubjectPrincipal
 )
@@ -1477,7 +1477,7 @@ aSubjectPrincipal
 ServoDeclarationBlock
 *
 decl
-ServoCSSParsingEnvironment
+ParsingEnvironment
 &
 env
 )
@@ -1563,7 +1563,7 @@ aSubjectPrincipal
 ServoDeclarationBlock
 *
 decl
-ServoCSSParsingEnvironment
+ParsingEnvironment
 &
 env
 )

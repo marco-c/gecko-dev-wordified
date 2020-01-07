@@ -256,7 +256,7 @@ ParsingEnvironment
 nsDOMCSSDeclaration
 :
 :
-ServoCSSParsingEnvironment
+ParsingEnvironment
 ;
 /
 *

@@ -233,8 +233,8 @@ final
 nsDOMCSSDeclaration
 :
 :
-ServoCSSParsingEnvironment
-GetServoCSSParsingEnvironment
+ParsingEnvironment
+GetParsingEnvironment
 (
 nsIPrincipal
 *

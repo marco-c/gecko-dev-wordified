@@ -743,7 +743,7 @@ this
 .
 struct
 MOZ_STACK_CLASS
-ServoCSSParsingEnvironment
+ParsingEnvironment
 {
 RefPtr
 <
@@ -767,7 +767,7 @@ Loader
 *
 mLoader
 ;
-ServoCSSParsingEnvironment
+ParsingEnvironment
 (
 mozilla
 :
@@ -802,7 +802,7 @@ aLoader
 )
 {
 }
-ServoCSSParsingEnvironment
+ParsingEnvironment
 (
 already_AddRefed
 <
@@ -1132,8 +1132,8 @@ the
 parser
 .
 virtual
-ServoCSSParsingEnvironment
-GetServoCSSParsingEnvironment
+ParsingEnvironment
+GetParsingEnvironment
 (
 nsIPrincipal
 *
@@ -1150,7 +1150,7 @@ const
 An
 implementation
 for
-GetServoCSSParsingEnvironment
+GetParsingEnvironment
 for
 callers
 wrapping
@@ -1163,8 +1163,8 @@ css
 Rule
 .
 static
-ServoCSSParsingEnvironment
-GetServoCSSParsingEnvironmentForRule
+ParsingEnvironment
+GetParsingEnvironmentForRule
 (
 const
 mozilla

@@ -704,8 +704,8 @@ override
 nsDOMCSSDeclaration
 :
 :
-ServoCSSParsingEnvironment
-GetServoCSSParsingEnvironment
+ParsingEnvironment
+GetParsingEnvironment
 (
 nsIPrincipal
 *

@@ -237,8 +237,8 @@ DocToUpdate
 )
 final
 ;
-ServoCSSParsingEnvironment
-GetServoCSSParsingEnvironment
+ParsingEnvironment
+GetParsingEnvironment
 (
 nsIPrincipal
 *

@@ -524,11 +524,11 @@ nullptr
 nsDOMCSSDeclaration
 :
 :
-ServoCSSParsingEnvironment
+ParsingEnvironment
 ServoPageRuleDeclaration
 :
 :
-GetServoCSSParsingEnvironment
+GetParsingEnvironment
 (
 nsIPrincipal
 *
@@ -537,7 +537,7 @@ aSubjectPrincipal
 const
 {
 return
-GetServoCSSParsingEnvironmentForRule
+GetParsingEnvironmentForRule
 (
 Rule
 (
