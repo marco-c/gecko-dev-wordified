@@ -164,9 +164,12 @@ assert
 .
 sameValue
 (
-result
+Object
 .
-__proto__
+getPrototypeOf
+(
+result
+)
 Array
 .
 prototype

@@ -103,13 +103,6 @@ value
 className
 )
 .
-includes
-:
-[
-propertyHelper
-.
-js
-]
 features
 :
 [

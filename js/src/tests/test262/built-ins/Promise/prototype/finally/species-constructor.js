@@ -42,6 +42,13 @@ finally
 calls
 the
 SpeciesConstructor
+and
+creates
+the
+right
+amount
+of
+promises
 esid
 :
 sec
@@ -147,5 +154,6 @@ DONE
 )
 ;
 }
+ERROR
 )
 ;

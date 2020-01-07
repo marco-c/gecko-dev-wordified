@@ -78,13 +78,6 @@ NEGATIVE_INFINITY
 is
 -
 .
-includes
-:
-[
-propertyHelper
-.
-js
-]
 -
 -
 -

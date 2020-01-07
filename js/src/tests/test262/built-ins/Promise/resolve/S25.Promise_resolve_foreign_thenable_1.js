@@ -50,13 +50,6 @@ delegates
 to
 foreign
 thenable
-includes
-:
-[
-promiseHelper
-.
-js
-]
 flags
 :
 [
@@ -67,12 +60,6 @@ async
 -
 *
 /
-var
-sequence
-=
-[
-]
-;
 var
 thenable
 =

@@ -52,15 +52,6 @@ html
 like
 -
 comments
-esid
-:
-sec
--
-html
--
-like
--
-comments
 description
 :
 SingleLineHTMLOpenComment

@@ -45,12 +45,6 @@ is
 retained
 on
 subclassing
-includes
-:
--
-propertyHelper
-.
-js
 features
 :
 [

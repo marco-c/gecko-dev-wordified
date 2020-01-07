@@ -59,17 +59,6 @@ syntax
 numeric
 -
 literals
-esid
-:
-sec
--
-additional
--
-syntax
--
-numeric
--
-literals
 description
 :
 LegacyOctalIntegerLiteral

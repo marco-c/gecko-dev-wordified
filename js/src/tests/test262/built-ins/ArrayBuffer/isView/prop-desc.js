@@ -110,9 +110,6 @@ includes
 propertyHelper
 .
 js
-testTypedArray
-.
-js
 ]
 -
 -

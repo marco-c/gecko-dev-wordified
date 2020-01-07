@@ -35,12 +35,13 @@ file
 -
 -
 -
-es6id
+esid
 :
-7
+sec
+-
+object
 .
-2
-.
+is
 description
 :
 >
@@ -54,6 +55,9 @@ Symbol
 features
 :
 [
+Object
+.
+is
 Symbol
 ]
 -

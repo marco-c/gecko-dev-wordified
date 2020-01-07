@@ -63,13 +63,6 @@ in
 its
 array
 rejects
-includes
-:
-[
-promiseHelper
-.
-js
-]
 flags
 :
 [

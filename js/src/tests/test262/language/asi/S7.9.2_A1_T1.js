@@ -49,7 +49,7 @@ semicolon
 insertion
 from
 the
-Standart
+standard
 es5id
 :
 7

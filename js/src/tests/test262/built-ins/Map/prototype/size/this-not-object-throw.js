@@ -113,13 +113,6 @@ exception
 .
 .
 .
-includes
-:
-[
-propertyHelper
-.
-js
-]
 features
 :
 [

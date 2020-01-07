@@ -78,13 +78,6 @@ POSITIVE_INFINITY
 is
 +
 .
-includes
-:
-[
-propertyHelper
-.
-js
-]
 -
 -
 -

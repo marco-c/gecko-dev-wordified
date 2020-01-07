@@ -62,13 +62,6 @@ promise
 in
 array
 rejects
-includes
-:
-[
-promiseHelper
-.
-js
-]
 flags
 :
 [

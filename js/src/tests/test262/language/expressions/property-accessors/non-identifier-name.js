@@ -104,7 +104,7 @@ type
 SyntaxError
 phase
 :
-early
+parse
 -
 -
 -
