@@ -1693,6 +1693,7 @@ complexity
 )
 *
 /
+MOZ_MAYBE_UNUSED
 static
 MOZ_COLD
 MOZ_NORETURN
