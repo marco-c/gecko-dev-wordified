@@ -5260,8 +5260,15 @@ previousVisible
 wrapperItem
 -
 >
-GetVisibleRectForChildren
+GetChildren
 (
+)
+-
+>
+GetBounds
+(
+&
+aBuilder
 )
 ;
 if
