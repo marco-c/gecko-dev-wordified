@@ -158,6 +158,12 @@ FastHashMap
 }
 ;
 use
+picture
+:
+:
+PictureSurface
+;
+use
 prim_store
 :
 :
@@ -572,6 +578,10 @@ Vec
 <
 RenderTaskId
 >
+pub
+has_non_root_coord_system
+:
+bool
 }
 impl
 PictureState
@@ -595,6 +605,9 @@ Vec
 new
 (
 )
+has_non_root_coord_system
+:
+false
 }
 }
 }
@@ -1211,7 +1224,13 @@ surface
 =
 Some
 (
+PictureSurface
+:
+:
+RenderTask
+(
 render_task_id
+)
 )
 ;
 Some
@@ -2044,7 +2063,7 @@ gpu_cache_profile
 ;
 render_tasks
 .
-build
+write_task_data
 (
 )
 ;

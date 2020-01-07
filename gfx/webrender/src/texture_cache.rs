@@ -596,6 +596,18 @@ region_index
 u16
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
+pub
+enum
+CacheEntryMarker
+{
+}
 /
 /
 Stores
@@ -1075,7 +1087,7 @@ WeakCacheEntryHandle
 =
 WeakFreeListHandle
 <
-CacheEntry
+CacheEntryMarker
 >
 ;
 /
@@ -1623,6 +1635,7 @@ entries
 FreeList
 <
 CacheEntry
+CacheEntryMarker
 >
 /
 /
@@ -1660,7 +1673,7 @@ Vec
 <
 FreeListHandle
 <
-CacheEntry
+CacheEntryMarker
 >
 >
 /
@@ -1699,7 +1712,7 @@ Vec
 <
 FreeListHandle
 <
-CacheEntry
+CacheEntryMarker
 >
 >
 }

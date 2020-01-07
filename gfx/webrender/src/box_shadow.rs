@@ -121,10 +121,10 @@ prim_store
 ScrollNodeAndClipChain
 ;
 use
-resource_cache
+render_task
 :
 :
-CacheItem
+RenderTaskCacheEntryHandle
 ;
 use
 util
@@ -210,9 +210,12 @@ BoxShadowCacheKey
 )
 >
 pub
-cache_item
+cache_handle
 :
-CacheItem
+Option
+<
+RenderTaskCacheEntryHandle
+>
 pub
 clip_data_handle
 :

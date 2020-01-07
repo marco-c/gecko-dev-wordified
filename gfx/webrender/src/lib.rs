@@ -1209,9 +1209,9 @@ renderer
 :
 :
 {
+AsyncPropertySampler
 CpuProfile
 DebugFlags
-GpuProfile
 OutputImageHandler
 RendererKind
 }
@@ -1225,6 +1225,7 @@ renderer
 ExternalImage
 ExternalImageHandler
 ExternalImageSource
+GpuProfile
 }
 ;
 pub
