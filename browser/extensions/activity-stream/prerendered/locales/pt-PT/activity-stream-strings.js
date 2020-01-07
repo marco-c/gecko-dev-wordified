@@ -425,6 +425,9 @@ welcome_title
 Bem
 -
 vindo
+(
+a
+)
 ao
 novo
 separador
@@ -575,8 +578,10 @@ a
 partir
 do
 seu
-novo
+'
+Novo
 separador
+'
 .
 "
 "

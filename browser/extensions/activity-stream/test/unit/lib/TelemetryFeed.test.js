@@ -1069,7 +1069,7 @@ home
 ;
 assert
 .
-propertyNotVal
+notPropertyVal
 (
 session2
 .

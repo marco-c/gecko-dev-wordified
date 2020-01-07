@@ -361,6 +361,7 @@ PT
 rm
 ro
 ru
+si
 sk
 sl
 sq

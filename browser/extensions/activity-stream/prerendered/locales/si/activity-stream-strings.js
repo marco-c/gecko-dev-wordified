@@ -24,9 +24,6 @@ default_label_loading
 "
 :
 "
-.
-.
-.
 "
 "
 header_top_sites
@@ -72,6 +69,7 @@ header_bookmarks_placeholder
 "
 :
 "
+.
 "
 "
 header_stories_from
@@ -102,6 +100,7 @@ type_label_recommended
 "
 :
 "
+Trending
 "
 "
 type_label_open
@@ -144,9 +143,6 @@ menu_action_email_link
 "
 :
 "
-.
-.
-.
 "
 "
 menu_action_open_new_window
@@ -196,12 +192,15 @@ confirm_history_delete_notice_p2
 "
 :
 "
+.
 "
 "
 menu_action_save_to_pocket
 "
 :
 "
+Save
+to
 Pocket
 "
 "
@@ -212,6 +211,7 @@ search_for_something_with
 {
 search_term
 }
+:
 "
 "
 search_button
@@ -290,10 +290,6 @@ section_disclaimer_topstories_linktext
 "
 :
 "
-Learn
-how
-it
-works
 .
 "
 "
@@ -314,6 +310,7 @@ welcome_body
 :
 "
 Firefox
+.
 "
 "
 welcome_label
@@ -327,7 +324,7 @@ time_label_less_than_minute
 :
 "
 <
-1
+1m
 "
 "
 time_label_minute
@@ -361,11 +358,6 @@ settings_pane_button_label
 "
 :
 "
-Customize
-your
-New
-Tab
-page
 "
 "
 settings_pane_header
@@ -378,6 +370,7 @@ settings_pane_body2
 "
 :
 "
+.
 "
 "
 settings_pane_search_header
@@ -390,6 +383,7 @@ settings_pane_search_body
 "
 :
 "
+.
 "
 "
 settings_pane_topsites_header
@@ -402,6 +396,7 @@ settings_pane_topsites_body
 "
 :
 "
+.
 "
 "
 settings_pane_topsites_options_showmore
@@ -420,6 +415,7 @@ settings_pane_bookmarks_body
 "
 :
 "
+.
 "
 "
 settings_pane_visit_again_header
@@ -496,6 +492,7 @@ settings_pane_snippets_header
 "
 :
 "
+Snippets
 "
 "
 settings_pane_snippets_body
@@ -531,9 +528,6 @@ settings_pane_topstories_options_sponsored
 "
 :
 "
-Show
-Sponsored
-Stories
 "
 "
 edit_topsites_button_text
@@ -575,12 +569,18 @@ edit_topsites_pin_button
 "
 :
 "
+Pin
+this
+site
 "
 "
 edit_topsites_unpin_button
 "
 :
 "
+Unpin
+this
+site
 "
 "
 edit_topsites_edit_button
@@ -655,6 +655,7 @@ pocket_read_more
 "
 :
 "
+:
 "
 "
 pocket_read_even_more
@@ -667,7 +668,18 @@ pocket_feedback_header
 "
 :
 "
+The
+best
+of
+the
+web
+curated
+by
+over
 25
+million
+people
+.
 "
 "
 pocket_description
@@ -769,6 +781,7 @@ manual_migration_explanation2
 :
 "
 Firefox
+.
 "
 "
 manual_migration_cancel_button
