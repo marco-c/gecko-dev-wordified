@@ -135,6 +135,15 @@ h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 jsmath
 .
 h
@@ -2021,6 +2030,9 @@ asyncCause
 MutableHandleSavedFrame
 adoptedStack
 const
+mozilla
+:
+:
 Maybe
 <
 size_t
@@ -2331,6 +2343,9 @@ asyncStack
 HandleAtom
 asyncCause
 const
+mozilla
+:
+:
 Maybe
 <
 size_t

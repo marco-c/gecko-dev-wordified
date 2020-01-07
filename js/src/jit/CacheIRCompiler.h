@@ -117,6 +117,15 @@ jit_CacheIRCompiler_h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 jit
 /
 CacheIR
@@ -3044,6 +3053,9 @@ GPRs
 LiveFloatRegisterSet
 liveFloatRegs_
 ;
+mozilla
+:
+:
 Maybe
 <
 TypedOrValueRegister
@@ -3066,6 +3078,9 @@ from
 uint32
 arrays
 .
+mozilla
+:
+:
 Maybe
 <
 bool

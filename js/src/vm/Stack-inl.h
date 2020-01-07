@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -5545,6 +5554,9 @@ static
 *
 /
 inline
+mozilla
+:
+:
 Maybe
 <
 LiveSavedFrameCache

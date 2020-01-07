@@ -155,7 +155,7 @@ include
 "
 mozilla
 /
-Maybe
+PodOperations
 .
 h
 "
@@ -164,7 +164,7 @@ include
 "
 mozilla
 /
-PodOperations
+TimeStamp
 .
 h
 "
@@ -236,12 +236,6 @@ JSONPrinter
 .
 h
 "
-using
-mozilla
-:
-:
-Maybe
-;
 namespace
 js
 {

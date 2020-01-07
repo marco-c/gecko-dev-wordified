@@ -128,6 +128,15 @@ gc_PublicIterators_h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 gc
 /
 Zone
@@ -624,6 +633,9 @@ ZonesIter
 ZoneGroupsIter
 group
 ;
+mozilla
+:
+:
 Maybe
 <
 ZonesInGroupIter
