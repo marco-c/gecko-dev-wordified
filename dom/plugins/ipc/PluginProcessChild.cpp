@@ -967,6 +967,8 @@ LogModule
 :
 Init
 (
+aArgc
+aArgv
 )
 ;
 nsThreadManager

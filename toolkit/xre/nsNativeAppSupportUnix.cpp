@@ -3277,6 +3277,8 @@ LogModule
 :
 Init
 (
+gArgc
+gArgv
 )
 ;
 /
