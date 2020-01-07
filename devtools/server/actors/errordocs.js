@@ -505,6 +505,11 @@ JSMSG_INCOMPATIBLE_METHOD
 "
 Called_on_incompatible_type
 "
+JSMSG_BAD_INSTANCEOF_RHS
+:
+"
+invalid_right_hand_side_instanceof_operand
+"
 }
 ;
 const
