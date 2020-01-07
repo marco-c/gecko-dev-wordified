@@ -715,7 +715,7 @@ override
 ;
 virtual
 int32_t
-IndexOf
+ComputeIndexOf
 (
 const
 nsINode

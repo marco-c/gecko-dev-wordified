@@ -130,15 +130,6 @@ include
 "
 mozilla
 /
-EditAction
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EditorDOMPoint
 .
 h
@@ -3854,7 +3845,7 @@ newRowOffset
 parentOfRow
 -
 >
-IndexOf
+ComputeIndexOf
 (
 parentRow
 )

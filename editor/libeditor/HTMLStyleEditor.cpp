@@ -137,15 +137,6 @@ include
 "
 mozilla
 /
-EditAction
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EditorUtils
 .
 h
@@ -5756,7 +5747,7 @@ startNode
 startNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 parent
 )
@@ -5840,7 +5831,7 @@ endNode
 endNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 parent
 )
@@ -5991,7 +5982,7 @@ startOffset
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 startNode
 )
@@ -6066,7 +6057,7 @@ endOffset
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 endNode
 )
@@ -6165,7 +6156,7 @@ if
 (
 aNode
 .
-IndexOf
+ComputeIndexOf
 (
 firstNode
 )
@@ -6247,7 +6238,7 @@ if
 (
 aNode
 .
-IndexOf
+ComputeIndexOf
 (
 lastNode
 )

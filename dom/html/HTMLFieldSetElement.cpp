@@ -787,7 +787,7 @@ aIndex
 )
 <
 =
-IndexOf
+ComputeIndexOf
 (
 mFirstLegend
 )

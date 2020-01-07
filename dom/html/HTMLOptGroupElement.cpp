@@ -565,7 +565,7 @@ GetSelect
 )
 this
 nullptr
-IndexOf
+ComputeIndexOf
 (
 aKid
 )

@@ -381,7 +381,7 @@ return
 mMediaElement
 -
 >
-IndexOf
+ComputeIndexOf
 (
 trackElement
 )
@@ -3130,7 +3130,7 @@ return
 mMediaElement
 -
 >
-IndexOf
+ComputeIndexOf
 (
 trackElement
 )

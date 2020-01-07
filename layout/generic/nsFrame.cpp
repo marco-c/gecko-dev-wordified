@@ -14144,7 +14144,7 @@ offset
 newContent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 mContent
 )
@@ -26660,7 +26660,7 @@ offset
 parentContent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 tableOrCellContent
 )
@@ -31087,7 +31087,7 @@ beginOffset
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )
@@ -31151,7 +31151,7 @@ beginOffset
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )
@@ -50972,7 +50972,7 @@ result
 parentContent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )
@@ -53249,7 +53249,7 @@ newOffset
 newContent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 mContent
 )
@@ -54696,7 +54696,7 @@ mContentOffset
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )
@@ -55638,7 +55638,7 @@ result
 mContent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )

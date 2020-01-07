@@ -1776,7 +1776,7 @@ aOffset
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aContent
 )

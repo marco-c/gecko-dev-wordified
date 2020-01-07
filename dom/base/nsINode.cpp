@@ -3461,7 +3461,7 @@ OwnerDoc
 int32_t
 index
 =
-IndexOf
+ComputeIndexOf
 (
 &
 aOldChild
@@ -4212,7 +4212,7 @@ RemoveChildAt_Deprecated
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 node
 )
@@ -5890,7 +5890,7 @@ fine
 since
 /
 /
-IndexOf
+ComputeIndexOf
 will
 return
 -
@@ -5900,10 +5900,10 @@ the
 attribute
 making
 the
+/
+/
 attribute
 be
-/
-/
 considered
 before
 any
@@ -5913,7 +5913,7 @@ return
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 child1
 )
@@ -5921,7 +5921,7 @@ child1
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 child2
 )
@@ -8286,7 +8286,7 @@ MOZ_ASSERT
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 tmp
 )
@@ -10721,7 +10721,7 @@ aIndex
 )
 &
 &
-IndexOf
+ComputeIndexOf
 (
 aKid
 )
@@ -11372,7 +11372,7 @@ doctypeIndex
 aParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 docTypeContent
 )
@@ -11383,7 +11383,7 @@ insertIndex
 aParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aRefChild
 )
@@ -11619,7 +11619,7 @@ rootIndex
 aParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 rootElement
 )
@@ -11630,7 +11630,7 @@ insertIndex
 aParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aRefChild
 )
@@ -12360,7 +12360,9 @@ down
 though
 then
 using
-IndexOf
+/
+/
+ComputeIndexOf
 )
 .
 /
@@ -12796,7 +12798,7 @@ removeIndex
 oldParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 newContent
 )
@@ -14019,7 +14021,7 @@ nodeToInsertBefore
 {
 insPos
 =
-IndexOf
+ComputeIndexOf
 (
 nodeToInsertBefore
 )

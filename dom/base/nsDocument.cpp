@@ -25077,7 +25077,7 @@ int32_t
 nsDocument
 :
 :
-IndexOf
+ComputeIndexOf
 (
 const
 nsINode
@@ -25553,7 +25553,7 @@ nullptr
 ;
 doRemoveChildAt
 (
-IndexOf
+ComputeIndexOf
 (
 aKid
 )

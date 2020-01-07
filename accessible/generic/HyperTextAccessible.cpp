@@ -3063,7 +3063,7 @@ parentNode
 parentNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 node
 )
@@ -13561,7 +13561,7 @@ idx
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )
@@ -13686,7 +13686,7 @@ idx
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )

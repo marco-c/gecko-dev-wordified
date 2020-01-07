@@ -20189,7 +20189,7 @@ index
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 child
 )

@@ -1302,7 +1302,7 @@ indexInParent
 parentNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )
@@ -1393,7 +1393,7 @@ indexInParent
 parentNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )
@@ -3038,16 +3038,16 @@ like
 nsINode
 :
 :
-IndexOf
+ComputeIndexOf
 (
 )
 use
 int32_t
 .
 Therefore
+*
 nsRange
 should
-*
 accept
 only
 0

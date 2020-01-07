@@ -11585,7 +11585,7 @@ index1
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content1Ancestor
 )
@@ -11596,7 +11596,7 @@ index2
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content2Ancestor
 )

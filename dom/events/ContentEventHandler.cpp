@@ -8159,7 +8159,7 @@ startNodeOffset
 startNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )
@@ -8244,7 +8244,7 @@ startNodeOffset
 startNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )
@@ -8882,7 +8882,7 @@ indexInParent
 endNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )
@@ -21116,7 +21116,7 @@ parent
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aStartPosition
 .
@@ -21499,7 +21499,7 @@ indexInParent
 parentContent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 endPosition
 .
@@ -23344,7 +23344,7 @@ aNode
 )
 -
 >
-IndexOf
+ComputeIndexOf
 (
 node
 )
@@ -23363,7 +23363,7 @@ aNode
 )
 -
 >
-IndexOf
+ComputeIndexOf
 (
 node
 )

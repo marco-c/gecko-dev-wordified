@@ -12619,7 +12619,7 @@ root
 doc
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )
@@ -12627,7 +12627,7 @@ aNode
 doc
 -
 >
-IndexOf
+ComputeIndexOf
 (
 root
 )
@@ -14416,7 +14416,7 @@ AppendElement
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 child
 )
@@ -14963,7 +14963,7 @@ of
 nsINode
 :
 :
-IndexOf
+ComputeIndexOf
 (
 )
 but
@@ -14971,10 +14971,10 @@ this
 compares
 such
 invalid
+/
+/
 offset
 with
-/
-/
 valid
 offset
 .
@@ -15216,7 +15216,7 @@ return
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 child1
 )
@@ -15224,7 +15224,7 @@ child1
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 child2
 )
@@ -15341,7 +15341,7 @@ aOffset1
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 child2
 )
@@ -15400,7 +15400,7 @@ return
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 child1
 )
@@ -17297,7 +17297,7 @@ KeyAppendInt
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )

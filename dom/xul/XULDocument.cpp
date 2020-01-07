@@ -12411,7 +12411,7 @@ eState_Master
 int32_t
 indexOfRoot
 =
-IndexOf
+ComputeIndexOf
 (
 GetRootElement
 (
@@ -24922,7 +24922,7 @@ pos
 aParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )
@@ -25237,7 +25237,7 @@ nodeOffset
 aParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aChild
 )

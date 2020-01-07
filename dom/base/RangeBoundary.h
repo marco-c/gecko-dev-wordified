@@ -1041,7 +1041,7 @@ Some
 mParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 mRef
 )

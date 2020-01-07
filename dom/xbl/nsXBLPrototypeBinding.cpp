@@ -2695,7 +2695,7 @@ GetChildAt_Deprecated
 templParent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aTemplChild
 )

@@ -865,7 +865,7 @@ insIndex
 point
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aContent
 )

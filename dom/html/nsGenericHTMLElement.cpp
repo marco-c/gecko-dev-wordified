@@ -3765,7 +3765,7 @@ GetParent
 )
 -
 >
-IndexOf
+ComputeIndexOf
 (
 child
 )

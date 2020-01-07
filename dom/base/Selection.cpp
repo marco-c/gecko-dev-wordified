@@ -10071,7 +10071,7 @@ offset
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 content
 )
@@ -15558,7 +15558,7 @@ method
 nsINode
 :
 :
-IndexOf
+ComputeIndexOf
 (
 )
 .

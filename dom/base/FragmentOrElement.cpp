@@ -3711,7 +3711,7 @@ return
 mNode
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aContent
 )
@@ -7389,7 +7389,7 @@ aKid
 ;
 doRemoveChildAt
 (
-IndexOf
+ComputeIndexOf
 (
 aKid
 )
@@ -13361,7 +13361,7 @@ int32_t
 FragmentOrElement
 :
 :
-IndexOf
+ComputeIndexOf
 (
 const
 nsINode

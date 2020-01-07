@@ -1459,7 +1459,7 @@ offsets
 content
 -
 >
-IndexOf
+ComputeIndexOf
 (
 mContent
 )

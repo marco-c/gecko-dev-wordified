@@ -2977,7 +2977,7 @@ return
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 node
 )
@@ -2985,7 +2985,7 @@ node
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 otherNode
 )
@@ -3234,7 +3234,7 @@ index
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 node
 )
@@ -3245,7 +3245,7 @@ otherIndex
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 otherNode
 )

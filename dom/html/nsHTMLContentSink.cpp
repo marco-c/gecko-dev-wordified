@@ -5215,7 +5215,7 @@ index
 mDocument
 -
 >
-IndexOf
+ComputeIndexOf
 (
 mRoot
 )

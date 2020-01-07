@@ -489,7 +489,7 @@ return
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aSubject
 )
@@ -497,7 +497,7 @@ aSubject
 parent
 -
 >
-IndexOf
+ComputeIndexOf
 (
 aNode
 )
