@@ -101,12 +101,6 @@ branding
 /
 official
 /
-locales
-/
-en
--
-US
-/
 brand
 .
 ftl

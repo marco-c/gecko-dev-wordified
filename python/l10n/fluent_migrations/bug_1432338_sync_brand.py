@@ -97,12 +97,6 @@ ftl
 '
 browser
 /
-locales
-/
-en
--
-US
-/
 browser
 /
 branding
