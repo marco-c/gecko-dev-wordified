@@ -812,6 +812,7 @@ RootAccessible
 GetChromeFlags
 (
 )
+const
 {
 /
 /

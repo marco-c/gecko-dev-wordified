@@ -1827,6 +1827,7 @@ XULTreeAccessible
 :
 SetCurrentItem
 (
+const
 Accessible
 *
 aItem

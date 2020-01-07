@@ -934,6 +934,7 @@ HTMLSelectListAccessible
 :
 SetCurrentItem
 (
+const
 Accessible
 *
 aItem
@@ -3555,6 +3556,7 @@ HTMLComboboxAccessible
 :
 SetCurrentItem
 (
+const
 Accessible
 *
 aItem

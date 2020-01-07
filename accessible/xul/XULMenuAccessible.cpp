@@ -4023,6 +4023,7 @@ XULMenubarAccessible
 :
 SetCurrentItem
 (
+const
 Accessible
 *
 aItem

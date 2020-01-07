@@ -403,6 +403,7 @@ uint32_t
 GetChromeFlags
 (
 )
+const
 ;
 #
 endif
