@@ -950,6 +950,18 @@ child_process
 '
                 
 '
+debug
+'
+                
+'
+debugger
+'
+                
+'
+debugger_args
+'
+                
+'
 develop
 '
                 
@@ -1281,10 +1293,6 @@ assert
 set
 (
 browser_config
-.
-keys
-(
-)
 )
 .
 issubset
@@ -1292,10 +1300,6 @@ issubset
 set
 (
 config_extensive
-.
-keys
-(
-)
 )
 )
 class
