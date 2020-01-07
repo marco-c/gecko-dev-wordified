@@ -284,6 +284,8 @@ JS
 Value
 >
 aEventData
+bool
+aBuiltin
 JSContext
 *
 cx
