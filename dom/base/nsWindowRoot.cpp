@@ -425,10 +425,6 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsWindowRoot
 )
-NS_IMPL_DOMTARGET_DEFAULTS
-(
-nsWindowRoot
-)
 bool
 nsWindowRoot
 :

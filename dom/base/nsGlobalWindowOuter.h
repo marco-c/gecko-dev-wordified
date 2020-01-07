@@ -1620,6 +1620,13 @@ GetOwnerGlobal
 const
 override
 ;
+EventTarget
+*
+GetTargetForEventTargetChain
+(
+)
+override
+;
 using
 mozilla
 :
