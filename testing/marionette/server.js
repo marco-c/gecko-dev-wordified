@@ -69,9 +69,6 @@ CC
 interfaces
 :
 Ci
-utils
-:
-Cu
 }
 =
 Components

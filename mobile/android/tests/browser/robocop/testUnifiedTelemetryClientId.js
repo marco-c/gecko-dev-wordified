@@ -1,3 +1,17 @@
+/
+*
+eslint
+-
+disable
+mozilla
+/
+use
+-
+chromeutils
+-
+import
+*
+/
 var
 {
 classes
