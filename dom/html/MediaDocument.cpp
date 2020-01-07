@@ -1473,10 +1473,14 @@ Initialize
 (
 visibleArea
 .
-width
+Width
+(
+)
 visibleArea
 .
-height
+Height
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS

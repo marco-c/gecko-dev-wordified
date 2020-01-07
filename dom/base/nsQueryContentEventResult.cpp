@@ -947,7 +947,9 @@ aLeft
 =
 mRect
 .
-x
+X
+(
+)
 ;
 return
 NS_OK
@@ -1023,7 +1025,9 @@ aTop
 =
 mRect
 .
-y
+Y
+(
+)
 ;
 return
 NS_OK
@@ -1320,7 +1324,9 @@ mRectArray
 aOffset
 ]
 .
-x
+X
+(
+)
 ;
 *
 aTop
@@ -1330,7 +1336,9 @@ mRectArray
 aOffset
 ]
 .
-y
+Y
+(
+)
 ;
 *
 aWidth

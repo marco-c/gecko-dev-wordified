@@ -1128,7 +1128,9 @@ fX
 /
 firstPeriodInFilterSpace
 .
-width
+Width
+(
+)
 )
 fY
 =
@@ -1142,7 +1144,9 @@ fY
 /
 firstPeriodInFilterSpace
 .
-height
+Height
+(
+)
 )
 )
 ;
