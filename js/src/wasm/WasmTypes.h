@@ -8237,15 +8237,6 @@ CurrentMemory
 WaitI32
 WaitI64
 Wake
-#
-if
-defined
-(
-JS_CODEGEN_MIPS32
-)
-js_jit_gAtomic64Lock
-#
-endif
 Limit
 }
 ;
