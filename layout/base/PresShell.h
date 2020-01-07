@@ -331,9 +331,6 @@ AutoPointerEventTargetUpdater
 namespace
 mozilla
 {
-class
-ServoStyleSheet
-;
 namespace
 dom
 {
@@ -869,7 +866,7 @@ nsTArray
 <
 RefPtr
 <
-ServoStyleSheet
+StyleSheet
 >
 >
 &
@@ -885,7 +882,7 @@ nsTArray
 <
 RefPtr
 <
-ServoStyleSheet
+StyleSheet
 >
 >
 &

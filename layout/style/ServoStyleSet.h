@@ -286,7 +286,7 @@ ShadowRoot
 namespace
 dom
 class
-ServoStyleSheet
+StyleSheet
 ;
 struct
 Keyframe
@@ -497,7 +497,7 @@ Stylist
 A
 ServoStyleSet
 contains
-ServoStyleSheets
+StyleSheets
 .
 *
 /
@@ -649,7 +649,7 @@ CSSOM
 void
 RuleAdded
 (
-ServoStyleSheet
+StyleSheet
 &
 css
 :
@@ -661,7 +661,7 @@ Rule
 void
 RuleRemoved
 (
-ServoStyleSheet
+StyleSheet
 &
 css
 :
@@ -673,7 +673,7 @@ Rule
 void
 RuleChanged
 (
-ServoStyleSheet
+StyleSheet
 &
 aSheet
 css
@@ -1488,7 +1488,7 @@ AppendStyleSheet
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -1498,7 +1498,7 @@ PrependStyleSheet
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -1508,7 +1508,7 @@ RemoveStyleSheet
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -1523,7 +1523,7 @@ nsTArray
 <
 RefPtr
 <
-ServoStyleSheet
+StyleSheet
 >
 >
 &
@@ -1535,10 +1535,10 @@ InsertStyleSheetBefore
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aNewSheet
-ServoStyleSheet
+StyleSheet
 *
 aReferenceSheet
 )
@@ -1551,7 +1551,7 @@ aType
 )
 const
 ;
-ServoStyleSheet
+StyleSheet
 *
 StyleSheetAt
 (
@@ -1608,7 +1608,7 @@ sheetArray
 nsresult
 RemoveDocStyleSheet
 (
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -1616,7 +1616,7 @@ aSheet
 nsresult
 AddDocStyleSheet
 (
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 nsIDocument
@@ -3278,7 +3278,7 @@ PrependSheetOfType
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -3288,7 +3288,7 @@ AppendSheetOfType
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -3298,10 +3298,10 @@ InsertSheetOfType
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
-ServoStyleSheet
+StyleSheet
 *
 aBeforeSheet
 )
@@ -3311,7 +3311,7 @@ RemoveSheetOfType
 (
 SheetType
 aType
-ServoStyleSheet
+StyleSheet
 *
 aSheet
 )
@@ -3442,7 +3442,7 @@ nsTArray
 <
 RefPtr
 <
-ServoStyleSheet
+StyleSheet
 >
 >
 >

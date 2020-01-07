@@ -123,7 +123,6 @@ structs
 :
 :
 {
-ServoStyleSheetInner
 StyleSheetInfo
 nsIDocument
 }
@@ -455,7 +454,7 @@ self
 -
 >
 &
-ServoStyleSheetInner
+StyleSheetInfo
 {
 unsafe
 {
@@ -468,17 +467,11 @@ raw
 (
 )
 .
-_base
-.
 mInner
 as
 *
 const
 StyleSheetInfo
-as
-*
-const
-ServoStyleSheetInner
 )
 }
 }
@@ -736,8 +729,6 @@ self
 raw
 (
 )
-.
-_base
 .
 mMedia
 .

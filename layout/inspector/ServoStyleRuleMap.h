@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoStyleSheet
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h

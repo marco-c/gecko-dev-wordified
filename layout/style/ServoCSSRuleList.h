@@ -163,7 +163,7 @@ class
 ServoStyleRule
 ;
 class
-ServoStyleSheet
+StyleSheet
 ;
 namespace
 css

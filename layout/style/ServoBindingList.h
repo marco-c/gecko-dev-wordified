@@ -339,7 +339,7 @@ loader
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 gecko_stylesheet
 mozilla
@@ -450,7 +450,7 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 reference_sheet
 )
@@ -685,7 +685,7 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 gecko_sheet
 )
@@ -699,7 +699,7 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 gecko_sheet
 )
@@ -713,7 +713,7 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 gecko_sheet
 )
@@ -727,14 +727,14 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 gecko_sheet
 const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 before
 )
@@ -1019,7 +1019,7 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 gecko_sheet
 )
@@ -1033,7 +1033,7 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 gecko_sheet
 )
@@ -1047,14 +1047,14 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 gecko_sheet
 const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 before
 )
@@ -1207,7 +1207,7 @@ loader
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 gecko_stylesheet
 uint16_t
@@ -1519,7 +1519,7 @@ const
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 RawServoImportRuleBorrowed
 rule
@@ -1533,7 +1533,7 @@ rule
 mozilla
 :
 :
-ServoStyleSheet
+StyleSheet
 *
 sheet
 )
