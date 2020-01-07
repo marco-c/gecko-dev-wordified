@@ -2528,6 +2528,11 @@ context
 openlinkprivate
 "
 shouldShow
+&
+&
+PrivateBrowsingUtils
+.
+enabled
 )
 ;
 this
