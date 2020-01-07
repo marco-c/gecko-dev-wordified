@@ -5252,7 +5252,12 @@ sslBuffer_AppendNumber
 (
 &
 plaintext
-ssl_max_early_data_size
+ss
+-
+>
+opt
+.
+maxEarlyDataSize
 4
 )
 ;

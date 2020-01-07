@@ -1465,11 +1465,6 @@ SSLInt_SetTicketLifetime
 30
 )
 ;
-SSLInt_SetMaxEarlyDataSize
-(
-1024
-)
-;
 SSL_SetupAntiReplay
 (
 1
