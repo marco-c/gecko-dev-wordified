@@ -5331,7 +5331,7 @@ sPendingDocGroups
 nullptr
 ;
 }
-while
+if
 (
 sScheduledMutationObservers
 )
