@@ -23724,7 +23724,7 @@ specified
 url
 :
 :
-SpecifiedUrl
+SpecifiedImageUrl
 ;
 let
 url_data
@@ -23790,11 +23790,10 @@ if
 let
 Ok
 (
-mut
 url
 )
 =
-SpecifiedUrl
+SpecifiedImageUrl
 :
 :
 parse_from_string
@@ -23808,12 +23807,6 @@ into
 context
 )
 {
-url
-.
-build_image_value
-(
-)
-;
 let
 decl
 =

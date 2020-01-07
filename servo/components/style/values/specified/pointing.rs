@@ -166,7 +166,7 @@ specified
 url
 :
 :
-SpecifiedUrl
+SpecifiedImageUrl
 ;
 /
 /
@@ -384,7 +384,7 @@ from
 pub
 url
 :
-SpecifiedUrl
+SpecifiedImageUrl
 /
 /
 /

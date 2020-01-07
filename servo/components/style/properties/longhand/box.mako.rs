@@ -5186,14 +5186,6 @@ products
 "
 gecko
 "
-boxed
-=
-product
-=
-=
-"
-gecko
-"
 animation_value_type
 =
 "

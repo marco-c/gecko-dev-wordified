@@ -164,13 +164,7 @@ use
 values
 :
 :
-specified
-:
-:
-url
-:
-:
-SpecifiedUrl
+CssUrl
 ;
 /
 /
@@ -599,7 +593,7 @@ loading
 pub
 url
 :
-SpecifiedUrl
+CssUrl
 /
 /
 /

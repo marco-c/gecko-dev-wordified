@@ -218,7 +218,7 @@ specified
 url
 :
 :
-SpecifiedUrl
+SpecifiedImageUrl
 ;
 /
 /
@@ -940,6 +940,6 @@ gecko
 ]
 Url
 (
-SpecifiedUrl
+SpecifiedImageUrl
 )
 }

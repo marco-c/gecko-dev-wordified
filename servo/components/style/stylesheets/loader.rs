@@ -123,13 +123,7 @@ use
 values
 :
 :
-specified
-:
-:
-url
-:
-:
-SpecifiedUrl
+CssUrl
 ;
 /
 /
@@ -185,7 +179,7 @@ request_stylesheet
 self
 url
 :
-SpecifiedUrl
+CssUrl
 location
 :
 SourceLocation

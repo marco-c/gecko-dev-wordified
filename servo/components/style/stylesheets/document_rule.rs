@@ -226,13 +226,7 @@ use
 values
 :
 :
-specified
-:
-:
-url
-:
-:
-SpecifiedUrl
+CssUrl
 ;
 #
 [
@@ -641,7 +635,7 @@ given
 .
 Url
 (
-SpecifiedUrl
+CssUrl
 )
 /
 /
@@ -1206,7 +1200,7 @@ try
 |
 input
 |
-SpecifiedUrl
+CssUrl
 :
 :
 parse

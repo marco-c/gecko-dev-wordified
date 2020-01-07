@@ -371,13 +371,7 @@ style
 values
 :
 :
-specified
-:
-:
-url
-:
-:
-SpecifiedUrl
+CssUrl
 ;
 pub
 trait
@@ -2122,7 +2116,7 @@ request_stylesheet
 self
 url
 :
-SpecifiedUrl
+CssUrl
 source_location
 :
 SourceLocation
