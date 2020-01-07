@@ -194,7 +194,9 @@ computed
 FontStyle
 :
 :
-Normal
+normal
+(
+)
 "
 initial_specified_value
 =
@@ -205,7 +207,9 @@ specified
 FontStyle
 :
 :
-Normal
+normal
+(
+)
 "
 #
 FIXME
