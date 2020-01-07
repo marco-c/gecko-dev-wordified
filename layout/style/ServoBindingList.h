@@ -701,6 +701,13 @@ RawServoStyleSetBorrowed
 set
 RawGeckoElementBorrowedOrNull
 doc_elem
+const
+mozilla
+:
+:
+ServoElementSnapshotTable
+*
+snapshots
 )
 SERVO_BINDING_FUNC
 (
