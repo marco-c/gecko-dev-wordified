@@ -124,6 +124,8 @@ subprocess
 import
 sys
 import
+traceback
+import
 urllib2
 import
 glob
@@ -3171,6 +3173,15 @@ crate_path
                                         
 except
 :
+                                            
+print
+(
+traceback
+.
+format_exc
+(
+)
+)
                                             
 print
 (
