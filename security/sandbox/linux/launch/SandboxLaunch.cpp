@@ -397,7 +397,7 @@ PreloadSandboxLib
 aOptions
 -
 >
-env_map
+environ
 )
 ;
 AttachSandboxReporter
