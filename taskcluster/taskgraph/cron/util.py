@@ -240,7 +240,7 @@ True
 def
 calculate_head_rev
 (
-options
+root
 )
 :
     
@@ -314,4 +314,7 @@ node
 }
 '
 ]
+cwd
+=
+root
 )

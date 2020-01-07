@@ -210,6 +210,7 @@ def
 load_jobs
 (
 params
+root
 )
 :
     
@@ -222,7 +223,7 @@ path
 .
 join
 (
-GECKO
+root
 '
 .
 cron
@@ -443,8 +444,17 @@ run_job
 job_name
 job
 params
+root
 )
 :
+    
+params
+=
+params
+.
+copy
+(
+)
     
 params
 [
@@ -492,6 +502,9 @@ job
 '
 ]
 params
+root
+=
+root
 )
         
 else
@@ -598,12 +611,7 @@ get_session
 (
 )
 task_id
-params
-[
-'
 job_name
-'
-]
 task
 )
     
@@ -774,6 +782,11 @@ CRON_TIME
 '
 ]
 )
+)
+            
+print
+(
+time
 )
         
 else
@@ -1051,37 +1064,28 @@ options
 )
 :
     
+root
+=
+options
+.
+get
+(
+'
+root
+'
+)
+or
+GECKO
+    
 params
 =
 {
         
 #
-name
-of
-this
-cron
-job
-(
-set
-per
-job
-below
-)
-        
-'
-job_name
-'
-:
-'
-.
-.
-'
-        
-#
 repositories
         
 '
-head_repository
+repository_url
 '
 :
 options
@@ -1120,7 +1124,7 @@ head_rev
 :
 calculate_head_rev
 (
-options
+root
 )
         
 #
@@ -1214,6 +1218,9 @@ jobs
 load_jobs
 (
 params
+root
+=
+root
 )
     
 if
@@ -1262,6 +1269,7 @@ jobs
 job_name
 ]
 params
+root
 )
         
 return
@@ -1311,6 +1319,7 @@ run_job
 job_name
 job
 params
+root
 )
         
 else
