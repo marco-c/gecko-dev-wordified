@@ -1457,18 +1457,6 @@ robocop
 .
 apk
 "
-                
-"
--
--
-robocop
--
-ini
-=
-robocop
-.
-ini
-"
             
 ]
         
