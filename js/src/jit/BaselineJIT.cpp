@@ -1641,6 +1641,12 @@ bool
 forceDebugInstrumentation
 )
 {
+assertSameCompartment
+(
+cx
+script
+)
+;
 MOZ_ASSERT
 (
 !
