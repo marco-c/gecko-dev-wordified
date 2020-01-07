@@ -6735,15 +6735,6 @@ standard
 ARM
 unaligned
 trap
-Interrupt
-/
-/
-stub
-executes
-asynchronously
-to
-interrupt
-wasm
 Throw
 /
 /
@@ -8277,7 +8268,6 @@ ExpD
 LogD
 PowD
 ATan2D
-HandleExecutionInterrupt
 HandleDebugTrap
 HandleThrow
 ReportTrap

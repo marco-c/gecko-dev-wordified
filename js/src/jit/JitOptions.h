@@ -401,9 +401,6 @@ wasmDelayTier2
 bool
 ionInterruptWithoutSignals
 ;
-bool
-simulatorAlwaysInterrupt
-;
 uint32_t
 baselineWarmUpThreshold
 ;
