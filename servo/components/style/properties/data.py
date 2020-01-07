@@ -3171,7 +3171,7 @@ s
 %
 self
 .
-camel_case
+ident
 class
 Method
 (

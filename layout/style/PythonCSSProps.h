@@ -265,7 +265,7 @@ define
 CSS_PROP_ALIAS
 (
 name
-aliasid_
+aliasid
 id
 method
 pref
@@ -275,7 +275,7 @@ DO_PROP
 (
 name
 method
-id
+aliasid
 0
 pref
 "

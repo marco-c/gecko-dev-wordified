@@ -1463,7 +1463,7 @@ pref_
 eCSSPropertyAlias_
 #
 #
-aliasmethod_
+aliasid_
 )
 #
 include
@@ -4315,7 +4315,6 @@ eCSSKeyword_UNKNOWN
 }
 }
 ;
-const
 KTableEntry
 nsCSSProps
 :
@@ -6596,7 +6595,6 @@ eCSSKeyword_UNKNOWN
 }
 }
 ;
-const
 KTableEntry
 nsCSSProps
 :
