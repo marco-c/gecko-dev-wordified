@@ -339,7 +339,7 @@ summary
 encode
 (
 "
-UTF
+utf
 -
 8
 "
