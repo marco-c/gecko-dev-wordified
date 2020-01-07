@@ -421,7 +421,6 @@ NoActionState
 "
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 nsEventStatus
 OnPress
 (
@@ -514,7 +513,6 @@ return
 rv
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnScrollStart
 (
@@ -548,7 +546,6 @@ ScrollState
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnScrollPositionChanged
 (
@@ -569,7 +566,6 @@ OnScrollPositionChanged
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnSelectionChanged
 (
@@ -601,7 +597,6 @@ aReason
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnBlur
 (
@@ -624,7 +619,6 @@ OnBlur
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnReflow
 (
@@ -802,7 +796,6 @@ PressCaretState
 "
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 nsEventStatus
 OnMove
 (
@@ -863,7 +856,6 @@ return
 nsEventStatus_eConsumeNoDefault
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 nsEventStatus
 OnRelease
 (
@@ -1060,7 +1052,6 @@ DragCaretState
 "
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 nsEventStatus
 OnMove
 (
@@ -1089,7 +1080,6 @@ return
 nsEventStatus_eConsumeNoDefault
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 nsEventStatus
 OnRelease
 (
@@ -1309,7 +1299,6 @@ return
 nsEventStatus_eIgnore
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 nsEventStatus
 OnLongTap
 (
@@ -1352,7 +1341,6 @@ aPoint
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnScrollStart
 (
@@ -1386,7 +1374,6 @@ ScrollState
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnBlur
 (
@@ -1428,7 +1415,6 @@ NoActionState
 ;
 }
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnSelectionChanged
 (
@@ -1460,7 +1446,6 @@ aReason
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnReflow
 (
@@ -1653,7 +1638,6 @@ PostScrollState
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnScrollPositionChanged
 (
@@ -1674,7 +1658,6 @@ OnScrollPositionChanged
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnBlur
 (
@@ -1848,7 +1831,6 @@ PostScrollState
 "
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 nsEventStatus
 OnPress
 (
@@ -1907,7 +1889,6 @@ aEventClass
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnScrollStart
 (
@@ -1931,7 +1912,6 @@ ScrollState
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnScrollEnd
 (
@@ -1965,7 +1945,6 @@ NoActionState
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnBlur
 (
@@ -2165,7 +2144,6 @@ LongTapState
 "
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 nsEventStatus
 OnLongTap
 (
@@ -2306,7 +2284,6 @@ return
 nsEventStatus_eIgnore
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnScrollStart
 (
@@ -2340,7 +2317,6 @@ ScrollState
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 OnReflow
 (

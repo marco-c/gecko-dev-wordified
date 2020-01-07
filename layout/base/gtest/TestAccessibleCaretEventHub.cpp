@@ -1174,13 +1174,6 @@ event
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-void
-TestAsyncPanZoomScroll
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 HandleEventAndCheckState
 (
@@ -1262,7 +1255,6 @@ PressEventCreator
 typename
 ReleaseEventCreator
 >
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 TestPressReleaseOnNoCaret
 (
@@ -1279,7 +1271,6 @@ PressEventCreator
 typename
 ReleaseEventCreator
 >
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 TestPressReleaseOnCaret
 (
@@ -1298,7 +1289,6 @@ MoveEventCreator
 typename
 ReleaseEventCreator
 >
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 TestPressMoveReleaseOnNoCaret
 (
@@ -1319,7 +1309,6 @@ MoveEventCreator
 typename
 ReleaseEventCreator
 >
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 TestPressMoveReleaseOnCaret
 (
@@ -1338,7 +1327,6 @@ PressEventCreator
 typename
 ReleaseEventCreator
 >
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 TestLongTapWithSelectWordSuccessful
 (
@@ -1355,7 +1343,6 @@ PressEventCreator
 typename
 ReleaseEventCreator
 >
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 TestLongTapWithSelectWordFailed
 (
@@ -1374,7 +1361,6 @@ MoveEventCreator
 typename
 ReleaseEventCreator
 >
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 TestEventDrivenAsyncPanZoomScroll
 (
@@ -1413,7 +1399,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMousePressReleaseOnNoCaret
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestPressReleaseOnNoCaret
 (
@@ -1427,7 +1412,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchPressReleaseOnNoCaret
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestPressReleaseOnNoCaret
 (
@@ -1556,7 +1540,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMousePressReleaseOnCaret
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestPressReleaseOnCaret
 (
@@ -1570,7 +1553,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchPressReleaseOnCaret
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestPressReleaseOnCaret
 (
@@ -1730,7 +1712,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMousePressMoveReleaseOnNoCaret
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestPressMoveReleaseOnNoCaret
 (
@@ -1745,7 +1726,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchPressMoveReleaseOnNoCaret
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestPressMoveReleaseOnNoCaret
 (
@@ -1987,7 +1967,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMousePressMoveReleaseOnCaret
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestPressMoveReleaseOnCaret
 (
@@ -2002,7 +1981,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchPressMoveReleaseOnCaret
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestPressMoveReleaseOnCaret
 (
@@ -2340,7 +2318,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchStartMoveEndOnCaretWithTouchCancelIgnored
 )
-MOZ_CAN_RUN_SCRIPT
 {
 nscoord
 x0
@@ -2650,7 +2627,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMouseLongTapWithSelectWordSuccessful
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestLongTapWithSelectWordSuccessful
 (
@@ -2664,7 +2640,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchLongTapWithSelectWordSuccessful
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestLongTapWithSelectWordSuccessful
 (
@@ -3108,7 +3083,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMouseLongTapWithSelectWordFailed
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestLongTapWithSelectWordFailed
 (
@@ -3122,7 +3096,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchLongTapWithSelectWordFailed
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestLongTapWithSelectWordFailed
 (
@@ -3256,7 +3229,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchEventDrivenAsyncPanZoomScroll
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestEventDrivenAsyncPanZoomScroll
 (
@@ -3271,7 +3243,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMouseEventDrivenAsyncPanZoomScroll
 )
-MOZ_CAN_RUN_SCRIPT
 {
 TestEventDrivenAsyncPanZoomScroll
 (
@@ -3875,20 +3846,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestAsyncPanZoomScroll
 )
-MOZ_CAN_RUN_SCRIPT
-{
-TestAsyncPanZoomScroll
-(
-)
-;
-}
-void
-AccessibleCaretEventHubTester
-:
-:
-TestAsyncPanZoomScroll
-(
-)
 {
 MockFunction
 <
@@ -4175,7 +4132,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestAsyncPanZoomScrollStartedThenBlur
 )
-MOZ_CAN_RUN_SCRIPT
 {
 {
 InSequence
@@ -4305,7 +4261,6 @@ TEST_F
 AccessibleCaretEventHubTester
 TestAsyncPanZoomScrollEndedThenBlur
 )
-MOZ_CAN_RUN_SCRIPT
 {
 {
 InSequence
