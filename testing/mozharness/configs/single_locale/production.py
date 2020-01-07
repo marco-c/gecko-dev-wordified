@@ -153,12 +153,4 @@ UPLOAD_TO_TEMP
 "
     
 }
-    
-'
-taskcluster_index
-'
-:
-'
-index
-'
 }

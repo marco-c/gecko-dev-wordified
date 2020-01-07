@@ -160,18 +160,6 @@ UPLOAD_TO_TEMP
 }
     
 '
-taskcluster_index
-'
-:
-'
-index
-.
-garbage
-.
-staging
-'
-    
-'
 post_upload_extra
 '
 :

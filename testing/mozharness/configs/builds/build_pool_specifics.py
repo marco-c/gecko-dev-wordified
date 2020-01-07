@@ -155,18 +155,6 @@ net
 '
         
 '
-taskcluster_index
-'
-:
-'
-index
-.
-garbage
-.
-staging
-'
-        
-'
 post_upload_extra
 '
 :
@@ -309,14 +297,6 @@ prod
 mozaws
 .
 net
-'
-        
-'
-taskcluster_index
-'
-:
-'
-index
 '
     
 }

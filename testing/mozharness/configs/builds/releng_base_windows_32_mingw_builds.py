@@ -682,12 +682,6 @@ mingw32
 '
     
 '
-publish_nightly_en_US_routes
-'
-:
-False
-    
-'
 env
 '
 :
