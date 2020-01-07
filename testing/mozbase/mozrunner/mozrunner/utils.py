@@ -1187,7 +1187,7 @@ else
                 
 log
 .
-info
+error
 (
 "
 TEST
@@ -1204,7 +1204,7 @@ Failed
 to
 find
 "
-                         
+                          
 "
 ASan
 symbolizer
@@ -1797,7 +1797,7 @@ else
             
 log
 .
-info
+error
 (
 "
 TEST
@@ -1815,7 +1815,7 @@ to
 find
 TSan
 "
-                     
+                      
 "
 symbolizer
 at
