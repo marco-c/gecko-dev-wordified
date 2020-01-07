@@ -182,7 +182,7 @@ unsafe
 let
 _
 =
-try_call
+call
 !
 (
 ffi
