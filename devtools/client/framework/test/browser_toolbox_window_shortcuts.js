@@ -235,6 +235,11 @@ definition
 .
 visibilityswitch
 ;
+if
+(
+pref
+)
+{
 let
 prefValue
 =
@@ -271,6 +276,7 @@ pref
 true
 )
 ;
+}
 }
 }
 let
