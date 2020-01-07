@@ -104,7 +104,7 @@ for
 "
 +
 "
-obeserver
+observer
 notifications
 "
 ;
