@@ -1843,14 +1843,14 @@ browser
 getAttribute
 (
 "
-isPreloadBrowser
+preloadedState
 "
 )
 =
 =
 =
 "
-true
+preloaded
 "
 ;
 }

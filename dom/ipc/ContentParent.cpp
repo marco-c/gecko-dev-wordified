@@ -6866,7 +6866,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-isPreloadBrowser
+preloadedState
 isPreloadBrowserStr
 )
 )
@@ -6878,7 +6878,7 @@ isPreloadBrowserStr
 EqualsLiteral
 (
 "
-true
+preloaded
 "
 )
 ;
