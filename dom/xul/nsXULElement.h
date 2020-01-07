@@ -1674,7 +1674,6 @@ undef
 XUL_ELEMENT_FLAG_BIT
 class
 nsXULElement
-final
 :
 public
 nsStyledElement

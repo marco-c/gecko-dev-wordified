@@ -2805,7 +2805,7 @@ similar
 to
 those
 for
-nsIPopupBoxObject
+XULPopupElement
 :
 :
 OpenPopup
