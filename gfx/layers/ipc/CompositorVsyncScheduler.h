@@ -329,11 +329,6 @@ SetNeedsComposite
 )
 ;
 void
-OnForceComposeToTarget
-(
-)
-;
-void
 ScheduleTask
 (
 already_AddRefed
