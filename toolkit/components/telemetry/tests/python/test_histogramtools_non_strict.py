@@ -56,8 +56,6 @@ MPL
 import
 json
 import
-json
-import
 mozunit
 import
 sys
