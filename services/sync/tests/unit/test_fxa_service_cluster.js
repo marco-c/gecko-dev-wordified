@@ -168,14 +168,11 @@ to
 "
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-function
-(
-)
-{
 Service
 .
 _clusterManager
@@ -183,8 +180,6 @@ _clusterManager
 _findCluster
 (
 )
-;
-}
 )
 ;
 _
@@ -265,6 +260,7 @@ to
 let
 cluster
 =
+await
 Service
 .
 _clusterManager
@@ -385,6 +381,7 @@ promise
 ;
 cluster
 =
+await
 Service
 .
 _clusterManager
