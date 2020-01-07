@@ -178,6 +178,9 @@ null
 indent
 :
 0
+private
+:
+false
 }
 props
 )
@@ -254,6 +257,9 @@ prefix
 :
 "
 "
+private
+:
+false
 }
 props
 )
@@ -332,6 +338,9 @@ null
 requestHeadersFromUploadStream
 :
 null
+private
+:
+false
 }
 props
 )
