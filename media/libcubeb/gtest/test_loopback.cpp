@@ -2288,7 +2288,7 @@ stream
 ;
 delay
 (
-150
+300
 )
 ;
 cubeb_stream_stop
@@ -2884,7 +2884,7 @@ output_stream
 ;
 delay
 (
-150
+300
 )
 ;
 cubeb_stream_stop
@@ -3371,7 +3371,7 @@ input_stream
 ;
 delay
 (
-50
+300
 )
 ;
 cubeb_stream_stop
@@ -3462,7 +3462,7 @@ EPISILON
 =
 0
 .
-000001
+0001
 ;
 /
 *
@@ -4067,7 +4067,7 @@ output_stream
 ;
 delay
 (
-150
+300
 )
 ;
 cubeb_stream_stop
