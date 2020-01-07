@@ -838,12 +838,10 @@ MOZ_CRASH
 )
 ;
 }
-void
+FloatRegister
 aliased
 (
 uint32_t
-FloatRegister
-*
 )
 {
 MOZ_CRASH
@@ -885,12 +883,10 @@ MOZ_CRASH
 )
 ;
 }
-void
+FloatRegister
 alignedAliased
 (
 uint32_t
-FloatRegister
-*
 )
 {
 MOZ_CRASH

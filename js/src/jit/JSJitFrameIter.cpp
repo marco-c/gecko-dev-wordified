@@ -1404,7 +1404,7 @@ s0
 .
 FloatRegister
 ftmp
-;
+=
 (
 *
 iter
@@ -1413,8 +1413,6 @@ iter
 alignedAliased
 (
 a
-&
-ftmp
 )
 ;
 machine
