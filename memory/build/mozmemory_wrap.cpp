@@ -238,6 +238,10 @@ void
 *
 ptr
 )
+noexcept
+(
+true
+)
 {
 free_impl
 (
@@ -255,6 +259,10 @@ delete
 void
 *
 ptr
+)
+noexcept
+(
+true
 )
 {
 free_impl
@@ -326,6 +334,10 @@ nothrow_t
 const
 &
 )
+noexcept
+(
+true
+)
 {
 free_impl
 (
@@ -349,6 +361,10 @@ std
 nothrow_t
 const
 &
+)
+noexcept
+(
+true
 )
 {
 free_impl
