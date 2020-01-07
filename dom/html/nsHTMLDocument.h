@@ -510,11 +510,6 @@ MozSetImageElement
 ;
 /
 /
-nsIDOMNode
-interface
-NS_FORWARD_NSIDOMNODE_TO_NSINODE
-/
-/
 nsIDOMHTMLDocument
 interface
 NS_DECL_NSIDOMHTMLDOCUMENT

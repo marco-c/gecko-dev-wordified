@@ -542,11 +542,6 @@ override
 ;
 /
 /
-nsIDOMNode
-interface
-NS_FORWARD_NSIDOMNODE_TO_NSINODE
-/
-/
 nsIDOMDocument
 interface
 using

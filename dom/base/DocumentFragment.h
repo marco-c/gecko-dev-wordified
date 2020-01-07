@@ -286,11 +286,6 @@ FragmentOrElement
 /
 /
 interface
-nsIDOMNode
-NS_FORWARD_NSIDOMNODE_TO_NSINODE
-/
-/
-interface
 nsIDOMDocumentFragment
 NS_DECL_NSIDOMDOCUMENTFRAGMENT
 explicit
