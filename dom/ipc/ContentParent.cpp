@@ -16189,9 +16189,8 @@ isChrome
 isChrome
 )
 {
-KillHard
-(
-"
+/
+/
 PlaySound
 only
 accepts
@@ -16200,12 +16199,10 @@ valid
 chrome
 URI
 .
-"
-)
-;
 return
-IPC_OK
+IPC_FAIL_NO_REASON
 (
+this
 )
 ;
 }
