@@ -123,17 +123,6 @@ mozilla
 .
 gecko
 .
-gfx
-.
-LayerView
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 GeckoBundle

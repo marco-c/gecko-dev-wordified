@@ -546,8 +546,8 @@ native
 void
 invalidateAndScheduleComposite
 (
-GeckoView
-geckoView
+GeckoSession
+session
 )
 ;
 WrapForJNI
@@ -568,8 +568,8 @@ native
 void
 addPresentationSurface
 (
-GeckoView
-geckoView
+GeckoSession
+session
 Surface
 surface
 )
@@ -762,6 +762,10 @@ PROFILE_READY
 invalidateAndScheduleComposite
 (
 mGeckoView
+.
+getSession
+(
+)
 )
 ;
 }
@@ -792,6 +796,10 @@ PROFILE_READY
 addPresentationSurface
 (
 mGeckoView
+.
+getSession
+(
+)
 holder
 .
 getSurface
