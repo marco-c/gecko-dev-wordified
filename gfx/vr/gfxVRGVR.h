@@ -453,14 +453,6 @@ UpdateHeadToEye
 gvr_context
 *
 aContext
-gfx
-:
-:
-Quaternion
-*
-aRot
-=
-nullptr
 )
 ;
 void
