@@ -296,6 +296,13 @@ nsUnicharUtils
 h
 "
 #
+include
+"
+nsWindowSizes
+.
+h
+"
+#
 define
 LINK_ELEMENT_FLAG_BIT
 (

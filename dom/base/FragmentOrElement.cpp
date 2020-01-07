@@ -684,6 +684,13 @@ h
 #
 include
 "
+nsWindowSizes
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h

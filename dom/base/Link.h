@@ -169,6 +169,9 @@ mozilla
 class
 EventStates
 ;
+class
+SizeOfState
+;
 namespace
 dom
 {

@@ -146,6 +146,13 @@ nsIMemoryReporter
 .
 h
 "
+#
+include
+"
+nsWindowSizes
+.
+h
+"
 namespace
 mozilla
 {

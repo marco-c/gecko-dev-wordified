@@ -285,6 +285,13 @@ h
 #
 include
 "
+nsWindowSizes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MemoryReporting

@@ -123,6 +123,15 @@ include
 "
 mozilla
 /
+SizeOfState
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h

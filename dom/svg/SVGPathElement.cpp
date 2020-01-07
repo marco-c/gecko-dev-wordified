@@ -227,6 +227,13 @@ h
 #
 include
 "
+nsWindowSizes
+.
+h
+"
+#
+include
+"
 SVGContentUtils
 .
 h

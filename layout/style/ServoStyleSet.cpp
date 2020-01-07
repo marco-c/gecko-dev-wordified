@@ -377,6 +377,13 @@ nsBindingManager
 .
 h
 "
+#
+include
+"
+nsWindowSizes
+.
+h
+"
 using
 namespace
 mozilla
