@@ -1440,6 +1440,16 @@ layers
 SetAllowedTouchBehaviorCallback
 SetAllowedTouchBehaviorCallback
 ;
+typedef
+mozilla
+:
+:
+layers
+:
+:
+TouchBehaviorFlags
+TouchBehaviorFlags
+;
 public
 :
 /

@@ -1463,6 +1463,10 @@ texture
 uncompressed
 }
 ;
+typedef
+uint32_t
+TouchBehaviorFlags
+;
 /
 /
 Some

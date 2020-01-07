@@ -353,10 +353,6 @@ Keyboard
 Keyboard
 }
 ;
-typedef
-uint32_t
-TouchBehaviorFlags
-;
 /
 /
 Epsilon

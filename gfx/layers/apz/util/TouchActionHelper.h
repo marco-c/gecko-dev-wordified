@@ -127,7 +127,7 @@ mozilla
 /
 layers
 /
-APZUtils
+LayersTypes
 .
 h
 "
