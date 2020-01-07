@@ -289,13 +289,6 @@ h
 #
 include
 "
-nsIFrameLoader
-.
-h
-"
-#
-include
-"
 nsIListBoxObject
 .
 h
@@ -1354,11 +1347,6 @@ Event
 DEFINE_SHIM
 (
 EventTarget
-)
-DEFINE_SHIM_WITH_CUSTOM_INTERFACE
-(
-nsIFrameLoader
-FrameLoader
 )
 DEFINE_SHIM_WITH_CUSTOM_INTERFACE
 (
