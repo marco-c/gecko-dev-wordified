@@ -798,9 +798,11 @@ home
 new
 PageInfo
 (
-StringHelper
-.
-STATIC_ABOUT_HOME_URL
+"
+about
+:
+home
+"
 )
 ;
 PageInfo
