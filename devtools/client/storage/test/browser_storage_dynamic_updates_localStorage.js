@@ -75,12 +75,12 @@ localStorage
 .
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -117,7 +117,7 @@ hidden
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -176,7 +176,7 @@ ls4
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -190,7 +190,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -249,7 +249,7 @@ again
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -263,7 +263,7 @@ updated
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -277,7 +277,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -346,7 +346,7 @@ changed
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -360,7 +360,7 @@ updated
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -394,7 +394,7 @@ changed
 Clearing
 items
 .
-await
+yield
 ContentTask
 .
 spawn
@@ -418,7 +418,7 @@ clear
 }
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -432,7 +432,7 @@ cleared
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -459,7 +459,7 @@ org
 ]
 )
 ;
-await
+yield
 finishTests
 (
 )

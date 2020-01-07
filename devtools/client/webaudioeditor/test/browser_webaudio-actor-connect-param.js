@@ -47,8 +47,8 @@ actor
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -58,7 +58,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 CONNECT_PARAM_URL
@@ -75,7 +75,7 @@ gainNode
 connectParam
 ]
 =
-await
+yield
 Promise
 .
 all
@@ -201,7 +201,7 @@ param
 "
 )
 ;
-await
+yield
 removeTab
 (
 target

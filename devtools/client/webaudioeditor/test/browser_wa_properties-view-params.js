@@ -54,8 +54,8 @@ types
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -65,7 +65,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 SIMPLE_NODES_URL
@@ -107,7 +107,7 @@ context
 "
 )
 ;
-await
+yield
 loadFrameScriptUtils
 (
 )
@@ -149,7 +149,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -218,7 +218,7 @@ OscillatorNode
 let
 defaults
 =
-await
+yield
 Promise
 .
 all
@@ -268,7 +268,7 @@ i
 )
 )
 ;
-await
+yield
 waitForInspectorRender
 (
 panelWin
@@ -290,7 +290,7 @@ i
 )
 ;
 }
-await
+yield
 teardown
 (
 target

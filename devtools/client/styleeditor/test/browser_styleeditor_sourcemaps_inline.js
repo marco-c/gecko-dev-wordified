@@ -175,8 +175,8 @@ TCxLQUFLLEVBQUUsS0FBSyIsCiJzb3VyY2VzIjogWyJ0ZXN0LnNjc3MiXSwKInNvdXJjZXNDb25
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -185,7 +185,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -211,7 +211,7 @@ enabled
 "
 )
 ;
-await
+yield
 testEditor
 (
 ui
@@ -234,7 +234,7 @@ Test
 disabling
 original
 sources
-await
+yield
 togglePref
 (
 ui
@@ -264,7 +264,7 @@ toggled
 Test
 CSS
 editors
-await
+yield
 testEditor
 (
 ui
@@ -297,8 +297,8 @@ PREF
 }
 )
 ;
-async
 function
+*
 testEditor
 (
 editor
@@ -328,7 +328,7 @@ correct
 "
 )
 ;
-await
+yield
 openEditor
 (
 editor

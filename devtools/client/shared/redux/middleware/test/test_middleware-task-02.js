@@ -138,8 +138,8 @@ run_next_test
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -166,7 +166,7 @@ comboAction
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -374,8 +374,8 @@ comboAction
 )
 {
 return
-async
 function
+*
 (
 dispatch
 getState
@@ -391,7 +391,7 @@ data
 .
 async
 =
-await
+yield
 dispatch
 (
 fetchAsync
@@ -406,7 +406,7 @@ data
 .
 sync
 =
-await
+yield
 dispatch
 (
 fetchSync
@@ -458,8 +458,8 @@ data
 )
 {
 return
-async
 function
+*
 (
 dispatch
 )
@@ -480,7 +480,7 @@ start
 let
 val
 =
-await
+yield
 new
 Promise
 (

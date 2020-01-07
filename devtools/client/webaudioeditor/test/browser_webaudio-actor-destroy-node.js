@@ -43,8 +43,8 @@ WebAudioActor
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -54,7 +54,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 DESTROY_NODES_URL
@@ -65,7 +65,7 @@ let
 created
 ]
 =
-await
+yield
 Promise
 .
 all
@@ -157,7 +157,7 @@ forceNodeCollection
 let
 destroyed
 =
-await
+yield
 waitUntilDestroyed
 ;
 destroyed
@@ -216,7 +216,7 @@ document
 }
 )
 ;
-await
+yield
 removeTab
 (
 target

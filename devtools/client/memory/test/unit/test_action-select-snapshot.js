@@ -89,8 +89,8 @@ constants
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -102,7 +102,7 @@ StubbedMemoryFront
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -145,7 +145,7 @@ front
 )
 ;
 }
-await
+yield
 waitUntilState
 (
 store
@@ -223,7 +223,7 @@ id
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store

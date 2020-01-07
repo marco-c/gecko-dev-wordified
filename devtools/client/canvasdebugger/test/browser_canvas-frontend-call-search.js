@@ -45,8 +45,8 @@ properly
 .
 *
 /
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -57,7 +57,7 @@ target
 panel
 }
 =
-await
+yield
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
@@ -87,7 +87,7 @@ searchbox
 "
 )
 ;
-await
+yield
 reload
 (
 target
@@ -121,7 +121,7 @@ _onRecordButtonClick
 (
 )
 ;
-await
+yield
 promise
 .
 all
@@ -455,7 +455,7 @@ _onRecordButtonClick
 (
 )
 ;
-await
+yield
 secondRecordingFinished
 ;
 SnapshotsListView
@@ -464,7 +464,7 @@ selectedIndex
 =
 1
 ;
-await
+yield
 callListPopulated
 ;
 is
@@ -590,7 +590,7 @@ list
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

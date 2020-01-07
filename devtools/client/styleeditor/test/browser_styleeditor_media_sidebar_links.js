@@ -214,8 +214,8 @@ toggle
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -224,7 +224,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -240,7 +240,7 @@ editors
 1
 ]
 ;
-await
+yield
 openEditor
 (
 editor
@@ -258,7 +258,7 @@ testNumberOfLinks
 editor
 )
 ;
-await
+yield
 testMediaLink
 (
 editor
@@ -271,7 +271,7 @@ width
 400
 )
 ;
-await
+yield
 testMediaLink
 (
 editor
@@ -284,7 +284,7 @@ height
 300
 )
 ;
-await
+yield
 closeRDM
 (
 tab
@@ -465,8 +465,8 @@ rule
 )
 ;
 }
-async
 function
+*
 testMediaLink
 (
 editor
@@ -588,10 +588,10 @@ update
 "
 )
 ;
-await
+yield
 onMediaChange
 ;
-await
+yield
 onContentResize
 ;
 ok
@@ -667,7 +667,7 @@ let
 dimension
 =
 (
-await
+yield
 getSizing
 (
 rdmUI
@@ -692,8 +692,8 @@ set
 )
 ;
 }
-async
 function
+*
 closeRDM
 (
 tab
@@ -733,7 +733,7 @@ changed
 2
 )
 ;
-await
+yield
 once
 (
 ResponsiveUIManager
@@ -742,7 +742,7 @@ off
 "
 )
 ;
-await
+yield
 onMediaChange
 ;
 ok
@@ -998,8 +998,8 @@ onResize
 )
 ;
 }
-async
 function
+*
 getSizing
 (
 rdmUI
@@ -1017,7 +1017,7 @@ getViewportBrowser
 let
 sizing
 =
-await
+yield
 ContentTask
 .
 spawn
@@ -1025,8 +1025,8 @@ spawn
 browser
 {
 }
-async
 function
+*
 (
 )
 {

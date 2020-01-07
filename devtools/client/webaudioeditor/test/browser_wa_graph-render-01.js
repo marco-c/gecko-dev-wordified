@@ -53,8 +53,8 @@ connectCount
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -64,7 +64,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 SIMPLE_CONTEXT_URL
@@ -145,7 +145,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -303,7 +303,7 @@ dest
 "
 )
 ;
-await
+yield
 wait
 (
 1000
@@ -336,7 +336,7 @@ connect
 onConnectNode
 )
 ;
-await
+yield
 teardown
 (
 target

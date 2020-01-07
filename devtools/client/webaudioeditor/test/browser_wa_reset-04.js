@@ -44,8 +44,8 @@ fine
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -76,7 +76,7 @@ panel
 toolbox
 }
 =
-await
+yield
 initWebAudioEditor
 (
 IFRAME_CONTEXT_URL
@@ -230,7 +230,7 @@ screen
 let
 menu
 =
-await
+yield
 toolbox
 .
 showFramesMenu
@@ -242,7 +242,7 @@ btn
 }
 )
 ;
-await
+yield
 once
 (
 menu
@@ -302,7 +302,7 @@ navigate
 "
 )
 ;
-await
+yield
 navigating
 ;
 is
@@ -430,7 +430,7 @@ reload
 target
 )
 ;
-await
+yield
 Promise
 .
 all
@@ -532,7 +532,7 @@ reload
 "
 )
 ;
-await
+yield
 teardown
 (
 target

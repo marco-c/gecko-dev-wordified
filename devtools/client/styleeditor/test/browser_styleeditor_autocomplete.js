@@ -807,8 +807,8 @@ current
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -818,7 +818,7 @@ panel
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -829,7 +829,7 @@ let
 cssProperties
 }
 =
-await
+yield
 initCssProperties
 (
 panel
@@ -845,7 +845,7 @@ getTestCases
 cssProperties
 )
 ;
-await
+yield
 ui
 .
 selectStyleSheet
@@ -863,7 +863,7 @@ styleSheet
 let
 editor
 =
-await
+yield
 ui
 .
 editors
@@ -891,7 +891,7 @@ getAutocompletionPopup
 (
 )
 ;
-await
+yield
 SimpleTest
 .
 promiseFocus
@@ -909,7 +909,7 @@ in
 testCases
 )
 {
-await
+yield
 testState
 (
 testCases
@@ -921,7 +921,7 @@ panel
 panelWindow
 )
 ;
-await
+yield
 checkState
 (
 testCases

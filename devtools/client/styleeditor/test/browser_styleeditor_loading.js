@@ -72,8 +72,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -171,7 +171,7 @@ styleeditor
 "
 )
 ;
-await
+yield
 Promise
 .
 all

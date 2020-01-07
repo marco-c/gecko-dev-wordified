@@ -78,8 +78,8 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -145,13 +145,13 @@ ANSI
 +
 encodedChar
 ;
-await
+yield
 addJsonViewTab
 (
 TEST_JSON_URL
 )
 ;
-await
+yield
 selectJsonViewContentTab
 (
 "
@@ -162,7 +162,7 @@ rawdata
 let
 text
 =
-await
+yield
 getElementText
 (
 "

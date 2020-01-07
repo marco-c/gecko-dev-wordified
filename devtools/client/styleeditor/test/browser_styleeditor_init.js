@@ -120,8 +120,8 @@ false
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -130,7 +130,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI

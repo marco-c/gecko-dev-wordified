@@ -94,8 +94,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -104,7 +104,7 @@ let
 doc
 ]
 =
-await
+yield
 createHost
 (
 "
@@ -157,7 +157,7 @@ cssIsValid
 /
 First
 render
-await
+yield
 widget
 .
 once
@@ -189,7 +189,7 @@ NAME
 Test
 "
 ;
-await
+yield
 showFilterPopupPresetsAndCreatePreset
 (
 widget
@@ -231,7 +231,7 @@ brightness
 "
 )
 ;
-await
+yield
 onRender
 ;
 let
@@ -271,7 +271,7 @@ preset
 }
 )
 ;
-await
+yield
 onRender
 ;
 is

@@ -61,8 +61,12 @@ recordings
 var
 test
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -73,7 +77,7 @@ panel
 toolbox
 }
 =
-await
+yield
 initPerformance
 (
 SIMPLE_URL
@@ -164,13 +168,13 @@ canUpdateWhileHidden
 =
 true
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -220,7 +224,7 @@ emit
 any
 events
 .
-await
+yield
 DetailsView
 .
 selectView
@@ -232,7 +236,7 @@ calltree
 "
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -244,7 +248,7 @@ flamegraph
 "
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -256,7 +260,7 @@ calltree
 "
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -354,7 +358,7 @@ EVENTS
 RECORDING_EXPORTED
 )
 ;
-await
+yield
 PerformanceController
 .
 exportRecording
@@ -369,7 +373,7 @@ getCurrentRecording
 file
 )
 ;
-await
+yield
 exported
 ;
 ok
@@ -517,7 +521,7 @@ UI_IMPORT_RECORDING
 file
 )
 ;
-await
+yield
 imported
 ;
 ok
@@ -537,7 +541,7 @@ imported
 "
 )
 ;
-await
+yield
 rerendered
 ;
 ok
@@ -852,7 +856,7 @@ data
 "
 )
 ;
-await
+yield
 teardown
 (
 panel
@@ -863,6 +867,7 @@ finish
 )
 ;
 }
+)
 ;
 /
 *

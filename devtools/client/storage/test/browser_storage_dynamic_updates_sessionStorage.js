@@ -75,12 +75,12 @@ sessionStorage
 .
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -117,7 +117,7 @@ hidden
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -169,7 +169,7 @@ item
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -183,7 +183,7 @@ updated
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -197,7 +197,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -251,7 +251,7 @@ ss3
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -276,7 +276,7 @@ ss1
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -290,7 +290,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -323,7 +323,7 @@ ss4
 ]
 )
 ;
-await
+yield
 selectTableItem
 (
 "
@@ -356,7 +356,7 @@ in
 sidebar
 before
 update
-await
+yield
 findVariableViewProperties
 (
 [
@@ -391,7 +391,7 @@ ss2
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -418,7 +418,7 @@ ss2
 "
 )
 ;
-await
+yield
 findVariableViewProperties
 (
 [
@@ -444,7 +444,7 @@ ss2
 Clearing
 items
 .
-await
+yield
 ContentTask
 .
 spawn
@@ -468,7 +468,7 @@ clear
 }
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -482,7 +482,7 @@ cleared
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -509,7 +509,7 @@ org
 ]
 )
 ;
-await
+yield
 finishTests
 (
 )

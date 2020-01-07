@@ -43,8 +43,8 @@ UI
 .
 *
 /
-async
 function
+*
 ifWebGLSupported
 (
 )
@@ -55,7 +55,7 @@ target
 panel
 }
 =
-await
+yield
 initShaderEditor
 (
 SIMPLE_CANVAS_URL
@@ -78,7 +78,7 @@ reload
 target
 )
 ;
-await
+yield
 promise
 .
 all
@@ -256,7 +256,7 @@ selected
 let
 vsEditor
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -269,7 +269,7 @@ vs
 let
 fsEditor
 =
-await
+yield
 ShadersEditorsView
 .
 _getEditor
@@ -371,7 +371,7 @@ blank
 "
 )
 ;
-await
+yield
 promise
 .
 all
@@ -538,7 +538,7 @@ index
 "
 )
 ;
-await
+yield
 navigated
 ;
 is
@@ -637,7 +637,7 @@ content
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

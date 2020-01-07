@@ -1360,8 +1360,12 @@ finished
 var
 runAsyncCallbackTests
 =
+Task
+.
 async
+(
 function
+*
 (
 aScratchpad
 aTests
@@ -1379,7 +1383,7 @@ of
 aTests
 )
 {
-await
+yield
 prepare
 (
 )
@@ -1387,7 +1391,7 @@ prepare
 let
 res
 =
-await
+yield
 aScratchpad
 [
 method
@@ -1395,7 +1399,7 @@ method
 (
 )
 ;
-await
+yield
 then
 (
 res
@@ -1403,6 +1407,7 @@ res
 ;
 }
 }
+)
 ;
 /
 *

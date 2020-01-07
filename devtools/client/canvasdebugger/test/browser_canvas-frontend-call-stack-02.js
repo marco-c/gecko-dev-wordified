@@ -104,6 +104,7 @@ false
 registerCleanupFunction
 (
 function
+*
 (
 )
 {
@@ -129,8 +130,8 @@ frontend
 }
 )
 ;
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -141,7 +142,7 @@ target
 panel
 }
 =
-await
+yield
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_DEEP_STACK_URL
@@ -160,7 +161,7 @@ panel
 .
 panelWin
 ;
-await
+yield
 reload
 (
 target
@@ -194,7 +195,7 @@ _onRecordButtonClick
 (
 )
 ;
-await
+yield
 promise
 .
 all
@@ -291,7 +292,7 @@ locationLink
 window
 )
 ;
-await
+yield
 callStackDisplayed
 ;
 isnot
@@ -425,13 +426,13 @@ target
 )
 )
 ;
-await
+yield
 jumpedToSource
 ;
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 getToolbox
@@ -512,7 +513,7 @@ debugger
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

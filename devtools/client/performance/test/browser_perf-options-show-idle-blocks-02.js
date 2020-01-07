@@ -172,8 +172,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -182,7 +182,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -233,13 +233,13 @@ UI_SHOW_IDLE_BLOCKS_PREF
 true
 )
 ;
-await
+yield
 startRecording
 (
 panel
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -256,7 +256,7 @@ EVENTS
 UI_MEMORY_FLAMEGRAPH_RENDERED
 )
 ;
-await
+yield
 DetailsView
 .
 selectView
@@ -268,7 +268,7 @@ flamegraph
 "
 )
 ;
-await
+yield
 rendered
 ;
 rendered
@@ -291,7 +291,7 @@ UI_SHOW_IDLE_BLOCKS_PREF
 false
 )
 ;
-await
+yield
 rendered
 ;
 ok
@@ -331,7 +331,7 @@ UI_SHOW_IDLE_BLOCKS_PREF
 true
 )
 ;
-await
+yield
 rendered
 ;
 ok
@@ -352,7 +352,7 @@ blocks
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

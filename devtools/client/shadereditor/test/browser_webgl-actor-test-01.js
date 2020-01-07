@@ -47,8 +47,8 @@ target
 .
 *
 /
-async
 function
+*
 ifWebGLSupported
 (
 )
@@ -59,7 +59,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 SIMPLE_CANVAS_URL
@@ -92,7 +92,7 @@ available
 "
 )
 ;
-await
+yield
 removeTab
 (
 target

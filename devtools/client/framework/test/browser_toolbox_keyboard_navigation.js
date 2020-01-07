@@ -154,8 +154,8 @@ false
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -176,7 +176,7 @@ toolbox
 let
 toolbox
 =
-await
+yield
 openNewTabAndToolbox
 (
 TEST_URL

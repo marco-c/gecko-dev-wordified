@@ -116,8 +116,8 @@ debug
 .
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -193,7 +193,7 @@ debug
 "
 )
 ;
-await
+yield
 onLoad
 ;
 is
@@ -301,7 +301,7 @@ target
 "
 )
 ;
-await
+yield
 onLoad
 ;
 /
@@ -345,7 +345,7 @@ ready
 let
 toolbox
 =
-await
+yield
 onToolboxReady
 ;
 let
@@ -426,7 +426,7 @@ destroyed
 "
 )
 ;
-await
+yield
 onToolboxDestroyed
 ;
 info
@@ -520,7 +520,7 @@ processing
 /
 events
 .
-await
+yield
 onTabActorDetached
 ;
 iframe

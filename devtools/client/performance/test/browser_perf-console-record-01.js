@@ -154,8 +154,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -165,7 +165,7 @@ target
 console
 }
 =
-await
+yield
 initConsoleInNewTab
 (
 {
@@ -178,7 +178,7 @@ window
 }
 )
 ;
-await
+yield
 console
 .
 profile
@@ -188,7 +188,7 @@ rust
 "
 )
 ;
-await
+yield
 console
 .
 profileEnd
@@ -203,7 +203,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInTab
 (
 {
@@ -225,7 +225,7 @@ panel
 .
 panelWin
 ;
-await
+yield
 waitUntil
 (
 (
@@ -244,7 +244,7 @@ length
 1
 )
 ;
-await
+yield
 waitUntil
 (
 (
@@ -387,7 +387,7 @@ correct
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

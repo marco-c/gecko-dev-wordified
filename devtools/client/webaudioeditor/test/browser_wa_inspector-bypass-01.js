@@ -44,8 +44,8 @@ bypassing
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -55,7 +55,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 SIMPLE_CONTEXT_URL
@@ -113,7 +113,7 @@ let
 actors
 ]
 =
-await
+yield
 events
 ;
 let
@@ -151,7 +151,7 @@ fully
 into
 the
 view
-await
+yield
 clickGraphNode
 (
 panelWin
@@ -180,7 +180,7 @@ bypass
 is
 (
 (
-await
+yield
 actors
 [
 1
@@ -243,7 +243,7 @@ command
 bypass
 )
 ;
-await
+yield
 once
 (
 gAudioNodes
@@ -255,7 +255,7 @@ bypass
 is
 (
 (
-await
+yield
 actors
 [
 1
@@ -343,7 +343,7 @@ command
 bypass
 )
 ;
-await
+yield
 once
 (
 gAudioNodes
@@ -355,7 +355,7 @@ bypass
 is
 (
 (
-await
+yield
 actors
 [
 1
@@ -442,7 +442,7 @@ class
 "
 )
 ;
-await
+yield
 clickGraphNode
 (
 panelWin
@@ -459,7 +459,7 @@ nodeIds
 is
 (
 (
-await
+yield
 actors
 [
 0
@@ -523,7 +523,7 @@ bypass
 is
 (
 (
-await
+yield
 actors
 [
 0
@@ -588,7 +588,7 @@ nodes
 "
 )
 ;
-await
+yield
 teardown
 (
 target

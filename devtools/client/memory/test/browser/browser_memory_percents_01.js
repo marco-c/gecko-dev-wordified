@@ -243,8 +243,8 @@ test
 makeMemoryTest
 (
 TEST_URL
-async
 function
+*
 (
 {
 tab
@@ -301,7 +301,7 @@ CENSUS
 )
 )
 ;
-await
+yield
 dispatch
 (
 takeSnapshotAndCensus

@@ -103,8 +103,8 @@ TOOL_DELAY
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -151,7 +151,7 @@ enabled
 true
 )
 ;
-await
+yield
 addTab
 (
 TEST_URI
@@ -164,7 +164,7 @@ loadTelemetryAndRecordLogs
 (
 )
 ;
-await
+yield
 openAndCloseToolbox
 (
 2

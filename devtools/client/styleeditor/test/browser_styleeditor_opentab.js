@@ -92,8 +92,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -102,13 +102,13 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
 )
 ;
-await
+yield
 rightClickStyleSheet
 (
 ui
@@ -308,10 +308,10 @@ url
 }
 )
 ;
-await
+yield
 tabOpenedDefer
 ;
-await
+yield
 rightClickInlineStyleSheet
 (
 ui
@@ -372,7 +372,7 @@ hidden
 "
 )
 ;
-await
+yield
 rightClickNoStyleSheet
 (
 ui

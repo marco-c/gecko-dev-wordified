@@ -43,8 +43,8 @@ expected
 .
 *
 /
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -55,7 +55,7 @@ target
 panel
 }
 =
-await
+yield
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
@@ -72,7 +72,7 @@ panel
 .
 panelWin
 ;
-await
+yield
 reload
 (
 target
@@ -95,7 +95,7 @@ _onRecordButtonClick
 (
 )
 ;
-await
+yield
 firstRecordingFinished
 ;
 ok
@@ -152,7 +152,7 @@ _onRecordButtonClick
 (
 )
 ;
-await
+yield
 secondRecordingFinished
 ;
 ok
@@ -209,7 +209,7 @@ _onClearButtonClick
 (
 )
 ;
-await
+yield
 clearingFinished
 ;
 ok
@@ -245,7 +245,7 @@ list
 "
 )
 ;
-await
+yield
 teardown
 (
 panel

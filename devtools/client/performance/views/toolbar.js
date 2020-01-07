@@ -137,8 +137,14 @@ binding
 .
 *
 /
-async
 initialize
+:
+Task
+.
+async
+(
+function
+*
 (
 )
 {
@@ -271,7 +277,7 @@ _toggleExperimentalUI
 experimentalEnabled
 )
 ;
-await
+yield
 this
 .
 optionsView
@@ -351,6 +357,7 @@ _onFilterPopupHiding
 )
 ;
 }
+)
 /
 *
 *

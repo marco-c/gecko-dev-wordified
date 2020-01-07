@@ -96,8 +96,8 @@ GC
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -107,7 +107,7 @@ target
 panel
 }
 =
-await
+yield
 initWebAudioEditor
 (
 DESTROY_NODES_URL
@@ -176,7 +176,7 @@ let
 created
 ]
 =
-await
+yield
 events
 ;
 /
@@ -230,7 +230,7 @@ be
 dead
 buffer
 node
-await
+yield
 clickGraphNode
 (
 panelWin
@@ -282,7 +282,7 @@ to
 re
 -
 render
-await
+yield
 Promise
 .
 all
@@ -482,7 +482,7 @@ collected
 "
 )
 ;
-await
+yield
 teardown
 (
 target

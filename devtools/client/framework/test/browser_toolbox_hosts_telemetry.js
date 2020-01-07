@@ -100,8 +100,8 @@ DEVTOOLS_TOOLBOX_HOST
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -138,7 +138,7 @@ toolbox
 let
 tab
 =
-await
+yield
 addTab
 (
 URL
@@ -157,7 +157,7 @@ tab
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -168,18 +168,18 @@ webconsole
 "
 )
 ;
-await
+yield
 changeToolboxHost
 (
 toolbox
 )
 ;
-await
+yield
 checkResults
 (
 )
 ;
-await
+yield
 toolbox
 .
 destroy
@@ -212,8 +212,8 @@ clear
 }
 )
 ;
-async
 function
+*
 changeToolboxHost
 (
 toolbox
@@ -228,7 +228,7 @@ host
 "
 )
 ;
-await
+yield
 toolbox
 .
 switchHost
@@ -236,7 +236,7 @@ switchHost
 SIDE
 )
 ;
-await
+yield
 toolbox
 .
 switchHost
@@ -244,7 +244,7 @@ switchHost
 WINDOW
 )
 ;
-await
+yield
 toolbox
 .
 switchHost
@@ -252,7 +252,7 @@ switchHost
 BOTTOM
 )
 ;
-await
+yield
 toolbox
 .
 switchHost
@@ -260,7 +260,7 @@ switchHost
 SIDE
 )
 ;
-await
+yield
 toolbox
 .
 switchHost
@@ -268,7 +268,7 @@ switchHost
 WINDOW
 )
 ;
-await
+yield
 toolbox
 .
 switchHost

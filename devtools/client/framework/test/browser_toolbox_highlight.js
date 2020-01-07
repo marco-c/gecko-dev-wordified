@@ -107,9 +107,12 @@ test
 (
 )
 {
+Task
+.
+spawn
 (
-async
 function
+*
 (
 )
 {
@@ -150,7 +153,7 @@ TOOL_ID_2
 webconsole
 "
 ;
-await
+yield
 addTab
 (
 URL
@@ -170,7 +173,7 @@ selectedTab
 ;
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -189,7 +192,7 @@ BOTTOM
 select
 tool
 2
-await
+yield
 toolbox
 .
 selectTool
@@ -204,7 +207,7 @@ highlight
 the
 first
 one
-await
+yield
 highlightTab
 (
 TOOL_ID_1
@@ -221,7 +224,7 @@ the
 proper
 class
 .
-await
+yield
 checkHighlighted
 (
 TOOL_ID_1
@@ -235,7 +238,7 @@ back
 to
 first
 tool
-await
+yield
 toolbox
 .
 selectTool
@@ -267,7 +270,7 @@ orange
 or
 not
 .
-await
+yield
 checkNoHighlightWhenSelected
 (
 TOOL_ID_1
@@ -280,7 +283,7 @@ to
 tool
 2
 again
-await
+yield
 toolbox
 .
 selectTool
@@ -294,7 +297,7 @@ and
 check
 again
 .
-await
+yield
 checkHighlighted
 (
 TOOL_ID_1
@@ -305,7 +308,7 @@ TOOL_ID_1
 Highlight
 another
 tool
-await
+yield
 highlightTab
 (
 TOOL_ID_2
@@ -320,7 +323,7 @@ tools
 are
 highlighted
 .
-await
+yield
 checkHighlighted
 (
 TOOL_ID_1
@@ -337,7 +340,7 @@ highlighted
 and
 selected
 .
-await
+yield
 checkNoHighlightWhenSelected
 (
 TOOL_ID_2
@@ -348,7 +351,7 @@ TOOL_ID_2
 Select
 tool
 1
-await
+yield
 toolbox
 .
 selectTool
@@ -364,7 +367,7 @@ tool
 is
 still
 highlighted
-await
+yield
 checkHighlighted
 (
 TOOL_ID_2
@@ -376,7 +379,7 @@ Unhighlight
 the
 second
 tool
-await
+yield
 unhighlightTab
 (
 TOOL_ID_2
@@ -390,7 +393,7 @@ the
 classes
 gone
 .
-await
+yield
 checkNoHighlight
 (
 TOOL_ID_2
@@ -402,7 +405,7 @@ Now
 unhighlight
 the
 tool
-await
+yield
 unhighlightTab
 (
 TOOL_ID_1
@@ -416,7 +419,7 @@ the
 classes
 gone
 .
-await
+yield
 checkNoHighlight
 (
 TOOL_ID_1
@@ -472,8 +475,6 @@ finish
 )
 ;
 }
-)
-(
 )
 .
 catch

@@ -102,15 +102,15 @@ jsm
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
 let
 fileContent
 =
-await
+yield
 generateConsoleApiStubs
 (
 )
@@ -136,7 +136,7 @@ js
 "
 )
 ;
-await
+yield
 OS
 .
 File

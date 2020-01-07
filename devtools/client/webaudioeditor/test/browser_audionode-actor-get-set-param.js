@@ -47,8 +47,8 @@ setParam
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -58,7 +58,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 SIMPLE_CONTEXT_URL
@@ -74,7 +74,7 @@ gainNode
 ]
 ]
 =
-await
+yield
 Promise
 .
 all
@@ -105,7 +105,7 @@ node
 let
 freq
 =
-await
+yield
 oscNode
 .
 getParam
@@ -138,7 +138,7 @@ AudioParam
 let
 type
 =
-await
+yield
 oscNode
 .
 getParam
@@ -168,7 +168,7 @@ AudioParam
 ;
 type
 =
-await
+yield
 oscNode
 .
 getParam
@@ -217,7 +217,7 @@ param
 let
 resSuccess
 =
-await
+yield
 oscNode
 .
 setParam
@@ -230,7 +230,7 @@ frequency
 ;
 freq
 =
-await
+yield
 oscNode
 .
 getParam
@@ -275,7 +275,7 @@ AudioParam
 ;
 resSuccess
 =
-await
+yield
 oscNode
 .
 setParam
@@ -290,7 +290,7 @@ square
 ;
 type
 =
-await
+yield
 oscNode
 .
 getParam
@@ -339,7 +339,7 @@ AudioParam
 ;
 try
 {
-await
+yield
 oscNode
 .
 setParam
@@ -433,7 +433,7 @@ assignment
 ;
 freq
 =
-await
+yield
 oscNode
 .
 getParam
@@ -463,7 +463,7 @@ occurs
 )
 ;
 }
-await
+yield
 removeTab
 (
 target

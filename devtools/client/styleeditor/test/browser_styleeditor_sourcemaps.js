@@ -499,8 +499,8 @@ waitForExplicitFinish
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -509,7 +509,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -557,7 +557,7 @@ editors
 Test
 Scss
 editors
-await
+yield
 testEditor
 (
 ui
@@ -569,7 +569,7 @@ editors
 origNames
 )
 ;
-await
+yield
 testEditor
 (
 ui
@@ -581,7 +581,7 @@ editors
 origNames
 )
 ;
-await
+yield
 testEditor
 (
 ui
@@ -599,7 +599,7 @@ Test
 disabling
 original
 sources
-await
+yield
 togglePref
 (
 ui
@@ -629,7 +629,7 @@ toggled
 Test
 CSS
 editors
-await
+yield
 testEditor
 (
 ui
@@ -641,7 +641,7 @@ editors
 cssNames
 )
 ;
-await
+yield
 testEditor
 (
 ui
@@ -653,7 +653,7 @@ editors
 cssNames
 )
 ;
-await
+yield
 testEditor
 (
 ui

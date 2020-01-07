@@ -61,8 +61,8 @@ diffing
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -82,7 +82,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -173,7 +173,7 @@ destroy
 (
 )
 ;
-await
+yield
 front
 .
 detach

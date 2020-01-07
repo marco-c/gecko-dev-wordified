@@ -116,12 +116,12 @@ yellow
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 TESTCASE_URI
@@ -133,12 +133,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -176,7 +176,7 @@ view
 let
 editor
 =
-await
+yield
 focusEditableField
 (
 view
@@ -272,7 +272,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onModifications
 ;
 let
@@ -280,7 +280,7 @@ let
 ui
 }
 =
-await
+yield
 openStyleEditor
 (
 )
@@ -288,7 +288,7 @@ openStyleEditor
 let
 sourceEditor
 =
-await
+yield
 ui
 .
 editors

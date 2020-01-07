@@ -47,8 +47,8 @@ advertised
 .
 *
 /
-async
 function
+*
 ifTestingSupported
 (
 )
@@ -59,7 +59,7 @@ target
 panel
 }
 =
-await
+yield
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
@@ -77,7 +77,7 @@ panel
 .
 panelWin
 ;
-await
+yield
 reload
 (
 target
@@ -111,7 +111,7 @@ _onRecordButtonClick
 (
 )
 ;
-await
+yield
 promise
 .
 all
@@ -612,7 +612,7 @@ state
 ;
 }
 }
-await
+yield
 teardown
 (
 panel

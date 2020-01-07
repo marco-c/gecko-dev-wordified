@@ -152,8 +152,8 @@ actions
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -163,7 +163,7 @@ panel
 toolbox
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -217,7 +217,7 @@ MEMORY_MAX_LOG_LEN_PREF
 777777
 )
 ;
-await
+yield
 startRecording
 (
 panel
@@ -229,7 +229,7 @@ probability
 maxLogLength
 }
 =
-await
+yield
 toolbox
 .
 performance
@@ -238,7 +238,7 @@ getConfiguration
 (
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -284,7 +284,7 @@ actor
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

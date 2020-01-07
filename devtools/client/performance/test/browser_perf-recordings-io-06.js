@@ -490,8 +490,12 @@ data
 var
 test
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -502,7 +506,7 @@ panel
 toolbox
 }
 =
-await
+yield
 initPerformance
 (
 SIMPLE_URL
@@ -583,7 +587,7 @@ parseInt
 )
 )
 ;
-await
+yield
 asyncCopy
 (
 profilerData
@@ -617,7 +621,7 @@ EVENTS
 RECORDING_IMPORTED
 )
 ;
-await
+yield
 PerformanceController
 .
 importRecording
@@ -627,7 +631,7 @@ importRecording
 file
 )
 ;
-await
+yield
 imported
 ;
 ok
@@ -647,7 +651,7 @@ imported
 "
 )
 ;
-await
+yield
 calltreeRendered
 ;
 ok
@@ -665,7 +669,7 @@ rendered
 "
 )
 ;
-await
+yield
 teardown
 (
 panel
@@ -676,6 +680,7 @@ finish
 )
 ;
 }
+)
 ;
 function
 getUnicodeConverter

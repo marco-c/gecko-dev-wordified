@@ -326,12 +326,12 @@ true
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 TEST_URI
@@ -359,7 +359,7 @@ selectedTab
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -388,7 +388,7 @@ button
 "
 )
 ;
-await
+yield
 testButton
 (
 toolbox
@@ -400,7 +400,7 @@ stopRecordingTelemetryLogs
 Telemetry
 )
 ;
-await
+yield
 gDevTools
 .
 closeToolbox
@@ -417,8 +417,8 @@ removeCurrentTab
 }
 )
 ;
-async
 function
+*
 testButton
 (
 toolbox
@@ -468,7 +468,7 @@ button
 "
 )
 ;
-await
+yield
 delayedClicks
 (
 button
@@ -558,8 +558,12 @@ handler
 var
 delayedClicks
 =
+Task
+.
 async
+(
 function
+*
 (
 node
 clicks
@@ -606,7 +610,7 @@ click
 (
 )
 ;
-await
+yield
 toggled
 ;
 /
@@ -619,7 +623,7 @@ we
 need
 setTimeout
 here
-await
+yield
 DevToolsUtils
 .
 waitForTime
@@ -629,6 +633,7 @@ TOOL_DELAY
 ;
 }
 }
+)
 ;
 function
 checkResults

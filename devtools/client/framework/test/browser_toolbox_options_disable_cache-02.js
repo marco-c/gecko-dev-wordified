@@ -116,8 +116,8 @@ js
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -131,7 +131,7 @@ cache
 behavior
 deterministic
 .
-await
+yield
 pushPref
 (
 "
@@ -223,7 +223,7 @@ of
 tabs
 )
 {
-await
+yield
 initTab
 (
 tab
@@ -240,7 +240,7 @@ cache
 in
 tab
 0
-await
+yield
 setDisableCacheCheckboxChecked
 (
 tabs
@@ -272,7 +272,7 @@ tabs
 .
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -288,7 +288,7 @@ options
 "
 )
 ;
-await
+yield
 checkCacheEnabled
 (
 tabs
@@ -312,7 +312,7 @@ cache
 is
 enabled
 again
-await
+yield
 tabs
 [
 2
@@ -343,7 +343,7 @@ tabs
 tab
 )
 ;
-await
+yield
 checkCacheEnabled
 (
 tabs
@@ -375,7 +375,7 @@ tabs
 .
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -391,7 +391,7 @@ options
 "
 )
 ;
-await
+yield
 checkCacheEnabled
 (
 tabs
@@ -418,7 +418,7 @@ for
 all
 tabs
 .
-await
+yield
 setDisableCacheCheckboxChecked
 (
 tabs
@@ -428,7 +428,7 @@ tabs
 false
 )
 ;
-await
+yield
 checkCacheStateForAllTabs
 (
 [
@@ -439,7 +439,7 @@ true
 ]
 )
 ;
-await
+yield
 finishUp
 (
 )

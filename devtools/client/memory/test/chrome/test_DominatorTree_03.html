@@ -201,8 +201,12 @@ window
 .
 onload
 =
+Task
+.
 async
+(
 function
+*
 (
 )
 {
@@ -285,7 +289,7 @@ nodeId
 let
 component
 =
-await
+yield
 renderComponent
 (
 DominatorTreeComponent
@@ -371,7 +375,7 @@ arrow
 "
 )
 ;
-await
+yield
 renderComponent
 (
 DominatorTreeComponent
@@ -503,6 +507,7 @@ finish
 ;
 }
 }
+)
 ;
 <
 /

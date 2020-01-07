@@ -75,12 +75,12 @@ cookies
 .
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -138,7 +138,7 @@ browser
 "
 )
 ;
-await
+yield
 selectTableItem
 (
 c1id
@@ -346,7 +346,7 @@ shows
 correct
 initial
 value
-await
+yield
 findVariableViewProperties
 (
 initialValue
@@ -356,7 +356,7 @@ initialValue
 false
 )
 ;
-await
+yield
 findVariableViewProperties
 (
 initialValue
@@ -375,7 +375,7 @@ shows
 correct
 initial
 value
-await
+yield
 checkState
 (
 [
@@ -486,7 +486,7 @@ browser
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -498,7 +498,7 @@ updated
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -512,7 +512,7 @@ updated
 "
 )
 ;
-await
+yield
 findVariableViewProperties
 (
 finalValue
@@ -522,7 +522,7 @@ finalValue
 false
 )
 ;
-await
+yield
 findVariableViewProperties
 (
 finalValue
@@ -532,7 +532,7 @@ finalValue
 true
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -633,7 +633,7 @@ booyeah
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -647,7 +647,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -803,7 +803,7 @@ time
 for
 value
 fetching
-await
+yield
 gUI
 .
 once
@@ -817,7 +817,7 @@ updated
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -831,7 +831,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -1002,7 +1002,7 @@ browser
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -1014,7 +1014,7 @@ updated
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -1028,7 +1028,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -1155,7 +1155,7 @@ is
 visible
 in
 sidebar
-await
+yield
 findVariableViewProperties
 (
 [
@@ -1190,7 +1190,7 @@ c3
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -1204,7 +1204,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -1287,7 +1287,7 @@ is
 visible
 in
 sidebar
-await
+yield
 findVariableViewProperties
 (
 [
@@ -1319,7 +1319,7 @@ browser
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -1331,7 +1331,7 @@ updated
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -1345,7 +1345,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -1411,7 +1411,7 @@ is
 visible
 in
 sidebar
-await
+yield
 findVariableViewProperties
 (
 [
@@ -1439,7 +1439,7 @@ c4
 "
 )
 ;
-await
+yield
 gUI
 .
 once
@@ -1453,7 +1453,7 @@ updated
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -1497,7 +1497,7 @@ rows
 "
 )
 ;
-await
+yield
 finishTests
 (
 )

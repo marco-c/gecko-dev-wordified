@@ -91,8 +91,8 @@ Test
 deleting
 all
 cookies
-async
 function
+*
 performDelete
 (
 store
@@ -199,7 +199,7 @@ join
 "
 )
 ;
-await
+yield
 selectTreeItem
 (
 store
@@ -230,7 +230,7 @@ rowName
 true
 )
 ;
-await
+yield
 waitForContextMenu
 (
 contextMenu
@@ -343,18 +343,18 @@ break
 }
 )
 ;
-await
+yield
 eventWait
 ;
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -378,7 +378,7 @@ delete
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -671,7 +671,7 @@ browser
 "
 )
 ;
-await
+yield
 performDelete
 (
 [
@@ -709,7 +709,7 @@ domain
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -977,7 +977,7 @@ org
 "
 )
 ;
-await
+yield
 performDelete
 (
 [
@@ -1015,7 +1015,7 @@ cookies
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -1195,7 +1195,7 @@ org
 "
 )
 ;
-await
+yield
 performDelete
 (
 [
@@ -1231,7 +1231,7 @@ all
 "
 )
 ;
-await
+yield
 checkState
 (
 [
@@ -1303,7 +1303,7 @@ org
 ]
 )
 ;
-await
+yield
 finishTests
 (
 )

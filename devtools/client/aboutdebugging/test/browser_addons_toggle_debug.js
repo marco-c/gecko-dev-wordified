@@ -88,8 +88,8 @@ devtools
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -104,7 +104,7 @@ debugging
 "
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -163,7 +163,7 @@ tab
 document
 }
 =
-await
+yield
 openAboutDebugging
 (
 "
@@ -171,7 +171,7 @@ addons
 "
 )
 ;
-await
+yield
 waitForInitialAddonList
 (
 document
@@ -188,7 +188,7 @@ addon
 "
 )
 ;
-await
+yield
 installAddon
 (
 {
@@ -442,7 +442,7 @@ earlier
 "
 )
 ;
-await
+yield
 uninstallAddon
 (
 {
@@ -456,7 +456,7 @@ ADDON_NAME
 }
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab

@@ -123,8 +123,8 @@ view
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -144,7 +144,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -219,7 +219,7 @@ heapWorker
 )
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -330,7 +330,7 @@ destroy
 (
 )
 ;
-await
+yield
 front
 .
 detach

@@ -62,6 +62,22 @@ strict
 "
 ;
 var
+{
+Task
+}
+=
+require
+(
+"
+devtools
+/
+shared
+/
+task
+"
+)
+;
+var
 Services
 =
 require
@@ -209,8 +225,12 @@ exports
 .
 viewSourceInStyleEditor
 =
+Task
+.
 async
+(
 function
+*
 (
 toolbox
 sourceURL
@@ -220,7 +240,7 @@ sourceLine
 let
 panel
 =
-await
+yield
 toolbox
 .
 loadTool
@@ -232,7 +252,7 @@ styleeditor
 ;
 try
 {
-await
+yield
 panel
 .
 selectStyleSheet
@@ -241,7 +261,7 @@ sourceURL
 sourceLine
 )
 ;
-await
+yield
 toolbox
 .
 selectTool
@@ -274,6 +294,7 @@ false
 ;
 }
 }
+)
 ;
 /
 *
@@ -374,8 +395,12 @@ exports
 .
 viewSourceInDebugger
 =
+Task
+.
 async
+(
 function
+*
 (
 toolbox
 sourceURL
@@ -433,7 +458,7 @@ jsdebugger
 let
 dbg
 =
-await
+yield
 toolbox
 .
 loadTool
@@ -485,7 +510,7 @@ if
 source
 )
 {
-await
+yield
 toolbox
 .
 selectTool
@@ -538,7 +563,7 @@ if
 debuggerAlreadyOpen
 )
 {
-await
+yield
 win
 .
 DebuggerController
@@ -588,7 +613,7 @@ if
 item
 )
 {
-await
+yield
 toolbox
 .
 selectTool
@@ -840,7 +865,7 @@ isSelected
 isLoading
 )
 {
-await
+yield
 win
 .
 DebuggerController
@@ -880,6 +905,7 @@ return
 false
 ;
 }
+)
 ;
 /
 *
@@ -921,8 +947,12 @@ exports
 .
 viewSourceInScratchpad
 =
+Task
+.
 async
+(
 function
+*
 (
 sourceURL
 sourceLine
@@ -1115,6 +1145,7 @@ return
 }
 }
 }
+)
 ;
 /
 *
@@ -1161,8 +1192,12 @@ exports
 .
 viewSource
 =
+Task
+.
 async
+(
 function
+*
 (
 toolbox
 sourceURL
@@ -1194,4 +1229,5 @@ sourceLine
 )
 ;
 }
+)
 ;

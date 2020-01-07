@@ -67,12 +67,12 @@ js
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -88,7 +88,7 @@ host
 doc
 ]
 =
-await
+yield
 createHost
 (
 "

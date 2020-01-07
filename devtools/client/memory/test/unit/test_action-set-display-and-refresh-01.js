@@ -176,8 +176,8 @@ EXPECTED_DTU_ASSERT_FAILURE_COUNT
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -197,7 +197,7 @@ HeapAnalysesClient
 (
 )
 ;
-await
+yield
 front
 .
 attach
@@ -335,7 +335,7 @@ heapWorker
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -413,7 +413,7 @@ heapWorker
 )
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -476,7 +476,7 @@ heapWorker
 )
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -507,7 +507,7 @@ coarseType
 )
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -582,7 +582,7 @@ heapWorker
 )
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -616,7 +616,7 @@ allocationStack
 )
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -714,7 +714,7 @@ coarseType
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -739,7 +739,7 @@ censusState
 SAVING
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -810,7 +810,7 @@ allocationStack
 )
 )
 ;
-await
+yield
 waitUntilState
 (
 store
@@ -966,7 +966,7 @@ id
 )
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -989,7 +989,7 @@ SAVED
 ]
 )
 ;
-await
+yield
 waitUntilCensusState
 (
 store
@@ -1069,7 +1069,7 @@ destroy
 (
 )
 ;
-await
+yield
 front
 .
 detach

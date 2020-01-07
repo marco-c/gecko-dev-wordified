@@ -41,8 +41,8 @@ getParamFlags
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -52,7 +52,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 SIMPLE_NODES_URL
@@ -64,7 +64,7 @@ _
 nodes
 ]
 =
-await
+yield
 Promise
 .
 all
@@ -96,7 +96,7 @@ node
 let
 allNodeParams
 =
-await
+yield
 Promise
 .
 all
@@ -239,7 +239,7 @@ params
 let
 testFlags
 =
-await
+yield
 nodes
 [
 i
@@ -374,7 +374,7 @@ flag
 }
 }
 }
-await
+yield
 removeTab
 (
 target

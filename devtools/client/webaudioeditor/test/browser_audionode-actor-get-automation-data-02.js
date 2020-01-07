@@ -55,8 +55,8 @@ infinity
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -66,7 +66,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 SIMPLE_CONTEXT_URL
@@ -82,7 +82,7 @@ gainNode
 ]
 ]
 =
-await
+yield
 Promise
 .
 all
@@ -110,7 +110,7 @@ node
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -129,7 +129,7 @@ setValueAtTime
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -148,7 +148,7 @@ linearRampToValueAtTime
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -193,7 +193,7 @@ than
 the
 default
 2000
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -219,7 +219,7 @@ events
 values
 }
 =
-await
+yield
 oscNode
 .
 getAutomationData
@@ -326,7 +326,7 @@ events
 values
 }
 =
-await
+yield
 oscNode
 .
 getAutomationData
@@ -376,7 +376,7 @@ values
 01
 )
 ;
-await
+yield
 removeTab
 (
 target

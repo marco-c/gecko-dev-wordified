@@ -1123,8 +1123,14 @@ container
 .
 *
 /
-async
 _onSelect
+:
+Task
+.
+async
+(
+function
+*
 (
 recording
 )
@@ -1154,6 +1160,7 @@ _renderList
 )
 ;
 }
+)
 /
 *
 *

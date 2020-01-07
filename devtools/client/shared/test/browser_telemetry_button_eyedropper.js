@@ -85,12 +85,12 @@ opened
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 TEST_URI
@@ -118,7 +118,7 @@ selectedTab
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -147,7 +147,7 @@ button
 "
 )
 ;
-await
+yield
 testButton
 (
 toolbox
@@ -159,7 +159,7 @@ stopRecordingTelemetryLogs
 Telemetry
 )
 ;
-await
+yield
 gDevTools
 .
 closeToolbox
@@ -176,8 +176,8 @@ removeCurrentTab
 }
 )
 ;
-async
 function
+*
 testButton
 (
 toolbox
@@ -229,7 +229,7 @@ the
 telemetry
 probe
 .
-await
+yield
 toolbox
 .
 getPanel

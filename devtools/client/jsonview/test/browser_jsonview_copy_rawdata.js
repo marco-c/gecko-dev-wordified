@@ -133,8 +133,8 @@ n
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -149,7 +149,7 @@ started
 "
 )
 ;
-await
+yield
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -161,7 +161,7 @@ Select
 the
 RawData
 tab
-await
+yield
 selectJsonViewContentTab
 (
 "
@@ -177,7 +177,7 @@ JSON
 let
 text
 =
-await
+yield
 getElementText
 (
 "
@@ -219,7 +219,7 @@ into
 the
 clipboard
 .
-await
+yield
 waitForClipboardPromise
 (
 function
@@ -257,7 +257,7 @@ Pretty
 Print
 '
 button
-await
+yield
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -279,7 +279,7 @@ browser
 let
 prettyText
 =
-await
+yield
 getElementText
 (
 "
@@ -324,7 +324,7 @@ into
 the
 clipboard
 .
-await
+yield
 waitForClipboardPromise
 (
 function

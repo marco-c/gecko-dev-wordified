@@ -159,8 +159,8 @@ browser
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -208,7 +208,7 @@ selectedTool
 let
 tab
 =
-await
+yield
 addTab
 (
 URL
@@ -442,7 +442,7 @@ destroy
 the
 toolbox
 !
-await
+yield
 wait
 (
 50
@@ -526,7 +526,7 @@ ready
 3
 )
 {
-await
+yield
 wait
 (
 100
@@ -545,7 +545,7 @@ destroyed
 3
 )
 {
-await
+yield
 wait
 (
 100

@@ -78,8 +78,8 @@ strict
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -138,7 +138,7 @@ b
 }
 "
 ;
-await
+yield
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -147,7 +147,7 @@ TEST_JSON_URL
 let
 countBefore
 =
-await
+yield
 getElementCount
 (
 "

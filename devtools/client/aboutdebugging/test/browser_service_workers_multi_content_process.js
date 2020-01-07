@@ -104,12 +104,12 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 enableServiceWorkerDebugging
 (
 )
@@ -124,7 +124,7 @@ processes
 "
 )
 ;
-await
+yield
 pushPref
 (
 "
@@ -143,7 +143,7 @@ tab
 document
 }
 =
-await
+yield
 openAboutDebugging
 (
 "
@@ -205,7 +205,7 @@ document
 let
 swTab
 =
-await
+yield
 addTab
 (
 TAB_URL
@@ -245,7 +245,7 @@ UI
 let
 serviceWorkerContainer
 =
-await
+yield
 waitUntilServiceWorkerContainer
 (
 SERVICE_WORKER
@@ -343,7 +343,7 @@ disabled
 100
 )
 ;
-await
+yield
 pushPref
 (
 "
@@ -356,7 +356,7 @@ processCount
 1
 )
 ;
-await
+yield
 onWarningCleared
 ;
 ok
@@ -430,7 +430,7 @@ disabled
 100
 )
 ;
-await
+yield
 pushPref
 (
 "
@@ -443,7 +443,7 @@ processCount
 2
 )
 ;
-await
+yield
 onWarningRestored
 ;
 /
@@ -499,7 +499,7 @@ worker
 ;
 try
 {
-await
+yield
 unregisterServiceWorker
 (
 swTab
@@ -537,13 +537,13 @@ e
 )
 ;
 }
-await
+yield
 removeTab
 (
 swTab
 )
 ;
-await
+yield
 closeAboutDebugging
 (
 tab

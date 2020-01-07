@@ -996,12 +996,12 @@ window
 .
 setup
 =
-async
 function
+*
 (
 )
 {
-await
+yield
 idbGenerator
 (
 )
@@ -1013,7 +1013,7 @@ window
 caches
 )
 {
-await
+yield
 cacheGenerator
 (
 )
@@ -1025,12 +1025,12 @@ window
 .
 clear
 =
-async
 function
+*
 (
 )
 {
-await
+yield
 deleteDB
 (
 "
@@ -1038,7 +1038,7 @@ idb1uc1
 "
 )
 ;
-await
+yield
 deleteDB
 (
 "
@@ -1053,7 +1053,7 @@ window
 caches
 )
 {
-await
+yield
 caches
 .
 delete

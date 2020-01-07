@@ -165,12 +165,12 @@ TreeWidget
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -186,7 +186,7 @@ host
 doc
 ]
 =
-await
+yield
 createHost
 (
 "
@@ -224,7 +224,7 @@ tree
 doc
 )
 ;
-await
+yield
 testMouseInteraction
 (
 tree
@@ -646,8 +646,8 @@ expected
 behavior
 *
 /
-async
 function
+*
 testMouseInteraction
 (
 tree
@@ -781,7 +781,7 @@ data
 attachment
 ]
 =
-await
+yield
 event
 .
 promise
@@ -980,7 +980,7 @@ data
 attachment
 ]
 =
-await
+yield
 event
 .
 promise
@@ -1160,7 +1160,7 @@ click
 node2
 )
 ;
-await
+yield
 event
 .
 promise

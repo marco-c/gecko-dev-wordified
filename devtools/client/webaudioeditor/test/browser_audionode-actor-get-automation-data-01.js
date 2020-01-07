@@ -58,8 +58,8 @@ spread
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -69,7 +69,7 @@ target
 front
 }
 =
-await
+yield
 initBackend
 (
 SIMPLE_CONTEXT_URL
@@ -85,7 +85,7 @@ gainNode
 ]
 ]
 =
-await
+yield
 Promise
 .
 all
@@ -161,7 +161,7 @@ curve
 1
 ]
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -180,7 +180,7 @@ t0
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -199,7 +199,7 @@ t1
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -218,7 +218,7 @@ t2
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -235,7 +235,7 @@ t3
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -254,7 +254,7 @@ t4
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -273,7 +273,7 @@ t5
 ]
 )
 ;
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -318,7 +318,7 @@ account
 /
 duration
 )
-await
+yield
 oscNode
 .
 addAutomationEvent
@@ -344,7 +344,7 @@ events
 values
 }
 =
-await
+yield
 oscNode
 .
 getAutomationData
@@ -647,7 +647,7 @@ values
 1
 )
 ;
-await
+yield
 removeTab
 (
 target

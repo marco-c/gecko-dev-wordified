@@ -103,8 +103,8 @@ panel
 .
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -164,7 +164,7 @@ false
 let
 tab
 =
-await
+yield
 addTab
 (
 URL_ROOT
@@ -189,7 +189,7 @@ tab
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -234,7 +234,7 @@ opened
 let
 monitor
 =
-await
+yield
 toolbox
 .
 selectTool
@@ -280,7 +280,7 @@ panel
 "
 )
 ;
-await
+yield
 gDevTools
 .
 closeToolbox

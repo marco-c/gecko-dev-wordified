@@ -329,12 +329,12 @@ visibility
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -367,7 +367,7 @@ win
 doc
 ]
 =
-await
+yield
 createHost
 (
 )
@@ -395,7 +395,7 @@ true
 }
 )
 ;
-await
+yield
 new
 Promise
 (
@@ -453,8 +453,12 @@ removeCurrentTab
 let
 runPropertyAutocompletionTest
 =
+Task
+.
 async
+(
 function
+*
 (
 editor
 )
@@ -486,7 +490,7 @@ of
 testData
 )
 {
-await
+yield
 testCompletion
 (
 data
@@ -511,4 +515,5 @@ defaultView
 )
 ;
 }
+)
 ;

@@ -394,8 +394,8 @@ actual
 }
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -427,7 +427,7 @@ target
 console
 }
 =
-await
+yield
 initConsoleInNewTab
 (
 {
@@ -445,7 +445,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInTab
 (
 {
@@ -506,7 +506,7 @@ true
 }
 )
 ;
-await
+yield
 console
 .
 profile
@@ -516,7 +516,7 @@ rust
 "
 )
 ;
-await
+yield
 started
 ;
 testRecordings
@@ -546,7 +546,7 @@ recording
 "
 )
 ;
-await
+yield
 startRecording
 (
 panel
@@ -658,7 +658,7 @@ true
 }
 )
 ;
-await
+yield
 console
 .
 profile
@@ -668,7 +668,7 @@ profile
 "
 )
 ;
-await
+yield
 started
 ;
 testRecordings
@@ -780,7 +780,7 @@ true
 }
 )
 ;
-await
+yield
 console
 .
 profile
@@ -790,7 +790,7 @@ profile
 "
 )
 ;
-await
+yield
 started
 ;
 testRecordings
@@ -898,14 +898,14 @@ true
 }
 )
 ;
-await
+yield
 console
 .
 profileEnd
 (
 )
 ;
-await
+yield
 stopped
 ;
 testRecordings
@@ -959,7 +959,7 @@ panel
 3
 )
 ;
-await
+yield
 recordingSelected
 ;
 testRecordings
@@ -1016,7 +1016,7 @@ recording
 "
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -1090,7 +1090,7 @@ panel
 0
 )
 ;
-await
+yield
 recordingSelected
 ;
 testRecordings
@@ -1140,7 +1140,7 @@ is
 still
 rendering
 .
-await
+yield
 times
 (
 OverviewView
@@ -1243,14 +1243,14 @@ true
 }
 )
 ;
-await
+yield
 console
 .
 profileEnd
 (
 )
 ;
-await
+yield
 stopped
 ;
 testRecordings
@@ -1298,7 +1298,7 @@ is
 still
 rendering
 .
-await
+yield
 times
 (
 OverviewView
@@ -1336,7 +1336,7 @@ recording
 "
 )
 ;
-await
+yield
 startRecording
 (
 panel
@@ -1390,7 +1390,7 @@ is
 still
 rendering
 .
-await
+yield
 times
 (
 OverviewView
@@ -1426,7 +1426,7 @@ recording
 "
 )
 ;
-await
+yield
 stopRecording
 (
 panel
@@ -1555,14 +1555,14 @@ true
 }
 )
 ;
-await
+yield
 console
 .
 profileEnd
 (
 )
 ;
-await
+yield
 stopped
 ;
 testRecordings
@@ -1601,7 +1601,7 @@ selected
 "
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

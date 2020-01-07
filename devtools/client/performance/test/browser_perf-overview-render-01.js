@@ -164,8 +164,8 @@ utils
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -174,7 +174,7 @@ let
 panel
 }
 =
-await
+yield
 initPerformanceInNewTab
 (
 {
@@ -197,7 +197,7 @@ panel
 .
 panelWin
 ;
-await
+yield
 startRecording
 (
 panel
@@ -210,7 +210,7 @@ overview
 keeps
 rendering
 .
-await
+yield
 times
 (
 OverviewView
@@ -246,13 +246,13 @@ recording
 "
 )
 ;
-await
+yield
 stopRecording
 (
 panel
 )
 ;
-await
+yield
 teardownToolboxAndRemoveTab
 (
 panel

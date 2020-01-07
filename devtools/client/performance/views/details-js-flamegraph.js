@@ -179,8 +179,14 @@ binding
 .
 *
 /
-async
 initialize
+:
+Task
+.
+async
+(
+function
+*
 (
 )
 {
@@ -242,7 +248,7 @@ getTheme
 )
 )
 ;
-await
+yield
 this
 .
 graph
@@ -304,6 +310,7 @@ _onRangeChangeInGraph
 )
 ;
 }
+)
 /
 *
 *
@@ -313,8 +320,14 @@ events
 .
 *
 /
-async
 destroy
+:
+Task
+.
+async
+(
+function
+*
 (
 )
 {
@@ -353,7 +366,7 @@ this
 _onRangeChangeInGraph
 )
 ;
-await
+yield
 this
 .
 graph
@@ -363,6 +376,7 @@ destroy
 )
 ;
 }
+)
 /
 *
 *
