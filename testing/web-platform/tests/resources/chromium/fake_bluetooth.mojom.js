@@ -24734,11 +24734,9 @@ name
 :
 '
 bluetooth
-:
-:
+.
 mojom
-:
-:
+.
 FakeBluetooth
 '
 kVersion
@@ -33143,11 +33141,9 @@ name
 :
 '
 bluetooth
-:
-:
+.
 mojom
-:
-:
+.
 FakeCentral
 '
 kVersion

@@ -4367,11 +4367,9 @@ name
 :
 '
 device
-:
-:
+.
 mojom
-:
-:
+.
 UsbDeviceManager
 '
 kVersion
@@ -5039,11 +5037,9 @@ name
 :
 '
 device
-:
-:
+.
 mojom
-:
-:
+.
 UsbDeviceManagerClient
 '
 kVersion

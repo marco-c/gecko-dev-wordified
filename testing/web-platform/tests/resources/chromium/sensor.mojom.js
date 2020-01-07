@@ -5431,11 +5431,9 @@ name
 :
 '
 device
-:
-:
+.
 mojom
-:
-:
+.
 Sensor
 '
 kVersion
@@ -6079,11 +6077,9 @@ name
 :
 '
 device
-:
-:
+.
 mojom
-:
-:
+.
 SensorClient
 '
 kVersion

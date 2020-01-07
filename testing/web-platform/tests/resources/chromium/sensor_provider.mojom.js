@@ -2529,11 +2529,9 @@ name
 :
 '
 device
-:
-:
+.
 mojom
-:
-:
+.
 SensorProvider
 '
 kVersion

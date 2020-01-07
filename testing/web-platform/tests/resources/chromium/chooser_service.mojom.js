@@ -1554,11 +1554,9 @@ name
 :
 '
 device
-:
-:
+.
 mojom
-:
-:
+.
 UsbChooserService
 '
 kVersion
