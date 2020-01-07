@@ -277,6 +277,16 @@ r
 s
 )
 )
+env
+[
+'
+CPP_UNIT_TESTS_DIR_JS_SRC
+'
+]
+=
+DIR
+.
+js_src
 parser
 =
 argparse
