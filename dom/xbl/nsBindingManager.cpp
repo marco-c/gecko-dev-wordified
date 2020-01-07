@@ -4660,6 +4660,7 @@ point
 AppendInsertedChild
 (
 child
+true
 )
 ;
 }
