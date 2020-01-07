@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsIWindowMediator
 .
 h
@@ -810,6 +817,7 @@ ApplicationAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

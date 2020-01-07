@@ -574,6 +574,7 @@ OuterDocAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

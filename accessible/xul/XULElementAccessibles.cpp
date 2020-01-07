@@ -621,6 +621,7 @@ XULLabelAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1081,6 +1082,7 @@ XULLabelTextLeafAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1323,6 +1325,7 @@ XULTooltipAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1713,6 +1716,7 @@ XULLinkAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

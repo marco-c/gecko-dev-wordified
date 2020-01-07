@@ -341,6 +341,7 @@ HTMLListAccessible
 NativeRole
 (
 )
+const
 {
 a11y
 :
@@ -665,6 +666,7 @@ HTMLLIAccessible
 NativeRole
 (
 )
+const
 {
 a11y
 :
@@ -1448,6 +1450,7 @@ HTMLListBulletAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

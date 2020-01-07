@@ -459,6 +459,7 @@ HTMLWin32ObjectOwnerAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

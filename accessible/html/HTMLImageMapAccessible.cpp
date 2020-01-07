@@ -468,6 +468,7 @@ HTMLImageMapAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

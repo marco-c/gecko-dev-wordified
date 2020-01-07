@@ -341,6 +341,7 @@ TextLeafAccessible
 NativeRole
 (
 )
+const
 {
 nsIFrame
 *

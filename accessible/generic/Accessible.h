@@ -1364,6 +1364,7 @@ role
 NativeRole
 (
 )
+const
 ;
 /
 *
@@ -1615,6 +1616,7 @@ uint64_t
 VisibilityState
 (
 )
+const
 ;
 /
 *

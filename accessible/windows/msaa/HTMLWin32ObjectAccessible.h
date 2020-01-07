@@ -274,6 +274,8 @@ role
 NativeRole
 (
 )
+const
+override
 ;
 virtual
 bool

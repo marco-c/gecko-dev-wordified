@@ -160,6 +160,7 @@ role
 NativeRole
 (
 )
+const
 override
 ;
 }
@@ -221,6 +222,7 @@ role
 NativeRole
 (
 )
+const
 override
 ;
 virtual
@@ -574,6 +576,7 @@ role
 NativeRole
 (
 )
+const
 override
 ;
 protected

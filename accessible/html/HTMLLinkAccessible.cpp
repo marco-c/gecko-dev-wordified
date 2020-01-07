@@ -439,6 +439,7 @@ HTMLLinkAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

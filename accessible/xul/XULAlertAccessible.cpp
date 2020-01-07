@@ -334,6 +334,7 @@ XULAlertAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

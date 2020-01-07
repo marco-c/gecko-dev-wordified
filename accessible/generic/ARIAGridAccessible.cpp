@@ -449,6 +449,7 @@ ARIAGridAccessible
 NativeRole
 (
 )
+const
 {
 a11y
 :
@@ -3426,6 +3427,7 @@ ARIARowAccessible
 NativeRole
 (
 )
+const
 {
 a11y
 :
@@ -3824,6 +3826,7 @@ ARIAGridCellAccessible
 NativeRole
 (
 )
+const
 {
 a11y
 :

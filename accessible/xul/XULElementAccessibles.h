@@ -172,6 +172,7 @@ role
 NativeRole
 (
 )
+const
 override
 ;
 virtual
@@ -332,6 +333,7 @@ role
 NativeRole
 (
 )
+const
 override
 ;
 virtual
@@ -384,6 +386,7 @@ role
 NativeRole
 (
 )
+const
 override
 ;
 virtual
@@ -434,6 +437,7 @@ role
 NativeRole
 (
 )
+const
 override
 ;
 virtual

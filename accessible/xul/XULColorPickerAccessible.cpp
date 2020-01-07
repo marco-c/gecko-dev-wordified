@@ -462,6 +462,7 @@ XULColorPickerTileAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -995,6 +996,7 @@ XULColorPickerAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

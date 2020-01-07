@@ -559,6 +559,7 @@ HTMLSelectListAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1289,6 +1290,7 @@ HTMLSelectOptionAccessible
 NativeRole
 (
 )
+const
 {
 if
 (
@@ -2454,6 +2456,7 @@ HTMLSelectOptGroupAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -2912,6 +2915,7 @@ HTMLComboboxAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -4069,6 +4073,7 @@ HTMLComboboxListAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

@@ -116,6 +116,13 @@ CreateEventA
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 Accessible
 -
 inl
@@ -726,6 +733,7 @@ RootAccessible
 NativeRole
 (
 )
+const
 {
 /
 /

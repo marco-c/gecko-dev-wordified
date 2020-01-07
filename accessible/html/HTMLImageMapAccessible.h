@@ -172,6 +172,7 @@ role
 NativeRole
 (
 )
+const
 override
 ;
 /

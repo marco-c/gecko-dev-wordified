@@ -660,6 +660,7 @@ XULTabAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1170,6 +1171,7 @@ XULTabsAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1397,6 +1399,7 @@ XULTabpanelsAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1595,6 +1598,7 @@ XULTabpanelAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

@@ -354,6 +354,7 @@ XULSliderAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
@@ -1307,6 +1308,7 @@ XULThumbAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles

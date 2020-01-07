@@ -586,6 +586,7 @@ HTMLTableCellAccessible
 NativeRole
 (
 )
+const
 {
 if
 (
@@ -2286,6 +2287,7 @@ HTMLTableHeaderCellAccessible
 NativeRole
 (
 )
+const
 {
 /
 /
@@ -2787,6 +2789,7 @@ HTMLTableRowAccessible
 NativeRole
 (
 )
+const
 {
 if
 (
@@ -3259,6 +3262,7 @@ HTMLTableAccessible
 NativeRole
 (
 )
+const
 {
 if
 (
@@ -7985,6 +7989,7 @@ HTMLCaptionAccessible
 NativeRole
 (
 )
+const
 {
 return
 roles
