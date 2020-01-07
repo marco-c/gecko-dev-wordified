@@ -6869,6 +6869,17 @@ GetChildNotificationPipe
 )
 )
 ;
+if
+(
+!
+CrashReporter
+:
+:
+IsDummy
+(
+)
+)
+{
 PROsfd
 h
 =
@@ -6944,6 +6955,7 @@ hStr
 )
 )
 ;
+}
 /
 /
 Process
