@@ -33368,6 +33368,12 @@ MAX_SCRIPT_SIZE
 return
 true
 ;
+AutoKeepTypeScripts
+keepTypes
+(
+cx
+)
+;
 if
 (
 !
@@ -33377,6 +33383,7 @@ script
 ensureHasTypes
 (
 cx
+keepTypes
 )
 )
 return

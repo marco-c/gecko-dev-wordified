@@ -4214,6 +4214,12 @@ cx
 fun
 )
 ;
+AutoKeepTypeScripts
+keepTypes
+(
+cx
+)
+;
 if
 (
 !
@@ -4227,6 +4233,7 @@ script
 ensureHasTypes
 (
 cx
+keepTypes
 )
 )
 return
