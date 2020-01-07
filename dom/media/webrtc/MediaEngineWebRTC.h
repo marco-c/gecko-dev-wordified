@@ -1039,6 +1039,13 @@ CleanupGlobalData
 (
 )
 {
+if
+(
+mDevices
+.
+device
+)
+{
 cubeb_device_collection_destroy
 (
 CubebUtils
@@ -1051,6 +1058,7 @@ GetCubebContext
 mDevices
 )
 ;
+}
 delete
 mDeviceIndexes
 ;
