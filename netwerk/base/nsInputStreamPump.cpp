@@ -4563,10 +4563,7 @@ thread
 nsresult
 rv
 =
-mLabeledMainThreadTarget
--
->
-Dispatch
+NS_DispatchToMainThread
 (
 NewRunnableMethod
 (
