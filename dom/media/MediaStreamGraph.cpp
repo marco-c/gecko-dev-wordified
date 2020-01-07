@@ -1645,7 +1645,9 @@ aStart
 continue
 ;
 }
+const
 PrincipalHandle
+&
 principalHandle
 =
 chunk

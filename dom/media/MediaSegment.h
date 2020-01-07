@@ -587,6 +587,7 @@ nsIPrincipal
 *
 GetPrincipalFromHandle
 (
+const
 PrincipalHandle
 &
 aPrincipalHandle
@@ -611,6 +612,7 @@ inline
 bool
 PrincipalHandleMatches
 (
+const
 PrincipalHandle
 &
 aPrincipalHandle
@@ -911,7 +913,9 @@ segment
 .
 *
 /
+const
 PrincipalHandle
+&
 GetLastPrincipalHandle
 (
 )
@@ -950,15 +954,19 @@ one
 void
 SetLastPrincipalHandle
 (
-const
 PrincipalHandle
-&
 aLastPrincipalHandle
 )
 {
 mLastPrincipalHandle
 =
+Forward
+<
+PrincipalHandle
+>
+(
 aLastPrincipalHandle
+)
 ;
 }
 /
