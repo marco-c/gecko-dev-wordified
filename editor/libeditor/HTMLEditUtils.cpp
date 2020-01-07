@@ -2619,6 +2619,7 @@ GROUP_PHRASE
 a
 applet
 basefont
+bdi
 bdo
 br
 font
@@ -2627,9 +2628,9 @@ img
 map
 meter
 object
+/
+/
 output
-/
-/
 picture
 progress
 q
@@ -3218,6 +3219,14 @@ false
 false
 GROUP_SPECIAL
 GROUP_NONE
+)
+ELEM
+(
+bdi
+true
+true
+GROUP_SPECIAL
+GROUP_INLINE_ELEMENT
 )
 ELEM
 (

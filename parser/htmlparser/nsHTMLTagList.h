@@ -481,6 +481,10 @@ basefont
 )
 HTML_HTMLELEMENT_TAG
 (
+bdi
+)
+HTML_HTMLELEMENT_TAG
+(
 bdo
 )
 HTML_TAG
