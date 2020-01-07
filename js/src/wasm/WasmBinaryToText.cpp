@@ -5979,7 +5979,7 @@ op
 )
 {
 case
-NumericOp
+MiscOp
 :
 :
 I32TruncSSatF32
@@ -5999,7 +5999,7 @@ f32
 break
 ;
 case
-NumericOp
+MiscOp
 :
 :
 I32TruncUSatF32
@@ -6019,7 +6019,7 @@ f32
 break
 ;
 case
-NumericOp
+MiscOp
 :
 :
 I32TruncSSatF64
@@ -6039,7 +6039,7 @@ f64
 break
 ;
 case
-NumericOp
+MiscOp
 :
 :
 I32TruncUSatF64
@@ -6059,7 +6059,7 @@ f64
 break
 ;
 case
-NumericOp
+MiscOp
 :
 :
 I64TruncSSatF32
@@ -6079,7 +6079,7 @@ f32
 break
 ;
 case
-NumericOp
+MiscOp
 :
 :
 I64TruncUSatF32
@@ -6099,7 +6099,7 @@ f32
 break
 ;
 case
-NumericOp
+MiscOp
 :
 :
 I64TruncSSatF64
@@ -6119,7 +6119,7 @@ f64
 break
 ;
 case
-NumericOp
+MiscOp
 :
 :
 I64TruncUSatF64

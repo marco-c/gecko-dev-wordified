@@ -5993,7 +5993,7 @@ opcodes
 encoded
 with
 the
-Numeric
+Misc
 prefix
 .
 class
@@ -6003,7 +6003,7 @@ final
 public
 AstExpr
 {
-NumericOp
+MiscOp
 op_
 ;
 AstExpr
@@ -6025,7 +6025,7 @@ ExtraConversionOperator
 explicit
 AstExtraConversionOperator
 (
-NumericOp
+MiscOp
 op
 AstExpr
 *
@@ -6050,7 +6050,7 @@ operand
 )
 {
 }
-NumericOp
+MiscOp
 op
 (
 )
