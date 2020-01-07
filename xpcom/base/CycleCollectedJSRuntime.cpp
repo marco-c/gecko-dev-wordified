@@ -1148,6 +1148,11 @@ mKeyDelegate
 nullptr
 )
 {
+setCanSkipJsids
+(
+true
+)
+;
 }
 void
 onChild
@@ -2664,6 +2669,11 @@ mCb
 aCb
 )
 {
+setCanSkipJsids
+(
+true
+)
+;
 }
 void
 onChild
