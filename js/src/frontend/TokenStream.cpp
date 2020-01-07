@@ -10098,12 +10098,6 @@ encountered
 .
 do
 {
-int
-c
-;
-FirstCharKind
-c1kind
-;
 if
 (
 MOZ_UNLIKELY
@@ -10152,6 +10146,7 @@ return
 true
 ;
 }
+int
 c
 =
 sourceUnits
@@ -10754,6 +10749,7 @@ values
 to
 FirstCharKind
 .
+FirstCharKind
 c1kind
 =
 FirstCharKind
