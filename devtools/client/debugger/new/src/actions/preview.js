@@ -782,12 +782,6 @@ if
 (
 !
 match
-|
-|
-!
-match
-.
-expression
 )
 {
 return

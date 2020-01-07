@@ -721,10 +721,6 @@ folder
 .
 domain
 .
-source
--
-icon
-.
 file
 .
 extension
@@ -749,6 +745,10 @@ worker
 file
 .
 folder
+.
+sources
+-
+list
 .
 source
 -
@@ -811,11 +811,6 @@ domain
 img
 .
 folder
-img
-.
-source
--
-icon
 {
 width
 :
@@ -1160,6 +1155,10 @@ folder
 img
 .
 file
+.
+sources
+-
+list
 img
 .
 source

@@ -150,6 +150,7 @@ dump
 >
 meh
 )
+;
 await
 navigate
 (
@@ -179,6 +180,7 @@ dump
 select
 v1
 )
+;
 await
 selectSource
 (

@@ -112,6 +112,7 @@ locations
 =
 [
 ]
+;
 await
 stepOvers
 (
@@ -136,6 +137,7 @@ state
 .
 location
 )
+;
 }
 )
 ;
@@ -169,12 +171,14 @@ join
 "
 "
 )
+;
 is
 (
 formattedSteps
 steps
 name
 )
+;
 await
 resume
 (
