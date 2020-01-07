@@ -20220,6 +20220,11 @@ aFrame
 )
 const
 ;
+void
+ReportShadowDOMUsage
+(
+)
+;
 protected
 :
 already_AddRefed
@@ -23536,6 +23541,11 @@ document
 .
 bool
 mReportedUseCounters
+:
+1
+;
+bool
+mHasReportedShadowDOMUsage
 :
 1
 ;
