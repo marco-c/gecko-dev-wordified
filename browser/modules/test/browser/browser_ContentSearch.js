@@ -79,17 +79,6 @@ contentSearch
 js
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-XMLHttpRequest
-"
-]
-)
-;
 var
 gMsgMan
 ;

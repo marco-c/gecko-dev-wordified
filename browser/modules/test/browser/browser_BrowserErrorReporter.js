@@ -52,17 +52,6 @@ jsm
 this
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 /
 *
 global
