@@ -223,9 +223,6 @@ Keyframe
 struct
 StyleTransition
 ;
-class
-ComputedStyle
-;
 }
 /
 /
