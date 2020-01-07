@@ -305,10 +305,10 @@ CompositorWidget
 widget
 )
 {
-gfxPrefs
+gfxPlatform
 :
 :
-GetSingleton
+GetPlatform
 (
 )
 ;
