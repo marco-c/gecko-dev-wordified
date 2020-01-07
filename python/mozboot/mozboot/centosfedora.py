@@ -142,6 +142,14 @@ mercurial
 '
             
 '
+nodejs
+'
+            
+'
+npm
+'
+            
+'
 which
 '
         

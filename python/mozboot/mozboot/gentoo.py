@@ -147,6 +147,9 @@ git
 '
 mercurial
 '
+'
+node
+'
 ]
 )
     

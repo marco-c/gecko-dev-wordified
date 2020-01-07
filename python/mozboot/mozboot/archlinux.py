@@ -124,6 +124,14 @@ mercurial
 '
         
 '
+nodejs
+'
+        
+'
+npm
+'
+        
+'
 python2
 '
         

@@ -1308,6 +1308,15 @@ DEBIAN_DISTROS
 cls
 =
 DebianBootstrapper
+                
+args
+[
+'
+distro
+'
+]
+=
+distro
             
 elif
 distro
