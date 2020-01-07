@@ -1430,16 +1430,6 @@ override
 ;
 NS_IMETHOD_
 (
-Element
-*
-)
-GetPreviewNode
-(
-)
-override
-;
-NS_IMETHOD_
-(
 void
 )
 UpdateOverlayTextVisibility
