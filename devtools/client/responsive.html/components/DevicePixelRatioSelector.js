@@ -554,6 +554,9 @@ let
 selectorClass
 =
 "
+toolbar
+-
+dropdown
 "
 ;
 let
