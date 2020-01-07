@@ -2582,6 +2582,15 @@ return
 mDocElementContainingBlock
 ;
 }
+void
+AddSizeOfIncludingThis
+(
+nsWindowSizes
+&
+aSizes
+)
+const
+;
 private
 :
 struct
