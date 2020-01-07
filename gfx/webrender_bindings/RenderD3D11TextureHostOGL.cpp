@@ -574,11 +574,16 @@ mConfig
 pbufferAttributes
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 mSurface
 )
+{
+return
+false
 ;
+}
 /
 /
 Query
