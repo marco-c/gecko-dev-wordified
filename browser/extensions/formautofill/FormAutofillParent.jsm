@@ -448,7 +448,7 @@ resource
 /
 formautofill
 /
-ProfileStorage
+FormAutofillStorage
 .
 jsm
 "
@@ -630,7 +630,7 @@ _initialized
 *
 *
 Initializes
-ProfileStorage
+FormAutofillStorage
 and
 registers
 the

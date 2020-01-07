@@ -52,7 +52,7 @@ resource
 /
 formautofill
 /
-ProfileStorage
+FormAutofillStorage
 .
 jsm
 "

@@ -699,7 +699,7 @@ by
 your
 own
 outside
-ProfileStorage
+FormAutofillStorage
 *
 when
 necessary
@@ -12022,7 +12022,7 @@ true
 }
 }
 function
-ProfileStorage
+FormAutofillStorage
 (
 path
 )
@@ -12046,7 +12046,7 @@ INTERNAL_FIELDS
 INTERNAL_FIELDS
 ;
 }
-ProfileStorage
+FormAutofillStorage
 .
 prototype
 =
@@ -12316,7 +12316,7 @@ this
 profileStorage
 =
 new
-ProfileStorage
+FormAutofillStorage
 (
 OS
 .

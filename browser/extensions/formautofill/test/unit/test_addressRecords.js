@@ -3,7 +3,7 @@
 *
 *
 Tests
-ProfileStorage
+FormAutofillStorage
 object
 with
 addresses

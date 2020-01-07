@@ -810,7 +810,7 @@ removed
 soon
 once
 the
-ProfileStorage
+FormAutofillStorage
 APIs
 are
 *
@@ -1037,7 +1037,7 @@ removed
 soon
 once
 the
-ProfileStorage
+FormAutofillStorage
 APIs
 are
 *

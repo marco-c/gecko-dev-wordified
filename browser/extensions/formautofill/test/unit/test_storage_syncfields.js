@@ -3,7 +3,7 @@
 *
 *
 Tests
-ProfileStorage
+FormAutofillStorage
 objects
 support
 for
