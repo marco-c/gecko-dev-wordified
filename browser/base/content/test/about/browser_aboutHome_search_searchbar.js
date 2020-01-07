@@ -171,7 +171,9 @@ true
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
