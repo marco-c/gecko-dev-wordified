@@ -3677,6 +3677,12 @@ obj
 install_target
 path
 )
+                                 
+target
+=
+f
+.
+target_basename
 )
     
 def
@@ -4244,8 +4250,26 @@ input_file
 destdir
 =
 None
+target
+=
+None
 )
 :
+        
+if
+target
+is
+None
+:
+            
+target
+=
+mozpath
+.
+basename
+(
+input_file
+)
         
 #
 .
@@ -4282,7 +4306,7 @@ marker
 %
 '
 if
-input_file
+target
 .
 endswith
 (
@@ -4366,7 +4390,7 @@ mozpath
 .
 basename
 (
-input_file
+target
 )
         
 if
