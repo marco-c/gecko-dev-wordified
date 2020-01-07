@@ -560,9 +560,9 @@ MakePoint
 (
 aVelocityInchesPerMs
 *
-mAsyncPanZoomController
--
->
+APZCTreeManager
+:
+:
 GetDPI
 (
 )
