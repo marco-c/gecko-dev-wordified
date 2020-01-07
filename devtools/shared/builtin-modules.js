@@ -216,7 +216,6 @@ one
 )
 const
 {
-PromiseDebugging
 ChromeUtils
 HeapSnapshot
 atob
@@ -1259,7 +1258,6 @@ bug
 1402779
 .
 Promise
-PromiseDebugging
 ChromeUtils
 HeapSnapshot
 InspectorUtils
