@@ -400,6 +400,17 @@ ClearAssignedNodes
 (
 )
 ;
+void
+EnqueueSlotChangeEvent
+(
+)
+const
+;
+void
+FireSlotChangeEvent
+(
+)
+;
 protected
 :
 virtual
