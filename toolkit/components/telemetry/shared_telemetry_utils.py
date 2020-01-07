@@ -113,11 +113,11 @@ All
 '
     
 '
-all_childs
+all_children
 '
 :
 '
-AllChilds
+AllChildren
 '
     
 '
@@ -143,6 +143,25 @@ gpu
 '
 Gpu
 '
+    
+#
+Historical
+Values
+    
+'
+all_childs
+'
+:
+'
+AllChildren
+'
+#
+Supporting
+files
+from
+before
+bug
+1363725
 }
 PROCESS_ENUM_PREFIX
 =

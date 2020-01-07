@@ -448,7 +448,7 @@ processType
 )
 {
 bool
-recordAllChild
+recordAllChildren
 =
 !
 !
@@ -458,7 +458,7 @@ processes
 RecordedProcessType
 :
 :
-AllChilds
+AllChildren
 )
 ;
 /
@@ -513,7 +513,7 @@ GeckoProcessType_Default
 )
 &
 &
-recordAllChild
+recordAllChildren
 )
 ;
 }
