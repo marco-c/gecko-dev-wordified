@@ -7928,8 +7928,8 @@ stored
 [
 derive
 (
-Eq
 Debug
+Eq
 PartialEq
 )
 ]

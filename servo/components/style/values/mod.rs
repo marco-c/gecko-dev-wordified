@@ -540,6 +540,7 @@ Clone
 Copy
 Debug
 PartialEq
+SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
@@ -1203,8 +1204,8 @@ derive
 Clone
 Debug
 MallocSizeOf
-ToComputedValue
 SpecifiedValueInfo
+ToComputedValue
 )
 ]
 pub

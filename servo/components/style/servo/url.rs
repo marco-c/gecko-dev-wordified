@@ -283,6 +283,7 @@ Debug
 Deserialize
 MallocSizeOf
 Serialize
+SpecifiedValueInfo
 )
 ]
 pub
