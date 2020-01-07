@@ -1481,6 +1481,15 @@ type
 boolean
 "
 }
+contentUsesTiling
+:
+{
+type
+:
+"
+boolean
+"
+}
 offMainThreadPaintEnabled
 :
 {
