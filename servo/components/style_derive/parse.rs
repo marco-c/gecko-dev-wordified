@@ -192,6 +192,15 @@ ast
 )
 )
 ;
+if
+variant_attrs
+.
+skip
+{
+return
+match_body
+;
+}
 let
 identifier
 =
