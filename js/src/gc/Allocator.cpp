@@ -1526,6 +1526,17 @@ nursery
 canAllocateStrings
 (
 )
+&
+&
+cx
+-
+>
+zone
+(
+)
+-
+>
+allocNurseryStrings
 )
 {
 auto
