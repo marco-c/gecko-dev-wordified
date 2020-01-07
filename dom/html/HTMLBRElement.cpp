@@ -443,7 +443,6 @@ attributes
 =
 {
 {
-&
 nsGkAtoms
 :
 :

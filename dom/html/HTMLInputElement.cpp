@@ -33708,14 +33708,12 @@ attributes
 =
 {
 {
-&
 nsGkAtoms
 :
 :
 align
 }
 {
-&
 nsGkAtoms
 :
 :

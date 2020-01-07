@@ -1564,12 +1564,10 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 menu
-&
 nsGkAtoms
 :
 :

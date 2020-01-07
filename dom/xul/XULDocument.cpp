@@ -25787,12 +25787,10 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 ltr
-&
 nsGkAtoms
 :
 :

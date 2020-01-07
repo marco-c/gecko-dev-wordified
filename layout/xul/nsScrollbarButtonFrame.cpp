@@ -671,12 +671,10 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 increment
-&
 nsGkAtoms
 :
 :
