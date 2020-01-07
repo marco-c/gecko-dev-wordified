@@ -121,9 +121,9 @@ object
 *
 *
 /
-JavaVM
+JNIEnv
 *
-cubeb_jni_get_java_vm
+cubeb_get_jni_env_for_thread
 (
 )
 {
@@ -134,7 +134,7 @@ mozilla
 jni
 :
 :
-GetVM
+GetEnvForThread
 (
 )
 ;
