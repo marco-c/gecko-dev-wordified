@@ -241,6 +241,7 @@ const
 dispatch
 message
 open
+repeat
 serviceContainer
 timestampsVisible
 }
@@ -257,7 +258,6 @@ source
 type
 level
 messageText
-repeat
 stacktrace
 frame
 exceptionDocURL
