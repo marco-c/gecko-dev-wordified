@@ -1679,7 +1679,9 @@ player
 .
 effect
 .
-timing
+getComputedTiming
+(
+)
 .
 easing
 ;
