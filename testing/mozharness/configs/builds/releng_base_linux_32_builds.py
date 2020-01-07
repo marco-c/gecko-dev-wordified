@@ -899,27 +899,6 @@ cltbld
 /
 bin
 '
-        
-'
-LD_LIBRARY_PATH
-'
-:
-"
-/
-tools
-/
-gcc
--
-4
-.
-3
-.
-3
-/
-installed
-/
-lib
-"
     
 }
     
