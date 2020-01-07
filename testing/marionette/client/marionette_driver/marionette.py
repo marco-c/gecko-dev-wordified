@@ -111,12 +111,7 @@ from
 timeout
 import
 Timeouts
-WEBELEMENT_KEY
-=
-"
-ELEMENT
-"
-W3C_WEBELEMENT_KEY
+WEB_ELEMENT_KEY
 =
 "
 element
@@ -128,6 +123,19 @@ element
 a52e
 -
 4f735466cecf
+"
+CHROME_ELEMENT_KEY
+=
+"
+chromeelement
+-
+9fc5
+-
+4b51
+-
+a3c8
+-
+01716eedeb04
 "
 class
 HTMLElement
@@ -5770,12 +5778,12 @@ dict
 )
 and
 (
-WEBELEMENT_KEY
+WEB_ELEMENT_KEY
 in
 value
 or
                                         
-W3C_WEBELEMENT_KEY
+CHROME_ELEMENT_KEY
 in
 value
 )
@@ -5786,7 +5794,7 @@ value
 .
 get
 (
-WEBELEMENT_KEY
+WEB_ELEMENT_KEY
 )
 :
                 
@@ -5798,7 +5806,7 @@ value
 .
 get
 (
-WEBELEMENT_KEY
+WEB_ELEMENT_KEY
 )
 )
             
@@ -5813,7 +5821,7 @@ value
 .
 get
 (
-W3C_WEBELEMENT_KEY
+CHROME_ELEMENT_KEY
 )
 )
         
@@ -12738,13 +12746,13 @@ HTMLElement
 wrapped
 =
 {
-W3C_WEBELEMENT_KEY
+WEB_ELEMENT_KEY
 :
 args
 .
 id
                        
-WEBELEMENT_KEY
+CHROME_ELEMENT_KEY
 :
 args
 .
@@ -12853,7 +12861,7 @@ if
 key
 =
 =
-W3C_WEBELEMENT_KEY
+WEB_ELEMENT_KEY
 :
                     
 unwrapped
@@ -12873,7 +12881,7 @@ elif
 key
 =
 =
-WEBELEMENT_KEY
+CHROME_ELEMENT_KEY
 :
                     
 unwrapped
