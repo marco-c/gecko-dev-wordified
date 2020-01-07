@@ -47106,6 +47106,13 @@ isValid
 )
 )
 {
+aSurface
+-
+>
+Unmap
+(
+)
+;
 return
 GetSurfaceDataContext
 :
