@@ -1840,6 +1840,9 @@ spdy
 void
 StartSpdy
 (
+nsISSLSocketControl
+*
+ssl
 uint8_t
 versionLevel
 )

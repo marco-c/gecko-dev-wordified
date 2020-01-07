@@ -1813,6 +1813,9 @@ nsHttpConnection
 :
 StartSpdy
 (
+nsISSLSocketControl
+*
+sslControl
 uint8_t
 spdyVersion
 )
@@ -1873,6 +1876,20 @@ mEverUsedSpdy
 =
 true
 ;
+if
+(
+sslControl
+)
+{
+sslControl
+-
+>
+SetDenyClientCert
+(
+true
+)
+;
+}
 if
 (
 !
@@ -3621,6 +3638,7 @@ infoIndex
 {
 StartSpdy
 (
+ssl
 info
 -
 >
@@ -3743,6 +3761,7 @@ get
 ;
 StartSpdy
 (
+ssl
 mSpdySession
 -
 >

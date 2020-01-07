@@ -440,6 +440,15 @@ return
 mJoined
 ;
 }
+bool
+GetDenyClientCert
+(
+)
+{
+return
+mDenyClientCert
+;
+}
 void
 SetSentClientCert
 (
@@ -947,6 +956,9 @@ mNPNCompleted
 ;
 bool
 mEarlyDataAccepted
+;
+bool
+mDenyClientCert
 ;
 bool
 mFalseStartCallbackCalled
