@@ -6378,6 +6378,15 @@ addr_info
 -
 >
 mCanonicalName
+unspecRec
+-
+>
+addr_info
+-
+>
+IsTRR
+(
+)
 )
 ;
 rec

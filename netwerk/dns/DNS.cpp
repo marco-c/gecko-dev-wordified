@@ -2497,6 +2497,9 @@ const
 char
 *
 cname
+unsigned
+int
+aTRR
 )
 :
 mHostName
@@ -2513,7 +2516,7 @@ NO_TTL_DATA
 )
 mFromTRR
 (
-false
+aTRR
 )
 {
 Init

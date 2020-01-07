@@ -1237,9 +1237,10 @@ initialize
 only
 the
 host
-and
-the
 cname
+and
+TRR
+type
 )
 .
 explicit
@@ -1253,6 +1254,9 @@ const
 char
 *
 cname
+unsigned
+int
+TRRType
 )
 ;
 /
