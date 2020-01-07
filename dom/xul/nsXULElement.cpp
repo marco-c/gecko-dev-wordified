@@ -8827,11 +8827,6 @@ aVisitor
 mDOMEvent
 -
 >
-InternalDOMEvent
-(
-)
--
->
 AsXULCommandEvent
 (
 )

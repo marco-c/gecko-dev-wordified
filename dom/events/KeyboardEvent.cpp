@@ -1799,11 +1799,6 @@ EventTarget
 >
 eventTarget
 =
-InternalDOMEvent
-(
-)
--
->
 GetTarget
 (
 )
