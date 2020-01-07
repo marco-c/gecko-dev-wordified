@@ -731,7 +731,11 @@ private
 Delegate
 mInputConnection
 ;
-public
+/
+*
+package
+*
+/
 TextInputController
 (
 final
