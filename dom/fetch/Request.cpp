@@ -1951,7 +1951,7 @@ fallbackCredentials
 RequestCredentials
 :
 :
-Omit
+Same_origin
 ;
 fallbackCache
 =
