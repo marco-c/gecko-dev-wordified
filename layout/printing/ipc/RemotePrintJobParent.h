@@ -526,6 +526,9 @@ mPrintProgressListeners
 PRFileDescStream
 mCurrentPageStream
 ;
+bool
+mIsDoingPrinting
+;
 }
 ;
 }
