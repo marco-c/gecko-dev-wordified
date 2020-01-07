@@ -2289,6 +2289,7 @@ menuFrameForKey
 GetMenuForKeyEvent
 (
 keyEvent
+false
 )
 ;
 if
@@ -2622,6 +2623,8 @@ GetMenuForKeyEvent
 nsIDOMKeyEvent
 *
 aKeyEvent
+bool
+aPeek
 )
 {
 if
@@ -2757,6 +2760,7 @@ mMenuBarFrame
 FindMenuWithShortcut
 (
 aKeyEvent
+aPeek
 )
 ;
 }
@@ -3296,6 +3300,7 @@ menuFrameForKey
 GetMenuForKeyEvent
 (
 keyEvent
+true
 )
 ;
 if

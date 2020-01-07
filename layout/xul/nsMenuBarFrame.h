@@ -608,6 +608,8 @@ FindMenuWithShortcut
 nsIDOMKeyEvent
 *
 aKeyEvent
+bool
+aPeek
 )
 ;
 virtual

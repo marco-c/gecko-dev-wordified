@@ -14064,6 +14064,7 @@ mActiveMenuBar
 FindMenuWithShortcut
 (
 aKeyEvent
+false
 )
 ;
 if

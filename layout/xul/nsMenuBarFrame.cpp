@@ -808,6 +808,8 @@ FindMenuWithShortcut
 nsIDOMKeyEvent
 *
 aKeyEvent
+bool
+aPeek
 )
 {
 uint32_t
@@ -1172,6 +1174,12 @@ item
 #
 ifdef
 XP_WIN
+if
+(
+!
+aPeek
+)
+{
 /
 /
 behavior
@@ -1252,7 +1260,7 @@ pm
 >
 GetTopPopup
 (
-ePopupTypeAny
+ePopupTypeMenu
 )
 ;
 if
@@ -1287,6 +1295,7 @@ SetActive
 false
 )
 ;
+}
 #
 endif
 /
