@@ -213,6 +213,15 @@ include
 "
 mozilla
 /
+ServoStyleRuleMap
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSheet
 .
 h

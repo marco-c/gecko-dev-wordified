@@ -145,15 +145,6 @@ h
 #
 include
 "
-mozilla
-/
-ServoStyleRuleMap
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -193,6 +184,9 @@ mozilla
 {
 class
 EventChainPreVisitor
+;
+class
+ServoStyleRuleMap
 ;
 namespace
 css
