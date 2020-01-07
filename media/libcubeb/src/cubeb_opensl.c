@@ -1478,9 +1478,6 @@ stm
 =
 user_ptr
 ;
-int
-draining
-;
 assert
 (
 stm
