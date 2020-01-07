@@ -1005,12 +1005,7 @@ SetIsComposedDocParticipant
 bool
 aIsComposedDocParticipant
 )
-{
-mIsComposedDocParticipant
-=
-aIsComposedDocParticipant
 ;
-}
 nsresult
 GetEventTargetParent
 (
