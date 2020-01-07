@@ -585,6 +585,11 @@ WrapCallback
 nsIAndroidEventCallback
 *
 aCallback
+nsIAndroidEventFinalizer
+*
+aFinalizer
+=
+nullptr
 )
 ;
 }
