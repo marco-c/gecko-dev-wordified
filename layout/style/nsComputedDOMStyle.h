@@ -4717,11 +4717,8 @@ affect
 mContent
 )
 .
-mozilla
-:
-:
-FlushTarget
-GetFlushTarget
+bool
+NeedsToFlush
 (
 nsIDocument
 *
