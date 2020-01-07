@@ -13,12 +13,12 @@ class
 -
 fields
 -
-private
+public
 class
 -
 fields
 -
-public
+private
 is
 not
 supported

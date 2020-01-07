@@ -13,7 +13,7 @@ this
 hasOwnProperty
 (
 '
-SharedArrayBuffer
+BigInt
 '
 )
 |
@@ -24,14 +24,14 @@ this
 hasOwnProperty
 (
 '
-BigInt
+SharedArrayBuffer
 '
 )
 )
 -
 -
-SharedArrayBuffer
 BigInt
+SharedArrayBuffer
 is
 not
 enabled

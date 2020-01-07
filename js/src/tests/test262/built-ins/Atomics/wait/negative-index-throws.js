@@ -13,7 +13,7 @@ this
 hasOwnProperty
 (
 '
-SharedArrayBuffer
+Atomics
 '
 )
 |
@@ -24,14 +24,14 @@ this
 hasOwnProperty
 (
 '
-Atomics
+SharedArrayBuffer
 '
 )
 )
 -
 -
-SharedArrayBuffer
 Atomics
+SharedArrayBuffer
 is
 not
 enabled

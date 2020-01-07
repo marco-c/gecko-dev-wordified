@@ -13,7 +13,7 @@ this
 hasOwnProperty
 (
 '
-SharedArrayBuffer
+Atomics
 '
 )
 |
@@ -24,7 +24,7 @@ this
 hasOwnProperty
 (
 '
-Atomics
+SharedArrayBuffer
 '
 )
 |
@@ -35,8 +35,8 @@ shell
 )
 -
 -
-SharedArrayBuffer
 Atomics
+SharedArrayBuffer
 CannotSuspendMainAgent
 is
 not
