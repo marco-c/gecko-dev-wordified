@@ -8776,7 +8776,7 @@ RefPtr
 <
 ComputedStyle
 >
-styleContext
+computedStyle
 =
 nsComputedDOMStyle
 :
@@ -8789,7 +8789,7 @@ nullptr
 ;
 if
 (
-styleContext
+computedStyle
 )
 {
 const
@@ -8797,7 +8797,7 @@ nsStyleDisplay
 *
 display
 =
-styleContext
+computedStyle
 -
 >
 StyleDisplay

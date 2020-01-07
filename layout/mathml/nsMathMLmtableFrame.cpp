@@ -2838,7 +2838,7 @@ PresContext
 ;
 ComputedStyle
 *
-styleContext
+computedStyle
 =
 aFrame
 -
@@ -3048,7 +3048,7 @@ nsMathMLElement
 :
 PARSE_ALLOW_UNITLESS
 presContext
-styleContext
+computedStyle
 aFontSizeInflation
 )
 ;

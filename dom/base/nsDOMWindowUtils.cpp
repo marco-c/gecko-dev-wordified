@@ -13388,7 +13388,7 @@ RefPtr
 <
 ComputedStyle
 >
-styleContext
+computedStyle
 =
 nsComputedDOMStyle
 :
@@ -13408,7 +13408,7 @@ ComputeDistance
 (
 property
 v2
-styleContext
+computedStyle
 )
 ;
 return
@@ -13817,7 +13817,7 @@ RefPtr
 <
 ComputedStyle
 >
-styleContext
+computedStyle
 =
 nsComputedDOMStyle
 :
@@ -13831,7 +13831,7 @@ pseudo
 if
 (
 !
-styleContext
+computedStyle
 )
 {
 return
@@ -13846,12 +13846,7 @@ value
 =
 Servo_ComputedValues_ExtractAnimationValue
 (
-styleContext
--
->
-AsServo
-(
-)
+computedStyle
 propertyID
 )
 .

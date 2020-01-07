@@ -645,7 +645,7 @@ RefPtr
 <
 ComputedStyle
 >
-styleContext
+computedStyle
 =
 GetTargetComputedStyle
 (
@@ -653,12 +653,12 @@ GetTargetComputedStyle
 ;
 if
 (
-styleContext
+computedStyle
 )
 {
 UpdateProperties
 (
-styleContext
+computedStyle
 )
 ;
 }
@@ -876,7 +876,7 @@ RefPtr
 <
 ComputedStyle
 >
-styleContext
+computedStyle
 =
 GetTargetComputedStyle
 (
@@ -884,12 +884,12 @@ GetTargetComputedStyle
 ;
 if
 (
-styleContext
+computedStyle
 )
 {
 UpdateProperties
 (
-styleContext
+computedStyle
 )
 ;
 }

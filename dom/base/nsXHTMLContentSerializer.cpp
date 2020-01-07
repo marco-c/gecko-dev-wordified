@@ -4258,7 +4258,7 @@ RefPtr
 <
 ComputedStyle
 >
-styleContext
+computedStyle
 =
 nsComputedDOMStyle
 :
@@ -4276,7 +4276,7 @@ nullptr
 ;
 if
 (
-styleContext
+computedStyle
 )
 {
 const
@@ -4284,7 +4284,7 @@ nsStyleText
 *
 textStyle
 =
-styleContext
+computedStyle
 -
 >
 StyleText
