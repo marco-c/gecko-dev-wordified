@@ -1075,7 +1075,7 @@ pki
 .
 name_matching_mode
 "
-2
+3
 )
 ;
 #
