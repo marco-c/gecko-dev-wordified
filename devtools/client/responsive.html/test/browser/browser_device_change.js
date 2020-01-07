@@ -232,6 +232,11 @@ ui
 .
 toolWindow
 ;
+reloadOnUAChange
+(
+true
+)
+;
 /
 /
 Wait
@@ -608,6 +613,11 @@ ui
 false
 )
 ;
+reloadOnUAChange
+(
+false
+)
+;
 }
 )
 ;
@@ -646,6 +656,11 @@ store
 ui
 .
 toolWindow
+;
+reloadOnUAChange
+(
+true
+)
 ;
 /
 /
@@ -825,6 +840,11 @@ await
 removeTab
 (
 tab
+)
+;
+reloadOnUAChange
+(
+false
 )
 ;
 }
