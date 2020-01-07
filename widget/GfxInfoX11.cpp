@@ -1875,7 +1875,7 @@ yet
 if
 (
 !
-mDriverInfo
+sDriverInfo
 -
 >
 Length
@@ -1890,7 +1890,7 @@ Length
 }
 return
 *
-mDriverInfo
+sDriverInfo
 ;
 }
 nsresult
@@ -1967,7 +1967,7 @@ os
 ;
 if
 (
-mShutdownOccurred
+sShutdownOccurred
 )
 {
 return

@@ -134,7 +134,7 @@ ruleId
 suggestedVersion
 )
 \
-mDriverInfo
+sDriverInfo
 -
 >
 AppendElement
@@ -166,7 +166,7 @@ driverVersion
 ruleId
 )
 \
-mDriverInfo
+sDriverInfo
 -
 >
 AppendElement
@@ -247,7 +247,7 @@ mDriverVersionMax
 driverVersionMax
 ;
 \
-mDriverInfo
+sDriverInfo
 -
 >
 AppendElement
@@ -327,7 +327,7 @@ mDriverVersionMax
 driverVersionMax
 ;
 \
-mDriverInfo
+sDriverInfo
 -
 >
 AppendElement
@@ -761,7 +761,7 @@ id
 static
 GfxDeviceFamily
 *
-mDeviceFamilies
+sDeviceFamilies
 [
 DeviceFamilyMax
 ]
@@ -779,7 +779,7 @@ id
 static
 nsAString
 *
-mDeviceVendors
+sDeviceVendors
 [
 DeviceVendorMax
 ]

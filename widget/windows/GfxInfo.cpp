@@ -6533,7 +6533,7 @@ GetGfxDriverInfo
 if
 (
 !
-mDriverInfo
+sDriverInfo
 -
 >
 Length
@@ -10691,7 +10691,7 @@ FEATURE_UNQUALIFIED_WEBRENDER_NVIDIA_8_1
 }
 return
 *
-mDriverInfo
+sDriverInfo
 ;
 }
 nsresult
@@ -10768,7 +10768,7 @@ os
 ;
 if
 (
-mShutdownOccurred
+sShutdownOccured
 )
 {
 return
