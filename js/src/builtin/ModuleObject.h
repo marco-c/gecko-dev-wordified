@@ -1158,7 +1158,6 @@ ModuleSlot
 ScriptSlot
 =
 0
-InitialEnvironmentSlot
 EnvironmentSlot
 NamespaceSlot
 StatusSlot
@@ -1488,16 +1487,6 @@ JS
 Value
 &
 value
-)
-;
-/
-/
-For
-intrinsic_CreateModuleEnvironment
-.
-void
-createEnvironment
-(
 )
 ;
 /
