@@ -3265,6 +3265,9 @@ mDestroyCalled
 bool
 mOpeningAnimationSuppressed
 ;
+bool
+mDelayedFocus
+;
 uint32_t
 mBlurSuppressLevel
 ;
