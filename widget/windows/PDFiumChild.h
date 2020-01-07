@@ -122,6 +122,14 @@ final
 :
 public
 PPDFiumChild
+public
+mozilla
+:
+:
+ipc
+:
+:
+IShmemAllocator
 {
 public
 :
@@ -154,6 +162,10 @@ Channel
 aChannel
 )
 ;
+FORWARD_SHMEM_ALLOCATOR_TO
+(
+PPDFiumChild
+)
 private
 :
 /
