@@ -560,7 +560,7 @@ appInfo
 .
 QueryInterface
 =
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -125,6 +125,16 @@ chrome
 )
 ;
 const
+ChromeUtils
+=
+require
+(
+"
+ChromeUtils
+"
+)
+;
+const
 Services
 =
 require
@@ -893,7 +903,7 @@ prototype
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1805,7 +1815,7 @@ prototype
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -12567,7 +12577,7 @@ _webProgress
 null
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

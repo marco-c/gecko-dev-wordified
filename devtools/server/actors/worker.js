@@ -74,6 +74,16 @@ chrome
 )
 ;
 const
+ChromeUtils
+=
+require
+(
+"
+ChromeUtils
+"
+)
+;
+const
 {
 DebuggerServer
 }
@@ -2156,7 +2166,7 @@ scope
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
