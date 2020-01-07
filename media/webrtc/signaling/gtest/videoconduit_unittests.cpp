@@ -476,9 +476,15 @@ VideoConduitTest
 (
 )
 override
-=
-default
+{
+mVideoConduit
+-
+>
+DeleteStreams
+(
+)
 ;
+}
 MediaConduitErrorCode
 SendVideoFrame
 (
