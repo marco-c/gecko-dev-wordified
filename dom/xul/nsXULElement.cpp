@@ -14957,7 +14957,6 @@ nsLayoutUtils
 :
 ShouldUseStylo
 (
-aDocumentURI
 principal
 )
 )
