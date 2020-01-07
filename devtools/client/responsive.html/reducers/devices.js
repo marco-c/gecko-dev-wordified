@@ -116,7 +116,7 @@ listState
 :
 Types
 .
-loadableState
+deviceListState
 .
 INITIALIZED
 }
@@ -289,7 +289,7 @@ listState
 :
 Types
 .
-loadableState
+deviceListState
 .
 LOADING
 }
@@ -317,7 +317,7 @@ listState
 :
 Types
 .
-loadableState
+deviceListState
 .
 ERROR
 }
@@ -345,7 +345,7 @@ listState
 :
 Types
 .
-loadableState
+deviceListState
 .
 LOADED
 }

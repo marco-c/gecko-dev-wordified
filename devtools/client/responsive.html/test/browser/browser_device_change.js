@@ -232,11 +232,6 @@ ui
 .
 toolWindow
 ;
-reloadOnUAChange
-(
-true
-)
-;
 /
 /
 Wait
@@ -279,7 +274,7 @@ listState
 =
 Types
 .
-loadableState
+deviceListState
 .
 LOADED
 )
@@ -613,11 +608,6 @@ ui
 false
 )
 ;
-reloadOnUAChange
-(
-false
-)
-;
 }
 )
 ;
@@ -656,11 +646,6 @@ store
 ui
 .
 toolWindow
-;
-reloadOnUAChange
-(
-true
-)
 ;
 /
 /
@@ -704,7 +689,7 @@ listState
 =
 Types
 .
-loadableState
+deviceListState
 .
 LOADED
 )
@@ -840,11 +825,6 @@ await
 removeTab
 (
 tab
-)
-;
-reloadOnUAChange
-(
-false
 )
 ;
 }

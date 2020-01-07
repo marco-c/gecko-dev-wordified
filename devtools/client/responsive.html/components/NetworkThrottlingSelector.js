@@ -328,9 +328,6 @@ let
 selectClass
 =
 "
-toolbar
--
-dropdown
 "
 ;
 let

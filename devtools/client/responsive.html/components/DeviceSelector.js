@@ -437,9 +437,6 @@ viewport
 device
 -
 selector
-toolbar
--
-dropdown
 "
 ;
 if
@@ -472,7 +469,7 @@ state
 =
 Types
 .
-loadableState
+deviceListState
 .
 LOADED
 )
@@ -578,7 +575,7 @@ state
 =
 Types
 .
-loadableState
+deviceListState
 .
 LOADING
 |
@@ -588,7 +585,7 @@ state
 =
 Types
 .
-loadableState
+deviceListState
 .
 INITIALIZED
 )
@@ -633,7 +630,7 @@ state
 =
 Types
 .
-loadableState
+deviceListState
 .
 ERROR
 )
@@ -699,7 +696,7 @@ state
 =
 Types
 .
-loadableState
+deviceListState
 .
 LOADED
 )

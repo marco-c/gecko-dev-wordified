@@ -188,11 +188,6 @@ manager
 }
 )
 {
-reloadOnTouchChange
-(
-true
-)
-;
 await
 waitStartup
 (
@@ -237,11 +232,6 @@ await
 testDisableTouchSimulation
 (
 ui
-)
-;
-reloadOnTouchChange
-(
-false
 )
 ;
 }
@@ -305,7 +295,7 @@ listState
 =
 Types
 .
-loadableState
+deviceListState
 .
 LOADED
 )
