@@ -3240,6 +3240,11 @@ link
 SetFocusInner
 (
 newFocus
+-
+>
+AsElement
+(
+)
 aFlags
 aType
 !
@@ -7314,7 +7319,7 @@ nsFocusManager
 :
 SetFocusInner
 (
-nsIContent
+Element
 *
 aNewContent
 int32_t
