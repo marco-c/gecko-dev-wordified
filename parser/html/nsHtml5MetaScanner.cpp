@@ -838,6 +838,8 @@ continue
 dataloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 TAG_OPEN
@@ -1041,6 +1043,8 @@ stateloop
 }
 tagopenloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -1265,6 +1269,8 @@ continue
 }
 tagnameloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -1502,6 +1508,8 @@ beforeattributenameloop
 }
 beforeattributenameloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -1784,6 +1792,8 @@ continue
 attributenameloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 BEFORE_ATTRIBUTE_VALUE
@@ -1941,6 +1951,8 @@ stateloop
 beforeattributevalueloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 ATTRIBUTE_VALUE_DOUBLE_QUOTED
@@ -2026,6 +2038,8 @@ continue
 }
 attributevaluedoublequotedloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -2171,6 +2185,8 @@ stateloop
 }
 afterattributevaluequotedloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -2667,6 +2683,8 @@ stateloop
 markupdeclarationopenloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 MARKUP_DECLARATION_HYPHEN
@@ -2743,6 +2761,8 @@ stateloop
 }
 markupdeclarationhyphenloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -2836,6 +2856,8 @@ commentstartloop
 commentstartloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 COMMENT
@@ -2898,6 +2920,8 @@ continue
 }
 commentloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -2971,6 +2995,8 @@ stateloop
 }
 commentenddashloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case

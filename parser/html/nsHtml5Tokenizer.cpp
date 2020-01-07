@@ -2922,6 +2922,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -2933,6 +2935,8 @@ continue
 }
 dataloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -3355,6 +3359,8 @@ stateloop
 tagopenloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 TAG_NAME
@@ -3442,6 +3448,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -3574,6 +3582,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -3630,6 +3640,8 @@ continue
 }
 tagnameloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -3711,6 +3723,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -3812,6 +3826,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 '
@@ -3850,6 +3866,8 @@ c
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -3917,6 +3935,8 @@ beforeattributenameloop
 }
 beforeattributenameloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -4005,6 +4025,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -4177,6 +4199,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 '
@@ -4210,6 +4234,8 @@ c
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -4250,6 +4276,8 @@ continue
 }
 attributenameloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -4318,6 +4346,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -4522,6 +4552,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 '
@@ -4552,6 +4584,8 @@ c
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -4595,6 +4629,8 @@ stateloop
 }
 beforeattributevalueloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -4784,6 +4820,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -4800,6 +4838,8 @@ continue
 }
 attributevaluedoublequotedloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -4884,6 +4924,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -5039,6 +5081,8 @@ stateloop
 }
 afterattributevaluequotedloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -5258,6 +5302,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 '
@@ -5416,6 +5462,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 '
@@ -5458,6 +5506,8 @@ c
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -5539,6 +5589,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -5676,6 +5728,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 '
@@ -5709,6 +5763,8 @@ c
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -5948,6 +6004,8 @@ stateloop
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -5999,6 +6057,8 @@ stateloop
 }
 markupdeclarationopenloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -6131,6 +6191,8 @@ stateloop
 }
 markupdeclarationhyphenloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -6329,6 +6391,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -6364,6 +6428,8 @@ commentstartloop
 }
 commentstartloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -6480,6 +6546,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -6496,6 +6564,8 @@ continue
 }
 commentloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -6647,6 +6717,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -6682,6 +6754,8 @@ stateloop
 }
 commentenddashloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -6894,6 +6968,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -7075,6 +7151,8 @@ case
 c
 =
 0xfffd
+;
+MOZ_FALLTHROUGH
 ;
 }
 default
@@ -7300,6 +7378,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -7476,6 +7556,8 @@ break
 ;
 }
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 CDATA_SECTION
@@ -7609,6 +7691,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -7620,6 +7704,8 @@ continue
 }
 cdatasectionloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -7739,6 +7825,8 @@ stateloop
 }
 cdatarsqb_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -8072,6 +8160,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -8088,6 +8178,8 @@ continue
 }
 attributevaluesinglequotedloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -8434,6 +8526,8 @@ pos
 ;
 }
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 CHARACTER_REFERENCE_HILO_LOOKUP
@@ -8634,6 +8728,8 @@ pos
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 CHARACTER_REFERENCE_TAIL
@@ -9520,6 +9616,8 @@ pos
 ;
 }
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 DECIMAL_NRC_LOOP
@@ -9875,6 +9973,8 @@ decimalloop
 }
 decimalloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -10449,6 +10549,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -10662,6 +10764,8 @@ case
 c
 =
 0xfffd
+;
+MOZ_FALLTHROUGH
 ;
 }
 default
@@ -10999,6 +11103,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -11145,6 +11251,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -11156,6 +11264,8 @@ continue
 }
 rawtextloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -11280,6 +11390,8 @@ stateloop
 }
 rawtextrcdatalessthansignloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -11488,6 +11600,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -11838,6 +11952,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -11854,6 +11970,8 @@ continue
 }
 boguscommentloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -12023,6 +12141,8 @@ case
 c
 =
 0xfffd
+;
+MOZ_FALLTHROUGH
 ;
 }
 default
@@ -12194,6 +12314,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -12205,6 +12327,8 @@ continue
 }
 scriptdataloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -12378,6 +12502,8 @@ stateloop
 scriptdatalessthansignloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 SCRIPT_DATA_ESCAPE_START
@@ -12480,6 +12606,8 @@ stateloop
 scriptdataescapestartloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 SCRIPT_DATA_ESCAPE_START_DASH
@@ -12581,6 +12709,8 @@ stateloop
 }
 scriptdataescapestartdashloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -12774,6 +12904,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -12804,6 +12936,8 @@ scriptdataescapeddashdashloop
 }
 scriptdataescapeddashdashloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -12966,6 +13100,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -12977,6 +13113,8 @@ continue
 }
 scriptdataescapedloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -13161,6 +13299,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -13191,6 +13331,8 @@ stateloop
 }
 scriptdataescapeddashloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -13380,6 +13522,8 @@ stateloop
 scriptdataescapedlessthanloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 SCRIPT_DATA_DOUBLE_ESCAPE_START
@@ -13556,6 +13700,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 '
@@ -13639,6 +13785,8 @@ stateloop
 }
 scriptdatadoubleescapestartloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -13795,6 +13943,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -13806,6 +13956,8 @@ continue
 }
 scriptdatadoubleescapedloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -13984,6 +14136,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -14014,6 +14168,8 @@ stateloop
 }
 scriptdatadoubleescapeddashloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -14201,6 +14357,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -14231,6 +14389,8 @@ stateloop
 }
 scriptdatadoubleescapeddashdashloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -14337,6 +14497,8 @@ stateloop
 }
 scriptdatadoubleescapedlessthanloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -14506,6 +14668,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -14759,6 +14923,8 @@ markupdeclarationdoctypeloop
 markupdeclarationdoctypeloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 DOCTYPE
@@ -14860,6 +15026,8 @@ silentLineFeed
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 '
@@ -14947,6 +15115,8 @@ doctypeloop
 doctypeloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 BEFORE_DOCTYPE_NAME
@@ -15027,6 +15197,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -15110,6 +15282,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -15173,6 +15347,8 @@ beforedoctypenameloop
 }
 beforedoctypenameloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -15261,6 +15437,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -15354,6 +15532,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -15394,6 +15574,8 @@ continue
 }
 doctypenameloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -15462,6 +15644,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -15625,6 +15809,8 @@ stateloop
 afterdoctypenameloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 DOCTYPE_UBLIC
@@ -15779,6 +15965,8 @@ doctypeublicloop
 doctypeublicloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 AFTER_DOCTYPE_PUBLIC_KEYWORD
@@ -15875,6 +16063,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -16092,6 +16282,8 @@ stateloop
 afterdoctypepublickeywordloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 BEFORE_DOCTYPE_PUBLIC_IDENTIFIER
@@ -16159,6 +16351,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -16330,6 +16524,8 @@ stateloop
 }
 beforedoctypepublicidentifierloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -16504,6 +16700,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -16520,6 +16718,8 @@ continue
 }
 doctypepublicidentifierdoublequotedloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -16604,6 +16804,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -16804,6 +17006,8 @@ stateloop
 afterdoctypepublicidentifierloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 BETWEEN_DOCTYPE_PUBLIC_AND_SYSTEM_IDENTIFIERS
@@ -16871,6 +17075,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -17025,6 +17231,8 @@ stateloop
 }
 betweendoctypepublicandsystemidentifiersloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -17199,6 +17407,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -17280,6 +17490,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -17368,6 +17580,8 @@ afterdoctypesystemidentifierloop
 }
 afterdoctypesystemidentifierloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -17482,6 +17696,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 default
@@ -17649,6 +17865,8 @@ doctypeystemloop
 doctypeystemloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 AFTER_DOCTYPE_SYSTEM_KEYWORD
@@ -17745,6 +17963,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -17962,6 +18182,8 @@ stateloop
 afterdoctypesystemkeywordloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 BEFORE_DOCTYPE_SYSTEM_IDENTIFIER
@@ -18029,6 +18251,8 @@ n
 silentLineFeed
 (
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -18200,6 +18424,8 @@ stateloop
 }
 beforedoctypesystemidentifierloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -18373,6 +18599,8 @@ case
 c
 =
 0xfffd
+;
+MOZ_FALLTHROUGH
 ;
 }
 default
@@ -18561,6 +18789,8 @@ c
 =
 0xfffd
 ;
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -18654,6 +18884,8 @@ continue
 }
 processinginstructionloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
