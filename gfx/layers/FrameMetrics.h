@@ -300,6 +300,17 @@ h
 /
 for
 nsStyleCoord
+#
+include
+"
+PLDHashTable
+.
+h
+"
+/
+/
+for
+PLDHashNumber
 namespace
 IPC
 {
