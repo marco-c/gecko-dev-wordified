@@ -5484,18 +5484,6 @@ reftest
 '
                             
 '
-reftest
--
-fonts
-'
-:
-'
-reftest
--
-fonts
-'
-                            
-'
 crashtest
 '
 :
