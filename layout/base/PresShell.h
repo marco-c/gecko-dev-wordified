@@ -1372,12 +1372,6 @@ aDontRetargetEvents
 nsEventStatus
 *
 aEventStatus
-nsIContent
-*
-*
-aTargetContent
-=
-nullptr
 )
 override
 ;

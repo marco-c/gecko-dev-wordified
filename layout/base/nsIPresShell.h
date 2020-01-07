@@ -9174,12 +9174,6 @@ aDontRetargetEvents
 nsEventStatus
 *
 aEventStatus
-nsIContent
-*
-*
-aTargetContent
-=
-nullptr
 )
 =
 0
