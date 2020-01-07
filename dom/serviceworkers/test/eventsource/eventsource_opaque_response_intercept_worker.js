@@ -19,11 +19,9 @@ tests
 /
 dom
 /
-workers
+serviceworkers
 /
 test
-/
-serviceworkers
 /
 eventsource
 /
@@ -84,11 +82,9 @@ tests
 /
 dom
 /
-workers
+serviceworkers
 /
 test
-/
-serviceworkers
 /
 eventsource
 /

@@ -34,11 +34,9 @@ tests
 /
 dom
 /
-workers
+serviceworkers
 /
 test
-/
-serviceworkers
 /
 '
 self

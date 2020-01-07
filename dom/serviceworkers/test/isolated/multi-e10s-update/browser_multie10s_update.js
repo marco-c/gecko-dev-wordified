@@ -58,11 +58,9 @@ browser
 /
 dom
 /
-workers
+serviceworkers
 /
 test
-/
-serviceworkers
 /
 isolated
 /
