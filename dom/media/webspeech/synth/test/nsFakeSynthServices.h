@@ -190,6 +190,8 @@ NS_DECL_NSIOBSERVER
 nsFakeSynthServices
 (
 )
+=
+default
 ;
 static
 nsFakeSynthServices
@@ -220,6 +222,8 @@ virtual
 nsFakeSynthServices
 (
 )
+=
+default
 ;
 void
 Init
@@ -230,13 +234,7 @@ nsCOMPtr
 <
 nsISpeechService
 >
-mDirectService
-;
-nsCOMPtr
-<
-nsISpeechService
->
-mIndirectService
+mSynthService
 ;
 static
 StaticRefPtr

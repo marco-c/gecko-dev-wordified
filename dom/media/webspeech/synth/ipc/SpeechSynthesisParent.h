@@ -392,6 +392,7 @@ nsAString
 &
 aUri
 )
+override
 ;
 nsresult
 DispatchEndImpl
@@ -401,6 +402,7 @@ aElapsedTime
 uint32_t
 aCharIndex
 )
+override
 ;
 nsresult
 DispatchPauseImpl
@@ -410,6 +412,7 @@ aElapsedTime
 uint32_t
 aCharIndex
 )
+override
 ;
 nsresult
 DispatchResumeImpl
@@ -419,6 +422,7 @@ aElapsedTime
 uint32_t
 aCharIndex
 )
+override
 ;
 nsresult
 DispatchErrorImpl
@@ -428,6 +432,7 @@ aElapsedTime
 uint32_t
 aCharIndex
 )
+override
 ;
 nsresult
 DispatchBoundaryImpl
@@ -445,6 +450,7 @@ aCharLength
 uint8_t
 argc
 )
+override
 ;
 nsresult
 DispatchMarkImpl
@@ -458,6 +464,7 @@ aElapsedTime
 uint32_t
 aCharIndex
 )
+override
 ;
 private
 :
