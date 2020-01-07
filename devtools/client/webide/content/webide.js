@@ -222,8 +222,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -1167,7 +1165,6 @@ appManagerUpdate
 :
 function
 (
-event
 what
 details
 )

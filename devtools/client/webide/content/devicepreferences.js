@@ -365,7 +365,6 @@ openProject
 function
 OnAppManagerUpdate
 (
-event
 what
 )
 {

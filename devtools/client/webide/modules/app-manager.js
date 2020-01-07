@@ -128,8 +128,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -4518,7 +4516,6 @@ update
 function
 onUpdate
 (
-event
 what
 )
 {
