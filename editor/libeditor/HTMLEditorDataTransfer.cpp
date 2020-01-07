@@ -10191,7 +10191,7 @@ quotation
 .
 *
 /
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
@@ -11290,7 +11290,7 @@ original
 line
 wrapping
 .
-NS_IMETHODIMP
+nsresult
 HTMLEditor
 :
 :
