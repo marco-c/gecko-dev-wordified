@@ -1342,6 +1342,12 @@ GetPermitSubpixelAA
 )
 )
 ;
+glyphOptions
+.
+flags
+=
+0
+;
 mManager
 -
 >
