@@ -18466,6 +18466,14 @@ nsIChannel
 aChannel
 )
 ;
+static
+bool
+IsNonSubresourceInternalPolicyType
+(
+nsContentPolicyType
+aType
+)
+;
 /
 /
 The
