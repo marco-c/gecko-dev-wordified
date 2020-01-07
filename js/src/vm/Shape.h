@@ -7506,6 +7506,12 @@ out
 const
 ;
 void
+dump
+(
+)
+const
+;
+void
 dumpSubtree
 (
 int
