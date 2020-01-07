@@ -769,13 +769,6 @@ h
 #
 include
 "
-nsIDOMCustomEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 EventDispatcher
