@@ -308,7 +308,10 @@ event
 void
 ProcessDOMEvent
 (
-nsIDOMEvent
+dom
+:
+:
+Event
 *
 aEvent
 )
@@ -370,7 +373,10 @@ MOZ_XUL
 void
 HandleTreeRowCountChangedEvent
 (
-nsIDOMEvent
+dom
+:
+:
+Event
 *
 aEvent
 XULTreeAccessible
@@ -381,7 +387,10 @@ aAccessible
 void
 HandleTreeInvalidatedEvent
 (
-nsIDOMEvent
+dom
+:
+:
+Event
 *
 aEvent
 XULTreeAccessible
