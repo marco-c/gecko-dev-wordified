@@ -5431,6 +5431,10 @@ isMarkingTracer
 thing
 -
 >
+asTenured
+(
+)
+.
 markIfUnmarked
 (
 gc
