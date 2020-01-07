@@ -70,7 +70,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -99,7 +99,7 @@ actionTypes
 at
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -127,7 +127,7 @@ const
 TippyTopProvider
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -156,7 +156,7 @@ insertPinned
 TOP_SITES_SHOWMORE_LENGTH
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -184,7 +184,7 @@ const
 Dedupe
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -212,7 +212,7 @@ const
 shortURL
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -235,9 +235,9 @@ jsm
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -260,9 +260,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -285,9 +285,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -308,9 +308,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -333,9 +333,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -2190,7 +2190,6 @@ _broadcastPinnedSitesUpdated
 )
 ;
 }
-async
 onAction
 (
 action

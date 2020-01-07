@@ -4631,7 +4631,9 @@ dispatch
 )
 ;
 let
+[
 action
+]
 =
 instance
 .
@@ -4642,9 +4644,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -4811,7 +4810,9 @@ store
 dispatch
 )
 ;
+[
 action
+]
 =
 instance
 .
@@ -4822,9 +4823,6 @@ dispatch
 secondCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -5236,7 +5234,9 @@ dispatch
 )
 ;
 let
+[
 action
+]
 =
 instance
 .
@@ -5247,9 +5247,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -7381,7 +7378,9 @@ fromTarget
 )
 ;
 let
+[
 action
+]
 =
 instance
 .
@@ -7392,9 +7391,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -7502,7 +7498,9 @@ fromTarget
 }
 )
 ;
+[
 action
+]
 =
 instance
 .
@@ -7513,9 +7511,6 @@ dispatch
 secondCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -7640,7 +7635,9 @@ fromTarget
 }
 )
 ;
+[
 action
+]
 =
 instance
 .
@@ -7651,9 +7648,6 @@ dispatch
 thirdCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -7789,7 +7783,9 @@ fromTarget
 }
 )
 ;
+[
 action
+]
 =
 instance
 .
@@ -7800,9 +7796,6 @@ dispatch
 lastCall
 .
 args
-[
-0
-]
 ;
 assert
 .
@@ -8774,7 +8767,9 @@ dispatch
 )
 ;
 let
+[
 action
+]
 =
 instance
 .
@@ -8785,9 +8780,6 @@ dispatch
 firstCall
 .
 args
-[
-0
-]
 ;
 assert
 .

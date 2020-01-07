@@ -269,6 +269,13 @@ classes
 interfaces
 :
 {
+nsIHttpChannel
+:
+{
+REFERRER_POLICY_UNSAFE_URL
+:
+5
+}
 }
 utils
 :

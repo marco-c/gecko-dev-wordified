@@ -76,7 +76,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -102,7 +102,7 @@ actionTypes
 at
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -130,7 +130,7 @@ const
 shortURL
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -158,7 +158,7 @@ const
 SectionsManager
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -186,7 +186,7 @@ const
 TOP_SITES_SHOWMORE_LENGTH
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -214,7 +214,7 @@ const
 Dedupe
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -237,9 +237,9 @@ jsm
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -262,9 +262,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -287,9 +287,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -310,9 +310,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -335,9 +335,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -1219,7 +1219,6 @@ screenshot
 .
 *
 /
-async
 fetchImage
 (
 page

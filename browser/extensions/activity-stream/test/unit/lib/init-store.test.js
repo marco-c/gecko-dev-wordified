@@ -210,7 +210,9 @@ INCOMING_MESSAGE_NAME
 )
 ;
 const
+[
 listener
+]
 =
 global
 .
@@ -219,9 +221,6 @@ addMessageListener
 firstCall
 .
 args
-[
-1
-]
 ;
 globals
 .
@@ -398,7 +397,9 @@ messages
 >
 {
 const
+[
 callback
+]
 =
 global
 .
@@ -407,9 +408,6 @@ addMessageListener
 firstCall
 .
 args
-[
-1
-]
 ;
 globals
 .

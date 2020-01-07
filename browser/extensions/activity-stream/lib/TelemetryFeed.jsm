@@ -79,7 +79,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -98,7 +98,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -127,7 +127,7 @@ actionUtils
 au
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -155,7 +155,7 @@ const
 Prefs
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -178,9 +178,9 @@ jsm
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -203,9 +203,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -2271,7 +2271,6 @@ perf
 )
 ;
 }
-async
 sendEvent
 (
 event_object
