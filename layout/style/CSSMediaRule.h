@@ -131,13 +131,6 @@ GroupRule
 .
 h
 "
-#
-include
-"
-nsIDOMCSSGroupingRule
-.
-h
-"
 namespace
 mozilla
 {
@@ -152,8 +145,6 @@ css
 :
 :
 ConditionRule
-public
-nsIDOMCSSGroupingRule
 {
 protected
 :
@@ -172,7 +163,6 @@ CSSMediaRule
 }
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 int32_t
 GetType
 (
@@ -200,11 +190,6 @@ Rule
 :
 GetType
 ;
-/
-/
-nsIDOMCSSGroupingRule
-interface
-NS_DECL_NSIDOMCSSGROUPINGRULE
 /
 /
 WebIDL
