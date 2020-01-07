@@ -57,14 +57,13 @@ MPL
 "
 "
 Transform
-beetmover
--
 release
+-
+beetmover
 -
 source
 -
 checksums
-task
 into
 an
 actual
