@@ -151,7 +151,7 @@ sys
 .
 exit
 (
-pip9
+pip
 .
 main
 (
