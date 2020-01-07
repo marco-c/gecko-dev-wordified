@@ -3088,6 +3088,16 @@ chars
 cx
 )
 ;
+MOZ_ALWAYS_TRUE
+(
+chars
+.
+resize
+(
+INITIAL_CHAR_BUFFER_SIZE
+)
+)
+;
 int32_t
 size
 =
