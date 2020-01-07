@@ -1718,6 +1718,12 @@ defined
 (
 XP_LINUX
 )
+#
+if
+defined
+(
+MOZ_CONTENT_SANDBOX
+)
 /
 /
 Get
@@ -1776,6 +1782,8 @@ mTmpDirName
 ;
 }
 }
+#
+endif
 #
 endif
 }
