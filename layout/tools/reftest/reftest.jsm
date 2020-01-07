@@ -1331,7 +1331,7 @@ logLevel
 =
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 reftest
@@ -1970,7 +1970,7 @@ logFile
 =
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 reftest
@@ -2133,7 +2133,7 @@ focusFilterMode
 =
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 reftest
@@ -2809,7 +2809,7 @@ manifests
 =
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 reftest
@@ -2824,7 +2824,7 @@ dumpTests
 =
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 reftest
@@ -2841,7 +2841,7 @@ testList
 =
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 reftest
@@ -4098,7 +4098,7 @@ suite
 =
 prefs
 .
-getCharPref
+getStringPref
 (
 '
 reftest
@@ -5296,7 +5296,7 @@ oldVal
 =
 prefs
 .
-getCharPref
+getStringPref
 (
 ps
 .
@@ -5474,7 +5474,7 @@ PREF_STRING
 {
 prefs
 .
-setCharPref
+setStringPref
 (
 ps
 .
@@ -10655,7 +10655,7 @@ PREF_STRING
 {
 prefs
 .
-setCharPref
+setStringPref
 (
 ps
 .
