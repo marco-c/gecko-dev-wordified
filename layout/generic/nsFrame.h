@@ -5475,12 +5475,7 @@ mozilla
 SizeComputationInput
 *
 aState
-const
-mozilla
-:
-:
-LogicalSize
-&
+nscoord
 aPercentBasis
 mozilla
 :
