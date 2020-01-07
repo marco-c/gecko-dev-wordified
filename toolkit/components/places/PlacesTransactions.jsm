@@ -7290,6 +7290,9 @@ defineInputProps
 "
 title
 "
+"
+postData
+"
 ]
 DefineTransaction
 .
@@ -7307,9 +7310,6 @@ keyword
 "
 "
 oldKeyword
-"
-"
-postData
 "
 "
 tag
