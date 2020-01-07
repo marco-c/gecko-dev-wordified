@@ -402,7 +402,6 @@ MBox
 *
 box
 )
-override
 ;
 void
 visitUnbox
@@ -411,7 +410,6 @@ MUnbox
 *
 unbox
 )
-override
 ;
 void
 visitReturn
@@ -420,7 +418,6 @@ MReturn
 *
 ret
 )
-override
 ;
 void
 visitCompareExchangeTypedArrayElement
@@ -429,7 +426,6 @@ MCompareExchangeTypedArrayElement
 *
 ins
 )
-override
 ;
 void
 visitAtomicExchangeTypedArrayElement
@@ -438,7 +434,6 @@ MAtomicExchangeTypedArrayElement
 *
 ins
 )
-override
 ;
 void
 visitAtomicTypedArrayElementBinop
@@ -447,7 +442,6 @@ MAtomicTypedArrayElementBinop
 *
 ins
 )
-override
 ;
 void
 visitWasmUnsignedToDouble
@@ -456,7 +450,6 @@ MWasmUnsignedToDouble
 *
 ins
 )
-override
 ;
 void
 visitWasmUnsignedToFloat32
@@ -465,7 +458,6 @@ MWasmUnsignedToFloat32
 *
 ins
 )
-override
 ;
 void
 visitAsmJSLoadHeap
@@ -474,7 +466,6 @@ MAsmJSLoadHeap
 *
 ins
 )
-override
 ;
 void
 visitAsmJSStoreHeap
@@ -483,7 +474,6 @@ MAsmJSStoreHeap
 *
 ins
 )
-override
 ;
 void
 visitWasmCompareExchangeHeap
@@ -492,7 +482,6 @@ MWasmCompareExchangeHeap
 *
 ins
 )
-override
 ;
 void
 visitWasmAtomicExchangeHeap
@@ -501,7 +490,6 @@ MWasmAtomicExchangeHeap
 *
 ins
 )
-override
 ;
 void
 visitWasmAtomicBinopHeap
@@ -510,7 +498,6 @@ MWasmAtomicBinopHeap
 *
 ins
 )
-override
 ;
 void
 visitWasmLoad
@@ -519,7 +506,6 @@ MWasmLoad
 *
 ins
 )
-override
 ;
 void
 visitWasmStore
@@ -528,7 +514,6 @@ MWasmStore
 *
 ins
 )
-override
 ;
 void
 visitStoreTypedArrayElementStatic
@@ -537,7 +522,6 @@ MStoreTypedArrayElementStatic
 *
 ins
 )
-override
 ;
 void
 visitSubstr
@@ -546,7 +530,6 @@ MSubstr
 *
 ins
 )
-override
 ;
 void
 visitRandom
@@ -555,7 +538,6 @@ MRandom
 *
 ins
 )
-override
 ;
 void
 visitWasmTruncateToInt64
@@ -564,7 +546,6 @@ MWasmTruncateToInt64
 *
 ins
 )
-override
 ;
 void
 visitInt64ToFloatingPoint
@@ -573,7 +554,6 @@ MInt64ToFloatingPoint
 *
 ins
 )
-override
 ;
 void
 visitExtendInt32ToInt64
@@ -582,7 +562,6 @@ MExtendInt32ToInt64
 *
 ins
 )
-override
 ;
 void
 visitSignExtendInt64
@@ -591,7 +570,6 @@ MSignExtendInt64
 *
 ins
 )
-override
 ;
 }
 ;

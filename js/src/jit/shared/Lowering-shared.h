@@ -174,9 +174,6 @@ LOsiPoint
 ;
 class
 LIRGeneratorShared
-:
-public
-MDefinitionVisitor
 {
 protected
 :
@@ -552,6 +549,14 @@ ensureDefined
 MDefinition
 *
 mir
+)
+;
+void
+visitEmittedAtUses
+(
+MInstruction
+*
+ins
 )
 ;
 /
@@ -2313,7 +2318,6 @@ MConstant
 *
 ins
 )
-override
 ;
 void
 visitWasmFloatConstant
@@ -2322,7 +2326,6 @@ MWasmFloatConstant
 *
 ins
 )
-override
 ;
 /
 /
@@ -2443,7 +2446,6 @@ visitSimdInsertElement
 MSimdInsertElement
 *
 )
-override
 {
 MOZ_CRASH
 (
@@ -2459,7 +2461,6 @@ visitSimdExtractElement
 MSimdExtractElement
 *
 )
-override
 {
 MOZ_CRASH
 (
@@ -2475,7 +2476,6 @@ visitSimdBinaryArith
 MSimdBinaryArith
 *
 )
-override
 {
 MOZ_CRASH
 (
@@ -2491,7 +2491,6 @@ visitSimdSelect
 MSimdSelect
 *
 )
-override
 {
 MOZ_CRASH
 (
@@ -2507,7 +2506,6 @@ visitSimdSplat
 MSimdSplat
 *
 )
-override
 {
 MOZ_CRASH
 (
@@ -2523,7 +2521,6 @@ visitSimdValueX4
 MSimdValueX4
 *
 )
-override
 {
 MOZ_CRASH
 (
@@ -2539,7 +2536,6 @@ visitSimdBinarySaturating
 MSimdBinarySaturating
 *
 )
-override
 {
 MOZ_CRASH
 (
@@ -2555,7 +2551,6 @@ visitSimdSwizzle
 MSimdSwizzle
 *
 )
-override
 {
 MOZ_CRASH
 (
@@ -2571,7 +2566,6 @@ visitSimdShuffle
 MSimdShuffle
 *
 )
-override
 {
 MOZ_CRASH
 (
@@ -2587,7 +2581,6 @@ visitSimdGeneralShuffle
 MSimdGeneralShuffle
 *
 )
-override
 {
 MOZ_CRASH
 (
