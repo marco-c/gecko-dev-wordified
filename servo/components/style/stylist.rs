@@ -4818,7 +4818,6 @@ guards
 StylesheetGuards
 element
 :
-&
 E
 pseudo
 :
@@ -5994,7 +5993,6 @@ guards
 StylesheetGuards
 element
 :
-&
 E
 parent_style
 :
@@ -7180,7 +7178,6 @@ F
 self
 element
 :
-&
 E
 pseudo_element
 :
@@ -7423,7 +7420,6 @@ map
 get_all_matching_rules
 (
 element
-&
 rule_hash_target
 applicable_declarations
 context
@@ -7618,7 +7614,6 @@ map
 get_all_matching_rules
 (
 element
-&
 rule_hash_target
 applicable_declarations
 context
@@ -7840,7 +7835,6 @@ map
 get_all_matching_rules
 (
 element
-&
 rule_hash_target
 applicable_declarations
 context
@@ -8049,7 +8043,6 @@ map
 get_all_matching_rules
 (
 element
-&
 rule_hash_target
 applicable_declarations
 &
@@ -8112,7 +8105,6 @@ map
 get_all_matching_rules
 (
 element
-&
 rule_hash_target
 applicable_declarations
 context

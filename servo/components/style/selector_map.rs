@@ -1293,11 +1293,9 @@ F
 self
 element
 :
-&
 E
 rule_hash_target
 :
-&
 E
 matching_rules_list
 :
@@ -1575,7 +1573,6 @@ F
 (
 element
 :
-&
 E
 rules
 :
@@ -1641,6 +1638,7 @@ rule
 .
 hashes
 )
+&
 element
 context
 flags_setter
