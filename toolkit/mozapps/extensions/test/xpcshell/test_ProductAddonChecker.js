@@ -81,7 +81,7 @@ local
 ;
 1
 "
-Ci
+AM_Ci
 .
 nsIFile
 "
@@ -335,7 +335,7 @@ file
 let
 fileStream
 =
-Cc
+AM_Cc
 [
 "
 mozilla
@@ -356,7 +356,7 @@ stream
 .
 createInstance
 (
-Ci
+AM_Ci
 .
 nsIFileInputStream
 )
@@ -387,7 +387,7 @@ PERMS_FILE
 let
 stream
 =
-Cc
+AM_Cc
 [
 "
 mozilla
@@ -402,7 +402,7 @@ binaryinputstream
 .
 createInstance
 (
-Ci
+AM_Ci
 .
 nsIBinaryInputStream
 )

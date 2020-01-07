@@ -39,7 +39,7 @@ globals
 Preferences
 *
 /
-ChromeUtils
+AM_Cu
 .
 import
 (

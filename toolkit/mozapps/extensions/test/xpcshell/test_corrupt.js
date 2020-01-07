@@ -1342,7 +1342,7 @@ gExtensionsJSON
 .
 create
 (
-Ci
+AM_Ci
 .
 nsIFile
 .

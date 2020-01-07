@@ -60,7 +60,7 @@ const
 LightweightThemeManager
 }
 =
-ChromeUtils
+AM_Cu
 .
 import
 (

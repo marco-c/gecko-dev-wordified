@@ -111,7 +111,7 @@ ok
 (
 aSubject
 instanceof
-Ci
+AM_Ci
 .
 nsIFile
 )

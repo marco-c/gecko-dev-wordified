@@ -70,7 +70,7 @@ state
 let
 tags
 =
-Cc
+AM_Cc
 [
 "
 mozilla
@@ -87,7 +87,7 @@ host
 .
 getService
 (
-Ci
+AM_Ci
 .
 nsIPluginHost
 )
@@ -217,7 +217,7 @@ false
 ;
 setTestPluginState
 (
-Ci
+AM_Ci
 .
 nsIPluginTag
 .
@@ -271,7 +271,7 @@ get
 "
 APluginsDL
 "
-Ci
+AM_Ci
 .
 nsISimpleEnumerator
 )
@@ -296,7 +296,7 @@ getNext
 .
 QueryInterface
 (
-Ci
+AM_Ci
 .
 nsIFile
 )
@@ -468,7 +468,7 @@ directoryEntries
 .
 QueryInterface
 (
-Ci
+AM_Ci
 .
 nsIDirectoryEnumerator
 )
@@ -551,7 +551,7 @@ aPluginFile
 .
 QueryInterface
 (
-Ci
+AM_Ci
 .
 nsILocalFileMac
 )

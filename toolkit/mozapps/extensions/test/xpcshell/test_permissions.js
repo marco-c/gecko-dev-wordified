@@ -246,7 +246,7 @@ com
 "
 install
 "
-Ci
+AM_Ci
 .
 nsIPermissionManager
 .
