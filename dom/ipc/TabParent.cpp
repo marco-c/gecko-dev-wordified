@@ -12688,6 +12688,16 @@ already
 been
 handled
 ?
+MOZ_ASSERT
+(
+aEvent
+.
+mMessage
+=
+=
+eKeyPress
+)
+;
 WidgetKeyboardEvent
 localEvent
 (
