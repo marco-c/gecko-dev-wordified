@@ -2478,7 +2478,7 @@ rv
 =
 SerializeNodeEnd
 (
-node
+maybeFixedNode
 aStr
 )
 ;
