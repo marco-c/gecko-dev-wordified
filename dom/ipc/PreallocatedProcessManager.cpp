@@ -1032,6 +1032,15 @@ new
 one
 soon
 .
+ProcessPriorityManager
+:
+:
+SetProcessPriority
+(
+mPreallocatedProcess
+PROCESS_PRIORITY_FOREGROUND
+)
+;
 AllocateOnIdle
 (
 )
