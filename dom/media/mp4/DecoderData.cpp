@@ -365,7 +365,7 @@ TrackInfo
 &
 aConfig
 const
-mp4parse_sinf_info
+Mp4parseSinfInfo
 &
 aSinf
 )
@@ -437,11 +437,11 @@ MP4AudioInfo
 Update
 (
 const
-mp4parse_track_info
+Mp4parseTrackInfo
 *
 track
 const
-mp4parse_track_audio_info
+Mp4parseTrackAudioInfo
 *
 audio
 )
@@ -464,7 +464,7 @@ track
 codec
 =
 =
-mp4parse_codec_OPUS
+MP4PARSE_CODEC_OPUS
 )
 {
 mMimeType
@@ -595,7 +595,7 @@ track
 codec
 =
 =
-mp4parse_codec_AAC
+MP4PARSE_CODEC_AAC
 )
 {
 mMimeType
@@ -621,7 +621,7 @@ track
 codec
 =
 =
-mp4parse_codec_FLAC
+MP4PARSE_CODEC_FLAC
 )
 {
 mMimeType
@@ -645,7 +645,7 @@ track
 codec
 =
 =
-mp4parse_codec_MP3
+MP4PARSE_CODEC_MP3
 )
 {
 mMimeType
@@ -832,11 +832,11 @@ MP4VideoInfo
 Update
 (
 const
-mp4parse_track_info
+Mp4parseTrackInfo
 *
 track
 const
-mp4parse_track_video_info
+Mp4parseTrackVideoInfo
 *
 video
 )
@@ -859,7 +859,7 @@ track
 codec
 =
 =
-mp4parse_codec_AVC
+MP4PARSE_CODEC_AVC
 )
 {
 mMimeType
@@ -883,7 +883,7 @@ track
 codec
 =
 =
-mp4parse_codec_VP9
+MP4PARSE_CODEC_VP9
 )
 {
 mMimeType
@@ -907,7 +907,7 @@ track
 codec
 =
 =
-mp4parse_codec_MP4V
+MP4PARSE_CODEC_MP4V
 )
 {
 mMimeType

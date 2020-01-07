@@ -405,10 +405,10 @@ rust
 MP4MetadataEmpty
 )
 {
-mp4parse_status
+Mp4parseStatus
 rv
 ;
-mp4parse_io
+Mp4parseIo
 io
 ;
 /
@@ -434,7 +434,7 @@ nullptr
 EXPECT_EQ
 (
 rv
-mp4parse_status_BAD_ARG
+MP4PARSE_STATUS_BAD_ARG
 )
 ;
 /
@@ -447,7 +447,7 @@ able
 to
 wrap
 an
-mp4parse_io
+Mp4parseIo
 with
 null
 members
@@ -459,7 +459,7 @@ nullptr
 nullptr
 }
 ;
-mp4parse_parser
+Mp4parseParser
 *
 context
 =
@@ -568,7 +568,7 @@ context
 EXPECT_EQ
 (
 rv
-mp4parse_status_IO
+MP4PARSE_STATUS_IO
 )
 ;
 mp4parse_free
@@ -621,7 +621,7 @@ context
 EXPECT_EQ
 (
 rv
-mp4parse_status_INVALID
+MP4PARSE_STATUS_INVALID
 )
 ;
 mp4parse_free
@@ -662,7 +662,7 @@ context
 EXPECT_EQ
 (
 rv
-mp4parse_status_INVALID
+MP4PARSE_STATUS_INVALID
 )
 ;
 mp4parse_free
@@ -705,7 +705,7 @@ context
 EXPECT_EQ
 (
 rv
-mp4parse_status_UNSUPPORTED
+MP4PARSE_STATUS_UNSUPPORTED
 )
 ;
 mp4parse_free
@@ -812,7 +812,7 @@ fclose
 f
 )
 ;
-mp4parse_io
+Mp4parseIo
 io
 =
 {
@@ -821,7 +821,7 @@ vector_reader
 reader
 }
 ;
-mp4parse_parser
+Mp4parseParser
 *
 context
 =
@@ -837,7 +837,7 @@ nullptr
 context
 )
 ;
-mp4parse_status
+Mp4parseStatus
 rv
 =
 mp4parse_read
@@ -847,7 +847,7 @@ context
 ;
 EXPECT_EQ
 (
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 rv
 )
 ;
@@ -867,7 +867,7 @@ tracks
 ;
 EXPECT_EQ
 (
-mp4parse_status_OK
+MP4PARSE_STATUS_OK
 rv
 )
 ;
