@@ -965,9 +965,6 @@ NativeThreadId
 aThreadId
 )
 {
-#
-ifdef
-MOZ_CRASHREPORTER
 mCrashReporter
 =
 MakeUnique
@@ -983,8 +980,6 @@ aShmem
 aThreadId
 )
 ;
-#
-endif
 return
 IPC_OK
 (
@@ -1515,9 +1510,6 @@ aWhy
 AbnormalShutdown
 )
 {
-#
-ifdef
-MOZ_CRASHREPORTER
 if
 (
 mCrashReporter
@@ -1538,8 +1530,6 @@ mCrashReporter
 nullptr
 ;
 }
-#
-endif
 Telemetry
 :
 :
