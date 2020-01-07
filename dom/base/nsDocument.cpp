@@ -21284,6 +21284,13 @@ mCharacterSet
 =
 aEncoding
 ;
+mEncodingMenuDisabled
+=
+aEncoding
+=
+=
+UTF_8_ENCODING
+;
 if
 (
 nsPresContext
@@ -42424,7 +42431,7 @@ return
 mListenerManager
 ;
 }
-void
+nsresult
 nsDocument
 :
 :
@@ -42558,6 +42565,9 @@ false
 )
 ;
 }
+return
+NS_OK
+;
 }
 already_AddRefed
 <

@@ -7499,7 +7499,7 @@ void
 nsHtml5TreeBuilder
 :
 :
-TryToDisableEncodingMenu
+TryToEnableEncodingMenu
 (
 )
 {
@@ -7555,7 +7555,7 @@ treeOp
 >
 Init
 (
-eTreeOpDisableEncodingMenu
+eTreeOpEnableEncodingMenu
 )
 ;
 }

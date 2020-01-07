@@ -5737,13 +5737,13 @@ errors
 *
 /
 void
-DisableEncodingMenu
+EnableEncodingMenu
 (
 )
 {
 mEncodingMenuDisabled
 =
-true
+false
 ;
 }
 /
