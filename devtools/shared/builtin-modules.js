@@ -265,6 +265,7 @@ ChromeUtils
 CSS
 CSSRule
 FileReader
+FormData
 indexedDB
 InspectorUtils
 TextDecoder
@@ -315,6 +316,9 @@ CSSRule
 "
 "
 FileReader
+"
+"
+FormData
 "
 "
 indexedDB
@@ -1722,6 +1726,7 @@ Element
 Ci
 .
 nsIDOMElement
+FormData
 isWorker
 :
 false
