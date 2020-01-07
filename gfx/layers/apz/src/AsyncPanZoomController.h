@@ -9568,12 +9568,7 @@ CSSPoint
 &
 aPoint
 )
-{
-mTestAsyncScrollOffset
-=
-aPoint
 ;
-}
 /
 *
 *
@@ -9597,12 +9592,7 @@ LayerToParentLayerScale
 &
 aZoom
 )
-{
-mTestAsyncZoom
-=
-aZoom
 ;
-}
 void
 MarkAsyncTransformAppliedToContent
 (
