@@ -1233,12 +1233,6 @@ self
 log
 =
 log
-        
-self
-.
-proc_name
-=
-None
     
 def
 __call__
@@ -1385,26 +1379,18 @@ stack_fixer_function
 line
 )
         
-name
-=
-self
-.
-proc_name
-or
-threading
-.
-current_thread
-(
-)
-.
-name
-        
 self
 .
 log
 .
 process_output
 (
+threading
+.
+current_thread
+(
+)
+.
 name
 line
 )
