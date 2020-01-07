@@ -1186,6 +1186,19 @@ s
 uploadDir
 )
             
+if
+self
+.
+device
+.
+is_dir
+(
+self
+.
+remoteMozLog
+)
+:
+                
 self
 .
 device
@@ -1198,6 +1211,19 @@ remoteMozLog
 uploadDir
 )
             
+if
+self
+.
+device
+.
+is_dir
+(
+self
+.
+remoteScreenshots
+)
+:
+                
 self
 .
 device
