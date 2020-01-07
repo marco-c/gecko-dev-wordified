@@ -2152,8 +2152,10 @@ call
 '
 hdiutil
 detach
+"
 %
 s
+"
 -
 quiet
 '
