@@ -588,7 +588,7 @@ link
 )
 ;
 const
-navigatedLink
+navigationResponse
 =
 await
 simulateLinkClick
@@ -598,7 +598,9 @@ learnMoreNode
 ;
 is
 (
-navigatedLink
+navigationResponse
+.
+link
 LEARN_MORE_URI
 "
 Click
