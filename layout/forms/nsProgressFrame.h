@@ -461,16 +461,6 @@ ShouldUseNativeStyle
 )
 const
 ;
-virtual
-Element
-*
-GetPseudoElement
-(
-CSSPseudoElementType
-aType
-)
-override
-;
 protected
 :
 /

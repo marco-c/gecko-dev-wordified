@@ -892,16 +892,6 @@ UpdateForValueChange
 (
 )
 ;
-virtual
-Element
-*
-GetPseudoElement
-(
-CSSPseudoElementType
-aType
-)
-override
-;
 private
 :
 nsresult

@@ -889,16 +889,6 @@ HandleSelectCall
 (
 )
 ;
-virtual
-Element
-*
-GetPseudoElement
-(
-CSSPseudoElementType
-aType
-)
-override
-;
 bool
 ShouldUseNativeStyleForSpinner
 (
