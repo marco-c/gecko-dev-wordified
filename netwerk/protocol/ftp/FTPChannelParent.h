@@ -282,6 +282,12 @@ ResumeMessageDiversion
 )
 override
 ;
+nsresult
+CancelDiversion
+(
+)
+override
+;
 /
 /
 Calls
