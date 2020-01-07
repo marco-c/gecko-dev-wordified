@@ -11864,6 +11864,8 @@ nsTableFrame
 :
 IntrinsicISizeOffsets
 (
+nscoord
+aPercentageBasis
 )
 {
 IntrinsicISizeOffsetData
@@ -11874,6 +11876,7 @@ nsContainerFrame
 :
 IntrinsicISizeOffsets
 (
+aPercentageBasis
 )
 ;
 result

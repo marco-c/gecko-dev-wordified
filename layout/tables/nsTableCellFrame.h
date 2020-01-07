@@ -652,10 +652,13 @@ aRenderingContext
 )
 override
 ;
-virtual
 IntrinsicISizeOffsetData
 IntrinsicISizeOffsets
 (
+nscoord
+aPercentageBasis
+=
+NS_UNCONSTRAINEDSIZE
 )
 override
 ;
