@@ -4663,8 +4663,6 @@ align
 return
 DidMakeBasicBlock
 (
-aInfo
-aResult
 )
 ;
 case
@@ -4679,8 +4677,6 @@ rv
 =
 DidMakeBasicBlock
 (
-aInfo
-aResult
 )
 ;
 if
@@ -29068,11 +29064,6 @@ HTMLEditRules
 :
 DidMakeBasicBlock
 (
-RulesInfo
-*
-aInfo
-nsresult
-aResult
 )
 {
 MOZ_ASSERT
