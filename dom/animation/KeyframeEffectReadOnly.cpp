@@ -2314,7 +2314,6 @@ AsServo
 GetBaseContextForElement
 (
 animatingElement
-aPresContext
 aComputedStyle
 )
 ;

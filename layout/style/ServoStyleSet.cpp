@@ -7038,9 +7038,6 @@ GetBaseContextForElement
 Element
 *
 aElement
-nsPresContext
-*
-aPresContext
 const
 ComputedStyle
 *

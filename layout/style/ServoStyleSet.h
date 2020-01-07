@@ -2334,9 +2334,6 @@ dom
 Element
 *
 aElement
-nsPresContext
-*
-aPresContext
 const
 ComputedStyle
 *
