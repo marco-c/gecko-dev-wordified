@@ -286,12 +286,9 @@ nsAString
 &
 aOrigin
 const
-Optional
-<
-nsAString
->
+RTCIdentityProviderOptions
 &
-aUsernameHint
+aOptions
 ErrorResult
 &
 aRv
@@ -322,7 +319,7 @@ Call
 (
 aContents
 aOrigin
-aUsernameHint
+aOptions
 aRv
 )
 ;
