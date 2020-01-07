@@ -118,10 +118,10 @@ context
 /
 #
 ifndef
-jscntxt_h
+vm_JSContext_h
 #
 define
-jscntxt_h
+vm_JSContext_h
 #
 include
 "
@@ -8331,6 +8331,6 @@ endif
 endif
 /
 *
-jscntxt_h
+vm_JSContext_h
 *
 /

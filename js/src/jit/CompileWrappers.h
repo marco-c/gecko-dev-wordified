@@ -117,7 +117,9 @@ jit_CompileWrappers_h
 #
 include
 "
-jscntxt
+vm
+/
+JSContext
 .
 h
 "

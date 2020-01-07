@@ -110,14 +110,16 @@ MPL
 /
 #
 ifndef
-jscntxtinlines_h
+vm_JSContext_inl_h
 #
 define
-jscntxtinlines_h
+vm_JSContext_inl_h
 #
 include
 "
-jscntxt
+vm
+/
+JSContext
 .
 h
 "
@@ -3879,6 +3881,6 @@ caches
 endif
 /
 *
-jscntxtinlines_h
+vm_JSContext_inl_h
 *
 /

@@ -117,7 +117,9 @@ jit_Jit_h
 #
 include
 "
-jscntxt
+vm
+/
+JSContext
 .
 h
 "

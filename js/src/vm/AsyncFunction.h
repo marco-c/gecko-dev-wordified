@@ -117,7 +117,9 @@ vm_AsyncFunction_h
 #
 include
 "
-jscntxt
+vm
+/
+JSContext
 .
 h
 "

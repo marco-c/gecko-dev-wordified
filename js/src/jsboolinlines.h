@@ -124,7 +124,9 @@ h
 #
 include
 "
-jscntxt
+vm
+/
+BooleanObject
 .
 h
 "
@@ -133,7 +135,7 @@ include
 "
 vm
 /
-BooleanObject
+JSContext
 .
 h
 "

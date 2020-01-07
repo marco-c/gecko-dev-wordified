@@ -216,7 +216,9 @@ h
 #
 include
 "
-jscntxt
+vm
+/
+JSCompartment
 .
 h
 "
@@ -225,7 +227,7 @@ include
 "
 vm
 /
-JSCompartment
+JSContext
 .
 h
 "

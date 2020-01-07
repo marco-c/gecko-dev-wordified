@@ -329,7 +329,11 @@ h
 #
 include
 "
-jscntxtinlines
+vm
+/
+GeckoProfiler
+-
+inl
 .
 h
 "
@@ -338,7 +342,7 @@ include
 "
 vm
 /
-GeckoProfiler
+JSContext
 -
 inl
 .
