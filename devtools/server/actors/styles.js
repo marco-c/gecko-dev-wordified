@@ -6543,7 +6543,7 @@ this
 .
 line
 =
-DOMUtils
+InspectorUtils
 .
 getRelativeRuleLine
 (
@@ -6556,7 +6556,7 @@ this
 .
 column
 =
-DOMUtils
+InspectorUtils
 .
 getRuleColumn
 (
@@ -8394,7 +8394,7 @@ this
 let
 line
 =
-DOMUtils
+InspectorUtils
 .
 getRelativeRuleLine
 (
@@ -8406,7 +8406,7 @@ rawRule
 let
 column
 =
-DOMUtils
+InspectorUtils
 .
 getRuleColumn
 (
