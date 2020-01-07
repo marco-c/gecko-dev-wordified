@@ -17196,16 +17196,6 @@ aAddon
 upgrade
 "
 )
-&
-&
-aAddon
-.
-id
-!
-=
-AddonManager
-.
-hotfixID
 ;
 document
 .
