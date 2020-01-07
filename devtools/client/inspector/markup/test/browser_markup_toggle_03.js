@@ -89,8 +89,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -99,7 +99,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -122,7 +122,7 @@ element
 let
 container
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -182,10 +182,10 @@ doc
 defaultView
 )
 ;
-yield
+await
 onUpdated
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -208,7 +208,7 @@ expanded
 let
 nodeFronts
 =
-yield
+await
 getNodeFronts
 (
 inspector
@@ -308,7 +308,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -347,7 +347,7 @@ collapsed
 ;
 nodeFronts
 =
-yield
+await
 getNodeFronts
 (
 inspector
@@ -396,8 +396,8 @@ collapsed
 }
 )
 ;
+async
 function
-*
 getNodeFronts
 (
 inspector
@@ -406,7 +406,7 @@ inspector
 let
 nodeList
 =
-yield
+await
 inspector
 .
 walker
