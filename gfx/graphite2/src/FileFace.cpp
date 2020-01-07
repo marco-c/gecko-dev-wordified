@@ -642,6 +642,10 @@ tbl_len
 ;
 if
 (
+!
+tbl
+|
+|
 fread
 (
 tbl
