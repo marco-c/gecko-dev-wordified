@@ -15577,7 +15577,7 @@ rv
 uint64_t
 n64
 =
-nsCString
+nsDependentCString
 (
 aUint16String
 )
