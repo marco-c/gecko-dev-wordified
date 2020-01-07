@@ -1049,7 +1049,7 @@ GetFirstChild
 {
 rv
 =
-InsertNode
+InsertNodeWithTransaction
 (
 *
 contentToInsert

@@ -2029,7 +2029,7 @@ aNode
 *
 *
 *
-InsertNode
+InsertNodeWithTransaction
 (
 )
 inserts
@@ -2037,9 +2037,9 @@ aContentToInsert
 before
 the
 child
+*
 specified
 by
-*
 aPointToInsert
 .
 *
@@ -2104,7 +2104,7 @@ typename
 CT
 >
 nsresult
-InsertNode
+InsertNodeWithTransaction
 (
 nsIContent
 &

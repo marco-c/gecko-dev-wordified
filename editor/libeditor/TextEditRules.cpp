@@ -4999,7 +4999,7 @@ rv
 textEditor
 -
 >
-InsertNode
+InsertNodeWithTransaction
 (
 *
 newNode
@@ -8127,7 +8127,7 @@ rv
 mTextEditor
 -
 >
-InsertNode
+InsertNodeWithTransaction
 (
 *
 mBogusNode

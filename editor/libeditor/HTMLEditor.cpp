@@ -7700,7 +7700,7 @@ GetFirstChild
 nsresult
 rv
 =
-InsertNode
+InsertNodeWithTransaction
 (
 *
 child
@@ -10363,7 +10363,7 @@ node
 nsresult
 rv
 =
-InsertNode
+InsertNodeWithTransaction
 (
 aNode
 pointToInsert
