@@ -5245,7 +5245,7 @@ be
 loaded
 *
 param
-aContext
+aNode
 the
 context
 the
@@ -5397,9 +5397,9 @@ CanLoadImage
 nsIURI
 *
 aURI
-nsISupports
+nsINode
 *
-aContext
+aNode
 nsIDocument
 *
 aLoadingDocument
