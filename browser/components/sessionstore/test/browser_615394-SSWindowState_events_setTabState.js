@@ -231,7 +231,7 @@ is
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 tab
 "
@@ -245,7 +245,7 @@ bar
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 tab
 "
@@ -279,7 +279,7 @@ is
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 tab
 "
