@@ -761,6 +761,17 @@ padding
 ;
 }
 .
+exceptionDialogButtonContainer
+[
+hidden
+]
+{
+display
+:
+none
+;
+}
+.
 illustrated
 #
 errorPageContainer
