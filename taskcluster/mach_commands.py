@@ -3520,6 +3520,9 @@ None
 build_image
 (
 image_name
+os
+.
+environ
 )
             
 else
@@ -3529,6 +3532,9 @@ build_context
 (
 image_name
 context_only
+os
+.
+environ
 )
         
 except
