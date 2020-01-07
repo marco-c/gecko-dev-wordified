@@ -47061,6 +47061,15 @@ onStopTime
 )
 ;
 }
+mResponseTrailers
+=
+mTransaction
+-
+>
+TakeResponseTrailers
+(
+)
+;
 /
 /
 at
