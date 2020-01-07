@@ -9150,7 +9150,7 @@ the
 link
 ContentDelegate
 #
-ELEMENT_TYPE_LINK
+ELEMENT_TYPE_NONE
 }
 flags
 .
@@ -9190,7 +9190,7 @@ String
 uri
 ElementType
 int
-elementTypes
+elementType
 String
 elementSrc
 )
