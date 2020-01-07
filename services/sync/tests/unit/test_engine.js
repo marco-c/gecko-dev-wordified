@@ -233,7 +233,7 @@ name
 service
 )
 {
-Engine
+SyncEngine
 .
 call
 (
@@ -262,7 +262,7 @@ prototype
 {
 __proto__
 :
-Engine
+SyncEngine
 .
 prototype
 _storeObj
