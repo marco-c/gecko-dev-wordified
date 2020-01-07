@@ -4695,7 +4695,7 @@ onPageStop
 =
 GeckoSession
 .
-ProgressListener
+ProgressDelegate
 .
 class
 .
@@ -4770,7 +4770,7 @@ waitUntilCalled
 (
 GeckoSession
 .
-ProgressListener
+ProgressDelegate
 .
 class
 methodCalls
@@ -5410,7 +5410,7 @@ Class
 <
 ?
 >
-listener
+delegate
 final
 NonNull
 List
@@ -5606,7 +5606,7 @@ getDeclaringClass
 .
 isAssignableFrom
 (
-listener
+delegate
 )
 ;
 index

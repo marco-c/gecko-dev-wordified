@@ -1016,7 +1016,7 @@ GeckoMenu
 MenuPresenter
 GeckoSession
 .
-ContentListener
+ContentDelegate
 ScreenOrientationDelegate
 Tabs
 .
@@ -5485,7 +5485,7 @@ Override
 /
 GeckoSession
 .
-ContentListener
+ContentDelegate
 public
 void
 onTitleChange
@@ -5504,7 +5504,7 @@ Override
 /
 GeckoSession
 .
-ContentListener
+ContentDelegate
 public
 void
 onFocusRequest
@@ -5520,7 +5520,7 @@ Override
 /
 GeckoSession
 .
-ContentListener
+ContentDelegate
 public
 void
 onCloseRequest
@@ -5536,7 +5536,7 @@ Override
 /
 GeckoSession
 .
-ContentListener
+ContentDelegate
 public
 void
 onFullScreen
@@ -6959,7 +6959,7 @@ xul
 ;
 session
 .
-setContentListener
+setContentDelegate
 (
 this
 )
