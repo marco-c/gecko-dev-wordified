@@ -10250,12 +10250,7 @@ info
 bool
 ValidateStencilParamsForDrawCall
 (
-const
-char
-*
-funcName
 )
-const
 ;
 bool
 ValidateCopyTexImage
