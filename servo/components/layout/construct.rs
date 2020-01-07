@@ -10969,7 +10969,7 @@ get_box
 (
 )
 .
-_servo_display_for_hypothetical_box
+original_display
 ;
 let
 munged_display
