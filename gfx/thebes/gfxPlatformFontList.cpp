@@ -10606,6 +10606,10 @@ Clear
 (
 )
 ;
+mEmojiPrefFont
+=
+nullptr
+;
 }
 /
 /
