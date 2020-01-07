@@ -295,7 +295,7 @@ aScreenId
 ;
 }
 void
-EnableEventDispatcher
+OnGeckoViewReady
 (
 )
 ;

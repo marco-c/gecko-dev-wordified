@@ -3903,7 +3903,7 @@ get
 window
 -
 >
-EnableEventDispatcher
+OnGeckoViewReady
 (
 )
 ;
