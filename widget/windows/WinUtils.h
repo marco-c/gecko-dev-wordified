@@ -3460,12 +3460,6 @@ Initialize
 (
 )
 ;
-static
-bool
-ShouldHideScrollbars
-(
-)
-;
 /
 *
 *
