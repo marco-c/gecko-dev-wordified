@@ -28730,6 +28730,12 @@ Reset
 (
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 /
 /
 If
