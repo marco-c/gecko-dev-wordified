@@ -140,15 +140,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 org
@@ -213,7 +207,7 @@ Bug
 /
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

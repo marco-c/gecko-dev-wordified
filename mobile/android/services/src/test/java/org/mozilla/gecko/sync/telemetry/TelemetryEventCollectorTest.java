@@ -64,15 +64,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 java
@@ -83,7 +77,7 @@ HashMap
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

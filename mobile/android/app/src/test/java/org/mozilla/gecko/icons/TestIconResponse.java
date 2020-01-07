@@ -76,15 +76,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 static
@@ -98,7 +92,7 @@ mock
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

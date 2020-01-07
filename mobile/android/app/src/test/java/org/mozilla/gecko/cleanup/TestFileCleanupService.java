@@ -108,15 +108,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 java
@@ -173,7 +167,7 @@ FileCleanupService
 /
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

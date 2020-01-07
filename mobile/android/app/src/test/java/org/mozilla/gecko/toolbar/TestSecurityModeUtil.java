@@ -111,15 +111,9 @@ TrackingMode
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 static
@@ -181,7 +175,7 @@ resolve
 ;
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )

@@ -106,15 +106,9 @@ RunWith
 import
 org
 .
-mozilla
+robolectric
 .
-gecko
-.
-background
-.
-testhelpers
-.
-TestRunner
+RobolectricTestRunner
 ;
 import
 org
@@ -217,7 +211,7 @@ FileCleanupController
 /
 RunWith
 (
-TestRunner
+RobolectricTestRunner
 .
 class
 )
