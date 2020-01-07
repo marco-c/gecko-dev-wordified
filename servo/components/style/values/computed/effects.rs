@@ -127,6 +127,17 @@ Length
 NonNegativeLength
 }
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 values
 :
@@ -283,7 +294,7 @@ Angle
 NonNegativeNumber
 NonNegativeLength
 Impossible
-ComputedUrl
+Impossible
 >
 ;
 /
