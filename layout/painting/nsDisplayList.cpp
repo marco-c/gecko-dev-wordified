@@ -53141,6 +53141,10 @@ mFrame
 Extend3DContext
 (
 )
+&
+&
+!
+mNoExtendContext
 )
 ;
 return
