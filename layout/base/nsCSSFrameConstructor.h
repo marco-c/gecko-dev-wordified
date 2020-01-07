@@ -757,7 +757,6 @@ aStartChild
 nsIContent
 *
 aEndChild
-InsertionKind
 )
 ;
 /
@@ -1060,7 +1059,6 @@ aStartChild
 nsIContent
 *
 aEndChild
-InsertionKind
 )
 ;
 /
