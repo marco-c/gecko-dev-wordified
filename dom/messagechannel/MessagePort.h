@@ -357,7 +357,7 @@ MessagePort
 aEntangledPort
 )
 ;
-void
+bool
 CloneAndDisentangle
 (
 MessagePortIdentifier

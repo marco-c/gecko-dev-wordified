@@ -3776,7 +3776,7 @@ UpdateMustKeepAlive
 )
 ;
 }
-void
+bool
 MessagePort
 :
 :
@@ -3854,6 +3854,7 @@ eStateEntangled
 )
 {
 return
+false
 ;
 }
 /
@@ -3898,6 +3899,7 @@ eStateEntanglingForClose
 )
 {
 return
+false
 ;
 }
 aIdentifier
@@ -4015,6 +4017,7 @@ cannot
 proceed
 .
 return
+false
 ;
 }
 mUnshippedEntangledPort
@@ -4070,6 +4073,7 @@ UpdateMustKeepAlive
 )
 ;
 return
+true
 ;
 }
 /
@@ -4101,6 +4105,7 @@ cannot
 proceed
 .
 return
+false
 ;
 }
 mState
@@ -4108,6 +4113,7 @@ mState
 eStateEntanglingForDisentangle
 ;
 return
+true
 ;
 }
 /
@@ -4133,6 +4139,7 @@ mState
 eStateEntanglingForDisentangle
 ;
 return
+true
 ;
 }
 MOZ_ASSERT
@@ -4146,6 +4153,9 @@ eStateEntangled
 StartDisentangling
 (
 )
+;
+return
+true
 ;
 }
 void
