@@ -239,7 +239,7 @@ is
 never
 0
 .
-uint32_t
+uint64_t
 GetRestyleGeneration
 (
 )
@@ -298,7 +298,7 @@ none
 )
 elements
 .
-uint32_t
+uint64_t
 GetUndisplayedRestyleGeneration
 (
 )
@@ -1681,10 +1681,10 @@ Disconnect
 (
 )
 .
-uint32_t
+uint64_t
 mRestyleGeneration
 ;
-uint32_t
+uint64_t
 mUndisplayedRestyleGeneration
 ;
 uint32_t
