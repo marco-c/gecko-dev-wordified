@@ -845,7 +845,7 @@ valgrind
 /
 x86_64
 -
-redhat
+pc
 -
 linux
 -
