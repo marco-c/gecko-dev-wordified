@@ -3197,6 +3197,10 @@ DoReset
 (
 )
 {
+mEverTriedInvalidSubmit
+=
+false
+;
 /
 /
 JBK
