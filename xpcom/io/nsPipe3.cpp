@@ -9625,9 +9625,6 @@ aLen
 )
 :
 !
-nsCRT
-:
-:
 strncmp
 (
 aS1

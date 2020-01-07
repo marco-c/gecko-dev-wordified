@@ -16195,9 +16195,6 @@ aLength
 &
 (
 !
-nsCRT
-:
-:
 strncmp
 (
 aContents
@@ -16209,9 +16206,6 @@ GIF87a
 |
 |
 !
-nsCRT
-:
-:
 strncmp
 (
 aContents
@@ -16616,9 +16610,6 @@ aLength
 &
 &
 !
-nsCRT
-:
-:
 strncmp
 (
 aContents

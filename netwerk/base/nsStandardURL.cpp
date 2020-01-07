@@ -16537,9 +16537,6 @@ be
 relative
 if
 (
-nsCRT
-:
-:
 strncmp
 (
 relpath

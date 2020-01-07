@@ -8051,10 +8051,7 @@ s
 kNBSP
 |
 |
-nsCRT
-:
-:
-strncmp
+NS_strncmp
 (
 s
 u

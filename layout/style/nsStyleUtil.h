@@ -1407,10 +1407,7 @@ N
 {
 return
 !
-nsCRT
-:
-:
-strncmp
+NS_strncmp
 (
 aLang
 aPrefix
