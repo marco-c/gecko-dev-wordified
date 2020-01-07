@@ -57,7 +57,7 @@ use
 super
 :
 :
-Builder
+GzBuilder
 ;
 use
 {
@@ -245,7 +245,9 @@ new
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 /
@@ -454,7 +456,7 @@ header
 configuration
 see
 the
-Builder
+GzBuilder
 type
 .
 /
@@ -502,7 +504,7 @@ GzEncoder
 W
 >
 {
-Builder
+GzBuilder
 :
 :
 new

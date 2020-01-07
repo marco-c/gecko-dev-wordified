@@ -315,7 +315,9 @@ b
 Compression
 :
 :
-Fast
+fast
+(
+)
 )
 ;
 /
@@ -1236,7 +1238,9 @@ new
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 /

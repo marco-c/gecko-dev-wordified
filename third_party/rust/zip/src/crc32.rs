@@ -26,7 +26,7 @@ prelude
 :
 *
 ;
-static
+const
 CRC32_TABLE
 :
 [

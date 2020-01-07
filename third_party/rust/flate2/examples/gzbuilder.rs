@@ -151,7 +151,9 @@ f
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 gz

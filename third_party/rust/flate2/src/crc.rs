@@ -230,8 +230,14 @@ is
 lower
 than
 2
-^
+<
+sup
+>
 32
+<
+/
+sup
+>
 .
 pub
 fn

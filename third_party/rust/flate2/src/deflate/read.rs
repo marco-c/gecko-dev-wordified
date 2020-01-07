@@ -323,7 +323,9 @@ c
 Compression
 :
 :
-Fast
+fast
+(
+)
 )
 ;
 /
@@ -1326,7 +1328,9 @@ new
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 /

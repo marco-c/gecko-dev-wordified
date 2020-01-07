@@ -68,7 +68,9 @@ new
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 e

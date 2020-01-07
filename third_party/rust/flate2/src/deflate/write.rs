@@ -240,7 +240,9 @@ new
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 /
@@ -1814,7 +1816,9 @@ new
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 /
