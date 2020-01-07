@@ -495,16 +495,6 @@ return
 true
 ;
 }
-static
-bool
-allowStaticTypedArrayAccesses
-(
-)
-{
-return
-true
-;
-}
 }
 ;
 typedef
