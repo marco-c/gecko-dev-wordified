@@ -113,11 +113,11 @@ All
 '
     
 '
-all_childs
+all_children
 '
 :
 '
-AllChilds
+AllChildren
 '
     
 '
