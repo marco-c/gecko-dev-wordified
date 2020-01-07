@@ -1166,6 +1166,10 @@ _downloadWithAndroidDownloadManager
 aLauncher
 )
 ;
+}
+}
+finally
+{
 aLauncher
 .
 cancel
@@ -1175,10 +1179,6 @@ Cr
 NS_BINDING_ABORTED
 )
 ;
-}
-}
-finally
-{
 }
 }
 .
