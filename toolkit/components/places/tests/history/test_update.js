@@ -572,10 +572,6 @@ clearHistory
 let
 TEST_URL
 =
-NetUtil
-.
-newURI
-(
 "
 http
 :
@@ -587,7 +583,6 @@ org
 /
 test_description_change_saved
 "
-)
 ;
 await
 PlacesTestUtils
@@ -601,7 +596,10 @@ Assert
 .
 ok
 (
-page_in_database
+await
+PlacesTestUtils
+.
+isPageInDB
 (
 TEST_URL
 )
@@ -921,10 +919,6 @@ clearHistory
 let
 TEST_URL
 =
-NetUtil
-.
-newURI
-(
 "
 http
 :
@@ -936,7 +930,6 @@ org
 /
 test_previewImageURL_change_saved
 "
-)
 ;
 let
 IMAGE_URL
@@ -967,7 +960,10 @@ Assert
 .
 ok
 (
-page_in_database
+await
+PlacesTestUtils
+.
+isPageInDB
 (
 TEST_URL
 )
@@ -1164,10 +1160,6 @@ clearHistory
 let
 TEST_URL
 =
-NetUtil
-.
-newURI
-(
 "
 http
 :
@@ -1179,7 +1171,6 @@ org
 /
 test_change_both_saved
 "
-)
 ;
 await
 PlacesTestUtils
@@ -1193,7 +1184,10 @@ Assert
 .
 ok
 (
-page_in_database
+await
+PlacesTestUtils
+.
+isPageInDB
 (
 TEST_URL
 )
