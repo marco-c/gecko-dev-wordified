@@ -5597,7 +5597,10 @@ aKeyword
 nsString
 *
 aProviderName
-OptionalIPCStream
+nsCOMPtr
+<
+nsIInputStream
+>
 *
 aPostData
 OptionalURIParams
