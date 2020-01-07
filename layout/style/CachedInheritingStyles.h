@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_CachedAnonBoxStyles_h
+mozilla_CachedInheritingStyles_h
 #
 define
-mozilla_CachedAnonBoxStyles_h
+mozilla_CachedInheritingStyles_h
 #
 include
 "
@@ -149,6 +149,9 @@ Cache
 of
 anonymous
 box
+and
+lazy
+pseudo
 styles
 that
 inherit
@@ -229,7 +232,7 @@ the
 design
 .
 class
-CachedAnonBoxStyles
+CachedInheritingStyles
 {
 public
 :
@@ -247,11 +250,11 @@ Lookup
 (
 nsAtom
 *
-aAnonBox
+aPseudoTag
 )
 const
 ;
-CachedAnonBoxStyles
+CachedInheritingStyles
 (
 )
 :
@@ -262,7 +265,7 @@ mBits
 {
 }
 ~
-CachedAnonBoxStyles
+CachedInheritingStyles
 (
 )
 {
@@ -435,4 +438,4 @@ mozilla
 endif
 /
 /
-mozilla_CachedAnonBoxStyles_h
+mozilla_CachedInheritingStyles_h

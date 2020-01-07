@@ -126,7 +126,7 @@ include
 "
 mozilla
 /
-CachedAnonBoxStyles
+CachedInheritingStyles
 .
 h
 "
@@ -143,7 +143,7 @@ namespace
 mozilla
 {
 void
-CachedAnonBoxStyles
+CachedInheritingStyles
 :
 :
 Insert
@@ -290,14 +290,14 @@ IsIndirect
 }
 ServoStyleContext
 *
-CachedAnonBoxStyles
+CachedInheritingStyles
 :
 :
 Lookup
 (
 nsAtom
 *
-aAnonBox
+aPseudoTag
 )
 const
 {
@@ -308,7 +308,7 @@ nsCSSAnonBoxes
 :
 IsInheritingAnonBox
 (
-aAnonBox
+aPseudoTag
 )
 )
 ;
@@ -341,7 +341,7 @@ GetPseudo
 )
 =
 =
-aAnonBox
+aPseudoTag
 )
 {
 return
@@ -373,7 +373,7 @@ GetPseudo
 )
 =
 =
-aAnonBox
+aPseudoTag
 ?
 direct
 :
@@ -381,7 +381,7 @@ nullptr
 ;
 }
 void
-CachedAnonBoxStyles
+CachedInheritingStyles
 :
 :
 AddSizeOfIncludingThis
