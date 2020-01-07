@@ -187,6 +187,15 @@ d
 "
             
 "
+test_name
+"
+:
+"
+%
+s
+"
+            
+"
 test_settings_url
 "
 :
@@ -215,6 +224,7 @@ json
 (
 browser
 cs_port
+test
 cs_port
 test
 )
