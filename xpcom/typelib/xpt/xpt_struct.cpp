@@ -1308,6 +1308,7 @@ XPTInterfaceDirectoryEntry
 ide
 )
 {
+const
 char
 *
 dummy_name_space

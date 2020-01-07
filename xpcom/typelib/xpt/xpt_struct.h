@@ -569,6 +569,7 @@ XPTInterfaceDirectoryEntry
 nsID
 iid
 ;
+const
 char
 *
 name
@@ -607,6 +608,7 @@ memory
 .
 /
 /
+const
 char
 *
 name_space
@@ -1529,6 +1531,7 @@ type
 struct
 XPTConstDescriptor
 {
+const
 char
 *
 name
@@ -1609,6 +1612,7 @@ method
 struct
 XPTMethodDescriptor
 {
+const
 char
 *
 name
