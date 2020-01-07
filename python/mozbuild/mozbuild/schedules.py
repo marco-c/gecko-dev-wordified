@@ -213,6 +213,14 @@ test
 -
 verify
 -
+gpu
+'
+    
+'
+test
+-
+verify
+-
 wpt
 '
     
