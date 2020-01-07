@@ -3859,6 +3859,12 @@ CacheKind
 :
 GetIntrinsic
 :
+case
+CacheKind
+:
+:
+UnaryArith
+:
 MOZ_CRASH
 (
 "
