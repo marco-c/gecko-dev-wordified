@@ -187,7 +187,7 @@ h
 #
 include
 "
-nsPrintOptionsImpl
+nsPrintSettingsService
 .
 h
 "

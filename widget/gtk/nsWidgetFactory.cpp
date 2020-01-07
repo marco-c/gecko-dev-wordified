@@ -290,7 +290,7 @@ NS_PRINTING
 #
 include
 "
-nsPrintOptionsGTK
+nsPrintSettingsServiceGTK
 .
 h
 "

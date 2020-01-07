@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsPrintOptionsImpl
+nsPrintSettingsService
 .
 h
 "

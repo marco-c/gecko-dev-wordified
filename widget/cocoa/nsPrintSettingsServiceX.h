@@ -102,7 +102,7 @@ nsPrintOptionsX_h_
 #
 include
 "
-nsPrintOptionsImpl
+nsPrintSettingsService
 .
 h
 "

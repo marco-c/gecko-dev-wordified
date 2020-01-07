@@ -394,7 +394,7 @@ h
 #
 include
 "
-nsPrintOptionsWin
+nsPrintSettingsServiceWin
 .
 h
 "

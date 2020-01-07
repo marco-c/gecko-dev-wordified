@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsPrintOptionsGTK
+nsPrintSettingsServiceGTK
 .
 h
 "

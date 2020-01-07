@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsPrintOptionsAndroid
+nsPrintSettingsServiceAndroid
 .
 h
 "
