@@ -249,6 +249,7 @@ F
 :
 Fn
 (
+(
 IOHIDDeviceRef
 Receiver
 <
@@ -257,6 +258,7 @@ Vec
 u8
 >
 >
+)
 &
 Fn
 (

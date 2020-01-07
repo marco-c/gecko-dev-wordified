@@ -94,10 +94,10 @@ consts
 PARAMETER_SIZE
 ;
 use
-platform
+statemachine
 :
 :
-PlatformManager
+StateMachine
 ;
 use
 runloop
@@ -264,9 +264,9 @@ alive
 {
 let
 mut
-pm
+sm
 =
-PlatformManager
+StateMachine
 :
 :
 new
@@ -322,7 +322,7 @@ can
 t
 cancel
 .
-pm
+sm
 .
 register
 (
@@ -364,7 +364,7 @@ can
 t
 cancel
 .
-pm
+sm
 .
 sign
 (
@@ -412,7 +412,7 @@ has
 shut
 down
 .
-pm
+sm
 .
 cancel
 (
@@ -451,7 +451,7 @@ any
 ongoing
 activity
 .
-pm
+sm
 .
 cancel
 (
