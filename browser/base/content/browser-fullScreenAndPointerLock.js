@@ -2630,6 +2630,8 @@ target
 =
 =
 gBrowser
+.
+container
 )
 {
 browser

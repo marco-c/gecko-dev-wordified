@@ -658,7 +658,7 @@ result
 .
 class
 "
-XULElement
+Object
 "
 "
 chrome

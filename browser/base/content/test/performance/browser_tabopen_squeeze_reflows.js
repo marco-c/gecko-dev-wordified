@@ -143,7 +143,7 @@ content
 /
 tabbrowser
 .
-xml
+js
 "
 ]
 }

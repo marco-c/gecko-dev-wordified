@@ -1169,12 +1169,7 @@ tabbrowser
 window
 '
 s
-<
-xul
-:
-tabbrowser
-/
->
+TabBrowser
 .
 Used
 to
@@ -1357,13 +1352,7 @@ options
 if
 (
 !
-(
 tabbrowser
-instanceof
-Ci
-.
-nsIDOMXULElement
-)
 )
 throw
 "
