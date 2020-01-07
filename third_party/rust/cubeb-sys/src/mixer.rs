@@ -122,7 +122,7 @@ usize
 input_buffer
 :
 *
-mut
+const
 c_void
 input_buffer_length
 :

@@ -102,6 +102,7 @@ cubeb_mixer
 mixer
 size_t
 frames
+const
 void
 *
 input_buffer
