@@ -357,7 +357,6 @@ variablesview
 fetched
 "
 (
-_
 val
 )
 =

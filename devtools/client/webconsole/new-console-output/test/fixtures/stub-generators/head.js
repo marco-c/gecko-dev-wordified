@@ -3114,7 +3114,6 @@ updated
 function
 onNetworkUpdated
 (
-event
 res
 )
 {

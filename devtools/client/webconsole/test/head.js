@@ -8114,7 +8114,6 @@ count
 function
 onMessagesAdded
 (
-event
 newMessages
 )
 {
@@ -8540,11 +8539,6 @@ false
 }
 onMessagesAdded
 (
-"
-new
--
-messages
-"
 messages
 )
 ;
@@ -9790,9 +9784,10 @@ entry
 resolve
 reject
 }
-event
+{
 view
 options
+}
 )
 {
 info

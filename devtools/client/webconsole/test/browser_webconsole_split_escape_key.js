@@ -712,7 +712,6 @@ variablesview
 fetched
 "
 (
-event
 vview
 )
 =

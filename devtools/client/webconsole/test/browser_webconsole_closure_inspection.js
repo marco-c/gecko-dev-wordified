@@ -603,7 +603,6 @@ click
 function
 onGetNameFetch
 (
-evt
 view
 )
 {

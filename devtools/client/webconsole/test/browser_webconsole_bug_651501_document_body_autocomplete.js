@@ -580,7 +580,6 @@ variablesview
 fetched
 "
 (
-evt
 view
 )
 =

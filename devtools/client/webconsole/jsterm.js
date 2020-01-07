@@ -216,8 +216,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -4207,8 +4205,10 @@ variablesview
 -
 open
 "
+{
 view
 options
+}
 )
 ;
 return
