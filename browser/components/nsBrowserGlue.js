@@ -6227,14 +6227,11 @@ popup
 popup_text
 :
 "
-rgba
+rgb
 (
 249
 249
 250
-0
-.
-8
 )
 "
 popup_border
