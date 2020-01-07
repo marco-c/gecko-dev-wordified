@@ -175,7 +175,7 @@ js
 If
 they
 are
-CheckForExistence
+CheckForDoubleDefinition
 (
 )
 will
@@ -399,7 +399,7 @@ are
 stored
 internally
 as
-floats
+strings
 .
 /
 /
