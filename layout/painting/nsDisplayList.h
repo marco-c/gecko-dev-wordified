@@ -24533,6 +24533,9 @@ CanBuildWebRenderDisplayItems
 LayerManager
 *
 aManager
+nsDisplayListBuilder
+*
+aBuilder
 )
 ;
 nsRect
