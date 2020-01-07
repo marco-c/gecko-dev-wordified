@@ -2608,11 +2608,6 @@ cur
 =
 iter
 .
-cur
-(
-)
--
->
 maybeSkipAutomaticInstructions
 (
 )
