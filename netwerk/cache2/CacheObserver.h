@@ -382,16 +382,6 @@ sHalfLifeHours
 ;
 }
 static
-int32_t
-HalfLifeExperiment
-(
-)
-{
-return
-sHalfLifeExperiment
-;
-}
-static
 bool
 ClearCacheOnShutdown
 (
@@ -579,10 +569,6 @@ sCompressionLevel
 static
 float
 sHalfLifeHours
-;
-static
-int32_t
-sHalfLifeExperiment
 ;
 static
 bool
