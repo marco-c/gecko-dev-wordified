@@ -2628,9 +2628,16 @@ atom
 index
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 *
 indexp
 =
