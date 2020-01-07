@@ -500,9 +500,7 @@ String
 mActions
 ;
 protected
-GeckoSession
-.
-Response
+GeckoResponse
 <
 String
 >
@@ -2137,9 +2135,7 @@ String
 ]
 actions
 final
-GeckoSession
-.
-Response
+GeckoResponse
 <
 String
 >

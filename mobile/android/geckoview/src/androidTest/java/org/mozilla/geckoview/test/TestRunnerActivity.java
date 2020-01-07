@@ -105,6 +105,15 @@ mozilla
 .
 geckoview
 .
+GeckoResponse
+;
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoSession
 ;
 import
@@ -272,9 +281,7 @@ String
 uri
 int
 target
-GeckoSession
-.
-Response
+GeckoResponse
 <
 Boolean
 >
@@ -306,9 +313,7 @@ GeckoSession
 session
 String
 uri
-GeckoSession
-.
-Response
+GeckoResponse
 <
 GeckoSession
 >
