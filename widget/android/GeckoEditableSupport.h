@@ -606,6 +606,15 @@ mIMETextChangedDuringFlush
 bool
 mIMEMonitorCursor
 ;
+static
+bool
+sDispatchKeyEventsInCompositionForAnyApps
+;
+void
+ObservePrefs
+(
+)
+;
 nsIWidget
 *
 GetWidget
@@ -1055,6 +1064,10 @@ mIMEMonitorCursor
 false
 )
 {
+ObservePrefs
+(
+)
+;
 }
 /
 /
