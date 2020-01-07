@@ -262,6 +262,12 @@ GetPrintingScale
 )
 final
 ;
+gfxPoint
+GetPrintingTranslate
+(
+)
+final
+;
 void
 GetDriverName
 (

@@ -1957,6 +1957,9 @@ mFullZoom
 float
 mPrintingScale
 ;
+gfxPoint
+mPrintingTranslate
+;
 RefPtr
 <
 nsFontCache
