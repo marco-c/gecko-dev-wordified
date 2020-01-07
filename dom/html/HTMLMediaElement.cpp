@@ -9354,6 +9354,12 @@ lockImage
 .
 GetImage
 (
+TimeStamp
+:
+:
+Now
+(
+)
 )
 ;
 return
