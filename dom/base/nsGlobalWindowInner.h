@@ -8023,7 +8023,13 @@ virtual
 void
 SetFocusedNode
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aNode
 uint32_t
