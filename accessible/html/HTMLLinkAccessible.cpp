@@ -992,6 +992,7 @@ AnchorURIAt
 uint32_t
 aAnchorIndex
 )
+const
 {
 return
 aAnchorIndex

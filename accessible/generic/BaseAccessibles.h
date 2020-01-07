@@ -381,6 +381,7 @@ void
 TakeFocus
 (
 )
+const
 override
 ;
 /
@@ -462,6 +463,7 @@ AnchorURIAt
 uint32_t
 aAnchorIndex
 )
+const
 override
 ;
 protected

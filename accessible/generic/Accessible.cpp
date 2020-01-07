@@ -4997,6 +4997,7 @@ Accessible
 TakeFocus
 (
 )
+const
 {
 nsIFrame
 *
@@ -15514,6 +15515,7 @@ AnchorURIAt
 uint32_t
 aAnchorIndex
 )
+const
 {
 MOZ_ASSERT
 (
