@@ -846,6 +846,12 @@ aUnscaledFont
 void
 RemoveExpiredFontKeys
 (
+wr
+:
+:
+IpcResourceUpdateQueue
+&
+aResources
 )
 ;
 void
