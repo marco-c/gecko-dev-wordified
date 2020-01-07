@@ -184,6 +184,11 @@ await
 waitForPaused
 (
 dbg
+"
+long
+.
+js
+"
 )
 ;
 const
