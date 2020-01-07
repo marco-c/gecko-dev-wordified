@@ -31696,7 +31696,6 @@ any_applicable_rule_data
 element
 |
 data
-_
 |
 {
 data
@@ -31780,7 +31779,6 @@ any_applicable_rule_data
 element
 |
 data
-_
 |
 {
 data

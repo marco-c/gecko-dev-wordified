@@ -2119,6 +2119,7 @@ each_applicable_non_document_style_rule_data
 |
 data
 quirks_mode
+host
 |
 {
 non_document_styles
@@ -2128,6 +2129,19 @@ push
 (
 data
 quirks_mode
+host
+.
+map
+(
+|
+h
+|
+h
+.
+opaque
+(
+)
+)
 )
 )
 }
