@@ -120,6 +120,9 @@ Addresses
 Bookmarks
 "
 "
+CreditCards
+"
+"
 Formdata
 "
 "

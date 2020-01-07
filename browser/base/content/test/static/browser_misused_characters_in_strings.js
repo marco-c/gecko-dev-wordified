@@ -1590,7 +1590,7 @@ urisGreD
 .
 concat
 (
-appDirXCurProcD
+urisXCurProcD
 )
 )
 )
