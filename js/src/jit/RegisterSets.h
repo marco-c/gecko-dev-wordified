@@ -5310,6 +5310,9 @@ reg
 {
 MOZ_ASSERT
 (
+this
+-
+>
 has
 (
 reg
