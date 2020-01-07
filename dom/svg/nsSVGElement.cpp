@@ -6969,7 +6969,6 @@ tabIndex
 |
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -14183,7 +14182,6 @@ value
 ;
 GetAttr
 (
-kNameSpaceID_None
 attr
 value
 )
