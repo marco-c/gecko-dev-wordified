@@ -875,7 +875,7 @@ need
 that
 method
 for
-InspectorUtils
+inDOMUtils
 :
 :
 GetContentState
@@ -883,7 +883,7 @@ GetContentState
 /
 /
 If
-InspectorUtils
+inDOMUtils
 :
 :
 GetContentState
@@ -892,8 +892,6 @@ removed
 this
 method
 should
-/
-/
 be
 removed
 .
@@ -1568,16 +1566,8 @@ NS_DEFINE_EVENT_STATE_MACRO
 )
 /
 /
-Element
-is
-an
-unresolved
-custom
-element
-candidate
-#
-define
-NS_EVENT_STATE_UNRESOLVED
+Free
+bit
 NS_DEFINE_EVENT_STATE_MACRO
 (
 23
@@ -2529,9 +2519,6 @@ NS_EVENT_STATE_FULL_SCREEN
 |
 \
 NS_EVENT_STATE_HOVER
-|
-\
-NS_EVENT_STATE_UNRESOLVED
 |
 \
 NS_EVENT_STATE_URLTARGET
