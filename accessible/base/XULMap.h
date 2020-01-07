@@ -58,6 +58,11 @@ MPL
 /
 XULMAP_TYPE
 (
+browser
+OuterDocAccessible
+)
+XULMAP_TYPE
+(
 checkbox
 XULCheckboxAccessible
 )
@@ -68,6 +73,11 @@ XULDropmarkerAccessible
 )
 XULMAP_TYPE
 (
+editor
+OuterDocAccessible
+)
+XULMAP_TYPE
+(
 findbar
 XULToolbarAccessible
 )
@@ -75,6 +85,11 @@ XULMAP_TYPE
 (
 groupbox
 XULGroupboxAccessible
+)
+XULMAP_TYPE
+(
+iframe
+OuterDocAccessible
 )
 XULMAP_TYPE
 (
