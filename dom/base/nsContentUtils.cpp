@@ -6513,7 +6513,7 @@ aGrantAllValidValue
 /
 /
 No
-sandbox
+autocomplete
 attribute
 so
 we
