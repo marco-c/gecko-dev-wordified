@@ -2425,14 +2425,9 @@ this
 )
 ;
 return
-Services
-.
-blocklist
-.
-getPluginBlocklistState
-(
 tag
-)
+.
+blocklistState
 ;
 }
 get
