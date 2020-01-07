@@ -2,6 +2,8 @@
 /
 Copyright
 2017
+-
+2018
 Mozilla
 Foundation
 /
