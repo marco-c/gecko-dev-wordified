@@ -2897,7 +2897,7 @@ aImageDataSize
 MOZ_ASSERT
 (
 mAllocatedSize
-<
+>
 =
 aImageDataSize
 "
