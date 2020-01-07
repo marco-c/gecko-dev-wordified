@@ -12593,6 +12593,7 @@ Value
 derive
 (
 Clone
+Copy
 Debug
 MallocSizeOf
 PartialEq
@@ -14596,6 +14597,7 @@ value
 derive
 (
 Clone
+Copy
 Debug
 MallocSizeOf
 PartialEq
@@ -14936,6 +14938,7 @@ MallocSizeOf
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 ToCss
