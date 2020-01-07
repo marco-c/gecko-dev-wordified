@@ -5086,6 +5086,14 @@ callInfo
 )
 ;
 InliningResult
+inlineMathTrunc
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineMathFunction
 (
 CallInfo

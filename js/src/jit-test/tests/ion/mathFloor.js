@@ -241,12 +241,10 @@ in
 the
 interpreter
 .
-try
+with
+(
 {
 }
-catch
-(
-e
 )
 {
 }
