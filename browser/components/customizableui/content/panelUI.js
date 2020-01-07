@@ -2938,9 +2938,12 @@ run
 the
 destructor
 :
-multiView
+PanelMultiView
 .
-instance
+forNode
+(
+multiView
+)
 .
 destructor
 (
