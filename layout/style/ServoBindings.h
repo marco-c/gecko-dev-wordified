@@ -1138,15 +1138,6 @@ RawGeckoElementBorrowed
 element
 )
 ;
-uint64_t
-Gecko_DocumentState
-(
-const
-nsIDocument
-*
-aDocument
-)
-;
 bool
 Gecko_IsRootElement
 (
