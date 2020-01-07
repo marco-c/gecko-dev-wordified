@@ -1716,7 +1716,7 @@ output
 =
 self
 .
-get_output_from_command_m
+get_output_from_command
 (
 [
 "
@@ -1726,7 +1726,7 @@ make
 ident
 "
 ]
-                                                
+                                              
 cwd
 =
 dirs
@@ -1735,15 +1735,15 @@ dirs
 abs_locales_dir
 '
 ]
-                                                
+                                              
 env
 =
 env
-                                                
+                                              
 silent
 =
 True
-                                                
+                                              
 halt_on_failure
 =
 True
@@ -2211,7 +2211,7 @@ output
 =
 self
 .
-get_output_from_command_m
+get_output_from_command
 (
             
 [
@@ -3151,7 +3151,7 @@ mach
 if
 self
 .
-run_command_m
+run_command
 (
 [
 sys
@@ -3162,7 +3162,7 @@ mach
 configure
 '
 ]
-                              
+                            
 cwd
 =
 dirs
@@ -3171,11 +3171,11 @@ dirs
 abs_mozilla_dir
 '
 ]
-                              
+                            
 env
 =
 env
-                              
+                            
 error_list
 =
 MakefileErrorList
@@ -3260,7 +3260,7 @@ buildid
         
 self
 .
-run_command_m
+run_command
 (
 [
 sys
@@ -3273,7 +3273,7 @@ build
 ]
 +
 targets
-                           
+                         
 cwd
 =
 dirs
@@ -3282,15 +3282,15 @@ dirs
 abs_mozilla_dir
 '
 ]
-                           
+                         
 env
 =
 env
-                           
+                         
 error_list
 =
 MakefileErrorList
-                           
+                         
 halt_on_failure
 =
 True
@@ -3394,7 +3394,7 @@ make
         
 self
 .
-run_command_m
+run_command
 (
 [
 cat
@@ -3474,7 +3474,7 @@ _setup_configure
         
 self
 .
-run_command_m
+run_command
 (
 [
 make
@@ -3486,7 +3486,7 @@ en
 US
 "
 ]
-                           
+                         
 cwd
 =
 dirs
@@ -3495,15 +3495,15 @@ dirs
 abs_locales_dir
 '
 ]
-                           
+                         
 env
 =
 env
-                           
+                         
 error_list
 =
 MakefileErrorList
-                           
+                         
 halt_on_failure
 =
 True
@@ -3511,7 +3511,7 @@ True
         
 self
 .
-run_command_m
+run_command
 (
 [
 make
@@ -3519,7 +3519,7 @@ make
 unpack
 "
 ]
-                           
+                         
 cwd
 =
 dirs
@@ -3528,15 +3528,15 @@ dirs
 abs_locales_dir
 '
 ]
-                           
+                         
 env
 =
 env
-                           
+                         
 error_list
 =
 MakefileErrorList
-                           
+                         
 halt_on_failure
 =
 True
@@ -3614,7 +3614,7 @@ total_count
 if
 self
 .
-run_command_m
+run_command
 (
 [
 make
@@ -3627,7 +3627,7 @@ s
 %
 locale
 ]
-                                  
+                                
 cwd
 =
 dirs
@@ -3636,15 +3636,15 @@ dirs
 abs_locales_dir
 '
 ]
-                                  
+                                
 env
 =
 repack_env
-                                  
+                                
 error_list
 =
 MakefileErrorList
-                                  
+                                
 halt_on_failure
 =
 False
@@ -4010,7 +4010,7 @@ output
 =
 self
 .
-get_output_from_command_m
+get_output_from_command
 (
                 
 #
