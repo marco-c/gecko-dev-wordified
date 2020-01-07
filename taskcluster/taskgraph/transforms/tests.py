@@ -6335,15 +6335,6 @@ test
 -
 verify
 '
-or
-suite
-=
-=
-'
-test
--
-coverage
-'
 :
             
 pass

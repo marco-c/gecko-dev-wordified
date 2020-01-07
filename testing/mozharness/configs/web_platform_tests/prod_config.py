@@ -368,7 +368,7 @@ geckodriver
 "
     
 "
-per_test_category
+verify_category
 "
 :
 "

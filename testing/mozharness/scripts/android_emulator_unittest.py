@@ -4435,7 +4435,17 @@ try_options
 if
 self
 .
-verify_enabled
+config
+.
+get
+(
+'
+verify
+'
+)
+is
+not
+True
 :
             
 cmd
@@ -7160,16 +7170,16 @@ test_suite
 ]
         
 #
-per
--
 test
-mode
+-
+verification
 :
 determine
 test
 suites
 to
-run
+be
+verified
         
 all
 =
@@ -7283,7 +7293,7 @@ cat_suites
 =
 self
 .
-query_per_test_category_suites
+query_verify_category_suites
 (
 category
 all_suites
@@ -7340,10 +7350,9 @@ else
 :
             
 #
-per
--
 test
-mode
+-
+verification
             
 categories
 =
@@ -7393,7 +7402,7 @@ now
 (
 )
         
-max_per_test_time
+max_verify_time
 =
 datetime
 .
@@ -7404,7 +7413,7 @@ minutes
 60
 )
         
-per_test_args
+verify_args
 =
 [
 ]
@@ -7427,7 +7436,7 @@ query_minidump_stackwalk
         
 for
 (
-per_test_suite
+verify_suite
 suite
 )
 in
@@ -7561,13 +7570,13 @@ full
 '
             
 for
-per_test_args
+verify_args
 in
 self
 .
-query_args
+query_verify_args
 (
-per_test_suite
+verify_suite
 )
 :
                 
@@ -7586,12 +7595,11 @@ self
 start_time
 )
 >
-max_per_test_time
+max_verify_time
 :
                     
 #
-Running
-tests
+Verification
 has
 run
 out
@@ -7606,7 +7614,7 @@ Stop
 running
                     
 #
-them
+tests
 so
 that
 a
@@ -7640,9 +7648,7 @@ info
 "
 TinderboxPrint
 :
-Running
-tests
-took
+Verification
 too
 long
 :
@@ -7653,7 +7659,7 @@ Not
 all
 tests
 were
-executed
+verified
 .
 <
 br
@@ -7664,9 +7670,7 @@ br
                     
 #
 Signal
-per
--
-test
+verify
 time
 exceeded
 to
@@ -7698,7 +7702,7 @@ cmd
 if
 len
 (
-per_test_args
+verify_args
 )
 >
 0
@@ -7706,9 +7710,7 @@ per_test_args
                     
 #
 in
-per
--
-test
+verify
 mode
 remove
 any
@@ -7752,7 +7754,7 @@ final_cmd
 .
 extend
 (
-per_test_args
+verify_args
 )
                 
 self
@@ -7902,7 +7904,7 @@ test_suite
 if
 len
 (
-per_test_args
+verify_args
 )
 >
 0
@@ -7920,9 +7922,9 @@ log_level
                     
 self
 .
-log_per_test_status
+log_verify_status
 (
-per_test_args
+verify_args
 [
 -
 1
