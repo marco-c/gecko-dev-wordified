@@ -3305,6 +3305,7 @@ mShmPool
 .
 SetImageDataFromPool
 (
+&
 aSourceBuffer
 -
 >
@@ -3473,7 +3474,7 @@ mWaylandDisplay
 (
 WaylandDisplayGet
 (
-aWidget
+aWindow
 -
 >
 GetWaylandDisplay
@@ -3815,7 +3816,7 @@ buffer
 mFrontBuffer
 -
 >
-Sync
+SetImageDataFromBackBuffer
 (
 mBackBuffer
 )

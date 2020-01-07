@@ -312,6 +312,8 @@ class
 WaylandShmPool
 *
 aSourcePool
+int
+aImageDataSize
 )
 ;
 private
