@@ -57,6 +57,9 @@ JSString
 simple
 )
 {
+AutoSuppressHazardsForTest
+noanalysis
+;
 JS
 :
 :
@@ -378,6 +381,9 @@ JSString
 null
 )
 {
+AutoSuppressHazardsForTest
+noanalysis
+;
 JS
 :
 :
