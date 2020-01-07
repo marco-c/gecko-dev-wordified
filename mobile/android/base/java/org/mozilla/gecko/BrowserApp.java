@@ -6122,9 +6122,9 @@ registerUiThreadListener
 (
 this
 "
-GeckoView
+Accessibility
 :
-AccessibilityEnabled
+Enabled
 "
 "
 Menu
@@ -10826,9 +10826,9 @@ unregisterUiThreadListener
 (
 this
 "
-GeckoView
+Accessibility
 :
-AccessibilityEnabled
+Enabled
 "
 "
 Menu
@@ -12251,9 +12251,9 @@ break
 ;
 case
 "
-GeckoView
+Accessibility
 :
-AccessibilityEnabled
+Enabled
 "
 :
 mDynamicToolbar
