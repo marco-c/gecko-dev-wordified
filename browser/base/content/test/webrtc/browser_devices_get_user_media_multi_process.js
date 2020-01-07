@@ -873,9 +873,7 @@ s
 stream
 .
 await
-TestUtils
-.
-waitForCondition
+promiseWaitForCondition
 (
 (
 )
@@ -1845,15 +1843,12 @@ s
 stream
 .
 await
-TestUtils
-.
-waitForCondition
+promiseWaitForCondition
 (
 (
 )
 =
 >
-!
 webrtcUI
 .
 showCameraIndicator
