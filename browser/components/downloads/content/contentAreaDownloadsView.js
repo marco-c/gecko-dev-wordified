@@ -63,7 +63,7 @@ import
 globals
 -
 from
-allDownloadsViewOverlay
+allDownloadsView
 .
 js
 *

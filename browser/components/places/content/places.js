@@ -94,12 +94,6 @@ js
 *
 /
 /
-/
-Via
-allDownloadsViewOverlay
-.
-xul
-/
 *
 import
 -
@@ -189,7 +183,7 @@ downloads
 /
 content
 /
-allDownloadsViewOverlay
+allDownloadsView
 .
 js
 *
