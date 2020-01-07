@@ -819,7 +819,7 @@ nullptr
 )
 ;
 HRESULT
-ThreadSafeQueryInterface
+WeakRefQueryInterface
 (
 REFIID
 aIid
@@ -893,7 +893,7 @@ mozilla
 :
 :
 Mutex
-mMutex
+mInterceptorMapMutex
 ;
 /
 /
@@ -922,6 +922,18 @@ MapEntry
 >
 mInterceptorMap
 ;
+mozilla
+:
+:
+Mutex
+mStdMarshalMutex
+;
+/
+/
+Guards
+mStdMarshalUnk
+and
+mStdMarshal
 RefPtr
 <
 IUnknown
