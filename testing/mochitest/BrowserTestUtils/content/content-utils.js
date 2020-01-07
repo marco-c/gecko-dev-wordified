@@ -140,8 +140,6 @@ DOMContentLoadedEvent
 "
 {
 subframe
-:
-subframe
 internalURL
 :
 event
@@ -199,8 +197,6 @@ utils
 loadEvent
 "
 {
-subframe
-:
 subframe
 internalURL
 :

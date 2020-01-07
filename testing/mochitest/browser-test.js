@@ -179,9 +179,9 @@ appinfo
 OS
 =
 =
-'
+"
 Android
-'
+"
 )
 {
 window
@@ -252,8 +252,6 @@ promiseResolver
 :
 null
 init
-:
-function
 (
 )
 {
@@ -291,8 +289,6 @@ disconnect
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -330,8 +326,6 @@ disconnect
 ;
 }
 observe
-:
-function
 (
 subject
 topic
@@ -411,8 +405,6 @@ promiseResolver
 }
 }
 wait
-:
-function
 (
 )
 {
@@ -1834,6 +1826,7 @@ binding
 :
 null
 }
+;
 }
 /
 /
@@ -8189,8 +8182,6 @@ here
 return
 ;
 }
-else
-{
 currentTest
 .
 addResult
@@ -8248,7 +8239,6 @@ allowFailure
 )
 )
 ;
-}
 }
 PromiseTestUtils
 .
@@ -8912,8 +8902,6 @@ gTimeoutSeconds
 }
 }
 QueryInterface
-:
-function
 (
 aIID
 )
@@ -9508,6 +9496,18 @@ your
 test
 run
 .
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+no
+-
+debugger
 debugger
 ;
 }
@@ -9901,8 +9901,6 @@ dispatchToMainThread
 (
 {
 run
-:
-function
 (
 )
 {
@@ -10318,6 +10316,7 @@ activateBuffering
 ;
 }
 )
+;
 }
 ;
 /
@@ -10808,8 +10807,6 @@ foo
 *
 /
 add_task
-:
-function
 (
 aFunction
 )

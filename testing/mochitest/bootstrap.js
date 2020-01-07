@@ -469,8 +469,6 @@ go
 here
 .
 setupWindow
-:
-function
 (
 win
 )
@@ -508,8 +506,6 @@ jsm
 ;
 }
 tearDownWindow
-:
-function
 (
 win
 )
@@ -538,8 +534,6 @@ undefined
 }
 }
 onOpenWindow
-:
-function
 (
 win
 )
@@ -614,6 +608,7 @@ true
 ;
 }
 }
+;
 function
 loadMochitest
 (
@@ -660,11 +655,11 @@ win
 .
 removeEventListener
 (
-'
+"
 mochitest
 -
 load
-'
+"
 loadMochitest
 )
 ;
@@ -791,11 +786,11 @@ win
 .
 addEventListener
 (
-'
+"
 mochitest
 -
 load
-'
+"
 loadMochitest
 )
 ;

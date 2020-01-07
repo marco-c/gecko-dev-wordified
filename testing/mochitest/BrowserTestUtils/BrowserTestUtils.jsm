@@ -701,6 +701,7 @@ url
 :
 options
 }
+;
 }
 let
 tab
@@ -2017,8 +2018,6 @@ url
 )
 ;
 }
-else
-{
 /
 /
 It
@@ -2033,7 +2032,6 @@ wantLoad
 =
 url
 ;
-}
 }
 return
 new
@@ -2428,6 +2426,7 @@ about
 blank
 "
 )
+;
 }
 )
 ;
@@ -2737,7 +2736,6 @@ resolve
 ;
 }
 }
-;
 }
 onSecurityChange
 (
@@ -5251,6 +5249,7 @@ browser
 ;
 }
 )
+;
 let
 mm
 =
@@ -7836,8 +7835,6 @@ y
 :
 offsetY
 event
-:
-event
 }
 {
 object
@@ -8523,9 +8520,9 @@ dirsvc
 .
 get
 (
-'
+"
 ProfD
-'
+"
 Ci
 .
 nsIFile
@@ -8760,6 +8757,7 @@ int32_t
 badptr
 .
 contents
+;
 }
 ;
 dump
@@ -8780,6 +8778,7 @@ dies
 )
 ;
 }
+;
 let
 expectedPromises
 =
@@ -8953,9 +8952,9 @@ subject
 .
 getPropertyAsAString
 (
-'
+"
 dumpID
-'
+"
 )
 ;
 if
@@ -9039,10 +9038,10 @@ append
 (
 dumpID
 +
-'
+"
 .
 extra
-'
+"
 )
 ;
 if
@@ -9092,7 +9091,7 @@ else
 {
 dump
 (
-'
+"
 \
 nCrashReporter
 not
@@ -9106,7 +9105,7 @@ extra
 data
 \
 n
-'
+"
 )
 ;
 }
@@ -9121,10 +9120,10 @@ removeFile
 minidumpDirectory
 dumpID
 +
-'
+"
 .
 dmp
-'
+"
 )
 ;
 removeFile
@@ -9132,10 +9131,10 @@ removeFile
 minidumpDirectory
 dumpID
 +
-'
+"
 .
 extra
-'
+"
 )
 ;
 }
@@ -9159,13 +9158,13 @@ obs
 removeObserver
 (
 observer
-'
+"
 ipc
 :
 content
 -
 shutdown
-'
+"
 )
 ;
 dump
@@ -9244,13 +9243,13 @@ obs
 addObserver
 (
 observer
-'
+"
 ipc
 :
 content
 -
 shutdown
-'
+"
 )
 ;
 }
@@ -9608,8 +9607,6 @@ disconnect
 (
 )
 ;
-return
-;
 }
 }
 )
@@ -9829,10 +9826,6 @@ SendChar
 "
 {
 char
-:
-char
-seq
-:
 seq
 }
 )
@@ -10960,6 +10953,7 @@ resolve
 ;
 }
 )
+;
 }
 )
 ;

@@ -166,8 +166,6 @@ ContentCollector
 =
 {
 init
-:
-function
 (
 )
 {
@@ -251,8 +249,6 @@ this
 ;
 }
 receiveMessage
-:
-function
 (
 aMessage
 )
@@ -395,6 +391,7 @@ finish
 ;
 }
 )
+;
 }
 1000
 )
