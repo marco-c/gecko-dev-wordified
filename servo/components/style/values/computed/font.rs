@@ -235,7 +235,6 @@ computed
 Angle
 Context
 Integer
-NonNegative
 NonNegativeLength
 NonNegativePercentage
 }
@@ -6744,13 +6743,13 @@ Self
 :
 AnimatedValue
 {
-(
 self
 .
 0
-)
 .
-0
+to_animated_value
+(
+)
 }
 #
 [
@@ -6772,7 +6771,10 @@ Self
 {
 FontStretch
 (
-NonNegative
+NonNegativePercentage
+:
+:
+from_animated_value
 (
 animated
 )
