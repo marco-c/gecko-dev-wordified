@@ -671,6 +671,10 @@ extern
 crate
 unicode_segmentation
 ;
+extern
+crate
+void
+;
 #
 [
 macro_use
