@@ -1077,7 +1077,7 @@ GetCurrentAsyncTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForCompositing
 )
 )
 .
