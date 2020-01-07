@@ -176,6 +176,11 @@ animation_value_type
 "
 AnimatedBoxShadowList
 "
+vector_animation_type
+=
+"
+with_zero
+"
 extra_prefixes
 =
 "
@@ -294,6 +299,11 @@ animation_value_type
 =
 "
 AnimatedFilterList
+"
+vector_animation_type
+=
+"
+with_zero
 "
 extra_prefixes
 =

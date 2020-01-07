@@ -2353,6 +2353,7 @@ ComputeSquaredDistance
 Copy
 MallocSizeOf
 PartialEq
+ToAnimatedValue
 ToAnimatedZero
 ToCss
 )

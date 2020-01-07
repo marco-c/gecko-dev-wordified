@@ -1486,7 +1486,6 @@ dasharray
 derive
 (
 Clone
-ComputeSquaredDistance
 Debug
 MallocSizeOf
 PartialEq
@@ -1539,13 +1538,6 @@ if_empty
 none
 "
 iterable
-)
-]
-#
-[
-distance
-(
-field_bound
 )
 ]
 Vec

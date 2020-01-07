@@ -1540,6 +1540,11 @@ None
 vector
 =
 True
+vector_animation_type
+=
+"
+with_zero
+"
 animation_value_type
 =
 "
