@@ -185,7 +185,7 @@ class
 SharedMessagePortMessage
 ;
 class
-WorkerHolder
+StrongWorkerRef
 ;
 class
 MessagePort
@@ -901,11 +901,11 @@ return
 mIsKeptAlive
 ;
 }
-nsAutoPtr
+RefPtr
 <
-WorkerHolder
+StrongWorkerRef
 >
-mWorkerHolder
+mWorkerRef
 ;
 RefPtr
 <

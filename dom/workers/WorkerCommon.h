@@ -186,6 +186,11 @@ GetCurrentThreadWorkerPrivate
 )
 ;
 bool
+IsCurrentThreadRunningWorker
+(
+)
+;
+bool
 IsCurrentThreadRunningChromeWorker
 (
 )

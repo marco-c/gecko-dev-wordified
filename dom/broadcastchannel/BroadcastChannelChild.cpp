@@ -225,17 +225,6 @@ StructuredCloneData
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-WorkerPrivate
-.
-h
-"
 namespace
 mozilla
 {
