@@ -879,6 +879,7 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+ToComputedValue
 ToCss
 )
 ]
@@ -934,12 +935,6 @@ Unsupported
 CustomIdent
 )
 }
-trivial_to_computed_value
-!
-(
-TransitionProperty
-)
-;
 impl
 TransitionProperty
 {

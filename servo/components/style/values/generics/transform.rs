@@ -2206,7 +2206,6 @@ Integer
 [
 derive
 (
-Animate
 Clone
 Debug
 MallocSizeOf

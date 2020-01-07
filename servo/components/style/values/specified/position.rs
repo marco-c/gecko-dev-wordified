@@ -4010,6 +4010,7 @@ derive
 Clone
 Debug
 PartialEq
+ToComputedValue
 ToCss
 )
 ]
@@ -4755,12 +4756,6 @@ UnspecifiedError
 )
 }
 }
-trivial_to_computed_value
-!
-(
-TemplateAreas
-)
-;
 /
 /
 /
@@ -4779,6 +4774,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+ToComputedValue
 ToCss
 )
 ]
@@ -4871,12 +4867,6 @@ parsed
 )
 }
 }
-trivial_to_computed_value
-!
-(
-TemplateAreasArc
-)
-;
 #
 [
 cfg_attr

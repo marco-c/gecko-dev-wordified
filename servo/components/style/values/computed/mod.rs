@@ -3393,12 +3393,6 @@ Atom
 trivial_to_computed_value
 !
 (
-BorderStyle
-)
-;
-trivial_to_computed_value
-!
-(
 CursorKind
 )
 ;

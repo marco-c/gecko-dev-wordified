@@ -4838,6 +4838,7 @@ Debug
 Default
 MallocSizeOf
 PartialEq
+ToComputedValue
 )
 ]
 pub
@@ -4890,12 +4891,6 @@ Option
 u32
 >
 }
-trivial_to_computed_value
-!
-(
-LineNameList
-)
-;
 impl
 Parse
 for

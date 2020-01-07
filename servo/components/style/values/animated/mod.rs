@@ -1505,8 +1505,6 @@ where
 T
 :
 Animate
-+
-Copy
 {
 #
 [
@@ -1585,8 +1583,6 @@ where
 T
 :
 Animate
-+
-Copy
 {
 #
 [

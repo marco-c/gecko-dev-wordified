@@ -248,6 +248,7 @@ missing_docs
 [
 derive
 (
+Animate
 Clone
 Copy
 Debug
@@ -348,6 +349,7 @@ Serialize
 [
 derive
 (
+Animate
 Clone
 Copy
 Debug
@@ -428,13 +430,6 @@ ImageOrUrl
 Shape
 (
 BasicShape
-#
-[
-animation
-(
-constant
-)
-]
 Option
 <
 ReferenceBox
