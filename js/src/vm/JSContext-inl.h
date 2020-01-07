@@ -2464,7 +2464,7 @@ MOZ_UNLIKELY
 cx
 -
 >
-hasPendingInterrupt
+hasAnyPendingInterrupt
 (
 )
 )

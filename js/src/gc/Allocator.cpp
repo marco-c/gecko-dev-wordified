@@ -2523,7 +2523,7 @@ if
 cx
 -
 >
-hasPendingInterrupt
+hasAnyPendingInterrupt
 (
 )
 )

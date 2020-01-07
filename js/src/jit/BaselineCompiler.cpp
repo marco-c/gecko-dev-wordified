@@ -4612,7 +4612,7 @@ AbsoluteAddress
 cx
 -
 >
-addressOfInterrupt
+addressOfInterruptBits
 (
 )
 )

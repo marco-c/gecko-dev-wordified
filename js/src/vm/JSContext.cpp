@@ -7326,13 +7326,9 @@ interruptCallbackDisabled
 (
 false
 )
-interrupt_
+interruptBits_
 (
-false
-)
-interruptRegExpJit_
-(
-false
+0
 )
 osrTempData_
 (

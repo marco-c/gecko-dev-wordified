@@ -504,7 +504,7 @@ void
 CompileRuntime
 :
 :
-addressOfInterrupt
+addressOfInterruptBits
 (
 )
 {
@@ -519,7 +519,7 @@ mainContextFromAnyThread
 )
 -
 >
-addressOfInterrupt
+addressOfInterruptBits
 (
 )
 ;
