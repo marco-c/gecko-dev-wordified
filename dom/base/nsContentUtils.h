@@ -10859,7 +10859,13 @@ nsString
 aTagStack
 bool
 aPreventScriptExecution
-nsIDOMDocumentFragment
+mozilla
+:
+:
+dom
+:
+:
+DocumentFragment
 *
 *
 aReturn
