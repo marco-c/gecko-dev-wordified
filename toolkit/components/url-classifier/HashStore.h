@@ -877,7 +877,7 @@ std
 string
 mStorage
 ;
-nsDependentCSubstring
+nsCString
 mString
 ;
 public
@@ -902,7 +902,7 @@ mStorage
 ;
 mString
 .
-Rebind
+AssignLiteral
 (
 mStorage
 .
