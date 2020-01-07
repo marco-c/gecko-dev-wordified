@@ -116,7 +116,7 @@ selectedTab
 =
 newTab
 ;
-openUILinkIn
+openTrustedLinkIn
 (
 "
 http

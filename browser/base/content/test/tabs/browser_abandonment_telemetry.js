@@ -1005,7 +1005,7 @@ doAction
 browser
 )
 {
-openUILinkIn
+openTrustedLinkIn
 (
 PAGE_2
 "
