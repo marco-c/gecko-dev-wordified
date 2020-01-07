@@ -904,7 +904,7 @@ protected
 by
 sThreadMonitor
 static
-RefPtr
+StaticRefPtr
 <
 VideoEngine
 >
