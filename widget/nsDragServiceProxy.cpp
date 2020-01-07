@@ -289,6 +289,10 @@ NS_FAILED
 (
 rv
 )
+|
+|
+!
+principalURI
 )
 {
 return
