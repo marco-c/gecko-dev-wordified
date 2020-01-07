@@ -270,12 +270,6 @@ CSSPseudoElementType
 :
 uint8_t
 ;
-enum
-class
-StyleBackendType
-:
-uint8_t
-;
 struct
 PropertyStyleAnimationValuePair
 ;
@@ -684,8 +678,6 @@ static
 AnimationValue
 Opacity
 (
-StyleBackendType
-aBackendType
 float
 aOpacity
 )
@@ -704,8 +696,6 @@ static
 AnimationValue
 Transform
 (
-StyleBackendType
-aBackendType
 nsCSSValueSharedList
 &
 aList

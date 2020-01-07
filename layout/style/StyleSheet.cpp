@@ -276,8 +276,6 @@ StyleSheet
 :
 StyleSheet
 (
-StyleBackendType
-aType
 css
 :
 :
@@ -304,10 +302,6 @@ nullptr
 mParsingMode
 (
 aParsingMode
-)
-mType
-(
-aType
 )
 mDisabled
 (
@@ -380,12 +374,6 @@ mParsingMode
 aCopy
 .
 mParsingMode
-)
-mType
-(
-aCopy
-.
-mType
 )
 mDisabled
 (

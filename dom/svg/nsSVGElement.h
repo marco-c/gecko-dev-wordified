@@ -2047,11 +2047,6 @@ override
 void
 UpdateContentDeclarationBlock
 (
-mozilla
-:
-:
-StyleBackendType
-aBackend
 )
 ;
 const

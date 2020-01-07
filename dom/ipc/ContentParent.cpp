@@ -13933,14 +13933,6 @@ file
 URL
 instead
 .
-StyleBackendType
-backendType
-=
-StyleBackendType
-:
-:
-Servo
-;
 StyleSheet
 *
 ucs

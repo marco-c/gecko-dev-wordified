@@ -3012,14 +3012,6 @@ Animatable
 aAnimatable
 )
 {
-StyleBackendType
-backend
-=
-StyleBackendType
-:
-:
-Servo
-;
 AnimationValue
 result
 ;
@@ -3110,7 +3102,6 @@ AnimationValue
 :
 Transform
 (
-backend
 *
 list
 )
@@ -3132,7 +3123,6 @@ AnimationValue
 :
 Opacity
 (
-backend
 aAnimatable
 .
 get_float

@@ -139,15 +139,6 @@ include
 "
 mozilla
 /
-StyleBackendType
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoBindings
 .
 h
@@ -804,10 +795,6 @@ aIntegrity
 :
 StyleSheet
 (
-StyleBackendType
-:
-:
-Servo
 aParsingMode
 )
 {

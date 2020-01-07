@@ -188,10 +188,6 @@ aDecl
 :
 GenericSpecifiedValues
 (
-StyleBackendType
-:
-:
-Servo
 aDocument
 NS_STYLE_INHERIT_MASK
 )
