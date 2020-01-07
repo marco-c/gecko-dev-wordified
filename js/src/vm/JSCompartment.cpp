@@ -444,10 +444,6 @@ marked
 (
 true
 )
-warnedAboutExprClosure
-(
-false
-)
 warnedAboutStringGenericsMethods
 (
 0

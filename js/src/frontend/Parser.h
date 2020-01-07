@@ -5931,11 +5931,6 @@ errorNumber
 .
 )
 ;
-bool
-warnOnceAboutExprClosure
-(
-)
-;
 /
 *
 *

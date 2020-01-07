@@ -4427,11 +4427,6 @@ isSelfHosting
 bool
 marked
 ;
-bool
-warnedAboutExprClosure
-:
-1
-;
 uint32_t
 warnedAboutStringGenericsMethods
 ;
