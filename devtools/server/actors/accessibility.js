@@ -1569,7 +1569,7 @@ this
 .
 rawAccessible
 .
-getBounds
+getBoundsInCSSPixels
 (
 x
 y
