@@ -34906,6 +34906,14 @@ interner
 throws
 SAXException
 {
+/
+/
+CPPONLY
+:
+mCurrentHtmlScriptIsAsyncOrDefer
+=
+false
+;
 StackNode
 <
 T

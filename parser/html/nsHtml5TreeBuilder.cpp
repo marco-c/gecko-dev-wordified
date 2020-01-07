@@ -22937,6 +22937,10 @@ nsHtml5AtomTable
 interner
 )
 {
+mCurrentHtmlScriptIsAsyncOrDefer
+=
+false
+;
 jArray
 <
 nsHtml5StackNode
