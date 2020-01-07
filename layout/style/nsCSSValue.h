@@ -1589,9 +1589,10 @@ thread
 .
 URLValue
 (
-const
-nsAString
-&
+ServoRawOffsetArc
+<
+RustString
+>
 aString
 already_AddRefed
 <
