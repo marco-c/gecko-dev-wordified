@@ -38574,13 +38574,13 @@ mFlags
 }
 ;
 void
-PresShell
+nsIPresShell
 :
 :
 RecordShadowStyleChange
 (
 ShadowRoot
-*
+&
 aShadowRoot
 )
 {

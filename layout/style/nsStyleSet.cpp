@@ -14379,7 +14379,7 @@ nsStyleSet
 RecordShadowStyleChange
 (
 ShadowRoot
-*
+&
 aShadowRoot
 )
 {
@@ -14396,14 +14396,8 @@ mChangedScopeStyleRoots
 AppendElement
 (
 aShadowRoot
--
->
-GetHost
-(
-)
--
->
-AsElement
+.
+Host
 (
 )
 )

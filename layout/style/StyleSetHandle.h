@@ -1134,7 +1134,7 @@ dom
 :
 :
 ShadowRoot
-*
+&
 aShadowRoot
 )
 ;
