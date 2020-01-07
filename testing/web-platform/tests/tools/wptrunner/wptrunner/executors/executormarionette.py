@@ -3298,6 +3298,19 @@ e
             
 self
 .
+logger
+.
+warning
+(
+traceback
+.
+format_exc
+(
+)
+)
+            
+self
+.
 result
 =
 False
@@ -3827,6 +3840,27 @@ async
 =
 True
 )
+            
+if
+result
+is
+None
+:
+                
+#
+This
+can
+happen
+if
+we
+get
+an
+content
+process
+crash
+                
+return
+None
             
 done
 rv
