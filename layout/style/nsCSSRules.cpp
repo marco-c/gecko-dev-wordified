@@ -168,6 +168,13 @@ h
 #
 include
 "
+mozAutoDocUpdate
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StyleSheetInlines

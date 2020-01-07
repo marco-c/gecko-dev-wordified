@@ -147,6 +147,9 @@ nsIDocument
 class
 nsCSSValue
 ;
+class
+nsStaticAtom
+;
 struct
 nsMediaFeature
 ;

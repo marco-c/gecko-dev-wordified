@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h

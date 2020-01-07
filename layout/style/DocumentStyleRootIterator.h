@@ -133,6 +133,9 @@ nsIContent
 class
 nsIDocument
 ;
+class
+nsINode
+;
 namespace
 mozilla
 {

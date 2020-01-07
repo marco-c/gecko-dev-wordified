@@ -131,6 +131,9 @@ Rule
 .
 h
 "
+class
+nsICSSDeclaration
+;
 namespace
 mozilla
 {

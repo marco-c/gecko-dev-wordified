@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsFontMetrics
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h

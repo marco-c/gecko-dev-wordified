@@ -152,6 +152,15 @@ include
 "
 mozilla
 /
+EventStates
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -319,6 +328,9 @@ CSS_PSEUDO_CLASS_ENABLED_IN_CHROME
 )
 class
 nsAtom
+;
+class
+nsIDocument
 ;
 namespace
 mozilla
