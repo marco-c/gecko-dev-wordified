@@ -161,6 +161,15 @@ WidgetNodeType
 aNodeType
 )
 ;
+GdkPixbuf
+*
+GetWidgetIconPixbuf
+(
+GtkWidget
+*
+aWidgetIcon
+)
+;
 /
 *
 *
