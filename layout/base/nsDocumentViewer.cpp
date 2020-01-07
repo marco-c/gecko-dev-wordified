@@ -20844,9 +20844,9 @@ nsDocViewerSelectionListener
 :
 NotifySelectionChanged
 (
-nsIDOMDocument
+nsIDocument
 *
-nsISelection
+Selection
 *
 int16_t
 aReason
