@@ -425,6 +425,16 @@ ancestorSC
 mParent
 ;
 }
+ancestorSC
+=
+aBuilder
+-
+>
+CopyWholeChain
+(
+ancestorSC
+)
+;
 aClipChainOnStack
 .
 mParent
