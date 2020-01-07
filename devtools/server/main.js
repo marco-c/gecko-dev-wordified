@@ -2916,6 +2916,8 @@ server
 actors
 /
 inspector
+/
+inspector
 "
 {
 prefix

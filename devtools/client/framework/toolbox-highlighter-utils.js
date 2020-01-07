@@ -1579,6 +1579,8 @@ server
 actors
 /
 inspector
+/
+inspector
 .
 js
 *

@@ -86,6 +86,8 @@ server
 actors
 /
 inspector
+/
+inspector
 "
 )
 ;

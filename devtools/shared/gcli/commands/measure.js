@@ -121,6 +121,8 @@ server
 actors
 /
 inspector
+/
+inspector
 "
 )
 ;
