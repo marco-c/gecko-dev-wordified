@@ -2224,6 +2224,11 @@ PreservesPitchChanged
 (
 )
 ;
+void
+LoopingChanged
+(
+)
+;
 MediaQueue
 <
 AudioData
@@ -4420,6 +4425,9 @@ mOnNextFrameStatus
 const
 bool
 mIsMSE
+;
+bool
+mSeamlessLoopingAllowed
 ;
 private
 :
