@@ -800,7 +800,7 @@ MOZ_ASSERT
 aAtom
 -
 >
-IsDynamicAtom
+IsDynamic
 (
 )
 )
@@ -1151,7 +1151,7 @@ HTML5Atom
 MOZ_ASSERT_IF
 (
 !
-IsHTML5Atom
+IsHTML5
 (
 )
 mHash
@@ -1309,19 +1309,19 @@ nsAtom
 if
 (
 !
-IsStaticAtom
+IsStatic
 (
 )
 )
 {
 MOZ_ASSERT
 (
-IsDynamicAtom
+IsDynamic
 (
 )
 |
 |
-IsHTML5Atom
+IsHTML5
 (
 )
 )
@@ -1364,7 +1364,7 @@ declaration
 .
 if
 (
-IsStaticAtom
+IsStatic
 (
 )
 )
@@ -1450,7 +1450,7 @@ const
 MOZ_ASSERT
 (
 !
-IsHTML5Atom
+IsHTML5
 (
 )
 "
@@ -1493,7 +1493,7 @@ const
 MOZ_ASSERT
 (
 !
-IsHTML5Atom
+IsHTML5
 (
 )
 "
@@ -1518,7 +1518,7 @@ this
 ;
 if
 (
-IsStaticAtom
+IsStatic
 (
 )
 )
@@ -2734,7 +2734,7 @@ if
 atom
 -
 >
-IsStaticAtom
+IsStatic
 (
 )
 )
@@ -3941,7 +3941,7 @@ entry
 mAtom
 -
 >
-IsStaticAtom
+IsStatic
 (
 )
 )
@@ -3964,7 +3964,7 @@ MOZ_ASSERT
 atom
 -
 >
-IsHTML5Atom
+IsHTML5
 (
 )
 )
@@ -3974,7 +3974,7 @@ if
 atom
 -
 >
-IsDynamicAtom
+IsDynamic
 (
 )
 &
@@ -4393,7 +4393,7 @@ AddRef
 MOZ_ASSERT
 (
 !
-IsHTML5Atom
+IsHTML5
 (
 )
 "
@@ -4407,7 +4407,7 @@ atom
 )
 ;
 return
-IsStaticAtom
+IsStatic
 (
 )
 ?
@@ -4438,7 +4438,7 @@ Release
 MOZ_ASSERT
 (
 !
-IsHTML5Atom
+IsHTML5
 (
 )
 "
@@ -4452,7 +4452,7 @@ atom
 )
 ;
 return
-IsStaticAtom
+IsStatic
 (
 )
 ?
@@ -5093,7 +5093,7 @@ he
 mAtom
 -
 >
-IsStaticAtom
+IsStatic
 (
 )
 )
@@ -5998,7 +5998,7 @@ he
 mAtom
 -
 >
-IsStaticAtom
+IsStatic
 (
 )
 ?

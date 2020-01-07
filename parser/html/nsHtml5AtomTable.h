@@ -296,7 +296,7 @@ atoms
 (
 atoms
 whose
-IsStaticAtom
+IsStatic
 (
 )
 returns

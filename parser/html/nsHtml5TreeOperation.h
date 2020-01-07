@@ -426,7 +426,7 @@ aAtom
 aAtom
 -
 >
-IsStaticAtom
+IsStatic
 (
 )
 )

@@ -11941,7 +11941,7 @@ return
 localName
 -
 >
-IsStaticAtom
+IsStatic
 (
 )
 ?

@@ -522,7 +522,7 @@ if
 local
 -
 >
-IsStaticAtom
+IsStatic
 (
 )
 )

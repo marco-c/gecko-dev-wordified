@@ -263,7 +263,7 @@ mKind
 ;
 }
 bool
-IsDynamicAtom
+IsDynamic
 (
 )
 const
@@ -281,7 +281,7 @@ DynamicAtom
 ;
 }
 bool
-IsHTML5Atom
+IsHTML5
 (
 )
 const
@@ -299,7 +299,7 @@ HTML5Atom
 ;
 }
 bool
-IsStaticAtom
+IsStatic
 (
 )
 const
@@ -405,12 +405,12 @@ declaration
 .
 MOZ_ASSERT
 (
-IsDynamicAtom
+IsDynamic
 (
 )
 |
 |
-IsHTML5Atom
+IsHTML5
 (
 )
 )
@@ -511,7 +511,7 @@ const
 MOZ_ASSERT
 (
 !
-IsHTML5Atom
+IsHTML5
 (
 )
 )
