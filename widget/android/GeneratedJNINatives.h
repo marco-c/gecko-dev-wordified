@@ -3084,7 +3084,7 @@ LayerSession
 Compositor
 :
 :
-AttachToJava_t
+AttachNPZC_t
 >
 (
 mozilla
@@ -3101,7 +3101,7 @@ LayerSession
 Compositor
 :
 :
-AttachToJava_t
+AttachNPZC_t
 Impl
 >
 :
@@ -3113,7 +3113,7 @@ Wrap
 Impl
 :
 :
-AttachToJava
+AttachNPZC
 >
 )
 mozilla
