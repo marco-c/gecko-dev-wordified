@@ -28980,7 +28980,6 @@ content_privileged_about_uris_without_csp
 blank
 cache
 certerror
-checkerboard
 credits
 home
 logo
