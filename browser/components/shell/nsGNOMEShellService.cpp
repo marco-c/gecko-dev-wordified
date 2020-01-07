@@ -1200,7 +1200,7 @@ web
 browser
 "
 "
-firefox_firefox
+firefox
 .
 desktop
 "
@@ -1591,7 +1591,7 @@ web
 browser
 "
 "
-firefox_firefox
+firefox
 .
 desktop
 "
