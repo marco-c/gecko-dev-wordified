@@ -419,6 +419,10 @@ Shareable
 sharedMemoryEnabled
 ;
 const
+HasGcTypes
+gcTypesEnabled
+;
+const
 Tier
 tier
 ;
@@ -527,6 +531,8 @@ Tier
 tier
 DebugEnabled
 debug
+HasGcTypes
+hasGcTypes
 Shareable
 sharedMemoryEnabled
 ModuleKind
@@ -553,6 +559,10 @@ mode
 sharedMemoryEnabled
 (
 sharedMemoryEnabled
+)
+gcTypesEnabled
+(
+hasGcTypes
 )
 tier
 (

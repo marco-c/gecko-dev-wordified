@@ -534,6 +534,10 @@ DebugEnabled
 :
 :
 False
+HasGcTypes
+:
+:
+False
 cx
 -
 >
