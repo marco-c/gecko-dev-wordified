@@ -17414,6 +17414,11 @@ XMLHttpRequest
 :
 1
 ;
+bool
+XMLSerializer
+:
+1
+;
 /
 /
 Ad
