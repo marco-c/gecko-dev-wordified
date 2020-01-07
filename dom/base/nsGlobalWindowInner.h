@@ -4035,6 +4035,8 @@ const
 ;
 #
 endif
+already_AddRefed
+<
 mozilla
 :
 :
@@ -4042,7 +4044,7 @@ dom
 :
 :
 Console
-*
+>
 GetConsole
 (
 mozilla

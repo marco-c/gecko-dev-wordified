@@ -435,8 +435,10 @@ return
 this
 ;
 }
+already_AddRefed
+<
 Console
-*
+>
 GetConsole
 (
 ErrorResult
@@ -1671,8 +1673,10 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
 Console
-*
+>
 GetConsole
 (
 ErrorResult
