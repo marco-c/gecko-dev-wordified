@@ -352,6 +352,12 @@ TypeInState
 class
 WSRunObject
 ;
+enum
+class
+EditAction
+:
+int32_t
+;
 struct
 PropItem
 ;

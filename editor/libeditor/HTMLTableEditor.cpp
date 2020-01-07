@@ -130,6 +130,15 @@ include
 "
 mozilla
 /
+EditAction
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EditorDOMPoint
 .
 h
