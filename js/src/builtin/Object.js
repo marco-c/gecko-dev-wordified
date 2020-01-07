@@ -92,6 +92,11 @@ keys
 OwnPropertyKeys
 (
 obj
+JSITER_OWNONLY
+|
+JSITER_HIDDEN
+|
+JSITER_SYMBOLS
 )
 ;
 /
