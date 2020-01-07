@@ -1336,7 +1336,7 @@ nsXULCommandDispatcher
 :
 AddCommandUpdater
 (
-nsIDOMElement
+Element
 *
 aElement
 const
@@ -1732,7 +1732,7 @@ nsXULCommandDispatcher
 :
 RemoveCommandUpdater
 (
-nsIDOMElement
+Element
 *
 aElement
 )
