@@ -168,6 +168,8 @@ const
 ParentLayerPoint
 &
 aVelocity
+float
+aPLPPI
 )
 ;
 void

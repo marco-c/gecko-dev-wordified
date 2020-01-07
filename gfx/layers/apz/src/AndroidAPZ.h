@@ -183,6 +183,8 @@ const
 FlingHandoffState
 &
 aHandoffState
+float
+aPLPPI
 )
 override
 ;
