@@ -6662,8 +6662,6 @@ C
 2017
 Update
 6
-or
-newer
 in
 order
 to
@@ -6728,8 +6726,6 @@ C
 2017
 Update
 6
-or
-newer
 in
 order
 to
@@ -6794,8 +6790,6 @@ C
 2017
 Update
 6
-or
-newer
 in
 order
 to
@@ -6860,8 +6854,6 @@ C
 2017
 Update
 6
-or
-newer
 in
 order
 to
@@ -6926,8 +6918,6 @@ C
 2017
 Update
 6
-or
-newer
 in
 order
 to
@@ -6992,8 +6982,6 @@ C
 2017
 Update
 6
-or
-newer
 in
 order
 to
@@ -7058,8 +7046,6 @@ C
 2017
 Update
 6
-or
-newer
 in
 order
 to
