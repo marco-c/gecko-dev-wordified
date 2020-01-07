@@ -80,6 +80,10 @@ extern
 crate
 servo_allocator
 ;
+extern
+crate
+servo_config
+;
 mod
 time
 ;
