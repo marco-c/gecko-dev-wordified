@@ -146,6 +146,9 @@ public
 :
 VideoTrack
 (
+nsIGlobalObject
+*
+aOwnerGlobal
 const
 nsAString
 &

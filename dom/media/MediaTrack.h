@@ -292,6 +292,9 @@ public
 :
 MediaTrack
 (
+nsIGlobalObject
+*
+aOwnerGlobal
 const
 nsAString
 &
@@ -495,14 +498,6 @@ SetTrackList
 MediaTrackList
 *
 aList
-)
-;
-void
-Init
-(
-nsPIDOMWindowInner
-*
-aOwnerWindow
 )
 ;
 RefPtr

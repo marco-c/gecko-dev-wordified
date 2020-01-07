@@ -140,6 +140,9 @@ public
 :
 AudioTrack
 (
+nsIGlobalObject
+*
+aOwnerGlobal
 const
 nsAString
 &
