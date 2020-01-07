@@ -1553,7 +1553,7 @@ DNSRequestChild
 DNSRequestChild
 (
 const
-nsCString
+nsACString
 &
 aHost
 const
@@ -1565,7 +1565,7 @@ uint32_t
 &
 aFlags
 const
-nsCString
+nsACString
 &
 aNetworkInterface
 nsIDNSListener

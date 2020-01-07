@@ -1172,16 +1172,10 @@ childReq
 new
 DNSRequestChild
 (
-nsCString
-(
 hostname
-)
 aOriginAttributes
 flags
-nsCString
-(
 aNetworkInterface
-)
 listener
 target
 )

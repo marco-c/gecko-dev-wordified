@@ -178,7 +178,7 @@ NS_DECL_NSICANCELABLE
 DNSRequestChild
 (
 const
-nsCString
+nsACString
 &
 aHost
 const
@@ -190,7 +190,7 @@ uint32_t
 &
 aFlags
 const
-nsCString
+nsACString
 &
 aNetworkInterface
 nsIDNSListener
