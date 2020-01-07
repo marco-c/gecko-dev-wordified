@@ -3724,6 +3724,9 @@ return
 false
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 bool
 EffectCompositor
 :
@@ -3787,9 +3790,6 @@ return
 false
 ;
 }
-#
-ifdef
-MOZ_OLD_STYLE
 void
 EffectCompositor
 :

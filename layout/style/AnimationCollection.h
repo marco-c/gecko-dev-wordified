@@ -314,10 +314,15 @@ mElementProperty
 (
 aElementProperty
 )
+#
+ifdef
+MOZ_OLD_STYLE
 mCheckGeneration
 (
 0
 )
+#
+endif
 #
 ifdef
 DEBUG
@@ -651,6 +656,9 @@ AnimationType
 >
 mAnimations
 ;
+#
+ifdef
+MOZ_OLD_STYLE
 /
 /
 For
@@ -739,6 +747,8 @@ nsPresContext
 aPresContext
 )
 ;
+#
+endif
 private
 :
 static
