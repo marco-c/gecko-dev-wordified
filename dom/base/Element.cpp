@@ -480,13 +480,6 @@ h
 #
 include
 "
-nsIDOMMutationEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -525,6 +518,17 @@ mozilla
 dom
 /
 KeyframeAnimationOptionsBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+MutationEventBinding
 .
 h
 "
@@ -15063,7 +15067,7 @@ static_cast
 uint8_t
 >
 (
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 MODIFICATION
@@ -15074,7 +15078,7 @@ static_cast
 uint8_t
 >
 (
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 ADDITION
@@ -15283,7 +15287,7 @@ static_cast
 uint8_t
 >
 (
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 ADDITION
@@ -16387,7 +16391,7 @@ aName
 aModType
 =
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 ADDITION
@@ -17575,7 +17579,7 @@ AttributeWillChange
 this
 aNameSpaceID
 aName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 REMOVAL
@@ -18058,7 +18062,7 @@ AttributeChanged
 this
 aNameSpaceID
 aName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 REMOVAL
@@ -18150,7 +18154,7 @@ mutation
 .
 mAttrChange
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 REMOVAL

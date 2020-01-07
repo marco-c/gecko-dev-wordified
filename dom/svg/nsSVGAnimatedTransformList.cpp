@@ -128,6 +128,17 @@ mozilla
 /
 dom
 /
+MutationEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGAnimatedTransformList
 .
 h
@@ -184,13 +195,6 @@ h
 include
 "
 SVGTransformListSMILType
-.
-h
-"
-#
-include
-"
-nsIDOMMutationEvent
 .
 h
 "
@@ -944,7 +948,7 @@ prevSet
 {
 modType
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 MODIFICATION
@@ -954,7 +958,7 @@ else
 {
 modType
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 ADDITION
@@ -1099,7 +1103,7 @@ GetAnimateMotionTransform
 {
 modType
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 MODIFICATION
@@ -1109,7 +1113,7 @@ else
 {
 modType
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 REMOVAL

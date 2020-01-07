@@ -163,7 +163,11 @@ h
 #
 include
 "
-nsIDOMMutationEvent
+mozilla
+/
+dom
+/
+MutationEventBinding
 .
 h
 "
@@ -1674,7 +1678,7 @@ if
 aModType
 =
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 ADDITION
@@ -1683,7 +1687,7 @@ ADDITION
 aModType
 =
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 REMOVAL

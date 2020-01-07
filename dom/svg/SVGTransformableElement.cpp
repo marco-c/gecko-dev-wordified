@@ -128,6 +128,17 @@ mozilla
 /
 dom
 /
+MutationEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGAnimatedTransformList
 .
 h
@@ -180,13 +191,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-nsIDOMMutationEvent
 .
 h
 "
@@ -522,7 +526,7 @@ if
 aModType
 =
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 ADDITION
@@ -531,7 +535,7 @@ ADDITION
 aModType
 =
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 REMOVAL
@@ -549,7 +553,7 @@ MOZ_ASSERT
 aModType
 =
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 MODIFICATION
@@ -962,7 +966,7 @@ nowSet
 {
 modType
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 REMOVAL
@@ -980,7 +984,7 @@ nowSet
 {
 modType
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 ADDITION
@@ -990,7 +994,7 @@ else
 {
 modType
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 MODIFICATION
