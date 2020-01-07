@@ -10671,12 +10671,6 @@ SHARED_LIBS
 :
 [
 '
-(
-DEPTH
-)
-/
-prog
-/
 qux
 /
 qux
@@ -10685,9 +10679,8 @@ so
 '
                                 
 '
-(
-DEPTH
-)
+.
+.
 /
 shared
 /
@@ -10703,9 +10696,8 @@ STATIC_LIBS
 :
 [
 '
-(
-DEPTH
-)
+.
+.
 /
 real
 /
@@ -10759,9 +10751,8 @@ SHARED_LIBS
 :
 [
 '
-(
-DEPTH
-)
+.
+.
 /
 prog
 /
@@ -10794,9 +10785,8 @@ STATIC_LIBS
 :
 [
 '
-(
-DEPTH
-)
+.
+.
 /
 real
 /
@@ -10823,9 +10813,8 @@ SHARED_LIBS
 :
 [
 '
-(
-DEPTH
-)
+.
+.
 /
 prog
 /
@@ -10858,9 +10847,8 @@ SHARED_LIBS
 :
 [
 '
-(
-DEPTH
-)
+.
+.
 /
 prog
 /
