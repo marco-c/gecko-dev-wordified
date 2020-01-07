@@ -2482,6 +2482,10 @@ expect_shutdown
 (
 true
 )
+lastError
+(
+nullptr
+)
 {
 pthread_mutex_init
 (
