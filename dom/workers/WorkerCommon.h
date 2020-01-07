@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_workers_workers_h__
+mozilla_dom_workers_WorkerCommon_h
 #
 define
-mozilla_dom_workers_workers_h__
+mozilla_dom_workers_WorkerCommon_h
 #
 include
 "
@@ -1653,4 +1653,4 @@ END_WORKERS_NAMESPACE
 endif
 /
 /
-mozilla_dom_workers_workers_h__
+mozilla_dom_workers_WorkerCommon_h

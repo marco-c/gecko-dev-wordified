@@ -123,7 +123,7 @@ mozilla_dom_workers_workerrunnable_h__
 #
 include
 "
-Workers
+WorkerCommon
 .
 h
 "

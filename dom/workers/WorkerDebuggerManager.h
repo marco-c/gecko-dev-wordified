@@ -123,7 +123,7 @@ mozilla_dom_workers_workerdebuggermanager_h
 #
 include
 "
-Workers
+WorkerCommon
 .
 h
 "

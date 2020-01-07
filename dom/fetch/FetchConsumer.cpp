@@ -156,6 +156,13 @@ h
 #
 include
 "
+WorkerCommon
+.
+h
+"
+#
+include
+"
 WorkerPrivate
 .
 h
@@ -171,13 +178,6 @@ h
 include
 "
 WorkerScope
-.
-h
-"
-#
-include
-"
-Workers
 .
 h
 "
