@@ -3856,8 +3856,6 @@ MOZ_MUST_USE
 bool
 readMemCopy
 (
-ValType
-argType
 Value
 *
 dest
@@ -3873,8 +3871,6 @@ MOZ_MUST_USE
 bool
 readMemFill
 (
-ValType
-argType
 Value
 *
 start
@@ -12854,8 +12850,6 @@ Policy
 :
 readMemCopy
 (
-ValType
-argType
 Value
 *
 dest
@@ -12886,7 +12880,10 @@ if
 !
 popWithType
 (
-argType
+ValType
+:
+:
+I32
 len
 )
 )
@@ -12898,7 +12895,10 @@ if
 !
 popWithType
 (
-argType
+ValType
+:
+:
+I32
 src
 )
 )
@@ -12910,7 +12910,10 @@ if
 !
 popWithType
 (
-argType
+ValType
+:
+:
+I32
 dest
 )
 )
@@ -12936,8 +12939,6 @@ Policy
 :
 readMemFill
 (
-ValType
-argType
 Value
 *
 start
@@ -12968,7 +12969,10 @@ if
 !
 popWithType
 (
-argType
+ValType
+:
+:
+I32
 len
 )
 )
@@ -12980,7 +12984,10 @@ if
 !
 popWithType
 (
-argType
+ValType
+:
+:
+I32
 val
 )
 )
@@ -12992,7 +12999,10 @@ if
 !
 popWithType
 (
-argType
+ValType
+:
+:
+I32
 start
 )
 )

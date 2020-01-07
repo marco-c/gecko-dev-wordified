@@ -7034,10 +7034,6 @@ iter
 .
 readMemCopy
 (
-ValType
-:
-:
-I32
 nullptr
 nullptr
 nullptr
@@ -7144,10 +7140,6 @@ iter
 .
 readMemFill
 (
-ValType
-:
-:
-I32
 nullptr
 nullptr
 nullptr

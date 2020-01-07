@@ -56224,10 +56224,6 @@ iter_
 .
 readMemCopy
 (
-ValType
-:
-:
-I32
 &
 nothing
 &
@@ -56322,10 +56318,6 @@ iter_
 .
 readMemFill
 (
-ValType
-:
-:
-I32
 &
 nothing
 &

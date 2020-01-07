@@ -22146,10 +22146,6 @@ iter
 .
 readMemCopy
 (
-ValType
-:
-:
-I32
 &
 dest
 &
@@ -22359,10 +22355,6 @@ iter
 .
 readMemFill
 (
-ValType
-:
-:
-I32
 &
 start
 &
