@@ -261,6 +261,7 @@ SANDBOX_FILE_RENAME
 SANDBOX_FILE_RMDIR
 SANDBOX_FILE_UNLINK
 SANDBOX_FILE_READLINK
+SANDBOX_SOCKET_CONNECT
 }
 ;
 /
@@ -301,6 +302,14 @@ stat
 O_NOFOLLOW
 for
 lstat
+.
+/
+/
+For
+connect
+the
+socket
+type
 .
 int
 mFlags
