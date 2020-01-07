@@ -404,6 +404,14 @@ firstClick
 =
 false
 ;
+event
+.
+DoubleClickTracker
+.
+cancelTimer
+(
+)
+;
 }
 startTimer
 (
