@@ -150,13 +150,6 @@ h
 #
 include
 "
-GLContext
-.
-h
-"
-#
-include
-"
 gfxVR
 .
 h

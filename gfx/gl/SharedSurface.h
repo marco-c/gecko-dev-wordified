@@ -391,8 +391,7 @@ virtual
 SharedSurface
 (
 )
-{
-}
+;
 /
 /
 Specifies
