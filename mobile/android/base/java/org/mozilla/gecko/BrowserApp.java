@@ -4495,10 +4495,6 @@ event
 isShiftPressed
 (
 )
-?
-true
-:
-false
 )
 ;
 return
