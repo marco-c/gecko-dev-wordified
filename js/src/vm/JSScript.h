@@ -1638,10 +1638,11 @@ class
 JSScript
 ;
 friend
-struct
+class
+JS
 :
 :
-JSCompartment
+Realm
 ;
 /
 *

@@ -7380,7 +7380,7 @@ i
 /
 /
 Create
-compartment
+realm
 '
 s
 scriptCountsMap
@@ -7391,7 +7391,7 @@ ScriptCountsMap
 *
 map
 =
-compartment
+realm
 (
 )
 -
@@ -7456,7 +7456,7 @@ return
 false
 ;
 }
-compartment
+realm
 (
 )
 -
@@ -7695,7 +7695,7 @@ map
 script
 -
 >
-compartment
+realm
 (
 )
 -
@@ -7745,7 +7745,7 @@ map
 script
 -
 >
-compartment
+realm
 (
 )
 -
@@ -9007,7 +9007,7 @@ value
 )
 )
 ;
-compartment
+realm
 (
 )
 -
@@ -9079,7 +9079,7 @@ value
 )
 )
 ;
-compartment
+realm
 (
 )
 -
@@ -9104,7 +9104,7 @@ hasScriptName
 if
 (
 !
-compartment
+realm
 (
 )
 -
@@ -9117,7 +9117,7 @@ false
 auto
 p
 =
-compartment
+realm
 (
 )
 -
@@ -17995,7 +17995,7 @@ true
 /
 /
 Create
-compartment
+realm
 '
 s
 scriptNameMap
@@ -18006,7 +18006,7 @@ ScriptNameMap
 *
 map
 =
-compartment
+realm
 (
 )
 -
@@ -18071,7 +18071,7 @@ return
 false
 ;
 }
-compartment
+realm
 (
 )
 -
@@ -25533,7 +25533,7 @@ DebugScriptMap
 *
 map
 =
-compartment
+realm
 (
 )
 -
@@ -25593,7 +25593,7 @@ DebugScriptMap
 *
 map
 =
-compartment
+realm
 (
 )
 -
@@ -25828,7 +25828,7 @@ false
 /
 *
 Create
-compartment
+realm
 '
 s
 debugScriptMap
@@ -25841,7 +25841,7 @@ DebugScriptMap
 *
 map
 =
-compartment
+realm
 (
 )
 -
@@ -25895,7 +25895,7 @@ return
 false
 ;
 }
-compartment
+realm
 (
 )
 -
