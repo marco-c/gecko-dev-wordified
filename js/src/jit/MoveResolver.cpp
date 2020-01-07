@@ -297,8 +297,9 @@ if
 (
 IsHiddenSP
 (
-masm
-.
+MacroAssembler
+:
+:
 getStackPointer
 (
 )
@@ -326,8 +327,9 @@ code_
 =
 AsRegister
 (
-masm
-.
+MacroAssembler
+:
+:
 getStackPointer
 (
 )

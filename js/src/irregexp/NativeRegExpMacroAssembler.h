@@ -1634,8 +1634,12 @@ jit
 :
 Address
 (
-masm
-.
+jit
+:
+:
+MacroAssembler
+:
+:
 getStackPointer
 (
 )

@@ -334,8 +334,9 @@ reg
 return
 Operand
 (
-masm
-.
+MacroAssembler
+:
+:
 getStackPointer
 (
 )

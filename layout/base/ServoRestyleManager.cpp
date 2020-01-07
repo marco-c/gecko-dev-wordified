@@ -4124,9 +4124,9 @@ aChangeList
 wrappersToRestyle
 )
 ;
-aFrame
--
->
+nsIFrame
+:
+:
 UpdateStyleOfOwnedChildFrame
 (
 backdropFrame

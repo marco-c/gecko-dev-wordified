@@ -20944,9 +20944,9 @@ eResolve_Error
 }
 rv
 =
-mDocument
--
->
+XULDocument
+:
+:
 InsertElement
 (
 root

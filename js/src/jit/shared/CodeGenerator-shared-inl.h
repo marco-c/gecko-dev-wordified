@@ -1646,8 +1646,9 @@ isMemory
 return
 Address
 (
-masm
-.
+MacroAssembler
+:
+:
 getStackPointer
 (
 )

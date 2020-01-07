@@ -302,8 +302,9 @@ refcnt
 if
 (
 !
-mRefCnt
-.
+nsAutoRefCnt
+:
+:
 isThreadSafe
 )
 NS_ASSERT_OWNINGTHREAD
@@ -421,8 +422,9 @@ release
 if
 (
 !
-mRefCnt
-.
+nsAutoRefCnt
+:
+:
 isThreadSafe
 )
 {
@@ -459,8 +461,9 @@ count
 if
 (
 !
-mRefCnt
-.
+nsAutoRefCnt
+:
+:
 isThreadSafe
 )
 {

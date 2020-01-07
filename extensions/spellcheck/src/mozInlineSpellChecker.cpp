@@ -9156,8 +9156,9 @@ misspelled
 bool
 isMisspelled
 ;
-aWordUtil
-.
+mozInlineSpellWordUtil
+:
+:
 NormalizeWord
 (
 wordText

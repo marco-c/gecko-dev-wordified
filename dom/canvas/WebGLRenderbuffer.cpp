@@ -1177,9 +1177,9 @@ char
 *
 errorName
 =
-mContext
--
->
+WebGLContext
+:
+:
 ErrorName
 (
 error
