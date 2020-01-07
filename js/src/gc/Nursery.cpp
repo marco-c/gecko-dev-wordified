@@ -784,7 +784,7 @@ false
 )
 canAllocateStrings_
 (
-false
+true
 )
 reportTenurings_
 (
@@ -826,7 +826,7 @@ env
 getenv
 (
 "
-MOZ_ENABLE_NURSERY_STRINGS
+MOZ_DISABLE_NURSERY_STRINGS
 "
 )
 ;
@@ -840,7 +840,7 @@ env
 )
 canAllocateStrings_
 =
-true
+false
 ;
 }
 bool
