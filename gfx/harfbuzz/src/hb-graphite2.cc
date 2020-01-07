@@ -463,7 +463,7 @@ do
 the
 double
 -
-chcked
+checked
 pointer
 cmpexch
 thing
@@ -2072,13 +2072,6 @@ i
 ]
 .
 cluster
-;
-info
--
->
-mask
-=
-HB_GLYPH_FLAG_UNSAFE_TO_BREAK
 ;
 info
 -

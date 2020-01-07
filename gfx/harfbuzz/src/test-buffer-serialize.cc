@@ -620,7 +620,7 @@ stdin
 )
 !
 =
-0
+nullptr
 )
 {
 hb_buffer_clear_contents

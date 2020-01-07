@@ -10281,11 +10281,7 @@ buf_info
 >
 mask
 &
-HB_GLYPH_FLAG_DEFINED
-)
-!
-=
-(
+~
 ref_info
 -
 >

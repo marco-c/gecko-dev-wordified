@@ -4739,7 +4739,7 @@ A
 value
 without
 an
-eqaul
+equal
 -
 sign
 is

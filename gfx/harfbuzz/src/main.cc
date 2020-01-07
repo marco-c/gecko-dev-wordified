@@ -269,6 +269,9 @@ using
 namespace
 OT
 ;
+#
+ifndef
+HB_NO_VISIBILITY
 const
 void
 *
@@ -290,6 +293,8 @@ void
 {
 }
 ;
+#
+endif
 int
 main
 (

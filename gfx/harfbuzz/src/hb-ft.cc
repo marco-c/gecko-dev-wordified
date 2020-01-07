@@ -455,7 +455,7 @@ FT_Load_Glyph
 (
 )
 is
-exteremely
+extremely
 costly
 .
 Do

@@ -605,7 +605,7 @@ format
 1
 *
 /
-HBINT16
+FWORD
 coordinate
 ;
 /
@@ -872,7 +872,7 @@ format
 3
 *
 /
-HBINT16
+FWORD
 coordinate
 ;
 /

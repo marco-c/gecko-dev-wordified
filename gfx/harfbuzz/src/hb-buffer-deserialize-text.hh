@@ -2412,7 +2412,7 @@ void
 hb_buffer_get_glyph_positions
 (
 buffer
-NULL
+nullptr
 )
 ;
 while
@@ -2476,7 +2476,7 @@ pe
 *
 tok
 =
-NULL
+nullptr
 ;
 int
 cs
