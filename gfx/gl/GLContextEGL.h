@@ -367,6 +367,7 @@ MakeCurrentImpl
 bool
 aForce
 )
+const
 override
 ;
 virtual
@@ -374,6 +375,7 @@ bool
 IsCurrent
 (
 )
+const
 override
 ;
 virtual

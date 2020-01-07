@@ -3319,6 +3319,7 @@ MakeCurrentImpl
 bool
 aForce
 )
+const
 {
 bool
 succeeded
@@ -3595,6 +3596,7 @@ GLContextGLX
 IsCurrent
 (
 )
+const
 {
 return
 mGLX
