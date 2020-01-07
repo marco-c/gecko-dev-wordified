@@ -197,6 +197,16 @@ testing
 unittest
 import
 EmulatorMixin
+from
+mozharness
+.
+mozilla
+.
+testing
+.
+codecoverage
+import
+CodeCoverageMixin
 class
 AndroidEmulatorTest
 (
@@ -204,6 +214,8 @@ TestingMixin
 EmulatorMixin
 BaseScript
 MozbaseMixin
+                          
+CodeCoverageMixin
 )
 :
     
@@ -4435,17 +4447,11 @@ try_options
 if
 self
 .
-config
+verify_enabled
+or
+self
 .
-get
-(
-'
-verify
-'
-)
-is
-not
-True
+per_test_coverage
 :
             
 cmd
@@ -7170,16 +7176,16 @@ test_suite
 ]
         
 #
-test
+per
 -
-verification
+test
+mode
 :
 determine
 test
 suites
 to
-be
-verified
+run
         
 all
 =
@@ -7293,7 +7299,7 @@ cat_suites
 =
 self
 .
-query_verify_category_suites
+query_per_test_category_suites
 (
 category
 all_suites
@@ -7350,9 +7356,10 @@ else
 :
             
 #
-test
+per
 -
-verification
+test
+mode
             
 categories
 =
@@ -7402,7 +7409,7 @@ now
 (
 )
         
-max_verify_time
+max_per_test_time
 =
 datetime
 .
@@ -7413,7 +7420,7 @@ minutes
 60
 )
         
-verify_args
+per_test_args
 =
 [
 ]
@@ -7436,7 +7443,7 @@ query_minidump_stackwalk
         
 for
 (
-verify_suite
+per_test_suite
 suite
 )
 in
@@ -7570,13 +7577,13 @@ full
 '
             
 for
-verify_args
+per_test_args
 in
 self
 .
-query_verify_args
+query_args
 (
-verify_suite
+per_test_suite
 )
 :
                 
@@ -7595,11 +7602,12 @@ self
 start_time
 )
 >
-max_verify_time
+max_per_test_time
 :
                     
 #
-Verification
+Running
+tests
 has
 run
 out
@@ -7614,7 +7622,7 @@ Stop
 running
                     
 #
-tests
+them
 so
 that
 a
@@ -7648,7 +7656,9 @@ info
 "
 TinderboxPrint
 :
-Verification
+Running
+tests
+took
 too
 long
 :
@@ -7659,7 +7669,7 @@ Not
 all
 tests
 were
-verified
+executed
 .
 <
 br
@@ -7670,7 +7680,9 @@ br
                     
 #
 Signal
-verify
+per
+-
+test
 time
 exceeded
 to
@@ -7702,7 +7714,7 @@ cmd
 if
 len
 (
-verify_args
+per_test_args
 )
 >
 0
@@ -7710,7 +7722,9 @@ verify_args
                     
 #
 in
-verify
+per
+-
+test
 mode
 remove
 any
@@ -7754,7 +7768,7 @@ final_cmd
 .
 extend
 (
-verify_args
+per_test_args
 )
                 
 self
@@ -7904,7 +7918,7 @@ test_suite
 if
 len
 (
-verify_args
+per_test_args
 )
 >
 0
@@ -7922,9 +7936,9 @@ log_level
                     
 self
 .
-log_verify_status
+log_per_test_status
 (
-verify_args
+per_test_args
 [
 -
 1
