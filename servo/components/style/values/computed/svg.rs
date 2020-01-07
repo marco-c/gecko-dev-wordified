@@ -85,7 +85,6 @@ computed
 :
 :
 {
-ComputedUrl
 LengthOrPercentage
 NonNegativeLength
 }
@@ -111,6 +110,18 @@ computed
 :
 :
 Opacity
+;
+use
+values
+:
+:
+computed
+:
+:
+url
+:
+:
+ComputedUrl
 ;
 use
 values

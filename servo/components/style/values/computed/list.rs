@@ -74,10 +74,7 @@ specified
 list
 :
 :
-{
-ListStyleImage
 Quotes
-}
 ;
 #
 [
