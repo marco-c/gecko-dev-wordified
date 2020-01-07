@@ -265,6 +265,9 @@ addonId
 "
 addonVersion
 "
+"
+branch
+"
 ]
 record_on_release
 :
