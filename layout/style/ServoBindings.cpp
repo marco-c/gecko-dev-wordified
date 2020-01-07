@@ -5501,7 +5501,7 @@ attr
 aElement
 -
 >
-GetClasses
+DoGetClasses
 (
 )
 ;
