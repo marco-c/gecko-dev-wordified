@@ -514,7 +514,7 @@ servo_geometry
 {
 au_rect_to_f32_rect
 f32_rect_to_au_rect
-max_rect
+MaxRect
 }
 ;
 use
@@ -8688,6 +8688,9 @@ new
 (
 )
 clip
+:
+MaxRect
+:
 :
 max_rect
 (
