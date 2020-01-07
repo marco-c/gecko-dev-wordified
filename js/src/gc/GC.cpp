@@ -50083,7 +50083,7 @@ scriptNameMap
 cx
 -
 >
-new_
+make_unique
 <
 ScriptNameMap
 >
@@ -50190,11 +50190,11 @@ key
 (
 )
 ;
-const
-char
-*
+auto
 value
 =
+Move
+(
 r
 .
 front
@@ -50203,6 +50203,7 @@ front
 .
 value
 (
+)
 )
 ;
 if
@@ -50217,7 +50218,10 @@ scriptNameMap
 putNew
 (
 key
+Move
+(
 value
+)
 )
 )
 oomUnsafe
