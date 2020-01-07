@@ -289,13 +289,6 @@ h
 #
 include
 "
-nsIDOMXULPopupElement
-.
-h
-"
-#
-include
-"
 nsIEditingSession
 .
 h
