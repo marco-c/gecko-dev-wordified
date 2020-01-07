@@ -198,17 +198,6 @@ mozilla
 /
 layers
 /
-APZThreadUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 IAPZCTreeManager
 .
 h
