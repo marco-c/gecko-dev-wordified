@@ -1750,6 +1750,9 @@ remoteModulesDir
 recursive
 =
 True
+root
+=
+True
 )
             
 except
@@ -1937,6 +1940,9 @@ self
 .
 remoteProfile
 recursive
+=
+True
+root
 =
 True
 )

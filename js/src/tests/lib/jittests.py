@@ -6220,6 +6220,9 @@ remote_test_root
 recursive
 =
 True
+root
+=
+True
 )
     
 JitTest

@@ -2812,6 +2812,9 @@ remoteProfile
 recursive
 =
 True
+root
+=
+True
 )
         
 except
@@ -2899,6 +2902,9 @@ options
 .
 remoteProfile
 recursive
+=
+True
+root
 =
 True
 )

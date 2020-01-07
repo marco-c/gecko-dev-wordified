@@ -328,6 +328,9 @@ remote_bin_dir
 recursive
 =
 True
+root
+=
+True
 )
     
 def
