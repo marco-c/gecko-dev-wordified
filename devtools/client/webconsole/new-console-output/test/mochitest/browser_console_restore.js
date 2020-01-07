@@ -75,6 +75,18 @@ zero
 *
 /
 /
+*
+import
+-
+globals
+-
+from
+head
+.
+js
+*
+/
+/
 /
 Check
 that
@@ -215,6 +227,7 @@ reopen
 it
 "
 )
+;
 await
 HUDService
 .
@@ -254,6 +267,7 @@ session
 restore
 "
 )
+;
 await
 opened
 ;
