@@ -51,7 +51,6 @@ const
 {
 dominatorTreeState
 viewState
-censusState
 }
 =
 require
@@ -124,8 +123,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -203,7 +202,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -288,7 +287,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -349,7 +348,7 @@ recompute
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -550,7 +549,7 @@ computed
 and
 fetched
 .
-yield
+await
 waitUntilDominatorTreeState
 (
 store
@@ -598,7 +597,7 @@ census
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store

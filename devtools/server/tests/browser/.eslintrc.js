@@ -36,7 +36,7 @@ extends
 .
 eslintrc
 .
-xpcshell
+mochitests
 .
 js
 "

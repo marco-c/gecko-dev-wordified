@@ -121,6 +121,11 @@ DedicatedWorkerGlobalScope
 :
 false
 "
+DominatorTree
+"
+:
+false
+"
 HeapSnapshot
 "
 :
@@ -318,6 +323,11 @@ dump
 true
 "
 openDialog
+"
+:
+false
+"
+saveStack
 "
 :
 false

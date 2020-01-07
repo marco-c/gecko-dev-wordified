@@ -838,7 +838,7 @@ length
 ;
 if
 (
-sePlatformPathSeparator
+usePlatformPathSeparator
 &
 &
 path
@@ -2526,7 +2526,7 @@ CensusUtils
 walk
 (
 breakdown
-description
+givenDescription
 visitor
 )
 ;
@@ -3281,7 +3281,7 @@ JSON
 .
 stringify
 (
-edge
+expectedEdge
 )
 )
 ;

@@ -77,7 +77,6 @@ html
 const
 {
 viewState
-censusState
 }
 =
 require
@@ -120,8 +119,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -210,7 +209,7 @@ rendered
 "
 )
 ;
-yield
+await
 takeSnapshot
 (
 panel
@@ -295,7 +294,7 @@ class
 "
 )
 ;
-yield
+await
 takeSnapshot
 (
 panel
@@ -405,7 +404,7 @@ class
 "
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 gStore

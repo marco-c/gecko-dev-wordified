@@ -284,11 +284,6 @@ DOMStringList
 :
 false
 "
-DominatorTree
-"
-:
-false
-"
 ErrorEvent
 "
 :

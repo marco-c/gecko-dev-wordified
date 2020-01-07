@@ -55,7 +55,6 @@ strict
 ;
 const
 {
-censusState
 viewState
 }
 =
@@ -282,8 +281,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -361,7 +360,7 @@ coarseType
 "
 )
 ;
-yield
+await
 dispatch
 (
 takeSnapshotAndCensus
@@ -487,7 +486,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilFocused
 (
 store
@@ -536,7 +535,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilFocused
 (
 store
@@ -587,7 +586,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilFocused
 (
 store
@@ -638,7 +637,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilFocused
 (
 store
@@ -689,7 +688,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilFocused
 (
 store
@@ -740,7 +739,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilFocused
 (
 store
@@ -791,7 +790,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilFocused
 (
 store
@@ -837,7 +836,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilExpanded
 (
 store
@@ -884,7 +883,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilFocused
 (
 store
@@ -935,7 +934,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilFocused
 (
 store
