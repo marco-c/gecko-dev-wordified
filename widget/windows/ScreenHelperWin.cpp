@@ -145,9 +145,6 @@ WinUtils
 h
 "
 static
-mozilla
-:
-:
 LazyLogModule
 sScreenLog
 (

@@ -305,13 +305,6 @@ h
 #
 include
 "
-nsNativeCharsetUtils
-.
-h
-"
-#
-include
-"
 WinUtils
 .
 h

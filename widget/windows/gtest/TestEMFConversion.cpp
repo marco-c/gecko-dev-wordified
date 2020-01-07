@@ -889,7 +889,7 @@ ASSERT_TRUE
 PDFHelper
 -
 >
-SavePageToFile
+DrawPageToFile
 (
 emfPath
 .
@@ -993,7 +993,7 @@ ASSERT_TRUE
 ExtHelper
 -
 >
-SavePageToFile
+DrawPageToFile
 (
 emfPathRef
 .
@@ -1137,7 +1137,7 @@ ASSERT_FALSE
 PDFHelper
 -
 >
-SavePageToFile
+DrawPageToFile
 (
 emfPath
 .
@@ -1155,7 +1155,7 @@ ASSERT_FALSE
 PDFHelper
 -
 >
-SavePageToFile
+DrawPageToFile
 (
 emfPath
 .
