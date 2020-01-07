@@ -123,7 +123,7 @@ base64
 encode
 ;
 use
-image
+image_loader
 ;
 /
 /
@@ -1666,7 +1666,7 @@ usize
 let
 encoder
 =
-image
+image_loader
 :
 :
 png
@@ -1690,7 +1690,7 @@ encode
 data
 width
 height
-image
+image_loader
 :
 :
 ColorType

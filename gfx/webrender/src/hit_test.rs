@@ -77,7 +77,6 @@ api
 {
 LayerPrimitiveInfo
 LayerRect
-LocalClip
 PipelineId
 WorldPoint
 }
@@ -89,7 +88,6 @@ clip
 {
 ClipSource
 ClipStore
-Contains
 rounded_rectangle_contains_point
 }
 ;
@@ -421,9 +419,9 @@ HitTestingItem
 rect
 :
 LayerRect
-clip
+clip_rect
 :
-LocalClip
+LayerRect
 tag
 :
 ItemTag
@@ -454,11 +452,11 @@ rect
 info
 .
 rect
-clip
+clip_rect
 :
 info
 .
-local_clip
+clip_rect
 tag
 :
 tag
@@ -1462,7 +1460,7 @@ point_in_layer
 !
 item
 .
-clip
+clip_rect
 .
 contains
 (

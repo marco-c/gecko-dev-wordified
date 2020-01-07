@@ -269,6 +269,8 @@ shift
 0
 ;
 while
+a
+>
 (
 x
 <
@@ -279,8 +281,6 @@ shift
 1
 )
 )
-<
-a
 {
 shift
 +

@@ -939,7 +939,7 @@ self
 .
 prim_store
 .
-cpu_pictures
+pictures
 .
 is_empty
 (
@@ -1077,7 +1077,7 @@ self
 .
 prim_store
 .
-cpu_pictures
+pictures
 [
 0
 ]
@@ -1148,7 +1148,7 @@ self
 .
 prim_store
 .
-cpu_pictures
+pictures
 [
 0
 ]
@@ -1651,7 +1651,7 @@ self
 .
 prim_store
 .
-cpu_pictures
+pictures
 .
 iter
 (
