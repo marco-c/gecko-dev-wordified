@@ -394,7 +394,7 @@ if
 mozilla
 :
 :
-IsWin10November2015UpdateOrLater
+IsWin10AnniversaryUpdateOrLater
 (
 )
 )
@@ -726,7 +726,7 @@ policies
 set
 if
 (
-IsWin10November2015UpdateOrLater
+IsWin10AnniversaryUpdateOrLater
 (
 )
 )
