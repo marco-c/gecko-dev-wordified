@@ -1956,7 +1956,7 @@ session
 response
 )
 def
-test_sucess_without_body
+test_missing_document_element
 (
 session
 )
@@ -2033,8 +2033,12 @@ get_active_element
 session
 )
     
-assert_is_active_element
+assert_error
 (
-session
 response
+"
+no
+such
+element
+"
 )
