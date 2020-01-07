@@ -391,6 +391,11 @@ console
 ;
 if
 (
+debuggingConsole
+.
+hidden
+&
+&
 !
 debuggingConsole
 .
@@ -529,7 +534,6 @@ break
 }
 onPaymentRequestLoad
 (
-requestId
 )
 {
 log
@@ -538,9 +542,7 @@ debug
 (
 "
 onPaymentRequestLoad
-:
 "
-requestId
 )
 ;
 window
