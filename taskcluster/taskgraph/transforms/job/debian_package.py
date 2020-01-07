@@ -211,7 +211,7 @@ package
 Debian
 distribution
     
-Optional
+Required
 (
 '
 dist
@@ -264,7 +264,7 @@ part
 )
 .
     
-Optional
+Required
 (
 '
 snapshot
@@ -392,30 +392,6 @@ job
 run
 '
 ]
-    
-run
-.
-setdefault
-(
-'
-dist
-'
-'
-wheezy
-'
-)
-    
-run
-.
-setdefault
-(
-'
-snapshot
-'
-'
-20171210T214726Z
-'
-)
     
 worker
 =
