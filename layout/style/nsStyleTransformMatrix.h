@@ -196,17 +196,6 @@ gfxQuaternion
 struct
 nsRect
 ;
-namespace
-mozilla
-{
-class
-RuleNodeCacheConditions
-;
-}
-/
-/
-namespace
-mozilla
 /
 *
 *
