@@ -30515,6 +30515,15 @@ Destroy
 (
 )
 {
+if
+(
+mIsBeingDestroyed
+)
+{
+return
+NS_ERROR_DOCSHELL_DYING
+;
+}
 NS_ASSERTION
 (
 mItemType
@@ -30540,12 +30549,6 @@ AssertOriginAttributesMatchPrivateBrowsing
 (
 )
 ;
-if
-(
-!
-mIsBeingDestroyed
-)
-{
 nsCOMPtr
 <
 nsIObserverService
@@ -30591,7 +30594,6 @@ msg
 nullptr
 )
 ;
-}
 }
 mIsBeingDestroyed
 =
