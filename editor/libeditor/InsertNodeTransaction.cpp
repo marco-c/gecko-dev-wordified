@@ -280,7 +280,7 @@ Unused
 <
 mPointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 ;
@@ -397,7 +397,7 @@ if
 (
 mPointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -407,7 +407,7 @@ newPointToInsert
 (
 mPointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -543,7 +543,7 @@ InsertBefore
 mContentToInsert
 mPointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 error

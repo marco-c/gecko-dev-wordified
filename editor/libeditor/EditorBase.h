@@ -2267,7 +2267,7 @@ before
 *
 aPointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 .
@@ -2387,7 +2387,7 @@ to
 before
 aPointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 .
@@ -2501,7 +2501,7 @@ to
 before
 aPointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 .
@@ -5745,7 +5745,7 @@ Set
 (
 point
 .
-GetChildAtOffset
+GetChild
 (
 )
 )

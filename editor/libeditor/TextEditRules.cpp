@@ -4491,7 +4491,7 @@ MOZ_ASSERT
 !
 pointAfterStringInserted
 .
-GetChildAtOffset
+GetChild
 (
 )
 "
@@ -4506,7 +4506,7 @@ pointAfterStringInserted
 .
 "
 "
-GetChildAtOffset
+GetChild
 (
 )
 should

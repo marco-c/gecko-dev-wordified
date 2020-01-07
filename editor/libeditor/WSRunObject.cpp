@@ -7427,7 +7427,7 @@ priorNode
 =
 aPoint
 .
-GetPreviousSiblingOfChildAtOffset
+GetPreviousSiblingOfChild
 (
 )
 ;
@@ -7928,7 +7928,7 @@ nextNode
 =
 aPoint
 .
-GetChildAtOffset
+GetChild
 (
 )
 ;

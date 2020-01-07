@@ -670,7 +670,7 @@ InsertBefore
 mNewNode
 mPointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 aError
@@ -703,7 +703,7 @@ NS_WARN_IF
 (
 mPointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 &
@@ -717,7 +717,7 @@ GetContainer
 =
 mPointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 -

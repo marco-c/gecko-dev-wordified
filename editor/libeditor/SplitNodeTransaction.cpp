@@ -967,7 +967,7 @@ with
 mStartOfRightNode
 :
 :
-GetChildAtOffset
+GetChild
 (
 )
 .

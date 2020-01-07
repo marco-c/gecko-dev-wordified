@@ -8114,7 +8114,7 @@ GetAsDOMNode
 (
 pointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -8183,7 +8183,7 @@ I
 .
 e
 .
-ChildAtOffset
+GetChild
 (
 )
 keeps
@@ -8480,7 +8480,7 @@ GetAsDOMNode
 (
 aPointToInsert
 .
-GetNextSiblingOfChildAtOffset
+GetNextSiblingOfChild
 (
 )
 )
@@ -11261,7 +11261,7 @@ nextNode
 =
 aPointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 ;
@@ -14393,7 +14393,7 @@ child
 =
 aPoint
 .
-GetPreviousSiblingOfChildAtOffset
+GetPreviousSiblingOfChild
 (
 )
 ;
@@ -14982,7 +14982,7 @@ child
 =
 pointToInsert
 .
-GetPreviousSiblingOfChildAtOffset
+GetPreviousSiblingOfChild
 (
 )
 )
@@ -15030,7 +15030,7 @@ child
 =
 pointToInsert
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -17432,7 +17432,7 @@ firstChildOfRightNode
 =
 aStartOfRightNode
 .
-GetChildAtOffset
+GetChild
 (
 )
 ;
@@ -20030,7 +20030,7 @@ if
 (
 aPoint
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -20041,7 +20041,7 @@ GetPreviousNodeInternal
 *
 aPoint
 .
-GetChildAtOffset
+GetChild
 (
 )
 aFindEditableNode
@@ -20310,21 +20310,11 @@ nullptr
 ;
 }
 }
-/
-/
-look
-at
-the
-child
-at
-'
-aOffset
-'
 if
 (
 point
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -20338,7 +20328,7 @@ IsBlockNode
 (
 point
 .
-GetChildAtOffset
+GetChild
 (
 )
 )
@@ -20347,7 +20337,7 @@ GetChildAtOffset
 return
 point
 .
-GetChildAtOffset
+GetChild
 (
 )
 ;
@@ -20360,7 +20350,7 @@ GetLeftmostChild
 (
 point
 .
-GetChildAtOffset
+GetChild
 (
 )
 aNoBlockCrossing
@@ -20375,7 +20365,7 @@ leftMostNode
 return
 point
 .
-GetChildAtOffset
+GetChild
 (
 )
 ;
