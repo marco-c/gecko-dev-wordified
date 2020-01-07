@@ -1110,6 +1110,8 @@ int
 screenY
 String
 uri
+int
+elementType
 String
 elementSrc
 )
@@ -1140,6 +1142,13 @@ uri
 "
 +
 uri
++
+"
+elementType
+=
+"
++
+elementType
 +
 "
 elementSrc

@@ -4480,6 +4480,8 @@ screenY
 final
 String
 uri
+int
+elementType
 final
 String
 elementSrc
