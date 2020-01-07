@@ -442,13 +442,6 @@ h
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h

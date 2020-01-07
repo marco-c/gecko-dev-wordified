@@ -470,17 +470,6 @@ nsISelection
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-/
-/
-for
-nsISelectionPrivate
-#
-include
-"
 nsITimer
 .
 h

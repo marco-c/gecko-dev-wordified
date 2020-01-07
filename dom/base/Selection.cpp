@@ -4446,10 +4446,6 @@ nsISelection
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsISelectionPrivate
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS

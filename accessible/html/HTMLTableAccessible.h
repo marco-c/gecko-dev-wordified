@@ -1058,7 +1058,7 @@ column
 *
 (
 see
-nsISelectionPrivate
+nsFrameSelection
 )
 *
 /

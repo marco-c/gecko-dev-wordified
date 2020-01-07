@@ -137,7 +137,7 @@ h
 and
 /
 /
-nsISelectionPrivate
+Selection
 .
 h
 .

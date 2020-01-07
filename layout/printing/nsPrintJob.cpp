@@ -562,13 +562,6 @@ h
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-#
-include
-"
 nsContentCID
 .
 h
