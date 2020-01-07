@@ -2242,6 +2242,8 @@ nsBorderStyle
 aBorderStyle
 bool
 aRectIsFrameRect
+bool
+aIsPrivateBrowsing
 )
 ;
 nsresult
