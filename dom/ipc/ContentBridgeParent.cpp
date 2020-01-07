@@ -132,6 +132,17 @@ mozilla
 /
 dom
 /
+ChromeMessageSender
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 TabParent
 .
 h

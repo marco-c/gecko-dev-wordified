@@ -145,6 +145,9 @@ class
 nsITimeoutHandler
 ;
 class
+nsITimer
+;
+class
 nsGlobalWindowInner
 ;
 namespace

@@ -139,6 +139,17 @@ mozilla
 /
 dom
 /
+ChildProcessMessageManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DOMTypes
 .
 h
