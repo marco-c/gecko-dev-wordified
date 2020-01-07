@@ -3217,7 +3217,7 @@ aSinceTime
 aIsShuttingDown
 *
 /
-true
+false
 &
 thisProcessFirstSampleTime
 )
