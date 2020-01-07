@@ -4085,6 +4085,14 @@ mRequestFragment
 IsEmpty
 (
 )
+&
+&
+!
+responseURL
+.
+IsEmpty
+(
+)
 )
 {
 MOZ_ASSERT
