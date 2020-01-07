@@ -2262,7 +2262,7 @@ onEndUpdateBatch
 ;
 observer
 .
-onVisit
+onVisits
 (
 )
 ;
