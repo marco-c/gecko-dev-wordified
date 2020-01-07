@@ -79,7 +79,7 @@ TEST_DATA
 =
 [
 {
-targetName
+targetClass
 :
 "
 multi
@@ -450,7 +450,7 @@ y
 ]
 }
 {
-targetName
+targetClass
 :
 "
 multi
@@ -823,7 +823,7 @@ y
 ]
 }
 {
-targetName
+targetClass
 :
 "
 middle
@@ -1319,7 +1319,7 @@ y
 ]
 }
 {
-targetName
+targetClass
 :
 "
 steps
@@ -1821,7 +1821,7 @@ y
 ]
 }
 {
-targetName
+targetClass
 :
 "
 steps
@@ -1892,7 +1892,7 @@ y
 ]
 }
 {
-targetName
+targetClass
 :
 "
 frames
@@ -2003,7 +2003,7 @@ y
 ]
 }
 {
-targetName
+targetClass
 :
 "
 narrow
@@ -2102,7 +2102,7 @@ y
 ]
 }
 {
-targetName
+targetClass
 :
 "
 duplicate
@@ -2225,7 +2225,7 @@ for
 const
 {
 properties
-targetName
+targetClass
 }
 of
 TEST_DATA
@@ -2238,16 +2238,16 @@ keyframes
 graph
 for
 {
-targetName
+targetClass
 }
 )
 ;
 await
 selectNodeAndWaitForAnimations
 (
-#
+.
 {
-targetName
+targetClass
 }
 inspector
 )
@@ -2278,7 +2278,7 @@ name
 }
 in
 {
-targetName
+targetClass
 }
 ;
 info

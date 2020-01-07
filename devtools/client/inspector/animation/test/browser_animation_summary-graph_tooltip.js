@@ -47,11 +47,11 @@ graph
 element
 .
 const
-TEST_CASES
+TEST_DATA
 =
 [
 {
-targetClassName
+targetClass
 :
 "
 cssanimation
@@ -78,7 +78,7 @@ duration
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 cssanimation
@@ -110,7 +110,7 @@ linear
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 delay
@@ -146,7 +146,7 @@ duration
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 delay
@@ -185,7 +185,7 @@ duration
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 easing
@@ -218,7 +218,7 @@ steps
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 enddelay
@@ -248,7 +248,7 @@ endDelay
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 enddelay
@@ -279,7 +279,7 @@ endDelay
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 enddelay
@@ -318,7 +318,7 @@ forwards
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 enddelay
@@ -358,7 +358,7 @@ u221E
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 direction
@@ -400,7 +400,7 @@ u221E
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 direction
@@ -446,7 +446,7 @@ u221E
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 direction
@@ -488,7 +488,7 @@ u221E
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 fill
@@ -518,7 +518,7 @@ backwards
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 fill
@@ -566,7 +566,7 @@ iterationStart
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 fill
@@ -596,7 +596,7 @@ both
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 fill
@@ -644,7 +644,7 @@ iterationStart
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 fill
@@ -674,7 +674,7 @@ forwards
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 iterationstart
@@ -704,7 +704,7 @@ iterationStart
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 no
@@ -729,7 +729,7 @@ duration
 }
 }
 {
-targetClassName
+targetClass
 :
 "
 keyframes
@@ -789,26 +789,21 @@ openAnimationInspector
 for
 (
 const
-testCase
+{
+targetClass
+expectedResult
+}
 of
-TEST_CASES
+TEST_DATA
 )
 {
-const
-{
-expectedResult
-targetClassName
-}
-=
-testCase
-;
 const
 animationItemEl
 =
 findAnimationItemElementsByTargetClassName
 (
 panel
-targetClassName
+targetClass
 )
 ;
 const
@@ -834,7 +829,7 @@ Checking
 tooltip
 for
 {
-targetClassName
+targetClass
 }
 )
 ;

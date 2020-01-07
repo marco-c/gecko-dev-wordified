@@ -143,8 +143,10 @@ await
 selectNodeAndWaitForAnimations
 (
 "
-#
-endDelayed
+.
+end
+-
+delay
 "
 inspector
 )
