@@ -12852,6 +12852,11 @@ get
 )
 )
 ;
+LogCallingScriptLocation
+(
+this
+)
+;
 /
 /
 We
