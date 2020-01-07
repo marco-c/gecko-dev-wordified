@@ -5312,6 +5312,15 @@ Value
 vp
 )
 ;
+extern
+void
+ThrowTypeErrorBehavior
+(
+JSContext
+*
+cx
+)
+;
 /
 *
 *
