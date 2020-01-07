@@ -2466,10 +2466,6 @@ mBoundRenderbuffer
 =
 nullptr
 ;
-MakeContextCurrent
-(
-)
-;
 gl
 -
 >

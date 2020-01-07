@@ -328,10 +328,6 @@ false
 /
 /
 /
-MakeContextCurrent
-(
-)
-;
 const
 auto
 &

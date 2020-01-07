@@ -652,13 +652,6 @@ element
 return
 ;
 }
-gl
--
->
-MakeCurrent
-(
-)
-;
 const
 ScopedLazyBind
 readBind
@@ -960,13 +953,6 @@ break
 /
 /
 /
-gl
--
->
-MakeCurrent
-(
-)
-;
 const
 ScopedLazyBind
 readBind

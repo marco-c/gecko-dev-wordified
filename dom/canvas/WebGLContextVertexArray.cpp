@@ -167,10 +167,6 @@ array
 )
 return
 ;
-MakeContextCurrent
-(
-)
-;
 if
 (
 mBoundVertexArray
@@ -257,10 +253,6 @@ WebGLVertexArray
 globj
 =
 CreateVertexArrayImpl
-(
-)
-;
-MakeContextCurrent
 (
 )
 ;
@@ -374,10 +366,6 @@ array
 )
 return
 false
-;
-MakeContextCurrent
-(
-)
 ;
 return
 array

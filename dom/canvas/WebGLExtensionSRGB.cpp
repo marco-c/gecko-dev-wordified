@@ -217,13 +217,6 @@ framebuffers
 gl
 -
 >
-MakeCurrent
-(
-)
-;
-gl
--
->
 fEnable
 (
 LOCAL_GL_FRAMEBUFFER_SRGB_EXT

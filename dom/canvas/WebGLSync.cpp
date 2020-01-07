@@ -211,13 +211,6 @@ Delete
 mContext
 -
 >
-MakeContextCurrent
-(
-)
-;
-mContext
--
->
 gl
 -
 >

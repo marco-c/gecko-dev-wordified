@@ -1250,10 +1250,6 @@ texTarget
 rawTarget
 )
 ;
-MakeContextCurrent
-(
-)
-;
 if
 (
 newTex

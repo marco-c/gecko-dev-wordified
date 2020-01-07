@@ -1008,13 +1008,6 @@ GL
 (
 )
 ;
-gl
--
->
-MakeCurrent
-(
-)
-;
 switch
 (
 mInfo

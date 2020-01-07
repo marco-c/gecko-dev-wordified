@@ -198,13 +198,6 @@ mContext
 >
 gl
 ;
-gl
--
->
-MakeCurrent
-(
-)
-;
 switch
 (
 pname

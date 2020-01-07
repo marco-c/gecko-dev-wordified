@@ -603,13 +603,6 @@ WebGLContext
 webgl
 )
 {
-webgl
--
->
-MakeContextCurrent
-(
-)
-;
 gl
 :
 :

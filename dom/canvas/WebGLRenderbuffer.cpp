@@ -397,13 +397,6 @@ Delete
 mContext
 -
 >
-MakeContextCurrent
-(
-)
-;
-mContext
--
->
 gl
 -
 >
@@ -1084,13 +1077,6 @@ funcName
 return
 ;
 }
-mContext
--
->
-MakeContextCurrent
-(
-)
-;
 if
 (
 !
