@@ -13244,6 +13244,13 @@ KeyboardMap
 aKeyboardMap
 )
 {
+APZThreadUtils
+:
+:
+AssertOnControllerThread
+(
+)
+;
 mKeyboardMap
 =
 aKeyboardMap

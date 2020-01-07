@@ -5711,6 +5711,17 @@ XBL
 bindings
 .
 *
+This
+must
+only
+be
+accessed
+on
+the
+controller
+thread
+.
+*
 /
 KeyboardMap
 mKeyboardMap
