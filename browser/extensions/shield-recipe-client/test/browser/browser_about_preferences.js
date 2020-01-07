@@ -934,7 +934,7 @@ gBrowser
 ;
 is
 (
-browser
+gBrowser
 .
 currentURI
 .
@@ -954,8 +954,18 @@ opens
 about
 :
 studies
+in
+a
+new
+tab
 .
 "
+)
+;
+gBrowser
+.
+removeCurrentTab
+(
 )
 ;
 }
