@@ -7787,6 +7787,15 @@ setDockOptionsEnabled
 false
 )
 ;
+this
+.
+component
+.
+setCanCloseToolbox
+(
+false
+)
+;
 return
 ;
 }
