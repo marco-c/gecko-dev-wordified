@@ -1889,7 +1889,7 @@ functions
 for
 generating
 a
-ComputedTimingProperties
+ComputedEffectTiming
 dictionary
 static
 void
@@ -1910,14 +1910,14 @@ const
 TimingParams
 &
 aTiming
-ComputedTimingProperties
+ComputedEffectTiming
 &
 aRetVal
 )
 {
 /
 /
-AnimationEffectTimingProperties
+EffectTiming
 aRetVal
 .
 mDelay
@@ -2030,7 +2030,7 @@ mEasing
 }
 /
 /
-ComputedTimingProperties
+ComputedEffectTiming
 aRetVal
 .
 mActiveDuration
@@ -2152,7 +2152,7 @@ AnimationEffect
 :
 GetComputedTimingAsDict
 (
-ComputedTimingProperties
+ComputedEffectTiming
 &
 aRetVal
 )

@@ -194,7 +194,7 @@ const
 dom
 :
 :
-AnimationEffectTimingProperties
+EffectTiming
 &
 GetTimingProperties
 (
@@ -216,7 +216,7 @@ const
 dom
 :
 :
-AnimationEffectTimingProperties
+EffectTiming
 &
 GetTimingProperties
 (
@@ -258,7 +258,7 @@ const
 dom
 :
 :
-AnimationEffectTimingProperties
+EffectTiming
 &
 GetTimingProperties
 (
@@ -381,7 +381,7 @@ const
 dom
 :
 :
-AnimationEffectTimingProperties
+EffectTiming
 &
 timing
 =
