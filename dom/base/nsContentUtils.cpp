@@ -41753,16 +41753,6 @@ if
 (
 !
 aContent
-|
-|
-!
-nsDocument
-:
-:
-IsWebComponentsEnabled
-(
-aContent
-)
 )
 {
 return

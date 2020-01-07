@@ -182,13 +182,6 @@ nsCSSAnonBoxes
 .
 h
 "
-#
-include
-"
-nsDocument
-.
-h
-"
 namespace
 mozilla
 {
@@ -423,14 +416,6 @@ mIndexInInserted
 {
 mParentAsSlot
 =
-nsDocument
-:
-:
-IsWebComponentsEnabled
-(
-mParent
-)
-?
 HTMLSlotElement
 :
 :
@@ -438,8 +423,6 @@ FromContent
 (
 mParent
 )
-:
-nullptr
 ;
 }
 nsIContent
