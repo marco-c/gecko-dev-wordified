@@ -2045,7 +2045,7 @@ value
 Override
 public
 boolean
-onLoadUri
+onLoadRequest
 (
 final
 GeckoSession
@@ -2064,7 +2064,7 @@ d
 (
 LOGTAG
 "
-onLoadUri
+onLoadRequest
 =
 "
 +

@@ -2152,7 +2152,7 @@ fullScreen
 Override
 public
 boolean
-onLoadUri
+onLoadRequest
 (
 final
 GeckoSession
@@ -2563,7 +2563,7 @@ a
 new
 session
 in
-onLoadUri
+onLoadRequest
 (
 )
 throw
