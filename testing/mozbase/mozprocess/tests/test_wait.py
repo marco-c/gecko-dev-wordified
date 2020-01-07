@@ -103,7 +103,7 @@ self
 proclaunch
                                            
 "
-process_normal_finish_python
+process_normal_finish
 .
 ini
 "
@@ -172,7 +172,7 @@ self
 proclaunch
                                            
 "
-process_waittimeout_10s_python
+process_waittimeout_10s
 .
 ini
 "
@@ -246,7 +246,7 @@ self
 proclaunch
                                            
 "
-process_waittimeout_python
+process_waittimeout
 .
 ini
 "
@@ -368,7 +368,7 @@ self
 proclaunch
                                            
 "
-process_waittimeout_10s_python
+process_waittimeout_10s
 .
 ini
 "
@@ -445,7 +445,7 @@ self
 proclaunch
                                            
 "
-process_waittimeout_10s_python
+process_waittimeout_10s
 .
 ini
 "
@@ -522,7 +522,7 @@ self
 proclaunch
                                            
 "
-process_waittimeout_python
+process_waittimeout
 .
 ini
 "

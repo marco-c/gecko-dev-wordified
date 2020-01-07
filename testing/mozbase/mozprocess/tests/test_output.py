@@ -106,7 +106,7 @@ self
 proclaunch
                                            
 "
-process_waittimeout_10s_python
+process_waittimeout_10s
 .
 ini
 "
@@ -182,6 +182,9 @@ ProcessHandler
 self
 .
 python
+"
+scripts
+"
 "
 procnonewline
 .
@@ -299,11 +302,22 @@ ProcessHandler
 self
 .
 python
+                                           
+os
+.
+path
+.
+join
+(
+"
+scripts
+"
 "
 proccountfive
 .
 py
 "
+)
 ]
                                           
 cwd

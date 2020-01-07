@@ -152,7 +152,7 @@ self
 proclaunch
                                            
 "
-process_waittimeout_python
+process_waittimeout
 .
 ini
 "
@@ -248,7 +248,7 @@ self
 proclaunch
                                            
 "
-process_normal_finish_python
+process_normal_finish
 .
 ini
 "
