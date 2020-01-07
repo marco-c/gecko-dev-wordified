@@ -2782,6 +2782,11 @@ run_test_3
 (
 )
 {
+await
+promiseShutdownManager
+(
+)
+;
 var
 dest
 =
@@ -2866,7 +2871,7 @@ gCachePurged
 false
 ;
 await
-promiseRestartManager
+promiseStartupManager
 (
 )
 ;
