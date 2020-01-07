@@ -325,6 +325,11 @@ ClientManagerParent
 (
 )
 ;
+void
+Init
+(
+)
+;
 }
 ;
 }
