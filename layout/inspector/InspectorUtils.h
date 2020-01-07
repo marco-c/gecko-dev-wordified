@@ -135,9 +135,6 @@ class
 nsAtom
 ;
 class
-nsGenericDOMDataNode
-;
-class
 nsIDocument
 ;
 class
@@ -163,6 +160,9 @@ css
 namespace
 dom
 {
+class
+CharacterData
+;
 class
 Element
 ;
@@ -1051,7 +1051,7 @@ IsIgnorableWhitespace
 GlobalObject
 &
 aGlobalObject
-nsGenericDOMDataNode
+CharacterData
 &
 aDataNode
 )
@@ -1067,7 +1067,7 @@ static
 bool
 IsIgnorableWhitespace
 (
-nsGenericDOMDataNode
+CharacterData
 &
 aDataNode
 )

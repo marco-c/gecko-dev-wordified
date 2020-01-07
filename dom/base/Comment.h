@@ -154,7 +154,7 @@ Comment
 final
 :
 public
-nsGenericDOMDataNode
+CharacterData
 public
 nsIDOMCharacterData
 {
@@ -211,7 +211,7 @@ NodeInfo
 aNodeInfo
 )
 :
-nsGenericDOMDataNode
+CharacterData
 (
 aNodeInfo
 )
@@ -229,7 +229,7 @@ nsNodeInfoManager
 aNodeInfoManager
 )
 :
-nsGenericDOMDataNode
+CharacterData
 (
 aNodeInfoManager
 -
@@ -253,12 +253,12 @@ NS_DECL_ISUPPORTS_INHERITED
 nsIDOMCharacterData
 NS_FORWARD_NSIDOMCHARACTERDATA
 (
-nsGenericDOMDataNode
+CharacterData
 :
 :
 )
 using
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SetData
@@ -285,7 +285,7 @@ const
 override
 ;
 virtual
-nsGenericDOMDataNode
+CharacterData
 *
 CloneDataNode
 (

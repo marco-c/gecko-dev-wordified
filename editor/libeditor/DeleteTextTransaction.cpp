@@ -204,7 +204,7 @@ MaybeCreate
 EditorBase
 &
 aEditorBase
-nsGenericDOMDataNode
+CharacterData
 &
 aCharData
 uint32_t
@@ -251,7 +251,7 @@ MaybeCreateForPreviousCharacter
 EditorBase
 &
 aEditorBase
-nsGenericDOMDataNode
+CharacterData
 &
 aCharData
 uint32_t
@@ -371,7 +371,7 @@ MaybeCreateForNextCharacter
 EditorBase
 &
 aEditorBase
-nsGenericDOMDataNode
+CharacterData
 &
 aCharData
 uint32_t
@@ -481,7 +481,7 @@ DeleteTextTransaction
 EditorBase
 &
 aEditorBase
-nsGenericDOMDataNode
+CharacterData
 &
 aCharData
 uint32_t

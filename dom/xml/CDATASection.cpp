@@ -163,7 +163,7 @@ CDATASection
 NS_IMPL_ISUPPORTS_INHERITED
 (
 CDATASection
-nsGenericDOMDataNode
+CharacterData
 nsIDOMNode
 nsIDOMCharacterData
 )
@@ -225,7 +225,7 @@ eDATA_NODE
 )
 ;
 }
-nsGenericDOMDataNode
+CharacterData
 *
 CDATASection
 :

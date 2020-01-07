@@ -262,12 +262,12 @@ NS_DECL_ISUPPORTS_INHERITED
 nsIDOMCharacterData
 NS_FORWARD_NSIDOMCHARACTERDATA
 (
-nsGenericDOMDataNode
+CharacterData
 :
 :
 )
 using
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SetData
@@ -280,6 +280,12 @@ overloaded
 virtual
 function
 .
+using
+CharacterData
+:
+:
+GetData
+;
 /
 /
 nsINode
@@ -294,7 +300,7 @@ const
 override
 ;
 virtual
-nsGenericDOMDataNode
+CharacterData
 *
 CloneDataNode
 (

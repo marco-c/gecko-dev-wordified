@@ -262,7 +262,7 @@ as
 this
 node
 !
-nsGenericDOMDataNode
+CharacterData
 *
 clone
 =

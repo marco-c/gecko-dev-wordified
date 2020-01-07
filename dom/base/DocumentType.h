@@ -237,7 +237,7 @@ DocumentType
 final
 :
 public
-nsGenericDOMDataNode
+CharacterData
 public
 nsIDOMNode
 {
@@ -345,7 +345,7 @@ GetText
 override
 ;
 virtual
-nsGenericDOMDataNode
+CharacterData
 *
 CloneDataNode
 (

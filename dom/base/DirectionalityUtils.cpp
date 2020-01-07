@@ -2117,7 +2117,7 @@ a
 text
 node
 change
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SetTextInternal

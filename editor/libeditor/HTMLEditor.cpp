@@ -19538,7 +19538,7 @@ HTMLEditor
 :
 DeleteText
 (
-nsGenericDOMDataNode
+CharacterData
 &
 aCharData
 uint32_t

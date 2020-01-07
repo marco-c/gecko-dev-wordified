@@ -366,7 +366,7 @@ rv
 )
 override
 {
-nsGenericDOMDataNode
+CharacterData
 :
 :
 SetData
@@ -409,6 +409,12 @@ overloaded
 virtual
 function
 .
+using
+ProcessingInstruction
+:
+:
+GetData
+;
 protected
 :
 virtual
@@ -457,7 +463,7 @@ aIsAlternate
 )
 final
 ;
-nsGenericDOMDataNode
+CharacterData
 *
 CloneDataNode
 (

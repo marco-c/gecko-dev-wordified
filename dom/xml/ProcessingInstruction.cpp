@@ -365,7 +365,7 @@ nsAString
 aData
 )
 :
-nsGenericDOMDataNode
+CharacterData
 (
 Move
 (
@@ -440,7 +440,7 @@ ProcessingInstruction
 NS_IMPL_ISUPPORTS_INHERITED
 (
 ProcessingInstruction
-nsGenericDOMDataNode
+CharacterData
 nsIDOMNode
 nsIDOMCharacterData
 )
@@ -536,7 +536,7 @@ eDATA_NODE
 )
 ;
 }
-nsGenericDOMDataNode
+CharacterData
 *
 ProcessingInstruction
 :
@@ -560,9 +560,6 @@ const
 nsAutoString
 data
 ;
-nsGenericDOMDataNode
-:
-:
 GetData
 (
 data

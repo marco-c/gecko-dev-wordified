@@ -268,9 +268,6 @@ struct
 PendingBinding
 ;
 class
-nsGenericDOMDataNode
-;
-class
 nsFrameConstructorState
 ;
 namespace
@@ -279,6 +276,9 @@ mozilla
 namespace
 dom
 {
+class
+CharacterData
+;
 class
 FlattenedChildIterator
 ;
@@ -2182,7 +2182,13 @@ unsuppressed
 bool
 EnsureFrameForTextNodeIsCreatedAfterFlush
 (
-nsGenericDOMDataNode
+mozilla
+:
+:
+dom
+:
+:
+CharacterData
 *
 aContent
 )
