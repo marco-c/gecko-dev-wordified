@@ -2355,6 +2355,11 @@ aNowTime
 )
 ;
 void
+UpdateIntersectionObservations
+(
+)
+;
+void
 Tick
 (
 int64_t
