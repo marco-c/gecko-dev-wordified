@@ -17047,6 +17047,9 @@ isGCCompacting
 )
 )
 ;
+AutoTouchingGrayThings
+tgt
+;
 gcstats
 :
 :
@@ -31574,6 +31577,9 @@ src
 )
 )
 ;
+AutoTouchingGrayThings
+tgt
+;
 /
 *
 Called
@@ -32100,6 +32106,9 @@ JSObject
 wrapper
 )
 {
+AutoTouchingGrayThings
+tgt
+;
 if
 (
 !
@@ -56165,6 +56174,9 @@ getting
 /
 /
 called
+during
+GC
+and
 while
 iterating
 the
@@ -56173,17 +56185,6 @@ for
 memory
 reporting
 .
-MOZ_ASSERT
-(
-!
-JS
-:
-:
-CurrentThreadIsHeapCollecting
-(
-)
-)
-;
 MOZ_ASSERT
 (
 !

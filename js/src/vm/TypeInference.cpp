@@ -28677,6 +28677,9 @@ zone
 fallbackOOM
 )
 ;
+AutoTouchingGrayThings
+tgt
+;
 if
 (
 maybeUnboxedLayout
