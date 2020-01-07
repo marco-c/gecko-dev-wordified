@@ -765,7 +765,10 @@ mPauseShouldStick
 ErrorResult
 rv
 ;
-PlayNoUpdate
+Animation
+:
+:
+Play
 (
 rv
 Animation
@@ -840,7 +843,10 @@ true
 ErrorResult
 rv
 ;
-PauseNoUpdate
+Animation
+:
+:
+Pause
 (
 rv
 )
