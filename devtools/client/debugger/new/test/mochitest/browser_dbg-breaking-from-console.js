@@ -228,12 +228,9 @@ source
 and
 location
 await
-waitForDispatch
+waitForPaused
 (
 dbg
-"
-LOAD_SOURCE_TEXT
-"
 )
 ;
 is
