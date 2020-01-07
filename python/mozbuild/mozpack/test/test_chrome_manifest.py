@@ -403,7 +403,7 @@ global
 /
 content
 /
-customizeToolbar
+viewSource
 .
 xul
 '
@@ -825,7 +825,7 @@ global
 /
 content
 /
-customizeToolbar
+viewSource
 .
 xul
 '

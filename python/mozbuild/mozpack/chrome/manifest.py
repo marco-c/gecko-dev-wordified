@@ -1323,7 +1323,7 @@ global
 /
 content
 /
-customizeToolbar
+viewSource
 .
 xul
 \
