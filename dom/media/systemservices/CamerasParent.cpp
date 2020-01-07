@@ -517,6 +517,7 @@ if
 (
 candidate
 >
+=
 requested
 )
 {
@@ -529,18 +530,10 @@ good
 case
 the
 candidate
-is
-higher
-than
+covers
 the
 requested
-/
-/
 resolution
-which
-makes
-it
-feasible
 .
 return
 distance
