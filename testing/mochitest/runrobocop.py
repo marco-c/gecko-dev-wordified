@@ -2168,17 +2168,6 @@ org
 '
             
 '
-workerbootstrap
--
-test
-mozilla
-.
-org
-.
-xpi
-'
-            
-'
 indexedDB
 -
 test
