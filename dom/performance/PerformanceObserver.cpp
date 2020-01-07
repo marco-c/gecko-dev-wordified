@@ -701,7 +701,7 @@ char16_t
 const
 sValidTypeNames
 [
-4
+3
 ]
 =
 {
@@ -716,10 +716,6 @@ measure
 u
 "
 resource
-"
-u
-"
-server
 "
 }
 ;
