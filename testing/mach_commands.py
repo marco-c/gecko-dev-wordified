@@ -854,6 +854,12 @@ format
 (
 )
         
+formatter
+.
+summary_on_shutdown
+=
+True
+        
 level
 =
 self
