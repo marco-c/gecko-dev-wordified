@@ -1774,6 +1774,18 @@ dir
 =
 3
 "
+                
+"
+-
+-
+no
+-
+pause
+-
+after
+-
+test
+"
 ]
         
 if
