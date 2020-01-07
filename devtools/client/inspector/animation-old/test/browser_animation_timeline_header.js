@@ -82,7 +82,11 @@ devtools
 /
 client
 /
-animationinspector
+inspector
+/
+animation
+-
+old
 /
 utils
 "

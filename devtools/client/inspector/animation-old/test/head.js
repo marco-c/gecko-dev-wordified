@@ -96,8 +96,6 @@ from
 .
 .
 /
-inspector
-/
 test
 /
 head
