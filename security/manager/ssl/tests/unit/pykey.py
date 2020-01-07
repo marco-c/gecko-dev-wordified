@@ -5152,6 +5152,10 @@ stdin
 read
 (
 )
+.
+strip
+(
+)
 )
 .
 toPEM
