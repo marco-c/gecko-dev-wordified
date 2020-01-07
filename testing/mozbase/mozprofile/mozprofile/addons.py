@@ -68,8 +68,6 @@ shutil
 import
 tempfile
 import
-urllib2
-import
 zipfile
 import
 hashlib
@@ -83,6 +81,14 @@ from
 six
 import
 reraise
+from
+six
+.
+moves
+.
+urllib
+import
+request
 import
 mozfile
 from
@@ -734,7 +740,7 @@ in
         
 response
 =
-urllib2
+request
 .
 urlopen
 (
@@ -1250,7 +1256,7 @@ if
 isinstance
 (
 addons
-basestring
+str
 )
 :
                 
@@ -1289,7 +1295,7 @@ if
 isinstance
 (
 manifests
-basestring
+str
 )
 :
                 
@@ -1690,7 +1696,7 @@ noqa
         
 response
 =
-urllib2
+request
 .
 urlopen
 (
@@ -2755,7 +2761,7 @@ details
 unpack
 '
 ]
-basestring
+str
 )
 :
             
