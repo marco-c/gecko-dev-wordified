@@ -2642,13 +2642,6 @@ _
 MallocHeap
 ionBuilder
 )
-\
-macro
-(
-_
-MallocHeap
-wasmCompile
-)
 explicit
 HelperThreadStats
 (
