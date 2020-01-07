@@ -3788,7 +3788,10 @@ NoGC
 >
 (
 cx
-REGEXP_CODE
+CodeKind
+:
+:
+RegExp
 )
 ;
 if
