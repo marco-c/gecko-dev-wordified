@@ -1776,9 +1776,9 @@ setRequest1
 (
 )
 {
-paymentDialog
+requestStore
 .
-setStateFromParent
+setState
 (
 {
 request
@@ -1792,9 +1792,9 @@ setRequest2
 (
 )
 {
-paymentDialog
+requestStore
 .
-setStateFromParent
+setState
 (
 {
 request

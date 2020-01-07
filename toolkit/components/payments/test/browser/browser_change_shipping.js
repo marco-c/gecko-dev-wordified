@@ -1108,13 +1108,6 @@ PTU
 ContentTasks
 .
 createAndShowRequest
-options
-:
-PTU
-.
-Options
-.
-requestShippingOption
 }
 )
 ;
@@ -1479,13 +1472,6 @@ PTU
 ContentTasks
 .
 createAndShowRequest
-options
-:
-PTU
-.
-Options
-.
-requestShippingOption
 }
 )
 ;
