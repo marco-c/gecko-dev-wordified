@@ -9391,6 +9391,13 @@ void_t
 (
 )
 ;
+if
+(
+ServiceWorkerParentInterceptEnabled
+(
+)
+)
+{
 nsCOMPtr
 <
 nsILoadInfo
@@ -9452,6 +9459,7 @@ ToIPC
 (
 )
 ;
+}
 }
 }
 /
