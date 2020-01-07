@@ -1423,24 +1423,6 @@ ux
 }
     
 '
-date
-'
-:
-{
-        
-'
-update_channel
-'
-:
-'
-nightly
--
-date
-'
-    
-}
-    
-'
 cypress
 '
 :

@@ -985,7 +985,7 @@ release
 try
 '
 '
-date
+maple
 '
 ]
 )
@@ -1008,7 +1008,7 @@ release
 try
 '
 '
-date
+maple
 '
 ]
 )
@@ -1021,7 +1021,7 @@ assertTrue
 match_run_on_projects
 (
 '
-date
+maple
 '
 [
 '
@@ -1031,7 +1031,7 @@ release
 try
 '
 '
-date
+maple
 '
 ]
 )
@@ -1054,7 +1054,7 @@ release
 try
 '
 '
-date
+maple
 '
 ]
 )
@@ -1079,7 +1079,7 @@ release
 try
 '
 '
-date
+maple
 '
 ]
 )
@@ -1104,7 +1104,7 @@ release
 try
 '
 '
-date
+maple
 '
 ]
 )
@@ -1129,7 +1129,7 @@ release
 try
 '
 '
-date
+maple
 '
 ]
 )
@@ -1154,7 +1154,7 @@ release
 try
 '
 '
-date
+maple
 '
 ]
 )
