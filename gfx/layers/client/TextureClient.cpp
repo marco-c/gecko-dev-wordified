@@ -2282,6 +2282,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DeallocateTextureClientSyncProxyRunnable
+"
 DeallocateTextureClientSyncProxy
 params
 &
@@ -2314,6 +2317,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DeallocateTextureClientRunnable
+"
 DeallocateTextureClient
 params
 )
@@ -4898,6 +4904,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+CancelTextureClientRecycleRunnable
+"
 CancelTextureClientRecycle
 aTextureId
 aAllocator

@@ -893,6 +893,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+VRManagerChildDestroyRunnable
+"
 DeferredDestroy
 selfRef
 )

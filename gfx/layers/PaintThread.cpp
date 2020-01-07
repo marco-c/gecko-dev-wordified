@@ -1215,6 +1215,9 @@ Dispatch
 (
 NewRunnableFunction
 (
+"
+DestroyPaintThreadRunnable
+"
 DestroyPaintThread
 Move
 (

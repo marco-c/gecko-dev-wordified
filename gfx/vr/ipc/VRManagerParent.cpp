@@ -697,6 +697,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+RegisterVRManagerInVRListenerThreadRunnable
+"
 RegisterVRManagerInVRListenerThread
 vmp
 .

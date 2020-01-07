@@ -2313,6 +2313,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+AddCompositorRunnable
+"
 &
 AddCompositor
 this
@@ -2330,6 +2333,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+SetThreadPriorityRunnable
+"
 SetThreadPriority
 )
 )
@@ -10008,6 +10014,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+EraseLayerStateRunnable
+"
 &
 EraseLayerState
 aId
@@ -10181,6 +10190,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+UpdateControllerForLayersIdRunnable
+"
 &
 UpdateControllerForLayersId
 aLayersId
@@ -10383,6 +10395,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+InsertVsyncProfilerMarkerRunnable
+"
 InsertVsyncProfilerMarker
 aVsyncTimestamp
 )

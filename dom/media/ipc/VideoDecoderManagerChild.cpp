@@ -396,6 +396,9 @@ Dispatch
 (
 NewRunnableFunction
 (
+"
+InitForContentRunnable
+"
 &
 Open
 Move

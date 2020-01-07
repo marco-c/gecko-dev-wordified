@@ -1286,6 +1286,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DoNotifyWebRenderErrorRunnable
+"
 &
 DoNotifyWebRenderError
 mBridge

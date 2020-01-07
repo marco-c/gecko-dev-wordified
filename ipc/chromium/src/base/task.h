@@ -2548,6 +2548,10 @@ public
 :
 RunnableFunction
 (
+const
+char
+*
+name
 Function
 function
 Params
@@ -2561,9 +2565,7 @@ mozilla
 :
 CancelableRunnable
 (
-"
-RunnableFunction
-"
+name
 )
 function_
 (
@@ -2653,6 +2655,10 @@ CancelableRunnable
 >
 NewCancelableRunnableFunction
 (
+const
+char
+*
+name
 Function
 function
 Args
@@ -2703,6 +2709,7 @@ Function
 ArgsTuple
 >
 (
+name
 function
 mozilla
 :
@@ -2753,6 +2760,10 @@ Runnable
 >
 NewRunnableFunction
 (
+const
+char
+*
+name
 Function
 function
 Args
@@ -2803,6 +2814,7 @@ Function
 ArgsTuple
 >
 (
+name
 function
 mozilla
 :
