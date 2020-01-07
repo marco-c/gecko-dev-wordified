@@ -611,7 +611,7 @@ s
 >
 mSync
 ;
-UniquePtr
+nsAutoPtr
 <
 MediaRawDataWriter
 >
@@ -1074,6 +1074,15 @@ res
 isOk
 (
 )
+&
+&
+res
+.
+unwrap
+(
+)
+>
+0
 )
 {
 uint16_t
