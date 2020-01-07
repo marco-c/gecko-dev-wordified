@@ -1438,7 +1438,7 @@ experiment
 .
 name
 {
-didResetValue
+resetValue
 :
 false
 reason
@@ -3081,6 +3081,18 @@ stop
 (
 {
 experimentName
+}
+{
+resetValue
+:
+{
+resetValue
+}
+reason
+:
+{
+reason
+}
 }
 )
 )
