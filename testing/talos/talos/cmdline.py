@@ -568,7 +568,7 @@ ex
 .
 damp
 :
-cart
+tart
 )
 "
 )
