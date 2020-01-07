@@ -2527,6 +2527,9 @@ Move
 (
 aPool
 )
+"
+MozPromiseAwait
+"
 )
 ;
 bool
@@ -2696,6 +2699,9 @@ Move
 (
 aPool
 )
+"
+MozPromiseAwait
+"
 )
 ;
 bool
@@ -2926,6 +2932,9 @@ do_AddRef
 (
 pool
 )
+"
+MozPromiseAwaitAll
+"
 )
 ;
 RefPtr
@@ -3066,6 +3075,9 @@ do_AddRef
 (
 pool
 )
+"
+MozPromiseAwaitAll
+"
 )
 ;
 RefPtr
