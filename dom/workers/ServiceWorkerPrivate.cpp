@@ -9369,6 +9369,14 @@ return
 NS_ERROR_FAILURE
 ;
 }
+info
+.
+mLoadingPrincipal
+=
+info
+.
+mPrincipal
+;
 nsContentUtils
 :
 :
