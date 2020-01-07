@@ -1293,6 +1293,7 @@ derive
 (
 Clone
 Copy
+PartialEq
 )
 ]
 enum
@@ -1305,6 +1306,7 @@ derive
 (
 Clone
 Copy
+PartialEq
 )
 ]
 pub
