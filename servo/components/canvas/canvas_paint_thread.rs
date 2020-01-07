@@ -5007,6 +5007,9 @@ offset
 is_opaque
 :
 false
+allow_mipmaps
+:
+false
 }
 ;
 let

@@ -3664,6 +3664,9 @@ is_opaque
 :
 !
 alpha
+allow_mipmaps
+:
+false
 }
 }
 /
