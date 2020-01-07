@@ -2609,6 +2609,7 @@ z
 :
 \
 s
++
 (
 ?
 P
@@ -2617,9 +2618,13 @@ args
 >
 .
 *
+?
 )
 )
 ?
+\
+s
+*
 '
                                           
 .
@@ -2627,10 +2632,6 @@ format
 (
 aMarker
 )
-                                          
-re
-.
-U
 )
             
 self
@@ -4797,7 +4798,7 @@ return
 if
 re
 .
-match
+search
 (
 '
 \
@@ -4915,7 +4916,7 @@ return
 if
 re
 .
-match
+search
 (
 '
 \
