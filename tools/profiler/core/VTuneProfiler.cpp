@@ -115,6 +115,17 @@ MPL
 *
 /
 #
+ifdef
+XP_WIN
+#
+undef
+UNICODE
+#
+undef
+_UNICODE
+#
+endif
+#
 include
 "
 VTuneProfiler
@@ -213,7 +224,7 @@ okay
 __itt_event
 testEvent
 =
-__itt_event_createA
+__itt_event_create
 (
 "
 Test
@@ -230,7 +241,7 @@ event
 ;
 testEvent
 =
-__itt_event_createA
+__itt_event_create
 (
 "
 Test
@@ -338,7 +349,7 @@ else
 {
 event
 =
-__itt_event_createA
+__itt_event_create
 (
 aName
 str
@@ -432,7 +443,7 @@ GeckoProcessType
 :
 GeckoProcessType_Default
 :
-__itt_thread_set_nameA
+__itt_thread_set_name
 (
 "
 Main
@@ -448,7 +459,7 @@ GeckoProcessType
 :
 GeckoProcessType_Content
 :
-__itt_thread_set_nameA
+__itt_thread_set_name
 (
 "
 Content
@@ -464,7 +475,7 @@ GeckoProcessType
 :
 GeckoProcessType_GMPlugin
 :
-__itt_thread_set_nameA
+__itt_thread_set_name
 (
 "
 Plugin
@@ -480,7 +491,7 @@ GeckoProcessType
 :
 GeckoProcessType_GPU
 :
-__itt_thread_set_nameA
+__itt_thread_set_name
 (
 "
 GPU
@@ -492,7 +503,7 @@ break
 ;
 default
 :
-__itt_thread_set_nameA
+__itt_thread_set_name
 (
 "
 Unknown
@@ -504,7 +515,7 @@ Process
 return
 ;
 }
-__itt_thread_set_nameA
+__itt_thread_set_name
 (
 aName
 )
