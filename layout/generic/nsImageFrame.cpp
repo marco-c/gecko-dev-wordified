@@ -12327,6 +12327,8 @@ nsISelectionDisplay
 DISPLAY_ALL
 )
 {
+if
+(
 const
 nsFrameSelection
 *
@@ -12335,10 +12337,6 @@ frameSelection
 GetConstFrameSelection
 (
 )
-;
-if
-(
-frameSelection
 )
 {
 const
