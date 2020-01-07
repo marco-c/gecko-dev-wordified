@@ -588,6 +588,15 @@ OperatingSystem
 :
 Ios
 ;
+if
+(
+mShutdownOccurred
+)
+{
+return
+NS_OK
+;
+}
 /
 /
 OpenGL
