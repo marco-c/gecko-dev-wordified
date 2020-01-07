@@ -1848,8 +1848,6 @@ Append
 /
 /
 nsIDOMCSSMediaRule
-or
-nsIDOMCSSMozDocumentRule
 methods
 nsresult
 GroupRule

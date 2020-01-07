@@ -1117,14 +1117,9 @@ const
 /
 to
 implement
-common
 methods
 on
 nsIDOMCSSMediaRule
-and
-/
-/
-nsIDOMCSSMozDocumentRule
 nsresult
 GetCssRules
 (
