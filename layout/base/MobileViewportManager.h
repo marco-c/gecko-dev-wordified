@@ -132,6 +132,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h
