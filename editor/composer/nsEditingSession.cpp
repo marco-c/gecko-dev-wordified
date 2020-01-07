@@ -2640,10 +2640,6 @@ GetDoc
 nsAutoString
 mimeType
 ;
-if
-(
-NS_SUCCEEDED
-(
 doc
 -
 >
@@ -2651,8 +2647,7 @@ GetContentType
 (
 mimeType
 )
-)
-)
+;
 AppendUTF16toUTF8
 (
 mimeType

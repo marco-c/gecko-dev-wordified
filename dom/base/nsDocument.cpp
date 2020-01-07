@@ -19477,8 +19477,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
-nsDocument
+void
+nsIDocument
 :
 :
 GetContentType
@@ -19495,9 +19495,6 @@ GetContentTypeInternal
 )
 aContentType
 )
-;
-return
-NS_OK
 ;
 }
 void
