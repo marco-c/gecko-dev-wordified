@@ -724,6 +724,44 @@ self
 )
 :
         
+#
+To
+make
+this
+method
+thread
+-
+safe
+we
+write
+to
+a
+temporary
+dict
+first
+        
+#
+and
+change
+self
+.
+_computed_ports
+to
+the
+new
+dict
+at
+last
+atomically
+.
+        
+new_ports
+=
+defaultdict
+(
+list
+)
+        
 try
 :
             
@@ -741,15 +779,6 @@ old_ports
 =
 {
 }
-        
-self
-.
-_computed_ports
-=
-defaultdict
-(
-list
-)
         
 for
 scheme
@@ -843,9 +872,7 @@ port
 =
 port
                 
-self
-.
-_computed_ports
+new_ports
 [
 scheme
 ]
@@ -854,6 +881,12 @@ append
 (
 port
 )
+        
+self
+.
+_computed_ports
+=
+new_ports
         
 return
 self
