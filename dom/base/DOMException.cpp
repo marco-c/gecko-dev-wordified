@@ -2040,9 +2040,6 @@ aCx
 nsAString
 &
 aStack
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -2051,8 +2048,6 @@ if
 mLocation
 )
 {
-aRv
-=
 mLocation
 -
 >

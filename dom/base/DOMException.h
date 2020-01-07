@@ -541,9 +541,6 @@ aCx
 nsAString
 &
 aStack
-ErrorResult
-&
-aRv
 )
 const
 ;
