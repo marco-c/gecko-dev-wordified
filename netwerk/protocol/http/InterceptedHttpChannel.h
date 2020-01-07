@@ -1031,6 +1031,14 @@ DoNotifyListenerCleanup
 )
 override
 ;
+void
+DoAsyncAbort
+(
+nsresult
+aStatus
+)
+override
+;
 }
 ;
 }
