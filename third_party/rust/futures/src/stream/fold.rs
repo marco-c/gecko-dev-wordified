@@ -387,9 +387,6 @@ state
 >
 {
 match
-try
-!
-(
 self
 .
 stream
@@ -397,7 +394,7 @@ stream
 poll
 (
 )
-)
+?
 {
 Async
 :
@@ -509,15 +506,12 @@ fut
 >
 {
 match
-try
-!
-(
 fut
 .
 poll
 (
 )
-)
+?
 {
 Async
 :

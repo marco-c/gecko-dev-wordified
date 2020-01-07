@@ -378,9 +378,6 @@ NotReady
 item
 )
 =
-try
-!
-(
 self
 .
 sink_mut
@@ -391,7 +388,7 @@ start_send
 (
 item
 )
-)
+?
 {
 self
 .
@@ -410,6 +407,7 @@ Async
 :
 NotReady
 )
+;
 }
 }
 /
@@ -459,7 +457,6 @@ sink
 for
 further
 use
-return
 Ok
 (
 Async

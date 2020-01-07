@@ -90,7 +90,7 @@ B
 Splits
 out
 the
-homogenous
+homogeneous
 type
 from
 an

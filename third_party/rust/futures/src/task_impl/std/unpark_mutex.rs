@@ -177,7 +177,8 @@ acquisition
 failure
 the
 current
-lockholder
+lock
+holder
 performs
 the
 desired

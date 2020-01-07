@@ -66,10 +66,10 @@ of
 /
 futures
 to
-succesfully
+successfully
 complete
 .
-unlike
+Unlike
 select_all
 this
 future
