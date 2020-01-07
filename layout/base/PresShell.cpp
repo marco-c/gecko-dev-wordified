@@ -10959,6 +10959,13 @@ mHaveShutDown
 )
 ;
 }
+mDocument
+-
+>
+TriggerAutoFocus
+(
+)
+;
 NS_ASSERTION
 (
 rootFrame
