@@ -260,9 +260,9 @@ focus
 )
 ;
 await
-PanelUI
+gCUITestUtils
 .
-show
+openMainMenu
 (
 )
 ;
@@ -312,6 +312,13 @@ Text
 pasted
 successfully
 "
+)
+;
+await
+gCUITestUtils
+.
+hideMainMenu
+(
 )
 ;
 }
