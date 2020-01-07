@@ -605,7 +605,7 @@ change
 {
 this
 .
-syncFromShowSearchSuggestionsFirstPref
+_syncFromShowSearchSuggestionsFirstPref
 (
 checkbox
 pref
