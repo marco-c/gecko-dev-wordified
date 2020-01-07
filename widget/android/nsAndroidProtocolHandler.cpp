@@ -203,6 +203,7 @@ nsIInputStream
 {
 public
 :
+explicit
 AndroidInputStream
 (
 jni

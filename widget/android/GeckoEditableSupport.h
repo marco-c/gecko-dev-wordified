@@ -312,6 +312,7 @@ mGES
 ;
 public
 :
+explicit
 AutoIMESynchronize
 (
 GeckoEditableSupport
@@ -370,6 +371,7 @@ mNewEnd
 )
 {
 }
+explicit
 IMETextChange
 (
 const
@@ -777,6 +779,7 @@ LambdaEvent
 Functor
 >
 {
+explicit
 IMEEvent
 (
 Functor
@@ -1077,6 +1080,7 @@ content
 process
 GeckoEditableChild
 .
+explicit
 GeckoEditableSupport
 (
 java

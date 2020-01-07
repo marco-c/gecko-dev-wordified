@@ -86,6 +86,7 @@ val
 struct
 Value
 {
+explicit
 Value
 (
 jboolean
@@ -99,6 +100,7 @@ z
 z
 ;
 }
+explicit
 Value
 (
 jbyte
@@ -112,6 +114,7 @@ b
 b
 ;
 }
+explicit
 Value
 (
 jchar
@@ -125,6 +128,7 @@ c
 c
 ;
 }
+explicit
 Value
 (
 jshort
@@ -138,6 +142,7 @@ s
 s
 ;
 }
+explicit
 Value
 (
 jint
@@ -151,6 +156,7 @@ i
 i
 ;
 }
+explicit
 Value
 (
 jlong
@@ -164,6 +170,7 @@ j
 j
 ;
 }
+explicit
 Value
 (
 jfloat
@@ -177,6 +184,7 @@ f
 f
 ;
 }
+explicit
 Value
 (
 jdouble
@@ -190,6 +198,7 @@ d
 d
 ;
 }
+explicit
 Value
 (
 jobject

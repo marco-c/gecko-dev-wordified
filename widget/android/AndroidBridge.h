@@ -388,6 +388,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSICURSORCONTINUECALLBACK
+explicit
 MessageCursorContinueCallback
 (
 int
@@ -1321,6 +1322,7 @@ AutoJObject
 {
 public
 :
+explicit
 AutoJObject
 (
 JNIEnv
@@ -1447,6 +1449,7 @@ AutoLocalJNIFrame
 {
 public
 :
+explicit
 AutoLocalJNIFrame
 (
 int
@@ -1483,6 +1486,7 @@ Push
 )
 ;
 }
+explicit
 AutoLocalJNIFrame
 (
 JNIEnv

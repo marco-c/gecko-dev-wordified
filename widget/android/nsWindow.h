@@ -639,6 +639,7 @@ mWindow
 ;
 public
 :
+explicit
 Locked
 (
 WindowPtr

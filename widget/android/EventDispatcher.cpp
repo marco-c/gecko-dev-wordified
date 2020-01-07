@@ -4237,6 +4237,7 @@ NS_OK
 }
 public
 :
+explicit
 JavaCallbackDelegate
 (
 java

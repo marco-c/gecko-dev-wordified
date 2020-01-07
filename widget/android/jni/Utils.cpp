@@ -2288,6 +2288,7 @@ mCall
 ;
 public
 :
+explicit
 RunnableEvent
 (
 already_AddRefed

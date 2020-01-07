@@ -1227,6 +1227,7 @@ mIdlePass
 ;
 public
 :
+explicit
 IdleEvent
 (
 Functor
