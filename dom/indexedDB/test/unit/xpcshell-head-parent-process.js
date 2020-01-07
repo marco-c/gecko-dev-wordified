@@ -107,13 +107,6 @@ self
 this
 ;
 }
-const
-DOMException
-=
-Ci
-.
-nsIDOMDOMException
-;
 var
 bufferCache
 =
