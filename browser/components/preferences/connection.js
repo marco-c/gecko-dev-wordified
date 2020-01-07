@@ -2603,6 +2603,11 @@ handleControllingExtension
 (
 PREF_SETTING_TYPE
 PROXY_KEY
+"
+extensionControlled
+.
+proxyConfig
+"
 )
 .
 then
