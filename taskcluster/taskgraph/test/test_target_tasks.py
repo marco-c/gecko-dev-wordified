@@ -124,6 +124,12 @@ talos_trigger_tests
         
 self
 .
+raptor_trigger_tests
+=
+0
+        
+self
+.
 notifications
 =
 None
