@@ -310,6 +310,7 @@ false
 }
 onClick
 (
+event
 )
 {
 this
@@ -321,6 +322,12 @@ isFocused
 :
 true
 }
+)
+;
+event
+.
+stopPropagation
+(
 )
 ;
 }
