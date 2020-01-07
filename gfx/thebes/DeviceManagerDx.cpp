@@ -4444,6 +4444,11 @@ Get
 (
 )
 ;
+if
+(
+cbc
+)
+{
 cbc
 -
 >
@@ -4451,6 +4456,7 @@ FlushAsyncPaints
 (
 )
 ;
+}
 }
 MutexAutoLock
 lock

@@ -1886,6 +1886,11 @@ aCallbackData
 EndTransactionFlags
 )
 ;
+void
+FlushAsyncPaints
+(
+)
+;
 LayerRefArray
 mKeepAlive
 ;
