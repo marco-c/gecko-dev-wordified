@@ -645,12 +645,9 @@ URLProxy
 >
 mURLProxy
 ;
-RefPtr
+nsCOMPtr
 <
-net
-:
-:
-nsStandardURL
+nsIURI
 >
 mStdURL
 ;
