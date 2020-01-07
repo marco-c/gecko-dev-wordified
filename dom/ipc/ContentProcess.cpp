@@ -793,7 +793,7 @@ nullptr
 ;
 InfallibleTArray
 <
-PrefSetting
+Pref
 >
 prefsArray
 ;
@@ -1114,7 +1114,7 @@ str
 +
 +
 ;
-PrefSetting
+Pref
 pref
 (
 nsCString
@@ -1252,7 +1252,7 @@ str
 +
 +
 ;
-PrefSetting
+Pref
 pref
 (
 nsCString
@@ -1397,7 +1397,7 @@ length
 )
 )
 ;
-PrefSetting
+Pref
 pref
 (
 nsCString
