@@ -62,9 +62,9 @@ api
 :
 {
 TileOffset
-LayerRect
-LayerSize
-LayerVector2D
+LayoutRect
+LayoutSize
+LayoutVector2D
 DeviceUintSize
 }
 ;
@@ -81,11 +81,11 @@ DecomposedTile
 pub
 rect
 :
-LayerRect
+LayoutRect
 pub
 stretch_size
 :
-LayerSize
+LayoutSize
 pub
 tile_offset
 :
@@ -110,7 +110,7 @@ space
 pub
 rect
 :
-LayerRect
+LayoutRect
 /
 /
 /
@@ -127,7 +127,7 @@ space
 pub
 tile_spacing
 :
-LayerSize
+LayoutSize
 /
 /
 /
@@ -146,7 +146,7 @@ image
 pub
 stretch_size
 :
-LayerSize
+LayoutSize
 /
 /
 /
@@ -596,7 +596,7 @@ decompose_row
 item_rect
 :
 &
-LayerRect
+LayoutRect
 info
 :
 &
@@ -771,7 +771,7 @@ decompose_cache_tiles
 item_rect
 :
 &
-LayerRect
+LayoutRect
 info
 :
 &
@@ -1466,7 +1466,7 @@ space
 let
 stretched_tile_size
 =
-LayerSize
+LayoutSize
 :
 :
 new
@@ -1787,10 +1787,10 @@ add_device_tile
 item_rect
 :
 &
-LayerRect
+LayoutRect
 stretched_tile_size
 :
-LayerSize
+LayoutSize
 tile_offset
 :
 TileOffset
@@ -1938,7 +1938,7 @@ below
 let
 stretch_size
 =
-LayerSize
+LayoutSize
 :
 :
 new
@@ -1959,7 +1959,7 @@ let
 mut
 prim_rect
 =
-LayerRect
+LayoutRect
 :
 :
 new
@@ -1968,7 +1968,7 @@ item_rect
 .
 origin
 +
-LayerVector2D
+LayoutVector2D
 :
 :
 new

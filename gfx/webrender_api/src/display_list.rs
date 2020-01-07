@@ -203,7 +203,6 @@ ImageDisplayItem
 ImageKey
 ImageMask
 ImageRendering
-LayerPrimitiveInfo
 }
 ;
 use
@@ -2259,7 +2258,7 @@ rect
 }
 pub
 fn
-get_layer_primitive_info
+get_layout_primitive_info
 (
 &
 self
@@ -2270,7 +2269,7 @@ LayoutVector2D
 )
 -
 >
-LayerPrimitiveInfo
+LayoutPrimitiveInfo
 {
 let
 info
@@ -2283,7 +2282,7 @@ cur_item
 .
 info
 ;
-LayerPrimitiveInfo
+LayoutPrimitiveInfo
 {
 rect
 :

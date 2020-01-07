@@ -67,7 +67,7 @@ HitTestFlags
 HitTestItem
 HitTestResult
 ItemTag
-LayerPoint
+LayoutPoint
 }
 ;
 use
@@ -75,8 +75,8 @@ api
 :
 :
 {
-LayerPrimitiveInfo
-LayerRect
+LayoutPrimitiveInfo
+LayoutRect
 PipelineId
 WorldPoint
 }
@@ -126,7 +126,7 @@ use
 util
 :
 :
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 ;
 /
 /
@@ -245,7 +245,7 @@ node
 .
 world_content_transform
 :
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 /
 /
 /
@@ -261,7 +261,7 @@ node
 .
 world_viewport_transform
 :
-LayerToWorldFastTransform
+LayoutToWorldFastTransform
 /
 /
 /
@@ -282,7 +282,7 @@ positions
 .
 node_origin
 :
-LayerPoint
+LayoutPoint
 }
 /
 /
@@ -418,10 +418,10 @@ HitTestingItem
 {
 rect
 :
-LayerRect
+LayoutRect
 clip_rect
 :
-LayerRect
+LayoutRect
 tag
 :
 ItemTag
@@ -442,7 +442,7 @@ ItemTag
 info
 :
 &
-LayerPrimitiveInfo
+LayoutPrimitiveInfo
 )
 -
 >
@@ -460,8 +460,6 @@ clip_rect
 info
 .
 clip_rect
-tag
-:
 tag
 is_backface_visible
 :
@@ -496,12 +494,12 @@ HitTestRegion
 {
 Rectangle
 (
-LayerRect
+LayoutRect
 ClipMode
 )
 RoundedRectangle
 (
-LayerRect
+LayoutRect
 BorderRadius
 ClipMode
 )
@@ -518,7 +516,7 @@ self
 point
 :
 &
-LayerPoint
+LayoutPoint
 )
 -
 >
@@ -2043,7 +2041,7 @@ FastHashMap
 ClipScrollNodeIndex
 Option
 <
-LayerPoint
+LayoutPoint
 >
 >
 clip_chain_cache
@@ -2247,7 +2245,7 @@ let
 point
 =
 &
-LayerPoint
+LayoutPoint
 :
 :
 new

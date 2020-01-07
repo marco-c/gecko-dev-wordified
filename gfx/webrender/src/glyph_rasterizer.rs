@@ -108,7 +108,7 @@ api
 {
 GlyphDimensions
 GlyphKey
-LayerToWorldTransform
+LayoutToWorldTransform
 SubpixelDirection
 }
 ;
@@ -383,7 +383,7 @@ render_task
 {
 RenderTask
 RenderTaskCacheKey
-RenderTaskCacheKeyKind
+RenderTaskCacheEntryHandle
 }
 ;
 #
@@ -402,6 +402,7 @@ render_task
 :
 :
 {
+RenderTaskCacheKeyKind
 RenderTaskId
 RenderTaskLocation
 }
@@ -1552,7 +1553,7 @@ From
 &
 '
 a
-LayerToWorldTransform
+LayoutToWorldTransform
 >
 for
 FontTransform
@@ -1565,7 +1566,7 @@ xform
 &
 '
 a
-LayerToWorldTransform
+LayoutToWorldTransform
 )
 -
 >
@@ -3074,8 +3075,6 @@ new
 shared_context
 )
 pathfinder_context
-:
-pathfinder_context
 workers
 :
 Arc
@@ -3679,7 +3678,7 @@ SpecialRenderPasses
 Result
 <
 (
-CacheItem
+RenderTaskCacheEntryHandle
 GlyphFormat
 )
 (
@@ -3746,7 +3745,7 @@ f32
 ]
 ;
 let
-cache_item
+handle
 =
 try
 !
@@ -3763,6 +3762,7 @@ Some
 (
 user_data
 )
+false
 |
 render_tasks
 |
@@ -3806,7 +3806,7 @@ render_passes
 Ok
 (
 (
-cache_item
+handle
 font
 .
 get_glyph_format
@@ -4214,7 +4214,7 @@ cached_glyph_info
 }
 ;
 let
-cache_entry
+handle
 =
 match
 self
@@ -4270,7 +4270,7 @@ glyph_key
 clone
 (
 )
-cache_entry
+handle
 )
 ;
 }
@@ -6908,10 +6908,7 @@ SpecialRenderPasses
 >
 Result
 <
-(
 RenderTaskId
-bool
-)
 (
 )
 >
@@ -7154,8 +7151,11 @@ RenderTaskLocation
 Dynamic
 (
 None
+Some
+(
 *
 glyph_size
+)
 )
 ;
 let
@@ -7239,10 +7239,7 @@ Color
 ;
 Ok
 (
-(
 root_task_id
-false
-)
 )
 }
 #

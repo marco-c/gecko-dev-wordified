@@ -85,8 +85,8 @@ api
 :
 :
 {
-LayerRect
-LayerSize
+LayoutRect
+LayoutSize
 PipelineId
 WorldPoint
 }
@@ -263,7 +263,7 @@ util
 {
 self
 MaxRect
-WorldToLayerFastTransform
+WorldToLayoutFastTransform
 }
 ;
 #
@@ -481,7 +481,7 @@ a
 mut
 Vec
 <
-LayerRect
+LayoutRect
 >
 pub
 resource_cache
@@ -556,7 +556,7 @@ inv_world_transform
 :
 Option
 <
-WorldToLayerFastTransform
+WorldToLayoutFastTransform
 >
 pub
 apply_local_clip_rect
@@ -566,6 +566,10 @@ pub
 inflation_factor
 :
 f32
+pub
+allow_subpixel_aa
+:
+bool
 }
 pub
 struct
@@ -920,7 +924,7 @@ local_clip_rects
 mut
 Vec
 <
-LayerRect
+LayoutRect
 >
 node_data
 :
@@ -1113,6 +1117,9 @@ inflation_factor
 0
 .
 0
+allow_subpixel_aa
+:
+true
 }
 ;
 let
@@ -1355,7 +1362,7 @@ local_clip_rect
 .
 size
 =
-LayerSize
+LayoutSize
 :
 :
 zero
@@ -1688,7 +1695,7 @@ clip_chain_local_clip_rects
 .
 push
 (
-LayerRect
+LayoutRect
 :
 :
 max_rect

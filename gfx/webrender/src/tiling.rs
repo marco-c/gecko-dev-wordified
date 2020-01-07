@@ -79,7 +79,7 @@ DeviceUintSize
 DocumentLayer
 FilterOp
 ImageFormat
-LayerRect
+LayoutRect
 }
 ;
 use
@@ -325,7 +325,7 @@ PrimitiveIndex
 pub
 frame_rect
 :
-LayerRect
+LayoutRect
 }
 #
 [
@@ -5766,7 +5766,7 @@ clip_chain_local_clip_rects
 :
 Vec
 <
-LayerRect
+LayoutRect
 >
 pub
 render_tasks

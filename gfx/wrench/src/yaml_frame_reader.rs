@@ -1324,7 +1324,7 @@ scroll_offsets
 HashMap
 <
 ExternalScrollId
-LayerPoint
+LayoutPoint
 >
 image_map
 :
@@ -9768,7 +9768,7 @@ size
 let
 content_rect
 =
-LayerRect
+LayoutRect
 :
 :
 new
@@ -9890,7 +9890,7 @@ scroll_offsets
 insert
 (
 id
-LayerPoint
+LayoutPoint
 :
 :
 new
@@ -11223,7 +11223,7 @@ scroll_offsets
 insert
 (
 external_id
-LayerPoint
+LayoutPoint
 :
 :
 new

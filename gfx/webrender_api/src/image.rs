@@ -631,8 +631,6 @@ pub
 fn
 serialize
 <
-'
-a
 S
 :
 Serializer
@@ -641,8 +639,6 @@ Serializer
 bytes
 :
 &
-'
-a
 Arc
 <
 Vec
