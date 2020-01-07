@@ -108,6 +108,14 @@ deny
 unsafe_code
 )
 ]
+#
+!
+[
+feature
+(
+associated_type_defaults
+)
+]
 extern
 crate
 app_units

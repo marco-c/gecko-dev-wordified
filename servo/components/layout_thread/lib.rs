@@ -10552,6 +10552,11 @@ animation
 :
 :
 recalc_style_for_animations
+:
+:
+<
+ServoLayoutElement
+>
 (
 &
 layout_context
@@ -10725,6 +10730,11 @@ animation
 :
 :
 update_animation_state
+:
+:
+<
+ServoLayoutElement
+>
 (
 &
 self
