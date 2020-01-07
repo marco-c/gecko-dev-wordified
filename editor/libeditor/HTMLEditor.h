@@ -158,15 +158,6 @@ include
 "
 mozilla
 /
-TextEditRules
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h

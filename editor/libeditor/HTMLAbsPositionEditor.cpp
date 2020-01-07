@@ -2774,7 +2774,7 @@ rv
 htmlRules
 -
 >
-MakeSureElemStartsOrEndsOnCR
+MakeSureElemStartsAndEndsOnCR
 (
 aElement
 )
