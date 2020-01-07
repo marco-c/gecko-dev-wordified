@@ -1130,6 +1130,14 @@ Steps
 10
 .
 4
+#
+[
+allow
+(
+unsafe_code
+)
+]
+unsafe
 fn
 get_callbacks
 (
@@ -1488,6 +1496,7 @@ allow
 unsafe_code
 )
 ]
+unsafe
 fn
 get_callback
 (
@@ -1544,8 +1553,6 @@ Step
 .
 1
 if
-unsafe
-{
 !
 JS_GetProperty
 (
@@ -1566,7 +1573,6 @@ handle_mut
 (
 )
 )
-}
 {
 return
 Err
@@ -1603,8 +1609,6 @@ is_object
 )
 |
 |
-unsafe
-{
 !
 IsCallable
 (
@@ -1614,7 +1618,6 @@ to_object
 (
 )
 )
-}
 {
 return
 Err
@@ -2247,6 +2250,8 @@ get
 )
 ;
 match
+unsafe
+{
 self
 .
 get_callbacks
@@ -2257,6 +2262,7 @@ handle
 (
 )
 )
+}
 {
 Ok
 (

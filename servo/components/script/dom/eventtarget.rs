@@ -3576,6 +3576,8 @@ CommonEventHandler
 :
 ErrorEventHandler
 (
+unsafe
+{
 OnErrorEventHandlerNonNull
 :
 :
@@ -3584,6 +3586,7 @@ new
 cx
 funobj
 )
+}
 )
 )
 }
@@ -3609,6 +3612,8 @@ CommonEventHandler
 :
 BeforeUnloadEventHandler
 (
+unsafe
+{
 OnBeforeUnloadEventHandlerNonNull
 :
 :
@@ -3617,6 +3622,7 @@ new
 cx
 funobj
 )
+}
 )
 )
 }
@@ -3629,6 +3635,8 @@ CommonEventHandler
 :
 EventHandler
 (
+unsafe
+{
 EventHandlerNonNull
 :
 :
@@ -3637,11 +3645,19 @@ new
 cx
 funobj
 )
+}
 )
 )
 }
 }
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 set_event_handler_common
@@ -3667,6 +3683,10 @@ T
 >
 >
 )
+where
+T
+:
+CallbackContainer
 {
 let
 cx
@@ -3691,6 +3711,7 @@ map
 |
 listener
 |
+{
 InlineEventListener
 :
 :
@@ -3701,6 +3722,8 @@ CommonEventHandler
 :
 EventHandler
 (
+unsafe
+{
 EventHandlerNonNull
 :
 :
@@ -3713,8 +3736,10 @@ callback
 (
 )
 )
+}
 )
 )
+}
 )
 ;
 self
@@ -3732,6 +3757,13 @@ event_listener
 )
 ;
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 set_error_event_handler
@@ -3757,6 +3789,10 @@ T
 >
 >
 )
+where
+T
+:
+CallbackContainer
 {
 let
 cx
@@ -3781,6 +3817,7 @@ map
 |
 listener
 |
+{
 InlineEventListener
 :
 :
@@ -3791,6 +3828,8 @@ CommonEventHandler
 :
 ErrorEventHandler
 (
+unsafe
+{
 OnErrorEventHandlerNonNull
 :
 :
@@ -3803,8 +3842,10 @@ callback
 (
 )
 )
+}
 )
 )
+}
 )
 ;
 self
@@ -3822,6 +3863,13 @@ event_listener
 )
 ;
 }
+#
+[
+allow
+(
+unsafe_code
+)
+]
 pub
 fn
 set_beforeunload_event_handler
@@ -3847,6 +3895,10 @@ T
 >
 >
 )
+where
+T
+:
+CallbackContainer
 {
 let
 cx
@@ -3871,6 +3923,7 @@ map
 |
 listener
 |
+{
 InlineEventListener
 :
 :
@@ -3881,6 +3934,8 @@ CommonEventHandler
 :
 BeforeUnloadEventHandler
 (
+unsafe
+{
 OnBeforeUnloadEventHandlerNonNull
 :
 :
@@ -3893,8 +3948,10 @@ callback
 (
 )
 )
+}
 )
 )
+}
 )
 ;
 self
