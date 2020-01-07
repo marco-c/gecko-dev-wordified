@@ -467,9 +467,6 @@ MutableHandleValue
 result
 )
 ;
-#
-if
-JS_HAS_TOSOURCE
 /
 /
 Object
@@ -502,11 +499,6 @@ HandleObject
 obj
 )
 ;
-#
-endif
-/
-/
-JS_HAS_TOSOURCE
 extern
 MOZ_MUST_USE
 bool

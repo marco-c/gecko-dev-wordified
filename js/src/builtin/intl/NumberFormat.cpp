@@ -411,9 +411,6 @@ NumberFormatObject
 classOps_
 }
 ;
-#
-if
-JS_HAS_TOSOURCE
 static
 bool
 numberFormat_toSource
@@ -459,8 +456,6 @@ return
 true
 ;
 }
-#
-endif
 static
 const
 JSFunctionSpec
@@ -513,9 +508,6 @@ Intl_NumberFormat_formatToParts
 1
 0
 )
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -523,8 +515,6 @@ numberFormat_toSource
 0
 0
 )
-#
-endif
 JS_FS_END
 }
 ;

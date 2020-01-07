@@ -841,9 +841,6 @@ return
 true
 ;
 }
-#
-if
-JS_HAS_TOSOURCE
 static
 bool
 obj_toSource
@@ -2961,13 +2958,6 @@ finishString
 )
 ;
 }
-#
-endif
-/
-*
-JS_HAS_TOSOURCE
-*
-/
 static
 bool
 GetBuiltinTagSlow
@@ -13091,9 +13081,6 @@ object_methods
 ]
 =
 {
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -13101,8 +13088,6 @@ obj_toSource
 0
 0
 )
-#
-endif
 JS_INLINABLE_FN
 (
 js_toString_str
@@ -13152,9 +13137,6 @@ obj_propertyIsEnumerable
 1
 0
 )
-#
-if
-JS_OLD_GETTER_SETTER_METHODS
 JS_SELF_HOSTED_FN
 (
 js_defineGetter_str
@@ -13191,8 +13173,6 @@ ObjectLookupSetter
 1
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
@@ -13204,9 +13184,6 @@ object_properties
 ]
 =
 {
-#
-if
-JS_HAS_OBJ_PROTO_PROP
 JS_PSGS
 (
 "
@@ -13216,8 +13193,6 @@ ProtoGetter
 ProtoSetter
 0
 )
-#
-endif
 JS_PS_END
 }
 ;

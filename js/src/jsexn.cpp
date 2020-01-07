@@ -466,9 +466,6 @@ error_methods
 ]
 =
 {
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -476,8 +473,6 @@ exn_toSource
 0
 0
 )
-#
-endif
 JS_SELF_HOSTED_FN
 (
 js_toString_str
@@ -2868,9 +2863,6 @@ return
 true
 ;
 }
-#
-if
-JS_HAS_TOSOURCE
 /
 *
 *
@@ -3373,8 +3365,6 @@ return
 true
 ;
 }
-#
-endif
 /
 *
 static

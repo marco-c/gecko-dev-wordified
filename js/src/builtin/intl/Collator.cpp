@@ -377,9 +377,6 @@ CollatorObject
 classOps_
 }
 ;
-#
-if
-JS_HAS_TOSOURCE
 static
 bool
 collator_toSource
@@ -425,8 +422,6 @@ return
 true
 ;
 }
-#
-endif
 static
 const
 JSFunctionSpec
@@ -468,9 +463,6 @@ Intl_Collator_resolvedOptions
 0
 0
 )
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -478,8 +470,6 @@ collator_toSource
 0
 0
 )
-#
-endif
 JS_FS_END
 }
 ;

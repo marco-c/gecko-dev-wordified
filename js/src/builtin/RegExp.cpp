@@ -4891,9 +4891,6 @@ regexp_methods
 ]
 =
 {
-#
-if
-JS_HAS_TOSOURCE
 JS_SELF_HOSTED_FN
 (
 js_toSource_str
@@ -4903,8 +4900,6 @@ RegExpToString
 0
 0
 )
-#
-endif
 JS_SELF_HOSTED_FN
 (
 js_toString_str

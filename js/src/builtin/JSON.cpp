@@ -6418,9 +6418,6 @@ MutableHandleValue
 vp
 )
 ;
-#
-if
-JS_HAS_TOSOURCE
 static
 bool
 json_toSource
@@ -6466,8 +6463,6 @@ return
 true
 ;
 }
-#
-endif
 /
 *
 ES5
@@ -6870,9 +6865,6 @@ json_static_methods
 ]
 =
 {
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -6880,8 +6872,6 @@ json_toSource
 0
 0
 )
-#
-endif
 JS_FN
 (
 "

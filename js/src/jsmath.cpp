@@ -7666,9 +7666,6 @@ vp
 )
 ;
 }
-#
-if
-JS_HAS_TOSOURCE
 static
 bool
 math_toSource
@@ -7714,8 +7711,6 @@ return
 true
 ;
 }
-#
-endif
 static
 const
 JSFunctionSpec
@@ -7724,9 +7719,6 @@ math_static_methods
 ]
 =
 {
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -7734,8 +7726,6 @@ math_toSource
 0
 0
 )
-#
-endif
 JS_INLINABLE_FN
 (
 "

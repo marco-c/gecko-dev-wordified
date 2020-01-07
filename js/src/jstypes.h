@@ -289,10 +289,6 @@ js
 config
 .
 h
-and
-jsversion
-.
-h
 also
 should
 be
@@ -301,11 +297,9 @@ by
 every
 file
 .
-/
-/
 So
 include
-them
+it
 here
 .
 /
@@ -313,7 +307,7 @@ here
 XXX
 :
 including
-them
+it
 in
 js
 /
@@ -364,13 +358,6 @@ include
 js
 -
 config
-.
-h
-"
-#
-include
-"
-jsversion
 .
 h
 "

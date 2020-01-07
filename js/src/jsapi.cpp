@@ -5933,9 +5933,6 @@ encodeURIComponent
 )
 JSProto_String
 }
-#
-if
-JS_HAS_UNEVAL
 {
 EAGER_ATOM
 (
@@ -5943,8 +5940,6 @@ uneval
 )
 JSProto_String
 }
-#
-endif
 {
 0
 JSProto_LIMIT

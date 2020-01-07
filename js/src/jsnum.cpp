@@ -3648,9 +3648,6 @@ unbox
 )
 ;
 }
-#
-if
-JS_HAS_TOSOURCE
 MOZ_ALWAYS_INLINE
 bool
 num_toSource_impl
@@ -3794,8 +3791,6 @@ args
 )
 ;
 }
-#
-endif
 ToCStringBuf
 :
 :
@@ -7012,9 +7007,6 @@ number_methods
 ]
 =
 {
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -7022,8 +7014,6 @@ num_toSource
 0
 0
 )
-#
-endif
 JS_FN
 (
 js_toString_str
