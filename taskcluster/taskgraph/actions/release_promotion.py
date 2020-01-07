@@ -2180,6 +2180,15 @@ release_enable_emefree
 =
 release_enable_emefree
     
+parameters
+[
+'
+release_product
+'
+]
+=
+product
+    
 #
 When
 doing

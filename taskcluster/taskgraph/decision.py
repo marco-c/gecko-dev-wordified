@@ -1402,6 +1402,15 @@ release_enable_emefree
 =
 False
     
+parameters
+[
+'
+release_product
+'
+]
+=
+None
+    
 #
 owner
 must
