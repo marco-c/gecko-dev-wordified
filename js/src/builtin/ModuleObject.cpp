@@ -7857,7 +7857,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_IMPORT
+Import
 )
 )
 ;
@@ -7885,7 +7885,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_IMPORT_SPEC_LIST
+ImportSpecList
 )
 )
 ;
@@ -7902,7 +7902,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STRING
+String
 )
 )
 ;
@@ -7968,7 +7968,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_IMPORT_SPEC
+ImportSpec
 )
 )
 ;
@@ -8131,7 +8131,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_EXPORT
+Export
 )
 |
 |
@@ -8143,7 +8143,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_EXPORT_DEFAULT
+ExportDefault
 )
 )
 ;
@@ -8166,7 +8166,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_EXPORT
+Export
 )
 ?
 PN_UNARY
@@ -8189,7 +8189,7 @@ getKind
 ParseNodeKind
 :
 :
-PNK_EXPORT_DEFAULT
+ExportDefault
 ;
 ParseNode
 *
@@ -8275,7 +8275,7 @@ case
 ParseNodeKind
 :
 :
-PNK_EXPORT_SPEC_LIST
+ExportSpecList
 :
 MOZ_ASSERT
 (
@@ -8314,7 +8314,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_EXPORT_SPEC
+ExportSpec
 )
 )
 ;
@@ -8364,7 +8364,7 @@ case
 ParseNodeKind
 :
 :
-PNK_CLASS
+Class
 :
 {
 const
@@ -8451,19 +8451,19 @@ case
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 :
 case
 ParseNodeKind
 :
 :
-PNK_CONST
+Const
 :
 case
 ParseNodeKind
 :
 :
-PNK_LET
+Let
 :
 {
 MOZ_ASSERT
@@ -8508,7 +8508,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 )
 )
 var
@@ -8528,7 +8528,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 ;
@@ -8584,7 +8584,7 @@ case
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 :
 {
 RootedFunction
@@ -8708,7 +8708,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_EXPORT_FROM
+ExportFrom
 )
 )
 ;
@@ -8736,7 +8736,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_EXPORT_SPEC_LIST
+ExportSpecList
 )
 )
 ;
@@ -8753,7 +8753,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STRING
+String
 )
 )
 ;
@@ -8819,7 +8819,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_EXPORT_SPEC
+ExportSpec
 )
 )
 {
@@ -8879,7 +8879,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_EXPORT_BATCH_SPEC
+ExportBatchSpec
 )
 )
 ;
