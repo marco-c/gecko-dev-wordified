@@ -1346,6 +1346,8 @@ const
 nsACString
 &
 aFinalURLSpec
+bool
+aResponseRedirected
 )
 {
 if
@@ -1490,6 +1492,7 @@ mSynthesizedResponseHead
 ptr
 (
 )
+aResponseRedirected
 )
 ;
 }

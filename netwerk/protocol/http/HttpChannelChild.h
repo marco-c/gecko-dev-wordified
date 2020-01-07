@@ -2557,6 +2557,8 @@ const
 nsHttpResponseHead
 *
 responseHead
+bool
+responseRedirected
 )
 ;
 /

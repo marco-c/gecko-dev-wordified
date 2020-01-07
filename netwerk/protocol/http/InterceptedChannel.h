@@ -726,6 +726,8 @@ const
 nsACString
 &
 aFinalURLSpec
+bool
+aResponseRedirected
 )
 override
 ;
