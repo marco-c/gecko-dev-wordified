@@ -224,7 +224,7 @@ DrawEventRecorderFile
 DrawEventRecorderFile
 (
 const
-char
+char_type
 *
 aFilename
 )
@@ -297,7 +297,7 @@ DrawEventRecorderFile
 OpenNew
 (
 const
-char
+char_type
 *
 aFilename
 )

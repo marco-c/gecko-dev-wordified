@@ -5796,7 +5796,7 @@ Factory
 CreateEventRecorderForFile
 (
 const
-char
+char_type
 *
 aFilename
 )

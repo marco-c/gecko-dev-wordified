@@ -368,8 +368,8 @@ int32_t
 _
 (
 GREDirectory
-nsCString
-nsCString
+nsString
+nsString
 (
 )
 )
