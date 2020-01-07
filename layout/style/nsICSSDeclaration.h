@@ -412,7 +412,6 @@ GetParentObject
 =
 0
 ;
-virtual
 mozilla
 :
 :
@@ -424,9 +423,6 @@ DocGroup
 GetDocGroup
 (
 )
-const
-=
-0
 ;
 NS_IMETHOD
 GetCssText
