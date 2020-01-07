@@ -1171,6 +1171,9 @@ FunctionAsyncKind
 functionAsyncKind
 FunctionSyntaxKind
 syntax
+ParseNode
+*
+name
 )
 ;
 /
