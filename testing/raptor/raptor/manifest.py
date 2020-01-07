@@ -602,6 +602,24 @@ on
 cmd
 line
     
+if
+args
+.
+test
+is
+not
+None
+and
+len
+(
+args
+.
+test
+)
+>
+0
+:
+        
 args
 .
 test
@@ -612,6 +630,15 @@ test
 [
 0
 ]
+    
+else
+:
+        
+args
+.
+test
+=
+None
     
 #
 if
