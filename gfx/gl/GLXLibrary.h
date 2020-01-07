@@ -143,6 +143,13 @@ h
 /
 for
 XVisualInfo
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 typedef
 struct
 __GLXcontextRec
