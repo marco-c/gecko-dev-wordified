@@ -534,11 +534,7 @@ get
 }
 #
 endif
-/
-/
-nsIDOMCSSConditionRule
-methods
-NS_IMETHODIMP
+void
 ServoMediaRule
 :
 :
@@ -549,7 +545,6 @@ nsAString
 aConditionText
 )
 {
-return
 Media
 (
 )
@@ -561,7 +556,7 @@ aConditionText
 )
 ;
 }
-NS_IMETHODIMP
+void
 ServoMediaRule
 :
 :
@@ -571,9 +566,13 @@ const
 nsAString
 &
 aConditionText
+ErrorResult
+&
+aRv
 )
 {
-return
+aRv
+=
 Media
 (
 )
