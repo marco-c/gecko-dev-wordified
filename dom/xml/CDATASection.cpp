@@ -167,7 +167,6 @@ nsGenericDOMDataNode
 nsIDOMNode
 nsIDOMCharacterData
 nsIDOMText
-nsIDOMCDATASection
 )
 JSObject
 *

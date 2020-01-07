@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsIDOMCDATASection
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -160,7 +153,7 @@ final
 public
 Text
 public
-nsIDOMCDATASection
+nsIDOMText
 {
 private
 :
@@ -299,13 +292,6 @@ nsGenericDOMDataNode
 :
 :
 )
-/
-/
-nsIDOMCDATASection
-/
-/
-Empty
-interface
 /
 /
 nsINode

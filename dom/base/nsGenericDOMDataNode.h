@@ -128,7 +128,7 @@ nsIDOMComment
 nsIDOMDocumentType
 nsIDOMText
 *
-nsIDOMCDATASection
+CDATASection
 and
 nsIDOMProcessingInstruction
 nodes
