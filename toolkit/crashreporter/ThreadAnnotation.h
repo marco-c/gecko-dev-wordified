@@ -115,6 +115,10 @@ char
 >
 &
 aCallback
+bool
+aIsHandlingException
+=
+false
 )
 ;
 class
