@@ -685,9 +685,6 @@ mNumPagesPrinted
 float
 mShrinkRatio
 ;
-float
-mOrigDCScale
-;
 nsCOMPtr
 <
 nsIPrintSettings

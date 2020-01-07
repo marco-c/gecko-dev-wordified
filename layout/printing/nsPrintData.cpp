@@ -443,12 +443,6 @@ mShrinkRatio
 .
 0
 )
-mOrigDCScale
-(
-1
-.
-0
-)
 mPPEventListeners
 (
 nullptr
