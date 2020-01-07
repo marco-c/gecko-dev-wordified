@@ -198,7 +198,7 @@ dbg
 )
 ;
 await
-waitForElement
+waitForElementWithSelector
 (
 dbg
 "

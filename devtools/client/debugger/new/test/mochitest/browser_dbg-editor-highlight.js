@@ -247,7 +247,7 @@ js
 )
 ;
 await
-waitForElement
+waitForElementWithSelector
 (
 dbg
 "

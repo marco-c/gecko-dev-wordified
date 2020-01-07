@@ -169,7 +169,7 @@ toolbox
 )
 ;
 await
-waitForElement
+waitForElementWithSelector
 (
 dbg
 "
