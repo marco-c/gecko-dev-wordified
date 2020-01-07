@@ -102,7 +102,7 @@ codegen
 UnionTypes
 :
 :
-BlobOrString
+ArrayBufferOrArrayBufferViewOrBlobOrString
 ;
 use
 dom
@@ -541,7 +541,7 @@ fileBits
 :
 Vec
 <
-BlobOrString
+ArrayBufferOrArrayBufferViewOrBlobOrString
 >
 filename
 :
