@@ -487,7 +487,7 @@ std
 string
 code_file
 =
-UTF8toMBCS
+UTF8ToMBCS
 (
 aPath
 )
