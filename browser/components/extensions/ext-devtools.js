@@ -1570,7 +1570,6 @@ Map
 }
 onThemeChanged
 (
-evt
 themeName
 )
 {
@@ -1990,10 +1989,7 @@ toolbox
 -
 created
 "
-(
-evt
 toolbox
-)
 =
 >
 {
@@ -2196,10 +2192,7 @@ toolbox
 -
 destroy
 "
-(
-evt
 target
-)
 =
 >
 {
