@@ -856,12 +856,6 @@ GetParent
 OwnerDoc
 (
 )
-&
-&
-(
-OwnerDoc
-(
-)
 -
 >
 GetRootElement
@@ -870,7 +864,6 @@ GetRootElement
 =
 =
 this
-)
 )
 "
 Can

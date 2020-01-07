@@ -2606,7 +2606,7 @@ bug
 322414
 comment
 33
-NS_IF_ADDREF
+NS_ADDREF
 (
 *
 aDocument
@@ -19220,14 +19220,6 @@ root
 if
 (
 content
-&
-&
-content
--
->
-OwnerDoc
-(
-)
 &
 &
 content

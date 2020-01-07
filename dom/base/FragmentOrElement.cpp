@@ -6485,11 +6485,6 @@ IsRootOfNativeAnonymousSubtree
 OwnerDoc
 (
 )
-&
-&
-OwnerDoc
-(
-)
 -
 >
 GetWindow

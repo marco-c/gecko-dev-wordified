@@ -1910,14 +1910,6 @@ AddWindowListeners
 if
 (
 mFrameElement
-&
-&
-mFrameElement
--
->
-OwnerDoc
-(
-)
 )
 {
 if
