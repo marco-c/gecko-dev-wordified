@@ -497,7 +497,7 @@ null
 *
 Get
 the
-GeckoView
+View
 instance
 that
 delegates
@@ -509,7 +509,7 @@ session
 *
 *
 return
-GeckoView
+View
 instance
 .
 *
@@ -530,7 +530,7 @@ mView
 *
 Set
 the
-GeckoView
+View
 instance
 that
 should
@@ -539,6 +539,13 @@ accessibility
 to
 this
 session
+.
+*
+*
+param
+view
+View
+instance
 .
 *
 /
