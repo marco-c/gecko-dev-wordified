@@ -42128,6 +42128,9 @@ entry
 (
 )
 ttemplate
+MacroAssembler
+:
+:
 TypedArrayLength
 :
 :
@@ -42326,6 +42329,9 @@ entry
 (
 )
 ttemplate
+MacroAssembler
+:
+:
 TypedArrayLength
 :
 :
