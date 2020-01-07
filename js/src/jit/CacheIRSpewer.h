@@ -305,6 +305,10 @@ cacheIRspewer
 bool
 init
 (
+const
+char
+*
+name
 )
 ;
 class
