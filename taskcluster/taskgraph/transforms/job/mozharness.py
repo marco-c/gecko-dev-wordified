@@ -1043,7 +1043,9 @@ sh
 #
 by
 default
-desktop
+debian7
+-
+amd64
 -
 build
 but
@@ -1060,14 +1062,6 @@ android
 -
 build
 )
-that
-"
-inherits
-"
-from
-desktop
--
-build
 .
     
 taskdesc
@@ -1092,7 +1086,9 @@ tree
 '
 :
 '
-desktop
+debian7
+-
+amd64
 -
 build
 '
