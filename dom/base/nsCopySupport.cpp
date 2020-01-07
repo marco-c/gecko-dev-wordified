@@ -5403,13 +5403,13 @@ the
 data
 transfer
 .
+count
+=
 clipboardData
 -
 >
-GetMozItemCount
+MozItemCount
 (
-&
-count
 )
 ;
 if
