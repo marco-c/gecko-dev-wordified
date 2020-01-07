@@ -3008,11 +3008,6 @@ target
 aEvent
 -
 >
-InternalDOMEvent
-(
-)
--
->
 GetCurrentTarget
 (
 )
@@ -3344,11 +3339,6 @@ EventTarget
 target
 =
 aEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 GetCurrentTarget

@@ -2180,7 +2180,7 @@ nsSMILTimeValueSpec
 :
 CheckRepeatEventDetail
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -2190,11 +2190,6 @@ TimeEvent
 timeEvent
 =
 aEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 AsTimeEvent

@@ -7541,7 +7541,7 @@ nsPluginInstanceOwner
 :
 DispatchFocusToPlugin
 (
-nsIDOMEvent
+Event
 *
 aFocusEvent
 )
@@ -7575,7 +7575,6 @@ cases
 without
 child
 window
-return
 aFocusEvent
 -
 >
@@ -7587,6 +7586,9 @@ PreventDefault
 /
 consume
 event
+return
+NS_OK
+;
 }
 #
 endif
@@ -7664,7 +7666,7 @@ nsPluginInstanceOwner
 :
 ProcessKeyPress
 (
-nsIDOMEvent
+Event
 *
 aKeyEvent
 )
@@ -7755,7 +7757,7 @@ nsPluginInstanceOwner
 :
 DispatchKeyToPlugin
 (
-nsIDOMEvent
+Event
 *
 aKeyEvent
 )
@@ -7783,7 +7785,7 @@ type
 NPWindowTypeWindow
 )
 )
-return
+{
 aKeyEvent
 -
 >
@@ -7795,6 +7797,10 @@ PreventDefault
 /
 consume
 event
+return
+NS_OK
+;
+}
 /
 /
 continue
@@ -7885,7 +7891,7 @@ nsPluginInstanceOwner
 :
 ProcessMouseDown
 (
-nsIDOMEvent
+Event
 *
 aMouseEvent
 )
@@ -7913,7 +7919,7 @@ type
 NPWindowTypeWindow
 )
 )
-return
+{
 aMouseEvent
 -
 >
@@ -7925,6 +7931,10 @@ PreventDefault
 /
 consume
 event
+return
+NS_OK
+;
+}
 /
 /
 continue
@@ -8067,7 +8077,6 @@ nsEventStatus_eConsumeNoDefault
 rv
 )
 {
-return
 aMouseEvent
 -
 >
@@ -8079,6 +8088,9 @@ PreventDefault
 /
 consume
 event
+return
+NS_OK
+;
 }
 }
 return
@@ -8091,7 +8103,7 @@ nsPluginInstanceOwner
 :
 DispatchMouseToPlugin
 (
-nsIDOMEvent
+Event
 *
 aMouseEvent
 bool
@@ -8121,7 +8133,7 @@ type
 NPWindowTypeWindow
 )
 )
-return
+{
 aMouseEvent
 -
 >
@@ -8133,6 +8145,10 @@ PreventDefault
 /
 consume
 event
+return
+NS_OK
+;
+}
 /
 /
 continue
@@ -8702,7 +8718,7 @@ nsPluginInstanceOwner
 :
 DispatchCompositionToPlugin
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -9645,11 +9661,6 @@ DragEvent
 dragEvent
 =
 aEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 AsDragEvent

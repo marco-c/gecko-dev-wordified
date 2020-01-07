@@ -1909,10 +1909,7 @@ remoteEvent
 .
 mEvent
 =
-do_QueryInterface
-(
 aEvent
-)
 ;
 NS_ENSURE_STATE
 (

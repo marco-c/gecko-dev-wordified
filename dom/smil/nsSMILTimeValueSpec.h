@@ -580,7 +580,7 @@ aEvent
 bool
 CheckRepeatEventDetail
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
