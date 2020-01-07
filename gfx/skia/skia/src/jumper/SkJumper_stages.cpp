@@ -6782,6 +6782,12 @@ h
 if
 defined
 (
+JUMPER_IS_NEON
+)
+&
+&
+defined
+(
 __aarch64__
 )
 &
@@ -6965,6 +6971,12 @@ f
 {
 #
 if
+defined
+(
+JUMPER_IS_NEON
+)
+&
+&
 defined
 (
 __aarch64__
