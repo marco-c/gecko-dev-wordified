@@ -2472,6 +2472,9 @@ contexts
 :
 [
 "
+editable
+"
+"
 password
 "
 "
@@ -2491,6 +2494,9 @@ expectedShownEventWithPermissions
 contexts
 :
 [
+"
+editable
+"
 "
 password
 "
