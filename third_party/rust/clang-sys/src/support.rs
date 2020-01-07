@@ -1550,7 +1550,7 @@ stderr
 map_err
 (
 |
-_
+e
 |
 format
 !
@@ -1560,11 +1560,14 @@ could
 not
 run
 executable
+{
+}
 :
 {
 }
 "
 executable
+e
 )
 )
 }

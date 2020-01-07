@@ -12851,7 +12851,7 @@ mangling_prefix
 Option
 <
 &
-String
+str
 >
 rust_ty
 :
@@ -14647,6 +14647,7 @@ n
 |
 &
 *
+*
 n
 )
 }
@@ -14655,6 +14656,7 @@ else
 Some
 (
 &
+*
 name
 )
 }

@@ -207,9 +207,6 @@ Path
 let
 file
 =
-try
-!
-(
 File
 :
 :
@@ -217,7 +214,7 @@ create
 (
 path
 )
-)
+?
 ;
 let
 mut
@@ -234,9 +231,6 @@ new
 file
 )
 ;
-try
-!
-(
 writeln
 !
 (
@@ -249,7 +243,7 @@ digraph
 {
 "
 )
-)
+?
 ;
 let
 mut
@@ -294,9 +288,6 @@ contains
 id
 )
 ;
-try
-!
-(
 writeln
 !
 (
@@ -355,11 +346,8 @@ gray
 "
 }
 )
-)
+?
 ;
-try
-!
-(
 item
 .
 dot_attributes
@@ -369,11 +357,8 @@ ctx
 mut
 dot_file
 )
-)
+?
 ;
-try
-!
-(
 writeln
 !
 (
@@ -393,7 +378,7 @@ table
 "
 #
 )
-)
+?
 ;
 item
 .
@@ -538,9 +523,6 @@ children
 (
 )
 {
-try
-!
-(
 writeln
 !
 (
@@ -578,14 +560,11 @@ as_usize
 (
 )
 )
-)
+?
 ;
 }
 }
 }
-try
-!
-(
 writeln
 !
 (
@@ -597,7 +576,7 @@ dot_file
 }
 "
 )
-)
+?
 ;
 Ok
 (

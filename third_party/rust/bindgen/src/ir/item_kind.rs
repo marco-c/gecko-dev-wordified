@@ -944,9 +944,6 @@ io
 :
 Write
 {
-try
-!
-(
 writeln
 !
 (
@@ -983,7 +980,7 @@ kind_name
 (
 )
 )
-)
+?
 ;
 match
 *
