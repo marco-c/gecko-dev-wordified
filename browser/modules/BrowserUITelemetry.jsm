@@ -804,13 +804,6 @@ soundplaying
 -
 icon
 "
-"
-restore
--
-tabs
--
-button
-"
 ]
 ;
 return
