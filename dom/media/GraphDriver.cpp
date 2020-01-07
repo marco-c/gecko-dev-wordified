@@ -229,10 +229,6 @@ mGraphImpl
 (
 aGraphImpl
 )
-mWaitState
-(
-WAITSTATE_RUNNING
-)
 mCurrentTimeStamp
 (
 TimeStamp
@@ -1542,6 +1538,10 @@ TimeStamp
 Now
 (
 )
+)
+mWaitState
+(
+WAITSTATE_RUNNING
 )
 mIsFallback
 (
@@ -4573,10 +4573,6 @@ GetMonitor
 mStarted
 =
 true
-;
-mWaitState
-=
-WAITSTATE_RUNNING
 ;
 }
 return
