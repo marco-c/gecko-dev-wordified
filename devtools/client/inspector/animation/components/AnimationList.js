@@ -201,6 +201,13 @@ PropTypes
 func
 .
 isRequired
+timeScale
+:
+PropTypes
+.
+object
+.
+isRequired
 }
 ;
 }
@@ -216,6 +223,7 @@ getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 setSelectedNode
+timeScale
 }
 =
 this
@@ -252,6 +260,7 @@ getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 setSelectedNode
+timeScale
 }
 )
 )
