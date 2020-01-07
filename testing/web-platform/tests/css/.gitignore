@@ -6,6 +6,9 @@ temp
 tools
 /
 cache
+tools
+/
+_virtualenv
 *
 .
 xcodeproj
