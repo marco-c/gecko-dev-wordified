@@ -304,7 +304,7 @@ distance
 SquaredDistance
 :
 :
-Value
+from_sqrt
 (
 0
 .

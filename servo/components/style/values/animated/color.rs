@@ -1270,7 +1270,7 @@ Ok
 SquaredDistance
 :
 :
-Value
+from_sqrt
 (
 0
 .
@@ -1328,7 +1328,7 @@ color
 SquaredDistance
 :
 :
-Value
+from_sqrt
 (
 1
 .
@@ -1371,7 +1371,7 @@ transparent
 SquaredDistance
 :
 :
-Value
+from_sqrt
 (
 1
 .
