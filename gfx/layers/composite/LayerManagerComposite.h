@@ -458,6 +458,17 @@ LayerTreeInvalidation
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+CompositorScreenshotGrabber
+.
+h
+"
 class
 gfxContext
 ;
@@ -2772,6 +2783,9 @@ RefPtr
 CompositingRenderTarget
 >
 mTwoPassTmpTarget
+;
+CompositorScreenshotGrabber
+mProfilerScreenshotGrabber
 ;
 RefPtr
 <
