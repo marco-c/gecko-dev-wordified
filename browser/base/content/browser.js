@@ -1443,7 +1443,7 @@ content
 /
 places
 /
-editBookmarkOverlay
+editBookmark
 .
 js
 "
