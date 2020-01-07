@@ -210,7 +210,6 @@ aGivenProto
 )
 final
 ;
-virtual
 dom
 :
 :
@@ -219,7 +218,6 @@ GetParentObject
 (
 )
 const
-final
 ;
 void
 GetRole
