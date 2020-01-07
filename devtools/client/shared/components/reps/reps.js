@@ -27552,6 +27552,12 @@ altKey
 )
 ;
 }
+e
+.
+stopPropagation
+(
+)
+;
 }
 }
 )
