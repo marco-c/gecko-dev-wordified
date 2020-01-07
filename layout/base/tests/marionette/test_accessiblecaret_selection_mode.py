@@ -279,6 +279,8 @@ files
 _selection_html
 =
 '
+layout
+/
 test_carets_selection
 .
 html
@@ -287,6 +289,8 @@ html
 _multipleline_html
 =
 '
+layout
+/
 test_carets_multipleline
 .
 html
@@ -295,6 +299,8 @@ html
 _multiplerange_html
 =
 '
+layout
+/
 test_carets_multiplerange
 .
 html
@@ -303,6 +309,8 @@ html
 _longtext_html
 =
 '
+layout
+/
 test_carets_longtext
 .
 html
@@ -311,6 +319,8 @@ html
 _iframe_html
 =
 '
+layout
+/
 test_carets_iframe
 .
 html
@@ -319,6 +329,8 @@ html
 _display_none_html
 =
 '
+layout
+/
 test_carets_display_none
 .
 html
