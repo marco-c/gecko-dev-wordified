@@ -4859,6 +4859,24 @@ py3_create_venv
 (
 )
         
+self
+.
+py3_install_modules
+(
+[
+"
+cffi
+=
+=
+1
+.
+10
+.
+0
+"
+]
+)
+        
 requirements
 =
 [
