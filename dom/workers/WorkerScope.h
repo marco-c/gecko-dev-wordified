@@ -606,11 +606,7 @@ Function
 &
 aHandler
 const
-Optional
-<
 int32_t
->
-&
 aTimeout
 const
 Sequence
@@ -638,11 +634,7 @@ nsAString
 &
 aHandler
 const
-Optional
-<
 int32_t
->
-&
 aTimeout
 const
 Sequence
