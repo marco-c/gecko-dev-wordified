@@ -3792,6 +3792,28 @@ linux
 )
         
 #
+the
+maximum
+time
+to
+run
+in
+seconds
+        
+Required
+(
+'
+max
+-
+run
+-
+time
+'
+)
+:
+int
+        
+#
 A
 link
 for
@@ -10531,6 +10553,21 @@ artifacts
 '
 :
 artifacts
+        
+'
+maxRunTime
+'
+:
+worker
+[
+'
+max
+-
+run
+-
+time
+'
+]
     
 }
     
