@@ -1149,6 +1149,8 @@ KeyboardEvent
 :
 Which
 (
+CallerType
+aCallerType
 )
 {
 /
@@ -1198,6 +1200,7 @@ eKeyUpOnPlugin
 return
 KeyCode
 (
+aCallerType
 )
 ;
 case
