@@ -1680,6 +1680,10 @@ aInnerHTML
 ErrorResult
 &
 aError
+bool
+aNeverSanitize
+=
+false
 )
 ;
 /
