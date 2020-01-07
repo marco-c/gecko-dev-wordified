@@ -642,16 +642,7 @@ ErrorResult
 &
 aRv
 )
-{
-aRv
-=
-RemoveParameter
-(
-aNamespaceURI
-aLocalName
-)
 ;
-}
 uint32_t
 Flags
 (
