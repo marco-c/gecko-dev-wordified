@@ -57,6 +57,9 @@ MPL
 *
 /
 use
+NotifierEvent
+;
+use
 WindowWrapper
 ;
 use
@@ -854,8 +857,7 @@ rx
 :
 Receiver
 <
-(
-)
+NotifierEvent
 >
 }
 impl
@@ -891,8 +893,7 @@ rx
 :
 Receiver
 <
-(
-)
+NotifierEvent
 >
 )
 -
