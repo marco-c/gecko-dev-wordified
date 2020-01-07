@@ -2189,6 +2189,12 @@ customSections
 CacheableChars
 filename
 ;
+CacheableChars
+baseURL
+;
+CacheableChars
+sourceMapURL
+;
 /
 /
 Debug

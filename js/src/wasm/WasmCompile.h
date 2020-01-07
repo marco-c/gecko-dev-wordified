@@ -228,6 +228,17 @@ column
 ;
 }
 ;
+struct
+ResponseURLs
+{
+UniqueChars
+baseURL
+;
+UniqueChars
+sourceMapURL
+;
+}
+;
 /
 /
 Describes
@@ -252,6 +263,9 @@ assumptions
 ;
 ScriptedCaller
 scriptedCaller
+;
+ResponseURLs
+responseURLs
 ;
 bool
 baselineEnabled
