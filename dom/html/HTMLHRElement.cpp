@@ -1184,15 +1184,11 @@ if
 colorIsSet
 &
 &
+!
 aData
 -
 >
-PresContext
-(
-)
--
->
-UseDocumentColors
+ShouldIgnoreColors
 (
 )
 )

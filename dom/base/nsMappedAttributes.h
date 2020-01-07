@@ -501,9 +501,9 @@ initialized
 void
 LazilyResolveServoDeclaration
 (
-nsPresContext
+nsIDocument
 *
-aPresContext
+aDocument
 )
 ;
 /

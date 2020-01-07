@@ -276,6 +276,11 @@ GeckoStyleContext
 const
 mStyleContext
 ;
+nsPresContext
+*
+const
+mPresContext
+;
 /
 /
 We
@@ -450,9 +455,6 @@ aSIDs
 nsCSSValue
 *
 aValueStorage
-nsPresContext
-*
-aContext
 mozilla
 :
 :

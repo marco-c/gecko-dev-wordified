@@ -3425,9 +3425,6 @@ scriptsizemultiplier_
 aData
 -
 >
-mPresContext
--
->
 Document
 (
 )
@@ -3572,9 +3569,6 @@ PARSE_ALLOW_UNITLESS
 |
 CONVERT_UNITLESS_TO_PERCENT
 aData
--
->
-mPresContext
 -
 >
 Document
@@ -3956,9 +3950,6 @@ scriptlevel_
 aData
 -
 >
-mPresContext
--
->
 Document
 (
 )
@@ -4202,9 +4193,6 @@ GetUTF16String
 (
 )
 aData
--
->
-mPresContext
 -
 >
 Document
@@ -4527,9 +4515,6 @@ GetUTF16String
 aData
 -
 >
-mPresContext
--
->
 Document
 (
 )
@@ -4700,9 +4685,6 @@ GetUTF16String
 (
 )
 aData
--
->
-mPresContext
 -
 >
 Document
@@ -4912,9 +4894,6 @@ GetUTF16String
 (
 )
 aData
--
->
-mPresContext
 -
 >
 Document
@@ -5608,9 +5587,6 @@ GetUTF16String
 aData
 -
 >
-mPresContext
--
->
 Document
 (
 )
@@ -5835,9 +5811,6 @@ GetUTF16String
 aData
 -
 >
-mPresContext
--
->
 Document
 (
 )
@@ -6060,9 +6033,6 @@ GetStringValue
 width
 0
 aData
--
->
-mPresContext
 -
 >
 Document
