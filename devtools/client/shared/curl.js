@@ -718,6 +718,9 @@ PUT
 "
 POST
 "
+"
+PATCH
+"
 ]
 .
 includes
