@@ -385,17 +385,6 @@ return
 true
 ;
 }
-bool
-IsLiveStream
-(
-)
-override
-final
-{
-return
-false
-;
-}
 nsCOMPtr
 <
 nsIChannel
