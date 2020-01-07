@@ -14066,7 +14066,10 @@ getter_AddRefs
 (
 mProxyConnectStream
 )
+Move
+(
 buf
+)
 )
 ;
 }

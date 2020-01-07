@@ -251,7 +251,10 @@ getter_AddRefs
 (
 stream
 )
+Move
+(
 decodedData
+)
 )
 ;
 NS_ENSURE_SUCCESS

@@ -2641,7 +2641,10 @@ rv
 NS_NewCStringInputStream
 (
 aSyncStream
+Move
+(
 buffer
+)
 )
 ;
 if
