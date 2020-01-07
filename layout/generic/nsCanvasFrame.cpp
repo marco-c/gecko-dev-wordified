@@ -2317,7 +2317,10 @@ layer
 mAttachment
 !
 =
-NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
+StyleImageLayerAttachment
+:
+:
+Fixed
 )
 return
 false

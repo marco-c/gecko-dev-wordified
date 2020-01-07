@@ -196,7 +196,7 @@ mozilla
 /
 dom
 /
-KeyframeEffect
+KeyframeEffectReadOnly
 .
 h
 "
@@ -4861,7 +4861,7 @@ continue
 dom
 :
 :
-KeyframeEffect
+KeyframeEffectReadOnly
 *
 keyframeEffect
 =
@@ -22612,7 +22612,10 @@ layer
 mAttachment
 =
 =
-NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
+StyleImageLayerAttachment
+:
+:
+Fixed
 &
 &
 !

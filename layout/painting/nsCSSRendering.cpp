@@ -14732,7 +14732,10 @@ IsScrollFrame
 )
 &
 &
-NS_STYLE_IMAGELAYER_ATTACHMENT_LOCAL
+StyleImageLayerAttachment
+:
+:
+Local
 =
 =
 aLayer
@@ -19050,7 +19053,10 @@ LayoutFrameType
 Scroll
 &
 &
-NS_STYLE_IMAGELAYER_ATTACHMENT_LOCAL
+StyleImageLayerAttachment
+:
+:
+Local
 =
 =
 aLayer
@@ -19601,7 +19607,10 @@ aForFrame
 ;
 if
 (
-NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
+StyleImageLayerAttachment
+:
+:
+Fixed
 =
 =
 aLayer
@@ -21534,7 +21543,10 @@ aBGClipRect
 ;
 if
 (
-NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
+StyleImageLayerAttachment
+:
+:
+Fixed
 =
 =
 aLayer

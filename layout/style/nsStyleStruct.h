@@ -4359,6 +4359,13 @@ mozilla
 StyleGeometryBox
 StyleGeometryBox
 ;
+typedef
+mozilla
+:
+:
+StyleImageLayerAttachment
+StyleImageLayerAttachment
+;
 nsStyleImage
 mImage
 ;
@@ -4411,7 +4418,7 @@ See
 nsStyleConsts
 .
 h
-uint8_t
+StyleImageLayerAttachment
 mAttachment
 ;
 /
@@ -4459,7 +4466,10 @@ which
 is
 /
 /
-NS_STYLE_IMAGELAYER_ATTACHMENT_SCROLL
+StyleImageLayerAttachment
+:
+:
+Scroll
 .
 uint8_t
 mBlendMode

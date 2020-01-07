@@ -489,10 +489,10 @@ else
 vector
 =
 True
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_IMAGELAYER_ATTACHMENT
+StyleImageLayerAttachment
 "
 spec
 =
