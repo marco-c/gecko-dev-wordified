@@ -43078,6 +43078,9 @@ done
 /
 if
 (
+isIncremental
+&
+&
 !
 hasBufferedGrayRoots
 (
