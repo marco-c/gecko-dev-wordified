@@ -353,14 +353,6 @@ Utility
 routines
 :
 bool
-IsTextNode
-(
-nsIDOMNode
-*
-aNode
-)
-;
-bool
 IsBlockNode
 (
 nsIContent
