@@ -4125,7 +4125,6 @@ NS_OK
 }
 if
 (
-!
 nsContentUtils
 :
 :
@@ -4135,10 +4134,6 @@ mDocShell
 )
 )
 {
-return
-NS_OK
-;
-}
 /
 /
 prefetch
@@ -4294,6 +4289,7 @@ aHref
 aCrossOrigin
 )
 ;
+}
 }
 /
 /
