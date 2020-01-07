@@ -251,13 +251,6 @@ h
 #
 include
 "
-nsIDOMUIEvent
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

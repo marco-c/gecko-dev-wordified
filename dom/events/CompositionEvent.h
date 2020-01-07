@@ -216,7 +216,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 CompositionEvent
 UIEvent
 )
-NS_FORWARD_TO_UIEVENT
 static
 already_AddRefed
 <

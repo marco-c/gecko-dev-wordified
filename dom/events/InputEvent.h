@@ -183,13 +183,6 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 InputEvent
 UIEvent
 )
-/
-/
-Forward
-to
-base
-class
-NS_FORWARD_TO_UIEVENT
 static
 already_AddRefed
 <
