@@ -13101,7 +13101,7 @@ panelName
 =
 this
 .
-getTelemetryPanelName
+getTelemetryPanelNameOrOther
 (
 id
 )
@@ -13111,7 +13111,7 @@ prevPanelName
 =
 this
 .
-getTelemetryPanelName
+getTelemetryPanelNameOrOther
 (
 this
 .
@@ -19687,7 +19687,7 @@ prevPanelName
 =
 this
 .
-getTelemetryPanelName
+getTelemetryPanelNameOrOther
 (
 this
 .
@@ -19766,7 +19766,7 @@ panel_name
 :
 this
 .
-getTelemetryPanelName
+getTelemetryPanelNameOrOther
 (
 this
 .
@@ -22708,7 +22708,7 @@ false
 )
 ;
 }
-getTelemetryPanelName
+getTelemetryPanelNameOrOther
 :
 function
 (
