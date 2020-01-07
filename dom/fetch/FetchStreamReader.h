@@ -163,7 +163,7 @@ namespace
 dom
 {
 class
-WorkerHolder
+WeakWorkerRef
 ;
 class
 FetchStreamReader
@@ -412,11 +412,11 @@ nsIAsyncOutputStream
 >
 mPipeOut
 ;
-UniquePtr
+RefPtr
 <
-WorkerHolder
+WeakWorkerRef
 >
-mWorkerHolder
+mWorkerRef
 ;
 JS
 :
