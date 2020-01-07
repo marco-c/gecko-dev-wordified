@@ -3612,7 +3612,7 @@ element
 get_attribute
 (
 '
-current
+visible
 '
 )
 =

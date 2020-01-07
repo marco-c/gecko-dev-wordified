@@ -8960,7 +8960,7 @@ node
 setAttribute
 (
 "
-current
+visible
 "
 true
 )
@@ -8975,7 +8975,7 @@ node
 removeAttribute
 (
 "
-current
+visible
 "
 )
 ;
