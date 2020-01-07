@@ -433,7 +433,7 @@ PRMJTime
 *
 tm
 int
-equivalentYear
+timeZoneYear
 int
 offsetInSeconds
 )
