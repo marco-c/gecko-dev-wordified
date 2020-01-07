@@ -219,7 +219,7 @@ keyPath
 "
 )
 ;
-if
+is
 (
 objectStore
 .
