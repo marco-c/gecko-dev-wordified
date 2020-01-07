@@ -1681,7 +1681,7 @@ for
 EventInfo
 .
 const
-nsCString
+nsDependentCString
 EventInfo
 :
 :
@@ -1691,7 +1691,7 @@ method
 const
 {
 return
-nsCString
+nsDependentCString
 (
 &
 gEventsStringTable
@@ -1705,7 +1705,7 @@ method_offset
 ;
 }
 const
-nsCString
+nsDependentCString
 EventInfo
 :
 :
@@ -1715,7 +1715,7 @@ object
 const
 {
 return
-nsCString
+nsDependentCString
 (
 &
 gEventsStringTable
@@ -1737,7 +1737,7 @@ for
 CommonEventInfo
 .
 const
-nsCString
+nsDependentCString
 CommonEventInfo
 :
 :
@@ -1747,7 +1747,7 @@ category
 const
 {
 return
-nsCString
+nsDependentCString
 (
 &
 gEventsStringTable
@@ -1761,7 +1761,7 @@ category_offset
 ;
 }
 const
-nsCString
+nsDependentCString
 CommonEventInfo
 :
 :
@@ -1771,7 +1771,7 @@ expiration_version
 const
 {
 return
-nsCString
+nsDependentCString
 (
 &
 gEventsStringTable
@@ -1785,7 +1785,7 @@ expiration_version_offset
 ;
 }
 const
-nsCString
+nsDependentCString
 CommonEventInfo
 :
 :
@@ -1820,7 +1820,7 @@ index
 ]
 ;
 return
-nsCString
+nsDependentCString
 (
 &
 gEventsStringTable
