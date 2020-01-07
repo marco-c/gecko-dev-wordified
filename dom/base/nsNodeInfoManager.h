@@ -723,7 +723,7 @@ protected
 :
 friend
 class
-nsDocument
+nsIDocument
 ;
 friend
 class
