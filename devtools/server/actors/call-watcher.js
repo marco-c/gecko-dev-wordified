@@ -1209,7 +1209,9 @@ isOverloaded
 {
 methodSignatureEnums
 =
-methodSignatureEnums
+knownMethod
+.
+enums
 (
 args
 )
