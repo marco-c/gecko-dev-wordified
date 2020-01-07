@@ -1064,6 +1064,7 @@ details
 let
 {
 document
+SidebarUI
 }
 =
 window
@@ -1483,6 +1484,17 @@ insertBefore
 (
 toolbarbutton
 separator
+)
+;
+SidebarUI
+.
+updateShortcut
+(
+{
+button
+:
+toolbarbutton
+}
 )
 ;
 return
