@@ -468,7 +468,8 @@ any
 .
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 UpdateStyleSheet
 (
 nsICSSLoaderObserver
