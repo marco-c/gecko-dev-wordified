@@ -101,6 +101,14 @@ structured
 log
 messages
 "
+        
+"
+(
+provided
+by
+mozlog
+)
+"
 )
     
 '
@@ -115,6 +123,14 @@ UnittestFormatter
 Unittest
 style
 output
+"
+        
+"
+(
+provided
+by
+mozlog
+)
 "
 )
     
@@ -131,6 +147,14 @@ xUnit
 compatible
 XML
 "
+        
+"
+(
+povided
+by
+mozlog
+)
+"
 )
     
 '
@@ -144,6 +168,14 @@ HTMLFormatter
 "
 HTML
 report
+"
+        
+"
+(
+provided
+by
+mozlog
+)
 "
 )
     
@@ -161,6 +193,14 @@ Human
 readable
 output
 "
+        
+"
+(
+provided
+by
+mozlog
+)
+"
 )
     
 '
@@ -176,6 +216,14 @@ TBPL
 style
 log
 format
+"
+        
+"
+(
+provided
+by
+mozlog
+)
 "
 )
     
@@ -217,6 +265,29 @@ related
 applications
 "
 "
+"
+DOCS_URL
+=
+"
+https
+:
+/
+/
+firefox
+-
+source
+-
+docs
+.
+mozilla
+.
+org
+/
+mozbase
+/
+mozlog
+.
+html
 "
 def
 level_filter_wrapper
@@ -855,7 +926,31 @@ write
 to
 stdout
 .
+Some
+options
+are
 "
+                         
+"
+provided
+by
+the
+mozlog
+utility
+;
+see
+%
+s
+"
+                         
+"
+for
+extended
+documentation
+.
+"
+%
+DOCS_URL
 )
     
 if
