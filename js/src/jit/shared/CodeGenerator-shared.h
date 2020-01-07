@@ -389,7 +389,7 @@ mozilla
 :
 Maybe
 <
-MacroAssembler
+IonHeapMacroAssembler
 >
 maybeMasm_
 ;

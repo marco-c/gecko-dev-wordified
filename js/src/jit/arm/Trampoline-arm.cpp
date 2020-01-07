@@ -6950,7 +6950,7 @@ JSContext
 cx
 )
 {
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 Register

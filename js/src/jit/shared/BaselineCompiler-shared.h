@@ -173,7 +173,7 @@ jsbytecode
 *
 pc
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 bool

@@ -1110,7 +1110,7 @@ getJitRuntime
 cx
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 MoveEmitter
@@ -1568,7 +1568,7 @@ getJitRuntime
 cx
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 MoveEmitter
@@ -3005,7 +3005,7 @@ getJitRuntime
 cx
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 MoveEmitter
@@ -4646,7 +4646,7 @@ getJitRuntime
 cx
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 MoveEmitter
@@ -6287,7 +6287,7 @@ getJitRuntime
 cx
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 MoveEmitter
@@ -6751,7 +6751,7 @@ getJitRuntime
 cx
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 MoveEmitter

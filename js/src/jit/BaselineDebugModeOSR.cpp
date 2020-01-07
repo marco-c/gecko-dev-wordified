@@ -7550,7 +7550,7 @@ uint32_t
 noFrameRegPopOffsetOut
 )
 {
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx

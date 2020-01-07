@@ -401,6 +401,12 @@ bufferSize
 return
 false
 ;
+JS
+:
+:
+AutoSuppressGCAnalysis
+suppress
+;
 EnterTest
 test
 =
@@ -427,7 +433,7 @@ BEGIN_TEST
 testJitMacroAssembler_truncateDoubleToInt64
 )
 {
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx
@@ -748,7 +754,7 @@ BEGIN_TEST
 testJitMacroAssembler_truncateDoubleToUInt64
 )
 {
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx
@@ -1109,7 +1115,7 @@ BEGIN_TEST
 testJitMacroAssembler_branchDoubleNotInInt64Range
 )
 {
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx
@@ -1454,7 +1460,7 @@ BEGIN_TEST
 testJitMacroAssembler_branchDoubleNotInUInt64Range
 )
 {
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx
@@ -1829,7 +1835,7 @@ BEGIN_TEST
 testJitMacroAssembler_lshift64
 )
 {
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx
@@ -2286,7 +2292,7 @@ BEGIN_TEST
 testJitMacroAssembler_rshift64Arithmetic
 )
 {
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx
@@ -2732,7 +2738,7 @@ BEGIN_TEST
 testJitMacroAssembler_rshift64
 )
 {
-MacroAssembler
+StackMacroAssembler
 masm
 (
 cx

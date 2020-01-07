@@ -4592,7 +4592,7 @@ getJitRuntime
 cx
 )
 ;
-MacroAssembler
+StackMacroAssembler
 masm
 ;
 /
