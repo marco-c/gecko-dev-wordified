@@ -195,10 +195,7 @@ use
 style_traits
 :
 :
-{
 ParseError
-SpecifiedValueInfo
-}
 ;
 /
 /
@@ -230,6 +227,7 @@ derive
 Clone
 Debug
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -943,12 +941,6 @@ common
 .
 0
 }
-}
-impl
-SpecifiedValueInfo
-for
-CssUrl
-{
 }
 /
 /
