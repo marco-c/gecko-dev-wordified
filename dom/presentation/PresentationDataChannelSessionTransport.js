@@ -1938,6 +1938,8 @@ selfAddress
 )
 {
 throw
+Cr
+.
 NS_ERROR_NOT_AVAILABLE
 ;
 }
@@ -2113,6 +2115,8 @@ _callback
 )
 {
 throw
+Cr
+.
 NS_ERROR_NOT_AVAILABLE
 ;
 }
@@ -2239,6 +2243,8 @@ _callback
 )
 {
 throw
+Cr
+.
 NS_ERROR_NOT_AVAILABLE
 ;
 }
