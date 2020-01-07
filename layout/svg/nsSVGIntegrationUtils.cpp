@@ -1560,17 +1560,6 @@ firstFrame
 firstFrame
 )
 ;
-nsPresContext
-*
-presContext
-=
-firstFrame
--
->
-PresContext
-(
-)
-;
 return
 gfx
 :

@@ -484,10 +484,6 @@ TaskCategory
 Other
 )
 )
-mCache
-(
-aCache
-)
 {
 }
 void
@@ -520,12 +516,6 @@ aRuleProcessor
 )
 ;
 }
-private
-:
-RuleProcessorCache
-*
-mCache
-;
 }
 ;
 RuleProcessorCache
