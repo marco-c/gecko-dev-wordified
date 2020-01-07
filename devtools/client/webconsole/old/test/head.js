@@ -389,12 +389,6 @@ utm_campaign
 default
 "
 ;
-flags
-.
-testing
-=
-true
-;
 Services
 .
 prefs
@@ -2145,12 +2139,6 @@ function
 (
 )
 {
-flags
-.
-testing
-=
-false
-;
 /
 /
 Remove

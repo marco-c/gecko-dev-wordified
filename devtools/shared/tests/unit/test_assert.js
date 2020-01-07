@@ -72,17 +72,6 @@ run_test
 (
 )
 {
-/
-/
-Enable
-assertions
-.
-flags
-.
-testing
-=
-true
-;
 const
 {
 assert

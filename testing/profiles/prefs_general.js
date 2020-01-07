@@ -489,6 +489,16 @@ true
 user_pref
 (
 "
+devtools
+.
+testing
+"
+true
+)
+;
+user_pref
+(
+"
 browser
 .
 EULA
