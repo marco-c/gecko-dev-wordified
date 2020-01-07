@@ -250,9 +250,6 @@ JSScript
 class
 JSString
 ;
-class
-JSAddonId
-;
 struct
 JSFreeOp
 ;
