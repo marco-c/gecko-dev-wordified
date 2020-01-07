@@ -1249,9 +1249,7 @@ install
 param
 .
 Allow
-param
-.
-Block
+null
 )
 ;
 }
@@ -1275,9 +1273,7 @@ popup
 param
 .
 Allow
-param
-.
-Block
+null
 )
 ;
 }
