@@ -73,6 +73,21 @@ compare_locales
 tests
 import
 ParserTestMixin
+from
+compare_locales
+.
+parser
+import
+(
+    
+Comment
+    
+DefinesInstruction
+    
+Junk
+    
+Whitespace
+)
 mpl2
 =
 '
@@ -228,16 +243,12 @@ emptyLines
 (
             
 (
-'
 Comment
-'
 mpl2
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -245,9 +256,7 @@ n
 )
             
 (
-'
 DefinesInstruction
-'
 '
 filter
 emptyLines
@@ -255,9 +264,7 @@ emptyLines
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -278,9 +285,7 @@ org
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -290,9 +295,7 @@ n
 )
             
 (
-'
 Comment
-'
 '
 #
 define
@@ -300,9 +303,7 @@ define
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -312,9 +313,7 @@ n
 )
             
 (
-'
 DefinesInstruction
-'
 '
 unfilter
 emptyLines
@@ -322,9 +321,7 @@ emptyLines
 )
             
 (
-'
 Junk
-'
 '
 \
 n
@@ -407,16 +404,12 @@ emptyLines
 (
             
 (
-'
 Comment
-'
 mpl2
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -424,9 +417,7 @@ n
 )
             
 (
-'
 DefinesInstruction
-'
 '
 filter
 emptyLines
@@ -434,9 +425,7 @@ emptyLines
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -457,9 +446,7 @@ org
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -469,9 +456,7 @@ n
 )
             
 (
-'
 Comment
-'
 '
 non
 -
@@ -480,9 +465,7 @@ English
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -512,9 +495,7 @@ contributor
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -524,9 +505,7 @@ n
 )
             
 (
-'
 DefinesInstruction
-'
 '
 unfilter
 emptyLines
@@ -534,9 +513,7 @@ emptyLines
 )
             
 (
-'
 Junk
-'
 '
 \
 n
@@ -607,16 +584,12 @@ emptyLines
 (
             
 (
-'
 Comment
-'
 mpl2
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -624,9 +597,7 @@ n
 )
             
 (
-'
 DefinesInstruction
-'
 '
 filter
 emptyLines
@@ -634,9 +605,7 @@ emptyLines
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -646,9 +615,7 @@ n
 )
             
 (
-'
 Comment
-'
 u
 '
 e
@@ -657,9 +624,7 @@ tin
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -675,9 +640,7 @@ seamonkey_l10n_long
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -687,9 +650,7 @@ n
 )
             
 (
-'
 DefinesInstruction
-'
 '
 unfilter
 emptyLines
@@ -697,9 +658,7 @@ emptyLines
 )
             
 (
-'
 Junk
-'
 '
 \
 n
@@ -753,9 +712,7 @@ org
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -774,9 +731,7 @@ org
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -828,9 +783,7 @@ org
 )
             
 (
-'
 Junk
-'
 '
 \
 n
@@ -849,9 +802,7 @@ org
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -892,9 +843,26 @@ org
 (
             
 (
-'
 Junk
 '
+\
+n
+'
+)
+            
+(
+'
+MOZ_LANGPACK_CREATOR
+'
+'
+mozilla
+.
+org
+'
+)
+            
+(
+Whitespace
 '
 \
 n
@@ -913,30 +881,7 @@ org
 )
             
 (
-'
 Whitespace
-'
-'
-\
-n
-'
-)
-            
-(
-'
-MOZ_LANGPACK_CREATOR
-'
-'
-mozilla
-.
-org
-'
-)
-            
-(
-'
-Whitespace
-'
 '
 \
 n
@@ -983,9 +928,7 @@ emptyLines
 (
             
 (
-'
 DefinesInstruction
-'
 '
 filter
 emptyLines
@@ -993,9 +936,7 @@ emptyLines
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1016,9 +957,7 @@ org
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1037,9 +976,7 @@ org
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1047,9 +984,7 @@ n
 )
             
 (
-'
 DefinesInstruction
-'
 '
 unfilter
 emptyLines
@@ -1096,9 +1031,7 @@ emptyLines
 (
             
 (
-'
 DefinesInstruction
-'
 '
 filter
 emptyLines
@@ -1106,9 +1039,7 @@ emptyLines
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1129,9 +1060,7 @@ org
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1150,9 +1079,7 @@ org
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1160,9 +1087,7 @@ n
 )
             
 (
-'
 DefinesInstruction
-'
 '
 unfilter
 emptyLines
@@ -1170,9 +1095,7 @@ emptyLines
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1220,9 +1143,7 @@ US
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1299,9 +1220,7 @@ n
 '
 (
 (
-'
 Junk
-'
 '
 \
 n
@@ -1322,9 +1241,7 @@ n
 '
 (
 (
-'
 Junk
-'
 '
 \
 n
@@ -1347,9 +1264,7 @@ n
 '
 (
 (
-'
 Junk
-'
 '
 \
 n
@@ -1445,9 +1360,7 @@ one
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1463,9 +1376,7 @@ two
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1481,9 +1392,7 @@ tre
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n

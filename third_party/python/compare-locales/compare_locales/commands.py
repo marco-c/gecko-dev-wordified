@@ -278,11 +278,6 @@ action
 '
 count
 '
-dest
-=
-'
-v
-'
                             
 default
 =
@@ -314,11 +309,6 @@ action
 '
 count
 '
-dest
-=
-'
-q
-'
                             
 default
 =
@@ -326,9 +316,42 @@ default
 help
 =
 '
-Make
+'
+'
+Show
 less
-noise
+data
+.
+Specified
+once
+doesn
+'
+t
+record
+entities
+.
+Specified
+twice
+also
+drops
+missing
+and
+obsolete
+files
+.
+Specify
+thrice
+to
+hide
+errors
+and
+warnings
+and
+just
+show
+stats
+'
+'
 '
 )
         
@@ -865,6 +888,24 @@ warn
 by
 default
         
+logging_level
+=
+logging
+.
+WARNING
+-
+(
+args
+.
+verbose
+-
+args
+.
+quiet
+)
+*
+10
+        
 logging
 .
 basicConfig
@@ -879,22 +920,7 @@ getLogger
 .
 setLevel
 (
-logging
-.
-WARNING
--
-                                     
-(
-args
-.
-v
--
-args
-.
-q
-)
-*
-10
+logging_level
 )
         
 kwargs
@@ -914,16 +940,7 @@ kwargs
 pop
 (
 '
-q
-'
-)
-        
-kwargs
-.
-pop
-(
-'
-v
+verbose
 '
 )
         
@@ -957,6 +974,9 @@ False
 full
 =
 False
+quiet
+=
+0
                
 clobber
 =
@@ -1344,6 +1364,9 @@ unified_observer
 =
 Observer
 (
+quiet
+=
+quiet
 )
             
 observers
@@ -1352,6 +1375,10 @@ compareProjects
 (
                 
 configs
+                
+quiet
+=
+quiet
                 
 stat_observer
 =

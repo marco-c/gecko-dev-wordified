@@ -214,6 +214,16 @@ in
 merged_iter
     
 }
+LOCALIZABLE_ENTRIES
+=
+(
+FTL
+.
+Message
+FTL
+.
+Term
+)
 def
 get_message
 (
@@ -248,9 +258,7 @@ if
 isinstance
 (
 entity
-FTL
-.
-Message
+LOCALIZABLE_ENTRIES
 )
 and
 entity

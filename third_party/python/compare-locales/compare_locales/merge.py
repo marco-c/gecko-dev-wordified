@@ -235,7 +235,7 @@ counter
 [
 entity
 .
-all
+val
 ]
 +
 =
@@ -273,12 +273,12 @@ return
 (
 entity
 .
-all
+val
 counter
 [
 entity
 .
-all
+val
 ]
 )
 entity

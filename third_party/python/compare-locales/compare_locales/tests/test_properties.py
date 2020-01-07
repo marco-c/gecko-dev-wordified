@@ -73,6 +73,19 @@ compare_locales
 tests
 import
 ParserTestMixin
+from
+compare_locales
+.
+parser
+import
+(
+    
+Comment
+    
+Junk
+    
+Whitespace
+)
 class
 TestPropertiesParser
 (
@@ -171,9 +184,7 @@ line
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -197,9 +208,7 @@ lines
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -222,9 +231,7 @@ in
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -232,9 +239,7 @@ n
 )
             
 (
-'
 Junk
-'
 '
 and
 has
@@ -273,9 +278,7 @@ coming
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -691,18 +694,14 @@ value
 (
             
 (
-'
 Comment
-'
 '
 MPL
 '
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -721,9 +720,7 @@ value
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -896,9 +893,7 @@ string
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -915,9 +910,7 @@ string
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -927,9 +920,7 @@ n
 )
             
 (
-'
 Comment
-'
 '
 commented
 out
@@ -937,9 +928,7 @@ out
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -984,9 +973,7 @@ bar
 '
 )
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1101,18 +1088,14 @@ Debugger
 (
             
 (
-'
 Comment
-'
 '
 MPL
 '
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1122,9 +1105,7 @@ n
 )
             
 (
-'
 Comment
-'
 '
 LOCALIZATION
 NOTE
@@ -1132,9 +1113,7 @@ NOTE
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1241,18 +1220,14 @@ Debugger
 (
             
 (
-'
 Comment
-'
 '
 MPL
 '
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1262,9 +1237,7 @@ n
 )
             
 (
-'
 Comment
-'
 '
 LOCALIZATION
 NOTE
@@ -1316,9 +1289,7 @@ Debugger
 (
             
 (
-'
 Comment
-'
 '
 LOCALIZATION
 NOTE
@@ -1326,9 +1297,7 @@ NOTE
 )
             
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1369,9 +1338,7 @@ n
 '
 (
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1392,9 +1359,7 @@ n
 '
 (
 (
-'
 Whitespace
-'
 '
 \
 n
@@ -1417,9 +1382,7 @@ n
 '
 (
 (
-'
 Whitespace
-'
 '
 \
 n
