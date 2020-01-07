@@ -409,12 +409,12 @@ aError
 /
 /
 GlobalProcessScriptLoader
-/
-/
-XPCOM
+using
+nsFrameMessageManager
+:
+:
 GetInitialProcessData
-is
-OK
+;
 /
 /
 FrameScriptLoader
