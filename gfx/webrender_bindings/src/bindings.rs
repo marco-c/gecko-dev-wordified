@@ -1509,6 +1509,9 @@ is_opaque
 offset
 :
 0
+allow_mipmaps
+:
+true
 }
 }
 }
