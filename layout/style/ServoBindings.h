@@ -2375,15 +2375,9 @@ stops
 )
 ;
 const
-mozilla
-:
-:
-css
-:
-:
-URLValueData
+nsStyleImageRequest
 *
-Gecko_GetURLValue
+Gecko_GetImageRequest
 (
 const
 nsStyleImage
