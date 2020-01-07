@@ -1372,7 +1372,7 @@ locale
 stories_referrer
 :
 "
-https
+http
 :
 /
 /
