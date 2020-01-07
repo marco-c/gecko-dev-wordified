@@ -15091,7 +15091,10 @@ conversion
 )
 =
 =
-IntConversion_Any
+IntConversionInputKind
+:
+:
+Any
 )
 ;
 define
@@ -15127,7 +15130,10 @@ conversion
 )
 =
 =
-IntConversion_Any
+IntConversionInputKind
+:
+:
+Any
 |
 |
 convert
@@ -15138,7 +15144,10 @@ conversion
 )
 =
 =
-IntConversion_NumbersOrBoolsOnly
+IntConversionInputKind
+:
+:
+NumbersOrBoolsOnly
 )
 ;
 redefine

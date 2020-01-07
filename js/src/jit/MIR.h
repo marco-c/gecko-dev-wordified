@@ -30574,7 +30574,10 @@ def
 IntConversionInputKind
 conversion
 =
-IntConversion_Any
+IntConversionInputKind
+:
+:
+Any
 )
 :
 MUnaryInstruction
