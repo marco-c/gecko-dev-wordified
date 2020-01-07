@@ -2921,7 +2921,7 @@ DoUpdateTransitions
 (
 const
 nsStyleDisplay
-*
+&
 aDisp
 mozilla
 :

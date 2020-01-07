@@ -3822,6 +3822,7 @@ startedAny
 =
 DoUpdateTransitions
 (
+*
 disp
 aElement
 afterChangeStyle
@@ -4091,6 +4092,7 @@ GetStyleDisplay
 return
 DoUpdateTransitions
 (
+*
 disp
 aElement
 aPseudoType
@@ -4113,7 +4115,7 @@ DoUpdateTransitions
 (
 const
 nsStyleDisplay
-*
+&
 aDisp
 dom
 :
@@ -4133,15 +4135,6 @@ StyleType
 aNewStyle
 )
 {
-MOZ_ASSERT
-(
-aDisp
-"
-Null
-nsStyleDisplay
-"
-)
-;
 MOZ_ASSERT
 (
 !
@@ -4242,8 +4235,7 @@ uint32_t
 i
 =
 aDisp
--
->
+.
 mTransitionPropertyCount
 ;
 i
@@ -4261,8 +4253,7 @@ StyleTransition
 t
 =
 aDisp
--
->
+.
 mTransitions
 [
 i
@@ -4638,8 +4629,7 @@ bool
 checkProperties
 =
 aDisp
--
->
+.
 mTransitions
 [
 0
@@ -4666,8 +4656,7 @@ uint32_t
 i
 =
 aDisp
--
->
+.
 mTransitionPropertyCount
 ;
 i
@@ -4685,8 +4674,7 @@ StyleTransition
 t
 =
 aDisp
--
->
+.
 mTransitions
 [
 i
