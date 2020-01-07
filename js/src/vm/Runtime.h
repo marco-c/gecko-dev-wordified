@@ -5678,7 +5678,7 @@ JS
 :
 RuntimeSizes
 *
-runtime
+rtSizes
 )
 ;
 private

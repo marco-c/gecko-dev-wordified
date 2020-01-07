@@ -2802,6 +2802,13 @@ _
 MallocHeap
 wasmRuntime
 )
+\
+macro
+(
+_
+MallocHeap
+jitLazyLink
+)
 RuntimeSizes
 (
 )
