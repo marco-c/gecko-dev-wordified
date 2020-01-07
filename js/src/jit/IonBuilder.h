@@ -4795,6 +4795,17 @@ jsop_pushcallobj
 (
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_implicitthis
+(
+PropertyName
+*
+name
+)
+;
 /
 *
 Inlining
