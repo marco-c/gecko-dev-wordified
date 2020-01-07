@@ -2468,6 +2468,14 @@ UseWebRender
 )
 ;
 }
+mPaused
+=
+mOptions
+.
+InitiallyPaused
+(
+)
+;
 mCompositorBridgeID
 =
 0
