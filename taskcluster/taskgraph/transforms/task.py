@@ -3777,6 +3777,9 @@ run
 -
 time
 '
+default
+=
+600
 )
 :
 int
