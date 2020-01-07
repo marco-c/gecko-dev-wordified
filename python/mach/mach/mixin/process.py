@@ -1089,9 +1089,34 @@ processOutput
             
 status
 =
+None
+            
+while
+status
+is
+None
+:
+                
+try
+:
+                    
+status
+=
 p
 .
 wait
+(
+)
+                
+except
+KeyboardInterrupt
+:
+                    
+status
+=
+p
+.
+kill
 (
 )
         
