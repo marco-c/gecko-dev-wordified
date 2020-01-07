@@ -176,16 +176,6 @@ nsIBlocklistService
 checkService
 (
 "
-cache
-"
-Ci
-.
-nsICacheService
-)
-;
-checkService
-(
-"
 cache2
 "
 Ci
