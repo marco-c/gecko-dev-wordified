@@ -205,6 +205,13 @@ PropTypes
 func
 .
 isRequired
+setDetailVisibility
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -216,6 +223,7 @@ const
 {
 animation
 getAnimatedPropertyMap
+setDetailVisibility
 }
 =
 this
@@ -244,6 +252,7 @@ AnimationDetailHeader
 (
 {
 animation
+setDetailVisibility
 }
 )
 :

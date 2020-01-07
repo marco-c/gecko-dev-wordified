@@ -96,6 +96,17 @@ UPDATE_ANIMATIONS
 /
 /
 Update
+visibility
+of
+detail
+pane
+.
+"
+UPDATE_DETAIL_VISIBILITY
+"
+/
+/
+Update
 state
 of
 the

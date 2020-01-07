@@ -290,6 +290,13 @@ PropTypes
 func
 .
 isRequired
+setDetailVisibility
+:
+PropTypes
+.
+func
+.
+isRequired
 setSelectedNode
 :
 PropTypes
@@ -359,6 +366,7 @@ getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 selectAnimation
+setDetailVisibility
 setSelectedNode
 simulateAnimation
 toggleElementPicker
@@ -418,6 +426,7 @@ AnimationDetailContainer
 (
 {
 getAnimatedPropertyMap
+setDetailVisibility
 }
 )
 endPanelControl
