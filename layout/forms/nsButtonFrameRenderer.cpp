@@ -2939,9 +2939,9 @@ to
 -
 moz
 -
-inner
--
 focus
+-
+inner
 (
 ie
 dotted
