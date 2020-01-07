@@ -249,11 +249,6 @@ sidebarViewOnLoad
 :
 0
 "
-enableHandToolOnLoad
-"
-:
-false
-"
 cursorToolOnLoad
 "
 :
@@ -289,10 +284,10 @@ disableFontFace
 :
 false
 "
-disableTextLayer
+textLayerMode
 "
 :
-false
+1
 "
 useOnlyCssZoom
 "
@@ -303,11 +298,6 @@ externalLinkTarget
 "
 :
 0
-"
-enhanceTextSelection
-"
-:
-false
 "
 renderer
 "
