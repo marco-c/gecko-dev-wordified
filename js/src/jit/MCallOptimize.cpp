@@ -436,7 +436,7 @@ if
 target
 -
 >
-jitInfo
+hasJitInfo
 (
 )
 |

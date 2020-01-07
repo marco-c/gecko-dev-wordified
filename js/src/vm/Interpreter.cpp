@@ -3243,6 +3243,14 @@ args
 ignoresReturnValue
 (
 )
+&
+&
+fun
+-
+>
+hasJitInfo
+(
+)
 )
 {
 const
@@ -3259,9 +3267,6 @@ jitInfo
 ;
 if
 (
-jitInfo
-&
-&
 jitInfo
 -
 >
@@ -3610,7 +3615,7 @@ JSFunction
 (
 )
 .
-jitInfo
+hasJitInfo
 (
 )
 |
