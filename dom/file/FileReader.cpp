@@ -178,6 +178,17 @@ mozilla
 /
 dom
 /
+DOMExceptionBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 File
 .
 h
@@ -1171,7 +1182,7 @@ DOMException
 NS_ERROR_DOM_INVALID_STATE_ERR
 errorMsg
 errorNameC
-DOMException
+DOMExceptionBinding
 :
 :
 INVALID_STATE_ERR

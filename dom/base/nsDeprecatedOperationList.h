@@ -164,10 +164,6 @@ EnablePrivilege
 )
 DEPRECATED_OPERATION
 (
-DOMExceptionCode
-)
-DEPRECATED_OPERATION
-(
 MutationEvent
 )
 DEPRECATED_OPERATION
