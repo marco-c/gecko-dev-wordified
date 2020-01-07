@@ -69,6 +69,11 @@ animation
 type
 is
 color
+requestLongerTimeout
+(
+2
+)
+;
 const
 TEST_DATA
 =
