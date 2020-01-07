@@ -12305,6 +12305,15 @@ usize
 impl
 CascadeData
 {
+/
+/
+/
+Creates
+an
+empty
+CascadeData
+.
+pub
 fn
 new
 (
@@ -12430,6 +12439,7 @@ if
 /
 possible
 .
+pub
 fn
 rebuild
 <
@@ -13980,6 +13990,7 @@ the
 given
 stylesheet
 .
+pub
 fn
 media_feature_affected_matches
 <

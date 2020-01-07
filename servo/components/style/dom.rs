@@ -6021,12 +6021,10 @@ F
 :
 FnMut
 (
-AtomicRef
-<
+&
 '
 a
 CascadeData
->
 QuirksMode
 )
 {
@@ -6108,12 +6106,10 @@ F
 :
 FnMut
 (
-AtomicRef
-<
+&
 '
 a
 CascadeData
->
 QuirksMode
 )
 {
