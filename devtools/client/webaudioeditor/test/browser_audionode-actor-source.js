@@ -39,8 +39,8 @@ source
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -50,7 +50,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_NODES_URL
@@ -62,7 +62,7 @@ _
 nodes
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -156,6 +156,7 @@ if
 (
 shouldBeSource
 )
+{
 is
 (
 isSourceResult
@@ -174,7 +175,9 @@ true
 "
 )
 ;
+}
 else
+{
 is
 (
 isSourceResult
@@ -194,9 +197,10 @@ false
 )
 ;
 }
+}
 )
 ;
-yield
+await
 removeTab
 (
 target

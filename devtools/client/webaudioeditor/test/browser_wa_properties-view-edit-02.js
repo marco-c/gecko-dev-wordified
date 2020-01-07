@@ -46,8 +46,8 @@ VariablesView
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -57,7 +57,7 @@ target
 panel
 }
 =
-yield
+await
 initWebAudioEditor
 (
 COMPLEX_CONTEXT_URL
@@ -136,7 +136,7 @@ let
 actors
 ]
 =
-yield
+await
 events
 ;
 let
@@ -187,7 +187,7 @@ fully
 into
 the
 view
-yield
+await
 Promise
 .
 all
@@ -221,7 +221,7 @@ UI_SET_PARAM_ERROR
 ;
 try
 {
-yield
+await
 modifyVariableView
 (
 panelWin
@@ -253,7 +253,7 @@ is
 not
 writable
 }
-yield
+await
 errorEvent
 ;
 checkVariableView
@@ -276,7 +276,7 @@ updated
 "
 )
 ;
-yield
+await
 teardown
 (
 target

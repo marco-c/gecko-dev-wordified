@@ -46,8 +46,8 @@ isBypassed
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -57,7 +57,7 @@ target
 front
 }
 =
-yield
+await
 initBackend
 (
 SIMPLE_CONTEXT_URL
@@ -73,7 +73,7 @@ gainNode
 ]
 ]
 =
-yield
+await
 Promise
 .
 all
@@ -104,7 +104,7 @@ node
 is
 (
 (
-yield
+await
 gainNode
 .
 isBypassed
@@ -137,7 +137,7 @@ true
 let
 isBypassed
 =
-yield
+await
 gainNode
 .
 bypass
@@ -165,7 +165,7 @@ true
 is
 (
 (
-yield
+await
 gainNode
 .
 isBypassed
@@ -197,7 +197,7 @@ false
 ;
 isBypassed
 =
-yield
+await
 gainNode
 .
 bypass
@@ -225,7 +225,7 @@ false
 is
 (
 (
-yield
+await
 gainNode
 .
 isBypassed
@@ -261,7 +261,7 @@ node
 ;
 isBypassed
 =
-yield
+await
 destNode
 .
 bypass
@@ -292,7 +292,7 @@ node
 is
 (
 (
-yield
+await
 gainNode
 .
 isBypassed
@@ -308,7 +308,7 @@ unaffect
 "
 )
 ;
-yield
+await
 removeTab
 (
 target
