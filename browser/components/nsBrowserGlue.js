@@ -4300,7 +4300,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;
@@ -4516,7 +4516,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;
@@ -7107,7 +7107,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;
@@ -7381,7 +7381,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;
@@ -7651,7 +7651,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;
@@ -11814,7 +11814,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;
@@ -12011,7 +12011,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;
@@ -13993,7 +13993,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;
@@ -18044,7 +18044,7 @@ prompt
 (
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 )
@@ -19820,7 +19820,7 @@ chromeWindow
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;
@@ -20033,7 +20033,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 {
 private
@@ -20733,7 +20733,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 {
 private
@@ -20993,7 +20993,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 {
 private
@@ -21367,7 +21367,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;
@@ -23757,7 +23757,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;

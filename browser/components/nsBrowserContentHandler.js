@@ -5063,7 +5063,7 @@ navWin
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 {
 private
@@ -5898,7 +5898,7 @@ win
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;

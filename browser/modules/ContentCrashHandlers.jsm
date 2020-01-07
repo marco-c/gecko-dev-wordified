@@ -5386,7 +5386,7 @@ chromeWin
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;

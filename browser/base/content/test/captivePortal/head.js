@@ -209,7 +209,7 @@ it
 from
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 in
 an
 attempt
@@ -229,11 +229,11 @@ uninit
 )
 ;
 let
-getMostRecentBrowserWindowCopy
+getTopWindowCopy
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 ;
 let
 defaultWindow
@@ -242,7 +242,7 @@ window
 ;
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 =
 (
 )
@@ -252,7 +252,7 @@ getMostRecentBrowserWindow
 let
 win
 =
-getMostRecentBrowserWindowCopy
+getTopWindowCopy
 (
 )
 ;
@@ -282,9 +282,9 @@ cleanUp
 {
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 =
-getMostRecentBrowserWindowCopy
+getTopWindowCopy
 ;
 window
 .

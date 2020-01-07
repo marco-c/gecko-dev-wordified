@@ -309,7 +309,7 @@ rejection
 "
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 .
 .
@@ -397,7 +397,7 @@ PromiseTestUtils
 whitelistRejectionsGlobally
 (
 /
-getMostRecentBrowserWindow
+getTopWindow
 /
 )
 ;

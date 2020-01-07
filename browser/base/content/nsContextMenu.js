@@ -7562,7 +7562,7 @@ browserWindow
 =
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;

@@ -1101,7 +1101,7 @@ browserWindow
 return
 BrowserWindowTracker
 .
-getMostRecentBrowserWindow
+getTopWindow
 (
 )
 ;
