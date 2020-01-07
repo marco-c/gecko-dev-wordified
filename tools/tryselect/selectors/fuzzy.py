@@ -658,6 +658,11 @@ env
 '
 rebuild
 '
+'
+chemspill
+-
+prio
+'
 ]
 def
 run
