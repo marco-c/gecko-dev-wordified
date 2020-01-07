@@ -479,6 +479,9 @@ class
 MediaSource
 ;
 class
+PlayPromise
+;
+class
 Promise
 ;
 class
@@ -7458,7 +7461,7 @@ nsTArray
 <
 RefPtr
 <
-Promise
+PlayPromise
 >
 >
 TakePendingPlayPromises
@@ -10629,6 +10632,18 @@ mCount
 ;
 private
 :
+already_AddRefed
+<
+PlayPromise
+>
+CreatePlayPromise
+(
+ErrorResult
+&
+aRv
+)
+const
+;
 /
 *
 *
@@ -11132,7 +11147,7 @@ nsTArray
 <
 RefPtr
 <
-Promise
+PlayPromise
 >
 >
 mPendingPlayPromises
