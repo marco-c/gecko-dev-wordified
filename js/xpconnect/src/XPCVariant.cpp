@@ -2747,6 +2747,7 @@ TD_CHAR
 }
 &
 iid
+0
 pErr
 )
 ;
@@ -2797,6 +2798,7 @@ TD_WCHAR
 }
 &
 iid
+0
 pErr
 )
 ;
@@ -2851,6 +2853,7 @@ TD_PNSIID
 }
 &
 iid
+0
 pErr
 )
 ;
@@ -2895,6 +2898,7 @@ TD_ASTRING
 }
 &
 iid
+0
 pErr
 )
 ;
@@ -2939,6 +2943,7 @@ TD_DOMSTRING
 }
 &
 iid
+0
 pErr
 )
 ;
@@ -2983,6 +2988,7 @@ TD_CSTRING
 }
 &
 iid
+0
 pErr
 )
 ;
@@ -3027,6 +3033,7 @@ TD_UTF8STRING
 }
 &
 iid
+0
 pErr
 )
 ;
@@ -3080,6 +3087,7 @@ TD_PSTRING
 }
 &
 iid
+0
 pErr
 )
 ;
@@ -3131,7 +3139,7 @@ success
 XPCConvert
 :
 :
-NativeStringWithSize2JS
+NativeData2JS
 (
 pJSVal
 (
@@ -3144,6 +3152,8 @@ pc
 {
 TD_PSTRING_SIZE_IS
 }
+&
+iid
 size
 pErr
 )
@@ -3206,6 +3216,7 @@ TD_PSTRING
 }
 &
 iid
+0
 pErr
 )
 ;
@@ -3257,7 +3268,7 @@ success
 XPCConvert
 :
 :
-NativeStringWithSize2JS
+NativeData2JS
 (
 pJSVal
 (
@@ -3270,6 +3281,8 @@ pwc
 {
 TD_PWSTRING_SIZE_IS
 }
+&
+iid
 size
 pErr
 )
@@ -3363,6 +3376,7 @@ TD_INTERFACE_IS_TYPE
 }
 &
 iid
+0
 pErr
 )
 ;
