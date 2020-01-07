@@ -7475,7 +7475,7 @@ fontSize
 =
 GRID_FONT_SIZE
 *
-displayPixelRatio
+devicePixelRatio
 ;
 let
 canvasX
@@ -7707,14 +7707,14 @@ padding
 =
 3
 *
-displayPixelRatio
+devicePixelRatio
 ;
 let
 offsetFromEdge
 =
 2
 *
-displayPixelRatio
+devicePixelRatio
 ;
 let
 boxWidth
