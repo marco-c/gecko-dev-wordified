@@ -1328,6 +1328,11 @@ log
 suite_start
 (
 programs
+name
+=
+'
+cppunittest
+'
 )
         
 env

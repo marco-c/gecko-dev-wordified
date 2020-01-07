@@ -1317,6 +1317,15 @@ suite_start
 test_loader
 .
 test_ids
+name
+=
+'
+web
+-
+platform
+-
+test
+'
 run_info
 =
 run_info

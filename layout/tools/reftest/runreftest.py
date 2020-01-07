@@ -2296,6 +2296,19 @@ dumps
 manifests
 )
         
+prefs
+[
+'
+reftest
+.
+suite
+'
+]
+=
+options
+.
+suite
+        
 if
 startAfter
 not
