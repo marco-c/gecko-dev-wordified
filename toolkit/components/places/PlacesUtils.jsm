@@ -19437,9 +19437,11 @@ XPCOMUtils
 .
 generateQI
 (
+[
 Ci
 .
 nsINavBookmarkObserver
+]
 )
 onBeginUpdateBatch
 (
