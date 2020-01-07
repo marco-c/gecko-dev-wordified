@@ -736,6 +736,8 @@ false
 about
 :
 preferences
+#
+search
 "
 )
 ;
