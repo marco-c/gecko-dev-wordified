@@ -333,6 +333,7 @@ ToAnimatedZero
 attributes
 (
 animation
+zero
 )
 )
 ]

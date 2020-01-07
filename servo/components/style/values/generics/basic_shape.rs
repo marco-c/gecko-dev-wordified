@@ -396,6 +396,16 @@ missing_docs
 ]
 #
 [
+animation
+(
+no_bound
+(
+ImageOrUrl
+)
+)
+]
+#
+[
 derive
 (
 Animate
