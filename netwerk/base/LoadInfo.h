@@ -782,6 +782,8 @@ aAllowDocumentToBeAgnosticToCSP
 bool
 aForceAllowDataURI
 bool
+aAllowInsecureRedirectToDataURI
+bool
 aForceInheritPrincipalDropped
 uint64_t
 aInnerWindowID
@@ -1118,6 +1120,9 @@ mAllowDocumentToBeAgnosticToCSP
 ;
 bool
 mForceAllowDataURI
+;
+bool
+mAllowInsecureRedirectToDataURI
 ;
 bool
 mOriginalFrameSrcLoad
