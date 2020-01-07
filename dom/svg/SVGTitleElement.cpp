@@ -261,7 +261,6 @@ SVGTitleElement
 SVGTitleElementBase
 nsIDOMNode
 nsIDOMElement
-nsIDOMSVGElement
 nsIMutationObserver
 )
 /

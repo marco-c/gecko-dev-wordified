@@ -401,7 +401,6 @@ SVGFEImageElement
 SVGFEImageElementBase
 nsIDOMNode
 nsIDOMElement
-nsIDOMSVGElement
 imgINotificationObserver
 nsIImageLoadingContent
 )

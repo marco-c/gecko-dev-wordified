@@ -429,7 +429,7 @@ GetParentObject
 return
 static_cast
 <
-nsIDOMSVGElement
+nsIDOMElement
 *
 >
 (
@@ -777,7 +777,6 @@ SVGSVGElement
 SVGSVGElementBase
 nsIDOMNode
 nsIDOMElement
-nsIDOMSVGElement
 )
 SVGView
 :

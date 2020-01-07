@@ -261,7 +261,6 @@ SVGSymbolElement
 SVGSymbolElementBase
 nsIDOMNode
 nsIDOMElement
-nsIDOMSVGElement
 mozilla
 :
 :
