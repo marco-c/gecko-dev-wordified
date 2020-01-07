@@ -2247,10 +2247,6 @@ aIndex
 nsIPrincipal
 *
 aPrincipal
-bool
-aHidden
-=
-false
 )
 ;
 /
