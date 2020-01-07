@@ -360,12 +360,6 @@ GfxInfoBase
 :
 GetFeatureSuggestedDriverVersion
 ;
-using
-GfxInfoBase
-:
-:
-GetWebGLParameter
-;
 virtual
 nsresult
 Init

@@ -393,12 +393,6 @@ GfxInfoBase
 :
 GetFeatureSuggestedDriverVersion
 ;
-using
-GfxInfoBase
-:
-:
-GetWebGLParameter
-;
 void
 EnsureInitialized
 (
