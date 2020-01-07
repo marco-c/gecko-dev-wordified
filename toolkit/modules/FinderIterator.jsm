@@ -668,7 +668,7 @@ functions
 onIteratorRangeFound
 (
 {
-nsIDOMRange
+Range
 }
 range
 )
@@ -2684,7 +2684,7 @@ true
 *
 yield
 {
-nsIDOMRange
+Range
 }
 *
 /
@@ -3093,7 +3093,7 @@ setTimeout
 *
 yield
 {
-nsIDOMRange
+Range
 }
 *
 /
@@ -3243,7 +3243,7 @@ setTimeout
 *
 yield
 {
-nsIDOMRange
+Range
 }
 *
 /
@@ -3369,7 +3369,7 @@ pause
 *
 yield
 {
-nsIDOMRange
+Range
 }
 *
 /
@@ -4017,7 +4017,7 @@ in
 *
 yield
 {
-nsIDOMRange
+Range
 }
 *
 /
@@ -4499,7 +4499,7 @@ object
 *
 param
 {
-nsIDOMRange
+Range
 }
 windowOrRange
 Window
@@ -4555,11 +4555,18 @@ window
 .
 if
 (
-windowOrRange
-instanceof
-Ci
+ChromeUtils
 .
-nsIDOMRange
+getClassName
+(
+windowOrRange
+)
+=
+=
+=
+"
+Range
+"
 )
 window
 =
@@ -4613,7 +4620,7 @@ link
 *
 param
 {
-nsIDOMRange
+Range
 }
 range
 the

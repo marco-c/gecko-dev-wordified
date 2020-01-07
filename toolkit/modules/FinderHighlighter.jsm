@@ -2159,7 +2159,7 @@ it
 *
 param
 {
-nsIDOMRange
+Range
 }
 range
 Range
@@ -2554,7 +2554,7 @@ window
 *
 param
 {
-nsIDOMRange
+Range
 }
 skipRange
 A
@@ -3896,7 +3896,7 @@ controller
 *
 param
 {
-nsIDOMRange
+Range
 }
 restoreRange
 *
@@ -5085,7 +5085,7 @@ kFontPropsCSS
 *
 param
 {
-nsIDOMRange
+Range
 }
 range
 Range
@@ -6011,7 +6011,7 @@ scroll
 *
 param
 {
-nsIDOMRange
+Range
 }
 range
 Range
@@ -6270,7 +6270,7 @@ highlighter
 *
 param
 {
-nsIDOMRange
+Range
 }
 range
 Range
@@ -6607,7 +6607,7 @@ cache
 *
 param
 {
-nsIDOMRange
+Range
 }
 range
 Range
@@ -8358,7 +8358,7 @@ background
 *
 param
 {
-nsIDOMRange
+Range
 }
 range
 Range
