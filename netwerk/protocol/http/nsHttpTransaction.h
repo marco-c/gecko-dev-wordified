@@ -720,8 +720,6 @@ responseBody
 void
 OnActivated
 (
-bool
-h2
 )
 override
 ;
@@ -2412,9 +2410,6 @@ mConnected
 ;
 bool
 mActivated
-;
-bool
-mActivatedAsH2
 ;
 bool
 mHaveStatusLine
