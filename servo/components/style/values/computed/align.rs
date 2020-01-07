@@ -128,8 +128,8 @@ specified
 :
 {
 AlignItems
-AlignJustifyContent
-AlignJustifySelf
+ContentDistribution
+SelfAlignment
 }
 ;
 /

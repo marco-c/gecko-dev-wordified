@@ -5213,7 +5213,7 @@ align
 :
 :
 {
-AlignJustifyContent
+ContentDistribution
 FallbackAllowed
 }
 ;
@@ -5258,7 +5258,7 @@ i
 let
 align
 =
-AlignJustifyContent
+ContentDistribution
 :
 :
 parse_with_fallback
@@ -5303,7 +5303,7 @@ try
 |
 input
 |
-AlignJustifyContent
+ContentDistribution
 :
 :
 parse_with_fallback
@@ -5517,7 +5517,7 @@ specified
 align
 :
 :
-AlignJustifySelf
+SelfAlignment
 ;
 use
 parser
@@ -5566,7 +5566,7 @@ i
 let
 align
 =
-AlignJustifySelf
+SelfAlignment
 :
 :
 parse
@@ -5608,7 +5608,7 @@ try
 |
 input
 |
-AlignJustifySelf
+SelfAlignment
 :
 :
 parse
