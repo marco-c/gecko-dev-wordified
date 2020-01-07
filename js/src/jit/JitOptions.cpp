@@ -1574,7 +1574,7 @@ true
 SET_DEFAULT
 (
 spectreObjectMitigationsBarriers
-false
+true
 )
 ;
 SET_DEFAULT
