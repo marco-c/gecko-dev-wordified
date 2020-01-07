@@ -1519,9 +1519,7 @@ iterations
 =
 =
 =
-"
 Infinity
-"
 ?
 null
 :
