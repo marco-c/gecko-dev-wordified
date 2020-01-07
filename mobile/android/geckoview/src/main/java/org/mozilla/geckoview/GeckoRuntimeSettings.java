@@ -1357,6 +1357,12 @@ settings
 .
 mJavaCrashReporting
 ;
+mDebugPause
+=
+settings
+.
+mDebugPause
+;
 }
 /
 *
@@ -2103,7 +2109,7 @@ readBoolean
 source
 )
 ;
-mJavaCrashReporting
+mDebugPause
 =
 ParcelableUtils
 .
