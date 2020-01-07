@@ -2988,6 +2988,16 @@ const
 bool
 CanThrottleTransformChanges
 (
+const
+nsIFrame
+&
+aFrame
+)
+const
+;
+bool
+CanThrottleTransformChangesForCompositor
+(
 nsIFrame
 &
 aFrame
