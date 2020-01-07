@@ -4514,7 +4514,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -4531,7 +4531,7 @@ _id
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -4628,7 +4628,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -4645,7 +4645,7 @@ _id
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -4964,7 +4964,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -4981,7 +4981,7 @@ _id
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -5058,7 +5058,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -5075,7 +5075,7 @@ _id
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -5202,7 +5202,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -5219,7 +5219,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -6129,7 +6129,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -6146,7 +6146,7 @@ _id
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -6241,7 +6241,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -6258,7 +6258,7 @@ _id
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -8041,7 +8041,7 @@ TITLE
 ;
 suggestedSiteArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -10246,7 +10246,7 @@ BOOKMARKS_ID
 {
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -10263,7 +10263,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -10299,7 +10299,7 @@ BOOKMARKS_FOLDER_ID
 {
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -10316,7 +10316,7 @@ PARENT
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -10351,7 +10351,7 @@ uri
 )
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -10478,7 +10478,7 @@ HISTORY_ID
 :
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -10495,7 +10495,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -10550,7 +10550,7 @@ uri
 )
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -10662,7 +10662,7 @@ FAVICON_ID
 :
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -10679,7 +10679,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -10746,7 +10746,7 @@ THUMBNAIL_ID
 :
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -10763,7 +10763,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -11057,7 +11057,7 @@ REMOTE_DEVICES_ID
 :
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -11074,7 +11074,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (

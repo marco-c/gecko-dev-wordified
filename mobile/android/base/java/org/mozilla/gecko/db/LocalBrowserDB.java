@@ -539,6 +539,13 @@ android
 .
 database
 .
+DatabaseUtils
+;
+import
+android
+.
+database
+.
 MatrixCursor
 ;
 import
@@ -4489,7 +4496,7 @@ i
 {
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -4537,7 +4544,7 @@ i
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -4564,7 +4571,7 @@ null
 {
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -4587,7 +4594,7 @@ LIKE
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (

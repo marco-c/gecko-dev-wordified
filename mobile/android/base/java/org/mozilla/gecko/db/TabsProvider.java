@@ -145,6 +145,13 @@ android
 .
 database
 .
+DatabaseUtils
+;
+import
+android
+.
+database
+.
 sqlite
 .
 SQLiteDatabase
@@ -1421,7 +1428,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -1437,7 +1444,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -1509,7 +1516,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -1525,7 +1532,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -1888,7 +1895,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -1904,7 +1911,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -1977,7 +1984,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -1993,7 +2000,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -2181,7 +2188,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -2197,7 +2204,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -2449,7 +2456,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -2465,7 +2472,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (

@@ -1256,7 +1256,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -1272,7 +1272,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -1414,7 +1414,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -1430,7 +1430,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -1496,7 +1496,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -1512,7 +1512,7 @@ HOSTNAME
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -1688,7 +1688,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -1704,7 +1704,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -1916,7 +1916,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -1932,7 +1932,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -2043,7 +2043,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -2059,7 +2059,7 @@ _ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
@@ -2170,7 +2170,7 @@ uri
 ;
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -2186,7 +2186,7 @@ HOSTNAME
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (

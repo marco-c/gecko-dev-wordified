@@ -181,6 +181,13 @@ android
 .
 database
 .
+DatabaseUtils
+;
+import
+android
+.
+database
+.
 MatrixCursor
 ;
 import
@@ -548,7 +555,7 @@ parameter
 }
 selection
 =
-DBUtils
+DatabaseUtils
 .
 concatenateWhere
 (
@@ -565,7 +572,7 @@ DATASET_ID
 ;
 selectionArgs
 =
-DBUtils
+DatabaseUtils
 .
 appendSelectionArgs
 (
