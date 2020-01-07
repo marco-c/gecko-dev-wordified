@@ -723,6 +723,16 @@ use
 self
 :
 :
+svg
+:
+:
+MozContextProperties
+;
+pub
+use
+self
+:
+:
 table
 :
 :
