@@ -220,7 +220,6 @@ aFormat
 )
 {
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -284,6 +283,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 {
 return
@@ -323,7 +323,6 @@ return
 mOriginPos
 ;
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -353,9 +352,9 @@ because
 it
 will
 cause
+/
+/
 the
-/
-/
 SurfaceTexture
 to
 be
@@ -365,6 +364,8 @@ to
 the
 snapshot
 readback
+/
+/
 context
 .
 return

@@ -620,6 +620,7 @@ SharedRGBImage
 GetBuffer
 (
 )
+const
 {
 MappedTextureData
 mapped
@@ -658,6 +659,7 @@ SharedRGBImage
 GetSize
 (
 )
+const
 {
 return
 mSize

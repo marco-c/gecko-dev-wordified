@@ -178,17 +178,17 @@ IMF2DBuffer
 a2DBuffer
 )
 ;
-virtual
 bool
 IsValid
 (
 )
+const
+override
 {
 return
 true
 ;
 }
-virtual
 TextureClient
 *
 GetTextureClient
@@ -224,6 +224,7 @@ KnowsCompositor
 aForwarder
 )
 ;
+virtual
 ~
 IMFYCbCrImage
 (

@@ -270,6 +270,7 @@ final
 public
 TextureClientAllocator
 {
+virtual
 ~
 TextureClientPool
 (
@@ -547,7 +548,6 @@ tracked
 .
 *
 /
-virtual
 void
 ReportClientLost
 (

@@ -1223,6 +1223,7 @@ ImageFormat
 GetFormat
 (
 )
+const
 {
 return
 mFormat
@@ -1233,6 +1234,7 @@ void
 GetImplData
 (
 )
+const
 {
 return
 mImplData
@@ -1246,6 +1248,7 @@ IntSize
 GetSize
 (
 )
+const
 =
 0
 ;
@@ -1257,6 +1260,7 @@ IntPoint
 GetOrigin
 (
 )
+const
 {
 return
 gfx
@@ -1277,6 +1281,7 @@ IntRect
 GetPictureRect
 (
 )
+const
 {
 return
 gfx
@@ -1344,6 +1349,7 @@ int32_t
 GetSerial
 (
 )
+const
 {
 return
 mSerial
@@ -1368,6 +1374,7 @@ bool
 IsValid
 (
 )
+const
 {
 return
 true
@@ -1379,6 +1386,7 @@ uint8_t
 GetBuffer
 (
 )
+const
 {
 return
 nullptr
@@ -5239,6 +5247,7 @@ Data
 GetData
 (
 )
+const
 {
 return
 &
@@ -5265,21 +5274,22 @@ image
 .
 *
 /
-virtual
 uint32_t
 GetDataSize
 (
 )
+const
 {
 return
 mBufferSize
 ;
 }
-virtual
 bool
 IsValid
 (
 )
+const
+override
 {
 return
 !
@@ -5287,7 +5297,6 @@ return
 mBufferSize
 ;
 }
-virtual
 gfx
 :
 :
@@ -5295,12 +5304,13 @@ IntSize
 GetSize
 (
 )
+const
+override
 {
 return
 mSize
 ;
 }
-virtual
 gfx
 :
 :
@@ -5308,27 +5318,17 @@ IntPoint
 GetOrigin
 (
 )
+const
+override
 {
 return
 mOrigin
 ;
 }
-explicit
 PlanarYCbCrImage
 (
 )
 ;
-virtual
-SharedPlanarYCbCrImage
-*
-AsSharedPlanarYCbCrImage
-(
-)
-{
-return
-nullptr
-;
-}
 virtual
 size_t
 SizeOfIncludingThis
@@ -5366,6 +5366,7 @@ PlanarYCbCrImage
 AsPlanarYCbCrImage
 (
 )
+override
 {
 return
 this
@@ -5383,6 +5384,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
+override
 ;
 void
 SetOffscreenFormat
@@ -5400,6 +5402,7 @@ gfxImageFormat
 GetOffscreenFormat
 (
 )
+const
 ;
 Data
 mData
@@ -5457,9 +5460,7 @@ virtual
 RecyclingPlanarYCbCrImage
 (
 )
-override
 ;
-virtual
 bool
 CopyData
 (
@@ -5470,7 +5471,6 @@ aData
 )
 override
 ;
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -5607,6 +5607,7 @@ NVImage
 /
 class
 NVImage
+final
 :
 public
 Image
@@ -5617,7 +5618,6 @@ Data
 ;
 public
 :
-explicit
 NVImage
 (
 )
@@ -5627,7 +5627,6 @@ virtual
 NVImage
 (
 )
-override
 ;
 /
 /
@@ -5639,7 +5638,6 @@ layers
 :
 Image
 .
-virtual
 gfx
 :
 :
@@ -5647,9 +5645,9 @@ IntSize
 GetSize
 (
 )
+const
 override
 ;
-virtual
 gfx
 :
 :
@@ -5657,9 +5655,9 @@ IntRect
 GetPictureRect
 (
 )
+const
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -5672,14 +5670,13 @@ GetAsSourceSurface
 )
 override
 ;
-virtual
 bool
 IsValid
 (
 )
+const
 override
 ;
-virtual
 NVImage
 *
 AsNVImage
@@ -5696,7 +5693,6 @@ layers
 :
 PlanarYCbCrImage
 .
-virtual
 bool
 SetData
 (
@@ -5706,7 +5702,6 @@ Data
 aData
 )
 ;
-virtual
 const
 Data
 *
@@ -5715,7 +5710,6 @@ GetData
 )
 const
 ;
-virtual
 uint32_t
 GetBufferSize
 (
@@ -5837,7 +5831,6 @@ Image
 {
 public
 :
-virtual
 already_AddRefed
 <
 gfx
@@ -5882,7 +5875,6 @@ mTextureFlags
 aTextureFlags
 ;
 }
-virtual
 TextureClient
 *
 GetTextureClient
@@ -5893,7 +5885,6 @@ aForwarder
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -5901,6 +5892,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 {
 return
@@ -5935,6 +5927,7 @@ SourceSurface
 aSourceSurface
 )
 ;
+virtual
 ~
 SourceSurfaceImage
 (

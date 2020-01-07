@@ -210,6 +210,7 @@ ID3D11Device
 GetDevice
 (
 )
+const
 {
 return
 mDevice
@@ -220,6 +221,7 @@ KnowsCompositor
 GetAllocator
 (
 )
+const
 {
 return
 mSurfaceAllocator
@@ -326,6 +328,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 ;
 already_AddRefed
@@ -357,6 +360,7 @@ IntRect
 GetPictureRect
 (
 )
+const
 override
 {
 return

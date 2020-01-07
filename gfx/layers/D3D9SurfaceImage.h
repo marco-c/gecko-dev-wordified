@@ -556,7 +556,6 @@ Image
 {
 public
 :
-explicit
 D3D9SurfaceImage
 (
 )
@@ -610,9 +609,9 @@ IntSize
 GetSize
 (
 )
+const
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -625,7 +624,6 @@ GetAsSourceSurface
 )
 override
 ;
-virtual
 TextureClient
 *
 GetTextureClient
@@ -643,6 +641,7 @@ IDirect3DSurface9
 GetD3D9Surface
 (
 )
+const
 ;
 HANDLE
 GetShareHandle
@@ -650,11 +649,11 @@ GetShareHandle
 )
 const
 ;
-virtual
 bool
 IsValid
 (
 )
+const
 override
 {
 return

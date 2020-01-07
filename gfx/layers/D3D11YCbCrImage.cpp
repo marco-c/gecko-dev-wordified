@@ -693,6 +693,7 @@ D3D11YCbCrImage
 GetSize
 (
 )
+const
 {
 return
 mPictureRect

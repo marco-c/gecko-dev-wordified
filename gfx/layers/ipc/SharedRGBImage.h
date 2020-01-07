@@ -309,7 +309,6 @@ SharedRGBImage
 ;
 public
 :
-virtual
 TextureClient
 *
 GetTextureClient
@@ -320,12 +319,12 @@ aForwarder
 )
 override
 ;
-virtual
 uint8_t
 *
 GetBuffer
 (
 )
+const
 override
 ;
 gfx
@@ -335,6 +334,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 ;
 already_AddRefed

@@ -469,6 +469,7 @@ SharedPlanarYCbCrImage
 GetBuffer
 (
 )
+const
 {
 /
 /
@@ -873,6 +874,7 @@ SharedPlanarYCbCrImage
 IsValid
 (
 )
+const
 {
 return
 mTextureClient

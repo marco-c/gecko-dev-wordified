@@ -1085,6 +1085,7 @@ D3D9SurfaceImage
 GetD3D9Surface
 (
 )
+const
 {
 RefPtr
 <
@@ -1162,6 +1163,7 @@ D3D9SurfaceImage
 GetSize
 (
 )
+const
 {
 return
 mSize

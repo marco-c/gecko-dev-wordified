@@ -348,11 +348,11 @@ IntRect
 aRect
 )
 ;
+virtual
 ~
 D3D11ShareHandleImage
 (
 )
-override
 {
 }
 bool
@@ -373,9 +373,9 @@ IntSize
 GetSize
 (
 )
+const
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -388,7 +388,6 @@ GetAsSourceSurface
 )
 override
 ;
-virtual
 TextureClient
 *
 GetTextureClient
@@ -399,7 +398,6 @@ aForwarder
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -407,6 +405,7 @@ IntRect
 GetPictureRect
 (
 )
+const
 override
 {
 return
