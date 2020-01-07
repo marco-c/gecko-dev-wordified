@@ -123,7 +123,7 @@ DOM
 Core
 '
 s
-nsIDOMComment
+Comment
 node
 .
 *
@@ -195,7 +195,6 @@ Comment
 nsGenericDOMDataNode
 nsIDOMNode
 nsIDOMCharacterData
-nsIDOMComment
 )
 bool
 Comment

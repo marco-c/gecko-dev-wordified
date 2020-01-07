@@ -124,7 +124,7 @@ DOM
 Core
 '
 s
-nsIDOMComment
+Comment
 DocumentType
 Text
 *
