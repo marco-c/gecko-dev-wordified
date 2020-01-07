@@ -1049,14 +1049,11 @@ wasm
 DebugState
 >
 debug
-UniquePtr
-<
 wasm
 :
 :
-GlobalSegment
->
-globals
+UniqueTlsData
+tlsData
 HandleWasmMemoryObject
 memory
 Vector
