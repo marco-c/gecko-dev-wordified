@@ -8543,7 +8543,7 @@ direction
 sel
 -
 >
-GetSelectionDirection
+GetDirection
 (
 )
 ;
