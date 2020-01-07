@@ -284,6 +284,7 @@ prim_store
 {
 PrimitiveContainer
 PrimitiveIndex
+SpecificPrimitiveIndex
 }
 ;
 use
@@ -9593,6 +9594,10 @@ child_tasks
 profile_counters
 None
 scene_properties
+SpecificPrimitiveIndex
+(
+0
+)
 )
 ;
 let

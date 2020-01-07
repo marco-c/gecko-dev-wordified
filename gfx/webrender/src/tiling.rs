@@ -234,6 +234,7 @@ picture
 PictureCompositeMode
 PictureKind
 PicturePrimitive
+RasterizationSpace
 }
 ;
 use
@@ -3242,6 +3243,10 @@ device_pixel_ratio
 scroll_node
 .
 transform
+RasterizationSpace
+:
+:
+Screen
 )
 ;
 ctx
@@ -8320,6 +8325,10 @@ LayerToWorldTransform
 identity
 (
 )
+RasterizationSpace
+:
+:
+Local
 )
 ;
 ctx
