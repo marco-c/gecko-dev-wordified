@@ -438,6 +438,14 @@ NodeInfo
 &
 &
 aNodeInfo
+mozilla
+:
+:
+dom
+:
+:
+FromParser
+aFromParser
 )
 ;
 void

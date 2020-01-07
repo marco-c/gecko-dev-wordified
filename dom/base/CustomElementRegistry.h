@@ -1091,7 +1091,7 @@ nsTArray
 <
 RefPtr
 <
-nsGenericHTMLElement
+Element
 >
 >
 mConstructionStack

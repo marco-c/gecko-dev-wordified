@@ -14556,7 +14556,7 @@ a
 #
 call
 to
-CreateHTMLElement
+CreateXULOrHTMLElement
 (
 )
 in
@@ -14609,7 +14609,7 @@ signatures
 ]
                                                
 "
-CreateHTMLElement
+CreateXULOrHTMLElement
 "
 True
                                                
