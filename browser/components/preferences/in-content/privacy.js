@@ -3057,6 +3057,13 @@ important
 )
 ;
 }
+if
+(
+AppConstants
+.
+MOZ_DATA_REPORTING
+)
+{
 this
 .
 initDataCollection
@@ -3096,6 +3103,7 @@ gPrivacyPane
 updateSubmitHealthReport
 )
 ;
+}
 this
 .
 _initA11yState
