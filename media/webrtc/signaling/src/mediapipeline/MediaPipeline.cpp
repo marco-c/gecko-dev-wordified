@@ -12649,12 +12649,7 @@ played_ticks_
 >
 last_log_
 +
-graph
--
->
-GraphRate
-(
-)
+rate
 )
 {
 /
