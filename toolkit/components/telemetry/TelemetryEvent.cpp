@@ -7977,7 +7977,10 @@ mozilla
 MakePair
 (
 processName
+Move
+(
 events
+)
 )
 )
 ;
