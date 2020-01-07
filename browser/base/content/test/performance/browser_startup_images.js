@@ -528,7 +528,7 @@ icons
 /
 resizer
 .
-png
+svg
 "
 platforms
 :
