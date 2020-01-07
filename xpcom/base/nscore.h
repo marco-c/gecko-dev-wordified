@@ -177,13 +177,6 @@ if
 !
 defined
 (
-XPCOM_GLUE
-)
-&
-&
-!
-defined
-(
 NS_NO_XPCOM
 )
 &
