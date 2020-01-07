@@ -166,7 +166,7 @@ canGoForward
 }
 Override
 public
-void
+boolean
 onLoadRequest
 (
 GeckoSession
@@ -175,13 +175,6 @@ String
 uri
 int
 target
-GeckoSession
-.
-Response
-<
-Boolean
->
-response
 )
 {
 /
@@ -192,12 +185,8 @@ to
 load
 all
 URIs
-response
-.
-respond
-(
+return
 false
-)
 ;
 }
 Override
