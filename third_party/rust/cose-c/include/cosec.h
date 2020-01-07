@@ -123,6 +123,9 @@ size_t
 signature_len
 uint8_t
 algorithm
+void
+*
+ctx
 )
 ;
 bool
@@ -140,6 +143,9 @@ uint8_t
 signature
 size_t
 signature_len
+void
+*
+ctx
 cose_verify_callback
 )
 ;
