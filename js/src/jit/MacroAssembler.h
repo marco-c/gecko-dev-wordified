@@ -12905,15 +12905,17 @@ For
 all
 the
 ARM
+and
+ARM64
 wasmLoad
 and
 wasmStore
 functions
 ptr
 MUST
+/
+/
 equal
-/
-/
 ptrScratch
 and
 that
@@ -12988,6 +12990,7 @@ output
 DEFINED_ON
 (
 arm
+arm64
 mips_shared
 )
 ;
@@ -13013,6 +13016,7 @@ output
 DEFINED_ON
 (
 arm
+arm64
 mips32
 mips64
 )
@@ -13039,6 +13043,7 @@ ptrScratch
 DEFINED_ON
 (
 arm
+arm64
 mips_shared
 )
 ;
@@ -13064,6 +13069,7 @@ ptrScratch
 DEFINED_ON
 (
 arm
+arm64
 mips32
 mips64
 )
