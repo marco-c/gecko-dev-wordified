@@ -1571,7 +1571,7 @@ kw
         
 if
 '
-suite
+test
 '
 in
 self
@@ -1582,7 +1582,7 @@ config
 kw_options
 [
 '
-suite
+test
 '
 ]
 =
@@ -1591,7 +1591,7 @@ self
 config
 [
 '
-suite
+test
 '
 ]
         
@@ -1742,6 +1742,27 @@ items
 )
 :
             
+if
+key
+=
+=
+"
+test
+"
+:
+                
+options
+.
+extend
+(
+[
+value
+]
+)
+            
+else
+:
+                
 options
 .
 extend
@@ -2976,6 +2997,8 @@ when
 installing
 the
 cert
+and
+tooltool
         
 env
 [
@@ -2985,6 +3008,15 @@ SCRIPTSPATH
 ]
 =
 scripts_path
+        
+env
+[
+'
+EXTERNALTOOLSPATH
+'
+]
+=
+external_tools_path
         
 if
 self
