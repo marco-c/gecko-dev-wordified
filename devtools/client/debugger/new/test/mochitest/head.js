@@ -6599,6 +6599,14 @@ breakpoint
 panel
 input
 "
+searchField
+:
+"
+.
+search
+-
+field
+"
 }
 ;
 function
