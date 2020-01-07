@@ -351,14 +351,17 @@ errors
                          
 "
 -
--
-verbose
+vv
 "
 #
 show
 each
 individual
 subtest
+and
+full
+failure
+logs
                          
 "
 -
