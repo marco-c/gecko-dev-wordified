@@ -8362,6 +8362,9 @@ XPIDatabase
 .
 initialized
 )
+|
+|
+false
 ;
 }
 /
