@@ -347,12 +347,6 @@ RecvNotifyVoicesChanged
 (
 )
 ;
-static
-void
-Shutdown
-(
-)
-;
 private
 :
 virtual

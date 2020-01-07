@@ -241,12 +241,6 @@ GetInstanceForService
 )
 ;
 static
-void
-Shutdown
-(
-)
-;
-static
 StaticRefPtr
 <
 SpeechDispatcherService
