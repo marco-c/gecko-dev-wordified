@@ -2053,12 +2053,6 @@ ok
 '
 )
         
-self
-.
-read_buildbot_config
-(
-)
-        
 if
 not
 self
@@ -2740,12 +2734,6 @@ get
 '
 en_us_binary_url
 '
-)
-        
-self
-.
-read_buildbot_config
-(
 )
         
 #
@@ -3645,12 +3633,6 @@ return
 self
 .
 revision
-        
-self
-.
-read_buildbot_config
-(
-)
         
 config
 =
@@ -6996,12 +6978,6 @@ properties
 .
 .
 "
-)
-        
-self
-.
-read_buildbot_config
-(
 )
         
 #

@@ -169,16 +169,6 @@ build
     
 ]
     
-"
-buildbot_json_path
-"
-:
-"
-buildprops
-.
-json
-"
-    
 '
 app_ini_path
 '
@@ -237,8 +227,6 @@ try
 syntax
 is
 detected
-on
-buildbot
     
 '
 perfherder_extra_options

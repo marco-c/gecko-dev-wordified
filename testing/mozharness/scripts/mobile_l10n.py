@@ -2055,12 +2055,6 @@ self
 .
 revision
         
-self
-.
-read_buildbot_config
-(
-)
-        
 config
 =
 self

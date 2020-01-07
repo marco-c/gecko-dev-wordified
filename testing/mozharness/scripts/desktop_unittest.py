@@ -1649,14 +1649,6 @@ clobber
 '
                 
 '
-read
--
-buildbot
--
-config
-'
-                
-'
 download
 -
 and
@@ -4809,20 +4801,6 @@ mozharness
 build
 if
 exists
-    
-#
-read_buildbot_config
-is
-in
-BuildbotMixin
-.
-    
-#
-postflight_read_buildbot_config
-is
-in
-TestingMixin
-.
     
 #
 preflight_download_and_extract
