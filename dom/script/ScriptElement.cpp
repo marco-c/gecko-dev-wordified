@@ -215,7 +215,7 @@ nsIScriptElement
 *
 aElement
 bool
-aIsInline
+aIsInlineClassicScript
 nsIURI
 *
 aURI
@@ -226,7 +226,7 @@ aLineNo
 if
 (
 !
-aIsInline
+aIsInlineClassicScript
 &
 &
 NS_FAILED

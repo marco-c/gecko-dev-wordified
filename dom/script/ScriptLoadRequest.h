@@ -361,6 +361,17 @@ nsresult
 aResult
 )
 {
+bool
+isInlineClassicScript
+=
+mIsInline
+&
+&
+!
+IsModuleRequest
+(
+)
+;
 mElement
 -
 >
@@ -368,7 +379,7 @@ ScriptAvailable
 (
 aResult
 mElement
-mIsInline
+isInlineClassicScript
 mURI
 mLineNo
 )
