@@ -322,6 +322,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h
@@ -3943,6 +3952,7 @@ IgnoreErrors
 )
 ;
 class
+MOZ_TEMPORARY_CLASS
 IgnoreErrors
 {
 public
