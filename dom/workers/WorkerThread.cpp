@@ -1068,9 +1068,6 @@ PR_GetCurrentThread
 =
 mThread
 ;
-#
-ifndef
-RELEASE_OR_BETA
 if
 (
 GetSchedulerLoggingEnabled
@@ -1113,8 +1110,6 @@ Worker
 ;
 }
 }
-#
-endif
 #
 ifdef
 DEBUG
@@ -1517,9 +1512,6 @@ return
 mNestedEventLoopDepth
 ;
 }
-#
-ifndef
-RELEASE_OR_BETA
 PerformanceCounter
 *
 WorkerThread
@@ -1550,8 +1542,6 @@ return
 nullptr
 ;
 }
-#
-endif
 NS_IMPL_ISUPPORTS
 (
 WorkerThread

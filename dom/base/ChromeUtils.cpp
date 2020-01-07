@@ -163,9 +163,6 @@ CycleCollectedJSRuntime
 h
 "
 #
-ifndef
-RELEASE_OR_BETA
-#
 include
 "
 mozilla
@@ -174,8 +171,6 @@ PerformanceUtils
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -3715,9 +3710,6 @@ endif
 /
 /
 NIGHTLY_BUILD
-#
-ifndef
-RELEASE_OR_BETA
 /
 *
 static
@@ -3866,8 +3858,6 @@ info
 )
 ;
 }
-#
-endif
 constexpr
 auto
 kSkipSelfHosted

@@ -232,9 +232,6 @@ nsAString
 aMessage
 )
 ;
-#
-ifndef
-RELEASE_OR_BETA
 /
 *
 *
@@ -266,8 +263,6 @@ ReportPerformanceInfo
 (
 )
 ;
-#
-endif
 private
 :
 virtual
