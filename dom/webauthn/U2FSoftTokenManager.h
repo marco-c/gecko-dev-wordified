@@ -183,7 +183,6 @@ uint32_t
 aCounter
 )
 ;
-virtual
 RefPtr
 <
 U2FRegisterPromise
@@ -220,7 +219,6 @@ aTimeoutMS
 )
 override
 ;
-virtual
 RefPtr
 <
 U2FSignPromise
@@ -255,7 +253,6 @@ aTimeoutMS
 )
 override
 ;
-virtual
 void
 Cancel
 (

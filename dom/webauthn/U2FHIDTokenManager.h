@@ -468,7 +468,6 @@ U2FHIDTokenManager
 (
 )
 ;
-virtual
 RefPtr
 <
 U2FRegisterPromise
@@ -505,7 +504,6 @@ aTimeoutMS
 )
 override
 ;
-virtual
 RefPtr
 <
 U2FSignPromise
@@ -547,6 +545,12 @@ Cancel
 override
 ;
 void
+Drop
+(
+)
+override
+;
+void
 HandleRegisterResult
 (
 UniquePtr
@@ -576,7 +580,8 @@ private
 U2FHIDTokenManager
 (
 )
-;
+{
+}
 void
 ClearPromises
 (
