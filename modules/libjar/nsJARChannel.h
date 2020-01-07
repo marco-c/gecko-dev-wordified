@@ -573,9 +573,6 @@ suspendCount
 }
 mPendingEvent
 ;
-bool
-mIsUnsafe
-;
 nsCOMPtr
 <
 nsIInputStreamPump
