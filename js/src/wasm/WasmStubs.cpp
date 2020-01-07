@@ -13127,6 +13127,12 @@ Trap
 :
 StackOverflow
 :
+case
+Trap
+:
+:
+ThrowReported
+:
 break
 ;
 /
@@ -13168,12 +13174,6 @@ Trap
 :
 :
 IndirectCallBadSig
-:
-case
-Trap
-:
-:
-ThrowReported
 :
 {
 CallableOffsets
