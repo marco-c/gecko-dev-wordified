@@ -2441,6 +2441,11 @@ if
 (
 this
 .
+telemetryEnabled
+&
+&
+this
+.
 eventTelemetryEnabled
 )
 {

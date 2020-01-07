@@ -3953,6 +3953,17 @@ prototype
 .
 prefs
 [
+TELEMETRY_PREF
+]
+=
+true
+;
+FakePrefs
+.
+prototype
+.
+prefs
+[
 EVENTS_TELEMETRY_PREF
 ]
 =

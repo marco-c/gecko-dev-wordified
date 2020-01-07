@@ -355,6 +355,15 @@ enableWideLayout
 "
 :
 true
+"
+sectionOrder
+"
+:
+"
+topsites
+topstories
+highlights
+"
 }
 /
 /
@@ -470,6 +479,9 @@ collapsed
 "
 "
 enableWideLayout
+"
+"
+sectionOrder
 "
 /
 /
