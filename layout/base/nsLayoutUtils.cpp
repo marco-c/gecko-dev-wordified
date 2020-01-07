@@ -24353,7 +24353,7 @@ visibleRect
 ;
 builder
 .
-ClearWindowDraggingRegion
+ClearRetainedWindowRegions
 (
 )
 ;
