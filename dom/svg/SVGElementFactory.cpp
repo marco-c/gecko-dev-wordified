@@ -168,6 +168,13 @@ FromParser
 .
 h
 "
+#
+include
+"
+plhash
+.
+h
+"
 using
 namespace
 mozilla
