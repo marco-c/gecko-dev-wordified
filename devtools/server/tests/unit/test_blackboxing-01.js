@@ -618,7 +618,7 @@ k
 /
 line
 1
-let
+var
 arg
 =
 15
