@@ -1050,14 +1050,14 @@ on
 Print
 Preview
 use
-PS
+PDF
 .
 format
 =
 nsIPrintSettings
 :
 :
-kOutputFormatPS
+kOutputFormatPDF
 ;
 }
 else
