@@ -175,6 +175,7 @@ node
 set
 to
 NUMA_NO_PREFERRED_NODE
+WINBASEAPI
 PVOID
 WINAPI
 MapViewOfFileNuma2
@@ -197,6 +198,7 @@ ULONG
 aPreferredNode
 )
 ;
+WINBASEAPI
 BOOL
 WINAPI
 UnmapViewOfFile2
