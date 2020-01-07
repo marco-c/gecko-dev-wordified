@@ -284,7 +284,7 @@ vendor
 .
 1
 .
-12
+13
 and
 newer
         
@@ -299,6 +299,19 @@ orig
 and
 .
 rej
+files
+and
+deals
+with
+[
+patch
+]
+        
+replacements
+in
+Cargo
+.
+toml
 files
 which
 we
@@ -451,7 +464,7 @@ b
 .
 1
 .
-12
+13
 '
         
 return
