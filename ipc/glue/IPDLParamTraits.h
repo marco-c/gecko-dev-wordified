@@ -410,7 +410,7 @@ typename
 P
 >
 static
-inline
+MOZ_NEVER_INLINE
 void
 WriteIPDLParam
 (
@@ -465,7 +465,7 @@ typename
 P
 >
 static
-inline
+MOZ_NEVER_INLINE
 bool
 ReadIPDLParam
 (
