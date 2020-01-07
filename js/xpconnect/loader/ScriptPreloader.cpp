@@ -2478,6 +2478,15 @@ nsAString
 suffix
 )
 {
+NS_ENSURE_TRUE
+(
+mProfD
+Err
+(
+NS_ERROR_NOT_INITIALIZED
+)
+)
+;
 nsCOMPtr
 <
 nsIFile
