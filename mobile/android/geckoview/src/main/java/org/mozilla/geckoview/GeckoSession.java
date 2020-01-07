@@ -1068,7 +1068,7 @@ result
 =
 delegate
 .
-onLoadUri
+onLoadRequest
 (
 GeckoSession
 .
@@ -8585,7 +8585,7 @@ normal
 *
 /
 boolean
-onLoadUri
+onLoadRequest
 (
 GeckoSession
 session
