@@ -5381,16 +5381,6 @@ getSimpleMeasures
 (
 )
 ;
-ret
-.
-UITelemetry
-=
-UITelemetry
-.
-getSimpleMeasures
-(
-)
-;
 }
 catch
 (
