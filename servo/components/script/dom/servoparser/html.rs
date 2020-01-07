@@ -204,7 +204,10 @@ dom
 servoparser
 :
 :
+{
+ParsingAlgorithm
 Sink
+}
 ;
 use
 html5ever
@@ -369,6 +372,9 @@ super
 :
 FragmentContext
 >
+parsing_algorithm
+:
+ParsingAlgorithm
 )
 -
 >
@@ -402,6 +408,9 @@ Default
 default
 (
 )
+parsing_algorithm
+:
+parsing_algorithm
 }
 ;
 let
