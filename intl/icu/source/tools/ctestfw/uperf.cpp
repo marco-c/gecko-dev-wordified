@@ -2280,7 +2280,7 @@ individual
 tests
 to
 be
-overriden
+overridden
 to
 call
 implementations
@@ -2325,7 +2325,7 @@ par
 /
 to
 be
-overriden
+overridden
 by
 a
 method
@@ -2403,7 +2403,7 @@ runIndexedTest
 needs
 to
 be
-overriden
+overridden
 !
 *
 *

@@ -837,7 +837,6 @@ and
 include
 both
 the
-the
 *
 preceding
 and

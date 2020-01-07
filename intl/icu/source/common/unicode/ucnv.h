@@ -372,7 +372,7 @@ Since
 many
 software
 programs
-recogize
+recognize
 different
 converter
 names
@@ -1340,7 +1340,7 @@ when
 an
 error
 has
-occured
+occurred
 in
 conversion
 to
@@ -3495,7 +3495,7 @@ if
 an
 error
 *
-occured
+occurred
 .
 *
 see
@@ -4539,7 +4539,7 @@ converter
 param
 subChars
 the
-subsitution
+substitution
 characters
 *
 param
@@ -6367,7 +6367,7 @@ Locale
 we
 want
 to
-localised
+localized
 for
 *
 param
@@ -6692,7 +6692,7 @@ return
 If
 any
 error
-occurrs
+occurs
 -
 1
 will

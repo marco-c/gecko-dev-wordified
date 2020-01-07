@@ -2309,7 +2309,7 @@ line
 "
 An
 error
-occured
+occurred
 while
 opening
 the
@@ -3074,7 +3074,7 @@ line
 "
 An
 error
-occured
+occurred
 while
 opening
 the
@@ -4848,7 +4848,7 @@ stderr
 "
 An
 error
-occured
+occurred
 processing
 file
 %

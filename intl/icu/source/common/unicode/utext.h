@@ -3479,7 +3479,7 @@ work
 with
 the
 text
-represeted
+represented
 by
 a
 UText
@@ -3846,7 +3846,6 @@ is
 roughly
 equivalent
 to
-the
 the
 sequence
 *
@@ -4989,7 +4988,7 @@ nativeIndex
 Move
 the
 iterator
-postion
+position
 by
 delta
 code
@@ -5161,7 +5160,7 @@ index
 of
 the
 character
-preceeding
+preceding
 the
 current
 position
@@ -5285,7 +5284,7 @@ index
 of
 the
 character
-preceeding
+preceding
 the
 current
 index
@@ -8919,7 +8918,7 @@ index
 of
 the
 first
-characer
+character
 to
 extract
 .
@@ -10074,7 +10073,7 @@ the
 table
 grow
 to
-accomodate
+accommodate
 added
 *
 functions
@@ -10637,7 +10636,7 @@ handed
 *
 invalid
 or
-unitialized
+uninitialized
 UText
 structs
 .
@@ -10749,7 +10748,7 @@ set
 of
 flags
 is
-maintainted
+maintained
 by
 the
 *

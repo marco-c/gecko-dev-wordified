@@ -2349,7 +2349,7 @@ n
 boundaries
 in
 the
-specfied
+specified
 direction
 .
 *
