@@ -4848,8 +4848,27 @@ __init__
 self
 chrome_map_path
 appdir
+=
+'
+dist
+/
+bin
+/
+browser
+/
+'
 gredir
+=
+'
+dist
+/
+bin
+/
+'
 extra_chrome_manifests
+=
+[
+]
 )
 :
         
