@@ -498,6 +498,10 @@ visible
 :
 "
 "
+tabIndex
+:
+-
+1
 }
 animations
 .
