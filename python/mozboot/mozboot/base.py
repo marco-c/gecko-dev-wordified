@@ -1090,9 +1090,9 @@ MODERN_MERCURIAL_VERSION
 LooseVersion
 (
 '
-3
+4
 .
-7
+2
 .
 3
 '
