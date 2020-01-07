@@ -1208,13 +1208,6 @@ endif
 #
 ifdef
 DEBUG
-nsFrameState
-GetDebugStateBits
-(
-)
-const
-override
-;
 const
 char
 *
