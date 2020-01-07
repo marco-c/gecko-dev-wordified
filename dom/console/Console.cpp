@@ -1877,11 +1877,11 @@ StructuredCloneHolderBase
 {
 public
 :
-virtual
 ~
 ConsoleRunnable
 (
 )
+override
 {
 /
 /
@@ -3117,11 +3117,11 @@ mWorkletThread
 )
 ;
 }
-virtual
 ~
 ConsoleWorkletRunnable
 (
 )
+override
 =
 default
 ;
@@ -3484,6 +3484,7 @@ eInUse
 ConsoleCallDataWorkletRunnable
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -3492,7 +3493,6 @@ mCallData
 )
 ;
 }
-virtual
 void
 RunOnMainThread
 (
@@ -3682,11 +3682,11 @@ aConsole
 )
 {
 }
-virtual
 ~
 ConsoleWorkerRunnable
 (
 )
+override
 =
 default
 ;
@@ -4297,6 +4297,7 @@ private
 ConsoleCallDataWorkerRunnable
 (
 )
+override
 {
 MOZ_ASSERT
 (
