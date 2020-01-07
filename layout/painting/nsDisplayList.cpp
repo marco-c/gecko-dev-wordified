@@ -32218,6 +32218,15 @@ get
 (
 )
 ;
+AppendToString
+(
+aStream
+mArea
+"
+hitTestArea
+"
+)
+;
 }
 uint32_t
 nsDisplayCompositorHitTestInfo
