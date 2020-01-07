@@ -449,7 +449,7 @@ this
 .
 service
 .
-identity
+_clusterManager
 .
 setCluster
 (

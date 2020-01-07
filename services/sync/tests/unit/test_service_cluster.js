@@ -187,7 +187,7 @@ rejects
 (
 Service
 .
-identity
+_clusterManager
 .
 _findCluster
 (
@@ -208,6 +208,15 @@ Promise
 .
 resolve
 (
+true
+)
+;
+Service
+.
+identity
+.
+_token
+=
 {
 endpoint
 :
@@ -223,7 +232,6 @@ user
 node
 "
 }
-)
 ;
 _
 (
@@ -247,7 +255,7 @@ cluster
 await
 Service
 .
-identity
+_clusterManager
 .
 _findCluster
 (
@@ -338,7 +346,7 @@ clusterURL
 ;
 Service
 .
-identity
+_clusterManager
 .
 _findCluster
 =
@@ -378,7 +386,7 @@ ok
 await
 Service
 .
-identity
+_clusterManager
 .
 setCluster
 (
@@ -439,7 +447,7 @@ ok
 await
 Service
 .
-identity
+_clusterManager
 .
 setCluster
 (
@@ -489,7 +497,7 @@ either
 ;
 Service
 .
-identity
+_clusterManager
 .
 _findCluster
 =
@@ -508,7 +516,7 @@ ok
 await
 Service
 .
-identity
+_clusterManager
 .
 setCluster
 (
