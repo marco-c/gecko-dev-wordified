@@ -4158,11 +4158,6 @@ private
 Handle
 (
 )
-:
-ptr
-{
-nullptr
-}
 {
 }
 DELETE_ASSIGNMENT_OPS
@@ -4510,11 +4505,6 @@ private
 MutableHandle
 (
 )
-:
-ptr
-{
-nullptr
-}
 {
 }
 DELETE_ASSIGNMENT_OPS
