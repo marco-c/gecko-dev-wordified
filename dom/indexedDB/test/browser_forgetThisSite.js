@@ -30,6 +30,11 @@ zero
 /
 *
 /
+let
+{
+ForgetAboutSite
+}
+=
 ChromeUtils
 .
 import
@@ -47,6 +52,8 @@ ForgetAboutSite
 .
 jsm
 "
+{
+}
 )
 ;
 const

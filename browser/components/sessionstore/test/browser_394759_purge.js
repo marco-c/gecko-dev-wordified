@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+let
+{
+ForgetAboutSite
+}
+=
 ChromeUtils
 .
 import
@@ -73,6 +78,8 @@ ForgetAboutSite
 .
 jsm
 "
+{
+}
 )
 ;
 function

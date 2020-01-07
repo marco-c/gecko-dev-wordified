@@ -20,6 +20,11 @@ Components
 .
 Constructor
 ;
+let
+{
+ForgetAboutSite
+}
+=
 ChromeUtils
 .
 import
@@ -37,6 +42,8 @@ ForgetAboutSite
 .
 jsm
 "
+{
+}
 )
 ;
 ChromeUtils
