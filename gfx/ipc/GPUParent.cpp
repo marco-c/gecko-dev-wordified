@@ -728,9 +728,6 @@ SendBuildID
 (
 )
 ;
-#
-ifdef
-MOZ_CRASHREPORTER
 /
 /
 Init
@@ -746,8 +743,6 @@ InitSingleton
 this
 )
 ;
-#
-endif
 /
 /
 Ensure
@@ -2968,9 +2963,6 @@ DestroySingleton
 (
 )
 ;
-#
-ifdef
-MOZ_CRASHREPORTER
 CrashReporterClient
 :
 :
@@ -2978,8 +2970,6 @@ DestroySingleton
 (
 )
 ;
-#
-endif
 XRE_ShutdownChildProcess
 (
 )
