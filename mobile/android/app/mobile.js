@@ -2055,6 +2055,16 @@ pref
 "
 extensions
 .
+showMismatchUI
+"
+false
+)
+;
+pref
+(
+"
+extensions
+.
 hideUpdateButton
 "
 false
