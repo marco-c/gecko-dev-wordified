@@ -313,6 +313,7 @@ Accessible
 CurrentItem
 (
 )
+const
 override
 ;
 virtual
@@ -1107,6 +1108,7 @@ Accessible
 CurrentItem
 (
 )
+const
 override
 ;
 virtual

@@ -5273,6 +5273,7 @@ Accessible
 CurrentItem
 (
 )
+const
 ;
 /
 *

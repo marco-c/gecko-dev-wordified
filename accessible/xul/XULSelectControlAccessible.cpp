@@ -1423,6 +1423,7 @@ XULSelectControlAccessible
 CurrentItem
 (
 )
+const
 {
 if
 (

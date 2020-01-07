@@ -1756,6 +1756,7 @@ XULTreeAccessible
 CurrentItem
 (
 )
+const
 {
 if
 (

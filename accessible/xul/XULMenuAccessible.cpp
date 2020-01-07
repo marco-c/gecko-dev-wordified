@@ -3957,6 +3957,7 @@ XULMenubarAccessible
 CurrentItem
 (
 )
+const
 {
 nsMenuBarFrame
 *
