@@ -592,6 +592,9 @@ mod
 gpu_types
 ;
 mod
+hit_test
+;
+mod
 internal_types
 ;
 mod
