@@ -1347,7 +1347,7 @@ cx
 nsContentUtils
 :
 :
-GetCurrentJSContextForThread
+GetCurrentJSContext
 (
 )
 ;

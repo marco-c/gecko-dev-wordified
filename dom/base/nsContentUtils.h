@@ -13265,13 +13265,6 @@ GetCurrentJSContext
 (
 )
 ;
-static
-JSContext
-*
-GetCurrentJSContextForThread
-(
-)
-;
 /
 *
 *
