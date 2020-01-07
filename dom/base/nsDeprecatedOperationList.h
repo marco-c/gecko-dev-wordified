@@ -302,7 +302,3 @@ DEPRECATED_OPERATION
 (
 IDBOpenDBOptions_StorageType
 )
-DEPRECATED_OPERATION
-(
-GetPropertyCSSValue
-)
