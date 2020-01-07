@@ -1738,6 +1738,11 @@ endif
 /
 /
 NS_PRINTING
+void
+ReturnToGalleyPresentation
+(
+)
+;
 /
 /
 Whether
