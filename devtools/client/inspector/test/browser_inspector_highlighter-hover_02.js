@@ -122,8 +122,8 @@ p
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -133,7 +133,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -169,7 +169,7 @@ node
 "
 )
 ;
-yield
+await
 hoverContainer
 (
 "
@@ -195,7 +195,7 @@ clicking
 "
 )
 ;
-yield
+await
 clickContainer
 (
 "
@@ -207,7 +207,7 @@ inspector
 let
 isVisible
 =
-yield
+await
 testActor
 .
 isHighlighting
@@ -267,18 +267,18 @@ view
 "
 )
 ;
-yield
+await
 mouseLeaveMarkupView
 (
 inspector
 )
 ;
-yield
+await
 onHidden
 ;
 isVisible
 =
-yield
+await
 testActor
 .
 isHighlighting
@@ -317,7 +317,7 @@ selected
 "
 )
 ;
-yield
+await
 hoverContainer
 (
 "
@@ -328,7 +328,7 @@ inspector
 ;
 isVisible
 =
-yield
+await
 testActor
 .
 isHighlighting

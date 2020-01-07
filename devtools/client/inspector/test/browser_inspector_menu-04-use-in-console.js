@@ -122,7 +122,6 @@ false
 registerCleanupFunction
 (
 function
-*
 (
 )
 {
@@ -150,8 +149,8 @@ enabled
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -161,19 +160,19 @@ inspector
 toolbox
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-yield
+await
 testUseInConsole
 (
 )
 ;
+async
 function
-*
 testUseInConsole
 (
 )
@@ -193,7 +192,7 @@ item
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -208,7 +207,7 @@ inspector
 let
 container
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -266,7 +265,7 @@ click
 (
 )
 ;
-yield
+await
 inspector
 .
 once
@@ -343,7 +342,7 @@ temp0
 let
 result
 =
-yield
+await
 jsterm
 .
 execute
@@ -382,7 +381,7 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -402,7 +401,7 @@ click
 (
 )
 ;
-yield
+await
 inspector
 .
 once
@@ -436,7 +435,7 @@ temp1
 ;
 result
 =
-yield
+await
 jsterm
 .
 execute

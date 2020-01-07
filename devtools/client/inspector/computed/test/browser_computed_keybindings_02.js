@@ -334,12 +334,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -368,12 +368,12 @@ inspector
 view
 }
 =
-yield
+await
 openComputedView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -485,7 +485,7 @@ KEY_Enter
 "
 )
 ;
-yield
+await
 onExpanded
 ;
 info
@@ -596,7 +596,7 @@ synthesizeKey
 "
 )
 ;
-yield
+await
 onExpanded
 ;
 info

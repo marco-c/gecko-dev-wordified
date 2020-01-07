@@ -151,12 +151,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -185,12 +185,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -236,7 +236,7 @@ element
 "
 )
 ;
-yield
+await
 clearCurrentNodeSelection
 (
 inspector
@@ -277,7 +277,7 @@ again
 "
 )
 ;
-yield
+await
 selectNode
 (
 "

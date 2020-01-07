@@ -348,12 +348,8 @@ widget
 var
 simulateColorPickerChange
 =
-Task
-.
 async
-(
 function
-*
 (
 colorPicker
 newRgba
@@ -373,7 +369,7 @@ object
 let
 spectrum
 =
-yield
+await
 colorPicker
 .
 spectrum
@@ -416,7 +412,6 @@ onChange
 )
 ;
 }
-)
 ;
 registerCleanupFunction
 (

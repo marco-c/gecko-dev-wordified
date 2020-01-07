@@ -561,8 +561,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -571,13 +571,13 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-yield
+await
 focusSearchBoxUsingShortcut
 (
 inspector
@@ -644,7 +644,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 done
 ;
 info
@@ -659,7 +659,7 @@ complete
 "
 )
 ;
-yield
+await
 inspector
 .
 searchSuggestions

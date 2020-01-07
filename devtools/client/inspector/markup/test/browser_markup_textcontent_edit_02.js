@@ -103,8 +103,8 @@ node6
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -114,7 +114,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -129,7 +129,7 @@ nodes
 "
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -138,7 +138,7 @@ expandAll
 (
 )
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -147,7 +147,7 @@ inspector
 let
 nodeValue
 =
-yield
+await
 getFirstChildNodeValue
 (
 SELECTOR
@@ -193,7 +193,7 @@ node6
 let
 container
 =
-yield
+await
 focusNode
 (
 SELECTOR
@@ -281,7 +281,7 @@ end
 "
 )
 ;
-yield
+await
 sendKey
 (
 "
@@ -341,7 +341,7 @@ end
 "
 )
 ;
-yield
+await
 sendKey
 (
 "
@@ -399,7 +399,7 @@ start
 "
 )
 ;
-yield
+await
 sendKey
 (
 "
@@ -453,7 +453,7 @@ end
 "
 )
 ;
-yield
+await
 sendKey
 (
 "
@@ -509,7 +509,7 @@ field
 "
 )
 ;
-yield
+await
 sendKey
 (
 "
@@ -560,7 +560,7 @@ field
 "
 )
 ;
-yield
+await
 sendKey
 (
 "
@@ -611,7 +611,7 @@ RETURN
 "
 )
 ;
-yield
+await
 sendKey
 (
 "
@@ -679,7 +679,7 @@ field
 "
 )
 ;
-yield
+await
 sendKey
 (
 "
@@ -745,7 +745,7 @@ line
 "
 )
 ;
-yield
+await
 sendKey
 (
 "
@@ -826,7 +826,7 @@ markupmutation
 "
 )
 ;
-yield
+await
 sendKey
 (
 "
@@ -840,12 +840,12 @@ inspector
 panelWin
 )
 ;
-yield
+await
 onMutated
 ;
 nodeValue
 =
-yield
+await
 getFirstChildNodeValue
 (
 SELECTOR

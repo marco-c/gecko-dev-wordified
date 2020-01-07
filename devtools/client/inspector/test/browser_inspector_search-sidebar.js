@@ -83,8 +83,8 @@ pressed
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -93,7 +93,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 "
@@ -192,7 +192,7 @@ again
 "
 )
 ;
-yield
+await
 clickContainer
 (
 "
@@ -294,7 +294,7 @@ again
 "
 )
 ;
-yield
+await
 clickContainer
 (
 "

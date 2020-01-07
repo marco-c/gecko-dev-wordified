@@ -95,8 +95,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -106,7 +106,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 "
@@ -116,7 +116,7 @@ blank
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -159,7 +159,7 @@ to
 be
 done
 loading
-yield
+await
 testActor
 .
 loadAndWaitForCustomEvent
@@ -238,7 +238,7 @@ ok
 (
 !
 (
-yield
+await
 testActor
 .
 hasNode
@@ -346,7 +346,7 @@ ok
 (
 !
 (
-yield
+await
 testActor
 .
 hasNode
@@ -384,7 +384,7 @@ load
 "
 )
 ;
-yield
+await
 onMarkupLoaded
 ;
 /
@@ -403,7 +403,7 @@ ok
 (
 !
 (
-yield
+await
 testActor
 .
 hasNode
@@ -425,7 +425,7 @@ removed
 is
 (
 (
-yield
+await
 testActor
 .
 getProperty
@@ -450,7 +450,7 @@ fired
 "
 )
 ;
-yield
+await
 selectNode
 (
 "

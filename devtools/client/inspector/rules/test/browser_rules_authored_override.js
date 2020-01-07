@@ -62,8 +62,8 @@ as
 authored
 styles
 .
+async
 function
-*
 createTestContent
 (
 style
@@ -109,7 +109,7 @@ Node
 div
 >
 ;
-yield
+await
 addTab
 (
 "
@@ -138,12 +138,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -159,8 +159,8 @@ view
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -189,7 +189,7 @@ teal
 let
 view
 =
-yield
+await
 createTestContent
 (
 "
@@ -333,7 +333,7 @@ i
 )
 ;
 }
-yield
+await
 togglePropStatus
 (
 view

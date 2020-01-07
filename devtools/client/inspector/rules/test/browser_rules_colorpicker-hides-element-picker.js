@@ -70,12 +70,12 @@ style
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -104,7 +104,7 @@ view
 toolbox
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -123,7 +123,7 @@ stopped
 "
 )
 ;
-yield
+await
 startPicker
 (
 toolbox
@@ -203,7 +203,7 @@ tooltip
 "
 )
 ;
-yield
+await
 openEyedropper
 (
 view
@@ -226,7 +226,7 @@ fired
 "
 )
 ;
-yield
+await
 pickerStopped
 ;
 ok

@@ -160,12 +160,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -195,7 +195,7 @@ gridInspector
 testActor
 }
 =
-yield
+await
 openLayoutView
 (
 )
@@ -217,7 +217,7 @@ store
 =
 inspector
 ;
-yield
+await
 selectNode
 (
 "
@@ -370,7 +370,7 @@ click
 (
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 info
@@ -504,7 +504,7 @@ grid
 ;
 )
 ;
-yield
+await
 onGridListUpdate
 ;
 info
@@ -669,10 +669,10 @@ click
 (
 )
 ;
-yield
+await
 onHighlighterShown
 ;
-yield
+await
 onCheckboxChange
 ;
 info
@@ -784,10 +784,10 @@ click
 (
 )
 ;
-yield
+await
 onHighlighterHidden
 ;
-yield
+await
 onCheckboxChange
 ;
 info

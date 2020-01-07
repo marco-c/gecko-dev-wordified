@@ -126,8 +126,8 @@ MIN_DISTANCE
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -136,7 +136,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -158,7 +158,7 @@ distance
 "
 )
 ;
-yield
+await
 simulateNodeDrag
 (
 inspector
@@ -169,7 +169,7 @@ MIN_DISTANCE
 2
 )
 ;
-yield
+await
 checkIsDragging
 (
 inspector
@@ -192,7 +192,7 @@ distance
 "
 )
 ;
-yield
+await
 simulateNodeDrag
 (
 inspector
@@ -201,7 +201,7 @@ TEST_NODE
 MIN_DISTANCE
 )
 ;
-yield
+await
 checkIsDragging
 (
 inspector
@@ -233,7 +233,7 @@ distance
 "
 )
 ;
-yield
+await
 simulateNodeDrag
 (
 inspector
@@ -244,7 +244,7 @@ MIN_DISTANCE
 2
 )
 ;
-yield
+await
 checkIsDragging
 (
 inspector
@@ -275,7 +275,7 @@ distance
 "
 )
 ;
-yield
+await
 simulateNodeDrag
 (
 inspector
@@ -287,7 +287,7 @@ MIN_DISTANCE
 1
 )
 ;
-yield
+await
 checkIsDragging
 (
 inspector
@@ -306,8 +306,8 @@ cancelDragging
 }
 )
 ;
+async
 function
-*
 checkIsDragging
 (
 inspector
@@ -318,7 +318,7 @@ isDragging
 let
 container
 =
-yield
+await
 getContainerForSelector
 (
 selector

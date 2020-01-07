@@ -90,8 +90,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -114,7 +114,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -130,7 +130,7 @@ node
 "
 )
 ;
-yield
+await
 focusNode
 (
 "
@@ -157,7 +157,7 @@ now
 "
 )
 ;
-yield
+await
 assertAttributes
 (
 "
@@ -197,7 +197,7 @@ let
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -267,7 +267,7 @@ green
 inspector
 )
 ;
-yield
+await
 mutated
 ;
 info
@@ -284,7 +284,7 @@ style
 "
 )
 ;
-yield
+await
 assertAttributes
 (
 "
@@ -328,13 +328,13 @@ change
 "
 )
 ;
-yield
+await
 undoChange
 (
 inspector
 )
 ;
-yield
+await
 assertAttributes
 (
 "

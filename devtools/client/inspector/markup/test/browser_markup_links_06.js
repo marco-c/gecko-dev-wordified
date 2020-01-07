@@ -147,8 +147,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -158,7 +158,7 @@ toolbox
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -177,7 +177,7 @@ attribute
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -207,7 +207,7 @@ let
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -281,7 +281,7 @@ onFollowLink
 (
 )
 ;
-yield
+await
 onStyleEditorReady
 ;
 /
@@ -339,7 +339,7 @@ inspector
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -362,7 +362,7 @@ attribute
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -392,7 +392,7 @@ uri
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -465,7 +465,7 @@ onFollowLink
 (
 )
 ;
-yield
+await
 onDebuggerReady
 ;
 /

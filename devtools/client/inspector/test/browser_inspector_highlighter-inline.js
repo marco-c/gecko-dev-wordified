@@ -148,8 +148,8 @@ span
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -173,7 +173,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -199,7 +199,7 @@ node
 selector
 )
 ;
-yield
+await
 selectAndHighlightNode
 (
 selector
@@ -221,7 +221,7 @@ node
 let
 data
 =
-yield
+await
 testActor
 .
 getAllAdjustedQuads
@@ -278,7 +278,7 @@ let
 points
 }
 =
-yield
+await
 testActor
 .
 getHighlighterRegionPath
@@ -568,7 +568,7 @@ y
 let
 contentRect
 =
-yield
+await
 testActor
 .
 getGuidesRectangle

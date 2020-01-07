@@ -104,8 +104,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -119,7 +119,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -168,7 +168,7 @@ true
 let
 container
 =
-yield
+await
 focusNode
 (
 "
@@ -228,7 +228,7 @@ uppercase
 "
 )
 ;
-yield
+await
 focusNode
 (
 "

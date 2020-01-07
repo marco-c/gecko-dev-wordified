@@ -139,8 +139,8 @@ copyImageDataUrlError
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -230,7 +230,7 @@ image
 div
 >
 ;
-yield
+await
 addTab
 (
 "
@@ -251,7 +251,7 @@ TEST_URI
 )
 )
 ;
-yield
+await
 startTest
 (
 )
@@ -259,8 +259,8 @@ startTest
 }
 )
 ;
+async
 function
-*
 startTest
 (
 )
@@ -280,7 +280,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -299,7 +299,7 @@ view
 "
 )
 ;
-yield
+await
 testCopyUrlToClipboard
 (
 {
@@ -320,7 +320,7 @@ background
 TEST_DATA_URI
 )
 ;
-yield
+await
 testCopyUrlToClipboard
 (
 {
@@ -353,7 +353,7 @@ view
 "
 )
 ;
-yield
+await
 testCopyUrlToClipboard
 (
 {
@@ -374,7 +374,7 @@ background
 ERROR_MESSAGE
 )
 ;
-yield
+await
 testCopyUrlToClipboard
 (
 {
@@ -423,7 +423,7 @@ view
 "
 )
 ;
-yield
+await
 testCopyUrlToClipboard
 (
 {
@@ -444,7 +444,7 @@ background
 TEST_DATA_URI
 )
 ;
-yield
+await
 testCopyUrlToClipboard
 (
 {
@@ -477,7 +477,7 @@ view
 "
 )
 ;
-yield
+await
 testCopyUrlToClipboard
 (
 {
@@ -498,7 +498,7 @@ background
 ERROR_MESSAGE
 )
 ;
-yield
+await
 testCopyUrlToClipboard
 (
 {
@@ -518,8 +518,8 @@ INVALID_IMAGE_URI
 )
 ;
 }
+async
 function
-*
 testCopyUrlToClipboard
 (
 {
@@ -542,7 +542,7 @@ panel
 "
 )
 ;
-yield
+await
 selectNode
 (
 selector
@@ -770,7 +770,7 @@ clipboard
 "
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 (
@@ -805,7 +805,7 @@ clipboard
 "
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 (

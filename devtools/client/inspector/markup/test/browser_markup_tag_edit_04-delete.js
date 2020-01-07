@@ -442,8 +442,8 @@ after
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -452,7 +452,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -466,7 +466,7 @@ of
 TEST_DATA
 )
 {
-yield
+await
 checkDeleteAndSelection
 (
 inspector

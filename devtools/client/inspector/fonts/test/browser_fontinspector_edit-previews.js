@@ -106,8 +106,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -116,7 +116,7 @@ let
 view
 }
 =
-yield
+await
 openFontInspectorForURL
 (
 TEST_URI
@@ -187,7 +187,7 @@ correct
 "
 )
 ;
-yield
+await
 updatePreviewText
 (
 view
@@ -217,7 +217,7 @@ box
 "
 )
 ;
-yield
+await
 updatePreviewText
 (
 view
@@ -249,7 +249,7 @@ previews
 "
 )
 ;
-yield
+await
 updatePreviewText
 (
 view

@@ -469,8 +469,8 @@ LONG_VALUE
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -480,7 +480,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -494,7 +494,7 @@ of
 TEST_DATA
 )
 {
-yield
+await
 checkNode
 (
 inspector
@@ -506,8 +506,8 @@ data
 }
 )
 ;
+async
 function
-*
 checkNode
 (
 inspector
@@ -528,7 +528,7 @@ desc
 let
 container
 =
-yield
+await
 getContainerForSelector
 (
 selector
@@ -538,7 +538,7 @@ inspector
 let
 nodeValue
 =
-yield
+await
 getFirstChildNodeValue
 (
 selector
@@ -722,7 +722,7 @@ nodes
 "
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -734,7 +734,7 @@ container
 node
 )
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector

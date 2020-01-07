@@ -170,12 +170,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -199,12 +199,12 @@ boxmodel
 testActor
 }
 =
-yield
+await
 openLayoutView
 (
 )
 ;
-yield
+await
 testEditing
 (
 inspector
@@ -212,7 +212,7 @@ boxmodel
 testActor
 )
 ;
-yield
+await
 testEditingAndCanceling
 (
 inspector
@@ -220,7 +220,7 @@ boxmodel
 testActor
 )
 ;
-yield
+await
 testDeleting
 (
 inspector
@@ -228,7 +228,7 @@ boxmodel
 testActor
 )
 ;
-yield
+await
 testDeletingAndCanceling
 (
 inspector
@@ -239,8 +239,8 @@ testActor
 }
 )
 ;
+async
 function
-*
 testEditing
 (
 inspector
@@ -266,7 +266,7 @@ work
 "
 )
 ;
-yield
+await
 setStyle
 (
 testActor
@@ -282,13 +282,13 @@ padding
 "
 )
 ;
-yield
+await
 waitForUpdate
 (
 inspector
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -422,7 +422,7 @@ document
 defaultView
 )
 ;
-yield
+await
 waitForUpdate
 (
 inspector
@@ -452,7 +452,7 @@ editor
 is
 (
 (
-yield
+await
 getStyle
 (
 testActor
@@ -498,7 +498,7 @@ defaultView
 is
 (
 (
-yield
+await
 getStyle
 (
 testActor
@@ -547,8 +547,8 @@ model
 )
 ;
 }
+async
 function
-*
 testEditingAndCanceling
 (
 inspector
@@ -582,7 +582,7 @@ work
 "
 )
 ;
-yield
+await
 setStyle
 (
 testActor
@@ -598,13 +598,13 @@ padding
 "
 )
 ;
-yield
+await
 waitForUpdate
 (
 inspector
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -738,7 +738,7 @@ document
 defaultView
 )
 ;
-yield
+await
 waitForUpdate
 (
 inspector
@@ -768,7 +768,7 @@ editor
 is
 (
 (
-yield
+await
 getStyle
 (
 testActor
@@ -811,7 +811,7 @@ document
 defaultView
 )
 ;
-yield
+await
 waitForUpdate
 (
 inspector
@@ -820,7 +820,7 @@ inspector
 is
 (
 (
-yield
+await
 getStyle
 (
 testActor
@@ -869,8 +869,8 @@ model
 )
 ;
 }
+async
 function
-*
 testDeleting
 (
 inspector
@@ -896,7 +896,7 @@ work
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -1030,7 +1030,7 @@ document
 defaultView
 )
 ;
-yield
+await
 waitForUpdate
 (
 inspector
@@ -1059,7 +1059,7 @@ editor
 is
 (
 (
-yield
+await
 getStyle
 (
 testActor
@@ -1104,7 +1104,7 @@ defaultView
 is
 (
 (
-yield
+await
 getStyle
 (
 testActor
@@ -1152,8 +1152,8 @@ model
 )
 ;
 }
+async
 function
-*
 testDeletingAndCanceling
 (
 inspector
@@ -1184,7 +1184,7 @@ work
 "
 )
 ;
-yield
+await
 setStyle
 (
 testActor
@@ -1200,13 +1200,13 @@ padding
 "
 )
 ;
-yield
+await
 waitForUpdate
 (
 inspector
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -1340,7 +1340,7 @@ document
 defaultView
 )
 ;
-yield
+await
 waitForUpdate
 (
 inspector
@@ -1369,7 +1369,7 @@ editor
 is
 (
 (
-yield
+await
 getStyle
 (
 testActor
@@ -1411,7 +1411,7 @@ document
 defaultView
 )
 ;
-yield
+await
 waitForUpdate
 (
 inspector
@@ -1420,7 +1420,7 @@ inspector
 is
 (
 (
-yield
+await
 getStyle
 (
 testActor

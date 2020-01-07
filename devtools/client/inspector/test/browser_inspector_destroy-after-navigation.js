@@ -108,8 +108,8 @@ UTF
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -119,13 +119,13 @@ inspector
 toolbox
 }
 =
-yield
+await
 openInspectorForURL
 (
 URL_1
 )
 ;
-yield
+await
 navigateTo
 (
 inspector
@@ -142,7 +142,7 @@ toolbox
 ;
 try
 {
-yield
+await
 toolbox
 .
 destroy

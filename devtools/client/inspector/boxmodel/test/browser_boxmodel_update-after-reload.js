@@ -68,12 +68,12 @@ is
 reloaded
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -92,7 +92,7 @@ boxmodel
 testActor
 }
 =
-yield
+await
 openLayoutView
 (
 )
@@ -114,7 +114,7 @@ page
 "
 )
 ;
-yield
+await
 assertBoxModelView
 (
 inspector
@@ -139,14 +139,14 @@ waitForMarkupLoaded
 inspector
 )
 ;
-yield
+await
 testActor
 .
 reload
 (
 )
 ;
-yield
+await
 onMarkupLoaded
 ;
 info
@@ -166,7 +166,7 @@ page
 "
 )
 ;
-yield
+await
 assertBoxModelView
 (
 inspector
@@ -177,8 +177,8 @@ testActor
 }
 )
 ;
+async
 function
-*
 assertBoxModelView
 (
 inspector
@@ -186,7 +186,7 @@ boxmodel
 testActor
 )
 {
-yield
+await
 selectNode
 (
 "
@@ -268,7 +268,7 @@ waitForUpdate
 inspector
 )
 ;
-yield
+await
 setStyle
 (
 testActor
@@ -283,7 +283,7 @@ padding
 "
 )
 ;
-yield
+await
 onUpdated
 ;
 ok

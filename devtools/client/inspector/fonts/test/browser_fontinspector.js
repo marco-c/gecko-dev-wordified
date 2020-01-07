@@ -186,8 +186,8 @@ barnormal
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -197,7 +197,7 @@ inspector
 view
 }
 =
-yield
+await
 openFontInspectorForURL
 (
 TEST_URI
@@ -225,14 +225,14 @@ view
 .
 document
 ;
-yield
+await
 testBodyFonts
 (
 inspector
 viewDoc
 )
 ;
-yield
+await
 testDivFonts
 (
 inspector
@@ -272,7 +272,6 @@ remote
 ;
 }
 function
-*
 testBodyFonts
 (
 inspector
@@ -553,8 +552,8 @@ local
 )
 ;
 }
+async
 function
-*
 testDivFonts
 (
 inspector
@@ -575,7 +574,7 @@ updated
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -584,7 +583,7 @@ div
 inspector
 )
 ;
-yield
+await
 updated
 ;
 let

@@ -192,12 +192,12 @@ CssGridHighlighter
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -226,7 +226,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -250,7 +250,7 @@ container
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -447,7 +447,7 @@ click
 (
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 info
@@ -548,7 +548,7 @@ container
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -724,7 +724,7 @@ click
 (
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 info
@@ -815,7 +815,7 @@ container
 "
 )
 ;
-yield
+await
 selectNode
 (
 "

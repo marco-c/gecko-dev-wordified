@@ -245,8 +245,8 @@ XHTML
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -255,7 +255,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URI
@@ -277,7 +277,7 @@ children
 let
 svgNodeFront
 =
-yield
+await
 getNodeFront
 (
 "
@@ -286,7 +286,7 @@ svg
 inspector
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -296,7 +296,7 @@ expandNode
 svgNodeFront
 )
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -305,7 +305,7 @@ inspector
 let
 clipPathContainer
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -355,7 +355,7 @@ displayed
 let
 circlePathContainer
 =
-yield
+await
 getContainerForSelector
 (
 "

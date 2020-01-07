@@ -134,12 +134,12 @@ showGridLineNumbers
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -168,7 +168,7 @@ inspector
 gridInspector
 }
 =
-yield
+await
 openLayoutView
 (
 )
@@ -189,7 +189,7 @@ store
 =
 inspector
 ;
-yield
+await
 selectNode
 (
 "
@@ -304,7 +304,7 @@ click
 (
 )
 ;
-yield
+await
 onCheckboxChange
 ;
 ok
@@ -370,7 +370,7 @@ click
 (
 )
 ;
-yield
+await
 onCheckboxChange
 ;
 ok

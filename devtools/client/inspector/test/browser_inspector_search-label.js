@@ -88,8 +88,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -98,7 +98,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -132,7 +132,7 @@ label
 shows
 1
 result
-yield
+await
 focusSearchBoxUsingShortcut
 (
 panelWin
@@ -159,7 +159,7 @@ VK_RETURN
 panelWin
 )
 ;
-yield
+await
 inspector
 .
 search
@@ -244,7 +244,7 @@ new
 /
 node
 .
-yield
+await
 inspector
 .
 once

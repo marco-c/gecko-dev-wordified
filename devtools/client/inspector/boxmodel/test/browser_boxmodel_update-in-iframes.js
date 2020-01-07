@@ -71,12 +71,12 @@ they
 change
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 URL_ROOT
@@ -95,12 +95,12 @@ boxmodel
 testActor
 }
 =
-yield
+await
 openLayoutView
 (
 )
 ;
-yield
+await
 testResizingInIframe
 (
 inspector
@@ -108,7 +108,7 @@ boxmodel
 testActor
 )
 ;
-yield
+await
 testReflowsAfterIframeDeletion
 (
 inspector
@@ -119,8 +119,8 @@ testActor
 }
 )
 ;
+async
 function
-*
 testResizingInIframe
 (
 inspector
@@ -157,7 +157,7 @@ node
 "
 )
 ;
-yield
+await
 selectNodeInIframe2
 (
 "
@@ -237,7 +237,7 @@ waitForUpdate
 inspector
 )
 ;
-yield
+await
 setStyleInIframe2
 (
 testActor
@@ -252,7 +252,7 @@ width
 "
 )
 ;
-yield
+await
 onUpdated
 ;
 ok
@@ -298,8 +298,8 @@ u00D7200
 )
 ;
 }
+async
 function
-*
 testReflowsAfterIframeDeletion
 (
 inspector
@@ -353,13 +353,13 @@ updated
 "
 )
 ;
-yield
+await
 removeIframe2
 (
 testActor
 )
 ;
-yield
+await
 onInspectorUpdated
 ;
 info
@@ -374,7 +374,7 @@ iframe1
 "
 )
 ;
-yield
+await
 selectNodeInIframe1
 (
 "
@@ -454,7 +454,7 @@ waitForUpdate
 inspector
 )
 ;
-yield
+await
 setStyleInIframe1
 (
 testActor
@@ -469,7 +469,7 @@ width
 "
 )
 ;
-yield
+await
 onUpdated
 ;
 ok
@@ -515,8 +515,8 @@ u00D7100
 )
 ;
 }
+async
 function
-*
 selectNodeInIframe1
 (
 selector
@@ -526,7 +526,7 @@ inspector
 let
 iframe1
 =
-yield
+await
 getNodeFront
 (
 "
@@ -538,7 +538,7 @@ inspector
 let
 node
 =
-yield
+await
 getNodeFrontInFrame
 (
 selector
@@ -546,7 +546,7 @@ iframe1
 inspector
 )
 ;
-yield
+await
 selectNode
 (
 node
@@ -554,8 +554,8 @@ inspector
 )
 ;
 }
+async
 function
-*
 selectNodeInIframe2
 (
 selector
@@ -565,7 +565,7 @@ inspector
 let
 iframe1
 =
-yield
+await
 getNodeFront
 (
 "
@@ -577,7 +577,7 @@ inspector
 let
 iframe2
 =
-yield
+await
 getNodeFrontInFrame
 (
 "
@@ -590,7 +590,7 @@ inspector
 let
 node
 =
-yield
+await
 getNodeFrontInFrame
 (
 selector
@@ -598,7 +598,7 @@ iframe2
 inspector
 )
 ;
-yield
+await
 selectNode
 (
 node
@@ -606,8 +606,8 @@ inspector
 )
 ;
 }
+async
 function
-*
 setStyleInIframe1
 (
 testActor
@@ -616,7 +616,7 @@ propertyName
 value
 )
 {
-yield
+await
 testActor
 .
 eval
@@ -658,8 +658,8 @@ value
 )
 ;
 }
+async
 function
-*
 setStyleInIframe2
 (
 testActor
@@ -668,7 +668,7 @@ propertyName
 value
 )
 {
-yield
+await
 testActor
 .
 eval
@@ -719,14 +719,14 @@ value
 )
 ;
 }
+async
 function
-*
 removeIframe2
 (
 testActor
 )
 {
-yield
+await
 testActor
 .
 eval

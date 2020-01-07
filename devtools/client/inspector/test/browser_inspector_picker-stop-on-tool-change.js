@@ -128,8 +128,8 @@ selection
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -138,7 +138,7 @@ let
 toolbox
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URI
@@ -168,7 +168,7 @@ picker
 "
 )
 ;
-yield
+await
 startPicker
 (
 toolbox
@@ -189,7 +189,7 @@ toolbox
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectNextTool
@@ -212,7 +212,7 @@ fired
 "
 )
 ;
-yield
+await
 pickerStopped
 ;
 ok

@@ -118,12 +118,12 @@ CssTransformHighlighter
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -152,7 +152,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -188,7 +188,7 @@ view
 let
 h
 =
-yield
+await
 overlay
 .
 _getHighlighter
@@ -240,7 +240,7 @@ created
 let
 h2
 =
-yield
+await
 overlay
 .
 _getHighlighter
@@ -293,7 +293,7 @@ selectComputedView
 inspector
 )
 ;
-yield
+await
 onComputedViewReady
 ;
 overlay
@@ -325,7 +325,7 @@ view
 let
 h3
 =
-yield
+await
 overlay
 .
 _getHighlighter

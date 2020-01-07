@@ -178,8 +178,8 @@ clickme
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -229,7 +229,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 INITIAL_URL
@@ -272,14 +272,14 @@ toolbox
 .
 sourceMapURLService
 ;
-yield
+await
 navigateTo
 (
 inspector
 TEST_URL
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -296,7 +296,7 @@ of
 TEST_DATA
 )
 {
-yield
+await
 checkEventsForNode
 (
 test
@@ -353,7 +353,7 @@ they
 are
 GCd
 .
-yield
+await
 promiseNextTick
 (
 )

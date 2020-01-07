@@ -91,8 +91,8 @@ inspector
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -102,7 +102,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 "
@@ -160,7 +160,7 @@ defaultView
 let
 spanContainer
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -201,7 +201,7 @@ body
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -313,7 +313,7 @@ document
 "
 )
 ;
-yield
+await
 focusSearchBoxUsingShortcut
 (
 inspector
@@ -353,7 +353,7 @@ again
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -452,7 +452,7 @@ container
 "
 )
 ;
-yield
+await
 clickOnInspectMenuItem
 (
 testActor

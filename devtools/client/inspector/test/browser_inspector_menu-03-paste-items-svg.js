@@ -159,8 +159,8 @@ r
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -186,7 +186,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -202,7 +202,7 @@ svg
 let
 oldHTML
 =
-yield
+await
 testActor
 .
 getProperty
@@ -213,7 +213,7 @@ innerHTML
 "
 )
 ;
-yield
+await
 selectNode
 (
 refSelector
@@ -231,7 +231,7 @@ inspector
 .
 tagLine
 ;
-yield
+await
 pasteContent
 (
 "
@@ -244,7 +244,7 @@ pastefirstchild
 PASTE_AS_FIRST_CHILD
 )
 ;
-yield
+await
 pasteContent
 (
 "
@@ -260,7 +260,7 @@ PASTE_AS_LAST_CHILD
 let
 html
 =
-yield
+await
 testActor
 .
 getProperty
@@ -299,8 +299,8 @@ correct
 /
 /
 Helpers
+async
 function
-*
 pasteContent
 (
 menuId
@@ -332,7 +332,7 @@ clipboardData
 }
 )
 ;
-yield
+await
 SimpleTest
 .
 promiseClipboardChange
@@ -396,7 +396,7 @@ occur
 "
 )
 ;
-yield
+await
 onMutation
 ;
 }

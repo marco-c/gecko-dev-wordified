@@ -89,8 +89,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -99,7 +99,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -118,7 +118,7 @@ attribute
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -147,7 +147,7 @@ let
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -199,7 +199,7 @@ open
 "
 )
 ;
-yield
+await
 followLinkWaitForTab
 (
 linkEl
@@ -236,7 +236,7 @@ open
 "
 )
 ;
-yield
+await
 followLinkWaitForTab
 (
 linkEl
@@ -263,7 +263,7 @@ attribute
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -296,7 +296,7 @@ ref
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -347,7 +347,7 @@ selected
 "
 )
 ;
-yield
+await
 followLinkWaitForNewNode
 (
 linkEl
@@ -376,7 +376,7 @@ selected
 /
 node
 .
-yield
+await
 selectNode
 (
 "
@@ -407,7 +407,7 @@ selected
 "
 )
 ;
-yield
+await
 followLinkWaitForNewNode
 (
 linkEl
@@ -429,7 +429,7 @@ attribute
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -462,7 +462,7 @@ ref
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -515,7 +515,7 @@ selected
 "
 )
 ;
-yield
+await
 followLinkNoNewNode
 (
 linkEl
@@ -544,7 +544,7 @@ selected
 "
 )
 ;
-yield
+await
 followLinkNoNewNode
 (
 linkEl
@@ -656,8 +656,8 @@ evt
 )
 ;
 }
+async
 function
-*
 followLinkWaitForTab
 (
 linkEl
@@ -689,10 +689,10 @@ let
 target
 }
 =
-yield
+await
 onTabOpened
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -743,8 +743,8 @@ target
 )
 ;
 }
+async
 function
-*
 followLinkWaitForNewNode
 (
 linkEl
@@ -776,7 +776,7 @@ linkEl
 isMetaClick
 )
 ;
-yield
+await
 onSelection
 ;
 ok
@@ -813,8 +813,8 @@ selected
 )
 ;
 }
+async
 function
-*
 followLinkNoNewNode
 (
 linkEl
@@ -846,7 +846,7 @@ linkEl
 isMetaClick
 )
 ;
-yield
+await
 onFailed
 ;
 ok
