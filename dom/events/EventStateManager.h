@@ -847,9 +847,6 @@ nsIDocument
 aDocument
 nsIContent
 *
-aMaybeContainer
-nsIContent
-*
 aContent
 )
 ;
