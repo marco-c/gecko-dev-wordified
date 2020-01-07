@@ -21860,11 +21860,6 @@ msg
 data
 .
 securityInfoAsString
-msg
-.
-data
-.
-frameId
 )
 ;
 break
@@ -22160,7 +22155,6 @@ elementId
 isTopFrame
 location
 securityInfoAsString
-frameId
 )
 {
 let
@@ -22454,7 +22448,6 @@ errorCode
 info
 :
 errorInfo
-frameId
 }
 )
 ;
@@ -22837,14 +22830,15 @@ gBrowser
 currentURI
 .
 spec
+{
+flags
+:
 Ci
 .
 nsIWebNavigation
 .
 LOAD_FLAGS_BYPASS_CLASSIFIER
-null
-null
-null
+}
 )
 ;
 Services
@@ -23835,7 +23829,11 @@ gBrowser
 loadURIWithFlags
 (
 url
+{
+flags
+:
 reloadFlags
+}
 )
 ;
 return
@@ -37527,6 +37525,8 @@ aURI
 .
 spec
 {
+triggeringPrincipal
+:
 aTriggeringPrincipal
 flags
 :
