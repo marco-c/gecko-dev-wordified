@@ -197,17 +197,6 @@ mozilla
 /
 gfx
 /
-gfxVars
-.
-h
-"
-#
-include
-"
-mozilla
-/
-gfx
-/
 Tools
 .
 h
