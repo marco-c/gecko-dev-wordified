@@ -62,7 +62,6 @@ from
 emulator
 import
 BaseEmulator
-Emulator
 EmulatorAVD
 from
 .
@@ -92,9 +91,6 @@ __all__
 [
 '
 BaseEmulator
-'
-'
-Emulator
 '
 '
 EmulatorAVD

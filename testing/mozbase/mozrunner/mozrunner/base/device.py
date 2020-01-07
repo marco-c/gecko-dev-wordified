@@ -110,9 +110,6 @@ devices
 or
 emulators
 )
-such
-as
-B2G
 .
     
 "
