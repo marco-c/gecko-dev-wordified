@@ -21656,9 +21656,6 @@ eTriTrue
 Tri
 mAllowXULXBL
 ;
-#
-ifdef
-DEBUG
 /
 *
 *
@@ -21689,8 +21686,6 @@ true
 bool
 mIsLinkUpdateRegistrationsForbidden
 ;
-#
-endif
 /
 /
 The
