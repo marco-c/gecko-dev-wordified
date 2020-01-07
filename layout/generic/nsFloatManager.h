@@ -2514,6 +2514,9 @@ EllipseShapeInfo
 class
 PolygonShapeInfo
 ;
+class
+ImageShapeInfo
+;
 struct
 FloatInfo
 {
