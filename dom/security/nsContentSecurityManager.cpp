@@ -4937,6 +4937,17 @@ aChannel
 )
 )
 {
+NS_ENSURE_FALSE
+(
+loadInfo
+-
+>
+GetDontFollowRedirects
+(
+)
+NS_ERROR_DOM_BAD_URI
+)
+;
 loadInfo
 -
 >
