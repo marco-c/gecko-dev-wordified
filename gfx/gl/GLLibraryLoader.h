@@ -86,7 +86,9 @@ h
 #
 include
 "
-prlink
+mozilla
+/
+SharedLibrary
 .
 h
 "
