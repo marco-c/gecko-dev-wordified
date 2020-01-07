@@ -966,6 +966,12 @@ Other
 mPropertyTablesSize
 )
 \
+macro
+(
+Other
+mBindingsSize
+)
+\
 public
 :
 explicit

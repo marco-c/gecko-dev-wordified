@@ -209,6 +209,9 @@ nsIDOMDocumentType
 class
 nsIPrincipal
 ;
+class
+nsWindowSizes
+;
 struct
 PLHashEntry
 ;
@@ -720,6 +723,15 @@ InternalMathMLEnabled
 )
 ;
 }
+void
+AddSizeOfIncludingThis
+(
+nsWindowSizes
+&
+aSizes
+)
+const
+;
 protected
 :
 friend
