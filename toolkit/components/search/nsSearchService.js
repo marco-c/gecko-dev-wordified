@@ -11867,9 +11867,6 @@ parser
 parseFromBuffer
 (
 aBytes
-aBytes
-.
-length
 "
 text
 /
