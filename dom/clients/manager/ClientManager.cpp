@@ -334,7 +334,7 @@ WorkerHolderToken
 Create
 (
 workerPrivate
-Terminating
+Closing
 WorkerHolderToken
 :
 :
