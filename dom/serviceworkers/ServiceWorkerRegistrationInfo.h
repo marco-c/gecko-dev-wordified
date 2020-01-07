@@ -194,6 +194,9 @@ mListeners
 uint32_t
 mControlledClientsCounter
 ;
+uint32_t
+mDelayMultiplier
+;
 enum
 {
 NoUpdate
@@ -429,6 +432,10 @@ StartControllingClient
 +
 +
 mControlledClientsCounter
+;
+mDelayMultiplier
+=
+0
 ;
 }
 void
@@ -847,6 +854,11 @@ Descriptor
 (
 )
 const
+;
+uint32_t
+GetUpdateDelay
+(
+)
 ;
 private
 :
