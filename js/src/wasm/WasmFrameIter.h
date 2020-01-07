@@ -434,14 +434,12 @@ Code
 code_
 ;
 const
-CallSite
-*
-callsite_
-;
-const
 CodeRange
 *
 codeRange_
+;
+unsigned
+lineOrBytecode_
 ;
 Frame
 *
