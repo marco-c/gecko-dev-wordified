@@ -197,10 +197,12 @@ sp
 -
 1
 <
-PseudoStack
-:
-:
-MaxEntries
+pseudoStack_
+-
+>
+stackCapacity
+(
+)
 )
 {
 MOZ_ASSERT
