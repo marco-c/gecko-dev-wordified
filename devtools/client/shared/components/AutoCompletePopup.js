@@ -432,9 +432,8 @@ selectedIndex
 list
 .
 length
-=
-=
-1
+>
+0
 ?
 0
 :
