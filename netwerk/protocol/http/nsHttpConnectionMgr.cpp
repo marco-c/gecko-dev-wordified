@@ -27894,6 +27894,14 @@ else
 if
 (
 isBackup
+&
+&
+gHttpHandler
+-
+>
+FastFallbackToIPv4
+(
+)
 )
 {
 /
