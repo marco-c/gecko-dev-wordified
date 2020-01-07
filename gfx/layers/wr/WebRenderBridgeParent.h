@@ -1533,6 +1533,15 @@ GetRootCompositorBridgeParent
 )
 const
 ;
+RefPtr
+<
+WebRenderBridgeParent
+>
+GetRootWebRenderBridgeParent
+(
+)
+const
+;
 /
 /
 Tell
