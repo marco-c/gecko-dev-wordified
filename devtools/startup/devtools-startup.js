@@ -4245,9 +4245,7 @@ account
 let
 startTime
 =
-window
-.
-performance
+Cu
 .
 now
 (

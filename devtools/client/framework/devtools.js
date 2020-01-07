@@ -3098,7 +3098,7 @@ started
 This
 is
 a
-performance
+Cu
 .
 now
 (
@@ -3478,7 +3478,7 @@ started
 This
 is
 a
-performance
+Cu
 .
 now
 (
@@ -3494,20 +3494,9 @@ startTime
 )
 {
 let
-{
-performance
-}
-=
-Services
-.
-appShell
-.
-hiddenDOMWindow
-;
-let
 delay
 =
-performance
+Cu
 .
 now
 (
@@ -4626,7 +4615,7 @@ started
 This
 is
 a
-performance
+Cu
 .
 now
 (
@@ -4953,7 +4942,7 @@ started
 This
 is
 a
-performance
+Cu
 .
 now
 (
