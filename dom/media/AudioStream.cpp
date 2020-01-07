@@ -2325,13 +2325,7 @@ params
 .
 layout
 =
-CubebUtils
-:
-:
-ConvertChannelMapToCubebLayout
-(
-aChannelMap
-)
+CUBEB_LAYOUT_UNDEFINED
 ;
 params
 .

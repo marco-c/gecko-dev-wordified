@@ -747,13 +747,6 @@ defined
 (
 MOZ_PULSEAUDIO
 )
-/
-/
-libcubeb
-backend
-implement
-.
-get_preferred_channel_layout
 DECL_MEDIA_PREF
 (
 "
