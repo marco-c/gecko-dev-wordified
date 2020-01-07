@@ -23978,7 +23978,7 @@ IsEndOfContainer
 )
 )
 {
-IgnoredErrorResult
+ErrorResult
 error
 ;
 nsCOMPtr
@@ -24012,7 +24012,11 @@ Failed
 return
 SplitNodeResult
 (
-NS_ERROR_FAILURE
+error
+.
+StealNSResult
+(
+)
 )
 ;
 }

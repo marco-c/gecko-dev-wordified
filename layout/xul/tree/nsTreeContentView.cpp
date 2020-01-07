@@ -1239,9 +1239,6 @@ nsAString
 aProperties
 )
 {
-IgnoredErrorResult
-rv
-;
 RefPtr
 <
 Element
@@ -1252,7 +1249,9 @@ aColumn
 .
 GetElement
 (
-rv
+IgnoreErrors
+(
+)
 )
 ;
 if

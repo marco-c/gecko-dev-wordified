@@ -2949,9 +2949,6 @@ selNode
 )
 )
 {
-IgnoredErrorResult
-rv
-;
 selNode
 =
 iter
@@ -2959,7 +2956,9 @@ iter
 >
 NextNode
 (
-rv
+IgnoreErrors
+(
+)
 )
 ;
 if

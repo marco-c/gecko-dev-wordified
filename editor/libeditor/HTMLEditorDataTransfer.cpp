@@ -13082,9 +13082,6 @@ unite
 the
 two
 trees
-IgnoredErrorResult
-ignored
-;
 contextLeafAsContent
 -
 >
@@ -13092,7 +13089,9 @@ AppendChild
 (
 *
 fragment
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 fragment
