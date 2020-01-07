@@ -167,7 +167,11 @@ clip_mode
 :
 BoxShadowClipMode
 pub
-stretch_mode
+stretch_mode_x
+:
+BoxShadowStretchMode
+pub
+stretch_mode_y
 :
 BoxShadowStretchMode
 /

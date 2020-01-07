@@ -571,6 +571,7 @@ derive
 (
 Copy
 Clone
+Hash
 PartialEq
 PartialOrd
 Debug

@@ -139,7 +139,6 @@ gpu_types
 {
 ClipChainRectIndex
 ClipScrollNodeData
-PictureType
 }
 ;
 use
@@ -549,6 +548,10 @@ pub
 apply_local_clip_rect
 :
 bool
+pub
+inflation_factor
+:
+f32
 }
 pub
 struct
@@ -1078,6 +1081,11 @@ None
 apply_local_clip_rect
 :
 true
+inflation_factor
+:
+0
+.
+0
 }
 ;
 let
@@ -1181,10 +1189,6 @@ Transparent
 pic_state
 .
 tasks
-PictureType
-:
-:
-Image
 )
 ;
 let
@@ -1716,6 +1720,7 @@ RenderTaskTree
 :
 new
 (
+frame_id
 )
 ;
 let
