@@ -499,6 +499,15 @@ PeerConnection
 request
 "
 ]
+ppmm
+:
+[
+"
+GeckoView
+:
+AddCameraPermission
+"
+]
 }
 )
 ;
