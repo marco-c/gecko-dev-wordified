@@ -154,6 +154,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EndianUtils
 .
 h
@@ -188,7 +197,7 @@ cursor
 offset
 ;
 }
-XPT_ASSERT
+MOZ_ASSERT
 (
 cursor
 -
@@ -345,9 +354,9 @@ pool_allocated
 )
 )
 {
-XPT_ASSERT
+MOZ_ASSERT
 (
-0
+false
 )
 ;
 fprintf
@@ -823,7 +832,7 @@ end
 -
 start
 ;
-XPT_ASSERT
+MOZ_ASSERT
 (
 len
 >
