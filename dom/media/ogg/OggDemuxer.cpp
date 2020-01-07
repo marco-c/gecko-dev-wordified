@@ -3852,7 +3852,7 @@ GetLength
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 length
 >
@@ -5140,7 +5140,7 @@ aType
 4096
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 buffer
 "
@@ -6231,7 +6231,7 @@ Time
 granulepos
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 startTime
 >
@@ -6280,7 +6280,7 @@ Time
 granulepos
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 startTime
 >
@@ -6329,7 +6329,7 @@ Time
 granulepos
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 startTime
 >
@@ -6378,7 +6378,7 @@ Time
 granulepos
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 startTime
 >
@@ -8292,7 +8292,7 @@ aState
 PAGE_STEP
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 buffer
 "
@@ -8332,7 +8332,7 @@ aEndOffset
 readHead
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 bytesToRead
 <
@@ -8528,7 +8528,7 @@ ret
 0
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aSkippedBytes
 >
@@ -8548,7 +8548,7 @@ aSkippedBytes
 -
 ret
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aSkippedBytes
 >
@@ -10173,7 +10173,7 @@ mState
 bytesToRead
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 buffer
 "
@@ -10225,7 +10225,7 @@ bytesToRead
 }
 else
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 readHead
 <
@@ -11292,7 +11292,7 @@ get
 visual
 artifacts
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
 packet
 -
@@ -11956,7 +11956,7 @@ maxBackStep
 =
 10
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 static_cast
 <
@@ -12618,7 +12618,7 @@ guess
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 guess
 >
@@ -12636,7 +12636,7 @@ start
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 guess
 <
@@ -12651,7 +12651,7 @@ end
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 guess
 !
@@ -13423,7 +13423,7 @@ audioTime
 :
 videoTime
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 granuleTime
 >
@@ -13512,7 +13512,7 @@ startOffset
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 startTime
 <
@@ -13702,7 +13702,7 @@ the
 seek
 target
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
 pageOffset
 <
@@ -13738,7 +13738,7 @@ before
 seek
 target
 .
-NS_ASSERTION
+MOZ_ASSERT
 (
 pageOffset
 >
@@ -13776,7 +13776,7 @@ startTime
 granuleTime
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 startTime
 <
@@ -13791,7 +13791,7 @@ target
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 endTime
 >
