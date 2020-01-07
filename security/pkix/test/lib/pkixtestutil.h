@@ -650,12 +650,12 @@ TestPublicKeyAlgorithm
 const
 ByteString
 &
-algorithmIdentifier
+aAlgorithmIdentifier
 )
 :
 algorithmIdentifier
 (
-algorithmIdentifier
+aAlgorithmIdentifier
 )
 {
 }
