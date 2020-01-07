@@ -20432,6 +20432,9 @@ useAlphaVisual
 =
 true
 ;
+#
+ifdef
+GL_PROVIDER_GLX
 bool
 useWebRender
 =
@@ -20598,6 +20601,12 @@ visualId
 }
 }
 else
+#
+endif
+/
+/
+GL_PROVIDER_GLX
+{
 if
 (
 useAlphaVisual
@@ -20635,6 +20644,7 @@ mShell
 visual
 )
 ;
+}
 }
 }
 /
