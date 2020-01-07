@@ -797,6 +797,9 @@ Set
 "
 WeakSet
 "
+"
+Storage
+"
 ]
 .
 includes
@@ -822,6 +825,8 @@ for
 Map
 /
 Set
+/
+Storage
 -
 like
 grips

@@ -4273,6 +4273,17 @@ type
 "
 mapEntry
 "
+|
+|
+aSource
+.
+type
+=
+=
+=
+"
+storageEntry
+"
 )
 {
 aTarget
