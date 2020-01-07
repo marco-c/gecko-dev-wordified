@@ -1477,12 +1477,6 @@ Value
 JS
 :
 :
-UninitializedValue
-"
-"
-JS
-:
-:
 WarningReporter
 "
 "
