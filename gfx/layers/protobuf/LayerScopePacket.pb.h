@@ -686,6 +686,9 @@ LayersPacket_Layer_LayerType_ImageLayer
 LayersPacket_Layer_LayerType_ColorLayer
 =
 6
+LayersPacket_Layer_LayerType_TextLayer
+=
+7
 LayersPacket_Layer_LayerType_RefLayer
 =
 8
@@ -14971,6 +14974,13 @@ LayerType
 ColorLayer
 =
 LayersPacket_Layer_LayerType_ColorLayer
+;
+static
+const
+LayerType
+TextLayer
+=
+LayersPacket_Layer_LayerType_TextLayer
 ;
 static
 const
