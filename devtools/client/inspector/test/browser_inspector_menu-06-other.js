@@ -789,12 +789,10 @@ item
 ;
 ok
 (
+!
 deleteNode
 .
 disabled
-=
-=
-false
 "
 the
 delete

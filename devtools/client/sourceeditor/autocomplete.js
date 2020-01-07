@@ -1084,10 +1084,9 @@ isOpen
 cycleSuggestions
 (
 ed
+!
+!
 reverse
-=
-=
-true
 )
 ;
 return

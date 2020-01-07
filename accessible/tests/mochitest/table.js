@@ -2283,6 +2283,7 @@ rowIdx
 {
 if
 (
+!
 aCellsArray
 [
 rowIdx
@@ -2290,9 +2291,6 @@ rowIdx
 [
 colIdx
 ]
-=
-=
-false
 |
 |
 aCellsArray
@@ -2549,6 +2547,7 @@ colIdx
 {
 if
 (
+!
 aCellsArray
 [
 rowIdx
@@ -2556,9 +2555,6 @@ rowIdx
 [
 colIdx
 ]
-=
-=
-false
 |
 |
 aCellsArray
@@ -2825,6 +2821,8 @@ continue
 var
 isSelected
 =
+!
+!
 aCellsArray
 [
 rowIdx
@@ -2832,9 +2830,6 @@ rowIdx
 [
 colIdx
 ]
-=
-=
-true
 ;
 is
 (
@@ -3267,9 +3262,6 @@ else
 if
 (
 isSel
-=
-=
-true
 )
 testStates
 (

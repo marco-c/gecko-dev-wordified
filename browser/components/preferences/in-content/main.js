@@ -7592,12 +7592,10 @@ button
 .
 disabled
 =
+!
 preference
 .
 value
-!
-=
-true
 ;
 return
 undefined
@@ -24584,9 +24582,6 @@ aNewValue
 if
 (
 aNewValue
-=
-=
-true
 )
 Preferences
 .

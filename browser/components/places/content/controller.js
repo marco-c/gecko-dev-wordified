@@ -2098,12 +2098,10 @@ null
 isPaste
 |
 |
+!
 ip
 .
 isTag
-!
-=
-true
 )
 ;
 }

@@ -215,12 +215,10 @@ waitForCondition
 >
 {
 return
+!
 reloadButton
 .
 disabled
-=
-=
-false
 ;
 }
 )

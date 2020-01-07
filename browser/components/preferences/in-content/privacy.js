@@ -7374,12 +7374,10 @@ button
 .
 disabled
 =
+!
 preference
 .
 value
-!
-=
-true
 ;
 return
 undefined

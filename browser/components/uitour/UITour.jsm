@@ -1374,12 +1374,10 @@ if
 node
 &
 &
+!
 node
 .
 hidden
-=
-=
-false
 )
 {
 return
@@ -1811,12 +1809,10 @@ if
 node
 &
 &
+!
 node
 .
 hidden
-=
-=
-false
 )
 {
 return

@@ -1775,12 +1775,10 @@ noMstoneChange
 undefined
 |
 |
+!
 testCase
 .
 noMstoneChange
-!
-=
-true
 )
 {
 let
