@@ -2566,7 +2566,7 @@ _report
 timestamp
 )
 .
-toTimeString
+toString
 (
 )
 ;
