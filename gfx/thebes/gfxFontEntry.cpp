@@ -11335,6 +11335,9 @@ data
 ;
 if
 (
+std
+:
+:
 isfinite
 (
 data
