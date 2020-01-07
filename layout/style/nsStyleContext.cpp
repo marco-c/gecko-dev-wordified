@@ -214,13 +214,6 @@ h
 #
 include
 "
-nsIStyleRule
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
