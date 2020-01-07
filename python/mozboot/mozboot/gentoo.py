@@ -148,7 +148,7 @@ git
 mercurial
 '
 '
-node
+nodejs
 '
 ]
 )
