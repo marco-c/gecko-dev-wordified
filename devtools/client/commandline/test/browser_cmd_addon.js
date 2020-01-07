@@ -209,9 +209,6 @@ Web
 Compat
 /
 /
-FlyWeb
-/
-/
 Pocket
 /
 /
