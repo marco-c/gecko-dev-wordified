@@ -234,6 +234,7 @@ off
 )
 private
 static
+final
 Map
 <
 Restrictable
@@ -389,6 +390,7 @@ UI
 /
 private
 static
+final
 List
 <
 Restrictable

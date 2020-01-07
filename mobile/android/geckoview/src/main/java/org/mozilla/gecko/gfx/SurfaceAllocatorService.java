@@ -146,8 +146,9 @@ SurfaceAllocatorService
 extends
 Service
 {
-static
 private
+static
+final
 String
 LOGTAG
 =

@@ -277,6 +277,7 @@ OnItemLongClickListener
 {
 public
 static
+final
 String
 LOGTAG
 =

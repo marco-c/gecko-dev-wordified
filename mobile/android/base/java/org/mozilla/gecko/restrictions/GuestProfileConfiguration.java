@@ -138,6 +138,7 @@ implements
 RestrictionConfiguration
 {
 static
+final
 List
 <
 Restrictable

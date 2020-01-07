@@ -170,6 +170,7 @@ GeckoSurface
 ;
 private
 static
+final
 HashMap
 <
 Integer

@@ -578,6 +578,7 @@ cec278b6b50a
 ;
 private
 static
+final
 MmaInterface
 mmaHelper
 =
