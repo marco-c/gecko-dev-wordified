@@ -2697,7 +2697,7 @@ GetChildProcessManager
 )
 )
 {
-nsIContentProcessMessageManager
+ProcessGlobal
 *
 pg
 =
@@ -2718,7 +2718,10 @@ mozilla
 :
 TraceScriptHolder
 (
+ToSupports
+(
 pg
+)
 aTrc
 )
 ;
