@@ -10499,7 +10499,7 @@ downloadable_fonts
 .
 keep_variation_tables
 "
-true
+false
 )
 ;
 #
@@ -35602,7 +35602,7 @@ variations
 .
 enabled
 "
-true
+false
 )
 ;
 /
