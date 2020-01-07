@@ -580,6 +580,11 @@ FileAvoidWrite
 args
 .
 output_file
+mode
+=
+'
+rb
+'
 )
 as
 output
