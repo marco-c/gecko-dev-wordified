@@ -7372,6 +7372,7 @@ l10n
 formatValues
 (
 [
+[
 "
 containers
 -
@@ -7381,6 +7382,8 @@ alert
 -
 title
 "
+]
+[
 "
 containers
 -
@@ -7390,6 +7393,13 @@ alert
 -
 desc
 "
+{
+tabCount
+:
+count
+}
+]
+[
 "
 containers
 -
@@ -7401,6 +7411,13 @@ ok
 -
 button
 "
+{
+tabCount
+:
+count
+}
+]
+[
 "
 containers
 -
@@ -7413,11 +7430,7 @@ cancel
 button
 "
 ]
-{
-tabCount
-:
-count
-}
+]
 )
 ;
 let
