@@ -246,6 +246,23 @@ format
 format_kwargs
 )
             
+emails
+=
+[
+email
+.
+format
+(
+*
+*
+format_kwargs
+)
+for
+email
+in
+emails
+]
+            
 #
 Don
 '
