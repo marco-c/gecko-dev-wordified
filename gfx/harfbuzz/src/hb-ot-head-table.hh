@@ -401,7 +401,7 @@ manufacturer
 .
 *
 /
-ULONG
+UINT32
 checkSumAdjustment
 ;
 /
@@ -419,7 +419,7 @@ the
 entire
 font
 as
-ULONG
+UINT32
 then
 store
 *
@@ -429,7 +429,7 @@ sum
 .
 *
 /
-ULONG
+UINT32
 magicNumber
 ;
 /
@@ -440,7 +440,7 @@ to
 .
 *
 /
-USHORT
+UINT16
 flags
 ;
 /
@@ -866,7 +866,7 @@ to
 .
 *
 /
-USHORT
+UINT16
 unitsPerEm
 ;
 /
@@ -944,7 +944,7 @@ bit
 integer
 *
 /
-SHORT
+INT16
 xMin
 ;
 /
@@ -957,7 +957,7 @@ boxes
 .
 *
 /
-SHORT
+INT16
 yMin
 ;
 /
@@ -970,7 +970,7 @@ boxes
 .
 *
 /
-SHORT
+INT16
 xMax
 ;
 /
@@ -983,7 +983,7 @@ boxes
 .
 *
 /
-SHORT
+INT16
 yMax
 ;
 /
@@ -996,7 +996,7 @@ boxes
 .
 *
 /
-USHORT
+UINT16
 macStyle
 ;
 /
@@ -1093,7 +1093,7 @@ to
 .
 *
 /
-USHORT
+UINT16
 lowestRecPPEM
 ;
 /
@@ -1106,7 +1106,7 @@ pixels
 .
 *
 /
-SHORT
+INT16
 fontDirectionHint
 ;
 /
@@ -1171,7 +1171,7 @@ neutrals
 /
 public
 :
-SHORT
+INT16
 indexToLocFormat
 ;
 /
@@ -1186,7 +1186,7 @@ long
 .
 *
 /
-SHORT
+INT16
 glyphDataFormat
 ;
 /

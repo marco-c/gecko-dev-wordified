@@ -1080,6 +1080,10 @@ x_offset
 base_extents
 .
 x_bearing
++
+base_extents
+.
+width
 -
 mark_extents
 .
@@ -1116,10 +1120,6 @@ x_offset
 base_extents
 .
 x_bearing
-+
-base_extents
-.
-width
 -
 mark_extents
 .

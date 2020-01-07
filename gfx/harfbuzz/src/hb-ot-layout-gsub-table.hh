@@ -310,7 +310,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /
@@ -429,7 +429,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /
@@ -775,7 +775,7 @@ c
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -811,7 +811,7 @@ Substitution
 table
 *
 /
-SHORT
+INT16
 deltaGlyphID
 ;
 /
@@ -923,7 +923,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /
@@ -1053,7 +1053,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /
@@ -1397,7 +1397,7 @@ c
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -1775,7 +1775,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -2003,7 +2003,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /
@@ -2334,7 +2334,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /
@@ -2785,7 +2785,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -3056,7 +3056,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -3181,7 +3181,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /
@@ -3349,7 +3349,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /
@@ -3889,7 +3889,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -4160,7 +4160,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -5289,7 +5289,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /
@@ -5419,7 +5419,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /
@@ -5861,7 +5861,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -6156,7 +6156,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -6425,7 +6425,7 @@ github
 .
 com
 /
-behdad
+harfbuzz
 /
 harfbuzz
 /
@@ -6859,7 +6859,7 @@ backtrack
 .
 len
 (
-USHORT
+UINT16
 *
 )
 backtrack
@@ -6879,7 +6879,7 @@ lookahead
 .
 len
 (
-USHORT
+UINT16
 *
 )
 lookahead
@@ -7078,7 +7078,7 @@ c
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -7288,7 +7288,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -7546,7 +7546,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 sub_format
 ;
 SingleSubst
@@ -8426,6 +8426,15 @@ have
 the
 same
 type
+which
+shall
+not
+be
+the
+Extension
+type
+*
+itself
 .
 This
 is
@@ -8434,7 +8443,6 @@ important
 if
 one
 has
-*
 a
 reverse
 type
@@ -8456,6 +8464,24 @@ extension
 .
 get_type
 (
+)
+;
+if
+(
+unlikely
+(
+type
+=
+=
+SubstLookupSubTable
+:
+:
+Extension
+)
+)
+return_trace
+(
+false
 )
 ;
 unsigned

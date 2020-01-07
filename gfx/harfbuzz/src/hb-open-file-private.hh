@@ -335,7 +335,7 @@ table
 .
 *
 /
-ULONG
+UINT32
 offset
 ;
 /
@@ -351,7 +351,7 @@ file
 .
 *
 /
-ULONG
+UINT32
 length
 ;
 /
@@ -865,7 +865,7 @@ LOffsetTo
 <
 OffsetTable
 >
-ULONG
+UINT32
 >
 table
 ;

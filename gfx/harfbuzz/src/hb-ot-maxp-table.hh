@@ -379,7 +379,7 @@ or
 .
 *
 /
-USHORT
+UINT16
 numGlyphs
 ;
 /

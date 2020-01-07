@@ -406,7 +406,7 @@ st
 char
 str
 [
-0
+VAR
 ]
 ;
 }

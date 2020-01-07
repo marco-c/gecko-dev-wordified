@@ -259,7 +259,7 @@ Table
 typedef
 ArrayOf
 <
-USHORT
+UINT16
 >
 AttachPoint
 ;
@@ -369,7 +369,7 @@ point_count
 )
 {
 const
-USHORT
+UINT16
 *
 array
 =
@@ -591,7 +591,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 caretValueFormat
 ;
 /
@@ -605,7 +605,7 @@ format
 1
 *
 /
-SHORT
+INT16
 coordinate
 ;
 /
@@ -715,7 +715,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 caretValueFormat
 ;
 /
@@ -729,7 +729,7 @@ format
 2
 *
 /
-USHORT
+UINT16
 caretValuePoint
 ;
 /
@@ -858,7 +858,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 caretValueFormat
 ;
 /
@@ -872,7 +872,7 @@ format
 3
 *
 /
-SHORT
+INT16
 coordinate
 ;
 /
@@ -1099,7 +1099,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -1575,7 +1575,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -1732,7 +1732,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /

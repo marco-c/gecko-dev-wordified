@@ -359,7 +359,7 @@ base
 }
 protected
 :
-SHORT
+INT16
 value
 ;
 /
@@ -768,13 +768,13 @@ return
 }
 protected
 :
-SHORT
+INT16
 percentScaleDown
 [
 2
 ]
 ;
-USHORT
+UINT16
 minHeight
 [
 2
@@ -786,7 +786,7 @@ mathValueRecords
 51
 ]
 ;
-SHORT
+INT16
 radicalDegreeBottomRaisePercent
 ;
 public
@@ -1450,7 +1450,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 heightCount
 ;
 MathValueRecord
@@ -2236,7 +2236,7 @@ variant
 .
 *
 /
-USHORT
+UINT16
 advanceMeasurement
 ;
 /
@@ -2275,7 +2275,7 @@ DEFINE_SIZE_STATIC
 struct
 PartFlags
 :
-USHORT
+UINT16
 {
 enum
 Flags
@@ -2466,7 +2466,7 @@ part
 .
 *
 /
-USHORT
+UINT16
 startConnectorLength
 ;
 /
@@ -2503,7 +2503,7 @@ extension
 .
 *
 /
-USHORT
+UINT16
 endConnectorLength
 ;
 /
@@ -2540,7 +2540,7 @@ extension
 .
 *
 /
-USHORT
+UINT16
 fullAdvance
 ;
 /
@@ -3463,7 +3463,7 @@ index
 }
 protected
 :
-USHORT
+UINT16
 minConnectorOverlap
 ;
 /
@@ -3532,7 +3532,7 @@ table
 .
 *
 /
-USHORT
+UINT16
 vertGlyphCount
 ;
 /
@@ -3554,7 +3554,7 @@ variants
 .
 *
 /
-USHORT
+UINT16
 horizGlyphCount
 ;
 /

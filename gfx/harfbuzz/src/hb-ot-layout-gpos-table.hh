@@ -370,7 +370,7 @@ MarkArray
 *
 /
 typedef
-USHORT
+UINT16
 Value
 ;
 typedef
@@ -383,7 +383,7 @@ VAR
 struct
 ValueFormat
 :
-USHORT
+UINT16
 {
 enum
 Flags
@@ -548,7 +548,7 @@ pointer
 #
 if
 0
-SHORT
+INT16
 xPlacement
 ;
 /
@@ -565,7 +565,7 @@ design
 units
 *
 /
-SHORT
+INT16
 yPlacement
 ;
 /
@@ -582,7 +582,7 @@ design
 units
 *
 /
-SHORT
+INT16
 xAdvance
 ;
 /
@@ -607,7 +607,7 @@ writing
 )
 *
 /
-SHORT
+INT16
 yAdvance
 ;
 /
@@ -1447,7 +1447,7 @@ value
 static
 inline
 const
-SHORT
+INT16
 &
 get_short
 (
@@ -1461,7 +1461,7 @@ return
 *
 CastP
 <
-SHORT
+INT16
 >
 (
 value
@@ -1848,7 +1848,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -1862,7 +1862,7 @@ format
 1
 *
 /
-SHORT
+INT16
 xCoordinate
 ;
 /
@@ -1876,7 +1876,7 @@ design
 units
 *
 /
-SHORT
+INT16
 yCoordinate
 ;
 /
@@ -2044,7 +2044,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -2058,7 +2058,7 @@ format
 2
 *
 /
-SHORT
+INT16
 xCoordinate
 ;
 /
@@ -2072,7 +2072,7 @@ design
 units
 *
 /
-SHORT
+INT16
 yCoordinate
 ;
 /
@@ -2086,7 +2086,7 @@ design
 units
 *
 /
-USHORT
+UINT16
 anchorPoint
 ;
 /
@@ -2272,7 +2272,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -2286,7 +2286,7 @@ format
 3
 *
 /
-SHORT
+INT16
 xCoordinate
 ;
 /
@@ -2300,7 +2300,7 @@ design
 units
 *
 /
-SHORT
+INT16
 yCoordinate
 ;
 /
@@ -2575,7 +2575,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -2809,7 +2809,7 @@ true
 )
 ;
 }
-USHORT
+UINT16
 rows
 ;
 /
@@ -2907,7 +2907,7 @@ base
 }
 protected
 :
-USHORT
+UINT16
 klass
 ;
 /
@@ -3468,7 +3468,7 @@ values
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -3766,7 +3766,7 @@ valueCount
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -3817,7 +3817,7 @@ the
 ValueRecord
 *
 /
-USHORT
+UINT16
 valueCount
 ;
 /
@@ -3970,7 +3970,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -4110,7 +4110,7 @@ unsigned
 int
 record_size
 =
-USHORT
+UINT16
 :
 :
 static_size
@@ -4248,7 +4248,7 @@ unsigned
 int
 record_size
 =
-USHORT
+UINT16
 :
 :
 static_size
@@ -4574,7 +4574,7 @@ c
 check_array
 (
 arrayZ
-USHORT
+UINT16
 :
 :
 static_size
@@ -4681,7 +4681,7 @@ stride
 }
 protected
 :
-USHORT
+UINT16
 len
 ;
 /
@@ -4691,7 +4691,7 @@ of
 PairValueRecords
 *
 /
-USHORT
+UINT16
 arrayZ
 [
 VAR
@@ -5031,7 +5031,7 @@ closure
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -5758,7 +5758,7 @@ stride
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -5913,7 +5913,7 @@ the
 pair
 *
 /
-USHORT
+UINT16
 class1Count
 ;
 /
@@ -5931,7 +5931,7 @@ includes
 Class0
 *
 /
-USHORT
+UINT16
 class2Count
 ;
 /
@@ -6100,7 +6100,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -7077,7 +7077,7 @@ this
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -7242,7 +7242,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -7729,7 +7729,7 @@ classCount
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -7787,7 +7787,7 @@ MarkBasePos
 subtable
 *
 /
-USHORT
+UINT16
 classCount
 ;
 /
@@ -7952,7 +7952,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -8586,7 +8586,7 @@ classCount
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -8647,7 +8647,7 @@ MarkLigPos
 subtable
 *
 /
-USHORT
+UINT16
 classCount
 ;
 /
@@ -8811,7 +8811,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -9415,7 +9415,7 @@ classCount
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -9479,7 +9479,7 @@ MarkMarkPos
 subtable
 *
 /
-USHORT
+UINT16
 classCount
 ;
 /
@@ -9643,7 +9643,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 format
 ;
 /
@@ -9948,7 +9948,7 @@ protected
 :
 union
 {
-USHORT
+UINT16
 sub_format
 ;
 SinglePos

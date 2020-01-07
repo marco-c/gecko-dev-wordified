@@ -348,7 +348,7 @@ get_width
 )
 ;
 const
-BYTE
+UINT8
 *
 p
 =
@@ -487,7 +487,7 @@ format
 }
 protected
 :
-USHORT
+UINT16
 format
 ;
 /
@@ -509,7 +509,7 @@ indices
 .
 *
 /
-USHORT
+UINT16
 mapCount
 ;
 /
@@ -522,7 +522,7 @@ entries
 .
 *
 /
-BYTE
+UINT8
 mapData
 [
 VAR

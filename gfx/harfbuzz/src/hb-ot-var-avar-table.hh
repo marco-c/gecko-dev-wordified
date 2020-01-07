@@ -851,7 +851,7 @@ to
 0x00010000u
 *
 /
-USHORT
+UINT16
 reserved
 ;
 /
@@ -868,7 +868,7 @@ to
 .
 *
 /
-USHORT
+UINT16
 axisCount
 ;
 /

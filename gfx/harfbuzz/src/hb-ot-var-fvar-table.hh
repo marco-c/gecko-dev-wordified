@@ -265,7 +265,7 @@ axis_count
 }
 protected
 :
-USHORT
+UINT16
 subfamilyNameID
 ;
 /
@@ -292,7 +292,7 @@ instance
 .
 *
 /
-USHORT
+UINT16
 reserved
 ;
 /
@@ -326,7 +326,7 @@ instance
 /
 /
 /
-USHORT
+UINT16
 postScriptNameIDX
 ;
 /
@@ -463,7 +463,7 @@ axis
 .
 *
 /
-USHORT
+UINT16
 reserved
 ;
 /
@@ -478,7 +478,7 @@ to
 .
 *
 /
-USHORT
+UINT16
 axisNameID
 ;
 /
@@ -1228,9 +1228,7 @@ to
 0x00010000u
 *
 /
-Offset
-<
->
+Offset16
 things
 ;
 /
@@ -1255,7 +1253,7 @@ array
 .
 *
 /
-USHORT
+UINT16
 reserved
 ;
 /
@@ -1272,7 +1270,7 @@ to
 .
 *
 /
-USHORT
+UINT16
 axisCount
 ;
 /
@@ -1299,7 +1297,7 @@ array
 .
 *
 /
-USHORT
+UINT16
 axisSize
 ;
 /
@@ -1324,7 +1322,7 @@ version
 .
 *
 /
-USHORT
+UINT16
 instanceCount
 ;
 /
@@ -1352,7 +1350,7 @@ array
 .
 *
 /
-USHORT
+UINT16
 instanceSize
 ;
 /

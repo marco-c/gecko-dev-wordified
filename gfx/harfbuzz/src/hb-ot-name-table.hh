@@ -452,7 +452,7 @@ offset
 )
 ;
 }
-USHORT
+UINT16
 platformID
 ;
 /
@@ -462,7 +462,7 @@ ID
 .
 *
 /
-USHORT
+UINT16
 encodingID
 ;
 /
@@ -475,7 +475,7 @@ ID
 .
 *
 /
-USHORT
+UINT16
 languageID
 ;
 /
@@ -485,7 +485,7 @@ ID
 .
 *
 /
-USHORT
+UINT16
 nameID
 ;
 /
@@ -495,7 +495,7 @@ ID
 .
 *
 /
-USHORT
+UINT16
 length
 ;
 /
@@ -509,7 +509,7 @@ bytes
 .
 *
 /
-USHORT
+UINT16
 offset
 ;
 /
@@ -858,7 +858,7 @@ now
 .
 *
 /
-USHORT
+UINT16
 format
 ;
 /
@@ -874,7 +874,7 @@ selector
 .
 *
 /
-USHORT
+UINT16
 count
 ;
 /
@@ -886,9 +886,7 @@ records
 .
 *
 /
-Offset
-<
->
+Offset16
 stringOffset
 ;
 /
