@@ -74796,7 +74796,7 @@ scrollableRect
 scrollableParent
 -
 >
-GetVisualOverflowRect
+GetVisualOverflowRectRelativeToSelf
 (
 )
 ;
