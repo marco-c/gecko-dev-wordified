@@ -309,6 +309,7 @@ browser
 let
 findbar
 =
+await
 gBrowser
 .
 getFindBar
@@ -490,6 +491,7 @@ browser
 let
 findbar
 =
+await
 gBrowser
 .
 getFindBar
@@ -710,6 +712,7 @@ browser
 let
 findbar
 =
+await
 gBrowser
 .
 getFindBar
@@ -838,6 +841,7 @@ browser
 let
 findbar
 =
+await
 gBrowser
 .
 getFindBar
@@ -1093,6 +1097,7 @@ browser
 let
 findbar
 =
+await
 gBrowser
 .
 getFindBar
@@ -1374,6 +1379,7 @@ browser
 let
 findbar
 =
+await
 gBrowser
 .
 getFindBar
@@ -1488,6 +1494,7 @@ linkedBrowser
 let
 findbar
 =
+await
 gBrowser
 .
 getFindBar
@@ -1645,6 +1652,7 @@ browser
 let
 findbar
 =
+await
 gBrowser
 .
 getFindBar
@@ -1865,6 +1873,7 @@ browser
 let
 findbar
 =
+await
 gBrowser
 .
 getFindBar
@@ -2062,6 +2071,7 @@ browser
 let
 findbar
 =
+await
 gBrowser
 .
 getFindBar
