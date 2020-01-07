@@ -8524,9 +8524,9 @@ if
 sendFocusEvent
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 oldFocusedContent
 =
@@ -10563,9 +10563,9 @@ which
 may
 be
 null
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 content
 =
