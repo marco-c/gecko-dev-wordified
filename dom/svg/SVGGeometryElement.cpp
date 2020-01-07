@@ -606,7 +606,7 @@ GetOrBuildPath
 (
 const
 DrawTarget
-&
+*
 aDrawTarget
 FillRule
 aFillRule
@@ -633,7 +633,8 @@ bool
 cacheable
 =
 aDrawTarget
-.
+-
+>
 GetBackendType
 (
 )
@@ -734,7 +735,8 @@ aFillRule
 &
 &
 aDrawTarget
-.
+-
+>
 GetBackendType
 (
 )
@@ -772,7 +774,8 @@ PathBuilder
 builder
 =
 aDrawTarget
-.
+-
+>
 CreatePathBuilder
 (
 aFillRule

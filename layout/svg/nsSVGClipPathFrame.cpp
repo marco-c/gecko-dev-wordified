@@ -365,11 +365,11 @@ GetClipMask
 "
 )
 ;
+const
 DrawTarget
-&
-aDrawTarget
-=
 *
+drawTarget
+=
 aContext
 .
 GetDrawTarget
@@ -548,7 +548,7 @@ pathElement
 >
 GetOrBuildPath
 (
-aDrawTarget
+drawTarget
 clipRule
 )
 ;
