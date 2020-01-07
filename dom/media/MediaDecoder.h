@@ -3119,7 +3119,6 @@ main
 thread
 only
 .
-virtual
 void
 NotifyPrincipalChanged
 (
