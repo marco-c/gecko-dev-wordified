@@ -212,15 +212,6 @@ include
 "
 mozilla
 /
-AddonPathService
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingUtils
@@ -2994,7 +2985,7 @@ actual
 JSContext
 to
 do
-GetScopeForXBLExecution
+GetXBLScopeOrGlobal
 and
 it
 needs
@@ -3067,15 +3058,6 @@ is
 pending
 !
 "
-)
-;
-JSAddonId
-*
-addonId
-=
-MapURIToAddonID
-(
-aBindingDocURI
 )
 ;
 /
@@ -3191,7 +3173,7 @@ cx
 xpc
 :
 :
-GetScopeForXBLExecution
+GetXBLScopeOrGlobal
 (
 jsapi
 .
@@ -3199,7 +3181,6 @@ cx
 (
 )
 aBoundNode
-addonId
 )
 )
 ;
