@@ -199,7 +199,7 @@ lock
 js
 :
 :
-ExclusiveAccessLockOrGCTaskData
+GCLockData
 <
 Vector
 <
@@ -323,6 +323,10 @@ registerArena
 Arena
 *
 arena
+const
+AutoLockGC
+&
+lock
 )
 ;
 /
@@ -346,6 +350,10 @@ unregisterArena
 Arena
 *
 arena
+const
+AutoLockGC
+&
+lock
 )
 ;
 /

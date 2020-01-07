@@ -4060,6 +4060,7 @@ init
 (
 zone
 thingKind
+lock
 )
 ;
 updateChunkListAfterAlloc
