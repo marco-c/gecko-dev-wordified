@@ -7109,7 +7109,7 @@ return
 NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 ;
 }
-NS_IMETHODIMP
+void
 nsComputedDOMStyle
 :
 :
@@ -7129,9 +7129,6 @@ aReturn
 Truncate
 (
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

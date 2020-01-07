@@ -1176,7 +1176,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsCSSFontFaceStyleDecl
 :
 :
@@ -1206,9 +1206,6 @@ aResult
 Truncate
 (
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
