@@ -1780,6 +1780,9 @@ act
 >
 startWasmTrap
 (
+js
+:
+:
 wasm
 :
 :
