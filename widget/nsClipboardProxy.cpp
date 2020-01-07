@@ -495,7 +495,9 @@ rv
 rv
 )
 ;
+const
 nsString
+&
 data
 =
 item
@@ -593,7 +595,9 @@ into
 an
 nsIInputStream
 .
+const
 nsCString
+&
 flavor
 =
 item
