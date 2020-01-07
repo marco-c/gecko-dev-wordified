@@ -4055,6 +4055,7 @@ pos
 .
 begin
 errorNumber
+&
 args
 )
 ;
@@ -4101,6 +4102,7 @@ reportExtraWarningErrorNumberVA
 nullptr
 offset
 errorNumber
+&
 args
 )
 ;
@@ -4160,6 +4162,7 @@ strict
 (
 )
 errorNumber
+&
 args
 )
 ;
@@ -4217,6 +4220,7 @@ strict
 (
 )
 errorNumber
+&
 args
 )
 ;
@@ -4348,6 +4352,7 @@ TokenStream
 :
 NoOffset
 errorNumber
+&
 args
 )
 ;
@@ -4369,6 +4374,7 @@ TokenStream
 NoOffset
 strict
 errorNumber
+&
 args
 )
 ;
