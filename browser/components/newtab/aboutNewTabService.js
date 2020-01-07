@@ -341,6 +341,7 @@ lo
 lt
 ltg
 lv
+mai
 mk
 ml
 mr
