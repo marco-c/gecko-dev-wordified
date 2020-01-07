@@ -3225,6 +3225,9 @@ mFontSmoothingBackgroundColor
 mStyle
 .
 useGrayscaleAntialiasing
+IsSyntheticBold
+(
+)
 )
 ;
 if
