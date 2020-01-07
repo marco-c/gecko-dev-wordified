@@ -2090,9 +2090,6 @@ trampolineCode_
 linker
 .
 newCode
-<
-NoGC
->
 (
 cx
 CodeKind

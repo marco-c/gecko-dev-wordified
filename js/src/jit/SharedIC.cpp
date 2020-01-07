@@ -3349,9 +3349,6 @@ cx
 linker
 .
 newCode
-<
-CanGC
->
 (
 cx
 CodeKind
@@ -17765,9 +17762,6 @@ return
 linker
 .
 newCode
-<
-CanGC
->
 (
 cx
 CodeKind

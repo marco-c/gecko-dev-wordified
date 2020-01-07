@@ -14555,9 +14555,6 @@ code
 linker
 .
 newCode
-<
-CanGC
->
 (
 cx
 CodeKind
@@ -15488,9 +15485,6 @@ code
 linker
 .
 newCode
-<
-CanGC
->
 (
 cx
 CodeKind
@@ -16335,9 +16329,6 @@ code
 linker
 .
 newCode
-<
-CanGC
->
 (
 cx
 CodeKind
@@ -57964,9 +57955,6 @@ code
 linker
 .
 newCode
-<
-CanGC
->
 (
 cx
 CodeKind
@@ -71373,6 +71361,7 @@ Linker
 linker
 (
 masm
+nogc
 )
 ;
 AutoFlushICache
@@ -71390,9 +71379,6 @@ code
 linker
 .
 newCode
-<
-NoGC
->
 (
 cx
 CodeKind

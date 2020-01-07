@@ -360,9 +360,6 @@ code
 linker
 .
 newCode
-<
-CanGC
->
 (
 cx
 CodeKind

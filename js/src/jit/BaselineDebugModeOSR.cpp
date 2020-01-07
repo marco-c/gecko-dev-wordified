@@ -7946,9 +7946,6 @@ code
 linker
 .
 newCode
-<
-NoGC
->
 (
 cx
 CodeKind

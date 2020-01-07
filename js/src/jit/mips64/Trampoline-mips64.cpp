@@ -7014,9 +7014,6 @@ codeDbg
 linker
 .
 newCode
-<
-NoGC
->
 (
 cx
 CodeKind

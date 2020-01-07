@@ -1035,9 +1035,6 @@ return
 l
 .
 newCode
-<
-CanGC
->
 (
 cx
 CodeKind
