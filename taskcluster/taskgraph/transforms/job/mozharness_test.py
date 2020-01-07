@@ -517,6 +517,22 @@ Coverage
 '
     
 '
+windows10
+-
+64
+-
+qr
+'
+:
+'
+Windows
+10
+64
+-
+bit
+'
+    
+'
 windows7
 -
 32
