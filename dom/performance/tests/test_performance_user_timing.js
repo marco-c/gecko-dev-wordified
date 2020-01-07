@@ -2790,6 +2790,9 @@ unloadEventEnd
 "
 loadEventEnd
 "
+"
+secureConnectionStart
+"
 ]
 .
 indexOf

@@ -1807,6 +1807,9 @@ check
 bool
 mReportCrossOriginRedirect
 ;
+bool
+mSecureConnection
+;
 }
 ;
 }
