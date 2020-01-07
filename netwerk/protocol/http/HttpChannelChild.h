@@ -535,6 +535,12 @@ newURI
 override
 ;
 NS_IMETHOD
+UpgradeToSecure
+(
+)
+override
+;
+NS_IMETHOD
 GetProtocolVersion
 (
 nsACString

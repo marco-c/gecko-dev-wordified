@@ -782,6 +782,14 @@ ErrorResult
 aRv
 )
 ;
+void
+UpgradeToSecure
+(
+ErrorResult
+&
+aRv
+)
+;
 bool
 Suspended
 (
