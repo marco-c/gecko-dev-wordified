@@ -461,6 +461,11 @@ nurseryExists
 (
 )
 ;
+bool
+canNurseryAllocateStrings
+(
+)
+;
 void
 setMinorGCShouldCancelIonCompilations
 (

@@ -476,7 +476,9 @@ const
 size_t
 ChunkStoreBufferOffset
 =
-ChunkLocationOffset
+ChunkSize
+-
+ChunkTrailerSize
 +
 sizeof
 (
