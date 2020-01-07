@@ -8470,6 +8470,12 @@ frame
 .
 mFilename
 ;
+event
+.
+mPrefix
+=
+mPrefix
+;
 nsCOMPtr
 <
 nsIURI
@@ -14278,7 +14284,7 @@ AppendLiteral
 if
 (
 !
-mDumpPrefix
+mPrefix
 .
 IsEmpty
 (
@@ -14289,7 +14295,7 @@ message
 .
 Append
 (
-mDumpPrefix
+mPrefix
 )
 ;
 message
@@ -14483,7 +14489,7 @@ n
 if
 (
 !
-mDumpPrefix
+mPrefix
 .
 IsEmpty
 (
@@ -14494,7 +14500,7 @@ message
 .
 Append
 (
-mDumpPrefix
+mPrefix
 )
 ;
 message
