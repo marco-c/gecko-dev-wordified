@@ -127,8 +127,8 @@ box_
 :
 {
 AnimationName
+Display
 OverflowClipBox
-OverscrollBehavior
 }
 ;
 pub
@@ -143,6 +143,7 @@ box_
 :
 :
 {
+OverscrollBehavior
 ScrollSnapType
 TouchAction
 WillChange
