@@ -73,10 +73,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 /
 /
 NOTE
@@ -371,6 +367,11 @@ has_embedded_webextension_persisted
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 const
 ID
 =

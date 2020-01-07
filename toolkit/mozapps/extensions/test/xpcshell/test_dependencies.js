@@ -67,10 +67,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 const
 BOOTSTRAP
 =
@@ -305,6 +301,11 @@ setup
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 let
 startupObserver
 =

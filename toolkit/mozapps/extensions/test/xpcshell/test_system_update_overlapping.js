@@ -1069,8 +1069,7 @@ setup
 Initialise
 the
 profile
-awaitPromise
-(
+await
 overrideBuiltIns
 (
 {
@@ -1081,7 +1080,6 @@ system
 [
 ]
 }
-)
 )
 ;
 await

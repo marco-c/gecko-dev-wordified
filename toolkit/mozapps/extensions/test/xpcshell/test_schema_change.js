@@ -82,10 +82,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 /
 *
 *
@@ -109,6 +105,11 @@ schema_change
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 const
 ID
 =

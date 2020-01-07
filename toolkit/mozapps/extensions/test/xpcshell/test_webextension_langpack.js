@@ -152,10 +152,6 @@ XPCShell
 "
 )
 ;
-startupManager
-(
-)
-;
 function
 promiseLangpackStartup
 (
@@ -251,6 +247,11 @@ function
 (
 )
 {
+await
+promiseStartupManager
+(
+)
+;
 /
 /
 Make
