@@ -1355,7 +1355,7 @@ s
 server_config
 [
 "
-host
+browser_host
 "
 ]
 port
