@@ -427,6 +427,9 @@ ArrayLength
 void
 AppendString
 (
+JSContext
+*
+cx
 mozilla
 :
 :
@@ -709,6 +712,9 @@ AP
 void
 AppendString
 (
+JSContext
+*
+cx
 mozilla
 :
 :
@@ -765,6 +771,9 @@ AP
 void
 AppendString
 (
+JSContext
+*
+cx
 mozilla
 :
 :
@@ -795,7 +804,7 @@ str
 >
 ensureLinear
 (
-nullptr
+cx
 )
 ;
 if
@@ -884,6 +893,9 @@ AP
 void
 AppendString
 (
+JSContext
+*
+cx
 mozilla
 :
 :
@@ -947,7 +959,7 @@ str
 >
 ensureLinear
 (
-nullptr
+cx
 )
 ;
 if
@@ -1078,6 +1090,9 @@ ArrayLength
 void
 PrependString
 (
+JSContext
+*
+cx
 mozilla
 :
 :
@@ -1225,6 +1240,9 @@ AP
 void
 PrependString
 (
+JSContext
+*
+cx
 mozilla
 :
 :
@@ -1288,7 +1306,7 @@ str
 >
 ensureLinear
 (
-nullptr
+cx
 )
 ;
 if
@@ -3991,6 +4009,9 @@ obj
 void
 BuildSymbolName
 (
+JSContext
+*
+cx
 JSString
 *
 name
