@@ -1080,6 +1080,11 @@ WakeSceneBuilder
 (
 )
 ;
+void
+FlushSceneBuilder
+(
+)
+;
 wr
 :
 :

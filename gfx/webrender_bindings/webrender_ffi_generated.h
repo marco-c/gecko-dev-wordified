@@ -4729,6 +4729,16 @@ aDlData
 WR_FUNC
 ;
 WR_INLINE
+void
+wr_api_flush_scene_builder
+(
+DocumentHandle
+*
+aDh
+)
+WR_FUNC
+;
+WR_INLINE
 WrIdNamespace
 wr_api_get_namespace
 (
