@@ -1409,7 +1409,7 @@ needs
 to
 be
 painted
-nsIntRegion
+LayoutDeviceIntRegion
 nsWindow
 :
 :
@@ -1441,7 +1441,7 @@ paintRect
 )
 ;
 return
-nsIntRegion
+LayoutDeviceIntRegion
 (
 WinUtils
 :
@@ -1525,7 +1525,7 @@ y
 )
 ;
 }
-nsIntRegion
+LayoutDeviceIntRegion
 rgn
 (
 WinUtils
@@ -1549,7 +1549,7 @@ rgn
 ;
 }
 return
-nsIntRegion
+LayoutDeviceIntRegion
 (
 WinUtils
 :
@@ -2531,7 +2531,7 @@ aDC
 ;
 #
 endif
-nsIntRegion
+LayoutDeviceIntRegion
 region
 =
 GetRegionToPaint
@@ -2603,6 +2603,10 @@ GetLayerManager
 SendInvalidRegion
 (
 region
+.
+ToUnknownRegion
+(
+)
 )
 ;
 }
@@ -2782,6 +2786,10 @@ debug_DumpPaintEvent
 stdout
 this
 region
+.
+ToUnknownRegion
+(
+)
 "
 noname
 "
@@ -3201,13 +3209,7 @@ listener
 PaintWindow
 (
 this
-LayoutDeviceIntRegion
-:
-:
-FromUnknownRegion
-(
 region
-)
 )
 ;
 }
@@ -3296,13 +3298,7 @@ listener
 PaintWindow
 (
 this
-LayoutDeviceIntRegion
-:
-:
-FromUnknownRegion
-(
 region
-)
 )
 ;
 if

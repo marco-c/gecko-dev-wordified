@@ -3068,7 +3068,7 @@ Windows
 HRGN
 to
 an
-nsIntRegion
+LayoutDeviceIntRegion
 .
 *
 *
@@ -3081,12 +3081,12 @@ convert
 *
 returns
 the
-nsIntRegion
+LayoutDeviceIntRegion
 .
 *
 /
 static
-nsIntRegion
+LayoutDeviceIntRegion
 ConvertHRGNToRegion
 (
 HRGN
@@ -3104,7 +3104,7 @@ Windows
 RECT
 to
 a
-nsIntRect
+LayoutDeviceIntRect
 .
 *
 *
@@ -3117,12 +3117,12 @@ convert
 *
 returns
 the
-nsIntRect
+LayoutDeviceIntRect
 .
 *
 /
 static
-nsIntRect
+LayoutDeviceIntRect
 ToIntRect
 (
 const
