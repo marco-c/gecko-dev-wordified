@@ -854,7 +854,7 @@ this
 .
 _dispatch
 .
-appy
+apply
 (
 this
 arguments
