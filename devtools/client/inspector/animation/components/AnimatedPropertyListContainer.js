@@ -190,6 +190,13 @@ PropTypes
 func
 .
 isRequired
+getComputedStyle
+:
+PropTypes
+.
+func
+.
+isRequired
 simulateAnimation
 :
 PropTypes
@@ -209,6 +216,7 @@ const
 animation
 emitEventForTest
 getAnimatedPropertyMap
+getComputedStyle
 simulateAnimation
 }
 =
@@ -248,6 +256,7 @@ AnimatedPropertyList
 animation
 emitEventForTest
 getAnimatedPropertyMap
+getComputedStyle
 simulateAnimation
 }
 )
