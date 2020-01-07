@@ -647,6 +647,10 @@ client
 .
 listTabs
 (
+)
+.
+then
+(
 tabList
 =
 >

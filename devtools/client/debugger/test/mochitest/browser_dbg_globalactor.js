@@ -183,6 +183,10 @@ gClient
 .
 listTabs
 (
+)
+.
+then
+(
 aResponse
 =
 >

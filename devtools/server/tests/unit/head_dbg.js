@@ -2460,6 +2460,10 @@ client
 .
 listTabs
 (
+)
+.
+then
+(
 function
 (
 response

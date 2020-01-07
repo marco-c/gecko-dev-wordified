@@ -123,6 +123,10 @@ gClient
 .
 listTabs
 (
+)
+.
+then
+(
 (
 response
 )

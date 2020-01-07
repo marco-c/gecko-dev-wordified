@@ -136,6 +136,10 @@ client
 .
 listTabs
 (
+)
+.
+then
+(
 function
 (
 resp

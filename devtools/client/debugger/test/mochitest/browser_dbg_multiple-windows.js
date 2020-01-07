@@ -346,6 +346,10 @@ gClient
 .
 listTabs
 (
+)
+.
+then
+(
 aResponse
 =
 >
@@ -533,6 +537,10 @@ then
 gClient
 .
 listTabs
+(
+)
+.
+then
 (
 aResponse
 =
@@ -758,6 +766,10 @@ gClient
 .
 listTabs
 (
+)
+.
+then
+(
 aResponse
 =
 >
@@ -869,6 +881,10 @@ gNewTab
 gClient
 .
 listTabs
+(
+)
+.
+then
 (
 aResponse
 =
