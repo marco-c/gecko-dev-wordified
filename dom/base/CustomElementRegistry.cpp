@@ -615,6 +615,13 @@ result
 )
 )
 {
+aRv
+.
+NoteJSContextException
+(
+cx
+)
+;
 return
 nullptr
 ;
