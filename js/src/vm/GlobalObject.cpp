@@ -500,7 +500,7 @@ called
 ;
 }
 static
-constexpr
+const
 ProtoTableEntry
 protoTable
 [

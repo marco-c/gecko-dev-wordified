@@ -265,17 +265,6 @@ numSlots
 ;
 public
 :
-constexpr
-BitArray
-(
-)
-:
-map
-(
-)
-{
-}
-;
 void
 clear
 (

@@ -860,11 +860,10 @@ real
 (
 Proxy
 InitProxyClass
-&
 js
 :
 :
-ProxyClass
+ProxyClassPtr
 )
 \
 real
