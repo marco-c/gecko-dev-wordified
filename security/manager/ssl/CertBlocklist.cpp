@@ -1131,7 +1131,7 @@ rv
 mBackingFile
 -
 >
-GetNativePath
+GetPersistentDescriptor
 (
 path
 )
