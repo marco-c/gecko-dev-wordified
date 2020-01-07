@@ -2813,9 +2813,6 @@ profileDurations_
 ProfileDurations
 totalDurations_
 ;
-uint64_t
-minorGcCount_
-;
 /
 *
 *
