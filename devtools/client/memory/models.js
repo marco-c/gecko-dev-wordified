@@ -2628,9 +2628,6 @@ snapshotId
 }
 )
 ;
-let
-viewModel
-=
 exports
 .
 view
@@ -3217,16 +3214,6 @@ function
 app
 )
 {
-viewModel
-.
-isRequired
-(
-app
-"
-view
-"
-)
-;
 catchAndIgnore
 (
 function
