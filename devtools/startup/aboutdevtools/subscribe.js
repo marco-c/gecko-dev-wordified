@@ -159,7 +159,7 @@ chrome
 /
 devtools
 -
-shim
+startup
 /
 locale
 /

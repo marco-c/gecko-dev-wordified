@@ -1116,7 +1116,7 @@ US
 "
 devtools
 /
-shim
+startup
 /
 locales
 "
