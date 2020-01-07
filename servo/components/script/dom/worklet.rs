@@ -1248,7 +1248,7 @@ WorkletId
 servo_rand
 :
 :
-random
+random_uuid
 (
 )
 )
