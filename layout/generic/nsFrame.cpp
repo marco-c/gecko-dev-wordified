@@ -17974,9 +17974,9 @@ visibleRect
 aBuilder
 -
 >
-MarkFrameModifiedDuringBuilding
+SetDisablePartialUpdates
 (
-this
+true
 )
 ;
 }
@@ -18051,9 +18051,9 @@ visibleRect
 aBuilder
 -
 >
-MarkFrameModifiedDuringBuilding
+SetDisablePartialUpdates
 (
-this
+true
 )
 ;
 }

@@ -20902,7 +20902,7 @@ APPEND_OVERLAY
 aBuilder
 -
 >
-SetBuiltOverlayScrollbars
+SetDisablePartialUpdates
 (
 true
 )

@@ -6875,7 +6875,7 @@ if
 (
 mBuilder
 .
-BuiltOverlayScrollbars
+DisablePartialUpdates
 (
 )
 )
@@ -6886,7 +6886,7 @@ false
 ;
 mBuilder
 .
-SetBuiltOverlayScrollbars
+SetDisablePartialUpdates
 (
 false
 )
