@@ -134,8 +134,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -294,8 +293,7 @@ database
 .
 *
 /
-this
-.
+var
 LoginImport
 =
 function

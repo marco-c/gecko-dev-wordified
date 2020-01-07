@@ -30,8 +30,7 @@ zero
 /
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -40,8 +39,7 @@ ConsoleTest
 "
 ]
 ;
-this
-.
+var
 ConsoleTest
 =
 {

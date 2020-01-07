@@ -96,8 +96,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -106,8 +105,7 @@ PhoneNumberNormalizer
 "
 ]
 ;
-this
-.
+var
 PhoneNumberNormalizer
 =
 (

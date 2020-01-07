@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -317,8 +316,7 @@ uri
 "
 ]
 ;
-this
-.
+var
 FxAccountsConfig
 =
 {

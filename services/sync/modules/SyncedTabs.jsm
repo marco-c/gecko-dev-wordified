@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1721,8 +1720,7 @@ The
 public
 interface
 .
-this
-.
+var
 SyncedTabs
 =
 {

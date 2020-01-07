@@ -82,8 +82,7 @@ use
 ownerGlobal
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -258,8 +257,7 @@ security
 *
 *
 /
-this
-.
+var
 InsecurePasswordUtils
 =
 {

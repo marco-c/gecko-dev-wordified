@@ -183,10 +183,6 @@ mark
 }
 ;
 }
-this
-.
-_PerfService
-=
 function
 _PerfService
 (
@@ -243,7 +239,6 @@ usablePerfObj
 ;
 }
 }
-;
 _PerfService
 .
 prototype
@@ -849,8 +844,7 @@ startTime
 }
 }
 ;
-this
-.
+var
 perfService
 =
 new
@@ -858,8 +852,7 @@ _PerfService
 (
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

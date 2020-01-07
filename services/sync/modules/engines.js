@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -445,10 +444,6 @@ sync
 *
 *
 /
-this
-.
-Tracker
-=
 function
 Tracker
 (
@@ -612,7 +607,6 @@ _log
 )
 ;
 }
-;
 Tracker
 .
 prototype
@@ -1810,10 +1804,6 @@ APIs
 .
 *
 /
-this
-.
-Store
-=
 function
 Store
 (
@@ -1928,7 +1918,6 @@ nsITimer
 )
 ;
 }
-;
 Store
 .
 prototype
@@ -2964,10 +2953,6 @@ subclass
 }
 }
 ;
-this
-.
-EngineManager
-=
 function
 EngineManager
 (
@@ -3103,7 +3088,6 @@ engine
 )
 ;
 }
-;
 EngineManager
 .
 prototype
@@ -3952,10 +3936,6 @@ finalize
 }
 }
 ;
-this
-.
-SyncEngine
-=
 function
 SyncEngine
 (
@@ -4683,7 +4663,6 @@ Map
 )
 ;
 }
-;
 /
 /
 Enumeration

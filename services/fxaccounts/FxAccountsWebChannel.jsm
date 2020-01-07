@@ -87,8 +87,7 @@ changes
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -3494,8 +3493,7 @@ sent
 multiple
 times
 .
-this
-.
+var
 EnsureFxAccountsWebChannel
 =
 (

@@ -106,8 +106,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -175,8 +174,7 @@ components
 .
 *
 /
-this
-.
+var
 LoginHelper
 =
 {

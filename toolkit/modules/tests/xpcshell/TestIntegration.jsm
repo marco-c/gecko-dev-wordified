@@ -51,8 +51,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -61,8 +60,7 @@ TestIntegration
 "
 ]
 ;
-this
-.
+var
 TestIntegration
 =
 {

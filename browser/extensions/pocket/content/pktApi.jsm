@@ -408,8 +408,7 @@ Components
 .
 manager
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

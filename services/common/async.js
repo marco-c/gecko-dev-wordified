@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -149,8 +148,7 @@ operations
 .
 *
 /
-this
-.
+var
 Async
 =
 {

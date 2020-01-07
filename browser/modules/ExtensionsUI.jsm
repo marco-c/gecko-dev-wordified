@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -334,8 +333,7 @@ org
 xhtml
 "
 ;
-this
-.
+var
 ExtensionsUI
 =
 {

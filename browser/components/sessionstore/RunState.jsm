@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -172,8 +171,7 @@ STATE_QUITTING
 .
 *
 /
-this
-.
+var
 RunState
 =
 Object

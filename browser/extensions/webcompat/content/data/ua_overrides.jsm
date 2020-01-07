@@ -466,8 +466,7 @@ Safari
 }
 ]
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

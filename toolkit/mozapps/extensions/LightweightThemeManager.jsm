@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -666,8 +665,7 @@ id
 (
 )
 ;
-this
-.
+var
 LightweightThemeManager
 =
 {

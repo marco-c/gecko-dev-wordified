@@ -852,8 +852,7 @@ components
 ;
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -862,8 +861,7 @@ XPCOMUtils
 "
 ]
 ;
-this
-.
+var
 XPCOMUtils
 =
 {

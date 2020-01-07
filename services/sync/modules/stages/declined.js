@@ -84,8 +84,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -189,8 +188,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 DeclinedEngines
 =
 function

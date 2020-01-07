@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -133,8 +132,7 @@ version
 2
 *
 /
-this
-.
+var
 Observers
 =
 {

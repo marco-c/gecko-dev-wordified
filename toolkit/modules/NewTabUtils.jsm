@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -12950,8 +12949,7 @@ JSM
 .
 *
 /
-this
-.
+var
 NewTabUtils
 =
 {

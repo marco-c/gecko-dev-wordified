@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -212,8 +211,7 @@ restore
 "
 ]
 ;
-this
-.
+var
 StartupPerformance
 =
 {

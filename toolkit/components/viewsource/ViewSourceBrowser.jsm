@@ -180,8 +180,7 @@ content
 js
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -320,10 +319,6 @@ time
 .
 *
 /
-this
-.
-ViewSourceBrowser
-=
 function
 ViewSourceBrowser
 (
@@ -343,7 +338,6 @@ init
 )
 ;
 }
-;
 ViewSourceBrowser
 .
 prototype

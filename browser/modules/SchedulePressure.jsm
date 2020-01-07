@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -180,8 +179,7 @@ machine
 .
 *
 /
-this
-.
+var
 SchedulePressure
 =
 {

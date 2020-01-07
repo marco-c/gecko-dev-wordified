@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -210,10 +209,6 @@ DERIVED_KEY_ALGO
 =
 CRYPT_ALGO
 ;
-this
-.
-WeaveCrypto
-=
 function
 WeaveCrypto
 (
@@ -226,7 +221,6 @@ init
 )
 ;
 }
-;
 WeaveCrypto
 .
 prototype

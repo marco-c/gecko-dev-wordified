@@ -17,8 +17,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -161,8 +160,7 @@ monitor
 this
 )
 ;
-this
-.
+var
 monitor
 =
 function

@@ -81,8 +81,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -305,8 +304,7 @@ objects
 .
 *
 /
-this
-.
+var
 Downloads
 =
 {

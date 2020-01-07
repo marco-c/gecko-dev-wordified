@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -420,10 +419,6 @@ prefer
 constructor
 *
 /
-this
-.
-SearchSuggestionController
-=
 function
 SearchSuggestionController
 (
@@ -439,7 +434,6 @@ _callback
 callback
 ;
 }
-;
 this
 .
 SearchSuggestionController

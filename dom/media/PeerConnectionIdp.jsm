@@ -67,8 +67,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2535,10 +2534,4 @@ p
 ;
 }
 }
-;
-this
-.
-PeerConnectionIdp
-=
-PeerConnectionIdp
 ;

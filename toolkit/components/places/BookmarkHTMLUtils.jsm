@@ -625,8 +625,7 @@ it
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1129,8 +1128,7 @@ html
 )
 ;
 }
-this
-.
+var
 BookmarkHTMLUtils
 =
 Object

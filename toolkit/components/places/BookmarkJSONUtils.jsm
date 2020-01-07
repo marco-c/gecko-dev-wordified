@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -394,8 +393,7 @@ g
 )
 ;
 }
-this
-.
+var
 BookmarkJSONUtils
 =
 Object

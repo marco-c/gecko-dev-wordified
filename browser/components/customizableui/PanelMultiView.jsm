@@ -724,8 +724,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -958,8 +957,7 @@ lazily
 .
 *
 /
-this
-.
+var
 AssociatedToNode
 =
 class
@@ -1779,8 +1777,7 @@ binding
 .
 *
 /
-this
-.
+var
 PanelMultiView
 =
 class
@@ -8685,8 +8682,7 @@ elements
 .
 *
 /
-this
-.
+var
 PanelView
 =
 class

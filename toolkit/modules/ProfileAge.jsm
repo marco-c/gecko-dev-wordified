@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -170,8 +169,7 @@ future
 .
 *
 /
-this
-.
+var
 ProfileAge
 =
 function

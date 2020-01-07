@@ -191,8 +191,7 @@ PREF_LOGLEVEL
 }
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -201,8 +200,7 @@ WindowsGPOParser
 "
 ]
 ;
-this
-.
+var
 WindowsGPOParser
 =
 {

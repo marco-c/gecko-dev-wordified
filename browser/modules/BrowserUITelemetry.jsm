@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1050,8 +1049,7 @@ BUCKET_SEPARATOR
 |
 "
 ;
-this
-.
+var
 BrowserUITelemetry
 =
 {

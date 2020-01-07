@@ -112,8 +112,7 @@ s
 {
 }
 }
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -195,10 +194,6 @@ UnknownError
 "
 ;
 }
-this
-.
-IndexedDBHelper
-=
 function
 IndexedDBHelper
 (

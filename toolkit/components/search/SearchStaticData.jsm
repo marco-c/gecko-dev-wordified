@@ -141,8 +141,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1146,8 +1145,7 @@ www
 d
 )
 ;
-this
-.
+var
 SearchStaticData
 =
 {

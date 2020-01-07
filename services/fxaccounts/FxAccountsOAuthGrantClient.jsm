@@ -89,8 +89,7 @@ privilage
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -314,8 +313,7 @@ server
 constructor
 *
 /
-this
-.
+var
 FxAccountsOAuthGrantClient
 =
 function
@@ -1238,8 +1236,7 @@ message
 constructor
 *
 /
-this
-.
+var
 FxAccountsOAuthGrantClientError
 =
 function

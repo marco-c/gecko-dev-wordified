@@ -28,8 +28,7 @@ zero
 /
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -38,8 +37,7 @@ CrashTestUtils
 "
 ]
 ;
-this
-.
+var
 CrashTestUtils
 =
 {

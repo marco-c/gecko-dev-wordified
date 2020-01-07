@@ -90,8 +90,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -352,8 +351,7 @@ nsIDOMWindowUtils
 FLUSH_DISPLAY
 }
 ;
-this
-.
+var
 BrowserUtils
 =
 {

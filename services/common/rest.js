@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -634,10 +633,6 @@ get
 ;
 *
 /
-this
-.
-RESTRequest
-=
 function
 RESTRequest
 (
@@ -763,7 +758,6 @@ request
 ]
 ;
 }
-;
 RESTRequest
 .
 prototype
@@ -4330,10 +4324,6 @@ RESTRequest
 .
 *
 /
-this
-.
-RESTResponse
-=
 function
 RESTResponse
 (
@@ -4381,7 +4371,6 @@ response
 ]
 ;
 }
-;
 RESTResponse
 .
 prototype
@@ -4904,10 +4893,6 @@ values
 .
 *
 /
-this
-.
-TokenAuthenticatedRESTRequest
-=
 function
 TokenAuthenticatedRESTRequest
 (
@@ -4941,7 +4926,6 @@ extra
 }
 ;
 }
-;
 TokenAuthenticatedRESTRequest
 .
 prototype

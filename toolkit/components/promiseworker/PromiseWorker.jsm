@@ -154,8 +154,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -696,8 +695,7 @@ ChromeWorker
 constructor
 *
 /
-this
-.
+var
 BasePromiseWorker
 =
 function

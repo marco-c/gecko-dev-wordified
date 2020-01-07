@@ -281,8 +281,7 @@ Push
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -435,8 +434,7 @@ delivery
 .
 *
 /
-this
-.
+var
 PushServiceAndroidGCM
 =
 {

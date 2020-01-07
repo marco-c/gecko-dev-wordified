@@ -121,8 +121,7 @@ XMLHttpRequest
 ]
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

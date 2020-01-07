@@ -346,8 +346,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1098,8 +1097,7 @@ Object
 }
 *
 /
-this
-.
+var
 GestureSettings
 =
 {
@@ -1300,8 +1298,7 @@ Object
 }
 *
 /
-this
-.
+var
 GestureTracker
 =
 {

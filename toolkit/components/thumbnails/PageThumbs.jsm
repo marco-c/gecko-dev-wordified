@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -621,8 +620,7 @@ cached
 .
 *
 /
-this
-.
+var
 PageThumbs
 =
 {
@@ -3342,8 +3340,7 @@ true
 }
 }
 ;
-this
-.
+var
 PageThumbsStorage
 =
 {

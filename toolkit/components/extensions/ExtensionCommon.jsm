@@ -150,8 +150,7 @@ exported
 ExtensionCommon
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

@@ -10900,8 +10900,7 @@ MessageContext
 =
 MessageContext
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

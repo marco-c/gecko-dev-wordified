@@ -240,8 +240,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2505,8 +2504,7 @@ WebPush
 .
 *
 /
-this
-.
+var
 PushServiceHttp2
 =
 {

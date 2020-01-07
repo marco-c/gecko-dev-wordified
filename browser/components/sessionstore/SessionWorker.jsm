@@ -116,8 +116,7 @@ jsm
 this
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -126,8 +125,7 @@ SessionWorker
 "
 ]
 ;
-this
-.
+var
 SessionWorker
 =
 new

@@ -106,8 +106,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1686,8 +1685,7 @@ embeddedExtension
 }
 }
 ;
-this
-.
+var
 LegacyExtensionsUtils
 =
 {

@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -237,8 +236,7 @@ docShell
 )
 ;
 }
-this
-.
+var
 SessionStorage
 =
 Object

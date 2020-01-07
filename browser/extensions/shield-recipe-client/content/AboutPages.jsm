@@ -187,8 +187,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -689,8 +688,7 @@ file
 .
 *
 /
-this
-.
+var
 AboutPages
 =
 {

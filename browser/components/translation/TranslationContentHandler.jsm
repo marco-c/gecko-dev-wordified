@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -148,8 +147,7 @@ STATE_ERROR
 =
 3
 ;
-this
-.
+var
 TranslationContentHandler
 =
 function

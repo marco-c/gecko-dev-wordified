@@ -128,8 +128,7 @@ exported
 extensionIdToCollectionId
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -958,8 +957,7 @@ operations
 will
 fail
 .
-this
-.
+var
 extensionStorageSync
 =
 null
@@ -9196,8 +9194,6 @@ ExtensionStorageSync
 =
 ExtensionStorageSync
 ;
-this
-.
 extensionStorageSync
 =
 new

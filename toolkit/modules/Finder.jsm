@@ -74,8 +74,7 @@ MPL
 0
 /
 .
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -3781,15 +3780,3 @@ return
 searchString
 ;
 }
-this
-.
-Finder
-=
-Finder
-;
-this
-.
-GetClipboardSearchString
-=
-GetClipboardSearchString
-;

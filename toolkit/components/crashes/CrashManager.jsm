@@ -223,8 +223,7 @@ jsm
 this
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -796,8 +795,7 @@ under
 .
 *
 /
-this
-.
+var
 CrashManager
 =
 function

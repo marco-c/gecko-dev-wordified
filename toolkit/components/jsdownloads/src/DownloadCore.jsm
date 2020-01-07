@@ -92,8 +92,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -788,8 +787,7 @@ sessions
 .
 *
 /
-this
-.
+var
 Download
 =
 function
@@ -8082,8 +8080,7 @@ URI
 .
 *
 /
-this
-.
+var
 DownloadSource
 =
 function
@@ -8915,8 +8912,7 @@ directory
 .
 *
 /
-this
-.
+var
 DownloadTarget
 =
 function
@@ -9933,8 +9929,7 @@ object
 .
 *
 /
-this
-.
+var
 DownloadError
 =
 function
@@ -10910,8 +10905,7 @@ download
 .
 *
 /
-this
-.
+var
 DownloadSaver
 =
 function
@@ -11826,8 +11820,7 @@ target
 .
 *
 /
-this
-.
+var
 DownloadCopySaver
 =
 function
@@ -14804,8 +14797,7 @@ object
 .
 *
 /
-this
-.
+var
 DownloadLegacySaver
 =
 function
@@ -17022,8 +17014,7 @@ succeeded
 .
 *
 /
-this
-.
+var
 DownloadPDFSaver
 =
 function

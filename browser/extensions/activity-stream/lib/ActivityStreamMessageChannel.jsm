@@ -205,8 +205,7 @@ ContentToMain
 "
 }
 ;
-this
-.
+var
 ActivityStreamMessageChannel
 =
 class
@@ -1831,8 +1830,7 @@ DEFAULT_OPTIONS
 =
 DEFAULT_OPTIONS
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

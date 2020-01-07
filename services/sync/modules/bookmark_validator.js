@@ -217,8 +217,7 @@ URLSearchParams
 ]
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

@@ -892,8 +892,7 @@ d
 *
 /
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -18763,8 +18762,7 @@ time
 .
 *
 /
-this
-.
+var
 AddonManagerPrivate
 =
 {
@@ -19697,8 +19695,7 @@ AddonManagerInternal
 class
 *
 /
-this
-.
+var
 AddonManager
 =
 {

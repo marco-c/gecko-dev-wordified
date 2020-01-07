@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -144,8 +143,7 @@ consuming
 .
 *
 /
-this
-.
+var
 TabStateCache
 =
 Object

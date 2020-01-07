@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2444,8 +2443,7 @@ constructor
 .
 *
 /
-this
-.
+var
 FxAccounts
 =
 function

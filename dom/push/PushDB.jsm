@@ -121,8 +121,7 @@ indexedDB
 ]
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -195,10 +194,6 @@ PushDB
 }
 )
 ;
-this
-.
-PushDB
-=
 function
 PushDB
 (
@@ -256,7 +251,6 @@ dbStoreName
 )
 ;
 }
-;
 this
 .
 PushDB

@@ -196,8 +196,7 @@ ExtensionParent
 StartupCache
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -365,8 +364,7 @@ origins
 }
 ;
 }
-this
-.
+var
 ExtensionPermissions
 =
 {

@@ -84,8 +84,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -106,8 +105,7 @@ utils
 "
 )
 ;
-this
-.
+var
 Utils
 =
 {

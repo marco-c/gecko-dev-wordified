@@ -77,8 +77,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -620,8 +619,7 @@ gCachedLast
 [
 ]
 ;
-this
-.
+var
 DownloadUtils
 =
 {

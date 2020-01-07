@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -5468,8 +5467,7 @@ global
 SyncTelemetry
 *
 /
-this
-.
+var
 SyncTelemetry
 =
 new

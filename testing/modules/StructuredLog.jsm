@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -173,8 +172,7 @@ argument
 .
 *
 /
-this
-.
+var
 StructuredLogger
 =
 function
@@ -1120,8 +1118,7 @@ messages
 .
 *
 /
-this
-.
+var
 StructuredFormatter
 =
 function

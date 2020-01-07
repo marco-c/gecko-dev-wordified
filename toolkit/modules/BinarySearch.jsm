@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -71,8 +70,7 @@ BinarySearch
 "
 ]
 ;
-this
-.
+var
 BinarySearch
 =
 Object

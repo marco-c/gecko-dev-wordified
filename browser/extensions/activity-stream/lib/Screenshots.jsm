@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -258,8 +257,7 @@ GREY_10
 F9F9FA
 "
 ;
-this
-.
+var
 Screenshots
 =
 {

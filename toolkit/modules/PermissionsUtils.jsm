@@ -56,8 +56,7 @@ MPL
 0
 /
 .
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -364,8 +363,7 @@ pref
 ;
 }
 }
-this
-.
+var
 PermissionsUtils
 =
 {

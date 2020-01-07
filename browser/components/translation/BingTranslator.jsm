@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -376,8 +375,7 @@ finished
 .
 *
 /
-this
-.
+var
 BingTranslator
 =
 function

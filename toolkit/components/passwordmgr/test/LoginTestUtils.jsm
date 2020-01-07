@@ -47,8 +47,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -161,8 +160,7 @@ init
 "
 )
 ;
-this
-.
+var
 LoginTestUtils
 =
 {

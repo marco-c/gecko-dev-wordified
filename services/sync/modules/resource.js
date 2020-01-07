@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -298,10 +297,6 @@ callback
 )
 *
 /
-this
-.
-Resource
-=
 function
 Resource
 (
@@ -358,7 +353,6 @@ _headers
 }
 ;
 }
-;
 /
 /
 (

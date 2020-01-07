@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -244,10 +243,6 @@ js
 "
 )
 ;
-this
-.
-WBORecord
-=
 function
 WBORecord
 (
@@ -290,7 +285,6 @@ id
 Optional
 .
 }
-;
 WBORecord
 .
 prototype
@@ -806,10 +800,6 @@ payload
 ]
 )
 ;
-this
-.
-CryptoWrapper
-=
 function
 CryptoWrapper
 (
@@ -846,7 +836,6 @@ id
 id
 ;
 }
-;
 CryptoWrapper
 .
 prototype
@@ -1588,10 +1577,6 @@ records
 .
 *
 /
-this
-.
-RecordManager
-=
 function
 RecordManager
 (
@@ -1627,7 +1612,6 @@ _records
 }
 ;
 }
-;
 RecordManager
 .
 prototype
@@ -2017,10 +2001,6 @@ date
 .
 *
 /
-this
-.
-CollectionKeyManager
-=
 function
 CollectionKeyManager
 (
@@ -2075,7 +2055,6 @@ CollectionKeyManager
 )
 ;
 }
-;
 /
 /
 TODO
@@ -3854,10 +3833,6 @@ r
 }
 }
 ;
-this
-.
-Collection
-=
 function
 Collection
 (
@@ -4031,7 +4006,6 @@ _offset
 null
 ;
 }
-;
 Collection
 .
 prototype

@@ -67,8 +67,7 @@ globals
 MessageLoop
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

@@ -77,8 +77,7 @@ and
 give
 a
 name
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

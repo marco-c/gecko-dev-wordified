@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -973,8 +972,7 @@ prefs
 )
 ;
 }
-this
-.
+var
 Troubleshoot
 =
 {

@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -216,8 +215,7 @@ more
 .
 *
 /
-this
-.
+var
 FinderIterator
 =
 {

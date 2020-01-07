@@ -70,8 +70,7 @@ engines
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -228,10 +227,6 @@ love
 .
 *
 /
-this
-.
-EngineSynchronizer
-=
 function
 EngineSynchronizer
 (
@@ -281,7 +276,6 @@ service
 service
 ;
 }
-;
 EngineSynchronizer
 .
 prototype

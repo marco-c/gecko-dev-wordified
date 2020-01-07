@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1012,8 +1011,7 @@ docs
 .
 *
 /
-this
-.
+var
 SitePermissions
 =
 {

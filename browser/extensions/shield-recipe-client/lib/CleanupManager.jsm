@@ -103,8 +103,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -272,8 +271,7 @@ cleanupPromise
 ;
 }
 }
-this
-.
+var
 CleanupManager
 =
 new

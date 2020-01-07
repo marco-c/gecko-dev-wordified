@@ -949,8 +949,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1067,8 +1066,7 @@ register
 ;
 *
 /
-this
-.
+var
 Integration
 =
 new
@@ -1138,8 +1136,7 @@ registered
 .
 *
 /
-this
-.
+var
 IntegrationPoint
 =
 function

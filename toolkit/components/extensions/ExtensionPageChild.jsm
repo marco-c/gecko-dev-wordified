@@ -112,8 +112,7 @@ exported
 ExtensionPageChild
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

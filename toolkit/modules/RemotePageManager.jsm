@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -374,8 +373,7 @@ urls
 .
 *
 /
-this
-.
+var
 RemotePages
 =
 function
@@ -3290,8 +3288,7 @@ for
 the
 above
 object
-this
-.
+var
 RemotePageManager
 =
 {

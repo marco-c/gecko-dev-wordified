@@ -321,8 +321,7 @@ ONE_WEEK
 *
 1000
 ;
-this
-.
+var
 SnippetsFeed
 =
 class
@@ -1064,8 +1063,7 @@ break
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

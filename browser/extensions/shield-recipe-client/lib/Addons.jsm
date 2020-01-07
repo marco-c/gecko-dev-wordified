@@ -153,8 +153,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -288,8 +287,7 @@ string
 version
 *
 /
-this
-.
+var
 Addons
 =
 {

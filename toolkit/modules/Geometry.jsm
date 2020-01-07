@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -95,10 +94,6 @@ point
 .
 *
 /
-this
-.
-Point
-=
 function
 Point
 (
@@ -115,7 +110,6 @@ y
 )
 ;
 }
-;
 Point
 .
 prototype
@@ -509,10 +503,6 @@ case
 .
 *
 /
-this
-.
-Rect
-=
 function
 Rect
 (
@@ -551,7 +541,6 @@ y
 h
 ;
 }
-;
 Rect
 .
 fromRect

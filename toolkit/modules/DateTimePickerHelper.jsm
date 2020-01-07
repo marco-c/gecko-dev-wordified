@@ -97,8 +97,7 @@ n
 ;
 }
 }
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -194,8 +193,7 @@ them
 .
 *
 /
-this
-.
+var
 DateTimePickerHelper
 =
 {

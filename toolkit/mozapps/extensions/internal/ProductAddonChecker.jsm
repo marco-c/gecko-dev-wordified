@@ -137,8 +137,7 @@ json
 }
 ]
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

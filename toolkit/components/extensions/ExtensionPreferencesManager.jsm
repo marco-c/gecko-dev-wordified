@@ -214,8 +214,7 @@ set
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

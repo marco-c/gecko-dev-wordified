@@ -84,8 +84,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -3084,8 +3083,7 @@ isAuthenticated
 /
 Public
 API
-this
-.
+var
 Home
 =
 Object

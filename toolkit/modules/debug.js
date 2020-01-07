@@ -129,8 +129,7 @@ within
 JavaScript
 code
 .
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -341,10 +340,6 @@ the
 assertion
 *
 /
-this
-.
-NS_ASSERT
-=
 function
 NS_ASSERT
 (
@@ -632,4 +627,3 @@ stackText
 )
 ;
 }
-;

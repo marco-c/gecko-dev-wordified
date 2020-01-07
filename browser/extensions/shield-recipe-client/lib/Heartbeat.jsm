@@ -242,8 +242,7 @@ globals
 URL
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -822,8 +821,7 @@ question
 .
 *
 /
-this
-.
+var
 Heartbeat
 =
 class

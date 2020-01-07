@@ -225,8 +225,7 @@ RECENT
 Exports
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -835,8 +834,7 @@ consistency
 /
 /
 Implementation
-this
-.
+var
 WinTaskbarJumpList
 =
 {

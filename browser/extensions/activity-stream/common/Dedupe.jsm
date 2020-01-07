@@ -1,5 +1,4 @@
-this
-.
+var
 Dedupe
 =
 class
@@ -214,8 +213,7 @@ values
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

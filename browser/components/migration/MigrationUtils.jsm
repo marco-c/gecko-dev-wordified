@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -723,8 +722,7 @@ startupOnlyMigrator
 .
 *
 /
-this
-.
+var
 MigratorPrototype
 =
 {
@@ -3094,8 +3092,7 @@ profileKey
 }
 }
 ;
-this
-.
+var
 MigrationUtils
 =
 Object

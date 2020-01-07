@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -731,8 +730,7 @@ consoleOptions
 }
 )
 ;
-this
-.
+var
 UITour
 =
 {

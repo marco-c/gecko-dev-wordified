@@ -79,8 +79,7 @@ strict
 ;
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -260,8 +259,7 @@ server
 constructor
 *
 /
-this
-.
+var
 FxAccountsProfileClient
 =
 function
@@ -1560,8 +1558,7 @@ message
 constructor
 *
 /
-this
-.
+var
 FxAccountsProfileClientError
 =
 function

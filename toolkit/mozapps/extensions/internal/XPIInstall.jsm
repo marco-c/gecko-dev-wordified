@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -6638,8 +6637,7 @@ close
 }
 }
 ;
-this
-.
+var
 loadManifestFromFile
 =
 function
@@ -7998,8 +7996,7 @@ constant
 .
 *
 /
-this
-.
+var
 verifyBundleSignedState
 =
 function
@@ -13487,8 +13484,7 @@ releaseStagingDir
 ;
 }
 }
-this
-.
+var
 LocalAddonInstall
 =
 class
@@ -14253,8 +14249,7 @@ install
 }
 }
 ;
-this
-.
+var
 DownloadAddonInstall
 =
 class
@@ -16970,8 +16965,7 @@ startInstall
 )
 *
 /
-this
-.
+var
 StagedAddonInstall
 =
 class
@@ -17736,8 +17730,7 @@ not
 valid
 *
 /
-this
-.
+var
 UpdateChecker
 =
 function

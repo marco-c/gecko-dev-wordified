@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -427,8 +426,7 @@ be
 .
 *
 /
-this
-.
+var
 HAWKAuthenticatedRESTRequest
 =
 function
@@ -909,10 +907,6 @@ size
 }
 *
 /
-this
-.
-deriveHawkCredentials
-=
 function
 deriveHawkCredentials
 (
@@ -1026,7 +1020,6 @@ return
 result
 ;
 }
-;
 /
 /
 With
@@ -1082,10 +1075,6 @@ pref
 is
 changed
 .
-this
-.
-Intl
-=
 function
 Intl
 (
@@ -1173,7 +1162,6 @@ init
 )
 ;
 }
-;
 this
 .
 Intl

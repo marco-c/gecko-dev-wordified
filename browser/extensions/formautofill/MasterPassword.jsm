@@ -86,8 +86,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -162,8 +161,7 @@ Ci
 nsILoginManagerCrypto
 )
 ;
-this
-.
+var
 MasterPassword
 =
 {

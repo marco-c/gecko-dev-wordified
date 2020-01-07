@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1343,10 +1342,6 @@ called
 }
 *
 /
-this
-.
-PopupNotifications
-=
 function
 PopupNotifications
 (
@@ -1911,7 +1906,6 @@ true
 )
 ;
 }
-;
 PopupNotifications
 .
 prototype

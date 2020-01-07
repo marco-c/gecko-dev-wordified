@@ -224,8 +224,7 @@ gOpen
 =
 false
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -234,8 +233,7 @@ SelectContentHelper
 "
 ]
 ;
-this
-.
+var
 SelectContentHelper
 =
 function

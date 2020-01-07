@@ -84,8 +84,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -3667,8 +3666,7 @@ FINALIZATION_TOPIC
 /
 Public
 API
-this
-.
+var
 PerformanceStats
 =
 {

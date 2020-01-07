@@ -217,8 +217,7 @@ logger
 }
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

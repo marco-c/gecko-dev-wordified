@@ -448,8 +448,7 @@ misconfiguration
 on
 the
 server
-this
-.
+var
 TopStoriesFeed
 =
 class
@@ -3873,8 +3872,7 @@ DEFAULT_RECS_EXPIRE_TIME
 =
 DEFAULT_RECS_EXPIRE_TIME
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

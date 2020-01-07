@@ -78,8 +78,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -141,8 +140,7 @@ sessions
 .
 *
 /
-this
-.
+var
 DownloadList
 =
 function
@@ -1573,8 +1571,7 @@ downloads
 .
 *
 /
-this
-.
+var
 DownloadCombinedList
 =
 function
@@ -2079,8 +2076,7 @@ DownloadList
 .
 *
 /
-this
-.
+var
 DownloadSummary
 =
 function

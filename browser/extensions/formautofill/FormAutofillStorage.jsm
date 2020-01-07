@@ -914,8 +914,7 @@ a
 backstage
 pass
 .
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -12293,8 +12292,7 @@ by
 this
 module
 .
-this
-.
+var
 profileStorage
 =
 new

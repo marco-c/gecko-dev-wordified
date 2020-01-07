@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -217,8 +216,7 @@ url
 .
 *
 /
-this
-.
+var
 LinksCache
 =
 class

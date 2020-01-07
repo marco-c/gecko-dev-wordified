@@ -130,8 +130,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -225,8 +224,7 @@ Promises
 .
 *
 /
-this
-.
+var
 ActionSandboxManager
 =
 class

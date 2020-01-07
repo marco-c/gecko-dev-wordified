@@ -89,8 +89,7 @@ code
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1010,8 +1009,7 @@ manager
 constructor
 *
 /
-this
-.
+var
 WebChannel
 =
 function

@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -238,8 +237,7 @@ storage
 manager
 object
 .
-this
-.
+var
 FxAccountsStorageManager
 =
 function

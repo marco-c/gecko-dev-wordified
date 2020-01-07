@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -129,8 +128,7 @@ application
 .
 *
 /
-this
-.
+var
 TransientPrefs
 =
 {

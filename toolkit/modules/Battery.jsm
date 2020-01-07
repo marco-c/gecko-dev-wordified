@@ -181,8 +181,7 @@ object
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -294,8 +293,7 @@ object
 for
 toggling
 spoofing
-this
-.
+var
 Debugging
 =
 {
@@ -337,8 +335,7 @@ fake
 false
 }
 ;
-this
-.
+var
 GetBattery
 =
 function
@@ -417,8 +414,7 @@ reject
 ;
 }
 ;
-this
-.
+var
 Battery
 =
 {

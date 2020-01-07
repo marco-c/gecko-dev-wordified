@@ -83,8 +83,7 @@ ID
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -208,10 +207,6 @@ _lastTopLevelWindowID
 /
 Exported
 symbol
-this
-.
-trackBrowserWindow
-=
 function
 trackBrowserWindow
 (
@@ -226,7 +221,6 @@ aWindow
 )
 ;
 }
-;
 /
 /
 Global

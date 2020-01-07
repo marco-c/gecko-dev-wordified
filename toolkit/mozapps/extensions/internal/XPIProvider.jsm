@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -9590,8 +9589,7 @@ system
 .
 *
 /
-this
-.
+var
 XPIStates
 =
 {
@@ -11751,8 +11749,7 @@ false
 }
 }
 ;
-this
-.
+var
 XPIProvider
 =
 {
@@ -44770,8 +44767,7 @@ true
 ;
 }
 }
-this
-.
+var
 XPIInternal
 =
 {

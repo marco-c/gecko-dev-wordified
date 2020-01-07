@@ -68,8 +68,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -868,8 +867,7 @@ screenY
 }
 }
 ;
-this
-.
+var
 PointerAdapter
 =
 {

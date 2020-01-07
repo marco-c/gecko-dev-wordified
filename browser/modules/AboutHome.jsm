@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -244,8 +243,7 @@ STARTPAGE_VERSION
 =
 4
 ;
-this
-.
+var
 AboutHomeUtils
 =
 {

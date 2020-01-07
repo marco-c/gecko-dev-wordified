@@ -88,8 +88,7 @@ jsm
 }
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

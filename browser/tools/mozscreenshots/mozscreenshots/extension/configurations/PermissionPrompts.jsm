@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -193,8 +192,7 @@ lastTab
 =
 null
 ;
-this
-.
+var
 PermissionPrompts
 =
 {

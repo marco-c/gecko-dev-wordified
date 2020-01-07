@@ -541,8 +541,7 @@ see
 nsINavHistoryObserver
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -861,8 +860,7 @@ ex
 }
 }
 }
-this
-.
+var
 History
 =
 Object

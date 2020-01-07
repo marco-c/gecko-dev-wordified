@@ -166,8 +166,7 @@ fetch
 URL
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -216,8 +215,7 @@ indexPromise
 =
 null
 ;
-this
-.
+var
 NormandyApi
 =
 {

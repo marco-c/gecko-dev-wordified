@@ -106,8 +106,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1437,8 +1436,7 @@ observer
 buffer
 ;
 }
-this
-.
+var
 TelemetrySend
 =
 {

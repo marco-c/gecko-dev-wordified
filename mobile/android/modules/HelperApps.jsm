@@ -197,8 +197,7 @@ ContentAreaUtils
 }
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

@@ -107,8 +107,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -994,8 +993,7 @@ callback
 .
 *
 /
-this
-.
+var
 DeferredTask
 =
 function

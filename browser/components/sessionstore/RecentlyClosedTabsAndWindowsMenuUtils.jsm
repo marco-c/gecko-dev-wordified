@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -221,8 +220,7 @@ properties
 "
 )
 ;
-this
-.
+var
 RecentlyClosedTabsAndWindowsMenuUtils
 =
 {

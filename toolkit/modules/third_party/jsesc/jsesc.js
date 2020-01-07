@@ -202,8 +202,7 @@ SOFTWARE
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

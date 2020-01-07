@@ -295,8 +295,7 @@ ExtensionParent
 StartupCache
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

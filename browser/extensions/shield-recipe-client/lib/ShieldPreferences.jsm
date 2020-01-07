@@ -176,8 +176,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -271,8 +270,7 @@ UI
 .
 *
 /
-this
-.
+var
 ShieldPreferences
 =
 {

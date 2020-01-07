@@ -87,8 +87,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -191,8 +190,7 @@ loggingConfigured
 =
 false
 ;
-this
-.
+var
 configureLogging
 =
 function
@@ -266,8 +264,7 @@ true
 ;
 }
 ;
-this
-.
+var
 sleep
 =
 function
@@ -303,8 +300,7 @@ wait
 ;
 }
 ;
-this
-.
+var
 TestingCrashManager
 =
 function
@@ -961,8 +957,7 @@ DUMMY_DIR_COUNT
 =
 0
 ;
-this
-.
+var
 getManager
 =
 function

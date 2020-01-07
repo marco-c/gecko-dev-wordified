@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -161,8 +160,7 @@ be
 translated
 *
 /
-this
-.
+var
 TranslationDocument
 =
 function

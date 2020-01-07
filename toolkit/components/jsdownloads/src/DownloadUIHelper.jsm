@@ -79,8 +79,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -234,8 +233,7 @@ interface
 .
 *
 /
-this
-.
+var
 DownloadUIHelper
 =
 {
@@ -578,8 +576,7 @@ window
 .
 *
 /
-this
-.
+var
 DownloadPrompter
 =
 function

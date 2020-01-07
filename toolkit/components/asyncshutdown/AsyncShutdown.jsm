@@ -2446,8 +2446,7 @@ origin
 ;
 }
 }
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2477,8 +2476,7 @@ Map
 (
 )
 ;
-this
-.
+var
 AsyncShutdown
 =
 {

@@ -78,8 +78,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -219,8 +218,7 @@ gPathsToRemove
 [
 ]
 ;
-this
-.
+var
 FileTestUtils
 =
 {

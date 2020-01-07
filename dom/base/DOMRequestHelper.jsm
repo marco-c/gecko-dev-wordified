@@ -202,8 +202,7 @@ needed
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -272,10 +271,6 @@ nsIMessageListenerManager
 "
 )
 ;
-this
-.
-DOMRequestIpcHelper
-=
 function
 DOMRequestIpcHelper
 (

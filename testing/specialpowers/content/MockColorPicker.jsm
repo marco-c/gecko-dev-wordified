@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -276,8 +275,7 @@ nsIFactory
 ;
 }
 ;
-this
-.
+var
 MockColorPicker
 =
 {

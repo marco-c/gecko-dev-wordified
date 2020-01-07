@@ -383,8 +383,7 @@ API
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2088,8 +2087,7 @@ buffer
 }
 }
 ;
-this
-.
+var
 PerformanceWatcher
 =
 {

@@ -558,8 +558,7 @@ crossed
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -4183,8 +4182,7 @@ prefs
 .
 *
 /
-this
-.
+var
 AeroPeek
 =
 {

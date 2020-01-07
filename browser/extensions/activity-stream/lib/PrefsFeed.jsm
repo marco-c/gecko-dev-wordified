@@ -182,8 +182,7 @@ notification
 finished
 "
 ;
-this
-.
+var
 PrefsFeed
 =
 class
@@ -661,8 +660,7 @@ break
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

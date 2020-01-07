@@ -480,8 +480,7 @@ see
 nsINavBookmarkObserver
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

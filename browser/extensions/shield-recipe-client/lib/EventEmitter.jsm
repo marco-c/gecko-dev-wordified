@@ -84,8 +84,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -108,8 +107,7 @@ emitter
 "
 )
 ;
-this
-.
+var
 EventEmitter
 =
 function

@@ -82,8 +82,7 @@ Cm
 =
 Components
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -196,8 +195,7 @@ EME_DISABLED
 2
 }
 ;
-this
-.
+var
 GMPUtils
 =
 {
@@ -653,8 +651,7 @@ GMP
 addons
 *
 /
-this
-.
+var
 GMPPrefs
 =
 {

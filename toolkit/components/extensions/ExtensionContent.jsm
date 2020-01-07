@@ -106,8 +106,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -4650,8 +4649,7 @@ injectAPI
 }
 }
 ;
-this
-.
+var
 ExtensionContent
 =
 {

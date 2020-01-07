@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -849,10 +848,4 @@ freeze
 (
 ShortcutUtils
 )
-;
-this
-.
-ShortcutUtils
-=
-ShortcutUtils
 ;

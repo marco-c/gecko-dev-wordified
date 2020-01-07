@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -238,10 +237,6 @@ stub
 .
 *
 /
-this
-.
-ExtensionStorageEngine
-=
 function
 ExtensionStorageEngine
 (
@@ -262,7 +257,6 @@ service
 )
 ;
 }
-;
 ExtensionStorageEngine
 .
 prototype

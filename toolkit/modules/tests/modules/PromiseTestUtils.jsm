@@ -62,8 +62,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -155,8 +154,7 @@ jsm
 .
 Promise
 ;
-this
-.
+var
 PromiseTestUtils
 =
 {

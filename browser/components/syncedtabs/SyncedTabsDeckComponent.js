@@ -300,8 +300,7 @@ RemoteTabs
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

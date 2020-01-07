@@ -558,8 +558,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -971,10 +970,6 @@ function
 .
 *
 /
-this
-.
-AddonsEngine
-=
 function
 AddonsEngine
 (
@@ -1007,7 +1002,6 @@ asyncObserver
 )
 ;
 }
-;
 AddonsEngine
 .
 prototype

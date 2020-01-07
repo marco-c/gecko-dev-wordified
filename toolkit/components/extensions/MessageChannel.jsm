@@ -712,8 +712,7 @@ contextID
 *
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

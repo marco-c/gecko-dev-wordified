@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -384,10 +383,6 @@ prefName
 1000
 ;
 }
-this
-.
-SyncScheduler
-=
 function
 SyncScheduler
 (
@@ -407,7 +402,6 @@ init
 )
 ;
 }
-;
 SyncScheduler
 .
 prototype
@@ -5233,10 +5227,6 @@ clear
 }
 }
 ;
-this
-.
-ErrorHandler
-=
 function
 ErrorHandler
 (
@@ -5256,7 +5246,6 @@ init
 )
 ;
 }
-;
 ErrorHandler
 .
 prototype

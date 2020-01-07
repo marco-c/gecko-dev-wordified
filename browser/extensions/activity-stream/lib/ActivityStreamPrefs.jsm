@@ -132,8 +132,7 @@ stream
 .
 "
 ;
-this
-.
+var
 Prefs
 =
 class
@@ -295,8 +294,7 @@ observer
 }
 }
 ;
-this
-.
+var
 DefaultPrefs
 =
 class
@@ -703,8 +701,7 @@ name
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

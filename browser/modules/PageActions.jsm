@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -245,8 +244,7 @@ PERSISTED_ACTIONS_CURRENT_VERSION
 =
 1
 ;
-this
-.
+var
 PageActions
 =
 {

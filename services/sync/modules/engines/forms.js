@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -267,10 +266,6 @@ years
 in
 seconds
 .
-this
-.
-FormRec
-=
 function
 FormRec
 (
@@ -288,7 +283,6 @@ id
 )
 ;
 }
-;
 FormRec
 .
 prototype
@@ -687,10 +681,6 @@ changes
 }
 }
 ;
-this
-.
-FormEngine
-=
 function
 FormEngine
 (
@@ -709,7 +699,6 @@ service
 )
 ;
 }
-;
 FormEngine
 .
 prototype

@@ -129,8 +129,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -378,8 +377,7 @@ sessions
 .
 *
 /
-this
-.
+var
 DownloadHistory
 =
 {
@@ -2726,8 +2724,7 @@ downloads
 .
 *
 /
-this
-.
+var
 DownloadHistoryList
 =
 function

@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -206,8 +205,7 @@ PROCESS_TYPE_CONTENT
 (
 )
 ;
-this
-.
+var
 TelemetryUtils
 =
 {

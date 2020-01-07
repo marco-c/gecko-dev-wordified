@@ -43,8 +43,7 @@ indexedDB
 ]
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -53,17 +52,12 @@ GlobalObjectsModule
 "
 ]
 ;
-this
-.
-GlobalObjectsModule
-=
 function
 GlobalObjectsModule
 (
 )
 {
 }
-;
 GlobalObjectsModule
 .
 prototype

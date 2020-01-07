@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -236,8 +235,7 @@ to
 XULAppInfo
 *
 /
-this
-.
+var
 newAppInfo
 =
 function
@@ -599,8 +597,7 @@ XULAppInfo
 .
 *
 /
-this
-.
+var
 getAppInfo
 =
 function
@@ -660,8 +657,7 @@ replaced
 .
 *
 /
-this
-.
+var
 updateAppInfo
 =
 function

@@ -134,8 +134,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1300,15 +1299,3 @@ break
 }
 }
 ;
-this
-.
-ControllerStateMachine
-=
-ControllerStateMachine
-;
-/
-/
-jshint
-ignore
-:
-line

@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -166,10 +165,6 @@ implementations
 .
 *
 /
-this
-.
-RotaryRecord
-=
 function
 RotaryRecord
 (
@@ -187,7 +182,6 @@ id
 )
 ;
 }
-;
 RotaryRecord
 .
 prototype
@@ -215,10 +209,6 @@ denomination
 ]
 )
 ;
-this
-.
-RotaryStore
-=
 function
 RotaryStore
 (
@@ -243,7 +233,6 @@ items
 }
 ;
 }
-;
 RotaryStore
 .
 prototype
@@ -480,10 +469,6 @@ items
 }
 }
 ;
-this
-.
-RotaryTracker
-=
 function
 RotaryTracker
 (
@@ -501,7 +486,6 @@ engine
 )
 ;
 }
-;
 RotaryTracker
 .
 prototype
@@ -517,10 +501,6 @@ persistChangedIDs
 false
 }
 ;
-this
-.
-RotaryEngine
-=
 function
 RotaryEngine
 (
@@ -569,7 +549,6 @@ SerializableSet
 )
 ;
 }
-;
 RotaryEngine
 .
 prototype

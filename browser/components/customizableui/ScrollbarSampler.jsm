@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -114,8 +113,7 @@ gSystemScrollbarWidth
 =
 null
 ;
-this
-.
+var
 ScrollbarSampler
 =
 {

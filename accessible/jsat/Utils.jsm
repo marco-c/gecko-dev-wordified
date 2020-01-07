@@ -300,8 +300,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -325,8 +324,7 @@ jshint
 ignore
 :
 line
-this
-.
+var
 Utils
 =
 {
@@ -3147,8 +3145,7 @@ join
 }
 }
 ;
-this
-.
+var
 Logger
 =
 {
@@ -4245,10 +4242,6 @@ label
 .
 *
 /
-this
-.
-PivotContext
-=
 function
 PivotContext
 (
@@ -4327,7 +4320,6 @@ _includeInvisible
 aIncludeInvisible
 ;
 }
-;
 PivotContext
 .
 prototype
@@ -6112,10 +6104,6 @@ true
 }
 }
 ;
-this
-.
-PrefCache
-=
 function
 PrefCache
 (
@@ -6210,7 +6198,6 @@ true
 )
 ;
 }
-;
 PrefCache
 .
 prototype

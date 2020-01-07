@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -206,17 +205,12 @@ jsm
 "
 )
 ;
-this
-.
-DistributionCustomizer
-=
 function
 DistributionCustomizer
 (
 )
 {
 }
-;
 DistributionCustomizer
 .
 prototype

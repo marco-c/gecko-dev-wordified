@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -117,8 +116,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 Translation
 =
 {
@@ -1811,8 +1809,7 @@ option
 .
 *
 /
-this
-.
+var
 TranslationTelemetry
 =
 {

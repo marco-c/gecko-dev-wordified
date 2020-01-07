@@ -122,8 +122,7 @@ tabs
 .
 *
 /
-this
-.
+var
 NewTabInit
 =
 class
@@ -375,8 +374,7 @@ break
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

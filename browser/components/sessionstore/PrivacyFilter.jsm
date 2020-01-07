@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -149,8 +148,7 @@ user
 .
 *
 /
-this
-.
+var
 PrivacyFilter
 =
 Object

@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -386,10 +385,6 @@ return
 false
 ;
 }
-this
-.
-LoginRec
-=
 function
 LoginRec
 (
@@ -407,7 +402,6 @@ id
 )
 ;
 }
-;
 LoginRec
 .
 prototype
@@ -520,10 +514,6 @@ timePasswordChanged
 ]
 )
 ;
-this
-.
-PasswordEngine
-=
 function
 PasswordEngine
 (
@@ -542,7 +532,6 @@ service
 )
 ;
 }
-;
 PasswordEngine
 .
 prototype

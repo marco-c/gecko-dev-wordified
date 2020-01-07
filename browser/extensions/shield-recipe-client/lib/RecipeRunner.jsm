@@ -452,8 +452,7 @@ fetch
 ]
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -588,8 +587,7 @@ SHIELD_ENABLED_PREF
 API_URL_PREF
 ]
 ;
-this
-.
+var
 RecipeRunner
 =
 {

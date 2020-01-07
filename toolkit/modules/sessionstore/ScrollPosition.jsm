@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -106,8 +105,7 @@ module
 .
 *
 /
-this
-.
+var
 ScrollPosition
 =
 Object

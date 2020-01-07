@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -232,8 +231,7 @@ container
 )
 ;
 }
-this
-.
+var
 DevTools
 =
 {

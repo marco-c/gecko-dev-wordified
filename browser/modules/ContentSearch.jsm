@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -567,8 +566,7 @@ data
 null
 *
 /
-this
-.
+var
 ContentSearch
 =
 {

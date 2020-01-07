@@ -78,8 +78,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -302,8 +301,7 @@ compression
 .
 *
 /
-this
-.
+var
 read
 =
 function
@@ -580,8 +578,7 @@ compression
 .
 *
 /
-this
-.
+var
 writeAtomic
 =
 function

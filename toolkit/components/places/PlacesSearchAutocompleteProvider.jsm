@@ -78,8 +78,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1098,8 +1097,7 @@ gInitializationPromise
 =
 null
 ;
-this
-.
+var
 PlacesSearchAutocompleteProvider
 =
 Object

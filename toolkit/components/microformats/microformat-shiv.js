@@ -26776,8 +26776,7 @@ e
 )
 {
 }
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

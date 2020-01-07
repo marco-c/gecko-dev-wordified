@@ -81,8 +81,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1560,8 +1559,7 @@ loadData
 }
 }
 ;
-this
-.
+var
 PlacesUIUtils
 =
 {

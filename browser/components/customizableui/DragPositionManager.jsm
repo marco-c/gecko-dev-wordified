@@ -115,8 +115,7 @@ customization
 palette
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

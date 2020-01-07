@@ -255,8 +255,7 @@ service
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -883,8 +882,7 @@ the
 host
 *
 /
-this
-.
+var
 HawkClient
 =
 function

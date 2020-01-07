@@ -94,8 +94,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -350,8 +349,7 @@ setInputStream
 /
 NetUtil
 Object
-this
-.
+var
 NetUtil
 =
 {

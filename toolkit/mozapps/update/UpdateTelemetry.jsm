@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -91,8 +90,7 @@ jsm
 this
 )
 ;
-this
-.
+var
 AUSTLMY
 =
 {

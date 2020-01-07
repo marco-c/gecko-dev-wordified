@@ -122,8 +122,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -367,8 +366,7 @@ taskbar
 .
 *
 /
-this
-.
+var
 DownloadsTaskbar
 =
 {

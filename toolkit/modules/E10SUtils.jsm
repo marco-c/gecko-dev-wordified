@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -541,8 +540,7 @@ return
 WEB_REMOTE_TYPE
 ;
 }
-this
-.
+var
 E10SUtils
 =
 {

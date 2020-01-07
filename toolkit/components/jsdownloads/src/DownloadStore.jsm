@@ -238,8 +238,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -412,8 +411,7 @@ saved
 .
 *
 /
-this
-.
+var
 DownloadStore
 =
 function

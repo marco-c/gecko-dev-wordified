@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -554,8 +553,7 @@ never
 *
 validate
 )
-this
-.
+var
 telemetryHelper
 =
 {
@@ -1313,10 +1311,6 @@ details
 }
 }
 ;
-this
-.
-BrowserIDManager
-=
 function
 BrowserIDManager
 (
@@ -1411,7 +1405,6 @@ username
 )
 ;
 }
-;
 this
 .
 BrowserIDManager

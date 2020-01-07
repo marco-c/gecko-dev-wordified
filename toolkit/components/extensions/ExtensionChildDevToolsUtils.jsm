@@ -128,8 +128,7 @@ process
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -552,8 +551,7 @@ null
 ;
 }
 }
-this
-.
+var
 ExtensionChildDevToolsUtils
 =
 {

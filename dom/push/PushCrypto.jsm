@@ -157,8 +157,7 @@ crypto
 ]
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1626,8 +1625,7 @@ return
 result
 ;
 }
-this
-.
+var
 concatArray
 =
 function
@@ -4066,8 +4064,7 @@ return
 ;
 }
 }
-this
-.
+var
 PushCrypto
 =
 {

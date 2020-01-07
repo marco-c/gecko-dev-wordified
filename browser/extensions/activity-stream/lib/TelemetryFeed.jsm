@@ -383,8 +383,7 @@ TELEMETRY_PREF
 telemetry
 "
 ;
-this
-.
+var
 TelemetryFeed
 =
 class
@@ -3051,8 +3050,7 @@ sessions
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

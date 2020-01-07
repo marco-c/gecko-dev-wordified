@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -202,8 +201,7 @@ methods
 .
 *
 /
-this
-.
+var
 TabState
 =
 Object

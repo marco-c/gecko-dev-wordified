@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -141,8 +140,7 @@ idl
 .
 *
 /
-this
-.
+var
 UITelemetry
 =
 {

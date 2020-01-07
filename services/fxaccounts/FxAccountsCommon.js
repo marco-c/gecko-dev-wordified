@@ -2027,8 +2027,7 @@ import
 (
 )
 .
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 Object

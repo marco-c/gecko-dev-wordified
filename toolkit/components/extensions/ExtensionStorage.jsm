@@ -106,8 +106,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -582,8 +581,7 @@ return
 value
 ;
 }
-this
-.
+var
 ExtensionStorage
 =
 {

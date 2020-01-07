@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -579,10 +578,6 @@ autoConnect
 .
 *
 /
-this
-.
-waitForZeroTimer
-=
 function
 waitForZeroTimer
 (
@@ -638,9 +633,7 @@ timer
 )
 ;
 }
-;
-this
-.
+var
 promiseZeroTimer
 =
 function
@@ -665,8 +658,7 @@ resolve
 ;
 }
 ;
-this
-.
+var
 promiseNamedTimer
 =
 function
@@ -751,8 +743,7 @@ the
 FxA
 identity
 .
-this
-.
+var
 makeIdentityConfig
 =
 function
@@ -980,8 +971,7 @@ result
 ;
 }
 ;
-this
-.
+var
 makeFxAccountsInternalMock
 =
 function
@@ -1117,8 +1107,7 @@ not
 specified
 )
 .
-this
-.
+var
 configureFxAccountIdentity
 =
 function
@@ -1349,8 +1338,7 @@ email
 ;
 }
 ;
-this
-.
+var
 configureIdentity
 =
 async
@@ -1645,8 +1633,7 @@ return
 logStats
 ;
 }
-this
-.
+var
 SyncTestingInfrastructure
 =
 async
@@ -1752,10 +1739,6 @@ wire
 .
 *
 /
-this
-.
-encryptPayload
-=
 function
 encryptPayload
 (
@@ -1818,9 +1801,7 @@ makeHMACKey
 }
 ;
 }
-;
-this
-.
+var
 sumHistogram
 =
 function
@@ -1898,8 +1879,7 @@ sum
 ;
 }
 ;
-this
-.
+var
 getLoginTelemetryScalar
 =
 function

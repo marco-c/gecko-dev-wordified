@@ -233,8 +233,7 @@ out
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -611,10 +610,6 @@ args
 )
 ;
 }
-this
-.
-ClientsRec
-=
 function
 ClientsRec
 (
@@ -632,7 +627,6 @@ id
 )
 ;
 }
-;
 ClientsRec
 .
 prototype
@@ -702,10 +696,6 @@ fxaDeviceId
 ]
 )
 ;
-this
-.
-ClientEngine
-=
 function
 ClientEngine
 (
@@ -781,7 +771,6 @@ GUID
 )
 ;
 }
-;
 ClientEngine
 .
 prototype

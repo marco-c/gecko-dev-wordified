@@ -107,8 +107,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -251,8 +250,7 @@ functions
 .
 *
 /
-this
-.
+var
 ContentTask
 =
 {

@@ -652,8 +652,7 @@ false
 ;
 }
 }
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

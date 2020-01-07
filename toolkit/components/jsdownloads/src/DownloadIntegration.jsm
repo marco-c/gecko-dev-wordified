@@ -85,8 +85,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1008,8 +1007,7 @@ shutdown
 .
 *
 /
-this
-.
+var
 DownloadIntegration
 =
 {
@@ -5539,8 +5537,7 @@ resolve
 }
 }
 ;
-this
-.
+var
 DownloadObserver
 =
 {
@@ -6813,8 +6810,7 @@ observer
 .
 *
 /
-this
-.
+var
 DownloadHistoryObserver
 =
 function
@@ -7079,8 +7075,7 @@ saving
 .
 *
 /
-this
-.
+var
 DownloadAutoSaveView
 =
 function

@@ -214,8 +214,7 @@ update
 downloaded
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -256,8 +255,7 @@ ping
 .
 *
 /
-this
-.
+var
 UpdatePing
 =
 {

@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -30,8 +29,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 PromptUtils
 =
 {
@@ -477,8 +475,7 @@ events
 .
 *
 /
-this
-.
+var
 EnableDelayHelper
 =
 function

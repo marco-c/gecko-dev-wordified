@@ -353,8 +353,7 @@ nsIPushNotifier
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -952,8 +951,7 @@ persistence
 .
 *
 /
-this
-.
+var
 PushService
 =
 {

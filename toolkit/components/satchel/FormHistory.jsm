@@ -845,8 +845,7 @@ occurred
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2438,8 +2437,7 @@ be
 /
 ignored
 .
-this
-.
+var
 InProgressInserts
 =
 {
@@ -4129,8 +4127,7 @@ world
 class
 *
 /
-this
-.
+var
 DB
 =
 {

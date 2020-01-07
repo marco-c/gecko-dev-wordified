@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -251,8 +250,7 @@ text
 )
 ;
 }
-this
-.
+var
 Log
 =
 {

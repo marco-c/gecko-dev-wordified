@@ -119,8 +119,7 @@ no
 task
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1261,8 +1260,7 @@ functions
 .
 *
 /
-this
-.
+var
 Task
 =
 {

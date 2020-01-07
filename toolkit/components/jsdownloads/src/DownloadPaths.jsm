@@ -79,8 +79,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -333,8 +332,7 @@ regex
 }
 )
 ;
-this
-.
+var
 DownloadPaths
 =
 {

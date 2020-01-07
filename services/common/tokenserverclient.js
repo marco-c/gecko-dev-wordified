@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -213,10 +212,6 @@ message
 .
 *
 /
-this
-.
-TokenServerClientError
-=
 function
 TokenServerClientError
 (
@@ -290,7 +285,6 @@ Error
 stack
 ;
 }
-;
 TokenServerClientError
 .
 prototype
@@ -428,10 +422,6 @@ layer
 .
 *
 /
-this
-.
-TokenServerClientNetworkError
-=
 function
 TokenServerClientNetworkError
 (
@@ -463,7 +453,6 @@ Error
 stack
 ;
 }
-;
 TokenServerClientNetworkError
 .
 prototype
@@ -744,10 +733,6 @@ message
 .
 *
 /
-this
-.
-TokenServerClientServerError
-=
 function
 TokenServerClientServerError
 (
@@ -822,7 +807,6 @@ Error
 stack
 ;
 }
-;
 TokenServerClientServerError
 .
 prototype
@@ -1133,10 +1117,6 @@ a
 .
 *
 /
-this
-.
-TokenServerClient
-=
 function
 TokenServerClient
 (
@@ -1171,7 +1151,6 @@ PREF_LOG_LEVEL
 )
 ;
 }
-;
 TokenServerClient
 .
 prototype

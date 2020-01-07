@@ -312,8 +312,7 @@ interfaces
 .
 nsIFile
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -733,10 +732,6 @@ readLastDirPref
 (
 )
 ;
-this
-.
-DownloadLastDir
-=
 function
 DownloadLastDir
 (
@@ -838,7 +833,6 @@ privateLoadContext
 nonPrivateLoadContext
 ;
 }
-;
 DownloadLastDir
 .
 prototype

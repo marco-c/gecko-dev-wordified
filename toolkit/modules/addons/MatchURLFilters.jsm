@@ -109,8 +109,7 @@ exported
 MatchURLFilters
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

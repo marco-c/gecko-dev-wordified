@@ -103,8 +103,7 @@ js
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

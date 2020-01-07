@@ -222,8 +222,7 @@ nsITelemetry
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -300,8 +299,7 @@ TRUNCATION_DELIMITER
 u2026
 "
 ;
-this
-.
+var
 TelemetryModules
 =
 Object

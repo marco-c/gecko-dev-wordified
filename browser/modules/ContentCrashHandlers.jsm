@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -589,8 +588,7 @@ browser
 ;
 }
 }
-this
-.
+var
 TabCrashHandler
 =
 {
@@ -3767,8 +3765,7 @@ in
 .
 *
 /
-this
-.
+var
 UnsubmittedCrashHandler
 =
 {
@@ -5923,8 +5920,7 @@ reportError
 }
 }
 ;
-this
-.
+var
 PluginCrashReporter
 =
 {

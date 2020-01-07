@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -96,8 +95,7 @@ gLogEntries
 [
 ]
 ;
-this
-.
+var
 TelemetryLog
 =
 Object

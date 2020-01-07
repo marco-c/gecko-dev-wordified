@@ -135,8 +135,7 @@ ExtensionTestCommon
 MockExtension
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -935,8 +934,7 @@ path
 ;
 }
 }
-this
-.
+var
 ExtensionTestCommon
 =
 class

@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -14,8 +13,7 @@ socketCompartmentInstanceOfArrayBuffer
 '
 ]
 ;
-this
-.
+var
 createSocket
 =
 function
@@ -35,8 +33,7 @@ options
 )
 ;
 }
-this
-.
+var
 createServer
 =
 function
@@ -68,8 +65,7 @@ version
 for
 rationale
 .
-this
-.
+var
 socketCompartmentInstanceOfArrayBuffer
 =
 function

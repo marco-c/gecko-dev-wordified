@@ -100,8 +100,7 @@ MPL
 0
 /
 .
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

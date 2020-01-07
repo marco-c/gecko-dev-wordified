@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2811,8 +2810,7 @@ json
 "
 )
 ;
-this
-.
+var
 ContextualIdentityService
 =
 new

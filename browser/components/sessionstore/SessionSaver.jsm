@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -616,8 +615,7 @@ module
 .
 *
 /
-this
-.
+var
 SessionSaver
 =
 Object

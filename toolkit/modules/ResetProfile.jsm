@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -123,8 +122,7 @@ AppConstants
 .
 MOZ_BUILD_APP
 ;
-this
-.
+var
 ResetProfile
 =
 {

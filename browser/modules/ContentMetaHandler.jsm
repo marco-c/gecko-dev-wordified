@@ -479,8 +479,7 @@ return
 true
 ;
 }
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -538,8 +537,7 @@ moz_places
 .
 *
 /
-this
-.
+var
 ContentMetaHandler
 =
 {

@@ -75,8 +75,7 @@ TextEncoder
 ]
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -118,8 +117,7 @@ hashBits
 -
 1
 ;
-this
-.
+var
 Sampling
 =
 {

@@ -236,12 +236,6 @@ return
 ;
 }
 }
-this
-.
-getETLD
-=
-getETLD
-;
 /
 *
 *
@@ -321,10 +315,6 @@ short
 url
 *
 /
-this
-.
-shortURL
-=
 function
 shortURL
 (
@@ -518,9 +508,7 @@ parsed
 href
 ;
 }
-;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

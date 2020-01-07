@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -726,10 +725,6 @@ attached
 .
 *
 /
-this
-.
-BulkKeyBundle
-=
 function
 BulkKeyBundle
 (
@@ -780,7 +775,6 @@ _collection
 collection
 ;
 }
-;
 BulkKeyBundle
 .
 fromHexKey

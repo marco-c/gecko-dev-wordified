@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -425,8 +424,7 @@ Utility
 functions
 *
 /
-this
-.
+var
 Utils
 =
 {
@@ -5400,8 +5398,7 @@ used
 services
 *
 /
-this
-.
+var
 Svc
 =
 {

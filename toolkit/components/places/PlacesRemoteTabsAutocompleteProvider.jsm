@@ -84,8 +84,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -850,8 +849,7 @@ a
 static
 singleton
 .
-this
-.
+var
 PlacesRemoteTabsAutocompleteProvider
 =
 {

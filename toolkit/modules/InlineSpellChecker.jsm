@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -99,10 +98,6 @@ jsm
 "
 )
 ;
-this
-.
-InlineSpellChecker
-=
 function
 InlineSpellChecker
 (
@@ -138,7 +133,6 @@ init
 uninit
 calls
 }
-;
 InlineSpellChecker
 .
 prototype

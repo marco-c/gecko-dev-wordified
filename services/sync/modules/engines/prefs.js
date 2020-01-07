@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -282,10 +281,6 @@ ID
 )
 )
 ;
-this
-.
-PrefRec
-=
 function
 PrefRec
 (
@@ -303,7 +298,6 @@ id
 )
 ;
 }
-;
 PrefRec
 .
 prototype
@@ -340,10 +334,6 @@ value
 ]
 )
 ;
-this
-.
-PrefsEngine
-=
 function
 PrefsEngine
 (
@@ -362,7 +352,6 @@ service
 )
 ;
 }
-;
 PrefsEngine
 .
 prototype

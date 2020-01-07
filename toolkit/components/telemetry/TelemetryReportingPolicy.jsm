@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -698,8 +697,7 @@ error
 }
 )
 ;
-this
-.
+var
 TelemetryReportingPolicy
 =
 {

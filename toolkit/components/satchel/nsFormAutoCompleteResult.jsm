@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -85,10 +84,6 @@ jsm
 "
 )
 ;
-this
-.
-FormAutoCompleteResult
-=
 function
 FormAutoCompleteResult
 (
@@ -166,7 +161,6 @@ entries
 ]
 ;
 }
-;
 FormAutoCompleteResult
 .
 prototype

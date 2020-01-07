@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -695,8 +694,7 @@ subframes
 .
 *
 /
-this
-.
+var
 FormData
 =
 Object

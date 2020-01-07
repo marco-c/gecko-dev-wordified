@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -131,8 +130,7 @@ debugger
 .
 *
 /
-this
-.
+var
 CoverageCollector
 =
 function

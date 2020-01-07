@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -366,8 +365,7 @@ for
 any
 other
 purpose
-this
-.
+var
 addTestBlocklistClient
 =
 (
@@ -801,8 +799,7 @@ if
 something
 goes
 wrong
-this
-.
+var
 checkVersions
 =
 async

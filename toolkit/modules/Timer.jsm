@@ -75,8 +75,7 @@ clearTimeout
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -378,10 +377,6 @@ return
 id
 ;
 }
-this
-.
-setTimeout
-=
 function
 setTimeout
 (
@@ -404,11 +399,6 @@ aArgs
 )
 ;
 }
-;
-this
-.
-setTimeoutWithTarget
-=
 function
 setTimeoutWithTarget
 (
@@ -432,11 +422,6 @@ aArgs
 )
 ;
 }
-;
-this
-.
-setInterval
-=
 function
 setInterval
 (
@@ -459,11 +444,6 @@ aArgs
 )
 ;
 }
-;
-this
-.
-setIntervalWithTarget
-=
 function
 setIntervalWithTarget
 (
@@ -487,9 +467,7 @@ aArgs
 )
 ;
 }
-;
-this
-.
+var
 clearInterval
 =
 this

@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -229,8 +228,7 @@ installed
 .
 *
 /
-this
-.
+var
 makeFakeAppDir
 =
 function

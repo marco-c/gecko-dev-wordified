@@ -112,8 +112,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -160,8 +159,7 @@ prototype
 .
 slice
 ;
-this
-.
+var
 ObjectUtils
 =
 {

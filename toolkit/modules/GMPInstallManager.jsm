@@ -61,13 +61,6 @@ use
 strict
 "
 ;
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-]
-;
 const
 {
 classes
@@ -275,8 +268,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

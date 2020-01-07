@@ -86,8 +86,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1171,8 +1170,7 @@ str
 )
 ;
 }
-this
-.
+var
 TelemetryStorage
 =
 {

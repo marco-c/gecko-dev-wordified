@@ -56,8 +56,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -187,10 +186,6 @@ jsm
 "
 )
 ;
-this
-.
-LightweightThemeConsumer
-=
 function
 LightweightThemeConsumer
 (
@@ -284,7 +279,6 @@ true
 )
 ;
 }
-;
 LightweightThemeConsumer
 .
 prototype

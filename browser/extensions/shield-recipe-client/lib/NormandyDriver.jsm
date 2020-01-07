@@ -435,8 +435,7 @@ Ci
 nsIUUIDGenerator
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -475,8 +474,7 @@ actions
 "
 )
 ;
-this
-.
+var
 NormandyDriver
 =
 function

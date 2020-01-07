@@ -81,8 +81,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -228,10 +227,6 @@ interfaces
 IJSDebugger
 )
 ;
-this
-.
-addDebuggerToGlobal
-=
 function
 addDebuggerToGlobal
 (
@@ -251,7 +246,6 @@ global
 )
 ;
 }
-;
 function
 initPromiseDebugging
 (

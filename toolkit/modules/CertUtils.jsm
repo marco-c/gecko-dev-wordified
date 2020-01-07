@@ -93,8 +93,7 @@ MPL
 .
 *
 /
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -278,10 +277,6 @@ values
 .
 *
 /
-this
-.
-readCertPrefs
-=
 function
 readCertPrefs
 (
@@ -410,7 +405,6 @@ return
 certs
 ;
 }
-;
 /
 *
 *
@@ -536,10 +530,6 @@ array
 .
 *
 /
-this
-.
-validateCert
-=
 function
 validateCert
 (
@@ -832,7 +822,6 @@ NS_ERROR_ILLEGAL_VALUE
 ;
 }
 }
-;
 /
 *
 *
@@ -1038,10 +1027,6 @@ in
 .
 *
 /
-this
-.
-checkCert
-=
 function
 checkCert
 (
@@ -1222,7 +1207,6 @@ NS_ERROR_ABORT
 )
 ;
 }
-;
 /
 *
 *
@@ -1303,10 +1287,6 @@ certificate
 .
 *
 /
-this
-.
-BadCertHandler
-=
 function
 BadCertHandler
 (
@@ -1320,7 +1300,6 @@ allowNonBuiltInCerts
 aAllowNonBuiltInCerts
 ;
 }
-;
 BadCertHandler
 .
 prototype

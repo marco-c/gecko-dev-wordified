@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -128,8 +127,7 @@ algorithm
 .
 *
 /
-this
-.
+var
 NLP
 =
 {

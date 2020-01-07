@@ -118,8 +118,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -128,8 +127,7 @@ NarrateTestUtils
 "
 ]
 ;
-this
-.
+var
 NarrateTestUtils
 =
 {
