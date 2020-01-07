@@ -608,7 +608,7 @@ BMP_HEIGHT
 ImageFormat
 :
 :
-A8
+R8
 TextureFilter
 :
 :

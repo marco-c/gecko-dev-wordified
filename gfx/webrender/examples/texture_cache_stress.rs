@@ -835,6 +835,10 @@ ImageRendering
 :
 :
 Auto
+AlphaType
+:
+:
+PremultipliedAlpha
 *
 key
 )
@@ -914,6 +918,10 @@ ImageRendering
 :
 :
 Auto
+AlphaType
+:
+:
+PremultipliedAlpha
 image_key
 )
 ;
@@ -993,6 +1001,10 @@ ImageRendering
 :
 :
 Auto
+AlphaType
+:
+:
+PremultipliedAlpha
 swap_key
 )
 ;
