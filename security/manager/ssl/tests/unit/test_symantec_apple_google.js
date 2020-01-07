@@ -251,9 +251,9 @@ certs
 after
 the
 cutoff
-aren
-'
-t
+are
+to
+be
 distrusted
 add_connection_test
 (
@@ -274,7 +274,7 @@ com
 "
 PRErrorCodeSuccess
 null
-shouldNotBeImminentlyDistrusted
+shouldBeImminentlyDistrusted
 )
 ;
 /
