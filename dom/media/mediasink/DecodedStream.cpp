@@ -4618,7 +4618,10 @@ GetDebugInfo
 ;
 }
 return
+Move
+(
 str
+)
 ;
 }
 }

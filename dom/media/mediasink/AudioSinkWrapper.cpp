@@ -1316,7 +1316,10 @@ GetDebugInfo
 ;
 }
 return
+Move
+(
 str
+)
 ;
 }
 }

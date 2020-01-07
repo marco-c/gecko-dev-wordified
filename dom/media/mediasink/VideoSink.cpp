@@ -3400,7 +3400,10 @@ GetDebugInfo
 )
 ;
 return
+Move
+(
 str
+)
 ;
 }
 }

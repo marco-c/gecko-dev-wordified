@@ -3337,9 +3337,7 @@ GetDebugInfo
 (
 )
 {
-auto
-&
-&
+nsCString
 str
 =
 MediaDecoder
