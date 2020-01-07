@@ -1259,8 +1259,8 @@ p
 None
     
 if
-not
 file
+not
 in
 parsedSymbolFiles
 :

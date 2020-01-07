@@ -59,17 +59,6 @@ import
 shutil
 import
 hashlib
-from
-os
-.
-path
-import
-join
-getsize
-from
-stat
-import
-*
 import
 re
 import
@@ -78,10 +67,6 @@ import
 getopt
 import
 time
-import
-datetime
-import
-string
 import
 tempfile
 import
@@ -5267,10 +5252,6 @@ ini
 '
 ]
 )
-            
-partial_buildid
-=
-to_buildid
             
 partial_shasum
 =
