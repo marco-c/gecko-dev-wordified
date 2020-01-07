@@ -3560,7 +3560,7 @@ AssertCurrentThreadOwns
 ;
 typedef
 nsDependentCString
-CS
+cstring
 ;
 /
 /
@@ -3633,7 +3633,7 @@ NS_LITERAL_CSTRING
 PluginFilename
 "
 )
-CS
+cstring
 (
 pluginFile
 .
