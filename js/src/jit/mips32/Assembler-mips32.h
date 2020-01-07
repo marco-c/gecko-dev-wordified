@@ -397,6 +397,13 @@ ABINonArgReturnReg1
 =
 t1
 ;
+static
+constexpr
+Register
+ABINonVolatileReg
+=
+s0
+;
 /
 /
 This
