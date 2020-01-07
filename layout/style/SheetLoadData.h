@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsIUnicharStreamLoader
-.
-h
-"
-#
-include
-"
 nsIThreadInternal
 .
 h
@@ -346,8 +339,6 @@ final
 :
 public
 nsIRunnable
-public
-nsIUnicharStreamLoaderObserver
 public
 nsIThreadObserver
 {
@@ -528,7 +519,6 @@ aChannel
 NS_DECL_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 NS_DECL_NSITHREADOBSERVER
-NS_DECL_NSIUNICHARSTREAMLOADEROBSERVER
 /
 /
 Hold

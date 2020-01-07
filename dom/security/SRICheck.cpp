@@ -224,13 +224,6 @@ h
 #
 include
 "
-nsIUnicharStreamLoader
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
