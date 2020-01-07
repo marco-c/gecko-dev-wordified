@@ -1151,6 +1151,7 @@ target
 ;
 if
 (
+!
 packed
 )
 {
@@ -1433,6 +1434,19 @@ promiseAddonByID
 ID
 )
 ;
+let
+signedState
+=
+packed
+?
+AddonManager
+.
+SIGNEDSTATE_PRIVILEGED
+:
+AddonManager
+.
+SIGNEDSTATE_UNKNOWN
+;
 /
 /
 temporary
@@ -1529,9 +1543,7 @@ mozinfo
 .
 addon_signing
 ?
-AddonManager
-.
-SIGNEDSTATE_PRIVILEGED
+signedState
 :
 AddonManager
 .
@@ -2912,7 +2924,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_PRIVILEGED
+SIGNEDSTATE_UNKNOWN
 :
 AddonManager
 .
@@ -4702,7 +4714,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_PRIVILEGED
+SIGNEDSTATE_UNKNOWN
 :
 AddonManager
 .

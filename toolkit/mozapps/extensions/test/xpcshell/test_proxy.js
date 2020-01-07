@@ -92,6 +92,16 @@ function
 (
 )
 {
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_XPI_SIGNATURES_REQUIRED
+false
+)
+;
 await
 promiseStartupManager
 (
@@ -380,7 +390,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_PRIVILEGED
+SIGNEDSTATE_UNKNOWN
 :
 AddonManager
 .
