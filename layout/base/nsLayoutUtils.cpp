@@ -13880,7 +13880,7 @@ nsLayoutUtils
 :
 GetDOMEventCoordinatesRelativeTo
 (
-nsIDOMEvent
+Event
 *
 aDOMEvent
 nsIFrame
