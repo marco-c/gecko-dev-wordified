@@ -141,7 +141,7 @@ mozilla
 /
 dom
 /
-AnimationEffectReadOnlyBinding
+AnimationEffectBinding
 .
 h
 "
@@ -1739,7 +1739,7 @@ computedTiming
 dom
 :
 :
-AnimationEffectReadOnly
+AnimationEffect
 :
 :
 GetComputedTimingAt

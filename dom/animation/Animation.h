@@ -231,7 +231,7 @@ mozilla
 /
 dom
 /
-AnimationEffectReadOnly
+AnimationEffect
 .
 h
 "
@@ -600,7 +600,7 @@ const
 GlobalObject
 &
 aGlobal
-AnimationEffectReadOnly
+AnimationEffect
 *
 aEffect
 const
@@ -639,7 +639,7 @@ nsAString
 aId
 )
 ;
-AnimationEffectReadOnly
+AnimationEffect
 *
 GetEffect
 (
@@ -653,7 +653,7 @@ mEffect
 void
 SetEffect
 (
-AnimationEffectReadOnly
+AnimationEffect
 *
 aEffect
 )
@@ -1086,7 +1086,7 @@ aTimeline
 void
 SetEffectNoUpdate
 (
-AnimationEffectReadOnly
+AnimationEffect
 *
 aEffect
 )
@@ -3341,7 +3341,7 @@ mTimeline
 ;
 RefPtr
 <
-AnimationEffectReadOnly
+AnimationEffect
 >
 mEffect
 ;

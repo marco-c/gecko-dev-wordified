@@ -2260,7 +2260,7 @@ mozilla
 dom
 :
 :
-AnimationEffectReadOnly
+AnimationEffect
 *
 effect
 =

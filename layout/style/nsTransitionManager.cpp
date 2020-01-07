@@ -2462,7 +2462,7 @@ SetEffectFromStyle
 dom
 :
 :
-AnimationEffectReadOnly
+AnimationEffect
 *
 aEffect
 )

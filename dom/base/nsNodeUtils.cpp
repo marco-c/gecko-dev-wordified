@@ -1480,7 +1480,7 @@ Animation
 aAnimation
 )
 {
-AnimationEffectReadOnly
+AnimationEffect
 *
 effect
 =

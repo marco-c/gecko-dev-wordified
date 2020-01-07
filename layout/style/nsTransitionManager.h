@@ -1373,7 +1373,7 @@ OwningElementRef
 void
 SetEffectFromStyle
 (
-AnimationEffectReadOnly
+AnimationEffect
 *
 aEffect
 )

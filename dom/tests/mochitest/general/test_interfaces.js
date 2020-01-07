@@ -1310,7 +1310,7 @@ peer
 name
 :
 "
-AnimationEffectReadOnly
+AnimationEffect
 "
 insecureContext
 :

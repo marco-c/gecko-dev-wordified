@@ -279,7 +279,7 @@ mozilla
 /
 dom
 /
-AnimationEffectReadOnly
+AnimationEffect
 .
 h
 "
@@ -722,7 +722,7 @@ class
 KeyframeEffect
 :
 public
-AnimationEffectReadOnly
+AnimationEffect
 {
 public
 :
@@ -752,7 +752,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 KeyframeEffect
-AnimationEffectReadOnly
+AnimationEffect
 )
 virtual
 JSObject
