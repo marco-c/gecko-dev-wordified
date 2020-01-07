@@ -1151,6 +1151,8 @@ in
 -
 tests
 await
+BrowserTestUtils
+.
 waitForEvent
 (
 gBrowser
@@ -1906,6 +1908,8 @@ in
 -
 tests
 await
+BrowserTestUtils
+.
 waitForEvent
 (
 gBrowser
