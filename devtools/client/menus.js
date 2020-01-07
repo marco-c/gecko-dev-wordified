@@ -999,7 +999,7 @@ defaultView
 ;
 window
 .
-openWebLinkIn
+openTrustedLinkIn
 (
 "
 https
