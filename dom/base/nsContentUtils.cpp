@@ -17359,7 +17359,7 @@ the
 /
 /
 first
-JSAutoCompartment
+JSAutoRealm
 which
 is
 kind
@@ -39027,8 +39027,8 @@ actual
 script
 execution
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 xpc

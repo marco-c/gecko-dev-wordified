@@ -1441,9 +1441,9 @@ autoJS
 ;
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -1475,7 +1475,7 @@ script
 owner
 '
 s
-compartment
+realm
 .
 autoJS
 .
@@ -1483,7 +1483,7 @@ Init
 (
 )
 ;
-ac
+ar
 .
 emplace
 (

@@ -265,8 +265,8 @@ CHECK
 global
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global

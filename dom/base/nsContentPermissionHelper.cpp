@@ -3382,8 +3382,8 @@ toObject
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj

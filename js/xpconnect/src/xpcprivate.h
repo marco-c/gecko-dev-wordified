@@ -15043,9 +15043,9 @@ mozilla
 :
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-mAutoCompartment
+mAutoRealm
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 /

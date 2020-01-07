@@ -3056,8 +3056,8 @@ global
 return
 nullptr
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -3454,7 +3454,7 @@ the
 global
 '
 s
-compartment
+realm
 so
 that
 everything
@@ -3466,8 +3466,8 @@ ends
 up
 there
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aJSContext
 aGlobal
@@ -3844,8 +3844,8 @@ aVal
 AutoJSContext
 cx
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 aScope
@@ -4168,8 +4168,8 @@ aJSContext
 aJSObjArg
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aJSContext
 aJSObj
@@ -4870,8 +4870,8 @@ aJSContext
 aScopeArg
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aJSContext
 aScope

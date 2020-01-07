@@ -664,8 +664,8 @@ if
 obj
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj

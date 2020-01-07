@@ -2300,8 +2300,8 @@ GetGlobalObject
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -2625,8 +2625,8 @@ return
 false
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 globalObj

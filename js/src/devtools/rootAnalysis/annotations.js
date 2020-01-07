@@ -1600,11 +1600,11 @@ int32
 true
 "
 void
-JSAutoCompartment
+JSAutoRealm
 :
 :
 ~
-JSAutoCompartment
+JSAutoRealm
 (
 int32
 )

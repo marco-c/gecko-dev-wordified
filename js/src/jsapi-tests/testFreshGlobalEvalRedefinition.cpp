@@ -240,8 +240,8 @@ g
 return
 false
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 g

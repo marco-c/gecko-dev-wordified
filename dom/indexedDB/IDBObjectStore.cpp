@@ -7219,8 +7219,8 @@ return
 NS_OK
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -7713,8 +7713,8 @@ return
 NS_OK
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global

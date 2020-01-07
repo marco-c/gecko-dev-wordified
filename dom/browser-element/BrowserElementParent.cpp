@@ -951,8 +951,8 @@ GetGlobalJSObject
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global

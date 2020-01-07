@@ -1866,7 +1866,7 @@ GetJSContext
 )
 ;
 JSAutoRequest
-ar
+areq
 (
 cx
 )
@@ -1995,8 +1995,8 @@ setNoScriptRval
 true
 )
 ;
-JSAutoCompartment
-comp
+JSAutoRealm
+ar
 (
 cx
 globalObj
@@ -2716,8 +2716,8 @@ global
 nullptr
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 global

@@ -377,8 +377,8 @@ GetDataObject
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 dataArray

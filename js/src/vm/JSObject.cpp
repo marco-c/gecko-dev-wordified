@@ -7647,8 +7647,8 @@ attributesRef
 JSPROP_PERMANENT
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 target
@@ -7715,8 +7715,8 @@ HandleObject
 obj
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj

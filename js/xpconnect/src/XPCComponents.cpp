@@ -13457,8 +13457,8 @@ obj
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj
@@ -13786,8 +13786,8 @@ toObject
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj
@@ -14642,7 +14642,7 @@ runnableArg
 Enter
 the
 given
-compartment
+realm
 if
 any
 and
@@ -14651,9 +14651,9 @@ runnable
 .
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -14689,7 +14689,7 @@ scopeObj
 return
 NS_ERROR_FAILURE
 ;
-ac
+ar
 .
 emplace
 (
@@ -15999,8 +15999,8 @@ aCx
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 scope
@@ -16378,8 +16378,8 @@ return
 false
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 scope

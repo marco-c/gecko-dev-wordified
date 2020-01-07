@@ -2252,8 +2252,8 @@ been
 compiled
 above
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scopeObject
@@ -2730,8 +2730,8 @@ the
 xbl
 scope
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scopeObject
@@ -2842,8 +2842,8 @@ window
 and
 such
 .
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 globalObject

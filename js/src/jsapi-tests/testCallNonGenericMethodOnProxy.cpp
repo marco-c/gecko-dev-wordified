@@ -415,7 +415,7 @@ and
 enter
 it
 .
-JSAutoCompartment
+JSAutoRealm
 enter
 (
 cx

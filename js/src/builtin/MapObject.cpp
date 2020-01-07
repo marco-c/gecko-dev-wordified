@@ -10740,7 +10740,7 @@ obj
 /
 Enter
 the
-compartment
+realm
 of
 the
 backing
@@ -10753,8 +10753,8 @@ on
 /
 it
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj
@@ -10854,8 +10854,8 @@ UncheckedUnwrap
 obj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj
@@ -11043,8 +11043,8 @@ a
 compartment
 assert
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj
@@ -11282,7 +11282,7 @@ object
 and
 enter
 its
-compartment
+realm
 .
 If
 object
@@ -11312,8 +11312,8 @@ obj
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj
@@ -11495,8 +11495,8 @@ obj
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj
@@ -11948,8 +11948,8 @@ obj
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj

@@ -371,7 +371,7 @@ JS_BeginRequest
 mJSContext
 )
 ;
-mAutoCompartment
+mAutoRealm
 .
 emplace
 (
@@ -2990,8 +2990,8 @@ obj
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 inner
@@ -6669,8 +6669,8 @@ cx
 obj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj

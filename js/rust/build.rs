@@ -1189,7 +1189,7 @@ JS
 IsAcceptableThis
 "
 "
-JSAutoCompartment
+JSAutoRealm
 "
 "
 JSAutoStructuredCloneBuffer

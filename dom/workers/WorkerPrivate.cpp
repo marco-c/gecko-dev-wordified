@@ -2447,7 +2447,7 @@ is
 in
 the
 null
-compartment
+realm
 here
 because
 we
@@ -2483,7 +2483,7 @@ need
 to
 enter
 the
-compartment
+realm
 of
 our
 global
@@ -2512,8 +2512,8 @@ a
 global
 now
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 globalScope
@@ -15909,7 +15909,7 @@ InitializeGCTimers
 ;
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
 workerCompartment
 ;
@@ -16480,8 +16480,8 @@ make
 the
 decision
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 globalScope
@@ -16560,8 +16560,8 @@ make
 the
 decision
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 GlobalScope
@@ -26708,8 +26708,8 @@ global
 nullptr
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 global
@@ -26847,8 +26847,8 @@ global
 nullptr
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 global

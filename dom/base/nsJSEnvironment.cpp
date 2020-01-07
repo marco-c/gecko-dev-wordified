@@ -4720,8 +4720,8 @@ nsIVariant
 ;
 #
 endif
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 aScope
@@ -5616,8 +5616,8 @@ v
 cx
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scope
@@ -6313,8 +6313,8 @@ cx
 (
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 aGlobalObj

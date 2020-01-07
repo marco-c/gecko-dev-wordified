@@ -1151,8 +1151,8 @@ IsEmpty
 )
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 aClassObject
@@ -1493,8 +1493,8 @@ IsEmpty
 )
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 aClassObject

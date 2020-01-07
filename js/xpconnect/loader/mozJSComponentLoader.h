@@ -802,8 +802,8 @@ mozilla
 AutoJSContext
 cx
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj

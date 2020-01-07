@@ -21537,13 +21537,13 @@ target
 element
 '
 s
-compartment
+realm
 .
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -21570,7 +21570,7 @@ GetGlobalJSObject
 )
 )
 {
-ac
+ar
 .
 emplace
 (

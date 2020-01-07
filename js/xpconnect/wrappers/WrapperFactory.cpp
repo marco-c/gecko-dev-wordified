@@ -584,8 +584,8 @@ ObjectScope
 obj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj
@@ -1781,8 +1781,8 @@ Get
 obj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj

@@ -557,8 +557,8 @@ IsDying
 return
 NS_OK
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 targetWindow

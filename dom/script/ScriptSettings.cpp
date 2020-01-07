@@ -2176,8 +2176,8 @@ UncheckedUnwrap
 exnObj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 exnObj
@@ -3252,7 +3252,7 @@ to
 be
 in
 a
-compartment
+realm
 when
 we
 fetch
@@ -3337,8 +3337,8 @@ GetCurrentThreadWorkerGlobal
 ;
 }
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 (
@@ -4786,10 +4786,10 @@ to
 be
 in
 a
-compartment
+realm
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 (

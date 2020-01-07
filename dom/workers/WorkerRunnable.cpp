@@ -1177,7 +1177,7 @@ t
 enter
 a
 useful
-compartment
+realm
 on
 the
 JSContext
@@ -1797,7 +1797,7 @@ be
 in
 a
 null
-compartment
+realm
 in
 the
 /
@@ -1817,7 +1817,7 @@ enter
 /
 /
 the
-compartment
+realm
 of
 the
 worker
@@ -1852,9 +1852,9 @@ worker
 .
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -1920,7 +1920,7 @@ globalObject
 /
 then
 the
-compartments
+realms
 of
 cx
 globalObject
@@ -2009,7 +2009,7 @@ either
 in
 the
 null
-compartment
+realm
 (
 and
 hence
@@ -2022,7 +2022,7 @@ globalObject
 or
 in
 the
-compartment
+realm
 of
 our
 reflector
@@ -2073,7 +2073,7 @@ compartment
 "
 )
 ;
-ac
+ar
 .
 emplace
 (

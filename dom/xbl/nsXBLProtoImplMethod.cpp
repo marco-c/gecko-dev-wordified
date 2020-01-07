@@ -1082,8 +1082,8 @@ cx
 (
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 aClassObject

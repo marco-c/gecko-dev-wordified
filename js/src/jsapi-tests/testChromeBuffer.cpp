@@ -213,8 +213,8 @@ ok
 false
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 trusted_glob
@@ -404,8 +404,8 @@ false
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 trusted_glob
@@ -755,8 +755,8 @@ ooms
 /
 {
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 trusted_glob
@@ -1129,8 +1129,8 @@ match
 }
 {
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 trusted_glob

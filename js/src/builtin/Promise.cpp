@@ -13255,8 +13255,8 @@ if
 unwrappedPromiseObj
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedPromiseObj
@@ -13591,7 +13591,7 @@ h
 Scope
 for
 the
-JSAutoCompartment
+JSAutoRealm
 we
 need
 to
@@ -13628,8 +13628,8 @@ instead
 .
 .
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 valuesArray

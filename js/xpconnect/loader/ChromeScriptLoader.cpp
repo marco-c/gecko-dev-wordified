@@ -1538,8 +1538,8 @@ aGlobal
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 targetObj

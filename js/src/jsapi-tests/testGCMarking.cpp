@@ -381,8 +381,8 @@ compartment
 1
 .
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global2

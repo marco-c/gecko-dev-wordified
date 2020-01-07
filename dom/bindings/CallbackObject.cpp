@@ -1694,7 +1694,7 @@ aExecutionReason
 /
 Enter
 the
-compartment
+realm
 of
 our
 callback
@@ -1726,7 +1726,7 @@ the
 same
 /
 /
-compartment
+realm
 that
 we
 ended
@@ -1752,7 +1752,7 @@ callback
 realCallback
 )
 .
-mAc
+mAr
 .
 emplace
 (
@@ -2101,7 +2101,7 @@ have
 to
 destroy
 our
-JSAutoCompartment
+JSAutoRealm
 first
 .
 /
@@ -2130,7 +2130,7 @@ them
 while
 in
 the
-compartment
+realm
 of
 our
 entry
@@ -2153,7 +2153,7 @@ Be
 careful
 :
 the
-JSAutoCompartment
+JSAutoRealm
 might
 not
 have
@@ -2162,7 +2162,7 @@ constructed
 at
 all
 !
-mAc
+mAr
 .
 reset
 (
@@ -2371,7 +2371,7 @@ ve
 already
 run
 ~
-mAc
+mAr
 effectively
 so
 we
@@ -2640,8 +2640,8 @@ return
 nullptr
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 callback

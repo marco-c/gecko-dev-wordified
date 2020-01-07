@@ -294,9 +294,9 @@ Create
 ;
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 JS
 :
@@ -354,7 +354,7 @@ return
 nullptr
 ;
 }
-ac
+ar
 .
 emplace
 (
@@ -441,7 +441,7 @@ return
 nullptr
 ;
 }
-ac
+ar
 .
 emplace
 (
@@ -557,8 +557,8 @@ return
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 scope

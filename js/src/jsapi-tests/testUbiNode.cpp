@@ -717,8 +717,8 @@ script
 there
 too
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global2
@@ -1058,7 +1058,7 @@ script
 in
 the
 original
-compartment
+realm
 .
 .
 .
@@ -1097,7 +1097,7 @@ enter
 global2
 '
 s
-compartment
+realm
 and
 create
 a
@@ -1107,8 +1107,8 @@ script
 there
 too
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global2

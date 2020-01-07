@@ -3948,8 +3948,8 @@ nsJSObjWrapper
 )
 npobj
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 npjsobj
@@ -4202,8 +4202,8 @@ npjsobj
 mJSObj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 jsobj
@@ -4664,8 +4664,8 @@ npjsobj
 mJSObj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 jsobj
@@ -4888,8 +4888,8 @@ aes
 npjsobj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 npjsobj
@@ -5116,8 +5116,8 @@ npjsobj
 mJSObj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 jsObj
@@ -5344,8 +5344,8 @@ npjsobj
 mJSObj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj
@@ -5665,8 +5665,8 @@ npjsobj
 mJSObj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 jsobj
@@ -6584,8 +6584,8 @@ return
 obj
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 obj

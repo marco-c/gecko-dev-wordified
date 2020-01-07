@@ -5962,7 +5962,7 @@ we
 ll
 enter
 that
-compartment
+realm
 .
 JS
 :
@@ -5999,8 +5999,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 wrapScope
@@ -6062,8 +6062,8 @@ toObject
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 target
@@ -6078,7 +6078,7 @@ we
 ve
 entered
 the
-compartment
+realm
 we
 actually
 care

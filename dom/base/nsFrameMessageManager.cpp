@@ -5888,9 +5888,9 @@ a
 /
 /
 normal
-compartment
+realm
 that
-compartment
+realm
 would
 leak
 until
@@ -5911,8 +5911,8 @@ PrivilegedJunkScope
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 global

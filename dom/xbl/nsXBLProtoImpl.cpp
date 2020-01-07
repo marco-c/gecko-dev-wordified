@@ -777,7 +777,7 @@ start
 by
 entering
 the
-compartment
+realm
 of
 the
 XBL
@@ -793,7 +793,7 @@ not
 be
 the
 same
-compartment
+realm
 as
 globalObject
 .
@@ -855,8 +855,8 @@ scopeObject
 scopeObject
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scopeObject
@@ -1516,8 +1516,8 @@ the
 bound
 element
 .
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 targetClassObject
@@ -1764,8 +1764,8 @@ v
 cx
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global
@@ -1870,8 +1870,8 @@ toObject
 )
 )
 ;
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 value

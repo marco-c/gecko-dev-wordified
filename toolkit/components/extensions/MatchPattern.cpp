@@ -5024,8 +5024,8 @@ cx
 (
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 mRegExp

@@ -4725,8 +4725,8 @@ the
 right
 prototype
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scriptObject
@@ -5919,8 +5919,8 @@ cx
 proto
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scope
@@ -6511,8 +6511,8 @@ parent_proto
 }
 else
 {
-JSAutoCompartment
-innerAC
+JSAutoRealm
+innerAR
 (
 cx
 xblScope
@@ -6552,8 +6552,8 @@ holder
 xblScope
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 holder
@@ -6724,7 +6724,7 @@ prototype
 First
 enter
 the
-compartment
+realm
 where
 it
 '
@@ -6738,8 +6738,8 @@ and
 create
 it
 .
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 global
@@ -6886,7 +6886,7 @@ aProtoBinding
 Next
 enter
 the
-compartment
+realm
 of
 the
 property
@@ -6901,8 +6901,8 @@ stick
 it
 on
 .
-JSAutoCompartment
-ac3
+JSAutoRealm
+ar3
 (
 cx
 holder
@@ -6957,7 +6957,7 @@ it
 back
 into
 the
-compartment
+realm
 of
 |
 obj
@@ -6971,8 +6971,8 @@ and
 return
 it
 .
-JSAutoCompartment
-ac4
+JSAutoRealm
+ar4
 (
 cx
 obj
@@ -7500,8 +7500,8 @@ internal
 version
 .
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 xblScope

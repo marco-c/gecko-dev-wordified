@@ -2204,8 +2204,8 @@ protoKey
 ;
 }
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 target
@@ -2928,8 +2928,8 @@ __proto__
 work
 .
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 target

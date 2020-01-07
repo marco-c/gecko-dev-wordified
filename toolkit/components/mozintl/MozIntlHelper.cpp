@@ -238,8 +238,8 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 realIntlObj
@@ -441,8 +441,8 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 realIntlObj
@@ -540,8 +540,8 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 realIntlObj

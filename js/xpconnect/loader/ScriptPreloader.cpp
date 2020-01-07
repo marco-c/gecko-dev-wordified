@@ -6215,8 +6215,8 @@ cx
 (
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 CompilationScope
@@ -6755,8 +6755,8 @@ cx
 (
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scope
@@ -7071,8 +7071,8 @@ JSContext
 cx
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 mScript

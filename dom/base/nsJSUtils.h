@@ -466,10 +466,10 @@ our
 global
 '
 s
-compartment
+realm
 .
-JSAutoCompartment
-mCompartment
+JSAutoRealm
+mRealm
 ;
 /
 /

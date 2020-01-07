@@ -6343,8 +6343,8 @@ reportDataCloneError
 JS_SCERR_TRANSFERABLE
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedObj
@@ -6912,8 +6912,8 @@ TypedArrayObject
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 context
 (
@@ -7064,8 +7064,8 @@ DataViewObject
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 context
 (
@@ -7176,8 +7176,8 @@ ArrayBufferObject
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 context
 (
@@ -8104,8 +8104,8 @@ MOZ_ASSERT
 unwrapped
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 context
 (
@@ -8323,8 +8323,8 @@ MOZ_ASSERT
 unwrapped
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 context
 (
@@ -10483,8 +10483,8 @@ ArrayBufferObject
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 arrayBuffer

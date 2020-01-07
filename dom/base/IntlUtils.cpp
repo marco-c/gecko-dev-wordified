@@ -548,8 +548,8 @@ result
 as
 DisplayNameResult
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 &
@@ -821,8 +821,8 @@ result
 as
 LocaleInfo
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 &

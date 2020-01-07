@@ -582,8 +582,8 @@ GetWrapper
 ErrorResult
 rv
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 global

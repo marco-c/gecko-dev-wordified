@@ -1332,7 +1332,7 @@ a
 /
 /
 different
-compartment
+realm
 from
 the
 callee
@@ -1377,7 +1377,7 @@ this
 |
 '
 s
-compartment
+realm
 (
 see
 in
@@ -1394,7 +1394,7 @@ attempt
 a
 cross
 -
-compartment
+realm
 call
 )
 we
@@ -1406,7 +1406,7 @@ the
 callee
 '
 s
-compartment
+realm
 to
 access
 its
@@ -1421,8 +1421,8 @@ nsAutoJSString
 fieldName
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 callee
@@ -1526,7 +1526,7 @@ is
 not
 same
 -
-compartment
+realm
 /
 /
 with
@@ -1553,8 +1553,8 @@ UncheckedUnwrap
 xblProto
 )
 ;
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 xblProto
@@ -1730,7 +1730,7 @@ should
 be
 in
 the
-compartment
+realm
 of
 |
 this
@@ -2021,7 +2021,7 @@ should
 be
 in
 the
-compartment
+realm
 of
 |
 this
@@ -2538,8 +2538,8 @@ the
 functions
 there
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 scopeObject
@@ -2737,8 +2737,8 @@ define
 them
 there
 .
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 aCx
 aTargetClassObject
@@ -2994,7 +2994,7 @@ to
 be
 in
 the
-compartment
+realm
 of
 globalObject
 .
@@ -3370,7 +3370,7 @@ our
 current
 /
 /
-compartment
+realm
 which
 is
 the
@@ -3392,7 +3392,7 @@ the
 node
 '
 s
-compartment
+realm
 wrap
 the
 eval
@@ -3407,8 +3407,8 @@ the
 bound
 node
 .
-JSAutoCompartment
-ac2
+JSAutoRealm
+ar2
 (
 cx
 aBoundNode

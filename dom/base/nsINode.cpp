@@ -7411,8 +7411,8 @@ GetGlobalJSObject
 )
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 existingObj

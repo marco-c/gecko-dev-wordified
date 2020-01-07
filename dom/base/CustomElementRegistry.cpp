@@ -4513,7 +4513,7 @@ Enter
 constructor
 '
 s
-compartment
+realm
 .
 /
 *
@@ -4540,8 +4540,8 @@ exceptions
 .
 *
 /
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 constructor
@@ -4669,7 +4669,7 @@ Leave
 constructor
 '
 s
-compartment
+realm
 .
 JS
 :
@@ -4742,8 +4742,8 @@ constructorProtoUnwrapped
 '
 s
 compartment
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 constructorProtoUnwrapped
@@ -5089,10 +5089,10 @@ Enter
 constructor
 '
 s
-compartment
+realm
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 constructor
@@ -5355,7 +5355,7 @@ Leave
 constructor
 '
 s
-compartment
+realm
 .
 }
 /

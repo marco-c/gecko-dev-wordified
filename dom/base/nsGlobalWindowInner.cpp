@@ -22402,8 +22402,8 @@ scope
 )
 )
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scope

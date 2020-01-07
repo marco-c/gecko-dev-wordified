@@ -511,8 +511,8 @@ GetWrapper
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 wrapper

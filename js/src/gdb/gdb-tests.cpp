@@ -480,7 +480,7 @@ reportWarning
 )
 ;
 JSAutoRequest
-ar
+areq
 (
 cx
 )
@@ -521,8 +521,8 @@ options
 )
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global

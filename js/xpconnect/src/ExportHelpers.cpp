@@ -1308,7 +1308,7 @@ have
 to
 enter
 its
-compartment
+realm
 .
 /
 /
@@ -1322,9 +1322,9 @@ primitive
 )
 Maybe
 <
-JSAutoCompartment
+JSAutoRealm
 >
-ac
+ar
 ;
 if
 (
@@ -1335,7 +1335,7 @@ isObject
 )
 )
 {
-ac
+ar
 .
 emplace
 (
@@ -1395,7 +1395,7 @@ clones
 in
 the
 target
-compartment
+realm
 .
 if
 (
@@ -1917,8 +1917,8 @@ are
 not
 callable
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 unwrappedFun
@@ -2635,10 +2635,10 @@ enter
 /
 /
 its
-compartment
+realm
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 targetScope
@@ -3154,8 +3154,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 scope

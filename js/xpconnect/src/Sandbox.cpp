@@ -1211,8 +1211,8 @@ funobj
 )
 ;
 }
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 funobj
@@ -6995,8 +6995,8 @@ options
 wantXrays
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 sandbox
@@ -7626,8 +7626,8 @@ options
 metadata
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 sandbox
@@ -11607,8 +11607,8 @@ cx
 (
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 sandcx
 sandbox
@@ -11930,8 +11930,8 @@ cx
 )
 ;
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 sandbox
@@ -12006,8 +12006,8 @@ metadata
 cx
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 sandbox

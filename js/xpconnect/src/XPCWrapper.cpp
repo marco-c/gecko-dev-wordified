@@ -494,8 +494,8 @@ JSD
 is
 gone
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 aGlobalObject

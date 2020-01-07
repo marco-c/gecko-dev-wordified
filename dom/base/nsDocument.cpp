@@ -15157,8 +15157,8 @@ aCx
 aObject
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 aCx
 obj
@@ -40057,8 +40057,8 @@ something
 sane
 anyway
 .
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 GetScopeObject
@@ -54702,8 +54702,8 @@ global
 NS_ERROR_UNEXPECTED
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 global

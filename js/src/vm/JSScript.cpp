@@ -29935,7 +29935,7 @@ can
 '
 t
 use
-JSAutoCompartment
+JSAutoRealm
 :
 it
 could
@@ -29944,9 +29944,9 @@ races
 .
 Functions
 in
-/
-/
 the
+/
+/
 self
 -
 hosting
@@ -29982,8 +29982,8 @@ nonLazyScript
 }
 else
 {
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx_
 fun
