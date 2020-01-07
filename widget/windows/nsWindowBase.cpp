@@ -735,13 +735,6 @@ BackingScaleFactorChanged
 )
 ;
 }
-mWidgetListener
--
->
-UIResolutionChanged
-(
-)
-;
 }
 }
 nsresult
