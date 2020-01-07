@@ -850,6 +850,10 @@ uint32_t
 &
 redirectFlags
 const
+bool
+&
+allowInsecureRedirectToDataURI
+const
 nsHttpResponseHead
 &
 responseHead
@@ -2538,6 +2542,10 @@ const
 uint32_t
 &
 redirectFlags
+const
+bool
+&
+allowInsecureRedirectToDataURI
 const
 nsHttpResponseHead
 &

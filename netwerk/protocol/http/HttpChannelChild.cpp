@@ -9098,6 +9098,10 @@ uint32_t
 &
 redirectFlags
 const
+bool
+&
+allowInsecureRedirectToDataURI
+const
 nsHttpResponseHead
 &
 responseHead
@@ -9130,6 +9134,10 @@ mRedirectFlags
 (
 redirectFlags
 )
+mAllowInsecureRedirectToDataURI
+(
+allowInsecureRedirectToDataURI
+)
 mResponseHead
 (
 responseHead
@@ -9158,6 +9166,7 @@ Redirect1Begin
 mRegistrarId
 mNewURI
 mRedirectFlags
+mAllowInsecureRedirectToDataURI
 mResponseHead
 mSecurityInfoSerialization
 mChannelId
@@ -9174,6 +9183,9 @@ mNewURI
 ;
 uint32_t
 mRedirectFlags
+;
+bool
+mAllowInsecureRedirectToDataURI
 ;
 nsHttpResponseHead
 mResponseHead
@@ -9210,6 +9222,10 @@ const
 uint32_t
 &
 redirectFlags
+const
+bool
+&
+allowInsecureRedirectToDataURI
 const
 nsHttpResponseHead
 &
@@ -9296,6 +9312,7 @@ this
 registrarId
 newUri
 redirectFlags
+allowInsecureRedirectToDataURI
 responseHead
 securityInfoSerialization
 channelId
@@ -9759,6 +9776,10 @@ uint32_t
 &
 redirectFlags
 const
+bool
+&
+allowInsecureRedirectToDataURI
+const
 nsHttpResponseHead
 &
 responseHead
@@ -9794,6 +9815,14 @@ n
 "
 this
 )
+)
+;
+mLoadInfo
+-
+>
+SetAllowInsecureRedirectToDataURI
+(
+allowInsecureRedirectToDataURI
 )
 ;
 nsCOMPtr

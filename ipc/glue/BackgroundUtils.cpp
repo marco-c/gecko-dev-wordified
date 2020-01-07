@@ -2267,6 +2267,12 @@ GetForceAllowDataURI
 aLoadInfo
 -
 >
+GetAllowInsecureRedirectToDataURI
+(
+)
+aLoadInfo
+-
+>
 GetForceInheritPrincipalDropped
 (
 )
@@ -3092,6 +3098,11 @@ allowDocumentToBeAgnosticToCSP
 loadInfoArgs
 .
 forceAllowDataURI
+(
+)
+loadInfoArgs
+.
+allowInsecureRedirectToDataURI
 (
 )
 loadInfoArgs

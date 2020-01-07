@@ -232,6 +232,15 @@ nsIChannel
 aChannel
 )
 ;
+static
+bool
+AllowInsecureRedirectToDataURI
+(
+nsIChannel
+*
+aNewChannel
+)
+;
 private
 :
 static
