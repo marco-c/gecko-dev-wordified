@@ -449,9 +449,6 @@ m_delayLine
 MaxDelayTimeSeconds
 *
 sampleRate
-1
-.
-0
 )
 {
 MOZ_ASSERT
