@@ -392,7 +392,7 @@ in
 tests
 gBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 .
 getElementById
 (
@@ -530,7 +530,7 @@ doc
 =
 gBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 ;
 let
 defaultEngineSpan
@@ -761,7 +761,7 @@ in
 tests
 gBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 .
 getElementById
 (

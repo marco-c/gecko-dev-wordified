@@ -209,7 +209,9 @@ i
 +
 )
 {
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 console
 .
@@ -344,9 +346,7 @@ deferred
 resolve
 )
 ;
-content
-.
-location
+gBrowser
 .
 reload
 (

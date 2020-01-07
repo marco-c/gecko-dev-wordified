@@ -256,7 +256,9 @@ Object
 }
 )
 ;
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 console
 .

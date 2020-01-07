@@ -521,7 +521,9 @@ a
 content
 window
 .
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 console
 .

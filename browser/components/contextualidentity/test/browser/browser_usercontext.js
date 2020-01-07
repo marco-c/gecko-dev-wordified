@@ -500,7 +500,7 @@ title
 =
 browser
 .
-contentDocument
+contentDocumentAsCPOW
 .
 title
 .
