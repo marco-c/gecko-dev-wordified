@@ -6531,6 +6531,15 @@ ErrorResult
 aError
 )
 ;
+bool
+ShouldReportForServiceWorkerScope
+(
+const
+nsAString
+&
+aScope
+)
+;
 void
 UpdateTopInnerWindow
 (

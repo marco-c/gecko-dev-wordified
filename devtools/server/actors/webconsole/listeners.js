@@ -1718,13 +1718,12 @@ ID
 if
 (
 !
-swm
-.
-shouldReportToWindow
-(
 this
 .
 window
+.
+shouldReportForServiceWorkerScope
+(
 scope
 )
 )
