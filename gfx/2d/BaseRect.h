@@ -3644,6 +3644,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 floor
 (
 T
@@ -3655,7 +3658,7 @@ X
 +
 0
 .
-5
+5f
 )
 )
 ;
@@ -3667,6 +3670,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 floor
 (
 T
@@ -3678,7 +3684,7 @@ Y
 +
 0
 .
-5
+5f
 )
 )
 ;
@@ -3690,6 +3696,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 floor
 (
 T
@@ -3701,7 +3710,7 @@ XMost
 +
 0
 .
-5
+5f
 )
 )
 ;
@@ -3713,6 +3722,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 floor
 (
 T
@@ -3724,7 +3736,7 @@ YMost
 +
 0
 .
-5
+5f
 )
 )
 ;
@@ -3783,6 +3795,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 ceil
 (
 T
@@ -3802,6 +3817,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 ceil
 (
 T
@@ -3821,6 +3839,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 floor
 (
 T
@@ -3840,6 +3861,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 floor
 (
 T
@@ -3906,6 +3930,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 floor
 (
 T
@@ -3925,6 +3952,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 floor
 (
 T
@@ -3944,6 +3974,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 ceil
 (
 T
@@ -3963,6 +3996,9 @@ static_cast
 T
 >
 (
+std
+:
+:
 ceil
 (
 T
