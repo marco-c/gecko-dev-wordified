@@ -726,6 +726,14 @@ Enable
 Marionette
 component
         
+"
+marionette
+.
+enabled
+"
+:
+True
+        
 #
 (
 deprecated
@@ -738,14 +746,6 @@ Firefox
 60
 ships
 )
-        
-"
-marionette
-.
-enabled
-"
-:
-True
         
 "
 marionette
