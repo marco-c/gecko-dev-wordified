@@ -4480,6 +4480,11 @@ MediumFeaturesChanged
 nsPresContext
 *
 aPresContext
+mozilla
+:
+:
+MediaFeatureChangeReason
+aReason
 )
 {
 bool
@@ -4625,6 +4630,7 @@ MediumFeaturesChangedRules
 (
 &
 viewportUnitsUsed
+aReason
 )
 ;
 MOZ_ASSERT
