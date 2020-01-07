@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_KeyframeEffectReadOnly_h
+mozilla_dom_KeyframeEffect_h
 #
 define
-mozilla_dom_KeyframeEffectReadOnly_h
+mozilla_dom_KeyframeEffect_h
 #
 include
 "
@@ -3166,4 +3166,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_KeyframeEffectReadOnly_h
+mozilla_dom_KeyframeEffect_h

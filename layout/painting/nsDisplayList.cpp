@@ -196,7 +196,7 @@ mozilla
 /
 dom
 /
-KeyframeEffectReadOnly
+KeyframeEffect
 .
 h
 "
