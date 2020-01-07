@@ -96,12 +96,6 @@ time
 Duration
 ;
 use
-util
-:
-:
-OnceCallback
-;
-use
 u2fprotocol
 :
 :
@@ -111,6 +105,12 @@ u2f_is_keyhandle_valid
 u2f_register
 u2f_sign
 }
+;
+use
+util
+:
+:
+OnceCallback
 ;
 fn
 is_valid_transport

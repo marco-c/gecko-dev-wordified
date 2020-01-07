@@ -324,6 +324,7 @@ as
 usize
 }
 }
+;
 }
 fn
 from_wide_ptr
