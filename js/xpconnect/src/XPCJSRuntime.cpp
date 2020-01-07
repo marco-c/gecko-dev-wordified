@@ -20199,11 +20199,11 @@ const
 {
 if
 (
-!
-IS_PROTO_CLASS
-(
 clasp
-)
+!
+=
+&
+XPC_WN_Proto_JSClass
 )
 {
 return
