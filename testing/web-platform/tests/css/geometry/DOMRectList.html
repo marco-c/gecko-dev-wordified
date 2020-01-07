@@ -120,7 +120,7 @@ test
 =
 >
 {
-assert_false
+assert_true
 (
 '
 DOMRectList
@@ -132,6 +132,8 @@ window
 }
 '
 DOMRectList
+is
+not
 [
 NoInterfaceObject
 ]
@@ -145,7 +147,7 @@ test
 =
 >
 {
-assert_true
+assert_false
 (
 domRectList
 instanceof
@@ -155,6 +157,8 @@ Array
 }
 '
 DOMRectList
+is
+not
 [
 LegacyArrayClass
 ]
