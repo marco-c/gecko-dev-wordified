@@ -433,6 +433,10 @@ cipherTexts
 NS_DispatchToMainThread
 (
 runnable
+.
+forget
+(
+)
 )
 ;
 }
