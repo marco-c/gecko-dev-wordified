@@ -1104,6 +1104,8 @@ content
 /
 webconsole
 /
+old
+/
 webconsole
 .
 xul
