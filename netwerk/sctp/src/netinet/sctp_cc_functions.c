@@ -2,19 +2,6 @@
 *
 -
 *
-SPDX
--
-License
--
-Identifier
-:
-BSD
--
-3
--
-Clause
-*
-*
 Copyright
 (
 c
@@ -353,17 +340,17 @@ netinet
 sctp_cc_functions
 .
 c
-310590
-2016
+279859
+2015
 -
-12
+03
 -
-26
-11
+10
+19
 :
-06
+49
 :
-41Z
+25Z
 tuexen
 "
 )
@@ -911,7 +898,7 @@ __FreeBSD_version
 >
 =
 803000
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -1606,7 +1593,7 @@ __FreeBSD_version
 >
 =
 803000
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -1753,7 +1740,7 @@ rec
 .
 data
 .
-tsn
+TSN_seq
 -
 1
 ;
@@ -1825,7 +1812,7 @@ rec
 .
 data
 .
-tsn
+TSN_seq
 -
 1
 ;
@@ -1839,9 +1826,9 @@ stcb
 sctp_ep
 stcb
 net
-SCTP_FROM_SCTP_CC_FUNCTIONS
+SCTP_FROM_SCTP_INDATA
 +
-SCTP_LOC_1
+SCTP_LOC_32
 )
 ;
 sctp_timer_start
@@ -1914,7 +1901,7 @@ SCTP_INST_LOOSING
 1
 /
 *
-Losing
+Loosing
 to
 other
 flows
@@ -2129,7 +2116,7 @@ probepoint
 1
 )
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -2392,7 +2379,7 @@ rtcc
 .
 last_step_state
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -2590,7 +2577,7 @@ probepoint
 0
 )
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -2714,7 +2701,7 @@ rtcc
 .
 last_step_state
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -2980,7 +2967,7 @@ rtcc
 ret_from_eq
 )
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -3507,7 +3494,7 @@ probepoint
 1
 )
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -3644,7 +3631,7 @@ probepoint
 0
 )
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -3779,7 +3766,7 @@ rtcc
 .
 last_step_state
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -3990,7 +3977,7 @@ probepoint
 0
 )
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -4114,7 +4101,7 @@ rtcc
 .
 last_step_state
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -4291,7 +4278,7 @@ probepoint
 0
 )
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -4415,7 +4402,7 @@ rtcc
 .
 last_step_state
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -4756,7 +4743,7 @@ cwnd
 32
 )
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -4880,7 +4867,7 @@ rtcc
 .
 last_step_state
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -5012,7 +4999,7 @@ return
 /
 *
 RTCC
-Algorithm
+Algoritm
 to
 limit
 growth
@@ -6058,7 +6045,7 @@ __FreeBSD_version
 >
 =
 803000
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -7272,7 +7259,7 @@ stcb
 rport
 )
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -7952,7 +7939,7 @@ __FreeBSD_version
 >
 =
 803000
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -8353,7 +8340,7 @@ __FreeBSD_version
 >
 =
 803000
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -8563,7 +8550,7 @@ __FreeBSD_version
 >
 =
 803000
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -9105,7 +9092,7 @@ __FreeBSD_version
 >
 =
 803000
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -9398,7 +9385,7 @@ required
 over
 the
 drastic
-original
+orginal
 cut
 *
 /
@@ -9562,7 +9549,7 @@ __FreeBSD_version
 >
 =
 803000
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -10426,7 +10413,7 @@ __FreeBSD_version
 >
 =
 803000
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -10591,7 +10578,7 @@ __FreeBSD_version
 >
 =
 803000
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -10693,7 +10680,7 @@ last
 disables
 the
 rtcc
-algorithm
+algoritm
 *
 /
 sctp_cwnd_update_after_sack_common
@@ -10736,7 +10723,7 @@ last
 disables
 the
 rtcc
-algorithm
+algoritm
 *
 /
 sctp_cwnd_update_after_ecn_echo_common
@@ -10779,7 +10766,7 @@ or
 two
 since
 these
-algorithms
+algoritms
 are
 so
 close
@@ -11089,7 +11076,7 @@ probepoint
 0
 )
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -11607,7 +11594,7 @@ stcb
 rport
 )
 ;
-SDT_PROBE5
+SDT_PROBE
 (
 sctp
 cwnd
@@ -12304,7 +12291,7 @@ last
 enables
 the
 rtcc
-algorithm
+algoritm
 *
 /
 sctp_cwnd_update_after_sack_common
@@ -12367,10 +12354,10 @@ sctp_hs_raise_drop
 int32_t
 cwnd
 ;
-int8_t
+int32_t
 increase
 ;
-int8_t
+int32_t
 drop_percent
 ;
 }
@@ -12379,8 +12366,6 @@ drop_percent
 define
 SCTP_HS_TABLE_SIZE
 73
-static
-const
 struct
 sctp_hs_raise_drop
 sctp_cwnd_adjust
@@ -13274,9 +13259,6 @@ incr
 =
 (
 (
-(
-int32_t
-)
 sctp_cwnd_adjust
 [
 indx
@@ -13477,9 +13459,6 @@ cwnd
 100
 )
 *
-(
-int32_t
-)
 sctp_cwnd_adjust
 [
 net
@@ -13885,7 +13864,7 @@ rec
 .
 data
 .
-tsn
+TSN_seq
 -
 1
 ;
@@ -13957,7 +13936,7 @@ rec
 .
 data
 .
-tsn
+TSN_seq
 -
 1
 ;
@@ -13971,9 +13950,9 @@ stcb
 sctp_ep
 stcb
 net
-SCTP_FROM_SCTP_CC_FUNCTIONS
+SCTP_FROM_SCTP_INDATA
 +
-SCTP_LOC_2
+SCTP_LOC_32
 )
 ;
 sctp_timer_start
@@ -17641,7 +17620,7 @@ rec
 .
 data
 .
-tsn
+TSN_seq
 -
 1
 ;
@@ -17713,7 +17692,7 @@ rec
 .
 data
 .
-tsn
+TSN_seq
 -
 1
 ;
@@ -17727,9 +17706,9 @@ stcb
 sctp_ep
 stcb
 net
-SCTP_FROM_SCTP_CC_FUNCTIONS
+SCTP_FROM_SCTP_INDATA
 +
-SCTP_LOC_3
+SCTP_LOC_32
 )
 ;
 sctp_timer_start
@@ -18059,7 +18038,6 @@ SCTP_CWND_LOG_FROM_SAT
 }
 }
 }
-const
 struct
 sctp_cc_functions
 sctp_cc_functions
