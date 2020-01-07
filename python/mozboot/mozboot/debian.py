@@ -330,6 +330,18 @@ DEBIAN_PACKAGES
 =
 [
         
+#
+Comment
+the
+npm
+package
+until
+Debian
+bring
+it
+back
+        
+#
 '
 npm
 '
