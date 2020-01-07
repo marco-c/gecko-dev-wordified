@@ -5718,6 +5718,8 @@ wr
 :
 ImageKey
 aImage
+bool
+aPremultipliedAlpha
 )
 {
 wr
@@ -5755,6 +5757,7 @@ size
 size
 aFilter
 aImage
+aPremultipliedAlpha
 )
 ;
 }
@@ -5804,6 +5807,8 @@ wr
 :
 ImageKey
 aImage
+bool
+aPremultipliedAlpha
 )
 {
 WRDL_LOG
@@ -5874,6 +5879,7 @@ aStretchSize
 aTileSpacing
 aFilter
 aImage
+aPremultipliedAlpha
 )
 ;
 }

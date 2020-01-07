@@ -5260,6 +5260,8 @@ ImageRendering
 aImageRendering
 WrImageKey
 aKey
+bool
+aPremultipliedAlpha
 )
 WR_FUNC
 ;

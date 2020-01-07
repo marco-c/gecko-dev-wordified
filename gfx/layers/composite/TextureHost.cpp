@@ -3588,6 +3588,15 @@ aImageKeys
 [
 0
 ]
+!
+(
+mFlags
+&
+TextureFlags
+:
+:
+NON_PREMULTIPLIED
+)
 )
 ;
 }

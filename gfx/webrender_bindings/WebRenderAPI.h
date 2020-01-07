@@ -1927,6 +1927,10 @@ wr
 :
 ImageKey
 aImage
+bool
+aPremultipliedAlpha
+=
+true
 )
 ;
 void
@@ -1972,6 +1976,10 @@ wr
 :
 ImageKey
 aImage
+bool
+aPremultipliedAlpha
+=
+true
 )
 ;
 void
