@@ -1889,10 +1889,6 @@ removeUpdateDirsAndFiles
 (
 )
 ;
-reloadUpdateManagerData
-(
-)
-;
 setupTimer
 (
 gTestTimeout
