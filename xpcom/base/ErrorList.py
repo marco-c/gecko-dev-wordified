@@ -14696,18 +14696,6 @@ FAILURE
 10
 )
     
-errors
-[
-"
-NS_ERROR_UC_UPDATE_PROTOCOL_PARSER_ERROR
-"
-]
-=
-FAILURE
-(
-11
-)
-    
 #
 Specific
 errors
