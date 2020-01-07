@@ -1323,9 +1323,9 @@ console
 .
 log
 (
-_mod4
+_mod3
 .
-original
+aNamed
 )
 ;
 console
@@ -1418,9 +1418,9 @@ log
 (
 (
 0
-_mod9
+_mod8
 .
-original
+aNamed2
 )
 (
 )
@@ -1476,9 +1476,9 @@ console
 log
 (
 new
-_mod14
+_mod13
 .
-original
+aNamed3
 (
 )
 )
