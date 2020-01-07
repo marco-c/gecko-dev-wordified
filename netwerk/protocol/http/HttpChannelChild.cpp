@@ -486,13 +486,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMWindowUtils
 .
 h
