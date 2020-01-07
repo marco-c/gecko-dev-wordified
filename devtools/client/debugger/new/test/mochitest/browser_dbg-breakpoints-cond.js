@@ -344,6 +344,15 @@ simple2
 )
 ;
 await
+waitForSelectedSource
+(
+dbg
+"
+simple2
+"
+)
+;
+await
 setConditionalBreakpoint
 (
 dbg
