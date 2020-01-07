@@ -5372,7 +5372,10 @@ resized
 .
 WindowSize
 (
+Option
+<
 TopLevelBrowsingContextId
+>
 WindowSizeData
 WindowSizeType
 )

@@ -19820,7 +19820,10 @@ mut
 self
 top_level_browsing_context_id
 :
+Option
+<
 TopLevelBrowsingContextId
+>
 new_size
 :
 WindowSizeData
@@ -19849,6 +19852,15 @@ to_untyped
 )
 )
 ;
+if
+let
+Some
+(
+top_level_browsing_context_id
+)
+=
+top_level_browsing_context_id
+{
 let
 browsing_context_id
 =
@@ -19869,6 +19881,7 @@ size_type
 browsing_context_id
 )
 ;
+}
 if
 let
 Some
