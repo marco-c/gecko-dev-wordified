@@ -191,6 +191,8 @@ d
 s
 %
 s
+%
+s
 }
 "
           
@@ -264,6 +266,19 @@ else
 "
 false
 "
+             
+"
+|
+"
+.
+join
+(
+histogram
+.
+products_enum
+(
+)
+)
 )
 file
 =
