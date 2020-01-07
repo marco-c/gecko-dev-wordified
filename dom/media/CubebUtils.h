@@ -383,6 +383,16 @@ Side
 aSide
 )
 ;
+cubeb_channel_layout
+GetPreferredChannelLayoutOrSMPTE
+(
+cubeb
+*
+context
+uint32_t
+aChannels
+)
+;
 }
 /
 /

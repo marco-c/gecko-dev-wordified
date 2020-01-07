@@ -3554,15 +3554,10 @@ layout
 CubebUtils
 :
 :
-ConvertChannelMapToCubebLayout
+GetPreferredChannelLayoutOrSMPTE
 (
-CubebUtils
-:
-:
-PreferredChannelMap
-(
+cubebContext
 mOutputChannels
-)
 )
 ;
 Maybe
