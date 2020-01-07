@@ -8350,7 +8350,7 @@ mNetworkState
 nsMediaReadyState
 mReadyState
 =
-nsIDOMHTMLMediaElement
+HTMLMediaElementBinding
 :
 :
 HAVE_NOTHING

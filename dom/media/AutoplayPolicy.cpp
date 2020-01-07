@@ -153,6 +153,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+HTMLMediaElementBinding
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
@@ -472,7 +483,7 @@ ReadyState
 )
 >
 =
-nsIDOMHTMLMediaElement
+HTMLMediaElementBinding
 :
 :
 HAVE_METADATA
