@@ -540,9 +540,6 @@ have
 been
 restored
 .
-void
-browserPaintedPromise
-;
 extension
 .
 once
