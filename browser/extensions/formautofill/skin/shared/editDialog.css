@@ -67,6 +67,7 @@ flex
 ;
 }
 form
+div
 {
 flex
 -
@@ -74,6 +75,9 @@ wrap
 :
 wrap
 ;
+}
+form
+{
 /
 *
 Add
@@ -95,7 +99,6 @@ padding
 ;
 }
 form
->
 label
 form
 >
