@@ -4626,9 +4626,6 @@ scheme
 "
 host
 "
-"
-port
-"
 ]
 ;
 propertiesToCheck

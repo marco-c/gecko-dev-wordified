@@ -5611,9 +5611,6 @@ scheme
 "
 host
 "
-"
-port
-"
 ]
 ;
 propertiesToCheck
