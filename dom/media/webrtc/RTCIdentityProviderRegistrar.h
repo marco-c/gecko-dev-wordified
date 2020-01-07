@@ -277,12 +277,9 @@ nsAString
 &
 aOrigin
 const
-Optional
-<
-nsAString
->
+RTCIdentityProviderOptions
 &
-aUsernameHint
+aOptions
 ErrorResult
 &
 aRv
