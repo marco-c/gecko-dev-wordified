@@ -1217,27 +1217,6 @@ js
 /
 script
 >
-        
-<
-link
-rel
-=
-"
-stylesheet
-"
-href
-=
-"
-/
-w3c
-/
-resources
-/
-testharness
-.
-css
-"
->
     
 <
 /
