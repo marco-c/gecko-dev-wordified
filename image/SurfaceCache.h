@@ -509,10 +509,12 @@ return
 mSize
 ;
 }
+const
 Maybe
 <
 SVGImageContext
 >
+&
 SVGContext
 (
 )
