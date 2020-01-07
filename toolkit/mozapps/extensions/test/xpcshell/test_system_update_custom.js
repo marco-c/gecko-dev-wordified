@@ -608,7 +608,7 @@ prefs
 .
 setBoolPref
 (
-PREF_APP_UPDATE_ENABLED
+PREF_SYSTEM_ADDON_UPDATE_ENABLED
 true
 )
 ;
@@ -791,7 +791,7 @@ prefs
 .
 setBoolPref
 (
-PREF_APP_UPDATE_ENABLED
+PREF_SYSTEM_ADDON_UPDATE_ENABLED
 false
 )
 ;
@@ -866,7 +866,7 @@ prefs
 .
 clearUserPref
 (
-PREF_APP_UPDATE_ENABLED
+PREF_SYSTEM_ADDON_UPDATE_ENABLED
 )
 ;
 await
@@ -930,7 +930,7 @@ prefs
 .
 setBoolPref
 (
-PREF_APP_UPDATE_ENABLED
+PREF_SYSTEM_ADDON_UPDATE_ENABLED
 false
 )
 ;
@@ -1005,7 +1005,7 @@ prefs
 .
 clearUserPref
 (
-PREF_APP_UPDATE_ENABLED
+PREF_SYSTEM_ADDON_UPDATE_ENABLED
 )
 ;
 await

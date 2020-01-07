@@ -219,10 +219,12 @@ url
 "
 ;
 const
-PREF_APP_UPDATE_ENABLED
+PREF_SYSTEM_ADDON_UPDATE_ENABLED
 =
 "
-app
+extensions
+.
+systemAddon
 .
 update
 .
