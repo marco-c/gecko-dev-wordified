@@ -1591,7 +1591,7 @@ pop_clip_id
 )
 ;
 if
-false
+true
 {
 /
 /
