@@ -145,6 +145,9 @@ namespace
 js
 {
 class
+GlobalObject
+;
+class
 StringObject
 :
 public
@@ -442,7 +445,11 @@ InitStringClass
 JSContext
 *
 cx
-HandleObject
+Handle
+<
+GlobalObject
+*
+>
 global
 )
 ;

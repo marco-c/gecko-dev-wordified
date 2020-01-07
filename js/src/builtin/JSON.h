@@ -146,6 +146,9 @@ struct
 Class
 ;
 class
+GlobalObject
+;
+class
 StringBuffer
 ;
 extern
@@ -161,7 +164,11 @@ InitJSONClass
 JSContext
 *
 cx
-HandleObject
+Handle
+<
+GlobalObject
+*
+>
 obj
 )
 ;

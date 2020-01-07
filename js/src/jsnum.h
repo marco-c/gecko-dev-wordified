@@ -249,6 +249,9 @@ namespace
 js
 {
 class
+GlobalObject
+;
+class
 StringBuffer
 ;
 extern
@@ -297,8 +300,12 @@ InitNumberClass
 JSContext
 *
 cx
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 /

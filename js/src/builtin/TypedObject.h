@@ -915,6 +915,9 @@ TypedObject
 namespace
 js
 {
+class
+GlobalObject
+;
 /
 *
 *
@@ -6596,8 +6599,12 @@ cx
 JS
 :
 :
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 }

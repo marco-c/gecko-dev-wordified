@@ -6574,6 +6574,9 @@ fromUint32x4
 namespace
 js
 {
+class
+GlobalObject
+;
 /
 /
 Complete
@@ -8591,8 +8594,12 @@ InitSimdClass
 JSContext
 *
 cx
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 namespace

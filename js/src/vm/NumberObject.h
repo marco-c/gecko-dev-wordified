@@ -125,6 +125,9 @@ namespace
 js
 {
 class
+GlobalObject
+;
+class
 NumberObject
 :
 public
@@ -276,7 +279,11 @@ InitNumberClass
 JSContext
 *
 cx
-HandleObject
+Handle
+<
+GlobalObject
+*
+>
 global
 )
 ;

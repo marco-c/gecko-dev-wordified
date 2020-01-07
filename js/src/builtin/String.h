@@ -208,6 +208,9 @@ h
 namespace
 js
 {
+class
+GlobalObject
+;
 /
 *
 Initialize
@@ -229,8 +232,12 @@ InitStringClass
 JSContext
 *
 cx
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 extern

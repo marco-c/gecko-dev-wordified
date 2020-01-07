@@ -448,10 +448,10 @@ JSContext
 cx
 Handle
 <
-JSObject
+GlobalObject
 *
 >
-obj
+global
 )
 ;
 JS_FOR_EACH_PROTOTYPE
@@ -478,10 +478,10 @@ JSContext
 cx
 Handle
 <
-JSObject
+GlobalObject
 *
 >
-obj
+global
 )
 {
 MOZ_CRASH

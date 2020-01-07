@@ -172,6 +172,9 @@ namespace
 js
 {
 class
+GlobalObject
+;
+class
 AtomicsObject
 :
 public
@@ -1082,8 +1085,12 @@ InitAtomicsClass
 JSContext
 *
 cx
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 /

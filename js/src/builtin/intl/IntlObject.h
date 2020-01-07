@@ -147,6 +147,9 @@ js
 struct
 Class
 ;
+class
+GlobalObject
+;
 extern
 const
 Class
@@ -196,10 +199,10 @@ JS
 :
 Handle
 <
-JSObject
+GlobalObject
 *
 >
-obj
+global
 )
 ;
 /

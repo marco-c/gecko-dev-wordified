@@ -135,6 +135,9 @@ h
 namespace
 js
 {
+class
+GlobalObject
+;
 /
 /
 Abstract
@@ -222,8 +225,12 @@ InitWeakMapClass
 JSContext
 *
 cx
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 }

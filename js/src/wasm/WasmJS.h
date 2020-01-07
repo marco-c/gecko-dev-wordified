@@ -214,6 +214,9 @@ namespace
 js
 {
 class
+GlobalObject
+;
+class
 TypedArrayObject
 ;
 class
@@ -493,7 +496,11 @@ InitWebAssemblyClass
 JSContext
 *
 cx
-HandleObject
+Handle
+<
+GlobalObject
+*
+>
 global
 )
 ;

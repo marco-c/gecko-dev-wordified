@@ -133,6 +133,9 @@ h
 namespace
 js
 {
+class
+GlobalObject
+;
 extern
 JSObject
 *
@@ -144,8 +147,12 @@ cx
 js
 :
 :
-HandleObject
-obj
+Handle
+<
+GlobalObject
+*
+>
+global
 )
 ;
 extern
