@@ -239,6 +239,9 @@ script
 new_sandbox
 =
 False
+sandbox
+=
+None
 )
     
 def
@@ -583,7 +586,9 @@ closed
         
 self
 .
-marionette
+parent
+.
+base
 .
 execute_script
 (
@@ -751,7 +756,9 @@ raise
         
 self
 .
-marionette
+parent
+.
+base
 .
 execute_script
 (
@@ -1102,7 +1109,9 @@ win_s
 =
 self
 .
-marionette
+parent
+.
+base
 .
 execute_script
 (
@@ -2217,7 +2226,9 @@ message
         
 self
 .
-marionette
+parent
+.
+base
 .
 execute_script
 (
@@ -3431,7 +3442,7 @@ join
 (
 here
 "
-testharness_marionette
+testharness_webdriver
 .
 js
 "
@@ -3456,7 +3467,7 @@ join
 (
 here
 "
-testharness_marionette_resume
+testharness_webdriver_resume
 .
 js
 "
