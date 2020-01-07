@@ -2596,6 +2596,14 @@ ScriptLoadRequest
 aRequest
 )
 ;
+void
+AddAsyncRequest
+(
+ScriptLoadRequest
+*
+aRequest
+)
+;
 bool
 MaybeRemovedDeferRequests
 (
