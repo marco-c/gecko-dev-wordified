@@ -263,7 +263,7 @@ blob
 -
 images
 "
-1
+2
 )
 ;
 XPCOMUtils
