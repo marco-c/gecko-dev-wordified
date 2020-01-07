@@ -80,6 +80,10 @@ server
 actors
 /
 object
+/
+long
+-
+string
 "
 )
 ;

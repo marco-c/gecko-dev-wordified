@@ -80,6 +80,8 @@ server
 actors
 /
 object
+/
+symbol
 "
 )
 ;
