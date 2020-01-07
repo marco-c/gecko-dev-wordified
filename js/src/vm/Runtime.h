@@ -4917,7 +4917,9 @@ Number
 localization
 used
 by
-jsnum
+builtin
+/
+Number
 .
 cpp
 .

@@ -114,7 +114,9 @@ MPL
 #
 include
 "
-jsnum
+builtin
+/
+Number
 .
 h
 "

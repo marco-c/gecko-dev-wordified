@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsnum_h
+builtin_Number_h
 #
 define
-jsnum_h
+builtin_Number_h
 #
 include
 "
@@ -2165,6 +2165,6 @@ js
 endif
 /
 *
-jsnum_h
+builtin_Number_h
 *
 /

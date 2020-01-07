@@ -123,7 +123,9 @@ class
 #
 include
 "
-jsnum
+builtin
+/
+Number
 .
 h
 "
