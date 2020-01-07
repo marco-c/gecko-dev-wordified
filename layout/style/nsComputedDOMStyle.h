@@ -622,17 +622,6 @@ eWithoutAnimation
 )
 ;
 }
-static
-nsIPresShell
-*
-GetPresShellForContent
-(
-const
-nsIContent
-*
-aContent
-)
-;
 /
 /
 Helper

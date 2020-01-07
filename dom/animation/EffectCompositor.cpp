@@ -302,19 +302,6 @@ Forward
 #
 include
 "
-nsComputedDOMStyle
-.
-h
-"
-/
-/
-nsComputedDOMStyle
-:
-:
-GetPresShellForContent
-#
-include
-"
 nsContentUtils
 .
 h
@@ -1811,7 +1798,7 @@ documents
 if
 (
 !
-nsComputedDOMStyle
+nsContentUtils
 :
 :
 GetPresShellForContent
@@ -3177,7 +3164,7 @@ checked
 this
 MOZ_ASSERT
 (
-nsComputedDOMStyle
+nsContentUtils
 :
 :
 GetPresShellForContent
@@ -5905,7 +5892,7 @@ MOZ_ASSERT
 aRoot
 |
 |
-nsComputedDOMStyle
+nsContentUtils
 :
 :
 GetPresShellForContent
@@ -6305,7 +6292,7 @@ here
 if
 (
 !
-nsComputedDOMStyle
+nsContentUtils
 :
 :
 GetPresShellForContent
@@ -6953,7 +6940,7 @@ it
 if
 (
 !
-nsComputedDOMStyle
+nsContentUtils
 :
 :
 GetPresShellForContent
