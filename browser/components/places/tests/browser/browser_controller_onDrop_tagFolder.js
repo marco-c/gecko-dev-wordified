@@ -425,7 +425,7 @@ let
 ip
 =
 new
-InsertionPoint
+PlacesInsertionPoint
 (
 {
 isTag
