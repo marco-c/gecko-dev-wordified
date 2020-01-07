@@ -4641,6 +4641,7 @@ offsetToUserSpaceInDevPx
 ;
 }
 ;
+static
 EffectOffsets
 ComputeEffectOffset
 (

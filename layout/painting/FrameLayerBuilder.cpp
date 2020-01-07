@@ -11227,6 +11227,7 @@ mTextureClient
 ;
 }
 ;
+static
 PaintedDisplayItemLayerUserData
 *
 GetPaintedDisplayItemLayerUserData
@@ -11521,6 +11522,10 @@ return
 nullptr
 ;
 }
+#
+ifdef
+MOZ_DUMP_PAINTING
+static
 nsACString
 &
 AppendToString
@@ -11599,6 +11604,7 @@ s
 sfx
 ;
 }
+static
 nsACString
 &
 AppendToString
@@ -11693,6 +11699,11 @@ s
 sfx
 ;
 }
+#
+endif
+/
+/
+MOZ_DUMP_PAINTING
 /
 *
 *
@@ -25503,6 +25514,7 @@ return
 nullptr
 ;
 }
+static
 CSSMaskLayerUserData
 *
 GetCSSMaskLayerUserData
@@ -25540,6 +25552,7 @@ gCSSMaskLayerUserData
 )
 ;
 }
+static
 void
 SetCSSMaskLayerUserData
 (
@@ -33501,6 +33514,7 @@ return
 nullptr
 ;
 }
+static
 const
 ActiveScrolledRoot
 *
@@ -42400,6 +42414,7 @@ return
 aRoundedRectClipCount
 ;
 }
+static
 MaskLayerUserData
 *
 GetMaskLayerUserData
@@ -42437,6 +42452,7 @@ gMaskLayerUserData
 )
 ;
 }
+static
 void
 SetMaskLayerUserData
 (

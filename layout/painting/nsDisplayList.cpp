@@ -18638,6 +18638,7 @@ frames
 to
 the
 destination
+static
 void
 FlushFramesArray
 (
@@ -23185,11 +23186,7 @@ return
 f
 ;
 }
-/
-*
 static
-*
-/
 void
 SetBackgroundClipRegion
 (

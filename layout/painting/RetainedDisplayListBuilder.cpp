@@ -430,6 +430,7 @@ using
 namespace
 mozilla
 ;
+static
 void
 MarkFramesWithItemsAndImagesModified
 (
@@ -672,6 +673,7 @@ GetChildren
 }
 }
 }
+static
 bool
 IsAnyAncestorModified
 (
@@ -1152,6 +1154,7 @@ return
 modified
 ;
 }
+static
 bool
 IsSameItem
 (
@@ -2157,6 +2160,7 @@ presShell
 )
 ;
 }
+static
 void
 UpdateASR
 (

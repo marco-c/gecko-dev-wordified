@@ -648,6 +648,7 @@ state
 for
 debugging
 .
+static
 :
 :
 std

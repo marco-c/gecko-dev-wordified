@@ -1460,6 +1460,7 @@ cpp
 .
 .
 .
+static
 void
 ShowStatus
 (

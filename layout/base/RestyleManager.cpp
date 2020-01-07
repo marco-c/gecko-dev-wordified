@@ -5607,6 +5607,7 @@ be
 performed
 instead
 .
+static
 bool
 RecomputePosition
 (

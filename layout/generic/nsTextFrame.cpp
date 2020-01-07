@@ -36854,6 +36854,7 @@ NS_DECLARE_FRAME_PROPERTY_DELETABLE
 EmphasisMarkProperty
 EmphasisMarkInfo
 )
+static
 already_AddRefed
 <
 gfxTextRun

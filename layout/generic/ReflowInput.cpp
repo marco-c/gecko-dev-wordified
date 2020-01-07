@@ -15135,6 +15135,7 @@ only
 used
 in
 CalcQuirkContainingBlockHeight
+static
 nscoord
 GetBlockMarginBorderPadding
 (

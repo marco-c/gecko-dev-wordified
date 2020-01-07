@@ -1158,6 +1158,7 @@ RefreshZoomConstraints
 )
 ;
 }
+static
 mozilla
 :
 :

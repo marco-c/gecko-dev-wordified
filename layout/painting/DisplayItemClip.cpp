@@ -1080,6 +1080,7 @@ radii
 aXRadius
 aYRadius
 .
+static
 bool
 IsInsideEllipse
 (

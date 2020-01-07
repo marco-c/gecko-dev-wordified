@@ -674,6 +674,7 @@ back
 /
 asynchronously
 .
+static
 void
 FireImageDOMEvent
 (

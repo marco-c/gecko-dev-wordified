@@ -8374,6 +8374,7 @@ itemIdxInContainer
 }
 }
 }
+static
 uint8_t
 SimplifyAlignOrJustifyContentForOneItem
 (
@@ -18364,6 +18365,7 @@ flexbox
 /
 #
 painting
+static
 uint32_t
 GetDisplayFlagsForFlexItem
 (

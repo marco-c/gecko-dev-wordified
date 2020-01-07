@@ -1649,8 +1649,6 @@ intialization
 for
 this
 module
-/
-/
 static
 nsresult
 Initialize

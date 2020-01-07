@@ -22595,6 +22595,7 @@ SetNeedLayoutFlush
 )
 ;
 }
+static
 bool
 FlushLayoutRecursive
 (
@@ -41404,6 +41405,7 @@ this
 endif
 }
 }
+static
 nsIFrame
 *
 GetNearestFrameContainingPresShell

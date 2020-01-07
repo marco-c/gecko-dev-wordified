@@ -11492,6 +11492,7 @@ the
 sorting
 functions
 .
+static
 bool
 IsBoxOrdinalLEQ
 (

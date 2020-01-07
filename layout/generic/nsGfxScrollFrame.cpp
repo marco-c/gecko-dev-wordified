@@ -6239,6 +6239,7 @@ their
 current
 position
 .
+static
 void
 GetScrollableOverflowForPerspective
 (
@@ -16310,11 +16311,7 @@ NS_STYLE_OVERFLOW_HIDDEN
 )
 ;
 }
-/
-*
 static
-*
-/
 void
 RemoveDisplayPortCallback
 (
@@ -41980,6 +41977,7 @@ aOutCoords
 .
 *
 /
+static
 void
 CollectScrollSnapCoordinates
 (
@@ -42261,6 +42259,7 @@ aOutCoords
 }
 }
 }
+static
 layers
 :
 :

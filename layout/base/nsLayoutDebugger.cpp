@@ -430,6 +430,7 @@ NS_OK
 }
 #
 endif
+static
 std
 :
 :

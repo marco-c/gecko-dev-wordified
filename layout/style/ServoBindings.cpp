@@ -2263,6 +2263,7 @@ UnsetDirty
 )
 ;
 }
+static
 const
 RawServoDeclarationBlockStrong
 *

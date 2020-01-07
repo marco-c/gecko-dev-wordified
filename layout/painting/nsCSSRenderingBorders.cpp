@@ -22163,6 +22163,7 @@ return
 true
 ;
 }
+static
 bool
 IsVisible
 (

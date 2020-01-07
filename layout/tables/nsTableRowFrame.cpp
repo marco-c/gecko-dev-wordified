@@ -1836,6 +1836,7 @@ nsMargin
 )
 ;
 }
+static
 nscoord
 GetBSizeOfRowsSpannedBelowFirst
 (
@@ -4266,6 +4267,7 @@ return
 cellAvailISize
 ;
 }
+static
 nscoord
 GetSpaceBetween
 (
