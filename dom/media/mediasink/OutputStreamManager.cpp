@@ -461,7 +461,7 @@ aFinishWhenEnded
 aStream
 -
 >
-SetAutofinish
+QueueSetAutofinish
 (
 true
 )
