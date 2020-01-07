@@ -3532,7 +3532,7 @@ open
 *
 *
 param
-nsIDOMElement
+Element
 popup
 *
 The
@@ -3545,7 +3545,7 @@ open
 .
 *
 param
-nsIDOMElement
+Element
 button
 *
 The

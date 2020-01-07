@@ -1931,7 +1931,7 @@ container
 *
 param
 {
-nsIDOMElement
+Element
 }
 container
 a

@@ -1482,11 +1482,11 @@ attacks
 *
 *
 param
-nsIDOMElement
+Element
 inputField
 *
 param
-nsIDOMElement
+Element
 notificationBox
 *
 returns

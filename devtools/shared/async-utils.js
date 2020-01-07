@@ -187,7 +187,7 @@ promise
 .
 *
 param
-nsIDOMElement
+Element
 element
 *
 The

@@ -326,6 +326,10 @@ Assert
 .
 ok
 (
+Element
+.
+isInstance
+(
 doc
 .
 getElementById
@@ -336,8 +340,7 @@ test
 +
 i
 )
-instanceof
-nsIDOMElement
+)
 )
 ;
 Assert
@@ -940,6 +943,10 @@ Assert
 .
 ok
 (
+Element
+.
+isInstance
+(
 doc
 .
 getElementById
@@ -950,8 +957,7 @@ test
 +
 i
 )
-instanceof
-nsIDOMElement
+)
 )
 ;
 Assert

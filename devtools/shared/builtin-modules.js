@@ -266,6 +266,7 @@ ChromeUtils
 CSS
 CSSRule
 DOMParser
+Element
 Event
 FileReader
 FormData
@@ -319,6 +320,9 @@ CSSRule
 "
 "
 DOMParser
+"
+"
+Element
 "
 "
 Event
@@ -1727,10 +1731,6 @@ module
 }
 DOMParser
 Element
-:
-Ci
-.
-nsIDOMElement
 Event
 FormData
 isWorker

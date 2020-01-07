@@ -680,7 +680,7 @@ caches
 *
 param
 {
-nsIDOMElement
+Element
 }
 aViewedElement
 the
@@ -3735,7 +3735,7 @@ longer
 *
 param
 {
-nsIDOMElement
+Element
 }
 element
 the

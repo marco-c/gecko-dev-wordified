@@ -6264,7 +6264,7 @@ use
 .
 *
 param
-nsIDOMElement
+Element
 frame
 *
 The

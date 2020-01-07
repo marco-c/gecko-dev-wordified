@@ -921,7 +921,7 @@ tab
 *
 param
 {
-nsIDOMElement
+Element
 }
 tab
 *

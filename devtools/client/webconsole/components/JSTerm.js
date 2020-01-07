@@ -1705,7 +1705,7 @@ display
 .
 *
 type
-nsIDOMElement
+Element
 *
 /
 get

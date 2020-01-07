@@ -2043,7 +2043,7 @@ open
 .
 *
 type
-nsIDOMElement
+Element
 *
 /
 get
@@ -2083,7 +2083,7 @@ display
 .
 *
 type
-nsIDOMElement
+Element
 *
 /
 get

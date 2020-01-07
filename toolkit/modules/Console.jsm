@@ -1305,7 +1305,7 @@ element
 *
 param
 {
-nsIDOMElement
+Element
 }
 aElement
 *

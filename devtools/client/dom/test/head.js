@@ -492,7 +492,7 @@ tab
 *
 param
 {
-nsIDOMElement
+Element
 }
 tab
 *
@@ -1585,12 +1585,9 @@ count
 0
 ;
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -1625,7 +1622,7 @@ count
 eventRepeat
 )
 {
-yield
+await
 _afterDispatchDone
 (
 store
@@ -1656,6 +1653,8 @@ s
 ;
 }
 }
+)
+(
 )
 ;
 }

@@ -5006,7 +5006,7 @@ class
 *
 param
 {
-nsIDOMElement
+Element
 }
 elt
 *

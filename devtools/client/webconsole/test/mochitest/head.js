@@ -3118,7 +3118,7 @@ given
 *
 *
 param
-nsIDOMElement
+Element
 tab
 *
 Optional
@@ -3224,7 +3224,7 @@ tab
 *
 *
 param
-nsIDOMElement
+Element
 [
 tab
 ]

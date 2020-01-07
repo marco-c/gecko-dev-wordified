@@ -1324,7 +1324,7 @@ nsIHttpChannel
 request
 *
 returns
-nsIDOMElement
+Element
 |
 null
 *

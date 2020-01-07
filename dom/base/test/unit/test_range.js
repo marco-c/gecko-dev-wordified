@@ -952,11 +952,12 @@ Assert
 .
 ok
 (
-aSourceNode
-instanceof
-Ci
+Element
 .
-nsIDOMElement
+isInstance
+(
+aSourceNode
+)
 )
 ;
 Assert

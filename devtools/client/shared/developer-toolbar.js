@@ -5372,7 +5372,7 @@ tab
 *
 *
 param
-nsIDOMElement
+Element
 tab
 The
 xul

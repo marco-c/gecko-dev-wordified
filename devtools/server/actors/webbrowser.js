@@ -1802,7 +1802,7 @@ browser
 .
 *
 return
-nsIDOMElement
+Element
 |
 null
 *

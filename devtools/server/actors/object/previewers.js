@@ -3684,11 +3684,12 @@ break
 else
 if
 (
-rawObj
-instanceof
-Ci
+Element
 .
-nsIDOMElement
+isInstance
+(
+rawObj
+)
 )
 {
 /
