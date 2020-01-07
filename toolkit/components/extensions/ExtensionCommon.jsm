@@ -726,6 +726,16 @@ apiName
 ;
 if
 (
+!
+api
+)
+{
+return
+null
+;
+}
+if
+(
 api
 .
 loadPromise
