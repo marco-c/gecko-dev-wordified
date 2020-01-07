@@ -221,7 +221,7 @@ IntlGuardToCollator
 \
 _
 (
-IntlIsDateTimeFormat
+IntlGuardToDateTimeFormat
 )
 \
 _

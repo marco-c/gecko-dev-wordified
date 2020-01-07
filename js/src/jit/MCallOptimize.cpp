@@ -901,10 +901,10 @@ case
 InlinableNative
 :
 :
-IntlIsDateTimeFormat
+IntlGuardToDateTimeFormat
 :
 return
-inlineHasClass
+inlineGuardToClass
 (
 callInfo
 &
