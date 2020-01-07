@@ -1565,6 +1565,19 @@ return
 false
 ;
 }
+HasGcTypes
+gcTypesEnabled
+=
+code
+(
+)
+.
+metadata
+(
+)
+.
+temporaryHasGcTypes
+;
 Maybe
 <
 size_t
@@ -1579,6 +1592,7 @@ stubs2
 >
 createTier2
 (
+gcTypesEnabled
 funcExportIndices
 *
 tier2

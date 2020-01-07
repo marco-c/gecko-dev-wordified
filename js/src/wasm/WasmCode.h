@@ -3115,6 +3115,8 @@ lastStubSegmentIndex_
 bool
 createMany
 (
+HasGcTypes
+gcTypesEnabled
 const
 Uint32Vector
 &
@@ -3282,6 +3284,8 @@ tier2
 bool
 createTier2
 (
+HasGcTypes
+gcTypesEnabled
 const
 Uint32Vector
 &
