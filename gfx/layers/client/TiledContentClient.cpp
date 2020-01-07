@@ -3808,6 +3808,15 @@ SetEmpty
 ;
 }
 }
+else
+{
+mInvalidBack
+.
+SetEmpty
+(
+)
+;
+}
 }
 }
 }
