@@ -1142,9 +1142,6 @@ parent
 nsIPrintSettings
 *
 printSettings
-nsIObserver
-*
-aObs
 )
 {
 return
