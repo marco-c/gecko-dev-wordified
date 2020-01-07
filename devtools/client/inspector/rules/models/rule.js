@@ -489,12 +489,6 @@ keyframes
 |
 null
 ;
-this
-.
-_modificationDepth
-=
-0
-;
 if
 (
 this
