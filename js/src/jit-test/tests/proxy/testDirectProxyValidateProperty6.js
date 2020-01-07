@@ -76,7 +76,6 @@ function
 value
 )
 {
-i
 target
 .
 foo
