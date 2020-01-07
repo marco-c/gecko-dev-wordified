@@ -158,7 +158,7 @@ reject
 =
 >
 {
-let
+const
 interval
 =
 setInterval
@@ -168,7 +168,7 @@ setInterval
 =
 >
 {
-let
+const
 action
 =
 PageActions
@@ -296,7 +296,7 @@ reject
 =
 >
 {
-let
+const
 interval
 =
 setInterval
@@ -306,7 +306,7 @@ setInterval
 =
 >
 {
-let
+const
 action
 =
 PageActions

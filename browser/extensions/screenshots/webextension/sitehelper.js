@@ -75,7 +75,7 @@ content
 script
 gets
 :
-let
+const
 ContentXMLHttpRequest
 =
 content
@@ -114,6 +114,7 @@ if
 (
 typeof
 detail
+=
 =
 =
 "
@@ -299,6 +300,7 @@ ContentXMLHttpRequest
 )
 !
 =
+=
 "
 function
 XMLHttpRequest
@@ -332,7 +334,7 @@ XMLHttpRequest
 return
 ;
 }
-let
+const
 req
 =
 new
@@ -361,7 +363,7 @@ cookie
 ;
 for
 (
-let
+const
 name
 in
 authHeaders
@@ -402,6 +404,7 @@ req
 .
 status
 !
+=
 =
 200
 )
@@ -498,7 +501,7 @@ event
 =
 >
 {
-let
+const
 shotId
 =
 event

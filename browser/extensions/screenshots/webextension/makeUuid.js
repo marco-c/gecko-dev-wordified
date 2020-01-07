@@ -45,7 +45,7 @@ unsigned
 bit
 random
 values
-var
+const
 randomValues
 =
 window
@@ -62,7 +62,7 @@ Uint8Array
 )
 ;
 return
-'
+"
 xxxxxxxx
 -
 xxxx
@@ -72,7 +72,7 @@ xxxx
 yxxx
 -
 xxxxxxxxxxxx
-'
+"
 .
 replace
 (
@@ -87,7 +87,7 @@ function
 c
 )
 {
-var
+const
 i
 =
 Array
@@ -116,7 +116,7 @@ grab
 the
 offset
 parameter
-var
+const
 r
 =
 randomValues
@@ -133,9 +133,9 @@ c
 =
 =
 =
-'
+"
 x
-'
+"
 ?
 r
 :

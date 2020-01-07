@@ -75,7 +75,7 @@ function
 (
 )
 {
-let
+const
 exports
 =
 {
@@ -430,7 +430,7 @@ reject
 =
 >
 {
-let
+const
 tag
 =
 document
@@ -480,7 +480,7 @@ error
 =
 >
 {
-let
+const
 exc
 =
 new

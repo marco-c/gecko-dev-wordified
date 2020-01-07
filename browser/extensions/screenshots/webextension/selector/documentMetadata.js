@@ -106,7 +106,7 @@ getOpenGraph
 (
 )
 {
-let
+const
 openGraph
 =
 {
@@ -126,7 +126,7 @@ shot
 .
 js
 :
-let
+const
 forceSingle
 =
 title
@@ -139,7 +139,7 @@ split
 "
 )
 ;
-let
+const
 openGraphProperties
 =
 title
@@ -237,7 +237,7 @@ g
 ;
 for
 (
-let
+const
 prop
 of
 openGraphProperties
@@ -310,13 +310,13 @@ value
 ;
 for
 (
-let
+const
 elem
 of
 elems
 )
 {
-let
+const
 v
 =
 elem
@@ -406,7 +406,7 @@ getTwitterCard
 (
 )
 {
-let
+const
 twitterCard
 =
 {
@@ -426,7 +426,7 @@ shot
 .
 js
 :
-let
+const
 properties
 =
 card
@@ -462,13 +462,13 @@ g
 ;
 for
 (
-let
+const
 prop
 of
 properties
 )
 {
-let
+const
 elem
 =
 document
@@ -494,7 +494,7 @@ if
 elem
 )
 {
-let
+const
 value
 =
 elem
@@ -531,7 +531,7 @@ documentMetadata
 (
 )
 {
-let
+const
 result
 =
 {

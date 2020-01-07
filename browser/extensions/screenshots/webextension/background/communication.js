@@ -19,13 +19,13 @@ function
 (
 )
 {
-let
+const
 exports
 =
 {
 }
 ;
-let
+const
 registeredFunctions
 =
 {
@@ -145,7 +145,7 @@ args
 return
 ;
 }
-let
+const
 func
 =
 registeredFunctions
@@ -345,7 +345,6 @@ popupMessage
 )
 ;
 return
-true
 ;
 }
 sendResponse
@@ -497,9 +496,9 @@ result
 name
 |
 |
-'
+"
 unknown
-'
+"
 }
 )
 ;
@@ -550,9 +549,9 @@ false
 }
 return
 (
-'
+"
 errorCode
-'
+"
 in
 error
 &

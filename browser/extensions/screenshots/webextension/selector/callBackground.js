@@ -83,7 +83,7 @@ error
 "
 )
 {
-let
+const
 exc
 =
 new
@@ -110,9 +110,9 @@ BackgroundError
 ;
 if
 (
-'
+"
 errorCode
-'
+"
 in
 result
 )
@@ -128,9 +128,9 @@ errorCode
 }
 if
 (
-'
+"
 popupMessage
-'
+"
 in
 result
 )
@@ -163,7 +163,7 @@ result
 result
 )
 ;
-let
+const
 exc
 =
 new

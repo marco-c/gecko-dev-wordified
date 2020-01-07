@@ -72,7 +72,7 @@ if
 event
 )
 {
-let
+const
 exc
 =
 new
@@ -106,7 +106,7 @@ event
 isTrusted
 )
 {
-let
+const
 exc
 =
 new

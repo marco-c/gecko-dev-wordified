@@ -218,7 +218,7 @@ displayAspectRatio
 /
 4
 ;
-let
+const
 imageAspectRatio
 =
 imageWidth
@@ -254,7 +254,7 @@ y
 crop
 on
 x
-let
+const
 yScaleFactor
 =
 (
@@ -324,7 +324,7 @@ x
 crop
 on
 y
-let
+const
 xScaleFactor
 =
 (
@@ -587,7 +587,7 @@ null
 )
 ;
 }
-let
+const
 thumbnailDimensions
 =
 getThumbnailDimensions
@@ -607,7 +607,7 @@ reject
 =
 >
 {
-let
+const
 thumbnailImage
 =
 new
@@ -735,9 +735,9 @@ document
 .
 createElement
 (
-'
+"
 canvas
-'
+"
 )
 ;
 thumbnailCanvas
@@ -1012,6 +1012,7 @@ if
 typeof
 exports
 !
+=
 =
 "
 undefined
