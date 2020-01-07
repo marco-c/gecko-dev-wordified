@@ -1047,14 +1047,6 @@ talos
 -
 powers
 '
-                     
-'
-{
-talos
-}
-/
-pageloader
-'
 ]
             
 help
