@@ -939,6 +939,9 @@ IVRSystem
 *
 mVRSystem
 ;
+bool
+mIsWindowsMR
+;
 }
 ;
 }
