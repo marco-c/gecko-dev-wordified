@@ -8332,16 +8332,12 @@ Animation
 aAnimations
 )
 ;
-virtual
-void
+NS_IMETHOD
 GetInnerHTML
 (
 nsAString
 &
 aInnerHTML
-ErrorResult
-&
-aError
 )
 ;
 virtual

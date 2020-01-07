@@ -753,7 +753,7 @@ aNotify
 )
 ;
 }
-void
+NS_IMETHODIMP
 HTMLScriptElement
 :
 :
@@ -762,9 +762,6 @@ GetInnerHTML
 nsAString
 &
 aInnerHTML
-ErrorResult
-&
-aRv
 )
 {
 if
@@ -782,14 +779,13 @@ fallible
 )
 )
 {
-aRv
-.
-Throw
-(
+return
 NS_ERROR_OUT_OF_MEMORY
-)
 ;
 }
+return
+NS_OK
+;
 }
 void
 HTMLScriptElement
