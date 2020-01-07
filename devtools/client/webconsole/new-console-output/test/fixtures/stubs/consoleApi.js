@@ -110,7 +110,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
@@ -122,7 +121,6 @@ foobar
 test
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -446,14 +444,12 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
 (
 undefined
 )
-"
 new
 ConsoleMessage
 (
@@ -783,7 +779,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 warn
@@ -795,7 +790,6 @@ robinson
 !
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -1117,14 +1111,12 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
 (
 NaN
 )
-"
 new
 ConsoleMessage
 (
@@ -1454,14 +1446,12 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
 (
 null
 )
-"
 new
 ConsoleMessage
 (
@@ -1791,7 +1781,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
@@ -1799,7 +1788,6 @@ log
 '
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -2113,13 +2101,11 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 clear
 (
 )
-"
 new
 ConsoleMessage
 (
@@ -2441,7 +2427,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 count
@@ -2450,7 +2435,6 @@ count
 bar
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -2766,7 +2750,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 assert
@@ -2780,7 +2763,6 @@ foobar
 '
 }
 )
-"
 new
 ConsoleMessage
 (
@@ -3435,7 +3417,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
@@ -3453,7 +3434,6 @@ world
 !
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -3791,7 +3771,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
@@ -3800,7 +3779,6 @@ log
 d
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -4116,14 +4094,12 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 dirxml
 (
 window
 )
-"
 new
 ConsoleMessage
 (
@@ -4671,7 +4647,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
@@ -4691,7 +4666,6 @@ blue
 '
 ]
 )
-"
 new
 ConsoleMessage
 (
@@ -5207,7 +5181,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
@@ -5223,7 +5196,6 @@ b
 c
 /
 )
-"
 new
 ConsoleMessage
 (
@@ -5687,7 +5659,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 table
@@ -5705,7 +5676,6 @@ blue
 ]
 )
 ;
-"
 new
 ConsoleMessage
 (
@@ -6213,7 +6183,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
@@ -6240,7 +6209,6 @@ blueValue
 }
 )
 ;
-"
 new
 ConsoleMessage
 (
@@ -6976,7 +6944,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 debug
@@ -6987,7 +6954,6 @@ message
 '
 )
 ;
-"
 new
 ConsoleMessage
 (
@@ -7305,7 +7271,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 info
@@ -7316,7 +7281,6 @@ message
 '
 )
 ;
-"
 new
 ConsoleMessage
 (
@@ -7634,7 +7598,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 error
@@ -7645,7 +7608,6 @@ message
 '
 )
 ;
-"
 new
 ConsoleMessage
 (
@@ -8026,7 +7988,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
@@ -8035,7 +7996,6 @@ log
 mymap
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -8567,7 +8527,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
@@ -8576,7 +8535,6 @@ log
 myset
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -9084,13 +9042,11 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 trace
 (
 )
-"
 new
 ConsoleMessage
 (
@@ -9585,7 +9541,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 time
@@ -9594,7 +9549,6 @@ time
 bar
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -9900,9 +9854,7 @@ stubPreparedMessages
 .
 set
 (
-"
 timerAlreadyExists
-"
 new
 ConsoleMessage
 (
@@ -10222,7 +10174,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 timeEnd
@@ -10231,7 +10182,6 @@ timeEnd
 bar
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -10551,9 +10501,7 @@ stubPreparedMessages
 .
 set
 (
-"
 timerDoesntExist
-"
 new
 ConsoleMessage
 (
@@ -10875,7 +10823,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 table
@@ -10884,7 +10831,6 @@ table
 bar
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -11200,7 +11146,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 table
@@ -11217,7 +11162,6 @@ c
 '
 ]
 )
-"
 new
 ConsoleMessage
 (
@@ -11725,7 +11669,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 group
@@ -11734,7 +11677,6 @@ group
 bar
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -12050,7 +11992,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 groupEnd
@@ -12059,7 +12000,6 @@ groupEnd
 bar
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -12365,7 +12305,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 groupCollapsed
@@ -12374,7 +12313,6 @@ groupCollapsed
 foo
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -12690,7 +12628,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 groupEnd
@@ -12699,7 +12636,6 @@ groupEnd
 foo
 '
 )
-"
 new
 ConsoleMessage
 (
@@ -13005,13 +12941,11 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 group
 (
 )
-"
 new
 ConsoleMessage
 (
@@ -13335,13 +13269,11 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 groupEnd
 (
 )
-"
 new
 ConsoleMessage
 (
@@ -13647,7 +13579,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 log
@@ -13655,7 +13586,6 @@ log
 %
 cfoobar
 )
-"
 new
 ConsoleMessage
 (
@@ -14103,7 +14033,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 group
@@ -14113,7 +14042,6 @@ cfoo
 %
 cbar
 )
-"
 new
 ConsoleMessage
 (
@@ -14561,7 +14489,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 groupEnd
@@ -14571,7 +14498,6 @@ cfoo
 %
 cbar
 )
-"
 new
 ConsoleMessage
 (
@@ -14877,7 +14803,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 groupCollapsed
@@ -14887,7 +14812,6 @@ cfoo
 %
 cbaz
 )
-"
 new
 ConsoleMessage
 (
@@ -15335,7 +15259,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 groupEnd
@@ -15345,7 +15268,6 @@ cfoo
 %
 cbaz
 )
-"
 new
 ConsoleMessage
 (
@@ -15651,7 +15573,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 dir
@@ -15663,7 +15584,6 @@ Y
 K
 }
 )
-"
 new
 ConsoleMessage
 (
@@ -16459,7 +16379,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 count
@@ -16467,7 +16386,6 @@ count
 default
 :
 1
-"
 new
 ConsoleMessage
 (
@@ -16783,7 +16701,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 count
@@ -16791,7 +16708,6 @@ count
 default
 :
 2
-"
 new
 ConsoleMessage
 (
@@ -17107,7 +17023,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 count
@@ -17116,7 +17031,6 @@ test
 counter
 :
 1
-"
 new
 ConsoleMessage
 (
@@ -17434,7 +17348,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 count
@@ -17443,7 +17356,6 @@ test
 counter
 :
 2
-"
 new
 ConsoleMessage
 (
@@ -17761,7 +17673,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 count
@@ -17769,7 +17680,6 @@ count
 default
 :
 3
-"
 new
 ConsoleMessage
 (
@@ -18085,13 +17995,11 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 count
 |
 clear
-"
 new
 ConsoleMessage
 (
@@ -18413,7 +18321,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 count
@@ -18421,7 +18328,6 @@ count
 default
 :
 4
-"
 new
 ConsoleMessage
 (
@@ -18737,7 +18643,6 @@ stubPreparedMessages
 .
 set
 (
-"
 console
 .
 count
@@ -18746,7 +18651,6 @@ test
 counter
 :
 3
-"
 new
 ConsoleMessage
 (
@@ -19064,7 +18968,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
@@ -19076,7 +18979,6 @@ foobar
 test
 '
 )
-"
 {
 "
 from
@@ -19248,14 +19150,12 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
 (
 undefined
 )
-"
 {
 "
 from
@@ -19430,7 +19330,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 warn
@@ -19442,7 +19341,6 @@ robinson
 !
 '
 )
-"
 {
 "
 from
@@ -19614,14 +19512,12 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
 (
 NaN
 )
-"
 {
 "
 from
@@ -19796,14 +19692,12 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
 (
 null
 )
-"
 {
 "
 from
@@ -19978,7 +19872,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
@@ -19986,7 +19879,6 @@ log
 '
 '
 )
-"
 {
 "
 from
@@ -20154,13 +20046,11 @@ stubPackets
 .
 set
 (
-"
 console
 .
 clear
 (
 )
-"
 {
 "
 from
@@ -20326,7 +20216,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 count
@@ -20335,7 +20224,6 @@ count
 bar
 '
 )
-"
 {
 "
 from
@@ -20517,7 +20405,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 assert
@@ -20531,7 +20418,6 @@ foobar
 '
 }
 )
-"
 {
 "
 from
@@ -20883,7 +20769,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
@@ -20901,7 +20786,6 @@ world
 !
 '
 )
-"
 {
 "
 from
@@ -21079,7 +20963,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
@@ -21088,7 +20971,6 @@ log
 d
 '
 )
-"
 {
 "
 from
@@ -21257,14 +21139,12 @@ stubPackets
 .
 set
 (
-"
 console
 .
 dirxml
 (
 window
 )
-"
 {
 "
 from
@@ -21535,7 +21415,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
@@ -21555,7 +21434,6 @@ blue
 '
 ]
 )
-"
 {
 "
 from
@@ -21806,7 +21684,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
@@ -21822,7 +21699,6 @@ b
 c
 /
 )
-"
 {
 "
 from
@@ -22053,7 +21929,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 table
@@ -22071,7 +21946,6 @@ blue
 ]
 )
 ;
-"
 {
 "
 from
@@ -22319,7 +22193,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
@@ -22346,7 +22219,6 @@ blueValue
 }
 )
 ;
-"
 {
 "
 from
@@ -22689,7 +22561,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 debug
@@ -22700,7 +22571,6 @@ message
 '
 )
 ;
-"
 {
 "
 from
@@ -22870,7 +22740,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 info
@@ -22881,7 +22750,6 @@ message
 '
 )
 ;
-"
 {
 "
 from
@@ -23051,7 +22919,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 error
@@ -23062,7 +22929,6 @@ message
 '
 )
 ;
-"
 {
 "
 from
@@ -23300,7 +23166,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
@@ -23309,7 +23174,6 @@ log
 mymap
 '
 )
-"
 {
 "
 from
@@ -23567,7 +23431,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
@@ -23576,7 +23439,6 @@ log
 myset
 '
 )
-"
 {
 "
 from
@@ -23824,13 +23686,11 @@ stubPackets
 .
 set
 (
-"
 console
 .
 trace
 (
 )
-"
 {
 "
 from
@@ -24188,7 +24048,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 time
@@ -24197,7 +24056,6 @@ time
 bar
 '
 )
-"
 {
 "
 from
@@ -24374,9 +24232,7 @@ stubPackets
 .
 set
 (
-"
 timerAlreadyExists
-"
 {
 "
 from
@@ -24560,7 +24416,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 timeEnd
@@ -24569,7 +24424,6 @@ timeEnd
 bar
 '
 )
-"
 {
 "
 from
@@ -24753,9 +24607,7 @@ stubPackets
 .
 set
 (
-"
 timerDoesntExist
-"
 {
 "
 from
@@ -24939,7 +24791,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 table
@@ -24948,7 +24799,6 @@ table
 bar
 '
 )
-"
 {
 "
 from
@@ -25117,7 +24967,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 table
@@ -25134,7 +24983,6 @@ c
 '
 ]
 )
-"
 {
 "
 from
@@ -25382,7 +25230,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 group
@@ -25391,7 +25238,6 @@ group
 bar
 '
 )
-"
 {
 "
 from
@@ -25561,7 +25407,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 groupEnd
@@ -25570,7 +25415,6 @@ groupEnd
 bar
 '
 )
-"
 {
 "
 from
@@ -25737,7 +25581,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 groupCollapsed
@@ -25746,7 +25589,6 @@ groupCollapsed
 foo
 '
 )
-"
 {
 "
 from
@@ -25916,7 +25758,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 groupEnd
@@ -25925,7 +25766,6 @@ groupEnd
 foo
 '
 )
-"
 {
 "
 from
@@ -26092,13 +25932,11 @@ stubPackets
 .
 set
 (
-"
 console
 .
 group
 (
 )
-"
 {
 "
 from
@@ -26264,13 +26102,11 @@ stubPackets
 .
 set
 (
-"
 console
 .
 groupEnd
 (
 )
-"
 {
 "
 from
@@ -26436,7 +26272,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 log
@@ -26444,7 +26279,6 @@ log
 %
 cfoobar
 )
-"
 {
 "
 from
@@ -26676,7 +26510,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 group
@@ -26686,7 +26519,6 @@ cfoo
 %
 cbar
 )
-"
 {
 "
 from
@@ -26920,7 +26752,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 groupEnd
@@ -26930,7 +26761,6 @@ cfoo
 %
 cbar
 )
-"
 {
 "
 from
@@ -27098,7 +26928,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 groupCollapsed
@@ -27108,7 +26937,6 @@ cfoo
 %
 cbaz
 )
-"
 {
 "
 from
@@ -27342,7 +27170,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 groupEnd
@@ -27352,7 +27179,6 @@ cfoo
 %
 cbaz
 )
-"
 {
 "
 from
@@ -27520,7 +27346,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 dir
@@ -27532,7 +27357,6 @@ Y
 K
 }
 )
-"
 {
 "
 from
@@ -27900,7 +27724,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 count
@@ -27908,7 +27731,6 @@ count
 default
 :
 1
-"
 {
 "
 from
@@ -28090,7 +27912,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 count
@@ -28098,7 +27919,6 @@ count
 default
 :
 2
-"
 {
 "
 from
@@ -28280,7 +28100,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 count
@@ -28289,7 +28108,6 @@ test
 counter
 :
 1
-"
 {
 "
 from
@@ -28473,7 +28291,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 count
@@ -28482,7 +28299,6 @@ test
 counter
 :
 2
-"
 {
 "
 from
@@ -28666,7 +28482,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 count
@@ -28674,7 +28489,6 @@ count
 default
 :
 3
-"
 {
 "
 from
@@ -28856,13 +28670,11 @@ stubPackets
 .
 set
 (
-"
 console
 .
 count
 |
 clear
-"
 {
 "
 from
@@ -29028,7 +28840,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 count
@@ -29036,7 +28847,6 @@ count
 default
 :
 4
-"
 {
 "
 from
@@ -29218,7 +29028,6 @@ stubPackets
 .
 set
 (
-"
 console
 .
 count
@@ -29227,7 +29036,6 @@ test
 counter
 :
 3
-"
 {
 "
 from

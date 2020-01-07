@@ -110,7 +110,6 @@ stubPreparedMessages
 .
 set
 (
-"
 Unknown
 property
 such
@@ -122,7 +121,6 @@ property
 Declaration
 dropped
 .
-"
 new
 ConsoleMessage
 (
@@ -443,7 +441,6 @@ stubPreparedMessages
 .
 set
 (
-"
 Error
 in
 parsing
@@ -456,7 +453,6 @@ top
 Declaration
 dropped
 .
-"
 new
 ConsoleMessage
 (
@@ -779,7 +775,6 @@ stubPackets
 .
 set
 (
-"
 Unknown
 property
 such
@@ -791,7 +786,6 @@ property
 Declaration
 dropped
 .
-"
 {
 "
 from
@@ -961,7 +955,6 @@ stubPackets
 .
 set
 (
-"
 Error
 in
 parsing
@@ -974,7 +967,6 @@ top
 Declaration
 dropped
 .
-"
 {
 "
 from
