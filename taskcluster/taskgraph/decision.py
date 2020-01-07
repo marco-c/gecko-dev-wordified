@@ -1288,6 +1288,16 @@ desktop_release_type
 '
 '
     
+parameters
+[
+'
+release_eta
+'
+]
+=
+'
+'
+    
 #
 owner
 must

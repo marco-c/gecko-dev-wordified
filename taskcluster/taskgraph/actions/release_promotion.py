@@ -1231,6 +1231,29 @@ default
 '
             
 }
+            
+'
+release_eta
+'
+:
+{
+                
+'
+type
+'
+:
+'
+string
+'
+                
+'
+default
+'
+:
+'
+'
+            
+}
         
 }
         
@@ -1981,6 +2004,24 @@ desktop_release_type
 ]
 =
 desktop_release_type
+    
+parameters
+[
+'
+release_eta
+'
+]
+=
+input
+.
+get
+(
+'
+release_eta
+'
+'
+'
+)
     
 #
 make
