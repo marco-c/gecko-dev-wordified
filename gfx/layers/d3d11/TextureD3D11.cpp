@@ -5614,7 +5614,7 @@ wr
 WrExternalImageBufferType
 :
 :
-Texture2DHandle
+TextureExternalHandle
 ;
 (
 aResources

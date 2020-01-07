@@ -403,6 +403,17 @@ GL_RGBA8
 ;
 break
 ;
+case
+DXGI_FORMAT_B8G8R8A8_UNORM
+:
+ret
+.
+internalFormat
+=
+GL_BGRA8_EXT
+;
+break
+;
 default
 :
 *
