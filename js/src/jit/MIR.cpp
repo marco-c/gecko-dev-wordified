@@ -29154,7 +29154,7 @@ u
 }
 MDefinition
 *
-MToInt32
+MToNumberInt32
 :
 :
 foldsTo
@@ -29577,7 +29577,7 @@ this
 ;
 }
 void
-MToInt32
+MToNumberInt32
 :
 :
 analyzeEdgeCasesBackward
@@ -37736,7 +37736,7 @@ false
 /
 Drop
 the
-MToInt32
+MToNumberInt32
 added
 by
 the
@@ -37752,7 +37752,7 @@ if
 ins1
 -
 >
-isToInt32
+isToNumberInt32
 (
 )
 )
@@ -37762,7 +37762,7 @@ DefinitelyDifferentValue
 ins1
 -
 >
-toToInt32
+toToNumberInt32
 (
 )
 -
@@ -37778,7 +37778,7 @@ if
 ins2
 -
 >
-isToInt32
+isToNumberInt32
 (
 )
 )
@@ -37788,7 +37788,7 @@ DefinitelyDifferentValue
 ins2
 -
 >
-toToInt32
+toToNumberInt32
 (
 )
 -

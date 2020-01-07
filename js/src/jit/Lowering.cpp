@@ -14991,9 +14991,9 @@ void
 LIRGenerator
 :
 :
-visitToInt32
+visitToNumberInt32
 (
-MToInt32
+MToNumberInt32
 *
 convert
 )
@@ -15026,7 +15026,7 @@ MIRType
 Value
 :
 {
-LValueToInt32
+auto
 *
 lir
 =

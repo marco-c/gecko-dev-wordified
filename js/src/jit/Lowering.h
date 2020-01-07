@@ -1420,9 +1420,9 @@ convert
 override
 ;
 void
-visitToInt32
+visitToNumberInt32
 (
-MToInt32
+MToNumberInt32
 *
 convert
 )

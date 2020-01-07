@@ -720,7 +720,7 @@ in
 else
 replace
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -2091,7 +2091,7 @@ IntConversion_NumbersOrBoolsOnly
 }
 replace
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -3927,11 +3927,11 @@ Int32
 return
 true
 ;
-MToInt32
+auto
 *
 replace
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -5696,7 +5696,7 @@ MOZ_ASSERT
 ins
 -
 >
-isToInt32
+isToNumberInt32
 (
 )
 |
@@ -5725,7 +5725,7 @@ if
 ins
 -
 >
-isToInt32
+isToNumberInt32
 (
 )
 )
@@ -5734,7 +5734,7 @@ conversion
 ins
 -
 >
-toToInt32
+toToNumberInt32
 (
 )
 -
@@ -6643,11 +6643,11 @@ Int32
 )
 continue
 ;
-MInstruction
+auto
 *
 replace
 =
-MToInt32
+MToNumberInt32
 :
 :
 New

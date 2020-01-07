@@ -19290,7 +19290,7 @@ getTemp
 )
 ;
 }
-MToInt32
+MToNumberInt32
 *
 mirNormal
 (
@@ -19309,7 +19309,7 @@ return
 mir_
 -
 >
-toToInt32
+toToNumberInt32
 (
 )
 ;
@@ -19428,7 +19428,7 @@ in
 )
 ;
 }
-MToInt32
+MToNumberInt32
 *
 mir
 (
@@ -19439,7 +19439,7 @@ return
 mir_
 -
 >
-toToInt32
+toToNumberInt32
 (
 )
 ;
@@ -19518,7 +19518,7 @@ in
 )
 ;
 }
-MToInt32
+MToNumberInt32
 *
 mir
 (
@@ -19529,7 +19529,7 @@ return
 mir_
 -
 >
-toToInt32
+toToNumberInt32
 (
 )
 ;

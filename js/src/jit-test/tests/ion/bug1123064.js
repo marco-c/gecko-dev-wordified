@@ -10,7 +10,7 @@ test
 case
 to
 trigger
-MToInt32
+MToNumberInt32
 operation
 .
 var

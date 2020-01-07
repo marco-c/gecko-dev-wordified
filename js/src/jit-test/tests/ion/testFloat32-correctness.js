@@ -1378,7 +1378,7 @@ not
 ;
 /
 /
-MToInt32
+MToNumberInt32
 var
 str
 =

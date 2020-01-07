@@ -704,7 +704,7 @@ ToFloat32
 \
 _
 (
-ToInt32
+ToNumberInt32
 )
 \
 _
