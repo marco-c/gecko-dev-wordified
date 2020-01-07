@@ -5535,7 +5535,7 @@ rv
 =
 NS_URIChainHasFlags
 (
-aTargetBaseURI
+aTargetURI
 nsIProtocolHandler
 :
 :
