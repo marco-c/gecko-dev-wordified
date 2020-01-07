@@ -91,11 +91,6 @@ false
 ;
 start_httpserver
 (
-{
-errorDownload
-:
-true
-}
 )
 ;
 setUpdateURL
@@ -104,6 +99,14 @@ gURLData
 +
 gHTTPHandlerPath
 )
+;
+initMockIncrementalDownload
+(
+)
+;
+gIncrementalDownloadErrorType
+=
+0
 ;
 Services
 .
@@ -296,7 +299,7 @@ equal
 gStatusResult
 Cr
 .
-NS_ERROR_UNEXPECTED
+NS_ERROR_NET_RESET
 "
 the
 download
