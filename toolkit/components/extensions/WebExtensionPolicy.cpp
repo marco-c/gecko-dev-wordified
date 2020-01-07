@@ -3811,16 +3811,6 @@ const
 if
 (
 !
-URL
-(
-)
-.
-InheritsPrincipal
-(
-)
-|
-|
-!
 (
 Principal
 (
