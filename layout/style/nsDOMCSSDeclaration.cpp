@@ -253,8 +253,9 @@ nsDOMCSSDeclaration
 nsDOMCSSDeclaration
 (
 )
-{
-}
+=
+default
+;
 /
 *
 virtual
