@@ -3203,14 +3203,6 @@ aCORSMode
 )
 override
 ;
-virtual
-nsISupports
-*
-GetCurrentContentSink
-(
-)
-override
-;
 /
 /
 Only

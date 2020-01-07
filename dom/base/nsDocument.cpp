@@ -52797,7 +52797,7 @@ false
 }
 nsISupports
 *
-nsDocument
+nsIDocument
 :
 :
 GetCurrentContentSink

@@ -16048,14 +16048,11 @@ return
 mDocumentState
 ;
 }
-virtual
 nsISupports
 *
 GetCurrentContentSink
 (
 )
-=
-0
 ;
 void
 SetAutoFocusElement
