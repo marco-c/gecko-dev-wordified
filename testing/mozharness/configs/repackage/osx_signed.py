@@ -225,21 +225,6 @@ tooltool
 '
     
 '
-tooltool_script
-'
-:
-[
-"
-/
-builds
-/
-tooltool
-.
-py
-"
-]
-    
-'
 tooltool_cache
 '
 :
