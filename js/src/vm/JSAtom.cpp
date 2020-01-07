@@ -120,7 +120,11 @@ table
 #
 include
 "
-jsatominlines
+vm
+/
+JSAtom
+-
+inl
 .
 h
 "

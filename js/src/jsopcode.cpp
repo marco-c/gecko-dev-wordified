@@ -312,6 +312,15 @@ include
 "
 vm
 /
+JSAtom
+.
+h
+"
+#
+include
+"
+vm
+/
 JSCompartment
 .
 h

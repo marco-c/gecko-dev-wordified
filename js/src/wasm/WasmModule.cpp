@@ -279,6 +279,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+JSAtom
+-
+inl
+.
+h
+"
 using
 namespace
 js

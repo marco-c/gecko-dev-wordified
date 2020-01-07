@@ -416,6 +416,15 @@ include
 "
 vm
 /
+JSAtom
+.
+h
+"
+#
+include
+"
+vm
+/
 JSScript
 .
 h

@@ -110,14 +110,16 @@ MPL
 /
 #
 ifndef
-jsatominlines_h
+vm_JSAtom_inl_h
 #
 define
-jsatominlines_h
+vm_JSAtom_inl_h
 #
 include
 "
-jsatom
+vm
+/
+JSAtom
 .
 h
 "
@@ -1022,6 +1024,6 @@ js
 endif
 /
 *
-jsatominlines_h
+vm_JSAtom_inl_h
 *
 /

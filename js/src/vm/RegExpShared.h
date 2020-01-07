@@ -233,6 +233,15 @@ ArrayObject
 .
 h
 "
+#
+include
+"
+vm
+/
+JSAtom
+.
+h
+"
 namespace
 js
 {
