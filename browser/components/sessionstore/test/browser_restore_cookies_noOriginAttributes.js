@@ -647,8 +647,7 @@ have
 no
 originAttributes
 .
-ss
-.
+await
 setWindowState
 (
 win
@@ -801,8 +800,7 @@ have
 originAttributes
 within
 .
-ss
-.
+await
 setWindowState
 (
 win

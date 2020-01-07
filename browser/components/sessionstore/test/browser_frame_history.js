@@ -999,8 +999,7 @@ _closedWindows
 }
 )
 ;
-ss
-.
+await
 setBrowserState
 (
 blankState

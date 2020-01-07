@@ -254,8 +254,7 @@ restore
 the
 window
 state
-ss
-.
+await
 setBrowserState
 (
 state

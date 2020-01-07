@@ -1024,16 +1024,10 @@ the
 test
 state
 .
-ss
-.
+await
 setBrowserState
 (
-JSON
-.
-stringify
-(
 state
-)
 )
 ;
 /
