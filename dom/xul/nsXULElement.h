@@ -3976,6 +3976,16 @@ broadcasterId
 ;
 protected
 :
+void
+AddTooltipSupport
+(
+)
+;
+void
+RemoveTooltipSupport
+(
+)
+;
 /
 /
 Internal
