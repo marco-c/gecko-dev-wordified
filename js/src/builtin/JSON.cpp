@@ -240,7 +240,11 @@ h
 #
 include
 "
-jsboolinlines
+builtin
+/
+Array
+-
+inl
 .
 h
 "
@@ -249,7 +253,7 @@ include
 "
 builtin
 /
-Array
+Boolean
 -
 inl
 .
