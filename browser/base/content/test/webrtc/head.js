@@ -854,6 +854,8 @@ tabSharingMenu
 ;
 is
 (
+!
+!
 menu
 &
 &
