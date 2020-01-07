@@ -2484,7 +2484,7 @@ output
 ;
 masm
 .
-cmovz
+cmovzl
 (
 falseExpr
 out
