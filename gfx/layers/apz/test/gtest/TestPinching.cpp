@@ -400,6 +400,13 @@ aShouldTriggerPinch
 )
 ;
 }
+apzc
+-
+>
+AssertStateIsReset
+(
+)
+;
 FrameMetrics
 fm
 =
@@ -684,6 +691,13 @@ aShouldTriggerPinch
 )
 ;
 }
+apzc
+-
+>
+AssertStateIsReset
+(
+)
+;
 fm
 =
 apzc
