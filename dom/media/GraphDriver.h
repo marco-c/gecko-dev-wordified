@@ -2933,7 +2933,8 @@ aListener
 {
 MOZ_ASSERT
 (
-OnThread
+!
+IsStarted
 (
 )
 )
@@ -3763,7 +3764,10 @@ monitor
 *
 *
 /
+Atomic
+<
 bool
+>
 mStarted
 ;
 /
