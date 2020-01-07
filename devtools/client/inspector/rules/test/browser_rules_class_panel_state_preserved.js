@@ -68,12 +68,12 @@ other
 nodes
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -110,7 +110,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -150,7 +150,7 @@ panel
 "
 )
 ;
-await
+yield
 toggleClassPanelCheckBox
 (
 view
@@ -159,7 +159,7 @@ class2
 "
 )
 ;
-await
+yield
 toggleClassPanelCheckBox
 (
 view
@@ -185,7 +185,7 @@ refreshed
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -239,7 +239,7 @@ again
 "
 )
 ;
-await
+yield
 selectNode
 (
 "

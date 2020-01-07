@@ -206,8 +206,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -216,7 +216,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -232,7 +232,7 @@ focus
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -287,7 +287,7 @@ _frame
 contentWindow
 )
 ;
-await
+yield
 onHtmlEditorCreated
 ;
 ok
@@ -379,7 +379,7 @@ doc
 defaultView
 )
 ;
-await
+yield
 onEditorHidden
 ;
 ok
@@ -401,7 +401,7 @@ visible
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -455,7 +455,7 @@ _frame
 contentWindow
 )
 ;
-await
+yield
 onHtmlEditorCreated
 ;
 ok
@@ -665,7 +665,7 @@ doc
 defaultView
 )
 ;
-await
+yield
 onEditorHidden
 ;
 ok

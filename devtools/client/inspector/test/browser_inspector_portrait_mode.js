@@ -86,8 +86,8 @@ mode
 .
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -97,7 +97,7 @@ inspector
 toolbox
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -234,7 +234,7 @@ resizeTo
 500
 )
 ;
-await
+yield
 onClassnameMutation
 ;
 ok
@@ -290,7 +290,7 @@ resizeTo
 500
 )
 ;
-await
+yield
 onClassnameMutation
 ;
 ok
@@ -323,7 +323,7 @@ inspector
 "
 )
 ;
-await
+yield
 gDevTools
 .
 closeToolbox
@@ -347,7 +347,7 @@ inspector
 toolbox
 }
 =
-await
+yield
 openInspector
 (
 "

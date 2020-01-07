@@ -96,8 +96,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -107,7 +107,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -125,7 +125,7 @@ d1
 "
 )
 ;
-await
+yield
 focusSearchBoxUsingShortcut
 (
 inspector
@@ -133,7 +133,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 synthesizeKeys
 (
 [
@@ -153,7 +153,7 @@ VK_RETURN
 inspector
 )
 ;
-await
+yield
 inspector
 .
 search
@@ -227,7 +227,7 @@ updated
 "
 )
 ;
-await
+yield
 mutatePage
 (
 inspector
@@ -250,7 +250,7 @@ remove
 "
 )
 ;
-await
+yield
 onUpdated
 ;
 info
@@ -270,7 +270,7 @@ d1
 "
 )
 ;
-await
+yield
 synthesizeKeys
 (
 "
@@ -279,7 +279,7 @@ VK_RETURN
 inspector
 )
 ;
-await
+yield
 inspector
 .
 search
@@ -348,14 +348,14 @@ VK_RETURN
 "
 ]
 ;
-await
+yield
 synthesizeKeys
 (
 keys
 inspector
 )
 ;
-await
+yield
 inspector
 .
 search
@@ -418,7 +418,7 @@ in
 any
 ways
 .
-await
+yield
 mutatePage
 (
 inspector
@@ -469,7 +469,7 @@ d3
 "
 )
 ;
-await
+yield
 synthesizeKeys
 (
 "
@@ -478,7 +478,7 @@ VK_RETURN
 inspector
 )
 ;
-await
+yield
 inspector
 .
 search
@@ -517,7 +517,7 @@ new
 /
 node
 .
-await
+yield
 inspector
 .
 once
@@ -532,8 +532,8 @@ updated
 }
 )
 ;
-async
 function
+*
 synthesizeKeys
 (
 keys
@@ -610,7 +610,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 eventHandled
 ;
 info
@@ -626,7 +626,7 @@ complete
 "
 )
 ;
-await
+yield
 inspector
 .
 searchSuggestions
@@ -689,8 +689,8 @@ results
 )
 ;
 }
-async
 function
+*
 mutatePage
 (
 inspector
@@ -710,7 +710,7 @@ markupmutation
 "
 )
 ;
-await
+yield
 testActor
 .
 eval
@@ -718,7 +718,7 @@ eval
 expression
 )
 ;
-await
+yield
 onMutation
 ;
 }

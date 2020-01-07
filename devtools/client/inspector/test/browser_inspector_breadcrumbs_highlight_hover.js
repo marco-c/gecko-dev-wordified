@@ -85,8 +85,8 @@ those
 nodes
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -111,7 +111,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -155,7 +155,7 @@ node
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -216,13 +216,13 @@ ownerDocument
 defaultView
 )
 ;
-await
+yield
 onNodeHighlighted
 ;
 let
 isVisible
 =
-await
+yield
 testActor
 .
 isHighlighting
@@ -248,7 +248,7 @@ hover
 ok
 (
 (
-await
+yield
 testActor
 .
 assertHighlightedNode
@@ -316,7 +316,7 @@ ownerDocument
 defaultView
 )
 ;
-await
+yield
 onNodeUnhighlighted
 ;
 onNodeHighlighted
@@ -360,12 +360,12 @@ ownerDocument
 defaultView
 )
 ;
-await
+yield
 onNodeHighlighted
 ;
 isVisible
 =
-await
+yield
 testActor
 .
 isHighlighting
@@ -391,7 +391,7 @@ hover
 ok
 (
 (
-await
+yield
 testActor
 .
 assertHighlightedNode

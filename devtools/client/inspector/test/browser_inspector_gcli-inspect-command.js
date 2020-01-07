@@ -154,8 +154,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -165,8 +165,12 @@ helpers
 addTabWithToolbar
 (
 TEST_URI
+Task
+.
 async
+(
 function
+*
 (
 options
 )
@@ -176,7 +180,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspector
 (
 )
@@ -184,8 +188,12 @@ openInspector
 let
 checkSelection
 =
+Task
+.
 async
+(
 function
+*
 (
 selector
 )
@@ -193,7 +201,7 @@ selector
 let
 node
 =
-await
+yield
 getNodeFront
 (
 selector
@@ -218,8 +226,9 @@ correct
 )
 ;
 }
+)
 ;
-await
+yield
 helpers
 .
 audit
@@ -655,6 +664,7 @@ root
 )
 ;
 }
+)
 )
 ;
 }

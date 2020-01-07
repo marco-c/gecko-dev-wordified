@@ -159,8 +159,8 @@ toolbox
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -170,7 +170,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -186,7 +186,7 @@ inspector
 let
 highlighter
 =
-await
+yield
 front
 .
 getHighlighterByType
@@ -196,7 +196,7 @@ RulersHighlighter
 "
 )
 ;
-await
+yield
 isShown
 (
 highlighter
@@ -204,7 +204,7 @@ inspector
 testActor
 )
 ;
-await
+yield
 hasRightLabelsContent
 (
 highlighter
@@ -212,7 +212,7 @@ inspector
 testActor
 )
 ;
-await
+yield
 resizeInspector
 (
 highlighter
@@ -220,7 +220,7 @@ inspector
 testActor
 )
 ;
-await
+yield
 hasRightLabelsContent
 (
 highlighter
@@ -228,7 +228,7 @@ inspector
 testActor
 )
 ;
-await
+yield
 highlighter
 .
 finalize
@@ -238,8 +238,8 @@ finalize
 }
 )
 ;
-async
 function
+*
 isShown
 (
 highlighterFront
@@ -287,7 +287,7 @@ given
 let
 body
 =
-await
+yield
 getNodeFront
 (
 "
@@ -296,7 +296,7 @@ body
 inspector
 )
 ;
-await
+yield
 highlighterFront
 .
 show
@@ -307,7 +307,7 @@ body
 let
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -343,8 +343,8 @@ show
 )
 ;
 }
-async
 function
+*
 hasRightLabelsContent
 (
 highlighterFront
@@ -370,7 +370,7 @@ text
 let
 dimensionText
 =
-await
+yield
 testActor
 .
 getHighlighterNodeTextContent
@@ -389,7 +389,7 @@ highlighterFront
 let
 windowDimensions
 =
-await
+yield
 testActor
 .
 getWindowDimensions
@@ -451,8 +451,8 @@ successfully
 )
 ;
 }
-async
 function
+*
 resizeInspector
 (
 highlighterFront
@@ -487,7 +487,7 @@ inspector
 .
 toolbox
 ;
-await
+yield
 toolbox
 .
 switchHost

@@ -329,8 +329,8 @@ circle
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -339,7 +339,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -409,7 +409,7 @@ updated
 "
 )
 ;
-await
+yield
 selectNode
 (
 node
@@ -418,7 +418,7 @@ selector
 inspector
 )
 ;
-await
+yield
 breadcrumbsUpdated
 ;
 info

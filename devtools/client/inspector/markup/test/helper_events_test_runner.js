@@ -139,8 +139,8 @@ array
 .
 *
 /
-async
 function
+*
 runEventPopupTests
 (
 url
@@ -153,13 +153,13 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 url
 )
 ;
-await
+yield
 inspector
 .
 markup
@@ -176,7 +176,7 @@ of
 tests
 )
 {
-await
+yield
 checkEventsForNode
 (
 test
@@ -233,7 +233,7 @@ they
 are
 GCd
 .
-await
+yield
 promiseNextTick
 (
 )
@@ -417,8 +417,8 @@ TestActorFront
 testActor
 *
 /
-async
 function
+*
 checkEventsForNode
 (
 test
@@ -439,7 +439,7 @@ test
 let
 container
 =
-await
+yield
 getContainerForSelector
 (
 selector
@@ -458,7 +458,7 @@ function
 "
 )
 {
-await
+yield
 beforeTest
 (
 inspector
@@ -540,7 +540,7 @@ markup
 .
 eventDetailsTooltip
 ;
-await
+yield
 selectNode
 (
 selector
@@ -608,7 +608,7 @@ doc
 defaultView
 )
 ;
-await
+yield
 tooltip
 .
 once
@@ -644,7 +644,7 @@ applied
 "
 )
 ;
-await
+yield
 sourceMapPromise
 ;
 }
@@ -985,7 +985,7 @@ type
 ownerGlobal
 )
 ;
-await
+yield
 tooltip
 .
 once

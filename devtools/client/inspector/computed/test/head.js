@@ -611,8 +611,12 @@ container
 var
 getComputedViewMatchedRules
 =
+Task
+.
 async
+(
 function
+*
 (
 view
 name
@@ -746,7 +750,7 @@ click
 (
 )
 ;
-await
+yield
 onExpand
 ;
 }
@@ -754,6 +758,7 @@ return
 propertyContent
 ;
 }
+)
 ;
 /
 *
@@ -1217,8 +1222,8 @@ the
 clipboard
 *
 /
-async
 function
+*
 copyAllAndCheckClipboard
 (
 view
@@ -1272,7 +1277,7 @@ content
 "
 )
 ;
-await
+yield
 waitForClipboardPromise
 (
 (
@@ -1409,8 +1414,8 @@ the
 clipboard
 *
 /
-async
 function
+*
 copySomeTextAndCheckClipboard
 (
 view
@@ -1540,7 +1545,7 @@ content
 "
 )
 ;
-await
+yield
 waitForClipboardPromise
 (
 (

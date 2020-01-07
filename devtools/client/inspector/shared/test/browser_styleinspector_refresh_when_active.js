@@ -117,12 +117,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -151,12 +151,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -229,7 +229,7 @@ selectComputedView
 inspector
 )
 ;
-await
+yield
 onComputedViewReady
 ;
 let
@@ -284,7 +284,7 @@ two
 "
 )
 ;
-await
+yield
 selectNode
 (
 "

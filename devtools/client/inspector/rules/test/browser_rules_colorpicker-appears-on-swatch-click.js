@@ -142,12 +142,12 @@ tooltip
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -175,7 +175,7 @@ let
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -248,7 +248,7 @@ colorswatch
 "
 )
 ;
-await
+yield
 testColorPickerAppearsOnColorSwatchClick
 (
 view
@@ -259,8 +259,8 @@ swatch
 }
 )
 ;
-async
 function
+*
 testColorPickerAppearsOnColorSwatchClick
 (
 view
@@ -339,7 +339,7 @@ click
 (
 )
 ;
-await
+yield
 onColorPickerReady
 ;
 ok
@@ -388,7 +388,7 @@ click
 "
 )
 ;
-await
+yield
 hideTooltipAndWaitForRuleViewChanged
 (
 cPicker

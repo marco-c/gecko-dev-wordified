@@ -688,8 +688,8 @@ requestLongerTimeout
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -698,7 +698,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -727,7 +727,7 @@ node
 selector
 )
 ;
-await
+yield
 selectNode
 (
 selector
@@ -739,7 +739,7 @@ let
 editor
 }
 =
-await
+yield
 getContainerForSelector
 (
 selector

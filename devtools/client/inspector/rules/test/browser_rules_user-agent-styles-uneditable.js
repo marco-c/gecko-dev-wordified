@@ -128,8 +128,8 @@ showUserAgentStyles
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -162,7 +162,7 @@ PREF_UA_STYLES
 true
 )
 ;
-await
+yield
 addTab
 (
 "
@@ -191,12 +191,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 userAgentStylesUneditable
 (
 inspector
@@ -224,8 +224,8 @@ PREF_UA_STYLES
 }
 )
 ;
-async
 function
+*
 userAgentStylesUneditable
 (
 inspector
@@ -249,7 +249,7 @@ styles
 "
 )
 ;
-await
+yield
 selectNode
 (
 "

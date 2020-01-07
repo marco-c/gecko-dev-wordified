@@ -96,12 +96,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -130,7 +130,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -165,7 +165,7 @@ debounce
 {
 }
 ;
-await
+yield
 selectNode
 (
 "
@@ -258,7 +258,7 @@ changed
 "
 )
 ;
-await
+yield
 createNewRuleViewProperty
 (
 ruleEditor
@@ -271,10 +271,10 @@ heig
 "
 )
 ;
-await
+yield
 onMutation
 ;
-await
+yield
 onRuleViewChanged
 ;
 is
@@ -413,10 +413,10 @@ view
 styleWindow
 )
 ;
-await
+yield
 onMutation
 ;
-await
+yield
 onRuleViewChanged
 ;
 is

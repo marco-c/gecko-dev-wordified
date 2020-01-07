@@ -106,8 +106,8 @@ tree
 .
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -116,7 +116,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -196,7 +196,7 @@ body
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -227,7 +227,7 @@ body
 "
 )
 ;
-await
+yield
 selectNode
 (
 "

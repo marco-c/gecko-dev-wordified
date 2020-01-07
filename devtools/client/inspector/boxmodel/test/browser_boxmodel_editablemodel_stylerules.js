@@ -188,12 +188,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -217,12 +217,12 @@ boxmodel
 testActor
 }
 =
-await
+yield
 openLayoutView
 (
 )
 ;
-await
+yield
 testUnits
 (
 inspector
@@ -230,7 +230,7 @@ boxmodel
 testActor
 )
 ;
-await
+yield
 testValueComesFromStyleRule
 (
 inspector
@@ -238,7 +238,7 @@ boxmodel
 testActor
 )
 ;
-await
+yield
 testShorthandsAreParsed
 (
 inspector
@@ -249,8 +249,8 @@ testActor
 }
 )
 ;
-async
 function
+*
 testUnits
 (
 inspector
@@ -272,7 +272,7 @@ works
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -298,7 +298,7 @@ padding
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -432,7 +432,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -454,7 +454,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -463,7 +463,7 @@ inspector
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -506,7 +506,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -536,7 +536,7 @@ editor
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -583,7 +583,7 @@ defaultView
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -632,8 +632,8 @@ model
 )
 ;
 }
-async
 function
+*
 testValueComesFromStyleRule
 (
 inspector
@@ -662,7 +662,7 @@ rule
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -694,7 +694,7 @@ width
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -828,7 +828,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -858,7 +858,7 @@ editor
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -907,7 +907,7 @@ defaultView
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -962,8 +962,8 @@ model
 )
 ;
 }
-async
 function
+*
 testShorthandsAreParsed
 (
 inspector
@@ -987,7 +987,7 @@ correctly
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -1013,7 +1013,7 @@ padding
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -1150,7 +1150,7 @@ defaultView
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor

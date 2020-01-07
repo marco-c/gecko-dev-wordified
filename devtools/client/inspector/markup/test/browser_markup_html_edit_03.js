@@ -213,8 +213,8 @@ requestLongerTimeout
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -224,7 +224,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -252,7 +252,7 @@ edits
 "
 )
 ;
-await
+yield
 testEscapeCancels
 (
 inspector
@@ -271,7 +271,7 @@ edits
 "
 )
 ;
-await
+yield
 testF2Commits
 (
 inspector
@@ -296,7 +296,7 @@ nodes
 "
 )
 ;
-await
+yield
 testBody
 (
 inspector
@@ -321,7 +321,7 @@ nodes
 "
 )
 ;
-await
+yield
 testHead
 (
 inspector
@@ -346,7 +346,7 @@ nodes
 "
 )
 ;
-await
+yield
 testDocumentElement
 (
 inspector
@@ -374,7 +374,7 @@ nodes
 "
 )
 ;
-await
+yield
 testDocumentElement2
 (
 inspector
@@ -384,15 +384,15 @@ testActor
 }
 )
 ;
-async
 function
+*
 testEscapeCancels
 (
 inspector
 testActor
 )
 {
-await
+yield
 selectNode
 (
 SELECTOR
@@ -430,7 +430,7 @@ _frame
 contentWindow
 )
 ;
-await
+yield
 onHtmlEditorCreated
 ;
 ok
@@ -453,7 +453,7 @@ visible
 is
 (
 (
-await
+yield
 testActor
 .
 getProperty
@@ -523,7 +523,7 @@ doc
 defaultView
 )
 ;
-await
+yield
 onEditorHiddem
 ;
 ok
@@ -548,7 +548,7 @@ visible
 is
 (
 (
-await
+yield
 testActor
 .
 getProperty
@@ -568,8 +568,8 @@ edits
 )
 ;
 }
-async
 function
+*
 testF2Commits
 (
 inspector
@@ -621,7 +621,7 @@ _frame
 contentWindow
 )
 ;
-await
+yield
 onEditorShown
 ;
 ok
@@ -644,7 +644,7 @@ visible
 is
 (
 (
-await
+yield
 testActor
 .
 getProperty
@@ -709,7 +709,7 @@ _frame
 contentWindow
 )
 ;
-await
+yield
 onMutations
 ;
 ok
@@ -734,7 +734,7 @@ visible
 is
 (
 (
-await
+yield
 testActor
 .
 getProperty
@@ -761,8 +761,8 @@ HTML
 )
 ;
 }
-async
 function
+*
 testBody
 (
 inspector
@@ -772,7 +772,7 @@ testActor
 let
 currentBodyHTML
 =
-await
+yield
 testActor
 .
 getProperty
@@ -813,7 +813,7 @@ body
 let
 bodyFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -850,7 +850,7 @@ reselectedonremoved
 "
 )
 ;
-await
+yield
 inspector
 .
 markup
@@ -862,16 +862,16 @@ bodyHTML
 currentBodyHTML
 )
 ;
-await
+yield
 onReselected
 ;
-await
+yield
 onUpdated
 ;
 let
 newBodyHTML
 =
-await
+yield
 testActor
 .
 getProperty
@@ -902,7 +902,7 @@ updated
 let
 headsNum
 =
-await
+yield
 testActor
 .
 getNumberOfElementMatches
@@ -930,15 +930,15 @@ added
 )
 ;
 }
-async
 function
+*
 testHead
 (
 inspector
 testActor
 )
 {
-await
+yield
 selectNode
 (
 "
@@ -950,7 +950,7 @@ inspector
 let
 currentHeadHTML
 =
-await
+yield
 testActor
 .
 getProperty
@@ -1015,7 +1015,7 @@ head
 let
 headFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -1052,7 +1052,7 @@ reselectedonremoved
 "
 )
 ;
-await
+yield
 inspector
 .
 markup
@@ -1064,16 +1064,16 @@ headHTML
 currentHeadHTML
 )
 ;
-await
+yield
 onReselected
 ;
-await
+yield
 onUpdated
 ;
 is
 (
 (
-await
+yield
 testActor
 .
 eval
@@ -1101,7 +1101,7 @@ added
 is
 (
 (
-await
+yield
 testActor
 .
 eval
@@ -1126,7 +1126,7 @@ executed
 is
 (
 (
-await
+yield
 testActor
 .
 getProperty
@@ -1154,7 +1154,7 @@ updated
 is
 (
 (
-await
+yield
 testActor
 .
 getNumberOfElementMatches
@@ -1179,8 +1179,8 @@ added
 )
 ;
 }
-async
 function
+*
 testDocumentElement
 (
 inspector
@@ -1190,7 +1190,7 @@ testActor
 let
 currentDocElementOuterHMTL
 =
-await
+yield
 testActor
 .
 eval
@@ -1293,7 +1293,7 @@ html
 let
 docElementFront
 =
-await
+yield
 inspector
 .
 markup
@@ -1318,7 +1318,7 @@ reselectedonremoved
 "
 )
 ;
-await
+yield
 inspector
 .
 markup
@@ -1330,13 +1330,13 @@ docElementHTML
 currentDocElementOuterHMTL
 )
 ;
-await
+yield
 onReselected
 ;
 is
 (
 (
-await
+yield
 testActor
 .
 eval
@@ -1366,7 +1366,7 @@ added
 is
 (
 (
-await
+yield
 testActor
 .
 eval
@@ -1391,7 +1391,7 @@ executed
 is
 (
 (
-await
+yield
 testActor
 .
 getAttribute
@@ -1421,7 +1421,7 @@ updated
 is
 (
 (
-await
+yield
 testActor
 .
 getAttribute
@@ -1449,7 +1449,7 @@ updated
 is
 (
 (
-await
+yield
 testActor
 .
 getAttribute
@@ -1479,7 +1479,7 @@ updated
 is
 (
 (
-await
+yield
 testActor
 .
 getProperty
@@ -1507,7 +1507,7 @@ updated
 is
 (
 (
-await
+yield
 testActor
 .
 getNumberOfElementMatches
@@ -1534,7 +1534,7 @@ added
 is
 (
 (
-await
+yield
 testActor
 .
 getNumberOfElementMatches
@@ -1561,7 +1561,7 @@ added
 is
 (
 (
-await
+yield
 testActor
 .
 getProperty
@@ -1590,8 +1590,8 @@ updated
 )
 ;
 }
-async
 function
+*
 testDocumentElement2
 (
 inspector
@@ -1601,7 +1601,7 @@ testActor
 let
 currentDocElementOuterHMTL
 =
-await
+yield
 testActor
 .
 eval
@@ -1706,7 +1706,7 @@ html
 let
 docElementFront
 =
-await
+yield
 inspector
 .
 markup
@@ -1742,13 +1742,13 @@ docElementHTML
 currentDocElementOuterHMTL
 )
 ;
-await
+yield
 onReselected
 ;
 is
 (
 (
-await
+yield
 testActor
 .
 eval
@@ -1779,7 +1779,7 @@ added
 is
 (
 (
-await
+yield
 testActor
 .
 eval
@@ -1804,7 +1804,7 @@ executed
 is
 (
 (
-await
+yield
 testActor
 .
 getAttribute
@@ -1834,7 +1834,7 @@ updated
 is
 (
 (
-await
+yield
 testActor
 .
 getAttribute
@@ -1864,7 +1864,7 @@ updated
 is
 (
 (
-await
+yield
 testActor
 .
 getAttribute
@@ -1892,7 +1892,7 @@ removed
 is
 (
 (
-await
+yield
 testActor
 .
 getProperty
@@ -1920,7 +1920,7 @@ updated
 is
 (
 (
-await
+yield
 testActor
 .
 getNumberOfElementMatches
@@ -1947,7 +1947,7 @@ added
 is
 (
 (
-await
+yield
 testActor
 .
 getNumberOfElementMatches
@@ -1974,7 +1974,7 @@ added
 is
 (
 (
-await
+yield
 testActor
 .
 getProperty

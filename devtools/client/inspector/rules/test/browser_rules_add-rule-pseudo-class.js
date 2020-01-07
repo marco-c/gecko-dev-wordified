@@ -155,12 +155,12 @@ focus
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -189,12 +189,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -212,7 +212,7 @@ of
 TEST_DATA
 )
 {
-await
+yield
 runTestData
 (
 inspector
@@ -224,8 +224,8 @@ data
 }
 )
 ;
-async
 function
+*
 runTestData
 (
 inspector
@@ -233,7 +233,7 @@ view
 pseudoClasses
 )
 {
-await
+yield
 setPseudoLocks
 (
 inspector
@@ -254,7 +254,7 @@ join
 "
 )
 ;
-await
+yield
 addNewRuleAndDismissEditor
 (
 inspector
@@ -263,7 +263,7 @@ expected
 1
 )
 ;
-await
+yield
 resetPseudoLocks
 (
 inspector
@@ -271,8 +271,8 @@ view
 )
 ;
 }
-async
 function
+*
 setPseudoLocks
 (
 inspector
@@ -320,7 +320,7 @@ click
 (
 )
 ;
-await
+yield
 inspector
 .
 once
@@ -350,7 +350,7 @@ click
 (
 )
 ;
-await
+yield
 inspector
 .
 once
@@ -380,7 +380,7 @@ click
 (
 )
 ;
-await
+yield
 inspector
 .
 once
@@ -399,8 +399,8 @@ break
 }
 }
 }
-async
 function
+*
 resetPseudoLocks
 (
 inspector
@@ -453,7 +453,7 @@ click
 (
 )
 ;
-await
+yield
 inspector
 .
 once
@@ -485,7 +485,7 @@ click
 (
 )
 ;
-await
+yield
 inspector
 .
 once
@@ -517,7 +517,7 @@ click
 (
 )
 ;
-await
+yield
 inspector
 .
 once

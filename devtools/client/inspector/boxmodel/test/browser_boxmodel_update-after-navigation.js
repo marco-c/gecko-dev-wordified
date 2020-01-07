@@ -99,12 +99,12 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 IFRAME1
@@ -117,12 +117,12 @@ boxmodel
 testActor
 }
 =
-await
+yield
 openLayoutView
 (
 )
 ;
-await
+yield
 testFirstPage
 (
 inspector
@@ -149,7 +149,7 @@ waitForMarkupLoaded
 inspector
 )
 ;
-await
+yield
 testActor
 .
 eval
@@ -165,10 +165,10 @@ IFRAME2
 "
 )
 ;
-await
+yield
 onMarkupLoaded
 ;
-await
+yield
 testSecondPage
 (
 inspector
@@ -195,7 +195,7 @@ waitForMarkupLoaded
 inspector
 )
 ;
-await
+yield
 testActor
 .
 eval
@@ -210,10 +210,10 @@ back
 "
 )
 ;
-await
+yield
 onMarkupLoaded
 ;
-await
+yield
 testBackToFirstPage
 (
 inspector
@@ -224,8 +224,8 @@ testActor
 }
 )
 ;
-async
 function
+*
 testFirstPage
 (
 inspector
@@ -250,7 +250,7 @@ page
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -332,7 +332,7 @@ waitForUpdate
 inspector
 )
 ;
-await
+yield
 setStyle
 (
 testActor
@@ -347,7 +347,7 @@ padding
 "
 )
 ;
-await
+yield
 onUpdated
 ;
 ok
@@ -391,8 +391,8 @@ textContent
 )
 ;
 }
-async
 function
+*
 testSecondPage
 (
 inspector
@@ -417,7 +417,7 @@ page
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -504,7 +504,7 @@ waitForUpdate
 inspector
 )
 ;
-await
+yield
 setStyle
 (
 testActor
@@ -519,7 +519,7 @@ width
 "
 )
 ;
-await
+yield
 onUpdated
 ;
 ok
@@ -572,8 +572,8 @@ u00D7
 )
 ;
 }
-async
 function
+*
 testBackToFirstPage
 (
 inspector
@@ -601,7 +601,7 @@ back
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -698,7 +698,7 @@ waitForUpdate
 inspector
 )
 ;
-await
+yield
 setStyle
 (
 testActor
@@ -713,7 +713,7 @@ padding
 "
 )
 ;
-await
+yield
 onUpdated
 ;
 ok

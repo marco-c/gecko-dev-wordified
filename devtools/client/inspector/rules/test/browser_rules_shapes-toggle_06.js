@@ -165,12 +165,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -199,7 +199,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -211,7 +211,7 @@ view
 .
 highlighters
 ;
-await
+yield
 selectNode
 (
 "
@@ -333,7 +333,7 @@ click
 (
 )
 ;
-await
+yield
 onHighlighterShown
 ;
 ok
@@ -444,7 +444,7 @@ click
 (
 )
 ;
-await
+yield
 onHighlighterShown
 ;
 ok
@@ -524,7 +524,7 @@ container
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -662,7 +662,7 @@ container
 "
 )
 ;
-await
+yield
 selectNode
 (
 "

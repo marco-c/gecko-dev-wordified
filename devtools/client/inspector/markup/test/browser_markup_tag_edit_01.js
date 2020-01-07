@@ -349,8 +349,8 @@ class
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -360,13 +360,13 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-await
+yield
 runEditAttributesTests
 (
 TEST_DATA

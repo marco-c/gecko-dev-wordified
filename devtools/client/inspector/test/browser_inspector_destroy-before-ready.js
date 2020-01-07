@@ -86,8 +86,8 @@ promises
 .
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -133,7 +133,7 @@ ok
 true
 )
 ;
-await
+yield
 addTab
 (
 "
@@ -182,7 +182,7 @@ selectedTab
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -232,7 +232,7 @@ inspector
 "
 )
 ;
-await
+yield
 onInspectorSelected
 ;
 }

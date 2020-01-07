@@ -248,8 +248,8 @@ each
 step
 *
 /
-async
 function
+*
 runStyleAttributeAutocompleteTests
 (
 inspector
@@ -266,7 +266,7 @@ nodes
 "
 )
 ;
-await
+yield
 inspector
 .
 markup
@@ -287,7 +287,7 @@ node14
 let
 container
 =
-await
+yield
 focusNode
 (
 "
@@ -447,7 +447,7 @@ data
 ]
 )
 ;
-await
+yield
 enterData
 (
 data
@@ -469,7 +469,7 @@ state
 .
 )
 ;
-await
+yield
 checkData
 (
 data
@@ -477,7 +477,7 @@ editor
 inspector
 )
 ;
-await
+yield
 onMutation
 ;
 }
@@ -530,14 +530,14 @@ canUndo
 )
 )
 {
-await
+yield
 undoChange
 (
 inspector
 )
 ;
 }
-await
+yield
 onMutation
 ;
 }
@@ -902,8 +902,8 @@ data
 .
 *
 /
-async
 function
+*
 checkData
 (
 data
@@ -1012,7 +1012,7 @@ else
 let
 nodeFront
 =
-await
+yield
 getNodeFront
 (
 "

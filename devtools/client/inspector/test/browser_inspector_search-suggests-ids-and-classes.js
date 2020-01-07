@@ -587,8 +587,8 @@ button
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -597,7 +597,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -647,7 +647,7 @@ searchSuggestions
 .
 searchPopup
 ;
-await
+yield
 focusSearchBoxUsingShortcut
 (
 inspector
@@ -713,7 +713,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onCommand
 ;
 info
@@ -729,7 +729,7 @@ retrieved
 "
 )
 ;
-await
+yield
 inspector
 .
 searchSuggestions

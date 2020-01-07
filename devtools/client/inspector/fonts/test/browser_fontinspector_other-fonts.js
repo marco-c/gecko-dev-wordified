@@ -126,8 +126,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -137,7 +137,7 @@ inspector
 view
 }
 =
-await
+yield
 openFontInspectorForURL
 (
 TEST_URI
@@ -202,7 +202,7 @@ title
 "
 )
 ;
-await
+yield
 expandOtherFontsAccordion
 (
 viewDoc
@@ -312,7 +312,7 @@ listed
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -324,7 +324,7 @@ text
 inspector
 )
 ;
-await
+yield
 expandOtherFontsAccordion
 (
 viewDoc

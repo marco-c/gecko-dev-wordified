@@ -248,8 +248,8 @@ DOCUMENT_SRC
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -260,7 +260,7 @@ toolbox
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -282,7 +282,7 @@ show
 let
 body
 =
-await
+yield
 getNodeFront
 (
 "
@@ -291,7 +291,7 @@ body
 inspector
 )
 ;
-await
+yield
 inspector
 .
 highlighter
@@ -315,7 +315,7 @@ active
 "
 )
 ;
-await
+yield
 startPicker
 (
 toolbox
@@ -333,7 +333,7 @@ padding
 "
 )
 ;
-await
+yield
 moveMouseOver
 (
 "
@@ -351,7 +351,7 @@ checks
 "
 )
 ;
-await
+yield
 testActor
 .
 isNodeCorrectlyHighlighted
@@ -371,7 +371,7 @@ document
 "
 )
 ;
-await
+yield
 testActor
 .
 setProperty
@@ -391,7 +391,7 @@ bottom
 "
 )
 ;
-await
+yield
 testActor
 .
 eval
@@ -439,7 +439,7 @@ body
 "
 )
 ;
-await
+yield
 moveMouseOver
 (
 "
@@ -452,7 +452,7 @@ iframe
 ok
 (
 (
-await
+yield
 testActor
 .
 assertHighlightedNode
@@ -469,7 +469,7 @@ node
 "
 )
 ;
-await
+yield
 testActor
 .
 isNodeCorrectlyHighlighted
@@ -492,7 +492,7 @@ deactivate
 "
 )
 ;
-await
+yield
 inspector
 .
 toolbox

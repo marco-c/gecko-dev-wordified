@@ -81,12 +81,12 @@ nodes
 .
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 data
@@ -161,7 +161,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -187,7 +187,7 @@ let
 nodes
 }
 =
-await
+yield
 inspector
 .
 walker
@@ -201,7 +201,7 @@ walker
 rootNode
 )
 ;
-await
+yield
 selectNode
 (
 nodes
@@ -229,7 +229,7 @@ node
 let
 styleNode
 =
-await
+yield
 getNodeFront
 (
 "
@@ -241,7 +241,7 @@ inspector
 let
 commentNode
 =
-await
+yield
 inspector
 .
 walker
@@ -251,7 +251,7 @@ nextSibling
 styleNode
 )
 ;
-await
+yield
 selectNode
 (
 commentNode
@@ -276,7 +276,7 @@ node
 let
 textNode
 =
-await
+yield
 inspector
 .
 walker
@@ -286,7 +286,7 @@ nextSibling
 commentNode
 )
 ;
-await
+yield
 selectNode
 (
 textNode
@@ -315,7 +315,7 @@ element
 let
 divNode
 =
-await
+yield
 getNodeFront
 (
 "
@@ -328,7 +328,7 @@ let
 pseudoElement
 =
 (
-await
+yield
 inspector
 .
 walker
@@ -344,7 +344,7 @@ nodes
 0
 ]
 ;
-await
+yield
 selectNode
 (
 pseudoElement

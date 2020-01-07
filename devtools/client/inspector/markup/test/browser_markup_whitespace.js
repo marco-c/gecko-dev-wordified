@@ -81,8 +81,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -92,7 +92,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -105,7 +105,7 @@ markup
 =
 inspector
 ;
-await
+yield
 markup
 .
 expandAll
@@ -167,7 +167,7 @@ numNodes
 numChildren
 }
 =
-await
+yield
 testActor
 .
 getNodeInfo
@@ -372,7 +372,7 @@ numNodes
 numChildren
 }
 =
-await
+yield
 testActor
 .
 getNodeInfo
@@ -480,7 +480,7 @@ shown
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -598,7 +598,7 @@ numNodes
 numChildren
 }
 =
-await
+yield
 testActor
 .
 getNodeInfo
@@ -735,7 +735,7 @@ shown
 "
 )
 ;
-await
+yield
 selectNode
 (
 "

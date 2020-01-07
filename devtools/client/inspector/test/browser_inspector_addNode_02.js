@@ -87,8 +87,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -97,7 +97,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -118,7 +118,7 @@ let
 nodes
 }
 =
-await
+yield
 inspector
 .
 walker
@@ -132,7 +132,7 @@ walker
 rootNode
 )
 ;
-await
+yield
 selectNode
 (
 nodes
@@ -175,7 +175,7 @@ element
 let
 body
 =
-await
+yield
 getNodeFront
 (
 "
@@ -189,7 +189,7 @@ inspector
 nodes
 }
 =
-await
+yield
 inspector
 .
 walker
@@ -200,7 +200,7 @@ body
 )
 )
 ;
-await
+yield
 selectNode
 (
 nodes
@@ -239,7 +239,7 @@ element
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -278,7 +278,7 @@ element
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -319,7 +319,7 @@ html
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -355,7 +355,7 @@ element
 "
 )
 ;
-await
+yield
 selectNode
 (
 "

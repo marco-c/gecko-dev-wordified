@@ -75,8 +75,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -85,7 +85,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -108,7 +108,7 @@ container
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -121,7 +121,7 @@ inspector
 let
 container
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -145,7 +145,7 @@ container
 "
 )
 ;
-await
+yield
 simulateNodeDrag
 (
 inspector

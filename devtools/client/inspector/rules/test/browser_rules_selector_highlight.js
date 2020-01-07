@@ -763,12 +763,12 @@ SELECTOR_PSEUDO_CLASS_LOCK
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -797,7 +797,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -814,7 +814,7 @@ of
 TEST_DATA
 )
 {
-await
+yield
 selectNode
 (
 node
@@ -849,7 +849,7 @@ togglePseudoClass
 pseudoClass
 )
 ;
-await
+yield
 onRefresh
 ;
 }

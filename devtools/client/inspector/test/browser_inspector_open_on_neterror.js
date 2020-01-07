@@ -127,8 +127,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -182,7 +182,7 @@ empty
 "
 )
 ;
-await
+yield
 BrowserTestUtils
 .
 browserLoaded
@@ -192,7 +192,7 @@ tab
 linkedBrowser
 )
 ;
-await
+yield
 ContentTask
 .
 spawn
@@ -205,8 +205,8 @@ url
 :
 TEST_URL_1
 }
-async
 function
+*
 (
 {
 url
@@ -267,7 +267,7 @@ location
 =
 url
 ;
-await
+yield
 onDOMContentLoaded
 ;
 }
@@ -279,7 +279,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspector
 (
 )
@@ -302,7 +302,7 @@ error
 let
 documentURI
 =
-await
+yield
 testActor
 .
 eval
@@ -350,7 +350,7 @@ url
 "
 )
 ;
-await
+yield
 navigateTo
 (
 inspector
@@ -359,7 +359,7 @@ TEST_URL_2
 ;
 is
 (
-await
+yield
 getDisplayedNodeTextContent
 (
 "

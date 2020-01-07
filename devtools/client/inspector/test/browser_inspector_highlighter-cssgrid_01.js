@@ -240,8 +240,8 @@ CssGridHighlighter
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -251,7 +251,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 "
@@ -284,7 +284,7 @@ inspector
 let
 highlighter
 =
-await
+yield
 front
 .
 getHighlighterByType
@@ -292,14 +292,14 @@ getHighlighterByType
 HIGHLIGHTER_TYPE
 )
 ;
-await
+yield
 isHiddenByDefault
 (
 testActor
 highlighter
 )
 ;
-await
+yield
 isVisibleWhenShown
 (
 testActor
@@ -307,7 +307,7 @@ inspector
 highlighter
 )
 ;
-await
+yield
 highlighter
 .
 finalize
@@ -317,8 +317,8 @@ finalize
 }
 )
 ;
-async
 function
+*
 isHiddenByDefault
 (
 testActor
@@ -342,7 +342,7 @@ default
 let
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -374,8 +374,8 @@ default
 )
 ;
 }
-async
 function
+*
 isVisibleWhenShown
 (
 testActor
@@ -401,7 +401,7 @@ node
 let
 node
 =
-await
+yield
 getNodeFront
 (
 "
@@ -411,7 +411,7 @@ grid
 inspector
 )
 ;
-await
+yield
 highlighterFront
 .
 show
@@ -422,7 +422,7 @@ node
 let
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -461,7 +461,7 @@ highlighter
 "
 )
 ;
-await
+yield
 highlighterFront
 .
 hide
@@ -470,7 +470,7 @@ hide
 ;
 hidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute

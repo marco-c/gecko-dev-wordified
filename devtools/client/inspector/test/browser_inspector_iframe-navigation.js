@@ -131,8 +131,8 @@ iframe
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -142,7 +142,7 @@ toolbox
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -158,7 +158,7 @@ picker
 "
 )
 ;
-await
+yield
 startPicker
 (
 toolbox
@@ -218,13 +218,13 @@ y
 }
 )
 ;
-await
+yield
 highlighterShowing
 ;
 let
 isVisible
 =
-await
+yield
 testActor
 .
 isHighlighting
@@ -242,7 +242,7 @@ highlighting
 "
 )
 ;
-await
+yield
 testActor
 .
 reloadFrame
@@ -264,7 +264,7 @@ again
 "
 )
 ;
-await
+yield
 testActor
 .
 reloadFrame
@@ -286,7 +286,7 @@ twice
 ;
 isVisible
 =
-await
+yield
 testActor
 .
 isHighlighting
@@ -317,7 +317,7 @@ picker
 "
 )
 ;
-await
+yield
 toolbox
 .
 highlighterUtils

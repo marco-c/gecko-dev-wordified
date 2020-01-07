@@ -174,12 +174,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -203,7 +203,7 @@ boxmodel
 testActor
 }
 =
-await
+yield
 openLayoutView
 (
 )
@@ -211,7 +211,7 @@ openLayoutView
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -242,7 +242,7 @@ border
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -270,7 +270,7 @@ border
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -404,7 +404,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -434,7 +434,7 @@ editor
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -466,7 +466,7 @@ border
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -511,7 +511,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -520,7 +520,7 @@ inspector
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -552,7 +552,7 @@ padding
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor

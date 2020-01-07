@@ -1146,8 +1146,12 @@ contents
 var
 getFontFamilyDataURL
 =
+Task
+.
 async
+(
 function
+*
 (
 font
 nodeFront
@@ -1170,7 +1174,7 @@ let
 data
 }
 =
-await
+yield
 nodeFront
 .
 getFontFamilyDataURL
@@ -1182,7 +1186,7 @@ fillStyle
 let
 dataURL
 =
-await
+yield
 data
 .
 string
@@ -1193,6 +1197,7 @@ return
 dataURL
 ;
 }
+)
 ;
 /
 *
@@ -1467,8 +1472,12 @@ value
 var
 simulateColorPickerChange
 =
+Task
+.
 async
+(
 function
+*
 (
 ruleView
 colorPicker
@@ -1504,7 +1513,7 @@ object
 let
 spectrum
 =
-await
+yield
 colorPicker
 .
 spectrum
@@ -1559,7 +1568,7 @@ update
 "
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 if
@@ -1583,7 +1592,7 @@ page
 "
 )
 ;
-await
+yield
 waitForSuccess
 (
 (
@@ -1629,6 +1638,7 @@ page
 ;
 }
 }
+)
 ;
 /
 *

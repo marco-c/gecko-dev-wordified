@@ -104,8 +104,8 @@ body
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -114,13 +114,13 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -130,7 +130,7 @@ abcd
 inspector
 )
 ;
-await
+yield
 clickContainer
 (
 "
@@ -143,7 +143,7 @@ inspector
 let
 container
 =
-await
+yield
 focusNode
 (
 "
@@ -314,7 +314,7 @@ box
 "
 )
 ;
-await
+yield
 onFocus
 ;
 info
@@ -330,7 +330,7 @@ event
 "
 )
 ;
-await
+yield
 nodeMutated
 ;
 is

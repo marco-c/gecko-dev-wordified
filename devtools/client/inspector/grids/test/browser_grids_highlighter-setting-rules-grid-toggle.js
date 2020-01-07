@@ -134,12 +134,12 @@ showInfiniteLines
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -168,7 +168,7 @@ inspector
 gridInspector
 }
 =
-await
+yield
 openLayoutView
 (
 )
@@ -275,7 +275,7 @@ click
 (
 )
 ;
-await
+yield
 onCheckboxChange
 ;
 info
@@ -304,7 +304,7 @@ ruleView
 .
 highlighters
 ;
-await
+yield
 selectNode
 (
 "
@@ -481,7 +481,7 @@ click
 (
 )
 ;
-await
+yield
 onHighlighterShown
 ;
 Services

@@ -72,8 +72,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -82,7 +82,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -103,7 +103,7 @@ children
 let
 svgNodeFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -112,7 +112,7 @@ svg
 inspector
 )
 ;
-await
+yield
 inspector
 .
 markup
@@ -122,7 +122,7 @@ expandNode
 svgNodeFront
 )
 ;
-await
+yield
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -131,7 +131,7 @@ inspector
 let
 clipPathContainer
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -178,7 +178,7 @@ lowercased
 let
 divContainer
 =
-await
+yield
 getContainerForSelector
 (
 "

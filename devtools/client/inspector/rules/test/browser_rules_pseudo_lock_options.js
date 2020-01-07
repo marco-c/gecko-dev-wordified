@@ -129,12 +129,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -163,12 +163,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -177,7 +177,7 @@ div
 inspector
 )
 ;
-await
+yield
 assertPseudoPanelClosed
 (
 view
@@ -203,7 +203,7 @@ click
 (
 )
 ;
-await
+yield
 assertPseudoPanelOpened
 (
 view
@@ -227,7 +227,7 @@ added
 "
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -236,7 +236,7 @@ view
 hoverCheckbox
 )
 ;
-await
+yield
 assertPseudoAdded
 (
 inspector
@@ -249,7 +249,7 @@ hover
 1
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -258,7 +258,7 @@ view
 hoverCheckbox
 )
 ;
-await
+yield
 assertPseudoRemoved
 (
 inspector
@@ -266,7 +266,7 @@ view
 2
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -275,7 +275,7 @@ view
 activeCheckbox
 )
 ;
-await
+yield
 assertPseudoAdded
 (
 inspector
@@ -288,7 +288,7 @@ active
 1
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -297,7 +297,7 @@ view
 activeCheckbox
 )
 ;
-await
+yield
 assertPseudoRemoved
 (
 inspector
@@ -305,7 +305,7 @@ view
 2
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -314,7 +314,7 @@ view
 focusCheckbox
 )
 ;
-await
+yield
 assertPseudoAdded
 (
 inspector
@@ -327,7 +327,7 @@ focus
 1
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -336,7 +336,7 @@ view
 focusCheckbox
 )
 ;
-await
+yield
 assertPseudoRemoved
 (
 inspector
@@ -362,7 +362,7 @@ added
 "
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -371,7 +371,7 @@ view
 hoverCheckbox
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -380,7 +380,7 @@ view
 activeCheckbox
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -389,7 +389,7 @@ view
 focusCheckbox
 )
 ;
-await
+yield
 assertPseudoAdded
 (
 inspector
@@ -402,7 +402,7 @@ focus
 1
 )
 ;
-await
+yield
 assertPseudoAdded
 (
 inspector
@@ -415,7 +415,7 @@ active
 2
 )
 ;
-await
+yield
 assertPseudoAdded
 (
 inspector
@@ -428,7 +428,7 @@ hover
 3
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -437,7 +437,7 @@ view
 hoverCheckbox
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -446,7 +446,7 @@ view
 activeCheckbox
 )
 ;
-await
+yield
 togglePseudoClass
 (
 inspector
@@ -455,7 +455,7 @@ view
 focusCheckbox
 )
 ;
-await
+yield
 assertPseudoRemoved
 (
 inspector
@@ -473,7 +473,7 @@ element
 "
 )
 ;
-await
+yield
 view
 .
 selectElement
@@ -579,7 +579,7 @@ click
 (
 )
 ;
-await
+yield
 assertPseudoPanelClosed
 (
 view
@@ -588,8 +588,8 @@ view
 }
 )
 ;
-async
 function
+*
 togglePseudoClass
 (
 inspector
@@ -633,11 +633,12 @@ click
 (
 )
 ;
-await
+yield
 onRefresh
 ;
 }
 function
+*
 assertPseudoAdded
 (
 inspector
@@ -718,6 +719,7 @@ rule
 ;
 }
 function
+*
 assertPseudoRemoved
 (
 inspector
@@ -790,6 +792,7 @@ div
 ;
 }
 function
+*
 assertPseudoPanelOpened
 (
 view
@@ -963,6 +966,7 @@ of
 ;
 }
 function
+*
 assertPseudoPanelClosed
 (
 view

@@ -114,12 +114,12 @@ h1
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -148,12 +148,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -163,7 +163,7 @@ testid
 inspector
 )
 ;
-await
+yield
 testExpandersShown
 (
 inspector
@@ -174,6 +174,7 @@ view
 )
 ;
 function
+*
 testExpandersShown
 (
 inspector

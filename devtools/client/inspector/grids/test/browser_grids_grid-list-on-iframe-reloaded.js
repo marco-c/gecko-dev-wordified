@@ -81,12 +81,12 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 TEST_URI
@@ -99,7 +99,7 @@ gridInspector
 testActor
 }
 =
-await
+yield
 openLayoutView
 (
 )
@@ -151,7 +151,7 @@ grid
 "
 )
 ;
-await
+yield
 enableTheFirstGrid
 (
 doc
@@ -328,10 +328,10 @@ reloadIFrame
 "
 )
 ;
-await
+yield
 onNewListUnchecked
 ;
-await
+yield
 onHighlighterHidden
 ;
 is
@@ -372,7 +372,7 @@ works
 "
 )
 ;
-await
+yield
 enableTheFirstGrid
 (
 doc
@@ -418,8 +418,8 @@ shown
 }
 )
 ;
-async
 function
+*
 enableTheFirstGrid
 (
 doc
@@ -496,10 +496,10 @@ click
 (
 )
 ;
-await
+yield
 onHighlighterShown
 ;
-await
+yield
 onCheckboxChange
 ;
 }

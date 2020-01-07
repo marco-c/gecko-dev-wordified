@@ -121,12 +121,12 @@ style
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -155,12 +155,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -193,7 +193,7 @@ textProps
 is
 (
 (
-await
+yield
 getComputedStyleProperty
 (
 "
@@ -225,7 +225,7 @@ set
 "
 )
 ;
-await
+yield
 setProperty
 (
 view
@@ -269,7 +269,7 @@ set
 is
 (
 (
-await
+yield
 getComputedStyleProperty
 (
 "
@@ -312,7 +312,7 @@ property
 "
 )
 ;
-await
+yield
 togglePropStatus
 (
 view
@@ -322,7 +322,7 @@ prop
 is
 (
 (
-await
+yield
 getComputedStyleProperty
 (
 "
@@ -354,7 +354,7 @@ set
 "
 )
 ;
-await
+yield
 setProperty
 (
 view
@@ -409,7 +409,7 @@ enabled
 is
 (
 (
-await
+yield
 getComputedStyleProperty
 (
 "

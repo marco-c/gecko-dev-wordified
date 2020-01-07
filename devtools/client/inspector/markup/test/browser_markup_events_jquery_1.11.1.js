@@ -1198,12 +1198,12 @@ enable
 /
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 runEventPopupTests
 (
 TEST_URL

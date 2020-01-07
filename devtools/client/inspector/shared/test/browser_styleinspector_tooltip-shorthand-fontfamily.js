@@ -112,12 +112,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -146,12 +146,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -161,7 +161,7 @@ testElement
 inspector
 )
 ;
-await
+yield
 testRuleView
 (
 view
@@ -175,8 +175,8 @@ nodeFront
 }
 )
 ;
-async
 function
+*
 testRuleView
 (
 ruleView
@@ -362,7 +362,7 @@ property
 let
 previewTooltip
 =
-await
+yield
 assertShowPreviewTooltip
 (
 ruleView
@@ -432,7 +432,7 @@ expected
 let
 dataURL
 =
-await
+yield
 getFontFamilyDataURL
 (
 valueSpan
@@ -467,7 +467,7 @@ image
 "
 )
 ;
-await
+yield
 assertTooltipHiddenOnMouseOut
 (
 previewTooltip

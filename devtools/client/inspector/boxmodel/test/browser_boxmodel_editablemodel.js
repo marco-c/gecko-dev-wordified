@@ -204,8 +204,8 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -230,7 +230,7 @@ boxmodel
 -
 container
 .
-await
+yield
 pushPref
 (
 "
@@ -245,7 +245,7 @@ height
 500
 )
 ;
-await
+yield
 addTab
 (
 "
@@ -269,12 +269,12 @@ boxmodel
 testActor
 }
 =
-await
+yield
 openLayoutView
 (
 )
 ;
-await
+yield
 testEditingMargins
 (
 inspector
@@ -282,7 +282,7 @@ boxmodel
 testActor
 )
 ;
-await
+yield
 testKeyBindings
 (
 inspector
@@ -290,7 +290,7 @@ boxmodel
 testActor
 )
 ;
-await
+yield
 testEscapeToUndo
 (
 inspector
@@ -298,7 +298,7 @@ boxmodel
 testActor
 )
 ;
-await
+yield
 testDeletingValue
 (
 inspector
@@ -306,7 +306,7 @@ boxmodel
 testActor
 )
 ;
-await
+yield
 testRefocusingOnClick
 (
 inspector
@@ -317,8 +317,8 @@ testActor
 }
 )
 ;
-async
 function
+*
 testEditingMargins
 (
 inspector
@@ -351,7 +351,7 @@ changes
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -382,7 +382,7 @@ element
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -516,7 +516,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -525,7 +525,7 @@ inspector
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -569,7 +569,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -578,7 +578,7 @@ inspector
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -630,8 +630,8 @@ model
 )
 ;
 }
-async
 function
+*
 testKeyBindings
 (
 inspector
@@ -663,7 +663,7 @@ changes
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -694,7 +694,7 @@ element
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -828,7 +828,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -858,7 +858,7 @@ editor
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -902,7 +902,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -932,7 +932,7 @@ editor
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -979,7 +979,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -1009,7 +1009,7 @@ editor
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -1056,7 +1056,7 @@ defaultView
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -1110,8 +1110,8 @@ model
 )
 ;
 }
-async
 function
+*
 testEscapeToUndo
 (
 inspector
@@ -1143,7 +1143,7 @@ that
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -1176,7 +1176,7 @@ element
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -1310,7 +1310,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -1339,7 +1339,7 @@ editor
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -1382,7 +1382,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -1391,7 +1391,7 @@ inspector
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -1445,8 +1445,8 @@ model
 )
 ;
 }
-async
 function
+*
 testDeletingValue
 (
 inspector
@@ -1468,7 +1468,7 @@ property
 "
 )
 ;
-await
+yield
 setStyle
 (
 testActor
@@ -1484,13 +1484,13 @@ marginRight
 "
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -1624,7 +1624,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -1653,7 +1653,7 @@ editor
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -1699,7 +1699,7 @@ defaultView
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -1752,8 +1752,8 @@ model
 )
 ;
 }
-async
 function
+*
 testRefocusingOnClick
 (
 inspector
@@ -1778,7 +1778,7 @@ focus
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -1953,7 +1953,7 @@ document
 defaultView
 )
 ;
-await
+yield
 waitForUpdate
 (
 inspector
@@ -1983,7 +1983,7 @@ editor
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor
@@ -2030,7 +2030,7 @@ defaultView
 is
 (
 (
-await
+yield
 getStyle
 (
 testActor

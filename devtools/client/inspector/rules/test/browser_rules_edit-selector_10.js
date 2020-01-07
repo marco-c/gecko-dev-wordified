@@ -142,12 +142,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -176,12 +176,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -191,7 +191,7 @@ pickme
 inspector
 )
 ;
-await
+yield
 testEditSelector
 (
 view
@@ -200,8 +200,8 @@ view
 }
 )
 ;
-async
 function
+*
 testEditSelector
 (
 view
@@ -219,7 +219,7 @@ view
 let
 editor
 =
-await
+yield
 focusEditableField
 (
 view
@@ -262,7 +262,7 @@ KEY_Enter
 "
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 /
@@ -305,7 +305,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onBlur
 ;
 /

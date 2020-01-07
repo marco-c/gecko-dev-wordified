@@ -565,8 +565,8 @@ false
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -575,13 +575,13 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-await
+yield
 runStyleAttributeAutocompleteTests
 (
 inspector

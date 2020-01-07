@@ -484,12 +484,12 @@ class3
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -517,12 +517,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -585,7 +585,7 @@ markupmutation
 "
 )
 ;
-await
+yield
 testActor
 .
 setAttribute
@@ -599,7 +599,7 @@ class
 inputClassName
 )
 ;
-await
+yield
 onMutation
 ;
 info

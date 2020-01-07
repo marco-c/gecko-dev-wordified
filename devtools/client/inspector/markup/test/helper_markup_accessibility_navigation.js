@@ -457,8 +457,8 @@ updated
 .
 *
 /
-async
 function
+*
 runAccessibilityNavigationTest
 (
 inspector
@@ -554,7 +554,7 @@ options
 win
 )
 ;
-await
+yield
 updated
 ;
 let

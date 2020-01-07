@@ -299,8 +299,8 @@ selectNode
 ;
 selectNode
 =
-async
 function
+*
 (
 node
 inspector
@@ -321,7 +321,7 @@ updated
 "
 )
 ;
-await
+yield
 _selectNode
 (
 node
@@ -329,7 +329,7 @@ inspector
 reason
 )
 ;
-await
+yield
 onUpdated
 ;
 }
@@ -377,13 +377,17 @@ object
 var
 openFontInspectorForURL
 =
+Task
+.
 async
+(
 function
+*
 (
 url
 )
 {
-await
+yield
 addTab
 (
 url
@@ -395,7 +399,7 @@ toolbox
 inspector
 }
 =
-await
+yield
 openInspector
 (
 )
@@ -439,7 +443,7 @@ opened
 or
 not
 .
-await
+yield
 selectNode
 (
 "
@@ -460,6 +464,7 @@ fontinspector
 }
 ;
 }
+)
 ;
 /
 *
@@ -515,8 +520,8 @@ preview
 .
 *
 /
-async
 function
+*
 updatePreviewText
 (
 view
@@ -599,7 +604,7 @@ click
 (
 )
 ;
-await
+yield
 onClick
 ;
 let
@@ -679,7 +684,7 @@ doc
 defaultView
 )
 ;
-await
+yield
 update
 ;
 }
@@ -731,7 +736,7 @@ doc
 defaultView
 )
 ;
-await
+yield
 update
 ;
 }

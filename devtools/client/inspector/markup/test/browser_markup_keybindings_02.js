@@ -102,8 +102,8 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -113,7 +113,7 @@ inspector
 toolbox
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -138,7 +138,7 @@ let
 editor
 }
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -214,10 +214,10 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onSplitConsole
 ;
-await
+yield
 onConsoleReady
 ;
 ok
@@ -280,7 +280,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onSplitConsole
 ;
 ok

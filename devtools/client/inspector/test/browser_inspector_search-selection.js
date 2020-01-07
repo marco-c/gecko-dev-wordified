@@ -97,8 +97,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -107,7 +107,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -123,7 +123,7 @@ box
 "
 )
 ;
-await
+yield
 focusSearchBoxUsingShortcut
 (
 inspector
@@ -172,7 +172,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 processingDone
 ;
 info
@@ -187,7 +187,7 @@ complete
 "
 )
 ;
-await
+yield
 inspector
 .
 searchSuggestions
@@ -207,7 +207,7 @@ new
 selection
 "
 ;
-await
+yield
 sendKeyAndCheck
 (
 inspector
@@ -235,7 +235,7 @@ multiple
 nodes
 "
 ;
-await
+yield
 sendKeyAndCheck
 (
 inspector
@@ -265,7 +265,7 @@ previous
 node
 "
 ;
-await
+yield
 sendKeyAndCheck
 (
 inspector
@@ -311,7 +311,7 @@ multiple
 nodes
 "
 ;
-await
+yield
 sendKeyAndCheck
 (
 inspector
@@ -346,7 +346,7 @@ previous
 node
 "
 ;
-await
+yield
 sendKeyAndCheck
 (
 inspector
@@ -385,7 +385,7 @@ multiple
 nodes
 "
 ;
-await
+yield
 sendKeyAndCheck
 (
 inspector
@@ -420,7 +420,7 @@ previous
 node
 "
 ;
-await
+yield
 sendKeyAndCheck
 (
 inspector
@@ -449,8 +449,12 @@ p1
 let
 sendKeyAndCheck
 =
+Task
+.
 async
+(
 function
+*
 (
 inspector
 description
@@ -489,7 +493,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onSelect
 ;
 let
@@ -524,7 +528,7 @@ value
 let
 targetNode
 =
-await
+yield
 getNodeFront
 (
 expectedId
@@ -549,4 +553,5 @@ selected
 )
 ;
 }
+)
 ;

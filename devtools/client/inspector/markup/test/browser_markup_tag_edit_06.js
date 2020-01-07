@@ -639,8 +639,8 @@ here
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -650,13 +650,13 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-await
+yield
 runAddAttributesTests
 (
 TEST_DATA

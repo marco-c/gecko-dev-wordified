@@ -149,8 +149,8 @@ p
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -159,7 +159,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_PAGE
@@ -287,8 +287,8 @@ resolve
 ;
 }
 ;
-async
 function
+*
 isHighlighting
 (
 selector
@@ -298,7 +298,7 @@ desc
 let
 nodeFront
 =
-await
+yield
 getNodeFront
 (
 selector
@@ -332,7 +332,7 @@ view
 "
 )
 ;
-await
+yield
 hoverContainer
 (
 "
@@ -342,7 +342,7 @@ one
 inspector
 )
 ;
-await
+yield
 isHighlighting
 (
 "
@@ -404,7 +404,7 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onUpdated
 ;
 onUpdated
@@ -434,10 +434,10 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onUpdated
 ;
-await
+yield
 isHighlighting
 (
 "
@@ -499,10 +499,10 @@ inspector
 panelWin
 )
 ;
-await
+yield
 onUpdated
 ;
-await
+yield
 isHighlighting
 (
 "

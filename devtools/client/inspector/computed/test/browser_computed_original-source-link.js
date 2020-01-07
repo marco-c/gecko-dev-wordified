@@ -125,8 +125,8 @@ css
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -155,7 +155,7 @@ PREF
 true
 )
 ;
-await
+yield
 addTab
 (
 TESTCASE_URI
@@ -168,7 +168,7 @@ inspector
 view
 }
 =
-await
+yield
 openComputedView
 (
 )
@@ -191,7 +191,7 @@ updated
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -210,7 +210,7 @@ property
 "
 )
 ;
-await
+yield
 expandComputedViewPropertyByIndex
 (
 view
@@ -227,7 +227,7 @@ text
 "
 )
 ;
-await
+yield
 onLinksUpdated
 ;
 verifyLinkText
@@ -272,7 +272,7 @@ PREF
 false
 )
 ;
-await
+yield
 onLinksUpdated
 ;
 info
@@ -292,7 +292,7 @@ change
 "
 )
 ;
-await
+yield
 verifyLinkText
 (
 view
@@ -336,7 +336,7 @@ PREF
 true
 )
 ;
-await
+yield
 onLinksUpdated
 ;
 info
@@ -352,7 +352,7 @@ works
 "
 )
 ;
-await
+yield
 testClickingLink
 (
 toolbox
@@ -386,8 +386,8 @@ PREF
 }
 )
 ;
-async
 function
+*
 testClickingLink
 (
 toolbox
@@ -442,7 +442,7 @@ click
 let
 editor
 =
-await
+yield
 onEditor
 ;
 let

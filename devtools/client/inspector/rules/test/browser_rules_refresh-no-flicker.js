@@ -124,12 +124,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 TESTCASE_URI
@@ -156,7 +156,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -164,7 +164,7 @@ openRuleView
 let
 testdiv
 =
-await
+yield
 getNodeFront
 (
 "
@@ -174,7 +174,7 @@ testdiv
 inspector
 )
 ;
-await
+yield
 selectNode
 (
 testdiv
@@ -318,7 +318,7 @@ interactive
 "
 )
 ;
-await
+yield
 p
 ;
 info

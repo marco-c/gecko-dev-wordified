@@ -103,8 +103,8 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -129,7 +129,7 @@ boxmodel
 -
 container
 .
-await
+yield
 pushPref
 (
 "
@@ -144,7 +144,7 @@ height
 500
 )
 ;
-await
+yield
 addTab
 (
 "
@@ -167,12 +167,12 @@ inspector
 boxmodel
 }
 =
-await
+yield
 openLayoutView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -182,13 +182,13 @@ div1
 inspector
 )
 ;
-await
+yield
 testClickingOutsideEditor
 (
 boxmodel
 )
 ;
-await
+yield
 testClickingBelowContainer
 (
 boxmodel
@@ -197,8 +197,8 @@ boxmodel
 }
 )
 ;
-async
 function
+*
 testClickingOutsideEditor
 (
 boxmodel
@@ -363,7 +363,7 @@ document
 defaultView
 )
 ;
-await
+yield
 onBlur
 ;
 is
@@ -393,8 +393,8 @@ removed
 )
 ;
 }
-async
 function
+*
 testClickingBelowContainer
 (
 boxmodel
@@ -625,7 +625,7 @@ document
 defaultView
 )
 ;
-await
+yield
 onBlur
 ;
 is

@@ -82,8 +82,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -92,7 +92,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -114,7 +114,7 @@ node
 let
 parentFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -124,7 +124,7 @@ test
 inspector
 )
 ;
-await
+yield
 inspector
 .
 markup
@@ -134,7 +134,7 @@ expandNode
 parentFront
 )
 ;
-await
+yield
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -154,7 +154,7 @@ view
 let
 parentContainer
 =
-await
+yield
 getContainerForNodeFront
 (
 parentFront
@@ -185,7 +185,7 @@ place
 "
 )
 ;
-await
+yield
 dragElementToOriginalLocation
 (
 "
@@ -197,7 +197,7 @@ inspector
 ;
 ids
 =
-await
+yield
 getChildrenIDsOf
 (
 parentFront
@@ -262,7 +262,7 @@ parent
 "
 )
 ;
-await
+yield
 moveElementDown
 (
 "
@@ -278,7 +278,7 @@ inspector
 ;
 ids
 =
-await
+yield
 getChildrenIDsOf
 (
 parentFront
@@ -344,7 +344,7 @@ child
 "
 )
 ;
-await
+yield
 moveElementDown
 (
 "
@@ -360,7 +360,7 @@ inspector
 ;
 ids
 =
-await
+yield
 getChildrenIDsOf
 (
 parentFront
@@ -425,7 +425,7 @@ parent
 "
 )
 ;
-await
+yield
 moveElementDown
 (
 "
@@ -441,7 +441,7 @@ inspector
 ;
 ids
 =
-await
+yield
 getChildrenIDsOf
 (
 parentFront
@@ -505,7 +505,7 @@ parent
 "
 )
 ;
-await
+yield
 moveElementDown
 (
 "
@@ -521,7 +521,7 @@ inspector
 ;
 ids
 =
-await
+yield
 getChildrenIDsOf
 (
 parentFront
@@ -551,7 +551,7 @@ child
 let
 siblingFront
 =
-await
+yield
 inspector
 .
 walker
@@ -585,8 +585,8 @@ nextElementSibling
 }
 )
 ;
-async
 function
+*
 dragElementToOriginalLocation
 (
 selector
@@ -640,7 +640,7 @@ markupmutation
 onMutation
 )
 ;
-await
+yield
 simulateNodeDragAndDrop
 (
 inspector
@@ -693,7 +693,7 @@ checks
 element
 ordering
 .
-await
+yield
 wait
 (
 500
@@ -710,8 +710,8 @@ onMutation
 )
 ;
 }
-async
 function
+*
 moveElementDown
 (
 selector
@@ -737,7 +737,7 @@ next
 let
 container
 =
-await
+yield
 getContainerForSelector
 (
 next
@@ -783,7 +783,7 @@ updated
 "
 )
 ;
-await
+yield
 simulateNodeDragAndDrop
 (
 inspector
@@ -802,10 +802,10 @@ height
 let
 mutations
 =
-await
+yield
 onMutated
 ;
-await
+yield
 uiUpdate
 ;
 is
@@ -823,8 +823,8 @@ received
 )
 ;
 }
-async
 function
+*
 getChildrenIDsOf
 (
 parentFront
@@ -838,7 +838,7 @@ let
 nodes
 }
 =
-await
+yield
 walker
 .
 children

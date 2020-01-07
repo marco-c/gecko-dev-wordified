@@ -262,8 +262,8 @@ inspectNodeManual
 ]
 exec
 :
-async
 function
+*
 (
 args
 context
@@ -281,7 +281,7 @@ target
 let
 toolbox
 =
-await
+yield
 gDevTools
 .
 showToolbox
@@ -306,7 +306,7 @@ walker
 let
 rootNode
 =
-await
+yield
 walker
 .
 getRootNode
@@ -316,7 +316,7 @@ getRootNode
 let
 nodeFront
 =
-await
+yield
 walker
 .
 querySelector
@@ -475,8 +475,8 @@ true
 ]
 exec
 :
-async
 function
+*
 (
 args
 context
@@ -565,7 +565,7 @@ if
 inspector
 )
 {
-await
+yield
 inspector
 .
 hideEyeDropper

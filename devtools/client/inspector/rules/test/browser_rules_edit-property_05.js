@@ -118,12 +118,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -152,12 +152,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -199,7 +199,7 @@ property
 "
 )
 ;
-await
+yield
 togglePropStatus
 (
 view
@@ -209,7 +209,7 @@ prop
 let
 newValue
 =
-await
+yield
 getRulePropertyValue
 (
 "
@@ -258,7 +258,7 @@ value
 "
 )
 ;
-await
+yield
 focusEditableField
 (
 view
@@ -298,7 +298,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onNameDone
 ;
 info
@@ -340,12 +340,12 @@ view
 styleWindow
 )
 ;
-await
+yield
 onValueDone
 ;
 newValue
 =
-await
+yield
 getRulePropertyValue
 (
 "
@@ -429,7 +429,7 @@ property
 "
 )
 ;
-await
+yield
 togglePropStatus
 (
 view
@@ -438,7 +438,7 @@ prop
 ;
 newValue
 =
-await
+yield
 getRulePropertyValue
 (
 "
@@ -482,7 +482,7 @@ property
 "
 )
 ;
-await
+yield
 setProperty
 (
 view
@@ -494,7 +494,7 @@ red
 ;
 newValue
 =
-await
+yield
 getRulePropertyValue
 (
 "
@@ -571,8 +571,8 @@ overridden
 }
 )
 ;
-async
 function
+*
 getRulePropertyValue
 (
 name
@@ -581,7 +581,7 @@ name
 let
 propValue
 =
-await
+yield
 executeInContent
 (
 "

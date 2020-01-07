@@ -127,12 +127,12 @@ h1
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -161,12 +161,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -190,7 +190,7 @@ filter
 "
 )
 ;
-await
+yield
 setSearchFilter
 (
 view
@@ -230,7 +230,7 @@ rule
 let
 editor
 =
-await
+yield
 focusNewRuleViewProperty
 (
 ruleEditor
@@ -464,7 +464,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 /
@@ -551,7 +551,7 @@ flush
 (
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 onRuleViewChanged
@@ -575,7 +575,7 @@ blur
 (
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 ok

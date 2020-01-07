@@ -134,8 +134,8 @@ p
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -145,7 +145,7 @@ inspector
 toolbox
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -165,7 +165,7 @@ stopped
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -188,7 +188,7 @@ picker
 "
 )
 ;
-await
+yield
 startPicker
 (
 toolbox
@@ -204,7 +204,7 @@ toolbox
 "
 )
 ;
-await
+yield
 toolbox
 .
 destroy
@@ -237,7 +237,7 @@ destroyed
 "
 )
 ;
-await
+yield
 pickerStopped
 ;
 ok

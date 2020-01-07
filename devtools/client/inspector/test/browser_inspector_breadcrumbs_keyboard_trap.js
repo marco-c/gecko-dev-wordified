@@ -264,8 +264,8 @@ options
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -275,7 +275,7 @@ toolbox
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -295,7 +295,7 @@ breadcrumbs
 =
 inspector
 ;
-await
+yield
 selectNode
 (
 "
@@ -369,7 +369,7 @@ click
 (
 )
 ;
-await
+yield
 onHighlight
 ;
 /
@@ -455,7 +455,7 @@ keyPromise
 promise
 resolves
 .
-await
+yield
 breadcrumbs
 .
 keyPromise

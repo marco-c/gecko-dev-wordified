@@ -215,8 +215,8 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -261,7 +261,7 @@ toolbox
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -279,7 +279,7 @@ context
 "
 )
 ;
-await
+yield
 switchToFrameContext
 (
 1
@@ -301,7 +301,7 @@ successful
 let
 hasOuterNode
 =
-await
+yield
 testActor
 .
 hasNode
@@ -331,7 +331,7 @@ element
 let
 hasTestNode
 =
-await
+yield
 testActor
 .
 hasNode
@@ -370,7 +370,7 @@ context
 "
 )
 ;
-await
+yield
 selectAndHighlightNode
 (
 "
@@ -383,7 +383,7 @@ inspector
 let
 isHighlightCorrect
 =
-await
+yield
 testActor
 .
 assertHighlightedNode
@@ -481,8 +481,8 @@ Promise
 }
 *
 /
-async
 function
+*
 switchToFrameContext
 (
 frameIndex
@@ -527,7 +527,7 @@ frames
 let
 menu
 =
-await
+yield
 toolbox
 .
 showFramesMenu
@@ -539,7 +539,7 @@ btn
 }
 )
 ;
-await
+yield
 once
 (
 menu
@@ -587,10 +587,10 @@ click
 (
 )
 ;
-await
+yield
 newRoot
 ;
-await
+yield
 inspector
 .
 once

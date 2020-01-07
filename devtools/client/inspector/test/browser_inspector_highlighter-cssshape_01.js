@@ -161,8 +161,8 @@ rect
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -172,7 +172,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -188,7 +188,7 @@ inspector
 let
 highlighter
 =
-await
+yield
 front
 .
 getHighlighterByType
@@ -196,14 +196,14 @@ getHighlighterByType
 HIGHLIGHTER_TYPE
 )
 ;
-await
+yield
 isHiddenByDefault
 (
 testActor
 highlighter
 )
 ;
-await
+yield
 isVisibleWhenShown
 (
 testActor
@@ -211,7 +211,7 @@ inspector
 highlighter
 )
 ;
-await
+yield
 highlighter
 .
 finalize
@@ -221,8 +221,8 @@ finalize
 }
 )
 ;
-async
 function
+*
 getShapeHidden
 (
 testActor
@@ -248,7 +248,7 @@ hidden
 shape
 ]
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -270,8 +270,8 @@ return
 hidden
 ;
 }
-async
 function
+*
 isHiddenByDefault
 (
 testActor
@@ -294,7 +294,7 @@ default
 let
 polygonHidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -313,7 +313,7 @@ highlighterFront
 let
 ellipseHidden
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -346,8 +346,8 @@ default
 )
 ;
 }
-async
 function
+*
 isVisibleWhenShown
 (
 testActor
@@ -384,7 +384,7 @@ node
 let
 node
 =
-await
+yield
 getNodeFront
 (
 #
@@ -394,7 +394,7 @@ shapeName
 inspector
 )
 ;
-await
+yield
 highlighterFront
 .
 show
@@ -412,7 +412,7 @@ cssClipPath
 let
 hidden
 =
-await
+yield
 getShapeHidden
 (
 testActor
@@ -445,7 +445,7 @@ highlighter
 "
 )
 ;
-await
+yield
 highlighterFront
 .
 hide
@@ -455,7 +455,7 @@ hide
 let
 hidden
 =
-await
+yield
 getShapeHidden
 (
 testActor

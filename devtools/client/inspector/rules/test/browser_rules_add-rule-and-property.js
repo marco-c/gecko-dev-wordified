@@ -70,12 +70,12 @@ rule
 .
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -113,7 +113,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -128,7 +128,7 @@ node
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -157,7 +157,7 @@ field
 "
 )
 ;
-await
+yield
 addNewRuleAndDismissEditor
 (
 inspector
@@ -222,7 +222,7 @@ bold
 true
 )
 ;
-await
+yield
 onRuleViewChanged
 ;
 let

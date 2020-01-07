@@ -283,8 +283,8 @@ more
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -293,7 +293,7 @@ let
 inspector
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URL
@@ -339,7 +339,7 @@ step
 forceReload
 )
 {
-await
+yield
 forceReload
 (
 inspector
@@ -362,7 +362,7 @@ step
 selector
 )
 ;
-await
+yield
 selectNode
 (
 step
@@ -384,7 +384,7 @@ shwon
 "
 )
 ;
-await
+yield
 assertChildren
 (
 step
@@ -408,13 +408,13 @@ everything
 "
 )
 ;
-await
+yield
 clickShowMoreNodes
 (
 inspector
 )
 ;
-await
+yield
 inspector
 .
 markup
@@ -423,7 +423,7 @@ _waitForChildren
 (
 )
 ;
-await
+yield
 assertChildren
 (
 "
@@ -435,8 +435,8 @@ inspector
 }
 )
 ;
-async
 function
+*
 assertChildren
 (
 expected
@@ -446,7 +446,7 @@ inspector
 let
 container
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -533,8 +533,8 @@ children
 )
 ;
 }
-async
 function
+*
 forceReload
 (
 inspector
@@ -543,7 +543,7 @@ inspector
 let
 container
 =
-await
+yield
 getContainerForSelector
 (
 "
@@ -559,8 +559,8 @@ childrenDirty
 true
 ;
 }
-async
 function
+*
 clickShowMoreNodes
 (
 inspector
@@ -569,7 +569,7 @@ inspector
 let
 container
 =
-await
+yield
 getContainerForSelector
 (
 "

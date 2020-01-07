@@ -172,12 +172,12 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -206,7 +206,7 @@ inspector
 gridInspector
 }
 =
-await
+yield
 openLayoutView
 (
 )
@@ -326,7 +326,7 @@ click
 (
 )
 ;
-await
+yield
 onCheckbox1Change
 ;
 info
@@ -394,7 +394,7 @@ click
 (
 )
 ;
-await
+yield
 onCheckbox2Change
 ;
 }

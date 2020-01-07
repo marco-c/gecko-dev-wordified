@@ -105,8 +105,8 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -126,7 +126,7 @@ name
 "
 )
 ;
-await
+yield
 addTab
 (
 "
@@ -156,12 +156,12 @@ view
 testActor
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -239,7 +239,7 @@ refreshed
 "
 )
 ;
-await
+yield
 testActor
 .
 setAttribute
@@ -279,7 +279,7 @@ uppercase
 "
 )
 ;
-await
+yield
 onUpdated
 ;
 let

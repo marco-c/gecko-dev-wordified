@@ -115,8 +115,8 @@ div
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -126,7 +126,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -135,7 +135,7 @@ TEST_URI
 let
 divFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -155,7 +155,7 @@ activate
 "
 )
 ;
-await
+yield
 inspector
 .
 highlighter
@@ -168,7 +168,7 @@ divFront
 let
 rect
 =
-await
+yield
 testActor
 .
 getSimpleBorderRect
@@ -215,7 +215,7 @@ update
 "
 )
 ;
-await
+yield
 testActor
 .
 changeHighlightedNodeWaitForUpdate
@@ -241,7 +241,7 @@ yellow
 ;
 rect
 =
-await
+yield
 testActor
 .
 getSimpleBorderRect
@@ -277,7 +277,7 @@ hide
 "
 )
 ;
-await
+yield
 inspector
 .
 highlighter

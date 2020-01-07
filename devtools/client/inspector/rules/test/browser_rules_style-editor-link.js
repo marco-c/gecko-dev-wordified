@@ -535,12 +535,12 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 DOCUMENT_URL
@@ -554,12 +554,12 @@ view
 testActor
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -568,13 +568,13 @@ div
 inspector
 )
 ;
-await
+yield
 testInlineStyle
 (
 view
 )
 ;
-await
+yield
 testFirstInlineStyleSheet
 (
 view
@@ -582,7 +582,7 @@ toolbox
 testActor
 )
 ;
-await
+yield
 testSecondInlineStyleSheet
 (
 view
@@ -590,7 +590,7 @@ toolbox
 testActor
 )
 ;
-await
+yield
 testExternalStyleSheet
 (
 view
@@ -598,7 +598,7 @@ toolbox
 testActor
 )
 ;
-await
+yield
 testDisabledStyleEditor
 (
 view
@@ -608,8 +608,8 @@ toolbox
 }
 )
 ;
-async
 function
+*
 testInlineStyle
 (
 view
@@ -656,7 +656,7 @@ view
 let
 tab
 =
-await
+yield
 onTab
 ;
 let
@@ -708,8 +708,8 @@ tab
 )
 ;
 }
-async
 function
+*
 testFirstInlineStyleSheet
 (
 view
@@ -766,7 +766,7 @@ view
 let
 editor
 =
-await
+yield
 onSwitch
 ;
 ok
@@ -786,7 +786,7 @@ toolbox
 "
 )
 ;
-await
+yield
 validateStyleEditorSheet
 (
 editor
@@ -795,8 +795,8 @@ testActor
 )
 ;
 }
-async
 function
+*
 testSecondInlineStyleSheet
 (
 view
@@ -868,7 +868,7 @@ toolbox
 "
 )
 ;
-await
+yield
 toolbox
 .
 selectTool
@@ -904,7 +904,7 @@ view
 let
 editor
 =
-await
+yield
 onSelected
 ;
 is
@@ -925,7 +925,7 @@ again
 "
 )
 ;
-await
+yield
 validateStyleEditorSheet
 (
 editor
@@ -934,8 +934,8 @@ testActor
 )
 ;
 }
-async
 function
+*
 testExternalStyleSheet
 (
 view
@@ -1006,7 +1006,7 @@ toolbox
 "
 )
 ;
-await
+yield
 toolbox
 .
 selectTool
@@ -1042,7 +1042,7 @@ view
 let
 editor
 =
-await
+yield
 onSelected
 ;
 is
@@ -1063,7 +1063,7 @@ again
 "
 )
 ;
-await
+yield
 validateStyleEditorSheet
 (
 editor
@@ -1072,8 +1072,8 @@ testActor
 )
 ;
 }
-async
 function
+*
 validateStyleEditorSheet
 (
 editor
@@ -1128,7 +1128,7 @@ nodeHref
 let
 expectedHref
 =
-await
+yield
 testActor
 .
 eval
@@ -1171,8 +1171,8 @@ stylesheet
 )
 ;
 }
-async
 function
+*
 testDisabledStyleEditor
 (
 view
@@ -1205,7 +1205,7 @@ toolbox
 "
 )
 ;
-await
+yield
 toolbox
 .
 selectTool
@@ -1365,7 +1365,7 @@ view
 1
 )
 ;
-await
+yield
 onStyleEditorSelected
 ;
 is

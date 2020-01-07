@@ -263,12 +263,12 @@ h1
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -297,7 +297,7 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
@@ -312,7 +312,7 @@ node
 "
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -511,7 +511,7 @@ value
 let
 editor
 =
-await
+yield
 focusEditableField
 (
 view
@@ -737,7 +737,7 @@ re
 "
 )
 {
-await
+yield
 synthesizeKeyForAutocomplete
 (
 key
@@ -854,7 +854,7 @@ arrows
 "
 )
 ;
-await
+yield
 synthesizeKeyForAutocomplete
 (
 "
@@ -884,7 +884,7 @@ values
 "
 )
 ;
-await
+yield
 synthesizeKeyForAutocomplete
 (
 "
@@ -914,7 +914,7 @@ values
 "
 )
 ;
-await
+yield
 synthesizeKeyForAutocomplete
 (
 "
@@ -1062,10 +1062,10 @@ flush
 (
 )
 ;
-await
+yield
 onSuggest
 ;
-await
+yield
 onRuleviewChanged
 ;
 is
@@ -1124,7 +1124,7 @@ view
 styleWindow
 )
 ;
-await
+yield
 onRuleviewChanged
 ;
 }
@@ -1221,8 +1221,8 @@ dispatched
 .
 *
 /
-async
 function
+*
 synthesizeKeyForAutocomplete
 (
 key
@@ -1254,7 +1254,7 @@ key
 win
 )
 ;
-await
+yield
 onSuggest
 ;
 }

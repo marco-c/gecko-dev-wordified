@@ -467,12 +467,12 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 DOCUMENT_URL
@@ -486,12 +486,12 @@ view
 testActor
 }
 =
-await
+yield
 openComputedView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -500,13 +500,13 @@ span
 inspector
 )
 ;
-await
+yield
 testInlineStyle
 (
 view
 )
 ;
-await
+yield
 testFirstInlineStyleSheet
 (
 view
@@ -514,7 +514,7 @@ toolbox
 testActor
 )
 ;
-await
+yield
 testSecondInlineStyleSheet
 (
 view
@@ -522,7 +522,7 @@ toolbox
 testActor
 )
 ;
-await
+yield
 testExternalStyleSheet
 (
 view
@@ -533,8 +533,8 @@ testActor
 }
 )
 ;
-async
 function
+*
 testInlineStyle
 (
 view
@@ -549,7 +549,7 @@ style
 "
 )
 ;
-await
+yield
 expandComputedViewPropertyByIndex
 (
 view
@@ -590,7 +590,7 @@ view
 let
 tab
 =
-await
+yield
 onTab
 ;
 let
@@ -642,8 +642,8 @@ tab
 )
 ;
 }
-async
 function
+*
 testFirstInlineStyleSheet
 (
 view
@@ -700,7 +700,7 @@ view
 let
 editor
 =
-await
+yield
 onSwitch
 ;
 ok
@@ -720,7 +720,7 @@ toolbox
 "
 )
 ;
-await
+yield
 validateStyleEditorSheet
 (
 editor
@@ -729,8 +729,8 @@ testActor
 )
 ;
 }
-async
 function
+*
 testSecondInlineStyleSheet
 (
 view
@@ -802,7 +802,7 @@ toolbox
 "
 )
 ;
-await
+yield
 toolbox
 .
 selectTool
@@ -833,7 +833,7 @@ view
 let
 editor
 =
-await
+yield
 onSelected
 ;
 is
@@ -854,7 +854,7 @@ again
 "
 )
 ;
-await
+yield
 validateStyleEditorSheet
 (
 editor
@@ -863,8 +863,8 @@ testActor
 )
 ;
 }
-async
 function
+*
 testExternalStyleSheet
 (
 view
@@ -935,7 +935,7 @@ toolbox
 "
 )
 ;
-await
+yield
 toolbox
 .
 selectTool
@@ -966,7 +966,7 @@ view
 let
 editor
 =
-await
+yield
 onSelected
 ;
 is
@@ -987,7 +987,7 @@ again
 "
 )
 ;
-await
+yield
 validateStyleEditorSheet
 (
 editor
@@ -996,8 +996,8 @@ testActor
 )
 ;
 }
-async
 function
+*
 validateStyleEditorSheet
 (
 editor
@@ -1018,7 +1018,7 @@ stylesheet
 let
 expectedHref
 =
-await
+yield
 testActor
 .
 eval

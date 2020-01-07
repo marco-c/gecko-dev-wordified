@@ -234,12 +234,12 @@ block
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 "
@@ -268,12 +268,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -291,7 +291,7 @@ of
 TEST_DATA
 )
 {
-await
+yield
 testLivePreviewData
 (
 data
@@ -306,8 +306,8 @@ testid
 }
 )
 ;
-async
 function
+*
 testLivePreviewData
 (
 data
@@ -354,7 +354,7 @@ editor
 let
 editor
 =
-await
+yield
 focusEditableField
 (
 ruleView
@@ -432,7 +432,7 @@ flush
 (
 )
 ;
-await
+yield
 onPreviewDone
 ;
 let
@@ -478,7 +478,7 @@ KEY_Enter
 )
 ;
 }
-await
+yield
 onValueDone
 ;
 /
@@ -501,7 +501,7 @@ already
 is
 (
 (
-await
+yield
 getComputedStyleProperty
 (
 selector

@@ -101,12 +101,12 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
-await
+yield
 addTab
 (
 TEST_URI
@@ -118,12 +118,12 @@ inspector
 view
 }
 =
-await
+yield
 openComputedView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -133,7 +133,7 @@ test
 inspector
 )
 ;
-await
+yield
 testMatchedSelectors
 (
 view
@@ -143,8 +143,8 @@ inspector
 }
 )
 ;
-async
 function
+*
 testMatchedSelectors
 (
 view
@@ -167,7 +167,7 @@ titles
 let
 nodeFront
 =
-await
+yield
 getNodeFront
 (
 "
@@ -224,7 +224,7 @@ matchedExpanded
 =
 true
 ;
-await
+yield
 propertyView
 .
 refreshMatchedSelectors

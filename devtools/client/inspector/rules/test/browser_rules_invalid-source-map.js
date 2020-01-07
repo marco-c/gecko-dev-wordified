@@ -115,8 +115,8 @@ css
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -130,7 +130,7 @@ PREF
 true
 )
 ;
-await
+yield
 addTab
 (
 TESTCASE_URI
@@ -142,12 +142,12 @@ inspector
 view
 }
 =
-await
+yield
 openRuleView
 (
 )
 ;
-await
+yield
 selectNode
 (
 "
@@ -248,7 +248,7 @@ value
 "
 )
 ;
-await
+yield
 verifyLinkText
 (
 view

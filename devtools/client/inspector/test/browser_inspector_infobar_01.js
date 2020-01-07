@@ -88,8 +88,8 @@ html
 ;
 add_task
 (
-async
 function
+*
 (
 )
 {
@@ -99,7 +99,7 @@ inspector
 testActor
 }
 =
-await
+yield
 openInspectorForURL
 (
 TEST_URI
@@ -331,7 +331,7 @@ of
 testData
 )
 {
-await
+yield
 testPosition
 (
 currTest
@@ -343,8 +343,8 @@ testActor
 }
 )
 ;
-async
 function
+*
 testPosition
 (
 test
@@ -363,7 +363,7 @@ test
 selector
 )
 ;
-await
+yield
 selectAndHighlightNode
 (
 test
@@ -375,7 +375,7 @@ inspector
 let
 position
 =
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -418,7 +418,7 @@ matches
 let
 tag
 =
-await
+yield
 testActor
 .
 getHighlighterNodeTextContent
@@ -466,7 +466,7 @@ id
 let
 id
 =
-await
+yield
 testActor
 .
 getHighlighterNodeTextContent
@@ -512,7 +512,7 @@ matches
 let
 classes
 =
-await
+yield
 testActor
 .
 getHighlighterNodeTextContent
@@ -555,7 +555,7 @@ arrowed
 =
 !
 (
-await
+yield
 testActor
 .
 getHighlighterNodeAttribute
@@ -610,7 +610,7 @@ dims
 let
 dims
 =
-await
+yield
 testActor
 .
 getHighlighterNodeTextContent
