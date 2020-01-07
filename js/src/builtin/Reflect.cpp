@@ -670,8 +670,10 @@ ownKeys
 (
 target
 )
-static
 bool
+js
+:
+:
 Reflect_ownKeys
 (
 JSContext
