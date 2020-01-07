@@ -7840,12 +7840,10 @@ is_null
 )
 )
 ;
-assert
+assert_ne
 !
 (
 DEFAULT_OPTIONS
-!
-=
 INVALID_OPTIONS
 )
 ;

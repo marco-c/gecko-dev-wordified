@@ -961,7 +961,7 @@ ProtoOrIfaceArray
 {
 unsafe
 {
-assert
+assert_ne
 !
 (
 (
@@ -977,8 +977,6 @@ flags
 &
 JSCLASS_DOM_GLOBAL
 )
-!
-=
 0
 )
 ;

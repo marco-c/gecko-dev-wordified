@@ -1812,14 +1812,12 @@ computed
 .
 sides_are_logical
 {
-assert
+assert_eq
 !
 (
 computed
 .
 first
-=
-=
 TextOverflowSide
 :
 :

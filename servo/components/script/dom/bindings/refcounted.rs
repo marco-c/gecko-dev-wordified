@@ -1016,14 +1016,12 @@ unwrap
 (
 )
 ;
-assert
+assert_eq
 !
 (
 self
 .
 owner_thread
-=
-=
 (
 &
 *

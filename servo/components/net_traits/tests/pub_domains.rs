@@ -1419,7 +1419,7 @@ spec
 -
 compliant
 .
-assert
+assert_ne
 !
 (
 pub_suffix
@@ -1432,8 +1432,6 @@ yokohama
 jp
 "
 )
-!
-=
 pub_suffix
 (
 pub_suffix

@@ -4579,14 +4579,12 @@ init_window
 {
 unsafe
 {
-assert
+assert_ne
 !
 (
 XInitThreads
 (
 )
-!
-=
 0
 )
 ;

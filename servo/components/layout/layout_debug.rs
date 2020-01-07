@@ -862,7 +862,7 @@ unwrap
 )
 )
 ;
-assert
+assert_eq
 !
 (
 thread_state
@@ -872,8 +872,6 @@ scope_stack
 len
 (
 )
-=
-=
 1
 )
 ;

@@ -935,7 +935,7 @@ is_null
 )
 )
 ;
-assert
+assert_ne
 !
 (
 (
@@ -955,8 +955,6 @@ flags
 &
 JSCLASS_IS_GLOBAL
 )
-!
-=
 0
 )
 ;
@@ -1343,7 +1341,7 @@ is_null
 )
 )
 ;
-assert
+assert_ne
 !
 (
 (
@@ -1363,8 +1361,6 @@ flags
 &
 JSCLASS_IS_GLOBAL
 )
-!
-=
 0
 )
 ;
@@ -1855,7 +1851,7 @@ is_null
 )
 )
 ;
-assert
+assert_ne
 !
 (
 (
@@ -1875,8 +1871,6 @@ flags
 &
 JSCLASS_IS_GLOBAL
 )
-!
-=
 0
 )
 ;

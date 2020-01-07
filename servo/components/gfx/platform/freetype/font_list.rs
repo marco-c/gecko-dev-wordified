@@ -610,12 +610,10 @@ mut
 FcChar8
 )
 ;
-assert
+assert_ne
 !
 (
 ok
-!
-=
 0
 )
 ;

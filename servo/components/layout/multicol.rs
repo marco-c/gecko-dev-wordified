@@ -1105,7 +1105,7 @@ single
 "
 column
 "
-assert
+assert_eq
 !
 (
 self
@@ -1119,8 +1119,6 @@ children
 len
 (
 )
-=
-=
 1
 )
 ;

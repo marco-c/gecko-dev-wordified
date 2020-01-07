@@ -5286,14 +5286,12 @@ Option
 Response
 >
 {
-assert
+assert_eq
 !
 (
 response
 .
 status
-=
-=
 Some
 (
 StatusCode

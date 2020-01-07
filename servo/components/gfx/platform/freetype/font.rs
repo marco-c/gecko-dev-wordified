@@ -2359,14 +2359,12 @@ of
 the
 axes
 wrong
-assert
+assert_eq
 !
 (
 metrics
 .
 x_ppem
-=
-=
 metrics
 .
 y_ppem

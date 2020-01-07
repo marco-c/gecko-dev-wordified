@@ -14458,7 +14458,7 @@ set
 true
 )
 ;
-assert
+assert_ne
 !
 (
 self
@@ -14466,8 +14466,6 @@ self
 ReadyState
 (
 )
-!
-=
 DocumentReadyState
 :
 :

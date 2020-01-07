@@ -5356,7 +5356,7 @@ height
 {
 return
 }
-assert
+assert_eq
 !
 (
 image_data_size
@@ -5370,8 +5370,6 @@ height
 4
 .
 0
-=
-=
 imagedata
 .
 len

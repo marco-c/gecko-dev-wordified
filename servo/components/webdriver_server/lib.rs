@@ -7125,14 +7125,12 @@ sends
 RGB
 pixels
 .
-assert
+assert_eq
 !
 (
 img
 .
 format
-=
-=
 PixelFormat
 :
 :

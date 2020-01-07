@@ -2656,7 +2656,7 @@ rect
 =
 >
 {
-assert
+assert_ne
 !
 (
 rect
@@ -2670,8 +2670,6 @@ rect
 size
 .
 block
-!
-=
 float_b
 "
 Non

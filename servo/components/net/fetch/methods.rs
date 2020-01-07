@@ -3052,13 +3052,11 @@ clone
 }
 else
 {
-assert
+assert_eq
 !
 (
 *
 body
-=
-=
 ResponseBody
 :
 :

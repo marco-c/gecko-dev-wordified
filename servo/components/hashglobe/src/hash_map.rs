@@ -22328,12 +22328,10 @@ insert
 3
 )
 ;
-assert
+assert_ne
 !
 (
 m1
-!
-=
 m2
 )
 ;

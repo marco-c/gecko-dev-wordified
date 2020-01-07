@@ -6602,7 +6602,7 @@ keygen
 is
 implemented
 .
-assert
+assert_eq
 !
 (
 node
@@ -6610,8 +6610,6 @@ node
 NodeName
 (
 )
-=
-=
 "
 KEYGEN
 "

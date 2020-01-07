@@ -7721,12 +7721,10 @@ get_error
 (
 )
 ;
-assert
+assert_eq
 !
 (
 error
-=
-=
 gl
 :
 :
