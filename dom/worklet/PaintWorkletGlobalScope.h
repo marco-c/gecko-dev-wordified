@@ -159,9 +159,6 @@ WrapGlobalObject
 JSContext
 *
 aCx
-nsIPrincipal
-*
-aPrincipal
 JS
 :
 :
