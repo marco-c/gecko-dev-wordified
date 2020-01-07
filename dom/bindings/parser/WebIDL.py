@@ -51216,6 +51216,18 @@ Iterator
 "
 )
                 
+toStringTag
+=
+iface
+.
+identifier
+.
+name
++
+"
+Iterator
+"
+                
 itr_iface
 =
 IDLInterface
@@ -51238,6 +51250,14 @@ nextMethod
 isKnownNonPartial
 =
 True
+                                         
+classNameOverride
+=
+toStringTag
+                                         
+toStringTag
+=
+toStringTag
 )
                 
 itr_iface
