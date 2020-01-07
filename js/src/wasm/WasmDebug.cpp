@@ -2481,7 +2481,7 @@ returnAddressOffset
 )
 ;
 const
-CodeSegment
+ModuleSegment
 &
 codeSegment
 =
@@ -3331,7 +3331,7 @@ stillEnabled
 return
 ;
 const
-CodeSegment
+ModuleSegment
 &
 codeSegment
 =

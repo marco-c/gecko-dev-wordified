@@ -601,9 +601,9 @@ debug_
 ;
 }
 const
-CodeSegment
+ModuleSegment
 &
-codeSegment
+moduleSegment
 (
 Tier
 t

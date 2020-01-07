@@ -6325,7 +6325,7 @@ return
 true
 ;
 }
-UniqueCodeSegment
+UniqueModuleSegment
 ModuleGenerator
 :
 :
@@ -6490,7 +6490,7 @@ return
 nullptr
 ;
 return
-CodeSegment
+ModuleSegment
 :
 :
 create
@@ -6543,8 +6543,8 @@ CompileMode
 Tier1
 )
 ;
-UniqueCodeSegment
-codeSegment
+UniqueModuleSegment
+moduleSegment
 =
 finish
 (
@@ -6554,7 +6554,7 @@ bytecode
 if
 (
 !
-codeSegment
+moduleSegment
 )
 return
 nullptr
@@ -6573,7 +6573,7 @@ mode
 (
 )
 *
-codeSegment
+moduleSegment
 metadataTier_
 -
 >
@@ -6682,7 +6682,7 @@ Code
 (
 Move
 (
-codeSegment
+moduleSegment
 )
 *
 metadata_
@@ -6846,8 +6846,8 @@ cancelled_
 return
 false
 ;
-UniqueCodeSegment
-codeSegment
+UniqueModuleSegment
+moduleSegment
 =
 finish
 (
@@ -6861,7 +6861,7 @@ bytecode
 if
 (
 !
-codeSegment
+moduleSegment
 )
 return
 false
@@ -6889,7 +6889,7 @@ tier
 )
 Move
 (
-codeSegment
+moduleSegment
 )
 env_
 )

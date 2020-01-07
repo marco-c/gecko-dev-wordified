@@ -341,7 +341,7 @@ HaveSignalHandlers
 )
 ;
 class
-CodeSegment
+ModuleSegment
 ;
 /
 /
@@ -385,10 +385,10 @@ uint8_t
 *
 pc
 const
-CodeSegment
+ModuleSegment
 *
 *
-cs
+ms
 )
 ;
 #

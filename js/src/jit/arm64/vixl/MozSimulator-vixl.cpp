@@ -1626,9 +1626,9 @@ js
 wasm
 :
 :
-CodeSegment
+ModuleSegment
 *
-cs
+ms
 =
 nullptr
 ;
@@ -1646,7 +1646,7 @@ InInterruptibleCode
 cx_
 pc
 &
-cs
+ms
 )
 )
 return
@@ -1725,7 +1725,7 @@ set_pc
 Instruction
 *
 )
-cs
+ms
 -
 >
 interruptCode

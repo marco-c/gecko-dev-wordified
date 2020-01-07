@@ -278,7 +278,7 @@ absolute
 address
 of
 a
-CodeSegment
+ModuleSegment
 .
 /
 /
@@ -789,7 +789,7 @@ its
 owned
 /
 /
-CodeSegment
+ModuleSegment
 )
 can
 be
@@ -1194,9 +1194,9 @@ code_
 ;
 }
 const
-CodeSegment
+ModuleSegment
 &
-codeSegment
+moduleSegment
 (
 Tier
 t
@@ -1456,7 +1456,7 @@ UniqueLinkDataTier
 linkData2
 UniqueMetadataTier
 metadata2
-UniqueCodeSegment
+UniqueModuleSegment
 code2
 ModuleEnvironment
 *
