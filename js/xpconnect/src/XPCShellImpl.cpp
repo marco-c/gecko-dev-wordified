@@ -8230,7 +8230,7 @@ sandboxBrokerServices
 SandboxBroker
 :
 :
-CacheRulesDirectories
+GeckoDependentInitialize
 (
 )
 ;
