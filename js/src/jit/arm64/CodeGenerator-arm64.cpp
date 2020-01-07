@@ -1715,7 +1715,7 @@ visitFloat32
 )
 ;
 }
-Register
+void
 CodeGeneratorARM64
 :
 :
@@ -1725,6 +1725,9 @@ const
 ValueOperand
 &
 value
+ScratchTagScope
+&
+tag
 )
 {
 MOZ_CRASH
