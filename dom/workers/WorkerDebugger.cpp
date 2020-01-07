@@ -212,9 +212,10 @@ mozilla
 namespace
 dom
 {
+using
 namespace
 workers
-{
+;
 namespace
 {
 class
@@ -2015,11 +2016,6 @@ report
 )
 ;
 }
-}
-/
-/
-worker
-namespace
 }
 /
 /

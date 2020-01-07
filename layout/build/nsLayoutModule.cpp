@@ -691,8 +691,6 @@ mozilla
 /
 dom
 /
-workers
-/
 WorkerDebuggerManager
 .
 h
@@ -1248,9 +1246,6 @@ mozilla
 :
 :
 dom
-:
-:
-workers
 :
 :
 WorkerDebuggerManager
