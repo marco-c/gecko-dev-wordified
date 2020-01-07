@@ -1074,7 +1074,7 @@ getattr
 (
 self
 '
-addon_manager
+addons
 '
 None
 )
@@ -1085,7 +1085,7 @@ None
                 
 self
 .
-addon_manager
+addons
 .
 clean
 (
