@@ -548,7 +548,7 @@ wr
 ImageFormat
 :
 :
-A8
+R8
 )
 ;
 case
@@ -637,7 +637,7 @@ case
 ImageFormat
 :
 :
-A8
+R8
 :
 return
 gfx

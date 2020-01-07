@@ -480,7 +480,7 @@ uint32_t
 Invalid
 =
 0
-A8
+R8
 =
 1
 BGRA8
