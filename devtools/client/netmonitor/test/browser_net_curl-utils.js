@@ -1902,6 +1902,7 @@ requestData
 {
 let
 {
+id
 url
 method
 httpVersion
@@ -1937,6 +1938,18 @@ postDataText
 null
 }
 ;
+let
+requestHeaders
+=
+yield
+requestData
+(
+id
+"
+requestHeaders
+"
+)
+;
 /
 /
 Fetch
@@ -1951,8 +1964,6 @@ name
 value
 }
 of
-selected
-.
 requestHeaders
 .
 headers
@@ -1992,8 +2003,6 @@ requestPostData
 yield
 requestData
 (
-selected
-.
 id
 "
 requestPostData

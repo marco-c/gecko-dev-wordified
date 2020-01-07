@@ -1508,6 +1508,7 @@ onCauseBadgeMouseDown
 onItemMouseDown
 onSecurityIconMouseDown
 onWaterfallMouseDown
+requestFilterTypes
 scale
 selectedRequest
 }
@@ -1709,6 +1710,7 @@ onWaterfallMouseDown
 onWaterfallMouseDown
 (
 )
+requestFilterTypes
 }
 )
 )

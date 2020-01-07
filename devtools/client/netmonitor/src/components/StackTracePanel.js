@@ -337,9 +337,6 @@ stackTrace
 )
 ;
 }
-/
-/
-Rendering
 render
 (
 )

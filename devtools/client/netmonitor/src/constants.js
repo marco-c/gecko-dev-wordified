@@ -464,7 +464,6 @@ UPDATING_SECURITY_INFO
 "
 NetMonitor
 :
-:
 NetworkEventUpdating
 :
 SecurityInfo
@@ -473,7 +472,6 @@ RECEIVED_SECURITY_INFO
 :
 "
 NetMonitor
-:
 :
 NetworkEventUpdated
 :
@@ -689,6 +687,9 @@ securityState
 securityInfo
 "
 "
+securityInfoAvailable
+"
+"
 mimeType
 "
 "
@@ -713,6 +714,9 @@ customQueryValue
 requestHeaders
 "
 "
+requestHeadersAvailable
+"
+"
 requestHeadersFromUploadStream
 "
 "
@@ -729,6 +733,9 @@ requestPostDataAvailable
 "
 "
 responseHeaders
+"
+"
+responseHeadersAvailable
 "
 "
 responseCookies
