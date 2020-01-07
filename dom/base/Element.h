@@ -1103,9 +1103,6 @@ EventStateManager
 namespace
 dom
 {
-struct
-CustomElementDefinition
-;
 class
 Animation
 ;
