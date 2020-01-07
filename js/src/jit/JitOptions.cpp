@@ -1569,6 +1569,12 @@ spectreIndexMasking
 true
 )
 ;
+SET_DEFAULT
+(
+spectreStringMitigations
+false
+)
+;
 /
 /
 Toggles
