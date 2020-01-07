@@ -1449,7 +1449,7 @@ node
 =
 aEvent
 .
-target
+composedTarget
 ;
 const
 hrefNode
