@@ -172,7 +172,6 @@ values
 {
 Auto
 Either
-ExtremumLength
 None_
 Normal
 }
@@ -186,6 +185,7 @@ computed
 :
 {
 Angle
+ExtremumLength
 Length
 LengthOrPercentage
 LengthOrPercentageOrAuto

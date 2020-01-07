@@ -1263,10 +1263,6 @@ gecko_ffi_name
 =
 None
                  
-is_gecko_size_type_hack
-=
-False
-                 
 allowed_in_keyframe_block
 =
 True
@@ -1624,12 +1620,6 @@ self
 is_vector
 =
 vector
-        
-self
-.
-is_gecko_size_type_hack
-=
-is_gecko_size_type_hack
         
 #
 https
