@@ -35004,7 +35004,7 @@ nullptr
 }
 Element
 *
-nsDocument
+nsIDocument
 :
 :
 GetAnonymousElementByAttribute

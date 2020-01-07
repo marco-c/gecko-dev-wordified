@@ -12791,7 +12791,6 @@ return
 mHaveFiredTitleChange
 ;
 }
-virtual
 Element
 *
 GetAnonymousElementByAttribute
@@ -12808,8 +12807,6 @@ nsAString
 aAttrValue
 )
 const
-=
-0
 ;
 virtual
 nsresult
