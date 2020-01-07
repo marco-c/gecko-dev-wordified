@@ -386,6 +386,33 @@ if
 track
 :
         
+#
+We
+should
+record
+files
+that
+we
+actually
+copied
+.
+        
+#
+It
+is
+too
+late
+to
+expand
+wildcards
+when
+the
+track
+file
+is
+read
+.
+        
 manifest
 .
 write
@@ -393,6 +420,9 @@ write
 path
 =
 track
+expand_pattern
+=
+True
 )
     
 return
