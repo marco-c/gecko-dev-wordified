@@ -113,6 +113,17 @@ h
 #
 include
 "
+mozilla
+/
+a11y
+/
+DocManager
+.
+h
+"
+#
+include
+"
 nsAccessibilityService
 .
 h
