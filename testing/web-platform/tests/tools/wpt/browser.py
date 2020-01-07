@@ -1568,9 +1568,7 @@ testing
 /
 profiles
 /
-common
-/
-user
+prefs_general
 .
 js
 "
@@ -1625,9 +1623,6 @@ dest
 "
 profiles
 "
-"
-common
-"
 )
         
 if
@@ -1659,7 +1654,7 @@ join
 (
 dest
 "
-user
+prefs_general
 .
 js
 "

@@ -285,9 +285,7 @@ testing
 /
 profiles
 /
-common
-/
-user
+prefs_general
 .
 js
 uses
