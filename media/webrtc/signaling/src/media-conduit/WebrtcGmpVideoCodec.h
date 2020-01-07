@@ -2199,8 +2199,12 @@ public
 explicit
 InitDoneCallback
 (
+const
+RefPtr
+<
 WebrtcGmpVideoDecoder
-*
+>
+&
 aDecoder
 const
 RefPtr
@@ -2265,8 +2269,10 @@ errorOut
 }
 private
 :
+RefPtr
+<
 WebrtcGmpVideoDecoder
-*
+>
 mDecoder
 ;
 RefPtr
