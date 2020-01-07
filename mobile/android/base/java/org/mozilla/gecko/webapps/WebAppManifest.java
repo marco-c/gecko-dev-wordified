@@ -1383,7 +1383,7 @@ true
 if
 (
 !
-uri
+mScope
 .
 getScheme
 (
@@ -1391,7 +1391,7 @@ getScheme
 .
 equals
 (
-mScope
+uri
 .
 getScheme
 (
@@ -1406,7 +1406,7 @@ false
 if
 (
 !
-uri
+mScope
 .
 getHost
 (
@@ -1414,7 +1414,7 @@ getHost
 .
 equals
 (
-mScope
+uri
 .
 getHost
 (
@@ -1428,6 +1428,16 @@ false
 }
 if
 (
+uri
+.
+getPath
+(
+)
+!
+=
+null
+&
+&
 !
 uri
 .
