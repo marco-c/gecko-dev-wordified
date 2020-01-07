@@ -586,6 +586,7 @@ tab
 '
 )
 ;
+await
 hud3
 .
 jsterm

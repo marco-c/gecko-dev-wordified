@@ -225,6 +225,7 @@ setInputValue
 value
 )
 ;
+await
 jsterm
 .
 execute

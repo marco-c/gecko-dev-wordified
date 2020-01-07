@@ -134,6 +134,7 @@ openConsole
 (
 )
 ;
+yield
 setup
 (
 hud
@@ -155,6 +156,7 @@ null
 )
 ;
 function
+*
 setup
 (
 HUD
@@ -270,6 +272,7 @@ i
 ]
 )
 ;
+yield
 jsterm
 .
 execute

@@ -599,6 +599,7 @@ tab
 '
 )
 ;
+yield
 hud3
 .
 jsterm
@@ -1108,6 +1109,7 @@ setInputValue
 i
 )
 ;
+yield
 jsterm
 .
 execute

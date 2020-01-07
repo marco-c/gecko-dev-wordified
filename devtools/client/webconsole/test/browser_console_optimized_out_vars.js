@@ -380,6 +380,7 @@ optimized
 out
 variable
 .
+yield
 hud
 .
 jsterm

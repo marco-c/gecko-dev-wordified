@@ -173,6 +173,7 @@ openConsole
 (
 )
 ;
+yield
 doTests
 (
 hud
@@ -188,6 +189,7 @@ null
 )
 ;
 function
+*
 doTests
 (
 HUD
@@ -252,6 +254,7 @@ testMultiLineInputNavNoHistory
 (
 )
 ;
+yield
 testNavWithHistory
 (
 )
@@ -1478,6 +1481,7 @@ input
 }
 }
 function
+*
 testNavWithHistory
 (
 )
@@ -1597,6 +1601,7 @@ i
 ]
 )
 ;
+yield
 jsterm
 .
 execute

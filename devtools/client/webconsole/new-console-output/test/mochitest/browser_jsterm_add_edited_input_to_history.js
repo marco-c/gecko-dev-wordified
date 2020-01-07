@@ -163,6 +163,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
+await
 testEditedInputHistory
 (
 hud
@@ -171,6 +172,7 @@ hud
 }
 )
 ;
+async
 function
 testEditedInputHistory
 (
@@ -298,6 +300,7 @@ down
 "
 )
 ;
+await
 jsterm
 .
 execute
@@ -411,6 +414,7 @@ item
 '
 )
 ;
+await
 jsterm
 .
 execute

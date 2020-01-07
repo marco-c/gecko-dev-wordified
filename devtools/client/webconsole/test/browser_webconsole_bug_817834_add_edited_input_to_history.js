@@ -149,12 +149,12 @@ bug
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 loadTab
 (
 TEST_URI
@@ -163,11 +163,12 @@ TEST_URI
 let
 hud
 =
-yield
+await
 openConsole
 (
 )
 ;
+await
 testEditedInputHistory
 (
 hud
@@ -176,6 +177,7 @@ hud
 }
 )
 ;
+async
 function
 testEditedInputHistory
 (
@@ -303,6 +305,7 @@ down
 "
 )
 ;
+await
 jsterm
 .
 execute
@@ -416,6 +419,7 @@ item
 '
 )
 ;
+await
 jsterm
 .
 execute
