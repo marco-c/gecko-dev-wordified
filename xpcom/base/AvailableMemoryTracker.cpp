@@ -2456,6 +2456,16 @@ sNumLowVirtualMemEvents
 }
 static
 int64_t
+LowMemoryEventsCommitSpaceDistinguishedAmount
+(
+)
+{
+return
+sNumLowCommitSpaceEvents
+;
+}
+static
+int64_t
 LowMemoryEventsPhysicalDistinguishedAmount
 (
 )
@@ -2597,7 +2607,9 @@ space
 "
 KIND_OTHER
 UNITS_COUNT_CUMULATIVE
-sNumLowCommitSpaceEvents
+LowMemoryEventsCommitSpaceDistinguishedAmount
+(
+)
 "
 Number
 of
