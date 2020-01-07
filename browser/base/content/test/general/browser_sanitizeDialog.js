@@ -5905,9 +5905,7 @@ promiseSanitizationComplete
 )
 {
 return
-TestUtils
-.
-topicObserved
+promiseTopicObserved
 (
 "
 sanitizer
