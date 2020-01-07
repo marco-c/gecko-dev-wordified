@@ -10060,6 +10060,7 @@ true
 *
 /
 public
+final
 boolean
 disabled
 ;
@@ -10091,6 +10092,7 @@ menus
 *
 /
 public
+final
 String
 icon
 ;
@@ -10111,6 +10113,7 @@ group
 *
 /
 public
+final
 String
 id
 ;
@@ -10137,6 +10140,7 @@ group
 *
 /
 public
+final
 Choice
 [
 ]
@@ -10160,6 +10164,7 @@ group
 *
 /
 public
+final
 String
 label
 ;
@@ -10190,6 +10195,7 @@ items
 *
 /
 public
+final
 boolean
 selected
 ;
@@ -10218,6 +10224,7 @@ menus
 *
 /
 public
+final
 boolean
 separator
 ;
@@ -10283,7 +10290,7 @@ choice
 getBoolean
 (
 "
-label
+selected
 "
 )
 ;
@@ -12245,6 +12252,7 @@ identifier
 *
 /
 public
+final
 String
 id
 ;
@@ -12267,6 +12275,7 @@ identifier
 *
 /
 public
+final
 String
 rawId
 ;
@@ -12308,6 +12317,7 @@ empty
 *
 /
 public
+final
 String
 name
 ;
@@ -12359,6 +12369,7 @@ SOURCE_OTHER
 *
 /
 public
+final
 int
 source
 ;
@@ -12383,6 +12394,7 @@ TYPE_AUDIO
 *
 /
 public
+final
 int
 type
 ;
@@ -12657,7 +12669,11 @@ string
 ;
 }
 }
-public
+/
+*
+package
+*
+/
 MediaSource
 (
 GeckoBundle
@@ -12682,7 +12698,7 @@ media
 getString
 (
 "
-id
+rawId
 "
 )
 ;
