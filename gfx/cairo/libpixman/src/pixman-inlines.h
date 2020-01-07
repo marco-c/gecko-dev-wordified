@@ -251,6 +251,13 @@ define
 PIXMAN_FAST_PATH_H__
 #
 include
+<
+stdlib
+.
+h
+>
+#
+include
 "
 pixman
 -
