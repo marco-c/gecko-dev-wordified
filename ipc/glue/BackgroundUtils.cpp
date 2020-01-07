@@ -1700,6 +1700,12 @@ TriggeringPrincipal
 triggeringPrincipalInfo
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 OptionalPrincipalInfo
 principalToInheritInfo
 =
