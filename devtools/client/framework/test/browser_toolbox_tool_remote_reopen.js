@@ -575,13 +575,6 @@ getClient
 (
 )
 {
-let
-deferred
-=
-defer
-(
-)
-;
 DebuggerServer
 .
 init

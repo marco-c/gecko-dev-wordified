@@ -212,9 +212,6 @@ the
 actor
 is
 loaded
-let
-front
-=
 new
 WebAudioFront
 (

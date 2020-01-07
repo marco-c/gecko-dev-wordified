@@ -409,6 +409,12 @@ Ci
 nsIEnvironment
 )
 ;
+/
+*
+global
+toolbox
+*
+/
 let
 testScript
 =

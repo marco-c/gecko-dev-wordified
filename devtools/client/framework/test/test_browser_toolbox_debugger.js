@@ -2,6 +2,16 @@
 *
 global
 toolbox
+createDebuggerContext
+waitForSources
+testUrl
+waitForPaused
+addBreakpoint
+assertPausedLocation
+stepIn
+findSource
+removeBreakpoint
+resume
 *
 /
 info
