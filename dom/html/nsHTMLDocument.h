@@ -2081,7 +2081,6 @@ Encoding
 aCharset
 )
 ;
-static
 void
 TryFallback
 (
