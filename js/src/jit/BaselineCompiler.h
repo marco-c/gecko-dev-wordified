@@ -1414,6 +1414,11 @@ _
 (
 JSOP_DERIVEDCONSTRUCTOR
 )
+\
+_
+(
+JSOP_IMPORTMETA
+)
 class
 BaselineCompiler
 :

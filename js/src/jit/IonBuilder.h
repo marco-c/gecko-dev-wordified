@@ -4725,6 +4725,14 @@ PropertyName
 name
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_importmeta
+(
+)
+;
 /
 *
 Inlining
