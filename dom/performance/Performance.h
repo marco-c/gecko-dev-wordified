@@ -750,7 +750,7 @@ const
 uint64_t
 kDefaultResourceTimingBufferSize
 =
-150
+250
 ;
 /
 /
