@@ -2596,7 +2596,6 @@ state
 .
 detailVisibility
 )
-{
 await
 animationInspector
 .
