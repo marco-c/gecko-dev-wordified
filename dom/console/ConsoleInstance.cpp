@@ -136,6 +136,13 @@ ConsoleBinding
 .
 h
 "
+#
+include
+"
+ConsoleCommon
+.
+h
+"
 namespace
 mozilla
 {
@@ -792,6 +799,9 @@ Value
 aData
 )
 {
+ConsoleCommon
+:
+:
 ClearException
 ce
 (
