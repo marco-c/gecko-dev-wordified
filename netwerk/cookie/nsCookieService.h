@@ -2447,8 +2447,11 @@ bool
 >
 mInitializedDBConn
 ;
-bool
-mAccumulatedWaitTelemetry
+mozilla
+:
+:
+TimeStamp
+mEndInitDBConn
 ;
 nsTArray
 <
