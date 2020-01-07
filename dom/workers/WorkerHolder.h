@@ -139,13 +139,9 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 /
 *
 *
@@ -999,9 +995,6 @@ WorkerHolder
 bool
 HoldWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -1049,9 +1042,6 @@ ReleaseWorkerInternal
 (
 )
 ;
-workers
-:
-:
 WorkerPrivate
 *
 MOZ_NON_OWNING_REF

@@ -401,13 +401,6 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
-class
-WorkerPrivate
-;
-}
 class
 OwningArrayBufferViewOrArrayBufferOrString
 ;
@@ -419,6 +412,9 @@ PushManagerImpl
 ;
 struct
 PushSubscriptionOptionsInit
+;
+class
+WorkerPrivate
 ;
 class
 PushManager

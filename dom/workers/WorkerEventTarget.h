@@ -142,13 +142,9 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 WorkerEventTarget
 final
@@ -263,9 +259,6 @@ mozilla
 Mutex
 mMutex
 ;
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate
@@ -285,9 +278,6 @@ public
 :
 WorkerEventTarget
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -298,9 +288,6 @@ aBehavior
 void
 ForgetWorkerPrivate
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

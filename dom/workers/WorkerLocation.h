@@ -292,9 +292,6 @@ WorkerLocation
 >
 Create
 (
-workers
-:
-:
 WorkerPrivate
 :
 :

@@ -213,17 +213,9 @@ uint8_t
 class
 Promise
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
-/
-/
-namespace
-workers
 namespace
 cache
 {
@@ -292,9 +284,6 @@ aNamespace
 nsIGlobalObject
 *
 aGlobal
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

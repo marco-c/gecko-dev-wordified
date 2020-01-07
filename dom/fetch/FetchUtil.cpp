@@ -2110,9 +2110,6 @@ aConsumer
 nsIGlobalObject
 *
 aGlobal
-workers
-:
-:
 WorkerPrivate
 *
 aMaybeWorker
@@ -2756,9 +2753,6 @@ JS
 StreamConsumer
 *
 aConsumer
-workers
-:
-:
 WorkerPrivate
 *
 aMaybeWorker

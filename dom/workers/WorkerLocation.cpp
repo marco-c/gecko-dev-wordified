@@ -170,9 +170,6 @@ WorkerLocation
 :
 Create
 (
-workers
-:
-:
 WorkerPrivate
 :
 :

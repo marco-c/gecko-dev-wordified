@@ -178,17 +178,9 @@ hal
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
-/
-/
-namespace
-workers
 namespace
 network
 {
@@ -226,9 +218,6 @@ Connection
 >
 CreateForWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

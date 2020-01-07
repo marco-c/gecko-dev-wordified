@@ -201,17 +201,9 @@ ClientType
 :
 uint8_t
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
-/
-/
-workers
-namespace
 /
 /
 The
@@ -483,9 +475,6 @@ mozilla
 :
 :
 dom
-:
-:
-workers
 :
 :
 WorkerPrivate

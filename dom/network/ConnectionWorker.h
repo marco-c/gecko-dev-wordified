@@ -175,9 +175,6 @@ ConnectionWorker
 >
 Create
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -191,9 +188,6 @@ private
 explicit
 ConnectionWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -211,9 +205,6 @@ ShutdownInternal
 )
 override
 ;
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate

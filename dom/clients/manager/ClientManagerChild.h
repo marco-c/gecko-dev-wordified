@@ -155,17 +155,9 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
-/
-/
-workers
-namespace
 class
 ClientManagerChild
 final
@@ -359,9 +351,6 @@ mozilla
 :
 :
 dom
-:
-:
-workers
 :
 :
 WorkerPrivate

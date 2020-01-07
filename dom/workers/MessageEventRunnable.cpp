@@ -188,10 +188,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 MessageEventRunnable
 :
 :

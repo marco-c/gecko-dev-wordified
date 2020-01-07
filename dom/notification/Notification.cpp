@@ -533,8 +533,10 @@ namespace
 dom
 {
 using
-namespace
 workers
+:
+:
+AssertIsOnMainThread
 ;
 struct
 NotificationStrings

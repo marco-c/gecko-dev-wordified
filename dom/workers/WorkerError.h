@@ -212,13 +212,9 @@ aNote
 ;
 }
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 WorkerErrorReport
 :
@@ -320,9 +316,6 @@ ReportError
 JSContext
 *
 aCx
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

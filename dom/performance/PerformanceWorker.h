@@ -133,13 +133,9 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 PerformanceWorker
 final
@@ -152,9 +148,6 @@ public
 explicit
 PerformanceWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -374,9 +367,6 @@ bug
 .
 }
 private
-:
-workers
-:
 :
 WorkerPrivate
 *

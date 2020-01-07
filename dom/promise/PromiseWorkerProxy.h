@@ -196,17 +196,9 @@ dom
 class
 Promise
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
-/
-/
-namespace
-workers
 /
 /
 A
@@ -1059,9 +1051,6 @@ PromiseWorkerProxy
 >
 Create
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -1114,9 +1103,6 @@ cleaned
 /
 up
 .
-workers
-:
-:
 WorkerPrivate
 *
 GetWorkerPrivate
@@ -1332,9 +1318,6 @@ private
 :
 PromiseWorkerProxy
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -1449,9 +1432,6 @@ with
 appropriate
 checks
 .
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate

@@ -136,13 +136,9 @@ dom
 class
 WorkerHolder
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 PerformanceProxyData
 ;
@@ -167,9 +163,6 @@ PerformanceStorageWorker
 >
 Create
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -214,9 +207,6 @@ private
 explicit
 PerformanceStorageWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -257,9 +247,6 @@ the
 worker
 thread
 .
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate

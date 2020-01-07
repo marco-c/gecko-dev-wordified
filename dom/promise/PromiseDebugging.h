@@ -154,17 +154,6 @@ ErrorResult
 namespace
 dom
 {
-namespace
-workers
-{
-class
-WorkerPrivate
-;
-}
-/
-/
-namespace
-workers
 class
 Promise
 ;
@@ -179,6 +168,9 @@ UncaughtRejectionObserver
 ;
 class
 FlushRejections
+;
+class
+WorkerPrivate
 ;
 void
 TriggerFlushRejections
@@ -451,9 +443,6 @@ mozilla
 :
 :
 dom
-:
-:
-workers
 :
 :
 WorkerPrivate

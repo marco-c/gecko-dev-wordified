@@ -209,13 +209,9 @@ Blob
 class
 DOMException
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 extern
 const
 uint64_t
@@ -254,9 +250,6 @@ FileReader
 nsIGlobalObject
 *
 aGlobal
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -804,9 +797,6 @@ with
 a
 WorkerHolder
 .
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate

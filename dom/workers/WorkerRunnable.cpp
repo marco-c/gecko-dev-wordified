@@ -232,10 +232,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 namespace
 {
 const
@@ -2671,6 +2667,9 @@ mResult
 aResult
 )
 {
+workers
+:
+:
 AssertIsOnMainThread
 (
 )
@@ -3071,9 +3070,6 @@ Runnable
 dom
 :
 :
-workers
-:
-:
 WorkerMainThreadRunnable
 "
 )
@@ -3286,6 +3282,9 @@ Run
 (
 )
 {
+workers
+:
+:
 AssertIsOnMainThread
 (
 )
@@ -3592,9 +3591,6 @@ Runnable
 dom
 :
 :
-workers
-:
-:
 WorkerProxyToMainThreadRunnable
 "
 )
@@ -3700,6 +3696,9 @@ Run
 (
 )
 {
+workers
+:
+:
 AssertIsOnMainThread
 (
 )
@@ -3809,9 +3808,6 @@ WorkerRun
 JSContext
 *
 aCx
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

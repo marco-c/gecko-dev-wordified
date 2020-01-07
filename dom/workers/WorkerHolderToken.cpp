@@ -134,10 +134,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 /
 /
 static

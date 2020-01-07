@@ -13354,9 +13354,6 @@ mozilla
 dom
 :
 :
-workers
-:
-:
 IsCurrentThreadRunningChromeWorker
 (
 )
@@ -13563,9 +13560,6 @@ aCx
 ;
 }
 return
-workers
-:
-:
 GetWorkerPrivateFromContext
 (
 aCx
@@ -34044,9 +34038,6 @@ GetCurrentJSContext
 ;
 }
 return
-workers
-:
-:
 GetCurrentThreadJSContext
 (
 )

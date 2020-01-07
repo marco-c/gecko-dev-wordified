@@ -236,17 +236,9 @@ WorkerNotificationObserver
 class
 Promise
 ;
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
-/
-/
-namespace
-workers
 class
 Notification
 ;
@@ -1405,9 +1397,6 @@ Promise
 >
 WorkerGet
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -1633,9 +1622,6 @@ on
 any
 thread
 .
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate

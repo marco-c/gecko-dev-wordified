@@ -146,13 +146,9 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 class
 WorkerDebugger
 :
@@ -165,9 +161,6 @@ ReportDebuggerErrorRunnable
 class
 PostDebuggerMessageRunnable
 ;
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate
@@ -189,9 +182,6 @@ public
 explicit
 WorkerDebugger
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

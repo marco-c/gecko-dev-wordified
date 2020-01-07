@@ -381,10 +381,6 @@ gIDGenerator
 /
 /
 namespace
-using
-namespace
-workers
-;
 /
 /
 Promise

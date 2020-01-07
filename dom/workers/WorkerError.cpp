@@ -246,10 +246,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 namespace
 {
 class

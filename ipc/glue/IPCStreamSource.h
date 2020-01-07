@@ -965,9 +965,6 @@ destroyed
 dom
 :
 :
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate

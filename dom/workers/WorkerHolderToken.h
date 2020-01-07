@@ -147,13 +147,9 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 /
 /
 This
@@ -301,9 +297,6 @@ WorkerHolderToken
 >
 Create
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -408,9 +401,6 @@ IsShuttingDown
 )
 const
 ;
-workers
-:
-:
 WorkerPrivate
 *
 GetWorkerPrivate

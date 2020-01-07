@@ -276,6 +276,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerPrivate
 .
 h
@@ -283,6 +287,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerRunnable
 .
 h
@@ -321,10 +329,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 namespace
 {
 class
@@ -512,9 +516,6 @@ Performance
 :
 CreateForWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

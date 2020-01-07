@@ -296,10 +296,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-workers
-;
 #
 define
 ABORT_STR

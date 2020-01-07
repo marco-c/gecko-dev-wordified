@@ -167,9 +167,6 @@ public
 :
 MessageEventRunnable
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -183,9 +180,6 @@ DispatchDOMEvent
 JSContext
 *
 aCx
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -204,9 +198,6 @@ WorkerRun
 JSContext
 *
 aCx
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate

@@ -123,6 +123,12 @@ mozilla_dom_workers_queue_h__
 #
 include
 "
+mozilla
+/
+dom
+/
+workers
+/
 WorkerCommon
 .
 h

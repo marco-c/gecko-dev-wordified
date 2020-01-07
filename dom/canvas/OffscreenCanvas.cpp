@@ -1666,17 +1666,11 @@ GetParentObject
 dom
 :
 :
-workers
-:
-:
 WorkerPrivate
 *
 workerPrivate
 =
 dom
-:
-:
-workers
 :
 :
 GetCurrentThreadWorkerPrivate

@@ -1093,9 +1093,6 @@ op
 .
 RefPtr
 <
-workers
-:
-:
 WorkerPrivate
 >
 mWorkerPrivate

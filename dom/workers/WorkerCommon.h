@@ -286,6 +286,9 @@ WorkerTypeShared
 WorkerTypeService
 }
 ;
+class
+WorkerPrivate
+;
 }
 /
 /
@@ -297,9 +300,6 @@ dom
 namespace
 mozilla
 BEGIN_WORKERS_NAMESPACE
-class
-WorkerPrivate
-;
 struct
 PrivatizableBase
 {

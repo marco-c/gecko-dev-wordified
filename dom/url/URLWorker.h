@@ -147,13 +147,9 @@ nsStandardURL
 namespace
 dom
 {
-namespace
-workers
-{
 class
 WorkerPrivate
 ;
-}
 /
 /
 URLWorker
@@ -286,9 +282,6 @@ aRv
 explicit
 URLWorker
 (
-workers
-:
-:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -642,9 +635,6 @@ ErrorResult
 aRv
 )
 ;
-workers
-:
-:
 WorkerPrivate
 *
 mWorkerPrivate
