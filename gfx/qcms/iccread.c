@@ -3992,6 +3992,12 @@ num_out_channels
 if
 (
 clut_size
+=
+=
+0
+|
+|
+clut_size
 >
 MAX_CLUT_SIZE
 )
