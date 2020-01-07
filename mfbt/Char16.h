@@ -504,7 +504,7 @@ return
 mPtr
 ;
 }
-MOZ_IMPLICIT
+explicit
 operator
 bool
 (
