@@ -134,11 +134,9 @@ testSteppingAndReturns
 )
 ;
 }
-const
-testSteppingAndReturns
-=
 async
 function
+testSteppingAndReturns
 (
 )
 {
@@ -551,7 +549,6 @@ gCallback
 )
 ;
 }
-;
 function
 evaluateTestCode
 (
