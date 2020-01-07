@@ -313,6 +313,16 @@ wr
 LayoutSize
 &
 aContentSize
+const
+nsTArray
+<
+wr
+:
+:
+WrFilterOp
+>
+&
+aFilters
 )
 ;
 Maybe

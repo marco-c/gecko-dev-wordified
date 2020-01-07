@@ -440,6 +440,16 @@ wr
 LayoutSize
 &
 aContentSize
+const
+nsTArray
+<
+wr
+:
+:
+WrFilterOp
+>
+&
+aFilters
 )
 {
 {
@@ -498,6 +508,7 @@ pageRootSc
 (
 sc
 aBuilder
+aFilters
 )
 ;
 CreateWebRenderCommandsFromDisplayList
