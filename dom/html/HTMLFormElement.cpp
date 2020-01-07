@@ -4362,6 +4362,12 @@ getter_AddRefs
 (
 mSubmittingRequest
 )
+EventStateManager
+:
+:
+IsHandlingUserInput
+(
+)
 )
 ;
 NS_ENSURE_SUBMIT_SUCCESS

@@ -2563,6 +2563,17 @@ aPostStream
 -
 1
 headersDataStream
+/
+*
+isUserTriggered
+*
+/
+false
+/
+*
+isTrusted
+*
+/
 true
 triggeringPrincipal
 )

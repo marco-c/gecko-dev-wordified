@@ -30589,6 +30589,12 @@ nullptr
 -
 1
 nullptr
+EventStateManager
+:
+:
+IsHandlingUserInput
+(
+)
 aIsTrusted
 aContent
 -
