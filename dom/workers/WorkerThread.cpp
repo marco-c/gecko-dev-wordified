@@ -477,6 +477,13 @@ thread
 >
 Init
 (
+NS_LITERAL_CSTRING
+(
+"
+DOM
+Worker
+"
+)
 )
 )
 )
