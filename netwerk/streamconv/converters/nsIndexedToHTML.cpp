@@ -2887,9 +2887,9 @@ resource
 :
 /
 /
-gre
-/
-res
+content
+-
+accessible
 /
 html
 /
