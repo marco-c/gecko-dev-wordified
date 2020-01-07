@@ -414,6 +414,15 @@ JSFunction
 fun
 )
 ;
+extern
+bool
+IsSharedWasmMemoryObject
+(
+JSObject
+*
+obj
+)
+;
 }
 /
 /
