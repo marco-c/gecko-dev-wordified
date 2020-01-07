@@ -86,7 +86,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+visibility
 .
 html
 "
@@ -160,7 +160,7 @@ find_element
 By
 .
 ID
-            
+                                                      
 "
 suppressedParagraph
 "
@@ -210,7 +210,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+visibility
 .
 html
 "
@@ -295,7 +295,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+visibility
 .
 html
 "
@@ -353,7 +353,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+visibility
 .
 html
 "
@@ -428,7 +428,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+visibility
 .
 html
 "

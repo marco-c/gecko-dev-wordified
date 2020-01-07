@@ -809,14 +809,13 @@ find_element
 By
 .
 ID
-                                                                     
 '
 iframe1
 '
 )
 )
         
-killIframe
+kill_iframe
 =
 self
 .
@@ -832,7 +831,7 @@ killIframe
 "
 )
         
-killIframe
+kill_iframe
 .
 click
 (
@@ -869,7 +868,7 @@ iframe1
 )
 )
         
-addIFrame
+add_iframe
 =
 self
 .
@@ -885,7 +884,7 @@ addBackFrame
 "
 )
         
-addIFrame
+add_iframe
 .
 click
 (
@@ -937,7 +936,7 @@ By
 .
 ID
 "
-checkbox
+killIframe
 "
 )
     
