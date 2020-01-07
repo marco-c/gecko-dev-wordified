@@ -7359,6 +7359,15 @@ FlingHandoffState
 aHandoffState
 )
 ;
+ParentLayerPoint
+AdjustHandoffVelocityForOverscrollBehavior
+(
+ParentLayerPoint
+&
+aHandoffVelocity
+)
+const
+;
 private
 :
 friend
