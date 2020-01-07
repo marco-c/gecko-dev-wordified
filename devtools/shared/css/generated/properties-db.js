@@ -5598,12 +5598,6 @@ values
 auto
 "
 "
-disabled
-"
-"
-enabled
-"
-"
 inherit
 "
 "
