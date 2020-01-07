@@ -7238,6 +7238,17 @@ they
 need
 to
 }
+async
+getBlocklistURL
+(
+)
+{
+return
+this
+.
+blocklistURL
+;
+}
 uninstall
 (
 aAlwaysAllowUndo

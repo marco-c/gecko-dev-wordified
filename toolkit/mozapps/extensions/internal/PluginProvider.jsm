@@ -2378,8 +2378,8 @@ tag
 blocklistState
 ;
 }
-get
-blocklistURL
+async
+getBlocklistURL
 (
 )
 {
@@ -2400,7 +2400,7 @@ this
 return
 Blocklist
 .
-getPluginBlocklistURL
+getPluginBlockURL
 (
 tag
 )
