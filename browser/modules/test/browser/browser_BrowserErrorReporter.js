@@ -3085,6 +3085,8 @@ extensions
 have
 an
 isExtensionError
+=
+true
 tag
 .
 "
@@ -3159,15 +3161,15 @@ body
 tags
 .
 isExtensionError
-undefined
+false
 "
 Normal
 errors
-do
-not
 have
 an
 isExtensionError
+=
+false
 tag
 .
 "
