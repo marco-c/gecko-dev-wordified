@@ -3270,9 +3270,6 @@ i
 +
 )
 {
-SECStatus
-rv
-;
 printf
 (
 "

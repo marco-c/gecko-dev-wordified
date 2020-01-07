@@ -2586,14 +2586,14 @@ shared_ptr
 TlsAgent
 >
 &
-agent
+a
 uint16_t
 version
 )
 :
 TlsHandshakeFilter
 (
-agent
+a
 {
 kTlsHandshakeServerHello
 }

@@ -1381,7 +1381,7 @@ cp
 =
 3
 ;
-strncpy
+memcpy
 (
 cp
 "

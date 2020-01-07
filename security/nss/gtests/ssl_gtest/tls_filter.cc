@@ -1222,7 +1222,7 @@ TlsRecordHeader
 Parse
 (
 uint64_t
-sequence_number
+seqno
 TlsParser
 *
 parser
@@ -1249,7 +1249,7 @@ false
 ;
 }
 uint32_t
-version
+ver
 ;
 if
 (
@@ -1260,7 +1260,7 @@ parser
 Read
 (
 &
-version
+ver
 2
 )
 )
@@ -1271,7 +1271,7 @@ false
 }
 version_
 =
-version
+ver
 ;
 /
 /
@@ -1288,7 +1288,7 @@ if
 (
 IsDtls
 (
-version
+ver
 )
 )
 {
@@ -1360,7 +1360,7 @@ else
 {
 sequence_number_
 =
-sequence_number
+seqno
 ;
 }
 return
@@ -3150,7 +3150,7 @@ FilterRecord
 const
 TlsRecordHeader
 &
-header
+hdr
 const
 DataBuffer
 &
@@ -3164,7 +3164,7 @@ headers_
 .
 push_back
 (
-header
+hdr
 )
 ;
 return

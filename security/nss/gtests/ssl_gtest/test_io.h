@@ -439,7 +439,7 @@ string
 &
 name
 SSLProtocolVariant
-variant
+var
 )
 :
 name_
@@ -448,7 +448,7 @@ name
 )
 variant_
 (
-variant
+var
 )
 peer_
 (
@@ -536,12 +536,12 @@ shared_ptr
 DummyPrSocket
 >
 &
-peer
+p
 )
 {
 peer_
 =
-peer
+p
 ;
 }
 void

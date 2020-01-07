@@ -2060,7 +2060,7 @@ fn
 ;
 void
 *
-rsaKey
+rsaKeyPtr
 =
 NULL
 ;
@@ -2952,7 +2952,7 @@ RSAOp
 )
 PK11_PublicKeyOp
 ;
-rsaKey
+rsaKeyPtr
 =
 (
 void
@@ -3131,7 +3131,7 @@ pubKey
 =
 pubHighKey
 ;
-rsaKey
+rsaKeyPtr
 =
 (
 void
@@ -3420,7 +3420,7 @@ RSAOp
 )
 PK11_PublicKeyOp
 ;
-rsaKey
+rsaKeyPtr
 =
 (
 void
@@ -3458,7 +3458,7 @@ pubKey
 =
 pubHighKey
 ;
-rsaKey
+rsaKeyPtr
 =
 (
 void
@@ -3647,7 +3647,7 @@ type
 =
 siBuffer
 ;
-rsaKey
+rsaKeyPtr
 =
 RSA_NewKey
 (
@@ -3739,7 +3739,7 @@ RSA_PublicKeyOp
 ;
 if
 (
-rsaKey
+rsaKeyPtr
 )
 {
 /
@@ -3766,7 +3766,7 @@ modulus
 RSAPrivateKey
 *
 )
-rsaKey
+rsaKeyPtr
 )
 -
 >
@@ -3781,13 +3781,13 @@ publicExponent
 RSAPrivateKey
 *
 )
-rsaKey
+rsaKeyPtr
 )
 -
 >
 publicExponent
 ;
-rsaKey
+rsaKeyPtr
 =
 &
 pubKeyStr
@@ -3803,7 +3803,7 @@ to
 RSAPublicKey
 *
 /
-rsaKey
+rsaKeyPtr
 =
 (
 void
@@ -3822,7 +3822,7 @@ rsa
 }
 PORT_Assert
 (
-rsaKey
+rsaKeyPtr
 )
 ;
 }
@@ -3856,7 +3856,7 @@ to
 RSAPrivateKey
 *
 /
-rsaKey
+rsaKeyPtr
 =
 (
 void
@@ -3875,7 +3875,7 @@ rsa
 }
 PORT_Assert
 (
-rsaKey
+rsaKeyPtr
 )
 ;
 }
@@ -3892,7 +3892,7 @@ rv
 =
 fn
 (
-rsaKey
+rsaKeyPtr
 buf2
 buf
 )
@@ -4098,7 +4098,7 @@ i
 >
 rsaKey
 =
-rsaKey
+rsaKeyPtr
 ;
 runDataArr
 [

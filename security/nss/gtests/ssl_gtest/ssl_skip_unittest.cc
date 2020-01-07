@@ -238,14 +238,14 @@ shared_ptr
 TlsAgent
 >
 &
-agent
+a
 uint8_t
 handshake_type
 )
 :
 TlsRecordFilter
 (
-agent
+a
 )
 handshake_type_
 (

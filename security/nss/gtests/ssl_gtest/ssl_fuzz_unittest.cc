@@ -225,12 +225,12 @@ shared_ptr
 TlsAgent
 >
 &
-agent
+a
 )
 :
 TlsRecordFilter
 (
-agent
+a
 )
 buffer_
 (

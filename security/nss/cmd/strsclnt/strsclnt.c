@@ -728,10 +728,7 @@ static
 void
 Usage
 (
-const
-char
-*
-progName
+void
 )
 {
 fprintf
@@ -1755,14 +1752,6 @@ CERTCertificate
 cert
 =
 NULL
-;
-SSL3Statistics
-*
-ssl3stats
-=
-SSL_GetStatistics
-(
-)
 ;
 SECStatus
 result
@@ -6543,9 +6532,6 @@ cipher
 =
 0
 ;
-SECStatus
-rv
-;
 if
 (
 ndx
@@ -7895,7 +7881,6 @@ n
 ;
 Usage
 (
-progName
 )
 ;
 }
@@ -8185,7 +8170,6 @@ hostName
 {
 Usage
 (
-progName
 )
 ;
 }
@@ -8210,7 +8194,6 @@ case
 :
 Usage
 (
-progName
 )
 ;
 break
@@ -8235,7 +8218,6 @@ PL_OPT_BAD
 )
 Usage
 (
-progName
 )
 ;
 if
@@ -8262,7 +8244,6 @@ NoReuse
 )
 Usage
 (
-progName
 )
 ;
 if
@@ -8274,7 +8255,6 @@ port
 )
 Usage
 (
-progName
 )
 ;
 if

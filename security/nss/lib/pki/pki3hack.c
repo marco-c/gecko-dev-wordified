@@ -6503,7 +6503,7 @@ there
 /
 NSSCryptoContext
 *
-cc
+cctx
 =
 c
 -
@@ -6516,7 +6516,7 @@ nssrv
 =
 nssCryptoContext_ImportTrust
 (
-cc
+cctx
 nssTrust
 )
 ;

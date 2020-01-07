@@ -189,7 +189,7 @@ InfoAccess
 .
 *
 "
-generalName
+gName
 "
 *
 The
@@ -199,7 +199,7 @@ be
 stored
 as
 the
-generalName
+gName
 field
 of
 the
@@ -295,7 +295,7 @@ PKIX_UInt32
 method
 PKIX_PL_GeneralName
 *
-generalName
+gName
 PKIX_PL_InfoAccess
 *
 *
@@ -321,7 +321,7 @@ pkix_pl_InfoAccess_Create
 ;
 PKIX_NULLCHECK_TWO
 (
-generalName
+gName
 pInfoAccess
 )
 ;
@@ -355,7 +355,7 @@ method
 ;
 PKIX_INCREF
 (
-generalName
+gName
 )
 ;
 infoAccess
@@ -363,7 +363,7 @@ infoAccess
 >
 location
 =
-generalName
+gName
 ;
 *
 pInfoAccess
@@ -3180,7 +3180,7 @@ type
 PARAMETERS
 *
 "
-generalName
+gName
 "
 *
 Address
@@ -3349,7 +3349,7 @@ pkix_pl_InfoAccess_ParseLocation
 (
 PKIX_PL_GeneralName
 *
-generalName
+gName
 PLArenaPool
 *
 arena
@@ -3459,7 +3459,7 @@ pkix_pl_InfoAccess_ParseLocation
 ;
 PKIX_NULLCHECK_FOUR
 (
-generalName
+gName
 arena
 request
 pDomainName
@@ -3467,7 +3467,7 @@ pDomainName
 ;
 PKIX_TOSTRING
 (
-generalName
+gName
 &
 locationString
 plContext

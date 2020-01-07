@@ -15949,7 +15949,7 @@ pos
 )
 {
 char
-tmp
+tmpc
 =
 str
 [
@@ -15971,7 +15971,7 @@ str
 pos
 ]
 =
-tmp
+tmpc
 ;
 +
 +
@@ -19807,7 +19807,7 @@ mp
 )
 ;
 mp_digit
-rem
+remdig
 ;
 q
 =
@@ -19815,7 +19815,7 @@ n
 /
 d
 ;
-rem
+remdig
 =
 n
 %
@@ -19833,11 +19833,13 @@ if
 (
 r
 )
+{
 *
 r
 =
-rem
+remdig
 ;
+}
 return
 MP_OKAY
 ;

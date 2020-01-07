@@ -9478,9 +9478,6 @@ sig
 SECItem
 holder
 ;
-SECStatus
-rv
-;
 /
 *
 *

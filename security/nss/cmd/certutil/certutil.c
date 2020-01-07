@@ -4281,7 +4281,7 @@ else
 {
 char
 *
-name
+nick
 ;
 CERTVerifyLogNode
 *
@@ -4313,7 +4313,7 @@ nickname
 NULL
 )
 {
-name
+nick
 =
 node
 -
@@ -4326,7 +4326,7 @@ nickname
 }
 else
 {
-name
+nick
 =
 node
 -
@@ -4349,7 +4349,7 @@ s
 \
 n
 "
-name
+nick
 SECU_Strerror
 (
 node
@@ -4669,6 +4669,9 @@ kea
 "
 "
 ec
+"
+"
+rsaPss
 "
 }
 ;
@@ -5623,7 +5626,6 @@ slot
 )
 )
 {
-SECStatus
 rv
 =
 PK11_Authenticate
@@ -5987,9 +5989,6 @@ static
 void
 PrintSyntax
 (
-char
-*
-progName
 )
 {
 #
@@ -15303,9 +15302,6 @@ static
 void
 LongUsage
 (
-char
-*
-progName
 enum
 usage_level
 ul
@@ -15455,9 +15451,6 @@ static
 void
 Usage
 (
-char
-*
-progName
 )
 {
 PR_fprintf
@@ -15514,7 +15507,6 @@ progName
 ;
 LongUsage
 (
-progName
 usage_selected
 NULL
 )
@@ -17497,14 +17489,9 @@ CKF_DERIVE
 int
 opFlagsCount
 =
-sizeof
+PR_ARRAY_SIZE
 (
 opFlagsArray
-)
-/
-sizeof
-(
-flagArray
 )
 ;
 flagArray
@@ -17588,14 +17575,9 @@ PK11_ATTR_UNEXTRACTABLE
 int
 attrFlagsCount
 =
-sizeof
+PR_ARRAY_SIZE
 (
 attrFlagsArray
-)
-/
-sizeof
-(
-flagArray
 )
 ;
 #
@@ -17610,7 +17592,7 @@ char
 flagsString
 flagArray
 *
-flagArray
+flags
 int
 count
 )
@@ -17677,13 +17659,13 @@ if
 strncmp
 (
 flagsString
-flagArray
+flags
 [
 i
 ]
 .
 name
-flagArray
+flags
 [
 i
 ]
@@ -17698,7 +17680,7 @@ nameSize
 flagsValue
 |
 =
-flagArray
+flags
 [
 i
 ]
@@ -17708,7 +17690,7 @@ value
 flagsString
 +
 =
-flagArray
+flags
 [
 i
 ]
@@ -19918,7 +19900,6 @@ SECSuccess
 )
 Usage
 (
-progName
 )
 ;
 if
@@ -19935,7 +19916,6 @@ activated
 {
 PrintSyntax
 (
-progName
 )
 ;
 }
@@ -19951,9 +19931,6 @@ cmd_PrintHelp
 activated
 )
 {
-int
-i
-;
 char
 buf
 [
@@ -20061,7 +20038,6 @@ break
 }
 LongUsage
 (
-progName
 (
 command
 ?
@@ -20866,7 +20842,6 @@ else
 {
 Usage
 (
-progName
 )
 ;
 }
@@ -20923,7 +20898,6 @@ else
 {
 Usage
 (
-progName
 )
 ;
 }
@@ -21579,7 +21553,6 @@ commandsEntered
 {
 Usage
 (
-progName
 )
 ;
 }
