@@ -975,9 +975,6 @@ mediaBlocked
 "
 didStartLoadSinceLastUserTyping
 "
-"
-audioMuted
-"
 ]
 ;
 this
@@ -12660,14 +12657,7 @@ getter
 )
 =
 >
-aTab
-.
-hasAttribute
-(
-"
-muted
-"
-)
+false
 ;
 break
 ;
