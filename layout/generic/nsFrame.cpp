@@ -16956,6 +16956,11 @@ nsSVGUtils
 :
 :
 eBBoxIncludeStroke
+|
+nsSVGUtils
+:
+:
+eDoNotClipToBBoxOfContentInsideClipPath
 )
 ;
 combinedClip

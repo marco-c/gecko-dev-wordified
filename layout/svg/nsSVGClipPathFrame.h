@@ -883,6 +883,8 @@ const
 gfxMatrix
 &
 aMatrix
+uint32_t
+aFlags
 )
 ;
 /
