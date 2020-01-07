@@ -1223,6 +1223,7 @@ RefPtr
 SourceSurface
 >
 >
+&
 aExternalSurfaces
 WebRenderLayerManager
 *
