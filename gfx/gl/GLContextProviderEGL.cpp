@@ -672,19 +672,6 @@ bool
 aEnableDepthBuffer
 )
 ;
-static
-bool
-CreateConfig
-(
-EGLConfig
-*
-aConfig
-int32_t
-depth
-bool
-aEnableDepthBuffer
-)
-;
 /
 /
 append
@@ -3402,7 +3389,6 @@ LOCAL_EGL_ALPHA_SIZE
 EGL_ATTRIBS_LIST_SAFE_TERMINATION_WORKING_AROUND_BUGS
 }
 ;
-static
 bool
 CreateConfig
 (

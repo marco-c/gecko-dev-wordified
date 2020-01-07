@@ -251,7 +251,7 @@ false
 ;
 }
 LayoutDeviceIntSize
-GetClientSize
+GetBufferSize
 (
 )
 override

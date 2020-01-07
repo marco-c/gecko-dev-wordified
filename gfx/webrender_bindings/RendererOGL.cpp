@@ -737,7 +737,7 @@ size
 mCompositor
 -
 >
-GetClientSize
+GetBufferSize
 (
 )
 ;
