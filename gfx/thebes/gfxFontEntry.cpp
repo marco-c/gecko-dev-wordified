@@ -10613,6 +10613,11 @@ weight
 rank
 +
 =
+1000
+.
+0f
+-
+(
 aFontEntry
 -
 >
@@ -10628,6 +10633,7 @@ aStyle
 -
 >
 weight
+)
 ;
 }
 else
@@ -10653,6 +10659,11 @@ weight
 rank
 +
 =
+1000
+.
+0f
+-
+(
 aStyle
 -
 >
@@ -10667,6 +10678,7 @@ Weight
 .
 Max
 (
+)
 )
 ;
 }
