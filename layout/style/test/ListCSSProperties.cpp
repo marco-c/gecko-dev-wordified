@@ -508,14 +508,6 @@ span
 -
 x
 -
-system
--
-font
-"
-"
--
-x
--
 text
 -
 zoom
