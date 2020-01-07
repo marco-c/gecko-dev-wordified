@@ -7311,12 +7311,6 @@ mContent
 AsElement
 (
 )
-mDoc
--
->
-PresShell
-(
-)
 )
 ;
 /

@@ -1273,7 +1273,6 @@ GetStyleContextNoFlush
 (
 aElement
 nullptr
-nullptr
 )
 ;
 }
@@ -1644,7 +1643,6 @@ GetStyleContextNoFlush
 (
 aElement
 nullptr
-nullptr
 )
 ;
 }
@@ -1741,7 +1739,6 @@ nsComputedDOMStyle
 GetStyleContextNoFlush
 (
 aElement
-nullptr
 nullptr
 )
 ;
@@ -1926,7 +1923,6 @@ nsComputedDOMStyle
 GetStyleContextNoFlush
 (
 aElement
-nullptr
 nullptr
 )
 ;

@@ -864,7 +864,6 @@ GetStyleContextNoFlush
 (
 this
 nullptr
-nullptr
 )
 ;
 if

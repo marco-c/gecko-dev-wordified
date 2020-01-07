@@ -169,9 +169,6 @@ dom
 Element
 *
 aElement
-nsIPresShell
-*
-aPresShell
 )
 :
 mElement
@@ -188,7 +185,6 @@ GetStyleContextNoFlush
 (
 aElement
 nullptr
-aPresShell
 )
 ;
 }

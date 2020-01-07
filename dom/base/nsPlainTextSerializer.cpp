@@ -11998,7 +11998,6 @@ GetStyleContextNoFlush
 (
 aElement
 nullptr
-nullptr
 )
 ;
 if
@@ -12080,7 +12079,6 @@ nsComputedDOMStyle
 GetStyleContextNoFlush
 (
 aElement
-nullptr
 nullptr
 )
 ;
