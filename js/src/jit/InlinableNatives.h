@@ -757,7 +757,7 @@ IntrinsicPossiblyWrappedArrayBufferByteLength
 \
 _
 (
-IntrinsicIsSharedArrayBuffer
+IntrinsicGuardToSharedArrayBuffer
 )
 \
 \
