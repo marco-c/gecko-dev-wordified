@@ -3011,7 +3011,6 @@ nsGenericHTMLElement
 :
 FromNode
 (
-&
 aElement
 )
 ;
