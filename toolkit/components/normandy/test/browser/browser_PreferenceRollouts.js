@@ -1024,13 +1024,7 @@ decorate_task
 PreferenceRollouts
 .
 withTestMock
-withStub
-(
-TelemetryEvents
-"
-sendEvent
-"
-)
+withSendEventStub
 async
 function
 testRecordOriginalValuesUpdatesPreviousValues
