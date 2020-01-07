@@ -11329,6 +11329,14 @@ clone
 )
 )
 }
+/
+/
+/
+cbindgen
+:
+postfix
+=
+WR_DESTRUCTOR_SAFE_FUNC
 #
 [
 no_mangle
