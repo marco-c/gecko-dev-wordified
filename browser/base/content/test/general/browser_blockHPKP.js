@@ -1127,13 +1127,7 @@ gBrowser
 .
 selectedTab
 )
-.
-then
-(
-function
-(
-)
-{
+;
 ok
 (
 true
@@ -1145,9 +1139,6 @@ complete
 ;
 finish
 (
-)
-;
-}
 )
 ;
 }

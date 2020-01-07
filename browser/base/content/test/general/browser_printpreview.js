@@ -115,10 +115,9 @@ removeTab
 (
 ourTab
 )
-.
-then
-(
+;
 finish
+(
 )
 ;
 }
