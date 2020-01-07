@@ -1451,10 +1451,6 @@ empty
 struct
 nsTArrayHeader
 {
-static
-nsTArrayHeader
-sEmptyHdr
-;
 uint32_t
 mLength
 ;
@@ -1470,6 +1466,16 @@ mIsAutoArray
 ;
 }
 ;
+extern
+"
+C
+"
+{
+extern
+nsTArrayHeader
+sEmptyTArrayHeader
+;
+}
 /
 /
 This
@@ -2767,7 +2773,7 @@ mHdr
 may
 actually
 be
-sEmptyHdr
+sEmptyTArrayHeader
 in
 the
 case
@@ -3316,7 +3322,7 @@ this
 will
 point
 to
-sEmptyHdr
+sEmptyTArrayHeader
 .
 Header
 *
@@ -3354,10 +3360,7 @@ EmptyHdr
 {
 return
 &
-Header
-:
-:
-sEmptyHdr
+sEmptyTArrayHeader
 ;
 }
 }
