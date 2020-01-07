@@ -495,7 +495,6 @@ ContentActor
 (
 conn
 chromeGlobal
-prefix
 )
 ;
 }
