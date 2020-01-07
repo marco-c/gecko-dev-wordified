@@ -10725,6 +10725,16 @@ aQuitType
 "
 restart
 "
+|
+|
+aQuitType
+=
+=
+"
+os
+-
+restart
+"
 )
 return
 ;
