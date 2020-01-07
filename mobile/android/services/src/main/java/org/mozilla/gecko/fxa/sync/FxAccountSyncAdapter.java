@@ -2449,6 +2449,15 @@ endpoint
 ;
 fxAccount
 .
+setCachedHashedFxAUID
+(
+token
+.
+hashedFxaUid
+)
+;
+fxAccount
+.
 releaseSharedAccountStateLock
 (
 )
