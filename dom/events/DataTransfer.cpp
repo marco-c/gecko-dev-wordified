@@ -4922,6 +4922,7 @@ kFilePromiseDirectoryMime
 kMozTextInternal
 kHTMLContext
 kHTMLInfo
+kImageRequestMime
 }
 ;
 /
@@ -6707,6 +6708,8 @@ aIndex
 nsIPrincipal
 *
 aPrincipal
+bool
+aHidden
 )
 {
 nsAutoString
@@ -6743,13 +6746,7 @@ aInsertOnly
 *
 /
 false
-/
-*
 aHidden
-=
-*
-/
-false
 rv
 )
 ;
