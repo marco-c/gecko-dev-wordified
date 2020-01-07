@@ -9391,7 +9391,7 @@ try
 {
 aBrowser
 .
-loadURIWithFlags
+loadURI
 (
 aURI
 {
@@ -24484,7 +24484,7 @@ BrowserApp
 .
 addTab
 calls
-loadURIWithFlags
+loadURI
 with
 the
 appropriate
@@ -24567,7 +24567,7 @@ browser
 {
 browser
 .
-loadURIWithFlags
+loadURI
 (
 aURI
 .
@@ -26452,7 +26452,7 @@ this
 .
 browser
 .
-loadURIWithFlags
+loadURI
 (
 aURL
 {

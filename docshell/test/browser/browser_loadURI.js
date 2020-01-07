@@ -173,7 +173,7 @@ tab
 .
 linkedBrowser
 .
-loadURIWithFlags
+loadURI
 (
 "
 http
@@ -199,9 +199,6 @@ print_postdata
 sjs
 "
 {
-flags
-:
-0
 postData
 :
 postStream
