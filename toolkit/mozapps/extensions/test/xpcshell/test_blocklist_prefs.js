@@ -564,6 +564,9 @@ be
 reset
 prefs
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -631,6 +634,9 @@ be
 reset
 prefs
 "
+bootstrap
+:
+true
 targetApplications
 :
 [

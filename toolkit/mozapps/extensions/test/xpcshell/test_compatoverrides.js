@@ -915,6 +915,9 @@ Test
 addon
 1
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -976,6 +979,9 @@ Test
 addon
 2
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1037,6 +1043,9 @@ Test
 addon
 3
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1108,6 +1117,9 @@ Test
 addon
 4
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1179,6 +1191,9 @@ Test
 addon
 5
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1247,6 +1262,9 @@ Test
 addon
 6
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1315,6 +1333,9 @@ Test
 addon
 7
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1376,6 +1397,9 @@ Test
 addon
 8
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -1438,6 +1462,9 @@ Test
 addon
 9
 "
+bootstrap
+:
+true
 targetApplications
 :
 [

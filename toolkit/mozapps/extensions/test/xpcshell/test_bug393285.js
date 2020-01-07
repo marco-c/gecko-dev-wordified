@@ -653,6 +653,9 @@ name
 extension
 1
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -709,6 +712,9 @@ name
 extension
 2
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -765,6 +771,9 @@ name
 extension
 3a
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -821,6 +830,9 @@ name
 extension
 3b
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -877,6 +889,9 @@ name
 extension
 4
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -933,6 +948,9 @@ name
 extension
 5
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -989,6 +1007,9 @@ name
 extension
 6
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -1045,6 +1066,9 @@ name
 extension
 7
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -1101,6 +1125,9 @@ name
 extension
 8
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -1157,6 +1184,9 @@ name
 extension
 9
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -1213,6 +1243,9 @@ name
 extension
 10
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -1269,6 +1302,9 @@ name
 extension
 11
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -1325,6 +1361,9 @@ name
 extension
 12
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -1381,6 +1420,9 @@ name
 extension
 13
 "
+bootstrap
+:
+true
 version
 :
 "
@@ -1437,6 +1479,9 @@ name
 extension
 14
 "
+bootstrap
+:
+true
 version
 :
 "

@@ -176,6 +176,9 @@ Test
 version
 1
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -232,6 +235,9 @@ Test
 version
 2
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -288,6 +294,9 @@ Test
 version
 3
 "
+bootstrap
+:
+true
 targetApplications
 :
 [

@@ -540,6 +540,9 @@ add
 -
 on
 "
+bootstrap
+:
+true
 targetApplications
 :
 [

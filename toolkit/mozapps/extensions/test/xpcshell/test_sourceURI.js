@@ -125,6 +125,9 @@ name
 "
 Test
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
