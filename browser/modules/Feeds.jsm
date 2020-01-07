@@ -137,7 +137,7 @@ defineModuleGetter
 (
 this
 "
-BrowserWindowTracker
+RecentWindow
 "
 "
 resource
@@ -147,7 +147,7 @@ resource
 /
 modules
 /
-BrowserWindowTracker
+RecentWindow
 .
 jsm
 "
@@ -376,9 +376,9 @@ addLiveBookmark
 let
 topWindow
 =
-BrowserWindowTracker
+RecentWindow
 .
-getTopWindow
+getMostRecentBrowserWindow
 (
 )
 ;
@@ -582,9 +582,11 @@ try
 let
 href
 =
-BrowserUtils
+Services
 .
-makeURI
+io
+.
+newURI
 (
 aLink
 .
