@@ -4214,12 +4214,6 @@ nsIFrame
 *
 f
 =
-mTarget
--
->
-mElement
--
->
 GetPrimaryFrame
 (
 )
@@ -4370,12 +4364,6 @@ nsIFrame
 *
 f
 =
-mTarget
--
->
-mElement
--
->
 GetPrimaryFrame
 (
 )
