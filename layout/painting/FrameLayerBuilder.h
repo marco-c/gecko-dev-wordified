@@ -290,6 +290,7 @@ DisplayItemEntryType
 {
 ITEM
 PUSH_OPACITY
+PUSH_OPACITY_WITH_BG
 POP_OPACITY
 }
 ;
@@ -1218,6 +1219,11 @@ aLayerState
 DisplayItemData
 *
 aData
+DisplayItemEntryType
+aType
+const
+bool
+aHasOpacity
 )
 ;
 ~
@@ -1285,6 +1291,12 @@ mReused
 ;
 bool
 mMerged
+;
+DisplayItemEntryType
+mType
+;
+bool
+mHasOpacity
 ;
 }
 ;
