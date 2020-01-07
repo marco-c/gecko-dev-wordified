@@ -4287,7 +4287,7 @@ tk
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 )
 break
 ;
@@ -4355,7 +4355,7 @@ tk
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 )
 break
 ;
@@ -4366,7 +4366,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 TokenStreamShared
 :
 :
@@ -4420,7 +4420,7 @@ tk
 TokenKind
 :
 :
-TOK_VAR
+Var
 &
 &
 tk
@@ -4429,7 +4429,7 @@ tk
 TokenKind
 :
 :
-TOK_CONST
+Const
 )
 {
 *
@@ -24770,7 +24770,7 @@ matched
 TokenKind
 :
 :
-TOK_STRING
+String
 TokenStreamShared
 :
 :
@@ -24850,7 +24850,7 @@ tt
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 )
 return
 m
@@ -47566,7 +47566,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 TokenStreamShared
 :
 :
@@ -47645,7 +47645,7 @@ tk
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 return
 m
@@ -48413,7 +48413,7 @@ tk
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 break
 ;
@@ -49333,7 +49333,7 @@ tk
 TokenKind
 :
 :
-TOK_RETURN
+Return
 )
 {
 return
@@ -49348,7 +49348,7 @@ tk
 TokenKind
 :
 :
-TOK_RC
+Rc
 |
 |
 tk
@@ -49357,7 +49357,7 @@ tk
 TokenKind
 :
 :
-TOK_EOF
+Eof
 )
 ?
 "
@@ -49522,7 +49522,7 @@ tk
 TokenKind
 :
 :
-TOK_EOF
+Eof
 &
 &
 tk
@@ -49531,7 +49531,7 @@ tk
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 return
 m

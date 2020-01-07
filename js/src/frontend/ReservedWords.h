@@ -143,7 +143,7 @@ false_
 TokenKind
 :
 :
-TOK_FALSE
+False
 )
 \
 macro
@@ -153,7 +153,7 @@ true_
 TokenKind
 :
 :
-TOK_TRUE
+True
 )
 \
 macro
@@ -163,7 +163,7 @@ null
 TokenKind
 :
 :
-TOK_NULL
+Null
 )
 \
 \
@@ -181,7 +181,7 @@ break_
 TokenKind
 :
 :
-TOK_BREAK
+Break
 )
 \
 macro
@@ -191,7 +191,7 @@ case_
 TokenKind
 :
 :
-TOK_CASE
+Case
 )
 \
 macro
@@ -201,7 +201,7 @@ catch_
 TokenKind
 :
 :
-TOK_CATCH
+Catch
 )
 \
 macro
@@ -211,7 +211,7 @@ const_
 TokenKind
 :
 :
-TOK_CONST
+Const
 )
 \
 macro
@@ -221,7 +221,7 @@ continue_
 TokenKind
 :
 :
-TOK_CONTINUE
+Continue
 )
 \
 macro
@@ -231,7 +231,7 @@ debugger
 TokenKind
 :
 :
-TOK_DEBUGGER
+Debugger
 )
 \
 macro
@@ -241,7 +241,7 @@ default_
 TokenKind
 :
 :
-TOK_DEFAULT
+Default
 )
 \
 macro
@@ -251,7 +251,7 @@ delete_
 TokenKind
 :
 :
-TOK_DELETE
+Delete
 )
 \
 macro
@@ -261,7 +261,7 @@ do_
 TokenKind
 :
 :
-TOK_DO
+Do
 )
 \
 macro
@@ -271,7 +271,7 @@ else_
 TokenKind
 :
 :
-TOK_ELSE
+Else
 )
 \
 macro
@@ -281,7 +281,7 @@ finally_
 TokenKind
 :
 :
-TOK_FINALLY
+Finally
 )
 \
 macro
@@ -291,7 +291,7 @@ for_
 TokenKind
 :
 :
-TOK_FOR
+For
 )
 \
 macro
@@ -301,7 +301,7 @@ function
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 \
 macro
@@ -311,7 +311,7 @@ if_
 TokenKind
 :
 :
-TOK_IF
+If
 )
 \
 macro
@@ -321,7 +321,7 @@ in
 TokenKind
 :
 :
-TOK_IN
+In
 )
 \
 macro
@@ -331,7 +331,7 @@ instanceof
 TokenKind
 :
 :
-TOK_INSTANCEOF
+InstanceOf
 )
 \
 macro
@@ -341,7 +341,7 @@ new_
 TokenKind
 :
 :
-TOK_NEW
+New
 )
 \
 macro
@@ -351,7 +351,7 @@ return_
 TokenKind
 :
 :
-TOK_RETURN
+Return
 )
 \
 macro
@@ -361,7 +361,7 @@ switch_
 TokenKind
 :
 :
-TOK_SWITCH
+Switch
 )
 \
 macro
@@ -371,7 +371,7 @@ this_
 TokenKind
 :
 :
-TOK_THIS
+This
 )
 \
 macro
@@ -381,7 +381,7 @@ throw_
 TokenKind
 :
 :
-TOK_THROW
+Throw
 )
 \
 macro
@@ -391,7 +391,7 @@ try_
 TokenKind
 :
 :
-TOK_TRY
+Try
 )
 \
 macro
@@ -401,7 +401,7 @@ typeof_
 TokenKind
 :
 :
-TOK_TYPEOF
+TypeOf
 )
 \
 macro
@@ -411,7 +411,7 @@ var
 TokenKind
 :
 :
-TOK_VAR
+Var
 )
 \
 macro
@@ -421,7 +421,7 @@ void_
 TokenKind
 :
 :
-TOK_VOID
+Void
 )
 \
 macro
@@ -431,7 +431,7 @@ while_
 TokenKind
 :
 :
-TOK_WHILE
+While
 )
 \
 macro
@@ -441,7 +441,7 @@ with
 TokenKind
 :
 :
-TOK_WITH
+With
 )
 \
 macro
@@ -451,7 +451,7 @@ import
 TokenKind
 :
 :
-TOK_IMPORT
+Import
 )
 \
 macro
@@ -461,7 +461,7 @@ export_
 TokenKind
 :
 :
-TOK_EXPORT
+Export
 )
 \
 macro
@@ -471,7 +471,7 @@ class_
 TokenKind
 :
 :
-TOK_CLASS
+Class
 )
 \
 macro
@@ -481,7 +481,7 @@ extends
 TokenKind
 :
 :
-TOK_EXTENDS
+Extends
 )
 \
 macro
@@ -491,7 +491,7 @@ super
 TokenKind
 :
 :
-TOK_SUPER
+Super
 )
 \
 \
@@ -511,7 +511,7 @@ enum_
 TokenKind
 :
 :
-TOK_ENUM
+Enum
 )
 \
 \
@@ -536,7 +536,7 @@ implements
 TokenKind
 :
 :
-TOK_IMPLEMENTS
+Implements
 )
 \
 macro
@@ -546,7 +546,7 @@ interface
 TokenKind
 :
 :
-TOK_INTERFACE
+Interface
 )
 \
 macro
@@ -556,7 +556,7 @@ package
 TokenKind
 :
 :
-TOK_PACKAGE
+Package
 )
 \
 macro
@@ -566,7 +566,7 @@ private_
 TokenKind
 :
 :
-TOK_PRIVATE
+Private
 )
 \
 macro
@@ -576,7 +576,7 @@ protected_
 TokenKind
 :
 :
-TOK_PROTECTED
+Protected
 )
 \
 macro
@@ -586,7 +586,7 @@ public_
 TokenKind
 :
 :
-TOK_PUBLIC
+Public
 )
 \
 \
@@ -605,7 +605,7 @@ as
 TokenKind
 :
 :
-TOK_AS
+As
 )
 \
 macro
@@ -615,7 +615,7 @@ async
 TokenKind
 :
 :
-TOK_ASYNC
+Async
 )
 \
 macro
@@ -625,7 +625,7 @@ await
 TokenKind
 :
 :
-TOK_AWAIT
+Await
 )
 \
 macro
@@ -635,7 +635,7 @@ from
 TokenKind
 :
 :
-TOK_FROM
+From
 )
 \
 macro
@@ -645,7 +645,7 @@ get
 TokenKind
 :
 :
-TOK_GET
+Get
 )
 \
 macro
@@ -655,7 +655,7 @@ let
 TokenKind
 :
 :
-TOK_LET
+Let
 )
 \
 macro
@@ -665,7 +665,7 @@ of
 TokenKind
 :
 :
-TOK_OF
+Of
 )
 \
 macro
@@ -675,7 +675,7 @@ set
 TokenKind
 :
 :
-TOK_SET
+Set
 )
 \
 macro
@@ -685,7 +685,7 @@ static_
 TokenKind
 :
 :
-TOK_STATIC
+Static
 )
 \
 macro
@@ -695,7 +695,7 @@ target
 TokenKind
 :
 :
-TOK_TARGET
+Target
 )
 \
 /
@@ -755,7 +755,7 @@ yield
 TokenKind
 :
 :
-TOK_YIELD
+Yield
 )
 #
 endif

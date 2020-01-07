@@ -2151,7 +2151,7 @@ i
 .
 e
 .
-TOK_EOF
+Eof
 not
 at
 top
@@ -2742,7 +2742,7 @@ a
 |
 let
 |
-TOK_NAME
+Name
 token
 examine
 |
@@ -7576,7 +7576,7 @@ hint
 TokenKind
 :
 :
-TOK_LIMIT
+Limit
 )
 ;
 PropertyName
@@ -8003,7 +8003,7 @@ hint
 TokenKind
 :
 :
-TOK_LIMIT
+Limit
 )
 ;
 Node

@@ -2073,7 +2073,7 @@ just
 returning
 /
 /
-TOK_DIV
+Div
 .
 Operand
 /
@@ -2685,7 +2685,7 @@ type
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 ;
 u
@@ -2711,7 +2711,7 @@ type
 TokenKind
 :
 :
-TOK_STRING
+String
 |
 |
 type
@@ -2720,7 +2720,7 @@ type
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 |
 |
 type
@@ -2729,7 +2729,7 @@ type
 TokenKind
 :
 :
-TOK_NO_SUBS_TEMPLATE
+NoSubsTemplate
 )
 ;
 u
@@ -2754,7 +2754,7 @@ type
 TokenKind
 :
 :
-TOK_REGEXP
+RegExp
 )
 ;
 MOZ_ASSERT
@@ -2793,7 +2793,7 @@ type
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 )
 ;
 u
@@ -2834,7 +2834,7 @@ type
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 ;
 return
@@ -2875,7 +2875,7 @@ type
 TokenKind
 :
 :
-TOK_STRING
+String
 |
 |
 type
@@ -2884,7 +2884,7 @@ type
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 |
 |
 type
@@ -2893,7 +2893,7 @@ type
 TokenKind
 :
 :
-TOK_NO_SUBS_TEMPLATE
+NoSubsTemplate
 )
 ;
 return
@@ -2916,7 +2916,7 @@ type
 TokenKind
 :
 :
-TOK_REGEXP
+RegExp
 )
 ;
 MOZ_ASSERT
@@ -2955,7 +2955,7 @@ type
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 )
 ;
 return
@@ -2980,7 +2980,7 @@ type
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 )
 ;
 return
@@ -3653,7 +3653,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 )
 return
@@ -3701,7 +3701,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 )
 {
@@ -3775,7 +3775,7 @@ type
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 return
 nextToken
@@ -4147,7 +4147,7 @@ type
 TokenKind
 :
 :
-TOK_DIV
+Div
 "
 next
 token
@@ -4209,7 +4209,7 @@ type
 TokenKind
 :
 :
-TOK_DIV
+Div
 "
 next
 token
@@ -4248,7 +4248,7 @@ type
 TokenKind
 :
 :
-TOK_DIV
+Div
 &
 &
 next
@@ -4259,7 +4259,7 @@ type
 TokenKind
 :
 :
-TOK_REGEXP
+RegExp
 "
 next
 token
@@ -5502,7 +5502,7 @@ size_t
 TokenKind
 :
 :
-TOK_LIMIT
+Limit
 )
 ]
 ;
@@ -8114,7 +8114,7 @@ type
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 |
 |
 anyChars
@@ -8129,7 +8129,7 @@ type
 TokenKind
 :
 :
-TOK_NO_SUBS_TEMPLATE
+NoSubsTemplate
 )
 ;
 const
@@ -8173,7 +8173,7 @@ type
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 )
 {
 /
@@ -8637,7 +8637,7 @@ tt
 TokenKind
 :
 :
-TOK_EOL
+Eol
 )
 ;
 verifyConsistentModifier
@@ -8935,7 +8935,7 @@ return
 true
 and
 store
-TOK_EOL
+Eol
 in
 |
 *
@@ -8950,13 +8950,13 @@ token
 with
 /
 /
-TOK_EOL
+Eol
 is
 actually
 created
 just
 a
-TOK_EOL
+Eol
 TokenKind
 is
 returned
@@ -8978,7 +8978,7 @@ is
 the
 only
 place
-TOK_EOL
+Eol
 /
 /
 is
@@ -9092,7 +9092,7 @@ need
 /
 to
 return
-TOK_EOL
+Eol
 .
 if
 (
@@ -9197,7 +9197,7 @@ to
 return
 /
 /
-TOK_EOL
+Eol
 .
 /
 /
@@ -9347,7 +9347,7 @@ type
 TokenKind
 :
 :
-TOK_EOL
+Eol
 ;
 return
 true

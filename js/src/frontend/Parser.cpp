@@ -5649,7 +5649,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 )
 {
 error
@@ -5759,7 +5759,7 @@ tt
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 {
 return
@@ -5796,7 +5796,7 @@ tt
 TokenKind
 :
 :
-TOK_LET
+Let
 &
 &
 tt
@@ -5805,7 +5805,7 @@ tt
 TokenKind
 :
 :
-TOK_STATIC
+Static
 &
 &
 tt
@@ -5814,7 +5814,7 @@ tt
 TokenKind
 :
 :
-TOK_YIELD
+Yield
 &
 &
 !
@@ -10250,7 +10250,7 @@ on
 TokenKind
 :
 :
-TOK_RC
+Rc
 so
 make
 sure
@@ -10292,7 +10292,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 )
 {
 error
@@ -14050,7 +14050,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 )
 {
 error
@@ -15701,7 +15701,7 @@ tt
 TokenKind
 :
 :
-TOK_ASYNC
+Async
 )
 ;
 if
@@ -15733,7 +15733,7 @@ tt
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 ;
 if
@@ -15771,7 +15771,7 @@ tt
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 ;
 if
@@ -16050,7 +16050,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 )
 {
 error
@@ -17670,7 +17670,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -17698,7 +17698,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 &
 &
 tt
@@ -17707,7 +17707,7 @@ tt
 TokenKind
 :
 :
-TOK_EOL
+Eol
 &
 &
 tt
@@ -17716,7 +17716,7 @@ tt
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 &
 &
 tt
@@ -17725,7 +17725,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 {
 /
@@ -17828,7 +17828,7 @@ type
 TokenKind
 :
 :
-TOK_AWAIT
+Await
 )
 {
 error
@@ -17860,7 +17860,7 @@ type
 TokenKind
 :
 :
-TOK_YIELD
+Yield
 )
 {
 error
@@ -17922,7 +17922,7 @@ matched
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 TokenStream
 :
 :
@@ -18602,7 +18602,7 @@ tt
 TokenKind
 :
 :
-TOK_LP
+Lp
 )
 {
 error
@@ -18776,7 +18776,7 @@ matched
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -18934,7 +18934,7 @@ tt
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 )
 {
 if
@@ -19030,7 +19030,7 @@ tt
 TokenKind
 :
 :
-TOK_LB
+Lb
 &
 &
 tt
@@ -19039,7 +19039,7 @@ tt
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 {
 error
@@ -19061,13 +19061,13 @@ case
 TokenKind
 :
 :
-TOK_LB
+Lb
 :
 case
 TokenKind
 :
 :
-TOK_LC
+Lc
 :
 {
 disallowDuplicateParams
@@ -19378,7 +19378,7 @@ matched
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 TokenStream
 :
 :
@@ -19602,7 +19602,7 @@ matched
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 TokenStream
 :
 :
@@ -19653,7 +19653,7 @@ tt
 TokenKind
 :
 :
-TOK_RP
+Rp
 )
 break
 ;
@@ -19694,7 +19694,7 @@ tt
 TokenKind
 :
 :
-TOK_RP
+Rp
 )
 {
 if
@@ -20301,7 +20301,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 {
 error
@@ -20405,7 +20405,7 @@ tt
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 )
 break
 ;
@@ -20556,7 +20556,7 @@ tt
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 )
 ;
 return
@@ -22798,7 +22798,7 @@ matched
 TokenKind
 :
 :
-TOK_ARROW
+Arrow
 )
 )
 return
@@ -22929,7 +22929,7 @@ tt
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 {
 if
@@ -23461,7 +23461,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-TOK_RC
+Rc
 TokenStream
 :
 :
@@ -23644,7 +23644,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 )
 ;
@@ -23875,7 +23875,7 @@ tt
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 {
 generatorKind
@@ -24301,7 +24301,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 )
 ;
@@ -24354,7 +24354,7 @@ tt
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 {
 generatorKind
@@ -25869,7 +25869,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -25913,7 +25913,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 |
 |
 tt
@@ -25922,7 +25922,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 {
 TokenPos
@@ -26146,7 +26146,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_LP
+Lp
 JSMSG_PAREN_BEFORE_COND
 )
 ;
@@ -26175,7 +26175,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -26267,7 +26267,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -27273,7 +27273,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 )
 )
 ;
@@ -27491,7 +27491,7 @@ tt
 TokenKind
 :
 :
-TOK_LB
+Lb
 )
 return
 arrayBindingPattern
@@ -27508,7 +27508,7 @@ tt
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 return
 objectBindingPattern
@@ -27581,7 +27581,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 )
 ;
@@ -27677,7 +27677,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 {
 anyChars
@@ -27701,7 +27701,7 @@ tt
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 )
 {
 tokenStream
@@ -27711,7 +27711,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 )
 ;
 uint32_t
@@ -27936,7 +27936,7 @@ hasInitializer
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 TokenStream
 :
 :
@@ -28158,7 +28158,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 )
 ;
 Node
@@ -28231,7 +28231,7 @@ matched
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 TokenStream
 :
 :
@@ -28258,7 +28258,7 @@ tt
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 )
 {
 error
@@ -28278,7 +28278,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-TOK_RC
+Rc
 TokenStream
 :
 :
@@ -28343,7 +28343,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LB
+Lb
 )
 )
 ;
@@ -28452,7 +28452,7 @@ tt
 TokenKind
 :
 :
-TOK_RB
+Rb
 )
 {
 anyChars
@@ -28482,7 +28482,7 @@ tt
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 )
 {
 if
@@ -28513,7 +28513,7 @@ tt
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 )
 {
 uint32_t
@@ -28619,7 +28619,7 @@ hasInitializer
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 TokenStream
 :
 :
@@ -28672,7 +28672,7 @@ tt
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 )
 {
 /
@@ -28687,7 +28687,7 @@ match
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 in
 above
 case
@@ -28707,7 +28707,7 @@ matched
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 TokenStream
 :
 :
@@ -28734,7 +28734,7 @@ tt
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 )
 {
 error
@@ -28755,7 +28755,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-TOK_RB
+Rb
 TokenStream
 :
 :
@@ -28831,7 +28831,7 @@ tt
 TokenKind
 :
 :
-TOK_LB
+Lb
 |
 |
 tt
@@ -28840,7 +28840,7 @@ tt
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 ;
 return
@@ -28850,7 +28850,7 @@ tt
 TokenKind
 :
 :
-TOK_LB
+Lb
 ?
 arrayBindingPattern
 (
@@ -29018,7 +29018,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 )
 ;
@@ -29091,7 +29091,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-TOK_RC
+Rc
 TokenStream
 :
 :
@@ -29234,7 +29234,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LB
+Lb
 )
 |
 |
@@ -29245,7 +29245,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 )
 ;
@@ -29417,7 +29417,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 TokenStream
 :
 :
@@ -29512,7 +29512,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 )
 )
 ;
@@ -29995,7 +29995,7 @@ matched
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 TokenStream
 :
 :
@@ -30500,7 +30500,7 @@ tt
 TokenKind
 :
 :
-TOK_LB
+Lb
 |
 |
 tt
@@ -30509,7 +30509,7 @@ tt
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 ?
 declarationPattern
@@ -30614,7 +30614,7 @@ moreDeclarations
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 TokenStream
 :
 :
@@ -30851,7 +30851,7 @@ tt
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 {
 while
@@ -30933,7 +30933,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 break
 ;
@@ -30992,7 +30992,7 @@ matched
 TokenKind
 :
 :
-TOK_AS
+As
 )
 )
 return
@@ -31236,7 +31236,7 @@ next
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 break
 ;
@@ -31248,7 +31248,7 @@ next
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 )
 {
 error
@@ -31272,7 +31272,7 @@ tt
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 ;
 MUST_MATCH_TOKEN
@@ -31280,7 +31280,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_AS
+As
 JSMSG_AS_AFTER_IMPORT_STAR
 )
 ;
@@ -31501,7 +31501,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_IMPORT
+Import
 )
 )
 ;
@@ -31589,7 +31589,7 @@ tt
 TokenKind
 :
 :
-TOK_STRING
+String
 )
 {
 /
@@ -31650,7 +31650,7 @@ tt
 TokenKind
 :
 :
-TOK_LC
+Lc
 |
 |
 tt
@@ -31659,7 +31659,7 @@ tt
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 {
 if
@@ -31883,7 +31883,7 @@ tt
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 )
 {
 tokenStream
@@ -31917,7 +31917,7 @@ tt
 TokenKind
 :
 :
-TOK_LC
+Lc
 &
 &
 tt
@@ -31926,7 +31926,7 @@ tt
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 {
 error
@@ -31974,7 +31974,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_FROM
+From
 JSMSG_FROM_AFTER_IMPORT_CLAUSE
 )
 ;
@@ -31983,7 +31983,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_STRING
+String
 JSMSG_MODULE_SPEC_AFTER_FROM
 )
 ;
@@ -32971,7 +32971,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_FROM
+From
 )
 )
 ;
@@ -32992,7 +32992,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_STRING
+String
 JSMSG_MODULE_SPEC_AFTER_FROM
 )
 ;
@@ -33110,7 +33110,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 )
 ;
@@ -33197,7 +33197,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_FROM
+From
 JSMSG_FROM_AFTER_EXPORT_STAR
 )
 ;
@@ -33433,7 +33433,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 )
 ;
@@ -33537,7 +33537,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 break
 ;
@@ -33598,7 +33598,7 @@ foundAs
 TokenKind
 :
 :
-TOK_AS
+As
 )
 )
 return
@@ -33707,7 +33707,7 @@ next
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 break
 ;
@@ -33719,7 +33719,7 @@ next
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 )
 {
 error
@@ -33857,7 +33857,7 @@ matched
 TokenKind
 :
 :
-TOK_FROM
+From
 TokenStream
 :
 :
@@ -33997,7 +33997,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_VAR
+Var
 )
 )
 ;
@@ -34150,7 +34150,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 )
 ;
@@ -34280,7 +34280,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_CLASS
+Class
 )
 )
 ;
@@ -34438,7 +34438,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_CONST
+Const
 )
 )
 ;
@@ -34458,7 +34458,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LET
+Let
 )
 )
 ;
@@ -34596,7 +34596,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 )
 ;
@@ -34716,7 +34716,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_CLASS
+Class
 )
 )
 ;
@@ -35008,7 +35008,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_DEFAULT
+Default
 )
 )
 ;
@@ -35064,7 +35064,7 @@ case
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 :
 return
 exportDefaultFunctionDeclaration
@@ -35081,7 +35081,7 @@ case
 TokenKind
 :
 :
-TOK_ASYNC
+Async
 :
 {
 TokenKind
@@ -35090,7 +35090,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -35116,7 +35116,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 {
 uint32_t
@@ -35135,7 +35135,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 ;
 return
@@ -35167,7 +35167,7 @@ case
 TokenKind
 :
 :
-TOK_CLASS
+Class
 :
 return
 exportDefaultClassDeclaration
@@ -35235,7 +35235,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_EXPORT
+Export
 )
 )
 ;
@@ -35298,7 +35298,7 @@ case
 TokenKind
 :
 :
-TOK_MUL
+Mul
 :
 return
 exportBatch
@@ -35310,7 +35310,7 @@ case
 TokenKind
 :
 :
-TOK_LC
+Lc
 :
 return
 exportClause
@@ -35322,7 +35322,7 @@ case
 TokenKind
 :
 :
-TOK_VAR
+Var
 :
 return
 exportVariableStatement
@@ -35334,7 +35334,7 @@ case
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 :
 return
 exportFunctionDeclaration
@@ -35351,7 +35351,7 @@ case
 TokenKind
 :
 :
-TOK_ASYNC
+Async
 :
 {
 TokenKind
@@ -35360,7 +35360,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -35386,7 +35386,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 {
 uint32_t
@@ -35405,7 +35405,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 ;
 return
@@ -35435,7 +35435,7 @@ case
 TokenKind
 :
 :
-TOK_CLASS
+Class
 :
 return
 exportClassDeclaration
@@ -35447,7 +35447,7 @@ case
 TokenKind
 :
 :
-TOK_CONST
+Const
 :
 return
 exportLexicalDeclaration
@@ -35463,7 +35463,7 @@ case
 TokenKind
 :
 :
-TOK_LET
+Let
 :
 return
 exportLexicalDeclaration
@@ -35479,7 +35479,7 @@ case
 TokenKind
 :
 :
-TOK_DEFAULT
+Default
 :
 return
 exportDefault
@@ -35723,7 +35723,7 @@ next
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 {
 tokenStream
@@ -35821,7 +35821,7 @@ maybeStar
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 {
 error
@@ -36096,7 +36096,7 @@ tt
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 )
 {
 if
@@ -36179,7 +36179,7 @@ matched
 TokenKind
 :
 :
-TOK_ELSE
+Else
 TokenStream
 :
 :
@@ -36208,7 +36208,7 @@ matched
 TokenKind
 :
 :
-TOK_IF
+If
 TokenStream
 :
 :
@@ -36385,7 +36385,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_WHILE
+While
 TokenStream
 :
 :
@@ -36523,7 +36523,7 @@ ignored
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 TokenStream
 :
 :
@@ -36704,7 +36704,7 @@ tt
 TokenKind
 :
 :
-TOK_IN
+In
 ;
 *
 isForOfp
@@ -36715,7 +36715,7 @@ tt
 TokenKind
 :
 :
-TOK_OF
+Of
 ;
 if
 (
@@ -36802,7 +36802,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LP
+Lp
 )
 )
 ;
@@ -36865,7 +36865,7 @@ tt
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 )
 {
 *
@@ -36938,7 +36938,7 @@ tt
 TokenKind
 :
 :
-TOK_VAR
+Var
 )
 {
 tokenStream
@@ -37085,7 +37085,7 @@ tt
 TokenKind
 :
 :
-TOK_CONST
+Const
 )
 {
 parsingLexicalDeclaration
@@ -37113,7 +37113,7 @@ tt
 TokenKind
 :
 :
-TOK_LET
+Let
 )
 {
 /
@@ -37172,7 +37172,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_LET
+Let
 TokenStream
 :
 :
@@ -37300,7 +37300,7 @@ tt
 TokenKind
 :
 :
-TOK_CONST
+Const
 ?
 ParseNodeKind
 :
@@ -37916,7 +37916,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_FOR
+For
 )
 )
 ;
@@ -37980,7 +37980,7 @@ matched
 TokenKind
 :
 :
-TOK_AWAIT
+Await
 )
 )
 return
@@ -38012,7 +38012,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-TOK_LP
+Lp
 TokenStream
 :
 :
@@ -38026,7 +38026,7 @@ token
 TokenKind
 :
 :
-TOK_AWAIT
+Await
 &
 &
 !
@@ -38516,7 +38516,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 TokenStream
 :
 :
@@ -38558,7 +38558,7 @@ tt
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 )
 {
 test
@@ -38595,7 +38595,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 TokenStream
 :
 :
@@ -38634,7 +38634,7 @@ tt
 TokenKind
 :
 :
-TOK_RP
+Rp
 )
 {
 update
@@ -38671,7 +38671,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -38874,7 +38874,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -39007,7 +39007,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_SWITCH
+Switch
 )
 )
 ;
@@ -39025,7 +39025,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_LP
+Lp
 JSMSG_PAREN_BEFORE_SWITCH
 )
 ;
@@ -39054,7 +39054,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -39067,7 +39067,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_LC
+Lc
 JSMSG_CURLY_BEFORE_SWITCH
 )
 ;
@@ -39171,7 +39171,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 break
 ;
@@ -39196,7 +39196,7 @@ case
 TokenKind
 :
 :
-TOK_DEFAULT
+Default
 :
 if
 (
@@ -39241,7 +39241,7 @@ case
 TokenKind
 :
 :
-TOK_CASE
+Case
 :
 caseExpr
 =
@@ -39282,7 +39282,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_COLON
+Colon
 TokenStream
 :
 :
@@ -39360,7 +39360,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 |
 |
 tt
@@ -39369,7 +39369,7 @@ tt
 TokenKind
 :
 :
-TOK_CASE
+Case
 |
 |
 tt
@@ -39378,7 +39378,7 @@ tt
 TokenKind
 :
 :
-TOK_DEFAULT
+Default
 )
 break
 ;
@@ -39600,7 +39600,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_CONTINUE
+Continue
 )
 )
 ;
@@ -39767,7 +39767,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_BREAK
+Break
 )
 )
 ;
@@ -40024,7 +40024,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_RETURN
+Return
 )
 )
 ;
@@ -40093,7 +40093,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -40124,25 +40124,25 @@ case
 TokenKind
 :
 :
-TOK_EOL
+Eol
 :
 case
 TokenKind
 :
 :
-TOK_EOF
+Eof
 :
 case
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 :
 case
 TokenKind
 :
 :
-TOK_RC
+Rc
 :
 exprNode
 =
@@ -40240,7 +40240,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_YIELD
+Yield
 )
 )
 ;
@@ -40297,7 +40297,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -40329,7 +40329,7 @@ tt
 TokenKind
 :
 :
-TOK_EOL
+Eol
 is
 special
 ;
@@ -40352,7 +40352,7 @@ case
 TokenKind
 :
 :
-TOK_EOL
+Eol
 :
 /
 /
@@ -40405,49 +40405,49 @@ case
 TokenKind
 :
 :
-TOK_EOF
+Eof
 :
 case
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 :
 case
 TokenKind
 :
 :
-TOK_RC
+Rc
 :
 case
 TokenKind
 :
 :
-TOK_RB
+Rb
 :
 case
 TokenKind
 :
 :
-TOK_RP
+Rp
 :
 case
 TokenKind
 :
 :
-TOK_COLON
+Colon
 :
 case
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 :
 case
 TokenKind
 :
 :
-TOK_IN
+In
 :
 /
 /
@@ -40476,7 +40476,7 @@ case
 TokenKind
 :
 :
-TOK_MUL
+Mul
 :
 kind
 =
@@ -40492,7 +40492,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_MUL
+Mul
 TokenStream
 :
 :
@@ -40586,7 +40586,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_WITH
+With
 )
 )
 ;
@@ -40720,7 +40720,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_LP
+Lp
 JSMSG_PAREN_BEFORE_WITH
 )
 ;
@@ -40749,7 +40749,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -40871,7 +40871,7 @@ tt
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 {
 TokenKind
@@ -40922,7 +40922,7 @@ next
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 {
 error
@@ -41153,7 +41153,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_COLON
+Colon
 )
 ;
 /
@@ -41242,7 +41242,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_THROW
+Throw
 )
 )
 ;
@@ -41281,7 +41281,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -41311,7 +41311,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 |
 |
 tt
@@ -41320,7 +41320,7 @@ tt
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 |
 |
 tt
@@ -41329,7 +41329,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 {
 error
@@ -41351,7 +41351,7 @@ tt
 TokenKind
 :
 :
-TOK_EOL
+Eol
 )
 {
 error
@@ -41449,7 +41449,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_TRY
+Try
 )
 )
 ;
@@ -41531,12 +41531,12 @@ identifier
 TokenKind
 :
 :
-TOK_RB
+Rb
 or
 TokenKind
 :
 :
-TOK_RC
+Rc
 for
 a
 destructuring
@@ -41552,7 +41552,7 @@ are
 TokenKind
 :
 :
-TOK_LC
+Lc
 statement
 lists
 .
@@ -41567,7 +41567,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_LC
+Lc
 JSMSG_CURLY_BEFORE_TRY
 )
 ;
@@ -41657,7 +41657,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-TOK_RC
+Rc
 TokenStream
 :
 :
@@ -41705,7 +41705,7 @@ tt
 TokenKind
 :
 :
-TOK_CATCH
+Catch
 )
 {
 /
@@ -41813,7 +41813,7 @@ omittedBinding
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 )
 return
@@ -41843,7 +41843,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_LP
+Lp
 JSMSG_PAREN_BEFORE_CATCH
 )
 ;
@@ -41872,13 +41872,13 @@ case
 TokenKind
 :
 :
-TOK_LB
+Lb
 :
 case
 TokenKind
 :
 :
-TOK_LC
+Lc
 :
 catchName
 =
@@ -41957,7 +41957,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -41970,7 +41970,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_LC
+Lc
 JSMSG_CURLY_BEFORE_CATCH
 )
 ;
@@ -42077,7 +42077,7 @@ tt
 TokenKind
 :
 :
-TOK_FINALLY
+Finally
 )
 {
 MUST_MATCH_TOKEN
@@ -42085,7 +42085,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_LC
+Lc
 JSMSG_CURLY_BEFORE_FINALLY
 )
 ;
@@ -42175,7 +42175,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-TOK_RC
+Rc
 TokenStream
 :
 :
@@ -42403,7 +42403,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-TOK_RC
+Rc
 TokenStream
 :
 :
@@ -42693,7 +42693,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_CLASS
+Class
 )
 )
 ;
@@ -43035,7 +43035,7 @@ hasHeritage
 TokenKind
 :
 :
-TOK_EXTENDS
+Extends
 )
 )
 return
@@ -43093,7 +43093,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-TOK_LC
+Lc
 JSMSG_CURLY_BEFORE_CLASS
 )
 ;
@@ -43164,7 +43164,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 break
 ;
@@ -43176,7 +43176,7 @@ tt
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 )
 continue
 ;
@@ -43193,7 +43193,7 @@ tt
 TokenKind
 :
 :
-TOK_STATIC
+Static
 )
 {
 if
@@ -43220,7 +43220,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 {
 tokenStream
@@ -43257,7 +43257,7 @@ tt
 TokenKind
 :
 :
-TOK_LP
+Lp
 )
 isStatic
 =
@@ -43576,7 +43576,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_RB
+Rb
 )
 )
 {
@@ -43631,7 +43631,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_RB
+Rb
 )
 )
 funName
@@ -44050,7 +44050,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LET
+Let
 )
 )
 ;
@@ -44100,7 +44100,7 @@ next
 TokenKind
 :
 :
-TOK_LB
+Lb
 |
 |
 next
@@ -44109,7 +44109,7 @@ next
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 return
 true
@@ -44382,7 +44382,7 @@ case
 TokenKind
 :
 :
-TOK_LC
+Lc
 :
 return
 blockStatement
@@ -44401,7 +44401,7 @@ case
 TokenKind
 :
 :
-TOK_VAR
+Var
 :
 return
 variableStatement
@@ -44416,7 +44416,7 @@ case
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 :
 return
 handler
@@ -44440,7 +44440,7 @@ case
 TokenKind
 :
 :
-TOK_YIELD
+Yield
 :
 {
 /
@@ -44523,7 +44523,7 @@ next
 TokenKind
 :
 :
-TOK_COLON
+Colon
 )
 return
 labeledStatement
@@ -44558,7 +44558,7 @@ tt
 TokenKind
 :
 :
-TOK_AWAIT
+Await
 &
 &
 pc
@@ -44641,7 +44641,7 @@ tt
 TokenKind
 :
 :
-TOK_LET
+Let
 )
 {
 bool
@@ -44657,7 +44657,7 @@ next
 TokenKind
 :
 :
-TOK_LB
+Lb
 )
 {
 /
@@ -44687,7 +44687,7 @@ next
 TokenKind
 :
 :
-TOK_LC
+Lc
 |
 |
 TokenKindIsPossibleIdentifier
@@ -44760,7 +44760,7 @@ as
 TokenKind
 :
 :
-TOK_YIELD
+Yield
 :
 we
 '
@@ -44810,7 +44810,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_LC
+Lc
 |
 |
 nextSameLine
@@ -44819,7 +44819,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_EOL
+Eol
 )
 ;
 forbiddenLetDeclaration
@@ -44830,7 +44830,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_EOL
+Eol
 ;
 }
 if
@@ -44863,7 +44863,7 @@ tt
 TokenKind
 :
 :
-TOK_ASYNC
+Async
 )
 {
 /
@@ -44968,7 +44968,7 @@ maybeFunction
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 {
 error
@@ -45039,7 +45039,7 @@ next
 TokenKind
 :
 :
-TOK_COLON
+Colon
 )
 return
 labeledStatement
@@ -45058,7 +45058,7 @@ case
 TokenKind
 :
 :
-TOK_NEW
+New
 :
 return
 expressionStatement
@@ -45080,7 +45080,7 @@ case
 TokenKind
 :
 :
-TOK_IF
+If
 :
 return
 ifStatement
@@ -45129,7 +45129,7 @@ case
 TokenKind
 :
 :
-TOK_DO
+Do
 :
 return
 doWhileStatement
@@ -45141,7 +45141,7 @@ case
 TokenKind
 :
 :
-TOK_WHILE
+While
 :
 return
 whileStatement
@@ -45153,7 +45153,7 @@ case
 TokenKind
 :
 :
-TOK_FOR
+For
 :
 return
 forStatement
@@ -45165,7 +45165,7 @@ case
 TokenKind
 :
 :
-TOK_SWITCH
+Switch
 :
 return
 switchStatement
@@ -45184,7 +45184,7 @@ case
 TokenKind
 :
 :
-TOK_CONTINUE
+Continue
 :
 return
 continueStatement
@@ -45203,7 +45203,7 @@ case
 TokenKind
 :
 :
-TOK_BREAK
+Break
 :
 return
 breakStatement
@@ -45226,7 +45226,7 @@ case
 TokenKind
 :
 :
-TOK_RETURN
+Return
 :
 /
 /
@@ -45303,7 +45303,7 @@ case
 TokenKind
 :
 :
-TOK_WITH
+With
 :
 return
 withStatement
@@ -45332,7 +45332,7 @@ and
 TokenKind
 :
 :
-TOK_YIELD
+Yield
 cases
 above
 .
@@ -45347,7 +45347,7 @@ case
 TokenKind
 :
 :
-TOK_THROW
+Throw
 :
 return
 throwStatement
@@ -45368,7 +45368,7 @@ case
 TokenKind
 :
 :
-TOK_TRY
+Try
 :
 return
 tryStatement
@@ -45383,7 +45383,7 @@ case
 TokenKind
 :
 :
-TOK_DEBUGGER
+Debugger
 :
 return
 debuggerStatement
@@ -45430,7 +45430,7 @@ case
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 :
 error
 (
@@ -45462,7 +45462,7 @@ case
 TokenKind
 :
 :
-TOK_CLASS
+Class
 :
 error
 (
@@ -45489,7 +45489,7 @@ case
 TokenKind
 :
 :
-TOK_IMPORT
+Import
 :
 return
 importDeclaration
@@ -45508,7 +45508,7 @@ case
 TokenKind
 :
 :
-TOK_EXPORT
+Export
 :
 return
 exportDeclaration
@@ -45531,7 +45531,7 @@ case
 TokenKind
 :
 :
-TOK_CATCH
+Catch
 :
 error
 (
@@ -45547,7 +45547,7 @@ case
 TokenKind
 :
 :
-TOK_FINALLY
+Finally
 :
 error
 (
@@ -45665,7 +45665,7 @@ case
 TokenKind
 :
 :
-TOK_LC
+Lc
 :
 return
 blockStatement
@@ -45684,7 +45684,7 @@ case
 TokenKind
 :
 :
-TOK_VAR
+Var
 :
 return
 variableStatement
@@ -45699,7 +45699,7 @@ case
 TokenKind
 :
 :
-TOK_SEMI
+Semi
 :
 return
 handler
@@ -45748,7 +45748,7 @@ case
 TokenKind
 :
 :
-TOK_STRING
+String
 :
 if
 (
@@ -45813,7 +45813,7 @@ case
 TokenKind
 :
 :
-TOK_YIELD
+Yield
 :
 {
 /
@@ -45896,7 +45896,7 @@ next
 TokenKind
 :
 :
-TOK_COLON
+Colon
 )
 return
 labeledStatement
@@ -45931,7 +45931,7 @@ tt
 TokenKind
 :
 :
-TOK_AWAIT
+Await
 &
 &
 pc
@@ -45988,7 +45988,7 @@ tt
 TokenKind
 :
 :
-TOK_LET
+Let
 &
 &
 nextTokenContinuesLetDeclaration
@@ -46014,7 +46014,7 @@ tt
 TokenKind
 :
 :
-TOK_ASYNC
+Async
 )
 {
 TokenKind
@@ -46023,7 +46023,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -46049,7 +46049,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 {
 uint32_t
@@ -46068,7 +46068,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 ;
 return
@@ -46093,7 +46093,7 @@ next
 TokenKind
 :
 :
-TOK_COLON
+Colon
 )
 return
 labeledStatement
@@ -46112,7 +46112,7 @@ case
 TokenKind
 :
 :
-TOK_NEW
+New
 :
 return
 expressionStatement
@@ -46134,7 +46134,7 @@ case
 TokenKind
 :
 :
-TOK_IF
+If
 :
 return
 ifStatement
@@ -46183,7 +46183,7 @@ case
 TokenKind
 :
 :
-TOK_DO
+Do
 :
 return
 doWhileStatement
@@ -46195,7 +46195,7 @@ case
 TokenKind
 :
 :
-TOK_WHILE
+While
 :
 return
 whileStatement
@@ -46207,7 +46207,7 @@ case
 TokenKind
 :
 :
-TOK_FOR
+For
 :
 return
 forStatement
@@ -46219,7 +46219,7 @@ case
 TokenKind
 :
 :
-TOK_SWITCH
+Switch
 :
 return
 switchStatement
@@ -46238,7 +46238,7 @@ case
 TokenKind
 :
 :
-TOK_CONTINUE
+Continue
 :
 return
 continueStatement
@@ -46257,7 +46257,7 @@ case
 TokenKind
 :
 :
-TOK_BREAK
+Break
 :
 return
 breakStatement
@@ -46280,7 +46280,7 @@ case
 TokenKind
 :
 :
-TOK_RETURN
+Return
 :
 /
 /
@@ -46357,7 +46357,7 @@ case
 TokenKind
 :
 :
-TOK_WITH
+With
 :
 return
 withStatement
@@ -46386,7 +46386,7 @@ and
 TokenKind
 :
 :
-TOK_YIELD
+Yield
 cases
 above
 .
@@ -46401,7 +46401,7 @@ case
 TokenKind
 :
 :
-TOK_THROW
+Throw
 :
 return
 throwStatement
@@ -46422,7 +46422,7 @@ case
 TokenKind
 :
 :
-TOK_TRY
+Try
 :
 return
 tryStatement
@@ -46437,7 +46437,7 @@ case
 TokenKind
 :
 :
-TOK_DEBUGGER
+Debugger
 :
 return
 debuggerStatement
@@ -46464,7 +46464,7 @@ case
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 :
 return
 functionStmt
@@ -46491,7 +46491,7 @@ case
 TokenKind
 :
 :
-TOK_CLASS
+Class
 :
 return
 classDefinition
@@ -46523,7 +46523,7 @@ case
 TokenKind
 :
 :
-TOK_CONST
+Const
 :
 /
 /
@@ -46575,7 +46575,7 @@ case
 TokenKind
 :
 :
-TOK_IMPORT
+Import
 :
 return
 importDeclaration
@@ -46594,7 +46594,7 @@ case
 TokenKind
 :
 :
-TOK_EXPORT
+Export
 :
 return
 exportDeclaration
@@ -46617,7 +46617,7 @@ case
 TokenKind
 :
 :
-TOK_CATCH
+Catch
 :
 error
 (
@@ -46633,7 +46633,7 @@ case
 TokenKind
 :
 :
-TOK_FINALLY
+Finally
 :
 error
 (
@@ -46742,7 +46742,7 @@ matched
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 TokenStream
 :
 :
@@ -46886,7 +46886,7 @@ tt
 TokenKind
 :
 :
-TOK_RP
+Rp
 )
 {
 tokenStream
@@ -46896,7 +46896,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -46927,7 +46927,7 @@ tt
 TokenKind
 :
 :
-TOK_ARROW
+Arrow
 )
 {
 error
@@ -46941,7 +46941,7 @@ TokenKindToDesc
 TokenKind
 :
 :
-TOK_RP
+Rp
 )
 )
 ;
@@ -47101,7 +47101,7 @@ matched
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 TokenStream
 :
 :
@@ -47163,7 +47163,7 @@ size_t
 TokenKind
 :
 :
-TOK_BINOP_FIRST
+BinOpFirst
 )
 )
 )
@@ -47714,7 +47714,7 @@ tok
 TokenKind
 :
 :
-TOK_IN
+In
 ?
 inHandling
 =
@@ -47789,7 +47789,7 @@ tok
 TokenKind
 :
 :
-TOK_POW
+Pow
 &
 &
 handler
@@ -47826,7 +47826,7 @@ tok
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 pnk
 =
@@ -48194,7 +48194,7 @@ matched
 TokenKind
 :
 :
-TOK_HOOK
+Hook
 )
 )
 return
@@ -48235,7 +48235,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_COLON
+Colon
 TokenStream
 :
 :
@@ -48545,7 +48545,7 @@ firstToken
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 {
 if
@@ -48609,7 +48609,7 @@ firstToken
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 )
 {
 if
@@ -48651,7 +48651,7 @@ firstToken
 TokenKind
 :
 :
-TOK_STRING
+String
 )
 {
 if
@@ -48688,7 +48688,7 @@ firstToken
 TokenKind
 :
 :
-TOK_YIELD
+Yield
 &
 &
 yieldExpressionsSupported
@@ -48714,7 +48714,7 @@ firstToken
 TokenKind
 :
 :
-TOK_ASYNC
+Async
 )
 {
 TokenKind
@@ -48723,7 +48723,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -48821,7 +48821,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_ASYNC
+Async
 TokenStream
 :
 :
@@ -48906,7 +48906,7 @@ tokenAfterLHS
 TokenKind
 :
 :
-TOK_ARROW
+Arrow
 )
 {
 error
@@ -49032,7 +49032,7 @@ tokenAfterLHS
 TokenKind
 :
 :
-TOK_ARROW
+Arrow
 ;
 }
 if
@@ -49101,7 +49101,7 @@ next
 TokenKind
 :
 :
-TOK_ASYNC
+Async
 )
 {
 tokenStream
@@ -49121,7 +49121,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -49183,7 +49183,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_LP
+Lp
 )
 asyncKind
 =
@@ -49266,7 +49266,7 @@ case
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 :
 kind
 =
@@ -49281,7 +49281,7 @@ case
 TokenKind
 :
 :
-TOK_ADDASSIGN
+AddAssign
 :
 kind
 =
@@ -49296,7 +49296,7 @@ case
 TokenKind
 :
 :
-TOK_SUBASSIGN
+SubAssign
 :
 kind
 =
@@ -49311,7 +49311,7 @@ case
 TokenKind
 :
 :
-TOK_BITORASSIGN
+BitOrAssign
 :
 kind
 =
@@ -49326,7 +49326,7 @@ case
 TokenKind
 :
 :
-TOK_BITXORASSIGN
+BitXorAssign
 :
 kind
 =
@@ -49341,7 +49341,7 @@ case
 TokenKind
 :
 :
-TOK_BITANDASSIGN
+BitAndAssign
 :
 kind
 =
@@ -49356,7 +49356,7 @@ case
 TokenKind
 :
 :
-TOK_LSHASSIGN
+LshAssign
 :
 kind
 =
@@ -49371,7 +49371,7 @@ case
 TokenKind
 :
 :
-TOK_RSHASSIGN
+RshAssign
 :
 kind
 =
@@ -49386,7 +49386,7 @@ case
 TokenKind
 :
 :
-TOK_URSHASSIGN
+UrshAssign
 :
 kind
 =
@@ -49401,7 +49401,7 @@ case
 TokenKind
 :
 :
-TOK_MULASSIGN
+MulAssign
 :
 kind
 =
@@ -49416,7 +49416,7 @@ case
 TokenKind
 :
 :
-TOK_DIVASSIGN
+DivAssign
 :
 kind
 =
@@ -49431,7 +49431,7 @@ case
 TokenKind
 :
 :
-TOK_MODASSIGN
+ModAssign
 :
 kind
 =
@@ -49446,7 +49446,7 @@ case
 TokenKind
 :
 :
-TOK_POWASSIGN
+PowAssign
 :
 kind
 =
@@ -50351,7 +50351,7 @@ case
 TokenKind
 :
 :
-TOK_VOID
+Void
 :
 return
 unaryOpExpr
@@ -50368,7 +50368,7 @@ case
 TokenKind
 :
 :
-TOK_NOT
+Not
 :
 return
 unaryOpExpr
@@ -50385,7 +50385,7 @@ case
 TokenKind
 :
 :
-TOK_BITNOT
+BitNot
 :
 return
 unaryOpExpr
@@ -50402,7 +50402,7 @@ case
 TokenKind
 :
 :
-TOK_ADD
+Add
 :
 return
 unaryOpExpr
@@ -50419,7 +50419,7 @@ case
 TokenKind
 :
 :
-TOK_SUB
+Sub
 :
 return
 unaryOpExpr
@@ -50436,7 +50436,7 @@ case
 TokenKind
 :
 :
-TOK_TYPEOF
+TypeOf
 :
 {
 /
@@ -50574,13 +50574,13 @@ case
 TokenKind
 :
 :
-TOK_INC
+Inc
 :
 case
 TokenKind
 :
 :
-TOK_DEC
+Dec
 :
 {
 TokenKind
@@ -50657,7 +50657,7 @@ tt
 TokenKind
 :
 :
-TOK_INC
+Inc
 )
 ?
 ParseNodeKind
@@ -50685,7 +50685,7 @@ case
 TokenKind
 :
 :
-TOK_DELETE
+Delete
 :
 {
 uint32_t
@@ -50816,7 +50816,7 @@ case
 TokenKind
 :
 :
-TOK_AWAIT
+Await
 :
 {
 if
@@ -50960,7 +50960,7 @@ tt
 TokenKind
 :
 :
-TOK_INC
+Inc
 &
 &
 tt
@@ -50969,7 +50969,7 @@ tt
 TokenKind
 :
 :
-TOK_DEC
+Dec
 )
 return
 expr
@@ -51005,7 +51005,7 @@ tt
 TokenKind
 :
 :
-TOK_INC
+Inc
 )
 ?
 ParseNodeKind
@@ -51194,7 +51194,7 @@ matched
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -51252,7 +51252,7 @@ matched
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 TokenStream
 :
 :
@@ -51351,7 +51351,7 @@ matched
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 TokenStream
 :
 :
@@ -51399,7 +51399,7 @@ tt
 TokenKind
 :
 :
-TOK_RP
+Rp
 )
 break
 ;
@@ -51409,7 +51409,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -51570,7 +51570,7 @@ tt
 TokenKind
 :
 :
-TOK_NEW
+New
 )
 {
 uint32_t
@@ -51716,7 +51716,7 @@ matched
 TokenKind
 :
 :
-TOK_LP
+Lp
 )
 )
 return
@@ -51774,7 +51774,7 @@ tt
 TokenKind
 :
 :
-TOK_SUPER
+Super
 )
 {
 Node
@@ -51869,7 +51869,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_SUPER
+Super
 )
 )
 ;
@@ -51902,7 +51902,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 )
 break
 ;
@@ -51917,7 +51917,7 @@ tt
 TokenKind
 :
 :
-TOK_DOT
+Dot
 )
 {
 if
@@ -52033,7 +52033,7 @@ tt
 TokenKind
 :
 :
-TOK_LB
+Lb
 )
 {
 Node
@@ -52061,7 +52061,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_RB
+Rb
 TokenStream
 :
 :
@@ -52138,7 +52138,7 @@ tt
 TokenKind
 :
 :
-TOK_LP
+Lp
 )
 |
 |
@@ -52148,7 +52148,7 @@ tt
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 |
 |
 tt
@@ -52157,7 +52157,7 @@ tt
 TokenKind
 :
 :
-TOK_NO_SUBS_TEMPLATE
+NoSubsTemplate
 )
 {
 if
@@ -52205,7 +52205,7 @@ tt
 TokenKind
 :
 :
-TOK_LP
+Lp
 )
 {
 error
@@ -52391,7 +52391,7 @@ tt
 TokenKind
 :
 :
-TOK_LP
+Lp
 ?
 handler
 .
@@ -52530,7 +52530,7 @@ tt
 TokenKind
 :
 :
-TOK_LP
+Lp
 )
 {
 if
@@ -52822,7 +52822,7 @@ tt
 TokenKind
 :
 :
-TOK_LP
+Lp
 )
 {
 bool
@@ -53076,7 +53076,7 @@ hint
 TokenKind
 :
 :
-TOK_LIMIT
+Limit
 *
 /
 )
@@ -53092,7 +53092,7 @@ hint
 TokenKind
 :
 :
-TOK_LIMIT
+Limit
 )
 {
 tt
@@ -53139,7 +53139,7 @@ tt
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 return
 true
@@ -53160,7 +53160,7 @@ tt
 TokenKind
 :
 :
-TOK_YIELD
+Yield
 )
 {
 if
@@ -53227,7 +53227,7 @@ tt
 TokenKind
 :
 :
-TOK_AWAIT
+Await
 )
 {
 if
@@ -53277,7 +53277,7 @@ tt
 TokenKind
 :
 :
-TOK_LET
+Let
 )
 {
 if
@@ -53307,7 +53307,7 @@ tt
 TokenKind
 :
 :
-TOK_STATIC
+Static
 )
 {
 if
@@ -53475,7 +53475,7 @@ hint
 TokenKind
 :
 :
-TOK_LIMIT
+Limit
 *
 /
 )
@@ -53705,7 +53705,7 @@ type
 TokenKind
 :
 :
-TOK_LIMIT
+Limit
 ;
 RootedPropertyName
 ident
@@ -53783,7 +53783,7 @@ type
 TokenKind
 :
 :
-TOK_LIMIT
+Limit
 ;
 RootedPropertyName
 ident
@@ -55140,7 +55140,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LB
+Lb
 )
 )
 ;
@@ -55204,7 +55204,7 @@ tt
 TokenKind
 :
 :
-TOK_RB
+Rb
 )
 {
 /
@@ -55311,7 +55311,7 @@ tt
 TokenKind
 :
 :
-TOK_RB
+Rb
 )
 break
 ;
@@ -55323,7 +55323,7 @@ tt
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 )
 {
 tokenStream
@@ -55333,7 +55333,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 TokenStream
 :
 :
@@ -55369,7 +55369,7 @@ tt
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 )
 {
 tokenStream
@@ -55379,7 +55379,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 TokenStream
 :
 :
@@ -55600,7 +55600,7 @@ matched
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 TokenStream
 :
 :
@@ -55627,7 +55627,7 @@ tt
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 &
 &
 possibleError
@@ -55649,7 +55649,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-TOK_RB
+Rb
 TokenStream
 :
 :
@@ -55795,7 +55795,7 @@ ltok
 TokenKind
 :
 :
-TOK_RC
+Rc
 "
 caller
 should
@@ -55804,7 +55804,7 @@ handled
 TokenKind
 :
 :
-TOK_RC
+Rc
 "
 )
 ;
@@ -55826,7 +55826,7 @@ ltok
 TokenKind
 :
 :
-TOK_ASYNC
+Async
 )
 {
 /
@@ -55939,7 +55939,7 @@ tt
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -55965,7 +55965,7 @@ tt
 TokenKind
 :
 :
-TOK_STRING
+String
 |
 |
 tt
@@ -55974,7 +55974,7 @@ tt
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 |
 |
 tt
@@ -55983,7 +55983,7 @@ tt
 TokenKind
 :
 :
-TOK_LB
+Lb
 |
 |
 TokenKindIsPossibleIdentifierName
@@ -55998,7 +55998,7 @@ tt
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 {
 isAsync
@@ -56026,7 +56026,7 @@ ltok
 TokenKind
 :
 :
-TOK_MUL
+Mul
 )
 {
 isGenerator
@@ -56069,7 +56069,7 @@ case
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 :
 propAtom
 .
@@ -56131,7 +56131,7 @@ case
 TokenKind
 :
 :
-TOK_STRING
+String
 :
 {
 propAtom
@@ -56213,7 +56213,7 @@ case
 TokenKind
 :
 :
-TOK_LB
+Lb
 :
 propName
 =
@@ -56308,7 +56308,7 @@ ltok
 TokenKind
 :
 :
-TOK_GET
+Get
 |
 |
 ltok
@@ -56317,7 +56317,7 @@ ltok
 TokenKind
 :
 :
-TOK_SET
+Set
 )
 )
 {
@@ -56355,7 +56355,7 @@ ltok
 TokenKind
 :
 :
-TOK_GET
+Get
 ?
 PropertyType
 :
@@ -56455,7 +56455,7 @@ tt
 TokenKind
 :
 :
-TOK_STRING
+String
 )
 {
 tokenStream
@@ -56465,7 +56465,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_STRING
+String
 )
 ;
 propAtom
@@ -56550,7 +56550,7 @@ tt
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 )
 {
 tokenStream
@@ -56560,7 +56560,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 )
 ;
 propAtom
@@ -56615,7 +56615,7 @@ tt
 TokenKind
 :
 :
-TOK_LB
+Lb
 )
 {
 tokenStream
@@ -56625,7 +56625,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_LB
+Lb
 )
 ;
 return
@@ -56703,7 +56703,7 @@ tt
 TokenKind
 :
 :
-TOK_COLON
+Colon
 )
 {
 if
@@ -56752,7 +56752,7 @@ tt
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 |
 |
 tt
@@ -56761,7 +56761,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 |
 |
 tt
@@ -56770,7 +56770,7 @@ tt
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 )
 )
 {
@@ -56818,7 +56818,7 @@ tt
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 ?
 PropertyType
 :
@@ -56842,7 +56842,7 @@ tt
 TokenKind
 :
 :
-TOK_LP
+Lp
 )
 {
 anyChars
@@ -56959,7 +56959,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LB
+Lb
 )
 )
 ;
@@ -57037,7 +57037,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_RB
+Rb
 TokenStream
 :
 :
@@ -57097,7 +57097,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 )
 ;
@@ -57193,7 +57193,7 @@ tt
 TokenKind
 :
 :
-TOK_RC
+Rc
 )
 {
 anyChars
@@ -57217,7 +57217,7 @@ tt
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 )
 {
 tokenStream
@@ -57227,7 +57227,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 )
 ;
 uint32_t
@@ -57589,7 +57589,7 @@ observe
 TokenKind
 :
 :
-TOK_COLON
+Colon
 !
 Only
 /
@@ -57937,7 +57937,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_ASSIGN
+Assign
 )
 ;
 if
@@ -58227,7 +58227,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_RB
+Rb
 )
 )
 {
@@ -58362,7 +58362,7 @@ matched
 TokenKind
 :
 :
-TOK_COMMA
+Comma
 TokenStream
 :
 :
@@ -58389,7 +58389,7 @@ tt
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 &
 &
 possibleError
@@ -58411,7 +58411,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-TOK_RC
+Rc
 TokenStream
 :
 :
@@ -58730,7 +58730,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_NEW
+New
 )
 )
 ;
@@ -58846,7 +58846,7 @@ next
 TokenKind
 :
 :
-TOK_DOT
+Dot
 )
 return
 true
@@ -58873,7 +58873,7 @@ next
 TokenKind
 :
 :
-TOK_TARGET
+Target
 )
 {
 error
@@ -59028,7 +59028,7 @@ case
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 :
 return
 functionExpr
@@ -59050,7 +59050,7 @@ case
 TokenKind
 :
 :
-TOK_CLASS
+Class
 :
 return
 classDefinition
@@ -59064,7 +59064,7 @@ case
 TokenKind
 :
 :
-TOK_LB
+Lb
 :
 return
 arrayInitializer
@@ -59077,7 +59077,7 @@ case
 TokenKind
 :
 :
-TOK_LC
+Lc
 :
 return
 objectLiteral
@@ -59090,7 +59090,7 @@ case
 TokenKind
 :
 :
-TOK_LP
+Lp
 :
 {
 TokenKind
@@ -59124,7 +59124,7 @@ next
 TokenKind
 :
 :
-TOK_RP
+Rp
 )
 {
 /
@@ -59160,7 +59160,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -59191,7 +59191,7 @@ next
 TokenKind
 :
 :
-TOK_ARROW
+Arrow
 )
 {
 error
@@ -59205,7 +59205,7 @@ TokenKindToDesc
 TokenKind
 :
 :
-TOK_RP
+Rp
 )
 )
 ;
@@ -59311,7 +59311,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-TOK_RP
+Rp
 TokenStream
 :
 :
@@ -59332,7 +59332,7 @@ case
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 :
 return
 templateLiteral
@@ -59344,7 +59344,7 @@ case
 TokenKind
 :
 :
-TOK_NO_SUBS_TEMPLATE
+NoSubsTemplate
 :
 return
 noSubstitutionUntaggedTemplate
@@ -59355,7 +59355,7 @@ case
 TokenKind
 :
 :
-TOK_STRING
+String
 :
 return
 stringLiteral
@@ -59400,7 +59400,7 @@ tt
 TokenKind
 :
 :
-TOK_ASYNC
+Async
 )
 {
 TokenKind
@@ -59409,7 +59409,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_EOF
+Eof
 ;
 if
 (
@@ -59435,7 +59435,7 @@ nextSameLine
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 {
 uint32_t
@@ -59454,7 +59454,7 @@ consumeKnownToken
 TokenKind
 :
 :
-TOK_FUNCTION
+Function
 )
 ;
 return
@@ -59506,7 +59506,7 @@ case
 TokenKind
 :
 :
-TOK_REGEXP
+RegExp
 :
 return
 newRegExp
@@ -59517,7 +59517,7 @@ case
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 :
 return
 newNumber
@@ -59533,7 +59533,7 @@ case
 TokenKind
 :
 :
-TOK_TRUE
+True
 :
 return
 handler
@@ -59550,7 +59550,7 @@ case
 TokenKind
 :
 :
-TOK_FALSE
+False
 :
 return
 handler
@@ -59567,7 +59567,7 @@ case
 TokenKind
 :
 :
-TOK_THIS
+This
 :
 {
 if
@@ -59652,7 +59652,7 @@ case
 TokenKind
 :
 :
-TOK_NULL
+Null
 :
 return
 handler
@@ -59668,7 +59668,7 @@ case
 TokenKind
 :
 :
-TOK_TRIPLEDOT
+TripleDot
 :
 {
 /
@@ -59796,7 +59796,7 @@ next
 TokenKind
 :
 :
-TOK_LB
+Lb
 |
 |
 next
@@ -59805,7 +59805,7 @@ next
 TokenKind
 :
 :
-TOK_LC
+Lc
 )
 {
 /
@@ -59965,7 +59965,7 @@ next
 TokenKind
 :
 :
-TOK_RP
+Rp
 )
 {
 error
@@ -60011,7 +60011,7 @@ next
 TokenKind
 :
 :
-TOK_ARROW
+Arrow
 )
 {
 /
@@ -60081,7 +60081,7 @@ case
 TokenKind
 :
 :
-TOK_RP
+Rp
 above
 .
 return
@@ -60144,7 +60144,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_LP
+Lp
 )
 )
 ;
