@@ -5079,11 +5079,6 @@ true
 }
 }
 ;
-template
-<
-class
-Traits
->
 JSObject
 *
 CommonStructuredCloneReadCallback
@@ -5366,7 +5361,7 @@ if
 NS_WARN_IF
 (
 !
-Traits
+ValueDeserializationHelper
 :
 :
 CreateAndWrapWasmModule
@@ -5464,7 +5459,7 @@ if
 NS_WARN_IF
 (
 !
-Traits
+ValueDeserializationHelper
 :
 :
 CreateAndWrapMutableFile
@@ -5513,7 +5508,7 @@ if
 NS_WARN_IF
 (
 !
-Traits
+ValueDeserializationHelper
 :
 :
 CreateAndWrapBlobOrFile
@@ -6478,9 +6473,6 @@ callbacks
 =
 {
 CommonStructuredCloneReadCallback
-<
-ValueDeserializationHelper
->
 nullptr
 nullptr
 nullptr
@@ -7256,9 +7248,6 @@ callbacks
 =
 {
 CommonStructuredCloneReadCallback
-<
-ValueDeserializationHelper
->
 nullptr
 nullptr
 nullptr
@@ -7715,9 +7704,6 @@ callbacks
 =
 {
 CommonStructuredCloneReadCallback
-<
-ValueDeserializationHelper
->
 nullptr
 nullptr
 nullptr
