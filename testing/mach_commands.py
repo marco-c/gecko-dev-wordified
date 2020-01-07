@@ -244,6 +244,8 @@ run
 a
 %
 s
+%
+s
 test
 .
 Unfortunately
@@ -808,8 +810,8 @@ moztest
 .
 resolve
 import
+get_suite_definition
 TestResolver
-TEST_FLAVORS
 TEST_SUITES
         
 resolver
@@ -1073,32 +1075,13 @@ items
 )
 :
             
-if
-flavor
-not
-in
-TEST_FLAVORS
-:
-                
-print
-(
-UNKNOWN_FLAVOR
-%
-flavor
-)
-                
-status
-=
-1
-                
-continue
-            
 m
 =
-TEST_FLAVORS
-[
+get_suite_definition
+(
 flavor
-]
+subsuite
+)
             
 if
 '
@@ -1109,11 +1092,32 @@ in
 m
 :
                 
+substr
+=
+'
+-
+{
+}
+'
+.
+format
+(
+subsuite
+)
+if
+subsuite
+else
+'
+'
+                
 print
 (
 UNKNOWN_FLAVOR
 %
+(
 flavor
+substr
+)
 )
                 
 status
@@ -1142,15 +1146,6 @@ log
 ]
 =
 log
-            
-kwargs
-[
-'
-subsuite
-'
-]
-=
-subsuite
             
 res
 =
