@@ -1966,12 +1966,6 @@ AddSelectionListener
 nsISelectionListener
 *
 aListener
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -1980,12 +1974,6 @@ RemoveSelectionListener
 nsISelectionListener
 *
 aListener
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 RawSelectionType
@@ -3561,7 +3549,7 @@ nsAutoScrollTimer
 >
 mAutoScrollTimer
 ;
-FallibleTArray
+nsTArray
 <
 nsCOMPtr
 <

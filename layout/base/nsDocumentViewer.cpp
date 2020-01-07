@@ -4208,9 +4208,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsresult
-rv
-=
 selection
 -
 >
@@ -4218,16 +4215,6 @@ AddSelectionListener
 (
 mSelectionListener
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 /
 /
