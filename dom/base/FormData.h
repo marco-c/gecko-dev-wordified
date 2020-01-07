@@ -584,6 +584,12 @@ aPostDataStream
 int64_t
 *
 aPostDataStreamLength
+nsCOMPtr
+<
+nsIURI
+>
+&
+aOutURI
 )
 override
 ;

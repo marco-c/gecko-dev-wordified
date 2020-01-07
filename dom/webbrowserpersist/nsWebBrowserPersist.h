@@ -472,6 +472,12 @@ const
 nsAString
 &
 aPath
+nsCOMPtr
+<
+nsIURI
+>
+&
+aOutURI
 )
 ;
 nsresult

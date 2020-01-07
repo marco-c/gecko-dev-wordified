@@ -706,6 +706,12 @@ aPostDataStream
 int64_t
 *
 aPostDataStreamLength
+nsCOMPtr
+<
+nsIURI
+>
+&
+aOutURI
 )
 {
 NS_NOTREACHED
