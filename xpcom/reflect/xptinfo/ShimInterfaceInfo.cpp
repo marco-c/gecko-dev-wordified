@@ -471,13 +471,6 @@ h
 #
 include
 "
-nsIDOMTimeEvent
-.
-h
-"
-#
-include
-"
 nsIDOMTimeRanges
 .
 h
@@ -2259,10 +2252,6 @@ SimpleGestureEvent
 DEFINE_SHIM
 (
 Text
-)
-DEFINE_SHIM
-(
-TimeEvent
 )
 DEFINE_SHIM
 (
