@@ -280,6 +280,26 @@ path
 True
 )
         
+query
+=
+request
+.
+url_parts
+.
+query
+        
+if
+query
+:
+            
+query
+=
+"
+?
+"
++
+query
+        
 meta
 =
 "
@@ -316,6 +336,11 @@ path
 "
 :
 path
+"
+query
+"
+:
+query
 }
         
 wrap_pipeline
@@ -1285,6 +1310,11 @@ Worker
 path
 )
 s
+%
+(
+query
+)
+s
 "
 )
 )
@@ -1687,6 +1717,11 @@ SharedWorker
 path
 )
 s
+%
+(
+query
+)
+s
 "
 )
 )
@@ -1871,6 +1906,11 @@ register
 %
 (
 path
+)
+s
+%
+(
+query
 )
 s
 "
