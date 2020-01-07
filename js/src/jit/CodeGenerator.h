@@ -949,9 +949,9 @@ lir
 )
 ;
 void
-visitUnaryCache
+visitUnarySharedStub
 (
-LUnaryCache
+LUnarySharedStub
 *
 lir
 )

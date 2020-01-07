@@ -1564,6 +1564,14 @@ isBinarySharedStub
 lir
 -
 >
+isUnarySharedStub
+(
+)
+|
+|
+lir
+-
+>
 isNullarySharedStub
 (
 )

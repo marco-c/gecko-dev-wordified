@@ -42316,7 +42316,7 @@ TRIVIAL_NEW_WRAPPERS
 }
 ;
 class
-MUnaryCache
+MUnarySharedStub
 :
 public
 MUnaryInstruction
@@ -42330,7 +42330,7 @@ BoxPolicy
 Data
 {
 explicit
-MUnaryCache
+MUnarySharedStub
 (
 MDefinition
 *
@@ -42356,7 +42356,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-UnaryCache
+UnarySharedStub
 )
 TRIVIAL_NEW_WRAPPERS
 }

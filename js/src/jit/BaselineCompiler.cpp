@@ -11038,6 +11038,13 @@ Compiler
 stubCompiler
 (
 cx
+ICStubCompiler
+:
+:
+Engine
+:
+:
+Baseline
 )
 ;
 if
