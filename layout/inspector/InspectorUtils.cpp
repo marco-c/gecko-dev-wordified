@@ -5833,6 +5833,8 @@ aGlobalObject
 nsRange
 &
 aRange
+uint32_t
+aMaxRanges
 nsTArray
 <
 nsAutoPtr
@@ -5855,6 +5857,7 @@ aRange
 GetUsedFontFaces
 (
 aResult
+aMaxRanges
 )
 ;
 if

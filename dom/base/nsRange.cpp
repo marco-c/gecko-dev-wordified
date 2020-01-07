@@ -20866,6 +20866,8 @@ InspectorFontFace
 >
 &
 aResult
+uint32_t
+aMaxRanges
 )
 {
 NS_ENSURE_TRUE
@@ -21193,6 +21195,7 @@ Offset
 offset
 true
 fontFaces
+aMaxRanges
 )
 ;
 continue
@@ -21220,6 +21223,7 @@ Offset
 )
 true
 fontFaces
+aMaxRanges
 )
 ;
 continue
@@ -21233,6 +21237,7 @@ GetFontFacesForFrames
 (
 frame
 fontFaces
+aMaxRanges
 )
 ;
 }
