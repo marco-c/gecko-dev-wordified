@@ -2196,13 +2196,14 @@ AssertIsOnMainThread
 (
 )
 ;
-CopyASCIItoUTF16
+mEventType
+.
+AssignASCII
 (
 sEventStrings
 [
 STRING_loadstart
 ]
-mEventType
 )
 ;
 }
