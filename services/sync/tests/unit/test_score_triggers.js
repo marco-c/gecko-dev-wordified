@@ -529,6 +529,7 @@ resetScore
 (
 )
 ;
+await
 tracker
 .
 clearChangedIDs
@@ -635,6 +636,7 @@ promiseStopServer
 server
 )
 ;
+await
 tracker
 .
 clearChangedIDs
@@ -821,6 +823,7 @@ promiseStopServer
 server
 )
 ;
+await
 tracker
 .
 clearChangedIDs
@@ -1078,6 +1081,7 @@ promiseStopServer
 server
 )
 ;
+await
 tracker
 .
 clearChangedIDs

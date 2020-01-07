@@ -965,6 +965,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 let
@@ -1061,6 +1062,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 Assert
@@ -1360,6 +1362,7 @@ await
 uninstallAddon
 (
 addon
+reconciler
 )
 ;
 Svc
@@ -1658,6 +1661,7 @@ await
 uninstallAddon
 (
 addon
+reconciler
 )
 ;
 }
@@ -1713,6 +1717,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 Assert
@@ -1798,6 +1803,7 @@ await
 uninstallAddon
 (
 addon
+reconciler
 )
 ;
 }
@@ -1835,6 +1841,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 let
@@ -1910,6 +1917,7 @@ await
 uninstallAddon
 (
 addon
+reconciler
 )
 ;
 }
@@ -1950,6 +1958,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 let
@@ -2088,6 +2097,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 Assert
@@ -2293,6 +2303,7 @@ await
 uninstallAddon
 (
 addon
+reconciler
 )
 ;
 Assert
@@ -2703,6 +2714,7 @@ installAddon
 "
 test_install1
 "
+reconciler
 )
 ;
 let
@@ -2714,6 +2726,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 let
@@ -2725,6 +2738,7 @@ installAddon
 "
 test_install3
 "
+reconciler
 )
 ;
 _
@@ -2867,12 +2881,14 @@ await
 uninstallAddon
 (
 addon2
+reconciler
 )
 ;
 await
 uninstallAddon
 (
 addon3
+reconciler
 )
 ;
 }
@@ -2909,6 +2925,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 let
@@ -2971,6 +2988,7 @@ await
 uninstallAddon
 (
 newAddon
+reconciler
 )
 ;
 }
@@ -3020,6 +3038,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 let
@@ -3033,6 +3052,7 @@ await
 uninstallAddon
 (
 addon
+reconciler
 )
 ;
 let
@@ -3121,6 +3141,7 @@ await
 uninstallAddon
 (
 newAddon
+reconciler
 )
 ;
 await
@@ -3939,6 +3960,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 await
@@ -4039,6 +4061,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 let

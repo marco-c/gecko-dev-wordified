@@ -261,7 +261,7 @@ resource
 /
 formautofill
 /
-FormAutofillStorage
+ProfileStorage
 .
 jsm
 "
@@ -1369,9 +1369,7 @@ __proto__
 Tracker
 .
 prototype
-observe
-:
-function
+async
 observe
 (
 subject
@@ -1379,20 +1377,6 @@ topic
 data
 )
 {
-Tracker
-.
-prototype
-.
-observe
-.
-call
-(
-this
-subject
-topic
-data
-)
-;
 if
 (
 topic
@@ -1550,7 +1534,7 @@ value
 )
 {
 }
-startTracking
+onStart
 (
 )
 {
@@ -1571,7 +1555,7 @@ changed
 )
 ;
 }
-stopTracking
+onStop
 (
 )
 {
@@ -1610,7 +1594,7 @@ stored
 /
 /
 in
-FormAutofillStorage
+ProfileStorage
 persistChangedIDs
 :
 false
@@ -1920,7 +1904,7 @@ that
 we
 can
 update
-FormAutofillStorage
+ProfileStorage
 in
 trackRemainingChanges
 .
@@ -2028,7 +2012,7 @@ loader
 of
 /
 /
-FormAutofillStorage
+ProfileStorage
 in
 this
 case
