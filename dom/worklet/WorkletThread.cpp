@@ -595,8 +595,10 @@ aCx
 WorkletJSRuntime
 (
 )
-{
-}
+override
+=
+default
+;
 virtual
 void
 PrepareForForgetSkippable
@@ -716,6 +718,7 @@ nsCycleCollector_startup
 WorkletJSContext
 (
 )
+override
 {
 MOZ_ASSERT
 (
