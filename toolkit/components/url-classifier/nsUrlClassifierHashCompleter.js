@@ -3825,16 +3825,6 @@ callback
 :
 "
 +
-JSON
-.
-stringify
-(
-aCompleteHash
-)
-+
-"
-"
-+
 aTableNames
 +
 "
