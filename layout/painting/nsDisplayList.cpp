@@ -37976,6 +37976,8 @@ ActiveScrolledRoot
 aActiveScrolledRoot
 bool
 aClearClipChain
+uint32_t
+aIndex
 )
 :
 nsDisplayItem
@@ -37996,6 +37998,10 @@ CurrentActiveScrolledRoot
 mOverrideZIndex
 (
 0
+)
+mIndex
+(
+aIndex
 )
 mHasZIndexOverride
 (
@@ -38288,6 +38294,10 @@ aBuilder
 aFrame
 )
 mOverrideZIndex
+(
+0
+)
+mIndex
 (
 0
 )
