@@ -3979,7 +3979,7 @@ aIsSticky
 bool
 aIsLocked
 bool
-aFromFile
+aFromInit
 bool
 *
 aValueChanged
@@ -4088,7 +4088,7 @@ true
 if
 (
 !
-aFromFile
+aFromInit
 )
 {
 mHasChangedSinceInit
@@ -4164,7 +4164,7 @@ aType
 PrefValue
 aValue
 bool
-aFromFile
+aFromInit
 bool
 *
 aValueChanged
@@ -4246,6 +4246,8 @@ force
 -
 setting
 it
+during
+initialization
 .
 if
 (
@@ -4265,7 +4267,7 @@ mIsSticky
 &
 &
 !
-aFromFile
+aFromInit
 )
 {
 if
@@ -4363,7 +4365,7 @@ true
 if
 (
 !
-aFromFile
+aFromInit
 )
 {
 mHasChangedSinceInit
@@ -6897,7 +6899,7 @@ aIsSticky
 bool
 aIsLocked
 bool
-aFromFile
+aFromInit
 )
 {
 MOZ_ASSERT
@@ -7013,7 +7015,7 @@ aType
 aValue
 aIsSticky
 aIsLocked
-aFromFile
+aFromInit
 &
 valueChanged
 )
@@ -7045,7 +7047,7 @@ SetUserValue
 (
 aType
 aValue
-aFromFile
+aFromInit
 &
 valueChanged
 )
@@ -8052,7 +8054,7 @@ aIsSticky
 aIsLocked
 /
 *
-fromFile
+fromInit
 *
 /
 true
@@ -25391,7 +25393,7 @@ isLocked
 false
 /
 *
-fromFile
+fromInit
 *
 /
 false
@@ -25468,7 +25470,7 @@ isLocked
 false
 /
 *
-fromFile
+fromInit
 *
 /
 false
@@ -25545,7 +25547,7 @@ isLocked
 false
 /
 *
-fromFile
+fromInit
 *
 /
 false
