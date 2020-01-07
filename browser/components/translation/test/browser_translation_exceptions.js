@@ -513,8 +513,11 @@ function
 (
 )
 {
-resolve
+TestUtils
+.
+executeSoon
 (
+resolve
 )
 ;
 }
@@ -594,8 +597,11 @@ function
 (
 )
 {
-resolve
+TestUtils
+.
+executeSoon
 (
+resolve
 )
 ;
 }
