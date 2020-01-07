@@ -210,10 +210,6 @@ Now
 (
 )
 )
-mThreadId
-(
-aThreadId
-)
 mIsMainThread
 (
 aIsMainThread
@@ -229,6 +225,7 @@ RacyThreadInfo
 *
 >
 (
+aThreadId
 )
 )
 mPlatformData
@@ -1325,7 +1322,9 @@ aBuffer
 StreamSamplesToJSON
 (
 b
-mThreadId
+ThreadId
+(
+)
 /
 *
 aSinceTime
@@ -1377,7 +1376,9 @@ aBuffer
 StreamMarkersToJSON
 (
 b
-mThreadId
+ThreadId
+(
+)
 aProcessStartTime
 /
 *
