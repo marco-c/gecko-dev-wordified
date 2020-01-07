@@ -731,15 +731,6 @@ expectedCount
 )
 {
 let
-stack
-=
-Components
-.
-stack
-.
-caller
-;
-let
 coll
 =
 user
@@ -774,7 +765,6 @@ count
 )
 :
 0
-stack
 )
 ;
 }
