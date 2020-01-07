@@ -807,17 +807,6 @@ TimeStamp
 aCompositeTimestamp
 )
 {
-/
-/
-can
-be
-called
-from
-the
-compositor
-or
-vsync
-thread
 MonitorAutoLock
 lock
 (
