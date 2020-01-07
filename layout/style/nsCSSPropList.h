@@ -747,7 +747,10 @@ have
 the
 /
 /
-CSS_PROPERTY_INTERNAL
+CSSPropFlags
+:
+:
+Internal
 flag
 set
 .
