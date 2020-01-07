@@ -2292,7 +2292,6 @@ y
 *
 t
 ;
-kkkj
 }
 sampleDerivativeX
 :
