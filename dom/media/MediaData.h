@@ -3150,12 +3150,6 @@ mIV
 ;
 nsTArray
 <
-nsCString
->
-mSessionIds
-;
-nsTArray
-<
 nsTArray
 <
 uint8_t
