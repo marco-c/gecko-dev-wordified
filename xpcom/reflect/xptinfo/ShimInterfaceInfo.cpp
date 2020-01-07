@@ -569,13 +569,6 @@ h
 #
 include
 "
-nsIDOMXULDocument
-.
-h
-"
-#
-include
-"
 nsIDOMXULElement
 .
 h
@@ -2403,10 +2396,6 @@ XPathResult
 DEFINE_SHIM
 (
 XULCommandEvent
-)
-DEFINE_SHIM
-(
-XULDocument
 )
 DEFINE_SHIM
 (
