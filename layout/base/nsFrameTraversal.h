@@ -162,6 +162,8 @@ bool
 aFollowOOFs
 bool
 aSkipPopupChecks
+bool
+aSkipShadow
 )
 ;
 nsresult
