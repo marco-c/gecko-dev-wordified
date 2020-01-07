@@ -1308,6 +1308,14 @@ aOther
 mDelay
 &
 &
+mEndDelay
+=
+=
+aOther
+.
+mEndDelay
+&
+&
 mIterations
 =
 =
