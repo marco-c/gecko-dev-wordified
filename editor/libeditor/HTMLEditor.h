@@ -2504,6 +2504,7 @@ element
 nsresult
 DoInlineTableEditingAction
 (
+const
 Element
 &
 aUIAnonymousElement

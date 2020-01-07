@@ -682,6 +682,7 @@ HTMLEditor
 :
 DoInlineTableEditingAction
 (
+const
 Element
 &
 aElement
