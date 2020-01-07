@@ -2234,10 +2234,10 @@ case
 InlinableNative
 :
 :
-IntrinsicIsMapIterator
+IntrinsicGuardToMapIterator
 :
 return
-inlineHasClass
+inlineGuardToClass
 (
 callInfo
 &
