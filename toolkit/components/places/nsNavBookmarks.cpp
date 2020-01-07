@@ -956,15 +956,6 @@ aSource
 nsINavBookmarksService
 :
 :
-SOURCE_RESTORE
-|
-|
-aSource
-=
-=
-nsINavBookmarksService
-:
-:
 SOURCE_RESTORE_ON_STARTUP
 )
 {
