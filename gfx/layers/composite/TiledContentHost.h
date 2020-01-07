@@ -546,11 +546,11 @@ o
 .
 mTextureSourceOnWhite
 ;
-mTilePosition
+mTileCoord
 =
 o
 .
-mTilePosition
+mTileCoord
 ;
 }
 TileHost
@@ -602,11 +602,11 @@ o
 .
 mTextureSourceOnWhite
 ;
-mTilePosition
+mTileCoord
 =
 o
 .
-mTilePosition
+mTileCoord
 ;
 return
 *
@@ -874,7 +874,7 @@ lot
 easier
 .
 TileCoordIntPoint
-mTilePosition
+mTileCoord
 ;
 TimeStamp
 mFadeStart
