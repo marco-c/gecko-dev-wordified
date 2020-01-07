@@ -8386,6 +8386,11 @@ TimeStamp
 aReadyTime
 )
 ;
+void
+ClearCompositorAnimations
+(
+)
+;
 /
 *
 *
