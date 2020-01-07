@@ -78,7 +78,7 @@ path
 as
 mozpath
 from
-chrome_map
+manifest_handler
 import
 ChromeManifestHandler
 class
