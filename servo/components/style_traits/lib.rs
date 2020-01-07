@@ -1804,6 +1804,10 @@ intpreted
 as
 px
 .
+#
+[
+inline
+]
 pub
 fn
 allows_unitless_lengths
@@ -1837,6 +1841,10 @@ all
 numeric
 values
 .
+#
+[
+inline
+]
 pub
 fn
 allows_all_numeric_values
