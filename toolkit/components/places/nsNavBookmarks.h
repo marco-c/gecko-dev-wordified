@@ -351,9 +351,6 @@ ItemChangeData
 enum
 BookmarkDate
 {
-DATE_ADDED
-=
-0
 LAST_MODIFIED
 }
 ;
