@@ -327,13 +327,6 @@ h
 #
 include
 "
-nsSubstringTuple
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
