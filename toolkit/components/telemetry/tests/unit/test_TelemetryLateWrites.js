@@ -42,7 +42,7 @@ works
 .
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

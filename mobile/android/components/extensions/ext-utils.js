@@ -48,9 +48,9 @@ use
 strict
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -88,7 +88,7 @@ globals
 EventDispatcher
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -107,7 +107,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

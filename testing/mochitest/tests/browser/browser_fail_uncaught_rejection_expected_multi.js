@@ -18,7 +18,7 @@ is
 actually
 caught
 .
-ChromeUtils
+Cu
 .
 import
 (

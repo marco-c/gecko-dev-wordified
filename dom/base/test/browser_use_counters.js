@@ -38,7 +38,7 @@ requestLongerTimeout
 2
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -705,7 +705,7 @@ function
 arg
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -825,7 +825,7 @@ function
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -1230,7 +1230,7 @@ function
 opts
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -1705,7 +1705,7 @@ function
 opts
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -2188,7 +2188,7 @@ function
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

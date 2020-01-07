@@ -29,7 +29,9 @@ ctypes
 '
 object
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

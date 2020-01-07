@@ -9323,7 +9323,9 @@ kTeststr_version
 31
 ]
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -9345,7 +9347,9 @@ jsm
 let
 detectorModule
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

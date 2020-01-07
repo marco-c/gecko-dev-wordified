@@ -134,7 +134,7 @@ Services
 .
 startup
 ;
-ChromeUtils
+Cu
 .
 import
 (

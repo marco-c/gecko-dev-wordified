@@ -19,7 +19,7 @@ Cc
 and
 Ci
 variables
-ChromeUtils
+Cu
 .
 import
 (
@@ -38,7 +38,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

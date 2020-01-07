@@ -1533,7 +1533,7 @@ function
 args
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

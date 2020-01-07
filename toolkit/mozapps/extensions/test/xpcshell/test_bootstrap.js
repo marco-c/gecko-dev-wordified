@@ -107,7 +107,9 @@ used
 without
 restarts
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -241,7 +243,9 @@ userExtDir
 parent
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

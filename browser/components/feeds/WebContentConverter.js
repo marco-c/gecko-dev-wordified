@@ -81,7 +81,9 @@ MPL
 .
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -100,7 +102,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -119,9 +123,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

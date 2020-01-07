@@ -384,7 +384,7 @@ MAX_FIELD_VALUE_LENGTH
 =
 200
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -403,7 +403,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -2876,7 +2876,7 @@ log
 let
 ConsoleAPI
 =
-ChromeUtils
+Cu
 .
 import
 (

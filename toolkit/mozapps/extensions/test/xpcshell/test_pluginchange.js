@@ -44,7 +44,9 @@ var
 MockRegistrar
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

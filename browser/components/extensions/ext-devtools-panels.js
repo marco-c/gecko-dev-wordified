@@ -90,7 +90,7 @@ browser
 js
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -109,9 +109,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

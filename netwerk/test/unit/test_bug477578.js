@@ -6,7 +6,7 @@ methods
 are
 not
 normalized
-ChromeUtils
+Cu
 .
 import
 (

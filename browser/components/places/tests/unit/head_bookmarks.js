@@ -109,7 +109,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -128,7 +128,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -279,7 +279,7 @@ function
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -335,7 +335,7 @@ an
 app
 registered
 .
-ChromeUtils
+Cu
 .
 import
 (

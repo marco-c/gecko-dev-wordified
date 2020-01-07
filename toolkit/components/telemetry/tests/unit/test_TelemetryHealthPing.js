@@ -45,7 +45,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -65,7 +65,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -85,7 +85,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -105,7 +105,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -125,7 +125,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -145,7 +145,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -165,9 +165,9 @@ jsm
 this
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -274,7 +274,7 @@ clear
 let
 telemetryHealthPing
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -392,7 +392,7 @@ timeOut
 let
 telemetryHealthPing
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -1050,7 +1050,7 @@ notifyCanUpload
 let
 scheduler
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -1333,7 +1333,7 @@ finish
 let
 telemetryHealthPing
 =
-ChromeUtils
+Cu
 .
 import
 (

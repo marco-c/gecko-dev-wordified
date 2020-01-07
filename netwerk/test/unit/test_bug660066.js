@@ -23,7 +23,9 @@ level
 -
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -15,7 +15,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -34,7 +34,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

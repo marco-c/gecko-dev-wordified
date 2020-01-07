@@ -286,7 +286,9 @@ _register_modules_protocol_handler
 var
 _Promise
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -312,7 +314,9 @@ Promise
 var
 _PromiseTestUtils
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -338,7 +342,9 @@ PromiseTestUtils
 var
 _Task
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -364,7 +370,9 @@ Task
 let
 _NetUtil
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -414,7 +422,9 @@ jsm
 var
 AssertCls
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -555,7 +565,9 @@ n
 var
 _LoggerClass
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -2846,7 +2858,9 @@ try
 require
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3951,7 +3965,9 @@ string
 let
 _CoverageCollector
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -28,7 +28,9 @@ zero
 /
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -52,7 +54,9 @@ const
 Services
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -78,7 +82,9 @@ const
 L10nRegistry
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

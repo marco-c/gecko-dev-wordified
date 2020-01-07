@@ -189,7 +189,7 @@ fetch
 ]
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -208,7 +208,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -349,7 +349,7 @@ getGlobalForObject
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -8009,7 +8009,7 @@ global
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

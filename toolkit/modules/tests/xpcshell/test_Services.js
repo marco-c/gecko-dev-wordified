@@ -73,7 +73,7 @@ Components
 .
 results
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -92,7 +92,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -673,7 +673,7 @@ tmp
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -732,7 +732,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

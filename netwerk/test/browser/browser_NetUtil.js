@@ -27,7 +27,9 @@ zero
 /
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -80,7 +82,9 @@ only
 JS
 module
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

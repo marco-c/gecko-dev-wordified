@@ -9,9 +9,9 @@ globals
 browser
 *
 /
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -905,7 +905,7 @@ let
 ExtensionAPIs
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

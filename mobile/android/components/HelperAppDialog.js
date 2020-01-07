@@ -202,7 +202,7 @@ drawable
 alert_download
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (

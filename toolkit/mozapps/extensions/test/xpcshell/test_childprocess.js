@@ -138,7 +138,9 @@ PROCESS_TYPE_CONTENT
 ;
 try
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

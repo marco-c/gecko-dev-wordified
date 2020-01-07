@@ -74,7 +74,9 @@ BrowserLoaderModule
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -9,7 +9,7 @@ getRemoteHost
 /
 getRemotePort
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -28,7 +28,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

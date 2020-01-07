@@ -253,7 +253,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -277,7 +277,7 @@ const
 require
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

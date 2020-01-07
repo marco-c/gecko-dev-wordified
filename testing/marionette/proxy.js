@@ -61,7 +61,16 @@ use
 strict
 "
 ;
-ChromeUtils
+const
+{
+utils
+:
+Cu
+}
+=
+Components
+;
+Cu
 .
 import
 (
@@ -80,7 +89,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -99,7 +108,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -124,7 +133,7 @@ error
 WebDriverError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -145,7 +154,7 @@ js
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -164,7 +173,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -31,7 +31,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

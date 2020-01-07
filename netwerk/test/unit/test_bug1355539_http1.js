@@ -205,7 +205,7 @@ X
 -
 ID
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -224,7 +224,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

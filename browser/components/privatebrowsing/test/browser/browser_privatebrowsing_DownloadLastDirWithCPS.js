@@ -317,7 +317,7 @@ runTest
 let
 FileUtils
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -343,7 +343,7 @@ FileUtils
 let
 DownloadLastDir
 =
-ChromeUtils
+Cu
 .
 import
 (

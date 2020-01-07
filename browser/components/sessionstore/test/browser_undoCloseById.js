@@ -31,7 +31,7 @@ function
 .
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

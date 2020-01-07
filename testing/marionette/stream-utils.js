@@ -72,6 +72,9 @@ Cc
 interfaces
 :
 Ci
+utils
+:
+Cu
 results
 :
 Cr
@@ -79,7 +82,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -98,7 +101,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

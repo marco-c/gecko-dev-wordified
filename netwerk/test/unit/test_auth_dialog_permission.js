@@ -83,7 +83,7 @@ authentication
 as
 well
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -102,7 +102,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -19,7 +19,7 @@ in
 tests
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

@@ -11,7 +11,7 @@ protocol
 handler
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

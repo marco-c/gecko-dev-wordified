@@ -42,7 +42,7 @@ FxA
 push
 service
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -61,7 +61,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -880,7 +880,7 @@ let
 FxAccounts
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -1101,7 +1101,7 @@ let
 FxAccounts
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

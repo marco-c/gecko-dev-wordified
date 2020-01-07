@@ -81,7 +81,9 @@ MPL
 .
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -112,9 +114,9 @@ pageInfo
 js
 *
 /
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -135,9 +137,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

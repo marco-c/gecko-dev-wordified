@@ -34,7 +34,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -56,7 +56,7 @@ let
 MasterPassword
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

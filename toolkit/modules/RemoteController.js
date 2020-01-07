@@ -107,7 +107,7 @@ Components
 .
 results
 ;
-ChromeUtils
+Cu
 .
 import
 (

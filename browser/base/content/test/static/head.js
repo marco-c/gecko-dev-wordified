@@ -125,7 +125,7 @@ open
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -144,7 +144,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

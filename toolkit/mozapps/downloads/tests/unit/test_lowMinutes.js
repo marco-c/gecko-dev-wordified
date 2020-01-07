@@ -94,7 +94,9 @@ plenty
 .
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

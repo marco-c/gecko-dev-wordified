@@ -10,7 +10,7 @@ AddressResult
 CreditCardResult
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

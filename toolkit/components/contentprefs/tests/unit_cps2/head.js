@@ -74,7 +74,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -224,7 +224,7 @@ s
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (

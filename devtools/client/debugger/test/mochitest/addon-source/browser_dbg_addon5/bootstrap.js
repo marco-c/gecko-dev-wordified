@@ -46,7 +46,9 @@ aParams
 aReason
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -104,7 +106,9 @@ Load
 a
 JS
 module
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

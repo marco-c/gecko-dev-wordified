@@ -85,7 +85,7 @@ const
 AppConstants
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -111,7 +111,7 @@ const
 Services
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

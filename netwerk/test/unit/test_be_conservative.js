@@ -116,7 +116,7 @@ const
 Services
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -142,7 +142,7 @@ const
 NetUtil
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

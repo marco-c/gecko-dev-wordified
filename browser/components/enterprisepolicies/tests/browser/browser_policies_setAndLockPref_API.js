@@ -83,7 +83,7 @@ Policies
 setAndLockPref
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

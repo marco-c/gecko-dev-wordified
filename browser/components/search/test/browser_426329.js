@@ -12,9 +12,9 @@ arbitrary
 setTimeout
 *
 /
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

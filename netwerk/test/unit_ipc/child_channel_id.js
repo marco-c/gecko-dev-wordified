@@ -14,7 +14,7 @@ their
 channelId
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

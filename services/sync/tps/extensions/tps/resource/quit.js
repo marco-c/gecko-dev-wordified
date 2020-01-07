@@ -99,7 +99,9 @@ goQuitApplication
 "
 ]
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

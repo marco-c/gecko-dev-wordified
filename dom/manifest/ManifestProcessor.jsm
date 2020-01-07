@@ -311,7 +311,7 @@ auto
 ]
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -330,7 +330,7 @@ jsm
 '
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -371,7 +371,7 @@ to
 report
 errors
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -402,7 +402,7 @@ like
 icons
 and
 images
-ChromeUtils
+Cu
 .
 import
 (

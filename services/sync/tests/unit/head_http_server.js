@@ -66,7 +66,7 @@ HTTP
 server
 functions
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -85,7 +85,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -104,7 +104,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

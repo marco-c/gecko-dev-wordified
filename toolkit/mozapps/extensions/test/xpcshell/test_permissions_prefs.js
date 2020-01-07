@@ -156,7 +156,9 @@ clear_imported_preferences_cache
 let
 scope
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

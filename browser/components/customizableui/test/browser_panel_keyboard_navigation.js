@@ -23,7 +23,7 @@ const
 PanelView
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

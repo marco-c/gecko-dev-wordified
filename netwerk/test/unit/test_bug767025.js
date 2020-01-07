@@ -23,7 +23,7 @@ level
 -
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -164,7 +164,7 @@ activated
 .
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

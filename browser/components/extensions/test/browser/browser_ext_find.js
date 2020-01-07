@@ -144,7 +144,7 @@ scope
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (

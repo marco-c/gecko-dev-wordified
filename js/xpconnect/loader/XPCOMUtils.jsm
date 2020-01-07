@@ -2493,7 +2493,7 @@ temp
 ;
 try
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -3637,7 +3637,9 @@ URL
 ]
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -3854,9 +3856,9 @@ nsISupportsWeakReference
 ]
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

@@ -25,7 +25,7 @@ Components
 .
 Constructor
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -44,7 +44,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

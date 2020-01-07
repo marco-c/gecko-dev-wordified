@@ -39,7 +39,7 @@ head_global
 js
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

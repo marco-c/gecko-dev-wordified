@@ -67,7 +67,9 @@ GetBattery
 Debugging
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -88,7 +90,7 @@ jsm
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

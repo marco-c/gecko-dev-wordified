@@ -113,7 +113,7 @@ translation
 detectLanguage
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -542,7 +542,7 @@ this
 translationEngine
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (

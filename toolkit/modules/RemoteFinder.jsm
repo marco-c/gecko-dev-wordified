@@ -128,7 +128,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -147,7 +147,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -178,7 +178,7 @@ GetClipboardSearchString
 )
 =
 >
-ChromeUtils
+Cu
 .
 import
 (
@@ -214,7 +214,7 @@ Rect
 )
 =
 >
-ChromeUtils
+Cu
 .
 import
 (
@@ -1283,7 +1283,7 @@ let
 Finder
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

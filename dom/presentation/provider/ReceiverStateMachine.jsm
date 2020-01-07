@@ -166,7 +166,7 @@ State
 CommandType
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

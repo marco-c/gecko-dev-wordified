@@ -73,7 +73,9 @@ Include
 PlacesDBUtils
 module
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -319,7 +319,9 @@ function
 name
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

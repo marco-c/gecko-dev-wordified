@@ -61,7 +61,16 @@ use
 strict
 "
 ;
-ChromeUtils
+const
+{
+utils
+:
+Cu
+}
+=
+Components
+;
+Cu
 .
 import
 (
@@ -80,7 +89,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -99,7 +108,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -118,7 +127,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -147,7 +156,7 @@ UnexpectedAlertOpenError
 UnsupportedOperationError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -173,7 +182,7 @@ const
 pprint
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -212,7 +221,7 @@ const
 browser
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
