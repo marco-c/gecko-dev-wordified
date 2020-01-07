@@ -287,7 +287,7 @@ override
 ;
 virtual
 bool
-IsCurrent
+IsCurrentImpl
 (
 )
 const
