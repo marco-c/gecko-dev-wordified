@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsnspr_h
+util_NSPR_h
 #
 define
-jsnspr_h
+util_NSPR_h
 #
 ifdef
 JS_POSIX_NSPR
@@ -167,6 +167,6 @@ JS_POSIX_NSPR
 endif
 /
 *
-jsnspr_h
+util_NSPR_h
 *
 /

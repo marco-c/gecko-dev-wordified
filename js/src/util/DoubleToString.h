@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsdtoa_h
+util_DoubleToString_h
 #
 define
-jsdtoa_h
+util_DoubleToString_h
 /
 *
 *
@@ -1011,6 +1011,6 @@ d
 endif
 /
 *
-jsdtoa_h
+util_DoubleToString_h
 *
 /

@@ -128,7 +128,9 @@ WIN32
 #
 include
 "
-jswin
+util
+/
+Windows
 .
 h
 "

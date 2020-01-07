@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsnativestack_h
+util_NativeStack_h
 #
 define
-jsnativestack_h
+util_NativeStack_h
 #
 include
 "
@@ -189,6 +189,6 @@ js
 endif
 /
 *
-jsnativestack_h
+util_NativeStack_h
 *
 /

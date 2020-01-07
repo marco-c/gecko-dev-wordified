@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jswin_h
+util_Windows_h
 #
 define
-jswin_h
+util_Windows_h
 /
 *
 *
@@ -186,6 +186,6 @@ endif
 endif
 /
 *
-jswin_h
+util_Windows_h
 *
 /
