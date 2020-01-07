@@ -299,6 +299,9 @@ Console
 >
 GetConsole
 (
+JSContext
+*
+aCx
 ErrorResult
 &
 aRv

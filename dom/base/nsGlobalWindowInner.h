@@ -4037,6 +4037,9 @@ Console
 >
 GetConsole
 (
+JSContext
+*
+aCx
 mozilla
 :
 :

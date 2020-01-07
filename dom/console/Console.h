@@ -259,6 +259,9 @@ Console
 >
 Create
 (
+JSContext
+*
+aCx
 nsPIDOMWindowInner
 *
 aWindow
@@ -720,9 +723,11 @@ aHandler
 ;
 private
 :
-explicit
 Console
 (
+JSContext
+*
+aCx
 nsPIDOMWindowInner
 *
 aWindow

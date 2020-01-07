@@ -156,6 +156,9 @@ ConsoleInstance
 explicit
 ConsoleInstance
 (
+JSContext
+*
+aCx
 const
 ConsoleInstanceOptions
 &
