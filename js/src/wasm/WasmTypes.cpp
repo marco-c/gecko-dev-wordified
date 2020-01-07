@@ -4357,9 +4357,6 @@ TrapExit
 case
 Throw
 :
-case
-Interrupt
-:
 break
 ;
 default
