@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIDOMHTMLFormElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULElement
 .
 h

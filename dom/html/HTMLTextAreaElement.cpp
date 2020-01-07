@@ -274,13 +274,6 @@ h
 #
 include
 "
-nsIDOMHTMLFormElement
-.
-h
-"
-#
-include
-"
 nsIFormControlFrame
 .
 h
