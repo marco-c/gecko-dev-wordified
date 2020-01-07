@@ -1711,8 +1711,11 @@ DB
 *
 /
 nsresult
-CreateBookmarkRoots
+EnsureBookmarkRoots
 (
+const
+int32_t
+startPosition
 )
 ;
 /

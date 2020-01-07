@@ -1304,6 +1304,12 @@ InsertTombstones
 const
 nsTArray
 <
+mozilla
+:
+:
+places
+:
+:
 TombstoneData
 >
 &
