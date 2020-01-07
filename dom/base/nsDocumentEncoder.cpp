@@ -1509,7 +1509,7 @@ nsDocumentEncoder
 :
 SetSelection
 (
-nsISelection
+Selection
 *
 aSelection
 )
@@ -1517,11 +1517,6 @@ aSelection
 mSelection
 =
 aSelection
--
->
-AsSelection
-(
-)
 ;
 return
 NS_OK
@@ -6080,7 +6075,7 @@ nsDocumentEncoder
 NS_IMETHOD
 SetSelection
 (
-nsISelection
+Selection
 *
 aSelection
 )
@@ -6507,7 +6502,7 @@ nsHTMLCopyEncoder
 :
 SetSelection
 (
-nsISelection
+Selection
 *
 aSelection
 )
@@ -6562,21 +6557,10 @@ aSelection
 return
 NS_ERROR_NULL_POINTER
 ;
-Selection
-*
-selection
-=
-aSelection
--
->
-AsSelection
-(
-)
-;
 uint32_t
 rangeCount
 =
-selection
+aSelection
 -
 >
 RangeCount
@@ -6731,7 +6715,7 @@ nsRange
 >
 range
 =
-selection
+aSelection
 -
 >
 GetRangeAt
@@ -7258,7 +7242,7 @@ mIsTextWidget
 {
 mSelection
 =
-selection
+aSelection
 ;
 mMimeType
 .
@@ -7346,7 +7330,7 @@ true
 ;
 mSelection
 =
-selection
+aSelection
 ;
 /
 /
@@ -7438,7 +7422,7 @@ rangeIdx
 {
 range
 =
-selection
+aSelection
 -
 >
 GetRangeAt

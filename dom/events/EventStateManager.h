@@ -274,6 +274,9 @@ class
 Element
 ;
 class
+Selection
+;
+class
 TabParent
 ;
 }
@@ -6091,7 +6094,10 @@ dom
 DataTransfer
 *
 aDataTransfer
-nsISelection
+dom
+:
+:
+Selection
 *
 *
 aSelection

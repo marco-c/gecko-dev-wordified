@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 nsWidgetsCID
 .
 h
@@ -620,7 +613,7 @@ static
 nsresult
 SelectionCopyHelper
 (
-nsISelection
+Selection
 *
 aSel
 nsIDocument
@@ -1930,7 +1923,7 @@ nsCopySupport
 :
 HTMLCopy
 (
-nsISelection
+Selection
 *
 aSel
 nsIDocument
@@ -2021,7 +2014,7 @@ nsCopySupport
 :
 GetTransferableForSelection
 (
-nsISelection
+Selection
 *
 aSel
 nsIDocument
@@ -2099,9 +2092,9 @@ here
 XXX
 bug
 1245883
-nsCOMPtr
+RefPtr
 <
-nsISelection
+Selection
 >
 selection
 =
@@ -2238,7 +2231,7 @@ nsACString
 aMimeType
 uint32_t
 aFlags
-nsISelection
+Selection
 *
 aSel
 nsIDocument

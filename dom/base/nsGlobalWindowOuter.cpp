@@ -37050,7 +37050,7 @@ nullptr
 }
 already_AddRefed
 <
-nsISelection
+Selection
 >
 nsGlobalWindowOuter
 :
@@ -37059,9 +37059,9 @@ GetSelection
 (
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsISelection
+Selection
 >
 selection
 =
