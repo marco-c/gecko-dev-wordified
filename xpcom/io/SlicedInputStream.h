@@ -374,15 +374,6 @@ nsIInputStream
 aInputStream
 )
 ;
-nsresult
-RunAsyncWaitCallback
-(
-const
-MutexAutoLock
-&
-aProofOfLock
-)
-;
 nsCOMPtr
 <
 nsIInputStream
