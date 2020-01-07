@@ -4280,7 +4280,7 @@ nothing
 ;
 #
 ifdef
-ENABLE_WASM_THREAD_OPS
+ENABLE_WASM_SIGNEXTEND_OPS
 case
 uint16_t
 (

@@ -3042,7 +3042,7 @@ i64
 ;
 if
 (
-wasmThreadsSupported
+wasmSignExtensionSupported
 (
 )
 )

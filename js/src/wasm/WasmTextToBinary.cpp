@@ -7861,7 +7861,7 @@ cur_
 ;
 #
 ifdef
-ENABLE_WASM_THREAD_OPS
+ENABLE_WASM_SIGNEXTEND_OPS
 if
 (
 consume
@@ -10260,7 +10260,7 @@ cur_
 ;
 #
 ifdef
-ENABLE_WASM_THREAD_OPS
+ENABLE_WASM_SIGNEXTEND_OPS
 if
 (
 consume
