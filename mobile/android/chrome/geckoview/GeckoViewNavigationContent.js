@@ -221,6 +221,11 @@ aMsg
 )
 ;
 }
+/
+/
+Implements
+nsILoadURIDelegate
+.
 class
 GeckoViewNavigationContent
 extends
