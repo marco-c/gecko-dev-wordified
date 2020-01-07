@@ -5584,16 +5584,10 @@ is_in_compositor_thread
 let
 scroll_id
 =
-ScrollNodeIdType
-:
-:
-from
-(
 ExternalScrollId
 (
 scroll_id
 pipeline_id
-)
 )
 ;
 txn
