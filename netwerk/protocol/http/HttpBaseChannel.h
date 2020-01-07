@@ -2714,6 +2714,11 @@ GetPerformanceStorage
 (
 )
 ;
+void
+MaybeReportTimingData
+(
+)
+;
 nsIURI
 *
 GetReferringPage

@@ -210,6 +210,15 @@ timedChannel
 )
 override
 ;
+void
+CreateDocumentEntry
+(
+nsITimedChannel
+*
+aChannel
+)
+override
+;
 TimeStamp
 CreationTimeStamp
 (
