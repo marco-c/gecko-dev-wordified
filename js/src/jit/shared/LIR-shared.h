@@ -4668,7 +4668,6 @@ i
 ]
 ;
 }
-virtual
 void
 setSuccessor
 (
@@ -4678,8 +4677,6 @@ MBasicBlock
 *
 successor
 )
-final
-override
 {
 successors_
 [
