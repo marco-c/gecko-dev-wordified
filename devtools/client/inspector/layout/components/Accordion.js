@@ -261,7 +261,6 @@ this
 handleHeaderClick
 (
 i
-event
 )
 {
 const
@@ -303,12 +302,6 @@ items
 [
 i
 ]
-;
-event
-.
-stopPropagation
-(
-)
 ;
 opened
 [
@@ -465,7 +458,6 @@ _header
 onClick
 :
 (
-event
 )
 =
 >
@@ -474,7 +466,6 @@ this
 handleHeaderClick
 (
 i
-event
 )
 }
 span
