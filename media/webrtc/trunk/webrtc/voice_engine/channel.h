@@ -1694,6 +1694,8 @@ enable
 unsigned
 char
 id
+bool
+isLevelSsrc
 )
 ;
 int
