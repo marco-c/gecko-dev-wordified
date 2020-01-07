@@ -2642,9 +2642,11 @@ Assert
 .
 ok
 (
-lastModified4
->
+is_time_ordered
+(
 lastModified3
+lastModified4
+)
 )
 ;
 Assert
