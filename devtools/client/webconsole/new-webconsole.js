@@ -1752,6 +1752,14 @@ dispatchSidebarClose
 (
 )
 ;
+this
+.
+jsterm
+.
+focus
+(
+)
+;
 }
 }
 )
