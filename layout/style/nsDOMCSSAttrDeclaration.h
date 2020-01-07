@@ -153,6 +153,9 @@ namespace
 dom
 {
 class
+DomGroup
+;
+class
 Element
 ;
 }
@@ -280,6 +283,12 @@ GetParentObject
 override
 ;
 virtual
+mozilla
+:
+:
+dom
+:
+:
 DocGroup
 *
 GetDocGroup
