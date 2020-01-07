@@ -972,7 +972,7 @@ nullptr
 /
 /
 Move
-visible
+active
 tabs
 to
 the
@@ -982,7 +982,7 @@ the
 queue
 .
 The
-mAvoidVisibleTabCount
+mAvoidActiveTabCount
 field
 /
 /
@@ -993,7 +993,7 @@ preferentially
 processing
 events
 from
-visible
+active
 tabs
 twice
 in
@@ -1015,12 +1015,12 @@ if
 TabChild
 :
 :
-HasVisibleTabs
+HasActiveTabs
 (
 )
 &
 &
-mAvoidVisibleTabCount
+mAvoidActiveTabCount
 <
 =
 0
@@ -1034,7 +1034,7 @@ iter
 TabChild
 :
 :
-GetVisibleTabs
+GetActiveTabs
 (
 )
 .
@@ -1100,7 +1100,7 @@ continue
 /
 For
 each
-visible
+active
 tab
 we
 move
@@ -1120,7 +1120,7 @@ two
 SchedulerGroups
 (
 the
-visible
+active
 tab
 and
 another
@@ -1135,11 +1135,11 @@ group
 before
 we
 prioritize
-visible
+active
 tabs
 again
 .
-mAvoidVisibleTabCount
+mAvoidActiveTabCount
 +
 =
 2
@@ -1219,7 +1219,7 @@ firstGroup
 ;
 do
 {
-mAvoidVisibleTabCount
+mAvoidActiveTabCount
 -
 -
 ;
