@@ -210,6 +210,12 @@ mozilla
 :
 image
 ;
+using
+mozilla
+:
+:
+Move
+;
 /
 /
 The
@@ -2266,6 +2272,9 @@ aLoadingDocument
 {
 RefPtr
 <
+mozilla
+:
+:
 dom
 :
 :
