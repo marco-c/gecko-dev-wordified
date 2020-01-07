@@ -1761,6 +1761,15 @@ null
 ]
 [
 "
+Gecko_NewShapeImage
+"
+"
+aShape
+"
+null
+]
+[
+"
 Gecko_nsFont_InitSystem
 "
 "
