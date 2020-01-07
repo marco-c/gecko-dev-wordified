@@ -2854,6 +2854,12 @@ server_cls
 =
 None
     
+implements
+=
+[
+ConnectionlessBaseProtocolPart
+]
+    
 def
 __init__
 (
