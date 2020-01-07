@@ -186,13 +186,6 @@ h
 #
 include
 "
-nsIDOMClassInfo
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
