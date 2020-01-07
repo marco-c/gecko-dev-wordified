@@ -138,10 +138,6 @@ autoconf213
 '
             
 '
-mercurial
-'
-            
-'
 nodejs
 '
             

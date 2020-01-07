@@ -142,10 +142,6 @@ gtar
 '
             
 '
-mercurial
-'
-            
-'
 npm
 '
             
