@@ -675,6 +675,15 @@ AutoObjectVector
 promises
 )
 ;
+enum
+class
+CreateDependentPromise
+{
+Always
+SkipIfCtorUnobservable
+Never
+}
+;
 /
 *
 *
@@ -792,7 +801,7 @@ HandleValue
 onRejected
 MutableHandleObject
 dependent
-bool
+CreateDependentPromise
 createDependent
 )
 ;
