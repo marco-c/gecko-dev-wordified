@@ -612,9 +612,6 @@ Operation
 aOperation
 nsIContent
 *
-aContainer
-nsIContent
-*
 aChild
 )
 ;
