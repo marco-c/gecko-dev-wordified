@@ -215,7 +215,7 @@ h
 /
 /
 for
-NS_PRECONDITION
+NS_ASSERTION
 etc
 .
 #
