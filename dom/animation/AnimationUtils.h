@@ -250,6 +250,10 @@ Value
 ToMilliseconds
 (
 )
+TimerPrecisionType
+:
+:
+RFPOnly
 )
 )
 ;
