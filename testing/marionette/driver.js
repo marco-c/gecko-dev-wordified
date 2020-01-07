@@ -15109,8 +15109,6 @@ getActiveElement
 async
 function
 (
-cmd
-resp
 )
 {
 assert
@@ -15139,13 +15137,7 @@ _assertAndDismissModal
 (
 )
 ;
-resp
-.
-body
-.
-value
-=
-await
+return
 this
 .
 listener
