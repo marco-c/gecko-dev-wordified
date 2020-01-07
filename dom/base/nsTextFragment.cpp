@@ -2335,6 +2335,16 @@ bool
 aForce2b
 )
 {
+if
+(
+!
+aLength
+)
+{
+return
+true
+;
+}
 /
 /
 This
