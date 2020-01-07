@@ -1021,7 +1021,7 @@ void
 ProfiledThreadData
 :
 :
-FlushSamplesAndMarkers
+NotifyAboutToLoseJSContext
 (
 JSContext
 *
@@ -1626,6 +1626,12 @@ Move
 (
 uniqueStacks
 )
+)
+;
+mBufferPositionWhenReceivedJSContext
+=
+Nothing
+(
 )
 ;
 /
