@@ -394,10 +394,6 @@ runtimeFromAnyThread
 (
 )
 )
-isSelfHosting
-(
-false
-)
 performanceMonitoring
 (
 runtime_
@@ -416,10 +412,6 @@ globalWriteBarriered
 detachedTypedObjects
 (
 0
-)
-selfHostingScriptSource
-(
-nullptr
 )
 objectMetadataTable
 (
@@ -5197,7 +5189,7 @@ nullptr
 ;
 }
 void
-JSCompartment
+Realm
 :
 :
 sweepSelfHostingScriptSource

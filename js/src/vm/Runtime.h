@@ -3823,15 +3823,6 @@ selfHostingGlobal_
 ;
 }
 bool
-isSelfHostingCompartment
-(
-JSCompartment
-*
-comp
-)
-const
-;
-bool
 isSelfHostingZone
 (
 const
