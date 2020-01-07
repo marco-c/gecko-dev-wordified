@@ -4259,6 +4259,12 @@ InitAcceleration
 (
 )
 ;
+virtual
+void
+InitWebRenderConfig
+(
+)
+;
 /
 *
 *
@@ -4944,11 +4950,6 @@ InitCompositorAccelerationPrefs
 ;
 void
 InitGPUProcessPrefs
-(
-)
-;
-void
-InitWebRenderConfig
 (
 )
 ;
