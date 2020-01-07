@@ -3594,7 +3594,9 @@ of
 aLeftNode
 .
 *
-return
+param
+aNewFirstChildOfRightNode
+*
 The
 point
 at
@@ -3606,7 +3608,8 @@ aRightNode
 .
 *
 /
-EditorDOMPoint
+MOZ_MUST_USE
+nsresult
 JoinNearestEditableNodesWithTransaction
 (
 nsIContent
@@ -3615,6 +3618,9 @@ aLeftNode
 nsIContent
 &
 aRightNode
+EditorDOMPoint
+*
+aNewFirstChildOfRightNode
 )
 ;
 Element
