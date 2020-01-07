@@ -1048,6 +1048,8 @@ in
 values
 if
 not
+any
+(
 [
 isinstance
 (
@@ -1059,6 +1061,7 @@ j
 in
 types
 ]
+)
 ]
 :
             
