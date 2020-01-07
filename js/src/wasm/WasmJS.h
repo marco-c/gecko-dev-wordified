@@ -1296,9 +1296,6 @@ HandleWasmMemoryObject
 memory
 uint32_t
 delta
-JSContext
-*
-cx
 )
 ;
 using

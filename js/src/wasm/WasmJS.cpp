@@ -9565,9 +9565,6 @@ HandleWasmMemoryObject
 memory
 uint32_t
 delta
-JSContext
-*
-cx
 )
 {
 SharedArrayRawBuffer
@@ -9758,7 +9755,6 @@ growShared
 (
 memory
 delta
-cx
 )
 ;
 RootedArrayBufferObject
@@ -13591,10 +13587,6 @@ cx
 Module
 &
 module
-const
-CompileArgs
-&
-compileArgs
 Handle
 <
 PromiseObject
@@ -13979,8 +13971,6 @@ Resolve
 cx
 *
 module
-*
-compileArgs
 promise
 instantiate
 importObj
@@ -15398,7 +15388,7 @@ streamError_
 =
 Some
 (
-JSMSG_OUT_OF_MEMORY
+errorNumber
 )
 ;
 streamFailed_
@@ -16216,8 +16206,6 @@ Resolve
 cx
 *
 module_
-*
-compileArgs_
 promise
 instantiate_
 importObj_

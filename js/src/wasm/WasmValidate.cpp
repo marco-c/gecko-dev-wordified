@@ -12671,9 +12671,6 @@ DecodeModuleNameSubsection
 Decoder
 &
 d
-ModuleEnvironment
-*
-env
 )
 {
 Maybe
@@ -13165,7 +13162,6 @@ if
 DecodeModuleNameSubsection
 (
 d
-env
 )
 )
 goto

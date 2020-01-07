@@ -416,9 +416,6 @@ const
 Sig
 &
 sig
-JSContext
-*
-cx
 )
 ;
 void

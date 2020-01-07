@@ -2943,15 +2943,13 @@ skipSpaces
 ;
 public
 :
+explicit
 WasmTokenStream
 (
 const
 char16_t
 *
 text
-UniqueChars
-*
-error
 )
 :
 cur_
@@ -12432,7 +12430,6 @@ error
 ts
 (
 text
-error
 )
 lifo
 (
@@ -12699,8 +12696,6 @@ c
 AstExprVector
 *
 exprs
-bool
-inParens
 )
 {
 for
@@ -13137,7 +13132,6 @@ ParseExprList
 c
 &
 exprs
-inParens
 )
 )
 return
@@ -16996,7 +16990,6 @@ ParseExprList
 c
 &
 thenExprs
-inParens
 )
 )
 return
@@ -17121,7 +17114,6 @@ ParseExprList
 c
 &
 elseExprs
-inParens
 )
 )
 return
@@ -19111,8 +19103,6 @@ ParseBranchTable
 WasmParseContext
 &
 c
-WasmToken
-brTable
 bool
 inParens
 )
@@ -19577,7 +19567,6 @@ return
 ParseBranchTable
 (
 c
-token
 inParens
 )
 ;
@@ -21259,7 +21248,6 @@ ParseExprList
 c
 &
 body
-true
 )
 )
 return
@@ -21907,8 +21895,6 @@ ParseMemory
 WasmParseContext
 &
 c
-WasmToken
-token
 AstModule
 *
 module
@@ -25264,7 +25250,6 @@ if
 ParseMemory
 (
 c
-section
 module
 )
 )

@@ -7078,9 +7078,6 @@ const
 Sig
 &
 sig
-JSContext
-*
-cx
 )
 {
 MOZ_ASSERT
