@@ -11798,10 +11798,11 @@ getStringOrTemplateToken
 (
 char
 untilChar
-Token
+Modifier
+modifier
+TokenKind
 *
-*
-tp
+out
 )
 ;
 /
