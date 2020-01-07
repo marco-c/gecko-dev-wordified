@@ -688,6 +688,12 @@ wr
 PipelineId
 &
 aPipelineId
+wr
+:
+:
+TransactionBuilder
+&
+aTxn
 )
 {
 if
@@ -741,9 +747,8 @@ mAsyncImageEpoch
 Update
 webrender
 epoch
-mApi
--
->
+aTxn
+.
 ClearDisplayList
 (
 wr
@@ -784,9 +789,8 @@ key
 )
 ;
 }
-mApi
--
->
+aTxn
+.
 UpdateResources
 (
 resources
