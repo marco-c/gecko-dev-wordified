@@ -24398,6 +24398,9 @@ entry
 if
 (
 mLoadInfo
+&
+&
+mLoadInfo
 -
 >
 GetExternalContentPolicyType
