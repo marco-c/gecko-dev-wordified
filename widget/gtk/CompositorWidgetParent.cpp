@@ -144,11 +144,11 @@ CompositorOptions
 aOptions
 )
 :
-X11CompositorWidget
+GtkCompositorWidget
 (
 aInitData
 .
-get_X11CompositorWidgetInitData
+get_GtkCompositorWidgetInitData
 (
 )
 aOptions

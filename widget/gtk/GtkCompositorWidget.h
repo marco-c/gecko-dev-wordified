@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-widget_gtk_X11CompositorWidget_h
+widget_gtk_GtkCompositorWidget_h
 #
 define
-widget_gtk_X11CompositorWidget_h
+widget_gtk_GtkCompositorWidget_h
 #
 include
 "
@@ -167,10 +167,10 @@ this
 }
 ;
 class
-X11CompositorWidgetInitData
+GtkCompositorWidgetInitData
 ;
 class
-X11CompositorWidget
+GtkCompositorWidget
 :
 public
 CompositorWidget
@@ -179,10 +179,10 @@ PlatformCompositorWidgetDelegate
 {
 public
 :
-X11CompositorWidget
+GtkCompositorWidget
 (
 const
-X11CompositorWidgetInitData
+GtkCompositorWidgetInitData
 &
 aInitData
 const
@@ -200,7 +200,7 @@ nullptr
 )
 ;
 ~
-X11CompositorWidget
+GtkCompositorWidget
 (
 )
 ;
@@ -281,7 +281,7 @@ RealWidget
 )
 override
 ;
-X11CompositorWidget
+GtkCompositorWidget
 *
 AsX11
 (
@@ -375,4 +375,4 @@ mozilla
 endif
 /
 /
-widget_gtk_X11CompositorWidget_h
+widget_gtk_GtkCompositorWidget_h

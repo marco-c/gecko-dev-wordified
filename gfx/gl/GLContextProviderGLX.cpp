@@ -208,7 +208,7 @@ mozilla
 /
 widget
 /
-X11CompositorWidget
+GtkCompositorWidget
 .
 h
 "
@@ -4301,7 +4301,7 @@ bool
 aForceAccelerated
 )
 {
-X11CompositorWidget
+GtkCompositorWidget
 *
 compWidget
 =

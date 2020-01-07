@@ -182,7 +182,7 @@ class
 WinCompositorWidget
 ;
 class
-X11CompositorWidget
+GtkCompositorWidget
 ;
 class
 AndroidCompositorWidget
@@ -1445,7 +1445,7 @@ nullptr
 ;
 }
 virtual
-X11CompositorWidget
+GtkCompositorWidget
 *
 AsX11
 (
