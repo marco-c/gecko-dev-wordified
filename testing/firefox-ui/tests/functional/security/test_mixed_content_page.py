@@ -152,6 +152,21 @@ try
             
 self
 .
+marionette
+.
+clear_pref
+(
+'
+security
+.
+mixed_content
+.
+upgrade_display_content
+'
+)
+            
+self
+.
 identity_popup
 .
 close
