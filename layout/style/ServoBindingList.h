@@ -927,6 +927,13 @@ Servo_AuthorStyles_Create
 RawServoAuthorStyles
 *
 )
+SERVO_BINDING_FUNC
+(
+Servo_AuthorStyles_Drop
+void
+RawServoAuthorStylesOwned
+self
+)
 /
 /
 TODO
