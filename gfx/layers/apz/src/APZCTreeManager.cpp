@@ -1270,7 +1270,7 @@ get
 )
 )
 ;
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeManager
@@ -1968,7 +1968,7 @@ AssertOnCompositorThread
 (
 )
 ;
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -2432,7 +2432,7 @@ n
 ;
 mTreeLock
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -3420,7 +3420,7 @@ AssertOnCompositorThread
 (
 )
 ;
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -5388,7 +5388,7 @@ aState
 {
 mTreeLock
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -8054,7 +8054,7 @@ ScreenPoint
 scrollOffset
 ;
 {
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -8408,7 +8408,7 @@ then
 /
 scope
 lock
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -12649,7 +12649,7 @@ LayerToParentLayerMatrix4x4
 thumbTransform
 ;
 {
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -13450,7 +13450,7 @@ ZoomConstraints
 aConstraints
 )
 {
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -14055,16 +14055,10 @@ therefore
 equal
 )
 .
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
-)
-;
-mTreeLock
-.
-AssertCurrentThreadOwns
-(
 )
 ;
 ForEachNode
@@ -14171,7 +14165,7 @@ ScreenPoint
 aShift
 )
 {
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -14268,7 +14262,7 @@ Clear
 )
 )
 ;
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -14468,7 +14462,7 @@ GetRootNode
 )
 const
 {
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -15780,7 +15774,7 @@ ScrollableLayerGuid
 aGuid
 )
 {
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -15903,7 +15897,7 @@ ViewID
 aScrollId
 )
 {
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -15998,7 +15992,7 @@ const
 {
 mTreeLock
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -16126,7 +16120,7 @@ HitTestingTreeNode
 aOutScrollbarNode
 )
 {
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -16851,7 +16845,7 @@ the
 APZC
 tree
 .
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -17485,7 +17479,7 @@ AsyncDragMetrics
 aDragMetrics
 )
 {
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -17738,7 +17732,7 @@ aOutScrollbarNode
 {
 mTreeLock
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -18482,7 +18476,7 @@ const
 {
 mTreeLock
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -18572,7 +18566,7 @@ const
 {
 mTreeLock
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -18660,7 +18654,7 @@ const
 {
 mTreeLock
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -19781,7 +19775,7 @@ const
 Matrix4x4
 result
 ;
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -20220,7 +20214,7 @@ const
 Matrix4x4
 result
 ;
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -20539,7 +20533,7 @@ aApzc2
 )
 const
 {
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mTreeLock
@@ -20763,7 +20757,7 @@ const
 {
 mTreeLock
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -21055,7 +21049,7 @@ const
 {
 mTreeLock
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
