@@ -1879,6 +1879,14 @@ mInner
 -
 >
 mDragging
+&
+&
+aBuilder
+-
+>
+IsForEventDelivery
+(
+)
 )
 {
 /
