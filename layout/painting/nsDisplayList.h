@@ -34085,6 +34085,15 @@ return
 false
 ;
 }
+bool
+ShouldHandleOpacity
+(
+)
+{
+return
+mHandleOpacity
+;
+}
 gfxRect
 BBoxInUserSpace
 (
