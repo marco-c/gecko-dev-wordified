@@ -27988,6 +27988,11 @@ MakeScopeExit
 >
 nsresult
 {
+if
+(
+mProfLD
+)
+{
 nsCOMPtr
 <
 nsIFile
@@ -28011,6 +28016,7 @@ Remove
 false
 )
 ;
+}
 return
 NS_OK
 ;
