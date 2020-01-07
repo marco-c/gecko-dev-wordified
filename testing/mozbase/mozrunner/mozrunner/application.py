@@ -84,6 +84,8 @@ import
     
 Profile
     
+ChromeProfile
+    
 FirefoxProfile
     
 ThunderbirdProfile
@@ -828,30 +830,6 @@ object
 profile_class
 =
 ThunderbirdProfile
-class
-ChromeProfile
-(
-object
-)
-:
-    
-"
-"
-"
-Dummy
-profile
-class
-until
-a
-proper
-one
-is
-implemented
-in
-mozprofile
-"
-"
-"
 class
 ChromeContext
 (
