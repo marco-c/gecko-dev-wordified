@@ -259,6 +259,10 @@ adb
 options
 .
 adbPath
+or
+'
+adb
+'
                                  
 device
 =

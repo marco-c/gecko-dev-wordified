@@ -7571,9 +7571,7 @@ adbPath
 default
 "
 :
-"
-adb
-"
+None
           
 "
 help
