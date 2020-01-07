@@ -473,9 +473,6 @@ input
 void
 reset
 (
-JSContext
-*
-cx
 JSString
 *
 newInput

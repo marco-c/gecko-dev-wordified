@@ -4199,9 +4199,6 @@ clasp_
 inline
 StackBaseShape
 (
-JSContext
-*
-cx
 const
 Class
 *

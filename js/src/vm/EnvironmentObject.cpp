@@ -16968,9 +16968,6 @@ DebugEnvironments
 :
 sweep
 (
-JSRuntime
-*
-rt
 )
 {
 /

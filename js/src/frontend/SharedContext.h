@@ -2566,9 +2566,6 @@ FunctionBox
 JSContext
 *
 cx
-LifoAlloc
-&
-alloc
 ObjectBox
 *
 traceListHead
