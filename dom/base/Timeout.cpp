@@ -205,6 +205,16 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mScriptHandler
 )
+if
+(
+tmp
+-
+>
+isInList
+(
+)
+)
+{
 tmp
 -
 >
@@ -212,6 +222,7 @@ remove
 (
 )
 ;
+}
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
