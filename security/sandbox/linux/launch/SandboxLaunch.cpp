@@ -1526,6 +1526,10 @@ level
 4
 )
 {
+canChroot
+=
+true
+;
 /
 /
 Unshare
