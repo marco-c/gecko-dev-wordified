@@ -546,7 +546,9 @@ UndoTransaction
 (
 )
 {
-return
+ErrorResult
+rv
+;
 mTextNode
 -
 >
@@ -558,6 +560,14 @@ mStringToInsert
 Length
 (
 )
+rv
+)
+;
+return
+rv
+.
+StealNSResult
+(
 )
 ;
 }
