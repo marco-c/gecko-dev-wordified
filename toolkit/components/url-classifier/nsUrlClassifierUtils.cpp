@@ -3160,11 +3160,9 @@ uri
 ;
 rv
 =
-aChannel
--
->
-GetURI
+NS_GetFinalChannelURI
 (
+aChannel
 getter_AddRefs
 (
 uri
@@ -3858,7 +3856,8 @@ Set
 top
 level
 tab_url
-threatshource
+threat
+source
 rv
 =
 AddThreatSourceFromChannel
@@ -3883,7 +3882,8 @@ rv
 /
 Set
 tab_redirect
-threatshources
+threat
+sources
 if
 there
 '
