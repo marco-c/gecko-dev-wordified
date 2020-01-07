@@ -18365,7 +18365,7 @@ typedef
 double
 (
 *
-Prototype_DoubleInt
+Prototype_Double_DoubleInt
 )
 (
 double
@@ -20057,12 +20057,12 @@ dval1
 ival
 )
 ;
-Prototype_DoubleInt
+Prototype_Double_DoubleInt
 target
 =
 reinterpret_cast
 <
-Prototype_DoubleInt
+Prototype_Double_DoubleInt
 >
 (
 external
