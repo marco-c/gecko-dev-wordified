@@ -601,7 +601,7 @@ iter
 =
 prefixMap
 .
-Iter
+ConstIter
 (
 )
 ;
@@ -653,7 +653,7 @@ length
 prefix
 string
 from
-ProtcolParser
+ProtocolParser
 should
 /
 /
@@ -664,8 +664,8 @@ expected
 prefix
 string
 .
-auto
-&
+nsCString
+*
 prefix
 =
 iter
@@ -673,16 +673,12 @@ iter
 Data
 (
 )
--
->
-GetPrefixString
-(
-)
 ;
 ASSERT_TRUE
 (
 prefix
-.
+-
+>
 Equals
 (
 nsCString
