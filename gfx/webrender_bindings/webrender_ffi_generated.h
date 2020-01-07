@@ -6064,6 +6064,13 @@ aBytes
 WR_FUNC
 ;
 WR_INLINE
+uintptr_t
+wr_root_scroll_node_id
+(
+)
+WR_FUNC
+;
+WR_INLINE
 void
 wr_set_item_tag
 (
