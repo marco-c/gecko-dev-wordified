@@ -205,14 +205,14 @@ GeckoViewContentSettings
 extends
 GeckoViewContentModule
 {
-init
+onInit
 (
 )
 {
 debug
 (
 "
-init
+onInit
 "
 )
 ;

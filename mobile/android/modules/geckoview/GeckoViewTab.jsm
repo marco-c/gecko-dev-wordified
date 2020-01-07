@@ -186,7 +186,7 @@ GeckoViewTab
 extends
 GeckoViewModule
 {
-init
+onInit
 (
 )
 {

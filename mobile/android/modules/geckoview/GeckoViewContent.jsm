@@ -173,7 +173,7 @@ GeckoViewContent
 extends
 GeckoViewModule
 {
-init
+onInit
 (
 )
 {
@@ -194,7 +194,7 @@ SetActive
 )
 ;
 }
-register
+onEnable
 (
 )
 {
@@ -463,7 +463,7 @@ break
 ;
 }
 }
-unregister
+onDisable
 (
 )
 {
