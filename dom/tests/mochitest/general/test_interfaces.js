@@ -3360,6 +3360,9 @@ DeviceLightEvent
 insecureContext
 :
 true
+release
+:
+true
 }
 /
 /
@@ -3436,6 +3439,9 @@ name
 DeviceProximityEvent
 "
 insecureContext
+:
+true
+release
 :
 true
 }
@@ -14815,6 +14821,9 @@ name
 UserProximityEvent
 "
 insecureContext
+:
+true
+release
 :
 true
 }
