@@ -3267,6 +3267,9 @@ None
 T
 =
 None
+cls
+=
+None
 )
 :
         
@@ -3423,6 +3426,16 @@ T
 T
 #
 Type
+or
+None
+        
+self
+.
+cls
+=
+cls
+#
+Class
 or
 None
         
