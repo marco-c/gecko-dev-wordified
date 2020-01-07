@@ -119,6 +119,15 @@ UPDATE_ELEMENT_PICKER_ENABLED
 /
 /
 Update
+highlighted
+node
+.
+"
+UPDATE_HIGHLIGHTED_NODE
+"
+/
+/
+Update
 selected
 animation
 .
