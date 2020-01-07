@@ -2305,6 +2305,16 @@ assert_variant_ligatures_matches
 (
 )
 ;
+specified
+:
+:
+box_
+:
+:
+assert_touch_action_matches
+(
+)
+;
 /
 /
 Initialize

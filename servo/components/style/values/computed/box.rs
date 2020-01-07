@@ -144,6 +144,7 @@ box_
 :
 {
 ScrollSnapType
+TouchAction
 WillChange
 }
 ;
