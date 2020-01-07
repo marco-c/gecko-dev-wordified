@@ -469,6 +469,12 @@ exceptionAdded
 false
 ;
 }
+window
+.
+sizeToContent
+(
+)
+;
 }
 /
 *
@@ -1034,6 +1040,12 @@ status3LongDescription
 "
 "
 "
+)
+;
+window
+.
+sizeToContent
+(
 )
 ;
 }
