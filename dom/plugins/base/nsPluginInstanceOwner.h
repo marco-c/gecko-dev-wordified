@@ -1420,6 +1420,13 @@ bool
 aCommitted
 )
 ;
+bool
+EnableIME
+(
+bool
+aEnable
+)
+;
 /
 /
 See
