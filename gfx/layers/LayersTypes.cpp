@@ -156,6 +156,8 @@ const
 nsIntRegion
 &
 aVerticalPanRegion
+bool
+aDTCRequiresTargetConfirmation
 )
 {
 mHitRegion
@@ -258,6 +260,10 @@ OrWith
 (
 aMaybeHitRegion
 )
+;
+mDTCRequiresTargetConfirmation
+=
+aDTCRequiresTargetConfirmation
 ;
 }
 }

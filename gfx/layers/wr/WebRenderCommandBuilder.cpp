@@ -1537,6 +1537,13 @@ ScaleToOutsidePixels
 0f
 auPerDevPixel
 )
+/
+*
+mDTCRequiresTargetConfirmation
+=
+*
+/
+false
 )
 ;
 eventRegions
