@@ -2311,7 +2311,7 @@ context
 :
 windowTracker
 .
-topWindow
+topNormalWindow
 ;
 if
 (
