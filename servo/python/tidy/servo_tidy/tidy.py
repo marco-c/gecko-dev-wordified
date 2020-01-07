@@ -282,6 +282,16 @@ False
 "
 check
 -
+alphabetical
+-
+order
+"
+:
+True
+    
+"
+check
+-
 ordered
 -
 json
@@ -4367,6 +4377,19 @@ prev_indent
 =
 0
     
+check_alphabetical_order
+=
+config
+[
+"
+check
+-
+alphabetical
+-
+order
+"
+]
+    
 decl_message
 =
 "
@@ -6745,6 +6768,8 @@ indent
 ]
 >
 crate_name
+and
+check_alphabetical_order
 :
                 
 yield
@@ -6911,6 +6936,8 @@ sorted_features
 !
 =
 features
+and
+check_alphabetical_order
 :
                     
 yield
@@ -6958,6 +6985,8 @@ sorted_features
 [
 0
 ]
+and
+check_alphabetical_order
 :
                     
 yield
@@ -7234,6 +7263,8 @@ and
 current_use_cut
 <
 prev_use_cut
+and
+check_alphabetical_order
 :
                     
 yield
@@ -7505,6 +7536,8 @@ prev_mod
 [
 indent
 ]
+and
+check_alphabetical_order
 :
                     
 yield
@@ -7662,6 +7695,8 @@ sorted_derives
 !
 =
 derives
+and
+check_alphabetical_order
 :
                     
 yield
