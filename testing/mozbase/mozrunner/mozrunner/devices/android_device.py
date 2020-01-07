@@ -732,11 +732,6 @@ kernel
 ranchu
 '
                         
-#
-does
-not
-boot
-if
 '
 -
 engine
@@ -848,23 +843,18 @@ ranchu
                         
 '
 -
-selinux
-'
-'
-permissive
-'
-                        
-#
-does
-not
-boot
-if
-'
--
 engine
 '
 '
 qemu2
+'
+                        
+'
+-
+selinux
+'
+'
+permissive
 '
                         
 '
@@ -4721,6 +4711,9 @@ outputHandler
 env
 =
 env
+ignore_children
+=
+True
 )
         
 self
