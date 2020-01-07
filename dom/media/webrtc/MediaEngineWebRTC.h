@@ -2826,7 +2826,7 @@ aMode
 )
 ;
 void
-SetLastPrefs
+ApplySettings
 (
 const
 MediaEnginePrefs
