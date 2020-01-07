@@ -76,7 +76,10 @@ attribute
 changes
 .
 use
+{
 Atom
+WeakAtom
+}
 ;
 use
 context
@@ -330,7 +333,7 @@ Option
 &
 '
 a
-Atom
+WeakAtom
 >
 added_id
 :
@@ -339,7 +342,7 @@ Option
 &
 '
 a
-Atom
+WeakAtom
 >
 classes_removed
 :
@@ -1384,7 +1387,7 @@ current_id
 =
 element
 .
-get_id
+id
 (
 )
 ;
@@ -1585,17 +1588,9 @@ c
 removed_id
 :
 id_removed
-.
-as_ref
-(
-)
 added_id
 :
 id_added
-.
-as_ref
-(
-)
 classes_removed
 :
 &

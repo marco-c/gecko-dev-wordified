@@ -423,7 +423,7 @@ self
 bool
 ;
 fn
-get_local_name
+local_name
 (
 &
 self
@@ -452,7 +452,7 @@ for
 no
 namespace
 fn
-get_namespace
+namespace
 (
 &
 self

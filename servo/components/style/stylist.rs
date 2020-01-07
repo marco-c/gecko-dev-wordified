@@ -67,6 +67,7 @@ use
 Atom
 LocalName
 Namespace
+WeakAtom
 }
 ;
 use
@@ -8187,7 +8188,7 @@ self
 id
 :
 &
-Atom
+WeakAtom
 element
 :
 E

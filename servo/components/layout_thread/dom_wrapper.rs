@@ -2534,25 +2534,16 @@ local_name
 ;
 if
 let
-&
 Some
 (
-ref
 id
 )
 =
-unsafe
-{
-&
-*
 self
 .
-element
-.
-id_attribute
+id
 (
 )
-}
 {
 write
 !
@@ -2763,7 +2754,7 @@ borrow_arc
 }
 }
 fn
-get_state
+state
 (
 &
 self
@@ -2819,7 +2810,7 @@ is_some
 inline
 ]
 fn
-get_id
+id
 (
 &
 self
@@ -2828,6 +2819,7 @@ self
 >
 Option
 <
+&
 Atom
 >
 {
@@ -2844,7 +2836,7 @@ id_attribute
 )
 )
 .
-clone
+as_ref
 (
 )
 }
@@ -4968,7 +4960,7 @@ true
 inline
 ]
 fn
-get_local_name
+local_name
 (
 &
 self
@@ -4991,7 +4983,7 @@ local_name
 inline
 ]
 fn
-get_namespace
+namespace
 (
 &
 self
@@ -5588,7 +5580,7 @@ is_html_element
 &
 self
 .
-get_local_name
+local_name
 (
 )
 =
@@ -7122,7 +7114,7 @@ as_element
 if
 element
 .
-get_local_name
+local_name
 (
 )
 =
@@ -7139,7 +7131,7 @@ summary
 &
 element
 .
-get_namespace
+namespace
 (
 )
 =
@@ -7243,7 +7235,7 @@ unwrap
 (
 )
 .
-get_local_name
+local_name
 (
 )
 =
@@ -7268,7 +7260,7 @@ unwrap
 (
 )
 .
-get_namespace
+namespace
 (
 )
 =
@@ -8222,7 +8214,7 @@ true
 inline
 ]
 fn
-get_local_name
+local_name
 (
 &
 self
@@ -8236,7 +8228,7 @@ self
 .
 element
 .
-get_local_name
+local_name
 (
 )
 }
@@ -8245,7 +8237,7 @@ get_local_name
 inline
 ]
 fn
-get_namespace
+namespace
 (
 &
 self
@@ -8259,7 +8251,7 @@ self
 .
 element
 .
-get_namespace
+namespace
 (
 )
 }

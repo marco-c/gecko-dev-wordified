@@ -1016,7 +1016,7 @@ element_id
 =
 element
 .
-get_id
+id
 (
 )
 ;
@@ -1025,7 +1025,7 @@ candidate_id
 =
 candidate
 .
-get_id
+id
 (
 )
 ;
@@ -1055,7 +1055,6 @@ element_id
 {
 Some
 (
-ref
 id
 )
 =
@@ -1085,7 +1084,6 @@ candidate_id
 {
 Some
 (
-ref
 id
 )
 =

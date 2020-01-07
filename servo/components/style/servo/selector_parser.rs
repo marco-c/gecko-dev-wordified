@@ -4758,6 +4758,7 @@ self
 >
 Option
 <
+&
 Atom
 >
 {
@@ -4788,10 +4789,6 @@ v
 v
 .
 as_atom
-(
-)
-.
-clone
 (
 )
 )
