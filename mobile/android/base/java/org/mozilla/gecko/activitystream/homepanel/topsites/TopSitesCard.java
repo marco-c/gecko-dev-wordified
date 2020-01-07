@@ -483,6 +483,7 @@ onClick
 (
 topSite
 absolutePosition
+card
 faviconView
 .
 getWidth

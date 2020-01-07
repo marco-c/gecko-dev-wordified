@@ -351,6 +351,11 @@ final
 TextView
 pageSourceView
 ;
+private
+final
+ImageView
+menuButton
+;
 public
 WebpageItemRow
 (
@@ -447,8 +452,6 @@ id
 page_source_icon
 )
 ;
-final
-ImageView
 menuButton
 =
 (
@@ -1251,6 +1254,16 @@ VIEW_TAG_ID
 )
 ;
 }
+}
+public
+View
+getTabletContextMenuAnchor
+(
+)
+{
+return
+menuButton
+;
 }
 public
 interface

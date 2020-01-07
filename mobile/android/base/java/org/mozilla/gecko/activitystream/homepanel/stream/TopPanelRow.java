@@ -755,6 +755,8 @@ TopSite
 topSite
 int
 absolutePosition
+View
+tabletContextMenuAnchor
 int
 faviconWidth
 int
