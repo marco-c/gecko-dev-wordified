@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h
