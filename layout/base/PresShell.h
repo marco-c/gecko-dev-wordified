@@ -3615,9 +3615,12 @@ onscreen
 void
 GetCurrentItemAndPositionForElement
 (
-nsIDOMElement
+dom
+:
+:
+Element
 *
-aCurrentEl
+aFocusedElement
 nsIContent
 *
 *
