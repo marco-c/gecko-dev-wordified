@@ -2383,6 +2383,11 @@ WasmCall
 \
 _
 (
+WasmCallVoid
+)
+\
+_
+(
 WasmCallI64
 )
 \
