@@ -7638,8 +7638,8 @@ lock
 cx
 )
 ;
-AutoAtomsCompartment
-ac
+AutoAtomsRealm
+ar
 (
 cx
 lock

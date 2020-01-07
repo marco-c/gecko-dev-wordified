@@ -386,8 +386,8 @@ Symbol
 sym
 ;
 {
-AutoAtomsCompartment
-ac
+AutoAtomsRealm
+ar
 (
 cx
 lock
@@ -518,8 +518,8 @@ Symbol
 sym
 ;
 {
-AutoAtomsCompartment
-ac
+AutoAtomsRealm
+ar
 (
 cx
 lock

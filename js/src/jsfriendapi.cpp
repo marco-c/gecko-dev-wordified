@@ -4849,7 +4849,7 @@ could
 use
 Maybe
 <
-AutoCompartment
+AutoRealm
 >
 here
 but
@@ -4892,8 +4892,8 @@ isObject
 )
 )
 {
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 &

@@ -11095,8 +11095,8 @@ toObject
 )
 )
 ;
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 context
 (
@@ -17153,7 +17153,7 @@ we
 use
 Maybe
 <
-AutoCompartment
+AutoRealm
 >
 here
 G
@@ -17198,8 +17198,8 @@ isObject
 )
 )
 {
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 &

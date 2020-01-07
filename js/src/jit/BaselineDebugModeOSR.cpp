@@ -6079,8 +6079,8 @@ i
 .
 script
 ;
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 script
@@ -7088,8 +7088,8 @@ lock
 cx
 )
 ;
-AutoAtomsCompartment
-ac
+AutoAtomsRealm
+ar
 (
 cx
 lock

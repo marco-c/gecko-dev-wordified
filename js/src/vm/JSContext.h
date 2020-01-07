@@ -219,7 +219,7 @@ namespace
 js
 {
 class
-AutoCompartment
+AutoRealm
 ;
 namespace
 jit
@@ -1295,7 +1295,7 @@ code
 should
 prefer
 using
-AutoCompartment
+AutoRealm
 over
 *
 manually
@@ -1423,7 +1423,7 @@ class
 js
 :
 :
-AutoCompartment
+AutoRealm
 ;
 public
 :
@@ -1674,7 +1674,7 @@ of
 the
 /
 /
-AutoCompartment
+AutoRealm
 from
 which
 it

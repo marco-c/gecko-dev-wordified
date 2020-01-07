@@ -19690,8 +19690,8 @@ JSCLASS_GLOBAL_FLAGS
 shgClassOps
 }
 ;
-AutoCompartmentUnchecked
-ac
+AutoRealmUnchecked
+ar
 (
 cx
 compartment

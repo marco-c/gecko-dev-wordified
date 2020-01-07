@@ -9904,8 +9904,8 @@ activation
 s
 compartment
 .
-AutoCompartmentUnchecked
-ac
+AutoRealmUnchecked
+ar
 (
 cx
 compartment_

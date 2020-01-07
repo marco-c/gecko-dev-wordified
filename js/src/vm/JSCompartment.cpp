@@ -7717,8 +7717,8 @@ JSContext
 cx
 )
 {
-AutoCompartmentUnchecked
-ac
+AutoRealmUnchecked
+ar
 (
 cx
 this
