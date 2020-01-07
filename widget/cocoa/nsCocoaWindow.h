@@ -1140,13 +1140,6 @@ mBackgroundColor
 /
 /
 strong
-NSView
-*
-mTitlebarView
-;
-/
-/
-strong
 NSRect
 mWindowButtonsRect
 ;
