@@ -2578,9 +2578,9 @@ RefPtr
 <
 Element
 >
-newBRElement
+newBrElement
 =
-CreateBRImpl
+InsertBrElementWithTransaction
 (
 *
 selection
@@ -2589,7 +2589,6 @@ EditorRawDOMPoint
 parentNode
 0
 )
-eNone
 )
 ;
 if
@@ -2597,7 +2596,7 @@ if
 NS_WARN_IF
 (
 !
-newBRElement
+newBrElement
 )
 )
 {
