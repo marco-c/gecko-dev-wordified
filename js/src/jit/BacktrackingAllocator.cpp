@@ -9513,6 +9513,11 @@ ins
 )
 -
 >
+toInstruction
+(
+)
+-
+>
 getOperand
 (
 reg
