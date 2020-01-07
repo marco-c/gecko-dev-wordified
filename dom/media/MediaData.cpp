@@ -721,6 +721,16 @@ aPlane
 mStride
 >
 0
+&
+&
+aPlane
+.
+mWidth
+<
+=
+aPlane
+.
+mStride
 ;
 }
 static
