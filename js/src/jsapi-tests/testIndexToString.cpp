@@ -121,7 +121,9 @@ h
 #
 include
 "
-jsstr
+builtin
+/
+String
 .
 h
 "
@@ -159,7 +161,7 @@ include
 "
 vm
 /
-String
+StringType
 -
 inl
 .

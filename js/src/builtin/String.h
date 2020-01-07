@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsstr_h
+builtin_String_h
 #
 define
-jsstr_h
+builtin_String_h
 #
 include
 "
@@ -190,9 +190,9 @@ h
 #
 include
 "
-vm
+util
 /
-Printer
+Unicode
 .
 h
 "
@@ -201,7 +201,7 @@ include
 "
 vm
 /
-Unicode
+Printer
 .
 h
 "
@@ -3280,6 +3280,6 @@ js
 endif
 /
 *
-jsstr_h
+builtin_String_h
 *
 /

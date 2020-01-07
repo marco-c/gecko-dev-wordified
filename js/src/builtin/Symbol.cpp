@@ -113,14 +113,14 @@ include
 "
 builtin
 /
-SymbolObject
+Symbol
 .
 h
 "
 #
 include
 "
-vm
+util
 /
 StringBuffer
 .
@@ -131,7 +131,7 @@ include
 "
 vm
 /
-Symbol
+SymbolType
 .
 h
 "

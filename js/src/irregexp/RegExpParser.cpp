@@ -405,9 +405,9 @@ h
 #
 include
 "
-vm
+util
 /
-ErrorReporting
+StringBuffer
 .
 h
 "
@@ -416,7 +416,7 @@ include
 "
 vm
 /
-StringBuffer
+ErrorReporting
 .
 h
 "

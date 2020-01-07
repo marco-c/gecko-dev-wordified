@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-vm_Symbol_h
+vm_SymbolType_h
 #
 define
-vm_Symbol_h
+vm_SymbolType_h
 #
 include
 "
@@ -214,7 +214,7 @@ include
 "
 vm
 /
-String
+StringType
 .
 h
 "
@@ -1051,6 +1051,6 @@ js
 endif
 /
 *
-vm_Symbol_h
+vm_SymbolType_h
 *
 /

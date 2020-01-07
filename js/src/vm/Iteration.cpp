@@ -365,7 +365,7 @@ include
 "
 vm
 /
-String
+StringType
 -
 inl
 .

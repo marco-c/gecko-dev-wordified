@@ -110,16 +110,16 @@ MPL
 /
 #
 ifndef
-vm_String_inl_h
+vm_StringType_inl_h
 #
 define
-vm_String_inl_h
+vm_StringType_inl_h
 #
 include
 "
 vm
 /
-String
+StringType
 .
 h
 "
@@ -2969,6 +2969,6 @@ rawTwoByteChars
 endif
 /
 *
-vm_String_inl_h
+vm_StringType_inl_h
 *
 /

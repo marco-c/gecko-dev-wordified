@@ -161,7 +161,9 @@ algorithm
 #
 include
 "
-jsstr
+builtin
+/
+String
 .
 h
 "
@@ -296,7 +298,7 @@ include
 "
 vm
 /
-String
+StringType
 .
 h
 "
@@ -305,7 +307,7 @@ include
 "
 vm
 /
-Symbol
+SymbolType
 .
 h
 "
