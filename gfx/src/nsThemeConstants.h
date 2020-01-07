@@ -532,14 +532,6 @@ NS_THEME_TOOLTIP
 /
 /
 A
-inner
--
-spin
-control
-NS_THEME_INNER_SPIN_BUTTON
-/
-/
-A
 spin
 control
 (
