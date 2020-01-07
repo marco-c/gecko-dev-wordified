@@ -225,7 +225,12 @@ ServiceWorkerRegistrationListPromise
 >
 GetRegistrations
 (
+const
+ClientInfo
+&
+aClientInfo
 )
+const
 =
 0
 ;
