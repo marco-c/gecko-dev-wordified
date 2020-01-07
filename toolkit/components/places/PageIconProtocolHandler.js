@@ -865,6 +865,9 @@ generateQI
 Ci
 .
 nsIProtocolHandler
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 }
