@@ -266,3 +266,15 @@ weight
 unset
 ;
 }
+.
+dialog
+-
+button
+-
+box
+{
+padding
+:
+0
+;
+}
