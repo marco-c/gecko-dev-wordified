@@ -6572,7 +6572,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -7259,7 +7259,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -7807,7 +7807,7 @@ context
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -8086,7 +8086,7 @@ function
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -8186,7 +8186,7 @@ function
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -8235,7 +8235,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -8343,7 +8343,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -8512,7 +8512,7 @@ context
 ;
 assert
 .
-contentBrowser
+open
 (
 this
 .
@@ -8790,7 +8790,7 @@ context
 ;
 assert
 .
-contentBrowser
+open
 (
 this
 .
@@ -9065,7 +9065,7 @@ context
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -9489,7 +9489,7 @@ function
 {
 assert
 .
-contentBrowser
+open
 (
 this
 .
@@ -9719,7 +9719,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -9962,7 +9962,7 @@ function
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -10219,7 +10219,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -11480,7 +11480,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -11656,7 +11656,7 @@ function
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -11795,7 +11795,7 @@ cmd
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -13025,7 +13025,7 @@ cmd
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -13232,7 +13232,7 @@ context
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -13357,7 +13357,7 @@ context
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -13493,7 +13493,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -13730,7 +13730,7 @@ context
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -13869,7 +13869,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -14144,7 +14144,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -14481,7 +14481,7 @@ context
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -14625,7 +14625,7 @@ cmd
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -15014,7 +15014,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -15299,7 +15299,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -15567,7 +15567,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -15844,7 +15844,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -16085,7 +16085,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -16359,7 +16359,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -16629,7 +16629,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -16884,7 +16884,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -17102,7 +17102,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -17383,7 +17383,7 @@ cmd
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -17618,7 +17618,7 @@ cmd
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -17854,7 +17854,7 @@ context
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -18041,7 +18041,7 @@ context
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -18242,7 +18242,7 @@ context
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -18366,7 +18366,7 @@ context
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -18492,7 +18492,7 @@ context
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -18702,7 +18702,7 @@ function
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -18951,7 +18951,7 @@ firefox
 ;
 assert
 .
-window
+open
 (
 this
 .
@@ -19688,7 +19688,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -20012,7 +20012,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -20143,7 +20143,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -20393,7 +20393,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -20617,7 +20617,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -21197,7 +21197,7 @@ win
 =
 assert
 .
-window
+open
 (
 this
 .
@@ -21336,7 +21336,7 @@ function
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -21419,7 +21419,7 @@ function
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -21503,7 +21503,7 @@ resp
 {
 assert
 .
-window
+open
 (
 this
 .
@@ -21695,7 +21695,7 @@ cmd
 {
 assert
 .
-window
+open
 (
 this
 .
