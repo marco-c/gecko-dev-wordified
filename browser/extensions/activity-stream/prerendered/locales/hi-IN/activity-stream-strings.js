@@ -6,6 +6,9 @@ this
 is
 a
 generated
+hi
+-
+IN
 file
 .
 window

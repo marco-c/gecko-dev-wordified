@@ -6,6 +6,9 @@ this
 is
 a
 generated
+gu
+-
+IN
 file
 .
 window

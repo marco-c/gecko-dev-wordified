@@ -420,11 +420,6 @@ highlights
 :
 true
 "
-enableWideLayout
-"
-:
-true
-"
 sectionOrder
 "
 :
@@ -535,9 +530,6 @@ showSearch
 "
 "
 topSitesRows
-"
-"
-enableWideLayout
 "
 "
 sectionOrder

@@ -6,6 +6,9 @@ this
 is
 a
 generated
+ne
+-
+NP
 file
 .
 window

@@ -6,6 +6,7 @@ this
 is
 a
 generated
+kn
 file
 .
 window

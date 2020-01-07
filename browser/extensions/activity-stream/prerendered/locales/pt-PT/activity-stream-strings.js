@@ -6,6 +6,9 @@ this
 is
 a
 generated
+pt
+-
+PT
 file
 .
 window

@@ -6,6 +6,9 @@ this
 is
 a
 generated
+zh
+-
+CN
 file
 .
 window

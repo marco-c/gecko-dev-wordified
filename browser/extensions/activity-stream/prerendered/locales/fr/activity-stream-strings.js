@@ -6,6 +6,7 @@ this
 is
 a
 generated
+fr
 file
 .
 window
@@ -94,7 +95,6 @@ type_label_bookmarked
 :
 "
 Ajout
-e
 aux
 marque
 -

@@ -338,6 +338,15 @@ defineModuleGetter
 )
 {
 }
+generateQI
+(
+)
+{
+return
+{
+}
+;
+}
 import
 (
 )

@@ -6,6 +6,9 @@ this
 is
 a
 generated
+nb
+-
+NO
 file
 .
 window

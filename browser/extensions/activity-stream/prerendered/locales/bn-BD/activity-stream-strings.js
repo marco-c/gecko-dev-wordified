@@ -6,6 +6,9 @@ this
 is
 a
 generated
+bn
+-
+BD
 file
 .
 window

@@ -6,6 +6,9 @@ this
 is
 a
 generated
+hy
+-
+AM
 file
 .
 window

@@ -6,6 +6,7 @@ this
 is
 a
 generated
+static
 file
 .
 window
@@ -114,11 +115,6 @@ feeds
 section
 .
 highlights
-"
-:
-true
-"
-enableWideLayout
 "
 :
 true
