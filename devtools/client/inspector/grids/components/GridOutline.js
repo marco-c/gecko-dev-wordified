@@ -1499,12 +1499,12 @@ rectangles
 let
 x
 =
-1
+0
 ;
 let
 y
 =
-1
+0
 ;
 let
 width
@@ -1646,7 +1646,7 @@ width
 }
 x
 =
-1
+0
 ;
 y
 +
@@ -2076,10 +2076,10 @@ border
 "
 x
 :
-1
+0
 y
 :
-1
+0
 width
 :
 borderWidth
