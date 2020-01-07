@@ -88240,6 +88240,11 @@ charCode
 =
 =
 0
+|
+|
+this
+.
+composing
 )
 {
 return
@@ -93735,7 +93740,7 @@ version
 "
 5
 .
-36
+37
 .
 0
 "
