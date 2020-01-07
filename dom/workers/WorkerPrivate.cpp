@@ -7113,7 +7113,7 @@ nsresult
 WorkerPrivate
 :
 :
-DispatchPrivate
+Dispatch
 (
 already_AddRefed
 <
@@ -26635,7 +26635,7 @@ rv
 mWorkerPrivate
 -
 >
-DispatchPrivate
+Dispatch
 (
 workerRunnable
 .
