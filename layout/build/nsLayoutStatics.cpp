@@ -873,6 +873,13 @@ h
 #
 include
 "
+DecoderDoctorLogger
+.
+h
+"
+#
+include
+"
 MediaDecoder
 .
 h
@@ -1577,6 +1584,13 @@ AsyncLatencyLogger
 :
 :
 InitializeStatics
+(
+)
+;
+DecoderDoctorLogger
+:
+:
+Init
 (
 )
 ;
