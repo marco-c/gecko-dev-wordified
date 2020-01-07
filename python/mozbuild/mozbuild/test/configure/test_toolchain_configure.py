@@ -11138,16 +11138,6 @@ nrelease
 2
 .
 0
-\
-nhost
-:
-x86_64
--
-unknown
--
-linux
--
-gnu
 '
 '
 '
