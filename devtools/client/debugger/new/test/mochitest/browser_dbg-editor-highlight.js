@@ -403,12 +403,7 @@ simple1
 id
 )
 .
-get
-(
-"
 text
-"
-)
 )
 ;
 assertHighlightLocation
