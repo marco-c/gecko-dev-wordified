@@ -520,7 +520,7 @@ c
 }
 protected
 :
-UINT16
+HBUINT16
 firstGlyph
 ;
 /
@@ -535,7 +535,7 @@ range
 /
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 classes
 ;
@@ -596,12 +596,12 @@ r
 (
 this
 +
-leftClassTable
+rightClassTable
 )
 .
 get_class
 (
-left
+right
 )
 ;
 unsigned
@@ -785,7 +785,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 rowWidth
 ;
 /
@@ -1696,7 +1696,7 @@ COVERAGE_CHECK_HORIZONTAL
 ;
 protected
 :
-UINT16
+HBUINT16
 versionZ
 ;
 /
@@ -1705,7 +1705,7 @@ Unused
 .
 *
 /
-UINT16
+HBUINT16
 length
 ;
 /
@@ -1722,7 +1722,7 @@ header
 .
 *
 /
-UINT8
+HBUINT8
 format
 ;
 /
@@ -1732,7 +1732,7 @@ format
 .
 *
 /
-UINT8
+HBUINT8
 coverage
 ;
 /
@@ -1763,7 +1763,7 @@ DEFINE_SIZE_MIN
 ;
 protected
 :
-UINT16
+HBUINT16
 version
 ;
 /
@@ -1774,7 +1774,7 @@ Version
 0x0000u
 *
 /
-UINT16
+HBUINT16
 nTables
 ;
 /
@@ -1789,7 +1789,7 @@ table
 .
 *
 /
-UINT8
+HBUINT8
 data
 [
 VAR
@@ -1874,7 +1874,7 @@ COVERAGE_CHECK_HORIZONTAL
 ;
 protected
 :
-UINT32
+HBUINT32
 length
 ;
 /
@@ -1891,7 +1891,7 @@ header
 .
 *
 /
-UINT8
+HBUINT8
 coverage
 ;
 /
@@ -1901,7 +1901,7 @@ bits
 .
 *
 /
-UINT8
+HBUINT8
 format
 ;
 /
@@ -1911,7 +1911,7 @@ format
 .
 *
 /
-UINT16
+HBUINT16
 tupleIndex
 ;
 /
@@ -1959,7 +1959,7 @@ DEFINE_SIZE_MIN
 ;
 protected
 :
-UINT32
+HBUINT32
 version
 ;
 /
@@ -1970,7 +1970,7 @@ Version
 0x00010000u
 *
 /
-UINT32
+HBUINT32
 nTables
 ;
 /
@@ -1985,7 +1985,7 @@ table
 .
 *
 /
-UINT8
+HBUINT8
 data
 [
 VAR
@@ -2165,8 +2165,9 @@ Sanitizer
 <
 kern
 >
-:
-:
+(
+)
+.
 sanitize
 (
 face
@@ -2256,7 +2257,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 major
 ;
 KernOT

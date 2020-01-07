@@ -321,7 +321,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -335,7 +335,7 @@ to
 .
 *
 /
-UINT16
+HBUINT16
 lengthZ
 ;
 /
@@ -348,7 +348,7 @@ subtable
 .
 *
 /
-UINT16
+HBUINT16
 languageZ
 ;
 /
@@ -357,7 +357,7 @@ Ignore
 .
 *
 /
-UINT8
+HBUINT8
 glyphIdArray
 [
 256
@@ -521,7 +521,7 @@ segCount
 1
 ;
 const
-UINT16
+HBUINT16
 *
 startCount
 =
@@ -531,7 +531,7 @@ thiz
 startCount
 ;
 const
-UINT16
+HBUINT16
 *
 endCount
 =
@@ -745,27 +745,27 @@ true
 ;
 }
 const
-UINT16
+HBUINT16
 *
 endCount
 ;
 const
-UINT16
+HBUINT16
 *
 startCount
 ;
 const
-UINT16
+HBUINT16
 *
 idDelta
 ;
 const
-UINT16
+HBUINT16
 *
 idRangeOffset
 ;
 const
-UINT16
+HBUINT16
 *
 glyphIdArray
 ;
@@ -969,7 +969,7 @@ length
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -983,7 +983,7 @@ to
 .
 *
 /
-UINT16
+HBUINT16
 length
 ;
 /
@@ -1001,7 +1001,7 @@ subtable
 .
 *
 /
-UINT16
+HBUINT16
 languageZ
 ;
 /
@@ -1010,7 +1010,7 @@ Ignore
 .
 *
 /
-UINT16
+HBUINT16
 segCountX2
 ;
 /
@@ -1021,7 +1021,7 @@ segCount
 .
 *
 /
-UINT16
+HBUINT16
 searchRangeZ
 ;
 /
@@ -1042,7 +1042,7 @@ segCount
 )
 *
 /
-UINT16
+HBUINT16
 entrySelectorZ
 ;
 /
@@ -1055,7 +1055,7 @@ searchRange
 )
 *
 /
-UINT16
+HBUINT16
 rangeShiftZ
 ;
 /
@@ -1067,7 +1067,7 @@ segCount
 searchRange
 *
 /
-UINT16
+HBUINT16
 values
 [
 VAR
@@ -1076,7 +1076,7 @@ VAR
 #
 if
 0
-UINT16
+HBUINT16
 endCount
 [
 segCount
@@ -1096,7 +1096,7 @@ last
 .
 *
 /
-UINT16
+HBUINT16
 reservedPad
 ;
 /
@@ -1107,7 +1107,7 @@ to
 .
 *
 /
-UINT16
+HBUINT16
 startCount
 [
 segCount
@@ -1124,7 +1124,7 @@ segment
 .
 *
 /
-INT16
+HBINT16
 idDelta
 [
 segCount
@@ -1142,7 +1142,7 @@ segment
 .
 *
 /
-UINT16
+HBUINT16
 idRangeOffset
 [
 segCount
@@ -1157,7 +1157,7 @@ or
 0
 *
 /
-UINT16
+HBUINT16
 glyphIdArray
 [
 VAR
@@ -1258,7 +1258,7 @@ this
 }
 private
 :
-UINT32
+HBUINT32
 startCharCode
 ;
 /
@@ -1272,7 +1272,7 @@ group
 .
 *
 /
-UINT32
+HBUINT32
 endCharCode
 ;
 /
@@ -1286,7 +1286,7 @@ group
 .
 *
 /
-UINT32
+HBUINT32
 glyphID
 ;
 /
@@ -1502,7 +1502,7 @@ CmapSubtableFormat6
 :
 CmapSubtableTrimmed
 <
-UINT16
+HBUINT16
 >
 {
 }
@@ -1512,7 +1512,7 @@ CmapSubtableFormat10
 :
 CmapSubtableTrimmed
 <
-UINT32
+HBUINT32
 >
 {
 }
@@ -1614,7 +1614,7 @@ c
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -1628,7 +1628,7 @@ to
 .
 *
 /
-UINT16
+HBUINT16
 reservedZ
 ;
 /
@@ -1641,7 +1641,7 @@ to
 .
 *
 /
-UINT32
+HBUINT32
 lengthZ
 ;
 /
@@ -1654,7 +1654,7 @@ subtable
 .
 *
 /
-UINT32
+HBUINT32
 languageZ
 ;
 /
@@ -1666,7 +1666,7 @@ Ignore
 SortedArrayOf
 <
 CmapSubtableLongGroup
-UINT32
+HBUINT32
 >
 groups
 ;
@@ -1848,7 +1848,7 @@ range
 .
 *
 /
-UINT8
+HBUINT8
 additionalCount
 ;
 /
@@ -1877,7 +1877,7 @@ typedef
 SortedArrayOf
 <
 UnicodeValueRange
-UINT32
+HBUINT32
 >
 DefaultUVS
 ;
@@ -1969,7 +1969,7 @@ typedef
 SortedArrayOf
 <
 UVSMapping
-UINT32
+HBUINT32
 >
 NonDefaultUVS
 ;
@@ -2273,7 +2273,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -2287,7 +2287,7 @@ to
 .
 *
 /
-UINT32
+HBUINT32
 lengthZ
 ;
 /
@@ -2303,7 +2303,7 @@ subtable
 SortedArrayOf
 <
 VariationSelectorRecord
-UINT32
+HBUINT32
 >
 record
 ;
@@ -2624,7 +2624,7 @@ public
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -2764,7 +2764,7 @@ base
 )
 ;
 }
-UINT16
+HBUINT16
 platformID
 ;
 /
@@ -2774,7 +2774,7 @@ ID
 .
 *
 /
-UINT16
+HBUINT16
 encodingID
 ;
 /
@@ -2901,8 +2901,9 @@ OT
 :
 cmap
 >
-:
-:
+(
+)
+.
 sanitize
 (
 face
@@ -3863,7 +3864,7 @@ subtable
 }
 protected
 :
-UINT16
+HBUINT16
 version
 ;
 /

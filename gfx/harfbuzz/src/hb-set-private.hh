@@ -1279,6 +1279,10 @@ init
 void
 )
 {
+in_error
+=
+false
+;
 page_map
 .
 init

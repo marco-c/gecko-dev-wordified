@@ -283,7 +283,7 @@ immediately
 -
 Use
 MODE_READONLY
-otherse
+otherwise
 unless
 you
 really

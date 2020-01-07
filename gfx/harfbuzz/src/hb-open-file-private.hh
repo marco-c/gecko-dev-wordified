@@ -335,7 +335,7 @@ table
 .
 *
 /
-UINT32
+HBUINT32
 offset
 ;
 /
@@ -351,7 +351,7 @@ file
 .
 *
 /
-UINT32
+HBUINT32
 length
 ;
 /
@@ -865,7 +865,7 @@ LOffsetTo
 <
 OffsetTable
 >
-UINT32
+HBUINT32
 >
 table
 ;

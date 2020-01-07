@@ -415,6 +415,9 @@ HB_BUFFER_SCRATCH_FLAG_HAS_GPOS_ATTACHMENT
 HB_BUFFER_SCRATCH_FLAG_HAS_UNSAFE_TO_BREAK
 =
 0x00000010u
+HB_BUFFER_SCRATCH_FLAG_HAS_CGJ
+=
+0x00000020u
 /
 *
 Reserved
@@ -1980,7 +1983,7 @@ set_cluster
 (
 hb_glyph_info_t
 &
-info
+inf
 unsigned
 int
 cluster
@@ -1993,7 +1996,7 @@ mask
 {
 if
 (
-info
+inf
 .
 cluster
 !
@@ -2007,7 +2010,7 @@ mask
 &
 HB_GLYPH_FLAG_UNSAFE_TO_BREAK
 )
-info
+inf
 .
 mask
 |
@@ -2015,7 +2018,7 @@ mask
 HB_GLYPH_FLAG_UNSAFE_TO_BREAK
 ;
 else
-info
+inf
 .
 mask
 &
@@ -2024,7 +2027,7 @@ mask
 HB_GLYPH_FLAG_UNSAFE_TO_BREAK
 ;
 }
-info
+inf
 .
 cluster
 =
@@ -2038,7 +2041,7 @@ _unsafe_to_break_find_min_cluster
 const
 hb_glyph_info_t
 *
-info
+infos
 unsigned
 int
 start
@@ -2076,7 +2079,7 @@ int
 >
 (
 cluster
-info
+infos
 [
 i
 ]
@@ -2094,7 +2097,7 @@ _unsafe_to_break_set_mask
 (
 hb_glyph_info_t
 *
-info
+infos
 unsigned
 int
 start
@@ -2127,7 +2130,7 @@ if
 cluster
 !
 =
-info
+infos
 [
 i
 ]
@@ -2140,7 +2143,7 @@ scratch_flags
 =
 HB_BUFFER_SCRATCH_FLAG_HAS_UNSAFE_TO_BREAK
 ;
-info
+infos
 [
 i
 ]

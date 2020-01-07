@@ -2985,6 +2985,9 @@ additions
 *
 /
 case
+HB_SCRIPT_HATRAN
+:
+case
 HB_SCRIPT_OLD_HUNGARIAN
 :
 /

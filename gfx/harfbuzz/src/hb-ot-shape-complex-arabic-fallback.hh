@@ -2345,7 +2345,7 @@ buffer
 OT
 :
 :
-hb_apply_context_t
+hb_ot_apply_context_t
 c
 (
 0

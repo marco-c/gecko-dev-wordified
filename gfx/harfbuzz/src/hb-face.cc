@@ -819,8 +819,9 @@ OT
 :
 OpenTypeFontFile
 >
-:
-:
+(
+)
+.
 sanitize
 (
 hb_blob_reference
@@ -1693,8 +1694,9 @@ OT
 :
 head
 >
-:
-:
+(
+)
+.
 sanitize
 (
 reference_table
@@ -1873,8 +1875,9 @@ OT
 :
 maxp
 >
-:
-:
+(
+)
+.
 sanitize
 (
 reference_table

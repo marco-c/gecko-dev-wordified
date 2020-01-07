@@ -266,7 +266,7 @@ measure
 .
 *
 /
-UINT32
+HBUINT32
 varIdx
 ;
 /
@@ -541,7 +541,7 @@ to
 0x00010000u
 *
 /
-UINT16
+HBUINT16
 reserved
 ;
 /
@@ -555,7 +555,7 @@ to
 .
 *
 /
-UINT16
+HBUINT16
 valueRecordSize
 ;
 /
@@ -577,7 +577,7 @@ zero
 .
 *
 /
-UINT16
+HBUINT16
 valueRecordCount
 ;
 /
@@ -610,7 +610,7 @@ table
 .
 *
 /
-UINT8
+HBUINT8
 values
 [
 VAR

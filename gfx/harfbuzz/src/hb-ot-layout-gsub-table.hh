@@ -556,7 +556,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -786,7 +786,7 @@ c
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -822,7 +822,7 @@ Substitution
 table
 *
 /
-INT16
+HBINT16
 deltaGlyphID
 ;
 /
@@ -1183,7 +1183,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -1415,7 +1415,7 @@ c
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -1793,7 +1793,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -1906,7 +1906,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -2520,7 +2520,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -2789,7 +2789,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -3060,7 +3060,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -3486,7 +3486,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -3878,7 +3878,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -4149,7 +4149,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -4375,7 +4375,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -4895,7 +4895,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -5539,7 +5539,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -5843,7 +5843,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -6138,7 +6138,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -6717,7 +6717,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -6851,7 +6851,7 @@ backtrack
 .
 len
 (
-UINT16
+HBUINT16
 *
 )
 backtrack
@@ -6871,7 +6871,7 @@ lookahead
 .
 len
 (
-UINT16
+HBUINT16
 *
 )
 lookahead
@@ -7070,7 +7070,7 @@ c
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -7280,7 +7280,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -7538,7 +7538,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 sub_format
 ;
 SingleSubst
@@ -7684,7 +7684,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -7881,7 +7881,7 @@ static
 bool
 apply_recurse_func
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
@@ -8427,7 +8427,16 @@ Extension
 type
 *
 itself
+(
+but
+we
+already
+checked
+for
+that
+)
 .
+*
 This
 is
 specially
@@ -8456,24 +8465,6 @@ extension
 .
 get_type
 (
-)
-;
-if
-(
-unlikely
-(
-type
-=
-=
-SubstLookupSubTable
-:
-:
-Extension
-)
-)
-return_trace
-(
-false
 )
 ;
 unsigned
@@ -8946,7 +8937,7 @@ SubstLookup
 :
 apply_recurse_func
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned

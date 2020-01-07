@@ -370,7 +370,7 @@ MarkArray
 *
 /
 typedef
-UINT16
+HBUINT16
 Value
 ;
 typedef
@@ -383,7 +383,7 @@ VAR
 struct
 ValueFormat
 :
-UINT16
+HBUINT16
 {
 enum
 Flags
@@ -548,7 +548,7 @@ pointer
 #
 if
 0
-INT16
+HBINT16
 xPlacement
 ;
 /
@@ -565,7 +565,7 @@ design
 units
 *
 /
-INT16
+HBINT16
 yPlacement
 ;
 /
@@ -582,7 +582,7 @@ design
 units
 *
 /
-INT16
+HBINT16
 xAdvance
 ;
 /
@@ -607,7 +607,7 @@ writing
 )
 *
 /
-INT16
+HBINT16
 yAdvance
 ;
 /
@@ -790,7 +790,7 @@ static_size
 void
 apply_value
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 const
@@ -1447,7 +1447,7 @@ value
 static
 inline
 const
-INT16
+HBINT16
 &
 get_short
 (
@@ -1461,7 +1461,7 @@ return
 *
 CastP
 <
-INT16
+HBINT16
 >
 (
 value
@@ -1772,16 +1772,16 @@ inline
 void
 get_anchor
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 hb_codepoint_t
 glyph_id
 HB_UNUSED
-hb_position_t
+float
 *
 x
-hb_position_t
+float
 *
 y
 )
@@ -1802,7 +1802,7 @@ x
 font
 -
 >
-em_scale_x
+em_fscale_x
 (
 xCoordinate
 )
@@ -1813,7 +1813,7 @@ y
 font
 -
 >
-em_scale_y
+em_fscale_y
 (
 yCoordinate
 )
@@ -1848,7 +1848,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -1862,7 +1862,7 @@ format
 1
 *
 /
-INT16
+HBINT16
 xCoordinate
 ;
 /
@@ -1876,7 +1876,7 @@ design
 units
 *
 /
-INT16
+HBINT16
 yCoordinate
 ;
 /
@@ -1906,15 +1906,15 @@ inline
 void
 get_anchor
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 hb_codepoint_t
 glyph_id
-hb_position_t
+float
 *
 x
-hb_position_t
+float
 *
 y
 )
@@ -1991,7 +1991,7 @@ cx
 font
 -
 >
-em_scale_x
+em_fscale_x
 (
 xCoordinate
 )
@@ -2009,7 +2009,7 @@ cy
 font
 -
 >
-em_scale_y
+em_fscale_y
 (
 yCoordinate
 )
@@ -2044,7 +2044,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -2058,7 +2058,7 @@ format
 2
 *
 /
-INT16
+HBINT16
 xCoordinate
 ;
 /
@@ -2072,7 +2072,7 @@ design
 units
 *
 /
-INT16
+HBINT16
 yCoordinate
 ;
 /
@@ -2086,7 +2086,7 @@ design
 units
 *
 /
-UINT16
+HBUINT16
 anchorPoint
 ;
 /
@@ -2114,16 +2114,16 @@ inline
 void
 get_anchor
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 hb_codepoint_t
 glyph_id
 HB_UNUSED
-hb_position_t
+float
 *
 x
-hb_position_t
+float
 *
 y
 )
@@ -2144,7 +2144,7 @@ x
 font
 -
 >
-em_scale_x
+em_fscale_x
 (
 xCoordinate
 )
@@ -2155,7 +2155,7 @@ y
 font
 -
 >
-em_scale_y
+em_fscale_y
 (
 yCoordinate
 )
@@ -2272,7 +2272,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -2286,7 +2286,7 @@ format
 3
 *
 /
-INT16
+HBINT16
 xCoordinate
 ;
 /
@@ -2300,7 +2300,7 @@ design
 units
 *
 /
-INT16
+HBINT16
 yCoordinate
 ;
 /
@@ -2392,15 +2392,15 @@ inline
 void
 get_anchor
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 hb_codepoint_t
 glyph_id
-hb_position_t
+float
 *
 x
-hb_position_t
+float
 *
 y
 )
@@ -2575,7 +2575,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -2809,7 +2809,7 @@ true
 )
 ;
 }
-UINT16
+HBUINT16
 rows
 ;
 /
@@ -2907,7 +2907,7 @@ base
 }
 protected
 :
-UINT16
+HBUINT16
 klass
 ;
 /
@@ -2974,7 +2974,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
@@ -3112,7 +3112,7 @@ return_trace
 false
 )
 ;
-hb_position_t
+float
 mark_x
 mark_y
 base_x
@@ -3184,17 +3184,23 @@ o
 .
 x_offset
 =
+round
+(
 base_x
 -
 mark_x
+)
 ;
 o
 .
 y_offset
 =
+round
+(
 base_y
 -
 mark_y
+)
 ;
 o
 .
@@ -3343,7 +3349,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -3476,7 +3482,7 @@ values
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -3623,7 +3629,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -3782,7 +3788,7 @@ valueCount
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -3833,7 +3839,7 @@ the
 ValueRecord
 *
 /
-UINT16
+HBUINT16
 valueCount
 ;
 /
@@ -3986,7 +3992,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -4126,7 +4132,7 @@ unsigned
 int
 record_size
 =
-UINT16
+HBUINT16
 :
 :
 static_size
@@ -4174,7 +4180,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 const
@@ -4231,7 +4237,7 @@ unsigned
 int
 record_size
 =
-UINT16
+HBUINT16
 :
 :
 static_size
@@ -4557,7 +4563,7 @@ c
 check_array
 (
 arrayZ
-UINT16
+HBUINT16
 :
 :
 static_size
@@ -4664,7 +4670,7 @@ stride
 }
 protected
 :
-UINT16
+HBUINT16
 len
 ;
 /
@@ -4674,7 +4680,7 @@ of
 PairValueRecords
 *
 /
-UINT16
+HBUINT16
 arrayZ
 [
 VAR
@@ -4807,7 +4813,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -4864,7 +4870,7 @@ return_trace
 false
 )
 ;
-hb_apply_context_t
+hb_ot_apply_context_t
 :
 :
 skipping_iterator_t
@@ -5022,7 +5028,7 @@ closure
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -5241,7 +5247,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -5298,7 +5304,7 @@ return_trace
 false
 )
 ;
-hb_apply_context_t
+hb_ot_apply_context_t
 :
 :
 skipping_iterator_t
@@ -5695,7 +5701,7 @@ stride
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -5850,7 +5856,7 @@ the
 pair
 *
 /
-UINT16
+HBUINT16
 class1Count
 ;
 /
@@ -5868,7 +5874,7 @@ includes
 Class0
 *
 /
-UINT16
+HBUINT16
 class2Count
 ;
 /
@@ -6037,7 +6043,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -6249,7 +6255,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -6307,7 +6313,7 @@ return_trace
 false
 )
 ;
-hb_apply_context_t
+hb_ot_apply_context_t
 :
 :
 skipping_iterator_t
@@ -6411,7 +6417,7 @@ i
 j
 )
 ;
-hb_position_t
+float
 entry_x
 entry_y
 exit_x
@@ -6507,7 +6513,10 @@ i
 .
 x_advance
 =
+round
+(
 exit_x
+)
 +
 pos
 [
@@ -6518,7 +6527,10 @@ x_offset
 ;
 d
 =
+round
+(
 entry_x
+)
 +
 pos
 [
@@ -6554,7 +6566,10 @@ HB_DIRECTION_RTL
 :
 d
 =
+round
+(
 exit_x
+)
 +
 pos
 [
@@ -6590,7 +6605,10 @@ j
 .
 x_advance
 =
+round
+(
 entry_x
+)
 +
 pos
 [
@@ -6611,7 +6629,10 @@ i
 .
 y_advance
 =
+round
+(
 exit_y
+)
 +
 pos
 [
@@ -6622,7 +6643,10 @@ y_offset
 ;
 d
 =
+round
+(
 entry_y
+)
 +
 pos
 [
@@ -6658,7 +6682,10 @@ HB_DIRECTION_BTT
 :
 d
 =
+round
+(
 exit_y
+)
 +
 pos
 [
@@ -6694,7 +6721,10 @@ j
 .
 y_advance
 =
+round
+(
 entry_y
+)
 ;
 break
 ;
@@ -7022,7 +7052,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -7187,7 +7217,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -7324,7 +7354,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -7395,7 +7425,7 @@ mark
 glyph
 *
 /
-hb_apply_context_t
+hb_ot_apply_context_t
 :
 :
 skipping_iterator_t
@@ -7690,7 +7720,7 @@ classCount
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -7748,7 +7778,7 @@ MarkBasePos
 subtable
 *
 /
-UINT16
+HBUINT16
 classCount
 ;
 /
@@ -7913,7 +7943,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -8071,7 +8101,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -8142,7 +8172,7 @@ mark
 glyph
 *
 /
-hb_apply_context_t
+hb_ot_apply_context_t
 :
 :
 skipping_iterator_t
@@ -8563,7 +8593,7 @@ classCount
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -8624,7 +8654,7 @@ MarkLigPos
 subtable
 *
 /
-UINT16
+HBUINT16
 classCount
 ;
 /
@@ -8788,7 +8818,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -8925,7 +8955,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -9001,7 +9031,7 @@ mark
 glyph
 *
 /
-hb_apply_context_t
+hb_ot_apply_context_t
 :
 :
 skipping_iterator_t
@@ -9408,7 +9438,7 @@ classCount
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 /
@@ -9472,7 +9502,7 @@ MarkMarkPos
 subtable
 *
 /
-UINT16
+HBUINT16
 classCount
 ;
 /
@@ -9636,7 +9666,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 /
@@ -9941,7 +9971,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 sub_format
 ;
 SinglePos
@@ -10030,7 +10060,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -10112,7 +10142,7 @@ static
 bool
 apply_recurse_func
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
@@ -11151,7 +11181,7 @@ PosLookup
 :
 apply_recurse_func
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned

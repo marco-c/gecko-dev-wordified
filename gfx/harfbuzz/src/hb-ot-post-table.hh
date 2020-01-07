@@ -320,7 +320,7 @@ c
 }
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 glyphNameIndex
 ;
@@ -350,7 +350,7 @@ tables
 .
 *
 /
-UINT8
+HBUINT8
 namesX
 [
 VAR
@@ -489,8 +489,9 @@ Sanitizer
 <
 post
 >
-:
-:
+(
+)
+.
 sanitize
 (
 face
@@ -1353,7 +1354,7 @@ version
 const
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 *
 glyphNameIndex
@@ -1554,7 +1555,7 @@ thickness
 .
 *
 /
-UINT32
+HBUINT32
 isFixedPitch
 ;
 /
@@ -1590,7 +1591,7 @@ monospaced
 .
 *
 /
-UINT32
+HBUINT32
 minMemType42
 ;
 /
@@ -1608,7 +1609,7 @@ downloaded
 .
 *
 /
-UINT32
+HBUINT32
 maxMemType42
 ;
 /
@@ -1626,7 +1627,7 @@ downloaded
 .
 *
 /
-UINT32
+HBUINT32
 minMemType1
 ;
 /
@@ -1649,7 +1650,7 @@ font
 .
 *
 /
-UINT32
+HBUINT32
 maxMemType1
 ;
 /

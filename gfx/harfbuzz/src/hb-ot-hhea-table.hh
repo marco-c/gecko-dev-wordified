@@ -460,7 +460,7 @@ yMin
 .
 *
 /
-INT16
+HBINT16
 caretSlopeRise
 ;
 /
@@ -491,7 +491,7 @@ horizontal
 .
 *
 /
-INT16
+HBINT16
 caretSlopeRun
 ;
 /
@@ -506,7 +506,7 @@ horizontal
 .
 *
 /
-INT16
+HBINT16
 caretOffset
 ;
 /
@@ -546,7 +546,7 @@ fonts
 .
 *
 /
-INT16
+HBINT16
 reserved1
 ;
 /
@@ -557,7 +557,7 @@ to
 .
 *
 /
-INT16
+HBINT16
 reserved2
 ;
 /
@@ -568,7 +568,7 @@ to
 .
 *
 /
-INT16
+HBINT16
 reserved3
 ;
 /
@@ -579,7 +579,7 @@ to
 .
 *
 /
-INT16
+HBINT16
 reserved4
 ;
 /
@@ -590,7 +590,7 @@ to
 .
 *
 /
-INT16
+HBINT16
 metricDataFormat
 ;
 /
@@ -602,7 +602,7 @@ format
 .
 *
 /
-UINT16
+HBUINT16
 numberOfLongMetrics
 ;
 /

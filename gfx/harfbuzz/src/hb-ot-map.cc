@@ -593,9 +593,6 @@ add_lookups
 hb_ot_map_t
 &
 m
-hb_face_t
-*
-face
 unsigned
 int
 table_index
@@ -1977,7 +1974,6 @@ stage
 add_lookups
 (
 m
-face
 table_index
 required_feature_index
 [
@@ -2026,7 +2022,6 @@ stage
 add_lookups
 (
 m
-face
 table_index
 m
 .

@@ -1374,9 +1374,6 @@ add_lookups
 hb_ot_map_t
 &
 m
-hb_face_t
-*
-face
 unsigned
 int
 table_index

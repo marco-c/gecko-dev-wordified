@@ -1953,7 +1953,7 @@ is
 0
 *
 otherwise
-callse
+calls
 hb_font_get_variation_glyph
 (
 )

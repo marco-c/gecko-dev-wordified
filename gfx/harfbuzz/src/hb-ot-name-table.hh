@@ -452,7 +452,7 @@ offset
 )
 ;
 }
-UINT16
+HBUINT16
 platformID
 ;
 /
@@ -462,7 +462,7 @@ ID
 .
 *
 /
-UINT16
+HBUINT16
 encodingID
 ;
 /
@@ -475,7 +475,7 @@ ID
 .
 *
 /
-UINT16
+HBUINT16
 languageID
 ;
 /
@@ -485,7 +485,7 @@ ID
 .
 *
 /
-UINT16
+HBUINT16
 nameID
 ;
 /
@@ -495,7 +495,7 @@ ID
 .
 *
 /
-UINT16
+HBUINT16
 length
 ;
 /
@@ -509,7 +509,7 @@ bytes
 .
 *
 /
-UINT16
+HBUINT16
 offset
 ;
 /
@@ -858,7 +858,7 @@ now
 .
 *
 /
-UINT16
+HBUINT16
 format
 ;
 /
@@ -874,7 +874,7 @@ selector
 .
 *
 /
-UINT16
+HBUINT16
 count
 ;
 /
