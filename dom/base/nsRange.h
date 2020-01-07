@@ -1786,6 +1786,17 @@ ErrorResult
 aErr
 )
 ;
+void
+ToString
+(
+nsAString
+&
+aReturn
+ErrorResult
+&
+aErr
+)
+;
 /
 /
 *
