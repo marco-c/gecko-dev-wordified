@@ -239,9 +239,6 @@ mozilla
 class
 ComputedStyle
 ;
-class
-GeckoComputedStyle
-;
 namespace
 css
 {

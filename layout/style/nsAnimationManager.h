@@ -246,9 +246,6 @@ namespace
 dom
 *
 /
-class
-GeckoComputedStyle
-;
 enum
 class
 CSSPseudoElementType
