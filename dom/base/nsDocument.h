@@ -544,13 +544,6 @@ h
 #
 include
 "
-nsIDOMXPathEvaluator
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h
@@ -1787,8 +1780,6 @@ public
 nsIApplicationCacheContainer
 public
 nsStubMutationObserver
-public
-nsIDOMXPathEvaluator
 {
 friend
 class
@@ -3873,7 +3864,6 @@ override
 /
 nsIApplicationCacheContainer
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
-NS_DECL_NSIDOMXPATHEVALUATOR
 virtual
 nsresult
 Init

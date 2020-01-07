@@ -22180,7 +22180,10 @@ mStateObjectCached
 uint32_t
 mInSyncOperationCount
 ;
-RefPtr
+mozilla
+:
+:
+UniquePtr
 <
 mozilla
 :
