@@ -1872,7 +1872,6 @@ on
 gutterClick
 "
 (
-ev
 line
 button
 )

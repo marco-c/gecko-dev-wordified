@@ -568,7 +568,6 @@ editorBreakpointChanges
 function
 onEditorBreakpointAddFirst
 (
-aEvent
 aLine
 )
 {
@@ -576,9 +575,8 @@ editorBreakpointChanges
 +
 +
 ;
-ok
+info
 (
-aEvent
 "
 breakpoint1
 added
@@ -631,7 +629,6 @@ correct
 function
 onEditorBreakpointRemoveFirst
 (
-aEvent
 aLine
 )
 {
@@ -639,9 +636,8 @@ editorBreakpointChanges
 +
 +
 ;
-ok
+info
 (
-aEvent
 "
 breakpoint1
 removed
@@ -1205,7 +1201,6 @@ onEditorBreakpointAddBackgroundTrap
 function
 onEditorBreakpointAddSwitch
 (
-aEvent
 aLine
 )
 {
@@ -1213,9 +1208,8 @@ editorBreakpointChanges
 +
 +
 ;
-ok
+info
 (
-aEvent
 "
 breakpoint2
 added
@@ -1565,7 +1559,6 @@ false
 function
 onEditorBreakpointRemoveSecond
 (
-aEvent
 aLine
 )
 {
@@ -1573,9 +1566,8 @@ editorBreakpointChanges
 +
 +
 ;
-ok
+info
 (
-aEvent
 "
 breakpoint2
 removed

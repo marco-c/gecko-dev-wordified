@@ -7477,7 +7477,6 @@ _onEditorContextMenuOpen
 :
 function
 (
-message
 ev
 popup
 )
