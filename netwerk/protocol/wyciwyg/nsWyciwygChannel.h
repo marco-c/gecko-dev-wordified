@@ -512,12 +512,6 @@ nsIOutputStream
 >
 mCacheOutputStream
 ;
-nsCOMPtr
-<
-nsIInputStream
->
-mCacheInputStream
-;
 bool
 mNeedToSetSecurityInfo
 ;

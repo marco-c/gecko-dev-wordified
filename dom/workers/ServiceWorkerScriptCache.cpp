@@ -5620,6 +5620,10 @@ getter_AddRefs
 mPump
 )
 inputStream
+.
+forget
+(
+)
 0
 /
 *
