@@ -323,6 +323,11 @@ initialized
 data
 :
 {
+enabled
+:
+this
+.
+enabled
 canBeDisabled
 :
 this
