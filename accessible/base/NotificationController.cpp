@@ -4749,6 +4749,15 @@ WillRefresh
 aTime
 )
 ;
+if
+(
+!
+mDocument
+)
+{
+return
+;
+}
 }
 /
 /
