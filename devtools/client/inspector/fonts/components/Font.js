@@ -206,13 +206,6 @@ fontOptions
 )
 .
 isRequired
-isForCurrentElement
-:
-PropTypes
-.
-bool
-.
-isRequired
 onPreviewFonts
 :
 PropTypes
@@ -576,7 +569,6 @@ let
 {
 font
 fontOptions
-isForCurrentElement
 onPreviewFonts
 onToggleFontHighlight
 }
@@ -617,7 +609,6 @@ FontMeta
 (
 {
 font
-isForCurrentElement
 onToggleFontHighlight
 }
 )
