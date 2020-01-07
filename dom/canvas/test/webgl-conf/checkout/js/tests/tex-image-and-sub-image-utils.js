@@ -755,6 +755,7 @@ tex
 '
 '
 uniform
+highp
 int
 face
 ;
@@ -1191,6 +1192,7 @@ tex
 '
 '
 uniform
+highp
 int
 face
 ;
