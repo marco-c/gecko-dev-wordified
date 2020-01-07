@@ -2179,7 +2179,7 @@ cursor
 md
 -
 >
-flags
+mFlags
 )
 |
 |
@@ -2192,7 +2192,7 @@ cursor
 md
 -
 >
-name
+mName
 )
 |
 |
@@ -2204,7 +2204,7 @@ cursor
 md
 -
 >
-num_args
+mNumArgs
 )
 )
 return
@@ -2221,7 +2221,7 @@ if
 md
 -
 >
-num_args
+mNumArgs
 )
 {
 size_t
@@ -2230,7 +2230,7 @@ n
 md
 -
 >
-num_args
+mNumArgs
 *
 sizeof
 (
@@ -2272,7 +2272,7 @@ i
 md
 -
 >
-num_args
+mNumArgs
 ;
 i
 +
@@ -2301,7 +2301,7 @@ false
 md
 -
 >
-params
+mParams
 =
 params
 ;
