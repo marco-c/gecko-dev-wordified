@@ -43913,6 +43913,16 @@ IsEditorDataAvailable
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+aRange
+.
+IsInSelection
+(
+)
+)
+;
 if
 (
 !
