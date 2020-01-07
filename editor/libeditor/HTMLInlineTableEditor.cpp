@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIHTMLObjectResizer
 .
 h

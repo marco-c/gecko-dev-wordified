@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

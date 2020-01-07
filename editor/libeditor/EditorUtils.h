@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIEditor
 .
 h

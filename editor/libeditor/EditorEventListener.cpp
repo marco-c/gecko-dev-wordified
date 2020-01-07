@@ -465,17 +465,6 @@ nsIDOMEventTarget
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-/
-/
-for
-nsIDOMNode
-#
-include
-"
 nsIDocument
 .
 h

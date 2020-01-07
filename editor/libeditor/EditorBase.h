@@ -6978,17 +6978,6 @@ nsIDOMNode
 aNode
 )
 ;
-bool
-NodesSameType
-(
-nsIDOMNode
-*
-aNode1
-nsIDOMNode
-*
-aNode2
-)
-;
 virtual
 bool
 AreNodesSameType
@@ -8799,7 +8788,7 @@ aIndex
 nsIDOMDocument
 *
 aSourceDoc
-nsIDOMNode
+nsINode
 *
 aDestinationNode
 int32_t

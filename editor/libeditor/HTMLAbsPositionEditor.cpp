@@ -265,13 +265,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsDOMCSSRGBColor
 .
 h

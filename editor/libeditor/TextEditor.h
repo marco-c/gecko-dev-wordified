@@ -167,9 +167,6 @@ class
 nsIDOMEvent
 ;
 class
-nsIDOMNode
-;
-class
 nsIDocumentEncoder
 ;
 class
@@ -747,7 +744,7 @@ const
 nsAString
 &
 aStringToInsert
-nsIDOMNode
+nsINode
 *
 aDestinationNode
 int32_t
@@ -771,7 +768,7 @@ aIndex
 nsIDOMDocument
 *
 aSourceDoc
-nsIDOMNode
+nsINode
 *
 aDestinationNode
 int32_t
@@ -1385,13 +1382,6 @@ InsertTextFromTransferable
 nsITransferable
 *
 transferable
-nsIDOMNode
-*
-aDestinationNode
-int32_t
-aDestOffset
-bool
-aDoDeleteSelection
 )
 ;
 /
