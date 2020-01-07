@@ -1217,12 +1217,12 @@ StyleSheetActor
 for
 the
 given
-nsIDOMCSSStyleSheet
+CSSStyleSheet
 .
 *
 param
 {
-DOMStyleSheet
+CSSStyleSheet
 }
 sheet
 *

@@ -324,7 +324,7 @@ NoteXPCOMChild
 (
 static_cast
 <
-nsIDOMCSSStyleSheet
+nsIDOMStyleSheet
 *
 >
 (
@@ -362,7 +362,7 @@ NoteXPCOMChild
 (
 static_cast
 <
-nsIDOMCSSStyleSheet
+nsIDOMStyleSheet
 *
 >
 (

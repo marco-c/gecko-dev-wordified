@@ -266,13 +266,6 @@ h
 #
 include
 "
-nsIDOMCSSStyleSheet
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -2594,7 +2587,7 @@ CSSStyleSheet
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIDOMCSSStyleSheet
+nsIDOMStyleSheet
 )
 if
 (
