@@ -157,13 +157,6 @@ ServoBindingTypes
 .
 h
 "
-#
-include
-"
-nsStyleStruct
-.
-h
-"
 namespace
 mozilla
 {
@@ -189,7 +182,6 @@ aDecl
 GenericSpecifiedValues
 (
 aDocument
-NS_STYLE_INHERIT_MASK
 )
 mDecl
 (
