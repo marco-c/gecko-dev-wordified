@@ -8932,10 +8932,6 @@ classInfo
 nsIXPCScriptable
 *
 scriptable
-bool
-callPostCreatePrototype
-=
-true
 )
 ;
 XPCWrappedNativeScope
@@ -9024,11 +9020,6 @@ return
 mScriptable
 ;
 }
-bool
-CallPostCreatePrototype
-(
-)
-;
 void
 JSProtoObjectFinalized
 (
@@ -9256,8 +9247,6 @@ Init
 nsIXPCScriptable
 *
 scriptable
-bool
-callPostCreatePrototype
 )
 ;
 private
