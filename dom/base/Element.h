@@ -7966,12 +7966,16 @@ Animation
 aAnimations
 )
 ;
-NS_IMETHOD
+virtual
+void
 GetInnerHTML
 (
 nsAString
 &
 aInnerHTML
+OOMReporter
+&
+aError
 )
 ;
 virtual

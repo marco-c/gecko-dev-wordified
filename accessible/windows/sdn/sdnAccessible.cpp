@@ -212,6 +212,15 @@ Element
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
 using
 namespace
 mozilla
@@ -2309,6 +2318,9 @@ AsElement
 GetInnerHTML
 (
 innerHTML
+IgnoreErrors
+(
+)
 )
 ;
 if

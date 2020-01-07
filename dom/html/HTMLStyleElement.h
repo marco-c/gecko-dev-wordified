@@ -201,12 +201,15 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 HTMLStyleElement
 nsGenericHTMLElement
 )
-NS_IMETHOD
+void
 GetInnerHTML
 (
 nsAString
 &
 aInnerHTML
+OOMReporter
+&
+aError
 )
 override
 ;

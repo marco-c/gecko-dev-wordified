@@ -753,7 +753,7 @@ aNotify
 )
 ;
 }
-NS_IMETHODIMP
+void
 HTMLScriptElement
 :
 :
@@ -762,6 +762,9 @@ GetInnerHTML
 nsAString
 &
 aInnerHTML
+OOMReporter
+&
+aError
 )
 {
 if
@@ -779,13 +782,13 @@ fallible
 )
 )
 {
-return
-NS_ERROR_OUT_OF_MEMORY
+aError
+.
+ReportOOM
+(
+)
 ;
 }
-return
-NS_OK
-;
 }
 void
 HTMLScriptElement
