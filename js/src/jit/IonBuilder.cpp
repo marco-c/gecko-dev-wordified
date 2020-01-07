@@ -45579,11 +45579,9 @@ true
 }
 }
 }
-MInstruction
-*
+MInstructionReverseIterator
 last
 =
-*
 current
 -
 >
@@ -45770,7 +45768,6 @@ rbegin
 (
 )
 ;
-*
 riter
 !
 =
