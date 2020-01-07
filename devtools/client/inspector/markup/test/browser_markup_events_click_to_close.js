@@ -268,7 +268,9 @@ querySelector
 .
 markupview
 -
-events
+event
+-
+badge
 "
 )
 ;
@@ -298,7 +300,9 @@ querySelector
 .
 markupview
 -
-events
+event
+-
+badge
 "
 )
 ;

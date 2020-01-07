@@ -191,7 +191,9 @@ querySelector
 .
 markupview
 -
-events
+event
+-
+badge
 "
 )
 ;
