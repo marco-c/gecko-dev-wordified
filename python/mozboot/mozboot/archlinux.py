@@ -260,10 +260,6 @@ libpulse
 '
         
 '
-mesa
-'
-        
-'
 xorg
 -
 server

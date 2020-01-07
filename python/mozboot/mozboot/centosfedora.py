@@ -232,14 +232,6 @@ devel
 '
             
 '
-mesa
--
-libGL
--
-devel
-'
-            
-'
 pulseaudio
 -
 libs
