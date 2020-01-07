@@ -326,6 +326,12 @@ onCreate
 ;
 GeckoAppShell
 .
+ensureCrashHandling
+(
+)
+;
+GeckoAppShell
+.
 setApplicationContext
 (
 getApplicationContext
@@ -399,9 +405,6 @@ args
 final
 Bundle
 extras
-final
-int
-flags
 final
 ParcelFileDescriptor
 prefsPfd
@@ -533,7 +536,6 @@ initChildProcess
 (
 args
 extras
-flags
 prefsFd
 ipcFd
 crashReporterFd

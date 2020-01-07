@@ -2391,13 +2391,6 @@ Init
 (
 )
 ;
-GeckoAppShellSupport
-:
-:
-Init
-(
-)
-;
 /
 /
 Set

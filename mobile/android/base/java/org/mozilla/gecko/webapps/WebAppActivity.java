@@ -265,15 +265,6 @@ mozilla
 .
 gecko
 .
-GeckoApplication
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoScreenOrientation
 ;
 import
@@ -736,9 +727,9 @@ mGeckoView
 setSession
 (
 mGeckoSession
-GeckoApplication
+GeckoRuntime
 .
-ensureRuntime
+getDefault
 (
 this
 )

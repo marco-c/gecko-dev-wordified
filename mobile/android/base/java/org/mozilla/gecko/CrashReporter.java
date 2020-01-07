@@ -259,6 +259,15 @@ mozilla
 .
 gecko
 .
+GeckoProfile
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 mozglue
 .
 GeckoLoader
@@ -493,7 +502,7 @@ CutPasteId
 )
 public
 class
-CrashReporterActivity
+CrashReporter
 extends
 AppCompatActivity
 {
@@ -1668,7 +1677,7 @@ email
 /
 /
 Load
-CrashReporterActivity
+CrashReporter
 preferences
 to
 avoid
@@ -2081,7 +2090,7 @@ int
 which
 )
 {
-CrashReporterActivity
+CrashReporter
 .
 this
 .
@@ -2184,7 +2193,7 @@ mPendingExtrasFile
 }
 }
 "
-CrashReporterActivity
+CrashReporter
 Thread
 "
 )
