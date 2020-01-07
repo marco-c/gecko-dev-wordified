@@ -8565,6 +8565,9 @@ usize
 is_backface_visible
 :
 bool
+glyph_raster_space
+:
+GlyphRasterSpace
 )
 {
 debug_assert
@@ -9127,10 +9130,7 @@ transform_style
 perspective
 mix_blend_mode
 filters
-GlyphRasterSpace
-:
-:
-Screen
+glyph_raster_space
 )
 ;
 }
