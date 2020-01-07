@@ -10735,13 +10735,7 @@ calling
 and
 callback
 .
-AccumulateDelta_impl
-<
-Millisecond
->
-:
-:
-compute
+AccumulateTimeDelta
 (
 Telemetry
 :
