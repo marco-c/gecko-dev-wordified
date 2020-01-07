@@ -2802,9 +2802,8 @@ rv
 ;
 rv
 =
-RemoveContainer
+RemoveContainerWithTransaction
 (
-&
 aElement
 )
 ;
