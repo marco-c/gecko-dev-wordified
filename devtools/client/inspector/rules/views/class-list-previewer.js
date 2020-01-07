@@ -1775,6 +1775,12 @@ this
 onCurrentNodeClassChanged
 )
 ;
+this
+.
+onNewSelection
+(
+)
+;
 }
 ClassListPreviewer
 .
