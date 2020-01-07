@@ -262,6 +262,8 @@ Any
 Optional
     
 Required
+    
+Exclusive
 )
 import
 copy
@@ -3717,10 +3719,16 @@ should
 be
 run
     
+Exclusive
+(
 Optional
 (
 '
 when
+'
+)
+'
+optimization
 '
 )
 :
@@ -3743,6 +3751,51 @@ basestring
     
 }
 )
+    
+#
+The
+SCHEDULES
+component
+for
+this
+task
+;
+this
+defaults
+to
+the
+suite
+    
+#
+(
+not
+including
+the
+flavor
+)
+but
+can
+be
+overridden
+here
+.
+    
+Exclusive
+(
+Optional
+(
+'
+schedules
+-
+component
+'
+)
+'
+optimization
+'
+)
+:
+basestring
     
 Optional
 (
@@ -9846,12 +9899,22 @@ platform
         
 suite
 =
+test
+.
+get
+(
+'
+schedules
+-
+component
+'
 attributes
 [
 '
 unittest_suite
 '
 ]
+)
         
 if
 suite
