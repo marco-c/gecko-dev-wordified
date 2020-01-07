@@ -2631,7 +2631,9 @@ let
 msgids
 =
 [
-[
+{
+id
+:
 "
 search
 -
@@ -2641,7 +2643,7 @@ warning
 -
 title
 "
-]
+}
 ]
 ;
 if
@@ -2653,7 +2655,9 @@ msgids
 .
 push
 (
-[
+{
+id
+:
 "
 search
 -
@@ -2663,12 +2667,14 @@ warning
 -
 engine
 "
+args
+:
 {
 name
 :
 dupName
 }
-]
+}
 )
 ;
 }
@@ -2678,7 +2684,9 @@ msgids
 .
 push
 (
-[
+{
+id
+:
 "
 search
 -
@@ -2688,7 +2696,7 @@ warning
 -
 bookmark
 "
-]
+}
 )
 ;
 }

@@ -171,13 +171,15 @@ l10n
 formatMessages
 (
 [
-[
+{
+id
+:
 "
 category
 -
 general
 "
-]
+}
 ]
 )
 ;

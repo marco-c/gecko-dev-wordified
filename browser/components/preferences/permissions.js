@@ -894,7 +894,9 @@ l10n
 formatValues
 (
 [
-[
+{
+id
+:
 "
 permissions
 -
@@ -904,8 +906,10 @@ uri
 -
 title
 "
-]
-[
+}
+{
+id
+:
 "
 permissions
 -
@@ -915,7 +919,7 @@ uri
 -
 label
 "
-]
+}
 ]
 )
 .

@@ -797,7 +797,9 @@ l10n
 formatValues
 (
 [
-[
+{
+id
+:
 blocklist
 -
 item
@@ -807,8 +809,10 @@ l10nKey
 }
 -
 name
-]
-[
+}
+{
+id
+:
 blocklist
 -
 item
@@ -818,7 +822,7 @@ l10nKey
 }
 -
 desc
-]
+}
 ]
 )
 ;

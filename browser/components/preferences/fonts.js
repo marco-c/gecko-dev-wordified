@@ -1004,7 +1004,9 @@ l10n
 formatValues
 (
 [
-[
+{
+id
+:
 "
 fonts
 -
@@ -1016,8 +1018,10 @@ warning
 -
 title
 "
-]
-[
+}
+{
+id
+:
 "
 fonts
 -
@@ -1029,8 +1033,10 @@ warning
 -
 message
 "
-]
-[
+}
+{
+id
+:
 "
 fonts
 -
@@ -1042,7 +1048,7 @@ warning
 -
 accept
 "
-]
+}
 ]
 )
 ;
