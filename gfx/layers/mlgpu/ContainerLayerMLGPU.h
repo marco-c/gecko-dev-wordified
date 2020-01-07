@@ -249,6 +249,14 @@ ClearCachedResources
 )
 override
 ;
+const
+LayerIntRegion
+&
+GetShadowVisibleRegion
+(
+)
+override
+;
 RefPtr
 <
 MLGRenderTarget
