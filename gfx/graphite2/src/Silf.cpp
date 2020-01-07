@@ -2561,14 +2561,6 @@ be
 monotonically
 increasing
 .
-assert
-(
-m_nClass
->
-=
-m_nLinear
-)
-;
 for
 (
 const

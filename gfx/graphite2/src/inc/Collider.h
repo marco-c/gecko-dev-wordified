@@ -1508,9 +1508,6 @@ max
 or
 min
 edge
-bool
-_hit
-;
 #
 if
 !
@@ -1616,10 +1613,6 @@ _xbound
 0
 .
 0
-)
-_hit
-(
-false
 )
 {
 #
