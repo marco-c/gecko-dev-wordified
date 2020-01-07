@@ -2124,10 +2124,8 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-nsCOMPtr
-<
 nsIDOMEventTarget
->
+*
 piTarget
 =
 GetDOMEventTarget

@@ -647,13 +647,11 @@ aKeyboardEvent
 override
 ;
 virtual
-already_AddRefed
-<
 dom
 :
 :
 EventTarget
->
+*
 GetDOMEventTarget
 (
 )

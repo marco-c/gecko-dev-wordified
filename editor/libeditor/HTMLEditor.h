@@ -540,10 +540,8 @@ aKeyboardEvent
 override
 ;
 virtual
-already_AddRefed
-<
 nsIContent
->
+*
 GetFocusedContent
 (
 )
@@ -567,13 +565,11 @@ IsActiveInDOMWindow
 override
 ;
 virtual
-already_AddRefed
-<
 dom
 :
 :
 EventTarget
->
+*
 GetDOMEventTarget
 (
 )
