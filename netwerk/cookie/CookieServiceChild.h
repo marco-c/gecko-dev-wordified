@@ -159,6 +159,13 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 class
 nsCookie
 ;
@@ -190,6 +197,8 @@ nsICookieService
 public
 nsIObserver
 public
+nsITimerCallback
+public
 nsSupportsWeakReference
 {
 public
@@ -197,6 +206,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSICOOKIESERVICE
 NS_DECL_NSIOBSERVER
+NS_DECL_NSITIMERCALLBACK
 typedef
 nsTArray
 <
@@ -241,6 +251,11 @@ protected
 virtual
 ~
 CookieServiceChild
+(
+)
+;
+void
+MoveCookies
 (
 )
 ;
@@ -523,6 +538,12 @@ override
 ;
 CookiesMap
 mCookiesMap
+;
+nsCOMPtr
+<
+nsITimer
+>
+mCookieTimer
 ;
 nsCOMPtr
 <
