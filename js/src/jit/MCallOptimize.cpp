@@ -5604,15 +5604,12 @@ before
 the
 call
 .
-MOZ_TRY
-(
 callInfo
 .
-pushFormals
+pushPriorCallStack
 (
 this
 current
-)
 )
 ;
 }
@@ -5868,7 +5865,7 @@ execution
 .
 callInfo
 .
-popFormals
+popPriorCallStack
 (
 current
 )
