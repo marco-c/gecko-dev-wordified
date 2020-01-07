@@ -229,6 +229,13 @@ h
 #
 include
 "
+ParamTraitsEnumChecker
+.
+h
+"
+#
+include
+"
 RefCountedCopyConstructorChecker
 .
 h
