@@ -1127,7 +1127,7 @@ RP_Unset
 CORS_NONE
 title
 media
-IsAlternate
+HasAlternateRel
 :
 :
 No

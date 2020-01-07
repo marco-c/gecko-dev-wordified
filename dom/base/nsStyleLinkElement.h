@@ -270,6 +270,14 @@ Yes
 No
 }
 ;
+enum
+class
+HasAlternateRel
+{
+Yes
+No
+}
+;
 struct
 MOZ_STACK_CLASS
 StyleSheetInfo
@@ -332,6 +340,11 @@ nsAutoString
 mIntegrity
 ;
 bool
+mIsAlternate
+:
+1
+;
+bool
 mHasAlternateRel
 :
 1
@@ -380,7 +393,7 @@ const
 nsAString
 &
 aMedia
-IsAlternate
+HasAlternateRel
 aHasAlternateRel
 IsInline
 aIsInline

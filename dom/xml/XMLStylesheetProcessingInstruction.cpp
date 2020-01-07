@@ -783,12 +783,12 @@ title
 media
 alternate
 ?
-IsAlternate
+HasAlternateRel
 :
 :
 Yes
 :
-IsAlternate
+HasAlternateRel
 :
 :
 No
