@@ -525,6 +525,7 @@ AddAll
 {
 AddEntry
 (
+~
 0
 )
 ;
@@ -659,11 +660,17 @@ namespace
 else
 if
 (
-!
 mEntries
 [
 offset
 ]
+=
+=
+(
+uint64_t
+)
+~
+0
 )
 {
 return
