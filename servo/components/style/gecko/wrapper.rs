@@ -7890,6 +7890,17 @@ FnMut
 Self
 )
 {
+if
+!
+self
+.
+may_have_anonymous_children
+(
+)
+{
+return
+;
+}
 let
 array
 :
