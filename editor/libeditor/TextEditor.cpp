@@ -1301,8 +1301,9 @@ Element
 >
 metaElement
 =
-CreateNode
+CreateNodeWithTransaction
 (
+*
 nsGkAtoms
 :
 :
@@ -1351,7 +1352,10 @@ undoable
 undo
 should
 undo
-CreateNode
+CreateNodeWithTransaction
+(
+)
+.
 metaElement
 -
 >
@@ -2632,8 +2636,9 @@ node
 .
 newBRElement
 =
-CreateNode
+CreateNodeWithTransaction
 (
+*
 nsGkAtoms
 :
 :
@@ -2659,8 +2664,9 @@ else
 {
 newBRElement
 =
-CreateNode
+CreateNodeWithTransaction
 (
+*
 nsGkAtoms
 :
 :

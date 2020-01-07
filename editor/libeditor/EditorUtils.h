@@ -1456,7 +1456,7 @@ with
 EditorBase
 :
 :
-CreateNode
+CreateNodeWithTransaction
 (
 )
 or
