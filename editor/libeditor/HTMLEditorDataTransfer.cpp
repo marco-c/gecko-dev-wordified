@@ -4219,8 +4219,11 @@ wsRunObj
 .
 PriorVisibleNode
 (
+EditorRawDOMPoint
+(
 selNode
 selOffset
+)
 address_of
 (
 visNode
@@ -4378,8 +4381,11 @@ wsRunObj
 .
 PriorVisibleNode
 (
+EditorRawDOMPoint
+(
 selNode
 selOffset
+)
 address_of
 (
 visNode
