@@ -417,7 +417,6 @@ stream
 .
 class
 LengthInputStream
-final
 :
 public
 nsIInputStream
@@ -727,14 +726,16 @@ NS_DISPATCH_NORMAL
 )
 ;
 }
-private
+protected
 :
+virtual
 ~
 LengthInputStream
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
