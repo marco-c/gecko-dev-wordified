@@ -1256,7 +1256,7 @@ uri
 ;
 selection
 =
-DatabaseUtils
+DBUtils
 .
 concatenateWhere
 (
@@ -1272,7 +1272,7 @@ _ID
 ;
 selectionArgs
 =
-DatabaseUtils
+DBUtils
 .
 appendSelectionArgs
 (
@@ -1414,7 +1414,7 @@ uri
 ;
 selection
 =
-DatabaseUtils
+DBUtils
 .
 concatenateWhere
 (
@@ -1430,7 +1430,7 @@ _ID
 ;
 selectionArgs
 =
-DatabaseUtils
+DBUtils
 .
 appendSelectionArgs
 (
@@ -1496,7 +1496,7 @@ uri
 ;
 selection
 =
-DatabaseUtils
+DBUtils
 .
 concatenateWhere
 (
@@ -1512,7 +1512,7 @@ HOSTNAME
 ;
 selectionArgs
 =
-DatabaseUtils
+DBUtils
 .
 appendSelectionArgs
 (
@@ -1688,7 +1688,7 @@ uri
 ;
 selection
 =
-DatabaseUtils
+DBUtils
 .
 concatenateWhere
 (
@@ -1704,7 +1704,7 @@ _ID
 ;
 selectionArgs
 =
-DatabaseUtils
+DBUtils
 .
 appendSelectionArgs
 (
@@ -1916,7 +1916,7 @@ uri
 ;
 selection
 =
-DatabaseUtils
+DBUtils
 .
 concatenateWhere
 (
@@ -1932,7 +1932,7 @@ _ID
 ;
 selectionArgs
 =
-DatabaseUtils
+DBUtils
 .
 appendSelectionArgs
 (
@@ -2043,7 +2043,7 @@ uri
 ;
 selection
 =
-DatabaseUtils
+DBUtils
 .
 concatenateWhere
 (
@@ -2059,7 +2059,7 @@ _ID
 ;
 selectionArgs
 =
-DatabaseUtils
+DBUtils
 .
 appendSelectionArgs
 (
@@ -2170,7 +2170,7 @@ uri
 ;
 selection
 =
-DatabaseUtils
+DBUtils
 .
 concatenateWhere
 (
@@ -2186,7 +2186,7 @@ HOSTNAME
 ;
 selectionArgs
 =
-DatabaseUtils
+DBUtils
 .
 appendSelectionArgs
 (
@@ -3535,11 +3535,9 @@ initialValue
 .
 getBytes
 (
-"
-UTF
--
-8
-"
+StringUtils
+.
+UTF_8
 )
 )
 Base64
@@ -3617,11 +3615,9 @@ initialValue
 .
 getBytes
 (
-"
-UTF
--
-8
-"
+StringUtils
+.
+UTF_8
 )
 Base64
 .
