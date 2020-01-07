@@ -126,6 +126,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoStyleSetInlines
+.
+h
+"
+#
+include
+"
 gfxPlatformFontList
 .
 h

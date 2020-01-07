@@ -130,7 +130,7 @@ include
 "
 mozilla
 /
-ServoStyleSet
+ServoStyleSetInlines
 .
 h
 "
