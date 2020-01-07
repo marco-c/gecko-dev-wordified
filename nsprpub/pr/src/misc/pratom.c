@@ -182,13 +182,6 @@ defined
 (
 _PR_PTHREADS
 )
-&
-&
-!
-defined
-(
-_PR_DCETHREADS
-)
 /
 *
 *
@@ -981,10 +974,6 @@ else
 /
 *
 _PR_PTHREADS
-&
-&
-!
-_PR_DCETHREADS
 *
 /
 /
@@ -1234,10 +1223,6 @@ endif
 /
 *
 _PR_PTHREADS
-&
-&
-!
-_PR_DCETHREADS
 *
 /
 #
