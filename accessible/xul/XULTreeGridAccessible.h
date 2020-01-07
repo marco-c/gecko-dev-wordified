@@ -698,16 +698,8 @@ this
 ;
 }
 virtual
-nsRect
-BoundsInAppUnits
-(
-)
-const
-override
-;
-virtual
 nsIntRect
-BoundsInCSSPixels
+Bounds
 (
 )
 const

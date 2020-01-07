@@ -81,12 +81,6 @@ layout
 js
 *
 /
-/
-*
-global
-getContentDPR
-*
-/
 async
 function
 runTests
@@ -95,7 +89,6 @@ browser
 accDoc
 )
 {
-async
 function
 testTextNode
 (
@@ -119,15 +112,6 @@ hyperTextNode
 firstChild
 ;
 let
-contentDPR
-=
-await
-getContentDPR
-(
-browser
-)
-;
-let
 [
 x
 y
@@ -138,7 +122,6 @@ height
 getBounds
 (
 textNode
-contentDPR
 )
 ;
 testTextBounds
@@ -174,7 +157,6 @@ MOCHITESTS_DIR
 }
 )
 ;
-await
 testTextNode
 (
 "
@@ -182,7 +164,6 @@ p1
 "
 )
 ;
-await
 testTextNode
 (
 "
@@ -214,7 +195,6 @@ document
 }
 )
 ;
-await
 testTextNode
 (
 "
