@@ -1586,7 +1586,6 @@ header
 RequestListColumnResponseHeader
 (
 {
-connector
 item
 header
 }
