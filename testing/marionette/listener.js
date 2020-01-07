@@ -4465,11 +4465,6 @@ proxy
 .
 AsyncMessageChannel
 (
-(
-)
-=
->
-this
 sendAsyncMessage
 .
 bind
