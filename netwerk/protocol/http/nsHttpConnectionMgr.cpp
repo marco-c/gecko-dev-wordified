@@ -31151,6 +31151,14 @@ mFastOpenStatus
 =
 TFO_DATA_COOKIE_NOT_ACCEPTED
 )
+|
+|
+(
+mFastOpenStatus
+=
+=
+TFO_DISABLED
+)
 )
 ;
 RefPtr
