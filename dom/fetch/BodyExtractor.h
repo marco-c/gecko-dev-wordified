@@ -189,14 +189,11 @@ are
 /
 ArrayBuffer
 ArrayBufferView
-nsIXHRSendable
-(
 Blob
 FormData
 /
 /
 URLSearchParams
-)
 nsAString
 nsIDocument
 nsIInputStream
