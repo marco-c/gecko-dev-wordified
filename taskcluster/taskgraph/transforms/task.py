@@ -230,10 +230,7 @@ GECKO
 taskcluster
 '
 '
-docker
-'
-'
-recipes
+scripts
 '
 '
 run

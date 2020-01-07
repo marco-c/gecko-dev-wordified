@@ -696,9 +696,7 @@ EXIT_PURGE_CACHES
 in
 taskcluster
 /
-docker
-/
-recipes
+scripts
 /
 run
 -
@@ -949,9 +947,7 @@ file
 /
 taskcluster
 /
-docker
-/
-recipes
+scripts
 /
 run
 -
