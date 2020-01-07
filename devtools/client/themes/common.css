@@ -2131,17 +2131,6 @@ toolbarbutton
 [
 label
 ]
-:
-not
-(
-[
-type
-=
-menu
--
-button
-]
-)
 .
 devtools
 -
