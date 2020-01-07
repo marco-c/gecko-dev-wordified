@@ -1087,6 +1087,7 @@ true
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 bool
 GetLengthProperty
 (
