@@ -16844,7 +16844,7 @@ mFrameElement
 aFrameElement
 ;
 }
-nsIDOMNavigator
+Navigator
 *
 nsGlobalWindowOuter
 :

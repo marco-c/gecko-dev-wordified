@@ -3341,7 +3341,13 @@ _retval
 )
 override
 ;
-nsIDOMNavigator
+mozilla
+:
+:
+dom
+:
+:
+Navigator
 *
 GetNavigator
 (
