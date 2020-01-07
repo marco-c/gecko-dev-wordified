@@ -112,7 +112,7 @@ localpaths
 logger
 =
 None
-run
+stability_run
 write_inconsistent
 write_results
 =
@@ -205,7 +205,7 @@ do_delayed_imports
 :
     
 global
-run
+stability_run
 write_inconsistent
 write_results
 wptrunner
@@ -218,6 +218,16 @@ wpt
 stability
 import
 run
+as
+stability_run
+    
+from
+tools
+.
+wpt
+.
+stability
+import
 write_inconsistent
 write_results
     
@@ -1916,9 +1926,6 @@ kwargs
 )
 :
     
-global
-logger
-    
 do_delayed_imports
 (
 )
@@ -1926,12 +1933,6 @@ do_delayed_imports
 retcode
 =
 0
-    
-parser
-=
-get_parser
-(
-)
     
 wpt_args
 =
@@ -2512,7 +2513,7 @@ iterations
 results
 inconsistent
 =
-run
+stability_run
 (
 venv
 wpt_logger
@@ -2635,6 +2636,31 @@ run
 .
 "
 )
+        
+#
+Be
+conservative
+and
+only
+return
+errors
+when
+we
+know
+for
+sure
+tests
+are
+changed
+.
+        
+if
+tests_changed
+:
+            
+retcode
+=
+3
     
 return
 retcode
@@ -2650,10 +2676,13 @@ __main__
 try
 :
         
-retcode
-=
+sys
+.
+exit
+(
 main
 (
+)
 )
     
 except
@@ -2674,14 +2703,4 @@ sys
 exit
 (
 1
-)
-    
-else
-:
-        
-sys
-.
-exit
-(
-retcode
 )
