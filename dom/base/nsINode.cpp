@@ -2723,6 +2723,9 @@ GetContainingShadow
 ;
 return
 containingShadow
+&
+&
+containingShadow
 -
 >
 IsComposedDocParticipant
