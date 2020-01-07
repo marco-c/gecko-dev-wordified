@@ -1082,7 +1082,7 @@ initial_prefs
         
 initial_prefs
 =
-file
+open
 (
 prefs_file
 )
@@ -1152,7 +1152,7 @@ prefs_file
         
 lines
 =
-file
+open
 (
 prefs_file
 )
@@ -1340,7 +1340,7 @@ initial_prefs
         
 initial_prefs
 =
-file
+open
 (
 prefs_file
 )
@@ -1410,7 +1410,7 @@ prefs_file
         
 lines
 =
-file
+open
 (
 prefs_file
 )
@@ -1592,7 +1592,7 @@ initial_prefs
         
 initial_prefs
 =
-file
+open
 (
 prefs_file
 )
@@ -1674,7 +1674,7 @@ prefs_file
         
 lines
 =
-file
+open
 (
 prefs_file
 )
@@ -1803,7 +1803,7 @@ prefs_file
         
 lines
 =
-file
+open
 (
 prefs_file
 )
@@ -1914,7 +1914,7 @@ final_prefs
         
 lines
 =
-file
+open
 (
 prefs_file
 )
@@ -2056,7 +2056,7 @@ js
             
 f
 =
-file
+open
 (
 user_js
 '

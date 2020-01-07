@@ -75,15 +75,20 @@ os
 import
 tokenize
 from
-ConfigParser
+six
+.
+moves
+.
+configparser
 import
 SafeConfigParser
 as
 ConfigParser
 from
-StringIO
+six
 import
 StringIO
+string_types
 __all__
 =
 (
@@ -418,7 +423,7 @@ not
 isinstance
 (
 value
-basestring
+string_types
 )
 :
             
@@ -1030,7 +1035,7 @@ types
 =
 (
 bool
-basestring
+string_types
 int
 )
         
@@ -1370,7 +1375,7 @@ and
 isinstance
 (
 b
-basestring
+string_types
 )
 :
                 
@@ -1509,7 +1514,7 @@ if
 isinstance
 (
 value
-basestring
+string_types
 )
 and
 marker
@@ -1578,13 +1583,13 @@ if
 isinstance
 (
 _file
-basestring
+string_types
 )
 :
             
 f
 =
-file
+open
 (
 _file
 '
@@ -1686,7 +1691,7 @@ if
 isinstance
 (
 _file
-basestring
+string_types
 )
 :
             

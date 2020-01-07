@@ -74,8 +74,18 @@ import
 os
 import
 sqlite3
+from
+six
 import
-urlparse
+string_types
+from
+six
+.
+moves
+.
+urllib
+import
+parse
 __all__
 =
 [
@@ -945,7 +955,7 @@ if
 isinstance
 (
 options
-basestring
+string_types
 )
 :
             
@@ -1266,7 +1276,7 @@ path
 query
 fragment
 =
-urlparse
+parse
 .
 urlsplit
 (
