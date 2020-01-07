@@ -2722,6 +2722,7 @@ compositing
 /
 #
 endif
+NPNVLast
 }
 NPNVariable
 ;
