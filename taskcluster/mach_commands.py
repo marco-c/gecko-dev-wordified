@@ -1535,19 +1535,14 @@ repository
                      
 required
 =
-True
+False
                      
 help
 =
 '
-URL
-for
-"
-base
-"
-repository
-to
-clone
+(
+ignored
+)
 '
 )
     
@@ -1591,23 +1586,13 @@ ref
                      
 required
 =
-True
+False
                      
 help
 =
 '
-Reference
-to
-fetch
-in
-head
--
-repository
 (
-usually
-"
-default
-"
+ignored
 )
 '
 )
