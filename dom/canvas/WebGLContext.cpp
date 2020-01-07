@@ -6385,7 +6385,7 @@ LoseOldestWebGLContextIfLimitExceeded
 )
 {
 const
-size_t
+auto
 maxWebGLContexts
 =
 gfxPrefs
@@ -6395,7 +6395,7 @@ WebGLMaxContexts
 (
 )
 ;
-size_t
+auto
 maxWebGLContextsPerPrincipal
 =
 gfxPrefs
@@ -6417,6 +6417,7 @@ MOZ_ASSERT
 (
 maxWebGLContextsPerPrincipal
 <
+=
 maxWebGLContexts
 )
 ;
@@ -6429,8 +6430,6 @@ min
 (
 maxWebGLContextsPerPrincipal
 maxWebGLContexts
--
-1
 )
 ;
 if
@@ -6899,7 +6898,7 @@ GenerateWarning
 "
 Exceeded
 %
-zu
+u
 live
 WebGL
 contexts
@@ -6965,7 +6964,7 @@ GenerateWarning
 "
 Exceeded
 %
-zu
+u
 live
 WebGL
 contexts
