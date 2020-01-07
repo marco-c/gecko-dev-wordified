@@ -1506,12 +1506,8 @@ helpers
 .
 navigate
 =
-Task
-.
 async
-(
 function
-*
 (
 url
 options
@@ -1596,14 +1592,13 @@ loadURI
 url
 )
 ;
-yield
+await
 onLoaded
 ;
 return
 options
 ;
 }
-)
 ;
 /
 *
@@ -2924,12 +2919,9 @@ name
 )
 {
 return
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -2992,7 +2984,7 @@ div
 const
 options
 =
-yield
+await
 helpers
 .
 openTab
@@ -3006,7 +2998,7 @@ isRemote
 =
 true
 ;
-yield
+await
 helpers
 .
 openToolbar
@@ -3168,7 +3160,7 @@ process
 const
 front
 =
-yield
+await
 GcliFront
 .
 create
@@ -3178,7 +3170,7 @@ options
 target
 )
 ;
-yield
+await
 front
 .
 _testOnlyAddItemsByModule
@@ -3211,7 +3203,7 @@ that
 to
 complete
 .
-yield
+await
 addedDeferred
 .
 promise
@@ -3265,7 +3257,7 @@ Next
 run
 the
 tests
-yield
+await
 helpers
 .
 runTests
@@ -3303,7 +3295,7 @@ once
 (
 )
 ;
-yield
+await
 front
 .
 _testOnlyRemoveItemsByModule
@@ -3311,7 +3303,7 @@ _testOnlyRemoveItemsByModule
 MOCK_COMMANDS_URI
 )
 ;
-yield
+await
 removedDeferred
 .
 promise
@@ -3322,7 +3314,7 @@ And
 close
 everything
 down
-yield
+await
 helpers
 .
 closeToolbar
@@ -3330,7 +3322,7 @@ closeToolbar
 options
 )
 ;
-yield
+await
 helpers
 .
 closeTab
@@ -3339,6 +3331,8 @@ options
 )
 ;
 }
+)
+(
 )
 .
 then
