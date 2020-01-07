@@ -848,7 +848,7 @@ Services
 .
 appinfo
 .
-version
+appBuildID
 environment
 :
 UpdateUtils
@@ -923,13 +923,6 @@ version
 tags
 :
 {
-appBuildID
-:
-Services
-.
-appinfo
-.
-appBuildID
 changeset
 :
 AppConstants
