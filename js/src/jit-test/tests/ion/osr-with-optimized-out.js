@@ -71,6 +71,10 @@ trigger
 30
 )
 ;
+gcPreserveCode
+(
+)
+;
 function
 f
 (
