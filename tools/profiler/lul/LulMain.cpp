@@ -12103,6 +12103,12 @@ REDZONE_SIZE
 elif
 defined
 (
+GP_PLAT_arm_linux
+)
+|
+|
+defined
+(
 GP_PLAT_arm_android
 )
 volatile
