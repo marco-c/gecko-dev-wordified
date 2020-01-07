@@ -1773,6 +1773,15 @@ HashSet
 String
 >
 (
+(
+Collection
+<
+String
+>
+)
+(
+Collection
+)
 declined
 )
 ;

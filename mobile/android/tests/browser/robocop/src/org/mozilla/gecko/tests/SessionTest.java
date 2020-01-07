@@ -284,6 +284,17 @@ T
 ]
 mItems
 ;
+SuppressWarnings
+(
+{
+"
+unchecked
+"
+"
+varargs
+"
+}
+)
 public
 SessionObject
 (

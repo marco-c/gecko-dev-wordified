@@ -5293,6 +5293,14 @@ queuePersistAllTabs
 (
 )
 ;
+tab
+.
+onChange
+(
+)
+;
+break
+;
 case
 UNSELECTED
 :

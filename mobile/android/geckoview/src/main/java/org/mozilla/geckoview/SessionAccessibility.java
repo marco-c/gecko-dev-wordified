@@ -1122,6 +1122,12 @@ arguments
 )
 ;
 }
+SuppressWarnings
+(
+"
+fallthrough
+"
+)
 private
 boolean
 performContentAction
@@ -1284,6 +1290,11 @@ return
 false
 ;
 }
+/
+/
+fall
+-
+through
 case
 AccessibilityNodeInfo
 .

@@ -3298,6 +3298,12 @@ view
 ;
 }
 Override
+SuppressWarnings
+(
+"
+fallthrough
+"
+)
 public
 void
 onTabChanged
