@@ -1004,6 +1004,12 @@ await
 modulesPromise
 )
 ;
+this
+.
+initGlobal
+(
+)
+;
 for
 (
 let

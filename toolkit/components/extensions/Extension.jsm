@@ -4463,6 +4463,15 @@ manifestData
 .
 type
 ;
+await
+this
+.
+apiManager
+.
+lazyInit
+(
+)
+;
 this
 .
 webAccessibleResources

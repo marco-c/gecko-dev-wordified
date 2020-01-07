@@ -725,6 +725,12 @@ initialized
 =
 true
 ;
+this
+.
+initGlobal
+(
+)
+;
 for
 (
 let
@@ -803,6 +809,12 @@ this
 initialized
 =
 true
+;
+this
+.
+initGlobal
+(
+)
 ;
 for
 (
