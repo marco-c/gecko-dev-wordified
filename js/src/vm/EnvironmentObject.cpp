@@ -7475,7 +7475,7 @@ have
 been
 reshaped
 by
-PurgeEnvironmentChain
+ReshapeForShadowedProp
 .
 MOZ_ASSERT
 (
