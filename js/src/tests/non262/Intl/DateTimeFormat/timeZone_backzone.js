@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2017c
+2018c
 const
 tzMapper
 =
@@ -476,17 +476,6 @@ Africa
 Porto
 -
 Novo
-"
-"
-Africa
-/
-Sao_Tome
-"
-:
-"
-Africa
-/
-Sao_Tome
 "
 "
 Africa
