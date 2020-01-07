@@ -95,7 +95,10 @@ canvas_traits
 canvas
 :
 :
+{
 CanvasMsg
+CanvasId
+}
 ;
 use
 context
@@ -2840,6 +2843,10 @@ pub
 dom_height
 :
 Au
+pub
+canvas_id
+:
+CanvasId
 }
 impl
 CanvasFragmentInfo
@@ -2953,6 +2960,11 @@ height
 as
 i32
 )
+canvas_id
+:
+data
+.
+canvas_id
 }
 }
 }

@@ -90,7 +90,10 @@ canvas_traits
 canvas
 :
 :
+{
 CanvasMsg
+CanvasId
+}
 ;
 use
 devtools_traits
@@ -678,10 +681,13 @@ i32
 >
 IpcSender
 <
+(
 IpcSender
 <
 CanvasMsg
 >
+CanvasId
+)
 >
 )
 /

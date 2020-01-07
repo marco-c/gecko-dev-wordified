@@ -253,7 +253,10 @@ canvas_traits
 canvas
 :
 :
+{
 CanvasMsg
+CanvasId
+}
 ;
 use
 ipc_channel
@@ -680,6 +683,10 @@ pub
 height
 :
 u32
+pub
+canvas_id
+:
+CanvasId
 }
 pub
 struct
