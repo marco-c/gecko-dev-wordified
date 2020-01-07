@@ -712,6 +712,10 @@ mLastRequestBytesSentTime
 (
 0
 )
+mBootstrappedTimingsSet
+(
+false
+)
 {
 LOG
 (
@@ -4237,6 +4241,15 @@ mExperienced
 true
 ;
 }
+if
+(
+mBootstrappedTimingsSet
+)
+{
+mBootstrappedTimingsSet
+=
+false
+;
 nsHttpTransaction
 *
 hTrans
@@ -4276,6 +4289,7 @@ nsIClassOfService
 UrgentStart
 )
 ;
+}
 }
 mBootstrappedTimings
 =
@@ -16800,6 +16814,10 @@ TimingStruct
 times
 )
 {
+mBootstrappedTimingsSet
+=
+true
+;
 mBootstrappedTimings
 =
 times
@@ -16841,7 +16859,7 @@ NS_NET_STATUS_RESOLVED_HOST
 :
 mBootstrappedTimings
 .
-domainLookupStart
+domainLookupEnd
 =
 TimeStamp
 :
