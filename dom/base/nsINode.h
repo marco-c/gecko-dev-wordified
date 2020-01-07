@@ -4163,6 +4163,7 @@ h
 .
 *
 /
+inline
 nsINode
 *
 OwnerDocAsNode
