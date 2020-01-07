@@ -207,6 +207,7 @@ blocked
 notBlocklisted
 :
 [
+[
 "
 1
 "
@@ -215,6 +216,11 @@ notBlocklisted
 .
 9
 "
+]
+[
+null
+null
+]
 ]
 }
 "
@@ -296,6 +302,7 @@ blocked
 blocklisted
 :
 [
+[
 "
 1
 "
@@ -304,6 +311,11 @@ blocklisted
 .
 9
 "
+]
+[
+null
+null
+]
 ]
 }
 "
@@ -387,6 +399,7 @@ blocked
 blocklisted
 :
 [
+[
 "
 1
 "
@@ -395,6 +408,11 @@ blocklisted
 .
 9
 "
+]
+[
+null
+null
+]
 ]
 }
 "
@@ -478,6 +496,7 @@ blocked
 notBlocklisted
 :
 [
+[
 "
 1
 "
@@ -486,6 +505,7 @@ notBlocklisted
 .
 9
 "
+]
 ]
 }
 "
@@ -570,6 +590,7 @@ version
 blocklisted
 :
 [
+[
 "
 1
 "
@@ -579,8 +600,14 @@ blocklisted
 9
 "
 ]
+[
+null
+null
+]
+]
 notBlocklisted
 :
+[
 [
 "
 2
@@ -590,6 +617,7 @@ notBlocklisted
 .
 9
 "
+]
 ]
 }
 "
@@ -675,6 +703,7 @@ OS
 notBlocklisted
 :
 [
+[
 "
 2
 "
@@ -683,6 +712,7 @@ notBlocklisted
 .
 9
 "
+]
 ]
 }
 "
@@ -764,6 +794,7 @@ OS
 blocklisted
 :
 [
+[
 "
 2
 "
@@ -772,6 +803,7 @@ blocklisted
 .
 9
 "
+]
 ]
 }
 "
@@ -853,6 +885,7 @@ OS
 blocklisted
 :
 [
+[
 "
 2
 "
@@ -861,6 +894,7 @@ blocklisted
 .
 9
 "
+]
 ]
 }
 "
@@ -946,6 +980,7 @@ ABI
 notBlocklisted
 :
 [
+[
 "
 2
 "
@@ -954,6 +989,7 @@ notBlocklisted
 .
 9
 "
+]
 ]
 }
 "
@@ -1035,6 +1071,7 @@ ABI
 blocklisted
 :
 [
+[
 "
 2
 "
@@ -1043,6 +1080,7 @@ blocklisted
 .
 9
 "
+]
 ]
 }
 "
@@ -1124,6 +1162,7 @@ ABI
 blocklisted
 :
 [
+[
 "
 2
 "
@@ -1132,6 +1171,7 @@ blocklisted
 .
 9
 "
+]
 ]
 }
 "
@@ -1220,6 +1260,7 @@ blocked
 notBlocklisted
 :
 [
+[
 "
 2
 "
@@ -1228,6 +1269,7 @@ notBlocklisted
 .
 9
 "
+]
 ]
 }
 "
@@ -1316,6 +1358,7 @@ blocked
 notBlocklisted
 :
 [
+[
 "
 2
 "
@@ -1324,6 +1367,7 @@ notBlocklisted
 .
 9
 "
+]
 ]
 }
 "
@@ -1412,6 +1456,7 @@ blocked
 notBlocklisted
 :
 [
+[
 "
 2
 "
@@ -1420,6 +1465,7 @@ notBlocklisted
 .
 9
 "
+]
 ]
 }
 "
@@ -1504,6 +1550,7 @@ blocked
 blocklisted
 :
 [
+[
 "
 2
 "
@@ -1512,6 +1559,7 @@ blocklisted
 .
 9
 "
+]
 ]
 }
 }
@@ -1751,11 +1799,18 @@ ADDONS
 )
 )
 {
-if
+for
 (
+let
+blocklisted
+of
 options
 .
 blocklisted
+|
+|
+[
+]
 )
 {
 ok
@@ -1775,8 +1830,6 @@ id
 .
 .
 .
-options
-.
 blocklisted
 )
 Add
@@ -1794,18 +1847,23 @@ app
 platform
 version
 {
-options
-.
 blocklisted
 }
 )
 ;
 }
-if
+for
 (
+let
+notBlocklisted
+of
 options
 .
 notBlocklisted
+|
+|
+[
+]
 )
 {
 ok
@@ -1826,8 +1884,6 @@ id
 .
 .
 .
-options
-.
 notBlocklisted
 )
 Add
@@ -1846,8 +1902,6 @@ app
 platform
 version
 {
-options
-.
 notBlocklisted
 }
 )
