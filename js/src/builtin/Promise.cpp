@@ -845,7 +845,7 @@ asyncStack
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -20140,7 +20140,7 @@ is
 opened
 the
 current
-compartment
+realm
 will
 become
 debuggee
@@ -20150,7 +20150,7 @@ if
 cx
 -
 >
-compartment
+realm
 (
 )
 -

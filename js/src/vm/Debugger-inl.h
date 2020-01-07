@@ -378,7 +378,7 @@ if
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -508,7 +508,7 @@ if
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -561,7 +561,7 @@ if
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -614,7 +614,7 @@ if
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -662,7 +662,7 @@ MOZ_UNLIKELY
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -715,7 +715,7 @@ MOZ_UNLIKELY
 cx
 -
 >
-compartment
+realm
 (
 )
 -

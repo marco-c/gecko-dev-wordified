@@ -8044,15 +8044,15 @@ cares
 :
 when
 the
-compartment
+realm
 is
 debuggable
 (
 which
 is
-/
-/
 true
+/
+/
 when
 the
 web
@@ -8103,7 +8103,7 @@ if
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -8190,7 +8190,7 @@ binarySource
 cx
 -
 >
-compartment
+realm
 (
 )
 -
