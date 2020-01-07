@@ -352,7 +352,11 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
+url
+:
 POPUP_LINK
+}
 )
 ;
 await

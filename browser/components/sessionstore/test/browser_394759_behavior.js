@@ -222,7 +222,9 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
 url
+}
 )
 ;
 openDialog

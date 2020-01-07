@@ -720,7 +720,6 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
-false
 )
 ;
 await

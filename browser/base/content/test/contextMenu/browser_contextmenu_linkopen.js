@@ -166,7 +166,11 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
+url
+:
 TEST_LINK
+}
 )
 .
 then
@@ -238,7 +242,11 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
+url
+:
 TEST_LINK
+}
 )
 .
 then
