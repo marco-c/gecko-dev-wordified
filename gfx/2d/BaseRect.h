@@ -599,7 +599,7 @@ IsEmpty
 .
 MOZ_ALWAYS_INLINE
 bool
-IsZero
+IsZeroArea
 (
 )
 const
