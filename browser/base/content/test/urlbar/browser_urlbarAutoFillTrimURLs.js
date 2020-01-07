@@ -643,6 +643,10 @@ resultListType
 finalCompleteValue
 :
 "
+http
+:
+/
+/
 www
 .
 autofilltrimurl
@@ -676,6 +680,8 @@ com
 resultListDisplayTitle
 :
 "
+www
+.
 autofilltrimurl
 .
 com
@@ -696,6 +702,8 @@ http
 :
 /
 /
+www
+.
 autofilltrimurl
 .
 com
@@ -782,6 +790,8 @@ https
 :
 /
 /
+www
+.
 secureautofillurl
 .
 com
@@ -802,6 +812,8 @@ https
 :
 /
 /
+www
+.
 secureautofillurl
 .
 com

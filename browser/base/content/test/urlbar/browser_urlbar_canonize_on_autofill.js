@@ -298,7 +298,6 @@ modified
 example
 .
 com
-/
 "
 waitForUrl
 :
