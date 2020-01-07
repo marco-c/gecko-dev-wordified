@@ -6123,7 +6123,7 @@ CheckForSymantecDistrust
 intCerts
 eeCert
 JUNE_1_2016
-RootAppleAndGoogleDNs
+RootAppleAndGoogleSPKIs
 isDistrusted
 )
 ;
