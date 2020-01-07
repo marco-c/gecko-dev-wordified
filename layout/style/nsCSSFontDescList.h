@@ -167,6 +167,15 @@ CSS_FONT_DESC
 (
 font
 -
+variation
+-
+settings
+FontVariationSettings
+)
+CSS_FONT_DESC
+(
+font
+-
 language
 -
 override
