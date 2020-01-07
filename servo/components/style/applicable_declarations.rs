@@ -982,7 +982,7 @@ source
 StyleSource
 :
 :
-Declarations
+from_declarations
 (
 declarations
 )
