@@ -3308,8 +3308,16 @@ result_color
 bool
 *
 was_current_color
+mozilla
+:
+:
+css
+:
+:
+Loader
+*
+loader
 )
-;
 SERVO_BINDING_FUNC
 (
 Servo_ParseIntersectionObserverRootMargin

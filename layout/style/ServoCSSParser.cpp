@@ -184,6 +184,12 @@ aResultColor
 bool
 *
 aWasCurrentColor
+css
+:
+:
+Loader
+*
+aLoader
 )
 {
 return
@@ -204,6 +210,7 @@ aCurrentColor
 aValue
 aResultColor
 aWasCurrentColor
+aLoader
 )
 ;
 }
