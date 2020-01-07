@@ -1240,7 +1240,7 @@ i
 aBridge
 -
 >
-NotifyDidCompositeToPipeline
+NotifyPipelineRendered
 (
 aInfo
 .

@@ -935,7 +935,7 @@ aCompositeEnd
 }
 virtual
 void
-NotifyDidCompositeToPipeline
+NotifyPipelineRendered
 (
 const
 wr
@@ -3633,7 +3633,7 @@ aCompositeEnd
 )
 ;
 void
-NotifyDidCompositeToPipeline
+NotifyPipelineRendered
 (
 const
 wr
