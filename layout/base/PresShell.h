@@ -1672,12 +1672,6 @@ aIndent
 )
 override
 ;
-void
-VerifyStyleTree
-(
-)
-override
-;
 #
 endif
 static
