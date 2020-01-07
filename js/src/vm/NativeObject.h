@@ -8546,6 +8546,14 @@ count
 )
 ;
 inline
+void
+reverseDenseElementsNoPreBarrier
+(
+uint32_t
+length
+)
+;
+inline
 DenseElementResult
 setOrExtendDenseElements
 (
