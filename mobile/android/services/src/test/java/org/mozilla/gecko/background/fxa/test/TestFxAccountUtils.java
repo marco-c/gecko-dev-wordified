@@ -804,6 +804,18 @@ d02d8fe39f28b601159c543f2deeb8f72bdf2043e8279aa08496fbd9ebaea361
 "
 )
 ;
+byte
+[
+]
+kSync
+=
+FxAccountUtils
+.
+deriveSyncKey
+(
+kB
+)
+;
 KeyBundle
 bundle
 =
@@ -811,7 +823,7 @@ FxAccountUtils
 .
 generateSyncKeyBundle
 (
-kB
+kSync
 )
 ;
 Assert
