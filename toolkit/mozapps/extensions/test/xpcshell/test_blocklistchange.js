@@ -3976,7 +3976,6 @@ aVersion
 }
 .
 xpi
-null
 "
 application
 /

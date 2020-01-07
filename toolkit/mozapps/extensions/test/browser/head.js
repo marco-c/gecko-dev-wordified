@@ -3755,7 +3755,6 @@ getInstallForURL
 pathPrefix
 +
 path
-null
 "
 application
 /

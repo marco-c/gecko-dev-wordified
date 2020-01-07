@@ -376,7 +376,6 @@ addon
 sourceURI
 .
 spec
-null
 "
 application
 /

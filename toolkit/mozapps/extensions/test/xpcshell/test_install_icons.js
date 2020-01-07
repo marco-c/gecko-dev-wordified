@@ -201,7 +201,6 @@ AddonManager
 getInstallForURL
 (
 addon_url
-null
 "
 application
 /
@@ -282,7 +281,6 @@ AddonManager
 getInstallForURL
 (
 addon_url
-null
 "
 application
 /
@@ -363,7 +361,6 @@ AddonManager
 getInstallForURL
 (
 addon_url
-null
 "
 application
 /
@@ -450,7 +447,6 @@ AddonManager
 getInstallForURL
 (
 addon_url
-null
 "
 application
 /

@@ -542,7 +542,6 @@ getInstallForURL
 this
 .
 xpiLink
-null
 "
 application
 /

@@ -1394,7 +1394,6 @@ getInstallForURL
 BASE_URL
 +
 INSTALL_URL2
-undefined
 "
 application
 /
@@ -1447,7 +1446,6 @@ getInstallForURL
 BASE_URL
 +
 INSTALL_URL3
-undefined
 "
 application
 /

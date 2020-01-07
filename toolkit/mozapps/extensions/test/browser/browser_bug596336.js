@@ -174,7 +174,6 @@ aXpi
 .
 xpi
 "
-null
 "
 application
 /
