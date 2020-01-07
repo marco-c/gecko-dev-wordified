@@ -951,7 +951,7 @@ thread
 .
 static
 int
-_tgkill
+tgkill
 (
 pid_t
 tgid
@@ -2953,7 +2953,7 @@ SysRQ
 .
 if
 (
-_tgkill
+tgkill
 (
 getpid
 (
