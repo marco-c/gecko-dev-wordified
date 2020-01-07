@@ -243,6 +243,7 @@ Scotsman
 "
 }
 ;
+await
 tracker
 .
 addChangedID
@@ -821,6 +822,7 @@ hmacErrorCount
 }
 finally
 {
+await
 tracker
 .
 clearChangedIDs
@@ -1909,6 +1911,14 @@ error
 obs
 )
 ;
+(
+async
+(
+)
+=
+>
+{
+await
 tracker
 .
 clearChangedIDs
@@ -1947,6 +1957,11 @@ server
 stop
 (
 resolve
+)
+;
+}
+)
+(
 )
 ;
 }
