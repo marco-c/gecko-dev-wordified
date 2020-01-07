@@ -6053,6 +6053,9 @@ sRDPConnection
 .
 setTimeout
 (
+(
+int
+)
 mTimeoutMillis
 )
 ;
