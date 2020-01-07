@@ -14657,7 +14657,6 @@ sheetService
 >
 AgentStyleSheets
 (
-backendType
 )
 )
 {
@@ -14688,7 +14687,6 @@ sheetService
 >
 UserStyleSheets
 (
-backendType
 )
 )
 )

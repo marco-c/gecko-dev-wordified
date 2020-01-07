@@ -377,9 +377,6 @@ sheetService
 >
 AuthorStyleSheets
 (
-GetStyleBackendType
-(
-)
 )
 ;
 if
