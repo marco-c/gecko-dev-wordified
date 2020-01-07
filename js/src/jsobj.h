@@ -7857,17 +7857,6 @@ prototypes
 .
 *
 /
-JSObject
-*
-GetBuiltinPrototypePure
-(
-GlobalObject
-*
-global
-JSProtoKey
-protoKey
-)
-;
 extern
 bool
 IsStandardPrototype
