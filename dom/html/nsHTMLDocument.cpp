@@ -7002,7 +7002,7 @@ CanCallerAccess
 (
 static_cast
 <
-nsIDOMDocument
+nsIDOMNode
 *
 >
 (
@@ -7216,7 +7216,7 @@ CanCallerAccess
 (
 static_cast
 <
-nsIDOMDocument
+nsIDOMNode
 *
 >
 (

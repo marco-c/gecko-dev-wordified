@@ -932,13 +932,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMOfflineResourceList
 .
 h

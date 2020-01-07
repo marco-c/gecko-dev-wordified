@@ -32546,7 +32546,7 @@ ServiceWorkerDescriptor
 /
 /
 /
-nsIDOMDocument
+nsIDocument
 interface
 /
 /

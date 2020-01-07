@@ -187,7 +187,7 @@ h
 #
 include
 "
-nsIDOMDocument
+nsIDocument
 .
 h
 "
@@ -6041,7 +6041,7 @@ ContentDocShellTreeItem
 ;
 nsCOMPtr
 <
-nsIDOMDocument
+nsIDocument
 >
 doc
 (

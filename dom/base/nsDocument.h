@@ -1273,10 +1273,6 @@ aNode
 ;
 public
 :
-/
-/
-nsIDOMDocument
-NS_DECL_NSIDOMDOCUMENT
 using
 mozilla
 :

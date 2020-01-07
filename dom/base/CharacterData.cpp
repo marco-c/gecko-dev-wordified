@@ -216,13 +216,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

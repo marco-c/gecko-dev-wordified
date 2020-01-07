@@ -291,13 +291,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIContentIterator
 .
 h

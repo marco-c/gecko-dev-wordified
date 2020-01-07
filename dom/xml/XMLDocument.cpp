@@ -3807,7 +3807,7 @@ aWindowSizes
 }
 /
 /
-nsIDOMDocument
+nsIDocument
 interface
 nsresult
 XMLDocument

@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIObjectFrame
 .
 h

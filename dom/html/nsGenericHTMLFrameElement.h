@@ -625,15 +625,6 @@ nsIPrincipal
 aSubjectPrincipal
 )
 ;
-nsresult
-GetContentDocument
-(
-nsIDOMDocument
-*
-*
-aContentDocument
-)
-;
 already_AddRefed
 <
 nsPIDOMWindowOuter

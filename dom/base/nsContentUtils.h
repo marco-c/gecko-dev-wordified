@@ -499,9 +499,6 @@ class
 nsIDocumentLoaderFactory
 ;
 class
-nsIDOMDocument
-;
-class
 nsIDOMNode
 ;
 class
@@ -8634,7 +8631,7 @@ created
 by
 calling
 *
-nsIDOMDocument
+nsIDocument
 :
 :
 CreateEvent
@@ -8933,7 +8930,7 @@ created
 by
 calling
 *
-nsIDOMDocument
+nsIDocument
 :
 :
 CreateEvent
@@ -9286,7 +9283,7 @@ created
 by
 calling
 *
-nsIDOMDocument
+nsIDocument
 :
 :
 CreateEvent
@@ -9557,7 +9554,7 @@ created
 by
 calling
 *
-nsIDOMDocument
+nsIDocument
 :
 :
 CreateEvent

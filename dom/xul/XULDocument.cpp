@@ -6809,7 +6809,7 @@ NS_OK
 /
 /
 /
-nsIDOMDocument
+nsIDocument
 interface
 /
 /
