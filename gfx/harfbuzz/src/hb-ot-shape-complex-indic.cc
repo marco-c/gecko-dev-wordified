@@ -5043,6 +5043,7 @@ a
 pre
 -
 base
+-
 reordering
 Ra
 or
@@ -5612,6 +5613,7 @@ a
 pre
 -
 base
+-
 reordering
 Ra
 *
@@ -5625,6 +5627,7 @@ Our
 pre
 -
 base
+-
 reordering
 Ra
 '
@@ -8351,6 +8354,7 @@ for
 pre
 -
 base
+-
 reordering
 processing
 .
@@ -11260,6 +11264,7 @@ potential
 pre
 -
 base
+-
 reordering
 Ra
 .
@@ -11920,6 +11925,7 @@ Reorder
 pre
 -
 base
+-
 reordering
 consonants
 :
@@ -11930,6 +11936,7 @@ a
 pre
 -
 base
+-
 reordering
 consonant
 is
@@ -11968,6 +11975,7 @@ any
 pre
 -
 base
+-
 reordering
 Ra
 .
