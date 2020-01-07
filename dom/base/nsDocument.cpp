@@ -189,6 +189,15 @@ include
 "
 mozilla
 /
+CSSEnabledState
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -33204,10 +33213,7 @@ nsCSSPseudoElements
 GetPseudoType
 (
 pseudo
-nsCSSProps
-:
-:
-EnabledState
+CSSEnabledState
 :
 :
 eInUASheets
