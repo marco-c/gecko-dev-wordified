@@ -443,8 +443,10 @@ aIsAlternate
 )
 final
 ;
+already_AddRefed
+<
 CharacterData
-*
+>
 CloneDataNode
 (
 mozilla

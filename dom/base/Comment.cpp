@@ -220,8 +220,10 @@ eDATA_NODE
 )
 ;
 }
+already_AddRefed
+<
 CharacterData
-*
+>
 Comment
 :
 :
@@ -255,8 +257,10 @@ ni
 =
 aNodeInfo
 ;
+RefPtr
+<
 Comment
-*
+>
 it
 =
 new
@@ -271,9 +275,6 @@ forget
 ;
 if
 (
-it
-&
-&
 aCloneText
 )
 {
@@ -287,6 +288,10 @@ mText
 }
 return
 it
+.
+forget
+(
+)
 ;
 }
 #

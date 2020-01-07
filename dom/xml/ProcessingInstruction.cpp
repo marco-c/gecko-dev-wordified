@@ -535,8 +535,10 @@ eDATA_NODE
 )
 ;
 }
+already_AddRefed
+<
 CharacterData
-*
+>
 ProcessingInstruction
 :
 :
@@ -579,6 +581,8 @@ ni
 aNodeInfo
 ;
 return
+do_AddRef
+(
 new
 ProcessingInstruction
 (
@@ -588,6 +592,7 @@ forget
 (
 )
 data
+)
 )
 ;
 }

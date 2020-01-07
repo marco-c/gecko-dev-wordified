@@ -577,8 +577,10 @@ aInternalSubset
 mInternalSubset
 ;
 }
+already_AddRefed
+<
 CharacterData
-*
+>
 DocumentType
 :
 :
@@ -629,6 +631,8 @@ forget
 )
 ;
 return
+do_AddRef
+(
 new
 DocumentType
 (
@@ -636,6 +640,7 @@ ni
 mPublicId
 mSystemId
 mInternalSubset
+)
 )
 ;
 }

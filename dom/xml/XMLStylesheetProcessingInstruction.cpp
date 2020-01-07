@@ -860,8 +860,10 @@ css
 )
 ;
 }
+already_AddRefed
+<
 CharacterData
-*
+>
 XMLStylesheetProcessingInstruction
 :
 :
@@ -904,6 +906,8 @@ ni
 aNodeInfo
 ;
 return
+do_AddRef
+(
 new
 XMLStylesheetProcessingInstruction
 (
@@ -913,6 +917,7 @@ forget
 (
 )
 data
+)
 )
 ;
 }

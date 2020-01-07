@@ -262,8 +262,10 @@ as
 this
 node
 !
+RefPtr
+<
 CharacterData
-*
+>
 clone
 =
 CloneDataNode
@@ -298,6 +300,10 @@ Text
 >
 (
 clone
+.
+get
+(
+)
 )
 ;
 /
