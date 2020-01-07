@@ -121,10 +121,7 @@ normal
 ;
 }
 .
-info
-\
-.
-title
+infoTitle
 {
 margin
 -
@@ -142,10 +139,7 @@ bold
 ;
 }
 .
-info
-\
-.
-body
+infoBody
 {
 margin
 :
