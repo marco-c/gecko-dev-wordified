@@ -1599,13 +1599,9 @@ this
 .
 _tabsOrderManager
 .
-setOverflowedTabs
+setCurrentPanelDefinitions
 (
-this
-.
-state
-.
-overflowedTabIds
+panelDefinitions
 )
 ;
 let
