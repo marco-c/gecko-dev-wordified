@@ -87,7 +87,7 @@ js
 /
 *
 globals
-XMLStylesheetProcessingInstruction
+ProcessingInstruction
 *
 /
 /
@@ -1043,7 +1043,7 @@ event
 .
 target
 instanceof
-XMLStylesheetProcessingInstruction
+ProcessingInstruction
 )
 {
 return
