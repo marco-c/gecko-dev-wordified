@@ -943,6 +943,11 @@ case
 success
 "
 :
+case
+"
+fail
+"
+:
 break
 ;
 default
