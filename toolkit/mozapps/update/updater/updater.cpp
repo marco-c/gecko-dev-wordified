@@ -19820,10 +19820,12 @@ return
 1
 ;
 }
-wchar_t
-*
+auto
 cmdLine
 =
+mozilla
+:
+:
 MakeCommandLine
 (
 argc
@@ -20883,6 +20885,10 @@ sinfo
 lpParameters
 =
 cmdLine
+.
+get
+(
+)
 ;
 sinfo
 .
@@ -20906,11 +20912,6 @@ ShellExecuteEx
 (
 &
 sinfo
-)
-;
-free
-(
-cmdLine
 )
 ;
 if
