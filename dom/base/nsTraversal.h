@@ -173,13 +173,6 @@ NodeFilterBinding
 .
 h
 "
-#
-include
-"
-nsIDOMNodeFilter
-.
-h
-"
 class
 nsINode
 ;

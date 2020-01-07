@@ -273,13 +273,6 @@ h
 #
 include
 "
-nsIDOMNodeFilter
-.
-h
-"
-#
-include
-"
 nsIDOMKeyEvent
 .
 h
