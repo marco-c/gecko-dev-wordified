@@ -3457,6 +3457,11 @@ Copy
 frontBuffer
 backBuffer
 aRectToCopy
+aRectToCopy
+.
+TopLeft
+(
+)
 }
 ;
 if

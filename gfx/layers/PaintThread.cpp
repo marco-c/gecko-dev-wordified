@@ -741,12 +741,8 @@ mDestination
 CopySurface
 (
 source
-mBounds
-mBounds
-.
-TopLeft
-(
-)
+mSourceBounds
+mDestinationPoint
 )
 ;
 return
