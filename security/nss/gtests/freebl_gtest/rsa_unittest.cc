@@ -319,6 +319,9 @@ CreateKeyWithExponent
 )
 )
 ;
+#
+ifdef
+NSS_FIPS_DISABLED
 ASSERT_TRUE
 (
 key
@@ -327,4 +330,16 @@ key
 nullptr
 )
 ;
+#
+else
+ASSERT_TRUE
+(
+key
+=
+=
+nullptr
+)
+;
+#
+endif
 }
