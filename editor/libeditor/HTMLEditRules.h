@@ -1712,7 +1712,7 @@ aNode
 nsresult
 GetFormatString
 (
-nsIDOMNode
+nsINode
 *
 aNode
 nsAString

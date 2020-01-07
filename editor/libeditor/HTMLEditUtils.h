@@ -161,7 +161,7 @@ static
 bool
 IsNodeThatCanOutdent
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
