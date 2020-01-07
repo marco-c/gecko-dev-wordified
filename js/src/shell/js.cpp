@@ -59984,16 +59984,12 @@ addBoolOption
 0
 '
 "
-no
--
 nursery
 -
 strings
 "
 "
-Do
-not
-allocate
+Allocate
 strings
 in
 the
@@ -61263,8 +61259,6 @@ op
 getBoolOption
 (
 "
-no
--
 nursery
 -
 strings
@@ -61285,7 +61279,7 @@ nursery
 (
 )
 .
-disableStrings
+enableStrings
 (
 )
 ;
