@@ -1188,6 +1188,7 @@ aFlags
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleEvent
 (
@@ -3385,6 +3386,7 @@ GetCurrentEventFrame
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RetargetEventToParent
 (
@@ -3682,7 +3684,7 @@ GetDefaultBackgroundColorToDraw
 )
 ;
 DOMHighResTimeStamp
-GetPerformanceNowUnclamped
+GetPerformanceNow
 (
 )
 ;

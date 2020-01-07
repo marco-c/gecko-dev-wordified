@@ -1886,6 +1886,7 @@ RecvDeactivate
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 mozilla
 :
@@ -3463,6 +3464,7 @@ aTargets
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :
@@ -3501,6 +3503,7 @@ aInputBlockId
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :

@@ -508,6 +508,7 @@ of
 the
 carets
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 PressCaret
@@ -542,6 +543,7 @@ PressCaret
 /
 beforehand
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 DragCaret
@@ -575,6 +577,7 @@ PressCaret
 )
 beforehand
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 ReleaseCaret
@@ -595,6 +598,7 @@ point
 without
 dragging
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 TapCaret
@@ -628,6 +632,7 @@ the
 given
 point
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SelectWordOrShortcut
@@ -646,6 +651,7 @@ scroll
 start
 event
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnScrollStart
@@ -660,6 +666,7 @@ scroll
 end
 event
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnScrollEnd
@@ -688,6 +695,7 @@ OnScrollStart
 and
 OnScrollEnd
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnScrollPositionChanged
@@ -702,6 +710,7 @@ event
 from
 nsIReflowObserver
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnReflow
@@ -716,6 +725,7 @@ event
 from
 nsFocusManager
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnBlur
@@ -730,6 +740,7 @@ event
 from
 nsISelectionListener
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 OnSelectionChanged
@@ -750,6 +761,7 @@ Handle
 key
 event
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnKeyboardEvent
@@ -1046,6 +1058,7 @@ calling
 this
 method
 .
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateCarets
 (
@@ -1073,11 +1086,13 @@ current
 selection
 status
 .
+MOZ_CAN_RUN_SCRIPT
 void
 HideCarets
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateCaretsForCursorMode
 (
@@ -1087,6 +1102,7 @@ UpdateCaretsHintSet
 aHints
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateCaretsForSelectionMode
 (
@@ -1488,6 +1504,7 @@ still
 valid
 .
 MOZ_MUST_USE
+MOZ_CAN_RUN_SCRIPT
 bool
 FlushLayout
 (
@@ -2031,6 +2048,7 @@ calling
 this
 method
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 DispatchCaretStateChangedEvent

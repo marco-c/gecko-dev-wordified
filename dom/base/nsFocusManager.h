@@ -1723,6 +1723,17 @@ state
 .
 *
 /
+/
+/
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+for
+now
+until
+we
+annotate
+callers
+.
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 Blur
 (

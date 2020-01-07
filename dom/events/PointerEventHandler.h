@@ -897,6 +897,7 @@ WidgetGUIEvent
 aMouseOrTouchEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 DispatchPointerFromMouseOrTouch

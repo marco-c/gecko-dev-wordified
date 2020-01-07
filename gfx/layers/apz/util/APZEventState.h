@@ -352,6 +352,7 @@ int32_t
 aClickCount
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessLongTap
 (
@@ -380,6 +381,7 @@ uint64_t
 aInputBlockId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessLongTapUp
 (
@@ -481,6 +483,7 @@ bool
 aPreventDefault
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 FireContextmenuEvents
 (
