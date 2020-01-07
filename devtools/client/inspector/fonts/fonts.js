@@ -1160,6 +1160,13 @@ previously
 shown
 fonts
 .
+if
+(
+this
+.
+store
+)
+{
 this
 .
 store
@@ -1172,6 +1179,7 @@ fonts
 )
 )
 ;
+}
 return
 ;
 }
