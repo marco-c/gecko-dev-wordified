@@ -212,11 +212,11 @@ formAutofillStorage
 >
 {
 let
-formAutofillStorage
+storage
 ;
 try
 {
-formAutofillStorage
+storage
 =
 ChromeUtils
 .
@@ -239,7 +239,7 @@ jsm
 .
 formAutofillStorage
 ;
-formAutofillStorage
+storage
 .
 initialize
 (
@@ -251,7 +251,7 @@ catch
 ex
 )
 {
-formAutofillStorage
+storage
 =
 null
 ;
@@ -264,7 +264,7 @@ ex
 ;
 }
 return
-formAutofillStorage
+storage
 ;
 }
 )

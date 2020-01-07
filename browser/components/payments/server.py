@@ -74,7 +74,7 @@ else
 path
 =
 "
-toolkit
+browser
 /
 components
 /
