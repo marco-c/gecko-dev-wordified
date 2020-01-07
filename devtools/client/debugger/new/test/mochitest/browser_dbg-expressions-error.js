@@ -211,6 +211,12 @@ and
 another
 good
 one
+log
+(
+Adding
+location
+)
+;
 await
 addExpression
 (
