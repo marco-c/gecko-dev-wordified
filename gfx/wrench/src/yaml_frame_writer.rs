@@ -8103,9 +8103,8 @@ id
 "
 clip_id_mapper
 .
-map_id
+add_id
 (
-&
 id
 )
 as
