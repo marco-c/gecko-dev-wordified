@@ -7573,7 +7573,6 @@ objectActor
 _propertyDescriptor
 (
 symbol
-true
 )
 }
 ;
