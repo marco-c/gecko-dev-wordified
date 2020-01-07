@@ -89,6 +89,13 @@ h
 #
 include
 "
+nsMemory
+.
+h
+"
+#
+include
+"
 prenv
 .
 h

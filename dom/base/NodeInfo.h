@@ -277,6 +277,13 @@ nsAtom
 .
 h
 "
+#
+include
+"
+plhash
+.
+h
+"
 class
 nsIDocument
 ;

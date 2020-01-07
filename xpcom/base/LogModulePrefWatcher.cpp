@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsMemory
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
