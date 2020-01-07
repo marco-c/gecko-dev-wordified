@@ -314,6 +314,16 @@ return
 mMessage
 ;
 }
+nsresult
+GetResult
+(
+)
+const
+{
+return
+mResult
+;
+}
 /
 /
 Cruft
