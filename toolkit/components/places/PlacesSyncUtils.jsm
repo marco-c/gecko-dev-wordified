@@ -1501,6 +1501,13 @@ executeCached
 (
 SELECT
 url
+IFNULL
+(
+title
+"
+"
+)
+AS
 title
 frecency
 FROM
