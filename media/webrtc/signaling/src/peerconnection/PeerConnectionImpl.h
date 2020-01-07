@@ -2051,17 +2051,6 @@ get
 )
 ;
 }
-void
-FireOnTrackEvents
-(
-RefPtr
-<
-PeerConnectionObserver
->
-&
-aPco
-)
-;
 NS_IMETHODIMP
 SetRemoteDescription
 (
