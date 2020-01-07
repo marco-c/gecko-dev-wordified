@@ -2689,7 +2689,7 @@ bool
 mDumpToStdout
 ;
 nsString
-mPrefix
+mDumpPrefix
 ;
 bool
 mChromeInstance
