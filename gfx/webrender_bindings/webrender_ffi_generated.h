@@ -5719,6 +5719,14 @@ bool
 aCompositeNeeded
 )
 ;
+extern
+void
+wr_notifier_wake_up
+(
+WrWindowId
+aWindowId
+)
+;
 WR_INLINE
 void
 wr_program_cache_delete
