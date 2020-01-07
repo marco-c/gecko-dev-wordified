@@ -10455,7 +10455,7 @@ Cached
 root
 node
 .
-nsCOMPtr
+RefPtr
 <
 Element
 >
