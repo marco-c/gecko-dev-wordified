@@ -1502,6 +1502,17 @@ GetMaxTouchPoints
 const
 override
 ;
+virtual
+void
+SetWindowClass
+(
+const
+nsAString
+&
+xulWinType
+)
+override
+;
 /
 *
 *
@@ -3277,6 +3288,9 @@ mDestroyCalled
 ;
 bool
 mOpeningAnimationSuppressed
+;
+bool
+mIsEarlyBlankWindow
 ;
 uint32_t
 mBlurSuppressLevel
