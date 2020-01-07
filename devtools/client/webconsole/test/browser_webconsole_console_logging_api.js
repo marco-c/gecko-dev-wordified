@@ -221,7 +221,9 @@ outputNode
 let
 console
 =
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 console
 ;

@@ -391,7 +391,9 @@ win2
 ;
 win2
 .
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 test_panels
 (

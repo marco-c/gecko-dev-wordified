@@ -319,7 +319,9 @@ notification
 let
 pluginRemovedPromise
 =
-waitForEvent
+BrowserTestUtils
+.
+waitForContentEvent
 (
 gBrowser
 .
@@ -327,8 +329,8 @@ selectedBrowser
 "
 PluginRemoved
 "
-null
 true
+null
 true
 )
 ;

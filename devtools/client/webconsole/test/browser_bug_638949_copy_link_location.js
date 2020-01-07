@@ -260,7 +260,9 @@ clearOutput
 (
 )
 ;
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 console
 .
@@ -439,9 +441,7 @@ will
 produce
 network
 logging
-content
-.
-location
+gBrowser
 .
 reload
 (

@@ -849,9 +849,9 @@ tests
 /
 doc
 =
-content
+gBrowser
 .
-document
+contentDocumentAsCPOW
 ;
 /
 *

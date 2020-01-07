@@ -190,7 +190,9 @@ disabled
 "
 )
 ;
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 console
 .
@@ -204,7 +206,9 @@ bug916997a
 "
 )
 ;
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 console
 .

@@ -216,7 +216,9 @@ reference
 "
 )
 ;
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 wrappedJSObject
 .
