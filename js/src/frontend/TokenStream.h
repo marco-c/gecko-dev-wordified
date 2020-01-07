@@ -10407,7 +10407,7 @@ MOZ_MUST_USE
 bool
 getStringOrTemplateToken
 (
-char
+int
 untilChar
 Token
 *
