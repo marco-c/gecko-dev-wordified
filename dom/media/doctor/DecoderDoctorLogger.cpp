@@ -174,6 +174,7 @@ DecoderDoctorLogger
 :
 :
 LogState
+ReleaseAcquire
 >
 DecoderDoctorLogger
 :
