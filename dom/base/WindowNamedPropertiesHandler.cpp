@@ -153,13 +153,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 nsDOMWindowList
 .
 h

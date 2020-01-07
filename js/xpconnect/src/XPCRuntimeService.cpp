@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

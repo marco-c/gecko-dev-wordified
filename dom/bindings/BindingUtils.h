@@ -19234,11 +19234,6 @@ aGlobal
 ;
 }
 ;
-nsresult
-RegisterDOMNames
-(
-)
-;
 /
 /
 The

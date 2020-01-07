@@ -227,13 +227,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Logging

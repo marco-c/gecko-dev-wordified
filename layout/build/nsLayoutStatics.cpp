@@ -260,13 +260,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 mozilla
 /
 EventListenerManager
@@ -2134,13 +2127,6 @@ ShutDown
 )
 ;
 nsGlobalWindowOuter
-:
-:
-ShutDown
-(
-)
-;
-nsDOMClassInfo
 :
 :
 ShutDown
