@@ -217,6 +217,9 @@ const
 nsACString
 &
 aContentType
+PRFileDesc
+*
+aFD
 )
 ;
 private
