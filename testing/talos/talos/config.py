@@ -719,23 +719,6 @@ time
 )
 )
         
-#
-Bug
-1445243
--
-reduces
-precision
-of
-tests
-        
-'
-privacy
-.
-reduceTimerPrecision
-'
-:
-False
-        
 '
 places
 .
