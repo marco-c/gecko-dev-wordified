@@ -449,7 +449,7 @@ void
 FireDetailedError
 (
 DOMException
-*
+&
 aError
 )
 ;
