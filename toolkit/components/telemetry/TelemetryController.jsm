@@ -7961,7 +7961,7 @@ dirsvc
 get
 (
 "
-GreD
+GreBinD
 "
 Ci
 .
