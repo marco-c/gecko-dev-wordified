@@ -740,6 +740,8 @@ arm
 -
 sim
 -
+linux32
+-
 debug
 '
     
@@ -750,6 +752,8 @@ arm64
 -
 sim
 -
+linux64
+-
 debug
 '
     
@@ -757,6 +761,8 @@ debug
 sm
 -
 asan
+-
+linux64
 -
 opt
 '
@@ -766,15 +772,17 @@ sm
 -
 compacting
 -
+linux64
+-
 debug
 '
     
 '
 sm
 -
-win
--
 compacting
+-
+win32
 -
 debug
 '
@@ -783,6 +791,8 @@ debug
 sm
 -
 fuzzing
+-
+linux64
 '
     
 '
@@ -792,6 +802,8 @@ mozjs
 -
 sys
 -
+linux64
+-
 debug
 '
     
@@ -799,6 +811,8 @@ debug
 sm
 -
 msan
+-
+linux64
 -
 opt
 '
@@ -808,6 +822,8 @@ sm
 -
 nonunified
 -
+linux64
+-
 debug
 '
     
@@ -816,6 +832,8 @@ sm
 -
 package
 -
+linux64
+-
 opt
 '
     
@@ -824,23 +842,27 @@ sm
 -
 plain
 -
+linux64
+-
 opt
 '
     
 '
 sm
--
-win
 -
 plain
 -
+win32
+-
 opt
 '
     
 '
 sm
 -
-plaindebug
+plain
+-
+linux64
 -
 debug
 '
@@ -848,9 +870,9 @@ debug
 '
 sm
 -
-win
+plain
 -
-plaindebug
+win32
 -
 debug
 '
@@ -859,6 +881,8 @@ debug
 sm
 -
 rootanalysis
+-
+linux64
 -
 debug
 '
@@ -870,6 +894,8 @@ rust
 -
 bindings
 -
+linux64
+-
 debug
 '
     
@@ -877,6 +903,8 @@ debug
 sm
 -
 tsan
+-
+linux64
 -
 opt
 '
