@@ -1394,10 +1394,7 @@ then
 promise_rejects
 (
 t
-new
-TypeError
-(
-)
+abortReason
 writer
 .
 closed
@@ -1406,8 +1403,7 @@ closed
 should
 reject
 with
-a
-TypeError
+abortReason
 '
 )
 )

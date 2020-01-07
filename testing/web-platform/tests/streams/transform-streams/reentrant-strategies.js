@@ -2500,10 +2500,7 @@ all
 promise_rejects
 (
 t
-new
-TypeError
-(
-)
+error1
 reader
 .
 read

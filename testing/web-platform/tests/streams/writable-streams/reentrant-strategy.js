@@ -928,9 +928,7 @@ writer
 .
 abort
 (
-'
-nice
-'
+error1
 )
 ;
 return
@@ -961,10 +959,7 @@ return
 promise_rejects
 (
 t
-new
-TypeError
-(
-)
+error1
 writer
 .
 write
@@ -999,9 +994,7 @@ events
 '
 abort
 '
-'
-nice
-'
+error1
 ]
 '
 sink

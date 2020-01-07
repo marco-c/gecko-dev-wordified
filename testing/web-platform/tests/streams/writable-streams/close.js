@@ -2536,10 +2536,7 @@ method
 promise_rejects
 (
 t
-new
-TypeError
-(
-)
+error2
 writer
 .
 closed
@@ -2550,13 +2547,7 @@ closed
 must
 reject
 with
-a
-TypeError
-indicating
-the
-stream
-was
-aborted
+error2
 '
 )
 ]
