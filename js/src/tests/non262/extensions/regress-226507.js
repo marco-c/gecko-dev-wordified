@@ -393,7 +393,7 @@ S
 "
 -
 l
-js1_5
+non262
 /
 Regress
 *

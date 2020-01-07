@@ -552,7 +552,7 @@ can
 be
 found
 in
-ecma_6
+non262
 /
 Promise
 /

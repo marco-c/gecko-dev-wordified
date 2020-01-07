@@ -158,7 +158,7 @@ regular
 expressions
 in
 the
-js1_2
+non262
 /
 regexp
 folder
@@ -260,7 +260,7 @@ RegExp
 are
 in
 *
-js1_2
+non262
 /
 regexp
 /

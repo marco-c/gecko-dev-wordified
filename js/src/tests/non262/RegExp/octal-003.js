@@ -314,7 +314,7 @@ string
 See
 the
 testcase
-ecma_3
+non262
 /
 RegExp
 /

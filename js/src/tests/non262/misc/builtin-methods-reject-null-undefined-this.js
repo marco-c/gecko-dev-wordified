@@ -319,7 +319,7 @@ already
 tested
 in
 *
-ecma_5
+non262
 /
 Object
 /
@@ -345,7 +345,7 @@ already
 tested
 in
 *
-ecma_5
+non262
 /
 Object
 /
@@ -542,7 +542,7 @@ are
 tested
 *
 in
-ecma_5
+non262
 /
 extensions
 /
