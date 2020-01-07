@@ -1279,6 +1279,17 @@ grcov
             
 file_path_gcda
 =
+os
+.
+path
+.
+join
+(
+os
+.
+getcwd
+(
+)
 '
 code
 -
@@ -1288,6 +1299,7 @@ gcda
 .
 zip
 '
+)
             
 self
 .
@@ -1571,6 +1583,10 @@ return_type
 '
 files
 '
+                
+throw_exception
+=
+True
             
 )
             
