@@ -2890,6 +2890,12 @@ IgnoredErrorResult
 mozilla
 :
 :
+IgnoreErrors
+'
+'
+mozilla
+:
+:
 dom
 :
 :
