@@ -3170,7 +3170,6 @@ WebAuthnTransaction
 promise
 rpIdHash
 clientDataJSON
-requestDirectAttestation
 signal
 )
 )
@@ -4456,12 +4455,6 @@ WebAuthnTransaction
 promise
 rpIdHash
 clientDataJSON
-false
-/
-*
-aDirectAttestation
-*
-/
 signal
 )
 )
