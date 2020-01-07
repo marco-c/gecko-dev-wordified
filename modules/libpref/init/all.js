@@ -62892,8 +62892,8 @@ seconds
 .
 Default
 is
-72
-hours
+20
+minutes
 .
 pref
 (
@@ -62906,7 +62906,7 @@ blacklist
 -
 duration
 "
-259200
+1200
 )
 ;
 /
