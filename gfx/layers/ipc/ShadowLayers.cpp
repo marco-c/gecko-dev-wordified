@@ -5522,7 +5522,7 @@ void
 ShadowLayerForwarder
 :
 :
-Composite
+ScheduleComposite
 (
 )
 {
@@ -5540,7 +5540,7 @@ return
 mShadowManager
 -
 >
-SendForceComposite
+SendScheduleComposite
 (
 )
 ;

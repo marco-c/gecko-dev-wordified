@@ -5693,14 +5693,14 @@ IPCResult
 LayerTransactionParent
 :
 :
-RecvForceComposite
+RecvScheduleComposite
 (
 )
 {
 mCompositorBridge
 -
 >
-ForceComposite
+ScheduleComposite
 (
 this
 )

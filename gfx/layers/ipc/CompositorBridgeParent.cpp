@@ -7001,7 +7001,7 @@ void
 CompositorBridgeParent
 :
 :
-ForceComposite
+ScheduleComposite
 (
 LayerTransactionParent
 *
