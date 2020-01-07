@@ -276,7 +276,7 @@ func
 #
 include
 "
-nsIDOMRange
+nsRange
 .
 h
 "

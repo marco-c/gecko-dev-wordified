@@ -245,6 +245,9 @@ dom
 class
 DataTransfer
 ;
+class
+Selection
+;
 }
 /
 /
@@ -997,9 +1000,15 @@ selection
 is
 being
 dragged
-nsCOMPtr
+RefPtr
 <
-nsISelection
+mozilla
+:
+:
+dom
+:
+:
+Selection
 >
 mSelection
 ;

@@ -7554,7 +7554,13 @@ SourceSurface
 >
 RenderSelection
 (
-nsISelection
+mozilla
+:
+:
+dom
+:
+:
+Selection
 *
 aSelection
 const

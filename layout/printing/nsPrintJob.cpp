@@ -569,13 +569,6 @@ h
 #
 include
 "
-nsIDOMRange
-.
-h
-"
-#
-include
-"
 nsContentCID
 .
 h
