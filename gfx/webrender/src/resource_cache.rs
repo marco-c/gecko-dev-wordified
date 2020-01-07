@@ -223,12 +223,6 @@ device
 TextureFilter
 ;
 use
-frame
-:
-:
-FrameId
-;
-use
 glyph_cache
 :
 :
@@ -321,6 +315,12 @@ rayon
 :
 :
 ThreadPool
+;
+use
+render_backend
+:
+:
+FrameId
 ;
 use
 render_task

@@ -2841,7 +2841,7 @@ it
 in
 CPU
 memory
-the
+but
 the
 glyph
 /

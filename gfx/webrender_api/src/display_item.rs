@@ -4113,7 +4113,7 @@ ClipId
 {
 Clip
 (
-u64
+usize
 PipelineId
 )
 ClipChain
@@ -4124,14 +4124,14 @@ ClipChainId
 const
 ROOT_REFERENCE_FRAME_CLIP_ID
 :
-u64
+usize
 =
 0
 ;
 const
 ROOT_SCROLL_NODE_CLIP_ID
 :
-u64
+usize
 =
 1
 ;

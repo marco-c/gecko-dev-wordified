@@ -394,12 +394,6 @@ features
 :
 &
 [
-"
-COLOR_TARGET
-"
-"
-ALPHA_TARGET
-"
 ]
 }
 Shader
