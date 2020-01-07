@@ -4136,15 +4136,7 @@ eKeyPress
 !
 keyEvent
 .
-IsInputtingText
-(
-)
-&
-&
-!
-keyEvent
-.
-IsInputtingLineBreak
+ShouldKeyPressEventBeFiredOnContent
 (
 )
 )
