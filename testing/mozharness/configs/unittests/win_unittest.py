@@ -463,6 +463,18 @@ tools
 /
 *
 "
+        
+"
+mozpack
+/
+*
+"
+        
+"
+mozbuild
+/
+*
+"
     
 ]
     

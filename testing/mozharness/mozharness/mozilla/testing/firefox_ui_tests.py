@@ -1213,6 +1213,18 @@ wptserve
 *
 '
                         
+'
+mozpack
+/
+*
+'
+                        
+'
+mozbuild
+/
+*
+'
+                        
 ]
         
 super

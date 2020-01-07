@@ -549,6 +549,18 @@ tools
 /
 *
 "
+        
+"
+mozpack
+/
+*
+"
+        
+"
+mozbuild
+/
+*
+"
     
 ]
     
