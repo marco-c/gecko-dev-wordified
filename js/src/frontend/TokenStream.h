@@ -3958,11 +3958,6 @@ tt
 )
 const
 ;
-void
-undoGetChar
-(
-)
-;
 public
 :
 PropertyName
@@ -5471,6 +5466,11 @@ internalUpdateLineInfoForEOL
 (
 uint32_t
 lineStartOffset
+)
+;
+void
+undoInternalUpdateLineInfoForEOL
+(
 )
 ;
 public
