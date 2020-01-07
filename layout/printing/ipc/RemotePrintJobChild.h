@@ -183,7 +183,6 @@ ActorDestroyReason
 aWhy
 )
 final
-override
 ;
 nsresult
 InitializePrint
@@ -225,7 +224,6 @@ FileDescriptor
 aFd
 )
 final
-override
 ;
 void
 ProcessPage
@@ -247,7 +245,6 @@ FileDescriptor
 aFd
 )
 final
-override
 ;
 mozilla
 :
@@ -264,7 +261,6 @@ nsresult
 aRv
 )
 final
-override
 ;
 void
 SetPagePrintTimer

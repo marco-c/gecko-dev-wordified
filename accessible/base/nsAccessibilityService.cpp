@@ -3576,7 +3576,6 @@ nsITimer
 aTimer
 )
 final
-override
 {
 if
 (
@@ -3742,7 +3741,6 @@ nsACString
 aName
 )
 final
-override
 {
 aName
 .

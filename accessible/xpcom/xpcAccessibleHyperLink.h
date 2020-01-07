@@ -167,7 +167,6 @@ int32_t
 aAnchorCount
 )
 final
-override
 ;
 NS_IMETHOD
 GetStartIndex
@@ -177,7 +176,6 @@ int32_t
 aStartIndex
 )
 final
-override
 ;
 NS_IMETHOD
 GetEndIndex
@@ -187,7 +185,6 @@ int32_t
 aEndIndex
 )
 final
-override
 ;
 NS_IMETHOD
 GetURI
@@ -200,7 +197,6 @@ nsIURI
 aURI
 )
 final
-override
 ;
 NS_IMETHOD
 GetAnchor
@@ -213,7 +209,6 @@ nsIAccessible
 aAccessible
 )
 final
-override
 ;
 NS_IMETHOD
 GetValid
@@ -223,7 +218,6 @@ bool
 aValid
 )
 final
-override
 ;
 protected
 :

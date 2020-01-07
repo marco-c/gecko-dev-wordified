@@ -234,7 +234,6 @@ bool
 eventWasProcessed
 )
 final
-override
 ;
 protected
 :

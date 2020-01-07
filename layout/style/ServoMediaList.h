@@ -209,7 +209,6 @@ Clone
 (
 )
 final
-override
 ;
 void
 GetText
@@ -219,7 +218,6 @@ nsAString
 aMediaText
 )
 final
-override
 ;
 void
 SetText
@@ -230,14 +228,12 @@ nsAString
 aMediaText
 )
 final
-override
 ;
 uint32_t
 Length
 (
 )
 final
-override
 ;
 void
 IndexedGetter
@@ -252,7 +248,6 @@ nsAString
 aReturn
 )
 final
-override
 ;
 bool
 Matches
@@ -262,7 +257,6 @@ nsPresContext
 )
 const
 final
-override
 ;
 #
 ifdef
@@ -273,7 +267,6 @@ IsServo
 )
 const
 final
-override
 {
 return
 true
@@ -303,7 +296,6 @@ nsAString
 aOldMedium
 )
 final
-override
 ;
 nsresult
 Append
@@ -314,7 +306,6 @@ nsAString
 aNewMedium
 )
 final
-override
 ;
 void
 SetTextInternal

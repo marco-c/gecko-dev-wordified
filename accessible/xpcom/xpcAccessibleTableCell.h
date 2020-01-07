@@ -202,7 +202,6 @@ nsIAccessibleTable
 aTable
 )
 final
-override
 ;
 NS_IMETHOD
 GetColumnIndex
@@ -212,7 +211,6 @@ int32_t
 aColIdx
 )
 final
-override
 ;
 NS_IMETHOD
 GetRowIndex
@@ -222,7 +220,6 @@ int32_t
 aRowIdx
 )
 final
-override
 ;
 NS_IMETHOD
 GetColumnExtent
@@ -232,7 +229,6 @@ int32_t
 aExtent
 )
 final
-override
 ;
 NS_IMETHOD
 GetRowExtent
@@ -242,7 +238,6 @@ int32_t
 aExtent
 )
 final
-override
 ;
 NS_IMETHOD
 GetColumnHeaderCells
@@ -253,7 +248,6 @@ nsIArray
 aHeaderCells
 )
 final
-override
 ;
 NS_IMETHOD
 GetRowHeaderCells
@@ -264,7 +258,6 @@ nsIArray
 aHeaderCells
 )
 final
-override
 ;
 NS_IMETHOD
 IsSelected
@@ -274,7 +267,6 @@ bool
 aSelected
 )
 final
-override
 ;
 protected
 :

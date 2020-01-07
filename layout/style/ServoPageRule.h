@@ -195,7 +195,6 @@ GetParentRule
 (
 )
 final
-override
 ;
 nsINode
 *
@@ -203,7 +202,6 @@ GetParentObject
 (
 )
 final
-override
 ;
 protected
 :
@@ -215,7 +213,6 @@ Operation
 aOperation
 )
 final
-override
 ;
 nsresult
 SetCSSDeclaration
@@ -225,7 +222,6 @@ DeclarationBlock
 aDecl
 )
 final
-override
 ;
 nsIDocument
 *
@@ -233,7 +229,6 @@ DocToUpdate
 (
 )
 final
-override
 ;
 void
 GetCSSParsingEnvironment
@@ -246,7 +241,6 @@ nsIPrincipal
 aSubjectPrincipal
 )
 final
-override
 ;
 nsDOMCSSDeclaration
 :
@@ -260,7 +254,6 @@ aSubjectPrincipal
 )
 const
 final
-override
 ;
 private
 :
@@ -354,7 +347,6 @@ IsCCLeaf
 )
 const
 final
-override
 ;
 RawServoPageRule
 *
@@ -380,7 +372,6 @@ aCssText
 )
 const
 final
-override
 ;
 nsICSSDeclaration
 *
@@ -388,7 +379,6 @@ Style
 (
 )
 final
-override
 ;
 /
 /
@@ -413,7 +403,6 @@ Clone
 )
 const
 final
-override
 ;
 size_t
 SizeOfIncludingThis
@@ -426,7 +415,6 @@ aMallocSizeOf
 )
 const
 final
-override
 ;
 #
 ifdef
@@ -446,7 +434,6 @@ aIndent
 )
 const
 final
-override
 ;
 #
 endif

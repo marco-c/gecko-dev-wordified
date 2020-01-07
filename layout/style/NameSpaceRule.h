@@ -299,7 +299,6 @@ GetPrefix
 )
 const
 final
-override
 {
 return
 mPrefix
@@ -314,7 +313,6 @@ aURLSpec
 )
 const
 final
-override
 {
 aURLSpec
 =
@@ -346,7 +344,6 @@ aMallocSizeOf
 )
 const
 final
-override
 ;
 private
 :

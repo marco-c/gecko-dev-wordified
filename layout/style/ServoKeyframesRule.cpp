@@ -338,7 +338,6 @@ GetParentObject
 (
 )
 final
-override
 {
 return
 mStyleSheet
@@ -455,7 +454,6 @@ bool
 aFound
 )
 final
-override
 {
 if
 (
@@ -521,7 +519,6 @@ Length
 (
 )
 final
-override
 {
 return
 mRules

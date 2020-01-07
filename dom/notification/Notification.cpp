@@ -661,7 +661,6 @@ nsAString
 aServiceWorkerRegistrationScope
 )
 final
-override
 {
 AssertIsOnMainThread
 (
@@ -862,7 +861,6 @@ Done
 (
 )
 final
-override
 {
 ErrorResult
 result
@@ -10348,7 +10346,6 @@ Done
 (
 )
 final
-override
 {
 AssertIsOnMainThread
 (

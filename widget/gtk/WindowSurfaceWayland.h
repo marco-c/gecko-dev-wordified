@@ -605,7 +605,6 @@ LayoutDeviceIntRegion
 aInvalidRegion
 )
 final
-override
 ;
 void
 FrameCallbackHandler

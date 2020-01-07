@@ -1303,14 +1303,12 @@ nsCycleCollectionTraversalCallback
 &
 )
 final
-override
 ;
 void
 Unlink
 (
 )
 final
-override
 ;
 /
 *
@@ -1516,14 +1514,12 @@ nsCycleCollectionTraversalCallback
 &
 )
 final
-override
 ;
 void
 Unlink
 (
 )
 final
-override
 ;
 size_t
 SizeOfIncludingThis
@@ -1720,7 +1716,6 @@ CreateExtendedSlots
 (
 )
 final
-override
 {
 return
 new

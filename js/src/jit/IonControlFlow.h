@@ -1083,7 +1083,6 @@ numSuccessors
 )
 const
 final
-override
 {
 return
 Successors
@@ -1098,7 +1097,6 @@ i
 )
 const
 final
-override
 {
 return
 successors_
@@ -1117,7 +1115,6 @@ CFGBlock
 succ
 )
 final
-override
 {
 successors_
 [
@@ -1224,7 +1221,6 @@ numSuccessors
 )
 const
 final
-override
 {
 return
 2
@@ -1239,7 +1235,6 @@ i
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -1273,7 +1268,6 @@ CFGBlock
 succ
 )
 final
-override
 {
 MOZ_ASSERT
 (
@@ -1428,7 +1422,6 @@ numSuccessors
 )
 const
 final
-override
 {
 return
 successors_
@@ -1447,7 +1440,6 @@ i
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -1475,7 +1467,6 @@ CFGBlock
 succ
 )
 final
-override
 {
 MOZ_ASSERT
 (

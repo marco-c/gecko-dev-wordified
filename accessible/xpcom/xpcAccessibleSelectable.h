@@ -175,7 +175,6 @@ nsIArray
 aSelectedItems
 )
 final
-override
 ;
 NS_IMETHOD
 GetSelectedItemCount
@@ -185,7 +184,6 @@ uint32_t
 aSelectedItemCount
 )
 final
-override
 ;
 NS_IMETHOD
 GetSelectedItemAt
@@ -198,7 +196,6 @@ nsIAccessible
 aItem
 )
 final
-override
 ;
 NS_IMETHOD
 IsItemSelected
@@ -210,7 +207,6 @@ bool
 aIsSelected
 )
 final
-override
 ;
 NS_IMETHOD
 AddItemToSelection
@@ -219,7 +215,6 @@ uint32_t
 aIndex
 )
 final
-override
 ;
 NS_IMETHOD
 RemoveItemFromSelection
@@ -228,7 +223,6 @@ uint32_t
 aIndex
 )
 final
-override
 ;
 NS_IMETHOD
 SelectAll
@@ -238,14 +232,12 @@ bool
 aIsMultiSelect
 )
 final
-override
 ;
 NS_IMETHOD
 UnselectAll
 (
 )
 final
-override
 ;
 protected
 :

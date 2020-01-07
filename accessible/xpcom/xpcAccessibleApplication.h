@@ -192,7 +192,6 @@ nsAString
 aName
 )
 final
-override
 ;
 NS_IMETHOD
 GetAppVersion
@@ -202,7 +201,6 @@ nsAString
 aVersion
 )
 final
-override
 ;
 NS_IMETHOD
 GetPlatformName
@@ -212,7 +210,6 @@ nsAString
 aName
 )
 final
-override
 ;
 NS_IMETHOD
 GetPlatformVersion
@@ -222,7 +219,6 @@ nsAString
 aVersion
 )
 final
-override
 ;
 protected
 :

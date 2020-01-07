@@ -169,7 +169,6 @@ IsCCLeaf
 )
 const
 final
-override
 ;
 int32_t
 GetType
@@ -177,7 +176,6 @@ GetType
 )
 const
 final
-override
 {
 return
 css
@@ -213,7 +211,6 @@ Type
 )
 const
 final
-override
 {
 return
 CSSRuleBinding

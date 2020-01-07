@@ -226,7 +226,6 @@ nsITimer
 aTimer
 )
 final
-override
 {
 mMediaDevices
 -

@@ -231,7 +231,6 @@ NumberOfInputs
 )
 const
 final
-override
 {
 return
 0

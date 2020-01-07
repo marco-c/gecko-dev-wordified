@@ -699,7 +699,6 @@ nsITimer
 aTimer
 )
 final
-override
 {
 Run
 (

@@ -184,7 +184,6 @@ MakePrintTarget
 (
 )
 final
-override
 ;
 NS_IMETHOD
 BeginDocument
@@ -257,14 +256,12 @@ GetDPI
 (
 )
 final
-override
 ;
 float
 GetPrintingScale
 (
 )
 final
-override
 ;
 void
 GetDriverName

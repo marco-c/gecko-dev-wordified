@@ -4500,7 +4500,6 @@ CodeGenerator
 codegen
 )
 final
-override
 {
 MOZ_ASSERT
 (

@@ -174,7 +174,6 @@ int32_t
 aEndPage
 )
 final
-override
 ;
 virtual
 nsresult
@@ -182,7 +181,6 @@ EndPrinting
 (
 )
 final
-override
 ;
 virtual
 nsresult
@@ -190,7 +188,6 @@ AbortPrinting
 (
 )
 final
-override
 ;
 virtual
 nsresult
@@ -198,7 +195,6 @@ BeginPage
 (
 )
 final
-override
 ;
 virtual
 nsresult
@@ -206,7 +202,6 @@ EndPage
 (
 )
 final
-override
 ;
 virtual
 already_AddRefed
@@ -217,7 +212,6 @@ GetReferenceDrawTarget
 (
 )
 final
-override
 ;
 private
 :

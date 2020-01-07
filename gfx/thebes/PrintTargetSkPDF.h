@@ -285,7 +285,6 @@ aRecorder
 nullptr
 )
 final
-override
 ;
 virtual
 already_AddRefed
