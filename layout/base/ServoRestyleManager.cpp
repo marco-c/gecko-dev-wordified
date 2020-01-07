@@ -243,6 +243,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsImageFrame
 .
 h

@@ -247,6 +247,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h
