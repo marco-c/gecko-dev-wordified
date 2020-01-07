@@ -155,9 +155,6 @@ class
 nsIContentIterator
 ;
 class
-nsIDOMCharacterData
-;
-class
 nsIDOMDocument
 ;
 class

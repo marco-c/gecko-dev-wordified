@@ -17066,7 +17066,7 @@ TextServicesDocument
 :
 DidInsertText
 (
-nsIDOMCharacterData
+nsISupports
 *
 aTextNode
 int32_t
@@ -17089,7 +17089,7 @@ TextServicesDocument
 :
 WillDeleteText
 (
-nsIDOMCharacterData
+nsISupports
 *
 aTextNode
 int32_t
@@ -17108,7 +17108,7 @@ TextServicesDocument
 :
 DidDeleteText
 (
-nsIDOMCharacterData
+nsISupports
 *
 aTextNode
 int32_t
