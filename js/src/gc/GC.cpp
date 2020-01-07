@@ -24077,9 +24077,9 @@ GCRuntime
 :
 shouldPreserveJITCode
 (
-JSCompartment
+Realm
 *
-comp
+realm
 int64_t
 currentTime
 JS
@@ -24118,13 +24118,7 @@ true
 ;
 if
 (
-JS
-:
-:
-GetRealmForCompartment
-(
-comp
-)
+realm
 -
 >
 preserveJitCode
@@ -24136,7 +24130,7 @@ true
 ;
 if
 (
-comp
+realm
 -
 >
 lastAnimationTime
