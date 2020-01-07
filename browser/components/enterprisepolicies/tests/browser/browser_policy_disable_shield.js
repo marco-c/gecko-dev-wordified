@@ -105,6 +105,16 @@ dummy
 /
 "
 ]
+[
+"
+datareporting
+.
+healthreport
+.
+uploadEnabled
+"
+true
+]
 ]
 }
 )
