@@ -7246,7 +7246,7 @@ aImageLoadType
 )
 ;
 }
-nsresult
+void
 nsImageLoadingContent
 :
 :
@@ -7281,7 +7281,6 @@ mIsStartingImageLoad
 )
 {
 return
-NS_OK
 ;
 }
 /
@@ -7372,9 +7371,6 @@ mImageBlockingStatus
 aContentDecision
 ;
 }
-return
-NS_OK
-;
 }
 RefPtr
 <
