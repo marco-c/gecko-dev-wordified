@@ -200,7 +200,7 @@ tabsintitlebar
 js
 "
 "
-init
+onDOMContentLoaded
 chrome
 :
 /
@@ -216,7 +216,7 @@ tabsintitlebar
 js
 "
 "
-handleEvent
+onDOMContentLoaded
 chrome
 :
 /
@@ -225,9 +225,9 @@ browser
 /
 content
 /
-tabbrowser
+browser
 .
-xml
+js
 "
 ]
 maxCount
@@ -317,7 +317,7 @@ tabsintitlebar
 js
 "
 "
-init
+onDOMContentLoaded
 chrome
 :
 /
@@ -333,7 +333,7 @@ tabsintitlebar
 js
 "
 "
-handleEvent
+onDOMContentLoaded
 chrome
 :
 /
@@ -342,9 +342,9 @@ browser
 /
 content
 /
-tabbrowser
+browser
 .
-xml
+js
 "
 ]
 /
