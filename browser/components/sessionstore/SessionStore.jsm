@@ -12758,10 +12758,13 @@ previous
 session
 on
 shutdown
+without
+notification
 LastSession
 .
 clear
 (
+true
 )
 ;
 }
@@ -36062,6 +36065,9 @@ state
 }
 clear
 (
+silent
+=
+false
 )
 {
 if
@@ -36077,6 +36083,11 @@ _state
 =
 null
 ;
+if
+(
+!
+silent
+)
 Services
 .
 obs
