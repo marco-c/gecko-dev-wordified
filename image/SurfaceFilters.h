@@ -3012,7 +3012,9 @@ mRow
 =
 mUnclampedFrameRect
 .
-y
+Y
+(
+)
 ;
 /
 /
@@ -3038,7 +3040,9 @@ if
 (
 mFrameRect
 .
-y
+Y
+(
+)
 >
 0
 )
@@ -3054,7 +3058,9 @@ rowToOutput
 <
 mFrameRect
 .
-y
+Y
+(
+)
 ;
 +
 +
@@ -3297,7 +3303,9 @@ currentRow
 <
 mFrameRect
 .
-y
+Y
+(
+)
 )
 {
 /
@@ -3465,7 +3473,9 @@ min
 (
 mUnclampedFrameRect
 .
-x
+X
+(
+)
 0
 )
 ;
@@ -3543,7 +3553,9 @@ WriteBuffer
 source
 mFrameRect
 .
-x
+X
+(
+)
 mFrameRect
 .
 Width
@@ -3787,7 +3799,9 @@ aNextRowPointer
 +
 mFrameRect
 .
-x
+X
+(
+)
 *
 sizeof
 (

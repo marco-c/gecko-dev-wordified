@@ -5790,8 +5790,8 @@ origin
 .
 frameRect
 .
-x
-=
+SetRect
+(
 LittleEndian
 :
 :
@@ -5801,11 +5801,6 @@ aData
 +
 0
 )
-;
-frameRect
-.
-y
-=
 LittleEndian
 :
 :
@@ -5815,11 +5810,6 @@ aData
 +
 2
 )
-;
-frameRect
-.
-SetWidth
-(
 LittleEndian
 :
 :
@@ -5829,12 +5819,6 @@ aData
 +
 4
 )
-)
-;
-frameRect
-.
-SetHeight
-(
 LittleEndian
 :
 :
