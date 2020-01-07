@@ -8225,6 +8225,7 @@ pointToInsert
 Set
 (
 ret
+offset
 )
 ;
 }
@@ -8234,10 +8235,9 @@ SelAdjCreateNode
 (
 pointToInsert
 .
-GetContainer
+AsRaw
 (
 )
-offset
 )
 ;
 {
@@ -8523,12 +8523,7 @@ SelAdjInsertNode
 (
 aPointToInsert
 .
-GetContainer
-(
-)
-aPointToInsert
-.
-Offset
+AsRaw
 (
 )
 )
