@@ -3709,8 +3709,6 @@ after
 sub
 process
 launch
-or
-adoption
 .
 void
 InitInternal
