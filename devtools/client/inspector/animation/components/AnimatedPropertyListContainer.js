@@ -216,7 +216,6 @@ div
 {
 className
 :
-"
 animated
 -
 property
@@ -224,7 +223,13 @@ property
 list
 -
 container
-"
+{
+animation
+.
+state
+.
+type
+}
 }
 AnimatedPropertyListHeader
 (

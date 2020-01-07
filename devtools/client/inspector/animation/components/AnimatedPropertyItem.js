@@ -161,6 +161,13 @@ PropTypes
 string
 .
 isRequired
+state
+:
+PropTypes
+.
+object
+.
+isRequired
 values
 :
 PropTypes
@@ -178,6 +185,7 @@ render
 const
 {
 property
+state
 }
 =
 this
@@ -204,6 +212,7 @@ AnimatedPropertyName
 (
 {
 property
+state
 }
 )
 )
