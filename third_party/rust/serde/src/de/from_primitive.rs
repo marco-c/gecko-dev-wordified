@@ -113,7 +113,9 @@ if
 dst
 :
 :
-MIN
+min_value
+(
+)
 as
 i64
 <
@@ -131,7 +133,9 @@ i64
 dst
 :
 :
-MAX
+max_value
+(
+)
 as
 i64
 {
@@ -178,7 +182,9 @@ u64
 dst
 :
 :
-MAX
+max_value
+(
+)
 as
 u64
 {
@@ -219,7 +225,9 @@ u64
 dst
 :
 :
-MAX
+max_value
+(
+)
 as
 u64
 {
