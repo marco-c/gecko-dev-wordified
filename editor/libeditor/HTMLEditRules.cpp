@@ -24244,8 +24244,6 @@ TextEditRules
 :
 DidDeleteSelection
 (
-aDir
-aResult
 )
 ;
 }
