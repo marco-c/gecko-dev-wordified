@@ -5051,12 +5051,6 @@ IsSecureContext
 )
 const
 ;
-bool
-IsSecureContextIfOpenerIgnored
-(
-)
-const
-;
 /
 /
 Calling
