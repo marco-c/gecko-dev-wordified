@@ -210,6 +210,16 @@ PeekRedoStack
 (
 )
 ;
+nsresult
+Undo
+(
+)
+;
+nsresult
+Redo
+(
+)
+;
 size_t
 NumberOfUndoItems
 (
