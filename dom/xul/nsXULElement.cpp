@@ -9980,7 +9980,7 @@ rv
 )
 ;
 }
-nsresult
+void
 nsXULElement
 :
 :
@@ -10029,7 +10029,6 @@ iframe
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -10077,7 +10076,6 @@ kNameSpaceID_XUL
 )
 {
 return
-NS_OK
 ;
 }
 RefPtr
@@ -10276,12 +10274,18 @@ nsIFrameLoader
 frameLoader
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+NS_WARN_IF
+(
+!
 frameLoader
-NS_OK
 )
+)
+{
+return
 ;
+}
 (
 new
 AsyncEventDispatcher
@@ -10308,7 +10312,6 @@ RunDOMEventWhenSafe
 )
 ;
 }
-return
 frameLoader
 -
 >

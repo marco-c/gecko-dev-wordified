@@ -611,7 +611,7 @@ EnsureFrameLoader
 (
 )
 ;
-nsresult
+void
 LoadSrc
 (
 )
