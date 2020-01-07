@@ -496,17 +496,6 @@ py
 "
 -
 -
-config
-"
-"
-internal_pypi
-.
-py
-"
-            
-"
--
--
 product
 "
 task
