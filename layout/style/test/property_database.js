@@ -30731,9 +30731,6 @@ none
 "
 enabled
 "
-"
-disabled
-"
 ]
 invalid_values
 :

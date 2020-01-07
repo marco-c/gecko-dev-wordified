@@ -11215,13 +11215,6 @@ StyleUserInput
 Enabled
 }
 {
-eCSSKeyword_disabled
-StyleUserInput
-:
-:
-Disabled
-}
-{
 eCSSKeyword_auto
 StyleUserInput
 :
