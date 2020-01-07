@@ -3853,6 +3853,10 @@ intrinsicSizeChanged
 true
 ;
 }
+MarkNeedsDisplayItemRebuild
+(
+)
+;
 if
 (
 intrinsicSizeChanged
