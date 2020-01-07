@@ -307,7 +307,6 @@ c
 char16_t
 )
 (
-const
 unsigned
 char
 )
