@@ -2335,10 +2335,12 @@ ok
 nsJSUtils
 :
 :
-GetScopeChainForElement
+GetScopeChainForXBL
 (
 cx
 targetElement
+*
+mPrototypeBinding
 scopeChain
 )
 ;

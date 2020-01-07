@@ -660,6 +660,9 @@ Execute
 nsIContent
 *
 aBoundElement
+const
+nsXBLPrototypeBinding
+&
 )
 ;
 /
