@@ -29404,15 +29404,12 @@ true
 Telemetry
 :
 :
-ScalarSet
+Accumulate
 (
 Telemetry
 :
 :
-ScalarID
-:
-:
-NETWORK_HTTP_BACKUP_CONN_WON
+NETWORK_HTTP_BACKUP_CONN_WON_1
 (
 out
 =
