@@ -2297,7 +2297,7 @@ COUNT
 MOZ_GTEST_BENCH
 (
 TestStandardURL
-Perf
+DISABLED_Perf
 [
 ]
 {
@@ -2569,7 +2569,7 @@ by
 MOZ_GTEST_BENCH
 (
 TestStandardURL
-NormalizePerf
+DISABLED_NormalizePerf
 [
 ]
 {
@@ -2745,7 +2745,7 @@ by
 MOZ_GTEST_BENCH
 (
 TestStandardURL
-NormalizePerfFails
+DISABLED_NormalizePerfFails
 [
 ]
 {
