@@ -9641,6 +9641,7 @@ extends
 TestCase
 {
 private
+static
 final
 String
 TEST_URL_1
@@ -9656,6 +9657,7 @@ com
 "
 ;
 private
+static
 final
 String
 TEST_URL_2
@@ -9671,6 +9673,7 @@ org
 "
 ;
 private
+static
 final
 String
 TEST_TITLE
@@ -12103,6 +12106,7 @@ testRetrievalViaUrlMetadata
 )
 ;
 }
+static
 final
 String
 url1
@@ -12117,6 +12121,7 @@ mozilla
 org
 "
 ;
+static
 final
 String
 url2

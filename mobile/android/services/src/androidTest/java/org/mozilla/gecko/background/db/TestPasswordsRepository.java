@@ -367,6 +367,7 @@ extends
 AndroidSyncTestCase
 {
 private
+static
 final
 String
 NEW_PASSWORD1
@@ -376,6 +377,7 @@ password
 "
 ;
 private
+static
 final
 String
 NEW_PASSWORD2

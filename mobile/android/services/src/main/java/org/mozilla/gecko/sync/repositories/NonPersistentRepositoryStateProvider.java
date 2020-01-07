@@ -162,6 +162,7 @@ values
 set
 .
 private
+static
 final
 int
 INITIAL_CAPACITY

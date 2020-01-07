@@ -256,6 +256,7 @@ extends
 AboutHomeTest
 {
 private
+static
 final
 int
 MAX_WAIT_TEST_MS
@@ -263,6 +264,7 @@ MAX_WAIT_TEST_MS
 5000
 ;
 private
+static
 final
 String
 SEARCH_TEXT
@@ -274,6 +276,7 @@ Android
 "
 ;
 private
+static
 final
 String
 ADD_SEARCHENGINE_OPTION_TEXT

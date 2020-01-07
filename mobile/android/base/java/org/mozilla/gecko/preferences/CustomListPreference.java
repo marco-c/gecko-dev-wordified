@@ -184,6 +184,8 @@ View
 OnLongClickListener
 {
 protected
+static
+final
 String
 LOGTAG
 =

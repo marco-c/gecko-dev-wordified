@@ -126,6 +126,7 @@ class
 SiteIdentity
 {
 private
+static
 final
 String
 LOGTAG
