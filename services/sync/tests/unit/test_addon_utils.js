@@ -220,7 +220,7 @@ missing
 -
 sourceuri
 .
-xml
+json
 "
 )
 )
@@ -250,7 +250,7 @@ rewrite
 -
 search
 .
-xml
+json
 "
 )
 )

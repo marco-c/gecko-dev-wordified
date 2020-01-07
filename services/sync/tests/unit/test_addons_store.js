@@ -559,7 +559,7 @@ bootstrap1
 -
 search
 .
-xml
+json
 "
 )
 )
@@ -609,7 +609,7 @@ xpi
 -
 search
 .
-xml
+json
 "
 )
 )
@@ -639,7 +639,7 @@ systemaddon
 -
 search
 .
-xml
+json
 "
 )
 )
