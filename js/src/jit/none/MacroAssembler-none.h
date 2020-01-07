@@ -809,7 +809,11 @@ constexpr
 uint32_t
 CodeAlignment
 =
-4
+sizeof
+(
+void
+*
+)
 ;
 static
 constexpr
