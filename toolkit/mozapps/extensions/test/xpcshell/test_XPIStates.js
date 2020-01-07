@@ -466,7 +466,7 @@ equal
 (
 XS
 .
-getInstallState
+scanForChanges
 (
 )
 aChange
@@ -672,7 +672,7 @@ ok
 !
 XS
 .
-getInstallState
+scanForChanges
 (
 )
 )
