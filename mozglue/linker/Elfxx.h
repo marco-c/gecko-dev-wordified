@@ -89,9 +89,12 @@ most
 complete
 on
 older
-android
+Android
 API
 versions
+without
+unified
+headers
 .
 *
 /
@@ -106,6 +109,13 @@ ANDROID
 __ANDROID_API__
 <
 21
+&
+&
+!
+defined
+(
+__ANDROID_API_L__
+)
 #
 include
 <
