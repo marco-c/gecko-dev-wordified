@@ -1364,11 +1364,9 @@ aIsFromUserInput
 var
 expectMove
 =
-(
 !
 !
 aIdOrNameOrAcc
-)
 ;
 this
 .
@@ -1756,11 +1754,9 @@ aIsFromUserInput
 var
 expectMove
 =
-(
 !
 !
 aIdOrNameOrAcc
-)
 ;
 this
 .
@@ -2072,11 +2068,9 @@ aIdOrNameOrAcc
 var
 expectMove
 =
-(
 !
 !
 aIdOrNameOrAcc
-)
 ;
 this
 .
