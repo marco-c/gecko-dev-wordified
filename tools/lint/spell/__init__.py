@@ -684,6 +684,24 @@ warnings
 about
 binary
 file
+		
+#
+4
+:
+shut
+down
+warnings
+about
+automatic
+fixes
+                
+#
+that
+were
+disabled
+in
+dictionary
+.
                 
 '
 -
@@ -692,7 +710,7 @@ quiet
 -
 level
 =
-3
+4
 '
                 
 ]
