@@ -1444,7 +1444,7 @@ def
 _get_backend_file
 (
 self
-relativedir
+relobjdir
 )
 :
         
@@ -1459,7 +1459,7 @@ self
 environment
 .
 topobjdir
-relativedir
+relobjdir
 )
         
 if

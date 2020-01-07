@@ -266,7 +266,7 @@ later
 if
 obj
 .
-relativedir
+relsrcdir
 in
 (
                 
@@ -387,7 +387,7 @@ obj
 objdir
 obj
 .
-relativedir
+relsrcdir
 obj
 .
 config
@@ -892,7 +892,7 @@ obj
 objdir
 obj
 .
-relativedir
+relsrcdir
 obj
 .
 config
@@ -924,7 +924,7 @@ obj
 objdir
 obj
 .
-relativedir
+relsrcdir
 obj
 .
 config

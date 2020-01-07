@@ -316,7 +316,7 @@ topobjdir
 '
         
 '
-relativedir
+relsrcdir
 '
         
 '
@@ -409,7 +409,7 @@ topobjdir
         
 self
 .
-relativedir
+relsrcdir
 =
 context
 .
