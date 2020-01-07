@@ -1219,7 +1219,7 @@ component
 .
 PANELS
 .
-NOT_AUTHED_INFO
+UNVERIFIED
 )
 ;
 account
