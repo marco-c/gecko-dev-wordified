@@ -82,12 +82,10 @@ gBrowser
 .
 selectedBrowser
 .
-loadURI
+loadURIWithFlags
 (
 url
-{
 flags
-}
 )
 ;
 await
