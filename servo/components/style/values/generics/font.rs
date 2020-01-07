@@ -1327,6 +1327,7 @@ derive
 PartialEq
 ToAnimatedValue
 ToAnimatedZero
+ToCss
 )
 ]
 /
@@ -1373,6 +1374,13 @@ size
 of
 the
 keyword
+#
+[
+css
+(
+skip
+)
+]
 pub
 factor
 :
@@ -1396,6 +1404,13 @@ the
 case
 of
 calcs
+#
+[
+css
+(
+skip
+)
+]
 pub
 offset
 :
