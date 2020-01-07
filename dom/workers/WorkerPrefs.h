@@ -281,16 +281,6 @@ pref
 WORKER_SIMPLE_PREF
 (
 "
-privacy
-.
-resistFingerprinting
-"
-ResistFingerprintingEnabled
-RESISTFINGERPRINTING_ENABLED
-)
-WORKER_SIMPLE_PREF
-(
-"
 devtools
 .
 enabled
