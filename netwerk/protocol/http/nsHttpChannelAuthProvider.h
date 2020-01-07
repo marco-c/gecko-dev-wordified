@@ -815,6 +815,8 @@ bug
 bool
 BlockPrompt
 (
+bool
+proxyAuth
 )
 ;
 /
