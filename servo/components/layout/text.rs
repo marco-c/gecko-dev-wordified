@@ -3944,6 +3944,10 @@ UnscannedTextFragmentInfo
 new
 (
 string_before
+.
+into_boxed_str
+(
+)
 selection_before
 )
 )
