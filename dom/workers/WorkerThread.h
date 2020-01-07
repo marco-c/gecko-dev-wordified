@@ -193,7 +193,7 @@ class
 WorkerPrivateParent
 ;
 namespace
-workers
+workerinternals
 {
 class
 RuntimeService
@@ -248,7 +248,7 @@ WorkerThreadFriendKey
 {
 friend
 class
-workers
+workerinternals
 :
 :
 RuntimeService

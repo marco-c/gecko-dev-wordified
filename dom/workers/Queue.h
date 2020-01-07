@@ -116,18 +116,16 @@ MPL
 /
 #
 ifndef
-mozilla_dom_workers_queue_h__
+mozilla_dom_workerinternal_Queue_h
 #
 define
-mozilla_dom_workers_queue_h__
+mozilla_dom_workerinternal_Queue_h
 #
 include
 "
 mozilla
 /
 dom
-/
-workers
 /
 WorkerCommon
 .
@@ -156,7 +154,7 @@ namespace
 dom
 {
 namespace
-workersinternals
+workerinternals
 {
 template
 <
@@ -858,7 +856,7 @@ Queue
 }
 /
 /
-workersinternals
+workerinternals
 namespace
 }
 /
@@ -874,6 +872,6 @@ namespace
 endif
 /
 *
-mozilla_dom_workers_queue_h__
+mozilla_dom_workerinternals_Queue_h
 *
 /

@@ -202,7 +202,7 @@ nsWrapperCache
 {
 typedef
 struct
-workers
+workerinternals
 :
 :
 RuntimeService
