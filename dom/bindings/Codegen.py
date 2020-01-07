@@ -56870,24 +56870,6 @@ object
 argument
 .
     
-needsSubjectPrincipal
-is
-a
-boolean
-indicating
-whether
-the
-call
-should
-    
-receive
-the
-subject
-nsIPrincipal
-as
-argument
-.
-    
 needsCallerType
 is
 a
@@ -56984,9 +56966,7 @@ __init__
 (
 self
 isFallible
-needsSubjectPrincipal
 needsCallerType
-                 
 isChromeOnly
                  
 arguments
@@ -57479,6 +57459,14 @@ CGGeneric
 resultVar
 )
 )
+        
+needsSubjectPrincipal
+=
+"
+needsSubjectPrincipal
+"
+in
+extendedAttributes
         
 if
 needsSubjectPrincipal
@@ -61624,15 +61612,6 @@ self
 .
 isFallible
 (
-)
-                
-idlNode
-.
-getExtendedAttribute
-(
-'
-NeedsSubjectPrincipal
-'
 )
                 
 needsCallerType
@@ -116484,16 +116463,13 @@ the
 nsIPrincipal
         
 if
+'
+needsSubjectPrincipal
+'
+in
 self
 .
-member
-.
-getExtendedAttribute
-(
-'
-NeedsSubjectPrincipal
-'
-)
+extendedAttrs
 :
             
 #
