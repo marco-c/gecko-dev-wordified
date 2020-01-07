@@ -1416,7 +1416,7 @@ this
 ;
 }
 }
-NS_IMETHODIMP
+void
 ServoKeyframesRule
 :
 :
@@ -1426,6 +1426,7 @@ nsAString
 &
 aName
 )
+const
 {
 nsAtom
 *
@@ -1443,11 +1444,8 @@ nsDependentAtomString
 name
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 ServoKeyframesRule
 :
 :
@@ -1488,7 +1486,6 @@ oldName
 )
 {
 return
-NS_OK
 ;
 }
 UpdateRule
@@ -1518,11 +1515,8 @@ take
 }
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 ServoKeyframesRule
 :
 :
@@ -1565,7 +1559,6 @@ a
 stylesheet
 .
 return
-NS_OK
 ;
 }
 NS_ConvertUTF16toUTF8
@@ -1625,11 +1618,8 @@ AppendRule
 }
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 ServoKeyframesRule
 :
 :
@@ -1658,7 +1648,6 @@ kRuleNotFound
 )
 {
 return
-NS_OK
 ;
 }
 UpdateRule
@@ -1692,9 +1681,6 @@ index
 }
 }
 )
-;
-return
-NS_OK
 ;
 }
 /
