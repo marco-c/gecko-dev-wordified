@@ -189,10 +189,15 @@ ServiceWorkerRegistrationPromise
 GetRegistration
 (
 const
-nsAString
+ClientInfo
+&
+aClientInfo
+const
+nsACString
 &
 aURL
 )
+const
 override
 ;
 RefPtr
