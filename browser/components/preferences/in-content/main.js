@@ -9973,9 +9973,6 @@ generateQI
 Ci
 .
 nsIObserver
-Ci
-.
-nsIDOMEventListener
 ]
 )
 /
@@ -10154,7 +10151,7 @@ updateReadPrefs
 }
 /
 /
-nsIDOMEventListener
+EventListener
 handleEvent
 (
 aEvent

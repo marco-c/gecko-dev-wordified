@@ -3520,9 +3520,6 @@ generateQI
 [
 Ci
 .
-nsIDOMEventListener
-Ci
-.
 nsINavBookmarkObserver
 ]
 )
@@ -7087,7 +7084,7 @@ getFirstColumn
 }
 /
 /
-nsIDOMEventListener
+EventListener
 handleEvent
 (
 aEvent

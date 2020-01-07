@@ -2517,7 +2517,7 @@ acceptButtonDisabled
 }
 /
 /
-nsIDOMEventListener
+EventListener
 handleEvent
 :
 function
@@ -2669,16 +2669,6 @@ aIID
 {
 if
 (
-aIID
-.
-equals
-(
-Ci
-.
-nsIDOMEventListener
-)
-|
-|
 aIID
 .
 equals

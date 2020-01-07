@@ -424,9 +424,6 @@ Ci
 nsIWebProgressListener
 Ci
 .
-nsIDOMEventListener
-Ci
-.
 nsISupportsWeakReference
 ]
 )

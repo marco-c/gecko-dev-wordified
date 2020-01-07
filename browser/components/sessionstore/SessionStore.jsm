@@ -2837,9 +2837,6 @@ generateQI
 [
 Ci
 .
-nsIDOMEventListener
-Ci
-.
 nsIObserver
 Ci
 .
@@ -7195,7 +7192,7 @@ Handlers
 *
 *
 Implement
-nsIDOMEventListener
+EventListener
 for
 handling
 various

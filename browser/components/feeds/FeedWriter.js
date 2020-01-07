@@ -3928,7 +3928,7 @@ textNode
 }
 /
 /
-nsIDomEventListener
+EventListener
 handleEvent
 (
 event
@@ -6708,9 +6708,6 @@ XPCOMUtils
 generateQI
 (
 [
-Ci
-.
-nsIDOMEventListener
 Ci
 .
 nsIObserver

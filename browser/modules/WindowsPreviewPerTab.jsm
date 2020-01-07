@@ -1346,9 +1346,6 @@ generateQI
 Ci
 .
 nsITaskbarPreviewController
-Ci
-.
-nsIDOMEventListener
 ]
 )
 destroy
@@ -2368,7 +2365,7 @@ true
 }
 /
 /
-nsIDOMEventListener
+EventListener
 handleEvent
 (
 evt
@@ -3426,7 +3423,7 @@ null
 }
 /
 /
-nsIDOMEventListener
+EventListener
 handleEvent
 (
 evt
