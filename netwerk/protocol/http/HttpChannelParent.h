@@ -1570,7 +1570,10 @@ nsIAssociatedContentSecurity
 >
 mAssociatedContentSecurity
 ;
+Atomic
+<
 bool
+>
 mIPCClosed
 ;
 /
