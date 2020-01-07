@@ -3080,6 +3080,22 @@ ExprVar
 ActorDestroy
 '
 )
+def
+errfnUnreachable
+(
+msg
+)
+:
+    
+return
+[
+        
+_logicError
+(
+msg
+)
+    
+]
 class
 _DestroyReason
 :
@@ -31341,6 +31357,9 @@ var
 reply
 =
 True
+errorfn
+=
+errfnUnreachable
 )
 )
         
@@ -32464,6 +32483,9 @@ self
 transition
 (
 md
+errorfn
+=
+errfnRecv
 )
             
 +
@@ -32697,6 +32719,9 @@ self
 transition
 (
 md
+errorfn
+=
+errfnRecv
 )
             
 +
@@ -32963,6 +32988,9 @@ self
 transition
 (
 md
+errorfn
+=
+errfnRecv
 )
             
 +
@@ -35812,6 +35840,9 @@ transition
 (
 md
 actor
+errorfn
+=
+errfnUnreachable
 )
         
 stmts
@@ -36000,6 +36031,9 @@ transition
 (
 md
 actor
+errorfn
+=
+errfnUnreachable
 )
             
 +
@@ -37321,6 +37355,9 @@ None
 reply
 =
 False
+errorfn
+=
+None
 )
 :
         
@@ -37458,10 +37495,11 @@ stateexpr
 )
 )
         
-return
-[
-            
-StmtExpr
+ifstmt
+=
+StmtIf
+(
+ExprNot
 (
 ExprCall
 (
@@ -37474,7 +37512,24 @@ args
 args
 )
 )
+)
         
+ifstmt
+.
+addifstmts
+(
+errorfn
+(
+'
+Transition
+error
+'
+)
+)
+        
+return
+[
+ifstmt
 ]
     
 def

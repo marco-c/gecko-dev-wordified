@@ -4535,7 +4535,7 @@ Start
 Null
 }
 ;
-void
+bool
 StateTransition
 (
 bool
@@ -4557,7 +4557,7 @@ Start
 Null
 }
 ;
-void
+bool
 ReEntrantDeleteStateTransition
 (
 bool
