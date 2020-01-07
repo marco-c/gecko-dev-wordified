@@ -186,6 +186,14 @@ glcontext_ptr
 )
 ;
 bool
+is_glcontext_angle
+(
+void
+*
+glcontext_ptr
+)
+;
+bool
 gfx_use_wrench
 (
 )
