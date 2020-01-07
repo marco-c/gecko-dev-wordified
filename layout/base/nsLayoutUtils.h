@@ -15762,7 +15762,7 @@ face
 *
 /
 static
-nsresult
+void
 GetFontFacesForText
 (
 nsIFrame
