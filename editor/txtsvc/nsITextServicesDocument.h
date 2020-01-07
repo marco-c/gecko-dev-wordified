@@ -117,13 +117,13 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMRange
-;
-class
 nsIEditor
 ;
 class
 nsITextServicesFilter
+;
+class
+nsRange
 ;
 /
 *
@@ -486,7 +486,7 @@ object
 NS_IMETHOD
 SetExtent
 (
-nsIDOMRange
+nsRange
 *
 aDOMRange
 )
@@ -543,7 +543,7 @@ adjusted
 NS_IMETHOD
 ExpandRangeToWordBoundaries
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )
