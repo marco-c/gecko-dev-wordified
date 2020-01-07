@@ -1581,6 +1581,8 @@ actors
 inspector
 /
 inspector
+-
+actor
 .
 js
 *

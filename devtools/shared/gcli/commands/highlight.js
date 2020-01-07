@@ -85,6 +85,8 @@ actors
 inspector
 /
 inspector
+-
+actor
 "
 )
 ;
