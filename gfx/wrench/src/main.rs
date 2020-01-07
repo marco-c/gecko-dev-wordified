@@ -136,7 +136,7 @@ cfg
 feature
 =
 "
-logging
+env_logger
 "
 )
 ]
@@ -2440,7 +2440,7 @@ cfg
 feature
 =
 "
-logging
+env_logger
 "
 )
 ]

@@ -108,10 +108,7 @@ use
 resource_cache
 :
 :
-{
 FontInstanceMap
-TiledImageMap
-}
 ;
 use
 render_backend
@@ -340,10 +337,6 @@ pub
 font_instances
 :
 FontInstanceMap
-pub
-tiled_image_map
-:
-TiledImageMap
 pub
 output_pipelines
 :

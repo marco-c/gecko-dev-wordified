@@ -592,10 +592,6 @@ doc
 content_rect
 )
 None
-ScrollPolicy
-:
-:
-Fixed
 None
 TransformStyle
 :

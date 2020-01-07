@@ -2129,13 +2129,6 @@ push_stacking_context
 &
 info
 None
-api
-:
-:
-ScrollPolicy
-:
-:
-Scrollable
 None
 api
 :

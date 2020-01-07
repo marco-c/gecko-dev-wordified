@@ -607,9 +607,6 @@ mod
 gamma_lut
 ;
 mod
-geometry
-;
-mod
 glyph_cache
 ;
 mod
