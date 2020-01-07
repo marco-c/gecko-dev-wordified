@@ -638,12 +638,16 @@ img
 .
 descriptor
 .
+size
+.
 width
 height
 :
 img
 .
 descriptor
+.
+size
 .
 height
 format
@@ -708,6 +712,8 @@ img
 .
 descriptor
 .
+size
+.
 width
 )
 ;
@@ -720,6 +726,8 @@ height
 img
 .
 descriptor
+.
+size
 .
 height
 )
