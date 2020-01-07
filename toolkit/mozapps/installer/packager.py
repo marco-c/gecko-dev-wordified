@@ -1351,6 +1351,25 @@ entry
 )
     
 def
+add_interfaces
+(
+self
+path
+content
+)
+:
+        
+self
+.
+_formatter
+.
+add_interfaces
+(
+path
+content
+)
+    
+def
 contains
 (
 self
