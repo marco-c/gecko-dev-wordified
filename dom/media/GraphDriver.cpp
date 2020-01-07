@@ -1682,7 +1682,7 @@ nextStateComputedTime
 mGraphImpl
 -
 >
-RoundUpToNextAudioBlock
+RoundUpToEndOfAudioBlock
 (
 mIterationEnd
 +
@@ -5381,7 +5381,7 @@ nextStateComputedTime
 mGraphImpl
 -
 >
-RoundUpToNextAudioBlock
+RoundUpToEndOfAudioBlock
 (
 stateComputedTime
 +
