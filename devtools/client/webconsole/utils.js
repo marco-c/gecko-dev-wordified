@@ -255,6 +255,7 @@ var
 WebConsoleUtils
 =
 {
+CONSOLE_ENTRY_THRESHOLD
 /
 *
 *
@@ -817,7 +818,7 @@ function
 *
 *
 param
-funtion
+function
 function
 *
 The
