@@ -154,6 +154,9 @@ nsIControllers
 class
 nsIController
 ;
+class
+nsINode
+;
 namespace
 mozilla
 {
@@ -236,8 +239,10 @@ a
 popup
 menu
 virtual
-nsIDOMNode
-*
+already_AddRefed
+<
+nsINode
+>
 GetPopupNode
 (
 )
@@ -248,7 +253,7 @@ virtual
 void
 SetPopupNode
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
