@@ -1207,7 +1207,7 @@ MDefinition
 Opcode
 :
 :
-AsmJSCompareExchangeHeap
+WasmCompareExchangeHeap
 :
 case
 MDefinition
@@ -1216,7 +1216,7 @@ MDefinition
 Opcode
 :
 :
-AsmJSAtomicBinopHeap
+WasmAtomicBinopHeap
 :
 case
 MDefinition

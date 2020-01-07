@@ -2432,9 +2432,9 @@ void
 CodeGeneratorARM64
 :
 :
-visitAsmJSCompareExchangeHeap
+visitWasmCompareExchangeHeap
 (
-LAsmJSCompareExchangeHeap
+LWasmCompareExchangeHeap
 *
 ins
 )
@@ -2442,7 +2442,7 @@ ins
 MOZ_CRASH
 (
 "
-visitAsmJSCompareExchangeHeap
+visitWasmCompareExchangeHeap
 "
 )
 ;
@@ -2451,9 +2451,9 @@ void
 CodeGeneratorARM64
 :
 :
-visitAsmJSAtomicBinopHeap
+visitWasmAtomicBinopHeap
 (
-LAsmJSAtomicBinopHeap
+LWasmAtomicBinopHeap
 *
 ins
 )
@@ -2461,7 +2461,7 @@ ins
 MOZ_CRASH
 (
 "
-visitAsmJSAtomicBinopHeap
+visitWasmAtomicBinopHeap
 "
 )
 ;

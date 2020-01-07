@@ -2110,7 +2110,7 @@ toInstruction
 }
 ;
 class
-LAsmJSCompareExchangeCallout
+LWasmCompareExchangeCallout
 :
 public
 LCallInstructionHelper
@@ -2124,9 +2124,9 @@ public
 :
 LIR_HEADER
 (
-AsmJSCompareExchangeCallout
+WasmCompareExchangeCallout
 )
-LAsmJSCompareExchangeCallout
+LWasmCompareExchangeCallout
 (
 const
 LAllocation
@@ -2248,7 +2248,7 @@ getOperand
 ;
 }
 const
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 *
 mir
 (
@@ -2259,7 +2259,7 @@ return
 mir_
 -
 >
-toAsmJSCompareExchangeHeap
+toWasmCompareExchangeHeap
 (
 )
 ;
@@ -2267,7 +2267,7 @@ toAsmJSCompareExchangeHeap
 }
 ;
 class
-LAsmJSAtomicExchangeCallout
+LWasmAtomicExchangeCallout
 :
 public
 LCallInstructionHelper
@@ -2281,9 +2281,9 @@ public
 :
 LIR_HEADER
 (
-AsmJSAtomicExchangeCallout
+WasmAtomicExchangeCallout
 )
-LAsmJSAtomicExchangeCallout
+LWasmAtomicExchangeCallout
 (
 const
 LAllocation
@@ -2381,7 +2381,7 @@ getOperand
 ;
 }
 const
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 *
 mir
 (
@@ -2392,7 +2392,7 @@ return
 mir_
 -
 >
-toAsmJSAtomicExchangeHeap
+toWasmAtomicExchangeHeap
 (
 )
 ;
@@ -2400,7 +2400,7 @@ toAsmJSAtomicExchangeHeap
 }
 ;
 class
-LAsmJSAtomicBinopCallout
+LWasmAtomicBinopCallout
 :
 public
 LCallInstructionHelper
@@ -2414,9 +2414,9 @@ public
 :
 LIR_HEADER
 (
-AsmJSAtomicBinopCallout
+WasmAtomicBinopCallout
 )
-LAsmJSAtomicBinopCallout
+LWasmAtomicBinopCallout
 (
 const
 LAllocation
@@ -2514,7 +2514,7 @@ getOperand
 ;
 }
 const
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 *
 mir
 (
@@ -2525,7 +2525,7 @@ return
 mir_
 -
 >
-toAsmJSAtomicBinopHeap
+toWasmAtomicBinopHeap
 (
 )
 ;
@@ -3397,7 +3397,7 @@ replacement
 )
 ;
 }
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 *
 mir
 (
@@ -3408,7 +3408,7 @@ return
 mir_
 -
 >
-toAsmJSCompareExchangeHeap
+toWasmCompareExchangeHeap
 (
 )
 ;

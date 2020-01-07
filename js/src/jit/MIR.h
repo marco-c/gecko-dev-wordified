@@ -71442,7 +71442,7 @@ WasmHeap
 }
 ;
 class
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 :
 public
 MVariadicInstruction
@@ -71465,7 +71465,7 @@ BytecodeOffset
 bytecodeOffset_
 ;
 explicit
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 (
 const
 wasm
@@ -71519,10 +71519,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmJSCompareExchangeHeap
+WasmCompareExchangeHeap
 )
 static
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 *
 New
 (
@@ -71558,7 +71558,7 @@ MDefinition
 tls
 )
 {
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 *
 cas
 =
@@ -71566,7 +71566,7 @@ new
 (
 alloc
 )
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 (
 access
 bytecodeOffset
@@ -71765,7 +71765,7 @@ WasmHeap
 }
 ;
 class
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 :
 public
 MVariadicInstruction
@@ -71788,7 +71788,7 @@ BytecodeOffset
 bytecodeOffset_
 ;
 explicit
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 (
 const
 wasm
@@ -71842,10 +71842,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmJSAtomicExchangeHeap
+WasmAtomicExchangeHeap
 )
 static
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 *
 New
 (
@@ -71878,7 +71878,7 @@ MDefinition
 tls
 )
 {
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 *
 xchg
 =
@@ -71886,7 +71886,7 @@ new
 (
 alloc
 )
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 (
 access
 bytecodeOffset
@@ -72062,7 +72062,7 @@ WasmHeap
 }
 ;
 class
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 :
 public
 MVariadicInstruction
@@ -72088,7 +72088,7 @@ BytecodeOffset
 bytecodeOffset_
 ;
 explicit
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 (
 AtomicOp
 op
@@ -72148,10 +72148,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmJSAtomicBinopHeap
+WasmAtomicBinopHeap
 )
 static
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 *
 New
 (
@@ -72186,7 +72186,7 @@ MDefinition
 tls
 )
 {
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 *
 binop
 =
@@ -72194,7 +72194,7 @@ new
 (
 alloc
 )
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 (
 op
 access

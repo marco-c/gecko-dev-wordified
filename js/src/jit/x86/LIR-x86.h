@@ -1506,7 +1506,7 @@ replacement
 )
 ;
 }
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 *
 mir
 (
@@ -1517,7 +1517,7 @@ return
 mir_
 -
 >
-toAsmJSCompareExchangeHeap
+toWasmCompareExchangeHeap
 (
 )
 ;

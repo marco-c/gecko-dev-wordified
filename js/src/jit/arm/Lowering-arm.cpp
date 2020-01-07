@@ -6871,9 +6871,9 @@ void
 LIRGeneratorARM
 :
 :
-visitAsmJSCompareExchangeHeap
+visitWasmCompareExchangeHeap
 (
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 *
 ins
 )
@@ -7054,7 +7054,7 @@ offset
 0
 )
 ;
-LAsmJSCompareExchangeCallout
+LWasmCompareExchangeCallout
 *
 lir
 =
@@ -7064,7 +7064,7 @@ alloc
 (
 )
 )
-LAsmJSCompareExchangeCallout
+LWasmCompareExchangeCallout
 (
 useFixedAtStart
 (
@@ -7120,7 +7120,7 @@ ins
 return
 ;
 }
-LAsmJSCompareExchangeHeap
+LWasmCompareExchangeHeap
 *
 lir
 =
@@ -7130,7 +7130,7 @@ alloc
 (
 )
 )
-LAsmJSCompareExchangeHeap
+LWasmCompareExchangeHeap
 (
 useRegister
 (
@@ -7167,9 +7167,9 @@ void
 LIRGeneratorARM
 :
 :
-visitAsmJSAtomicExchangeHeap
+visitWasmAtomicExchangeHeap
 (
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 *
 ins
 )
@@ -7360,7 +7360,7 @@ alloc
 (
 )
 )
-LAsmJSAtomicExchangeCallout
+LWasmAtomicExchangeCallout
 (
 useFixedAtStart
 (
@@ -7443,7 +7443,7 @@ alloc
 (
 )
 )
-LAsmJSAtomicExchangeHeap
+LWasmAtomicExchangeHeap
 (
 base
 value
@@ -7456,9 +7456,9 @@ void
 LIRGeneratorARM
 :
 :
-visitAsmJSAtomicBinopHeap
+visitWasmAtomicBinopHeap
 (
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 *
 ins
 )
@@ -7650,7 +7650,7 @@ offset
 0
 )
 ;
-LAsmJSAtomicBinopCallout
+LWasmAtomicBinopCallout
 *
 lir
 =
@@ -7660,7 +7660,7 @@ alloc
 (
 )
 )
-LAsmJSAtomicBinopCallout
+LWasmAtomicBinopCallout
 (
 useFixedAtStart
 (
@@ -7717,7 +7717,7 @@ hasUses
 )
 )
 {
-LAsmJSAtomicBinopHeapForEffect
+LWasmAtomicBinopHeapForEffect
 *
 lir
 =
@@ -7727,7 +7727,7 @@ alloc
 (
 )
 )
-LAsmJSAtomicBinopHeapForEffect
+LWasmAtomicBinopHeapForEffect
 (
 useRegister
 (
@@ -7762,7 +7762,7 @@ ins
 return
 ;
 }
-LAsmJSAtomicBinopHeap
+LWasmAtomicBinopHeap
 *
 lir
 =
@@ -7772,7 +7772,7 @@ alloc
 (
 )
 )
-LAsmJSAtomicBinopHeap
+LWasmAtomicBinopHeap
 (
 useRegister
 (

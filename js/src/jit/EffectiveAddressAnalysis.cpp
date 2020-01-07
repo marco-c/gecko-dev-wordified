@@ -2110,11 +2110,11 @@ don
 t
 check
 for
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 /
 /
 or
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 because
 the
 backend

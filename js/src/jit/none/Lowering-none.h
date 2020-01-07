@@ -858,9 +858,9 @@ MOZ_CRASH
 ;
 }
 void
-visitAsmJSCompareExchangeHeap
+visitWasmCompareExchangeHeap
 (
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 *
 ins
 )
@@ -871,9 +871,9 @@ MOZ_CRASH
 ;
 }
 void
-visitAsmJSAtomicExchangeHeap
+visitWasmAtomicExchangeHeap
 (
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 *
 ins
 )
@@ -884,9 +884,9 @@ MOZ_CRASH
 ;
 }
 void
-visitAsmJSAtomicBinopHeap
+visitWasmAtomicBinopHeap
 (
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 *
 ins
 )

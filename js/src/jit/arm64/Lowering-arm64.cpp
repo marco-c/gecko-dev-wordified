@@ -1162,9 +1162,9 @@ void
 LIRGeneratorARM64
 :
 :
-visitAsmJSCompareExchangeHeap
+visitWasmCompareExchangeHeap
 (
-MAsmJSCompareExchangeHeap
+MWasmCompareExchangeHeap
 *
 ins
 )
@@ -1172,7 +1172,7 @@ ins
 MOZ_CRASH
 (
 "
-visitAsmJSCompareExchangeHeap
+visitWasmCompareExchangeHeap
 "
 )
 ;
@@ -1181,9 +1181,9 @@ void
 LIRGeneratorARM64
 :
 :
-visitAsmJSAtomicExchangeHeap
+visitWasmAtomicExchangeHeap
 (
-MAsmJSAtomicExchangeHeap
+MWasmAtomicExchangeHeap
 *
 ins
 )
@@ -1191,7 +1191,7 @@ ins
 MOZ_CRASH
 (
 "
-visitAsmJSAtomicExchangeHeap
+visitWasmAtomicExchangeHeap
 "
 )
 ;
@@ -1200,9 +1200,9 @@ void
 LIRGeneratorARM64
 :
 :
-visitAsmJSAtomicBinopHeap
+visitWasmAtomicBinopHeap
 (
-MAsmJSAtomicBinopHeap
+MWasmAtomicBinopHeap
 *
 ins
 )
@@ -1210,7 +1210,7 @@ ins
 MOZ_CRASH
 (
 "
-visitAsmJSAtomicBinopHeap
+visitWasmAtomicBinopHeap
 "
 )
 ;
