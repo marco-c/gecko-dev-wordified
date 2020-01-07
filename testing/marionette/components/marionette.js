@@ -1617,6 +1617,14 @@ installDistroAddons
 "
 false
 ]
+[
+"
+extensions
+.
+showMismatchUI
+"
+false
+]
 /
 /
 Turn
