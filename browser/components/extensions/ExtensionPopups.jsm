@@ -3835,6 +3835,15 @@ this
 tempBrowser
 )
 {
+if
+(
+this
+.
+tempBrowser
+.
+parentNode
+)
+{
 this
 .
 tempBrowser
@@ -3845,6 +3854,7 @@ remove
 (
 )
 ;
+}
 this
 .
 tempBrowser
