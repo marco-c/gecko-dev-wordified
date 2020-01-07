@@ -230,7 +230,7 @@ tabbrowser
 xml
 "
 ]
-times
+maxCount
 :
 2
 /
@@ -360,7 +360,7 @@ down
 never
 up
 .
-times
+maxCount
 :
 Services
 .

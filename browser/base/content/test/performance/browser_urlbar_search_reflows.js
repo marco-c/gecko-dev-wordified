@@ -306,22 +306,6 @@ autocomplete
 xml
 "
 ]
-times
-:
-1
-/
-/
-This
-number
-should
-only
-ever
-go
-down
--
-never
-up
-.
 }
 {
 stack
@@ -360,7 +344,7 @@ autocomplete
 xml
 "
 ]
-times
+maxCount
 :
 5
 /
@@ -419,7 +403,7 @@ autocomplete
 xml
 "
 ]
-times
+maxCount
 :
 3
 /
@@ -537,7 +521,7 @@ autocomplete
 xml
 "
 ]
-times
+maxCount
 :
 36
 /
@@ -651,7 +635,7 @@ autocomplete
 xml
 "
 ]
-times
+maxCount
 :
 6
 /
@@ -810,7 +794,7 @@ autocomplete
 xml
 "
 ]
-times
+maxCount
 :
 3
 /
@@ -869,7 +853,7 @@ autocomplete
 xml
 "
 ]
-times
+maxCount
 :
 3
 /
@@ -987,7 +971,7 @@ autocomplete
 xml
 "
 ]
-times
+maxCount
 :
 24
 /
