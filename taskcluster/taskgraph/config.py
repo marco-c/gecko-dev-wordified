@@ -178,6 +178,17 @@ index
 :
 {
         
+Required
+(
+'
+products
+'
+)
+:
+[
+basestring
+]
+        
 #
 A
 whitelist
