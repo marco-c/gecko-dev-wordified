@@ -3356,6 +3356,9 @@ aRule
 ;
 }
 }
+#
+undef
+NOTIFY
 nsresult
 StyleSheet
 :
