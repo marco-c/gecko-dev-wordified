@@ -686,6 +686,10 @@ pub
 layout
 :
 i32
+pub
+prefs
+:
+i32
 }
 impl
 <
@@ -770,6 +774,11 @@ layout
 params
 .
 layout
+prefs
+:
+params
+.
+prefs
 }
 }
 }
@@ -840,6 +849,11 @@ layout
 params
 .
 layout
+prefs
+:
+params
+.
+prefs
 }
 }
 }
