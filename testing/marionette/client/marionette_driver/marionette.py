@@ -13076,6 +13076,10 @@ script
 "
 :
 script
+.
+strip
+(
+)
                 
 "
 args
@@ -13497,6 +13501,10 @@ script
 "
 :
 script
+.
+strip
+(
+)
                 
 "
 args
