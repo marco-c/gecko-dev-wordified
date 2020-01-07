@@ -156,6 +156,10 @@ Gecko
 Media
 Plugin
 Widevine
+MacSandboxPluginType_Flash
+/
+/
+Flash
 MacSandboxPluginType_Invalid
 }
 ;

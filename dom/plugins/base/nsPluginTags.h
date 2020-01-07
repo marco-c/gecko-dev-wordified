@@ -953,6 +953,9 @@ mUnloadTimer
 int32_t
 mSandboxLevel
 ;
+bool
+mIsSandboxLoggingEnabled
+;
 void
 InvalidateBlocklistState
 (

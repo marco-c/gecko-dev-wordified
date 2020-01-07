@@ -2475,6 +2475,10 @@ aPluginTag
 -
 >
 mSandboxLevel
+aPluginTag
+-
+>
+mIsSandboxLoggingEnabled
 )
 ;
 if
