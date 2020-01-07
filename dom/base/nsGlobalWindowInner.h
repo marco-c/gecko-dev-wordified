@@ -1865,6 +1865,7 @@ GetClientInfo
 (
 )
 const
+override
 ;
 mozilla
 :
@@ -1901,6 +1902,7 @@ GetController
 (
 )
 const
+override
 ;
 void
 NoteCalledRegisterForServiceWorkerScope
