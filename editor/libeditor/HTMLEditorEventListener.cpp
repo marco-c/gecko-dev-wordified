@@ -702,7 +702,7 @@ NS_ERROR_NULL_POINTER
 ;
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 element
 =
@@ -1022,10 +1022,7 @@ linkElement
 {
 element
 =
-do_QueryInterface
-(
 linkElement
-)
 ;
 }
 }
