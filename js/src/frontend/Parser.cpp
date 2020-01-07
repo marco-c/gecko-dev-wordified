@@ -5200,15 +5200,12 @@ template
 <
 class
 ParseHandler
-typename
-CharT
 >
 FunctionBox
 *
-GeneralParser
+PerHandlerParser
 <
 ParseHandler
-CharT
 >
 :
 :
@@ -5302,7 +5299,6 @@ funbox
 =
 alloc
 .
-template
 new_
 <
 FunctionBox
