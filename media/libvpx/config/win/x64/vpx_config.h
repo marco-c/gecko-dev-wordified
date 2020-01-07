@@ -129,7 +129,7 @@ RESTRICT
 #
 define
 INLINE
-__inline
+__forceinline
 #
 define
 ARCH_ARM
