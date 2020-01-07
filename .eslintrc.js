@@ -246,12 +246,6 @@ files
 "
 :
 [
-"
-accessible
-/
-*
-*
-"
 /
 /
 Browser
