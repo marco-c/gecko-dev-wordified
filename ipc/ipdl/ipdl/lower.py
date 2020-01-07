@@ -22153,6 +22153,9 @@ aReason
 virtual
 =
 1
+override
+=
+1
 )
 )
             
@@ -22189,6 +22192,9 @@ Type
 .
 BOOL
 virtual
+=
+1
+override
 =
 1
 )
@@ -22238,6 +22244,9 @@ name
 virtual
 =
 1
+override
+=
+1
 )
 )
             
@@ -22256,6 +22265,9 @@ exitedCxxStackVar
 .
 name
 virtual
+=
+1
+override
 =
 1
 )
@@ -22278,6 +22290,9 @@ name
 virtual
 =
 1
+override
+=
+1
 )
 )
             
@@ -22296,6 +22311,9 @@ exitedCallVar
 .
 name
 virtual
+=
+1
+override
 =
 1
 )
@@ -23574,7 +23592,10 @@ MethodDecl
 name
 virtual
 =
-True
+1
+override
+=
+1
                                            
 params
 =
@@ -24257,6 +24278,12 @@ ret
 _actorTypeTagType
 (
 )
+virtual
+=
+1
+override
+=
+1
 )
 )
         
@@ -24309,6 +24336,12 @@ MethodDecl
 '
 OnChannelClose
 '
+virtual
+=
+1
+override
+=
+1
 )
 )
             
@@ -24389,6 +24422,12 @@ MethodDecl
 '
 OnChannelError
 '
+virtual
+=
+1
+override
+=
+1
 )
 )
             
@@ -24624,6 +24663,9 @@ const
 =
 1
 virtual
+=
+1
+override
 =
 1
 ret
@@ -25859,6 +25901,9 @@ ptr
 virtual
 =
 1
+override
+=
+1
 )
 )
             
@@ -25910,6 +25955,9 @@ const
 )
                 
 virtual
+=
+1
+override
 =
 1
 const
@@ -26283,6 +26331,9 @@ name
 ]
             
 virtual
+=
+1
+override
 =
 1
 )
@@ -39491,6 +39542,14 @@ md
 decl
 .
 virtual
+=
+0
+    
+md
+.
+decl
+.
+override
 =
 0
     
