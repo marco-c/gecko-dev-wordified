@@ -89,7 +89,7 @@ info
 Test
 JSON
 with
-NUL
+slash
 started
 .
 "
@@ -160,11 +160,9 @@ treeRow
 "
 )
 ;
-ok
+is
 (
 countBefore
-=
-=
 7
 "
 There
