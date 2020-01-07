@@ -1463,12 +1463,8 @@ if
 aContent
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 return

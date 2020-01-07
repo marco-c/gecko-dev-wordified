@@ -639,12 +639,8 @@ NS_ASSERTION
 aNode
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 "
 Unknown

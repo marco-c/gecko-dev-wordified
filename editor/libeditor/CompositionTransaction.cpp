@@ -905,12 +905,8 @@ node
 node
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 &
 &

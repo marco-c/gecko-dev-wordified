@@ -1531,12 +1531,8 @@ if
 aNode
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 {
@@ -9204,12 +9200,8 @@ text
 textNode
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 ?
 caretOffset

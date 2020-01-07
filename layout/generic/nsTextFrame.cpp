@@ -29034,12 +29034,8 @@ NS_PRECONDITION
 aContent
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 "
 Bogus

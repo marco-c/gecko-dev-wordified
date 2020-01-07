@@ -1815,12 +1815,8 @@ GetContent
 )
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 ?
 aSource

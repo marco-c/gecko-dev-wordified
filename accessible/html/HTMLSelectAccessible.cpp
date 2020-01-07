@@ -1421,12 +1421,8 @@ text
 text
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 {

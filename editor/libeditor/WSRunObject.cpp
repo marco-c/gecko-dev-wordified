@@ -4923,12 +4923,8 @@ if
 priorNode
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 &
 &
@@ -5674,12 +5670,8 @@ if
 nextNode
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 &
 &

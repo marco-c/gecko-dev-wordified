@@ -2896,12 +2896,8 @@ aTextNode
 aTextNode
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 ;

@@ -1295,12 +1295,8 @@ HasOwnContent
 mContent
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 )
 return

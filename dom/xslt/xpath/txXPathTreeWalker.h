@@ -1421,12 +1421,8 @@ Content
 )
 -
 >
-IsNodeOfType
+IsText
 (
-nsINode
-:
-:
-eTEXT
 )
 ;
 }
