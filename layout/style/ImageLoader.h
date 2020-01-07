@@ -629,6 +629,7 @@ sync
 struct
 FrameWithFlags
 {
+explicit
 FrameWithFlags
 (
 nsIFrame
