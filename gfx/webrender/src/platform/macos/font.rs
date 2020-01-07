@@ -1861,7 +1861,7 @@ name
 CFNumber
 :
 :
-from_f64
+from
 (
 val
 )

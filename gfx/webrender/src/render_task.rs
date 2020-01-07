@@ -113,6 +113,12 @@ ClipScrollNodeIndex
 }
 ;
 use
+internal_types
+:
+:
+RenderPassIndex
+;
+use
 picture
 :
 :
@@ -1385,6 +1391,13 @@ pub
 clear_mode
 :
 ClearMode
+pub
+pass_index
+:
+Option
+<
+RenderPassIndex
+>
 }
 impl
 RenderTask
@@ -1522,6 +1535,9 @@ rasterization_kind
 }
 )
 clear_mode
+pass_index
+:
+None
 }
 }
 pub
@@ -1576,6 +1592,9 @@ ClearMode
 :
 :
 Transparent
+pass_index
+:
+None
 }
 }
 pub
@@ -1662,6 +1681,9 @@ ClearMode
 :
 :
 One
+pass_index
+:
+None
 }
 }
 /
@@ -2062,6 +2084,9 @@ scale_factor
 }
 )
 clear_mode
+pass_index
+:
+None
 }
 ;
 let
@@ -2148,6 +2173,9 @@ scale_factor
 }
 )
 clear_mode
+pass_index
+:
+None
 }
 ;
 blur_task_h
@@ -2257,6 +2285,9 @@ ClearMode
 :
 One
 }
+pass_index
+:
+None
 }
 }
 /
