@@ -1133,7 +1133,7 @@ Set
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 pointToInsert
@@ -1180,7 +1180,7 @@ SetToEndOf
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -2379,7 +2379,7 @@ wsObj
 this
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 pointToInsert
@@ -2455,12 +2455,7 @@ IsInLink
 (
 pointToInsert
 .
-Container
-(
-)
--
->
-AsDOMNode
+GetContainerAsDOMNode
 (
 )
 )
@@ -2481,13 +2476,10 @@ it
 .
 if
 (
-IsTextNode
-(
 pointToInsert
 .
-Container
+IsInTextNode
 (
-)
 )
 )
 {
@@ -2499,12 +2491,7 @@ SplitNodeDeep
 *
 pointToInsert
 .
-Container
-(
-)
--
->
-AsContent
+GetContainerAsContent
 (
 )
 pointToInsert
@@ -2821,7 +2808,7 @@ MOZ_ASSERT
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 -
@@ -2865,14 +2852,14 @@ IsBlockNode
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
 ?
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 :
@@ -2880,7 +2867,7 @@ GetBlockNodeParent
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -3063,7 +3050,7 @@ IsTableRow
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -3086,7 +3073,7 @@ IsTable
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -3266,7 +3253,7 @@ IsList
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -3279,7 +3266,7 @@ IsListItem
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -3367,7 +3354,7 @@ IsListItem
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -3382,7 +3369,7 @@ IsEmptyNode
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 &
@@ -3408,7 +3395,7 @@ NS_WARN_IF
 !
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 -
@@ -3434,7 +3421,7 @@ DeleteNode
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -3445,7 +3432,7 @@ Set
 (
 pointToInsert
 .
-Container
+GetContainer
 (
 )
 )
@@ -4217,7 +4204,7 @@ selNode
 =
 pointAtContainer
 .
-Container
+GetContainer
 (
 )
 ;
@@ -4412,7 +4399,7 @@ selNode
 =
 atStartReasonNode
 .
-Container
+GetContainer
 (
 )
 ;
@@ -4553,7 +4540,7 @@ selNode
 =
 atStartReasonNode
 .
-Container
+GetContainer
 (
 )
 ;

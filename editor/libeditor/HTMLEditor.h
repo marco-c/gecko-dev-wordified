@@ -1727,7 +1727,7 @@ hierarchy
 of
 aPointToInsert
 .
-Container
+GetContainer
 (
 )
 that
@@ -1736,9 +1736,9 @@ accept
 aNode
 as
 a
+*
 child
 .
-*
 If
 such
 a
@@ -1751,8 +1751,8 @@ the
 document
 tree
 from
-aPointToInsert
 *
+aPointToInsert
 up
 to
 parent
@@ -1764,9 +1764,9 @@ aNode
 aPointToInsert
 is
 then
+*
 adjusted
 to
-*
 point
 to
 the
@@ -1778,8 +1778,8 @@ was
 inserted
 at
 .
-aSplitAtEdges
 *
+aSplitAtEdges
 specifies
 if
 the
@@ -1790,6 +1790,7 @@ allowed
 to
 result
 in
+*
 empty
 nodes
 .
