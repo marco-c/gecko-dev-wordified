@@ -1425,15 +1425,8 @@ updateBadgeText
 (
 panel
 .
-_selectors
-.
-getPause
+isPaused
 (
-panel
-.
-_getState
-(
-)
 )
 )
 ;
