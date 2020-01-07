@@ -87,6 +87,17 @@ overflow
 hidden
 ;
 }
+[
+hidden
+]
+{
+display
+:
+none
+!
+important
+;
+}
 #
 debugging
 -

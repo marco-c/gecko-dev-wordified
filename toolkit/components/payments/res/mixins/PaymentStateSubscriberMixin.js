@@ -121,6 +121,17 @@ initial
 orderDetailsShowing
 :
 false
+page
+:
+{
+id
+:
+"
+payment
+-
+summary
+"
+}
 request
 :
 {
