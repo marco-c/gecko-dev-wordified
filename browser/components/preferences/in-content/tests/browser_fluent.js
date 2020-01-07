@@ -167,13 +167,6 @@ gBrowser
 .
 contentDocument
 ;
-let
-win
-=
-gBrowser
-.
-contentWindow
-;
 await
 doc
 .
@@ -184,11 +177,9 @@ ready
 let
 processCountPref
 =
-win
+doc
 .
-Preferences
-.
-get
+getElementById
 (
 "
 dom
