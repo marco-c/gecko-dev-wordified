@@ -2460,7 +2460,7 @@ cursor
 tdp
 -
 >
-flags
+mFlags
 )
 ;
 }

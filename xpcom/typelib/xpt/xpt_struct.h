@@ -1091,7 +1091,7 @@ return
 uint8_t
 )
 (
-flags
+mFlags
 &
 ~
 kFlagMask
@@ -1099,7 +1099,7 @@ kFlagMask
 ;
 }
 uint8_t
-flags
+mFlags
 ;
 }
 ;
