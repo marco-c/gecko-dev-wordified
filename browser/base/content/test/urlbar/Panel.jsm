@@ -616,7 +616,7 @@ this
 .
 p
 .
-_matchCount
+matchCount
 )
 {
 break

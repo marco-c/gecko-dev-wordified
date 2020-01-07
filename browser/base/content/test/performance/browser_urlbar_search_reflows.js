@@ -1384,7 +1384,7 @@ URLBar
 .
 popup
 .
-_matchCount
+matchCount
 ;
 await
 BrowserTestUtils
