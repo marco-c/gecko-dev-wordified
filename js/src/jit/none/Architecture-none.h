@@ -435,13 +435,6 @@ AllocatableMask
 static
 const
 SetType
-TempMask
-=
-0
-;
-static
-const
-SetType
 JSCallMask
 =
 0
