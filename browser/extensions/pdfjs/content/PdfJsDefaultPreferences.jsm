@@ -255,6 +255,16 @@ disablePageLabels
 "
 :
 false
+"
+scrollModeOnLoad
+"
+:
+0
+"
+spreadModeOnLoad
+"
+:
+0
 }
 )
 ;
