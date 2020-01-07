@@ -577,7 +577,9 @@ AndroidLog
 "
 ]
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

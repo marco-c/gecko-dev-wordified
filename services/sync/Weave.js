@@ -77,7 +77,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -96,7 +96,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -115,9 +115,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -152,7 +152,7 @@ Utils
 >
 {
 return
-ChromeUtils
+Cu
 .
 import
 (
@@ -641,7 +641,9 @@ ensureLoaded
 (
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -905,7 +907,9 @@ many
 false
 positives
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

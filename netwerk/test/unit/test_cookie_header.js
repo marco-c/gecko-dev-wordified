@@ -5,7 +5,7 @@ file
 tests
 bug
 250375
-ChromeUtils
+Cu
 .
 import
 (
@@ -24,7 +24,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -43,7 +43,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -89,7 +89,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -109,7 +109,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -129,7 +129,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -149,7 +149,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -169,7 +169,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -189,7 +189,7 @@ js
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -209,9 +209,9 @@ jsm
 this
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -232,9 +232,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -2707,7 +2707,7 @@ const
 RecentWindow
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

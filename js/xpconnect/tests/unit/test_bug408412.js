@@ -116,7 +116,9 @@ file
 ;
 try
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

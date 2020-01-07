@@ -71,7 +71,7 @@ size
 .
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -90,7 +90,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -109,7 +109,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

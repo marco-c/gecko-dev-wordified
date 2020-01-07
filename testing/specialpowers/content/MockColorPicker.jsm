@@ -107,7 +107,7 @@ colorpicker
 1
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -126,7 +126,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

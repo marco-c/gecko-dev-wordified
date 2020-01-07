@@ -68,7 +68,9 @@ preferences
 js
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -87,7 +89,9 @@ js
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -119,7 +123,9 @@ function
 )
 {
 return
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -143,9 +149,9 @@ js
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -166,9 +172,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

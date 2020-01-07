@@ -130,7 +130,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -149,7 +149,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -171,7 +171,7 @@ jsm
 var
 log
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -37,7 +37,7 @@ const
 ContentTaskUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -63,7 +63,7 @@ const
 TelemetryUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -89,7 +89,7 @@ const
 ObjectUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

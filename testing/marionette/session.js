@@ -87,7 +87,7 @@ URL
 ]
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -106,7 +106,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -125,7 +125,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -149,7 +149,7 @@ const
 InvalidArgumentError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -175,7 +175,7 @@ const
 pprint
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

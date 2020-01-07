@@ -274,7 +274,7 @@ WEBSENSE_ALREADY_MODIFIED
 =
 4
 ;
-ChromeUtils
+Cu
 .
 import
 (

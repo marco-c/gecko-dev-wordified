@@ -8,7 +8,7 @@ introduced
 in
 bug
 324985
-ChromeUtils
+Cu
 .
 import
 (
@@ -27,7 +27,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

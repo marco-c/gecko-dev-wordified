@@ -32,7 +32,9 @@ const
 DOMLocalization
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

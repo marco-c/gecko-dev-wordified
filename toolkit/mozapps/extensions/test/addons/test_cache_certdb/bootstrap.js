@@ -42,7 +42,9 @@ b32c
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -371,7 +373,9 @@ certDBFactory
 const
 scope
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

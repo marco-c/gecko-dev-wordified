@@ -34,7 +34,7 @@ Cc
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -27,7 +27,7 @@ of
 bounds
 /
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -46,7 +46,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

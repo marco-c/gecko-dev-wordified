@@ -45,7 +45,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -69,7 +69,7 @@ const
 TelemetryUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

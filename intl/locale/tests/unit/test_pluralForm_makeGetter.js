@@ -94,7 +94,9 @@ English
 .
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

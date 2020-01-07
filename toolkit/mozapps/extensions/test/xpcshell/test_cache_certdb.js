@@ -143,7 +143,9 @@ const
 XPIProvider
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

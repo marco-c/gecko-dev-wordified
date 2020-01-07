@@ -12,7 +12,7 @@ bug
 et
 al
 )
-ChromeUtils
+Cu
 .
 import
 (
@@ -31,7 +31,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

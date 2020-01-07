@@ -56,7 +56,9 @@ MPL
 .
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -91,7 +93,9 @@ observer
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -182,7 +186,9 @@ observer
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -75,7 +75,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -94,7 +94,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -113,7 +113,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -132,7 +132,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -2065,7 +2065,7 @@ let
 LoginManagerParent
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

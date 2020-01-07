@@ -90,7 +90,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (

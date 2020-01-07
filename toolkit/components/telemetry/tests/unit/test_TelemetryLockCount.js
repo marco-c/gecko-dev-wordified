@@ -44,7 +44,7 @@ works
 .
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

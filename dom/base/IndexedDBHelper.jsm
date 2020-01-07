@@ -143,7 +143,7 @@ IndexedDBHelper
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -173,9 +173,9 @@ indexedDB
 ]
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 '

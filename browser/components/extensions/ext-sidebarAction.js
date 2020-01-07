@@ -82,7 +82,7 @@ globals
 WINDOW_ID_CURRENT
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

@@ -38,7 +38,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -242,7 +242,7 @@ getSystemPrincipal
 let
 makeURI
 =
-ChromeUtils
+Cu
 .
 import
 (

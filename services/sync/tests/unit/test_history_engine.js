@@ -27,7 +27,7 @@ zero
 /
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -46,7 +46,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -67,7 +67,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

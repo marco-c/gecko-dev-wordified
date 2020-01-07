@@ -88,7 +88,7 @@ Uses
 test_gfxBlacklist_OS
 .
 xml
-ChromeUtils
+Cu
 .
 import
 (

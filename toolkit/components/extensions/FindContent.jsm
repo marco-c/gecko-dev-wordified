@@ -153,7 +153,7 @@ const
 Finder
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -203,7 +203,7 @@ const
 FinderIterator
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -404,7 +404,7 @@ const
 FinderHighlighter
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

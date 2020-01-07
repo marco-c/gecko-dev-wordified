@@ -68,7 +68,9 @@ actionTypes
 at
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -96,7 +98,9 @@ const
 Dedupe
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

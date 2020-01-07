@@ -131,7 +131,7 @@ let
 Policies
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

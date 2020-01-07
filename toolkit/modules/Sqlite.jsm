@@ -110,7 +110,7 @@ TRANSACTIONS_QUEUE_TIMEOUT_MS
 /
 4
 minutes
-ChromeUtils
+Cu
 .
 import
 (
@@ -129,7 +129,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

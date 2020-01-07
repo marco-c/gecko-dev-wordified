@@ -154,7 +154,9 @@ iff
 both
 succeeds
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -173,7 +175,9 @@ js
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

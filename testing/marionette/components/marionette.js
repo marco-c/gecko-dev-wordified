@@ -76,7 +76,7 @@ Cc
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -95,7 +95,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -138,9 +138,9 @@ nsIEnvironment
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -161,9 +161,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -2036,7 +2036,7 @@ startupRecorder
 ;
 try
 {
-ChromeUtils
+Cu
 .
 import
 (

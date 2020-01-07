@@ -72,7 +72,7 @@ the
 request
 fails
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -91,7 +91,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

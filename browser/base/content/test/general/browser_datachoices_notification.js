@@ -87,7 +87,7 @@ tests
 var
 Preferences
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -113,7 +113,7 @@ Preferences
 var
 TelemetryReportingPolicy
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -197,7 +197,7 @@ clear
 let
 reportingPolicy
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -241,7 +241,7 @@ sendSessionRestoredNotification
 let
 reportingPolicyImpl
 =
-ChromeUtils
+Cu
 .
 import
 (

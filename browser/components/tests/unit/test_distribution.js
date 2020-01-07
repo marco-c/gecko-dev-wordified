@@ -43,7 +43,7 @@ distribution
 ini
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

@@ -2596,7 +2596,7 @@ let
 onSpellCheck
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

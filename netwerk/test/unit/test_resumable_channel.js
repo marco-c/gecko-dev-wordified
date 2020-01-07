@@ -11,7 +11,7 @@ with
 HTTP
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -30,7 +30,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

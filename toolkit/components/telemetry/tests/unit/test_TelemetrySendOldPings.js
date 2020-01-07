@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -81,7 +81,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -101,7 +101,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -121,7 +121,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -141,7 +141,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -171,7 +171,7 @@ Constants
 }
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -663,7 +663,7 @@ aPendingQuota
 let
 storage
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -62,7 +62,9 @@ tempScope
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

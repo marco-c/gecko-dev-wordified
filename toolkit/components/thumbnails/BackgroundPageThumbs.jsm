@@ -179,7 +179,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -199,7 +199,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -218,7 +218,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -369,9 +369,9 @@ TEL_CAPTURE_DONE_IMAGE_ZERO_DIMENSION
 TEL_CAPTURE_DONE_IMAGE_ZERO_DIMENSION
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

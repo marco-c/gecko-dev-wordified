@@ -92,7 +92,7 @@ var
 Services
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

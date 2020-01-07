@@ -38,7 +38,7 @@ head_xpc
 js
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

@@ -25,7 +25,7 @@ do_get_profile
 (
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -44,7 +44,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -63,7 +63,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -82,7 +82,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -101,7 +101,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -120,7 +120,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -139,7 +139,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -168,7 +168,7 @@ loop
 in
 test
 .
-ChromeUtils
+Cu
 .
 import
 (
@@ -582,7 +582,7 @@ test_setup
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

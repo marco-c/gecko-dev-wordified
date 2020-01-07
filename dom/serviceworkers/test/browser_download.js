@@ -28,7 +28,7 @@ zero
 /
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -50,7 +50,7 @@ jsm
 var
 Downloads
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -73,7 +73,7 @@ jsm
 .
 Downloads
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -50,7 +50,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -69,7 +69,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -91,7 +91,7 @@ let
 profileStorage
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

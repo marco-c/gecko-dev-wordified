@@ -74,7 +74,7 @@ Cm
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -93,7 +93,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -213,7 +213,7 @@ nsIDOMWindow
 break
 ;
 }
-ChromeUtils
+Cu
 .
 import
 (

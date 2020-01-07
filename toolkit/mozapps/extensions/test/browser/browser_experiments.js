@@ -28,7 +28,9 @@ zero
 /
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -53,7 +55,9 @@ var
 AddonManagerTesting
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -79,7 +83,9 @@ var
 HttpServer
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -578,7 +584,7 @@ tmp
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -712,7 +718,7 @@ tmp
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (

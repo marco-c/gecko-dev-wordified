@@ -56,7 +56,7 @@ and
 bug
 1190131
 .
-ChromeUtils
+Cu
 .
 import
 (

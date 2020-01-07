@@ -56,7 +56,7 @@ do_get_profile
 (
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -75,7 +75,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -130,7 +130,7 @@ addResourceAlias
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

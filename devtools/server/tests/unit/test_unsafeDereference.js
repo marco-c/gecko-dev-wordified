@@ -120,7 +120,9 @@ JS
 Debugger
 API
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

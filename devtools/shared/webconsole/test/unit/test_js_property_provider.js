@@ -62,7 +62,9 @@ const
 require
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -107,7 +109,9 @@ provider
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

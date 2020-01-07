@@ -5,7 +5,7 @@ for
 networkactivity
 /
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -24,7 +24,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -48,7 +48,7 @@ const
 Services
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

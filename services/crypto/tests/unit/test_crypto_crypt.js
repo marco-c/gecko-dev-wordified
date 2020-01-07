@@ -1,4 +1,4 @@
-ChromeUtils
+Cu
 .
 import
 (
@@ -301,7 +301,9 @@ test_makeUint8Array
 (
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

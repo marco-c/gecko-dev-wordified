@@ -81,7 +81,9 @@ MPL
 .
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

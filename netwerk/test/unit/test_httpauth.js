@@ -80,7 +80,9 @@ private
 browsing
 mode
 .
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

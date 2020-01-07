@@ -92,7 +92,7 @@ window
 .
 *
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -112,7 +112,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -132,7 +132,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -272,7 +272,7 @@ Ci
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -291,7 +291,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

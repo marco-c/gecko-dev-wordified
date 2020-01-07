@@ -81,7 +81,7 @@ do_get_profile
 var
 SessionFile
 =
-ChromeUtils
+Cu
 .
 import
 (

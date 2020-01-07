@@ -221,6 +221,9 @@ Cc
 interfaces
 :
 Ci
+utils
+:
+Cu
 }
 =
 Components
@@ -230,7 +233,7 @@ const
 StreamUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

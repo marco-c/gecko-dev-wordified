@@ -114,7 +114,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -133,7 +133,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -1524,7 +1524,7 @@ log
 let
 ConsoleAPI
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -36,7 +36,9 @@ in
 AddonRepository
 .
 jsm
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

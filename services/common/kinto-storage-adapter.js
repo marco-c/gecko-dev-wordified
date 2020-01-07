@@ -133,7 +133,7 @@ const
 Sqlite
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -159,7 +159,7 @@ const
 Kinto
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

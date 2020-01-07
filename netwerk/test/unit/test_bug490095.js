@@ -26,7 +26,7 @@ section
 9
 /
 /
-ChromeUtils
+Cu
 .
 import
 (
@@ -45,7 +45,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

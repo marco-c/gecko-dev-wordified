@@ -94,7 +94,9 @@ ZoomUI
 "
 ]
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -778,7 +780,9 @@ label
 ;
 }
 }
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

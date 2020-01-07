@@ -96,7 +96,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -115,7 +115,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -146,7 +146,7 @@ dump
 )
 =
 >
-ChromeUtils
+Cu
 .
 import
 (

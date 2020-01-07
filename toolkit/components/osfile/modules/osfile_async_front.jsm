@@ -215,7 +215,7 @@ SharedAll
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -237,7 +237,7 @@ jsm
 SharedAll
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -257,7 +257,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -333,7 +333,7 @@ Constants
 Win
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -366,7 +366,7 @@ Constants
 libc
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -430,7 +430,7 @@ Path
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -459,9 +459,9 @@ library
 of
 promises
 .
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -482,9 +482,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -511,7 +511,7 @@ The
 implementation
 of
 communications
-ChromeUtils
+Cu
 .
 import
 (
@@ -531,7 +531,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -551,7 +551,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -571,7 +571,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -594,7 +594,7 @@ this
 var
 Native
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -9301,7 +9301,7 @@ let
 Deprecated
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

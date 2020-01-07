@@ -134,7 +134,7 @@ PR_HOURS
 *
 1000000
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -153,7 +153,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -172,7 +172,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -82,7 +82,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -101,7 +101,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -120,7 +120,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -139,7 +139,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -158,7 +158,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -177,7 +177,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -196,7 +196,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -215,7 +215,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -241,7 +241,7 @@ Context
 WindowState
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -262,7 +262,7 @@ js
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -281,7 +281,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -300,7 +300,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -326,7 +326,7 @@ element
 WebElement
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -362,7 +362,7 @@ UnsupportedOperationError
 WebDriverError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -383,7 +383,7 @@ js
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -402,7 +402,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -421,7 +421,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -440,7 +440,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -459,7 +459,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -478,7 +478,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -497,7 +497,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -516,7 +516,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -541,7 +541,7 @@ PollPromise
 TimedPromise
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

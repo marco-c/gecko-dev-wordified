@@ -121,7 +121,7 @@ GMP_UPDATE_DISABLED
 4
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -140,7 +140,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -159,7 +159,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -178,7 +178,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -197,7 +197,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -216,7 +216,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -235,7 +235,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -254,7 +254,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -321,7 +321,7 @@ temp
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -347,9 +347,9 @@ temp
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

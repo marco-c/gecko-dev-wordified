@@ -77,6 +77,9 @@ CC
 classes
 :
 Cc
+utils
+:
+Cu
 results
 :
 Cr
@@ -84,7 +87,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -103,7 +106,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -127,7 +130,7 @@ const
 StreamUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -157,7 +160,7 @@ JSONPacket
 BulkPacket
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

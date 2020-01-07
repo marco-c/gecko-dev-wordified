@@ -28,7 +28,7 @@ zero
 /
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

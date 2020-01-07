@@ -109,7 +109,7 @@ place
 .
 *
 /
-ChromeUtils
+Cu
 .
 import
 (

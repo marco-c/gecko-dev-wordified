@@ -28,7 +28,9 @@ a
 .
 *
 /
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

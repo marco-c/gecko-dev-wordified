@@ -111,7 +111,7 @@ prompt
 1
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -130,7 +130,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -149,7 +149,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

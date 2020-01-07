@@ -2744,7 +2744,7 @@ no
 native
 -
 reassign
-ChromeUtils
+Cu
 .
 import
 (
@@ -2763,7 +2763,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -2782,7 +2782,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -2801,7 +2801,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -3325,7 +3325,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -3344,7 +3344,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

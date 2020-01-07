@@ -69,6 +69,9 @@ CC
 interfaces
 :
 Ci
+utils
+:
+Cu
 }
 =
 Components
@@ -99,7 +102,7 @@ initSpecialConnection
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -118,7 +121,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -137,7 +140,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -156,7 +159,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -175,7 +178,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -199,7 +202,7 @@ const
 GeckoDriver
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -225,7 +228,7 @@ const
 WebElement
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -252,7 +255,7 @@ error
 UnknownCommandError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -280,7 +283,7 @@ Message
 Response
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -306,7 +309,7 @@ const
 DebuggerTransport
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -103,7 +103,7 @@ const
 addDebuggerToGlobal
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -1150,7 +1150,7 @@ const
 OS
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
