@@ -5453,7 +5453,7 @@ masm
 .
 callWithABI
 (
-IonMarkFunction
+JitMarkFunction
 (
 type
 )

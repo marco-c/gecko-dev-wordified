@@ -6318,7 +6318,7 @@ v
 )
 ;
 void
-MarkValueFromIon
+MarkValueFromJit
 (
 JSRuntime
 *
@@ -6329,7 +6329,7 @@ vp
 )
 ;
 void
-MarkStringFromIon
+MarkStringFromJit
 (
 JSRuntime
 *
@@ -6341,7 +6341,7 @@ stringp
 )
 ;
 void
-MarkObjectFromIon
+MarkObjectFromJit
 (
 JSRuntime
 *
@@ -6353,7 +6353,7 @@ objp
 )
 ;
 void
-MarkShapeFromIon
+MarkShapeFromJit
 (
 JSRuntime
 *
@@ -6365,7 +6365,7 @@ shapep
 )
 ;
 void
-MarkObjectGroupFromIon
+MarkObjectGroupFromJit
 (
 JSRuntime
 *
@@ -6385,7 +6385,7 @@ generatePreBarrier
 inline
 void
 *
-IonMarkFunction
+JitMarkFunction
 (
 MIRType
 type
@@ -6407,7 +6407,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-MarkValueFromIon
+MarkValueFromJit
 )
 ;
 case
@@ -6421,7 +6421,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-MarkStringFromIon
+MarkStringFromJit
 )
 ;
 case
@@ -6435,7 +6435,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-MarkObjectFromIon
+MarkObjectFromJit
 )
 ;
 case
@@ -6449,7 +6449,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-MarkShapeFromIon
+MarkShapeFromJit
 )
 ;
 case
@@ -6463,7 +6463,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-MarkObjectGroupFromIon
+MarkObjectGroupFromJit
 )
 ;
 default
