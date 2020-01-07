@@ -536,9 +536,6 @@ False
 base_path
 =
 None
-package
-=
-None
 )
 :
     
@@ -830,34 +827,6 @@ UPLOAD_PATH
 "
 )
     
-parser
-.
-add_option
-(
-"
--
--
-package
-"
-                      
-action
-=
-"
-store
-"
-                      
-help
-=
-"
-Name
-of
-the
-main
-package
-.
-"
-)
-    
 (
 options
 args
@@ -912,12 +881,6 @@ base_path
 options
 .
 base_path
-                         
-package
-=
-options
-.
-package
                          
 verbose
 =
