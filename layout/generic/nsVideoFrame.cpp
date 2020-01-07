@@ -5025,7 +5025,9 @@ HTMLMediaElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -5086,7 +5088,9 @@ HTMLMediaElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >
@@ -5169,7 +5173,9 @@ HTMLMediaElement
 *
 >
 (
-mContent
+GetContent
+(
+)
 )
 -
 >

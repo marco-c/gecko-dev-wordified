@@ -203,13 +203,12 @@ HTMLMediaElement
 :
 GetPaused
 ;
-NS_IMETHOD_
-(
+virtual
 bool
-)
 IsVideo
 (
 )
+const
 override
 {
 return
