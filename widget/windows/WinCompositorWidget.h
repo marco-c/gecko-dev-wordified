@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-widget_windows_CompositorWidgetParent_h
+widget_windows_WinCompositorWidget_h
 #
 define
-widget_windows_CompositorWidgetParent_h
+widget_windows_WinCompositorWidget_h
 #
 include
 "
@@ -637,4 +637,4 @@ mozilla
 endif
 /
 /
-widget_windows_CompositorWidgetParent_h
+widget_windows_WinCompositorWidget_h
