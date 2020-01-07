@@ -163,10 +163,6 @@ GeckoActivityMonitor
 )
 ;
 private
-GeckoApplication
-appContext
-;
-private
 WeakReference
 <
 Activity
@@ -372,7 +368,7 @@ our
 /
 /
 app
-mCurrentActivity
+currentActivity
 should
 already
 refer
