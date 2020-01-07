@@ -1443,7 +1443,7 @@ this
 "
 DB_SCHEMA
 "
-23
+24
 )
 ;
 XPCOMUtils
