@@ -84,6 +84,13 @@ js
 *
 /
 const
+Cu
+=
+Components
+.
+utils
+;
+const
 {
 Promise
 }
