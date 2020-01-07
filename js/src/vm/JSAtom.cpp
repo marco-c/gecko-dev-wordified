@@ -5133,7 +5133,7 @@ TranscodeResult_Throw
 )
 ;
 }
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 xdr
 -

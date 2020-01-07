@@ -15552,7 +15552,7 @@ getObject
 i
 )
 )
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 key
 -

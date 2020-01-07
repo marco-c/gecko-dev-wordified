@@ -843,7 +843,7 @@ MIRType
 :
 None
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 MaybeSimdTypeToMIRType
 (

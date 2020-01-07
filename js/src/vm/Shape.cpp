@@ -8103,7 +8103,7 @@ infallibly
 .
 *
 /
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 NativeObject
 :
@@ -8378,7 +8378,7 @@ shapePtr
 (
 )
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 obj
 -

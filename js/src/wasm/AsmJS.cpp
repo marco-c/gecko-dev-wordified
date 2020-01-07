@@ -14724,7 +14724,7 @@ srcStart
 TokenPos
 pos
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 tokenStream
 (
@@ -16067,7 +16067,7 @@ SimdType
 :
 Count
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 IsSimdTuple
 (
@@ -16161,7 +16161,7 @@ arg
 uint32_t
 u32
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 IsLiteralInt
 (
@@ -16284,7 +16284,7 @@ arg
 uint32_t
 u32
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 IsLiteralInt
 (
@@ -16407,7 +16407,7 @@ arg
 uint32_t
 u32
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 IsLiteralInt
 (
@@ -16607,7 +16607,7 @@ arg
 uint32_t
 u32
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 IsLiteralInt
 (
@@ -16705,7 +16705,7 @@ arg
 uint32_t
 u32
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 IsLiteralInt
 (
@@ -16803,7 +16803,7 @@ arg
 uint32_t
 u32
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 IsLiteralInt
 (
@@ -19337,7 +19337,7 @@ popBreakableBlock
 (
 )
 {
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 breakableStack_
 .
@@ -19542,7 +19542,7 @@ popContinuableBlock
 (
 )
 {
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 continuableStack_
 .
@@ -19659,7 +19659,7 @@ popLoop
 (
 )
 {
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 continuableStack_
 .
@@ -19673,7 +19673,7 @@ popCopy
 blockDepth_
 )
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 breakableStack_
 .
@@ -51792,7 +51792,7 @@ v
 cx
 )
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 ValidateSimdType
 (
