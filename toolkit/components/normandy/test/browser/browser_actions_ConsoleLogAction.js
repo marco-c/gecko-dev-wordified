@@ -16,7 +16,7 @@ normandy
 /
 actions
 /
-ConsoleLog
+ConsoleLogAction
 .
 jsm
 "
@@ -61,7 +61,7 @@ const
 action
 =
 new
-ConsoleLog
+ConsoleLogAction
 (
 )
 ;
@@ -173,7 +173,7 @@ const
 action
 =
 new
-ConsoleLog
+ConsoleLogAction
 (
 )
 ;
