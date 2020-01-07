@@ -6684,6 +6684,11 @@ noReferrer
 this
 .
 linkHasNoReferrer
+|
+|
+this
+.
+onPlainTextLink
 }
 ;
 for
