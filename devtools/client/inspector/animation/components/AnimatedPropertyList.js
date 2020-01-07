@@ -575,8 +575,8 @@ map
 (
 (
 [
-property
-values
+name
+keyframes
 ]
 )
 =
@@ -589,7 +589,7 @@ this
 .
 getPropertyState
 (
-property
+name
 )
 ;
 const
@@ -597,7 +597,7 @@ type
 =
 animationTypes
 [
-property
+name
 ]
 ;
 return
@@ -605,11 +605,11 @@ AnimatedPropertyItem
 (
 {
 getComputedStyle
-property
+keyframes
+name
 simulateAnimation
 state
 type
-values
 }
 )
 ;

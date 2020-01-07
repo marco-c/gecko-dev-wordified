@@ -130,7 +130,7 @@ propTypes
 {
 return
 {
-property
+name
 :
 PropTypes
 .
@@ -189,7 +189,7 @@ this
 .
 props
 .
-property
+name
 ;
 }
 getPropertyValue
@@ -206,9 +206,9 @@ value
 propToState
 (
 {
-property
 getComputedStyle
-values
+keyframes
+name
 }
 )
 {
@@ -223,7 +223,7 @@ for
 const
 keyframe
 of
-values
+keyframes
 )
 {
 const
@@ -231,10 +231,10 @@ style
 =
 getComputedStyle
 (
-property
+name
 {
 [
-property
+name
 ]
 :
 keyframe

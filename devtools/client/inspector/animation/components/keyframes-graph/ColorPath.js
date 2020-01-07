@@ -197,7 +197,7 @@ value
 propToState
 (
 {
-values
+keyframes
 }
 )
 {
@@ -219,7 +219,7 @@ i
 ;
 i
 <
-values
+keyframes
 .
 length
 -
@@ -235,7 +235,7 @@ value1
 =
 getRGBA
 (
-values
+keyframes
 [
 i
 ]
@@ -254,7 +254,7 @@ i
 ;
 j
 <
-values
+keyframes
 .
 length
 ;
@@ -268,7 +268,7 @@ value2
 =
 getRGBA
 (
-values
+keyframes
 [
 j
 ]
@@ -404,8 +404,8 @@ const
 {
 easingHintStrokeWidth
 graphHeight
+keyframes
 totalDuration
-values
 }
 =
 this
@@ -427,7 +427,7 @@ i
 ;
 i
 <
-values
+keyframes
 .
 length
 -
@@ -441,7 +441,7 @@ i
 const
 startKeyframe
 =
-values
+keyframes
 [
 i
 ]
@@ -449,7 +449,7 @@ i
 const
 endKeyframe
 =
-values
+keyframes
 [
 i
 +
