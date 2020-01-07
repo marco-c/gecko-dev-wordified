@@ -380,6 +380,9 @@ getBoolPref
 (
 PREF_IMPORT_BOOKMARKS_HTML
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 Assert
@@ -398,6 +401,9 @@ getBoolPref
 (
 PREF_RESTORE_DEFAULT_BOOKMARKS
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 }
