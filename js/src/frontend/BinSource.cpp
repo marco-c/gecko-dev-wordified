@@ -6129,7 +6129,7 @@ FunctionExpression
 :
 syntax
 =
-PrimaryExpression
+Expression
 ;
 /
 /
