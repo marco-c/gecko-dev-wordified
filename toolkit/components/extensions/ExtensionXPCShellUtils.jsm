@@ -522,6 +522,9 @@ mozilla
 balanced
 -
 listeners
+no
+-
+undef
 addEventListener
 (
 "
