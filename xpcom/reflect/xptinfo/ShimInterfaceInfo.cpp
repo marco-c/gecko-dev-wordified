@@ -200,13 +200,6 @@ h
 #
 include
 "
-nsIDOMCSSPrimitiveValue
-.
-h
-"
-#
-include
-"
 nsIDOMCSSStyleDeclaration
 .
 h
@@ -2256,10 +2249,6 @@ DEFINE_SHIM_WITH_CUSTOM_INTERFACE
 (
 nsIContainerBoxObject
 ContainerBoxObject
-)
-DEFINE_SHIM
-(
-CSSPrimitiveValue
 )
 DEFINE_SHIM
 (

@@ -134,6 +134,17 @@ mozilla
 /
 dom
 /
+CSSPrimitiveValueBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Selection
 .
 h
@@ -3623,7 +3634,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-nsIDOMCSSPrimitiveValue
+CSSPrimitiveValueBinding
 :
 :
 CSS_RGBCOLOR
@@ -3677,7 +3688,7 @@ Red
 >
 GetFloatValue
 (
-nsIDOMCSSPrimitiveValue
+CSSPrimitiveValueBinding
 :
 :
 CSS_NUMBER
@@ -3712,7 +3723,7 @@ Green
 >
 GetFloatValue
 (
-nsIDOMCSSPrimitiveValue
+CSSPrimitiveValueBinding
 :
 :
 CSS_NUMBER
@@ -3747,7 +3758,7 @@ Blue
 >
 GetFloatValue
 (
-nsIDOMCSSPrimitiveValue
+CSSPrimitiveValueBinding
 :
 :
 CSS_NUMBER

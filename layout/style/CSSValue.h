@@ -265,7 +265,16 @@ null
 otherwise
 .
 *
+*
+Defined
+in
+nsROCSSPrimitiveValue
+.
+h
+.
+*
 /
+inline
 nsROCSSPrimitiveValue
 *
 AsPrimitiveValue
