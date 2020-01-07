@@ -848,7 +848,7 @@ VideoFrameConverter
 )
 )
 )
-last_img_
+mLastImage
 (
 -
 1
@@ -953,13 +953,13 @@ if
 serial
 =
 =
-last_img_
+mLastImage
 )
 {
 return
 ;
 }
-last_img_
+mLastImage
 =
 serial
 ;
@@ -1221,7 +1221,7 @@ See
 bug
 1262134
 .
-last_img_
+mLastImage
 =
 -
 1
@@ -1315,7 +1315,7 @@ IsNull
 if
 (
 !
-disabled_frame_sent_
+mDisabledFrameSent
 .
 IsNull
 (
@@ -1325,7 +1325,7 @@ IsNull
 (
 t
 -
-disabled_frame_sent_
+mDisabledFrameSent
 )
 .
 ToSeconds
@@ -1344,7 +1344,7 @@ disabledMinFps
 return
 ;
 }
-disabled_frame_sent_
+mDisabledFrameSent
 =
 t
 ;
@@ -1361,7 +1361,7 @@ the
 Null
 time
 .
-disabled_frame_sent_
+mDisabledFrameSent
 =
 TimeStamp
 (
@@ -2916,7 +2916,7 @@ MSG
 )
 .
 int32_t
-last_img_
+mLastImage
 ;
 /
 /
@@ -2926,7 +2926,7 @@ of
 last
 Image
 TimeStamp
-disabled_frame_sent_
+mDisabledFrameSent
 ;
 /
 /
