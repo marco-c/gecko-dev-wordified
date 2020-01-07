@@ -303,9 +303,9 @@ test_asyncClose_does_not_complete_before_statements
 let
 db
 =
-getService
-(
-)
+Services
+.
+storage
 .
 openDatabase
 (
@@ -701,9 +701,9 @@ test_asyncClose_on_sync_db
 let
 db
 =
-getService
-(
-)
+Services
+.
+storage
 .
 openDatabase
 (

@@ -332,7 +332,9 @@ name
 let
 file
 =
-dirSvc
+Services
+.
+dirsvc
 .
 get
 (
@@ -435,9 +437,9 @@ kExpectedCacheSize
 ;
 check_size
 (
-getService
-(
-)
+Services
+.
+storage
 .
 openUnsharedDatabase
 new_file
