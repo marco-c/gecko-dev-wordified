@@ -560,7 +560,6 @@ matching
 ElementSelectorFlags
 MatchingContext
 QuirksMode
-RelevantLinkStatus
 }
 ;
 use
@@ -5096,8 +5095,7 @@ Impl
 >
 _
 :
-&
-RelevantLinkStatus
+VisitedHandlingMode
 _
 :
 &
@@ -8487,8 +8485,7 @@ Impl
 >
 _
 :
-&
-RelevantLinkStatus
+VisitedHandlingMode
 _
 :
 &

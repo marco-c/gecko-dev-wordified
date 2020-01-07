@@ -5067,6 +5067,7 @@ lazy_pseudo_rules
 (
 guards
 element
+parent_style
 pseudo
 is_probe
 rule_inclusion
@@ -6025,7 +6026,6 @@ components
 style
 .
 md
-pub
 fn
 lazy_pseudo_rules
 <
@@ -6042,6 +6042,10 @@ element
 :
 &
 E
+parent_style
+:
+&
+ComputedValues
 pseudo
 :
 &
@@ -6485,9 +6489,15 @@ inputs
 ;
 }
 if
-matching_context
+parent_style
 .
-relevant_link_found
+visited_style
+(
+)
+.
+is_some
+(
+)
 {
 let
 mut
