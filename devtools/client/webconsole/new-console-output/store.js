@@ -1427,7 +1427,6 @@ dataProvider
 .
 onNetworkEvent
 (
-null
 message
 )
 ;
@@ -1445,7 +1444,6 @@ dataProvider
 .
 onNetworkEventUpdate
 (
-null
 {
 packet
 :
@@ -1577,7 +1575,6 @@ dataProvider
 .
 onNetworkEventUpdate
 (
-null
 {
 packet
 :

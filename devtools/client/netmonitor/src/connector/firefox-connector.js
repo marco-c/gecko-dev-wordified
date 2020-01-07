@@ -1307,9 +1307,6 @@ dataProvider
 .
 onNetworkEvent
 (
-"
-networkEvent
-"
 networkInfo
 )
 ;
@@ -1338,9 +1335,6 @@ dataProvider
 .
 onNetworkEventUpdate
 (
-"
-networkEventUpdate
-"
 {
 packet
 :
@@ -1513,7 +1507,6 @@ marker
 /
 onDocEvent
 (
-type
 event
 )
 {

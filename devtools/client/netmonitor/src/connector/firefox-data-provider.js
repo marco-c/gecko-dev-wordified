@@ -1559,14 +1559,6 @@ handler
 *
 param
 {
-string
-}
-type
-message
-type
-*
-param
-{
 object
 }
 networkInfo
@@ -1578,7 +1570,6 @@ information
 async
 onNetworkEvent
 (
-type
 networkInfo
 )
 {
@@ -1642,14 +1633,6 @@ handler
 *
 param
 {
-string
-}
-type
-message
-type
-*
-param
-{
 object
 }
 packet
@@ -1675,7 +1658,6 @@ information
 /
 onNetworkEventUpdate
 (
-type
 data
 )
 {

@@ -2010,14 +2010,6 @@ displaying
 private
 *
 param
-string
-type
-*
-Message
-type
-.
-*
-param
 object
 networkInfo
 *
@@ -2032,7 +2024,6 @@ _onNetworkEvent
 :
 function
 (
-type
 networkInfo
 )
 {
@@ -2105,14 +2096,6 @@ displaying
 private
 *
 param
-string
-type
-*
-Message
-type
-.
-*
-param
 object
 response
 *
@@ -2130,7 +2113,6 @@ _onNetworkEventUpdate
 :
 function
 (
-type
 response
 )
 {
