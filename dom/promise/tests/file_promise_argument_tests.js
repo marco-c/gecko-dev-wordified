@@ -152,7 +152,9 @@ promises
 var
 label
 =
+"
 parent
+"
 ;
 function
 passBasicPromise

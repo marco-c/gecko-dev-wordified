@@ -1894,18 +1894,6 @@ vp
 )
 ;
 RootedObject
-callee
-(
-cx
-&
-args
-.
-callee
-(
-)
-)
-;
-RootedObject
 scope
 (
 cx
@@ -1936,7 +1924,6 @@ return
 ConvertExceptionToPromise
 (
 cx
-scope
 args
 .
 rval
