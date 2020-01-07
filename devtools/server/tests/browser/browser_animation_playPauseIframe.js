@@ -85,8 +85,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -113,7 +113,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 "
@@ -199,7 +199,7 @@ them
 let
 nodeInFrame1
 =
-yield
+await
 getNodeInFrame
 (
 walker
@@ -218,7 +218,7 @@ animation
 let
 nodeInFrame2
 =
-yield
+await
 getNodeInFrame
 (
 walker
@@ -247,14 +247,14 @@ document
 "
 )
 ;
-yield
+await
 animations
 .
 pauseAll
 (
 )
 ;
-yield
+await
 checkState
 (
 animations
@@ -264,7 +264,7 @@ paused
 "
 )
 ;
-yield
+await
 checkState
 (
 animations
@@ -287,14 +287,14 @@ document
 "
 )
 ;
-yield
+await
 animations
 .
 playAll
 (
 )
 ;
-yield
+await
 checkState
 (
 animations
@@ -304,7 +304,7 @@ running
 "
 )
 ;
-yield
+await
 checkState
 (
 animations
@@ -314,7 +314,7 @@ running
 "
 )
 ;
-yield
+await
 client
 .
 close
@@ -330,8 +330,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 checkState
 (
 animations
@@ -357,7 +357,7 @@ let
 player
 ]
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -365,7 +365,7 @@ getAnimationPlayersForNode
 nodeFront
 )
 ;
-yield
+await
 player
 .
 ready
@@ -373,7 +373,7 @@ ready
 let
 state
 =
-yield
+await
 player
 .
 getCurrentState
@@ -400,8 +400,8 @@ playState
 )
 ;
 }
+async
 function
-*
 getNodeInFrame
 (
 walker
@@ -412,7 +412,7 @@ nodeSelector
 let
 iframe
 =
-yield
+await
 walker
 .
 querySelector
@@ -428,7 +428,7 @@ let
 nodes
 }
 =
-yield
+await
 walker
 .
 children

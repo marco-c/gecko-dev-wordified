@@ -177,12 +177,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -192,7 +189,7 @@ memory
 client
 }
 =
-yield
+await
 startServerAndGetSelectedTabMemory
 (
 )
@@ -204,7 +201,7 @@ null
 ;
 try
 {
-yield
+await
 memory
 .
 detach
@@ -235,7 +232,7 @@ error
 "
 )
 ;
-yield
+await
 memory
 .
 attach
@@ -248,7 +245,7 @@ null
 ;
 try
 {
-yield
+await
 memory
 .
 attach
@@ -279,7 +276,7 @@ error
 "
 )
 ;
-yield
+await
 memory
 .
 detach
@@ -292,6 +289,8 @@ client
 )
 ;
 }
+)
+(
 )
 ;
 }

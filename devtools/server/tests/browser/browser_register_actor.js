@@ -322,12 +322,8 @@ callback
 var
 checkActorState
 =
-Task
-.
 async
-(
 function
-*
 (
 helloActor
 callback
@@ -336,7 +332,7 @@ callback
 let
 response
 =
-yield
+await
 getCount
 (
 helloActor
@@ -371,7 +367,7 @@ valid
 ;
 response
 =
-yield
+await
 getCount
 (
 helloActor
@@ -410,7 +406,7 @@ tabs
 selected
 }
 =
-yield
+await
 gClient
 .
 listTabs
@@ -442,7 +438,7 @@ valid
 ;
 response
 =
-yield
+await
 getCount
 (
 helloActor
@@ -480,5 +476,4 @@ callback
 )
 ;
 }
-)
 ;

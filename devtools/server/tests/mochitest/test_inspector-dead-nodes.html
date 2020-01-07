@@ -191,8 +191,8 @@ null
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -249,7 +249,7 @@ tab
 doc
 }
 =
-yield
+await
 def
 .
 promise
@@ -287,7 +287,7 @@ tab
 ;
 gWalker
 =
-yield
+await
 inspector
 .
 getWalker
@@ -303,8 +303,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -342,7 +342,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -374,7 +374,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 parents
@@ -382,7 +382,7 @@ parents
 nodeFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -413,8 +413,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -452,7 +452,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -484,7 +484,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 children
@@ -492,7 +492,7 @@ children
 nodeFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -523,8 +523,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -562,7 +562,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -594,7 +594,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 siblings
@@ -602,7 +602,7 @@ siblings
 nodeFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -633,8 +633,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -672,7 +672,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -704,7 +704,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 nextSibling
@@ -712,7 +712,7 @@ nextSibling
 nodeFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -743,8 +743,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -782,7 +782,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -814,7 +814,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 previousSibling
@@ -822,7 +822,7 @@ previousSibling
 nodeFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -853,8 +853,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -895,7 +895,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -927,7 +927,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 addPseudoClassLock
@@ -939,7 +939,7 @@ hover
 "
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -970,8 +970,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -1012,7 +1012,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1044,7 +1044,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 removePseudoClassLock
@@ -1056,7 +1056,7 @@ hover
 "
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -1087,8 +1087,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -1129,7 +1129,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1161,7 +1161,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 clearPseudoClassLocks
@@ -1169,7 +1169,7 @@ clearPseudoClassLocks
 nodeFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -1200,8 +1200,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -1239,7 +1239,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1271,7 +1271,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 innerHTML
@@ -1279,7 +1279,7 @@ innerHTML
 nodeFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -1310,8 +1310,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -1349,7 +1349,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1381,7 +1381,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 setInnerHTML
@@ -1400,7 +1400,7 @@ span
 "
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -1431,8 +1431,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -1470,7 +1470,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1502,7 +1502,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 outerHTML
@@ -1510,7 +1510,7 @@ outerHTML
 nodeFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -1541,8 +1541,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -1580,7 +1580,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1612,7 +1612,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 setOuterHTML
@@ -1638,7 +1638,7 @@ h1
 "
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -1669,8 +1669,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -1711,7 +1711,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1743,7 +1743,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 insertAdjacentHTML
@@ -1766,7 +1766,7 @@ span
 "
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -1797,8 +1797,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -1834,7 +1834,7 @@ throw
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1873,7 +1873,7 @@ false
 ;
 try
 {
-yield
+await
 gWalker
 .
 removeNode
@@ -1892,7 +1892,7 @@ hasThrown
 true
 ;
 }
-yield
+await
 newRoot
 ;
 ok
@@ -1920,8 +1920,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -1959,7 +1959,7 @@ throw
 let
 nodeFront1
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1975,7 +1975,7 @@ h1
 let
 nodeFront2
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -1992,7 +1992,7 @@ longstring
 let
 nodeFront3
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -2032,7 +2032,7 @@ false
 ;
 try
 {
-yield
+await
 gWalker
 .
 removeNodes
@@ -2055,7 +2055,7 @@ hasThrown
 true
 ;
 }
-yield
+await
 newRoot
 ;
 ok
@@ -2083,8 +2083,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -2127,7 +2127,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -2143,7 +2143,7 @@ h1
 let
 newParentFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -2176,7 +2176,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 insertBefore
@@ -2185,7 +2185,7 @@ nodeFront
 newParentFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -2216,8 +2216,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -2260,7 +2260,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -2276,7 +2276,7 @@ h1
 let
 newParentFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -2293,7 +2293,7 @@ longlist
 let
 siblingFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -2326,7 +2326,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 insertBefore
@@ -2336,7 +2336,7 @@ newParentFront
 siblingFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -2367,8 +2367,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -2406,7 +2406,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -2438,7 +2438,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 editTagName
@@ -2449,7 +2449,7 @@ h2
 "
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -2480,8 +2480,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -2519,7 +2519,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -2551,7 +2551,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 hideNode
@@ -2559,7 +2559,7 @@ hideNode
 nodeFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -2590,8 +2590,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -2629,7 +2629,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -2661,7 +2661,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 unhideNode
@@ -2669,7 +2669,7 @@ unhideNode
 nodeFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -2700,8 +2700,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -2739,7 +2739,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -2771,7 +2771,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 releaseNode
@@ -2779,7 +2779,7 @@ releaseNode
 nodeFront
 )
 ;
-yield
+await
 newRoot
 ;
 ok
@@ -2810,8 +2810,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
@@ -2849,7 +2849,7 @@ fail
 let
 nodeFront
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -2881,7 +2881,7 @@ reload
 (
 )
 ;
-yield
+await
 gWalker
 .
 querySelector
@@ -2892,7 +2892,7 @@ h1
 "
 )
 ;
-yield
+await
 newRoot
 ;
 ok

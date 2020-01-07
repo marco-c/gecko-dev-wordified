@@ -276,8 +276,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testInlineBlockDisplayType
 (
 )
@@ -302,7 +302,7 @@ element
 let
 node
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -359,8 +359,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testInlineTextChildDisplayType
 (
 )
@@ -385,7 +385,7 @@ child
 let
 node
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -404,7 +404,7 @@ block
 let
 children
 =
-yield
+await
 gWalker
 .
 children
@@ -454,8 +454,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testGridDisplayType
 (
 )
@@ -479,7 +479,7 @@ container
 let
 node
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -530,8 +530,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testBlockDisplayType
 (
 )
@@ -555,7 +555,7 @@ element
 let
 node
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -572,7 +572,7 @@ block
 let
 displayType
 =
-yield
+await
 node
 .
 displayType

@@ -74,12 +74,12 @@ GarbageCollection
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 MAIN_DOMAIN
@@ -111,7 +111,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -126,7 +126,7 @@ client
 form
 )
 ;
-yield
+await
 front
 .
 connect
@@ -136,7 +136,7 @@ connect
 let
 rec
 =
-yield
+await
 front
 .
 startRecording
@@ -151,14 +151,14 @@ true
 let
 markers
 =
-yield
+await
 waitForMarkerType
 (
 front
 MARKER_NAME
 )
 ;
-yield
+await
 front
 .
 stopRecording
@@ -378,7 +378,7 @@ time
 "
 )
 ;
-yield
+await
 client
 .
 close

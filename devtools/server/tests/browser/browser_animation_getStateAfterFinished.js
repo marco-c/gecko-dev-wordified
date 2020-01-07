@@ -126,8 +126,8 @@ information
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -138,7 +138,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 MAIN_DOMAIN
@@ -164,7 +164,7 @@ node
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -198,7 +198,7 @@ animations
 "
 )
 ;
-yield
+await
 node
 .
 modifyAttributes
@@ -253,7 +253,7 @@ ended
 let
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -304,7 +304,7 @@ should
 do
 it
 .
-yield
+await
 new
 Promise
 (
@@ -331,7 +331,7 @@ again
 ;
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -494,7 +494,7 @@ correct
 "
 )
 ;
-yield
+await
 client
 .
 close

@@ -83,8 +83,8 @@ performance
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -106,7 +106,7 @@ requestLongerTimeout
 2
 )
 ;
-yield
+await
 addTab
 (
 MAIN_DOMAIN
@@ -138,7 +138,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -153,7 +153,7 @@ client
 form
 )
 ;
-yield
+await
 front
 .
 connect
@@ -163,7 +163,7 @@ connect
 let
 rec
 =
-yield
+await
 front
 .
 startRecording
@@ -178,7 +178,7 @@ true
 let
 markers
 =
-yield
+await
 waitForMarkerType
 (
 front
@@ -198,7 +198,7 @@ ForgetSkippable
 ]
 )
 ;
-yield
+await
 front
 .
 stopRecording
@@ -272,7 +272,7 @@ markers
 "
 )
 ;
-yield
+await
 client
 .
 close

@@ -79,8 +79,8 @@ run_test
 =
 makeMemoryActorTest
 (
+async
 function
-*
 (
 client
 memoryFront
@@ -89,7 +89,7 @@ memoryFront
 const
 snapshotFilePath
 =
-yield
+await
 memoryFront
 .
 saveHeapSnapshot
@@ -106,7 +106,7 @@ ok
 !
 !
 (
-yield
+await
 OS
 .
 File

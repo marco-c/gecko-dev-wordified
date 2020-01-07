@@ -73,8 +73,8 @@ animations
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -85,7 +85,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 MAIN_DOMAIN
@@ -97,14 +97,14 @@ html
 "
 )
 ;
-yield
+await
 playerHasAnInitialState
 (
 walker
 animations
 )
 ;
-yield
+await
 client
 .
 close
@@ -120,8 +120,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 playerHasAnInitialState
 (
 walker
@@ -131,7 +131,7 @@ animations
 let
 state
 =
-yield
+await
 getAnimationStateForNode
 (
 walker
@@ -203,7 +203,7 @@ correct
 ;
 state
 =
-yield
+await
 getAnimationStateForNode
 (
 walker
@@ -274,8 +274,8 @@ correct
 )
 ;
 }
+async
 function
-*
 getAnimationStateForNode
 (
 walker
@@ -287,7 +287,7 @@ playerIndex
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -301,7 +301,7 @@ selector
 let
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -317,7 +317,7 @@ players
 playerIndex
 ]
 ;
-yield
+await
 player
 .
 ready
@@ -327,7 +327,7 @@ ready
 let
 state
 =
-yield
+await
 player
 .
 getCurrentState

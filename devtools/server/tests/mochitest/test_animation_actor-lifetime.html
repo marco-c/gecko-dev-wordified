@@ -332,8 +332,8 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 testActorLifetime
 (
 )
@@ -351,7 +351,7 @@ actor
 let
 animatedNodeActor
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -365,7 +365,7 @@ animated
 "
 )
 ;
-yield
+await
 animationsFront
 .
 getAnimationPlayersForNode
@@ -413,7 +413,7 @@ release
 let
 stillNodeActor
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -427,7 +427,7 @@ still
 "
 )
 ;
-yield
+await
 animationsFront
 .
 getAnimationPlayersForNode
@@ -468,7 +468,7 @@ actor
 let
 multiNodeActor
 =
-yield
+await
 gWalker
 .
 querySelector
@@ -482,7 +482,7 @@ multi
 "
 )
 ;
-yield
+await
 animationsFront
 .
 getAnimationPlayersForNode
@@ -518,7 +518,7 @@ actor
 "
 )
 ;
-yield
+await
 animationsFront
 .
 getAnimationPlayersForNode
@@ -553,7 +553,7 @@ again
 "
 )
 ;
-yield
+await
 animationsFront
 .
 getAnimationPlayersForNode

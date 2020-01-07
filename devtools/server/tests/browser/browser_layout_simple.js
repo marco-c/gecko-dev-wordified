@@ -64,8 +64,8 @@ and
 GridActor
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -76,7 +76,7 @@ walker
 layout
 }
 =
-yield
+await
 initLayoutFrontForUrl
 (
 "
@@ -140,7 +140,7 @@ false
 ;
 try
 {
-yield
+await
 layout
 .
 getGrids
@@ -179,7 +179,7 @@ getGrids
 let
 invalidNode
 =
-yield
+await
 walker
 .
 querySelector
@@ -195,7 +195,7 @@ title
 let
 grids
 =
-yield
+await
 layout
 .
 getGrids
@@ -240,7 +240,7 @@ node
 "
 )
 ;
-yield
+await
 client
 .
 close

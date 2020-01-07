@@ -140,12 +140,8 @@ do_test_pending
 const
 testBreakpoint
 =
-Task
-.
 async
-(
 function
-*
 (
 threadResponse
 tabClient
@@ -203,7 +199,7 @@ source
 const
 source
 =
-yield
+await
 getSource
 (
 threadClient
@@ -219,7 +215,7 @@ const
 response
 ]
 =
-yield
+await
 setBreakpoint
 (
 source
@@ -280,7 +276,7 @@ response
 .
 actor
 ;
-yield
+await
 resume
 (
 threadClient
@@ -343,7 +339,7 @@ source
 const
 bpPause1
 =
-yield
+await
 executeOnNextTickAndWaitForPause
 (
 gDebuggee
@@ -408,7 +404,7 @@ correct
 const
 dbgStmtPause1
 =
-yield
+await
 executeOnNextTickAndWaitForPause
 (
 (
@@ -447,7 +443,7 @@ pause
 "
 )
 ;
-yield
+await
 resume
 (
 threadClient
@@ -478,7 +474,7 @@ source
 const
 bpPause2
 =
-yield
+await
 executeOnNextTickAndWaitForPause
 (
 gDebuggee
@@ -543,7 +539,7 @@ correct
 const
 dbgStmtPause2
 =
-yield
+await
 executeOnNextTickAndWaitForPause
 (
 (
@@ -588,7 +584,6 @@ gClient
 )
 ;
 }
-)
 ;
 function
 evalSetupCode

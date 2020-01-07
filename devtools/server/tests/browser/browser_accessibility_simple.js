@@ -72,8 +72,8 @@ and
 AccessibleWalkerActor
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -83,7 +83,7 @@ client
 accessibility
 }
 =
-yield
+await
 initAccessibilityFrontForUrl
 (
 "
@@ -143,7 +143,7 @@ exists
 let
 a11yWalker
 =
-yield
+await
 accessibility
 .
 getWalker
@@ -161,7 +161,7 @@ returned
 "
 )
 ;
-yield
+await
 client
 .
 close

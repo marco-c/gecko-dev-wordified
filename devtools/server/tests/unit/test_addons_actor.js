@@ -64,8 +64,8 @@ startupAddonsManager
 (
 )
 ;
+async
 function
-*
 connect
 (
 )
@@ -73,7 +73,7 @@ connect
 const
 client
 =
-yield
+await
 new
 Promise
 (
@@ -98,7 +98,7 @@ client
 const
 root
 =
-yield
+await
 listTabs
 (
 client
@@ -141,8 +141,8 @@ addons
 }
 add_task
 (
+async
 function
-*
 testSuccessfulInstall
 (
 )
@@ -153,7 +153,7 @@ client
 addons
 ]
 =
-yield
+await
 connect
 (
 )
@@ -187,7 +187,7 @@ usePlatformSeparator
 const
 installedAddon
 =
-yield
+await
 addons
 .
 installTemporaryAddon
@@ -235,7 +235,7 @@ false
 const
 addonList
 =
-yield
+await
 client
 .
 listAddons
@@ -317,7 +317,7 @@ list
 "
 )
 ;
-yield
+await
 close
 (
 client
@@ -328,8 +328,8 @@ client
 ;
 add_task
 (
+async
 function
-*
 testNonExistantPath
 (
 )
@@ -340,12 +340,12 @@ client
 addons
 ]
 =
-yield
+await
 connect
 (
 )
 ;
-yield
+await
 Assert
 .
 rejects
@@ -379,7 +379,7 @@ failure
 /
 )
 ;
-yield
+await
 close
 (
 client

@@ -175,12 +175,9 @@ waitForExplicitFinish
 (
 )
 ;
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
@@ -190,12 +187,12 @@ memory
 client
 }
 =
-yield
+await
 startServerAndGetSelectedTabMemory
 (
 )
 ;
-yield
+await
 memory
 .
 attach
@@ -205,7 +202,7 @@ attach
 let
 census
 =
-yield
+await
 memory
 .
 takeCensus
@@ -221,7 +218,7 @@ object
 "
 )
 ;
-yield
+await
 memory
 .
 detach
@@ -234,6 +231,8 @@ client
 )
 ;
 }
+)
+(
 )
 ;
 }

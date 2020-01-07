@@ -426,12 +426,8 @@ bug
 var
 addTab
 =
-Task
-.
 async
-(
 function
-*
 (
 url
 )
@@ -465,7 +461,7 @@ gBrowser
 url
 )
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -493,10 +489,9 @@ tab
 linkedBrowser
 ;
 }
-)
 ;
+async
 function
-*
 initAnimationsFrontForUrl
 (
 url
@@ -538,7 +533,7 @@ inspector
 "
 )
 ;
-yield
+await
 addTab
 (
 url
@@ -564,7 +559,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -582,7 +577,7 @@ form
 let
 walker
 =
-yield
+await
 inspector
 .
 getWalker
@@ -607,8 +602,8 @@ client
 }
 ;
 }
+async
 function
-*
 initLayoutFrontForUrl
 (
 url
@@ -632,7 +627,7 @@ inspector
 "
 )
 ;
-yield
+await
 addTab
 (
 url
@@ -658,7 +653,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -676,7 +671,7 @@ form
 let
 walker
 =
-yield
+await
 inspector
 .
 getWalker
@@ -686,7 +681,7 @@ getWalker
 let
 layout
 =
-yield
+await
 walker
 .
 getLayoutInspector
@@ -702,8 +697,8 @@ client
 }
 ;
 }
+async
 function
-*
 initAccessibilityFrontForUrl
 (
 url
@@ -745,7 +740,7 @@ inspector
 "
 )
 ;
-yield
+await
 addTab
 (
 url
@@ -771,7 +766,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -789,7 +784,7 @@ form
 let
 walker
 =
-yield
+await
 inspector
 .
 getWalker

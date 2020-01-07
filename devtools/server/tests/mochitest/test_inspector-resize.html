@@ -245,8 +245,8 @@ null
 ;
 addAsyncTest
 (
+async
 function
-*
 setup
 (
 )
@@ -290,7 +290,7 @@ line
 new
 -
 cap
-yield
+await
 new
 Promise
 (
@@ -342,15 +342,15 @@ runNextTest
 ;
 addAsyncTest
 (
+async
 function
-*
 (
 )
 {
 let
 walker
 =
-yield
+await
 inspector
 .
 getWalker
@@ -386,7 +386,7 @@ to
 initialize
 it
 .
-yield
+await
 walker
 .
 querySelector
@@ -459,7 +459,7 @@ resizeTo
 600
 )
 ;
-yield
+await
 onResize
 ;
 ok

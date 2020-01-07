@@ -95,12 +95,12 @@ stylesheets
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 MAIN_DOMAIN
@@ -149,7 +149,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -167,7 +167,7 @@ tab
 "
 )
 ;
-yield
+await
 client
 .
 attachTab
@@ -201,7 +201,7 @@ created
 let
 sheets
 =
-yield
+await
 front
 .
 getStyleSheets
@@ -337,7 +337,7 @@ more
 "
 )
 ;
-yield
+await
 client
 .
 close

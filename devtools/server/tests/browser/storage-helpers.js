@@ -106,8 +106,8 @@ is
 ready
 *
 /
+async
 function
-*
 openTabAndSetupStorage
 (
 url
@@ -116,7 +116,7 @@ url
 let
 content
 =
-yield
+await
 addTab
 (
 url
@@ -136,7 +136,7 @@ for
 all
 its
 iframes
-yield
+await
 ContentTask
 .
 spawn
@@ -145,8 +145,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -292,7 +292,7 @@ win
 setup
 )
 {
-yield
+await
 win
 .
 setup
@@ -305,13 +305,13 @@ setup
 )
 ;
 }
+async
 function
-*
 clearStorage
 (
 )
 {
-yield
+await
 ContentTask
 .
 spawn
@@ -320,8 +320,8 @@ gBrowser
 .
 selectedBrowser
 null
+async
 function
-*
 (
 )
 {
@@ -467,7 +467,7 @@ win
 clear
 )
 {
-yield
+await
 win
 .
 clear

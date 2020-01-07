@@ -82,15 +82,15 @@ MyLittleSecret
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 client
 =
-yield
+await
 startTestDebuggerServer
 (
 "
@@ -105,7 +105,7 @@ test
 let
 chromeActors
 =
-yield
+await
 getChromeActors
 (
 client
@@ -125,14 +125,14 @@ playing
 with
 the
 PromiseActor
-yield
+await
 attachTab
 (
 client
 chromeActors
 )
 ;
-yield
+await
 testListPromises
 (
 client
@@ -156,7 +156,7 @@ v
 let
 response
 =
-yield
+await
 listTabs
 (
 client
@@ -191,7 +191,7 @@ tab
 "
 )
 ;
-yield
+await
 testListPromises
 (
 client
@@ -229,7 +229,7 @@ v
 }
 )
 ;
-yield
+await
 close
 (
 client
@@ -238,8 +238,8 @@ client
 }
 )
 ;
+async
 function
-*
 testListPromises
 (
 client
@@ -275,7 +275,7 @@ client
 form
 )
 ;
-yield
+await
 front
 .
 attach
@@ -285,7 +285,7 @@ attach
 let
 promises
 =
-yield
+await
 front
 .
 listPromises
@@ -442,7 +442,7 @@ promise
 "
 )
 ;
-yield
+await
 front
 .
 detach

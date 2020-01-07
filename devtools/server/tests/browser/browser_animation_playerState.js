@@ -65,8 +65,8 @@ initial
 state
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -77,7 +77,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 MAIN_DOMAIN
@@ -89,21 +89,21 @@ html
 "
 )
 ;
-yield
+await
 playerHasAnInitialState
 (
 walker
 animations
 )
 ;
-yield
+await
 playerStateIsCorrect
 (
 walker
 animations
 )
 ;
-yield
+await
 client
 .
 close
@@ -119,8 +119,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 playerHasAnInitialState
 (
 walker
@@ -130,7 +130,7 @@ animations
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -151,7 +151,7 @@ let
 player
 ]
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -442,8 +442,8 @@ documentCurrentTime
 )
 ;
 }
+async
 function
-*
 playerStateIsCorrect
 (
 walker
@@ -466,7 +466,7 @@ animation
 let
 player
 =
-yield
+await
 getAnimationPlayerForNode
 (
 walker
@@ -483,7 +483,7 @@ animation
 let
 state
 =
-yield
+await
 player
 .
 getCurrentState
@@ -640,7 +640,7 @@ transition
 ;
 player
 =
-yield
+await
 getAnimationPlayerForNode
 (
 walker
@@ -654,7 +654,7 @@ transition
 ;
 state
 =
-yield
+await
 player
 .
 getCurrentState
@@ -816,7 +816,7 @@ keyframe
 let
 keyframes
 =
-yield
+await
 player
 .
 getFrames
@@ -888,7 +888,7 @@ the
 player
 player
 =
-yield
+await
 getAnimationPlayerForNode
 (
 walker
@@ -904,7 +904,7 @@ animations
 ;
 state
 =
-yield
+await
 player
 .
 getCurrentState
@@ -1074,7 +1074,7 @@ in
 keyframe
 keyframes
 =
-yield
+await
 player
 .
 getFrames
@@ -1144,7 +1144,7 @@ delay
 ;
 player
 =
-yield
+await
 getAnimationPlayerForNode
 (
 walker
@@ -1160,7 +1160,7 @@ animation
 ;
 state
 =
-yield
+await
 player
 .
 getCurrentState
@@ -1198,7 +1198,7 @@ delay
 ;
 player
 =
-yield
+await
 getAnimationPlayerForNode
 (
 walker
@@ -1214,7 +1214,7 @@ transition
 ;
 state
 =
-yield
+await
 player
 .
 getCurrentState
@@ -1237,8 +1237,8 @@ correct
 )
 ;
 }
+async
 function
-*
 getAnimationPlayerForNode
 (
 walker
@@ -1250,7 +1250,7 @@ index
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -1264,7 +1264,7 @@ nodeSelector
 let
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -1280,7 +1280,7 @@ players
 index
 ]
 ;
-yield
+await
 player
 .
 ready

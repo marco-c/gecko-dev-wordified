@@ -84,15 +84,15 @@ Load
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 browser
 =
-yield
+await
 addTab
 (
 MAIN_DOMAIN
@@ -149,7 +149,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -167,7 +167,7 @@ form
 let
 rec
 =
-yield
+await
 front
 .
 start
@@ -226,7 +226,7 @@ reload
 )
 )
 ;
-yield
+await
 waitForMarkerType
 (
 front
@@ -245,7 +245,7 @@ markers
 "
 )
 ;
-yield
+await
 front
 .
 stop
@@ -286,7 +286,7 @@ never
 get
 fired
 .
-yield
+await
 DevToolsUtils
 .
 waitForTime
@@ -294,7 +294,7 @@ waitForTime
 1000
 )
 ;
-yield
+await
 client
 .
 close

@@ -83,8 +83,8 @@ time
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -95,7 +95,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 MAIN_DOMAIN
@@ -120,7 +120,7 @@ node
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -154,7 +154,7 @@ let
 player
 ]
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -187,7 +187,7 @@ to
 "
 )
 ;
-yield
+await
 player
 .
 setPlaybackRate
@@ -208,7 +208,7 @@ again
 let
 state
 =
-yield
+await
 player
 .
 getCurrentState
@@ -241,7 +241,7 @@ to
 "
 )
 ;
-yield
+await
 player
 .
 setPlaybackRate
@@ -261,7 +261,7 @@ again
 ;
 state
 =
-yield
+await
 player
 .
 getCurrentState
@@ -299,7 +299,7 @@ rates
 ;
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -315,7 +315,7 @@ body
 let
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -340,7 +340,7 @@ rate
 "
 )
 ;
-yield
+await
 animations
 .
 setPlaybackRates
@@ -375,7 +375,7 @@ players
 let
 animPlayerState
 =
-yield
+await
 animPlayer
 .
 getCurrentState
@@ -398,7 +398,7 @@ updated
 )
 ;
 }
-yield
+await
 client
 .
 close

@@ -131,12 +131,8 @@ do_test_pending
 const
 testSourcemap
 =
-Task
-.
 async
-(
 function
-*
 (
 threadResponse
 tabClient
@@ -153,7 +149,7 @@ const
 sources
 }
 =
-yield
+await
 getSources
 (
 threadClient
@@ -170,7 +166,7 @@ sources
 let
 sourceResponse
 =
-yield
+await
 getSourceContent
 (
 threadClient
@@ -219,7 +215,6 @@ gClient
 )
 ;
 }
-)
 ;
 const
 TEST_FILE

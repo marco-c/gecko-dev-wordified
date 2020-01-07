@@ -61,15 +61,15 @@ ChromeActors
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 client
 =
-yield
+await
 startTestDebuggerServer
 (
 "
@@ -84,7 +84,7 @@ test
 let
 response
 =
-yield
+await
 listTabs
 (
 client
@@ -238,7 +238,7 @@ PromisesActor
 let
 chromeActors
 =
-yield
+await
 getChromeActors
 (
 client

@@ -158,19 +158,16 @@ name
 callback
 )
 {
-Task
-.
-spawn
 (
+async
 function
-*
 (
 )
 {
 let
 response
 =
-yield
+await
 waitForPause
 (
 gThreadClient
@@ -193,7 +190,7 @@ debuggerStatement
 const
 source
 =
-yield
+await
 getSource
 (
 gThreadClient
@@ -222,7 +219,7 @@ js
 ;
 response
 =
-yield
+await
 setBreakpoint
 (
 source
@@ -281,7 +278,7 @@ response
 actualLocation
 )
 ;
-yield
+await
 setBreakpoint
 (
 source
@@ -341,7 +338,7 @@ evaluation
 .
 response
 =
-yield
+await
 gThreadClient
 .
 eval
@@ -369,7 +366,7 @@ resumed
 ;
 response
 =
-yield
+await
 waitForPause
 (
 gThreadClient
@@ -447,7 +444,7 @@ undefined
 ;
 response
 =
-yield
+await
 resume
 (
 gThreadClient
@@ -455,7 +452,7 @@ gThreadClient
 ;
 response
 =
-yield
+await
 waitForPause
 (
 gThreadClient
@@ -491,7 +488,7 @@ name
 ;
 response
 =
-yield
+await
 resume
 (
 gThreadClient
@@ -502,6 +499,8 @@ callback
 )
 ;
 }
+)
+(
 )
 ;
 gDebuggee

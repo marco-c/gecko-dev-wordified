@@ -79,8 +79,8 @@ updated
 state
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -91,7 +91,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 MAIN_DOMAIN
@@ -103,14 +103,14 @@ html
 "
 )
 ;
-yield
+await
 playStateIsUpdatedDynamically
 (
 walker
 animations
 )
 ;
-yield
+await
 client
 .
 close
@@ -126,8 +126,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 playStateIsUpdatedDynamically
 (
 walker
@@ -166,7 +166,7 @@ intermittents
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -201,7 +201,7 @@ let
 player
 ]
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -209,7 +209,7 @@ getAnimationPlayersForNode
 node
 )
 ;
-yield
+await
 player
 .
 ready
@@ -219,7 +219,7 @@ ready
 let
 state
 =
-yield
+await
 player
 .
 getCurrentState
@@ -299,7 +299,7 @@ lasts
 for
 100s
 .
-yield
+await
 player
 .
 setCurrentTime
@@ -311,7 +311,7 @@ setCurrentTime
 ;
 state
 =
-yield
+await
 onFinished
 ;
 is
@@ -357,8 +357,8 @@ updated
 )
 ;
 }
+async
 function
-*
 waitForAnimationPlayState
 (
 player
@@ -384,14 +384,14 @@ playState
 {
 state
 =
-yield
+await
 player
 .
 getCurrentState
 (
 )
 ;
-yield
+await
 wait
 (
 500

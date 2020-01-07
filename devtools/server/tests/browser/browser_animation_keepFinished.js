@@ -115,8 +115,8 @@ AnimationPlayerActor
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -127,7 +127,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 MAIN_DOMAIN
@@ -154,7 +154,7 @@ node
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -186,7 +186,7 @@ node
 let
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -269,7 +269,7 @@ node
 "
 )
 ;
-yield
+await
 node
 .
 modifyAttributes
@@ -307,7 +307,7 @@ duration
 "
 )
 ;
-yield
+await
 wait
 (
 2000
@@ -315,7 +315,7 @@ wait
 ;
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -384,7 +384,7 @@ mutations
 onMutations
 )
 ;
-yield
+await
 client
 .
 close

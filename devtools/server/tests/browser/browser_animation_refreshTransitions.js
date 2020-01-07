@@ -102,8 +102,8 @@ removed
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -114,7 +114,7 @@ walker
 animations
 }
 =
-yield
+await
 initAnimationsFrontForUrl
 (
 MAIN_DOMAIN
@@ -139,7 +139,7 @@ node
 let
 node
 =
-yield
+await
 walker
 .
 querySelector
@@ -171,7 +171,7 @@ node
 let
 players
 =
-yield
+await
 animations
 .
 getAnimationPlayersForNode
@@ -222,7 +222,7 @@ animations
 2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -271,7 +271,7 @@ expand
 let
 reportedMutations
 =
-yield
+await
 onMutations
 ;
 is
@@ -346,7 +346,7 @@ finished
 "
 )
 ;
-yield
+await
 waitForEnd
 (
 reportedMutations
@@ -357,7 +357,7 @@ reportedMutations
 player
 )
 ;
-yield
+await
 waitForEnd
 (
 reportedMutations
@@ -393,7 +393,7 @@ animations
 4
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -441,7 +441,7 @@ expand
 ;
 reportedMutations
 =
-yield
+await
 onMutations
 ;
 is
@@ -538,7 +538,7 @@ transitions
 "
 )
 ;
-yield
+await
 client
 .
 close
@@ -672,8 +672,8 @@ onMutations
 )
 ;
 }
+async
 function
-*
 waitForEnd
 (
 animationFront
@@ -696,7 +696,7 @@ finished
 let
 state
 =
-yield
+await
 animationFront
 .
 getCurrentState

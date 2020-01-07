@@ -130,12 +130,12 @@ CONTENT
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 TEST_URI
@@ -174,7 +174,7 @@ connectPipe
 let
 form
 =
-yield
+await
 connectDebuggerClient
 (
 client
@@ -192,7 +192,7 @@ tab
 "
 )
 ;
-yield
+await
 client
 .
 attachTab
@@ -226,7 +226,7 @@ created
 let
 sheets
 =
-yield
+await
 front
 .
 getStyleSheets
@@ -271,7 +271,7 @@ sheets
 0
 ]
 ;
-yield
+await
 sheet
 .
 update
@@ -284,7 +284,7 @@ false
 let
 longStr
 =
-yield
+await
 sheet
 .
 getText
@@ -294,7 +294,7 @@ getText
 let
 source
 =
-yield
+await
 longStr
 .
 string
@@ -313,7 +313,7 @@ empty
 "
 )
 ;
-yield
+await
 client
 .
 close

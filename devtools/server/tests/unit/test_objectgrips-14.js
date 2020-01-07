@@ -202,19 +202,15 @@ debugger
 const
 testObjectGroup
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
 let
 packet
 =
-yield
+await
 executeOnNextTickAndWaitForPause
 (
 evalCode
@@ -243,7 +239,7 @@ ugh
 const
 ughClient
 =
-yield
+await
 gThreadClient
 .
 pauseGrip
@@ -255,7 +251,7 @@ value
 ;
 packet
 =
-yield
+await
 getPrototypeAndProperties
 (
 ughClient
@@ -263,7 +259,7 @@ ughClient
 ;
 packet
 =
-yield
+await
 resumeAndWaitForPause
 (
 gClient
@@ -299,7 +295,7 @@ value
 ;
 packet
 =
-yield
+await
 getPrototypeAndProperties
 (
 ugh2Client
@@ -319,7 +315,7 @@ value
 1
 )
 ;
-yield
+await
 resume
 (
 gThreadClient
@@ -331,5 +327,4 @@ gClient
 )
 ;
 }
-)
 ;
