@@ -1593,7 +1593,7 @@ this
 method
 must
 be
-avaliable
+available
 *
 in
 the
@@ -1980,7 +1980,7 @@ the
 permission
 *
 requested
-avaliable
+available
 .
 *
 *
@@ -1998,7 +1998,7 @@ have
 all
 *
 permissions
-avaliable
+available
 for
 the
 given
@@ -2007,7 +2007,7 @@ principal
 *
 /
 bool
-PermissionAvaliable
+PermissionAvailable
 (
 nsIPrincipal
 *

@@ -8526,7 +8526,7 @@ such
 that
 it
 is
-avaliable
+available
 for
 /
 /
@@ -11233,7 +11233,7 @@ permission
 }
 MOZ_ASSERT
 (
-PermissionAvaliable
+PermissionAvailable
 (
 aPrincipal
 aType
@@ -13851,7 +13851,7 @@ NS_ERROR_INVALID_ARG
 }
 MOZ_ASSERT
 (
-PermissionAvaliable
+PermissionAvailable
 (
 aPrincipal
 aType
@@ -14445,7 +14445,7 @@ OriginAttributes
 }
 MOZ_ASSERT
 (
-PermissionAvaliable
+PermissionAvailable
 (
 prin
 aType
@@ -14681,7 +14681,7 @@ aExactHostMatch
 {
 MOZ_ASSERT
 (
-PermissionAvaliable
+PermissionAvailable
 (
 aPrincipal
 mTypeArray
@@ -15068,7 +15068,7 @@ NS_SUCCEEDED
 (
 rv
 )
-PermissionAvaliable
+PermissionAvailable
 (
 principal
 mTypeArray
@@ -15421,7 +15421,7 @@ s
 enumerator
 is
 not
-avaliable
+available
 in
 the
 "
@@ -15434,7 +15434,7 @@ all
 permissions
 may
 be
-avaliable
+available
 .
 "
 )
@@ -15721,7 +15721,7 @@ rv
 ;
 MOZ_ASSERT
 (
-PermissionAvaliable
+PermissionAvailable
 (
 principal
 nullptr
@@ -19231,7 +19231,7 @@ NS_ERROR_INVALID_ARG
 }
 MOZ_ASSERT
 (
-PermissionAvaliable
+PermissionAvailable
 (
 aPrincipal
 aType
@@ -20772,7 +20772,7 @@ bool
 nsPermissionManager
 :
 :
-PermissionAvaliable
+PermissionAvailable
 (
 nsIPrincipal
 *
@@ -20833,7 +20833,7 @@ t
 have
 the
 permission
-avaliable
+available
 so
 report
 a
@@ -21031,7 +21031,7 @@ which
 isn
 '
 t
-avaliable
+available
 in
 the
 /
@@ -21132,7 +21132,7 @@ of
 our
 permissions
 are
-avaliable
+available
 immediately
 run
 the
