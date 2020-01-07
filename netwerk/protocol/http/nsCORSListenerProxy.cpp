@@ -2367,15 +2367,6 @@ mHasBeenCrossSite
 (
 false
 )
-#
-ifdef
-DEBUG
-mInited
-{
-false
-}
-#
-endif
 mMutex
 (
 "

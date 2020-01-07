@@ -684,13 +684,6 @@ mColorTablePos
 (
 0
 )
-mColorMask
-{
-'
-\
-0
-'
-}
 mGIFOpen
 (
 false

@@ -138,9 +138,6 @@ mRemaining
 (
 0
 )
-mLength
-{
-}
 {
 }
 BufferReader

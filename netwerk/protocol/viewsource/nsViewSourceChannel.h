@@ -251,10 +251,6 @@ mOpened
 (
 false
 )
-mIsSrcdocChannel
-{
-false
-}
 {
 }
 MOZ_MUST_USE

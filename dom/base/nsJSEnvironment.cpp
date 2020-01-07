@@ -3622,12 +3622,6 @@ mGCOnDestruction
 (
 aGCOnDestruction
 )
-mModalStateTime
-{
-}
-mModalStateDepth
-{
-}
 mGlobalObjectRef
 (
 aGlobalObject

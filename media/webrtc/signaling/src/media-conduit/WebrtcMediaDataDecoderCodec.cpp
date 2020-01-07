@@ -187,13 +187,6 @@ PDMFactory
 (
 )
 )
-mTrackType
-{
-TrackInfo
-:
-:
-kUndefinedTrack
-}
 {
 }
 WebrtcMediaDataDecoder

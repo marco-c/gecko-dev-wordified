@@ -2933,10 +2933,6 @@ nsHTTPListener
 (
 )
 :
-mResultCode
-{
-NS_ERROR_NOT_INITIALIZED
-}
 mHttpRequestSucceeded
 (
 false

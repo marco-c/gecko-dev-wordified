@@ -199,12 +199,6 @@ nsAString
 aMediaSource
 )
 :
-mInnerWindowID
-{
-}
-mOuterWindowID
-{
-}
 mRawID
 (
 aRawId
@@ -213,14 +207,6 @@ mMediaSource
 (
 aMediaSource
 )
-mIsSecure
-{
-false
-}
-mIsHandlingUserInput
-{
-false
-}
 {
 if
 (

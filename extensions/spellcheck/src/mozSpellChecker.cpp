@@ -254,10 +254,6 @@ mozSpellChecker
 (
 )
 :
-mFromStart
-{
-false
-}
 mEngine
 (
 nullptr

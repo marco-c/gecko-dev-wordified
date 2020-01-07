@@ -1463,10 +1463,6 @@ Runnable
 FileSystemTaskParentBase
 "
 )
-mErrorValue
-{
-NS_ERROR_NOT_INITIALIZED
-}
 {
 }
 /

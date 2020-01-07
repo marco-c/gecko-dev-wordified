@@ -205,9 +205,6 @@ mNumber
 (
 0
 )
-mNegativeNumber
-{
-}
 {
 MOZ_ASSERT
 (

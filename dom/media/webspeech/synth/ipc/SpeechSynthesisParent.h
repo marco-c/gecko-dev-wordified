@@ -382,10 +382,6 @@ aVolume
 aUtterance
 aIsChrome
 )
-mActor
-{
-nullptr
-}
 {
 }
 nsresult

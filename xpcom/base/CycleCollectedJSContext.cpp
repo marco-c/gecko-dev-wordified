@@ -455,9 +455,6 @@ mJSContext
 (
 nullptr
 )
-mBaseRecursionDepth
-{
-}
 mDoingStableStates
 (
 false

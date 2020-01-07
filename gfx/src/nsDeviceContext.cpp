@@ -531,11 +531,6 @@ public
 nsFontCache
 (
 )
-:
-mContext
-{
-nullptr
-}
 {
 }
 NS_DECL_ISUPPORTS

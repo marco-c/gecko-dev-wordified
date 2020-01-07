@@ -343,9 +343,6 @@ nsBufferedStream
 (
 )
 :
-mBufferSize
-{
-}
 mBuffer
 (
 nullptr

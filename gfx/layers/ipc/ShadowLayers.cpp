@@ -597,9 +597,6 @@ mTargetRotation
 (
 ROTATION_0
 )
-mTargetOrientation
-{
-}
 mOpen
 (
 false

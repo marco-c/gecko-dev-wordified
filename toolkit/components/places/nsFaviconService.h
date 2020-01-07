@@ -277,9 +277,6 @@ nsURIHashKey
 (
 aURI
 )
-created
-{
-}
 {
 }
 UnassociatedIconHashKey

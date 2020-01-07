@@ -444,10 +444,6 @@ mStackToFill
 (
 nullptr
 )
-mRunnableNameBuffer
-{
-nullptr
-}
 mMaxStackSize
 (
 16

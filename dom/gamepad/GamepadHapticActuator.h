@@ -198,9 +198,6 @@ mParent
 (
 aParent
 )
-mGamepadId
-{
-}
 mType
 (
 GamepadHapticActuatorType
@@ -208,9 +205,6 @@ GamepadHapticActuatorType
 :
 Vibration
 )
-mIndex
-{
-}
 {
 }
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

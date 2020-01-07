@@ -88,11 +88,6 @@ NS_DECL_NSIHTTPAUTHENTICATOR
 nsHttpNTLMAuth
 (
 )
-:
-mUseNative
-{
-false
-}
 {
 }
 private

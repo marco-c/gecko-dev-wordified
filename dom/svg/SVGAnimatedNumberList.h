@@ -319,11 +319,6 @@ public
 SVGAnimatedNumberList
 (
 )
-:
-mIsBaseSet
-{
-false
-}
 {
 }
 /

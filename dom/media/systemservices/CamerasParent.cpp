@@ -1011,9 +1011,6 @@ mProperties
 (
 aProperties
 )
-mResult
-{
-}
 {
 /
 /
@@ -1184,9 +1181,6 @@ mProperties
 (
 aProperties
 )
-mResult
-{
-}
 {
 }
 ;

@@ -284,10 +284,6 @@ mFloatFragmentsInsideColumnEnabled
 (
 false
 )
-mCanHaveTextOverflow
-{
-false
-}
 {
 }
 /

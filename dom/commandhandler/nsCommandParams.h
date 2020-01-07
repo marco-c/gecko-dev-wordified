@@ -228,9 +228,6 @@ mEntryType
 (
 aType
 )
-mData
-{
-}
 {
 Reset
 (

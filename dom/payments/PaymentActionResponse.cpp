@@ -614,11 +614,6 @@ PaymentCanMakeActionResponse
 PaymentCanMakeActionResponse
 (
 )
-:
-mResult
-{
-false
-}
 {
 mType
 =
@@ -697,10 +692,6 @@ PaymentShowActionResponse
 PaymentShowActionResponse
 (
 )
-:
-mAcceptStatus
-{
-}
 {
 mType
 =
@@ -1104,10 +1095,6 @@ PaymentAbortActionResponse
 PaymentAbortActionResponse
 (
 )
-:
-mAbortStatus
-{
-}
 {
 mType
 =
@@ -1219,10 +1206,6 @@ PaymentCompleteActionResponse
 PaymentCompleteActionResponse
 (
 )
-:
-mCompleteStatus
-{
-}
 {
 mType
 =

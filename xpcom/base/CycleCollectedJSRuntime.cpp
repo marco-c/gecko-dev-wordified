@@ -2074,10 +2074,6 @@ WeakMapTracer
 (
 aRt
 )
-mAnyMarked
-{
-false
-}
 {
 }
 void

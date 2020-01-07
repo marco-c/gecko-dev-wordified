@@ -562,10 +562,6 @@ ice_ctx_
 (
 nullptr
 )
-ice_media_stream_
-{
-nullptr
-}
 peer_ctx_
 (
 nullptr

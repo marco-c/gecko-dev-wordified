@@ -1335,9 +1335,9 @@ of
 logs
 exceeds
 some
-/
-/
 preset
+/
+/
 capacity
 we
 may
@@ -1352,9 +1352,9 @@ indices
 help
 figure
 out
-/
-/
 which
+/
+/
 ones
 we
 did
@@ -1785,10 +1785,6 @@ mOptions
 (
 0
 )
-mReason
-{
-aReason
-}
 mLogIt
 (
 false

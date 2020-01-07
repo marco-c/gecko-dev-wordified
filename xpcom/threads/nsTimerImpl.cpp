@@ -1779,13 +1779,6 @@ mHolder
 (
 nullptr
 )
-mType
-{
-'
-\
-0
-'
-}
 mGeneration
 (
 0

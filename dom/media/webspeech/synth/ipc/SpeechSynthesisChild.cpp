@@ -730,10 +730,6 @@ nsSpeechTask
 aUtterance
 aIsChrome
 )
-mActor
-{
-nullptr
-}
 {
 }
 NS_IMETHODIMP

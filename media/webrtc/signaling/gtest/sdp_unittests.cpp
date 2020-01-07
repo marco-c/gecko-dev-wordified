@@ -323,9 +323,6 @@ SdpTest
 (
 )
 :
-final_level_
-{
-}
 sdp_ptr_
 (
 nullptr
@@ -11573,11 +11570,6 @@ public
 NewSdpTest
 (
 )
-:
-mSdpErrorHolder
-{
-nullptr
-}
 {
 }
 void

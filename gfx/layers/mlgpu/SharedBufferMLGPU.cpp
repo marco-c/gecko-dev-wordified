@@ -183,9 +183,6 @@ mMaxSize
 (
 0
 )
-mMap
-{
-}
 mMapped
 (
 false
@@ -1004,12 +1001,6 @@ mOffset
 -
 1
 )
-mNumBytes
-{
-}
-mNumItems
-{
-}
 {
 }
 void

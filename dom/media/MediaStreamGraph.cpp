@@ -22258,9 +22258,6 @@ MediaStreamGraph
 (
 aSampleRate
 )
-mFirstCycleBreaker
-{
-}
 mPortCount
 (
 0

@@ -2056,10 +2056,6 @@ mIsInitialized
 (
 false
 )
-mDiscardable
-{
-false
-}
 mIsFullyLoaded
 (
 false

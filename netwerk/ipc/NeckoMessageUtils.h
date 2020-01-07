@@ -187,16 +187,6 @@ expireTime
 Permission
 (
 )
-:
-capability
-{
-}
-expireType
-{
-}
-expireTime
-{
-}
 {
 }
 Permission

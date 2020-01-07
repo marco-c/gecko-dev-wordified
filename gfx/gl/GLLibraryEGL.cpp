@@ -1331,11 +1331,6 @@ public
 AngleErrorReporting
 (
 )
-:
-mFailureId
-{
-nullptr
-}
 {
 /
 /

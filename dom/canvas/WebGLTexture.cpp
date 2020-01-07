@@ -871,13 +871,6 @@ mIsResolved
 (
 false
 )
-mResolved_FakeBlack
-{
-FakeBlackType
-:
-:
-None
-}
 mResolved_Swizzle
 (
 nullptr

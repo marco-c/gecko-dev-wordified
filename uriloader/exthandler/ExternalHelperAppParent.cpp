@@ -324,9 +324,6 @@ mWasFileChannel
 (
 aWasFileChannel
 )
-mContentDisposition
-{
-}
 {
 }
 already_AddRefed

@@ -13306,15 +13306,6 @@ begin
 (
 )
 )
-#
-ifndef
-DEBUG
-mCurrentStrip
-{
-nullptr
-}
-#
-endif
 {
 mIsDone
 =

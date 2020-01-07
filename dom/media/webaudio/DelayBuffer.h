@@ -214,9 +214,6 @@ is
 initialized
 in
 EnsureBuffer
-mLastReadChunk
-{
-}
 #
 ifdef
 DEBUG

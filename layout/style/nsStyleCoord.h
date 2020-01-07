@@ -3017,9 +3017,6 @@ mUnit
 (
 eStyleUnit_Null
 )
-mValue
-{
-}
 {
 InitWithValue
 (

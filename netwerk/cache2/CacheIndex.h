@@ -8392,9 +8392,6 @@ mObserver
 (
 aWeakObserver
 )
-mSize
-{
-}
 {
 }
 virtual

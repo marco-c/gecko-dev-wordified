@@ -2331,17 +2331,6 @@ mList
 (
 nullptr
 )
-mElement
-{
-nullptr
-}
-mAxis
-{
-'
-\
-0
-'
-}
 {
 }
 void

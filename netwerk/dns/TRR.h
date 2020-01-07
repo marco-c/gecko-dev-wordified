@@ -516,14 +516,6 @@ mHostResolver
 (
 aResolver
 )
-/
-*
-FIXME
-:
-initialize
-mType
-*
-/
 mBodySize
 (
 0

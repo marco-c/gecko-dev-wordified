@@ -5040,11 +5040,6 @@ nsImageBoxListener
 nsImageBoxListener
 (
 )
-:
-mFrame
-{
-nullptr
-}
 {
 }
 nsImageBoxListener

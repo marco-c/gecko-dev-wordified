@@ -3503,16 +3503,6 @@ mTextRun
 (
 aTextRun
 )
-mGlyphRun
-{
-nullptr
-}
-mStringStart
-{
-}
-mStringEnd
-{
-}
 mStartOffset
 (
 aRange

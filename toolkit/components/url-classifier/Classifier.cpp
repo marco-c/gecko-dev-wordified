@@ -947,9 +947,6 @@ Classifier
 (
 )
 :
-mHashKey
-{
-}
 mIsTableRequestResultOutdated
 (
 true

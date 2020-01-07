@@ -155,11 +155,6 @@ public
 ForceDiscreteGPUHelperCGL
 (
 )
-:
-mPixelFormatObj
-{
-nullptr
-}
 {
 /
 /
@@ -172,8 +167,6 @@ is
 taken
 from
 Chromium
-/
-/
 src
 /
 ui
@@ -186,6 +179,8 @@ gl_context_cgl
 .
 cc
 r122013
+/
+/
 BSD
 -
 style
@@ -194,8 +189,6 @@ license
 c
 )
 The
-/
-/
 Chromium
 Authors
 CGLPixelFormatAttribute

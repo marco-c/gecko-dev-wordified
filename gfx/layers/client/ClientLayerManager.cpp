@@ -672,14 +672,6 @@ mWidget
 (
 aWidget
 )
-mPaintedLayerCallback
-{
-nullptr
-}
-mPaintedLayerCallbackData
-{
-nullptr
-}
 mLatestTransactionId
 (
 0

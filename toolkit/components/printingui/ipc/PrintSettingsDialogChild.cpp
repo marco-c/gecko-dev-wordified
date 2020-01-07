@@ -86,10 +86,6 @@ mReturned
 (
 false
 )
-mResult
-{
-NS_ERROR_NOT_INITIALIZED
-}
 {
 MOZ_COUNT_CTOR
 (

@@ -170,9 +170,6 @@ eVoidEvent
 nullptr
 )
 )
-mInputSource
-{
-}
 {
 if
 (

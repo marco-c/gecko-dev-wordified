@@ -3773,10 +3773,6 @@ ByteBuf
 &
 aSrc
 )
-:
-inner
-{
-}
 {
 Assign_WrVecU8
 (

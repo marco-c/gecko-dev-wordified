@@ -236,10 +236,6 @@ mOuterReflowInput
 (
 aParentRI
 )
-mFrame
-{
-nullptr
-}
 mSpace
 (
 aParentRI
@@ -248,12 +244,6 @@ GetWritingMode
 (
 )
 )
-mICoord
-{
-}
-mBCoord
-{
-}
 mMetrics
 (
 aParentRI

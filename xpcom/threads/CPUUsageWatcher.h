@@ -281,9 +281,6 @@ mGlobalUpdateTime
 (
 0
 )
-mNumCPUs
-{
-}
 {
 }
 #

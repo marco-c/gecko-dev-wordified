@@ -357,12 +357,6 @@ mCn
 .
 y
 )
-mCenterCurveR
-{
-0
-.
-0
-}
 mInnerCurveOrigin
 (
 mInnerBezier

@@ -170,15 +170,6 @@ mIsActive
 (
 false
 )
-mActive_PrimMode
-{
-}
-mActive_VertPosition
-{
-}
-mActive_VertCapacity
-{
-}
 {
 mContext
 -

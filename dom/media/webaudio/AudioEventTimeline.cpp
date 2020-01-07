@@ -549,12 +549,6 @@ mType
 (
 Stream
 )
-mValue
-{
-0
-.
-0
-}
 mCurve
 (
 nullptr

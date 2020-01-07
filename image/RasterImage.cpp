@@ -585,13 +585,6 @@ mLockCount
 (
 0
 )
-mDecoderType
-{
-DecoderType
-:
-:
-UNKNOWN
-}
 mDecodeCount
 (
 0

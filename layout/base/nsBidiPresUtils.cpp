@@ -1072,10 +1072,6 @@ mPrevContent
 (
 nullptr
 )
-mPrevFrame
-{
-nullptr
-}
 #
 ifdef
 DEBUG
@@ -14874,13 +14870,6 @@ mPt
 (
 aPt
 )
-mText
-{
-nullptr
-}
-mLength
-{
-}
 {
 }
 ~

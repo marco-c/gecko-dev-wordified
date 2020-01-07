@@ -9032,12 +9032,6 @@ compartments
 (
 compartments
 )
-nodeCount
-{
-}
-edgeCount
-{
-}
 {
 }
 /

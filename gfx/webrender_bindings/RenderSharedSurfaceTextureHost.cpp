@@ -177,9 +177,6 @@ mSurface
 (
 aSurface
 )
-mMap
-{
-}
 mLocked
 (
 false

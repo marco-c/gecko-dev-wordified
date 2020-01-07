@@ -946,10 +946,6 @@ mResources
 (
 nullptr
 )
-mXBLDocInfoWeak
-{
-nullptr
-}
 mBaseNameSpaceID
 (
 kNameSpaceID_None

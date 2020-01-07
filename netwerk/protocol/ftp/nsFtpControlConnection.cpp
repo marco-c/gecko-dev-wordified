@@ -444,9 +444,6 @@ mServerType
 (
 0
 )
-mSuspendedWrite
-{
-}
 mSessionId
 (
 gFtpHandler

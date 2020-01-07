@@ -335,14 +335,6 @@ mIsOutOfRange
 (
 false
 )
-/
-*
-FIXME
-:
-initialize
-mDirection
-*
-/
 {
 }
 virtual

@@ -1125,13 +1125,6 @@ Paint
 (
 )
 :
-mPaintDefinition
-{
-}
-mFrame
-{
-nullptr
-}
 mPaintType
 (
 eStyleSVGPaintType_None

@@ -343,9 +343,6 @@ mCanceled
 (
 false
 )
-mLoadStats
-{
-}
 mLoadOtherNames
 (
 aLoadOtherNames

@@ -285,9 +285,6 @@ RawServoAnimationValue
 aValue
 )
 :
-mGecko
-{
-}
 mServo
 (
 aValue

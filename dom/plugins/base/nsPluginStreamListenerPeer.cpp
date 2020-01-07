@@ -322,10 +322,6 @@ nsPluginStreamListenerPeer
 nsPluginStreamListenerPeer
 (
 )
-:
-mLength
-{
-}
 {
 mStreamType
 =

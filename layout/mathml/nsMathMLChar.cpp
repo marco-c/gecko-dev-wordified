@@ -3573,9 +3573,6 @@ FamilyName
 )
 eUnquotedName
 )
-mGlyphID
-{
-}
 {
 MOZ_COUNT_CTOR
 (

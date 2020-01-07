@@ -2387,9 +2387,6 @@ mOperationMayProceed
 (
 true
 )
-mModuleIndex
-{
-}
 mState
 (
 eInitial

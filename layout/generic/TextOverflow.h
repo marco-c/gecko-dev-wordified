@@ -514,12 +514,6 @@ AlignmentEdges
 (
 )
 :
-mIStart
-{
-}
-mIEnd
-{
-}
 mAssigned
 (
 false
@@ -633,12 +627,6 @@ InnerClipEdges
 (
 )
 :
-mIStart
-{
-}
-mIEnd
-{
-}
 mAssignedIStart
 (
 false

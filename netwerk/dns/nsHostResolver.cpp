@@ -1702,14 +1702,6 @@ negative
 (
 false
 )
-/
-*
-FIXME
-:
-initialize
-mResolverMode
-*
-/
 mResolving
 (
 0
