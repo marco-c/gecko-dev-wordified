@@ -90,6 +90,12 @@ media_queries
 Device
 ;
 use
+selector_parser
+:
+:
+SnapshotMap
+;
+use
 shared_lock
 :
 :
@@ -3293,6 +3299,13 @@ Option
 <
 E
 >
+snapshots
+:
+Option
+<
+&
+SnapshotMap
+>
 )
 -
 >
@@ -3334,6 +3347,7 @@ invalidations
 flush
 (
 document_element
+snapshots
 )
 ;
 let
