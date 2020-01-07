@@ -873,7 +873,7 @@ whole
 lot
 easier
 .
-TileIntPoint
+TileCoordIntPoint
 mTilePosition
 ;
 TimeStamp

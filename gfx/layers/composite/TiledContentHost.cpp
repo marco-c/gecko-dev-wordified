@@ -678,7 +678,7 @@ IsNull
 )
 )
 {
-TileIntPoint
+TileCoordIntPoint
 position
 =
 mTiles
@@ -2492,7 +2492,7 @@ mTiles
 .
 mFirst
 =
-TileIntPoint
+TileCoordIntPoint
 (
 )
 ;
@@ -2500,7 +2500,7 @@ mTiles
 .
 mSize
 =
-TileIntSize
+TileCoordIntSize
 (
 )
 ;
@@ -3901,7 +3901,7 @@ IsPlaceholderTile
 continue
 ;
 }
-TileIntPoint
+TileCoordIntPoint
 tilePosition
 =
 aLayerBuffer
