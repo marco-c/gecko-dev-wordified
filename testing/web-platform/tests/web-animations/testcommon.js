@@ -219,6 +219,8 @@ assert_approx_equals
 actual
 expected
 TIME_PRECISION
+*
+2
 description
 )
 ;
