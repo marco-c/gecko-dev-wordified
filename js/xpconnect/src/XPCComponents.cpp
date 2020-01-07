@@ -7122,7 +7122,7 @@ NS_OK
 JavaScript
 Constructor
 for
-nsIXPCException
+Exception
 objects
 (
 Components
@@ -8654,9 +8654,9 @@ cx
 _retval
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIException
+Exception
 >
 e
 =
@@ -8703,7 +8703,7 @@ obj
 e
 NS_GET_IID
 (
-nsIXPCException
+nsIException
 )
 newObj
 .

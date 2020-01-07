@@ -207,7 +207,7 @@ h
 #
 include
 "
-xpcexception
+nsIException
 .
 h
 "
@@ -286,7 +286,7 @@ class
 Exception
 :
 public
-nsIXPCException
+nsIException
 public
 nsWrapperCache
 {
@@ -302,7 +302,6 @@ Exception
 )
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIEXCEPTION
-NS_DECL_NSIXPCEXCEPTION
 /
 /
 Cruft

@@ -7576,7 +7576,7 @@ XXX
 Special
 case
 for
-nsIXPCException
+Exception
 ?
 uint32_t
 flags
