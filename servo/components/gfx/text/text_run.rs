@@ -2488,7 +2488,7 @@ ByteIndex
 >
 advance
 :
-Au
+f32
 )
 -
 >
@@ -2534,7 +2534,13 @@ let
 mut
 remaining
 =
+Au
+:
+:
+from_f32_px
+(
 advance
+)
 ;
 self
 .
