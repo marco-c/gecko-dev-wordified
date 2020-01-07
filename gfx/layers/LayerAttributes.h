@@ -1263,7 +1263,7 @@ return
 mThumbData
 ;
 }
-float
+bool
 IsScrollbarContainer
 (
 )
