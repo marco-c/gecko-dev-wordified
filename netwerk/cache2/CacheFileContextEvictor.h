@@ -156,6 +156,11 @@ nsIFile
 aCacheDirectory
 )
 ;
+void
+Shutdown
+(
+)
+;
 /
 /
 Returns
