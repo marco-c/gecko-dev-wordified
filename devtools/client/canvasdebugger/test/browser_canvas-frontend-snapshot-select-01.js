@@ -52,8 +52,8 @@ frame
 .
 *
 /
+async
 function
-*
 ifTestingSupported
 (
 )
@@ -64,7 +64,7 @@ target
 panel
 }
 =
-yield
+await
 initCanvasDebuggerFrontend
 (
 SIMPLE_CANVAS_URL
@@ -82,13 +82,13 @@ panel
 .
 panelWin
 ;
-yield
+await
 reload
 (
 target
 )
 ;
-yield
+await
 recordAndWaitForFirstSnapshot
 (
 )
@@ -146,7 +146,7 @@ snapshot
 "
 )
 ;
-yield
+await
 recordAndWaitForAnotherSnapshot
 (
 )
@@ -240,7 +240,7 @@ secondSnapshotTarget
 window
 )
 ;
-yield
+await
 snapshotSelected
 ;
 info
@@ -343,7 +343,7 @@ firstDrawCallContents
 window
 )
 ;
-yield
+await
 screenshotDisplayed
 ;
 info
@@ -434,7 +434,7 @@ firstSnapshotTarget
 window
 )
 ;
-yield
+await
 snapshotSelected
 ;
 info
@@ -523,7 +523,7 @@ _onRecordButtonClick
 )
 ;
 return
-promise
+Promise
 .
 all
 (
@@ -599,7 +599,7 @@ CALL_SCREENSHOT_DISPLAYED
 )
 ;
 return
-promise
+Promise
 .
 all
 (
@@ -611,7 +611,7 @@ screenshotDisplayed
 )
 ;
 }
-yield
+await
 teardown
 (
 panel

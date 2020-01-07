@@ -123,16 +123,6 @@ chrome
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 EventEmitter
 =
 require
@@ -299,7 +289,7 @@ else
 {
 targetPromise
 =
-promise
+Promise
 .
 resolve
 (

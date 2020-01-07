@@ -51,8 +51,8 @@ timeout
 .
 *
 /
+async
 function
-*
 ifTestingSupported
 (
 )
@@ -63,7 +63,7 @@ target
 panel
 }
 =
-yield
+await
 initCanvasDebuggerFrontend
 (
 RAF_NO_CANVAS_URL
@@ -80,7 +80,7 @@ panel
 .
 panelWin
 ;
-yield
+await
 reload
 (
 target
@@ -103,7 +103,7 @@ _onRecordButtonClick
 (
 )
 ;
-yield
+await
 recordingStarted
 ;
 is
@@ -169,8 +169,8 @@ EVENTS
 SNAPSHOT_RECORDING_CANCELLED
 )
 ;
-yield
-promise
+await
+Promise
 .
 all
 (
@@ -251,7 +251,7 @@ shown
 "
 )
 ;
-yield
+await
 teardown
 (
 panel
