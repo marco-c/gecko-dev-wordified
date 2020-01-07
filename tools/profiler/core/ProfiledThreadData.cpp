@@ -178,8 +178,6 @@ aThreadInfo
 nsIEventTarget
 *
 aEventTarget
-bool
-aIncludeResponsiveness
 )
 :
 mThreadInfo
@@ -192,11 +190,6 @@ MOZ_COUNT_CTOR
 ProfiledThreadData
 )
 ;
-if
-(
-aIncludeResponsiveness
-)
-{
 mResponsiveness
 .
 emplace
@@ -210,7 +203,6 @@ IsMainThread
 )
 )
 ;
-}
 }
 ProfiledThreadData
 :
