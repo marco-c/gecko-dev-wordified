@@ -213,10 +213,6 @@ unknown_lints
 ]
 extern
 crate
-angle
-;
-extern
-crate
 app_units
 ;
 extern
@@ -404,6 +400,10 @@ mime_guess
 extern
 crate
 mitochondria
+;
+extern
+crate
+mozangle
 ;
 #
 [
