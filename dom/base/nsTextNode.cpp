@@ -684,11 +684,7 @@ return
 aFlags
 &
 ~
-(
-eTEXT
-|
 eDATA_NODE
-)
 )
 ;
 }
