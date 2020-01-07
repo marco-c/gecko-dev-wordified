@@ -5751,6 +5751,10 @@ manifest
 tppagecycles
 =
 1
+    
+lower_is_better
+=
+True
 register_test
 (
 )
