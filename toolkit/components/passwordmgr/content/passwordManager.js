@@ -440,11 +440,12 @@ localization
 let
 dateFormatter
 =
+new
 Services
 .
 intl
 .
-createDateTimeFormat
+DateTimeFormat
 (
 undefined
 {
@@ -459,11 +460,12 @@ medium
 let
 dateAndTimeFormatter
 =
+new
 Services
 .
 intl
 .
-createDateTimeFormat
+DateTimeFormat
 (
 undefined
 {

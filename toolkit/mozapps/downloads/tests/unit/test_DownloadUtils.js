@@ -719,11 +719,13 @@ Services
 .
 intl
 .
-createDateTimeFormat
+DateTimeFormat
 ;
 testGetReadableDates
 (
 today_11_30
+(
+new
 cDtf
 (
 undefined
@@ -734,6 +736,7 @@ timeStyle
 short
 "
 }
+)
 )
 .
 format
@@ -745,6 +748,8 @@ today_11_30
 testGetReadableDates
 (
 today_12_30
+(
+new
 cDtf
 (
 undefined
@@ -755,6 +760,7 @@ timeStyle
 short
 "
 }
+)
 )
 .
 format
@@ -887,10 +893,13 @@ Assert
 equal
 (
 dateTimeFull
+(
+new
 cDtf
 (
 undefined
 dtOptions
+)
 )
 .
 format

@@ -4133,11 +4133,12 @@ this
 .
 __todayFormatter
 =
+new
 Services
 .
 intl
 .
-createDateTimeFormat
+DateTimeFormat
 (
 undefined
 dtOptions
@@ -4186,11 +4187,12 @@ this
 .
 __dateFormatter
 =
+new
 Services
 .
 intl
 .
-createDateTimeFormat
+DateTimeFormat
 (
 undefined
 dtOptions
