@@ -146,6 +146,13 @@ h
 #
 include
 "
+nsRFPService
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -813,6 +820,11 @@ GetNavigationStartTimeStamp
 )
 ;
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 duration
 .
 ToMilliseconds
@@ -820,6 +832,7 @@ ToMilliseconds
 )
 +
 mZeroTime
+)
 ;
 }
 virtual
@@ -877,6 +890,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 GetDOMTiming
 (
 )
@@ -884,6 +902,7 @@ GetDOMTiming
 >
 GetNavigationStart
 (
+)
 )
 ;
 }
@@ -916,6 +935,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 GetDOMTiming
 (
 )
@@ -923,6 +947,7 @@ GetDOMTiming
 >
 GetUnloadEventStart
 (
+)
 )
 ;
 }
@@ -955,6 +980,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 GetDOMTiming
 (
 )
@@ -962,6 +992,7 @@ GetDOMTiming
 >
 GetUnloadEventEnd
 (
+)
 )
 ;
 }
@@ -1299,6 +1330,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 GetDOMTiming
 (
 )
@@ -1306,6 +1342,7 @@ GetDOMTiming
 >
 GetDomLoading
 (
+)
 )
 ;
 }
@@ -1339,6 +1376,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 GetDOMTiming
 (
 )
@@ -1346,6 +1388,7 @@ GetDOMTiming
 >
 GetDomInteractive
 (
+)
 )
 ;
 }
@@ -1379,6 +1422,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 GetDOMTiming
 (
 )
@@ -1386,6 +1434,7 @@ GetDOMTiming
 >
 GetDomContentLoadedEventStart
 (
+)
 )
 ;
 }
@@ -1419,6 +1468,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 GetDOMTiming
 (
 )
@@ -1426,6 +1480,7 @@ GetDOMTiming
 >
 GetDomContentLoadedEventEnd
 (
+)
 )
 ;
 }
@@ -1459,6 +1514,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 GetDOMTiming
 (
 )
@@ -1466,6 +1526,7 @@ GetDOMTiming
 >
 GetDomComplete
 (
+)
 )
 ;
 }
@@ -1499,6 +1560,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 GetDOMTiming
 (
 )
@@ -1506,6 +1572,7 @@ GetDOMTiming
 >
 GetLoadEventStart
 (
+)
 )
 ;
 }
@@ -1539,6 +1606,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 GetDOMTiming
 (
 )
@@ -1546,6 +1618,7 @@ GetDOMTiming
 >
 GetLoadEventEnd
 (
+)
 )
 ;
 }
@@ -1579,6 +1652,11 @@ return
 ;
 }
 return
+nsRFPService
+:
+:
+ReduceTimePrecisionAsMSecs
+(
 GetDOMTiming
 (
 )
@@ -1586,6 +1664,7 @@ GetDOMTiming
 >
 GetTimeToNonBlankPaint
 (
+)
 )
 ;
 }
