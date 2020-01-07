@@ -708,6 +708,10 @@ ClearCachedResources
 )
 ;
 }
+mBufferProvider
+=
+nullptr
+;
 mCachedTempSurface
 =
 nullptr
