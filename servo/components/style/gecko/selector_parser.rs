@@ -167,7 +167,7 @@ self
 as
 selector_parser
 Selector
-SelectorMethods
+Visit
 SelectorParseErrorKind
 }
 ;
@@ -973,7 +973,7 @@ ser
 }
 }
 impl
-SelectorMethods
+Visit
 for
 NonTSPseudoClass
 {

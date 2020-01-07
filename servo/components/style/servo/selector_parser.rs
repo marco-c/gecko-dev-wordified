@@ -216,7 +216,7 @@ parser
 :
 :
 {
-SelectorMethods
+Visit
 SelectorParseErrorKind
 }
 ;
@@ -2111,7 +2111,7 @@ unreachable
 }
 }
 impl
-SelectorMethods
+Visit
 for
 NonTSPseudoClass
 {
