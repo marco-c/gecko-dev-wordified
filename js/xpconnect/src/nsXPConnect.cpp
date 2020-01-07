@@ -6659,10 +6659,8 @@ extern
 C
 "
 {
-JS_EXPORT_API
-(
+MOZ_EXPORT
 void
-)
 DumpJSStack
 (
 )
@@ -6675,10 +6673,8 @@ false
 )
 ;
 }
-JS_EXPORT_API
-(
+MOZ_EXPORT
 void
-)
 DumpCompleteHeap
 (
 )

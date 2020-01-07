@@ -491,7 +491,7 @@ sizeof
 uint32_t
 )
 *
-JS_BITS_PER_BYTE
+CHAR_BIT
 >
 =
 INDEX_LIMIT_LOG2
