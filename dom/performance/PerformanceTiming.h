@@ -229,6 +229,14 @@ DOMHighResTimeStamp
 aZeroTime
 )
 ;
+void
+SetPropertiesFromHttpChannel
+(
+nsIHttpChannel
+*
+aHttpChannel
+)
+;
 bool
 IsInitialized
 (

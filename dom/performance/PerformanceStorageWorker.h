@@ -211,6 +211,7 @@ aData
 ;
 private
 :
+explicit
 PerformanceStorageWorker
 (
 workers
