@@ -4634,7 +4634,7 @@ handler
 .
 *
 param
-listener
+delegate
 An
 implementation
 of
@@ -11654,10 +11654,9 @@ of
 the
 {
 link
+TrackingProtectionDelegate
 #
 CATEGORY_AD
-CATEGORY_
-*
 }
 *
 flags
@@ -11705,10 +11704,9 @@ of
 the
 {
 link
+TrackingProtectionDelegate
 #
 CATEGORY_AD
-CATEGORY_
-*
 }
 *
 flags
