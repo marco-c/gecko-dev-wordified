@@ -5631,6 +5631,15 @@ ChangeType
 :
 RuleChanged
 :
+case
+StyleSheet
+:
+:
+ChangeType
+:
+:
+ReparsedFromInspector
+:
 /
 /
 FIXME

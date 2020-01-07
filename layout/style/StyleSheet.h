@@ -380,6 +380,7 @@ ApplicableStateChanged
 RuleAdded
 RuleRemoved
 RuleChanged
+ReparsedFromInspector
 }
 ;
 void
