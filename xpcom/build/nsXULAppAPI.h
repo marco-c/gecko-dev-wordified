@@ -2442,6 +2442,8 @@ JNIEnv
 *
 env
 int
+prefsFd
+int
 ipcFd
 int
 crashFd

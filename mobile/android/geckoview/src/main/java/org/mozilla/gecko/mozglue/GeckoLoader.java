@@ -3294,6 +3294,8 @@ String
 ]
 args
 int
+prefsFd
+int
 ipcFd
 int
 crashFd

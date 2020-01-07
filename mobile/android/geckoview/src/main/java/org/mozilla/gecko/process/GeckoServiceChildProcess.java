@@ -407,6 +407,9 @@ Bundle
 extras
 final
 ParcelFileDescriptor
+prefsPfd
+final
+ParcelFileDescriptor
 ipcPfd
 final
 ParcelFileDescriptor
@@ -453,6 +456,16 @@ sProcessManager
 procMan
 ;
 }
+final
+int
+prefsFd
+=
+prefsPfd
+.
+detachFd
+(
+)
+;
 final
 int
 ipcFd
@@ -523,6 +536,7 @@ initChildProcess
 (
 args
 extras
+prefsFd
 ipcFd
 crashReporterFd
 crashAnnotationFd

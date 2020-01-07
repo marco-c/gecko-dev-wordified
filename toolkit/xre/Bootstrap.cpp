@@ -421,6 +421,8 @@ JNIEnv
 *
 aEnv
 int
+aPrefsFd
+int
 aIPCFd
 int
 aCrashFd
@@ -434,6 +436,7 @@ override
 XRE_SetAndroidChildFds
 (
 aEnv
+aPrefsFd
 aIPCFd
 aCrashFd
 aCrashAnnotationFd
