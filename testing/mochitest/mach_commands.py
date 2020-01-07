@@ -2901,6 +2901,17 @@ ANDROID_PACKAGE_NAME
 "
 ]
             
+device_serial
+=
+kwargs
+.
+get
+(
+'
+deviceSerial
+'
+)
+            
 #
 verify
 installation
@@ -2917,12 +2928,19 @@ False
 app
 =
 app
+                                  
+device_serial
+=
+device_serial
 )
             
 grant_runtime_permissions
 (
 self
 app
+device_serial
+=
+device_serial
 )
             
 run_mochitest
@@ -3439,6 +3457,17 @@ ANDROID_PACKAGE_NAME
 "
 ]
         
+device_serial
+=
+kwargs
+.
+get
+(
+'
+deviceSerial
+'
+)
+        
 verify_android_device
 (
 self
@@ -3451,12 +3480,19 @@ False
 app
 =
 app
+                              
+device_serial
+=
+device_serial
 )
         
 grant_runtime_permissions
 (
 self
 app
+device_serial
+=
+device_serial
 )
         
 if

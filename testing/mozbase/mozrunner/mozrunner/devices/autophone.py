@@ -93,7 +93,8 @@ VirtualenvManager
 from
 mozdevice
 import
-DeviceManagerADB
+ADBHost
+ADBAndroid
 from
 mozprocess
 import
@@ -1839,19 +1840,16 @@ s
 adb_path
 )
             
-dm
+adbhost
 =
-DeviceManagerADB
+ADBHost
 (
-autoconnect
-=
-False
-adbPath
+adb
 =
 adb_path
-retryLimit
+timeout
 =
-1
+10
 )
             
 device_index
@@ -1897,7 +1895,7 @@ f
 for
 device
 in
-dm
+adbhost
 .
 devices
 (
@@ -1908,7 +1906,9 @@ serial
 =
 device
 [
-0
+'
+device_serial
+'
 ]
                         
 if
@@ -4251,29 +4251,33 @@ rooted
 try
 :
             
-dm
+device
 =
-DeviceManagerADB
+ADBAndroid
 (
-adbPath
+adb
 =
 adb_path
-retryLimit
-=
-1
-deviceSerial
+device
 =
 device
+timeout
+=
+10
 )
             
 if
-dm
+device
 .
-_haveSu
+_have_su
 or
-dm
+device
 .
-_haveRootShell
+_have_android_su
+or
+device
+.
+_have_root_shell
 :
                 
 return
