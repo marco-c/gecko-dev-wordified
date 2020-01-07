@@ -14562,6 +14562,9 @@ id
 #
 [
 inline
+(
+always
+)
 ]
 fn
 has_class
