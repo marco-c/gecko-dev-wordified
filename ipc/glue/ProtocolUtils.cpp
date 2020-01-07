@@ -244,9 +244,6 @@ defined
 XP_WIN
 )
 #
-define
-TARGET_SANDBOX_EXPORTS
-#
 include
 "
 mozilla
