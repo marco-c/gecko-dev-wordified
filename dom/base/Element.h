@@ -134,7 +134,7 @@ DOM
 Core
 '
 s
-nsIDOMElement
+Element
 implements
 nsIContent
 provides
@@ -212,13 +212,6 @@ mozilla
 dom
 /
 DirectionalityUtils
-.
-h
-"
-#
-include
-"
-nsIDOMElement
 .
 h
 "

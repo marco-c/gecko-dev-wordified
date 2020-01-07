@@ -911,13 +911,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h

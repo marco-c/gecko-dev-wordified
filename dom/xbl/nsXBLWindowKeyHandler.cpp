@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h
@@ -884,7 +877,7 @@ nsXBLWindowKeyHandler
 :
 nsXBLWindowKeyHandler
 (
-nsIDOMElement
+Element
 *
 aElement
 EventTarget
@@ -5489,7 +5482,7 @@ nsXBLWindowKeyHandler
 >
 NS_NewXBLWindowKeyHandler
 (
-nsIDOMElement
+Element
 *
 aElement
 EventTarget

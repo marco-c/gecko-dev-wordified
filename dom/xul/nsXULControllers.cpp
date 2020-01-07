@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsXULControllers
 .
 h

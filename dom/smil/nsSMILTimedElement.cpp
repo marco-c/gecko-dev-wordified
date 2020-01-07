@@ -2482,7 +2482,7 @@ nullptr
 -
 /
 /
-nsIDOMElementTimeControl
+ElementTimeControl
 methods
 /
 /

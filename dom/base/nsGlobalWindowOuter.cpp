@@ -910,13 +910,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIDOMOfflineResourceList
 .
 h

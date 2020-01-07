@@ -400,9 +400,6 @@ class
 nsIDocument
 ;
 class
-nsIDOMElement
-;
-class
 nsIFrame
 ;
 class

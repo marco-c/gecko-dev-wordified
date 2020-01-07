@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIBaseWindow
 .
 h

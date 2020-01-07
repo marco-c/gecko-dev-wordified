@@ -201,13 +201,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h

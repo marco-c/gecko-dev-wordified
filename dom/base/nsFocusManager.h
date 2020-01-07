@@ -366,7 +366,7 @@ having
 AddRef
 -
 ed
-nsIDOMElement
+Element
 *
 pointer
 filled

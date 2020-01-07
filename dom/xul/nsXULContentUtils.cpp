@@ -153,13 +153,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULCommandDispatcher
 .
 h

@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIStreamConverterService
 .
 h

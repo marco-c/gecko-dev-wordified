@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

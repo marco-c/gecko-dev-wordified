@@ -262,6 +262,9 @@ namespace
 dom
 {
 class
+Element
+;
+class
 Event
 ;
 struct
@@ -540,7 +543,13 @@ successful
 NS_IMETHOD
 GetDOMElement
 (
-nsIDOMElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aResult

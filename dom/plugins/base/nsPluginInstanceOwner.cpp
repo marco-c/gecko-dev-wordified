@@ -445,6 +445,17 @@ mozilla
 /
 dom
 /
+Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Event
 .
 h
@@ -1981,7 +1992,7 @@ nsPluginInstanceOwner
 :
 GetDOMElement
 (
-nsIDOMElement
+Element
 *
 *
 result

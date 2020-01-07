@@ -1516,12 +1516,6 @@ OwnerDoc
 ;
 /
 /
-Get
-nsIDOMElement
-for
-targetNode
-/
-/
 strong
 reference
 to

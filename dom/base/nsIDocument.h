@@ -701,9 +701,6 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMElement
-;
-class
 nsIHTMLCollection
 ;
 class

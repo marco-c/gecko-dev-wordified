@@ -474,7 +474,7 @@ Methods
 for
 supporting
 the
-nsIDOMElementTimeControl
+ElementTimeControl
 interface
 .
 *
