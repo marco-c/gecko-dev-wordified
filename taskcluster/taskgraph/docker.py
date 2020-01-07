@@ -419,15 +419,10 @@ outputFile
     
 image_dir
 =
-os
-.
-path
-.
-join
-(
 docker
 .
-IMAGE_DIR
+image_path
+(
 name
 )
     
@@ -529,15 +524,10 @@ name
     
 image_dir
 =
-os
-.
-path
-.
-join
-(
 docker
 .
-IMAGE_DIR
+image_path
+(
 name
 )
     
