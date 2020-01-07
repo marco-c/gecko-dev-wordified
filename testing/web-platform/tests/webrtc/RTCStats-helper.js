@@ -2573,8 +2573,8 @@ audioLevel
 function
 validateMediaStreamTrackStats
 (
+statsReport
 stats
-stat
 )
 {
 validateRtcStats
@@ -2585,7 +2585,7 @@ stats
 ;
 assert_string_field
 (
-stat
+stats
 '
 trackIdentifier
 '
@@ -2593,7 +2593,7 @@ trackIdentifier
 ;
 assert_boolean_field
 (
-stat
+stats
 '
 remoteSource
 '
@@ -2601,7 +2601,7 @@ remoteSource
 ;
 assert_boolean_field
 (
-stat
+stats
 '
 ended
 '
@@ -2609,7 +2609,7 @@ ended
 ;
 assert_boolean_field
 (
-stat
+stats
 '
 detached
 '
@@ -2617,7 +2617,7 @@ detached
 ;
 assert_optional_string_field
 (
-stat
+stats
 '
 kind
 '
@@ -2625,7 +2625,7 @@ kind
 ;
 assert_optional_number_field
 (
-stat
+stats
 '
 estimatedPlayoutTimestamp
 '
@@ -2633,7 +2633,7 @@ estimatedPlayoutTimestamp
 ;
 assert_unsigned_int_field
 (
-stat
+stats
 '
 frameWidth
 '
@@ -2641,7 +2641,7 @@ frameWidth
 ;
 assert_unsigned_int_field
 (
-stat
+stats
 '
 frameHeight
 '
@@ -2649,7 +2649,7 @@ frameHeight
 ;
 assert_number_field
 (
-stat
+stats
 '
 framesPerSecond
 '
@@ -2657,7 +2657,7 @@ framesPerSecond
 ;
 assert_optional_unsigned_int_field
 (
-stat
+stats
 '
 framesCaptured
 '
@@ -2665,7 +2665,7 @@ framesCaptured
 ;
 assert_unsigned_int_field
 (
-stat
+stats
 '
 frameSent
 '
@@ -2673,7 +2673,7 @@ frameSent
 ;
 assert_unsigned_int_field
 (
-stat
+stats
 '
 frameReceived
 '
@@ -2681,7 +2681,7 @@ frameReceived
 ;
 assert_unsigned_int_field
 (
-stat
+stats
 '
 frameDecoded
 '
@@ -2689,7 +2689,7 @@ frameDecoded
 ;
 assert_unsigned_int_field
 (
-stat
+stats
 '
 frameDropped
 '
@@ -2697,7 +2697,7 @@ frameDropped
 ;
 assert_unsigned_int_field
 (
-stat
+stats
 '
 frameCorrupted
 '
@@ -2705,7 +2705,7 @@ frameCorrupted
 ;
 assert_optional_unsigned_int_field
 (
-stat
+stats
 '
 partialFramesLost
 '
@@ -2713,7 +2713,7 @@ partialFramesLost
 ;
 assert_optional_unsigned_int_field
 (
-stat
+stats
 '
 fullFramesLost
 '
@@ -2721,7 +2721,7 @@ fullFramesLost
 ;
 assert_number_field
 (
-stat
+stats
 '
 audioLevel
 '
@@ -2729,7 +2729,7 @@ audioLevel
 ;
 assert_optional_number_field
 (
-stat
+stats
 '
 totalAudioEnergy
 '
@@ -2737,7 +2737,7 @@ totalAudioEnergy
 ;
 assert_optional_boolean_field
 (
-stat
+stats
 '
 voiceActivityFlag
 '
@@ -2745,7 +2745,7 @@ voiceActivityFlag
 ;
 assert_optional_number_field
 (
-stat
+stats
 '
 echoReturnLoss
 '
@@ -2753,7 +2753,7 @@ echoReturnLoss
 ;
 assert_optional_number_field
 (
-stat
+stats
 '
 echoReturnLossEnhancement
 '
@@ -2761,7 +2761,7 @@ echoReturnLossEnhancement
 ;
 assert_optional_unsigned_int_field
 (
-stat
+stats
 '
 totalSamplesSent
 '
@@ -2769,7 +2769,7 @@ totalSamplesSent
 ;
 assert_optional_unsigned_int_field
 (
-stat
+stats
 '
 totalSamplesReceived
 '
@@ -2777,7 +2777,7 @@ totalSamplesReceived
 ;
 assert_optional_number_field
 (
-stat
+stats
 '
 totalSamplesDuration
 '
@@ -2785,7 +2785,7 @@ totalSamplesDuration
 ;
 assert_optional_unsigned_int_field
 (
-stat
+stats
 '
 concealedSamples
 '
@@ -2793,7 +2793,7 @@ concealedSamples
 ;
 assert_optional_unsigned_int_field
 (
-stat
+stats
 '
 concealmentEvents
 '
@@ -2801,7 +2801,7 @@ concealmentEvents
 ;
 assert_optional_number_field
 (
-stat
+stats
 '
 jitterBufferDelay
 '
@@ -3314,7 +3314,7 @@ pair
 ;
 validateIdField
 (
-stateReport
+statsReport
 stats
 '
 localCertificateId
@@ -3326,7 +3326,7 @@ certificate
 ;
 validateIdField
 (
-stateReport
+statsReport
 stats
 '
 remoteCertificateId

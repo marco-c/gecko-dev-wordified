@@ -232,7 +232,10 @@ headerExt
 {
 assert_optional_string_field
 (
+headerExt
+'
 uri
+'
 )
 ;
 }

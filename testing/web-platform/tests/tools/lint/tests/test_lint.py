@@ -3116,23 +3116,6 @@ a
 .
 html
 "
-"
-css
-/
-work
--
-in
--
-progress
-/
-foo
-/
-support
-/
-a
-.
-html
-"
 ]
 "
 normal
@@ -3152,7 +3135,7 @@ mocked_check_path
 call_count
 =
 =
-2
+1
             
 assert
 mocked_check_file_contents
@@ -3160,7 +3143,7 @@ mocked_check_file_contents
 call_count
 =
 =
-2
+1
     
 assert
 caplog

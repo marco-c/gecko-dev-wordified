@@ -5,6 +5,7 @@ optional
 SensorOptions
 options
 )
+SecureContext
 Exposed
 =
 Window
