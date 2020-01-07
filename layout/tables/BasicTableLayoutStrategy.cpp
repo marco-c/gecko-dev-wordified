@@ -1064,6 +1064,11 @@ GetContent
 )
 -
 >
+AsElement
+(
+)
+-
+>
 HasAttr
 (
 kNameSpaceID_None

@@ -1521,6 +1521,11 @@ currentValue
 metaNode
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -1555,6 +1560,11 @@ continue
 ;
 }
 metaNode
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr

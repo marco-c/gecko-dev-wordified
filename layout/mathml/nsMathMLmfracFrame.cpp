@@ -1468,6 +1468,11 @@ value
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -1495,6 +1500,11 @@ fontSizeInflation
 bevelled
 attribute
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr
@@ -2486,6 +2496,11 @@ there
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -2545,6 +2560,11 @@ attribute
 is
 there
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr

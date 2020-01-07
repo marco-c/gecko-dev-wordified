@@ -52223,6 +52223,11 @@ src
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -67615,6 +67620,11 @@ GetParent
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 HasAttr
 (
 kNameSpaceID_None
@@ -73963,6 +73973,11 @@ IsXULElement
 &
 &
 GetContent
+(
+)
+-
+>
+AsElement
 (
 )
 -

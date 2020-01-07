@@ -5981,6 +5981,11 @@ if
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -9893,6 +9898,11 @@ nsCSSFrameConstructor
 GetAlternateTextFor
 (
 content
+-
+>
+AsElement
+(
+)
 content
 -
 >
@@ -12690,6 +12700,11 @@ IsServerImageMap
 {
 return
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 HasAttr

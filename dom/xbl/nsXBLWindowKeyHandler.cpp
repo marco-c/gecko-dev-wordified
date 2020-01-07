@@ -1036,6 +1036,7 @@ GetPreviousSibling
 {
 if
 (
+!
 key
 -
 >
@@ -1054,6 +1055,20 @@ kNameSpaceID_XUL
 )
 )
 {
+continue
+;
+}
+Element
+*
+keyElement
+=
+key
+-
+>
+AsElement
+(
+)
+;
 /
 /
 Check
@@ -1101,7 +1116,7 @@ valKeyCode
 bool
 attrExists
 =
-key
+keyElement
 -
 >
 GetAttr
@@ -1115,7 +1130,7 @@ valKey
 )
 |
 |
-key
+keyElement
 -
 >
 GetAttr
@@ -1129,7 +1144,7 @@ valCharCode
 )
 |
 |
-key
+keyElement
 -
 >
 GetAttr
@@ -1192,7 +1207,7 @@ XBLReservedKey_Unset
 ;
 if
 (
-key
+keyElement
 -
 >
 AttrValueIs
@@ -1218,7 +1233,7 @@ XBLReservedKey_True
 else
 if
 (
-key
+keyElement
 -
 >
 AttrValueIs
@@ -1248,7 +1263,7 @@ handler
 new
 nsXBLPrototypeHandler
 (
-key
+keyElement
 reserved
 )
 ;
@@ -1266,7 +1281,6 @@ aResult
 =
 handler
 ;
-}
 }
 }
 /
@@ -4881,9 +4895,9 @@ aElementForHandler
 =
 nullptr
 ;
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 keyContent
 =

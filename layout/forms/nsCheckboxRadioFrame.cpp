@@ -962,7 +962,7 @@ RegUnRegAccessKey
 nsAutoString
 accessKey
 ;
-nsIContent
+Element
 *
 content
 =
@@ -970,6 +970,11 @@ aFrame
 -
 >
 GetContent
+(
+)
+-
+>
+AsElement
 (
 )
 ;

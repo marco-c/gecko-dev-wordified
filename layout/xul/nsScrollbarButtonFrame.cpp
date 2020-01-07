@@ -682,7 +682,7 @@ return
 false
 ;
 static
-nsIContent
+Element
 :
 :
 AttrValuesArray

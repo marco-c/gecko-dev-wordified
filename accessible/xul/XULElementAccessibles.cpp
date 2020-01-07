@@ -1628,6 +1628,11 @@ Truncate
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttr
 (
 kNameSpaceID_None
@@ -1651,6 +1656,11 @@ aName
 )
 {
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr
@@ -2048,6 +2058,11 @@ nsAutoString
 href
 ;
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttr

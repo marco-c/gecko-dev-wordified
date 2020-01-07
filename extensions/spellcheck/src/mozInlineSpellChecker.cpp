@@ -6953,6 +6953,11 @@ blockquote
 parent
 -
 >
+AsElement
+(
+)
+-
+>
 AttrValueIs
 (
 kNameSpaceID_None
@@ -6987,6 +6992,11 @@ pre
 &
 &
 parent
+-
+>
+AsElement
+(
+)
 -
 >
 AttrValueIs

@@ -364,7 +364,7 @@ listener
 is
 attached
 .
-nsCOMPtr
+RefPtr
 <
 mozilla
 :
@@ -389,9 +389,15 @@ top
 of
 mElement
 .
-nsCOMPtr
+RefPtr
 <
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 >
 mPopupContent
 ;

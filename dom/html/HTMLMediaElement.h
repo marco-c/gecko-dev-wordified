@@ -5912,7 +5912,7 @@ returning
 .
 *
 /
-nsIContent
+Element
 *
 GetNextSource
 (

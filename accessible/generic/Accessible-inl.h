@@ -458,6 +458,11 @@ input
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 AttrValueIs
 (
 kNameSpaceID_None

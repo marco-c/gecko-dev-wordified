@@ -1546,7 +1546,7 @@ known
 void
 OnSubmitClickBegin
 (
-nsIContent
+Element
 *
 aOriginatingElement
 )
@@ -2985,7 +2985,7 @@ nsIURI
 *
 *
 aActionURL
-nsIContent
+Element
 *
 aOriginatingElement
 )
