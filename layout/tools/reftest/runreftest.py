@@ -1756,6 +1756,27 @@ log
             
 return
         
+self
+.
+log
+=
+getattr
+(
+options
+'
+log
+'
+None
+)
+        
+if
+self
+.
+log
+:
+            
+return
+        
 mozlog
 .
 commandline
