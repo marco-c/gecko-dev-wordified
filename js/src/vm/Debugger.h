@@ -5099,7 +5099,7 @@ FrameFn
 *
 void
 (
-NativeObject
+DebuggerFrame
 *
 )
 *
@@ -9632,6 +9632,14 @@ FrameIter
 iter
 HandleNativeObject
 debugger
+)
+;
+void
+freeFrameIterData
+(
+FreeOp
+*
+fop
 )
 ;
 static
