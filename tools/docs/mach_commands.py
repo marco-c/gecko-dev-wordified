@@ -488,8 +488,17 @@ npm
         
 self
 .
-activate_pipenv
+_activate_virtualenv
 (
+)
+        
+self
+.
+virtualenv_manager
+.
+install_pip_requirements
+(
+            
 os
 .
 path
@@ -498,9 +507,14 @@ join
 (
 here
 '
-Pipfile
+requirements
+.
+txt
 '
 )
+quiet
+=
+True
 )
         
 import
