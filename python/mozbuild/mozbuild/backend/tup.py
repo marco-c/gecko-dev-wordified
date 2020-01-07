@@ -1452,6 +1452,10 @@ objdir
 =
 mozpath
 .
+normpath
+(
+mozpath
+.
 join
 (
 self
@@ -1460,6 +1464,7 @@ environment
 .
 topobjdir
 relobjdir
+)
 )
         
 if
@@ -3183,21 +3188,6 @@ walk
 )
 :
             
-backend_file
-=
-self
-.
-_get_backend_file
-(
-mozpath
-.
-join
-(
-target
-path
-)
-)
-            
 for
 f
 in
@@ -3212,6 +3202,21 @@ f
 ObjDirPath
 )
 :
+                    
+backend_file
+=
+self
+.
+_get_backend_file
+(
+mozpath
+.
+join
+(
+target
+path
+)
+)
                     
 if
 '
