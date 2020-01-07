@@ -7037,6 +7037,10 @@ mInInvalidSubtree
 (
 false
 )
+mBuiltOverlayScrollbars
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
