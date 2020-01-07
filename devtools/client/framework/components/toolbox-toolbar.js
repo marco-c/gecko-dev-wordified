@@ -1372,6 +1372,7 @@ renderSeparator
 (
 )
 )
+;
 }
 }
 return
