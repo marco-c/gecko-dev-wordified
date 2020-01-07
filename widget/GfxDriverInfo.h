@@ -520,6 +520,7 @@ VendorAMD
 VendorATI
 VendorMicrosoft
 VendorParallels
+VendorQualcomm
 DeviceVendorMax
 }
 ;
