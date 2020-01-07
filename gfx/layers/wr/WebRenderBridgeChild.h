@@ -762,14 +762,15 @@ wr
 DisplayListBuilder
 &
 aBuilder
-Range
-<
 const
+nsTArray
+<
 wr
 :
 :
 GlyphInstance
 >
+&
 aGlyphs
 gfx
 :
