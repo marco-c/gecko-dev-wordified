@@ -284,6 +284,11 @@ return
 mPushSource
 ;
 }
+void
+ClearPushSource
+(
+)
+;
 stateType
 HTTPState
 (
