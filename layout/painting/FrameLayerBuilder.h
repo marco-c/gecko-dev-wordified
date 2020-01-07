@@ -1084,6 +1084,9 @@ mUsed
 bool
 mIsInvalid
 ;
+bool
+mReusedItem
+;
 }
 ;
 class
