@@ -15870,6 +15870,9 @@ cleanup
 (
 self
 options
+final
+=
+False
 )
 :
         
@@ -15902,6 +15905,19 @@ not
 None
 :
             
+if
+os
+.
+path
+.
+exists
+(
+self
+.
+manifest
+)
+:
+                
 os
 .
 remove
@@ -15934,6 +15950,17 @@ pidFile
 =
 "
 "
+and
+os
+.
+path
+.
+exists
+(
+options
+.
+pidFile
+)
 :
             
 try
@@ -20798,6 +20825,23 @@ res
                 
 break
         
+if
+self
+.
+manifest
+is
+not
+None
+:
+            
+self
+.
+cleanup
+(
+options
+True
+)
+        
 e10s_mode
 =
 "
@@ -22443,6 +22487,7 @@ self
 cleanup
 (
 options
+False
 )
         
 return
