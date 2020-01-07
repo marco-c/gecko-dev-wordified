@@ -848,6 +848,10 @@ endif
 /
 MOZ_X11
 #
+define
+NS_NATIVE_EGL_WINDOW
+106
+#
 endif
 #
 ifdef
