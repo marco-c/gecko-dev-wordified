@@ -81,6 +81,8 @@ mozpack
 files
 import
 FileFinder
+import
+taskgraph
 from
 taskgraph
 .
@@ -495,6 +497,12 @@ exit
 (
 1
 )
+    
+taskgraph
+.
+fast
+=
+True
     
 cwd
 =
