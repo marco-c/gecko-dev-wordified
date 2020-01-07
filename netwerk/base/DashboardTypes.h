@@ -134,6 +134,9 @@ expiration
 nsCString
 netInterface
 ;
+bool
+TRR
+;
 }
 ;
 struct
