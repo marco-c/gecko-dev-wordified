@@ -201,6 +201,11 @@ SELECT_NETWORK_MESSAGE_TAB
 "
 SELECT_NETWORK_MESSAGE_TAB
 "
+SIDEBAR_TOGGLE
+:
+"
+SIDEBAR_TOGGLE
+"
 TIMESTAMPS_TOGGLE
 :
 "
@@ -329,6 +334,15 @@ devtools
 webconsole
 .
 persistlog
+"
+SIDEBAR_TOGGLE
+:
+"
+devtools
+.
+webconsole
+.
+sidebarToggle
 "
 }
 }

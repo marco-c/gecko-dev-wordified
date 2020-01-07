@@ -150,6 +150,7 @@ INITIALIZE
 PERSIST_TOGGLE
 PREFS
 SELECT_NETWORK_MESSAGE_TAB
+SIDEBAR_TOGGLE
 TIMESTAMPS_TOGGLE
 }
 =
@@ -329,6 +330,20 @@ INITIALIZE
 }
 ;
 }
+function
+sidebarToggle
+(
+show
+)
+{
+return
+{
+type
+:
+SIDEBAR_TOGGLE
+}
+;
+}
 module
 .
 exports
@@ -338,6 +353,7 @@ filterBarToggle
 initialize
 persistToggle
 selectNetworkMessageTab
+sidebarToggle
 timestampsToggle
 }
 ;
