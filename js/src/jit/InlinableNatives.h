@@ -687,12 +687,12 @@ IntrinsicIsPackedArray
 \
 _
 (
-IntrinsicIsArrayIterator
+IntrinsicGuardToArrayIterator
 )
 \
 _
 (
-IntrinsicIsMapIterator
+IntrinsicGuardToMapIterator
 )
 \
 _
