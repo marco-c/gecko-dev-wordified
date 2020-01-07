@@ -353,10 +353,6 @@ platform
 '
                         
 '
-update_platform
-'
-                        
-'
 update_channel
 '
                         
