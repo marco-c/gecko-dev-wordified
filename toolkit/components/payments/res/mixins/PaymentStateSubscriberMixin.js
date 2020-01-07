@@ -197,12 +197,12 @@ shipping
 }
 savedAddresses
 :
-[
-]
+{
+}
 savedBasicCards
 :
-[
-]
+{
+}
 }
 )
 ;

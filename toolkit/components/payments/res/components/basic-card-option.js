@@ -123,6 +123,9 @@ concat
 expiration
 "
 "
+guid
+"
+"
 number
 "
 "
