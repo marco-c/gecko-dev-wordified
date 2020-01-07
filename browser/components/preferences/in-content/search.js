@@ -613,7 +613,6 @@ urlbarSuggestsPref
 .
 value
 =
-!
 urlbarSuggests
 .
 checked
