@@ -4270,7 +4270,7 @@ getToken
 (
 &
 tk
-TokenStream
+TokenStreamShared
 :
 :
 Operand
@@ -4367,7 +4367,7 @@ TokenKind
 :
 :
 TOK_SEMI
-TokenStream
+TokenStreamShared
 :
 :
 Operand
@@ -14771,7 +14771,7 @@ peekTokenPos
 (
 &
 pos
-TokenStream
+TokenStreamShared
 :
 :
 Operand
@@ -24771,7 +24771,7 @@ TokenKind
 :
 :
 TOK_STRING
-TokenStream
+TokenStreamShared
 :
 :
 Operand
@@ -47567,7 +47567,7 @@ TokenKind
 :
 :
 TOK_FUNCTION
-TokenStream
+TokenStreamShared
 :
 :
 Operand
@@ -47628,7 +47628,7 @@ getToken
 (
 &
 tk
-TokenStream
+TokenStreamShared
 :
 :
 Operand
@@ -55567,7 +55567,7 @@ peekTokenPos
 (
 &
 pos
-TokenStream
+TokenStreamShared
 :
 :
 Operand
