@@ -482,7 +482,7 @@ togglePauseOnExceptions
 (
 dbg
 true
-false
+true
 )
 ;
 await

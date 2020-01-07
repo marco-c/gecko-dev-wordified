@@ -5702,6 +5702,17 @@ length
 =
 0
 ;
+if
+(
+!
+this
+.
+worker
+)
+{
+return
+;
+}
 const
 id
 =

@@ -231,7 +231,7 @@ togglePauseOnExceptions
 (
 dbg
 true
-false
+true
 )
 ;
 /
