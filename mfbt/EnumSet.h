@@ -232,6 +232,10 @@ EnumSet
 {
 public
 :
+typedef
+uint32_t
+serializedType
+;
 EnumSet
 (
 )
@@ -931,7 +935,7 @@ mBitField
 0
 ;
 }
-uint32_t
+serializedType
 serialize
 (
 )
@@ -944,7 +948,7 @@ mBitField
 void
 deserialize
 (
-uint32_t
+serializedType
 aValue
 )
 {
@@ -1417,7 +1421,7 @@ kMaxBits
 =
 32
 ;
-uint32_t
+serializedType
 mBitField
 ;
 #
