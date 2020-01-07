@@ -115,15 +115,6 @@ stylesheets
 :
 StylesheetInDocument
 ;
-use
-stylesheets
-:
-:
-import_rule
-:
-:
-ImportSheet
-;
 /
 /
 /
