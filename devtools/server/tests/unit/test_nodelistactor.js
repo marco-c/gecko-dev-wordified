@@ -92,7 +92,9 @@ actors
 /
 inspector
 /
-inspector
+node
+-
+actor
 "
 )
 ;

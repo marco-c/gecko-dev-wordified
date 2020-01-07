@@ -169,6 +169,8 @@ defer
 ;
 const
 {
+DocumentWalker
+:
 _documentWalker
 }
 =
@@ -183,7 +185,9 @@ actors
 /
 inspector
 /
-inspector
+document
+-
+walker
 "
 )
 ;

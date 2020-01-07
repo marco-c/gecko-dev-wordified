@@ -158,7 +158,9 @@ strict
 "
 ;
 const
-inspector
+{
+DocumentWalker
+}
 =
 require
 (
@@ -171,7 +173,9 @@ actors
 /
 inspector
 /
-inspector
+document
+-
+walker
 "
 )
 ;
@@ -503,9 +507,7 @@ let
 sibling
 =
 new
-inspector
-.
-_documentWalker
+DocumentWalker
 (
 gInspectee
 .

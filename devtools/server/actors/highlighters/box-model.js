@@ -119,7 +119,9 @@ utils
 )
 ;
 const
-inspector
+{
+getNodeDisplayName
+}
 =
 require
 (
@@ -132,7 +134,7 @@ actors
 /
 inspector
 /
-inspector
+utils
 "
 )
 ;
@@ -4917,8 +4919,6 @@ dimensions
 let
 displayName
 =
-inspector
-.
 getNodeDisplayName
 (
 node

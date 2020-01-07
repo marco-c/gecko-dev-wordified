@@ -87,7 +87,9 @@ actors
 /
 inspector
 /
-inspector
+walker
+-
+actor
 "
 )
 ;
