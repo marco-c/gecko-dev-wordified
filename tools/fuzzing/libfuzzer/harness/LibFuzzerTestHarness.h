@@ -133,10 +133,10 @@ h
 /
 #
 ifndef
-FuzzerTestHarness_h__
+LibFuzzerTestHarness_h__
 #
 define
-FuzzerTestHarness_h__
+LibFuzzerTestHarness_h__
 #
 include
 "
@@ -1707,4 +1707,4 @@ namespace
 endif
 /
 /
-FuzzerTestHarness_h__
+LibFuzzerTestHarness_h__

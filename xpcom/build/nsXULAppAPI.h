@@ -2888,7 +2888,7 @@ LIBFUZZER
 #
 include
 "
-FuzzerRegistry
+LibFuzzerRegistry
 .
 h
 "
