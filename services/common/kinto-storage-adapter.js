@@ -175,15 +175,6 @@ js
 }
 )
 ;
-const
-SQLITE_PATH
-=
-"
-kinto
-.
-sqlite
-"
-;
 /
 *
 *
