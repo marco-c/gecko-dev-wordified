@@ -292,14 +292,6 @@ host2
 '
 )
         
-c3
-.
-os
-=
-'
-B2G
-'
-        
 c4
 =
 TestContext
@@ -401,7 +393,7 @@ collection
 .
 contexts
 )
-3
+2
 )
 if
 __name__
