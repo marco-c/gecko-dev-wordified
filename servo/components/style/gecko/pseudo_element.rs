@@ -119,10 +119,7 @@ use
 cssparser
 :
 :
-{
 ToCss
-serialize_identifier
-}
 ;
 use
 gecko_bindings
@@ -184,6 +181,12 @@ string_cache
 :
 :
 Atom
+;
+use
+values
+:
+:
+serialize_atom_identifier
 ;
 include
 !
