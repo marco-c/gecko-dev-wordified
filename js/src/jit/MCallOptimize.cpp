@@ -2364,10 +2364,10 @@ case
 InlinableNative
 :
 :
-IntrinsicIsSetObject
+IntrinsicGuardToSetObject
 :
 return
-inlineHasClass
+inlineGuardToClass
 (
 callInfo
 &

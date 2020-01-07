@@ -719,7 +719,7 @@ IntrinsicGetNextMapEntryForIterator
 \
 _
 (
-IntrinsicIsSetObject
+IntrinsicGuardToSetObject
 )
 \
 _
