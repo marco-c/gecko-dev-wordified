@@ -4293,7 +4293,7 @@ credentials
 hasOwnProperty
 (
 "
-deviceId
+device
 "
 )
 )
@@ -4305,7 +4305,7 @@ equal
 null
 credentials
 .
-deviceId
+device
 )
 ;
 /
