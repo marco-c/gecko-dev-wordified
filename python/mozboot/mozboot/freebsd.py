@@ -211,8 +211,15 @@ gtk3
 '
             
 '
-llvm40
+mesa
+-
+dri
 '
+#
+depends
+on
+llvm
+*
             
 '
 pulseaudio
