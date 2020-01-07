@@ -8,8 +8,8 @@ of
 the
 same
 URI
-through
-updatePlaces
+to
+history
 properly
 /
 /

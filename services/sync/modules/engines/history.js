@@ -3197,12 +3197,7 @@ apply
 .
 /
 /
-mozIAsyncHistory
-:
-:
-updatePlaces
-(
-)
+History
 wants
 at
 least

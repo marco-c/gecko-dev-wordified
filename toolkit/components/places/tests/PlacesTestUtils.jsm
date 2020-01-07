@@ -562,8 +562,6 @@ thing
 and
 pass
 milliseconds
-to
-updatePlaces
 so
 we
 lazily
