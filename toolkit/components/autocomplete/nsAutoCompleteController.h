@@ -584,6 +584,10 @@ _retval
 nsresult
 ClearResults
 (
+bool
+aIsSearching
+=
+false
 )
 ;
 nsresult
@@ -848,8 +852,8 @@ mSearchesOngoing
 uint32_t
 mSearchesFailed
 ;
-bool
-mFirstSearchResult
+int32_t
+mDelayedRowCountDelta
 ;
 uint32_t
 mImmediateSearchesCount

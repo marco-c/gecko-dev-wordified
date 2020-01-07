@@ -17334,6 +17334,15 @@ notify
 =
 >
 {
+if
+(
+!
+this
+.
+pending
+)
+return
+;
 this
 .
 _notifyDelaysCount
