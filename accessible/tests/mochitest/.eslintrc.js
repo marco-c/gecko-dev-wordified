@@ -117,15 +117,6 @@ off
 "
 no
 -
-shadow
-"
-:
-"
-off
-"
-"
-no
--
 undef
 "
 :
