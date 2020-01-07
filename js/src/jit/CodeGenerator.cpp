@@ -38208,6 +38208,9 @@ defined
 (
 JS_ION_PERF
 )
+if
+(
+!
 perfSpewer
 -
 >
@@ -38221,6 +38224,9 @@ mir
 )
 masm
 )
+)
+return
+false
 ;
 #
 endif
