@@ -814,6 +814,15 @@ info
 "
 false
 )
+&
+&
+!
+nsContentUtils
+:
+:
+ShouldResistFingerprinting
+(
+)
 ;
 case
 WebGLExtensionID
