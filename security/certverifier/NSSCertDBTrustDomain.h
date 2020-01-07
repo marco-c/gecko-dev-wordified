@@ -559,6 +559,8 @@ SHA1Mode
 sha1Mode
 NetscapeStepUpPolicy
 netscapeStepUpPolicy
+DistrustedCAPolicy
+distrustedCAPolicy
 const
 OriginAttributes
 &
@@ -1253,6 +1255,9 @@ mSHA1Mode
 ;
 NetscapeStepUpPolicy
 mNetscapeStepUpPolicy
+;
+DistrustedCAPolicy
+mDistrustedCAPolicy
 ;
 const
 OriginAttributes

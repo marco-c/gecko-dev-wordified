@@ -151,6 +151,8 @@ NetscapeStepUpPolicy
 netscapeStepUpPolicy
 CertificateTransparencyMode
 ctMode
+DistrustedCAPolicy
+distrustedCAPolicy
 )
 :
 mozilla
@@ -172,6 +174,7 @@ sha1Mode
 nameMatchingMode
 netscapeStepUpPolicy
 ctMode
+distrustedCAPolicy
 )
 {
 }
