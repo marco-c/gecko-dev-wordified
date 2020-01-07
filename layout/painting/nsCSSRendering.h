@@ -2955,8 +2955,6 @@ nsStyleBackground
 aBackgroundStyle
 int32_t
 aLayer
-uint32_t
-aPaintFlags
 )
 ;
 static
