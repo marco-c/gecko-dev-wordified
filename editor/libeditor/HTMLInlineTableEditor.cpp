@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIDOMEventTarget
 .
 h

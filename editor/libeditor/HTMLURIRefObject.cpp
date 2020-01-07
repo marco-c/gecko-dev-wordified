@@ -360,13 +360,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

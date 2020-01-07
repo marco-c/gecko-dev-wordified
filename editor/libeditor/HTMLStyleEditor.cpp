@@ -279,13 +279,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h

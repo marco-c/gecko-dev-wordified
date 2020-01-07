@@ -164,9 +164,6 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMElement
-;
-class
 nsIDOMEvent
 ;
 class

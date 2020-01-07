@@ -285,17 +285,6 @@ nsIDOMDocument
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-/
-/
-for
-nsIDOMElement
-#
-include
-"
 nsIDOMNode
 .
 h
