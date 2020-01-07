@@ -24748,13 +24748,6 @@ const
 ActiveScrolledRoot
 *
 wrapListASR
-=
-aBuilder
--
->
-CurrentActiveScrolledRoot
-(
-)
 ;
 bool
 canSkipWrapList
