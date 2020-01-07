@@ -5795,6 +5795,10 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_EVENTSOURCE
+nullptr
+/
+/
+aPerformanceStorage
 loadGroup
 nullptr
 /
@@ -5830,6 +5834,10 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_EVENTSOURCE
+nullptr
+/
+/
+aPerformanceStorage
 nullptr
 /
 /

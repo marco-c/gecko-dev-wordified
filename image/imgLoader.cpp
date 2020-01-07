@@ -5074,6 +5074,10 @@ aPolicyType
 nullptr
 /
 /
+PerformanceStorage
+nullptr
+/
+/
 loadGroup
 callbacks
 aLoadFlags
@@ -5274,6 +5278,10 @@ GetSystemPrincipal
 )
 securityFlags
 aPolicyType
+nullptr
+/
+/
+PerformanceStorage
 nullptr
 /
 /

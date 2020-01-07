@@ -6872,6 +6872,10 @@ aElement
 triggeringPrincipal
 securityFlags
 contentPolicyType
+nullptr
+/
+/
+aPerformanceStorage
 loadGroup
 nullptr
 /

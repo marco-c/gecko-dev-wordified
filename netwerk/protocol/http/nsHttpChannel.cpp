@@ -17880,6 +17880,10 @@ redirectLoadInfo
 nullptr
 /
 /
+PerformanceStorage
+nullptr
+/
+/
 aLoadGroup
 nullptr
 /
@@ -35458,6 +35462,10 @@ newChannel
 )
 mRedirectURI
 redirectLoadInfo
+nullptr
+/
+/
+PerformanceStorage
 nullptr
 /
 /
@@ -55477,6 +55485,10 @@ pushChannel
 )
 pushResource
 mLoadInfo
+nullptr
+/
+/
+PerformanceStorage
 nullptr
 /
 /

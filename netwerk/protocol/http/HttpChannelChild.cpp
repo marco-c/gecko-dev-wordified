@@ -9411,6 +9411,10 @@ redirectLoadInfo
 nullptr
 /
 /
+PerformanceStorage
+nullptr
+/
+/
 aLoadGroup
 nullptr
 /

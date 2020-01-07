@@ -2643,6 +2643,10 @@ TYPE_OTHER
 nullptr
 /
 /
+aPerformanceStorage
+nullptr
+/
+/
 aLoadGroup
 nullptr
 /
@@ -2844,6 +2848,10 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
+nullptr
+/
+/
+PerformanceStorage
 nullptr
 /
 /

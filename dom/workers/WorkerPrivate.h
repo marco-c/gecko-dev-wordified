@@ -413,6 +413,9 @@ class
 MessagePortIdentifier
 ;
 class
+PerformanceStorage
+;
+class
 PromiseNativeHandler
 ;
 class
@@ -5283,6 +5286,12 @@ aServiceWorker
 ;
 void
 ExecutionReady
+(
+)
+;
+PerformanceStorage
+*
+GetPerformanceStorage
 (
 )
 ;

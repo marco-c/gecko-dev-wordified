@@ -12112,6 +12112,10 @@ TYPE_OTHER
 nullptr
 /
 /
+aPerformanceStorage
+nullptr
+/
+/
 aLoadGroup
 nullptr
 loadFlags

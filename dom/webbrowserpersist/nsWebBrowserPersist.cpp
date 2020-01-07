@@ -7945,6 +7945,10 @@ TYPE_OTHER
 nullptr
 /
 /
+aPerformanceStorage
+nullptr
+/
+/
 aLoadGroup
 static_cast
 <

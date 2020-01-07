@@ -18102,6 +18102,10 @@ TYPE_OBJECT_SUBREQUEST
 nullptr
 /
 /
+aPerformanceStorage
+nullptr
+/
+/
 aLoadGroup
 listenerPeer
 nsIRequest

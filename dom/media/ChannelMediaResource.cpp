@@ -4453,6 +4453,10 @@ element
 triggeringPrincipal
 securityFlags
 contentPolicyType
+nullptr
+/
+/
+aPerformanceStorage
 loadGroup
 nullptr
 /
