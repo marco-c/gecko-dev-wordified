@@ -1116,11 +1116,16 @@ ScratchTagScope
 tag
 )
 {
-return
+MOZ_ASSERT
+(
 value
 .
 typeReg
 (
+)
+=
+=
+tag
 )
 ;
 }
