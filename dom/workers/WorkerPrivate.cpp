@@ -22675,15 +22675,8 @@ currentStatus
 Closing
 )
 {
-aRv
-.
-Throw
-(
-NS_ERROR_FAILURE
-)
-;
 return
-0
+timerId
 ;
 }
 nsAutoPtr
