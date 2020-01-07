@@ -93,9 +93,9 @@ macros
 ;
 pub
 mod
-ser
+de
 ;
 pub
 mod
-de
+ser
 ;
