@@ -1061,6 +1061,14 @@ lastParent
 =
 nullptr
 ;
+AutoPostDestroyData
+data
+(
+PresContext
+(
+)
+)
+;
 while
 (
 aOldFrame
@@ -1143,6 +1151,9 @@ aOldFrame
 >
 Destroy
 (
+data
+.
+mData
 )
 ;
 aOldFrame
