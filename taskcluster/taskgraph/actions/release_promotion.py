@@ -2581,6 +2581,31 @@ github_token
 )
     
 if
+input
+.
+get
+(
+'
+release_partner_build_number
+'
+)
+:
+        
+parameters
+[
+'
+release_partner_build_number
+'
+]
+=
+input
+[
+'
+release_partner_build_number
+'
+]
+    
+if
 partner_config
 :
         
