@@ -4565,14 +4565,6 @@ DEBUG
 define
 MOZ_FALLTHROUGH_ASSERT
 (
-)
-MOZ_CRASH
-(
-)
-#
-define
-MOZ_FALLTHROUGH_ASSERT
-(
 reason
 )
 MOZ_CRASH
