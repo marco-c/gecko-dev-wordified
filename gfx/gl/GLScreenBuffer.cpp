@@ -4400,9 +4400,12 @@ it
 .
 MOZ_ASSERT
 (
+uint32_t
+(
 formats
 .
 samples
+)
 <
 =
 gl
