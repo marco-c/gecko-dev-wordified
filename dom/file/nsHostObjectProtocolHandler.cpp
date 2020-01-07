@@ -2520,7 +2520,7 @@ mozilla
 MakeScopeExit
 (
 [
-&
+holder
 ]
 {
 holder

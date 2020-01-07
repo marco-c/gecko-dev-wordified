@@ -24674,6 +24674,7 @@ MakeScopeExit
 (
 [
 &
+self
 ]
 (
 )
