@@ -168,7 +168,6 @@ ipc
 :
 :
 {
-self
 IpcSender
 IpcReceiver
 }
