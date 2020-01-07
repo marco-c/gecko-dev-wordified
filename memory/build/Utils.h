@@ -481,7 +481,6 @@ aNum
 ;
 }
 constexpr
-long
 double
 operator
 "
@@ -494,7 +493,10 @@ aPercent
 )
 {
 return
+double
+(
 aPercent
+)
 /
 100
 ;
