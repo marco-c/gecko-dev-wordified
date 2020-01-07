@@ -3233,9 +3233,6 @@ NameLocation
 >
 locationBoundInScope
 (
-BytecodeEmitter
-*
-bce
 JSAtom
 *
 name
@@ -5315,9 +5312,6 @@ EmitterScope
 :
 locationBoundInScope
 (
-BytecodeEmitter
-*
-bce
 JSAtom
 *
 name
@@ -10819,8 +10813,6 @@ private
 bool
 emitCatchEnd
 (
-bool
-hasNext
 )
 {
 MOZ_ASSERT
@@ -11068,7 +11060,6 @@ if
 !
 emitCatchEnd
 (
-false
 )
 )
 return
@@ -11406,7 +11397,6 @@ if
 !
 emitCatchEnd
 (
-false
 )
 )
 return
@@ -14110,7 +14100,6 @@ innermostEmitterScope
 >
 locationBoundInScope
 (
-this
 name
 target
 )
@@ -14173,7 +14162,6 @@ source
 >
 locationBoundInScope
 (
-this
 name
 funScope
 )
@@ -58191,9 +58179,6 @@ BytecodeEmitter
 :
 emitSelfHostedForceInterpreter
 (
-ParseNode
-*
-pn
 )
 {
 if
@@ -58975,8 +58960,6 @@ ParseNode
 *
 call
 bool
-spread
-bool
 *
 callop
 )
@@ -59490,7 +59473,6 @@ emitCallee
 (
 callee
 pn
-false
 &
 callop
 )
@@ -59977,7 +59959,6 @@ forceInterpreter
 return
 emitSelfHostedForceInterpreter
 (
-pn
 )
 ;
 if
@@ -60101,7 +60082,6 @@ emitCallee
 (
 pn2
 pn
-spread
 &
 callop
 )

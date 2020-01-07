@@ -5641,9 +5641,6 @@ MOZ_MUST_USE
 bool
 emitSelfHostedForceInterpreter
 (
-ParseNode
-*
-pn
 )
 ;
 MOZ_MUST_USE
@@ -6025,8 +6022,6 @@ callee
 ParseNode
 *
 call
-bool
-spread
 bool
 *
 callop

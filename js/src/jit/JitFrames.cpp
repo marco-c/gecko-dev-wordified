@@ -990,7 +990,6 @@ else
 {
 UnwindIteratorForUncatchableException
 (
-cx
 iterObject
 )
 ;
@@ -2469,7 +2468,6 @@ toObject
 ;
 UnwindIteratorForUncatchableException
 (
-cx
 iterObject
 )
 ;
