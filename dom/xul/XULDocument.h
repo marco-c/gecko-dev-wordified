@@ -764,10 +764,8 @@ nsINode
 aNode
 )
 ;
-already_AddRefed
-<
 nsINode
->
+*
 GetPopupRangeParent
 (
 ErrorResult
