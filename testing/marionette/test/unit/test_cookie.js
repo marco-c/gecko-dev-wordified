@@ -85,8 +85,6 @@ cookies
 [
 ]
 add
-:
-function
 (
 domain
 path
@@ -133,13 +131,7 @@ host
 :
 domain
 path
-:
-path
 name
-:
-name
-value
-:
 value
 isSecure
 :
@@ -151,10 +143,6 @@ isSession
 :
 session
 expiry
-:
-expiry
-originAttributes
-:
 originAttributes
 }
 ;
@@ -171,14 +159,10 @@ newCookie
 ;
 }
 remove
-:
-function
 (
 host
 name
 path
-blocked
-originAttributes
 )
 {
 for
@@ -260,10 +244,6 @@ false
 getCookiesFromHost
 (
 host
-originAttributes
-=
-{
-}
 )
 {
 let
@@ -498,7 +478,7 @@ null
 )
 {
 let
-test
+domainTest
 =
 {
 name
@@ -528,7 +508,7 @@ cookie
 .
 fromJSON
 (
-test
+domainTest
 )
 /
 Cookie
@@ -541,7 +521,7 @@ string
 ;
 }
 let
-test
+domainTest
 =
 {
 name
@@ -568,7 +548,7 @@ cookie
 .
 fromJSON
 (
-test
+domainTest
 )
 ;
 equal
@@ -601,7 +581,7 @@ null
 )
 {
 let
-test
+pathTest
 =
 {
 name
@@ -631,7 +611,7 @@ cookie
 .
 fromJSON
 (
-test
+pathTest
 )
 /
 Cookie
@@ -665,7 +645,7 @@ null
 )
 {
 let
-test
+secureTest
 =
 {
 name
@@ -695,7 +675,7 @@ cookie
 .
 fromJSON
 (
-test
+secureTest
 )
 /
 Cookie
@@ -730,7 +710,7 @@ null
 )
 {
 let
-test
+httpOnlyTest
 =
 {
 name
@@ -760,7 +740,7 @@ cookie
 .
 fromJSON
 (
-test
+httpOnlyTest
 )
 /
 Cookie
@@ -802,7 +782,7 @@ null
 )
 {
 let
-test
+expiryTest
 =
 {
 name
@@ -832,7 +812,7 @@ cookie
 .
 fromJSON
 (
-test
+expiryTest
 )
 /
 Cookie
@@ -1572,6 +1552,7 @@ domain6
 "
 }
 )
+;
 }
 /
 UnableToSetCookieError

@@ -99,6 +99,11 @@ jsm
 "
 )
 ;
+const
+{
+InvalidArgumentError
+}
+=
 ChromeUtils
 .
 import
@@ -116,6 +121,8 @@ error
 .
 js
 "
+{
+}
 )
 ;
 ChromeUtils
@@ -1419,6 +1426,7 @@ proxyType
 manual
 "
 }
+;
 p
 =
 new
@@ -1480,6 +1488,7 @@ proxy
 "
 foo
 "
+;
 deepEqual
 (
 p
@@ -1554,6 +1563,7 @@ foo
 :
 42
 "
+;
 deepEqual
 (
 p
@@ -1608,6 +1618,7 @@ foo
 :
 42
 "
+;
 expected
 [
 proxy
@@ -2335,11 +2346,8 @@ host_map
 [
 host
 ]
-[
-"
+.
 hostname
-"
-]
 ;
 p
 [
@@ -2353,11 +2361,8 @@ host_map
 [
 host
 ]
-[
-"
+.
 port
-"
-]
 ;
 deepEqual
 (
@@ -2596,8 +2601,6 @@ proxyType
 manual
 "
 noProxy
-:
-noProxy
 }
 )
 /
@@ -2679,6 +2682,7 @@ noProxy
 :
 noProxy
 }
+;
 p
 .
 noProxy
@@ -2765,6 +2769,7 @@ db8
 "
 ]
 }
+;
 deepEqual
 (
 p
