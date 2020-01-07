@@ -21040,6 +21040,15 @@ return
 sInnerOrOuterWindowCount
 ;
 }
+static
+bool
+CanShowPopup
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 private
 :
 static
@@ -21686,6 +21695,10 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
+;
+static
+bool
+sDisablePopups
 ;
 static
 bool
