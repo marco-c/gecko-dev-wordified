@@ -70,7 +70,7 @@ request
 .
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -89,7 +89,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -108,7 +108,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -127,7 +127,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -146,7 +146,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -166,7 +166,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -186,7 +186,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -206,7 +206,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -226,7 +226,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -246,7 +246,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -266,7 +266,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -286,7 +286,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -306,7 +306,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -326,7 +326,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -345,7 +345,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -722,7 +722,7 @@ subsessionFunc
 let
 session
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -769,7 +769,7 @@ topic
 let
 session
 =
-Cu
+ChromeUtils
 .
 import
 (

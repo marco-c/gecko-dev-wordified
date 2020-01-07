@@ -91,7 +91,7 @@ myScope
 =
 this
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -111,7 +111,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -130,7 +130,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -149,7 +149,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -169,7 +169,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -188,7 +188,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -208,7 +208,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -238,7 +238,7 @@ AddonManager
 AddonManagerPrivate
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -259,9 +259,9 @@ jsm
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -281,9 +281,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -304,9 +304,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -327,9 +327,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -350,9 +350,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -373,9 +373,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -5757,7 +5757,7 @@ scope
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -9232,7 +9232,7 @@ scope
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

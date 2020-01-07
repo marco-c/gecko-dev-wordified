@@ -33,7 +33,7 @@ assertions
 in
 necko
 .
-Cu
+ChromeUtils
 .
 import
 (

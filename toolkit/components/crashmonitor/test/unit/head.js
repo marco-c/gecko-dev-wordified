@@ -81,9 +81,7 @@ MPL
 .
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -102,9 +100,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -172,9 +170,7 @@ json
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

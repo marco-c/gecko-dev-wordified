@@ -96,7 +96,7 @@ errorconsole
 deprecation_warnings
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (

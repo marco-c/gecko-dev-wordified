@@ -117,7 +117,7 @@ BYTES_PER_MEBIBYTE
 =
 1048576
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -136,7 +136,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -155,9 +155,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

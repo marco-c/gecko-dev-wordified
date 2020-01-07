@@ -112,7 +112,7 @@ globals
 XPCOMUtils
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -137,7 +137,7 @@ globals
 Services
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -162,7 +162,7 @@ globals
 NetUtil
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -188,7 +188,7 @@ setTimeout
 clearTimeout
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -213,9 +213,9 @@ globals
 ControllerStateMachine
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -250,9 +250,9 @@ global
 ReceiverStateMachine
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

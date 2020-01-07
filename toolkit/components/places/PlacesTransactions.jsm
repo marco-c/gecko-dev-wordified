@@ -2234,7 +2234,7 @@ TRANSACTIONS_QUEUE_TIMEOUT_MS
 4
 Mins
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -2253,7 +2253,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -2272,9 +2272,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -2295,9 +2295,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

@@ -44,9 +44,7 @@ progress
 bug
 925389
 )
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -133,9 +131,7 @@ respond
 to
 update
 requests
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

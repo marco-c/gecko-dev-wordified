@@ -92,7 +92,7 @@ DelayedInit
 "
 ]
 ;
-Cu
+ChromeUtils
 .
 import
 (

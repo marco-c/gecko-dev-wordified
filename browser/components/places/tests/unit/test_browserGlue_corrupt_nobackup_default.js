@@ -128,9 +128,7 @@ available
 .
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

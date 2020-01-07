@@ -317,9 +317,7 @@ e
 )
 {
 }
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -3,7 +3,7 @@
 Tests
 bug
 304414
-Cu
+ChromeUtils
 .
 import
 (

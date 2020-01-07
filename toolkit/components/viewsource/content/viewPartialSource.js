@@ -91,9 +91,7 @@ viewSource
 js
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

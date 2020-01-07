@@ -159,9 +159,7 @@ remote
 .
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

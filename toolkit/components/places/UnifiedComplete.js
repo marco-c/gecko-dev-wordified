@@ -2286,7 +2286,7 @@ typed
 /
 /
 Getters
-Cu
+ChromeUtils
 .
 import
 (
@@ -2305,7 +2305,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

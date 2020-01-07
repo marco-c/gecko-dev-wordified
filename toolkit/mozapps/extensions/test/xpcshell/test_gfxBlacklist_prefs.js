@@ -75,9 +75,7 @@ and
 test_gfxBlacklist2
 .
 xml
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -186,9 +186,7 @@ var
 NetUtil
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

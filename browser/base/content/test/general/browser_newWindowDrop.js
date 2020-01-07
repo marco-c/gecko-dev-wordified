@@ -168,7 +168,7 @@ let
 CustomizableUI
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -929,7 +929,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

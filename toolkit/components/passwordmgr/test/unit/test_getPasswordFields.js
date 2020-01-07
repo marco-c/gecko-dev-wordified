@@ -19,7 +19,7 @@ strict
 const
 LMCBackstagePass
 =
-Cu
+ChromeUtils
 .
 import
 (

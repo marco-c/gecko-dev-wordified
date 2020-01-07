@@ -42,7 +42,7 @@ nsIURIs
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

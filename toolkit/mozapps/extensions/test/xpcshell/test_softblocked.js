@@ -65,7 +65,7 @@ blocklist
 xul
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -84,7 +84,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

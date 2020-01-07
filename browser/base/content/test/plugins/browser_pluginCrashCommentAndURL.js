@@ -4,7 +4,7 @@ global
 gBrowser
 *
 /
-Cu
+ChromeUtils
 .
 import
 (

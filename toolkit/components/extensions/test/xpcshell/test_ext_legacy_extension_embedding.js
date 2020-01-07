@@ -9,7 +9,7 @@ globals
 browser
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -56,7 +56,7 @@ const
 EmbeddedExtensionManager
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

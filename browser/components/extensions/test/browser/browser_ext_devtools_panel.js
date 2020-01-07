@@ -48,9 +48,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -76,7 +76,7 @@ const
 require
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

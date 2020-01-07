@@ -123,9 +123,7 @@ enabled
 true
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

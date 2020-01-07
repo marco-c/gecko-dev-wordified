@@ -99,7 +99,7 @@ MPL
 .
 *
 /
-Cu
+ChromeUtils
 .
 import
 (

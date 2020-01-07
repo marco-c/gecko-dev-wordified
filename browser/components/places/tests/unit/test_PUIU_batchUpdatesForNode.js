@@ -76,7 +76,7 @@ v2
 .
 2
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -179,7 +179,7 @@ sinon
 =
 =
 =
-Cu
+ChromeUtils
 .
 import
 (

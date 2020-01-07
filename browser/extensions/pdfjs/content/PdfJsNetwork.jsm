@@ -129,9 +129,7 @@ use
 strict
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

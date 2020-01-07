@@ -163,7 +163,7 @@ Components
 .
 interfaces
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -182,7 +182,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

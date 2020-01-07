@@ -91,9 +91,7 @@ function
 args
 )
 {
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

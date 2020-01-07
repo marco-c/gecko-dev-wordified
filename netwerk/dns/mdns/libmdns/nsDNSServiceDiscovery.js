@@ -79,7 +79,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -98,7 +98,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -117,7 +117,7 @@ jsm
 '
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -165,7 +165,7 @@ use_js_fallback
 )
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -187,7 +187,7 @@ jsm
 }
 else
 {
-Cu
+ChromeUtils
 .
 import
 (

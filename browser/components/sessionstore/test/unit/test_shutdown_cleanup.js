@@ -61,7 +61,7 @@ const
 XPCOMUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -87,7 +87,7 @@ const
 SessionWorker
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -121,7 +121,7 @@ const
 SessionFile
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -186,7 +186,7 @@ XULAppInfo
 to
 initialize
 SessionFile
-Cu
+ChromeUtils
 .
 import
 (

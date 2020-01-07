@@ -9,9 +9,7 @@ ADDON_ID
 INSTALL_COMPLETE_PREF
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -30,9 +28,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

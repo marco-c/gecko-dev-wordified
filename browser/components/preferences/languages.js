@@ -106,9 +106,7 @@ preferencesBindings
 js
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

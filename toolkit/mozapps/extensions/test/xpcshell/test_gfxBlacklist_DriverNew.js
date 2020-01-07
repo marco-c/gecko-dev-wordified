@@ -89,7 +89,7 @@ Uses
 test_gfxBlacklist
 .
 xml
-Cu
+ChromeUtils
 .
 import
 (

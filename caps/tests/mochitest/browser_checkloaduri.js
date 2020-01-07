@@ -2432,7 +2432,7 @@ vars
 let
 makeURI
 =
-Cu
+ChromeUtils
 .
 import
 (

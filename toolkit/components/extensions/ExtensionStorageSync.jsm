@@ -188,7 +188,7 @@ btoa
 ]
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -385,7 +385,7 @@ KINTO_REQUEST_TIMEOUT
 =
 30000
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -404,7 +404,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -423,7 +423,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -442,7 +442,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -673,7 +673,7 @@ let
 WeaveCrypto
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

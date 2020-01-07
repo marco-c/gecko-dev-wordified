@@ -92,9 +92,7 @@ OS
 "
 ]
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

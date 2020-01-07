@@ -87,9 +87,7 @@ for
 common
 XPCOM
 services
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -108,9 +106,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

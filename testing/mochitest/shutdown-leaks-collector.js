@@ -79,9 +79,7 @@ current
 compartment
 alive
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

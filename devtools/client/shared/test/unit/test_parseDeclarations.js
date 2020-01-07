@@ -80,9 +80,7 @@ const
 require
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -70,7 +70,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -89,7 +89,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

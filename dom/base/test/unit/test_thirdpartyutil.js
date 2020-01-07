@@ -58,7 +58,7 @@ Components
 .
 utils
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -77,7 +77,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

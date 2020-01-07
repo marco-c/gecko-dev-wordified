@@ -2389,7 +2389,7 @@ html
 let
 HiddenFrame
 =
-Cu
+ChromeUtils
 .
 import
 (

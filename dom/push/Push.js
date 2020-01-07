@@ -89,7 +89,7 @@ Components
 .
 results
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -108,7 +108,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -127,7 +127,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -164,7 +164,7 @@ let
 ConsoleAPI
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

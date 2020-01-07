@@ -142,9 +142,7 @@ MAINTENANCE_INTERVAL_SECONDS
 *
 86400
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -163,9 +161,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -184,9 +180,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -207,9 +203,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

@@ -33,7 +33,7 @@ let
 Preferences
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

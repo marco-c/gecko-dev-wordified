@@ -95,7 +95,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -114,7 +114,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -133,7 +133,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -168,7 +168,7 @@ log
 let
 ConsoleAPI
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -221,9 +221,9 @@ consoleOptions
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
