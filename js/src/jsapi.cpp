@@ -9177,7 +9177,7 @@ if
 cx
 -
 >
-isCooperativelyScheduled
+isMainThreadContext
 (
 )
 )
