@@ -512,7 +512,7 @@ COLOR
 let
 subproperties
 =
-DOMUtils
+InspectorUtils
 .
 getSubpropertiesForCSSProperty
 (
