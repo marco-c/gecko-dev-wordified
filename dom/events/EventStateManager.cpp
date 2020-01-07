@@ -25196,7 +25196,7 @@ inputSource
 newPointerEvent
 -
 >
-relatedTarget
+mRelatedTarget
 =
 aRelatedContent
 ;
@@ -25236,7 +25236,7 @@ eReal
 aNewEvent
 -
 >
-relatedTarget
+mRelatedTarget
 =
 aRelatedContent
 ;

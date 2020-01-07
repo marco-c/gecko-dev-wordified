@@ -463,7 +463,7 @@ AsMouseEventBase
 mouseEventBase
 -
 >
-relatedTarget
+mRelatedTarget
 =
 aRelatedTarget
 ;
@@ -1363,8 +1363,6 @@ eSimpleGestureEventClass
 :
 relatedTarget
 =
-do_QueryInterface
-(
 mEvent
 -
 >
@@ -1373,8 +1371,7 @@ AsMouseEventBase
 )
 -
 >
-relatedTarget
-)
+mRelatedTarget
 ;
 break
 ;
