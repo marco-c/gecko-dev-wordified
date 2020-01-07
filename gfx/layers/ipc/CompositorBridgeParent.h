@@ -2433,9 +2433,6 @@ mCrossProcessParent
 TargetConfig
 mTargetConfig
 ;
-APZTestData
-mApzTestData
-;
 LayerTransactionParent
 *
 mLayerTree
