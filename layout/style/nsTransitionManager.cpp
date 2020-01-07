@@ -1440,7 +1440,9 @@ CSSTransition
 :
 QueueEvents
 (
+const
 StickyTimeDuration
+&
 aActiveTime
 )
 {
@@ -1743,9 +1745,13 @@ appendTransitionEvent
 (
 EventMessage
 aMessage
+const
 StickyTimeDuration
+&
 aElapsedTime
+const
 TimeStamp
+&
 aTimeStamp
 )
 {

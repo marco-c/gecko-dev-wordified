@@ -1108,7 +1108,9 @@ CSSAnimation
 :
 QueueEvents
 (
+const
 StickyTimeDuration
+&
 aActiveTime
 )
 {
@@ -1551,9 +1553,13 @@ appendAnimationEvent
 (
 EventMessage
 aMessage
+const
 StickyTimeDuration
+&
 aElapsedTime
+const
 TimeStamp
+&
 aTimeStamp
 )
 {

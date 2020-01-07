@@ -1050,7 +1050,9 @@ override
 void
 QueueEvents
 (
+const
 StickyTimeDuration
+&
 aActiveTime
 =
 StickyTimeDuration
@@ -1206,7 +1208,9 @@ IsSet
 void
 MaybeQueueCancelEvent
 (
+const
 StickyTimeDuration
+&
 aActiveTime
 )
 override
