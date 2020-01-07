@@ -1024,6 +1024,15 @@ mTailDelayMax
 ;
 }
 uint32_t
+TailBlockingTotalMax
+(
+)
+{
+return
+mTailTotalMax
+;
+}
+uint32_t
 ThrottlingReadLimit
 (
 )
@@ -2717,6 +2726,9 @@ mTailDelayQuantumAfterDCL
 ;
 uint32_t
 mTailDelayMax
+;
+uint32_t
+mTailTotalMax
 ;
 uint8_t
 mRedirectionLimit
