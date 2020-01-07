@@ -198,14 +198,12 @@ list
 so
 that
 longhand
-and
-logical
 properties
 are
 intermingled
+first
     
 #
-first
 shorthand
 properties
 follow
@@ -214,10 +212,10 @@ aliases
 appear
 last
 .
-This
-matches
     
 #
+This
+matches
 the
 order
 of
@@ -239,11 +237,6 @@ property_order
 {
 "
 longhand
-"
-:
-0
-"
-logical
 "
 :
 0

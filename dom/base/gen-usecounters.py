@@ -545,10 +545,6 @@ privatename_
   
 #
 define
-CSS_PROP_LIST_INCLUDE_LOGICAL
-  
-#
-define
 CSS_PROP
 (
 name_
@@ -579,10 +575,6 @@ h
 #
 undef
 CSS_PROP
-  
-#
-undef
-CSS_PROP_LIST_INCLUDE_LOGICAL
   
 #
 undef
