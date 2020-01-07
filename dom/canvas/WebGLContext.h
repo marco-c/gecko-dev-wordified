@@ -12040,6 +12040,14 @@ out_height
 )
 ;
 void
+DoColorMask
+(
+uint8_t
+bitmask
+)
+const
+;
+void
 BlitBackbufferToCurDriverFB
 (
 )

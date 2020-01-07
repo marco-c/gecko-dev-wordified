@@ -702,17 +702,6 @@ IsContextLost
 )
 return
 ;
-gl
--
->
-fColorMask
-(
-r
-g
-b
-a
-)
-;
 mColorWriteMask
 =
 uint8_t
