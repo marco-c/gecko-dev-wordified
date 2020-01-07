@@ -164,12 +164,6 @@ clobber
 '
         
 '
-clone
--
-tools
-'
-        
-'
 checkout
 -
 sources
