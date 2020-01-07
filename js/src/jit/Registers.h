@@ -835,7 +835,6 @@ a
 bit
 vector
 .
-const
 uint32_t
 code
 ;

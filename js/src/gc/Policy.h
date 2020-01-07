@@ -327,6 +327,9 @@ class
 UnownedBaseShape
 ;
 class
+WasmGlobalObject
+;
+class
 WasmFunctionScope
 ;
 class
@@ -702,6 +705,15 @@ js
 :
 :
 WasmTableObject
+*
+)
+\
+D
+(
+js
+:
+:
+WasmGlobalObject
 *
 )
 \

@@ -6651,6 +6651,8 @@ unsigned
 globalDataOffset
 bool
 isConst
+bool
+isIndirect
 MIRType
 type
 )
@@ -6679,6 +6681,7 @@ alloc
 type
 globalDataOffset
 isConst
+isIndirect
 tlsPointer_
 )
 ;
@@ -6699,6 +6702,8 @@ storeGlobalVar
 (
 uint32_t
 globalDataOffset
+bool
+isIndirect
 MDefinition
 *
 v
@@ -6726,6 +6731,7 @@ alloc
 (
 )
 globalDataOffset
+isIndirect
 v
 tlsPointer_
 )
@@ -14088,6 +14094,11 @@ global
 isMutable
 (
 )
+global
+.
+isIndirect
+(
+)
 ToMIRType
 (
 global
@@ -14438,6 +14449,11 @@ global
 offset
 (
 )
+global
+.
+isIndirect
+(
+)
 value
 )
 ;
@@ -14513,6 +14529,11 @@ storeGlobalVar
 global
 .
 offset
+(
+)
+global
+.
+isIndirect
 (
 )
 value

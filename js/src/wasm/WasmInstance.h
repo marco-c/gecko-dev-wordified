@@ -528,7 +528,11 @@ funcImports
 const
 ValVector
 &
-globalImports
+globalImportValues
+const
+WasmGlobalObjectVector
+&
+globalObjs
 )
 ;
 ~
