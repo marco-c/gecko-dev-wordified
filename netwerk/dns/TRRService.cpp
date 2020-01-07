@@ -1963,18 +1963,6 @@ get
 ;
 if
 (
-data
-.
-Equals
-(
-"
-clear
-"
-)
-)
-{
-if
-(
 !
 mTRRBLStorage
 )
@@ -2087,7 +2075,6 @@ mCaptiveIsPassed
 =
 true
 ;
-}
 }
 else
 if
