@@ -1466,6 +1466,7 @@ env
 :
 _generate_task_env
 (
+dep_job
 build_platform
 build_task_ref
                                       
@@ -1949,6 +1950,7 @@ task
 def
 _generate_task_env
 (
+task
 build_platform
 build_task_ref
 signing_task_ref
@@ -1962,6 +1964,8 @@ mar_prefix
 =
 get_taskcluster_artifact_prefix
 (
+        
+task
 build_task_ref
 postfix
 =
@@ -1974,12 +1978,14 @@ bin
 locale
 =
 None
+    
 )
     
 signed_prefix
 =
 get_taskcluster_artifact_prefix
 (
+task
 signing_task_ref
 locale
 =

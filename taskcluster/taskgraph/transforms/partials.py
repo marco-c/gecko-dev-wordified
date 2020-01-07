@@ -728,6 +728,7 @@ format
             
 get_taskcluster_artifact_prefix
 (
+dep_job
 signing_task_ref
 locale
 =

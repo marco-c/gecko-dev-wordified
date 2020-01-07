@@ -209,6 +209,7 @@ format
                         
 get_taskcluster_artifact_prefix
 (
+task
 "
 <
 {
