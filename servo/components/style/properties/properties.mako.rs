@@ -24705,13 +24705,6 @@ physical_longhand_id
 {
 continue
 }
-seen
-.
-insert
-(
-physical_longhand_id
-)
-;
 let
 mut
 declaration
@@ -24981,6 +24974,13 @@ into
 ;
 }
 }
+seen
+.
+insert
+(
+physical_longhand_id
+)
+;
 %
 if
 category_to_cascade_now
