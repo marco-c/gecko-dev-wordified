@@ -8890,6 +8890,13 @@ MmaDelegate
 RESUMED_FROM_BACKGROUND
 )
 ;
+MmaDelegate
+.
+notifyDefaultBrowserStatus
+(
+this
+)
+;
 }
 Override
 public
