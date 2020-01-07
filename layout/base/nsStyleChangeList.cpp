@@ -431,14 +431,9 @@ reflow
 ;
 if
 (
-aContent
-&
-&
-(
 aHint
 &
 nsChangeHint_ReconstructFrame
-)
 )
 {
 /
@@ -541,6 +536,9 @@ case
 via
 mDestroyedFrames
 .
+#
+ifdef
+DEBUG
 for
 (
 size_t
@@ -614,6 +612,8 @@ content
 )
 ;
 }
+#
+endif
 }
 else
 {
