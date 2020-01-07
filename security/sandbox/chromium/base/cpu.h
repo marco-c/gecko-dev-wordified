@@ -73,12 +73,10 @@ processor
 class
 BASE_EXPORT
 CPU
+final
 {
 public
 :
-/
-/
-Constructor
 CPU
 (
 )

@@ -4621,7 +4621,6 @@ UnitTestIPCDispatcher
 override
 {
 }
-;
 bool
 SetupService
 (

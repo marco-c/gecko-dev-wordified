@@ -229,7 +229,7 @@ more
 explicit
 alias
 to
-RunsTasksOnCurrentThread
+RunsTasksInCurrentSequence
 (
 )
 .
@@ -240,7 +240,7 @@ BelongsToCurrentThread
 const
 {
 return
-RunsTasksOnCurrentThread
+RunsTasksInCurrentSequence
 (
 )
 ;

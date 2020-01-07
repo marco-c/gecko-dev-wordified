@@ -85,9 +85,6 @@ namespace
 bpf_dsl
 {
 class
-ErrorCode
-;
-class
 PolicyCompiler
 ;
 namespace

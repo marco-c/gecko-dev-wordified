@@ -661,6 +661,17 @@ sandbox
 namespace
 bpf_dsl
 {
+template
+<
+typename
+T
+>
+class
+Caser
+;
+class
+Elser
+;
 /
 /
 ResultExpr

@@ -192,9 +192,6 @@ namespace
 namespace
 sandbox
 {
-class
-PolicyBase
-;
 /
 /
 BrokerServicesBase
@@ -339,8 +336,10 @@ Init
 )
 override
 ;
+scoped_refptr
+<
 TargetPolicy
-*
+>
 CreatePolicy
 (
 )
@@ -357,8 +356,10 @@ const
 wchar_t
 *
 command_line
+scoped_refptr
+<
 TargetPolicy
-*
+>
 policy
 ResultCode
 *

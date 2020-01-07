@@ -110,7 +110,7 @@ strings
 if
 defined
 (
-_MSC_VER
+COMPILER_MSVC
 )
 /
 /

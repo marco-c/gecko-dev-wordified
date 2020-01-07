@@ -308,7 +308,6 @@ char
 *
 g_fmt
 (
-register
 char
 *
 b
@@ -316,12 +315,10 @@ double
 x
 )
 {
-register
 int
 i
 k
 ;
-register
 char
 *
 s

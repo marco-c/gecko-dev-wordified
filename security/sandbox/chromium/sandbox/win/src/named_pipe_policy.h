@@ -105,9 +105,6 @@ h
 namespace
 sandbox
 {
-enum
-EvalResult
-;
 /
 /
 This

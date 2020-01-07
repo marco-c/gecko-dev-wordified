@@ -1914,7 +1914,7 @@ the
 target
 .
 virtual
-void
+ResultCode
 SetDisconnectCsrss
 (
 )

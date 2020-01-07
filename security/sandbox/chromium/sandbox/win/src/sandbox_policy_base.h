@@ -423,7 +423,7 @@ GetDelayedProcessMitigations
 const
 override
 ;
-void
+ResultCode
 SetDisconnectCsrss
 (
 )

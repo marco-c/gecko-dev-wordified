@@ -110,10 +110,7 @@ id
 .
 Like
 a
-poor
-'
-s
-man
+simplified
 /
 /
 RTTI
