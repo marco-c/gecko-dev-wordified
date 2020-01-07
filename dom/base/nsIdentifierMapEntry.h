@@ -945,7 +945,7 @@ AppendAllIdContent
 (
 nsCOMArray
 <
-nsIContent
+Element
 >
 *
 aElements

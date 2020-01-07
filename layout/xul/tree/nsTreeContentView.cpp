@@ -4041,7 +4041,7 @@ if
 realRow
 )
 {
-nsIContent
+Element
 *
 cell
 =
@@ -4203,7 +4203,7 @@ if
 realRow
 )
 {
-nsIContent
+Element
 *
 cell
 =
@@ -8542,7 +8542,7 @@ aCount
 }
 }
 }
-nsIContent
+Element
 *
 nsTreeContentView
 :
@@ -8613,7 +8613,7 @@ has
 higher
 priority
 .
-nsIContent
+Element
 *
 result
 =
@@ -8693,6 +8693,11 @@ eCaseMatters
 result
 =
 cell
+-
+>
+AsElement
+(
+)
 ;
 break
 ;
@@ -8709,6 +8714,11 @@ colIndex
 result
 =
 cell
+-
+>
+AsElement
+(
+)
 ;
 }
 j

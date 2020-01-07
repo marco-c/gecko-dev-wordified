@@ -949,6 +949,11 @@ new
 nsSetAttrRunnable
 (
 mContent
+-
+>
+AsElement
+(
+)
 nsGkAtoms
 :
 :

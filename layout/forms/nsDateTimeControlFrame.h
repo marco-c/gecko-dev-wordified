@@ -643,9 +643,15 @@ and
 reset
 button
 .
-nsCOMPtr
+RefPtr
 <
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 >
 mInputAreaContent
 ;

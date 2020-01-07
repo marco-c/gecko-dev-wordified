@@ -416,7 +416,13 @@ createHTMLElement
 nsAtom
 *
 aName
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aResult

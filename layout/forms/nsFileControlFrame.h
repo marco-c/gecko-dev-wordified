@@ -659,9 +659,9 @@ nsFileControlFrame
 CreateAnonymousContent
 *
 /
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 mTextContent
 ;
@@ -687,9 +687,9 @@ nsFileControlFrame
 CreateAnonymousContent
 *
 /
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 mBrowseFilesOrDirs
 ;

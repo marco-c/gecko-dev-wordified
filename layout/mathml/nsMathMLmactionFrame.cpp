@@ -1928,6 +1928,11 @@ document
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 SetAttr
 (
 kNameSpaceID_None

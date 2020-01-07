@@ -29870,7 +29870,7 @@ direction
 from
 its
 frame
-nsIContent
+Element
 *
 rootElement
 =
@@ -30055,7 +30055,7 @@ direction
 from
 its
 frame
-nsIContent
+Element
 *
 rootElement
 =

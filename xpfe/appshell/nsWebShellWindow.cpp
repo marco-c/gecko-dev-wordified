@@ -3328,7 +3328,7 @@ menubarNode
 {
 nsCOMPtr
 <
-nsIContent
+Element
 >
 menubarContent
 (

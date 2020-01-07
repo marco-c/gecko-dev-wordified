@@ -421,7 +421,7 @@ const
 override
 ;
 using
-nsIContent
+Element
 :
 :
 SetAttr

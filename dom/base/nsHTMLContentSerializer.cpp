@@ -411,10 +411,10 @@ nsHTMLContentSerializer
 :
 SerializeHTMLAttributes
 (
-nsIContent
+Element
 *
-aContent
-nsIContent
+aElement
+Element
 *
 aOriginalElement
 nsAString
@@ -437,7 +437,7 @@ aStr
 int32_t
 count
 =
-aContent
+aElement
 -
 >
 GetAttrCount
@@ -487,7 +487,7 @@ nsAttrName
 *
 name
 =
-aContent
+aElement
 -
 >
 GetAttrNameAt
@@ -566,7 +566,7 @@ moz
 continue
 ;
 }
-aContent
+aElement
 -
 >
 GetAttr
@@ -711,7 +711,7 @@ isJS
 =
 IsJavaScript
 (
-aContent
+aElement
 attrName
 namespaceID
 valueStr
@@ -829,7 +829,7 @@ nsIURI
 >
 uri
 =
-aContent
+aElement
 -
 >
 GetBaseURI
@@ -942,7 +942,7 @@ document
 nsAutoString
 header
 ;
-aContent
+aElement
 -
 >
 GetAttr
@@ -1118,12 +1118,6 @@ NS_ENSURE_ARG
 aElement
 )
 ;
-nsIContent
-*
-content
-=
-aElement
-;
 bool
 forceFormat
 =
@@ -1139,7 +1133,7 @@ if
 !
 CheckElementStart
 (
-content
+aElement
 forceFormat
 aStr
 rv
@@ -1190,7 +1184,7 @@ confused
 .
 MaybeEnterInPreContent
 (
-content
+aElement
 )
 ;
 return
@@ -1207,7 +1201,7 @@ nsAtom
 *
 name
 =
-content
+aElement
 -
 >
 NodeInfo
@@ -1222,7 +1216,7 @@ NameAtom
 int32_t
 ns
 =
-content
+aElement
 -
 >
 GetNameSpaceID
@@ -1423,7 +1417,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 MaybeEnterInPreContent
 (
-content
+aElement
 )
 ;
 /
@@ -1742,7 +1736,7 @@ NS_ENSURE_TRUE
 (
 SerializeHTMLAttributes
 (
-content
+aElement
 aOriginalElement
 dummyPrefix
 EmptyString
@@ -1857,7 +1851,7 @@ NS_ENSURE_TRUE
 (
 AfterElementStart
 (
-content
+aElement
 aOriginalElement
 aStr
 )
@@ -1887,17 +1881,11 @@ NS_ENSURE_ARG
 aElement
 )
 ;
-nsIContent
-*
-content
-=
-aElement
-;
 nsAtom
 *
 name
 =
-content
+aElement
 -
 >
 NodeInfo
@@ -1912,7 +1900,7 @@ NameAtom
 int32_t
 ns
 =
-content
+aElement
 -
 >
 GetNameSpaceID
@@ -1984,7 +1972,7 @@ OutputIgnoreMozDirty
 )
 &
 &
-content
+aElement
 -
 >
 HasAttr
@@ -2270,7 +2258,7 @@ body
 ;
 MaybeLeaveFromPreContent
 (
-content
+aElement
 )
 ;
 return
@@ -2453,7 +2441,7 @@ above
 .
 MaybeLeaveFromPreContent
 (
-content
+aElement
 )
 ;
 if

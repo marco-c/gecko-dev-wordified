@@ -1482,7 +1482,7 @@ return
 }
 nsCOMPtr
 <
-nsIContent
+Element
 >
 row
 ;
@@ -5313,7 +5313,7 @@ nsIXULTemplateResult
 aResult
 nsCOMArray
 <
-nsIContent
+Element
 >
 *
 *
@@ -5557,9 +5557,8 @@ aNewMatch
 nsTemplateRule
 *
 aNewMatchRule
-void
+Element
 *
-aLocation
 )
 {
 if
@@ -6649,7 +6648,7 @@ attributes
 .
 nsCOMPtr
 <
-nsIContent
+Element
 >
 treecols
 ;
@@ -7110,7 +7109,7 @@ GetTemplateActionRowFor
 (
 int32_t
 aRow
-nsIContent
+Element
 *
 *
 aResult
@@ -7247,7 +7246,7 @@ rule
 {
 nsCOMPtr
 <
-nsIContent
+Element
 >
 children
 ;
@@ -7280,7 +7279,7 @@ children
 {
 nsCOMPtr
 <
-nsIContent
+Element
 >
 item
 ;
@@ -7346,9 +7345,9 @@ nsTreeColumn
 aCol
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 row
 ;

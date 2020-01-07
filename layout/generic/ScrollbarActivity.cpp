@@ -203,6 +203,17 @@ include
 "
 mozilla
 /
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LookAndFeel
 .
 h
@@ -865,7 +876,7 @@ aType
 nsIContent
 *
 aTarget
-nsIContent
+Element
 *
 aScrollbar
 bool
@@ -1713,9 +1724,9 @@ static
 void
 SetBooleanAttribute
 (
-nsIContent
+Element
 *
-aContent
+aElement
 nsAtom
 *
 aAttribute
@@ -1725,7 +1736,7 @@ aValue
 {
 if
 (
-aContent
+aElement
 )
 {
 if
@@ -1733,7 +1744,7 @@ if
 aValue
 )
 {
-aContent
+aElement
 -
 >
 SetAttr
@@ -1752,7 +1763,7 @@ true
 }
 else
 {
-aContent
+aElement
 -
 >
 UnsetAttr
@@ -2293,7 +2304,7 @@ ScrollbarActivity
 :
 HoveredScrollbar
 (
-nsIContent
+Element
 *
 aScrollbar
 )
@@ -2365,7 +2376,7 @@ RefreshDriver
 )
 ;
 }
-nsIContent
+Element
 *
 ScrollbarActivity
 :
@@ -2395,6 +2406,11 @@ box
 -
 >
 GetContent
+(
+)
+-
+>
+AsElement
 (
 )
 :
