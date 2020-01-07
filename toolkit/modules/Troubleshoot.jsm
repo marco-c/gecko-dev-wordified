@@ -3067,6 +3067,11 @@ UsesTiling
 "
 usesTiling
 "
+ContentUsesTiling
+:
+"
+contentUsesTiling
+"
 OffMainThreadPaintEnabled
 :
 "

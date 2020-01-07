@@ -186,6 +186,13 @@ UsesTiling
 const
 override
 ;
+bool
+ContentUsesTiling
+(
+)
+const
+override
+;
 virtual
 already_AddRefed
 <
@@ -446,6 +453,7 @@ BackendPrefsData
 GetBackendPrefs
 (
 )
+const
 override
 ;
 bool

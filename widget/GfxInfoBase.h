@@ -519,6 +519,15 @@ aUsesTiling
 override
 ;
 NS_IMETHOD
+GetContentUsesTiling
+(
+bool
+*
+aUsesTiling
+)
+override
+;
+NS_IMETHOD
 GetOffMainThreadPaintEnabled
 (
 bool

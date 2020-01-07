@@ -2354,6 +2354,7 @@ gfxWindowsPlatform
 GetBackendPrefs
 (
 )
+const
 {
 BackendPrefsData
 data

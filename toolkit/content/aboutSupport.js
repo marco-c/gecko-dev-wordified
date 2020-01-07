@@ -3541,6 +3541,16 @@ addRowFromKey
 features
 "
 "
+contentUsesTiling
+"
+)
+;
+addRowFromKey
+(
+"
+features
+"
+"
 offMainThreadPaintEnabled
 "
 )
