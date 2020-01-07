@@ -203,6 +203,13 @@ _O_BINARY
 #
 endif
 #
+include
+"
+crctable
+.
+h
+"
+#
 undef
 MIN
 #
