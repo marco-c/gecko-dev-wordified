@@ -286,3 +286,7 @@ DEPRECATED_OPERATION
 (
 RegisterProtocolHandlerInsecure
 )
+DEPRECATED_OPERATION
+(
+MixedDisplayObjectSubrequest
+)
