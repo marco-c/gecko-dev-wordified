@@ -238,6 +238,10 @@ Vec
 new
 (
 )
+GlyphRasterSpace
+:
+:
+Screen
 )
 ;
 let

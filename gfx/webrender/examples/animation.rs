@@ -350,6 +350,10 @@ MixBlendMode
 :
 Normal
 filters
+GlyphRasterSpace
+:
+:
+Screen
 )
 ;
 let
