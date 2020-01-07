@@ -541,7 +541,7 @@ aOther
 If
 aMap
 is
-nullptr
+empty
 then
 MappingTable
 can
@@ -563,17 +563,6 @@ reordered
 to
 aOther
 .
-/
-/
-aMap
-must
-be
-an
-array
-of
-size
-MAX_AUDIO_CHANNELS
-.
 bool
 MappingTable
 (
@@ -581,7 +570,10 @@ const
 ChannelLayout
 &
 aOther
+nsTArray
+<
 uint8_t
+>
 *
 aMap
 =
