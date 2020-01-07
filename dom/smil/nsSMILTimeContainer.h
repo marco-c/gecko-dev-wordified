@@ -1734,7 +1734,9 @@ MilestoneEntry
 {
 MilestoneEntry
 (
+const
 nsSMILMilestone
+&
 aMilestone
 mozilla
 :
