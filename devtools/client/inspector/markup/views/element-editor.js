@@ -452,7 +452,7 @@ display
 .
 contents
 .
-tooltiptext
+tooltiptext2
 "
 )
 }
