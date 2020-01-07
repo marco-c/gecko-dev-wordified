@@ -2427,9 +2427,12 @@ nsRefPtrHashKey
 <
 nsAtom
 >
-nsTArray
+nsTHashtable
 <
-nsWeakPtr
+nsRefPtrHashKey
+<
+nsIWeakReference
+>
 >
 >
 CandidateMap
