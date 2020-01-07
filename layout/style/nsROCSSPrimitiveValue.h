@@ -519,10 +519,7 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
-<
-nsIDOMCounter
->
+void
 GetCounterValue
 (
 mozilla
