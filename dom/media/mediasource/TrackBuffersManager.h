@@ -349,7 +349,10 @@ forget
 }
 nsTArray
 <
+RefPtr
+<
 SourceBufferTask
+>
 >
 :
 :
