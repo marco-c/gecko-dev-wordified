@@ -639,6 +639,9 @@ Resume
 Close
 }
 ;
+struct
+AudioContextOptions
+;
 class
 AudioContext
 final
@@ -769,6 +772,10 @@ const
 GlobalObject
 &
 aGlobal
+const
+AudioContextOptions
+&
+aOptions
 ErrorResult
 &
 aRv
