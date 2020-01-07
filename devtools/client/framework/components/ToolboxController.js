@@ -98,9 +98,7 @@ framework
 /
 components
 /
-toolbox
--
-toolbar
+ToolboxToolbar
 "
 )
 )
