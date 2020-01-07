@@ -1217,7 +1217,9 @@ try
 {
 fixedURI
 =
-URIFixup
+Services
+.
+uriFixup
 .
 createExposableURI
 (
