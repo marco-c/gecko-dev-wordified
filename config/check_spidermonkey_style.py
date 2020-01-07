@@ -712,10 +712,6 @@ general
 double
 -
 conversion
-/
-double
--
-conversion
 .
 h
 '

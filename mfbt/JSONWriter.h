@@ -891,9 +891,7 @@ mozilla_JSONWriter_h
 #
 include
 "
-double
--
-conversion
+mozilla
 /
 double
 -
