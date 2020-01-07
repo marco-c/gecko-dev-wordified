@@ -113,12 +113,12 @@ IFRAME1
 let
 {
 inspector
-view
+boxmodel
 testActor
 }
 =
 yield
-openBoxModelView
+openLayoutView
 (
 )
 ;
@@ -126,7 +126,7 @@ yield
 testFirstPage
 (
 inspector
-view
+boxmodel
 testActor
 )
 ;
@@ -172,7 +172,7 @@ yield
 testSecondPage
 (
 inspector
-view
+boxmodel
 testActor
 )
 ;
@@ -217,7 +217,7 @@ yield
 testBackToFirstPage
 (
 inspector
-view
+boxmodel
 testActor
 )
 ;
@@ -229,7 +229,7 @@ function
 testFirstPage
 (
 inspector
-view
+boxmodel
 testActor
 )
 {
@@ -278,7 +278,7 @@ value
 let
 paddingElt
 =
-view
+boxmodel
 .
 document
 .
@@ -396,7 +396,7 @@ function
 testSecondPage
 (
 inspector
-view
+boxmodel
 testActor
 )
 {
@@ -445,7 +445,7 @@ value
 let
 sizeElt
 =
-view
+boxmodel
 .
 document
 .
@@ -577,7 +577,7 @@ function
 testBackToFirstPage
 (
 inspector
-view
+boxmodel
 testActor
 )
 {
@@ -644,7 +644,7 @@ bfcache
 let
 paddingElt
 =
-view
+boxmodel
 .
 document
 .
