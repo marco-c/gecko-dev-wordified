@@ -187,7 +187,7 @@ cubeb
 ChannelLayout
 :
 :
-Mono
+MONO
 )
 /
 /
