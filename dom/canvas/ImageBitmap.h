@@ -310,6 +310,9 @@ StructuredClone
 between
 windows
 .
+class
+ImageBitmapShutdownObserver
+;
 struct
 ImageBitmapCloneData
 final
@@ -830,6 +833,11 @@ GetAllocatedSize
 (
 )
 const
+;
+void
+OnShutdown
+(
+)
 ;
 protected
 :
@@ -1537,6 +1545,12 @@ mPictureRect
 const
 gfxAlphaType
 mAlphaType
+;
+RefPtr
+<
+ImageBitmapShutdownObserver
+>
+mShutdownObserver
 ;
 /
 *
