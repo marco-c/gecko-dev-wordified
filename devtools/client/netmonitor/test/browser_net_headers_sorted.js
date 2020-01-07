@@ -327,6 +327,13 @@ actualRequestHeaders
 [
 ]
 ;
+let
+responseHeadersLength
+=
+expectedResponseHeaders
+.
+length
+;
 for
 (
 let
@@ -336,7 +343,9 @@ i
 ;
 i
 <
-11
+responseHeadersLength
++
+1
 ;
 i
 +
@@ -361,7 +370,9 @@ for
 let
 i
 =
-12
+responseHeadersLength
++
+2
 ;
 i
 <
