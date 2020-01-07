@@ -4353,6 +4353,13 @@ AutoLock
 &
 )
 ;
+void
+CloseInternal
+(
+AutoLock
+&
+)
+;
 /
 /
 Instance
