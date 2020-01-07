@@ -234,7 +234,7 @@ h
 #
 include
 "
-nsIFrameLoader
+nsFrameLoader
 .
 h
 "

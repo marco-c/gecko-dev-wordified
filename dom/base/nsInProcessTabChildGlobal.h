@@ -800,9 +800,9 @@ this
 /
 time
 .
-nsCOMPtr
+RefPtr
 <
-nsIFrameLoader
+nsFrameLoader
 >
 mFrameLoader
 ;

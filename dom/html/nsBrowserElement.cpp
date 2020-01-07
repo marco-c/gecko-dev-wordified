@@ -355,7 +355,10 @@ mBrowserElementAPI
 >
 SetFrameLoader
 (
+ToSupports
+(
 frameLoader
+)
 )
 ;
 }

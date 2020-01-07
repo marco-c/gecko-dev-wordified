@@ -1027,7 +1027,7 @@ nsInProcessTabChildGlobal
 :
 CacheFrameLoader
 (
-nsIFrameLoader
+nsFrameLoader
 *
 aFrameLoader
 )
