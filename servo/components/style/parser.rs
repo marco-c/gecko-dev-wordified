@@ -479,6 +479,10 @@ a
 parser
 context
 .
+#
+[
+inline
+]
 pub
 fn
 new
@@ -537,6 +541,10 @@ fly
 parsing
 in
 CSSOM
+#
+[
+inline
+]
 pub
 fn
 new_for_cssom
@@ -598,6 +606,10 @@ modified
 rule
 type
 .
+#
+[
+inline
+]
 pub
 fn
 new_with_rule_type
