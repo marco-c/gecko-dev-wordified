@@ -2249,6 +2249,12 @@ GetBrowserUpgradeInsecureRequests
 aLoadInfo
 -
 >
+GetBrowserWouldUpgradeInsecureRequests
+(
+)
+aLoadInfo
+-
+>
 GetVerifySignedContent
 (
 )
@@ -3089,6 +3095,11 @@ upgradeInsecureRequests
 loadInfoArgs
 .
 browserUpgradeInsecureRequests
+(
+)
+loadInfoArgs
+.
+browserWouldUpgradeInsecureRequests
 (
 )
 loadInfoArgs

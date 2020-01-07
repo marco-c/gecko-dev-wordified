@@ -48975,9 +48975,6 @@ NS_IsMainThread
 )
 ;
 return
-sIsUpgradableDisplayContentPrefEnabled
-&
-&
 (
 aType
 =

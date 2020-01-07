@@ -645,6 +645,11 @@ SetBrowserUpgradeInsecureRequests
 (
 )
 ;
+void
+SetBrowserWouldUpgradeInsecureRequests
+(
+)
+;
 private
 :
 /
@@ -773,6 +778,8 @@ bool
 aUpgradeInsecureRequests
 bool
 aBrowserUpgradeInsecureRequests
+bool
+aBrowserWouldUpgradeInsecureRequests
 bool
 aVerifySignedContent
 bool
@@ -1123,6 +1130,9 @@ mUpgradeInsecureRequests
 ;
 bool
 mBrowserUpgradeInsecureRequests
+;
+bool
+mBrowserWouldUpgradeInsecureRequests
 ;
 bool
 mVerifySignedContent
