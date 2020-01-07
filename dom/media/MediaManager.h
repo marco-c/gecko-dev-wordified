@@ -991,6 +991,14 @@ aWindowId
 )
 ;
 }
+bool
+IsWindowListenerStillActive
+(
+GetUserMediaWindowListener
+*
+aListener
+)
+;
 /
 /
 Note
