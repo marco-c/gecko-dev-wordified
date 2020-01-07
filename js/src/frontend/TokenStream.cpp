@@ -3165,7 +3165,7 @@ hasRawChars
 )
 sourceUnits
 .
-matchRawChar
+matchCodeUnit
 (
 '
 \
@@ -3433,7 +3433,7 @@ c2
 =
 sourceUnits
 .
-peekRawChar
+peekCodeUnit
 (
 )
 ;
@@ -3502,7 +3502,7 @@ MOZ_ASSERT
 (
 sourceUnits
 .
-peekRawChar
+peekCodeUnit
 (
 )
 =
@@ -3918,7 +3918,7 @@ while
 (
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 <
@@ -4035,7 +4035,7 @@ anyCharsAccess
 ;
 sourceUnits
 .
-setAddressOfNextRawChar
+setAddressOfNextCodeUnit
 (
 pos
 .
@@ -7851,13 +7851,13 @@ originalAddress
 =
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 ;
 sourceUnits
 .
-setAddressOfNextRawChar
+setAddressOfNextCodeUnit
 (
 identStart
 )
@@ -7879,7 +7879,7 @@ this
 >
 sourceUnits
 .
-setAddressOfNextRawChar
+setAddressOfNextCodeUnit
 (
 originalAddress
 )
@@ -8230,7 +8230,7 @@ length
 =
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 -
@@ -9444,7 +9444,7 @@ identStart
 =
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 -
@@ -9945,7 +9945,7 @@ identifierName
 tp
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 -
@@ -9993,7 +9993,7 @@ numStart
 =
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 -
@@ -10296,7 +10296,7 @@ cx
 numStart
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 &
@@ -10329,7 +10329,7 @@ cx
 numStart
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 &
@@ -10477,7 +10477,7 @@ hasRawChars
 )
 sourceUnits
 .
-matchRawChar
+matchCodeUnit
 (
 '
 \
@@ -10600,7 +10600,7 @@ numStart
 =
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 -
@@ -10693,7 +10693,7 @@ numStart
 =
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 -
@@ -10794,7 +10794,7 @@ numStart
 =
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 -
@@ -10849,7 +10849,7 @@ numStart
 =
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 -
@@ -11029,7 +11029,7 @@ numStart
 =
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 -
@@ -11136,7 +11136,7 @@ cx
 numStart
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 radix
@@ -11227,7 +11227,7 @@ numStart
 =
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 -
@@ -11448,7 +11448,7 @@ identifierName
 tp
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 )
 -
@@ -14636,7 +14636,7 @@ hasRawChars
 )
 sourceUnits
 .
-matchRawChar
+matchCodeUnit
 (
 '
 \

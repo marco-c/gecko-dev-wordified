@@ -6516,7 +6516,7 @@ if
 poisoned
 }
 CharT
-peekRawChar
+peekCodeUnit
 (
 )
 const
@@ -6536,7 +6536,7 @@ if
 poisoned
 }
 bool
-matchRawChar
+matchCodeUnit
 (
 CharT
 c
@@ -6647,7 +6647,7 @@ ptr
 const
 CharT
 *
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 bool
 allowPoisoned
@@ -6685,7 +6685,7 @@ with
 caution
 !
 void
-setAddressOfNextRawChar
+setAddressOfNextCodeUnit
 (
 const
 CharT
@@ -11019,7 +11019,7 @@ hasRawChars
 &
 sourceUnits
 .
-matchRawChar
+matchCodeUnit
 (
 expect
 )
@@ -11311,7 +11311,7 @@ tokenStream
 .
 sourceUnits
 .
-addressOfNextRawChar
+addressOfNextCodeUnit
 (
 /
 *
