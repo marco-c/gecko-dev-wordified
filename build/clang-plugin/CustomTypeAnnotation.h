@@ -384,5 +384,9 @@ extern
 CustomTypeAnnotation
 NonTemporaryClass
 ;
+extern
+CustomTypeAnnotation
+TemporaryClass
+;
 #
 endif
