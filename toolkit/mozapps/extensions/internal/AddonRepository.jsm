@@ -4034,7 +4034,7 @@ aEntry
 .
 ratings
 .
-count
+text_count
 ;
 }
 addon
