@@ -1291,6 +1291,13 @@ haltingAlign
 CodeAlignment
 )
 ;
+masm
+.
+setFramePushed
+(
+0
+)
+;
 return
 masm
 .
