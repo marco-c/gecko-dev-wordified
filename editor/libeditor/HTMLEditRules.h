@@ -3230,6 +3230,7 @@ elements
 .
 *
 /
+MOZ_MUST_USE
 nsresult
 ApplyBlockStyle
 (
