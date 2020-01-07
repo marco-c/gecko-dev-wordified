@@ -4992,6 +4992,14 @@ currentFrame
 IsStackingContext
 (
 )
+&
+&
+currentFrame
+-
+>
+IsFixedPosContainingBlock
+(
+)
 )
 {
 CRR_LOG
