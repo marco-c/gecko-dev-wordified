@@ -7566,6 +7566,10 @@ aAudio
 -
 >
 mRate
+aAudio
+-
+>
+mChannelMap
 )
 )
 ;
