@@ -572,7 +572,7 @@ sCSSPseudoElementAtomSetup
 i
 ]
 .
-mAtom
+mAtomp
 =
 =
 aAtom
@@ -747,7 +747,7 @@ aType
 )
 ]
 .
-mAtom
+mAtomp
 ;
 }
 /

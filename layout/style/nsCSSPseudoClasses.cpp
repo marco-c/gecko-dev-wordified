@@ -808,7 +808,7 @@ sCSSPseudoClassAtomSetup
 idx
 ]
 .
-mAtom
+mAtomp
 )
 -
 >
@@ -863,7 +863,7 @@ sCSSPseudoClassAtomSetup
 i
 ]
 .
-mAtom
+mAtomp
 =
 =
 aAtom
