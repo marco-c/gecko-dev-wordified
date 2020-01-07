@@ -797,9 +797,6 @@ archive
 :
 "
 +
-(
-String
-)
 content
 .
 getType

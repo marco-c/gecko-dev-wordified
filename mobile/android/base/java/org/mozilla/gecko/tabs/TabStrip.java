@@ -817,11 +817,6 @@ Update
 the
 selected
 position
-then
-fall
-through
-.
-.
 .
 tabStripView
 .
@@ -838,6 +833,15 @@ isPrivate
 (
 )
 )
+;
+tabStripView
+.
+updateTab
+(
+tab
+)
+;
+break
 ;
 case
 UNSELECTED
