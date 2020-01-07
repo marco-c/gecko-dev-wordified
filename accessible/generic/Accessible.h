@@ -1209,6 +1209,7 @@ role
 Role
 (
 )
+const
 ;
 /
 *
@@ -6666,6 +6667,7 @@ a11y
 role
 aRole
 )
+const
 ;
 /
 /

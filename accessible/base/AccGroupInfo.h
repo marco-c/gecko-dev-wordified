@@ -478,6 +478,7 @@ Accessible
 *
 FirstItemOf
 (
+const
 Accessible
 *
 aContainer

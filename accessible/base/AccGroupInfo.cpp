@@ -1030,6 +1030,7 @@ AccGroupInfo
 :
 FirstItemOf
 (
+const
 Accessible
 *
 aContainer
