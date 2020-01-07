@@ -1146,6 +1146,9 @@ if
 socket_timeout
 :
             
+try
+:
+                
 self
 .
 marionette
@@ -1157,6 +1160,29 @@ script
 socket_timeout
 /
 2
+            
+except
+(
+socket
+.
+error
+IOError
+)
+:
+                
+self
+.
+logger
+.
+debug
+(
+"
+Socket
+closed
+"
+)
+                
+return
         
 self
 .
