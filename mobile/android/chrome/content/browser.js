@@ -19299,6 +19299,8 @@ HTMLAnchorElement
 "
 )
 {
+try
+{
 let
 uri
 =
@@ -19314,8 +19316,6 @@ element
 )
 )
 ;
-try
-{
 return
 Strings
 .
