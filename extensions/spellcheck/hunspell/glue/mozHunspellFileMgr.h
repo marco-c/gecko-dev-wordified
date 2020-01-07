@@ -189,13 +189,9 @@ public
 *
 *
 aFilename
-may
+must
 be
-the
-native
-filesystem
-path
-or
+a
 local
 file
 /
@@ -203,7 +199,6 @@ jar
 URI
 for
 the
-*
 file
 to
 load

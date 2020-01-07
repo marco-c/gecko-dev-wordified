@@ -577,6 +577,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Encoding
@@ -786,7 +793,7 @@ file
 nsInterfaceHashtable
 <
 nsStringHashKey
-nsIFile
+nsIURI
 >
 mDictionaries
 ;
@@ -817,7 +824,7 @@ mDynamicDirectories
 nsInterfaceHashtable
 <
 nsStringHashKey
-nsIFile
+nsIURI
 >
 mDynamicDictionaries
 ;
