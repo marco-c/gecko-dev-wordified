@@ -1332,7 +1332,7 @@ args
 )
 ;
 }
-_getRootDocShell
+getRootDocShell
 :
 function
 (
@@ -1458,7 +1458,7 @@ docShell
 =
 this
 .
-_getRootDocShell
+getRootDocShell
 (
 aWin
 )
@@ -1528,7 +1528,7 @@ docShell
 =
 this
 .
-_getRootDocShell
+getRootDocShell
 (
 aWin
 )
