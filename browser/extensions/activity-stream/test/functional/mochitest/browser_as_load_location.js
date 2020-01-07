@@ -142,7 +142,6 @@ message
 /
 avoid
 leakage
-await
 BrowserTestUtils
 .
 removeTab

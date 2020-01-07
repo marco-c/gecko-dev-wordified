@@ -327,7 +327,6 @@ net
 "
 )
 {
-await
 BrowserTestUtils
 .
 removeTab
@@ -1167,7 +1166,6 @@ net
 "
 )
 {
-await
 BrowserTestUtils
 .
 removeTab

@@ -125,7 +125,6 @@ passwordsGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -190,7 +189,6 @@ trackingGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

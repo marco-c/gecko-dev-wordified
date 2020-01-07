@@ -815,7 +815,6 @@ aborted
 Close
 tabs
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -823,7 +822,6 @@ removeTab
 tab_create
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1045,7 +1043,6 @@ win
 Close
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -1211,7 +1208,6 @@ window
 Close
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -1377,7 +1373,6 @@ window
 Close
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab

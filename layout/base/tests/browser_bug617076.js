@@ -356,7 +356,6 @@ false
 /
 /
 cleanup
-await
 BrowserTestUtils
 .
 removeTab
@@ -364,7 +363,6 @@ removeTab
 testTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

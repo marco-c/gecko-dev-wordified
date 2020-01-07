@@ -2701,7 +2701,6 @@ collapsed
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -3186,7 +3185,6 @@ popuphidden
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -3714,7 +3712,6 @@ selectPopup
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -5640,7 +5637,6 @@ performLargePopupTests
 window
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -6400,7 +6396,6 @@ performSelectSearchTests
 window
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -6716,7 +6711,6 @@ await
 popupHiddenPromise
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -7045,7 +7039,6 @@ escape
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -7252,7 +7245,6 @@ popup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -1154,7 +1154,6 @@ uninstall
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2393,7 +2392,6 @@ extension
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2882,7 +2880,6 @@ add
 -
 on
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -3665,7 +3662,6 @@ unload
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -3819,7 +3815,6 @@ hidden
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -5050,7 +5045,6 @@ unload
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -6353,7 +6347,6 @@ unload
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

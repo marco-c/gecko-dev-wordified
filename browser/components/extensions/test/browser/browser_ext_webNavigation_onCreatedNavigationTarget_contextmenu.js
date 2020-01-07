@@ -603,7 +603,6 @@ menu
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -982,7 +981,6 @@ subframe
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

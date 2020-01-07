@@ -266,7 +266,6 @@ keywords
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -213,7 +213,6 @@ click
 taskFn
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

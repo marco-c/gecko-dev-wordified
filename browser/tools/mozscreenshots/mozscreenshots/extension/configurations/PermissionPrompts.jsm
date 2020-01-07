@@ -791,7 +791,6 @@ lastTab
 return
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab

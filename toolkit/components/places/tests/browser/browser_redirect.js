@@ -484,7 +484,6 @@ redirectTargetFrecency
 0
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -677,7 +676,6 @@ redirectTargetFrecency
 0
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -863,7 +861,6 @@ redirectTargetFrecency
 0
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

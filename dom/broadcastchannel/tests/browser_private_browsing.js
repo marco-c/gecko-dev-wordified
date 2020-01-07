@@ -566,7 +566,6 @@ window
 '
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -582,7 +581,6 @@ closeWindow
 win1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

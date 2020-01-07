@@ -961,7 +961,6 @@ up
 the
 listener
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -1405,7 +1404,6 @@ up
 the
 listener
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -1894,7 +1892,6 @@ popPrefEnv
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2453,7 +2450,6 @@ remove
 the
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -3156,7 +3152,6 @@ remove
 the
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -3499,7 +3494,6 @@ remove
 the
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab

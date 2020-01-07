@@ -223,7 +223,6 @@ userTypedValue
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -407,7 +406,6 @@ userTypedValue
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -618,7 +616,6 @@ null
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -688,7 +688,6 @@ a
 closed
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab

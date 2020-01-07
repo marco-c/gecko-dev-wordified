@@ -315,7 +315,6 @@ closeWindow
 newWin
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

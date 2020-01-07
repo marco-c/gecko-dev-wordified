@@ -203,7 +203,6 @@ tab
 linkedBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

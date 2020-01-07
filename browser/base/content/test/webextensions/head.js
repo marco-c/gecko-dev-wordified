@@ -2426,7 +2426,6 @@ uninstall
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -3240,7 +3239,6 @@ upgraded
 await
 checkPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab

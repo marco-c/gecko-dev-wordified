@@ -555,7 +555,6 @@ menu
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -241,7 +241,6 @@ image
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -443,7 +442,6 @@ image
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -451,7 +449,6 @@ removeTab
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

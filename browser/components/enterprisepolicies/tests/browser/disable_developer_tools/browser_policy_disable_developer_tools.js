@@ -312,7 +312,6 @@ hidden
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -407,7 +406,6 @@ page
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

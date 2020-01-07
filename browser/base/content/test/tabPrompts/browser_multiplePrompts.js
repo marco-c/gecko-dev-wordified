@@ -536,7 +536,6 @@ dismissed
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

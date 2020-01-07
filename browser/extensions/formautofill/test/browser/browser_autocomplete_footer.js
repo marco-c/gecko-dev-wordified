@@ -313,7 +313,6 @@ privacy
 removed
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -500,7 +499,6 @@ privacy
 removed
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

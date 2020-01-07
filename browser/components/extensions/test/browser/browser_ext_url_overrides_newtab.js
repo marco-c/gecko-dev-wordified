@@ -622,7 +622,6 @@ hidePopup
 await
 popupHidden
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1047,7 +1046,6 @@ another
 new
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -1131,7 +1129,6 @@ doorhanger
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1583,7 +1580,6 @@ another
 new
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -1648,7 +1644,6 @@ changes
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1776,7 +1771,6 @@ changes
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2305,7 +2299,6 @@ s
 no
 doorhanger
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -2448,7 +2441,6 @@ userDisabled
 =
 false
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -3333,7 +3325,6 @@ s
 no
 doorhanger
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -3386,7 +3377,6 @@ changes
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -3775,7 +3765,6 @@ loaded
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

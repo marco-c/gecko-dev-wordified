@@ -252,7 +252,6 @@ principal
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

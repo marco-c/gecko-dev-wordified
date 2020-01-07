@@ -626,7 +626,6 @@ closeContextMenu
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

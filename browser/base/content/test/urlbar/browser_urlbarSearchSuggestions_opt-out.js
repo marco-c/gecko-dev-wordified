@@ -883,7 +883,6 @@ closed
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

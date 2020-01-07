@@ -688,7 +688,6 @@ notification
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

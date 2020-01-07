@@ -393,7 +393,6 @@ should
 become
 visible
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -547,7 +546,6 @@ should
 be
 opened
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -578,7 +576,6 @@ clickButtonAndExpectNewPortalTab
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

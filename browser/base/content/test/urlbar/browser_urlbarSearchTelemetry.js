@@ -368,7 +368,6 @@ click
 await
 loadPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -492,7 +491,6 @@ return
 await
 loadPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -602,7 +600,6 @@ click
 await
 loadPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -723,7 +720,6 @@ return
 await
 loadPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab

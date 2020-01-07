@@ -1315,7 +1315,6 @@ value
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1661,7 +1660,6 @@ made
 await
 promiseObserveFavicon
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1975,7 +1973,6 @@ Close
 the
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -2182,7 +2179,6 @@ Close
 the
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -2957,7 +2953,6 @@ party
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2967,7 +2962,6 @@ tabInfoA
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2977,7 +2971,6 @@ tabInfoB
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

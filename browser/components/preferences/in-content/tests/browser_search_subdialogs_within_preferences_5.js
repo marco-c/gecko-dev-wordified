@@ -116,7 +116,6 @@ fontsGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -177,7 +176,6 @@ fontsGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -244,7 +242,6 @@ passwordsGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

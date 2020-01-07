@@ -258,7 +258,6 @@ checkPopupHide
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -416,7 +415,6 @@ checkPopupHide
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -208,7 +208,6 @@ tab
 linkedBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -326,7 +325,6 @@ button
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

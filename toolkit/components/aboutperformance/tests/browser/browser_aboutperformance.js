@@ -2503,7 +2503,6 @@ reload
 await
 promiseReloaded
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2570,7 +2569,6 @@ gBrowser
 tabs
 )
 {
-await
 BrowserTestUtils
 .
 removeTab

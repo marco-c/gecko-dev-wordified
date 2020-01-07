@@ -296,7 +296,6 @@ click
 await
 loadPromise
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -447,7 +446,6 @@ keyModifiers
 await
 promiseLoad
 ;
-await
 BrowserTestUtils
 .
 removeTab

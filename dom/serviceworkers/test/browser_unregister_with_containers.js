@@ -629,7 +629,6 @@ not
 /
 controlled
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -637,7 +636,6 @@ removeTab
 containerTab1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -741,7 +739,6 @@ container
 s
 controlled
 tab
-await
 BrowserTestUtils
 .
 removeTab
@@ -831,7 +828,6 @@ container
 s
 controlled
 tab
-await
 BrowserTestUtils
 .
 removeTab
@@ -925,7 +921,6 @@ the
 service
 worker
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -933,7 +928,6 @@ removeTab
 containerTab1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

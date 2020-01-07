@@ -720,7 +720,6 @@ aborted
 Close
 tabs
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -728,7 +727,6 @@ removeTab
 tab_create
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

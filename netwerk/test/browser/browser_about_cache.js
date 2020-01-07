@@ -103,7 +103,6 @@ kTestPage
 true
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -818,7 +817,6 @@ data
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

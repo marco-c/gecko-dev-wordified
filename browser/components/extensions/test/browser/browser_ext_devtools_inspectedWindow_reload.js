@@ -410,7 +410,6 @@ destroy
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

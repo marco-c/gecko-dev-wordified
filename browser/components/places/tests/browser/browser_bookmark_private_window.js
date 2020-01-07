@@ -130,7 +130,6 @@ async
 =
 >
 {
-await
 BrowserTestUtils
 .
 removeTab

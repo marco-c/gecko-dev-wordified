@@ -1031,7 +1031,6 @@ offline
 =
 false
 ;
-await
 BrowserTestUtils
 .
 removeTab

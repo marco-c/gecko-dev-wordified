@@ -2410,7 +2410,6 @@ msg
 Close
 Tabs
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -2420,7 +2419,6 @@ tabInfoA
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

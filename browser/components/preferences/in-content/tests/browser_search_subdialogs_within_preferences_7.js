@@ -129,7 +129,6 @@ certSelection
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -193,7 +192,6 @@ connectionGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -939,7 +939,6 @@ toolbars
 /
 /
 Cleanup
-await
 BrowserTestUtils
 .
 removeTab

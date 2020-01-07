@@ -550,7 +550,6 @@ events
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -970,7 +969,6 @@ events
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

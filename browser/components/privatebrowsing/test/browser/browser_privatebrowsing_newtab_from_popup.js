@@ -499,7 +499,6 @@ private
 /
 Clean
 up
-await
 BrowserTestUtils
 .
 removeTab

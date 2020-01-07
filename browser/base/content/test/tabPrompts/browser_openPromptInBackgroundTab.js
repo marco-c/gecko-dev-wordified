@@ -868,7 +868,6 @@ waitForTick
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

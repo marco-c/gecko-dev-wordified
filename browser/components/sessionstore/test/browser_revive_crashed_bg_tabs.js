@@ -401,7 +401,6 @@ remote
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -409,7 +408,6 @@ removeTab
 newTab1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

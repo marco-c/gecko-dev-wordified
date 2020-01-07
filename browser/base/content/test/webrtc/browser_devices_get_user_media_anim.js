@@ -438,7 +438,6 @@ selecting
 the
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab

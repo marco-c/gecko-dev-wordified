@@ -387,7 +387,6 @@ popupshown
 popupListener
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -816,7 +816,6 @@ tab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

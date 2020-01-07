@@ -224,7 +224,6 @@ load
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -232,7 +231,6 @@ removeTab
 tab1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -240,7 +238,6 @@ removeTab
 tab2
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -405,7 +402,6 @@ unpinFromURLBar
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -413,7 +409,6 @@ removeTab
 tab1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -421,7 +416,6 @@ removeTab
 tab2
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

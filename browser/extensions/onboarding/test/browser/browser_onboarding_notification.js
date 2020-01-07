@@ -197,7 +197,6 @@ chances
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -431,7 +430,6 @@ page
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

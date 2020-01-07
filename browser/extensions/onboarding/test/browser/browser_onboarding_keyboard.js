@@ -1109,7 +1109,6 @@ expected
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -1300,7 +1299,6 @@ expected
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -1536,7 +1534,6 @@ button
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

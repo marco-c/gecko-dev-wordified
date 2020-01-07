@@ -106,7 +106,6 @@ usercontextid
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -165,7 +164,6 @@ usercontextid
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -226,7 +224,6 @@ usercontextid
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -287,7 +284,6 @@ usercontextid
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -295,7 +291,6 @@ removeTab
 relatedTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

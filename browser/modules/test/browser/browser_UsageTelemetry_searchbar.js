@@ -1072,7 +1072,6 @@ FX_SEARCHBAR_SELECTED_RESULT_METHOD
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1465,7 +1464,6 @@ FX_SEARCHBAR_SELECTED_RESULT_METHOD
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1804,7 +1802,6 @@ removeEngine
 suggestionEngine
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1986,7 +1983,6 @@ FX_SEARCHBAR_SELECTED_RESULT_METHOD
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2472,7 +2468,6 @@ removeEngine
 suggestionEngine
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2788,7 +2783,6 @@ removeEngine
 suggestionEngine
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

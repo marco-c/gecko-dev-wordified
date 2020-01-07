@@ -596,7 +596,6 @@ jshint
 ignore
 :
 line
-await
 BrowserTestUtils
 .
 removeTab
@@ -809,7 +808,6 @@ jshint
 ignore
 :
 line
-await
 BrowserTestUtils
 .
 removeTab

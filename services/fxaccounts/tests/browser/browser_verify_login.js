@@ -205,7 +205,6 @@ data
 url
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

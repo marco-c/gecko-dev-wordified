@@ -131,7 +131,6 @@ permissionsGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -195,7 +194,6 @@ certSelection
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -588,7 +588,6 @@ where
 ;
 }
 }
-await
 BrowserTestUtils
 .
 removeTab

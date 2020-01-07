@@ -503,7 +503,6 @@ close
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

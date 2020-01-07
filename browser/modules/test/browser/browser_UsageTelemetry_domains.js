@@ -571,7 +571,6 @@ totalUnfilteredURIs
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1198,7 +1197,6 @@ totalUnfilteredURIs
 Clean
 up
 .
-await
 BrowserTestUtils
 .
 removeTab

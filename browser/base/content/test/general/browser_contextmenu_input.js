@@ -1848,7 +1848,6 @@ test_cleanup
 (
 )
 {
-await
 BrowserTestUtils
 .
 removeTab

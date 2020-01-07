@@ -251,7 +251,6 @@ tour
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -446,7 +445,6 @@ tour
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -672,7 +670,6 @@ btn
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

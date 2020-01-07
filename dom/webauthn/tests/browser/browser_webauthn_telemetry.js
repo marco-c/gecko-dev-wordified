@@ -1166,7 +1166,6 @@ WEBAUTHN_GET_ASSERTION_MS
 1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

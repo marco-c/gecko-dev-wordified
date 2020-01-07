@@ -733,7 +733,6 @@ shouldn
 t
 change
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -790,7 +789,6 @@ of
 openedTabs
 )
 {
-await
 BrowserTestUtils
 .
 removeTab
@@ -1054,7 +1052,6 @@ Remove
 a
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -1204,7 +1201,6 @@ of
 openedTabs
 )
 {
-await
 BrowserTestUtils
 .
 removeTab
@@ -2086,7 +2082,6 @@ of
 openedTabs
 )
 {
-await
 BrowserTestUtils
 .
 removeTab

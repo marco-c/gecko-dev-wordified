@@ -104,7 +104,6 @@ browser
 contentWindow
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

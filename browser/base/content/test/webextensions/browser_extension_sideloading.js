@@ -1084,7 +1084,6 @@ disabled
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1953,7 +1952,6 @@ uninstall
 )
 ;
 }
-await
 BrowserTestUtils
 .
 removeTab

@@ -125,7 +125,6 @@ trackingGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -194,7 +193,6 @@ permissionsGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

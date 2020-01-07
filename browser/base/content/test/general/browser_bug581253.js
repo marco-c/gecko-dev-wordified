@@ -89,7 +89,6 @@ eraseEverything
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

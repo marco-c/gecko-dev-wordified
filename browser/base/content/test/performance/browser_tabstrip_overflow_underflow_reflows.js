@@ -481,7 +481,6 @@ TabSwitchDone
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -726,7 +725,6 @@ should
 underflow
 it
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -890,7 +888,6 @@ TabSwitchDone
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -809,7 +809,6 @@ back
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1200,7 +1199,6 @@ back
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1344,7 +1342,6 @@ hidden
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1972,7 +1969,6 @@ URL
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2191,7 +2187,6 @@ displayed
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2282,7 +2277,6 @@ visible
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2364,7 +2358,6 @@ visible
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2926,7 +2919,6 @@ chain
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -3519,7 +3511,6 @@ chain
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -3679,7 +3670,6 @@ URL
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

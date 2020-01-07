@@ -310,7 +310,6 @@ window
 gInPrintPreviewMode
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

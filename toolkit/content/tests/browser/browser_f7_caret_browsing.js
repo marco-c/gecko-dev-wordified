@@ -1191,7 +1191,6 @@ kPrefCaretBrowsingOn
 false
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1468,7 +1467,6 @@ kPrefCaretBrowsingOn
 false
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1747,7 +1745,6 @@ kPrefCaretBrowsingOn
 false
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

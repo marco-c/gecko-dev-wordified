@@ -1194,7 +1194,6 @@ selectedTab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1202,7 +1201,6 @@ removeTab
 testTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

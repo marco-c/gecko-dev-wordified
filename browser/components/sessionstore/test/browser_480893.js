@@ -337,7 +337,6 @@ homepage
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

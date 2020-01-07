@@ -369,7 +369,6 @@ state
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -613,7 +612,6 @@ Date
 )
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

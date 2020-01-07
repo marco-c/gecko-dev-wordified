@@ -825,7 +825,6 @@ MozSearch
 ]
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

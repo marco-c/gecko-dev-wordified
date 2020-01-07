@@ -674,7 +674,6 @@ value
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -933,7 +932,6 @@ value
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -286,7 +286,6 @@ spec
 DEVICES_URL
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

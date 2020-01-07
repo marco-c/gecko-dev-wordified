@@ -278,7 +278,6 @@ blank
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -286,7 +285,6 @@ removeTab
 newTab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

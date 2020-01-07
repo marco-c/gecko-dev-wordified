@@ -114,7 +114,6 @@ homepageGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -175,7 +174,6 @@ languagesGroup
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -584,7 +584,6 @@ process
 .
 "
 )
-await
 BrowserTestUtils
 .
 removeTab
@@ -592,7 +591,6 @@ removeTab
 tab1
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -863,7 +861,6 @@ tabs
 and
 preloaded
 browsers
-await
 BrowserTestUtils
 .
 removeTab

@@ -1294,7 +1294,6 @@ hidden
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1936,7 +1935,6 @@ extension
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1947,7 +1945,6 @@ tabs
 ]
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

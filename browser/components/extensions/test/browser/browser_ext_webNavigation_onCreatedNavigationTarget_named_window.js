@@ -621,7 +621,6 @@ assertNoPendingCreatedNavigationTargetData
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

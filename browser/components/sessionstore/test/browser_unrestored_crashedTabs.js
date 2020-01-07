@@ -513,7 +513,6 @@ originalTab
 Clean
 up
 .
-await
 BrowserTestUtils
 .
 removeTab

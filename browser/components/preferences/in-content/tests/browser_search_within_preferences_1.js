@@ -90,7 +90,6 @@ shown
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -472,7 +471,6 @@ selected
 ;
 }
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -1069,7 +1067,6 @@ tab
 ;
 }
 }
-await
 BrowserTestUtils
 .
 removeTab
@@ -1315,7 +1312,6 @@ results
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1553,7 +1549,6 @@ generalPane
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1871,7 +1866,6 @@ generalPane
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2139,7 +2133,6 @@ selected
 ;
 }
 }
-await
 BrowserTestUtils
 .
 removeTab

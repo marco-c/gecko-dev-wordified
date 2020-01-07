@@ -171,7 +171,6 @@ tab
 /
 Cleanup
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -346,7 +345,6 @@ tab
 /
 Cleanup
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -354,7 +352,6 @@ removeTab
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

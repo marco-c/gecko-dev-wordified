@@ -302,7 +302,6 @@ resolve
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -417,7 +416,6 @@ allowed
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -532,7 +530,6 @@ denied
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -666,7 +663,6 @@ storage
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1038,7 +1034,6 @@ popPrefEnv
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1520,7 +1515,6 @@ popPrefEnv
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2014,7 +2008,6 @@ popPrefEnv
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2200,7 +2193,6 @@ resolve
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

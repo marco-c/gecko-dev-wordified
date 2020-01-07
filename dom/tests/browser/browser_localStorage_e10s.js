@@ -493,7 +493,6 @@ values
 )
 )
 {
-await
 BrowserTestUtils
 .
 removeTab

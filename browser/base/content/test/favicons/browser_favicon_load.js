@@ -874,7 +874,6 @@ Close
 the
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab

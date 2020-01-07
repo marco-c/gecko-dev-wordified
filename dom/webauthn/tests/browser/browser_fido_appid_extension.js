@@ -1050,7 +1050,6 @@ sent
 Close
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab

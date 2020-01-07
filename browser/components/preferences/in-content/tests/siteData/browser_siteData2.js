@@ -716,7 +716,6 @@ unregister
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1419,7 +1418,6 @@ unregister
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1936,7 +1934,6 @@ unregister
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2272,7 +2269,6 @@ unregister
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -872,7 +872,6 @@ newtab
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

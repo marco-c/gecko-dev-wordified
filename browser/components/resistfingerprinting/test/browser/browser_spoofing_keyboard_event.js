@@ -7696,7 +7696,6 @@ eventConsumer
 true
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -8097,7 +8096,6 @@ eventConsumer
 true
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

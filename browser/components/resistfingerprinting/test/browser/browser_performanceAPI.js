@@ -1165,7 +1165,6 @@ false
 runTests
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1905,7 +1904,6 @@ true
 runTests
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2332,7 +2330,6 @@ runRPTests
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2409,7 +2406,6 @@ runRTPTests
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

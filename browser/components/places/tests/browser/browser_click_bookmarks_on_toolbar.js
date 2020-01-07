@@ -244,7 +244,6 @@ foreground
 )
 ;
 }
-return
 BrowserTestUtils
 .
 removeTab
@@ -924,7 +923,6 @@ hidePopup
 await
 promise
 ;
-await
 BrowserTestUtils
 .
 removeTab

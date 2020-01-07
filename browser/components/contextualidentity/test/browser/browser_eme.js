@@ -1252,7 +1252,6 @@ default
 container
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -1269,7 +1268,6 @@ personal
 container
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab

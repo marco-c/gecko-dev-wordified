@@ -17,7 +17,6 @@ length
 1
 )
 {
-await
 BrowserTestUtils
 .
 removeTab
@@ -1312,7 +1311,6 @@ of
 openedTabs
 )
 {
-await
 BrowserTestUtils
 .
 removeTab

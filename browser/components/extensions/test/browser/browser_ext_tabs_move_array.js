@@ -876,7 +876,6 @@ of
 tabs
 )
 {
-await
 BrowserTestUtils
 .
 removeTab

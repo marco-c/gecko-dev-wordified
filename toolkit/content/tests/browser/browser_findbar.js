@@ -1270,7 +1270,6 @@ empty
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1536,7 +1535,6 @@ query
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

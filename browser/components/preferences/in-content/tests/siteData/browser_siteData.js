@@ -131,7 +131,6 @@ gBrowser
 TEST_OFFLINE_URL
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -181,7 +180,6 @@ null
 true
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -398,7 +396,6 @@ removeAll
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -828,7 +825,6 @@ size
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1082,7 +1078,6 @@ removeAll
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2307,7 +2302,6 @@ cookies
 }
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

@@ -676,7 +676,6 @@ logo
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -790,7 +789,6 @@ ensure_opentabs_match_db
 (
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

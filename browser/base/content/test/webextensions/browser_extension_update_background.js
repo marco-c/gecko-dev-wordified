@@ -966,7 +966,6 @@ version
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1313,7 +1312,6 @@ version
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

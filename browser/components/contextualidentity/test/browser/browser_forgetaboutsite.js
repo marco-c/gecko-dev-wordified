@@ -885,7 +885,6 @@ Close
 this
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -1532,7 +1531,6 @@ html
 userContextId
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -1686,7 +1684,6 @@ html
 userContextId
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -2089,7 +2086,6 @@ Close
 this
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab
@@ -2410,7 +2406,6 @@ Close
 the
 tab
 .
-await
 BrowserTestUtils
 .
 removeTab

@@ -3992,7 +3992,6 @@ in
 its
 place
 .
-await
 BrowserTestUtils
 .
 removeTab

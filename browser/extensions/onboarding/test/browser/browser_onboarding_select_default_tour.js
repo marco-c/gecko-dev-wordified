@@ -279,7 +279,6 @@ shown
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -485,7 +484,6 @@ shown
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -721,7 +719,6 @@ shown
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab

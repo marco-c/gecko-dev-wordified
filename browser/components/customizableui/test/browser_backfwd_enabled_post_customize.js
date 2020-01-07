@@ -370,7 +370,6 @@ mode
 "
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
