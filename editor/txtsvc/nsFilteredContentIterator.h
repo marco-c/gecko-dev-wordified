@@ -389,10 +389,10 @@ eDirectionType
 nsresult
 AdvanceNode
 (
-nsIDOMNode
+nsINode
 *
 aNode
-nsIDOMNode
+nsINode
 *
 &
 aNewNode
@@ -403,7 +403,7 @@ aDir
 void
 CheckAdvNode
 (
-nsIDOMNode
+nsINode
 *
 aNode
 bool
