@@ -1360,6 +1360,7 @@ getPaymentFrame
 win
 )
 ;
+await
 ContentTask
 .
 spawn
