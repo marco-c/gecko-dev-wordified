@@ -951,6 +951,7 @@ name
 CounterStyle
 (
 CustomIdent
+SourceLocation
 )
 /
 /
@@ -2861,6 +2862,7 @@ AtRuleBlockPrelude
 CounterStyle
 (
 name
+location
 )
 )
 )
@@ -3426,6 +3428,7 @@ AtRuleBlockPrelude
 CounterStyle
 (
 name
+location
 )
 =
 >
@@ -3477,6 +3480,7 @@ self
 .
 error_context
 input
+location
 )
 ?
 .
