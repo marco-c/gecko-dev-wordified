@@ -3885,6 +3885,15 @@ public
 void
 addTab
 (
+int
+flags
+)
+{
+}
+public
+void
+addTab
+(
 )
 {
 }
