@@ -840,7 +840,7 @@ env
 getenv
 (
 "
-MOZ_ENABLE_NURSERY_STRINGS
+MOZ_NURSERY_STRINGS
 "
 )
 ;
@@ -854,7 +854,15 @@ env
 )
 canAllocateStrings_
 =
-true
+(
+*
+env
+=
+=
+'
+1
+'
+)
 ;
 }
 bool
