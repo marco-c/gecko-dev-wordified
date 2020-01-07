@@ -362,6 +362,12 @@ TYPE_INTERNAL_IMAGE_FAVICON
 /
 /
 TYPE_INTERNAL_WORKERS_IMPORT_SCRIPTS
+"
+saveas_download
+"
+"
+speculative
+"
 }
 ;
 #

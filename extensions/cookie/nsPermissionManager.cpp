@@ -918,6 +918,9 @@ image
 "
 manifest
 "
+"
+speculative
+"
 /
 /
 This

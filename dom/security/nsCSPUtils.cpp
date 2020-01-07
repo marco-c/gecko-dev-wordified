@@ -1465,6 +1465,12 @@ nsIContentPolicy
 :
 TYPE_OTHER
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_SPECULATIVE
+:
 return
 nsIContentSecurityPolicy
 :

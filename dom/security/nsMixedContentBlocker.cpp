@@ -3922,6 +3922,9 @@ TYPE_XSLT
 case
 TYPE_OTHER
 :
+case
+TYPE_SPECULATIVE
+:
 break
 ;
 /
