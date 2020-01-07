@@ -516,6 +516,9 @@ spectreStringMitigations
 bool
 spectreValueMasking
 ;
+bool
+spectreJitToCxxCalls
+;
 /
 /
 The

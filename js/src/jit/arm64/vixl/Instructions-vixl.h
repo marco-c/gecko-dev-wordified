@@ -2031,6 +2031,12 @@ IsNOP
 const
 ;
 bool
+IsCSDB
+(
+)
+const
+;
+bool
 IsADR
 (
 )

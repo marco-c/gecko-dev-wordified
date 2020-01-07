@@ -17131,6 +17131,11 @@ NOP
 :
 break
 ;
+case
+CSDB
+:
+break
+;
 default
 :
 VIXL_UNIMPLEMENTED

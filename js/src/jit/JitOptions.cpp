@@ -1589,6 +1589,12 @@ spectreValueMasking
 true
 )
 ;
+SET_DEFAULT
+(
+spectreJitToCxxCalls
+true
+)
+;
 /
 /
 Toggles

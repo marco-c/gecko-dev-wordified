@@ -9832,6 +9832,15 @@ as_isb_trap
 ;
 /
 /
+Speculation
+barrier
+BufferOffset
+as_csdb
+(
+)
+;
+/
+/
 Control
 flow
 stuff
