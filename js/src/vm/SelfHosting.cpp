@@ -216,7 +216,7 @@ builtin
 /
 intl
 /
-IntlObject
+Intl
 .
 h
 "
@@ -258,7 +258,7 @@ include
 "
 builtin
 /
-MapObject
+Map
 .
 h
 "
@@ -357,7 +357,7 @@ include
 "
 builtin
 /
-WeakMapObject
+WeakMap
 .
 h
 "

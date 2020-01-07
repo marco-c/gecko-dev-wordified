@@ -131,7 +131,7 @@ builtin
 /
 intl
 /
-IntlObject
+Intl
 .
 h
 "

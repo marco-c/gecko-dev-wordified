@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-builtin_intl_IntlObject_h
+builtin_intl_Intl_h
 #
 define
-builtin_intl_IntlObject_h
+builtin_intl_Intl_h
 #
 include
 "
@@ -817,6 +817,6 @@ js
 endif
 /
 *
-builtin_intl_IntlObject_h
+builtin_intl_Intl_h
 *
 /

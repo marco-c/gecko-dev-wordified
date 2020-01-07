@@ -110,16 +110,16 @@ MPL
 /
 #
 ifndef
-builtin_WeakMapObject_inl_h
+builtin_WeakMap_inl_h
 #
 define
-builtin_WeakMapObject_inl_h
+builtin_WeakMap_inl_h
 #
 include
 "
 builtin
 /
-WeakMapObject
+WeakMap
 .
 h
 "
@@ -507,6 +507,6 @@ js
 endif
 /
 *
-builtin_WeakMapObject_inl_h
+builtin_WeakMap_inl_h
 *
 /

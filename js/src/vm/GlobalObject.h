@@ -4897,7 +4897,7 @@ Implemented
 in
 builtin
 /
-MapObject
+Map
 .
 cpp
 .
@@ -4939,7 +4939,7 @@ builtin
 /
 intl
 /
-IntlObject
+Intl
 .
 cpp
 .
