@@ -58387,7 +58387,7 @@ true
 ;
 /
 /
-Enable
+Disable
 tab
 hiding
 API
@@ -58405,7 +58405,7 @@ tabhide
 .
 enabled
 "
-true
+false
 )
 ;
 pref
