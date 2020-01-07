@@ -210,13 +210,6 @@ h
 #
 include
 "
-nsIDOMXULTextboxElement
-.
-h
-"
-#
-include
-"
 nsIEditor
 .
 h
