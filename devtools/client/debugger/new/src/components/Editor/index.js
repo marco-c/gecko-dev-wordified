@@ -3634,13 +3634,6 @@ getSymbols
 (
 state
 selectedSource
-&
-&
-selectedSource
-.
-toJS
-(
-)
 )
 }
 ;

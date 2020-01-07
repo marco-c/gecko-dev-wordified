@@ -27552,12 +27552,6 @@ altKey
 )
 ;
 }
-e
-.
-stopPropagation
-(
-)
-;
 }
 }
 )
@@ -27688,7 +27682,7 @@ return
 }
 const
 {
-explicitOriginalTarget
+relatedTarget
 }
 =
 nativeEvent
@@ -27734,7 +27728,7 @@ elements
 .
 if
 (
-explicitOriginalTarget
+relatedTarget
 !
 =
 =
@@ -27750,7 +27744,7 @@ treeRef
 .
 contains
 (
-explicitOriginalTarget
+relatedTarget
 )
 )
 {

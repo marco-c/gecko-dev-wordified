@@ -605,7 +605,7 @@ this
 .
 renderDropdownSource
 =
-source
+sourceRecord
 =
 >
 {
@@ -628,11 +628,7 @@ _source
 getFilename
 )
 (
-source
-.
-toJS
-(
-)
+sourceRecord
 )
 ;
 const
@@ -644,7 +640,7 @@ onClick
 >
 selectSpecificSource
 (
-source
+sourceRecord
 .
 id
 )
@@ -662,7 +658,7 @@ li
 {
 key
 :
-source
+sourceRecord
 .
 id
 onClick
@@ -689,7 +685,7 @@ this
 .
 getIconClass
 (
-source
+sourceRecord
 )
 }
 }
@@ -865,7 +861,7 @@ dropdownShown
 }
 getIconClass
 (
-source
+sourceRecord
 )
 {
 if
@@ -877,7 +873,7 @@ _source
 isPretty
 )
 (
-source
+sourceRecord
 )
 )
 {
@@ -889,7 +885,7 @@ prettyPrint
 }
 if
 (
-source
+sourceRecord
 .
 isBlackBoxed
 )
