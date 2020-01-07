@@ -843,7 +843,7 @@ PROXY
 message
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Missing
 Proxy
@@ -910,7 +910,7 @@ SOCKS
 message
 :
 "
-FindProxyForURL
+ProxyInfoData
 :
 Unrecognized
 proxy
