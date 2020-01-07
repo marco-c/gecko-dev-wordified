@@ -257,10 +257,6 @@ mSharedMemory
 .
 Create
 (
-"
-"
-false
-false
 aNbytes
 )
 ;
