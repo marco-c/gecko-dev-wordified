@@ -1240,12 +1240,6 @@ const
 wchar_t
 *
 aArguments
-base
-:
-:
-EnvironmentMap
-&
-aEnvironment
 GeckoProcessType
 aProcessType
 const
@@ -1916,7 +1910,6 @@ SpawnTarget
 (
 aPath
 aArguments
-aEnvironment
 mPolicy
 &
 last_warning
