@@ -5619,7 +5619,7 @@ onEndUpdateBatch
 )
 {
 }
-onVisit
+onVisits
 (
 )
 {
