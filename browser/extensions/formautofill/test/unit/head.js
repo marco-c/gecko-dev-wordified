@@ -1170,6 +1170,16 @@ form
 verifySectionFieldDetails
 (
 sections
+.
+map
+(
+section
+=
+>
+section
+.
+fieldDetails
+)
 testPattern
 .
 expectedResult
