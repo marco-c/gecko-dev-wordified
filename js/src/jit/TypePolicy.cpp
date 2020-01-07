@@ -3221,7 +3221,7 @@ ins
 )
 ;
 return
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
@@ -3697,7 +3697,7 @@ unsigned
 Op
 >
 bool
-IntPolicy
+UnboxedInt32Policy
 <
 Op
 >
@@ -3805,7 +3805,7 @@ replace
 }
 template
 bool
-IntPolicy
+UnboxedInt32Policy
 <
 0
 >
@@ -3823,7 +3823,7 @@ def
 ;
 template
 bool
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
@@ -3841,7 +3841,7 @@ def
 ;
 template
 bool
-IntPolicy
+UnboxedInt32Policy
 <
 2
 >
@@ -3859,7 +3859,7 @@ def
 ;
 template
 bool
-IntPolicy
+UnboxedInt32Policy
 <
 3
 >
@@ -9381,7 +9381,7 @@ FloatingPointPolicy
 \
 _
 (
-IntPolicy
+UnboxedInt32Policy
 <
 0
 >
@@ -9389,7 +9389,7 @@ IntPolicy
 \
 _
 (
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
@@ -9460,7 +9460,7 @@ ObjectPolicy
 <
 0
 >
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
@@ -9479,11 +9479,11 @@ ObjectPolicy
 <
 0
 >
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
-IntPolicy
+UnboxedInt32Policy
 <
 2
 >
@@ -9498,7 +9498,7 @@ ObjectPolicy
 <
 0
 >
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
@@ -9540,7 +9540,7 @@ ObjectPolicy
 <
 1
 >
-IntPolicy
+UnboxedInt32Policy
 <
 2
 >
@@ -9574,11 +9574,11 @@ StringPolicy
 <
 0
 >
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
-IntPolicy
+UnboxedInt32Policy
 <
 2
 >
@@ -9635,7 +9635,7 @@ StringPolicy
 <
 1
 >
-IntPolicy
+UnboxedInt32Policy
 <
 2
 >
@@ -9650,15 +9650,15 @@ ObjectPolicy
 <
 0
 >
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
-IntPolicy
+UnboxedInt32Policy
 <
 2
 >
-IntPolicy
+UnboxedInt32Policy
 <
 3
 >
@@ -9673,7 +9673,7 @@ ObjectPolicy
 <
 0
 >
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
@@ -9817,11 +9817,11 @@ _
 (
 MixPolicy
 <
-IntPolicy
+UnboxedInt32Policy
 <
 0
 >
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
@@ -9900,7 +9900,7 @@ ObjectPolicy
 <
 0
 >
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
@@ -9915,7 +9915,7 @@ ObjectPolicy
 <
 0
 >
-IntPolicy
+UnboxedInt32Policy
 <
 2
 >
@@ -10065,7 +10065,7 @@ StringPolicy
 <
 0
 >
-IntPolicy
+UnboxedInt32Policy
 <
 1
 >
