@@ -14804,7 +14804,6 @@ isForeign
 cookieString
 serverTime
 aFromHttp
-false
 attrs
 aChannel
 )
@@ -14833,8 +14832,6 @@ nsCString
 aServerTime
 bool
 aFromHttp
-bool
-aFromChild
 const
 OriginAttributes
 &
@@ -15206,7 +15203,6 @@ cookieStatus
 aCookieHeader
 serverTime
 aFromHttp
-aFromChild
 aChannel
 )
 )
@@ -15734,8 +15730,6 @@ bool
 aOldCookieIsSession
 bool
 aFromHttp
-bool
-aFromChild
 )
 {
 const
@@ -15815,31 +15809,6 @@ topic
 aData
 )
 ;
-if
-(
-!
-aFromChild
-)
-{
-os
--
->
-NotifyObservers
-(
-aSubject
-"
-non
--
-js
--
-cookie
--
-changed
-"
-aData
-)
-;
-}
 /
 /
 Notify
@@ -24313,8 +24282,6 @@ int64_t
 aServerTime
 bool
 aFromHttp
-bool
-aFromChild
 nsIChannel
 *
 aChannel
@@ -24620,7 +24587,6 @@ get
 (
 )
 aFromHttp
-aFromChild
 )
 ;
 return
@@ -24726,8 +24692,6 @@ char
 aCookieHeader
 bool
 aFromHttp
-bool
-aFromChild
 )
 {
 MOZ_ASSERT
@@ -25736,7 +25700,6 @@ deleted
 "
 oldCookieIsSession
 aFromHttp
-aFromChild
 )
 ;
 return
@@ -26314,7 +26277,6 @@ added
 "
 oldCookieIsSession
 aFromHttp
-aFromChild
 )
 ;
 }
