@@ -1080,16 +1080,6 @@ uploadEnabled
 false
 )
 ;
-user_pref
-(
-"
-experiments
-.
-enabled
-"
-false
-)
-;
 /
 /
 Likewise
