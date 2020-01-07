@@ -131,10 +131,10 @@ const
 id2
 =
 "
-unsigned
+test
 -
-xpi
-tests
+webext
+quality
 .
 mozilla
 .
