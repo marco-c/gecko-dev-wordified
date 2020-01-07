@@ -200,13 +200,6 @@ h
 #
 include
 "
-nsIDOMHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsLookAndFeel
 .
 h

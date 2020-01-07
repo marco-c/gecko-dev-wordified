@@ -66,13 +66,6 @@ h
 #
 include
 "
-nsIDOMHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

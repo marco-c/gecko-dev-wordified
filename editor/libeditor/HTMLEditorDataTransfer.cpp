@@ -412,13 +412,6 @@ h
 #
 include
 "
-nsIDOMHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h
