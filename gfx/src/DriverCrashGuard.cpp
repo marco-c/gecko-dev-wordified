@@ -157,12 +157,17 @@ nsDirectoryServiceUtils
 h
 "
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsExceptionHandler
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1086,6 +1091,9 @@ mType
 )
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 /
 /
 Remove
@@ -1112,6 +1120,8 @@ NS_LITERAL_CSTRING
 )
 )
 ;
+#
+endif
 }
 bool
 DriverCrashGuard
@@ -1266,6 +1276,9 @@ mGuardActivated
 =
 true
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 /
 /
 Anotate
@@ -1333,6 +1346,8 @@ NS_LITERAL_CSTRING
 )
 ;
 }
+#
+endif
 /
 /
 If

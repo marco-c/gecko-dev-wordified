@@ -924,6 +924,9 @@ ago
 ;
 }
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 switch
 (
 XRE_GetProcessType
@@ -962,6 +965,8 @@ not
 supported
 .
 }
+#
+endif
 #
 ifdef
 DEBUG

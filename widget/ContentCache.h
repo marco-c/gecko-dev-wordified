@@ -2192,6 +2192,9 @@ mPendingLayoutChange
 IMENotification
 mPendingCompositionUpdate
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 /
 /
 Log
@@ -2415,6 +2418,13 @@ RequestIMEToCommitCompositionResult
 >
 mRequestIMEToCommitCompositionResults
 ;
+#
+endif
+/
+/
+#
+ifdef
+MOZ_CRASHREPORTER
 /
 /
 mTabParent
@@ -2823,6 +2833,9 @@ nsIWidget
 aWidget
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 /
 *
 *
@@ -2865,6 +2878,13 @@ aLog
 )
 const
 ;
+#
+endif
+/
+/
+#
+ifdef
+MOZ_CRASHREPORTER
 }
 ;
 }

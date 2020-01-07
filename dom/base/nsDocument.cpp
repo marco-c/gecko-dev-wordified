@@ -44016,6 +44016,9 @@ isEmpty
 return
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 /
 /
 We
@@ -44428,6 +44431,11 @@ AppendAppNotesToCrashReport
 note
 )
 ;
+#
+endif
+/
+/
+MOZ_CRASHREPORTER
 MOZ_CRASH
 (
 "

@@ -249,12 +249,17 @@ stdint
 h
 >
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsExceptionHandler
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -870,6 +875,9 @@ value
 )
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -890,6 +898,8 @@ iter
 )
 )
 ;
+#
+endif
 return
 false
 ;
@@ -910,6 +920,9 @@ value
 )
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -930,6 +943,8 @@ value
 )
 )
 ;
+#
+endif
 return
 false
 ;

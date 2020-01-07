@@ -46,6 +46,9 @@ vector
 #
 endif
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsCOMPtr
@@ -66,6 +69,8 @@ nsServiceManagerUtils
 .
 h
 "
+#
+endif
 /
 /
 gcc
@@ -204,6 +209,9 @@ _gdb_sleep_duration
 ;
 #
 endif
+#
+ifdef
+MOZ_CRASHREPORTER
 nsCOMPtr
 <
 nsICrashReporter
@@ -241,6 +249,8 @@ false
 )
 ;
 }
+#
+endif
 std
 :
 :

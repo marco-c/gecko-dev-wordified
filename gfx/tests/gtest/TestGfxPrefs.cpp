@@ -626,6 +626,9 @@ APZMaxVelocity
 )
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 /
 /
 Randomly
@@ -837,3 +840,5 @@ testBuffer
 )
 ;
 }
+#
+endif

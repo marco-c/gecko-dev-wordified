@@ -119,12 +119,17 @@ Attributes
 h
 "
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsICrashReporter
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -771,6 +776,9 @@ InitUIThread
 ;
 #
 endif
+#
+ifdef
+MOZ_CRASHREPORTER
 nsCOMPtr
 <
 nsICrashReporter
@@ -932,6 +940,8 @@ cwd
 ;
 }
 }
+#
+endif
 return
 RUN_ALL_TESTS
 (

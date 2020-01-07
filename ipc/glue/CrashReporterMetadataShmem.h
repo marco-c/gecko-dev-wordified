@@ -230,6 +230,9 @@ nsCString
 aData
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 static
 void
 ReadAppNotes
@@ -246,6 +249,8 @@ AnnotationTable
 aNotes
 )
 ;
+#
+endif
 private
 :
 void

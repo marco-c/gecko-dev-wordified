@@ -971,6 +971,9 @@ aFile
 GMP
 thread
 .
+#
+ifdef
+MOZ_CRASHREPORTER
 void
 WriteExtraDataForMinidump
 (
@@ -984,6 +987,8 @@ nsString
 aResult
 )
 ;
+#
+endif
 void
 ActorDestroy
 (
@@ -1357,6 +1362,9 @@ gracefully
 bool
 mHoldingSelfRef
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 UniquePtr
 <
 ipc
@@ -1366,6 +1374,8 @@ CrashReporterHost
 >
 mCrashReporter
 ;
+#
+endif
 const
 RefPtr
 <

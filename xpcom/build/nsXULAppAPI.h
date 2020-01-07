@@ -2457,6 +2457,12 @@ char
 aProcessTypeString
 )
 )
+#
+if
+defined
+(
+MOZ_CRASHREPORTER
+)
 /
 /
 Used
@@ -2505,6 +2511,8 @@ char
 aPipe
 )
 )
+#
+endif
 namespace
 mozilla
 {
