@@ -346,9 +346,6 @@ mStride
 (
 0
 )
-mConsumers
-{
-}
 mFormat
 (
 SurfaceFormat
@@ -356,9 +353,6 @@ SurfaceFormat
 :
 UNKNOWN
 )
-mCreatorPid
-{
-}
 {
 }
 bool
