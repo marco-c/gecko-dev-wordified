@@ -797,6 +797,7 @@ TilePaintFlags
 None
 &
 backBufferOnWhite
+nullptr
 )
 ;
 /

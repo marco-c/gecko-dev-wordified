@@ -1195,7 +1195,7 @@ asyncPaint
 OpenMode
 :
 :
-OPEN_READ_ASYNC_WRITE
+OPEN_READ_WRITE_ASYNC
 :
 OpenMode
 :

@@ -3398,7 +3398,7 @@ mOpenMode
 OpenMode
 :
 :
-OPEN_ASYNC_WRITE
+OPEN_ASYNC
 )
 )
 {
