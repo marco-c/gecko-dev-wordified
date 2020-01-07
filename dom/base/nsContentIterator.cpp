@@ -210,6 +210,12 @@ using
 mozilla
 :
 :
+Move
+;
+using
+mozilla
+:
+:
 RawRangeBoundary
 ;
 /
