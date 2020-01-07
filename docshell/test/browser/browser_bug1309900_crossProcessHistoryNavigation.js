@@ -168,7 +168,7 @@ loadURI
 "
 about
 :
-healthreport
+about
 "
 )
 ;
@@ -189,13 +189,13 @@ href
 "
 about
 :
-healthreport
+about
 "
 "
 Check
 about
 :
-healthreport
+about
 loaded
 "
 )
@@ -327,7 +327,7 @@ href
 "
 about
 :
-healthreport
+about
 "
 "
 Check
@@ -339,7 +339,7 @@ back
 to
 about
 :
-healthreport
+about
 "
 )
 ;

@@ -148,9 +148,6 @@ AboutPages
 FIREFOX
 AboutPages
 .
-HEALTHREPORT
-AboutPages
-.
 HOME
 }
 ;
