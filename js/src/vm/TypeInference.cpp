@@ -28900,6 +28900,10 @@ types
 generation
 )
 ;
+/
+/
+Bug
+1454398
 MOZ_RELEASE_ASSERT
 (
 !
@@ -29689,6 +29693,10 @@ generation
 )
 return
 ;
+/
+/
+Bug
+1454398
 MOZ_RELEASE_ASSERT
 (
 !
