@@ -195,6 +195,7 @@ TypedPoint2D
 TypedPoint3D
 TypedVector2D
 TypedVector3D
+TypedSideOffsets2D
 }
 ;
 /
@@ -275,6 +276,16 @@ type
 DeviceIntLength
 =
 Length
+<
+i32
+DevicePixel
+>
+;
+pub
+type
+DeviceIntSideOffsets
+=
+TypedSideOffsets2D
 <
 i32
 DevicePixel
