@@ -176,11 +176,6 @@ SystemAllocPolicy
 >
 LastSeenMap
 ;
-unsigned
-redundantCount
-=
-0
-;
 /
 /
 The
@@ -601,10 +596,6 @@ setRedundant
 (
 )
 ;
-redundantCount
-+
-+
-;
 if
 (
 JitOptions
@@ -690,10 +681,6 @@ bc
 setRedundant
 (
 )
-;
-redundantCount
-+
-+
 ;
 if
 (
