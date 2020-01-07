@@ -469,8 +469,8 @@ It
 ;
 add_task
 (
+async
 function
-*
 test_sessionStoreParentId
 (
 )
@@ -517,7 +517,7 @@ true
 }
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabParent
@@ -566,7 +566,7 @@ true
 }
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -614,7 +614,7 @@ tabChild2
 =
 null
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -673,7 +673,7 @@ id
 }
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -721,7 +721,7 @@ tabChild2
 =
 null
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -764,7 +764,7 @@ selectTab
 tabChild1
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -826,7 +826,7 @@ id
 }
 )
 ;
-yield
+await
 promiseTabEvent
 (
 tabChild2
@@ -844,7 +844,7 @@ closeTab
 tabChild2
 )
 ;
-yield
+await
 promiseTabEvent
 (
 tabChild2
@@ -884,7 +884,7 @@ chromeWin
 closedTabData
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -942,7 +942,7 @@ tabChild2
 =
 null
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp

@@ -51,8 +51,8 @@ js
 ;
 add_task
 (
+async
 function
-*
 testWhilePaused
 (
 )
@@ -67,7 +67,7 @@ toolbox
 gDebugger
 }
 =
-yield
+await
 initWorkerDebugger
 (
 TAB_URL
@@ -125,7 +125,7 @@ working
 let
 jsterm
 =
-yield
+await
 getSplitConsole
 (
 toolbox
@@ -134,7 +134,7 @@ toolbox
 let
 executed
 =
-yield
+await
 jsterm
 .
 execute
@@ -264,7 +264,7 @@ ping
 }
 )
 ;
-yield
+await
 oncePaused
 ;
 let
@@ -327,7 +327,7 @@ command1
 ;
 executed
 =
-yield
+await
 command1
 ;
 ok
@@ -364,7 +364,7 @@ command2
 ;
 executed
 =
-yield
+await
 command2
 ;
 ok
@@ -401,7 +401,7 @@ command3
 ;
 executed
 =
-yield
+await
 command3
 ;
 ok
@@ -457,7 +457,7 @@ gResumeButton
 gDebugger
 )
 ;
-yield
+await
 onceResumed
 ;
 terminateWorkerInTab
@@ -466,13 +466,13 @@ tab
 WORKER_URL
 )
 ;
-yield
+await
 waitForWorkerClose
 (
 workerClient
 )
 ;
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -485,13 +485,13 @@ workerClient
 )
 )
 ;
-yield
+await
 close
 (
 client
 )
 ;
-yield
+await
 removeTab
 (
 tab

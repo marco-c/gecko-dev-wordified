@@ -666,8 +666,8 @@ user
 /
 add_task
 (
+async
 function
-*
 test_formdata
 (
 )
@@ -892,7 +892,7 @@ SSTabCloseProcessed
 )
 ;
 }
-yield
+await
 createAndRemoveTab
 (
 )
@@ -978,7 +978,7 @@ privacy_level
 1
 )
 ;
-yield
+await
 createAndRemoveTab
 (
 )
@@ -1058,7 +1058,7 @@ privacy_level
 2
 )
 ;
-yield
+await
 createAndRemoveTab
 (
 )
@@ -1140,8 +1140,8 @@ correctly
 /
 add_task
 (
+async
 function
-*
 test_formdata2
 (
 )
@@ -1350,7 +1350,7 @@ SSTabCloseProcessed
 )
 ;
 }
-yield
+await
 createAndRemoveTab
 (
 )
@@ -1442,7 +1442,7 @@ gChromeWin
 closedTabData
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 browser
@@ -1563,8 +1563,8 @@ back
 /
 add_task
 (
+async
 function
-*
 test_formdata_navigation
 (
 )
@@ -2092,7 +2092,7 @@ SSTabCloseProcessed
 )
 ;
 }
-yield
+await
 createNavigateAndRemoveTab
 (
 )
@@ -2184,7 +2184,7 @@ gChromeWin
 closedTabData
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 browser

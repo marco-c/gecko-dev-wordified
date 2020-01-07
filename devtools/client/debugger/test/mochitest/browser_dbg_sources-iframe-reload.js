@@ -188,8 +188,8 @@ IFRAME_URL
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -198,7 +198,7 @@ let
 panel
 ]
 =
-yield
+await
 initDebugger
 (
 )
@@ -231,7 +231,7 @@ panel
 TAB_URL
 )
 ;
-yield
+await
 newSource
 ;
 ok
@@ -280,7 +280,7 @@ reload
 panel
 )
 ;
-yield
+await
 newSource
 ;
 ok
@@ -299,7 +299,7 @@ reloads
 )
 ;
 }
-yield
+await
 closeDebuggerAndFinish
 (
 panel

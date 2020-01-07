@@ -108,8 +108,8 @@ js
 ;
 add_task
 (
+async
 function
-*
 testPausedByConsole
 (
 )
@@ -122,7 +122,7 @@ workerClient
 toolbox
 }
 =
-yield
+await
 initWorkerDebugger
 (
 TAB_URL
@@ -147,7 +147,7 @@ console
 let
 jsterm
 =
-yield
+await
 getSplitConsole
 (
 toolbox
@@ -156,7 +156,7 @@ toolbox
 let
 executed
 =
-yield
+await
 jsterm
 .
 execute
@@ -218,7 +218,7 @@ console
 ;
 executed
 =
-yield
+await
 jsterm
 .
 execute
@@ -265,13 +265,13 @@ tab
 WORKER_URL
 )
 ;
-yield
+await
 waitForWorkerClose
 (
 workerClient
 )
 ;
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -284,13 +284,13 @@ workerClient
 )
 )
 ;
-yield
+await
 close
 (
 client
 )
 ;
-yield
+await
 removeTab
 (
 tab

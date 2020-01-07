@@ -539,8 +539,8 @@ expectedAnchorText
 }
 add_task
 (
+async
 function
-*
 testFindInPage
 (
 )
@@ -548,7 +548,7 @@ testFindInPage
 let
 browser
 =
-yield
+await
 openTabWithUrl
 (
 TEST_URL
@@ -561,7 +561,7 @@ browser
 .
 contentDocument
 ;
-yield
+await
 findInPage
 (
 browser
@@ -576,7 +576,7 @@ assertSelection
 document
 )
 ;
-yield
+await
 closeFindInPage
 (
 browser
@@ -587,7 +587,7 @@ assertSelection
 document
 )
 ;
-yield
+await
 findInPage
 (
 browser
@@ -609,7 +609,7 @@ Robocop
 "
 )
 ;
-yield
+await
 closeFindInPage
 (
 browser
@@ -620,7 +620,7 @@ assertSelection
 document
 )
 ;
-yield
+await
 findInPage
 (
 browser
@@ -642,7 +642,7 @@ Robocop
 "
 )
 ;
-yield
+await
 closeFindInPage
 (
 browser

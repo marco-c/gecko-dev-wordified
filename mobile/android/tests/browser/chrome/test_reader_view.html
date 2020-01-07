@@ -255,8 +255,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_reader_view_visibility
 (
 )
@@ -359,7 +359,7 @@ browser
 }
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 browser
@@ -417,7 +417,7 @@ about
 reader
 loads
 .
-yield
+await
 promiseNotification
 (
 "

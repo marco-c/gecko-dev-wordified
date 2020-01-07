@@ -720,8 +720,8 @@ cleanupTabs
 ;
 add_task
 (
+async
 function
-*
 test_sysFontScaleScalesMobilePages
 (
 )
@@ -832,7 +832,7 @@ id
 }
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tab
@@ -880,7 +880,7 @@ tab
 desktopMode
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tab
@@ -984,7 +984,7 @@ tab
 desktopMode
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tab
@@ -1067,7 +1067,7 @@ loadURI
 URL_mobile_2x
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tab
@@ -1124,7 +1124,7 @@ loadURI
 URL_mobile
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tab
@@ -1200,8 +1200,8 @@ cleanupTabs
 ;
 add_task
 (
+async
 function
-*
 test_fontInflationPrecedence
 (
 )
@@ -1315,7 +1315,7 @@ id
 }
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tab
@@ -1390,7 +1390,7 @@ tab
 desktopMode
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tab
@@ -1464,7 +1464,7 @@ tab
 desktopMode
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tab
@@ -1573,7 +1573,7 @@ tab
 desktopMode
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tab
@@ -1768,8 +1768,8 @@ value
 .
 add_task
 (
+async
 function
-*
 test_androidPrefControlsFontInflation
 (
 )
@@ -1891,7 +1891,7 @@ true
 let
 result
 =
-yield
+await
 observer
 .
 promise
@@ -2011,7 +2011,7 @@ false
 let
 result
 =
-yield
+await
 observer
 .
 promise

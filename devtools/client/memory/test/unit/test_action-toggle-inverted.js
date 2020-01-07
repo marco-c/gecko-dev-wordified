@@ -87,8 +87,8 @@ display
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

@@ -90,12 +90,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -109,7 +109,7 @@ html
 "
 )
 ;
-yield
+await
 selectTreeItem
 (
 [
@@ -159,7 +159,7 @@ i
 +
 )
 {
-yield
+await
 addRemove
 (
 test
@@ -169,7 +169,7 @@ i
 )
 ;
 }
-yield
+await
 finishTests
 (
 )

@@ -160,8 +160,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_snackbar_api
 (
 )
@@ -200,7 +200,7 @@ function
 }
 )
 ;
-yield
+await
 EventDispatcher
 .
 instance

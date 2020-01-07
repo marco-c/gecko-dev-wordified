@@ -677,8 +677,8 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -695,7 +695,7 @@ be
 saved
 to
 history
-yield
+await
 sleep
 (
 PENDING_VISIT_WAIT
@@ -716,7 +716,7 @@ gVisitURLs
 [
 ]
 ;
-yield
+await
 promiseLoadEvent
 (
 gBrowser
@@ -739,7 +739,7 @@ html
 "
 )
 ;
-yield
+await
 sleep
 (
 PENDING_VISIT_WAIT_LONG
@@ -842,7 +842,7 @@ gVisitURLs
 [
 ]
 ;
-yield
+await
 promiseLoadEvent
 (
 gBrowser
@@ -881,7 +881,7 @@ html
 "
 )
 ;
-yield
+await
 sleep
 (
 PENDING_VISIT_WAIT
@@ -985,7 +985,7 @@ gVisitURLs
 [
 ]
 ;
-yield
+await
 promiseLoadEvent
 (
 gBrowser
@@ -1024,7 +1024,7 @@ html
 "
 )
 ;
-yield
+await
 sleep
 (
 PENDING_VISIT_WAIT

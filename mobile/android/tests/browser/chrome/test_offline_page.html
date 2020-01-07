@@ -472,8 +472,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 test_offline
 (
 )
@@ -681,7 +681,7 @@ the
 error
 page
 .
-yield
+await
 promiseOffline
 (
 true
@@ -705,7 +705,7 @@ null
 null
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 browser
@@ -816,7 +816,7 @@ load
 the
 page
 again
-yield
+await
 promiseOffline
 (
 false
@@ -875,7 +875,7 @@ click
 (
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 browser

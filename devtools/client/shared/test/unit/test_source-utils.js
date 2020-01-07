@@ -195,8 +195,8 @@ sourceUtils
 parseURL
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -432,8 +432,8 @@ isContentScheme
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -505,8 +505,8 @@ isChromeScheme
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -578,8 +578,8 @@ isWASM
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -646,8 +646,8 @@ isDataScheme
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -765,8 +765,8 @@ getSourceNames
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -833,8 +833,8 @@ sourceUtils
 isScratchpadTheme
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -930,8 +930,8 @@ getSourceNames
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1594,8 +1594,8 @@ file
 name
 add_task
 (
+async
 function
-*
 (
 )
 {

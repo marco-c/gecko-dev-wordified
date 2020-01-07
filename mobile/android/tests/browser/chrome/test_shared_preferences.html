@@ -298,8 +298,8 @@ _observerId
 ;
 add_task
 (
+async
 function
-*
 test_get_set
 (
 )
@@ -529,8 +529,8 @@ number
 ;
 add_task
 (
+async
 function
-*
 test_default
 (
 )
@@ -757,8 +757,8 @@ number
 ;
 add_task
 (
+async
 function
-*
 test_multiple_branches
 (
 )
@@ -898,8 +898,8 @@ value
 ;
 add_task
 (
+async
 function
-*
 test_add_remove_observer
 (
 )
@@ -987,7 +987,7 @@ true
 let
 value1
 =
-yield
+await
 obs1
 .
 promise
@@ -1164,7 +1164,7 @@ false
 let
 value2
 =
-yield
+await
 obs2
 .
 promise
@@ -1251,8 +1251,8 @@ obs2
 ;
 add_task
 (
+async
 function
-*
 test_observer_ignores
 (
 )
@@ -1385,7 +1385,7 @@ value
 let
 value
 =
-yield
+await
 obs
 .
 promise
@@ -1469,8 +1469,8 @@ obs
 ;
 add_task
 (
+async
 function
-*
 test_observer_ignores_branches
 (
 )
@@ -1625,7 +1625,7 @@ value
 let
 value
 =
-yield
+await
 obs
 .
 promise
@@ -1709,8 +1709,8 @@ obs
 ;
 add_task
 (
+async
 function
-*
 test_scopes
 (
 )

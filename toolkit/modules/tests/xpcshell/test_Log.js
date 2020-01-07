@@ -5530,8 +5530,8 @@ rewriting
 /
 add_task
 (
+async
 function
-*
 format_errors
 (
 )
@@ -5644,7 +5644,7 @@ formatted
 .
 try
 {
-yield
+await
 Promise
 .
 resolve

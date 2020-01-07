@@ -58,8 +58,8 @@ draw
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {

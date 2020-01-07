@@ -234,15 +234,15 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 firefoxExists
 =
-yield
+await
 Accounts
 .
 firefoxAccountsExist
@@ -269,7 +269,7 @@ n
 let
 anyExists
 =
-yield
+await
 Accounts
 .
 anySyncAccountsExist

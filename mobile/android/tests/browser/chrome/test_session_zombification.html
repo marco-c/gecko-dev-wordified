@@ -450,8 +450,8 @@ Suddenly
 ;
 add_task
 (
+async
 function
-*
 test_sessionStoreZombify
 (
 )
@@ -501,7 +501,7 @@ id
 }
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -626,7 +626,7 @@ selectTab
 tabTest
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -688,7 +688,7 @@ tabTest
 browser
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -735,7 +735,7 @@ selectTab
 tabBlank
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -826,7 +826,7 @@ unzombify
 (
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -880,8 +880,8 @@ cleanupTabs
 ;
 add_task
 (
+async
 function
-*
 test_sessionStoreKeepAsZombie
 (
 )
@@ -938,7 +938,7 @@ id
 }
 )
 ;
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -984,7 +984,7 @@ id
 }
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -1133,7 +1133,7 @@ selectTab
 tabTest
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -1196,7 +1196,7 @@ selectTab
 tabBlank
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -1243,7 +1243,7 @@ for
 one
 TabSelect
 only
-yield
+await
 promiseBrowserEvent
 (
 tabTest
@@ -1345,7 +1345,7 @@ selectTab
 tabBlank
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -1477,7 +1477,7 @@ selectTab
 tabTest
 )
 ;
-yield
+await
 promiseTabEvent
 (
 BrowserApp
@@ -1554,7 +1554,7 @@ should
 now
 start
 reloading
-yield
+await
 promiseBrowserEvent
 (
 tabTest

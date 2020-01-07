@@ -137,8 +137,8 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 test_snackbar_api
 (
 )

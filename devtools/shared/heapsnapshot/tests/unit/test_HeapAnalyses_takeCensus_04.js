@@ -61,8 +61,8 @@ worker
 .
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -315,7 +315,7 @@ dbg
 }
 )
 ;
-yield
+await
 client
 .
 readHeapSnapshot
@@ -371,7 +371,7 @@ const
 report
 }
 =
-yield
+await
 client
 .
 takeCensus

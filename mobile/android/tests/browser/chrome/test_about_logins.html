@@ -402,8 +402,8 @@ newLogin
 }
 add_task
 (
+async
 function
-*
 test_passwords_list
 (
 )
@@ -466,7 +466,7 @@ id
 .
 browser
 ;
-yield
+await
 promiseBrowserEvent
 (
 browser
@@ -623,7 +623,7 @@ list
 }
 )
 ;
-yield
+await
 waitForLoginToBeAdded
 ;
 let

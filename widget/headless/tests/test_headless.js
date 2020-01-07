@@ -814,8 +814,8 @@ close
 ;
 add_task
 (
+async
 function
-*
 test_snapshot_widget_layers
 (
 )
@@ -847,7 +847,7 @@ nsIWebNavigation
 let
 contentWindow
 =
-yield
+await
 loadContentWindow
 (
 webNavigation

@@ -725,8 +725,8 @@ enabled
 .
 add_task
 (
+async
 function
-*
 test_tracking_pb
 (
 )
@@ -768,7 +768,7 @@ true
 .
 browser
 ;
-yield
+await
 new
 Promise
 (
@@ -846,7 +846,7 @@ simple
 "
 )
 ;
-yield
+await
 doUpdate
 (
 )
@@ -863,7 +863,7 @@ NOT
 containing
 tracking
 elements
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -921,7 +921,7 @@ page
 containing
 tracking
 elements
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -1011,7 +1011,7 @@ full
 page
 reload
 .
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -1088,7 +1088,7 @@ site
 identity
 popup
 .
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -1197,7 +1197,7 @@ page
 containing
 tracking
 elements
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -1256,7 +1256,7 @@ NOT
 containing
 tracking
 elements
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -1334,8 +1334,8 @@ enabled
 ;
 add_task
 (
+async
 function
-*
 test_tracking_not_pb
 (
 )
@@ -1367,7 +1367,7 @@ true
 .
 browser
 ;
-yield
+await
 new
 Promise
 (
@@ -1425,7 +1425,7 @@ NOT
 containing
 tracking
 elements
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -1494,7 +1494,7 @@ not
 be
 shown
 )
-yield
+await
 promiseLoadEvent
 (
 browser
@@ -1586,7 +1586,7 @@ should
 be
 shown
 )
-yield
+await
 promiseLoadEvent
 (
 browser

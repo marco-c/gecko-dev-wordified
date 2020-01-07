@@ -31,8 +31,8 @@ addon
 ;
 add_task
 (
+async
 function
-*
 testParseFileUri
 (
 )

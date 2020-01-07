@@ -107,8 +107,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -130,7 +130,7 @@ tab
 panel
 ]
 =
-yield
+await
 initDebugger
 (
 TAB_URL
@@ -172,7 +172,7 @@ jsdebugger
 let
 newTab
 =
-yield
+await
 addTab
 (
 TAB_URL
@@ -231,12 +231,12 @@ host
 "
 )
 ;
-yield
+await
 testPause
 (
 )
 ;
-yield
+await
 testResume
 (
 )
@@ -252,7 +252,7 @@ back
 the
 debugger
 .
-yield
+await
 toolbox
 .
 selectTool
@@ -275,7 +275,7 @@ host
 "
 )
 ;
-yield
+await
 toolbox
 .
 switchHost
@@ -299,12 +299,12 @@ host
 "
 )
 ;
-yield
+await
 testPause
 (
 )
 ;
-yield
+await
 testResume
 (
 )
@@ -320,7 +320,7 @@ test
 "
 )
 ;
-yield
+await
 toolbox
 .
 switchHost
@@ -332,7 +332,7 @@ HostType
 BOTTOM
 )
 ;
-yield
+await
 closeDebuggerAndFinish
 (
 panel
