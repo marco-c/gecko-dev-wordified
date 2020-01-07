@@ -97,7 +97,7 @@ prefs_parser
 ;
 extern
 crate
-rust_url_capi
+mozurl
 ;
 #
 [
