@@ -11844,6 +11844,9 @@ resultI32_
 int64_t
 resultI64_
 ;
+intptr_t
+resultRef_
+;
 float
 resultF32_
 ;
