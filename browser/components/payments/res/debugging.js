@@ -390,7 +390,7 @@ paymentOptions
 {
 requestPayerName
 :
-false
+true
 requestPayerEmail
 :
 false
