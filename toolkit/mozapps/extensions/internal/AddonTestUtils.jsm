@@ -1037,7 +1037,6 @@ STATE_NOT_BLOCKED
 )
 ;
 }
-async
 getAddonBlocklistEntry
 (
 addon
@@ -1045,13 +1044,6 @@ appVersion
 toolkitVersion
 )
 {
-await
-Promise
-.
-resolve
-(
-)
-;
 let
 state
 =
