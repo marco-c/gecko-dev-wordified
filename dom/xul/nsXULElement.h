@@ -3546,13 +3546,12 @@ that
 created
 us
 .
-[
-Weak
-]
 *
 /
+nsCOMPtr
+<
 nsIContent
-*
+>
 mBindingParent
 ;
 /

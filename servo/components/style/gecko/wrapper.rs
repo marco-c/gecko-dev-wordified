@@ -4951,6 +4951,15 @@ slots
 _base
 .
 mBindingParent
+.
+raw
+:
+:
+<
+nsIContent
+>
+(
+)
 )
 }
 #
