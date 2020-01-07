@@ -398,9 +398,7 @@ layers
 ;
 MOZ_THREAD_LOCAL
 (
-const
-GLContext
-*
+uintptr_t
 )
 GLContext
 :
@@ -1513,7 +1511,7 @@ sCurrentContext
 .
 set
 (
-nullptr
+0
 )
 ;
 }
@@ -19543,7 +19541,13 @@ get
 )
 =
 =
+reinterpret_cast
+<
+uintptr_t
+>
+(
 this
+)
 )
 ;
 }
@@ -19595,7 +19599,13 @@ sCurrentContext
 .
 set
 (
+reinterpret_cast
+<
+uintptr_t
+>
+(
 this
+)
 )
 ;
 }
