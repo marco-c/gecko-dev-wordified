@@ -160,10 +160,6 @@ default_actions
 [
         
 '
-clobber
-'
-        
-'
 build
 '
     

@@ -11,10 +11,6 @@ default_actions
 [
         
 '
-clobber
-'
-        
-'
 build
 '
     
@@ -229,4 +225,10 @@ fuzzing
 -
 asan
 '
+    
+'
+artifact_flag_build_variant_in_try
+'
+:
+None
 }
