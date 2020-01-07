@@ -75,8 +75,8 @@ flow
 :
 :
 {
-self
 Flow
+GetBaseFlow
 }
 ;
 use
@@ -1161,11 +1161,9 @@ let
 base
 =
 flow
-:
-:
+.
 mut_base
 (
-flow
 )
 ;
 base

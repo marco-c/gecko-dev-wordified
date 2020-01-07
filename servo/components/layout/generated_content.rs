@@ -134,9 +134,9 @@ flow
 :
 :
 {
-self
 Flow
 FlowFlags
+GetBaseFlow
 ImmutableFlowUtils
 }
 ;
@@ -1924,11 +1924,9 @@ Flow
 bool
 {
 flow
-:
-:
+.
 base
 (
-flow
 )
 .
 restyle_damage
@@ -1943,11 +1941,9 @@ RESOLVE_GENERATED_CONTENT
 |
 |
 flow
-:
-:
+.
 base
 (
-flow
 )
 .
 flags

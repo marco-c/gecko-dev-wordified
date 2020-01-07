@@ -141,8 +141,8 @@ flow
 Flow
 FlowClass
 OpaqueFlow
-mut_base
 FragmentationContext
+GetBaseFlow
 }
 ;
 use
@@ -1309,9 +1309,10 @@ point
 =
 &
 mut
+child
+.
 mut_base
 (
-child
 )
 .
 stacking_relative_position
