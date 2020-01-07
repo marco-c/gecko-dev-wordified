@@ -7933,12 +7933,6 @@ else
                     
 self
 .
-_dump_emulator_log
-(
-)
-                    
-self
-.
 buildbot_status
 (
 tbpl_status
@@ -7977,21 +7971,6 @@ tbpl_status
 level
 =
 log_level
-)
-        
-if
-len
-(
-verify_args
-)
->
-0
-:
-            
-self
-.
-_dump_emulator_log
-(
 )
     
 PostScriptAction
