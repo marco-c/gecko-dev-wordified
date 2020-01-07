@@ -207,16 +207,6 @@ this
 .
 securityCodeInput
 .
-placeholder
-=
-"
-CVC
-"
-;
-this
-.
-securityCodeInput
-.
 addEventListener
 (
 "
