@@ -459,7 +459,7 @@ inheriting
 /
 CharacterData
 for
-convinience
+convenience
 .
 Doctypes
 aren
@@ -484,7 +484,10 @@ t
 implement
 /
 /
-nsIDOMCharacterData
+the
+DOM
+CharacterData
+interface
 )
 return
 false

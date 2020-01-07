@@ -257,13 +257,6 @@ h
 #
 include
 "
-nsIDOMCharacterData
-.
-h
-"
-#
-include
-"
 nsINodeList
 .
 h

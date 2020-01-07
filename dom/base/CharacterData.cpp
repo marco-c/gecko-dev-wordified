@@ -992,7 +992,7 @@ true
 /
 Implementation
 of
-nsIDOMCharacterData
+CharacterData
 void
 CharacterData
 :

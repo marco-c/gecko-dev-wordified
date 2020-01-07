@@ -143,7 +143,7 @@ h
 #
 include
 "
-nsIDOMCharacterData
+nsIDOMNode
 .
 h
 "
@@ -160,7 +160,7 @@ final
 public
 CharacterData
 public
-nsIDOMCharacterData
+nsIDOMNode
 {
 private
 :
@@ -252,15 +252,6 @@ Init
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
-/
-/
-nsIDOMCharacterData
-NS_FORWARD_NSIDOMCHARACTERDATA
-(
-CharacterData
-:
-:
-)
 /
 /
 nsINode

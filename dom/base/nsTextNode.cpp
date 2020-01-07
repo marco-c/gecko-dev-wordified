@@ -628,7 +628,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 nsTextNode
 CharacterData
 nsIDOMNode
-nsIDOMCharacterData
 )
 JSObject
 *

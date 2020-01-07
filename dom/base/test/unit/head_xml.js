@@ -173,13 +173,6 @@ I
 nsIDOMNode
 ;
 const
-nsIDOMCharacterData
-=
-I
-.
-nsIDOMCharacterData
-;
-const
 nsIDOMNodeList
 =
 I
