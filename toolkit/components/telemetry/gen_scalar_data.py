@@ -129,11 +129,7 @@ TelemetryScalar
 h
    
 see
-gen
--
-scalar
--
-data
+gen_scalar_data
 .
 py
 .

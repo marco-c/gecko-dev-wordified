@@ -107,11 +107,7 @@ auto
 -
 generated
 see
-gen
--
-histogram
--
-data
+gen_histogram_data
 .
 py
 .
