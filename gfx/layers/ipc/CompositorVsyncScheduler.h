@@ -237,6 +237,9 @@ mozilla
 class
 CancelableRunnable
 ;
+class
+Runnable
+;
 namespace
 gfx
 {
@@ -493,11 +496,6 @@ CancelCurrentSetNeedsCompositeTask
 (
 )
 ;
-void
-CancelCurrentVRTask
-(
-)
-;
 class
 Observer
 final
@@ -631,7 +629,7 @@ mCurrentVRListenerTaskMonitor
 ;
 RefPtr
 <
-CancelableRunnable
+Runnable
 >
 mCurrentVRListenerTask
 ;
