@@ -2606,6 +2606,18 @@ CKA_ID
 id
 )
 ;
+if
+(
+!
+rvObject
+-
+>
+label
+&
+&
+nickname
+)
+{
 NSS_CK_SET_ATTRIBUTE_UTF8
 (
 attr
@@ -2613,6 +2625,7 @@ CKA_LABEL
 nickname
 )
 ;
+}
 NSS_CK_TEMPLATE_FINISH
 (
 cert_tmpl

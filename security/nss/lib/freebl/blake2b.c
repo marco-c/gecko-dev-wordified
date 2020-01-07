@@ -1545,11 +1545,11 @@ failure
 :
 PORT_Memset
 (
-&
 ctx
 0
 sizeof
 (
+*
 ctx
 )
 )
