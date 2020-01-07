@@ -4020,7 +4020,7 @@ doc
 rootContent
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;

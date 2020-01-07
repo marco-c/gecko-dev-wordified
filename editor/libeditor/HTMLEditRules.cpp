@@ -59122,6 +59122,14 @@ selNode
 is
 inside
 body
+/
+/
+XXXsmaug
+this
+code
+is
+insane
+.
 while
 (
 temp
@@ -59145,7 +59153,7 @@ temp
 temp
 -
 >
-GetParentNode
+GetParentOrHostNode
 (
 )
 ;
@@ -59246,6 +59254,14 @@ selNode
 is
 inside
 body
+/
+/
+XXXsmaug
+this
+code
+is
+insane
+.
 while
 (
 temp
@@ -59269,7 +59285,7 @@ temp
 temp
 -
 >
-GetParentNode
+GetParentOrHostNode
 (
 )
 ;
