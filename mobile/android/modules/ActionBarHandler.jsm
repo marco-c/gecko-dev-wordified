@@ -465,6 +465,12 @@ function
 e
 )
 {
+e
+.
+stopImmediatePropagation
+(
+)
+;
 /
 /
 Close

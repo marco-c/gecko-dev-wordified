@@ -880,6 +880,11 @@ addEventListener
 mozcaretstatechanged
 "
 this
+{
+mozSystemGroup
+:
+true
+}
 )
 ;
 }
@@ -900,6 +905,11 @@ removeEventListener
 mozcaretstatechanged
 "
 this
+{
+mozSystemGroup
+:
+true
+}
 )
 ;
 }
