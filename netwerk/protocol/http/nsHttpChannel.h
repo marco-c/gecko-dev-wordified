@@ -2897,6 +2897,11 @@ SetLoadGroupUserAgentOverride
 )
 ;
 void
+SetOriginHeader
+(
+)
+;
+void
 SetDoNotTrack
 (
 )

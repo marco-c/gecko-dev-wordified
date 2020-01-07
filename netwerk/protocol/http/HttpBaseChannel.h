@@ -2280,6 +2280,15 @@ IsNavigation
 (
 )
 ;
+static
+bool
+IsReferrerSchemeAllowed
+(
+nsIURI
+*
+aReferrer
+)
+;
 /
 /
 Return
