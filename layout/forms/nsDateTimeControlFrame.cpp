@@ -1786,7 +1786,7 @@ nsGkAtoms
 datetimebox
 nullptr
 kNameSpaceID_XUL
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

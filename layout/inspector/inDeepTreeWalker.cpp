@@ -954,7 +954,7 @@ mShowDocumentsAsNodes
 nodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -1275,7 +1275,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -1463,7 +1463,7 @@ NodeType
 )
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE

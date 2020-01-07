@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -149,7 +149,7 @@ NameSpaceManager
 )
 .
 typedef
-nsIDOMNode
+nsINode
 txXPathNodeType
 ;
 class

@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsINode
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h
@@ -2201,7 +2208,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -2356,7 +2363,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -2427,7 +2434,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -2549,7 +2556,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -2743,7 +2750,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -2814,7 +2821,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE

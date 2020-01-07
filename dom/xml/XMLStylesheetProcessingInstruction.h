@@ -226,9 +226,6 @@ nsGkAtoms
 processingInstructionTagName
 nullptr
 kNameSpaceID_None
-nsIDOMNode
-:
-:
 PROCESSING_INSTRUCTION_NODE
 nsGkAtoms
 :

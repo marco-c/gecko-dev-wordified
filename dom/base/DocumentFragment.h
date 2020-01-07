@@ -208,9 +208,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 DOCUMENT_FRAGMENT_NODE
 &
 &
@@ -340,9 +337,6 @@ nsGkAtoms
 documentFragmentNodeName
 nullptr
 kNameSpaceID_None
-nsIDOMNode
-:
-:
 DOCUMENT_FRAGMENT_NODE
 )
 )

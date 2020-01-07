@@ -674,7 +674,7 @@ nsGkAtoms
 img
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -859,7 +859,7 @@ nsGkAtoms
 div
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -973,7 +973,7 @@ nsGkAtoms
 videocontrols
 nullptr
 kNameSpaceID_XUL
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

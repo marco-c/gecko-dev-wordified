@@ -6903,7 +6903,7 @@ GetNodeInfo
 tagAtom
 prefixAtom
 namespaceID
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -7191,7 +7191,7 @@ GetNodeInfo
 nameAtom
 prefixAtom
 namespaceID
-nsIDOMNode
+nsINode
 :
 :
 ATTRIBUTE_NODE
@@ -7716,7 +7716,7 @@ NodeType
 )
 {
 case
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -7728,7 +7728,7 @@ XBLBinding_Serialize_TextNode
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 CDATA_SECTION_NODE
@@ -7740,7 +7740,7 @@ XBLBinding_Serialize_CDATANode
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 COMMENT_NODE

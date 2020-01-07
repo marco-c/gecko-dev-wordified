@@ -4579,9 +4579,6 @@ nsGkAtoms
 tbody
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
 ELEMENT_NODE
 )
 ;

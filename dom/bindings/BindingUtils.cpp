@@ -246,6 +246,13 @@ h
 #
 include
 "
+nsINode
+.
+h
+"
+#
+include
+"
 nsIPermissionManager
 .
 h
@@ -22166,7 +22173,7 @@ definition
 mLocalName
 nullptr
 ns
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

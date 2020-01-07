@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsINode
+.
+h
+"
+#
+include
+"
 nsNodeUtils
 .
 h
@@ -1238,7 +1245,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_FRAGMENT_NODE
@@ -2203,7 +2210,7 @@ GetNodeInfo
 aName
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -2845,7 +2852,7 @@ nsGkAtoms
 option
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -3051,7 +3058,7 @@ GetNodeInfo
 aName
 nullptr
 kNameSpaceID_SVG
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -3122,7 +3129,7 @@ GetNodeInfo
 aName
 nullptr
 kNameSpaceID_disabled_SVG
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -3514,7 +3521,7 @@ GetNodeInfo
 aName
 nullptr
 kNameSpaceID_MathML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -3584,7 +3591,7 @@ GetNodeInfo
 aName
 nullptr
 kNameSpaceID_disabled_MathML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

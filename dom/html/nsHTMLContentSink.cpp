@@ -2046,7 +2046,7 @@ nsGkAtoms
 body
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -3746,7 +3746,7 @@ nsGkAtoms
 html
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -3835,7 +3835,7 @@ nsGkAtoms
 head
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

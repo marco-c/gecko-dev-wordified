@@ -297,6 +297,13 @@ func
 #
 include
 "
+nsINode
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h
@@ -314,13 +321,6 @@ the
 menus
 ect
 .
-#
-include
-"
-nsIDOMNode
-.
-h
-"
 #
 include
 "
@@ -2185,7 +2185,7 @@ nsGkAtoms
 div
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

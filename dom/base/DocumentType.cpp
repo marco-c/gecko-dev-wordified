@@ -340,7 +340,7 @@ nsGkAtoms
 documentTypeNodeName
 nullptr
 kNameSpaceID_None
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_TYPE_NODE
@@ -479,9 +479,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 DOCUMENT_TYPE_NODE
 "
 Bad

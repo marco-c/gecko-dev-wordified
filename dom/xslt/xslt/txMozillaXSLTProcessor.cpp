@@ -1670,7 +1670,7 @@ NodeType
 )
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_TYPE_NODE

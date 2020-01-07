@@ -420,9 +420,6 @@ nsGkAtoms
 audio
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
 ELEMENT_NODE
 )
 ;

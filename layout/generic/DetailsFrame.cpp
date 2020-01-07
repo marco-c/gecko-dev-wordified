@@ -629,7 +629,7 @@ nsGkAtoms
 summary
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

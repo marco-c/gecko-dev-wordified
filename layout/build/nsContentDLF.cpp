@@ -1480,7 +1480,7 @@ nsGkAtoms
 html
 0
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -1521,7 +1521,7 @@ nsGkAtoms
 head
 0
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -1562,7 +1562,7 @@ nsGkAtoms
 body
 0
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

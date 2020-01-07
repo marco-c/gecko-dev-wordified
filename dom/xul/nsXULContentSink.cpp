@@ -2478,7 +2478,7 @@ GetNodeInfo
 localName
 prefix
 nameSpaceID
-nsIDOMNode
+nsINode
 :
 :
 ATTRIBUTE_NODE
@@ -2724,7 +2724,7 @@ GetNodeInfo
 localName
 prefix
 nameSpaceID
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

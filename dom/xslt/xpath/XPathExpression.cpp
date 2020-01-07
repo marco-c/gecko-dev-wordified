@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsINode
+.
+h
+"
+#
+include
+"
 XPathResult
 .
 h
@@ -595,7 +602,7 @@ if
 nodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -604,7 +611,7 @@ TEXT_NODE
 nodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 CDATA_SECTION_NODE
@@ -695,7 +702,7 @@ if
 nodeType
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -704,7 +711,7 @@ DOCUMENT_NODE
 nodeType
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -713,7 +720,7 @@ ELEMENT_NODE
 nodeType
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 ATTRIBUTE_NODE
@@ -722,7 +729,7 @@ ATTRIBUTE_NODE
 nodeType
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 COMMENT_NODE
@@ -731,7 +738,7 @@ COMMENT_NODE
 nodeType
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 PROCESSING_INSTRUCTION_NODE

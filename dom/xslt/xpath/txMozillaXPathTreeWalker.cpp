@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -139,6 +132,13 @@ h
 include
 "
 nsIDOMProcessingInstruction
+.
+h
+"
+#
+include
+"
+nsINode
 .
 h
 "
@@ -1974,7 +1974,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 PROCESSING_INSTRUCTION_NODE
@@ -3414,7 +3414,7 @@ if
 nodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 ATTRIBUTE_NODE
@@ -3624,7 +3624,7 @@ if
 nodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE

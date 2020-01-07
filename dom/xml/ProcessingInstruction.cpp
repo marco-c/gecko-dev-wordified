@@ -303,7 +303,7 @@ nsGkAtoms
 processingInstructionTagName
 nullptr
 kNameSpaceID_None
-nsIDOMNode
+nsINode
 :
 :
 PROCESSING_INSTRUCTION_NODE
@@ -383,7 +383,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 PROCESSING_INSTRUCTION_NODE

@@ -456,9 +456,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 ATTRIBUTE_NODE
 "
 Wrong
@@ -931,9 +928,6 @@ mNodeInfo
 NamespaceID
 (
 )
-nsIDOMNode
-:
-:
 ATTRIBUTE_NODE
 )
 ;

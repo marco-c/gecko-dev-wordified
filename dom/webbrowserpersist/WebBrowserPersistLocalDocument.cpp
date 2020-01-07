@@ -4716,7 +4716,7 @@ if
 type
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -4725,7 +4725,7 @@ ELEMENT_NODE
 type
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 PROCESSING_INSTRUCTION_NODE

@@ -16270,7 +16270,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE

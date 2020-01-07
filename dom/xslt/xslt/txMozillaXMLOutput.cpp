@@ -2663,7 +2663,7 @@ GetNodeInfo
 aLocalName
 aPrefix
 aNsID
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -4961,7 +4961,7 @@ GetNodeInfo
 aName
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

@@ -1483,7 +1483,7 @@ Atom
 )
 nullptr
 kNameSpaceID_None
-nsIDOMNode
+nsINode
 :
 :
 ATTRIBUTE_NODE

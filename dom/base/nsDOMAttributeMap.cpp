@@ -1589,7 +1589,7 @@ NodeInfo
 NamespaceID
 (
 )
-nsIDOMNode
+nsINode
 :
 :
 ATTRIBUTE_NODE
@@ -2160,7 +2160,7 @@ name
 NamespaceID
 (
 )
-nsIDOMNode
+nsINode
 :
 :
 ATTRIBUTE_NODE
@@ -2485,7 +2485,7 @@ GetPrefix
 (
 )
 nameSpaceID
-nsIDOMNode
+nsINode
 :
 :
 ATTRIBUTE_NODE

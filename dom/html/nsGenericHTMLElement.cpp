@@ -17996,7 +17996,7 @@ nsIPresShell
 *
 presShell
 =
-nsContentUtils
+nsComputedDOMStyle
 :
 :
 GetPresShellForContent
@@ -18386,9 +18386,6 @@ nsGkAtoms
 br
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
 ELEMENT_NODE
 )
 ;
