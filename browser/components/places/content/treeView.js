@@ -4657,7 +4657,9 @@ aNode
 aNewIndex
 )
 {
-NS_ASSERT
+console
+.
+assert
 (
 this
 .
@@ -5311,7 +5313,9 @@ aNode
 aOldIndex
 )
 {
-NS_ASSERT
+console
+.
+assert
 (
 this
 .
@@ -5716,7 +5720,9 @@ aNewParent
 aNewIndex
 )
 {
-NS_ASSERT
+console
+.
+assert
 (
 this
 .
@@ -6071,7 +6077,9 @@ aNode
 aColumnType
 )
 {
-NS_ASSERT
+console
+.
+assert
 (
 this
 .
@@ -7056,7 +7064,9 @@ PTV_invalidateContainer
 aContainer
 )
 {
-NS_ASSERT
+console
+.
+assert
 (
 this
 .

@@ -2116,6 +2116,11 @@ time
 :
 3
 "
+assert
+"
+:
+3
+"
 group
 "
 :
@@ -4518,6 +4523,14 @@ createMultiLineDumper
 (
 "
 debug
+"
+)
+assert
+:
+createDumper
+(
+"
+assert
 "
 )
 log
