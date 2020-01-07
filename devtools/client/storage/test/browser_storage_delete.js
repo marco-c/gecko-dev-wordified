@@ -390,7 +390,7 @@ store
 -
 objects
 -
-edit
+updated
 "
 )
 ;

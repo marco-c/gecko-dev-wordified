@@ -1105,11 +1105,11 @@ e
 ;
 this
 .
-onEdit
+onUpdate
 =
 this
 .
-onEdit
+onUpdate
 .
 bind
 (
@@ -1129,7 +1129,7 @@ update
 "
 this
 .
-onEdit
+onUpdate
 )
 ;
 this
@@ -1833,7 +1833,7 @@ update
 "
 this
 .
-onEdit
+onUpdate
 )
 ;
 this
@@ -3062,7 +3062,7 @@ removed
 *
 /
 async
-onEdit
+onUpdate
 (
 {
 changed
@@ -3227,7 +3227,7 @@ store
 -
 objects
 -
-edit
+updated
 "
 )
 ;
@@ -3242,7 +3242,7 @@ added
 items
 received
 by
-onEdit
+onUpdate
 *
 *
 param
@@ -3250,7 +3250,7 @@ param
 object
 }
 See
-onEdit
+onUpdate
 docs
 *
 /
@@ -3469,7 +3469,7 @@ deleted
 items
 received
 by
-onEdit
+onUpdate
 *
 *
 param
@@ -3477,7 +3477,7 @@ param
 object
 }
 See
-onEdit
+onUpdate
 docs
 *
 /
@@ -3824,7 +3824,7 @@ changed
 items
 received
 by
-onEdit
+onUpdate
 *
 *
 param
@@ -3832,7 +3832,7 @@ param
 object
 }
 See
-onEdit
+onUpdate
 docs
 *
 /
