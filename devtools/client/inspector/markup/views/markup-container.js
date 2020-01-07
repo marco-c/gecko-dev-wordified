@@ -2909,6 +2909,16 @@ tagName
 null
 ;
 }
+isSlotted
+:
+function
+(
+)
+{
+return
+false
+;
+}
 /
 *
 *
