@@ -1149,14 +1149,6 @@ lir
 )
 ;
 void
-visitMonitorTypes
-(
-LMonitorTypes
-*
-lir
-)
-;
-void
 emitPostWriteBarrier
 (
 const

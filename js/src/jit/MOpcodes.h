@@ -1004,11 +1004,6 @@ TypeBarrier
 \
 _
 (
-MonitorTypes
-)
-\
-_
-(
 PostWriteBarrier
 )
 \
