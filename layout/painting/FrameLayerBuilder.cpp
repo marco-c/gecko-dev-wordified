@@ -39493,10 +39493,7 @@ GetNumRects
 {
 visible
 =
-Move
-(
 newVisible
-)
 ;
 }
 }
