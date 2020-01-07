@@ -594,6 +594,15 @@ used
 /
 TFO
 .
+TFO_INIT_FAILED
+/
+/
+nsHalfOpenSocket
+:
+:
+SetupConn
+failed
+.
 TFO_FAILED
 TFO_HTTP
 /
