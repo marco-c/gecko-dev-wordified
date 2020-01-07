@@ -921,11 +921,11 @@ nsString
 aNames
 )
 ;
-nsGenericHTMLElement
-*
+using
+nsIDocument
+:
+:
 GetBody
-(
-)
 ;
 void
 SetBody
