@@ -246,15 +246,6 @@ NestedRuleIterationCondition
 RulesIterator
 }
 ;
-use
-values
-:
-:
-specified
-:
-:
-NamespaceId
-;
 /
 /
 /
@@ -371,10 +362,7 @@ default
 :
 Option
 <
-(
 Namespace
-NamespaceId
-)
 >
 pub
 prefixes
@@ -382,10 +370,7 @@ prefixes
 FnvHashMap
 <
 Prefix
-(
 Namespace
-NamespaceId
-)
 >
 }
 /
