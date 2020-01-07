@@ -231,6 +231,14 @@ REQUIRE_SIGNING
 true
 )
 ;
+makeConstant
+(
+"
+LANGPACKS_REQUIRE_SIGNING
+"
+true
+)
+;
 }
 else
 {
@@ -246,7 +254,6 @@ PREF_SIGNATURES_REQUIRED
 false
 )
 ;
-}
 XPCOMUtils
 .
 defineLazyPreferenceGetter
@@ -259,6 +266,7 @@ PREF_LANGPACK_SIGNATURES
 false
 )
 ;
+}
 if
 (
 AppConstants
