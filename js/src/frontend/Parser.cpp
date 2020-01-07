@@ -20875,10 +20875,6 @@ newDirectives
 =
 directives
 ;
-typename
-TokenStream
-:
-:
 Position
 start
 (
@@ -21246,10 +21242,6 @@ in
 the
 stream
 .
-typename
-TokenStream
-:
-:
 Position
 position
 (
@@ -48787,10 +48779,6 @@ to
 /
 rewind
 .
-typename
-TokenStream
-:
-:
 Position
 start
 (
