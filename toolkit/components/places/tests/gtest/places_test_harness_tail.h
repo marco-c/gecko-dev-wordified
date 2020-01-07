@@ -127,17 +127,12 @@ nsIComponentRegistrar
 h
 "
 #
-ifdef
-MOZ_CRASHREPORTER
-#
 include
 "
 nsICrashReporter
 .
 h
 "
-#
-endif
 #
 ifndef
 TEST_NAME
