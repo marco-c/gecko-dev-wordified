@@ -601,11 +601,7 @@ aStrA
 0
 '
 :
-*
-aStrA
--
-*
-aStrB
+0
 ;
 }
 char16_t
