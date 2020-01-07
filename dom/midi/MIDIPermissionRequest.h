@@ -121,7 +121,11 @@ mozilla_dom_MIDIPermissionRequest_h
 #
 include
 "
-nsIContentPermissionRequest
+mozilla
+/
+dom
+/
+Promise
 .
 h
 "
@@ -131,6 +135,9 @@ mozilla
 namespace
 dom
 {
+struct
+MIDIOptions
+;
 /
 *
 *
