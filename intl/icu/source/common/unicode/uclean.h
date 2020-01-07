@@ -723,7 +723,6 @@ to
 be
 reinitialized
 after
-after
 *
 calling
 u_cleanup
@@ -1011,7 +1010,6 @@ supplied
 value
 obtained
 from
-from
 u_setMemoryFunctions
 (
 )
@@ -1088,7 +1086,6 @@ user
 supplied
 value
 obtained
-from
 from
 u_setMemoryFunctions
 (
@@ -1180,7 +1177,6 @@ user
 supplied
 value
 obtained
-from
 from
 u_setMemoryFunctions
 (
@@ -1746,7 +1742,7 @@ supplied
 *
 as
 a
-paramter
+parameter
 .
 *
 param
@@ -1755,7 +1751,6 @@ user
 supplied
 value
 obtained
-from
 from
 u_setMutexFunctions
 (
@@ -1914,7 +1909,6 @@ user
 supplied
 value
 obtained
-from
 from
 u_setMutexFunctions
 (
@@ -2194,7 +2188,6 @@ user
 supplied
 value
 obtained
-from
 from
 u_setAtomicIncDecFunctions
 (

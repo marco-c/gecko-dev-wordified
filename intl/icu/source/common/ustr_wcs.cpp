@@ -1958,7 +1958,6 @@ for
 ;
 )
 {
-register
 int32_t
 nulLen
 =

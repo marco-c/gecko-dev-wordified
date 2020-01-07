@@ -280,9 +280,6 @@ UChar
 *
 patternString
 ;
-int32_t
-numDigits
-;
 }
 ;
 class

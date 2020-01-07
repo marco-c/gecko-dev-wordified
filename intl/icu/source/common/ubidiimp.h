@@ -2306,11 +2306,6 @@ UBiDi
 *
 pParaBiDi
 ;
-const
-UBiDiProps
-*
-bdp
-;
 /
 *
 alias

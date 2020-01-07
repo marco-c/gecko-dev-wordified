@@ -278,7 +278,7 @@ stephen
 Language
 -
 independent
-ypedef
+typedef
 to
 void
 *
@@ -1194,7 +1194,7 @@ TT
 >
 on
 each
-succesfully
+successfully
 *
 opened
 resource
@@ -2512,7 +2512,7 @@ returned
 If
 fallback
 has
-occured
+occurred
 getLocale
 will
 reflect
@@ -4550,7 +4550,7 @@ if
 an
 *
 error
-occured
+occurred
 .
 Check
 status
@@ -4669,7 +4669,7 @@ code
 If
 an
 error
-occured
+occurred
 we
 may
 return
@@ -4843,7 +4843,7 @@ an
 error
 has
 *
-occured
+occurred
 .
 Check
 status
@@ -4950,7 +4950,7 @@ code
 If
 an
 error
-occured
+occurred
 we
 may
 return
@@ -5732,7 +5732,7 @@ code
 If
 an
 error
-occured
+occurred
 we
 may
 return

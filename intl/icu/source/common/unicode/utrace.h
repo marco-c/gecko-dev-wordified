@@ -1258,7 +1258,7 @@ thread
 param
 context
 an
-uninterpretted
+uninterpreted
 pointer
 .
 Whatever
@@ -2355,7 +2355,7 @@ for
 a
 later
 trace
-analyis
+analysis
 tool
 .
 *

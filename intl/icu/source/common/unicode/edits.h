@@ -101,9 +101,6 @@ text
 *
 /
 U_NAMESPACE_BEGIN
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -174,7 +171,7 @@ UErrorCode
 .
 *
 *
-draft
+stable
 ICU
 59
 *
@@ -199,7 +196,7 @@ empty
 object
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -390,7 +387,7 @@ src
 Destructor
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -515,7 +512,7 @@ release
 memory
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -554,7 +551,7 @@ user
 code
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -596,7 +593,7 @@ user
 code
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -684,7 +681,7 @@ U_FAILURE
 outErrorCode
 )
 *
-draft
+stable
 ICU
 59
 *
@@ -722,7 +719,7 @@ minus
 old
 length
 *
-draft
+stable
 ICU
 59
 *
@@ -750,7 +747,7 @@ any
 change
 edits
 *
-draft
+stable
 ICU
 59
 *
@@ -768,6 +765,9 @@ numChanges
 0
 ;
 }
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -794,6 +794,11 @@ return
 numChanges
 ;
 }
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -812,7 +817,7 @@ getCoarseIterator
 see
 getFineIterator
 *
-draft
+stable
 ICU
 59
 *
@@ -906,7 +911,7 @@ Copy
 constructor
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -929,7 +934,7 @@ Assignment
 operator
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -1013,7 +1018,7 @@ is
 another
 edit
 *
-draft
+stable
 ICU
 59
 *
@@ -1195,7 +1200,7 @@ index
 was
 found
 *
-draft
+stable
 ICU
 59
 *
@@ -1222,6 +1227,9 @@ errorCode
 0
 ;
 }
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -1848,6 +1856,11 @@ UErrorCode
 errorCode
 )
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -1878,7 +1891,7 @@ remain
 unchanged
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -1914,7 +1927,7 @@ remain
 unchanged
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -1961,7 +1974,7 @@ is
 FALSE
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -1989,7 +2002,7 @@ the
 source
 string
 *
-draft
+stable
 ICU
 59
 *
@@ -2026,7 +2039,7 @@ counting
 unchanged
 spans
 *
-draft
+stable
 ICU
 59
 *
@@ -2055,7 +2068,7 @@ full
 destination
 string
 *
-draft
+stable
 ICU
 59
 *
@@ -2280,7 +2293,7 @@ adjacent
 changes
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -2332,7 +2345,7 @@ adjacent
 changes
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -2386,7 +2399,7 @@ adjacent
 changes
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -2438,7 +2451,7 @@ adjacent
 changes
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -2459,6 +2472,9 @@ FALSE
 )
 ;
 }
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -2735,6 +2751,11 @@ UErrorCode
 errorCode
 )
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 private
 :
 void
@@ -2850,11 +2871,6 @@ STACK_CAPACITY
 ;
 }
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 U_NAMESPACE_END
 #
 endif

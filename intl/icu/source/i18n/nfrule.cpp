@@ -7631,6 +7631,8 @@ UBool
 isFractionRule
 double
 upperBound
+uint32_t
+nonNumericalExecutedRuleMask
 Formattable
 &
 resVal
@@ -8507,6 +8509,7 @@ tempBaseValue
 temp
 pp
 sub1
+nonNumericalExecutedRuleMask
 upperBound
 )
 ;
@@ -8677,6 +8680,7 @@ partialResult
 temp
 pp2
 sub2
+nonNumericalExecutedRuleMask
 upperBound
 )
 ;
@@ -9927,6 +9931,8 @@ const
 NFSubstitution
 *
 sub
+uint32_t
+nonNumericalExecutedRuleMask
 double
 upperBound
 )
@@ -10181,6 +10187,7 @@ isLenient
 )
 #
 endif
+nonNumericalExecutedRuleMask
 result
 )
 ;
@@ -10553,6 +10560,7 @@ isLenient
 )
 #
 endif
+nonNumericalExecutedRuleMask
 result
 )
 ;

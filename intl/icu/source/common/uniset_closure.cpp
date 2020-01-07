@@ -1181,6 +1181,7 @@ UnicodeSet
 :
 :
 closeOver
+0
 status
 )
 ;

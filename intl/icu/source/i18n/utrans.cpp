@@ -637,6 +637,7 @@ UReplaceable
 *
 rep
 ;
+const
 UReplaceableCallbacks
 *
 func
@@ -648,6 +649,7 @@ ReplaceableGlue
 UReplaceable
 *
 replaceable
+const
 UReplaceableCallbacks
 *
 funcCallback
@@ -828,6 +830,7 @@ ReplaceableGlue
 UReplaceable
 *
 replaceable
+const
 UReplaceableCallbacks
 *
 funcCallback
@@ -2632,6 +2635,7 @@ trans
 UReplaceable
 *
 rep
+const
 UReplaceableCallbacks
 *
 repFunc
@@ -2724,6 +2728,7 @@ trans
 UReplaceable
 *
 rep
+const
 UReplaceableCallbacks
 *
 repFunc

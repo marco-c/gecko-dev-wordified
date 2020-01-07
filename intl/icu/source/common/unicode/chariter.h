@@ -4495,7 +4495,7 @@ current
 *
 return
 the
-numberic
+numeric
 index
 in
 the

@@ -8298,15 +8298,6 @@ labelLength
 )
 const
 {
-const
-UBiDiProps
-*
-bdp
-=
-ubidi_getSingleton
-(
-)
-;
 /
 /
 [
@@ -8511,7 +8502,6 @@ type
 =
 ubidi_getJoiningType
 (
-bdp
 c
 )
 ;
@@ -8625,7 +8615,6 @@ type
 =
 ubidi_getJoiningType
 (
-bdp
 c
 )
 ;

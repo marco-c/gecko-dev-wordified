@@ -13637,6 +13637,8 @@ caseClosure
 int32_t
 attribute
 )
+int32_t
+depth
 UErrorCode
 &
 ec

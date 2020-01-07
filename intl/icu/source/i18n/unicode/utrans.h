@@ -3372,6 +3372,7 @@ trans
 UReplaceable
 *
 rep
+const
 UReplaceableCallbacks
 *
 repFunc
@@ -3891,6 +3892,7 @@ trans
 UReplaceable
 *
 rep
+const
 UReplaceableCallbacks
 *
 repFunc

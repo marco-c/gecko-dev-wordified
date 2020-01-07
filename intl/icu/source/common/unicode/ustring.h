@@ -3896,7 +3896,7 @@ e
 .
 defined
 "
-Uhar
+UChar
 *
 myLocalSaveState
 "
@@ -7690,7 +7690,7 @@ second
 macro
 to
 dynamically
-intialize
+initialize
 such
 a
 string

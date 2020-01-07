@@ -4238,7 +4238,7 @@ capacity
 (
 size
 )
-fo
+of
 UScriptCode
 buffer
 passed

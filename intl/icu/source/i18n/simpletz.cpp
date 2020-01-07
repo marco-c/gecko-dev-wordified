@@ -1399,7 +1399,7 @@ status
 if
 (
 savingsDST
-<
+=
 =
 0
 )
@@ -5586,7 +5586,7 @@ status
 if
 (
 millisSavedDuringDST
-<
+=
 =
 0
 )

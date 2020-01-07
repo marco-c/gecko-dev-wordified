@@ -1250,7 +1250,6 @@ internal
 /
 static
 MeasureUnit
-*
 resolveUnitPerUnit
 (
 const
@@ -1261,6 +1260,9 @@ const
 MeasureUnit
 &
 perUnit
+bool
+*
+isResolved
 )
 ;
 #
@@ -4868,9 +4870,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -4900,7 +4899,7 @@ error
 code
 .
 *
-draft
+stable
 ICU
 59
 *
@@ -4915,13 +4914,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *

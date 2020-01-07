@@ -904,8 +904,6 @@ const
 char
 *
 type
-int32_t
-kind
 UErrorCode
 &
 status
@@ -1343,14 +1341,6 @@ actualLocale
 data
 (
 )
-)
-;
-result
--
->
-setBreakType
-(
-kind
 )
 ;
 }
@@ -3374,7 +3364,6 @@ loc
 "
 grapheme
 "
-kind
 status
 )
 ;
@@ -3394,7 +3383,6 @@ loc
 "
 word
 "
-kind
 status
 )
 ;
@@ -3518,7 +3506,6 @@ buildInstance
 (
 loc
 lbType
-kind
 status
 )
 ;
@@ -3538,7 +3525,6 @@ loc
 "
 sentence
 "
-kind
 status
 )
 ;
@@ -3658,7 +3644,6 @@ loc
 "
 title
 "
-kind
 status
 )
 ;

@@ -536,6 +536,8 @@ UBool
 isFractional
 double
 upperBound
+uint32_t
+nonNumericalExecutedRuleMask
 Formattable
 &
 result
@@ -674,6 +676,8 @@ const
 NFSubstitution
 *
 sub
+uint32_t
+nonNumericalExecutedRuleMask
 double
 upperBound
 )

@@ -580,7 +580,7 @@ getDynamicClassID
 =
 *
 .
-erived
+derived
 :
 :
 getStaticClassID

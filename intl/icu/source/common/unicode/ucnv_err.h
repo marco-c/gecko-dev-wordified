@@ -866,7 +866,7 @@ escape
 the
 character
 value
-accoding
+according
 to
 C
 (
@@ -926,7 +926,7 @@ escape
 the
 character
 value
-accoding
+according
 to
 XML
 Decimal
@@ -995,7 +995,7 @@ escape
 the
 character
 value
-accoding
+according
 to
 XML
 Hex
@@ -1360,7 +1360,7 @@ a
 reset
 '
 has
-occured
+occurred
 .
 Callback
 should
@@ -1691,7 +1691,7 @@ to
 the
 buffer
 that
-recieves
+receives
 the
 offsets
 .
@@ -1936,7 +1936,7 @@ to
 the
 buffer
 that
-recieves
+receives
 the
 offsets
 .

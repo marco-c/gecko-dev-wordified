@@ -578,7 +578,6 @@ createEmptyInstance
 *
 /
 static
-inline
 FilteredBreakIteratorBuilder
 *
 createInstance
@@ -587,14 +586,7 @@ UErrorCode
 &
 status
 )
-{
-return
-createEmptyInstance
-(
-status
-)
 ;
-}
 #
 endif
 /
@@ -895,9 +887,6 @@ status
 =
 0
 ;
-#
-ifndef
-U_HIDE_DEPRECATED_API
 /
 *
 *
@@ -973,13 +962,6 @@ status
 =
 0
 ;
-#
-endif
-/
-*
-U_HIDE_DEPRECATED_API
-*
-/
 #
 ifndef
 U_HIDE_DRAFT_API

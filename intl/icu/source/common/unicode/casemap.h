@@ -105,9 +105,6 @@ functions
 *
 /
 U_NAMESPACE_BEGIN
-#
-ifndef
-U_HIDE_DRAFT_API
 class
 BreakIterator
 ;
@@ -133,7 +130,7 @@ functions
 .
 *
 *
-draft
+stable
 ICU
 59
 *
@@ -455,7 +452,7 @@ set
 see
 u_strToLower
 *
-draft
+stable
 ICU
 59
 *
@@ -796,7 +793,7 @@ set
 see
 u_strToUpper
 *
-draft
+stable
 ICU
 59
 *
@@ -1263,7 +1260,7 @@ u_strToTitle
 see
 ucasemap_toTitle
 *
-draft
+stable
 ICU
 59
 *
@@ -1632,7 +1629,7 @@ set
 see
 u_strFoldCase
 *
-draft
+stable
 ICU
 59
 *
@@ -1662,6 +1659,9 @@ UErrorCode
 errorCode
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -2671,6 +2671,11 @@ UErrorCode
 errorCode
 )
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -2978,7 +2983,7 @@ set
 see
 ucasemap_utf8ToLower
 *
-draft
+stable
 ICU
 59
 *
@@ -3319,7 +3324,7 @@ set
 see
 ucasemap_utf8ToUpper
 *
-draft
+stable
 ICU
 59
 *
@@ -3783,7 +3788,7 @@ set
 see
 ucasemap_utf8ToTitle
 *
-draft
+stable
 ICU
 59
 *
@@ -4152,7 +4157,7 @@ set
 see
 ucasemap_utf8FoldCase
 *
-draft
+stable
 ICU
 59
 *
@@ -4215,11 +4220,6 @@ delete
 ;
 }
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 U_NAMESPACE_END
 #
 endif

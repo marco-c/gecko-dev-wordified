@@ -14729,7 +14729,17 @@ DOLLARSIGN
 ;
 UChar32
 c32
+=
+-
+1
 ;
+if
+(
+replIdx
+<
+replacementLength
+)
+{
 U16_GET
 (
 replacementText
@@ -14739,6 +14749,7 @@ replacementLength
 c32
 )
 ;
+}
 if
 (
 u_isdigit

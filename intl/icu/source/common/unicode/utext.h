@@ -5528,7 +5528,6 @@ will
 be
 pinned
 to
-to
 be
 within
 0
@@ -5569,7 +5568,6 @@ it
 will
 be
 pinned
-to
 to
 be
 within
@@ -7815,7 +7813,7 @@ while
 UText
 access
 is
-occuring
+occurring
 because
 the
 underlying
@@ -11212,7 +11210,7 @@ string
 or
 text
 -
-containin
+containing
 object
 or
 similar

@@ -997,6 +997,8 @@ double
 upperBound
 UBool
 lenientParse
+uint32_t
+nonNumericalExecutedRuleMask
 Formattable
 &
 result
@@ -1441,6 +1443,8 @@ double
 upperBound
 UBool
 lenientParse
+uint32_t
+nonNumericalExecutedRuleMask
 Formattable
 &
 result
@@ -1935,6 +1939,8 @@ UBool
 lenientParse
 *
 /
+uint32_t
+nonNumericalExecutedRuleMask
 Formattable
 &
 result
@@ -5274,6 +5280,8 @@ double
 upperBound
 UBool
 lenientParse
+uint32_t
+nonNumericalExecutedRuleMask
 Formattable
 &
 result
@@ -5484,6 +5492,7 @@ parse
 text
 parsePosition
 upperBound
+nonNumericalExecutedRuleMask
 result
 )
 ;
@@ -7708,6 +7717,8 @@ double
 upperBound
 UBool
 lenientParse
+uint32_t
+nonNumericalExecutedRuleMask
 Formattable
 &
 result
@@ -7761,6 +7772,7 @@ parsePosition
 baseValue
 upperBound
 lenientParse
+nonNumericalExecutedRuleMask
 result
 )
 ;
@@ -7826,6 +7838,7 @@ text
 parsePosition
 FALSE
 upperBound
+nonNumericalExecutedRuleMask
 result
 )
 ;
@@ -9618,6 +9631,8 @@ upperBound
 /
 UBool
 lenientParse
+uint32_t
+nonNumericalExecutedRuleMask
 Formattable
 &
 resVal
@@ -9662,6 +9677,7 @@ parsePosition
 baseValue
 0
 lenientParse
+nonNumericalExecutedRuleMask
 resVal
 )
 ;
@@ -9797,6 +9813,7 @@ parse
 workText
 workPos
 10
+nonNumericalExecutedRuleMask
 temp
 )
 ;
@@ -10765,6 +10782,8 @@ UBool
 lenientParse
 *
 /
+uint32_t
+nonNumericalExecutedRuleMask
 Formattable
 &
 result
@@ -10902,6 +10921,7 @@ parse
 workText
 workPos
 1
+nonNumericalExecutedRuleMask
 temp
 )
 ;
@@ -11092,6 +11112,7 @@ withZeros
 baseValue
 upperBound
 FALSE
+nonNumericalExecutedRuleMask
 result
 )
 ;

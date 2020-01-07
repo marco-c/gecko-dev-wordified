@@ -526,6 +526,8 @@ ParsePosition
 pos
 double
 upperBound
+uint32_t
+nonNumericalExecutedRuleMask
 Formattable
 &
 result

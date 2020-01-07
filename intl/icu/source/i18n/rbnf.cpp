@@ -7797,6 +7797,7 @@ parse
 workingText
 working_pp
 kMaxDouble
+0
 working_result
 )
 ;

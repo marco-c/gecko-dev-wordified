@@ -3413,7 +3413,7 @@ obtained
 from
 the
 runtime
-environement
+environment
 .
 *
 param
@@ -5677,7 +5677,7 @@ display
 in
 the
 locale
-specfied
+specified
 by
 "
 displayLocale

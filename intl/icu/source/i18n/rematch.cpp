@@ -42285,6 +42285,11 @@ if
 lbStartIdx
 >
 0
+&
+&
+lbStartIdx
+<
+fInputLength
 )
 {
 U16_SET_CP_START
@@ -42889,6 +42894,11 @@ if
 lbStartIdx
 >
 0
+&
+&
+lbStartIdx
+<
+fInputLength
 )
 {
 U16_SET_CP_START

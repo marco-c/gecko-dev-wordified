@@ -1389,8 +1389,6 @@ IS1
 .
 .
 IS4
-and
-ZWSP
 )
 *
 -
@@ -1454,8 +1452,6 @@ spaces
 TAB
 +
 Zs
--
-ZWSP
 *
 /
 /
@@ -21006,17 +21002,6 @@ Zs
 (
 space
 separators
-)
-*
-except
-Zero
-Width
-Space
-(
-ZWSP
-U
-+
-200B
 )
 .
 *

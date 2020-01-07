@@ -1513,7 +1513,7 @@ when
 an
 error
 has
-occured
+occurred
 in
 conversion
 from
@@ -2674,7 +2674,7 @@ TT
 if
 an
 error
-occured
+occurred
 *
 see
 ucnv_openU
@@ -2935,7 +2935,7 @@ if
 an
 *
 error
-occured
+occurred
 *
 see
 ucnv_open
@@ -3836,7 +3836,7 @@ TT
 if
 an
 error
-occured
+occurred
 *
 see
 udata_open

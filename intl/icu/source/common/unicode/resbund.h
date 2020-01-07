@@ -1334,7 +1334,7 @@ err
 *
 Standard
 constructor
-onstructs
+constructs
 a
 resource
 bundle

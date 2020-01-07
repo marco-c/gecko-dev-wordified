@@ -620,7 +620,7 @@ dependencies
 of
 the
 *
-libarary
+library
 .
 For
 each
@@ -756,7 +756,7 @@ a
 data
 directory
 was
-specifed
+specified
 at
 ICU
 build
@@ -1032,7 +1032,7 @@ zone
 resources
 will
 be
-preferrentially
+preferentially
 *
 loaded
 from

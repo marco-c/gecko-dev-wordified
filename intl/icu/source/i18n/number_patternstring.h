@@ -422,6 +422,13 @@ status
 const
 U_OVERRIDE
 ;
+bool
+hasBody
+(
+)
+const
+U_OVERRIDE
+;
 private
 :
 struct

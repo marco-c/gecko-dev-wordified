@@ -679,7 +679,7 @@ BEFORE
 the
 code
 unit
-specfied
+specified
 *
 by
 "

@@ -363,7 +363,7 @@ The
 tables
 are
 broadly
-classied
+classified
 into
 *
 <
@@ -373,7 +373,7 @@ ul
 <
 li
 >
-Unassinged
+Unassigned
 Table
 :
 Contains
@@ -417,7 +417,7 @@ code
 points
 that
 are
-prohibted
+prohibited
 from
 *
 the
@@ -441,7 +441,7 @@ Table
 :
 Contains
 code
-ponts
+points
 that
 are
 deleted
@@ -1352,7 +1352,7 @@ NFKC
 *
 checks
 for
-prohited
+prohibited
 and
 BiDi
 characters

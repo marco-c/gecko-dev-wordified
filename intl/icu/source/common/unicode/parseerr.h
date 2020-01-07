@@ -619,7 +619,7 @@ on
 which
 the
 error
-occured
+occurred
 .
 If
 the
@@ -648,7 +648,6 @@ error
 appears
 which
 will
-be
 be
 a
 value

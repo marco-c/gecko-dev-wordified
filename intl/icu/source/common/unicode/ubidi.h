@@ -5657,7 +5657,7 @@ a
 way
 which
 *
-mimicks
+mimics
 the
 behavior
 of
@@ -10246,7 +10246,7 @@ tr9
 >
 Unicode
 Standard
-Anned
+Annex
 #
 9
 <

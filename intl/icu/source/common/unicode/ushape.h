@@ -1027,7 +1027,7 @@ buffer
 If
 an
 error
-occured
+occurred
 then
 no
 output

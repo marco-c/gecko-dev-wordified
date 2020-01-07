@@ -729,6 +729,9 @@ status
 =
 U_MEMORY_ALLOCATION_ERROR
 ;
+return
+nullptr
+;
 }
 else
 {
