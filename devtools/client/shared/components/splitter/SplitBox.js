@@ -340,7 +340,7 @@ splitterSize
 :
 PropTypes
 .
-string
+number
 /
 /
 True
