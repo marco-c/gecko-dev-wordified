@@ -97,7 +97,7 @@ add
 let
 address1GUID
 =
-profileStorage
+formAutofillStorage
 .
 addresses
 .
@@ -240,7 +240,7 @@ add
 let
 card1GUID
 =
-profileStorage
+formAutofillStorage
 .
 creditCards
 .
@@ -562,7 +562,7 @@ address
 let
 address2GUID
 =
-profileStorage
+formAutofillStorage
 .
 addresses
 .
@@ -877,7 +877,7 @@ expiration
 "
 )
 ;
-profileStorage
+formAutofillStorage
 .
 creditCards
 .
@@ -1185,7 +1185,7 @@ address
 "
 )
 ;
-profileStorage
+formAutofillStorage
 .
 addresses
 .

@@ -914,12 +914,13 @@ a
 backstage
 pass
 .
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
 "
-profileStorage
+formAutofillStorage
 "
 ]
 ;
@@ -12290,8 +12291,9 @@ by
 this
 module
 .
-var
-profileStorage
+this
+.
+formAutofillStorage
 =
 new
 FormAutofillStorage

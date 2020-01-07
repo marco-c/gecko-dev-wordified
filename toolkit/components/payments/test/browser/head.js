@@ -133,7 +133,7 @@ wrappedJSObject
 ;
 const
 {
-profileStorage
+formAutofillStorage
 }
 =
 ChromeUtils
@@ -914,7 +914,7 @@ add
 "
 )
 ;
-profileStorage
+formAutofillStorage
 .
 addresses
 .
@@ -957,7 +957,7 @@ add
 "
 )
 ;
-profileStorage
+formAutofillStorage
 .
 addresses
 .
@@ -1000,7 +1000,7 @@ add
 "
 )
 ;
-profileStorage
+formAutofillStorage
 .
 creditCards
 .
@@ -1454,7 +1454,7 @@ setup_head
 )
 {
 await
-profileStorage
+formAutofillStorage
 .
 initialize
 (
@@ -1473,7 +1473,7 @@ cleanup
 (
 )
 ;
-profileStorage
+formAutofillStorage
 .
 addresses
 .
@@ -1481,7 +1481,7 @@ _nukeAllRecords
 (
 )
 ;
-profileStorage
+formAutofillStorage
 .
 creditCards
 .
