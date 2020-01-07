@@ -234,7 +234,7 @@ options
 ;
 exports
 .
-fonts
+fontData
 =
 require
 (

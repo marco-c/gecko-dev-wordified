@@ -102,10 +102,10 @@ flex
 auto
 ;
 }
-#
-all
--
+.
 fonts
+-
+list
 {
 padding
 :
@@ -183,6 +183,8 @@ padding
 :
 0
 10px
+0
+5px
 ;
 }
 #

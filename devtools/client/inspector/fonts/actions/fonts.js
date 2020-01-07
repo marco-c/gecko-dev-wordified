@@ -98,6 +98,7 @@ inspector
 updateFonts
 (
 fonts
+otherFonts
 )
 {
 return
@@ -106,6 +107,7 @@ type
 :
 UPDATE_FONTS
 fonts
+otherFonts
 }
 ;
 }
