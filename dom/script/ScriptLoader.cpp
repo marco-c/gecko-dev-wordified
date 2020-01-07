@@ -1817,7 +1817,7 @@ kind
 ScriptKind
 :
 :
-Classic
+eClassic
 )
 {
 return
@@ -4330,7 +4330,7 @@ ModuleLoadRequest
 Progress
 :
 :
-FetchingImports
+eFetchingImports
 ;
 nsCOMArray
 <
@@ -6068,7 +6068,7 @@ ScriptLoadRequest
 Progress
 :
 :
-Loading_Source
+eLoading_Source
 ;
 nsresult
 rv
@@ -6154,7 +6154,7 @@ ScriptLoadRequest
 DataType
 :
 :
-Unknown
+eUnknown
 ;
 /
 /
@@ -6777,7 +6777,7 @@ mValidJSVersion
 ValidJSVersion
 :
 :
-Valid
+eValid
 )
 {
 if
@@ -7650,7 +7650,7 @@ Returns
 ValidJSVersion
 :
 :
-Valid
+eValid
 if
 aVersionStr
 is
@@ -7659,12 +7659,12 @@ string
 of
 the
 form
-*
 '
 1
 .
 n
 '
+*
 n
 =
 0
@@ -7676,7 +7676,7 @@ and
 ValidJSVersion
 :
 :
-Invalid
+eInvalid
 for
 other
 strings
@@ -7731,7 +7731,7 @@ return
 ValidJSVersion
 :
 :
-Invalid
+eInvalid
 ;
 }
 if
@@ -7762,14 +7762,14 @@ return
 ValidJSVersion
 :
 :
-Valid
+eValid
 ;
 }
 return
 ValidJSVersion
 :
 :
-Invalid
+eInvalid
 ;
 }
 static
@@ -7810,7 +7810,7 @@ aVersion
 ValidJSVersion
 :
 :
-Valid
+eValid
 )
 ;
 nsContentTypeParser
@@ -7941,7 +7941,7 @@ aVersion
 ValidJSVersion
 :
 :
-Valid
+eValid
 )
 {
 Telemetry
@@ -8180,7 +8180,7 @@ aKind
 ScriptKind
 :
 :
-Classic
+eClassic
 )
 {
 ScriptLoadRequest
@@ -8229,7 +8229,7 @@ aKind
 ScriptKind
 :
 :
-Module
+eModule
 )
 ;
 return
@@ -8366,7 +8366,7 @@ scriptKind
 ScriptKind
 :
 :
-Classic
+eClassic
 ;
 if
 (
@@ -8398,7 +8398,7 @@ scriptKind
 ScriptKind
 :
 :
-Module
+eModule
 ;
 }
 /
@@ -8433,7 +8433,7 @@ validJSVersion
 ValidJSVersion
 :
 :
-Valid
+eValid
 ;
 /
 /
@@ -8471,7 +8471,7 @@ scriptKind
 ScriptKind
 :
 :
-Classic
+eClassic
 )
 {
 if
@@ -8659,7 +8659,7 @@ scriptKind
 ScriptKind
 :
 :
-Classic
+eClassic
 &
 &
 scriptContent
@@ -10244,7 +10244,7 @@ scriptKind
 ScriptKind
 :
 :
-Module
+eModule
 )
 {
 corsMode
@@ -10333,7 +10333,7 @@ ScriptLoadRequest
 Progress
 :
 :
-Loading_Source
+eLoading_Source
 ;
 request
 -
@@ -10346,7 +10346,7 @@ ScriptLoadRequest
 DataType
 :
 :
-Source
+eSource
 ;
 TRACE_FOR_TEST_BOOL
 (
@@ -10504,7 +10504,7 @@ ScriptLoadRequest
 Progress
 :
 :
-Ready
+eReady
 ;
 if
 (
@@ -11042,7 +11042,7 @@ ScriptLoadRequest
 Progress
 :
 :
-Compiling
+eCompiling
 )
 ;
 MOZ_ASSERT
@@ -11851,7 +11851,7 @@ ScriptLoadRequest
 Progress
 :
 :
-Compiling
+eCompiling
 ;
 Unused
 <
@@ -14165,7 +14165,7 @@ mValidJSVersion
 ValidJSVersion
 :
 :
-Invalid
+eInvalid
 )
 {
 return
@@ -20346,7 +20346,7 @@ ScriptLoadRequest
 Progress
 :
 :
-Compiling
+eCompiling
 "
 Request
 should
@@ -20738,13 +20738,13 @@ CreateLoadRequest
 ScriptKind
 :
 :
-Classic
+eClassic
 aURI
 nullptr
 ValidJSVersion
 :
 :
-Valid
+eValid
 Element
 :
 :

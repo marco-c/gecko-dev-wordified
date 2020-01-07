@@ -389,14 +389,14 @@ mProgress
 Progress
 :
 :
-Loading
+eLoading
 )
 mDataType
 (
 DataType
 :
 :
-Unknown
+eUnknown
 )
 mScriptMode
 (
@@ -568,7 +568,7 @@ mProgress
 Progress
 :
 :
-Ready
+eReady
 )
 ;
 mProgress
@@ -576,7 +576,7 @@ mProgress
 Progress
 :
 :
-Ready
+eReady
 ;
 }
 void
