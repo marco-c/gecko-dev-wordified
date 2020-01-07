@@ -1647,16 +1647,6 @@ const
 HIRect
 &
 inBoxRect
-mozilla
-:
-:
-EventStates
-inState
-uint8_t
-aWidgetType
-nsIFrame
-*
-aFrame
 )
 ;
 void
