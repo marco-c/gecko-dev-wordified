@@ -64421,7 +64421,7 @@ unknown
 rhs
 .
 class
-MCallInstanceOf
+MInstanceOfCache
 :
 public
 MBinaryInstruction
@@ -64441,7 +64441,7 @@ ObjectPolicy
 :
 Data
 {
-MCallInstanceOf
+MInstanceOfCache
 (
 MDefinition
 *
@@ -64471,7 +64471,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-CallInstanceOf
+InstanceOfCache
 )
 TRIVIAL_NEW_WRAPPERS
 }

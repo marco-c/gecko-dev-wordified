@@ -2536,9 +2536,9 @@ ins
 override
 ;
 void
-visitCallInstanceOf
+visitInstanceOfCache
 (
-MCallInstanceOf
+MInstanceOfCache
 *
 ins
 )
