@@ -362,6 +362,7 @@ font
 :
 :
 {
+FontFamily
 FontLanguageOverride
 FontVariantSettings
 FontVariantEastAsian
