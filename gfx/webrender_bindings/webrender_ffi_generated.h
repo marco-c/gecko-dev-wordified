@@ -483,9 +483,6 @@ Invalid
 A8
 =
 1
-RGB8
-=
-2
 BGRA8
 =
 3
