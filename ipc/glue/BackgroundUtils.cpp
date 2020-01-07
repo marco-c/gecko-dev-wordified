@@ -2112,6 +2112,12 @@ GetIsInThirdPartyContext
 aLoadInfo
 -
 >
+GetIsDocshellReload
+(
+)
+aLoadInfo
+-
+>
 GetOriginAttributes
 (
 )
@@ -2682,6 +2688,11 @@ initialSecurityCheckDone
 loadInfoArgs
 .
 isInThirdPartyContext
+(
+)
+loadInfoArgs
+.
+isDocshellReload
 (
 )
 loadInfoArgs
