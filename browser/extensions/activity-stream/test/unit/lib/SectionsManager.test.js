@@ -647,9 +647,7 @@ spy
 (
 global
 .
-Components
-.
-utils
+Cu
 "
 reportError
 "
@@ -673,9 +671,7 @@ assert
 .
 notCalled
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )
@@ -708,9 +704,7 @@ spy
 (
 global
 .
-Components
-.
-utils
+Cu
 "
 reportError
 "
@@ -736,9 +730,7 @@ assert
 .
 calledOnce
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )
