@@ -1068,6 +1068,13 @@ identifyAutofillFields
 input
 )
 ;
+FormAutofillContent
+.
+updateActiveInput
+(
+input
+)
+;
 /
 /
 Put
@@ -1085,7 +1092,7 @@ result
 of
 /
 /
-getInputDetails
+activeFieldDetail
 contains
 the
 same
@@ -1114,10 +1121,7 @@ inputDetailAssertion
 (
 FormAutofillContent
 .
-getInputDetails
-(
-input
-)
+activeFieldDetail
 testcase
 .
 expectedResult
@@ -1238,10 +1242,7 @@ queryString
 }
 FormAutofillContent
 .
-getFormDetails
-(
-input
-)
+activeFormDetails
 .
 forEach
 (
