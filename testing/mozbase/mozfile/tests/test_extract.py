@@ -141,7 +141,7 @@ exists
                 
 contents
 =
-file
+open
 (
 path
 )
@@ -722,6 +722,7 @@ os
 write
 (
 fd
+b
 '
 This
 is

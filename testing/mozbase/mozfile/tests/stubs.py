@@ -177,7 +177,7 @@ path
             
 f
 =
-file
+open
 (
 fullpath
 '

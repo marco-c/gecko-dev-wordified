@@ -85,6 +85,8 @@ import
 unittest
 import
 mozunit
+import
+six
 class
 TestNamedTemporaryFile
 (
@@ -172,6 +174,7 @@ id
         
 test_string
 =
+b
 "
 A
 simple
@@ -308,6 +311,7 @@ tf
 .
 write
 (
+b
 '
 %
 s
@@ -516,7 +520,9 @@ assertTrue
 isinstance
 (
 path
-basestring
+six
+.
+string_types
 )
 )
         

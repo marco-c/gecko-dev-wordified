@@ -89,6 +89,12 @@ import
 absolute_import
 print_function
 from
+six
+.
+moves
+import
+urllib
+from
 contextlib
 import
 contextmanager
@@ -2656,12 +2662,11 @@ URL
 "
 "
     
-import
-urlparse
-    
 parsed
 =
-urlparse
+urllib
+.
+parse
 .
 urlparse
 (
@@ -2749,7 +2754,7 @@ the
     
 result
 of
-urllib2
+urllib
 .
 urlopen
 (
@@ -2758,9 +2763,6 @@ urlopen
 "
 "
 "
-    
-import
-urllib2
     
 #
 handle
@@ -2824,13 +2826,15 @@ file
 path
         
 return
-file
+open
 (
 resource
 )
     
 return
-urllib2
+urllib
+.
+request
 .
 urlopen
 (
