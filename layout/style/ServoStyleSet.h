@@ -286,9 +286,6 @@ ShadowRoot
 namespace
 dom
 class
-ServoRestyleManager
-;
-class
 ServoStyleSheet
 ;
 struct
@@ -509,7 +506,7 @@ ServoStyleSet
 {
 friend
 class
-ServoRestyleManager
+RestyleManager
 ;
 typedef
 ServoElementSnapshotTable

@@ -54886,7 +54886,7 @@ first
 line
 anyway
 .
-ServoRestyleManager
+RestyleManager
 *
 manager
 =
@@ -54896,11 +54896,6 @@ PresContext
 -
 >
 RestyleManager
-(
-)
--
->
-AsServo
 (
 )
 ;

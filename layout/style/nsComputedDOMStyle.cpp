@@ -1042,7 +1042,7 @@ need
 /
 restyling
 .
-ServoRestyleManager
+RestyleManager
 *
 restyleManager
 =
@@ -1050,11 +1050,6 @@ presContext
 -
 >
 RestyleManager
-(
-)
--
->
-AsServo
 (
 )
 ;

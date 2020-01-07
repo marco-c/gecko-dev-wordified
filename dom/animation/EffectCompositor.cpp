@@ -5443,11 +5443,6 @@ RestyleManager
 )
 -
 >
-AsServo
-(
-)
--
->
 PostRestyleEventForAnimations
 (
 target
@@ -5959,11 +5954,6 @@ mPresContext
 -
 >
 RestyleManager
-(
-)
--
->
-AsServo
 (
 )
 -
