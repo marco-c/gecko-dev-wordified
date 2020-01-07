@@ -1575,7 +1575,7 @@ static
 void
 DeleteBuffer
 (
-uint8
+uint8_t
 *
 aData
 )
@@ -1612,7 +1612,7 @@ VideoFrameConverted
 (
 UniquePtr
 <
-uint8
+uint8_t
 [
 ]
 >
@@ -2570,7 +2570,7 @@ ARGBToI420
 (
 static_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -2646,7 +2646,7 @@ RGB565ToI420
 (
 static_cast
 <
-uint8
+uint8_t
 *
 >
 (
