@@ -9162,9 +9162,12 @@ textEditor
 >
 CreateBR
 (
+EditorRawDOMPoint
+(
 &
 inParent
 inOffset
+)
 )
 ;
 if
