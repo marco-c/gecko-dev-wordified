@@ -356,12 +356,6 @@ aIid
 )
 override
 ;
-STDMETHODIMP
-DisconnectHandlerRemotes
-(
-)
-override
-;
 STDMETHODIMP_
 (
 REFIID
