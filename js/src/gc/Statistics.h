@@ -155,15 +155,6 @@ include
 "
 mozilla
 /
-PodOperations
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
@@ -335,6 +326,8 @@ GC
 /
 int
 collectedZoneCount
+=
+0
 ;
 /
 *
@@ -354,6 +347,8 @@ GC
 /
 int
 collectableZoneCount
+=
+0
 ;
 /
 *
@@ -375,6 +370,8 @@ GC
 /
 int
 zoneCount
+=
+0
 ;
 /
 *
@@ -390,6 +387,8 @@ GC
 /
 int
 sweptZoneCount
+=
+0
 ;
 /
 *
@@ -406,6 +405,8 @@ collected
 /
 int
 collectedCompartmentCount
+=
+0
 ;
 /
 *
@@ -427,6 +428,8 @@ GC
 /
 int
 compartmentCount
+=
+0
 ;
 /
 *
@@ -443,6 +446,8 @@ GC
 /
 int
 sweptCompartmentCount
+=
+0
 ;
 bool
 isFullCollection
@@ -460,16 +465,9 @@ collectableZoneCount
 ZoneGCStats
 (
 )
-{
-mozilla
-:
-:
-PodZero
-(
-this
-)
+=
+default
 ;
-}
 }
 ;
 #
