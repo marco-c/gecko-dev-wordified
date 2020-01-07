@@ -217,6 +217,10 @@ mPrinterDC
 (
 aDC
 )
+mWaitingForEMFConversion
+(
+false
+)
 {
 }
 PrintTargetEMF
@@ -237,6 +241,7 @@ mPDFiumProcess
 >
 Delete
 (
+mWaitingForEMFConversion
 )
 ;
 }
@@ -775,6 +780,10 @@ PR_Close
 prfile
 )
 ;
+mWaitingForEMFConversion
+=
+true
+;
 return
 NS_OK
 ;
@@ -900,6 +909,10 @@ Shmem
 aEMF
 )
 {
+mWaitingForEMFConversion
+=
+false
+;
 if
 (
 :
