@@ -1702,6 +1702,12 @@ WebRenderImageHost
 >
 mExternalImageIds
 ;
+nsTHashtable
+<
+nsUint64HashKey
+>
+mSharedSurfaceIds
+;
 TimeStamp
 mPreviousFrameTimeStamp
 ;
