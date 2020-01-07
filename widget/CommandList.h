@@ -199,6 +199,16 @@ cmd_endLine
 )
 NS_DEFINE_COMMAND
 (
+InsertParagraph
+cmd_insertParagraph
+)
+NS_DEFINE_COMMAND
+(
+InsertLineBreak
+cmd_insertLineBreak
+)
+NS_DEFINE_COMMAND
+(
 LineNext
 cmd_lineNext
 )
