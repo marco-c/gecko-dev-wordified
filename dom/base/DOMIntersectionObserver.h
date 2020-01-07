@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsCSSValue
+nsStyleCoord
 .
 h
 "
@@ -826,7 +826,7 @@ Element
 >
 mRoot
 ;
-nsCSSRect
+nsStyleSides
 mRootMargin
 ;
 nsTArray
