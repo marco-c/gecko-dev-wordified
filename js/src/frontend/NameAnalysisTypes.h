@@ -110,14 +110,16 @@ MPL
 /
 #
 ifndef
-frontend_NameAnalysis_h
+frontend_NameAnalysisTypes_h
 #
 define
-frontend_NameAnalysis_h
+frontend_NameAnalysisTypes_h
 #
 include
 "
-jsopcode
+vm
+/
+BytecodeUtil
 .
 h
 "
@@ -1956,4 +1958,4 @@ mozilla
 endif
 /
 /
-frontend_NameAnalysis_h
+frontend_NameAnalysisTypes_h

@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsopcode_h
+vm_BytecodeUtil_h
 #
 define
-jsopcode_h
+vm_BytecodeUtil_h
 /
 *
 *
@@ -4862,6 +4862,6 @@ js
 endif
 /
 *
-jsopcode_h
+vm_BytecodeUtil_h
 *
 /
