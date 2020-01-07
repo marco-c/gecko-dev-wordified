@@ -2117,6 +2117,10 @@ const
 uint32_t
 &
 aDropEffect
+const
+nsCString
+&
+aPrincipalURISpec
 )
 override
 ;
