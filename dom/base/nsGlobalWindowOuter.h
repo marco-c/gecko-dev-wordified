@@ -1070,6 +1070,7 @@ PRCList
 .
 class
 nsGlobalWindowOuter
+final
 :
 public
 mozilla

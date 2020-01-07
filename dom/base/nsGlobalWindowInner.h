@@ -1237,6 +1237,7 @@ PRCList
 .
 class
 nsGlobalWindowInner
+final
 :
 public
 mozilla
