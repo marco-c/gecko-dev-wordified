@@ -6708,9 +6708,9 @@ runner
 .
 device
 .
-dm
+device
 .
-getInfo
+get_info
 (
 )
             

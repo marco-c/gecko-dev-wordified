@@ -73,10 +73,6 @@ deepcopy
 import
 mozversion
 from
-mozdevice
-import
-DMError
-from
 mozprofile
 import
 Profile
@@ -3353,9 +3349,9 @@ runner
 .
 device
 .
-dm
+app_ctx
 .
-_deviceSerial
+device_serial
         
 }
         
@@ -3424,7 +3420,7 @@ runner
 .
 device
 .
-dm
+device
 .
 forward
 (
@@ -3699,9 +3695,9 @@ runner
 .
 device
 .
-dm
+device
 .
-remove_forward
+remove_forwards
 (
                     
 "
@@ -3726,7 +3722,7 @@ unresponsive_count
 0
             
 except
-DMError
+Exception
 :
                 
 self

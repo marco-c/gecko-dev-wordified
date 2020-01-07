@@ -967,6 +967,10 @@ adb_path
 avd_home
 =
 avd_home
+                                                  
+device_serial
+=
+serial
 )
     
 device_args
@@ -994,12 +998,6 @@ binary
 '
 :
 binary
-                   
-'
-serial
-'
-:
-serial
                    
 '
 logdir
