@@ -324,7 +324,7 @@ SRTP_AES128_CM_HMAC_SHA1_80
 "
 )
 ;
-crypto_policy_set_aes_cm_128_hmac_sha1_80
+srtp_crypto_policy_set_aes_cm_128_hmac_sha1_80
 (
 &
 policy
@@ -332,7 +332,7 @@ policy
 rtp
 )
 ;
-crypto_policy_set_aes_cm_128_hmac_sha1_80
+srtp_crypto_policy_set_aes_cm_128_hmac_sha1_80
 (
 &
 policy
@@ -357,7 +357,7 @@ SRTP_AES128_CM_HMAC_SHA1_32
 "
 )
 ;
-crypto_policy_set_aes_cm_128_hmac_sha1_32
+srtp_crypto_policy_set_aes_cm_128_hmac_sha1_32
 (
 &
 policy
@@ -365,7 +365,7 @@ policy
 rtp
 )
 ;
-crypto_policy_set_aes_cm_128_hmac_sha1_80
+srtp_crypto_policy_set_aes_cm_128_hmac_sha1_80
 (
 &
 policy
@@ -534,7 +534,7 @@ Now
 make
 the
 session
-err_status_t
+srtp_err_status_t
 r
 =
 srtp_create
@@ -553,7 +553,7 @@ if
 r
 !
 =
-err_status_ok
+srtp_err_status_ok
 )
 {
 CSFLogError
@@ -778,7 +778,7 @@ len
 =
 in_len
 ;
-err_status_t
+srtp_err_status_t
 r
 =
 srtp_protect
@@ -794,7 +794,7 @@ if
 r
 !
 =
-err_status_ok
+srtp_err_status_ok
 )
 {
 CSFLogError
@@ -892,7 +892,7 @@ len
 =
 in_len
 ;
-err_status_t
+srtp_err_status_t
 r
 =
 srtp_unprotect
@@ -908,7 +908,7 @@ if
 r
 !
 =
-err_status_ok
+srtp_err_status_ok
 )
 {
 CSFLogError
@@ -1014,7 +1014,7 @@ len
 =
 in_len
 ;
-err_status_t
+srtp_err_status_t
 r
 =
 srtp_protect_rtcp
@@ -1030,7 +1030,7 @@ if
 r
 !
 =
-err_status_ok
+srtp_err_status_ok
 )
 {
 CSFLogError
@@ -1128,7 +1128,7 @@ len
 =
 in_len
 ;
-err_status_t
+srtp_err_status_t
 r
 =
 srtp_unprotect_rtcp
@@ -1144,7 +1144,7 @@ if
 r
 !
 =
-err_status_ok
+srtp_err_status_ok
 )
 {
 CSFLogError
@@ -1250,7 +1250,7 @@ if
 initialized
 )
 {
-err_status_t
+srtp_err_status_t
 r
 =
 srtp_init
@@ -1262,7 +1262,7 @@ if
 r
 !
 =
-err_status_ok
+srtp_err_status_ok
 )
 {
 CSFLogError
@@ -1301,7 +1301,7 @@ if
 r
 !
 =
-err_status_ok
+srtp_err_status_ok
 )
 {
 CSFLogError
