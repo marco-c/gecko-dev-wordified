@@ -193,10 +193,7 @@ computed
 length
 :
 :
-{
 Length
-NonNegativeLength
-}
 ;
 use
 values
@@ -395,7 +392,7 @@ Option
 RGBA
 >
 Length
-NonNegativeLength
+Length
 Length
 >
 ;
@@ -475,7 +472,7 @@ GenericFilter
 <
 Angle
 Number
-NonNegativeLength
+Length
 SimpleShadow
 >
 ;
@@ -512,7 +509,7 @@ GenericFilter
 <
 Angle
 Number
-NonNegativeLength
+Length
 Impossible
 >
 ;
@@ -542,7 +539,7 @@ Option
 RGBA
 >
 Length
-NonNegativeLength
+Length
 >
 ;
 impl
