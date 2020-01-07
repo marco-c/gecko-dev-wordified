@@ -2356,6 +2356,13 @@ IsAvailable
 )
 )
 {
+GeckoAppShellSupport
+:
+:
+Init
+(
+)
+;
 /
 /
 Set
