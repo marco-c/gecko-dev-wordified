@@ -60,7 +60,7 @@ primaryPort
 const
 uuidGenerator
 =
-AM_Cc
+Cc
 [
 "
 mozilla
@@ -77,7 +77,7 @@ generator
 .
 getService
 (
-AM_Ci
+Ci
 .
 nsIUUIDGenerator
 )
@@ -122,7 +122,7 @@ addonsDir
 .
 create
 (
-AM_Ci
+Ci
 .
 nsIFile
 .

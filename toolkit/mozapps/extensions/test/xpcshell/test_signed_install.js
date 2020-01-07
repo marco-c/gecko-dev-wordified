@@ -113,7 +113,11 @@ gServer
 =
 createHttpServer
 (
+{
+port
+:
 4444
+}
 )
 ;
 /
@@ -173,7 +177,7 @@ leafName
 var
 stream
 =
-AM_Cc
+Cc
 [
 "
 mozilla
@@ -194,7 +198,7 @@ stream
 .
 createInstance
 (
-AM_Ci
+Ci
 .
 nsIStringInputStream
 )
@@ -213,7 +217,7 @@ FOOBAR
 var
 zipW
 =
-AM_Cc
+Cc
 [
 "
 mozilla
@@ -228,7 +232,7 @@ zipwriter
 .
 createInstance
 (
-AM_Ci
+Ci
 .
 nsIZipWriter
 )
@@ -269,7 +273,7 @@ test
 txt
 "
 0
-AM_Ci
+Ci
 .
 nsIZipWriter
 .
@@ -345,7 +349,7 @@ leafName
 var
 stream
 =
-AM_Cc
+Cc
 [
 "
 mozilla
@@ -366,7 +370,7 @@ stream
 .
 createInstance
 (
-AM_Ci
+Ci
 .
 nsIStringInputStream
 )
@@ -385,7 +389,7 @@ FOOBAR
 var
 zipW
 =
-AM_Cc
+Cc
 [
 "
 mozilla
@@ -400,7 +404,7 @@ zipwriter
 .
 createInstance
 (
-AM_Ci
+Ci
 .
 nsIZipWriter
 )
@@ -429,7 +433,7 @@ test2
 txt
 "
 0
-AM_Ci
+Ci
 .
 nsIZipWriter
 .
@@ -505,7 +509,7 @@ leafName
 var
 stream
 =
-AM_Cc
+Cc
 [
 "
 mozilla
@@ -526,7 +530,7 @@ stream
 .
 createInstance
 (
-AM_Ci
+Ci
 .
 nsIStringInputStream
 )
@@ -545,7 +549,7 @@ FOOBAR
 var
 zipW
 =
-AM_Cc
+Cc
 [
 "
 mozilla
@@ -560,7 +564,7 @@ zipwriter
 .
 createInstance
 (
-AM_Ci
+Ci
 .
 nsIZipWriter
 )

@@ -334,14 +334,6 @@ com
 }
 )
 ;
-gPort
-=
-testserver
-.
-identity
-.
-primaryPort
-;
 testserver
 .
 registerDirectory
@@ -3968,11 +3960,9 @@ http
 :
 /
 /
-localhost
-:
-{
-gPort
-}
+example
+.
+com
 /
 addons
 /
@@ -5465,6 +5455,7 @@ promiseShutdownManager
 (
 )
 ;
+await
 changeXPIDBVersion
 (
 100
@@ -5674,6 +5665,7 @@ promiseShutdownManager
 (
 )
 ;
+await
 changeXPIDBVersion
 (
 100
@@ -5828,6 +5820,7 @@ promiseShutdownManager
 (
 )
 ;
+await
 changeXPIDBVersion
 (
 100
@@ -5972,6 +5965,7 @@ promiseShutdownManager
 (
 )
 ;
+await
 changeXPIDBVersion
 (
 100

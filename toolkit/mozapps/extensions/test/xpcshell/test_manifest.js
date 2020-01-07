@@ -453,7 +453,7 @@ providesUpdatesSecurely
 true
 blocklistState
 :
-AM_Ci
+Ci
 .
 nsIBlocklistService
 .

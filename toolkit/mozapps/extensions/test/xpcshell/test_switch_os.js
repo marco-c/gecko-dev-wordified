@@ -188,9 +188,12 @@ ID
 let
 jData
 =
+await
 loadJSON
 (
 gExtensionsJSON
+.
+path
 )
 ;
 for
@@ -260,10 +263,13 @@ bar
 ;
 }
 }
+await
 saveJSON
 (
 jData
 gExtensionsJSON
+.
+path
 )
 ;
 startupManager

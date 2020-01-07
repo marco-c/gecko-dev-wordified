@@ -243,7 +243,7 @@ profileDir
 .
 create
 (
-AM_Ci
+Ci
 .
 nsIFile
 .
@@ -597,7 +597,7 @@ getResourceURI
 .
 QueryInterface
 (
-AM_Ci
+Ci
 .
 nsIFileURL
 )
@@ -983,7 +983,7 @@ getResourceURI
 .
 QueryInterface
 (
-AM_Ci
+Ci
 .
 nsIFileURL
 )
@@ -2234,7 +2234,7 @@ getResourceURI
 .
 QueryInterface
 (
-AM_Ci
+Ci
 .
 nsIFileURL
 )
