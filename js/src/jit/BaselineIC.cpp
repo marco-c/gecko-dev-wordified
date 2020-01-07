@@ -24620,8 +24620,13 @@ scratch
 ;
 masm
 .
-checkStackAlignment
+assertStackAlignment
 (
+sizeof
+(
+Value
+)
+0
 )
 ;
 /
