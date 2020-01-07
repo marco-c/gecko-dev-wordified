@@ -172,6 +172,8 @@ monitor
 .
 panelWin
 .
+api
+.
 once
 (
 "
@@ -487,7 +489,7 @@ requests
 in
 netmonitor
 get
-finsished
+finished
 .
 *
 Otherwise
