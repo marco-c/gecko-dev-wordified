@@ -45780,7 +45780,7 @@ Reset
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 EnumerateSubDocuments
@@ -45929,7 +45929,7 @@ break
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 CollectDescendantDocuments

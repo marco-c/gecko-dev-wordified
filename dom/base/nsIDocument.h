@@ -11239,7 +11239,6 @@ void
 aData
 )
 ;
-virtual
 void
 EnumerateSubDocuments
 (
@@ -11249,8 +11248,6 @@ void
 *
 aData
 )
-=
-0
 ;
 /
 *
@@ -11298,7 +11295,6 @@ nsIDocument
 aDocument
 )
 ;
-virtual
 void
 CollectDescendantDocuments
 (
@@ -11315,8 +11311,6 @@ nsDocTestFunc
 aCallback
 )
 const
-=
-0
 ;
 /
 *
