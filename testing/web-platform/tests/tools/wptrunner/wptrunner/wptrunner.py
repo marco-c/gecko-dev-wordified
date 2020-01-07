@@ -1794,7 +1794,7 @@ suite_end
 )
     
 return
-unexpected_count
+unexpected_total
 =
 =
 0
@@ -2032,12 +2032,3 @@ else
 :
             
 raise
-    
-finally
-:
-        
-logger
-.
-shutdown
-(
-)
