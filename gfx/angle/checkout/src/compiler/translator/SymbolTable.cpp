@@ -1450,7 +1450,7 @@ return
 nullptr
 ;
 }
-constexpr14
+constexpr
 bool
 IsGenType
 (
@@ -1504,7 +1504,7 @@ return
 false
 ;
 }
-constexpr14
+constexpr
 bool
 IsVecType
 (
@@ -1558,7 +1558,7 @@ return
 false
 ;
 }
-constexpr14
+constexpr
 const
 TType
 *
@@ -1734,7 +1734,7 @@ type
 ;
 }
 }
-constexpr14
+constexpr
 const
 TType
 *

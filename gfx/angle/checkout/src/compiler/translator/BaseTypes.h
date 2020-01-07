@@ -519,8 +519,7 @@ list
 EbtLast
 }
 ;
-constexpr14
-static
+constexpr
 const
 char
 *
