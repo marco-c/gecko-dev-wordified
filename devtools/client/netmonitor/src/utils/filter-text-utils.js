@@ -887,7 +887,8 @@ remote
 ip
 "
 :
-match
+let
+data
 =
 getFormattedIPAndPort
 (
@@ -898,6 +899,12 @@ item
 .
 remotePort
 )
+;
+match
+=
+data
+?
+data
 .
 toLowerCase
 (
@@ -907,6 +914,8 @@ includes
 (
 value
 )
+:
+false
 ;
 break
 ;
