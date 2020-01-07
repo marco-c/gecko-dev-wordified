@@ -436,10 +436,7 @@ folder
 leftPaneRoot
 ;
 }
-selectLeftPaneQuery
-:
-function
-PO_selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 aQueryName
 )
@@ -721,7 +718,7 @@ leftPaneQueries
 )
 this
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 container
 )

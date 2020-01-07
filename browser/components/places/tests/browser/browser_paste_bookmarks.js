@@ -156,7 +156,7 @@ pane
 ;
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 BookmarksToolbar
@@ -251,7 +251,7 @@ pane
 ;
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 UnfiledBookmarks
@@ -403,7 +403,7 @@ pane
 ;
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 BookmarksToolbar
@@ -612,7 +612,7 @@ pane
 ;
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 UnfiledBookmarks
@@ -868,7 +868,7 @@ pane
 ;
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 BookmarksToolbar
@@ -1436,7 +1436,7 @@ pane
 ;
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 UnfiledBookmarks

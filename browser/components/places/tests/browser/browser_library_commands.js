@@ -228,7 +228,7 @@ PlacesOrganizer
 ;
 PO
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 History
@@ -731,7 +731,7 @@ PlacesOrganizer
 ;
 PO
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 BookmarksToolbar
@@ -1311,7 +1311,7 @@ PlacesOrganizer
 ;
 PO
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 BookmarksToolbar
@@ -1649,7 +1649,7 @@ PlacesOrganizer
 ;
 PO
 .
-selectLeftPaneQuery
+selectLeftPaneBuiltIn
 (
 "
 Tags
