@@ -2284,7 +2284,11 @@ gSubDialog
 open
 (
 EDIT_CREDIT_CARD_URL
-null
+"
+resizable
+=
+no
+"
 creditCard
 )
 ;

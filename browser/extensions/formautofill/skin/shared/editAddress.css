@@ -72,6 +72,12 @@ flex
 input
 select
 {
+flex
+:
+1
+0
+auto
+;
 width
 :
 calc
