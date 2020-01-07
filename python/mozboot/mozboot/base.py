@@ -3182,7 +3182,7 @@ group
 )
     
 def
-_hgplain_env
+_hg_cleanenv
 (
 self
 )
@@ -3203,8 +3203,10 @@ with
 the
 HGPLAIN
         
+and
+HGRCPATH
 environment
-variable
+variables
 .
         
 HGPLAIN
@@ -3225,6 +3227,33 @@ for
 use
 in
 scripts
+.
+        
+HGRCPATH
+controls
+the
+loading
+of
+hgrc
+files
+.
+Setting
+it
+to
+the
+empty
+        
+string
+forces
+that
+no
+user
+or
+system
+hgrc
+file
+is
+used
 .
         
 "
@@ -3252,6 +3281,18 @@ HGPLAIN
 b
 '
 1
+'
+        
+env
+[
+b
+'
+HGRCPATH
+'
+]
+=
+b
+'
 '
         
 return
@@ -3302,7 +3343,7 @@ version
 '
 self
 .
-_hgplain_env
+_hg_cleanenv
 (
 )
 )
