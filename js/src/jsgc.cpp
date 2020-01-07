@@ -46393,6 +46393,12 @@ ZealMode
 :
 CheckGrayMarking
 )
+&
+&
+!
+isIncrementalGCInProgress
+(
+)
 )
 {
 MOZ_RELEASE_ASSERT
