@@ -3678,6 +3678,9 @@ selection
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 selection

@@ -11587,7 +11587,9 @@ index
 return
 NS_ERROR_NULL_POINTER
 ;
-return
+ErrorResult
+err
+;
 mDomSelections
 [
 index
@@ -11595,6 +11597,14 @@ index
 -
 >
 RemoveAllRanges
+(
+err
+)
+;
+return
+err
+.
+StealNSResult
 (
 )
 ;
@@ -12355,6 +12365,9 @@ index
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 if
@@ -12585,6 +12598,9 @@ index
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -12720,6 +12736,9 @@ index
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 /
@@ -12828,6 +12847,9 @@ index
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 return
@@ -12938,6 +12960,9 @@ index
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 /

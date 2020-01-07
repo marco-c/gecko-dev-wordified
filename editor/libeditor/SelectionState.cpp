@@ -737,6 +737,9 @@ aSel
 >
 RemoveAllRanges
 (
+IgnoreErrors
+(
+)
 )
 ;
 /
