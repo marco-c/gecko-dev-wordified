@@ -2308,6 +2308,17 @@ isAutomaticRestoreEnabled
 (
 )
 {
+if
+(
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
+)
+{
+return
+false
+;
+}
 return
 Services
 .
