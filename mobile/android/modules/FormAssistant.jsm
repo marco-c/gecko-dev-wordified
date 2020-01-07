@@ -2377,12 +2377,6 @@ ownerGlobal
 frame
 .
 frameElement
-&
-&
-frame
-!
-=
-content
 ;
 frame
 =
