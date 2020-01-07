@@ -4867,7 +4867,7 @@ mozilla
 Preferences
 :
 :
-AreAllPrefsSetInContentProcess
+ArePrefsInitedInContentProcess
 (
 )
 )
