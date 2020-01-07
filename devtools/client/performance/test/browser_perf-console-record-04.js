@@ -196,8 +196,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -207,7 +207,7 @@ target
 console
 }
 =
-yield
+await
 initConsoleInNewTab
 (
 {
@@ -225,7 +225,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformanceInTab
 (
 {
@@ -268,7 +268,7 @@ true
 }
 )
 ;
-yield
+await
 console
 .
 profile
@@ -278,7 +278,7 @@ rust
 "
 )
 ;
-yield
+await
 started
 ;
 let
@@ -440,7 +440,7 @@ is
 still
 rendering
 .
-yield
+await
 times
 (
 OverviewView
@@ -451,15 +451,11 @@ UI_OVERVIEW_RENDERED
 {
 expectedArgs
 :
-{
-"
-1
-"
-:
+[
 Constants
 .
 FRAMERATE_GRAPH_LOW_RES_INTERVAL
-}
+]
 }
 )
 ;
@@ -483,7 +479,7 @@ true
 }
 )
 ;
-yield
+await
 console
 .
 profileEnd
@@ -493,10 +489,10 @@ rust
 "
 )
 ;
-yield
+await
 stopped
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel
