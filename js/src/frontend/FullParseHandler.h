@@ -4544,10 +4544,10 @@ newPropertyAccess
 (
 ParseNode
 *
-pn
+expr
 PropertyName
 *
-name
+key
 uint32_t
 end
 )
@@ -4558,9 +4558,9 @@ new_
 PropertyAccess
 >
 (
-pn
-name
-pn
+expr
+key
+expr
 -
 >
 pn_pos
