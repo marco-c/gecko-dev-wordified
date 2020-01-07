@@ -534,7 +534,7 @@ Get
 )
 -
 >
-GetCompositorDevice
+GetVRDevice
 (
 )
 ;
