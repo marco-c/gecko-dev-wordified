@@ -1270,6 +1270,10 @@ SkDrawIter
 ;
 friend
 class
+SkDrawTiler
+;
+friend
+class
 SkDeviceFilteredPaint
 ;
 friend
