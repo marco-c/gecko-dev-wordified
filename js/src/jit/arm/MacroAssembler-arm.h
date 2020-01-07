@@ -850,7 +850,7 @@ ma_nop
 (
 )
 ;
-void
+BufferOffset
 ma_movPatchable
 (
 Imm32
@@ -864,7 +864,7 @@ Condition
 c
 )
 ;
-void
+BufferOffset
 ma_movPatchable
 (
 ImmPtr
