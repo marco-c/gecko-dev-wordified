@@ -937,7 +937,7 @@ addon
 *
 param
 {
-number
+string
 }
 id
 An
