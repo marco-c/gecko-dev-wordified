@@ -7620,6 +7620,10 @@ inAnyPanel
 toolbarbutton
 buttonStateHover
 {
+color
+:
+inherit
+;
 background
 -
 color
@@ -7686,6 +7690,10 @@ inAnyPanel
 toolbarbutton
 buttonStateActive
 {
+color
+:
+inherit
+;
 background
 -
 color
