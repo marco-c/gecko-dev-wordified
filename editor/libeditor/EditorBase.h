@@ -8838,7 +8838,7 @@ HandleInlineSpellCheck
 EditAction
 action
 Selection
-*
+&
 aSelection
 nsINode
 *

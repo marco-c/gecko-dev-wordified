@@ -3459,6 +3459,7 @@ mHTMLEditor
 HandleInlineSpellCheck
 (
 aAction
+*
 selection
 mRangeItem
 -
