@@ -193,6 +193,15 @@ nsTObserverArray
 .
 h
 "
+#
+include
+"
+js
+/
+TracingAPI
+.
+h
+"
 class
 nsIDocShell
 ;
@@ -204,9 +213,6 @@ nsIEventListenerInfo
 ;
 class
 nsPIDOMWindowInner
-;
-class
-JSTracer
 ;
 struct
 EventTypeData

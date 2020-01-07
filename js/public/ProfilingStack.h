@@ -152,7 +152,10 @@ Utility
 h
 "
 class
+JS_PUBLIC_API
+(
 JSTracer
+)
 ;
 class
 PseudoStack

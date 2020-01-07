@@ -158,9 +158,6 @@ JSLinearString
 class
 JSRope
 ;
-class
-JSTracer
-;
 namespace
 js
 {
