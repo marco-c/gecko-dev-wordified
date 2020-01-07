@@ -142,9 +142,7 @@ editor
 )
 ;
 const
-{
 TextPropertyEditor
-}
 =
 require
 (
