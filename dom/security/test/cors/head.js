@@ -197,12 +197,8 @@ opened
 var
 openToolboxForTab
 =
-Task
-.
 async
-(
 function
-*
 (
 tab
 toolId
@@ -231,7 +227,7 @@ forTab
 tab
 )
 ;
-yield
+await
 target
 .
 makeRemote
@@ -306,7 +302,7 @@ now
 .
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -327,7 +323,7 @@ frame
 is
 focused
 .
-yield
+await
 new
 Promise
 (
@@ -357,7 +353,6 @@ return
 toolbox
 ;
 }
-)
 ;
 /
 *
