@@ -242,7 +242,7 @@ class
 SVGIRect
 ;
 class
-SVGPathElement
+SVGGeometryElement
 ;
 }
 /
@@ -3227,9 +3227,9 @@ mozilla
 dom
 :
 :
-SVGPathElement
+SVGGeometryElement
 *
-GetTextPathPathElement
+GetTextPathGeometryElement
 (
 nsIFrame
 *
