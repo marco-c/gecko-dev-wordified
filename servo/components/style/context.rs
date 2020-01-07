@@ -4453,7 +4453,6 @@ the
 main
 thread
 .
-pub
 fn
 apply_flags
 (
@@ -4477,6 +4476,14 @@ ThreadState
 :
 :
 LAYOUT
+)
+;
+self
+.
+cache
+.
+evict_all
+(
 )
 ;
 for
