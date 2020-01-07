@@ -2502,9 +2502,6 @@ ServiceWorkerRegistrationMainThread
 :
 Update
 (
-ErrorResult
-&
-aRv
 )
 {
 MOZ_ASSERT
@@ -3308,9 +3305,6 @@ ServiceWorkerRegistrationWorkerThread
 :
 Update
 (
-ErrorResult
-&
-aRv
 )
 {
 if

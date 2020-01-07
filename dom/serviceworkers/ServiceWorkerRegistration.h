@@ -287,9 +287,6 @@ ServiceWorkerRegistrationPromise
 >
 Update
 (
-ErrorResult
-&
-aRv
 )
 =
 0
