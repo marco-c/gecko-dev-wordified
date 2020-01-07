@@ -2262,6 +2262,7 @@ update
 (
 gpu_cache
 resource_cache
+device_pixel_scale
 )
 ;
 let
