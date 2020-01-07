@@ -807,9 +807,7 @@ accesskey
 ;
 "
 #
-else
-#
-ifdef
+elifdef
 XP_MACOSX
 label
 =
@@ -847,8 +845,6 @@ key
 "
 key_quitApplication
 "
-#
-endif
 command
 =
 "
