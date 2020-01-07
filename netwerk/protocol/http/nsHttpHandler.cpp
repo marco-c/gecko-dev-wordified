@@ -1825,8 +1825,13 @@ kTCPSendBufferSize
 )
 mSpdyPushAllowance
 (
-32768
+131072
 )
+/
+/
+match
+default
+pref
 mSpdyPullAllowance
 (
 ASpdySession
