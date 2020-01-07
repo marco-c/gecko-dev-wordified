@@ -3849,7 +3849,7 @@ TARGET_SUBST_VAR
 RUST_HOST_TARGET
 '
 class
-RustTest
+RustTests
 (
 ContextDerived
 )
@@ -3860,7 +3860,7 @@ __slots__
 (
         
 '
-name
+names
 '
         
 '
@@ -3874,7 +3874,7 @@ __init__
 (
 self
 context
-name
+names
 features
 )
 :
@@ -3889,9 +3889,9 @@ context
         
 self
 .
-name
+names
 =
-name
+names
         
 self
 .
