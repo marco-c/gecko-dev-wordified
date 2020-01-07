@@ -7891,9 +7891,9 @@ aSelector
 |
 and
 its
-nsCSSSelectorList
 /
 /
+RawServoSelectorList
 in
 mTable
 asynchronously
@@ -7908,7 +7908,7 @@ synchronously
 for
 now
 because
-NotifiyExpired
+NotifyExpired
 (
 )
 will
