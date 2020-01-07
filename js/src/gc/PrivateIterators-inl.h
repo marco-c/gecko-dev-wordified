@@ -124,16 +124,16 @@ structures
 /
 #
 ifndef
-gc_GCIteration_h
+gc_PrivateIterators_inl_h
 #
 define
-gc_GCIteration_h
+gc_PrivateIterators_inl_h
 #
 include
 "
 gc
 /
-Iteration
+PublicIterators
 .
 h
 "
@@ -707,4 +707,4 @@ js
 endif
 /
 /
-gc_GCIteration_h
+gc_PrivateIterators_inl_h
