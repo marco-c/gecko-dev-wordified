@@ -646,7 +646,11 @@ sign
 flags
 15_000
 chall_bytes
+vec
+!
+[
 app_bytes
+]
 vec
 !
 [

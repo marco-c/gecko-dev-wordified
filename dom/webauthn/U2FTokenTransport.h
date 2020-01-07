@@ -270,6 +270,13 @@ uint8_t
 >
 &
 aChallenge
+const
+nsTArray
+<
+WebAuthnExtension
+>
+&
+aExtensions
 bool
 aRequireUserVerification
 uint32_t
