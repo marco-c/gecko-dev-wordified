@@ -757,7 +757,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
 Promise
 *
 GetFinished
@@ -772,7 +771,6 @@ Cancel
 (
 )
 ;
-virtual
 void
 Finish
 (
@@ -801,7 +799,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
 void
 Reverse
 (
