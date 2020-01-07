@@ -850,7 +850,7 @@ return
 mEditorBase
 -
 >
-JoinNodesImpl
+DoJoinNodes
 (
 mStartOfRightNode
 .

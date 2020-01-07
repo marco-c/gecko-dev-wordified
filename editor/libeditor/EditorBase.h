@@ -4943,7 +4943,7 @@ aError
 *
 *
 *
-JoinNodesImpl
+DoJoinNodes
 (
 )
 merges
@@ -5042,7 +5042,7 @@ aNodeToKeep
 *
 /
 nsresult
-JoinNodesImpl
+DoJoinNodes
 (
 nsINode
 *
