@@ -517,6 +517,11 @@ ObjectCreate
 \
 _
 (
+ObjectIs
+)
+\
+_
+(
 ObjectToString
 )
 \

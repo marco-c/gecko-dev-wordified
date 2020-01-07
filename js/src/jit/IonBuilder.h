@@ -2663,6 +2663,8 @@ left
 MDefinition
 *
 right
+bool
+canTrackOptimization
 )
 ;
 AbortReasonOr
@@ -5365,6 +5367,14 @@ callInfo
 ;
 InliningResult
 inlineObjectCreate
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
+inlineObjectIs
 (
 CallInfo
 &

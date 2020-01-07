@@ -970,6 +970,15 @@ comp
 override
 ;
 void
+visitSameValue
+(
+MSameValue
+*
+comp
+)
+override
+;
+void
 visitTypeOf
 (
 MTypeOf

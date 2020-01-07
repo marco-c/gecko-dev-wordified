@@ -40463,6 +40463,7 @@ emitted
 op
 left
 right
+true
 )
 )
 ;
@@ -40759,6 +40760,8 @@ left
 MDefinition
 *
 right
+bool
+canTrackOptimization
 )
 {
 MOZ_ASSERT
@@ -40770,6 +40773,10 @@ emitted
 false
 )
 ;
+if
+(
+canTrackOptimization
+)
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -40818,6 +40825,10 @@ MCompare
 Compare_Unknown
 )
 {
+if
+(
+canTrackOptimization
+)
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -41074,6 +41085,10 @@ isEffectful
 )
 )
 ;
+if
+(
+canTrackOptimization
+)
 trackOptimizationSuccess
 (
 )
