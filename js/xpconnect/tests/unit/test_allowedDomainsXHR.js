@@ -1,11 +1,4 @@
-var
-cu
-=
-Components
-.
-utils
-;
-cu
+Cu
 .
 import
 (
@@ -101,7 +94,7 @@ root
 var
 sb
 =
-cu
+Cu
 .
 Sandbox
 (
@@ -362,7 +355,7 @@ Test
 sync
 XHR
 sending
-cu
+Cu
 .
 evalInSandbox
 (
@@ -383,7 +376,7 @@ sb
 var
 res
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -491,7 +484,7 @@ bug
 )
 try
 {
-cu
+Cu
 .
 evalInSandbox
 (
@@ -512,7 +505,7 @@ sb
 var
 res
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -620,7 +613,7 @@ this
 should
 work
 .
-cu
+Cu
 .
 evalInSandbox
 (
@@ -641,7 +634,7 @@ sb
 var
 res
 =
-cu
+Cu
 .
 evalInSandbox
 (
@@ -815,7 +808,7 @@ available
 for
 it
 .
-cu
+Cu
 .
 evalInSandbox
 (
@@ -866,7 +859,7 @@ finish
 var
 async
 =
-cu
+Cu
 .
 evalInSandbox
 (
