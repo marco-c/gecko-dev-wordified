@@ -6226,6 +6226,12 @@ _checkClosed
 (
 )
 ;
+this
+.
+_syncTransceivers
+(
+)
+;
 let
 origin
 =
@@ -6444,6 +6450,12 @@ options
 this
 .
 _checkClosed
+(
+)
+;
+this
+.
+_syncTransceivers
 (
 )
 ;
