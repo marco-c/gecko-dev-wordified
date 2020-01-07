@@ -1173,6 +1173,8 @@ const
 nsCString
 &
 value
+bool
+merge
 ErrorResult
 &
 aRv
@@ -1189,6 +1191,8 @@ const
 nsCString
 &
 value
+bool
+merge
 ErrorResult
 &
 aRv
