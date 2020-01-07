@@ -795,9 +795,7 @@ dom_rule
 ;
 Ok
 (
-(
 idx
-)
 )
 }
 /

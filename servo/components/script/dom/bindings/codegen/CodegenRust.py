@@ -11556,7 +11556,10 @@ result
 CGGeneric
 (
 "
-NonNullJSObjectPtr
+NonNull
+<
+JSObject
+>
 "
 )
         
@@ -18445,16 +18448,13 @@ throw_not_in_union
 '
         
 '
-dom
+std
 :
 :
-bindings
+ptr
 :
 :
-nonnull
-:
-:
-NonNullJSObjectPtr
+NonNull
 '
         
 '
@@ -48514,16 +48514,13 @@ MozMap
 '
         
 '
-dom
+std
 :
 :
-bindings
+ptr
 :
 :
-nonnull
-:
-:
-NonNullJSObjectPtr
+NonNull
 '
         
 '

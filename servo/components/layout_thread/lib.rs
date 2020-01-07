@@ -175,10 +175,6 @@ net_traits
 ;
 extern
 crate
-nonzero
-;
-extern
-crate
 parking_lot
 ;
 #

@@ -407,12 +407,6 @@ PipelineId
 }
 ;
 use
-nonzero
-:
-:
-NonZero
-;
-use
 range
 :
 :
@@ -641,6 +635,15 @@ use
 std
 :
 :
+ptr
+:
+:
+NonNull
+;
+use
+std
+:
+:
 sync
 :
 :
@@ -818,7 +821,7 @@ data
 .
 ptr
 .
-get
+as_ptr
 (
 )
 as
@@ -1786,7 +1789,7 @@ OpaqueStyleAndLayoutData
 {
 ptr
 :
-NonZero
+NonNull
 :
 :
 new_unchecked
@@ -3284,7 +3287,7 @@ d
 .
 ptr
 .
-get
+as_ptr
 (
 )
 as
@@ -4146,7 +4149,7 @@ d
 .
 ptr
 .
-get
+as_ptr
 (
 )
 as

@@ -6389,7 +6389,6 @@ NodeOverflowResponse
 (
 Some
 (
-(
 Point2D
 :
 :
@@ -6401,7 +6400,6 @@ overflow_x
 style_box
 .
 overflow_y
-)
 )
 )
 )

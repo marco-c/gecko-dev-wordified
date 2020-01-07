@@ -425,10 +425,6 @@ net_traits
 ;
 extern
 crate
-nonzero
-;
-extern
-crate
 num_traits
 ;
 extern

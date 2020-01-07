@@ -368,7 +368,6 @@ libc
 calloc
 (
 1
-(
 mem
 :
 :
@@ -391,7 +390,6 @@ size_of
 Extra
 >
 (
-)
 )
 )
 as
