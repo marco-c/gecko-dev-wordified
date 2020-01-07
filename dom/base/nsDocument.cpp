@@ -55249,7 +55249,7 @@ UpdateFrameRequestCallbackSchedulingState
 }
 }
 nsresult
-nsDocument
+nsIDocument
 :
 :
 GetStateObject
