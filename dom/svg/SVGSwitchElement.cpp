@@ -669,7 +669,7 @@ nsresult
 SVGSwitchElement
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *
@@ -686,7 +686,7 @@ rv
 SVGSwitchElementBase
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aKid
 aIndex

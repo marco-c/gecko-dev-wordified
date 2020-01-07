@@ -3950,7 +3950,7 @@ nsresult
 nsGenericDOMDataNode
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *
@@ -4461,7 +4461,7 @@ insertionIndex
 parent
 -
 >
-InsertChildAt
+InsertChildAt_Deprecated
 (
 newContent
 insertionIndex

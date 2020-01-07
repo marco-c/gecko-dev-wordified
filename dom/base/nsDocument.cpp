@@ -25116,7 +25116,7 @@ nsresult
 nsDocument
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *
@@ -38485,7 +38485,7 @@ NS_OK
 rootElement
 -
 >
-InsertChildAt
+InsertChildAt_Deprecated
 (
 title
 0

@@ -7269,7 +7269,7 @@ nsresult
 FragmentOrElement
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *

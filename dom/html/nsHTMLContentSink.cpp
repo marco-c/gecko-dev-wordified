@@ -2311,7 +2311,7 @@ flushing
 mContent
 -
 >
-InsertChildAt
+InsertChildAt_Deprecated
 (
 child
 mInsertionPoint

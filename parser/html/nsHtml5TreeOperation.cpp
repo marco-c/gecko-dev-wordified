@@ -1611,7 +1611,7 @@ rv
 foster
 -
 >
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aNode
 pos
@@ -4203,7 +4203,7 @@ rv
 foster
 -
 >
-InsertChildAt
+InsertChildAt_Deprecated
 (
 text
 pos

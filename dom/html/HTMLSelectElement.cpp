@@ -1237,7 +1237,7 @@ nsresult
 HTMLSelectElement
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *
@@ -1264,7 +1264,7 @@ rv
 nsGenericHTMLFormElementWithState
 :
 :
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aKid
 aIndex

@@ -4962,7 +4962,7 @@ BindToTree
 /
 virtual
 nsresult
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *
@@ -5143,7 +5143,7 @@ aNotify
 )
 {
 return
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aKid
 GetChildCount
@@ -13635,7 +13635,7 @@ implementation
 of
 the
 nsINode
-InsertChildAt
+InsertChildAt_Deprecated
 method
 .
 *

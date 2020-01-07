@@ -12943,7 +12943,7 @@ rv
 aParent
 -
 >
-InsertChildAt
+InsertChildAt_Deprecated
 (
 node
 aIndex
@@ -13065,7 +13065,7 @@ rv
 aParent
 -
 >
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aPINode
 aIndex
@@ -13220,7 +13220,7 @@ rv
 aParent
 -
 >
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aPINode
 aIndex
@@ -24952,7 +24952,7 @@ rv
 aParent
 -
 >
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aChild
 pos
@@ -25129,7 +25129,7 @@ rv
 aParent
 -
 >
-InsertChildAt
+InsertChildAt_Deprecated
 (
 aChild
 pos

@@ -185,7 +185,7 @@ NS_DECL_ISUPPORTS_INHERITED
 nsINode
 virtual
 nsresult
-InsertChildAt
+InsertChildAt_Deprecated
 (
 nsIContent
 *
