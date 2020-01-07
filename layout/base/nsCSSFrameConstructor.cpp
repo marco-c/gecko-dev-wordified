@@ -48764,6 +48764,7 @@ iter
 unused
 )
 ;
+}
 if
 (
 nextSibling
@@ -48783,7 +48784,6 @@ GetContentInsertionFrame
 (
 )
 ;
-}
 }
 else
 {
