@@ -145,7 +145,7 @@ gecko
 .
 gfx
 .
-NativePanZoomController
+PanZoomController
 ;
 import
 org
@@ -1484,7 +1484,7 @@ getSettings
 ;
 }
 public
-NativePanZoomController
+PanZoomController
 getPanZoomController
 (
 )

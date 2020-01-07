@@ -1940,7 +1940,7 @@ nullptr
 *
 *
 *
-NativePanZoomController
+PanZoomController
 handles
 its
 native
@@ -1967,7 +1967,7 @@ NPZCSupport
 final
 :
 public
-NativePanZoomController
+PanZoomController
 :
 :
 Natives
@@ -1996,7 +1996,7 @@ NPZCSupport
 >
 mWindow
 ;
-NativePanZoomController
+PanZoomController
 :
 :
 GlobalRef
@@ -2020,7 +2020,7 @@ nsAppShell
 :
 Event
 {
-NativePanZoomController
+PanZoomController
 :
 :
 GlobalRef
@@ -2093,7 +2093,7 @@ npzcSupport
 =
 GetNative
 (
-NativePanZoomController
+PanZoomController
 :
 :
 LocalRef
@@ -2236,7 +2236,7 @@ aLambda
 public
 :
 typedef
-NativePanZoomController
+PanZoomController
 :
 :
 Natives
@@ -2257,7 +2257,7 @@ nsWindow
 *
 aWindow
 const
-NativePanZoomController
+PanZoomController
 :
 :
 LocalRef
@@ -2699,7 +2699,7 @@ race
 condition
 .
 typedef
-NativePanZoomController
+PanZoomController
 :
 :
 GlobalRef
@@ -2727,7 +2727,7 @@ false
 ;
 }
 ;
-NativePanZoomController
+PanZoomController
 :
 :
 GlobalRef
@@ -2795,7 +2795,7 @@ DISPATCH_NORMAL
 ;
 }
 const
-NativePanZoomController
+PanZoomController
 :
 :
 Ref
@@ -3671,7 +3671,7 @@ bool
 HandleMotionEvent
 (
 const
-NativePanZoomController
+PanZoomController
 :
 :
 LocalRef
@@ -5386,7 +5386,7 @@ mNPZCSupport
 auto
 npzc
 =
-NativePanZoomController
+PanZoomController
 :
 :
 LocalRef
@@ -5397,7 +5397,7 @@ jni
 GetGeckoThreadEnv
 (
 )
-NativePanZoomController
+PanZoomController
 :
 :
 Ref
@@ -5432,7 +5432,7 @@ AttachNPZC
 [
 npzc
 =
-NativePanZoomController
+PanZoomController
 :
 :
 GlobalRef
@@ -12032,7 +12032,7 @@ SynthesizeNativeTouchPoint
 [
 npzc
 =
-NativePanZoomController
+PanZoomController
 :
 :
 GlobalRef
@@ -12160,7 +12160,7 @@ SynthesizeNativeMouseEvent
 [
 npzc
 =
-NativePanZoomController
+PanZoomController
 :
 :
 GlobalRef
@@ -12278,7 +12278,7 @@ SynthesizeNativeMouseMove
 [
 npzc
 =
-NativePanZoomController
+PanZoomController
 :
 :
 GlobalRef

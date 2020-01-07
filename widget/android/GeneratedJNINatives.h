@@ -3680,7 +3680,7 @@ class
 Impl
 >
 class
-NativePanZoomController
+PanZoomController
 :
 :
 Natives
@@ -3694,7 +3694,7 @@ jni
 :
 NativeImpl
 <
-NativePanZoomController
+PanZoomController
 Impl
 >
 {
@@ -3717,7 +3717,7 @@ Impl
 >
 const
 JNINativeMethod
-NativePanZoomController
+PanZoomController
 :
 :
 Natives
@@ -3739,7 +3739,7 @@ jni
 :
 MakeNativeMethod
 <
-NativePanZoomController
+PanZoomController
 :
 :
 DisposeNative_t
@@ -3753,7 +3753,7 @@ jni
 :
 NativeStub
 <
-NativePanZoomController
+PanZoomController
 :
 :
 DisposeNative_t
@@ -3779,7 +3779,7 @@ jni
 :
 MakeNativeMethod
 <
-NativePanZoomController
+PanZoomController
 :
 :
 HandleMotionEvent_t
@@ -3793,7 +3793,7 @@ jni
 :
 NativeStub
 <
-NativePanZoomController
+PanZoomController
 :
 :
 HandleMotionEvent_t
@@ -3819,7 +3819,7 @@ jni
 :
 MakeNativeMethod
 <
-NativePanZoomController
+PanZoomController
 :
 :
 HandleMouseEvent_t
@@ -3833,7 +3833,7 @@ jni
 :
 NativeStub
 <
-NativePanZoomController
+PanZoomController
 :
 :
 HandleMouseEvent_t
@@ -3859,7 +3859,7 @@ jni
 :
 MakeNativeMethod
 <
-NativePanZoomController
+PanZoomController
 :
 :
 HandleScrollEvent_t
@@ -3873,7 +3873,7 @@ jni
 :
 NativeStub
 <
-NativePanZoomController
+PanZoomController
 :
 :
 HandleScrollEvent_t
@@ -3899,7 +3899,7 @@ jni
 :
 MakeNativeMethod
 <
-NativePanZoomController
+PanZoomController
 :
 :
 SetIsLongpressEnabled_t
@@ -3913,7 +3913,7 @@ jni
 :
 NativeStub
 <
-NativePanZoomController
+PanZoomController
 :
 :
 SetIsLongpressEnabled_t

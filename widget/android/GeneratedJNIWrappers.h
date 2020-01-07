@@ -28323,7 +28323,7 @@ gecko
 /
 gfx
 /
-NativePanZoomController
+PanZoomController
 ;
 )
 V
@@ -31146,7 +31146,7 @@ Natives
 }
 ;
 class
-NativePanZoomController
+PanZoomController
 :
 public
 mozilla
@@ -31157,7 +31157,7 @@ jni
 :
 ObjectBase
 <
-NativePanZoomController
+PanZoomController
 >
 {
 public
@@ -31170,7 +31170,7 @@ name
 ]
 ;
 explicit
-NativePanZoomController
+PanZoomController
 (
 const
 Context
@@ -31180,7 +31180,7 @@ ctx
 :
 ObjectBase
 <
-NativePanZoomController
+PanZoomController
 >
 (
 ctx
@@ -31191,7 +31191,7 @@ struct
 DisposeNative_t
 {
 typedef
-NativePanZoomController
+PanZoomController
 Owner
 ;
 typedef
@@ -31317,7 +31317,7 @@ struct
 HandleMotionEvent_t
 {
 typedef
-NativePanZoomController
+PanZoomController
 Owner
 ;
 typedef
@@ -31532,7 +31532,7 @@ struct
 HandleMouseEvent_t
 {
 typedef
-NativePanZoomController
+PanZoomController
 Owner
 ;
 typedef
@@ -31665,7 +31665,7 @@ struct
 HandleScrollEvent_t
 {
 typedef
-NativePanZoomController
+PanZoomController
 Owner
 ;
 typedef
@@ -31798,7 +31798,7 @@ struct
 SetIsLongpressEnabled_t
 {
 typedef
-NativePanZoomController
+PanZoomController
 Owner
 ;
 typedef
@@ -31926,7 +31926,7 @@ struct
 SetAttached_t
 {
 typedef
-NativePanZoomController
+PanZoomController
 Owner
 ;
 typedef
@@ -32064,7 +32064,7 @@ struct
 SynthesizeNativeMouseEvent_t
 {
 typedef
-NativePanZoomController
+PanZoomController
 Owner
 ;
 typedef
@@ -32206,7 +32206,7 @@ struct
 SynthesizeNativeTouchPoint_t
 {
 typedef
-NativePanZoomController
+PanZoomController
 Owner
 ;
 typedef
