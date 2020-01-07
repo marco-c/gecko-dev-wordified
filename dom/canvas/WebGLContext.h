@@ -5814,6 +5814,12 @@ WebGLRefPtr
 <
 WebGLBuffer
 >
+mBoundTransformFeedbackBuffer
+;
+WebGLRefPtr
+<
+WebGLBuffer
+>
 mBoundUniformBuffer
 ;
 std
