@@ -4604,11 +4604,6 @@ rv
 rv
 )
 ;
-NS_TryToSetImmutable
-(
-uri
-)
-;
 uri
 .
 forget
