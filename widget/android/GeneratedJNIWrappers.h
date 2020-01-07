@@ -29969,7 +29969,7 @@ jni
 CallingThread
 :
 :
-ANY
+UI
 ;
 static
 const
@@ -30495,7 +30495,7 @@ jni
 CallingThread
 :
 :
-ANY
+UI
 ;
 static
 const
