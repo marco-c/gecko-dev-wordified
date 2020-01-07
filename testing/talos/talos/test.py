@@ -550,51 +550,6 @@ cycles
 '
         
 '
-shutdown
-'
-#
-If
-True
-collect
-data
-on
-shutdown
-(
-using
-the
-value
-                         
-#
-provided
-by
-__startTimestamp
-/
-__endTimestamp
-)
-.
-                         
-#
-Otherwise
-ignore
-shutdown
-data
-                         
-#
-(
-__startTimestamp
-/
-__endTimestamp
-is
-still
-                         
-#
-required
-but
-ignored
-)
-.
-        
-'
 profile_path
 '
 #
@@ -898,10 +853,6 @@ tspaint_test
 html
 '
     
-shutdown
-=
-False
-    
 xperf_counters
 =
 [
@@ -1136,10 +1087,6 @@ sessionrestore
 /
 profile
 '
-    
-shutdown
-=
-False
     
 reinstall
 =
@@ -1681,9 +1628,6 @@ xperf_counters
 '
 '
 timeout
-'
-'
-shutdown
 '
 '
 responsiveness
@@ -3760,10 +3704,6 @@ question
 resolution
 =
 20
-    
-shutdown
-=
-True
     
 tpmanifest
 =
