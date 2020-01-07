@@ -923,11 +923,12 @@ in
 jobs
 :
         
+yield
 validate_schema
 (
 job_description_schema
 job
-                        
+                              
 "
 In
 job
@@ -958,9 +959,6 @@ label
 )
 )
 )
-        
-yield
-job
 transforms
 .
 add
@@ -1542,10 +1540,6 @@ run_using
 schema
 =
 None
-defaults
-=
-{
-}
 )
 :
     
@@ -1709,7 +1703,6 @@ worker_implementation
 (
 func
 schema
-defaults
 )
         
 return
@@ -1861,7 +1854,6 @@ worker_implementation
     
 func
 schema
-defaults
 =
 registry
 [
@@ -1871,15 +1863,8 @@ run_using
 worker_implementation
 ]
     
-for
-k
-v
-in
-defaults
-.
-items
-(
-)
+if
+schema
 :
         
 job
@@ -1888,17 +1873,7 @@ job
 run
 '
 ]
-.
-setdefault
-(
-k
-v
-)
-    
-if
-schema
-:
-        
+=
 validate_schema
 (
                 
@@ -1916,11 +1891,6 @@ job
 .
 run
 using
-{
-!
-r
-}
-/
 {
 !
 r
@@ -1948,7 +1918,6 @@ run
 using
 '
 ]
-worker_implementation
 job
 [
 '

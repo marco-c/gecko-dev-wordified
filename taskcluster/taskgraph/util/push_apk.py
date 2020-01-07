@@ -198,6 +198,7 @@ label
 '
 )
         
+yield
 validate_schema
 (
             
@@ -234,9 +235,6 @@ label
 )
         
 )
-        
-yield
-job
 def
 validate_dependent_tasks_transform
 (

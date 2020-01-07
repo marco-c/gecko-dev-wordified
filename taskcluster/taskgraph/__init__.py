@@ -189,9 +189,6 @@ skips
 toolchain
 task
 optimizations
-and
-schema
-validation
 fast
 =
 False

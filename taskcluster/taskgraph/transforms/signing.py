@@ -383,6 +383,11 @@ Required
 '
 depname
 '
+default
+=
+'
+build
+'
 )
 :
 basestring
@@ -532,37 +537,6 @@ transforms
 .
 add
 def
-set_defaults
-(
-config
-jobs
-)
-:
-    
-for
-job
-in
-jobs
-:
-        
-job
-.
-setdefault
-(
-'
-depname
-'
-'
-build
-'
-)
-        
-yield
-job
-transforms
-.
-add
-def
 validate
 (
 config
@@ -606,6 +580,7 @@ label
 '
 )
         
+yield
 validate_schema
 (
             
@@ -639,9 +614,6 @@ kind
 label
 )
 )
-        
-yield
-job
 transforms
 .
 add

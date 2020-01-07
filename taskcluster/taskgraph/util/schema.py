@@ -62,13 +62,13 @@ unicode_literals
 import
 re
 import
+copy
+import
 pprint
 import
 collections
 import
 voluptuous
-import
-taskgraph
 from
 .
 attributes
@@ -109,20 +109,30 @@ msg_prefix
 "
 "
     
-if
-taskgraph
-.
-fast
-:
-        
-return
-    
 try
 :
         
+#
+deep
+copy
+the
+result
+since
+it
+may
+include
+mutable
+defaults
+        
+return
+copy
+.
+deepcopy
+(
 schema
 (
 obj
+)
 )
     
 except
