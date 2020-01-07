@@ -1444,7 +1444,7 @@ str
 {
 aResult
 .
-SetStringBuffer
+SetKnownLiveStringBuffer
 (
 str
 str
@@ -1494,7 +1494,7 @@ GetPtr
 ;
 aResult
 .
-SetOwnedAtom
+SetKnownLiveAtom
 (
 atom
 mozilla

@@ -12003,7 +12003,7 @@ NodeName
 ;
 aNodeName
 .
-SetOwnedString
+SetKnownLiveString
 (
 nodeName
 )
@@ -12404,7 +12404,7 @@ LocalName
 ;
 aLocalName
 .
-SetOwnedString
+SetKnownLiveString
 (
 localName
 )

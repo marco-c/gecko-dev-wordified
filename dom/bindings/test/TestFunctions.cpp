@@ -447,7 +447,7 @@ buf
 {
 aString
 .
-SetStringBuffer
+SetKnownLiveStringBuffer
 (
 buf
 length
