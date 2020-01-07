@@ -1573,15 +1573,6 @@ default
 )
 ;
 let
-default_values
-=
-device
-.
-default_computed_values
-(
-)
-;
-let
 provider
 =
 get_metrics_provider_for_product
@@ -1601,10 +1592,9 @@ builder
 StyleBuilder
 :
 :
-for_derived_style
+for_inheritance
 (
 device
-default_values
 None
 None
 )
