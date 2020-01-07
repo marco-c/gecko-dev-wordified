@@ -4489,6 +4489,13 @@ holderId
 /
 CallNativeGetterResult
 globalId
+if
+(
+innerized
+)
+return
+false
+;
 CacheIRReader
 reader
 (

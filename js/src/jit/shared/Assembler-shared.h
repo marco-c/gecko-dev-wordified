@@ -3713,11 +3713,6 @@ repoint
 JitCode
 *
 code
-MacroAssembler
-*
-masm
-=
-nullptr
 )
 ;
 #

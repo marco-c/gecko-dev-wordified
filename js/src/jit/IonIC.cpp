@@ -177,9 +177,6 @@ updateBaseAddress
 JitCode
 *
 code
-MacroAssembler
-&
-masm
 )
 {
 fallbackLabel_
@@ -187,8 +184,6 @@ fallbackLabel_
 repoint
 (
 code
-&
-masm
 )
 ;
 rejoinLabel_
@@ -196,8 +191,6 @@ rejoinLabel_
 repoint
 (
 code
-&
-masm
 )
 ;
 codeRaw_

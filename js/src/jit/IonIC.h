@@ -999,9 +999,6 @@ updateBaseAddress
 JitCode
 *
 code
-MacroAssembler
-&
-masm
 )
 ;
 /
