@@ -1120,7 +1120,7 @@ this
 .
 telemetry
 .
-logKeyedScalar
+keyedScalarAdd
 (
 TABS_REORDERED_SCALAR
 toolId

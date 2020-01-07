@@ -3866,11 +3866,15 @@ this
 .
 _telemetry
 .
-logKeyed
+getKeyedHistogramById
 (
 "
 DEVTOOLS_GCLI_COMMANDS_KEYED
 "
+)
+.
+add
+(
 name
 )
 ;

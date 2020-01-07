@@ -2229,7 +2229,7 @@ this
 .
 telemetry
 .
-logScalar
+scalarSet
 (
 scalarId
 this
@@ -6172,11 +6172,15 @@ this
 .
 telemetry
 .
-log
+getHistogramById
 (
 "
 DEVTOOLS_ENTRY_POINT
 "
+)
+.
+add
+(
 reason
 )
 ;

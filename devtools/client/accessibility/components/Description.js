@@ -499,7 +499,7 @@ gTelemetry
 {
 gTelemetry
 .
-logCountScalar
+scalarAdd
 (
 A11Y_SERVICE_ENABLED_COUNT
 1

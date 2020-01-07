@@ -2379,7 +2379,7 @@ this
 .
 telemetry
 .
-logKeyedScalar
+keyedScalarAdd
 (
 THREE_PANE_ENABLED_SCALAR
 this
@@ -14787,7 +14787,7 @@ this
 .
 telemetry
 .
-logScalar
+scalarSet
 (
 "
 devtools
@@ -14883,7 +14883,7 @@ this
 .
 telemetry
 .
-logScalar
+scalarSet
 (
 "
 devtools
@@ -14977,7 +14977,7 @@ this
 .
 telemetry
 .
-logScalar
+scalarSet
 (
 "
 devtools
