@@ -6035,12 +6035,6 @@ mStyleSet
 Init
 (
 aPresContext
-mDocument
--
->
-BindingManager
-(
-)
 )
 ;
 /

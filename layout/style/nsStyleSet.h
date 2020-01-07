@@ -618,9 +618,6 @@ Init
 nsPresContext
 *
 aPresContext
-nsBindingManager
-*
-aBindingManager
 )
 ;
 nsRuleNode
