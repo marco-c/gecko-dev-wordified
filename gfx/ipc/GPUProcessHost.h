@@ -385,11 +385,11 @@ is
 returned
 and
 the
-OnLaunchComplete
+OnProcessLaunchComplete
 listener
+/
+/
 callback
-/
-/
 will
 be
 invoked
@@ -401,10 +401,10 @@ has
 been
 established
 or
+/
+/
 if
 a
-/
-/
 connection
 could
 not
