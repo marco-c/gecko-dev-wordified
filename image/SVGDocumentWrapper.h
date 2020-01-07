@@ -220,6 +220,9 @@ dom
 class
 SVGSVGElement
 ;
+class
+SVGDocument
+;
 }
 /
 /
@@ -275,7 +278,13 @@ AddRef
 )
 *
 /
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+SVGDocument
 *
 GetDocument
 (
