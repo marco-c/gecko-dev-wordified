@@ -822,6 +822,11 @@ arguments
 i
 ]
 ;
+if
+(
+existingArgument
+)
+{
 /
 /
 Clean
@@ -896,6 +901,7 @@ existingArgument
 .
 ownPropertyLength
 ;
+}
 }
 return
 newArgument
