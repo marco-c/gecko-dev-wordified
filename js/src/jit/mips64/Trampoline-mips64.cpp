@@ -432,6 +432,21 @@ int
 returnCode
 )
 {
+MOZ_ASSERT
+(
+masm
+.
+framePushed
+(
+)
+=
+=
+sizeof
+(
+EnterJITRegs
+)
+)
+;
 if
 (
 isLoongson
@@ -744,7 +759,7 @@ point
 registers
 masm
 .
-as_ld
+as_ldc1
 (
 f24
 StackPointer
@@ -757,7 +772,7 @@ f24
 ;
 masm
 .
-as_ld
+as_ldc1
 (
 f25
 StackPointer
@@ -770,7 +785,7 @@ f25
 ;
 masm
 .
-as_ld
+as_ldc1
 (
 f26
 StackPointer
@@ -783,7 +798,7 @@ f26
 ;
 masm
 .
-as_ld
+as_ldc1
 (
 f27
 StackPointer
@@ -796,7 +811,7 @@ f27
 ;
 masm
 .
-as_ld
+as_ldc1
 (
 f28
 StackPointer
@@ -809,7 +824,7 @@ f28
 ;
 masm
 .
-as_ld
+as_ldc1
 (
 f29
 StackPointer
@@ -822,7 +837,7 @@ f29
 ;
 masm
 .
-as_ld
+as_ldc1
 (
 f30
 StackPointer
@@ -835,7 +850,7 @@ f30
 ;
 masm
 .
-as_ld
+as_ldc1
 (
 f31
 StackPointer
@@ -1178,7 +1193,7 @@ a7
 ;
 masm
 .
-as_sd
+as_sdc1
 (
 f24
 StackPointer
@@ -1191,7 +1206,7 @@ f24
 ;
 masm
 .
-as_sd
+as_sdc1
 (
 f25
 StackPointer
@@ -1204,7 +1219,7 @@ f25
 ;
 masm
 .
-as_sd
+as_sdc1
 (
 f26
 StackPointer
@@ -1217,7 +1232,7 @@ f26
 ;
 masm
 .
-as_sd
+as_sdc1
 (
 f27
 StackPointer
@@ -1230,7 +1245,7 @@ f27
 ;
 masm
 .
-as_sd
+as_sdc1
 (
 f28
 StackPointer
@@ -1243,7 +1258,7 @@ f28
 ;
 masm
 .
-as_sd
+as_sdc1
 (
 f29
 StackPointer
@@ -1256,7 +1271,7 @@ f29
 ;
 masm
 .
-as_sd
+as_sdc1
 (
 f30
 StackPointer
@@ -1269,7 +1284,7 @@ f30
 ;
 masm
 .
-as_sd
+as_sdc1
 (
 f31
 StackPointer
@@ -6149,7 +6164,7 @@ jitSupportsFloatingPoint
 {
 masm
 .
-as_ld
+as_ldc1
 (
 ReturnDoubleReg
 StackPointer

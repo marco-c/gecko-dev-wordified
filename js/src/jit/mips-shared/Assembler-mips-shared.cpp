@@ -9092,10 +9092,10 @@ BufferOffset
 AssemblerMIPSShared
 :
 :
-as_ld
+as_ldc1
 (
 FloatRegister
-fd
+ft
 Register
 base
 int32_t
@@ -9127,7 +9127,7 @@ x
 %
 2s
 "
-fd
+ft
 .
 name
 (
@@ -9147,7 +9147,7 @@ InstImm
 (
 op_ldc1
 base
-fd
+ft
 Imm16
 (
 off
@@ -9164,10 +9164,10 @@ BufferOffset
 AssemblerMIPSShared
 :
 :
-as_sd
+as_sdc1
 (
 FloatRegister
-fd
+ft
 Register
 base
 int32_t
@@ -9199,7 +9199,7 @@ x
 %
 2s
 "
-fd
+ft
 .
 name
 (
@@ -9219,7 +9219,7 @@ InstImm
 (
 op_sdc1
 base
-fd
+ft
 Imm16
 (
 off
@@ -9236,10 +9236,10 @@ BufferOffset
 AssemblerMIPSShared
 :
 :
-as_ls
+as_lwc1
 (
 FloatRegister
-fd
+ft
 Register
 base
 int32_t
@@ -9271,7 +9271,7 @@ x
 %
 2s
 "
-fd
+ft
 .
 name
 (
@@ -9291,7 +9291,7 @@ InstImm
 (
 op_lwc1
 base
-fd
+ft
 Imm16
 (
 off
@@ -9308,10 +9308,10 @@ BufferOffset
 AssemblerMIPSShared
 :
 :
-as_ss
+as_swc1
 (
 FloatRegister
-fd
+ft
 Register
 base
 int32_t
@@ -9343,7 +9343,7 @@ x
 %
 2s
 "
-fd
+ft
 .
 name
 (
@@ -9363,7 +9363,7 @@ InstImm
 (
 op_swc1
 base
-fd
+ft
 Imm16
 (
 off
