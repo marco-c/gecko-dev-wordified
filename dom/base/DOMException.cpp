@@ -1343,7 +1343,6 @@ if
 mLocation
 )
 {
-return
 mLocation
 -
 >
@@ -1352,6 +1351,9 @@ GetFilename
 aCx
 aFilename
 )
+;
+return
+NS_OK
 ;
 }
 aFilename

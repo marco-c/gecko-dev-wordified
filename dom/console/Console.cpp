@@ -6164,9 +6164,6 @@ MOZ_ASSERT
 aStackFrame
 )
 ;
-nsresult
-rv
-=
 aStackFrame
 -
 >
@@ -6178,15 +6175,10 @@ aStackEntry
 mFilename
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 int32_t
 lineNumber
 ;
+nsresult
 rv
 =
 aStackFrame
@@ -14769,9 +14761,6 @@ stack
 nsAutoString
 filename
 ;
-nsresult
-rv
-=
 stack
 -
 >
@@ -14779,11 +14768,6 @@ GetFilename
 (
 aCx
 filename
-)
-;
-NS_ENSURE_SUCCESS_VOID
-(
-rv
 )
 ;
 message
@@ -14804,6 +14788,7 @@ AppendLiteral
 int32_t
 lineNumber
 ;
+nsresult
 rv
 =
 stack

@@ -6882,14 +6882,6 @@ location
 Get
 line
 number
-w
-/
-o
-checking
-;
-0
-is
-ok
 .
 location
 -
@@ -6907,8 +6899,6 @@ get
 a
 filename
 .
-rv
-=
 location
 -
 >
