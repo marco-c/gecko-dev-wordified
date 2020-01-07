@@ -1477,22 +1477,6 @@ info
 '
 )
             
-assert
-os
-.
-path
-.
-getsize
-(
-'
-jsvm_lcov_output
-.
-info
-'
-)
->
-0
-            
 #
 Package
 JSVM
