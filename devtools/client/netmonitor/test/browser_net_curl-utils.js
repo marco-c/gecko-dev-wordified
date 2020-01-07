@@ -148,6 +148,7 @@ index
 let
 {
 getLongString
+requestData
 }
 =
 connector
@@ -280,6 +281,7 @@ requests
 .
 get
 getLongString
+requestData
 )
 ;
 testFindHeader
@@ -296,6 +298,7 @@ requests
 .
 post
 getLongString
+requestData
 )
 ;
 testIsUrlEncodedRequest
@@ -327,6 +330,7 @@ requests
 .
 multipart
 getLongString
+requestData
 )
 ;
 testIsMultipartRequest
@@ -358,6 +362,7 @@ requests
 .
 multipartForm
 getLongString
+requestData
 )
 ;
 testMultiPartHeaders
@@ -1893,6 +1898,7 @@ createCurlData
 (
 selected
 getLongString
+requestData
 )
 {
 let
@@ -1979,6 +1985,22 @@ text
 )
 ;
 }
+let
+{
+requestPostData
+}
+=
+yield
+requestData
+(
+selected
+.
+id
+"
+requestPostData
+"
+)
+;
 /
 /
 Fetch
@@ -1988,16 +2010,12 @@ payload
 .
 if
 (
-selected
-.
 requestPostData
 )
 {
 let
 postData
 =
-selected
-.
 requestPostData
 .
 postData

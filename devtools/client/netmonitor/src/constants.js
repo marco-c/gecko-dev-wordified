@@ -722,6 +722,9 @@ requestCookies
 requestPostData
 "
 "
+requestPostDataAvailable
+"
+"
 responseHeaders
 "
 "
