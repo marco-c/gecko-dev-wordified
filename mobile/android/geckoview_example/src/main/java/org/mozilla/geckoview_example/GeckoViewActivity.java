@@ -544,7 +544,7 @@ mGeckoSession
 ;
 mGeckoSession
 .
-setContentListener
+setContentDelegate
 (
 new
 MyGeckoViewContent
@@ -570,7 +570,7 @@ tp
 ;
 mGeckoSession
 .
-setProgressListener
+setProgressDelegate
 (
 new
 MyGeckoViewProgress
@@ -581,7 +581,7 @@ tp
 ;
 mGeckoSession
 .
-setNavigationListener
+setNavigationDelegate
 (
 new
 Navigation
@@ -1012,7 +1012,7 @@ MyGeckoViewContent
 implements
 GeckoSession
 .
-ContentListener
+ContentDelegate
 {
 Override
 public
@@ -1211,7 +1211,7 @@ MyGeckoViewProgress
 implements
 GeckoSession
 .
-ProgressListener
+ProgressDelegate
 {
 private
 MyTrackingProtection
@@ -1486,7 +1486,7 @@ grant
 Override
 public
 void
-requestAndroidPermissions
+onAndroidPermissionsRequest
 (
 final
 GeckoSession
@@ -1544,7 +1544,7 @@ androidPermissionRequestCode
 Override
 public
 void
-requestContentPermission
+onContentPermissionRequest
 (
 final
 GeckoSession
@@ -1661,7 +1661,7 @@ getPromptDelegate
 ;
 prompt
 .
-promptForPermission
+onPermissionPrompt
 (
 session
 title
@@ -1833,7 +1833,7 @@ name
 Override
 public
 void
-requestMediaPermission
+onMediaPermissionRequest
 (
 final
 GeckoSession
@@ -1958,7 +1958,7 @@ getPromptDelegate
 ;
 prompt
 .
-promptForMedia
+onMediaPrompt
 (
 session
 title
@@ -1975,7 +1975,7 @@ Navigation
 implements
 GeckoSession
 .
-NavigationListener
+NavigationDelegate
 {
 Override
 public

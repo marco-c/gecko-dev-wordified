@@ -345,7 +345,7 @@ geckoview
 .
 GeckoSession
 .
-ProgressListener
+ProgressDelegate
 .
 SecurityInformation
 ;
