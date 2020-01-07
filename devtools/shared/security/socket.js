@@ -221,6 +221,8 @@ devtools
 /
 server
 /
+socket
+/
 websocket
 -
 server
