@@ -651,6 +651,10 @@ fnbpaint
 '
         
 '
+tphero
+'
+        
+'
 profile
 '
         
@@ -1567,15 +1571,18 @@ tpmozafterpaint
 fnbpaint
 '
 '
+tphero
+'
+'
 tploadnocache
 '
 '
 firstpaint
 '
+            
 '
 userready
 '
-            
 '
 testeventmap
 '
@@ -1588,10 +1595,10 @@ mainthread
 '
 resolution
 '
+            
 '
 cycles
 '
-            
 '
 gecko_profile
 '
@@ -6211,6 +6218,10 @@ quantum_pageload_google
 .
 manifest
 '
+    
+tphero
+=
+True
 register_test
 (
 )

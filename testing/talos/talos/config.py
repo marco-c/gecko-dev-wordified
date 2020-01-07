@@ -207,6 +207,10 @@ tpmozafterpaint
 =
 False
         
+tphero
+=
+False
+        
 fnbpaint
 =
 False
@@ -2261,6 +2265,10 @@ tpmozafterpaint
 '
     
 '
+tphero
+'
+    
+'
 fnbpaint
 '
     
@@ -3055,6 +3063,17 @@ tpmozafterpaint
 None
 )
     
+hero
+=
+getattr
+(
+test_instance
+'
+tphero
+'
+None
+)
+    
 firstPaint
 =
 getattr
@@ -3167,6 +3186,19 @@ test_instance
 userready
 =
 userReady
+    
+if
+hero
+is
+not
+None
+:
+        
+test_instance
+.
+tphero
+=
+hero
     
 #
 fix
