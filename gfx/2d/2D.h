@@ -9600,6 +9600,10 @@ bool
 aUseFontSmoothing
 =
 true
+bool
+aApplySyntheticBold
+=
+false
 )
 ;
 #
