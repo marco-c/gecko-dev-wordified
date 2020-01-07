@@ -13102,7 +13102,7 @@ normal
 OutOfLineCode
 .
 void
-wasmEmitTrapOutOfLineCode
+wasmEmitOldTrapOutOfLineCode
 (
 )
 ;

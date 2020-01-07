@@ -1821,7 +1821,7 @@ iter
 }
 static
 void
-WasmReportTrap
+WasmOldReportTrap
 (
 int32_t
 trapIndex
@@ -2886,7 +2886,7 @@ case
 SymbolicAddress
 :
 :
-ReportTrap
+OldReportTrap
 :
 *
 abiType
@@ -2896,7 +2896,7 @@ Args_General1
 return
 FuncCast
 (
-WasmReportTrap
+WasmOldReportTrap
 *
 abiType
 )
@@ -4026,11 +4026,11 @@ case
 SymbolicAddress
 :
 :
-ReportTrap
+OldReportTrap
 :
 /
 /
-GenerateTrapExit
+GenerateOldTrapExit
 case
 SymbolicAddress
 :
@@ -5977,7 +5977,7 @@ MOZ_ASSERT
 (
 masm
 .
-trapSites
+oldTrapSites
 (
 )
 .
@@ -5990,7 +5990,7 @@ MOZ_ASSERT
 (
 masm
 .
-trapFarJumps
+oldTrapFarJumps
 (
 )
 .

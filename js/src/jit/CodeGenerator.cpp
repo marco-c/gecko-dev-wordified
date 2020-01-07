@@ -67141,7 +67141,7 @@ stack
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 trap
 (
 trapOffset
@@ -67259,7 +67259,7 @@ false
 ;
 masm
 .
-wasmEmitTrapOutOfLineCode
+wasmEmitOldTrapOutOfLineCode
 (
 )
 ;
@@ -88305,7 +88305,7 @@ masm
 .
 jump
 (
-trap
+oldTrap
 (
 mir
 mir
@@ -88395,7 +88395,7 @@ Assembler
 AboveOrEqual
 ptr
 boundsCheckLimit
-trap
+oldTrap
 (
 mir
 wasm
@@ -88467,7 +88467,7 @@ byteSize
 -
 1
 )
-trap
+oldTrap
 (
 mir
 wasm

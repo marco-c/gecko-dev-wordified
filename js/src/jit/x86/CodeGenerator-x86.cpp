@@ -7535,7 +7535,7 @@ Zero
 rhs
 rhs
 temp
-trap
+oldTrap
 (
 lir
 wasm
@@ -7642,7 +7642,7 @@ masm
 .
 jump
 (
-trap
+oldTrap
 (
 lir
 wasm
@@ -7914,7 +7914,7 @@ Zero
 rhs
 rhs
 temp
-trap
+oldTrap
 (
 lir
 wasm

@@ -7643,7 +7643,7 @@ label
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 )
 ;

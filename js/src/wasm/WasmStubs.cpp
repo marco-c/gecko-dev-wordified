@@ -3984,7 +3984,7 @@ offsets
 ;
 masm
 .
-wasmEmitTrapOutOfLineCode
+wasmEmitOldTrapOutOfLineCode
 (
 )
 ;
@@ -7657,7 +7657,7 @@ stub
 that
 calls
 into
-ReportTrap
+WasmOldReportTrap
 with
 the
 right
@@ -7716,7 +7716,7 @@ exit
 .
 static
 bool
-GenerateTrapExit
+GenerateOldTrapExit
 (
 MacroAssembler
 &
@@ -7880,7 +7880,7 @@ call
 SymbolicAddress
 :
 :
-ReportTrap
+OldReportTrap
 )
 ;
 masm
@@ -10492,7 +10492,7 @@ offsets
 if
 (
 !
-GenerateTrapExit
+GenerateOldTrapExit
 (
 masm
 trap

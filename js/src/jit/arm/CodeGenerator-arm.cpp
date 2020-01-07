@@ -3994,7 +3994,7 @@ masm
 .
 ma_b
 (
-trap
+oldTrap
 (
 mir
 wasm
@@ -4143,7 +4143,7 @@ masm
 .
 ma_b
 (
-trap
+oldTrap
 (
 mir
 wasm
@@ -5432,7 +5432,7 @@ masm
 .
 ma_b
 (
-trap
+oldTrap
 (
 mir
 wasm
@@ -15980,7 +15980,7 @@ masm
 .
 ma_b
 (
-trap
+oldTrap
 (
 mir
 wasm
@@ -18166,7 +18166,7 @@ masm
 .
 ma_b
 (
-trap
+oldTrap
 (
 mir
 wasm
@@ -20642,7 +20642,7 @@ Zero
 rhs
 rhs
 temp
-trap
+oldTrap
 (
 lir
 wasm
@@ -20750,7 +20750,7 @@ masm
 .
 jump
 (
-trap
+oldTrap
 (
 lir
 wasm
@@ -20980,7 +20980,7 @@ Zero
 rhs
 rhs
 temp
-trap
+oldTrap
 (
 lir
 wasm

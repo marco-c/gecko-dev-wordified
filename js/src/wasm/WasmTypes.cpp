@@ -4014,7 +4014,7 @@ kind_
 )
 {
 case
-TrapExit
+OldTrapExit
 :
 case
 DebugTrap
@@ -4276,7 +4276,7 @@ end
 )
 kind_
 (
-TrapExit
+OldTrapExit
 )
 {
 MOZ_ASSERT

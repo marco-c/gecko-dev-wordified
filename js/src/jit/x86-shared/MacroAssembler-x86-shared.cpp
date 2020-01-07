@@ -4064,7 +4064,7 @@ jump
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 (
 off
 wasm
@@ -4097,7 +4097,7 @@ jump
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 (
 off
 wasm

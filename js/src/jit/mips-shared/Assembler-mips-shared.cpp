@@ -14404,7 +14404,7 @@ label
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 )
 {
@@ -14443,7 +14443,7 @@ append
 wasm
 :
 :
-TrapSite
+OldTrapSite
 (
 target
 b

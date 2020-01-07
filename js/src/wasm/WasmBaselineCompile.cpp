@@ -19863,7 +19863,7 @@ masm
 .
 jump
 (
-TrapDesc
+OldTrapDesc
 (
 prologueTrapOffset
 Trap
@@ -20017,7 +20017,7 @@ false
 ;
 masm
 .
-wasmEmitTrapOutOfLineCode
+wasmEmitOldTrapOutOfLineCode
 (
 )
 ;
@@ -22717,7 +22717,7 @@ Assembler
 Zero
 rhs
 rhs
-trap
+oldTrap
 (
 Trap
 :
@@ -22752,7 +22752,7 @@ Zero
 r
 r
 scratch
-trap
+oldTrap
 (
 Trap
 :
@@ -22849,7 +22849,7 @@ Imm32
 -
 1
 )
-trap
+oldTrap
 (
 Trap
 :
@@ -22947,7 +22947,7 @@ masm
 .
 jump
 (
-trap
+oldTrap
 (
 Trap
 :
@@ -24901,7 +24901,7 @@ masm
 .
 jump
 (
-trap
+oldTrap
 (
 Trap
 :
@@ -25750,7 +25750,7 @@ offset
 )
 )
 ptr
-trap
+oldTrap
 (
 Trap
 :
@@ -25838,7 +25838,7 @@ byteSize
 -
 1
 )
-trap
+oldTrap
 (
 Trap
 :
@@ -25974,7 +25974,7 @@ TlsData
 boundsCheckLimit
 )
 )
-trap
+oldTrap
 (
 Trap
 :
@@ -32611,8 +32611,8 @@ bytecodeOffset
 )
 ;
 }
-TrapDesc
-trap
+OldTrapDesc
+oldTrap
 (
 Trap
 t
@@ -32658,7 +32658,7 @@ the
 frame
 .
 return
-TrapDesc
+OldTrapDesc
 (
 bytecodeOffset
 (
@@ -51072,7 +51072,7 @@ Assembler
 Signed
 ReturnReg
 ReturnReg
-trap
+oldTrap
 (
 Trap
 :
@@ -51156,7 +51156,7 @@ Assembler
 Signed
 ReturnReg
 ReturnReg
-trap
+oldTrap
 (
 Trap
 :

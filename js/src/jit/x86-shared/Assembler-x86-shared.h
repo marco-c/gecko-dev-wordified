@@ -6470,7 +6470,7 @@ cond
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 )
 {
@@ -6498,7 +6498,7 @@ jmp
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 )
 {
@@ -6740,7 +6740,7 @@ label
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 )
 {
@@ -6772,7 +6772,7 @@ append
 wasm
 :
 :
-TrapSite
+OldTrapSite
 (
 target
 jmp

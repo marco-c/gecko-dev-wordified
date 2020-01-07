@@ -18407,7 +18407,7 @@ wasm
 :
 :
 BytecodeOffset
-callOffset
+bytecode
 wasm
 :
 :
@@ -18527,9 +18527,9 @@ wasm
 :
 CallSiteDesc
 (
-callOffset
+bytecode
 .
-bytecodeOffset
+offset
 wasm
 :
 :
@@ -19632,7 +19632,7 @@ scratch
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 oobTrap
 (
 trapOffset
@@ -19695,7 +19695,7 @@ table
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 nullTrap
 (
 trapOffset
@@ -19885,7 +19885,7 @@ void
 MacroAssembler
 :
 :
-wasmEmitTrapOutOfLineCode
+wasmEmitOldTrapOutOfLineCode
 (
 )
 {
@@ -19895,11 +19895,11 @@ const
 wasm
 :
 :
-TrapSite
+OldTrapSite
 &
 site
 :
-trapSites
+oldTrapSites
 (
 )
 )
@@ -19979,7 +19979,7 @@ case
 wasm
 :
 :
-TrapSite
+OldTrapSite
 :
 :
 Jump
@@ -20010,7 +20010,7 @@ case
 wasm
 :
 :
-TrapSite
+OldTrapSite
 :
 :
 MemoryAccess
@@ -20192,7 +20192,7 @@ append
 wasm
 :
 :
-TrapFarJump
+OldTrapFarJump
 (
 site
 .
@@ -20491,14 +20491,14 @@ desc
 (
 site
 .
-bytecodeOffset
+offset
 wasm
 :
 :
 CallSiteDesc
 :
 :
-TrapExit
+OldTrapExit
 )
 ;
 call
@@ -20580,7 +20580,7 @@ breakpoint
 (
 )
 ;
-trapSites
+oldTrapSites
 (
 )
 .

@@ -1112,7 +1112,7 @@ rhs
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 Condition
 c
@@ -1140,7 +1140,7 @@ ma_b
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 JumpKind
 jumpKind

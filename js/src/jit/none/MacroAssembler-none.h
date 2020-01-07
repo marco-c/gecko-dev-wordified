@@ -1449,7 +1449,7 @@ Label
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 )
 {
 MOZ_CRASH

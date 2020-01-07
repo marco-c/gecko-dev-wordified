@@ -6360,7 +6360,7 @@ C
 +
 +
 native
-TrapExit
+OldTrapExit
 /
 /
 calls
@@ -6751,7 +6751,7 @@ kind
 )
 =
 =
-TrapExit
+OldTrapExit
 ;
 }
 bool
@@ -7334,13 +7334,13 @@ INVALID
 1
 ;
 uint32_t
-bytecodeOffset
+offset
 ;
 BytecodeOffset
 (
 )
 :
-bytecodeOffset
+offset
 (
 INVALID
 )
@@ -7350,12 +7350,12 @@ explicit
 BytecodeOffset
 (
 uint32_t
-bytecodeOffset
+offset
 )
 :
-bytecodeOffset
+offset
 (
-bytecodeOffset
+offset
 )
 {
 }
@@ -7366,7 +7366,7 @@ isValid
 const
 {
 return
-bytecodeOffset
+offset
 !
 =
 INVALID
@@ -7493,7 +7493,7 @@ a
 single
 symbolic
 callee
-TrapExit
+OldTrapExit
 /
 /
 call
@@ -7501,6 +7501,10 @@ to
 a
 trap
 exit
+(
+being
+removed
+)
 EnterFrame
 /
 /
@@ -8014,7 +8018,7 @@ ATan2D
 HandleExecutionInterrupt
 HandleDebugTrap
 HandleThrow
-ReportTrap
+OldReportTrap
 ReportOutOfBounds
 ReportUnalignedAccess
 CallImport_Void

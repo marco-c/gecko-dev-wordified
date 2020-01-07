@@ -9124,7 +9124,7 @@ ma_b
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 Assembler
 :
@@ -37062,7 +37062,7 @@ jump
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 (
 trapOffset
 wasm
@@ -37097,7 +37097,7 @@ jump
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 (
 trapOffset
 wasm

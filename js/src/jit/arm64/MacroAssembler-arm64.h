@@ -3557,7 +3557,7 @@ B
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 )
 {
 MOZ_CRASH
@@ -3574,7 +3574,7 @@ B
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 Condition
 cond
 )
@@ -4718,7 +4718,7 @@ jump
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 )
 {
