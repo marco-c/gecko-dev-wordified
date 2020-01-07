@@ -327,6 +327,12 @@ kTlsAlertHandshakeFailure
 ;
 const
 uint8_t
+kTlsAlertBadCertificate
+=
+42
+;
+const
+uint8_t
 kTlsAlertIllegalParameter
 =
 47

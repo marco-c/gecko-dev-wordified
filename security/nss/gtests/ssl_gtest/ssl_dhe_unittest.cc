@@ -211,7 +211,7 @@ CheckKeys
 ssl_kea_dh
 ssl_grp_ffdhe_2048
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 }
@@ -3035,7 +3035,7 @@ CheckKeys
 ssl_kea_dh
 ssl_grp_ffdhe_custom
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 }
@@ -3338,7 +3338,7 @@ client_
 CheckAuthType
 (
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 server_
@@ -3347,7 +3347,7 @@ server_
 CheckAuthType
 (
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 }
@@ -3495,7 +3495,7 @@ CheckKeys
 ssl_kea_dh
 ssl_grp_ffdhe_2048
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 Reset
@@ -3570,7 +3570,7 @@ CheckKeys
 ssl_kea_dh
 ssl_grp_ffdhe_2048
 ssl_auth_rsa_sign
-ssl_sig_rsa_pss_sha256
+ssl_sig_rsa_pss_rsae_sha256
 )
 ;
 ASSERT_LT

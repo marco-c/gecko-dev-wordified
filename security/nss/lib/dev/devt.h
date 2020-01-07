@@ -362,6 +362,17 @@ PK11SlotInfo
 *
 pk11slot
 ;
+PZLock
+*
+isPresentLock
+;
+PRCondVar
+*
+isPresentCondition
+;
+PRBool
+inIsPresent
+;
 }
 ;
 struct
