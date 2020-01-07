@@ -2855,22 +2855,6 @@ self
 .
 register_virtualenv_module
 (
-name
-=
-'
-pip
->
-=
-1
-.
-5
-'
-)
-        
-self
-.
-register_virtualenv_module
-(
 '
 psutil
 =
@@ -2880,11 +2864,6 @@ psutil
 4
 .
 3
-'
-method
-=
-'
-pip
 '
 )
         
