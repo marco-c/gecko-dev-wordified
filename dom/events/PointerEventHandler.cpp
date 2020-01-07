@@ -1164,14 +1164,15 @@ pointerId
 ;
 if
 (
+!
 captureInfo
-&
-&
+|
+|
 captureInfo
 -
 >
 mPendingContent
-!
+=
 =
 captureInfo
 -
@@ -1179,6 +1180,9 @@ captureInfo
 mOverrideContent
 )
 {
+return
+;
+}
 /
 /
 cache
@@ -1281,7 +1285,6 @@ aEvent
 pointerId
 )
 ;
-}
 }
 }
 /
@@ -1575,9 +1578,6 @@ PointerEventHandler
 :
 GetPointerCapturingFrame
 (
-nsIFrame
-*
-aFrameUnderCursor
 WidgetGUIEvent
 *
 aEvent
@@ -1652,7 +1652,7 @@ and
 eMouseDown
 ;
 return
-aFrameUnderCursor
+nullptr
 ;
 }
 WidgetMouseEvent
@@ -1673,7 +1673,7 @@ mouseEvent
 )
 {
 return
-aFrameUnderCursor
+nullptr
 ;
 }
 /
@@ -1705,7 +1705,7 @@ capturingContent
 )
 {
 return
-aFrameUnderCursor
+nullptr
 ;
 }
 /
@@ -1738,7 +1738,7 @@ capturingFrame
 ?
 capturingFrame
 :
-aFrameUnderCursor
+nullptr
 ;
 }
 /
