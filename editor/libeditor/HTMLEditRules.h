@@ -1941,6 +1941,7 @@ false
 .
 *
 /
+MOZ_MUST_USE
 EditActionResult
 MoveContents
 (
