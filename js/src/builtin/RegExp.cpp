@@ -245,13 +245,6 @@ namespace
 js
 ;
 using
-namespace
-js
-:
-:
-unicode
-;
-using
 mozilla
 :
 :
