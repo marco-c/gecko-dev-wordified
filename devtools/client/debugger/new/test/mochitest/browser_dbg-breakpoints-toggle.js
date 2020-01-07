@@ -175,7 +175,7 @@ waitForDispatch
 (
 dbg
 "
-DISABLE_BREAKPOINT
+DISABLE_ALL_BREAKPOINTS
 "
 count
 )
@@ -203,7 +203,7 @@ waitForDispatch
 (
 dbg
 "
-ENABLE_BREAKPOINT
+ENABLE_ALL_BREAKPOINTS
 "
 count
 )
@@ -365,7 +365,7 @@ await
 disableBreakpoints
 (
 dbg
-2
+1
 )
 ;
 let
@@ -440,7 +440,7 @@ await
 enableBreakpoints
 (
 dbg
-2
+1
 )
 ;
 bp1
