@@ -47835,6 +47835,9 @@ else
 if
 (
 mLoadInfo
+&
+&
+mLoadInfo
 -
 >
 GetBrowserWouldUpgradeInsecureRequests
