@@ -5239,6 +5239,7 @@ SymbolRep
 InfinityRep
 NaNRep
 Accessor
+Obj
 ]
 ;
 /
@@ -5440,7 +5441,7 @@ getRep
 object
 defaultRep
 =
-Obj
+Grip
 noGrip
 =
 false
@@ -7779,9 +7780,16 @@ function
 supportsObject
 (
 object
+noGrip
+=
+false
 )
 {
 return
+noGrip
+&
+&
+(
 Array
 .
 isArray
@@ -7809,6 +7817,7 @@ object
 Arguments
 ]
 "
+)
 ;
 }
 const
@@ -29647,10 +29656,13 @@ function
 supportsObject
 (
 object
+noGrip
+=
+false
 )
 {
 return
-true
+noGrip
 ;
 }
 /
