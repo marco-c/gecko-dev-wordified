@@ -228,29 +228,6 @@ certutil
 ]
     
 "
-exes
-"
-:
-{
-        
-'
-tooltool
-.
-py
-'
-:
-"
-/
-tools
-/
-tooltool
-.
-py
-"
-    
-}
-    
-"
 find_links
 "
 :
@@ -354,12 +331,6 @@ txt
     
 "
 download_minidump_stackwalk
-"
-:
-True
-    
-"
-download_tooltool
 "
 :
 True

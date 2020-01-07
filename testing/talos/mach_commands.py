@@ -558,12 +558,6 @@ default_actions
 default_actions
             
 '
-download_tooltool
-'
-:
-True
-            
-'
 talos_extra_options
 '
 :
