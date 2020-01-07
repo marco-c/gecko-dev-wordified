@@ -355,14 +355,7 @@ GetParentObject
 const
 {
 return
-static_cast
-<
-nsIFrameLoader
-*
->
-(
 mFrameLoader
-)
 ;
 }
 }
