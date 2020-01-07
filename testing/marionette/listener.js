@@ -295,7 +295,6 @@ js
 const
 {
 ElementNotInteractableError
-error
 InsecureCertificateError
 InvalidArgumentError
 InvalidElementStateError
@@ -3354,9 +3353,14 @@ id
 .
 catch
 (
-error
-.
-report
+err
+=
+>
+sendError
+(
+err
+id
+)
 )
 ;
 }
