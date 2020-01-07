@@ -9565,7 +9565,6 @@ array_buffer_view
 {
 Ok
 (
-mut
 v
 )
 =
@@ -23367,7 +23366,6 @@ Option
 &
 WebGLUniformLocation
 >
-mut
 v
 :
 CustomAutoRooterGuard
@@ -23518,7 +23516,6 @@ Option
 &
 WebGLUniformLocation
 >
-mut
 v
 :
 CustomAutoRooterGuard
@@ -23762,7 +23759,6 @@ Option
 &
 WebGLUniformLocation
 >
-mut
 v
 :
 CustomAutoRooterGuard
@@ -24006,7 +24002,6 @@ Option
 &
 WebGLUniformLocation
 >
-mut
 v
 :
 CustomAutoRooterGuard
@@ -24255,7 +24250,6 @@ Option
 &
 WebGLUniformLocation
 >
-mut
 v
 :
 CustomAutoRooterGuard
@@ -24502,7 +24496,6 @@ Option
 &
 WebGLUniformLocation
 >
-mut
 v
 :
 CustomAutoRooterGuard
@@ -24754,7 +24747,6 @@ Option
 &
 WebGLUniformLocation
 >
-mut
 v
 :
 CustomAutoRooterGuard
@@ -25006,7 +24998,6 @@ Option
 &
 WebGLUniformLocation
 >
-mut
 v
 :
 CustomAutoRooterGuard
@@ -25160,7 +25151,6 @@ WebGLUniformLocation
 transpose
 :
 bool
-mut
 v
 :
 CustomAutoRooterGuard
@@ -25320,7 +25310,6 @@ WebGLUniformLocation
 transpose
 :
 bool
-mut
 v
 :
 CustomAutoRooterGuard
@@ -25480,7 +25469,6 @@ WebGLUniformLocation
 transpose
 :
 bool
-mut
 v
 :
 CustomAutoRooterGuard
@@ -25843,7 +25831,6 @@ self
 indx
 :
 u32
-mut
 v
 :
 CustomAutoRooterGuard
@@ -26039,7 +26026,6 @@ self
 indx
 :
 u32
-mut
 v
 :
 CustomAutoRooterGuard
@@ -26241,7 +26227,6 @@ self
 indx
 :
 u32
-mut
 v
 :
 CustomAutoRooterGuard
@@ -26449,7 +26434,6 @@ self
 indx
 :
 u32
-mut
 v
 :
 CustomAutoRooterGuard

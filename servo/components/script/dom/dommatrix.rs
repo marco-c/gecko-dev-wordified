@@ -598,7 +598,6 @@ global
 :
 &
 GlobalScope
-mut
 array
 :
 CustomAutoRooterGuard
@@ -688,7 +687,6 @@ global
 :
 &
 GlobalScope
-mut
 array
 :
 CustomAutoRooterGuard
