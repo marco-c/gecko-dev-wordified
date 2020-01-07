@@ -4916,7 +4916,7 @@ aData
 SetKeywordValue
 (
 eCSSProperty_font_weight
-NS_STYLE_FONT_WEIGHT_NORMAL
+NS_FONT_WEIGHT_NORMAL
 )
 ;
 }
@@ -4939,7 +4939,7 @@ aData
 SetKeywordValue
 (
 eCSSProperty_font_weight
-NS_STYLE_FONT_WEIGHT_BOLD
+NS_FONT_WEIGHT_BOLD
 )
 ;
 }
