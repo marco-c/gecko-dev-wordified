@@ -2189,14 +2189,6 @@ uninit
 (
 )
 {
-removeEventListener
-(
-"
-resolutionchange
-"
-this
-)
-;
 Services
 .
 prefs
