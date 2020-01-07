@@ -4360,6 +4360,14 @@ AutoLock
 &
 )
 ;
+void
+InitAsCloneInternal
+(
+MediaCacheStream
+*
+aOriginal
+)
+;
 /
 /
 Instance
