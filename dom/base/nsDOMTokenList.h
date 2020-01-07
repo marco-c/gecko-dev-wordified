@@ -477,7 +477,7 @@ ErrorResult
 aError
 )
 ;
-void
+bool
 Replace
 (
 const
@@ -653,7 +653,7 @@ nsString
 aTokens
 )
 ;
-void
+bool
 ReplaceInternal
 (
 const
