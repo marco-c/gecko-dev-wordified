@@ -102,7 +102,7 @@ promiseOpenPageActionPanel
 (
 )
 {
-let
+const
 dwu
 =
 window
@@ -203,7 +203,7 @@ size
 "
 )
 ;
-let
+const
 bounds
 =
 dwu
@@ -279,6 +279,7 @@ panelNode
 state
 =
 =
+=
 "
 open
 "
@@ -292,7 +293,7 @@ resolve
 )
 ;
 }
-let
+const
 shownPromise
 =
 promisePageActionPanelEvent
@@ -364,7 +365,7 @@ resolve
 =
 >
 {
-let
+const
 panel
 =
 BrowserPageActions
@@ -377,6 +378,7 @@ if
 eventType
 =
 =
+=
 "
 popupshown
 "
@@ -385,6 +387,7 @@ popupshown
 panel
 .
 state
+=
 =
 =
 "
@@ -397,6 +400,7 @@ open
 eventType
 =
 =
+=
 "
 popuphidden
 "
@@ -405,6 +409,7 @@ popuphidden
 panel
 .
 state
+=
 =
 =
 "
@@ -469,7 +474,7 @@ visible
 "
 )
 ;
-let
+const
 dwu
 =
 window
@@ -498,7 +503,7 @@ waitForCondition
 =
 >
 {
-let
+const
 bodyNode
 =
 panelViewNode
@@ -507,7 +512,7 @@ firstChild
 ;
 for
 (
-let
+const
 childNode
 of
 bodyNode
@@ -515,7 +520,7 @@ bodyNode
 childNodes
 )
 {
-let
+const
 bounds
 =
 dwu
@@ -604,7 +609,7 @@ be
 opened
 first
 .
-let
+const
 url
 =
 "
@@ -631,6 +636,20 @@ async
 =
 >
 {
+/
+/
+eslint
+-
+disable
+-
+line
+space
+-
+before
+-
+function
+-
+paren
 await
 togglePageActionPanel
 (

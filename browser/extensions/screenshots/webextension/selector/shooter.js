@@ -921,7 +921,7 @@ selectedPos
 =
 selectedPos
 .
-asJson
+toJSON
 (
 )
 ;
@@ -1121,7 +1121,7 @@ shot
 :
 shotObject
 .
-asJson
+toJSON
 (
 )
 imageBlob
@@ -1384,7 +1384,7 @@ screenshotPage
 "
 selectedPos
 .
-asJson
+toJSON
 (
 )
 {

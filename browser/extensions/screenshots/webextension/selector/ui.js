@@ -1310,6 +1310,7 @@ style
 display
 =
 "
+block
 "
 ;
 catcher
@@ -1796,6 +1797,7 @@ style
 display
 =
 "
+block
 "
 ;
 }
@@ -2848,6 +2850,7 @@ style
 display
 =
 "
+block
 "
 ;
 catcher
@@ -3841,6 +3844,7 @@ style
 display
 =
 "
+block
 "
 ;
 catcher
@@ -5255,10 +5259,18 @@ style
 .
 width
 =
-"
-100
-%
-"
+{
+document
+.
+body
+.
+scrollWidth
+-
+pos
+.
+right
+}
+px
 ;
 /
 /
