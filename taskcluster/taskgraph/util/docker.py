@@ -925,6 +925,19 @@ root
 f
 )
                         
+rel
+=
+source_path
+[
+len
+(
+fs_path
+)
++
+1
+:
+]
+                        
 archive_path
 =
 os
@@ -938,7 +951,7 @@ prefix
 topsrcdir
 '
 p
-f
+rel
 )
                         
 archive_files
