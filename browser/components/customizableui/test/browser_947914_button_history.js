@@ -376,10 +376,13 @@ made
 "
 )
 ;
-historyItemForURL
+EventUtils
 .
-click
+synthesizeMouseAtCenter
 (
+historyItemForURL
+{
+}
 )
 ;
 await
