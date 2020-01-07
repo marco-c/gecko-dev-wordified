@@ -178,6 +178,13 @@ PulseStream
 ;
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Debug
