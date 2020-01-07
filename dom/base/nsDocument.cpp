@@ -32695,6 +32695,7 @@ CustomElementRegistry
 :
 IsCustomElementEnabled
 (
+this
 )
 &
 &
@@ -32956,6 +32957,7 @@ CustomElementRegistry
 :
 IsCustomElementEnabled
 (
+this
 )
 &
 &
