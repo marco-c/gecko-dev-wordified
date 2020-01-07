@@ -4484,7 +4484,7 @@ node
 >
 next
 ;
-OnLookupComplete
+CompleteLookup
 (
 rec
 NS_ERROR_ABORT
@@ -7367,7 +7367,7 @@ result
 callback
 -
 >
-OnLookupComplete
+OnResolveHostComplete
 (
 this
 result
@@ -7596,7 +7596,7 @@ rec
 callback
 -
 >
-OnLookupComplete
+OnResolveHostComplete
 (
 this
 rec
@@ -9211,7 +9211,7 @@ false
 /
 /
 /
-OnLookupComplete
+CompleteLookup
 (
 )
 checks
@@ -9253,7 +9253,7 @@ LookupStatus
 nsHostResolver
 :
 :
-OnLookupComplete
+CompleteLookup
 (
 nsHostRecord
 *
@@ -9855,7 +9855,7 @@ next
 callback
 -
 >
-OnLookupComplete
+OnResolveHostComplete
 (
 this
 rec
@@ -10085,7 +10085,7 @@ rec
 callback
 -
 >
-OnLookupComplete
+OnResolveHostComplete
 (
 this
 recPtr
@@ -10754,7 +10754,7 @@ millis
 }
 /
 /
-OnLookupComplete
+CompleteLookup
 may
 release
 "
@@ -10827,7 +10827,7 @@ LOOKUP_RESOLVEAGAIN
 resolver
 -
 >
-OnLookupComplete
+CompleteLookup
 (
 rec
 status

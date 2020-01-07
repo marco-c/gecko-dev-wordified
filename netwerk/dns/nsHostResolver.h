@@ -509,7 +509,7 @@ in
 nsHostResolver
 :
 :
-OnLookupComplete
+CompleteLookup
 )
 ;
 *
@@ -1193,7 +1193,7 @@ public
 *
 *
 *
-OnLookupComplete
+OnResolveHostComplete
 *
 *
 this
@@ -1295,7 +1295,7 @@ results
 /
 virtual
 void
-OnLookupComplete
+OnResolveHostComplete
 (
 nsHostResolver
 *
@@ -2022,7 +2022,7 @@ LOOKUP_RESOLVEAGAIN
 }
 ;
 LookupStatus
-OnLookupComplete
+CompleteLookup
 (
 nsHostRecord
 *

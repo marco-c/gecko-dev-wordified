@@ -1988,7 +1988,7 @@ netInterface
 {
 }
 void
-OnLookupComplete
+OnResolveHostComplete
 (
 nsHostResolver
 *
@@ -2100,7 +2100,7 @@ void
 nsDNSAsyncRequest
 :
 :
-OnLookupComplete
+OnResolveHostComplete
 (
 nsHostResolver
 *
@@ -2521,7 +2521,7 @@ nsDNSSyncRequest
 default
 ;
 void
-OnLookupComplete
+OnResolveHostComplete
 (
 nsHostResolver
 *
@@ -2575,7 +2575,7 @@ void
 nsDNSSyncRequest
 :
 :
-OnLookupComplete
+OnResolveHostComplete
 (
 nsHostResolver
 *
@@ -4839,7 +4839,7 @@ will
 be
 released
 when
-OnLookupComplete
+OnResolveHostComplete
 is
 called
 .
