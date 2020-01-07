@@ -976,6 +976,25 @@ lintargs
 )
 :
     
+#
+TODO
+don
+'
+t
+store
+results
+in
+a
+global
+    
+global
+results
+    
+results
+=
+[
+]
+    
 cmdargs
 =
 [
