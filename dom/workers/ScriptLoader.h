@@ -197,6 +197,13 @@ const
 nsAString
 &
 aScriptURL
+const
+Maybe
+<
+ClientInfo
+>
+&
+aClientInfo
 nsContentPolicyType
 aContentPolicyType
 bool
