@@ -938,13 +938,6 @@ editAddressTitle
 "
 ;
 }
-FormAutofillUtils
-.
-localizeMarkup
-(
-document
-)
-;
 }
 async
 handleSubmit
@@ -1033,13 +1026,6 @@ editCreditCardTitle
 "
 ;
 }
-FormAutofillUtils
-.
-localizeMarkup
-(
-document
-)
-;
 }
 /
 *
