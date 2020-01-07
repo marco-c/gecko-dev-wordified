@@ -3375,6 +3375,9 @@ mPrimaryConnectedOK
 bool
 mBackupConnectedOK
 ;
+bool
+mBackupConnStatsSet
+;
 /
 /
 A
