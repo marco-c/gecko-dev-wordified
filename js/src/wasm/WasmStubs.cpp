@@ -13107,6 +13107,12 @@ case
 Trap
 :
 :
+IntegerDivideByZero
+:
+case
+Trap
+:
+:
 StackOverflow
 :
 break
@@ -13132,12 +13138,6 @@ Trap
 :
 :
 InvalidConversionToInteger
-:
-case
-Trap
-:
-:
-IntegerDivideByZero
 :
 case
 Trap
