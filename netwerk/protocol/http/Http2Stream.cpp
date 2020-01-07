@@ -2229,8 +2229,9 @@ Mutator
 )
 .
 Apply
-(
-NS_MutatorMethod
+<
+nsIStandardURLMutator
+>
 (
 &
 nsIStandardURLMutator
@@ -2260,7 +2261,6 @@ origin
 nullptr
 nullptr
 nullptr
-)
 )
 .
 Finalize
