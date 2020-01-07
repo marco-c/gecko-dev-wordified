@@ -4565,7 +4565,9 @@ DEBUG
 define
 MOZ_FALLTHROUGH_ASSERT
 (
-reason
+.
+.
+.
 )
 MOZ_CRASH
 (
@@ -4573,7 +4575,7 @@ MOZ_CRASH
 MOZ_FALLTHROUGH_ASSERT
 :
 "
-reason
+__VA_ARGS__
 )
 #
 else
