@@ -304,7 +304,7 @@ kill
 cm
 from
 to
-mayGrow
+ring
 text
 )
 {
@@ -327,7 +327,12 @@ to
 ;
 if
 (
-mayGrow
+ring
+=
+=
+"
+grow
+"
 &
 &
 lastKill
@@ -365,6 +370,14 @@ text
 )
 ;
 else
+if
+(
+ring
+!
+=
+=
+false
+)
 addToRing
 (
 text
@@ -386,7 +399,12 @@ delete
 ;
 if
 (
-mayGrow
+ring
+=
+=
+"
+grow
+"
 )
 lastKill
 =
@@ -1352,6 +1370,7 @@ killTo
 cm
 by
 dir
+ring
 )
 {
 var
@@ -1398,7 +1417,7 @@ cursor
 by
 dir
 )
-true
+ring
 )
 ;
 }
@@ -1407,6 +1426,7 @@ function
 killRegion
 (
 cm
+ring
 )
 {
 if
@@ -1458,6 +1478,7 @@ anchor
 selection
 .
 head
+ring
 )
 ;
 }
@@ -2323,6 +2344,7 @@ getCursor
 end
 "
 )
+true
 )
 ;
 }
@@ -2412,7 +2434,9 @@ kill
 cm
 start
 end
-true
+"
+grow
+"
 text
 )
 ;
@@ -2596,6 +2620,7 @@ killTo
 cm
 byChar
 1
+false
 )
 ;
 }
@@ -2611,6 +2636,7 @@ cm
 killRegion
 (
 cm
+false
 )
 |
 |
@@ -2619,6 +2645,7 @@ killTo
 cm
 byChar
 1
+false
 )
 ;
 }
@@ -2639,6 +2666,7 @@ cm
 byChar
 -
 1
+false
 )
 ;
 }
@@ -2654,6 +2682,7 @@ cm
 killRegion
 (
 cm
+false
 )
 |
 |
@@ -2663,6 +2692,7 @@ cm
 byChar
 -
 1
+false
 )
 ;
 }
@@ -2705,6 +2735,9 @@ killTo
 cm
 byWord
 1
+"
+grow
+"
 )
 ;
 }
@@ -2725,6 +2758,9 @@ cm
 byWord
 -
 1
+"
+grow
+"
 )
 ;
 }
@@ -2906,6 +2942,9 @@ killTo
 cm
 bySentence
 1
+"
+grow
+"
 )
 ;
 }
@@ -2927,6 +2966,9 @@ killTo
 cm
 byExpr
 1
+"
+grow
+"
 )
 ;
 }
@@ -2949,6 +2991,9 @@ cm
 byExpr
 -
 1
+"
+grow
+"
 )
 ;
 }
@@ -2978,6 +3023,9 @@ move
 byExpr
 -
 1
+"
+grow
+"
 )
 "
 Shift
@@ -3872,7 +3920,9 @@ getCursor
 )
 1
 )
-true
+"
+grow
+"
 )
 ;
 }

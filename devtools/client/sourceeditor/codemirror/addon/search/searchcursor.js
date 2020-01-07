@@ -1627,7 +1627,7 @@ length
 ]
 if
 (
-end
+endString
 .
 slice
 (

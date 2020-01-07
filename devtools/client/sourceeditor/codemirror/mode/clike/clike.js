@@ -3923,7 +3923,6 @@ words
 "
 class
 interface
-package
 enum
 interface
 "
