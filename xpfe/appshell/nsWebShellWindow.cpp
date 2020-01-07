@@ -285,13 +285,6 @@ h
 #
 include
 "
-nsIDOMXULDocument
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h

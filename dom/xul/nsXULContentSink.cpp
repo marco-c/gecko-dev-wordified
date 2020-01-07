@@ -237,13 +237,6 @@ h
 #
 include
 "
-nsIDOMXULDocument
-.
-h
-"
-#
-include
-"
 nsIFormControl
 .
 h
