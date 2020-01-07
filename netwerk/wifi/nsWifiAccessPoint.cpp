@@ -226,10 +226,11 @@ a
 displayable
 string
 .
-CopyASCIItoUTF16
+aSsid
+.
+AssignASCII
 (
 mSsid
-aSsid
 )
 ;
 return
