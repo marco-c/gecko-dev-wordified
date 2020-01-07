@@ -358,6 +358,9 @@ class
 GenericFlingAnimation
 ;
 class
+AndroidFlingPhysics
+;
+class
 DesktopFlingPhysics
 ;
 class
@@ -8447,6 +8450,10 @@ FlingPhysics
 friend
 class
 GenericFlingAnimation
+;
+friend
+class
+AndroidFlingPhysics
 ;
 friend
 class
