@@ -19302,7 +19302,7 @@ set
 BorderBackground
 (
 )
-false
+true
 )
 ;
 MarkAbsoluteFramesForDisplayList
@@ -19686,7 +19686,7 @@ set
 BorderBackground
 (
 )
-false
+true
 )
 ;
 /
