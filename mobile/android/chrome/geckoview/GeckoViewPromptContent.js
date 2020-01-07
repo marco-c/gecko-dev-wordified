@@ -134,10 +134,9 @@ prompter
 .
 getService
 (
-Ci
-.
-nsIDOMEventListener
 )
+.
+wrappedJSObject
 options
 :
 {
