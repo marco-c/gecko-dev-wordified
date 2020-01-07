@@ -212,7 +212,7 @@ took
 to
 execute
 .
-ActiveThreadOrGCTaskData
+MainThreadOrGCTaskData
 <
 mozilla
 :

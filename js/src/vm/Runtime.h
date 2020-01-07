@@ -1794,7 +1794,7 @@ data
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JSAccumulateTelemetryDataCallback
 >
@@ -1815,7 +1815,7 @@ data
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JSSetUseCounterCallback
 >
@@ -2168,7 +2168,7 @@ function
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 bool
 >
@@ -2185,7 +2185,7 @@ callback
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JSDestroyCompartmentCallback
 >
@@ -2203,7 +2203,7 @@ callback
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JSSizeOfIncludingThisCompartmentCallback
 >
@@ -2226,7 +2226,7 @@ compartment
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JSCompartmentNameCallback
 >
@@ -2243,7 +2243,7 @@ callback
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JS
 :
@@ -2269,7 +2269,7 @@ realm
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JS
 :
@@ -2294,7 +2294,7 @@ strings
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JSExternalStringSizeofCallback
 >
@@ -2303,7 +2303,7 @@ externalStringSizeofCallback
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 mozilla
 :
@@ -2321,7 +2321,7 @@ sourceHook
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 const
 JSSecurityCallbacks
@@ -2332,7 +2332,7 @@ securityCallbacks
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 const
 js
@@ -2346,7 +2346,7 @@ DOMcallbacks
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JSDestroyPrincipalsOp
 >
@@ -2355,7 +2355,7 @@ destroyPrincipals
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JSReadPrincipalsOp
 >
@@ -2372,7 +2372,7 @@ reporter
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JS
 :
@@ -2433,7 +2433,7 @@ pointers
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 mozilla
 :
@@ -2568,7 +2568,7 @@ trustedPrincipals_
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 const
 JSWrapObjectCallbacks
@@ -2579,7 +2579,7 @@ wrapObjectCallbacks
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 js
 :
@@ -2591,7 +2591,7 @@ preserveWrapperCallback
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 js
 :
@@ -2604,7 +2604,7 @@ scriptEnvironmentPreparer
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 js
 :
@@ -2682,7 +2682,7 @@ beginSweepingSweepGroup
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 mozilla
 :
@@ -2829,7 +2829,7 @@ established
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 WatchersList
 >
@@ -2870,7 +2870,7 @@ runtime
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 mozilla
 :
@@ -3225,7 +3225,7 @@ CompartmentsIter
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 size_t
 >
@@ -3246,7 +3246,7 @@ conversion
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 const
 JSLocaleCallbacks
@@ -3266,7 +3266,7 @@ API
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 char
 *
@@ -3292,7 +3292,7 @@ information
 js
 :
 :
-ActiveThreadOrIonCompileData
+MainThreadOrIonCompileData
 <
 bool
 >
@@ -3315,7 +3315,7 @@ API
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JS
 :
@@ -5231,7 +5231,7 @@ runtime
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 js
 :
@@ -5713,7 +5713,7 @@ parallelParsingEnabled_
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 bool
 >
@@ -5835,7 +5835,7 @@ h
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 JS
 :
@@ -5847,7 +5847,7 @@ oomCallback
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 void
 *
@@ -5887,7 +5887,7 @@ memory
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 mozilla
 :
@@ -5926,7 +5926,7 @@ private
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 js
 :
@@ -6133,7 +6133,7 @@ private
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 js
 :

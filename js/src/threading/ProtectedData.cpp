@@ -370,7 +370,7 @@ AllowedHelperThread
 Helper
 >
 void
-CheckActiveThread
+CheckMainThread
 <
 Helper
 >
@@ -418,7 +418,7 @@ runtime
 }
 template
 class
-CheckActiveThread
+CheckMainThread
 <
 AllowedHelperThread
 :
@@ -428,7 +428,7 @@ None
 ;
 template
 class
-CheckActiveThread
+CheckMainThread
 <
 AllowedHelperThread
 :
@@ -438,7 +438,7 @@ GCTask
 ;
 template
 class
-CheckActiveThread
+CheckMainThread
 <
 AllowedHelperThread
 :

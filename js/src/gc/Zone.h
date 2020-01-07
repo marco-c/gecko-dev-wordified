@@ -2195,7 +2195,7 @@ zone
 js
 :
 :
-ActiveThreadOrGCTaskData
+MainThreadOrGCTaskData
 <
 CompartmentVector
 >
@@ -2547,7 +2547,7 @@ itself
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 ZoneSet
 >
@@ -5074,7 +5074,7 @@ jitZone_
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 bool
 >
@@ -5083,7 +5083,7 @@ gcScheduled_
 js
 :
 :
-ActiveThreadData
+MainThreadData
 <
 bool
 >
@@ -5136,7 +5136,7 @@ NotOnList
 js
 :
 :
-ActiveThreadOrGCTaskData
+MainThreadOrGCTaskData
 <
 Zone
 *
