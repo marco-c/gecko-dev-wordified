@@ -191,6 +191,11 @@ LaunchOptions
 aOptions
 )
 ;
+bool
+HasAtiDrivers
+(
+)
+;
 }
 /
 /

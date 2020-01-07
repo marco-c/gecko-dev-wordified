@@ -4346,6 +4346,17 @@ dir
 in
 the
 chain
+or
+tried
+/
+/
+to
+back
+out
+of
+a
+link
+target
 .
 return
 0
@@ -5468,6 +5479,7 @@ pathLen
 )
 )
 ;
+}
 if
 (
 !
@@ -5541,6 +5553,7 @@ perms
 =
 symlinkPerms
 ;
+}
 }
 if
 (
@@ -5639,8 +5652,6 @@ pathLen
 )
 )
 ;
-}
-}
 }
 /
 /
@@ -7160,7 +7171,7 @@ denied
 op
 =
 %
-d
+s
 rflags
 =
 %
@@ -7193,7 +7204,10 @@ s
 \
 "
 "
+OperationDescription
+[
 aOp
+]
 aFlags
 aPerms
 aPath

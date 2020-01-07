@@ -1203,7 +1203,7 @@ errno
 d
 op
 %
-d
+s
 flags
 0
 %
@@ -1215,10 +1215,13 @@ s
 resp
 .
 mError
+OperationDescription
+[
 aReq
 -
 >
 mOp
+]
 aReq
 -
 >
