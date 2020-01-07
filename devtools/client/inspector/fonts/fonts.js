@@ -1060,7 +1060,6 @@ event
 /
 onThemeChanged
 (
-event
 frame
 )
 {

@@ -7956,7 +7956,6 @@ onNewSelection
 :
 function
 (
-event
 value
 reason
 )
@@ -8547,7 +8546,6 @@ onDetached
 :
 function
 (
-event
 parentNode
 )
 {

@@ -1648,7 +1648,6 @@ this
 .
 onSidebarResized
 (
-null
 this
 .
 inspector
@@ -1661,7 +1660,6 @@ getSidebarSize
 }
 onSidebarResized
 (
-type
 size
 )
 {
