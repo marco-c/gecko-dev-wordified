@@ -1625,9 +1625,9 @@ checks
 bool
 testingEnabled
 =
-aWorkerPrivate
--
->
+DOMPrefs
+:
+:
 DOMCachesTestingEnabled
 (
 )
