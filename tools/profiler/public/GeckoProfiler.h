@@ -1243,9 +1243,6 @@ undef
 DECLARE
 }
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 namespace
 mozilla
 {
@@ -1586,8 +1583,6 @@ profiler
 /
 namespace
 mozilla
-#
-endif
 /
 /
 -
@@ -3028,9 +3023,6 @@ profiler_is_active
 (
 )
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 return
 mozilla
 :
@@ -3048,13 +3040,6 @@ IsActive
 (
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 /
 /
