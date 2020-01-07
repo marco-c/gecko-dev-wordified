@@ -502,13 +502,13 @@ beige
 ;
 padding
 :
-calc
+inherit
 ;
 \
 "
 "
 27
-31
+34
 true
 ]
 [
