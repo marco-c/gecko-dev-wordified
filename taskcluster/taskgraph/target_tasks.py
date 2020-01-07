@@ -142,7 +142,7 @@ _target_task_methods
 method
 ]
 def
-filter_on_nightly
+filter_out_nightly
 (
 task
 parameters
@@ -650,7 +650,7 @@ filter_func
 in
         
 (
-filter_on_nightly
+filter_out_nightly
 filter_for_project
 filter_upload_symbols
 )
