@@ -261,7 +261,7 @@ resource
 /
 formautofill
 /
-ProfileStorage
+FormAutofillStorage
 .
 jsm
 "
@@ -1610,7 +1610,7 @@ stored
 /
 /
 in
-ProfileStorage
+FormAutofillStorage
 persistChangedIDs
 :
 false
@@ -1920,7 +1920,7 @@ that
 we
 can
 update
-ProfileStorage
+FormAutofillStorage
 in
 trackRemainingChanges
 .
@@ -2028,7 +2028,7 @@ loader
 of
 /
 /
-ProfileStorage
+FormAutofillStorage
 in
 this
 case
