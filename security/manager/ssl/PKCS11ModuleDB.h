@@ -157,7 +157,8 @@ public
 PKCS11ModuleDB
 (
 )
-;
+{
+}
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPKCS11MODULEDB
 protected
@@ -167,15 +168,6 @@ virtual
 PKCS11ModuleDB
 (
 )
-;
-private
-:
-virtual
-void
-virtualDestroyNSSReference
-(
-)
-override
 {
 }
 }
