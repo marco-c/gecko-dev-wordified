@@ -92,9 +92,7 @@ util
 schema
 import
 (
-    
-optionally_keyed_by
-resolve_keyed_by
+     
 validate_schema
 Schema
 )
@@ -109,6 +107,8 @@ import
     
 get_beetmover_bucket_scope
 get_beetmover_action_scope
+    
+get_worker_type_for_scope
 )
 from
 taskgraph
@@ -326,23 +326,6 @@ on
 projects
 '
 ]
-    
-Required
-(
-'
-worker
--
-type
-'
-)
-:
-optionally_keyed_by
-(
-'
-project
-'
-basestring
-)
     
 Optional
 (
@@ -624,37 +607,6 @@ product
         
 )
         
-resolve_keyed_by
-(
-            
-job
-'
-worker
--
-type
-'
-item_name
-=
-job
-[
-'
-name
-'
-]
-            
-project
-=
-config
-.
-params
-[
-'
-project
-'
-]
-        
-)
-        
 bucket_scope
 =
 get_beetmover_bucket_scope
@@ -691,14 +643,11 @@ worker
 type
 '
 :
-job
-[
-'
-worker
--
-type
-'
-]
+get_worker_type_for_scope
+(
+config
+bucket_scope
+)
             
 '
 scopes

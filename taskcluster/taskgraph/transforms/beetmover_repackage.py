@@ -135,6 +135,8 @@ get_beetmover_bucket_scope
 get_beetmover_action_scope
                                          
 get_phase
+                                         
+get_worker_type_for_scope
 )
 from
 taskgraph
@@ -2021,17 +2023,11 @@ worker
 type
 '
 :
-'
-scriptworker
--
-prov
--
-v1
-/
-beetmoverworker
--
-v1
-'
+get_worker_type_for_scope
+(
+config
+bucket_scope
+)
             
 '
 scopes
