@@ -155,8 +155,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -415,8 +413,8 @@ Scratchpad
 .
 *
 /
+async
 function
-*
 openScratchpadWindow
 (
 )
@@ -442,7 +440,7 @@ openScratchpad
 (
 )
 ;
-yield
+await
 once
 (
 win
@@ -1343,7 +1341,6 @@ target
 function
 sourceHandler
 (
-_
 sourceEvent
 )
 {

@@ -495,7 +495,6 @@ parent
 function
 selectCB
 (
-event
 id
 )
 {

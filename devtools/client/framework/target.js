@@ -97,8 +97,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -4350,10 +4348,7 @@ _tab
 let
 onToolboxDestroyed
 =
-(
-event
 target
-)
 =
 >
 {

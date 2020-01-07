@@ -272,7 +272,6 @@ toolbox
 destroy
 "
 (
-event
 toolbox
 iframe
 )
@@ -283,7 +282,11 @@ collectedEvents
 .
 push
 (
-event
+"
+toolbox
+-
+destroy
+"
 )
 ;
 }
@@ -302,7 +305,6 @@ id
 destroy
 "
 (
-event
 toolbox
 iframe
 )
@@ -318,7 +320,14 @@ gDevTools
 -
 "
 +
-event
+toolDefinition
+.
+id
++
+"
+-
+destroy
+"
 )
 ;
 }
@@ -332,7 +341,6 @@ once
 destroy
 "
 (
-event
 )
 =
 >
@@ -341,7 +349,9 @@ collectedEvents
 .
 push
 (
-event
+"
+destroy
+"
 )
 ;
 }
@@ -360,7 +370,6 @@ id
 destroy
 "
 (
-event
 )
 =
 >
@@ -374,7 +383,14 @@ toolbox
 -
 "
 +
-event
+toolDefinition
+.
+id
++
+"
+-
+destroy
+"
 )
 ;
 }
