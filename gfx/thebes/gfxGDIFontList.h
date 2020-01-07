@@ -813,6 +813,16 @@ Clone
 const
 override
 ;
+bool
+HasVariations
+(
+)
+override
+{
+return
+false
+;
+}
 /
 /
 create
