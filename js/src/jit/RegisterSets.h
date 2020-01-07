@@ -1329,7 +1329,10 @@ TypedOrValueRegister
 union
 U
 {
-Value
+JS
+:
+:
+UninitializedValue
 constant
 ;
 TypedOrValueRegister
@@ -1338,9 +1341,7 @@ reg
 }
 data
 ;
-const
 Value
-&
 dataValue
 (
 )
@@ -1357,6 +1358,10 @@ return
 data
 .
 constant
+.
+asValueRef
+(
+)
 ;
 }
 void
@@ -1483,9 +1488,7 @@ return
 constant_
 ;
 }
-const
 Value
-&
 value
 (
 )

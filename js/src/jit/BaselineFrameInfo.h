@@ -502,7 +502,10 @@ union
 {
 struct
 {
-Value
+JS
+:
+:
+UninitializedValue
 v
 ;
 }
@@ -670,6 +673,10 @@ data
 constant
 .
 v
+.
+asValueRef
+(
+)
 ;
 }
 ValueOperand

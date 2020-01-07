@@ -3407,7 +3407,7 @@ IsErrorWithMessage
 JS
 :
 :
-Value
+UninitializedValue
 mJSException
 ;
 /

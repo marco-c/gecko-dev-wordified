@@ -4736,7 +4736,10 @@ which_
 ;
 union
 {
-Value
+JS
+:
+:
+UninitializedValue
 scalar_
 ;
 SimdConstant
@@ -4851,6 +4854,10 @@ u
 .
 scalar_
 .
+asValueRef
+(
+)
+.
 toInt32
 (
 )
@@ -4890,6 +4897,10 @@ u
 .
 scalar_
 .
+asValueRef
+(
+)
+.
 toDouble
 (
 )
@@ -4916,6 +4927,10 @@ u
 .
 scalar_
 .
+asValueRef
+(
+)
+.
 toDouble
 (
 )
@@ -4940,6 +4955,10 @@ return
 u
 .
 scalar_
+.
+asValueRef
+(
+)
 ;
 }
 bool

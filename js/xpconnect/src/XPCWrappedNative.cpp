@@ -11237,6 +11237,10 @@ val
 .
 j
 .
+asValueRef
+(
+)
+.
 setUndefined
 (
 )
@@ -11257,6 +11261,10 @@ dp
 val
 .
 j
+.
+asValueRef
+(
+)
 "
 XPCWrappedNative
 :
@@ -11266,9 +11274,11 @@ param
 "
 )
 )
+{
 return
 false
 ;
+}
 }
 /
 /
