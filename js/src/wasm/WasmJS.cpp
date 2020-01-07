@@ -331,6 +331,17 @@ include
 "
 vm
 /
+ArrayBufferObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 NativeObject
 -
 inl
