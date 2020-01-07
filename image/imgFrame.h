@@ -1532,7 +1532,7 @@ size_t
 aNonHeapSizeOut
 size_t
 &
-aSharedHandlesOut
+aExtHandlesOut
 )
 const
 ;

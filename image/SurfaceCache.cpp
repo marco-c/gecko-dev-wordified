@@ -1589,7 +1589,7 @@ Values
 (
 )
 .
-SetSharedHandles
+SetExternalHandles
 (
 handles
 )
