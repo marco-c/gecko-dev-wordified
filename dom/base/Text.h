@@ -288,9 +288,8 @@ GetAsText
 )
 {
 return
-IsNodeOfType
+IsText
 (
-eTEXT
 )
 ?
 static_cast
@@ -330,9 +329,8 @@ GetAsText
 const
 {
 return
-IsNodeOfType
+IsText
 (
-eTEXT
 )
 ?
 static_cast
