@@ -243,7 +243,11 @@ h
 #
 include
 "
-jsobjinlines
+vm
+/
+ArrayBufferObject
+-
+inl
 .
 h
 "
@@ -252,7 +256,7 @@ include
 "
 vm
 /
-ArrayBufferObject
+JSObject
 -
 inl
 .

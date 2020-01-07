@@ -183,7 +183,11 @@ h
 #
 include
 "
-jsobjinlines
+vm
+/
+JSObject
+-
+inl
 .
 h
 "

@@ -132,7 +132,9 @@ h
 #
 include
 "
-jsobj
+vm
+/
+Interpreter
 .
 h
 "
@@ -141,7 +143,7 @@ include
 "
 vm
 /
-Interpreter
+JSObject
 .
 h
 "
@@ -157,7 +159,11 @@ h
 #
 include
 "
-jsobjinlines
+vm
+/
+JSObject
+-
+inl
 .
 h
 "

@@ -117,7 +117,9 @@ vm_ShapedObject_h
 #
 include
 "
-jsobj
+vm
+/
+JSObject
 .
 h
 "

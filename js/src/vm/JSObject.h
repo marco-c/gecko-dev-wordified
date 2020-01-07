@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jsobj_h
+vm_JSObject_h
 #
 define
-jsobj_h
+vm_JSObject_h
 #
 include
 "
@@ -9774,6 +9774,6 @@ js
 endif
 /
 *
-jsobj_h
+vm_JSObject_h
 *
 /

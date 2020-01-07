@@ -125,7 +125,11 @@ h
 #
 include
 "
-jsobjinlines
+vm
+/
+ArgumentsObject
+-
+inl
 .
 h
 "
@@ -134,7 +138,7 @@ include
 "
 vm
 /
-ArgumentsObject
+JSObject
 -
 inl
 .

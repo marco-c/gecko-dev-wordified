@@ -110,14 +110,16 @@ MPL
 /
 #
 ifndef
-jsobjinlines_h
+vm_JSObject_inl_h
 #
 define
-jsobjinlines_h
+vm_JSObject_inl_h
 #
 include
 "
-jsobj
+vm
+/
+JSObject
 .
 h
 "
@@ -5591,6 +5593,6 @@ nullptr
 endif
 /
 *
-jsobjinlines_h
+vm_JSObject_inl_h
 *
 /

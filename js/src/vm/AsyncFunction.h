@@ -124,7 +124,9 @@ h
 #
 include
 "
-jsobj
+vm
+/
+JSObject
 .
 h
 "
