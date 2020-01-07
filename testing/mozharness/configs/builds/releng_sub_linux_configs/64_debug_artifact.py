@@ -511,15 +511,6 @@ bin
 :
 \
 /
-tools
-/
-python27
--
-mercurial
-/
-bin
-:
-/
 home
 /
 cltbld
