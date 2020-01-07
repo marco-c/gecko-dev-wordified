@@ -163,6 +163,17 @@ mozilla
 /
 dom
 /
+NodeFilterBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 NodeIteratorBinding
 .
 h
@@ -901,7 +912,7 @@ if
 filtered
 =
 =
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_ACCEPT

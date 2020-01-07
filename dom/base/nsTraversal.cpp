@@ -131,6 +131,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+NodeFilterBinding
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -322,7 +333,7 @@ mWhatToShow
 )
 {
 return
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_SKIP
@@ -341,7 +352,7 @@ filter
 just
 accept
 return
-nsIDOMNodeFilter
+NodeFilterBinding
 :
 :
 FILTER_ACCEPT
