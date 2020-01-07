@@ -19749,6 +19749,7 @@ id
 ;
 public
 :
+constexpr
 PinnedStringId
 (
 )
