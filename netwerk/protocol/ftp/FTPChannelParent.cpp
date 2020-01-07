@@ -1090,6 +1090,11 @@ a
 loadInfo
 (
 )
+a
+.
+loadFlags
+(
+)
 )
 ;
 }
@@ -1164,6 +1169,10 @@ const
 OptionalLoadInfoArgs
 &
 aLoadInfoArgs
+const
+uint32_t
+&
+aLoadFlags
 )
 {
 nsresult
@@ -1340,10 +1349,7 @@ loadInfo
 nullptr
 nullptr
 nullptr
-nsIRequest
-:
-:
-LOAD_NORMAL
+aLoadFlags
 ios
 )
 ;
