@@ -505,7 +505,6 @@ setup
 (
 )
 {
-await
 Service
 .
 engineManager

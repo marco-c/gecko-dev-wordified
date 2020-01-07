@@ -276,7 +276,6 @@ saveState
 (
 )
 ;
-await
 tracker
 .
 clearChangedIDs
@@ -435,7 +434,6 @@ expected
 let
 install
 =
-await
 getAddonInstall
 (
 "
@@ -542,13 +540,11 @@ _refreshReconcilerState
 let
 addon
 =
-await
 installAddon
 (
 "
 test_bootstrap1_1
 "
-reconciler
 )
 ;
 let
@@ -631,11 +627,9 @@ null
 dupe
 )
 ;
-await
 uninstallAddon
 (
 addon
-reconciler
 )
 ;
 await
@@ -764,7 +758,6 @@ makeGUID
 (
 )
 ;
-await
 tracker
 .
 addChangedID
@@ -830,7 +823,6 @@ guid1
 ]
 )
 ;
-await
 tracker
 .
 clearChangedIDs
@@ -852,16 +844,13 @@ populated
 let
 addon
 =
-await
 installAddon
 (
 "
 test_bootstrap1_1
 "
-reconciler
 )
 ;
-await
 tracker
 .
 clearChangedIDs
@@ -978,11 +967,9 @@ addon
 .
 syncGUID
 ;
-await
 uninstallAddon
 (
 addon
-reconciler
 )
 ;
 changes
@@ -1115,7 +1102,6 @@ DUMMY
 =
 record
 ;
-await
 reconciler
 .
 _addChange
