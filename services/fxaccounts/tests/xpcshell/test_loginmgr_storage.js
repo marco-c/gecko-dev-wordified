@@ -371,7 +371,7 @@ true
 ;
 }
 async
-signOutAndDestroyDevice
+signOut
 (
 )
 {
