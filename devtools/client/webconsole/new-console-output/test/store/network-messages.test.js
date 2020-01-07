@@ -247,9 +247,11 @@ dispatch
 (
 actions
 .
-messageAdd
+messagesAdd
 (
+[
 packet
+]
 )
 )
 ;
