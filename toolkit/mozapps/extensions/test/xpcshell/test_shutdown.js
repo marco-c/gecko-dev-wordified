@@ -87,9 +87,6 @@ addManagerListener
 removeManagerListener
 "
 "
-mapURIToAddonID
-"
-"
 shutdown
 "
 "

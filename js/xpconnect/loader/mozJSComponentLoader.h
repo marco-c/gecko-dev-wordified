@@ -587,9 +587,6 @@ const
 nsACString
 &
 aLocation
-JSAddonId
-*
-aAddonID
 JS
 :
 :
@@ -600,8 +597,6 @@ aGlobal
 bool
 ReuseGlobal
 (
-bool
-aIsAddon
 nsIURI
 *
 aComponent
