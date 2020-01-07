@@ -109,7 +109,7 @@ factories
 ;
 const
 {
-openLink
+openWebLink
 }
 =
 require
@@ -272,7 +272,7 @@ handleLinkClick
 event
 )
 {
-openLink
+openWebLink
 (
 event
 .

@@ -269,6 +269,19 @@ state
 .
 receiveProfile
 ;
+const
+getSetRecordingPreferencesFn
+=
+state
+=
+>
+getInitializedValues
+(
+state
+)
+.
+setRecordingPreferences
+;
 module
 .
 exports
@@ -287,5 +300,6 @@ getInitializedValues
 getPerfFront
 getToolbox
 getReceiveProfileFn
+getSetRecordingPreferencesFn
 }
 ;
