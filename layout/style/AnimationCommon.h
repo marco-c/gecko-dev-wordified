@@ -183,6 +183,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Nullable
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -988,6 +999,9 @@ undef
 GetCurrentTime
 #
 endif
+dom
+:
+:
 Nullable
 <
 TimeDuration

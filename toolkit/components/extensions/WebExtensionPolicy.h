@@ -118,6 +118,17 @@ mozilla
 /
 dom
 /
+Nullable
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WebExtensionPolicyBinding
 .
 h
@@ -941,6 +952,9 @@ mHostPermissions
 MatchGlobSet
 mWebAccessiblePaths
 ;
+dom
+:
+:
 Nullable
 <
 nsTArray
