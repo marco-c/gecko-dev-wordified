@@ -362,6 +362,13 @@ e
 {
 }
 }
+export
+function
+example
+(
+)
+{
+}
 /
 /
 The
