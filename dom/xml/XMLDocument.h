@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsIDOMXMLDocument
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h
@@ -178,8 +171,6 @@ XMLDocument
 :
 public
 nsDocument
-public
-nsIDOMXMLDocument
 {
 public
 :
@@ -198,7 +189,11 @@ xml
 "
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+XMLDocument
+nsDocument
+)
 virtual
 void
 Reset
@@ -300,10 +295,6 @@ EndLoad
 )
 override
 ;
-/
-/
-nsIDOMXMLDocument
-NS_DECL_NSIDOMXMLDOCUMENT
 virtual
 nsresult
 Init
