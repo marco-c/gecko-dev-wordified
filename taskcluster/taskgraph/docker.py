@@ -459,6 +459,7 @@ def
 build_image
 (
 name
+tag
 args
 =
 None
@@ -551,6 +552,8 @@ image_dir
     
 tag
 =
+tag
+or
 docker
 .
 docker_image
