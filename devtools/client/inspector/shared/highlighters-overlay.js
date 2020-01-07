@@ -1226,7 +1226,7 @@ false
 .
 ruleview
 -
-shape
+shapeswatch
 "
 )
 ;
@@ -1239,7 +1239,7 @@ true
 .
 ruleview
 -
-shape
+shapeswatch
 [
 data
 -
@@ -1403,7 +1403,7 @@ false
 .
 ruleview
 -
-shape
+shapeswatch
 "
 )
 ;
@@ -4564,7 +4564,7 @@ contains
 "
 ruleview
 -
-shape
+shapeswatch
 "
 )
 ;

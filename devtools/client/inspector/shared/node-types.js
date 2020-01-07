@@ -116,7 +116,7 @@ in
 the
 rule
 and
-omputed
+computed
 view
 .
 *
