@@ -147,6 +147,14 @@ DOMEventTargetHelper
 .
 h
 "
+#
+ifdef
+XP_WIN
+#
+undef
+PostMessage
+#
+endif
 class
 nsIDOMEvent
 ;

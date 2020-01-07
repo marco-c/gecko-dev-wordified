@@ -672,6 +672,16 @@ prsystem
 .
 h
 "
+#
+define
+WORKERS_SHUTDOWN_TOPIC
+"
+web
+-
+workers
+-
+shutdown
+"
 using
 namespace
 mozilla

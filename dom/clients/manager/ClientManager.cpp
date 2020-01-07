@@ -207,6 +207,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 prthread
 .
 h

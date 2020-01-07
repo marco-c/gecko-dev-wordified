@@ -3093,6 +3093,9 @@ Dispatch
 (
 Status
 aFailStatus
+mozilla
+:
+:
 ErrorResult
 &
 aRv
