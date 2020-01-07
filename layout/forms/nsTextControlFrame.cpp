@@ -2676,6 +2676,13 @@ CreateEmptyDiv
 this
 )
 ;
+mRootNode
+-
+>
+SetIsNativeAnonymousRoot
+(
+)
+;
 mMutationObserver
 =
 new
