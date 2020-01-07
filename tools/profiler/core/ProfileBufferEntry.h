@@ -1696,7 +1696,13 @@ aStack
 ;
 public
 :
+mozilla
+:
+:
+UniquePtr
+<
 UniqueJSONStrings
+>
 mUniqueStrings
 ;
 private

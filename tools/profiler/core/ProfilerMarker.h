@@ -305,7 +305,8 @@ StartArrayElement
 aUniqueStacks
 .
 mUniqueStrings
-.
+-
+>
 WriteElement
 (
 aWriter
