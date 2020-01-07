@@ -548,6 +548,17 @@ aLastKnownTitle
 )
 ;
 nsresult
+GetBookmarkURI
+(
+int64_t
+aItemId
+nsIURI
+*
+*
+_URI
+)
+;
+nsresult
 ResultNodeForContainer
 (
 int64_t
