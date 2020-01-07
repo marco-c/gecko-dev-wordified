@@ -1833,13 +1833,13 @@ Data
 data
 )
 {
-BindingName
-*
+TrailingNamesArray
+&
 names
 =
 data
 .
-names
+trailingNames
 ;
 for
 (
@@ -60256,7 +60256,7 @@ paramName
 bindings
 -
 >
-names
+trailingNames
 [
 bindings
 -
