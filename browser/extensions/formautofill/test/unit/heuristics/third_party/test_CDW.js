@@ -24,6 +24,7 @@ expectedResult
 :
 [
 [
+[
 {
 "
 section
@@ -408,6 +409,7 @@ extension
 "
 }
 ]
+]
 [
 ]
 ]
@@ -422,6 +424,7 @@ html
 "
 expectedResult
 :
+[
 [
 [
 {
@@ -859,6 +862,7 @@ csc
 "
 }
 ]
+]
 [
 ]
 ]
@@ -877,6 +881,8 @@ expectedResult
 [
 ]
 [
+[
+]
 ]
 [
 ]

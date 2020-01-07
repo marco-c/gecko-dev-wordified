@@ -24,11 +24,14 @@ expectedResult
 :
 [
 [
+[
+]
 ]
 /
 /
 Search
 form
+[
 [
 {
 "
@@ -211,6 +214,8 @@ code
 "
 }
 ]
+]
+[
 [
 /
 /
@@ -244,6 +249,8 @@ email
 "
 }
 ]
+]
+[
 [
 /
 /
@@ -302,6 +309,7 @@ fieldName
 tel
 "
 }
+]
 ]
 ]
 }
@@ -317,11 +325,14 @@ expectedResult
 :
 [
 [
+[
+]
 ]
 /
 /
 Search
 form
+[
 [
 /
 /
@@ -355,6 +366,8 @@ email
 "
 }
 ]
+]
+[
 [
 {
 "
@@ -537,6 +550,8 @@ code
 "
 }
 ]
+]
+[
 [
 /
 /
@@ -597,6 +612,7 @@ tel
 }
 ]
 ]
+]
 }
 {
 fixturePath
@@ -608,6 +624,7 @@ html
 "
 expectedResult
 :
+[
 [
 [
 /
@@ -641,6 +658,7 @@ fieldName
 email
 "
 }
+]
 ]
 ]
 }

@@ -24,6 +24,7 @@ expectedResult
 :
 [
 [
+[
 /
 /
 {
@@ -305,6 +306,8 @@ csc
 "
 }
 ]
+]
+[
 [
 {
 "
@@ -333,6 +336,7 @@ fieldName
 email
 "
 }
+]
 ]
 ]
 }
@@ -348,6 +352,7 @@ expectedResult
 :
 [
 [
+[
 /
 /
 {
@@ -640,6 +645,8 @@ csc
 "
 }
 ]
+]
+[
 [
 {
 "
@@ -670,6 +677,7 @@ email
 }
 ]
 ]
+]
 }
 {
 fixturePath
@@ -683,10 +691,10 @@ expectedResult
 :
 [
 [
-/
-/
-Unknown
+[
 ]
+]
+[
 [
 /
 /
@@ -719,6 +727,7 @@ fieldName
 email
 "
 }
+]
 ]
 [
 ]

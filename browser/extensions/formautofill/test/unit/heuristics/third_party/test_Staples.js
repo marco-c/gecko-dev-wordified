@@ -24,6 +24,7 @@ expectedResult
 :
 [
 [
+[
 /
 /
 ac
@@ -242,6 +243,7 @@ organization
 }
 ]
 ]
+]
 }
 {
 fixturePath
@@ -253,6 +255,7 @@ html
 "
 expectedResult
 :
+[
 [
 [
 {
@@ -456,6 +459,7 @@ organization
 }
 ]
 ]
+]
 }
 {
 fixturePath
@@ -467,6 +471,7 @@ html
 "
 expectedResult
 :
+[
 [
 [
 {
@@ -558,6 +563,7 @@ cc
 csc
 "
 }
+]
 ]
 ]
 }
@@ -573,6 +579,7 @@ expectedResult
 :
 [
 [
+[
 {
 "
 section
@@ -662,6 +669,7 @@ cc
 csc
 "
 }
+]
 ]
 ]
 }
