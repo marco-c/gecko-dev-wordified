@@ -227,6 +227,13 @@ defined
 (
 MOZ_X11
 )
+&
+&
+!
+defined
+(
+MOZ_WAYLAND
+)
 #
 define
 GL_CONTEXT_PROVIDER_NAME
