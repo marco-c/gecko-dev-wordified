@@ -4173,7 +4173,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 EnterVideoSuspend
@@ -5091,7 +5091,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 ExitVideoSuspend
@@ -5248,7 +5248,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 SeekStarted
@@ -9997,7 +9997,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 VideoOnlySeekBegin
@@ -10062,7 +10062,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 VideoOnlySeekCompleted
@@ -11194,7 +11194,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 EnterVideoSuspend
@@ -11795,7 +11795,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 PlaybackEnded
@@ -14135,7 +14135,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 Loop
@@ -15408,7 +15408,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 Invalidate
@@ -17766,7 +17766,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 PlaybackStopped
@@ -17924,7 +17924,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 PlaybackStarted
@@ -18828,7 +18828,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 StartVideoSuspendTimer
@@ -23868,7 +23868,7 @@ mOnPlaybackEvent
 .
 Notify
 (
-MediaEventType
+MediaPlaybackEvent
 :
 :
 CancelVideoSuspendTimer

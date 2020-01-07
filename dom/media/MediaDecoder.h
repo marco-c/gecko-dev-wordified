@@ -309,11 +309,8 @@ MediaFormatReader
 class
 MediaDecoderStateMachine
 ;
-enum
-class
-MediaEventType
-:
-int8_t
+struct
+MediaPlaybackEvent
 ;
 enum
 class
@@ -2554,7 +2551,9 @@ virtual
 void
 OnPlaybackEvent
 (
-MediaEventType
+MediaPlaybackEvent
+&
+&
 aEvent
 )
 ;
