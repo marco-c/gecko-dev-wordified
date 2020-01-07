@@ -178,13 +178,13 @@ ops
 :
 {
 Add
-Mul
-Sub
-Div
 AddAssign
-SubAssign
-MulAssign
+Div
 DivAssign
+Mul
+MulAssign
+Sub
+SubAssign
 }
 ;
 use
@@ -5230,6 +5230,8 @@ round
 (
 )
 ceil
+(
+)
 or
 floor
 (
@@ -6267,8 +6269,8 @@ super
 :
 :
 {
-TypedPoint2D
 Point2D
+TypedPoint2D
 point2
 }
 ;
