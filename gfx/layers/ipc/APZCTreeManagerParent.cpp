@@ -143,7 +143,7 @@ mozilla
 /
 layers
 /
-APZSampler
+APZThreadUtils
 .
 h
 "
@@ -154,7 +154,7 @@ mozilla
 /
 layers
 /
-APZThreadUtils
+APZUpdater
 .
 h
 "
@@ -178,9 +178,9 @@ APZCTreeManager
 aAPZCTreeManager
 RefPtr
 <
-APZSampler
+APZUpdater
 >
-aAPZSampler
+aAPZUpdater
 )
 :
 mLayersId
@@ -194,11 +194,11 @@ Move
 aAPZCTreeManager
 )
 )
-mSampler
+mUpdater
 (
 Move
 (
-aAPZSampler
+aAPZUpdater
 )
 )
 {
@@ -212,7 +212,7 @@ nullptr
 ;
 MOZ_ASSERT
 (
-mSampler
+mUpdater
 !
 =
 nullptr
@@ -220,7 +220,7 @@ nullptr
 ;
 MOZ_ASSERT
 (
-mSampler
+mUpdater
 -
 >
 HasTreeManager
@@ -252,9 +252,9 @@ APZCTreeManager
 aAPZCTreeManager
 RefPtr
 <
-APZSampler
+APZUpdater
 >
-aAPZSampler
+aAPZUpdater
 )
 {
 MOZ_ASSERT
@@ -267,7 +267,7 @@ nullptr
 ;
 MOZ_ASSERT
 (
-aAPZSampler
+aAPZUpdater
 !
 =
 nullptr
@@ -275,7 +275,7 @@ nullptr
 ;
 MOZ_ASSERT
 (
-aAPZSampler
+aAPZUpdater
 -
 >
 HasTreeManager
@@ -291,11 +291,11 @@ Move
 aAPZCTreeManager
 )
 ;
-mSampler
+mUpdater
 =
 Move
 (
-aAPZSampler
+aAPZUpdater
 )
 ;
 }
@@ -317,7 +317,7 @@ KeyboardMap
 aKeyboardMap
 )
 {
-mSampler
+mUpdater
 -
 >
 RunOnControllerThread
@@ -422,7 +422,7 @@ this
 )
 ;
 }
-mSampler
+mUpdater
 -
 >
 RunOnControllerThread
@@ -483,7 +483,7 @@ bool
 aPreventDefault
 )
 {
-mSampler
+mUpdater
 -
 >
 RunOnControllerThread
@@ -613,7 +613,7 @@ this
 ;
 }
 }
-mSampler
+mUpdater
 -
 >
 RunOnControllerThread
@@ -755,7 +755,7 @@ float
 aDpiValue
 )
 {
-mSampler
+mUpdater
 -
 >
 RunOnControllerThread
@@ -815,7 +815,7 @@ TouchBehaviorFlags
 aValues
 )
 {
-mSampler
+mUpdater
 -
 >
 RunOnControllerThread
@@ -927,7 +927,7 @@ this
 )
 ;
 }
-mSampler
+mUpdater
 -
 >
 RunOnControllerThread
@@ -1074,7 +1074,7 @@ layers
 id
 )
 .
-mSampler
+mUpdater
 -
 >
 RunOnControllerThread
@@ -1146,7 +1146,7 @@ the
 layers
 id
 .
-mSampler
+mUpdater
 -
 >
 RunOnControllerThread
@@ -1199,7 +1199,7 @@ bool
 aLongTapEnabled
 )
 {
-mSampler
+mUpdater
 -
 >
 RunOnControllerThread

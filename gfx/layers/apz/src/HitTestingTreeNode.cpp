@@ -433,7 +433,7 @@ This
 runs
 on
 the
-sampler
+updater
 thread
 it
 '

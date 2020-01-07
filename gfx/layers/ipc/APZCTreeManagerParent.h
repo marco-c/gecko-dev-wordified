@@ -141,7 +141,7 @@ class
 APZCTreeManager
 ;
 class
-APZSampler
+APZUpdater
 ;
 class
 APZCTreeManagerParent
@@ -162,9 +162,9 @@ APZCTreeManager
 aAPZCTreeManager
 RefPtr
 <
-APZSampler
+APZUpdater
 >
-mAPZSampler
+mAPZUpdater
 )
 ;
 virtual
@@ -223,9 +223,9 @@ APZCTreeManager
 aAPZCTreeManager
 RefPtr
 <
-APZSampler
+APZUpdater
 >
-aAPZSampler
+aAPZUpdater
 )
 ;
 mozilla
@@ -464,9 +464,9 @@ mTreeManager
 ;
 RefPtr
 <
-APZSampler
+APZUpdater
 >
-mSampler
+mUpdater
 ;
 }
 ;

@@ -448,7 +448,7 @@ This
 runs
 on
 the
-sampler
+updater
 thread
 it
 '
@@ -1201,7 +1201,7 @@ This
 runs
 on
 the
-sampler
+updater
 thread
 it
 '

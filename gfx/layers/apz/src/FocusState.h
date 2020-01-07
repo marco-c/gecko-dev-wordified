@@ -1136,7 +1136,7 @@ both
 /
 /
 the
-sampler
+updater
 and
 controller
 threads
