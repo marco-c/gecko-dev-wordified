@@ -2830,9 +2830,9 @@ skin
 /
 images
 /
-tool
+shape
 -
-shadereditor
+swatch
 .
 svg
 "
@@ -2872,7 +2872,10 @@ background
 -
 size
 :
-1em
+110
+%
+110
+%
 ;
 box
 -
