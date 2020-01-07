@@ -130,10 +130,6 @@ GetStreamParserThread
 (
 )
 ;
-static
-bool
-sOffMainThread
-;
 private
 :
 #
