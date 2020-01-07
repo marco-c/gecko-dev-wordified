@@ -116,12 +116,6 @@ ORTHO_NEAR_PLANE
 }
 ;
 use
-internal_types
-:
-:
-RenderTargetMode
-;
-use
 std
 :
 :
@@ -619,9 +613,6 @@ TextureFilter
 :
 :
 Linear
-RenderTargetMode
-:
-:
 None
 1
 Some

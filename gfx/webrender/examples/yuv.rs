@@ -1015,9 +1015,9 @@ resources
 &
 mut
 ResourceUpdates
-layout_size
+_framebuffer_size
 :
-LayoutSize
+DeviceUintSize
 _pipeline_id
 :
 PipelineId
@@ -1040,7 +1040,11 @@ LayoutPoint
 zero
 (
 )
-layout_size
+builder
+.
+content_size
+(
+)
 )
 ;
 let
