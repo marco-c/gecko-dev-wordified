@@ -661,6 +661,16 @@ disableOptimizationTracking
 ;
 }
 bool
+stringsCanBeInNursery
+(
+)
+const
+{
+return
+stringsCanBeInNursery_
+;
+}
+bool
 safeForMinorGC
 (
 )
@@ -1034,6 +1044,9 @@ instrumentedProfilingIsCached_
 ;
 bool
 safeForMinorGC_
+;
+bool
+stringsCanBeInNursery_
 ;
 void
 addAbortedPreliminaryGroup

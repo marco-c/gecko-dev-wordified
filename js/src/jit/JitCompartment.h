@@ -3517,6 +3517,9 @@ mallocSizeOf
 )
 const
 ;
+bool
+stringsCanBeInNursery
+;
 }
 ;
 /

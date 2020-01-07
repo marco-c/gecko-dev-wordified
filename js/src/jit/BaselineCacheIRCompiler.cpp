@@ -7826,16 +7826,6 @@ dest
 scratch2
 )
 ;
-if
-(
-type
-!
-=
-ReferenceTypeDescr
-:
-:
-TYPE_STRING
-)
 emitPostBarrierSlot
 (
 obj
