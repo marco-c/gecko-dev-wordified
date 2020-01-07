@@ -8797,7 +8797,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 XULDocument
 :
 :
@@ -8954,7 +8954,7 @@ aElement
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 XULDocument
 :
 :
