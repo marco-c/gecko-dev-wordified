@@ -27274,7 +27274,7 @@ phase
 ;
 if
 (
-hasBufferedGrayRoots
+hasValidGrayRootsBuffer
 (
 )
 )
@@ -43082,7 +43082,7 @@ isIncremental
 &
 &
 !
-hasBufferedGrayRoots
+hasValidGrayRootsBuffer
 (
 )
 )
