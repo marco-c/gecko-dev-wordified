@@ -432,6 +432,11 @@ include
 <
 algorithm
 >
+#
+include
+<
+unordered_set
+>
 class
 gfxContext
 ;

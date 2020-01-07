@@ -339,6 +339,17 @@ Preferences
 h
 "
 #
+include
+"
+mozilla
+/
+layers
+/
+StackingContextHelper
+.
+h
+"
+#
 ifdef
 MOZ_X11
 #

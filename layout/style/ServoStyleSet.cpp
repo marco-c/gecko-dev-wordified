@@ -216,6 +216,15 @@ include
 "
 mozilla
 /
+StyleAnimationValue
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 Loader
