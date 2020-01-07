@@ -4631,7 +4631,7 @@ varName
 )
 ;
 }
-NS_IMETHODIMP
+void
 txMozillaXSLTProcessor
 :
 :
@@ -4645,11 +4645,8 @@ clear
 (
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 txMozillaXSLTProcessor
 :
 :
@@ -4692,9 +4689,6 @@ mVariables
 clear
 (
 )
-;
-return
-NS_OK
 ;
 }
 void

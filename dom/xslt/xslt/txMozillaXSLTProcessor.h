@@ -643,6 +643,16 @@ ErrorResult
 aRv
 )
 ;
+void
+ClearParameters
+(
+)
+;
+void
+Reset
+(
+)
+;
 uint32_t
 Flags
 (
