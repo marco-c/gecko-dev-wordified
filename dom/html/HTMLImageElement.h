@@ -1333,7 +1333,7 @@ aError
 #
 ifdef
 DEBUG
-nsIDOMHTMLFormElement
+HTMLFormElement
 *
 GetForm
 (
@@ -1345,7 +1345,7 @@ endif
 void
 SetForm
 (
-nsIDOMHTMLFormElement
+HTMLFormElement
 *
 aForm
 )
