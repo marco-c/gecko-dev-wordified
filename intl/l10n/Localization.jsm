@@ -724,7 +724,7 @@ Services
 .
 locale
 .
-getAppLocalesAsLangTags
+getAppLocalesAsBCP47
 (
 )
 ;
