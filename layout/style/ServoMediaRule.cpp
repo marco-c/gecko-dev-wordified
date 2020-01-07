@@ -146,7 +146,9 @@ include
 "
 mozilla
 /
-ServoMediaList
+dom
+/
+MediaList
 .
 h
 "
@@ -506,7 +508,7 @@ mMediaList
 mMediaList
 =
 new
-ServoMediaList
+MediaList
 (
 Servo_MediaRule_GetMedia
 (
