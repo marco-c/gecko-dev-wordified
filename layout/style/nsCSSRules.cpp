@@ -5280,7 +5280,7 @@ AppendLiteral
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsCSSKeyframeRule
 :
 :
@@ -5295,9 +5295,6 @@ DoGetKeyText
 (
 aKeyText
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -5399,7 +5396,7 @@ AppendLiteral
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsCSSKeyframeRule
 :
 :
@@ -5458,7 +5455,6 @@ the
 parse
 fails
 return
-NS_OK
 ;
 }
 nsIDocument
@@ -5503,9 +5499,6 @@ this
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsICSSDeclaration
 *
