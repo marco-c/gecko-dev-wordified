@@ -499,7 +499,11 @@ bufferedCells
 (
 )
 =
-nullptr
+&
+ArenaCellSet
+:
+:
+Empty
 ;
 bufferWholeCell
 =
