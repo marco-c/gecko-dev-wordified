@@ -1538,7 +1538,7 @@ pub
 type
 ShadowCascadeOrder
 =
-u32
+u8
 ;
 impl
 RuleTree
