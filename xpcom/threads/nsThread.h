@@ -452,9 +452,6 @@ WaitForAllAsynchronousShutdowns
 (
 )
 ;
-#
-ifdef
-MOZ_CRASHREPORTER
 enum
 class
 ShouldSaveMemoryReport
@@ -471,8 +468,6 @@ ShouldSaveMemoryReport
 aShouldSave
 )
 ;
-#
-endif
 static
 const
 uint32_t
