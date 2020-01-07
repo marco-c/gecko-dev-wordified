@@ -339,7 +339,7 @@ history
 again
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 History
@@ -531,7 +531,7 @@ Bookmarks
 node
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 UnfiledBookmarks
@@ -693,7 +693,7 @@ PlacesOrganizer
 {
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 Tags
@@ -793,7 +793,7 @@ history
 object
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 History

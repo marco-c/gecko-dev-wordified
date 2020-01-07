@@ -205,7 +205,7 @@ bookmarks
 node
 PO
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 AllBookmarks
@@ -264,7 +264,7 @@ history
 node
 PO
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 History
@@ -478,7 +478,7 @@ menu
 node
 PO
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 BookmarksMenu

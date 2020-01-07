@@ -237,7 +237,7 @@ gLibrary
 .
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 UnfiledBookmarks
@@ -374,7 +374,7 @@ gLibrary
 .
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 UnfiledBookmarks
@@ -693,7 +693,7 @@ gLibrary
 .
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 UnfiledBookmarks
@@ -1129,6 +1129,17 @@ queryString
 }
 )
 ;
+gLibrary
+.
+PlacesOrganizer
+.
+selectLeftPaneQuery
+(
+"
+Query
+"
+)
+;
 /
 /
 Select
@@ -1144,7 +1155,7 @@ gLibrary
 .
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 UnfiledBookmarks

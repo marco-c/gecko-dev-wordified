@@ -131,7 +131,7 @@ library
 .
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 BookmarksToolbar
@@ -167,7 +167,7 @@ library
 .
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 UnfiledBookmarks
@@ -238,7 +238,7 @@ library
 .
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 BookmarksToolbar
@@ -294,7 +294,7 @@ library
 .
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 History
@@ -330,7 +330,7 @@ library
 .
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 UnfiledBookmarks
@@ -400,7 +400,7 @@ library
 .
 PlacesOrganizer
 .
-selectLeftPaneBuiltIn
+selectLeftPaneQuery
 (
 "
 History
