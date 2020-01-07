@@ -11528,7 +11528,7 @@ rv
 ;
 }
 const
-uint32_t
+CSSPropFlags
 nsCSSProps
 :
 :
@@ -13014,9 +13014,15 @@ flags_
 )
 &
 (
-CSS_PROPERTY_ENABLED_MASK
+CSSPropFlags
+:
+:
+EnabledMask
 |
-CSS_PROPERTY_PARSE_INACCESSIBLE
+CSSPropFlags
+:
+:
+Inaccessible
 )
 )
 )
