@@ -716,7 +716,7 @@ stored
 in
 TestEnvironment
 .
-external_config
+config
         
 :
 param

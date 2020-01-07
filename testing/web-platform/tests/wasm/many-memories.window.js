@@ -52,7 +52,7 @@ allocate
 a
 /
 /
-large
+larger
 number
 of
 WebAssembly
@@ -85,7 +85,7 @@ i
 ;
 i
 <
-600
+20
 ;
 i
 +

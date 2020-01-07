@@ -537,7 +537,7 @@ dismiss2
 "
 )
 is
-None
+False
     
 create_dialog
 (

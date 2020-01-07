@@ -36,14 +36,6 @@ ws
 }
 "
 ;
-/
-/
-FIXME
-:
-Add
-support
-for
-wss
 var
 PORT_SSL
 =
@@ -52,7 +44,7 @@ PORT_SSL
 {
 ports
 [
-ws
+wss
 ]
 [
 0

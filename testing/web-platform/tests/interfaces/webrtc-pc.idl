@@ -1918,8 +1918,8 @@ transport
 ;
 readonly
 attribute
-unsigned
-long
+unrestricted
+double
 maxMessageSize
 ;
 }

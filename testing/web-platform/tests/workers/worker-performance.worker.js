@@ -1289,7 +1289,7 @@ workers
 test
 (
 function
-testPerformanceHasNoToJSON
+testPerformanceHasToJSON
 (
 )
 {
@@ -1302,14 +1302,15 @@ performance
 toJSON
 )
 "
-undefined
+function
 "
 "
 performance
 .
 toJSON
 is
-undefined
+a
+function
 "
 )
 ;
@@ -1319,7 +1320,6 @@ performance
 .
 toJSON
 is
-not
 available
 in
 workers

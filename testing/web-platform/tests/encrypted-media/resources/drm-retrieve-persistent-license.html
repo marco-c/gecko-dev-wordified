@@ -311,7 +311,11 @@ opener
 .
 postMessage
 (
+{
+testResult
+:
 assertions
+}
 '
 *
 '
@@ -457,6 +461,7 @@ function
 mediaKeys
 )
 {
+return
 config
 .
 video
@@ -466,6 +471,15 @@ setMediaKeys
 mediaKeys
 )
 ;
+}
+)
+.
+then
+(
+function
+(
+)
+{
 config
 .
 video
@@ -480,6 +494,10 @@ onTimeupdate
 ;
 _mediaKeySession
 =
+config
+.
+video
+.
 mediaKeys
 .
 createSession
