@@ -2337,17 +2337,6 @@ aStats
 )
 )
 ;
-AbstractThread
-:
-:
-AutoEnter
-context
-(
-AbstractMainThread
-(
-)
-)
-;
 /
 /
 Update
