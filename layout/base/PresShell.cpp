@@ -17252,16 +17252,6 @@ if
 aElement
 -
 >
-IsStyledByServo
-(
-)
-)
-{
-if
-(
-aElement
--
->
 GetFlattenedTreeParentNode
 (
 )
@@ -17435,7 +17425,6 @@ ClearServoDataFromSubtree
 aElement
 )
 ;
-}
 }
 auto
 changeHint

@@ -7904,14 +7904,6 @@ if
 IsElement
 (
 )
-&
-&
-document
--
->
-IsStyledByServo
-(
-)
 )
 {
 AsElement
