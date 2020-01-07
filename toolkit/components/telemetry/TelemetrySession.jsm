@@ -7603,6 +7603,16 @@ lowMemoryEventsVirtual
 cc
 (
 "
+LOW_MEMORY_EVENTS_COMMIT_SPACE
+"
+"
+lowMemoryEventsCommitSpace
+"
+)
+;
+cc
+(
+"
 LOW_MEMORY_EVENTS_PHYSICAL
 "
 "
