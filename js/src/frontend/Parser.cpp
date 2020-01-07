@@ -14156,14 +14156,11 @@ template
 <
 class
 ParseHandler
-typename
-CharT
 >
 bool
-GeneralParser
+PerHandlerParser
 <
 ParseHandler
-CharT
 >
 :
 :
