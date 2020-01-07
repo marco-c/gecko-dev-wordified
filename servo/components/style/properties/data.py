@@ -2187,6 +2187,10 @@ BorderStyle
 "
                 
 "
+ColumnCount
+"
+                
+"
 Contain
 "
                 
@@ -2264,10 +2268,6 @@ OverscrollBehavior
                 
 "
 Percentage
-"
-                
-"
-PositiveIntegerOrAuto
 "
                 
 "
