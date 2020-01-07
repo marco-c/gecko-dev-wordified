@@ -253,6 +253,16 @@ aBaton
 )
 override
 ;
+bool
+IsDataFont
+(
+)
+const
+{
+return
+mIsDataFont
+;
+}
 already_AddRefed
 <
 ScaledFont

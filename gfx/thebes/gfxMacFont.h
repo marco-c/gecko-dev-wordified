@@ -473,6 +473,8 @@ CGFontRef
 aCGFont
 CGFloat
 aSize
+bool
+aInstalledFont
 CTFontDescriptorRef
 aFontDesc
 =

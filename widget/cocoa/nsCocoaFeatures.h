@@ -391,6 +391,11 @@ Gecko_OnSierraExactly
 (
 )
 ;
+bool
+Gecko_OnHighSierraOrLater
+(
+)
+;
 }
 #
 endif
