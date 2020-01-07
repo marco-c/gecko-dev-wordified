@@ -1625,7 +1625,9 @@ repo
 {
 }
 :
-*
+branch
+:
+default
 '
 .
 format
