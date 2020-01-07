@@ -182,7 +182,7 @@ include
 "
 wasm
 /
-WasmBinaryIterator
+WasmOpIter
 .
 h
 "

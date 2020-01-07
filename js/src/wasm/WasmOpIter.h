@@ -179,10 +179,10 @@ License
 /
 #
 ifndef
-wasm_binary_iterator_h
+wasm_op_iter_h
 #
 define
-wasm_binary_iterator_h
+wasm_op_iter_h
 #
 include
 "
@@ -12878,4 +12878,4 @@ mozilla
 endif
 /
 /
-wasm_iterator_h
+wasm_op_iter_h
