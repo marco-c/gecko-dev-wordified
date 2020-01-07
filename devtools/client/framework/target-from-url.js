@@ -994,14 +994,6 @@ have
 one
 already
 running
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -1025,7 +1017,6 @@ true
 }
 )
 ;
-}
 transport
 =
 DebuggerServer

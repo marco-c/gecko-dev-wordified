@@ -208,14 +208,6 @@ test
 (
 )
 {
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -239,7 +231,6 @@ true
 }
 )
 ;
-}
 gTabList
 =
 new

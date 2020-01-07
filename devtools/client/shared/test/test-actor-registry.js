@@ -652,14 +652,6 @@ a
 server
 is
 running
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -683,7 +675,6 @@ true
 }
 )
 ;
-}
 let
 client
 =

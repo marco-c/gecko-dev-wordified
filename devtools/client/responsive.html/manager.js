@@ -2910,14 +2910,6 @@ function
 (
 )
 {
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -2941,7 +2933,6 @@ true
 }
 )
 ;
-}
 this
 .
 client

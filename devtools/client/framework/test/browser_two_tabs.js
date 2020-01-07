@@ -178,14 +178,6 @@ waitForExplicitFinish
 (
 )
 ;
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -209,7 +201,6 @@ true
 }
 )
 ;
-}
 openTabs
 (
 )

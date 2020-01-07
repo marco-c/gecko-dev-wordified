@@ -2504,14 +2504,6 @@ connect
 locally
 to
 it
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -2535,7 +2527,6 @@ true
 }
 )
 ;
-}
 DebuggerServer
 .
 allowChromeProcess

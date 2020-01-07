@@ -4605,14 +4605,6 @@ panel
 "
 )
 ;
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -4636,7 +4628,6 @@ true
 }
 )
 ;
-}
 DebuggerServer
 .
 allowChromeProcess
@@ -8862,14 +8853,6 @@ TAB_URL
 WORKER_URL
 )
 {
-if
-(
-!
-DebuggerServer
-.
-initialized
-)
-{
 DebuggerServer
 .
 init
@@ -8893,7 +8876,6 @@ true
 }
 )
 ;
-}
 let
 client
 =
