@@ -3519,9 +3519,7 @@ fxaccounts
 .
 remote
 .
-webchannel
-.
-uri
+root
 "
 )
 ;
