@@ -845,9 +845,9 @@ mPresContext
 ;
 nsCOMPtr
 <
-nsIPresShell
+nsIDocument
 >
-mPresShell
+mDocument
 ;
 /
 /
