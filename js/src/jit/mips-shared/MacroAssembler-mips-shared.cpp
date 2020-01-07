@@ -9359,11 +9359,8 @@ cl
 ma_li
 (
 scratch
+&
 cl
-.
-patchAt
-(
-)
 )
 ;
 Push
@@ -9373,11 +9370,8 @@ scratch
 ;
 bind
 (
+&
 cl
-.
-target
-(
-)
 )
 ;
 uint32_t

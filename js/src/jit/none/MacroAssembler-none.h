@@ -1039,8 +1039,9 @@ Bind
 (
 uint8_t
 *
-CodeOffset
-CodeOffset
+const
+CodeLabel
+&
 )
 {
 MOZ_CRASH
@@ -1577,7 +1578,7 @@ MOZ_CRASH
 void
 writeCodePointer
 (
-CodeOffset
+CodeLabel
 *
 label
 )

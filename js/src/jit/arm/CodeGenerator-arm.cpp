@@ -9119,11 +9119,8 @@ masm
 .
 writeCodePointer
 (
+&
 cl
-.
-patchAt
-(
-)
 )
 ;
 masm
