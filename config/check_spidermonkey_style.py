@@ -562,7 +562,7 @@ style
 ignored_js_src_dirs
 =
 [
-   
+    
 '
 js
 /
@@ -574,7 +574,7 @@ config
 #
 auxiliary
 stuff
-   
+    
 '
 js
 /
@@ -588,7 +588,7 @@ libffi
 #
 imported
 code
-   
+    
 '
 js
 /
@@ -600,7 +600,7 @@ devtools
 #
 auxiliary
 stuff
-   
+    
 '
 js
 /
@@ -612,7 +612,7 @@ editline
 #
 imported
 code
-   
+    
 '
 js
 /
@@ -624,7 +624,7 @@ gdb
 #
 auxiliary
 stuff
-   
+    
 '
 js
 /
@@ -1253,13 +1253,6 @@ BinSource
 .
 h
     
-'
-frontend
-/
-ReservedWordsGenerated
-.
-h
-'
 #
 Included
 in
@@ -1271,6 +1264,14 @@ frontend
 TokenStream
 .
 h
+    
+'
+frontend
+/
+ReservedWordsGenerated
+.
+h
+'
     
 '
 gc
@@ -3187,6 +3188,7 @@ filename
 inclname
 file_kind
 code
+                       
 all_inclnames
 included_h_inclnames
 )
@@ -3230,7 +3232,7 @@ py
 expected
 output
 '
-                                       
+                                     
 tofile
 =
 '
@@ -4670,6 +4672,7 @@ extend
 (
 pretty_sorted_includes
 (
+                    
 includes
 )
 +
@@ -5138,6 +5141,7 @@ append
 Include
 (
 prefix
+                                                    
 inclname
 suffix
 linenum
@@ -5233,6 +5237,7 @@ append
 Include
 (
 prefix
+                                                    
 inclname
 suffix
 linenum
@@ -5494,6 +5499,7 @@ block_stack
 raise
 ValueError
 (
+                        
 "
 #
 endif
@@ -5908,6 +5914,7 @@ filename
 include
 .
 linenum
+                          
 '
 the
 file
@@ -6347,6 +6354,7 @@ files
 )
 '
 None
+                      
 '
 header
 files

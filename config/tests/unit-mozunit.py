@@ -126,7 +126,6 @@ write
 foobar
 '
 )
-;
         
 self
 .

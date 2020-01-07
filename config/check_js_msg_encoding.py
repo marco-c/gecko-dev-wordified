@@ -271,7 +271,6 @@ basename
 (
 __file__
 )
-;
 expected_encoding
 =
 '
