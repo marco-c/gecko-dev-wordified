@@ -1628,15 +1628,6 @@ NormalizedConstraints
 &
 aNetConstraints
 const
-NormalizedConstraints
-&
-aNewConstraint
-/
-*
-Ignored
-*
-/
-const
 MediaEnginePrefs
 &
 aPrefs
