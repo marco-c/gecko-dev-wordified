@@ -128,13 +128,6 @@ bar
 }
 "
 ;
-var
-gLength
-=
-gFileContent
-.
-length
-;
 /
 /
 Reference

@@ -185,13 +185,6 @@ runTests
 )
 {
 let
-sp
-=
-gScratchpadWindow
-.
-Scratchpad
-;
-let
 doc
 =
 gScratchpadWindow

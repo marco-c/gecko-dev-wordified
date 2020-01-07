@@ -2213,6 +2213,8 @@ stopRecordingAnimationFrame
 )
 ;
 }
+else
+{
 /
 /
 If
@@ -2275,8 +2277,6 @@ no
 requestAnimationFrame
 anyway
 .
-else
-{
 this
 .
 _onRecordFailure
@@ -2729,6 +2729,9 @@ file
 return
 ;
 }
+var
+data
+;
 try
 {
 let
@@ -2746,7 +2749,6 @@ available
 )
 )
 ;
-var
 data
 =
 JSON

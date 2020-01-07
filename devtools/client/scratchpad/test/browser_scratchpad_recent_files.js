@@ -163,9 +163,6 @@ temporary
 files
 .
 var
-gFileContent
-;
-var
 gFileContent01
 =
 "

@@ -108,21 +108,6 @@ strict
 "
 ;
 const
-{
-Cc
-Ci
-Cu
-Cr
-}
-=
-require
-(
-"
-chrome
-"
-)
-;
-const
 promise
 =
 require
@@ -474,6 +459,7 @@ _destroyer
 ;
 }
 return
+(
 this
 .
 _destroyer
@@ -525,6 +511,7 @@ destroyed
 )
 ;
 }
+)
 )
 ;
 }
