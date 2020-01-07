@@ -578,6 +578,12 @@ aChannel
 nsIURI
 *
 aOriginalURIWithExtension
+nsCOMPtr
+<
+nsIURI
+>
+&
+aOutURI
 )
 ;
 nsresult
@@ -586,6 +592,12 @@ CalculateUniqueFilename
 nsIURI
 *
 aURI
+nsCOMPtr
+<
+nsIURI
+>
+&
+aOutURI
 )
 ;
 nsresult
