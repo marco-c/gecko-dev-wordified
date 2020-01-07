@@ -195,6 +195,10 @@ channel
 )
 aURI
 in
+.
+forget
+(
+)
 NS_LITERAL_CSTRING
 (
 "
