@@ -2946,14 +2946,9 @@ changed
 :
 if
 (
-Services
+this
 .
-prefs
-.
-getBoolPref
-(
-PREF_ENABLED
-)
+enabled
 )
 {
 this
