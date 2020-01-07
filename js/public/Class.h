@@ -296,9 +296,6 @@ js
 namespace
 JS
 {
-class
-AutoIdVector
-;
 /
 *
 *
