@@ -182,7 +182,7 @@ mozilla
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_TELEMETRY_GECKOVIEW
 )
 /
 /
@@ -797,20 +797,6 @@ DynamicScalarDefinition
 ;
 /
 /
-These
-functions
-are
-only
-meant
-to
-be
-used
-for
-GeckoView
-persistence
-.
-/
-/
 They
 are
 responsible
@@ -838,7 +824,7 @@ versa
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_TELEMETRY_GECKOVIEW
 )
 nsresult
 SerializeScalars
@@ -892,7 +878,7 @@ aData
 endif
 /
 /
-MOZ_WIDGET_ANDROID
+MOZ_TELEMETRY_GECKOVIEW
 }
 /
 /
