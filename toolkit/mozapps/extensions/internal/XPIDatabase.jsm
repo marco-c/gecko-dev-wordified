@@ -815,6 +815,13 @@ true
 dictionary
 :
 true
+"
+webextension
+-
+dictionary
+"
+:
+true
 }
 ;
 /
