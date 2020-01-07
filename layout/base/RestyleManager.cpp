@@ -7505,15 +7505,6 @@ needInvalidatingPaint
 =
 true
 ;
-ActiveLayerTracker
-:
-:
-NotifyRestyle
-(
-aFrame
-eCSSProperty_opacity
-)
-;
 if
 (
 nsSVGIntegrationUtils
