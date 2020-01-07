@@ -900,7 +900,7 @@ their
 internal
 counterpart
 .
-Hovewer
+However
 this
 design
 does

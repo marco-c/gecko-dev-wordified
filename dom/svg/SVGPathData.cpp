@@ -1717,7 +1717,7 @@ the
 small
 rectangle
 being
-noticably
+noticeably
 different
 *
 from

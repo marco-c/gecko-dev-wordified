@@ -772,7 +772,7 @@ them
 with
 the
 pixel
-boundries
+boundaries
 of
 the
 offscreen

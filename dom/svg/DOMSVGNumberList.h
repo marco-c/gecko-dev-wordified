@@ -466,7 +466,7 @@ which
 hasn
 '
 t
-happend
+happened
 yet
 .
 )
@@ -622,7 +622,7 @@ to
 notify
 us
 to
-syncronize
+synchronize
 our
 length
 and

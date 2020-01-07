@@ -1981,7 +1981,7 @@ element
 /
 /
 from
-recieving
+receiving
 events
 at
 aPoint

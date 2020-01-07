@@ -11003,7 +11003,7 @@ not
 allowed
 to
 paint
-exteral
+external
 resources
 so
 we

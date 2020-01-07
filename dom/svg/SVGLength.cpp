@@ -800,7 +800,7 @@ do
 a
 two
 step
-convertion
+conversion
 via
 user
 units
@@ -823,7 +823,7 @@ that
 '
 s
 not
-sufficent
+sufficient
 to
 /
 /
