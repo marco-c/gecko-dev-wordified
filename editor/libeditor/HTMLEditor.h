@@ -4024,7 +4024,7 @@ bool
 IsOnlyAttribute
 (
 const
-nsIContent
+Element
 *
 aElement
 const

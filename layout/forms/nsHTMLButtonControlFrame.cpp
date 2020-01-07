@@ -2434,6 +2434,11 @@ return
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 SetAttr
 (
 kNameSpaceID_None

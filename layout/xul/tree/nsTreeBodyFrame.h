@@ -1176,9 +1176,9 @@ nsScrollbarFrame
 *
 mVScrollbar
 ;
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 mVScrollbarContent
 ;
@@ -1186,9 +1186,9 @@ nsScrollbarFrame
 *
 mHScrollbar
 ;
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 mHScrollbarContent
 ;
