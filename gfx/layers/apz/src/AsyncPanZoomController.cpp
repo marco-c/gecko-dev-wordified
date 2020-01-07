@@ -188,6 +188,17 @@ APZCTreeManager
 #
 include
 "
+AsyncPanZoomAnimation
+.
+h
+"
+/
+/
+for
+AsyncPanZoomAnimation
+#
+include
+"
 AutoscrollAnimation
 .
 h

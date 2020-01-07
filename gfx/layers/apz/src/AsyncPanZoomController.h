@@ -143,17 +143,6 @@ include
 "
 mozilla
 /
-layers
-/
-AsyncPanZoomAnimation
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Attributes
 .
 h
