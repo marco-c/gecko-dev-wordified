@@ -1309,6 +1309,9 @@ self
 category
 name
 definition
+strict_type_checks
+=
+False
 )
 :
         
@@ -1329,6 +1332,12 @@ self
 _definition
 =
 definition
+        
+self
+.
+_strict_type_checks
+=
+strict_type_checks
         
 type_check_event_fields
 (
@@ -1707,6 +1716,10 @@ validate_expiration_version
 (
 expiry_version
 )
+and
+self
+.
+_strict_type_checks
 :
             
 raise
@@ -2170,6 +2183,7 @@ def
 load_events
 (
 filename
+strict_type_checks
 )
 :
     
@@ -2197,6 +2211,20 @@ containing
 the
 event
 definitions
+.
+    
+:
+strict_type_checks
+A
+boolean
+indicating
+whether
+to
+use
+the
+stricter
+type
+checks
 .
     
 :
@@ -2524,6 +2552,7 @@ EventData
 category_name
 name
 entry
+strict_type_checks
 )
 )
     
