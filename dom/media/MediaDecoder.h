@@ -125,6 +125,13 @@ MediaDecoder_h_
 #
 include
 "
+BackgroundVideoDecodingPermissionObserver
+.
+h
+"
+#
+include
+"
 DecoderDoctorDiagnostics
 .
 h
@@ -1929,6 +1936,13 @@ const
 void
 UpdateVideoDecodeMode
 (
+)
+;
+void
+SetIsBackgroundVideoDecodingAllowed
+(
+bool
+aAllowed
 )
 ;
 /
@@ -3898,9 +3912,6 @@ the
 related
 events
 .
-class
-BackgroundVideoDecodingPermissionObserver
-;
 RefPtr
 <
 BackgroundVideoDecodingPermissionObserver
