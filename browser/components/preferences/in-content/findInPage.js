@@ -3631,12 +3631,7 @@ attr
 =
 msg
 .
-attributes
-&
-&
-msg
-.
-attributes
+attrs
 .
 find
 (
