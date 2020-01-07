@@ -992,13 +992,6 @@ mCrypto
 new
 Crypto
 (
-)
-;
-mCrypto
--
->
-Init
-(
 this
 )
 ;
