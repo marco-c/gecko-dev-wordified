@@ -706,26 +706,6 @@ None
 "
 "
     
-binary
-=
-os
-.
-environ
-.
-get
-(
-'
-FLAKE8
-'
-)
-    
-if
-binary
-:
-        
-return
-binary
-    
 try
 :
         
