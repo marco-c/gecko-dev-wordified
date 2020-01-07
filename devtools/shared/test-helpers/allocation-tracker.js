@@ -391,9 +391,7 @@ one
 let
 global
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -408,8 +406,6 @@ jsdebugger
 .
 jsm
 "
-{
-}
 )
 ;
 const
