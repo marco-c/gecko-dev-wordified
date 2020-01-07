@@ -2472,8 +2472,6 @@ the
 call
 stack
 .
-else
-{
 view
 .
 setAttribute
@@ -2507,7 +2505,6 @@ isExpanded
 ;
 return
 ;
-}
 }
 let
 list
