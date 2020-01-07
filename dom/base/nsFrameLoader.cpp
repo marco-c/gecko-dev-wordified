@@ -315,13 +315,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -12839,9 +12832,9 @@ enclosing
 chrome
 shell
 .
-nsCOMPtr
+RefPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 chromeEventHandler
 ;
@@ -12879,10 +12872,7 @@ shell
 .
 chromeEventHandler
 =
-do_QueryInterface
-(
 mOwnerContent
-)
 ;
 NS_ASSERTION
 (
