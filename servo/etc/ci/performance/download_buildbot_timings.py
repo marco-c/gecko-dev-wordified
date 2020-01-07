@@ -81,11 +81,53 @@ import
 floor
 import
 os
+SCRIPT_PATH
+=
+os
+.
+path
+.
+split
+(
+__file__
+)
+[
+0
+]
 def
 main
 (
 )
 :
+    
+default_output_dir
+=
+os
+.
+path
+.
+join
+(
+SCRIPT_PATH
+'
+output
+'
+)
+    
+default_cache_dir
+=
+os
+.
+path
+.
+join
+(
+SCRIPT_PATH
+'
+.
+cache
+'
+)
     
 parser
 =
@@ -271,10 +313,7 @@ str
                         
 default
 =
-'
-.
-cache
-'
+default_cache_dir
                         
 help
 =
@@ -287,14 +326,11 @@ JSON
 files
 in
 .
-"
-                        
-"
 Default
 :
-.
-cache
 "
++
+default_cache_dir
 )
     
 parser
@@ -373,9 +409,7 @@ str
                         
 default
 =
-'
-output
-'
+default_output_dir
                         
 help
 =
@@ -389,13 +423,11 @@ CSV
 data
 to
 .
-"
-                        
-"
 Default
 :
-output
 "
++
+default_output_dir
 )
     
 parser
