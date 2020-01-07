@@ -11588,6 +11588,13 @@ NoGC
 >
 (
 cx
+js
+:
+:
+gc
+:
+:
+TenuredHeap
 )
 ;
 }
@@ -11615,6 +11622,13 @@ NoGC
 >
 (
 cx
+js
+:
+:
+gc
+:
+:
+TenuredHeap
 )
 ;
 }
