@@ -487,15 +487,6 @@ h
 #
 include
 "
-mozilla
-/
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
 Layers
 .
 h
@@ -6875,7 +6866,7 @@ driver
 in
 /
 /
-ServoRestyleManager
+RestyleManager
 :
 :
 ProcessPendingRestyles

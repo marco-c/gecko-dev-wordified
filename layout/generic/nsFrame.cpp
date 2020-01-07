@@ -417,15 +417,6 @@ h
 #
 include
 "
-mozilla
-/
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
 nsInlineFrame
 .
 h
@@ -72705,7 +72696,7 @@ do
 in
 /
 /
-ServoRestyleManager
+RestyleManager
 :
 :
 ProcessPostTraversal

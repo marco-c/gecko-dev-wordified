@@ -201,15 +201,6 @@ RestyleManager
 .
 h
 "
-#
-include
-"
-mozilla
-/
-RestyleManagerInlines
-.
-h
-"
 using
 namespace
 mozilla

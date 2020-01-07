@@ -449,16 +449,7 @@ include
 "
 mozilla
 /
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ServoRestyleManager
+RestyleManager
 .
 h
 "

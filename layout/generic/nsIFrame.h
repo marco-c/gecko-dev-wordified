@@ -24735,7 +24735,7 @@ const
 *
 Called
 by
-ServoRestyleManager
+RestyleManager
 to
 update
 the
@@ -24989,7 +24989,7 @@ pseudo
 -
 elements
 in
-ServoRestyleManager
+RestyleManager
 .
 /
 /

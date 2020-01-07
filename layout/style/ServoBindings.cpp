@@ -489,7 +489,7 @@ include
 "
 mozilla
 /
-ServoRestyleManager
+RestyleManager
 .
 h
 "

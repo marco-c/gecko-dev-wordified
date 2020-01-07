@@ -2127,7 +2127,7 @@ include
 "
 mozilla
 /
-ServoRestyleManager
+RestyleManager
 .
 h
 "
@@ -75374,7 +75374,7 @@ GetNextStyleRoot
 )
 )
 {
-ServoRestyleManager
+RestyleManager
 :
 :
 ClearServoDataFromSubtree

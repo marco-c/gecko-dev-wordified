@@ -250,15 +250,6 @@ include
 "
 mozilla
 /
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoBindings
 .
 h

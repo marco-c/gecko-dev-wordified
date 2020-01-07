@@ -151,15 +151,6 @@ h
 #
 include
 "
-mozilla
-/
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
 nsCSSFrameConstructor
 .
 h

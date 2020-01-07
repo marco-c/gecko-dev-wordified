@@ -349,15 +349,6 @@ h
 #
 include
 "
-mozilla
-/
-RestyleManagerInlines
-.
-h
-"
-#
-include
-"
 SurfaceCacheUtils
 .
 h
@@ -4931,7 +4922,7 @@ HasServoData
 )
 )
 {
-ServoRestyleManager
+RestyleManager
 :
 :
 ClearServoDataFromSubtree
@@ -5700,7 +5691,10 @@ aShell
 mRestyleManager
 =
 new
-ServoRestyleManager
+mozilla
+:
+:
+RestyleManager
 (
 this
 )
@@ -11369,7 +11363,7 @@ comment
 in
 /
 /
-ServoRestyleManager
+RestyleManager
 :
 :
 RebuildAllStyleData

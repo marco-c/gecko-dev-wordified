@@ -339,16 +339,7 @@ include
 "
 mozilla
 /
-ServoRestyleManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-RestyleManagerInlines
+RestyleManager
 .
 h
 "
