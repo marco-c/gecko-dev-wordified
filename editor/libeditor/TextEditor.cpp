@@ -1150,14 +1150,12 @@ initializing
 the
 editor
 .
-EnableUndo
+ClearUndoRedo
 (
-false
 )
 ;
-EnableUndo
+EnableUndoRedo
 (
-true
 )
 ;
 return
