@@ -1006,6 +1006,7 @@ let
 {
 scratchpads
 browserConsole
+browserToolbox
 }
 =
 session
@@ -1014,6 +1015,9 @@ let
 hasDevToolsData
 =
 browserConsole
+|
+|
+browserToolbox
 |
 |
 (
