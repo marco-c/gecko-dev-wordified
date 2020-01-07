@@ -2628,6 +2628,13 @@ _
 MallocHeap
 stateData
 )
+\
+macro
+(
+_
+MallocHeap
+parseTask
+)
 explicit
 HelperThreadStats
 (

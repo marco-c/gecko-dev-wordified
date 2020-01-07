@@ -25351,6 +25351,17 @@ return
 true
 ;
 }
+size_t
+sizeOfExcludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+mallocSizeOf
+)
+const
+;
 private
 :
 void
