@@ -1032,7 +1032,7 @@ localName
 '
 )
 '
-toolbarbutton
+image
 '
 )
     
