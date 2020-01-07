@@ -17350,6 +17350,11 @@ Directory
 1
 ;
 bool
+DOMParser
+:
+1
+;
+bool
 Event
 :
 1
