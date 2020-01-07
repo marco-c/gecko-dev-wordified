@@ -490,6 +490,11 @@ AAAA6fptVAAAACklEQVQI12NgAAAAAgAB4iG8MwAAAABJRU5ErkJggg
 }
 )
 ;
+const
+SMALLPNG_DATA_LEN
+=
+67
+;
 XPCOMUtils
 .
 defineLazyGetter

@@ -1436,14 +1436,6 @@ mIcon
 PageData
 mPage
 ;
-void
-SendGlobalNotifications
-(
-nsIURI
-*
-aIconURI
-)
-;
 }
 ;
 /
