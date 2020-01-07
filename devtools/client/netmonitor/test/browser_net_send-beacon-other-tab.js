@@ -204,7 +204,7 @@ content
 .
 wrappedJSObject
 .
-performRequest
+performRequests
 (
 )
 ;
