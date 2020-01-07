@@ -1807,7 +1807,7 @@ self
 .
 device
 .
-pkill
+stop_application
 (
 procName
 )
