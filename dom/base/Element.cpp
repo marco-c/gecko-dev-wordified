@@ -27628,16 +27628,12 @@ existingRoot
 uint32_t
 existingBits
 =
-existingRoot
-?
 doc
 -
 >
 GetServoRestyleRootDirtyBits
 (
 )
-:
-0
 ;
 if
 (
