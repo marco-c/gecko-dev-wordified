@@ -380,6 +380,11 @@ run_at
 details
 .
 runAt
+|
+|
+"
+document_idle
+"
 js
 :
 [
