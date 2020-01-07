@@ -1878,15 +1878,8 @@ int64_t
 }
 private
 :
-union
-{
-uintptr_t
-dataWord_
-;
 uint64_t
-dataInt64_
-;
-}
+data_
 ;
 Type
 type_
@@ -1901,7 +1894,7 @@ Type
 type
 )
 :
-dataInt64_
+data_
 (
 data
 )
@@ -1972,7 +1965,10 @@ sizeIsWord
 )
 ;
 return
-dataWord_
+uintptr_t
+(
+data_
+)
 ;
 }
 uint64_t
@@ -1989,7 +1985,7 @@ sizeIsInt64
 )
 ;
 return
-dataInt64_
+data_
 ;
 }
 }
