@@ -54907,7 +54907,7 @@ PrincipalChildList
 manager
 -
 >
-ReparentComputedStyle
+ReparentComputedStyleForFirstLine
 (
 kid
 )
