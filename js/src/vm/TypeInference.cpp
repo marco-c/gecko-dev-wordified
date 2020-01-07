@@ -30338,6 +30338,8 @@ script
 is
 analyzed
 .
+bitFields_
+.
 hasFreezeConstraints_
 =
 false
@@ -30443,6 +30445,8 @@ need
 to
 be
 regenerated
+.
+bitFields_
 .
 hasFreezeConstraints_
 =

@@ -1321,6 +1321,8 @@ debuggerObservesAllExecution
 )
 |
 |
+bitFields_
+.
 hasDebugScript_
 ;
 }
