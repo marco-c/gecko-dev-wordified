@@ -370,6 +370,7 @@ frames_to_samples
 size_t
 frames
 )
+const
 {
 return
 frames
@@ -383,6 +384,7 @@ samples_to_frames
 size_t
 samples
 )
+const
 {
 assert
 (
@@ -853,6 +855,11 @@ void
 *
 const
 user_ptr
+;
+bool
+draining
+=
+false
 ;
 }
 ;
@@ -1666,6 +1673,7 @@ input_needed_for_output
 uint32_t
 output_frame_count
 )
+const
 {
 int32_t
 unresampled_frames_left
@@ -2812,6 +2820,7 @@ input_needed_for_output
 uint32_t
 frames_needed
 )
+const
 {
 return
 frames_needed
