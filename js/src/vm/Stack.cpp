@@ -7119,6 +7119,12 @@ asJit
 while
 (
 !
+isJSJit
+(
+)
+|
+|
+!
 jsJitFrame
 (
 )
@@ -7139,12 +7145,14 @@ baselineFrame
 =
 frame
 )
+{
 +
 +
 data_
 .
 jitFrames_
 ;
+}
 /
 /
 Update
