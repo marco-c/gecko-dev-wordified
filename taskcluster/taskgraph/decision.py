@@ -1278,6 +1278,16 @@ next_version
 =
 None
     
+parameters
+[
+'
+desktop_release_type
+'
+]
+=
+'
+'
+    
 #
 owner
 must

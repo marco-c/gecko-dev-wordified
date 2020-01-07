@@ -356,7 +356,7 @@ find_existing_tasks_from_previous_kinds
 full_task_graph
 previous_graph_ids
                                             
-previous_graph_kinds
+rebuild_kinds
 )
 :
     
@@ -375,7 +375,7 @@ taskIds
 and
 kinds
 to
-replace
+ignore
     
 from
 the
@@ -460,8 +460,9 @@ attributes
 kind
 '
 ]
+not
 in
-previous_graph_kinds
+rebuild_kinds
 )
         
 for
