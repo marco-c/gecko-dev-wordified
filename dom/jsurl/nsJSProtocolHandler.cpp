@@ -331,6 +331,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
