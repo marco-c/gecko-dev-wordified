@@ -5813,15 +5813,6 @@ MOZ_WIDGET_ANDROID
 )
 public
 :
-void
-InitializeDynamicToolbarAnimator
-(
-const
-int64_t
-&
-aRootLayerTreeId
-)
-;
 AndroidDynamicToolbarAnimator
 *
 GetAndroidDynamicToolbarAnimator
