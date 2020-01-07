@@ -2382,9 +2382,9 @@ SuspendAndSampleAndResumeThread
 PSLockRef
 aLock
 const
-ThreadInfo
+RegisteredThread
 &
-aThreadInfo
+aRegisteredThread
 const
 Func
 &
@@ -2442,8 +2442,13 @@ gettid
 int
 sampleeTid
 =
-aThreadInfo
+aRegisteredThread
 .
+Info
+(
+)
+-
+>
 ThreadId
 (
 )
