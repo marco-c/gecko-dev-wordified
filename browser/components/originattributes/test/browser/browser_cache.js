@@ -1267,7 +1267,7 @@ audio
 removeEventListener
 (
 "
-canplaythrough
+suspend
 "
 audioListener
 )
@@ -1357,7 +1357,7 @@ audio
 addEventListener
 (
 "
-canplaythrough
+suspend
 "
 audioListener
 )
@@ -1491,7 +1491,7 @@ video
 removeEventListener
 (
 "
-canplaythrough
+suspend
 "
 listener
 )
@@ -1522,7 +1522,7 @@ video
 addEventListener
 (
 "
-canplaythrough
+suspend
 "
 listener
 )
