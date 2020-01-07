@@ -112,12 +112,6 @@ style_structs
 :
 Font
 ;
-use
-std
-:
-:
-fmt
-;
 /
 /
 /
@@ -277,11 +271,6 @@ metrics
 pub
 trait
 FontMetricsProvider
-:
-fmt
-:
-:
-Debug
 {
 /
 /
