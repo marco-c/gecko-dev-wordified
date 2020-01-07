@@ -30896,12 +30896,7 @@ Bug
 mSessionHistory
 -
 >
-LegacySHistoryInternal
-(
-)
--
->
-EvictAllContentViewers
+EvictLocalContentViewers
 (
 )
 ;
