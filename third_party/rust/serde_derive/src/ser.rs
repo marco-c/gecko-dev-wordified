@@ -112,8 +112,8 @@ fragment
 :
 {
 Fragment
-Stmts
 Match
+Stmts
 }
 ;
 use
@@ -962,7 +962,6 @@ predicates
 None
 =
 >
-{
 bound
 :
 :
@@ -982,7 +981,6 @@ _serde
 Serialize
 )
 )
-}
 }
 }
 /
@@ -2278,7 +2276,6 @@ Style
 Struct
 =
 >
-{
 quote
 !
 (
@@ -2287,7 +2284,6 @@ quote
 .
 }
 )
-}
 }
 ;
 quote
@@ -2453,7 +2449,6 @@ map
 |
 f
 |
-{
 f
 .
 ident
@@ -2472,7 +2467,6 @@ unnamed
 fields
 "
 )
-}
 )
 ;
 quote
@@ -2826,7 +2820,6 @@ Style
 Tuple
 =
 >
-{
 serialize_tuple_variant
 (
 TupleVariant
@@ -2850,14 +2843,12 @@ variant
 .
 fields
 )
-}
 Style
 :
 :
 Struct
 =
 >
-{
 serialize_struct_variant
 (
 StructVariant
@@ -2880,7 +2871,6 @@ fields
 &
 type_name
 )
-}
 }
 }
 fn
@@ -3180,7 +3170,6 @@ Style
 Struct
 =
 >
-{
 serialize_struct_variant
 (
 StructVariant
@@ -3203,7 +3192,6 @@ fields
 &
 type_name
 )
-}
 Style
 :
 :
@@ -3515,7 +3503,6 @@ Style
 Struct
 =
 >
-{
 serialize_struct_variant
 (
 StructVariant
@@ -3530,7 +3517,6 @@ fields
 &
 variant_name
 )
-}
 }
 }
 )
@@ -3629,7 +3615,6 @@ Style
 Tuple
 =
 >
-{
 (
 0
 .
@@ -3669,14 +3654,12 @@ i
 collect
 (
 )
-}
 Style
 :
 :
 Struct
 =
 >
-{
 variant
 .
 fields
@@ -3690,7 +3673,6 @@ map
 |
 f
 |
-{
 f
 .
 ident
@@ -3709,13 +3691,11 @@ unnamed
 fields
 "
 )
-}
 )
 .
 collect
 (
 )
-}
 }
 ;
 let
@@ -4559,7 +4539,6 @@ ExternallyTagged
 }
 =
 >
-{
 (
 quote
 !
@@ -4590,7 +4569,6 @@ SerializeStructVariant
 skip_field
 )
 )
-}
 StructVariant
 :
 :
@@ -4606,7 +4584,6 @@ StructVariant
 Untagged
 =
 >
-{
 (
 quote
 !
@@ -4637,7 +4614,6 @@ SerializeStruct
 skip_field
 )
 )
-}
 }
 ;
 let

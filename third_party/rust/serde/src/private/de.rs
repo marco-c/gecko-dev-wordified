@@ -100,10 +100,10 @@ de
 :
 {
 Deserialize
-Deserializer
 DeserializeSeed
-IntoDeserializer
+Deserializer
 Error
+IntoDeserializer
 Visitor
 }
 ;
@@ -161,14 +161,14 @@ content
 :
 {
 Content
-ContentRefDeserializer
 ContentDeserializer
-TaggedContentVisitor
-TagOrContentField
-TagOrContentFieldVisitor
+ContentRefDeserializer
+InternallyTaggedUnitVisitor
 TagContentOtherField
 TagContentOtherFieldVisitor
-InternallyTaggedUnitVisitor
+TagOrContentField
+TagOrContentFieldVisitor
+TaggedContentVisitor
 UntaggedUnitVisitor
 }
 ;
@@ -1542,11 +1542,11 @@ self
 Deserialize
 DeserializeSeed
 Deserializer
-Visitor
-SeqAccess
-MapAccess
 EnumAccess
+MapAccess
+SeqAccess
 Unexpected
+Visitor
 }
 ;
 use
@@ -5726,7 +5726,6 @@ tag
 )
 =
 >
-{
 Ok
 (
 TaggedContent
@@ -5745,7 +5744,6 @@ vec
 )
 }
 )
-}
 }
 }
 }
@@ -6811,7 +6809,6 @@ k
 v
 )
 |
-{
 (
 ContentDeserializer
 :
@@ -6828,7 +6825,6 @@ new
 v
 )
 )
-}
 )
 ;
 let
@@ -7891,7 +7887,6 @@ value
 None
 =
 >
-{
 Err
 (
 de
@@ -7916,7 +7911,6 @@ variant
 "
 )
 )
-}
 }
 }
 fn
@@ -8601,7 +8595,6 @@ value
 )
 =
 >
-{
 seed
 .
 deserialize
@@ -8619,7 +8612,6 @@ map
 (
 Some
 )
-}
 None
 =
 >
@@ -10625,7 +10617,6 @@ value
 None
 =
 >
-{
 Err
 (
 de
@@ -10650,7 +10641,6 @@ variant
 "
 )
 )
-}
 }
 }
 fn
@@ -11362,7 +11352,6 @@ value
 )
 =
 >
-{
 seed
 .
 deserialize
@@ -11380,7 +11369,6 @@ map
 (
 Some
 )
-}
 None
 =
 >
@@ -13061,7 +13049,7 @@ DeserializeSeed
 helper
 for
 implementing
-deserialize_from
+deserialize_in_place
 Visitors
 .
 /
@@ -13076,13 +13064,13 @@ mutable
 reference
 and
 calls
-deserialize_from
+deserialize_in_place
 on
 it
 .
 pub
 struct
-DeserializeFromSeed
+InPlaceSeed
 <
 '
 a
@@ -13114,7 +13102,7 @@ DeserializeSeed
 de
 >
 for
-DeserializeFromSeed
+InPlaceSeed
 <
 '
 a
@@ -13168,13 +13156,15 @@ Deserializer
 de
 >
 {
+T
+:
+:
+deserialize_in_place
+(
+deserializer
 self
 .
 0
-.
-deserialize_from
-(
-deserializer
 )
 }
 }

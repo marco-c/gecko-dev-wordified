@@ -1015,6 +1015,9 @@ serialize_none
 impl
 <
 T
+:
+?
+Sized
 >
 Serialize
 for
@@ -4870,6 +4873,7 @@ a
 )
 =
 >
+{
 serializer
 .
 serialize_newtype_variant
@@ -4883,6 +4887,7 @@ V4
 "
 a
 )
+}
 net
 :
 :
@@ -4896,6 +4901,7 @@ a
 )
 =
 >
+{
 serializer
 .
 serialize_newtype_variant
@@ -4909,6 +4915,7 @@ V6
 "
 a
 )
+}
 }
 }
 }
@@ -5250,6 +5257,7 @@ addr
 )
 =
 >
+{
 serializer
 .
 serialize_newtype_variant
@@ -5263,6 +5271,7 @@ V4
 "
 addr
 )
+}
 net
 :
 :
@@ -5276,6 +5285,7 @@ addr
 )
 =
 >
+{
 serializer
 .
 serialize_newtype_variant
@@ -5289,6 +5299,7 @@ V6
 "
 addr
 )
+}
 }
 }
 }
