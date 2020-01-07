@@ -267,8 +267,6 @@ public
 nsIClassInfo
 public
 nsNSSShutDownObject
-public
-nsOnPK11LogoutCancelObject
 {
 protected
 :
