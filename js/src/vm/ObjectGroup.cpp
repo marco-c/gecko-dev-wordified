@@ -1181,7 +1181,7 @@ lazyScript
 )
 -
 >
-begin
+sourceStart
 (
 )
 ;
@@ -1195,7 +1195,7 @@ lazyScript
 )
 -
 >
-end
+sourceEnd
 (
 )
 ;

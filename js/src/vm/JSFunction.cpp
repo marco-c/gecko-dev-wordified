@@ -10943,14 +10943,14 @@ lazyLength
 lazy
 -
 >
-end
+sourceEnd
 (
 )
 -
 lazy
 -
 >
-begin
+sourceStart
 (
 )
 ;
@@ -10977,7 +10977,7 @@ holder
 lazy
 -
 >
-begin
+sourceStart
 (
 )
 lazyLength
