@@ -2799,7 +2799,8 @@ tail
 nullptr
 ;
 }
-void
+Zone
+*
 ZoneList
 :
 :
@@ -2850,6 +2851,9 @@ Zone
 :
 :
 NotOnList
+;
+return
+front
 ;
 }
 void

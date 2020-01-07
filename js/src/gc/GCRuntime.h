@@ -5356,7 +5356,8 @@ ZoneList
 other
 )
 ;
-void
+Zone
+*
 removeFront
 (
 )
