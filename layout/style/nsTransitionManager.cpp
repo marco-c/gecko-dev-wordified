@@ -1478,7 +1478,8 @@ presContext
 return
 ;
 }
-const
+static
+constexpr
 StickyTimeDuration
 zeroDuration
 =
