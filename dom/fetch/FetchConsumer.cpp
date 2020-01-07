@@ -3412,12 +3412,6 @@ BodyUsed
 )
 )
 ;
-if
-(
-!
-aShuttingDown
-)
-{
 MOZ_ASSERT
 (
 mConsumePromise
@@ -3435,6 +3429,12 @@ forget
 (
 )
 ;
+if
+(
+!
+aShuttingDown
+)
+{
 RefPtr
 <
 dom
