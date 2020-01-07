@@ -13968,6 +13968,7 @@ MOZ_TRY
 (
 parseAndUpdateCapturedNames
 (
+kind
 )
 )
 ;
@@ -14314,6 +14315,7 @@ MOZ_TRY
 (
 parseAndUpdateCapturedNames
 (
+kind
 )
 )
 ;
@@ -14688,6 +14690,7 @@ MOZ_TRY
 (
 parseAndUpdateCapturedNames
 (
+kind
 )
 )
 ;
