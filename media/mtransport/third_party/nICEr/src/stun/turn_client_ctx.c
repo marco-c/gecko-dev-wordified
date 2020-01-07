@@ -1747,7 +1747,7 @@ track
 for
 ice
 telemetry
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (
@@ -1820,7 +1820,7 @@ track
 for
 ice
 telemetry
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (
@@ -3745,7 +3745,7 @@ track
 for
 ice
 telemetry
-nr_ice_accumulate_count
+nr_accumulate_count
 (
 &
 (

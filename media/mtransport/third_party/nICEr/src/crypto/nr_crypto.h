@@ -266,7 +266,7 @@ random_bytes
 UCHAR
 *
 buf
-int
+size_t
 len
 )
 ;
@@ -279,12 +279,12 @@ hmac_sha1
 UCHAR
 *
 key
-int
+size_t
 key_l
 UCHAR
 *
 buf
-int
+size_t
 buf_l
 UCHAR
 digest
@@ -302,7 +302,7 @@ md5
 UCHAR
 *
 buf
-int
+size_t
 buf_l
 UCHAR
 digest

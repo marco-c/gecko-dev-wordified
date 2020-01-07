@@ -607,6 +607,14 @@ ip_version
 )
 ;
 void
+nr_ice_component_consent_destroy
+(
+nr_ice_component
+*
+comp
+)
+;
+void
 nr_ice_component_refresh_consent_now
 (
 nr_ice_component

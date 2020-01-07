@@ -730,6 +730,10 @@ if
 (
 ifname
 )
+{
+(
+void
+)
 strlcpy
 (
 addr
@@ -746,6 +750,7 @@ ifname
 )
 )
 ;
+}
 _status
 =
 0

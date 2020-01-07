@@ -412,7 +412,7 @@ nr_is_stun_message
 UCHAR
 *
 buf
-int
+size_t
 len
 )
 {
@@ -952,7 +952,7 @@ nr_is_stun_request_message
 UCHAR
 *
 buf
-int
+size_t
 len
 )
 {
@@ -1014,7 +1014,7 @@ nr_is_stun_indication_message
 UCHAR
 *
 buf
-int
+size_t
 len
 )
 {
@@ -1076,7 +1076,7 @@ nr_is_stun_response_message
 UCHAR
 *
 buf
-int
+size_t
 len
 )
 {
@@ -1147,7 +1147,7 @@ nr_has_stun_cookie
 UCHAR
 *
 buf
-int
+size_t
 len
 )
 {

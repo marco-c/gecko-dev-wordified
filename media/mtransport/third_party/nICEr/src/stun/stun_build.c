@@ -1676,7 +1676,7 @@ digest_input
 1000
 ]
 ;
-int
+size_t
 i
 ;
 int
