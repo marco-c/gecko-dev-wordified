@@ -152,6 +152,8 @@ accept
 "
 )
 ;
+Assert
+.
 ok
 (
 acceptBtn
@@ -210,6 +212,8 @@ kw
 dialogWin
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -301,7 +305,9 @@ keyword
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 entry
 .
@@ -316,7 +322,9 @@ correct
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 entry
 .
@@ -331,7 +339,9 @@ correct
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 entry
 .
@@ -393,7 +403,9 @@ TEST_URL
 )
 )
 ;
-is
+Assert
+.
+equal
 (
 charset
 "
@@ -426,7 +438,9 @@ test
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 getPostDataString
 (
@@ -461,7 +475,9 @@ correct
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 data
 .

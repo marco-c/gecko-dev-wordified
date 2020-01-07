@@ -152,6 +152,8 @@ guid
 ]
 )
 ;
+Assert
+.
 ok
 (
 tree
