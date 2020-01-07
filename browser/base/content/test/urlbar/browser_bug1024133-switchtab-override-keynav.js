@@ -184,9 +184,11 @@ failure
 /
 }
 return
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

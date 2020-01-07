@@ -802,9 +802,11 @@ the
 urlbar
 .
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;
@@ -955,9 +957,11 @@ ONEOFF_URLBAR_PREF
 )
 ;
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

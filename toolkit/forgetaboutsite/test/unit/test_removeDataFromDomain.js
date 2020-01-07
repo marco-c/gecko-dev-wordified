@@ -1474,9 +1474,11 @@ this
 test
 .
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

@@ -767,9 +767,11 @@ root
 nsINavHistoryResultObserver
 .
 invalidateContainer
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 .

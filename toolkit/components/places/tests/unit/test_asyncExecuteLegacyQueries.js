@@ -522,9 +522,11 @@ Promise
 all
 (
 [
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 PlacesUtils

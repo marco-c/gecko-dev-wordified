@@ -76,9 +76,11 @@ PREF_AUTOFILL
 )
 ;
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

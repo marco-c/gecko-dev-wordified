@@ -453,9 +453,11 @@ containerOpen
 false
 ;
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

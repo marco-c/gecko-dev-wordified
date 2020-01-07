@@ -544,9 +544,11 @@ pinnedSite
 )
 ;
 yield
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

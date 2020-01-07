@@ -1164,9 +1164,11 @@ transition
 finally
 {
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

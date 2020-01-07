@@ -165,9 +165,11 @@ all
 history
 items
 return
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

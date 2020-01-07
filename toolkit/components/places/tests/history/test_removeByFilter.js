@@ -252,9 +252,11 @@ test_removeByFilter
 /
 Cleanup
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;

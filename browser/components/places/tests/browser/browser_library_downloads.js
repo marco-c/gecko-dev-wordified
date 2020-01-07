@@ -429,9 +429,11 @@ close
 (
 )
 ;
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 .

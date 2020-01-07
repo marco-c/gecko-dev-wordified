@@ -539,9 +539,11 @@ for
 the
 bookmarks
 await
-PlacesTestUtils
+PlacesUtils
 .
-clearHistory
+history
+.
+clear
 (
 )
 ;
