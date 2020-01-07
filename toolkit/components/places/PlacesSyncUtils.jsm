@@ -1050,7 +1050,9 @@ PlacesUtils
 withConnectionWrapper
 (
 "
-HistorySyncUtils
+PlacesSyncUtils
+.
+history
 :
 changeGuid
 "

@@ -3738,12 +3738,16 @@ to
 concat
 *
 /
+/
+/
 function
 log
 (
 aMsg
 )
 {
+/
+/
 let
 msg
 =
@@ -3770,6 +3774,8 @@ join
 aMsg
 )
 ;
+/
+/
 Services
 .
 console
@@ -3779,6 +3785,8 @@ logStringMessage
 msg
 )
 ;
+/
+/
 dump
 (
 msg
@@ -3789,4 +3797,6 @@ n
 "
 )
 ;
+/
+/
 }

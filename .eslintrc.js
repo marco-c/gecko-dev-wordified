@@ -480,16 +480,6 @@ extensions
 .
 jsm
 "
-"
-toolkit
-/
-*
-*
-/
-*
-.
-jsm
-"
 ]
 "
 rules

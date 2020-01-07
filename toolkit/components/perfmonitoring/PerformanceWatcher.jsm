@@ -1017,14 +1017,6 @@ result
 ;
 }
 ;
-let
-gListeners
-=
-new
-WeakMap
-(
-)
-;
 /
 *
 *

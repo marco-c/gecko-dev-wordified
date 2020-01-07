@@ -85,6 +85,9 @@ EXPORTED_SYMBOLS
 "
 read
 "
+"
+writeAtomic
+"
 ]
 ;
 var

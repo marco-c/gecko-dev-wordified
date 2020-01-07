@@ -142,6 +142,8 @@ XMLHttpRequest
 ]
 )
 ;
+/
+/
 function
 log
 (
@@ -159,6 +161,8 @@ logStringMessage
 msg
 )
 ;
+/
+/
 }
 const
 PROTOCOL_VERSION
