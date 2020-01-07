@@ -584,7 +584,7 @@ value
 )
 ;
 let
-queries
+query
 =
 {
 }
@@ -593,7 +593,7 @@ PlacesUtils
 .
 history
 .
-queryStringToQueries
+queryStringToQuery
 (
 contentTree
 .
@@ -602,9 +602,7 @@ result
 root
 .
 uri
-queries
-{
-}
+query
 {
 }
 )
@@ -618,12 +616,9 @@ Assert
 .
 equal
 (
-queries
+query
 .
 value
-[
-0
-]
 .
 searchTerms
 aSearchStr
@@ -649,12 +644,9 @@ Assert
 .
 equal
 (
-queries
+query
 .
 value
-[
-0
-]
 .
 hasSearchTerms
 false

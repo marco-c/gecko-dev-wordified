@@ -5572,7 +5572,7 @@ task_cleanDatabase
 *
 *
 *
-queriesToQueryString
+queryToQueryString
 (
 )
 encodes
@@ -6277,12 +6277,9 @@ PlacesUtils
 .
 history
 .
-queriesToQueryString
+queryToQueryString
 (
-[
 aQuery
-]
-1
 aQueryOpts
 )
 ;

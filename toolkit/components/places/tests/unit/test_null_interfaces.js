@@ -131,7 +131,7 @@ nsINavHistoryService
 ]
 [
 "
-queryStringToQueries
+queryStringToQuery
 "
 "
 removePagesByTimeframe
