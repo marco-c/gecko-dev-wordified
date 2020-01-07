@@ -231,6 +231,14 @@ locale
 '
 in
 path
+or
+'
+/
+localization
+/
+'
+in
+path
 def
 normalize_path
 (
