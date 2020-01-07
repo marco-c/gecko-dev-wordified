@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-json_h
+builtin_JSON_h
 #
 define
-json_h
+builtin_JSON_h
 #
 include
 "
@@ -272,6 +272,6 @@ js
 endif
 /
 *
-json_h
+builtin_JSON_h
 *
 /

@@ -111,7 +111,9 @@ MPL
 #
 include
 "
-json
+builtin
+/
+JSON
 .
 h
 "
