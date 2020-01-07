@@ -6648,7 +6648,7 @@ reportWarnings
 )
 ;
 extern
-bool
+void
 ReportIsNotDefined
 (
 JSContext
@@ -6659,7 +6659,7 @@ name
 )
 ;
 extern
-bool
+void
 ReportIsNotDefined
 (
 JSContext
