@@ -3415,8 +3415,11 @@ DIR
 .
 tooltool
 '
-linux64
+breakpad
 -
+tools
+'
+'
 minidump_stackwalk
 '
 )
