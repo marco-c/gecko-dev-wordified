@@ -3588,8 +3588,11 @@ url
 ;
 }
 let
-flags
+options
 =
+{
+flags
+:
 updateProperties
 .
 loadReplace
@@ -3605,6 +3608,12 @@ Ci
 nsIWebNavigation
 .
 LOAD_FLAGS_NONE
+triggeringPrincipal
+:
+context
+.
+principal
+}
 ;
 nativeTab
 .
@@ -3613,9 +3622,7 @@ linkedBrowser
 loadURIWithFlags
 (
 url
-{
-flags
-}
+options
 )
 ;
 }

@@ -1832,9 +1832,16 @@ toolbox
 ;
 browser
 .
-loadURI
+loadURIWithFlags
 (
 url
+{
+triggeringPrincipal
+:
+extension
+.
+principal
+}
 )
 ;
 }
