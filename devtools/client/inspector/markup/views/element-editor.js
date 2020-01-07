@@ -4274,10 +4274,7 @@ this
 .
 _editedAttributeObserver
 =
-(
-e
 mutations
-)
 =
 >
 {
