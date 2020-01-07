@@ -3441,8 +3441,6 @@ _onSearchboxInput
 (
 )
 ;
-return
-;
 }
 }
 /
@@ -5707,8 +5705,6 @@ _onAddProperty
 (
 e
 )
-;
-return
 ;
 }
 }
@@ -24159,11 +24155,11 @@ replace
 u2028
 /
 g
-'
+"
 \
 \
 u2028
-'
+"
 )
 .
 replace
@@ -24173,11 +24169,11 @@ replace
 u2029
 /
 g
-'
+"
 \
 \
 u2029
-'
+"
 )
 ;
 }
