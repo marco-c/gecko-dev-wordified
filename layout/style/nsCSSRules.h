@@ -349,13 +349,6 @@ h
 #
 include
 "
-nsIDOMCSSSupportsRule
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsIDOMCSSSupportsRule
+nsIDOMCSSConditionRule
 .
 h
 "
@@ -153,7 +153,7 @@ css
 :
 ConditionRule
 public
-nsIDOMCSSSupportsRule
+nsIDOMCSSConditionRule
 {
 protected
 :
@@ -217,11 +217,6 @@ override
 =
 0
 ;
-/
-/
-nsIDOMCSSSupportsRule
-interface
-NS_DECL_NSIDOMCSSSUPPORTSRULE
 /
 /
 WebIDL
