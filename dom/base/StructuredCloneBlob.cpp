@@ -824,6 +824,9 @@ blobCount
 }
 JSStructuredCloneData
 data
+(
+mStructuredCloneScope
+)
 ;
 while
 (
