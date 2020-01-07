@@ -205,6 +205,8 @@ function
 let
 BrowserApp
 =
+window
+.
 gChromeWin
 .
 BrowserApp
