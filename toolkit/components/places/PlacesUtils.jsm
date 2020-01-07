@@ -13549,13 +13549,6 @@ QueryInterface
 (
 Ci
 .
-nsIBrowserHistory
-)
-.
-QueryInterface
-(
-Ci
-.
 nsPIPlacesDatabase
 )
 ;
