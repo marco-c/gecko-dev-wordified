@@ -117,7 +117,9 @@ vm_BooleanObject_h
 #
 include
 "
-jsbool
+builtin
+/
+Boolean
 .
 h
 "
