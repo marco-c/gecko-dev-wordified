@@ -452,10 +452,7 @@ id
 *
 *
 /
-XPT_PUBLIC_API
-(
 bool
-)
 XPT_DoHeader
 (
 XPTArena

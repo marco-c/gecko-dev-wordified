@@ -409,11 +409,8 @@ subarena1
 ;
 }
 ;
-XPT_PUBLIC_API
-(
 XPTArena
 *
-)
 XPT_NewArena
 (
 size_t
@@ -537,10 +534,7 @@ next
 ;
 }
 }
-XPT_PUBLIC_API
-(
 void
-)
 XPT_DestroyArena
 (
 XPTArena
@@ -610,11 +604,8 @@ space
 .
 *
 /
-XPT_PUBLIC_API
-(
 void
 *
-)
 XPT_ArenaCalloc
 (
 XPTArena
@@ -1074,10 +1065,7 @@ p
 #
 ifdef
 DEBUG
-XPT_PUBLIC_API
-(
 void
-)
 XPT_AssertFailed
 (
 const
@@ -1178,10 +1166,7 @@ return
 n
 ;
 }
-XPT_PUBLIC_API
-(
 size_t
-)
 XPT_SizeOfArenaIncludingThis
 (
 XPTArena
