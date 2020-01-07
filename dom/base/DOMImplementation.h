@@ -344,7 +344,7 @@ const
 nsAString
 &
 aQualifiedName
-nsIDOMDocumentType
+DocumentType
 *
 aDoctype
 ErrorResult
@@ -383,7 +383,7 @@ const
 nsAString
 &
 aQualifiedName
-nsIDOMDocumentType
+DocumentType
 *
 aDoctype
 nsIDocument

@@ -176,6 +176,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 DocumentType
 .
 h
@@ -409,7 +413,7 @@ const
 nsAString
 &
 aQualifiedName
-nsIDOMDocumentType
+DocumentType
 *
 aDoctype
 nsIDocument
@@ -774,7 +778,7 @@ const
 nsAString
 &
 aQualifiedName
-nsIDOMDocumentType
+DocumentType
 *
 aDoctype
 ErrorResult
