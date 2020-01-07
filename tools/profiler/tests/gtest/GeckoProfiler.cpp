@@ -4179,7 +4179,7 @@ nullptr
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -4203,7 +4203,7 @@ get
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -4406,15 +4406,15 @@ mFrames
 }
 virtual
 void
-CollectPseudoEntry
+CollectProfilingStackFrame
 (
 const
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 &
-aEntry
+aFrame
 )
 {
 mFrames

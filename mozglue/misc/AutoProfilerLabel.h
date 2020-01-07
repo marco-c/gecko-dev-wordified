@@ -163,7 +163,7 @@ for
 pushing
 /
 popping
-entries
+frames
 to
 /
 from
@@ -254,7 +254,7 @@ use
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -269,9 +269,9 @@ that
 '
 s
 what
+/
+/
 the
-/
-/
 callbacks
 provided
 by

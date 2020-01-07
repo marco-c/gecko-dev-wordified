@@ -41940,7 +41940,7 @@ HeapStateToLabel
 (
 heapState
 )
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category

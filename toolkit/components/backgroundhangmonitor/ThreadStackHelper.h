@@ -595,13 +595,13 @@ override
 ;
 virtual
 void
-CollectPseudoEntry
+CollectProfilingStackFrame
 (
 const
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 &
 aEntry
 )

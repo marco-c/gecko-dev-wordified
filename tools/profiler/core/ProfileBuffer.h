@@ -453,7 +453,7 @@ Maybe
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -1291,15 +1291,15 @@ override
 ;
 virtual
 void
-CollectPseudoEntry
+CollectProfilingStackFrame
 (
 const
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 &
-aEntry
+aFrame
 )
 override
 ;

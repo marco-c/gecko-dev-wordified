@@ -445,7 +445,7 @@ Maybe
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -900,15 +900,15 @@ void
 ProfileBufferCollector
 :
 :
-CollectPseudoEntry
+CollectProfilingStackFrame
 (
 const
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 &
-aEntry
+aFrame
 )
 {
 /
@@ -930,7 +930,7 @@ section
 .
 MOZ_ASSERT
 (
-aEntry
+aFrame
 .
 kind
 (
@@ -940,7 +940,7 @@ kind
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Kind
@@ -949,7 +949,7 @@ Kind
 LABEL
 |
 |
-aEntry
+aFrame
 .
 kind
 (
@@ -959,7 +959,7 @@ kind
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Kind
@@ -973,7 +973,7 @@ char
 *
 label
 =
-aEntry
+aFrame
 .
 label
 (
@@ -984,7 +984,7 @@ char
 *
 dynamicString
 =
-aEntry
+aFrame
 .
 dynamicString
 (
@@ -1003,7 +1003,7 @@ lineno
 ;
 if
 (
-aEntry
+aFrame
 .
 isJsFrame
 (
@@ -1094,7 +1094,7 @@ dynamicString
 /
 We
 call
-aEntry
+aFrame
 .
 script
 (
@@ -1124,7 +1124,7 @@ hazards
 .
 if
 (
-aEntry
+aFrame
 .
 script
 (
@@ -1135,7 +1135,7 @@ isChromeJSEntry
 =
 IsChromeJSScript
 (
-aEntry
+aFrame
 .
 script
 (
@@ -1144,7 +1144,7 @@ script
 ;
 if
 (
-aEntry
+aFrame
 .
 pc
 (
@@ -1155,12 +1155,12 @@ lineno
 =
 JS_PCToLineNumber
 (
-aEntry
+aFrame
 .
 script
 (
 )
-aEntry
+aFrame
 .
 pc
 (
@@ -1199,7 +1199,7 @@ else
 {
 MOZ_ASSERT
 (
-aEntry
+aFrame
 .
 isLabelFrame
 (
@@ -1208,7 +1208,7 @@ isLabelFrame
 ;
 lineno
 =
-aEntry
+aFrame
 .
 line
 (
@@ -1288,7 +1288,7 @@ dynamicString
 lineno
 Some
 (
-aEntry
+aFrame
 .
 category
 (

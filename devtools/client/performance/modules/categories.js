@@ -359,7 +359,7 @@ the
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -378,7 +378,7 @@ CATEGORY_MAPPINGS
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -398,7 +398,7 @@ CATEGORIES
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -418,7 +418,7 @@ CATEGORIES
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -438,7 +438,7 @@ CATEGORIES
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -458,7 +458,7 @@ CATEGORIES
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -478,7 +478,7 @@ CATEGORIES
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -498,7 +498,7 @@ CATEGORIES
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -518,7 +518,7 @@ CATEGORIES
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -538,7 +538,7 @@ CATEGORIES
 js
 :
 :
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category

@@ -4588,7 +4588,7 @@ examples
 /
 -
 PseudoStack
-entries
+frames
 without
 a
 dynamic
@@ -4611,7 +4611,7 @@ RunScript
 /
 Category
 (
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -4642,7 +4642,7 @@ LineNumber
 /
 Category
 (
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -4673,7 +4673,7 @@ LineNumber
 /
 Category
 (
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -4687,7 +4687,7 @@ CSS
 /
 -
 PseudoStack
-entries
+frames
 with
 a
 dynamic
@@ -4732,7 +4732,7 @@ LineNumber
 /
 Category
 (
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -4847,7 +4847,7 @@ LineNumber
 /
 Category
 (
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -4905,7 +4905,7 @@ LineNumber
 /
 Category
 (
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -4920,7 +4920,7 @@ JS
 -
 A
 pseudoStack
-entry
+frame
 with
 a
 dynamic
@@ -4970,7 +4970,7 @@ LineNumber
 /
 Category
 (
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -4985,7 +4985,7 @@ OTHER
 -
 A
 pseudoStack
-entry
+frame
 with
 an
 overly
@@ -5031,7 +5031,7 @@ LineNumber
 /
 Category
 (
-ProfileEntry
+ProfilingStackFrame
 :
 :
 Category
@@ -5048,7 +5048,6 @@ A
 wasm
 JIT
 frame
-entry
 :
 /
 /
@@ -5188,7 +5187,6 @@ DynamicStringFragment
 A
 JS
 frame
-entry
 in
 a
 synchronous
