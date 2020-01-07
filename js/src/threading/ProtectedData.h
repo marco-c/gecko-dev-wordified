@@ -1595,7 +1595,7 @@ AllowedHelperThread
 Helper
 >
 class
-CheckZoneGroup
+CheckZone
 {
 #
 ifdef
@@ -1610,7 +1610,7 @@ zone
 public
 :
 explicit
-CheckZoneGroup
+CheckZone
 (
 JS
 :
@@ -1637,7 +1637,7 @@ else
 public
 :
 explicit
-CheckZoneGroup
+CheckZone
 (
 JS
 :
@@ -1703,11 +1703,11 @@ typename
 T
 >
 using
-ZoneGroupData
+ZoneData
 =
 ProtectedDataZoneGroupArg
 <
-CheckZoneGroup
+CheckZone
 <
 AllowedHelperThread
 :
@@ -1754,7 +1754,7 @@ ZoneGroupOrGCTaskData
 =
 ProtectedDataZoneGroupArg
 <
-CheckZoneGroup
+CheckZone
 <
 AllowedHelperThread
 :
@@ -1774,7 +1774,7 @@ ZoneGroupOrIonCompileData
 =
 ProtectedDataZoneGroupArg
 <
-CheckZoneGroup
+CheckZone
 <
 AllowedHelperThread
 :
@@ -1794,7 +1794,7 @@ ZoneGroupOrGCTaskOrIonCompileData
 =
 ProtectedDataZoneGroupArg
 <
-CheckZoneGroup
+CheckZone
 <
 AllowedHelperThread
 :

@@ -298,7 +298,7 @@ cx
 /
 As
 for
-CheckZoneGroup
+CheckZone
 in
 a
 cooperatively
@@ -452,7 +452,7 @@ AllowedHelperThread
 Helper
 >
 void
-CheckZoneGroup
+CheckZone
 <
 Helper
 >
@@ -609,7 +609,7 @@ runtime
 }
 template
 class
-CheckZoneGroup
+CheckZone
 <
 AllowedHelperThread
 :
@@ -619,7 +619,7 @@ None
 ;
 template
 class
-CheckZoneGroup
+CheckZone
 <
 AllowedHelperThread
 :
@@ -629,7 +629,7 @@ GCTask
 ;
 template
 class
-CheckZoneGroup
+CheckZone
 <
 AllowedHelperThread
 :
@@ -639,7 +639,7 @@ IonCompile
 ;
 template
 class
-CheckZoneGroup
+CheckZone
 <
 AllowedHelperThread
 :
