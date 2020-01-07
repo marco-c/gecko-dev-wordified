@@ -3771,11 +3771,6 @@ const
 char
 *
 const
-aProtocolName
-const
-char
-*
-const
 aErrorMsg
 base
 :

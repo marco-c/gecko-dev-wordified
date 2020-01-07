@@ -1164,10 +1164,6 @@ IPDL
 protocol
 Error
 :
-[
-%
-s
-]
 Received
 an
 invalid
@@ -1176,12 +1172,6 @@ descriptor
 \
 n
 "
-aActor
--
->
-ProtocolName
-(
-)
 )
 ;
 }

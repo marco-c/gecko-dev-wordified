@@ -243,10 +243,6 @@ HandleFatalError
 const
 char
 *
-aName
-const
-char
-*
 aMsg
 )
 const
