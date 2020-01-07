@@ -158,6 +158,9 @@ DocumentType
 class
 Element
 ;
+class
+ProcessingInstruction
+;
 }
 /
 /
@@ -262,7 +265,13 @@ aStr
 NS_IMETHOD
 AppendProcessingInstruction
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+ProcessingInstruction
 *
 aPI
 int32_t
