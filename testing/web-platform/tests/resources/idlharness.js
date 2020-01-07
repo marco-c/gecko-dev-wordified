@@ -17530,8 +17530,12 @@ isPairIterator
 member
 .
 idlType
-instanceof
-Array
+.
+length
+=
+=
+=
+2
 ;
 test
 (
