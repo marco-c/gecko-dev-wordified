@@ -199,6 +199,13 @@ h
 #
 include
 "
+nsIServiceWorkerManager
+.
+h
+"
+#
+include
+"
 MainThreadUtils
 .
 h
@@ -361,6 +368,13 @@ h
 include
 "
 nsXULAppAPI
+.
+h
+"
+#
+include
+"
+ServiceWorkerUtils
 .
 h
 "
