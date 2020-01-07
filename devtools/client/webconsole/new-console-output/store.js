@@ -427,7 +427,6 @@ initialState
 {
 prefs
 :
-new
 PrefState
 (
 {
