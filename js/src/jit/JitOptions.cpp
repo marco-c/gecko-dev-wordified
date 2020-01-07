@@ -1566,7 +1566,7 @@ env
 SET_DEFAULT
 (
 spectreIndexMasking
-false
+true
 )
 ;
 /
