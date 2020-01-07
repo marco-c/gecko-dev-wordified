@@ -1199,7 +1199,6 @@ percentages
 css
 (
 comma
-iterable
 )
 ]
 #
@@ -1217,6 +1216,13 @@ pub
 struct
 KeyframeSelector
 (
+#
+[
+css
+(
+iterable
+)
+]
 Vec
 <
 KeyframePercentage

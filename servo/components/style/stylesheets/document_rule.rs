@@ -1576,7 +1576,6 @@ true
 css
 (
 comma
-iterable
 )
 ]
 #
@@ -1592,6 +1591,13 @@ pub
 struct
 DocumentCondition
 (
+#
+[
+css
+(
+iterable
+)
+]
 Vec
 <
 UrlMatchingFunction

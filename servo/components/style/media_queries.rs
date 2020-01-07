@@ -258,7 +258,6 @@ MallocSizeOf
 css
 (
 comma
-iterable
 )
 ]
 #
@@ -283,6 +282,13 @@ of
 media
 queries
 .
+#
+[
+css
+(
+iterable
+)
+]
 pub
 media_queries
 :
