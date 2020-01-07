@@ -293,7 +293,7 @@ aIsForeign
 bool
 aIsSafeTopLevelNav
 bool
-aIsTopLevelForeign
+aIsSameSiteForeign
 const
 OriginAttributes
 &
@@ -314,7 +314,7 @@ aIsForeign
 bool
 aIsSafeTopLevelNav
 bool
-aIsTopLevelForeign
+aIsSameSiteForeign
 const
 OriginAttributes
 &
