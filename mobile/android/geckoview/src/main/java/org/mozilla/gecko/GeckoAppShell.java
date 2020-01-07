@@ -10988,6 +10988,12 @@ getAudioOutputFramesPerBuffer
 (
 )
 {
+final
+int
+DEFAULT
+=
+512
+;
 if
 (
 SysInfo
@@ -11000,7 +11006,7 @@ getVersion
 )
 {
 return
-0
+DEFAULT
 ;
 }
 final
@@ -11030,7 +11036,7 @@ null
 )
 {
 return
-0
+DEFAULT
 ;
 }
 final
@@ -11055,7 +11061,7 @@ null
 )
 {
 return
-0
+DEFAULT
 ;
 }
 return
@@ -11082,6 +11088,12 @@ getAudioOutputSampleRate
 (
 )
 {
+final
+int
+DEFAULT
+=
+44100
+;
 if
 (
 SysInfo
@@ -11094,7 +11106,7 @@ getVersion
 )
 {
 return
-0
+DEFAULT
 ;
 }
 final
@@ -11124,7 +11136,7 @@ null
 )
 {
 return
-0
+DEFAULT
 ;
 }
 final
@@ -11149,7 +11161,7 @@ null
 )
 {
 return
-0
+DEFAULT
 ;
 }
 return
