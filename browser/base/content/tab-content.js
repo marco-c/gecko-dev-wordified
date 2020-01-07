@@ -5297,7 +5297,7 @@ true
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -5311,9 +5311,6 @@ nsIWebProgressListener
 Ci
 .
 nsISupportsWeakReference
-Ci
-.
-nsISupports
 ]
 )
 }

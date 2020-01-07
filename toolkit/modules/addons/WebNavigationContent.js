@@ -218,7 +218,7 @@ CreatedNavigationTargetListener
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -509,7 +509,7 @@ FormSubmitListener
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -2029,7 +2029,7 @@ frameTransitionData
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

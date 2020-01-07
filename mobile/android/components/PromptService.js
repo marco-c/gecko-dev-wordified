@@ -159,7 +159,7 @@ be994ad106cf
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -683,7 +683,7 @@ _domWin
 null
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -3462,7 +3462,7 @@ cancelable
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -5833,7 +5833,7 @@ f97050fa8068
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -5927,7 +5927,7 @@ prototype
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

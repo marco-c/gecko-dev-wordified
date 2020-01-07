@@ -185,7 +185,7 @@ timer
 var
 setTimeout_timerCallbackQI
 =
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -702,7 +702,7 @@ data
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

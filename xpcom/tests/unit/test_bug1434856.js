@@ -78,7 +78,7 @@ runnable
 {
 internalQI
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

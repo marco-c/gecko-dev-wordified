@@ -121,7 +121,7 @@ MigrationUtils
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

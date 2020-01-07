@@ -274,7 +274,7 @@ Prompt
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

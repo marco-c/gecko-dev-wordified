@@ -266,7 +266,7 @@ functions
 -
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

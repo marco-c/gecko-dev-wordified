@@ -93,7 +93,7 @@ Boilerplate
 /
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -175,7 +175,7 @@ Boilerplate
 /
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -257,7 +257,7 @@ Boilerplate
 /
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

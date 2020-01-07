@@ -398,7 +398,7 @@ invalidate
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -546,7 +546,7 @@ onTextReverted
 false
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

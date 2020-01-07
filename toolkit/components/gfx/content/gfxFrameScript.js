@@ -295,7 +295,7 @@ progress
 listener
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

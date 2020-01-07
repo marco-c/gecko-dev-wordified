@@ -241,7 +241,7 @@ OnHistoryReplaceEntry
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -3957,9 +3957,6 @@ nsIWebProgressListener
 Ci
 .
 nsISupportsWeakReference
-Ci
-.
-nsISupports
 ]
 )
 onStateChange

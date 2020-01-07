@@ -387,7 +387,7 @@ callback
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -624,7 +624,7 @@ nsIPaymentActionResponse
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

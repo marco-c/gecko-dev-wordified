@@ -446,7 +446,7 @@ contentLength
 1
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -605,7 +605,7 @@ chunkIndex
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

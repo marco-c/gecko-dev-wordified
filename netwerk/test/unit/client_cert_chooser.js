@@ -111,7 +111,7 @@ Prompter
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -173,7 +173,7 @@ d423b0fc4fe1
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

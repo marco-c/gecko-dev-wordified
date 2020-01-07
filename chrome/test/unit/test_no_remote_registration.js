@@ -292,7 +292,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

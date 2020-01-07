@@ -228,7 +228,7 @@ devtools
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

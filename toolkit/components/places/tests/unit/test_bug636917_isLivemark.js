@@ -81,7 +81,7 @@ onPageAnnotationRemoved
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

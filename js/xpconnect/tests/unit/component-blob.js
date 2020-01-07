@@ -551,7 +551,7 @@ null
 nsISupports
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

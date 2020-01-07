@@ -2811,7 +2811,7 @@ LivemarkService
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -4177,7 +4177,7 @@ join
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -4575,7 +4575,7 @@ null
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -5470,7 +5470,7 @@ aIID
 nsISupports
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

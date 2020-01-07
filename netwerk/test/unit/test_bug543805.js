@@ -1113,7 +1113,7 @@ pending
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

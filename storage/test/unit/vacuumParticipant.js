@@ -674,7 +674,7 @@ nothing
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

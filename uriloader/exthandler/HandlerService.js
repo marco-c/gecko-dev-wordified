@@ -274,7 +274,7 @@ fdcb325f970f
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1324,7 +1324,7 @@ Proxy
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

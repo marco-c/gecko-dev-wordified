@@ -711,7 +711,7 @@ prefObserver
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

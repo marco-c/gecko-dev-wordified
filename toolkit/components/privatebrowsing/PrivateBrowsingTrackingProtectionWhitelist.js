@@ -165,7 +165,7 @@ c45d
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -179,9 +179,6 @@ nsIObserver
 Ci
 .
 nsISupportsWeakReference
-Ci
-.
-nsISupports
 ]
 )
 _xpcom_factory

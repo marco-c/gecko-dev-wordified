@@ -138,7 +138,7 @@ cancel
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

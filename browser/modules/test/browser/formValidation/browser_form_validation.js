@@ -364,7 +364,7 @@ gObserver
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -206,7 +206,7 @@ to
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

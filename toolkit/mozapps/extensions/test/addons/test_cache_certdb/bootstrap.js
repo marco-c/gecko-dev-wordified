@@ -247,7 +247,7 @@ fakeCert
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

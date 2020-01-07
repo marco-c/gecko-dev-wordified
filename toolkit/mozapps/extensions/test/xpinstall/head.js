@@ -3374,7 +3374,7 @@ break
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -3385,9 +3385,6 @@ nsIObserver
 Ci
 .
 nsIWindowMediatorListener
-Ci
-.
-nsISupports
 ]
 )
 }

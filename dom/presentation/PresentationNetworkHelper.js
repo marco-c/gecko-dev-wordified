@@ -181,7 +181,7 @@ classID
 NETWORKHELPER_CID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

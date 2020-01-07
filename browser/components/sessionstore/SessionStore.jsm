@@ -2892,7 +2892,7 @@ SessionStoreInternal
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -832,7 +832,7 @@ prototype
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1083,7 +1083,7 @@ ID
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1103,9 +1103,6 @@ nsISupportsWeakReference
 Ci
 .
 nsITimerCallback
-Ci
-.
-nsISupports
 ]
 )
 /
@@ -2173,7 +2170,7 @@ prototype
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -2187,9 +2184,6 @@ nsIStreamListener
 Ci
 .
 nsIObserver
-Ci
-.
-nsISupports
 ]
 )
 /

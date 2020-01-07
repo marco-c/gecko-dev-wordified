@@ -1285,7 +1285,7 @@ updatePayment
 updateRequest
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

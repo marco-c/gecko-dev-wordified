@@ -268,7 +268,7 @@ bef6
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

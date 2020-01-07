@@ -472,7 +472,7 @@ now
 1000
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

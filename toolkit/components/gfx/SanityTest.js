@@ -1920,7 +1920,7 @@ aee2
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

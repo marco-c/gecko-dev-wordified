@@ -1038,7 +1038,7 @@ loadedListener
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

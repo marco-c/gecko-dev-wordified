@@ -328,7 +328,7 @@ securityreporter
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

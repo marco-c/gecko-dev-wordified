@@ -311,7 +311,7 @@ nsTerminatorTelemetry
 nsISupports
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

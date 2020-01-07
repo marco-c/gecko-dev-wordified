@@ -377,9 +377,6 @@ nsIStreamListener
 Ci
 .
 nsIInterfaceRequestor
-Ci
-.
-nsISupports
 ]
 )
 /

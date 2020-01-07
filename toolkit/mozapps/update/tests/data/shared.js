@@ -1201,7 +1201,7 @@ gChannel
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

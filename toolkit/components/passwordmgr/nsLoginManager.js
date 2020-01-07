@@ -338,7 +338,7 @@ cb9e0de8
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1012,7 +1012,7 @@ _pwmgr
 null
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

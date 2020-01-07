@@ -48,7 +48,7 @@ check_showUpdateAvailable
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -78,7 +78,7 @@ return
 {
 getInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -93,7 +93,7 @@ nsIDOMWindow
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

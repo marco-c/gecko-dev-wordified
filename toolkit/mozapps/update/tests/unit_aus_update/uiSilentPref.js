@@ -74,7 +74,7 @@ getNewPrompter
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

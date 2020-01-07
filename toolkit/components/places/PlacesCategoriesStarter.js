@@ -472,7 +472,7 @@ PlacesCategoriesStarter
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

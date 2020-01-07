@@ -227,7 +227,7 @@ setNewListener
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -412,7 +412,7 @@ prototype
 .
 QueryInterface
 =
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -2315,7 +2315,7 @@ lock
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

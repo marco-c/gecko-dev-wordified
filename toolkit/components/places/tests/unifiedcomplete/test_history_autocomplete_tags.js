@@ -208,7 +208,7 @@ nsISupports
 implementation
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -225,7 +225,7 @@ nsISupports
 implementation
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

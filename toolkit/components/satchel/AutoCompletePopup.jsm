@@ -159,7 +159,7 @@ AutoCompleteResultView
 nsISupports
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -2313,7 +2313,7 @@ QueryInterface
 "
 )
 return
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

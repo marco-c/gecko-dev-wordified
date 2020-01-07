@@ -2993,7 +2993,7 @@ prototype
 .
 QueryInterface
 =
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -3001,9 +3001,6 @@ generateQI
 Ci
 .
 mozIMozIntl
-Ci
-.
-nsISupports
 ]
 )
 ;

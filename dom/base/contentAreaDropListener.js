@@ -226,7 +226,7 @@ d705dd0746fc
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -234,9 +234,6 @@ generateQI
 Ci
 .
 nsIDroppedLinkHandler
-Ci
-.
-nsISupports
 ]
 )
 _addLink

@@ -776,7 +776,7 @@ callbackID
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1450,14 +1450,11 @@ installtrigger
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
 [
-Ci
-.
-nsISupports
 Ci
 .
 nsIDOMGlobalPropertyInitializer

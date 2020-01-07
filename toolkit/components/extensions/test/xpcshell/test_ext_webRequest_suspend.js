@@ -1298,7 +1298,7 @@ asyncOpen2
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

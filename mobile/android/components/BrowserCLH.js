@@ -658,7 +658,7 @@ addObserver
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1500,7 +1500,7 @@ options
 QI
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

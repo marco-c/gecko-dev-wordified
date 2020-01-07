@@ -11623,7 +11623,7 @@ pluginTag
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

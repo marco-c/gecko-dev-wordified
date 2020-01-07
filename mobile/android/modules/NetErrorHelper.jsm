@@ -763,7 +763,7 @@ well
 .
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

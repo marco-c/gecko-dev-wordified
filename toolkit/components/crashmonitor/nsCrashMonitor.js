@@ -173,7 +173,7 @@ crashmonitor
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

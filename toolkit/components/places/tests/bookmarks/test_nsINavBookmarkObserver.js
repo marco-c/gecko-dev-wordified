@@ -327,7 +327,7 @@ arguments
 nsISupports
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -543,7 +543,7 @@ arguments
 nsISupports
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

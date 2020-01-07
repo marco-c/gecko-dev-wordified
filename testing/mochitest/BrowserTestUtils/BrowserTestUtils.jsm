@@ -344,7 +344,7 @@ classID
 OUR_PROCESSSELECTOR_CID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -2756,7 +2756,7 @@ onLocationChange
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

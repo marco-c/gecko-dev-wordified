@@ -222,7 +222,7 @@ uninit
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

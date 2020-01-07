@@ -183,7 +183,7 @@ waitForUpdateXMLFiles
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

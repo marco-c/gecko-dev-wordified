@@ -2732,7 +2732,7 @@ QueryInterface
 /
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

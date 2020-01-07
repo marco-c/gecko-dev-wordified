@@ -335,7 +335,7 @@ numChecks
 0
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

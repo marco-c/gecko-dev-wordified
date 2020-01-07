@@ -1152,7 +1152,7 @@ message
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

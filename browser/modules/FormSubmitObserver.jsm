@@ -1390,7 +1390,7 @@ document
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

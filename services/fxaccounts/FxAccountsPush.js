@@ -335,7 +335,7 @@ service
 /
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

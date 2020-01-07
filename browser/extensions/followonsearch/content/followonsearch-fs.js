@@ -2220,7 +2220,7 @@ webProgressListener
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

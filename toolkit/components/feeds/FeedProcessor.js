@@ -1715,7 +1715,7 @@ classID
 FR_CLASSID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -2997,7 +2997,7 @@ classID
 FEED_CLASSID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -4575,7 +4575,7 @@ classID
 ENTRY_CLASSID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -4879,7 +4879,7 @@ classID
 TEXTCONSTRUCT_CLASSID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -5084,7 +5084,7 @@ classID
 GENERATOR_CLASSID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -5152,7 +5152,7 @@ classID
 PERSON_CLASSID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -13185,7 +13185,7 @@ classID
 FP_CLASSID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

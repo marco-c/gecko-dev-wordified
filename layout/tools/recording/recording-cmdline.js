@@ -148,7 +148,7 @@ nsISupports
 /
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

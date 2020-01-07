@@ -780,7 +780,7 @@ interaction
 /
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -211,7 +211,7 @@ notificationCallbacks
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -226,7 +226,7 @@ nsIChannelEventSync
 )
 getInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

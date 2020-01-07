@@ -114,7 +114,7 @@ associatedWindow
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

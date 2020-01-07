@@ -3214,7 +3214,7 @@ onItemMoved
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

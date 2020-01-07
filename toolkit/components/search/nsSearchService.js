@@ -2050,7 +2050,7 @@ _stream
 null
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -18038,7 +18038,7 @@ termsParameterName
 nsISupports
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -18707,7 +18707,7 @@ _postData
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -18807,7 +18807,7 @@ _termsLength
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -32063,7 +32063,7 @@ REQ_LOCALES_CHANGED_TOPIC
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

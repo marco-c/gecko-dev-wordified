@@ -996,7 +996,7 @@ onProgressChange
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -3414,7 +3414,7 @@ iid
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -3674,7 +3674,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -3738,7 +3738,7 @@ false
 var
 XPCU_lazyPreferenceObserverQI
 =
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

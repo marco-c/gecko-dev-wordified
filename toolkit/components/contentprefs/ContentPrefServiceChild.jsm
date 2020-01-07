@@ -309,7 +309,7 @@ ContentPrefServiceChild
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

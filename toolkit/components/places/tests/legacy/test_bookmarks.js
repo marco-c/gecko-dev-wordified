@@ -423,7 +423,7 @@ newIndex
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

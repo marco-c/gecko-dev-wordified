@@ -3273,7 +3273,7 @@ hackery
 .
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -4203,7 +4203,7 @@ ReaderModeReady
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -7983,7 +7983,7 @@ AudioPlaybackListener
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -11701,7 +11701,7 @@ AutoCompletePopup
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

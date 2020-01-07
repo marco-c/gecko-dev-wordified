@@ -3513,7 +3513,7 @@ readOnly
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

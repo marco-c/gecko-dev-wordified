@@ -1802,9 +1802,6 @@ nsIRequestObserver
 Ci
 .
 nsIInterfaceRequestor
-Ci
-.
-nsISupports
 ]
 )
 /

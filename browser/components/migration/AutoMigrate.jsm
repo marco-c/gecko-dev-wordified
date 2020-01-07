@@ -5016,7 +5016,7 @@ tab
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

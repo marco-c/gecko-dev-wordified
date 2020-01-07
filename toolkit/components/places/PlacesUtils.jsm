@@ -5175,7 +5175,7 @@ SYNC_BOOKMARK_VALIDATORS
 SYNC_CHANGE_RECORD_VALIDATORS
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -19433,7 +19433,7 @@ aParentGuid
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

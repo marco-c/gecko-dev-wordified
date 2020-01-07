@@ -150,7 +150,7 @@ failures
 .
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

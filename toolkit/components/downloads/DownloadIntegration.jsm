@@ -6702,7 +6702,7 @@ break
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -6834,7 +6834,7 @@ _list
 null
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

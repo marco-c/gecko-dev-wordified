@@ -7744,7 +7744,7 @@ not_replaced
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

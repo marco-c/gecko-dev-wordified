@@ -1583,7 +1583,7 @@ contractID
 NOTIFICATIONSTORAGE_CONTRACTID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

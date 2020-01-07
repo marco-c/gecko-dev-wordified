@@ -6703,7 +6703,7 @@ classID
 FEEDWRITER_CID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

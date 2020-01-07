@@ -5673,7 +5673,7 @@ crs
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

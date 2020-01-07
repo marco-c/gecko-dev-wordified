@@ -265,7 +265,7 @@ notificationCallbacks
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -399,7 +399,7 @@ nsISupportsWeakReference
 /
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
