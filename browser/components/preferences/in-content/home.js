@@ -302,15 +302,6 @@ NEW_TAB_KEY
 newTabURL
 "
 ;
-const
-NEW_TAB_STRING_ID
-=
-"
-extensionControlled
-.
-newTabURL2
-"
-;
 let
 gHomePane
 =
@@ -381,7 +372,6 @@ handleControllingExtension
 (
 URL_OVERRIDES_TYPE
 NEW_TAB_KEY
-NEW_TAB_STRING_ID
 )
 ;
 const
@@ -1010,11 +1000,6 @@ handleControllingExtension
 (
 PREF_SETTING_TYPE
 HOMEPAGE_OVERRIDE_KEY
-"
-extensionControlled
-.
-homepage_override2
-"
 )
 ;
 }
