@@ -339,6 +339,7 @@ actor
 new
 ClientHandleOpChild
 (
+kungFuGrip
 aArgs
 Move
 (
@@ -381,7 +382,6 @@ return
 }
 [
 aRejectCallback
-kungFuGrip
 ]
 {
 aRejectCallback
