@@ -639,7 +639,7 @@ JS
 StructuredCloneScope
 :
 :
-DifferentProcess
+DifferentProcessForIndexedDB
 nullptr
 nullptr
 )
@@ -6604,7 +6604,7 @@ JS
 StructuredCloneScope
 :
 :
-DifferentProcess
+DifferentProcessForIndexedDB
 aValue
 &
 callbacks
@@ -7363,7 +7363,7 @@ JS
 StructuredCloneScope
 :
 :
-DifferentProcess
+DifferentProcessForIndexedDB
 aValue
 &
 callbacks
@@ -7820,7 +7820,7 @@ JS
 StructuredCloneScope
 :
 :
-DifferentProcess
+DifferentProcessForIndexedDB
 aValue
 &
 callbacks

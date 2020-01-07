@@ -58,6 +58,9 @@ SameProcessDifferentThread
 "
 DifferentProcess
 "
+"
+DifferentProcessForIndexedDB
+"
 ]
 )
 {
