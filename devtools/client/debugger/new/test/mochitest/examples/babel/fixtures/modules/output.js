@@ -1030,7 +1030,6 @@ thirdModuleScoped
 )
 {
 }
-;
 module
 .
 exports

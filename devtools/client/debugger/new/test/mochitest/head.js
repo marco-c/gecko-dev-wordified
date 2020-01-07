@@ -5774,7 +5774,7 @@ tree
 -
 node
 "
-sourceArrow
+sourceDirectoryLabel
 :
 i
 =
@@ -5797,7 +5797,7 @@ i
 }
 )
 .
-arrow
+label
 resultItems
 :
 "

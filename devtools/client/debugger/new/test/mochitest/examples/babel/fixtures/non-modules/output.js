@@ -1008,7 +1008,6 @@ here
 )
 ;
 }
-;
 Promise
 .
 resolve

@@ -7360,6 +7360,12 @@ BinaryReaderState
 var
 DataRange
 =
+/
+*
+*
+class
+*
+/
 (
 function
 (
@@ -7423,6 +7429,12 @@ DataRange
 var
 Int64
 =
+/
+*
+*
+class
+*
+/
 (
 function
 (
@@ -7667,6 +7679,12 @@ Int64
 var
 BinaryReader
 =
+/
+*
+*
+class
+*
+/
 (
 function
 (
@@ -12609,8 +12627,6 @@ _pos
 +
 +
 ]
-|
-0
 ;
 var
 blockType
