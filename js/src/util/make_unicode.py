@@ -4662,10 +4662,10 @@ write
 "
 #
 ifndef
-vm_UnicodeNonBMP_h
+util_UnicodeNonBMP_h
 #
 define
-vm_UnicodeNonBMP_h
+util_UnicodeNonBMP_h
 /
 /
 |
@@ -4838,7 +4838,7 @@ write
 endif
 /
 *
-vm_UnicodeNonBMP_h
+util_UnicodeNonBMP_h
 *
 /
 "
@@ -7237,7 +7237,7 @@ file_name
 /
 tests
 /
-ecma_5
+non262
 /
 String
 /
@@ -7612,7 +7612,7 @@ file_name
 /
 tests
 /
-ecma_6
+non262
 /
 String
 /
@@ -7922,7 +7922,7 @@ file_name
 /
 tests
 /
-ecma_5
+non262
 /
 String
 /
@@ -8173,7 +8173,7 @@ file_name
 /
 tests
 /
-ecma_6
+non262
 /
 RegExp
 /
@@ -8621,7 +8621,7 @@ file_name
 /
 tests
 /
-ecma_6
+non262
 /
 RegExp
 /
@@ -10174,7 +10174,7 @@ println
 #
 include
 "
-vm
+util
 /
 Unicode
 .
@@ -13387,7 +13387,7 @@ js
 /
 src
 /
-vm
+util
 to
 work
 correctly
@@ -13432,7 +13432,7 @@ js
 /
 src
 /
-vm
+util
 '
 :
         
@@ -13450,7 +13450,7 @@ js
 /
 src
 /
-vm
+util
 '
 %
 sys
