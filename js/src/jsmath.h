@@ -145,6 +145,9 @@ h
 namespace
 js
 {
+struct
+Class
+;
 typedef
 double
 (
@@ -591,6 +594,11 @@ functions
 .
 *
 /
+extern
+const
+Class
+MathClass
+;
 extern
 JSObject
 *

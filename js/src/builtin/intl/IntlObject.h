@@ -144,6 +144,14 @@ h
 namespace
 js
 {
+struct
+Class
+;
+extern
+const
+Class
+IntlClass
+;
 /
 *
 *

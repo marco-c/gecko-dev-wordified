@@ -142,8 +142,16 @@ h
 namespace
 js
 {
+struct
+Class
+;
 class
 StringBuffer
+;
+extern
+const
+Class
+JSONClass
 ;
 extern
 JSObject
