@@ -193,7 +193,7 @@ dbg
 )
 ;
 await
-waitForLoadedSource
+waitForSelectedSource
 (
 dbg
 "
@@ -204,11 +204,6 @@ c
 )
 ;
 assertPausedLocation
-(
-dbg
-)
-;
-toggleCallStack
 (
 dbg
 )
