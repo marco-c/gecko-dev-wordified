@@ -209,10 +209,6 @@ nsISupports
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsIDOMElement
-NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
-/
-/
 nsINode
 interface
 methods
