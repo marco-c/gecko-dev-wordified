@@ -1477,27 +1477,6 @@ mozconfig_variant
 artifact
 '
     
-'
-tooltool_manifest_src
-'
-:
-"
-browser
-/
-config
-/
-tooltool
--
-manifests
-/
-linux32
-/
-\
-releng
-.
-manifest
-"
-    
 #
 #
 #
