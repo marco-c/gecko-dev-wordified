@@ -717,7 +717,7 @@ aNotify
 )
 ;
 }
-NS_IMETHODIMP
+void
 HTMLStyleElement
 :
 :
@@ -726,6 +726,9 @@ GetInnerHTML
 nsAString
 &
 aInnerHTML
+ErrorResult
+&
+aRv
 )
 {
 if
@@ -743,13 +746,14 @@ fallible
 )
 )
 {
-return
+aRv
+.
+Throw
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 ;
 }
-return
-NS_OK
-;
 }
 void
 HTMLStyleElement

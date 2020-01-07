@@ -22502,7 +22502,7 @@ animation
 ;
 }
 }
-NS_IMETHODIMP
+void
 Element
 :
 :
@@ -22511,6 +22511,9 @@ GetInnerHTML
 nsAString
 &
 aInnerHTML
+ErrorResult
+&
+aError
 )
 {
 GetMarkup
@@ -22518,9 +22521,6 @@ GetMarkup
 false
 aInnerHTML
 )
-;
-return
-NS_OK
 ;
 }
 void
