@@ -2780,6 +2780,12 @@ CustomElementRegistry
 :
 IsCustomElementEnabled
 (
+nodeInfo
+-
+>
+GetDocument
+(
+)
 )
 &
 &
@@ -3351,6 +3357,7 @@ CustomElementRegistry
 :
 IsCustomElementEnabled
 (
+newDoc
 )
 )
 {
