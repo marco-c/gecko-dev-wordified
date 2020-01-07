@@ -844,9 +844,6 @@ r
 mozilla
 :
 :
-detail
-:
-:
 CVStatus
 mozilla
 :
