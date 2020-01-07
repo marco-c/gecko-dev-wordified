@@ -5126,6 +5126,12 @@ False
         
 self
 .
+didOutputTimeout
+=
+False
+        
+self
+.
 _ignore_children
 =
 ignore_children
@@ -5233,6 +5239,16 @@ self
 didTimeout
 =
 True
+            
+self
+.
+didOutputTimeout
+=
+self
+.
+reader
+.
+didOutputTimeout
             
 if
 kill_on_timeout
@@ -5422,6 +5438,9 @@ process
 has
 timed
 out
+for
+any
+reason
 .
 "
 "
@@ -5431,6 +5450,38 @@ return
 self
 .
 didTimeout
+    
+property
+    
+def
+outputTimedOut
+(
+self
+)
+:
+        
+"
+"
+"
+True
+if
+the
+process
+has
+timed
+out
+for
+no
+output
+.
+"
+"
+"
+        
+return
+self
+.
+didOutputTimeout
     
 property
     
@@ -5573,6 +5624,12 @@ killed
 self
 .
 didTimeout
+=
+False
+        
+self
+.
+didOutputTimeout
 =
 False
         
@@ -6977,6 +7034,12 @@ self
 thread
 =
 None
+        
+self
+.
+didOutputTimeout
+=
+False
     
 def
 _create_stream_reader
@@ -7341,6 +7404,12 @@ output_timeout
 :
                     
 timed_out
+=
+True
+                    
+self
+.
+didOutputTimeout
 =
 True
                     
