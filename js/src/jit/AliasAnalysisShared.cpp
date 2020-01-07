@@ -1225,6 +1225,15 @@ MDefinition
 Opcode
 :
 :
+WasmAtomicExchangeHeap
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 WasmLoadGlobalVar
 :
 case
