@@ -150,6 +150,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 SourceSurfaceDual
+override
 )
 SourceSurfaceDual
 (
@@ -187,6 +188,7 @@ GetType
 (
 )
 const
+override
 {
 return
 SurfaceType
@@ -201,6 +203,7 @@ GetSize
 (
 )
 const
+override
 {
 return
 mA
@@ -217,6 +220,7 @@ GetFormat
 (
 )
 const
+override
 {
 return
 mA
@@ -268,6 +272,7 @@ DataSourceSurface
 GetDataSurface
 (
 )
+override
 {
 return
 mA

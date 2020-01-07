@@ -4108,6 +4108,7 @@ ignore_case
 bool
 unicode
 )
+override
 ;
 virtual
 bool
@@ -4123,6 +4124,7 @@ bm
 bool
 not_at_start
 )
+override
 ;
 protected
 :
@@ -4293,6 +4295,7 @@ NodeVisitor
 *
 visitor
 )
+override
 ;
 virtual
 void
@@ -4305,6 +4308,7 @@ Trace
 *
 trace
 )
+override
 ;
 virtual
 int
@@ -4317,6 +4321,7 @@ budget
 bool
 not_at_start
 )
+override
 ;
 virtual
 void
@@ -4333,6 +4338,7 @@ filled_in
 bool
 not_at_start
 )
+override
 {
 return
 on_success
@@ -4363,6 +4369,7 @@ bm
 bool
 not_at_start
 )
+override
 ;
 ActionType
 action_type
@@ -4395,6 +4402,7 @@ int
 GreedyLoopTextLength
 (
 )
+override
 {
 return
 kNodeIsTooComplexForGreedyLoops
@@ -4572,6 +4580,7 @@ NodeVisitor
 *
 visitor
 )
+override
 ;
 virtual
 void
@@ -4584,6 +4593,7 @@ Trace
 *
 trace
 )
+override
 ;
 virtual
 int
@@ -4596,6 +4606,7 @@ budget
 bool
 not_at_start
 )
+override
 ;
 virtual
 void
@@ -4612,6 +4623,7 @@ characters_filled_in
 bool
 not_at_start
 )
+override
 ;
 TextElementVector
 &
@@ -4638,6 +4650,7 @@ int
 GreedyLoopTextLength
 (
 )
+override
 ;
 virtual
 RegExpNode
@@ -4648,6 +4661,7 @@ RegExpCompiler
 *
 compiler
 )
+override
 ;
 virtual
 bool
@@ -4663,6 +4677,7 @@ bm
 bool
 not_at_start
 )
+override
 ;
 void
 CalculateOffsets
@@ -4681,6 +4696,7 @@ ignore_case
 bool
 unicode
 )
+override
 ;
 private
 :
@@ -5046,6 +5062,7 @@ NodeVisitor
 *
 visitor
 )
+override
 ;
 virtual
 void
@@ -5058,6 +5075,7 @@ Trace
 *
 trace
 )
+override
 ;
 virtual
 int
@@ -5070,6 +5088,7 @@ budget
 bool
 not_at_start
 )
+override
 ;
 virtual
 void
@@ -5086,6 +5105,7 @@ filled_in
 bool
 not_at_start
 )
+override
 ;
 virtual
 bool
@@ -5101,6 +5121,7 @@ bm
 bool
 not_at_start
 )
+override
 ;
 AssertionType
 assertion_type
@@ -5190,6 +5211,7 @@ NodeVisitor
 *
 visitor
 )
+override
 ;
 int
 start_register
@@ -5200,6 +5222,7 @@ return
 start_reg_
 ;
 }
+virtual
 int
 end_register
 (
@@ -5220,6 +5243,7 @@ Trace
 *
 trace
 )
+override
 ;
 virtual
 int
@@ -5232,6 +5256,7 @@ recursion_depth
 bool
 not_at_start
 )
+override
 ;
 virtual
 void
@@ -5248,6 +5273,7 @@ characters_filled_in
 bool
 not_at_start
 )
+override
 {
 }
 virtual
@@ -5264,6 +5290,7 @@ bm
 bool
 not_at_start
 )
+override
 ;
 private
 :
@@ -5319,6 +5346,7 @@ NodeVisitor
 *
 visitor
 )
+override
 ;
 virtual
 void
@@ -5331,6 +5359,7 @@ Trace
 *
 trace
 )
+override
 ;
 virtual
 int
@@ -5343,6 +5372,7 @@ recursion_depth
 bool
 not_at_start
 )
+override
 {
 return
 0
@@ -5363,6 +5393,7 @@ characters_filled_in
 bool
 not_at_start
 )
+override
 {
 /
 /
@@ -5400,6 +5431,7 @@ bm
 bool
 not_at_start
 )
+override
 {
 /
 /
@@ -5487,6 +5519,7 @@ Trace
 *
 trace
 )
+override
 ;
 private
 :
@@ -5738,6 +5771,7 @@ NodeVisitor
 *
 visitor
 )
+override
 ;
 void
 AddAlternative
@@ -5783,6 +5817,7 @@ Trace
 *
 trace
 )
+override
 ;
 virtual
 int
@@ -5795,7 +5830,9 @@ budget
 bool
 not_at_start
 )
+override
 ;
+virtual
 int
 EatsAtLeastHelper
 (
@@ -5825,6 +5862,7 @@ characters_filled_in
 bool
 not_at_start
 )
+override
 ;
 virtual
 bool
@@ -5840,6 +5878,7 @@ bm
 bool
 not_at_start
 )
+override
 ;
 bool
 being_calculated
@@ -5905,6 +5944,7 @@ ignore_case
 bool
 unicode
 )
+override
 ;
 protected
 :
@@ -6061,6 +6101,7 @@ budget
 bool
 not_at_start
 )
+override
 ;
 virtual
 void
@@ -6077,6 +6118,7 @@ characters_filled_in
 bool
 not_at_start
 )
+override
 ;
 virtual
 bool
@@ -6092,6 +6134,7 @@ bm
 bool
 not_at_start
 )
+override
 ;
 /
 /
@@ -6175,6 +6218,7 @@ try_to_emit_quick_check_for_alternative
 int
 i
 )
+override
 {
 return
 i
@@ -6195,6 +6239,7 @@ ignore_case
 bool
 unicode
 )
+override
 ;
 }
 ;
@@ -6242,6 +6287,7 @@ GuardedAlternative
 alt
 )
 ;
+virtual
 void
 AddContinueAlternative
 (
@@ -6260,6 +6306,7 @@ Trace
 *
 trace
 )
+override
 ;
 virtual
 int
@@ -6272,6 +6319,7 @@ budget
 bool
 not_at_start
 )
+override
 ;
 virtual
 void
@@ -6288,6 +6336,7 @@ characters_filled_in
 bool
 not_at_start
 )
+override
 ;
 virtual
 bool
@@ -6303,6 +6352,7 @@ bm
 bool
 not_at_start
 )
+override
 ;
 RegExpNode
 *
@@ -6341,6 +6391,7 @@ NodeVisitor
 *
 visitor
 )
+override
 ;
 virtual
 RegExpNode
@@ -6354,6 +6405,7 @@ ignore_case
 bool
 unicode
 )
+override
 ;
 private
 :
@@ -9075,6 +9127,7 @@ Node
 *
 that
 )
+override
 ;
 FOR_EACH_NODE_TYPE
 (
@@ -9091,6 +9144,7 @@ LoopChoiceNode
 *
 that
 )
+override
 ;
 bool
 has_failed

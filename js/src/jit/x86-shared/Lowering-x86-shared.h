@@ -195,6 +195,7 @@ MGuardShape
 *
 ins
 )
+override
 ;
 void
 visitGuardObjectGroup
@@ -203,6 +204,7 @@ MGuardObjectGroup
 *
 ins
 )
+override
 ;
 void
 visitPowHalf
@@ -211,6 +213,7 @@ MPowHalf
 *
 ins
 )
+override
 ;
 void
 lowerForShift
@@ -389,6 +392,7 @@ MWasmNeg
 *
 ins
 )
+override
 ;
 void
 visitWasmSelect
@@ -397,6 +401,7 @@ MWasmSelect
 *
 ins
 )
+override
 ;
 void
 lowerMulI
@@ -475,6 +480,7 @@ MSimdInsertElement
 *
 ins
 )
+override
 ;
 void
 visitSimdExtractElement
@@ -483,6 +489,7 @@ MSimdExtractElement
 *
 ins
 )
+override
 ;
 void
 visitSimdBinaryArith
@@ -491,6 +498,7 @@ MSimdBinaryArith
 *
 ins
 )
+override
 ;
 void
 visitSimdBinarySaturating
@@ -499,6 +507,7 @@ MSimdBinarySaturating
 *
 ins
 )
+override
 ;
 void
 visitSimdSelect
@@ -507,6 +516,7 @@ MSimdSelect
 *
 ins
 )
+override
 ;
 void
 visitSimdSplat
@@ -515,6 +525,7 @@ MSimdSplat
 *
 ins
 )
+override
 ;
 void
 visitSimdSwizzle
@@ -523,6 +534,7 @@ MSimdSwizzle
 *
 ins
 )
+override
 ;
 void
 visitSimdShuffle
@@ -531,6 +543,7 @@ MSimdShuffle
 *
 ins
 )
+override
 ;
 void
 visitSimdGeneralShuffle
@@ -539,6 +552,7 @@ MSimdGeneralShuffle
 *
 ins
 )
+override
 ;
 void
 visitSimdValueX4
@@ -547,6 +561,7 @@ MSimdValueX4
 *
 ins
 )
+override
 ;
 void
 lowerCompareExchangeTypedArrayElement
@@ -585,6 +600,7 @@ MCopySign
 *
 ins
 )
+override
 ;
 }
 ;

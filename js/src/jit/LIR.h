@@ -4628,6 +4628,7 @@ op
 (
 )
 const
+override
 {
 \
 return
@@ -4649,6 +4650,7 @@ LElementVisitor
 *
 visitor
 )
+override
 {
 \
 visitor
@@ -5244,6 +5246,7 @@ numDefs
 (
 )
 const
+override
 {
 return
 1
@@ -5256,6 +5259,7 @@ getDef
 size_t
 index
 )
+override
 {
 MOZ_ASSERT
 (
@@ -5280,6 +5284,7 @@ LDefinition
 &
 def
 )
+override
 {
 MOZ_ASSERT
 (
@@ -5299,6 +5304,7 @@ numOperands
 (
 )
 const
+override
 {
 return
 mir_
@@ -5321,6 +5327,7 @@ getOperand
 size_t
 index
 )
+override
 {
 MOZ_ASSERT
 (
@@ -5349,6 +5356,7 @@ LAllocation
 &
 a
 )
+override
 {
 MOZ_ASSERT
 (
@@ -5372,6 +5380,7 @@ numTemps
 (
 )
 const
+override
 {
 return
 0
@@ -5384,6 +5393,7 @@ getTemp
 size_t
 index
 )
+override
 {
 MOZ_CRASH
 (
@@ -5404,6 +5414,7 @@ LDefinition
 &
 temp
 )
+override
 {
 MOZ_CRASH
 (
@@ -5419,6 +5430,7 @@ numSuccessors
 (
 )
 const
+override
 {
 return
 0
@@ -5432,6 +5444,7 @@ size_t
 i
 )
 const
+override
 {
 MOZ_CRASH
 (
@@ -5450,6 +5463,7 @@ i
 MBasicBlock
 *
 )
+override
 {
 MOZ_CRASH
 (
@@ -6752,6 +6766,7 @@ isCall
 (
 )
 const
+override
 {
 return
 true

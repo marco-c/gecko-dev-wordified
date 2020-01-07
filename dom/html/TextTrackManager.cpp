@@ -2972,6 +2972,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 WEBVTT_LOGV
 (

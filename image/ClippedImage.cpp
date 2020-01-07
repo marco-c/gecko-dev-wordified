@@ -574,6 +574,7 @@ gfxMatrix
 &
 aTransform
 )
+override
 {
 MOZ_ASSERT
 (

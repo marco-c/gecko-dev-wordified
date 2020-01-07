@@ -7504,6 +7504,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 aWorkerPrivate
 -
@@ -7556,6 +7557,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 aWorkerPrivate
 -
@@ -7609,6 +7611,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 aWorkerPrivate
 -
@@ -7862,6 +7865,7 @@ Notify
 Status
 aStatus
 )
+override
 {
 return
 true

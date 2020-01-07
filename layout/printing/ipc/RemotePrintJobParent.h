@@ -229,6 +229,7 @@ ActorDestroyReason
 aWhy
 )
 final
+override
 ;
 mozilla
 :
@@ -257,6 +258,7 @@ int32_t
 aEndPage
 )
 final
+override
 ;
 mozilla
 :
@@ -269,6 +271,7 @@ RecvProcessPage
 (
 )
 final
+override
 ;
 mozilla
 :
@@ -281,6 +284,7 @@ RecvFinalizePrint
 (
 )
 final
+override
 ;
 mozilla
 :
@@ -297,6 +301,7 @@ nsresult
 aRv
 )
 final
+override
 ;
 mozilla
 :
@@ -317,6 +322,7 @@ nsresult
 aStatus
 )
 final
+override
 ;
 mozilla
 :
@@ -345,6 +351,7 @@ long
 aMaxTotalProgress
 )
 final
+override
 ;
 mozilla
 :
@@ -361,6 +368,7 @@ nsresult
 aStatus
 )
 final
+override
 ;
 /
 *

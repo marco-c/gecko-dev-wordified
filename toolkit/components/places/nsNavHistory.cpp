@@ -6315,6 +6315,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+override
 {
 if
 (
@@ -18817,6 +18818,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+override
 {
 (
 void
@@ -27561,6 +27563,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+override
 {
 nsresult
 rv

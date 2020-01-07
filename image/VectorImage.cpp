@@ -1427,6 +1427,7 @@ gfxMatrix
 &
 aTransform
 )
+override
 ;
 private
 :

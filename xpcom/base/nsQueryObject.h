@@ -270,6 +270,7 @@ void
 aResult
 )
 const
+override
 {
 nsresult
 status
@@ -352,6 +353,7 @@ void
 aResult
 )
 const
+override
 {
 nsresult
 status

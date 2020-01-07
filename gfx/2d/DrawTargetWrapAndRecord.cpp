@@ -573,6 +573,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 SourceSurfaceWrapAndRecord
+override
 )
 SourceSurfaceWrapAndRecord
 (
@@ -636,6 +637,7 @@ GetType
 (
 )
 const
+override
 {
 return
 SurfaceType
@@ -650,6 +652,7 @@ GetSize
 (
 )
 const
+override
 {
 return
 mFinalSurface
@@ -666,6 +669,7 @@ GetFormat
 (
 )
 const
+override
 {
 return
 mFinalSurface
@@ -684,6 +688,7 @@ DataSourceSurface
 GetDataSurface
 (
 )
+override
 {
 return
 mFinalSurface
@@ -719,6 +724,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 GradientStopsWrapAndRecord
+override
 )
 GradientStopsWrapAndRecord
 (
@@ -782,6 +788,7 @@ GetBackendType
 (
 )
 const
+override
 {
 return
 BackendType

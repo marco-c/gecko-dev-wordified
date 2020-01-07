@@ -6446,6 +6446,7 @@ GetParentRule
 (
 )
 final
+override
 {
 return
 mRule
@@ -6496,6 +6497,7 @@ aSubjectPrincipal
 )
 const
 final
+override
 ;
 virtual
 nsIDocument

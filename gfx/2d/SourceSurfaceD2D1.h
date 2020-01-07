@@ -173,6 +173,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 SourceSurfaceD2D1
+override
 )
 SourceSurfaceD2D1
 (
@@ -206,6 +207,7 @@ GetType
 (
 )
 const
+override
 {
 return
 SurfaceType
@@ -220,6 +222,7 @@ GetSize
 (
 )
 const
+override
 {
 return
 mSize
@@ -231,6 +234,7 @@ GetFormat
 (
 )
 const
+override
 {
 return
 mFormat
@@ -242,6 +246,7 @@ IsValid
 (
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -251,6 +256,7 @@ DataSourceSurface
 GetDataSurface
 (
 )
+override
 ;
 ID2D1Image
 *
@@ -467,6 +473,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DataSourceSurfaceD2D1
+override
 )
 DataSourceSurfaceD2D1
 (
@@ -488,6 +495,7 @@ GetType
 (
 )
 const
+override
 {
 return
 SurfaceType
@@ -502,6 +510,7 @@ GetSize
 (
 )
 const
+override
 ;
 virtual
 SurfaceFormat
@@ -509,6 +518,7 @@ GetFormat
 (
 )
 const
+override
 {
 return
 mFormat
@@ -520,6 +530,7 @@ IsValid
 (
 )
 const
+override
 {
 return
 !
@@ -533,12 +544,14 @@ uint8_t
 GetData
 (
 )
+override
 ;
 virtual
 int32_t
 Stride
 (
 )
+override
 ;
 virtual
 bool
@@ -549,12 +562,14 @@ MappedSurface
 *
 aMappedSurface
 )
+override
 ;
 virtual
 void
 Unmap
 (
 )
+override
 ;
 private
 :

@@ -148,6 +148,7 @@ nsHtml5TreeOperation
 &
 aOpQueue
 )
+override
 ;
 /
 *

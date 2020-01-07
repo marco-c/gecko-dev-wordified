@@ -567,6 +567,7 @@ txAExprResult
 &
 aResult
 )
+override
 ;
 \
 nsresult
@@ -576,10 +577,12 @@ const
 txXPathNode
 &
 aNode
+\
 bool
 &
 aAllowed
 )
+override
 ;
 \
 void
@@ -587,6 +590,7 @@ void
 getPrivateContext
 (
 )
+override
 ;
 \
 txResultRecycler
@@ -594,6 +598,7 @@ txResultRecycler
 recycler
 (
 )
+override
 ;
 \
 void
@@ -606,6 +611,7 @@ aMsg
 nsresult
 aRes
 )
+override
 class
 txIEvalContext
 :
@@ -701,18 +707,21 @@ txXPathNode
 getContextNode
 (
 )
+override
 ;
 \
 uint32_t
 size
 (
 )
+override
 ;
 \
 uint32_t
 position
 (
 )
+override
 #
 endif
 /

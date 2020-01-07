@@ -978,6 +978,7 @@ uint8_t
 *
 aBreakBefore
 )
+override
 ;
 /
 *
@@ -1071,7 +1072,7 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-MOZ_MUST_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -1083,7 +1084,7 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-MOZ_MUST_OVERRIDE
+override
 ;
 nsTransformingTextRunFactory
 *

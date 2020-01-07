@@ -404,6 +404,7 @@ char
 *
 aObjName
 )
+override
 {
 }
 NS_IMETHOD_
@@ -421,6 +422,7 @@ aObjName
 uint64_t
 aCompartmentAddress
 )
+override
 {
 }
 NS_IMETHOD_
@@ -437,6 +439,7 @@ GCCellPtr
 &
 aChild
 )
+override
 {
 if
 (
@@ -462,6 +465,7 @@ nsISupports
 *
 aChild
 )
+override
 {
 }
 NS_IMETHOD_
@@ -477,6 +481,7 @@ nsCycleCollectionParticipant
 *
 aHelper
 )
+override
 {
 }
 NS_IMETHOD_
@@ -490,6 +495,7 @@ char
 *
 aName
 )
+override
 {
 }
 bool

@@ -612,6 +612,7 @@ nsDisplayList
 *
 aList
 )
+override
 {
 return
 new
@@ -638,6 +639,7 @@ nsDisplayItem
 *
 aItem
 )
+override
 {
 return
 new

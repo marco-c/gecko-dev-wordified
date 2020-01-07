@@ -192,6 +192,7 @@ WrapperOwner
 ActorDestroyReason
 why
 )
+override
 {
 WrapperOwner
 :
@@ -229,6 +230,7 @@ ReturnStatus
 *
 rs
 )
+override
 {
 if
 (
@@ -286,6 +288,7 @@ PPropertyDescriptor
 *
 out
 )
+override
 {
 if
 (
@@ -345,6 +348,7 @@ PPropertyDescriptor
 *
 out
 )
+override
 {
 if
 (
@@ -405,6 +409,7 @@ ReturnStatus
 *
 rs
 )
+override
 {
 if
 (
@@ -461,6 +466,7 @@ ReturnStatus
 *
 rs
 )
+override
 {
 if
 (
@@ -519,6 +525,7 @@ bool
 *
 bp
 )
+override
 {
 if
 (
@@ -578,6 +585,7 @@ bool
 *
 bp
 )
+override
 {
 if
 (
@@ -641,6 +649,7 @@ JSVariant
 *
 result
 )
+override
 {
 if
 (
@@ -706,6 +715,7 @@ ReturnStatus
 *
 rs
 )
+override
 {
 if
 (
@@ -762,6 +772,7 @@ bool
 *
 result
 )
+override
 {
 if
 (
@@ -833,6 +844,7 @@ JSParam
 *
 outparams
 )
+override
 {
 if
 (
@@ -897,6 +909,7 @@ bool
 *
 bp
 )
+override
 {
 if
 (
@@ -952,6 +965,7 @@ uint32_t
 *
 classValue
 )
+override
 {
 if
 (
@@ -1006,6 +1020,7 @@ uint32_t
 *
 answer
 )
+override
 {
 if
 (
@@ -1057,6 +1072,7 @@ nsCString
 *
 result
 )
+override
 {
 if
 (
@@ -1110,6 +1126,7 @@ ObjectOrNullVariant
 *
 result
 )
+override
 {
 if
 (
@@ -1167,6 +1184,7 @@ ObjectOrNullVariant
 *
 result
 )
+override
 {
 if
 (
@@ -1225,6 +1243,7 @@ uint32_t
 *
 flags
 )
+override
 {
 if
 (
@@ -1287,6 +1306,7 @@ JSIDVariant
 *
 ids
 )
+override
 {
 if
 (
@@ -1346,6 +1366,7 @@ bool
 *
 instanceof
 )
+override
 {
 if
 (
@@ -1409,6 +1430,7 @@ bool
 *
 instanceof
 )
+override
 {
 if
 (
@@ -1459,6 +1481,7 @@ uint64_t
 &
 objId
 )
+override
 {
 if
 (
@@ -1510,6 +1533,7 @@ ObjectId
 &
 objId
 )
+override
 {
 return
 Base
@@ -1536,6 +1560,7 @@ ReturnStatus
 *
 rs
 )
+override
 {
 return
 Base
@@ -1570,6 +1595,7 @@ PPropertyDescriptor
 *
 out
 )
+override
 {
 return
 Base
@@ -1606,6 +1632,7 @@ PPropertyDescriptor
 *
 out
 )
+override
 {
 return
 Base
@@ -1643,6 +1670,7 @@ ReturnStatus
 *
 rs
 )
+override
 {
 return
 Base
@@ -1676,6 +1704,7 @@ ReturnStatus
 *
 rs
 )
+override
 {
 return
 Base
@@ -1711,6 +1740,7 @@ bool
 *
 bp
 )
+override
 {
 return
 Base
@@ -1747,6 +1777,7 @@ bool
 *
 bp
 )
+override
 {
 return
 Base
@@ -1787,6 +1818,7 @@ JSVariant
 *
 result
 )
+override
 {
 return
 Base
@@ -1829,6 +1861,7 @@ ReturnStatus
 *
 rs
 )
+override
 {
 return
 Base
@@ -1862,6 +1895,7 @@ bool
 *
 result
 )
+override
 {
 return
 Base
@@ -1910,6 +1944,7 @@ JSParam
 *
 outparams
 )
+override
 {
 return
 Base
@@ -1948,6 +1983,7 @@ bool
 *
 bp
 )
+override
 {
 return
 Base
@@ -1980,6 +2016,7 @@ uint32_t
 *
 classValue
 )
+override
 {
 return
 Base
@@ -2011,6 +2048,7 @@ uint32_t
 *
 answer
 )
+override
 {
 return
 Base
@@ -2039,6 +2077,7 @@ nsCString
 *
 result
 )
+override
 {
 return
 Base
@@ -2069,6 +2108,7 @@ ObjectOrNullVariant
 *
 result
 )
+override
 {
 return
 Base
@@ -2103,6 +2143,7 @@ ObjectOrNullVariant
 *
 result
 )
+override
 {
 return
 Base
@@ -2138,6 +2179,7 @@ uint32_t
 *
 flags
 )
+override
 {
 return
 Base
@@ -2177,6 +2219,7 @@ JSIDVariant
 *
 ids
 )
+override
 {
 return
 Base
@@ -2213,6 +2256,7 @@ bool
 *
 instanceof
 )
+override
 {
 return
 Base
@@ -2253,6 +2297,7 @@ bool
 *
 instanceof
 )
+override
 {
 return
 Base
@@ -2305,6 +2350,7 @@ ObjectVariant
 *
 objVarp
 )
+override
 {
 return
 WrapperOwner
@@ -2331,6 +2377,7 @@ ObjectVariant
 &
 objVar
 )
+override
 {
 return
 WrapperOwner

@@ -313,6 +313,7 @@ GetParentObject
 (
 )
 final
+override
 {
 return
 mStyleSheet
@@ -332,12 +333,14 @@ bool
 aFound
 )
 final
+override
 ;
 uint32_t
 Length
 (
 )
 final
+override
 {
 return
 mRules

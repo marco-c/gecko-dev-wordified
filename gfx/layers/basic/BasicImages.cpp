@@ -614,6 +614,7 @@ BufferRecycleBin
 *
 aRecycleBin
 )
+override
 {
 return
 new

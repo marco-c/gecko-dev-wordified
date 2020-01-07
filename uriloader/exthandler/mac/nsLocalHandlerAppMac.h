@@ -135,6 +135,7 @@ nsIInterfaceRequestor
 *
 aWindowContext
 )
+override
 ;
 NS_IMETHOD
 GetName
@@ -143,6 +144,7 @@ nsAString
 &
 aName
 )
+override
 ;
 }
 ;

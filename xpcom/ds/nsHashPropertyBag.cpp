@@ -1289,6 +1289,7 @@ NS_IMETHODIMP
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (

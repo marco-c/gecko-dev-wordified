@@ -169,6 +169,7 @@ GetType
 )
 const
 final
+override
 {
 return
 Rule
@@ -206,6 +207,7 @@ Type
 )
 const
 final
+override
 {
 return
 CSSRuleBinding

@@ -2163,6 +2163,7 @@ notifyRefCntIsZero
 )
 const
 final
+override
 ;
 virtual
 GrColor4f

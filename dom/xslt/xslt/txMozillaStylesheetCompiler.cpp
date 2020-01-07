@@ -1765,6 +1765,7 @@ TX_DECL_ACOMPILEOBSERVER
 NS_INLINE_DECL_REFCOUNTING
 (
 txCompileObserver
+override
 )
 nsresult
 startLoad
@@ -2869,6 +2870,7 @@ TX_DECL_ACOMPILEOBSERVER
 NS_INLINE_DECL_REFCOUNTING
 (
 txSyncCompileObserver
+override
 )
 private
 :

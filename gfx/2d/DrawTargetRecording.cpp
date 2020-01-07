@@ -573,6 +573,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 SourceSurfaceRecording
+override
 )
 SourceSurfaceRecording
 (
@@ -641,6 +642,7 @@ GetType
 (
 )
 const
+override
 {
 return
 SurfaceType
@@ -655,6 +657,7 @@ GetSize
 (
 )
 const
+override
 {
 return
 mSize
@@ -666,6 +669,7 @@ GetFormat
 (
 )
 const
+override
 {
 return
 mFormat
@@ -679,6 +683,7 @@ DataSourceSurface
 GetDataSurface
 (
 )
+override
 {
 return
 nullptr
@@ -959,6 +964,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 GradientStopsRecording
+override
 )
 explicit
 GradientStopsRecording
@@ -1016,6 +1022,7 @@ GetBackendType
 (
 )
 const
+override
 {
 return
 BackendType

@@ -1183,6 +1183,7 @@ WaitableEvent
 *
 signaling_event
 )
+override
 {
 lock_
 -
@@ -1456,6 +1457,7 @@ void
 *
 tag
 )
+override
 {
 return
 this

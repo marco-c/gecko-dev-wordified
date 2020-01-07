@@ -161,6 +161,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 NativeFontResourceMac
+override
 )
 static
 already_AddRefed
@@ -192,6 +193,7 @@ uint32_t
 aInstanceDataLength
 )
 final
+override
 ;
 ~
 NativeFontResourceMac

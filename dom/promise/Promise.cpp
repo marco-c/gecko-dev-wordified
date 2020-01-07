@@ -3667,6 +3667,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 MOZ_ASSERT
 (

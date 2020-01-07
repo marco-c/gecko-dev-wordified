@@ -293,6 +293,7 @@ SetDoNotUseRestrictingSIDs
 (
 )
 final
+override
 ;
 ResultCode
 SetJobLevel

@@ -179,6 +179,7 @@ aTitle
 int16_t
 aMode
 )
+override
 ;
 NS_IMETHOD
 Open
@@ -187,6 +188,7 @@ nsIFilePickerShownCallback
 *
 aCallback
 )
+override
 ;
 NS_IMETHOD
 AppendFilters
@@ -194,6 +196,7 @@ AppendFilters
 int32_t
 filterMask
 )
+override
 ;
 NS_IMETHOD
 GetFilterIndex
@@ -202,6 +205,7 @@ int32_t
 *
 aFilterIndex
 )
+override
 ;
 NS_IMETHOD
 SetFilterIndex
@@ -209,6 +213,7 @@ SetFilterIndex
 int32_t
 aFilterIndex
 )
+override
 ;
 NS_IMETHOD
 GetFiles
@@ -218,6 +223,7 @@ nsISimpleEnumerator
 *
 aFiles
 )
+override
 ;
 NS_IMETHOD
 GetDisplayDirectory
@@ -227,6 +233,7 @@ nsIFile
 *
 aDisplayDirectory
 )
+override
 ;
 NS_IMETHOD
 SetDisplayDirectory
@@ -235,6 +242,7 @@ nsIFile
 *
 aDisplayDirectory
 )
+override
 ;
 NS_IMETHOD
 GetDisplaySpecialDirectory
@@ -243,6 +251,7 @@ nsAString
 &
 aDisplayDirectory
 )
+override
 ;
 NS_IMETHOD
 SetDisplaySpecialDirectory
@@ -252,6 +261,7 @@ nsAString
 &
 aDisplayDirectory
 )
+override
 ;
 NS_IMETHOD
 GetAddToRecentDocs
@@ -260,6 +270,7 @@ bool
 *
 aFlag
 )
+override
 ;
 NS_IMETHOD
 SetAddToRecentDocs
@@ -267,6 +278,7 @@ SetAddToRecentDocs
 bool
 aFlag
 )
+override
 ;
 NS_IMETHOD
 GetMode
@@ -275,6 +287,7 @@ int16_t
 *
 aMode
 )
+override
 ;
 NS_IMETHOD
 SetOkButtonLabel
@@ -284,6 +297,7 @@ nsAString
 &
 aLabel
 )
+override
 ;
 NS_IMETHOD
 GetOkButtonLabel
@@ -292,6 +306,7 @@ nsAString
 &
 aLabel
 )
+override
 ;
 NS_IMETHOD
 GetDomFileOrDirectory
@@ -301,6 +316,7 @@ nsISupports
 *
 aValue
 )
+override
 ;
 NS_IMETHOD
 GetDomFileOrDirectoryEnumerator
@@ -310,6 +326,7 @@ nsISimpleEnumerator
 *
 aValue
 )
+override
 ;
 protected
 :

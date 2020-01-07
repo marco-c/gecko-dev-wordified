@@ -3667,6 +3667,7 @@ HostLayerManager
 *
 aManager
 )
+override
 ;
 virtual
 LayerComposite
@@ -3674,6 +3675,7 @@ LayerComposite
 GetFirstChildComposite
 (
 )
+override
 {
 return
 nullptr
@@ -3824,6 +3826,7 @@ SetCompositableHost
 CompositableHost
 *
 )
+override
 {
 /
 /

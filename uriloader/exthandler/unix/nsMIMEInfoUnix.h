@@ -181,6 +181,7 @@ bool
 *
 _retval
 )
+override
 ;
 virtual
 nsresult
@@ -190,6 +191,7 @@ nsIURI
 *
 aURI
 )
+override
 ;
 virtual
 nsresult
@@ -199,6 +201,7 @@ nsIFile
 *
 aFile
 )
+override
 ;
 }
 ;

@@ -862,6 +862,7 @@ bool
 *
 aRetVal
 )
+override
 ;
 NS_IMETHOD
 Stop
@@ -870,11 +871,13 @@ bool
 *
 aResult
 )
+override
 ;
 NS_IMETHOD
 Enable
 (
 )
+override
 ;
 private
 :

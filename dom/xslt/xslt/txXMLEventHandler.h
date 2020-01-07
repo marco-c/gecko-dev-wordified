@@ -711,6 +711,7 @@ nsString
 &
 aValue
 )
+override
 ;
 \
 virtual
@@ -735,6 +736,7 @@ nsString
 &
 aValue
 )
+override
 ;
 \
 virtual
@@ -748,6 +750,7 @@ aData
 bool
 aDOE
 )
+override
 ;
 \
 virtual
@@ -759,6 +762,7 @@ nsString
 &
 aData
 )
+override
 ;
 \
 virtual
@@ -770,6 +774,7 @@ aResult
 =
 NS_OK
 )
+override
 ;
 \
 virtual
@@ -777,6 +782,7 @@ nsresult
 endElement
 (
 )
+override
 ;
 \
 virtual
@@ -793,6 +799,7 @@ nsString
 &
 aData
 )
+override
 ;
 \
 virtual
@@ -800,6 +807,7 @@ nsresult
 startDocument
 (
 )
+override
 ;
 \
 virtual
@@ -821,6 +829,7 @@ aLowercaseLocalName
 int32_t
 aNsID
 )
+override
 ;
 \
 virtual
@@ -840,6 +849,7 @@ const
 int32_t
 aNsID
 )
+override
 ;
 class
 txAOutputXMLEventHandler
@@ -895,6 +905,7 @@ nsIDOMDocument
 *
 aDocument
 )
+override
 ;
 /
 *
@@ -1064,6 +1075,7 @@ txAXMLEventHandler
 *
 aHandler
 )
+override
 ;
 \
 nsresult
@@ -1086,6 +1098,7 @@ txAXMLEventHandler
 *
 aHandler
 )
+override
 ;
 #
 endif

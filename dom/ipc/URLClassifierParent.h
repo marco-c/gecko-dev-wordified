@@ -192,6 +192,7 @@ nsACString
 &
 aFullHash
 )
+override
 {
 if
 (

@@ -1096,6 +1096,7 @@ SkPDFObjNumMap
 objNumMap
 )
 final
+override
 ;
 void
 addResources
@@ -2241,6 +2242,7 @@ SkPDFObjNumMap
 )
 const
 final
+override
 ;
 void
 drop

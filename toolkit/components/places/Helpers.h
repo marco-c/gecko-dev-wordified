@@ -1456,6 +1456,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+override
 ;
 private
 :
@@ -1528,6 +1529,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+override
 ;
 private
 :

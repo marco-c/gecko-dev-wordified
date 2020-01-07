@@ -1809,6 +1809,7 @@ OtherPid
 (
 )
 const
+override
 ;
 void
 SetOtherProcessId
@@ -1983,6 +1984,7 @@ Register
 IProtocol
 *
 )
+override
 ;
 virtual
 int32_t
@@ -1992,6 +1994,7 @@ IProtocol
 *
 int32_t
 )
+override
 ;
 virtual
 IProtocol
@@ -2000,6 +2003,7 @@ Lookup
 (
 int32_t
 )
+override
 ;
 virtual
 void
@@ -2007,6 +2011,7 @@ Unregister
 (
 int32_t
 )
+override
 ;
 virtual
 Shmem
@@ -2025,6 +2030,7 @@ bool
 int32_t
 *
 )
+override
 ;
 virtual
 Shmem
@@ -2036,6 +2042,7 @@ LookupSharedMemory
 (
 int32_t
 )
+override
 ;
 virtual
 bool
@@ -2047,6 +2054,7 @@ Shmem
 SharedMemory
 *
 )
+override
 ;
 virtual
 bool
@@ -2055,6 +2063,7 @@ DestroySharedMemory
 Shmem
 &
 )
+override
 ;
 void
 DeallocShmems
@@ -2522,6 +2531,7 @@ nsIEventTarget
 GetActorEventTarget
 (
 )
+override
 ;
 virtual
 void
@@ -2653,6 +2663,7 @@ nsIEventTarget
 *
 aEventTarget
 )
+override
 ;
 virtual
 void
@@ -2665,6 +2676,7 @@ nsIEventTarget
 *
 aEventTarget
 )
+override
 ;
 virtual
 already_AddRefed
@@ -2677,6 +2689,7 @@ IProtocol
 *
 aActor
 )
+override
 ;
 private
 :

@@ -32110,6 +32110,7 @@ size_t
 *
 length
 )
+override
 {
 RootedString
 str

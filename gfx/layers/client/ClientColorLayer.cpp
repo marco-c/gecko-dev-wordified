@@ -291,6 +291,7 @@ LayerIntRegion
 &
 aRegion
 )
+override
 {
 NS_ASSERTION
 (
@@ -327,6 +328,7 @@ void
 RenderLayer
 (
 )
+override
 {
 RenderMaskLayers
 (
@@ -342,6 +344,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
+override
 {
 aAttrs
 =
@@ -362,6 +365,7 @@ Layer
 AsLayer
 (
 )
+override
 {
 return
 this
@@ -373,6 +377,7 @@ ShadowableLayer
 AsShadowableLayer
 (
 )
+override
 {
 return
 this

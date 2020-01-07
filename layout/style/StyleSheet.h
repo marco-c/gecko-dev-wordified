@@ -1476,6 +1476,7 @@ JSObject
 aGivenProto
 )
 final
+override
 ;
 /
 /

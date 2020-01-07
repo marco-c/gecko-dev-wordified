@@ -3345,6 +3345,7 @@ nsINode
 aNode
 )
 const
+override
 {
 return
 true

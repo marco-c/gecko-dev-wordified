@@ -789,6 +789,7 @@ nsStandardURL
 StartClone
 (
 )
+override
 ;
 virtual
 MOZ_MUST_USE
@@ -796,6 +797,7 @@ nsresult
 EnsureFile
 (
 )
+override
 ;
 NS_IMETHOD
 GetClassIDNoAlloc
@@ -804,6 +806,7 @@ nsCID
 *
 aCID
 )
+override
 ;
 }
 ;

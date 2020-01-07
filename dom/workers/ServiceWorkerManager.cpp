@@ -8246,6 +8246,7 @@ ErrorResult
 &
 aStatus
 )
+override
 {
 AssertIsOnMainThread
 (
@@ -8326,6 +8327,7 @@ GetResult
 NS_INLINE_DECL_REFCOUNTING
 (
 UnregisterJobCallback
+override
 )
 }
 ;
@@ -14791,6 +14793,7 @@ ErrorResult
 &
 aStatus
 )
+override
 {
 AssertIsOnMainThread
 (
@@ -14880,6 +14883,7 @@ reg
 NS_INLINE_DECL_REFCOUNTING
 (
 UpdateJobCallback
+override
 )
 }
 ;

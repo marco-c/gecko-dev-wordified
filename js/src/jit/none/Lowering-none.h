@@ -671,6 +671,7 @@ MBox
 *
 box
 )
+override
 {
 MOZ_CRASH
 (
@@ -684,6 +685,7 @@ MUnbox
 *
 unbox
 )
+override
 {
 MOZ_CRASH
 (
@@ -697,6 +699,7 @@ MReturn
 *
 ret
 )
+override
 {
 MOZ_CRASH
 (
@@ -709,6 +712,7 @@ visitPowHalf
 MPowHalf
 *
 )
+override
 {
 MOZ_CRASH
 (
@@ -721,6 +725,7 @@ visitWasmNeg
 MWasmNeg
 *
 )
+override
 {
 MOZ_CRASH
 (
@@ -734,6 +739,7 @@ MGuardShape
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -747,6 +753,7 @@ MGuardObjectGroup
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -760,6 +767,7 @@ MWasmUnsignedToDouble
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -773,6 +781,7 @@ MWasmUnsignedToFloat32
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -786,6 +795,7 @@ MAsmJSLoadHeap
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -799,6 +809,7 @@ MAsmJSStoreHeap
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -812,6 +823,7 @@ MStoreTypedArrayElementStatic
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -825,6 +837,7 @@ MAtomicTypedArrayElementBinop
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -838,6 +851,7 @@ MCompareExchangeTypedArrayElement
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -851,6 +865,7 @@ MAtomicExchangeTypedArrayElement
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -864,6 +879,7 @@ MWasmCompareExchangeHeap
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -877,6 +893,7 @@ MWasmAtomicExchangeHeap
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -890,6 +907,7 @@ MWasmAtomicBinopHeap
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -902,6 +920,7 @@ visitWasmSelect
 MWasmSelect
 *
 )
+override
 {
 MOZ_CRASH
 (
@@ -915,6 +934,7 @@ MWasmBoundsCheck
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -928,6 +948,7 @@ MWasmLoad
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -941,6 +962,7 @@ MWasmStore
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -982,6 +1004,7 @@ MSimdSelect
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -995,6 +1018,7 @@ MSimdSplat
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -1008,6 +1032,7 @@ MSimdSwizzle
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -1021,6 +1046,7 @@ MSimdShuffle
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -1034,6 +1060,7 @@ MSimdValueX4
 *
 lir
 )
+override
 {
 MOZ_CRASH
 (
@@ -1046,6 +1073,7 @@ visitSubstr
 MSubstr
 *
 )
+override
 {
 MOZ_CRASH
 (
@@ -1064,6 +1092,7 @@ jit
 MSimdBinaryArith
 *
 )
+override
 {
 MOZ_CRASH
 (
@@ -1077,6 +1106,7 @@ MSimdBinarySaturating
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -1095,6 +1125,7 @@ jit
 MRandom
 *
 )
+override
 {
 MOZ_CRASH
 (
@@ -1113,6 +1144,7 @@ jit
 MCopySign
 *
 )
+override
 {
 MOZ_CRASH
 (
@@ -1125,6 +1157,7 @@ visitWasmTruncateToInt64
 MWasmTruncateToInt64
 *
 )
+override
 {
 MOZ_CRASH
 (
@@ -1137,6 +1170,7 @@ visitInt64ToFloatingPoint
 MInt64ToFloatingPoint
 *
 )
+override
 {
 MOZ_CRASH
 (
@@ -1150,6 +1184,7 @@ MExtendInt32ToInt64
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (
@@ -1163,6 +1198,7 @@ MSignExtendInt64
 *
 ins
 )
+override
 {
 MOZ_CRASH
 (

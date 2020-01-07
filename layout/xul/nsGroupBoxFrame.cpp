@@ -476,6 +476,7 @@ nsString
 aResult
 )
 const
+override
 {
 return
 MakeFrameName

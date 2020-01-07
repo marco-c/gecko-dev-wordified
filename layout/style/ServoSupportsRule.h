@@ -202,6 +202,7 @@ nsMediaQueryResultCacheKey
 aKey
 )
 final
+override
 ;
 #
 ifdef
@@ -221,6 +222,7 @@ aIndent
 )
 const
 final
+override
 ;
 #
 endif
@@ -248,6 +250,7 @@ aCssText
 )
 const
 final
+override
 ;
 void
 GetConditionText
@@ -257,6 +260,7 @@ nsAString
 aConditionText
 )
 final
+override
 ;
 void
 SetConditionText
@@ -270,6 +274,7 @@ ErrorResult
 aRv
 )
 final
+override
 ;
 size_t
 SizeOfIncludingThis

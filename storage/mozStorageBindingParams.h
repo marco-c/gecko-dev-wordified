@@ -638,6 +638,7 @@ nsIVariant
 *
 aValue
 )
+override
 ;
 NS_IMETHOD
 BindByIndex
@@ -648,6 +649,7 @@ nsIVariant
 *
 aValue
 )
+override
 ;
 virtual
 already_AddRefed
@@ -660,6 +662,7 @@ sqlite3_stmt
 *
 aStatement
 )
+override
 ;
 explicit
 AsyncBindingParams

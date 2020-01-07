@@ -13080,6 +13080,7 @@ ScrollFrameHelper
 *
 aObject
 )
+override
 {
 RemoveObject
 (

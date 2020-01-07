@@ -223,6 +223,7 @@ extraName
 (
 )
 const
+override
 {
 return
 StringFromMIRType
@@ -593,6 +594,7 @@ GenericPrinter
 &
 out
 )
+override
 ;
 /
 /
@@ -2467,6 +2469,7 @@ extraName
 (
 )
 const
+override
 {
 return
 MSimdBinaryComp
@@ -2730,6 +2733,7 @@ extraName
 (
 )
 const
+override
 {
 return
 MSimdBinaryArith
@@ -3020,6 +3024,7 @@ extraName
 (
 )
 const
+override
 {
 return
 MSimdBinarySaturating
@@ -3348,6 +3353,7 @@ extraName
 (
 )
 const
+override
 {
 return
 MSimdBinaryBitwise
@@ -3542,6 +3548,7 @@ extraName
 (
 )
 const
+override
 {
 return
 MSimdShift
@@ -4044,6 +4051,7 @@ extraName
 (
 )
 const
+override
 {
 return
 kind_
@@ -4768,6 +4776,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -5255,6 +5264,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -10941,6 +10951,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -11191,6 +11202,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -11406,6 +11418,7 @@ extraName
 (
 )
 const
+override
 {
 return
 CodeName
@@ -11516,6 +11529,7 @@ extraName
 (
 )
 const
+override
 {
 return
 CodeName
@@ -11695,6 +11709,7 @@ extraName
 (
 )
 const
+override
 {
 return
 CodeName
@@ -11912,6 +11927,7 @@ extraName
 (
 )
 const
+override
 {
 return
 CodeName
@@ -14442,6 +14458,7 @@ extraName
 (
 )
 const
+override
 {
 if
 (
@@ -14547,6 +14564,7 @@ extraName
 (
 )
 const
+override
 {
 return
 CodeName
@@ -14650,6 +14668,7 @@ extraName
 (
 )
 const
+override
 {
 return
 CodeName
@@ -14762,6 +14781,7 @@ extraName
 (
 )
 const
+override
 {
 return
 CodeName
@@ -14852,6 +14872,7 @@ extraName
 (
 )
 const
+override
 {
 return
 CodeName
@@ -15268,6 +15289,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -16881,6 +16903,7 @@ extraName
 (
 )
 const
+override
 {
 return
 MMathFunction
@@ -16980,6 +17003,7 @@ extraName
 (
 )
 const
+override
 {
 return
 MMathFunction
@@ -17045,6 +17069,7 @@ extraName
 (
 )
 const
+override
 {
 return
 snapshot
@@ -17064,6 +17089,7 @@ recoversInput
 (
 )
 const
+override
 {
 return
 recoversInput_
@@ -17177,6 +17203,7 @@ extraName
 (
 )
 const
+override
 {
 return
 snapshot
@@ -17196,6 +17223,7 @@ recoversInput
 (
 )
 const
+override
 {
 return
 recoversInput_
@@ -17389,6 +17417,7 @@ extraName
 (
 )
 const
+override
 {
 return
 CodeName
@@ -17461,6 +17490,7 @@ extraName
 (
 )
 const
+override
 {
 return
 CodeName
@@ -17540,6 +17570,7 @@ isCall
 (
 )
 const
+override
 {
 return
 true
@@ -17646,6 +17677,7 @@ extraName
 (
 )
 const
+override
 {
 return
 CodeName
@@ -19129,6 +19161,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mode
@@ -24371,6 +24404,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -24665,6 +24699,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -24853,6 +24888,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -25498,6 +25534,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -25679,6 +25716,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -26598,6 +26636,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -26744,6 +26783,7 @@ extraName
 (
 )
 const
+override
 {
 return
 mir
@@ -30451,6 +30491,7 @@ extraName
 (
 )
 const
+override
 {
 return
 PropertyNameToExtraName
@@ -30597,6 +30638,7 @@ extraName
 (
 )
 const
+override
 {
 return
 PropertyNameToExtraName
@@ -30928,6 +30970,7 @@ extraName
 (
 )
 const
+override
 {
 return
 StringFromMIRType
@@ -40468,6 +40511,7 @@ numDefs
 (
 )
 const
+override
 {
 return
 def_
@@ -40488,6 +40532,7 @@ getDef
 size_t
 index
 )
+override
 {
 MOZ_ASSERT
 (
@@ -40522,6 +40567,7 @@ LDefinition
 &
 def
 )
+override
 {
 MOZ_ASSERT
 (
@@ -40614,6 +40660,7 @@ numDefs
 (
 )
 const
+override
 {
 return
 INT64_PIECES
@@ -40626,6 +40673,7 @@ getDef
 size_t
 index
 )
+override
 {
 MOZ_ASSERT
 (
@@ -40654,6 +40702,7 @@ LDefinition
 &
 def
 )
+override
 {
 MOZ_ASSERT
 (

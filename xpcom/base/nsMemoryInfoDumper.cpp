@@ -2467,6 +2467,7 @@ char
 *
 aStr
 )
+override
 {
 /
 /

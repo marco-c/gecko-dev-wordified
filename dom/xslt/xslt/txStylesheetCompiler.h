@@ -346,6 +346,7 @@ txStylesheetCompiler
 *
 aCompiler
 )
+override
 ;
 \
 void
@@ -371,6 +372,7 @@ aParam
 =
 nullptr
 )
+override
 ;
 class
 txStylesheetCompilerState
@@ -1056,6 +1058,7 @@ TX_DECL_ACOMPILEOBSERVER
 NS_INLINE_DECL_REFCOUNTING
 (
 txStylesheetCompiler
+override
 )
 private
 :

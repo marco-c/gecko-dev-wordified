@@ -412,6 +412,7 @@ void
 OnDeviceChange
 (
 )
+override
 ;
 friend
 CamerasParent

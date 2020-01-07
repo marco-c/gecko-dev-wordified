@@ -2545,6 +2545,7 @@ GetDesktopToDeviceScale
 (
 )
 final
+override
 {
 return
 mozilla

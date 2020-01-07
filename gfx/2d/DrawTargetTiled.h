@@ -1204,6 +1204,7 @@ GetType
 (
 )
 const
+override
 {
 return
 SurfaceType
@@ -1218,6 +1219,7 @@ GetSize
 (
 )
 const
+override
 {
 MOZ_ASSERT
 (
@@ -1261,6 +1263,7 @@ GetFormat
 (
 )
 const
+override
 {
 return
 mSnapshots
@@ -1282,6 +1285,7 @@ DataSourceSurface
 GetDataSurface
 (
 )
+override
 {
 RefPtr
 <

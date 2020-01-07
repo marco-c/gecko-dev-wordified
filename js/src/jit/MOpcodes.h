@@ -1846,6 +1846,7 @@ M
 op
 *
 )
+override
 {
 MOZ_CRASH
 (
@@ -1906,6 +1907,7 @@ M
 op
 *
 )
+override
 {
 }
 MIR_OPCODE_LIST

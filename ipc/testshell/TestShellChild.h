@@ -138,6 +138,7 @@ nsString
 &
 aCommand
 )
+override
 ;
 PTestShellCommandChild
 *
@@ -148,6 +149,7 @@ nsString
 &
 aCommand
 )
+override
 ;
 mozilla
 :
@@ -166,6 +168,7 @@ nsString
 &
 aCommand
 )
+override
 ;
 bool
 DeallocPTestShellCommandChild
@@ -174,6 +177,7 @@ PTestShellCommandChild
 *
 aCommand
 )
+override
 ;
 private
 :

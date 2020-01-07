@@ -14932,6 +14932,7 @@ coarseType
 )
 const
 final
+override
 {
 return
 CoarseType
@@ -14960,6 +14961,7 @@ scriptFilename
 )
 const
 final
+override
 ;
 const
 char16_t

@@ -181,6 +181,7 @@ void
 ScheduleNativeEventCallback
 (
 )
+override
 ;
 virtual
 bool
@@ -189,6 +190,7 @@ ProcessNextNativeEvent
 bool
 mayWait
 )
+override
 ;
 private
 :

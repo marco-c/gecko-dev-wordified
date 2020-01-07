@@ -195,6 +195,7 @@ void
 *
 aObject
 )
+override
 {
 RefPtr
 <

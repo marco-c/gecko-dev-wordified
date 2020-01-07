@@ -664,6 +664,7 @@ aCloneOwningNode
 )
 const
 final
+override
 ;
 /
 /
@@ -681,6 +682,7 @@ nsresult
 aStatus
 )
 final
+override
 ;
 /
 /

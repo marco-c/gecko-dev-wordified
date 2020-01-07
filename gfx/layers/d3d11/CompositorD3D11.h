@@ -292,6 +292,7 @@ GetMaxTextureSize
 )
 const
 final
+override
 ;
 virtual
 void

@@ -285,6 +285,7 @@ int64_t
 &
 aClockDeltaMS
 )
+override
 ;
 /
 /
@@ -312,6 +313,7 @@ SystemTimezoneChangeInformation
 &
 aSystemTimezoneChangeInfo
 )
+override
 ;
 nsresult
 AddWindowListenerImpl

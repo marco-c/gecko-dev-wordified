@@ -530,6 +530,7 @@ nsCString
 &
 aOriginScope
 )
+override
 ;
 mozilla
 :
@@ -557,6 +558,7 @@ nsString
 &
 aValue
 )
+override
 ;
 mozilla
 :
@@ -580,6 +582,7 @@ nsresult
 &
 aRv
 )
+override
 ;
 mozilla
 :
@@ -598,6 +601,7 @@ nsCString
 &
 aOrigins
 )
+override
 ;
 mozilla
 :
@@ -617,6 +621,7 @@ int64_t
 &
 aUsage
 )
+override
 ;
 mozilla
 :
@@ -632,6 +637,7 @@ nsresult
 &
 aRv
 )
+override
 ;
 nsTHashtable
 <
@@ -946,6 +952,7 @@ Origin
 (
 )
 const
+override
 ;
 virtual
 const
@@ -955,6 +962,7 @@ OriginNoSuffix
 (
 )
 const
+override
 {
 return
 mOriginNoSuffix
@@ -968,6 +976,7 @@ OriginSuffix
 (
 )
 const
+override
 {
 return
 mOriginSuffix
@@ -978,6 +987,7 @@ bool
 Loaded
 (
 )
+override
 {
 return
 mLoaded
@@ -988,6 +998,7 @@ uint32_t
 LoadedCount
 (
 )
+override
 {
 return
 mLoadedCount
@@ -1006,6 +1017,7 @@ nsString
 &
 aValue
 )
+override
 ;
 virtual
 void
@@ -1014,12 +1026,14 @@ LoadDone
 nsresult
 aRv
 )
+override
 ;
 virtual
 void
 LoadWait
 (
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -1029,6 +1043,7 @@ Release
 (
 void
 )
+override
 ;
 private
 :
@@ -1124,6 +1139,7 @@ nsCString
 OriginScope
 (
 )
+override
 {
 return
 mOriginScope
@@ -1137,6 +1153,7 @@ const
 int64_t
 usage
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -1146,6 +1163,7 @@ Release
 (
 void
 )
+override
 ;
 private
 :

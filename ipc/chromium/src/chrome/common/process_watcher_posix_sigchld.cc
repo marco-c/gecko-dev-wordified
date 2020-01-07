@@ -331,9 +331,6 @@ StopCatching
 is
 implicit
 }
-/
-/
-override
 virtual
 void
 OnSignal
@@ -341,6 +338,7 @@ OnSignal
 int
 sig
 )
+override
 {
 DCHECK
 (
@@ -692,9 +690,6 @@ process_
 )
 ;
 }
-/
-/
-override
 virtual
 void
 OnSignal
@@ -702,6 +697,7 @@ OnSignal
 int
 sig
 )
+override
 {
 ChildReaper
 :
@@ -735,14 +731,12 @@ this
 ;
 }
 }
-/
-/
-override
 virtual
 void
 WillDestroyCurrentMessageLoop
 (
 )
+override
 {
 DCHECK
 (

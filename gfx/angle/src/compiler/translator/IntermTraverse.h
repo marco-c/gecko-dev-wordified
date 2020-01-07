@@ -1824,6 +1824,7 @@ TIntermBinary
 node
 )
 final
+override
 ;
 void
 traverseUnary
@@ -1833,6 +1834,7 @@ TIntermUnary
 node
 )
 final
+override
 ;
 void
 traverseFunctionPrototype
@@ -1842,6 +1844,7 @@ TIntermFunctionPrototype
 node
 )
 final
+override
 ;
 void
 traverseAggregate
@@ -1851,6 +1854,7 @@ TIntermAggregate
 node
 )
 final
+override
 ;
 protected
 :

@@ -564,6 +564,7 @@ drawBenchmark
 (
 )
 final
+override
 ;
 void
 overrideWorkaroundsD3D

@@ -940,6 +940,7 @@ char
 *
 aStr
 )
+override
 {
 mBuffer
 .

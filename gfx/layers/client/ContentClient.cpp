@@ -4232,6 +4232,7 @@ DataSourceSurface
 *
 aSourceSurface
 )
+override
 {
 SourceRotatedBuffer
 rotBuffer

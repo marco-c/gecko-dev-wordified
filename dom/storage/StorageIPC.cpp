@@ -3306,6 +3306,7 @@ Origin
 (
 )
 const
+override
 {
 return
 LocalStorageManager
@@ -3326,6 +3327,7 @@ OriginNoSuffix
 (
 )
 const
+override
 {
 return
 mOrigin
@@ -3339,6 +3341,7 @@ OriginSuffix
 (
 )
 const
+override
 {
 return
 mSuffix
@@ -3349,6 +3352,7 @@ bool
 Loaded
 (
 )
+override
 {
 return
 mLoaded
@@ -3359,6 +3363,7 @@ uint32_t
 LoadedCount
 (
 )
+override
 {
 return
 mLoadedCount
@@ -3377,6 +3382,7 @@ nsString
 &
 aValue
 )
+override
 {
 /
 /
@@ -3432,6 +3438,7 @@ LoadDone
 nsresult
 aRv
 )
+override
 {
 /
 /
@@ -3487,6 +3494,7 @@ void
 LoadWait
 (
 )
+override
 {
 /
 /

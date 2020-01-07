@@ -216,6 +216,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 ScaledFontBase
+override
 )
 ScaledFontBase
 (
@@ -252,6 +253,7 @@ DrawTarget
 *
 aTarget
 )
+override
 ;
 virtual
 void
@@ -269,6 +271,7 @@ Matrix
 *
 aTransformHint
 )
+override
 ;
 virtual
 void
@@ -284,6 +287,7 @@ GlyphMetrics
 *
 aGlyphMetrics
 )
+override
 ;
 virtual
 Float
@@ -291,6 +295,7 @@ GetSize
 (
 )
 const
+override
 {
 return
 mSize
@@ -329,6 +334,7 @@ GetType
 (
 )
 const
+override
 {
 return
 FontType
@@ -351,6 +357,7 @@ cairo_scaled_font_t
 GetCairoScaledFont
 (
 )
+override
 {
 return
 mScaledFont
@@ -364,6 +371,7 @@ cairo_scaled_font_t
 *
 font
 )
+override
 ;
 #
 endif

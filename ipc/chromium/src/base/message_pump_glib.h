@@ -473,6 +473,7 @@ Delegate
 *
 delegate
 )
+override
 {
 RunWithDispatcher
 (
@@ -486,12 +487,14 @@ void
 Quit
 (
 )
+override
 ;
 virtual
 void
 ScheduleWork
 (
 )
+override
 ;
 virtual
 void
@@ -502,6 +505,7 @@ TimeTicks
 &
 delayed_work_time
 )
+override
 ;
 /
 /

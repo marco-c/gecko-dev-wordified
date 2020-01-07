@@ -2310,6 +2310,7 @@ bool
 strictMode
 (
 )
+override
 {
 return
 pc

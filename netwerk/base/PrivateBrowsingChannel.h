@@ -215,6 +215,7 @@ SetPrivate
 bool
 aPrivate
 )
+override
 {
 /
 /
@@ -302,6 +303,7 @@ bool
 *
 aResult
 )
+override
 {
 NS_ENSURE_ARG_POINTER
 (
@@ -327,6 +329,7 @@ bool
 *
 aResult
 )
+override
 {
 NS_ENSURE_ARG_POINTER
 (

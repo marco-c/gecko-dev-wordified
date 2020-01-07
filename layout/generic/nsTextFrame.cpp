@@ -22001,12 +22001,14 @@ Spacing
 aSpacing
 )
 const
+override
 ;
 gfxFloat
 GetHyphenWidth
 (
 )
 const
+override
 ;
 void
 GetHyphenationBreaks
@@ -22018,12 +22020,14 @@ HyphenType
 aBreakBefore
 )
 const
+override
 ;
 StyleHyphens
 GetHyphensOption
 (
 )
 const
+override
 {
 return
 mTextStyle
@@ -22040,6 +22044,7 @@ GetDrawTarget
 (
 )
 const
+override
 {
 return
 CreateReferenceDrawTarget
@@ -22055,6 +22060,7 @@ GetAppUnitsPerDevUnit
 (
 )
 const
+override
 {
 return
 mTextRun

@@ -3342,6 +3342,7 @@ histogram_type
 (
 )
 const
+override
 ;
 virtual
 void
@@ -3354,6 +3355,7 @@ count
 size_t
 index
 )
+override
 ;
 /
 /
@@ -3400,6 +3402,7 @@ descriptions
 [
 ]
 )
+override
 ;
 protected
 :
@@ -3433,6 +3436,7 @@ size_t
 i
 )
 const
+override
 ;
 /
 /
@@ -3473,6 +3477,7 @@ size_t
 i
 )
 const
+override
 ;
 /
 /
@@ -3508,6 +3513,7 @@ size_t
 index
 )
 const
+override
 ;
 private
 :
@@ -3687,6 +3693,7 @@ histogram_type
 (
 )
 const
+override
 ;
 virtual
 void
@@ -3695,6 +3702,7 @@ AddBoolean
 bool
 value
 )
+override
 ;
 virtual
 void
@@ -3707,6 +3715,7 @@ count
 size_t
 index
 )
+override
 ;
 protected
 :
@@ -3846,6 +3855,7 @@ histogram_type
 (
 )
 const
+override
 ;
 virtual
 void
@@ -3858,6 +3868,7 @@ count
 size_t
 index
 )
+override
 ;
 virtual
 void
@@ -3868,12 +3879,14 @@ SampleSet
 &
 sample
 )
+override
 ;
 virtual
 void
 Clear
 (
 )
+override
 ;
 private
 :
@@ -3930,6 +3943,7 @@ histogram_type
 (
 )
 const
+override
 ;
 virtual
 void
@@ -3942,6 +3956,7 @@ count
 size_t
 index
 )
+override
 ;
 virtual
 void
@@ -3952,6 +3967,7 @@ SampleSet
 &
 sample
 )
+override
 ;
 private
 :

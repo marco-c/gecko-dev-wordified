@@ -251,6 +251,7 @@ nsAString
 &
 _retval
 )
+override
 ;
 /
 /

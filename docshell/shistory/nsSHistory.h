@@ -313,6 +313,7 @@ nsSHEntryShared
 *
 aObj
 )
+override
 {
 RemoveObject
 (

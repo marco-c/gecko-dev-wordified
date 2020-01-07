@@ -2305,6 +2305,7 @@ StyleSetHandle
 aStyleSet
 )
 final
+override
 ;
 virtual
 void

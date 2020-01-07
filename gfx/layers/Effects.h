@@ -595,6 +595,7 @@ TexturedEffect
 AsTexturedEffect
 (
 )
+override
 {
 return
 this
@@ -625,6 +626,7 @@ char
 *
 aPrefix
 )
+override
 ;
 gfx
 :
@@ -715,6 +717,7 @@ char
 *
 aPrefix
 )
+override
 ;
 TextureSource
 *
@@ -792,6 +795,7 @@ char
 *
 aPrefix
 )
+override
 ;
 gfx
 :
@@ -856,6 +860,7 @@ char
 Name
 (
 )
+override
 {
 return
 "
@@ -878,6 +883,7 @@ char
 *
 aPrefix
 )
+override
 ;
 RefPtr
 <
@@ -987,6 +993,7 @@ char
 *
 aPrefix
 )
+override
 ;
 const
 gfx
@@ -1040,6 +1047,7 @@ char
 Name
 (
 )
+override
 {
 return
 "
@@ -1098,6 +1106,7 @@ char
 Name
 (
 )
+override
 {
 return
 "
@@ -1150,6 +1159,7 @@ char
 Name
 (
 )
+override
 {
 return
 "
@@ -1207,6 +1217,7 @@ char
 Name
 (
 )
+override
 {
 return
 "
@@ -1270,6 +1281,7 @@ char
 *
 aPrefix
 )
+override
 ;
 gfx
 :

@@ -234,6 +234,7 @@ uint8_t
 &
 aRegBuffer
 )
+override
 ;
 mozilla
 :
@@ -263,6 +264,7 @@ uint8_t
 &
 aBuffer
 )
+override
 ;
 mozilla
 :
@@ -282,6 +284,7 @@ nsresult
 &
 aError
 )
+override
 ;
 void
 ActorDestroy
@@ -289,6 +292,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+override
 ;
 void
 Disconnect

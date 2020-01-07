@@ -1227,6 +1227,7 @@ bool
 *
 _retval
 )
+override
 ;
 NS_IMETHOD
 GetDefaultDescription
@@ -1235,6 +1236,7 @@ nsAString
 &
 aDefaultDescription
 )
+override
 ;
 /
 /
@@ -1333,6 +1335,7 @@ nsIFile
 *
 aFile
 )
+override
 ;
 /
 *
@@ -1369,6 +1372,7 @@ nsIURI
 *
 aURI
 )
+override
 =
 0
 ;

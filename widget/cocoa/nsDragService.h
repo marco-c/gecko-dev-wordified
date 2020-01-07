@@ -186,6 +186,7 @@ aRegion
 uint32_t
 aActionType
 )
+override
 ;
 /
 /
@@ -198,6 +199,7 @@ aDoneDrag
 uint32_t
 aKeyModifiers
 )
+override
 ;
 NS_IMETHOD
 UpdateDragImage
@@ -210,6 +212,7 @@ aImageX
 int32_t
 aImageY
 )
+override
 ;
 /
 /
@@ -223,6 +226,7 @@ aTransferable
 uint32_t
 aItemIndex
 )
+override
 ;
 NS_IMETHOD
 IsDataFlavorSupported
@@ -235,6 +239,7 @@ bool
 *
 _retval
 )
+override
 ;
 NS_IMETHOD
 GetNumDropItems
@@ -243,6 +248,7 @@ uint32_t
 *
 aNumItems
 )
+override
 ;
 void
 DragMovedWithView

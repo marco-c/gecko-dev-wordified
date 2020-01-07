@@ -1796,6 +1796,7 @@ bool
 aParserCreated
 )
 const
+override
 ;
 bool
 visit
@@ -1805,6 +1806,7 @@ nsCSPSrcVisitor
 aVisitor
 )
 const
+override
 ;
 void
 toString
@@ -1814,6 +1816,7 @@ nsAString
 outStr
 )
 const
+override
 ;
 inline
 void
@@ -1918,6 +1921,7 @@ bool
 aParserCreated
 )
 const
+override
 ;
 bool
 visit
@@ -1927,6 +1931,7 @@ nsCSPSrcVisitor
 aVisitor
 )
 const
+override
 ;
 void
 toString
@@ -1936,6 +1941,7 @@ nsAString
 outStr
 )
 const
+override
 ;
 void
 setScheme
@@ -2173,6 +2179,7 @@ bool
 aParserCreated
 )
 const
+override
 ;
 bool
 permits
@@ -2194,6 +2201,7 @@ bool
 aParserCreated
 )
 const
+override
 ;
 bool
 visit
@@ -2203,6 +2211,7 @@ nsCSPSrcVisitor
 aVisitor
 )
 const
+override
 ;
 void
 toString
@@ -2212,6 +2221,7 @@ nsAString
 outStr
 )
 const
+override
 ;
 inline
 CSPKeyword
@@ -2231,6 +2241,7 @@ invalidate
 (
 )
 const
+override
 {
 /
 /
@@ -2340,6 +2351,7 @@ bool
 aParserCreated
 )
 const
+override
 ;
 bool
 allows
@@ -2355,6 +2367,7 @@ bool
 aParserCreated
 )
 const
+override
 ;
 bool
 visit
@@ -2364,6 +2377,7 @@ nsCSPSrcVisitor
 aVisitor
 )
 const
+override
 ;
 void
 toString
@@ -2373,6 +2387,7 @@ nsAString
 outStr
 )
 const
+override
 ;
 inline
 void
@@ -2399,6 +2414,7 @@ invalidate
 (
 )
 const
+override
 {
 /
 /
@@ -2511,6 +2527,7 @@ bool
 aParserCreated
 )
 const
+override
 ;
 void
 toString
@@ -2520,6 +2537,7 @@ nsAString
 outStr
 )
 const
+override
 ;
 bool
 visit
@@ -2529,6 +2547,7 @@ nsCSPSrcVisitor
 aVisitor
 )
 const
+override
 ;
 inline
 void
@@ -2574,6 +2593,7 @@ invalidate
 (
 )
 const
+override
 {
 /
 /
@@ -2679,6 +2699,7 @@ nsCSPSrcVisitor
 aVisitor
 )
 const
+override
 ;
 void
 toString
@@ -2688,6 +2709,7 @@ nsAString
 outStr
 )
 const
+override
 ;
 private
 :
@@ -2768,6 +2790,7 @@ nsCSPSrcVisitor
 aVisitor
 )
 const
+override
 ;
 void
 toString
@@ -2777,6 +2800,7 @@ nsAString
 outStr
 )
 const
+override
 ;
 private
 :
@@ -3245,6 +3269,7 @@ nsContentPolicyType
 aContentType
 )
 const
+override
 ;
 virtual
 bool
@@ -3254,6 +3279,7 @@ CSPDirective
 aDirective
 )
 const
+override
 ;
 private
 :
@@ -3381,6 +3407,7 @@ nsContentPolicyType
 aContentType
 )
 const
+override
 ;
 virtual
 bool
@@ -3390,6 +3417,7 @@ CSPDirective
 aDirective
 )
 const
+override
 ;
 private
 :
@@ -3461,6 +3489,7 @@ bool
 aParserCreated
 )
 const
+override
 {
 return
 false
@@ -3493,6 +3522,7 @@ bool
 aParserCreated
 )
 const
+override
 {
 return
 false
@@ -3506,6 +3536,7 @@ nsAString
 outStr
 )
 const
+override
 ;
 void
 addSrcs
@@ -3519,6 +3550,7 @@ nsCSPBaseSrc
 &
 aSrcs
 )
+override
 {
 MOZ_ASSERT
 (
@@ -3797,6 +3829,7 @@ bool
 aParserCreated
 )
 const
+override
 {
 return
 false
@@ -3829,6 +3862,7 @@ bool
 aParserCreated
 )
 const
+override
 {
 return
 false
@@ -3842,6 +3876,7 @@ nsAString
 outStr
 )
 const
+override
 ;
 void
 addSrcs
@@ -3855,6 +3890,7 @@ nsCSPBaseSrc
 &
 aSrcs
 )
+override
 {
 MOZ_ASSERT
 (
@@ -3939,6 +3975,7 @@ nsAString
 outStr
 )
 const
+override
 ;
 void
 addType
@@ -3970,6 +4007,7 @@ nsContentPolicyType
 aType
 )
 const
+override
 ;
 bool
 allows
@@ -3985,6 +4023,7 @@ bool
 aParserCreated
 )
 const
+override
 ;
 private
 :

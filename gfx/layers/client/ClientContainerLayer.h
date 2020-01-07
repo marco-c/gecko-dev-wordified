@@ -930,6 +930,7 @@ Layer
 AsLayer
 (
 )
+override
 {
 return
 this
@@ -941,6 +942,7 @@ ShadowableLayer
 AsShadowableLayer
 (
 )
+override
 {
 return
 this
@@ -951,6 +953,7 @@ void
 RenderLayer
 (
 )
+override
 {
 }
 virtual
@@ -965,6 +968,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
+override
 {
 DefaultComputeEffectiveTransforms
 (

@@ -916,6 +916,7 @@ JS
 MutableHandleObject
 objp
 )
+override
 ;
 bool
 Wrap
@@ -935,6 +936,7 @@ CpowEntry
 *
 outCpows
 )
+override
 ;
 protected
 :

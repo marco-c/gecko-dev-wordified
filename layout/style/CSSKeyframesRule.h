@@ -183,6 +183,7 @@ GetType
 )
 const
 final
+override
 {
 return
 Rule
@@ -201,6 +202,7 @@ Type
 )
 const
 final
+override
 {
 return
 CSSRuleBinding
@@ -290,6 +292,7 @@ nsMediaQueryResultCacheKey
 aKey
 )
 final
+override
 ;
 size_t
 SizeOfIncludingThis
@@ -320,6 +323,7 @@ JSObject
 aGivenProto
 )
 final
+override
 ;
 }
 ;

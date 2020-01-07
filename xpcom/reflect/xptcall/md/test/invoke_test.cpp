@@ -209,6 +209,7 @@ NS_IMETHOD
 ignored
 (
 )
+override
 ;
 NS_IMETHOD
 callme1
@@ -218,6 +219,7 @@ i
 int
 j
 )
+override
 ;
 NS_IMETHOD
 callme2
@@ -227,6 +229,7 @@ i
 int
 j
 )
+override
 ;
 NS_IMETHOD
 callme3
@@ -236,6 +239,7 @@ i
 int
 j
 )
+override
 ;
 }
 ;
@@ -253,21 +257,25 @@ NS_IMETHOD
 ignored
 (
 )
+override
 ;
 NS_IMETHOD
 callme1
 (
 )
+override
 ;
 NS_IMETHOD
 callme2
 (
 )
+override
 ;
 NS_IMETHOD
 callme3
 (
 )
+override
 ;
 void
 setfoo

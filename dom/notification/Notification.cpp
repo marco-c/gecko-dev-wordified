@@ -649,6 +649,7 @@ nsAString
 aServiceWorkerRegistrationScope
 )
 final
+override
 {
 AssertIsOnMainThread
 (
@@ -849,6 +850,7 @@ Done
 (
 )
 final
+override
 {
 ErrorResult
 result
@@ -7720,6 +7722,7 @@ char
 *
 aStr
 )
+override
 {
 mBuffer
 .
@@ -10334,6 +10337,7 @@ Done
 (
 )
 final
+override
 {
 AssertIsOnMainThread
 (

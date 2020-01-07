@@ -1374,6 +1374,7 @@ wantsUntrusted
 uint8_t
 _argc
 )
+override
 {
 \
 return
@@ -1407,6 +1408,7 @@ aWantsUntrusted
 uint8_t
 _argc
 )
+override
 {
 \
 return
@@ -1436,6 +1438,7 @@ listener
 bool
 useCapture
 )
+override
 {
 \
 return
@@ -1463,6 +1466,7 @@ listener
 bool
 aUseCapture
 )
+override
 {
 \
 return
@@ -1487,6 +1491,7 @@ bool
 *
 _retval
 )
+override
 {
 \
 return

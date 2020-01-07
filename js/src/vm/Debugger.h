@@ -1149,6 +1149,7 @@ void
 sweep
 (
 )
+override
 {
 MOZ_ASSERT
 (

@@ -151,6 +151,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 ScaledFontCairo
+override
 )
 ScaledFontCairo
 (
@@ -186,6 +187,7 @@ SkTypeface
 GetSkTypeface
 (
 )
+override
 ;
 #
 endif

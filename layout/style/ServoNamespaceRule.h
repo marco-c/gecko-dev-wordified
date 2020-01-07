@@ -200,6 +200,7 @@ aIndent
 )
 const
 final
+override
 ;
 #
 endif
@@ -212,6 +213,7 @@ Clone
 )
 const
 final
+override
 ;
 nsAtom
 *
@@ -220,6 +222,7 @@ GetPrefix
 )
 const
 final
+override
 ;
 void
 GetURLSpec
@@ -230,6 +233,7 @@ aURLSpec
 )
 const
 final
+override
 ;
 /
 /
@@ -244,6 +248,7 @@ aCssText
 )
 const
 final
+override
 ;
 size_t
 SizeOfIncludingThis
@@ -253,6 +258,7 @@ aMallocSizeOf
 )
 const
 final
+override
 ;
 private
 :

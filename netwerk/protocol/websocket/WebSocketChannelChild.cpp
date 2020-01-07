@@ -802,6 +802,7 @@ void
 Run
 (
 )
+override
 {
 if
 (
@@ -843,6 +844,7 @@ nsIEventTarget
 GetEventTarget
 (
 )
+override
 {
 nsCOMPtr
 <
@@ -944,6 +946,7 @@ void
 Run
 (
 )
+override
 {
 mChild
 -
@@ -964,6 +967,7 @@ nsIEventTarget
 GetEventTarget
 (
 )
+override
 {
 return
 do_AddRef
@@ -1222,6 +1226,7 @@ void
 Run
 (
 )
+override
 {
 mChild
 -
@@ -1239,6 +1244,7 @@ nsIEventTarget
 GetEventTarget
 (
 )
+override
 {
 return
 do_AddRef
@@ -1451,6 +1457,7 @@ void
 Run
 (
 )
+override
 {
 if
 (
@@ -1486,6 +1493,7 @@ nsIEventTarget
 GetEventTarget
 (
 )
+override
 {
 return
 do_AddRef
@@ -1851,6 +1859,7 @@ void
 Run
 (
 )
+override
 {
 mChild
 -
@@ -1868,6 +1877,7 @@ nsIEventTarget
 GetEventTarget
 (
 )
+override
 {
 return
 do_AddRef
@@ -2083,6 +2093,7 @@ void
 Run
 (
 )
+override
 {
 mChild
 -
@@ -2101,6 +2112,7 @@ nsIEventTarget
 GetEventTarget
 (
 )
+override
 {
 return
 do_AddRef

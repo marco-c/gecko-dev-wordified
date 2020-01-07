@@ -131,12 +131,14 @@ NativeInit
 (
 )
 final
+override
 ;
 virtual
 void
 RefreshImpl
 (
 )
+override
 ;
 virtual
 nsresult
@@ -148,6 +150,7 @@ nscolor
 &
 aResult
 )
+override
 ;
 virtual
 nsresult
@@ -159,6 +162,7 @@ int32_t
 &
 aResult
 )
+override
 ;
 virtual
 nsresult
@@ -170,6 +174,7 @@ float
 &
 aResult
 )
+override
 ;
 virtual
 bool
@@ -186,12 +191,14 @@ aFontStyle
 float
 aDevPixPerCSSPixel
 )
+override
 ;
 virtual
 char16_t
 GetPasswordCharacterImpl
 (
 )
+override
 {
 /
 /
@@ -224,6 +231,7 @@ LookAndFeelInt
 GetIntCacheImpl
 (
 )
+override
 ;
 virtual
 void
@@ -237,6 +245,7 @@ LookAndFeelInt
 &
 aLookAndFeelIntCache
 )
+override
 ;
 protected
 :

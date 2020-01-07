@@ -2012,6 +2012,7 @@ LWasmCall
 *
 ins
 )
+override
 {
 emitWasmCallBase
 (
@@ -2026,6 +2027,7 @@ LWasmCallI64
 *
 ins
 )
+override
 {
 emitWasmCallBase
 (
@@ -2040,6 +2042,7 @@ LWasmLoadGlobalVar
 *
 ins
 )
+override
 ;
 void
 visitWasmStoreGlobalVar
@@ -2048,6 +2051,7 @@ LWasmStoreGlobalVar
 *
 ins
 )
+override
 ;
 void
 visitWasmLoadGlobalVarI64
@@ -2056,6 +2060,7 @@ LWasmLoadGlobalVarI64
 *
 ins
 )
+override
 ;
 void
 visitWasmStoreGlobalVarI64
@@ -2064,6 +2069,7 @@ LWasmStoreGlobalVarI64
 *
 ins
 )
+override
 ;
 void
 emitPreBarrier
@@ -3892,6 +3898,7 @@ CodeGeneratorShared
 *
 codegen
 )
+override
 {
 accept
 (
@@ -4729,6 +4736,7 @@ CodeGeneratorShared
 *
 codegen
 )
+override
 {
 codegen
 -
@@ -5132,6 +5140,7 @@ CodeGeneratorShared
 *
 codegen
 )
+override
 {
 codegen
 -

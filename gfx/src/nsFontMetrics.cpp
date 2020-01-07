@@ -617,6 +617,7 @@ HyphenType
 aBreakBefore
 )
 const
+override
 {
 NS_ERROR
 (
@@ -644,6 +645,7 @@ GetHyphensOption
 (
 )
 const
+override
 {
 NS_ERROR
 (
@@ -677,6 +679,7 @@ GetHyphenWidth
 (
 )
 const
+override
 {
 NS_ERROR
 (
@@ -713,6 +716,7 @@ GetDrawTarget
 (
 )
 const
+override
 {
 NS_ERROR
 (
@@ -740,6 +744,7 @@ GetAppUnitsPerDevUnit
 (
 )
 const
+override
 {
 NS_ERROR
 (
@@ -775,6 +780,7 @@ Spacing
 aSpacing
 )
 const
+override
 {
 NS_ERROR
 (

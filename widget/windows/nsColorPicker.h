@@ -250,6 +250,7 @@ nsIColorPickerShownCallback
 *
 aCallback
 )
+override
 ;
 private
 :

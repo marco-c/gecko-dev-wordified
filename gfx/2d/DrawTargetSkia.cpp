@@ -466,6 +466,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 GradientStopsSkia
+override
 )
 GradientStopsSkia
 (
@@ -740,6 +741,7 @@ GetBackendType
 (
 )
 const
+override
 {
 return
 BackendType

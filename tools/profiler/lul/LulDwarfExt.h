@@ -11064,6 +11064,7 @@ augmentation
 unsigned
 return_address
 )
+override
 ;
 virtual
 bool
@@ -11074,6 +11075,7 @@ address
 int
 reg
 )
+override
 ;
 virtual
 bool
@@ -11084,6 +11086,7 @@ address
 int
 reg
 )
+override
 ;
 virtual
 bool
@@ -11098,6 +11101,7 @@ base_register
 long
 offset
 )
+override
 ;
 virtual
 bool
@@ -11112,6 +11116,7 @@ base_register
 long
 offset
 )
+override
 ;
 virtual
 bool
@@ -11124,6 +11129,7 @@ reg
 int
 base_register
 )
+override
 ;
 virtual
 bool
@@ -11141,6 +11147,7 @@ string
 &
 expression
 )
+override
 ;
 virtual
 bool
@@ -11158,12 +11165,14 @@ string
 &
 expression
 )
+override
 ;
 virtual
 bool
 End
 (
 )
+override
 ;
 private
 :

@@ -1303,6 +1303,7 @@ name
 (
 )
 const
+override
 ;
 const
 char
@@ -1311,6 +1312,7 @@ expiration
 (
 )
 const
+override
 ;
 }
 ;
@@ -2222,6 +2224,7 @@ nsIVariant
 aValue
 )
 final
+override
 ;
 void
 SetValue
@@ -2230,6 +2233,7 @@ uint32_t
 aValue
 )
 final
+override
 ;
 ScalarResult
 AddValue
@@ -2239,6 +2243,7 @@ nsIVariant
 aValue
 )
 final
+override
 ;
 void
 AddValue
@@ -2247,6 +2252,7 @@ uint32_t
 aValue
 )
 final
+override
 ;
 ScalarResult
 SetMaximum
@@ -2256,6 +2262,7 @@ nsIVariant
 aValue
 )
 final
+override
 ;
 void
 SetMaximum
@@ -2264,6 +2271,7 @@ uint32_t
 aValue
 )
 final
+override
 ;
 nsresult
 GetValue
@@ -2277,6 +2285,7 @@ aResult
 )
 const
 final
+override
 ;
 size_t
 SizeOfIncludingThis
@@ -2289,6 +2298,7 @@ aMallocSizeOf
 )
 const
 final
+override
 ;
 private
 :
@@ -2887,6 +2897,7 @@ nsIVariant
 aValue
 )
 final
+override
 ;
 ScalarResult
 SetValue
@@ -2897,6 +2908,7 @@ nsAString
 aValue
 )
 final
+override
 ;
 nsresult
 GetValue
@@ -2910,6 +2922,7 @@ aResult
 )
 const
 final
+override
 ;
 size_t
 SizeOfIncludingThis
@@ -2922,6 +2935,7 @@ aMallocSizeOf
 )
 const
 final
+override
 ;
 private
 :
@@ -3326,6 +3340,7 @@ nsIVariant
 aValue
 )
 final
+override
 ;
 void
 SetValue
@@ -3334,6 +3349,7 @@ bool
 aValue
 )
 final
+override
 ;
 nsresult
 GetValue
@@ -3347,6 +3363,7 @@ aResult
 )
 const
 final
+override
 ;
 size_t
 SizeOfIncludingThis
@@ -3359,6 +3376,7 @@ aMallocSizeOf
 )
 const
 final
+override
 ;
 private
 :

@@ -4109,6 +4109,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 PathBuilder
+override
 )
 /
 *
@@ -8953,6 +8954,7 @@ IsCaptureDT
 (
 )
 const
+override
 {
 return
 true

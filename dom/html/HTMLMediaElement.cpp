@@ -2085,6 +2085,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 =
 0
 ;
@@ -29678,6 +29679,7 @@ DOMMediaStream
 *
 aStream
 )
+override
 {
 NS_ASSERTION
 (

@@ -631,6 +631,7 @@ Debugger
 debugger
 )
 const
+override
 {
 USE
 (
@@ -720,6 +721,7 @@ IsRegister
 (
 )
 const
+override
 {
 return
 true
@@ -731,6 +733,7 @@ CanAddressMemory
 (
 )
 const
+override
 {
 return
 value
@@ -752,6 +755,7 @@ Debugger
 debugger
 )
 const
+override
 ;
 virtual
 void
@@ -764,6 +768,7 @@ out
 stdout
 )
 const
+override
 ;
 const
 char
@@ -912,6 +917,7 @@ IsFPRegister
 (
 )
 const
+override
 {
 return
 true
@@ -928,6 +934,7 @@ out
 stdout
 )
 const
+override
 ;
 static
 Token
@@ -1059,6 +1066,7 @@ IsIdentifier
 (
 )
 const
+override
 {
 return
 true
@@ -1070,6 +1078,7 @@ CanAddressMemory
 (
 )
 const
+override
 {
 return
 strcmp
@@ -1096,6 +1105,7 @@ Debugger
 debugger
 )
 const
+override
 ;
 virtual
 void
@@ -1108,6 +1118,7 @@ out
 stdout
 )
 const
+override
 ;
 static
 Token
@@ -1212,6 +1223,7 @@ IsAddress
 (
 )
 const
+override
 {
 return
 true
@@ -1223,6 +1235,7 @@ CanAddressMemory
 (
 )
 const
+override
 {
 return
 true
@@ -1238,6 +1251,7 @@ Debugger
 debugger
 )
 const
+override
 ;
 virtual
 void
@@ -1250,6 +1264,7 @@ out
 stdout
 )
 const
+override
 ;
 static
 Token
@@ -1343,6 +1358,7 @@ IsInteger
 (
 )
 const
+override
 {
 return
 true
@@ -1359,6 +1375,7 @@ out
 stdout
 )
 const
+override
 ;
 static
 Token
@@ -1515,6 +1532,7 @@ IsFormat
 (
 )
 const
+override
 {
 return
 true
@@ -1566,6 +1584,7 @@ out
 stdout
 )
 const
+override
 =
 0
 ;
@@ -1579,6 +1598,7 @@ Debugger
 debugger
 )
 const
+override
 {
 USE
 (
@@ -1673,6 +1693,7 @@ SizeOf
 (
 )
 const
+override
 {
 return
 sizeof
@@ -1687,6 +1708,7 @@ type_code
 (
 )
 const
+override
 {
 return
 type_code_
@@ -1706,6 +1728,7 @@ out
 stdout
 )
 const
+override
 {
 T
 value
@@ -1740,6 +1763,7 @@ out
 stdout
 )
 const
+override
 ;
 private
 :
@@ -1834,6 +1858,7 @@ Debugger
 debugger
 )
 const
+override
 {
 USE
 (
@@ -1851,6 +1876,7 @@ IsUnknown
 (
 )
 const
+override
 {
 return
 true
@@ -1867,6 +1893,7 @@ out
 stdout
 )
 const
+override
 ;
 private
 :
@@ -2113,6 +2140,7 @@ Debugger
 *
 debugger
 )
+override
 ;
 static
 DebugCommand
@@ -2177,6 +2205,7 @@ Debugger
 *
 debugger
 )
+override
 ;
 static
 DebugCommand
@@ -2273,6 +2302,7 @@ Debugger
 *
 debugger
 )
+override
 ;
 virtual
 void
@@ -2284,6 +2314,7 @@ out
 =
 stdout
 )
+override
 ;
 static
 DebugCommand
@@ -2445,6 +2476,7 @@ Debugger
 *
 debugger
 )
+override
 ;
 virtual
 void
@@ -2456,6 +2488,7 @@ out
 =
 stdout
 )
+override
 ;
 static
 DebugCommand
@@ -2602,6 +2635,7 @@ Debugger
 *
 debugger
 )
+override
 ;
 virtual
 void
@@ -2613,6 +2647,7 @@ out
 =
 stdout
 )
+override
 ;
 static
 DebugCommand
@@ -2715,6 +2750,7 @@ Debugger
 *
 debugger
 )
+override
 ;
 private
 :
@@ -2791,6 +2827,7 @@ Debugger
 *
 debugger
 )
+override
 ;
 private
 :

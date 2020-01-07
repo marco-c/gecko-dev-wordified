@@ -577,6 +577,7 @@ nsIntRegion
 &
 aOldValidRegionBack
 )
+override
 =
 0
 ;
@@ -667,6 +668,7 @@ ContentHost
 AsContentHost
 (
 )
+override
 {
 return
 this
@@ -1344,6 +1346,7 @@ CompositableType
 GetType
 (
 )
+override
 {
 return
 CompositableType
@@ -1369,6 +1372,7 @@ nsIntRegion
 &
 aOldValidRegionBack
 )
+override
 ;
 protected
 :
@@ -1444,6 +1448,7 @@ CompositableType
 GetType
 (
 )
+override
 {
 return
 CompositableType
@@ -1469,6 +1474,7 @@ nsIntRegion
 &
 aOldValidRegionBack
 )
+override
 ;
 }
 ;

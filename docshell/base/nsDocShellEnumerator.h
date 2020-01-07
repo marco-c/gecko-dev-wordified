@@ -452,6 +452,7 @@ nsWeakPtr
 &
 aItemArray
 )
+override
 ;
 }
 ;
@@ -489,6 +490,7 @@ nsWeakPtr
 &
 aItemArray
 )
+override
 ;
 }
 ;

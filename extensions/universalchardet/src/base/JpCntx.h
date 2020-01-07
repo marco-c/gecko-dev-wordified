@@ -456,6 +456,7 @@ uint32_t
 *
 charLen
 )
+override
 ;
 int32_t
 GetOrder
@@ -465,6 +466,7 @@ char
 *
 str
 )
+override
 {
 /
 /
@@ -574,6 +576,7 @@ uint32_t
 *
 charLen
 )
+override
 ;
 int32_t
 GetOrder
@@ -583,6 +586,7 @@ char
 *
 str
 )
+override
 /
 /
 We

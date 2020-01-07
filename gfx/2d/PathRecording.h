@@ -211,6 +211,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 PathBuilderRecording
+override
 )
 PathBuilderRecording
 (
@@ -277,6 +278,7 @@ Point
 &
 aPoint
 )
+override
 ;
 /
 *
@@ -298,6 +300,7 @@ Point
 &
 aPoint
 )
+override
 ;
 /
 *
@@ -329,6 +332,7 @@ Point
 &
 aCP3
 )
+override
 ;
 /
 *
@@ -356,6 +360,7 @@ Point
 &
 aCP2
 )
+override
 ;
 /
 *
@@ -390,6 +395,7 @@ void
 Close
 (
 )
+override
 ;
 /
 *
@@ -419,6 +425,7 @@ aEndAngle
 bool
 aAntiClockwise
 )
+override
 {
 ArcToBezier
 (
@@ -467,6 +474,7 @@ CurrentPoint
 (
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -476,6 +484,7 @@ Path
 Finish
 (
 )
+override
 ;
 virtual
 BackendType
@@ -483,6 +492,7 @@ GetBackendType
 (
 )
 const
+override
 {
 return
 BackendType
@@ -528,6 +538,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 PathRecording
+override
 )
 PathRecording
 (
@@ -572,6 +583,7 @@ GetBackendType
 (
 )
 const
+override
 {
 return
 BackendType
@@ -591,6 +603,7 @@ FillRule
 aFillRule
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -607,6 +620,7 @@ FillRule
 aFillRule
 )
 const
+override
 ;
 virtual
 bool
@@ -622,6 +636,7 @@ Matrix
 aTransform
 )
 const
+override
 {
 return
 mPath
@@ -652,6 +667,7 @@ Matrix
 aTransform
 )
 const
+override
 {
 return
 mPath
@@ -679,6 +695,7 @@ Matrix
 )
 )
 const
+override
 {
 return
 mPath
@@ -708,6 +725,7 @@ Matrix
 )
 )
 const
+override
 {
 return
 mPath
@@ -729,6 +747,7 @@ PathSink
 aSink
 )
 const
+override
 {
 mPath
 -
@@ -745,6 +764,7 @@ GetFillRule
 (
 )
 const
+override
 {
 return
 mFillRule

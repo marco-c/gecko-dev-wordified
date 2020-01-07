@@ -8454,6 +8454,7 @@ getKey
 (
 )
 const
+override
 {
 return
 static_cast
@@ -8808,6 +8809,7 @@ getKey
 (
 )
 const
+override
 {
 return
 static_cast
@@ -9756,6 +9758,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -9830,6 +9833,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -9898,6 +9902,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -9973,6 +9978,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 MOZ_ASSERT
 (
@@ -10066,6 +10072,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -10101,6 +10108,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -10188,6 +10196,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -10223,6 +10232,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -10285,6 +10295,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -10315,6 +10326,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -10475,6 +10487,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -10507,6 +10520,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -10597,6 +10611,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 /
 /
@@ -10624,6 +10639,7 @@ getKey
 (
 )
 const
+override
 {
 return
 static_cast
@@ -10716,6 +10732,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -10778,6 +10795,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -10810,6 +10828,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -10889,6 +10908,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 virtual
 int32_t
@@ -10896,6 +10916,7 @@ getKey
 (
 )
 const
+override
 {
 return
 static_cast
@@ -10969,6 +10990,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -11031,6 +11053,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -11065,6 +11088,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -11192,6 +11216,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 virtual
 int32_t
@@ -11199,6 +11224,7 @@ getKey
 (
 )
 const
+override
 {
 return
 static_cast
@@ -11350,6 +11376,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -11431,6 +11458,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 virtual
 int32_t
@@ -11438,6 +11466,7 @@ getKey
 (
 )
 const
+override
 {
 return
 static_cast
@@ -11527,6 +11556,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -11636,6 +11666,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -11668,6 +11699,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -11729,6 +11761,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -11763,6 +11796,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -11824,6 +11858,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -11858,6 +11893,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -12004,6 +12040,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -12036,6 +12073,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -12108,6 +12146,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -12142,6 +12181,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -12206,6 +12246,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -12240,6 +12281,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -12318,6 +12360,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 bool
 lhsIsUndefined
@@ -12359,6 +12402,7 @@ getKey
 (
 )
 const
+override
 {
 return
 static_cast
@@ -12417,6 +12461,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -12482,6 +12527,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -12516,6 +12562,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -12580,6 +12627,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -12614,6 +12662,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -12678,6 +12727,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -12712,6 +12762,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -12776,6 +12827,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -12810,6 +12862,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -12874,6 +12927,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 bool
 lhsIsUndefined
@@ -12924,6 +12978,7 @@ getKey
 (
 )
 const
+override
 {
 return
 static_cast
@@ -12995,6 +13050,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -13088,6 +13144,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 virtual
 int32_t
@@ -13095,6 +13152,7 @@ getKey
 (
 )
 const
+override
 {
 return
 static_cast
@@ -13187,6 +13245,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -13400,6 +13459,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 void
 postGenerateStubCode
@@ -13414,6 +13474,7 @@ JitCode
 >
 code
 )
+override
 ;
 virtual
 int32_t
@@ -13421,6 +13482,7 @@ getKey
 (
 )
 const
+override
 {
 return
 static_cast
@@ -13497,6 +13559,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -13758,6 +13821,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -13797,6 +13861,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub
@@ -13935,6 +14000,7 @@ MacroAssembler
 &
 masm
 )
+override
 ;
 public
 :
@@ -13967,6 +14033,7 @@ ICStubSpace
 *
 space
 )
+override
 {
 return
 newStub

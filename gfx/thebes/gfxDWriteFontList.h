@@ -320,6 +320,7 @@ aFontInfoData
 nullptr
 )
 final
+override
 ;
 void
 LocalizedName
@@ -329,6 +330,7 @@ nsAString
 aLocalizedName
 )
 final
+override
 ;
 void
 ReadFaceNames
@@ -345,6 +347,7 @@ aFontInfoData
 nullptr
 )
 final
+override
 ;
 void
 SetForceGDIClassic
@@ -372,6 +375,7 @@ aSizes
 )
 const
 final
+override
 ;
 void
 AddSizeOfIncludingThis
@@ -387,6 +391,7 @@ aSizes
 )
 const
 final
+override
 ;
 bool
 FilterForFontList
@@ -401,6 +406,7 @@ aGeneric
 )
 const
 final
+override
 {
 return
 !

@@ -178,6 +178,7 @@ ResumeNative
 (
 void
 )
+override
 ;
 nsAppShell
 (
@@ -193,12 +194,14 @@ Run
 (
 void
 )
+override
 ;
 NS_IMETHOD
 Exit
 (
 void
 )
+override
 ;
 /
 /

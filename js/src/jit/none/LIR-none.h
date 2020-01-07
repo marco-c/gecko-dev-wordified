@@ -372,6 +372,7 @@ extraName
 (
 )
 const
+override
 {
 MOZ_CRASH
 (
