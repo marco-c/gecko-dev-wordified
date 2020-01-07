@@ -7142,12 +7142,6 @@ MapIterator
 SetIterator
 Arguments
 Error
-#
-ifdef
-ENABLE_BIGINT
-BigInt
-#
-endif
 /
 *
 *

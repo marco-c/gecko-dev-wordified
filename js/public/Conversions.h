@@ -934,7 +934,6 @@ slow
 path
 handles
 strings
-BigInts
 and
 objects
 .
