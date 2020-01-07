@@ -746,13 +746,6 @@ h
 #
 include
 "
-nsEditorSpellCheck
-.
-h
-"
-#
-include
-"
 nsWindowMemoryReporter
 .
 h
