@@ -1744,6 +1744,16 @@ pytest_mozlog
 plugin
 '
             
+'
+-
+p
+'
+'
+no
+:
+cacheprovider
+'
+            
 module
 .
 __file__
