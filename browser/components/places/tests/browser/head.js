@@ -425,8 +425,9 @@ function
 (
 )
 {
-resolve
+executeSoon
 (
+resolve
 )
 ;
 }
@@ -2756,8 +2757,9 @@ function
 (
 )
 {
-resolve
+executeSoon
 (
+resolve
 )
 ;
 }
