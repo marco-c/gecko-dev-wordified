@@ -4046,6 +4046,7 @@ char16_t
 else
 {
 static
+const
 char
 bulletCharArray
 [
