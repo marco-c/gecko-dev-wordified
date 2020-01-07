@@ -10076,6 +10076,11 @@ of
 /
 memory
 .
+MOZ_DIAGNOSTIC_ASSERT
+(
+false
+)
+;
 ReportOutOfMemory
 (
 cx
@@ -10285,6 +10290,11 @@ out
 of
 memory
 .
+MOZ_DIAGNOSTIC_ASSERT
+(
+false
+)
+;
 ReportOutOfMemory
 (
 cx
