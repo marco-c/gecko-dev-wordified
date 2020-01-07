@@ -136,9 +136,6 @@ h
 class
 CheckResponsivenessTask
 ;
-class
-nsIEventTarget
-;
 /
 /
 This
@@ -160,11 +157,6 @@ public
 explicit
 ThreadResponsiveness
 (
-nsIEventTarget
-*
-aThread
-bool
-aIsMainThread
 )
 ;
 ~
