@@ -1547,6 +1547,10 @@ if
 createData
 .
 titlePreface
+!
+=
+=
+null
 )
 {
 win
@@ -1774,6 +1778,10 @@ if
 updateInfo
 .
 titlePreface
+!
+=
+=
+null
 )
 {
 win
