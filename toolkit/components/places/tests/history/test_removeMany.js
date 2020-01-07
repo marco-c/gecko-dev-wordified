@@ -663,9 +663,9 @@ onEndUpdateBatch
 )
 {
 }
-onVisit
+onVisits
 (
-aURI
+aVisits
 )
 {
 Assert
@@ -677,12 +677,12 @@ false
 Unexpected
 call
 to
-onVisit
+onVisits
 "
 +
-aURI
+aVisits
 .
-spec
+length
 )
 ;
 }

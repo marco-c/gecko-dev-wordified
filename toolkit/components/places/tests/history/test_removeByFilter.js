@@ -2361,9 +2361,8 @@ onEndUpdateBatch
 )
 {
 }
-onVisit
+onVisits
 (
-aUri
 )
 {
 reject
@@ -2375,7 +2374,7 @@ Error
 Unexpected
 call
 to
-onVisit
+onVisits
 "
 )
 )

@@ -4830,7 +4830,7 @@ onEndUpdateBatch
 )
 {
 }
-onVisit
+onVisits
 (
 )
 {

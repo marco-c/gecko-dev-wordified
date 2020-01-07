@@ -564,7 +564,7 @@ onClearHistory
 )
 {
 }
-onVisit
+onVisits
 (
 )
 {

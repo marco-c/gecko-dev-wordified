@@ -353,7 +353,7 @@ function
 )
 {
 }
-onVisit
+onVisits
 :
 function
 (
