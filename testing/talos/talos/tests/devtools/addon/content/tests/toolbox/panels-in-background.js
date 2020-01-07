@@ -316,6 +316,8 @@ count
 {
 panelWin
 .
+api
+.
 off
 (
 EVENTS
@@ -331,6 +333,8 @@ resolve
 }
 }
 panelWin
+.
+api
 .
 on
 (

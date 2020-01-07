@@ -276,6 +276,12 @@ app
 ;
 window
 .
+api
+=
+api
+;
+window
+.
 store
 =
 app
