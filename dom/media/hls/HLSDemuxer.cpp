@@ -610,6 +610,11 @@ rv
 )
 )
 ;
+Unused
+<
+<
+rv
+;
 }
 void
 OnError
@@ -730,6 +735,11 @@ NS_SUCCEEDED
 rv
 )
 )
+;
+Unused
+<
+<
+rv
 ;
 }
 void
@@ -4116,6 +4126,11 @@ NS_SUCCEEDED
 rv
 )
 )
+;
+Unused
+<
+<
+rv
 ;
 }
 HLSTrackDemuxer

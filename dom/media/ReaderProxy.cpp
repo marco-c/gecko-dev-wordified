@@ -1354,6 +1354,11 @@ rv
 )
 )
 ;
+Unused
+<
+<
+rv
+;
 }
 void
 ReaderProxy
@@ -1428,6 +1433,11 @@ NS_SUCCEEDED
 rv
 )
 )
+;
+Unused
+<
+<
+rv
 ;
 }
 RefPtr
@@ -1695,6 +1705,11 @@ rv
 )
 )
 ;
+Unused
+<
+<
+rv
+;
 }
 void
 ReaderProxy
@@ -1851,6 +1866,11 @@ NS_SUCCEEDED
 rv
 )
 )
+;
+Unused
+<
+<
+rv
 ;
 }
 void
