@@ -1086,6 +1086,17 @@ symbols_path
 )
 :
                 
+sym_path
+=
+self
+.
+browser_config
+[
+'
+symbols_path
+'
+]
+                
 symbolicator
 .
 options
@@ -1100,14 +1111,7 @@ FIREFOX
 "
 ]
 =
-self
-.
-browser_config
-[
-'
-symbols_path
-'
-]
+sym_path
                 
 self
 .
