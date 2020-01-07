@@ -457,7 +457,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -486,7 +486,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -520,7 +520,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -574,7 +574,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -669,7 +669,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -726,7 +726,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -3012,7 +3012,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -3056,7 +3056,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -3128,7 +3128,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -3324,7 +3324,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -3538,7 +3538,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -3589,7 +3589,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -3672,7 +3672,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -3900,7 +3900,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -5131,7 +5131,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -5176,10 +5176,7 @@ Deserializer
 SeqDeserializer
 <
 <
-Vec
-<
-T
->
+Self
 as
 IntoIterator
 >
@@ -5228,7 +5225,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -5277,10 +5274,7 @@ Deserializer
 SeqDeserializer
 <
 <
-BTreeSet
-<
-T
->
+Self
 as
 IntoIterator
 >
@@ -5331,6 +5325,7 @@ impl
 '
 de
 T
+S
 E
 >
 IntoDeserializer
@@ -5343,6 +5338,7 @@ for
 HashSet
 <
 T
+S
 >
 where
 T
@@ -5357,6 +5353,9 @@ E
 Eq
 +
 Hash
+S
+:
+BuildHasher
 E
 :
 de
@@ -5370,10 +5369,7 @@ Deserializer
 SeqDeserializer
 <
 <
-HashSet
-<
-T
->
+Self
 as
 IntoIterator
 >
@@ -8159,7 +8155,7 @@ std
 feature
 =
 "
-collections
+alloc
 "
 )
 )
@@ -8220,11 +8216,7 @@ MapDeserializer
 '
 de
 <
-BTreeMap
-<
-K
-V
->
+Self
 as
 IntoIterator
 >
@@ -8276,6 +8268,7 @@ impl
 de
 K
 V
+S
 E
 >
 IntoDeserializer
@@ -8289,6 +8282,7 @@ HashMap
 <
 K
 V
+S
 >
 where
 K
@@ -8311,6 +8305,9 @@ IntoDeserializer
 de
 E
 >
+S
+:
+BuildHasher
 E
 :
 de
@@ -8326,11 +8323,7 @@ MapDeserializer
 '
 de
 <
-HashMap
-<
-K
-V
->
+Self
 as
 IntoIterator
 >

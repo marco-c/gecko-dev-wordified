@@ -11,7 +11,7 @@ euclid
 :
 :
 {
-Radians
+Angle
 TypedRect
 TypedSize2D
 TypedTransform3D
@@ -511,10 +511,10 @@ sqrt
 sqrt
 (
 )
-Radians
+Angle
 :
 :
-new
+radians
 (
 5
 .
