@@ -2337,7 +2337,7 @@ aValue
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsComputedDOMStyle
 :
 :
