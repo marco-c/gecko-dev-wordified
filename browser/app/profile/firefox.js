@@ -3442,7 +3442,7 @@ schedulePressure
 .
 timeoutMs
 "
-1000
+300
 )
 ;
 /
