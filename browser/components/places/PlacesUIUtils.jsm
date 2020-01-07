@@ -10167,9 +10167,7 @@ item
 )
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
