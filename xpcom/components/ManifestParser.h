@@ -168,10 +168,6 @@ char
 aBuf
 bool
 aChromeOnly
-bool
-aXPTOnly
-=
-false
 )
 ;
 void
