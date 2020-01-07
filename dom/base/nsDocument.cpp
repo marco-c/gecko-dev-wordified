@@ -27100,7 +27100,7 @@ ClearAssociatedDocument
 }
 nsIGlobalObject
 *
-nsDocument
+nsIDocument
 :
 :
 GetScopeObject
@@ -27125,7 +27125,7 @@ scope
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 SetScopeObject
@@ -29024,7 +29024,7 @@ true
 }
 nsIScriptGlobalObject
 *
-nsDocument
+nsIDocument
 :
 :
 GetScriptHandlingObjectInternal
@@ -29136,7 +29136,7 @@ scriptHandlingObject
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 SetScriptHandlingObject
@@ -29182,7 +29182,7 @@ false
 }
 nsPIDOMWindowOuter
 *
-nsDocument
+nsIDocument
 :
 :
 GetWindowInternal
