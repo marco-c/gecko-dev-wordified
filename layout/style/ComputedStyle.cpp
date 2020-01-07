@@ -2707,7 +2707,6 @@ FILE
 out
 int32_t
 aIndent
-bool
 )
 {
 nsAutoCString
