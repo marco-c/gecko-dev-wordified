@@ -4347,8 +4347,11 @@ ipc
 IPCResult
 RecvAddPerformanceMetrics
 (
-const
+nsTArray
+<
 PerformanceInfo
+>
+&
 &
 aMetrics
 )
