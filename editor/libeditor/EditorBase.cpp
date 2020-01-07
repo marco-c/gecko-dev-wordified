@@ -29437,7 +29437,7 @@ mSelectionController
 ;
 }
 ;
-nsresult
+NS_IMETHODIMP
 EditorBase
 :
 :
