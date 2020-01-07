@@ -992,7 +992,7 @@ resized
 ;
 inspector
 .
-splitBox
+_splitter
 .
 setState
 (
