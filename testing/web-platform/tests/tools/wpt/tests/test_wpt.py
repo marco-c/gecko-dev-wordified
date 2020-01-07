@@ -1801,11 +1801,32 @@ it
 returns
 something
 sensible
+.
+    
+#
+The
+test
+will
+fail
+if
+the
+file
+we
+assert
+is
+renamed
+so
+we
+choose
+a
+stable
+one
+.
     
 commit
 =
 "
-9047ac1d9f51b1e9faa4f9fad9c47d109609ab09
+3a055e818218f548db240c316654f3cc1aeeb733
 "
     
 with
@@ -1875,19 +1896,11 @@ readouterr
     
 assert
 "
-html
+infrastructure
 /
-browsers
-/
-offline
-/
-appcache
-/
-workers
-/
-appcache
+reftest
 -
-worker
+wait
 .
 html
 "
