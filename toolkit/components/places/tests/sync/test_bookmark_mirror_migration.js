@@ -51,7 +51,8 @@ test_migrate_from_1_to_2
 let
 dbFile
 =
-do_get_file
+await
+setupFixtureFile
 (
 "
 mirror_v1
@@ -158,7 +159,8 @@ test_database_corrupt
 let
 corruptFile
 =
-do_get_file
+await
+setupFixtureFile
 (
 "
 mirror_corrupt
@@ -265,7 +267,8 @@ test_database_readonly
 let
 dbFile
 =
-do_get_file
+await
+setupFixtureFile
 (
 "
 mirror_v1
