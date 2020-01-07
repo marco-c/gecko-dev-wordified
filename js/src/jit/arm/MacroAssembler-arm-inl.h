@@ -1866,6 +1866,12 @@ offset
 m_buffer
 )
 ;
+iter
+.
+maybeSkipAutomaticInstructions
+(
+)
+;
 ma_mov_patch
 (
 imm
