@@ -628,7 +628,7 @@ the
 return
 value
 .
-DOMUtils
+InspectorUtils
 .
 cssPropertyIsShorthand
 (
