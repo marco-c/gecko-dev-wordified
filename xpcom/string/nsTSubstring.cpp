@@ -117,7 +117,13 @@ MPL
 #
 include
 "
-nsASCIIMask
+double
+-
+conversion
+/
+double
+-
+conversion
 .
 h
 "
@@ -135,9 +141,7 @@ include
 "
 mozilla
 /
-double
--
-conversion
+MathAlgorithms
 .
 h
 "
@@ -162,9 +166,7 @@ h
 #
 include
 "
-mozilla
-/
-MathAlgorithms
+nsASCIIMask
 .
 h
 "
