@@ -1273,7 +1273,7 @@ GetDesiredIMEState
 if
 (
 !
-IsEditableInternal
+IsEditable
 (
 )
 )
@@ -1585,7 +1585,7 @@ nullptr
 if
 (
 !
-IsEditableInternal
+IsEditable
 (
 )
 )
