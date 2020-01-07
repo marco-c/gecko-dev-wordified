@@ -2366,7 +2366,7 @@ AutoSyncLoopHolder
 syncLoop
 (
 workerPrivate
-Closing
+Terminating
 )
 ;
 nsCOMPtr
