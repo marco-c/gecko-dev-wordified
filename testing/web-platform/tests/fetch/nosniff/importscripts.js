@@ -113,6 +113,16 @@ x
 /
 x
 "
+"
+text
+/
+html
+"
+"
+text
+/
+json
+"
 ]
 .
 forEach
