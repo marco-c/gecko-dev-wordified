@@ -108,6 +108,14 @@ partials
 import
 get_balrog_platform_name
 get_partials_artifacts
+from
+taskgraph
+.
+util
+.
+taskcluster
+import
+get_artifact_prefix
 import
 logging
 logger
@@ -126,6 +134,7 @@ TransformSequence
 def
 generate_upstream_artifacts
 (
+job
 release_history
 platform
 locale
@@ -136,11 +145,10 @@ None
     
 artifact_prefix
 =
-'
-public
-/
-build
-'
+get_artifact_prefix
+(
+job
+)
     
 if
 locale
@@ -149,9 +157,8 @@ locale
 artifact_prefix
 =
 '
-public
-/
-build
+{
+}
 /
 {
 }
@@ -159,6 +166,7 @@ build
 .
 format
 (
+artifact_prefix
 locale
 )
     
@@ -583,6 +591,7 @@ upstream_artifacts
 generate_upstream_artifacts
 (
             
+dep_job
 config
 .
 params
