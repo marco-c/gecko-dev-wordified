@@ -3805,9 +3805,6 @@ Natives
 ;
 }
 ;
-#
-ifdef
-MOZ_NATIVE_DEVICES
 class
 PresentationMediaPlayerManager
 :
@@ -4312,11 +4309,6 @@ Natives
 ;
 }
 ;
-#
-endif
-/
-/
-MOZ_NATIVE_DEVICES
 class
 Telemetry
 :
