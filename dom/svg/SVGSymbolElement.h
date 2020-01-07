@@ -267,16 +267,6 @@ aPreallocateChildren
 const
 override
 ;
-/
-/
-SVGTests
-bool
-IsInChromeDoc
-(
-)
-const
-override
-;
 }
 ;
 }

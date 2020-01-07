@@ -534,14 +534,6 @@ rv
 /
 /
 SVGTests
-virtual
-bool
-IsInChromeDoc
-(
-)
-const
-override
-;
 nsSVGElement
 *
 AsSVGElement
