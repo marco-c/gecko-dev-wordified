@@ -20749,7 +20749,7 @@ el
 ;
 }
 nsresult
-nsDocument
+nsIDocument
 :
 :
 NodesFromRectHelper
