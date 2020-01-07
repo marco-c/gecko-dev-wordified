@@ -2869,7 +2869,7 @@ triggeringPrincipal
 :
 Services
 .
-scriptSecurityManger
+scriptSecurityManager
 .
 createNullPrincipal
 (
