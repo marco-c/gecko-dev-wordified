@@ -1511,11 +1511,10 @@ CheckBidiLevelForDeletion
 Selection
 *
 aSelection
-nsINode
-*
-aSelNode
-int32_t
-aSelOffset
+const
+EditorRawDOMPoint
+&
+aSelectionPoint
 nsIEditor
 :
 :
