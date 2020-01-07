@@ -2323,13 +2323,6 @@ case
 ACTION_ADD
 :
 await
-new
-Promise
-(
-resolve
-=
->
-{
 BrowserTabs
 .
 Add
@@ -2337,10 +2330,6 @@ Add
 tab
 .
 uri
-resolve
-)
-;
-}
 )
 ;
 break
