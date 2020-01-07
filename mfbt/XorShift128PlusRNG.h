@@ -553,6 +553,7 @@ number
 .
 *
 /
+MOZ_NO_SANITIZE_UNSIGNED_OVERFLOW
 uint64_t
 next
 (
