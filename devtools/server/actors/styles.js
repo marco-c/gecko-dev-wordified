@@ -4666,7 +4666,7 @@ i
 {
 if
 (
-DOMUtils
+InspectorUtils
 .
 selectorMatchesElement
 (
