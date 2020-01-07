@@ -4906,10 +4906,10 @@ GetSplittableType
 const
 override
 ;
-virtual
 nsPoint
 GetPositionOfChildIgnoringScrolling
 (
+const
 nsIFrame
 *
 aChild
@@ -7147,10 +7147,10 @@ GetSplittableType
 const
 override
 ;
-virtual
 nsPoint
 GetPositionOfChildIgnoringScrolling
 (
+const
 nsIFrame
 *
 aChild
