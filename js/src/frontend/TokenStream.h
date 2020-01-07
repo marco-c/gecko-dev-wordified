@@ -5615,7 +5615,6 @@ options
 (
 )
 const
-override
 final
 {
 return
@@ -5636,7 +5635,6 @@ uint32_t
 column
 )
 const
-override
 final
 ;
 virtual
@@ -5651,7 +5649,6 @@ uint32_t
 column
 )
 const
-override
 final
 ;
 virtual
@@ -5660,7 +5657,6 @@ hasTokenizationStarted
 (
 )
 const
-override
 final
 ;
 virtual
@@ -5672,7 +5668,6 @@ errorNumber
 va_list
 args
 )
-override
 final
 ;
 virtual
@@ -5683,7 +5678,6 @@ getFilename
 (
 )
 const
-override
 final
 {
 return

@@ -551,7 +551,6 @@ JSObject
 >
 aGivenProto
 )
-override
 final
 ;
 virtual

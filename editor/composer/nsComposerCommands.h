@@ -576,7 +576,6 @@ nsICommandParams
 *
 aParams
 )
-override
 final
 ;
 /
@@ -597,7 +596,6 @@ HTMLEditor
 *
 aHTMLEditor
 )
-override
 final
 ;
 }
@@ -688,7 +686,6 @@ nsICommandParams
 *
 aParams
 )
-override
 final
 ;
 /
@@ -709,7 +706,6 @@ HTMLEditor
 *
 aHTMLEditor
 )
-override
 final
 ;
 }
@@ -764,7 +760,6 @@ nsICommandParams
 *
 aParams
 )
-override
 final
 ;
 /
@@ -785,7 +780,6 @@ HTMLEditor
 *
 aHTMLEditor
 )
-override
 final
 ;
 }
@@ -901,7 +895,6 @@ nsICommandParams
 *
 aParams
 )
-override
 final
 ;
 virtual
@@ -918,7 +911,6 @@ nsString
 &
 newState
 )
-override
 final
 ;
 }
@@ -952,7 +944,6 @@ nsICommandParams
 *
 aParams
 )
-override
 final
 ;
 virtual
@@ -969,7 +960,6 @@ nsString
 &
 newState
 )
-override
 final
 ;
 }
@@ -1003,7 +993,6 @@ nsICommandParams
 *
 aParams
 )
-override
 final
 ;
 virtual
@@ -1020,7 +1009,6 @@ nsString
 &
 newState
 )
-override
 final
 ;
 }
@@ -1054,7 +1042,6 @@ bool
 *
 _retval
 )
-override
 final
 ;
 virtual
@@ -1071,7 +1058,6 @@ nsICommandParams
 *
 aParams
 )
-override
 final
 ;
 virtual
@@ -1088,7 +1074,6 @@ nsString
 &
 newState
 )
-override
 final
 ;
 }
@@ -1122,7 +1107,6 @@ nsICommandParams
 *
 aParams
 )
-override
 final
 ;
 virtual
@@ -1139,7 +1123,6 @@ nsString
 &
 newState
 )
-override
 final
 ;
 }
@@ -1173,7 +1156,6 @@ nsICommandParams
 *
 aParams
 )
-override
 final
 ;
 virtual
@@ -1190,7 +1172,6 @@ nsString
 &
 newState
 )
-override
 final
 ;
 }
@@ -1224,7 +1205,6 @@ nsICommandParams
 *
 aParams
 )
-override
 final
 ;
 virtual
@@ -1241,7 +1221,6 @@ nsString
 &
 newState
 )
-override
 final
 ;
 }
@@ -1275,7 +1254,6 @@ bool
 *
 _retval
 )
-override
 final
 ;
 virtual
@@ -1292,7 +1270,6 @@ nsICommandParams
 *
 aParams
 )
-override
 final
 ;
 virtual
@@ -1306,7 +1283,6 @@ HTMLEditor
 *
 aHTMLEditor
 )
-override
 final
 ;
 }

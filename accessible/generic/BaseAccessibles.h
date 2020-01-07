@@ -228,7 +228,6 @@ Accessible
 *
 aChild
 )
-override
 final
 ;
 virtual
@@ -239,7 +238,6 @@ Accessible
 *
 aChild
 )
-override
 final
 ;
 virtual
@@ -626,7 +624,6 @@ uint64_t
 NativeState
 (
 )
-override
 final
 ;
 virtual
@@ -635,7 +632,6 @@ NativeInteractiveState
 (
 )
 const
-override
 final
 ;
 virtual
@@ -644,7 +640,6 @@ NativeLinkState
 (
 )
 const
-override
 final
 ;
 virtual
@@ -653,7 +648,6 @@ NativelyUnavailable
 (
 )
 const
-override
 final
 ;
 virtual
@@ -665,7 +659,6 @@ uint64_t
 aState
 )
 const
-override
 final
 ;
 protected

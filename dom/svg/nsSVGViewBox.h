@@ -741,7 +741,6 @@ X
 (
 )
 const
-override
 final
 {
 return
@@ -760,7 +759,6 @@ Y
 (
 )
 const
-override
 final
 {
 return
@@ -779,7 +777,6 @@ Width
 (
 )
 const
-override
 final
 {
 return
@@ -798,7 +795,6 @@ Height
 (
 )
 const
-override
 final
 {
 return
@@ -989,7 +985,6 @@ X
 (
 )
 const
-override
 final
 {
 mSVGElement
@@ -1015,7 +1010,6 @@ Y
 (
 )
 const
-override
 final
 {
 mSVGElement
@@ -1041,7 +1035,6 @@ Width
 (
 )
 const
-override
 final
 {
 mSVGElement
@@ -1067,7 +1060,6 @@ Height
 (
 )
 const
-override
 final
 {
 mSVGElement

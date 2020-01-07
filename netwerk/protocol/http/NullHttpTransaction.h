@@ -268,7 +268,6 @@ bool
 IsNullTransaction
 (
 )
-override
 final
 {
 return
@@ -280,7 +279,6 @@ NullHttpTransaction
 QueryNullTransaction
 (
 )
-override
 final
 {
 return
@@ -292,7 +290,6 @@ ResponseTimeoutEnabled
 (
 )
 const
-override
 final
 {
 return
@@ -303,7 +300,6 @@ PRIntervalTime
 ResponseTimeout
 (
 )
-override
 final
 {
 return

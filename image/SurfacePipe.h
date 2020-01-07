@@ -5181,7 +5181,6 @@ SurfaceInvalidRect
 TakeInvalidRect
 (
 )
-override
 final
 ;
 protected
@@ -5191,7 +5190,6 @@ uint8_t
 DoResetToFirstRow
 (
 )
-override
 final
 ;
 uint8_t
@@ -5199,7 +5197,6 @@ uint8_t
 DoAdvanceRow
 (
 )
-override
 final
 ;
 virtual

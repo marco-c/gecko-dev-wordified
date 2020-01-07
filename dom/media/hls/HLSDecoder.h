@@ -330,7 +330,6 @@ bool
 CanPlayThroughImpl
 (
 )
-override
 final
 {
 /

@@ -2175,7 +2175,6 @@ JSObject
 >
 aGivenProto
 )
-override
 final
 ;
 DocGroup

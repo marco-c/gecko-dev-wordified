@@ -1926,7 +1926,6 @@ aReason
 bool
 aIsFullscreen
 )
-override
 final
 ;
 virtual
@@ -1936,7 +1935,6 @@ FullscreenWillChange
 bool
 aIsFullscreen
 )
-override
 final
 ;
 virtual
@@ -1946,7 +1944,6 @@ FinishFullscreenChange
 bool
 aIsFullscreen
 )
-override
 final
 ;
 bool

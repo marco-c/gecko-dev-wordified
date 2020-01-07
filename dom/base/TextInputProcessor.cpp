@@ -549,7 +549,6 @@ nsACString
 &
 aType
 )
-override
 final
 {
 aType
@@ -584,7 +583,6 @@ uint32_t
 *
 aOffset
 )
-override
 final
 {
 if
@@ -656,7 +654,6 @@ nsAString
 &
 aText
 )
-override
 final
 {
 if
@@ -689,7 +686,6 @@ bool
 *
 aCollapsed
 )
-override
 final
 {
 if
@@ -736,7 +732,6 @@ uint32_t
 *
 aLength
 )
-override
 final
 {
 if
@@ -783,7 +778,6 @@ bool
 *
 aReversed
 )
-override
 final
 {
 if
@@ -828,7 +822,6 @@ nsACString
 &
 aWritingMode
 )
-override
 final
 {
 if
@@ -920,7 +913,6 @@ bool
 *
 aCausedByComposition
 )
-override
 final
 {
 if
@@ -965,7 +957,6 @@ bool
 *
 aCausedBySelectionEvent
 )
-override
 final
 {
 if
@@ -1010,7 +1001,6 @@ bool
 *
 aOccurredDuringComposition
 )
-override
 final
 {
 if
@@ -1064,7 +1054,6 @@ uint32_t
 *
 aLength
 )
-override
 final
 {
 if
@@ -1111,7 +1100,6 @@ uint32_t
 *
 aLength
 )
-override
 final
 {
 if
@@ -1158,7 +1146,6 @@ bool
 *
 aCausedOnlyByComposition
 )
-override
 final
 {
 if
@@ -1203,7 +1190,6 @@ bool
 *
 aIncludingChangesDuringComposition
 )
-override
 final
 {
 if
@@ -1248,7 +1234,6 @@ bool
 *
 aIncludingChangesWithoutComposition
 )
-override
 final
 {
 if

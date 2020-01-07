@@ -437,7 +437,6 @@ LookupUnscaledFont
 ReferencePtr
 aRefPtr
 )
-override
 final
 {
 UnscaledFont
@@ -468,7 +467,6 @@ LookupUnscaledFontByIndex
 size_t
 index
 )
-override
 final
 {
 UnscaledFont

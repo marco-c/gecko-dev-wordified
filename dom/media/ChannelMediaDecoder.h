@@ -712,7 +712,6 @@ bool
 CanPlayThroughImpl
 (
 )
-override
 final
 ;
 struct
