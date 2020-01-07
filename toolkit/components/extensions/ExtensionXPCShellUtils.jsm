@@ -717,11 +717,11 @@ requestUrl
 =
 request
 .
-URI
+originalURI
 ?
 request
 .
-URI
+originalURI
 .
 spec
 :
