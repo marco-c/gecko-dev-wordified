@@ -1892,6 +1892,19 @@ stylo
 }
 )
         
+mozinfo
+.
+update
+(
+{
+'
+verify
+'
+:
+True
+}
+)
+        
 self
 .
 info
