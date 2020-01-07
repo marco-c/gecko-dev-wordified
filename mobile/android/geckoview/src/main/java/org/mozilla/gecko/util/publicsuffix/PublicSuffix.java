@@ -268,7 +268,9 @@ mozilla
 .
 org
 -
->
+&
+gt
+;
 www
 .
 mozilla
@@ -279,7 +281,9 @@ co
 .
 uk
 -
->
+&
+gt
+;
 independent
 *
 /

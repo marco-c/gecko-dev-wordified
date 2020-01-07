@@ -2973,7 +2973,9 @@ contains
 a
 String
 -
->
+&
+gt
+;
 String
 mapping
 containing

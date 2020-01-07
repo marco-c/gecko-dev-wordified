@@ -854,9 +854,11 @@ example
 <
 pre
 >
-{
-code
 *
+&
+#
+64
+;
 Override
 *
 public
@@ -873,7 +875,9 @@ Build
 VERSION
 .
 SDK_INT
->
+&
+gt
+;
 =
 24
 )
@@ -907,8 +911,6 @@ getHandler
 )
 )
 ;
-*
-}
 *
 }
 <
@@ -1262,7 +1264,7 @@ method
 *
 *
 param
-outAttrs
+attrs
 EditorInfo
 instance
 to
@@ -1663,6 +1665,13 @@ param
 keyCode
 Key
 code
+.
+*
+param
+repeatCount
+Key
+repeat
+count
 .
 *
 param

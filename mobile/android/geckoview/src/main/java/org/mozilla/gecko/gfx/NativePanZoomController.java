@@ -979,7 +979,8 @@ pixels
 .
 *
 *
-return
+param
+factor
 Scroll
 factor
 .
