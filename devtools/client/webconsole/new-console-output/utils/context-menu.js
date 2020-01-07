@@ -1409,7 +1409,7 @@ openInSidebar
 label
 "
 )
-acesskey
+accesskey
 :
 l10n
 .
