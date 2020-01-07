@@ -347,7 +347,6 @@ thread
 /
 From
 VideoCaptureCallback
-virtual
 void
 OnFrame
 (
@@ -471,7 +470,6 @@ IPC
 PBackground
 thread
 .
-virtual
 mozilla
 :
 :
@@ -499,7 +497,6 @@ aPrincipalInfo
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -518,7 +515,6 @@ int
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -534,7 +530,6 @@ CaptureEngine
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -553,7 +548,6 @@ nsCString
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -575,7 +569,6 @@ int
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -594,7 +587,6 @@ int
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -616,7 +608,6 @@ VideoCaptureCapability
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -635,7 +626,6 @@ int
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -657,7 +647,6 @@ Shmem
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -670,7 +659,6 @@ RecvAllDone
 )
 override
 ;
-virtual
 void
 ActorDestroy
 (
@@ -679,7 +667,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
