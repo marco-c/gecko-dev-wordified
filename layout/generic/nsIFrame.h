@@ -8951,6 +8951,15 @@ nsIFrame
 )
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
+OverriddenDirtyRectFrameList
+nsTArray
+<
+nsIFrame
+*
+>
+)
+NS_DECLARE_FRAME_PROPERTY_DELETABLE
+(
 DisplayItems
 DisplayItemArray
 )

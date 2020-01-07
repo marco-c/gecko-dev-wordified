@@ -252,7 +252,7 @@ lists
 *
 /
 void
-ClearModifiedFrameProps
+ClearFramesWithProps
 (
 )
 ;
