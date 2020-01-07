@@ -17017,11 +17017,6 @@ keyEvent
 aEvent
 -
 >
-InternalDOMEvent
-(
-)
--
->
 AsKeyboardEvent
 (
 )

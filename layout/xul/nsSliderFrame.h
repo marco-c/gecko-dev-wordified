@@ -494,7 +494,13 @@ override
 nsresult
 StartDrag
 (
-nsIDOMEvent
+mozilla
+:
+:
+dom
+:
+:
+Event
 *
 aEvent
 )

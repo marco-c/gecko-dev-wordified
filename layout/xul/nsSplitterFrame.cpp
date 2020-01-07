@@ -427,7 +427,7 @@ nullptr
 nsresult
 MouseDown
 (
-nsIDOMEvent
+Event
 *
 aMouseEvent
 )
@@ -435,7 +435,7 @@ aMouseEvent
 nsresult
 MouseUp
 (
-nsIDOMEvent
+Event
 *
 aMouseEvent
 )
@@ -443,7 +443,7 @@ aMouseEvent
 nsresult
 MouseMove
 (
-nsIDOMEvent
+Event
 *
 aMouseEvent
 )
@@ -2950,7 +2950,7 @@ nsSplitterFrameInner
 :
 MouseUp
 (
-nsIDOMEvent
+Event
 *
 aMouseEvent
 )
@@ -2984,7 +2984,7 @@ nsSplitterFrameInner
 :
 MouseDown
 (
-nsIDOMEvent
+Event
 *
 aMouseEvent
 )
@@ -3003,11 +3003,6 @@ MouseEvent
 mouseEvent
 =
 aMouseEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 AsMouseEvent
@@ -4205,7 +4200,7 @@ nsSplitterFrameInner
 :
 MouseMove
 (
-nsIDOMEvent
+Event
 *
 aMouseEvent
 )
