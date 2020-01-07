@@ -7359,12 +7359,7 @@ animations
 .
 mPreviousFrameTimeStamp
 =
-mAnimStorage
--
->
-AnimatedValueCount
-(
-)
+isAnimating
 ?
 lastComposeTime
 :
