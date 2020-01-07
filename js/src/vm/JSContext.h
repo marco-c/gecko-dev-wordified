@@ -551,7 +551,7 @@ thread
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -574,7 +574,7 @@ AutoSuppressNurseryCellAlloc
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 size_t
 >
@@ -583,7 +583,7 @@ nurserySuppressions_
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 JS
 :
@@ -595,7 +595,7 @@ options_
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -1282,7 +1282,7 @@ protected
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 unsigned
 >
@@ -2184,7 +2184,7 @@ cpp
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -2215,7 +2215,7 @@ code
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -2257,7 +2257,7 @@ h
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -2398,7 +2398,7 @@ frames
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -2463,7 +2463,7 @@ exceed
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 size_t
 >
@@ -2496,7 +2496,7 @@ monitor
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 JS
 :
@@ -2566,7 +2566,7 @@ error
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -2579,7 +2579,7 @@ noExecuteDebuggerTop
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -2591,7 +2591,7 @@ activityCallback
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 void
 *
@@ -2619,7 +2619,7 @@ thread
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 unsigned
 >
@@ -2631,7 +2631,7 @@ DEBUG
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 unsigned
 >
@@ -2640,7 +2640,7 @@ checkRequestDepth
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 uint32_t
 >
@@ -2649,7 +2649,7 @@ inUnsafeCallWithABI
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -2665,7 +2665,7 @@ private
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -2707,7 +2707,7 @@ JS_TRACE_LOGGING
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -2734,7 +2734,7 @@ AutoFlushICache
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -2790,7 +2790,7 @@ cpp
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 DtoaState
 *
@@ -2810,7 +2810,7 @@ thread
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 JS
 :
@@ -2906,7 +2906,7 @@ facilities
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 int32_t
 >
@@ -2928,7 +2928,7 @@ compiling
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -2975,7 +2975,7 @@ nursery
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -3018,7 +3018,7 @@ collector
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -3080,7 +3080,7 @@ sweeping
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -3109,7 +3109,7 @@ GCHelperState
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -3132,7 +3132,7 @@ things
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 size_t
 >
@@ -3141,7 +3141,7 @@ isTouchingGrayThings
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 size_t
 >
@@ -3150,7 +3150,7 @@ noGCOrAllocationCheck
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 size_t
 >
@@ -3208,7 +3208,7 @@ creation
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 uintptr_t
 >
@@ -3361,7 +3361,7 @@ test
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -3410,7 +3410,7 @@ in
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 unsigned
 >
@@ -3473,7 +3473,7 @@ GC
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 int
 >
@@ -3495,7 +3495,7 @@ stack
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 unsigned
 >
@@ -3527,7 +3527,7 @@ counter
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 unsigned
 >
@@ -3662,7 +3662,7 @@ running
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 unsigned
 >
@@ -3726,7 +3726,7 @@ compilations
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -3888,7 +3888,7 @@ private
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -3938,7 +3938,7 @@ ref
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 uint32_t
 >
@@ -3958,7 +3958,7 @@ GetPcScript
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -3994,7 +3994,7 @@ definition
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -4013,7 +4013,7 @@ exception
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 JS
 :
@@ -4109,7 +4109,7 @@ slowPathOnExceptionUnwind
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -4136,7 +4136,7 @@ mode
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -4166,7 +4166,7 @@ OSR
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -4184,7 +4184,7 @@ public
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 int32_t
 >
@@ -4203,7 +4203,7 @@ h
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -4219,7 +4219,7 @@ DEBUG
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -4248,7 +4248,7 @@ recursion
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -4271,7 +4271,7 @@ conversion
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -4404,7 +4404,7 @@ JS_EndRequest
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 unsigned
 >
@@ -4413,7 +4413,7 @@ outstandingRequests
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -4506,7 +4506,7 @@ destruction
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 JS
 :
@@ -4587,7 +4587,7 @@ asyncStackForNewActivations
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 const
 char
@@ -4619,7 +4619,7 @@ callFunctionWithAsyncStack
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -5089,7 +5089,7 @@ private
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 InterruptCallbackVector
 >
@@ -5114,7 +5114,7 @@ ref
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -5560,7 +5560,7 @@ code
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 uint8_t
 *
@@ -5742,7 +5742,7 @@ callee
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 js
 :
@@ -5863,7 +5863,7 @@ interrupts
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 uintptr_t
 >
@@ -5877,7 +5877,7 @@ callbacks
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 JSGetIncumbentGlobalCallback
 >
@@ -5886,7 +5886,7 @@ getIncumbentGlobalCallback
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 JSEnqueuePromiseJobCallback
 >
@@ -5895,7 +5895,7 @@ enqueuePromiseJobCallback
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 void
 *
@@ -5939,7 +5939,7 @@ UseInternalJobQueues
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 JS
 :
@@ -5958,7 +5958,7 @@ jobQueue
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -5967,7 +5967,7 @@ drainingJobQueue
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 bool
 >
@@ -5976,7 +5976,7 @@ stopDrainingJobQueue
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 JSPromiseRejectionTrackerCallback
 >
@@ -5985,7 +5985,7 @@ promiseRejectionTrackerCallback
 js
 :
 :
-ThreadLocalData
+ThreadData
 <
 void
 *

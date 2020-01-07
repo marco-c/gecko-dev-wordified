@@ -1415,7 +1415,7 @@ typename
 T
 >
 using
-ThreadLocalData
+ThreadData
 =
 ProtectedDataNoCheckArgs
 <

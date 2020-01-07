@@ -1070,7 +1070,7 @@ waiting
 is
 allowed
 .
-ThreadLocalData
+ThreadData
 <
 bool
 >
