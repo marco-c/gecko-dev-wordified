@@ -75,6 +75,16 @@ checkUpdateSecurity
 "
 false
 ]
+[
+"
+xpinstall
+.
+signatures
+.
+required
+"
+false
+]
 ]
 }
 )

@@ -773,7 +773,7 @@ Assert
 equal
 (
 gCacheFlushCount
-2
+1
 )
 ;
 gExpectedFile
