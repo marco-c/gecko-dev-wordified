@@ -475,6 +475,15 @@ fetchObserver
 enabled
 "
 )
+PREF
+(
+ResistFingerprintingEnabled
+"
+privacy
+.
+resistFingerprinting
+"
+)
 #
 undef
 PREF
