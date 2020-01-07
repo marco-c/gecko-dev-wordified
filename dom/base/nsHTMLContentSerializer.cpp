@@ -271,13 +271,6 @@ h
 #
 include
 "
-nsLWBrkCIID
-.
-h
-"
-#
-include
-"
 nsIScriptElement
 .
 h
