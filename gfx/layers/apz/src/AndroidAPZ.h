@@ -201,14 +201,14 @@ mLastFling
 }
 ;
 class
-AndroidFlingAnimation
+StackScrollerFlingAnimation
 :
 public
 AsyncPanZoomAnimation
 {
 public
 :
-AndroidFlingAnimation
+StackScrollerFlingAnimation
 (
 AsyncPanZoomController
 &

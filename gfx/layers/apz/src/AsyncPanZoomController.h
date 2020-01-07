@@ -347,7 +347,7 @@ class
 AsyncPanZoomAnimation
 ;
 class
-AndroidFlingAnimation
+StackScrollerFlingAnimation
 ;
 class
 GenericFlingAnimation
@@ -8425,7 +8425,7 @@ private
 :
 friend
 class
-AndroidFlingAnimation
+StackScrollerFlingAnimation
 ;
 friend
 class
