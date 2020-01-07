@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -205,7 +198,7 @@ DOMParser
 final
 :
 public
-nsSupportsWeakReference
+nsISupports
 public
 nsWrapperCache
 {
