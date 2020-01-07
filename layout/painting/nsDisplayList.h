@@ -316,6 +316,13 @@ h
 #
 include
 "
+ImgDrawResult
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EnumeratedArray

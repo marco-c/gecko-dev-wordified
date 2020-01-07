@@ -121,6 +121,13 @@ DisplayItemClipChain
 .
 h
 "
+#
+include
+"
+nsDisplayList
+.
+h
+"
 namespace
 mozilla
 {
