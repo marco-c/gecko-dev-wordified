@@ -303,7 +303,6 @@ sWAIRoleMaps
 /
 /
 alert
-&
 nsGkAtoms
 :
 :
@@ -323,7 +322,6 @@ kNoReqStates
 /
 /
 alertdialog
-&
 nsGkAtoms
 :
 :
@@ -343,7 +341,6 @@ kNoReqStates
 /
 /
 application
-&
 nsGkAtoms
 :
 :
@@ -363,7 +360,6 @@ kNoReqStates
 /
 /
 article
-&
 nsGkAtoms
 :
 :
@@ -384,7 +380,6 @@ eReadonlyUntilEditable
 /
 /
 banner
-&
 nsGkAtoms
 :
 :
@@ -404,7 +399,6 @@ kNoReqStates
 /
 /
 button
-&
 nsGkAtoms
 :
 :
@@ -433,7 +427,6 @@ button
 /
 /
 cell
-&
 nsGkAtoms
 :
 :
@@ -453,7 +446,6 @@ kNoReqStates
 /
 /
 checkbox
-&
 nsGkAtoms
 :
 :
@@ -475,7 +467,6 @@ eARIAReadonly
 /
 /
 columnheader
-&
 nsGkAtoms
 :
 :
@@ -504,7 +495,6 @@ text
 input
 and
 popup
-&
 nsGkAtoms
 :
 :
@@ -535,7 +525,6 @@ eARIAOrientation
 /
 /
 complementary
-&
 nsGkAtoms
 :
 :
@@ -555,7 +544,6 @@ kNoReqStates
 /
 /
 contentinfo
-&
 nsGkAtoms
 :
 :
@@ -575,7 +563,6 @@ kNoReqStates
 /
 /
 dialog
-&
 nsGkAtoms
 :
 :
@@ -595,7 +582,6 @@ kNoReqStates
 /
 /
 directory
-&
 nsGkAtoms
 :
 :
@@ -620,7 +606,6 @@ READONLY
 doc
 -
 abstract
-&
 nsGkAtoms
 :
 :
@@ -642,7 +627,6 @@ kNoReqStates
 doc
 -
 acknowledgments
-&
 nsGkAtoms
 :
 :
@@ -664,7 +648,6 @@ kNoReqStates
 doc
 -
 afterword
-&
 nsGkAtoms
 :
 :
@@ -686,7 +669,6 @@ kNoReqStates
 doc
 -
 appendix
-&
 nsGkAtoms
 :
 :
@@ -708,7 +690,6 @@ kNoReqStates
 doc
 -
 backlink
-&
 nsGkAtoms
 :
 :
@@ -733,7 +714,6 @@ LINKED
 doc
 -
 biblioentry
-&
 nsGkAtoms
 :
 :
@@ -758,7 +738,6 @@ READONLY
 doc
 -
 bibliography
-&
 nsGkAtoms
 :
 :
@@ -780,7 +759,6 @@ kNoReqStates
 doc
 -
 biblioref
-&
 nsGkAtoms
 :
 :
@@ -805,7 +783,6 @@ LINKED
 doc
 -
 chapter
-&
 nsGkAtoms
 :
 :
@@ -827,7 +804,6 @@ kNoReqStates
 doc
 -
 colophon
-&
 nsGkAtoms
 :
 :
@@ -849,7 +825,6 @@ kNoReqStates
 doc
 -
 conclusion
-&
 nsGkAtoms
 :
 :
@@ -871,7 +846,6 @@ kNoReqStates
 doc
 -
 cover
-&
 nsGkAtoms
 :
 :
@@ -893,7 +867,6 @@ kNoReqStates
 doc
 -
 credit
-&
 nsGkAtoms
 :
 :
@@ -915,7 +888,6 @@ kNoReqStates
 doc
 -
 credits
-&
 nsGkAtoms
 :
 :
@@ -937,7 +909,6 @@ kNoReqStates
 doc
 -
 dedication
-&
 nsGkAtoms
 :
 :
@@ -959,7 +930,6 @@ kNoReqStates
 doc
 -
 endnote
-&
 nsGkAtoms
 :
 :
@@ -984,7 +954,6 @@ READONLY
 doc
 -
 endnotes
-&
 nsGkAtoms
 :
 :
@@ -1006,7 +975,6 @@ kNoReqStates
 doc
 -
 epigraph
-&
 nsGkAtoms
 :
 :
@@ -1028,7 +996,6 @@ kNoReqStates
 doc
 -
 epilogue
-&
 nsGkAtoms
 :
 :
@@ -1050,7 +1017,6 @@ kNoReqStates
 doc
 -
 errata
-&
 nsGkAtoms
 :
 :
@@ -1072,7 +1038,6 @@ kNoReqStates
 doc
 -
 example
-&
 nsGkAtoms
 :
 :
@@ -1094,7 +1059,6 @@ kNoReqStates
 doc
 -
 footnote
-&
 nsGkAtoms
 :
 :
@@ -1116,7 +1080,6 @@ kNoReqStates
 doc
 -
 foreword
-&
 nsGkAtoms
 :
 :
@@ -1138,7 +1101,6 @@ kNoReqStates
 doc
 -
 glossary
-&
 nsGkAtoms
 :
 :
@@ -1160,7 +1122,6 @@ kNoReqStates
 doc
 -
 glossref
-&
 nsGkAtoms
 :
 :
@@ -1185,7 +1146,6 @@ LINKED
 doc
 -
 index
-&
 nsGkAtoms
 :
 :
@@ -1207,7 +1167,6 @@ kNoReqStates
 doc
 -
 introduction
-&
 nsGkAtoms
 :
 :
@@ -1229,7 +1188,6 @@ kNoReqStates
 doc
 -
 noteref
-&
 nsGkAtoms
 :
 :
@@ -1254,7 +1212,6 @@ LINKED
 doc
 -
 notice
-&
 nsGkAtoms
 :
 :
@@ -1276,7 +1233,6 @@ kNoReqStates
 doc
 -
 pagebreak
-&
 nsGkAtoms
 :
 :
@@ -1298,7 +1254,6 @@ kNoReqStates
 doc
 -
 pagelist
-&
 nsGkAtoms
 :
 :
@@ -1320,7 +1275,6 @@ kNoReqStates
 doc
 -
 part
-&
 nsGkAtoms
 :
 :
@@ -1342,7 +1296,6 @@ kNoReqStates
 doc
 -
 preface
-&
 nsGkAtoms
 :
 :
@@ -1364,7 +1317,6 @@ kNoReqStates
 doc
 -
 prologue
-&
 nsGkAtoms
 :
 :
@@ -1386,7 +1338,6 @@ kNoReqStates
 doc
 -
 pullquote
-&
 nsGkAtoms
 :
 :
@@ -1408,7 +1359,6 @@ kNoReqStates
 doc
 -
 qna
-&
 nsGkAtoms
 :
 :
@@ -1430,7 +1380,6 @@ kNoReqStates
 doc
 -
 subtitle
-&
 nsGkAtoms
 :
 :
@@ -1452,7 +1401,6 @@ kNoReqStates
 doc
 -
 tip
-&
 nsGkAtoms
 :
 :
@@ -1474,7 +1422,6 @@ kNoReqStates
 doc
 -
 toc
-&
 nsGkAtoms
 :
 :
@@ -1494,7 +1441,6 @@ kNoReqStates
 /
 /
 document
-&
 nsGkAtoms
 :
 :
@@ -1515,7 +1461,6 @@ eReadonlyUntilEditable
 /
 /
 feed
-&
 nsGkAtoms
 :
 :
@@ -1535,7 +1480,6 @@ kNoReqStates
 /
 /
 figure
-&
 nsGkAtoms
 :
 :
@@ -1555,7 +1499,6 @@ kNoReqStates
 /
 /
 form
-&
 nsGkAtoms
 :
 :
@@ -1577,7 +1520,6 @@ kNoReqStates
 graphics
 -
 document
-&
 nsGkAtoms
 :
 :
@@ -1600,7 +1542,6 @@ eReadonlyUntilEditable
 graphics
 -
 object
-&
 nsGkAtoms
 :
 :
@@ -1622,7 +1563,6 @@ kNoReqStates
 graphics
 -
 symbol
-&
 nsGkAtoms
 :
 :
@@ -1642,7 +1582,6 @@ kNoReqStates
 /
 /
 grid
-&
 nsGkAtoms
 :
 :
@@ -1667,7 +1606,6 @@ eFocusableUntilDisabled
 /
 /
 gridcell
-&
 nsGkAtoms
 :
 :
@@ -1689,7 +1627,6 @@ eARIAReadonlyOrEditableIfDefined
 /
 /
 group
-&
 nsGkAtoms
 :
 :
@@ -1709,7 +1646,6 @@ kNoReqStates
 /
 /
 heading
-&
 nsGkAtoms
 :
 :
@@ -1729,7 +1665,6 @@ kNoReqStates
 /
 /
 img
-&
 nsGkAtoms
 :
 :
@@ -1749,7 +1684,6 @@ kNoReqStates
 /
 /
 key
-&
 nsGkAtoms
 :
 :
@@ -1770,7 +1704,6 @@ eARIAPressed
 /
 /
 link
-&
 nsGkAtoms
 :
 :
@@ -1793,7 +1726,6 @@ LINKED
 /
 /
 list
-&
 nsGkAtoms
 :
 :
@@ -1816,7 +1748,6 @@ READONLY
 /
 /
 listbox
-&
 nsGkAtoms
 :
 :
@@ -1845,7 +1776,6 @@ eARIAOrientation
 /
 /
 listitem
-&
 nsGkAtoms
 :
 :
@@ -1878,7 +1808,6 @@ READONLY
 /
 /
 log
-&
 nsGkAtoms
 :
 :
@@ -1898,7 +1827,6 @@ kNoReqStates
 /
 /
 main
-&
 nsGkAtoms
 :
 :
@@ -1918,7 +1846,6 @@ kNoReqStates
 /
 /
 marquee
-&
 nsGkAtoms
 :
 :
@@ -1938,7 +1865,6 @@ kNoReqStates
 /
 /
 math
-&
 nsGkAtoms
 :
 :
@@ -1958,7 +1884,6 @@ kNoReqStates
 /
 /
 menu
-&
 nsGkAtoms
 :
 :
@@ -2006,7 +1931,6 @@ eARIAOrientation
 /
 /
 menubar
-&
 nsGkAtoms
 :
 :
@@ -2030,7 +1954,6 @@ eARIAOrientation
 /
 /
 menuitem
-&
 nsGkAtoms
 :
 :
@@ -2050,7 +1973,6 @@ kNoReqStates
 /
 /
 menuitemcheckbox
-&
 nsGkAtoms
 :
 :
@@ -2072,7 +1994,6 @@ eARIAReadonly
 /
 /
 menuitemradio
-&
 nsGkAtoms
 :
 :
@@ -2094,7 +2015,6 @@ eARIAReadonly
 /
 /
 navigation
-&
 nsGkAtoms
 :
 :
@@ -2114,7 +2034,6 @@ kNoReqStates
 /
 /
 none
-&
 nsGkAtoms
 :
 :
@@ -2134,7 +2053,6 @@ kNoReqStates
 /
 /
 note
-&
 nsGkAtoms
 :
 :
@@ -2154,7 +2072,6 @@ kNoReqStates
 /
 /
 option
-&
 nsGkAtoms
 :
 :
@@ -2176,7 +2093,6 @@ eARIACheckedMixed
 /
 /
 presentation
-&
 nsGkAtoms
 :
 :
@@ -2196,7 +2112,6 @@ kNoReqStates
 /
 /
 progressbar
-&
 nsGkAtoms
 :
 :
@@ -2220,7 +2135,6 @@ eIndeterminateIfNoValue
 /
 /
 radio
-&
 nsGkAtoms
 :
 :
@@ -2241,7 +2155,6 @@ eARIACheckableBool
 /
 /
 radiogroup
-&
 nsGkAtoms
 :
 :
@@ -2263,7 +2176,6 @@ eARIAReadonly
 /
 /
 region
-&
 nsGkAtoms
 :
 :
@@ -2283,7 +2195,6 @@ kNoReqStates
 /
 /
 row
-&
 nsGkAtoms
 :
 :
@@ -2304,7 +2215,6 @@ eARIASelectable
 /
 /
 rowgroup
-&
 nsGkAtoms
 :
 :
@@ -2324,7 +2234,6 @@ kNoReqStates
 /
 /
 rowheader
-&
 nsGkAtoms
 :
 :
@@ -2346,7 +2255,6 @@ eARIAReadonlyOrEditableIfDefined
 /
 /
 scrollbar
-&
 nsGkAtoms
 :
 :
@@ -2371,7 +2279,6 @@ eARIAReadonly
 /
 /
 search
-&
 nsGkAtoms
 :
 :
@@ -2391,7 +2298,6 @@ kNoReqStates
 /
 /
 searchbox
-&
 nsGkAtoms
 :
 :
@@ -2414,7 +2320,6 @@ eARIAReadonlyOrEditable
 /
 /
 separator
-&
 nsGkAtoms
 :
 :
@@ -2438,7 +2343,6 @@ eARIAOrientation
 /
 /
 slider
-&
 nsGkAtoms
 :
 :
@@ -2463,7 +2367,6 @@ eARIAReadonly
 /
 /
 spinbutton
-&
 nsGkAtoms
 :
 :
@@ -2484,7 +2387,6 @@ eARIAReadonly
 /
 /
 status
-&
 nsGkAtoms
 :
 :
@@ -2504,7 +2406,6 @@ kNoReqStates
 /
 /
 switch
-&
 nsGkAtoms
 :
 :
@@ -2526,7 +2427,6 @@ eARIAReadonly
 /
 /
 tab
-&
 nsGkAtoms
 :
 :
@@ -2547,7 +2447,6 @@ eARIASelectable
 /
 /
 table
-&
 nsGkAtoms
 :
 :
@@ -2568,7 +2467,6 @@ eARIASelectable
 /
 /
 tablist
-&
 nsGkAtoms
 :
 :
@@ -2592,7 +2490,6 @@ eARIAOrientation
 /
 /
 tabpanel
-&
 nsGkAtoms
 :
 :
@@ -2612,7 +2509,6 @@ kNoReqStates
 /
 /
 term
-&
 nsGkAtoms
 :
 :
@@ -2635,7 +2531,6 @@ READONLY
 /
 /
 textbox
-&
 nsGkAtoms
 :
 :
@@ -2658,7 +2553,6 @@ eARIAReadonlyOrEditable
 /
 /
 timer
-&
 nsGkAtoms
 :
 :
@@ -2677,7 +2571,6 @@ kNoReqStates
 /
 /
 toolbar
-&
 nsGkAtoms
 :
 :
@@ -2701,7 +2594,6 @@ eARIAOrientation
 /
 /
 tooltip
-&
 nsGkAtoms
 :
 :
@@ -2721,7 +2613,6 @@ kNoReqStates
 /
 /
 tree
-&
 nsGkAtoms
 :
 :
@@ -2748,7 +2639,6 @@ eARIAOrientation
 /
 /
 treegrid
-&
 nsGkAtoms
 :
 :
@@ -2774,7 +2664,6 @@ eARIAOrientation
 /
 /
 treeitem
-&
 nsGkAtoms
 :
 :
@@ -2818,7 +2707,6 @@ nsRoleMapEntry
 sLandmarkRoleMap
 =
 {
-&
 nsGkAtoms
 :
 :
@@ -2842,7 +2730,6 @@ aria
 gEmptyRoleMap
 =
 {
-&
 nsGkAtoms
 :
 :
@@ -2973,9 +2860,10 @@ here
 struct
 AttrCharacteristics
 {
+const
 nsStaticAtom
 *
-*
+const
 attributeName
 ;
 const
@@ -2993,7 +2881,6 @@ gWAIUnivAttrMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -3001,7 +2888,6 @@ aria_activedescendant
 ATTR_BYPASSOBJ
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3013,7 +2899,6 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3023,7 +2908,6 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3041,7 +2925,6 @@ attr
 *
 /
 {
-&
 nsGkAtoms
 :
 :
@@ -3051,7 +2934,6 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3061,7 +2943,6 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3071,7 +2952,6 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3083,7 +2963,6 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3093,7 +2972,6 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3103,7 +2981,6 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3113,7 +2990,6 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3123,7 +2999,6 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3133,7 +3008,6 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3145,7 +3019,6 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3164,7 +3037,6 @@ way
 *
 /
 {
-&
 nsGkAtoms
 :
 :
@@ -3176,7 +3048,6 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3186,7 +3057,6 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3196,7 +3066,6 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3211,7 +3080,6 @@ groupPosition
 *
 /
 {
-&
 nsGkAtoms
 :
 :
@@ -3221,7 +3089,6 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3233,7 +3100,6 @@ ATTR_VALTOKEN
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3243,7 +3109,6 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3253,7 +3118,6 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3263,7 +3127,6 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3271,7 +3134,6 @@ aria_orientation
 ATTR_VALTOKEN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3286,7 +3148,6 @@ groupPosition
 *
 /
 {
-&
 nsGkAtoms
 :
 :
@@ -3296,7 +3157,6 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3306,7 +3166,6 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3316,7 +3175,6 @@ ATTR_BYPASSOBJ
 ATTR_GLOBAL
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3326,7 +3184,6 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3336,7 +3193,6 @@ ATTR_BYPASSOBJ
 ATTR_VALTOKEN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3351,7 +3207,6 @@ groupPosition
 *
 /
 {
-&
 nsGkAtoms
 :
 :
@@ -3359,7 +3214,6 @@ aria_sort
 ATTR_VALTOKEN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3367,7 +3221,6 @@ aria_valuenow
 ATTR_BYPASSOBJ
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3375,7 +3228,6 @@ aria_valuemin
 ATTR_BYPASSOBJ
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3383,7 +3235,6 @@ aria_valuemax
 ATTR_BYPASSOBJ
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -3827,7 +3678,6 @@ i
 )
 if
 (
-*
 gWAIUnivAttrMap
 [
 i

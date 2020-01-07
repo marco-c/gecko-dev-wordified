@@ -10209,13 +10209,10 @@ IsOfType
 eLandmark
 )
 ?
-*
-(
 roleMapEntry
 -
 >
 roleAtom
-)
 :
 nullptr
 ;
