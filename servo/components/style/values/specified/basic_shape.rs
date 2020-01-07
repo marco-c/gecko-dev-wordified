@@ -1199,7 +1199,6 @@ of
 inset
 (
 )
-pub
 fn
 parse_function_arguments
 <
@@ -1384,14 +1383,6 @@ i
 impl
 Circle
 {
-#
-[
-allow
-(
-missing_docs
-)
-]
-pub
 fn
 parse_function_arguments
 <
@@ -1503,10 +1494,6 @@ Ok
 GenericCircle
 {
 radius
-:
-radius
-position
-:
 position
 }
 )
@@ -1690,14 +1677,6 @@ i
 impl
 Ellipse
 {
-#
-[
-allow
-(
-missing_docs
-)
-]
-pub
 fn
 parse_function_arguments
 <
@@ -2777,7 +2756,6 @@ a
 polygon
 function
 .
-pub
 fn
 parse_function_arguments
 <
