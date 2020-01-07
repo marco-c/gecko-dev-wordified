@@ -4650,16 +4650,6 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
-(
-window
--
->
-IsInnerWindow
-(
-)
-)
-;
 bool
 isChrome
 =

@@ -1183,16 +1183,6 @@ if
 win
 )
 {
-MOZ_ASSERT
-(
-win
--
->
-IsInnerWindow
-(
-)
-)
-;
 /
 /
 We

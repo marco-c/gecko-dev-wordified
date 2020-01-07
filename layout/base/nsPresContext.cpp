@@ -13891,14 +13891,6 @@ timeStamp
 if
 (
 ourWindow
-&
-&
-ourWindow
--
->
-IsInnerWindow
-(
-)
 )
 {
 mozilla

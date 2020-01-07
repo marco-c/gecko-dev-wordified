@@ -1308,16 +1308,6 @@ MOZ_ASSERT
 aWindow
 )
 ;
-MOZ_ASSERT
-(
-aWindow
--
->
-IsInnerWindow
-(
-)
-)
-;
 MOZ_ALWAYS_TRUE
 (
 mConstructors

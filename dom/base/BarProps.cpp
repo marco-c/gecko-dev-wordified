@@ -205,16 +205,6 @@ mDOMWindow
 aWindow
 )
 {
-MOZ_ASSERT
-(
-aWindow
--
->
-IsInnerWindow
-(
-)
-)
-;
 }
 BarProp
 :

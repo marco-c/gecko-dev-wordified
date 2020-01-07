@@ -1104,16 +1104,6 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
-(
-win
--
->
-IsInnerWindow
-(
-)
-)
-;
 RefPtr
 <
 SpeechRecognition

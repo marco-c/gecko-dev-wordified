@@ -1780,16 +1780,6 @@ aWindow
 ;
 MOZ_ASSERT
 (
-aWindow
--
->
-IsOuterWindow
-(
-)
-)
-;
-MOZ_ASSERT
-(
 aBaseURI
 )
 ;

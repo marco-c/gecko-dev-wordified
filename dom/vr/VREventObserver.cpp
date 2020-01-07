@@ -220,14 +220,6 @@ false
 MOZ_ASSERT
 (
 aGlobalWindow
-&
-&
-aGlobalWindow
--
->
-IsInnerWindow
-(
-)
 )
 ;
 UpdateSpentTimeIn2DTelemetry

@@ -1545,16 +1545,6 @@ MOZ_ASSERT
 window
 )
 ;
-MOZ_ASSERT
-(
-window
--
->
-IsInnerWindow
-(
-)
-)
-;
 bc
 -
 >

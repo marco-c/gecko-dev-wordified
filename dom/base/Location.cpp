@@ -367,16 +367,6 @@ mInnerWindow
 aWindow
 )
 {
-MOZ_ASSERT
-(
-mInnerWindow
--
->
-IsInnerWindow
-(
-)
-)
-;
 /
 /
 aDocShell

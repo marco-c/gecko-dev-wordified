@@ -716,16 +716,6 @@ MOZ_ASSERT
 aOwner
 )
 ;
-MOZ_ASSERT
-(
-aOwner
--
->
-IsInnerWindow
-(
-)
-)
-;
 nsIDocument
 *
 aDoc

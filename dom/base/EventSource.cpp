@@ -10658,17 +10658,7 @@ NS_IsMainThread
 )
 |
 |
-(
 ownerWindow
-&
-&
-ownerWindow
--
->
-IsInnerWindow
-(
-)
-)
 )
 ;
 RefPtr
