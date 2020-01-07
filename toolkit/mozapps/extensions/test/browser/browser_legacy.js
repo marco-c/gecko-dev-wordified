@@ -1316,6 +1316,13 @@ false
 }
 )
 ;
+await
+new
+Promise
+(
+executeSoon
+)
+;
 /
 /
 The

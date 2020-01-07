@@ -1440,14 +1440,13 @@ aAddon
 )
 ;
 }
+async
 getAddonsByTypes
 (
 aTypes
-aCallback
 )
 {
-aCallback
-(
+return
 this
 .
 _addons
@@ -1461,7 +1460,6 @@ new
 MockAddonWrapper
 (
 a
-)
 )
 )
 ;

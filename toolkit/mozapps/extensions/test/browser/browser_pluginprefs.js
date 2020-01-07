@@ -281,6 +281,7 @@ obs
 .
 addObserver
 (
+async
 function
 observer
 (
@@ -309,12 +310,13 @@ do
 its
 stuff
 .
+await
+new
+Promise
+(
 executeSoon
-(
-function
-(
 )
-{
+;
 let
 doc
 =
@@ -368,7 +370,7 @@ depends
 on
 the
 platform
-ok
+is
 (
 pluginLibraries
 .
@@ -412,7 +414,7 @@ displayed
 "
 )
 ;
-ok
+is
 (
 pluginMimeTypes
 .
@@ -424,6 +426,11 @@ x
 -
 test
 (
+Test
+\
+u2122
+mimetype
+:
 tst
 )
 "
@@ -439,9 +446,6 @@ displayed
 ;
 run_next_test
 (
-)
-;
-}
 )
 ;
 }
