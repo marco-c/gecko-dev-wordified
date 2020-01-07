@@ -50,8 +50,8 @@ works
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -61,7 +61,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CONTENT_TYPE_WITHOUT_CACHE_URL
@@ -113,7 +113,7 @@ monitor
 CONTENT_TYPE_WITHOUT_CACHE_REQUESTS
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -123,8 +123,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -139,7 +139,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 EventUtils
@@ -200,7 +200,7 @@ item
 ]
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 function
@@ -240,7 +240,7 @@ click
 EXPECTED_RESULT
 )
 ;
-yield
+await
 teardown
 (
 monitor

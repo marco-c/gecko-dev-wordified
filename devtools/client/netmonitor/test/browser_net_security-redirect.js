@@ -57,8 +57,8 @@ request
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -68,7 +68,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -126,7 +126,7 @@ monitor
 2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -135,8 +135,8 @@ tab
 .
 linkedBrowser
 HTTPS_REDIRECT_SJS
+async
 function
-*
 (
 url
 )
@@ -154,7 +154,7 @@ url
 }
 )
 ;
-yield
+await
 wait
 ;
 is
@@ -257,7 +257,7 @@ secure
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

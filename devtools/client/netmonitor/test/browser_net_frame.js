@@ -718,8 +718,8 @@ length
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -736,7 +736,7 @@ default
 in
 all
 builds
-yield
+await
 SpecialPowers
 .
 pushPrefEnv
@@ -852,7 +852,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -936,7 +936,7 @@ null
 null
 )
 ;
-yield
+await
 waitForNetworkEvents
 (
 monitor
@@ -1001,7 +1001,7 @@ getState
 )
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -1471,7 +1471,7 @@ stacktrace
 ;
 }
 }
-yield
+await
 teardown
 (
 monitor

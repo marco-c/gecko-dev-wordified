@@ -49,8 +49,8 @@ SideMenuWidget
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -60,7 +60,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -270,7 +270,7 @@ monitor
 2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -280,8 +280,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -297,7 +297,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 check
@@ -429,7 +429,7 @@ monitor
 18
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -439,8 +439,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -456,7 +456,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 store

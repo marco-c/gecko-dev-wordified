@@ -52,8 +52,8 @@ editor
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -63,7 +63,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CYRILLIC_URL
@@ -155,7 +155,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -165,8 +165,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -181,7 +181,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -241,7 +241,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -344,7 +344,7 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
 wait
@@ -388,7 +388,7 @@ tab
 )
 )
 ;
-yield
+await
 wait
 ;
 let

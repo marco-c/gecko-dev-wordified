@@ -54,8 +54,8 @@ UI
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -87,7 +87,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 STATUS_CODES_URL
@@ -587,7 +587,7 @@ monitor
 5
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -597,8 +597,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -613,7 +613,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 info
@@ -624,19 +624,19 @@ tests
 "
 )
 ;
-yield
+await
 verifyRequests
 (
 )
 ;
-yield
+await
 testTab
 (
 0
 testHeaders
 )
 ;
-yield
+await
 testTab
 (
 2
@@ -675,8 +675,8 @@ array
 .
 *
 /
+async
 function
-*
 verifyRequests
 (
 )
@@ -743,7 +743,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -816,7 +816,7 @@ request
 index
 )
 ;
-yield
+await
 verifyRequestItemTarget
 (
 document
@@ -926,8 +926,8 @@ NetworkMonitor
 .
 *
 /
+async
 function
-*
 testTab
 (
 tabIdx
@@ -968,7 +968,7 @@ request
 counter
 )
 ;
-yield
+await
 testFn
 (
 item
@@ -999,8 +999,8 @@ information
 .
 *
 /
+async
 function
-*
 testHeaders
 (
 data
@@ -1036,7 +1036,7 @@ index
 ]
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -1234,7 +1234,6 @@ information
 *
 /
 function
-*
 testParams
 (
 data

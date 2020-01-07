@@ -50,8 +50,8 @@ correctly
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -82,7 +82,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL

@@ -67,8 +67,8 @@ long
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -78,7 +78,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -203,7 +203,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -212,8 +212,8 @@ tab
 .
 linkedBrowser
 HTML_LONG_URL
+async
 function
-*
 (
 url
 )
@@ -231,7 +231,7 @@ url
 }
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -288,7 +288,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -418,7 +418,7 @@ tab
 )
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -465,7 +465,7 @@ incorrect
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

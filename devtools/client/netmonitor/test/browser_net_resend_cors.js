@@ -66,8 +66,8 @@ friends
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -77,7 +77,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CORS_URL
@@ -197,7 +197,7 @@ monitor
 2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -206,8 +206,8 @@ tab
 .
 linkedBrowser
 requestUrl
+async
 function
-*
 (
 url
 )
@@ -234,7 +234,7 @@ data
 }
 )
 ;
-yield
+await
 wait
 ;
 const
@@ -435,7 +435,7 @@ back
 -
 end
 .
-yield
+await
 waitUntil
 (
 (
@@ -535,7 +535,7 @@ connector
 )
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -572,7 +572,7 @@ requests
 "
 )
 ;
-yield
+await
 onRequests
 ;
 /
@@ -715,7 +715,7 @@ until
 responseContentAvailable
 set
 true
-yield
+await
 waitUntil
 (
 (
@@ -745,7 +745,7 @@ responseContentAvailable
 }
 )
 ;
-yield
+await
 connector
 .
 requestData
@@ -769,7 +769,7 @@ responseContent
 payloads
 arrived
 .
-yield
+await
 waitUntil
 (
 (

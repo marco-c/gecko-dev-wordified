@@ -49,8 +49,8 @@ format
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -60,7 +60,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 HAR_EXAMPLE_URL
@@ -198,7 +198,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -208,8 +208,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -224,7 +224,7 @@ executeTest
 }
 )
 ;
-yield
+await
 wait
 ;
 /
@@ -252,7 +252,7 @@ connector
 let
 jsonString
 =
-yield
+await
 contextMenu
 .
 copyAllAsHar

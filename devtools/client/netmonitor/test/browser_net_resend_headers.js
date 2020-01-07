@@ -54,8 +54,8 @@ friends
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -64,7 +64,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_SJS
@@ -292,7 +292,7 @@ Hello
 }
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -360,7 +360,7 @@ packet
 gets
 updated
 .
-yield
+await
 waitUntil
 (
 (

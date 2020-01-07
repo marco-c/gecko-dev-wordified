@@ -49,8 +49,8 @@ works
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -60,7 +60,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 PAUSE_URL
@@ -171,7 +171,7 @@ in
 the
 list
 .
-yield
+await
 performRequestAndWait
 (
 tab
@@ -262,7 +262,7 @@ click
 pauseButton
 )
 ;
-yield
+await
 performPausedRequest
 (
 connector
@@ -328,7 +328,7 @@ click
 pauseButton
 )
 ;
-yield
+await
 performRequestAndWait
 (
 tab
@@ -387,7 +387,7 @@ reload
 (
 )
 ;
-yield
+await
 waitForNetworkEvents
 (
 monitor
@@ -476,8 +476,8 @@ done
 .
 *
 /
+async
 function
-*
 performRequestAndWait
 (
 tab
@@ -493,7 +493,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -502,13 +502,13 @@ tab
 .
 linkedBrowser
 SIMPLE_SJS
+async
 function
-*
 (
 url
 )
 {
-yield
+await
 content
 .
 wrappedJSObject
@@ -521,7 +521,7 @@ url
 }
 )
 ;
-yield
+await
 wait
 ;
 }
@@ -535,8 +535,8 @@ GET
 request
 *
 /
+async
 function
-*
 performPausedRequest
 (
 connector
@@ -552,7 +552,7 @@ waitForWebConsoleNetworkEvent
 connector
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -561,13 +561,13 @@ tab
 .
 linkedBrowser
 SIMPLE_SJS
+async
 function
-*
 (
 url
 )
 {
-yield
+await
 content
 .
 wrappedJSObject
@@ -580,7 +580,7 @@ url
 }
 )
 ;
-yield
+await
 wait
 ;
 }

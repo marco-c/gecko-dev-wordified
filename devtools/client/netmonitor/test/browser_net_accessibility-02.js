@@ -53,8 +53,8 @@ menu
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -64,7 +64,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -275,7 +275,7 @@ monitor
 2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -285,8 +285,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -302,7 +302,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 document
@@ -434,7 +434,7 @@ monitor
 18
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -444,8 +444,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -461,7 +461,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 EventUtils
@@ -944,7 +944,7 @@ check
 true
 )
 ;
-yield
+await
 teardown
 (
 monitor

@@ -50,8 +50,8 @@ works
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -60,7 +60,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_URL
@@ -121,7 +121,7 @@ click
 (
 )
 ;
-yield
+await
 waitForNetworkEvents
 (
 monitor
@@ -131,7 +131,7 @@ monitor
 let
 markers
 =
-yield
+await
 markersDone
 ;
 ok

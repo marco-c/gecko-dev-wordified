@@ -54,8 +54,8 @@ console
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -87,7 +87,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 JSON_LONG_URL
@@ -187,7 +187,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -197,8 +197,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -213,10 +213,10 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
-yield
+await
 verifyRequest
 (
 0
@@ -256,7 +256,7 @@ webconsole
 "
 )
 ;
-yield
+await
 onWebConsole
 ;
 /
@@ -294,7 +294,7 @@ netmonitor
 "
 )
 ;
-yield
+await
 onNetMonitor
 ;
 /
@@ -318,7 +318,7 @@ reload
 (
 )
 ;
-yield
+await
 wait
 ;
 /
@@ -337,7 +337,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -347,8 +347,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -363,10 +363,10 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
-yield
+await
 verifyRequest
 (
 1
@@ -378,8 +378,8 @@ teardown
 monitor
 )
 ;
+async
 function
-*
 verifyRequest
 (
 index
@@ -447,7 +447,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (

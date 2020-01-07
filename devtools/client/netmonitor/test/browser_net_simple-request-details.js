@@ -51,8 +51,8 @@ UI
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -84,7 +84,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_SJS
@@ -221,7 +221,7 @@ reload
 (
 )
 ;
-yield
+await
 wait
 ;
 is
@@ -436,7 +436,7 @@ testHeadersTab
 (
 )
 ;
-yield
+await
 testCookiesTab
 (
 )
@@ -445,7 +445,7 @@ testParamsTab
 (
 )
 ;
-yield
+await
 testResponseTab
 (
 )
@@ -1960,8 +1960,8 @@ incorrect
 )
 ;
 }
+async
 function
-*
 testCookiesTab
 (
 )
@@ -2008,7 +2008,7 @@ tab
 ]
 )
 ;
-yield
+await
 onEvent
 ;
 let
@@ -2423,8 +2423,8 @@ hidden
 )
 ;
 }
+async
 function
-*
 testResponseTab
 (
 )
@@ -2471,7 +2471,7 @@ tab
 ]
 )
 ;
-yield
+await
 onEvent
 ;
 let
@@ -2696,7 +2696,7 @@ hidden
 let
 editor
 =
-yield
+await
 NetMonitorView
 .
 editor

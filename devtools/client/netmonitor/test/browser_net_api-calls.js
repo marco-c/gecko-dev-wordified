@@ -58,8 +58,8 @@ Unicode
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -69,7 +69,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 API_CALLS_URL
@@ -264,7 +264,7 @@ monitor
 5
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -274,8 +274,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -290,7 +290,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 REQUEST_URIS
@@ -336,7 +336,7 @@ uri
 }
 )
 ;
-yield
+await
 teardown
 (
 monitor

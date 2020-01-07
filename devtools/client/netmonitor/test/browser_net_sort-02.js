@@ -51,8 +51,8 @@ correctly
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -83,7 +83,7 @@ let
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SORTING_URL
@@ -387,13 +387,13 @@ monitor
 5
 )
 ;
-yield
+await
 performRequestsInContent
 (
 requests
 )
 ;
-yield
+await
 wait
 ;
 EventUtils
@@ -515,7 +515,7 @@ testHeaders
 (
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -576,7 +576,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -637,7 +637,7 @@ descending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -703,7 +703,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -764,7 +764,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -825,7 +825,7 @@ descending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -891,7 +891,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -952,7 +952,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1013,7 +1013,7 @@ descending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1079,7 +1079,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1140,7 +1140,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1201,7 +1201,7 @@ descending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1267,7 +1267,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1328,7 +1328,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1389,7 +1389,7 @@ descending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1455,7 +1455,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1516,7 +1516,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1577,7 +1577,7 @@ descending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1643,7 +1643,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1704,7 +1704,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1765,7 +1765,7 @@ descending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -1831,7 +1831,7 @@ ascending
 "
 )
 ;
-yield
+await
 testContents
 (
 [
@@ -2194,8 +2194,8 @@ attribute
 }
 }
 }
+async
 function
-*
 testContents
 (
 [
@@ -2447,7 +2447,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (

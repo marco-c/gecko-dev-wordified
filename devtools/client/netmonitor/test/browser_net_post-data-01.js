@@ -53,8 +53,8 @@ UI
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -118,7 +118,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 POST_DATA_URL
@@ -210,7 +210,7 @@ monitor
 2
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -220,8 +220,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -236,7 +236,7 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -301,7 +301,7 @@ mouseover
 requestsListStatus
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -575,10 +575,10 @@ tab
 )
 )
 ;
-yield
+await
 wait
 ;
-yield
+await
 testParamsTab
 (
 "
@@ -664,7 +664,7 @@ item
 ]
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -675,7 +675,7 @@ waitForSourceEditor
 ]
 )
 ;
-yield
+await
 testParamsTab
 (
 "
@@ -690,7 +690,6 @@ monitor
 )
 ;
 function
-*
 testParamsTab
 (
 type

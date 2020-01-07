@@ -47,8 +47,8 @@ works
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -58,7 +58,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CURL_URL
@@ -379,7 +379,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -388,8 +388,8 @@ tab
 .
 linkedBrowser
 SIMPLE_SJS
+async
 function
-*
 (
 url
 )
@@ -406,7 +406,7 @@ url
 }
 )
 ;
-yield
+await
 wait
 ;
 EventUtils
@@ -467,7 +467,7 @@ item
 ]
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 function
@@ -790,7 +790,7 @@ url
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

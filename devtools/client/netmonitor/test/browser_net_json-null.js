@@ -51,8 +51,8 @@ displayed
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -62,7 +62,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 JSON_BASIC_URL
@@ -160,7 +160,7 @@ monitor
 1
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -170,8 +170,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -186,10 +186,10 @@ performRequests
 }
 )
 ;
-yield
+await
 wait
 ;
-yield
+await
 openResponsePanel
 (
 )
@@ -406,7 +406,7 @@ incorrect
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

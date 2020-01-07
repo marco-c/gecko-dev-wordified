@@ -64,8 +64,8 @@ curl
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -75,7 +75,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CURL_UTILS_URL
@@ -174,7 +174,7 @@ monitor
 5
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -183,8 +183,8 @@ tab
 .
 linkedBrowser
 SIMPLE_SJS
+async
 function
-*
 (
 url
 )
@@ -201,7 +201,7 @@ url
 }
 )
 ;
-yield
+await
 wait
 ;
 let
@@ -288,7 +288,7 @@ get
 let
 data
 =
-yield
+await
 createCurlData
 (
 requests
@@ -305,7 +305,7 @@ data
 ;
 data
 =
-yield
+await
 createCurlData
 (
 requests
@@ -337,7 +337,7 @@ data
 ;
 data
 =
-yield
+await
 createCurlData
 (
 requests
@@ -359,7 +359,7 @@ data
 ;
 data
 =
-yield
+await
 createCurlData
 (
 requests
@@ -391,7 +391,7 @@ data
 ;
 data
 =
-yield
+await
 createCurlData
 (
 requests
@@ -457,7 +457,7 @@ testEscapeStringWin
 )
 ;
 }
-yield
+await
 teardown
 (
 monitor
@@ -1928,8 +1928,8 @@ escaped
 )
 ;
 }
+async
 function
-*
 createCurlData
 (
 selected
@@ -1978,7 +1978,7 @@ null
 let
 requestHeaders
 =
-yield
+await
 requestData
 (
 id
@@ -2009,7 +2009,7 @@ headers
 let
 text
 =
-yield
+await
 getLongString
 (
 value
@@ -2037,7 +2037,7 @@ let
 requestPostData
 }
 =
-yield
+await
 requestData
 (
 id
@@ -2071,7 +2071,7 @@ data
 .
 postDataText
 =
-yield
+await
 getLongString
 (
 postData

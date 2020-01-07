@@ -77,8 +77,8 @@ displayed
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -88,7 +88,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SIMPLE_SJS
@@ -187,7 +187,7 @@ reload
 (
 )
 ;
-yield
+await
 wait
 ;
 wait
@@ -232,10 +232,10 @@ item
 ]
 )
 ;
-yield
+await
 wait
 ;
-yield
+await
 waitUntil
 (
 (
@@ -535,7 +535,7 @@ sorted
 "
 )
 ;
-yield
+await
 teardown
 (
 monitor

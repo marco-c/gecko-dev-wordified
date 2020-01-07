@@ -51,8 +51,8 @@ appropriate
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -62,7 +62,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 CUSTOM_GET_URL
@@ -144,7 +144,7 @@ the
 time
 scale
 .
-yield
+await
 ContentTask
 .
 spawn
@@ -154,8 +154,8 @@ tab
 linkedBrowser
 {
 }
+async
 function
-*
 (
 )
 {
@@ -173,7 +173,7 @@ null
 }
 )
 ;
-yield
+await
 wait
 ;
 let

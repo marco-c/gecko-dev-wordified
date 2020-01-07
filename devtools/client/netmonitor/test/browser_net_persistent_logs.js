@@ -67,8 +67,8 @@ tests
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -78,7 +78,7 @@ tab
 monitor
 }
 =
-yield
+await
 initNetMonitor
 (
 SINGLE_GET_URL
@@ -154,7 +154,7 @@ persistlog
 false
 )
 ;
-yield
+await
 reloadAndWait
 (
 )
@@ -211,7 +211,7 @@ haven
 t
 finished
 .
-yield
+await
 waitUntil
 (
 (
@@ -272,12 +272,12 @@ point
 "
 )
 ;
-yield
+await
 reloadAndWait
 (
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -380,12 +380,12 @@ persistlog
 true
 )
 ;
-yield
+await
 reloadAndWait
 (
 )
 ;
-yield
+await
 waitUntil
 (
 (
