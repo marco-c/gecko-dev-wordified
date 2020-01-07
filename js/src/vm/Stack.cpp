@@ -5724,16 +5724,6 @@ isDebuggerEvalFrame
 )
 &
 &
-interpFrame
-(
-)
--
->
-evalInFramePrev
-(
-)
-&
-&
 data_
 .
 debuggerEvalOption_
