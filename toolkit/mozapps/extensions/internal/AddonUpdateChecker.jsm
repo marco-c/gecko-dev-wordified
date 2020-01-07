@@ -322,7 +322,7 @@ modules
 /
 addons
 /
-RDFManifestConverter
+UpdateRDFConverter
 .
 jsm
 "

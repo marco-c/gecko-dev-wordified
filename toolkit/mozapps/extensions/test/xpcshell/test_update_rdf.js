@@ -36,12 +36,8 @@ jsm
 ;
 ChromeUtils
 .
-defineModuleGetter
+import
 (
-this
-"
-UpdateRDFConverter
-"
 "
 resource
 :
@@ -53,7 +49,7 @@ modules
 /
 addons
 /
-RDFManifestConverter
+UpdateRDFConverter
 .
 jsm
 "
