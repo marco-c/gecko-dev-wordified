@@ -152,7 +152,7 @@ h
 #
 include
 "
-xpt_struct
+xptinfo
 .
 h
 "
@@ -9540,7 +9540,7 @@ defined
 in
 /
 /
-xpt_struct
+xptinfo
 .
 h
 .
