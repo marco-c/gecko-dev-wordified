@@ -4460,7 +4460,7 @@ ok
 Assembler
 :
 :
-NoEqual
+NotEqual
 )
 ;
 masm
@@ -16454,6 +16454,7 @@ bind
 &
 nonZero
 )
+;
 }
 else
 {
