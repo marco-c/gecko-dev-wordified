@@ -238,7 +238,7 @@ PDFiumEngineShim
 GetInstanceOrNull
 (
 const
-nsCString
+nsString
 &
 aLibrary
 )
@@ -343,7 +343,7 @@ bool
 Init
 (
 const
-nsCString
+nsString
 &
 aLibrary
 )
