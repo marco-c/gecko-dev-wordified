@@ -32043,7 +32043,7 @@ if
 (
 aFlags
 &
-nsIDOMCanvasRenderingContext2D
+CanvasRenderingContext2DBinding
 :
 :
 DRAWWINDOW_DO_NOT_FLUSH
@@ -32278,7 +32278,7 @@ if
 (
 aFlags
 &
-nsIDOMCanvasRenderingContext2D
+CanvasRenderingContext2DBinding
 :
 :
 DRAWWINDOW_DRAW_CARET
@@ -32297,7 +32297,7 @@ if
 (
 aFlags
 &
-nsIDOMCanvasRenderingContext2D
+CanvasRenderingContext2DBinding
 :
 :
 DRAWWINDOW_DRAW_VIEW
@@ -32324,7 +32324,7 @@ if
 (
 aFlags
 &
-nsIDOMCanvasRenderingContext2D
+CanvasRenderingContext2DBinding
 :
 :
 DRAWWINDOW_USE_WIDGET_LAYERS
@@ -32343,7 +32343,7 @@ if
 (
 aFlags
 &
-nsIDOMCanvasRenderingContext2D
+CanvasRenderingContext2DBinding
 :
 :
 DRAWWINDOW_ASYNC_DECODE_IMAGES
@@ -32362,7 +32362,7 @@ if
 (
 aFlags
 &
-nsIDOMCanvasRenderingContext2D
+CanvasRenderingContext2DBinding
 :
 :
 DRAWWINDOW_DO_NOT_FLUSH

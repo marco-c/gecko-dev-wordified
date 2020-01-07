@@ -120,13 +120,6 @@ mozilla_dom_ImageData_h
 #
 include
 "
-nsIDOMCanvasRenderingContext2D
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
