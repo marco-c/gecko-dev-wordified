@@ -612,14 +612,6 @@ Implementation
 for
 nsIDOMCharacterData
 nsresult
-GetLength
-(
-uint32_t
-*
-aLength
-)
-;
-nsresult
 InsertData
 (
 uint32_t
