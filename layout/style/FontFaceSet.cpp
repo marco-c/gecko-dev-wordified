@@ -2817,8 +2817,7 @@ false
 }
 #
 endif
-FontFaceSet
-*
+void
 FontFaceSet
 :
 :
@@ -2847,7 +2846,6 @@ this
 )
 {
 return
-this
 ;
 }
 if
@@ -2867,7 +2865,6 @@ NS_ERROR_DOM_INVALID_MODIFICATION_ERR
 )
 ;
 return
-nullptr
 ;
 }
 aFontFace
@@ -2991,9 +2988,6 @@ true
 CheckLoadingStarted
 (
 )
-;
-return
-this
 ;
 }
 void

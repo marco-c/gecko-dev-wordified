@@ -1118,8 +1118,7 @@ Status
 (
 )
 ;
-FontFaceSet
-*
+void
 Add
 (
 FontFace
