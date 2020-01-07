@@ -4697,6 +4697,8 @@ CreateTextureHostWithBackend
 (
 TextureClient
 *
+ISurfaceAllocator
+*
 LayersBackend
 &
 )
