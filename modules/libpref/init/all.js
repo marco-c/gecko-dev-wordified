@@ -15532,7 +15532,7 @@ popups
 .
 Disabled
 on
-Linux
+GTK
 due
 to
 bug
@@ -15540,7 +15540,7 @@ bug
 .
 #
 ifdef
-XP_LINUX
+MOZ_WIDGET_GTK
 pref
 (
 "
