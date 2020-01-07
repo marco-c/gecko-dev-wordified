@@ -11062,7 +11062,7 @@ mozInlineSpellChecker
 :
 OnBlur
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -11096,7 +11096,7 @@ mozInlineSpellChecker
 :
 OnMouseClick
 (
-nsIDOMEvent
+Event
 *
 aMouseEvent
 )
@@ -11106,11 +11106,6 @@ MouseEvent
 mouseEvent
 =
 aMouseEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 AsMouseEvent
@@ -11170,7 +11165,7 @@ mozInlineSpellChecker
 :
 OnKeyPress
 (
-nsIDOMEvent
+Event
 *
 aKeyEvent
 )
@@ -11182,11 +11177,6 @@ KeyboardEvent
 keyEvent
 =
 aKeyEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 AsKeyboardEvent

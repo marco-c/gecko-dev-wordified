@@ -4672,11 +4672,6 @@ aEvent
 aEvent
 -
 >
-InternalDOMEvent
-(
-)
--
->
 AsDragEvent
 (
 )
