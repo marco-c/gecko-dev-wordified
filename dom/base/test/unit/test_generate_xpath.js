@@ -146,7 +146,7 @@ html
 let
 doc
 =
-DOMParser
+getParser
 (
 )
 .
