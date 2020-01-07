@@ -2401,6 +2401,16 @@ functional
 "
         
 "
+geckoview
+"
+        
+"
+geckoview
+-
+junit
+"
+        
+"
 gtest
 "
         
@@ -2428,6 +2438,10 @@ mochitests
         
 "
 reftest
+"
+        
+"
+robocop
 "
         
 "
