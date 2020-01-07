@@ -369,12 +369,6 @@ oauth
 txt
 '
                 
-'
-periodic_clobber
-'
-:
-168
-                
 #
 hg
 tool
@@ -629,12 +623,6 @@ clone_by_revision
 '
 :
 False
-                
-'
-use_clobberer
-'
-:
-True
                 
 '
 virtualenv_modules
@@ -1798,14 +1786,6 @@ Actions
 {
 {
 2
-        
-#
-clobber
-in
-BuildingMixin
--
->
-PurgeMixin
     
 def
 set_extra_try_arguments

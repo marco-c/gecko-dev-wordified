@@ -212,14 +212,6 @@ mozharness
 .
 mozilla
 .
-purge
-import
-PurgeMixin
-from
-mozharness
-.
-mozilla
-.
 secrets
 import
 SecretsMixin
@@ -6215,7 +6207,6 @@ class
 BuildScript
 (
 BuildbotMixin
-PurgeMixin
 BalrogMixin
                   
 VirtualenvMixin

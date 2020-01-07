@@ -163,14 +163,6 @@ mozharness
 .
 mozilla
 .
-purge
-import
-PurgeMixin
-from
-mozharness
-.
-mozilla
-.
 release
 import
 ReleaseMixin
@@ -209,7 +201,6 @@ DesktopPartnerRepacks
 (
 ReleaseMixin
 BuildbotMixin
-PurgeMixin
                             
 BaseScript
 VirtualenvMixin
@@ -1576,12 +1567,13 @@ locale
 ]
 )
         
+return
 self
 .
 run_command
 (
 repack_cmd
-                         
+                                
 cwd
 =
 self
@@ -1594,10 +1586,6 @@ query_abs_dirs
 abs_scripts_dir
 '
 ]
-                         
-halt_on_failure
-=
-True
 )
 #
 main

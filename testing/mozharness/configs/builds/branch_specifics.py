@@ -327,12 +327,6 @@ mozconfig_variant
 '
 release
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -349,12 +343,6 @@ mozconfig_variant
 '
 release
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -371,12 +359,6 @@ mozconfig_variant
 '
 release
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -393,12 +375,6 @@ mozconfig_variant
 '
 release
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -415,12 +391,6 @@ mozconfig_variant
 '
 release
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -838,12 +808,6 @@ mozconfig_variant
 '
 release
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -860,12 +824,6 @@ mozconfig_variant
 '
 release
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -882,12 +840,6 @@ mozconfig_variant
 '
 release
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -904,12 +856,6 @@ mozconfig_variant
 '
 release
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -926,12 +872,6 @@ mozconfig_variant
 '
 release
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -1298,12 +1238,6 @@ mozconfig_variant
 '
 beta
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -1320,12 +1254,6 @@ mozconfig_variant
 '
 beta
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -1342,12 +1270,6 @@ mozconfig_variant
 '
 beta
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -1364,12 +1286,6 @@ mozconfig_variant
 '
 beta
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -1386,12 +1302,6 @@ mozconfig_variant
 '
 beta
 '
-                
-'
-force_clobber
-'
-:
-True
             
 }
             
@@ -1841,12 +1751,6 @@ try
         
 '
 branch_supports_uploadsymbols
-'
-:
-False
-        
-'
-use_clobberer
 '
 :
 False
