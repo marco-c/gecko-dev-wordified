@@ -232,6 +232,7 @@ hash
 )
 const
 ;
+explicit
 BaseElf
 (
 const
@@ -695,6 +696,7 @@ base_addr
 ;
 private
 :
+explicit
 LoadedElf
 (
 const

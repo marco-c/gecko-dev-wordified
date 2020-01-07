@@ -1754,6 +1754,7 @@ return
 nullptr
 ;
 }
+explicit
 SignedEntity
 (
 uint32_t
