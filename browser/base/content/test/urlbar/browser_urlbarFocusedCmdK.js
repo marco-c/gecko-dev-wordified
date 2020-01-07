@@ -62,6 +62,14 @@ focus
 "
 )
 ;
+document
+.
+documentElement
+.
+focus
+(
+)
+;
 EventUtils
 .
 synthesizeKey
