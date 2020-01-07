@@ -88,7 +88,6 @@ from
 mozprofile
 import
 FirefoxProfile
-Profile
 Preferences
 from
 mozprofile
@@ -518,6 +517,7 @@ tools
 '
 quitter
 '
+                                     
 '
 quitter
 mozilla
@@ -785,6 +785,7 @@ jarlog
 )
             
 print
+(
 "
 jarlog
 :
@@ -798,6 +799,7 @@ env
 MOZ_JAR_LOG_FILE
 "
 ]
+)
         
 cmdargs
 =

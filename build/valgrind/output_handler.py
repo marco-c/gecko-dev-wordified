@@ -432,6 +432,10 @@ appropriately
 '
 '
 '
+#
+NOQA
+:
+E501
     
 def
 __init__

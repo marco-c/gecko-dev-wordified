@@ -66,8 +66,6 @@ MPL
 import
 os
 import
-re
-import
 sys
 import
 glob
@@ -945,6 +943,7 @@ argv
 :
         
 print
+(
 "
 "
 "
@@ -987,6 +986,7 @@ tree
 "
 "
 "
+)
         
 return
     
@@ -1012,6 +1012,7 @@ mozilla_path
 :
         
 print
+(
 "
 Invalid
 path
@@ -1020,6 +1021,7 @@ mozilla
 clang
 plugin
 "
+)
     
 clang_tidy_path
 =
@@ -1043,6 +1045,7 @@ mozilla_path
 :
         
 print
+(
 "
 Invalid
 path
@@ -1053,6 +1056,7 @@ tidy
 source
 directory
 "
+)
     
 do_import
 (

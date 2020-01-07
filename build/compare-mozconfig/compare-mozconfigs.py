@@ -91,6 +91,10 @@ compare
 mozconfigs
 .
 py
+#
+NOQA
+:
+E501
 from
 __future__
 import
@@ -313,6 +317,7 @@ diff_instance
 .
 compare
 (
+        
 mozconfig_lines
 nightly_mozconfig_lines
 )

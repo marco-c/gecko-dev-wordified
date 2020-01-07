@@ -66,8 +66,6 @@ import
 mozinfo
 import
 os
-import
-subprocess
 from
 mach
 .
@@ -286,19 +284,6 @@ self
 suppressions
 )
 :
-        
-import
-sys
-        
-import
-tempfile
-        
-from
-mozbuild
-.
-base
-import
-MozbuildObject
         
 from
 mozfile
@@ -1312,6 +1297,9 @@ parsing
 errs
 }
 errors
+'
+                             
+'
 seen
 but
 {
@@ -1392,8 +1380,7 @@ errors
                 
 if
 exitcode
-=
-=
+is
 None
 :
                     
@@ -1444,6 +1431,9 @@ test
 Valgrind
 timed
 out
+'
+                             
+'
 (
 reached
 {
@@ -1505,6 +1495,9 @@ non
 zero
 exit
 code
+'
+                             
+'
 from
 Valgrind
 '

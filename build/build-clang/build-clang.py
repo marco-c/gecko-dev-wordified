@@ -732,6 +732,7 @@ path
 )
         
 except
+Exception
 :
             
 pass

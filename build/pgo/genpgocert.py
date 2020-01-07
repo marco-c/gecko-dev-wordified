@@ -114,8 +114,6 @@ subprocess
 import
 sys
 import
-tempfile
-import
 distutils
 from
 mozbuild
@@ -660,6 +658,10 @@ Optimization
 n
 "
 )
+#
+NOQA
+:
+E501
     
 fd
 .
@@ -830,33 +832,12 @@ NamedTemporaryFile
 )
 as
 pwfile
-NamedTemporaryFile
-(
-)
-as
-rndfile
 TemporaryDirectory
 (
 )
 as
 pemfolder
 :
-        
-pgoCAPath
-=
-os
-.
-path
-.
-join
-(
-srcDir
-"
-pgoca
-.
-p12
-"
-)
         
 pwfile
 .
@@ -1262,6 +1243,7 @@ P
 i
 "
 pem
+                                 
 "
 -
 d
@@ -1274,6 +1256,7 @@ f
 pwfile
 .
 name
+                                 
 ]
 )
                 
@@ -1367,6 +1350,9 @@ XXX
 client
 .
 keyspec
+"
+                                    
+"
 or
 XXX
 .
@@ -1383,7 +1369,7 @@ key_type
 .
 format
 (
-                        
+                                        
 keyspec
 key_type
 )
@@ -1550,6 +1536,9 @@ named
 {
 }
 for
+"
+                                    
+"
 the
 keyspec
 {
@@ -1558,7 +1547,7 @@ keyspec
 .
 format
 (
-                        
+                                        
 cert_pem
 keyspec
 )
@@ -1652,6 +1641,7 @@ p12
 -
 passout
 "
+                                           
 "
 file
 :
@@ -1886,6 +1876,7 @@ certificateStatus
 :
     
 print
+(
 "
 TEST
 -
@@ -1898,6 +1889,7 @@ Server
 Certificate
 generation
 "
+)
 sys
 .
 exit

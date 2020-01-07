@@ -678,12 +678,14 @@ INSTALL_NAME_TOOL
 -
 id
 '
+                                 
 '
 executable_path
 /
 '
 +
 DYLIB_NAME
+                                 
 os
 .
 path
@@ -787,6 +789,7 @@ change
 '
                                            
 absDylibPath
+                                           
 '
 executable_path
 /
@@ -795,6 +798,7 @@ executable_path
 relpath
 +
 DYLIB_NAME
+                                           
 filename
 ]
 )

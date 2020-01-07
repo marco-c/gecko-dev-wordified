@@ -500,6 +500,7 @@ alertThreshold
 }
         
 print
+(
 "
 PERFHERDER_DATA
 :
@@ -512,4 +513,5 @@ json
 dumps
 (
 perfherder_data
+)
 )
