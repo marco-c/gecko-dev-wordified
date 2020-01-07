@@ -1064,6 +1064,22 @@ MOZ_CODE_COVERAGE
 1
 '
     
+d
+[
+'
+cc_type
+'
+]
+=
+substs
+.
+get
+(
+'
+CC_TYPE
+'
+)
+    
 def
 guess_platform
 (
