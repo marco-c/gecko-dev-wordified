@@ -510,7 +510,7 @@ same
 '
 expectCredentialsSent
 :
-false
+true
 }
 )
 ;
@@ -530,7 +530,6 @@ should
 '
 +
 '
-not
 send
 the
 credentials
