@@ -88,13 +88,6 @@ ArrayUtils
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -373,7 +366,7 @@ header
 =
 0xfc
 ;
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >
@@ -570,7 +563,7 @@ false
 ;
 }
 }
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >

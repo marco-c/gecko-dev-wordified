@@ -120,13 +120,6 @@ MediaData
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -348,7 +341,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >
@@ -2122,7 +2115,7 @@ return
 false
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >
@@ -2507,7 +2500,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >

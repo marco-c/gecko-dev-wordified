@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 TimeUnits
 .
 h
@@ -4313,7 +4306,7 @@ aRange
 .
 mStart
 ;
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >

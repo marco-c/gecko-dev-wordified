@@ -159,13 +159,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 VideoUtils
 .
 h
@@ -2484,7 +2477,7 @@ aRange
 .
 mStart
 ;
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >
@@ -2731,7 +2724,7 @@ aRange
 .
 mStart
 ;
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >

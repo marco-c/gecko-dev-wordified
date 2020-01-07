@@ -217,13 +217,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsAutoRef
 .
 h
@@ -4750,7 +4743,7 @@ packetEncryption
 NESTEGG_PACKET_HAS_SIGNAL_BYTE_PARTITIONED
 )
 {
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >
@@ -7889,7 +7882,7 @@ mCrypto
 mValid
 )
 {
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >

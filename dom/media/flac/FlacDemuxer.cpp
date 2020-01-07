@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 prenv
 .
 h
@@ -6269,7 +6262,7 @@ mOffset
 =
 offset
 ;
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >
