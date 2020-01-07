@@ -889,12 +889,14 @@ aMatrix
 mAnimateMotionTransform
 &
 &
-*
 aMatrix
-=
-=
+-
+>
+FuzzyEquals
+(
 *
 mAnimateMotionTransform
+)
 )
 )
 {
