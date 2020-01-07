@@ -342,6 +342,12 @@ WasmStreamStatus
 500
 )
 \
+_
+(
+SharedArrayGrow
+500
+)
+\
 \
 _
 (
