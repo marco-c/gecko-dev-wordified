@@ -493,7 +493,6 @@ DER
 SECItem
 newinput
 ;
-SECStatus
 rv
 =
 SECITEM_CopyItem

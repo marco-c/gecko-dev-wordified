@@ -228,6 +228,15 @@ ECParams
 params
 )
 ;
+extern
+void
+prepare_low_rsa_pub_key_for_asn1
+(
+NSSLOWKEYPublicKey
+*
+key
+)
+;
 /
 *
 *

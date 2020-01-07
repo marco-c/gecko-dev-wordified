@@ -733,14 +733,14 @@ shared_ptr
 TlsAgent
 >
 &
-agent
+a
 size_t
 size
 )
 :
 TlsRecordFilter
 (
-agent
+a
 )
 enabled_
 (

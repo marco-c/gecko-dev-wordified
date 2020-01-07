@@ -3348,7 +3348,7 @@ SECSuccess
 )
 {
 goto
-loser
+alert_loser
 ;
 /
 *
@@ -3382,7 +3382,7 @@ SECSuccess
 )
 {
 goto
-loser
+alert_loser
 ;
 }
 hashAlg

@@ -6256,9 +6256,9 @@ PR_FALSE
 {
 void
 *
-dummy
+v
 ;
-dummy
+v
 =
 CBC_PadBuffer
 (
@@ -6286,7 +6286,7 @@ RC2_BLOCK_SIZE
 ;
 if
 (
-dummy
+v
 =
 =
 NULL
@@ -6312,7 +6312,7 @@ unsigned
 char
 *
 )
-dummy
+v
 ;
 }
 dest

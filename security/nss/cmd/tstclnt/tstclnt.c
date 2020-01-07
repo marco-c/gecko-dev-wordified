@@ -1019,10 +1019,6 @@ static
 void
 PrintUsageHeader
 (
-const
-char
-*
-progName
 )
 {
 fprintf
@@ -1208,7 +1204,6 @@ static
 void
 PrintParameterUsage
 (
-void
 )
 {
 fprintf
@@ -2539,15 +2534,10 @@ static
 void
 Usage
 (
-const
-char
-*
-progName
 )
 {
 PrintUsageHeader
 (
-progName
 )
 ;
 PrintParameterUsage
@@ -2564,15 +2554,10 @@ static
 void
 PrintCipherUsage
 (
-const
-char
-*
-progName
 )
 {
 PrintUsageHeader
 (
-progName
 )
 ;
 fprintf
@@ -2860,7 +2845,6 @@ ticks
 void
 disableAllSSLCiphers
 (
-void
 )
 {
 const
@@ -5914,7 +5898,6 @@ else
 \
 Usage
 (
-progName
 )
 ;
 \
@@ -6738,7 +6721,7 @@ PRFileDesc
 s
 char
 *
-nickname
+nick
 )
 {
 CERTCertificate
@@ -6754,7 +6737,7 @@ NULL
 if
 (
 !
-nickname
+nick
 )
 {
 PORT_SetError
@@ -6770,7 +6753,7 @@ cert
 =
 PK11_FindCertFromNickname
 (
-nickname
+nick
 &
 pwdata
 )
@@ -7312,7 +7295,6 @@ static
 int
 run
 (
-void
 )
 {
 int
@@ -7800,7 +7782,6 @@ ndx
 )
 Usage
 (
-progName
 )
 ;
 ndx
@@ -7840,10 +7821,7 @@ cipher
 0
 )
 {
-SECStatus
-status
-;
-status
+rv
 =
 SSL_CipherPrefSet
 (
@@ -7854,7 +7832,7 @@ SSL_ALLOWED
 ;
 if
 (
-status
+rv
 !
 =
 SECSuccess
@@ -7874,7 +7852,6 @@ else
 {
 Usage
 (
-progName
 )
 ;
 }
@@ -10307,7 +10284,6 @@ default
 :
 Usage
 (
-progName
 )
 ;
 break
@@ -10328,7 +10304,6 @@ allowIPv4
 )
 Usage
 (
-progName
 )
 ;
 break
@@ -10349,7 +10324,6 @@ allowIPv6
 )
 Usage
 (
-progName
 )
 ;
 break
@@ -10647,7 +10621,6 @@ client
 {
 Usage
 (
-progName
 )
 ;
 }
@@ -10765,7 +10738,6 @@ else
 {
 Usage
 (
-progName
 )
 ;
 }
@@ -10778,7 +10750,6 @@ Y
 :
 PrintCipherUsage
 (
-progName
 )
 ;
 exit
@@ -10843,7 +10814,6 @@ else
 {
 Usage
 (
-progName
 )
 ;
 }
@@ -11194,7 +11164,6 @@ n
 ;
 Usage
 (
-progName
 )
 ;
 }
@@ -11252,7 +11221,6 @@ n
 ;
 Usage
 (
-progName
 )
 ;
 }
@@ -11272,7 +11240,6 @@ PL_OPT_BAD
 {
 Usage
 (
-progName
 )
 ;
 }
@@ -11309,7 +11276,6 @@ progName
 ;
 Usage
 (
-progName
 )
 ;
 }

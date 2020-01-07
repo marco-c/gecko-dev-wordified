@@ -25139,7 +25139,7 @@ keySize
 ;
 unsigned
 long
-exponent
+keyExponent
 =
 65537
 ;
@@ -25220,7 +25220,7 @@ opt_Exponent
 activated
 )
 {
-exponent
+keyExponent
 =
 PORT_Atoi
 (
@@ -25271,7 +25271,7 @@ ret
 doRSAPopulateTest
 (
 keySize
-exponent
+keyExponent
 )
 ;
 if

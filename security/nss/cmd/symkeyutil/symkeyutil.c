@@ -7471,11 +7471,6 @@ pwdata
 char
 *
 keyName
-=
-PK11_GetSymKeyNickname
-(
-symKey
-)
 ;
 if
 (
@@ -7483,8 +7478,6 @@ if
 symKey
 )
 {
-char
-*
 keyName
 =
 keyID
@@ -7663,6 +7656,13 @@ goto
 shutdown
 ;
 }
+keyName
+=
+PK11_GetSymKeyNickname
+(
+symKey
+)
+;
 if
 (
 keyName
