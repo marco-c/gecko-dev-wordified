@@ -21101,7 +21101,7 @@ GetCSDSupportLevel
 )
 =
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 )
 |
 |
@@ -36073,7 +36073,7 @@ GetCSDSupportLevel
 )
 =
 =
-CSD_SUPPORT_FULL
+CSD_SUPPORT_SYSTEM
 )
 {
 SetWindowDecoration
@@ -38162,7 +38162,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 ;
 /
 /
@@ -38187,7 +38187,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FULL
+CSD_SUPPORT_SYSTEM
 ;
 }
 else
@@ -38207,7 +38207,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 ;
 }
 else
@@ -38229,7 +38229,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FULL
+CSD_SUPPORT_SYSTEM
 ;
 /
 /
@@ -38253,7 +38253,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 ;
 }
 else
@@ -38273,7 +38273,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 ;
 }
 else
@@ -38293,7 +38293,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 ;
 }
 else
@@ -38333,7 +38333,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 ;
 /
 /
@@ -38357,7 +38357,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 ;
 /
 /
@@ -38381,7 +38381,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FULL
+CSD_SUPPORT_SYSTEM
 ;
 }
 else
@@ -38401,7 +38401,7 @@ nullptr
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FULL
+CSD_SUPPORT_SYSTEM
 ;
 }
 else
@@ -38444,7 +38444,7 @@ CSD_SUPPORT_NONE
 else
 sCSDSupportLevel
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 ;
 #
 endif
@@ -38464,7 +38464,7 @@ don
 '
 t
 support
-CSD_SUPPORT_FULL
+CSD_SUPPORT_SYSTEM
 on
 Wayland
 if
@@ -38481,12 +38481,12 @@ gdk_display_get_default
 sCSDSupportLevel
 =
 =
-CSD_SUPPORT_FULL
+CSD_SUPPORT_SYSTEM
 )
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 ;
 }
 /
@@ -38529,7 +38529,7 @@ if
 sCSDSupportLevel
 =
 =
-CSD_SUPPORT_FULL
+CSD_SUPPORT_SYSTEM
 )
 {
 const
@@ -38563,7 +38563,7 @@ csdOverride
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 ;
 }
 }
@@ -38628,7 +38628,7 @@ client
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 ;
 }
 else
@@ -38648,7 +38648,7 @@ system
 {
 sCSDSupportLevel
 =
-CSD_SUPPORT_FULL
+CSD_SUPPORT_SYSTEM
 ;
 }
 }

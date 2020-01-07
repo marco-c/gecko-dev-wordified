@@ -2153,13 +2153,13 @@ const
 typedef
 enum
 {
-CSD_SUPPORT_FULL
+CSD_SUPPORT_SYSTEM
 /
 /
 CSD
 including
 shadows
-CSD_SUPPORT_FLAT
+CSD_SUPPORT_CLIENT
 /
 /
 CSD
