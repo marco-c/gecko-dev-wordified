@@ -1781,7 +1781,7 @@ IsVoid
 returns
 true
 const
-SHARED
+REFCOUNTED
 =
 1
 <
@@ -1797,7 +1797,10 @@ a
 heap
 -
 allocated
-shared
+shareable
+refcounted
+/
+/
 buffer
 const
 OWNED
@@ -9584,7 +9587,7 @@ f_voided
 *
 mut
 u16
-f_shared
+f_refcounted
 :
 *
 mut
@@ -9643,12 +9646,12 @@ bits
 )
 ;
 *
-f_shared
+f_refcounted
 =
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 .
 bits
 (
