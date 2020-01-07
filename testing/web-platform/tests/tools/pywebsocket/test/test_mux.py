@@ -6675,7 +6675,7 @@ ws_protocol
 )
     
 def
-test_add_channel_delta_encoding_permessage_compress
+test_add_channel_delta_encoding_permessage_deflate
 (
 self
 )
@@ -6684,7 +6684,7 @@ self
 #
 Enable
 permessage
-compress
+deflate
 extension
 on
 the
@@ -6700,18 +6700,9 @@ common
 parse_extensions
 (
             
-'
-%
-s
-;
-method
-=
-deflate
-'
-%
 common
 .
-PERMESSAGE_COMPRESSION_EXTENSION
+PERMESSAGE_DEFLATE_EXTENSION
 )
         
 request
@@ -7115,7 +7106,7 @@ self
 #
 Enable
 permessage
-compress
+deflate
 extension
 on
 the
@@ -7131,18 +7122,9 @@ common
 parse_extensions
 (
             
-'
-%
-s
-;
-method
-=
-deflate
-'
-%
 common
 .
-PERMESSAGE_COMPRESSION_EXTENSION
+PERMESSAGE_DEFLATE_EXTENSION
 )
         
 request
@@ -7193,7 +7175,7 @@ _INITIAL_QUOTA_FOR_CLIENT
 #
 Remove
 permessage
-compress
+deflate
 extension
 .
         
@@ -14474,7 +14456,7 @@ server_close_code
 )
     
 def
-test_permessage_compress
+test_permessage_deflate
 (
 self
 )
@@ -14524,7 +14506,7 @@ _INITIAL_QUOTA_FOR_CLIENT
 #
 Enable
 permessage
-compress
+deflate
 extension
 on
 logical
@@ -14534,21 +14516,9 @@ channel
         
 extensions
 =
-'
-%
-s
-;
-method
-=
-deflate
-'
-%
-(
-            
 common
 .
-PERMESSAGE_COMPRESSION_EXTENSION
-)
+PERMESSAGE_DEFLATE_EXTENSION
         
 encoded_handshake
 =
@@ -14883,7 +14853,7 @@ messages
 )
     
 def
-test_permessage_compress_fragmented_message
+test_permessage_deflate_fragmented_message
 (
 self
 )
@@ -14896,18 +14866,9 @@ common
 parse_extensions
 (
             
-'
-%
-s
-;
-method
-=
-deflate
-'
-%
 common
 .
-PERMESSAGE_COMPRESSION_EXTENSION
+PERMESSAGE_DEFLATE_EXTENSION
 )
         
 request

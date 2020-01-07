@@ -1066,6 +1066,21 @@ definition
 )
 :
     
+"
+"
+"
+Return
+the
+meaning
+of
+a
+option
+value
+.
+"
+"
+"
+    
 if
 value
 is
@@ -1123,6 +1138,19 @@ _create_dispatcher
 (
 )
 :
+    
+"
+"
+"
+Initialize
+a
+dispatch
+.
+Dispatcher
+.
+"
+"
+"
     
 _LOGGER
 .
@@ -1619,6 +1647,7 @@ s
 '
 %
 e
+                          
 apache
 .
 APLOG_INFO

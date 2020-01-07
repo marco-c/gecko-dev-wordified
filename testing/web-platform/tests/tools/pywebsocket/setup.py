@@ -478,7 +478,7 @@ license
 =
 '
 See
-COPYING
+LICENSE
 '
       
 name
