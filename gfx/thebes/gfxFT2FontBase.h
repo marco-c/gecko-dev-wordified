@@ -186,8 +186,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aEmbolden
 )
 ;
 virtual

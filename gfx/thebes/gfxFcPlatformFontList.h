@@ -761,8 +761,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 override
 ;
@@ -789,8 +787,6 @@ const
 gfxFontStyle
 *
 aStyle
-bool
-aNeedsBold
 )
 ;
 /
@@ -1266,9 +1262,6 @@ gfxFontEntry
 &
 aFontEntryList
 bool
-&
-aNeedsSyntheticBold
-bool
 aIgnoreSizeTolerance
 )
 override
@@ -1374,8 +1367,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 ;
 virtual

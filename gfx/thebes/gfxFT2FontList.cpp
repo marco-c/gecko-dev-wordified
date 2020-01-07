@@ -1546,8 +1546,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 {
 cairo_scaled_font_t
@@ -1625,7 +1623,6 @@ unscaledFont
 scaledFont
 this
 aFontStyle
-aNeedsBold
 )
 ;
 cairo_scaled_font_destroy

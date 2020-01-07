@@ -1100,9 +1100,6 @@ const
 gfxFontStyle
 *
 aStyle
-bool
-&
-aNeedsBold
 )
 ;
 /

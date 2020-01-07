@@ -3431,8 +3431,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 override
 ;

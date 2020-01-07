@@ -1986,9 +1986,6 @@ gfxFontEntry
 >
 entries
 ;
-bool
-needsBold
-;
 family
 -
 >
@@ -1996,7 +1993,6 @@ FindAllFontsForStyle
 (
 style
 entries
-needsBold
 )
 ;
 for

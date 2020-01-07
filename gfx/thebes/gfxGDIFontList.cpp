@@ -1165,8 +1165,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 {
 return
@@ -1175,7 +1173,6 @@ gfxGDIFont
 (
 this
 aFontStyle
-aNeedsBold
 )
 ;
 }

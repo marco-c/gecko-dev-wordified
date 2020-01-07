@@ -938,7 +938,6 @@ gfxWindowsFontType
 aFontType
 )
 ;
-virtual
 gfxFont
 *
 CreateFontInstance
@@ -947,8 +946,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 override
 ;

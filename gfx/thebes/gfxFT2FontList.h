@@ -388,7 +388,6 @@ aLength
 0
 )
 ;
-virtual
 gfxFont
 *
 CreateFontInstance
@@ -397,8 +396,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 override
 ;

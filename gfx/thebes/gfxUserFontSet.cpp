@@ -1003,8 +1003,6 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
-aNeedsBold
 )
 {
 NS_NOTREACHED
