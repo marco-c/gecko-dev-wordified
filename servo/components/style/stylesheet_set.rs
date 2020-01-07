@@ -3021,12 +3021,10 @@ origin
 =
 sheet
 .
-contents
+origin
 (
 guard
 )
-.
-origin
 ;
 self
 .

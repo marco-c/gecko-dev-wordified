@@ -13710,7 +13710,13 @@ rule
 .
 stylesheet
 .
-0
+as_sheet
+(
+)
+.
+unwrap
+(
+)
 .
 raw
 (
