@@ -184,6 +184,15 @@ include
 "
 mozilla
 /
+MozPromise
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -1875,7 +1884,10 @@ ServiceWorkerRegistrationInfo
 aRegistration
 )
 ;
-void
+RefPtr
+<
+GenericPromise
+>
 StartControllingADocument
 (
 ServiceWorkerRegistrationInfo
