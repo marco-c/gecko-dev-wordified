@@ -59,6 +59,39 @@ get
 UNSIGNED_MAR
 "
 )
+}
+if
+not
+os
+.
+environ
+.
+get
+(
+"
+NO_STUB_INSTALLER
+"
+)
+:
+    
+#
+Some
+channels
+like
+esr
+don
+'
+t
+build
+a
+stub
+installer
+    
+download_config
+.
+update
+(
+{
         
 #
 stub
@@ -89,6 +122,7 @@ SIGNED_SETUP_STUB
 )
     
 }
+)
 repackage_config
 =
 [
@@ -272,6 +306,38 @@ mar
 "
     
 ]
+]
+if
+not
+os
+.
+environ
+.
+get
+(
+"
+NO_STUB_INSTALLER
+"
+)
+:
+    
+#
+Some
+channels
+like
+esr
+don
+'
+t
+build
+a
+stub
+installer
+    
+repackage_config
+.
+append
+(
 [
         
 "
@@ -302,7 +368,7 @@ stub
 .
 tag
 "
-         
+        
 "
 -
 -
@@ -323,7 +389,7 @@ stub
 .
 exe
 "
-         
+        
 "
 -
 o
@@ -365,7 +431,7 @@ sfx
 "
     
 ]
-]
+)
 config
 =
 {

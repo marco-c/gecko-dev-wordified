@@ -1475,6 +1475,17 @@ signing_task_ref
 locale
 =
 locale
+                                      
+project
+=
+config
+.
+params
+[
+"
+project
+"
+]
 )
             
 '
@@ -1485,9 +1496,21 @@ _generate_task_output_files
 (
 dep_job
 build_platform
+                                                     
 locale
 =
 locale
+                                                     
+project
+=
+config
+.
+params
+[
+"
+project
+"
+]
 )
             
 '
@@ -1959,6 +1982,10 @@ signing_task_ref
 locale
 =
 None
+                       
+project
+=
+None
 )
 :
     
@@ -2184,6 +2211,25 @@ mar_prefix
         
 }
         
+no_stub
+=
+(
+"
+mozilla
+-
+esr60
+"
+"
+jamun
+"
+)
+        
+if
+project
+in
+no_stub
+:
+            
 #
 Stub
 installer
@@ -2192,7 +2238,34 @@ only
 generated
 on
 win32
+and
+not
+on
+esr
+            
+task_env
+[
+'
+NO_STUB_INSTALLER
+'
+]
+=
+'
+1
+'
         
+else
+:
+            
+#
+Stub
+installer
+is
+only
+generated
+on
+win32
+            
 if
 '
 32
@@ -2200,7 +2273,7 @@ if
 in
 build_platform
 :
-            
+                
 task_env
 [
 '
@@ -2209,7 +2282,7 @@ SIGNED_SETUP_STUB
 ]
 =
 {
-                
+                    
 '
 task
 -
@@ -2230,7 +2303,7 @@ format
 (
 signed_prefix
 )
-            
+                
 }
         
 return
@@ -2260,6 +2333,9 @@ _generate_task_output_files
 task
 build_platform
 locale
+=
+None
+project
 =
 None
 )
@@ -2596,13 +2672,35 @@ only
 generated
 on
 win32
+and
+not
+on
+esr
+        
+no_stub
+=
+(
+"
+mozilla
+-
+esr60
+"
+"
+jamun
+"
+)
         
 if
 '
-32
+win32
 '
 in
 build_platform
+and
+project
+not
+in
+no_stub
 :
             
 output_files
