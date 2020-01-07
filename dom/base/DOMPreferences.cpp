@@ -484,6 +484,15 @@ privacy
 resistFingerprinting
 "
 )
+PREF
+(
+DevToolsEnabled
+"
+devtools
+.
+enabled
+"
+)
 #
 undef
 PREF
