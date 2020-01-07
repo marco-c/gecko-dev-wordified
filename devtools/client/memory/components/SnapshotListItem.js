@@ -655,7 +655,7 @@ void
 :
 dom
 .
-div
+button
 (
 {
 onClick
