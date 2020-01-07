@@ -299,6 +299,9 @@ Binding
 self
 .
 opacity_key
+self
+.
+opacity
 )
 self
 .
@@ -334,6 +337,12 @@ Binding
 self
 .
 property_key
+LayoutTransform
+:
+:
+identity
+(
+)
 )
 )
 TransformStyle
