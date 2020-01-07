@@ -3602,8 +3602,44 @@ platform
 upstream_artifacts
 =
 [
-{
+]
+    
+#
+Some
+platforms
+(
+like
+android
+-
+api
+-
+16
+-
+nightly
+-
+l10n
+)
+may
+not
+depend
+on
+any
+unsigned
+artifact
+    
+if
+build_mapping
+[
+platform
+]
+:
         
+upstream_artifacts
+.
+append
+(
+{
+            
 "
 taskId
 "
@@ -3617,7 +3653,7 @@ reference
 :
 build_task_ref
 }
-        
+            
 "
 taskType
 "
@@ -3625,7 +3661,7 @@ taskType
 "
 build
 "
-        
+            
 "
 paths
 "
@@ -3644,7 +3680,7 @@ format
 artifact_prefix
 p
 )
-                  
+                      
 for
 p
 in
@@ -3653,7 +3689,7 @@ build_mapping
 platform
 ]
 ]
-        
+            
 "
 locale
 "
@@ -3667,6 +3703,12 @@ US
 "
         
 }
+)
+    
+upstream_artifacts
+.
+append
+(
 {
         
 "
@@ -3732,7 +3774,7 @@ US
 "
     
 }
-]
+)
     
 if
 not
