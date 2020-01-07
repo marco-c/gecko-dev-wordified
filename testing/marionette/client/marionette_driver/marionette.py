@@ -13200,10 +13200,6 @@ default
 script_timeout
 =
 None
-                             
-debug_script
-=
-False
 )
 :
         
@@ -13380,20 +13376,6 @@ no
 globals
 are
 preserved
-.
-        
-:
-param
-debug_script
-:
-Capture
-javascript
-exceptions
-when
-in
-            
-CONTEXT_CHROME
-context
 .
         
 Usage
@@ -13592,12 +13574,6 @@ filename
 "
 :
 filename
-                
-"
-debug_script
-"
-:
-debug_script
 }
         
 rv
@@ -13611,7 +13587,6 @@ WebDriver
 :
 ExecuteAsyncScript
 "
-                                
 body
 key
 =
