@@ -218,6 +218,9 @@ shippingType
 shipping
 "
 }
+shippingOption
+:
+null
 }
 selectedPayerAddress
 :

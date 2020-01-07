@@ -761,7 +761,7 @@ children
 .
 length
 selectedOptionIndex
-selectedOptionValue
+selectedOptionID
 :
 selectedOption
 .
@@ -791,14 +791,14 @@ getAttribute
 currency
 "
 )
-selectedOptionAmount
+selectedOptionValue
 :
 currencyAmount
 .
 getAttribute
 (
 "
-amount
+value
 "
 )
 }
