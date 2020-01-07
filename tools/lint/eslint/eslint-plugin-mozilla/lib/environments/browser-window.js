@@ -437,7 +437,9 @@ js
 /
 /
 Via
-editMenuOverlay
+editMenuCommands
+.
+inc
 .
 xul
 "
