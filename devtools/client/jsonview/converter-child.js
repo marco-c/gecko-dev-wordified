@@ -181,7 +181,7 @@ lazyGetter
 (
 this
 "
-debug
+debugJsModules
 "
 function
 (
@@ -213,11 +213,6 @@ return
 !
 !
 (
-AppConstants
-.
-DEBUG
-|
-|
 AppConstants
 .
 DEBUG_JS_MODULES
@@ -1325,9 +1320,9 @@ JSONView
 ;
 data
 .
-debug
+debugJsModules
 =
-debug
+debugJsModules
 ;
 data
 .

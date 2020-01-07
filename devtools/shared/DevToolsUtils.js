@@ -2761,13 +2761,6 @@ DEBUG_JS_MODULES
 build
 *
 -
-This
-is
-a
-DEBUG
-build
-*
--
 flags
 .
 testing
@@ -2837,11 +2830,6 @@ get
 =
 >
 (
-AppConstants
-.
-DEBUG
-|
-|
 AppConstants
 .
 DEBUG_JS_MODULES

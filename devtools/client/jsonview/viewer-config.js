@@ -334,7 +334,7 @@ react
 :
 JSONView
 .
-debug
+debugJsModules
 ?
 "
 resource
@@ -385,7 +385,7 @@ dom
 :
 JSONView
 .
-debug
+debugJsModules
 ?
 "
 resource
@@ -442,7 +442,7 @@ types
 :
 JSONView
 .
-debug
+debugJsModules
 ?
 "
 resource
@@ -505,7 +505,7 @@ utils
 :
 JSONView
 .
-debug
+debugJsModules
 ?
 "
 resource
