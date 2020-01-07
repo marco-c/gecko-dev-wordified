@@ -1448,13 +1448,6 @@ const
 ;
 }
 ;
-enum
-reflectStatus
-{
-REFLECT_OK
-REFLECT_FAILURE
-}
-;
 /
 /
 Structs
