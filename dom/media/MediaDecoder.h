@@ -3128,7 +3128,7 @@ mDecoderStateMachine
 protected
 :
 void
-NotifyDataArrivedInternal
+NotifyReaderDataArrived
 (
 )
 ;

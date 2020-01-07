@@ -7562,7 +7562,7 @@ void
 MediaDecoder
 :
 :
-NotifyDataArrivedInternal
+NotifyReaderDataArrived
 (
 )
 {
@@ -7632,7 +7632,7 @@ NotifyDataArrived
 (
 )
 {
-NotifyDataArrivedInternal
+NotifyReaderDataArrived
 (
 )
 ;
