@@ -380,7 +380,9 @@ error
 :
             
 print
+(
 error
+)
     
 def
 createBookmarksOnToolbar
@@ -497,7 +499,9 @@ error
 :
             
 print
+(
 error
+)
     
 def
 createHistory
@@ -621,7 +625,9 @@ error
 :
             
 print
+(
 error
+)
     
 def
 createFormHistory
@@ -760,9 +766,11 @@ _formHistoryValue
 if
 error
 :
-          
+            
 print
+(
 error
+)
     
 def
 createFormAutofill
@@ -1370,6 +1378,10 @@ self
 _expectedURLs
 )
 )
+#
+NOQA
+:
+E501
     
 def
 createSync
@@ -1491,7 +1503,6 @@ marionetteScriptFinished
 "
 "
 )
-;
     
 def
 checkPassword
@@ -2147,6 +2158,7 @@ assertEqual
 (
 formFieldResultCount
 1
+                         
 "
 Should
 have
@@ -2161,6 +2173,7 @@ got
 d
 "
 %
+                         
 formFieldResultCount
 )
         
@@ -2175,6 +2188,7 @@ self
 .
 assertEqual
 (
+                
 formFieldResults
 [
 0
@@ -2256,6 +2270,7 @@ assertEqual
 (
 formHistoryCount
 1
+                         
 "
 There
 should
@@ -2370,6 +2385,7 @@ assertEqual
 (
 formAutofillAddressCount
 1
+                         
 "
 Should
 have
@@ -2396,6 +2412,7 @@ self
 .
 assertEqual
 (
+                
 formAutofillResults
 [
 0
@@ -2753,7 +2770,7 @@ up
         
 try
 :
-          
+            
 alert
 =
 self
@@ -2763,7 +2780,7 @@ marionette
 switch_to_alert
 (
 )
-          
+            
 alert
 .
 dismiss
@@ -2773,7 +2790,7 @@ dismiss
 except
 NoAlertPresentException
 :
-          
+            
 pass
         
 tabURIs
@@ -3038,6 +3055,10 @@ true
 "
 "
 )
+#
+NOQA
+:
+E501
         
 self
 .
@@ -3214,7 +3235,6 @@ toString
 "
 "
 )
-;
         
 if
 type
@@ -3257,7 +3277,6 @@ test
 com
 "
 )
-;
         
 self
 .
@@ -3278,7 +3297,6 @@ uid
 uid
 "
 )
-;
         
 self
 .
@@ -3301,12 +3319,11 @@ top
 secret
 "
 )
-;
         
 if
 hasMigrated
 :
-          
+            
 #
 This
 test
@@ -3320,7 +3337,7 @@ itself
 so
 the
 username
-          
+            
 #
 pref
 only
@@ -3328,7 +3345,7 @@ exists
 after
 migration
 .
-          
+            
 self
 .
 assertEqual
@@ -3346,7 +3363,6 @@ test
 com
 "
 )
-;
     
 def
 checkProfile
@@ -3400,7 +3416,6 @@ checkSync
 (
 hasMigrated
 )
-;
         
 if
 hasMigrated
@@ -3634,6 +3649,10 @@ FormHistory
 "
 "
 )
+#
+NOQA
+:
+E501
         
 self
 .
@@ -3697,6 +3716,10 @@ true
 "
 "
 )
+#
+NOQA
+:
+E501
     
 def
 runCode
@@ -3906,6 +3929,8 @@ files
         
 import
 errno
+        
+import
 stat
         
 def
@@ -3959,6 +3984,7 @@ stat
 .
 S_IRWXG
 |
+                         
 stat
 .
 S_IRWXO
@@ -3989,6 +4015,7 @@ rmtree
 self
 .
 desktop_backup_path
+                          
 ignore_errors
 =
 False
@@ -4084,6 +4111,7 @@ rmtree
 self
 .
 reset_profile_path
+                          
 ignore_errors
 =
 False
@@ -4393,6 +4421,7 @@ path
 .
 normpath
 (
+            
 self
 .
 marionette
@@ -4648,6 +4677,10 @@ script_args
 profileLeafName
 )
 )
+#
+NOQA
+:
+E501
         
 self
 .
@@ -4663,6 +4696,7 @@ self
 .
 reset_profile_path
 )
+                        
 "
 Reset
 profile
@@ -4687,6 +4721,7 @@ self
 .
 desktop_backup_path
 )
+                        
 "
 Backup
 profile
@@ -4708,6 +4743,7 @@ in
 self
 .
 reset_profile_path
+                        
 "
 Reset
 profile
