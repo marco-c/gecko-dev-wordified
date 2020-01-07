@@ -3336,14 +3336,6 @@ container
 while
 (
 parent
-!
-=
-=
-this
-.
-doc
-.
-body
 )
 {
 if
