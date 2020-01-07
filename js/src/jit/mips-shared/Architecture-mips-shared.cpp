@@ -269,6 +269,9 @@ buf
 )
 )
 ;
+(
+void
+)
 fread
 (
 buf

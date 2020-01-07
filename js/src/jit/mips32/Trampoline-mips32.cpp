@@ -5417,6 +5417,8 @@ uint32_t
 )
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 Type_Pointer
 :
@@ -6107,6 +6109,8 @@ sizeof
 uint32_t
 )
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 Type_Pointer
