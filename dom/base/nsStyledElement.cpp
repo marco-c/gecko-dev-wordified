@@ -1205,6 +1205,7 @@ nullptr
 NodePrincipal
 (
 )
+aMaybeScriptedPrincipal
 doc
 -
 >

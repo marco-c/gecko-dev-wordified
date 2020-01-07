@@ -3027,6 +3027,7 @@ thisContent
 NodePrincipal
 (
 )
+nullptr
 doc
 -
 >
