@@ -233,10 +233,6 @@ blockForGeckoReady
 (
 )
 ;
-blockForFormHistoryReady
-(
-)
-;
 Uri
 formHistoryUri
 ;
