@@ -144,6 +144,7 @@ const
 {
 getAdjustedQuads
 getDisplayPixelRatio
+getWindowDimensions
 setIgnoreLayoutChanges
 }
 =
@@ -4517,7 +4518,18 @@ documentElement
 .
 offsetWidth
 ;
-let
+this
+.
+_winDimensions
+=
+getWindowDimensions
+(
+this
+.
+win
+)
+;
+const
 {
 width
 height
