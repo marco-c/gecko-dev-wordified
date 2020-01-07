@@ -7427,6 +7427,10 @@ getter
 currently
 has
 a
+jit
+entry
+or
+a
 non
 -
 lazy
@@ -7435,10 +7439,10 @@ script
 We
 will
 only
+/
+/
 relazify
 when
-/
-/
 we
 do
 a
@@ -7451,6 +7455,8 @@ happens
 we
 will
 also
+/
+/
 purge
 IC
 stubs
@@ -7460,7 +7466,7 @@ MOZ_ASSERT
 target
 -
 >
-hasScript
+hasJitEntry
 (
 )
 )
@@ -14062,6 +14068,10 @@ setter
 currently
 has
 a
+jit
+entry
+or
+a
 non
 -
 lazy
@@ -14070,10 +14080,10 @@ script
 We
 will
 only
+/
+/
 relazify
 when
-/
-/
 we
 do
 a
@@ -14086,6 +14096,8 @@ happens
 we
 will
 also
+/
+/
 purge
 IC
 stubs
@@ -14095,7 +14107,7 @@ MOZ_ASSERT
 target
 -
 >
-hasScript
+hasJitEntry
 (
 )
 )

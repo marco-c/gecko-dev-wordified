@@ -13681,6 +13681,15 @@ isNative
 (
 )
 )
+isNativeWithJitEntry_
+(
+fun
+-
+>
+isNativeWithJitEntry
+(
+)
+)
 isConstructor_
 (
 fun

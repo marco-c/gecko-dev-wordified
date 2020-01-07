@@ -4379,10 +4379,9 @@ beginToTierEntry_
 ;
 MOZ_ASSERT
 (
-kind
-=
-=
-InterpEntry
+isEntry
+(
+)
 )
 ;
 MOZ_ASSERT

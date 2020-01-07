@@ -1107,7 +1107,7 @@ BaselineScript
 s
 PCMappingEntries
 with
-JitcodeGlobalMap
+JitcodeGlobalTable
 .
 return
 ptr
