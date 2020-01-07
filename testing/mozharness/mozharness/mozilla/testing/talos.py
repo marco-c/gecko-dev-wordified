@@ -4717,6 +4717,17 @@ no
 download
         
 if
+(
+'
+talos_extra_options
+'
+in
+self
+.
+config
+and
+\
+            
 '
 -
 -
@@ -4734,6 +4745,18 @@ config
 talos_extra_options
 '
 ]
+)
+or
+\
+            
+'
+talos_extra_options
+'
+not
+in
+self
+.
+config
 :
             
 self
@@ -5097,6 +5120,17 @@ no
 download
                 
 if
+(
+'
+talos_extra_options
+'
+in
+self
+.
+config
+and
+\
+                   
 '
 -
 -
@@ -5114,6 +5148,18 @@ config
 talos_extra_options
 '
 ]
+)
+or
+\
+                   
+'
+talos_extra_options
+'
+not
+in
+self
+.
+config
 :
                     
 if
