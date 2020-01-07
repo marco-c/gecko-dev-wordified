@@ -2517,7 +2517,7 @@ prettyPrint
 {
 url
 indent
-source
+sourceText
 }
 )
 {
@@ -2531,7 +2531,7 @@ _prettyFast2
 default
 )
 (
-source
+sourceText
 {
 url
 :
