@@ -196,11 +196,6 @@ getState
 =
 dbg
 ;
-toggleScopes
-(
-dbg
-)
-;
 await
 waitForSources
 (

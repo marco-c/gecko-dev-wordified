@@ -89,11 +89,6 @@ html
 "
 )
 ;
-toggleScopes
-(
-dbg
-)
-;
 invokeInTab
 (
 "
