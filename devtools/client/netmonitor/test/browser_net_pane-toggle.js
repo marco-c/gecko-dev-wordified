@@ -258,8 +258,6 @@ monitor
 .
 panelWin
 .
-api
-.
 once
 (
 EVENTS
