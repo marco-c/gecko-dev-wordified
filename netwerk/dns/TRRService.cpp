@@ -2150,11 +2150,9 @@ MaybeConfirm
 {
 if
 (
+TRR_DISABLED
 (
 mMode
-=
-=
-MODE_NATIVEONLY
 )
 |
 |
@@ -2333,11 +2331,9 @@ mLock
 ;
 if
 (
+TRR_DISABLED
 (
 mMode
-=
-=
-MODE_NATIVEONLY
 )
 |
 |
