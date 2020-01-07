@@ -4089,6 +4089,12 @@ delegate
 DEFAULT_LISTENERS
 ;
 }
+SuppressWarnings
+(
+"
+fallthrough
+"
+)
 WrapForJNI
 (
 calledFrom
@@ -4569,6 +4575,12 @@ aSensortype
 ;
 }
 }
+SuppressWarnings
+(
+"
+fallthrough
+"
+)
 WrapForJNI
 (
 calledFrom
