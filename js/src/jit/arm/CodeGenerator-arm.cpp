@@ -14442,7 +14442,13 @@ Int32
 :
 MOZ_ASSERT
 (
+static_cast
+<
+MIRType
+>
+(
 from
+)
 =
 =
 MIRType
@@ -14485,7 +14491,13 @@ Float32
 :
 MOZ_ASSERT
 (
+static_cast
+<
+MIRType
+>
+(
 from
+)
 =
 =
 MIRType

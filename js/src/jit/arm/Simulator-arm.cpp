@@ -6907,6 +6907,15 @@ n
 "
 )
 ;
+#
+ifdef
+_MSC_VER
+__debugbreak
+(
+)
+;
+#
+else
 asm
 (
 "
@@ -6915,6 +6924,8 @@ int
 "
 )
 ;
+#
+endif
 printf
 (
 "
