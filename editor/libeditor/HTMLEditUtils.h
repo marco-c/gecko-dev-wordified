@@ -404,15 +404,6 @@ static
 bool
 IsLink
 (
-nsIDOMNode
-*
-aNode
-)
-;
-static
-bool
-IsLink
-(
 nsINode
 *
 aNode
