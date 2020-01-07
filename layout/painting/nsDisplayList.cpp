@@ -7100,6 +7100,10 @@ mDisablePartialUpdates
 (
 false
 )
+mPartialBuildFailed
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
