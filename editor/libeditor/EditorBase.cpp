@@ -23754,7 +23754,7 @@ NS_WARN_IF
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 &

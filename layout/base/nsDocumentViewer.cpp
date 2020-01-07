@@ -20926,14 +20926,12 @@ NS_ERROR_FAILURE
 ;
 bool
 selectionCollapsed
-;
+=
 selection
 -
 >
-GetIsCollapsed
+IsCollapsed
 (
-&
-selectionCollapsed
 )
 ;
 /

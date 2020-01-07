@@ -477,7 +477,7 @@ if
 aSelection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )

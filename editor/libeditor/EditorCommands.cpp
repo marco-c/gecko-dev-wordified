@@ -2371,7 +2371,7 @@ selection
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
@@ -3185,7 +3185,7 @@ selection
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )

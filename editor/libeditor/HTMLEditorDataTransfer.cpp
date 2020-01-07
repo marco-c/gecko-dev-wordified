@@ -831,7 +831,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )

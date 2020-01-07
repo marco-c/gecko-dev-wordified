@@ -1270,7 +1270,7 @@ isCollapsed
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 ;

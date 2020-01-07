@@ -5825,7 +5825,7 @@ if
 selection
 -
 >
-Collapsed
+IsCollapsed
 (
 )
 )
