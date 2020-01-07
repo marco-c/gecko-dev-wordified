@@ -62,13 +62,13 @@ PHYSICAL_SIDES
 top
 "
 "
-left
+right
 "
 "
 bottom
 "
 "
-right
+left
 "
 ]
 LOGICAL_SIDES
