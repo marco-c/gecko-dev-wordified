@@ -874,7 +874,7 @@ Is2D
 const
 ;
 bool
-Identity
+IsIdentity
 (
 )
 const

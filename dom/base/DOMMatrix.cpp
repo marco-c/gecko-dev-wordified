@@ -1017,7 +1017,7 @@ bool
 DOMMatrixReadOnly
 :
 :
-Identity
+IsIdentity
 (
 )
 const
@@ -3111,7 +3111,7 @@ if
 (
 aOther
 .
-Identity
+IsIdentity
 (
 )
 )
@@ -3209,7 +3209,7 @@ if
 (
 aOther
 .
-Identity
+IsIdentity
 (
 )
 )
