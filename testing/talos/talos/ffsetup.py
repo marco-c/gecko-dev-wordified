@@ -91,10 +91,6 @@ mozlog
 import
 get_proxy_logger
 from
-mozprocess
-import
-ProcessHandlerMixin
-from
 mozprofile
 .
 profile
@@ -1210,15 +1206,6 @@ env
 self
 .
 env
-                            
-process_class
-=
-ProcessHandlerMixin
-                            
-process_args
-=
-{
-}
 )
         
 runner
