@@ -7194,17 +7194,6 @@ if
 mSpeculativeLoadStage
 )
 {
-nsAutoCString
-charset
-;
-aEncoding
--
->
-Name
-(
-charset
-)
-;
 mSpeculativeLoadQueue
 .
 AppendElement
@@ -7214,7 +7203,7 @@ AppendElement
 >
 InitSetDocumentCharset
 (
-charset
+aEncoding
 aCharsetSource
 )
 ;
