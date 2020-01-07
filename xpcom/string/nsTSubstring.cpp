@@ -974,7 +974,8 @@ cases
 we
 have
 a
-shared
+refcounted
+shareable
 buffer
 (
 this
@@ -982,10 +983,12 @@ this
 >
 mDataFlags
 &
+/
+/
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 /
 /
@@ -1098,7 +1101,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 nsStringBuffer
@@ -1394,7 +1397,7 @@ TERMINATED
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 ;
 }
 /
@@ -2051,7 +2054,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 /
@@ -2308,7 +2311,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 &
 &
@@ -3185,7 +3188,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 /
@@ -3259,7 +3262,7 @@ TERMINATED
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 ;
 /
@@ -3517,7 +3520,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 |
 DataFlags
 :
@@ -3532,7 +3535,7 @@ If
 they
 have
 a
-SHARED
+REFCOUNTED
 or
 OWNED
 buffer
@@ -7515,7 +7518,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 return
@@ -7633,7 +7636,7 @@ of
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 DataFlags
 :
 :
@@ -7716,7 +7719,7 @@ the
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 case
 .
 if
@@ -7729,7 +7732,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 return

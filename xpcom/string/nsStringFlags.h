@@ -252,11 +252,11 @@ buffer
 /
 /
 "
-shared
+refcounted
 buffer
 "
 A
-shared
+refcounted
 buffer
 is
 one
@@ -272,7 +272,7 @@ When
 it
 allocates
 a
-shared
+refcounted
 string
 /
 /
@@ -361,7 +361,7 @@ flags
 /
 /
 /
-SHARED
+REFCOUNTED
 OWNED
 and
 INLINE
@@ -400,7 +400,7 @@ dependent
 /
 /
 /
-SHARED
+REFCOUNTED
 OWNED
 or
 INLINE
@@ -462,7 +462,7 @@ is
 mutually
 exclusive
 with
-SHARED
+REFCOUNTED
 OWNED
 and
 INLINE
@@ -489,7 +489,7 @@ VOIDED
 IsVoid
 returns
 true
-SHARED
+REFCOUNTED
 =
 1
 <
@@ -504,7 +504,8 @@ a
 heap
 -
 allocated
-shared
+shareable
+refcounted
 buffer
 OWNED
 =

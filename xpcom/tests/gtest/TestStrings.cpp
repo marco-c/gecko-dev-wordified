@@ -592,7 +592,7 @@ GetDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 ;
 EXPECT_FALSE
@@ -606,7 +606,7 @@ GetDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 ;
 /
@@ -700,7 +700,7 @@ GetDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 ;
 EXPECT_FALSE
@@ -714,7 +714,7 @@ GetDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 ;
 /
@@ -822,7 +822,7 @@ GetDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 ;
 EXPECT_TRUE
@@ -836,7 +836,7 @@ GetDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 ;
 /

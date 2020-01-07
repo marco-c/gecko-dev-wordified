@@ -4693,7 +4693,7 @@ mDataFlags
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 SetToEmptyBuffer

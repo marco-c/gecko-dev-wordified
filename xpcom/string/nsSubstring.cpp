@@ -1039,7 +1039,7 @@ nsAString
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 {
 nsStringBuffer
@@ -2193,7 +2193,7 @@ nsAString
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 )
 {
@@ -2259,7 +2259,7 @@ nsACString
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 )
 )
 {
@@ -2356,7 +2356,7 @@ nsAString
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 |
 nsAString
 :
@@ -2465,7 +2465,7 @@ nsACString
 DataFlags
 :
 :
-SHARED
+REFCOUNTED
 |
 nsACString
 :
