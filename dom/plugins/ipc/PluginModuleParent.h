@@ -407,6 +407,9 @@ XP_WIN
 class
 PluginHangUIParent
 ;
+class
+FunctionBrokerParent
+;
 #
 endif
 #
@@ -3456,6 +3459,10 @@ void
 FinishHangUI
 (
 )
+;
+FunctionBrokerParent
+*
+mBrokerParent
 ;
 #
 endif
