@@ -21402,10 +21402,8 @@ if
 !
 parser
 .
-reportNoOffset
+warningNoOffset
 (
-ParseWarning
-false
 JSMSG_ALREADY_HAS_PRAGMA
 parser
 .
