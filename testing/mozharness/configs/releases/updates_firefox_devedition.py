@@ -302,6 +302,15 @@ patcher
 config
 product
 name
+regardless
+            
+#
+the
+value
+set
+by
+buildbot
+properties
             
 "
 patcher_config_product_override

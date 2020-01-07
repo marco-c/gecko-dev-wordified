@@ -320,6 +320,16 @@ config
 =
 {
     
+"
+buildbot_json_path
+"
+:
+"
+buildprops
+.
+json
+"
+    
 #
 #
 #
@@ -2854,6 +2864,12 @@ s
 /
 minidumps
 "
+    
+"
+buildbot_max_log_size
+"
+:
+209715200
     
 "
 default_blob_upload_servers
