@@ -14669,6 +14669,7 @@ nsStandardURL
 Mutator
 nsIURISetters
 nsIURIMutator
+nsIStandardURLMutator
 )
 NS_IMETHODIMP
 nsStandardURL
