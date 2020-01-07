@@ -100,7 +100,7 @@ append
 TELEMETRY_ROOT_PATH
 )
 import
-histogram_tools
+parse_histograms
 #
 noqa
 :
@@ -167,7 +167,7 @@ ps
 :
         
 return
-histogram_tools
+parse_histograms
 .
 load_histograms_into_dict
 (
@@ -282,21 +282,21 @@ SAMPLE_HISTOGRAM
         
 hist
 =
-histogram_tools
+parse_histograms
 .
 Histogram
 (
 '
 A11Y_INSTANTIATED_FLAG
 '
-                                         
+                                          
 histograms
 [
 '
 A11Y_INSTANTIATED_FLAG
 '
 ]
-                                         
+                                          
 strict_type_checks
 =
 False
@@ -422,21 +422,21 @@ SAMPLE_HISTOGRAM
         
 hist
 =
-histogram_tools
+parse_histograms
 .
 Histogram
 (
 '
 TEST_NON_NUMERIC_HISTOGRAM
 '
-                                         
+                                          
 histograms
 [
 '
 TEST_NON_NUMERIC_HISTOGRAM
 '
 ]
-                                         
+                                          
 strict_type_checks
 =
 False
@@ -447,7 +447,7 @@ expected
 values
 come
 off
-histogram_tools
+parse_histograms
 .
 py
         
@@ -500,14 +500,14 @@ all_histograms
 =
 list
 (
-histogram_tools
+parse_histograms
 .
 from_files
 (
 [
 HISTOGRAMS_PATH
 ]
-                                                         
+                                                          
 strict_type_checks
 =
 False

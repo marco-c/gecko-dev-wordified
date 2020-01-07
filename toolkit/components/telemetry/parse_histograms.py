@@ -224,7 +224,7 @@ html
 "
 )
 #
-histogram_tools
+parse_histograms
 .
 py
 is
