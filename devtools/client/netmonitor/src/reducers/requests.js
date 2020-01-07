@@ -1180,8 +1180,6 @@ map
 ;
 newMap
 .
-requests
-.
 delete
 (
 key
