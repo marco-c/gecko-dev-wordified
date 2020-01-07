@@ -684,6 +684,8 @@ IPCPaymentDetailsModifier
 >
 &
 aModifiers
+bool
+aRequestShipping
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -738,6 +740,9 @@ displayItem
 }
 if
 (
+aRequestShipping
+&
+&
 aDetails
 .
 mShippingOptions
@@ -862,6 +867,8 @@ aDetails
 IPCPaymentDetails
 &
 aIPCDetails
+bool
+aRequestShipping
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -902,6 +909,7 @@ aDetails
 displayItems
 shippingOptions
 modifiers
+aRequestShipping
 )
 ;
 if
@@ -1029,6 +1037,8 @@ aDetails
 IPCPaymentDetails
 &
 aIPCDetails
+bool
+aRequestShipping
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -1069,6 +1079,7 @@ aDetails
 displayItems
 shippingOptions
 modifiers
+aRequestShipping
 )
 ;
 if
@@ -2299,6 +2310,13 @@ mRequestShipping
 request
 -
 >
+ShippingWasRequested
+(
+)
+;
+request
+-
+>
 SetShippingType
 (
 Nullable
@@ -2399,6 +2417,9 @@ ConvertDetailsInit
 aCx
 aDetails
 details
+aOptions
+.
+mRequestShipping
 )
 ;
 if
@@ -2786,6 +2807,8 @@ const
 PaymentDetailsUpdate
 &
 aDetails
+bool
+aRequestShipping
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -2883,6 +2906,7 @@ ConvertDetailsUpdate
 aCx
 aDetails
 details
+aRequestShipping
 )
 ;
 if

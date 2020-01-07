@@ -4209,6 +4209,10 @@ mUpdating
 (
 false
 )
+mRequestShipping
+(
+false
+)
 mUpdateError
 (
 NS_OK
@@ -5287,6 +5291,7 @@ UpdatePayment
 aCx
 mInternalId
 aDetails
+mRequestShipping
 )
 ;
 if

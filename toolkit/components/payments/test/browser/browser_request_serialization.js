@@ -373,11 +373,15 @@ state
 "
 )
 ;
+/
+/
 let
 expected
 =
 details
 ;
+/
+/
 let
 actual
 =
@@ -387,6 +391,8 @@ request
 .
 paymentDetails
 ;
+/
+/
 if
 (
 expected
@@ -394,6 +400,8 @@ expected
 shippingOptions
 )
 {
+/
+/
 is
 (
 actual
@@ -406,6 +414,8 @@ expected
 shippingOptions
 .
 length
+/
+/
 "
 shippingOptions
 have
@@ -414,6 +424,8 @@ length
 "
 )
 ;
+/
+/
 for
 (
 let
@@ -434,6 +446,8 @@ i
 +
 )
 {
+/
+/
 let
 item
 =
@@ -452,6 +466,8 @@ shippingOptions
 i
 ]
 ;
+/
+/
 is
 (
 item
@@ -467,6 +483,8 @@ matches
 "
 )
 ;
+/
+/
 is
 (
 item
@@ -486,6 +504,8 @@ matches
 "
 )
 ;
+/
+/
 is
 (
 item
@@ -505,10 +525,16 @@ matches
 "
 )
 ;
+/
+/
 }
+/
+/
 }
 else
 {
+/
+/
 is
 (
 actual
@@ -526,6 +552,8 @@ null
 "
 )
 ;
+/
+/
 }
 }
 ;

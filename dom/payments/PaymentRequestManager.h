@@ -377,6 +377,8 @@ const
 PaymentDetailsUpdate
 &
 aDetails
+bool
+aRequestShipping
 )
 ;
 nsresult
