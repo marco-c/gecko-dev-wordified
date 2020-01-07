@@ -750,6 +750,10 @@ nsHttpHeaderArray
 &
 requestHeaders
 const
+ParentLoadInfoForwarderArgs
+&
+loadInfoForwarder
+const
 bool
 &
 isFromCache
@@ -850,9 +854,9 @@ uint32_t
 &
 redirectFlags
 const
-bool
+ParentLoadInfoForwarderArgs
 &
-allowInsecureRedirectToDataURI
+loadInfoForwarder
 const
 nsHttpResponseHead
 &
@@ -2357,6 +2361,10 @@ nsHttpHeaderArray
 &
 requestHeaders
 const
+ParentLoadInfoForwarderArgs
+&
+loadInfoForwarder
+const
 bool
 &
 isFromCache
@@ -2543,9 +2551,9 @@ uint32_t
 &
 redirectFlags
 const
-bool
+ParentLoadInfoForwarderArgs
 &
-allowInsecureRedirectToDataURI
+loadInfoForwarder
 const
 nsHttpResponseHead
 &

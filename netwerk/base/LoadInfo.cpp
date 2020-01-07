@@ -292,6 +292,13 @@ nsRedirectHistoryEntry
 .
 h
 "
+#
+include
+"
+LoadInfo
+.
+h
+"
 using
 namespace
 mozilla
