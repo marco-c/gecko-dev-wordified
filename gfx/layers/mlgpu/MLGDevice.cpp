@@ -170,6 +170,13 @@ h
 #
 include
 "
+LayersLogging
+.
+h
+"
+#
+include
+"
 ShaderDefinitionsMLGPU
 .
 h
@@ -178,6 +185,13 @@ h
 include
 "
 SharedBufferMLGPU
+.
+h
+"
+#
+include
+"
+UtilityMLGPU
 .
 h
 "
