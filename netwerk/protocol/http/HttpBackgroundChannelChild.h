@@ -313,6 +313,10 @@ const
 ResourceTimingStruct
 &
 aTiming
+const
+TimeStamp
+&
+aLastActiveTabOptHit
 )
 override
 ;
