@@ -3843,10 +3843,6 @@ substr
 -
 6
 )
-.
-toUpperCase
-(
-)
 ;
 }
 function
