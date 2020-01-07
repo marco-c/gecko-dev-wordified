@@ -362,6 +362,15 @@ nsJARURI
 (
 )
 ;
+nsresult
+SetJAREntry
+(
+const
+nsACString
+&
+entryPath
+)
+;
 /
 /
 enum
