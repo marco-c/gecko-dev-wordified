@@ -18406,7 +18406,7 @@ existingCallback
 =
 global
 .
-compartment
+realm
 (
 )
 -
@@ -18597,7 +18597,7 @@ false
 debuggee
 -
 >
-compartment
+realm
 (
 )
 -
@@ -18614,7 +18614,7 @@ metadataBuilder
 debuggee
 -
 >
-compartment
+realm
 (
 )
 -
@@ -18688,7 +18688,7 @@ global
 {
 global
 .
-compartment
+realm
 (
 )
 -
@@ -18702,7 +18702,7 @@ return
 }
 global
 .
-compartment
+realm
 (
 )
 -

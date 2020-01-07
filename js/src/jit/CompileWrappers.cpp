@@ -1229,8 +1229,14 @@ hasAllocationMetadataBuilder
 )
 {
 return
+JS
+:
+:
+GetRealmForCompartment
+(
 compartment
 (
+)
 )
 -
 >
