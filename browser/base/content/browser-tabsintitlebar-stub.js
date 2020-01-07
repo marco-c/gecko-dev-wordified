@@ -109,6 +109,11 @@ init
 )
 {
 }
+whenWindowLayoutReady
+(
+)
+{
+}
 uninit
 (
 )
