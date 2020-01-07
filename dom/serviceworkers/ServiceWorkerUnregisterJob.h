@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_workers_serviceworkerunregisterjob_h
+mozilla_dom_serviceworkerunregisterjob_h
 #
 define
-mozilla_dom_workers_serviceworkerunregisterjob_h
+mozilla_dom_serviceworkerunregisterjob_h
 #
 include
 "
@@ -132,9 +132,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-workers
 {
 class
 ServiceWorkerUnregisterJob
@@ -199,11 +196,6 @@ mSendToParent
 /
 /
 namespace
-workers
-}
-/
-/
-namespace
 dom
 }
 /
@@ -214,4 +206,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_workers_serviceworkerunregisterjob_h
+mozilla_dom_serviceworkerunregisterjob_h

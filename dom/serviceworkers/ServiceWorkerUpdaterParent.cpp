@@ -134,9 +134,6 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 bool
 ServiceWorkerUpdaterParent
 :
@@ -194,11 +191,6 @@ this
 ;
 }
 }
-}
-/
-/
-namespace
-workers
 }
 /
 /

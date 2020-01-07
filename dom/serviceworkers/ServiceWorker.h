@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_workers_serviceworker_h__
+mozilla_dom_serviceworker_h__
 #
 define
-mozilla_dom_workers_serviceworker_h__
+mozilla_dom_serviceworker_h__
 #
 include
 "
@@ -164,9 +164,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-workers
 {
 class
 ServiceWorkerInfo
@@ -386,11 +383,6 @@ mInfo
 /
 /
 namespace
-workers
-}
-/
-/
-namespace
 dom
 }
 /
@@ -401,4 +393,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_workers_serviceworker_h__
+mozilla_dom_serviceworker_h__

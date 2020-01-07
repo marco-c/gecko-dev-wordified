@@ -470,7 +470,7 @@ mozilla
 /
 dom
 /
-ServiceWorkerRegistration
+ServiceWorkerManager
 .
 h
 "
@@ -481,9 +481,7 @@ mozilla
 /
 dom
 /
-workers
-/
-ServiceWorkerManager
+ServiceWorkerRegistration
 .
 h
 "

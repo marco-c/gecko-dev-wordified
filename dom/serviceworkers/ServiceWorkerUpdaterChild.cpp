@@ -134,9 +134,6 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
 ServiceWorkerUpdaterChild
 :
 :
@@ -361,11 +358,6 @@ DisconnectIfExists
 )
 ;
 }
-}
-/
-/
-namespace
-workers
 }
 /
 /

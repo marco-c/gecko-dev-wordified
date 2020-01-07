@@ -154,9 +154,6 @@ ipc
 namespace
 dom
 {
-namespace
-workers
-{
 mozilla
 :
 :
@@ -574,11 +571,6 @@ return
 true
 ;
 }
-}
-/
-/
-namespace
-workers
 }
 /
 /

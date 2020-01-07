@@ -144,17 +144,9 @@ Promise
 struct
 RegistrationOptions
 ;
-namespace
-workers
-{
 class
 ServiceWorker
 ;
-}
-/
-/
-namespace
-workers
 /
 /
 Lightweight
@@ -250,9 +242,6 @@ aRv
 ;
 already_AddRefed
 <
-workers
-:
-:
 ServiceWorker
 >
 GetController
@@ -380,9 +369,6 @@ claim
 .
 RefPtr
 <
-workers
-:
-:
 ServiceWorker
 >
 mControllerWorker
@@ -409,6 +395,6 @@ mozilla
 endif
 /
 *
-mozilla_dom_workers_serviceworkercontainer_h__
+mozilla_dom_serviceworkercontainer_h__
 *
 /

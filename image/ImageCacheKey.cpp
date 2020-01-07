@@ -155,8 +155,6 @@ mozilla
 /
 dom
 /
-workers
-/
 ServiceWorkerManager
 .
 h
@@ -958,15 +956,6 @@ void
 pointer
 =
 nullptr
-;
-using
-dom
-:
-:
-workers
-:
-:
-ServiceWorkerManager
 ;
 RefPtr
 <

@@ -165,10 +165,6 @@ mozilla
 /
 dom
 /
-workers
-/
-bindings
-/
 ServiceWorker
 .
 h

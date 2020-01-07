@@ -191,9 +191,6 @@ namespace
 dom
 {
 namespace
-workers
-{
-namespace
 {
 ServiceWorkerManagerService
 *
@@ -580,9 +577,6 @@ NS_NewRunnableFunction
 (
 "
 dom
-:
-:
-workers
 :
 :
 ServiceWorkerManagerService
@@ -1514,11 +1508,6 @@ found
 )
 ;
 }
-}
-/
-/
-namespace
-workers
 }
 /
 /

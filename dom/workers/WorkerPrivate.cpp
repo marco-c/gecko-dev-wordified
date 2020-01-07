@@ -974,8 +974,6 @@ mozilla
 /
 dom
 /
-workers
-/
 ServiceWorkerManager
 .
 h

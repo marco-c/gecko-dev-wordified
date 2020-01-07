@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_workers_serviceworkerregisterjob_h
+mozilla_dom_serviceworkerregisterjob_h
 #
 define
-mozilla_dom_workers_serviceworkerregisterjob_h
+mozilla_dom_serviceworkerregisterjob_h
 #
 include
 "
@@ -132,9 +132,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-workers
 {
 /
 /
@@ -242,11 +239,6 @@ ServiceWorkerRegisterJob
 /
 /
 namespace
-workers
-}
-/
-/
-namespace
 dom
 }
 /
@@ -257,4 +249,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_workers_serviceworkerregisterjob_h
+mozilla_dom_serviceworkerregisterjob_h

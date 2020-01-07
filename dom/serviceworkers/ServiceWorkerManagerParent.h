@@ -151,9 +151,6 @@ ipc
 namespace
 dom
 {
-namespace
-workers
-{
 class
 ServiceWorkerManagerService
 ;
@@ -416,11 +413,6 @@ mID
 ;
 }
 ;
-}
-/
-/
-namespace
-workers
 }
 /
 /

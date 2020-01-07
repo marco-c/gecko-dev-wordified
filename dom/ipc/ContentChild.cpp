@@ -426,7 +426,7 @@ mozilla
 /
 dom
 /
-TabGroup
+ServiceWorkerManager
 .
 h
 "
@@ -437,9 +437,7 @@ mozilla
 /
 dom
 /
-workers
-/
-ServiceWorkerManager
+TabGroup
 .
 h
 "

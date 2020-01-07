@@ -162,9 +162,6 @@ ipc
 namespace
 dom
 {
-namespace
-workers
-{
 class
 ServiceWorkerManagerChild
 final
@@ -336,11 +333,6 @@ mShuttingDown
 ;
 }
 ;
-}
-/
-/
-namespace
-workers
 }
 /
 /
