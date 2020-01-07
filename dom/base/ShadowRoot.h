@@ -556,6 +556,12 @@ mIndex
 ;
 SlotAssignment
 (
+)
+=
+default
+;
+SlotAssignment
+(
 HTMLSlotElement
 *
 aSlot
