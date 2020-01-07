@@ -1802,6 +1802,10 @@ getter_AddRefs
 thread
 )
 worker
+nsIThreadManager
+:
+:
+kThreadPoolStackSize
 )
 ;
 if
