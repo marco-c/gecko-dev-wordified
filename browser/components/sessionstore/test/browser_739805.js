@@ -219,9 +219,12 @@ tabState
 ;
 is
 (
-browser
+ss
 .
-__SS_restoreState
+getInternalObjectState
+(
+browser
+)
 TAB_STATE_NEEDS_RESTORE
 "
 tab
