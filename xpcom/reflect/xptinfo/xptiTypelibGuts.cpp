@@ -111,6 +111,13 @@ h
 #
 include
 "
+xpt_arena
+.
+h
+"
+#
+include
+"
 mozilla
 /
 XPTInterfaceInfoManager
