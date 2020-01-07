@@ -16609,7 +16609,9 @@ types
 BarrierKind
 kind
 Register
-scratch
+unboxScratch
+Register
+objScratch
 Label
 *
 miss
