@@ -9293,12 +9293,12 @@ script
 )
 -
 >
-compartment
+realm
 (
 )
 -
 >
-ensureRandomNumberGenerator
+getOrCreateRandomNumberGenerator
 (
 )
 ;
