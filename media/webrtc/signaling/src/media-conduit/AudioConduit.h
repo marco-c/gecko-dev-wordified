@@ -1272,14 +1272,6 @@ aPCHandle
 override
 {
 }
-virtual
-void
-DeleteStreams
-(
-)
-override
-{
-}
 explicit
 WebrtcAudioConduit
 (
