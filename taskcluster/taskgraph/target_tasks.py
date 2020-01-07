@@ -401,14 +401,6 @@ push
 apk
 '
 '
-push
--
-apk
--
-breakpoint
-'
-            
-'
 repackage
 -
 l10n
@@ -3958,13 +3950,6 @@ push
 -
 apk
 '
-'
-push
--
-apk
--
-breakpoint
-'
 )
 :
                 
@@ -4200,7 +4185,6 @@ run
 push
 -
 apk
-*
 during
 ship
         
@@ -4208,26 +4192,15 @@ if
 task
 .
 kind
-in
-(
-            
+=
+=
 '
 push
 -
 apk
 '
-            
-'
-push
--
-apk
--
-breakpoint
-'
-        
-)
 :
-                
+            
 return
 True
         
