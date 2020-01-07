@@ -31547,7 +31547,7 @@ DispatchContentLoadedEvents
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 ContentStateChanged
@@ -31588,7 +31588,7 @@ aStateMask
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 DocumentStatesChanged
@@ -31613,7 +31613,7 @@ aStateMask
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 StyleRuleChanged
@@ -31652,7 +31652,7 @@ aStyleRule
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 StyleRuleAdded
@@ -31691,7 +31691,7 @@ aStyleRule
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 StyleRuleRemoved
