@@ -17318,11 +17318,6 @@ prefs
 "
 )
 ;
-NotifyServiceObservers
-(
-NS_PREFSERVICE_RESET_TOPIC_ID
-)
-;
 gHashTable
 -
 >
