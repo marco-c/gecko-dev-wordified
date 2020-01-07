@@ -306,6 +306,7 @@ kBackgroundPageHTMLEnd
 n
 \
 <
+/
 body
 >
 \
