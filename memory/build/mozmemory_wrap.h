@@ -1111,6 +1111,13 @@ mozmem_dup_impl
 wcsdup
 )
 #
+define
+_aligned_malloc_impl
+mozmem_dup_impl
+(
+_aligned_malloc
+)
+#
 endif
 /
 /
