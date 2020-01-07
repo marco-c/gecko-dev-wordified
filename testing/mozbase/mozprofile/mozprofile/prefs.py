@@ -75,17 +75,13 @@ os
 import
 tokenize
 from
-six
-.
-moves
-.
-configparser
+ConfigParser
 import
 SafeConfigParser
 as
 ConfigParser
 from
-six
+StringIO
 import
 StringIO
 __all__
@@ -422,7 +418,7 @@ not
 isinstance
 (
 value
-str
+basestring
 )
 :
             
@@ -1034,7 +1030,7 @@ types
 =
 (
 bool
-str
+basestring
 int
 )
         
@@ -1374,7 +1370,7 @@ and
 isinstance
 (
 b
-str
+basestring
 )
 :
                 
@@ -1513,7 +1509,7 @@ if
 isinstance
 (
 value
-str
+basestring
 )
 and
 marker
@@ -1582,7 +1578,7 @@ if
 isinstance
 (
 _file
-str
+basestring
 )
 :
             
@@ -1690,7 +1686,7 @@ if
 isinstance
 (
 _file
-str
+basestring
 )
 :
             
