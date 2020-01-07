@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsIDOMDocument
+nsIDocument
 .
 h
 "
@@ -268,7 +268,7 @@ aWindow
 void
 SetDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 )
@@ -283,7 +283,7 @@ OfflineCacheUpdateChild
 nsresult
 AssociateDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 nsIApplicationCache
@@ -384,7 +384,7 @@ update
 /
 nsCOMPtr
 <
-nsIDOMDocument
+nsIDocument
 >
 mDocument
 ;

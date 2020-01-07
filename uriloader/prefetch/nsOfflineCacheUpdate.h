@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h
@@ -1494,7 +1487,7 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 nsPIDOMWindowInner

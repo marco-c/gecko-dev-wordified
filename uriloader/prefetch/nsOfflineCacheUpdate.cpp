@@ -9030,7 +9030,7 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 nsIFile
