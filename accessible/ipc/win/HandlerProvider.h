@@ -530,15 +530,6 @@ StaticIA2Data
 aData
 )
 ;
-static
-void
-CleanupDynamicIA2Data
-(
-DynamicIA2Data
-&
-aData
-)
-;
 bool
 IsTargetInterfaceCacheable
 (
