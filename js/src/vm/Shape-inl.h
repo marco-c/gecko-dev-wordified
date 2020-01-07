@@ -1111,7 +1111,7 @@ nfixed
 this
 -
 >
-immutableFlags
+flags
 |
 =
 IN_DICTIONARY
