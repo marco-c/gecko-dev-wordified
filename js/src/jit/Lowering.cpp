@@ -22232,7 +22232,7 @@ MIRType
 Int32
 )
 ;
-LSpectreMaskIndex
+auto
 *
 lir
 =
