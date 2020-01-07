@@ -2972,6 +2972,7 @@ coordinates
 .
 *
 /
+virtual
 nsIntRect
 Bounds
 (
