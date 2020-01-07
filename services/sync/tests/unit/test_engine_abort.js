@@ -256,6 +256,16 @@ data
 )
 ;
 let
+syncID
+=
+await
+engine
+.
+resetLocalSyncID
+(
+)
+;
+let
 meta_global
 =
 Service
@@ -291,10 +301,6 @@ version
 engine
 .
 version
-syncID
-:
-engine
-.
 syncID
 }
 }

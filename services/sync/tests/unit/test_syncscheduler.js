@@ -280,11 +280,22 @@ Service
 let
 clientsEngine
 ;
+async
 function
 sync_httpd_setup
 (
 )
 {
+let
+clientsSyncID
+=
+await
+clientsEngine
+.
+resetLocalSyncID
+(
+)
+;
 let
 global
 =
@@ -316,9 +327,7 @@ clientsEngine
 version
 syncID
 :
-clientsEngine
-.
-syncID
+clientsSyncID
 }
 }
 }
@@ -1854,6 +1863,7 @@ false
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -2072,6 +2082,7 @@ finish
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -3050,6 +3061,7 @@ enableValidationPrefs
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -3642,6 +3654,7 @@ enableValidationPrefs
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -3981,6 +3994,7 @@ past
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -4215,6 +4229,7 @@ test_autoconnect_mp_locked
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -4434,6 +4449,7 @@ test_no_autoconnect_during_wizard
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -4571,6 +4587,7 @@ test_no_autoconnect_status_not_ok
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -4745,6 +4762,7 @@ autoconnectDelay
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -5778,6 +5796,7 @@ finish
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -5902,6 +5921,7 @@ MAX_ERROR_COUNT_BEFORE_BACKOFF
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -6074,6 +6094,7 @@ enableValidationPrefs
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -6284,6 +6305,7 @@ MAX_ERROR_COUNT_BEFORE_BACKOFF
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -6507,6 +6529,7 @@ enableValidationPrefs
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -7024,6 +7047,7 @@ enableValidationPrefs
 let
 server
 =
+await
 sync_httpd_setup
 (
 )

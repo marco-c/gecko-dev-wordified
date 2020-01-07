@@ -162,11 +162,22 @@ scheduler
 let
 clientsEngine
 ;
+async
 function
 sync_httpd_setup
 (
 )
 {
+let
+clientsSyncID
+=
+await
+clientsEngine
+.
+resetLocalSyncID
+(
+)
+;
 let
 global
 =
@@ -198,9 +209,7 @@ clientsEngine
 version
 syncID
 :
-clientsEngine
-.
-syncID
+clientsSyncID
 }
 }
 }
@@ -566,6 +575,7 @@ onSyncFinish
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -1520,6 +1530,7 @@ notReady
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -2379,6 +2390,7 @@ enableValidationPrefs
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -2586,6 +2598,7 @@ enableValidationPrefs
 let
 server
 =
+await
 sync_httpd_setup
 (
 )
@@ -2879,6 +2892,7 @@ scheduleNextSync
 let
 server
 =
+await
 sync_httpd_setup
 (
 )

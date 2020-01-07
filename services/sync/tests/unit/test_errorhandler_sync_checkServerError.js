@@ -272,6 +272,16 @@ catapult
 )
 ;
 let
+syncID
+=
+await
+catapultEngine
+.
+resetLocalSyncID
+(
+)
+;
+let
 engines
 =
 {
@@ -283,10 +293,6 @@ version
 catapultEngine
 .
 version
-syncID
-:
-catapultEngine
-.
 syncID
 }
 }

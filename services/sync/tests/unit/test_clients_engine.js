@@ -5736,6 +5736,7 @@ GUID
 remoteId
 )
 ;
+await
 engine
 .
 _resetClient
@@ -9534,6 +9535,7 @@ initialize
 (
 )
 ;
+await
 engine
 .
 _resetClient
@@ -11901,12 +11903,14 @@ time
 "
 )
 ;
+await
 engine
 .
 resetLastSync
 (
 )
 ;
+await
 engine
 .
 _store
