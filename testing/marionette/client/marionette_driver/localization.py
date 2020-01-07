@@ -350,11 +350,9 @@ _marionette
 _send_message
 (
 "
-localization
+L10n
 :
-l10n
-:
-localizeEntity
+LocalizeEntity
 "
                                               
 body
@@ -472,11 +470,9 @@ _marionette
 _send_message
 (
 "
-localization
+L10n
 :
-l10n
-:
-localizeProperty
+LocalizeProperty
 "
                                               
 body
