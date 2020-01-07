@@ -269,17 +269,6 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsISupports
 )
-NS_INTERFACE_MAP_ENTRY
-(
-nsIDOMHistory
-)
-/
-/
-Empty
-needed
-for
-extension
-compat
 NS_INTERFACE_MAP_END
 nsHistory
 :
