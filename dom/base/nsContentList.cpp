@@ -720,6 +720,10 @@ NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsEmptyContentList
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsIHTMLCollection
+)
 NS_INTERFACE_MAP_END_INHERITING
 (
 nsBaseContentList
@@ -756,7 +760,7 @@ aGivenProto
 )
 {
 return
-NodeListBinding
+HTMLCollectionBinding
 :
 :
 Wrap
