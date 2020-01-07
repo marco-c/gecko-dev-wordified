@@ -2821,7 +2821,7 @@ casks
 [
             
 '
-java
+java8
 '
         
 ]
