@@ -175,6 +175,14 @@ property
 -
 escapes
 "
+                            
+"
+numeric
+-
+separator
+-
+literal
+"
                        
 ]
 )
@@ -212,6 +220,16 @@ hasOwnProperty
 SharedArrayBuffer
 '
 )
+"
+                         
+"
+CannotSuspendMainAgent
+"
+:
+"
+xulRuntime
+.
+shell
 "
                        
 }
