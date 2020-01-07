@@ -13696,7 +13696,7 @@ event
 which
 implements
 *
-nsIDOMXULCommandEvent
+XULCommandEvent
 .
 *
 If
