@@ -134,13 +134,9 @@ netmonitor
 /
 src
 /
-request
--
-list
--
-context
--
-menu
+widgets
+/
+RequestListContextMenu
 "
 )
 ;
