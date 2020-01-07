@@ -2131,6 +2131,12 @@ aRenderThread
 UpdateAndRender
 (
 aWindowId
+/
+*
+aReadback
+*
+/
+true
 )
 ;
 wr_renderer_readback

@@ -348,6 +348,8 @@ only
 bool
 UpdateAndRender
 (
+bool
+aReadback
 )
 ;
 /

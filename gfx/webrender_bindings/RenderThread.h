@@ -993,6 +993,10 @@ wr
 :
 WindowId
 aWindowId
+bool
+aReadback
+=
+false
 )
 ;
 void
