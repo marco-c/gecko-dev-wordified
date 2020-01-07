@@ -662,6 +662,15 @@ target
 )
 ;
 nsresult
+PassQName
+(
+unsigned
+int
+&
+index
+)
+;
+nsresult
 DohDecode
 (
 )
