@@ -40359,6 +40359,13 @@ loadWebPanel
 gWebPanelURI
 )
 ;
+SidebarUI
+.
+setWebPageIcon
+(
+gWebPanelURI
+)
+;
 }
 gWebPanelURI
 =
