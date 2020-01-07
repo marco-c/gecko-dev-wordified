@@ -40,7 +40,7 @@ update
 check
 failures
 are
-propogated
+propagated
 correctly
 /
 /

@@ -1507,7 +1507,7 @@ param
 aPermissions
 *
 The
-permisions
+permissions
 to
 set
 *
@@ -10334,7 +10334,7 @@ WebExtensions
 may
 not
 be
-upated
+updated
 to
 other
 extension
@@ -13729,7 +13729,7 @@ or
 a
 download
 so
-accomodate
+accommodate
 them
 here
 .

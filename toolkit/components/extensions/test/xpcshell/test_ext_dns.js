@@ -12,7 +12,7 @@ and
 android
 are
 not
-returing
+returning
 ipv6
 turn
 it

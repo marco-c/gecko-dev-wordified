@@ -34,7 +34,7 @@ Test
 whether
 the
 blacklist
-succesfully
+successfully
 adds
 and
 removes

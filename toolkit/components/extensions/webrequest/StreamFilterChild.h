@@ -497,7 +497,7 @@ will
 be
 automatically
 written
-ot
+to
 the
 output
 stream

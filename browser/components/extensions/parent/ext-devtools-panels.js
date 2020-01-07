@@ -3237,7 +3237,7 @@ TODO
 Bug
 1448878
 :
-retrive
+retrieve
 a
 more
 detailed

@@ -1184,7 +1184,7 @@ action
 /
 /
 Detect
-keywork
+keyword
 and
 generated
 and

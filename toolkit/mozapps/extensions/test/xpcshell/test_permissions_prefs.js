@@ -433,7 +433,7 @@ Import
 can
 also
 be
-triggerred
+triggered
 by
 an
 observer

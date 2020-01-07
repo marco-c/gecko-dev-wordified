@@ -9355,7 +9355,7 @@ Scales
 the
 image
 while
-maintaing
+maintaining
 width
 to
 height

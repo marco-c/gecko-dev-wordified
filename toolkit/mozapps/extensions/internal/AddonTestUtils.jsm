@@ -920,7 +920,7 @@ MockAsyncShutdown
 *
 Escapes
 any
-occurances
+occurrences
 of
 &
 "
@@ -6274,7 +6274,8 @@ Recursively
 create
 all
 directories
-upto
+up
+to
 and
 including
 the

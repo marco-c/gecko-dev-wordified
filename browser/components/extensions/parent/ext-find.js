@@ -826,7 +826,7 @@ removeHighlighting
 *
 Removes
 all
-hightlighting
+highlighting
 from
 previous
 search

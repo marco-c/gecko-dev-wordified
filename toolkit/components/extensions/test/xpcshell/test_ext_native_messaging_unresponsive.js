@@ -459,7 +459,7 @@ procCount
 "
 subprocess
 was
-succesfully
+successfully
 killed
 "
 )

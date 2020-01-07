@@ -469,7 +469,7 @@ full
 path
 of
 the
-execuable
+executable
 to
 launch
 .

@@ -1839,7 +1839,7 @@ when
 an
 extension
 has
-finsihed
+finished
 updating
 or
 is

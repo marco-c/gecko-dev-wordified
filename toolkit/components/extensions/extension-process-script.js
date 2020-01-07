@@ -2370,7 +2370,7 @@ getURL
 Register
 any
 existent
-dinamically
+dynamically
 registered
 content
 script

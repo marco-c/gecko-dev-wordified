@@ -503,7 +503,7 @@ run_next_test
 On
 first
 run
-whataver
+whatever
 is
 in
 the

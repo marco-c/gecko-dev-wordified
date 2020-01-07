@@ -3388,7 +3388,7 @@ param
 aPermissions
 *
 The
-permisions
+permissions
 to
 set
 *
@@ -36731,7 +36731,7 @@ proxy
 file
 /
 /
-refering
+referring
 to
 the
 addon

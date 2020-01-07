@@ -453,7 +453,7 @@ Home
 page
 url
 is
-overriden
+overridden
 by
 the
 extension
@@ -477,7 +477,7 @@ DuckDuckGo
 Default
 engine
 is
-overriden
+overridden
 by
 the
 extension

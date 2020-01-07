@@ -591,7 +591,7 @@ NEWTAB_URI
 Newtab
 url
 is
-overriden
+overridden
 by
 the
 extension

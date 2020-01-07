@@ -10713,7 +10713,7 @@ debugging
 *
 param
 {
-functon
+function
 }
 register
 *

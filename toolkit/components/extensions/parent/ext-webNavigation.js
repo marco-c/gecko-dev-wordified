@@ -7,7 +7,7 @@ strict
 /
 This
 file
-expectes
+expects
 tabTracker
 to
 be

@@ -16177,7 +16177,7 @@ Attempt
 to
 extend
 a
-nonexistant
+nonexistent
 type
 {
 type

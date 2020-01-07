@@ -517,7 +517,7 @@ start
 out
 in
 the
-DONWLOADED
+DOWNLOADED
 state
 .
 for

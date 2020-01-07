@@ -3240,7 +3240,7 @@ addon
 param
 aType
 *
-Overrride
+Override
 type
 -
 "
@@ -4718,7 +4718,8 @@ to
 this
 .
 pendingProviders
-incase
+in
+case
 we
 '
 re
@@ -19893,7 +19894,7 @@ ERROR_CORRUPT_FILE
 /
 An
 error
-occured
+occurred
 trying
 to
 write

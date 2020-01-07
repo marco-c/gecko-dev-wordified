@@ -81,7 +81,7 @@ sure
 that
 if
 the
-directoy
+directory
 name
 is
 not

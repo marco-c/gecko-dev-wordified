@@ -2560,7 +2560,7 @@ record
 IDs
 have
 two
-condtions
+conditions
 :
 /
 /
@@ -7827,7 +7827,7 @@ uuid
 }
 )
 .
-Reseting
+Resetting
 sync
 status
 for

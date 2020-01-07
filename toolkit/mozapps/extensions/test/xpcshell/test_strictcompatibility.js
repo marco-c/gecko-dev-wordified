@@ -608,7 +608,7 @@ is
 less
 than
 the
-mimimum
+minimum
 compat
 version
 /

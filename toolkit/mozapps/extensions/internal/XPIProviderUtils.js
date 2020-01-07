@@ -2265,7 +2265,7 @@ JSON
 DB
 but
 a
-useable
+usable
 SQLITE
 db
 we
@@ -2289,7 +2289,7 @@ JSON
 *
 6
 )
-useable
+usable
 RDF
 DB
 =
@@ -10490,7 +10490,7 @@ record
 any
 changes
 that
-occured
+occurred
 /
 /
 during

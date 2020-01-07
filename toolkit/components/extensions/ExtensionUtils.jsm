@@ -3323,7 +3323,7 @@ browser
 >
 *
 element
-agaisnt
+against
 which
 to
 match

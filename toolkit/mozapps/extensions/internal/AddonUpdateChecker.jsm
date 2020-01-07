@@ -2658,7 +2658,7 @@ observer
 that
 an
 error
-occured
+occurred
 .
 *
 /

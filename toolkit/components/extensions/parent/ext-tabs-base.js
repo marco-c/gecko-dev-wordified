@@ -567,7 +567,7 @@ The
 name
 of
 the
-messge
+message
 to
 send
 .
@@ -3305,7 +3305,7 @@ in
 the
 format
 *
-requried
+required
 to
 be
 returned
@@ -4944,7 +4944,7 @@ extension
 in
 the
 format
-requried
+required
 to
 be
 returned
@@ -6735,7 +6735,7 @@ closing
 *
 An
 object
-containg
+containing
 basic
 extension
 -
@@ -9227,7 +9227,7 @@ given
 DOM
 event
 is
-recieved
+received
 *
 at
 the
@@ -10674,7 +10674,7 @@ in
 the
 format
 *
-requried
+required
 to
 be
 returned
@@ -11309,7 +11309,7 @@ in
 the
 *
 format
-requried
+required
 to
 be
 returned
