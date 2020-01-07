@@ -39135,12 +39135,6 @@ dispatchEvent
 event
 )
 ;
-BookmarkingUI
-.
-onToolbarVisibilityChange
-(
-)
-;
 if
 (
 toolbar
