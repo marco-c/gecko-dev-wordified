@@ -3447,9 +3447,6 @@ uint32_t
 mStartIndex
 ;
 uint32_t
-mIncrement
-;
-uint32_t
 mNumFamilies
 ;
 /
