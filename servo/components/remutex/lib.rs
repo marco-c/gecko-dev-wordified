@@ -181,7 +181,7 @@ use
 nonzero
 :
 :
-NonZero
+NonZeroUsize
 ;
 use
 std
@@ -277,10 +277,7 @@ pub
 struct
 ThreadId
 (
-NonZero
-<
-usize
->
+NonZeroUsize
 )
 ;
 lazy_static
@@ -335,7 +332,7 @@ SeqCst
 ;
 ThreadId
 (
-NonZero
+NonZeroUsize
 :
 :
 new
@@ -524,7 +521,7 @@ load
 ordering
 )
 ;
-NonZero
+NonZeroUsize
 :
 :
 new
@@ -604,7 +601,7 @@ number
 ordering
 )
 ;
-NonZero
+NonZeroUsize
 :
 :
 new
