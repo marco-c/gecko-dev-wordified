@@ -254,6 +254,14 @@ sphinx
 .
 ext
 .
+napoleon
+'
+    
+'
+sphinx
+.
+ext
+.
 todo
 '
     
