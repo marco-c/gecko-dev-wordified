@@ -1008,7 +1008,7 @@ if
 (
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 view
@@ -1123,7 +1123,7 @@ if
 (
 innerScheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 view
@@ -1509,7 +1509,7 @@ IsEmpty
 |
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 http
@@ -1519,7 +1519,7 @@ http
 |
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 https
@@ -1529,7 +1529,7 @@ https
 |
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 ftp
@@ -1539,7 +1539,7 @@ ftp
 |
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 file
@@ -1558,7 +1558,7 @@ if
 (
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 ttp
@@ -1606,7 +1606,7 @@ if
 (
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 htp
@@ -1654,7 +1654,7 @@ if
 (
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 ttps
@@ -1702,7 +1702,7 @@ if
 (
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 tps
@@ -1750,7 +1750,7 @@ if
 (
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 ps
@@ -1798,7 +1798,7 @@ if
 (
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 htps
@@ -1846,7 +1846,7 @@ if
 (
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 ile
@@ -1894,7 +1894,7 @@ if
 (
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 le

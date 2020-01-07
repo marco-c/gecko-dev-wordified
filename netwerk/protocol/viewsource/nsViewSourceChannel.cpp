@@ -388,7 +388,7 @@ if
 (
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 javascript

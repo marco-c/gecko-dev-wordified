@@ -42446,10 +42446,6 @@ ex
 if
 (
 scheme
-.
-toLowerCase
-(
-)
 !
 =
 "

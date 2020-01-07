@@ -4248,6 +4248,11 @@ MaskCRLFTab
 )
 )
 ;
+ToLowerCase
+(
+scheme
+)
+;
 return
 NS_OK
 ;

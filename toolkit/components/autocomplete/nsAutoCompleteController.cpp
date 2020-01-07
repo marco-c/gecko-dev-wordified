@@ -10363,7 +10363,7 @@ mSearchStringLength
 !
 scheme
 .
-LowerCaseEqualsLiteral
+EqualsLiteral
 (
 "
 http

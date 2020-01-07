@@ -774,11 +774,10 @@ this
 buffer
 on
 return
-(
-may
-be
-null
-)
+.
+Is
+lowercase
+.
 *
 /
 nsresult

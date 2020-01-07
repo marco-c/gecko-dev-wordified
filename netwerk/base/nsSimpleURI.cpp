@@ -1762,11 +1762,6 @@ return
 rv
 ;
 }
-ToLowerCase
-(
-mScheme
-)
-;
 nsAutoCString
 spec
 ;
