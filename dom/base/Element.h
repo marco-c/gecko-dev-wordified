@@ -6371,6 +6371,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 DOMRectList
@@ -6379,6 +6380,7 @@ GetClientRects
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 DOMRect
@@ -6513,6 +6515,7 @@ BooleanOrScrollIntoViewOptions
 aObject
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Scroll
 (
@@ -6522,6 +6525,7 @@ double
 aYScroll
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Scroll
 (
@@ -6531,6 +6535,7 @@ ScrollToOptions
 aOptions
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ScrollTo
 (
@@ -6540,6 +6545,7 @@ double
 aYScroll
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ScrollTo
 (
@@ -6549,6 +6555,7 @@ ScrollToOptions
 aOptions
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ScrollBy
 (
@@ -6558,6 +6565,7 @@ double
 aYScrollDif
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ScrollBy
 (
@@ -6599,6 +6607,7 @@ scrolled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 bool
 ScrollByNoFlush
 (
@@ -6608,11 +6617,13 @@ int32_t
 aDy
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ScrollTop
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetScrollTop
 (
@@ -6620,11 +6631,13 @@ int32_t
 aScrollTop
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ScrollLeft
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetScrollLeft
 (
@@ -6632,21 +6645,25 @@ int32_t
 aScrollLeft
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ScrollWidth
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ScrollHeight
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 MozScrollSnap
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ClientTop
 (
@@ -6666,6 +6683,7 @@ y
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ClientLeft
 (
@@ -6685,6 +6703,7 @@ x
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ClientWidth
 (
@@ -6706,6 +6725,7 @@ Width
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ClientHeight
 (
@@ -6727,6 +6747,7 @@ Height
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ScrollTopMin
 (
@@ -6761,6 +6782,7 @@ y
 0
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ScrollTopMax
 (
@@ -6797,6 +6819,7 @@ YMost
 0
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ScrollLeftMin
 (
@@ -6831,6 +6854,7 @@ x
 0
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 int32_t
 ScrollLeftMax
 (
@@ -7072,23 +7096,6 @@ nsAString
 aInnerHTML
 )
 ;
-void
-GetInnerHTML
-(
-nsAString
-&
-aInnerHTML
-nsIPrincipal
-&
-aSubjectPrincipal
-)
-{
-GetInnerHTML
-(
-aInnerHTML
-)
-;
-}
 virtual
 void
 SetInnerHTML
@@ -9412,6 +9419,7 @@ be
 evaluated
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 Scroll
 (
@@ -11258,11 +11266,13 @@ client
 area
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsRect
 GetClientAreaRect
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsIScrollableFrame
 *
 GetScrollFrame
