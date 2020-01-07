@@ -207,7 +207,7 @@ class
 ParseNode
 ;
 class
-TokenStream
+TokenStreamAnyChars
 ;
 }
 /
@@ -1718,7 +1718,7 @@ const
 frontend
 :
 :
-TokenStream
+TokenStreamAnyChars
 &
 tokenStream
 )
@@ -1908,7 +1908,7 @@ const
 frontend
 :
 :
-TokenStream
+TokenStreamAnyChars
 &
 tokenStream_
 ;

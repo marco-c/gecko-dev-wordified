@@ -1610,7 +1610,7 @@ RegExpParser
 frontend
 :
 :
-TokenStream
+TokenStreamAnyChars
 &
 ts
 LifoAlloc
@@ -11827,7 +11827,7 @@ ParsePattern
 frontend
 :
 :
-TokenStream
+TokenStreamAnyChars
 &
 ts
 LifoAlloc
@@ -12211,7 +12211,7 @@ ParsePattern
 frontend
 :
 :
-TokenStream
+TokenStreamAnyChars
 &
 ts
 LifoAlloc
@@ -12320,7 +12320,7 @@ ParsePatternSyntax
 frontend
 :
 :
-TokenStream
+TokenStreamAnyChars
 &
 ts
 LifoAlloc
@@ -12381,7 +12381,7 @@ ParsePatternSyntax
 frontend
 :
 :
-TokenStream
+TokenStreamAnyChars
 &
 ts
 LifoAlloc
@@ -12462,7 +12462,7 @@ ParsePatternSyntax
 frontend
 :
 :
-TokenStream
+TokenStreamAnyChars
 &
 ts
 LifoAlloc

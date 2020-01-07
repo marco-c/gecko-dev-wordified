@@ -20677,8 +20677,6 @@ reobj
 getFlags
 (
 )
-nullptr
-nullptr
 cx
 -
 >

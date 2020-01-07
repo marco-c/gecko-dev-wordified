@@ -919,7 +919,7 @@ return
 parser
 -
 >
-tokenStream
+anyChars
 ;
 }
 }

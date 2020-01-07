@@ -9320,7 +9320,7 @@ setTokenStream
 p
 -
 >
-tokenStream
+anyChars
 )
 ;
 }
@@ -9969,7 +9969,7 @@ MOZ_ASSERT
 parser
 -
 >
-tokenStream
+anyChars
 .
 srcCoords
 .
@@ -19748,7 +19748,7 @@ cx
 module
 parser
 .
-tokenStream
+anyChars
 )
 ;
 if

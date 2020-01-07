@@ -7346,7 +7346,7 @@ const
 frontend
 :
 :
-TokenStream
+TokenStreamAnyChars
 &
 tokenStream
 )
