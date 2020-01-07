@@ -517,7 +517,7 @@ state
 so
 that
 thread
-A
+S
 does
 not
 read
