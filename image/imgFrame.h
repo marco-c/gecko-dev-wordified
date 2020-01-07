@@ -3339,17 +3339,6 @@ mFrame
 ;
 }
 ;
-void
-MarkSurfaceShared
-(
-gfx
-:
-:
-SourceSurface
-*
-aSurface
-)
-;
 }
 /
 /
