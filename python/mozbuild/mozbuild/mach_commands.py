@@ -8079,6 +8079,23 @@ join
 dmd_params
 )
             
+else
+:
+                
+env_vars
+[
+arch
+]
+[
+"
+DMD
+"
+]
+=
+"
+1
+"
+            
 extra_env
 .
 update

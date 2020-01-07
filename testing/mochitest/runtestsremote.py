@@ -2187,6 +2187,23 @@ self
 mozLogName
 )
         
+if
+options
+.
+dmd
+:
+            
+browserEnv
+[
+'
+DMD
+'
+]
+=
+'
+1
+'
+        
 return
 browserEnv
     
