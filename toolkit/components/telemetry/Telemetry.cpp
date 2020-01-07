@@ -753,7 +753,7 @@ MOZ_GECKO_PROFILER
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_TELEMETRY_GECKOVIEW
 )
 #
 include
@@ -7071,7 +7071,9 @@ exist
 #
 if
 defined
-MOZ_WIDGET_ANDROID
+(
+MOZ_TELEMETRY_GECKOVIEW
+)
 /
 /
 We
@@ -7227,7 +7229,7 @@ DeInitializeGlobalState
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_TELEMETRY_GECKOVIEW
 )
 if
 (
@@ -10205,7 +10207,7 @@ ClearProbes
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_TELEMETRY_GECKOVIEW
 )
 /
 /
