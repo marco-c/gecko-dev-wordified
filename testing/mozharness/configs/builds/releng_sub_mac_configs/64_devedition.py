@@ -42,12 +42,6 @@ bug
 1372412
     
 '
-enable_talos_sendchange
-'
-:
-False
-    
-'
 enable_unittest_sendchange
 '
 :

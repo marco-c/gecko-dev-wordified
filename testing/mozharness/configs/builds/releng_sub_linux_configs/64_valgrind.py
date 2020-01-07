@@ -105,12 +105,6 @@ enable_signing
 False
     
 '
-enable_talos_sendchange
-'
-:
-False
-    
-'
 perfherder_extra_options
 '
 :

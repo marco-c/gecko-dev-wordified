@@ -77,12 +77,6 @@ debug_build
 :
 True
     
-'
-enable_talos_sendchange
-'
-:
-False
-    
 #
 #
 #

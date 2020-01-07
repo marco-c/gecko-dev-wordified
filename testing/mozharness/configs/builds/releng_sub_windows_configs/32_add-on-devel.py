@@ -90,12 +90,6 @@ on
 devel
 '
     
-'
-enable_talos_sendchange
-'
-:
-False
-    
 #
 #
 #
