@@ -192,6 +192,7 @@ testsdir
 "
 :
 "
+marionette
 "
         
 }

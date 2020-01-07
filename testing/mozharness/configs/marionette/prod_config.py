@@ -204,7 +204,7 @@ default_blob_upload_servers
 "
 :
 [
-         
+        
 "
 https
 :
@@ -387,6 +387,7 @@ testsdir
 "
 :
 "
+marionette
 "
         
 }
