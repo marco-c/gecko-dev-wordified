@@ -497,6 +497,16 @@ return
 false
 ;
 }
+if
+(
+!
+mHandle
+)
+{
+return
+false
+;
+}
 /
 /
 Get
