@@ -1352,6 +1352,13 @@ mImplicitMakeCurrent
 (
 false
 )
+mUseTLSIsCurrent
+(
+ShouldUseTLSIsCurrent
+(
+useTLSIsCurrent
+)
+)
 mIsOffscreen
 (
 isOffscreen
@@ -1359,13 +1366,6 @@ isOffscreen
 mContextLost
 (
 false
-)
-mUseTLSIsCurrent
-(
-ShouldUseTLSIsCurrent
-(
-useTLSIsCurrent
-)
 )
 mVersion
 (
@@ -19861,11 +19861,6 @@ MakeCurrentImpl
 return
 false
 ;
-if
-(
-mUseTLSIsCurrent
-)
-{
 sCurrentContext
 .
 set
@@ -19879,7 +19874,6 @@ this
 )
 )
 ;
-}
 return
 true
 ;
