@@ -1303,11 +1303,6 @@ BinarySharedStub
 \
 _
 (
-UnarySharedStub
-)
-\
-_
-(
 NullarySharedStub
 )
 \

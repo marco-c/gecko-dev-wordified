@@ -949,14 +949,6 @@ lir
 )
 ;
 void
-visitUnarySharedStub
-(
-LUnarySharedStub
-*
-lir
-)
-;
-void
 visitNullarySharedStub
 (
 LNullarySharedStub
