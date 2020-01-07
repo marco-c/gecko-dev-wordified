@@ -276,6 +276,11 @@ obj
 )
 )
 ;
+if
+(
+globalObject
+)
+{
 globalObject
 -
 >
@@ -289,6 +294,7 @@ NS_RELEASE
 globalObject
 )
 ;
+}
 }
 static
 size_t
@@ -318,6 +324,11 @@ obj
 )
 )
 ;
+if
+(
+globalObject
+)
+{
 globalObject
 -
 >
@@ -327,6 +338,7 @@ obj
 old
 )
 ;
+}
 return
 0
 ;
