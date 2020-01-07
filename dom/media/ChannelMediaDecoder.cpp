@@ -154,6 +154,15 @@ MediaShutdownManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs
+.
+h
+"
 namespace
 mozilla
 {
@@ -2937,7 +2946,7 @@ length
 =
 int64_t
 (
-MediaPrefs
+StaticPrefs
 :
 :
 MediaMemoryCacheMaxSize

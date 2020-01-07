@@ -143,7 +143,9 @@ h
 #
 include
 "
-MediaPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -694,10 +696,10 @@ MozOrientationLockEnabled
 const
 {
 return
-MediaPrefs
+StaticPrefs
 :
 :
-VideoOrientationLockEnabled
+MediaVideocontrolsLockVideoOrientation
 (
 )
 ;

@@ -179,13 +179,6 @@ h
 #
 include
 "
-MediaPrefs
-.
-h
-"
-#
-include
-"
 nsAppDirectoryServiceDefs
 .
 h
@@ -241,13 +234,6 @@ GMPTestRunner
 (
 )
 {
-MediaPrefs
-:
-:
-GetSingleton
-(
-)
-;
 }
 void
 DoTest

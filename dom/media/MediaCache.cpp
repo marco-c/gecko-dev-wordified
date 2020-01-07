@@ -143,13 +143,6 @@ h
 #
 include
 "
-MediaPrefs
-.
-h
-"
-#
-include
-"
 MediaResource
 .
 h
@@ -230,6 +223,15 @@ include
 mozilla
 /
 StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -5432,7 +5434,7 @@ aContentLength
 =
 int64_t
 (
-MediaPrefs
+StaticPrefs
 :
 :
 MediaMemoryCacheMaxSize
@@ -9542,7 +9544,7 @@ reusableBlock
 int32_t
 resumeThreshold
 =
-MediaPrefs
+StaticPrefs
 :
 :
 MediaCacheResumeThreshold
@@ -9552,7 +9554,7 @@ MediaCacheResumeThreshold
 int32_t
 readaheadLimit
 =
-MediaPrefs
+StaticPrefs
 :
 :
 MediaCacheReadaheadLimit

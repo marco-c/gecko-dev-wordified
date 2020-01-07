@@ -280,13 +280,6 @@ nsPluginHost
 .
 h
 "
-#
-include
-"
-MediaPrefs
-.
-h
-"
 namespace
 mozilla
 {
