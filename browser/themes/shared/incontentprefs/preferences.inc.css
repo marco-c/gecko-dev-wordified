@@ -2124,6 +2124,12 @@ C1C1C1
 .
 dialogTitle
 {
+font
+-
+size
+:
+unset
+;
 text
 -
 align
