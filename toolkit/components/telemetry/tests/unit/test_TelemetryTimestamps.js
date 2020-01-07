@@ -49,7 +49,7 @@ Components
 .
 interfaces
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -68,7 +68,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -88,7 +88,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -108,7 +108,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -183,7 +183,7 @@ app
 -
 info
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -335,7 +335,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

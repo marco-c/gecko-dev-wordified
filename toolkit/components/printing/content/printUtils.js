@@ -1132,9 +1132,7 @@ outerWindowID
 let
 Deprecated
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -2107,9 +2105,7 @@ aWindow
 let
 Deprecated
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -2300,9 +2296,7 @@ getPrintPreview
 let
 Deprecated
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

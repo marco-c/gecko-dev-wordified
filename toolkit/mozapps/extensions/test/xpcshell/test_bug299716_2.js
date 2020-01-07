@@ -90,9 +90,7 @@ the
 HTTP
 server
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

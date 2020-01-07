@@ -296,7 +296,7 @@ focused
 window
 id
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -315,7 +315,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

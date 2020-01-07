@@ -115,7 +115,7 @@ Components
 .
 utils
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -274,7 +274,7 @@ Ci
 nsIBlocklistService
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

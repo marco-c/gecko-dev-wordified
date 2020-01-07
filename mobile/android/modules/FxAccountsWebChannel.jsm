@@ -165,7 +165,7 @@ global
 Components
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -190,7 +190,7 @@ global
 Accounts
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -215,7 +215,7 @@ global
 Services
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -240,7 +240,7 @@ global
 WebChannel
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -268,7 +268,7 @@ XPCOMUtils
 const
 log
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -419,9 +419,9 @@ global
 strings
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -442,9 +442,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -465,9 +465,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

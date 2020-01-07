@@ -77,7 +77,7 @@ Components
 .
 utils
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -96,7 +96,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -115,7 +115,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -134,7 +134,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -473,9 +473,9 @@ fxAccounts
 }
 else
 {
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

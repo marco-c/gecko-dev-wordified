@@ -101,7 +101,7 @@ const
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -164,7 +164,7 @@ const
 PerformanceWatcher
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

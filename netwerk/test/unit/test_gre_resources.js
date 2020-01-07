@@ -15,7 +15,7 @@ resources
 are
 still
 there
-Cu
+ChromeUtils
 .
 import
 (

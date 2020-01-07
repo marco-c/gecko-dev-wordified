@@ -168,7 +168,7 @@ const
 setTimeout
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -240,7 +240,7 @@ platformVersion
 2
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (

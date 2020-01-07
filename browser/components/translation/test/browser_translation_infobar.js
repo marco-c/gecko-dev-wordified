@@ -76,7 +76,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -64,7 +64,7 @@ by
 304
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -83,7 +83,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

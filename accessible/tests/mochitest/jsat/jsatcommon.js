@@ -71,9 +71,7 @@ functions
 var
 gIterator
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -92,9 +90,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -115,9 +111,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -138,9 +132,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -773,9 +765,7 @@ stand
 -
 by
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

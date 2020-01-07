@@ -106,7 +106,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -125,7 +125,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -186,7 +186,7 @@ const
 PushService
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

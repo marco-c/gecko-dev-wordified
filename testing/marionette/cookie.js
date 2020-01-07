@@ -76,7 +76,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -95,7 +95,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -120,7 +120,7 @@ InvalidCookieDomainError
 UnableToSetCookieError
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -146,7 +146,7 @@ const
 pprint
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

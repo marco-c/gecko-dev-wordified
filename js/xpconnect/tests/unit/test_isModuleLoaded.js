@@ -50,7 +50,7 @@ module
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -203,7 +203,7 @@ module
 ;
 try
 {
-Cu
+ChromeUtils
 .
 import
 (

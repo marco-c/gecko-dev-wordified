@@ -6,9 +6,9 @@ env
 webextensions
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

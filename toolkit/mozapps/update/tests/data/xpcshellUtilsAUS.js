@@ -460,7 +460,7 @@ _linux
 "
 ;
 }
-Cu
+ChromeUtils
 .
 import
 (
@@ -1608,9 +1608,9 @@ js
 this
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -1631,9 +1631,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -25716,7 +25716,7 @@ overrideUpdatePrompt
 aCallback
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -26384,7 +26384,7 @@ let
 HttpServer
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

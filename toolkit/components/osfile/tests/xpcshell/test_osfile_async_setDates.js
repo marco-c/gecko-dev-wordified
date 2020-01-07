@@ -15,9 +15,7 @@ lone
 blocks
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

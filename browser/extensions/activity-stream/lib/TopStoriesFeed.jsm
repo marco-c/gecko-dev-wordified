@@ -76,7 +76,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -95,7 +95,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -114,7 +114,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -154,7 +154,7 @@ actionCreators
 ac
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -182,7 +182,7 @@ const
 Prefs
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -210,7 +210,7 @@ const
 shortURL
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -238,7 +238,7 @@ const
 SectionsManager
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -266,7 +266,7 @@ const
 UserDomainAffinityProvider
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -294,7 +294,7 @@ const
 PersistentCache
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -317,9 +317,9 @@ jsm
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

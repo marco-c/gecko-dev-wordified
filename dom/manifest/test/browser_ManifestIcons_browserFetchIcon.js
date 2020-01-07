@@ -24,7 +24,7 @@ const
 ManifestIcons
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -50,7 +50,7 @@ const
 ManifestObtainer
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

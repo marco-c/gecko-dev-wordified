@@ -233,7 +233,7 @@ const
 StreamUtils
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

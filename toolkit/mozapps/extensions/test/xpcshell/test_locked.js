@@ -40,9 +40,7 @@ from
 a
 corrupt
 database
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -61,9 +59,7 @@ js
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

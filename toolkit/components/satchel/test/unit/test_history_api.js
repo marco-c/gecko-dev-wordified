@@ -71,7 +71,7 @@ for
 deleted
 table
 tests
-Cu
+ChromeUtils
 .
 import
 (

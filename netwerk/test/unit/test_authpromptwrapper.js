@@ -36,7 +36,7 @@ HTTPS
 /
 -
 Proxies
-Cu
+ChromeUtils
 .
 import
 (

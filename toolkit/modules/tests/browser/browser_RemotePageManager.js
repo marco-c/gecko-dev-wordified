@@ -63,7 +63,7 @@ RemotePages
 RemotePageManager
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

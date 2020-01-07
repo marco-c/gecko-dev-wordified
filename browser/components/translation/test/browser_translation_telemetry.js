@@ -39,7 +39,7 @@ tmp
 {
 }
 ;
-Cu
+ChromeUtils
 .
 import
 (

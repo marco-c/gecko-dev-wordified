@@ -42,9 +42,9 @@ Cu
 =
 Components
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

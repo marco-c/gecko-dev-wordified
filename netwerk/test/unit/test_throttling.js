@@ -4,7 +4,7 @@ Test
 nsIThrottledInputChannel
 interface
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -23,7 +23,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

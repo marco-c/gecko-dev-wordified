@@ -117,7 +117,7 @@ BYTES_PER_MEBIBYTE
 =
 1048576
 ;
-Cu
+ChromeUtils
 .
 import
 (

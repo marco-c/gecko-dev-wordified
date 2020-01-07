@@ -161,7 +161,7 @@ test
 will
 time
 out
-Cu
+ChromeUtils
 .
 import
 (
@@ -180,7 +180,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -76,7 +76,7 @@ browserAction
 js
 *
 /
-Cu
+ChromeUtils
 .
 import
 (

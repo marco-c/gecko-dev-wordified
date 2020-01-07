@@ -5,9 +5,7 @@ startup
 shutdown
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

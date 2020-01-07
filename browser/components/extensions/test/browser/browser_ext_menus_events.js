@@ -136,7 +136,7 @@ const
 GlobalManager
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -162,7 +162,7 @@ const
 ExtensionPermissions
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

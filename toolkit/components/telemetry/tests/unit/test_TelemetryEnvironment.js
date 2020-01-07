@@ -34,7 +34,7 @@ AddonManager
 AddonManagerPrivate
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -55,7 +55,7 @@ jsm
 }
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -75,7 +75,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -94,7 +94,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -114,7 +114,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -134,7 +134,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -154,7 +154,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -174,7 +174,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -193,7 +193,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -212,7 +212,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -232,7 +232,7 @@ jsm
 this
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -259,9 +259,9 @@ only
 needed
 for
 Firefox
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -289,9 +289,9 @@ load
 LightweightThemeManager
 |
 .
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -312,9 +312,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -335,9 +335,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "

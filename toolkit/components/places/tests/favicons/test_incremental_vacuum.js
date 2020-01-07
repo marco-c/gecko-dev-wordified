@@ -38,7 +38,7 @@ the
 favicons
 database
 .
-Cu
+ChromeUtils
 .
 import
 (

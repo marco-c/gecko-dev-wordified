@@ -414,7 +414,7 @@ PerformanceStats
 performanceStatsService
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -440,7 +440,7 @@ let
 Services
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

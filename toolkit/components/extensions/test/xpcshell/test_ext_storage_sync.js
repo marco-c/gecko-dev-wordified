@@ -44,7 +44,7 @@ we
 can
 use
 FxAccounts
-Cu
+ChromeUtils
 .
 import
 (
@@ -63,7 +63,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -82,7 +82,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -111,7 +111,7 @@ KeyRingEncryptionRemoteTransformer
 keyToId
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -132,7 +132,7 @@ jsm
 }
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -155,7 +155,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -174,7 +174,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

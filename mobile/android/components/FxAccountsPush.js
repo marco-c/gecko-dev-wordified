@@ -82,7 +82,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -101,7 +101,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -120,7 +120,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -145,7 +145,7 @@ PushCrypto
 getCryptoParams
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -224,7 +224,7 @@ push
 const
 Log
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -20,7 +20,7 @@ HTTP
 case
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -39,7 +39,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

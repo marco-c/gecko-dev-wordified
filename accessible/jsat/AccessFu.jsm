@@ -95,7 +95,7 @@ jshint
 ignore
 :
 line
-Cu
+ChromeUtils
 .
 import
 (
@@ -114,7 +114,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -150,7 +150,7 @@ android
 "
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -531,7 +531,7 @@ _enabled
 =
 true
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -552,7 +552,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -573,7 +573,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -3275,7 +3275,7 @@ start
 (
 )
 {
-Cu
+ChromeUtils
 .
 import
 (

@@ -108,7 +108,7 @@ globals
 NetUtil
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -133,7 +133,7 @@ globals
 HttpServer
 *
 /
-Cu
+ChromeUtils
 .
 import
 (

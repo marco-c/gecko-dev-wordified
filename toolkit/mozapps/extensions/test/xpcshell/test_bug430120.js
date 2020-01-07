@@ -136,9 +136,7 @@ the
 HTTP
 server
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -157,9 +155,7 @@ js
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -47,9 +47,7 @@ imported
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

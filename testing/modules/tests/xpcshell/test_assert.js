@@ -90,9 +90,7 @@ ns
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -2582,9 +2580,7 @@ ns
 {
 }
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

@@ -175,9 +175,7 @@ the
 testcrasher
 shared
 library
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -196,9 +194,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

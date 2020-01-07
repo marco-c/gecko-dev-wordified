@@ -109,9 +109,7 @@ SUBMODULE_IMPORTED
 into
 scope
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

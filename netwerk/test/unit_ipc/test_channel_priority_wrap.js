@@ -100,7 +100,7 @@ globals
 HttpServer
 *
 /
-Cu
+ChromeUtils
 .
 import
 (

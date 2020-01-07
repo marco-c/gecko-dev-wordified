@@ -3,9 +3,7 @@ use
 strict
 "
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -24,9 +22,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -75,9 +71,7 @@ exact
 file
 path
 .
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

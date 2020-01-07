@@ -82,7 +82,7 @@ Components
 .
 utils
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -104,7 +104,7 @@ jsm
 const
 FileUtils
 =
-Cu
+ChromeUtils
 .
 import
 (

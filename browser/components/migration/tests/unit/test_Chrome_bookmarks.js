@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -244,7 +244,7 @@ for
 them
 anymore
 .
-Cu
+ChromeUtils
 .
 import
 (

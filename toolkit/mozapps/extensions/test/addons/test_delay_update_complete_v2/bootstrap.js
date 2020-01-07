@@ -7,9 +7,7 @@ install
 ADDON_ID
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (
@@ -28,9 +26,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

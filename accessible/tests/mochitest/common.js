@@ -851,9 +851,7 @@ enabled
 .
 *
 /
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

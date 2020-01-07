@@ -122,7 +122,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -141,7 +141,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -160,7 +160,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -179,7 +179,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -198,7 +198,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -261,9 +261,9 @@ js
 true
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -8038,7 +8038,7 @@ AppConstants
 MOZ_CRASHREPORTER
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -8304,7 +8304,7 @@ Components
 .
 utils
 ;
-Cu
+ChromeUtils
 .
 import
 (

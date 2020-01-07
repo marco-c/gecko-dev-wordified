@@ -131,7 +131,7 @@ Cu
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -155,7 +155,7 @@ const
 EventEmitter
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

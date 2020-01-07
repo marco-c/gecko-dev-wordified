@@ -126,7 +126,7 @@ Cr
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -145,7 +145,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -164,9 +164,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -187,9 +187,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -210,9 +210,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -235,9 +235,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -258,9 +258,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -281,9 +281,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -319,7 +319,7 @@ function
 let
 ssdp
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -370,7 +370,7 @@ factory
 aService
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -3326,7 +3326,7 @@ detectLanguage
 )
 )
 {
-Cu
+ChromeUtils
 .
 import
 (

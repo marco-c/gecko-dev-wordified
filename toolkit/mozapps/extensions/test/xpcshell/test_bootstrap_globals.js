@@ -41,9 +41,7 @@ the
 expected
 globals
 defined
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

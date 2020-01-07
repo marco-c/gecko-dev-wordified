@@ -78,7 +78,7 @@ no
 undef
 *
 /
-Cu
+ChromeUtils
 .
 import
 (
@@ -97,7 +97,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

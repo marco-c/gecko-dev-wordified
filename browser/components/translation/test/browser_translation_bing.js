@@ -108,7 +108,7 @@ const
 BingTranslator
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -135,7 +135,7 @@ const
 TranslationDocument
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -329,7 +329,7 @@ function
 (
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -349,7 +349,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -588,7 +588,7 @@ function
 (
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
@@ -608,7 +608,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

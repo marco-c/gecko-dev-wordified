@@ -37,9 +37,7 @@ const
 MessageContext
 }
 =
-Components
-.
-utils
+ChromeUtils
 .
 import
 (

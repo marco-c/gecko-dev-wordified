@@ -67,7 +67,7 @@ const
 ManifestObtainer
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

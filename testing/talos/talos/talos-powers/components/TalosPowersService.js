@@ -71,7 +71,7 @@ Cc
 =
 Components
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -90,9 +90,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -113,9 +113,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetter
+defineModuleGetter
 (
 this
 "
@@ -1364,7 +1364,7 @@ waitForSafeBrowsing
 let
 SafeBrowsing
 =
-Cu
+ChromeUtils
 .
 import
 (

@@ -22,7 +22,7 @@ cgi
 id
 =
 761228
-Cu
+ChromeUtils
 .
 import
 (
@@ -41,7 +41,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

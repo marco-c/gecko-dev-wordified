@@ -42,7 +42,7 @@ to
 regenerate
 keys
 .
-Cu
+ChromeUtils
 .
 import
 (
@@ -61,7 +61,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (

@@ -77,7 +77,7 @@ localhost
 var
 GMPScope
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -105,7 +105,7 @@ GMPScope
 .
 GMPInstallManager
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -124,7 +124,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -143,7 +143,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -162,7 +162,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -181,7 +181,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -200,7 +200,7 @@ js
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -219,7 +219,7 @@ jsm
 "
 )
 ;
-Cu
+ChromeUtils
 .
 import
 (
@@ -241,7 +241,7 @@ jsm
 var
 ProductAddonCheckerScope
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -273,7 +273,7 @@ run_test
 (
 )
 {
-Cu
+ChromeUtils
 .
 import
 (
