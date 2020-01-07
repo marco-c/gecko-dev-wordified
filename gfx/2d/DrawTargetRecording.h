@@ -316,6 +316,17 @@ Flush
 )
 ;
 }
+virtual
+void
+FlushItem
+(
+const
+IntRect
+&
+aBounds
+)
+override
+;
 /
 *
 *
