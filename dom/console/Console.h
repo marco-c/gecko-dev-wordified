@@ -2667,6 +2667,9 @@ mDumpFunction
 bool
 mDumpToStdout
 ;
+nsString
+mDumpPrefix
+;
 enum
 {
 eUnknown

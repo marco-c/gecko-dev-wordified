@@ -100,6 +100,12 @@ INNER
 dump
 :
 dumpFunction
+prefix
+:
+"
+_PREFIX_
+"
+;
 }
 )
 ;

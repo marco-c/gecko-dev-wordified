@@ -246,6 +246,15 @@ mDumpToStdout
 true
 ;
 }
+mConsole
+-
+>
+mDumpPrefix
+=
+aOptions
+.
+mPrefix
+;
 }
 ConsoleInstance
 :
