@@ -977,13 +977,6 @@ ThreadSafeTextIsOnlyWhitespace
 const
 final
 ;
-virtual
-bool
-HasTextForTranslation
-(
-)
-override
-;
 /
 *
 *
