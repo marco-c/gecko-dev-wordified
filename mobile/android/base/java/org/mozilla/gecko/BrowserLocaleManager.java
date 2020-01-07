@@ -3196,7 +3196,14 @@ FALLBACK_LOCALE_TAG
 ;
 }
 WrapForJNI
-public
+(
+dispatchTo
+=
+"
+Gecko
+"
+)
+private
 static
 native
 void
