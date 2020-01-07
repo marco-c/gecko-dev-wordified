@@ -171,6 +171,15 @@ rev
 revision
 }
 '
+         
+'
+-
+-
+variant
+'
+'
+officialWithGeckoBinariesNoMinApiRelease
+'
         
 ]
     
