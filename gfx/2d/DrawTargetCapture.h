@@ -945,17 +945,7 @@ FilterType
 aType
 )
 override
-{
-return
-mRefDT
--
->
-CreateFilter
-(
-aType
-)
 ;
-}
 void
 ReplayToDrawTarget
 (
