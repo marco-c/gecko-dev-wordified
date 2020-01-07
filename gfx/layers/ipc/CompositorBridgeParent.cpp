@@ -9248,6 +9248,16 @@ lock
 sIndirectLayerTreesLock
 )
 ;
+if
+(
+sIndirectLayerTrees
+[
+child
+]
+.
+mParent
+)
+{
 /
 /
 We
@@ -9305,6 +9315,7 @@ mParent
 >
 mApzSampler
 ;
+}
 NotifyChildCreated
 (
 child
