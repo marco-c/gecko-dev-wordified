@@ -170,6 +170,15 @@ h
 #
 include
 "
+mozilla
+/
+FontPropertyTypes
+.
+h
+"
+#
+include
+"
 nsCSSProps
 .
 h

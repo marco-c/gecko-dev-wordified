@@ -266,9 +266,9 @@ CGFontRef
 aFontRef
 FontWeight
 aWeight
-uint16_t
+FontStretch
 aStretch
-uint8_t
+FontSlantStyle
 aStyle
 bool
 aIsDataUserFont
@@ -788,9 +788,9 @@ nsAString
 aFontName
 FontWeight
 aWeight
-uint16_t
+FontStretch
 aStretch
-uint8_t
+FontSlantStyle
 aStyle
 )
 override
@@ -805,9 +805,9 @@ nsAString
 aFontName
 FontWeight
 aWeight
-uint16_t
+FontStretch
 aStretch
-uint8_t
+FontSlantStyle
 aStyle
 const
 uint8_t

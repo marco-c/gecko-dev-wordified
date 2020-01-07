@@ -293,7 +293,12 @@ mFont
 style
 =
 =
-NS_STYLE_FONT_STYLE_ITALIC
+FontSlantStyle
+:
+:
+Italic
+(
+)
 |
 |
 HasAnyStateBits
