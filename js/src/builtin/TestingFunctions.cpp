@@ -3683,14 +3683,6 @@ false
 ;
 }
 }
-uintptr_t
-stackLimit
-=
-GetNativeStackLimit
-(
-cx
-)
-;
 wasm
 :
 :
@@ -3713,7 +3705,6 @@ twoByteChars
 twoByteChars
 (
 )
-stackLimit
 &
 bytes
 &

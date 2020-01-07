@@ -6486,6 +6486,9 @@ MOZ_ALWAYS_INLINE
 bool
 CheckRecursionLimitDontReport
 (
+JSContext
+*
+cx
 uintptr_t
 limit
 )
@@ -6587,6 +6590,7 @@ MOZ_LIKELY
 (
 CheckRecursionLimitDontReport
 (
+cx
 untrustedLimit
 )
 )
@@ -6617,6 +6621,7 @@ cx
 return
 CheckRecursionLimitDontReport
 (
+cx
 GetNativeStackLimit
 (
 cx
@@ -6763,6 +6768,7 @@ cx
 return
 CheckRecursionLimitDontReport
 (
+cx
 GetNativeStackLimit
 (
 cx
