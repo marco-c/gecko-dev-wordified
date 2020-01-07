@@ -2820,6 +2820,12 @@ HandleAtom
 propAtom
 )
 ;
+MOZ_MUST_USE
+bool
+setSourceMapInfo
+(
+)
+;
 }
 ;
 inline
