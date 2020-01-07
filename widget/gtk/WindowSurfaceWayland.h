@@ -624,11 +624,6 @@ int
 aHeight
 )
 ;
-void
-UpdateScaleFactor
-(
-)
-;
 /
 /
 TODO

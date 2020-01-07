@@ -33038,16 +33038,6 @@ window
 return
 ;
 }
-/
-/
-This
-eventually
-propagate
-new
-scale
-to
-the
-PuppetWidgets
 window
 -
 >
