@@ -194,6 +194,17 @@ worker
 }
 )
         
+worker
+.
+setdefault
+(
+'
+env
+'
+{
+}
+)
+        
 if
 worker_os
 =
@@ -344,17 +355,6 @@ windows
 :
             
 worker
-.
-setdefault
-(
-'
-env
-'
-{
-}
-)
-            
-worker
 [
 '
 chain
@@ -366,26 +366,6 @@ trust
 ]
 =
 True
-        
-elif
-worker_os
-=
-=
-"
-macosx
-"
-:
-            
-worker
-.
-setdefault
-(
-'
-env
-'
-{
-}
-)
         
 yield
 job
@@ -466,21 +446,6 @@ if
 env
 :
             
-job_env
-=
-{
-}
-            
-if
-'
-worker
-'
-in
-job
-:
-                
-job_env
-=
 job
 [
 '
@@ -492,8 +457,6 @@ worker
 env
 '
 ]
-            
-job_env
 .
 update
 (
