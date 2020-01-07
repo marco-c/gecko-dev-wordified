@@ -2276,7 +2276,6 @@ RDM
 /
 _onWindowReady
 (
-e
 {
 isTopLevel
 }

@@ -1127,10 +1127,7 @@ on
 "
 connectionchange
 "
-(
-event
 type
-)
 =
 >
 {
@@ -1365,10 +1362,7 @@ on
 "
 connectionchange
 "
-(
-event
 type
-)
 =
 >
 {

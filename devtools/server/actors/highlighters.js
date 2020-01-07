@@ -106,8 +106,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -3523,7 +3521,6 @@ _onHighlighterEvent
 :
 function
 (
-type
 data
 )
 {

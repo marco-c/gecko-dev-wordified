@@ -693,10 +693,7 @@ on
 "
 connectionchange
 "
-(
-event
 type
-)
 =
 >
 {
