@@ -3501,7 +3501,7 @@ nsIFrame
 *
 parent
 ;
-Matrix4x4
+Matrix4x4Flagged
 ctm
 =
 frame

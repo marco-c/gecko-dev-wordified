@@ -12628,6 +12628,10 @@ GetTransformToAncestor
 referenceFrame
 mReferenceFrame
 )
+.
+GetMatrix
+(
+)
 )
 ;
 Matrix
@@ -52758,7 +52762,7 @@ true
 ;
 }
 const
-Matrix4x4
+Matrix4x4Flagged
 &
 nsDisplayTransform
 :
@@ -53046,6 +53050,10 @@ return
 GetTransform
 (
 )
+.
+GetMatrix
+(
+)
 ;
 }
 MOZ_ASSERT
@@ -53165,6 +53173,10 @@ IsLeafOf3DContext
 mTransformPreserves3D
 =
 GetTransform
+(
+)
+.
+GetMatrix
 (
 )
 ;
@@ -53882,6 +53894,10 @@ aLayerData
 SetTransform
 (
 GetTransform
+(
+)
+.
+GetMatrix
 (
 )
 )
@@ -55955,6 +55971,10 @@ Accumulate
 GetTransform
 (
 )
+.
+GetMatrix
+(
+)
 )
 ;
 if
@@ -56253,7 +56273,7 @@ nsRegion
 ;
 }
 const
-Matrix4x4
+Matrix4x4Flagged
 &
 matrix
 =
@@ -56391,7 +56411,7 @@ Nothing
 ;
 }
 const
-Matrix4x4
+Matrix4x4Flagged
 &
 matrix
 =
@@ -56882,7 +56902,7 @@ aOutRect
 const
 {
 const
-Matrix4x4
+Matrix4x4Flagged
 &
 matrix
 =
@@ -57073,6 +57093,10 @@ AppendToString
 (
 aStream
 GetTransform
+(
+)
+.
+GetMatrix
 (
 )
 )

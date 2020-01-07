@@ -35964,6 +35964,16 @@ mozilla
 gfx
 :
 :
+Matrix4x4Flagged
+Matrix4x4Flagged
+;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
 Point3D
 Point3D
 ;
@@ -36970,7 +36980,7 @@ that
 *
 /
 const
-Matrix4x4
+Matrix4x4Flagged
 &
 GetTransform
 (
@@ -38241,7 +38251,7 @@ StoreList
 mStoredList
 ;
 mutable
-Matrix4x4
+Matrix4x4Flagged
 mTransform
 ;
 /

@@ -46238,7 +46238,7 @@ return
 widget
 ;
 }
-Matrix4x4
+Matrix4x4Flagged
 nsIFrame
 :
 :
@@ -46730,6 +46730,10 @@ GetTransformToAncestor
 (
 docRootFrame
 nullptr
+)
+.
+GetMatrix
+(
 )
 ;
 if
@@ -48499,7 +48503,7 @@ false
 gfx
 :
 :
-Matrix4x4
+Matrix4x4Flagged
 transform3d
 ;
 if
@@ -48775,6 +48779,10 @@ layer
 SetBaseTransformForNextTransaction
 (
 transform3d
+.
+GetMatrix
+(
+)
 )
 ;
 *

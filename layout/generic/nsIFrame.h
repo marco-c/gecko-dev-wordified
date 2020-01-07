@@ -4386,6 +4386,16 @@ typedef
 mozilla
 :
 :
+gfx
+:
+:
+Matrix4x4Flagged
+Matrix4x4Flagged
+;
+typedef
+mozilla
+:
+:
 Sides
 Sides
 ;
@@ -20683,7 +20693,7 @@ STOP_AT_STACKING_CONTEXT_AND_DISPLAY_PORT
 1
 }
 ;
-Matrix4x4
+Matrix4x4Flagged
 GetTransformMatrix
 (
 const
