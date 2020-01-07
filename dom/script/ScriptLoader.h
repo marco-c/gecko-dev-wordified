@@ -2631,11 +2631,6 @@ nsAutoString
 inlineData
 )
 ;
-bool
-ModuleScriptsEnabled
-(
-)
-;
 void
 SetModuleFetchStarted
 (

@@ -6322,8 +6322,14 @@ integer
 sele
 -
 >
-FreezeUriAsyncDefer
+FreezeExecutionAttrs
 (
+node
+-
+>
+OwnerDoc
+(
+)
 )
 ;
 }

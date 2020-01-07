@@ -1080,8 +1080,11 @@ void
 SVGScriptElement
 :
 :
-FreezeUriAsyncDefer
+FreezeExecutionAttrs
 (
+nsIDocument
+*
+aOwnerDoc
 )
 {
 if
