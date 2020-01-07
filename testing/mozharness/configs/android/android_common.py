@@ -113,12 +113,6 @@ tooltool_cache
 "
     
 "
-download_tooltool
-"
-:
-True
-    
-"
 tooltool_servers
 "
 :
