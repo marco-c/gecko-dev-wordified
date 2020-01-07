@@ -167,7 +167,9 @@ _marionette
 _send_message
 (
 "
-setTimeouts
+WebDriver
+:
+SetTimeouts
 "
 {
 name
@@ -193,7 +195,9 @@ _marionette
 _send_message
 (
 "
-getTimeouts
+WebDriver
+:
+GetTimeouts
 "
 )
         
