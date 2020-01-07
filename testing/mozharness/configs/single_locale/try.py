@@ -158,14 +158,6 @@ s
 repositories
     
 "
-mozilla_dir
-"
-:
-"
-try
-"
-    
-"
 repos
 "
 :

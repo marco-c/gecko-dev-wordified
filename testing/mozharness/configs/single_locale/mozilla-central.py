@@ -154,16 +154,6 @@ s
 repositories
     
 "
-mozilla_dir
-"
-:
-"
-mozilla
--
-central
-"
-    
-"
 repos
 "
 :

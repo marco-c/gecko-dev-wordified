@@ -163,16 +163,6 @@ s
 repositories
     
 "
-mozilla_dir
-"
-:
-"
-mozilla
--
-aurora
-"
-    
-"
 repos
 "
 :

@@ -1877,7 +1877,7 @@ config
 "
 "
 def
-_get_mozconfig_path
+get_mozconfig_path
 (
 script
 config
@@ -10190,7 +10190,7 @@ try
             
 abs_mozconfig_path
 =
-_get_mozconfig_path
+get_mozconfig_path
 (
                 
 script

@@ -92,16 +92,6 @@ central
 repositories
     
 "
-mozilla_dir
-"
-:
-"
-mozilla
--
-beta
-"
-    
-"
 repos
 "
 :

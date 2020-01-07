@@ -154,14 +154,6 @@ s
 repositories
     
 "
-mozilla_dir
-"
-:
-"
-jamun
-"
-    
-"
 repos
 "
 :

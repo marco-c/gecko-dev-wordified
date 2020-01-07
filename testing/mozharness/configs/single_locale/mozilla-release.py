@@ -104,16 +104,6 @@ MAR_TOOLS_URL
 repositories
     
 "
-mozilla_dir
-"
-:
-"
-mozilla
--
-release
-"
-    
-"
 repos
 "
 :

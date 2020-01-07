@@ -57,14 +57,6 @@ uses
 jamun
     
 "
-mozilla_dir
-"
-:
-"
-jamun
-"
-    
-"
 repos
 "
 :

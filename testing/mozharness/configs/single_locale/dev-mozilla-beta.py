@@ -62,14 +62,6 @@ for
 now
     
 "
-mozilla_dir
-"
-:
-"
-jamun
-"
-    
-"
 repos
 "
 :
