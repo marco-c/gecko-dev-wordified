@@ -572,7 +572,7 @@ aPreallocateChildren
 const
 override
 ;
-nsCOMPtr
+RefPtr
 <
 Element
 >
