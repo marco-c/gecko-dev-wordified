@@ -22534,6 +22534,13 @@ sizing
 "
 font
 -
+variation
+-
+settings
+"
+"
+font
+-
 variant
 -
 alternates
