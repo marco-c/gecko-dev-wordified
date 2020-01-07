@@ -34906,15 +34906,11 @@ nullptr
 uint32_t
 length
 =
-0
-;
 nodeList
 -
 >
-GetLength
+Length
 (
-&
-length
 )
 ;
 bool
