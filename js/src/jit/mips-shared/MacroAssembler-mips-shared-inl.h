@@ -2968,8 +2968,6 @@ template
 <
 typename
 T
-typename
-L
 >
 void
 MacroAssembler
@@ -2983,7 +2981,8 @@ T
 src
 Register
 dest
-L
+Label
+*
 overflow
 )
 {

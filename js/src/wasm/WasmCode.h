@@ -2602,9 +2602,6 @@ const
 Tier
 tier
 ;
-MemoryAccessVector
-memoryAccesses
-;
 CodeRangeVector
 codeRanges
 ;
@@ -4479,17 +4476,6 @@ const
 CodeRange
 *
 lookupFuncRange
-(
-void
-*
-pc
-)
-const
-;
-const
-MemoryAccess
-*
-lookupMemoryAccess
 (
 void
 *
