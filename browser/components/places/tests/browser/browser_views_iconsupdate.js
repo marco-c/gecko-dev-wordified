@@ -764,17 +764,6 @@ guid
 )
 {
 let
-itemId
-=
-await
-PlacesUtils
-.
-promiseItemId
-(
-guid
-)
-;
-let
 sidebar
 =
 document
@@ -807,7 +796,7 @@ tree
 selectItems
 (
 [
-itemId
+guid
 ]
 )
 ;
