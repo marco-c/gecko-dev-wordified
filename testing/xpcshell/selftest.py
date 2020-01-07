@@ -1047,14 +1047,14 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test_failing
 (
 )
 {
   
-yield
+await
 Promise
 .
 reject
@@ -1114,8 +1114,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 test
 (
 )
@@ -1124,7 +1124,7 @@ test
 let
 result
 =
-yield
+await
 Promise
 .
 resolve
@@ -1225,8 +1225,8 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 this_test_will_fail
 (
 )
@@ -1249,7 +1249,7 @@ i
 )
 {
     
-yield
+await
 Promise
 .
 resolve
@@ -2042,14 +2042,14 @@ push
   
 registerCleanupFunction
 (
+async
 function
-*
 async_cleanup_3
 (
 )
 {
     
-yield
+await
 undefined
 ;
     

@@ -69,7 +69,13 @@ do_test_finished
 .
 forEach
 (
+f
+=
+>
 add_test
+(
+f
+)
 )
 ;
 function

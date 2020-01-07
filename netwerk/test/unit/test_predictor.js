@@ -3881,7 +3881,13 @@ tests
 .
 forEach
 (
+f
+=
+>
 add_test
+(
+f
+)
 )
 ;
 do_get_profile

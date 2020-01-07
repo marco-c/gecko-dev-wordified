@@ -2688,11 +2688,10 @@ here
 add_task
 (
 function
-*
 (
 )
 {
-yield
+return
 fetch_blocklist
 (
 )
