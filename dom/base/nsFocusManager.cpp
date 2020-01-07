@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsIDOMRange
-.
-h
-"
-#
-include
-"
 nsIHTMLDocument
 .
 h

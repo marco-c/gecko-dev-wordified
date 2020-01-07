@@ -260,13 +260,6 @@ h
 #
 include
 "
-nsIDOMRange
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -310,6 +303,13 @@ h
 include
 "
 nsPresContext
+.
+h
+"
+#
+include
+"
+nsRange
 .
 h
 "

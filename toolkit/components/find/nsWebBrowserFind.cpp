@@ -134,7 +134,7 @@ else
 we
 could
 use
-nsIDOMRange
+nsRange
 .
 h
 and

@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsIDOMRange
-.
-h
-"
-#
-include
-"
 nsIHTMLCollection
 .
 h

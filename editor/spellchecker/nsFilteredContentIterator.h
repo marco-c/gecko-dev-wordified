@@ -141,9 +141,6 @@ class
 nsIDOMNode
 ;
 class
-nsIDOMRange
-;
-class
 nsINode
 ;
 class
@@ -200,7 +197,7 @@ virtual
 nsresult
 Init
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )

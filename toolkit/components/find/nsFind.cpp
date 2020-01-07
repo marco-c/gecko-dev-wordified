@@ -809,7 +809,7 @@ virtual
 nsresult
 Init
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )
