@@ -599,6 +599,9 @@ platforms
 :
 [
 "
+linux
+"
+"
 macosx
 "
 ]
