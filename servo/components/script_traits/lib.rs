@@ -259,13 +259,12 @@ euclid
 :
 :
 {
-Size2D
 Length
 Point2D
 Vector2D
 Rect
-TypedScale
 TypedSize2D
+TypedScale
 }
 ;
 use
@@ -520,6 +519,7 @@ webrender_api
 {
 ExternalScrollId
 DevicePixel
+DeviceUintSize
 DocumentId
 ImageKey
 }
@@ -5118,10 +5118,7 @@ size
 SetWindowSize
 (
 TopLevelBrowsingContextId
-Size2D
-<
-u32
->
+DeviceUintSize
 IpcSender
 <
 WindowSizeData

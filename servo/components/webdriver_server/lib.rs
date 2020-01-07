@@ -159,7 +159,7 @@ use
 euclid
 :
 :
-Size2D
+TypedSize2D
 ;
 use
 hyper
@@ -3262,7 +3262,7 @@ Null
 let
 size
 =
-Size2D
+TypedSize2D
 :
 :
 new
