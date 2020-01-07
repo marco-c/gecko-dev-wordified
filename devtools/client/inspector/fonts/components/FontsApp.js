@@ -240,13 +240,6 @@ fontOptions
 )
 .
 isRequired
-onAxisUpdate
-:
-PropTypes
-.
-func
-.
-isRequired
 onPreviewFonts
 :
 PropTypes
@@ -266,7 +259,6 @@ const
 fontData
 fontEditor
 fontOptions
-onAxisUpdate
 onPreviewFonts
 }
 =
@@ -308,7 +300,6 @@ FontEditor
 (
 {
 fontEditor
-onAxisUpdate
 }
 )
 :
