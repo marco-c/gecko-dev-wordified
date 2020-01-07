@@ -433,7 +433,6 @@ join
 webconsole
 jsdebugger
 scratchpad
-options
 "
 "
 Correct

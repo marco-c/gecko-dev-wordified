@@ -194,6 +194,17 @@ isTargetSupported
 (
 target
 )
+&
+&
+def
+.
+id
+!
+=
+=
+"
+options
+"
 )
 .
 map
