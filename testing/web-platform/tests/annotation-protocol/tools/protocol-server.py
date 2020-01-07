@@ -84,6 +84,10 @@ testsuite
 copyright
 .
 html
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -2823,20 +2827,24 @@ newID
 )
     
 print
+(
 "
 post
 :
 "
 +
 newID
+)
     
 print
+(
 "
 post
 :
 "
 +
 key
+)
     
 tempAnnotations
 [
@@ -2972,20 +2980,24 @@ newID
 )
     
 print
+(
 "
 put
 :
 "
 +
 newID
+)
     
 print
+(
 "
 put
 :
 "
 +
 key
+)
     
 tempAnnotations
 [
@@ -3207,6 +3219,7 @@ __main__
 :
     
 print
+(
 '
 http
 :
@@ -3228,8 +3241,10 @@ format
 (
 port
 )
+)
     
 print
+(
 '
 container
 URI
@@ -3260,8 +3275,10 @@ port
 annotations
 /
 "
+)
     
 print
+(
 '
 example
 annotation
@@ -3296,6 +3313,7 @@ anno1
 .
 json
 "
+)
     
 routes
 =

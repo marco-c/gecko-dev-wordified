@@ -22,6 +22,10 @@ Modified
 09
 -
 02
+from
+__future__
+import
+print_function
 import
 json
 from
@@ -1285,6 +1289,7 @@ except
 :
     
 print
+(
 "
 Context
 is
@@ -1293,6 +1298,7 @@ failed
 Test
 1
 "
+)
 #
 Test2
 :
@@ -1353,6 +1359,7 @@ except
 :
     
 print
+(
 "
 Cannot
 use
@@ -1365,6 +1372,7 @@ LD
 to
 NQuads
 "
+)
 #
 Test3
 :
@@ -1450,6 +1458,7 @@ except
 :
     
 print
+(
 "
 Different
 triples
@@ -1462,6 +1471,7 @@ non
 isomorphic
 graphs
 "
+)
 #
 Test4
 :
@@ -1515,6 +1525,7 @@ except
 :
     
 print
+(
 "
 Failed
 to
@@ -1522,6 +1533,7 @@ recompact
 parsed
 data
 "
+)
     
 raise
 #
@@ -1944,6 +1956,7 @@ rdfsresource
 :
             
 print
+(
 "
 Found
 inconsistent
@@ -1957,6 +1970,7 @@ range
 "
 %
 p
+)
 for
 c
 in
@@ -1995,6 +2009,7 @@ otherClasses
 :
             
 print
+(
 "
 Found
 inconsistent
@@ -2008,8 +2023,11 @@ superClass
 "
 %
 c
+)
 print
+(
 "
 Done
 .
 "
+)

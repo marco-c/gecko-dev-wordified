@@ -6,6 +6,10 @@ usr
 bin
 /
 python
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -488,12 +492,14 @@ argv
 :
         
 print
+(
 "
 No
 arguments
 expected
 aborting
 "
+)
         
 return
     
@@ -511,6 +517,7 @@ F_OK
 :
         
 print
+(
 "
 Must
 be
@@ -526,6 +533,7 @@ THIS_NAME
 "
 aborting
 "
+)
         
 return
     

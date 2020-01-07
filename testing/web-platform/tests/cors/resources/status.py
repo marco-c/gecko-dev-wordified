@@ -280,7 +280,6 @@ preflight
         
 except
 KeyError
-ValueError
 :
             
 pass

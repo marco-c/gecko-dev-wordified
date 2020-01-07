@@ -209,6 +209,10 @@ IN
 THE
 SOFTWARE
 .
+from
+__future__
+import
+print_function
 "
 "
 "
@@ -2724,6 +2728,7 @@ return
 True
     
 print
+(
 "
 (
 '
@@ -2741,6 +2746,7 @@ s
 (
 filename
 status
+)
 )
     
 return
@@ -2898,6 +2904,7 @@ GetoptError
 :
         
 print
+(
 '
 build
 -
@@ -2919,6 +2926,7 @@ outdir
 outdir
 >
 '
+)
         
 sys
 .
@@ -2935,8 +2943,10 @@ opts
 :
         
 print
+(
 opt
 arg
+)
         
 if
 opt

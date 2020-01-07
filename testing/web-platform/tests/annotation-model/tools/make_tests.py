@@ -47,6 +47,10 @@ this
 test
 collection
 .
+from
+__future__
+import
+print_function
 import
 re
 import
@@ -233,6 +237,7 @@ e
 :
       
 print
+(
 "
 parse
 of
@@ -249,6 +254,7 @@ e
 [
 0
 ]
+)
     
 else
 :
@@ -464,6 +470,7 @@ e
 :
       
 print
+(
 "
 parse
 of
@@ -480,6 +487,7 @@ e
 [
 0
 ]
+)
     
 else
 :
