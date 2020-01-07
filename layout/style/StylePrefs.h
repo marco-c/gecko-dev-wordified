@@ -179,6 +179,10 @@ sMozDocumentEnabledInContent
 ;
 static
 bool
+sMozDocumentURLPrefixHackEnabled
+;
+static
+bool
 sGridTemplateSubgridValueEnabled
 ;
 static
