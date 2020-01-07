@@ -201,6 +201,15 @@ include
 "
 mozilla
 /
+UndisplayedNode
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ViewportFrame
 .
 h
