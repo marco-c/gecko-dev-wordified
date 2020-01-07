@@ -80,6 +80,23 @@ LinterNotFound
     
 LinterParseError
 )
+here
+=
+os
+.
+path
+.
+abspath
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+)
 pytest
 .
 fixture
@@ -101,6 +118,7 @@ parser
 =
 Parser
 (
+here
 )
     
 def
@@ -279,6 +297,24 @@ yml
     
 '
 missing_definition
+.
+yml
+'
+    
+'
+non_existing_include
+.
+yml
+'
+    
+'
+non_existing_exclude
+.
+yml
+'
+    
+'
+non_existing_support_files
 .
 yml
 '
