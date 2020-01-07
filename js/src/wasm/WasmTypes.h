@@ -12255,16 +12255,6 @@ hasCachedSavedFrame_
 true
 ;
 }
-void
-clearHasCachedSavedFrame
-(
-)
-{
-hasCachedSavedFrame_
-=
-false
-;
-}
 /
 /
 DebugFrame

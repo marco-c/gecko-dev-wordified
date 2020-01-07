@@ -982,16 +982,6 @@ hasCachedSavedFrame_
 true
 ;
 }
-void
-clearHasCachedSavedFrame
-(
-)
-{
-hasCachedSavedFrame_
-=
-false
-;
-}
 unsigned
 numFormalArgs
 (
