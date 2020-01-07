@@ -180,7 +180,7 @@ DOMPoint
 DOMPoint
 :
 :
-Constructor
+FromPoint
 (
 const
 GlobalObject
@@ -190,9 +190,6 @@ const
 DOMPointInit
 &
 aParams
-ErrorResult
-&
-aRV
 )
 {
 RefPtr

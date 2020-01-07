@@ -361,7 +361,7 @@ already_AddRefed
 <
 DOMPoint
 >
-Constructor
+FromPoint
 (
 const
 GlobalObject
@@ -371,9 +371,6 @@ const
 DOMPointInit
 &
 aParams
-ErrorResult
-&
-aRV
 )
 ;
 static
