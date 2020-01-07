@@ -272,7 +272,6 @@ aResult
 )
 override
 ;
-virtual
 bool
 GetWidgetPadding
 (
@@ -284,7 +283,10 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 *
 aResult
 )
