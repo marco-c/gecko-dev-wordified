@@ -7419,6 +7419,8 @@ synthesize_presentational_hints_for_legacy_attributes
 context
 .
 visited_handling
+(
+)
 applicable_declarations
 )
 ;
