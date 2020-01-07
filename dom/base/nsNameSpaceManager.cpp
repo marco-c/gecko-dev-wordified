@@ -1118,14 +1118,6 @@ NamespaceID
 (
 )
 ;
-if
-(
-ns
-=
-=
-kNameSpaceID_XHTML
-)
-{
 RefPtr
 <
 nsAtom
@@ -1142,6 +1134,14 @@ aIs
 :
 nullptr
 ;
+if
+(
+ns
+=
+=
+kNameSpaceID_XHTML
+)
+{
 return
 NS_NewHTMLElement
 (
@@ -1177,6 +1177,7 @@ forget
 (
 )
 aFromParser
+isAtom
 )
 ;
 }

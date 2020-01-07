@@ -812,6 +812,10 @@ mAttributes
 (
 nullptr
 )
+mIsAtom
+(
+nullptr
+)
 {
 }
 virtual
@@ -1036,6 +1040,12 @@ mAttributes
 [
 OWNER
 ]
+RefPtr
+<
+nsAtom
+>
+mIsAtom
+;
 }
 ;
 namespace
