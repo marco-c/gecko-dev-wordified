@@ -741,7 +741,7 @@ IntrinsicNewStringIterator
 \
 _
 (
-IntrinsicIsArrayBuffer
+IntrinsicGuardToArrayBuffer
 )
 \
 _

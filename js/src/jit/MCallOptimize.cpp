@@ -2402,10 +2402,10 @@ case
 InlinableNative
 :
 :
-IntrinsicIsArrayBuffer
+IntrinsicGuardToArrayBuffer
 :
 return
-inlineHasClass
+inlineGuardToClass
 (
 callInfo
 &
