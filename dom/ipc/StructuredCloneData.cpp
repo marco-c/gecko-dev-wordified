@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsIDOMDOMException
-.
-h
-"
-#
-include
-"
 nsIMutable
 .
 h

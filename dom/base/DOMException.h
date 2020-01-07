@@ -193,13 +193,6 @@ h
 #
 include
 "
-nsIDOMDOMException
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -766,8 +759,6 @@ DOMException
 :
 public
 Exception
-public
-nsIDOMDOMException
 {
 public
 :
@@ -787,8 +778,11 @@ uint16_t
 aCode
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMDOMEXCEPTION
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+DOMException
+Exception
+)
 /
 /
 nsWrapperCache
