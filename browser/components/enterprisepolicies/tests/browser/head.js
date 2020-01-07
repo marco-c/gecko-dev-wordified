@@ -265,6 +265,12 @@ test
 "
 )
 ;
+EnterprisePolicyTesting
+.
+resetRunOnceState
+(
+)
+;
 }
 )
 ;

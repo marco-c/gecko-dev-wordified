@@ -41,12 +41,6 @@ setup
 (
 )
 {
-EnterprisePolicyTesting
-.
-resetRunOnceState
-(
-)
-;
 const
 expiry
 =
@@ -485,12 +479,6 @@ host
 )
 ;
 }
-EnterprisePolicyTesting
-.
-resetRunOnceState
-(
-)
-;
 }
 )
 ;
