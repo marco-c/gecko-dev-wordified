@@ -257,7 +257,6 @@ false
 )
 {
 }
-virtual
 void
 ActorDestroy
 (
@@ -281,7 +280,6 @@ protocol
 we
 need
 .
-virtual
 mozilla
 :
 :
@@ -305,7 +303,6 @@ this
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -324,7 +321,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -343,7 +339,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -362,7 +357,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -381,7 +375,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -401,7 +394,6 @@ aOptions
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -428,7 +420,6 @@ aOptions
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -455,7 +446,6 @@ this
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -479,7 +469,6 @@ this
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -509,7 +498,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -528,7 +516,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -547,7 +534,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -566,7 +552,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -585,7 +570,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -608,7 +592,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -634,7 +617,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -663,7 +645,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -683,7 +664,6 @@ isContentOnlyTDR
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -704,7 +684,6 @@ aPresShellId
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -725,7 +704,6 @@ aRegion
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -744,7 +722,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -816,7 +793,6 @@ transaction
 .
 *
 /
-virtual
 mozilla
 :
 :
@@ -829,7 +805,6 @@ RecvRequestNotifyAfterRemotePaint
 )
 override
 ;
-virtual
 PLayerTransactionParent
 *
 AllocPLayerTransactionParent
@@ -848,7 +823,6 @@ aId
 )
 override
 ;
-virtual
 bool
 DeallocPLayerTransactionParent
 (
@@ -858,7 +832,6 @@ aLayers
 )
 override
 ;
-virtual
 void
 ShadowLayersUpdated
 (
@@ -874,7 +847,6 @@ aHitTestUpdate
 )
 override
 ;
-virtual
 void
 ForceComposite
 (
@@ -884,7 +856,6 @@ aLayerTree
 )
 override
 ;
-virtual
 void
 NotifyClearCachedResources
 (
@@ -894,7 +865,6 @@ aLayerTree
 )
 override
 ;
-virtual
 bool
 SetTestSampleTime
 (
@@ -909,7 +879,6 @@ aTime
 )
 override
 ;
-virtual
 void
 LeaveTestMode
 (
@@ -920,7 +889,6 @@ aId
 )
 override
 ;
-virtual
 void
 ApplyAsyncProperties
 (
@@ -930,7 +898,6 @@ aLayerTree
 )
 override
 ;
-virtual
 void
 FlushApzRepaints
 (
@@ -941,7 +908,6 @@ aLayersId
 )
 override
 ;
-virtual
 void
 GetAPZTestData
 (
@@ -955,7 +921,6 @@ aOutData
 )
 override
 ;
-virtual
 void
 SetConfirmedTargetAPZC
 (
@@ -977,7 +942,6 @@ aTargets
 )
 override
 ;
-virtual
 AsyncCompositionManager
 *
 GetCompositionManager
@@ -988,7 +952,6 @@ aParent
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1048,7 +1011,6 @@ TimeStamp
 aCompositeEnd
 )
 ;
-virtual
 void
 DidComposite
 (
@@ -1063,7 +1025,6 @@ aCompositeEnd
 )
 override
 ;
-virtual
 PTextureParent
 *
 AllocPTextureParent
@@ -1098,7 +1059,6 @@ aExternalImageId
 )
 override
 ;
-virtual
 bool
 DeallocPTextureParent
 (
@@ -1108,7 +1068,6 @@ actor
 )
 override
 ;
-virtual
 bool
 IsSameProcess
 (
@@ -1154,7 +1113,6 @@ return
 false
 ;
 }
-virtual
 PAPZCTreeManagerParent
 *
 AllocPAPZCTreeManagerParent
@@ -1166,7 +1124,6 @@ aLayersId
 )
 override
 ;
-virtual
 bool
 DeallocPAPZCTreeManagerParent
 (
@@ -1176,7 +1133,6 @@ aActor
 )
 override
 ;
-virtual
 PAPZParent
 *
 AllocPAPZParent
@@ -1188,7 +1144,6 @@ aLayersId
 )
 override
 ;
-virtual
 bool
 DeallocPAPZParent
 (
@@ -1198,7 +1153,6 @@ aActor
 )
 override
 ;
-virtual
 void
 UpdatePaintTime
 (

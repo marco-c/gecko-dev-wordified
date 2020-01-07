@@ -381,7 +381,6 @@ ShouldParentObserveEpoch
 (
 )
 ;
-virtual
 ShmemAllocator
 *
 AsShmemAllocator
@@ -393,7 +392,6 @@ return
 this
 ;
 }
-virtual
 bool
 AllocShmem
 (
@@ -416,7 +414,6 @@ aShmem
 )
 override
 ;
-virtual
 bool
 AllocUnsafeShmem
 (
@@ -439,7 +436,6 @@ aShmem
 )
 override
 ;
-virtual
 void
 DeallocShmem
 (
@@ -452,7 +448,6 @@ aShmem
 )
 override
 ;
-virtual
 bool
 IsSameProcess
 (
@@ -510,7 +505,6 @@ aCompositeEnd
 /
 /
 CompositableParentManager
-virtual
 void
 SendAsyncMessage
 (
@@ -524,21 +518,18 @@ aMessage
 )
 override
 ;
-virtual
 void
 SendPendingAsyncMessages
 (
 )
 override
 ;
-virtual
 void
 SetAboutToSendAsyncMessages
 (
 )
 override
 ;
-virtual
 void
 NotifyNotUsed
 (
@@ -550,7 +541,6 @@ aTransactionId
 )
 override
 ;
-virtual
 base
 :
 :
@@ -568,7 +558,6 @@ OtherPid
 }
 protected
 :
-virtual
 mozilla
 :
 :
@@ -581,7 +570,6 @@ RecvShutdown
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -594,7 +582,6 @@ RecvShutdownSync
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -615,7 +602,6 @@ aPaintTime
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -632,7 +618,6 @@ aReadLocks
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -649,7 +634,6 @@ aInfo
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -666,7 +650,6 @@ aLayerObserverEpoch
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -687,7 +670,6 @@ aInfo
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -704,7 +686,6 @@ aHandle
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -721,7 +702,6 @@ aHandle
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -734,7 +714,6 @@ RecvClearCachedResources
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -747,7 +726,6 @@ RecvForceComposite
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -764,7 +742,6 @@ aTime
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -777,7 +754,6 @@ RecvLeaveTestMode
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -800,7 +776,6 @@ aHasAnimationOpacity
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -820,7 +795,6 @@ aTransform
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -848,7 +822,6 @@ aY
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -872,7 +845,6 @@ aValue
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -885,7 +857,6 @@ RecvFlushApzRepaints
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -901,7 +872,6 @@ aOutData
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -921,7 +891,6 @@ aValue
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -945,7 +914,6 @@ aTargets
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -962,7 +930,6 @@ aTiming
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -987,7 +954,6 @@ OpSetLayerAttributes
 aOp
 )
 ;
-virtual
 void
 ActorDestroy
 (

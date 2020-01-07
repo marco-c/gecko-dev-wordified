@@ -1049,7 +1049,6 @@ DoDestroy
 (
 )
 ;
-virtual
 mozilla
 :
 :
