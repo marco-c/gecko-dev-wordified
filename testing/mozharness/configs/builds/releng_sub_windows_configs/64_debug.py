@@ -137,20 +137,6 @@ python27
 '
                 
 '
-C
-:
-/
-mozilla
--
-build
-/
-buildbotve
-/
-scripts
-;
-'
-                
-'
 %
 s
 '
