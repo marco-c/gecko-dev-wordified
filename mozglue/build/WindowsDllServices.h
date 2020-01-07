@@ -377,7 +377,7 @@ aDllName
 override
 final
 {
-nsDependentString
+nsDependentSubstring
 strDllName
 (
 aDllName
