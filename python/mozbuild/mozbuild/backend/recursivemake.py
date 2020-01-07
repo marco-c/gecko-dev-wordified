@@ -129,6 +129,14 @@ data
 import
 (
     
+AndroidAssetsDirs
+    
+AndroidResDirs
+    
+AndroidExtraResDirs
+    
+AndroidExtraPackages
+    
 BaseLibrary
     
 BaseProgram

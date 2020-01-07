@@ -110,6 +110,14 @@ data
 import
 (
     
+AndroidAssetsDirs
+    
+AndroidExtraPackages
+    
+AndroidExtraResDirs
+    
+AndroidResDirs
+    
 BaseRustProgram
     
 BaseSources
