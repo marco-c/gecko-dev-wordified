@@ -2127,6 +2127,13 @@ aElement
 bool
 GetKeyframesForName
 (
+const
+dom
+:
+:
+Element
+&
+aElement
 nsAtom
 *
 aName

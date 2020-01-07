@@ -30811,6 +30811,9 @@ Servo_StyleSet_GetKeyframesForName
 raw_data
 :
 RawServoStyleSetBorrowed
+element
+:
+RawGeckoElementBorrowed
 name
 :
 *
@@ -30845,6 +30848,14 @@ be
 initially
 empty
 "
+)
+;
+let
+element
+=
+GeckoElement
+(
+element
 )
 ;
 let
@@ -30885,6 +30896,7 @@ get_animation
 (
 &
 name
+element
 )
 {
 Some

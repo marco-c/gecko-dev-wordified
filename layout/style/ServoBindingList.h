@@ -781,6 +781,8 @@ Servo_StyleSet_GetKeyframesForName
 bool
 RawServoStyleSetBorrowed
 set
+RawGeckoElementBorrowed
+element
 nsAtom
 *
 name
