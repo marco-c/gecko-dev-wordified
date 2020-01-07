@@ -4778,9 +4778,7 @@ n
 =
 domRules
 .
-Count
-(
-)
+length
 ;
 i
 <
@@ -4795,11 +4793,9 @@ let
 sheet
 =
 domRules
-.
-GetElementAt
-(
+[
 i
-)
+]
 .
 parentStyleSheet
 ;

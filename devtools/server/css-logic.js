@@ -3304,9 +3304,7 @@ domRules
 ?
 domRules
 .
-Count
-(
-)
+length
 :
 0
 ;
@@ -3330,11 +3328,9 @@ let
 domRule
 =
 domRules
-.
-GetElementAt
-(
+[
 i
-)
+]
 ;
 if
 (

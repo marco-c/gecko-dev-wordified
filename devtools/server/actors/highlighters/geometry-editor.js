@@ -880,9 +880,7 @@ i
 <
 cssRules
 .
-Count
-(
-)
+length
 ;
 i
 +
@@ -893,11 +891,9 @@ let
 rule
 =
 cssRules
-.
-GetElementAt
-(
+[
 i
-)
+]
 ;
 for
 (

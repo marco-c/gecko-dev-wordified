@@ -252,6 +252,13 @@ Bug
 *
 *
 /
+const
+InspectorUtils
+=
+SpecialPowers
+.
+InspectorUtils
+;
 function
 do_test
 (
@@ -358,7 +365,7 @@ try
 var
 res
 =
-utils
+InspectorUtils
 .
 getCSSStyleRules
 (
@@ -368,7 +375,9 @@ docElement
 is
 (
 res
-null
+.
+length
+0
 "
 getCSSStyleRules
 "
@@ -376,7 +385,7 @@ getCSSStyleRules
 ;
 res
 =
-utils
+InspectorUtils
 .
 getCSSStyleRules
 (
@@ -386,7 +395,9 @@ body
 is
 (
 res
-null
+.
+length
+0
 "
 getCSSStyleRules
 "
