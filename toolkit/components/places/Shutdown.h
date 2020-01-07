@@ -240,9 +240,9 @@ shutdownClient
 for
 example
 see
-sanitize
+Sanitizer
 .
-js
+jsm
 )
 so
 they
