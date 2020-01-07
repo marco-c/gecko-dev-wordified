@@ -316,14 +316,6 @@ testing
 *
 *
 "
-"
-tools
-/
-profiler
-/
-*
-*
-"
 ]
 "
 rules
