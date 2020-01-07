@@ -9980,9 +9980,6 @@ CustomElementRegistry
 :
 IsCustomElementEnabled
 (
-OwnerDoc
-(
-)
 )
 &
 &
@@ -12259,9 +12256,6 @@ CustomElementRegistry
 :
 IsCustomElementEnabled
 (
-OwnerDoc
-(
-)
 )
 )
 {
@@ -15901,9 +15895,6 @@ CustomElementRegistry
 :
 IsCustomElementEnabled
 (
-OwnerDoc
-(
-)
 )
 )
 {
@@ -16849,9 +16840,6 @@ CustomElementRegistry
 :
 IsCustomElementEnabled
 (
-OwnerDoc
-(
-)
 )
 )
 {
@@ -17531,9 +17519,6 @@ CustomElementRegistry
 :
 IsCustomElementEnabled
 (
-OwnerDoc
-(
-)
 )
 )
 {
