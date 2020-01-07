@@ -25743,9 +25743,9 @@ flags
 childStatus
 )
 ;
-parent
--
->
+nsContainerFrame
+:
+:
 FinishReflowChild
 (
 aChild
