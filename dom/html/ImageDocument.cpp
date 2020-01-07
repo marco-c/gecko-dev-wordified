@@ -2450,9 +2450,7 @@ ratio
 -
 portRect
 .
-Width
-(
-)
+width
 /
 2
 nsPresContext
@@ -2467,9 +2465,7 @@ ratio
 -
 portRect
 .
-Height
-(
-)
+height
 /
 2
 )
@@ -4058,9 +4054,7 @@ AppUnitsToFloatCSSPixels
 (
 visibleArea
 .
-Width
-(
-)
+width
 )
 ;
 mVisibleHeight
@@ -4072,9 +4066,7 @@ AppUnitsToFloatCSSPixels
 (
 visibleArea
 .
-Height
-(
-)
+height
 )
 ;
 }

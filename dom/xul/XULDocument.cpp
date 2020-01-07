@@ -9732,14 +9732,10 @@ Initialize
 (
 r
 .
-Width
-(
-)
+width
 r
 .
-Height
-(
-)
+height
 )
 ;
 NS_ENSURE_SUCCESS
