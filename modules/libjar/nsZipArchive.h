@@ -922,10 +922,9 @@ ExtractFile
 nsZipItem
 *
 zipEntry
-const
-char
+nsIFile
 *
-outname
+outFile
 PRFileDesc
 *
 outFD
