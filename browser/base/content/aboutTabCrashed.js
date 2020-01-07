@@ -1755,6 +1755,11 @@ emailMe
 includeURL
 URL
 autoSubmit
+hasReport
+:
+this
+.
+hasReport
 }
 )
 ;
