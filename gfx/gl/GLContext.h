@@ -5820,7 +5820,7 @@ AFTER_GL_CALL
 GLint
 fGetUniformLocation
 (
-GLint
+GLuint
 programObj
 const
 GLchar
