@@ -5153,9 +5153,9 @@ this
 .
 win
 .
-document
+Preferences
 .
-getElementById
+get
 (
 cb
 [

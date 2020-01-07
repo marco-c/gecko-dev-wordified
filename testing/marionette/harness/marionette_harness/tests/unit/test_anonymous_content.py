@@ -775,7 +775,7 @@ self
 .
 assertEquals
 (
-2
+3
 len
 (
 self
