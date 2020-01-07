@@ -2744,7 +2744,7 @@ to
 call
 DebuggerServer
 .
-connectToChild
+connectToFrame
 and
 talk
 /

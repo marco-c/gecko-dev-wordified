@@ -3416,7 +3416,9 @@ devtools
 /
 server
 /
-child
+startup
+/
+frame
 .
 js
 "

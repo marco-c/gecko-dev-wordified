@@ -540,7 +540,7 @@ the
 *
 DebuggerServer
 .
-connectToChild
+connectToFrame
 method
 .
 *

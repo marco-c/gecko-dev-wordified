@@ -5290,7 +5290,7 @@ connect
 =
 DebuggerServer
 .
-connectToChild
+connectToFrame
 (
 this
 .
