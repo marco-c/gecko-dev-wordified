@@ -297,6 +297,9 @@ CONVERT_TO_SHORTPTR
 dst8
 )
 ;
+DECLARE_ALIGNED
+(
+16
 uint16_t
 temp
 [
@@ -310,6 +313,7 @@ SUBPEL_TAPS
 *
 MAX_SB_SIZE
 ]
+)
 ;
 int
 intermediate_height
