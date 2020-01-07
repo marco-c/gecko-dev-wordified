@@ -4743,7 +4743,7 @@ by
 /
 /
 /
-nsStyleContext
+ComputedStyle
 :
 :
 ApplyStyleFixups

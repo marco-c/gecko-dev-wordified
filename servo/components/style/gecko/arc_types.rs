@@ -813,7 +813,7 @@ StrongRuleNode
 }
 /
 /
-ServoStyleContext
+ComputedStyle
 is
 not
 an
@@ -851,14 +851,14 @@ construct
 an
 Arc
 <
-ServoStyleContext
+ComputedStyle
 >
 from
 /
 /
 an
 &
-ServoStyleContext
+ComputedStyle
 which
 in
 general
@@ -892,7 +892,7 @@ extern
 C
 "
 fn
-Servo_StyleContext_AddRef
+Servo_ComputedStyle_AddRef
 (
 obj
 :
@@ -930,7 +930,7 @@ extern
 C
 "
 fn
-Servo_StyleContext_Release
+Servo_ComputedStyle_Release
 (
 obj
 :
