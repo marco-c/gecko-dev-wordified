@@ -2062,7 +2062,6 @@ int
 height
 )
 ;
-virtual
 void
 ScheduleComposition
 (
