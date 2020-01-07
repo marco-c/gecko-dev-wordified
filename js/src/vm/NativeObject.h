@@ -10889,7 +10889,7 @@ Inline
 functions
 declared
 in
-jsobj
+JSObject
 .
 h
 that
@@ -10898,9 +10898,6 @@ the
 native
 declarations
 above
-*
-*
-*
 *
 *
 *

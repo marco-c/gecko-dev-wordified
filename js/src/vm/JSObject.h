@@ -1479,7 +1479,7 @@ Proto
 }
 Chain
 in
-jsobj
+JSObject
 .
 cpp
 )

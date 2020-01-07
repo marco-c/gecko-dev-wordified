@@ -12345,7 +12345,7 @@ above
 debugMode
 '
 in
-jscompartment
+JSCompartment
 .
 h
 for

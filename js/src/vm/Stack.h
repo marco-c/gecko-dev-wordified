@@ -2232,7 +2232,7 @@ above
 isDebuggee
 '
 in
-jscompartment
+JSCompartment
 .
 h
 for
