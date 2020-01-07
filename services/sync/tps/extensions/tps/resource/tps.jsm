@@ -6825,6 +6825,7 @@ engine
 name
 )
 ;
+await
 Weave
 .
 Service
