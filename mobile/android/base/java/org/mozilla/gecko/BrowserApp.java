@@ -3334,6 +3334,15 @@ mLastTabEditingState
 }
 break
 ;
+case
+START_EDITING
+:
+enterEditingMode
+(
+)
+;
+break
+;
 }
 if
 (
