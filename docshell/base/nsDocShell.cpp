@@ -50242,6 +50242,9 @@ if
 (
 !
 mTreeOwner
+|
+|
+mIsBeingDestroyed
 )
 {
 /
