@@ -2891,12 +2891,7 @@ destOrigin
 aLayer
 -
 >
-GetContentHost
-(
-)
--
->
-GetOriginOffset
+GetDestOrigin
 (
 )
 )
