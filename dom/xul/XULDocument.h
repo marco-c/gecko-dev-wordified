@@ -819,12 +819,10 @@ ThreadSafeGetDocumentLWTheme
 const
 override
 ;
-virtual
 void
 ResetDocumentLWTheme
 (
 )
-override
 {
 mDocLWTheme
 =
