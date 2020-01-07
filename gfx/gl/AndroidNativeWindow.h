@@ -179,6 +179,7 @@ nullptr
 )
 {
 }
+explicit
 AndroidNativeWindow
 (
 java
@@ -212,6 +213,7 @@ Get
 )
 ;
 }
+explicit
 AndroidNativeWindow
 (
 java

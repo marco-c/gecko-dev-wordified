@@ -572,6 +572,7 @@ AutoFTFace
 {
 public
 :
+explicit
 AutoFTFace
 (
 FT2FontEntry
