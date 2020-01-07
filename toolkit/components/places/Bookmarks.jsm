@@ -1139,13 +1139,11 @@ that
 are
 used
 for
-displaying
-bookmark
-*
-folders
+display
 in
 the
 left
+*
 pane
 .
 *
