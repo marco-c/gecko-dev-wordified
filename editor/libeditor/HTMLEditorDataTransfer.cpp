@@ -12639,9 +12639,6 @@ eCOMMENT
 nsAutoString
 data
 ;
-nsresult
-rv
-=
 static_cast
 <
 Comment
@@ -12659,12 +12656,6 @@ get
 GetData
 (
 data
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if

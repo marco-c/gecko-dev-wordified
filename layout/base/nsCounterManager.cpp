@@ -1387,6 +1387,9 @@ mText
 SetData
 (
 text
+IgnoreErrors
+(
+)
 )
 ;
 }
