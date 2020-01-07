@@ -18547,7 +18547,7 @@ pn
 pn_funbox
 -
 >
-isExprBody
+hasExprBody
 (
 )
 ;
