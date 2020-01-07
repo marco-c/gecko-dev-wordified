@@ -218,9 +218,6 @@ function
 aCallback
 )
 {
-let
-p
-=
 new
 Prompt
 (

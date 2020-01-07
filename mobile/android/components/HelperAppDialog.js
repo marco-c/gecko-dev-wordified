@@ -1201,14 +1201,6 @@ properties
 )
 ;
 let
-defaultHandler
-=
-new
-Object
-(
-)
-;
-let
 apps
 =
 HelperApps

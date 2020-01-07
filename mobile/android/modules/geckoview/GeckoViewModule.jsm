@@ -136,6 +136,8 @@ ViewModule
 )
 )
 ;
+/
+/
 function
 debug
 (
@@ -149,6 +151,8 @@ dump
 aMsg
 )
 ;
+/
+/
 }
 class
 GeckoViewModule

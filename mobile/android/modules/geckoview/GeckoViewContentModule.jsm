@@ -159,6 +159,8 @@ ViewContentModule
 )
 )
 ;
+/
+/
 function
 debug
 (
@@ -172,6 +174,8 @@ dump
 aMsg
 )
 ;
+/
+/
 }
 class
 GeckoViewContentModule

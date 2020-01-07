@@ -1324,9 +1324,6 @@ element
 ownerGlobal
 )
 ;
-let
-promise
-=
 dispatcher
 .
 sendRequestForResult
