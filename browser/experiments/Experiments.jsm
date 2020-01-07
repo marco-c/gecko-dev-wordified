@@ -1251,7 +1251,11 @@ experiment
 .
 then
 (
+(
+{
 addons
+}
+)
 =
 >
 {
