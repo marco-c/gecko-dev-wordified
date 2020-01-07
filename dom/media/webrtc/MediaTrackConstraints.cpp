@@ -3839,6 +3839,11 @@ devices
 )
 ;
 }
+/
+*
+static
+*
+/
 void
 MediaConstraintsHelper
 :
