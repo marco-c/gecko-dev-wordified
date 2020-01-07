@@ -557,6 +557,17 @@ FontFaceSet
 aFontFaceSet
 )
 ;
+FontFaceSet
+*
+GetPrimaryFontFaceSet
+(
+)
+const
+{
+return
+mFontFaceSet
+;
+}
 /
 *
 *
