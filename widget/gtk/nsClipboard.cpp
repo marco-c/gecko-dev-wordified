@@ -2032,6 +2032,14 @@ aWhichClipboard
 targetNums
 )
 ;
+if
+(
+!
+targets
+)
+return
+NS_OK
+;
 /
 /
 Walk
