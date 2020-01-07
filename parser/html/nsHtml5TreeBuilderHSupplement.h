@@ -856,6 +856,11 @@ aLineNumber
 )
 ;
 void
+TryToDisableEncodingMenu
+(
+)
+;
+void
 AddSnapshotToScript
 (
 nsAHtml5TreeBuilderState

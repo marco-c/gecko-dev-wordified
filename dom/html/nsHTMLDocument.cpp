@@ -21219,6 +21219,15 @@ WillIgnoreCharsetOverride
 {
 if
 (
+mEncodingMenuDisabled
+)
+{
+return
+true
+;
+}
+if
+(
 mType
 !
 =

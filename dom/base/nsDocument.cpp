@@ -9029,6 +9029,10 @@ mAllowPaymentRequest
 (
 false
 )
+mEncodingMenuDisabled
+(
+false
+)
 mIsScopedStyleEnabled
 (
 eScopedStyle_Unknown

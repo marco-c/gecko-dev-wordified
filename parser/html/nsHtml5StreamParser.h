@@ -2639,6 +2639,9 @@ kCharsetFromParentFrame
 bool
 mInitialEncodingWasFromParentFrame
 ;
+bool
+mHasHadErrors
+;
 /
 *
 *

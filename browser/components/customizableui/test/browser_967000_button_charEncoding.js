@@ -477,11 +477,11 @@ label
 "
 )
 "
-Unicode
+Western
 "
 "
 The
-unicode
+western
 encoding
 is
 correctly
