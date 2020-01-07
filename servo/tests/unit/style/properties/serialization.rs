@@ -8634,6 +8634,9 @@ let
 counter_increment
 =
 CounterIncrement
+:
+:
+new
 (
 properties
 )
@@ -8674,6 +8677,9 @@ let
 counter_increment
 =
 CounterIncrement
+:
+:
+new
 (
 Vec
 :
