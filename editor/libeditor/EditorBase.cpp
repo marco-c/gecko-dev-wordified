@@ -3223,7 +3223,7 @@ do_QueryInterface
 content
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 )
