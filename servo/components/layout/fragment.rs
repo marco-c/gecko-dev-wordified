@@ -22724,7 +22724,8 @@ format
 !
 (
 "
-border_padding
+\
+nborder_padding
 =
 {
 :
@@ -22763,7 +22764,8 @@ format
 !
 (
 "
-margin
+\
+nmargin
 =
 {
 :
@@ -22805,7 +22807,8 @@ format
 !
 (
 "
-damage
+\
+ndamage
 =
 {
 :
@@ -22832,6 +22835,8 @@ write
 (
 f
 "
+\
+n
 {
 }
 (
@@ -22844,7 +22849,8 @@ f
 ?
 }
 ]
-border_box
+\
+nborder_box
 =
 {
 :
