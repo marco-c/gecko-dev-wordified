@@ -529,12 +529,6 @@ new
 console
 -
 output
-/
-new
--
-console
--
-output
 -
 wrapper
 "

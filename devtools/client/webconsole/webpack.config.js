@@ -567,12 +567,6 @@ join
 (
 __dirname
 "
-new
--
-console
--
-output
-/
 test
 /
 fixtures
@@ -924,12 +918,6 @@ join
 (
 __dirname
 "
-new
--
-console
--
-output
-/
 test
 /
 fixtures

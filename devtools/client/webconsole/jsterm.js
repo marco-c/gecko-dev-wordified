@@ -3182,12 +3182,6 @@ client
 /
 webconsole
 /
-new
--
-console
--
-output
-/
 types
 "
 )

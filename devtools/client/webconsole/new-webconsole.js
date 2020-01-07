@@ -267,12 +267,6 @@ client
 /
 webconsole
 /
-new
--
-console
--
-output
-/
 utils
 /
 messages
