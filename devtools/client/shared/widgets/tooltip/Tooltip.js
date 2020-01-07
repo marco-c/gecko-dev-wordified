@@ -769,7 +769,7 @@ gets
 hidden
 *
 -
-keypress
+keydown
 :
 when
 any
@@ -1039,7 +1039,7 @@ eventName
 /
 Listen
 to
-keypress
+keydown
 events
 to
 close
@@ -1066,7 +1066,7 @@ window
 ;
 this
 .
-_onKeyPress
+_onKeyDown
 =
 event
 =
@@ -1089,7 +1089,7 @@ this
 emit
 (
 "
-keypress
+keydown
 "
 event
 .
@@ -1137,11 +1137,11 @@ win
 addEventListener
 (
 "
-keypress
+keydown
 "
 this
 .
-_onKeyPress
+_onKeyDown
 )
 ;
 /
@@ -1662,11 +1662,11 @@ win
 removeEventListener
 (
 "
-keypress
+keydown
 "
 this
 .
-_onKeyPress
+_onKeyDown
 )
 ;
 for

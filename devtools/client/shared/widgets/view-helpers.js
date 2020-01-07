@@ -1189,6 +1189,8 @@ event
 triggered
 by
 a
+keydown
+or
 keypress
 on
 an
@@ -3201,7 +3203,7 @@ events
 *
 -
 "
-keyPress
+keyDown
 "
 -
 >
@@ -3357,11 +3359,11 @@ widget
 on
 (
 "
-keyPress
+keyDown
 "
 this
 .
-_onWidgetKeyPress
+_onWidgetKeyDown
 .
 bind
 (
@@ -9224,7 +9226,7 @@ _target
 *
 *
 The
-keyPress
+keyDown
 event
 listener
 for
@@ -9241,7 +9243,7 @@ KeyboardEvent
 event
 *
 /
-_onWidgetKeyPress
+_onWidgetKeyDown
 :
 function
 (

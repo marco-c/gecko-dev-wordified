@@ -1373,7 +1373,7 @@ on
 <
 esc
 >
-keypress
+keydown
 *
 /
 revert
@@ -1448,7 +1448,7 @@ on
 <
 enter
 >
-keypress
+keydown
 *
 /
 commit
@@ -1511,11 +1511,11 @@ tooltip
 off
 (
 "
-keypress
+keydown
 "
 this
 .
-_onTooltipKeypress
+_onTooltipKeydown
 )
 ;
 this

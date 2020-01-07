@@ -2751,11 +2751,11 @@ this
 ;
 this
 .
-_onKeyPress
+_onKeyDown
 =
 this
 .
-_onKeyPress
+_onKeyDown
 .
 bind
 (
@@ -2888,11 +2888,11 @@ targetNode
 addEventListener
 (
 "
-keypress
+keydown
 "
 this
 .
-_onKeyPress
+_onKeyDown
 )
 ;
 targetNode
@@ -3624,7 +3624,7 @@ Handler
 for
 the
 "
-keypress
+keydown
 "
 event
 on
@@ -3637,7 +3637,7 @@ item
 .
 *
 /
-_onKeyPress
+_onKeyDown
 :
 function
 (

@@ -2494,7 +2494,7 @@ check
 /
 if
 the
-keypress
+keydown
 happened
 close
 to

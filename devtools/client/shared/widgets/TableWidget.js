@@ -11628,7 +11628,7 @@ target
 *
 *
 Handle
-keypresses
+keydowns
 when
 in
 edit
