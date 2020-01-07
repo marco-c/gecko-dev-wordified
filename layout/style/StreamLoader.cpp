@@ -788,7 +788,6 @@ here
 bool
 dummy
 ;
-return
 mSheetLoadData
 -
 >
@@ -811,6 +810,9 @@ aAllowAsync
 true
 dummy
 )
+;
+return
+NS_OK
 ;
 }
 /

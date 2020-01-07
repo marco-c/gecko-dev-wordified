@@ -10459,7 +10459,7 @@ stream
 .
 *
 /
-nsresult
+void
 Loader
 :
 :
@@ -10555,7 +10555,6 @@ IsEmpty
 )
 )
 {
-return
 DoParseSheetServo
 (
 NS_ConvertUTF16toUTF8
@@ -10570,7 +10569,6 @@ aCompleted
 }
 else
 {
-return
 DoParseSheetServo
 (
 aUTF8
@@ -10581,7 +10579,7 @@ aCompleted
 ;
 }
 }
-nsresult
+void
 Loader
 :
 :
@@ -10721,7 +10719,6 @@ NS_OK
 ;
 }
 return
-NS_OK
 ;
 }
 /
@@ -10920,9 +10917,6 @@ promise
 ;
 }
 )
-;
-return
-NS_OK
 ;
 }
 /
@@ -12989,8 +12983,6 @@ from
 imports
 )
 .
-rv
-=
 ParseSheet
 (
 aBuffer
@@ -13008,21 +13000,6 @@ false
 completed
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-Err
-(
-rv
-)
-;
-}
 /
 /
 If
