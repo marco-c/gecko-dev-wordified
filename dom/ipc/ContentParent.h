@@ -3727,10 +3727,6 @@ InitInternal
 (
 ProcessPriority
 aPriority
-bool
-aSetupOffMainThreadCompositing
-bool
-aSendRegisteredChrome
 )
 ;
 virtual
