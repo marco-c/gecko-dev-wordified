@@ -157,10 +157,6 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsITransaction
 )
-NS_INTERFACE_MAP_ENTRY
-(
-nsPIEditorTransaction
-)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
