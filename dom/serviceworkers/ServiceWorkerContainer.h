@@ -366,11 +366,6 @@ ServiceWorkerContainer
 (
 )
 ;
-void
-RemoveReadyPromise
-(
-)
-;
 /
 /
 This
