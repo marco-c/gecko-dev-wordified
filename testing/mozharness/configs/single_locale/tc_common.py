@@ -17,12 +17,6 @@ simple_name_move
 :
 True
     
-"
-update_gecko_source_to_enUS
-"
-:
-False
-    
 #
 Override
 the

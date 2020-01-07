@@ -54,12 +54,6 @@ update_channel
 nightly
 "
     
-"
-update_gecko_source_to_enUS
-"
-:
-False
-    
 #
 l10n
     
