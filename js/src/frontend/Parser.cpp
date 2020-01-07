@@ -4661,6 +4661,9 @@ foldConstants
 UsedNameTracker
 &
 usedNames
+ScriptSourceObject
+*
+sourceObject
 )
 :
 AutoGCRooter
@@ -4699,6 +4702,11 @@ usedNames
 ss
 (
 nullptr
+)
+sourceObject
+(
+cx
+sourceObject
 )
 keepAtoms
 (
@@ -4882,6 +4890,9 @@ usedNames
 LazyScript
 *
 lazyOuterFunction
+ScriptSourceObject
+*
+sourceObject
 )
 :
 ParserBase
@@ -4891,6 +4902,7 @@ alloc
 options
 foldConstants
 usedNames
+sourceObject
 )
 handler
 (
@@ -4943,6 +4955,9 @@ syntaxParser
 LazyScript
 *
 lazyOuterFunction
+ScriptSourceObject
+*
+sourceObject
 )
 :
 Base
@@ -4953,6 +4968,7 @@ options
 foldConstants
 usedNames
 lazyOuterFunction
+sourceObject
 )
 tokenStream
 (
@@ -15612,6 +15628,7 @@ Create
 (
 context
 fun
+sourceObject
 pc
 -
 >
