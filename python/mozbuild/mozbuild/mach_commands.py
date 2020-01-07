@@ -11028,21 +11028,23 @@ asc
 )
 )
                 
+cot
+.
+raise_for_status
+(
+)
+                
 digest
 =
 algorithm
 =
 None
                 
-if
-cot
-.
-status_code
+data
 =
-=
-200
-:
-                    
+{
+}
+                
 #
 The
 file
@@ -11058,7 +11060,7 @@ t
 care
 about
 validating
-                    
+                
 #
 that
 .
@@ -11071,7 +11073,7 @@ signature
 we
 just
 take
-                    
+                
 #
 the
 one
@@ -11087,12 +11089,7 @@ with
 a
 {
 .
-                    
-data
-=
-{
-}
-                    
+                
 for
 l
 in
@@ -11104,7 +11101,7 @@ splitlines
 (
 )
 :
-                        
+                    
 if
 l
 .
@@ -11115,10 +11112,10 @@ startswith
 '
 )
 :
-                            
+                        
 try
 :
-                                
+                            
 data
 =
 json
@@ -11127,13 +11124,13 @@ loads
 (
 l
 )
-                                
-break
                             
+break
+                        
 except
 Exception
 :
-                                
+                            
 pass
                 
 for
