@@ -160,10 +160,6 @@ openssl
 ;
 extern
 crate
-parse_hosts
-;
-extern
-crate
 profile_traits
 ;
 #
