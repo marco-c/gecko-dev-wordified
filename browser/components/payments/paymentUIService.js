@@ -358,7 +358,7 @@ content
 /
 paymentDialogWrapper
 .
-xhtml
+xul
 "
 REQUEST_ID_PREFIX
 :
