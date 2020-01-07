@@ -12132,10 +12132,6 @@ aMainThread
 aStsThread
 aConduit
 )
-mSegmentsAdded
-(
-0
-)
 {
 }
 MediaPipelineReceive

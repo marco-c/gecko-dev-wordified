@@ -2292,16 +2292,6 @@ MediaSessionConduit
 aConduit
 )
 ;
-int
-SegmentsAdded
-(
-)
-const
-{
-return
-mSegmentsAdded
-;
-}
 /
 /
 Sets
@@ -2346,9 +2336,6 @@ protected
 MediaPipelineReceive
 (
 )
-;
-int
-mSegmentsAdded
 ;
 }
 ;
