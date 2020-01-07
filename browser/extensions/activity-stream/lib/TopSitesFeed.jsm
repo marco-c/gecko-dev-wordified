@@ -144,6 +144,7 @@ jsm
 const
 {
 insertPinned
+TOP_SITES_DEFAULT_ROWS
 TOP_SITES_MAX_SITES_PER_ROW
 }
 =
@@ -675,8 +676,11 @@ action
 Get
 at
 least
+TOP_SITES_DEFAULT_ROWS
+(
 2
-rows
+)
+amount
 so
 toggling
 between
@@ -706,7 +710,7 @@ Prefs
 values
 .
 topSitesRows
-2
+TOP_SITES_DEFAULT_ROWS
 )
 *
 TOP_SITES_MAX_SITES_PER_ROW

@@ -286,7 +286,9 @@ spy
 ;
 global
 .
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -322,7 +324,9 @@ history
 ;
 global
 .
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -390,7 +394,9 @@ spy
 (
 global
 .
-Cu
+Components
+.
+utils
 "
 reportError
 "
@@ -3235,7 +3241,9 @@ calledWith
 (
 global
 .
-Cu
+Components
+.
+utils
 .
 reportError
 e
