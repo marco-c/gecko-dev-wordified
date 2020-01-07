@@ -869,7 +869,6 @@ version
 ;
 startupManager
 (
-true
 )
 ;
 addon

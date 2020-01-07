@@ -654,7 +654,6 @@ ok
 await
 promiseRestartManager
 (
-false
 )
 ;
 await

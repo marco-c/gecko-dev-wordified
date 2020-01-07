@@ -331,7 +331,6 @@ startup
 await
 promiseRestartManager
 (
-false
 )
 ;
 await
@@ -713,7 +712,6 @@ ready
 await
 promiseRestartManager
 (
-false
 )
 ;
 await
@@ -1133,7 +1131,6 @@ startup
 await
 promiseRestartManager
 (
-false
 )
 ;
 await

@@ -208,7 +208,6 @@ shutdownManager
 ;
 startupManager
 (
-false
 )
 ;
 let

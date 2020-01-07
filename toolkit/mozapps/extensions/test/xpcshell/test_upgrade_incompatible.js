@@ -93,7 +93,6 @@ XPCShell
 await
 promiseStartupManager
 (
-false
 )
 ;
 let
@@ -340,7 +339,6 @@ databaseSchema
 await
 promiseStartupManager
 (
-true
 )
 ;
 addon
@@ -488,7 +486,6 @@ databaseSchema
 await
 promiseStartupManager
 (
-true
 )
 ;
 addon

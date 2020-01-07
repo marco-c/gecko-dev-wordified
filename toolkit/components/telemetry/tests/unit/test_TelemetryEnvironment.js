@@ -6243,6 +6243,15 @@ system
 }
 )
 ;
+AddonTestUtils
+.
+addonStartup
+.
+remove
+(
+true
+)
+;
 await
 AddonTestUtils
 .

@@ -949,7 +949,6 @@ platformVersion
 await
 promiseStartupManager
 (
-true
 )
 ;
 addon

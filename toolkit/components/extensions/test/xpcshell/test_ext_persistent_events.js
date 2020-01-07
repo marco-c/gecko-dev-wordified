@@ -1673,7 +1673,6 @@ AddonTestUtils
 .
 promiseStartupManager
 (
-false
 )
 ]
 )
@@ -1956,7 +1955,6 @@ AddonTestUtils
 .
 promiseStartupManager
 (
-false
 )
 ]
 )
@@ -2255,7 +2253,6 @@ AddonTestUtils
 .
 promiseStartupManager
 (
-false
 )
 )
 ;
@@ -2525,7 +2522,6 @@ AddonTestUtils
 .
 promiseStartupManager
 (
-false
 )
 )
 ;

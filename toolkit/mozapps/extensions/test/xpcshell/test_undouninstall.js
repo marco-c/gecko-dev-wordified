@@ -1072,7 +1072,6 @@ undefined
 ;
 startupManager
 (
-false
 )
 ;
 a1
@@ -1598,7 +1597,6 @@ APP_SHUTDOWN
 ;
 startupManager
 (
-false
 )
 ;
 a1

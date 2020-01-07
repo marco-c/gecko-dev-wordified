@@ -1532,7 +1532,6 @@ dic
 await
 promiseStartupManager
 (
-false
 )
 ;
 ok
@@ -1868,7 +1867,6 @@ ID_DICT
 await
 promiseStartupManager
 (
-false
 )
 ;
 ok
@@ -2153,7 +2151,6 @@ XPI_DICT
 await
 promiseStartupManager
 (
-false
 )
 ;
 let
@@ -2275,7 +2272,6 @@ ID_DICT
 await
 promiseStartupManager
 (
-false
 )
 ;
 let
@@ -2353,7 +2349,6 @@ XPI_DICT
 await
 promiseStartupManager
 (
-true
 )
 ;
 let
@@ -2552,7 +2547,6 @@ true
 await
 promiseStartupManager
 (
-false
 )
 ;
 addon
@@ -2610,7 +2604,6 @@ false
 await
 promiseStartupManager
 (
-false
 )
 ;
 /
