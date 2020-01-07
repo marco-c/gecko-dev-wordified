@@ -342,6 +342,9 @@ ScriptLoadRequest
 (
 ScriptKind
 aKind
+nsIURI
+*
+aURI
 nsIScriptElement
 *
 aElement
@@ -451,6 +454,10 @@ mBytecodeOffset
 mValidJSVersion
 (
 aValidJSVersion
+)
+mURI
+(
+aURI
 )
 mLineNo
 (
