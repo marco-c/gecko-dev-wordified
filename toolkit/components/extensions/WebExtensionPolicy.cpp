@@ -1715,6 +1715,7 @@ AtomSetPref
 =
 default
 ;
+explicit
 AtomSetPref
 (
 const
