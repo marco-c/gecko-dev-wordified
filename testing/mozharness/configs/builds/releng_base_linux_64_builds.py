@@ -508,12 +508,6 @@ hg
 shared
 '
     
-'
-enable_count_ctors
-'
-:
-True
-    
 #
 #
 #

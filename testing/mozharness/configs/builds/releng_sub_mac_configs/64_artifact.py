@@ -169,12 +169,6 @@ hg
 shared
 '
     
-'
-enable_count_ctors
-'
-:
-False
-    
 #
 allows
 triggering

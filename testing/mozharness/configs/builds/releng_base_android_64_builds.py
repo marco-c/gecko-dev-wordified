@@ -917,12 +917,6 @@ firefox
 '
     
 '
-enable_count_ctors
-'
-:
-False
-    
-'
 multi_locale
 '
 :
