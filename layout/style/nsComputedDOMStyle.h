@@ -3377,6 +3377,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetShapeMargin
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetShapeOutside
 (
 )
