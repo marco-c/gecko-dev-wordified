@@ -29336,7 +29336,7 @@ length
 BoundsCheckKind
 :
 :
-UnusedIndex
+IsLoad
 )
 ;
 auto
