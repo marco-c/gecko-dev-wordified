@@ -628,7 +628,7 @@ next
 /
 Given
 numbers
-calcluate
+calculate
 if
 a
 spring

@@ -110,7 +110,7 @@ api
 /
 Serialize
 /
-deserialze
+deserialize
 the
 blob
 .
@@ -567,7 +567,7 @@ the
 per
 -
 tile
-cherkerboard
+checkerboard
 pattern
 let
 tc
@@ -690,7 +690,7 @@ format
 !
 (
 "
-Usupported
+Unsupported
 image
 format
 {

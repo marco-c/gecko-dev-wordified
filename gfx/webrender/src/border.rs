@@ -972,7 +972,7 @@ Inset
 outset
 borders
 just
-modtify
+modify
 the
 color
 of
@@ -2779,7 +2779,7 @@ y1
 -
 y0
 )
-false
+true
 EdgeAaSegmentMask
 :
 :

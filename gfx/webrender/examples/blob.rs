@@ -217,13 +217,13 @@ ColorU
 /
 Serialize
 /
-deserialze
+deserialize
 the
 blob
 .
 /
 /
-Ror
+For
 real
 usecases
 you
@@ -717,7 +717,7 @@ the
 per
 -
 tile
-cherkerboard
+checkerboard
 pattern
 let
 tc
@@ -849,7 +849,7 @@ format
 !
 (
 "
-Usupported
+Unsupported
 image
 format
 "
@@ -1594,7 +1594,7 @@ were
 to
 block
 upon
-receing
+receiving
 their
 result
 in

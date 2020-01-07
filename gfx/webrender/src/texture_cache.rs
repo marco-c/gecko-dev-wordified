@@ -1187,7 +1187,6 @@ capture
 "
 derive
 (
-Clone
 Serialize
 )
 )
@@ -3195,7 +3194,7 @@ logic
 This
 function
 will
-asssert
+assert
 in
 debug
 modes

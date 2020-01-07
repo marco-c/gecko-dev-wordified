@@ -225,7 +225,6 @@ bool
 /
 Contains
 the
-the
 render
 backend
 data

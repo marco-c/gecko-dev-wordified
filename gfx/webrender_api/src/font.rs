@@ -669,7 +669,7 @@ FontRenderMode
 Skia
 quantizes
 subpixel
-offets
+offsets
 into
 1
 /
