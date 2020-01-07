@@ -302,11 +302,10 @@ aWidget
 {
 MOZ_ASSERT
 (
-!
 aWidget
 -
 >
-IsX11Display
+GetWaylandDisplay
 (
 )
 "
