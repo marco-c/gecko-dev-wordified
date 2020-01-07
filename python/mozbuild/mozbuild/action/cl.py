@@ -484,6 +484,15 @@ target
 pp
 "
     
+showincludes
+=
+'
+-
+showIncludes
+'
+in
+cmdline
+    
 cmdline
 +
 =
@@ -649,10 +658,22 @@ add_dependencies
 dep
 ]
 )
-        
-else
-:
             
+#
+Hide
+the
+line
+by
+returning
+early
+            
+if
+not
+showincludes
+:
+                
+return
+        
 #
 Make
 sure
@@ -665,7 +686,7 @@ from
 cl
 .
 mozprocess
-            
+        
 #
 swallows
 the
@@ -680,7 +701,7 @@ re
 add
 it
 .
-            
+        
 sys
 .
 stdout
@@ -689,7 +710,7 @@ write
 (
 line
 )
-            
+        
 sys
 .
 stdout
