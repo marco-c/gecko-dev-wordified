@@ -106,13 +106,13 @@ typedef
 struct
 FarEndAudioChunk_
 {
-size_t
+uint16_t
 mSamples
 ;
 bool
 mOverrun
 ;
-AudioDataValue
+int16_t
 mData
 [
 1
@@ -145,7 +145,7 @@ MSG
 in
 /
 /
-float
+int16
 to
 the
 AEC
