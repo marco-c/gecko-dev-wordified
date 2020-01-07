@@ -487,7 +487,12 @@ EndOfFile
 Equal
 Error
 Export
+#
+ifdef
+ENABLE_WASM_SATURATING_TRUNC_OPS
 ExtraConversionOpcode
+#
+endif
 Float
 Func
 GetGlobal
@@ -984,6 +989,9 @@ op_
 op
 ;
 }
+#
+ifdef
+ENABLE_WASM_SATURATING_TRUNC_OPS
 explicit
 WasmToken
 (
@@ -1037,6 +1045,8 @@ numericOp_
 op
 ;
 }
+#
+endif
 explicit
 WasmToken
 (
@@ -1431,6 +1441,9 @@ u
 op_
 ;
 }
+#
+ifdef
+ENABLE_WASM_SATURATING_TRUNC_OPS
 NumericOp
 numericOp
 (
@@ -1451,6 +1464,8 @@ u
 numericOp_
 ;
 }
+#
+endif
 ThreadOp
 threadOp
 (
