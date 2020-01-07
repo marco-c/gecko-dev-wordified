@@ -12490,6 +12490,11 @@ MozScriptMinSize
 :
 impl_absolute_length
 "
+MozScriptSizeMultiplier
+"
+:
+impl_simple
+"
 NonNegativeLengthOrPercentage
 "
 :

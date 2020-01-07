@@ -186,6 +186,7 @@ font
 {
 XTextZoom
 XLang
+MozScriptSizeMultiplier
 FontSynthesis
 FontVariantSettings
 }
