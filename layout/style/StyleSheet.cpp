@@ -126,7 +126,9 @@ h
 #
 include
 "
-nsStyleContextInlines
+mozilla
+/
+ComputedStyleInlines
 .
 h
 "

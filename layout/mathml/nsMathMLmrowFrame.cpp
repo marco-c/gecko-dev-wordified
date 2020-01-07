@@ -158,9 +158,9 @@ NS_NewMathMLmrowFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -170,7 +170,7 @@ aPresShell
 )
 nsMathMLmrowFrame
 (
-aContext
+aStyle
 )
 ;
 }

@@ -2358,7 +2358,7 @@ NS_IMETHODIMP
 nsLayoutDebuggingTools
 :
 :
-DumpStyleContexts
+DumpComputedStyles
 (
 )
 {
@@ -2397,7 +2397,7 @@ shell
 shell
 -
 >
-ListStyleContexts
+ListComputedStyles
 (
 out
 )

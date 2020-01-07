@@ -190,9 +190,9 @@ NS_NewSVGForeignObjectFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 protected
@@ -200,9 +200,9 @@ protected
 explicit
 nsSVGForeignObjectFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 public

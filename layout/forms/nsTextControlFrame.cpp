@@ -469,9 +469,9 @@ NS_NewTextControlFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -481,7 +481,7 @@ aPresShell
 )
 nsTextControlFrame
 (
-aContext
+aStyle
 )
 ;
 }
@@ -673,14 +673,14 @@ nsTextControlFrame
 :
 nsTextControlFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 :
 nsContainerFrame
 (
-aContext
+aStyle
 kClassID
 )
 mFirstBaseline
@@ -975,7 +975,7 @@ CalcLineHeight
 GetContent
 (
 )
-StyleContext
+Style
 (
 )
 NS_AUTOHEIGHT
@@ -3827,7 +3827,7 @@ CalcLineHeight
 GetContent
 (
 )
-StyleContext
+Style
 (
 )
 NS_AUTOHEIGHT

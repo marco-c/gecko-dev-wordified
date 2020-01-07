@@ -4256,14 +4256,14 @@ false
 }
 RefPtr
 <
-nsStyleContext
+ComputedStyle
 >
 styleContext
 =
 nsComputedDOMStyle
 :
 :
-GetStyleContextNoFlush
+GetComputedStyleNoFlush
 (
 aNode
 -

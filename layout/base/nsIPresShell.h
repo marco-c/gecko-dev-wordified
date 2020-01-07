@@ -6561,7 +6561,7 @@ Debugging
 hooks
 virtual
 void
-ListStyleContexts
+ListComputedStyles
 (
 FILE
 *

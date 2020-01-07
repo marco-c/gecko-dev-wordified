@@ -214,9 +214,6 @@ nsIFrame
 class
 nsPresContext
 ;
-class
-nsStyleContext
-;
 struct
 RawServoAnimationValueMap
 ;
@@ -228,6 +225,9 @@ RawServoAnimationValueMapBorrowedMut
 namespace
 mozilla
 {
+class
+ComputedStyle
+;
 class
 EffectSet
 ;
@@ -1099,7 +1099,7 @@ StyleBackendType
 :
 Gecko
 |
-aStyleContext
+aComputedStyle
 |
 is
 used
@@ -1115,7 +1115,7 @@ it
 is
 nullptr
 the
-nsStyleContext
+ComputedStyle
 of
 the
 /
@@ -1166,7 +1166,7 @@ i
 e
 .
 |
-aStyleContext
+aComputedStyle
 |
 is
 ignored
@@ -1212,9 +1212,9 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsStyleContext
+ComputedStyle
 *
-aStyleContext
+aComputedStyle
 )
 ;
 /
@@ -1355,7 +1355,7 @@ As
 with
 MaybeUpdateCascadeResults
 |
-aStyleContext
+aComputedStyle
 |
 is
 only
@@ -1404,9 +1404,9 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsStyleContext
+ComputedStyle
 *
-aStyleContext
+aComputedStyle
 )
 ;
 /
@@ -1844,7 +1844,7 @@ using
 the
 provided
 |
-aStyleContext
+aComputedStyle
 |
 and
 /
@@ -1861,7 +1861,7 @@ ignored
 .
 If
 |
-aStyleContext
+aComputedStyle
 |
 is
 nullptr
@@ -1943,9 +1943,9 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsStyleContext
+ComputedStyle
 *
-aStyleContext
+aComputedStyle
 )
 ;
 static

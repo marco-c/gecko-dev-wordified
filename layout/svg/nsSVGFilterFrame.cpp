@@ -231,9 +231,9 @@ NS_NewSVGFilterFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -243,7 +243,7 @@ aPresShell
 )
 nsSVGFilterFrame
 (
-aContext
+aStyle
 )
 ;
 }

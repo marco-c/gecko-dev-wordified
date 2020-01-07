@@ -186,9 +186,9 @@ NS_NewGridRowGroupFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 nsCOMPtr
@@ -208,7 +208,7 @@ aPresShell
 )
 nsGridRowGroupFrame
 (
-aContext
+aStyle
 layout
 )
 ;

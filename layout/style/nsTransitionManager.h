@@ -197,9 +197,6 @@ class
 nsIGlobalObject
 ;
 class
-nsStyleContext
-;
-class
 nsPresContext
 ;
 class
@@ -208,6 +205,9 @@ nsCSSPropertyIDSet
 namespace
 mozilla
 {
+class
+ComputedStyle
+;
 enum
 class
 CSSPseudoElementType
@@ -215,7 +215,7 @@ CSSPseudoElementType
 uint8_t
 ;
 class
-GeckoStyleContext
+GeckoComputedStyle
 ;
 struct
 Keyframe
@@ -224,7 +224,7 @@ struct
 StyleTransition
 ;
 class
-ServoStyleContext
+ComputedStyle
 ;
 }
 /
@@ -2264,14 +2264,14 @@ const
 mozilla
 :
 :
-ServoStyleContext
+ComputedStyle
 *
 aOldStyle
 const
 mozilla
 :
 :
-ServoStyleContext
+ComputedStyle
 *
 aNewStyle
 )

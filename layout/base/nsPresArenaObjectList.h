@@ -163,7 +163,7 @@ pres
 arena
 PRES_ARENA_OBJECT
 (
-GeckoStyleContext
+GeckoComputedStyle
 )
 PRES_ARENA_OBJECT
 (

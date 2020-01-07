@@ -467,7 +467,7 @@ pseudo
 aFrame
 -
 >
-StyleContext
+Style
 (
 )
 -

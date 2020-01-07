@@ -167,9 +167,9 @@ NS_NewPageContentFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -179,7 +179,7 @@ aPresShell
 )
 nsPageContentFrame
 (
-aContext
+aStyle
 )
 ;
 }

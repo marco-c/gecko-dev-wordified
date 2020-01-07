@@ -196,9 +196,9 @@ NS_NewStackFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 #
@@ -249,9 +249,9 @@ protected
 explicit
 nsStackFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 }

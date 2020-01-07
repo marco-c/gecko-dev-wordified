@@ -973,7 +973,7 @@ the
 data
 provided
 by
-nsStyleContext
+ComputedStyle
 the
  
 *

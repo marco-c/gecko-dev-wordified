@@ -522,7 +522,7 @@ how
 the
 /
 /
-AdditionalStyleContext
+AdditionalComputedStyle
 APIs
 work
 .

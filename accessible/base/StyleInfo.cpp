@@ -176,12 +176,12 @@ mElement
 aElement
 )
 {
-mStyleContext
+mComputedStyle
 =
 nsComputedDOMStyle
 :
 :
-GetStyleContextNoFlush
+GetComputedStyleNoFlush
 (
 aElement
 nullptr
@@ -212,7 +212,7 @@ nsCSSProps
 :
 ValueToKeyword
 (
-mStyleContext
+mComputedStyle
 -
 >
 StyleDisplay
@@ -254,7 +254,7 @@ nsCSSProps
 :
 ValueToKeyword
 (
-mStyleContext
+mComputedStyle
 -
 >
 StyleText
@@ -294,7 +294,7 @@ nsStyleCoord
 &
 styleCoord
 =
-mStyleContext
+mComputedStyle
 -
 >
 StyleText

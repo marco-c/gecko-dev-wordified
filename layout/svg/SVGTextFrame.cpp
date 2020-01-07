@@ -18398,7 +18398,7 @@ svgOwner
 mFrame
 -
 >
-StyleContext
+Style
 (
 )
 /
@@ -19239,9 +19239,9 @@ NS_NewSVGTextFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -19251,7 +19251,7 @@ aPresShell
 )
 SVGTextFrame
 (
-aContext
+aStyle
 )
 ;
 }
@@ -19682,11 +19682,11 @@ void
 SVGTextFrame
 :
 :
-DidSetStyleContext
+DidSetComputedStyle
 (
-nsStyleContext
+ComputedStyle
 *
-aOldStyleContext
+aOldComputedStyle
 )
 {
 if
@@ -19701,7 +19701,7 @@ NS_FRAME_IS_NONDISPLAY
 We
 need
 this
-DidSetStyleContext
+DidSetComputedStyle
 override
 to
 handle
@@ -19859,7 +19859,7 @@ without
 this
 /
 /
-DidSetStyleContext
+DidSetComputedStyle
 we
 would
 (

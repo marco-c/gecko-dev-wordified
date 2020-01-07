@@ -201,9 +201,9 @@ NS_NewMathMLmoFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -213,7 +213,7 @@ aPresShell
 )
 nsMathMLmoFrame
 (
-aContext
+aStyle
 )
 ;
 }
@@ -804,7 +804,7 @@ ResolveMathMLCharStyle
 (
 presContext
 mContent
-mStyleContext
+mComputedStyle
 &
 mMathMLChar
 )
@@ -1279,7 +1279,7 @@ ResolveMathMLCharStyle
 (
 presContext
 mContent
-mStyleContext
+mComputedStyle
 &
 mMathMLChar
 )
@@ -3027,7 +3027,7 @@ leadingSpace
 CalcLength
 (
 presContext
-mStyleContext
+mComputedStyle
 cssValue
 fontSizeInflation
 )
@@ -3215,7 +3215,7 @@ trailingSpace
 CalcLength
 (
 presContext
-mStyleContext
+mComputedStyle
 cssValue
 fontSizeInflation
 )
@@ -3910,7 +3910,7 @@ float
 CalcLength
 (
 presContext
-mStyleContext
+mComputedStyle
 cssValue
 fontSizeInflation
 )
@@ -4127,7 +4127,7 @@ float
 CalcLength
 (
 presContext
-mStyleContext
+mComputedStyle
 cssValue
 fontSizeInflation
 )
@@ -8007,12 +8007,12 @@ context
 to
 our
 MathMLChar
-nsStyleContext
+ComputedStyle
 *
 nsMathMLmoFrame
 :
 :
-GetAdditionalStyleContext
+GetAdditionalComputedStyle
 (
 int32_t
 aIndex
@@ -8030,7 +8030,7 @@ NS_MATHML_CHAR_STYLE_CONTEXT_INDEX
 return
 mMathMLChar
 .
-GetStyleContext
+GetComputedStyle
 (
 )
 ;
@@ -8045,13 +8045,13 @@ void
 nsMathMLmoFrame
 :
 :
-SetAdditionalStyleContext
+SetAdditionalComputedStyle
 (
 int32_t
 aIndex
-nsStyleContext
+ComputedStyle
 *
-aStyleContext
+aComputedStyle
 )
 {
 switch
@@ -8064,9 +8064,9 @@ NS_MATHML_CHAR_STYLE_CONTEXT_INDEX
 :
 mMathMLChar
 .
-SetStyleContext
+SetComputedStyle
 (
-aStyleContext
+aComputedStyle
 )
 ;
 break

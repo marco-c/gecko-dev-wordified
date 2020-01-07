@@ -270,9 +270,9 @@ NS_NewSVGGFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -282,7 +282,7 @@ aPresShell
 )
 nsSVGGFrame
 (
-aContext
+aStyle
 )
 ;
 }

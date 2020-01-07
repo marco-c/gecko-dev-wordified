@@ -165,9 +165,9 @@ NS_NewMathMLmspaceFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -177,7 +177,7 @@ aPresShell
 )
 nsMathMLmspaceFrame
 (
-aContext
+aStyle
 )
 ;
 }
@@ -353,7 +353,7 @@ nsMathMLElement
 :
 PARSE_ALLOW_NEGATIVE
 aPresContext
-mStyleContext
+mComputedStyle
 fontSizeInflation
 )
 ;
@@ -464,7 +464,7 @@ value
 mHeight
 0
 aPresContext
-mStyleContext
+mComputedStyle
 fontSizeInflation
 )
 ;
@@ -575,7 +575,7 @@ value
 mDepth
 0
 aPresContext
-mStyleContext
+mComputedStyle
 fontSizeInflation
 )
 ;

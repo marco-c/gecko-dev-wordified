@@ -1642,11 +1642,11 @@ e
 g
 .
 to
-ReparentStyleContextForFirstLine
+ReparentComputedStyleForFirstLine
 )
 .
 nsresult
-ReparentStyleContext
+ReparentComputedStyle
 (
 nsIFrame
 *
@@ -1669,7 +1669,7 @@ This
 is
 used
 by
-ReparentStyleContext
+ReparentComputedStyle
 *
 and
 shouldn
@@ -2020,7 +2020,7 @@ ProcessPostTraversal
 Element
 *
 aElement
-ServoStyleContext
+ComputedStyle
 *
 aParentContext
 ServoRestyleState
@@ -2176,7 +2176,7 @@ recursive
 )
 work
 of
-ReparentStyleContext
+ReparentComputedStyle
 once
 we
 /
@@ -2194,7 +2194,7 @@ initial
 call
 .
 void
-DoReparentStyleContext
+DoReparentComputedStyle
 (
 nsIFrame
 *

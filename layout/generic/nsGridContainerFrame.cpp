@@ -172,6 +172,15 @@ include
 "
 mozilla
 /
+ComputedStyle
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CSSAlignUtils
 .
 h
@@ -309,13 +318,6 @@ h
 include
 "
 nsReadableUtils
-.
-h
-"
-#
-include
-"
-nsStyleContext
 .
 h
 "
@@ -18180,9 +18182,9 @@ NS_NewGridContainerFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -18192,7 +18194,7 @@ aPresShell
 )
 nsGridContainerFrame
 (
-aContext
+aStyle
 )
 ;
 }
@@ -28589,7 +28591,7 @@ aState
 .
 mWM
 ;
-nsStyleContext
+ComputedStyle
 *
 containerSC
 =
@@ -28598,7 +28600,7 @@ aState
 mFrame
 -
 >
-StyleContext
+Style
 (
 )
 ;
@@ -36122,11 +36124,11 @@ PresContext
 (
 )
 ;
-nsStyleContext
+ComputedStyle
 *
 containerSC
 =
-StyleContext
+Style
 (
 )
 ;
@@ -36994,7 +36996,7 @@ pos
 >
 UsedJustifySelf
 (
-StyleContext
+Style
 (
 )
 )
@@ -37007,7 +37009,7 @@ pos
 >
 UsedAlignSelf
 (
-StyleContext
+Style
 (
 )
 )
@@ -37533,7 +37535,7 @@ mStylePosition
 >
 UsedAlignSelf
 (
-StyleContext
+Style
 (
 )
 )
@@ -48444,7 +48446,7 @@ mStylePosition
 >
 UsedJustifySelf
 (
-StyleContext
+Style
 (
 )
 )
@@ -48456,7 +48458,7 @@ mStylePosition
 >
 UsedAlignSelf
 (
-StyleContext
+Style
 (
 )
 )
