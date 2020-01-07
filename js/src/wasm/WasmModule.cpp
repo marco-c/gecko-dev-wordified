@@ -3718,6 +3718,9 @@ true
 UniqueChars
 error
 ;
+UniqueCharsVector
+warnings
+;
 return
 CompileBuffer
 (
@@ -3727,6 +3730,8 @@ args
 bytecode
 &
 error
+&
+warnings
 )
 ;
 }

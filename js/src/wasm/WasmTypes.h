@@ -686,6 +686,15 @@ SystemAllocPolicy
 >
 InstanceVector
 ;
+typedef
+Vector
+<
+UniqueChars
+0
+SystemAllocPolicy
+>
+UniqueCharsVector
+;
 /
 /
 To

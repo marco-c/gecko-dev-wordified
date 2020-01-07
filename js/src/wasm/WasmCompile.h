@@ -513,6 +513,9 @@ bytecode
 UniqueChars
 *
 error
+UniqueCharsVector
+*
+warnings
 )
 ;
 /
@@ -815,6 +818,9 @@ cancelled
 UniqueChars
 *
 error
+UniqueCharsVector
+*
+warnings
 )
 ;
 }
