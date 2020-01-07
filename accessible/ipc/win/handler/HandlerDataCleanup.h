@@ -123,7 +123,7 @@ mozilla_a11y_HandlerDataCleanup_h
 #
 include
 <
-OleAuto
+oleauto
 .
 h
 >
