@@ -9802,13 +9802,6 @@ paint_order
 PaintOrder
 CSS_PROPERTY_PARSE_FUNCTION
 "
-svg
-.
-paint
--
-order
-.
-enabled
 "
 0
 nullptr
