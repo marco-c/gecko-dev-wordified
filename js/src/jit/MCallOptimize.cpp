@@ -918,10 +918,10 @@ case
 InlinableNative
 :
 :
-IntlIsNumberFormat
+IntlGuardToNumberFormat
 :
 return
-inlineHasClass
+inlineGuardToClass
 (
 callInfo
 &
