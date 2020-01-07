@@ -667,7 +667,7 @@ args
 unenroll
 "
 "
-preference_rollout
+preference_rollback
 "
 recipe
 .
@@ -1046,7 +1046,7 @@ args
 unenrollFailed
 "
 "
-preference_rollout
+preference_rollback
 "
 "
 graduated
@@ -1182,7 +1182,7 @@ args
 unenrollFailed
 "
 "
-preference_rollout
+preference_rollback
 "
 "
 missing

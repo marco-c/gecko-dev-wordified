@@ -247,7 +247,7 @@ preference_study
 addon_study
 "
 "
-preference_rollout
+preference_rollback
 "
 ]
 extra_keys
@@ -284,7 +284,7 @@ objects
 :
 [
 "
-preference_rollout
+preference_rollback
 "
 ]
 extra_keys
