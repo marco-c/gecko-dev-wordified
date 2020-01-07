@@ -1578,14 +1578,12 @@ to
 copy
 uint32_t
 dropEffect
-;
+=
 dataTransfer
 -
 >
-GetDropEffectInt
+DropEffectInt
 (
-&
-dropEffect
 )
 ;
 deleteSelection
