@@ -88,7 +88,7 @@ import
 globals
 -
 from
-editBookmarkOverlay
+editBookmark
 .
 js
 *
@@ -377,7 +377,7 @@ IDs
 of
 fields
 from
-editBookmarkOverlay
+editBookmark
 that
 should
 be

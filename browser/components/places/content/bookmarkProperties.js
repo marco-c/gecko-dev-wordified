@@ -605,7 +605,7 @@ import
 globals
 -
 from
-editBookmarkOverlay
+editBookmark
 .
 js
 *
