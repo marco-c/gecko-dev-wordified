@@ -1797,6 +1797,10 @@ function
 (
 )
 {
+this
+.
+extension
+.
 apiManager
 .
 lazyInit
@@ -1816,6 +1820,10 @@ new
 CanOfAPIs
 (
 this
+this
+.
+extension
+.
 apiManager
 localApis
 )
@@ -2198,6 +2206,7 @@ Map
 initialized
 :
 false
+apiManager
 _init
 (
 )

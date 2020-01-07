@@ -7237,6 +7237,12 @@ resourceURI
 ;
 this
 .
+apiManager
+=
+Management
+;
+this
+.
 uuid
 =
 UUIDMap
