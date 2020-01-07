@@ -1403,7 +1403,7 @@ None
         
 self
 .
-mod_jsval
+mod_JS_Value
 =
 None
         

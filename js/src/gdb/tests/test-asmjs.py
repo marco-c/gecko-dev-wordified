@@ -119,7 +119,10 @@ assert_pretty
 rval
 '
 '
-jsval
+JS
+:
+:
+Value
 (
 "
 ok
