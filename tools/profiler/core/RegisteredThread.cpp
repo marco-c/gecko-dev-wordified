@@ -178,6 +178,10 @@ mJSSampling
 (
 INACTIVE
 )
+mJSTrackOptimizations
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
