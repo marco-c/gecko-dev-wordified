@@ -455,6 +455,12 @@ ScriptThreadEventCategory
 WebVREvent
 ;
 use
+serde_bytes
+:
+:
+ByteBuf
+;
+use
 std
 :
 :
@@ -713,10 +719,7 @@ WebGLReceiver
 <
 Result
 <
-Vec
-<
-u8
->
+ByteBuf
 (
 )
 >

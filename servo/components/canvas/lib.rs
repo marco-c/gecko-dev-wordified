@@ -114,6 +114,10 @@ offscreen_gl_context
 ;
 extern
 crate
+serde_bytes
+;
+extern
+crate
 servo_config
 ;
 extern

@@ -477,6 +477,10 @@ serde
 ;
 extern
 crate
+serde_bytes
+;
+extern
+crate
 servo_allocator
 ;
 extern
