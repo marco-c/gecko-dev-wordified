@@ -2444,10 +2444,6 @@ aPresContext
 :
 RestyleManager
 (
-StyleBackendType
-:
-:
-Servo
 aPresContext
 )
 mReentrantChanges
@@ -8011,12 +8007,6 @@ ClearSnapshots
 ;
 nsStyleChangeList
 currentChanges
-(
-StyleBackendType
-:
-:
-Servo
-)
 ;
 bool
 anyStyleChanged
