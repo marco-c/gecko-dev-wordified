@@ -284,7 +284,7 @@ else
             
 delta
 =
-8
+22
         
 self
 .
