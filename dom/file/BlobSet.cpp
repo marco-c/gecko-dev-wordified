@@ -265,7 +265,7 @@ bool
 nativeEOL
 )
 {
-nsAutoCString
+nsCString
 utf8Str
 ;
 if
