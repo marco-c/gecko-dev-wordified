@@ -3452,6 +3452,9 @@ processName
 sig
 =
 None
+native
+=
+False
 )
 :
         
@@ -3504,6 +3507,24 @@ into
 the
 kill
 command
+(
+optional
+)
+        
+:
+param
+native
+:
+is
+this
+a
+native
+process
+(
+like
+xpcshell
+)
+?
 (
 optional
 )

@@ -1281,6 +1281,9 @@ killProcess
 "
 xpcshell
 "
+native
+=
+True
 )
         
 return
@@ -1540,6 +1543,8 @@ killProcess
 "
 xpcshell
 "
+native
+=
 True
 )
     
