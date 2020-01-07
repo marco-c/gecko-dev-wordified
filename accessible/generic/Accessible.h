@@ -5329,13 +5329,7 @@ IsDefunct
 (
 )
 const
-{
-return
-mStateFlags
-&
-eIsDefunct
 ;
-}
 /
 *
 *

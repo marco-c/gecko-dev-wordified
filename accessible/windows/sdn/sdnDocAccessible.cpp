@@ -121,6 +121,15 @@ h
 #
 include
 "
+Accessible
+-
+inl
+.
+h
+"
+#
+include
+"
 ISimpleDOM
 .
 h

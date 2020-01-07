@@ -100,6 +100,15 @@ XULListboxAccessibleWrap
 .
 h
 "
+#
+include
+"
+Accessible
+-
+inl
+.
+h
+"
 using
 namespace
 mozilla
