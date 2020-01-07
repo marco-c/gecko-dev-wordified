@@ -127,7 +127,10 @@ ipc_channel
 ipc
 :
 :
+{
+IpcReceiver
 IpcSender
+}
 ;
 use
 msg
@@ -546,6 +549,16 @@ loads
 InitiateNavigateRequest
 (
 RequestInit
+/
+*
+cancellation_chan
+*
+/
+IpcReceiver
+<
+(
+)
+>
 )
 /
 /

@@ -8928,6 +8928,7 @@ FromScriptMsg
 InitiateNavigateRequest
 (
 req_init
+cancel_chan
 )
 =
 >
@@ -8951,6 +8952,7 @@ handle_navigate_request
 (
 source_pipeline_id
 req_init
+cancel_chan
 )
 ;
 }
@@ -13554,6 +13556,13 @@ PipelineId
 req_init
 :
 RequestInit
+cancel_chan
+:
+IpcReceiver
+<
+(
+)
+>
 )
 {
 let
@@ -13586,6 +13595,10 @@ listener
 .
 initiate_fetch
 (
+Some
+(
+cancel_chan
+)
 )
 ;
 }
