@@ -5,7 +5,9 @@ function
 (
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -761,7 +763,9 @@ open
 cleanup
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -774,7 +778,9 @@ previews
 "
 )
 )
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (
@@ -989,7 +995,9 @@ canOpen
 )
 {
 return
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (

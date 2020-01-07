@@ -186,7 +186,9 @@ setup
 (
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -506,7 +508,9 @@ clearHistory
 (
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

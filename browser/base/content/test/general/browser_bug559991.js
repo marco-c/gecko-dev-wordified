@@ -26,7 +26,9 @@ waitForExplicitFinish
 (
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -40,7 +42,9 @@ updateBackgroundTabs
 true
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -271,7 +275,9 @@ null
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -284,7 +290,9 @@ updateBackgroundTabs
 "
 )
 )
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (
@@ -299,7 +307,9 @@ updateBackgroundTabs
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -312,7 +322,9 @@ siteSpecific
 "
 )
 )
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

@@ -449,7 +449,9 @@ cpd
 let
 itemPrefs
 =
-gPrefService
+Services
+.
+prefs
 .
 getBranch
 (

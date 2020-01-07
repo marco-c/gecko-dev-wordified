@@ -560,7 +560,9 @@ then
 =
 >
 {
-gPrefService
+Services
+.
+prefs
 .
 setIntPref
 (
@@ -838,7 +840,9 @@ t
 /
 clean
 up
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

@@ -536,7 +536,9 @@ from
 the
 location
 bar
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -579,7 +581,9 @@ set
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -593,7 +597,9 @@ clickSelectsAll
 )
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (
@@ -695,7 +701,9 @@ from
 the
 location
 bar
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -753,7 +761,9 @@ set
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -767,7 +777,9 @@ clickSelectsAll
 )
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

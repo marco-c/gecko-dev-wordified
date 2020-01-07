@@ -120,7 +120,9 @@ html
 let
 oldPopupPolicy
 =
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -131,7 +133,9 @@ disable_open_during_load
 "
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -150,7 +154,9 @@ registerCleanupFunction
 =
 >
 {
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (

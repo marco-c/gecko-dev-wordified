@@ -1339,7 +1339,9 @@ ctrlTab_readPref
 var
 enable
 =
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -1350,7 +1352,9 @@ prefName
 &
 &
 !
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (

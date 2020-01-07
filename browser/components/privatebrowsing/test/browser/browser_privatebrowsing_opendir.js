@@ -266,7 +266,9 @@ reset
 (
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (
@@ -717,7 +719,9 @@ used
 in
 normal
 mode
-gPrefService
+Services
+.
+prefs
 .
 setComplexValue
 (
@@ -794,7 +798,9 @@ private
 browsing
 mode
 mode
-gPrefService
+Services
+.
+prefs
 .
 setComplexValue
 (

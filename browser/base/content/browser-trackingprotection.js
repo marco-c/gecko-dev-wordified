@@ -692,7 +692,9 @@ enabledGlobally
 let
 introCount
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -714,7 +716,9 @@ TrackingProtection
 MAX_INTROS
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 setIntPref
 (
@@ -730,7 +734,9 @@ introCount
 introCount
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 savePrefFile
 (
@@ -1231,7 +1237,9 @@ this
 enabledGlobally
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 setIntPref
 (
@@ -1247,7 +1255,9 @@ this
 MAX_INTROS
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 savePrefFile
 (

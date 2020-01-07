@@ -71,7 +71,9 @@ content
 contentWin
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -124,7 +126,9 @@ close
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -137,7 +141,9 @@ closeWindowWithLastTab
 "
 )
 )
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

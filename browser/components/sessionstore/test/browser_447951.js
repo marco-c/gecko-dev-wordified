@@ -124,7 +124,9 @@ t
 affect
 the
 results
-gPrefService
+Services
+.
+prefs
 .
 setIntPref
 (
@@ -139,7 +141,9 @@ max_serialize_back
 1
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 setIntPref
 (
@@ -160,7 +164,9 @@ function
 (
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (
@@ -173,7 +179,9 @@ max_serialize_back
 "
 )
 ;
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (
@@ -226,7 +234,9 @@ entries
 let
 max_entries
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (

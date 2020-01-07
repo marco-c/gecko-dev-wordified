@@ -216,7 +216,9 @@ the
 expert
 mode
 pref
-gPrefService
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -331,7 +333,9 @@ removeCurrentTab
 ;
 if
 (
-gPrefService
+Services
+.
+prefs
 .
 prefHasUserValue
 (
@@ -346,7 +350,9 @@ expert_bad_cert
 "
 )
 )
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

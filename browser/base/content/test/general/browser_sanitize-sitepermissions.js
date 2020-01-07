@@ -148,7 +148,9 @@ cpd
 var
 itemPrefs
 =
-gPrefService
+Services
+.
+prefs
 .
 getBranch
 (

@@ -252,7 +252,9 @@ this
 _siteSpecificPref
 =
 !
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -264,7 +266,9 @@ resistFingerprinting
 )
 &
 &
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -392,7 +396,9 @@ this
 .
 updateBackgroundTabs
 =
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (
@@ -438,7 +444,9 @@ of
 zoom
 levels
 .
-gPrefService
+Services
+.
+prefs
 .
 addObserver
 (
@@ -472,7 +480,9 @@ this
 .
 _siteSpecificPref
 .
-gPrefService
+Services
+.
+prefs
 .
 addObserver
 (
@@ -577,7 +587,9 @@ FullZoom_destroy
 (
 )
 {
-gPrefService
+Services
+.
+prefs
 .
 removeObserver
 (
@@ -742,7 +754,9 @@ this
 .
 updateBackgroundTabs
 =
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (

@@ -251,7 +251,9 @@ maxTabsUndo
 =
 4
 ;
-gPrefService
+Services
+.
+prefs
 .
 setIntPref
 (
@@ -578,7 +580,9 @@ matches
 Clean
 up
 .
-gPrefService
+Services
+.
+prefs
 .
 clearUserPref
 (

@@ -2446,7 +2446,9 @@ this
 .
 _element
 (
-gPrefService
+Services
+.
+prefs
 .
 getCharPref
 (
