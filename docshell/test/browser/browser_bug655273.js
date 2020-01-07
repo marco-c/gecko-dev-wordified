@@ -211,6 +211,8 @@ is
 (
 shistory
 .
+legacySHistory
+.
 getEntryAtIndex
 (
 shistory

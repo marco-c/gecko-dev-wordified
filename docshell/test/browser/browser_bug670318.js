@@ -266,6 +266,8 @@ true
 ;
 history
 .
+legacySHistory
+.
 removeSHistoryListener
 (
 listener
@@ -407,6 +409,8 @@ nsISupportsWeakReference
 }
 ;
 history
+.
+legacySHistory
 .
 addSHistoryListener
 (

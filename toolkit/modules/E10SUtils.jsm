@@ -1450,6 +1450,8 @@ requestedIndex
 =
 sessionHistory
 .
+legacySHistory
+.
 requestedIndex
 ;
 if
@@ -1463,6 +1465,8 @@ requestedIndex
 if
 (
 sessionHistory
+.
+legacySHistory
 .
 getEntryAtIndex
 (
@@ -1755,6 +1759,8 @@ aFreshProcess
 historyIndex
 :
 sessionHistory
+.
+legacySHistory
 .
 requestedIndex
 }

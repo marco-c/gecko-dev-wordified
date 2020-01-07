@@ -277,6 +277,8 @@ sessionHistory
 {
 sessionHistory
 .
+legacySHistory
+.
 addSHistoryListener
 (
 historyListener

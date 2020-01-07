@@ -176,6 +176,8 @@ entry
 =
 sessionHistory
 .
+legacySHistory
+.
 getEntryAtIndex
 (
 0

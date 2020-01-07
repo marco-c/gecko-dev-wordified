@@ -861,6 +861,8 @@ forwardEntry
 =
 sh
 .
+legacySHistory
+.
 getEntryAtIndex
 (
 sh
@@ -1004,6 +1006,8 @@ let
 prevEntry
 =
 sh
+.
+legacySHistory
 .
 getEntryAtIndex
 (

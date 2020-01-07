@@ -168,7 +168,7 @@ await
 checkListeners
 (
 "
-goback
+gotoindex
 "
 "
 back
@@ -211,7 +211,7 @@ await
 checkListeners
 (
 "
-goforward
+gotoindex
 "
 "
 forward

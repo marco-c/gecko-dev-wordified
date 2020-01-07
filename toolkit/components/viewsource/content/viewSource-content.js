@@ -1697,6 +1697,8 @@ nsIWebNavigation
 .
 sessionHistory
 .
+legacySHistory
+.
 QueryInterface
 (
 Ci
