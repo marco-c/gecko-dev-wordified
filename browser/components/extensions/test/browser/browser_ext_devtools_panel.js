@@ -2009,12 +2009,10 @@ visibleAdditionalTools
 .
 filter
 (
-tool
+toolId
 =
 >
-tool
-.
-id
+toolId
 =
 =
 panelId
