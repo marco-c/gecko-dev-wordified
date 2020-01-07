@@ -1737,7 +1737,7 @@ error
 No
 invalid
 regular
-expresions
+expressions
 "
 no
 -

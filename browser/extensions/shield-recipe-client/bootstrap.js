@@ -1529,6 +1529,13 @@ jsm
 "
 lib
 /
+TelemetryEvents
+.
+jsm
+"
+"
+lib
+/
 Uptake
 .
 jsm

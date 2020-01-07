@@ -1572,8 +1572,7 @@ see
 nsIBrowserProfileMigrator
 *
 /
-get
-sourceHomePageURL
+getSourceHomePageURL
 (
 )
 {
