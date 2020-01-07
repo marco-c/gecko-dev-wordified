@@ -1438,11 +1438,6 @@ aContentPolicyType
 )
 ;
 nsresult
-/
-*
-NS_NewInputStreamChannelPrincipal
-*
-/
 NS_NewInputStreamChannel
 (
 nsIChannel
@@ -1452,8 +1447,10 @@ outChannel
 nsIURI
 *
 aUri
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aStream
 nsIPrincipal
 *

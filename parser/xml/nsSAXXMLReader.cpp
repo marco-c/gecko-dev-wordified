@@ -1339,6 +1339,14 @@ nsIChannel
 >
 parserChannel
 ;
+nsCOMPtr
+<
+nsIInputStream
+>
+tmpStream
+=
+stream
+;
 rv
 =
 NS_NewInputStreamChannel
@@ -1348,7 +1356,11 @@ getter_AddRefs
 parserChannel
 )
 mBaseURI
-stream
+tmpStream
+.
+forget
+(
+)
 nullPrincipal
 nsILoadInfo
 :

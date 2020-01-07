@@ -8728,6 +8728,10 @@ aLoadData
 >
 mURI
 stream
+.
+forget
+(
+)
 nsContentUtils
 :
 :
