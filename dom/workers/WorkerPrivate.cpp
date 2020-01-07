@@ -12160,6 +12160,9 @@ MOZ_ASSERT
 aReport
 )
 ;
+WorkerErrorReport
+:
+:
 LogErrorToConsole
 (
 *
@@ -12832,6 +12835,9 @@ MOZ_ASSERT
 aReport
 )
 ;
+WorkerErrorReport
+:
+:
 LogErrorToConsole
 (
 *
@@ -24900,7 +24906,7 @@ CurrentGlobalOrNull
 aCx
 )
 ;
-workers
+WorkerErrorReport
 :
 :
 ReportError

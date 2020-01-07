@@ -2005,6 +2005,9 @@ mFilename
 =
 aFilename
 ;
+WorkerErrorReport
+:
+:
 LogErrorToConsole
 (
 report
