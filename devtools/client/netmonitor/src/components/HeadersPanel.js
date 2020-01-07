@@ -1045,6 +1045,9 @@ TINY
 cropLimit
 :
 60
+noGrip
+:
+true
 }
 )
 )
