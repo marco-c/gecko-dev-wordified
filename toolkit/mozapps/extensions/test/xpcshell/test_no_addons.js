@@ -82,11 +82,13 @@ jsm
 )
 ;
 const
+{
 DB_SCHEMA
+}
 =
 XPIScope
 .
-DB_SCHEMA
+XPIInternal
 ;
 createAppInfo
 (
