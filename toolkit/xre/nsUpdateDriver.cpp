@@ -1868,6 +1868,13 @@ return
 false
 ;
 }
+#
+if
+!
+defined
+(
+XP_WIN
+)
 static
 bool
 CopyFileIntoUpdateDir
@@ -2340,6 +2347,8 @@ rv
 )
 ;
 }
+#
+endif
 /
 *
 *
