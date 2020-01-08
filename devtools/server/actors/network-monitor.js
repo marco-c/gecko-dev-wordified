@@ -470,6 +470,8 @@ debug
 request
 -
 content
+:
+request
 "
 this
 .
@@ -536,6 +538,8 @@ network
 event
 -
 actor
+:
+request
 "
 this
 .
@@ -687,6 +691,8 @@ debug
 request
 -
 content
+:
+request
 "
 this
 .
@@ -727,6 +733,8 @@ network
 event
 -
 actor
+:
+request
 "
 this
 .
@@ -1054,6 +1062,8 @@ debug
 request
 -
 content
+:
+response
 "
 {
 url
@@ -1145,6 +1155,8 @@ network
 event
 -
 actor
+:
+response
 "
 {
 channelId

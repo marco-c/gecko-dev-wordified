@@ -286,6 +286,8 @@ debug
 request
 -
 stack
+:
+request
 "
 this
 .
@@ -349,6 +351,8 @@ debug
 request
 -
 stack
+:
+request
 "
 this
 .
@@ -732,6 +736,8 @@ debug
 request
 -
 stack
+:
+response
 "
 {
 channelId
