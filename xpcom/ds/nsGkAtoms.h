@@ -571,6 +571,7 @@ one
 "
 one
 "
+0x01234567
 nsStaticAtom
 Atom
 )
@@ -582,6 +583,7 @@ two
 "
 two
 "
+0x12345678
 nsICSSPseudoElement
 PseudoElementAtom
 )
@@ -593,6 +595,7 @@ three
 "
 three
 "
+0x23456789
 nsICSSAnonBoxPseudo
 InheritingAnonBoxAtom
 )
@@ -1115,6 +1118,9 @@ one
 3
 /
 /
+0x01234567
+/
+/
 offsetof
 (
 GkAtoms
@@ -1157,6 +1163,9 @@ two
 3
 /
 /
+0x12345678
+/
+/
 offsetof
 (
 GkAtoms
@@ -1197,6 +1206,9 @@ u
 three
 "
 3
+/
+/
+0x23456789
 /
 /
 offsetof
@@ -1508,6 +1520,9 @@ char16_t
 aStr
 uint32_t
 aLength
+\
+uint32_t
+aHash
 uint32_t
 aOffset
 )
@@ -1517,6 +1532,7 @@ nsStaticAtom
 (
 aStr
 aLength
+aHash
 aOffset
 )
 {
@@ -1632,6 +1648,7 @@ GK_ATOM
 (
 name_
 value_
+hash_
 type_
 atom_type_
 )
@@ -1678,6 +1695,7 @@ GK_ATOM
 (
 name_
 value_
+hash_
 type_
 atom_type_
 )
@@ -1846,6 +1864,7 @@ GK_ATOM
 (
 name_
 value_
+hash_
 type_
 atom_type_
 )

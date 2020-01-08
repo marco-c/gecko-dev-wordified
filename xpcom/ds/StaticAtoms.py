@@ -25121,6 +25121,7 @@ GK_ATOM
 (
 identifier
 string
+hash
 gecko_type
 atom_type
 )
@@ -25146,6 +25147,9 @@ s
 s
 \
 "
+0x
+%
+08x
 %
 s
 %
@@ -25163,6 +25167,9 @@ ident
 a
 .
 string
+a
+.
+hash
 a
 .
 ty
