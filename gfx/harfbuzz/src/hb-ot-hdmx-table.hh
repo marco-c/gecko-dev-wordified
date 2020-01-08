@@ -1219,7 +1219,7 @@ version
 &
 &
 !
-_hb_unsigned_int_mul_overflows
+hb_unsigned_mul_overflows
 (
 num_records
 size_device_record

@@ -208,6 +208,15 @@ private
 hh
 "
 #
+include
+"
+hb
+-
+dsalgs
+.
+hh
+"
+#
 ifndef
 HB_DEBUG
 #

@@ -207,17 +207,6 @@ private
 .
 hh
 "
-#
-include
-"
-hb
--
-object
--
-private
-.
-hh
-"
 template
 <
 typename
@@ -454,7 +443,7 @@ unsigned
 int
 power
 =
-_hb_bit_storage
+hb_bit_storage
 (
 population
 *

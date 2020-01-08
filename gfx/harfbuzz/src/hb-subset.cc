@@ -210,17 +210,6 @@ include
 "
 hb
 -
-object
--
-private
-.
-hh
-"
-#
-include
-"
-hb
--
 open
 -
 type
@@ -910,7 +899,7 @@ i
 face_length
 +
 =
-_hb_ceil_to_4
+hb_ceil_to_4
 (
 hb_blob_get_length
 (

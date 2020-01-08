@@ -6358,7 +6358,7 @@ Grantha
 /
 VMAbv
 VMAbv
-VMPst
+VMAbv
 VMPst
 O
 B
@@ -7851,8 +7851,8 @@ B
 O
 O
 O
-O
-O
+GB
+GB
 O
 O
 O

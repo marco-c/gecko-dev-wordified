@@ -240,17 +240,6 @@ private
 .
 hh
 "
-#
-include
-"
-hb
--
-object
--
-private
-.
-hh
-"
 extern
 HB_INTERNAL
 const

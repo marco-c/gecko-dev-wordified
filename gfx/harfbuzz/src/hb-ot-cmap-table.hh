@@ -541,7 +541,7 @@ set
 MAX
 (
 1u
-_hb_bit_storage
+hb_bit_storage
 (
 segments
 .

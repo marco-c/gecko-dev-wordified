@@ -5264,7 +5264,7 @@ if
 likely
 (
 !
-_hb_unsigned_int_mul_overflows
+hb_unsigned_mul_overflows
 (
 c
 -
@@ -5309,7 +5309,7 @@ if
 likely
 (
 !
-_hb_unsigned_int_mul_overflows
+hb_unsigned_mul_overflows
 (
 c
 -
