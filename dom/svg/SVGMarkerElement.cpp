@@ -1214,6 +1214,11 @@ ORIENT
 SetBaseValue
 (
 f
+angle
+.
+UnitType
+(
+)
 this
 true
 )
@@ -1503,6 +1508,7 @@ SetBaseValue
 0
 .
 f
+SVG_ANGLETYPE_UNSPECIFIED
 this
 false
 )
@@ -1556,6 +1562,7 @@ SetBaseValue
 0
 .
 f
+SVG_ANGLETYPE_UNSPECIFIED
 this
 false
 )
