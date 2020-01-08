@@ -426,7 +426,7 @@ initialize
 (
 accessibility
 walker
-isOldVersion
+supportsLatestAccessibility
 )
 {
 /
@@ -470,7 +470,8 @@ content
 ;
 if
 (
-isOldVersion
+!
+supportsLatestAccessibility
 )
 {
 ReactDOM
