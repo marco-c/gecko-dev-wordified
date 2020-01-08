@@ -944,6 +944,15 @@ RefreshStandardFontLoadPrincipal
 (
 )
 ;
+void
+CopyNonRuleFacesTo
+(
+FontFaceSet
+*
+aFontFaceSet
+)
+const
+;
 nsIDocument
 *
 Document
