@@ -3275,6 +3275,13 @@ LogToConsoleWithStack
 (
 stack
 stackGlobal
+JS
+:
+:
+ExceptionTimeWarpTarget
+(
+mError
+)
 )
 ;
 }
