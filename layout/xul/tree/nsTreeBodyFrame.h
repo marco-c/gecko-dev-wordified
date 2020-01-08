@@ -283,8 +283,9 @@ nsTreeImageCacheEntry
 nsTreeImageCacheEntry
 (
 )
-{
-}
+=
+default
+;
 nsTreeImageCacheEntry
 (
 imgIRequest

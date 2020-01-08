@@ -999,6 +999,13 @@ mImageRequest
 mRequestRegistered
 )
 ;
+mImageRequest
+-
+>
+UnlockImage
+(
+)
+;
 /
 /
 Release
