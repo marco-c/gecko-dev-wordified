@@ -77220,6 +77220,10 @@ topLevelDoc
 GetDocumentURI
 (
 )
+AntiTrackingCommon
+:
+:
+eStorageChecks
 isOnAllowList
 )
 )
@@ -78044,6 +78048,10 @@ parent
 GetDocumentURI
 (
 )
+AntiTrackingCommon
+:
+:
+eStorageChecks
 isOnAllowList
 )
 )
