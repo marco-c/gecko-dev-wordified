@@ -5150,6 +5150,11 @@ PBrowserChild
 WidgetCompositionEvent
 (
 )
+:
+mOriginalMessage
+(
+eVoidEvent
+)
 {
 }
 public
@@ -7325,6 +7330,13 @@ false
 mUseNativeLineBreak
 (
 true
+)
+mReason
+(
+nsISelectionListener
+:
+:
+NO_REASON
 )
 {
 }

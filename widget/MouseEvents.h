@@ -3289,6 +3289,10 @@ mCustomizedByUserPrefs
 (
 false
 )
+mMayHaveMomentum
+(
+false
+)
 mIsMomentum
 (
 false
