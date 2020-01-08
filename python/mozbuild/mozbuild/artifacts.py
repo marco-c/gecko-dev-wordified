@@ -6263,25 +6263,6 @@ artifact
 for
 this
 .
-We
-could
-also
-use
-the
-uploaded
-            
-#
-public
-/
-build
-/
-buildprops
-.
-json
-for
-this
-purpose
-.
             
 url
 =
