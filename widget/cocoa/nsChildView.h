@@ -1443,9 +1443,6 @@ mCumulativeMagnification
 float
 mCumulativeRotation
 ;
-BOOL
-mWaitingForPaint
-;
 #
 ifdef
 __LP64__
