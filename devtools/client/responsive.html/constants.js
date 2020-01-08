@@ -73,5 +73,5 @@ exports
 .
 MIN_VIEWPORT_DIMENSION
 =
-50
+280
 ;

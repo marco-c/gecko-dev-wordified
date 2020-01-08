@@ -389,6 +389,8 @@ document
 getElementById
 (
 "
+global
+-
 exit
 -
 button

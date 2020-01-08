@@ -73,13 +73,13 @@ devtools
 /
 client
 /
-shared
+netmonitor
 /
-components
-/
-menu
+src
 /
 utils
+/
+menu
 "
 )
 ;

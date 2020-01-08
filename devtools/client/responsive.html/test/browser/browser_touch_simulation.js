@@ -1417,9 +1417,12 @@ touchButton
 =
 document
 .
-getElementById
+querySelector
 (
 "
+#
+global
+-
 touch
 -
 simulation
