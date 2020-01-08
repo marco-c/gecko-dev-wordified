@@ -1521,14 +1521,6 @@ else
 {
 MOZ_ASSERT
 (
-!
-result
-.
-mAsyncPaint
-)
-;
-MOZ_ASSERT
-(
 GetFrontBuffer
 (
 )
