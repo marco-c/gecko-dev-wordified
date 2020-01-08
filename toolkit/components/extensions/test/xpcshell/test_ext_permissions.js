@@ -3279,6 +3279,9 @@ search
 storage
 "
 "
+telemetry
+"
+"
 theme
 "
 "
