@@ -605,11 +605,11 @@ UniqueStacks
 aUniqueStacks
 )
 {
-StreamCommonProps
+TracingMarkerPayload
+:
+:
+StreamPayload
 (
-"
-DOMEvent
-"
 aWriter
 aProcessStartTime
 aUniqueStacks
