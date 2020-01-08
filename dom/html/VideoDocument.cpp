@@ -443,14 +443,6 @@ InitialSetupHasBeenDone
 )
 )
 {
-if
-(
-!
-GetRootElement
-(
-)
-)
-{
 /
 /
 Create
@@ -484,7 +476,6 @@ document
 "
 )
 ;
-}
 if
 (
 !
