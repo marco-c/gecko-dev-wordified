@@ -177,6 +177,12 @@ DOMCACHE_DIRECTORY_NAME
 "
 cache
 "
+#
+define
+LS_DIRECTORY_NAME
+"
+ls
+"
 BEGIN_QUOTA_NAMESPACE
 class
 QuotaManager

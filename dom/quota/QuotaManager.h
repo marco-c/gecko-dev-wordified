@@ -1695,6 +1695,16 @@ aConnection
 )
 ;
 nsresult
+MaybeRemoveLocalStorageData
+(
+)
+;
+nsresult
+MaybeRemoveLocalStorageDirectories
+(
+)
+;
+nsresult
 InitializeRepository
 (
 PersistenceType
