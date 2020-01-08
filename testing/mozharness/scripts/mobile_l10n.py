@@ -721,22 +721,8 @@ self
 query_is_nightly
 (
 )
-or
-self
-.
-query_is_nightly_promotion
-(
-)
 :
             
-if
-self
-.
-query_is_nightly
-(
-)
-:
-                
 #
 Nightly
 promotion
@@ -748,7 +734,7 @@ but
 not
 do
 all
-                
+            
 #
 the
 '
@@ -759,14 +745,14 @@ parts
 like
 uploading
 symbols
-                
+            
 #
 (
 for
 now
 )
 .
-                
+            
 repack_env
 [
 "
@@ -777,7 +763,7 @@ IS_NIGHTLY
 "
 yes
 "
-            
+        
 #
 In
 branch_specifics
@@ -789,7 +775,7 @@ set
 update_channel
 explicitly
 .
-            
+        
 if
 c
 .
@@ -800,7 +786,7 @@ update_channel
 '
 )
 :
-                
+            
 repack_env
 [
 "
@@ -814,7 +800,7 @@ c
 update_channel
 '
 ]
-            
+        
 else
 :
 #
@@ -830,7 +816,7 @@ based
 on
 branch
 .
-                
+            
 repack_env
 [
 "
@@ -839,7 +825,7 @@ MOZ_UPDATE_CHANNEL
 ]
 =
 \
-                    
+                
 "
 nightly
 -
