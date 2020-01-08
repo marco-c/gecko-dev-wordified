@@ -1005,6 +1005,14 @@ ErrorResult
 aRv
 )
 ;
+const
+PathString
+&
+BodyLocalPath
+(
+)
+const
+;
 /
 /
 If
