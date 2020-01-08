@@ -432,6 +432,12 @@ test
 component
 "
 "
+#
+shadow
+-
+root
+"
+"
 slot
 .
 slot
