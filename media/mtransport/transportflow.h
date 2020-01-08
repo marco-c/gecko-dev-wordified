@@ -592,7 +592,7 @@ successful
 /
 push
 .
-nsresult
+void
 PushLayer
 (
 TransportLayer
