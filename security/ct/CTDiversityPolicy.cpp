@@ -224,8 +224,8 @@ CTDiversityPolicy
 GetDependentOperators
 (
 const
-UniqueCERTCertList
-&
+CERTCertList
+*
 builtChain
 const
 CTLogOperatorList

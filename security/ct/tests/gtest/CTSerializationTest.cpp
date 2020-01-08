@@ -137,15 +137,6 @@ gtest
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Move
-.
-h
-"
 namespace
 mozilla
 {

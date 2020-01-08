@@ -125,6 +125,11 @@ include
 <
 vector
 >
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {

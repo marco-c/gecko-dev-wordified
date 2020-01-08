@@ -121,6 +121,13 @@ Buffer
 .
 h
 "
+#
+include
+<
+string
+.
+h
+>
 namespace
 mozilla
 {
