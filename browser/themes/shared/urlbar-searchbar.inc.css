@@ -1718,12 +1718,13 @@ height
 30px
 ;
 }
-:
-not
-(
 #
-pageActionSeparator
-)
+page
+-
+action
+-
+buttons
+>
 :
 not
 (
@@ -1750,6 +1751,7 @@ elements
 when
 at
 least
+one
 of
 the
 latter
