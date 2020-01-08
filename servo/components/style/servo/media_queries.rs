@@ -254,6 +254,7 @@ evaluated
 [
 derive
 (
+Debug
 MallocSizeOf
 )
 ]
