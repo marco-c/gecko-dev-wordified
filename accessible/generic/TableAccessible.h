@@ -987,11 +987,7 @@ bool
 IsProbablyLayoutTable
 (
 )
-{
-return
-false
 ;
-}
 /
 *
 *

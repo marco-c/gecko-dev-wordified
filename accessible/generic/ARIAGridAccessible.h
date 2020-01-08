@@ -179,6 +179,16 @@ const
 override
 ;
 virtual
+already_AddRefed
+<
+nsIPersistentProperties
+>
+NativeAttributes
+(
+)
+override
+;
+virtual
 TableAccessible
 *
 AsTable
