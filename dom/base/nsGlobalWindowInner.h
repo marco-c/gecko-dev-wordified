@@ -519,7 +519,7 @@ class
 nsIDocShellTreeOwner
 ;
 class
-nsIDOMOfflineResourceList
+nsDOMOfflineResourceList
 ;
 class
 nsIScrollableFrame
@@ -4113,7 +4113,7 @@ ErrorResult
 aError
 )
 ;
-nsIDOMOfflineResourceList
+nsDOMOfflineResourceList
 *
 GetApplicationCache
 (
@@ -4125,10 +4125,8 @@ ErrorResult
 aError
 )
 ;
-already_AddRefed
-<
-nsIDOMOfflineResourceList
->
+nsDOMOfflineResourceList
+*
 GetApplicationCache
 (
 )
@@ -9460,9 +9458,9 @@ mLastOpenedURI
 ;
 #
 endif
-nsCOMPtr
+RefPtr
 <
-nsIDOMOfflineResourceList
+nsDOMOfflineResourceList
 >
 mApplicationCache
 ;
