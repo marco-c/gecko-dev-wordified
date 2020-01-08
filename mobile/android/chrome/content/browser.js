@@ -16508,7 +16508,6 @@ hist
 getEntryAtIndex
 (
 i
-false
 )
 ;
 let

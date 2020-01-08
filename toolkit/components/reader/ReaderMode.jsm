@@ -856,7 +856,6 @@ sh
 index
 +
 1
-false
 )
 ;
 let
@@ -1002,7 +1001,6 @@ sh
 index
 -
 1
-false
 )
 ;
 let

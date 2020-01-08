@@ -181,7 +181,6 @@ legacySHistory
 getEntryAtIndex
 (
 0
-false
 )
 ;
 whenChildCount
@@ -229,7 +228,6 @@ legacySHistory
 getEntryAtIndex
 (
 0
-false
 )
 ;
 whenChildCount

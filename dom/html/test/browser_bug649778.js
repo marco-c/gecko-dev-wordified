@@ -322,7 +322,6 @@ getEntryAtIndex
 sh
 .
 index
-false
 )
 .
 URI

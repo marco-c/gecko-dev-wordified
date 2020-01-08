@@ -103,7 +103,6 @@ legacySHistory
 getEntryAtIndex
 (
 0
-false
 )
 ;
 is
@@ -188,7 +187,6 @@ legacySHistory
 getEntryAtIndex
 (
 0
-false
 )
 ;
 is
@@ -342,7 +340,6 @@ legacySHistory
 getEntryAtIndex
 (
 0
-false
 )
 .
 docshellID
@@ -515,7 +512,6 @@ legacySHistory
 getEntryAtIndex
 (
 0
-false
 )
 .
 docshellID
@@ -541,7 +537,6 @@ legacySHistory
 getEntryAtIndex
 (
 1
-false
 )
 .
 docshellID

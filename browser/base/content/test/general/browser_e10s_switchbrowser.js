@@ -123,7 +123,6 @@ legacySHistory
 getEntryAtIndex
 (
 i
-false
 )
 ;
 result

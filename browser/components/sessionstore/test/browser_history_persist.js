@@ -252,7 +252,6 @@ sessionHistory
 getEntryAtIndex
 (
 0
-false
 )
 .
 URI
@@ -363,7 +362,6 @@ sessionHistory
 getEntryAtIndex
 (
 0
-false
 )
 .
 URI
@@ -606,7 +604,6 @@ sessionHistory
 getEntryAtIndex
 (
 0
-false
 )
 .
 URI
@@ -716,7 +713,6 @@ sessionHistory
 getEntryAtIndex
 (
 0
-false
 )
 .
 URI
@@ -743,7 +739,6 @@ sessionHistory
 getEntryAtIndex
 (
 1
-false
 )
 .
 URI

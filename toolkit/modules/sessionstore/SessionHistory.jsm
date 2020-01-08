@@ -2194,11 +2194,9 @@ index
 {
 history
 .
-getEntryAtIndex
-(
 index
-true
-)
+=
+index
 ;
 }
 return

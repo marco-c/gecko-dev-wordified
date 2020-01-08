@@ -213,7 +213,6 @@ getEntryAtIndex
 shistory
 .
 index
-false
 )
 .
 title
