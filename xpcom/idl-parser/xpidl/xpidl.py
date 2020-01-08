@@ -7236,6 +7236,10 @@ readonly
 =
 False
     
+symbol
+=
+False
+    
 implicit_jscontext
 =
 False
@@ -7587,6 +7591,21 @@ noscript
 self
 .
 noscript
+=
+True
+                
+elif
+name
+=
+=
+'
+symbol
+'
+:
+                    
+self
+.
+symbol
 =
 True
                 
@@ -8055,6 +8074,10 @@ notxpcom
 =
 False
     
+symbol
+=
+False
+    
 binaryname
 =
 None
@@ -8221,6 +8244,21 @@ notxpcom
 self
 .
 notxpcom
+=
+True
+            
+elif
+name
+=
+=
+'
+symbol
+'
+:
+                
+self
+.
+symbol
 =
 True
             
