@@ -107,13 +107,6 @@ h
 #
 include
 "
-nsISecurityInfoProvider
-.
-h
-"
-#
-include
-"
 nsILoadGroup
 .
 h
@@ -283,8 +276,6 @@ IProgressObserver
 public
 nsISupportsPriority
 public
-nsISecurityInfoProvider
-public
 nsITimedChannel
 {
 protected
@@ -325,7 +316,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_IMGIREQUEST
 NS_DECL_NSIREQUEST
 NS_DECL_NSISUPPORTSPRIORITY
-NS_DECL_NSISECURITYINFOPROVIDER
 /
 /
 nsITimedChannel
