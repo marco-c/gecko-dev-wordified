@@ -81,6 +81,12 @@ Services
 .
 prefs
 .
+getDefaultBranch
+(
+"
+"
+)
+.
 setCharPref
 (
 "
