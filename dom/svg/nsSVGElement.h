@@ -1963,17 +1963,6 @@ ClearAnyCachedPath
 )
 {
 }
-nsIDOMNode
-*
-AsDOMNode
-(
-)
-final
-{
-return
-this
-;
-}
 virtual
 bool
 IsTransformable
