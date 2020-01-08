@@ -982,6 +982,9 @@ int
 prefsFd
 final
 int
+prefMapFd
+final
+int
 ipcFd
 final
 int
@@ -999,6 +1002,7 @@ start
 type
 args
 prefsFd
+prefMapFd
 ipcFd
 crashFd
 crashAnnotationFd
@@ -1048,6 +1052,9 @@ args
 final
 int
 prefsFd
+final
+int
+prefMapFd
 final
 int
 ipcFd
@@ -1109,6 +1116,10 @@ prefsPfd
 ;
 final
 ParcelFileDescriptor
+prefMapPfd
+;
+final
+ParcelFileDescriptor
 ipcPfd
 ;
 final
@@ -1128,6 +1139,15 @@ ParcelFileDescriptor
 fromFd
 (
 prefsFd
+)
+;
+prefMapPfd
+=
+ParcelFileDescriptor
+.
+fromFd
+(
+prefMapFd
 )
 ;
 ipcPfd
@@ -1234,6 +1254,7 @@ args
 extras
 flags
 prefsPfd
+prefMapPfd
 ipcPfd
 crashPfd
 crashAnnotationPfd
@@ -1305,6 +1326,7 @@ start
 type
 args
 prefsFd
+prefMapFd
 ipcFd
 crashFd
 crashAnnotationFd

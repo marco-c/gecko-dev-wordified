@@ -2457,6 +2457,8 @@ jargs
 int
 prefsFd
 int
+prefMapFd
+int
 ipcFd
 int
 crashFd
@@ -2548,6 +2550,7 @@ XRE_SetAndroidChildFds
 jenv
 {
 prefsFd
+prefMapFd
 ipcFd
 crashFd
 crashAnnotationFd
