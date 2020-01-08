@@ -289,6 +289,7 @@ done
 .
 *
 /
+async
 function
 waitForAllRequestsFinished
 (
@@ -298,6 +299,7 @@ expectedRequests
 let
 toolbox
 =
+await
 getToolbox
 (
 )
