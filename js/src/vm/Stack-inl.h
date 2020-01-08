@@ -293,7 +293,7 @@ global
 const
 {
 return
-environmentChain
+script
 (
 )
 -
