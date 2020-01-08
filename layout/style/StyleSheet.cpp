@@ -273,6 +273,10 @@ h
 namespace
 mozilla
 {
+using
+namespace
+dom
+;
 StyleSheet
 :
 :
