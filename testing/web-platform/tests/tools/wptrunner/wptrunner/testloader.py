@@ -4273,7 +4273,7 @@ classmethod
 def
 group_metadata
 (
-self
+cls
 state
 )
 :
