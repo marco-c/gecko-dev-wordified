@@ -11050,6 +11050,11 @@ if
 aTelemetry
 .
 mSpeedHistogram
+&
+&
+aTelemetry
+.
+mBytesDecoded
 )
 {
 Telemetry
