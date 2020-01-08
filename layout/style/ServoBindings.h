@@ -1617,6 +1617,13 @@ UpdateAnimationsTasks
 aTasks
 )
 ;
+size_t
+Gecko_GetAnimationEffectCount
+(
+RawGeckoElementBorrowed
+aElementOrPseudo
+)
+;
 bool
 Gecko_ElementHasAnimations
 (
