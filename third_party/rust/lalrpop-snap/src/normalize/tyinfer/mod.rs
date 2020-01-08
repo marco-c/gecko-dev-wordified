@@ -2304,7 +2304,7 @@ self
 .
 types
 .
-parse_error_type
+error_recovery_type
 (
 )
 .

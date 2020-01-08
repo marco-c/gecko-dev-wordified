@@ -1153,9 +1153,7 @@ current
 =
 last
 ;
-loop
-{
-if
+while
 let
 Some
 (
@@ -1184,11 +1182,6 @@ current
 =
 previous
 ;
-}
-else
-{
-break
-}
 }
 path
 .
