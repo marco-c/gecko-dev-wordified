@@ -60004,9 +60004,6 @@ rd
 RegPtr
 rr
 ;
-#
-ifdef
-ENABLE_WASM_GC
 /
 /
 Reserve
@@ -60063,8 +60060,6 @@ valueAddr
 )
 ;
 }
-#
-endif
 switch
 (
 structType
@@ -60371,9 +60366,6 @@ rd
 break
 ;
 }
-#
-ifdef
-ENABLE_WASM_GC
 case
 ValType
 :
@@ -60419,8 +60411,6 @@ rr
 ;
 break
 ;
-#
-endif
 default
 :
 {
@@ -60706,6 +60696,9 @@ true
 }
 #
 endif
+/
+/
+ENABLE_WASM_GC
 bool
 BaseCompiler
 :
