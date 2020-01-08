@@ -1125,7 +1125,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-mozAutoDocConditionalContentUpdateBatch
+mozAutoDocUpdate
 autoUpdate
 (
 DocToUpdate

@@ -683,7 +683,7 @@ bug
 209575
 )
 .
-mozAutoDocConditionalContentUpdateBatch
+mozAutoDocUpdate
 autoUpdate
 (
 DocToUpdate
@@ -1354,7 +1354,7 @@ bug
 209575
 )
 .
-mozAutoDocConditionalContentUpdateBatch
+mozAutoDocUpdate
 autoUpdate
 (
 DocToUpdate
@@ -1714,7 +1714,7 @@ bug
 209575
 )
 .
-mozAutoDocConditionalContentUpdateBatch
+mozAutoDocUpdate
 autoUpdate
 (
 DocToUpdate
@@ -1862,7 +1862,7 @@ bug
 209575
 )
 .
-mozAutoDocConditionalContentUpdateBatch
+mozAutoDocUpdate
 autoUpdate
 (
 DocToUpdate
