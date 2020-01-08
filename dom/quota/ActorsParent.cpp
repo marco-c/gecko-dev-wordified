@@ -19061,9 +19061,15 @@ aDirectory
 MOZ_ASSERT
 (
 aTimestamp
+!
+=
+nullptr
 |
 |
 aPersisted
+!
+=
+nullptr
 )
 ;
 MOZ_ASSERT
@@ -19143,6 +19149,9 @@ persisted
 if
 (
 aPersisted
+!
+=
+nullptr
 )
 {
 rv
@@ -19175,6 +19184,9 @@ rv
 if
 (
 aTimestamp
+!
+=
+nullptr
 )
 {
 *
@@ -19186,6 +19198,9 @@ timestamp
 if
 (
 aPersisted
+!
+=
+nullptr
 )
 {
 *
