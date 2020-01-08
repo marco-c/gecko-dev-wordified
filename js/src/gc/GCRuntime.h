@@ -3858,7 +3858,7 @@ drainMarkStack
 template
 <
 class
-CompartmentIterT
+ZoneIterT
 >
 void
 markWeakReferences
@@ -3884,8 +3884,6 @@ template
 <
 class
 ZoneIterT
-class
-CompartmentIterT
 >
 void
 markGrayReferences

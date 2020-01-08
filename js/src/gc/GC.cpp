@@ -28996,8 +28996,6 @@ template
 <
 class
 ZoneIterT
-class
-CompartmentIterT
 >
 void
 GCRuntime
@@ -29113,7 +29111,6 @@ phase
 markGrayReferences
 <
 SweepGroupZonesIter
-SweepGroupCompartmentsIter
 >
 (
 phase
@@ -29158,7 +29155,6 @@ phase
 markGrayReferences
 <
 GCZonesIter
-GCCompartmentsIter
 >
 (
 phase
