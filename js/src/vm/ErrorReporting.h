@@ -727,6 +727,9 @@ va_list
 args
 )
 ;
+class
+GlobalObject
+;
 /
 *
 *
@@ -752,7 +755,7 @@ be
 in
 any
 particular
-compartment
+realm
 but
 the
 global
@@ -779,7 +782,14 @@ cx
 JS
 :
 :
-HandleObject
+Handle
+<
+js
+:
+:
+GlobalObject
+*
+>
 global
 JS
 :

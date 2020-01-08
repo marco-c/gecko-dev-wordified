@@ -2029,7 +2029,7 @@ JS
 :
 :
 HandleObject
-scope
+global
 Closure
 &
 closure

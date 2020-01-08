@@ -8710,7 +8710,7 @@ JSContext
 *
 cx
 HandleObject
-scope
+global
 ScriptEnvironmentPreparer
 :
 :
@@ -8726,6 +8726,19 @@ cx
 -
 >
 isExceptionPending
+(
+)
+)
+;
+MOZ_ASSERT
+(
+global
+-
+>
+is
+<
+GlobalObject
+>
 (
 )
 )
@@ -8765,7 +8778,7 @@ scriptEnvironmentPreparer
 >
 invoke
 (
-scope
+global
 closure
 )
 ;
