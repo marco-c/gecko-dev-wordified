@@ -21375,12 +21375,6 @@ defined
 (
 MOZ_CODE_COVERAGE
 )
-&
-&
-defined
-(
-XP_WIN
-)
 gShutdownChecks
 =
 SCM_NOTHING
@@ -21396,9 +21390,6 @@ endif
 /
 /
 MOZ_CODE_COVERAGE
-&
-&
-XP_WIN
 #
 else
 const
