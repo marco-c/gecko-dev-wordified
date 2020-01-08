@@ -251,7 +251,7 @@ docu
 '
 .
 await
-jstermSetValueAndComplete
+setInputValueForAutocompletion
 (
 jsterm
 "

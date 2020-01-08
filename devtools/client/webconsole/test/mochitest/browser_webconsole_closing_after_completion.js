@@ -180,7 +180,7 @@ a
 completion
 .
 await
-jstermSetValueAndComplete
+setInputValueForAutocompletion
 (
 hud
 .
