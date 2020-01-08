@@ -348,12 +348,4 @@ api
 "
 %
 BRANCH
-    
-"
-key_alias
-"
-:
-"
-release
-"
 }
