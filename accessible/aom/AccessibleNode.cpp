@@ -261,6 +261,7 @@ sPrefCacheValue
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 AccessibleNode
+mRelationProperties
 mIntl
 mDOMNode
 mStates
