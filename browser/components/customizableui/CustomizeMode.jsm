@@ -7482,13 +7482,13 @@ on
 hardcoded
 toolbars
 .
-document
+Services
+.
+xulStore
 .
 persist
 (
 toolbar
-.
-id
 "
 currentset
 "

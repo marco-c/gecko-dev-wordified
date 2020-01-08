@@ -39512,13 +39512,13 @@ if
 persist
 )
 {
-document
+Services
+.
+xulStore
 .
 persist
 (
 toolbar
-.
-id
 hidingAttribute
 )
 ;
