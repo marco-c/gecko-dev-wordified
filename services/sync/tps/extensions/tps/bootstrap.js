@@ -432,8 +432,10 @@ uristr
 =
 null
 )
+{
 return
 ;
+}
 let
 phase
 =
@@ -454,6 +456,7 @@ phase
 =
 null
 )
+{
 throw
 Error
 (
@@ -470,6 +473,7 @@ tps
 "
 )
 ;
+}
 let
 logfile
 =
@@ -490,11 +494,13 @@ logfile
 =
 null
 )
+{
 logfile
 =
 "
 "
 ;
+}
 options
 .
 ignoreUnusedEngines

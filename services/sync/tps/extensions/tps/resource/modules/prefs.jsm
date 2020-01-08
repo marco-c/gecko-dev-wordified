@@ -317,6 +317,7 @@ if
 !
 syncPref
 )
+{
 Services
 .
 prefs
@@ -327,6 +328,7 @@ weavepref
 true
 )
 ;
+}
 }
 catch
 (

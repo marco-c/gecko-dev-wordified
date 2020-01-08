@@ -428,6 +428,7 @@ prop
 in
 this
 )
+{
 this
 [
 prop
@@ -438,6 +439,7 @@ props
 prop
 ]
 ;
+}
 }
 }
 /
@@ -498,6 +500,7 @@ props
 .
 changes
 )
+{
 if
 (
 prop
@@ -506,6 +509,7 @@ this
 .
 updateProps
 )
+{
 this
 .
 updateProps
@@ -520,6 +524,8 @@ changes
 prop
 ]
 ;
+}
+}
 }
 else
 {

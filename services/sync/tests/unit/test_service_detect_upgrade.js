@@ -1070,6 +1070,7 @@ if
 (
 should_succeed
 )
+{
 Assert
 .
 equal
@@ -1088,7 +1089,9 @@ localDefault
 )
 )
 ;
+}
 else
+{
 Assert
 .
 notEqual
@@ -1107,6 +1110,7 @@ localDefault
 )
 )
 ;
+}
 }
 /
 /

@@ -6476,12 +6476,14 @@ if
 !
 headers
 )
+{
 headers
 =
 this
 .
 defaultHeaders
 ;
+}
 for
 (
 let

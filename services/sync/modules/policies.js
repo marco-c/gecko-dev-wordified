@@ -4003,8 +4003,10 @@ this
 .
 numClientsLastSync
 )
+{
 return
 ;
+}
 this
 .
 _log
@@ -5397,6 +5399,7 @@ this
 .
 syncTimer
 )
+{
 this
 .
 syncTimer
@@ -5405,6 +5408,7 @@ clear
 (
 )
 ;
+}
 }
 }
 ;

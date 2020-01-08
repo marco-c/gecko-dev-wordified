@@ -3661,12 +3661,14 @@ last_item_pos
 -
 1
 )
+{
 bookmark
 .
 last_item_pos
 =
 last_item_pos
 ;
+}
 let
 itemGuid
 =
@@ -3685,6 +3687,7 @@ action
 =
 ACTION_DELETE
 )
+{
 Logger
 .
 logInfo
@@ -3713,6 +3716,7 @@ bookmark
 )
 )
 ;
+}
 if
 (
 "
@@ -3721,6 +3725,7 @@ uri
 in
 bookmark
 )
+{
 placesItem
 =
 new
@@ -3729,6 +3734,7 @@ Bookmark
 bookmark
 )
 ;
+}
 else
 if
 (
@@ -3738,6 +3744,7 @@ folder
 in
 bookmark
 )
+{
 placesItem
 =
 new
@@ -3746,6 +3753,7 @@ BookmarkFolder
 bookmark
 )
 ;
+}
 else
 if
 (
@@ -3755,6 +3763,7 @@ livemark
 in
 bookmark
 )
+{
 placesItem
 =
 new
@@ -3763,6 +3772,7 @@ Livemark
 bookmark
 )
 ;
+}
 else
 if
 (
@@ -3772,6 +3782,7 @@ separator
 in
 bookmark
 )
+{
 placesItem
 =
 new
@@ -3780,6 +3791,7 @@ Separator
 bookmark
 )
 ;
+}
 if
 (
 action
@@ -3959,6 +3971,7 @@ updateProps
 =
 null
 )
+{
 await
 item
 .
@@ -3966,6 +3979,7 @@ Update
 (
 )
 ;
+}
 break
 ;
 }
@@ -5916,8 +5930,10 @@ this
 .
 _operations_pending
 )
+{
 return
 ;
+}
 this
 .
 _currentAction

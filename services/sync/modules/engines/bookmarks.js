@@ -833,6 +833,7 @@ this
 .
 deleted
 )
+{
 this
 .
 __proto__
@@ -848,6 +849,7 @@ type
 .
 prototype
 ;
+}
 return
 clear
 ;
@@ -3828,6 +3830,7 @@ parentName
 =
 null
 )
+{
 guidMap
 [
 parentName
@@ -3836,6 +3839,7 @@ parentName
 {
 }
 ;
+}
 /
 /
 If
@@ -6928,9 +6932,11 @@ type
 folder
 "
 )
+{
 return
 FOLDER_SORTINDEX
 ;
+}
 /
 /
 For
@@ -6967,11 +6973,13 @@ parentid
 toolbar
 "
 )
+{
 index
 +
 =
 150
 ;
+}
 /
 /
 Add
@@ -7019,11 +7027,13 @@ frecency
 -
 1
 )
+{
 index
 +
 =
 frecency
 ;
+}
 }
 return
 index
@@ -9657,6 +9667,7 @@ property
 )
 )
 )
+{
 /
 /
 Ignore
@@ -9671,6 +9682,7 @@ sync
 .
 return
 ;
+}
 /
 /
 Ignore
@@ -9690,8 +9702,10 @@ property
 favicon
 "
 )
+{
 return
 ;
+}
 this
 .
 _log
