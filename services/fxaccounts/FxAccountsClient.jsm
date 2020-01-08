@@ -2818,14 +2818,6 @@ options
 pushAuthKey
 ;
 }
-body
-.
-capabilities
-=
-options
-.
-capabilities
-;
 return
 this
 .
