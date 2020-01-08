@@ -505,7 +505,6 @@ responseType
 !
 =
 "
-text
 "
 )
 {
