@@ -22390,11 +22390,7 @@ mEnableHighAccuracy
 =
 highAccuracy
 ;
-int32_t
-retval
-=
-1
-;
+return
 geo
 -
 >
@@ -22409,12 +22405,7 @@ move
 (
 options
 )
-&
-retval
 )
-;
-return
-retval
 ;
 }
 mozilla
