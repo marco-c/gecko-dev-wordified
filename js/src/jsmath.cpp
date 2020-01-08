@@ -3051,6 +3051,12 @@ y
 {
 AutoUnsafeCallWithABI
 unsafe
+(
+UnsafeABIStrictness
+:
+:
+AllowPendingExceptions
+)
 ;
 /
 *
