@@ -835,9 +835,6 @@ join
 (
 '
 "
-CSSPropFlags
-:
-:
 {
 }
 "

@@ -105,9 +105,6 @@ prop
         
 if
 "
-CSSPropFlags
-:
-:
 Internal
 "
 in
