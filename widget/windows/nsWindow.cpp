@@ -28485,7 +28485,7 @@ ToComplexClipRegion
 (
 RoundedRect
 (
-ThebesRect
+IntRectToRect
 (
 mWindowButtonsRect
 -

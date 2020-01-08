@@ -2893,13 +2893,10 @@ ToComplexClipRegion
 (
 RoundedRect
 (
-ThebesRect
-(
 mPathRect
 .
 ToUnknownRect
 (
-)
 )
 RectCornerRadii
 (
