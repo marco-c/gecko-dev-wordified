@@ -3,6 +3,14 @@ config
 {
     
 "
+platform
+"
+:
+"
+win32
+"
+    
+"
 app_name
 "
 :
@@ -134,6 +142,22 @@ l10n
 "
     
 "
+locales_file
+"
+:
+"
+src
+/
+browser
+/
+locales
+/
+all
+-
+locales
+"
+    
+"
 locales_dir
 "
 :
@@ -153,6 +177,16 @@ default
     
 #
 MAR
+    
+"
+application_ini
+"
+:
+"
+application
+.
+ini
+"
     
 "
 local_mar_tool_dir

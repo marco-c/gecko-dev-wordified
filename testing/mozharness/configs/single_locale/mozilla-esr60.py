@@ -15,7 +15,9 @@ branch
 "
 :
 "
-jamun
+mozilla
+-
+esr60
 "
     
 "
@@ -27,13 +29,17 @@ http
 :
 /
 /
-archive
+ftp
 .
 mozilla
 .
 org
 /
 pub
+/
+mozilla
+.
+org
 /
 firefox
 /
@@ -43,7 +49,8 @@ latest
 -
 mozilla
 -
-central
+esr60
+/
 "
     
 "
@@ -51,9 +58,7 @@ update_channel
 "
 :
 "
-nightly
--
-jamun
+esr
 "
     
 #
@@ -81,12 +86,6 @@ central
     
 #
 mar
--
-passed
-in
-environ
-from
-taskcluster
     
 "
 mar_tools_url
