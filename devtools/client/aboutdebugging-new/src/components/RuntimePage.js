@@ -147,8 +147,6 @@ article
 className
 :
 "
-runtime
--
 page
 "
 }
