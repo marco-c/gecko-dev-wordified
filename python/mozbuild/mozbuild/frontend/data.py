@@ -1129,7 +1129,7 @@ items
 (
 )
 class
-XPIDLFile
+XPIDLModule
 (
 ContextDerived
 )
@@ -1141,7 +1141,7 @@ ContextDerived
 Describes
 an
 XPIDL
-file
+module
 to
 be
 compiled
@@ -1155,15 +1155,11 @@ __slots__
 (
         
 '
-source_path
+name
 '
         
 '
-basename
-'
-        
-'
-module
+idl_files
 '
     
 )
@@ -1173,8 +1169,8 @@ __init__
 (
 self
 context
-source
-module
+name
+idl_files
 )
 :
         
@@ -1187,34 +1183,30 @@ context
 )
         
 assert
+all
+(
 isinstance
 (
-source
+idl
 SourcePath
 )
-        
-self
-.
-source_path
-=
-source
-        
-self
-.
-basename
-=
-mozpath
-.
-basename
-(
-source
+for
+idl
+in
+idl_files
 )
         
 self
 .
-module
+name
 =
-module
+name
+        
+self
+.
+idl_files
+=
+idl_files
 class
 BaseDefines
 (
