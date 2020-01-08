@@ -160,8 +160,8 @@ added
 here
 for
 the
-purposes
 *
+purposes
 of
 easy
 comparison
@@ -277,6 +277,7 @@ DECLARE_DISPLAY_ITEM_TYPE
 name
 flags
 )
+\
 case
 DisplayItemType
 :
@@ -286,6 +287,7 @@ TYPE_
 #
 name
 :
+\
 return
 #
 name
