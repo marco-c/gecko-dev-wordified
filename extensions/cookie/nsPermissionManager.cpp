@@ -983,6 +983,14 @@ bug
 "
 cookie
 "
+"
+trackingprotection
+"
+"
+trackingprotection
+-
+pb
+"
 }
 ;
 /
