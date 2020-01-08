@@ -12821,7 +12821,7 @@ cond
 then_block
 /
 /
-IfThenElseEmitter
+IfEmitter
 ifThen
 (
 this
@@ -12870,7 +12870,7 @@ else
 else_block
 /
 /
-IfThenElseEmitter
+IfEmitter
 ifThenElse
 (
 this
@@ -12946,7 +12946,7 @@ else
 b4
 /
 /
-IfThenElseEmitter
+IfEmitter
 ifThenElse
 (
 this
@@ -13068,7 +13068,7 @@ then_expr
 else_expr
 /
 /
-IfThenElseEmitter
+IfEmitter
 condElse
 (
 this
@@ -13123,7 +13123,7 @@ emitEnd
 /
 class
 MOZ_STACK_CLASS
-IfThenElseEmitter
+IfEmitter
 {
 BytecodeEmitter
 *
@@ -13734,7 +13734,7 @@ endif
 public
 :
 explicit
-IfThenElseEmitter
+IfEmitter
 (
 BytecodeEmitter
 *
@@ -13772,7 +13772,7 @@ endif
 {
 }
 ~
-IfThenElseEmitter
+IfEmitter
 (
 )
 {
@@ -15224,7 +15224,7 @@ NE
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifIteratorIsNotClosed
 (
 bce
@@ -15422,7 +15422,7 @@ emitFinally
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifGeneratorClosing
 (
 bce
@@ -34838,7 +34838,7 @@ undefined
 or
 null
 .
-IfThenElseEmitter
+IfEmitter
 ifReturnMethodIsDefined
 (
 this
@@ -37571,7 +37571,7 @@ Spread
 )
 )
 {
-IfThenElseEmitter
+IfEmitter
 ifThenElse
 (
 this
@@ -38040,7 +38040,7 @@ Spread
 )
 )
 ;
-IfThenElseEmitter
+IfEmitter
 ifAlreadyDone
 (
 this
@@ -38393,7 +38393,7 @@ DONE
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifDone
 (
 this
@@ -38763,7 +38763,7 @@ OBJ
 NEXT
 ITER
 DONE
-IfThenElseEmitter
+IfEmitter
 ifDone
 (
 this
@@ -44433,7 +44433,7 @@ ParseNode
 pn
 )
 {
-IfThenElseEmitter
+IfEmitter
 ifThenElse
 (
 this
@@ -45789,7 +45789,7 @@ ITERFN
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifAsyncIterIsUndefined
 (
 this
@@ -48158,7 +48158,7 @@ DONE
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifDone
 (
 this
@@ -56379,7 +56379,7 @@ EQL
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifThrowMethodIsNotDefined
 (
 this
@@ -56858,7 +56858,7 @@ from
 the
 generator
 .
-IfThenElseEmitter
+IfEmitter
 ifGeneratorClosing
 (
 this
@@ -57005,7 +57005,7 @@ undefined
 or
 null
 .
-IfThenElseEmitter
+IfEmitter
 ifReturnMethodIsDefined
 (
 this
@@ -57275,7 +57275,7 @@ not
 continuing
 yielding
 .
-IfThenElseEmitter
+IfEmitter
 ifReturnDone
 (
 this
@@ -62102,7 +62102,7 @@ args
 pn_kid
 )
 ;
-IfThenElseEmitter
+IfEmitter
 ifNotOptimizable
 (
 this
@@ -63614,7 +63614,7 @@ condition
 return
 false
 ;
-IfThenElseEmitter
+IfEmitter
 ifThenElse
 (
 this
@@ -69054,7 +69054,7 @@ if
 heritageExpression
 )
 {
-IfThenElseEmitter
+IfEmitter
 ifThenElse
 (
 this
