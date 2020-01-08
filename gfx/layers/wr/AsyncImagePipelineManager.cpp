@@ -2018,6 +2018,15 @@ opacity
 .
 0f
 ;
+Maybe
+<
+wr
+:
+:
+WrClipId
+>
+referenceFrameId
+=
 builder
 .
 PushStackingContext
@@ -2323,6 +2332,11 @@ builder
 .
 PopStackingContext
 (
+referenceFrameId
+.
+isSome
+(
+)
 )
 ;
 wr
