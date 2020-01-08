@@ -1120,12 +1120,13 @@ openNewBrowserWindow
 let
 tab
 =
-newWin
-.
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+newWin
+.
+gBrowser
 URL
 )
 ;

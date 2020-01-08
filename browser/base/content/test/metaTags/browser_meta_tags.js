@@ -364,10 +364,11 @@ timers
 being
 throttled
 .
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 /

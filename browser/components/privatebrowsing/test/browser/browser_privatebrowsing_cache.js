@@ -378,12 +378,13 @@ loaded
 let
 tab
 =
-win
-.
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+win
+.
+gBrowser
 "
 http
 :
