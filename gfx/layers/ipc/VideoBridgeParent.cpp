@@ -343,6 +343,16 @@ Nothing
 )
 )
 ;
+if
+(
+!
+parent
+)
+{
+return
+nullptr
+;
+}
 mTextureMap
 [
 aSerial
