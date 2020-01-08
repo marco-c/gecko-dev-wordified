@@ -928,6 +928,14 @@ attributeList
 )
 ;
 void
+LoadRtcpFb
+(
+RustAttributeList
+*
+attributeList
+)
+;
+void
 LoadImageattr
 (
 RustAttributeList
