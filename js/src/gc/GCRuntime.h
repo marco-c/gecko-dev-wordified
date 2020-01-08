@@ -3568,11 +3568,6 @@ status
 )
 ;
 void
-changeToNonIncrementalGC
-(
-)
-;
-void
 pushZealSelectedObjects
 (
 )
