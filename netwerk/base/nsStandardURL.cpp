@@ -271,6 +271,15 @@ MozURL_ffi
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextUtils
+.
+h
+"
 /
 /
 /
@@ -3252,7 +3261,7 @@ base
 10
 &
 &
-isdigit
+IsAsciiDigit
 (
 c
 )
@@ -3290,7 +3299,7 @@ base
 16
 &
 &
-isxdigit
+IsAsciiHexDigit
 (
 c
 )
@@ -3299,7 +3308,7 @@ c
 ;
 if
 (
-isdigit
+IsAsciiDigit
 (
 c
 )
