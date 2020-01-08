@@ -150,6 +150,12 @@ that
 #
 mistake
 .
+#
+flake8
+:
+noqa
+:
+F821
 gdb
 .
 execute

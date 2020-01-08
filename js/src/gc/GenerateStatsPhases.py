@@ -54,6 +54,12 @@ MPL
 /
 .
 #
+flake8
+:
+noqa
+:
+F821
+#
 Generate
 graph
 structures
@@ -388,8 +394,6 @@ E
 +
 import
 re
-import
-sys
 import
 collections
 class
@@ -1403,6 +1407,12 @@ UnmarkGrayPhaseKind
 ]
 )
 ]
+def
+findAllPhaseKinds
+(
+)
+:
+    
 #
 Make
 a
@@ -1417,6 +1427,7 @@ performing
 a
 depth
 first
+    
 #
 search
 on
@@ -1433,17 +1444,13 @@ will
 be
 used
 to
+    
 #
 generate
 the
 PhaseKind
 enum
 .
-def
-findAllPhaseKinds
-(
-)
-:
     
 phases
 =
@@ -1516,6 +1523,10 @@ AllPhaseKinds
 findAllPhaseKinds
 (
 )
+class
+Phase
+:
+    
 #
 Expand
 the
@@ -1529,13 +1540,11 @@ which
 have
 more
 than
+    
 #
 one
 parent
 .
-class
-Phase
-:
     
 def
 __init__
@@ -2450,6 +2459,10 @@ s
 n
 "
 %
+#
+NOQA
+:
+E501
                   
 (
 name

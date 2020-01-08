@@ -463,6 +463,10 @@ NFKD
 }
 }
 '
+#
+NOQA
+:
+E501
                     
 outf
 .
@@ -789,6 +793,7 @@ input
 py
 PATH_TO_MOZILLA_CENTRAL
 "
+              
 file
 =
 sys

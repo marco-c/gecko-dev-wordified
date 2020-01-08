@@ -84,12 +84,6 @@ import
 subprocess
 import
 sys
-import
-traceback
-from
-threading
-import
-Thread
 #
 From
 this
@@ -102,6 +96,16 @@ taskpool
 import
 TaskPool
 get_cpu_count
+def
+_relpath
+(
+path
+start
+=
+None
+)
+:
+    
 #
 Backported
 from
@@ -112,15 +116,6 @@ Python
 posixpath
 .
 py
-def
-_relpath
-(
-path
-start
-=
-None
-)
-:
     
 "
 "
@@ -1454,6 +1449,7 @@ path
 join
 (
 testlibdir
+                                                                                
 '
 catcher
 .
@@ -2452,6 +2448,9 @@ the
 output
 of
 failed
+'
+                  
+'
 tests
 to
 [

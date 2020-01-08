@@ -451,6 +451,9 @@ or
 "
 )
 used
+'
+                    
+'
 by
 buildbot
 to
@@ -469,6 +472,9 @@ The
 platform
 can
 be
+'
+                    
+'
 used
 to
 specify
@@ -922,6 +928,9 @@ variant
 '
 s
 default
+"
+                    
+"
 set
 "
 )
@@ -4091,12 +4100,12 @@ configure
 '
 )
 +
-                     
 '
 '
 +
 CONFIGURE_ARGS
 ]
+                    
 check
 =
 True
@@ -5360,6 +5369,10 @@ value
 *
 )
 '
+#
+NOQA
+:
+E501
                              
 line
 .

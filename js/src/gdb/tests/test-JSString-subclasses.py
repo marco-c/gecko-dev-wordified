@@ -1,4 +1,10 @@
 #
+flake8
+:
+noqa
+:
+F821
+#
 We
 can
 print

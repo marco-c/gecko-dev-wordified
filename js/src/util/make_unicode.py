@@ -240,7 +240,6 @@ from
 itertools
 import
 chain
-groupby
 tee
 from
 operator
@@ -6579,6 +6578,10 @@ index
 )
 '
 )
+#
+NOQA
+:
+E501
         
 println
 (
@@ -6675,6 +6678,7 @@ index
 {
 }
 '
+                        
 .
 format
 (
@@ -6682,7 +6686,7 @@ hexlit
 (
 ch
 )
-                                                                          
+                                
 codepoint_table
 .
 name
@@ -9010,6 +9014,7 @@ map
 codepoint_table
 .
 name
+                                                                      
 args
 )
 )
@@ -9128,6 +9133,8 @@ h
 if
 you
 need
+    
+#
 to
 change
 this
@@ -10143,21 +10150,21 @@ X
 {
 }
 '
+                    
 .
 format
 (
 from_code
-                                                                                             
+                            
 to_code
-                                                                                             
+                            
 codepoint_table
 .
 name
 (
-                                                                                                 
 from_code
 )
-                                                                                             
+                            
 codepoint_table
 .
 name
@@ -12618,6 +12625,7 @@ MAX_BMP
 +
 1
 )
+                                  
 if
 casefolds_to_ascii
 (
@@ -13101,16 +13109,19 @@ UnicodeData
 .
 txt
 '
+                          
 '
 CaseFolding
 .
 txt
 '
+                          
 '
 DerivedCoreProperties
 .
 txt
 '
+                          
 '
 SpecialCasing
 .
@@ -13250,6 +13261,7 @@ UnicodeData
 txt
 '
 )
+                 
 '
 r
 '
@@ -13282,6 +13294,7 @@ CaseFolding
 txt
 '
 )
+                    
 '
 r
 '
@@ -13314,6 +13327,7 @@ DerivedCoreProperties
 txt
 '
 )
+                    
 '
 r
 '
@@ -13346,6 +13360,7 @@ SpecialCasing
 txt
 '
 )
+                    
 '
 r
 '

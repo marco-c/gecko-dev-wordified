@@ -1,3 +1,9 @@
+#
+flake8
+:
+noqa
+:
+F821
 import
 fcntl
 import
@@ -11,6 +17,13 @@ subprocess
 import
 Popen
 PIPE
+class
+TaskPool
+(
+object
+)
+:
+    
 #
 Run
 a
@@ -28,6 +41,7 @@ certain
 number
 going
 in
+    
 #
 parallel
 at
@@ -39,7 +53,9 @@ Enforce
 time
 limits
 .
+    
 #
+    
 #
 This
 is
@@ -58,7 +74,9 @@ Unix
 -
 specific
 .
+    
 #
+    
 #
 We
 assume
@@ -76,6 +94,7 @@ it
 s
 safe
 to
+    
 #
 wait
 for
@@ -93,6 +112,7 @@ that
 closes
 its
 standard
+    
 #
 output
 and
@@ -109,6 +129,7 @@ as
 it
 takes
 special
+    
 #
 effort
 to
@@ -124,17 +145,12 @@ unlikely
 to
 be
 a
+    
 #
 problem
 in
 practice
 .
-class
-TaskPool
-(
-object
-)
-:
     
 #
 A
@@ -568,7 +584,7 @@ self
 next_pending
 :
                     
-t
+task
 =
 self
 .
@@ -578,7 +594,7 @@ p
 =
 Popen
 (
-t
+task
 .
 cmd
 (
@@ -694,7 +710,7 @@ os
 O_NONBLOCK
 )
                     
-t
+task
 .
 start
 (
@@ -714,7 +730,7 @@ running
 .
 add
 (
-t
+task
 )
                     
 self
@@ -859,6 +875,7 @@ stdouts_and_stderrs
 ]
 [
 ]
+                                                 
 secs_to_next_deadline
 )
                 

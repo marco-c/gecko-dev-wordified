@@ -27,7 +27,6 @@ mozilla
 prettyprinters
 import
 pretty_printer
-ptr_pretty_printer
 #
 Forget
 any
@@ -832,6 +831,13 @@ self
 :
 raise
 NotImplementedError
+class
+Punbox
+(
+Box
+)
+:
+    
 #
 Packed
 non
@@ -852,6 +858,7 @@ would
 be
 nice
 to
+    
 #
 simply
 call
@@ -870,6 +877,7 @@ likely
 to
 see
 many
+    
 #
 Values
 and
@@ -886,12 +894,6 @@ a
 bad
 idea
 .
-class
-Punbox
-(
-Box
-)
-:
     
 FULL_WIDTH
 =
@@ -1123,6 +1125,13 @@ Nunbox
 .
 PAYLOAD_MASK
 )
+class
+JSValueTypeCache
+(
+object
+)
+:
+    
 #
 Cache
 information
@@ -1134,12 +1143,6 @@ for
 this
 objfile
 .
-class
-JSValueTypeCache
-(
-object
-)
-:
     
 def
 __init__
@@ -1387,6 +1390,7 @@ enable_bigint
 True
         
 except
+Exception
 :
             
 pass

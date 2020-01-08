@@ -24,7 +24,6 @@ mozilla
 .
 prettyprinters
 import
-pretty_printer
 template_pretty_printer
 #
 Forget
@@ -45,6 +44,13 @@ clear_module_printers
 (
 __name__
 )
+class
+Common
+(
+object
+)
+:
+    
 #
 Common
 base
@@ -60,6 +66,7 @@ printers
 .
 All
 these
+    
 #
 templates
 have
@@ -76,6 +83,7 @@ to
 it
 )
 so
+    
 #
 there
 '
@@ -85,12 +93,6 @@ much
 to
 it
 .
-class
-Common
-(
-object
-)
-:
     
 #
 The
@@ -705,6 +707,13 @@ member
 '
 value
 '
+def
+deref
+(
+root
+)
+:
+    
 #
 Return
 the
@@ -716,12 +725,6 @@ Rooted
 or
 Handle
 .
-def
-deref
-(
-root
-)
-:
     
 tag
 =

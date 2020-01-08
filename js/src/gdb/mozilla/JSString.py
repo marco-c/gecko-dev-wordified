@@ -17,7 +17,6 @@ mozilla
 .
 prettyprinters
 import
-pretty_printer
 ptr_pretty_printer
 try
 :
@@ -80,6 +79,13 @@ clear_module_printers
 (
 __name__
 )
+class
+JSStringTypeCache
+(
+object
+)
+:
+    
 #
 Cache
 information
@@ -91,12 +97,6 @@ for
 this
 objfile
 .
-class
-JSStringTypeCache
-(
-object
-)
-:
     
 def
 __init__

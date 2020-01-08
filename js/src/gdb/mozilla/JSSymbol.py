@@ -7,8 +7,6 @@ SpiderMonkey
 symbols
 .
 import
-gdb
-import
 mozilla
 .
 prettyprinters

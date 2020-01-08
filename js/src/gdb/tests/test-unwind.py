@@ -7,6 +7,12 @@ the
 frame
 filter
 .
+#
+flake8
+:
+NOQA
+:
+F821
 import
 platform
 def
@@ -422,17 +428,17 @@ import
 gdb
 .
 unwinder
-        
-import
-gdb
-.
-frames
+#
+NOQA
+:
+F401
         
 do_unwinder_test
 (
 )
     
 except
+Exception
 :
         
 pass

@@ -152,11 +152,6 @@ atLineStart
 =
 True
         
-self
-.
-counters_fmt
-=
-fmt
 #
 [
 {
@@ -172,8 +167,6 @@ to
 lay
 out
 each
-        
-#
 field
 in
 the
@@ -183,9 +176,10 @@ map
         
 self
 .
-limit
+counters_fmt
 =
-limit
+fmt
+        
 #
 int
 :
@@ -200,6 +194,20 @@ to
 100
 %
 .
+        
+self
+.
+limit
+=
+limit
+        
+#
+int
+:
+max
+digits
+in
+limit
         
 self
 .
@@ -221,13 +229,14 @@ limit
 )
 )
 )
+        
 #
-int
+datetime
 :
-max
-digits
-in
-limit
+The
+start
+time
+.
         
 self
 .
@@ -238,13 +247,6 @@ datetime
 now
 (
 )
-#
-datetime
-:
-The
-start
-time
-.
         
 #
 Compute
@@ -285,12 +287,6 @@ self
 .
 limit_digits
             
-self
-.
-counters_width
-+
-=
-1
 #
 |
 (
@@ -303,6 +299,13 @@ the
 last
 one
 )
+            
+self
+.
+counters_width
++
+=
+1
         
 self
 .
@@ -927,6 +930,10 @@ try
             
 import
 android
+#
+NOQA
+:
+F401
             
 return
 False

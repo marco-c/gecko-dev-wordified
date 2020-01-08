@@ -2064,6 +2064,7 @@ println
 variantMappings
 redundantMappings
 extlangMappings
+                          
 description
 fileDate
 url
@@ -2413,7 +2414,7 @@ tag
 .
 format
 (
-key
+subtag
 )
             
 yield
@@ -2833,6 +2834,7 @@ variants
 .
 format
 (
+                        
 subtag
 )
 )
@@ -2881,6 +2883,10 @@ subtag
 lastVariant
 )
 )
+#
+NOQA
+:
+E501
                 
 lastVariant
 =
@@ -4065,6 +4071,7 @@ newVariants
 .
 format
 (
+                    
 preferred_subtag
 )
 )
@@ -4396,6 +4403,7 @@ tag_lang
 }
 )
 in
+                
 extlangMappings
 .
 items
@@ -6028,6 +6036,7 @@ z0
 .
 match
 )
+                  
 tzdataDir
 .
 listdir
@@ -8024,7 +8033,6 @@ zone
 target
 for
 (
-        
 zone
 target
 )
@@ -8034,6 +8042,7 @@ zoneinfoLinks
 items
 (
 )
+                     
 if
 zone
 not
@@ -9205,13 +9214,13 @@ for
 zone
 target
 )
-         
 in
 ianaLinks
 .
 items
 (
 )
+         
 if
 isICULink
 (
@@ -10064,6 +10073,10 @@ tzcode
 icuzones
 "
 )
+#
+NOQA
+:
+E501
         
 println
 (
@@ -12686,6 +12699,7 @@ Firefox
 .
 format
 (
+                
 randint
 (
 1
@@ -13072,6 +13086,9 @@ subtag
 registry
 .
 txt
+"
+                             
+"
 (
 default
 :
@@ -13454,6 +13471,10 @@ list_one
 .
 xml
 "
+#
+NOQA
+:
+E501
                                  
 type
 =

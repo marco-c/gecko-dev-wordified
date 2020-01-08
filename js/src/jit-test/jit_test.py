@@ -3090,7 +3090,7 @@ in
 fh
 :
                 
-line
+line_exclude
 =
 line
 .
@@ -3100,7 +3100,7 @@ strip
                 
 if
 not
-line
+line_exclude
 .
 startswith
 (
@@ -3111,7 +3111,7 @@ startswith
 and
 len
 (
-line
+line_exclude
 )
 :
                     
@@ -3121,7 +3121,7 @@ exclude
 .
 append
 (
-line
+line_exclude
 )
     
 if

@@ -105,6 +105,12 @@ simple
 as
 possible
 !
+#
+flake8
+:
+noqa
+:
+F821
 import
 os
 import

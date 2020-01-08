@@ -1,7 +1,11 @@
+#
+flake8
+:
+noqa
+:
+F821
 import
 gdb
-import
-os
 import
 re
 import
@@ -280,8 +284,7 @@ re
 .
 MULTILINE
 )
-=
-=
+is
 None
 :
         
@@ -688,6 +691,7 @@ enable_bigint
 =
 True
 except
+Exception
 :
     
 pass

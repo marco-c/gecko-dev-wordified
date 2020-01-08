@@ -19,6 +19,12 @@ types
 and
 templates
 .
+#
+flake8
+:
+noqa
+:
+F821
 import
 mozilla
 .

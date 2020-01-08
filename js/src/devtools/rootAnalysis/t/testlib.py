@@ -266,6 +266,10 @@ options
 .
 format
 (
+#
+NOQA
+:
+E501
             
 source
 =
@@ -509,6 +513,7 @@ dbname
 .
 xdb
 "
+                                          
 pattern
 ]
                                          
@@ -1052,6 +1057,10 @@ at
 "
 line
 )
+#
+NOQA
+:
+E501
             
 if
 m

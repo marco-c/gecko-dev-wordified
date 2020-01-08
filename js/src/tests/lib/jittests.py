@@ -892,12 +892,6 @@ path
 TEST_DIR
 )
         
-self
-.
-jitflags
-=
-[
-]
 #
 jit
 flags
@@ -906,9 +900,11 @@ enable
         
 self
 .
-slow
+jitflags
 =
-False
+[
+]
+        
 #
 True
 means
@@ -921,9 +917,10 @@ running
         
 self
 .
-allow_oom
+slow
 =
 False
+        
 #
 True
 means
@@ -937,15 +934,14 @@ failure
         
 self
 .
-allow_unhandlable_oom
+allow_oom
 =
 False
+        
 #
 True
 means
 CrashAtUnhandlableOOM
-        
-#
 is
 not
 considered
@@ -954,9 +950,10 @@ failure
         
 self
 .
-allow_overrecursed
+allow_unhandlable_oom
 =
 False
+        
 #
 True
 means
@@ -964,8 +961,6 @@ that
 hitting
 recursion
 the
-        
-#
 limits
 is
 not
@@ -976,9 +971,10 @@ failure
         
 self
 .
-valgrind
+allow_overrecursed
 =
 False
+        
 #
 True
 means
@@ -988,9 +984,10 @@ valgrind
         
 self
 .
-tz_pacific
+valgrind
 =
 False
+        
 #
 True
 means
@@ -1003,9 +1000,10 @@ test
         
 self
 .
-test_also_noasmjs
+tz_pacific
 =
 False
+        
 #
 True
 means
@@ -1017,15 +1015,16 @@ asm
 .
 js
         
+self
+.
+test_also_noasmjs
+=
+False
+        
 #
 enabled
 .
         
-self
-.
-test_also_wasm_baseline
-=
-False
 #
 True
 means
@@ -1034,8 +1033,6 @@ with
 and
 and
 without
-        
-#
 wasm
 baseline
 compiler
@@ -1044,10 +1041,10 @@ enabled
         
 self
 .
-other_includes
+test_also_wasm_baseline
 =
-[
-]
+False
+        
 #
 Additional
 files
@@ -1062,10 +1059,11 @@ js
         
 self
 .
-test_also
+other_includes
 =
 [
 ]
+        
 #
 List
 of
@@ -1078,10 +1076,11 @@ with
         
 self
 .
-test_join
+test_also
 =
 [
 ]
+        
 #
 List
 of
@@ -1097,10 +1096,11 @@ variants
         
 self
 .
-expect_error
+test_join
 =
-'
-'
+[
+]
+        
 #
 Errors
 to
@@ -1111,9 +1111,11 @@ passing
         
 self
 .
-expect_status
+expect_error
 =
-0
+'
+'
+        
 #
 Exit
 status
@@ -1124,9 +1126,10 @@ shell
         
 self
 .
-expect_crash
+expect_status
 =
-False
+0
+        
 #
 Exit
 status
@@ -1137,15 +1140,16 @@ output
         
 self
 .
-is_module
+expect_crash
 =
 False
         
 self
 .
-test_reflect_stringify
+is_module
 =
-None
+False
+        
 #
 Reflect
 .
@@ -1153,6 +1157,12 @@ stringify
 implementation
 to
 test
+        
+self
+.
+test_reflect_stringify
+=
+None
         
 #
 Expected
@@ -6523,6 +6533,10 @@ however
         
 import
 android
+#
+NOQA
+:
+F401
         
 return
 True

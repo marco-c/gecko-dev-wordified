@@ -144,11 +144,22 @@ try
     
 import
 my_mozilla_printers
+#
+NOQA
+:
+F401
 except
 ImportError
 :
     
 pass
+def
+register
+(
+objfile
+)
+:
+    
 #
 Register
 our
@@ -160,12 +171,6 @@ with
 objfile
 |
 .
-def
-register
-(
-objfile
-)
-:
     
 lookup
 =

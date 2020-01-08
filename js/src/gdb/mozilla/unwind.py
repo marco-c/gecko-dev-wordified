@@ -273,6 +273,13 @@ JitFrame_Bailout
 JitFrameLayout
 '
 }
+class
+UnwinderTypeCache
+(
+object
+)
+:
+    
 #
 All
 types
@@ -288,6 +295,7 @@ an
 object
 that
 we
+    
 #
 can
 dispose
@@ -295,12 +303,6 @@ of
 as
 needed
 .
-class
-UnwinderTypeCache
-(
-object
-)
-:
     
 def
 __init__
@@ -1515,6 +1517,7 @@ script
 None
         
 if
+(
 tag
 =
 =
@@ -1524,6 +1527,7 @@ cache
 .
 CalleeToken_Function
 or
+            
 tag
 =
 =
@@ -1532,6 +1536,7 @@ self
 cache
 .
 CalleeToken_FunctionConstructing
+)
 :
             
 fptr
@@ -3062,8 +3067,8 @@ if
 self
 .
 proc_mappings
-!
-=
+is
+not
 None
 :
             
@@ -5078,6 +5083,7 @@ SENTINEL_REGISTER
 )
             
 except
+Exception
 :
                 
 #

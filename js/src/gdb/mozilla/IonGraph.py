@@ -62,8 +62,6 @@ gdb
 import
 os
 import
-io
-import
 subprocess
 import
 tempfile
@@ -924,6 +922,8 @@ to
 s
 "
 %
+self
+.
 value
     
 def
@@ -1809,6 +1809,7 @@ stdin
 subprocess
 .
 PIPE
+                             
 stdout
 =
 subprocess
@@ -1918,8 +1919,6 @@ wait
 (
 )
         
-output
-=
 d
 .
 communicate
@@ -2018,8 +2017,6 @@ xdg
 open
 .
         
-v
-=
 subprocess
 .
 Popen

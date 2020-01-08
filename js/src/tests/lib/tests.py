@@ -29,30 +29,13 @@ determine
 failures
 .
 import
-datetime
-import
 os
 import
 sys
-import
-time
 from
 contextlib
 import
 contextmanager
-from
-subprocess
-import
-Popen
-PIPE
-from
-threading
-import
-Thread
-from
-results
-import
-TestOutput
 #
 When
 run
@@ -1166,11 +1149,6 @@ path
 )
 :
         
-self
-.
-path
-=
-path
 #
 str
 :
@@ -1186,10 +1164,10 @@ dir
         
 self
 .
-options
+path
 =
-[
-]
+path
+        
 #
 [
 str
@@ -1205,10 +1183,11 @@ shell
         
 self
 .
-jitflags
+options
 =
 [
 ]
+        
 #
 [
 str
@@ -1224,9 +1203,11 @@ shell
         
 self
 .
-test_reflect_stringify
+jitflags
 =
-None
+[
+]
+        
 #
 str
 or
@@ -1234,8 +1215,6 @@ None
 :
 path
 to
-        
-#
 reflect
 -
 stringify
@@ -1254,9 +1233,10 @@ tests
         
 self
 .
-is_module
+test_reflect_stringify
 =
-False
+None
+        
 #
 bool
 :
@@ -1270,9 +1250,10 @@ code
         
 self
 .
-enable
+is_module
 =
-True
+False
+        
 #
 bool
 :
@@ -1291,9 +1272,10 @@ run
         
 self
 .
-error
+enable
 =
-None
+True
+        
 #
 str
 ?
@@ -1304,9 +1286,10 @@ type
         
 self
 .
-expect
+error
 =
-True
+None
+        
 #
 bool
 :
@@ -1319,9 +1302,10 @@ pass
         
 self
 .
-random
+expect
 =
-False
+True
+        
 #
 bool
 :
@@ -1337,9 +1321,10 @@ random
         
 self
 .
-slow
+random
 =
 False
+        
 #
 bool
 :
@@ -1350,6 +1335,12 @@ test
 may
 run
 slowly
+        
+self
+.
+slow
+=
+False
         
 #
 The

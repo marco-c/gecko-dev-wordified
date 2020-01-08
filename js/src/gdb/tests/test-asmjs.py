@@ -50,6 +50,12 @@ handling
 that
 signal
 .
+#
+flake8
+:
+noqa
+:
+F821
 run_fragment
 (
 '

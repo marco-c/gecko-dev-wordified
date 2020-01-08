@@ -68,6 +68,13 @@ see
 TypeCache
 below
 .
+def
+check_for_reused_pretty_printer
+(
+fn
+)
+:
+    
 #
 Check
 that
@@ -86,6 +93,7 @@ pretty
 printer
 under
 some
+    
 #
 other
 name
@@ -102,6 +110,7 @@ by
 GDB
 '
 s
+    
 #
 '
 enable
@@ -118,6 +127,7 @@ are
 simply
 stored
 as
+    
 #
 properties
 of
@@ -129,6 +139,7 @@ so
 a
 single
 function
+    
 #
 object
 can
@@ -146,12 +157,6 @@ different
 printers
 .
 )
-def
-check_for_reused_pretty_printer
-(
-fn
-)
-:
     
 if
 hasattr

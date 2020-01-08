@@ -25,6 +25,13 @@ mozilla
 prettyprinters
 import
 pretty_printer
+class
+InterpreterTypeCache
+(
+object
+)
+:
+    
 #
 Cache
 information
@@ -36,12 +43,6 @@ for
 this
 objfile
 .
-class
-InterpreterTypeCache
-(
-object
-)
-:
     
 def
 __init__
@@ -399,6 +400,7 @@ tJSOp
 )
         
 except
+Exception
 :
             
 opcode

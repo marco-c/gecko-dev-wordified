@@ -780,8 +780,6 @@ timeout
     
 except
 OverflowError
-as
-e
 :
         
 print

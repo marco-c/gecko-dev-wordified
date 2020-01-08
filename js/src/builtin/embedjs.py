@@ -647,6 +647,10 @@ js
 "
 "
 "
+#
+NOQA
+:
+E501
 def
 embed
 (
