@@ -649,6 +649,14 @@ mDBStatement
 (
 nullptr
 )
+mParamCount
+(
+0
+)
+mResultColumnCount
+(
+0
+)
 mColumnNames
 (
 )
