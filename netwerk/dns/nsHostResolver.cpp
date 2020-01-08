@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsIThreadManager
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -7346,6 +7353,10 @@ getter_AddRefs
 thread
 )
 nullptr
+nsIThreadManager
+:
+:
+kThreadPoolStackSize
 )
 ;
 if
