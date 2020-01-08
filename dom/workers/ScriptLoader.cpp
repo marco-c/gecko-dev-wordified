@@ -6371,7 +6371,7 @@ MOZ_ASSERT
 wcsp
 "
 We
-sould
+should
 have
 a
 CSP
