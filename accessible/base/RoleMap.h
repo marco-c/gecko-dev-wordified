@@ -1399,10 +1399,15 @@ ROLE_SYSTEM_SPINBUTTON
 "
 android
 .
-widget
+view
 .
-EditText
+View
 "
+/
+/
+A
+composite
+widget
 eNameFromValueRule
 )
 ROLE
