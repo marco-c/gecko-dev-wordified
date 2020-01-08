@@ -169,6 +169,8 @@ TabHistoryPage
 historyPageList
 int
 toIndex
+boolean
+isPrivate
 )
 ;
 }
@@ -251,6 +253,16 @@ tab
 getId
 (
 )
+)
+;
+final
+boolean
+isPrivate
+=
+tab
+.
+isPrivate
+(
 )
 ;
 EventDispatcher
@@ -484,6 +496,7 @@ onShowHistory
 (
 historyPageList
 toIndex
+isPrivate
 )
 ;
 }

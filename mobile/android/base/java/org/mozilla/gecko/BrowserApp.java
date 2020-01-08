@@ -5429,6 +5429,9 @@ historyPageList
 final
 int
 toIndex
+final
+boolean
+isPrivate
 )
 {
 runOnUiThread
@@ -5548,6 +5551,7 @@ newInstance
 (
 historyPageList
 toIndex
+isPrivate
 )
 ;
 final

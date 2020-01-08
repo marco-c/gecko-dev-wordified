@@ -326,6 +326,8 @@ boolean
 isFirstElement
 boolean
 isLastElement
+boolean
+isPrivate
 )
 {
 ThreadUtils
@@ -475,6 +477,11 @@ historyPage
 getUrl
 (
 )
+)
+.
+setPrivateMode
+(
+isPrivate
 )
 .
 skipNetwork
