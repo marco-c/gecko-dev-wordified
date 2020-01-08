@@ -497,7 +497,7 @@ u32
 nsCSSUnit
 :
 :
-eCSSUnit_Calc_Divided
+eCSSUnit_Calc_Plus
 as
 u32
 )
