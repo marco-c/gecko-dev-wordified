@@ -10,6 +10,7 @@ re
 lazified
 findScripts
 should
+not
 delazify
 it
 .
@@ -84,7 +85,7 @@ f
 )
 '
 )
-false
+true
 )
 ;
 dbg
@@ -142,6 +143,6 @@ f
 )
 '
 )
-false
+true
 )
 ;
