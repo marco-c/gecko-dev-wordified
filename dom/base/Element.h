@@ -200,7 +200,7 @@ include
 "
 mozilla
 /
-ServoTypes
+RustCell
 .
 h
 "
@@ -479,6 +479,9 @@ nsDocument
 ;
 class
 nsDOMStringMap
+;
+struct
+ServoNodeData
 ;
 namespace
 mozilla
@@ -12338,7 +12341,7 @@ elements
 mozilla
 :
 :
-ServoCell
+RustCell
 <
 ServoNodeData
 *
