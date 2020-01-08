@@ -200,16 +200,6 @@ value
 )
 ;
 }
-makeConstant
-(
-"
-ADDON_SIGNING
-"
-AppConstants
-.
-MOZ_ADDON_SIGNING
-)
-;
 if
 (
 AppConstants

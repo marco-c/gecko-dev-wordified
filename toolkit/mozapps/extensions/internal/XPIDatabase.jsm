@@ -16004,11 +16004,6 @@ signedState
 undefined
 &
 &
-AddonSettings
-.
-ADDON_SIGNING
-&
-&
 SIGNED_TYPES
 .
 has
