@@ -767,10 +767,12 @@ dest
 except
 Exception
 as
-exception
+exc
 :
             
-pass
+exception
+=
+exc
         
 finally
 :
