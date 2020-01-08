@@ -1374,7 +1374,7 @@ OSVR_DisplayConfig
 display
 )
 :
-VRDisplayHost
+VRDisplayLocal
 (
 VRDeviceType
 :
@@ -1397,7 +1397,7 @@ display
 MOZ_COUNT_CTOR_INHERITED
 (
 VRDisplayOSVR
-VRDisplayHost
+VRDisplayLocal
 )
 ;
 VRDisplayState

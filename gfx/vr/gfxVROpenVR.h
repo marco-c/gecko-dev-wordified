@@ -187,7 +187,7 @@ h
 #
 include
 "
-VRDisplayHost
+VRDisplayLocal
 .
 h
 "
@@ -218,7 +218,7 @@ class
 VRDisplayOpenVR
 :
 public
-VRDisplayHost
+VRDisplayLocal
 {
 public
 :
@@ -440,7 +440,7 @@ nullptr
 )
 ;
 bool
-SubmitFrame
+SubmitFrameOpenVRHandle
 (
 void
 *

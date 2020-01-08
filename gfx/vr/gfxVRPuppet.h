@@ -153,7 +153,7 @@ h
 #
 include
 "
-VRDisplayHost
+VRDisplayLocal
 .
 h
 "
@@ -181,7 +181,7 @@ class
 VRDisplayPuppet
 :
 public
-VRDisplayHost
+VRDisplayLocal
 {
 public
 :

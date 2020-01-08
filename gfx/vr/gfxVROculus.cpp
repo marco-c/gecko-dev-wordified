@@ -4109,7 +4109,7 @@ VROculusSession
 aSession
 )
 :
-VRDisplayHost
+VRDisplayLocal
 (
 VRDeviceType
 :
@@ -4156,7 +4156,7 @@ OVR_DEFAULT_EYE_HEIGHT
 MOZ_COUNT_CTOR_INHERITED
 (
 VRDisplayOculus
-VRDisplayHost
+VRDisplayLocal
 )
 ;
 VRDisplayState
@@ -4544,7 +4544,7 @@ Destroy
 MOZ_COUNT_DTOR_INHERITED
 (
 VRDisplayOculus
-VRDisplayHost
+VRDisplayLocal
 )
 ;
 }

@@ -166,7 +166,7 @@ h
 #
 include
 "
-VRDisplayHost
+VRDisplayLocal
 .
 h
 "
@@ -216,7 +216,7 @@ class
 VRDisplayOSVR
 :
 public
-VRDisplayHost
+VRDisplayLocal
 {
 public
 :
@@ -349,7 +349,7 @@ Destroy
 MOZ_COUNT_DTOR_INHERITED
 (
 VRDisplayOSVR
-VRDisplayHost
+VRDisplayLocal
 )
 ;
 }
