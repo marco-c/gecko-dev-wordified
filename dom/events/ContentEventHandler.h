@@ -944,6 +944,10 @@ aEvent
 nsresult
 InitBasic
 (
+bool
+aRequireFlush
+=
+true
 )
 ;
 nsresult
@@ -956,6 +960,10 @@ SelectionType
 :
 :
 eNormal
+bool
+aRequireFlush
+=
+true
 )
 ;
 /
