@@ -2519,11 +2519,6 @@ aObserver
 return
 ;
 }
-nsresult
-rv
-=
-NS_OK
-;
 RefPtr
 <
 imgRequestProxy
@@ -2578,6 +2573,7 @@ correct
 scheduler
 group
 .
+nsresult
 rv
 =
 mCurrentRequest
@@ -2631,6 +2627,7 @@ the
 loading
 document
 .
+nsresult
 rv
 =
 mPendingRequest
