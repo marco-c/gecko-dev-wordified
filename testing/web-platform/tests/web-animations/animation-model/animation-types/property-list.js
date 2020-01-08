@@ -6303,7 +6303,7 @@ options
 manual
 '
 '
-auto
+none
 '
 ]
 ]
