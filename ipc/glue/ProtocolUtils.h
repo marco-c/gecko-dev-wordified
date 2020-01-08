@@ -4649,7 +4649,7 @@ AnnotateSystemError
 ;
 enum
 class
-State
+LivenessState
 {
 Dead
 Null
@@ -4663,14 +4663,14 @@ StateTransition
 (
 bool
 aIsDelete
-State
+LivenessState
 *
 aNext
 )
 ;
 enum
 class
-ReEntrantDeleteState
+ReEntrantDeleteLivenessState
 {
 Dead
 Null
@@ -4687,7 +4687,7 @@ bool
 aIsDelete
 bool
 aIsDeleteReply
-ReEntrantDeleteState
+ReEntrantDeleteLivenessState
 *
 aNext
 )
