@@ -2699,14 +2699,6 @@ description
 -
 container
 {
-margin
--
-inline
--
-start
-:
-6px
-;
 -
 moz
 -
@@ -2720,9 +2712,7 @@ font
 -
 size
 :
-1
-.
-25rem
+1rem
 ;
 }
 .
