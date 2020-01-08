@@ -826,7 +826,7 @@ type
 =
 =
 "
-videoinput
+video
 "
 )
 )
@@ -862,7 +862,7 @@ type
 =
 =
 "
-audioinput
+audio
 "
 )
 )
@@ -932,7 +932,7 @@ type
 =
 =
 "
-videoinput
+video
 "
 )
 :
@@ -957,7 +957,7 @@ type
 =
 =
 "
-audioinput
+audio
 "
 )
 :

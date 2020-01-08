@@ -1193,7 +1193,7 @@ type
 {
 case
 "
-audioinput
+audio
 "
 :
 /
@@ -1292,7 +1292,7 @@ break
 ;
 case
 "
-videoinput
+video
 "
 :
 /
