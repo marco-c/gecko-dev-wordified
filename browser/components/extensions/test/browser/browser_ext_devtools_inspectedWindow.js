@@ -827,6 +827,7 @@ id
 let
 target
 =
+await
 gDevTools
 .
 getTargetForTab
@@ -1251,6 +1252,7 @@ startup
 let
 target
 =
+await
 gDevTools
 .
 getTargetForTab
@@ -2206,6 +2208,7 @@ startup
 const
 target
 =
+await
 gDevTools
 .
 getTargetForTab
