@@ -420,7 +420,7 @@ GC
 /
 /
 /
-JitCompartment
+JitZone
 has
 a
 CacheIRStubInfo
@@ -436,15 +436,16 @@ that
 s
 used
 to
-/
-/
 share
 both
+/
+/
 the
 IR
 and
 JitCode
 between
+Baseline
 CacheIR
 stubs
 .

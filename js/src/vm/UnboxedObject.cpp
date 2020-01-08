@@ -640,12 +640,12 @@ if
 cx
 -
 >
-compartment
+realm
 (
 )
 -
 >
-ensureJitCompartmentExists
+ensureJitRealmExists
 (
 cx
 )

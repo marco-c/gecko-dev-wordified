@@ -178,9 +178,9 @@ bool
 CanUnboxSimdPhi
 (
 const
-JitCompartment
+JitRealm
 *
-jitCompartment
+jitRealm
 MPhi
 *
 phi
@@ -246,7 +246,7 @@ use
 if
 (
 !
-jitCompartment
+jitRealm
 -
 >
 maybeGetSimdTemplateObjectFor
@@ -447,9 +447,9 @@ void
 UnboxSimdPhi
 (
 const
-JitCompartment
+JitRealm
 *
-jitCompartment
+jitRealm
 MIRGraph
 &
 graph
@@ -670,7 +670,7 @@ JSObject
 *
 templateObject
 =
-jitCompartment
+jitRealm
 -
 >
 maybeGetSimdTemplateObjectFor
@@ -879,9 +879,9 @@ graph
 )
 {
 const
-JitCompartment
+JitRealm
 *
-jitCompartment
+jitRealm
 =
 mir
 -
@@ -889,7 +889,7 @@ mir
 compartment
 -
 >
-jitCompartment
+jitRealm
 (
 )
 ;
@@ -1023,7 +1023,7 @@ if
 !
 CanUnboxSimdPhi
 (
-jitCompartment
+jitRealm
 phi
 unbox
 -
@@ -1037,7 +1037,7 @@ continue
 ;
 UnboxSimdPhi
 (
-jitCompartment
+jitRealm
 graph
 phi
 unbox

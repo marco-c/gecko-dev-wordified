@@ -119,7 +119,7 @@ include
 "
 jit
 /
-JitCompartment
+JitRealm
 .
 h
 "

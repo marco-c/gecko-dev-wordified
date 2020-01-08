@@ -2003,7 +2003,7 @@ are
 weak
 references
 the
-JitCompartment
+JitRealm
 is
 using
 /
@@ -2073,7 +2073,7 @@ simdTemplatesToReadBarrier_
 Bit
 mask
 of
-JitCompartment
+JitRealm
 stubs
 that
 are
@@ -2084,7 +2084,7 @@ read
 barriered
 .
 uint32_t
-compartmentStubsToReadBarrier_
+realmStubsToReadBarrier_
 ;
 void
 addSimdTemplateToReadBarrier

@@ -1902,7 +1902,7 @@ Check
 this
 before
 calling
-ensureJitCompartmentExists
+ensureJitRealmExists
 so
 we
 '
@@ -1936,12 +1936,12 @@ if
 cx
 -
 >
-compartment
+realm
 (
 )
 -
 >
-ensureJitCompartmentExists
+ensureJitRealmExists
 (
 cx
 )

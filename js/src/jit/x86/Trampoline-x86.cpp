@@ -140,7 +140,7 @@ include
 "
 jit
 /
-JitCompartment
+JitFrames
 .
 h
 "
@@ -149,7 +149,7 @@ include
 "
 jit
 /
-JitFrames
+JitRealm
 .
 h
 "

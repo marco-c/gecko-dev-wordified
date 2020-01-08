@@ -327,7 +327,7 @@ optimized
 stubs
 .
 Every
-JitCompartment
+JitRealm
 has
 a
 single
