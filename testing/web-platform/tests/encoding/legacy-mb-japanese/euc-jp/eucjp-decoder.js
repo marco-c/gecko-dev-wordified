@@ -163,6 +163,7 @@ split
 ;
 for
 (
+var
 i
 =
 0
@@ -500,6 +501,8 @@ out
 =
 "
 "
+;
+continue
 ;
 }
 if

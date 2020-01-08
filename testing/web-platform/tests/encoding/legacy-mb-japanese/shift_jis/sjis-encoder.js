@@ -385,6 +385,13 @@ endofstream
 =
 2000000
 ;
+var
+temp
+offset
+leadoffset
+first
+second
+;
 while
 (
 !
@@ -531,6 +538,9 @@ cp
 out
 +
 =
+"
+"
++
 temp
 .
 toString
