@@ -19755,7 +19755,7 @@ move
 runnable
 )
 )
-NS_DISPATCH_NORMAL
+NS_DISPATCH_SYNC
 )
 ;
 }
