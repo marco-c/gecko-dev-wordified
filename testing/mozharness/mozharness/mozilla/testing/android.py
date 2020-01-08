@@ -394,6 +394,10 @@ not
 self
 .
 _device
+and
+self
+.
+adb_path
 :
             
 try
@@ -457,7 +461,7 @@ device_serial
 )
             
 except
-Exception
+AttributeError
 :
                 
 #
