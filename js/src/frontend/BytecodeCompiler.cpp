@@ -381,7 +381,7 @@ HandleScope
 enclosingScope
 )
 ;
-ModuleObject
+JSScript
 *
 compileModule
 (
@@ -2387,7 +2387,7 @@ evalsc
 )
 ;
 }
-ModuleObject
+JSScript
 *
 BytecodeCompiler
 :
@@ -2631,7 +2631,7 @@ isExceptionPending
 )
 ;
 return
-module
+script
 ;
 }
 /
@@ -4050,7 +4050,7 @@ return
 script
 ;
 }
-ModuleObject
+JSScript
 *
 frontend
 :
@@ -4179,9 +4179,9 @@ compiler
 sourceObjectOut
 )
 ;
-ModuleObject
+JSScript
 *
-module
+script
 =
 compiler
 .
@@ -4192,7 +4192,7 @@ compileModule
 if
 (
 !
-module
+script
 )
 return
 nullptr
@@ -4204,10 +4204,10 @@ reset
 )
 ;
 return
-module
+script
 ;
 }
-ModuleObject
+JSScript
 *
 frontend
 :
@@ -4263,8 +4263,8 @@ tempLifoAlloc
 (
 )
 ;
-RootedModuleObject
-module
+RootedScript
+script
 (
 cx
 CompileModule
@@ -4279,7 +4279,7 @@ alloc
 if
 (
 !
-module
+script
 )
 return
 nullptr
@@ -4305,6 +4305,18 @@ compiled
 off
 thread
 .
+RootedModuleObject
+module
+(
+cx
+script
+-
+>
+module
+(
+)
+)
+;
 if
 (
 !
@@ -4327,7 +4339,7 @@ reset
 )
 ;
 return
-module
+script
 ;
 }
 /

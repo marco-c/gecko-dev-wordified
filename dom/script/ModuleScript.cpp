@@ -183,7 +183,7 @@ mBaseURL
 tmp
 -
 >
-UnlinkModuleRecord
+UnlinkScript
 (
 )
 ;
@@ -221,7 +221,7 @@ ModuleScript
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_MEMBER_CALLBACK
 (
-mModuleRecord
+mScript
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_MEMBER_CALLBACK
 (
@@ -279,7 +279,7 @@ mBaseURL
 MOZ_ASSERT
 (
 !
-mModuleRecord
+mScript
 )
 ;
 MOZ_ASSERT
@@ -303,7 +303,7 @@ void
 ModuleScript
 :
 :
-UnlinkModuleRecord
+UnlinkScript
 (
 )
 {
@@ -324,7 +324,7 @@ present
 .
 if
 (
-mModuleRecord
+mScript
 )
 {
 MOZ_ASSERT
@@ -334,7 +334,7 @@ JS
 :
 GetModuleHostDefinedField
 (
-mModuleRecord
+mScript
 )
 .
 toPrivate
@@ -350,7 +350,7 @@ JS
 :
 SetModuleHostDefinedField
 (
-mModuleRecord
+mScript
 JS
 :
 :
@@ -359,7 +359,7 @@ UndefinedValue
 )
 )
 ;
-mModuleRecord
+mScript
 =
 nullptr
 ;
@@ -385,7 +385,7 @@ being
 unlinked
 first
 .
-UnlinkModuleRecord
+UnlinkScript
 (
 )
 ;
@@ -399,23 +399,23 @@ void
 ModuleScript
 :
 :
-SetModuleRecord
+SetScript
 (
 JS
 :
 :
 Handle
 <
-JSObject
+JSScript
 *
 >
-aModuleRecord
+aScript
 )
 {
 MOZ_ASSERT
 (
 !
-mModuleRecord
+mScript
 )
 ;
 MOZ_ASSERT
@@ -434,9 +434,9 @@ HasErrorToRethrow
 )
 )
 ;
-mModuleRecord
+mScript
 =
-aModuleRecord
+aScript
 ;
 /
 /
@@ -461,7 +461,7 @@ is
 cleared
 in
 the
-UnlinkModuleRecord
+UnlinkScript
 (
 )
 .
@@ -470,7 +470,7 @@ JS
 :
 SetModuleHostDefinedField
 (
-mModuleRecord
+mScript
 JS
 :
 :
@@ -527,7 +527,7 @@ HasErrorToRethrow
 )
 )
 ;
-UnlinkModuleRecord
+UnlinkScript
 (
 )
 ;
@@ -581,7 +581,7 @@ is
 only
 called
 after
-SetModuleRecord
+SetScript
 (
 )
 or
@@ -605,7 +605,7 @@ here
 .
 MOZ_ASSERT
 (
-mModuleRecord
+mScript
 |
 |
 HasParseError
@@ -628,7 +628,7 @@ SetSourceElementAssociated
 {
 MOZ_ASSERT
 (
-mModuleRecord
+mScript
 )
 ;
 MOZ_ASSERT
