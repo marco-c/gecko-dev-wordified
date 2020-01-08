@@ -550,7 +550,7 @@ version
 Debuggers
 '
 '
-x86
+x64
 '
 '
 windbg
