@@ -161,8 +161,6 @@ sd
 AV1_COMP
 *
 cpi
-LPF_PICK_METHOD
-method
 )
 ;
 #

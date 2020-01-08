@@ -121,7 +121,7 @@ patent
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -133,7 +133,7 @@ RTCD_C
 #
 include
 "
-.
+config
 /
 av1_rtcd
 .

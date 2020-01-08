@@ -145,7 +145,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -154,7 +154,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_version
 .

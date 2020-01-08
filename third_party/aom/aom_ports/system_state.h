@@ -127,7 +127,7 @@ AOM_PORTS_SYSTEM_STATE_H_
 #
 include
 "
-.
+config
 /
 aom_config
 .

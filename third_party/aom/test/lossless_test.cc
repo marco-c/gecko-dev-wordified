@@ -140,7 +140,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_config
 .

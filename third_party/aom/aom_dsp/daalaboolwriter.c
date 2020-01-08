@@ -170,7 +170,7 @@ ec
 )
 ;
 }
-void
+int
 aom_daala_stop_encode
 (
 daala_writer
@@ -178,6 +178,9 @@ daala_writer
 br
 )
 {
+int
+nb_bits
+;
 uint32_t
 daala_bytes
 ;
@@ -197,6 +200,17 @@ br
 ec
 &
 daala_bytes
+)
+;
+nb_bits
+=
+od_ec_enc_tell
+(
+&
+br
+-
+>
+ec
 )
 ;
 memcpy
@@ -224,5 +238,8 @@ br
 >
 ec
 )
+;
+return
+nb_bits
 ;
 }

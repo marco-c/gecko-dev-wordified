@@ -156,7 +156,7 @@ m
 }
 ref
 [
-TOTAL_REFS_PER_FRAME
+REF_FRAMES
 ]
 ;
 }

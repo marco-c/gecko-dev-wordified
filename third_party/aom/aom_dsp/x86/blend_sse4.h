@@ -506,9 +506,6 @@ return
 v_res_w
 ;
 }
-#
-if
-CONFIG_HIGHBITDEPTH
 typedef
 __m128i
 (
@@ -982,11 +979,6 @@ return
 v_res_w
 ;
 }
-#
-endif
-/
-/
-CONFIG_HIGHBITDEPTH
 #
 endif
 /
