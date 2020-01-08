@@ -1165,7 +1165,7 @@ cpowLocation
 =
 Cu
 .
-getCompartmentLocation
+getRealmLocation
 (
 obj
 )
