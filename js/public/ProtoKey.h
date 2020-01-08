@@ -726,13 +726,6 @@ JSEXN_WASMRUNTIMEERROR
 )
 )
 \
-imaginary
-(
-Iterator
-dummy
-dummy
-)
-\
 real
 (
 ArrayBuffer
