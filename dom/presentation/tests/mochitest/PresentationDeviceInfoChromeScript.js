@@ -57,6 +57,18 @@ use
 strict
 "
 ;
+/
+*
+eslint
+-
+env
+mozilla
+/
+frame
+-
+script
+*
+/
 const
 {
 XPCOMUtils
@@ -79,6 +91,8 @@ XPCOMUtils
 .
 jsm
 "
+{
+}
 )
 ;
 const
