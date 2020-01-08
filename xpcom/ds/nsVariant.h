@@ -699,15 +699,6 @@ aValue
 )
 ;
 void
-SetFromDOMString
-(
-const
-nsAString
-&
-aValue
-)
-;
-void
 SetFromAUTF8String
 (
 const

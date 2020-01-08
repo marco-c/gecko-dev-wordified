@@ -3367,15 +3367,6 @@ type
 nsIDataType
 :
 :
-VTYPE_DOMSTRING
-&
-&
-type
-!
-=
-nsIDataType
-:
-:
 VTYPE_CHAR_STR
 &
 &

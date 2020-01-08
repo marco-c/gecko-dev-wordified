@@ -3405,12 +3405,6 @@ case
 nsIDataType
 :
 :
-VTYPE_DOMSTRING
-:
-case
-nsIDataType
-:
-:
 VTYPE_CHAR_STR
 :
 case
@@ -5947,12 +5941,6 @@ nsIDataType
 :
 :
 VTYPE_WCHAR
-:
-case
-nsIDataType
-:
-:
-VTYPE_DOMSTRING
 :
 case
 nsIDataType

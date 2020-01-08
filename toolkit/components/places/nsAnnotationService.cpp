@@ -943,12 +943,6 @@ case
 nsIDataType
 :
 :
-VTYPE_DOMSTRING
-:
-case
-nsIDataType
-:
-:
 VTYPE_CHAR_STR
 :
 case

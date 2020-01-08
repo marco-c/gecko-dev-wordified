@@ -2146,7 +2146,7 @@ rval
 /
 From
 the
-T_DOMSTRING
+T_ASTRING
 case
 in
 XPCConvert

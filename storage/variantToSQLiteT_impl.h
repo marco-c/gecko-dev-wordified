@@ -601,12 +601,6 @@ case
 nsIDataType
 :
 :
-VTYPE_DOMSTRING
-:
-case
-nsIDataType
-:
-:
 VTYPE_WCHAR_STR
 :
 case
