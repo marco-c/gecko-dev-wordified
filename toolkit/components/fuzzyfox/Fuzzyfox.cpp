@@ -2080,7 +2080,15 @@ the
 timestamp
 '
 s
-canonicaltime
+canonicaltimes
+TimeStamp
+:
+:
+UpdateFuzzyTime
+(
+aNewTime
+)
+;
 TimeStamp
 :
 :
