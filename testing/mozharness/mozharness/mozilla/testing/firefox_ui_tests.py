@@ -1204,6 +1204,14 @@ wptserve
 '
                         
 '
+tools
+/
+wpt_third_party
+/
+*
+'
+                        
+'
 mozpack
 /
 *
