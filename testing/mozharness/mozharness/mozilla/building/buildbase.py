@@ -149,9 +149,12 @@ base
 .
 config
 import
+(
+    
 BaseConfig
 parse_config_file
 DEFAULT_CONFIG_PATH
+)
 from
 mozharness
 .
@@ -194,8 +197,6 @@ AutomationMixin
 EXIT_STATUS_DICT
     
 TBPL_STATUS_DICT
-    
-TBPL_EXCEPTION
     
 TBPL_FAILURE
     
@@ -357,8 +358,6 @@ run_tooltool
 .
 '
 }
-#
-#
 #
 Output
 Parsers
@@ -1980,7 +1979,6 @@ custom
 config
         
 #
-#
         
 #
 #
@@ -2048,14 +2046,6 @@ default
 #
 in
 mozharness
-        
-#
-#
-        
-#
-#
-#
-#
         
 #
 so
@@ -2398,8 +2388,9 @@ build_pool_configs
 =
 parse_config_file
 (
+                
 pool_cfg_file
-                                                   
+                
 search_path
 =
 config_paths
@@ -2959,6 +2950,7 @@ gradle
 dependencies
 '
 :
+            
 '
 builds
 /
@@ -3137,6 +3129,7 @@ play
 services
 '
 :
+            
 '
 builds
 /
@@ -6883,8 +6876,8 @@ self
 .
 get_output_from_command
 (
-cmd
                 
+cmd
 cwd
 =
 dirs
@@ -6910,12 +6903,6 @@ query_buildid
 self
 )
 :
-        
-c
-=
-self
-.
-config
         
 if
 self
@@ -9823,6 +9810,8 @@ build
 failures
 when
 not
+            
+#
 invoking
 mach
 via
@@ -10358,6 +10347,7 @@ self
 .
 fatal
 (
+                
 "
 Unable
 to
@@ -10372,6 +10362,9 @@ multi
 l10n
 build
 .
+"
+                
+"
 Was
 trying
 to
@@ -10490,8 +10483,6 @@ multi
         
 ]
         
-output
-=
 self
 .
 get_output_from_command
@@ -12317,6 +12308,7 @@ name
 )
             
 except
+Exception
 :
                 
 self
@@ -12558,11 +12550,6 @@ sizes
 "
 "
 "
-        
-from
-StringIO
-import
-StringIO
         
 #
 Check
