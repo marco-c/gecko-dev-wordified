@@ -335,9 +335,10 @@ assert_equals
 (
 registration
 .
-result
-'
-'
+state
+"
+pending
+"
 )
 ;
 assert_equals
@@ -345,8 +346,8 @@ assert_equals
 registration
 .
 failureReason
-'
-'
+"
+"
 )
 ;
 /

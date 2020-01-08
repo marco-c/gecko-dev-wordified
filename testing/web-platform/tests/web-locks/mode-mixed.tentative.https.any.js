@@ -10,16 +10,6 @@ API
 :
 Mixed
 Modes
-/
-/
-META
-:
-global
-=
-window
-dedicatedworker
-sharedworker
-serviceworker
 '
 use
 strict

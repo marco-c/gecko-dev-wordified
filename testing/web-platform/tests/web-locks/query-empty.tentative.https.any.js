@@ -29,16 +29,6 @@ resources
 helpers
 .
 js
-/
-/
-META
-:
-global
-=
-window
-dedicatedworker
-sharedworker
-serviceworker
 '
 use
 strict

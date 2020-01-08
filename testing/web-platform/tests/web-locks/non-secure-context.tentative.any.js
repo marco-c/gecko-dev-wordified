@@ -1,7 +1,6 @@
 /
 /
 META
-:
 title
 =
 Web
@@ -16,15 +15,6 @@ non
 -
 secure
 context
-/
-/
-META
-:
-global
-=
-window
-dedicatedworker
-sharedworker
 '
 use
 strict
