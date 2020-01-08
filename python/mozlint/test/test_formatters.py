@@ -196,6 +196,8 @@ txt
 :
 line
 4
+col
+10
 Error
 -
 oh
@@ -285,6 +287,8 @@ foo
 )
   
 4
+:
+10
 error
 oh
 no
@@ -392,6 +396,8 @@ c
 txt
 :
 4
+:
+10
 |
 oh
 no
@@ -474,6 +480,8 @@ abc
 }
 :
 4
+:
+10
 :
 baz
 error
@@ -720,6 +728,10 @@ lineno
 =
 4
             
+column
+=
+10
+            
 source
 =
 "
@@ -807,10 +819,29 @@ kwargs
 ]
 )
     
+#
+encoding
+to
+str
+bypasses
+a
+UnicodeEncodeError
+in
+pytest
+    
 assert
 fmt
 (
 result
+)
+.
+encode
+(
+'
+utf
+-
+8
+'
 )
 =
 =
@@ -820,6 +851,15 @@ opts
 format
 '
 ]
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
 def
 test_json_formatter
 (
