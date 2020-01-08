@@ -1141,13 +1141,6 @@ mozilla
 ComputedStyle
 *
 aStyle
-const
-mozilla
-:
-:
-ComputedStyle
-*
-aParentContext
 RawGeckoPresContextBorrowed
 aPresContext
 const

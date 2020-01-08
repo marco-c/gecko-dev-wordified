@@ -940,8 +940,6 @@ mozilla
 ComputedStyle
 *
 context
-ComputedStyleBorrowedOrNull
-parent_context
 RawGeckoPresContextBorrowed
 pres_context
 ServoComputedDataBorrowed
