@@ -3,8 +3,8 @@ preferences
 :
 :
 {
-Preferences
 Pref
+Preferences
 }
 ;
 use
@@ -45,9 +45,10 @@ std
 io
 :
 :
-Result
-as
-IoResult
+prelude
+:
+:
+*
 ;
 use
 std
@@ -56,10 +57,9 @@ std
 io
 :
 :
-prelude
-:
-:
-*
+Result
+as
+IoResult
 ;
 use
 std
@@ -166,9 +166,6 @@ None
 let
 dir
 =
-try
-!
-(
 TempDir
 :
 :
@@ -178,7 +175,7 @@ new
 rust_mozprofile
 "
 )
-)
+?
 ;
 let
 temp_path
@@ -282,9 +279,6 @@ prefs
 =
 Some
 (
-try
-!
-(
 PrefFile
 :
 :
@@ -292,7 +286,7 @@ new
 (
 pref_path
 )
-)
+?
 )
 }
 ;
@@ -381,9 +375,6 @@ user_prefs
 =
 Some
 (
-try
-!
-(
 PrefFile
 :
 :
@@ -391,7 +382,7 @@ new
 (
 pref_path
 )
-)
+?
 )
 }
 ;
@@ -484,9 +475,6 @@ let
 mut
 f
 =
-try
-!
-(
 File
 :
 :
@@ -495,7 +483,7 @@ open
 &
 path
 )
-)
+?
 ;
 let
 mut
@@ -509,9 +497,6 @@ with_capacity
 4096
 )
 ;
-try
-!
-(
 f
 .
 read_to_string
@@ -520,11 +505,8 @@ read_to_string
 mut
 buf
 )
-)
+?
 ;
-try
-!
-(
 parse
 (
 buf
@@ -533,7 +515,7 @@ as_bytes
 (
 )
 )
-)
+?
 }
 ;
 Ok
@@ -568,9 +550,6 @@ let
 mut
 f
 =
-try
-!
-(
 File
 :
 :
@@ -581,7 +560,7 @@ self
 .
 path
 )
-)
+?
 ;
 serialize
 (
