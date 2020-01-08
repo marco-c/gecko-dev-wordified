@@ -305,7 +305,7 @@ html
 info
 (
 "
-Testing
+test
 opening
 and
 closing
@@ -518,7 +518,6 @@ info
 (
 "
 Testing
-hitting
 tab
 closes
 the

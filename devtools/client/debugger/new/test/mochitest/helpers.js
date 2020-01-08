@@ -7699,12 +7699,16 @@ previewPopup
 "
 )
 ;
-is
+ok
 (
 previewEl
 .
 innerText
+.
+includes
+(
 text
+)
 "
 Preview
 text

@@ -915,6 +915,17 @@ default
 horizontal
 :
 horizontal
+toggleShortcutsModal
+:
+(
+)
+=
+>
+this
+.
+toggleShortcutsModal
+(
+)
 }
 )
 :
