@@ -3592,6 +3592,15 @@ a
 local
 database
 .
+const
+dbName
+=
+"
+remote
+-
+settings
+"
+;
 await
 (
 new
@@ -3606,6 +3615,9 @@ blocklists
 /
 addons
 "
+{
+dbName
+}
 )
 )
 .
@@ -3628,6 +3640,9 @@ main
 /
 recipes
 "
+{
+dbName
+}
 )
 )
 .
