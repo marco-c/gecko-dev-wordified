@@ -275,6 +275,12 @@ edge
 if
 (
 !
+edge
+.
+name
+|
+|
+!
 edges
 .
 append

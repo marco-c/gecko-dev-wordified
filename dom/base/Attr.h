@@ -329,15 +329,6 @@ aVisitor
 )
 override
 ;
-void
-ConstructUbiNode
-(
-void
-*
-storage
-)
-override
-;
 nsDOMAttributeMap
 *
 GetMap
