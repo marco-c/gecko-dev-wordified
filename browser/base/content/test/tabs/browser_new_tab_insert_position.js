@@ -1523,7 +1523,11 @@ gBrowser
 loadTabs
 (
 bulkLoad
+{
+inBackground
+:
 true
+}
 )
 ;
 await
