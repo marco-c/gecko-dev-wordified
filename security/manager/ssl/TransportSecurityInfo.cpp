@@ -358,7 +358,6 @@ NS_IMPL_ISUPPORTS
 TransportSecurityInfo
 nsITransportSecurityInfo
 nsIInterfaceRequestor
-nsISSLStatusProvider
 nsIAssociatedContentSecurity
 nsISerializable
 nsIClassInfo
@@ -1667,7 +1666,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 TransportSecurityInfo
 :
 :
