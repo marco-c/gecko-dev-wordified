@@ -226,6 +226,13 @@ const
 gfxFontStyle
 *
 aFontStyle
+RefPtr
+<
+IDWriteFontFace
+>
+aFontFace
+=
+nullptr
 AntialiasOption
 =
 kAntialiasDefault
