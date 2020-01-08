@@ -333,7 +333,7 @@ ok
 !
 TrackingProtection
 .
-icon
+iconBox
 .
 hasAttribute
 (
@@ -342,7 +342,7 @@ state
 "
 )
 "
-icon
+iconBox
 :
 no
 state
@@ -351,9 +351,10 @@ state
 ;
 ok
 (
+!
 TrackingProtection
 .
-icon
+iconBox
 .
 hasAttribute
 (
@@ -362,8 +363,9 @@ animate
 "
 )
 "
-icon
+iconBox
 :
+no
 animate
 "
 )
@@ -397,7 +399,7 @@ ok
 (
 TrackingProtection
 .
-icon
+iconBox
 .
 hasAttribute
 (
@@ -406,7 +408,7 @@ state
 "
 )
 "
-icon
+iconBox
 :
 state
 "
@@ -416,7 +418,7 @@ ok
 (
 TrackingProtection
 .
-icon
+iconBox
 .
 hasAttribute
 (
@@ -425,7 +427,7 @@ animate
 "
 )
 "
-icon
+iconBox
 :
 animate
 "
@@ -465,7 +467,7 @@ ok
 !
 TrackingProtection
 .
-icon
+iconBox
 .
 hasAttribute
 (
@@ -474,7 +476,7 @@ state
 "
 )
 "
-icon
+iconBox
 :
 no
 state
@@ -486,7 +488,7 @@ ok
 !
 TrackingProtection
 .
-icon
+iconBox
 .
 hasAttribute
 (
@@ -495,7 +497,7 @@ animate
 "
 )
 "
-icon
+iconBox
 :
 no
 animate
@@ -534,7 +536,7 @@ ok
 (
 TrackingProtection
 .
-icon
+iconBox
 .
 hasAttribute
 (
@@ -543,7 +545,7 @@ state
 "
 )
 "
-icon
+iconBox
 :
 state
 "
@@ -554,7 +556,7 @@ ok
 !
 TrackingProtection
 .
-icon
+iconBox
 .
 hasAttribute
 (
@@ -563,7 +565,7 @@ animate
 "
 )
 "
-icon
+iconBox
 :
 no
 animate
@@ -599,7 +601,7 @@ ok
 (
 TrackingProtection
 .
-icon
+iconBox
 .
 hasAttribute
 (
@@ -608,7 +610,7 @@ state
 "
 )
 "
-icon
+iconBox
 :
 state
 "
@@ -618,7 +620,7 @@ ok
 (
 TrackingProtection
 .
-icon
+iconBox
 .
 hasAttribute
 (
@@ -627,7 +629,7 @@ animate
 "
 )
 "
-icon
+iconBox
 :
 animate
 "
