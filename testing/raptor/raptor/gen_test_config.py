@@ -110,7 +110,13 @@ get_proxy_logger
 component
 =
 "
-gen_test_url
+raptor
+-
+gen
+-
+test
+-
+config
 "
 )
 def
@@ -119,6 +125,9 @@ gen_test_config
 browser
 test
 cs_port
+b_port
+=
+0
 )
 :
     
@@ -130,7 +139,7 @@ info
 writing
 test
 settings
-url
+into
 background
 js
 so
@@ -214,6 +223,15 @@ s
 .
 json
 "
+            
+"
+benchmark_port
+"
+:
+"
+%
+d
+"
 }
 ;
 }
@@ -227,6 +245,7 @@ cs_port
 test
 cs_port
 test
+b_port
 )
     
 webext_background_script
@@ -279,7 +298,10 @@ finished
 writing
 test
 config
-into
-webext
+to
+%
+s
 "
+%
+webext_background_script
 )
