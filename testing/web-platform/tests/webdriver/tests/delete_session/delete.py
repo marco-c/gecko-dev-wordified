@@ -198,7 +198,7 @@ raises
 (
 error
 .
-SessionNotCreatedException
+InvalidSessionIdException
 )
 :
         
