@@ -1977,7 +1977,7 @@ self
 .
 style
 .
-get_inheritedbox
+get_inherited_box
 (
 )
 .
@@ -1992,7 +1992,7 @@ self
 .
 style
 .
-get_inheritedtext
+get_inherited_text
 (
 )
 .
@@ -2036,7 +2036,7 @@ self
 .
 style
 .
-mutate_inheritedbox
+mutate_inherited_box
 (
 )
 .
@@ -2374,7 +2374,7 @@ self
 .
 style
 .
-get_inheritedbox
+get_inherited_box
 (
 )
 .
@@ -2387,7 +2387,7 @@ parent_writing_mode
 =
 layout_parent_style
 .
-get_inheritedbox
+get_inherited_box
 (
 )
 .
@@ -3895,7 +3895,7 @@ self
 .
 style
 .
-get_inheritedtext
+get_inherited_text
 (
 )
 .
@@ -3930,7 +3930,7 @@ self
 .
 style
 .
-mutate_inheritedtext
+mutate_inherited_text
 (
 )
 .
@@ -4053,7 +4053,7 @@ self
 .
 style
 .
-get_inheritedtext
+get_inherited_text
 (
 )
 .
@@ -4066,7 +4066,7 @@ self
 .
 style
 .
-mutate_inheritedtext
+mutate_inherited_text
 (
 )
 .

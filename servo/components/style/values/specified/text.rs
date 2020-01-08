@@ -3460,7 +3460,7 @@ _context
 .
 builder
 .
-get_parent_inheritedtext
+get_parent_inherited_text
 (
 )
 .
@@ -3572,7 +3572,7 @@ _context
 .
 builder
 .
-get_parent_inheritedtext
+get_parent_inherited_text
 (
 )
 .
@@ -4200,7 +4200,7 @@ style
 (
 )
 .
-get_inheritedbox
+get_inherited_box
 (
 )
 .
