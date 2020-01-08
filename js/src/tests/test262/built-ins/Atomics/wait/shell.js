@@ -86,7 +86,7 @@ e
 .
 wait
 and
-wake
+notify
 )
 .
 *

@@ -63,6 +63,7 @@ value
 features
 :
 [
+Proxy
 Reflect
 ]
 -

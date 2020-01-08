@@ -178,6 +178,7 @@ features
 cross
 -
 realm
+Proxy
 ]
 -
 -

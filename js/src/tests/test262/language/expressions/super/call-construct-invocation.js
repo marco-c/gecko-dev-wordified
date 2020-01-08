@@ -87,7 +87,13 @@ features
 :
 [
 class
+new
+.
+target
 Reflect
+Reflect
+.
+construct
 ]
 -
 -

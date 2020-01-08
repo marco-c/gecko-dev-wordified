@@ -62,6 +62,11 @@ target
 property
 descriptor
 .
+features
+:
+[
+Proxy
+]
 -
 -
 -

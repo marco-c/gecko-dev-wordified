@@ -378,10 +378,10 @@ NUMAGENT
 ;
 /
 /
-Wake
+Notify
 index
 1
-wakes
+notifies
 nothing
 assert
 .
@@ -389,7 +389,7 @@ sameValue
 (
 Atomics
 .
-wake
+notify
 (
 i64a
 1
@@ -398,7 +398,7 @@ i64a
 '
 Atomics
 .
-wake
+notify
 (
 i64a
 1
@@ -410,10 +410,10 @@ returns
 ;
 /
 /
-Wake
+Notify
 index
 3
-wakes
+notifies
 nothing
 assert
 .
@@ -421,7 +421,7 @@ sameValue
 (
 Atomics
 .
-wake
+notify
 (
 i64a
 3
@@ -430,7 +430,7 @@ i64a
 '
 Atomics
 .
-wake
+notify
 (
 i64a
 3
@@ -442,10 +442,10 @@ returns
 ;
 /
 /
-Wake
+Notify
 index
 2
-wakes
+notifies
 1
 var
 woken
@@ -459,7 +459,7 @@ woken
 =
 Atomics
 .
-wake
+notify
 (
 i64a
 2
@@ -480,7 +480,7 @@ woken
 '
 Atomics
 .
-wake
+notify
 (
 i64a
 2
@@ -521,10 +521,10 @@ ok
 ;
 /
 /
-Wake
+Notify
 index
 0
-wakes
+notifies
 1
 var
 woken
@@ -538,7 +538,7 @@ woken
 =
 Atomics
 .
-wake
+notify
 (
 i64a
 0
@@ -559,7 +559,7 @@ woken
 '
 Atomics
 .
-wake
+notify
 (
 i64a
 0

@@ -61,6 +61,7 @@ extensible
 features
 :
 [
+Proxy
 Reflect
 ]
 -

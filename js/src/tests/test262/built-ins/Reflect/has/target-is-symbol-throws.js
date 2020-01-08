@@ -89,6 +89,7 @@ exception
 features
 :
 [
+Reflect
 Symbol
 ]
 -

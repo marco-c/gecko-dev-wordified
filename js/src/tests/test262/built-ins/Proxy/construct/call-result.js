@@ -69,6 +69,11 @@ newTarget
 .
 Return
 newObj
+features
+:
+[
+Proxy
+]
 -
 -
 -

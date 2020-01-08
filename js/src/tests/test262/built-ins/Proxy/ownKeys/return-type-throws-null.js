@@ -152,6 +152,11 @@ a
 TypeError
 exception
 .
+features
+:
+[
+Proxy
+]
 -
 -
 -
@@ -167,6 +172,8 @@ Proxy
 }
 {
 ownKeys
+:
+function
 (
 )
 {

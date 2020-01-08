@@ -86,6 +86,7 @@ features
 cross
 -
 realm
+Proxy
 ]
 -
 -

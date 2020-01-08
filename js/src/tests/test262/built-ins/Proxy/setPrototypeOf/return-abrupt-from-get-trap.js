@@ -98,6 +98,11 @@ setPrototypeOf
 "
 )
 .
+features
+:
+[
+Proxy
+]
 -
 -
 -

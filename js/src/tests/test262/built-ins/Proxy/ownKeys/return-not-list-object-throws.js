@@ -141,6 +141,7 @@ exception
 features
 :
 [
+Proxy
 Symbol
 ]
 -

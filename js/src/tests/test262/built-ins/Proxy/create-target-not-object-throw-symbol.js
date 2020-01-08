@@ -74,6 +74,7 @@ exception
 features
 :
 [
+Proxy
 Symbol
 ]
 -

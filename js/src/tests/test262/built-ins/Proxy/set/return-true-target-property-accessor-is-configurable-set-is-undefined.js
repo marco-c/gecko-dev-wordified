@@ -75,7 +75,11 @@ undefined
 features
 :
 [
+Proxy
 Reflect
+Reflect
+.
+set
 ]
 -
 -

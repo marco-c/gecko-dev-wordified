@@ -222,6 +222,11 @@ keys
 features
 :
 [
+computed
+-
+property
+-
+names
 Reflect
 Symbol
 ]

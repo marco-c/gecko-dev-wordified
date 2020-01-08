@@ -96,6 +96,10 @@ exception
 features
 :
 [
+Reflect
+Reflect
+.
+setPrototypeOf
 Symbol
 ]
 -

@@ -85,6 +85,7 @@ false
 features
 :
 [
+Proxy
 Reflect
 ]
 -

@@ -129,6 +129,14 @@ true
 .
 .
 .
+features
+:
+[
+Reflect
+Reflect
+.
+setPrototypeOf
+]
 -
 -
 -

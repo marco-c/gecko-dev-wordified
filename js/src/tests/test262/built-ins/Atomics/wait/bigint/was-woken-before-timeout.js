@@ -395,7 +395,7 @@ sameValue
 (
 Atomics
 .
-wake
+notify
 (
 i64a
 0
@@ -404,7 +404,7 @@ i64a
 '
 Atomics
 .
-wake
+notify
 (
 i64a
 0

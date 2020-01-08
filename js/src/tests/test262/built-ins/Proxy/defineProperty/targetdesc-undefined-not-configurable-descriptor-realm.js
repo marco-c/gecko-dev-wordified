@@ -144,6 +144,7 @@ features
 cross
 -
 realm
+Proxy
 ]
 -
 -
