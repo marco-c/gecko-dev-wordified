@@ -3163,12 +3163,10 @@ capability
 }
 }
 }
-return
 Some
 (
 merged
 )
-;
 }
 )
 .
