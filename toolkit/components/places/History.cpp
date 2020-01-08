@@ -1599,9 +1599,14 @@ nsIURI
 >
 uri
 =
-do_QueryWrappedNative
+do_QueryInterface
 (
 wrappedObj
+-
+>
+Native
+(
+)
 )
 ;
 return

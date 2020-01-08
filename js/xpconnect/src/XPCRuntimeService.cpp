@@ -744,9 +744,14 @@ nsIGlobalObject
 >
 bsp
 (
-do_QueryWrappedNative
+do_QueryInterface
 (
 wrapper
+-
+>
+Native
+(
+)
 )
 )
 ;
