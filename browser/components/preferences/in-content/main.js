@@ -1484,7 +1484,7 @@ browser
 .
 ctrlTab
 .
-previews
+recentlyUsedOrder
 "
 type
 :
