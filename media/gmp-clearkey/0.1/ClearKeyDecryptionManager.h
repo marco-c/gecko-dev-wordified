@@ -204,7 +204,7 @@ const
 cdm
 :
 :
-InputBuffer
+InputBuffer_1
 *
 aInputBuffer
 )
@@ -222,7 +222,7 @@ const
 cdm
 :
 :
-InputBuffer
+InputBuffer_1
 *
 aInputBuffer
 )

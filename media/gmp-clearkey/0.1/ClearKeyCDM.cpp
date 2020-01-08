@@ -335,7 +335,7 @@ ClearKeyCDM
 Decrypt
 (
 const
-InputBuffer
+InputBuffer_1
 &
 aEncryptedBuffer
 DecryptedBlock
@@ -361,7 +361,7 @@ ClearKeyCDM
 InitializeAudioDecoder
 (
 const
-AudioDecoderConfig
+AudioDecoderConfig_1
 &
 aAudioDecoderConfig
 )
@@ -423,7 +423,7 @@ ClearKeyCDM
 InitializeVideoDecoder
 (
 const
-VideoDecoderConfig
+VideoDecoderConfig_1
 &
 aVideoDecoderConfig
 )
@@ -540,7 +540,7 @@ ClearKeyCDM
 DecryptAndDecodeFrame
 (
 const
-InputBuffer
+InputBuffer_1
 &
 aEncryptedBuffer
 VideoFrame
@@ -579,7 +579,7 @@ ClearKeyCDM
 DecryptAndDecodeSamples
 (
 const
-InputBuffer
+InputBuffer_1
 &
 aEncryptedBuffer
 AudioFrames

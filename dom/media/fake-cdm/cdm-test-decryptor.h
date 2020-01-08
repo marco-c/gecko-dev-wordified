@@ -299,7 +299,7 @@ const
 cdm
 :
 :
-InputBuffer
+InputBuffer_1
 &
 aEncryptedBuffer
 cdm
@@ -331,7 +331,7 @@ const
 cdm
 :
 :
-AudioDecoderConfig
+AudioDecoderConfig_1
 &
 aAudioDecoderConfig
 )
@@ -357,7 +357,7 @@ const
 cdm
 :
 :
-VideoDecoderConfig
+VideoDecoderConfig_1
 &
 aVideoDecoderConfig
 )
@@ -407,7 +407,7 @@ const
 cdm
 :
 :
-InputBuffer
+InputBuffer_1
 &
 aEncryptedBuffer
 cdm
@@ -439,7 +439,7 @@ const
 cdm
 :
 :
-InputBuffer
+InputBuffer_1
 &
 aEncryptedBuffer
 cdm

@@ -292,7 +292,7 @@ VideoDecoder
 InitDecode
 (
 const
-VideoDecoderConfig
+VideoDecoderConfig_1
 &
 aConfig
 )
@@ -348,7 +348,7 @@ VideoDecoder
 Decode
 (
 const
-InputBuffer
+InputBuffer_1
 &
 aInputBuffer
 VideoFrame
@@ -1593,10 +1593,10 @@ aVideoFrame
 SetSize
 (
 Size
-(
+{
 aPictureWidth
 aPictureHeight
-)
+}
 )
 ;
 /

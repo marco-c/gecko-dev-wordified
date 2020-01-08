@@ -359,7 +359,7 @@ aHostInterfaceVersion
 cdm
 :
 :
-Host_8
+Host_9
 :
 :
 kVersion
@@ -371,7 +371,7 @@ aHostInterfaceVersion
 cdm
 :
 :
-Host_9
+Host_10
 :
 :
 kVersion
@@ -717,7 +717,7 @@ this
 )
 ;
 bool
-isCDM9
+isCDM10
 =
 !
 strcmp
@@ -727,7 +727,7 @@ CHROMIUM_CDM_API
 )
 ;
 bool
-isCDM8
+isCDM9
 =
 !
 strcmp
@@ -738,10 +738,10 @@ CHROMIUM_CDM_API_BACKWARD_COMPAT
 ;
 if
 (
-isCDM8
-|
-|
 isCDM9
+|
+|
+isCDM10
 )
 {
 auto
@@ -818,12 +818,12 @@ GMPGenericErr
 int
 version
 =
-isCDM8
+isCDM9
 ?
 cdm
 :
 :
-ContentDecryptionModule_8
+ContentDecryptionModule_9
 :
 :
 kVersion
@@ -831,7 +831,7 @@ kVersion
 cdm
 :
 :
-ContentDecryptionModule_9
+ContentDecryptionModule_10
 :
 :
 kVersion
@@ -1042,7 +1042,7 @@ aInterfaceVersion
 cdm
 :
 :
-ContentDecryptionModule_8
+ContentDecryptionModule_9
 :
 :
 kVersion
@@ -1054,7 +1054,7 @@ aInterfaceVersion
 cdm
 :
 :
-ContentDecryptionModule_9
+ContentDecryptionModule_10
 :
 :
 kVersion
@@ -1068,7 +1068,7 @@ aHostVersion
 cdm
 :
 :
-Host_8
+Host_9
 :
 :
 kVersion
@@ -1080,7 +1080,7 @@ aHostVersion
 cdm
 :
 :
-Host_9
+Host_10
 :
 :
 kVersion

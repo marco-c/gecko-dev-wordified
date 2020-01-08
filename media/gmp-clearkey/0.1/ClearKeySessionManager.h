@@ -358,7 +358,7 @@ const
 cdm
 :
 :
-InputBuffer
+InputBuffer_1
 &
 aBuffer
 cdm

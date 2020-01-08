@@ -301,9 +301,9 @@ MOZ_MUST_USE
 bool
 InitToBlack
 (
-uint32_t
+int32_t
 aWidth
-uint32_t
+int32_t
 aHeight
 int64_t
 aTimeStamp

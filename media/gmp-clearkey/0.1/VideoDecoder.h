@@ -216,7 +216,7 @@ const
 cdm
 :
 :
-VideoDecoderConfig
+VideoDecoderConfig_1
 &
 aConfig
 )
@@ -231,7 +231,7 @@ const
 cdm
 :
 :
-InputBuffer
+InputBuffer_1
 &
 aEncryptedBuffer
 cdm

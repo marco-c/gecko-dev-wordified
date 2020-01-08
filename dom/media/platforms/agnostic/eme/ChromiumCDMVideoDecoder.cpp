@@ -247,7 +247,7 @@ return
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodecProfile
 :
 :
 kH264ProfileBaseline
@@ -259,7 +259,7 @@ return
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodecProfile
 :
 :
 kH264ProfileMain
@@ -271,7 +271,7 @@ return
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodecProfile
 :
 :
 kH264ProfileExtended
@@ -283,7 +283,7 @@ return
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodecProfile
 :
 :
 kH264ProfileHigh
@@ -295,7 +295,7 @@ return
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodecProfile
 :
 :
 kH264ProfileHigh10
@@ -307,7 +307,7 @@ return
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodecProfile
 :
 :
 kH264ProfileHigh422
@@ -319,7 +319,7 @@ return
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodecProfile
 :
 :
 kH264ProfileHigh444Predictive
@@ -329,7 +329,7 @@ return
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodecProfile
 :
 :
 kUnknownVideoCodecProfile
@@ -433,7 +433,7 @@ mCodec
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodec
 :
 :
 kCodecH264
@@ -497,7 +497,7 @@ mCodec
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodec
 :
 :
 kCodecVp8
@@ -511,7 +511,7 @@ mProfile
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodecProfile
 :
 :
 kProfileNotNeeded
@@ -540,7 +540,7 @@ mCodec
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodec
 :
 :
 kCodecVp9
@@ -554,7 +554,7 @@ mProfile
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodecProfile
 :
 :
 kProfileNotNeeded
