@@ -543,13 +543,17 @@ cwd
 a
 :
 2
+errors
 {
 cwd
 }
 /
 d
 :
+0
+errors
 1
+warning
 "
 "
 "
