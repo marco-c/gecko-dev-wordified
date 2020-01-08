@@ -1154,10 +1154,11 @@ gBrowser
 .
 selectedBrowser
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 CRASH_URL
 )
 ;
@@ -1648,10 +1649,11 @@ gBrowser
 .
 selectedBrowser
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 CRASH_URL
 )
 ;

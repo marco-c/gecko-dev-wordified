@@ -188,10 +188,11 @@ false
 DATA_URI
 )
 ;
-fileBrowser
+BrowserTestUtils
 .
 loadURI
 (
+fileBrowser
 DATA_URI
 )
 ;

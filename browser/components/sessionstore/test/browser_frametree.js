@@ -159,10 +159,11 @@ to
 a
 frameset
 .
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 URL_FRAMESET
 )
 ;

@@ -451,10 +451,11 @@ logo
 "
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 about
 :

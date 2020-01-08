@@ -159,10 +159,11 @@ bookmarked
 "
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 testURL
 )
 ;

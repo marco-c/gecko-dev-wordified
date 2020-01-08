@@ -323,10 +323,11 @@ setCallback
 onUCTDialog
 )
 ;
-testBrowser
+BrowserTestUtils
 .
 loadURI
 (
+testBrowser
 testURI
 )
 ;

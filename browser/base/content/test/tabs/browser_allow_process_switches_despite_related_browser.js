@@ -212,10 +212,11 @@ false
 uriString
 )
 ;
-viewSourceBrowser
+BrowserTestUtils
 .
 loadURI
 (
+viewSourceBrowser
 uriString
 )
 ;
