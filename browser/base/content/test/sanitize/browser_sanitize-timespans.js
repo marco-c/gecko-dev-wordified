@@ -6454,6 +6454,7 @@ now_mSec
 *
 kMsecPerMin
 )
+;
 /
 /
 10
@@ -6527,6 +6528,7 @@ now_mSec
 *
 kMsecPerMin
 )
+;
 /
 /
 45
@@ -6604,6 +6606,7 @@ now_mSec
 *
 kMsecPerMin
 )
+;
 /
 /
 70
@@ -6677,6 +6680,7 @@ now_mSec
 *
 kMsecPerMin
 )
+;
 /
 /
 90
@@ -6754,6 +6758,7 @@ now_mSec
 *
 kMsecPerMin
 )
+;
 /
 /
 130
@@ -6827,6 +6832,7 @@ now_mSec
 *
 kMsecPerMin
 )
+;
 /
 /
 180
@@ -6904,6 +6910,7 @@ now_mSec
 *
 kMsecPerMin
 )
+;
 /
 /
 250
@@ -7010,6 +7017,7 @@ download
 startTime
 =
 today
+;
 /
 /
 12
@@ -7107,6 +7115,7 @@ download
 startTime
 =
 lastYear
+;
 download
 .
 canceled

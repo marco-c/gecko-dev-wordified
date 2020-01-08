@@ -127,6 +127,7 @@ args
 )
 ;
 }
+;
 worker
 .
 postMessage

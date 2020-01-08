@@ -128,6 +128,7 @@ image
 .
 sjs
 "
+;
 await
 new
 Promise
@@ -206,6 +207,7 @@ image
 .
 sjs
 "
+;
 await
 new
 Promise
@@ -319,6 +321,7 @@ image
 .
 sjs
 "
+;
 await
 new
 Promise
@@ -397,6 +400,7 @@ image
 .
 sjs
 "
+;
 await
 new
 Promise

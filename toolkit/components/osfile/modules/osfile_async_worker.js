@@ -269,6 +269,7 @@ args
 )
 ;
 }
+;
 worker
 .
 log

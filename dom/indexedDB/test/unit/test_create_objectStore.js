@@ -599,7 +599,7 @@ keyPath
 "
 )
 ;
-if
+is
 (
 objectStore
 .
