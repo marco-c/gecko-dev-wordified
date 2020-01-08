@@ -1686,7 +1686,7 @@ results
 .
 matches
 .
-length
+size
 0
 )
 ;
@@ -1757,7 +1757,7 @@ results
 .
 matches
 .
-length
+size
 >
 0
 )
@@ -1770,7 +1770,7 @@ results
 .
 matches
 .
-includes
+has
 (
 requiredSuggestion
 )
