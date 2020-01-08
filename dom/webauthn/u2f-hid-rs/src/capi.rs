@@ -1455,9 +1455,6 @@ mgr
 mut
 U2FManager
 )
--
->
-u64
 {
 if
 !
@@ -1486,7 +1483,4 @@ cancel
 )
 ;
 }
-new_tid
-(
-)
 }

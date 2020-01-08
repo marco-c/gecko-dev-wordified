@@ -193,6 +193,8 @@ const
 WebAuthnMakeCredentialInfo
 &
 aInfo
+bool
+aForceNoneAttestation
 )
 override
 ;

@@ -215,6 +215,8 @@ const
 WebAuthnMakeCredentialInfo
 &
 aInfo
+bool
+aForceNoneAttestation
 )
 =
 0
