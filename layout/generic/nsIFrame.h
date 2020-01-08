@@ -2668,9 +2668,6 @@ aReflowInput
 aMetrics
 )
 ;
-#
-ifdef
-DEBUG
 /
 /
 Convert
@@ -2703,8 +2700,6 @@ nsReflowStatus
 aStatus
 )
 ;
-#
-endif
 /
 /
 -
