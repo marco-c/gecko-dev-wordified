@@ -3608,6 +3608,9 @@ kPrefGetTtl
 )
 )
 {
+#
+ifdef
+DNSQUERY_AVAILABLE
 sGetTtlEnabled
 =
 Preferences
@@ -3618,6 +3621,8 @@ GetBool
 kPrefGetTtl
 )
 ;
+#
+endif
 }
 else
 if
