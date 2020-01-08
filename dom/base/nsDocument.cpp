@@ -78402,6 +78402,14 @@ MaybeRejectWithUndefined
 }
 else
 {
+outer
+-
+>
+SetHasStorageAccess
+(
+true
+)
+;
 promise
 -
 >
