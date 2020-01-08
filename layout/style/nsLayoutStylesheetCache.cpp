@@ -4281,7 +4281,7 @@ always
 loaded
 /
 /
-synchrously
+synchronously
 like
 they
 are
@@ -4294,9 +4294,9 @@ we
 ll
 never
 attempt
+/
+/
 parallel
-/
-/
 parsing
 on
 them
