@@ -410,7 +410,7 @@ aRenderer
 layers
 :
 :
-CompositorBridgeParentBase
+CompositorBridgeParent
 *
 aBridge
 )
@@ -1128,7 +1128,7 @@ DoNotifyWebRenderError
 layers
 :
 :
-CompositorBridgeParentBase
+CompositorBridgeParent
 *
 aBridge
 WebRenderError
