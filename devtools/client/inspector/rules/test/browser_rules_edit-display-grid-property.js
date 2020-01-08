@@ -413,7 +413,9 @@ ok
 !
 highlighters
 .
-gridHighlighterShown
+gridHighlighters
+.
+size
 "
 No
 CSS
