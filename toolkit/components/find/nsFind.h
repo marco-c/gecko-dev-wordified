@@ -327,8 +327,6 @@ aStartPoint
 nsRange
 *
 aEndPoint
-bool
-aContinueOk
 )
 ;
 /
