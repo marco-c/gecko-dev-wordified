@@ -11925,6 +11925,13 @@ this
 _browser
 .
 currentURI
+&
+&
+this
+.
+_browser
+.
+currentURI
 .
 spec
 =
