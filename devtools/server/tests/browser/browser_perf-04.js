@@ -216,7 +216,7 @@ startProfiler
 is
 (
 features
-0x102
+0x202
 "
 Should
 apply
