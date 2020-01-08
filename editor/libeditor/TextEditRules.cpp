@@ -1831,7 +1831,7 @@ case
 EditSubAction
 :
 :
-undo
+eUndo
 :
 return
 WillUndo
@@ -1844,7 +1844,7 @@ case
 EditSubAction
 :
 :
-redo
+eRedo
 :
 return
 WillRedo
@@ -2069,7 +2069,7 @@ case
 EditSubAction
 :
 :
-undo
+eUndo
 :
 return
 DidUndo
@@ -2081,7 +2081,7 @@ case
 EditSubAction
 :
 :
-redo
+eRedo
 :
 return
 DidRedo

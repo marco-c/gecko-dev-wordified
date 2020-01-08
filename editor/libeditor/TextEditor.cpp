@@ -8529,7 +8529,7 @@ this
 EditSubAction
 :
 :
-undo
+eUndo
 nsIEditor
 :
 :
@@ -8542,7 +8542,7 @@ subActionInfo
 EditSubAction
 :
 :
-undo
+eUndo
 )
 ;
 RefPtr
@@ -8859,7 +8859,7 @@ this
 EditSubAction
 :
 :
-redo
+eRedo
 nsIEditor
 :
 :
@@ -8872,7 +8872,7 @@ subActionInfo
 EditSubAction
 :
 :
-redo
+eRedo
 )
 ;
 RefPtr

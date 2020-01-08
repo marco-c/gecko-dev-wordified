@@ -2942,7 +2942,7 @@ aEditSubAction
 EditSubAction
 :
 :
-undo
+eUndo
 )
 |
 |
@@ -2953,7 +2953,7 @@ aEditSubAction
 EditSubAction
 :
 :
-redo
+eRedo
 )
 )
 )
@@ -3939,7 +3939,7 @@ mEditSubAction
 EditSubAction
 :
 :
-undo
+eUndo
 |
 |
 aInfo
@@ -3950,7 +3950,7 @@ mEditSubAction
 EditSubAction
 :
 :
-redo
+eRedo
 )
 {
 return
