@@ -207,12 +207,6 @@ std
 mem
 ;
 use
-stylesheets
-:
-:
-UrlExtraData
-;
-use
 style_traits
 :
 :
@@ -221,6 +215,12 @@ CssWriter
 ParseError
 ToCss
 }
+;
+use
+stylesheets
+:
+:
+UrlExtraData
 ;
 use
 values

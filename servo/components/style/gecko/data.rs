@@ -192,12 +192,6 @@ servo_arc
 Arc
 ;
 use
-std
-:
-:
-fmt
-;
-use
 shared_lock
 :
 :
@@ -206,6 +200,12 @@ Locked
 SharedRwLockReadGuard
 StylesheetGuards
 }
+;
+use
+std
+:
+:
+fmt
 ;
 use
 stylesheets
