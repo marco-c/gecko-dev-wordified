@@ -8512,6 +8512,7 @@ loadTabs
 (
 aURIs
 {
+allowInheritPrincipal
 allowThirdPartyFixup
 inBackground
 newIndex
@@ -8889,6 +8890,22 @@ nsIWebNavigation
 LOAD_FLAGS_FIXUP_SCHEME_TYPOS
 ;
 }
+if
+(
+!
+allowInheritPrincipal
+)
+{
+flags
+|
+=
+Ci
+.
+nsIWebNavigation
+.
+LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
+;
+}
 try
 {
 browser
@@ -8949,6 +8966,7 @@ let
 params
 =
 {
+allowInheritPrincipal
 ownerTab
 :
 owner
@@ -9043,6 +9061,7 @@ let
 params
 =
 {
+allowInheritPrincipal
 skipAnimation
 :
 true
