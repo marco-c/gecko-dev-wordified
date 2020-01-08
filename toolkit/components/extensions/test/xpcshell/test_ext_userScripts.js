@@ -2085,10 +2085,10 @@ file_sample
 html
 "
 ]
-user_scripts
+userScripts
 :
 {
-api_script
+apiScript
 :
 "
 api
