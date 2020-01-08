@@ -3786,7 +3786,7 @@ this
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 aDirection
 )
 ;
@@ -3965,7 +3965,7 @@ subActionInfo
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 )
 ;
 subActionInfo
@@ -4199,7 +4199,7 @@ this
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 aDirection
 )
 ;

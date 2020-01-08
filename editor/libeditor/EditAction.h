@@ -322,7 +322,16 @@ commit
 string
 .
 eInsertTextComingFromIME
-deleteSelection
+/
+/
+eDeleteSelectedContent
+indicates
+to
+remove
+selected
+content
+.
+eDeleteSelectedContent
 setTextProperty
 removeTextProperty
 outputText

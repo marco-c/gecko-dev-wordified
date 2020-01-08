@@ -684,7 +684,7 @@ aEditSubAction
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 |
 |
 aEditSubAction
@@ -2333,7 +2333,7 @@ aEditSubAction
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 |
 |
 IsStyleCachePreservingSubAction
@@ -3103,7 +3103,7 @@ aEditSubAction
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 &
 &
 mDidRangedDelete
@@ -3337,7 +3337,7 @@ aEditSubAction
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 |
 |
 aEditSubAction
@@ -3599,7 +3599,7 @@ aEditSubAction
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 |
 |
 aEditSubAction
@@ -3688,7 +3688,7 @@ aEditSubAction
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 |
 |
 IsStyleCachePreservingSubAction
@@ -4210,7 +4210,7 @@ case
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 :
 return
 WillDeleteSelection
@@ -4594,7 +4594,7 @@ case
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 :
 return
 DidDeleteSelection
@@ -8722,7 +8722,7 @@ mTopLevelEditSubAction
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 )
 )
 {

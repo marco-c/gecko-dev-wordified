@@ -3235,7 +3235,7 @@ flags
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 nsIEditor
 :
 :

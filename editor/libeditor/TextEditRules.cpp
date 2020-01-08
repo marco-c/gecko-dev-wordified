@@ -1815,7 +1815,7 @@ case
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 :
 return
 WillDeleteSelection
@@ -2058,7 +2058,7 @@ case
 EditSubAction
 :
 :
-deleteSelection
+eDeleteSelectedContent
 :
 return
 DidDeleteSelection
