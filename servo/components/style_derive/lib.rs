@@ -286,6 +286,7 @@ Parse
 attributes
 (
 css
+parse
 )
 )
 ]
@@ -487,6 +488,7 @@ SpecifiedValueInfo
 attributes
 (
 css
+parse
 value_info
 )
 )
