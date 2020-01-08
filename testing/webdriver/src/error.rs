@@ -1959,8 +1959,6 @@ str
 WebDriverError
 {
 error
-:
-error
 message
 :
 message
@@ -2016,8 +2014,6 @@ str
 {
 WebDriverError
 {
-error
-:
 error
 message
 :

@@ -1691,13 +1691,7 @@ path
 RequestMatcher
 {
 method
-:
-method
 path_regexp
-:
-path_regexp
-match_type
-:
 match_type
 }
 }
