@@ -772,6 +772,10 @@ mPrototypeBinding
 (
 aBinding
 )
+mBoundElement
+(
+nullptr
+)
 {
 NS_ASSERTION
 (
@@ -854,6 +858,10 @@ aBinding
 mContent
 (
 aShadowRoot
+)
+mBoundElement
+(
+nullptr
 )
 {
 NS_ASSERTION
