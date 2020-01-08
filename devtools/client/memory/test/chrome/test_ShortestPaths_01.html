@@ -271,16 +271,17 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 window
 .
 onload
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -298,7 +299,7 @@ container
 "
 )
 ;
-yield
+await
 renderComponent
 (
 ShortestPaths
@@ -357,7 +358,7 @@ tspan
 ;
 for
 (
-let
+const
 el
 of
 tspans
@@ -722,7 +723,6 @@ finish
 ;
 }
 }
-)
 ;
 <
 /

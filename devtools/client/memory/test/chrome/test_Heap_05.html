@@ -174,16 +174,17 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 window
 .
 onload
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -201,7 +202,7 @@ container
 "
 )
 ;
-yield
+await
 renderComponent
 (
 Heap
@@ -428,7 +429,7 @@ censusState
 SAVED
 }
 ;
-yield
+await
 renderComponent
 (
 Heap
@@ -518,7 +519,7 @@ empty
 Empty
 Diffing
 Report
-yield
+await
 renderComponent
 (
 Heap
@@ -619,7 +620,7 @@ difference
 Empty
 Filtered
 Census
-yield
+await
 renderComponent
 (
 Heap
@@ -754,7 +755,6 @@ finish
 ;
 }
 }
-)
 ;
 <
 /

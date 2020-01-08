@@ -182,16 +182,17 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 window
 .
 onload
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -209,7 +210,7 @@ container
 "
 )
 ;
-yield
+await
 renderComponent
 (
 Heap
@@ -335,7 +336,7 @@ message
 "
 )
 ;
-yield
+await
 renderComponent
 (
 Heap
@@ -496,7 +497,7 @@ message
 "
 )
 ;
-yield
+await
 renderComponent
 (
 Heap
@@ -631,7 +632,6 @@ finish
 ;
 }
 }
-)
 ;
 <
 /
