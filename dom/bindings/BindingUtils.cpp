@@ -197,6 +197,15 @@ h
 #
 include
 "
+js
+/
+StableStringChars
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
@@ -17279,7 +17288,7 @@ else
 {
 length
 =
-js
+JS
 :
 :
 GetStringLength
