@@ -2973,15 +2973,6 @@ aIsActive
 /
 /
 Scrollbars
-nsIFrame
-*
-GetParentScrollbarFrame
-(
-nsIFrame
-*
-aFrame
-)
-;
 bool
 IsParentScrollbarRolledOver
 (
