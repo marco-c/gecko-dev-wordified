@@ -609,6 +609,10 @@ Resize
 "
     
 "
+TextAlign
+"
+    
+"
 TransformStyle
 "
     
