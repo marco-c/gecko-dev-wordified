@@ -301,6 +301,17 @@ ErrorResult
 aRv
 )
 ;
+WorkletImpl
+*
+Impl
+(
+)
+const
+{
+return
+mImpl
+;
+}
 void
 Dump
 (
