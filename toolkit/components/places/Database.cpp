@@ -8494,15 +8494,6 @@ rv
 )
 ;
 }
-/
-/
-Firefox
-62
-uses
-schema
-version
-51
-.
 if
 (
 currentSchemaVersion
@@ -8526,7 +8517,7 @@ rv
 /
 /
 Firefox
-63
+62
 uses
 schema
 version
