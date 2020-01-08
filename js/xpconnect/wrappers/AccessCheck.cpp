@@ -322,12 +322,12 @@ obj
 )
 {
 return
-GetCompartmentPrincipal
+GetRealmPrincipal
 (
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 obj
 )
