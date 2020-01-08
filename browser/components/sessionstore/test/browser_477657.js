@@ -176,7 +176,7 @@ now
 ;
 ss
 .
-setWindowValue
+setCustomWindowValue
 (
 newWin
 uniqueKey
@@ -187,7 +187,7 @@ is
 (
 ss
 .
-getWindowValue
+getCustomWindowValue
 (
 newWin
 uniqueKey
@@ -249,7 +249,7 @@ is
 (
 ss
 .
-getWindowValue
+getCustomWindowValue
 (
 newWin
 uniqueKey

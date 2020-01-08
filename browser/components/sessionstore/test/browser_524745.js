@@ -122,7 +122,7 @@ to
 window_B
 ss
 .
-setWindowValue
+setCustomWindowValue
 (
 window_B
 uniqKey

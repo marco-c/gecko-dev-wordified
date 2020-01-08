@@ -1170,7 +1170,7 @@ context
 ;
 SessionStore
 .
-setWindowValue
+setCustomWindowValue
 (
 win
 encodedKey
@@ -1211,7 +1211,7 @@ value
 =
 SessionStore
 .
-getWindowValue
+getCustomWindowValue
 (
 win
 encodedKey
@@ -1259,7 +1259,7 @@ context
 ;
 SessionStore
 .
-deleteWindowValue
+deleteCustomWindowValue
 (
 win
 encodedKey

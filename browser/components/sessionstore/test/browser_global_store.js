@@ -164,7 +164,7 @@ is
 (
 ss
 .
-getGlobalValue
+getCustomGlobalValue
 (
 key1
 )
@@ -188,7 +188,7 @@ is
 (
 ss
 .
-getGlobalValue
+getCustomGlobalValue
 (
 key2
 )
@@ -205,7 +205,7 @@ set
 ;
 ss
 .
-setGlobalValue
+setCustomGlobalValue
 (
 key2
 value1
@@ -215,7 +215,7 @@ is
 (
 ss
 .
-getGlobalValue
+getCustomGlobalValue
 (
 key2
 )
@@ -230,7 +230,7 @@ stored
 ;
 ss
 .
-setGlobalValue
+setCustomGlobalValue
 (
 key2
 value2
@@ -240,7 +240,7 @@ is
 (
 ss
 .
-getGlobalValue
+getCustomGlobalValue
 (
 key2
 )
@@ -256,7 +256,7 @@ overwritten
 ;
 ss
 .
-deleteGlobalValue
+deleteCustomGlobalValue
 (
 key2
 )
@@ -265,7 +265,7 @@ is
 (
 ss
 .
-getGlobalValue
+getCustomGlobalValue
 (
 key2
 )

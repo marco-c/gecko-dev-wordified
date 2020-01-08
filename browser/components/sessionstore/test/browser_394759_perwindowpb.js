@@ -195,7 +195,7 @@ on
 .
 ss
 .
-setWindowValue
+setCustomWindowValue
 (
 win
 aTest
