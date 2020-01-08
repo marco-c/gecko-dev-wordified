@@ -340,8 +340,9 @@ API
 param
 client
 DebuggerClient
-|
-TabClient
+WorkerClient
+or
+BrowsingContextFront
 *
 The
 parent
