@@ -639,6 +639,8 @@ INT32_MAX
 .
 int32_t
 mBalanceColCount
+=
+INT32_MAX
 ;
 /
 /
@@ -653,6 +655,8 @@ column
 .
 nscoord
 mColISize
+=
+NS_INTRINSICSIZE
 ;
 /
 /
@@ -684,6 +688,8 @@ out
 .
 nscoord
 mExpectedISizeLeftOver
+=
+0
 ;
 /
 /
@@ -701,6 +707,8 @@ gap
 .
 nscoord
 mColGap
+=
+NS_INTRINSICSIZE
 ;
 /
 /
@@ -741,6 +749,8 @@ size
 .
 nscoord
 mColMaxBSize
+=
+NS_INTRINSICSIZE
 ;
 /
 /
@@ -768,6 +778,8 @@ INT32_MAX
 .
 bool
 mIsBalancing
+=
+false
 ;
 /
 /
@@ -803,6 +815,8 @@ bSize
 .
 nscoord
 mKnownFeasibleBSize
+=
+NS_INTRINSICSIZE
 ;
 /
 /
@@ -838,6 +852,8 @@ bSize
 .
 nscoord
 mKnownInfeasibleBSize
+=
+0
 ;
 /
 /
@@ -851,6 +867,8 @@ set
 frame
 nscoord
 mComputedBSize
+=
+NS_INTRINSICSIZE
 ;
 /
 /
@@ -909,6 +927,8 @@ size
 .
 nscoord
 mConsumedBSize
+=
+0
 ;
 }
 ;
@@ -1167,10 +1187,6 @@ ReflowInput
 aReflowInput
 bool
 aForceAuto
-nscoord
-aFeasibleBSize
-nscoord
-aInfeasibleBSize
 )
 ;
 /
