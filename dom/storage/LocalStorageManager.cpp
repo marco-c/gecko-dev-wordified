@@ -714,7 +714,7 @@ namespace
 /
 /
 static
-nsCString
+nsAutoCString
 LocalStorageManager
 :
 :

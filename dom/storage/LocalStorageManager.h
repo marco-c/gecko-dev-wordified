@@ -279,7 +279,7 @@ aOriginNoSuffix
 )
 ;
 static
-nsCString
+nsAutoCString
 CreateOrigin
 (
 const
