@@ -256,6 +256,9 @@ nsIThreadInternal
 namespace
 mozilla
 {
+class
+ThrottledEventQueue
+;
 namespace
 dom
 {

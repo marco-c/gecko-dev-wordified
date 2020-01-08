@@ -562,9 +562,6 @@ AbstractThread
 class
 DOMEventTargetHelper
 ;
-class
-ThrottledEventQueue
-;
 namespace
 dom
 {
