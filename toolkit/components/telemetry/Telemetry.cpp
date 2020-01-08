@@ -5474,6 +5474,12 @@ Promise
 >
 (
 "
+TelemetryImpl
+:
+:
+GetLoadedModules
+:
+:
 Promise
 "
 promise
