@@ -643,6 +643,9 @@ for
 port
 in
 ports
+            
+if
+port
         
 )
         
