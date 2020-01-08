@@ -3953,6 +3953,15 @@ RangeItem
 RangeItem
 (
 )
+:
+mStartOffset
+{
+0
+}
+mEndOffset
+{
+0
+}
 {
 }
 RangeItem
