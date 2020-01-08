@@ -133,7 +133,7 @@ extra
 host
 :
 "
-bottom
+none
 "
 width
 :
