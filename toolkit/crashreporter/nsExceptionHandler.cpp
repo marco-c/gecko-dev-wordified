@@ -11115,9 +11115,8 @@ aNote
 )
 ;
 }
-static
 void
-RunAndCleanUpDelayedNotes
+NotifyCrashReporterClientCreated
 (
 )
 {
@@ -18316,10 +18315,6 @@ set_handle_debug_exceptions
 true
 )
 ;
-RunAndCleanUpDelayedNotes
-(
-)
-;
 #
 ifdef
 _WIN64
@@ -18571,10 +18566,6 @@ handlers
 gMagicChildCrashReportFd
 )
 ;
-RunAndCleanUpDelayedNotes
-(
-)
-;
 mozalloc_set_oom_abort_handler
 (
 AnnotateOOMAllocationSize
@@ -18757,10 +18748,6 @@ crashPipe
 BeginReading
 (
 )
-)
-;
-RunAndCleanUpDelayedNotes
-(
 )
 ;
 mozalloc_set_oom_abort_handler

@@ -273,6 +273,7 @@ Shmem
 aShmem
 )
 {
+{
 StaticMutexAutoLock
 lock
 (
@@ -291,6 +292,14 @@ new
 CrashReporterClient
 (
 aShmem
+)
+;
+}
+CrashReporter
+:
+:
+NotifyCrashReporterClientCreated
+(
 )
 ;
 }
