@@ -5032,7 +5032,7 @@ aFrame
 SVGObserverUtils
 :
 :
-MarkerBeginProperty
+MarkerStartProperty
 (
 )
 )
@@ -5066,7 +5066,7 @@ aFrame
 SVGObserverUtils
 :
 :
-MarkerMiddleProperty
+MarkerMidProperty
 (
 )
 )
