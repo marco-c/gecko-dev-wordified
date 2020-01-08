@@ -822,8 +822,10 @@ list
 .
 AutoTArray
 <
+RefPtr
+<
 DOMEventTargetHelper
-*
+>
 64
 >
 targetList
