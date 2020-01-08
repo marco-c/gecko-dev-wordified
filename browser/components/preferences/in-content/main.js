@@ -6321,10 +6321,6 @@ true
 "
 )
 ;
-newValue
-=
-false
-;
 }
 else
 {
@@ -6337,8 +6333,15 @@ disabled
 "
 )
 ;
+}
 newValue
 =
+pbAutoStartPref
+.
+value
+?
+false
+:
 startupPref
 .
 value
@@ -6349,7 +6352,6 @@ this
 .
 STARTUP_PREF_RESTORE_SESSION
 ;
-}
 if
 (
 checkbox
