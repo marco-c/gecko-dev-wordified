@@ -1886,6 +1886,11 @@ nsACString
 aScope
 )
 ;
+void
+NoteDOMContentLoaded
+(
+)
+;
 mozilla
 :
 :
