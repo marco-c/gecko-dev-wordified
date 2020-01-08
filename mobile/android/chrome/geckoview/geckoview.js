@@ -565,11 +565,6 @@ if
 (
 module
 .
-enabled
-&
-&
-module
-.
 impl
 )
 {
@@ -1117,6 +1112,14 @@ this
 _impl
 .
 onInit
+(
+)
+;
+this
+.
+_impl
+.
+onSettingsUpdate
 (
 )
 ;

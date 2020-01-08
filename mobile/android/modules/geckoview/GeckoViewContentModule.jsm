@@ -445,9 +445,6 @@ onEnable
 if
 (
 settings
-&
-&
-enabled
 )
 {
 this
