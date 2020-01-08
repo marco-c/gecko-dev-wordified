@@ -423,6 +423,23 @@ set
 (
 )
     
+init_timeout
+=
+300
+#
+Large
+timeout
+for
+cases
+where
+we
+'
+re
+booting
+an
+Android
+emulator
+    
 def
 __init__
 (
@@ -1056,4 +1073,12 @@ webdriver_port
 self
 .
 webdriver_port
+                                 
+"
+init_timeout
+"
+:
+self
+.
+init_timeout
 }

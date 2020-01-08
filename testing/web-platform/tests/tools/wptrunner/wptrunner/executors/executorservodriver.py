@@ -473,6 +473,14 @@ webdriver_port
         
 self
 .
+init_timeout
+=
+browser
+.
+init_timeout
+        
+self
+.
 session
 =
 None
@@ -497,22 +505,6 @@ WebDriver
 "
 "
         
-#
-Large
-timeout
-for
-the
-case
-where
-we
-'
-re
-booting
-an
-Android
-emulator
-.
-        
 wait_for_service
 (
 (
@@ -525,7 +517,9 @@ port
 )
 timeout
 =
-300
+self
+.
+init_timeout
 )
         
 self
