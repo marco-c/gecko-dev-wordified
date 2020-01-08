@@ -329,7 +329,7 @@ runtime
 {
 const
 {
-extra
+connectionParameters
 type
 }
 =
@@ -370,8 +370,6 @@ host
 port
 }
 =
-extra
-.
 connectionParameters
 ;
 return
@@ -399,8 +397,6 @@ const
 socketPath
 }
 =
-extra
-.
 connectionParameters
 ;
 return
@@ -424,7 +420,7 @@ client
 {
 const
 {
-extra
+model
 type
 }
 =
@@ -535,15 +531,7 @@ svg
 return
 {
 icon
-deviceName
-:
-extra
-?
-extra
-.
-deviceName
-:
-undefined
+model
 name
 type
 version
