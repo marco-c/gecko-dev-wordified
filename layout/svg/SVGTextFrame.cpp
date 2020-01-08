@@ -9024,7 +9024,12 @@ if
 correspondence
 )
 {
-NS_NOTREACHED
+/
+/
+FIXME
+bug
+903785
+NS_ERROR
 (
 "
 expected
