@@ -648,12 +648,7 @@ this
 .
 _browser
 .
-getInterface
-(
-Ci
-.
-nsIDocShell
-)
+docShell
 ;
 docShell
 .
