@@ -467,7 +467,7 @@ Emptiness
 .
 *
 /
-explicit
+explicit_operator
 inline
 operator
 bool

@@ -267,6 +267,10 @@ HB_SHAPER_DATA
 HB_SHAPER
 object
 )
+.
+get
+(
+)
 #
 endif
 #

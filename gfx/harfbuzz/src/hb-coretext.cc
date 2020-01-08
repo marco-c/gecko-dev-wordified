@@ -1997,11 +1997,14 @@ here
 .
 *
 /
-HB_SHAPER_DATA_GET
+HB_SHAPER_DATA
 (
+HB_SHAPER
 font
 )
-=
+.
+set_relaxed
+(
 (
 hb_coretext_font_data_t
 *
@@ -2009,6 +2012,7 @@ hb_coretext_font_data_t
 CFRetain
 (
 ct_font
+)
 )
 ;
 return
