@@ -3036,6 +3036,14 @@ enabled
 '
 true
 ]
+[
+'
+media
+.
+cubeb_max_input_streams
+'
+10000
+]
 ]
 }
 ;
