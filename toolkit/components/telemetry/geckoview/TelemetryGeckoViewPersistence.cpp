@@ -313,6 +313,8 @@ h
 #
 include
 "
+core
+/
 TelemetryScalar
 .
 h
@@ -320,6 +322,8 @@ h
 #
 include
 "
+core
+/
 TelemetryHistogram
 .
 h
