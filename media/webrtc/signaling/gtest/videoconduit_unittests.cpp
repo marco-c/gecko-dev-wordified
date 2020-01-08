@@ -446,6 +446,9 @@ VideoAdapter
 (
 mAdapter
 )
+GetCurrentThreadEventTarget
+(
+)
 )
 ;
 std

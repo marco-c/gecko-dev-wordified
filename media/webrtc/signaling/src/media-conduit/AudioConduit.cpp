@@ -808,7 +808,6 @@ WebrtcAudioConduit
 GetLocalSSRCs
 (
 )
-const
 {
 unsigned
 int

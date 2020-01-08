@@ -1290,7 +1290,6 @@ int
 GetLocalSSRCs
 (
 )
-const
 =
 0
 ;
@@ -2226,6 +2225,11 @@ RefPtr
 WebRtcCallWrapper
 >
 aCall
+nsCOMPtr
+<
+nsIEventTarget
+>
+aStsThread
 )
 ;
 enum

@@ -3009,6 +3009,9 @@ WebRtcCallWrapper
 Create
 (
 )
+GetCurrentThreadEventTarget
+(
+)
 )
 ;
 if
