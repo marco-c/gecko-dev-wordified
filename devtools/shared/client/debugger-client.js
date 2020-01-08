@@ -8491,6 +8491,17 @@ grip
 )
 ;
 }
+get
+transport
+(
+)
+{
+return
+this
+.
+_transport
+;
+}
 }
 ;
 eventSource
