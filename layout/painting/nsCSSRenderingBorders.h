@@ -1852,7 +1852,13 @@ nsRect
 aDirtyRect
 )
 ;
-void
+mozilla
+:
+:
+image
+:
+:
+ImgDrawResult
 CreateWebRenderCommands
 (
 nsDisplayItem

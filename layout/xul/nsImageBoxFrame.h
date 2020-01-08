@@ -514,10 +514,7 @@ uint32_t
 aFlags
 )
 ;
-Maybe
-<
 ImgDrawResult
->
 CreateWebRenderCommands
 (
 mozilla
