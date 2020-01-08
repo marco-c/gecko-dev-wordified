@@ -121,6 +121,9 @@ h
 class
 nsIRequest
 ;
+class
+nsIURI
+;
 namespace
 mozilla
 {
@@ -129,9 +132,6 @@ image
 {
 class
 Image
-;
-class
-ImageURL
 ;
 class
 MultipartImage
@@ -274,7 +274,7 @@ const
 nsCString
 &
 aMimeType
-ImageURL
+nsIURI
 *
 aURI
 bool
@@ -469,7 +469,7 @@ const
 nsCString
 &
 aMimeType
-ImageURL
+nsIURI
 *
 aURI
 uint32_t
@@ -495,7 +495,7 @@ const
 nsCString
 &
 aMimeType
-ImageURL
+nsIURI
 *
 aURI
 uint32_t

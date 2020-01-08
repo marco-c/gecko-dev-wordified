@@ -504,7 +504,7 @@ SetHasError
 )
 ;
 }
-ImageURL
+nsIURI
 *
 ImageWrapper
 :
@@ -512,6 +512,7 @@ ImageWrapper
 GetURI
 (
 )
+const
 {
 return
 mInnerImage

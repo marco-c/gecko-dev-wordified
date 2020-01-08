@@ -427,7 +427,7 @@ SetHasError
 )
 {
 }
-ImageURL
+nsIURI
 *
 DynamicImage
 :
@@ -435,6 +435,7 @@ DynamicImage
 GetURI
 (
 )
+const
 {
 return
 nullptr

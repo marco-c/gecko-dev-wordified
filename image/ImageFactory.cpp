@@ -227,7 +227,7 @@ static
 uint32_t
 ComputeImageFlags
 (
-ImageURL
+nsIURI
 *
 uri
 const
@@ -555,7 +555,7 @@ static
 void
 NotifyImageLoading
 (
-ImageURL
+nsIURI
 *
 aURI
 )
@@ -568,9 +568,9 @@ NS_IsMainThread
 )
 )
 {
-RefPtr
+nsCOMPtr
 <
-ImageURL
+nsIURI
 >
 uri
 (
@@ -717,7 +717,7 @@ const
 nsCString
 &
 aMimeType
-ImageURL
+nsIURI
 *
 aURI
 bool
@@ -1406,7 +1406,7 @@ const
 nsCString
 &
 aMimeType
-ImageURL
+nsIURI
 *
 aURI
 uint32_t
@@ -1563,7 +1563,7 @@ const
 nsCString
 &
 aMimeType
-ImageURL
+nsIURI
 *
 aURI
 uint32_t

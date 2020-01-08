@@ -318,12 +318,12 @@ SetHasError
 )
 override
 ;
-virtual
-ImageURL
+nsIURI
 *
 GetURI
 (
 )
+const
 override
 ;
 protected
