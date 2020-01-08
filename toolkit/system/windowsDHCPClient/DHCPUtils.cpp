@@ -344,11 +344,6 @@ variables
 *
 /
 uint32_t
-dwSize
-=
-0
-;
-uint32_t
 dwRetVal
 =
 0

@@ -267,6 +267,7 @@ aRequestIdStr
 ;
 protected
 :
+virtual
 ~
 WindowsNetworkFunctionsWrapper
 (
