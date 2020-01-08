@@ -2871,6 +2871,12 @@ y
 {
 AutoUnsafeCallWithABI
 unsafe
+(
+UnsafeABIStrictness
+:
+:
+AllowPendingExceptions
+)
 ;
 uint32_t
 n

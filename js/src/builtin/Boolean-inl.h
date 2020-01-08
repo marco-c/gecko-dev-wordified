@@ -194,6 +194,12 @@ escape
 .
 AutoUnsafeCallWithABI
 unsafe
+(
+UnsafeABIStrictness
+:
+:
+AllowPendingExceptions
+)
 ;
 JSObject
 *
