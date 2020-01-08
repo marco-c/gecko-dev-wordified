@@ -776,6 +776,12 @@ self
 browser_proc
 =
 None
+        
+self
+.
+_finished
+=
+False
     
 def
 start
@@ -1026,7 +1032,7 @@ wait_for_quit
 self
 timeout
 =
-5
+75
 )
 :
         
@@ -1087,6 +1093,12 @@ browser_proc
 kill
 (
 )
+        
+self
+.
+_finished
+=
+True
     
 def
 stop
