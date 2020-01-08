@@ -1215,13 +1215,13 @@ similar
 IgnoreValue
 }
 ;
+class
+TDZCheckCache
+;
 struct
 MOZ_STACK_CLASS
 BytecodeEmitter
 {
-class
-TDZCheckCache
-;
 class
 NestableControl
 ;
