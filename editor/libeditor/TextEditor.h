@@ -178,9 +178,6 @@ mozilla
 class
 AutoEditInitRulesTrigger
 ;
-class
-HTMLEditRules
-;
 enum
 class
 EditAction
