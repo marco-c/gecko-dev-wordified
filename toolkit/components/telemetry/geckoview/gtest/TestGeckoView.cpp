@@ -116,14 +116,14 @@ h
 #
 include
 "
-nsThreadUtils
+nsPrintfCString
 .
 h
 "
 #
 include
 "
-nsPrintfCString
+nsThreadUtils
 .
 h
 "

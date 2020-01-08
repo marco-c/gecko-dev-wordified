@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsPrintfCString
+jsapi
 .
 h
 "
@@ -140,14 +140,14 @@ h
 #
 include
 "
-ProcessedStack
+nsPrintfCString
 .
 h
 "
 #
 include
 "
-jsapi
+ProcessedStack
 .
 h
 "

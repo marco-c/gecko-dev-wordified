@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsITelemetry
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CycleCollectedJSContext
@@ -67,6 +60,13 @@ mozilla
 dom
 /
 ScriptSettings
+.
+h
+"
+#
+include
+"
+nsITelemetry
 .
 h
 "
