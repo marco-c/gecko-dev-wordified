@@ -435,6 +435,8 @@ dirtyFrameFn
 true
 )
 ;
+win
+.
 docShell
 .
 removeWeakReflowObserver
