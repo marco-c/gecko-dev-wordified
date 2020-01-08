@@ -10743,16 +10743,6 @@ mTextAlignLast
 /
 NS_STYLE_TEXT_ALIGN_
 *
-bool
-mTextAlignTrue
-:
-1
-;
-bool
-mTextAlignLastTrue
-:
-1
-;
 mozilla
 :
 :
