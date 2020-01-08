@@ -1563,7 +1563,6 @@ return
 style
 ;
 }
-;
 }
 function
 doctype
