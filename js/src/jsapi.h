@@ -32265,10 +32265,6 @@ DeserializeWasmModule
 PRFileDesc
 *
 bytecode
-BuildIdCharVector
-&
-&
-buildId
 JS
 :
 :
