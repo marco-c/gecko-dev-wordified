@@ -1107,6 +1107,11 @@ const
 TimeStamp
 &
 aFwdTime
+const
+bool
+aUseForTelemetry
+=
+true
 )
 ;
 TransactionId
@@ -1712,6 +1717,9 @@ const
 TimeStamp
 &
 aFwdTime
+const
+bool
+aUseForTelemetry
 )
 :
 mEpoch
@@ -1734,6 +1742,10 @@ mFwdTime
 (
 aFwdTime
 )
+mUseForTelemetry
+(
+aUseForTelemetry
+)
 {
 }
 wr
@@ -1753,6 +1765,9 @@ mTxnStartTime
 ;
 TimeStamp
 mFwdTime
+;
+bool
+mUseForTelemetry
 ;
 }
 ;
