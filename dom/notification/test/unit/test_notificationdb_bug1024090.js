@@ -19,7 +19,6 @@ run_next_test
 }
 /
 /
-/
 For
 bug
 1024090
@@ -245,8 +244,6 @@ notification
 :
 systemNotification
 requestID
-:
-requestID
 }
 )
 ;
@@ -341,8 +338,6 @@ origin
 systemNotification
 .
 origin
-requestID
-:
 requestID
 }
 )

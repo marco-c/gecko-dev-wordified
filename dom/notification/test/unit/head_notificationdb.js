@@ -70,8 +70,6 @@ org
 /
 "
 id
-:
-id
 title
 :
 app
@@ -229,8 +227,6 @@ handler
 =
 {
 receiveMessage
-:
-function
 (
 message
 )
