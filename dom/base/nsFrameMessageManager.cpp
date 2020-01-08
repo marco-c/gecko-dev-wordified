@@ -470,17 +470,6 @@ mozilla
 /
 dom
 /
-ResolveSystemBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SameProcessMessageQueue
 .
 h
