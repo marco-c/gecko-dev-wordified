@@ -247,7 +247,7 @@ ownerGlobal
 ;
 win
 .
-TrackingProtection
+ContentBlocking
 .
 dontShowIntroPanelAgain
 (

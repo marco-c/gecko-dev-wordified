@@ -10026,7 +10026,7 @@ init
 (
 )
 ;
-TrackingProtection
+ContentBlocking
 .
 init
 (
@@ -13917,7 +13917,7 @@ uninit
 (
 )
 ;
-TrackingProtection
+ContentBlocking
 .
 uninit
 (
@@ -34148,7 +34148,7 @@ _state
 uri
 )
 ;
-TrackingProtection
+ContentBlocking
 .
 onSecurityChange
 (
