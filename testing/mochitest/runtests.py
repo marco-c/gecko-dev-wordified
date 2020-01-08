@@ -7021,7 +7021,7 @@ kwargs
 )
     
 def
-extraPrefs
+parseExtraPrefs
 (
 self
 prefs
@@ -15801,11 +15801,6 @@ set_preferences
 self
 .
 extraPrefs
-(
-options
-.
-extraPrefs
-)
 )
         
 return
@@ -20440,6 +20435,19 @@ cleanup
 "
 "
         
+self
+.
+extraPrefs
+=
+self
+.
+parseExtraPrefs
+(
+options
+.
+extraPrefs
+)
+        
 #
 a11y
 and
@@ -20496,20 +20504,6 @@ e10s
 =
 False
         
-mozinfo
-.
-update
-(
-{
-"
-e10s
-"
-:
-options
-.
-e10s
-}
-)
 #
 for
 test
@@ -20522,6 +20516,15 @@ mozinfo
 update
 (
 {
+            
+"
+e10s
+"
+:
+options
+.
+e10s
+            
 "
 headless
 "
@@ -20529,14 +20532,30 @@ headless
 options
 .
 headless
+            
+"
+serviceworker_e10s
+"
+:
+self
+.
+extraPrefs
+.
+get
+(
+                
+'
+dom
+.
+serviceWorkers
+.
+parent_intercept
+'
+False
+)
+        
 }
 )
-#
-for
-test
-manifest
-parsing
-.
         
 if
 options
@@ -20776,12 +20795,13 @@ result
         
 origPrefs
 =
-options
+self
 .
 extraPrefs
-[
-:
-]
+.
+copy
+(
+)
         
 for
 m
@@ -20827,14 +20847,15 @@ m
 0
 ]
             
-options
+self
 .
 extraPrefs
 =
 origPrefs
-[
-:
-]
+.
+copy
+(
+)
             
 if
 prefs
@@ -20888,13 +20909,18 @@ prefs
 )
 )
                 
-options
+self
 .
 extraPrefs
 .
-extend
+update
+(
+self
+.
+parseExtraPrefs
 (
 prefs
+)
 )
             
 #
@@ -22427,6 +22453,42 @@ format
 options
 .
 e10s
+)
+)
+                
+self
+.
+log
+.
+info
+(
+"
+runtests
+.
+py
+|
+Running
+with
+serviceworker_e10s
+:
+{
+}
+"
+.
+format
+(
+                    
+mozinfo
+.
+info
+.
+get
+(
+'
+serviceworker_e10s
+'
+False
+)
 )
 )
                 
