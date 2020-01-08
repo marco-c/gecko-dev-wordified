@@ -224,7 +224,7 @@ app
 >
 app
 instanceof
-Log
+LogManager
 .
 StorageStreamAppender
 )
