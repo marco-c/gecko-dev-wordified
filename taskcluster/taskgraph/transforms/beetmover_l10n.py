@@ -118,9 +118,9 @@ dep_job
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         
@@ -180,9 +180,9 @@ beet_description
 {
                 
 '
-dependent
+primary
 -
-task
+dependency
 '
 :
 dep_job

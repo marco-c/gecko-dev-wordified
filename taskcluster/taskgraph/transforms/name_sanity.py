@@ -67,9 +67,9 @@ consistently
 Uses
 attributes
 from
-dependent
+primary
 -
-task
+dependency
 or
 primary
 -
@@ -174,9 +174,9 @@ dep_job
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         

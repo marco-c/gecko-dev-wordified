@@ -137,9 +137,9 @@ dep_task
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         
@@ -147,9 +147,9 @@ del
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         

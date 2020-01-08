@@ -116,17 +116,17 @@ dep_task
 job
 [
 "
-dependent
+primary
 -
-task
+dependency
 "
 ]
         
 if
 '
-dependent
+primary
 -
-task
+dependency
 '
 in
 job
@@ -136,9 +136,9 @@ del
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         

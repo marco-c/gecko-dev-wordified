@@ -311,9 +311,9 @@ dependent_task
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         

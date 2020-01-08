@@ -80,6 +80,14 @@ copy
 from
 taskgraph
 .
+loader
+.
+single_dep
+import
+schema
+from
+taskgraph
+.
 transforms
 .
 base
@@ -107,8 +115,6 @@ validate_schema
 optionally_keyed_by
     
 resolve_keyed_by
-    
-Schema
 )
 from
 taskgraph
@@ -267,36 +273,11 @@ basestring
 )
 packaging_description_schema
 =
-Schema
+schema
+.
+extend
 (
 {
-    
-#
-the
-dependant
-task
-(
-object
-)
-for
-this
-job
-used
-to
-inform
-repackaging
-.
-    
-Required
-(
-'
-dependent
--
-task
-'
-)
-:
-object
     
 #
 depname
@@ -591,9 +572,9 @@ job
 get
 (
 '
-dependent
+primary
 -
-task
+dependency
 '
 object
 )
@@ -691,9 +672,9 @@ dep
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         
@@ -833,9 +814,9 @@ dep_job
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         
@@ -899,9 +880,9 @@ dep_job
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         

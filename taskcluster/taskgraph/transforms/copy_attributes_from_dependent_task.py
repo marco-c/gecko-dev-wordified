@@ -138,9 +138,9 @@ copy_attributes_from_dependent_job
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
 )
