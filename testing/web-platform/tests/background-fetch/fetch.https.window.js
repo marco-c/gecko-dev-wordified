@@ -689,7 +689,7 @@ getMessageFromServiceWorker
 assert_equals
 (
 '
-backgroundfetched
+backgroundfetchsuccess
 '
 type
 )

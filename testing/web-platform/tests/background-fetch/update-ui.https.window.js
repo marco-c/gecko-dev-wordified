@@ -44,7 +44,7 @@ Covers
 functionality
 provided
 by
-BackgroundFetchUpdateEvent
+BackgroundFetchUpdateUIEvent
 .
 updateUI
 (
