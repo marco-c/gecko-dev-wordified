@@ -35585,7 +35585,7 @@ to
 the
 list
 .
-Node
+NullaryNodeType
 exportSpec
 =
 handler
@@ -42264,7 +42264,7 @@ typename
 ParseHandler
 :
 :
-Node
+ContinueStatementType
 GeneralParser
 <
 ParseHandler
@@ -42435,7 +42435,7 @@ typename
 ParseHandler
 :
 :
-Node
+BreakStatementType
 GeneralParser
 <
 ParseHandler
@@ -45230,7 +45230,7 @@ typename
 ParseHandler
 :
 :
-Node
+DebuggerStatementType
 GeneralParser
 <
 ParseHandler
@@ -61893,7 +61893,7 @@ null
 (
 )
 ;
-Node
+NullaryNodeType
 newHolder
 =
 handler
@@ -62079,7 +62079,7 @@ return
 false
 ;
 }
-Node
+NullaryNodeType
 targetHolder
 =
 handler
@@ -62157,7 +62157,7 @@ Import
 )
 )
 ;
-Node
+NullaryNodeType
 importHolder
 =
 handler
@@ -62289,7 +62289,7 @@ null
 )
 ;
 }
-Node
+NullaryNodeType
 metaHolder
 =
 handler

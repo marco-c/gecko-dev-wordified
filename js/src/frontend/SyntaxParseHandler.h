@@ -1465,7 +1465,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BooleanLiteralType
 newBooleanLiteral
 (
 bool
@@ -1558,7 +1558,7 @@ return
 NodeGeneric
 ;
 }
-Node
+NullLiteralType
 newNullLiteral
 (
 const
@@ -1571,7 +1571,7 @@ return
 NodeGeneric
 ;
 }
-Node
+RawUndefinedLiteralType
 newRawUndefinedLiteral
 (
 const
@@ -1887,9 +1887,9 @@ NodeGeneric
 BinaryNodeType
 newNewTarget
 (
-Node
+NullaryNodeType
 newHolder
-Node
+NullaryNodeType
 targetHolder
 )
 {
@@ -1897,7 +1897,7 @@ return
 NodeGeneric
 ;
 }
-Node
+NullaryNodeType
 newPosHolder
 (
 const
@@ -2151,7 +2151,7 @@ return
 true
 ;
 }
-Node
+NullaryNodeType
 newEmptyStatement
 (
 const
@@ -2224,7 +2224,7 @@ return
 NodeGeneric
 ;
 }
-Node
+NullaryNodeType
 newExportBatchSpec
 (
 const
@@ -2240,9 +2240,9 @@ NodeGeneric
 BinaryNodeType
 newImportMeta
 (
-Node
+NullaryNodeType
 importHolder
-Node
+NullaryNodeType
 metaHolder
 )
 {
@@ -2253,7 +2253,7 @@ NodeGeneric
 BinaryNodeType
 newCallImport
 (
-Node
+NullaryNodeType
 importHolder
 Node
 singleArg
@@ -2377,7 +2377,7 @@ return
 NodeGeneric
 ;
 }
-Node
+ContinueStatementType
 newContinueStatement
 (
 PropertyName
@@ -2393,7 +2393,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BreakStatementType
 newBreakStatement
 (
 PropertyName
@@ -2498,7 +2498,7 @@ return
 NodeGeneric
 ;
 }
-Node
+DebuggerStatementType
 newDebuggerStatement
 (
 const

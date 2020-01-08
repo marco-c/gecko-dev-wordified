@@ -950,8 +950,7 @@ pos
 )
 ;
 }
-ParseNode
-*
+BooleanLiteralType
 newBooleanLiteral
 (
 bool
@@ -1205,8 +1204,7 @@ thisName
 )
 ;
 }
-ParseNode
-*
+NullLiteralType
 newNullLiteral
 (
 const
@@ -1225,8 +1223,7 @@ pos
 )
 ;
 }
-ParseNode
-*
+RawUndefinedLiteralType
 newRawUndefinedLiteral
 (
 const
@@ -1758,7 +1755,7 @@ Array
 )
 )
 ;
-ParseNode
+NullaryNode
 *
 elision
 =
@@ -2158,9 +2155,9 @@ pos
 BinaryNodeType
 newNewTarget
 (
-Node
+NullaryNodeType
 newHolder
-Node
+NullaryNodeType
 targetHolder
 )
 {
@@ -2180,8 +2177,7 @@ targetHolder
 )
 ;
 }
-ParseNode
-*
+NullaryNodeType
 newPosHolder
 (
 const
@@ -3324,7 +3320,7 @@ begin
 1
 )
 ;
-ParseNode
+NullaryNode
 *
 makeGen
 =
@@ -3483,8 +3479,7 @@ value
 )
 ;
 }
-ParseNode
-*
+NullaryNodeType
 newEmptyStatement
 (
 const
@@ -3723,8 +3718,7 @@ exportName
 )
 ;
 }
-ParseNode
-*
+NullaryNodeType
 newExportBatchSpec
 (
 const
@@ -3751,9 +3745,9 @@ pos
 BinaryNodeType
 newImportMeta
 (
-Node
+NullaryNodeType
 importHolder
-Node
+NullaryNodeType
 metaHolder
 )
 {
@@ -3776,7 +3770,7 @@ metaHolder
 BinaryNodeType
 newCallImport
 (
-Node
+NullaryNodeType
 importHolder
 Node
 singleArg
@@ -4133,8 +4127,7 @@ begin
 )
 ;
 }
-ParseNode
-*
+ContinueStatementType
 newContinueStatement
 (
 PropertyName
@@ -4157,8 +4150,7 @@ pos
 )
 ;
 }
-ParseNode
-*
+BreakStatementType
 newBreakStatement
 (
 PropertyName
@@ -4394,8 +4386,7 @@ pos
 )
 ;
 }
-ParseNode
-*
+DebuggerStatementType
 newDebuggerStatement
 (
 const
