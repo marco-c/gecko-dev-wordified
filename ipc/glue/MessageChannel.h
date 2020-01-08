@@ -3539,6 +3539,9 @@ mMonitor
 Side
 mSide
 ;
+bool
+mIsCrossProcess
+;
 MessageLink
 *
 mLink
