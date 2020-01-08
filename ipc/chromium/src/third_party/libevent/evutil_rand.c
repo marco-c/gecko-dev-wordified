@@ -1056,6 +1056,13 @@ __OpenBSD__
 !
 defined
 (
+__FreeBSD__
+)
+&
+&
+!
+defined
+(
 ANDROID
 )
 void
