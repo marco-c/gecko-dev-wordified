@@ -277,7 +277,7 @@ IsEmpty
 {
 /
 /
-WebM
+Ogg
 guarantees
 that
 the
@@ -286,11 +286,7 @@ codecs
 it
 contained
 are
-vp8
-vp9
-opus
-or
-vorbis
+supported
 .
 return
 true
@@ -362,15 +358,6 @@ vorbis
 )
 |
 |
-(
-StaticPrefs
-:
-:
-MediaOggFlacEnabled
-(
-)
-&
-&
 codec
 .
 EqualsLiteral
@@ -378,7 +365,6 @@ EqualsLiteral
 "
 flac
 "
-)
 )
 )
 {
