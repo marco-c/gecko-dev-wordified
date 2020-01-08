@@ -575,6 +575,13 @@ aSize
 {
 MOZ_ASSERT
 (
+NS_IsMainThread
+(
+)
+)
+;
+MOZ_ASSERT
+(
 aSize
 >
 0
@@ -1052,6 +1059,13 @@ void
 aPtr
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 MOZ_ASSERT
 (
 aCode
