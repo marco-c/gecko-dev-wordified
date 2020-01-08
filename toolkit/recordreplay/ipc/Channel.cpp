@@ -967,6 +967,17 @@ MessageType
 :
 :
 FatalError
+|
+|
+aMsg
+.
+mType
+=
+=
+MessageType
+:
+:
+MiddlemanCallRequest
 )
 ;
 /
