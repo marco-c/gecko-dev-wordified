@@ -641,7 +641,7 @@ happen
 *
 in
 "
-_computeFields
+computeFields
 "
 .
 We
@@ -690,7 +690,7 @@ followed
 by
 *
 "
-_computeFields
+computeFields
 "
 can
 make
@@ -2330,7 +2330,7 @@ record
 ;
 this
 .
-_computeFields
+computeFields
 (
 recordToSave
 )
@@ -2816,7 +2816,7 @@ changeCounter
 }
 this
 .
-_computeFields
+computeFields
 (
 recordFound
 )
@@ -4995,7 +4995,7 @@ field
 }
 this
 .
-_computeFields
+computeFields
 (
 newRecord
 )
@@ -5150,7 +5150,7 @@ true
 ;
 this
 .
-_computeFields
+computeFields
 (
 forkedLocalRecord
 )
@@ -7603,7 +7603,7 @@ hasChanges
 =
 this
 .
-_computeFields
+computeFields
 (
 record
 )
@@ -8063,7 +8063,7 @@ to
 be
 inherited
 .
-_computeFields
+computeFields
 (
 record
 )
@@ -8164,7 +8164,7 @@ name
 ;
 }
 }
-_computeFields
+computeFields
 (
 address
 )
@@ -10138,7 +10138,7 @@ CREDIT_CARD_SCHEMA_VERSION
 )
 ;
 }
-_computeFields
+computeFields
 (
 creditCard
 )
