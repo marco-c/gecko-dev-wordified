@@ -3011,7 +3011,7 @@ nonexistent
 }
 Cr
 .
-NS_ERROR_UNEXPECTED
+NS_ERROR_ILLEGAL_VALUE
 )
 ;
 do_check_throws
@@ -3034,7 +3034,7 @@ nonexistent
 }
 Cr
 .
-NS_ERROR_UNEXPECTED
+NS_ERROR_ILLEGAL_VALUE
 )
 ;
 /
