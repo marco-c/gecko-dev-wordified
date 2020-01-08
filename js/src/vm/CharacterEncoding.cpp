@@ -1623,9 +1623,8 @@ buffer
 enum
 InflateUTF8Action
 {
-CountAndReportInvalids
-CountAndIgnoreInvalids
-AssertNoInvalids
+Count
+Nop
 Copy
 FindEncoding
 }
@@ -1719,7 +1718,7 @@ if
 Action
 !
 =
-AssertNoInvalids
+Nop
 )
 {
 *
@@ -2423,7 +2422,7 @@ if
 Action
 !
 =
-AssertNoInvalids
+Nop
 )
 {
 if
@@ -2680,7 +2679,7 @@ if
 Action
 !
 =
-AssertNoInvalids
+Nop
 )
 {
 RequireUTF16
@@ -2695,7 +2694,7 @@ if
 Action
 !
 =
-AssertNoInvalids
+Nop
 &
 &
 Action
@@ -2961,7 +2960,7 @@ outlen
 return
 InflateUTF8StringHelper
 <
-CountAndReportInvalids
+Count
 OnUTF8Error
 :
 :
@@ -3014,7 +3013,7 @@ c_str
 return
 InflateUTF8StringHelper
 <
-CountAndReportInvalids
+Count
 OnUTF8Error
 :
 :
@@ -3051,7 +3050,7 @@ outlen
 return
 InflateUTF8StringHelper
 <
-CountAndIgnoreInvalids
+Count
 OnUTF8Error
 :
 :
@@ -3107,7 +3106,7 @@ c_str
 return
 InflateUTF8StringHelper
 <
-CountAndIgnoreInvalids
+Count
 OnUTF8Error
 :
 :
@@ -3205,7 +3204,7 @@ outlen
 return
 InflateUTF8StringHelper
 <
-CountAndReportInvalids
+Count
 OnUTF8Error
 :
 :
@@ -3239,7 +3238,7 @@ outlen
 return
 InflateUTF8StringHelper
 <
-CountAndIgnoreInvalids
+Count
 OnUTF8Error
 :
 :
@@ -3283,7 +3282,7 @@ aLength
 ;
 InflateUTF8StringToBuffer
 <
-AssertNoInvalids
+Nop
 OnUTF8Error
 :
 :
