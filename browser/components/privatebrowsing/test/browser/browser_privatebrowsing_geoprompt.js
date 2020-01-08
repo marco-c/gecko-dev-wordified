@@ -329,10 +329,11 @@ gBrowser
 .
 selectedBrowser
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 testPageURL
 )
 ;
@@ -375,10 +376,11 @@ gBrowser
 .
 selectedBrowser
 ;
-privateBrowser
+BrowserTestUtils
 .
 loadURI
 (
+privateBrowser
 testPageURL
 )
 ;

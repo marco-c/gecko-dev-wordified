@@ -175,12 +175,13 @@ opens
 a
 new
 tab
-gBrowser
-.
-selectedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
+.
+selectedBrowser
 "
 about
 :

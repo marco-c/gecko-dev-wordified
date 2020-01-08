@@ -2945,10 +2945,11 @@ a
 different
 process
 .
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 about
 :

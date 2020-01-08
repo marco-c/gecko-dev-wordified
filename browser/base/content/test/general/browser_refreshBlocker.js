@@ -689,10 +689,11 @@ true
 ]
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 refreshPage
 +
 "

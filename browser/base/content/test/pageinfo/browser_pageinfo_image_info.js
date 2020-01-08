@@ -454,10 +454,11 @@ true
 }
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 URI
 )
 ;
