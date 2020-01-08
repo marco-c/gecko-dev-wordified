@@ -358,6 +358,18 @@ text
 eRemoveTextProperty
 /
 /
+eRemoveAllTextProperties
+indicate
+to
+remove
+all
+styles
+from
+text
+.
+eRemoveAllTextProperties
+/
+/
 eComputeTextToOutput
 indicates
 to
@@ -610,7 +622,6 @@ to
 innerHTML
 .
 eInsertHTMLSource
-resetTextProperties
 setAbsolutePosition
 removeAbsolutePosition
 decreaseZIndex
