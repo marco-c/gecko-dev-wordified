@@ -4566,7 +4566,6 @@ class
 EmitElemOption
 {
 Get
-Set
 Call
 IncDec
 CompoundAssign
@@ -5941,13 +5940,11 @@ false
 ;
 MOZ_MUST_USE
 bool
-emitSuperPropOp
+emitSuperGetProp
 (
 ParseNode
 *
 pn
-JSOp
-op
 bool
 isCall
 =
@@ -5972,13 +5969,11 @@ Get
 ;
 MOZ_MUST_USE
 bool
-emitSuperElemOp
+emitSuperGetElem
 (
 ParseNode
 *
 pn
-JSOp
-op
 bool
 isCall
 =
