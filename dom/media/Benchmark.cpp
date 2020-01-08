@@ -368,6 +368,8 @@ VP9Benchmark
 :
 IsVP9DecodeFast
 (
+bool
+aDefault
 )
 {
 /
@@ -662,7 +664,7 @@ decodeFps
 )
 {
 return
-false
+aDefault
 ;
 }
 return
