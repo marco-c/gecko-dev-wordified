@@ -38200,12 +38200,9 @@ isGridItem
 blockStyleCoord
 -
 >
-GetUnit
+IsAutoOrEnum
 (
 )
-=
-=
-eStyleUnit_Auto
 &
 &
 !
