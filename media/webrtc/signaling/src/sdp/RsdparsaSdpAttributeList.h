@@ -336,15 +336,6 @@ const
 override
 ;
 const
-SdpSsrcGroupAttributeList
-&
-GetSsrcGroup
-(
-)
-const
-override
-;
-const
 SdpDtlsMessageAttribute
 &
 GetDtlsMessage

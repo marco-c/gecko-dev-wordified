@@ -346,16 +346,6 @@ override
 ;
 virtual
 const
-SdpSsrcGroupAttributeList
-&
-GetSsrcGroup
-(
-)
-const
-override
-;
-virtual
-const
 SdpDtlsMessageAttribute
 &
 GetDtlsMessage
