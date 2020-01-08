@@ -187,7 +187,7 @@ selectNode
 (
 "
 #
-scale
+tree
 "
 inspector
 )
