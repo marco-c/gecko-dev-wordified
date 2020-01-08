@@ -3191,7 +3191,7 @@ this
 .
 _client
 .
-attachTab
+attachTarget
 (
 this
 .
