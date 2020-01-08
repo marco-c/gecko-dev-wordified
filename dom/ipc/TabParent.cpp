@@ -9486,7 +9486,7 @@ TabParent
 :
 RecvSyncMessage
 "
-EVENTS
+OTHER
 aMessage
 )
 ;
@@ -9590,7 +9590,7 @@ TabParent
 :
 RecvRpcMessage
 "
-EVENTS
+OTHER
 aMessage
 )
 ;
@@ -9688,7 +9688,7 @@ TabParent
 :
 RecvAsyncMessage
 "
-EVENTS
+OTHER
 aMessage
 )
 ;
@@ -18237,10 +18237,10 @@ mInitialDataTransferItems
 .
 AppendElement
 (
-std
+mozilla
 :
 :
-move
+Move
 (
 aTransfers
 [

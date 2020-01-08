@@ -4488,7 +4488,7 @@ nsAppShell
 :
 ProcessNextNativeEvent
 "
-EVENTS
+OTHER
 )
 ;
 mozilla
@@ -4627,7 +4627,7 @@ ProcessNextNativeEvent
 :
 Wait
 "
-EVENTS
+OTHER
 )
 ;
 mozilla
@@ -4910,10 +4910,10 @@ runAndNotify
 >
 >
 (
-std
+mozilla
 :
 :
-move
+Move
 (
 runAndNotify
 )
@@ -4931,10 +4931,10 @@ runAndNotifyEvent
 eventFactory
 )
 (
-std
+mozilla
 :
 :
-move
+Move
 (
 runAndNotifyEvent
 )
@@ -4948,10 +4948,10 @@ mEventQueue
 .
 Post
 (
-std
+mozilla
 :
 :
-move
+Move
 (
 runAndNotifyEvent
 )

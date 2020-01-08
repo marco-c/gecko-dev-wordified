@@ -4613,7 +4613,7 @@ nsViewManager
 :
 DispatchEvent
 "
-EVENTS
+OTHER
 )
 ;
 WidgetMouseEvent

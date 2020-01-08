@@ -3898,10 +3898,7 @@ new
 APZEventState
 (
 mPuppetWidget
-std
-:
-:
-move
+Move
 (
 callback
 )
@@ -12871,7 +12868,7 @@ TabChild
 :
 RecvAsyncMessage
 "
-EVENTS
+OTHER
 aMessage
 )
 ;
@@ -19921,10 +19918,7 @@ TabGroup
 Dispatch
 (
 aCategory
-std
-:
-:
-move
+Move
 (
 aRunnable
 )
@@ -19938,10 +19932,7 @@ DispatcherTrait
 Dispatch
 (
 aCategory
-std
-:
-:
-move
+Move
 (
 aRunnable
 )
