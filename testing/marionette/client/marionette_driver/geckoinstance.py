@@ -532,6 +532,20 @@ api_url
 "
 "
         
+#
+Disable
+extensions
+compatibility
+dialogue
+.
+        
+#
+Removed
+in
+Firefox
+61
+.
+        
 "
 extensions
 .
