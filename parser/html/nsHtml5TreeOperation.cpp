@@ -2289,11 +2289,15 @@ not
 .
 if
 (
-nsContentUtils
+dom
 :
 :
-IsCustomElementsEnabled
+CustomElementRegistry
+:
+:
+IsCustomElementEnabled
 (
+document
 )
 )
 {
