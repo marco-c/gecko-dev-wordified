@@ -121307,6 +121307,7 @@ kMaxMessageSize
 )
 {
 nsPrintfCString
+warning
 (
 "
 The
@@ -121333,6 +121334,15 @@ bytes
 "
 responseSize
 kMaxMessageSize
+)
+;
+NS_WARNING
+(
+warning
+.
+get
+(
+)
 )
 ;
 return
