@@ -5210,16 +5210,6 @@ MOZ_ASSERT
 functionWrappers_
 )
 ;
-MOZ_ASSERT
-(
-functionWrappers_
--
->
-initialized
-(
-)
-)
-;
 uint32_t
 wrapperOffset
 =
