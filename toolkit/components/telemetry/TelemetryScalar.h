@@ -178,12 +178,6 @@ h
 namespace
 mozilla
 {
-#
-if
-defined
-(
-MOZ_TELEMETRY_GECKOVIEW
-)
 /
 /
 This
@@ -198,8 +192,6 @@ persistence
 class
 JSONWriter
 ;
-#
-endif
 namespace
 Telemetry
 {
@@ -820,12 +812,6 @@ vice
 -
 versa
 .
-#
-if
-defined
-(
-MOZ_TELEMETRY_GECKOVIEW
-)
 nsresult
 SerializeScalars
 (
@@ -874,11 +860,6 @@ HandleValue
 aData
 )
 ;
-#
-endif
-/
-/
-MOZ_TELEMETRY_GECKOVIEW
 }
 /
 /

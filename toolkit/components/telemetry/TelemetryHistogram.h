@@ -134,12 +134,6 @@ nsXULAppAPI
 .
 h
 "
-#
-if
-defined
-(
-MOZ_TELEMETRY_GECKOVIEW
-)
 namespace
 mozilla
 {
@@ -158,8 +152,6 @@ class
 JSONWriter
 ;
 }
-#
-endif
 /
 /
 This
@@ -648,12 +640,6 @@ vice
 -
 versa
 .
-#
-if
-defined
-(
-MOZ_TELEMETRY_GECKOVIEW
-)
 nsresult
 SerializeHistograms
 (
@@ -702,11 +688,6 @@ HandleValue
 aData
 )
 ;
-#
-endif
-/
-/
-MOZ_TELEMETRY_GECKOVIEW
 }
 /
 /
