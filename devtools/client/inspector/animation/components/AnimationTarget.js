@@ -636,6 +636,14 @@ this
 state
 .
 nodeFront
+{
+hideInfoBar
+:
+true
+hideGuides
+:
+true
+}
 )
 ;
 }
