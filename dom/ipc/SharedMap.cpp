@@ -162,7 +162,7 @@ mozilla
 /
 dom
 /
-IPCBlobUtils
+ContentProcessMessageManager
 .
 h
 "
@@ -173,7 +173,7 @@ mozilla
 /
 dom
 /
-ProcessGlobal
+IPCBlobUtils
 .
 h
 "
@@ -1727,7 +1727,7 @@ mReadOnly
 new
 SharedMap
 (
-ProcessGlobal
+ContentProcessMessageManager
 :
 :
 Get

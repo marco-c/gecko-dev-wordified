@@ -141,7 +141,7 @@ mozilla
 /
 dom
 /
-ProcessGlobal
+ContentProcessMessageManager
 .
 h
 "
