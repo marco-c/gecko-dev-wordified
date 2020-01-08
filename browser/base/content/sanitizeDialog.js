@@ -1513,9 +1513,7 @@ document
 querySelectorAll
 (
 "
-#
-itemList
->
+checkbox
 [
 preference
 ]

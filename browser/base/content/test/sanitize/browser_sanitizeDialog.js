@@ -2621,9 +2621,7 @@ document
 querySelectorAll
 (
 "
-#
-itemList
->
+checkbox
 [
 preference
 =
@@ -2684,9 +2682,7 @@ document
 querySelectorAll
 (
 "
-#
-itemList
->
+checkbox
 [
 preference
 =
@@ -2916,9 +2912,7 @@ document
 querySelectorAll
 (
 "
-#
-itemList
->
+checkbox
 [
 preference
 =
@@ -3094,9 +3088,7 @@ document
 querySelectorAll
 (
 "
-#
-itemList
->
+checkbox
 [
 preference
 =
@@ -5015,9 +5007,7 @@ document
 querySelectorAll
 (
 "
-#
-itemList
->
+checkbox
 [
 preference
 =
@@ -5104,9 +5094,7 @@ document
 querySelectorAll
 (
 "
-#
-itemList
->
+checkbox
 [
 preference
 ]
