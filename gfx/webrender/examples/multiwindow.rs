@@ -76,6 +76,10 @@ extern
 crate
 webrender
 ;
+extern
+crate
+winit
+;
 use
 app_units
 :
@@ -126,7 +130,7 @@ Notifier
 {
 events_proxy
 :
-glutin
+winit
 :
 :
 EventsLoopProxy
@@ -139,7 +143,7 @@ new
 (
 events_proxy
 :
-glutin
+winit
 :
 :
 EventsLoopProxy
@@ -253,7 +257,7 @@ Window
 {
 events_loop
 :
-glutin
+winit
 :
 :
 EventsLoop
@@ -322,7 +326,7 @@ Self
 let
 events_loop
 =
-glutin
+winit
 :
 :
 EventsLoop
@@ -373,7 +377,7 @@ opengles_version
 let
 window_builder
 =
-glutin
+winit
 :
 :
 WindowBuilder
@@ -841,7 +845,7 @@ global_event
 match
 global_event
 {
-glutin
+winit
 :
 :
 Event
@@ -858,15 +862,15 @@ event
 match
 event
 {
-glutin
+winit
 :
 :
 WindowEvent
 :
 :
-Closed
+CloseRequested
 |
-glutin
+winit
 :
 :
 WindowEvent
@@ -876,7 +880,7 @@ KeyboardInput
 {
 input
 :
-glutin
+winit
 :
 :
 KeyboardInput
@@ -885,7 +889,7 @@ virtual_keycode
 :
 Some
 (
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -906,7 +910,7 @@ do_exit
 =
 true
 }
-glutin
+winit
 :
 :
 WindowEvent
@@ -916,14 +920,14 @@ KeyboardInput
 {
 input
 :
-glutin
+winit
 :
 :
 KeyboardInput
 {
 state
 :
-glutin
+winit
 :
 :
 ElementState
@@ -934,7 +938,7 @@ virtual_keycode
 :
 Some
 (
-glutin
+winit
 :
 :
 VirtualKeyCode

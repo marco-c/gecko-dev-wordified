@@ -255,6 +255,10 @@ webrender
 ;
 extern
 crate
+winit
+;
+extern
+crate
 yaml_rust
 ;
 mod
@@ -338,10 +342,7 @@ use
 glutin
 :
 :
-{
 GlContext
-VirtualKeyCode
-}
 ;
 use
 perf
@@ -482,6 +483,12 @@ api
 :
 :
 *
+;
+use
+winit
+:
+:
+VirtualKeyCode
 ;
 use
 wrench
@@ -1022,7 +1029,7 @@ Gl
 )
 Angle
 (
-glutin
+winit
 :
 :
 Window
@@ -1165,7 +1172,7 @@ inner_size
 window
 :
 &
-glutin
+winit
 :
 :
 Window
@@ -1243,7 +1250,7 @@ inner_size
 window
 :
 &
-glutin
+winit
 :
 :
 Window
@@ -1688,7 +1695,7 @@ events_loop
 &
 Option
 <
-glutin
+winit
 :
 :
 EventsLoop
@@ -1762,7 +1769,7 @@ vsync
 let
 window_builder
 =
-glutin
+winit
 :
 :
 WindowBuilder
@@ -2885,7 +2892,7 @@ else
 {
 Some
 (
-glutin
+winit
 :
 :
 EventsLoop
@@ -3964,7 +3971,7 @@ mut
 Wrench
 global_event
 :
-glutin
+winit
 :
 :
 Event
@@ -4032,7 +4039,7 @@ false
 match
 global_event
 {
-glutin
+winit
 :
 :
 Event
@@ -4047,7 +4054,7 @@ do_render
 true
 ;
 }
-glutin
+winit
 :
 :
 Event
@@ -4064,18 +4071,18 @@ event
 match
 event
 {
-glutin
+winit
 :
 :
 WindowEvent
 :
 :
-Closed
+CloseRequested
 =
 >
 {
 return
-glutin
+winit
 :
 :
 ControlFlow
@@ -4084,7 +4091,7 @@ ControlFlow
 Break
 ;
 }
-glutin
+winit
 :
 :
 WindowEvent
@@ -4092,7 +4099,7 @@ WindowEvent
 :
 Refresh
 |
-glutin
+winit
 :
 :
 WindowEvent
@@ -4111,7 +4118,7 @@ do_render
 true
 ;
 }
-glutin
+winit
 :
 :
 WindowEvent
@@ -4151,7 +4158,7 @@ do_render
 true
 ;
 }
-glutin
+winit
 :
 :
 WindowEvent
@@ -4161,14 +4168,14 @@ KeyboardInput
 {
 input
 :
-glutin
+winit
 :
 :
 KeyboardInput
 {
 state
 :
-glutin
+winit
 :
 :
 ElementState
@@ -4200,7 +4207,7 @@ Escape
 >
 {
 return
-glutin
+winit
 :
 :
 ControlFlow
@@ -4718,7 +4725,7 @@ _
 =
 >
 return
-glutin
+winit
 :
 :
 ControlFlow
@@ -4800,7 +4807,7 @@ next_frame
 ;
 }
 }
-glutin
+winit
 :
 :
 ControlFlow
@@ -4822,7 +4829,7 @@ body
 &
 mut
 wrench
-glutin
+winit
 :
 :
 Event
@@ -4832,7 +4839,7 @@ Awakened
 )
 =
 =
-glutin
+winit
 :
 :
 ControlFlow

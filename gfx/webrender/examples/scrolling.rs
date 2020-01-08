@@ -72,6 +72,10 @@ extern
 crate
 webrender
 ;
+extern
+crate
+winit
+;
 #
 [
 path
@@ -1145,7 +1149,7 @@ mut
 self
 event
 :
-glutin
+winit
 :
 :
 WindowEvent
@@ -1175,7 +1179,7 @@ new
 match
 event
 {
-glutin
+winit
 :
 :
 WindowEvent
@@ -1185,14 +1189,14 @@ KeyboardInput
 {
 input
 :
-glutin
+winit
 :
 :
 KeyboardInput
 {
 state
 :
-glutin
+winit
 :
 :
 ElementState
@@ -1220,7 +1224,7 @@ offset
 match
 key
 {
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -1238,7 +1242,7 @@ Down
 .
 0
 )
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -1255,7 +1259,7 @@ Up
 .
 0
 )
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -1273,7 +1277,7 @@ Right
 .
 0
 )
-glutin
+winit
 :
 :
 VirtualKeyCode
@@ -1325,7 +1329,7 @@ cursor_position
 )
 ;
 }
-glutin
+winit
 :
 :
 WindowEvent
@@ -1363,7 +1367,7 @@ f32
 )
 ;
 }
-glutin
+winit
 :
 :
 WindowEvent
@@ -1396,7 +1400,7 @@ dy
 match
 delta
 {
-glutin
+winit
 :
 :
 MouseScrollDelta
@@ -1415,7 +1419,7 @@ dy
 *
 LINE_HEIGHT
 )
-glutin
+winit
 :
 :
 MouseScrollDelta
@@ -1458,7 +1462,7 @@ cursor_position
 )
 ;
 }
-glutin
+winit
 :
 :
 WindowEvent

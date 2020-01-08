@@ -76,6 +76,10 @@ extern
 crate
 webrender
 ;
+extern
+crate
+winit
+;
 #
 [
 path
@@ -107,7 +111,7 @@ euclid
 vec2
 ;
 use
-glutin
+winit
 :
 :
 TouchPhase
@@ -414,7 +418,7 @@ mut
 self
 touch
 :
-glutin
+winit
 :
 :
 Touch
@@ -1658,7 +1662,7 @@ mut
 self
 event
 :
-glutin
+winit
 :
 :
 WindowEvent
@@ -1688,7 +1692,7 @@ new
 match
 event
 {
-glutin
+winit
 :
 :
 WindowEvent
