@@ -2898,6 +2898,12 @@ RR_ScalarRval
 \
 MACRO
 (
+CTFontCopyFeatures
+RR_ScalarRval
+)
+\
+MACRO
+(
 CTFontCopyFontDescriptor
 RR_ScalarRval
 )
