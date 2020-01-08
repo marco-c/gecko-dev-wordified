@@ -1444,7 +1444,6 @@ refCt
 )
 ;
 }
-static
 void
 ssl_DestroyKeyMaterial
 (

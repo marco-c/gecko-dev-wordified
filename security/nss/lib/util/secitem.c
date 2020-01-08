@@ -414,6 +414,7 @@ arena
 SECItem
 *
 dest
+const
 unsigned
 char
 *
@@ -428,6 +429,11 @@ it
 =
 {
 siBuffer
+(
+unsigned
+char
+*
+)
 data
 len
 }

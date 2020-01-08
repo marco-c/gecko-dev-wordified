@@ -2582,6 +2582,9 @@ Deprecated
 .
 *
 /
+ssl_tls13_encrypted_sni_xtn
+=
+0xffce
 }
 SSLExtensionType
 ;
