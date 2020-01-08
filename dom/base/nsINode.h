@@ -6172,7 +6172,7 @@ an
 nsIDocument
 or
 an
-nsIAttribute
+Attr
 .
 *
 return

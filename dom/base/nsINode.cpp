@@ -1794,7 +1794,7 @@ root
 /
 4
 .
-nsIAttribute
+Attr
 nodes
 -
 Are
