@@ -1494,6 +1494,11 @@ mControllerState
 {
 if
 (
+displayState
+.
+mSuppressFrames
+|
+|
 !
 displayState
 .
@@ -1502,7 +1507,13 @@ mIsConnected
 {
 /
 /
-Service
+External
+implementation
+wants
+to
+supress
+frames
+service
 has
 shut
 down
@@ -1511,6 +1522,7 @@ hardware
 has
 been
 disconnected
+.
 return
 false
 ;

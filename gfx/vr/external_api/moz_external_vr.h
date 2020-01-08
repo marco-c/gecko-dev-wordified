@@ -1429,6 +1429,9 @@ IntSize_POD
 mEyeResolution
 ;
 bool
+mSuppressFrames
+;
+bool
 mIsConnected
 ;
 bool
