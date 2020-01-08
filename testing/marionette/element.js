@@ -301,9 +301,6 @@ button
 checkbox
 "
 "
-listitem
-"
-"
 toolbarbutton
 "
 ]
@@ -328,9 +325,6 @@ new
 Set
 (
 [
-"
-listitem
-"
 "
 menu
 "
