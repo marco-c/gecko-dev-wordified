@@ -553,13 +553,9 @@ the
 test
 !
 [
-"
-privacy
+ContentBlocking
 .
-trackingprotection
-.
-introCount
-"
+prefIntroCount
 ContentBlocking
 .
 MAX_INTROS
