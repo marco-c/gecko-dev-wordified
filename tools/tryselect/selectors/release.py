@@ -492,6 +492,26 @@ format
 (
 version
 )
+        
+'
+config
+/
+milestone
+.
+txt
+'
+:
+'
+{
+}
+\
+n
+'
+.
+format
+(
+app_version
+)
     
 }
     
