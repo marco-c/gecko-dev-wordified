@@ -2100,6 +2100,13 @@ type_
 *
 >
 (
+static_cast
+<
+const
+type_
+*
+>
+(
 \
 &
 detailObj_
@@ -2120,6 +2127,7 @@ Atoms
 name_
 )
 ]
+)
 )
 ;
 /

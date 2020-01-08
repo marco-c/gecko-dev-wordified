@@ -140,6 +140,7 @@ GK_ATOM
 (
 name_
 value_
+type_
 )
 NS_STATIC_ATOM_INIT_STRING
 (
@@ -162,6 +163,7 @@ GK_ATOM
 (
 name_
 value_
+type_
 )
 \
 NS_STATIC_ATOM_INIT_ATOM
@@ -220,12 +222,13 @@ GK_ATOM
 (
 name_
 value_
+type_
 )
 \
 NS_STATIC_ATOM_DEFN_PTR
 (
 \
-nsStaticAtom
+type_
 mozilla
 :
 :
