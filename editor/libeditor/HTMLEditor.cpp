@@ -8649,8 +8649,9 @@ divElement
 )
 ;
 return
-BeginningOfDocument
+MaybeCollapseSelectionAtFirstEditableNode
 (
+false
 )
 ;
 }
@@ -8942,8 +8943,9 @@ first
 editable
 content
 return
-BeginningOfDocument
+MaybeCollapseSelectionAtFirstEditableNode
 (
+false
 )
 ;
 }
@@ -29216,8 +29218,9 @@ return
 }
 rv
 =
-BeginningOfDocument
+MaybeCollapseSelectionAtFirstEditableNode
 (
+false
 )
 ;
 if
