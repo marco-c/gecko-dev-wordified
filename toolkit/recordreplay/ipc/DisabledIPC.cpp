@@ -259,7 +259,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+bool
 OnVsync
 (
 )

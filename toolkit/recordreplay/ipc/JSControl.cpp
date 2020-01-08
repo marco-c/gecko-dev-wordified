@@ -2749,6 +2749,10 @@ toNumber
 PaintMessage
 message
 (
+CheckpointId
+:
+:
+Invalid
 width
 height
 )
