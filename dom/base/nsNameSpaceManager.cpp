@@ -1703,13 +1703,6 @@ return
 NS_OK
 ;
 }
-/
-/
-nsISupports
-NS_IMPL_ISUPPORTS0
-(
-nsNameSpaceManager
-)
 void
 nsNameSpaceManager
 :

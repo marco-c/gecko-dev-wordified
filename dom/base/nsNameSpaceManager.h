@@ -274,13 +274,13 @@ needed
 class
 nsNameSpaceManager
 final
-:
-public
-nsISupports
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_INLINE_DECL_REFCOUNTING
+(
+nsNameSpaceManager
+)
 virtual
 nsresult
 RegisterNameSpace
