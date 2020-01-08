@@ -1204,6 +1204,15 @@ firefox
 "
         
 kwargs
+[
+"
+store_state
+"
+]
+=
+False
+        
+kwargs
 =
 updatecommandline
 .
