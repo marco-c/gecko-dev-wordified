@@ -252,10 +252,6 @@ gfx
 IntRect
 &
 aRect
-const
-GUID
-&
-aSourceFormat
 )
 :
 Image
@@ -273,10 +269,6 @@ aSize
 mPictureRect
 (
 aRect
-)
-mSourceFormat
-(
-aSourceFormat
 )
 {
 }
@@ -301,12 +293,6 @@ aAllocator
 {
 if
 (
-mSourceFormat
-=
-=
-MFVideoFormat_NV12
-&
-&
 gfxPrefs
 :
 :
@@ -580,9 +566,9 @@ if
 desc
 .
 Format
-!
 =
-DXGI_FORMAT_B8G8R8A8_UNORM
+=
+DXGI_FORMAT_NV12
 )
 {
 nsAutoCString
@@ -646,7 +632,6 @@ manager
 CopyToBGRATexture
 (
 texture
-mSourceFormat
 getter_AddRefs
 (
 outTexture
@@ -670,6 +655,7 @@ gfxWarning
 Failed
 to
 copy
+NV12
 to
 BGRA
 texture
