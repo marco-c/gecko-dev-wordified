@@ -112,7 +112,7 @@ include
 "
 mozilla
 /
-BackgroundHangMonitor
+HangMonitor
 .
 h
 "
