@@ -117,15 +117,8 @@ findRuntimeById
 require
 (
 "
-devtools
-/
-client
-/
-aboutdebugging
--
-new
-/
-src
+.
+.
 /
 modules
 /
