@@ -322,6 +322,8 @@ function
 (
 )
 {
+try
+{
 document
 .
 head
@@ -338,6 +340,13 @@ style
 )
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 var
 measuredValuesByFullName
 =
