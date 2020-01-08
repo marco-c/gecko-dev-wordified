@@ -4788,13 +4788,6 @@ input
 urlbar
 -
 input
-:
-not
-(
-[
-focused
-]
-)
 {
 mask
 -
