@@ -2814,6 +2814,15 @@ aFrame
 )
 const
 ;
+bool
+CanThrottleIfNotVisible
+(
+nsIFrame
+&
+aFrame
+)
+const
+;
 /
 /
 Returns
