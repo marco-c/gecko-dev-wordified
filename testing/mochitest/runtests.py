@@ -6757,6 +6757,13 @@ urlOpts
 [
 ]
         
+self
+.
+extraPrefs
+=
+{
+}
+        
 if
 logger_options
 .
