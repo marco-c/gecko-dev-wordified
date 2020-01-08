@@ -2944,15 +2944,6 @@ GetSize
 (
 )
 )
-destOrigin
-(
-aLayer
--
->
-GetDestOrigin
-(
-)
-)
 scale
 (
 aLayer
