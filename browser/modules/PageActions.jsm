@@ -6943,9 +6943,7 @@ id
 "
 webcompat
 -
-reporter
--
-button
+reporter_mozilla_org
 "
 ;
 }
