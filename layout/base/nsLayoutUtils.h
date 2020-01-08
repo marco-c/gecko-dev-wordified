@@ -19192,7 +19192,8 @@ aShell
 *
 Set
 the
-viewport
+scroll
+port
 size
 for
 the
@@ -19216,14 +19217,14 @@ document
 see
 nsIDOMWindowUtils
 .
-setVisualViewportSize
+setScrollPositionClampingScrollPortSize
 )
 .
 *
 /
 static
 void
-SetVisualViewportSize
+SetScrollPositionClampingScrollPortSize
 (
 nsIPresShell
 *

@@ -1947,7 +1947,9 @@ a
 scroll
 position
 clamping
-viewport
+scroll
+-
+port
 size
 has
 been
@@ -1999,7 +2001,7 @@ if
 ps
 -
 >
-IsVisualViewportSizeSet
+IsScrollPositionClampingScrollPortSizeSet
 (
 )
 )
@@ -2011,7 +2013,7 @@ SizeTo
 ps
 -
 >
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 )

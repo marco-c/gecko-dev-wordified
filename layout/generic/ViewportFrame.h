@@ -404,7 +404,7 @@ and
 pres
 shell
 *
-GetVisualViewportSizeSet
+GetScrollPositionClampingScrollPortSizeSet
 and
 *
 GetContentDocumentFixedPositionMargins
