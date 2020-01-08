@@ -777,10 +777,6 @@ session
 get_session
 (
 )
-.
-as_str
-(
-)
 )
 }
 #
