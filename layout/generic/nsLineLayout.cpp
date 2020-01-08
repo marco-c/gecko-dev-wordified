@@ -380,9 +380,6 @@ mozilla
 -
 -
 -
-#
-define
-FIX_BUG_50257
 nsLineLayout
 :
 :
@@ -9789,9 +9786,6 @@ return
 true
 ;
 }
-#
-ifdef
-FIX_BUG_50257
 /
 /
 another
@@ -9838,8 +9832,6 @@ return
 true
 ;
 }
-#
-endif
 if
 (
 aNotSafeToBreak
