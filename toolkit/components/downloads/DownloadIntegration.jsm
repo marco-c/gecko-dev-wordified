@@ -3905,6 +3905,7 @@ referrer
 )
 ;
 }
+await
 gDownloadPlatform
 .
 downloadDone
