@@ -2289,6 +2289,9 @@ True
 stdout
 =
 PIPE
+bufsize
+=
+0
 )
     
 while
