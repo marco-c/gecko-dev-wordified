@@ -2856,6 +2856,9 @@ image_rendering
 info
 .
 alpha_type
+info
+.
+color
 )
 ;
 }
@@ -4256,6 +4259,9 @@ LayoutPrimitiveInfo
 clip_chain_id
 :
 ClipChainId
+spatial_node_index
+:
+SpatialNodeIndex
 container
 :
 PrimitiveContainer
@@ -4310,6 +4316,7 @@ stacking_context
 .
 is_backface_visible
 clip_chain_id
+spatial_node_index
 info
 .
 tag
@@ -4451,9 +4458,6 @@ self
 prim_index
 :
 PrimitiveIndex
-spatial_node_index
-:
-SpatialNodeIndex
 )
 {
 /
@@ -4503,7 +4507,6 @@ pic
 add_primitive
 (
 prim_index
-spatial_node_index
 )
 ;
 }
@@ -4766,6 +4769,9 @@ create_primitive
 &
 info
 clip_chain_id
+clip_and_scroll
+.
+spatial_node_index
 container
 .
 create_shadow
@@ -4802,9 +4808,6 @@ shadow_pic
 add_primitive
 (
 shadow_prim_index
-clip_and_scroll
-.
-spatial_node_index
 )
 ;
 }
@@ -4847,6 +4850,9 @@ create_primitive
 (
 info
 clip_chain_id
+clip_and_scroll
+.
+spatial_node_index
 container
 )
 ;
@@ -4913,9 +4919,6 @@ self
 add_primitive_to_draw_list
 (
 prim_index
-clip_and_scroll
-.
-spatial_node_index
 )
 ;
 }
@@ -5207,7 +5210,6 @@ get_next_picture_id
 None
 false
 pipeline_id
-spatial_node_index
 None
 true
 )
@@ -5235,6 +5237,7 @@ ClipChainId
 :
 :
 NONE
+spatial_node_index
 None
 PrimitiveContainer
 :
@@ -5697,7 +5700,6 @@ get_next_picture_id
 None
 false
 pipeline_id
-spatial_node_index
 None
 true
 )
@@ -5733,6 +5735,7 @@ zero
 max_clip
 is_backface_visible
 clip_chain_id
+spatial_node_index
 None
 PrimitiveContainer
 :
@@ -5776,7 +5779,6 @@ pic
 add_primitive
 (
 prim_index
-spatial_node_index
 )
 ;
 self
@@ -5980,7 +5982,6 @@ filter
 )
 false
 pipeline_id
-spatial_node_index
 None
 true
 )
@@ -6016,6 +6017,7 @@ zero
 max_clip
 is_backface_visible
 clip_chain_id
+spatial_node_index
 None
 PrimitiveContainer
 :
@@ -6047,7 +6049,6 @@ parent_pic
 add_primitive
 (
 src_prim_index
-spatial_node_index
 )
 ;
 self
@@ -6106,7 +6107,6 @@ mix_blend_mode
 )
 false
 pipeline_id
-spatial_node_index
 None
 true
 )
@@ -6142,6 +6142,7 @@ zero
 max_clip
 is_backface_visible
 clip_chain_id
+spatial_node_index
 None
 PrimitiveContainer
 :
@@ -6173,7 +6174,6 @@ parent_pic
 add_primitive
 (
 src_prim_index
-spatial_node_index
 )
 ;
 self
@@ -6453,7 +6453,6 @@ get_next_picture_id
 composite_mode
 participating_in_3d_context
 pipeline_id
-spatial_node_index
 frame_output_pipeline_id
 true
 )
@@ -6510,6 +6509,7 @@ zero
 max_clip
 is_backface_visible
 clip_chain_id
+spatial_node_index
 None
 PrimitiveContainer
 :
@@ -6537,7 +6537,6 @@ parent_pic
 add_primitive
 (
 sc_prim_index
-spatial_node_index
 )
 ;
 /
@@ -7849,9 +7848,6 @@ std_deviation
 )
 false
 pipeline_id
-clip_and_scroll
-.
-spatial_node_index
 None
 apply_local_clip_rect
 )
@@ -7905,6 +7901,9 @@ is_backface_visible
 clip_and_scroll
 .
 clip_chain_id
+clip_and_scroll
+.
+spatial_node_index
 None
 PrimitiveContainer
 :
@@ -7947,9 +7946,6 @@ self
 add_primitive_to_draw_list
 (
 shadow_prim_index
-clip_and_scroll
-.
-spatial_node_index
 )
 ;
 self
@@ -8240,6 +8236,7 @@ ClipChainId
 :
 :
 NONE
+spatial_node_index
 PrimitiveContainer
 :
 :
@@ -8254,7 +8251,6 @@ self
 add_primitive_to_draw_list
 (
 prim_index
-spatial_node_index
 )
 ;
 self
@@ -10416,6 +10412,9 @@ ImageRendering
 alpha_type
 :
 AlphaType
+color
+:
+ColorF
 )
 {
 let
@@ -10558,6 +10557,7 @@ None
 alpha_type
 stretch_size
 tile_spacing
+color
 source
 :
 ImageSource

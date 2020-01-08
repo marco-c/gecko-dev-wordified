@@ -2006,11 +2006,8 @@ RenderTaskLocation
 Dynamic
 (
 None
-Some
-(
 *
 glyph_size
-)
 )
 ;
 let
