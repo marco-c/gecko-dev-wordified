@@ -469,6 +469,10 @@ in
 commits
 :
         
+req
+=
+None
+        
 if
 revision
 =
@@ -545,6 +549,8 @@ RequestException
 :
             
 if
+req
+and
 req
 .
 status_code
