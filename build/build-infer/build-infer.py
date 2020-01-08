@@ -193,7 +193,7 @@ build_tar_package
 tar
 name
 base
-directory
+directories
 )
 :
     
@@ -248,8 +248,9 @@ f
 '
                   
 name
-directory
 ]
++
+directories
 )
 def
 is_git_repo
@@ -969,6 +970,7 @@ package_name
 )
                           
 source_dir
+[
 os
 .
 path
@@ -982,4 +984,19 @@ infer
 bin
 '
 )
+                                       
+os
+.
+path
+.
+join
+(
+'
+infer
+'
+'
+lib
+'
+)
+]
 )
