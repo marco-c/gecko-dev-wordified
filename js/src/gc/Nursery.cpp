@@ -892,6 +892,7 @@ env
 *
 env
 )
+{
 canAllocateStrings_
 =
 (
@@ -904,6 +905,7 @@ env
 '
 )
 ;
+}
 }
 bool
 js
@@ -943,9 +945,11 @@ if
 !
 freeMallocedBuffersTask
 )
+{
 return
 false
 ;
+}
 /
 /
 The
@@ -984,10 +988,12 @@ IsRecordingOrReplaying
 (
 )
 )
+{
 maxNurseryBytes
 =
 0
 ;
+}
 /
 *
 maxNurseryBytes
@@ -1034,9 +1040,11 @@ chunkCountLimit_
 =
 0
 )
+{
 return
 true
 ;
+}
 maxChunkCount_
 =
 1
@@ -1253,9 +1261,11 @@ enable
 (
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 isEnabled
@@ -1333,8 +1343,10 @@ chunkCountLimit
 (
 )
 )
+{
 return
 ;
+}
 {
 AutoLockGCBgAlloc
 lock
@@ -1393,10 +1405,12 @@ ZealMode
 GenerationalGC
 )
 )
+{
 enterZealMode
 (
 )
 ;
+}
 #
 endif
 MOZ_ALWAYS_TRUE
@@ -1443,8 +1457,10 @@ isEnabled
 (
 )
 )
+{
 return
 ;
+}
 freeChunksFrom
 (
 0
@@ -1584,9 +1600,11 @@ isEnabled
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -1657,12 +1675,14 @@ isEnabled
 (
 )
 )
+{
 maxChunkCount_
 =
 chunkCountLimit
 (
 )
 ;
+}
 }
 void
 js
@@ -1821,9 +1841,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 /
 *
 If
@@ -1967,6 +1989,7 @@ if
 (
 nDynamicSlots
 )
+{
 static_cast
 <
 NativeObject
@@ -1982,6 +2005,7 @@ initSlots
 slots
 )
 ;
+}
 gcTracer
 .
 traceNurseryAlloc
@@ -2078,9 +2102,11 @@ if
 !
 header
 )
+{
 return
 nullptr
 ;
+}
 header
 -
 >
@@ -2236,11 +2262,13 @@ ZealMode
 CheckNursery
 )
 )
+{
 size
 +
 =
 CanarySize
 ;
+}
 #
 endif
 if
@@ -2302,9 +2330,11 @@ maxChunkCount
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 MOZ_UNLIKELY
@@ -2346,9 +2376,11 @@ chunkno
 lock
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 timeInChunkAlloc_
 +
@@ -2589,9 +2621,11 @@ if
 (
 buffer
 )
+{
 return
 buffer
 ;
+}
 }
 void
 *
@@ -2670,6 +2704,7 @@ IsInsideNursery
 obj
 )
 )
+{
 return
 obj
 -
@@ -2687,6 +2722,7 @@ uint8_t
 nbytes
 )
 ;
+}
 return
 allocateBuffer
 (
@@ -2745,6 +2781,7 @@ IsInsideNursery
 obj
 )
 )
+{
 return
 obj
 -
@@ -2762,6 +2799,7 @@ uint8_t
 nbytes
 )
 ;
+}
 return
 allocate
 (
@@ -2799,6 +2837,7 @@ IsInsideNursery
 obj
 )
 )
+{
 return
 obj
 -
@@ -2822,6 +2861,7 @@ oldBytes
 newBytes
 )
 ;
+}
 if
 (
 !
@@ -2867,6 +2907,7 @@ oldBuffer
 =
 newBuffer
 )
+{
 MOZ_ALWAYS_TRUE
 (
 mallocedBuffers
@@ -2879,6 +2920,7 @@ newBuffer
 )
 )
 ;
+}
 return
 newBuffer
 ;
@@ -2904,9 +2946,11 @@ newBytes
 <
 oldBytes
 )
+{
 return
 oldBuffer
 ;
+}
 void
 *
 newBuffer
@@ -2926,6 +2970,7 @@ if
 (
 newBuffer
 )
+{
 PodCopy
 (
 (
@@ -2941,6 +2986,7 @@ oldBuffer
 oldBytes
 )
 ;
+}
 return
 newBuffer
 ;
@@ -3093,6 +3139,7 @@ lookup
 oldData
 )
 )
+{
 MOZ_ASSERT
 (
 p
@@ -3106,6 +3153,7 @@ value
 newData
 )
 ;
+}
 #
 endif
 if
@@ -3119,6 +3167,7 @@ oldData
 newData
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -3131,6 +3180,7 @@ setForwardingPointer
 "
 )
 ;
+}
 }
 #
 ifdef
@@ -3201,8 +3251,10 @@ isInside
 old
 )
 )
+{
 return
 ;
+}
 /
 /
 The
@@ -3487,11 +3539,13 @@ if
 (
 validForTenuring
 )
+{
 *
 validForTenuring
 =
 false
 ;
+}
 rate
 =
 0
@@ -3756,6 +3810,7 @@ previousGC
 .
 nurseryCapacity
 )
+{
 json
 .
 property
@@ -3766,6 +3821,7 @@ new_capacity
 newCapacity
 )
 ;
+}
 if
 (
 previousGC
@@ -3777,6 +3833,7 @@ previousGC
 .
 nurseryCapacity
 )
+{
 json
 .
 property
@@ -3789,6 +3846,7 @@ previousGC
 nurseryLazyCapacity
 )
 ;
+}
 if
 (
 !
@@ -3798,6 +3856,7 @@ IsZero
 (
 )
 )
+{
 json
 .
 property
@@ -3811,6 +3870,7 @@ json
 MICROSECONDS
 )
 ;
+}
 /
 /
 These
@@ -3948,6 +4008,7 @@ time
 :
 profileDurations_
 )
+{
 json
 .
 property
@@ -3964,6 +4025,7 @@ json
 MICROSECONDS
 )
 ;
+}
 json
 .
 endObject
@@ -4071,6 +4133,7 @@ time
 :
 times
 )
+{
 fprintf
 (
 stderr
@@ -4092,6 +4155,7 @@ ToMicroseconds
 )
 )
 ;
+}
 fprintf
 (
 stderr
@@ -4171,6 +4235,7 @@ duration
 :
 profileDurations_
 )
+{
 duration
 =
 mozilla
@@ -4180,6 +4245,7 @@ TimeDuration
 (
 )
 ;
+}
 }
 inline
 void
@@ -4513,8 +4579,10 @@ isEnabled
 (
 )
 )
+{
 return
 ;
+}
 #
 ifdef
 JS_GC_ZEAL
@@ -4550,6 +4618,7 @@ canary
 >
 next
 )
+{
 MOZ_ASSERT
 (
 canary
@@ -4561,6 +4630,7 @@ magicValue
 CanaryMagicValue
 )
 ;
+}
 }
 lastCanary_
 =
@@ -4972,6 +5042,7 @@ isSome
 (
 )
 )
+{
 session
 .
 emplace
@@ -4986,6 +5057,7 @@ HeapState
 MinorCollecting
 )
 ;
+}
 CancelOffThreadIonCompile
 (
 zone
@@ -5190,10 +5262,12 @@ gcMaxBytes
 (
 )
 )
+{
 disable
 (
 )
 ;
+}
 /
 /
 Disable
@@ -5234,10 +5308,12 @@ chunkCountLimit_
 =
 0
 )
+{
 disable
 (
 )
 ;
+}
 endProfile
 (
 ProfileKey
@@ -5300,6 +5376,7 @@ ToMilliseconds
 .
 0
 )
+{
 rt
 -
 >
@@ -5309,6 +5386,7 @@ JS_TELEMETRY_GC_MINOR_REASON_LONG
 reason
 )
 ;
+}
 rt
 -
 >
@@ -5670,6 +5748,7 @@ cancelIonCompilations
 (
 )
 )
+{
 js
 :
 :
@@ -5678,6 +5757,7 @@ CancelOffThreadIonCompilesUsingNurseryPointers
 rt
 )
 ;
+}
 endProfile
 (
 ProfileKey
@@ -6215,11 +6295,13 @@ ZealMode
 CheckHashTablesOnMinorGC
 )
 )
+{
 CheckHashTablesAfterMovingGC
 (
 rt
 )
 ;
+}
 #
 endif
 endProfile
@@ -6394,6 +6476,7 @@ popFront
 (
 )
 )
+{
 fop_
 -
 >
@@ -6406,6 +6489,7 @@ front
 )
 )
 ;
+}
 buffers_
 .
 clear
@@ -6460,8 +6544,10 @@ empty
 (
 )
 )
+{
 return
 ;
+}
 bool
 started
 ;
@@ -6502,6 +6588,7 @@ if
 !
 started
 )
+{
 freeMallocedBuffersTask
 -
 >
@@ -6512,6 +6599,7 @@ runtime
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 mallocedBuffers
@@ -6553,8 +6641,10 @@ isEnabled
 (
 )
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 freeMallocedBuffersTask
@@ -6704,6 +6794,7 @@ next
 (
 )
 )
+{
 c
 -
 >
@@ -6712,6 +6803,7 @@ sweepAfterMinorGC
 trc
 )
 ;
+}
 sweepDictionaryModeObjects
 (
 )
@@ -6777,6 +6869,7 @@ allocatedChunkCount
 +
 i
 )
+{
 chunk
 (
 i
@@ -6786,6 +6879,7 @@ poisonAfterSweep
 (
 )
 ;
+}
 #
 endif
 if
@@ -7046,10 +7140,12 @@ if
 (
 canAllocateStrings_
 )
+{
 currentStringEnd_
 =
 currentEnd_
 ;
+}
 chunk
 (
 chunkno
@@ -7162,9 +7258,11 @@ resize
 newCount
 )
 )
+{
 return
 false
 ;
+}
 Chunk
 *
 newChunk
@@ -7349,8 +7447,10 @@ ZealMode
 GenerationalGC
 )
 )
+{
 return
 ;
+}
 #
 endif
 /
@@ -7621,6 +7721,7 @@ i
 +
 +
 )
+{
 runtime
 (
 )
@@ -7644,6 +7745,7 @@ runtime
 lock
 )
 ;
+}
 }
 chunks_
 .
@@ -7684,8 +7786,10 @@ ZealMode
 GenerationalGC
 )
 )
+{
 return
 ;
+}
 #
 endif
 /
@@ -7742,8 +7846,10 @@ maxChunkCount
 )
 )
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 newCount
@@ -7761,11 +7867,13 @@ allocatedChunkCount
 (
 )
 )
+{
 freeChunksFrom
 (
 newCount
 )
 ;
+}
 maxChunkCount_
 =
 newCount
@@ -7877,6 +7985,7 @@ IsForwarded
 obj
 )
 )
+{
 obj
 -
 >
@@ -7884,7 +7993,9 @@ sweepDictionaryListPointer
 (
 )
 ;
+}
 else
+{
 Forwarded
 (
 obj
@@ -7896,6 +8007,7 @@ updateDictionaryListPointerAfterMinorGC
 obj
 )
 ;
+}
 }
 dictionaryModeObjects_
 .
@@ -7932,6 +8044,7 @@ mapobj
 :
 mapsWithNurseryMemory_
 )
+{
 MapObject
 :
 :
@@ -7941,6 +8054,7 @@ fop
 mapobj
 )
 ;
+}
 mapsWithNurseryMemory_
 .
 clearAndFree
@@ -7954,6 +8068,7 @@ setobj
 :
 setsWithNurseryMemory_
 )
+{
 SetObject
 :
 :
@@ -7963,6 +8078,7 @@ fop
 setobj
 )
 ;
+}
 setsWithNurseryMemory_
 .
 clearAndFree

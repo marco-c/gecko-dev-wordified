@@ -346,10 +346,12 @@ if
 !
 atomsZone
 )
+{
 skipHelperThreadZones
 (
 )
 ;
+}
 }
 bool
 done
@@ -385,15 +387,19 @@ if
 (
 atomsZone
 )
+{
 atomsZone
 =
 nullptr
 ;
+}
 else
+{
 it
 +
 +
 ;
+}
 skipHelperThreadZones
 (
 )
@@ -421,10 +427,12 @@ usedByHelperThread
 (
 )
 )
+{
 it
 +
 +
 ;
+}
 }
 JS
 :
@@ -1170,6 +1178,7 @@ done
 (
 )
 )
+{
 inner
 .
 emplace
@@ -1177,6 +1186,7 @@ emplace
 zone
 )
 ;
+}
 }
 bool
 done
@@ -1257,6 +1267,7 @@ done
 (
 )
 )
+{
 inner
 .
 emplace
@@ -1264,6 +1275,7 @@ emplace
 zone
 )
 ;
+}
 }
 }
 T

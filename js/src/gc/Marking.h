@@ -705,6 +705,7 @@ isGCThing
 (
 )
 )
+{
 return
 (
 Cell
@@ -716,6 +717,7 @@ toGCThing
 (
 )
 ;
+}
 return
 nullptr
 ;

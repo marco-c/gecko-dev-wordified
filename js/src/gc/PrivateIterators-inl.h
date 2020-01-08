@@ -425,10 +425,12 @@ isCollectingFromAnyThread
 (
 )
 )
+{
 next
 (
 )
 ;
+}
 }
 bool
 done

@@ -816,9 +816,11 @@ alignment
 =
 allocGranularity
 )
+{
 return
 p
 ;
+}
 if
 (
 OffsetFromAligned
@@ -830,9 +832,11 @@ alignment
 =
 0
 )
+{
 return
 p
 ;
+}
 void
 *
 retainedAddr
@@ -851,12 +855,14 @@ if
 (
 retainedAddr
 )
+{
 UnmapPages
 (
 retainedAddr
 size
 )
 ;
+}
 if
 (
 p
@@ -873,9 +879,11 @@ alignment
 =
 0
 )
+{
 return
 p
 ;
+}
 UnmapPages
 (
 p
@@ -896,6 +904,7 @@ if
 !
 p
 )
+{
 return
 MapAlignedPagesLastDitch
 (
@@ -903,6 +912,7 @@ size
 alignment
 )
 ;
+}
 MOZ_ASSERT
 (
 OffsetFromAligned
@@ -1071,9 +1081,11 @@ if
 !
 p
 )
+{
 return
 nullptr
 ;
+}
 void
 *
 chunkStart
@@ -1267,9 +1279,11 @@ alignment
 =
 0
 )
+{
 return
 p
 ;
+}
 for
 (
 ;
@@ -1312,6 +1326,7 @@ tempMaps
 attempt
 ]
 )
+{
 UnmapPages
 (
 tempMaps
@@ -1321,6 +1336,7 @@ attempt
 size
 )
 ;
+}
 break
 ;
 }
@@ -1332,6 +1348,7 @@ tempMaps
 attempt
 ]
 )
+{
 break
 ;
 /
@@ -1343,6 +1360,7 @@ failed
 .
 *
 /
+}
 }
 if
 (
@@ -1373,6 +1391,7 @@ attempt
 =
 0
 )
+{
 UnmapPages
 (
 tempMaps
@@ -1382,6 +1401,7 @@ attempt
 size
 )
 ;
+}
 return
 p
 ;
@@ -1480,8 +1500,10 @@ if
 !
 offset
 )
+{
 break
 ;
+}
 UnmapPages
 (
 address
@@ -1612,9 +1634,11 @@ DecommitEnabled
 (
 )
 )
+{
 return
 true
 ;
+}
 MOZ_ASSERT
 (
 OffsetFromAligned
@@ -1667,8 +1691,10 @@ DecommitEnabled
 (
 )
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 OffsetFromAligned
@@ -1699,9 +1725,11 @@ IsRecordingOrReplaying
 (
 )
 )
+{
 return
 0
 ;
+}
 PROCESS_MEMORY_COUNTERS
 pmc
 ;
@@ -1721,9 +1749,11 @@ pmc
 )
 )
 )
+{
 return
 0
 ;
+}
 return
 pmc
 .
@@ -1801,9 +1831,11 @@ alignment
 =
 0
 )
+{
 return
 nullptr
 ;
+}
 HANDLE
 hFile
 =
@@ -1854,9 +1886,11 @@ if
 !
 hMap
 )
+{
 return
 nullptr
 ;
+}
 size_t
 alignedOffset
 =
@@ -1978,9 +2012,11 @@ if
 !
 map
 )
+{
 return
 nullptr
 ;
+}
 #
 ifdef
 DEBUG
@@ -2007,6 +2043,7 @@ offset
 =
 alignedOffset
 )
+{
 memset
 (
 map
@@ -2016,12 +2053,14 @@ offset
 alignedOffset
 )
 ;
+}
 if
 (
 alignedLength
 %
 pageSize
 )
+{
 memset
 (
 map
@@ -2037,6 +2076,7 @@ pageSize
 )
 )
 ;
+}
 #
 endif
 return
@@ -2068,8 +2108,10 @@ if
 !
 p
 )
+{
 return
 ;
+}
 /
 /
 Calculate
@@ -2460,6 +2502,7 @@ pageSize
 =
 0
 )
+{
 pageSize
 =
 allocGranularity
@@ -2472,6 +2515,7 @@ _SC_PAGESIZE
 )
 )
 ;
+}
 }
 void
 *
@@ -2588,9 +2632,11 @@ p
 =
 MAP_FAILED
 )
+{
 return
 nullptr
 ;
+}
 return
 p
 ;
@@ -2713,8 +2759,10 @@ DecommitEnabled
 (
 )
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 OffsetFromAligned
@@ -2802,6 +2850,7 @@ pageSize
 =
 0
 )
+{
 pageSize
 =
 allocGranularity
@@ -2814,6 +2863,7 @@ _SC_PAGESIZE
 )
 )
 ;
+}
 }
 static
 inline
@@ -2934,9 +2984,11 @@ region
 =
 MAP_FAILED
 )
+{
 return
 nullptr
 ;
+}
 /
 *
 *
@@ -3002,6 +3054,7 @@ region
 length
 )
 )
+{
 MOZ_ASSERT
 (
 errno
@@ -3010,6 +3063,7 @@ errno
 ENOMEM
 )
 ;
+}
 return
 nullptr
 ;
@@ -3222,9 +3276,11 @@ region
 =
 MAP_FAILED
 )
+{
 return
 nullptr
 ;
+}
 /
 *
 *
@@ -3277,6 +3333,7 @@ region
 length
 )
 )
+{
 MOZ_ASSERT
 (
 errno
@@ -3285,6 +3342,7 @@ errno
 ENOMEM
 )
 ;
+}
 return
 nullptr
 ;
@@ -3633,9 +3691,11 @@ region
 =
 MAP_FAILED
 )
+{
 return
 nullptr
 ;
+}
 return
 region
 ;
@@ -3748,9 +3808,11 @@ alignment
 =
 allocGranularity
 )
+{
 return
 p
 ;
+}
 if
 (
 OffsetFromAligned
@@ -3762,9 +3824,11 @@ alignment
 =
 0
 )
+{
 return
 p
 ;
+}
 void
 *
 retainedAddr
@@ -3783,12 +3847,14 @@ if
 (
 retainedAddr
 )
+{
 UnmapPages
 (
 retainedAddr
 size
 )
 ;
+}
 if
 (
 p
@@ -3805,9 +3871,11 @@ alignment
 =
 0
 )
+{
 return
 p
 ;
+}
 UnmapPages
 (
 p
@@ -3828,6 +3896,7 @@ if
 !
 p
 )
+{
 return
 MapAlignedPagesLastDitch
 (
@@ -3835,6 +3904,7 @@ size
 alignment
 )
 ;
+}
 MOZ_ASSERT
 (
 OffsetFromAligned
@@ -3898,9 +3968,11 @@ if
 !
 region
 )
+{
 return
 nullptr
 ;
+}
 void
 *
 regionEnd
@@ -4031,6 +4103,7 @@ front
 =
 region
 )
+{
 UnmapPages
 (
 region
@@ -4045,6 +4118,7 @@ region
 )
 )
 ;
+}
 if
 (
 end
@@ -4052,6 +4126,7 @@ end
 =
 regionEnd
 )
+{
 UnmapPages
 (
 end
@@ -4066,6 +4141,7 @@ end
 )
 )
 ;
+}
 return
 front
 ;
@@ -4199,9 +4275,11 @@ alignment
 =
 0
 )
+{
 return
 p
 ;
+}
 for
 (
 ;
@@ -4244,6 +4322,7 @@ tempMaps
 attempt
 ]
 )
+{
 UnmapPages
 (
 tempMaps
@@ -4253,6 +4332,7 @@ attempt
 size
 )
 ;
+}
 break
 ;
 }
@@ -4264,6 +4344,7 @@ tempMaps
 attempt
 ]
 )
+{
 break
 ;
 /
@@ -4275,6 +4356,7 @@ failed
 .
 *
 /
+}
 }
 if
 (
@@ -4305,6 +4387,7 @@ attempt
 =
 0
 )
+{
 UnmapPages
 (
 tempMaps
@@ -4314,6 +4397,7 @@ attempt
 size
 )
 ;
+}
 return
 p
 ;
@@ -4526,10 +4610,12 @@ growthDirection
 -
 8
 )
+{
 -
 -
 growthDirection
 ;
+}
 address
 =
 head
@@ -4607,10 +4693,12 @@ growthDirection
 =
 8
 )
+{
 +
 +
 growthDirection
 ;
+}
 address
 =
 head
@@ -4651,8 +4739,10 @@ growthDirection
 >
 8
 )
+{
 break
 ;
+}
 /
 *
 If
@@ -4762,6 +4852,7 @@ p
 size
 )
 )
+{
 MOZ_ASSERT
 (
 errno
@@ -4770,6 +4861,7 @@ errno
 ENOMEM
 )
 ;
+}
 }
 bool
 MarkPagesUnused
@@ -4794,9 +4886,11 @@ DecommitEnabled
 (
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 OffsetFromAligned
@@ -4870,8 +4964,10 @@ DecommitEnabled
 (
 )
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 OffsetFromAligned
@@ -4902,9 +4998,11 @@ IsRecordingOrReplaying
 (
 )
 )
+{
 return
 0
 ;
+}
 struct
 rusage
 usage
@@ -4923,9 +5021,11 @@ if
 (
 err
 )
+{
 return
 0
 ;
+}
 return
 usage
 .
@@ -5003,9 +5103,11 @@ alignment
 =
 0
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Sanity
@@ -5059,9 +5161,11 @@ st_size
 -
 offset
 )
+{
 return
 nullptr
 ;
+}
 size_t
 alignedOffset
 =
@@ -5111,9 +5215,11 @@ if
 !
 map
 )
+{
 return
 nullptr
 ;
+}
 #
 ifdef
 DEBUG
@@ -5140,6 +5246,7 @@ offset
 =
 alignedOffset
 )
+{
 memset
 (
 map
@@ -5149,12 +5256,14 @@ offset
 alignedOffset
 )
 ;
+}
 if
 (
 alignedLength
 %
 pageSize
 )
+{
 memset
 (
 map
@@ -5170,6 +5279,7 @@ pageSize
 )
 )
 ;
+}
 #
 endif
 return
@@ -5197,8 +5307,10 @@ if
 !
 p
 )
+{
 return
 ;
+}
 /
 /
 Calculate
@@ -5397,6 +5509,7 @@ size
 PROT_NONE
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -5408,6 +5521,7 @@ failed
 "
 )
 ;
+}
 #
 endif
 }
@@ -5501,6 +5615,7 @@ size
 PROT_READ
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -5512,6 +5627,7 @@ failed
 "
 )
 ;
+}
 #
 endif
 }
@@ -5607,6 +5723,7 @@ PROT_READ
 PROT_WRITE
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -5620,6 +5737,7 @@ failed
 "
 )
 ;
+}
 #
 endif
 }

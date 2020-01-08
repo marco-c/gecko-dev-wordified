@@ -247,6 +247,7 @@ isAtomsZone
 (
 )
 )
+{
 zone
 -
 >
@@ -265,7 +266,9 @@ this
 lock
 )
 ;
+}
 else
+{
 bufferedCells
 (
 )
@@ -276,6 +279,7 @@ ArenaCellSet
 :
 Empty
 ;
+}
 setAsFullyUnused
 (
 )
@@ -309,6 +313,7 @@ isAtomsZone
 (
 )
 )
+{
 zone
 -
 >
@@ -327,6 +332,7 @@ this
 lock
 )
 ;
+}
 setAsNotAllocated
 (
 )
