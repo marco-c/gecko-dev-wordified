@@ -208,7 +208,6 @@ aNodeInfo
 ;
 class
 XULPopupElement
-final
 :
 public
 nsXULElement
