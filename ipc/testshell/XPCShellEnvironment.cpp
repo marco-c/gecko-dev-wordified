@@ -1051,11 +1051,6 @@ cx
 ;
 options
 .
-setUTF8
-(
-true
-)
-.
 setFileAndLine
 (
 filename
@@ -1795,11 +1790,6 @@ cx
 ;
 options
 .
-setUTF8
-(
-true
-)
-.
 setFileAndLine
 (
 filename
@@ -2042,13 +2032,6 @@ setFileAndLine
 typein
 "
 startline
-)
-;
-options
-.
-setUTF8
-(
-true
 )
 ;
 JS

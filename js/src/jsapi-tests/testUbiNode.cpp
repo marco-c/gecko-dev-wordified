@@ -661,13 +661,6 @@ options
 cx
 )
 ;
-options
-.
-setUTF8
-(
-true
-)
-;
 /
 /
 Create
@@ -1162,13 +1155,6 @@ CompileOptions
 options
 (
 cx
-)
-;
-options
-.
-setUTF8
-(
-true
 )
 ;
 /

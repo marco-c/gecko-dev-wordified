@@ -204,13 +204,6 @@ opts
 cx
 )
 ;
-opts
-.
-setUTF8
-(
-true
-)
-;
 JS
 :
 :

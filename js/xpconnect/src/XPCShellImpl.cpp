@@ -2226,11 +2226,6 @@ cx
 ;
 options
 .
-setUTF8
-(
-true
-)
-.
 setFileAndLine
 (
 filename
@@ -4423,11 +4418,6 @@ setIsRunOnce
 (
 true
 )
-.
-setUTF8
-(
-true
-)
 ;
 JS
 :
@@ -4820,11 +4810,6 @@ cx
 )
 ;
 options
-.
-setUTF8
-(
-true
-)
 .
 setFileAndLine
 (
@@ -6306,11 +6291,6 @@ cx
 )
 ;
 opts
-.
-setUTF8
-(
-true
-)
 .
 setFileAndLine
 (

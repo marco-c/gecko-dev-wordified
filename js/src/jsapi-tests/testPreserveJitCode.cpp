@@ -439,13 +439,6 @@ __FILE__
 1
 )
 ;
-options
-.
-setUTF8
-(
-true
-)
-;
 JS
 :
 :
