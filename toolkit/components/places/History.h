@@ -221,13 +221,6 @@ h
 #
 include
 "
-nsDeque
-.
-h
-"
-#
-include
-"
 nsIMemoryReporter
 .
 h

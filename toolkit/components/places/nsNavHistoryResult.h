@@ -804,8 +804,6 @@ nsNavHistoryQueryOptions
 >
 &
 aOptions
-bool
-aBatchInProgress
 )
 ;
 RefPtr
