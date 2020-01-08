@@ -439,12 +439,6 @@ LegacySHistory
 (
 )
 ;
-nsSHistory
-*
-LegacySHistoryImpl
-(
-)
-;
 ParentSHistory
 *
 GetParentIfSameProcess
