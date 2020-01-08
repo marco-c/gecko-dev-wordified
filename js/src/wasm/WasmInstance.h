@@ -837,9 +837,6 @@ const
 /
 never
 null
-#
-ifdef
-JS_SIMULATOR
 bool
 memoryAccessInGuardRegion
 (
@@ -851,8 +848,6 @@ numBytes
 )
 const
 ;
-#
-endif
 const
 StructTypeVector
 &
