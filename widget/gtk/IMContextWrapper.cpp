@@ -11754,7 +11754,10 @@ preedit_string
 {
 CopyUTF8toUTF16
 (
+MakeStringSpan
+(
 preedit_string
+)
 aCompositionString
 )
 ;

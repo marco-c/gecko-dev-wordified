@@ -17448,7 +17448,7 @@ gecko
 .
 mName
 .
-assign_utf8
+assign_str
 (
 &
 *
@@ -17527,7 +17527,7 @@ iter_mut
 {
 gecko
 .
-assign_utf8
+assign_str
 (
 &
 *
@@ -34353,7 +34353,7 @@ gecko
 .
 first
 .
-assign_utf8
+assign_str
 (
 &
 servo
@@ -34365,7 +34365,7 @@ gecko
 .
 second
 .
-assign_utf8
+assign_str
 (
 &
 servo
@@ -38762,7 +38762,7 @@ gecko
 .
 mTextEmphasisStyleString
 .
-assign_utf8
+assign_str
 (
 s
 )
@@ -39548,7 +39548,7 @@ side
 .
 mString
 .
-assign_utf8
+assign_str
 (
 s
 )
@@ -44682,7 +44682,7 @@ counter_func
 .
 mSeparator
 .
-assign_utf8
+assign_str
 (
 sep
 )

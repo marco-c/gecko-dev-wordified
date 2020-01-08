@@ -1142,7 +1142,10 @@ Append
 }
 AppendUTF8toUTF16
 (
+MakeStringSpan
+(
 aLib
+)
 fullName
 )
 ;

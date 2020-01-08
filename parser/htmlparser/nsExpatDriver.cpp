@@ -277,6 +277,12 @@ mozilla
 :
 LogLevel
 ;
+using
+mozilla
+:
+:
+MakeStringSpan
+;
 #
 define
 kExpatSeparatorChar
@@ -3410,7 +3416,10 @@ publicId
 ;
 AppendUTF16toUTF8
 (
+MakeStringSpan
+(
 publicId
+)
 message
 )
 ;
@@ -3427,7 +3436,10 @@ systemId
 ;
 AppendUTF16toUTF8
 (
+MakeStringSpan
+(
 systemId
+)
 message
 )
 ;
@@ -3444,7 +3456,10 @@ base
 ;
 AppendUTF16toUTF8
 (
+MakeStringSpan
+(
 base
+)
 message
 )
 ;

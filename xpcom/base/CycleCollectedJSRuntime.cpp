@@ -10400,10 +10400,16 @@ false
 ;
 CopyUTF8toUTF16
 (
+mozilla
+:
+:
+MakeStringSpan
+(
 buf
 .
 get
 (
+)
 )
 details
 .

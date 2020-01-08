@@ -14226,7 +14226,13 @@ cookie
 ;
 CopyASCIItoUTF16
 (
+mozilla
+:
+:
+MakeStringSpan
+(
 aCookie
+)
 cookie
 )
 ;

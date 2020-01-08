@@ -1542,10 +1542,16 @@ true
 ;
 CopyUTF8toUTF16
 (
+mozilla
+:
+:
+MakeStringSpan
+(
 mCachedKeys
 [
 aIndex
 ]
+)
 aURI
 )
 ;

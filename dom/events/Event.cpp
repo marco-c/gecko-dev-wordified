@@ -5959,7 +5959,13 @@ name
 {
 CopyASCIItoUTF16
 (
+mozilla
+:
+:
+MakeStringSpan
+(
 name
+)
 aType
 )
 ;

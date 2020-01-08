@@ -454,7 +454,10 @@ aAppendString
 {
 CopyASCIItoUTF16
 (
+MakeStringSpan
+(
 aDefaultValueString
+)
 aOutputString
 )
 ;
@@ -549,7 +552,10 @@ aPrependString
 {
 AppendASCIItoUTF16
 (
+MakeStringSpan
+(
 aPrependString
+)
 aOutputString
 )
 ;
@@ -569,7 +575,10 @@ aAppendString
 {
 AppendASCIItoUTF16
 (
+MakeStringSpan
+(
 aAppendString
+)
 aOutputString
 )
 ;

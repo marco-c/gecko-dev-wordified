@@ -2194,13 +2194,9 @@ mCert
 emailAddr
 )
 {
-LossyUTF8ToUTF16
+CopyUTF8toUTF16
 (
-mCert
--
->
-emailAddr
-strlen
+MakeStringSpan
 (
 mCert
 -

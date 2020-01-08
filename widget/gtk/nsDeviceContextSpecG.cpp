@@ -2862,7 +2862,10 @@ path
 {
 CopyUTF8toUTF16
 (
+MakeStringSpan
+(
 path
+)
 filename
 )
 ;

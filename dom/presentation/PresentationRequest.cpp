@@ -1239,7 +1239,13 @@ id
 ;
 CopyASCIItoUTF16
 (
+MakeSpan
+(
 buffer
+NSID_LENGTH
+-
+1
+)
 id
 )
 ;
