@@ -1646,6 +1646,16 @@ nsIPrincipal
 aPrincipal
 )
 ;
+/
+/
+From
+ContentChild
+.
+nsresult
+RemoveAllFromIPC
+(
+)
+;
 private
 :
 virtual
