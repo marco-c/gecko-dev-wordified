@@ -2644,6 +2644,7 @@ states
 :
 HORIZONTAL
 eARIAOrientation
+eARIAMultiSelectable
 }
 {
 /
