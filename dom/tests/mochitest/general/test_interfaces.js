@@ -1315,9 +1315,6 @@ AnimationEffect
 insecureContext
 :
 true
-release
-:
-false
 }
 /
 /
@@ -1370,9 +1367,6 @@ AnimationPlaybackEvent
 insecureContext
 :
 true
-release
-:
-false
 }
 /
 /
@@ -7646,9 +7640,6 @@ KeyframeEffect
 insecureContext
 :
 true
-release
-:
-false
 }
 /
 /
