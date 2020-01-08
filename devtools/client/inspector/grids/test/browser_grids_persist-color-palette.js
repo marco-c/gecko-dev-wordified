@@ -153,6 +153,7 @@ const
 {
 inspector
 gridInspector
+layoutView
 toolbox
 }
 =
@@ -180,7 +181,7 @@ inspector
 const
 cPicker
 =
-gridInspector
+layoutView
 .
 getSwatchColorPickerTooltip
 (
