@@ -8589,7 +8589,12 @@ el
 if
 (
 !
+element
+.
+isElement
+(
 el
+)
 )
 {
 /
