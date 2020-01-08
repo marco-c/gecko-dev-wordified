@@ -199,7 +199,7 @@ RawServoSupportsRule
 SERVO_ARC_TYPE
 (
 DocumentRule
-RawServoDocumentRule
+RawServoMozDocumentRule
 )
 SERVO_ARC_TYPE
 (

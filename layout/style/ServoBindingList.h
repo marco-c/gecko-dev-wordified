@@ -1378,6 +1378,10 @@ GROUP_RULE_FUNCS
 (
 Media
 )
+GROUP_RULE_FUNCS
+(
+MozDocument
+)
 BASIC_RULE_FUNCS
 (
 Namespace
@@ -1389,10 +1393,6 @@ Page
 GROUP_RULE_FUNCS
 (
 Supports
-)
-GROUP_RULE_FUNCS
-(
-Document
 )
 BASIC_RULE_FUNCS
 (
@@ -1745,9 +1745,9 @@ result
 )
 SERVO_BINDING_FUNC
 (
-Servo_DocumentRule_GetConditionText
+Servo_MozDocumentRule_GetConditionText
 void
-RawServoDocumentRuleBorrowed
+RawServoMozDocumentRuleBorrowed
 rule
 nsAString
 *
