@@ -2927,6 +2927,7 @@ eCSSKeyword_UNKNOWN
 }
 }
 ;
+const
 KTableEntry
 nsCSSProps
 :
@@ -2971,14 +2972,6 @@ NS_STYLE_TEXT_ALIGN_START
 {
 eCSSKeyword_end
 NS_STYLE_TEXT_ALIGN_END
-}
-{
-eCSSKeyword_unsafe
-NS_STYLE_TEXT_ALIGN_UNSAFE
-}
-{
-eCSSKeyword_match_parent
-NS_STYLE_TEXT_ALIGN_MATCH_PARENT
 }
 {
 eCSSKeyword_UNKNOWN
