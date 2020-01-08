@@ -6622,6 +6622,10 @@ const
 nsCString
 &
 aGrantedOrigin
+FirstPartyStorageAccessGrantedForOriginResolver
+&
+&
+aResolver
 )
 override
 ;
