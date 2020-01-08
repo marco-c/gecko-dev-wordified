@@ -1368,13 +1368,6 @@ aPipelineId
 const
 LayoutDeviceIntSize
 &
-TextureFactoryIdentifier
-*
-wr
-:
-:
-IdNamespace
-*
 )
 override
 ;

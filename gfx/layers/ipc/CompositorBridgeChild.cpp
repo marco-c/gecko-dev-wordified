@@ -6351,14 +6351,6 @@ aPipelineId
 const
 LayoutDeviceIntSize
 &
-TextureFactoryIdentifier
-*
-wr
-:
-:
-IdNamespace
-*
-aIdNamespace
 )
 {
 WebRenderBridgeChild
