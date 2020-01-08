@@ -962,8 +962,6 @@ build_platform
             
 #
 ccov
-and
-msvc
 builds
 are
 tier
