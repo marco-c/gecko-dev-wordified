@@ -323,7 +323,7 @@ action
 )
 )
 {
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 OUTGOING_MESSAGE_NAME
 action
@@ -852,7 +852,7 @@ reducers
 initialState
 global
 .
-addMessageListener
+RPMAddMessageListener
 &
 &
 applyMiddleware
@@ -879,12 +879,12 @@ if
 (
 global
 .
-addMessageListener
+RPMAddMessageListener
 )
 {
 global
 .
-addMessageListener
+RPMAddMessageListener
 (
 INCOMING_MESSAGE_NAME
 msg

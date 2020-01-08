@@ -497,7 +497,7 @@ TOTAL_BOOKMARKS_REQUEST
 ;
 global
 .
-addMessageListener
+RPMAddMessageListener
 (
 "
 ActivityStream
@@ -536,7 +536,7 @@ data
 ;
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 (
 "
 ActivityStream
@@ -586,7 +586,7 @@ ADDONS_INFO_REQUEST
 ;
 global
 .
-addMessageListener
+RPMAddMessageListener
 (
 "
 ActivityStream
@@ -625,7 +625,7 @@ data
 ;
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 (
 "
 ActivityStream
@@ -2107,12 +2107,12 @@ if
 (
 global
 .
-addMessageListener
+RPMAddMessageListener
 )
 {
 global
 .
-addMessageListener
+RPMAddMessageListener
 (
 "
 ActivityStream
@@ -2368,12 +2368,12 @@ if
 (
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 )
 {
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 (
 "
 ActivityStream

@@ -363,7 +363,7 @@ function
 (
 )
 {
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 "
 OpenPrivateWindow
@@ -394,7 +394,7 @@ function
 (
 )
 {
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 "
 DontShowIntroPanelAgain

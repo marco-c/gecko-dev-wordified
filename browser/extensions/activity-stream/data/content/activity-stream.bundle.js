@@ -7589,7 +7589,7 @@ listener
 {
 global
 .
-addMessageListener
+RPMAddMessageListener
 (
 INCOMING_MESSAGE_NAME
 listener
@@ -7603,7 +7603,7 @@ listener
 {
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 (
 INCOMING_MESSAGE_NAME
 listener
@@ -7617,7 +7617,7 @@ action
 {
 global
 .
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 OUTGOING_MESSAGE_NAME
 action
@@ -7832,7 +7832,7 @@ ping
 ;
 global
 .
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 __WEBPACK_IMPORTED_MODULE_2_content_src_lib_init_store__
 [
@@ -22944,7 +22944,7 @@ action
 )
 )
 {
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 OUTGOING_MESSAGE_NAME
 action
@@ -23582,7 +23582,7 @@ reducers
 initialState
 global
 .
-addMessageListener
+RPMAddMessageListener
 &
 &
 Object
@@ -23617,12 +23617,12 @@ if
 (
 global
 .
-addMessageListener
+RPMAddMessageListener
 )
 {
 global
 .
-addMessageListener
+RPMAddMessageListener
 (
 INCOMING_MESSAGE_NAME
 msg
@@ -37926,7 +37926,7 @@ TOTAL_BOOKMARKS_REQUEST
 ;
 global
 .
-addMessageListener
+RPMAddMessageListener
 (
 "
 ActivityStream
@@ -37975,7 +37975,7 @@ data
 ;
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 (
 "
 ActivityStream
@@ -38045,7 +38045,7 @@ ADDONS_INFO_REQUEST
 ;
 global
 .
-addMessageListener
+RPMAddMessageListener
 (
 "
 ActivityStream
@@ -38094,7 +38094,7 @@ data
 ;
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 (
 "
 ActivityStream
@@ -39639,12 +39639,12 @@ if
 (
 global
 .
-addMessageListener
+RPMAddMessageListener
 )
 {
 global
 .
-addMessageListener
+RPMAddMessageListener
 (
 "
 ActivityStream
@@ -39905,12 +39905,12 @@ if
 (
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 )
 {
 global
 .
-removeMessageListener
+RPMRemoveMessageListener
 (
 "
 ActivityStream

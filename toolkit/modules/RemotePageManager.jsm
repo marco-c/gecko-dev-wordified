@@ -3139,7 +3139,7 @@ window
 defineAs
 :
 "
-sendAsyncMessage
+RPMSendAsyncMessage
 "
 }
 )
@@ -3161,7 +3161,7 @@ window
 defineAs
 :
 "
-addMessageListener
+RPMAddMessageListener
 "
 allowCallbacks
 :
@@ -3186,7 +3186,7 @@ window
 defineAs
 :
 "
-removeMessageListener
+RPMRemoveMessageListener
 "
 allowCallbacks
 :

@@ -366,7 +366,7 @@ msg
 )
 =
 >
-addMessageListener
+RPMAddMessageListener
 (
 msg
 this
@@ -637,7 +637,7 @@ dispatchEvent
 event
 )
 ;
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 "
 Load
@@ -1744,7 +1744,7 @@ autoSubmit
 checked
 ;
 }
-sendAsyncMessage
+RPMSendAsyncMessage
 (
 messageName
 {
