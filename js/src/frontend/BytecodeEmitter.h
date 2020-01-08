@@ -3703,17 +3703,6 @@ op
 ;
 MOZ_MUST_USE
 bool
-emitAtomOp
-(
-NameNode
-*
-nameNode
-JSOp
-op
-)
-;
-MOZ_MUST_USE
-bool
 emitArrayLiteral
 (
 ListNode
