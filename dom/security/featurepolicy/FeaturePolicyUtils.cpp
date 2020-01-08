@@ -262,16 +262,6 @@ FeatureMap
 :
 eAll
 }
-/
-/
-TODO
-:
-not
-supported
-yet
-!
-!
-!
 {
 "
 geolocation
