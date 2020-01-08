@@ -3230,6 +3230,11 @@ enable
 stdcxx
 -
 compat
+-
+-
+disable
+-
+gold
 '
 +
 CONFIGURE_ARGS
