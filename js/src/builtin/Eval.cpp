@@ -3098,7 +3098,7 @@ HandleObject
 env
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )

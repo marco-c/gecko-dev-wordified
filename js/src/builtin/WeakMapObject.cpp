@@ -1351,7 +1351,7 @@ MutableHandleValue
 rval
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -1493,7 +1493,7 @@ HandleValue
 val
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )

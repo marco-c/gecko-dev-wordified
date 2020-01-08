@@ -6572,7 +6572,7 @@ AssertHeapIsIdle
 (
 )
 ;
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -6608,7 +6608,7 @@ JSContext
 cx
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -6644,7 +6644,7 @@ JSContext
 cx
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -6680,7 +6680,7 @@ JSContext
 cx
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -6716,7 +6716,7 @@ JSContext
 cx
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -6753,7 +6753,7 @@ JSContext
 cx
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )

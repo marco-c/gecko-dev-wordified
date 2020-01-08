@@ -3079,7 +3079,7 @@ NukeReferencesFromTarget
 nukeReferencesFromTarget
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )

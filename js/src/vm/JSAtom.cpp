@@ -5292,7 +5292,7 @@ uint32_t
 indexValue
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -5348,7 +5348,7 @@ PinningBehavior
 pin
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
