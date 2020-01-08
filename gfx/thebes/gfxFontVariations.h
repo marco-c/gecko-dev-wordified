@@ -162,7 +162,7 @@ gfxFontVariationAxis
 uint32_t
 mTag
 ;
-nsString
+nsCString
 mName
 ;
 /
@@ -264,7 +264,7 @@ used
 struct
 gfxFontVariationInstance
 {
-nsString
+nsCString
 mName
 ;
 nsTArray

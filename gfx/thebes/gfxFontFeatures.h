@@ -475,7 +475,7 @@ bool
 GetFontFeatureValuesFor
 (
 const
-nsAString
+nsACString
 &
 aFamily
 uint32_t
@@ -496,7 +496,7 @@ void
 AddFontFeatureValues
 (
 const
-nsAString
+nsACString
 &
 aFamily
 const
@@ -548,7 +548,7 @@ uint32_t
 AppendFeatureValueHashEntry
 (
 const
-nsAString
+nsACString
 &
 aFamily
 const
@@ -583,7 +583,7 @@ gfxFontFeatureValueSet
 struct
 FeatureValueHashKey
 {
-nsString
+nsCString
 mFamily
 ;
 uint32_t
@@ -605,7 +605,7 @@ mPropVal
 FeatureValueHashKey
 (
 const
-nsAString
+nsACString
 &
 aFamily
 uint32_t

@@ -446,7 +446,7 @@ object
 gfxDWriteFontFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 IDWriteFontFamily
@@ -496,7 +496,7 @@ final
 void
 LocalizedName
 (
-nsAString
+nsACString
 &
 aLocalizedName
 )
@@ -683,7 +683,7 @@ object
 gfxDWriteFontEntry
 (
 const
-nsAString
+nsACString
 &
 aFaceName
 IDWriteFont
@@ -924,7 +924,7 @@ font
 gfxDWriteFontEntry
 (
 const
-nsAString
+nsACString
 &
 aFaceName
 IDWriteFont
@@ -1059,7 +1059,7 @@ font
 gfxDWriteFontEntry
 (
 const
-nsAString
+nsACString
 &
 aFaceName
 IDWriteFontFile
@@ -1910,7 +1910,7 @@ S_OK
 ;
 }
 const
-nsString
+nsCString
 &
 FallbackFamilyName
 (
@@ -1931,7 +1931,7 @@ IDWriteFontCollection
 >
 mSystemFonts
 ;
-nsString
+nsCString
 mFamilyName
 ;
 }
@@ -1983,7 +1983,7 @@ gfxFontFamily
 CreateFontFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -1996,7 +1996,7 @@ gfxFontEntry
 LookupLocalFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -2013,7 +2013,7 @@ gfxFontEntry
 MakePlatformFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -2034,10 +2034,10 @@ bool
 GetStandardFamilyName
 (
 const
-nsAString
+nsCString
 &
 aFontName
-nsAString
+nsACString
 &
 aFamilyName
 )
@@ -2065,7 +2065,7 @@ bool
 FindAndAddFamilies
 (
 const
-nsAString
+nsACString
 &
 aFamily
 nsTArray
@@ -2261,7 +2261,7 @@ found
 /
 nsTArray
 <
-nsString
+nsCString
 >
 mNonExistingFonts
 ;

@@ -648,7 +648,7 @@ available
 bool
 GetFamilyName
 (
-nsString
+nsCString
 &
 aResult
 )

@@ -135,7 +135,7 @@ gfxFontFeatureValueSet
 GetFontFeatureValuesFor
 (
 const
-nsAString
+nsACString
 &
 aFamily
 uint32_t
@@ -152,7 +152,7 @@ uint32_t
 aValues
 )
 {
-nsAutoString
+nsAutoCString
 family
 (
 aFamily
@@ -240,7 +240,7 @@ gfxFontFeatureValueSet
 AddFontFeatureValues
 (
 const
-nsAString
+nsACString
 &
 aFamily
 const
@@ -255,7 +255,7 @@ FeatureValues
 aValues
 )
 {
-nsAutoString
+nsAutoCString
 family
 (
 aFamily
@@ -385,7 +385,7 @@ gfxFontFeatureValueSet
 AppendFeatureValueHashEntry
 (
 const
-nsAString
+nsACString
 &
 aFamily
 const

@@ -236,7 +236,7 @@ gfxMacFont
 MacOSFontEntry
 (
 const
-nsAString
+nsACString
 &
 aPostscriptName
 WeightRange
@@ -263,7 +263,7 @@ fonts
 MacOSFontEntry
 (
 const
-nsAString
+nsACString
 &
 aPostscriptName
 CGFontRef
@@ -858,7 +858,7 @@ gfxFontFamily
 CreateFontFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -877,10 +877,10 @@ bool
 GetStandardFamilyName
 (
 const
-nsAString
+nsCString
 &
 aFontName
-nsAString
+nsACString
 &
 aFamilyName
 )
@@ -891,7 +891,7 @@ gfxFontEntry
 LookupLocalFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -908,7 +908,7 @@ gfxFontEntry
 MakePlatformFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -930,7 +930,7 @@ bool
 FindAndAddFamilies
 (
 const
-nsAString
+nsACString
 &
 aFamily
 nsTArray
@@ -987,7 +987,7 @@ LookAndFeel
 :
 FontID
 aSystemFontID
-nsAString
+nsACString
 &
 aSystemFontName
 gfxFontStyle
@@ -1175,7 +1175,7 @@ gfxFontFamily
 FindSystemFontFamily
 (
 const
-nsAString
+nsACString
 &
 aFamily
 )
@@ -1342,7 +1342,7 @@ void
 AddFamily
 (
 const
-nsAString
+nsACString
 &
 aFamilyName
 bool
@@ -1489,10 +1489,10 @@ sizes
 bool
 mUseSizeSensitiveSystemFont
 ;
-nsString
+nsCString
 mSystemTextFontFamilyName
 ;
-nsString
+nsCString
 mSystemDisplayFontFamilyName
 ;
 /

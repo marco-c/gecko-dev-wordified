@@ -877,7 +877,7 @@ GDIFontEntry
 CreateFontEntry
 (
 const
-nsAString
+nsACString
 &
 aName
 gfxWindowsFontType
@@ -911,7 +911,7 @@ gfxGDIFont
 GDIFontEntry
 (
 const
-nsAString
+nsACString
 &
 aFaceName
 gfxWindowsFontType
@@ -931,7 +931,7 @@ void
 InitLogFont
 (
 const
-nsAString
+nsACString
 &
 aName
 gfxWindowsFontType
@@ -1023,7 +1023,7 @@ explicit
 GDIFontFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -1652,7 +1652,7 @@ gfxFontFamily
 CreateFontFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -1663,7 +1663,7 @@ bool
 FindAndAddFamilies
 (
 const
-nsAString
+nsACString
 &
 aFamily
 nsTArray
@@ -1694,7 +1694,7 @@ gfxFontEntry
 LookupLocalFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -1711,7 +1711,7 @@ gfxFontEntry
 MakePlatformFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -1828,7 +1828,7 @@ mFontSubstitutes
 ;
 nsTArray
 <
-nsString
+nsCString
 >
 mNonExistingFonts
 ;

@@ -563,7 +563,7 @@ explicit
 gfxFontconfigFontEntry
 (
 const
-nsAString
+nsACString
 &
 aFaceName
 FcPattern
@@ -597,7 +597,7 @@ explicit
 gfxFontconfigFontEntry
 (
 const
-nsAString
+nsACString
 &
 aFaceName
 WeightRange
@@ -633,7 +633,7 @@ explicit
 gfxFontconfigFontEntry
 (
 const
-nsAString
+nsACString
 &
 aFaceName
 FcPattern
@@ -1171,7 +1171,7 @@ explicit
 gfxFontconfigFontFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -1523,7 +1523,7 @@ gfxFontEntry
 LookupLocalFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -1540,7 +1540,7 @@ gfxFontEntry
 MakePlatformFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -1562,7 +1562,7 @@ bool
 FindAndAddFamilies
 (
 const
-nsAString
+nsACString
 &
 aFamily
 nsTArray
@@ -1591,10 +1591,10 @@ bool
 GetStandardFamilyName
 (
 const
-nsAString
+nsCString
 &
 aFontName
-nsAString
+nsACString
 &
 aFamilyName
 )
@@ -1862,7 +1862,7 @@ FcChar8
 *
 &
 aLastFamilyName
-nsAString
+nsACString
 &
 aFamilyName
 RefPtr
@@ -1954,7 +1954,7 @@ gfxFontFamily
 CreateFontFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -2024,7 +2024,7 @@ to
 family
 nsBaseHashtable
 <
-nsStringHashKey
+nsCStringHashKey
 nsCountedRef
 <
 FcPattern

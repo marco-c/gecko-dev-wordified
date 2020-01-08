@@ -2222,15 +2222,14 @@ failed
 .
 *
 /
-virtual
-nsresult
+void
 GetStandardFamilyName
 (
 const
-nsAString
+nsCString
 &
 aFontName
-nsAString
+nsACString
 &
 aFamilyName
 )
@@ -2315,7 +2314,7 @@ string
 .
 *
 /
-nsAutoString
+nsAutoCString
 GetDefaultFontName
 (
 const
@@ -2427,7 +2426,7 @@ gfxFontEntry
 LookupLocalFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -2525,7 +2524,7 @@ gfxFontEntry
 MakePlatformFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange

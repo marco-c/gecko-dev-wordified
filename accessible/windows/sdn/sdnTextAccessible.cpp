@@ -1158,7 +1158,7 @@ frame
 )
 ;
 const
-nsString
+nsCString
 &
 name
 =
@@ -1190,6 +1190,12 @@ IsEmpty
 return
 S_FALSE
 ;
+NS_ConvertUTF8toUTF16
+str
+(
+name
+)
+;
 *
 aFontFamily
 =
@@ -1197,12 +1203,12 @@ aFontFamily
 :
 SysAllocStringLen
 (
-name
+str
 .
 get
 (
 )
-name
+str
 .
 Length
 (

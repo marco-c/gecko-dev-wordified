@@ -4469,7 +4469,7 @@ aFontFeatures
 bool
 aDisableLigatures
 const
-nsAString
+nsACString
 &
 aFamilyName
 bool
@@ -10080,7 +10080,7 @@ font
 BoundingBoxType
 ;
 const
-nsString
+nsCString
 &
 GetName
 (

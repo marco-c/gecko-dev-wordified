@@ -334,7 +334,7 @@ below
 uint32_t
 mFormatFlags
 ;
-nsString
+nsCString
 mLocalName
 ;
 /
@@ -813,7 +813,7 @@ if
 url
 (
 )
-nsString
+nsCString
 mLocalName
 ;
 /
@@ -828,7 +828,7 @@ if
 local
 (
 )
-nsString
+nsCString
 mRealName
 ;
 /
@@ -958,7 +958,7 @@ explicit
 gfxUserFontFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -1095,14 +1095,14 @@ else
 #
 ifdef
 DEBUG
-nsString
+nsCString
 thisName
 =
 Name
 (
 )
 ;
-nsString
+nsCString
 entryName
 =
 aFontEntry
@@ -1542,7 +1542,7 @@ gfxUserFontEntry
 FindOrCreateUserFontEntry
 (
 const
-nsAString
+nsACString
 &
 aFamilyName
 const
@@ -1601,7 +1601,7 @@ void
 AddUserFontEntry
 (
 const
-nsAString
+nsCString
 &
 aFamilyName
 gfxUserFontEntry
@@ -1624,7 +1624,7 @@ bool
 HasFamily
 (
 const
-nsAString
+nsACString
 &
 aFamilyName
 )
@@ -1661,7 +1661,7 @@ gfxUserFontFamily
 LookupFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -3183,7 +3183,7 @@ gfxUserFontFamily
 GetFamily
 (
 const
-nsAString
+nsACString
 &
 aFamilyName
 )
@@ -3200,7 +3200,7 @@ face
 rules
 nsRefPtrHashtable
 <
-nsStringHashKey
+nsCStringHashKey
 gfxUserFontFamily
 >
 mFontFamilies
@@ -4070,7 +4070,7 @@ aFontEntry
 bool
 aPrivate
 const
-nsAString
+nsACString
 &
 aOriginalName
 FallibleTArray

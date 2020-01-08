@@ -4924,7 +4924,7 @@ uint8_t
 aFontData
 uint32_t
 aLength
-nsAString
+nsACString
 &
 aFullName
 )
@@ -4958,7 +4958,7 @@ GetFullNameFromTable
 hb_blob_t
 *
 aNameTable
-nsAString
+nsACString
 &
 aFullName
 )
@@ -4980,7 +4980,7 @@ GetFamilyNameFromTable
 hb_blob_t
 *
 aNameTable
-nsAString
+nsACString
 &
 aFamilyName
 )
@@ -5210,7 +5210,7 @@ int32_t
 aPlatformID
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aNames
@@ -5243,7 +5243,7 @@ hb_blob_t
 aNameTable
 uint32_t
 aNameID
-nsString
+nsCString
 &
 aName
 )
@@ -5260,7 +5260,7 @@ uint32_t
 aDataLen
 uint32_t
 aNameID
-nsString
+nsCString
 &
 aName
 )
@@ -5318,7 +5318,7 @@ uint32_t
 aScriptCode
 uint32_t
 aLangCode
-nsAString
+nsACString
 &
 dest
 )
@@ -6024,7 +6024,7 @@ int32_t
 aPlatformID
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aNames

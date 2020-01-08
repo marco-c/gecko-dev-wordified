@@ -3533,7 +3533,7 @@ FontFace
 :
 GetFamilyName
 (
-nsString
+nsCString
 &
 aResult
 )
@@ -3569,11 +3569,10 @@ GetStringValue
 familyname
 )
 ;
-aResult
-.
-Append
+AppendUTF16toUTF8
 (
 familyname
+aResult
 )
 ;
 }
