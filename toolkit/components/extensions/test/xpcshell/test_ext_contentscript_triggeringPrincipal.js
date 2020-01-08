@@ -6659,7 +6659,7 @@ origURL
 =
 =
 "
-self
+inline
 "
 &
 &

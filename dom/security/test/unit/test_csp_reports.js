@@ -860,6 +860,7 @@ uri
 "
 :
 "
+inline
 "
 }
 false
@@ -959,6 +960,7 @@ uri
 "
 :
 "
+eval
 "
 /
 /
@@ -1285,6 +1287,7 @@ uri
 "
 :
 "
+inline
 "
 }
 true
@@ -1386,6 +1389,7 @@ uri
 "
 :
 "
+inline
 "
 }
 true

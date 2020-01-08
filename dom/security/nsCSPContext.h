@@ -493,6 +493,10 @@ GatherSecurityPolicyViolationEventData
 nsIURI
 *
 aBlockedURI
+const
+nsACString
+&
+aBlockedString
 nsIURI
 *
 aOriginalURI
