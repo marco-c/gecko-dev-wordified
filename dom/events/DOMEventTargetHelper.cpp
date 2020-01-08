@@ -1340,6 +1340,16 @@ false
 ;
 if
 (
+NS_SUCCEEDED
+(
+CheckInnerWindowCorrectness
+(
+)
+)
+)
+{
+if
+(
 !
 mKeepingAliveTypes
 .
@@ -1451,6 +1461,7 @@ true
 ;
 break
 ;
+}
 }
 }
 }
