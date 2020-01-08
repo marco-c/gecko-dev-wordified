@@ -7182,7 +7182,7 @@ aDirection
 ;
 if
 (
-aWidgetType
+gtkWidgetType
 !
 =
 MOZ_GTK_DROPDOWN
