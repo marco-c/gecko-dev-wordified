@@ -185,9 +185,6 @@ media
 :
 TimeUnit
 ;
-class
-AutoTaskQueue
-;
 #
 define
 DO_FAIL

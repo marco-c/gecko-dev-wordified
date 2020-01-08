@@ -140,13 +140,6 @@ h
 #
 include
 "
-AutoTaskQueue
-.
-h
-"
-#
-include
-"
 CSFLog
 .
 h
@@ -305,6 +298,15 @@ include
 mozilla
 /
 Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
+TaskQueue
 .
 h
 "
@@ -828,7 +830,7 @@ mLength
 mTaskQueue
 (
 new
-AutoTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (
@@ -2838,7 +2840,7 @@ mLength
 const
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
@@ -2999,7 +3001,7 @@ aConduit
 mTaskQueue
 (
 new
-AutoTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (
@@ -4142,7 +4144,7 @@ mConduit
 const
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
@@ -10916,7 +10918,7 @@ WEBRTC_MAX_SAMPLE_RATE
 mTaskQueue
 (
 new
-AutoTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (
@@ -11633,7 +11635,7 @@ mRate
 const
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

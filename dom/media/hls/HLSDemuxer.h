@@ -125,13 +125,6 @@ HLSDemuxer_h_
 #
 include
 "
-AutoTaskQueue
-.
-h
-"
-#
-include
-"
 GeneratedJNINatives
 .
 h
@@ -188,6 +181,15 @@ include
 mozilla
 /
 Mutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
+TaskQueue
 .
 h
 "
@@ -316,7 +318,7 @@ NotifyDataArrived
 )
 override
 ;
-AutoTaskQueue
+TaskQueue
 *
 GetTaskQueue
 (
@@ -371,7 +373,7 @@ HLSTrackDemuxer
 const
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

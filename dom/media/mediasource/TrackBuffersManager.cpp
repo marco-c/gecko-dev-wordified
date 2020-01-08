@@ -1079,7 +1079,7 @@ task
 .
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 taskQueue
 =

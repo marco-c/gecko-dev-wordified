@@ -159,7 +159,9 @@ h
 #
 include
 "
-AutoTaskQueue
+mozilla
+/
+TaskQueue
 .
 h
 "
@@ -3178,7 +3180,7 @@ objects
 .
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 GetTaskQueueSafe
 (
@@ -3210,7 +3212,7 @@ ifdef
 DEBUG
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 taskQueue
 =
@@ -3565,7 +3567,7 @@ mutex
 .
 RefPtr
 <
-AutoTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

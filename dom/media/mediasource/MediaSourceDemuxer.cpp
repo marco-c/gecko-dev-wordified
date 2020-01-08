@@ -213,7 +213,7 @@ aAbstractMainThread
 mTaskQueue
 (
 new
-AutoTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (

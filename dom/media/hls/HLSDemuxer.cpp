@@ -788,7 +788,7 @@ aPlayerId
 mTaskQueue
 (
 new
-AutoTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (
