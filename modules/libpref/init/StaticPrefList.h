@@ -1107,7 +1107,7 @@ monoaudio
 enable
 "
 accessibility_monoaudio_enable
-bool
+RelaxedAtomicBool
 false
 )
 /
@@ -1923,7 +1923,7 @@ flushtimer
 initialdelay
 "
 html5_flushtimer_initialdelay
-int32_t
+RelaxedAtomicInt32
 120
 )
 /
@@ -1966,7 +1966,7 @@ flushtimer
 subsequentdelay
 "
 html5_flushtimer_subsequentdelay
-int32_t
+RelaxedAtomicInt32
 120
 )
 /
@@ -3296,7 +3296,7 @@ media
 cache_size
 "
 MediaCacheSize
-uint32_t
+RelaxedAtomicUint32
 PREF_VALUE
 )
 #
@@ -3536,7 +3536,7 @@ media
 cache_resume_threshold
 "
 MediaCacheResumeThreshold
-int32_t
+RelaxedAtomicInt32
 PREF_VALUE
 )
 #
@@ -3615,7 +3615,7 @@ media
 cache_readahead_limit
 "
 MediaCacheReadaheadLimit
-int32_t
+RelaxedAtomicInt32
 PREF_VALUE
 )
 #
@@ -3634,7 +3634,7 @@ resampling
 enabled
 "
 MediaResamplingEnabled
-bool
+RelaxedAtomicBool
 false
 )
 #
@@ -3684,7 +3684,7 @@ forcestereo
 enabled
 "
 MediaForcestereoEnabled
-bool
+RelaxedAtomicBool
 PREF_VALUE
 )
 #
@@ -3707,7 +3707,7 @@ sync
 enabled
 "
 MediaRuinAvSyncEnabled
-bool
+RelaxedAtomicBool
 false
 )
 /
@@ -4005,7 +4005,7 @@ blank
 decoder
 "
 MediaUseBlankDecoder
-bool
+RelaxedAtomicBool
 false
 )
 #
@@ -4038,7 +4038,7 @@ process
 decoder
 "
 MediaGpuProcessDecoder
-bool
+RelaxedAtomicBool
 PREF_VALUE
 )
 #
@@ -4070,7 +4070,7 @@ codec
 enabled
 "
 MediaAndroidMediaCodecEnabled
-bool
+RelaxedAtomicBool
 true
 )
 VARCACHE_PREF
@@ -4087,7 +4087,7 @@ codec
 preferred
 "
 MediaAndroidMediaCodecPreferred
-bool
+RelaxedAtomicBool
 true
 )
 #
@@ -4242,7 +4242,7 @@ ffmpeg
 enabled
 "
 MediaFfmpegEnabled
-bool
+RelaxedAtomicBool
 PREF_VALUE
 )
 #
@@ -4281,7 +4281,7 @@ ffvpx
 enabled
 "
 MediaFfvpxEnabled
-bool
+RelaxedAtomicBool
 true
 )
 #
@@ -4330,7 +4330,7 @@ wmf
 enabled
 "
 MediaWmfEnabled
-bool
+RelaxedAtomicBool
 true
 )
 /
@@ -4382,7 +4382,7 @@ vp9
 enabled
 "
 MediaWmfVp9Enabled
-bool
+RelaxedAtomicBool
 true
 )
 #
@@ -4427,7 +4427,7 @@ recycle
 enabled
 "
 MediaDecoderRecycleEnabled
-bool
+RelaxedAtomicBool
 PREF_VALUE
 )
 #
@@ -4466,7 +4466,7 @@ frame
 enabled
 "
 MediaDecoderSkipToNextKeyFrameEnabled
-bool
+RelaxedAtomicBool
 true
 )
 VARCACHE_PREF
@@ -4481,7 +4481,7 @@ decoder
 enabled
 "
 MediaGmpDecoderEnabled
-bool
+RelaxedAtomicBool
 false
 )
 VARCACHE_PREF
@@ -4496,7 +4496,7 @@ audio
 blank
 "
 MediaEmeAudioBlank
-bool
+RelaxedAtomicBool
 false
 )
 VARCACHE_PREF
@@ -4511,7 +4511,7 @@ video
 blank
 "
 MediaEmeVideoBlank
-bool
+RelaxedAtomicBool
 false
 )
 VARCACHE_PREF
@@ -4530,7 +4530,7 @@ video
 shmems
 "
 MediaEmeChromiumApiVideoShmems
-uint32_t
+RelaxedAtomicUint32
 6
 )
 /
@@ -4559,7 +4559,7 @@ video
 enabled
 "
 MediaSuspendBkgndVideoEnabled
-bool
+RelaxedAtomicBool
 true
 )
 /
@@ -4620,7 +4620,7 @@ timeout
 ms
 "
 MediaDormantOnPauseTimeoutMs
-int32_t
+RelaxedAtomicInt32
 5000
 )
 VARCACHE_PREF
@@ -4837,7 +4837,7 @@ ogg
 enabled
 "
 MediaOggEnabled
-bool
+RelaxedAtomicBool
 true
 )
 /
@@ -4853,7 +4853,7 @@ av1
 enabled
 "
 MediaAv1Enabled
-bool
+RelaxedAtomicBool
 true
 )
 /
@@ -4881,7 +4881,7 @@ flac
 enabled
 "
 MediaOggFlacEnabled
-bool
+RelaxedAtomicBool
 true
 )
 VARCACHE_PREF
@@ -4956,7 +4956,7 @@ mp4
 enabled
 "
 mediaMp4Enabled
-bool
+RelaxedAtomicBool
 PREF_VALUE
 )
 #
@@ -5004,7 +5004,7 @@ as
 errors
 "
 MediaPlaybackWarningsAsErrors
-bool
+RelaxedAtomicBool
 false
 )
 /
@@ -5103,7 +5103,7 @@ seamless
 looping
 "
 MediaSeamlessLooping
-bool
+RelaxedAtomicBool
 true
 )
 /
