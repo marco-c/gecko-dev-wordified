@@ -937,6 +937,11 @@ JSGCMode
 gcMode
 )
 ;
+void
+poisonUnused
+(
+)
+;
 size_t
 sizeOfExcludingThis
 (
@@ -1021,6 +1026,14 @@ enlarge
 (
 size_t
 count
+)
+;
+MOZ_MUST_USE
+bool
+resize
+(
+size_t
+newCapacity
 )
 ;
 TaggedPtr
