@@ -9432,7 +9432,7 @@ self
 .
 realtype
 =
-Array
+LegacyArray
 (
 self
 .
@@ -9765,7 +9765,7 @@ self
 name
 )
 class
-Array
+LegacyArray
 (
 object
 )

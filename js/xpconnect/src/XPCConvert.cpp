@@ -2509,7 +2509,7 @@ case
 nsXPTType
 :
 :
-T_ARRAY
+T_LEGACY_ARRAY
 :
 return
 NativeArray2JS
@@ -5168,7 +5168,7 @@ case
 nsXPTType
 :
 :
-T_ARRAY
+T_LEGACY_ARRAY
 :
 {
 void
@@ -10178,7 +10178,7 @@ Tag
 nsXPTType
 :
 :
-T_ARRAY
+T_LEGACY_ARRAY
 "
 Array
 lengths
@@ -10401,7 +10401,7 @@ case
 nsXPTType
 :
 :
-T_ARRAY
+T_LEGACY_ARRAY
 :
 {
 const
