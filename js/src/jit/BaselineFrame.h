@@ -417,13 +417,13 @@ address
 without
 a
 corresponding
-ICEntry
+RetAddrEntry
 .
 In
 this
+/
+/
 case
-/
-/
 the
 frame
 contains
@@ -433,6 +433,8 @@ bytecode
 offset
 for
 frame
+/
+/
 iterators
 .
 /
@@ -499,7 +501,7 @@ code
 .
 In
 debug
-mode
+builds
 it
 is
 checked

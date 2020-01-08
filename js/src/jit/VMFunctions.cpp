@@ -6951,7 +6951,7 @@ baselineScript
 )
 -
 >
-icEntryFromReturnAddress
+retAddrEntryFromReturnAddress
 (
 retAddr
 )
