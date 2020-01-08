@@ -3202,15 +3202,6 @@ ReadUnlockTextures
 )
 ;
 }
-virtual
-void
-SetDispAcquireFence
-(
-Layer
-*
-aLayer
-)
-;
 /
 *
 *
