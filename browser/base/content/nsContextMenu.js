@@ -7255,6 +7255,13 @@ charset
 gContextMenuContentData
 .
 charSet
+triggeringPrincipal
+:
+this
+.
+browser
+.
+contentPrincipal
 referrerURI
 :
 referrer
