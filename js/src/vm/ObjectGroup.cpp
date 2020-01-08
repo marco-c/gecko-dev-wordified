@@ -266,6 +266,17 @@ include
 "
 vm
 /
+TypeInference
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 UnboxedObject
 -
 inl

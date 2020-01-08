@@ -393,6 +393,12 @@ BaselineScript
 0x1
 )
 class
+AutoKeepTypeScripts
+;
+class
+AutoSweepTypeScript
+;
+class
 BreakpointSite
 ;
 class
@@ -412,6 +418,9 @@ SourceCompressionTask
 ;
 class
 Shape
+;
+class
+TypeScript
 ;
 namespace
 frontend
