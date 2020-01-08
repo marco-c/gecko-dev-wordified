@@ -8392,7 +8392,7 @@ GetAxisLength
 direction
 mFrameMetrics
 .
-CalculateCompositedRectInCssPixels
+CalculateCompositionBoundsInCssPixelsOfSurroundingContent
 (
 )
 )
@@ -12992,7 +12992,7 @@ cssCompositionBound
 =
 mFrameMetrics
 .
-CalculateCompositedRectInCssPixels
+CalculateCompositionBoundsInCssPixelsOfSurroundingContent
 (
 )
 ;
