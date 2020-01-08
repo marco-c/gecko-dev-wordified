@@ -602,6 +602,11 @@ MaybeDispatchUpdateFound
 (
 )
 ;
+void
+UpdatePromiseSettled
+(
+)
+;
 ServiceWorkerRegistrationDescriptor
 mDescriptor
 ;
@@ -640,6 +645,9 @@ mScheduledUpdateFoundId
 ;
 uint64_t
 mDispatchedUpdateFoundId
+;
+uint32_t
+mPendingUpdatePromises
 ;
 }
 ;
