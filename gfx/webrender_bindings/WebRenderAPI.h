@@ -1095,6 +1095,11 @@ FlushSceneBuilder
 (
 )
 ;
+void
+NotifyMemoryPressure
+(
+)
+;
 wr
 :
 :
