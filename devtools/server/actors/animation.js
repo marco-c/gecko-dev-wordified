@@ -2697,6 +2697,17 @@ endDelay
 |
 newState
 .
+direction
+!
+=
+=
+oldState
+.
+direction
+|
+|
+newState
+.
 playbackRate
 !
 =
