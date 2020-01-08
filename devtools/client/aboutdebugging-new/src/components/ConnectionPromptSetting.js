@@ -292,6 +292,15 @@ className
 default
 -
 button
+js
+-
+connection
+-
+prompt
+-
+toggle
+-
+button
 "
 onClick
 :
