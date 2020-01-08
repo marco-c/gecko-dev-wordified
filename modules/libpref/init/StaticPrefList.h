@@ -6722,7 +6722,7 @@ storagerestriction
 enabled
 "
 privacy_trackingprotection_storagerestriction_enabled
-bool
+RelaxedAtomicBool
 false
 )
 /
