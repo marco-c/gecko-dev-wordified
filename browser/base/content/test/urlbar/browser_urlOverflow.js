@@ -103,6 +103,8 @@ equal
 (
 gURLBar
 .
+valueFormatter
+.
 scheme
 .
 value
@@ -123,6 +125,8 @@ equal
 getComputedStyle
 (
 gURLBar
+.
+valueFormatter
 .
 scheme
 )
@@ -284,6 +288,8 @@ equal
 (
 gURLBar
 .
+valueFormatter
+.
 scheme
 .
 value
@@ -395,6 +401,8 @@ equal
 getComputedStyle
 (
 gURLBar
+.
+valueFormatter
 .
 scheme
 )
