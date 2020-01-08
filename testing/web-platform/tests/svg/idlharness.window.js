@@ -61,7 +61,7 @@ g
 defs
 '
 '
-Desc
+desc
 '
 '
 title
@@ -76,7 +76,7 @@ use
 image
 '
 '
-Switch
+switch
 '
 '
 style
@@ -175,10 +175,7 @@ set
 animateMotion
 '
 '
-mPath
-'
-'
-animateColor
+mpath
 '
 '
 animateColor
@@ -629,7 +626,7 @@ SVGDescElement
 '
 objects
 .
-Desc
+desc
 '
 ]
 SVGTitleElement
@@ -674,7 +671,7 @@ SVGSwitchElement
 '
 objects
 .
-Switch
+switch
 '
 ]
 SVGStyleElement
@@ -1385,7 +1382,7 @@ SVGMPathElement
 '
 objects
 .
-mPath
+mpath
 '
 ]
 SVGAnimateColorElement
