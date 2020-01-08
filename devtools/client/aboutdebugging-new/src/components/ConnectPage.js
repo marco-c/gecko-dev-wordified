@@ -150,7 +150,7 @@ svg
 "
 ;
 class
-RuntimePage
+ConnectPage
 extends
 PureComponent
 {
@@ -440,5 +440,5 @@ module
 .
 exports
 =
-RuntimePage
+ConnectPage
 ;
