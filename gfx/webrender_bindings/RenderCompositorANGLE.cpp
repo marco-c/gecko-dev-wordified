@@ -843,7 +843,7 @@ gfxCriticalNote
 <
 "
 [
-D3D11
+WR
 ]
 failed
 to
@@ -879,7 +879,7 @@ gfxCriticalNote
 <
 "
 [
-D3D11
+WR
 ]
 failed
 to
