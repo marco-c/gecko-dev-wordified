@@ -255,6 +255,11 @@ propTypes
 {
 return
 {
+adbAddonStatus
+:
+PropTypes
+.
+string
 /
 /
 The
@@ -422,6 +427,7 @@ render
 {
 const
 {
+adbAddonStatus
 dispatch
 messageContexts
 runtimes
@@ -454,6 +460,7 @@ app
 Sidebar
 (
 {
+adbAddonStatus
 className
 :
 "
@@ -495,6 +502,13 @@ state
 {
 return
 {
+adbAddonStatus
+:
+state
+.
+ui
+.
+adbAddonStatus
 runtimes
 :
 state
