@@ -1074,7 +1074,7 @@ bool
 finishMetadata
 (
 const
-ShareableBytes
+Bytes
 &
 bytecode
 )

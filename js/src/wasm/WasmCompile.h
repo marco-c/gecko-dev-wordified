@@ -557,6 +557,10 @@ CompileArgs
 &
 args
 const
+Bytes
+&
+bytecode
+const
 Module
 &
 module

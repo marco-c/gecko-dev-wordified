@@ -3410,6 +3410,10 @@ CompileArgs
 &
 args
 const
+Bytes
+&
+bytecode
+const
 Module
 &
 module
@@ -3437,13 +3441,7 @@ error
 Decoder
 d
 (
-module
-.
 bytecode
-(
-)
-.
-bytes
 0
 &
 error
