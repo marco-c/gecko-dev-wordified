@@ -6407,7 +6407,13 @@ if
 (
 type
 .
+generic
+=
+=
+=
+"
 sequence
+"
 )
 {
 assert_true
