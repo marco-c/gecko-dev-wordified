@@ -437,6 +437,7 @@ append
 p
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -449,6 +450,7 @@ freeLater
 "
 )
 ;
+}
 }
 bool
 appendJitPoisonRange
