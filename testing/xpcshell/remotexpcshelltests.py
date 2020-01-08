@@ -4939,7 +4939,8 @@ run
 from
 a
 tests
-archive
+.
+zip
             
 options
 [
@@ -5135,7 +5136,8 @@ run
 from
 a
 tests
-archive
+.
+zip
             
 options
 [

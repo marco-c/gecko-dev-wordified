@@ -6762,7 +6762,7 @@ mochijar
 from
 the
 tests
-archive
+zip
 .
         
 options

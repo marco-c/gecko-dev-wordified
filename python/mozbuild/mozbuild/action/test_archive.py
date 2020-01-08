@@ -3754,7 +3754,7 @@ in
 the
 common
 tests
-archive
+zip
 .
         
 packaged_paths

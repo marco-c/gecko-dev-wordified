@@ -7554,7 +7554,8 @@ running
 from
 a
 tests
-archive
+.
+zip
 .
     
 if
