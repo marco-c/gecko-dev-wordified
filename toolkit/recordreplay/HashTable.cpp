@@ -768,7 +768,7 @@ find
 aOriginalHash
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 iter
 !
@@ -897,7 +897,7 @@ StableHashTableInfo
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mHashToKey
 .
@@ -1298,7 +1298,7 @@ find
 aKey
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 iter
 !
@@ -1534,7 +1534,7 @@ void
 aKey
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aKey
 =
@@ -2218,7 +2218,7 @@ in
 these
 cases
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 info
 -
