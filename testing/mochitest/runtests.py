@@ -21271,17 +21271,20 @@ if
 not
 result
 and
+not
 self
 .
-countfail
+countpass
 :
             
 #
-at
-least
-one
-test
+either
+tests
 failed
+or
+no
+tests
+run
             
 result
 =
