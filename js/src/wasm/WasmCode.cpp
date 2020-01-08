@@ -3143,12 +3143,13 @@ const
 {
 MOZ_ASSERT
 (
+AlignBytesNeeded
+(
 bytes
-%
-MPROTECT_PAGE_SIZE
+)
 =
 =
-0
+bytes
 )
 ;
 return
