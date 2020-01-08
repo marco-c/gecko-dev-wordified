@@ -5993,7 +5993,7 @@ menuitem
 =
 document
 .
-createXULElement
+createElement
 (
 "
 menuitem
@@ -20224,7 +20224,7 @@ splitter
 =
 document
 .
-createXULElement
+createElement
 (
 "
 splitter
@@ -29410,7 +29410,7 @@ existingIndex
 :
 document
 .
-createXULElement
+createElement
 (
 "
 menuitem
@@ -38700,7 +38700,7 @@ menuItem
 =
 document
 .
-createXULElement
+createElement
 (
 "
 menuitem
@@ -44361,7 +44361,7 @@ menuItem
 =
 document
 .
-createXULElement
+createElement
 (
 "
 menuitem

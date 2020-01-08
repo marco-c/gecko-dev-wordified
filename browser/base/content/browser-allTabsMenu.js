@@ -582,7 +582,7 @@ menuitem
 =
 document
 .
-createXULElement
+createElement
 (
 "
 toolbarbutton

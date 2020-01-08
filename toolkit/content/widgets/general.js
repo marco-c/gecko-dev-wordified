@@ -255,7 +255,7 @@ image
 =
 document
 .
-createXULElement
+createElement
 (
 "
 image
