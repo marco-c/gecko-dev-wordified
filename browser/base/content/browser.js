@@ -41168,7 +41168,7 @@ node
 =
 event
 .
-target
+composedTarget
 ;
 while
 (
@@ -41186,7 +41186,7 @@ node
 =
 node
 .
-parentNode
+flattenedTreeParentNode
 ;
 }
 if
@@ -41220,7 +41220,7 @@ node
 =
 event
 .
-target
+composedTarget
 ;
 while
 (
@@ -41334,7 +41334,7 @@ node
 =
 node
 .
-parentNode
+flattenedTreeParentNode
 ;
 }
 /
