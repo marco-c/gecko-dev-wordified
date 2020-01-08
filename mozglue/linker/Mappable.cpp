@@ -2053,6 +2053,12 @@ __i386__
 |
 defined
 (
+__x86_64__
+)
+|
+|
+defined
+(
 __aarch64__
 )
 /
@@ -2061,6 +2067,9 @@ Address
 decreases
 on
 x86
+x86
+-
+64
 and
 AArch64
 .
@@ -2540,6 +2549,12 @@ elif
 defined
 (
 __i386__
+)
+|
+|
+defined
+(
+__x86_64__
 )
 |
 |
