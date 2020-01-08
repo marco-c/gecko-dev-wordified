@@ -345,7 +345,6 @@ UpdateStyleSheet
 (
 nsICSSLoaderObserver
 *
-ForceUpdate
 )
 override
 ;
