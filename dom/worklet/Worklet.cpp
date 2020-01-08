@@ -2027,7 +2027,7 @@ setNoScriptRval
 true
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -2766,7 +2766,7 @@ global
 nullptr
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
