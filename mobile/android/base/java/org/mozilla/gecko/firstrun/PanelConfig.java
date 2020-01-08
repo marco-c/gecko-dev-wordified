@@ -98,13 +98,6 @@ gecko
 .
 firstrun
 ;
-import
-android
-.
-graphics
-.
-Bitmap
-;
 /
 *
 *
@@ -157,7 +150,7 @@ text
 ;
 private
 final
-Bitmap
+int
 image
 ;
 public
@@ -173,7 +166,7 @@ String
 message
 String
 text
-Bitmap
+int
 image
 )
 {
@@ -343,7 +336,7 @@ text
 ;
 }
 public
-Bitmap
+int
 getImage
 (
 )
