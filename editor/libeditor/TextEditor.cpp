@@ -4555,11 +4555,6 @@ listener
 DidDeleteNode
 (
 deleteNode
--
->
-AsDOMNode
-(
-)
 rv
 )
 ;
@@ -10354,7 +10349,7 @@ const
 nsAString
 &
 aQuotedText
-nsIDOMNode
+nsINode
 *
 *
 aNodeInserted
@@ -10678,7 +10673,7 @@ nsAString
 aCitation
 bool
 aInsertHTML
-nsIDOMNode
+nsINode
 *
 *
 aNodeInserted
