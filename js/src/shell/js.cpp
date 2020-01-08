@@ -31988,10 +31988,6 @@ v
 isObject
 (
 )
-&
-&
-!
-fuzzingSafe
 )
 creationOptions
 .
