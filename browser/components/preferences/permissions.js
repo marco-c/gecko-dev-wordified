@@ -110,9 +110,9 @@ permissions
 -
 exceptions
 -
-tracking
+content
 -
-protection
+blocking
 -
 window
 "
@@ -123,9 +123,9 @@ permissions
 -
 exceptions
 -
-tracking
+content
 -
-protection
+blocking
 -
 desc
 "
