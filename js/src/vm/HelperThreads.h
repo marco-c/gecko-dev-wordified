@@ -3606,9 +3606,6 @@ JS
 OwningCompileOptions
 options
 ;
-LifoAlloc
-alloc
-;
 /
 /
 The
