@@ -816,7 +816,7 @@ mWorkerPrivate
 mWorkerPrivate
 -
 >
-Terminate
+Cancel
 (
 )
 ;

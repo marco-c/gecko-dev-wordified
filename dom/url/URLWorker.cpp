@@ -1307,7 +1307,7 @@ WorkerMainThreadRunnable
 :
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -1511,7 +1511,7 @@ WorkerMainThreadRunnable
 :
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -1799,7 +1799,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -1926,7 +1926,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -2053,7 +2053,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -2244,7 +2244,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -2387,7 +2387,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;

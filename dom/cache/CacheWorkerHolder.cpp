@@ -207,7 +207,7 @@ workerHolder
 HoldWorker
 (
 aWorkerPrivate
-Terminating
+Canceling
 )
 )
 )
@@ -534,7 +534,7 @@ stopped
 we
 will
 get
-Terminating
+Canceling
 /
 /
 but
@@ -549,13 +549,13 @@ shut
 things
 down
 at
-Terminating
+Canceling
 .
 if
 (
 aStatus
 <
-Terminating
+Canceling
 |
 |
 mNotified

@@ -484,7 +484,7 @@ stopped
 we
 will
 get
-Terminating
+Canceling
 /
 /
 but
@@ -499,7 +499,7 @@ shut
 things
 down
 at
-Terminating
+Canceling
 .
 if
 (

@@ -6395,7 +6395,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 result
 )
 ;
@@ -10764,7 +10764,7 @@ initRunnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -10950,7 +10950,7 @@ connectRunnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;

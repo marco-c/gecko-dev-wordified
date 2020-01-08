@@ -706,18 +706,6 @@ Killing
 ;
 }
 bool
-Terminate
-(
-)
-{
-return
-Notify
-(
-Terminating
-)
-;
-}
-bool
 Close
 (
 )
@@ -1982,7 +1970,7 @@ mMutex
 return
 mParentStatus
 <
-Terminating
+Canceling
 ;
 }
 WorkerStatus
@@ -3941,7 +3929,7 @@ if
 (
 status
 <
-Terminating
+Canceling
 )
 {
 return
@@ -4387,7 +4375,7 @@ In
 Unlink
 Worker
 calls
-Terminate
+Cancel
 (
 )
 .
@@ -4398,7 +4386,7 @@ Terminate
 Worker
 :
 :
-Terminate
+Cancel
 (
 )
 is
@@ -4408,8 +4396,6 @@ the
 shutdown
 procedure
 starts
-/
-/
 immediately
 .
 /

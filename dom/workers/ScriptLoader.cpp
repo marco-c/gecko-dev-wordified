@@ -12221,7 +12221,7 @@ AutoSyncLoopHolder
 syncLoop
 (
 aWorkerPrivate
-Terminating
+Canceling
 )
 ;
 nsCOMPtr
@@ -12585,7 +12585,7 @@ getter
 >
 Dispatch
 (
-Terminating
+Canceling
 rv
 )
 ;

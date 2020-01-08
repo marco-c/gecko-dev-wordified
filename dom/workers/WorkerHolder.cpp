@@ -262,7 +262,7 @@ MOZ_ASSERT
 aFailStatus
 >
 =
-Terminating
+Canceling
 )
 ;
 aWorkerPrivate

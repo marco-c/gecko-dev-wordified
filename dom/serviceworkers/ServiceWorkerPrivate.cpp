@@ -1531,7 +1531,7 @@ mWorkerHolderAdded
 HoldWorker
 (
 mWorkerPrivate
-Terminating
+Canceling
 )
 ;
 return
@@ -1683,7 +1683,7 @@ if
 (
 aStatus
 <
-Terminating
+Canceling
 )
 {
 return
@@ -3453,7 +3453,7 @@ NS_WARN_IF
 HoldWorker
 (
 mWorkerPrivate
-Terminating
+Canceling
 )
 )
 )
@@ -3495,7 +3495,7 @@ if
 (
 aStatus
 <
-Terminating
+Canceling
 )
 {
 return
@@ -9956,7 +9956,7 @@ NS_WARN_IF
 mWorkerPrivate
 -
 >
-Terminate
+Cancel
 (
 )
 )

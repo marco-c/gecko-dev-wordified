@@ -2495,7 +2495,7 @@ checker
 >
 Dispatch
 (
-Terminating
+Canceling
 error
 )
 ;
