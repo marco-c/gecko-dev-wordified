@@ -1345,7 +1345,8 @@ Runner
         
 args
 =
-[
+list
+(
 self
 .
 browser_config
@@ -1354,6 +1355,12 @@ browser_config
 extra_args
 "
 ]
+)
+        
+args
+.
+append
+(
 self
 .
 browser_config
@@ -1362,7 +1369,7 @@ browser_config
 init_url
 "
 ]
-]
+)
         
 runner
 =

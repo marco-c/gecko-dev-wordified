@@ -1053,6 +1053,16 @@ profile
 '
 )
     
+browser_config
+[
+'
+extra_args
+'
+]
+=
+[
+]
+    
 #
 pass
 -
@@ -1103,7 +1113,9 @@ browser_config
 extra_args
 '
 ]
-=
+.
+append
+(
 '
 -
 -
@@ -1111,6 +1123,7 @@ no
 -
 remote
 '
+)
     
 #
 Pass

@@ -105,8 +105,8 @@ browser
     
 extra_args
 =
-'
-'
+[
+]
     
 buildid
 =
