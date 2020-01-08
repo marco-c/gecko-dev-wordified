@@ -24129,6 +24129,7 @@ startBuildDisplayList
 bool
 consoleNeedsDisplayList
 =
+(
 gfxUtils
 :
 :
@@ -24141,6 +24142,14 @@ gfxEnv
 :
 :
 DumpPaint
+(
+)
+)
+&
+&
+builder
+.
+IsInActiveDocShell
 (
 )
 ;

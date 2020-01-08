@@ -657,6 +657,9 @@ ClearCachedResources
 bool
 ShouldDumpDisplayList
 (
+nsDisplayListBuilder
+*
+aBuilder
 )
 ;
 wr

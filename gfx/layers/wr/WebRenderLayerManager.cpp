@@ -1675,6 +1675,7 @@ mWebRenderCommandBuilder
 .
 ShouldDumpDisplayList
 (
+aDisplayListBuilder
 )
 ;
 if
