@@ -615,7 +615,7 @@ ROTATION_0
 )
 mTargetOrientation
 (
-dom
+hal
 :
 :
 eScreenOrientation_None
@@ -642,10 +642,10 @@ IntRect
 aTargetBounds
 ScreenRotation
 aRotation
-dom
+hal
 :
 :
-ScreenOrientationInternal
+ScreenOrientation
 aOrientation
 )
 {
@@ -1019,10 +1019,10 @@ mTargetBounds
 ScreenRotation
 mTargetRotation
 ;
-dom
+hal
 :
 :
-ScreenOrientationInternal
+ScreenOrientation
 mTargetOrientation
 ;
 private
@@ -1664,10 +1664,10 @@ IntRect
 aTargetBounds
 ScreenRotation
 aRotation
-dom
+hal
 :
 :
-ScreenOrientationInternal
+ScreenOrientation
 aOrientation
 )
 {

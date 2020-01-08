@@ -4626,7 +4626,10 @@ GetCurrentScreenConfiguration
 config
 )
 ;
-ScreenOrientationInternal
+hal
+:
+:
+ScreenOrientation
 orientation
 =
 config

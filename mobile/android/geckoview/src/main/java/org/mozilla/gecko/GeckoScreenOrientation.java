@@ -235,11 +235,9 @@ that
 any
 change
 in
-dom
+hal
 /
-base
-/
-ScreenOrientation
+HalScreenConfiguration
 .
 h
 happens

@@ -137,18 +137,14 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ScreenOrientation
+nsIScreenManager
 .
 h
 "
 #
 include
 "
-nsIScreenManager
+nsPIDOMWindow
 .
 h
 "
@@ -644,7 +640,7 @@ pixelDepth
 int16_t
 angle
 ;
-ScreenOrientationInternal
+ScreenOrientation
 orientation
 ;
 nsCOMPtr
@@ -707,7 +703,7 @@ orientation
 =
 static_cast
 <
-ScreenOrientationInternal
+ScreenOrientation
 >
 (
 bridge
@@ -753,7 +749,7 @@ bool
 LockScreenOrientation
 (
 const
-ScreenOrientationInternal
+ScreenOrientation
 &
 aOrientation
 )
@@ -770,7 +766,7 @@ portrait
 -
 primary
 .
-ScreenOrientationInternal
+ScreenOrientation
 orientation
 =
 aOrientation

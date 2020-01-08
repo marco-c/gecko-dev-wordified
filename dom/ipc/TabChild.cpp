@@ -2506,6 +2506,9 @@ false
 )
 mOrientation
 (
+hal
+:
+:
 eScreenOrientation_PortraitPrimary
 )
 mIgnoreKeyPressEvent

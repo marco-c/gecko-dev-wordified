@@ -2144,6 +2144,9 @@ eCharsetReloadInit
 )
 mOrientationLock
 (
+hal
+:
+:
 eScreenOrientation_None
 )
 mParentCharsetSource
@@ -11284,7 +11287,10 @@ return
 NS_OK
 ;
 }
-ScreenOrientationInternal
+hal
+:
+:
+ScreenOrientation
 nsDocShell
 :
 :
@@ -11302,7 +11308,10 @@ nsDocShell
 :
 SetOrientationLock
 (
-ScreenOrientationInternal
+hal
+:
+:
+ScreenOrientation
 aOrientationLock
 )
 {
@@ -58857,6 +58866,9 @@ OrientationLock
 )
 !
 =
+hal
+:
+:
 eScreenOrientation_None
 )
 {
@@ -58887,6 +58899,9 @@ parent
 endif
 SetOrientationLock
 (
+hal
+:
+:
 eScreenOrientation_None
 )
 ;
@@ -58900,6 +58915,9 @@ ScreenOrientation
 :
 UpdateActiveOrientationLock
 (
+hal
+:
+:
 eScreenOrientation_None
 )
 ;

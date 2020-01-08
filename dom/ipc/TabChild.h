@@ -2545,7 +2545,10 @@ mMaxTouchPoints
 aMaxTouchPoints
 ;
 }
-ScreenOrientationInternal
+hal
+:
+:
+ScreenOrientation
 GetOrientation
 (
 )
@@ -4451,7 +4454,10 @@ mNotified
 bool
 mTriedBrowserInit
 ;
-ScreenOrientationInternal
+hal
+:
+:
+ScreenOrientation
 mOrientation
 ;
 bool
