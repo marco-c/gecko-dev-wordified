@@ -3576,8 +3576,12 @@ ChunkLocation
 location
 ;
 uint32_t
-padding
+:
+32
 ;
+/
+/
+padding
 /
 /
 The
