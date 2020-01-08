@@ -2451,7 +2451,6 @@ FrameCreationFunc
 _func
 }
 nullptr
-&
 _anon_box
 }
 #
@@ -24380,7 +24379,6 @@ StyleSet
 >
 ResolveInheritingAnonymousBoxStyle
 (
-*
 data
 -
 >
