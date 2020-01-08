@@ -1775,6 +1775,11 @@ sSelf
 NS_IMPL_ISUPPORTS
 (
 mozJSComponentLoader
+mozilla
+:
+:
+ModuleLoader
+xpcIJSModuleLoader
 nsIObserver
 )
 nsresult
@@ -6251,7 +6256,7 @@ return
 NS_OK
 ;
 }
-void
+NS_IMETHODIMP
 mozJSComponentLoader
 :
 :
@@ -6342,8 +6347,11 @@ modules
 +
 ;
 }
+return
+NS_OK
+;
 }
-void
+NS_IMETHODIMP
 mozJSComponentLoader
 :
 :
@@ -6434,8 +6442,11 @@ comp
 +
 ;
 }
+return
+NS_OK
+;
 }
-nsresult
+NS_IMETHODIMP
 mozJSComponentLoader
 :
 :
@@ -6532,7 +6543,7 @@ NS_ERROR_NOT_IMPLEMENTED
 #
 endif
 }
-nsresult
+NS_IMETHODIMP
 mozJSComponentLoader
 :
 :

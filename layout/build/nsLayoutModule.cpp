@@ -3875,6 +3875,7 @@ kLayoutCategories
 ]
 =
 {
+XPCONNECT_CATEGORIES
 {
 "
 content
