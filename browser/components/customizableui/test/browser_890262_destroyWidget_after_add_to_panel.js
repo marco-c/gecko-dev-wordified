@@ -110,9 +110,7 @@ defaulting
 it
 to
 a
-non
--
-legacy
+lazy
 area
 should
 work
@@ -212,9 +210,7 @@ moving
 it
 to
 a
-non
--
-legacy
+lazy
 area
 should
 work

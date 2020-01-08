@@ -547,9 +547,6 @@ registerArea
 (
 TOOLBARID
 {
-legacy
-:
-true
 defaultPlacements
 :
 [
