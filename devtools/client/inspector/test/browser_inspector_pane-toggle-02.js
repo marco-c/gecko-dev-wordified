@@ -528,8 +528,6 @@ state
 "
 )
 ;
-debugger
-;
 is
 (
 inspector
