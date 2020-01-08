@@ -12349,8 +12349,8 @@ public
 explicit
 NotifyGCEndRunnable
 (
-const
 nsString
+&
 &
 aMessage
 )
@@ -12366,7 +12366,13 @@ NotifyGCEndRunnable
 )
 mMessage
 (
+std
+:
+:
+move
+(
 aMessage
+)
 )
 {
 }
@@ -12705,7 +12711,13 @@ notify
 new
 NotifyGCEndRunnable
 (
+std
+:
+:
+move
+(
 json
+)
 )
 ;
 SystemGroup
