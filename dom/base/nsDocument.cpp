@@ -1813,13 +1813,6 @@ h
 #
 include
 "
-nsIDOMNSEditableElement
-.
-h
-"
-#
-include
-"
 nsIEditor
 .
 h

@@ -383,13 +383,6 @@ h
 #
 include
 "
-nsIDOMNSEditableElement
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
