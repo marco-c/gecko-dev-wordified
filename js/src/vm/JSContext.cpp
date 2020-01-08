@@ -7555,10 +7555,6 @@ isTouchingGrayThings
 (
 false
 )
-noGCOrAllocationCheck
-(
-0
-)
 noNurseryAllocationCheck
 (
 0
