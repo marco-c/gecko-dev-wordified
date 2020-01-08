@@ -74433,6 +74433,14 @@ aStyleDisplay
 )
 |
 |
+aStyleDisplay
+-
+>
+IsContainPaint
+(
+)
+|
+|
 /
 /
 strictly
