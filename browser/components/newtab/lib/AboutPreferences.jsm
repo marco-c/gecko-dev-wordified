@@ -917,9 +917,8 @@ appendChild
 (
 document
 .
-createElementNS
+createXULElement
 (
-XUL_NS
 tag
 )
 )

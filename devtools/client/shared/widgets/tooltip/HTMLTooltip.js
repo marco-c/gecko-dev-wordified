@@ -6223,9 +6223,8 @@ this
 .
 doc
 .
-createElementNS
+createXULElement
 (
-XUL_NS
 "
 panel
 "
