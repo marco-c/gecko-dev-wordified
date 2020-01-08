@@ -1581,6 +1581,10 @@ const
 SurfaceKey
 &
 aSurfaceKey
+bool
+aMarkUsed
+=
+true
 )
 ;
 /
@@ -1712,6 +1716,10 @@ const
 SurfaceKey
 &
 aSurfaceKey
+bool
+aMarkUsed
+=
+true
 )
 ;
 /

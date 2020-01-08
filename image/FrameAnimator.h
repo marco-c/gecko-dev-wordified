@@ -2006,6 +2006,8 @@ GetCompositedFrame
 AnimationState
 &
 aState
+bool
+aMarkUsed
 )
 ;
 /
