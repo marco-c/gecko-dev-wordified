@@ -318,7 +318,9 @@ height
 ;
 tooltip
 .
-setContent
+panel
+.
+appendChild
 (
 div
 )
