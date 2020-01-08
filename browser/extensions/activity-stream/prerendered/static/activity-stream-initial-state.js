@@ -270,17 +270,5 @@ initialized
 false
 }
 ]
-"
-Theme
-"
-:
-{
-"
-className
-"
-:
-"
-"
-}
 }
 ;
