@@ -1129,9 +1129,13 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Ge
+erli
+bir
+e
+-
+posta
+gerekiyor
 "
 "
 firstrun_extra_legal_links

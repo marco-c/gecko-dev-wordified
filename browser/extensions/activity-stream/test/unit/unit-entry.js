@@ -1045,6 +1045,15 @@ getMostRecentWindow
 >
 window
 }
+appinfo
+:
+{
+appBuildID
+:
+"
+20180710100040
+"
+}
 }
 XPCOMUtils
 :

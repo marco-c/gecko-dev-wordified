@@ -1043,9 +1043,10 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Iimeel
+gollotoo
+o
+hatojinaa
 "
 "
 firstrun_extra_legal_links

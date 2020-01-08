@@ -1123,9 +1123,13 @@ firstrun_invalid_input
 "
 :
 "
-Valid
+Serve
+'
+na
 email
-required
+bonn
+-
+a
 "
 "
 firstrun_extra_legal_links

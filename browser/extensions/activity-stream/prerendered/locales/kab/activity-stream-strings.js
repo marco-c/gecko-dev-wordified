@@ -1075,9 +1075,10 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Imayl
+ame
+tu
+ilaq
 "
 "
 firstrun_extra_legal_links
