@@ -283,11 +283,13 @@ other
 const
 {
 return
+&
 monitor
 .
 lock_
 =
 =
+&
 other
 .
 lock_
@@ -438,11 +440,13 @@ other
 const
 {
 return
+&
 monitor
 .
 lock_
 =
 =
+&
 other
 .
 lock_
