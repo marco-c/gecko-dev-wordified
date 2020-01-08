@@ -2599,6 +2599,23 @@ parent
 .
 marionette
         
+if
+not
+self
+.
+parent
+.
+ccov
+:
+            
+self
+.
+is_enabled
+=
+False
+            
+return
+        
 script
 =
 "
@@ -3023,6 +3040,9 @@ timeout_multiplier
 e10s
 =
 True
+ccov
+=
+False
 )
 :
         
@@ -3079,6 +3099,12 @@ self
 e10s
 =
 e10s
+        
+self
+.
+ccov
+=
+ccov
     
 def
 connect
@@ -4161,6 +4187,9 @@ None
 debug
 =
 False
+ccov
+=
+False
 *
 *
 kwargs
@@ -4216,6 +4245,7 @@ kwargs
 e10s
 "
 ]
+ccov
 )
         
 self
@@ -4887,6 +4917,9 @@ reftest_screenshot
 "
 unexpected
 "
+ccov
+=
+False
                  
 group_metadata
 =
@@ -4956,6 +4989,8 @@ kwargs
 e10s
 "
 ]
+                                           
+ccov
 )
         
 self
