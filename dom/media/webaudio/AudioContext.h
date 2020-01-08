@@ -1609,14 +1609,6 @@ AudioNode
 aNode
 )
 ;
-void
-UnregisterPannerNode
-(
-PannerNode
-*
-aNode
-)
-;
 uint32_t
 MaxChannelCount
 (
