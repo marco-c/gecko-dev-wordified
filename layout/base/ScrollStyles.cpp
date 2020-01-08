@@ -117,7 +117,9 @@ MPL
 #
 include
 "
-ScrollbarStyles
+mozilla
+/
+ScrollStyles
 .
 h
 "
@@ -140,10 +142,10 @@ Position
 namespace
 mozilla
 {
-ScrollbarStyles
+ScrollStyles
 :
 :
-ScrollbarStyles
+ScrollStyles
 (
 uint8_t
 aH
@@ -232,10 +234,10 @@ mYPosition
 )
 {
 }
-ScrollbarStyles
+ScrollStyles
 :
 :
-ScrollbarStyles
+ScrollStyles
 (
 const
 nsStyleDisplay

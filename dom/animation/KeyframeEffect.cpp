@@ -7949,13 +7949,13 @@ return
 true
 ;
 }
-ScrollbarStyles
+ScrollStyles
 ss
 =
 scrollable
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 ;

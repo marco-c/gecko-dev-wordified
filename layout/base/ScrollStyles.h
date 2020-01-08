@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-ScrollbarStyles_h
+mozilla_ScrollStyles_h
 #
 define
-ScrollbarStyles_h
+mozilla_ScrollStyles_h
 #
 include
 <
@@ -172,7 +172,7 @@ namespace
 mozilla
 {
 struct
-ScrollbarStyles
+ScrollStyles
 {
 /
 /
@@ -253,7 +253,7 @@ nsStyleCoord
 CalcValue
 mScrollSnapDestinationY
 ;
-ScrollbarStyles
+ScrollStyles
 (
 uint8_t
 aH
@@ -358,7 +358,7 @@ false
 ;
 }
 explicit
-ScrollbarStyles
+ScrollStyles
 (
 const
 nsStyleDisplay
@@ -366,7 +366,7 @@ nsStyleDisplay
 aDisplay
 )
 ;
-ScrollbarStyles
+ScrollStyles
 (
 uint8_t
 aH
@@ -384,7 +384,7 @@ operator
 =
 (
 const
-ScrollbarStyles
+ScrollStyles
 &
 aStyles
 )
@@ -485,7 +485,7 @@ operator
 =
 (
 const
-ScrollbarStyles
+ScrollStyles
 &
 aStyles
 )
@@ -574,3 +574,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+mozilla_ScrollStyles_h

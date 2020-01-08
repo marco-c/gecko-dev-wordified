@@ -67703,7 +67703,7 @@ scrollFrame
 scrollFrame
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .

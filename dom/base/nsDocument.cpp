@@ -41346,7 +41346,7 @@ MOZ_ASSERT
 pc
 -
 >
-GetViewportScrollbarStylesOverride
+GetViewportScrollStylesOverride
 (
 )
 .
@@ -60463,7 +60463,7 @@ GetPresContext
 presContext
 -
 >
-UpdateViewportScrollbarStylesOverride
+UpdateViewportScrollStylesOverride
 (
 )
 ;

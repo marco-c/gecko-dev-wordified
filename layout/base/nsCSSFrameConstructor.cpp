@@ -15643,7 +15643,7 @@ Make
 sure
 to
 call
-UpdateViewportScrollbarStylesOverride
+UpdateViewportScrollStylesOverride
 before
 /
 /
@@ -15685,7 +15685,7 @@ propagatedScrollFrom
 presContext
 -
 >
-UpdateViewportScrollbarStylesOverride
+UpdateViewportScrollStylesOverride
 (
 )
 ;
@@ -28441,7 +28441,7 @@ propagatedScrollToViewport
 presContext
 -
 >
-UpdateViewportScrollbarStylesOverride
+UpdateViewportScrollStylesOverride
 (
 )
 =
@@ -28746,7 +28746,7 @@ GetPresContext
 )
 -
 >
-ElementWouldPropagateScrollbarStyles
+ElementWouldPropagateScrollStyles
 (
 aElement
 )
@@ -49892,7 +49892,7 @@ aChild
 presContext
 -
 >
-GetViewportScrollbarStylesOverrideElement
+GetViewportScrollStylesOverrideElement
 (
 )
 |
@@ -50057,7 +50057,7 @@ newOverrideElement
 presContext
 -
 >
-UpdateViewportScrollbarStylesOverride
+UpdateViewportScrollStylesOverride
 (
 )
 ;

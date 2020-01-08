@@ -2145,7 +2145,7 @@ IsVertical
 mScrollableFrame
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .
@@ -2154,7 +2154,7 @@ mVertical
 mScrollableFrame
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .

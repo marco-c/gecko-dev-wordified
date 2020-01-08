@@ -151,7 +151,9 @@ h
 #
 include
 "
-ScrollbarStyles
+mozilla
+/
+Maybe
 .
 h
 "
@@ -160,7 +162,7 @@ include
 "
 mozilla
 /
-Maybe
+ScrollStyles
 .
 h
 "
@@ -394,8 +396,8 @@ virtual
 mozilla
 :
 :
-ScrollbarStyles
-GetScrollbarStyles
+ScrollStyles
+GetScrollStyles
 (
 )
 const
