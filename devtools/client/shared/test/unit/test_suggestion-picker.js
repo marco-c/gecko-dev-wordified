@@ -623,7 +623,7 @@ ensureErrorThrownWithInvalidTypeArgument
 const
 expectedError
 =
-"
+/
 Please
 provide
 valid
@@ -631,14 +631,17 @@ items
 and
 sortedItems
 arrays
+\
 .
-"
+/
 ;
 /
 /
 No
 arguments
 passed
+.
+Assert
 .
 throws
 (
@@ -658,6 +661,8 @@ Invalid
 arguments
 passed
 .
+Assert
+.
 throws
 (
 (
@@ -672,6 +677,8 @@ findMostRelevantIndex
 expectedError
 )
 ;
+Assert
+.
 throws
 (
 (
@@ -687,6 +694,8 @@ null
 expectedError
 )
 ;
+Assert
+.
 throws
 (
 (
@@ -704,6 +713,8 @@ string
 expectedError
 )
 ;
+Assert
+.
 throws
 (
 (
