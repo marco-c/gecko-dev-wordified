@@ -14498,10 +14498,8 @@ len
 void
 Gecko_AnnotateCrashReport
 (
-const
-char
-*
-key_str
+uint32_t
+key
 const
 char
 *
@@ -14513,12 +14511,6 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
-)
-;
-nsDependentCString
-key
-(
-key_str
 )
 ;
 nsDependentCString

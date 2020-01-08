@@ -202,9 +202,10 @@ CrashReporterClient
 :
 AnnotateCrashReport
 (
-const
-nsCString
-&
+CrashReporter
+:
+:
+Annotation
 aKey
 const
 nsCString
