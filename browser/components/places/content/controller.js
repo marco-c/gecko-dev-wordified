@@ -4892,8 +4892,6 @@ item
 (
 bookmark
 /
-livemark
-/
 folder
 )
 *
