@@ -7472,6 +7472,9 @@ channel
 URI
 .
 spec
+headersSize
+:
+null
 /
 /
 needed
