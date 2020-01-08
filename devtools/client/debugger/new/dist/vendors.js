@@ -131336,6 +131336,10 @@ js
 const
 vendored
 =
+exports
+.
+vendored
+=
 {
 classnames
 :
@@ -131612,12 +131616,6 @@ Modules
 imported
 with
 destructuring
-exports
-.
-vendored
-=
-vendored
-;
 /
 *
 *

@@ -141,6 +141,10 @@ functions
 const
 Task
 =
+exports
+.
+Task
+=
 {
 /
 /
@@ -329,10 +333,4 @@ undefined
 ;
 }
 }
-;
-exports
-.
-Task
-=
-Task
 ;
