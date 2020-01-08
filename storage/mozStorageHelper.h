@@ -1083,8 +1083,6 @@ removed
 .
 nsresult
 rv
-=
-NS_OK
 ;
 do
 {
