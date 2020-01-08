@@ -1723,7 +1723,7 @@ ByteStreamChunk
 chunk
 (
 cx
-NewObjectWithClassProto
+NewBuiltinClassInstance
 <
 ByteStreamChunk
 >
@@ -2023,7 +2023,7 @@ PullIntoDescriptor
 descriptor
 (
 cx
-NewObjectWithClassProto
+NewBuiltinClassInstance
 <
 PullIntoDescriptor
 >
@@ -2223,7 +2223,7 @@ QueueEntry
 entry
 (
 cx
-NewObjectWithClassProto
+NewBuiltinClassInstance
 <
 QueueEntry
 >
@@ -2848,7 +2848,7 @@ TeeState
 state
 (
 cx
-NewObjectWithClassProto
+NewBuiltinClassInstance
 <
 TeeState
 >

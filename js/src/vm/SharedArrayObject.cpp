@@ -2182,13 +2182,12 @@ SharedArrayBufferObject
 *
 obj
 =
-NewObjectWithClassProto
+NewBuiltinClassInstance
 <
 SharedArrayBufferObject
 >
 (
 cx
-nullptr
 )
 ;
 if

@@ -1193,7 +1193,7 @@ PromiseAllDataHolder
 *
 dataHolder
 =
-NewObjectWithClassProto
+NewBuiltinClassInstance
 <
 PromiseAllDataHolder
 >
@@ -1392,7 +1392,7 @@ PromiseDebugInfo
 debugInfo
 (
 cx
-NewObjectWithClassProto
+NewBuiltinClassInstance
 <
 PromiseDebugInfo
 >
@@ -20457,7 +20457,7 @@ PromiseReactionRecord
 *
 reaction
 =
-NewObjectWithClassProto
+NewBuiltinClassInstance
 <
 PromiseReactionRecord
 >

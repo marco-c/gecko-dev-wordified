@@ -10805,11 +10805,10 @@ JSCLASS_IS_GLOBAL
 )
 ;
 return
-NewObjectWithClassProto
+NewBuiltinClassInstance
 (
 cx
 clasp
-nullptr
 )
 ;
 }
@@ -17188,11 +17187,10 @@ RootedObject
 nobj
 (
 cx
-NewObjectWithClassProto
+NewBuiltinClassInstance
 (
 cx
 clasp
-nullptr
 )
 )
 ;
