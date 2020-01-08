@@ -8099,7 +8099,7 @@ creationOptions
 (
 )
 .
-setNewZone
+setNewCompartmentAndZone
 (
 )
 ;

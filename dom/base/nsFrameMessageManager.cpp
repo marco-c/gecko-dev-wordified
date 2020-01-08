@@ -8048,7 +8048,7 @@ creationOptions
 (
 )
 .
-setSystemZone
+setNewCompartmentInSystemZone
 (
 )
 ;

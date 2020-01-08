@@ -10060,7 +10060,7 @@ GetGlobalJSObject
 return
 aOptions
 .
-setExistingZone
+setNewCompartmentInExistingZone
 (
 top
 -
@@ -10075,7 +10075,7 @@ GetGlobalJSObject
 return
 aOptions
 .
-setNewZone
+setNewCompartmentAndZone
 (
 )
 ;

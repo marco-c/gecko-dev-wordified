@@ -588,7 +588,7 @@ re
 GCed
 .
 .
-setSystemZone
+setNewCompartmentInSystemZone
 (
 )
 ;

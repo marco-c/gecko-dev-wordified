@@ -19564,7 +19564,7 @@ creationOptions
 (
 )
 .
-setNewZone
+setNewCompartmentAndZone
 (
 )
 ;
