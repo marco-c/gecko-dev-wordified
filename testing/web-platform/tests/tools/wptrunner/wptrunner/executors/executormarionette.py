@@ -3260,6 +3260,9 @@ marionette
 .
 start_session
 (
+self
+.
+capabilities
 )
         
 self
