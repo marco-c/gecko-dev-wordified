@@ -384,11 +384,6 @@ GetController
 const
 ;
 void
-ClearController
-(
-)
-;
-void
 AttachHandle
 (
 ClientHandleParent
