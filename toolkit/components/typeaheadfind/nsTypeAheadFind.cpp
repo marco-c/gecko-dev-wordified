@@ -754,6 +754,12 @@ this
 true
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 rv
 =
 prefInternal
