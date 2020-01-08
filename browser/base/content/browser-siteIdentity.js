@@ -7768,9 +7768,9 @@ set
 gBrowser
 .
 currentURI
-"
-popup
-"
+aPermission
+.
+id
 menulist
 .
 selectedItem
