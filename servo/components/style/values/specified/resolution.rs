@@ -131,6 +131,7 @@ derive
 Clone
 Debug
 PartialEq
+MallocSizeOf
 ToCss
 )
 ]
