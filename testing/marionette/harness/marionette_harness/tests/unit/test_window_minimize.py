@@ -96,7 +96,7 @@ self
 .
 marionette
 .
-window_size
+window_rect
     
 def
 is_minimized
