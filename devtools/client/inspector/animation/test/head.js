@@ -3312,12 +3312,7 @@ param
 {
 DOMElement
 }
-panel
-*
-#
-animation
--
-container
+target
 element
 .
 *
@@ -3329,10 +3324,10 @@ async
 function
 (
 animationInspector
-panel
+element
 )
 {
-panel
+element
 .
 focus
 (
@@ -3345,7 +3340,7 @@ sendKey
 "
 SPACE
 "
-panel
+element
 .
 ownerGlobal
 )
