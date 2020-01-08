@@ -848,13 +848,6 @@ maxServerVersion
 ;
 tlsServer
 .
-setSessionCache
-(
-false
-)
-;
-tlsServer
-.
 setSessionTickets
 (
 false

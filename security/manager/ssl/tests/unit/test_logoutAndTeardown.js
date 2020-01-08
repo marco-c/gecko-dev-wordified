@@ -937,13 +937,6 @@ cert
 ;
 tlsServer
 .
-setSessionCache
-(
-false
-)
-;
-tlsServer
-.
 setSessionTickets
 (
 false

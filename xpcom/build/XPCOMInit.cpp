@@ -645,6 +645,13 @@ h
 "
 #
 include
+"
+ssl
+.
+h
+"
+#
+include
 <
 locale
 .
@@ -5713,6 +5720,10 @@ NSS_IsInitialized
 )
 )
 {
+SSL_ClearSessionCache
+(
+)
+;
 if
 (
 NSS_Shutdown

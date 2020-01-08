@@ -709,15 +709,6 @@ this
 .
 _serverSocket
 .
-setSessionCache
-(
-false
-)
-;
-this
-.
-_serverSocket
-.
 setSessionTickets
 (
 false

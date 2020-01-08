@@ -486,13 +486,6 @@ function
 ;
 tlsServer
 .
-setSessionCache
-(
-true
-)
-;
-tlsServer
-.
 setSessionTickets
 (
 false
