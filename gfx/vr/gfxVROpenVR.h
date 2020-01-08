@@ -820,7 +820,7 @@ VRSystemManagerOpenVR
 ;
 private
 :
-void
+bool
 HandleButtonPress
 (
 uint32_t
@@ -835,7 +835,7 @@ uint64_t
 aButtonTouched
 )
 ;
-void
+bool
 HandleTriggerPress
 (
 uint32_t
@@ -848,7 +848,7 @@ float
 aValue
 )
 ;
-void
+bool
 HandleAxisMove
 (
 uint32_t
