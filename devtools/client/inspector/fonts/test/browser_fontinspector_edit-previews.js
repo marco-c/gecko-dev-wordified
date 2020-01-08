@@ -155,7 +155,7 @@ inspector
 )
 ;
 await
-expandOtherFontsAccordion
+expandFontsAccordion
 (
 viewDoc
 )
