@@ -2116,7 +2116,7 @@ mUnicodeDecoder
 mEncoding
 -
 >
-NewDecoderWithBOMRemoval
+NewDecoderWithoutBOMHandling
 (
 )
 ;
