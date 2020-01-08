@@ -1475,10 +1475,7 @@ StyleDisplay
 )
 -
 >
-PhysicalFloats
-(
-aWM
-)
+mFloat
 ;
 /
 /
@@ -1985,10 +1982,7 @@ StyleDisplay
 )
 -
 >
-PhysicalFloats
-(
-aWM
-)
+mFloat
 ;
 MOZ_ASSERT
 (
@@ -2224,10 +2218,7 @@ floatStyle
 display
 -
 >
-PhysicalFloats
-(
-aWM
-)
+mFloat
 ;
 if
 (

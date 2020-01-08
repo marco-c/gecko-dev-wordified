@@ -6131,10 +6131,7 @@ floatStyle
 floatDisplay
 -
 >
-PhysicalFloats
-(
-wm
-)
+mFloat
 ;
 MOZ_ASSERT
 (
@@ -8289,14 +8286,7 @@ StyleDisplay
 )
 -
 >
-PhysicalFloats
-(
-mReflowInput
-.
-GetWritingMode
-(
-)
-)
+mFloat
 ;
 if
 (
