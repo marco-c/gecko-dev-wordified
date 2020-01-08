@@ -86,6 +86,7 @@ Services
 const
 {
 TabActor
+tabPrototype
 }
 =
 require
@@ -116,7 +117,6 @@ extend
 const
 {
 ActorClassWithSpec
-Actor
 }
 =
 require
@@ -330,9 +330,7 @@ extend
 (
 {
 }
-TabActor
-.
-prototype
+tabPrototype
 )
 ;
 windowPrototype
@@ -345,19 +343,11 @@ connection
 window
 )
 {
-Actor
+TabActor
 .
 prototype
 .
 initialize
-.
-call
-(
-this
-connection
-)
-;
-TabActor
 .
 call
 (

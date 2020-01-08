@@ -102,6 +102,7 @@ const
 {
 getChildDocShells
 TabActor
+tabPrototype
 }
 =
 require
@@ -148,7 +149,6 @@ extend
 const
 {
 ActorClassWithSpec
-Actor
 }
 =
 require
@@ -414,9 +414,7 @@ extend
 (
 {
 }
-TabActor
-.
-prototype
+tabPrototype
 )
 ;
 chromePrototype
@@ -428,19 +426,11 @@ function
 connection
 )
 {
-Actor
+TabActor
 .
 prototype
 .
 initialize
-.
-call
-(
-this
-connection
-)
-;
-TabActor
 .
 call
 (
