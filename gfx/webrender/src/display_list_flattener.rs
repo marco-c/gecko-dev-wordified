@@ -270,7 +270,6 @@ prim_store
 :
 :
 {
-BrushClipMaskKind
 BrushKind
 BrushPrimitive
 BrushSegmentDescriptor
@@ -9446,12 +9445,6 @@ descriptor
 BrushSegmentDescriptor
 {
 segments
-clip_mask_kind
-:
-BrushClipMaskKind
-:
-:
-Unknown
 }
 ;
 let
