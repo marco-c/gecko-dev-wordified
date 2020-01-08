@@ -6936,7 +6936,7 @@ platform
 :
             
 #
-do
+Do
 not
 run
 tests
@@ -7766,6 +7766,10 @@ test
 }
         
 elif
+'
+jsdcov
+'
+in
 test
 [
 '
@@ -7774,15 +7778,6 @@ build
 platform
 '
 ]
-=
-=
-'
-linux64
--
-jsdcov
-/
-opt
-'
 :
             
 #
