@@ -535,7 +535,10 @@ which
 runs
 entirely
 in
-drainMarkStack
+GCRuntime
+:
+:
+markUntilBudgetExhaused
 ]
 *
 5
@@ -560,7 +563,10 @@ which
 runs
 entirely
 in
-drainMarkStack
+GCRuntime
+:
+:
+markUntilBudgetExhaused
 ]
 *
 7

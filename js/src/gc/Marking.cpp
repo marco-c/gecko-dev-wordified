@@ -12042,7 +12042,7 @@ bool
 GCMarker
 :
 :
-drainMarkStack
+markUntilBudgetExhaused
 (
 SliceBudget
 &
