@@ -8484,7 +8484,7 @@ menuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -8581,7 +8581,7 @@ appendChild
 (
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -8594,7 +8594,7 @@ clearItems
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem

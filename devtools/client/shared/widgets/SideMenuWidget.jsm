@@ -438,7 +438,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 scrollbox
@@ -2089,7 +2089,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -2840,7 +2840,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -2882,7 +2882,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -2916,7 +2916,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -2950,7 +2950,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -3116,7 +3116,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -3621,7 +3621,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -3653,7 +3653,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -3757,7 +3757,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -3822,7 +3822,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -4414,7 +4414,7 @@ aParentNode
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 checkbox

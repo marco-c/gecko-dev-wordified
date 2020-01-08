@@ -483,7 +483,7 @@ menuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
