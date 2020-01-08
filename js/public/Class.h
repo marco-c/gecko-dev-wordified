@@ -862,9 +862,10 @@ rval
 .
 setBoolean
 (
-bool
-(
 result
+.
+reallyOk
+(
 )
 )
 ;
