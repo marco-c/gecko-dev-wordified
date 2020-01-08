@@ -1627,7 +1627,7 @@ protoKey
 ;
 }
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -2291,7 +2291,7 @@ __proto__
 work
 .
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
