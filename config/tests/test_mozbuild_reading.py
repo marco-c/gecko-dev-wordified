@@ -748,6 +748,14 @@ ctx
 .
 relsrcdir
             
+for
+p
+in
+ctx
+.
+patterns
+:
+                
 if
 not
 pattern_exists
@@ -759,13 +767,11 @@ path
 join
 (
 relsrcdir
-ctx
-.
-pattern
+p
 )
 )
 :
-                
+                    
 self
 .
 fail
@@ -785,7 +791,7 @@ Files
 entry
 in
 "
-                          
+                              
 "
 '
 %
@@ -802,7 +808,7 @@ tree
 \
 n
 "
-                          
+                              
 "
 Please
 update
@@ -811,11 +817,9 @@ entry
 .
 "
 %
-                          
+                              
 (
-ctx
-.
-pattern
+p
 ctx
 .
 main_path
