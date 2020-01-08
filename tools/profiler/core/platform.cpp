@@ -17827,6 +17827,11 @@ ProfilerFeature
 :
 Threads
 |
+ProfilerFeature
+:
+:
+Responsiveness
+|
 0
 ;
 UniquePtr
