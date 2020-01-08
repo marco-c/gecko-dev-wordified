@@ -805,6 +805,15 @@ nsIChannel
 aChannel
 )
 ;
+static
+void
+NotifyRejection
+(
+nsPIDOMWindowInner
+*
+aWindow
+)
+;
 }
 ;
 }
