@@ -18542,6 +18542,11 @@ options
 JS
 :
 :
+HandleObject
+sourceScope
+JS
+:
+:
 MutableHandleValue
 val
 )
