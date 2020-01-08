@@ -179,7 +179,7 @@ gecko_bindings
 structs
 :
 :
-nsCSSKeywordAndBoolTableEntry
+RawGeckoPresContextOwned
 ;
 use
 gecko_bindings
@@ -188,7 +188,7 @@ gecko_bindings
 structs
 :
 :
-RawGeckoPresContextOwned
+nsCSSKeywordAndBoolTableEntry
 ;
 use
 media_queries

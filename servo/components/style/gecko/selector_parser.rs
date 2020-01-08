@@ -164,10 +164,8 @@ parser
 :
 :
 {
-self
-as
-selector_parser
-Selector
+SelectorParseErrorKind
+Visit
 }
 ;
 use
@@ -178,8 +176,10 @@ parser
 :
 :
 {
-SelectorParseErrorKind
-Visit
+self
+as
+selector_parser
+Selector
 }
 ;
 use
