@@ -5426,11 +5426,6 @@ if
 script
 -
 >
-compartment
-(
-)
--
->
 zone
 (
 )

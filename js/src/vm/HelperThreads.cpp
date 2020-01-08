@@ -11850,11 +11850,6 @@ script
 )
 -
 >
-compartment
-(
-)
--
->
 runtimeFromAnyThread
 (
 )

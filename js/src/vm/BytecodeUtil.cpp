@@ -1432,7 +1432,7 @@ bool
 js
 :
 :
-DumpCompartmentPCCounts
+DumpRealmPCCounts
 (
 JSContext
 *
@@ -1505,7 +1505,7 @@ if
 script
 -
 >
-compartment
+realm
 (
 )
 !
@@ -1513,7 +1513,7 @@ compartment
 cx
 -
 >
-compartment
+realm
 (
 )
 )

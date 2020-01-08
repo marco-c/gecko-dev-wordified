@@ -561,7 +561,7 @@ CanReuseScriptForClone
 cx
 -
 >
-compartment
+realm
 (
 )
 fun

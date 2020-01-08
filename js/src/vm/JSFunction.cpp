@@ -14088,9 +14088,9 @@ CanReuseScriptForClone
 JS
 :
 :
-Compartment
+Realm
 *
-compartment
+realm
 HandleFunction
 fun
 HandleObject
@@ -14109,13 +14109,13 @@ isInterpreted
 ;
 if
 (
-compartment
+realm
 !
 =
 fun
 -
 >
-compartment
+realm
 (
 )
 |
@@ -14754,7 +14754,7 @@ CanReuseScriptForClone
 cx
 -
 >
-compartment
+realm
 (
 )
 fun
@@ -15201,7 +15201,7 @@ MOZ_ASSERT
 script
 -
 >
-compartment
+realm
 (
 )
 =
@@ -15209,7 +15209,7 @@ compartment
 fun
 -
 >
-compartment
+realm
 (
 )
 )
