@@ -16715,14 +16715,10 @@ nsDOMNavigationTiming
 aTiming
 )
 ;
-Element
+nsContentList
 *
-FindImageMap
+ImageMapList
 (
-const
-nsAString
-&
-aNormalizedMapName
 )
 ;
 /
