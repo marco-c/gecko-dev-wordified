@@ -1508,11 +1508,6 @@ rejects
 promiseShutdownManager
 (
 )
-OS
-.
-File
-.
-Error
 )
 ;
 }
@@ -1603,11 +1598,6 @@ rejects
 promiseShutdownManager
 (
 )
-OS
-.
-File
-.
-Error
 )
 ;
 }
