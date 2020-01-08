@@ -194,6 +194,7 @@ selectedTab
 const
 target
 =
+await
 TargetFactory
 .
 forTab

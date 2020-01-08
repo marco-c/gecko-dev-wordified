@@ -3050,6 +3050,7 @@ toolbox
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -3369,6 +3370,7 @@ selectedTab
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -4379,6 +4381,7 @@ function
 const
 target
 =
+await
 TargetFactory
 .
 forTab

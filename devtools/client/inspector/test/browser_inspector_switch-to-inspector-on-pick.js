@@ -387,6 +387,7 @@ checkResults
 }
 )
 ;
+async
 function
 openToolbox
 (
@@ -405,6 +406,7 @@ webconsole
 const
 target
 =
+await
 TargetFactory
 .
 forTab

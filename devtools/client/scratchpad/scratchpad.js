@@ -3973,6 +3973,7 @@ result
 /
 reloadAndRun
 :
+async
 function
 SP_reloadAndRun
 (
@@ -4020,6 +4021,7 @@ return
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -10091,6 +10093,7 @@ Console
 /
 openWebConsole
 :
+async
 function
 SP_openWebConsole
 (
@@ -10099,6 +10102,7 @@ SP_openWebConsole
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -13446,6 +13450,7 @@ tab
 /
 _attach
 :
+async
 function
 ST__attach
 (
@@ -13455,6 +13460,7 @@ aSubject
 const
 target
 =
+await
 TargetFactory
 .
 forTab

@@ -109,6 +109,7 @@ TEST_URL
 const
 target
 =
+await
 TargetFactory
 .
 forTab

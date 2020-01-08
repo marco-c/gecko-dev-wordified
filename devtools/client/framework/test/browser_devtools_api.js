@@ -133,6 +133,7 @@ returns
 a
 promise
 .
+async
 function
 runTests1
 (
@@ -264,6 +265,7 @@ registered
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -561,6 +563,7 @@ returns
 panel
 instance
 .
+async
 function
 runTests2
 (
@@ -673,6 +676,7 @@ registered
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -1339,6 +1343,7 @@ destroy
 .
 then
 (
+async
 function
 (
 )
@@ -1346,6 +1351,7 @@ function
 const
 target
 =
+await
 TargetFactory
 .
 forTab

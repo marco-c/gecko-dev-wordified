@@ -185,13 +185,17 @@ TEST_URL
 .
 then
 (
+async
+(
 tab
+)
 =
 >
 {
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -231,6 +235,7 @@ errorHandler
 )
 ;
 }
+async
 function
 testPrefsAreRespectedWhenReopeningToolbox
 (
@@ -239,6 +244,7 @@ testPrefsAreRespectedWhenReopeningToolbox
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -277,6 +283,7 @@ target
 .
 then
 (
+async
 (
 )
 =
@@ -285,6 +292,7 @@ then
 const
 tabTarget
 =
+await
 TargetFactory
 .
 forTab
