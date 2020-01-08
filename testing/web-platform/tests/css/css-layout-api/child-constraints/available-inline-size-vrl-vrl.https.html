@@ -57,6 +57,9 @@ match
 href
 =
 "
+.
+.
+/
 green
 -
 square
@@ -84,6 +87,7 @@ setting
 the
 available
 inline
+-
 size
 of
 children
@@ -124,9 +128,9 @@ writing
 -
 mode
 :
-horizontal
+vertical
 -
-tb
+rl
 ;
 visibility
 :
@@ -142,7 +146,7 @@ height
 -
 available
 -
-block
+inline
 -
 size
 :
@@ -158,7 +162,7 @@ inline
 -
 block
 ;
-height
+width
 :
 8px
 ;
@@ -170,7 +174,7 @@ size
 -
 10
 {
-width
+height
 :
 10px
 ;
@@ -182,7 +186,7 @@ size
 -
 30
 {
-width
+height
 :
 30px
 ;
@@ -300,7 +304,7 @@ style
 "
 -
 -
-block
+inline
 -
 size
 -
@@ -310,7 +314,7 @@ expected
 ;
 -
 -
-inline
+block
 -
 size
 -
@@ -394,7 +398,7 @@ style
 "
 -
 -
-block
+inline
 -
 size
 -
@@ -404,7 +408,7 @@ expected
 ;
 -
 -
-inline
+block
 -
 size
 -
@@ -444,7 +448,7 @@ sure
 the
 max
 -
-width
+height
 property
 clamps
 the
@@ -465,13 +469,13 @@ style
 "
 max
 -
-width
+height
 :
 25px
 ;
 -
 -
-block
+inline
 -
 size
 -
@@ -481,7 +485,7 @@ expected
 ;
 -
 -
-inline
+block
 -
 size
 -
@@ -521,7 +525,7 @@ sure
 the
 min
 -
-width
+height
 property
 clamps
 the
@@ -542,13 +546,13 @@ style
 "
 min
 -
-width
+height
 :
 25px
 ;
 -
 -
-block
+inline
 -
 size
 -
@@ -558,7 +562,7 @@ expected
 ;
 -
 -
-inline
+block
 -
 size
 -
@@ -605,6 +609,9 @@ layoutWorklet
 url
 :
 '
+.
+.
+/
 support
 /
 layout

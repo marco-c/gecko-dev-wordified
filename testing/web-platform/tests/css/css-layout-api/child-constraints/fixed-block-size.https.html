@@ -44,7 +44,7 @@ dom
 -
 layoutconstraintsoptions
 -
-fixedinlinesize
+fixedblocksize
 "
 >
 <
@@ -57,6 +57,9 @@ match
 href
 =
 "
+.
+.
+/
 green
 -
 square
@@ -82,7 +85,7 @@ checks
 that
 fixing
 the
-inline
+block
 size
 of
 children
@@ -99,19 +102,11 @@ style
 .
 test
 {
-writing
--
-mode
-:
-vertical
--
-rl
-;
 background
 :
 red
 ;
-height
+width
 :
 100px
 ;
@@ -143,7 +138,7 @@ height
 -
 fixed
 -
-inline
+block
 -
 size
 :
@@ -157,7 +152,7 @@ size
 -
 expected
 :
-10
+3
 ;
 -
 -
@@ -167,7 +162,7 @@ size
 -
 expected
 :
-3
+10
 ;
 }
 .
@@ -197,7 +192,7 @@ height
 -
 fixed
 -
-inline
+block
 -
 size
 :
@@ -211,7 +206,7 @@ size
 -
 expected
 :
-10
+3
 ;
 -
 -
@@ -221,7 +216,7 @@ size
 -
 expected
 :
-3
+10
 ;
 }
 supports
@@ -337,7 +332,7 @@ should
 have
 no
 effect
-fixedInlineSize
+fixedBlockSize
 wins
 .
 -
@@ -447,6 +442,9 @@ layoutWorklet
 url
 :
 '
+.
+.
+/
 support
 /
 layout
