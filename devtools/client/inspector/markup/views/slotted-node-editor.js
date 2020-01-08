@@ -291,7 +291,7 @@ this
 .
 revealLink
 .
-textContent
+title
 =
 INSPECTOR_L10N
 .
@@ -302,7 +302,7 @@ markupView
 .
 revealLink
 .
-label
+tooltip
 "
 )
 ;
