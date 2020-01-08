@@ -237,7 +237,7 @@ schema
 f
 indent
 =
-4
+2
 sort_keys
 =
 True
