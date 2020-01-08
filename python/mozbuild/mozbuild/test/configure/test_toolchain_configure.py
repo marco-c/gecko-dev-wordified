@@ -3400,7 +3400,7 @@ clang
 }
     
 def
-test_gcc
+test_default
 (
 self
 )
@@ -3411,14 +3411,49 @@ We
 '
 ll
 try
-gcc
-and
 clang
 and
-find
 gcc
+and
+find
+clang
 first
 .
+        
+self
+.
+do_toolchain_test
+(
+self
+.
+PATHS
+{
+            
+'
+c_compiler
+'
+:
+self
+.
+DEFAULT_CLANG_RESULT
+            
+'
+cxx_compiler
+'
+:
+self
+.
+DEFAULT_CLANGXX_RESULT
+        
+}
+)
+    
+def
+test_gcc
+(
+self
+)
+:
         
 self
 .
@@ -3444,6 +3479,29 @@ cxx_compiler
 self
 .
 DEFAULT_GXX_RESULT
+        
+}
+environ
+=
+{
+            
+'
+CC
+'
+:
+'
+gcc
+'
+            
+'
+CXX
+'
+:
+'
+g
++
++
+'
         
 }
 )
@@ -3547,6 +3605,14 @@ GXX_4_9_RESULT
 environ
 =
 {
+            
+'
+CC
+'
+:
+'
+gcc
+'
             
 '
 CXX
@@ -3770,6 +3836,14 @@ environ
 {
             
 '
+CC
+'
+:
+'
+gcc
+'
+            
+'
 CXX
 '
 :
@@ -3873,6 +3947,14 @@ environ
 {
             
 '
+CC
+'
+:
+'
+gcc
+'
+            
+'
 HOST_CXX
 '
 :
@@ -3909,7 +3991,7 @@ c_compiler
 :
 self
 .
-DEFAULT_GCC_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 cxx_compiler
@@ -3923,7 +4005,7 @@ target
 C
 compiler
 is
-gcc
+clang
 while
 the
 target
@@ -3935,7 +4017,7 @@ compiler
                 
 '
 is
-clang
+gcc
 .
 Need
 to
@@ -3958,7 +4040,7 @@ CXX
 '
 :
 '
-clang
+g
 +
 +
 '
@@ -3981,7 +4063,7 @@ c_compiler
 :
 self
 .
-DEFAULT_GCC_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 cxx_compiler
@@ -3989,7 +4071,7 @@ cxx_compiler
 :
 self
 .
-DEFAULT_GXX_RESULT
+DEFAULT_CLANGXX_RESULT
             
 '
 host_c_compiler
@@ -3997,7 +4079,7 @@ host_c_compiler
 :
 self
 .
-DEFAULT_GCC_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 host_cxx_compiler
@@ -4011,7 +4093,7 @@ host
 C
 compiler
 is
-gcc
+clang
 while
 the
 host
@@ -4023,7 +4105,7 @@ compiler
                 
 '
 is
-clang
+gcc
 .
 Need
 to
@@ -4046,7 +4128,7 @@ HOST_CXX
 '
 :
 '
-clang
+g
 +
 +
 '
@@ -4128,7 +4210,7 @@ c_compiler
 :
 self
 .
-DEFAULT_GCC_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 cxx_compiler
@@ -4158,7 +4240,7 @@ usr
 /
 bin
 /
-gcc
+clang
 '
 )
         
@@ -4172,7 +4254,7 @@ CXX
 '
 :
 '
-gcc
+clang
 '
         
 }
@@ -5224,6 +5306,19 @@ self
 DEFAULT_GXX_RESULT
         
 }
+environ
+=
+{
+            
+'
+CC
+'
+:
+'
+gcc
+'
+        
+}
 )
     
 def
@@ -5317,19 +5412,6 @@ host_cxx_compiler
 self
 .
 DEFAULT_CLANGXX_RESULT
-        
-}
-environ
-=
-{
-            
-'
-CC
-'
-:
-'
-clang
-'
         
 }
 )
@@ -5529,6 +5611,19 @@ self
 DEFAULT_GXX_RESULT
         
 }
+environ
+=
+{
+            
+'
+CC
+'
+:
+'
+gcc
+'
+        
+}
 )
     
 def
@@ -5622,19 +5717,6 @@ host_cxx_compiler
 self
 .
 DEFAULT_CLANGXX_RESULT
-        
-}
-environ
-=
-{
-            
-'
-CC
-'
-:
-'
-clang
-'
         
 }
 )
@@ -11555,17 +11637,17 @@ pc
 mingw32
 '
     
-DEFAULT_GCC_RESULT
+DEFAULT_CLANG_RESULT
 =
 LinuxToolchainTest
 .
-DEFAULT_GCC_RESULT
+DEFAULT_CLANG_RESULT
     
-DEFAULT_GXX_RESULT
+DEFAULT_CLANGXX_RESULT
 =
 LinuxToolchainTest
 .
-DEFAULT_GXX_RESULT
+DEFAULT_CLANGXX_RESULT
     
 def
 test_wsl_cross
@@ -11631,7 +11713,7 @@ host_c_compiler
 :
 self
 .
-DEFAULT_GCC_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 host_cxx_compiler
@@ -11639,7 +11721,7 @@ host_cxx_compiler
 :
 self
 .
-DEFAULT_GXX_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 )
@@ -11710,7 +11792,7 @@ host_c_compiler
 :
 self
 .
-DEFAULT_GCC_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 host_cxx_compiler
@@ -11718,7 +11800,7 @@ host_cxx_compiler
 :
 self
 .
-DEFAULT_GXX_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 )
