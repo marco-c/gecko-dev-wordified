@@ -2242,7 +2242,7 @@ os
 .
 path
 .
-exists
+isfile
 (
 test
 )
