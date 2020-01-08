@@ -5071,6 +5071,10 @@ mInFlush
 (
 false
 )
+mCurrentEventFrame
+(
+nullptr
+)
 {
 }
 PresShell
@@ -5110,10 +5114,6 @@ mMouseLocation
 (
 NS_UNCONSTRAINEDSIZE
 NS_UNCONSTRAINEDSIZE
-)
-mCurrentEventFrame
-(
-nullptr
 )
 mFirstCallbackEventRequest
 (
@@ -39524,7 +39524,7 @@ CAPTURE_POINTERLOCK
 }
 nsIContent
 *
-PresShell
+nsIPresShell
 :
 :
 GetCurrentEventContent
@@ -39562,7 +39562,7 @@ mCurrentEventContent
 }
 nsIFrame
 *
-PresShell
+nsIPresShell
 :
 :
 GetCurrentEventFrame
@@ -39691,7 +39691,7 @@ already_AddRefed
 <
 nsIContent
 >
-PresShell
+nsIPresShell
 :
 :
 GetEventTargetContent
@@ -39779,7 +39779,7 @@ forget
 ;
 }
 void
-PresShell
+nsIPresShell
 :
 :
 PushCurrentEventInfo
@@ -39827,7 +39827,7 @@ aContent
 ;
 }
 void
-PresShell
+nsIPresShell
 :
 :
 PopCurrentEventInfo
