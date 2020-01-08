@@ -1526,7 +1526,7 @@ coverage
 collection
 tests
         
-baseline_tests
+baseline_tests_by_ext
 =
 {
             
@@ -1640,6 +1640,37 @@ chrome
 '
             
 }
+        
+}
+        
+baseline_tests_by_suite
+=
+{
+            
+'
+browser
+-
+chrome
+'
+:
+'
+testing
+/
+mochitest
+/
+baselinecoverage
+/
+browser_chrome
+/
+'
+                              
+'
+browser_baselinecoverage_browser
+-
+chrome
+.
+js
+'
         
 }
         
@@ -1772,6 +1803,71 @@ self
 suites
 :
             
+if
+len
+(
+self
+.
+suites
+[
+suite
+]
+)
+=
+=
+0
+:
+                
+continue
+            
+if
+suite
+in
+baseline_tests_by_suite
+:
+                
+if
+suite
+not
+in
+tests_to_add
+:
+                    
+tests_to_add
+[
+suite
+]
+=
+[
+]
+                
+tests_to_add
+[
+suite
+]
+.
+append
+(
+baseline_tests_by_suite
+[
+suite
+]
+)
+                
+continue
+            
+#
+Default
+to
+file
+types
+if
+the
+suite
+has
+no
+baseline
+            
 for
 test
 in
@@ -1799,7 +1895,7 @@ if
 test_ext
 not
 in
-baseline_tests
+baseline_tests_by_ext
 :
                     
 #
@@ -1831,7 +1927,7 @@ js
                 
 baseline_test_suite
 =
-baseline_tests
+baseline_tests_by_ext
 [
 test_ext
 ]
@@ -1843,7 +1939,7 @@ suite
                 
 baseline_test_name
 =
-baseline_tests
+baseline_tests_by_ext
 [
 test_ext
 ]
@@ -3184,7 +3280,12 @@ were
 run
 .
             
-baseline_tests_cov
+baseline_tests_ext_cov
+=
+{
+}
+            
+baseline_tests_suite_cov
 =
 {
 }
@@ -3257,18 +3358,6 @@ for
 this
 .
                     
-_
-baseline_filetype
-=
-os
-.
-path
-.
-splitext
-(
-test
-)
-                    
 with
 open
 (
@@ -3281,10 +3370,7 @@ as
 f
 :
                         
-baseline_tests_cov
-[
-baseline_filetype
-]
+data
 =
 json
 .
@@ -3292,6 +3378,41 @@ load
 (
 f
 )
+                    
+if
+suite
+in
+test
+:
+                        
+baseline_tests_suite_cov
+[
+suite
+]
+=
+data
+                    
+else
+:
+                        
+_
+baseline_filetype
+=
+os
+.
+path
+.
+splitext
+(
+test
+)
+                        
+baseline_tests_ext_cov
+[
+baseline_filetype
+]
+=
+data
             
 dest
 =
@@ -3466,6 +3587,19 @@ baseline_coverage
 }
                             
 if
+suite
+in
+baseline_tests_suite_cov
+:
+                                
+baseline_coverage
+=
+baseline_tests_suite_cov
+[
+suite
+]
+                            
+elif
 self
 .
 config
@@ -3487,7 +3621,7 @@ platform
                                 
 baseline_coverage
 =
-baseline_tests_cov
+baseline_tests_ext_cov
 [
 '
 .
@@ -3501,7 +3635,7 @@ else
 for
 file_type
 in
-baseline_tests_cov
+baseline_tests_ext_cov
 :
                                     
 if
@@ -3518,7 +3652,7 @@ continue
                                     
 baseline_coverage
 =
-baseline_tests_cov
+baseline_tests_ext_cov
 [
 file_type
 ]
@@ -3565,7 +3699,7 @@ test
                                 
 baseline_coverage
 =
-baseline_tests_cov
+baseline_tests_ext_cov
 [
 '
 .
