@@ -363,13 +363,12 @@ blank
 "
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 PAGE
 )
 ;

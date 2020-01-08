@@ -311,13 +311,12 @@ onVisits
 }
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 TEST_URL
 )
 ;

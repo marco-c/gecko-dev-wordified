@@ -504,13 +504,12 @@ home
 "
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 "
 about
 :

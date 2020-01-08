@@ -240,11 +240,10 @@ i
 +
 )
 {
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 URL
 +
 i
@@ -300,11 +299,10 @@ non
 remote
 page
 .
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 "
 about
 :

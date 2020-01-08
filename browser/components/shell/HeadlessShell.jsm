@@ -143,7 +143,6 @@ loadContentWindow
 (
 webNavigation
 uri
-principal
 )
 {
 return
@@ -170,7 +169,6 @@ LOAD_FLAGS_NONE
 null
 null
 null
-principal
 )
 ;
 let
@@ -396,13 +394,6 @@ loadContentWindow
 (
 windowlessBrowser
 url
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 )
 ;
 contentWindow

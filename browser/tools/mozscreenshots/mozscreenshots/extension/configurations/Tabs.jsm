@@ -1333,17 +1333,6 @@ selectedBrowser
 loadURI
 (
 url
-{
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-}
 )
 ;
 if

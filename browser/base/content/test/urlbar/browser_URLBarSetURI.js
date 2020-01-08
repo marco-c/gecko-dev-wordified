@@ -371,13 +371,12 @@ load
 /
 error
 .
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 "
 http
 :

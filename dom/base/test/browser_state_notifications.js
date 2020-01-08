@@ -959,11 +959,10 @@ hidden
 isData
 )
 ;
-BrowserTestUtils
+browser1
 .
 loadURI
 (
-browser1
 uri2
 )
 ;
@@ -1202,11 +1201,10 @@ uri
 "
 )
 ;
-BrowserTestUtils
+browser1
 .
 loadURI
 (
-browser1
 uri3
 )
 ;

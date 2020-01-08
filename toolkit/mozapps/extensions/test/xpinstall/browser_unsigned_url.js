@@ -152,11 +152,10 @@ then
 =
 >
 {
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 TESTROOT
 +
 "

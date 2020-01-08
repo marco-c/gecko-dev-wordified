@@ -276,13 +276,12 @@ true
 }
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 URI
 )
 ;

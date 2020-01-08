@@ -185,13 +185,12 @@ toolbox
 JS_URL
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 PAGE_URL
 )
 ;

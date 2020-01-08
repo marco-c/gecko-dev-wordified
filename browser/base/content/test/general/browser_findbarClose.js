@@ -96,13 +96,12 @@ false
 }
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 newTab
 .
 linkedBrowser
+.
+loadURI
+(
 "
 http
 :

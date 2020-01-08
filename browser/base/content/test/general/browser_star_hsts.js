@@ -517,13 +517,12 @@ event
 "
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 aTab
 .
 linkedBrowser
+.
+loadURI
+(
 aURL
 )
 ;
