@@ -5540,7 +5540,7 @@ NS_ERROR_TRACKING_URI
 )
 ?
 "
-TrackingUriBlocked
+TrackerUriBlocked
 "
 :
 "

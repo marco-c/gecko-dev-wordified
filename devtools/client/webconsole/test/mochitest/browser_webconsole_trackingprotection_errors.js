@@ -289,8 +289,8 @@ was
 "
 blocked
 because
-tracking
-protection
+content
+blocking
 is
 enabled
 "
