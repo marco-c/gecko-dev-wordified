@@ -162,6 +162,14 @@ CommandArgument
 python
 '
                      
+default
+=
+'
+2
+.
+7
+'
+                     
 help
 =
 '
@@ -240,16 +248,6 @@ stdout
 }
 )
         
-python
-=
-python
-or
-self
-.
-virtualenv_manager
-.
-python_path
-        
 self
 .
 activate_pipenv
@@ -267,17 +265,9 @@ here
 Pipfile
 '
 )
-args
+python
 =
-[
-                             
-'
--
--
 python
-'
-python
-]
 populate
 =
 True
