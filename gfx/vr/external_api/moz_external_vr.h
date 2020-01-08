@@ -487,6 +487,16 @@ uint64_t
 VRLayerTextureHandle
 ;
 #
+elif
+defined
+(
+XP_MACOSX
+)
+typedef
+uint32_t
+VRLayerTextureHandle
+;
+#
 else
 typedef
 void

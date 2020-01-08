@@ -190,15 +190,6 @@ d3d11_1
 h
 >
 #
-elif
-defined
-(
-XP_MACOSX
-)
-class
-MacIOSurface
-;
-#
 endif
 namespace
 mozilla
@@ -361,8 +352,9 @@ gfx
 VRLayer_Stereo_Immersive
 &
 aLayer
-MacIOSurface
-*
+const
+VRLayerTextureHandle
+&
 aTexture
 )
 override

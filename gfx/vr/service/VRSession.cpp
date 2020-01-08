@@ -615,10 +615,6 @@ return
 SubmitFrame
 (
 aLayer
-(
-MacIOSurface
-*
-)
 aLayer
 .
 mTextureHandle

@@ -123,13 +123,6 @@ GFX_VR_SERVICE_VRSESSION_H
 #
 include
 "
-VRSession
-.
-h
-"
-#
-include
-"
 moz_external_vr
 .
 h
@@ -407,8 +400,9 @@ gfx
 VRLayer_Stereo_Immersive
 &
 aLayer
-MacIOSurface
-*
+const
+VRLayerTextureHandle
+&
 aTexture
 )
 =
