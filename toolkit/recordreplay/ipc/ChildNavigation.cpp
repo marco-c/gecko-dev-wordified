@@ -4581,6 +4581,11 @@ return
 false
 ;
 }
+size_t
+index
+=
+mRequestIndex
+;
 if
 (
 !
@@ -4625,7 +4630,7 @@ if
 (
 mRequests
 [
-mRequestIndex
+index
 ]
 .
 mUnhandledDivergence
