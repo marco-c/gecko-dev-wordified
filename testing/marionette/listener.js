@@ -4415,14 +4415,17 @@ dictionary
 .
 *
 /
-function
+let
 sendToServer
+=
 (
 uuid
 data
 =
 undefined
 )
+=
+>
 {
 let
 channel
@@ -4449,6 +4452,7 @@ data
 )
 ;
 }
+;
 /
 *
 *

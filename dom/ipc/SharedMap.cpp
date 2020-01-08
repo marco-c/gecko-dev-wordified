@@ -1733,6 +1733,11 @@ ContentProcessMessageManager
 Get
 (
 )
+-
+>
+GetParentObject
+(
+)
 CloneMapFile
 (
 )
