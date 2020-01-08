@@ -216,10 +216,6 @@ devtools
 /
 server
 /
-actors
-/
-utils
-/
 actor
 -
 registry
