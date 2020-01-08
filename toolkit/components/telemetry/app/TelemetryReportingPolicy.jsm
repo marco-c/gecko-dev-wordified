@@ -2633,11 +2633,6 @@ formatURL
 firstRunPolicyURL
 )
 ;
-let
-win
-;
-try
-{
 const
 {
 BrowserWindowTracker
@@ -2663,6 +2658,7 @@ jsm
 }
 )
 ;
+let
 win
 =
 BrowserWindowTracker
@@ -2671,13 +2667,6 @@ getTopWindow
 (
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 if
 (
 !
