@@ -372,7 +372,7 @@ actor
 ;
 gClient
 .
-attachTab
+attachTarget
 (
 actor
 )
