@@ -15669,14 +15669,11 @@ CreateBidiKeyboardContentProcess
 )
 ;
 }
-else
-{
 return
 CreateBidiKeyboardInner
 (
 )
 ;
-}
 }
 #
 ifdef
