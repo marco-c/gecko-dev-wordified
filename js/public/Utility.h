@@ -1947,6 +1947,13 @@ arena_id_t
 MallocArena
 ;
 extern
+JS_PUBLIC_DATA
+(
+arena_id_t
+)
+ArrayBufferContentsArena
+;
+extern
 void
 InitMallocAllocator
 (

@@ -2740,6 +2740,10 @@ uint8_t
 >
 (
 nbytes
+js
+:
+:
+ArrayBufferContentsArena
 )
 ;
 if
