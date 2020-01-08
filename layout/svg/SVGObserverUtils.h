@@ -2117,7 +2117,7 @@ override
 }
 ;
 class
-nsSVGMaskProperty
+SVGMaskObserverList
 final
 :
 public
@@ -2126,7 +2126,7 @@ nsISupports
 public
 :
 explicit
-nsSVGMaskProperty
+SVGMaskObserverList
 (
 nsIFrame
 *
@@ -2146,7 +2146,7 @@ nsSVGPaintingProperty
 >
 >
 &
-GetProps
+GetObservers
 (
 )
 const
@@ -2166,7 +2166,7 @@ private
 :
 virtual
 ~
-nsSVGMaskProperty
+SVGMaskObserverList
 (
 )
 {
@@ -2675,7 +2675,7 @@ DestroyFilterProperty
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
 (
 MaskProperty
-nsSVGMaskProperty
+SVGMaskObserverList
 )
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
 (
@@ -2761,9 +2761,9 @@ SVGFilterObserverListForCSSProp
 *
 mFilterObservers
 ;
-nsSVGMaskProperty
+SVGMaskObserverList
 *
-mMask
+mMaskObservers
 ;
 nsSVGPaintingProperty
 *
