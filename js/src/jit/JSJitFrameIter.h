@@ -2948,8 +2948,6 @@ moreInstructions
 )
 ;
 }
-protected
-:
 /
 /
 Register
@@ -3014,6 +3012,8 @@ MaybeReadFallback
 fallback
 )
 ;
+protected
+:
 /
 /
 This
