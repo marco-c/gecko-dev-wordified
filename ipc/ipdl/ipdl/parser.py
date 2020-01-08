@@ -1013,6 +1013,10 @@ refcounted
 '
     
 '
+moveonly
+'
+    
+'
 returns
 '
     
@@ -2119,6 +2123,37 @@ len
 p
 )
 def
+p_MaybeMoveOnly
+(
+p
+)
+:
+    
+"
+"
+"
+MaybeMoveOnly
+:
+MOVEONLY
+                       
+|
+"
+"
+"
+    
+p
+[
+0
+]
+=
+2
+=
+=
+len
+(
+p
+)
+def
 p_UsingStmt
 (
 p
@@ -2132,6 +2167,7 @@ UsingStmt
 :
 USING
 MaybeRefcounted
+MaybeMoveOnly
 UsingKind
 CxxType
 FROM
@@ -2160,25 +2196,32 @@ p
 2
 ]
                      
-kind
+moveonly
 =
 p
 [
 3
 ]
                      
-cxxTypeSpec
+kind
 =
 p
 [
 4
 ]
                      
+cxxTypeSpec
+=
+p
+[
+5
+]
+                     
 cxxHeader
 =
 p
 [
-6
+7
 ]
 )
 #

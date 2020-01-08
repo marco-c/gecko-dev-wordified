@@ -1067,7 +1067,11 @@ None
 kind
 =
 None
+                 
 refcounted
+=
+False
+moveonly
 =
 False
 )
@@ -1142,6 +1146,12 @@ self
 refcounted
 =
 refcounted
+        
+self
+.
+moveonly
+=
+moveonly
     
 def
 canBeForwardDeclared
@@ -1208,6 +1218,18 @@ return
 self
 .
 refcounted
+    
+def
+isMoveonly
+(
+self
+)
+:
+        
+return
+self
+.
+moveonly
 #
 "
 singletons
