@@ -1142,12 +1142,14 @@ Null
         
 authenticatedAttributes
 =
+(
+            
 self
 .
 buildAuthenticatedAttributes
 (
 digestValue
-                                                                    
+                                              
 implicitTag
 =
 tag
@@ -1157,10 +1159,12 @@ Tag
 tag
 .
 tagClassContext
+                                                                  
 tag
 .
 tagFormatConstructed
 0
+)
 )
 )
         
@@ -1750,6 +1754,7 @@ __main__
 :
     
 print
+(
 CMS
 (
 sys
@@ -1759,4 +1764,5 @@ stdin
 .
 toPEM
 (
+)
 )
