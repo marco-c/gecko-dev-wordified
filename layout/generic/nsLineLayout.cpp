@@ -6319,8 +6319,7 @@ alignment
 /
 /
 Adjust
-float
-manager
+spacemanager
 coordinate
 system
 for
