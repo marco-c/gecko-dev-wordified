@@ -32189,6 +32189,11 @@ IsContainSize
 )
 )
 {
+*
+aIsDefinite
+=
+true
+;
 return
 aReflowInput
 .
