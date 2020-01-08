@@ -1019,6 +1019,10 @@ ipc
 IPCResult
 RecvRequestPerformanceMetrics
 (
+const
+nsID
+&
+aID
 )
 override
 ;
