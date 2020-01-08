@@ -225,6 +225,15 @@ h
 #
 include
 "
+jit
+/
+JitRealm
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmBuiltins
