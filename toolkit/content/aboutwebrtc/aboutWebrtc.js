@@ -5684,7 +5684,7 @@ candidateType
 {
 c
 .
-mozLocalTransport
+relayProtocol
 }
 ;
 }
