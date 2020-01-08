@@ -3816,8 +3816,10 @@ HashStore
 :
 ApplyUpdate
 (
+RefPtr
+<
 TableUpdateV2
-*
+>
 aUpdate
 )
 {

@@ -239,8 +239,10 @@ aInputMap
 nsresult
 ApplyUpdate
 (
+RefPtr
+<
 TableUpdateV4
-*
+>
 aTableUpdate
 PrefixStringMap
 &
