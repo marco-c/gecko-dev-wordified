@@ -908,7 +908,7 @@ returns
 {
 Promise
 }
-fullfilled
+fulfilled
 after
 the
 freeze
@@ -957,7 +957,7 @@ Triggers
 a
 user
 -
-initated
+initiated
 click
 *
 *
@@ -1036,7 +1036,7 @@ Triggers
 a
 user
 -
-initated
+initiated
 click
 *
 *
@@ -1117,7 +1117,7 @@ returns
 {
 Promise
 }
-fullfilled
+fulfilled
 after
 freeze
 request
