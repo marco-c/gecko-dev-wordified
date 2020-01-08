@@ -197,7 +197,9 @@ devtools
 /
 server
 /
-main
+actors
+/
+common
 "
 )
 ;
