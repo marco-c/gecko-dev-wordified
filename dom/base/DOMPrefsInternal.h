@@ -201,10 +201,6 @@ files
 .
 DOM_WEBIDL_PREF
 (
-canvas_imagebitmap_extensions_enabled
-)
-DOM_WEBIDL_PREF
-(
 dom_caches_enabled
 )
 DOM_WEBIDL_PREF
