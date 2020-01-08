@@ -15726,6 +15726,21 @@ output_device
 Null
 Output
 "
+            
+prefs
+[
+'
+media
+.
+volume_scale
+'
+]
+=
+"
+1
+.
+0
+"
         
 #
 Disable
