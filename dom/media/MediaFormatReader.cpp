@@ -8306,6 +8306,11 @@ OnTaskQueue
 )
 ;
 return
+GetDecoderData
+(
+aTrack
+)
+.
 IsEncrypted
 (
 )
