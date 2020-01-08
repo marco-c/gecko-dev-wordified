@@ -457,7 +457,7 @@ type
 accumulated
 by
 *
-ActorRegistry
+DebuggerServer
 .
 addGlobalActor
 .
@@ -4156,12 +4156,12 @@ actor
 (
 added
 by
-ActorRegistry
+DebuggerServer
 .
 addGlobalActor
 or
 *
-ActorRegistry
+DebuggerServer
 .
 addTargetScopedActor
 )

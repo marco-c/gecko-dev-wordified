@@ -85,9 +85,7 @@ the
 new
 lazy
 actor
-actor
--
-register
+loading
 function
 test_lazy_api
 (
@@ -155,7 +153,7 @@ actor
 "
 )
 ;
-ActorRegistry
+DebuggerServer
 .
 registerModule
 (
@@ -206,7 +204,7 @@ Assert
 .
 ok
 (
-ActorRegistry
+DebuggerServer
 .
 targetScopedActorFactories
 .
@@ -222,7 +220,7 @@ Assert
 .
 ok
 (
-ActorRegistry
+DebuggerServer
 .
 globalActorFactories
 .
@@ -471,7 +469,7 @@ Assert
 .
 ok
 (
-ActorRegistry
+DebuggerServer
 .
 globalActorFactories
 .
@@ -483,7 +481,7 @@ lazyActor
 )
 )
 ;
-ActorRegistry
+DebuggerServer
 .
 removeGlobalActor
 (
@@ -497,7 +495,7 @@ Assert
 ok
 (
 !
-ActorRegistry
+DebuggerServer
 .
 globalActorFactories
 .
@@ -541,7 +539,7 @@ Assert
 ok
 (
 !
-ActorRegistry
+DebuggerServer
 .
 targetScopedActorFactories
 .
@@ -558,7 +556,7 @@ Assert
 ok
 (
 !
-ActorRegistry
+DebuggerServer
 .
 globalActorFactories
 .

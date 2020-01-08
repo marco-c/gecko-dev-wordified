@@ -206,7 +206,7 @@ ChromeUtils
 ;
 var
 {
-ActorRegistry
+DebuggerServer
 }
 =
 require
@@ -216,9 +216,7 @@ devtools
 /
 server
 /
-actor
--
-registry
+main
 "
 )
 ;
@@ -827,7 +825,7 @@ being
 registered
 *
 via
-ActorRegistry
+DebuggerServer
 .
 registerModule
 and
@@ -3275,11 +3273,11 @@ the
 ActorPool
 .
 const
-actors
+addedActors
 =
 createExtraActors
 (
-ActorRegistry
+DebuggerServer
 .
 targetScopedActorFactories
 this
@@ -3293,7 +3291,7 @@ Object
 assign
 (
 response
-actors
+addedActors
 )
 ;
 return

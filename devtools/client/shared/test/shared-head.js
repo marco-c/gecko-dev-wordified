@@ -5135,7 +5135,7 @@ tab
 *
 *
 Calling
-ActorRegistry
+DebuggerServer
 .
 registerModule
 only
@@ -5379,7 +5379,7 @@ jsm
 ;
 const
 {
-ActorRegistry
+DebuggerServer
 }
 =
 require
@@ -5389,13 +5389,11 @@ devtools
 /
 server
 /
-actor
--
-registry
+main
 "
 )
 ;
-ActorRegistry
+DebuggerServer
 .
 registerModule
 (
