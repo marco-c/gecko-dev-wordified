@@ -95,6 +95,7 @@ MPL
 *
 global
 getModuleLoadPath
+setModuleLoadHook
 setModuleResolveHook
 parseModule
 instantiateModule
