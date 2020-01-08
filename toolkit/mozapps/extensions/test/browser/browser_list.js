@@ -856,6 +856,8 @@ tests
 &
 &
 !
+BrowserTestUtils
+.
 is_hidden
 (
 item
@@ -1349,6 +1351,8 @@ waitForCondition
 =
 >
 !
+BrowserTestUtils
+.
 is_hidden
 (
 get_node
@@ -2245,6 +2249,8 @@ waitForCondition
 =
 >
 !
+BrowserTestUtils
+.
 is_hidden
 (
 get_node
@@ -2633,6 +2639,8 @@ waitForCondition
 =
 >
 !
+BrowserTestUtils
+.
 is_hidden
 (
 get_node
@@ -6099,6 +6107,8 @@ waitForCondition
 =
 >
 !
+BrowserTestUtils
+.
 is_hidden
 (
 get_node
@@ -6459,6 +6469,8 @@ waitForCondition
 =
 >
 !
+BrowserTestUtils
+.
 is_hidden
 (
 get_node

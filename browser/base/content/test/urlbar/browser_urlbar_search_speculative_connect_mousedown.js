@@ -584,6 +584,8 @@ childNodes
 ]
 &
 &
+BrowserTestUtils
+.
 is_visible
 (
 gURLBar

@@ -1566,6 +1566,8 @@ instant
 ;
 ok
 (
+BrowserTestUtils
+.
 is_visible
 (
 item
@@ -1585,6 +1587,8 @@ extension
 ;
 ok
 (
+BrowserTestUtils
+.
 is_hidden
 (
 item

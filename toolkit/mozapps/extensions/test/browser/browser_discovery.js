@@ -4387,6 +4387,8 @@ visible
 ok
 (
 !
+BrowserTestUtils
+.
 is_hidden
 (
 button
@@ -4404,6 +4406,8 @@ visible
 else
 ok
 (
+BrowserTestUtils
+.
 is_hidden
 (
 button

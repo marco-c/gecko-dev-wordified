@@ -1155,6 +1155,8 @@ Assert
 .
 ok
 (
+BrowserTestUtils
+.
 is_visible
 (
 listitem
