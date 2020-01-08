@@ -412,9 +412,8 @@ JSEnumerator
 >
 (
 this
-NS_GET_IID
+DefaultInterface
 (
-nsISupports
 )
 )
 ;

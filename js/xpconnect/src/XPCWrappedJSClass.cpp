@@ -2671,6 +2671,10 @@ NS_NewArrayEnumerator
 (
 aEnumerate
 propertyArray
+NS_GET_IID
+(
+nsIProperty
+)
 )
 ;
 }

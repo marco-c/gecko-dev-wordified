@@ -3950,6 +3950,10 @@ NS_NewArrayEnumerator
 (
 aRequests
 requests
+NS_GET_IID
+(
+nsIRequest
+)
 )
 ;
 }

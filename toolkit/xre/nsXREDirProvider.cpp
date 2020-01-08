@@ -5111,6 +5111,10 @@ NS_NewArrayEnumerator
 (
 aResult
 directories
+NS_GET_IID
+(
+nsIFile
+)
 )
 ;
 }
@@ -5151,6 +5155,10 @@ NS_NewArrayEnumerator
 (
 aResult
 directories
+NS_GET_IID
+(
+nsIFile
+)
 )
 ;
 }
@@ -5227,6 +5235,10 @@ NS_NewArrayEnumerator
 (
 aResult
 directories
+NS_GET_IID
+(
+nsIFile
+)
 )
 ;
 }
@@ -5394,6 +5406,10 @@ NS_NewArrayEnumerator
 (
 aResult
 directories
+NS_GET_IID
+(
+nsIFile
+)
 )
 ;
 NS_ENSURE_SUCCESS

@@ -1623,6 +1623,10 @@ array
 Enumerate
 (
 _retval
+NS_GET_IID
+(
+nsIPKCS11Slot
+)
 )
 ;
 }

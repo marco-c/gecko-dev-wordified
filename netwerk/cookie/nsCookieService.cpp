@@ -17274,6 +17274,10 @@ NS_NewArrayEnumerator
 (
 aEnumerator
 cookieList
+NS_GET_IID
+(
+nsICookie2
+)
 )
 ;
 }
@@ -17442,6 +17446,10 @@ NS_NewArrayEnumerator
 (
 aEnumerator
 cookieList
+NS_GET_IID
+(
+nsICookie2
+)
 )
 ;
 }
@@ -34725,6 +34733,10 @@ NS_NewArrayEnumerator
 (
 aEnumerator
 cookieList
+NS_GET_IID
+(
+nsICookie2
+)
 )
 ;
 }
@@ -35045,6 +35057,10 @@ NS_NewArrayEnumerator
 (
 aEnumerator
 cookies
+NS_GET_IID
+(
+nsICookie2
+)
 )
 ;
 }

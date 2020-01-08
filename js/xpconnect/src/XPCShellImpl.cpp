@@ -9301,6 +9301,10 @@ NS_NewArrayEnumerator
 (
 result
 dirs
+NS_GET_IID
+(
+nsIFile
+)
 )
 ;
 }
@@ -9412,6 +9416,10 @@ NS_NewArrayEnumerator
 (
 result
 dirs
+NS_GET_IID
+(
+nsIFile
+)
 )
 ;
 }
@@ -9601,6 +9609,10 @@ NS_NewArrayEnumerator
 (
 result
 dirs
+NS_GET_IID
+(
+nsIFile
+)
 )
 ;
 }
