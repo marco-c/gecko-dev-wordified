@@ -974,14 +974,16 @@ contextmenu
 }
 this
 .
-isFrameImage
+viewFrameSourceElement
 =
 document
 .
 getElementById
 (
 "
-isFrameImage
+context
+-
+viewframesource
 "
 )
 ;
@@ -4332,7 +4334,7 @@ contentType
 )
 this
 .
-isFrameImage
+viewFrameSourceElement
 .
 removeAttribute
 (
@@ -4344,7 +4346,7 @@ hidden
 else
 this
 .
-isFrameImage
+viewFrameSourceElement
 .
 setAttribute
 (
