@@ -12936,6 +12936,7 @@ if
 !
 chromeRegistry
 )
+{
 return
 IPC_FAIL
 (
@@ -12948,6 +12949,7 @@ null
 "
 )
 ;
+}
 chromeRegistry
 -
 >
@@ -13019,6 +13021,7 @@ if
 !
 chromeRegistry
 )
+{
 return
 IPC_FAIL
 (
@@ -13031,6 +13034,7 @@ null
 "
 )
 ;
+}
 switch
 (
 item
