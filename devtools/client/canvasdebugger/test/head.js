@@ -1188,7 +1188,7 @@ tab
 await
 target
 .
-makeRemote
+attach
 (
 )
 ;
@@ -1270,7 +1270,7 @@ tab
 await
 target
 .
-makeRemote
+attach
 (
 )
 ;
@@ -1348,7 +1348,7 @@ tab
 await
 target
 .
-makeRemote
+attach
 (
 )
 ;

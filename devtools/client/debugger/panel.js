@@ -336,7 +336,7 @@ this
 .
 target
 .
-makeRemote
+attach
 (
 )
 ;
@@ -1001,7 +1001,7 @@ debugger
 implementation
 .
 return
-null
+expression
 ;
 }
 isPaused
