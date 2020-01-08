@@ -179,7 +179,7 @@ snapshot
 (
 )
 .
-values
+counts
 ;
 }
 add_task
@@ -252,7 +252,7 @@ snapshot
 (
 )
 .
-values
+counts
 ;
 is
 (

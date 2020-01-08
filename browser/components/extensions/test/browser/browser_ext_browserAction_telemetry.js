@@ -234,7 +234,7 @@ equal
 (
 snapshot
 .
-values
+counts
 [
 categoryIndex
 ]
@@ -275,14 +275,9 @@ Assert
 .
 equal
 (
-Object
-.
-values
-(
 snapshot
 .
-values
-)
+counts
 .
 reduce
 (
@@ -295,7 +290,6 @@ b
 a
 +
 b
-0
 )
 1
 "
