@@ -1812,6 +1812,8 @@ aCurrentTarget
 nsEventStatus
 *
 aEventStatus
+bool
+aItemInShadowTree
 )
 {
 if
@@ -1924,6 +1926,7 @@ aEvent
 aDOMEvent
 aCurrentTarget
 aEventStatus
+aItemInShadowTree
 )
 ;
 }
@@ -2507,6 +2510,8 @@ aCurrentTarget
 nsEventStatus
 *
 aEventStatus
+bool
+aItemInShadowTree
 )
 ;
 nsresult
@@ -3076,6 +3081,21 @@ OnBeforeUnloadEventHandler
 nullptr
 ;
 }
+private
+:
+already_AddRefed
+<
+nsPIDOMWindowInner
+>
+WindowFromListener
+(
+Listener
+*
+aListener
+bool
+aItemInShadowTree
+)
+;
 protected
 :
 /
