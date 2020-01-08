@@ -396,9 +396,6 @@ dom
 SRIMetadata
 mIntegrity
 ;
-bool
-mComplete
-;
 /
 /
 Pointer
