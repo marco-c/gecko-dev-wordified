@@ -252,26 +252,6 @@ tup
 '
     
 '
-enable_count_ctors
-'
-:
-False
-#
-TODO
-:
-libxul
-.
-so
-needs
-to
-be
-linked
-for
-this
-to
-work
-    
-'
 disable_package_metrics
 '
 :
