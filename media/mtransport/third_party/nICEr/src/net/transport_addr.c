@@ -2747,7 +2747,7 @@ addrTop
 &
 htonl
 (
-0xFFFF0000
+0xFFFFFFFF
 )
 )
 =
