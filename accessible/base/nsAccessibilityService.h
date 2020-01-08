@@ -2583,12 +2583,6 @@ change
 /
 /
 EVENT_TEXT_VALUE_CHANGE
-"
-scrolling
-"
-/
-/
-EVENT_SCROLLING
 }
 ;
 #
