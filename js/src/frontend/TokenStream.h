@@ -13208,8 +13208,6 @@ atEnd
 )
 )
 return
-CodeUnitValue
-(
 this
 -
 >
@@ -13217,7 +13215,6 @@ sourceUnits
 .
 getCodeUnit
 (
-)
 )
 ;
 anyCharsAccess
@@ -16459,12 +16456,6 @@ bug
 :
 -
 (
-using
-CharsBase
-:
-:
-toCharT
-;
 using
 GeneralCharsBase
 :
