@@ -6930,7 +6930,6 @@ mUseHwAccel
 MFVideoFormat_NV12
 :
 MFVideoFormat_YV12
-false
 )
 )
 )
@@ -6948,7 +6947,6 @@ mDecoder
 FindDecoderOutputTypeWithSubtype
 (
 MFVideoFormat_P010
-false
 )
 )
 )
@@ -6965,7 +6963,6 @@ mDecoder
 FindDecoderOutputTypeWithSubtype
 (
 MFVideoFormat_P016
-false
 )
 )
 )
