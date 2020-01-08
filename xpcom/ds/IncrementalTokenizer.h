@@ -152,6 +152,9 @@ IncrementalTokenizer
 :
 public
 TokenizerBase
+<
+char
+>
 {
 public
 :
