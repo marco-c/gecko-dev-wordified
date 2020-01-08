@@ -1777,6 +1777,9 @@ animation_direction_custom_consts
 extra_prefixes
 =
 animation_extra_prefixes
+gecko_inexhaustive
+=
+True
 spec
 =
 "
@@ -1909,6 +1912,9 @@ FillMode
 extra_prefixes
 =
 animation_extra_prefixes
+gecko_inexhaustive
+=
+True
 spec
 =
 "
