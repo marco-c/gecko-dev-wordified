@@ -878,8 +878,8 @@ mAsapScheduling
 bool
 mIsObservingVsync
 ;
-uint32_t
-mNeedsComposite
+TimeStamp
+mCompositeRequestedAt
 ;
 int32_t
 mVsyncNotificationsSkipped
