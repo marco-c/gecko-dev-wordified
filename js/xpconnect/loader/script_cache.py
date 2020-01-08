@@ -19,7 +19,7 @@ MAGIC
 =
 b
 '
-mozXDRcachev001
+mozXDRcachev002
 \
 0
 '
@@ -93,21 +93,25 @@ class
 ProcessTypes
 :
     
-Default
+Uninitialized
 =
 0
     
-Web
+Parent
 =
 1
     
-Extension
+Web
 =
 2
     
-Privileged
+Extension
 =
 3
+    
+Privileged
+=
+4
     
 def
 __init__
@@ -146,7 +150,32 @@ val
 <
 self
 .
-Default
+Uninitialized
+)
+:
+            
+raise
+Exception
+(
+'
+Uninitialized
+process
+type
+'
+)
+        
+if
+self
+.
+val
+&
+(
+1
+<
+<
+self
+.
+Parent
 )
 :
             
