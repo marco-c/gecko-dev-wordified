@@ -21731,6 +21731,8 @@ nsCSSPseudoElements
 :
 :
 before
+(
+)
 |
 |
 pseudo
@@ -21740,6 +21742,8 @@ nsCSSPseudoElements
 :
 :
 after
+(
+)
 )
 return
 f
@@ -67824,6 +67828,8 @@ nsCSSPseudoElements
 :
 :
 firstLine
+(
+)
 )
 -
 >
@@ -69523,6 +69529,8 @@ nsCSSPseudoElements
 :
 :
 firstLetter
+(
+)
 )
 ;
 ComputedStyle
@@ -69616,6 +69624,8 @@ nsCSSPseudoElements
 :
 :
 firstLetter
+(
+)
 )
 ;
 sc

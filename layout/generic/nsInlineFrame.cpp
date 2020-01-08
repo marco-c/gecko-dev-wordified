@@ -7253,6 +7253,8 @@ nsCSSPseudoElements
 :
 :
 firstLine
+(
+)
 )
 ;
 return
@@ -7314,6 +7316,8 @@ nsCSSPseudoElements
 :
 :
 firstLine
+(
+)
 )
 {
 MOZ_ASSERT
