@@ -158,6 +158,9 @@ mod
 custom_properties
 ;
 mod
+keyframes
+;
+mod
 logical_geometry
 ;
 mod

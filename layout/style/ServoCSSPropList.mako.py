@@ -549,10 +549,6 @@ SERIALIZED_PREDEFINED_TYPES
 [
     
 "
-Clear
-"
-    
-"
 Color
 "
     
@@ -566,10 +562,6 @@ CounterIncrement
     
 "
 CounterReset
-"
-    
-"
-Float
 "
     
 "
