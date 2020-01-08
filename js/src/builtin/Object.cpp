@@ -11182,8 +11182,10 @@ draft
 16
 *
 /
-static
 bool
+js
+:
+:
 obj_is
 (
 JSContext
