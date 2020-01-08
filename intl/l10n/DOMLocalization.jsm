@@ -589,6 +589,13 @@ xul
 "
 :
 {
+description
+:
+[
+"
+value
+"
+]
 global
 :
 [
@@ -624,6 +631,13 @@ key
 "
 "
 keycode
+"
+]
+label
+:
+[
+"
+value
 "
 ]
 textbox
