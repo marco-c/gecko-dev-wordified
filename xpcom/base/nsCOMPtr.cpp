@@ -122,7 +122,7 @@ nsCOMPtr
 h
 "
 nsresult
-nsQueryInterface
+nsQueryInterfaceISupports
 :
 :
 operator
@@ -268,7 +268,7 @@ nsCOMPtr_base
 assign_from_qi
 (
 const
-nsQueryInterface
+nsQueryInterfaceISupports
 aQI
 const
 nsIID
