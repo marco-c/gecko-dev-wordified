@@ -2044,7 +2044,6 @@ abort
 )
 ;
 }
-static
 Buffer
 HexToBytes
 (

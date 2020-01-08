@@ -170,6 +170,15 @@ mozilla
 namespace
 ct
 {
+Buffer
+HexToBytes
+(
+const
+char
+*
+hexData
+)
+;
 /
 /
 Note
