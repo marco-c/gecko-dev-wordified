@@ -7332,6 +7332,13 @@ options
 .
 isContentXBLScope
 ;
+priv
+-
+>
+isSandboxCompartment
+=
+true
+;
 /
 /
 Set

@@ -587,6 +587,14 @@ JSObject
 obj
 )
 ;
+bool
+IsInSandboxCompartment
+(
+JSObject
+*
+obj
+)
+;
 /
 /
 Return
