@@ -236,8 +236,14 @@ node
 changed
 is
 *
-non
--
+not
+in
+the
+shadow
+root
+tree
+nor
+in
 anonymous
 content
 .
