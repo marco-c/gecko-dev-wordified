@@ -309,16 +309,6 @@ JSObject
 aObj
 )
 ;
-static
-nsIScriptContext
-*
-GetStaticScriptContext
-(
-JSObject
-*
-aObj
-)
-;
 /
 *
 *
