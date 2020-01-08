@@ -743,6 +743,10 @@ nsXMLContentSink
 (
 )
 :
+mState
+(
+eXMLContentSinkState_InProlog
+)
 mTextLength
 (
 0
