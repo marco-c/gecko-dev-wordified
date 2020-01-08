@@ -49620,6 +49620,15 @@ lifoAlloc
 (
 )
 ;
+LifoAlloc
+:
+:
+AutoFallibleScope
+fallibleAllocator
+(
+lifoAlloc
+)
+;
 TemporaryTypeSet
 *
 typeSet
