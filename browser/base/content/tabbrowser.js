@@ -25888,7 +25888,7 @@ stringWithShortcut
 "
 tabs
 .
-closeSelectedTabs
+closeTabs
 .
 tooltip
 "
@@ -34234,7 +34234,7 @@ multiselectionContext
 ;
 /
 /
-Hide
+Disable
 "
 Close
 Tab
@@ -34254,7 +34254,7 @@ context_closeTabOptions
 "
 )
 .
-hidden
+disabled
 =
 gBrowser
 .
