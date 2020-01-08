@@ -1166,12 +1166,7 @@ windowId
 =
 window
 .
-getInterface
-(
-Ci
-.
-nsIDOMWindowUtils
-)
+windowUtils
 .
 outerWindowID
 ;
