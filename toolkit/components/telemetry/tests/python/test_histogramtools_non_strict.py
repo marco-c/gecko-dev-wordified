@@ -145,7 +145,7 @@ build_scripts
 )
 )
 from
-python_mozparsers
+mozparsers
 import
 parse_histograms
 #

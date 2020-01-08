@@ -58,7 +58,7 @@ __future__
 import
 print_function
 from
-python_mozparsers
+mozparsers
 .
 shared_telemetry_utils
 import
@@ -71,7 +71,7 @@ PHFSIZE
 =
 512
 from
-python_mozparsers
+mozparsers
 import
 parse_histograms
 import
