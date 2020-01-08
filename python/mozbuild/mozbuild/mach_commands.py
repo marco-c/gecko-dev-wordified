@@ -15118,7 +15118,7 @@ config
 =
 yaml
 .
-load
+safe_load
 (
 f
 )
@@ -17009,7 +17009,7 @@ config
 =
 yaml
 .
-load
+safe_load
 (
 f
 )
