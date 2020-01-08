@@ -2262,16 +2262,6 @@ EventRegionsOverride
 NoOverride
 )
 {
-if
-(
-aBuilder
--
->
-IsBuildingLayerEventRegions
-(
-)
-)
-{
 bool
 frameIsPointerEventsNone
 =
@@ -2337,7 +2327,6 @@ EventRegionsOverride
 :
 ForceDispatchToContent
 ;
-}
 }
 }
 already_AddRefed
