@@ -1245,29 +1245,14 @@ count
 return
 :
 A
-dictionary
-with
-file
-names
-as
-the
-key
-and
-a
-list
-of
-                 
 :
 class
 :
 ~
 result
 .
-Issue
-s
-as
-the
-value
+ResultSummary
+instance
 .
         
 "
@@ -1570,8 +1555,9 @@ linted
 )
             
 return
-{
-}
+self
+.
+result
         
 #
 Make
