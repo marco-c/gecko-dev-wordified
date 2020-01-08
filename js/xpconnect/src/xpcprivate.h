@@ -2547,9 +2547,6 @@ XPCRootSetElem
 (
 )
 {
-#
-ifdef
-DEBUG
 mNext
 =
 nullptr
@@ -2558,8 +2555,6 @@ mSelfp
 =
 nullptr
 ;
-#
-endif
 }
 ~
 XPCRootSetElem
