@@ -568,7 +568,7 @@ assert_equals
 window
 .
 event
-e
+undefined
 )
 ;
 assert_equals
@@ -610,7 +610,7 @@ assert_equals
 window
 .
 event
-e
+undefined
 )
 ;
 assert_equals
@@ -645,7 +645,7 @@ assert_equals
 window
 .
 event
-e
+undefined
 )
 ;
 assert_equals
