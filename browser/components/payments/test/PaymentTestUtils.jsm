@@ -661,6 +661,11 @@ PaymentOptions
 }
 options
 *
+returns
+{
+Object
+}
+*
 /
 createAndShowRequest
 :
@@ -736,6 +741,15 @@ handle
 destruct
 (
 )
+;
+return
+{
+requestId
+:
+rq
+.
+id
+}
 ;
 }
 }
