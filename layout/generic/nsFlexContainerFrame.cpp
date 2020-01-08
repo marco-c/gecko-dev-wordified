@@ -18859,6 +18859,8 @@ nsCSSAnonBoxes
 :
 :
 buttonContent
+(
+)
 |
 |
 mComputedStyle
@@ -18873,6 +18875,8 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
+(
+)
 )
 "
 The
@@ -29453,6 +29457,8 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
+(
+)
 |
 |
 pseudoType
@@ -29462,6 +29468,8 @@ nsCSSAnonBoxes
 :
 :
 buttonContent
+(
+)
 )
 {
 const

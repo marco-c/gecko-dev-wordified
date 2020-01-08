@@ -15689,6 +15689,8 @@ nsCSSAnonBoxes
 :
 :
 cellContent
+(
+)
 )
 {
 /

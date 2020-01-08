@@ -6804,6 +6804,8 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
+(
+)
 ourStyle
 )
 ;
@@ -6917,6 +6919,8 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
+(
+)
 "
 Unexpected
 kind
@@ -7413,6 +7417,8 @@ nsCSSAnonBoxes
 :
 :
 mozLineFrame
+(
+)
 parentContext
 )
 ;
@@ -7453,6 +7459,8 @@ nsCSSAnonBoxes
 :
 :
 mozLineFrame
+(
+)
 )
 ;
 }

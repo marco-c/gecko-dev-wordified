@@ -893,6 +893,8 @@ nsCSSAnonBoxes
 :
 :
 mozText
+(
+)
 as
 its
 pseudo
@@ -998,6 +1000,8 @@ nsCSSAnonBoxes
 :
 :
 firstLetterContinuation
+(
+)
 as
 its
 pseudo
@@ -1012,6 +1016,8 @@ nsCSSAnonBoxes
 :
 :
 firstLetterContinuation
+(
+)
 should
 go
 away
@@ -1099,6 +1105,8 @@ nsCSSAnonBoxes
 :
 :
 oofPlaceholder
+(
+)
 as
 /
 /
@@ -1115,6 +1123,8 @@ nsCSSAnonBoxes
 :
 :
 oofPaceholder
+(
+)
 should
 go
 away

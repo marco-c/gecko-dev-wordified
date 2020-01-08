@@ -1302,6 +1302,8 @@ nsCSSAnonBoxes
 :
 :
 mozText
+(
+)
 .
 bool
 IsTextCombined
