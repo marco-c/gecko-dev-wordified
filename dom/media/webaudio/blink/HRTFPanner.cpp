@@ -337,7 +337,7 @@ this
 value
 .
 const
-double
+float
 MaxDelayTimeSeconds
 =
 0
@@ -1553,13 +1553,13 @@ based
 on
 transitions
 .
-double
+float
 frameDelaysL
 [
 WEBAUDIO_BLOCK_SIZE
 ]
 ;
-double
+float
 frameDelaysR
 [
 WEBAUDIO_BLOCK_SIZE

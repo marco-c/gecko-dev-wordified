@@ -223,7 +223,7 @@ aNode
 AudioDestinationNode
 *
 aDestination
-double
+float
 aMaxDelayTicks
 )
 :
@@ -282,7 +282,7 @@ max
 aMaxDelayTicks
 static_cast
 <
-double
+float
 >
 (
 WEBAUDIO_BLOCK_SIZE
@@ -644,16 +644,16 @@ aFrom
 AudioBlock
 *
 aOutput
-double
+float
 minDelay
 )
 {
-double
+float
 maxDelay
 =
 mMaxDelay
 ;
-double
+float
 sampleRate
 =
 aStream
@@ -711,7 +711,7 @@ greater
 than
 maxDelay
 .
-double
+float
 delayFrames
 =
 mDelay
@@ -722,7 +722,7 @@ GetValue
 *
 sampleRate
 ;
-double
+float
 delayFramesClamped
 =
 std
@@ -814,7 +814,7 @@ values
 WEBAUDIO_BLOCK_SIZE
 )
 ;
-double
+float
 computedDelay
 [
 WEBAUDIO_BLOCK_SIZE
@@ -836,7 +836,7 @@ WEBAUDIO_BLOCK_SIZE
 counter
 )
 {
-double
+float
 delayAtTick
 =
 values
@@ -846,7 +846,7 @@ counter
 *
 sampleRate
 ;
-double
+float
 delayAtTickClamped
 =
 std
@@ -1038,7 +1038,7 @@ mDelay
 DelayBuffer
 mBuffer
 ;
-double
+float
 mMaxDelay
 ;
 bool

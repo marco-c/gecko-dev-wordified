@@ -326,7 +326,7 @@ DelayBuffer
 Read
 (
 const
-double
+float
 aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
@@ -439,7 +439,7 @@ including
 i
 )
 .
-double
+float
 minDelay
 =
 aPerFrameDelays
@@ -447,7 +447,7 @@ aPerFrameDelays
 0
 ]
 ;
-double
+float
 maxDelay
 =
 minDelay
@@ -639,7 +639,7 @@ DelayBuffer
 ReadChannel
 (
 const
-double
+float
 aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
@@ -701,7 +701,7 @@ DelayBuffer
 ReadChannels
 (
 const
-double
+float
 aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
@@ -809,7 +809,7 @@ WEBAUDIO_BLOCK_SIZE
 i
 )
 {
-double
+float
 currentDelay
 =
 aPerFrameDelays
@@ -899,7 +899,7 @@ int
 currentDelay
 )
 ;
-double
+float
 interpolationFactor
 =
 currentDelay
@@ -1056,7 +1056,7 @@ totalChannelCount
 aChannelInterpretation
 )
 ;
-double
+float
 multiplier
 =
 interpolationFactor
@@ -1125,7 +1125,7 @@ DelayBuffer
 :
 Read
 (
-double
+float
 aDelayTicks
 AudioBlock
 *
@@ -1134,7 +1134,7 @@ ChannelInterpretation
 aChannelInterpretation
 )
 {
-double
+float
 computedDelay
 [
 WEBAUDIO_BLOCK_SIZE
