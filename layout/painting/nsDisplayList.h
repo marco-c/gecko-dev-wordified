@@ -35621,6 +35621,11 @@ aBuilder
 gfxContext
 *
 aMaskContext
+bool
+*
+aMaskPainted
+=
+nullptr
 )
 ;
 const

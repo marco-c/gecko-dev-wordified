@@ -12622,11 +12622,9 @@ PaintMask
 (
 aDisplayListBuilder
 context
-)
-;
+&
 isInvalidated
-=
-true
+)
 ;
 break
 ;

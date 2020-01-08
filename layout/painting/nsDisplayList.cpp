@@ -57269,6 +57269,9 @@ aBuilder
 gfxContext
 *
 aMaskContext
+bool
+*
+aMaskPainted
 )
 {
 MOZ_ASSERT
@@ -57353,6 +57356,9 @@ ComputeMaskGeometry
 params
 )
 ;
+bool
+painted
+=
 nsSVGIntegrationUtils
 :
 :
@@ -57361,6 +57367,17 @@ PaintMask
 params
 )
 ;
+if
+(
+aMaskPainted
+)
+{
+*
+aMaskPainted
+=
+painted
+;
+}
 nsDisplayMaskGeometry
 :
 :
