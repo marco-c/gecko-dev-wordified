@@ -1995,6 +1995,8 @@ action
 _target
 .
 browser
+.
+ownerGlobal
 )
 ;
 break
