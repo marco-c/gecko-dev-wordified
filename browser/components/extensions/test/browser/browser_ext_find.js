@@ -332,6 +332,7 @@ function
 awaitLoad
 (
 tabId
+url
 )
 {
 return
@@ -374,6 +375,14 @@ status
 "
 complete
 "
+&
+&
+tab
+.
+url
+=
+=
+url
 )
 {
 browser
@@ -449,6 +458,7 @@ awaitLoad
 tab
 .
 id
+url
 )
 ;
 let
