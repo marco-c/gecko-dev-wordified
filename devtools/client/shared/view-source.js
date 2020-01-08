@@ -360,6 +360,16 @@ number
 }
 sourceLine
 *
+param
+{
+string
+}
+[
+reason
+=
+unknown
+]
+*
 *
 return
 {
@@ -380,6 +390,11 @@ function
 toolbox
 sourceURL
 sourceLine
+reason
+=
+"
+unknown
+"
 )
 {
 /
@@ -493,6 +508,7 @@ selectTool
 "
 jsdebugger
 "
+reason
 )
 ;
 dbg
@@ -596,6 +612,7 @@ selectTool
 "
 jsdebugger
 "
+reason
 )
 ;
 /
