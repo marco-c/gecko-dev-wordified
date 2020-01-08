@@ -3013,7 +3013,7 @@ implementation
 of
 CondVar
 void
-OffTheBooksCondVar
+CondVar
 :
 :
 Wait
@@ -3028,7 +3028,7 @@ the
 timed
 version
 of
-OffTheBooksCondVar
+CondVar
 :
 :
 Wait
@@ -3063,7 +3063,7 @@ NoTimeout
 ;
 }
 CVStatus
-OffTheBooksCondVar
+CondVar
 :
 :
 Wait

@@ -5654,12 +5654,6 @@ GetCompositorBackendType
 aAllocator
 -
 >
-SupportsTextureDirectMapping
-(
-)
-aAllocator
--
->
 GetMaxTextureSize
 (
 )
