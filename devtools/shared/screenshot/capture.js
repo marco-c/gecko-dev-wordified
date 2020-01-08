@@ -400,8 +400,7 @@ fullpage
 Bug
 961832
 :
-GCLI
-screenshot
+Screenshot
 shows
 fixed
 position

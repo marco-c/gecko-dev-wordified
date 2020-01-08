@@ -1081,10 +1081,8 @@ the
 browser
 (
 like
-gcli
-*
-or
 the
+*
 splitter
 between
 the
@@ -1164,8 +1162,6 @@ light
 /
 /
 Style
-gcli
-and
 the
 splitter
 between

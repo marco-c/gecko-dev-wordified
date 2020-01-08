@@ -162,15 +162,11 @@ includes
 :
 *
 -
-command
+toolbox
 :
 Whether
 initiated
 via
-GCLI
-command
-bar
-or
 toolbox
 button
 *
@@ -209,7 +205,7 @@ showNotification
 window
 tab
 {
-command
+toolboxButton
 msg
 priority
 }
@@ -253,10 +249,7 @@ opening
 was
 initiated
 by
-GCLI
-command
-bar
-or
+a
 toolbox
 button
 check
@@ -299,7 +292,7 @@ user
 .
 if
 (
-command
+toolboxButton
 )
 {
 const
