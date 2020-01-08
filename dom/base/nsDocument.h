@@ -1205,10 +1205,7 @@ DOM
 is
 enabled
 for
-the
-global
-of
-aObject
+aGlobal
 .
 static
 bool
@@ -1219,7 +1216,7 @@ JSContext
 aCx
 JSObject
 *
-aObject
+aGlobal
 )
 ;
 /
