@@ -1164,6 +1164,10 @@ Build
 the
 result
 array
+eliminating
+any
+duplicate
+tables
 .
 for
 (
