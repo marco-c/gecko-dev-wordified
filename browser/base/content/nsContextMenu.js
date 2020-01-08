@@ -825,6 +825,11 @@ browser
 )
 :
 undefined
+timeStamp
+:
+this
+.
+timeStamp
 isContentSelected
 :
 this
@@ -1155,6 +1160,14 @@ shouldDisplay
 context
 .
 shouldDisplay
+;
+this
+.
+timeStamp
+=
+context
+.
+timeStamp
 ;
 /
 /
