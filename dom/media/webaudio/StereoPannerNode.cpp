@@ -873,15 +873,7 @@ ApplyStereoPanning
 aInput
 aOutput
 gainL
-*
-aInput
-.
-mVolume
 gainR
-*
-aInput
-.
-mVolume
 panning
 <
 =
@@ -985,10 +977,6 @@ counter
 ]
 =
 left
-*
-aInput
-.
-mVolume
 ;
 alignedComputedGain
 [
@@ -998,10 +986,6 @@ counter
 ]
 =
 right
-*
-aInput
-.
-mVolume
 ;
 onLeft
 [
