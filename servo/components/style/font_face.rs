@@ -2360,6 +2360,9 @@ mozilla
 :
 :
 StaticPrefs_sVarCache_layout_css_font_variations_enabled
+!
+=
+0
 }
 }
 ;
