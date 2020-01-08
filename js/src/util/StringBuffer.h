@@ -572,6 +572,7 @@ isLatin1
 (
 )
 )
+{
 latin1Chars
 (
 )
@@ -580,7 +581,9 @@ clear
 (
 )
 ;
+}
 else
+{
 twoByteChars
 (
 )
@@ -589,6 +592,7 @@ clear
 (
 )
 ;
+}
 }
 MOZ_MUST_USE
 bool
@@ -604,10 +608,12 @@ len
 >
 reserved_
 )
+{
 reserved_
 =
 len
 ;
+}
 return
 isLatin1
 (
@@ -766,9 +772,11 @@ inflateChars
 (
 )
 )
+{
 return
 false
 ;
+}
 #
 ifdef
 DEBUG
@@ -808,6 +816,7 @@ JSString
 :
 MAX_LATIN1_CHAR
 )
+{
 return
 latin1Chars
 (
@@ -821,6 +830,7 @@ c
 )
 )
 ;
+}
 if
 (
 !
@@ -828,9 +838,11 @@ inflateChars
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 twoByteChars
@@ -1221,6 +1233,7 @@ isLatin1
 (
 )
 )
+{
 latin1Chars
 (
 )
@@ -1230,7 +1243,9 @@ infallibleAppend
 c
 )
 ;
+}
 else
+{
 twoByteChars
 (
 )
@@ -1240,6 +1255,7 @@ infallibleAppend
 c
 )
 ;
+}
 }
 void
 infallibleAppend
@@ -1274,6 +1290,7 @@ isLatin1
 (
 )
 )
+{
 latin1Chars
 (
 )
@@ -1284,7 +1301,9 @@ chars
 len
 )
 ;
+}
 else
+{
 twoByteChars
 (
 )
@@ -1295,6 +1314,7 @@ chars
 len
 )
 ;
+}
 }
 void
 infallibleAppend
@@ -1713,9 +1733,11 @@ begin
 =
 end
 )
+{
 return
 true
 ;
+}
 if
 (
 *
@@ -1726,8 +1748,10 @@ JSString
 :
 MAX_LATIN1_CHAR
 )
+{
 break
 ;
+}
 if
 (
 !
@@ -1741,9 +1765,11 @@ append
 begin
 )
 )
+{
 return
 false
 ;
+}
 +
 +
 begin
@@ -1756,9 +1782,11 @@ inflateChars
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 twoByteChars
@@ -1806,6 +1834,7 @@ hasLatin1Chars
 (
 )
 )
+{
 return
 latin1Chars
 (
@@ -1828,6 +1857,7 @@ length
 )
 )
 ;
+}
 if
 (
 !
@@ -1835,9 +1865,11 @@ inflateChars
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 str
@@ -1949,6 +1981,7 @@ hasLatin1Chars
 (
 )
 )
+{
 infallibleAppend
 (
 base
@@ -1963,7 +1996,9 @@ off
 len
 )
 ;
+}
 else
+{
 infallibleAppend
 (
 base
@@ -1978,6 +2013,7 @@ off
 len
 )
 ;
+}
 }
 inline
 bool
@@ -2032,6 +2068,7 @@ hasLatin1Chars
 (
 )
 )
+{
 return
 latin1Chars
 (
@@ -2051,6 +2088,7 @@ off
 len
 )
 ;
+}
 if
 (
 !
@@ -2058,9 +2096,11 @@ inflateChars
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 base
@@ -2140,9 +2180,11 @@ if
 !
 linear
 )
+{
 return
 false
 ;
+}
 return
 appendSubstring
 (
@@ -2181,9 +2223,11 @@ if
 !
 linear
 )
+{
 return
 false
 ;
+}
 return
 append
 (
@@ -2248,6 +2292,7 @@ isString
 (
 )
 )
+{
 return
 sb
 .
@@ -2260,6 +2305,7 @@ toString
 )
 )
 ;
+}
 return
 ValueToStringBufferSlow
 (

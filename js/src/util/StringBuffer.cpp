@@ -214,9 +214,11 @@ if
 !
 buf
 )
+{
 return
 nullptr
 ;
+}
 /
 *
 For
@@ -328,9 +330,11 @@ inflateChars
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 ExtractWellSized
 <
@@ -437,9 +441,11 @@ reserve
 capacity
 )
 )
+{
 return
 false
 ;
+}
 twoByte
 .
 infallibleAppend
@@ -531,9 +537,11 @@ append
 '
 )
 )
+{
 return
 nullptr
 ;
+}
 UniquePtr
 <
 CharT
@@ -561,9 +569,11 @@ if
 !
 buf
 )
+{
 return
 nullptr
 ;
+}
 JSFlatString
 *
 str
@@ -589,9 +599,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 /
 *
 *
@@ -658,6 +670,7 @@ len
 =
 0
 )
+{
 return
 cx
 -
@@ -668,6 +681,7 @@ names
 .
 empty
 ;
+}
 if
 (
 !
@@ -680,9 +694,11 @@ cx
 len
 )
 )
+{
 return
 nullptr
 ;
+}
 JS_STATIC_ASSERT
 (
 JSFatInlineString
@@ -865,6 +881,7 @@ len
 =
 0
 )
+{
 return
 cx
 -
@@ -875,6 +892,7 @@ names
 .
 empty
 ;
+}
 if
 (
 isLatin1
@@ -976,9 +994,11 @@ JSTYPE_STRING
 v
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 v
@@ -987,6 +1007,7 @@ isString
 (
 )
 )
+{
 return
 sb
 .
@@ -999,6 +1020,7 @@ toString
 )
 )
 ;
+}
 if
 (
 v
@@ -1007,6 +1029,7 @@ isNumber
 (
 )
 )
+{
 return
 NumberValueToStringBuffer
 (
@@ -1015,6 +1038,7 @@ v
 sb
 )
 ;
+}
 if
 (
 v
@@ -1023,6 +1047,7 @@ isBoolean
 (
 )
 )
+{
 return
 BooleanToStringBuffer
 (
@@ -1034,6 +1059,7 @@ toBoolean
 sb
 )
 ;
+}
 if
 (
 v
@@ -1042,6 +1068,7 @@ isNull
 (
 )
 )
+{
 return
 sb
 .
@@ -1057,6 +1084,7 @@ names
 null
 )
 ;
+}
 if
 (
 v
@@ -1113,9 +1141,11 @@ if
 !
 str
 )
+{
 return
 false
 ;
+}
 return
 sb
 .
