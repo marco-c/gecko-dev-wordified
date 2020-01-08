@@ -252,7 +252,8 @@ aRect
 )
 override
 ;
-NS_IMETHOD
+MOZ_MUST_USE
+LayoutDeviceIntMargin
 GetWidgetBorder
 (
 nsDeviceContext
@@ -263,12 +264,6 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-mozilla
-:
-:
-LayoutDeviceIntMargin
-*
-aResult
 )
 override
 ;
@@ -283,9 +278,6 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-mozilla
-:
-:
 LayoutDeviceIntMargin
 *
 aResult
@@ -575,9 +567,6 @@ uint8_t
 aWidgetType
 GtkTextDirection
 aDirection
-mozilla
-:
-:
 LayoutDeviceIntMargin
 *
 aResult
@@ -595,9 +584,6 @@ MOZ_GTK_WIDGET_NODE_COUNT
 8
 ]
 ;
-mozilla
-:
-:
 LayoutDeviceIntMargin
 mBorderCache
 [

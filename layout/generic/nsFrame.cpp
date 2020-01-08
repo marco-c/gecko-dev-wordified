@@ -9088,9 +9088,6 @@ disp
 )
 )
 {
-LayoutDeviceIntMargin
-widgetBorder
-;
 nsPresContext
 *
 pc
@@ -9099,6 +9096,9 @@ PresContext
 (
 )
 ;
+LayoutDeviceIntMargin
+widgetBorder
+=
 pc
 -
 >
@@ -9120,8 +9120,6 @@ disp
 -
 >
 mAppearance
-&
-widgetBorder
 )
 ;
 border
@@ -36516,7 +36514,7 @@ PresContext
 ;
 LayoutDeviceIntMargin
 border
-;
+=
 presContext
 -
 >
@@ -36538,8 +36536,6 @@ disp
 -
 >
 mAppearance
-&
-border
 )
 ;
 result
