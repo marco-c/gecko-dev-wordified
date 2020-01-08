@@ -2876,6 +2876,16 @@ nsIdentifierMapEntry
 aOther
 )
 :
+PLDHashEntryHdr
+(
+std
+:
+:
+move
+(
+aOther
+)
+)
 mKey
 (
 std

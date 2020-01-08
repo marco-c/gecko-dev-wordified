@@ -791,6 +791,15 @@ aKey
 )
 {
 }
+NodeInfoInnerKey
+(
+NodeInfoInnerKey
+&
+&
+)
+=
+default
+;
 ~
 NodeInfoInnerKey
 (
