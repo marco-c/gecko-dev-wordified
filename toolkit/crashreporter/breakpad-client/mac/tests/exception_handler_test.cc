@@ -368,17 +368,6 @@ include
 "
 common
 /
-linux
-/
-ignore_ret
-.
-h
-"
-#
-include
-"
-common
-/
 mac
 /
 MachIPC
@@ -716,8 +705,9 @@ int
 context
 )
 ;
-IGNORE_RET
 (
+void
+)
 write
 (
 fd
@@ -733,7 +723,6 @@ length
 )
 +
 1
-)
 )
 ;
 close
@@ -1960,8 +1949,9 @@ data
 =
 1
 ;
-IGNORE_RET
 (
+void
+)
 write
 (
 fds
@@ -1971,7 +1961,6 @@ fds
 &
 data
 1
-)
 )
 ;
 /

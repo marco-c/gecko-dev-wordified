@@ -1655,15 +1655,6 @@ pr_info
 .
 si_signo
 ;
-crash_signal_code_
-=
-status
--
->
-pr_info
-.
-si_code
-;
 }
 first_thread
 =

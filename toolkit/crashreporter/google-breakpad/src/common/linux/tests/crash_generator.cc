@@ -1375,11 +1375,11 @@ https
 :
 /
 /
-bugs
+code
 .
-chromium
+google
 .
-org
+com
 /
 p
 /

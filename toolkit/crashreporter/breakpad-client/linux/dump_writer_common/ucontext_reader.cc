@@ -366,7 +366,7 @@ functions
 to
 juggle
 the
-ucontext_t
+ucontext
 and
 user
 structures

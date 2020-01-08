@@ -504,8 +504,6 @@ MemAddr
 code_size
 int
 set_parameter_size
-bool
-is_mutiple
 )
 :
 Base
@@ -514,7 +512,6 @@ function_name
 function_address
 code_size
 set_parameter_size
-is_mutiple
 )
 lines
 (

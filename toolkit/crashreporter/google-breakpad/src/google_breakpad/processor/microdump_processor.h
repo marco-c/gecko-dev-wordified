@@ -368,9 +368,6 @@ namespace
 google_breakpad
 {
 class
-Microdump
-;
-class
 ProcessState
 ;
 class
@@ -439,9 +436,10 @@ google_breakpad
 ProcessResult
 Process
 (
-Microdump
-*
-microdump
+const
+string
+&
+microdump_contents
 ProcessState
 *
 process_state

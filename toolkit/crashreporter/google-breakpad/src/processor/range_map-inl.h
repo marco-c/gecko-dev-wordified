@@ -2083,16 +2083,10 @@ GetCount
 const
 {
 return
-static_cast
-<
-int
->
-(
 map_
 .
 size
 (
-)
 )
 ;
 }
