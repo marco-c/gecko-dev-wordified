@@ -1048,6 +1048,10 @@ uint32_t
 aButton
 float
 aValue
+uint64_t
+aTouchMask
+uint64_t
+aButtonTouched
 )
 ;
 void
