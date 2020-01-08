@@ -3451,10 +3451,6 @@ gen
 cx
 script
 pc
-CacheKind
-:
-:
-HasOwn
 ic
 -
 >
@@ -3465,6 +3461,10 @@ state
 mode
 (
 )
+CacheKind
+:
+:
+HasOwn
 idVal
 val
 )
@@ -3674,10 +3674,6 @@ gen
 cx
 script
 pc
-CacheKind
-:
-:
-In
 ic
 -
 >
@@ -3688,6 +3684,10 @@ state
 mode
 (
 )
+CacheKind
+:
+:
+In
 key
 objV
 )
