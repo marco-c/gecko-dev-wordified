@@ -708,6 +708,7 @@ return
         
 except
 HandshakeException
+as
 e
 :
             
@@ -746,6 +747,7 @@ e
         
 except
 AbortedByUserException
+as
 e
 :
             
@@ -753,6 +755,7 @@ raise
         
 except
 VersionException
+as
 e
 :
             

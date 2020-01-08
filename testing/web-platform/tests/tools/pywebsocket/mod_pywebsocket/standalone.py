@@ -1076,7 +1076,7 @@ server
 is
 derived
 from
-SocketServer
+socketserver
 .
 ThreadingMixIn
 .
@@ -1138,20 +1138,44 @@ firewall
 "
 "
 "
+from
+six
+.
+moves
 import
 BaseHTTPServer
+from
+six
+.
+moves
 import
 CGIHTTPServer
+from
+six
+.
+moves
 import
 SimpleHTTPServer
+from
+six
+.
+moves
 import
-SocketServer
+socketserver
+from
+six
+.
+moves
 import
-ConfigParser
+configparser
 import
 base64
+from
+six
+.
+moves
 import
-httplib
+http_client
 import
 logging
 import
@@ -1174,8 +1198,12 @@ import
 threading
 import
 time
+from
+six
+.
+moves
 import
-urlparse
+urllib
 from
 mod_pywebsocket
 import
@@ -2153,14 +2181,17 @@ OpenSSL
 SSL
 .
 SysCallError
-(
-err
-message
-)
+as
+e
 :
             
 if
-err
+e
+.
+args
+[
+0
+]
 =
 =
 -
@@ -2339,6 +2370,7 @@ except
 dispatch
 .
 DispatchException
+as
 e
 :
                 
@@ -2363,7 +2395,7 @@ close
 class
 WebSocketServer
 (
-SocketServer
+socketserver
 .
 ThreadingMixIn
 BaseHTTPServer
@@ -2386,7 +2418,7 @@ WebSocket
     
 #
 Overrides
-SocketServer
+socketserver
 .
 ThreadingMixIn
 .
@@ -2420,7 +2452,7 @@ options
 "
 "
 Override
-SocketServer
+socketserver
 .
 TCPServer
 .
@@ -2587,7 +2619,7 @@ __ws_serving
 =
 False
         
-SocketServer
+socketserver
 .
 BaseServer
 .
@@ -2885,6 +2917,7 @@ socktype
             
 except
 Exception
+as
 e
 :
                 
@@ -3044,7 +3077,7 @@ self
 "
 "
 Override
-SocketServer
+socketserver
 .
 TCPServer
 .
@@ -3128,6 +3161,7 @@ server_address
             
 except
 Exception
+as
 e
 :
                 
@@ -3300,7 +3334,7 @@ self
 "
 "
 Override
-SocketServer
+socketserver
 .
 TCPServer
 .
@@ -3365,6 +3399,7 @@ request_queue_size
             
 except
 Exception
+as
 e
 :
                 
@@ -3460,7 +3495,7 @@ self
 "
 "
 Override
-SocketServer
+socketserver
 .
 TCPServer
 .
@@ -3523,7 +3558,7 @@ self
 "
 "
 Override
-SocketServer
+socketserver
 .
 TCPServer
 .
@@ -3575,7 +3610,7 @@ client_address
 "
 "
 Override
-SocketServer
+socketserver
 .
 handle_error
 .
@@ -3722,6 +3757,7 @@ except
 ssl
 .
 SSLError
+as
 e
 :
                     
@@ -4017,6 +4053,7 @@ OpenSSL
 SSL
 .
 Error
+as
 e
 :
                     
@@ -4149,7 +4186,7 @@ poll_interval
 "
 "
 Override
-SocketServer
+socketserver
 .
 BaseServer
 .
@@ -4295,7 +4332,7 @@ self
 "
 "
 Override
-SocketServer
+socketserver
 .
 BaseServer
 .
@@ -4341,7 +4378,7 @@ WebSocket
     
 #
 Use
-httplib
+http_client
 .
 HTTPMessage
 instead
@@ -4353,7 +4390,7 @@ Message
     
 MessageClass
 =
-httplib
+http_client
 .
 HTTPMessage
     
@@ -4378,7 +4415,7 @@ self
 "
 "
 Override
-SocketServer
+socketserver
 .
 StreamRequestHandler
 .
@@ -4453,7 +4490,7 @@ on
 the
 root
 class
-SocketServer
+socketserver
 .
 StreamRequestHandler
 to
@@ -4891,7 +4928,9 @@ xhr_benchmark_helper_prefix
         
 parsed_path
 =
-urlparse
+urllib
+.
+parse
 .
 urlsplit
 (
@@ -5373,6 +5412,7 @@ except
 dispatch
 .
 DispatchException
+as
 e
 :
             
@@ -5477,6 +5517,7 @@ except
 handshake
 .
 VersionException
+as
 e
 :
                 
@@ -5534,6 +5575,7 @@ except
 handshake
 .
 HandshakeException
+as
 e
 :
                 
@@ -5602,6 +5644,7 @@ except
 handshake
 .
 AbortedByUserException
+as
 e
 :
             
@@ -7971,6 +8014,7 @@ r
         
 except
 IOError
+as
 e
 :
             
@@ -8008,7 +8052,7 @@ exit
         
 config_parser
 =
-ConfigParser
+configparser
 .
 SafeConfigParser
 (
@@ -8871,6 +8915,7 @@ serve_forever
     
 except
 Exception
+as
 e
 :
         

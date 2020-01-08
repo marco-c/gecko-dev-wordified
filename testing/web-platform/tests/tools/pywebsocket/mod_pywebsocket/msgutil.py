@@ -336,8 +336,12 @@ reading
 "
 "
 "
+from
+six
+.
+moves
 import
-Queue
+queue
 import
 threading
 #
@@ -878,7 +882,7 @@ self
 .
 _queue
 =
-Queue
+queue
 .
 Queue
 (
@@ -1066,7 +1070,7 @@ get_nowait
 )
         
 except
-Queue
+queue
 .
 Empty
 :
@@ -1263,7 +1267,7 @@ self
 .
 _queue
 =
-Queue
+queue
 .
 Queue
 (

@@ -465,6 +465,7 @@ bytes_to_send
         
 except
 ValueError
+as
 e
 :
             

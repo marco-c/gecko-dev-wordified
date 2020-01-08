@@ -2392,6 +2392,7 @@ _read_number
         
 except
 ValueError
+as
 e
 :
             
@@ -2535,6 +2536,7 @@ read_channel_id
         
 except
 ValueError
+as
 e
 :
             
@@ -2645,6 +2647,7 @@ read_channel_id
         
 except
 ValueError
+as
 e
 :
             
@@ -2729,6 +2732,7 @@ _read_number
         
 except
 ValueError
+as
 e
 :
             
@@ -2798,6 +2802,7 @@ read_channel_id
         
 except
 ValueError
+as
 e
 :
             
@@ -2975,6 +2980,7 @@ _read_number
         
 except
 ValueError
+as
 e
 :
             
@@ -5983,6 +5989,7 @@ OPCODE_CONTINUATION
         
 except
 ValueError
+as
 e
 :
             
@@ -6711,6 +6718,7 @@ self
         
 except
 LogicalConnectionClosedException
+as
 e
 :
             
@@ -7504,6 +7512,7 @@ True
         
 except
 Exception
+as
 e
 :
             
@@ -7773,6 +7782,7 @@ False
             
 except
 Exception
+as
 e
 :
                 
@@ -8050,6 +8060,7 @@ break
             
 except
 ConnectionTerminatedException
+as
 e
 :
                 
@@ -8082,6 +8093,7 @@ message
             
 except
 PhysicalConnectionError
+as
 e
 :
                 
@@ -8104,6 +8116,7 @@ break
             
 except
 LogicalChannelError
+as
 e
 :
                 
@@ -8127,6 +8140,7 @@ message
             
 except
 Exception
+as
 e
 :
                 
@@ -8322,6 +8336,7 @@ _request
         
 except
 LogicalChannelError
+as
 e
 :
             
@@ -10632,6 +10647,7 @@ except
 handshake
 .
 VersionException
+as
 e
 :
             
@@ -10670,6 +10686,7 @@ except
 handshake
 .
 HandshakeException
+as
 e
 :
             
@@ -10727,6 +10744,7 @@ except
 handshake
 .
 AbortedByUserException
+as
 e
 :
             
@@ -10895,6 +10913,7 @@ block
         
 except
 ValueError
+as
 e
 :
             
@@ -11629,6 +11648,7 @@ read_channel_id
         
 except
 ValueError
+as
 e
 :
             

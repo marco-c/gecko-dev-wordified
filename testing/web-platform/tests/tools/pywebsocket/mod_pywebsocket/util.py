@@ -360,6 +360,10 @@ sha1_hash
 sha
 .
 sha
+from
+six
+.
+moves
 import
 StringIO
 import
@@ -444,8 +448,6 @@ instead
     
 out
 =
-StringIO
-.
 StringIO
 (
 )

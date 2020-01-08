@@ -299,8 +299,6 @@ readline
 "
 "
 "
-import
-sys
 class
 MemorizingFile
 (
@@ -364,9 +362,7 @@ self
 file_
 max_memorized_lines
 =
-sys
-.
-maxint
+0x7FFFFFFF
 )
 :
         

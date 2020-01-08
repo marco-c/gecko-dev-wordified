@@ -1136,6 +1136,7 @@ window_bits
             
 except
 ValueError
+as
 e
 :
                 
@@ -2096,6 +2097,7 @@ server_max_window_bits
             
 except
 ValueError
+as
 e
 :
                 
@@ -4001,6 +4003,7 @@ quota
             
 except
 ValueError
+as
 e
 :
                 
