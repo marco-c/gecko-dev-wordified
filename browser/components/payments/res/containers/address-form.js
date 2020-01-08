@@ -1983,7 +1983,10 @@ container
 querySelector
 (
 "
-span
+.
+label
+-
+text
 "
 )
 ;
