@@ -7634,12 +7634,6 @@ on
 wasm
 memory
 accesses
-and
-asm
-.
-js
-atomic
-accesses
 .
 OutOfBounds
 /
