@@ -2391,6 +2391,8 @@ number
 enum
 class
 MIRType
+:
+uint8_t
 {
 Undefined
 Null
@@ -2636,7 +2638,7 @@ type
 return
 (
 (
-unsigned
+uint8_t
 (
 type
 )
