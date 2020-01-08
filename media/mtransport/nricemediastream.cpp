@@ -1324,6 +1324,17 @@ char
 >
 attributes_in
 ;
+attributes_in
+.
+reserve
+(
+attributes
+.
+size
+(
+)
+)
+;
 for
 (
 auto

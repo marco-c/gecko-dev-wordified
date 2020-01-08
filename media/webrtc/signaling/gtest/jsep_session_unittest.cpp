@@ -1156,6 +1156,17 @@ JsepTransceiver
 >
 copy
 ;
+copy
+.
+reserve
+(
+transceivers
+.
+size
+(
+)
+)
+;
 for
 (
 const
