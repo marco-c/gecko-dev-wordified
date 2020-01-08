@@ -2213,7 +2213,7 @@ principal
 }
 }
 }
-onPermissionSelected
+onPermissionSelect
 (
 )
 {
@@ -2278,7 +2278,7 @@ disabled
 hasRows
 ;
 }
-onPermissionDeleted
+onPermissionDelete
 (
 )
 {
@@ -2386,7 +2386,7 @@ _permissions
 length
 ;
 }
-onAllPermissionsDeleted
+onAllPermissionsDelete
 (
 )
 {
@@ -2503,7 +2503,7 @@ DOM_VK_DELETE
 {
 this
 .
-onPermissionDeleted
+onPermissionDelete
 (
 )
 ;
@@ -2533,7 +2533,7 @@ DOM_VK_BACK_SPACE
 {
 this
 .
-onPermissionDeleted
+onPermissionDelete
 (
 )
 ;
