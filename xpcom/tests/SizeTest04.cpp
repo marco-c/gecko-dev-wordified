@@ -6,7 +6,7 @@ cpp
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -19,7 +19,7 @@ h
 "
 NS_DEF_PTR
 (
-nsIDOMNode
+nsINode
 )
 ;
 /
@@ -82,14 +82,14 @@ nsresult
 /
 SetNode
 (
-nsIDOMNode
+nsINode
 *
 newNode
 )
 ;
 private
 :
-nsIDOMNode
+nsINode
 *
 mNode
 ;
@@ -138,7 +138,7 @@ Test04_Raw
 :
 SetNode
 (
-nsIDOMNode
+nsINode
 *
 newNode
 )
@@ -180,7 +180,7 @@ nsresult
 /
 SetNode
 (
-nsIDOMNode
+nsINode
 *
 newNode
 )
@@ -189,7 +189,7 @@ private
 :
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mNode
 ;
@@ -204,7 +204,7 @@ Test04_nsCOMPtr
 :
 SetNode
 (
-nsIDOMNode
+nsINode
 *
 newNode
 )

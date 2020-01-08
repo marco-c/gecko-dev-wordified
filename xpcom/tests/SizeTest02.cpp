@@ -6,7 +6,7 @@ cpp
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -26,7 +26,7 @@ h
 "
 NS_DEF_PTR
 (
-nsIDOMNode
+nsINode
 )
 ;
 /
@@ -298,7 +298,7 @@ aDOMNode
 return
 NS_ERROR_NULL_POINTER
 ;
-nsIDOMNode
+nsINode
 *
 node
 =
@@ -314,7 +314,7 @@ QueryInterface
 (
 NS_GET_IID
 (
-nsIDOMNode
+nsINode
 )
 (
 void
@@ -384,7 +384,7 @@ aDOMNode
 return
 NS_ERROR_NULL_POINTER
 ;
-nsIDOMNode
+nsINode
 *
 node
 ;
@@ -398,7 +398,7 @@ QueryInterface
 (
 NS_GET_IID
 (
-nsIDOMNode
+nsINode
 )
 (
 void
@@ -463,7 +463,7 @@ status
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 node
 =

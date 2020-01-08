@@ -6,7 +6,7 @@ cpp
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -26,7 +26,7 @@ h
 "
 NS_DEF_PTR
 (
-nsIDOMNode
+nsINode
 )
 ;
 /
@@ -90,7 +90,7 @@ void
 nsresult
 Test03_raw
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsString
@@ -141,7 +141,7 @@ aResult
 return
 NS_ERROR_NULL_POINTER
 ;
-nsIDOMNode
+nsINode
 *
 parent
 =
@@ -194,7 +194,7 @@ void
 nsresult
 Test03_raw_optimized
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsString
@@ -222,7 +222,7 @@ aResult
 return
 NS_ERROR_NULL_POINTER
 ;
-nsIDOMNode
+nsINode
 *
 parent
 ;
@@ -273,7 +273,7 @@ void
 nsresult
 Test03_nsCOMPtr
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsString
@@ -305,7 +305,7 @@ NS_ERROR_NULL_POINTER
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 parent
 ;
@@ -348,7 +348,7 @@ void
 nsresult
 Test03_nsCOMPtr_optimized
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsString
@@ -378,7 +378,7 @@ aResult
 return
 NS_ERROR_NULL_POINTER
 ;
-nsIDOMNode
+nsINode
 *
 temp
 ;
@@ -396,7 +396,7 @@ temp
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 parent
 (
