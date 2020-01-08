@@ -140,11 +140,11 @@ block
 ;
 /
 *
-nsRuleNode
+StyleAdjuster
 :
 :
-ComputeDisplayData
-overrules
+adjust_for_fieldset_content
+overrides
 this
 in
 some

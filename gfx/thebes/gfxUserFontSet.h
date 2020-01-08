@@ -1448,7 +1448,7 @@ override
 result
 of
 calling
-nsRuleNode
+nsLayoutUtils
 :
 :
 ParseFontLanguageOverride
