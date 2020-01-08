@@ -1119,7 +1119,7 @@ nsIPercentBSizeObserver
 )
 ABSTRACT_FRAME_ID
 (
-nsIRootBox
+nsIPopupContainer
 )
 ABSTRACT_FRAME_ID
 (

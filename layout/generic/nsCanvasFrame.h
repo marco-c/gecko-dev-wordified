@@ -170,7 +170,7 @@ h
 #
 include
 "
-nsIRootBox
+nsIPopupContainer
 .
 h
 "
@@ -277,7 +277,7 @@ nsIScrollPositionListener
 public
 nsIAnonymousContentCreator
 public
-nsIRootBox
+nsIPopupContainer
 {
 public
 :
