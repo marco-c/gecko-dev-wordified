@@ -142,11 +142,6 @@ US
 firefox
 /
 "
-title
-:
-"
-Firefox
-"
 profile
 :
 "
@@ -230,12 +225,6 @@ US
 /
 contribute
 /
-"
-title
-:
-"
-Get
-Involved
 "
 profile
 :
