@@ -3346,10 +3346,10 @@ JSObject
 *
 glob
 =
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 aObj
 )
