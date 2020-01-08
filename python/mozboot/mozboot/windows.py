@@ -387,6 +387,8 @@ which
 (
 self
 name
+*
+extra_search_dirs
 )
 :
         
@@ -402,6 +404,8 @@ name
 .
 exe
 '
+*
+extra_search_dirs
 )
     
 def
