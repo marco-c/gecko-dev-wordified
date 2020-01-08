@@ -66,8 +66,7 @@ Firefox
 and
 a
 tests
-.
-zip
+archive
 in
 test
 harness
