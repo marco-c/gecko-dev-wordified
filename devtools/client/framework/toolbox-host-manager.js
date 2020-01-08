@@ -848,6 +848,13 @@ data
 return
 ;
 }
+const
+msg
+=
+event
+.
+data
+;
 /
 /
 Toolbox
@@ -879,9 +886,7 @@ id
 .
 if
 (
-event
-.
-data
+msg
 .
 frameId
 !
@@ -896,9 +901,7 @@ return
 }
 switch
 (
-event
-.
-data
+msg
 .
 name
 )
@@ -914,9 +917,7 @@ this
 .
 switchHost
 (
-event
-.
-data
+msg
 .
 hostType
 )
@@ -955,9 +956,7 @@ host
 .
 setTitle
 (
-event
-.
-data
+msg
 .
 title
 )
