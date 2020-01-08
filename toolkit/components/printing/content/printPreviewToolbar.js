@@ -1492,8 +1492,6 @@ print
 preview
 -
 scale
--
-label
 "
 )
 ;
