@@ -1169,6 +1169,10 @@ GetCairoScaledFont
 )
 )
 ;
+InitializeScaledFont
+(
+)
+;
 }
 RefPtr
 <
