@@ -349,7 +349,7 @@ return
 mPath
 ;
 }
-nsAtom
+nsStaticAtom
 *
 GetPathDataAttrName
 (

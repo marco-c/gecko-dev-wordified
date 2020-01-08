@@ -496,7 +496,6 @@ sLengthInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -512,7 +511,6 @@ SVGContentUtils
 X
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -528,7 +526,6 @@ SVGContentUtils
 Y
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -544,7 +541,6 @@ SVGContentUtils
 X
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -1446,7 +1442,6 @@ sNumberListInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -1468,7 +1463,6 @@ sNumberInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -1477,7 +1471,6 @@ slope
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -1486,7 +1479,6 @@ intercept
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -1495,7 +1487,6 @@ amplitude
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -1504,7 +1495,6 @@ exponent
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -1583,7 +1573,6 @@ sEnumInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -2799,7 +2788,6 @@ sNumberInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -2808,7 +2796,6 @@ surfaceScale
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -2817,7 +2804,6 @@ diffuseConstant
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -2826,7 +2812,6 @@ specularConstant
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -2850,7 +2835,6 @@ sNumberPairInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -2874,7 +2858,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -2883,7 +2866,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :

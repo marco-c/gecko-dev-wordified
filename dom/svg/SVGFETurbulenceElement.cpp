@@ -241,7 +241,6 @@ sNumberInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -265,7 +264,6 @@ sNumberPairInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -289,7 +287,6 @@ sIntegerInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -374,7 +371,6 @@ sEnumInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -383,7 +379,6 @@ sTypeMap
 SVG_TURBULENCE_TYPE_TURBULENCE
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -407,7 +402,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :

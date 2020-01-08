@@ -2232,7 +2232,6 @@ if
 aAttribute
 =
 =
-*
 lengthInfo
 .
 mLengthInfo
@@ -2345,7 +2344,6 @@ if
 aAttribute
 =
 =
-*
 lengthListInfo
 .
 mLengthListInfo
@@ -2461,7 +2459,6 @@ if
 aAttribute
 =
 =
-*
 numberListInfo
 .
 mNumberListInfo
@@ -2791,7 +2788,6 @@ if
 aAttribute
 =
 =
-*
 numberInfo
 .
 mNumberInfo
@@ -2908,7 +2904,6 @@ if
 aAttribute
 =
 =
-*
 numberPairInfo
 .
 mNumberPairInfo
@@ -3021,7 +3016,6 @@ if
 aAttribute
 =
 =
-*
 integerInfo
 .
 mIntegerInfo
@@ -3138,7 +3132,6 @@ if
 aAttribute
 =
 =
-*
 integerPairInfo
 .
 mIntegerPairInfo
@@ -3251,7 +3244,6 @@ if
 aAttribute
 =
 =
-*
 angleInfo
 .
 mAngleInfo
@@ -3365,7 +3357,6 @@ if
 aAttribute
 =
 =
-*
 booleanInfo
 .
 mBooleanInfo
@@ -3484,7 +3475,6 @@ if
 aAttribute
 =
 =
-*
 enumInfo
 .
 mEnumInfo
@@ -3647,7 +3637,6 @@ if
 aAttribute
 =
 =
-*
 stringListInfo
 .
 mStringListInfo
@@ -4125,7 +4114,6 @@ mNamespaceID
 aAttribute
 =
 =
-*
 stringInfo
 .
 mStringInfo
@@ -4373,7 +4361,6 @@ if
 aName
 =
 =
-*
 lenInfo
 .
 mLengthInfo
@@ -4443,7 +4430,6 @@ if
 aName
 =
 =
-*
 lengthListInfo
 .
 mLengthListInfo
@@ -4513,7 +4499,6 @@ if
 aName
 =
 =
-*
 numberListInfo
 .
 mNumberListInfo
@@ -4687,7 +4672,6 @@ if
 aName
 =
 =
-*
 numInfo
 .
 mNumberInfo
@@ -4751,7 +4735,6 @@ if
 aName
 =
 =
-*
 numPairInfo
 .
 mNumberPairInfo
@@ -4820,7 +4803,6 @@ if
 aName
 =
 =
-*
 intInfo
 .
 mIntegerInfo
@@ -4884,7 +4866,6 @@ if
 aName
 =
 =
-*
 intPairInfo
 .
 mIntegerPairInfo
@@ -4953,7 +4934,6 @@ if
 aName
 =
 =
-*
 angleInfo
 .
 mAngleInfo
@@ -5022,7 +5002,6 @@ if
 aName
 =
 =
-*
 boolInfo
 .
 mBooleanInfo
@@ -5085,7 +5064,6 @@ if
 aName
 =
 =
-*
 enumInfo
 .
 mEnumInfo
@@ -5354,7 +5332,6 @@ if
 aName
 =
 =
-*
 stringListInfo
 .
 mStringListInfo
@@ -5457,7 +5434,6 @@ mNamespaceID
 aName
 =
 =
-*
 stringInfo
 .
 mStringInfo
@@ -9610,7 +9586,6 @@ if
 aName
 =
 =
-*
 lengthInfo
 .
 mLengthInfo
@@ -9665,7 +9640,6 @@ aAttrEnum
 return
 WillChangeValue
 (
-*
 GetLengthInfo
 (
 )
@@ -9751,7 +9725,6 @@ nullptr
 ;
 DidChangeValue
 (
-*
 info
 .
 mLengthInfo
@@ -9805,7 +9778,6 @@ frame
 AttributeChanged
 (
 kNameSpaceID_None
-*
 info
 .
 mLengthInfo
@@ -9865,7 +9837,6 @@ if
 aAttrName
 =
 =
-*
 lengthInfo
 .
 mLengthInfo
@@ -10156,7 +10127,6 @@ aAttrEnum
 return
 WillChangeValue
 (
-*
 GetLengthListInfo
 (
 )
@@ -10247,7 +10217,6 @@ nullptr
 ;
 DidChangeValue
 (
-*
 info
 .
 mLengthListInfo
@@ -10297,7 +10266,6 @@ frame
 AttributeChanged
 (
 kNameSpaceID_None
-*
 info
 .
 mLengthListInfo
@@ -10559,7 +10527,6 @@ aAttrEnum
 return
 WillChangeValue
 (
-*
 GetNumberListInfo
 (
 )
@@ -10650,7 +10617,6 @@ nullptr
 ;
 DidChangeValue
 (
-*
 info
 .
 mNumberListInfo
@@ -10715,7 +10681,6 @@ frame
 AttributeChanged
 (
 kNameSpaceID_None
-*
 info
 .
 mNumberListInfo
@@ -10826,7 +10791,6 @@ if
 aAttrName
 =
 =
-*
 info
 .
 mNumberListInfo
@@ -11280,7 +11244,6 @@ nullptr
 SetParsedAttr
 (
 kNameSpaceID_None
-*
 info
 .
 mNumberInfo
@@ -11331,7 +11294,6 @@ frame
 AttributeChanged
 (
 kNameSpaceID_None
-*
 info
 .
 mNumberInfo
@@ -11520,7 +11482,6 @@ aAttrEnum
 return
 WillChangeValue
 (
-*
 GetNumberPairInfo
 (
 )
@@ -11607,7 +11568,6 @@ nullptr
 ;
 DidChangeValue
 (
-*
 info
 .
 mNumberPairInfo
@@ -11657,7 +11617,6 @@ frame
 AttributeChanged
 (
 kNameSpaceID_None
-*
 info
 .
 mNumberPairInfo
@@ -11797,7 +11756,6 @@ nullptr
 SetParsedAttr
 (
 kNameSpaceID_None
-*
 info
 .
 mIntegerInfo
@@ -11848,7 +11806,6 @@ frame
 AttributeChanged
 (
 kNameSpaceID_None
-*
 info
 .
 mIntegerInfo
@@ -12037,7 +11994,6 @@ aAttrEnum
 return
 WillChangeValue
 (
-*
 GetIntegerPairInfo
 (
 )
@@ -12124,7 +12080,6 @@ nullptr
 ;
 DidChangeValue
 (
-*
 info
 .
 mIntegerPairInfo
@@ -12174,7 +12129,6 @@ frame
 AttributeChanged
 (
 kNameSpaceID_None
-*
 info
 .
 mIntegerPairInfo
@@ -12260,7 +12214,6 @@ aAttrEnum
 return
 WillChangeValue
 (
-*
 GetAngleInfo
 (
 )
@@ -12346,7 +12299,6 @@ nullptr
 ;
 DidChangeValue
 (
-*
 info
 .
 mAngleInfo
@@ -12396,7 +12348,6 @@ frame
 AttributeChanged
 (
 kNameSpaceID_None
-*
 info
 .
 mAngleInfo
@@ -12531,7 +12482,6 @@ GetBaseValueAtom
 SetParsedAttr
 (
 kNameSpaceID_None
-*
 info
 .
 mBooleanInfo
@@ -12582,7 +12532,6 @@ frame
 AttributeChanged
 (
 kNameSpaceID_None
-*
 info
 .
 mBooleanInfo
@@ -12756,7 +12705,6 @@ this
 SetParsedAttr
 (
 kNameSpaceID_None
-*
 info
 .
 mEnumInfo
@@ -12807,7 +12755,6 @@ frame
 AttributeChanged
 (
 kNameSpaceID_None
-*
 info
 .
 mEnumInfo
@@ -13486,7 +13433,6 @@ aAttrEnum
 ]
 .
 mNamespaceID
-*
 info
 .
 mStringInfo
@@ -13566,7 +13512,6 @@ aAttrEnum
 ]
 .
 mNamespaceID
-*
 info
 .
 mStringInfo
@@ -13623,7 +13568,6 @@ aAttrEnum
 ]
 .
 mNamespaceID
-*
 info
 .
 mStringInfo
@@ -13708,7 +13652,6 @@ else
 {
 name
 =
-*
 GetStringListInfo
 (
 )
@@ -13834,7 +13777,6 @@ range
 ;
 name
 =
-*
 info
 .
 mStringListInfo
@@ -14227,7 +14169,6 @@ if
 aName
 =
 =
-*
 info
 .
 mLengthInfo
@@ -14288,7 +14229,6 @@ if
 aName
 =
 =
-*
 info
 .
 mNumberInfo
@@ -14351,7 +14291,6 @@ if
 aName
 =
 =
-*
 info
 .
 mNumberPairInfo
@@ -14413,7 +14352,6 @@ if
 aName
 =
 =
-*
 info
 .
 mIntegerInfo
@@ -14476,7 +14414,6 @@ if
 aName
 =
 =
-*
 info
 .
 mIntegerPairInfo
@@ -14538,7 +14475,6 @@ if
 aName
 =
 =
-*
 info
 .
 mEnumInfo
@@ -14600,7 +14536,6 @@ if
 aName
 =
 =
-*
 info
 .
 mBooleanInfo
@@ -14662,7 +14597,6 @@ if
 aName
 =
 =
-*
 info
 .
 mAngleInfo
@@ -14798,7 +14732,6 @@ if
 aName
 =
 =
-*
 info
 .
 mNumberListInfo
@@ -14877,7 +14810,6 @@ if
 aName
 =
 =
-*
 info
 .
 mLengthListInfo
@@ -15085,7 +15017,6 @@ mNamespaceID
 aName
 =
 =
-*
 info
 .
 mStringInfo

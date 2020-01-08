@@ -230,7 +230,7 @@ mPoints
 ;
 }
 virtual
-nsAtom
+nsStaticAtom
 *
 GetPointListAttrName
 (

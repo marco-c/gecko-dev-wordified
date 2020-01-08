@@ -214,7 +214,6 @@ sNumberInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -223,7 +222,6 @@ dx
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -247,7 +245,6 @@ sNumberPairInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -271,7 +268,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -280,7 +276,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :

@@ -262,7 +262,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -271,7 +270,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -280,7 +278,6 @@ kNameSpaceID_XLink
 true
 }
 {
-&
 nsGkAtoms
 :
 :

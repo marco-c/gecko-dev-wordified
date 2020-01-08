@@ -239,7 +239,6 @@ sNumberInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -248,7 +247,6 @@ divisor
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -272,7 +270,6 @@ sNumberPairInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -296,7 +293,6 @@ sIntegerInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -304,7 +300,6 @@ targetX
 0
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -327,7 +322,6 @@ sIntegerPairInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -351,7 +345,6 @@ sBooleanInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -413,7 +406,6 @@ sEnumInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -437,7 +429,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -446,7 +437,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -470,7 +460,6 @@ sNumberListInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :

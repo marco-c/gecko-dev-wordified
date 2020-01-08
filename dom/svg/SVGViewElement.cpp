@@ -228,7 +228,6 @@ sEnumInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :

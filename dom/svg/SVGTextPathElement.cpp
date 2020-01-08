@@ -252,7 +252,6 @@ from
 SVGTextContentElement
 :
 {
-&
 nsGkAtoms
 :
 :
@@ -273,7 +272,6 @@ from
 SVGTextPathElement
 :
 {
-&
 nsGkAtoms
 :
 :
@@ -402,7 +400,6 @@ from
 SVGTextContentElement
 :
 {
-&
 nsGkAtoms
 :
 :
@@ -416,7 +413,6 @@ from
 SVGTextPathElement
 :
 {
-&
 nsGkAtoms
 :
 :
@@ -425,7 +421,6 @@ sMethodMap
 TEXTPATH_METHODTYPE_ALIGN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -434,7 +429,6 @@ sSpacingMap
 TEXTPATH_SPACINGTYPE_EXACT
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -458,7 +452,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -467,7 +460,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :

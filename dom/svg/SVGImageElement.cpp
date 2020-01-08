@@ -284,7 +284,6 @@ sLengthInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -300,7 +299,6 @@ SVGContentUtils
 X
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -316,7 +314,6 @@ SVGContentUtils
 Y
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -332,7 +329,6 @@ SVGContentUtils
 X
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -363,7 +359,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -372,7 +367,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :

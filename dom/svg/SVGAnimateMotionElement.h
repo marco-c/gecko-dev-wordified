@@ -305,7 +305,7 @@ override
 /
 nsSVGElement
 virtual
-nsAtom
+nsStaticAtom
 *
 GetPathDataAttrName
 (

@@ -200,7 +200,6 @@ sNumberInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -209,7 +208,6 @@ k1
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -218,7 +216,6 @@ k2
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -227,7 +224,6 @@ k3
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -314,7 +310,6 @@ sEnumInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -338,7 +333,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -347,7 +341,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -356,7 +349,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :
