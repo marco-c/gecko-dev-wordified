@@ -494,6 +494,7 @@ release_type
 '
 :
 '
+nightly
 '
     
 '

@@ -471,13 +471,13 @@ basestring
 Optional
 (
 '
-release
+is
 -
-type
+rc
 '
 )
 :
-basestring
+bool
             
 Optional
 (
