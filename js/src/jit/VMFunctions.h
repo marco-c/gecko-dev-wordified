@@ -7010,11 +7010,6 @@ const
 VMFunction
 NativeGetElementInfo
 ;
-extern
-const
-VMFunction
-AddOrUpdateSparseElementHelperInfo
-;
 /
 /
 TailCall
