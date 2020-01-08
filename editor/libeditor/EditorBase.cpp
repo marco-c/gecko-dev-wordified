@@ -6044,9 +6044,10 @@ bool
 aShould
 )
 {
-mAllowsTransactionsToChangeSelection
-=
+MakeThisAllowTransactionsToChangeSelection
+(
 aShould
+)
 ;
 return
 NS_OK
