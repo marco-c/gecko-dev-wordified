@@ -1171,9 +1171,7 @@ resolve
 const
 isSizeMatching
 =
-(
 data
-)
 =
 >
 data
@@ -1401,7 +1399,6 @@ ui
 ;
 onResize
 (
-undefined
 data
 )
 ;

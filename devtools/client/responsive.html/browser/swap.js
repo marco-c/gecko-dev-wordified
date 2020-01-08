@@ -2128,6 +2128,15 @@ visibility
 "
 "
 ;
+debug
+(
+"
+Exit
+swap
+start
+"
+)
+;
 }
 stop
 (
