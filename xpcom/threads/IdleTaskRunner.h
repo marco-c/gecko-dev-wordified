@@ -454,6 +454,11 @@ mMayStopProcessing
 TaskCategory
 mTaskCategory
 ;
+const
+char
+*
+mName
+;
 }
 ;
 }

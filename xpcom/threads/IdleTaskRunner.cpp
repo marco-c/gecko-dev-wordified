@@ -302,6 +302,10 @@ mTaskCategory
 (
 aTaskCategory
 )
+mName
+(
+aRunnableName
+)
 {
 }
 NS_IMETHODIMP
@@ -913,9 +917,7 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT_LOW_PRIORITY
-"
-IdleTaskRunner
-"
+mName
 )
 ;
 }
@@ -1065,9 +1067,7 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-"
-IdleTaskRunner
-"
+mName
 )
 ;
 mTimerActive
