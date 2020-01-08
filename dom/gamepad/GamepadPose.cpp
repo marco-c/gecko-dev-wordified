@@ -294,7 +294,7 @@ flags
 GamepadCapabilityFlags
 :
 :
-Cap_Position
+Cap_Orientation
 )
 ;
 }
@@ -317,7 +317,7 @@ flags
 GamepadCapabilityFlags
 :
 :
-Cap_Orientation
+Cap_Position
 )
 ;
 }
