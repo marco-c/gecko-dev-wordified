@@ -341,17 +341,6 @@ type
 menubar
 "
 ]
-:
-not
-(
-[
-autohide
-=
-"
-true
-"
-]
-)
 {
 -
 moz
