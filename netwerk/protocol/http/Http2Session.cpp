@@ -2560,7 +2560,12 @@ PR_IntervalNow
 }
 if
 (
-aNewID
+stream
+-
+>
+StreamID
+(
+)
 &
 1
 )
