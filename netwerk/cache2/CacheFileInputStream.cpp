@@ -917,17 +917,6 @@ return
 NS_BASE_STREAM_WOULD_BLOCK
 ;
 }
-if
-(
-aCount
-=
-=
-0
-)
-{
-break
-;
-}
 CacheFileChunkReadHandle
 hnd
 =
