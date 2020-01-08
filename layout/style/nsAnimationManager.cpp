@@ -3251,7 +3251,10 @@ animIdx
 )
 =
 =
-NS_STYLE_ANIMATION_PLAY_STATE_PAUSED
+StyleAnimationPlayState
+:
+:
+Paused
 ;
 /
 /

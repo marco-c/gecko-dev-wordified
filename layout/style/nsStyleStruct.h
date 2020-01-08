@@ -11739,7 +11739,7 @@ return
 mFillMode
 ;
 }
-uint8_t
+StyleAnimationPlayState
 GetPlayState
 (
 )
@@ -11861,7 +11861,7 @@ dom
 FillMode
 mFillMode
 ;
-uint8_t
+StyleAnimationPlayState
 mPlayState
 ;
 float
@@ -13813,7 +13813,10 @@ GetFillMode
 )
 ;
 }
-uint8_t
+mozilla
+:
+:
+StyleAnimationPlayState
 GetAnimationPlayState
 (
 uint32_t
