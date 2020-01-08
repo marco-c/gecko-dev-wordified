@@ -439,6 +439,7 @@ topsites_form_url_label
 :
 "
 URL
+-
 "
 "
 topsites_form_image_url_label
@@ -446,6 +447,7 @@ topsites_form_image_url_label
 :
 "
 URL
+-
 "
 "
 topsites_form_url_placeholder
@@ -453,6 +455,7 @@ topsites_form_url_placeholder
 :
 "
 URL
+-
 "
 "
 topsites_form_use_image_link
@@ -498,6 +501,7 @@ topsites_form_image_validation
 "
 .
 URL
+-
 .
 "
 "
@@ -648,6 +652,7 @@ firstrun_learn_more_link
 :
 "
 Firefox
+-
 "
 "
 firstrun_form_header

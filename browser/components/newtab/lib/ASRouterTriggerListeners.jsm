@@ -532,8 +532,6 @@ this
 _triggerHandler
 (
 aBrowser
-.
-messageManager
 {
 id
 :
