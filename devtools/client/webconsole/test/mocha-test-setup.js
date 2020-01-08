@@ -312,7 +312,7 @@ jsterm
 .
 codeMirror
 "
-true
+false
 )
 ;
 global
