@@ -1686,7 +1686,7 @@ Normal
 template
 <
 typename
-CharT
+Unit
 >
 BytecodeEmitter
 (
@@ -1696,7 +1696,7 @@ parent
 Parser
 <
 FullParseHandler
-CharT
+Unit
 >
 *
 parser
@@ -1871,7 +1871,7 @@ bodyPosition
 template
 <
 typename
-CharT
+Unit
 >
 BytecodeEmitter
 (
@@ -1881,7 +1881,7 @@ parent
 Parser
 <
 FullParseHandler
-CharT
+Unit
 >
 *
 parser

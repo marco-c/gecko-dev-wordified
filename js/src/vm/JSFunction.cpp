@@ -11684,11 +11684,11 @@ text
 ScriptSource
 :
 :
-PinnedChars
+PinnedUnits
 <
 Utf8Unit
 >
-chars
+units
 (
 cx
 lazy
@@ -11710,7 +11710,7 @@ lazyLength
 if
 (
 !
-chars
+units
 .
 get
 (
@@ -11791,11 +11791,11 @@ text
 ScriptSource
 :
 :
-PinnedChars
+PinnedUnits
 <
 char16_t
 >
-chars
+units
 (
 cx
 lazy
@@ -11817,7 +11817,7 @@ lazyLength
 if
 (
 !
-chars
+units
 .
 get
 (
@@ -11838,7 +11838,7 @@ CompileLazyFunction
 (
 cx
 lazy
-chars
+units
 .
 get
 (

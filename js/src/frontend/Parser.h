@@ -608,7 +608,7 @@ below
 GeneralParser
 <
 ParseHandler
-CharT
+Unit
 >
 PerHandlerParser
 <
@@ -910,7 +910,7 @@ be
 instantiated
 once
 per
-CharT
+Unit
 -
 -
 but
@@ -930,7 +930,7 @@ have
 no
 awareness
 of
-CharT
+Unit
 )
 *
 it
@@ -967,13 +967,13 @@ duplication
 Parser
 <
 ParseHandler
-CharT
+Unit
 >
 final
 GeneralParser
 <
 ParseHandler
-CharT
+Unit
 >
 =
 =
@@ -1077,7 +1077,7 @@ Parser
 SyntaxParseHandler
 or
 FullParseHandler
-CharT
+Unit
 >
 as
 *
@@ -1142,7 +1142,7 @@ template
 class
 ParseHandler
 typename
-CharT
+Unit
 >
 *
 class
@@ -1196,7 +1196,7 @@ template
 class
 ParseHandler
 typename
-CharT
+Unit
 >
 class
 Parser
@@ -1216,14 +1216,14 @@ specialization
 template
 <
 typename
-CharT
+Unit
 >
 *
 class
 Parser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 final
 *
@@ -1232,7 +1232,7 @@ public
 GeneralParser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 *
 {
@@ -1263,14 +1263,14 @@ specialization
 template
 <
 typename
-CharT
+Unit
 >
 *
 class
 Parser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 final
 *
@@ -1279,7 +1279,7 @@ public
 GeneralParser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 *
 {
@@ -1348,13 +1348,13 @@ ParseHandler
 *
 and
 *
-CharT
+Unit
 .
 *
 template
 <
 typename
-CharT
+Unit
 >
 *
 void
@@ -1362,7 +1362,7 @@ void
 GeneralParser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 :
 :
@@ -1393,7 +1393,7 @@ allowed
 template
 <
 typename
-CharT
+Unit
 >
 *
 void
@@ -1401,7 +1401,7 @@ void
 Parser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 :
 :
@@ -1415,7 +1415,7 @@ foo
 template
 <
 typename
-CharT
+Unit
 >
 *
 void
@@ -1423,7 +1423,7 @@ void
 Parser
 <
 FullParseHandler
-CharT
+Unit
 >
 :
 :
@@ -1443,7 +1443,7 @@ on
 the
 function
 is
-CharT
+Unit
 -
 -
 and
@@ -1488,7 +1488,7 @@ textually
 identically
 for
 different
-CharT
+Unit
 *
 (
 even
@@ -1644,7 +1644,7 @@ template
 class
 ParseHandler
 typename
-CharT
+Unit
 >
 class
 GeneralParser
@@ -1662,14 +1662,14 @@ template
 typename
 ParseHandler
 typename
-CharT
+Unit
 >
 SourceParseContext
 (
 GeneralParser
 <
 ParseHandler
-CharT
+Unit
 >
 *
 prs
@@ -1928,7 +1928,7 @@ template
 class
 ParseHandler
 typename
-CharT
+Unit
 >
 class
 AutoAwaitIsKeyword
@@ -1938,7 +1938,7 @@ template
 class
 ParseHandler
 typename
-CharT
+Unit
 >
 class
 AutoInParametersOfAsyncFunction
@@ -3261,7 +3261,7 @@ a
 Parser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 *
 |
@@ -3269,7 +3269,7 @@ CharT
 /
 where
 |
-CharT
+Unit
 |
 varies
 per
@@ -3277,7 +3277,7 @@ per
 Parser
 <
 ParseHandler
-CharT
+Unit
 >
 |
 .
@@ -3292,7 +3292,7 @@ doesn
 t
 know
 |
-CharT
+Unit
 |
 so
 we
@@ -3311,7 +3311,7 @@ make
 GeneralParser
 <
 ParseHandler
-CharT
+Unit
 >
 :
 :
@@ -3400,7 +3400,7 @@ protected
 template
 <
 typename
-CharT
+Unit
 >
 PerHandlerParser
 (
@@ -3425,7 +3425,7 @@ usedNames
 GeneralParser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 *
 syntaxParser
@@ -4330,7 +4330,7 @@ template
 class
 ParseHandler
 typename
-CharT
+Unit
 >
 class
 Parser
@@ -4340,7 +4340,7 @@ template
 class
 ParseHandler
 typename
-CharT
+Unit
 >
 class
 MOZ_STACK_CLASS
@@ -4359,7 +4359,7 @@ TokenStream
 =
 TokenStreamSpecific
 <
-CharT
+Unit
 ParserAnyCharsAccess
 <
 GeneralParser
@@ -4382,7 +4382,7 @@ FinalParser
 Parser
 <
 ParseHandler
-CharT
+Unit
 >
 ;
 using
@@ -4432,7 +4432,7 @@ SyntaxParser
 Parser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 ;
 protected
@@ -5321,7 +5321,7 @@ errorNumber_
 GeneralParser
 <
 ParseHandler
-CharT
+Unit
 >
 &
 parser_
@@ -5508,7 +5508,7 @@ PossibleError
 GeneralParser
 <
 ParseHandler
-CharT
+Unit
 >
 &
 parser
@@ -5867,9 +5867,9 @@ ReadOnlyCompileOptions
 &
 options
 const
-CharT
+Unit
 *
-chars
+units
 size_t
 length
 bool
@@ -8321,14 +8321,14 @@ list
 template
 <
 typename
-CharT
+Unit
 >
 class
 MOZ_STACK_CLASS
 Parser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 final
 :
@@ -8336,7 +8336,7 @@ public
 GeneralParser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 {
 using
@@ -8345,7 +8345,7 @@ Base
 GeneralParser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 ;
 using
@@ -8386,7 +8386,7 @@ SyntaxParser
 Parser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 ;
 /
@@ -8450,7 +8450,7 @@ class
 GeneralParser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 ;
 public
@@ -8781,7 +8781,7 @@ both
 Parser
 <
 ParseHandler
-CharT
+Unit
 >
 specializations
 .
@@ -8957,7 +8957,7 @@ in
 Parser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 .
 }
@@ -8965,14 +8965,14 @@ CharT
 template
 <
 typename
-CharT
+Unit
 >
 class
 MOZ_STACK_CLASS
 Parser
 <
 FullParseHandler
-CharT
+Unit
 >
 final
 :
@@ -8980,7 +8980,7 @@ public
 GeneralParser
 <
 FullParseHandler
-CharT
+Unit
 >
 {
 using
@@ -8989,7 +8989,7 @@ Base
 GeneralParser
 <
 FullParseHandler
-CharT
+Unit
 >
 ;
 using
@@ -9030,7 +9030,7 @@ SyntaxParser
 Parser
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 ;
 /
@@ -9094,7 +9094,7 @@ class
 GeneralParser
 <
 FullParseHandler
-CharT
+Unit
 >
 ;
 public
@@ -9465,7 +9465,7 @@ both
 Parser
 <
 ParseHandler
-CharT
+Unit
 >
 specializations
 .
@@ -9474,7 +9474,7 @@ class
 AutoAwaitIsKeyword
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 ;
 inline
@@ -9490,7 +9490,7 @@ class
 AutoInParametersOfAsyncFunction
 <
 SyntaxParseHandler
-CharT
+Unit
 >
 ;
 inline
@@ -9641,7 +9641,7 @@ in
 Parser
 <
 FullParseHandler
-CharT
+Unit
 >
 .
 /
@@ -10201,7 +10201,7 @@ template
 class
 ParseHandler
 typename
-CharT
+Unit
 >
 class
 MOZ_STACK_CLASS
@@ -10216,7 +10216,7 @@ frontend
 GeneralParser
 <
 ParseHandler
-CharT
+Unit
 >
 ;
 private
@@ -10324,7 +10324,7 @@ template
 class
 ParseHandler
 typename
-CharT
+Unit
 >
 class
 MOZ_STACK_CLASS
@@ -10339,7 +10339,7 @@ frontend
 GeneralParser
 <
 ParseHandler
-CharT
+Unit
 >
 ;
 private
