@@ -7578,7 +7578,7 @@ textContent
 childContent
 -
 >
-AsText
+GetAsText
 (
 )
 ;
