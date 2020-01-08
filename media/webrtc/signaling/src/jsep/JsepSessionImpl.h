@@ -308,6 +308,10 @@ mRunRustParser
 (
 false
 )
+mRunSdpComparer
+(
+false
+)
 {
 }
 /
@@ -1746,6 +1750,9 @@ mSsrcGenerator
 ;
 bool
 mRunRustParser
+;
+bool
+mRunSdpComparer
 ;
 RsdparsaSdpParser
 mRsdparsaParser
