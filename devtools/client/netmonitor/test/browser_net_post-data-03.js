@@ -750,7 +750,7 @@ labels
 .
 textContent
 "
-baz
+foo
 "
 "
 The
@@ -773,7 +773,7 @@ values
 .
 textContent
 "
-123
+bar
 "
 "
 The
@@ -796,7 +796,7 @@ labels
 .
 textContent
 "
-foo
+baz
 "
 "
 The
@@ -819,7 +819,7 @@ values
 .
 textContent
 "
-bar
+123
 "
 "
 The
