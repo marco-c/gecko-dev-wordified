@@ -20986,7 +20986,7 @@ true
 ;
 #
 ifdef
-GL_PROVIDER_GLX
+MOZ_X11
 /
 /
 Ensure
@@ -21176,7 +21176,7 @@ else
 endif
 /
 /
-GL_PROVIDER_GLX
+MOZ_X11
 {
 if
 (
