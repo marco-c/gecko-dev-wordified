@@ -3497,6 +3497,8 @@ nsPresContext
 aPresContext
 )
 ;
+public
+:
 /
 *
 *
@@ -3515,8 +3517,6 @@ CreateBulletFrameForListItem
 (
 )
 ;
-public
-:
 /
 *
 *
