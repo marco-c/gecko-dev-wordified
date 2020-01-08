@@ -587,6 +587,15 @@ already_AddRefed
 RawServoKeyframe
 >
 aRaw
+StyleSheet
+*
+aSheet
+css
+:
+:
+Rule
+*
+aParentRule
 uint32_t
 aLine
 uint32_t
@@ -598,6 +607,8 @@ css
 :
 Rule
 (
+aSheet
+aParentRule
 aLine
 aColumn
 )

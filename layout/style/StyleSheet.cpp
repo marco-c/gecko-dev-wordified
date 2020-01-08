@@ -3186,9 +3186,8 @@ result
 rule
 -
 >
-SetStyleSheet
+DropReferences
 (
-nullptr
 )
 ;
 RuleRemoved
@@ -6653,7 +6652,7 @@ mRuleList
 mRuleList
 -
 >
-DropReference
+DropReferences
 (
 )
 ;
@@ -6772,6 +6771,7 @@ forget
 (
 )
 this
+nullptr
 )
 ;
 }

@@ -633,6 +633,15 @@ already_AddRefed
 RawServoStyleRule
 >
 aRawRule
+StyleSheet
+*
+aSheet
+css
+:
+:
+Rule
+*
+aParentRule
 uint32_t
 aLine
 uint32_t
@@ -641,6 +650,8 @@ aColumn
 :
 BindingStyleRule
 (
+aSheet
+aParentRule
 aLine
 aColumn
 )

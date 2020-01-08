@@ -662,6 +662,8 @@ do_AddRef
 (
 rule
 )
+nullptr
+nullptr
 line
 column
 )
