@@ -2262,6 +2262,14 @@ addListener
 removeListener
 "
 ]
+[
+"
+addMessageListener
+"
+"
+removeMessageListener
+"
+]
 ]
 )
 {
