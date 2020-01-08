@@ -1310,6 +1310,7 @@ has
 started
 being
 applied
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyAsyncPanZoomStarted
 (
@@ -1333,6 +1334,7 @@ is
 no
 longer
 applied
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyAsyncPanZoomStopped
 (

@@ -3038,6 +3038,7 @@ modified
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 NotifySelectionListenersAfterRangeSet
 (
@@ -3224,6 +3225,7 @@ registering
 when
 needed
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DoSetRange
 (

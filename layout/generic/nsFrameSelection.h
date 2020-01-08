@@ -1663,11 +1663,7 @@ this
 line
 *
 /
-/
-*
-unsafe
-*
-/
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 HandleClick
 (
@@ -2524,11 +2520,7 @@ of
 drag
 *
 /
-/
-*
-unsafe
-*
-/
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetDragState
 (
@@ -3582,11 +3574,7 @@ whole
 doc
 *
 /
-/
-*
-unsafe
-*
-/
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 SelectAll
 (
@@ -3902,11 +3890,7 @@ return
 mAncestorLimiter
 ;
 }
-/
-*
-unsafe
-*
-/
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetAncestorLimiter
 (
@@ -4368,6 +4352,7 @@ StartBatchChanges
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 EndBatchChanges
 (
@@ -4418,6 +4403,7 @@ nsFrameSelection
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 TakeFocus
 (
@@ -4664,6 +4650,7 @@ eVisual
 eUsePrefStyle
 }
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 MoveCaret
 (
@@ -4783,6 +4770,7 @@ nsCOMPtr
 when
 needed
 .
+MOZ_CAN_RUN_SCRIPT
 nsresult
 NotifySelectionListeners
 (
