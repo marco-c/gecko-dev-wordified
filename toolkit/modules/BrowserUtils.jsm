@@ -3357,10 +3357,6 @@ selectionStr
 &
 &
 focusedElement
-instanceof
-Ci
-.
-nsIDOMNSEditableElement
 )
 {
 /

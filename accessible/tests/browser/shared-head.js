@@ -961,13 +961,6 @@ contentId
 if
 (
 elm
-instanceof
-Ci
-.
-nsIDOMNSEditableElement
-&
-&
-elm
 .
 editor
 |

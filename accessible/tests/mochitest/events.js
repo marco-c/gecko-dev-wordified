@@ -8285,15 +8285,6 @@ if
 this
 .
 DOMNode
-instanceof
-Ci
-.
-nsIDOMNSEditableElement
-&
-&
-this
-.
-DOMNode
 .
 editor
 |
