@@ -606,7 +606,7 @@ mTopLevelEditSubAction
 EditSubAction
 :
 :
-none
+eNone
 )
 mLastStart
 (
@@ -683,7 +683,7 @@ mTopLevelEditSubAction
 EditSubAction
 :
 :
-none
+eNone
 ;
 mTimer
 =
