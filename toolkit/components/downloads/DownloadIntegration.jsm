@@ -4202,6 +4202,9 @@ win
 &
 &
 fileExtension
+&
+&
+fileExtension
 .
 toLowerCase
 (
