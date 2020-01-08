@@ -81,7 +81,7 @@ PanelUI
 mainView
 )
 .
-getNavigableElements
+_getNavigableElements
 (
 )
 ;
@@ -278,7 +278,7 @@ PanelUI
 mainView
 )
 .
-getNavigableElements
+_getNavigableElements
 (
 )
 ;
@@ -429,7 +429,7 @@ PanelUI
 helpView
 )
 .
-getNavigableElements
+_getNavigableElements
 (
 )
 ;
@@ -1053,7 +1053,7 @@ PanelUI
 mainView
 )
 .
-getNavigableElements
+_getNavigableElements
 (
 )
 ;
@@ -1303,7 +1303,7 @@ PanelUI
 mainView
 )
 .
-getNavigableElements
+_getNavigableElements
 (
 )
 ;
@@ -1432,7 +1432,7 @@ PanelUI
 mainView
 )
 .
-getNavigableElements
+_getNavigableElements
 (
 )
 ;
