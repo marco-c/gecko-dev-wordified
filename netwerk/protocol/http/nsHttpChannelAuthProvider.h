@@ -201,6 +201,7 @@ nsHttpHandler
 ;
 class
 nsHttpChannelAuthProvider
+final
 :
 public
 nsIHttpChannelAuthProvider
