@@ -507,7 +507,7 @@ toolbar
 -
 context
 -
-bookmarkSelectedTabs
+bookmarkSelectedTab
 "
 true
 ]
