@@ -184,6 +184,9 @@ mozilla
 namespace
 dom
 {
+class
+ThreadSafeWorkerRef
+;
 typedef
 ArrayBufferViewOrArrayBuffer
 CryptoOperationData
@@ -931,9 +934,6 @@ Cancel
 )
 final
 ;
-class
-InternalWorkerHolder
-;
 nsCOMPtr
 <
 nsISerialEventTarget
@@ -942,9 +942,9 @@ mOriginalEventTarget
 ;
 RefPtr
 <
-InternalWorkerHolder
+ThreadSafeWorkerRef
 >
-mWorkerHolder
+mWorkerRef
 ;
 nsresult
 mRv
