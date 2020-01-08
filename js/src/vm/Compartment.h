@@ -1633,8 +1633,10 @@ isNothing
 (
 )
 )
+{
 return
 ;
+}
 for
 (
 ;
@@ -1701,8 +1703,10 @@ c
 &
 skipStrings
 )
+{
 continue
 ;
+}
 if
 (
 filter
@@ -1717,8 +1721,10 @@ match
 c
 )
 )
+{
 continue
 ;
+}
 InnerMap
 &
 m
@@ -1752,12 +1758,14 @@ isSome
 (
 )
 )
+{
 inner
 .
 reset
 (
 )
 ;
+}
 inner
 .
 emplace
@@ -1934,6 +1942,7 @@ if
 (
 p
 )
+{
 inner
 .
 emplace
@@ -1946,6 +1955,7 @@ value
 )
 )
 ;
+}
 }
 bool
 empty
@@ -2066,8 +2076,10 @@ empty
 (
 )
 )
+{
 return
 ;
+}
 }
 goToNext
 (
@@ -2192,9 +2204,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 for
 (
 OuterMap
@@ -2237,9 +2251,11 @@ empty
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -2300,6 +2316,7 @@ if
 (
 ip
 )
+{
 return
 Ptr
 (
@@ -2312,6 +2329,7 @@ value
 )
 )
 ;
+}
 }
 return
 Ptr
@@ -2330,6 +2348,7 @@ if
 (
 p
 )
+{
 p
 .
 map
@@ -2340,6 +2359,7 @@ remove
 p
 )
 ;
+}
 }
 MOZ_MUST_USE
 bool
@@ -2435,9 +2455,11 @@ m
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 p
@@ -2498,6 +2520,7 @@ popFront
 (
 )
 )
+{
 size
 +
 =
@@ -2516,6 +2539,7 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
+}
 return
 size
 ;
@@ -2564,6 +2588,7 @@ popFront
 (
 )
 )
+{
 size
 +
 =
@@ -2582,6 +2607,7 @@ sizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 return
 size
 ;
@@ -2650,8 +2676,10 @@ match
 c
 )
 )
+{
 continue
 ;
+}
 InnerMap
 &
 m
@@ -2674,9 +2702,11 @@ hasNurseryEntries
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -2744,12 +2774,14 @@ empty
 (
 )
 )
+{
 e
 .
 removeFront
 (
 )
 ;
+}
 }
 }
 void
@@ -2810,12 +2842,14 @@ empty
 (
 )
 )
+{
 e
 .
 removeFront
 (
 )
 ;
+}
 }
 }
 }

@@ -204,9 +204,11 @@ isGCThing
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 *
 *
@@ -312,9 +314,11 @@ cx
 str
 )
 )
+{
 return
 false
 ;
+}
 vp
 .
 setString
@@ -362,9 +366,11 @@ cx
 bi
 )
 )
+{
 return
 false
 ;
+}
 vp
 .
 setBigInt
@@ -725,9 +731,11 @@ cx
 obj
 )
 )
+{
 return
 false
 ;
+}
 vp
 .
 setObject
