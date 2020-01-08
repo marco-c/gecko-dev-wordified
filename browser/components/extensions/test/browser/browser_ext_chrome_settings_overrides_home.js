@@ -215,15 +215,10 @@ Services
 .
 prefs
 .
-getComplexValue
+getStringPref
 (
 HOMEPAGE_URL_PREF
-Ci
-.
-nsIPrefLocalizedString
 )
-.
-data
 ;
 }
 ;

@@ -121,7 +121,7 @@ Services
 .
 prefs
 .
-getComplexValue
+getStringPref
 (
 "
 browser
@@ -130,12 +130,7 @@ startup
 .
 homepage
 "
-Ci
-.
-nsIPrefLocalizedString
 )
-.
-data
 ;
 await
 extension

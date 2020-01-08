@@ -253,20 +253,6 @@ chrome
 :
 /
 /
-branding
-/
-locale
-/
-browserconfig
-.
-properties
-'
-        
-'
-chrome
-:
-/
-/
 browser
 /
 locale
@@ -399,12 +385,6 @@ browser
 startup
 .
 homepage
-'
-                                        
-value_type
-=
-'
-nsIPrefLocalizedString
 '
 )
     
