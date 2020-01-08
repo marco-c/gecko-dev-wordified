@@ -82,6 +82,9 @@ missing_docs
 )
 ]
 use
+Atom
+;
+use
 cssparser
 :
 :
@@ -119,12 +122,6 @@ self
 Debug
 Write
 }
-;
-use
-string_cache
-:
-:
-Atom
 ;
 use
 style_traits

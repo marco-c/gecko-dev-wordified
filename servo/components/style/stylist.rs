@@ -12227,7 +12227,7 @@ attribute_dependencies
 :
 PrecomputedHashSet
 <
-Atom
+LocalName
 >
 /
 /
@@ -12380,7 +12380,7 @@ mapped_ids
 :
 PrecomputedHashSet
 <
-LocalName
+Atom
 >
 /
 /
