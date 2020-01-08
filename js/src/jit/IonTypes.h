@@ -2153,9 +2153,11 @@ type
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Takes
@@ -3898,9 +3900,11 @@ hasLatin1Chars
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 reinterpret_cast
 <

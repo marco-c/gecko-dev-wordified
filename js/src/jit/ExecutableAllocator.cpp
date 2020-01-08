@@ -340,6 +340,7 @@ bytes
 :
 m_codeBytes
 )
+{
 MOZ_ASSERT
 (
 bytes
@@ -348,6 +349,7 @@ bytes
 0
 )
 ;
+}
 #
 endif
 MOZ_ASSERT
@@ -403,11 +405,13 @@ m_refCount
 =
 0
 )
+{
 js_delete
 (
 this
 )
 ;
+}
 }
 void
 ExecutablePool
@@ -624,6 +628,7 @@ i
 +
 +
 )
+{
 m_smallPools
 [
 i
@@ -641,6 +646,7 @@ willDestroy
 true
 )
 ;
+}
 /
 /
 If
@@ -834,10 +840,12 @@ available
 )
 )
 )
+{
 minPool
 =
 pool
 ;
+}
 }
 if
 (
@@ -874,12 +882,14 @@ n
 >
 ExecutableCodePageSize
 )
+{
 return
 createPool
 (
 n
 )
 ;
+}
 /
 /
 Create
@@ -900,9 +910,11 @@ if
 !
 pool
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 At
@@ -969,6 +981,7 @@ append
 pool
 )
 )
+{
 pool
 -
 >
@@ -976,6 +989,7 @@ addRef
 (
 )
 ;
+}
 }
 else
 {
@@ -1036,10 +1050,12 @@ available
 (
 )
 )
+{
 iMin
 =
 i
 ;
+}
 }
 /
 /
@@ -1173,9 +1189,11 @@ granularity
 =
 request
 )
+{
 return
 OVERSIZE_ALLOCATION
 ;
+}
 /
 /
 Round
@@ -1245,9 +1263,11 @@ allocSize
 =
 OVERSIZE_ALLOCATION
 )
+{
 return
 nullptr
 ;
+}
 ExecutablePool
 :
 :
@@ -1266,9 +1286,11 @@ a
 .
 pages
 )
+{
 return
 nullptr
 ;
+}
 ExecutablePool
 *
 pool
@@ -1436,9 +1458,11 @@ if
 *
 poolp
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 This
@@ -1562,6 +1586,7 @@ lookup
 pool
 )
 )
+{
 m_pools
 .
 remove
@@ -1569,6 +1594,7 @@ remove
 ptr
 )
 ;
+}
 }
 void
 ExecutableAllocator
@@ -1871,10 +1897,12 @@ start
 protection
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 }
 /
 *
@@ -1937,6 +1965,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT
 (
 !
@@ -1953,6 +1982,7 @@ isMarked
 )
 )
 ;
+}
 #
 endif
 for

@@ -255,9 +255,11 @@ other
 .
 kind_
 )
+{
 return
 false
 ;
+}
 switch
 (
 kind_

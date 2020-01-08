@@ -1071,6 +1071,7 @@ functionNonDelazifying
 (
 )
 )
+{
 num
 +
 =
@@ -1081,6 +1082,7 @@ nargs
 (
 )
 ;
+}
 return
 num
 ;

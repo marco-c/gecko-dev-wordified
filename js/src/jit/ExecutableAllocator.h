@@ -838,10 +838,12 @@ count
 :
 m_codeBytes
 )
+{
 count
 =
 0
 ;
+}
 }
 ~
 ExecutablePool
@@ -967,11 +969,13 @@ count
 :
 m_codeBytes
 )
+{
 res
 +
 =
 count
 ;
+}
 return
 res
 ;

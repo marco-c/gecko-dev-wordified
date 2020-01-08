@@ -2879,12 +2879,14 @@ if
 !
 invalidationCount_
 )
+{
 Destroy
 (
 fop
 this
 )
 ;
+}
 }
 IonCompilationId
 compilationId
@@ -3152,9 +3154,11 @@ if
 !
 successors_
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -3471,6 +3475,7 @@ i
 +
 +
 )
+{
 blocks_
 [
 i
@@ -3480,6 +3485,7 @@ destroy
 (
 )
 ;
+}
 js_free
 (
 blocks_
@@ -3568,9 +3574,11 @@ if
 !
 blocks_
 )
+{
 return
 false
 ;
+}
 numBlocks_
 =
 numBlocks
@@ -3730,6 +3738,7 @@ i
 +
 +
 )
+{
 blocks_
 [
 i
@@ -3740,6 +3749,7 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
+}
 return
 size
 ;

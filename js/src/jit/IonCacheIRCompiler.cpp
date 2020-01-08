@@ -1220,6 +1220,7 @@ isInRegister
 (
 )
 )
+{
 spillOperandToStack
 (
 masm
@@ -1227,6 +1228,7 @@ masm
 loc
 )
 ;
+}
 }
 /
 /
@@ -1414,8 +1416,10 @@ isOnStack
 (
 )
 )
+{
 continue
 ;
+}
 hasOperandOnStack
 =
 true
@@ -1764,6 +1768,7 @@ isOnStack
 (
 )
 )
+{
 loc
 .
 adjustStackPushed
@@ -1775,6 +1780,7 @@ sizeOfLiveRegsInBytes
 )
 )
 ;
+}
 }
 size_t
 stackBottom
@@ -2382,9 +2388,11 @@ init
 (
 )
 )
+{
 return
 false
 ;
+}
 size_t
 numInputs
 =
@@ -2449,6 +2457,7 @@ hasValue
 (
 )
 )
+{
 available
 .
 add
@@ -2460,6 +2469,7 @@ valueReg
 )
 )
 ;
+}
 else
 if
 (
@@ -2474,6 +2484,7 @@ isFloat
 (
 )
 )
+{
 available
 .
 add
@@ -2489,6 +2500,7 @@ gpr
 )
 )
 ;
+}
 if
 (
 ic
@@ -2501,6 +2513,7 @@ maybeTemp
 =
 InvalidReg
 )
+{
 available
 .
 add
@@ -2513,6 +2526,7 @@ maybeTemp
 )
 )
 ;
+}
 liveRegs_
 .
 emplace
@@ -2577,6 +2591,7 @@ numInputs
 >
 1
 )
+{
 allocator
 .
 initInputLocation
@@ -2590,6 +2605,7 @@ id
 )
 )
 ;
+}
 break
 ;
 }
@@ -3849,6 +3865,7 @@ if
 (
 liveRegs_
 )
+{
 liveFloatRegs_
 =
 LiveFloatRegisterSet
@@ -3861,6 +3878,7 @@ fpus
 )
 )
 ;
+}
 allocator
 .
 initAvailableRegs
@@ -3917,12 +3935,14 @@ enabled
 (
 )
 )
+{
 masm
 .
 enableProfilingInstrumentation
 (
 )
 ;
+}
 allocator
 .
 fixupAliasedInputs
@@ -4062,9 +4082,11 @@ emitFailurePath
 i
 )
 )
+{
 return
 nullptr
 ;
+}
 Register
 scratch
 =
@@ -4111,9 +4133,11 @@ append
 offset
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 Linker
 linker
@@ -4330,6 +4354,7 @@ if
 (
 needSpectreMitigations
 )
+{
 maybeScratch
 .
 emplace
@@ -4338,6 +4363,7 @@ allocator
 masm
 )
 ;
+}
 FailurePath
 *
 failure
@@ -4351,9 +4377,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 needSpectreMitigations
@@ -4465,6 +4493,7 @@ if
 (
 needSpectreMitigations
 )
+{
 maybeScratch
 .
 emplace
@@ -4473,6 +4502,7 @@ allocator
 masm
 )
 ;
+}
 FailurePath
 *
 failure
@@ -4486,9 +4516,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 needSpectreMitigations
@@ -4597,9 +4629,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 loadObjProto
@@ -4705,9 +4739,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Verify
@@ -4865,9 +4901,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 objectGuardNeedsSpectreMitigations
@@ -4973,9 +5011,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 Address
 handlerAddr
 (
@@ -5062,9 +5102,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 branchPtr
@@ -5152,9 +5194,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 Label
 done
 ;
@@ -5467,9 +5511,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 branchPtr
@@ -5718,9 +5764,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 LiveRegisterSet
 volatileRegs
 (
@@ -6132,6 +6180,7 @@ i
 +
 +
 )
+{
 masm
 .
 Push
@@ -6141,6 +6190,7 @@ UndefinedValue
 )
 )
 ;
+}
 masm
 .
 Push
@@ -6162,6 +6212,7 @@ if
 (
 isCrossRealm
 )
+{
 masm
 .
 switchToRealm
@@ -6175,6 +6226,7 @@ realm
 scratch
 )
 ;
+}
 masm
 .
 movePtr
@@ -6682,9 +6734,11 @@ cx_
 save
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 enterFakeExitFrame
@@ -6714,6 +6768,7 @@ realm
 (
 )
 )
+{
 masm
 .
 switchToRealm
@@ -6727,6 +6782,7 @@ realm
 scratch
 )
 ;
+}
 /
 /
 Construct
@@ -6822,6 +6878,7 @@ realm
 (
 )
 )
+{
 masm
 .
 switchToRealm
@@ -6835,6 +6892,7 @@ realm
 ReturnReg
 )
 ;
+}
 /
 /
 Load
@@ -6885,12 +6943,14 @@ JitOptions
 .
 spectreJitToCxxCalls
 )
+{
 masm
 .
 speculationBarrier
 (
 )
 ;
+}
 masm
 .
 adjustStack
@@ -7132,9 +7192,11 @@ cx_
 save
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 enterFakeExitFrame
@@ -7291,12 +7353,14 @@ JitOptions
 .
 spectreJitToCxxCalls
 )
+{
 masm
 .
 speculationBarrier
 (
 )
 ;
+}
 /
 /
 masm
@@ -7409,9 +7473,11 @@ masm
 ProxyGetPropertyByValueInfo
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 storeCallResultValue
@@ -7525,9 +7591,11 @@ masm
 ProxyHasOwnInfo
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -7540,9 +7608,11 @@ masm
 ProxyHasInfo
 )
 )
+{
 return
 false
 ;
+}
 }
 masm
 .
@@ -7754,9 +7824,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Check
@@ -7869,9 +7941,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 loadPtr
@@ -8078,9 +8152,11 @@ masm
 StringSplitHelperInfo
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 storeCallResultValue
@@ -8308,9 +8384,11 @@ unknownPropertiesDontCheckGeneration
 (
 )
 )
+{
 return
 true
 ;
+}
 HeapTypeSet
 *
 propTypes
@@ -8329,9 +8407,11 @@ if
 !
 propTypes
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -8342,9 +8422,11 @@ nonConstantProperty
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 propTypes
 -
@@ -8416,8 +8498,10 @@ isSet
 (
 )
 )
+{
 return
 ;
+}
 ObjectGroup
 *
 group
@@ -8445,8 +8529,10 @@ unknownProperties
 sweep
 )
 )
+{
 return
 ;
+}
 jsid
 id
 =
@@ -8482,8 +8568,10 @@ unknown
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 Use
@@ -8728,6 +8816,7 @@ nonConstantProperty
 (
 )
 )
+{
 masm
 .
 jump
@@ -8736,6 +8825,7 @@ jump
 failedFastPath
 )
 ;
+}
 if
 (
 val
@@ -8790,6 +8880,7 @@ value
 )
 )
 )
+{
 masm
 .
 jump
@@ -8798,6 +8889,7 @@ jump
 failedFastPath
 )
 ;
+}
 checkTypeSet
 =
 false
@@ -8888,6 +8980,7 @@ valType
 )
 )
 )
+{
 masm
 .
 jump
@@ -8896,6 +8989,7 @@ jump
 failedFastPath
 )
 ;
+}
 checkTypeSet
 =
 false
@@ -9247,6 +9341,7 @@ objScratch
 =
 InvalidReg
 )
+{
 masm
 .
 pop
@@ -9254,6 +9349,7 @@ pop
 objScratch
 )
 ;
+}
 masm
 .
 pop
@@ -9284,6 +9380,7 @@ objScratch
 =
 InvalidReg
 )
+{
 masm
 .
 Pop
@@ -9291,6 +9388,7 @@ Pop
 objScratch
 )
 ;
+}
 masm
 .
 Pop
@@ -9361,6 +9459,7 @@ needsPostBarrier
 (
 )
 )
+{
 scratch
 .
 emplace
@@ -9369,6 +9468,7 @@ allocator
 masm
 )
 ;
+}
 if
 (
 typeCheckInfo_
@@ -9392,9 +9492,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 EmitCheckPropertyTypes
 (
 masm
@@ -9443,6 +9545,7 @@ needsPostBarrier
 (
 )
 )
+{
 emitPostBarrierSlot
 (
 obj
@@ -9454,6 +9557,7 @@ ref
 )
 )
 ;
+}
 return
 true
 ;
@@ -9538,9 +9642,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 EmitCheckPropertyTypes
 (
 masm
@@ -9606,6 +9712,7 @@ needsPostBarrier
 (
 )
 )
+{
 emitPostBarrierSlot
 (
 obj
@@ -9613,6 +9720,7 @@ val
 scratch
 )
 ;
+}
 return
 true
 ;
@@ -9692,6 +9800,7 @@ CacheOp
 :
 AllocateAndStoreDynamicSlot
 )
+{
 scratch2
 .
 emplace
@@ -9700,6 +9809,7 @@ allocator
 masm
 )
 ;
+}
 bool
 changeGroup
 =
@@ -9748,9 +9858,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 EmitCheckPropertyTypes
 (
 masm
@@ -10224,6 +10336,7 @@ needsPostBarrier
 (
 )
 )
+{
 emitPostBarrierSlot
 (
 obj
@@ -10231,6 +10344,7 @@ val
 scratch1
 )
 ;
+}
 return
 true
 ;
@@ -10366,6 +10480,7 @@ UnboxedTypeNeedsPostBarrier
 fieldType
 )
 )
+{
 scratch
 .
 emplace
@@ -10374,6 +10489,7 @@ allocator
 masm
 )
 ;
+}
 if
 (
 fieldType
@@ -10403,9 +10519,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 EmitCheckPropertyTypes
 (
 masm
@@ -10493,6 +10611,7 @@ UnboxedTypeNeedsPostBarrier
 fieldType
 )
 )
+{
 emitPostBarrierSlot
 (
 obj
@@ -10504,6 +10623,7 @@ ref
 )
 )
 ;
+}
 return
 true
 ;
@@ -10635,9 +10755,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 EmitCheckPropertyTypes
 (
 masm
@@ -10705,6 +10827,7 @@ ReferenceType
 :
 TYPE_STRING
 )
+{
 emitPostBarrierSlot
 (
 obj
@@ -10712,6 +10835,7 @@ val
 scratch1
 )
 ;
+}
 return
 true
 ;
@@ -10814,9 +10938,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Compute
@@ -11413,9 +11539,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 EmitCheckPropertyTypes
 (
 masm
@@ -11625,6 +11753,7 @@ needsPostBarrier
 (
 )
 )
+{
 emitPostBarrierElement
 (
 obj
@@ -11633,6 +11762,7 @@ scratch1
 index
 )
 ;
+}
 return
 true
 ;
@@ -11761,9 +11891,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 EmitCheckPropertyTypes
 (
 masm
@@ -12284,6 +12416,7 @@ needsPostBarrier
 (
 )
 )
+{
 emitPostBarrierElement
 (
 obj
@@ -12292,6 +12425,7 @@ scratch1
 index
 )
 ;
+}
 return
 true
 ;
@@ -12430,9 +12564,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Bounds
@@ -12593,9 +12729,11 @@ label
 )
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 storeToTypedFloatArray
@@ -12636,9 +12774,11 @@ label
 )
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 storeToTypedFloatArray
@@ -13018,9 +13158,11 @@ cx_
 save
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 enterFakeExitFrame
@@ -13050,6 +13192,7 @@ realm
 (
 )
 )
+{
 masm
 .
 switchToRealm
@@ -13063,6 +13206,7 @@ realm
 scratch
 )
 ;
+}
 /
 /
 Make
@@ -13157,6 +13301,7 @@ realm
 (
 )
 )
+{
 masm
 .
 switchToRealm
@@ -13170,6 +13315,7 @@ realm
 ReturnReg
 )
 ;
+}
 masm
 .
 adjustStack
@@ -13493,6 +13639,7 @@ i
 +
 +
 )
+{
 masm
 .
 Push
@@ -13502,6 +13649,7 @@ UndefinedValue
 )
 )
 ;
+}
 masm
 .
 Push
@@ -13530,6 +13678,7 @@ if
 (
 isCrossRealm
 )
+{
 masm
 .
 switchToRealm
@@ -13543,6 +13692,7 @@ realm
 scratch
 )
 ;
+}
 masm
 .
 movePtr
@@ -13712,6 +13862,7 @@ if
 (
 isCrossRealm
 )
+{
 masm
 .
 switchToRealm
@@ -13725,6 +13876,7 @@ realm
 ReturnReg
 )
 ;
+}
 masm
 .
 freeStack
@@ -14364,6 +14516,7 @@ if
 !
 savedLiveRegs_
 )
+{
 allocator
 .
 restoreInputState
@@ -14371,6 +14524,7 @@ restoreInputState
 masm
 )
 ;
+}
 RepatchLabel
 rejoin
 ;
@@ -14533,9 +14687,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Load
@@ -14792,9 +14948,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 Label
 done
 ;
@@ -14973,9 +15131,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 loadPtr
@@ -15302,8 +15462,10 @@ invalidated
 (
 )
 )
+{
 return
 ;
+}
 JitZone
 *
 jitZone
@@ -15467,8 +15629,10 @@ if
 !
 stubInfo
 )
+{
 return
 ;
+}
 CacheIRStubKey
 key
 (
@@ -15487,8 +15651,10 @@ lookup
 key
 )
 )
+{
 return
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -15566,8 +15732,10 @@ stubInfo
 =
 stubInfo
 )
+{
 continue
 ;
+}
 bool
 updated
 =
@@ -15590,8 +15758,10 @@ stubDataStart
 updated
 )
 )
+{
 continue
 ;
+}
 if
 (
 updated
@@ -15794,8 +15964,10 @@ if
 !
 newStubMem
 )
+{
 return
 ;
+}
 IonICStub
 *
 newStub
@@ -15854,8 +16026,10 @@ init
 (
 )
 )
+{
 return
 ;
+}
 JitCode
 *
 code
@@ -15871,8 +16045,10 @@ if
 !
 code
 )
+{
 return
 ;
+}
 attachStub
 (
 newStub
@@ -15973,9 +16149,11 @@ masm
 ConcatStringsInfo
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 tagValue
@@ -16110,9 +16288,11 @@ masm
 DoIonConcatStringObjectInfo
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 storeCallResultValue

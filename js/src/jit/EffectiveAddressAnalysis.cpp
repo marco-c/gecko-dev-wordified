@@ -186,8 +186,10 @@ MIRType
 :
 Int32
 )
+{
 return
 ;
+}
 if
 (
 lsh
@@ -197,8 +199,10 @@ isRecoveredOnBailout
 (
 )
 )
+{
 return
 ;
+}
 MDefinition
 *
 index
@@ -247,8 +251,10 @@ if
 !
 shiftValue
 )
+{
 return
 ;
+}
 if
 (
 shiftValue
@@ -276,8 +282,10 @@ toInt32
 )
 )
 )
+{
 return
 ;
+}
 Scale
 scale
 =
@@ -323,8 +331,10 @@ hasOneUse
 (
 )
 )
+{
 break
 ;
+}
 MUseIterator
 use
 =
@@ -369,8 +379,10 @@ isAdd
 (
 )
 )
+{
 break
 ;
+}
 MAdd
 *
 add
@@ -416,8 +428,10 @@ isTruncated
 (
 )
 )
+{
 break
 ;
+}
 MDefinition
 *
 other
@@ -470,8 +484,10 @@ if
 (
 base
 )
+{
 break
 ;
+}
 base
 =
 other
@@ -490,8 +506,10 @@ isRecoveredOnBailout
 (
 )
 )
+{
 return
 ;
+}
 }
 if
 (
@@ -519,8 +537,10 @@ elemSize
 =
 0
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -531,8 +551,10 @@ hasOneUse
 (
 )
 )
+{
 return
 ;
+}
 MUseIterator
 use
 =
@@ -577,8 +599,10 @@ isBitAnd
 (
 )
 )
+{
 return
 ;
+}
 MBitAnd
 *
 bitAnd
@@ -609,8 +633,10 @@ isRecoveredOnBailout
 (
 )
 )
+{
 return
 ;
+}
 MDefinition
 *
 other
@@ -662,8 +688,10 @@ MIRType
 :
 Int32
 )
+{
 return
 ;
+}
 uint32_t
 bitsClearedByShift
 =
@@ -696,8 +724,10 @@ bitsClearedByMask
 =
 bitsClearedByMask
 )
+{
 return
 ;
+}
 bitAnd
 -
 >
@@ -718,8 +748,10 @@ isRecoveredOnBailout
 (
 )
 )
+{
 return
 ;
+}
 MEffectiveAddress
 *
 eaddr
@@ -856,8 +888,10 @@ isRecoveredOnBailout
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -874,8 +908,10 @@ isAdd
 (
 )
 )
+{
 return
 ;
+}
 JitSpew
 (
 JitSpew_EAA
@@ -1107,8 +1143,10 @@ storageSize
 c2
 )
 )
+{
 return
 ;
+}
 int32_t
 offset
 =
@@ -1125,8 +1163,10 @@ c2
 offset
 )
 )
+{
 return
 ;
+}
 JitSpew
 (
 JitSpew_EAA
@@ -1314,9 +1354,11 @@ newOffset
 oldOffset
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 The
@@ -1359,9 +1401,11 @@ wasm
 :
 OffsetGuardLimit
 )
+{
 return
 false
 ;
+}
 /
 /
 Everything
@@ -1649,6 +1693,7 @@ minWasmHeapLength
 (
 )
 )
+{
 ins
 -
 >
@@ -1656,6 +1701,7 @@ removeBoundsCheck
 (
 )
 ;
+}
 }
 }
 else
@@ -1754,6 +1800,7 @@ isConstant
 (
 )
 )
+{
 mozilla
 :
 :
@@ -1763,6 +1810,7 @@ op0
 op1
 )
 ;
+}
 if
 (
 op1
@@ -1796,6 +1844,7 @@ ins
 imm
 )
 )
+{
 ins
 -
 >
@@ -1804,6 +1853,7 @@ replaceBase
 op0
 )
 ;
+}
 }
 }
 }
@@ -2094,9 +2144,11 @@ ensureBallast
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Note
@@ -2149,6 +2201,7 @@ isLsh
 (
 )
 )
+{
 AnalyzeLsh
 (
 graph_
@@ -2164,6 +2217,7 @@ toLsh
 )
 )
 ;
+}
 else
 if
 (
@@ -2174,6 +2228,7 @@ isLoadUnboxedScalar
 (
 )
 )
+{
 AnalyzeLoadUnboxedScalar
 (
 i
@@ -2184,6 +2239,7 @@ toLoadUnboxedScalar
 )
 )
 ;
+}
 else
 if
 (
@@ -2194,6 +2250,7 @@ isAsmJSLoadHeap
 (
 )
 )
+{
 analyzeAsmJSHeapAccess
 (
 i
@@ -2204,6 +2261,7 @@ toAsmJSLoadHeap
 )
 )
 ;
+}
 else
 if
 (
@@ -2214,6 +2272,7 @@ isAsmJSStoreHeap
 (
 )
 )
+{
 analyzeAsmJSHeapAccess
 (
 i
@@ -2224,6 +2283,7 @@ toAsmJSStoreHeap
 )
 )
 ;
+}
 }
 }
 return

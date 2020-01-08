@@ -251,9 +251,11 @@ length
 =
 0
 )
+{
 return
 true
 ;
+}
 list_
 =
 alloc
@@ -271,9 +273,11 @@ if
 !
 list_
 )
+{
 return
 false
 ;
+}
 length_
 =
 length
@@ -349,9 +353,11 @@ newlength
 <
 length_
 )
+{
 return
 false
 ;
+}
 size_t
 bytes
 ;
@@ -371,9 +377,11 @@ bytes
 )
 )
 )
+{
 return
 false
 ;
+}
 T
 *
 list
@@ -397,9 +405,11 @@ MOZ_UNLIKELY
 list
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 size_t
@@ -415,6 +425,7 @@ i
 +
 +
 )
+{
 list
 [
 i
@@ -425,6 +436,7 @@ list_
 i
 ]
 ;
+}
 length_
 +
 =

@@ -245,8 +245,10 @@ canRecoverOnBailout
 (
 )
 )
+{
 return
 ;
+}
 JitSpew
 (
 JitSpew_FLAC
@@ -346,6 +348,7 @@ i
 +
 +
 )
+{
 markNodesAsRecoveredOnBailout
 (
 def
@@ -357,6 +360,7 @@ i
 )
 )
 ;
+}
 }
 /
 /
@@ -409,8 +413,10 @@ isRecoveredOnBailout
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -421,8 +427,10 @@ hasUses
 (
 )
 )
+{
 return
 ;
+}
 JitSpew
 (
 JitSpew_FLAC
@@ -472,8 +480,10 @@ sum
 .
 term
 )
+{
 return
 ;
+}
 /
 /
 Determine
@@ -838,9 +848,11 @@ loop
 "
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 MInstructionIterator
@@ -881,9 +893,11 @@ ensureBallast
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 mir
@@ -903,9 +917,11 @@ loop
 "
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 i
@@ -915,6 +931,7 @@ isAdd
 (
 )
 )
+{
 AnalyzeAdd
 (
 graph
@@ -930,6 +947,7 @@ toAdd
 )
 )
 ;
+}
 }
 }
 return

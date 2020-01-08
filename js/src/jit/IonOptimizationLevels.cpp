@@ -438,10 +438,12 @@ code
 (
 )
 )
+{
 pc
 =
 nullptr
 ;
+}
 uint32_t
 warmUpThreshold
 =
@@ -539,6 +541,7 @@ length
 >
 MAX_MAIN_THREAD_SCRIPT_SIZE
 )
+{
 warmUpThreshold
 *
 =
@@ -556,6 +559,7 @@ MAX_MAIN_THREAD_SCRIPT_SIZE
 )
 )
 ;
+}
 uint32_t
 numLocalsAndArgs
 =
@@ -570,6 +574,7 @@ numLocalsAndArgs
 >
 MAX_MAIN_THREAD_LOCALS_AND_ARGS
 )
+{
 warmUpThreshold
 *
 =
@@ -582,6 +587,7 @@ MAX_MAIN_THREAD_LOCALS_AND_ARGS
 )
 )
 ;
+}
 if
 (
 !
@@ -592,9 +598,11 @@ JitOptions
 .
 eagerCompilation
 )
+{
 return
 warmUpThreshold
 ;
+}
 /
 /
 It
@@ -928,9 +936,11 @@ script
 pc
 )
 )
+{
 return
 prev
 ;
+}
 prev
 =
 level
