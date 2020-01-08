@@ -12880,7 +12880,7 @@ out
 js
 :
 :
-math_sign_uncached
+math_sign_impl
 (
 in
 )
@@ -13300,7 +13300,7 @@ out
 js
 :
 :
-math_log_uncached
+math_log_impl
 (
 in
 )
@@ -13315,7 +13315,7 @@ out
 js
 :
 :
-math_sin_uncached
+math_sin_impl
 (
 in
 )
@@ -13330,7 +13330,7 @@ out
 js
 :
 :
-math_cos_uncached
+math_cos_impl
 (
 in
 )
@@ -13345,7 +13345,7 @@ out
 js
 :
 :
-math_exp_uncached
+math_exp_impl
 (
 in
 )
@@ -13360,7 +13360,7 @@ out
 js
 :
 :
-math_tan_uncached
+math_tan_impl
 (
 in
 )
@@ -13375,7 +13375,7 @@ out
 js
 :
 :
-math_acos_uncached
+math_acos_impl
 (
 in
 )
@@ -13390,7 +13390,7 @@ out
 js
 :
 :
-math_asin_uncached
+math_asin_impl
 (
 in
 )
@@ -13405,7 +13405,7 @@ out
 js
 :
 :
-math_atan_uncached
+math_atan_impl
 (
 in
 )
@@ -13420,7 +13420,7 @@ out
 js
 :
 :
-math_log10_uncached
+math_log10_impl
 (
 in
 )
@@ -13435,7 +13435,7 @@ out
 js
 :
 :
-math_log2_uncached
+math_log2_impl
 (
 in
 )
@@ -13450,7 +13450,7 @@ out
 js
 :
 :
-math_log1p_uncached
+math_log1p_impl
 (
 in
 )
@@ -13465,7 +13465,7 @@ out
 js
 :
 :
-math_expm1_uncached
+math_expm1_impl
 (
 in
 )
@@ -13480,7 +13480,7 @@ out
 js
 :
 :
-math_cosh_uncached
+math_cosh_impl
 (
 in
 )
@@ -13495,7 +13495,7 @@ out
 js
 :
 :
-math_sinh_uncached
+math_sinh_impl
 (
 in
 )
@@ -13510,7 +13510,7 @@ out
 js
 :
 :
-math_tanh_uncached
+math_tanh_impl
 (
 in
 )
@@ -13525,7 +13525,7 @@ out
 js
 :
 :
-math_acosh_uncached
+math_acosh_impl
 (
 in
 )
@@ -13540,7 +13540,7 @@ out
 js
 :
 :
-math_asinh_uncached
+math_asinh_impl
 (
 in
 )
@@ -13555,7 +13555,7 @@ out
 js
 :
 :
-math_atanh_uncached
+math_atanh_impl
 (
 in
 )
@@ -13570,7 +13570,7 @@ out
 js
 :
 :
-math_trunc_uncached
+math_trunc_impl
 (
 in
 )
@@ -13585,7 +13585,7 @@ out
 js
 :
 :
-math_cbrt_uncached
+math_cbrt_impl
 (
 in
 )

@@ -52738,7 +52738,7 @@ void
 js
 :
 :
-math_log_uncached
+math_log_impl
 )
 ;
 break
@@ -52758,7 +52758,7 @@ void
 js
 :
 :
-math_sin_uncached
+math_sin_impl
 )
 ;
 break
@@ -52778,7 +52778,7 @@ void
 js
 :
 :
-math_cos_uncached
+math_cos_impl
 )
 ;
 break
@@ -52798,7 +52798,7 @@ void
 js
 :
 :
-math_exp_uncached
+math_exp_impl
 )
 ;
 break
@@ -52818,7 +52818,7 @@ void
 js
 :
 :
-math_tan_uncached
+math_tan_impl
 )
 ;
 break
@@ -52838,7 +52838,7 @@ void
 js
 :
 :
-math_atan_uncached
+math_atan_impl
 )
 ;
 break
@@ -52858,7 +52858,7 @@ void
 js
 :
 :
-math_asin_uncached
+math_asin_impl
 )
 ;
 break
@@ -52878,7 +52878,7 @@ void
 js
 :
 :
-math_acos_uncached
+math_acos_impl
 )
 ;
 break
@@ -52898,7 +52898,7 @@ void
 js
 :
 :
-math_log10_uncached
+math_log10_impl
 )
 ;
 break
@@ -52918,7 +52918,7 @@ void
 js
 :
 :
-math_log2_uncached
+math_log2_impl
 )
 ;
 break
@@ -52938,7 +52938,7 @@ void
 js
 :
 :
-math_log1p_uncached
+math_log1p_impl
 )
 ;
 break
@@ -52958,7 +52958,7 @@ void
 js
 :
 :
-math_expm1_uncached
+math_expm1_impl
 )
 ;
 break
@@ -52978,7 +52978,7 @@ void
 js
 :
 :
-math_cosh_uncached
+math_cosh_impl
 )
 ;
 break
@@ -52998,7 +52998,7 @@ void
 js
 :
 :
-math_sinh_uncached
+math_sinh_impl
 )
 ;
 break
@@ -53018,7 +53018,7 @@ void
 js
 :
 :
-math_tanh_uncached
+math_tanh_impl
 )
 ;
 break
@@ -53038,7 +53038,7 @@ void
 js
 :
 :
-math_acosh_uncached
+math_acosh_impl
 )
 ;
 break
@@ -53058,7 +53058,7 @@ void
 js
 :
 :
-math_asinh_uncached
+math_asinh_impl
 )
 ;
 break
@@ -53078,7 +53078,7 @@ void
 js
 :
 :
-math_atanh_uncached
+math_atanh_impl
 )
 ;
 break
@@ -53098,7 +53098,7 @@ void
 js
 :
 :
-math_trunc_uncached
+math_trunc_impl
 )
 ;
 break
@@ -53118,7 +53118,7 @@ void
 js
 :
 :
-math_cbrt_uncached
+math_cbrt_impl
 )
 ;
 break
@@ -62361,7 +62361,7 @@ void
 js
 :
 :
-math_sincos_uncached
+math_sincos_impl
 )
 )
 ;

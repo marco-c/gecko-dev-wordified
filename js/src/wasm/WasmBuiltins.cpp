@@ -5607,7 +5607,7 @@ float
 func
 #
 #
-_uncached_f32
+_impl_f32
 (
 float
 x
@@ -5620,7 +5620,7 @@ float
 func
 #
 #
-_uncached
+_impl
 (
 double
 (
@@ -5865,7 +5865,7 @@ ADD_OVERLOAD
 funcName
 #
 #
-_uncached
+_impl
 native
 Args_Double_Double
 )
@@ -5875,7 +5875,7 @@ ADD_OVERLOAD
 funcName
 #
 #
-_uncached_f32
+_impl_f32
 native
 Args_Float32_Float32
 )
