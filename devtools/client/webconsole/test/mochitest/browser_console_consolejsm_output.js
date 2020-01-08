@@ -300,7 +300,15 @@ console
 .
 dir
 (
-document
+{
+"
+bug851231
+-
+dir
+"
+:
+1
+}
 )
 ;
 testTrace
@@ -389,7 +397,9 @@ checkMessageExists
 (
 hud
 "
-XULDocument
+bug851231
+-
+dir
 "
 )
 ;
