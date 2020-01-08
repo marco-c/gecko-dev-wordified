@@ -432,7 +432,7 @@ buf
 ]
 >
 =
-content_change_cipher_spec
+ssl_ct_change_cipher_spec
 &
 &
 buf
@@ -441,7 +441,7 @@ buf
 ]
 <
 =
-content_application_data
+ssl_ct_application_data
 &
 &
 buf
@@ -2420,7 +2420,7 @@ if
 contentType
 =
 =
-content_application_data
+ssl_ct_application_data
 )
 {
 headerLen
@@ -3552,7 +3552,7 @@ rv
 ssl3_HandleNonApplicationData
 (
 ss
-content_handshake
+ssl_ct_handshake
 0
 0
 &

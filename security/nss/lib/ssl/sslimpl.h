@@ -3244,7 +3244,7 @@ for
 none
 *
 /
-SSL3ContentType
+SSLContentType
 type
 ;
 /
@@ -7831,7 +7831,7 @@ ss
 ssl3CipherSpec
 *
 cwSpec
-SSL3ContentType
+SSLContentType
 type
 const
 PRUint8
@@ -8903,7 +8903,7 @@ ssl3_HandleNonApplicationData
 sslSocket
 *
 ss
-SSL3ContentType
+SSLContentType
 rType
 DTLSEpoch
 epoch
@@ -10610,7 +10610,7 @@ ss
 ssl3CipherSpec
 *
 cwSpec
-SSL3ContentType
+SSLContentType
 contentType
 sslBuffer
 *

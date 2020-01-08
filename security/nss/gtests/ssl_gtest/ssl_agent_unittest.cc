@@ -533,7 +533,7 @@ server_hello
 ;
 MakeRecord
 (
-kTlsHandshakeType
+ssl_ct_handshake
 SSL_LIBRARY_VERSION_TLS_1_3
 server_hello
 .
@@ -617,7 +617,7 @@ buffer
 ;
 MakeRecord
 (
-kTlsHandshakeType
+ssl_ct_handshake
 SSL_LIBRARY_VERSION_TLS_1_3
 server_hello
 .
@@ -711,7 +711,7 @@ buffer
 ;
 MakeRecord
 (
-kTlsHandshakeType
+ssl_ct_handshake
 SSL_LIBRARY_VERSION_TLS_1_3
 server_hello
 .
@@ -728,7 +728,7 @@ buffer2
 ;
 MakeRecord
 (
-kTlsHandshakeType
+ssl_ct_handshake
 SSL_LIBRARY_VERSION_TLS_1_3
 server_hello
 .
@@ -878,7 +878,7 @@ buffer
 ;
 MakeRecord
 (
-kTlsHandshakeType
+ssl_ct_handshake
 SSL_LIBRARY_VERSION_TLS_1_3
 server_hello_frag1
 .
@@ -899,7 +899,7 @@ buffer2
 ;
 MakeRecord
 (
-kTlsHandshakeType
+ssl_ct_handshake
 SSL_LIBRARY_VERSION_TLS_1_3
 server_hello_frag2
 .
@@ -989,7 +989,7 @@ record
 MakeRecord
 (
 variant_
-kTlsAckType
+ssl_ct_ack
 SSL_LIBRARY_VERSION_TLS_1_2
 ackBuf
 sizeof
@@ -1064,7 +1064,7 @@ record
 MakeRecord
 (
 variant_
-kTlsAckType
+ssl_ct_ack
 SSL_LIBRARY_VERSION_TLS_1_2
 ackBuf
 sizeof
@@ -1265,7 +1265,7 @@ buffer
 ;
 MakeRecord
 (
-kTlsApplicationDataType
+ssl_ct_application_data
 SSL_LIBRARY_VERSION_TLS_1_3
 reinterpret_cast
 <
@@ -1376,7 +1376,7 @@ buffer
 ;
 MakeRecord
 (
-kTlsHandshakeType
+ssl_ct_handshake
 SSL_LIBRARY_VERSION_TLS_1_3
 kCannedTls13ClientHello
 sizeof
@@ -1398,7 +1398,7 @@ STATE_CONNECTING
 ;
 MakeRecord
 (
-kTlsApplicationDataType
+ssl_ct_application_data
 SSL_LIBRARY_VERSION_TLS_1_3
 reinterpret_cast
 <

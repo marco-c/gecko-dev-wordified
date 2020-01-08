@@ -2911,7 +2911,7 @@ content_type
 )
 =
 =
-kTlsChangeCipherSpecType
+ssl_ct_change_cipher_spec
 )
 {
 before_ccs_
@@ -3019,7 +3019,7 @@ AFTER_CCS
 :
 EXPECT_EQ
 (
-kTlsHandshakeType
+ssl_ct_handshake
 header
 .
 content_type

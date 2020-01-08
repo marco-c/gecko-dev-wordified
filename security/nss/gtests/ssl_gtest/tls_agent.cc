@@ -6155,7 +6155,7 @@ header
 (
 variant_
 expected_version_
-kTlsApplicationDataType
+ssl_ct_application_data
 seq
 )
 ;
@@ -6977,7 +6977,7 @@ SSL_LIBRARY_VERSION_TLS_1_3
 type
 =
 =
-kTlsApplicationDataType
+ssl_ct_application_data
 )
 {
 uint32_t
@@ -7367,7 +7367,7 @@ out
 Write
 (
 index
-kTlsHandshakeType
+ssl_ct_handshake
 1
 )
 ;

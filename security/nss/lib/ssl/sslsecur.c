@@ -6265,7 +6265,7 @@ len
 tls13_LimitEarlyData
 (
 ss
-content_application_data
+ssl_ct_application_data
 len
 )
 ;

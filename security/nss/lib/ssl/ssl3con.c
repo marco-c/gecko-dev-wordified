@@ -2934,7 +2934,7 @@ msgType
 )
 {
 case
-content_change_cipher_spec
+ssl_ct_change_cipher_spec
 :
 rv
 =
@@ -2948,7 +2948,7 @@ change_cipher_spec
 break
 ;
 case
-content_alert
+ssl_ct_alert
 :
 rv
 =
@@ -2962,7 +2962,7 @@ alert
 break
 ;
 case
-content_handshake
+ssl_ct_handshake
 :
 rv
 =
@@ -2976,7 +2976,7 @@ handshake
 break
 ;
 case
-content_application_data
+ssl_ct_application_data
 :
 rv
 =
@@ -2990,7 +2990,7 @@ application_data
 break
 ;
 case
-content_ack
+ssl_ct_ack
 :
 rv
 =
@@ -8847,8 +8847,8 @@ DTLSEpoch
 epoch
 sslSequenceNumber
 seqNum
-SSL3ContentType
-type
+SSLContentType
+ct
 PRBool
 includesVersion
 SSL3ProtocolVersion
@@ -8930,7 +8930,7 @@ rv
 sslBuffer_AppendNumber
 (
 buf
-type
+ct
 1
 )
 ;
@@ -11680,8 +11680,8 @@ PRBool
 isServer
 PRBool
 isDTLS
-SSL3ContentType
-type
+SSLContentType
+ct
 const
 PRUint8
 *
@@ -11976,7 +11976,7 @@ cwSpec
 -
 >
 nextSeqNum
-type
+ct
 cwSpec
 -
 >
@@ -12784,7 +12784,7 @@ ss
 ssl3CipherSpec
 *
 cwSpec
-SSL3ContentType
+SSLContentType
 contentType
 sslBuffer
 *
@@ -12839,7 +12839,7 @@ needsLength
 }
 contentType
 =
-content_application_data
+ssl_ct_application_data
 ;
 }
 #
@@ -12964,8 +12964,8 @@ ss
 ssl3CipherSpec
 *
 cwSpec
-SSL3ContentType
-type
+SSLContentType
+ct
 const
 PRUint8
 *
@@ -13114,7 +13114,7 @@ ssl_InsertRecordHeader
 (
 ss
 cwSpec
-type
+ct
 wrBuf
 &
 needsLength
@@ -13251,7 +13251,7 @@ tls13_ProtectRecord
 (
 ss
 cwSpec
-type
+ct
 pIn
 contentLen
 wrBuf
@@ -13275,7 +13275,7 @@ IS_DTLS
 (
 ss
 )
-type
+ct
 pIn
 contentLen
 wrBuf
@@ -13372,8 +13372,8 @@ ss
 ssl3CipherSpec
 *
 spec
-SSL3ContentType
-type
+SSLContentType
+ct
 const
 PRUint8
 *
@@ -13532,7 +13532,7 @@ ssl_ProtectRecord
 (
 ss
 spec
-type
+ct
 pIn
 contentLen
 wrBuf
@@ -13782,8 +13782,8 @@ DTLS
 retransmits
 *
 /
-SSL3ContentType
-type
+SSLContentType
+ct
 const
 PRUint8
 *
@@ -13863,7 +13863,7 @@ ss
 fd
 ssl3_DecodeContentType
 (
-type
+ct
 )
 nIn
 )
@@ -13956,10 +13956,10 @@ fd
 ;
 if
 (
-type
+ct
 !
 =
-content_alert
+ssl_ct_alert
 )
 {
 /
@@ -14058,16 +14058,16 @@ ss
 &
 &
 (
-type
+ct
 =
 =
-content_handshake
+ssl_ct_handshake
 |
 |
-type
+ct
 =
 =
-content_change_cipher_spec
+ssl_ct_change_cipher_spec
 )
 )
 ;
@@ -14115,7 +14115,7 @@ ssl_ProtectNextRecord
 (
 ss
 spec
-type
+ct
 pIn
 nIn
 &
@@ -14168,10 +14168,10 @@ ss
 )
 &
 &
-type
+ct
 !
 =
-content_application_data
+ssl_ct_application_data
 )
 {
 PORT_Assert
@@ -15065,7 +15065,7 @@ ssl3_SendRecord
 (
 ss
 NULL
-content_application_data
+ssl_ct_application_data
 in
 +
 totalSent
@@ -15566,7 +15566,7 @@ ssl3_SendRecord
 (
 ss
 NULL
-content_handshake
+ssl_ct_handshake
 ss
 -
 >
@@ -16375,7 +16375,7 @@ ssl3_SendRecord
 (
 ss
 NULL
-content_alert
+ssl_ct_alert
 bytes
 2
 (
@@ -17760,7 +17760,7 @@ ssl3_SendRecord
 (
 ss
 NULL
-content_change_cipher_spec
+ssl_ct_change_cipher_spec
 &
 change
 1
@@ -17795,7 +17795,7 @@ rv
 dtls_QueueMessage
 (
 ss
-content_change_cipher_spec
+ssl_ct_change_cipher_spec
 &
 change
 1
@@ -71229,7 +71229,7 @@ sslSocket
 *
 ss
 SSLHandshakeType
-type
+ct
 PRUint32
 dtlsSeq
 const
@@ -71279,7 +71279,7 @@ hdr
 (
 PRUint8
 )
-type
+ct
 ;
 hdr
 [
@@ -71561,7 +71561,7 @@ sslSocket
 *
 ss
 SSLHandshakeType
-type
+ct
 const
 PRUint8
 *
@@ -71574,7 +71574,7 @@ return
 ssl_HashHandshakeMessageInt
 (
 ss
-type
+ct
 ss
 -
 >
@@ -75692,7 +75692,7 @@ ivLen
 =
 0
 ;
-SSL3ContentType
+SSLContentType
 rType
 ;
 SSL3ProtocolVersion
@@ -76228,7 +76228,7 @@ SECFailure
 rType
 =
 (
-SSL3ContentType
+SSLContentType
 )
 cText
 -
@@ -77098,7 +77098,7 @@ ssl3_HandleNonApplicationData
 sslSocket
 *
 ss
-SSL3ContentType
+SSLContentType
 rType
 DTLSEpoch
 epoch
@@ -77180,7 +77180,7 @@ rType
 )
 {
 case
-content_change_cipher_spec
+ssl_ct_change_cipher_spec
 :
 rv
 =
@@ -77193,7 +77193,7 @@ databuf
 break
 ;
 case
-content_alert
+ssl_ct_alert
 :
 rv
 =
@@ -77206,7 +77206,7 @@ databuf
 break
 ;
 case
-content_handshake
+ssl_ct_handshake
 :
 if
 (
@@ -77242,7 +77242,7 @@ databuf
 break
 ;
 case
-content_ack
+ssl_ct_ack
 :
 if
 (
@@ -77824,7 +77824,7 @@ outOfOrderSpec
 =
 PR_FALSE
 ;
-SSL3ContentType
+SSLContentType
 rType
 ;
 sslBuffer
@@ -77978,7 +77978,7 @@ hdr
 ]
 =
 =
-content_application_data
+ssl_ct_application_data
 )
 {
 PORT_Assert
@@ -78682,7 +78682,7 @@ epoch
 rType
 =
 =
-content_application_data
+ssl_ct_application_data
 )
 {
 PORT_SetError
@@ -79003,7 +79003,7 @@ hdr
 ]
 =
 =
-content_change_cipher_spec
+ssl_ct_change_cipher_spec
 &
 &
 ss
@@ -79437,7 +79437,7 @@ if
 rType
 =
 =
-content_application_data
+ssl_ct_application_data
 )
 {
 if

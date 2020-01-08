@@ -774,7 +774,7 @@ override
 {
 EXPECT_EQ
 (
-kTlsApplicationDataType
+ssl_ct_application_data
 header
 .
 content_type

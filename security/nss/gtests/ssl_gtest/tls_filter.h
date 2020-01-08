@@ -1216,7 +1216,7 @@ content_type
 )
 {
 case
-kTlsChangeCipherSpecType
+ssl_ct_change_cipher_spec
 :
 stream
 <
@@ -1228,7 +1228,7 @@ CCS
 break
 ;
 case
-kTlsAlertType
+ssl_ct_alert
 :
 stream
 <
@@ -1240,10 +1240,7 @@ Alert
 break
 ;
 case
-kTlsHandshakeType
-:
-case
-kTlsAltHandshakeType
+ssl_ct_handshake
 :
 stream
 <
@@ -1255,7 +1252,7 @@ Handshake
 break
 ;
 case
-kTlsApplicationDataType
+ssl_ct_application_data
 :
 stream
 <
@@ -1267,7 +1264,7 @@ Data
 break
 ;
 case
-kTlsAckType
+ssl_ct_ack
 :
 stream
 <
@@ -2032,7 +2029,7 @@ false
 )
 ct_
 (
-content_handshake
+ssl_ct_handshake
 )
 /
 /

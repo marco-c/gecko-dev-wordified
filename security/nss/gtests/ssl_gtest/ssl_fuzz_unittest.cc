@@ -266,7 +266,7 @@ content_type
 )
 =
 =
-kTlsApplicationDataType
+ssl_ct_application_data
 )
 {
 buffer_
