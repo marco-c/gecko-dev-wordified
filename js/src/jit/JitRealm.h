@@ -2790,6 +2790,7 @@ if
 (
 p
 )
+{
 return
 p
 -
@@ -2798,6 +2799,7 @@ value
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -2964,9 +2966,11 @@ stubs_
 StringConcat
 ]
 )
+{
 return
 true
 ;
+}
 stubs_
 [
 StringConcat
@@ -3008,10 +3012,12 @@ stubRef
 :
 stubs_
 )
+{
 stubRef
 =
 nullptr
 ;
+}
 }
 JitCode
 *
@@ -3065,9 +3071,11 @@ stubs_
 RegExpMatcher
 ]
 )
+{
 return
 true
 ;
+}
 stubs_
 [
 RegExpMatcher
@@ -3119,9 +3127,11 @@ stubs_
 RegExpSearcher
 ]
 )
+{
 return
 true
 ;
+}
 stubs_
 [
 RegExpSearcher
@@ -3173,9 +3183,11 @@ stubs_
 RegExpTester
 ]
 )
+{
 return
 true
 ;
+}
 stubs_
 [
 RegExpTester
@@ -3465,10 +3477,12 @@ addr_
 size_
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 }
 AutoWritableJitCode
 (
@@ -3544,10 +3558,12 @@ addr_
 size_
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 rt_
 -
 >
@@ -3589,6 +3605,7 @@ if
 (
 reprotect
 )
+{
 awjc_
 .
 emplace
@@ -3597,6 +3614,7 @@ addr
 size
 )
 ;
+}
 }
 MaybeAutoWritableJitCode
 (
@@ -3611,6 +3629,7 @@ if
 (
 reprotect
 )
+{
 awjc_
 .
 emplace
@@ -3618,6 +3637,7 @@ emplace
 code
 )
 ;
+}
 }
 }
 ;

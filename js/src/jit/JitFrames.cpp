@@ -860,12 +860,14 @@ i
 +
 +
 )
+{
 si
 .
 skip
 (
 )
 ;
+}
 MaybeReadFallback
 recover
 (
@@ -959,8 +961,10 @@ if
 (
 done
 )
+{
 return
 ;
+}
 }
 if
 (
@@ -982,18 +986,22 @@ kind
 =
 JSTRY_FOR_IN
 )
+{
 CloseIterator
 (
 iterObject
 )
 ;
+}
 else
+{
 IteratorCloseForException
 (
 cx
 iterObject
 )
 ;
+}
 }
 else
 {
@@ -1442,8 +1450,10 @@ retval
 =
 BAILOUT_RETURN_OK
 )
+{
 return
 ;
+}
 }
 MOZ_ASSERT_IF
 (
@@ -1480,8 +1490,10 @@ hasTrynotes
 (
 )
 )
+{
 return
 ;
+}
 bool
 inForOfIterClose
 =
@@ -1541,8 +1553,10 @@ if
 (
 inForOfIterClose
 )
+{
 break
 ;
+}
 MOZ_ASSERT_IF
 (
 tn
@@ -1636,8 +1650,10 @@ if
 (
 inForOfIterClose
 )
+{
 break
 ;
+}
 /
 /
 Ion
@@ -2116,6 +2132,7 @@ isExceptionPending
 (
 )
 )
+{
 UnwindEnvironment
 (
 cx
@@ -2127,6 +2144,7 @@ tn
 )
 )
 ;
+}
 /
 /
 Compute
@@ -2466,8 +2484,10 @@ if
 (
 inForOfIterClose
 )
+{
 break
 ;
+}
 uint8_t
 *
 framePointer
@@ -2670,8 +2690,10 @@ isClosingGenerator
 (
 )
 )
+{
 break
 ;
+}
 /
 /
 See
@@ -2684,8 +2706,10 @@ if
 (
 inForOfIterClose
 )
+{
 break
 ;
+}
 SettleOnTryNote
 (
 cx
@@ -2808,8 +2832,10 @@ if
 (
 inForOfIterClose
 )
+{
 break
 ;
+}
 SettleOnTryNote
 (
 cx
@@ -2883,6 +2909,7 @@ exception
 )
 )
 )
+{
 rfe
 -
 >
@@ -2892,6 +2919,7 @@ UndefinedValue
 (
 )
 ;
+}
 cx
 -
 >
@@ -2919,8 +2947,10 @@ if
 (
 inForOfIterClose
 )
+{
 break
 ;
+}
 uint8_t
 *
 framePointer
@@ -2988,8 +3018,10 @@ if
 (
 inForOfIterClose
 )
+{
 break
 ;
+}
 uint8_t
 *
 framePointer
@@ -3232,6 +3264,7 @@ if
 (
 counts
 )
+{
 counts
 -
 >
@@ -3241,6 +3274,7 @@ numExec
 +
 +
 ;
+}
 }
 /
 /
@@ -3395,6 +3429,7 @@ hasTrynotes
 (
 )
 )
+{
 CloseLiveIteratorsBaselineForUncatchableException
 (
 cx
@@ -3402,6 +3437,7 @@ frame
 pc
 )
 ;
+}
 ForcedReturn
 (
 cx
@@ -3461,9 +3497,11 @@ rfe
 pc
 )
 )
+{
 goto
 again
 ;
+}
 if
 (
 rfe
@@ -3866,8 +3904,10 @@ runtime
 )
 )
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 cx
@@ -3984,6 +4024,7 @@ hasIonReturnOverride
 (
 )
 )
+{
 cx
 -
 >
@@ -3991,6 +4032,7 @@ takeIonReturnOverride
 (
 )
 ;
+}
 JitActivation
 *
 activation
@@ -4016,6 +4058,7 @@ JitOptions
 .
 checkOsiPointRegisters
 )
+{
 activation
 -
 >
@@ -4024,6 +4067,7 @@ setCheckRegs
 false
 )
 ;
+}
 #
 endif
 /
@@ -4119,8 +4163,10 @@ done
 (
 )
 )
+{
 break
 ;
+}
 if
 (
 iter
@@ -4151,10 +4197,12 @@ done
 (
 )
 )
+{
 +
 +
 iter
 ;
+}
 continue
 ;
 }
@@ -4377,6 +4425,7 @@ if
 (
 invalidated
 )
+{
 ionScript
 -
 >
@@ -4395,6 +4444,7 @@ defaultFreeOp
 )
 )
 ;
+}
 return
 ;
 }
@@ -4566,6 +4616,7 @@ if
 (
 invalidated
 )
+{
 ionScript
 -
 >
@@ -4584,6 +4635,7 @@ defaultFreeOp
 )
 )
 ;
+}
 }
 else
 if
@@ -4952,8 +5004,10 @@ ResumeFromException
 :
 RESUME_FORCED_RETURN
 )
+{
 return
 ;
+}
 }
 +
 +
@@ -5005,6 +5059,7 @@ isJSJit
 (
 )
 )
+{
 rfe
 -
 >
@@ -5020,6 +5075,7 @@ fp
 (
 )
 ;
+}
 }
 /
 /
@@ -5139,10 +5195,12 @@ isScripted
 (
 )
 )
+{
 +
 +
 iter
 ;
+}
 MOZ_ASSERT
 (
 iter
@@ -5369,6 +5427,7 @@ where
 .
 stack
 )
+{
 return
 (
 uintptr_t
@@ -5386,6 +5445,7 @@ where
 slot
 )
 ;
+}
 return
 (
 uintptr_t
@@ -5605,8 +5665,10 @@ calleeToken
 )
 )
 )
+{
 return
 ;
+}
 size_t
 nargs
 =
@@ -5763,6 +5825,7 @@ i
 +
 +
 )
+{
 TraceRoot
 (
 trc
@@ -5778,6 +5841,7 @@ argv
 "
 )
 ;
+}
 /
 /
 Always
@@ -5819,6 +5883,7 @@ calleeToken
 )
 )
 )
+{
 TraceRoot
 (
 trc
@@ -5836,6 +5901,7 @@ newTarget
 "
 )
 ;
+}
 }
 #
 ifdef
@@ -6254,6 +6320,7 @@ has
 iter
 )
 )
+{
 TraceGenericPointerRoot
 (
 trc
@@ -6278,6 +6345,7 @@ spill
 "
 )
 ;
+}
 else
 if
 (
@@ -6289,6 +6357,7 @@ has
 iter
 )
 )
+{
 TraceRoot
 (
 trc
@@ -6309,6 +6378,7 @@ spill
 "
 )
 ;
+}
 }
 #
 ifdef
@@ -6656,6 +6726,7 @@ moreAllocations
 (
 )
 )
+{
 snapIter
 .
 traceAllocation
@@ -6663,6 +6734,7 @@ traceAllocation
 trc
 )
 ;
+}
 if
 (
 !
@@ -6672,8 +6744,10 @@ moreInstructions
 (
 )
 )
+{
 break
 ;
+}
 snapIter
 .
 nextInstruction
@@ -6895,6 +6969,7 @@ has
 iter
 )
 )
+{
 nursery
 .
 forwardBufferPointer
@@ -6910,6 +6985,7 @@ spill
 )
 )
 ;
+}
 }
 /
 /
@@ -7281,6 +7357,7 @@ outParam
 =
 Type_Handle
 )
+{
 doubleArgs
 -
 =
@@ -7289,6 +7366,7 @@ sizeof
 Value
 )
 ;
+}
 doubleArgs
 -
 =
@@ -7368,6 +7446,7 @@ VMFunction
 :
 RootValue
 )
+{
 TraceRoot
 (
 trc
@@ -7388,7 +7467,9 @@ args
 "
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 f
@@ -7406,6 +7487,7 @@ VMFunction
 RootNone
 )
 ;
+}
 doubleArgs
 +
 =
@@ -7609,6 +7691,7 @@ ConstructNativeExitFrameLayout
 (
 )
 )
+{
 TraceRoot
 (
 trc
@@ -7626,6 +7709,7 @@ target
 "
 )
 ;
+}
 return
 ;
 }
@@ -8256,6 +8340,7 @@ if
 *
 pobj
 )
+{
 TraceRoot
 (
 trc
@@ -8269,6 +8354,7 @@ args
 "
 )
 ;
+}
 break
 ;
 }
@@ -9229,6 +9315,7 @@ done
 +
 activations
 )
+{
 TraceJitActivation
 (
 trc
@@ -9240,6 +9327,7 @@ asJit
 )
 )
 ;
+}
 }
 void
 UpdateJitActivationsForMinorGC
@@ -9328,6 +9416,7 @@ FrameType
 :
 IonJS
 )
+{
 UpdateIonJSFrameForMinorGC
 (
 rt
@@ -9338,6 +9427,7 @@ frame
 )
 )
 ;
+}
 }
 }
 }
@@ -9813,6 +9903,7 @@ ionPcScriptCache
 nullptr
 )
 )
+{
 cx
 -
 >
@@ -9838,6 +9929,7 @@ gcNumber
 )
 )
 ;
+}
 if
 (
 cx
@@ -9983,11 +10075,13 @@ if
 (
 pcRes
 )
+{
 *
 pcRes
 =
 pc
 ;
+}
 /
 /
 Add
@@ -10009,6 +10103,7 @@ ref
 (
 )
 )
+{
 cx
 -
 >
@@ -10024,6 +10119,7 @@ pc
 scriptRes
 )
 ;
+}
 }
 uint32_t
 OsiIndex
@@ -10266,9 +10362,11 @@ growBy
 numResults
 )
 )
+{
 return
 false
 ;
+}
 Value
 guard
 =
@@ -10292,6 +10390,7 @@ i
 +
 +
 )
+{
 (
 *
 results_
@@ -10305,6 +10404,7 @@ init
 guard
 )
 ;
+}
 }
 initialized_
 =
@@ -10878,9 +10978,11 @@ hasInstructionResults
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 switch
 (
@@ -11687,6 +11789,7 @@ index
 )
 )
 )
+{
 return
 fromInstructionResult
 (
@@ -11697,6 +11800,7 @@ index
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 rm
@@ -11836,12 +11940,14 @@ allocationReadable
 a
 )
 )
+{
 return
 allocationValue
 (
 a
 )
 ;
+}
 if
 (
 fallback
@@ -11890,6 +11996,7 @@ initInstructionResults
 fallback
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -11908,6 +12015,7 @@ maybeRead
 "
 )
 ;
+}
 if
 (
 allocationReadable
@@ -11915,12 +12023,14 @@ allocationReadable
 a
 )
 )
+{
 return
 allocationValue
 (
 a
 )
 ;
+}
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -12366,8 +12476,10 @@ alloc
 RM_AlwaysDefault
 )
 )
+{
 return
 ;
+}
 Value
 v
 =
@@ -12386,8 +12498,10 @@ isGCThing
 (
 )
 )
+{
 return
 ;
+}
 Value
 copy
 =
@@ -12541,10 +12655,12 @@ i
 +
 +
 )
+{
 skip
 (
 )
 ;
+}
 nextInstruction
 (
 )
@@ -12621,9 +12737,11 @@ numInstructions
 =
 1
 )
+{
 return
 true
 ;
+}
 JitFrameLayout
 *
 fp
@@ -12860,9 +12978,11 @@ tmp
 )
 )
 )
+{
 return
 false
 ;
+}
 results
 =
 fallback
@@ -13110,9 +13230,11 @@ cx
 numResults
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 No
@@ -13257,9 +13379,11 @@ cx
 s
 )
 )
+{
 return
 false
 ;
+}
 s
 .
 nextInstruction
@@ -13414,10 +13538,12 @@ isResumePoint
 (
 )
 )
+{
 skipInstruction
 (
 )
 ;
+}
 }
 void
 SnapshotIterator
@@ -13505,10 +13631,12 @@ moreAllocations
 (
 )
 )
+{
 skip
 (
 )
 ;
+}
 return
 s
 ;
@@ -13998,6 +14126,7 @@ pc_
 =
 JSOP_FUNAPPLY
 )
+{
 numActualArgs_
 =
 GET_ARGC
@@ -14005,6 +14134,7 @@ GET_ARGC
 pc_
 )
 ;
+}
 if
 (
 JSOp
@@ -14072,6 +14202,7 @@ numActualArgs_
 =
 0xbadbad
 )
+{
 MOZ_CRASH
 (
 "
@@ -14090,6 +14221,7 @@ frame
 "
 )
 ;
+}
 /
 /
 Skip
@@ -14147,12 +14279,14 @@ j
 +
 +
 )
+{
 si_
 .
 skip
 (
 )
 ;
+}
 /
 /
 This
@@ -14238,12 +14372,14 @@ moreAllocations
 (
 )
 )
+{
 si_
 .
 skip
 (
 )
 ;
+}
 si_
 .
 nextFrame
@@ -14452,9 +14588,11 @@ canRecoverResults
 (
 )
 )
+{
 return
 calleeTemplate_
 ;
+}
 SnapshotIterator
 s
 (
@@ -14670,6 +14808,7 @@ isFunctionFrame
 (
 )
 )
+{
 return
 callee
 (
@@ -14681,12 +14820,14 @@ environment
 (
 )
 ;
+}
 if
 (
 isModuleFrame
 (
 )
 )
+{
 return
 script
 (
@@ -14702,6 +14843,7 @@ environment
 (
 )
 ;
+}
 /
 /
 Ion
@@ -14844,6 +14986,7 @@ i
 +
 +
 )
+{
 machine
 .
 setRegisterLocation
@@ -14864,6 +15007,7 @@ i
 r
 )
 ;
+}
 #
 ifdef
 JS_CODEGEN_ARM
@@ -14899,6 +15043,7 @@ i
 +
 +
 )
+{
 machine
 .
 setRegisterLocation
@@ -14920,6 +15065,7 @@ i
 d
 )
 ;
+}
 for
 (
 unsigned
@@ -14938,6 +15084,7 @@ i
 +
 +
 )
+{
 machine
 .
 setRegisterLocation
@@ -14961,6 +15108,7 @@ i
 ]
 )
 ;
+}
 #
 elif
 defined
@@ -15349,9 +15497,11 @@ pc
 )
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 In
@@ -15553,6 +15703,7 @@ more
 (
 )
 )
+{
 fprintf
 (
 stderr
@@ -15567,7 +15718,9 @@ n
 "
 )
 ;
+}
 else
+{
 fprintf
 (
 stderr
@@ -15579,6 +15732,7 @@ n
 "
 )
 ;
+}
 bool
 isFunction
 =
@@ -15809,6 +15963,7 @@ i
 =
 0
 )
+{
 fprintf
 (
 stderr
@@ -15819,6 +15974,7 @@ chain
 "
 )
 ;
+}
 else
 if
 (
@@ -15827,6 +15983,7 @@ i
 =
 1
 )
+{
 fprintf
 (
 stderr
@@ -15836,6 +15993,7 @@ this
 "
 )
 ;
+}
 else
 if
 (
@@ -15852,6 +16010,7 @@ nargs
 (
 )
 )
+{
 fprintf
 (
 stderr
@@ -15869,6 +16028,7 @@ i
 2
 )
 ;
+}
 else
 {
 if
@@ -16773,10 +16933,12 @@ done
 (
 )
 )
+{
 +
 +
 frames
 ;
+}
 }
 }
 }

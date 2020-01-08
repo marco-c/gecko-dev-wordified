@@ -385,9 +385,11 @@ isExitFrame
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 exitFrame
 (

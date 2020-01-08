@@ -1646,11 +1646,13 @@ if
 (
 enabled_
 )
+{
 EnableChannel
 (
 Channel
 )
 ;
+}
 #
 endif
 }

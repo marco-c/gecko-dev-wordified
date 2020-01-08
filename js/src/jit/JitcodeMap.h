@@ -592,9 +592,11 @@ if
 *
 freeList
 )
+{
 return
 nullptr
 ;
+}
 JitcodeSkiplistTower
 *
 tower
@@ -708,6 +710,7 @@ i
 +
 +
 )
+{
 ptrs_
 [
 0
@@ -715,6 +718,7 @@ ptrs_
 =
 nullptr
 ;
+}
 }
 }
 ;
@@ -985,9 +989,11 @@ samplePositionInBuffer_
 =
 kNoSampleInBuffer
 )
+{
 return
 false
 ;
+}
 return
 bufferRangeStart
 <
@@ -1769,9 +1775,11 @@ i
 =
 script
 )
+{
 return
 i
 ;
+}
 }
 return
 -
@@ -3343,9 +3351,11 @@ nativeEndAddr
 )
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Catch
@@ -3381,9 +3391,11 @@ nativeStartAddr
 )
 )
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -4877,9 +4889,11 @@ isJitcodeMarkedFromAnyThread
 rt
 )
 )
+{
 return
 false
 ;
+}
 switch
 (
 kind
@@ -5071,9 +5085,11 @@ if
 *
 freeList
 )
+{
 return
 nullptr
 ;
+}
 JitcodeGlobalEntry
 *
 entry
@@ -5238,6 +5254,7 @@ i
 +
 +
 )
+{
 startTower_
 [
 i
@@ -5245,6 +5262,7 @@ i
 =
 nullptr
 ;
+}
 for
 (
 unsigned
@@ -5263,6 +5281,7 @@ i
 +
 +
 )
+{
 freeTowers_
 [
 i
@@ -5270,6 +5289,7 @@ i
 =
 nullptr
 ;
+}
 }
 ~
 JitcodeGlobalTable
@@ -5715,6 +5735,7 @@ if
 (
 nurseryEntries_
 )
+{
 nurseryEntries_
 -
 >
@@ -5722,6 +5743,7 @@ prevNursery_
 =
 entry
 ;
+}
 nurseryEntries_
 =
 entry
@@ -5759,6 +5781,7 @@ entry
 >
 prevNursery_
 )
+{
 entry
 -
 >
@@ -5772,6 +5795,7 @@ entry
 >
 nextNursery_
 ;
+}
 if
 (
 entry
@@ -5779,6 +5803,7 @@ entry
 >
 nextNursery_
 )
+{
 entry
 -
 >
@@ -5792,6 +5817,7 @@ entry
 >
 prevNursery_
 ;
+}
 if
 (
 nurseryEntries_
@@ -5799,6 +5825,7 @@ nurseryEntries_
 =
 entry
 )
+{
 nurseryEntries_
 =
 entry
@@ -5806,6 +5833,7 @@ entry
 >
 nextNursery_
 ;
+}
 entry
 -
 >
@@ -8235,6 +8263,7 @@ i
 +
 +
 )
+{
 regionOffsets_
 [
 i
@@ -8242,6 +8271,7 @@ i
 =
 0
 ;
+}
 }
 MOZ_MUST_USE
 bool
@@ -8340,6 +8370,7 @@ numRegions_
 -
 1
 )
+{
 regionEnd
 -
 =
@@ -8350,6 +8381,7 @@ regionIndex
 1
 )
 ;
+}
 return
 JitcodeRegionEntry
 (
@@ -8394,9 +8426,11 @@ nativeOffset
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 regionIndex
@@ -8406,9 +8440,11 @@ numRegions_
 -
 1
 )
+{
 return
 true
 ;
+}
 return
 nativeOffset
 <

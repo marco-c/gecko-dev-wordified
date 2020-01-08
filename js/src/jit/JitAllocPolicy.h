@@ -372,9 +372,11 @@ ensureBallast
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 p
 ;
@@ -423,9 +425,11 @@ bytes
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 T
 *
 p
@@ -458,9 +462,11 @@ ensureBallast
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 p
 ;
@@ -591,9 +597,11 @@ bytes
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 static_cast
 <
@@ -642,6 +650,7 @@ MOZ_LIKELY
 p
 )
 )
+{
 memset
 (
 p
@@ -654,6 +663,7 @@ T
 )
 )
 ;
+}
 return
 p
 ;
@@ -696,9 +706,11 @@ MOZ_UNLIKELY
 n
 )
 )
+{
 return
 n
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -1206,6 +1218,7 @@ empty
 (
 )
 )
+{
 return
 new
 (
@@ -1233,6 +1246,7 @@ args
 .
 )
 ;
+}
 T
 *
 res

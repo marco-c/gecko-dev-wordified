@@ -2673,12 +2673,14 @@ data_
 >
 UINT8_MAX
 )
+{
 return
 ExitFrameType
 :
 :
 VMFunction
 ;
+}
 MOZ_ASSERT
 (
 ExitFrameType

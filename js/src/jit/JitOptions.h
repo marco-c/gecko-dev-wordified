@@ -236,6 +236,7 @@ backtracking
 "
 )
 )
+{
 return
 mozilla
 :
@@ -245,6 +246,7 @@ Some
 RegisterAllocator_Backtracking
 )
 ;
+}
 if
 (
 !
@@ -256,6 +258,7 @@ testbed
 "
 )
 )
+{
 return
 mozilla
 :
@@ -265,6 +268,7 @@ Some
 RegisterAllocator_Testbed
 )
 ;
+}
 if
 (
 !
@@ -276,6 +280,7 @@ stupid
 "
 )
 )
+{
 return
 mozilla
 :
@@ -285,6 +290,7 @@ Some
 RegisterAllocator_Stupid
 )
 ;
+}
 return
 mozilla
 :
