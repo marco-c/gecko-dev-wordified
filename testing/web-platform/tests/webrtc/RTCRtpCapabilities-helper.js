@@ -147,7 +147,9 @@ assert_greater_than
 (
 capabilities
 .
-codec
+codecs
+.
+length
 0
 '
 Expect
