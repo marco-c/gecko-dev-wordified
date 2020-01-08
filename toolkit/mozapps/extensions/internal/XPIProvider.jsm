@@ -11628,6 +11628,7 @@ if
 updateCallback
 )
 {
+await
 updateCallback
 (
 )
