@@ -337,10 +337,7 @@ font
 -
 display
 value
-mozilla
-:
-:
-StyleFontDisplay
+uint8_t
 GetFontDisplay
 (
 )
