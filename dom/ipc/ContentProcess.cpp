@@ -1728,6 +1728,12 @@ CleanUp
 (
 )
 {
+mContent
+.
+ClearSharedData
+(
+)
+;
 mXREEmbed
 .
 Stop
