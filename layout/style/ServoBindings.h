@@ -3873,6 +3873,13 @@ RawServoCssUrlDataBorrowed
 url
 )
 ;
+bool
+Servo_CssUrlData_IsLocalRef
+(
+RawServoCssUrlDataBorrowed
+url
+)
+;
 /
 /
 CSS
