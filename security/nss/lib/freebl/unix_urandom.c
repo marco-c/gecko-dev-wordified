@@ -192,6 +192,13 @@ dest
 if
 defined
 (
+__OpenBSD__
+)
+|
+|
+(
+defined
+(
 LINUX
 )
 &
@@ -224,6 +231,7 @@ __GLIBC_MINOR__
 >
 =
 25
+)
 )
 )
 )
