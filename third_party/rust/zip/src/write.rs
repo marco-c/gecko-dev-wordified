@@ -97,7 +97,7 @@ cfg
 feature
 =
 "
-flate2
+deflate
 "
 )
 ]
@@ -111,7 +111,7 @@ cfg
 feature
 =
 "
-flate2
+deflate
 "
 )
 ]
@@ -207,7 +207,7 @@ cfg
 feature
 =
 "
-flate2
+deflate
 "
 )
 ]
@@ -617,7 +617,7 @@ cfg
 feature
 =
 "
-flate2
+deflate
 "
 )
 ]
@@ -668,7 +668,7 @@ not
 feature
 =
 "
-flate2
+deflate
 "
 )
 )
@@ -2444,7 +2444,7 @@ cfg
 feature
 =
 "
-flate2
+deflate
 "
 )
 ]
@@ -2558,7 +2558,7 @@ cfg
 feature
 =
 "
-flate2
+deflate
 "
 )
 ]
@@ -2705,7 +2705,7 @@ cfg
 feature
 =
 "
-flate2
+deflate
 "
 )
 ]
@@ -2881,7 +2881,7 @@ cfg
 feature
 =
 "
-flate2
+deflate
 "
 )
 ]
