@@ -1086,6 +1086,13 @@ InitializeMiddlemanCalls
 (
 )
 ;
+Lock
+:
+:
+InitializeLocks
+(
+)
+;
 /
 /
 Don
@@ -1120,13 +1127,6 @@ thread
 SetPassThrough
 (
 false
-)
-;
-Lock
-:
-:
-InitializeLocks
-(
 )
 ;
 InitializeRewindState
