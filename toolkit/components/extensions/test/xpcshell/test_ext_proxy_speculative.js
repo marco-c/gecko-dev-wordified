@@ -124,12 +124,14 @@ all_urls
 >
 "
 ]
-}
+types
+:
 [
 "
-requestHeaders
+speculative
 "
 ]
+}
 )
 ;
 }
