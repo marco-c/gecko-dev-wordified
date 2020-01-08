@@ -100,6 +100,9 @@ gl
 class
 Context
 ;
+class
+ValidationContext
+;
 bool
 ValidateES2TexStorageParameters
 (
@@ -137,7 +140,7 @@ attachments
 bool
 ValidateDrawBuffersEXT
 (
-Context
+ValidationContext
 *
 context
 GLsizei
@@ -442,25 +445,6 @@ params
 )
 ;
 bool
-ValidateGetPointervRobustANGLERobustANGLE
-(
-Context
-*
-context
-GLenum
-pname
-GLsizei
-bufSize
-GLsizei
-*
-length
-void
-*
-*
-params
-)
-;
-bool
 ValidateBlitFramebufferANGLE
 (
 Context
@@ -491,7 +475,7 @@ filter
 bool
 ValidateClear
 (
-Context
+ValidationContext
 *
 context
 GLbitfield
@@ -504,7 +488,7 @@ ValidateTexImage2D
 Context
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -532,7 +516,7 @@ ValidateTexImage2DRobust
 Context
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -562,7 +546,7 @@ ValidateTexSubImage2D
 Context
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -590,7 +574,7 @@ ValidateTexSubImage2DRobustANGLE
 Context
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -620,7 +604,7 @@ ValidateCompressedTexImage2D
 Context
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -646,7 +630,7 @@ ValidateCompressedTexSubImage2D
 Context
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -674,7 +658,7 @@ ValidateCompressedTexImage2DRobustANGLE
 Context
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -702,7 +686,7 @@ ValidateCompressedTexSubImage2DRobustANGLE
 Context
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -732,7 +716,7 @@ ValidateBindTexture
 Context
 *
 context
-TextureType
+GLenum
 target
 GLuint
 texture
@@ -1016,30 +1000,6 @@ mask
 )
 ;
 bool
-ValidateCoverFillPathCHROMIUM
-(
-Context
-*
-context
-GLuint
-path
-GLenum
-coverMode
-)
-;
-bool
-ValidateCoverStrokePathCHROMIUM
-(
-Context
-*
-context
-GLuint
-path
-GLenum
-coverMode
-)
-;
-bool
 ValidateCoverPathCHROMIUM
 (
 Context
@@ -1089,8 +1049,6 @@ ValidateIsPathCHROMIUM
 Context
 *
 context
-GLuint
-path
 )
 ;
 bool
@@ -1307,7 +1265,7 @@ GLuint
 sourceId
 GLint
 sourceLevel
-TextureTarget
+GLenum
 destTarget
 GLuint
 destId
@@ -1335,7 +1293,7 @@ GLuint
 sourceId
 GLint
 sourceLevel
-TextureTarget
+GLenum
 destTarget
 GLuint
 destId
@@ -1379,14 +1337,14 @@ ValidateCreateShader
 Context
 *
 context
-ShaderType
+GLenum
 type
 )
 ;
 bool
 ValidateBufferData
 (
-Context
+ValidationContext
 *
 context
 BufferBinding
@@ -1404,7 +1362,7 @@ usage
 bool
 ValidateBufferSubData
 (
-Context
+ValidationContext
 *
 context
 BufferBinding
@@ -1434,7 +1392,7 @@ name
 bool
 ValidateActiveTexture
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1444,7 +1402,7 @@ texture
 bool
 ValidateAttachShader
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1456,7 +1414,7 @@ shader
 bool
 ValidateBindAttribLocation
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1472,7 +1430,7 @@ name
 bool
 ValidateBindBuffer
 (
-Context
+ValidationContext
 *
 context
 BufferBinding
@@ -1484,7 +1442,7 @@ buffer
 bool
 ValidateBindFramebuffer
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1496,7 +1454,7 @@ framebuffer
 bool
 ValidateBindRenderbuffer
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1508,7 +1466,7 @@ renderbuffer
 bool
 ValidateBlendColor
 (
-Context
+ValidationContext
 *
 context
 GLclampf
@@ -1524,7 +1482,7 @@ alpha
 bool
 ValidateBlendEquation
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1534,7 +1492,7 @@ mode
 bool
 ValidateBlendEquationSeparate
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1546,7 +1504,7 @@ modeAlpha
 bool
 ValidateBlendFunc
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1558,7 +1516,7 @@ dfactor
 bool
 ValidateBlendFuncSeparate
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1584,7 +1542,7 @@ name
 bool
 ValidateLineWidth
 (
-Context
+ValidationContext
 *
 context
 GLfloat
@@ -1594,7 +1552,7 @@ width
 bool
 ValidateVertexAttribPointer
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1616,7 +1574,7 @@ ptr
 bool
 ValidateDepthRangef
 (
-Context
+ValidationContext
 *
 context
 GLclampf
@@ -1628,7 +1586,7 @@ zFar
 bool
 ValidateRenderbufferStorage
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1644,7 +1602,7 @@ height
 bool
 ValidateRenderbufferStorageMultisampleANGLE
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1662,7 +1620,7 @@ height
 bool
 ValidateCheckFramebufferStatus
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1672,7 +1630,7 @@ target
 bool
 ValidateClearColor
 (
-Context
+ValidationContext
 *
 context
 GLclampf
@@ -1688,7 +1646,7 @@ alpha
 bool
 ValidateClearDepthf
 (
-Context
+ValidationContext
 *
 context
 GLclampf
@@ -1698,7 +1656,7 @@ depth
 bool
 ValidateClearStencil
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -1708,7 +1666,7 @@ s
 bool
 ValidateColorMask
 (
-Context
+ValidationContext
 *
 context
 GLboolean
@@ -1724,7 +1682,7 @@ alpha
 bool
 ValidateCompileShader
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1734,7 +1692,7 @@ shader
 bool
 ValidateCreateProgram
 (
-Context
+ValidationContext
 *
 context
 )
@@ -1742,7 +1700,7 @@ context
 bool
 ValidateCullFace
 (
-Context
+ValidationContext
 *
 context
 CullFaceMode
@@ -1752,7 +1710,7 @@ mode
 bool
 ValidateDeleteProgram
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1762,7 +1720,7 @@ program
 bool
 ValidateDeleteShader
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1772,7 +1730,7 @@ shader
 bool
 ValidateDepthFunc
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1782,7 +1740,7 @@ func
 bool
 ValidateDepthMask
 (
-Context
+ValidationContext
 *
 context
 GLboolean
@@ -1792,7 +1750,7 @@ flag
 bool
 ValidateDetachShader
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1804,7 +1762,7 @@ shader
 bool
 ValidateDisableVertexAttribArray
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1814,7 +1772,7 @@ index
 bool
 ValidateEnableVertexAttribArray
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1824,7 +1782,7 @@ index
 bool
 ValidateFinish
 (
-Context
+ValidationContext
 *
 context
 )
@@ -1832,7 +1790,7 @@ context
 bool
 ValidateFlush
 (
-Context
+ValidationContext
 *
 context
 )
@@ -1840,7 +1798,7 @@ context
 bool
 ValidateFrontFace
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1850,7 +1808,7 @@ mode
 bool
 ValidateGetActiveAttrib
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1876,7 +1834,7 @@ name
 bool
 ValidateGetActiveUniform
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1902,7 +1860,7 @@ name
 bool
 ValidateGetAttachedShaders
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1920,7 +1878,7 @@ shaders
 bool
 ValidateGetAttribLocation
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1934,7 +1892,7 @@ name
 bool
 ValidateGetBooleanv
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1947,7 +1905,7 @@ params
 bool
 ValidateGetError
 (
-Context
+ValidationContext
 *
 context
 )
@@ -1955,7 +1913,7 @@ context
 bool
 ValidateGetFloatv
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1968,7 +1926,7 @@ params
 bool
 ValidateGetIntegerv
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1981,7 +1939,7 @@ params
 bool
 ValidateGetProgramInfoLog
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1999,7 +1957,7 @@ infolog
 bool
 ValidateGetShaderInfoLog
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2017,7 +1975,7 @@ infolog
 bool
 ValidateGetShaderPrecisionFormat
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -2035,7 +1993,7 @@ precision
 bool
 ValidateGetShaderSource
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2053,7 +2011,7 @@ source
 bool
 ValidateGetUniformLocation
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2067,7 +2025,7 @@ name
 bool
 ValidateHint
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -2079,7 +2037,7 @@ mode
 bool
 ValidateIsBuffer
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2089,7 +2047,7 @@ buffer
 bool
 ValidateIsFramebuffer
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2099,7 +2057,7 @@ framebuffer
 bool
 ValidateIsProgram
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2109,7 +2067,7 @@ program
 bool
 ValidateIsRenderbuffer
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2119,7 +2077,7 @@ renderbuffer
 bool
 ValidateIsShader
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2129,7 +2087,7 @@ shader
 bool
 ValidateIsTexture
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2139,7 +2097,7 @@ texture
 bool
 ValidatePixelStorei
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -2151,7 +2109,7 @@ param
 bool
 ValidatePolygonOffset
 (
-Context
+ValidationContext
 *
 context
 GLfloat
@@ -2163,7 +2121,7 @@ units
 bool
 ValidateReleaseShaderCompiler
 (
-Context
+ValidationContext
 *
 context
 )
@@ -2171,7 +2129,7 @@ context
 bool
 ValidateSampleCoverage
 (
-Context
+ValidationContext
 *
 context
 GLclampf
@@ -2183,7 +2141,7 @@ invert
 bool
 ValidateScissor
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2199,7 +2157,7 @@ height
 bool
 ValidateShaderBinary
 (
-Context
+ValidationContext
 *
 context
 GLsizei
@@ -2221,7 +2179,7 @@ length
 bool
 ValidateShaderSource
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2243,7 +2201,7 @@ length
 bool
 ValidateStencilFunc
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -2257,7 +2215,7 @@ mask
 bool
 ValidateStencilFuncSeparate
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -2273,7 +2231,7 @@ mask
 bool
 ValidateStencilMask
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2283,7 +2241,7 @@ mask
 bool
 ValidateStencilMaskSeparate
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -2295,7 +2253,7 @@ mask
 bool
 ValidateStencilOp
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -2309,7 +2267,7 @@ zpass
 bool
 ValidateStencilOpSeparate
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -2325,7 +2283,7 @@ zpass
 bool
 ValidateUniform1f
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2337,7 +2295,7 @@ x
 bool
 ValidateUniform1fv
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2353,7 +2311,7 @@ v
 bool
 ValidateUniform1i
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2365,7 +2323,7 @@ x
 bool
 ValidateUniform2f
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2379,7 +2337,7 @@ y
 bool
 ValidateUniform2fv
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2395,7 +2353,7 @@ v
 bool
 ValidateUniform2i
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2409,7 +2367,7 @@ y
 bool
 ValidateUniform2iv
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2425,7 +2383,7 @@ v
 bool
 ValidateUniform3f
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2441,7 +2399,7 @@ z
 bool
 ValidateUniform3fv
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2457,7 +2415,7 @@ v
 bool
 ValidateUniform3i
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2473,7 +2431,7 @@ z
 bool
 ValidateUniform3iv
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2489,7 +2447,7 @@ v
 bool
 ValidateUniform4f
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2507,7 +2465,7 @@ w
 bool
 ValidateUniform4fv
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2523,7 +2481,7 @@ v
 bool
 ValidateUniform4i
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2541,7 +2499,7 @@ w
 bool
 ValidateUniform4iv
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2557,7 +2515,7 @@ v
 bool
 ValidateUniformMatrix2fv
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2575,7 +2533,7 @@ value
 bool
 ValidateUniformMatrix3fv
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2593,7 +2551,7 @@ value
 bool
 ValidateUniformMatrix4fv
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2611,7 +2569,7 @@ value
 bool
 ValidateValidateProgram
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2621,7 +2579,7 @@ program
 bool
 ValidateVertexAttrib1f
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2633,7 +2591,7 @@ x
 bool
 ValidateVertexAttrib1fv
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2647,7 +2605,7 @@ values
 bool
 ValidateVertexAttrib2f
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2661,7 +2619,7 @@ y
 bool
 ValidateVertexAttrib2fv
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2675,7 +2633,7 @@ values
 bool
 ValidateVertexAttrib3f
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2691,7 +2649,7 @@ z
 bool
 ValidateVertexAttrib3fv
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2705,7 +2663,7 @@ values
 bool
 ValidateVertexAttrib4f
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2723,7 +2681,7 @@ w
 bool
 ValidateVertexAttrib4fv
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2737,7 +2695,7 @@ values
 bool
 ValidateViewport
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -2753,7 +2711,7 @@ height
 bool
 ValidateDrawElements
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -2771,7 +2729,7 @@ indices
 bool
 ValidateDrawArrays
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -2802,7 +2760,7 @@ params
 bool
 ValidateGetProgramiv
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -2817,10 +2775,10 @@ params
 bool
 ValidateCopyTexImage2D
 (
-Context
+ValidationContext
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -2844,7 +2802,7 @@ ValidateCopyTexSubImage2D
 Context
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -2964,7 +2922,7 @@ GLenum
 target
 GLenum
 attachment
-TextureTarget
+GLenum
 textarget
 GLuint
 texture
@@ -2991,7 +2949,7 @@ ValidateGenerateMipmap
 Context
 *
 context
-TextureType
+GLenum
 target
 )
 ;
@@ -3037,7 +2995,7 @@ textures
 bool
 ValidateGetBufferParameteriv
 (
-Context
+ValidationContext
 *
 context
 BufferBinding
@@ -3085,7 +3043,7 @@ ValidateGetTexParameterfv
 Context
 *
 context
-TextureType
+GLenum
 target
 GLenum
 pname
@@ -3100,7 +3058,7 @@ ValidateGetTexParameteriv
 Context
 *
 context
-TextureType
+GLenum
 target
 GLenum
 pname
@@ -3234,7 +3192,7 @@ ValidateTexParameterf
 Context
 *
 context
-TextureType
+GLenum
 target
 GLenum
 pname
@@ -3248,7 +3206,7 @@ ValidateTexParameterfv
 Context
 *
 context
-TextureType
+GLenum
 target
 GLenum
 pname
@@ -3264,7 +3222,7 @@ ValidateTexParameteri
 Context
 *
 context
-TextureType
+GLenum
 target
 GLenum
 pname
@@ -3278,7 +3236,7 @@ ValidateTexParameteriv
 Context
 *
 context
-TextureType
+GLenum
 target
 GLenum
 pname
@@ -3291,7 +3249,7 @@ params
 bool
 ValidateUniform1iv
 (
-Context
+ValidationContext
 *
 context
 GLint
@@ -3434,8 +3392,8 @@ ValidateTexStorage2DEXT
 Context
 *
 context
-TextureType
-type
+GLenum
+target
 GLsizei
 levels
 GLenum
@@ -3518,7 +3476,7 @@ ValidateTexStorage3DEXT
 Context
 *
 context
-TextureType
+GLenum
 target
 GLsizei
 levels

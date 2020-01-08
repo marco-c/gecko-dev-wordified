@@ -98,15 +98,6 @@ include
 "
 libANGLE
 /
-PackedGLEnums_autogen
-.
-h
-"
-#
-include
-"
-libANGLE
-/
 RefCountObject
 .
 h
@@ -153,8 +144,8 @@ data
 ShHandle
 getCompilerHandle
 (
-ShaderType
-shaderType
+GLenum
+type
 )
 ;
 ShShaderOutput
@@ -175,7 +166,7 @@ string
 &
 getBuiltinResourcesString
 (
-ShaderType
+GLenum
 type
 )
 ;

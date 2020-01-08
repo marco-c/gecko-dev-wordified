@@ -1540,10 +1540,7 @@ setShaderResource
 gl
 :
 :
-ShaderType
-:
-:
-Fragment
+SHADER_FRAGMENT
 0
 bufferSRV
 )

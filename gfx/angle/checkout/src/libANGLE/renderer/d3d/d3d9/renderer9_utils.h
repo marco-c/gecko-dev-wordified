@@ -183,10 +183,7 @@ frontFace
 D3DCUBEMAP_FACES
 ConvertCubeFace
 (
-gl
-:
-:
-TextureTarget
+GLenum
 cubeFace
 )
 ;

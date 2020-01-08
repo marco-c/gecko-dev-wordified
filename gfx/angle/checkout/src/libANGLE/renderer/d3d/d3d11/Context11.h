@@ -906,13 +906,8 @@ gl
 Context
 *
 context
-const
-gl
-:
-:
-DrawCallParams
-&
-drawCallParams
+GLenum
+drawMode
 )
 ;
 Renderer11

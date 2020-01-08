@@ -90,7 +90,7 @@ compiler
 /
 translator
 /
-SymbolTable
+IntermTraverse
 .
 h
 "
@@ -101,9 +101,7 @@ compiler
 /
 translator
 /
-tree_util
-/
-IntermTraverse
+SymbolTable
 .
 h
 "

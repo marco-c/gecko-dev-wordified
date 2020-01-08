@@ -64,8 +64,6 @@ compiler
 /
 translator
 /
-tree_util
-/
 IntermTraverse
 .
 h
@@ -75,12 +73,6 @@ sh
 {
 namespace
 {
-const
-int
-kMaxAllowedTraversalDepth
-=
-256
-;
 class
 ValidateGlobalInitializerTraverser
 :
@@ -154,11 +146,6 @@ const
 {
 return
 mIsValid
-&
-&
-mMaxDepth
-<
-mMaxAllowedDepth
 ;
 }
 bool
@@ -564,7 +551,6 @@ TIntermTraverser
 true
 false
 false
-nullptr
 )
 mShaderVersion
 (
@@ -579,11 +565,6 @@ mIssueWarning
 false
 )
 {
-setMaxAllowedDepth
-(
-kMaxAllowedTraversalDepth
-)
-;
 }
 }
 /

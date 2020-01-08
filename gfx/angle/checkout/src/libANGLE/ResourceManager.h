@@ -588,7 +588,7 @@ const
 Limitations
 &
 rendererLimitations
-ShaderType
+GLenum
 type
 )
 ;
@@ -748,8 +748,8 @@ GLImplFactory
 factory
 GLuint
 handle
-TextureType
-type
+GLenum
+target
 )
 {
 return
@@ -757,7 +757,7 @@ checkObjectAllocation
 (
 factory
 handle
-type
+target
 )
 ;
 }
@@ -774,8 +774,8 @@ GLImplFactory
 factory
 GLuint
 handle
-TextureType
-type
+GLenum
+target
 )
 ;
 static

@@ -94,10 +94,13 @@ Context
 struct
 IndexRange
 ;
+class
+ValidationContext
+;
 bool
 ValidateES3TexImageParametersBase
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -142,7 +145,7 @@ ValidateES3TexStorageParameters
 Context
 *
 context
-TextureType
+GLenum
 target
 GLsizei
 levels
@@ -162,7 +165,7 @@ ValidateES3TexImage2DParameters
 Context
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -204,7 +207,7 @@ ValidateES3TexImage3DParameters
 Context
 *
 context
-TextureType
+GLenum
 target
 GLint
 level
@@ -243,7 +246,7 @@ pixels
 bool
 ValidateES3CopyTexImageParametersBase
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -275,10 +278,10 @@ border
 bool
 ValidateES3CopyTexImage2DParameters
 (
-Context
+ValidationContext
 *
 context
-TextureTarget
+GLenum
 target
 GLint
 level
@@ -307,10 +310,10 @@ border
 bool
 ValidateES3CopyTexImage3DParameters
 (
-Context
+ValidationContext
 *
 context
-TextureType
+GLenum
 target
 GLint
 level
@@ -342,7 +345,7 @@ ValidateES3TexStorageParametersBase
 Context
 *
 context
-TextureType
+GLenum
 target
 GLsizei
 levels
@@ -362,7 +365,7 @@ ValidateES3TexStorage2DParameters
 Context
 *
 context
-TextureType
+GLenum
 target
 GLsizei
 levels
@@ -382,7 +385,7 @@ ValidateES3TexStorage3DParameters
 Context
 *
 context
-TextureType
+GLenum
 target
 GLsizei
 levels
@@ -509,7 +512,7 @@ height
 bool
 ValidateClearBuffer
 (
-Context
+ValidationContext
 *
 context
 )
@@ -567,7 +570,7 @@ ValidateCompressedTexImage3D
 Context
 *
 context
-TextureType
+GLenum
 target
 GLint
 level
@@ -595,7 +598,7 @@ ValidateCompressedTexImage3DRobustANGLE
 Context
 *
 context
-TextureType
+GLenum
 target
 GLint
 level
@@ -755,7 +758,7 @@ filter
 bool
 ValidateClearBufferiv
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -771,7 +774,7 @@ value
 bool
 ValidateClearBufferuiv
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -787,7 +790,7 @@ value
 bool
 ValidateClearBufferfv
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -803,7 +806,7 @@ value
 bool
 ValidateClearBufferfi
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -819,7 +822,7 @@ stencil
 bool
 ValidateDrawBuffers
 (
-Context
+ValidationContext
 *
 context
 GLsizei
@@ -836,7 +839,7 @@ ValidateCopyTexSubImage3D
 Context
 *
 context
-TextureType
+GLenum
 target
 GLint
 level
@@ -862,7 +865,7 @@ ValidateTexImage3D
 Context
 *
 context
-TextureType
+GLenum
 target
 GLint
 level
@@ -892,7 +895,7 @@ ValidateTexImage3DRobustANGLE
 Context
 *
 context
-TextureType
+GLenum
 target
 GLint
 level
@@ -924,7 +927,7 @@ ValidateTexSubImage3D
 Context
 *
 context
-TextureType
+GLenum
 target
 GLint
 level
@@ -956,7 +959,7 @@ ValidateTexSubImage3DRobustANGLE
 Context
 *
 context
-TextureType
+GLenum
 target
 GLint
 level
@@ -990,7 +993,7 @@ ValidateCompressedTexSubImage3D
 Context
 *
 context
-TextureType
+GLenum
 target
 GLint
 level
@@ -1022,7 +1025,7 @@ ValidateCompressedTexSubImage3DRobustANGLE
 Context
 *
 context
-TextureType
+GLenum
 target
 GLint
 level
@@ -1248,7 +1251,7 @@ length
 bool
 ValidateIndexedStateQuery
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1263,7 +1266,7 @@ length
 bool
 ValidateGetIntegeri_v
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1278,7 +1281,7 @@ data
 bool
 ValidateGetIntegeri_vRobustANGLE
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1298,7 +1301,7 @@ data
 bool
 ValidateGetInteger64i_v
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1313,7 +1316,7 @@ data
 bool
 ValidateGetInteger64i_vRobustANGLE
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1333,7 +1336,7 @@ data
 bool
 ValidateCopyBufferSubData
 (
-Context
+ValidationContext
 *
 context
 BufferBinding
@@ -1363,7 +1366,7 @@ index
 bool
 ValidateRenderbufferStorageMultisample
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -1381,7 +1384,7 @@ height
 bool
 ValidateVertexAttribIPointer
 (
-Context
+ValidationContext
 *
 context
 GLuint
@@ -1421,7 +1424,7 @@ values
 bool
 ValidateDrawElementsInstanced
 (
-Context
+ValidationContext
 *
 context
 GLenum
@@ -2128,7 +2131,7 @@ ValidateTexStorage2D
 Context
 *
 context
-TextureType
+GLenum
 target
 GLsizei
 levels
@@ -2146,7 +2149,7 @@ ValidateTexStorage3D
 Context
 *
 context
-TextureType
+GLenum
 target
 GLsizei
 levels
@@ -2193,7 +2196,7 @@ params
 bool
 ValidateGetBufferParameteri64v
 (
-Context
+ValidationContext
 *
 context
 BufferBinding
