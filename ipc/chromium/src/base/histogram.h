@@ -599,11 +599,6 @@ string
 >
 #
 include
-<
-vector
->
-#
-include
 "
 base
 /
@@ -617,6 +612,13 @@ include
 base
 /
 lock
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "
@@ -776,10 +778,7 @@ size_t
 kBucketCount_MAX
 ;
 typedef
-std
-:
-:
-vector
+nsTArray
 <
 Count
 >
@@ -1200,7 +1199,7 @@ const
 return
 counts_
 .
-size
+Length
 (
 )
 ;
