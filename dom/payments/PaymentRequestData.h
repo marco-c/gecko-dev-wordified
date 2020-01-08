@@ -785,9 +785,6 @@ nsString
 mSortingCode
 ;
 nsString
-mLanguageCode
-;
-nsString
 mOrganization
 ;
 nsString

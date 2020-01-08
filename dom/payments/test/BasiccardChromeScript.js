@@ -271,13 +271,6 @@ code
 sorting
 code
 "
-en
-"
-/
-/
-language
-code
-"
 "
 /
 /

@@ -268,12 +268,6 @@ code
 "
 /
 /
-language
-code
-"
-"
-/
-/
 organization
 "
 "

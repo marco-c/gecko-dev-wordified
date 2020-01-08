@@ -1668,10 +1668,6 @@ sortingCode
 =
 "
 "
-languageCode
-=
-"
-"
 organization
 =
 "
@@ -1797,7 +1793,6 @@ city
 dependentLocality
 postalCode
 sortingCode
-languageCode
 organization
 recipient
 phone

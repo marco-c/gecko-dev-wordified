@@ -195,10 +195,6 @@ aSortingCode
 const
 nsAString
 &
-aLanguageCode
-const
-nsAString
-&
 aOrganization
 const
 nsAString
@@ -312,15 +308,6 @@ aRetVal
 const
 ;
 void
-GetLanguageCode
-(
-nsAString
-&
-aRetVal
-)
-const
-;
-void
 GetOrganization
 (
 nsAString
@@ -377,9 +364,6 @@ mPostalCode
 ;
 nsString
 mSortingCode
-;
-nsString
-mLanguageCode
 ;
 nsString
 mOrganization

@@ -309,13 +309,6 @@ code
 sorting
 code
 "
-en
-"
-/
-/
-language
-code
-"
 Testing
 Org
 "
