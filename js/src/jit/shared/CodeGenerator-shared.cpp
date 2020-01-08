@@ -10130,7 +10130,7 @@ CodeGeneratorShared
 emitPreBarrier
 (
 Register
-base
+elements
 const
 LAllocation
 *
@@ -10152,7 +10152,7 @@ isConstant
 Address
 address
 (
-base
+elements
 ToInt32
 (
 index
@@ -10180,15 +10180,14 @@ Value
 }
 else
 {
-BaseIndex
+BaseObjectElementIndex
 address
 (
-base
+elements
 ToRegister
 (
 index
 )
-TimesEight
 offsetAdjustment
 )
 ;

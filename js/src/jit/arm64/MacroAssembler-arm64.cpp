@@ -7258,7 +7258,7 @@ value
 MIRType
 valueType
 const
-BaseIndex
+BaseObjectElementIndex
 &
 dest
 MIRType

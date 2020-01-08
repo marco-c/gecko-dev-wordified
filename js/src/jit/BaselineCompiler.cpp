@@ -15066,9 +15066,6 @@ script
 pc
 )
 ;
-Address
-addr
-;
 if
 (
 shape

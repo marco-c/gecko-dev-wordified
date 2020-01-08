@@ -10850,7 +10850,7 @@ slot
 scratch2
 )
 ;
-BaseValueIndex
+BaseObjectSlotIndex
 prototypeSlot
 (
 scratch1

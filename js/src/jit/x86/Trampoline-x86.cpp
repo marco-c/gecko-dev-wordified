@@ -4049,8 +4049,6 @@ the
 offset
 BaseIndex
 b
-=
-BaseIndex
 (
 FramePointer
 esi
@@ -4510,8 +4508,6 @@ pointer
 .
 BaseIndex
 unwind
-=
-BaseIndex
 (
 esp
 ebx

@@ -64368,7 +64368,7 @@ bail
 }
 else
 {
-BaseIndex
+BaseObjectElementIndex
 dest
 (
 elements
@@ -64376,7 +64376,6 @@ ToRegister
 (
 index
 )
-TimesEight
 offsetAdjustment
 )
 ;
@@ -64526,7 +64525,7 @@ elementType
 }
 else
 {
-BaseIndex
+BaseObjectElementIndex
 dest
 (
 elements
@@ -64534,7 +64533,6 @@ ToRegister
 (
 index
 )
-TimesEight
 offsetAdjustment
 )
 ;
@@ -64883,7 +64881,7 @@ dest
 }
 else
 {
-BaseIndex
+BaseObjectElementIndex
 dest
 (
 elements
@@ -64896,7 +64894,6 @@ index
 (
 )
 )
-TimesEight
 lir
 -
 >
@@ -65199,7 +65196,7 @@ Assembler
 :
 :
 Equal
-BaseValueIndex
+BaseObjectElementIndex
 (
 elements
 index
@@ -65567,7 +65564,7 @@ Assembler
 :
 :
 Equal
-BaseValueIndex
+BaseObjectElementIndex
 (
 elements
 index
@@ -65625,11 +65622,10 @@ masm
 storeValue
 (
 value
-BaseIndex
+BaseObjectElementIndex
 (
 elements
 index
-TimesEight
 )
 )
 ;
@@ -67883,12 +67879,11 @@ MArrayPopShift
 Pop
 )
 {
-BaseIndex
+BaseObjectElementIndex
 addr
 (
 elementsTemp
 lengthTemp
-TimesEight
 )
 ;
 masm
@@ -68597,11 +68592,10 @@ masm
 storeConstantOrRegister
 (
 value
-BaseIndex
+BaseObjectElementIndex
 (
 elementsTemp
 length
-TimesEight
 )
 )
 ;
@@ -80668,14 +80662,13 @@ else
 emitLoadElementT
 (
 lir
-BaseIndex
+BaseObjectElementIndex
 (
 elements
 ToRegister
 (
 index
 )
-TimesEight
 lir
 -
 >
@@ -85500,10 +85493,8 @@ needsHoleCheck
 )
 )
 {
-BaseIndex
+BaseObjectElementIndex
 address
-=
-BaseIndex
 (
 elements
 ToRegister
@@ -85515,7 +85506,6 @@ index
 (
 )
 )
-TimesEight
 )
 ;
 masm

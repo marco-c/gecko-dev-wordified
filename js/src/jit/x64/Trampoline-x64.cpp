@@ -4008,8 +4008,6 @@ after
 .
 BaseIndex
 b
-=
-BaseIndex
 (
 r9
 r8
