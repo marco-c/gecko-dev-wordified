@@ -138,9 +138,6 @@ class
 nsAtom
 ;
 class
-nsIDOMNode
-;
-class
 nsINode
 ;
 class

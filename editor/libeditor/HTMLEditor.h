@@ -862,7 +862,7 @@ override
 NS_IMETHOD
 DeleteNode
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
@@ -6062,16 +6062,6 @@ Element
 GetEnclosingTable
 (
 nsINode
-*
-aNode
-)
-;
-static
-nsIDOMNode
-*
-GetEnclosingTable
-(
-nsIDOMNode
 *
 aNode
 )

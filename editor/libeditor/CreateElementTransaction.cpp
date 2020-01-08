@@ -503,10 +503,7 @@ mEditorBase
 >
 MarkNodeDirty
 (
-GetAsDOMNode
-(
 mNewNode
-)
 )
 ;
 /

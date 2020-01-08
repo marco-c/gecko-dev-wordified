@@ -633,10 +633,7 @@ mEditorBase
 >
 MarkNodeDirty
 (
-GetAsDOMNode
-(
 mContentToInsert
-)
 )
 ;
 ErrorResult

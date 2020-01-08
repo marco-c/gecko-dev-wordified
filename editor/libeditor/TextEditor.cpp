@@ -397,13 +397,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIDocumentEncoder
 .
 h

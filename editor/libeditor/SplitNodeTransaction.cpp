@@ -515,7 +515,7 @@ MarkNodeDirty
 (
 mStartOfRightNode
 .
-GetContainerAsDOMNode
+GetContainer
 (
 )
 )
