@@ -721,6 +721,20 @@ extensions
 '
 )
         
+if
+not
+os
+.
+path
+.
+isdir
+(
+extension_dir
+)
+:
+            
+return
+        
 for
 basename
 in
