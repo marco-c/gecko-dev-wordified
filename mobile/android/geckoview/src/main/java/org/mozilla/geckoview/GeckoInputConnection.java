@@ -1652,9 +1652,9 @@ NonNull
 package
 *
 /
-SessionTextInput
+GeckoSession
 .
-Delegate
+TextInputDelegate
 getInputDelegate
 (
 )
