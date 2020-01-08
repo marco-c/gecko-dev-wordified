@@ -1826,12 +1826,6 @@ getBoolPref
 PREF_UA_STYLES
 )
 ;
-this
-.
-_showEmpty
-(
-)
-;
 /
 /
 Add
