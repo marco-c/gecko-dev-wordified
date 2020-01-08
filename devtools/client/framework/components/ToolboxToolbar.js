@@ -1780,10 +1780,6 @@ button
 isChecked
 ?
 "
-command
--
-button
--
 checked
 "
 :
