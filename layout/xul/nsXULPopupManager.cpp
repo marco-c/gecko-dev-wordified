@@ -5956,6 +5956,15 @@ SetCaptureState
 oldmenu
 )
 ;
+NS_ENSURE_TRUE_VOID
+(
+weakFrame
+.
+IsAlive
+(
+)
+)
+;
 item
 -
 >
