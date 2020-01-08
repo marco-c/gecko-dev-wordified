@@ -189,20 +189,6 @@ send_response
 200
 )
             
-validFiles
-=
-[
-'
-raptor
--
-firefox
--
-tp6
-.
-json
-'
-]
-            
 head
 tail
 =
@@ -219,8 +205,23 @@ path
             
 if
 tail
-in
-validFiles
+.
+startswith
+(
+'
+raptor
+'
+)
+and
+tail
+.
+endswith
+(
+'
+.
+json
+'
+)
 :
                 
 LOG
