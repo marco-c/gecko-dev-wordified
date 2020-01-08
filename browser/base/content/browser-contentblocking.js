@@ -3293,11 +3293,9 @@ value
 }
 onSecurityChange
 (
-oldState
 state
 webProgress
 isSimulated
-contentBlockingLogJSON
 )
 {
 let
