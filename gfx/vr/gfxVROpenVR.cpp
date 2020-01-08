@@ -2169,6 +2169,8 @@ Cap_Orientation
 ;
 result
 .
+pose
+.
 orientation
 [
 0
@@ -2179,6 +2181,8 @@ rot
 x
 ;
 result
+.
+pose
 .
 orientation
 [
@@ -2191,6 +2195,8 @@ y
 ;
 result
 .
+pose
+.
 orientation
 [
 2
@@ -2201,6 +2207,8 @@ rot
 z
 ;
 result
+.
+pose
 .
 orientation
 [
@@ -2213,6 +2221,8 @@ w
 ;
 result
 .
+pose
+.
 angularVelocity
 [
 0
@@ -2229,6 +2239,8 @@ v
 ;
 result
 .
+pose
+.
 angularVelocity
 [
 1
@@ -2244,6 +2256,8 @@ v
 ]
 ;
 result
+.
+pose
 .
 angularVelocity
 [
@@ -2271,6 +2285,8 @@ Cap_Position
 ;
 result
 .
+pose
+.
 position
 [
 0
@@ -2281,6 +2297,8 @@ m
 _41
 ;
 result
+.
+pose
 .
 position
 [
@@ -2293,6 +2311,8 @@ _42
 ;
 result
 .
+pose
+.
 position
 [
 2
@@ -2304,6 +2324,8 @@ _43
 ;
 result
 .
+pose
+.
 linearVelocity
 [
 0
@@ -2320,6 +2342,8 @@ v
 ;
 result
 .
+pose
+.
 linearVelocity
 [
 1
@@ -2335,6 +2359,8 @@ v
 ]
 ;
 result
+.
+pose
 .
 linearVelocity
 [
@@ -2361,6 +2387,8 @@ an
 identity
 quaternion
 result
+.
+pose
 .
 orientation
 [
@@ -3151,7 +3179,7 @@ strncpy
 (
 state
 .
-mControllerName
+controllerName
 aId
 .
 BeginReading
@@ -3162,25 +3190,19 @@ kVRControllerNameMaxLen
 ;
 state
 .
-mNumButtons
+numButtons
 =
 aNumButtons
 ;
 state
 .
-mNumAxes
+numAxes
 =
 aNumAxes
 ;
 state
 .
-mNumTriggers
-=
-aNumTriggers
-;
-state
-.
-mNumHaptics
+numHaptics
 =
 kNumOpenVRHaptcs
 ;
@@ -3246,7 +3268,7 @@ mControllerInfo
 .
 mControllerState
 .
-mAxisValue
+axisValue
 [
 aAxis
 ]
@@ -3268,7 +3290,7 @@ mControllerInfo
 .
 mControllerState
 .
-mAxisValue
+axisValue
 [
 aAxis
 ]
@@ -3292,7 +3314,7 @@ mControllerInfo
 .
 mControllerState
 .
-mTriggerValue
+triggerValue
 [
 aButton
 ]
@@ -3315,7 +3337,7 @@ mControllerInfo
 .
 mControllerState
 .
-mTriggerValue
+triggerValue
 [
 aButton
 ]
@@ -3338,7 +3360,7 @@ mControllerInfo
 .
 mControllerState
 .
-mHand
+hand
 =
 aHand
 ;

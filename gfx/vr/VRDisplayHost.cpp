@@ -2085,7 +2085,7 @@ mControllerInfo
 .
 mControllerState
 .
-mHand
+hand
 =
 aHand
 ;
@@ -2162,7 +2162,7 @@ mControllerInfo
 .
 mControllerState
 .
-mButtonPressed
+buttonPressed
 =
 aBit
 ;
@@ -2180,7 +2180,7 @@ mControllerInfo
 .
 mControllerState
 .
-mButtonPressed
+buttonPressed
 ;
 }
 void
@@ -2197,7 +2197,7 @@ mControllerInfo
 .
 mControllerState
 .
-mButtonTouched
+buttonTouched
 =
 aBit
 ;
@@ -2215,7 +2215,7 @@ mControllerInfo
 .
 mControllerState
 .
-mButtonTouched
+buttonTouched
 ;
 }
 void
@@ -2271,7 +2271,7 @@ mControllerInfo
 .
 mControllerState
 .
-mHand
+hand
 ;
 }
 void
