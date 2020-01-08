@@ -7982,13 +7982,16 @@ notifyRootsRemoved
 }
 JS_FRIEND_API
 (
-JSCompartment
+JS
+:
+:
+Realm
 *
 )
 js
 :
 :
-GetAnyCompartmentInZone
+GetAnyRealmInZone
 (
 JS
 :
@@ -7998,8 +8001,8 @@ Zone
 zone
 )
 {
-CompartmentsInZoneIter
-comp
+RealmsInZoneIter
+realm
 (
 zone
 )
@@ -8007,7 +8010,7 @@ zone
 MOZ_ASSERT
 (
 !
-comp
+realm
 .
 done
 (
@@ -8015,7 +8018,7 @@ done
 )
 ;
 return
-comp
+realm
 .
 get
 (
