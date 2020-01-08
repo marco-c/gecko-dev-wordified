@@ -29702,7 +29702,7 @@ denied
 .
 RuntimePermissions
 .
-checkPermission
+checkPermissions
 (
 RuntimePermissions
 .
