@@ -2079,15 +2079,6 @@ NewChannelFromURIWithClientAndController
 (
 aUri
 aLoadingNode
-?
-aLoadingNode
--
->
-AsDOMNode
-(
-)
-:
-nullptr
 aLoadingPrincipal
 aTriggeringPrincipal
 aLoadingClientInfo

@@ -10178,15 +10178,6 @@ wsChannel
 InitLoadInfo
 (
 doc
-?
-doc
--
->
-AsDOMNode
-(
-)
-:
-nullptr
 doc
 ?
 doc

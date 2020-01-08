@@ -979,7 +979,7 @@ nsIURI
 aProxyURI
 uint32_t
 aProxyFlags
-nsIDOMNode
+nsINode
 *
 aLoadingNode
 nsIPrincipal
