@@ -2839,6 +2839,12 @@ constructor
 (
 )
 {
+this
+.
+_policies
+=
+null
+;
 let
 prefReader
 =
