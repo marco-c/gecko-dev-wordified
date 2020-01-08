@@ -340,9 +340,6 @@ aPrincipalURISpec
 nsIArray
 *
 anArrayTransferables
-nsIScriptableRegion
-*
-aRegion
 uint32_t
 aActionType
 nsContentPolicyType
@@ -1085,12 +1082,6 @@ nsCOMPtr
 nsIArray
 >
 mSourceDataItems
-;
-nsCOMPtr
-<
-nsIScriptableRegion
->
-mSourceRegion
 ;
 /
 /

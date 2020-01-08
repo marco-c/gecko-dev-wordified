@@ -247,6 +247,9 @@ nsOverflowChecker
 class
 nsTreeImageListener
 ;
+class
+nsIScriptableRegion
+;
 namespace
 mozilla
 {

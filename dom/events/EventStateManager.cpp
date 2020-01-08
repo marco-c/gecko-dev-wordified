@@ -13344,7 +13344,6 @@ InvokeDragSessionWithImage
 dragTarget
 aPrincipalURISpec
 transArray
-nullptr
 action
 dragImage
 imageX
