@@ -10533,9 +10533,6 @@ init
 function
 "
 ;
-#
-ifdef
-ENABLE_WASM_GC
 case
 SymbolicAddress
 :
@@ -10555,8 +10552,6 @@ wasm
 )
 "
 ;
-#
-endif
 case
 SymbolicAddress
 :

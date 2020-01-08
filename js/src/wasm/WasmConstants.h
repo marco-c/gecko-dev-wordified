@@ -249,9 +249,6 @@ Code
 Data
 =
 11
-#
-ifdef
-ENABLE_WASM_GC
 GcFeatureOptIn
 =
 42
@@ -263,8 +260,6 @@ fits
 in
 7
 bits
-#
-endif
 }
 ;
 enum

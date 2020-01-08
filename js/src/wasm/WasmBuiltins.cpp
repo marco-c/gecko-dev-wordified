@@ -4762,9 +4762,6 @@ tableInit
 abiType
 )
 ;
-#
-ifdef
-ENABLE_WASM_GC
 case
 SymbolicAddress
 :
@@ -4787,8 +4784,6 @@ postBarrier
 abiType
 )
 ;
-#
-endif
 case
 SymbolicAddress
 :
@@ -5305,17 +5300,12 @@ SymbolicAddress
 :
 TableInit
 :
-#
-ifdef
-ENABLE_WASM_GC
 case
 SymbolicAddress
 :
 :
 PostBarrier
 :
-#
-endif
 case
 SymbolicAddress
 :
