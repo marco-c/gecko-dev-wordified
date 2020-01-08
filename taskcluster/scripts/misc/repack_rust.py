@@ -2733,6 +2733,20 @@ android
 "
         
 '
+android_x86
+-
+64
+'
+:
+"
+x86_64
+-
+linux
+-
+android
+"
+        
+'
 android_aarch64
 '
 :
