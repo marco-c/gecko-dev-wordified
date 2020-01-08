@@ -121,7 +121,7 @@ trackers
 .
 enabled
 "
-true
+false
 ]
 ]
 }
