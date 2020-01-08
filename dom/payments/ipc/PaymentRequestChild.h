@@ -160,6 +160,8 @@ aRequest
 void
 MaybeDelete
 (
+bool
+aCanBeInManager
 )
 ;
 nsresult
@@ -258,6 +260,8 @@ aAction
 void
 DetachFromRequest
 (
+bool
+aCanBeInManager
 )
 ;
 PaymentRequest
