@@ -3046,13 +3046,6 @@ i64
 09999999999968
 )
 ;
-if
-(
-wasmSaturatingTruncationSupported
-(
-)
-)
-{
 var
 u64max
 =
@@ -3866,7 +3859,6 @@ infinity
 '
 )
 ;
-}
 testSignExtension
 (
 '

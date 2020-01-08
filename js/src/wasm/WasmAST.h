@@ -2498,12 +2498,7 @@ Const
 ConversionOperator
 CurrentMemory
 Drop
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 ExtraConversionOperator
-#
-endif
 First
 GetGlobal
 GetLocal
@@ -8122,9 +8117,6 @@ operand_
 }
 }
 ;
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 /
 /
 Like
@@ -8215,8 +8207,6 @@ operand_
 }
 }
 ;
-#
-endif
 class
 AstRefNull
 final

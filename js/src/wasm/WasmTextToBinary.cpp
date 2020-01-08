@@ -491,12 +491,7 @@ EndOfFile
 Equal
 Error
 Export
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 ExtraConversionOpcode
-#
-endif
 Field
 Float
 Func
@@ -1049,9 +1044,6 @@ op_
 op
 ;
 }
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 explicit
 WasmToken
 (
@@ -1105,8 +1097,6 @@ miscOp_
 op
 ;
 }
-#
-endif
 explicit
 WasmToken
 (
@@ -1504,9 +1494,6 @@ u
 op_
 ;
 }
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 MiscOp
 miscOp
 (
@@ -1527,8 +1514,6 @@ u
 miscOp_
 ;
 }
-#
-endif
 ThreadOp
 threadOp
 (
@@ -1632,14 +1617,9 @@ Const
 case
 ConversionOpcode
 :
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 case
 ExtraConversionOpcode
 :
-#
-endif
 case
 CurrentMemory
 :
@@ -9539,9 +9519,6 @@ cur_
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 if
 (
 consume
@@ -9666,8 +9643,6 @@ cur_
 )
 ;
 }
-#
-endif
 break
 ;
 case
@@ -12342,9 +12317,6 @@ cur_
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 if
 (
 consume
@@ -12469,8 +12441,6 @@ cur_
 )
 ;
 }
-#
-endif
 break
 ;
 case
@@ -18512,9 +18482,6 @@ operand
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 static
 AstExtraConversionOperator
 *
@@ -18563,8 +18530,6 @@ operand
 )
 ;
 }
-#
-endif
 static
 AstDrop
 *
@@ -22440,9 +22405,6 @@ op
 inParens
 )
 ;
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 case
 WasmToken
 :
@@ -22461,8 +22423,6 @@ miscOp
 inParens
 )
 ;
-#
-endif
 case
 WasmToken
 :
@@ -31174,9 +31134,6 @@ operand
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 static
 bool
 ResolveExtraConversionOperator
@@ -31202,8 +31159,6 @@ operand
 )
 ;
 }
-#
-endif
 static
 bool
 ResolveIfElse
@@ -32425,9 +32380,6 @@ AstConversionOperator
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 case
 AstExprKind
 :
@@ -32448,8 +32400,6 @@ AstExtraConversionOperator
 )
 )
 ;
-#
-endif
 case
 AstExprKind
 :
@@ -35796,9 +35746,6 @@ op
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 static
 bool
 EncodeExtraConversionOperator
@@ -35836,8 +35783,6 @@ op
 )
 ;
 }
-#
-endif
 static
 bool
 EncodeIf
@@ -37811,9 +37756,6 @@ AstDrop
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 case
 AstExprKind
 :
@@ -37834,8 +37776,6 @@ AstExtraConversionOperator
 )
 )
 ;
-#
-endif
 case
 AstExprKind
 :
