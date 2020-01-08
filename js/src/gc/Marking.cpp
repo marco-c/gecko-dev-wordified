@@ -20941,6 +20941,10 @@ tenuredSize
 =
 dstSize
 ;
+tenuredCells
++
++
+;
 /
 /
 Copy
@@ -21302,6 +21306,10 @@ tenuredSize
 +
 =
 srcSize
+;
+tenuredCells
++
++
 ;
 /
 /
@@ -22100,6 +22108,10 @@ dst
 src
 dstKind
 )
+;
+tenuredCells
++
++
 ;
 RelocationOverlay
 *
