@@ -2190,7 +2190,6 @@ null
 params
 .
 isContentWindowPrivate
-aPrincipal
 )
 ;
 }

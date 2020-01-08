@@ -2035,13 +2035,6 @@ persist
 savePrivacyAwareURI
 (
 sourceURI
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 0
 referrer
 Ci

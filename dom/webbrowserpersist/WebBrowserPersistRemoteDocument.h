@@ -136,9 +136,6 @@ nsIInputStream
 .
 h
 "
-class
-nsIPrincipal
-;
 /
 /
 This
@@ -275,12 +272,6 @@ nsCOMPtr
 nsIInputStream
 >
 mPostData
-;
-nsCOMPtr
-<
-nsIPrincipal
->
-mPrincipal
 ;
 friend
 class
