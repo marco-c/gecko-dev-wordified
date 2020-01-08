@@ -15,6 +15,10 @@ calls
 "
 "
 "
+from
+types
+import
+ModuleType
 import
 sys
 os
@@ -207,7 +211,7 @@ better
 class
 ErrorMaker
 (
-object
+ModuleType
 )
 :
     
@@ -588,4 +592,19 @@ error
 =
 ErrorMaker
 (
+'
+py
+.
+error
+'
 )
+sys
+.
+modules
+[
+error
+.
+__name__
+]
+=
+error

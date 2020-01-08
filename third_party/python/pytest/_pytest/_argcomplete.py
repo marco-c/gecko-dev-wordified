@@ -561,7 +561,6 @@ prefix
 :
 ]
 :
-#
             
 prefix_dir
 =
@@ -616,7 +615,19 @@ in
 prefix
 :
             
+#
+we
+are
+on
+unix
+otherwise
+no
+bash
+            
 if
+not
+prefix
+or
 prefix
 [
 -
@@ -630,14 +641,6 @@ path
 .
 sep
 :
-#
-we
-are
-on
-unix
-otherwise
-no
-bash
                 
 globbed
 .
@@ -775,6 +778,9 @@ argcomplete
 autocomplete
 (
 parser
+always_complete_options
+=
+False
 )
 else
 :
@@ -785,6 +791,7 @@ try_argcomplete
 parser
 )
 :
+        
 pass
     
 filescompleter

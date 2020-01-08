@@ -35,6 +35,12 @@ _pytest
 fixtures
 import
 yield_fixture
+from
+_pytest
+.
+outcomes
+import
+fail
 yield_fixture
 def
 recwarn
@@ -1381,13 +1387,6 @@ __tracebackhide__
 =
 True
                     
-from
-_pytest
-.
-runner
-import
-fail
-                    
 fail
 (
 "
@@ -1423,11 +1422,11 @@ is
 .
 format
 (
-                            
+                             
 self
 .
 expected_warning
-                            
+                             
 [
 each
 .

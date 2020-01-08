@@ -55,6 +55,10 @@ import
 time
 import
 platform
+from
+_pytest
+import
+nodes
 import
 _pytest
 .
@@ -106,7 +110,7 @@ action
 "
 count
 "
-               
+                     
 dest
 =
 "
@@ -142,7 +146,7 @@ action
 "
 count
 "
-               
+                     
 dest
 =
 "
@@ -168,7 +172,7 @@ _addoption
 -
 r
 '
-         
+                     
 action
 =
 "
@@ -188,7 +192,7 @@ metavar
 "
 chars
 "
-         
+                     
 help
 =
 "
@@ -206,7 +210,7 @@ f
 )
 ailed
 "
-              
+                     
 "
 (
 E
@@ -225,7 +229,7 @@ X
 )
 passed
 "
-              
+                     
 "
 (
 p
@@ -245,7 +249,7 @@ except
 pP
 .
 "
-              
+                     
 "
 Warnings
 are
@@ -256,7 +260,7 @@ times
 except
 when
 "
-              
+                     
 "
 -
 -
@@ -325,7 +329,7 @@ l
 -
 showlocals
 '
-         
+                     
 action
 =
 "
@@ -339,7 +343,7 @@ showlocals
 default
 =
 False
-         
+                     
 help
 =
 "
@@ -370,7 +374,7 @@ metavar
 "
 style
 "
-               
+                     
 action
 =
 "
@@ -386,7 +390,7 @@ default
 '
 auto
 '
-               
+                     
 choices
 =
 [
@@ -409,7 +413,7 @@ line
 native
 '
 ]
-               
+                     
 help
 =
 "
@@ -449,7 +453,7 @@ full
 -
 trace
 '
-               
+                     
 action
 =
 "
@@ -458,7 +462,7 @@ store_true
 default
 =
 False
-               
+                     
 help
 =
 "
@@ -492,7 +496,7 @@ metavar
 "
 color
 "
-               
+                     
 action
 =
 "
@@ -508,7 +512,7 @@ default
 '
 auto
 '
-               
+                     
 choices
 =
 [
@@ -522,7 +526,7 @@ no
 auto
 '
 ]
-               
+                     
 help
 =
 "
@@ -1571,6 +1575,108 @@ markup
 )
 :
         
+"
+"
+"
+        
+Rewinds
+the
+terminal
+cursor
+to
+the
+beginning
+and
+writes
+the
+given
+line
+.
+        
+:
+kwarg
+erase
+:
+if
+True
+will
+also
+add
+spaces
+until
+the
+full
+terminal
+width
+to
+ensure
+            
+previous
+lines
+are
+properly
+erased
+.
+        
+The
+rest
+of
+the
+keyword
+arguments
+are
+markup
+instructions
+.
+        
+"
+"
+"
+        
+erase
+=
+markup
+.
+pop
+(
+'
+erase
+'
+False
+)
+        
+if
+erase
+:
+            
+fill_count
+=
+self
+.
+_tw
+.
+fullwidth
+-
+len
+(
+line
+)
+            
+fill
+=
+'
+'
+*
+fill_count
+        
+else
+:
+            
+fill
+=
+'
+'
+        
 line
 =
 str
@@ -1590,6 +1696,8 @@ r
 "
 +
 line
++
+fill
 *
 *
 markup
@@ -2562,18 +2670,6 @@ self
 isatty
 :
             
-if
-final
-:
-                
-line
-+
-=
-"
-\
-n
-"
-            
 self
 .
 rewrite
@@ -2582,6 +2678,23 @@ line
 bold
 =
 True
+erase
+=
+True
+)
+            
+if
+final
+:
+                
+self
+.
+write
+(
+'
+\
+n
+'
 )
         
 else
@@ -2852,6 +2965,21 @@ self
 startdir
 )
         
+self
+.
+_write_report_lines_from_hooks
+(
+lines
+)
+    
+def
+_write_report_lines_from_hooks
+(
+self
+lines
+)
+:
+        
 lines
 .
 reverse
@@ -3057,51 +3185,39 @@ return
 return
 0
         
-if
-not
-self
-.
-showheader
-:
-            
-return
-        
-#
-for
-i
-testarg
-in
-enumerate
-(
+lines
+=
 self
 .
 config
 .
-args
-)
-:
-        
-#
+hook
+.
+pytest_report_collectionfinish
+(
+            
+config
+=
 self
 .
-write_line
-(
-"
-test
-path
-%
-d
-:
-%
-s
-"
-%
-(
-i
-+
-1
-testarg
+config
+startdir
+=
+self
+.
+startdir
+items
+=
+session
+.
+items
 )
+        
+self
+.
+_write_report_lines_from_hooks
+(
+lines
 )
     
 def
@@ -3741,7 +3857,7 @@ domain
 )
 ]
                 
-l
+values
 =
 domain
 .
@@ -3752,12 +3868,12 @@ split
 "
 )
                 
-l
+values
 [
 0
 ]
 =
-l
+values
 [
 0
 ]
@@ -3792,7 +3908,7 @@ line
 .
 join
 (
-l
+values
 )
             
 return
@@ -3863,9 +3979,9 @@ replace
 \
 \
 "
-"
-/
-"
+nodes
+.
+SEP
 )
 :
                 
@@ -4009,7 +4125,7 @@ name
 )
 :
         
-l
+values
 =
 [
 ]
@@ -4040,7 +4156,7 @@ _pdbshown
 )
 :
                 
-l
+values
 .
 append
 (
@@ -4048,7 +4164,7 @@ x
 )
         
 return
-l
+values
     
 def
 summary_warnings
@@ -5018,14 +5134,14 @@ v
 def
 flatten
 (
-l
+values
 )
 :
     
 for
 x
 in
-l
+values
 :
         
 if
@@ -5273,7 +5389,7 @@ plugininfo
 )
 :
     
-l
+values
 =
 [
 ]
@@ -5367,10 +5483,10 @@ if
 name
 not
 in
-l
+values
 :
             
-l
+values
 .
 append
 (
@@ -5378,4 +5494,4 @@ name
 )
     
 return
-l
+values

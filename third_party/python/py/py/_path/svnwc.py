@@ -678,10 +678,6 @@ text
 )
     
 if
-py
-.
-std
-.
 sys
 .
 platform
@@ -2801,14 +2797,9 @@ path
 False
 )
     
-quote
-=
-py
-.
-std
-.
+from
 urllib
-.
+import
 quote
     
 if
@@ -4158,10 +4149,6 @@ rev
             
 if
 (
-py
-.
-std
-.
 sys
 .
 platform
@@ -6660,10 +6647,6 @@ to
 win32api
             
 if
-py
-.
-std
-.
 sys
 .
 platform

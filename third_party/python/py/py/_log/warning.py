@@ -267,12 +267,11 @@ not
 None
 :
         
+import
+inspect
+        
 filename
 =
-py
-.
-std
-.
 inspect
 .
 getfile
@@ -527,10 +526,9 @@ path
 lineno
 )
     
-py
-.
-std
-.
+import
+warnings
+    
 warnings
 .
 warn_explicit
@@ -557,10 +555,6 @@ lineno
         
 registry
 =
-py
-.
-std
-.
 warnings
 .
 __dict__

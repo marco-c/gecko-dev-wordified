@@ -429,7 +429,7 @@ AttributeError
 raise
 AttributeError
 (
-                
+            
 '
 %
 r
@@ -445,7 +445,7 @@ r
 '
 %
 (
-                    
+                
 type
 (
 obj
@@ -454,7 +454,7 @@ obj
 __name__
 ann
 name
-                
+            
 )
         
 )

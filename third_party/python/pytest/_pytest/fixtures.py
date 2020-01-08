@@ -5,7 +5,13 @@ absolute_import
 division
 print_function
 import
+inspect
+import
 sys
+import
+warnings
+import
+py
 from
 py
 .
@@ -15,13 +21,11 @@ code
 import
 FormattedExcinfo
 import
-py
-import
-warnings
-import
-inspect
-import
 _pytest
+from
+_pytest
+import
+nodes
 from
 _pytest
 .
@@ -52,19 +56,43 @@ getlocation
 getfuncargnames
     
 safe_getattr
+    
+FuncargnamesCompatAttr
 )
 from
 _pytest
 .
-runner
+outcomes
 import
 fail
-from
-_pytest
+TEST_OUTCOME
+if
+sys
 .
-compat
+version_info
+[
+:
+2
+]
+=
+=
+(
+2
+6
+)
+:
+    
+from
+ordereddict
 import
-FuncargnamesCompatAttr
+OrderedDict
+else
+:
+    
+from
+collections
+import
+OrderedDict
 def
 pytest_sessionstart
 (
@@ -797,14 +825,14 @@ fixturemanager
 '
 '
 argname
-                           
+                                    
 get_direct_param_fixture_func
-                           
+                                    
 arg2scope
 [
 argname
 ]
-                           
+                                    
 valuelist
 False
 False
@@ -877,7 +905,7 @@ None
 )
     
 except
-Exception
+TEST_OUTCOME
 :
         
 #
@@ -966,7 +994,7 @@ else
 #
 cs
 .
-indictes
+indices
 .
 items
 (
@@ -976,42 +1004,39 @@ random
 order
 of
 argnames
-but
+.
+Need
+to
         
 #
-then
-again
-different
-functions
-(
-items
-)
-can
-change
-order
-of
-        
-#
-arguments
+sort
+this
 so
-it
-doesn
-'
-t
-matter
-much
-probably
+that
+different
+calls
+to
+        
+#
+get_parametrized_fixture_keys
+will
+be
+deterministic
+.
         
 for
 argname
 param_index
 in
+sorted
+(
 cs
 .
 indices
 .
 items
 (
+)
 )
 :
             
@@ -1176,7 +1201,9 @@ items
             
 keys
 =
-set
+OrderedDict
+.
+fromkeys
 (
 get_parametrized_fixture_keys
 (
@@ -1248,7 +1275,7 @@ items_other
 newignore
 =
 \
-                
+            
 slice_items
 (
 items
@@ -1263,7 +1290,7 @@ items_before
 =
 reorder_items_atscope
 (
-                            
+            
 items_before
 ignore
 argkeys_cache
@@ -1420,17 +1447,26 @@ not
 None
 :
                 
-argkeys
+newargkeys
 =
-argkeys
+OrderedDict
 .
-difference
+fromkeys
 (
+k
+for
+k
+in
+argkeys
+if
+k
+not
+in
 ignore
 )
                 
 if
-argkeys
+newargkeys
 :
 #
 found
@@ -1439,10 +1475,11 @@ slicing
 key
                     
 slicing_argkey
+_
 =
-argkeys
+newargkeys
 .
-pop
+popitem
 (
 )
                     
@@ -1497,7 +1534,7 @@ in
 argkeys
 and
 \
-                            
+                                
 slicing_argkey
 not
 in
@@ -3207,6 +3244,10 @@ deprecated
 GETFUNCARGVALUE
             
 DeprecationWarning
+            
+stacklevel
+=
+2
 )
         
 return
@@ -3347,7 +3388,7 @@ current
 =
 self
         
-l
+values
 =
 [
 ]
@@ -3373,16 +3414,16 @@ is
 None
 :
                 
-l
+values
 .
 reverse
 (
 )
                 
 return
-l
+values
             
-l
+values
 .
 append
 (
@@ -3928,7 +3969,7 @@ s
 "
 %
 (
-                    
+                     
 (
 requested_scope
 argname
@@ -3944,7 +3985,7 @@ lines
 )
 )
 )
-                
+                 
 pytrace
 =
 False
@@ -4230,14 +4271,6 @@ fixturedef
         
 self
 .
-addfinalizer
-=
-fixturedef
-.
-addfinalizer
-        
-self
-.
 _pyfuncitem
 =
 request
@@ -4310,6 +4343,23 @@ fixturename
 self
 .
 _pyfuncitem
+)
+    
+def
+addfinalizer
+(
+self
+finalizer
+)
+:
+        
+self
+.
+_fixturedef
+.
+addfinalizer
+(
+finalizer
 )
 class
 ScopeMismatchError
@@ -5289,7 +5339,7 @@ else
 fail_fixturefunc
 (
 fixturefunc
-                    
+                                 
 "
 yield_fixture
 function
@@ -5541,6 +5591,8 @@ func
                 
 except
 :
+#
+noqa
                     
 exceptions
 .
@@ -6071,7 +6123,7 @@ kwargs
 )
     
 except
-Exception
+TEST_OUTCOME
 :
         
 fixturedef
@@ -6172,7 +6224,7 @@ function
 raise
 ValueError
 (
-                    
+                
 "
 class
 fixtures
@@ -6615,8 +6667,7 @@ is
 None
 and
 autouse
-=
-=
+is
 False
 :
         
@@ -6627,7 +6678,7 @@ decoration
 return
 FixtureFunctionMarker
 (
-                
+            
 "
 function
 "
@@ -6766,7 +6817,7 @@ decoration
 return
 FixtureFunctionMarker
 (
-                
+            
 "
 function
 "
@@ -7181,30 +7232,14 @@ nofuncargs
 )
 :
             
-if
-cls
-is
-not
-None
-:
-                
-startindex
-=
-1
-            
-else
-:
-                
-startindex
-=
-None
-            
 argnames
 =
 getfuncargnames
 (
 func
-startindex
+cls
+=
+cls
 )
         
 else
@@ -7379,9 +7414,9 @@ p
 sep
 !
 =
-"
-/
-"
+nodes
+.
+SEP
 :
                     
 nodeid
@@ -7393,9 +7428,9 @@ replace
 p
 .
 sep
-"
-/
-"
+nodes
+.
+SEP
 )
         
 self
@@ -7794,10 +7829,8 @@ not
 None
 :
                     
-func_params
+parametrize_func
 =
-getattr
-(
 getattr
 (
 metafunc
@@ -7808,6 +7841,12 @@ parametrize
 '
 None
 )
+                    
+func_params
+=
+getattr
+(
+parametrize_func
 '
 args
 '
@@ -7818,12 +7857,46 @@ None
 ]
 )
                     
+func_kwargs
+=
+getattr
+(
+parametrize_func
+'
+kwargs
+'
+{
+}
+)
+                    
 #
 skip
 directly
 parametrized
 arguments
                     
+if
+"
+argnames
+"
+in
+func_kwargs
+:
+                        
+argnames
+=
+parametrize_func
+.
+kwargs
+[
+"
+argnames
+"
+]
+                    
+else
+:
+                        
 argnames
 =
 func_params
@@ -8509,13 +8582,14 @@ fixturedefs
 :
             
 if
-nodeid
+nodes
 .
-startswith
+ischildnode
 (
 fixturedef
 .
 baseid
+nodeid
 )
 :
                 

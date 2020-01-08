@@ -7,6 +7,7 @@ inspect
 import
 CO_VARARGS
 CO_VARKEYWORDS
+isclass
 builtin_repr
 =
 repr
@@ -52,6 +53,8 @@ _code
 _py2traceback
 import
 format_exception_only
+import
+traceback
 class
 Code
 (
@@ -2722,6 +2725,7 @@ d
 "
 %
 (
+            
 self
 .
 typename
@@ -2962,7 +2966,7 @@ style
 "
 long
 "
-            
+                
 abspath
 =
 False
@@ -3054,10 +3058,6 @@ ReprExceptionInfo
 ReprTracebackNative
 (
                 
-py
-.
-std
-.
 traceback
 .
 format_exception
@@ -3093,6 +3093,7 @@ fmt
 =
 FormattedExcinfo
 (
+            
 showlocals
 =
 showlocals
@@ -3254,6 +3255,7 @@ style
 "
 long
 "
+                 
 abspath
 =
 True
@@ -4009,10 +4011,6 @@ name
 XXX
                     
 #
-py
-.
-std
-.
 pprint
 .
 pprint
@@ -5953,12 +5951,6 @@ __call__
 )
 and
 not
-py
-.
-std
-.
-inspect
-.
 isclass
 (
 obj

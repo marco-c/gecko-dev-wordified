@@ -118,7 +118,7 @@ addoption
 -
 lsof
 '
-           
+                     
 action
 =
 "
@@ -132,7 +132,7 @@ lsof
 default
 =
 False
-           
+                     
 help
 =
 (
@@ -167,7 +167,7 @@ dest
 "
 runpytest
 "
-           
+                     
 choices
 =
 (
@@ -178,7 +178,7 @@ inprocess
 subprocess
 "
 )
-           
+                     
 help
 =
 (
@@ -195,7 +195,7 @@ an
 inprocess
 '
 "
-                 
+                           
 "
 or
 '
@@ -416,7 +416,7 @@ not
 in
 line
 and
-                
+                                             
 '
 mem
 '
@@ -1079,7 +1079,7 @@ executable
 version
 "
 ]
-                
+                                     
 universal_newlines
 =
 True
@@ -1422,7 +1422,7 @@ hookrecorder
 def
 get_public_names
 (
-l
+values
 )
 :
     
@@ -1434,7 +1434,7 @@ return
 names
 from
 iterator
-l
+values
 without
 a
 leading
@@ -1450,7 +1450,7 @@ x
 for
 x
 in
-l
+values
 if
 x
 [
@@ -1982,7 +1982,7 @@ name
 )
 :
         
-l
+values
 =
 self
 .
@@ -1994,18 +1994,18 @@ name
 assert
 len
 (
-l
+values
 )
 =
 =
 1
 (
 name
-l
+values
 )
         
 return
-l
+values
 [
 0
 ]
@@ -2054,7 +2054,7 @@ inamepart
 =
 "
 "
-        
+                    
 names
 =
 "
@@ -2082,7 +2082,7 @@ matches
 "
 "
         
-l
+values
 =
 [
 ]
@@ -2179,7 +2179,7 @@ split
 )
 :
                 
-l
+values
 .
 append
 (
@@ -2188,7 +2188,7 @@ rep
         
 if
 not
-l
+values
 :
             
 raise
@@ -2223,7 +2223,7 @@ inamepart
 if
 len
 (
-l
+values
 )
 >
 1
@@ -2249,12 +2249,12 @@ s
 %
 (
 inamepart
-l
+values
 )
 )
         
 return
-l
+values
 [
 0
 ]
@@ -2337,7 +2337,7 @@ self
 .
 getreports
 (
-            
+                
 "
 pytest_collectreport
 pytest_runtest_logreport
@@ -2846,6 +2846,9 @@ skipped
 failed
 =
 0
+error
+=
+0
 )
 :
         
@@ -2893,46 +2896,86 @@ parseoutcomes
 (
 )
         
-assert
+obtained
+=
+{
+            
+'
 passed
-=
-=
+'
+:
 d
 .
 get
 (
-"
+'
 passed
-"
+'
+0
+)
+            
+'
+skipped
+'
+:
+d
+.
+get
+(
+'
+skipped
+'
+0
+)
+            
+'
+failed
+'
+:
+d
+.
+get
+(
+'
+failed
+'
+0
+)
+            
+'
+error
+'
+:
+d
+.
+get
+(
+'
+error
+'
 0
 )
         
-assert
-skipped
-=
-=
-d
-.
-get
-(
-"
-skipped
-"
-0
-)
+}
         
 assert
-failed
+obtained
 =
 =
-d
-.
-get
+dict
 (
-"
+passed
+=
+passed
+skipped
+=
+skipped
 failed
-"
-0
+=
+failed
+error
+=
+error
 )
 class
 Testdir
@@ -5238,7 +5281,7 @@ makepyfile
 source
 )
         
-l
+values
 =
 list
 (
@@ -5255,7 +5298,7 @@ self
 inline_run
 (
 *
-l
+values
 )
     
 def
@@ -7169,13 +7212,18 @@ env
 =
 env
         
-return
+popen
+=
 subprocess
 .
 Popen
 (
 cmdargs
-                                
+stdin
+=
+subprocess
+.
+PIPE
 stdout
 =
 stdout
@@ -7186,6 +7234,17 @@ stderr
 *
 kw
 )
+        
+popen
+.
+stdin
+.
+close
+(
+)
+        
+return
+popen
     
 def
 run
@@ -7389,7 +7448,7 @@ f1
 stderr
 =
 f2
-                
+                               
 close_fds
 =
 (
@@ -7856,7 +7915,7 @@ prefix
 runpytest
 -
 "
-            
+                                            
 keep
 =
 None
@@ -8273,10 +8332,10 @@ getdecoded
 out
 )
 :
-        
+    
 try
 :
-            
+        
 return
 out
 .
@@ -8288,11 +8347,11 @@ utf
 8
 "
 )
-        
+    
 except
 UnicodeDecodeError
 :
-            
+        
 return
 "
 INTERNAL
@@ -8311,7 +8370,7 @@ s
 "
 %
 (
-                    
+            
 py
 .
 io

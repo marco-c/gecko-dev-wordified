@@ -99,6 +99,10 @@ import
 pytest
 from
 _pytest
+import
+nodes
+from
+_pytest
 .
 config
 import
@@ -1862,9 +1866,9 @@ names
 .
 replace
 (
-"
-/
-"
+nodes
+.
+SEP
 '
 .
 '
@@ -2763,7 +2767,7 @@ report
 .
 nodeid
 and
-                      
+                     
 getattr
 (
 rep
@@ -2776,7 +2780,7 @@ None
 =
 report_ii
 and
-                      
+                     
 getattr
 (
 rep
@@ -3333,9 +3337,9 @@ Junit
 .
 properties
 (
-                    
+                
 [
-                        
+                    
 Junit
 .
 property
@@ -3347,7 +3351,7 @@ value
 =
 value
 )
-                        
+                    
 for
 name
 value
@@ -3355,7 +3359,7 @@ in
 self
 .
 global_properties
-                    
+                
 ]
             
 )

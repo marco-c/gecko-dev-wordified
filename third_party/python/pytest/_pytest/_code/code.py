@@ -1662,6 +1662,8 @@ raise
         
 except
 :
+#
+noqa
             
 line
 =
@@ -2028,7 +2030,7 @@ lineno
 lineno
 )
 and
-                
+                    
 (
 firstlineno
 is
@@ -2407,7 +2409,7 @@ at
 "
 key
             
-l
+values
 =
 cache
 .
@@ -2419,7 +2421,7 @@ key
 )
             
 if
-l
+values
 :
                 
 f
@@ -2437,7 +2439,7 @@ f_locals
 for
 otherloc
 in
-l
+values
 :
                     
 if
@@ -2450,11 +2452,11 @@ f
 eval
 (
 co_equal
-                        
+                                        
 __recursioncache_locals_1
 =
 loc
-                        
+                                        
 __recursioncache_locals_2
 =
 otherloc
@@ -2465,7 +2467,7 @@ otherloc
 return
 i
             
-l
+values
 .
 append
 (
@@ -3021,7 +3023,7 @@ style
 "
 long
 "
-            
+                
 abspath
 =
 False
@@ -3158,7 +3160,7 @@ showlocals
 style
 =
 style
-            
+                               
 abspath
 =
 abspath
@@ -3531,6 +3533,8 @@ raise
         
 except
 :
+#
+noqa
             
 try
 :
@@ -3554,6 +3558,8 @@ raise
             
 except
 :
+#
+noqa
                 
 return
 0
@@ -5182,12 +5188,19 @@ exception
 '
                 
 elif
+(
 e
 .
 __context__
 is
 not
 None
+and
+not
+e
+.
+__suppress_context__
+)
 :
                     
 e
@@ -6453,8 +6466,14 @@ s
 "
 %
 (
+safe_str
+(
 name
+)
+safe_str
+(
 value
+)
 )
                 
 if

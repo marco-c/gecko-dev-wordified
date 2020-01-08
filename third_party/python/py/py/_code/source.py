@@ -1473,10 +1473,9 @@ self
 lines
 ]
             
-py
-.
-std
-.
+import
+linecache
+            
 linecache
 .
 cache
@@ -1702,10 +1701,6 @@ try
 fn
 =
 (
-py
-.
-std
-.
 inspect
 .
 getsourcefile
@@ -1714,10 +1709,6 @@ obj
 )
 or
                   
-py
-.
-std
-.
 inspect
 .
 getfile
@@ -1820,10 +1811,6 @@ try
 sourcelines
 lineno
 =
-py
-.
-std
-.
 inspect
 .
 findsource
@@ -2459,25 +2446,6 @@ str
 (
 source
 )
-        
-if
-sys
-.
-version_info
-<
-(
-2
-7
-)
-:
-            
-content
-+
-=
-"
-\
-n
-"
         
 try
 :

@@ -239,13 +239,16 @@ Call
 else
 :
     
+def
 ast_Call
-=
-lambda
+(
 a
 b
 c
+)
 :
+        
+return
 ast
 .
 Call
@@ -1683,6 +1686,8 @@ __dict__
         
 except
 :
+#
+noqa
             
 if
 name
@@ -2498,7 +2503,7 @@ end1
 is
 None
 and
-            
+                
 cookie_re
 .
 match
@@ -4895,9 +4900,38 @@ pytest_ar
 )
 ]
         
+doc
+=
+getattr
+(
+mod
+"
+docstring
+"
+None
+)
+        
 expect_docstring
 =
-True
+doc
+is
+None
+        
+if
+doc
+is
+not
+None
+and
+self
+.
+is_rewrite_disabled
+(
+doc
+)
+:
+            
+return
         
 pos
 =
@@ -4905,7 +4939,7 @@ pos
         
 lineno
 =
-0
+1
         
 for
 item
@@ -4949,33 +4983,15 @@ value
 s
                 
 if
-"
-PYTEST_DONT_REWRITE
-"
-in
-doc
-:
-                    
-#
-The
-module
-has
-disabled
-assertion
-rewriting
+self
 .
-                    
-return
-                
-lineno
-+
-=
-len
+is_rewrite_disabled
 (
 doc
 )
--
-1
+:
+                    
+return
                 
 expect_docstring
 =
@@ -5022,6 +5038,15 @@ pos
 +
 =
 1
+        
+else
+:
+            
+lineno
+=
+item
+.
+lineno
         
 imports
 =
@@ -5223,6 +5248,21 @@ append
 (
 field
 )
+    
+def
+is_rewrite_disabled
+(
+self
+docstring
+)
+:
+        
+return
+"
+PYTEST_DONT_REWRITE
+"
+in
+docstring
     
 def
 variable
@@ -6124,7 +6164,7 @@ always
 true
 perhaps
 '
-                              
+                             
 '
 remove
 parentheses
@@ -7289,7 +7329,6 @@ expl
             
 else
 :
-#
 #
 *
 *

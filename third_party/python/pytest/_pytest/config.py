@@ -643,7 +643,7 @@ _preinit
 default_plugins
 =
 (
-     
+    
 "
 mark
 main
@@ -656,7 +656,7 @@ unittest
 capture
 skipping
 "
-     
+    
 "
 tmpdir
 monkeypatch
@@ -666,7 +666,7 @@ helpconfig
 nose
 assertion
 "
-     
+    
 "
 junitxml
 resultlog
@@ -674,7 +674,7 @@ doctest
 cacheprovider
 freeze_support
 "
-     
+    
 "
 setuponly
 setupplan
@@ -1041,7 +1041,7 @@ hook
 .
 pytest_cmdline_parse
 (
-                
+            
 pluginmanager
 =
 pluginmanager
@@ -1369,6 +1369,7 @@ PluginManager
 .
 add_hookspecs
 >
+        
 instead
 .
         
@@ -1608,7 +1609,7 @@ self
 .
 parse_hookspec_opts
 (
-                                                
+            
 module_or_class
 name
 )
@@ -1797,7 +1798,7 @@ pytest_plugin_registered
 .
 call_historic
 (
-                      
+                
 kwargs
 =
 dict
@@ -1941,7 +1942,7 @@ addinivalue_line
 "
 markers
 "
-            
+                                
 "
 tryfirst
 :
@@ -1954,7 +1955,7 @@ such
 that
 the
 "
-            
+                                
 "
 plugin
 machinery
@@ -1980,7 +1981,7 @@ addinivalue_line
 "
 markers
 "
-            
+                                
 "
 trylast
 :
@@ -1993,7 +1994,7 @@ such
 that
 the
 "
-            
+                                
 "
 plugin
 machinery
@@ -2195,7 +2196,7 @@ abs
 True
 )
 \
-                                
+            
 if
 namespace
 .
@@ -6036,7 +6037,7 @@ usage
 parser
 .
 _usage
-            
+                                         
 add_help
 =
 False
@@ -6646,7 +6647,6 @@ option
 in
 options
 :
-#
             
 if
 len
@@ -6858,6 +6858,99 @@ FILE_OR_DIR
 '
 file_or_dir
 '
+def
+_iter_rewritable_modules
+(
+package_files
+)
+:
+    
+for
+fn
+in
+package_files
+:
+        
+is_simple_module
+=
+'
+/
+'
+not
+in
+fn
+and
+fn
+.
+endswith
+(
+'
+.
+py
+'
+)
+        
+is_package
+=
+fn
+.
+count
+(
+'
+/
+'
+)
+=
+=
+1
+and
+fn
+.
+endswith
+(
+'
+__init__
+.
+py
+'
+)
+        
+if
+is_simple_module
+:
+            
+module_name
+_
+=
+os
+.
+path
+.
+splitext
+(
+fn
+)
+            
+yield
+module_name
+        
+elif
+is_package
+:
+            
+package_name
+=
+os
+.
+path
+.
+dirname
+(
+fn
+)
+            
+yield
+package_name
 class
 Config
 (
@@ -7432,7 +7525,7 @@ getrepr
 funcargs
 =
 True
-            
+                                  
 showlocals
 =
 getattr
@@ -7443,11 +7536,11 @@ showlocals
 '
 False
 )
-            
+                                  
 style
 =
 style
-        
+                                  
 )
         
 res
@@ -8203,98 +8296,19 @@ metadata
 )
         
 for
-fn
+name
 in
+_iter_rewritable_modules
+(
 package_files
+)
 :
             
-is_simple_module
-=
-os
-.
-sep
-not
-in
-fn
-and
-fn
-.
-endswith
-(
-'
-.
-py
-'
-)
-            
-is_package
-=
-fn
-.
-count
-(
-os
-.
-sep
-)
-=
-=
-1
-and
-fn
-.
-endswith
-(
-'
-__init__
-.
-py
-'
-)
-            
-if
-is_simple_module
-:
-                
-module_name
-ext
-=
-os
-.
-path
-.
-splitext
-(
-fn
-)
-                
 hook
 .
 mark_rewrite
 (
-module_name
-)
-            
-elif
-is_package
-:
-                
-package_name
-=
-os
-.
-path
-.
-dirname
-(
-fn
-)
-                
-hook
-.
-mark_rewrite
-(
-package_name
+name
 )
     
 def
@@ -8551,14 +8565,6 @@ copy
 )
 )
         
-confcutdir
-=
-self
-.
-known_args_namespace
-.
-confcutdir
-        
 if
 self
 .
@@ -8608,7 +8614,7 @@ pytest_load_initial_conftests
 early_config
 =
 self
-                    
+                                                    
 args
 =
 args
@@ -8789,7 +8795,7 @@ s
 "
 %
 (
-                    
+                        
 self
 .
 inicfg
@@ -8807,7 +8813,7 @@ lineof
 minversion
 '
 )
-                    
+                        
 minver
 pytest
 .
@@ -8847,7 +8853,7 @@ args
 '
 )
 (
-                
+            
 "
 can
 only
@@ -8877,7 +8883,7 @@ pytest_addhooks
 .
 call_historic
 (
-                                  
+            
 kwargs
 =
 dict
@@ -9326,7 +9332,7 @@ dirpath
 (
 )
             
-l
+values
 =
 [
 ]
@@ -9342,7 +9348,7 @@ value
 )
 :
                 
-l
+values
 .
 append
 (
@@ -9358,7 +9364,7 @@ True
 )
             
 return
-l
+values
         
 elif
 type
@@ -9498,7 +9504,7 @@ dirpath
 (
 )
         
-l
+values
 =
 [
 ]
@@ -9552,7 +9558,7 @@ abs
 True
 )
             
-l
+values
 .
 append
 (
@@ -9560,7 +9566,7 @@ relroot
 )
         
 return
-l
+values
     
 def
 _get_override_ini_value
@@ -10767,9 +10773,9 @@ rootdir
 ]
 =
 =
-os
-.
-sep
+'
+/
+'
                     
 if
 is_fs_root

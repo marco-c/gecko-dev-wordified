@@ -13,6 +13,7 @@ import
 sys
 import
 inspect
+import
 tokenize
 import
 py
@@ -969,11 +970,14 @@ except
 ImportError
 :
             
+def
 syntax_checker
-=
-lambda
+(
 x
+)
 :
+                
+return
 compile
 (
 x
@@ -1499,7 +1503,6 @@ exec
 '
 flags
 =
-            
 generators
 .
 compiler_flag
@@ -1833,6 +1836,8 @@ raise
     
 except
 :
+#
+noqa
         
 return
 None
@@ -2281,7 +2286,7 @@ indexing
 at
 1
     
-l
+values
 =
 [
 ]
@@ -2315,7 +2320,7 @@ ExceptHandler
 )
 :
             
-l
+values
 .
 append
 (
@@ -2362,7 +2367,7 @@ its
 own
 statement
                     
-l
+values
 .
 append
 (
@@ -2378,7 +2383,7 @@ lineno
 1
 )
     
-l
+values
 .
 sort
 (
@@ -2388,13 +2393,13 @@ insert_index
 =
 bisect_right
 (
-l
+values
 lineno
 )
     
 start
 =
-l
+values
 [
 insert_index
 -
@@ -2407,7 +2412,7 @@ insert_index
 =
 len
 (
-l
+values
 )
 :
         
@@ -2420,7 +2425,7 @@ else
         
 end
 =
-l
+values
 [
 insert_index
 ]

@@ -5,8 +5,12 @@
 "
 "
 import
+warnings
+import
 os
+import
 sys
+import
 posixpath
 import
 fnmatch
@@ -1343,6 +1347,9 @@ rb
 try
 :
             
+import
+pickle
+            
 return
 py
 .
@@ -1350,10 +1357,6 @@ error
 .
 checked_call
 (
-py
-.
-std
-.
 pickle
 .
 load
@@ -1406,6 +1409,7 @@ error
 .
 EINVAL
 (
+                
 target
                 
 "
@@ -2753,6 +2757,34 @@ __call__
 '
 )
 :
+                
+warnings
+.
+warn
+(
+DeprecationWarning
+(
+                    
+"
+listdir
+(
+sort
+=
+callable
+)
+is
+deprecated
+and
+breaks
+on
+python3
+"
+                
+)
+stacklevel
+=
+3
+)
                 
 res
 .
