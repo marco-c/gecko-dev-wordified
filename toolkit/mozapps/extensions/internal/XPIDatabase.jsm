@@ -17501,6 +17501,12 @@ id
 if
 (
 xpiState
+&
+&
+!
+xpiState
+.
+missing
 )
 {
 let
@@ -17637,6 +17643,11 @@ has
 (
 id
 )
+|
+|
+xpiState
+.
+missing
 )
 continue
 ;
