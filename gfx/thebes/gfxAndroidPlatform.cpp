@@ -474,10 +474,13 @@ nsIMemoryReporter
 template
 <
 >
-Atomic
+CountingAllocatorBase
 <
-size_t
+FreetypeReporter
 >
+:
+:
+AmountType
 CountingAllocatorBase
 <
 FreetypeReporter
