@@ -189,6 +189,8 @@ replace_malloc
 moz_xmalloc
 vpx_malloc
 js_malloc
+    
+#
 pod_malloc
 malloc_zone_
 *
@@ -206,6 +208,8 @@ replace_calloc
 moz_xcalloc
 vpx_calloc
 js_calloc
+    
+#
 pod_calloc
 malloc_zone_calloc
 pod_callocCanGC
@@ -222,6 +226,8 @@ replace_realloc
 moz_xrealloc
 vpx_realloc
 js_realloc
+    
+#
 pod_realloc
 pod_reallocCanGC
 .
@@ -236,6 +242,8 @@ memalign
 posix_memalign
 replace_memalign
 replace_posix_memalign
+    
+#
 moz_xmemalign
 vpx_memalign
 malloc_zone_memalign
@@ -1360,6 +1368,9 @@ start
 of
 live
 blocks
+'
+                   
+'
 or
 zero
 if
@@ -1401,6 +1412,9 @@ pointer
 clamping
 ;
 mostly
+'
+                   
+'
 useful
 for
 debugging
@@ -2269,8 +2283,8 @@ live
 '
     
 if
-not
 mode
+not
 in
 [
 '
@@ -3449,8 +3463,7 @@ if
 record
 .
 allocatedAtDesc
-=
-=
+is
 None
 :
             
@@ -5099,8 +5112,7 @@ n
         
 if
 dmdEnvVar
-=
-=
+is
 None
 :
             
@@ -6484,6 +6496,7 @@ blocks
 :
 '
 +
+            
 str
 (
 self
@@ -6546,6 +6559,9 @@ not
 pointing
 into
 blocks
+'
+                         
+'
 clamped
 to
 null
@@ -7070,10 +7086,10 @@ contents
 .
         
 if
-not
 '
 contents
 '
+not
 in
 block
 :
