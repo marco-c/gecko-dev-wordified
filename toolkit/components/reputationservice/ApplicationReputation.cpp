@@ -4590,6 +4590,16 @@ seplugin
 AppleScript
 "
 .
+settingcontent
+-
+ms
+"
+/
+/
+Windows
+settings
+"
+.
 sh
 "
 /
