@@ -564,6 +564,7 @@ mInfo
 AddInstance
 (
 this
+mDescriptor
 )
 ;
 mListeningForEvents
@@ -3385,6 +3386,7 @@ mInfo
 AddInstance
 (
 this
+mDescriptor
 )
 ;
 mListeningForEvents
