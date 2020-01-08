@@ -6965,6 +6965,7 @@ nsSliderFrame
 isDraggingThumb
 (
 )
+const
 {
 return
 (
@@ -8828,6 +8829,11 @@ aMessage
 =
 =
 eMouseMove
+&
+&
+isDraggingThumb
+(
+)
 &
 &
 GetContent
