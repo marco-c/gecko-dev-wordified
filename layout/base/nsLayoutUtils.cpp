@@ -65993,7 +65993,10 @@ fontlist
 =
 FontFamilyList
 (
+NS_ConvertUTF16toUTF8
+(
 systemFontName
+)
 eUnquotedName
 )
 ;

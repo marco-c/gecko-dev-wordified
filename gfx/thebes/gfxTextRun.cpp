@@ -12072,7 +12072,7 @@ IsNamed
 {
 AddPlatformFont
 (
-NS_ConvertUTF16toUTF8
+nsAtomCString
 (
 name
 .
@@ -13676,7 +13676,7 @@ if
 revising
 message
 below
-nsAutoString
+nsAutoCString
 familiesString
 ;
 mFamilyList
@@ -13702,10 +13702,7 @@ font
 220s
 )
 "
-NS_ConvertUTF16toUTF8
-(
 familiesString
-)
 .
 get
 (
@@ -15898,7 +15895,7 @@ ToUTF8String
 lang
 )
 ;
-nsAutoString
+nsAutoCString
 families
 ;
 mFamilyList
@@ -16019,10 +16016,7 @@ textrunui
 textrun
 "
 )
-NS_ConvertUTF16toUTF8
-(
 families
-)
 .
 get
 (
@@ -16300,7 +16294,7 @@ ToUTF8String
 lang
 )
 ;
-nsAutoString
+nsAutoCString
 families
 ;
 mFamilyList
@@ -16416,10 +16410,7 @@ textrunui
 textrun
 "
 )
-NS_ConvertUTF16toUTF8
-(
 families
-)
 .
 get
 (
@@ -21849,7 +21840,7 @@ ToUTF8String
 lang
 )
 ;
-nsAutoString
+nsAutoCString
 families
 ;
 mFamilyList
@@ -22136,10 +22127,7 @@ textrunui
 textrun
 "
 )
-NS_ConvertUTF16toUTF8
-(
 families
-)
 .
 get
 (
