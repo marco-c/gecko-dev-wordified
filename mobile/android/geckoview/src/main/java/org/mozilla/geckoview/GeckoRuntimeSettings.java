@@ -2705,7 +2705,7 @@ value
 .
 *
 *
-returns
+return
 Returns
 a
 positive
