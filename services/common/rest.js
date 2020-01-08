@@ -3328,7 +3328,7 @@ nsIBadCertListener2
 notifyCertProblem
 (
 socketInfo
-secInfo
+sslStatus
 targetHost
 )
 {

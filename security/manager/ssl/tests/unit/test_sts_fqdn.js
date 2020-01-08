@@ -222,10 +222,10 @@ uri2
 )
 ;
 let
-secInfo
+sslStatus
 =
 new
-FakeTransportSecurityInfo
+FakeSSLStatus
 (
 )
 ;
@@ -248,7 +248,7 @@ age
 ;
 includeSubdomains
 "
-secInfo
+sslStatus
 0
 Ci
 .

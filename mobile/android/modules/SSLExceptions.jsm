@@ -186,7 +186,7 @@ prototype
 _overrideService
 :
 null
-_secInfo
+_sslStatus
 :
 null
 getInterface
@@ -248,15 +248,22 @@ function
 SSLE_notifyCertProblem
 (
 socketInfo
-secInfo
+sslStatus
 targetHost
 )
 {
 this
 .
-_secInfo
+_sslStatus
 =
-secInfo
+sslStatus
+.
+QueryInterface
+(
+Ci
+.
+nsISSLStatus
+)
 ;
 return
 true
@@ -302,7 +309,7 @@ aURI
 {
 this
 .
-_secInfo
+_sslStatus
 =
 null
 ;
@@ -447,7 +454,7 @@ e
 return
 this
 .
-_secInfo
+_sslStatus
 ;
 }
 /
@@ -473,7 +480,7 @@ aTemporary
 )
 {
 let
-secInfo
+SSLStatus
 =
 this
 .
@@ -485,7 +492,7 @@ aURI
 let
 certificate
 =
-secInfo
+SSLStatus
 .
 serverCert
 ;
@@ -522,7 +529,7 @@ true
 }
 if
 (
-secInfo
+SSLStatus
 .
 isUntrusted
 )
@@ -537,7 +544,7 @@ ERROR_UNTRUSTED
 ;
 if
 (
-secInfo
+SSLStatus
 .
 isDomainMismatch
 )
@@ -552,7 +559,7 @@ ERROR_MISMATCH
 ;
 if
 (
-secInfo
+SSLStatus
 .
 isNotValidAtThisTime
 )

@@ -77,10 +77,10 @@ Observer
 )
 ;
 var
-secInfo
+sslStatus
 =
 new
-FakeTransportSecurityInfo
+FakeSSLStatus
 (
 )
 ;
@@ -673,7 +673,7 @@ age
 =
 0
 "
-secInfo
+sslStatus
 0
 Ci
 .
@@ -761,7 +761,7 @@ age
 =
 1000
 "
-secInfo
+sslStatus
 0
 Ci
 .
@@ -895,7 +895,7 @@ age
 =
 0
 "
-secInfo
+sslStatus
 0
 Ci
 .
@@ -994,7 +994,7 @@ age
 =
 0
 "
-secInfo
+sslStatus
 0
 Ci
 .
@@ -1294,7 +1294,7 @@ age
 =
 1000
 "
-secInfo
+sslStatus
 0
 Ci
 .
@@ -1642,7 +1642,7 @@ age
 =
 1
 "
-secInfo
+sslStatus
 0
 Ci
 .
@@ -1817,7 +1817,7 @@ age
 =
 0
 "
-secInfo
+sslStatus
 IS_PRIVATE
 Ci
 .
@@ -1884,7 +1884,7 @@ age
 =
 1000
 "
-secInfo
+sslStatus
 IS_PRIVATE
 Ci
 .
@@ -1960,7 +1960,7 @@ age
 =
 0
 "
-secInfo
+sslStatus
 IS_PRIVATE
 Ci
 .
@@ -2149,7 +2149,7 @@ age
 =
 1
 "
-secInfo
+sslStatus
 IS_PRIVATE
 Ci
 .

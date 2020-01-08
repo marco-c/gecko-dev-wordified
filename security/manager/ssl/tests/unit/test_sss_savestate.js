@@ -1072,10 +1072,10 @@ includeSubdomains
 )
 ;
 let
-secInfo
+sslStatus
 =
 new
-FakeTransportSecurityInfo
+FakeSSLStatus
 (
 )
 ;
@@ -1095,7 +1095,7 @@ uriIndex
 maxAge
 +
 includeSubdomains
-secInfo
+sslStatus
 0
 Ci
 .

@@ -382,10 +382,10 @@ domain
 name
 .
 let
-secInfo
+sslStatus
 =
 new
-FakeTransportSecurityInfo
+FakeSSLStatus
 (
 constructCertFromFile
 (
@@ -500,7 +500,7 @@ processHeader
 type
 uri
 header
-secInfo
+sslStatus
 0
 Ci
 .
@@ -856,7 +856,7 @@ processHeader
 type
 uri
 header
-secInfo
+sslStatus
 0
 Ci
 .

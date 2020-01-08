@@ -124,10 +124,10 @@ nsISiteSecurityService
 )
 ;
 let
-secInfo
+sslStatus
 =
 new
-FakeTransportSecurityInfo
+FakeSSLStatus
 (
 )
 ;
@@ -186,7 +186,7 @@ nsISiteSecurityService
 HEADER_HSTS
 dummyUri
 header
-secInfo
+sslStatus
 0
 sss
 .
@@ -292,7 +292,7 @@ nsISiteSecurityService
 HEADER_HSTS
 dummyUri
 header
-secInfo
+sslStatus
 0
 sss
 .

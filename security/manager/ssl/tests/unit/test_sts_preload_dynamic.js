@@ -171,10 +171,10 @@ nsISiteSecurityService
 )
 ;
 let
-secInfo
+sslStatus
 =
 new
-FakeTransportSecurityInfo
+FakeSSLStatus
 (
 )
 ;
@@ -567,7 +567,7 @@ age
 =
 0
 "
-secInfo
+sslStatus
 0
 Ci
 .

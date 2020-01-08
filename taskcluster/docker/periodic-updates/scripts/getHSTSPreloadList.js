@@ -1202,7 +1202,7 @@ name
 )
 ;
 let
-secInfo
+sslStatus
 =
 securityInfo
 .
@@ -1212,6 +1212,8 @@ Ci
 .
 nsITransportSecurityInfo
 )
+.
+SSLStatus
 ;
 gSSService
 .
@@ -1224,7 +1226,7 @@ nsISiteSecurityService
 HEADER_HSTS
 uri
 header
-secInfo
+sslStatus
 0
 Ci
 .

@@ -62,7 +62,7 @@ strict
 "
 ;
 var
-FakeTransportSecurityInfo
+FakeSSLStatus
 =
 function
 (
@@ -70,7 +70,7 @@ function
 {
 }
 ;
-FakeTransportSecurityInfo
+FakeSSLStatus
 .
 prototype
 =
@@ -118,7 +118,7 @@ generateQI
 (
 [
 "
-nsITransportSecurityInfo
+nsISSLStatus
 "
 ]
 )
@@ -284,10 +284,10 @@ then
 >
 {
 let
-secInfo
+sslStatus
 =
 new
-FakeTransportSecurityInfo
+FakeSSLStatus
 (
 )
 ;
@@ -331,7 +331,7 @@ age
 =
 1000
 "
-secInfo
+sslStatus
 privacyFlags
 (
 aIsPrivateMode

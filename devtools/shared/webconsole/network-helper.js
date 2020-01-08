@@ -4079,6 +4079,13 @@ Ci
 nsINSSErrorsService
 )
 ;
+const
+SSLStatus
+=
+securityInfo
+.
+SSLStatus
+;
 if
 (
 !
@@ -4369,7 +4376,7 @@ info
 .
 cipherSuite
 =
-securityInfo
+SSLStatus
 .
 cipherName
 ;
@@ -4384,7 +4391,7 @@ info
 .
 keaGroupName
 =
-securityInfo
+SSLStatus
 .
 keaGroupName
 ;
@@ -4398,7 +4405,7 @@ info
 .
 signatureSchemeName
 =
-securityInfo
+SSLStatus
 .
 signatureSchemeName
 ;
@@ -4415,7 +4422,7 @@ this
 .
 formatSecurityProtocol
 (
-securityInfo
+SSLStatus
 .
 protocolVersion
 )
@@ -4432,7 +4439,7 @@ this
 .
 parseCertificateInfo
 (
-securityInfo
+SSLStatus
 .
 serverCert
 )
@@ -4447,7 +4454,7 @@ info
 .
 certificateTransparency
 =
-securityInfo
+SSLStatus
 .
 certificateTransparencyStatus
 ;
@@ -4891,13 +4898,13 @@ info
 Takes
 protocolVersion
 of
-TransportSecurityInfo
+SSLStatus
 object
 and
 returns
-*
 human
 readable
+*
 description
 .
 *
@@ -4908,7 +4915,7 @@ version
 *
 One
 of
-nsITransportSecurityInfo
+nsISSLStatus
 version
 constants
 .
@@ -4954,7 +4961,7 @@ version
 case
 Ci
 .
-nsITransportSecurityInfo
+nsISSLStatus
 .
 TLS_VERSION_1
 :
@@ -4966,7 +4973,7 @@ TLSv1
 case
 Ci
 .
-nsITransportSecurityInfo
+nsISSLStatus
 .
 TLS_VERSION_1_1
 :
@@ -4980,7 +4987,7 @@ TLSv1
 case
 Ci
 .
-nsITransportSecurityInfo
+nsISSLStatus
 .
 TLS_VERSION_1_2
 :
@@ -4994,7 +5001,7 @@ TLSv1
 case
 Ci
 .
-nsITransportSecurityInfo
+nsISSLStatus
 .
 TLS_VERSION_1_3
 :
