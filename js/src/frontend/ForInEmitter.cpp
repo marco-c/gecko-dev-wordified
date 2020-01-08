@@ -1034,9 +1034,7 @@ if
 bce_
 -
 >
-tryNoteList
-.
-append
+addTryNote
 (
 JSTRY_FOR_IN
 bce_
