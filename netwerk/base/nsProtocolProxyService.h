@@ -2149,9 +2149,9 @@ mIsShutdown
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mProxySettingThread
+mProxySettingTarget
 ;
 }
 ;
