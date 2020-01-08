@@ -1355,6 +1355,12 @@ RefNull
 RefIsNull
 =
 0xd1
+RefEq
+=
+0xd2
+/
+/
+Unofficial
 FirstPrefix
 =
 0xfc

@@ -959,6 +959,12 @@ Op
 :
 F64Ge
 :
+case
+Op
+:
+:
+RefEq
+:
 return
 OpKind
 :
