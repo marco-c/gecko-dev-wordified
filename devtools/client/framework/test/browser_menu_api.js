@@ -1260,7 +1260,7 @@ state
 "
 )
 ;
-ok
+is
 (
 menus
 [

@@ -418,7 +418,7 @@ one
 "
 )
 ;
-ok
+is
 (
 slices
 [

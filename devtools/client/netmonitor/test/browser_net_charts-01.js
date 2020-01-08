@@ -570,7 +570,7 @@ one
 "
 )
 ;
-ok
+is
 (
 slices
 [
@@ -599,7 +599,7 @@ correct
 "
 )
 ;
-ok
+is
 (
 slices
 [
@@ -628,7 +628,7 @@ correct
 "
 )
 ;
-ok
+is
 (
 slices
 [

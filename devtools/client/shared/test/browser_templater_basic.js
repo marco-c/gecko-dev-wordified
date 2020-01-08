@@ -1210,7 +1210,7 @@ function
 options
 )
 {
-ok
+is
 (
 options
 .
@@ -1221,7 +1221,7 @@ element
 innerHTML
 "
 pass
-9
+8
 "
 "
 saveElement

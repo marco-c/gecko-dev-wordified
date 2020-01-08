@@ -366,7 +366,7 @@ one
 "
 )
 ;
-ok
+is
 (
 slices
 [
