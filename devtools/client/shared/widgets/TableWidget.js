@@ -2146,12 +2146,6 @@ uniqueId
 >
 {
 let
-cell
-;
-let
-cells
-;
-let
 columnObj
 ;
 const
@@ -2465,12 +2459,14 @@ the
 appropriate
 cell
 .
+const
 cells
 =
 columnObj
 .
 visibleCellNodes
 ;
+const
 cell
 =
 cells

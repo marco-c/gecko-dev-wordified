@@ -249,7 +249,7 @@ box4
 "
 )
 ;
-let
+const
 width
 =
 100

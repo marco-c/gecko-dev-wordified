@@ -1967,10 +1967,10 @@ options
 )
 {
 let
-profilerStart
 timelineStart
 memoryStart
 ;
+const
 profilerStart
 =
 (

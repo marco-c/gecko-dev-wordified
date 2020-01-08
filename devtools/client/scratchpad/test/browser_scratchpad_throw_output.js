@@ -123,7 +123,7 @@ testThrowOutput
 (
 )
 {
-let
+const
 scratchpad
 =
 gScratchpadWindow

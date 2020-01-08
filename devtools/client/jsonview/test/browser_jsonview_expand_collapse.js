@@ -119,16 +119,12 @@ addJsonViewTab
 TEST_JSON_URL
 )
 ;
-let
+const
 browser
 =
 gBrowser
 .
 selectedBrowser
-selector
-countAfter
-countBefore
-json
 ;
 /
 *
@@ -137,6 +133,7 @@ sanity
 check
 *
 /
+const
 countBefore
 =
 await
@@ -174,6 +171,7 @@ All
 button
 *
 /
+let
 selector
 =
 "
@@ -197,6 +195,7 @@ selector
 browser
 )
 ;
+let
 countAfter
 =
 await
@@ -292,6 +291,7 @@ file
 handling
 *
 /
+const
 json
 =
 JSON

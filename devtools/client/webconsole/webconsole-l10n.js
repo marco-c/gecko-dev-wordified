@@ -216,7 +216,7 @@ milliseconds
 null
 )
 ;
-let
+const
 hours
 =
 d
@@ -224,6 +224,8 @@ d
 getHours
 (
 )
+;
+const
 minutes
 =
 d

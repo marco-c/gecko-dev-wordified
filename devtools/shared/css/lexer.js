@@ -7937,9 +7937,6 @@ aToken
 aSkip
 )
 {
-let
-ch
-;
 /
 /
 do
@@ -7996,6 +7993,7 @@ this
 .
 mLineNumber
 ;
+const
 ch
 =
 this

@@ -571,7 +571,7 @@ entries
 )
 )
 {
-let
+const
 [
 name
 value

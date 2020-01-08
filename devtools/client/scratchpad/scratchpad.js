@@ -7163,10 +7163,7 @@ aContent
 aCharsetArray
 )
 {
-let
-content
-=
-null
+const
 converter
 =
 Cc
@@ -7188,6 +7185,11 @@ Ci
 .
 nsIScriptableUnicodeConverter
 )
+;
+let
+content
+=
+null
 ;
 aCharsetArray
 .

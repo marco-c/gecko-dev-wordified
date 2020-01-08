@@ -9630,7 +9630,7 @@ c
 =
 >
 {
-let
+const
 r
 =
 Math
@@ -9642,6 +9642,8 @@ random
 16
 |
 0
+;
+const
 v
 =
 c

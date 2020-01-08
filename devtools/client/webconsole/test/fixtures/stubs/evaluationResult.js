@@ -84,7 +84,7 @@ types
 "
 )
 ;
-const
+let
 stubPreparedMessages
 =
 new
@@ -92,7 +92,7 @@ Map
 (
 )
 ;
-const
+let
 stubPackets
 =
 new

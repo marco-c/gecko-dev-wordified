@@ -171,7 +171,7 @@ complete
 "
 )
 ;
-let
+const
 width
 =
 100

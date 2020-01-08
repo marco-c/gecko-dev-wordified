@@ -87,7 +87,6 @@ stack1
 stack2
 stack3
 stack4
-stack5
 ;
 (
 function
@@ -161,6 +160,7 @@ saveStack
 )
 )
 ;
+const
 stack5
 =
 saveStack

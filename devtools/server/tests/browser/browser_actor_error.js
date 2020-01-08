@@ -131,9 +131,6 @@ test
 (
 )
 {
-let
-gClient
-;
 DebuggerServer
 .
 init
@@ -162,6 +159,7 @@ connectPipe
 (
 )
 ;
+const
 gClient
 =
 new

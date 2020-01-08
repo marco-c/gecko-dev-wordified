@@ -888,7 +888,7 @@ offsets
 (
 )
 {
-let
+const
 p
 =
 this
@@ -1094,12 +1094,7 @@ function
 element
 )
 {
-let
-p
-=
-this
-.
-padding
+const
 w
 =
 this
@@ -1123,9 +1118,12 @@ percentage
 to
 actual
 padding
+const
 p
 =
-p
+this
+.
+padding
 .
 map
 (

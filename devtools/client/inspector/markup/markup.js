@@ -4161,7 +4161,6 @@ view
 ;
 let
 onShowBoxModel
-onShow
 ;
 /
 /
@@ -4202,6 +4201,7 @@ isSlotted
 (
 )
 ;
+const
 onShow
 =
 this

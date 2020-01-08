@@ -477,7 +477,7 @@ testAllArgumentsArePassed
 (
 )
 {
-let
+const
 foo
 =
 {
@@ -1212,10 +1212,6 @@ testFalsyArgumentsAreFine
 let
 type
 listener
-actual
-=
-[
-]
 ;
 const
 target
@@ -1227,6 +1223,10 @@ name
 target
 "
 }
+actual
+=
+[
+]
 ;
 on
 (

@@ -1065,7 +1065,7 @@ b
 /
 255
 ;
-let
+const
 max
 =
 Math
@@ -1076,6 +1076,8 @@ r
 g
 b
 )
+;
+const
 min
 =
 Math
@@ -1087,9 +1089,7 @@ g
 b
 )
 ;
-let
-h
-s
+const
 v
 =
 max
@@ -1101,6 +1101,7 @@ max
 -
 min
 ;
+const
 s
 =
 max
@@ -1113,6 +1114,9 @@ max
 d
 /
 max
+;
+let
+h
 ;
 if
 (
