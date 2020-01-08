@@ -709,6 +709,16 @@ search
 isPrivate
 :
 false
+maxResults
+:
+UrlbarPrefs
+.
+get
+(
+"
+maxRichResults
+"
+)
 }
 )
 ;

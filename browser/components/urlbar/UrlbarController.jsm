@@ -154,7 +154,9 @@ i
 ;
 i
 <
-12
+queryContext
+.
+maxResults
 ;
 i
 +
