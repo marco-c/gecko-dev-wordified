@@ -88,11 +88,10 @@ testThrowOutput
 }
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 "
 data
 :

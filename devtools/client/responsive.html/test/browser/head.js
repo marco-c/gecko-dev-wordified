@@ -2864,11 +2864,10 @@ false
 url
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 url
 )
 ;

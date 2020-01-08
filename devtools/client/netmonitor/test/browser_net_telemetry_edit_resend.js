@@ -256,13 +256,12 @@ monitor
 1
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 SIMPLE_URL
 )
 ;

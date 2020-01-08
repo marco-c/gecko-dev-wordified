@@ -237,13 +237,12 @@ finishTest
 }
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 "
 http
 :

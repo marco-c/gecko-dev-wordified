@@ -224,11 +224,10 @@ browserLoaded
 browser
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 gTestRoot
 +
 "
@@ -584,11 +583,10 @@ html
 )
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 converteduri
 .
 spec

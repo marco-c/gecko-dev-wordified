@@ -421,11 +421,10 @@ can
 test
 going
 back
-BrowserTestUtils
+aBrowser
 .
 loadURI
 (
-aBrowser
 "
 https
 :
@@ -885,11 +884,10 @@ can
 test
 going
 back
-BrowserTestUtils
+aBrowser
 .
 loadURI
 (
-aBrowser
 "
 https
 :

@@ -338,11 +338,10 @@ true
 }
 )
 ;
-BrowserTestUtils
+newTabBrowser
 .
 loadURI
 (
-newTabBrowser
 "
 about
 :

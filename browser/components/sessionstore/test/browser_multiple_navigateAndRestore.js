@@ -144,11 +144,10 @@ immediately
 /
 after
 .
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 PAGE_1
 )
 ;
@@ -158,11 +157,10 @@ stop
 (
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 PAGE_2
 )
 ;

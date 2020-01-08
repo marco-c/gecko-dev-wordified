@@ -1874,13 +1874,12 @@ gBrowser
 selectedTab
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 "
 data
 :

@@ -632,13 +632,12 @@ consts
 task
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 "
 data
 :

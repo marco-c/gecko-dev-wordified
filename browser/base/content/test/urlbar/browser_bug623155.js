@@ -888,13 +888,12 @@ a
 foreground
 request
 .
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 REDIRECT_FROM
 +
 "

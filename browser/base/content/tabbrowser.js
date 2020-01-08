@@ -10798,17 +10798,6 @@ browser
 loadURI
 (
 BROWSER_NEW_TAB_URL
-{
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-}
 )
 ;
 browser

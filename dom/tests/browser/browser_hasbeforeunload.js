@@ -2964,11 +2964,10 @@ next
 few
 tests
 .
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 PAGE_URL
 )
 ;
@@ -4381,11 +4380,10 @@ next
 few
 tests
 .
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 PAGE_URL
 )
 ;

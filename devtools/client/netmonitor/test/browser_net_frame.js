@@ -925,13 +925,12 @@ false
 )
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 TOP_URL
 )
 ;

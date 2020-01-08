@@ -252,11 +252,10 @@ page
 }
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 "
 about
 :

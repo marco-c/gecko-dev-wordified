@@ -223,11 +223,10 @@ gBrowser
 selectedBrowser
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 FINAL_URL
 )
 ;

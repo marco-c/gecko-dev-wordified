@@ -238,11 +238,10 @@ expectUncaughtException
 (
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 TESTROOT
 +
 "

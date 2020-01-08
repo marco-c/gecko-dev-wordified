@@ -384,13 +384,12 @@ resolve
 }
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 TAB2_URL
 )
 ;
