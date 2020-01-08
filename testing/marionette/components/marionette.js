@@ -2097,7 +2097,7 @@ appinfo
 PROCESS_TYPE_CONTENT
 ;
 class
-MarionetteMainProcess
+MarionetteParentProcess
 {
 constructor
 (
@@ -2313,7 +2313,7 @@ Unknown
 IPC
 message
 to
-main
+parent
 process
 :
 "
@@ -3503,7 +3503,7 @@ warn
 No
 reply
 from
-main
+parent
 process
 "
 )
@@ -3592,7 +3592,7 @@ this
 instance_
 =
 new
-MarionetteMainProcess
+MarionetteParentProcess
 (
 )
 ;
