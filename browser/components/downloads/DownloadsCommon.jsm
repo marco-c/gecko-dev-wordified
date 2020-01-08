@@ -530,9 +530,6 @@ true
 statusSeparatorBeforeNumber
 :
 true
-fileExecutableSecurityWarning
-:
-true
 }
 ;
 const
