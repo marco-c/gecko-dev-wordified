@@ -982,14 +982,6 @@ light
 -
 moz
 -
-menulist
--
-button
-"
-"
--
-moz
--
 win
 -
 borderless

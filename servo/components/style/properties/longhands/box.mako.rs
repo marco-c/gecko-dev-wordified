@@ -4152,6 +4152,9 @@ moz
 appearance
 )
 "
+needs_context
+=
+False
 animation_value_type
 =
 "
