@@ -2200,6 +2200,12 @@ mSyncObject
 >
 Synchronize
 (
+/
+*
+aFallible
+*
+/
+true
 )
 )
 {
