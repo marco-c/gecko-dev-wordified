@@ -528,6 +528,9 @@ class
 DeleteNodeTransaction
 ;
 class
+DeleteRangeTransaction
+;
+class
 DeleteTextTransaction
 ;
 class
@@ -11618,6 +11621,10 @@ CSSEditUtils
 friend
 class
 DeleteNodeTransaction
+;
+friend
+class
+DeleteRangeTransaction
 ;
 friend
 class
