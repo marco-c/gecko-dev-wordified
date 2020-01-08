@@ -3289,6 +3289,7 @@ gBrowser
 selectedTab
 )
 ;
+await
 addon
 .
 uninstall
@@ -3539,6 +3540,7 @@ the
 test
 )
 ;
+await
 addon
 .
 uninstall
