@@ -222,7 +222,7 @@ if
 s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 )
@@ -241,10 +241,11 @@ i
 (
 uint64_t
 )
+&
 s
 -
 >
-ptr
+val
 ;
 else
 *
@@ -255,10 +256,11 @@ d
 (
 uint64_t
 )
+&
 s
 -
 >
-ptr
+val
 ;
 continue
 ;

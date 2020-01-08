@@ -371,7 +371,7 @@ if
 s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 )
@@ -380,10 +380,11 @@ tempu64
 (
 uint64_t
 )
+&
 s
 -
 >
-ptr
+val
 ;
 else
 {
@@ -622,7 +623,7 @@ if
 s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 &
@@ -680,7 +681,7 @@ if
 s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 &
