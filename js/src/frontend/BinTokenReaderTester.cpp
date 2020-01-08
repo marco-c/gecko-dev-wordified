@@ -219,6 +219,9 @@ BinTokenReaderTester
 JSContext
 *
 cx
+ErrorReporter
+*
+er
 const
 uint8_t
 *
@@ -231,6 +234,7 @@ length
 BinTokenReaderBase
 (
 cx
+er
 start
 length
 )
@@ -244,6 +248,9 @@ BinTokenReaderTester
 JSContext
 *
 cx
+ErrorReporter
+*
+er
 const
 Vector
 <
@@ -256,6 +263,7 @@ buf
 BinTokenReaderBase
 (
 cx
+er
 buf
 .
 begin
