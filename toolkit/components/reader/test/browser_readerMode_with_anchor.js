@@ -95,6 +95,7 @@ add_task
 (
 async
 function
+test_loading_withHash
 (
 )
 {
@@ -260,6 +261,7 @@ add_task
 (
 async
 function
+test_loading_withoutHash
 (
 )
 {

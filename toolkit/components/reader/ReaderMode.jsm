@@ -1631,7 +1631,6 @@ return
 new
 Readability
 (
-uri
 doc
 )
 .

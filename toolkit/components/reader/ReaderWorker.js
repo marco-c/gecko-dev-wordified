@@ -397,7 +397,6 @@ return
 new
 Readability
 (
-uri
 doc
 options
 )
