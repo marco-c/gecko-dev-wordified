@@ -2392,6 +2392,8 @@ srcdir
 '
 ]
 '
+old
+-
 configure
 '
 )
