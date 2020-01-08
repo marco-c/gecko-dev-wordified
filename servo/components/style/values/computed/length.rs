@@ -6227,8 +6227,6 @@ stuff
 fn
 valid_for
 (
-&
-self
 wm
 :
 WritingMode
@@ -6638,8 +6636,9 @@ writing_mode
 ;
 if
 !
-ext
-.
+ExtremumLength
+:
+:
 valid_for
 (
 context
@@ -6991,8 +6990,9 @@ writing_mode
 ;
 if
 !
-ext
-.
+ExtremumLength
+:
+:
 valid_for
 (
 context
