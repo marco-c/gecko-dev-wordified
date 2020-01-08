@@ -5678,7 +5678,6 @@ Processing
 /
 /
 /
-static
 void
 AddInitialUntrackedMemoryRegion
 (
