@@ -190,8 +190,6 @@ AudioContext
 aContext
 bool
 aIsOffline
-bool
-aAllowedToStart
 uint32_t
 aNumberOfChannels
 =

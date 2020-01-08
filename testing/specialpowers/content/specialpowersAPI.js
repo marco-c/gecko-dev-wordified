@@ -11818,9 +11818,6 @@ obj
 [
 p
 ]
-!
-=
-undefined
 )
 {
 obj
