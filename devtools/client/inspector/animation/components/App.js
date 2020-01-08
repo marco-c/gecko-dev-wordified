@@ -270,6 +270,13 @@ PropTypes
 bool
 .
 isRequired
+direction
+:
+PropTypes
+.
+string
+.
+isRequired
 emitEventForTest
 :
 PropTypes
@@ -460,6 +467,7 @@ const
 addAnimationsCurrentTimeListener
 animations
 detailVisibility
+direction
 emitEventForTest
 getAnimatedPropertyMap
 getAnimationsCurrentTime
@@ -582,6 +590,7 @@ AnimationListContainer
 {
 addAnimationsCurrentTimeListener
 animations
+direction
 emitEventForTest
 getAnimatedPropertyMap
 getNodeFromActor

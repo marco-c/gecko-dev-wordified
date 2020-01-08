@@ -360,7 +360,7 @@ width
 width
 }
 %
-left
+marginInlineStart
 :
 {
 offset

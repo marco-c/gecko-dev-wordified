@@ -284,6 +284,13 @@ object
 )
 .
 isRequired
+direction
+:
+PropTypes
+.
+string
+.
+isRequired
 emitEventForTest
 :
 PropTypes
@@ -590,6 +597,7 @@ const
 {
 addAnimationsCurrentTimeListener
 animations
+direction
 emitEventForTest
 getAnimatedPropertyMap
 getNodeFromActor
@@ -642,6 +650,7 @@ CurrentTimeScrubber
 (
 {
 addAnimationsCurrentTimeListener
+direction
 removeAnimationsCurrentTimeListener
 setAnimationsCurrentTime
 timeScale

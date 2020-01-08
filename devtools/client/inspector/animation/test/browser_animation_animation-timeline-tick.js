@@ -559,7 +559,7 @@ tickEl
 .
 style
 .
-left
+marginInlineStart
 )
 ;
 const

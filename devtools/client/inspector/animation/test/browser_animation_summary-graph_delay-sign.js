@@ -49,7 +49,7 @@ existance
 /
 /
 *
-left
+marginInlineStart
 position
 /
 /
@@ -75,7 +75,7 @@ positive
 expectedResult
 :
 {
-left
+marginInlineStart
 :
 "
 25
@@ -105,7 +105,7 @@ additionalClass
 "
 negative
 "
-left
+marginInlineStart
 :
 "
 0
@@ -141,7 +141,7 @@ additionalClass
 "
 fill
 "
-left
+marginInlineStart
 :
 "
 25
@@ -186,7 +186,7 @@ additionalClass
 "
 fill
 "
-left
+marginInlineStart
 :
 "
 25
@@ -341,18 +341,18 @@ delaySignEl
 .
 style
 .
-left
+marginInlineStart
 expectedResult
 .
-left
-Left
+marginInlineStart
+marginInlineStart
 position
 should
 be
 {
 expectedResult
 .
-left
+marginInlineStart
 }
 )
 ;

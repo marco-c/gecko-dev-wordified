@@ -216,7 +216,7 @@ line
 style
 :
 {
-left
+marginInlineStart
 :
 {
 tick

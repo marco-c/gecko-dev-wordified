@@ -53,7 +53,7 @@ title
 /
 *
 and
-left
+marginInlineStart
 style
 const
 TEST_DATA
@@ -92,7 +92,7 @@ rgb
 0
 )
 "
-left
+marginInlineStart
 :
 "
 0
@@ -110,7 +110,7 @@ rgb
 0
 )
 "
-left
+marginInlineStart
 :
 "
 100
@@ -137,7 +137,7 @@ title
 space
 round
 "
-left
+marginInlineStart
 :
 "
 0
@@ -151,7 +151,7 @@ title
 round
 space
 "
-left
+marginInlineStart
 :
 "
 100
@@ -177,7 +177,7 @@ title
 "
 10px
 "
-left
+marginInlineStart
 :
 "
 0
@@ -190,7 +190,7 @@ title
 "
 20px
 "
-left
+marginInlineStart
 :
 "
 100
@@ -216,7 +216,7 @@ title
 "
 0px
 "
-left
+marginInlineStart
 :
 "
 0
@@ -229,7 +229,7 @@ title
 "
 100px
 "
-left
+marginInlineStart
 :
 "
 100
@@ -253,7 +253,7 @@ title
 "
 0
 "
-left
+marginInlineStart
 :
 "
 0
@@ -266,7 +266,7 @@ title
 "
 1
 "
-left
+marginInlineStart
 :
 "
 100
@@ -292,7 +292,7 @@ title
 "
 right
 "
-left
+marginInlineStart
 :
 "
 0
@@ -305,7 +305,7 @@ title
 "
 center
 "
-left
+marginInlineStart
 :
 "
 100
@@ -332,7 +332,7 @@ translate
 0px
 )
 "
-left
+marginInlineStart
 :
 "
 0
@@ -348,7 +348,7 @@ translate
 100px
 )
 "
-left
+marginInlineStart
 :
 "
 100
@@ -385,7 +385,7 @@ title
 "
 0
 "
-left
+marginInlineStart
 :
 "
 0
@@ -398,7 +398,7 @@ title
 "
 1
 "
-left
+marginInlineStart
 :
 "
 10
@@ -411,7 +411,7 @@ title
 "
 0
 "
-left
+marginInlineStart
 :
 "
 13
@@ -424,7 +424,7 @@ title
 "
 1
 "
-left
+marginInlineStart
 :
 "
 100
@@ -711,7 +711,7 @@ title
 info
 (
 Checking
-left
+marginInlineStart
 style
 in
 {
@@ -725,21 +725,22 @@ markerEl
 .
 style
 .
-left
+marginInlineStart
 expectedValue
 .
-left
-left
+marginInlineStart
+marginInlineStart
 in
 {
 hintTarget
 }
 should
 be
++
 {
 expectedValue
 .
-left
+marginInlineStart
 }
 )
 ;

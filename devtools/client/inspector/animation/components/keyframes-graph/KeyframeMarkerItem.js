@@ -184,7 +184,7 @@ value
 style
 :
 {
-left
+marginInlineStart
 :
 {
 keyframe
