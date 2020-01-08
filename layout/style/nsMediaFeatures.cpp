@@ -175,9 +175,6 @@ nsCSSValue
 h
 "
 #
-ifdef
-XP_WIN
-#
 include
 "
 mozilla
@@ -186,8 +183,6 @@ LookAndFeel
 .
 h
 "
-#
-endif
 #
 include
 "
