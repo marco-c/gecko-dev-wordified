@@ -980,9 +980,9 @@ getAngle
 ;
 }
 }
-GeckoAppShell
+ScreenManagerHelper
 .
-resetScreenSize
+refreshScreenInfo
 (
 )
 ;
