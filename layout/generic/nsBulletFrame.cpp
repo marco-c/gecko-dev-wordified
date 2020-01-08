@@ -8380,9 +8380,9 @@ isRequestRegistered
 )
 ;
 }
-isRequestRegistered
-=
 mRequestRegistered
+=
+isRequestRegistered
 ;
 }
 }
@@ -8447,9 +8447,9 @@ mImageRequest
 isRequestRegistered
 )
 ;
-isRequestRegistered
-=
 mRequestRegistered
+=
+isRequestRegistered
 ;
 /
 /
