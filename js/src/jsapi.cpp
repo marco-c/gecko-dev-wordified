@@ -1339,9 +1339,10 @@ false
 UniqueChars
 propName
 =
-JS_EncodeStringToUTF8
+StringToNewUTF8CharsZ
 (
 cx
+*
 str
 )
 ;

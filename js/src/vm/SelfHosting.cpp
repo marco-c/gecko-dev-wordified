@@ -2107,7 +2107,7 @@ i
 1
 ]
 =
-JS_EncodeString
+EncodeLatin1
 (
 cx
 str
@@ -2131,7 +2131,7 @@ i
 1
 ]
 =
-JS_EncodeString
+EncodeLatin1
 (
 cx
 val
