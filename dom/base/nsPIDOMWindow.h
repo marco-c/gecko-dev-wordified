@@ -250,7 +250,7 @@ class
 nsIDocShell
 ;
 class
-nsDocShellLoadState
+nsDocShellLoadInfo
 ;
 class
 nsIDocument
@@ -6428,7 +6428,7 @@ GetFrames
 ;
 /
 /
-aLoadState
+aLoadInfo
 will
 be
 passed
@@ -6479,9 +6479,9 @@ const
 nsAString
 &
 aOptions
-nsDocShellLoadState
+nsDocShellLoadInfo
 *
-aLoadState
+aLoadInfo
 bool
 aForceNoOpener
 nsPIDOMWindowOuter
