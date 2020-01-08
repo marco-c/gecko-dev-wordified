@@ -1840,6 +1840,14 @@ nullable
 0
 #
 bool
+        
+self
+.
+uniqueptr
+=
+0
+#
+bool
     
 def
 basename
