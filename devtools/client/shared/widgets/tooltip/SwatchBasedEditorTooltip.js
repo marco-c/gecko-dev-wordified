@@ -755,10 +755,6 @@ tooltip
 show
 (
 tooltipAnchor
-"
-topcenter
-bottomleft
-"
 )
 ;
 this
