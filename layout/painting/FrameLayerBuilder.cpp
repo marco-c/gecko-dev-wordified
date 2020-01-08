@@ -26186,7 +26186,7 @@ TYPE_FILTER
 {
 static_cast
 <
-nsDisplayFilter
+nsDisplayFilters
 *
 >
 (

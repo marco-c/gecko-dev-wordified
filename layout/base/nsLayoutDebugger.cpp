@@ -1570,7 +1570,7 @@ str
 (
 static_cast
 <
-nsDisplayFilter
+nsDisplayFilters
 *
 >
 (

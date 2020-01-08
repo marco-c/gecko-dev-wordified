@@ -8002,7 +8002,7 @@ support
 doing
 invalidation
 inside
-nsDisplayFilter
+nsDisplayFilters
 /
 /
 for
@@ -8049,7 +8049,7 @@ BeginTransaction
 ;
 static_cast
 <
-nsDisplayFilter
+nsDisplayFilters
 *
 >
 (
@@ -13970,7 +13970,7 @@ aScale
 {
 static_cast
 <
-nsDisplayFilter
+nsDisplayFilters
 *
 >
 (
@@ -15067,7 +15067,7 @@ GetGeometry
 ;
 /
 /
-nsDisplayFilter
+nsDisplayFilters
 is
 rendered
 via

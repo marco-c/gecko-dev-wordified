@@ -59384,10 +59384,10 @@ aTo
 }
 #
 endif
-nsDisplayFilter
+nsDisplayFilters
 :
 :
-nsDisplayFilter
+nsDisplayFilters
 (
 nsDisplayListBuilder
 *
@@ -59421,7 +59421,7 @@ GetVisualOverflowRectRelativeToSelf
 {
 MOZ_COUNT_CTOR
 (
-nsDisplayFilter
+nsDisplayFilters
 )
 ;
 }
@@ -59429,7 +59429,7 @@ already_AddRefed
 <
 Layer
 >
-nsDisplayFilter
+nsDisplayFilters
 :
 :
 BuildLayer
@@ -59606,7 +59606,7 @@ forget
 ;
 }
 LayerState
-nsDisplayFilter
+nsDisplayFilters
 :
 :
 GetLayerState
@@ -59628,7 +59628,7 @@ LAYER_SVG_EFFECTS
 ;
 }
 bool
-nsDisplayFilter
+nsDisplayFilters
 :
 :
 ComputeVisibility
@@ -59728,7 +59728,7 @@ true
 ;
 }
 void
-nsDisplayFilter
+nsDisplayFilters
 :
 :
 ComputeInvalidationRegion
@@ -59763,7 +59763,7 @@ geometry
 static_cast
 <
 const
-nsDisplayFilterGeometry
+nsDisplayFiltersGeometry
 *
 >
 (
@@ -59814,7 +59814,7 @@ bounds
 }
 }
 void
-nsDisplayFilter
+nsDisplayFilters
 :
 :
 PaintAsLayer
@@ -59894,7 +59894,7 @@ PaintFilter
 params
 )
 ;
-nsDisplayFilterGeometry
+nsDisplayFiltersGeometry
 :
 :
 UpdateDrawResult
@@ -59947,7 +59947,7 @@ aStdDeviation
 ;
 }
 bool
-nsDisplayFilter
+nsDisplayFilters
 :
 :
 CreateWebRenderCommands
@@ -60681,7 +60681,7 @@ true
 ifdef
 MOZ_DUMP_PAINTING
 void
-nsDisplayFilter
+nsDisplayFilters
 :
 :
 PrintEffects
