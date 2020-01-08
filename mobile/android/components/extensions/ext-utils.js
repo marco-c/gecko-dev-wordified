@@ -2601,6 +2601,15 @@ undefined
 ;
 }
 get
+attention
+(
+)
+{
+return
+false
+;
+}
+get
 audible
 (
 )
