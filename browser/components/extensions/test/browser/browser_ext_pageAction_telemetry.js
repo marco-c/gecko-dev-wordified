@@ -87,9 +87,14 @@ snapshot
 )
 {
 return
+Object
+.
+values
+(
 snapshot
 .
-counts
+values
+)
 .
 reduce
 (

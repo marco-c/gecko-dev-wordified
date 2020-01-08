@@ -71,7 +71,7 @@ if
 (
 snapshot
 .
-counts
+values
 [
 0
 ]

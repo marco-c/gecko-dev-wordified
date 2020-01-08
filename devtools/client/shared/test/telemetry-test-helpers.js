@@ -686,7 +686,7 @@ actual
 =
 result
 .
-counts
+values
 ;
 }
 else
@@ -726,7 +726,7 @@ snapshot
 (
 )
 .
-counts
+values
 ;
 }
 }
@@ -790,7 +790,12 @@ hasentries
 const
 hasEntry
 =
+Object
+.
+values
+(
 actual
+)
 .
 some
 (
