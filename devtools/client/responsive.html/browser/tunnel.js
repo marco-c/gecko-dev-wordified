@@ -3166,11 +3166,6 @@ js
 "
 PageVisibility
 :
-Hide
-"
-"
-PageVisibility
-:
 Show
 "
 /
