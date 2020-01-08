@@ -3194,14 +3194,12 @@ GetFramesOuter
 (
 )
 ;
-already_AddRefed
-<
-nsIDOMWindowCollection
->
+nsDOMWindowList
+*
 GetFrames
 (
 )
-override
+final
 ;
 uint32_t
 Length
