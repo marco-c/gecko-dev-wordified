@@ -172,6 +172,7 @@ the
 top
 source
 directory
+    
 instead
 .
     
@@ -196,6 +197,10 @@ Simple_Firefox_for_Android_build
 #
 Developing_Firefox_for_Android_in_Android_Studio_or_IDEA_IntelliJ
 .
+#
+NOQA
+:
+E501
     
 "
 "
@@ -274,6 +279,7 @@ artifacts
 .
 format
 (
+                
 os
 .
 environ
@@ -405,6 +411,10 @@ gradle
 "
 "
 )
+#
+NOQA
+:
+E501
     
 CommandArgument
 (
@@ -510,6 +520,9 @@ help
 '
 config
 files
+'
+                     
+'
 like
 [
 /
@@ -670,6 +683,7 @@ bindings_args
 ]
 +
 args
+            
 verbose
 =
 True
@@ -747,6 +761,7 @@ GRADLE_ANDROID_GENERATE_GENERATED_JNI_WRAPPERS_TASKS
 ]
 +
 args
+            
 verbose
 =
 True
@@ -782,6 +797,7 @@ wrappers
 used
 when
 building
+                
 Firefox
 for
 Android
@@ -854,7 +870,7 @@ local
 unit
 tests
 .
-        
+                
 See
 https
 :
@@ -885,6 +901,10 @@ test
 "
 "
 )
+#
+NOQA
+:
+E501
     
 CommandArgument
 (
@@ -950,6 +970,7 @@ app
 /
 unittest
 '
+                                                
 '
 gradle
 /
@@ -988,6 +1009,7 @@ geckoview
 /
 unittest
 '
+                                                
 '
 gradle
 /
@@ -1011,6 +1033,10 @@ GRADLE_ANDROID_GECKOVIEW_VARIANT_NAME
 ]
 )
 )
+#
+NOQA
+:
+E501
         
 return
 ret
@@ -1334,6 +1360,10 @@ report
 report
 )
 )
+#
+NOQA
+:
+E501
                 
 #
 And
@@ -1416,6 +1446,10 @@ root_url
 report
 )
 )
+#
+NOQA
+:
+E501
                 
 print
 (
@@ -1786,6 +1820,10 @@ format
 gradledir
 )
 )
+#
+NOQA
+:
+E501
             
 return
 1
@@ -1809,7 +1847,7 @@ Run
 Android
 lint
 .
-        
+                
 See
 https
 :
@@ -1840,6 +1878,10 @@ lint
 "
 "
 )
+#
+NOQA
+:
+E501
     
 CommandArgument
 (
@@ -2005,6 +2047,7 @@ join
 self
 .
 topobjdir
+                
 '
 gradle
 /
@@ -2033,6 +2076,7 @@ format
 report
 )
 )
+                     
 '
 rt
 '
@@ -2154,6 +2198,10 @@ html_report_url
 report
 )
 )
+#
+NOQA
+:
+E501
             
 print
 (
@@ -2198,6 +2246,10 @@ xml_report_url
 report
 )
 )
+#
+NOQA
+:
+E501
             
 #
 And
@@ -2266,6 +2318,10 @@ format
 html_report_url
 )
 )
+#
+NOQA
+:
+E501
             
 print
 (
@@ -2422,7 +2478,7 @@ Run
 Android
 checkstyle
 .
-        
+                
 See
 https
 :
@@ -2453,6 +2509,10 @@ checkstyle
 "
 "
 )
+#
+NOQA
+:
+E501
     
 CommandArgument
 (
@@ -2584,6 +2644,7 @@ checkstyle
 xml
 '
 )
+                 
 '
 rt
 '
@@ -2706,6 +2767,10 @@ format
 root_url
 )
 )
+#
+NOQA
+:
+E501
         
 print
 (
@@ -2752,6 +2817,10 @@ format
 root_url
 )
 )
+#
+NOQA
+:
+E501
         
 #
 And
@@ -2824,6 +2893,10 @@ format
 root_url
 )
 )
+#
+NOQA
+:
+E501
         
 print
 (
@@ -3043,7 +3116,7 @@ Run
 Android
 findbugs
 .
-        
+                
 See
 https
 :
@@ -3074,6 +3147,10 @@ findbugs
 "
 "
 )
+#
+NOQA
+:
+E501
     
 CommandArgument
 (
@@ -3245,6 +3322,7 @@ path
 .
 join
 (
+                    
 self
 .
 topobjdir
@@ -3263,7 +3341,7 @@ reports
 /
 findbugs
 '
-                                      
+                    
 '
 findbugs
 -
@@ -3280,6 +3358,7 @@ format
 report
 )
 )
+                         
 '
 rt
 '
@@ -3407,6 +3486,10 @@ html_report_url
 report
 )
 )
+#
+NOQA
+:
+E501
             
 print
 (
@@ -3451,6 +3534,10 @@ xml_report_url
 report
 )
 )
+#
+NOQA
+:
+E501
             
 #
 And
@@ -3511,6 +3598,10 @@ format
 html_report_url
 )
 )
+#
+NOQA
+:
+E501
             
 print
 (
@@ -3610,6 +3701,7 @@ get
 type
 '
 )
+                                                                 
 error
 .
 find
@@ -3618,6 +3710,7 @@ find
 Class
 '
 )
+                                                                 
 .
 get
 (
@@ -3669,6 +3762,7 @@ FAIL
 format
 (
 report
+                                                                     
 error
 .
 get
@@ -3677,6 +3771,7 @@ get
 type
 '
 )
+                                                                     
 line
 )
 )
@@ -3766,6 +3861,10 @@ gradle
 "
 "
 )
+#
+NOQA
+:
+E501
     
 CommandArgument
 (
@@ -3906,6 +4005,10 @@ gradle
 "
 "
 )
+#
+NOQA
+:
+E501
     
 CommandArgument
 (
@@ -3952,6 +4055,7 @@ continue
 ]
 +
 args
+            
 verbose
 =
 True
@@ -5448,6 +5552,10 @@ project
 10692
 /
 11
+#
+NOQA
+:
+E501
         
 #
 and
@@ -5470,6 +5578,7 @@ self
 .
 run_process
 (
+            
 [
 self
 .
@@ -5494,7 +5603,7 @@ plain
 ]
 +
 args
-                                
+            
 append_env
 =
 {
@@ -5701,6 +5810,7 @@ metavar
 '
 VERSION
 '
+                     
 choices
 =
 [
@@ -5749,6 +5859,9 @@ run
 in
 emulator
 .
+'
+                     
+'
 One
 of
 "
