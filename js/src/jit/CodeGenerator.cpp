@@ -27696,11 +27696,11 @@ obj
 )
 return
 ;
-auto
+const
+uint32_t
+*
 addr
 =
-AbsoluteAddress
-(
 gen
 -
 >
@@ -27709,7 +27709,6 @@ realm
 >
 addressOfGlobalWriteBarriered
 (
-)
 )
 ;
 masm
@@ -27720,7 +27719,10 @@ Assembler
 :
 :
 NotEqual
+AbsoluteAddress
+(
 addr
+)
 Imm32
 (
 0
@@ -94377,7 +94379,7 @@ temp4
 #
 endif
 const
-void
+XorShift128PlusRNG
 *
 rng
 =

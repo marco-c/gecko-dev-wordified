@@ -218,7 +218,7 @@ rt
 ifdef
 JS_GC_ZEAL
 const
-void
+uint32_t
 *
 CompileRuntime
 :
@@ -719,7 +719,7 @@ addressOfIonBailAfter
 #
 endif
 const
-void
+uint32_t
 *
 CompileZone
 :
@@ -739,8 +739,11 @@ addressOfNeedsIncrementalBarrier
 )
 ;
 }
-const
-void
+gc
+:
+:
+FreeSpan
+*
 *
 CompileZone
 :
@@ -768,7 +771,6 @@ allocKind
 )
 ;
 }
-const
 void
 *
 CompileZone
@@ -796,7 +798,6 @@ addressOfNurseryPosition
 )
 ;
 }
-const
 void
 *
 CompileZone
@@ -1121,7 +1122,13 @@ runtimeFromAnyThread
 ;
 }
 const
-void
+mozilla
+:
+:
+non_crypto
+:
+:
+XorShift128PlusRNG
 *
 CompileRealm
 :
