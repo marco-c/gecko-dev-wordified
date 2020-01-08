@@ -1422,6 +1422,10 @@ run_test
 (
 )
 {
+throwOnUpdateErrors
+(
+)
+;
 /
 /
 Setup
@@ -2354,10 +2358,6 @@ forceTableUpdate
 (
 )
 {
-throwOnUpdateErrors
-(
-)
-;
 Services
 .
 prefs
@@ -2394,10 +2394,6 @@ disableAllUpdates
 (
 )
 {
-stopThrowingOnUpdateErrors
-(
-)
-;
 TEST_TABLE_DATA_LIST
 .
 forEach
