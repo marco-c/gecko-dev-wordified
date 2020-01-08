@@ -271,15 +271,6 @@ if
 iie
 |
 |
-!
-iie
--
->
-EnsureResolved
-(
-)
-|
-|
 iie
 -
 >
@@ -287,9 +278,11 @@ IsBuiltinClass
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 *
 aResult
 =
