@@ -9193,6 +9193,12 @@ uninit
 (
 )
 ;
+SavantShieldStudy
+.
+uninit
+(
+)
+;
 }
 /
 /
