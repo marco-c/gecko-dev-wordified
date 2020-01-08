@@ -3371,6 +3371,8 @@ window
 ;
 urlbar
 .
+textbox
+.
 dispatchEvent
 (
 event
