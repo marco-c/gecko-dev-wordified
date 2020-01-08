@@ -481,7 +481,7 @@ DWORD
 aFindFlag
 )
 {
-nsAutoCString
+nsCString
 description
 ;
 if
@@ -954,7 +954,7 @@ EmptyCString
 )
 ;
 }
-nsAutoCString
+nsCString
 result
 ;
 result
@@ -1480,7 +1480,7 @@ key
 =
 str
 ;
-nsAutoCString
+nsCString
 result
 ;
 wchar_t
@@ -1791,7 +1791,7 @@ DWORD
 aSinkMask
 )
 {
-nsAutoCString
+nsCString
 description
 ;
 if
@@ -1976,7 +1976,7 @@ DWORD
 aLockFlags
 )
 {
-nsAutoCString
+nsCString
 description
 ;
 if
@@ -2452,7 +2452,7 @@ TF_DISPLAYATTRIBUTE
 aDispAttr
 )
 {
-nsAutoCString
+nsCString
 str
 ;
 str
@@ -2681,7 +2681,7 @@ buttons
 )
 ;
 }
-nsAutoCString
+nsCString
 names
 ;
 if
@@ -2823,7 +2823,7 @@ modifiers
 )
 ;
 }
-nsAutoCString
+nsCString
 names
 ;
 if
