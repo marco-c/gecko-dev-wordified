@@ -125,6 +125,7 @@ ID_HttpOpenRequestA
 ID_HttpQueryInfoA
 ID_HttpSendRequestA
 ID_HttpSendRequestExA
+ID_HttpEndRequestA
 ID_InternetQueryOptionA
 ID_InternetErrorDlg
 ID_AcquireCredentialsHandleA
