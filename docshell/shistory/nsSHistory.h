@@ -1122,6 +1122,12 @@ nsISHTransaction
 >
 mTransactions
 ;
+/
+/
+entries
+are
+never
+null
 int32_t
 mIndex
 ;
