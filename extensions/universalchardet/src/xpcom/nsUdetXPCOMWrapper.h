@@ -141,6 +141,13 @@ nsIFactory
 .
 h
 "
+#
+include
+"
+nsUniversalDetector
+.
+h
+"
 /
 /
 {

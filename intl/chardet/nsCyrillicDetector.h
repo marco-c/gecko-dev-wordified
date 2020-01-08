@@ -104,6 +104,13 @@ nsCyrillicClass
 .
 h
 "
+#
+include
+"
+nsIStringCharsetDetector
+.
+h
+"
 /
 /
 {
