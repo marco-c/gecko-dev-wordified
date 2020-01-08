@@ -2370,7 +2370,7 @@ tps
 setup
 (
 {
-frameScriptPath
+processScriptPath
 }
 )
 {
@@ -2412,7 +2412,7 @@ blank
 "
 ;
 const
-frameScriptURL
+processScriptURL
 =
 context
 .
@@ -2422,16 +2422,16 @@ baseURI
 .
 resolve
 (
-frameScriptPath
+processScriptPath
 )
 ;
 Services
 .
 ppmm
 .
-loadFrameScript
+loadProcessScript
 (
-frameScriptURL
+processScriptURL
 true
 )
 ;
