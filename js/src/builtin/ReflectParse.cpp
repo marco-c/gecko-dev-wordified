@@ -10874,7 +10874,7 @@ NameNode
 (
 )
 .
-expression
+initializer
 (
 )
 ;

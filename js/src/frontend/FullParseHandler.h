@@ -6414,7 +6414,7 @@ init
 nameNode
 -
 >
-setExpression
+setInitializer
 (
 init
 )

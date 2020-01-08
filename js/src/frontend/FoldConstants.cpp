@@ -1133,12 +1133,12 @@ node
 >
 as
 <
-NameNode
+LabeledStatement
 >
 (
 )
 .
-expression
+statement
 (
 )
 result
@@ -11009,7 +11009,7 @@ if
 nameNode
 -
 >
-expression
+initializer
 (
 )
 )
@@ -11025,7 +11025,7 @@ cx
 nameNode
 -
 >
-unsafeExpressionReference
+unsafeInitializerReference
 (
 )
 parser
@@ -11365,7 +11365,7 @@ MOZ_ASSERT
 nameNode
 -
 >
-expression
+initializer
 (
 )
 )
@@ -13233,12 +13233,12 @@ pn
 >
 as
 <
-NameNode
+LabeledStatement
 >
 (
 )
 .
-unsafeExpressionReference
+unsafeStatementReference
 (
 )
 parser
