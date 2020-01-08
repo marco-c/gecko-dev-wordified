@@ -257,7 +257,7 @@ h
 endif
 #
 ifdef
-GL_PROVIDER_GLX
+MOZ_X11
 #
 include
 "
@@ -609,7 +609,7 @@ flags
 elif
 defined
 (
-GL_PROVIDER_GLX
+MOZ_X11
 )
 if
 (
@@ -875,7 +875,7 @@ endif
 }
 #
 ifdef
-GL_PROVIDER_GLX
+MOZ_X11
 if
 (
 !

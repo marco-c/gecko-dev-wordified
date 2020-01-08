@@ -481,7 +481,7 @@ override
 ;
 #
 ifdef
-GL_PROVIDER_GLX
+MOZ_X11
 already_AddRefed
 <
 mozilla
