@@ -1092,8 +1092,6 @@ sMozCommandLineAtom
 XAtoms
 [
 i
-+
-+
 ]
 ;
 }
