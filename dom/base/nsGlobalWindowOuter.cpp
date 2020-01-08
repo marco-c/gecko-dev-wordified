@@ -39222,6 +39222,13 @@ StopGamepadHaptics
 (
 )
 ;
+inner
+-
+>
+StopVRActivity
+(
+)
+;
 /
 /
 true
@@ -39292,6 +39299,13 @@ inner
 -
 >
 SyncGamepadState
+(
+)
+;
+inner
+-
+>
+StartVRActivity
 (
 )
 ;
