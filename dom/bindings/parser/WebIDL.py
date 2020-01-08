@@ -34179,6 +34179,12 @@ not
 self
 .
 variadic
+and
+            
+not
+self
+.
+dictionaryMember
 )
 :
             
@@ -34188,7 +34194,8 @@ optional
 non
 -
 variadic
-dictionaries
+dictionary
+arguments
 to
 null
             
