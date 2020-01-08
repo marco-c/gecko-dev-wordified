@@ -171,10 +171,13 @@ win
 gBrowser
 .
 selectedBrowser
-true
-aTest
+)
+;
+await
+Promise
 .
-url
+resolve
+(
 )
 ;
 /
