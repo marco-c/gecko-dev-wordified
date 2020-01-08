@@ -140,15 +140,6 @@ h
 #
 include
 "
-js
-/
-AutoByteString
-.
-h
-"
-#
-include
-"
 vm
 /
 ArgumentsObject
@@ -10150,7 +10141,7 @@ HandleId
 id
 )
 {
-JSAutoByteString
+UniqueChars
 printable
 ;
 if
@@ -10175,7 +10166,7 @@ nullptr
 JSMSG_DEBUG_OPTIMIZED_OUT
 printable
 .
-ptr
+get
 (
 )
 )
@@ -23775,7 +23766,7 @@ char
 reason
 )
 {
-JSAutoByteString
+UniqueChars
 printable
 ;
 if
@@ -23797,7 +23788,7 @@ nullptr
 JSMSG_CANT_DECLARE_GLOBAL_BINDING
 printable
 .
-ptr
+get
 (
 )
 reason

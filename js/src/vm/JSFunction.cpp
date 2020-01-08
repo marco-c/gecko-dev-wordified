@@ -289,15 +289,6 @@ include
 "
 js
 /
-AutoByteString
-.
-h
-"
-#
-include
-"
-js
-/
 CallNonGenericMethod
 .
 h
@@ -16961,7 +16952,7 @@ calleev
 )
 )
 {
-JSAutoByteString
+UniqueChars
 funNameBytes
 ;
 if
@@ -17032,7 +17023,7 @@ calleev
 )
 )
 {
-JSAutoByteString
+UniqueChars
 funNameBytes
 ;
 if

@@ -122,7 +122,7 @@ include
 "
 js
 /
-AutoByteString
+CharacterEncoding
 .
 h
 "
@@ -8952,8 +8952,10 @@ bySource
 return
 nullptr
 ;
-JSAutoByteString
+UniqueChars
 byBytes
+=
+JS_EncodeString
 (
 cx
 bySource
@@ -8975,7 +8977,7 @@ nullptr
 JSMSG_DEBUG_CENSUS_BREAKDOWN
 byBytes
 .
-ptr
+get
 (
 )
 )

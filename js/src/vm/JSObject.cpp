@@ -304,7 +304,7 @@ include
 "
 js
 /
-AutoByteString
+CharacterEncoding
 .
 h
 "
@@ -780,7 +780,7 @@ isObject
 )
 )
 ;
-JSAutoByteString
+UniqueChars
 bytes
 ;
 if
@@ -838,7 +838,7 @@ isObject
 )
 )
 ;
-JSAutoByteString
+UniqueChars
 bytes
 ;
 if
@@ -1682,8 +1682,10 @@ idstr
 return
 false
 ;
-JSAutoByteString
+UniqueChars
 bytes
+=
+JS_EncodeString
 (
 cx
 idstr
@@ -1710,7 +1712,7 @@ nullptr
 errorNumber
 bytes
 .
-ptr
+get
 (
 )
 details
@@ -1727,7 +1729,7 @@ nullptr
 errorNumber
 bytes
 .
-ptr
+get
 (
 )
 )
