@@ -275,10 +275,12 @@ QUERY_TYPE_BOOKMARKS
 ;
 query
 .
-setFolders
+setParents
 (
 [
 folder
+.
+guid
 ]
 1
 )

@@ -221,12 +221,14 @@ getNewQuery
 ;
 query
 .
-setFolders
+setParents
 (
 [
 PlacesUtils
 .
-toolbarFolderId
+bookmarks
+.
+toolbarGuid
 ]
 1
 )

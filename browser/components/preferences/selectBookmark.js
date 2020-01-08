@@ -597,7 +597,7 @@ getFolderContents
 (
 selectedNode
 .
-itemId
+bookmarkGuid
 )
 .
 root

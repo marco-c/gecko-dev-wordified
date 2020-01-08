@@ -180,7 +180,9 @@ getFolderContents
 (
 PlacesUtils
 .
-bookmarksMenuFolderId
+bookmarks
+.
+menuGuid
 )
 .
 root

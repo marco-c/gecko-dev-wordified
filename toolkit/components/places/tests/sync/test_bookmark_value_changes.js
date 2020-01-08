@@ -6823,7 +6823,9 @@ getFolderContents
 (
 PlacesUtils
 .
-toolbarFolderId
+bookmarks
+.
+toolbarGuid
 false
 true
 )

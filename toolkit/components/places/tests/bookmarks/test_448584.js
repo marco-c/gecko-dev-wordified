@@ -199,14 +199,14 @@ getNewQuery
 ;
 query
 .
-setFolders
+setParents
 (
 [
 PlacesUtils
 .
 bookmarks
 .
-toolbarFolder
+toolbarGuid
 ]
 1
 )

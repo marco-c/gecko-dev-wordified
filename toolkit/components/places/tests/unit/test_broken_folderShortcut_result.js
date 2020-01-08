@@ -84,7 +84,7 @@ url
 "
 place
 :
-folder
+parent
 =
 1234
 "
@@ -101,7 +101,7 @@ url
 "
 place
 :
-folder
+parent
 =
 -
 1
@@ -195,12 +195,14 @@ getNewQuery
 ;
 query
 .
-setFolders
+setParents
 (
 [
 PlacesUtils
 .
-unfiledBookmarksFolderId
+bookmarks
+.
+unfiledGuid
 ]
 1
 )
@@ -267,7 +269,7 @@ uri
 "
 place
 :
-folder
+parent
 =
 1234
 "
@@ -357,7 +359,7 @@ uri
 "
 place
 :
-folder
+parent
 =
 -
 1
@@ -456,7 +458,7 @@ getNewQuery
 ;
 query
 .
-setFolders
+setParents
 (
 [
 1234
@@ -536,7 +538,7 @@ getNewQuery
 ;
 query
 .
-setFolders
+setParents
 (
 [
 -

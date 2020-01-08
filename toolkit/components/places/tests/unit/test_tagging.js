@@ -180,12 +180,14 @@ getNewQuery
 ;
 query
 .
-setFolders
+setParents
 (
 [
 PlacesUtils
 .
-tagsFolderId
+bookmarks
+.
+tagsGuid
 ]
 1
 )

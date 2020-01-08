@@ -477,7 +477,9 @@ getFolderContents
 (
 PlacesUtils
 .
-unfiledBookmarksFolderId
+bookmarks
+.
+unfiledGuid
 )
 ;
 Assert
