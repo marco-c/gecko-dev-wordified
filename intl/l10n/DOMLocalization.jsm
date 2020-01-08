@@ -641,6 +641,12 @@ hint
 "
 label
 "
+"
+title
+"
+"
+tooltiptext
+"
 ]
 description
 :
@@ -671,13 +677,6 @@ textbox
 [
 "
 placeholder
-"
-]
-toolbarbutton
-:
-[
-"
-tooltiptext
 "
 ]
 }
