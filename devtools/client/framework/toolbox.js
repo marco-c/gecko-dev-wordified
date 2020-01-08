@@ -18843,16 +18843,11 @@ webconsole
 "
 )
 ;
-const
-jsterm
-=
 panel
 .
 hud
 .
-jsterm
-;
-jsterm
+ui
 .
 inspectObjectActor
 (
