@@ -365,7 +365,7 @@ resend
 interface
 *
 for
-netowrk
+network
 development
 .
 *
