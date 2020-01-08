@@ -1607,7 +1607,7 @@ return
 NodeGeneric
 ;
 }
-Node
+ConditionalExpressionType
 newConditional
 (
 Node
@@ -1865,7 +1865,7 @@ return
 NodeGeneric
 ;
 }
-Node
+ClassNodeType
 newClass
 (
 Node
@@ -2296,7 +2296,7 @@ NodeStringExprStatement
 NodeGeneric
 ;
 }
-Node
+TernaryNodeType
 newIfStatement
 (
 uint32_t
@@ -2304,9 +2304,9 @@ begin
 Node
 cond
 Node
-then
+thenBranch
 Node
-else_
+elseBranch
 )
 {
 return
@@ -2481,7 +2481,7 @@ return
 NodeThrow
 ;
 }
-Node
+TernaryNodeType
 newTryStatement
 (
 uint32_t
@@ -2711,7 +2711,7 @@ newForStatement
 (
 uint32_t
 begin
-Node
+TernaryNodeType
 forHead
 Node
 body
@@ -2723,7 +2723,7 @@ return
 NodeGeneric
 ;
 }
-Node
+TernaryNodeType
 newForHead
 (
 Node
@@ -2742,7 +2742,7 @@ return
 NodeGeneric
 ;
 }
-Node
+TernaryNodeType
 newForInOrOfHead
 (
 ParseNodeKind

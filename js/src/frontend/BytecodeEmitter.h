@@ -4595,9 +4595,9 @@ MOZ_MUST_USE
 bool
 emitIf
 (
-ParseNode
+TernaryNode
 *
-pn
+ifNode
 )
 ;
 MOZ_MUST_USE
@@ -4658,9 +4658,9 @@ MOZ_MUST_USE
 bool
 emitTry
 (
-ParseNode
+TernaryNode
 *
-pn
+tryNode
 )
 ;
 enum
@@ -5718,7 +5718,7 @@ MOZ_MUST_USE
 bool
 emitInitializeForInOrOfTarget
 (
-ParseNode
+TernaryNode
 *
 forHead
 )
@@ -5915,9 +5915,9 @@ MOZ_MUST_USE
 bool
 emitClass
 (
-ParseNode
+ClassNode
 *
-pn
+classNode
 )
 ;
 MOZ_MUST_USE
