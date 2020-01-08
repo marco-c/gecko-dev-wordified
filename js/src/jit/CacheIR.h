@@ -11502,6 +11502,15 @@ rhsId
 )
 ;
 bool
+tryAttachPrimitiveUndefined
+(
+ValOperandId
+lhsId
+ValOperandId
+rhsId
+)
+;
+bool
 tryAttachObjectUndefined
 (
 ValOperandId
