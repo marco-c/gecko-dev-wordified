@@ -910,6 +910,10 @@ DisconnectEventTargetObjects
 (
 )
 ;
+StartDying
+(
+)
+;
 }
 already_AddRefed
 <
