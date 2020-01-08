@@ -194,6 +194,16 @@ Ci
 nsITimer
 )
 ;
+delay
+=
+delay
+>
+0
+?
+delay
+:
+0
+;
 timer
 .
 init
