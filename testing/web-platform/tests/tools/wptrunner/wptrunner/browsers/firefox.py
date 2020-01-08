@@ -953,6 +953,17 @@ gecko_e10s
 ]
             
 "
+verify
+"
+:
+kwargs
+[
+"
+verify
+"
+]
+            
+"
 headless
 "
 :
