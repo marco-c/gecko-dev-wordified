@@ -3100,6 +3100,11 @@ unmarkPreMarkedFreeCells
 (
 )
 ;
+void
+arenaAllocatedDuringGC
+(
+)
+;
 #
 ifdef
 DEBUG

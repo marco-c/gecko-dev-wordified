@@ -336,7 +336,6 @@ false
 )
 arenas
 (
-rt
 this
 )
 types
