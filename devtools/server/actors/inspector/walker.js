@@ -4228,10 +4228,8 @@ skipTo
 SKIP_TO_SIBLING
 ;
 const
-useAnonymousWalker
+useNonAnonymousWalker
 =
-!
-(
 isShadowRoot
 |
 |
@@ -4239,12 +4237,10 @@ isShadowHost
 |
 |
 isUnslottedHostChild
-)
 ;
 if
 (
-!
-useAnonymousWalker
+useNonAnonymousWalker
 )
 {
 /
@@ -4983,7 +4979,7 @@ node
 .
 rawNode
 .
-shadowRoot
+openOrClosedShadowRoot
 )
 /
 /
