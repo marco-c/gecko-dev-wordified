@@ -2271,7 +2271,7 @@ incrementalized
 sweep
 time
 .
-ArrayBufferViewObject
+JSObject
 *
 firstView
 (
@@ -2378,7 +2378,7 @@ newContents
 void
 setFirstView
 (
-ArrayBufferViewObject
+JSObject
 *
 view
 )
@@ -3720,7 +3720,7 @@ public
 typedef
 Vector
 <
-ArrayBufferViewObject
+JSObject
 *
 1
 SystemAllocPolicy
@@ -4045,8 +4045,8 @@ JSContext
 cx
 ArrayBufferObject
 *
-obj
-ArrayBufferViewObject
+buffer
+JSObject
 *
 view
 )
