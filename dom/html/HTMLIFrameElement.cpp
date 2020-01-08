@@ -1302,16 +1302,6 @@ Policy
 )
 const
 {
-MOZ_ASSERT
-(
-StaticPrefs
-:
-:
-dom_security_featurePolicy_enabled
-(
-)
-)
-;
 return
 mFeaturePolicy
 ;
