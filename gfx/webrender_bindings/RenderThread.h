@@ -178,13 +178,6 @@ h
 #
 include
 "
-nsRefPtrHashtable
-.
-h
-"
-#
-include
-"
 ThreadSafeRefcountingWithMainThreadDestruction
 .
 h
