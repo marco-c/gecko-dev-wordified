@@ -2563,15 +2563,12 @@ map
 item
 =
 >
-{
 this
 .
 _serializeRequest
 (
 item
 )
-;
-}
 )
 .
 filter
