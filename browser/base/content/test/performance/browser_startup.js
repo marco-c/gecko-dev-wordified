@@ -310,15 +310,6 @@ that
 early
 .
 "
-WebContentConverter
-.
-js
-"
-/
-/
-bug
-1369443
-"
 nsSessionStartup
 .
 js
