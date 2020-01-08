@@ -66,7 +66,7 @@ cbindgen
 .
 6
 .
-2
+3
 *
 /
 /
@@ -3935,6 +3935,7 @@ void
 *
 WrExternalImageId
 uint8_t
+ImageRendering
 )
 ;
 using

@@ -238,6 +238,11 @@ WrExternalImageId
 aId
 uint8_t
 aChannelIndex
+wr
+:
+:
+ImageRendering
+aRendering
 )
 {
 RendererOGL
@@ -314,6 +319,7 @@ renderer
 gl
 (
 )
+aRendering
 )
 ;
 }

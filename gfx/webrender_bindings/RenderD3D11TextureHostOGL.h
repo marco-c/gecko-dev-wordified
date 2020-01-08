@@ -186,6 +186,11 @@ gl
 GLContext
 *
 aGL
+wr
+:
+:
+ImageRendering
+aRendering
 )
 override
 ;
@@ -233,6 +238,11 @@ RenderDXGITextureHostOGL
 bool
 EnsureLockable
 (
+wr
+:
+:
+ImageRendering
+aRendering
 )
 ;
 void
@@ -366,6 +376,11 @@ gl
 GLContext
 *
 aGL
+wr
+:
+:
+ImageRendering
+aRendering
 )
 override
 ;
@@ -414,6 +429,11 @@ RenderDXGIYCbCrTextureHostOGL
 bool
 EnsureLockable
 (
+wr
+:
+:
+ImageRendering
+aRendering
 )
 ;
 void
