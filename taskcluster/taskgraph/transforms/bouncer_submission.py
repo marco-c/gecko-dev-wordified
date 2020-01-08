@@ -290,7 +290,9 @@ android
 '
 :
 '
-fennec
+{
+product
+}
 -
 {
 version
@@ -313,7 +315,9 @@ x86
 '
 :
 '
-fennec
+{
+product
+}
 -
 {
 version
@@ -358,7 +362,9 @@ default
 '
 :
 '
-firefox
+{
+product
+}
 -
 {
 version
@@ -400,7 +406,9 @@ default
 '
 :
 '
-firefox
+{
+product
+}
 -
 {
 version
@@ -438,7 +446,9 @@ linux
 '
 :
 '
-firefox
+{
+product
+}
 -
 {
 version
@@ -454,7 +464,9 @@ linux64
 '
 :
 '
-firefox
+{
+product
+}
 -
 {
 version
@@ -470,7 +482,9 @@ osx
 '
 :
 '
-Firefox
+{
+pretty_product
+}
 %
 20
 {
@@ -485,7 +499,9 @@ win
 '
 :
 '
-Firefox
+{
+pretty_product
+}
 %
 20Setup
 %
@@ -502,7 +518,9 @@ win64
 '
 :
 '
-Firefox
+{
+pretty_product
+}
 %
 20Setup
 %
@@ -543,7 +561,9 @@ default
 '
 :
 '
-firefox
+{
+product
+}
 -
 {
 previous_version
@@ -589,7 +609,9 @@ default
 '
 :
 '
-firefox
+{
+product
+}
 -
 {
 previous_version
@@ -633,7 +655,9 @@ win
 '
 :
 '
-Firefox
+{
+pretty_product
+}
 %
 20Installer
 .
@@ -645,7 +669,9 @@ win64
 '
 :
 '
-Firefox
+{
+pretty_product
+}
 %
 20Installer
 .
@@ -1433,6 +1459,13 @@ there
             
 continue
         
+file_name_product
+=
+_craft_filename_product
+(
+product
+)
+        
 file_name
 =
 file_name_template
@@ -1440,9 +1473,22 @@ file_name_template
 format
 (
             
+product
+=
+file_name_product
+            
+pretty_product
+=
+file_name_product
+.
+capitalize
+(
+)
+            
 version
 =
 current_version
+            
 previous_version
 =
 strip_build_data
@@ -1615,6 +1661,26 @@ win32
     
 return
 ftp_platform
+def
+_craft_filename_product
+(
+product
+)
+:
+    
+return
+'
+firefox
+'
+if
+product
+=
+=
+'
+devedition
+'
+else
+product
 def
 craft_bouncer_product_name
 (
