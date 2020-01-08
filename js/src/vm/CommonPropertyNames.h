@@ -963,6 +963,15 @@ do
 \
 macro
 (
+domNode
+domNode
+"
+domNode
+"
+)
+\
+macro
+(
 done
 done
 "

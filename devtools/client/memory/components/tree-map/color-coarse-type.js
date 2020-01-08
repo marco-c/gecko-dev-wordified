@@ -89,6 +89,9 @@ strings
 "
 scripts
 "
+"
+domNode
+"
 ]
 ;
 /
