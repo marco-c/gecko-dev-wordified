@@ -69,7 +69,9 @@ strict
 "
 ;
 const
+{
 DebuggerServer
+}
 =
 require
 (
