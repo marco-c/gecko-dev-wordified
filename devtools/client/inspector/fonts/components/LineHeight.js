@@ -462,7 +462,7 @@ return
 FontPropertyValue
 (
 {
-allowAutoIncrement
+autoIncrement
 :
 true
 label
