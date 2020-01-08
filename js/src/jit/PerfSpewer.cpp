@@ -127,6 +127,15 @@ IntegerPrintfMacros
 h
 "
 #
+include
+"
+mozilla
+/
+Printf
+.
+h
+"
+#
 ifdef
 XP_UNIX
 #
@@ -1225,7 +1234,7 @@ size
 s
 :
 %
-zu
+u
 :
 Func
 %
@@ -1356,7 +1365,7 @@ prologueSize
 s
 :
 %
-zu
+u
 :
 Func
 %
@@ -1472,7 +1481,7 @@ cur
 s
 :
 %
-zu
+u
 :
 Func
 %
@@ -1589,7 +1598,7 @@ cur
 s
 :
 %
-zu
+u
 :
 Func
 %
@@ -1643,7 +1652,7 @@ funcEndInlineCode
 s
 :
 %
-zu
+u
 :
 Func
 %
@@ -1742,7 +1751,7 @@ size
 s
 :
 %
-zu
+u
 :
 Baseline
 "
