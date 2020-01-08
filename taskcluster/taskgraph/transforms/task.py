@@ -4763,6 +4763,8 @@ implementation
 :
 '
 shipit
+-
+shipped
 '
         
 Required
@@ -9929,10 +9931,12 @@ payload_builder
 (
 '
 shipit
+-
+shipped
 '
 )
 def
-build_ship_it_payload
+build_ship_it_shipped_payload
 (
 config
 task
