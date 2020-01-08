@@ -12698,7 +12698,7 @@ cond
 /
 ifThen
 .
-emitIf
+emitThen
 (
 )
 ;
@@ -12747,7 +12747,7 @@ cond
 /
 ifThenElse
 .
-emitIfElse
+emitThenElse
 (
 )
 ;
@@ -12823,7 +12823,7 @@ c1
 /
 ifThenElse
 .
-emitIfElse
+emitThenElse
 (
 )
 ;
@@ -12853,7 +12853,7 @@ c2
 /
 ifThenElse
 .
-emitIfElse
+emitThenElse
 (
 )
 ;
@@ -12883,7 +12883,7 @@ c3
 /
 ifThenElse
 .
-emitIfElse
+emitThenElse
 (
 )
 ;
@@ -13241,8 +13241,10 @@ End
 /
 /
 v
-emitIf
+emitThen
 +
+-
+-
 -
 -
 -
@@ -13262,14 +13264,12 @@ emitIf
 -
 -
 -
+-
+-
 >
 |
-If
+Then
 |
--
--
--
--
 -
 -
 -
@@ -13305,6 +13305,8 @@ If
 -
 -
 -
+-
+-
 +
 ^
 /
@@ -13316,18 +13318,24 @@ If
 /
 |
 |
-|
-/
-/
-|
-|
-|
-/
-/
-|
-|
-emitIfElse
 +
+-
+-
+-
++
+/
+/
+|
+|
+|
+/
+/
+|
+|
+emitThenElse
++
+-
+-
 -
 -
 -
@@ -13362,9 +13370,11 @@ emitElse
 -
 -
 -
+-
+-
 >
 |
-IfElse
+ThenElse
 |
 -
 +
@@ -13387,6 +13397,8 @@ Else
 /
 |
 +
+-
+-
 -
 -
 -
@@ -13516,6 +13528,10 @@ ElseIf
 -
 -
 -
+-
+-
+-
+-
 +
 enum
 class
@@ -13532,9 +13548,9 @@ Start
 /
 After
 calling
-emitIf
+emitThen
 .
-If
+Then
 /
 /
 After
@@ -13546,9 +13562,9 @@ Cond
 /
 After
 calling
-emitIfElse
+emitThenElse
 .
-IfElse
+ThenElse
 /
 /
 After
@@ -13648,7 +13664,7 @@ nextState
 State
 :
 :
-If
+Then
 |
 |
 nextState
@@ -13657,7 +13673,7 @@ nextState
 State
 :
 :
-IfElse
+ThenElse
 |
 |
 nextState
@@ -13684,7 +13700,7 @@ nextState
 State
 :
 :
-If
+Then
 |
 |
 nextState
@@ -13693,7 +13709,7 @@ nextState
 State
 :
 :
-IfElse
+ThenElse
 )
 ;
 /
@@ -13791,7 +13807,7 @@ nextState
 State
 :
 :
-IfElse
+ThenElse
 |
 |
 nextState
@@ -13870,7 +13886,7 @@ public
 :
 MOZ_MUST_USE
 bool
-emitIf
+emitThen
 (
 )
 {
@@ -13900,7 +13916,7 @@ emitIfInternal
 State
 :
 :
-If
+Then
 SRC_IF
 )
 ;
@@ -13935,7 +13951,7 @@ SRC_COND
 }
 MOZ_MUST_USE
 bool
-emitIfElse
+emitThenElse
 (
 )
 {
@@ -13965,7 +13981,7 @@ emitIfInternal
 State
 :
 :
-IfElse
+ThenElse
 SRC_IF_ELSE
 )
 ;
@@ -13984,7 +14000,7 @@ state_
 State
 :
 :
-IfElse
+ThenElse
 |
 |
 state_
@@ -14127,7 +14143,7 @@ state_
 State
 :
 :
-IfElse
+ThenElse
 )
 ;
 if
@@ -14181,7 +14197,7 @@ state_
 State
 :
 :
-If
+Then
 |
 |
 state_
@@ -14205,7 +14221,7 @@ state_
 State
 :
 :
-If
+Then
 )
 {
 /
@@ -14982,7 +14998,7 @@ if
 !
 ifIteratorIsNotClosed
 .
-emitIf
+emitThen
 (
 )
 )
@@ -15203,7 +15219,7 @@ if
 !
 ifGeneratorClosing
 .
-emitIf
+emitThen
 (
 )
 )
@@ -34620,7 +34636,7 @@ if
 !
 ifReturnMethodIsDefined
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -37364,7 +37380,7 @@ if
 !
 ifThenElse
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -37813,7 +37829,7 @@ if
 !
 ifAlreadyDone
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -38149,7 +38165,7 @@ if
 !
 ifDone
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -38519,7 +38535,7 @@ if
 !
 ifDone
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -44216,7 +44232,7 @@ if
 !
 ifThenElse
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -44231,7 +44247,7 @@ if
 !
 ifThenElse
 .
-emitIf
+emitThen
 (
 )
 )
@@ -45569,7 +45585,7 @@ if
 !
 ifAsyncIterIsUndefined
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -47898,7 +47914,7 @@ if
 !
 ifDone
 .
-emitIf
+emitThen
 (
 )
 )
@@ -56117,7 +56133,7 @@ if
 !
 ifThrowMethodIsNotDefined
 .
-emitIf
+emitThen
 (
 )
 )
@@ -56615,7 +56631,7 @@ if
 !
 ifGeneratorClosing
 .
-emitIf
+emitThen
 (
 )
 )
@@ -56802,7 +56818,7 @@ if
 !
 ifReturnMethodIsDefined
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -57061,7 +57077,7 @@ if
 !
 ifReturnDone
 .
-emitIfElse
+emitThenElse
 (
 )
 )
@@ -61975,7 +61991,7 @@ if
 !
 ifNotOptimizable
 .
-emitIf
+emitThen
 (
 )
 )
@@ -68918,7 +68934,7 @@ if
 !
 ifThenElse
 .
-emitIfElse
+emitThenElse
 (
 )
 )
