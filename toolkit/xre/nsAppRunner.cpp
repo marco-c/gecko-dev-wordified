@@ -24672,10 +24672,6 @@ nsIFile
 >
 flagFile
 ;
-rv
-=
-NS_ERROR_FILE_NOT_FOUND
-;
 if
 (
 mAppData
@@ -24684,8 +24680,9 @@ mAppData
 directory
 )
 {
-rv
-=
+Unused
+<
+<
 mAppData
 -
 >
@@ -25296,11 +25293,6 @@ XRE_mainRun
 (
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 NS_ASSERTION
 (
 mScopedXPCOM
@@ -25540,6 +25532,7 @@ service
 }
 #
 endif
+nsresult
 rv
 =
 mScopedXPCOM
@@ -27937,8 +27930,6 @@ OTHER
 ;
 nsresult
 rv
-=
-NS_OK
 ;
 gArgc
 =
@@ -29075,11 +29066,6 @@ aArgv
 ]
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 #
 if
 defined
@@ -29146,6 +29132,7 @@ nsIFile
 >
 binFile
 ;
+nsresult
 rv
 =
 XRE_GetBinaryPath
