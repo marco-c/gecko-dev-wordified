@@ -410,8 +410,8 @@ OwningAnimationTarget
 >
 &
 aTarget
-const
 TimingParams
+&
 &
 aTiming
 AnimationValue
@@ -431,7 +431,13 @@ KeyframeEffect
 (
 aDocument
 aTarget
+std
+:
+:
+move
+(
 aTiming
+)
 aEffectOptions
 )
 mStartForReversingTest

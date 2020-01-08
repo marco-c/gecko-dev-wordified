@@ -239,8 +239,8 @@ AnimationEffect
 nsIDocument
 *
 aDocument
-const
 TimingParams
+&
 &
 aTiming
 )

@@ -738,8 +738,8 @@ OwningAnimationTarget
 >
 &
 aTarget
-const
 TimingParams
+&
 &
 aTiming
 const
