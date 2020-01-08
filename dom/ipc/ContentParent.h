@@ -407,6 +407,12 @@ EXTENSION_REMOTE_TYPE
 "
 extension
 "
+#
+define
+PRIVILEGED_REMOTE_TYPE
+"
+privileged
+"
 /
 /
 This
