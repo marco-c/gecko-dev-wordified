@@ -200,12 +200,6 @@ connectedCallback
 {
 this
 .
-tabIndex
-=
-0
-;
-this
-.
 appendChild
 (
 this
