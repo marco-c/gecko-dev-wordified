@@ -265,7 +265,7 @@ true
 }
 )
 ;
-let
+const
 connections
 =
 new
@@ -273,7 +273,7 @@ Map
 (
 )
 ;
-let
+const
 onConnect
 =
 DevToolsUtils
@@ -295,14 +295,14 @@ connect
 onConnect
 )
 ;
-let
+const
 mm
 =
 msg
 .
 target
 ;
-let
+const
 prefix
 =
 msg
@@ -311,7 +311,7 @@ data
 .
 prefix
 ;
-let
+const
 addonId
 =
 msg
@@ -405,7 +405,7 @@ blockThreadedExecution
 =
 >
 {
-let
+const
 conn
 =
 DebuggerServer
@@ -498,7 +498,7 @@ chromeGlobal
 )
 ;
 }
-let
+const
 actorPool
 =
 new
@@ -580,7 +580,7 @@ DebuggerServer
 setupInChild
 (
 )
-let
+const
 onSetupInChild
 =
 DevToolsUtils
@@ -591,7 +591,7 @@ msg
 =
 >
 {
-let
+const
 {
 module
 setupChild
@@ -665,7 +665,7 @@ catch
 e
 )
 {
-let
+const
 errorMessage
 =
 "
@@ -803,7 +803,7 @@ child
 onSetupInChild
 )
 ;
-let
+const
 onDisconnect
 =
 DevToolsUtils
@@ -815,7 +815,7 @@ function
 msg
 )
 {
-let
+const
 prefix
 =
 msg
@@ -824,7 +824,7 @@ data
 .
 prefix
 ;
-let
+const
 conn
 =
 connections
@@ -1023,7 +1023,7 @@ unload
 {
 for
 (
-let
+const
 conn
 of
 connections

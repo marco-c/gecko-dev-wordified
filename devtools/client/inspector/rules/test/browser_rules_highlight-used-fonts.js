@@ -622,7 +622,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -635,7 +635,7 @@ openRuleView
 ;
 for
 (
-let
+const
 {
 selector
 nb
@@ -645,7 +645,7 @@ of
 TESTS
 )
 {
-let
+const
 onFontHighlighted
 =
 view
@@ -687,7 +687,7 @@ selector
 selector
 )
 ;
-let
+const
 prop
 =
 getRuleViewProperty
@@ -703,7 +703,7 @@ family
 .
 valueSpan
 ;
-let
+const
 fonts
 =
 prop

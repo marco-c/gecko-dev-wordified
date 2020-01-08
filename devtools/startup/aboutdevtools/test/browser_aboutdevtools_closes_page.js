@@ -75,7 +75,7 @@ enabled
 false
 )
 ;
-let
+const
 {
 doc
 win
@@ -102,7 +102,7 @@ page
 "
 )
 ;
-let
+const
 closeButton
 =
 doc
@@ -125,7 +125,7 @@ displayed
 "
 )
 ;
-let
+const
 onWindowUnload
 =
 new

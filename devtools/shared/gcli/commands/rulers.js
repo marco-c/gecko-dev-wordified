@@ -333,7 +333,7 @@ args
 context
 )
 {
-let
+const
 {
 target
 }
@@ -352,7 +352,7 @@ the
 server
 command
 .
-let
+const
 response
 =
 yield
@@ -365,7 +365,7 @@ rulers_server
 "
 )
 ;
-let
+const
 isEnabled
 =
 response
@@ -502,14 +502,14 @@ args
 context
 )
 {
-let
+const
 env
 =
 context
 .
 environment
 ;
-let
+const
 {
 document
 }
@@ -544,7 +544,7 @@ document
 )
 )
 {
-let
+const
 {
 highlighter
 }
@@ -573,7 +573,7 @@ display
 the
 rulers
 .
-let
+const
 environment
 =
 new
@@ -590,7 +590,7 @@ env
 window
 )
 ;
-let
+const
 highlighter
 =
 new
@@ -681,7 +681,7 @@ document
 )
 )
 {
-let
+const
 {
 environment
 :

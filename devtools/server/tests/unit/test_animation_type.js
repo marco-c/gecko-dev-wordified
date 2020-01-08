@@ -81,7 +81,7 @@ the
 AnimationPlayerActor
 uses
 .
-let
+const
 window
 =
 {
@@ -385,7 +385,7 @@ UNKNOWN
 ;
 for
 (
-let
+const
 {
 desc
 animation
@@ -400,7 +400,7 @@ info
 desc
 )
 ;
-let
+const
 actor
 =
 AnimationPlayerActor

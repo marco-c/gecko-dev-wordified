@@ -561,7 +561,7 @@ has
 a
 unique
 name
-let
+const
 exists
 =
 list
@@ -664,7 +664,7 @@ loadLocalDevices
 (
 )
 ;
-let
+const
 list
 =
 localDevices
@@ -682,7 +682,7 @@ return
 false
 ;
 }
-let
+const
 index
 =
 list
@@ -808,7 +808,7 @@ Mozilla
 s
 CDN
 .
-let
+const
 devices
 =
 await
@@ -824,7 +824,7 @@ loadLocalDevices
 ;
 for
 (
-let
+const
 type
 in
 localDevices

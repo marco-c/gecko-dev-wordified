@@ -92,7 +92,7 @@ otherFonts
 ]
 }
 ;
-let
+const
 reducers
 =
 {
@@ -128,7 +128,7 @@ INITIAL_FONT_DATA
 action
 )
 {
-let
+const
 reducer
 =
 reducers

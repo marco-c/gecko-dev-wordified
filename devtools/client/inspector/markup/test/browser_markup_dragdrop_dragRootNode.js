@@ -103,7 +103,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -116,7 +116,7 @@ TEST_URL
 ;
 for
 (
-let
+const
 selector
 of
 TEST_DATA
@@ -143,7 +143,7 @@ inspector
 selector
 )
 ;
-let
+const
 container
 =
 await

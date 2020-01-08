@@ -88,8 +88,8 @@ devtools
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -104,7 +104,7 @@ debugging
 "
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -112,7 +112,7 @@ resolve
 =
 >
 {
-let
+const
 options
 =
 {
@@ -157,13 +157,13 @@ resolve
 }
 )
 ;
-let
+const
 {
 tab
 document
 }
 =
-yield
+await
 openAboutDebugging
 (
 "
@@ -171,7 +171,7 @@ addons
 "
 )
 ;
-yield
+await
 waitForInitialAddonList
 (
 document
@@ -188,7 +188,7 @@ addon
 "
 )
 ;
-yield
+await
 installAddon
 (
 {
@@ -210,7 +210,7 @@ ADDON_NAME
 }
 )
 ;
-let
+const
 addonDebugCheckbox
 =
 document
@@ -256,7 +256,7 @@ disabled
 "
 )
 ;
-let
+const
 debugButtons
 =
 [
@@ -442,7 +442,7 @@ earlier
 "
 )
 ;
-yield
+await
 uninstallAddon
 (
 {
@@ -456,7 +456,7 @@ ADDON_NAME
 }
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab

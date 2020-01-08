@@ -139,7 +139,7 @@ use
 strict
 "
 ;
-let
+const
 {
 require
 }
@@ -165,7 +165,7 @@ jsm
 }
 )
 ;
-let
+const
 {
 DebuggerClient
 }
@@ -185,7 +185,7 @@ client
 "
 )
 ;
-let
+const
 {
 DebuggerServer
 }
@@ -274,7 +274,7 @@ with
 a
 message
 manager
-let
+const
 iframe
 =
 document
@@ -301,7 +301,7 @@ appendChild
 iframe
 )
 ;
-let
+const
 mm
 =
 iframe
@@ -566,7 +566,7 @@ connection
 to
 an
 iframe
-let
+const
 transport
 =
 DebuggerServer
@@ -575,14 +575,14 @@ connectPipe
 (
 )
 ;
-let
+const
 conn
 =
 transport
 .
 _serverConnection
 ;
-let
+const
 client
 =
 new
@@ -785,7 +785,7 @@ set
 of
 tab
 actors
-let
+const
 transport
 =
 DebuggerServer
@@ -794,14 +794,14 @@ connectPipe
 (
 )
 ;
-let
+const
 conn
 =
 transport
 .
 _serverConnection
 ;
-let
+const
 client
 =
 new

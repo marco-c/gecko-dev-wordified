@@ -156,7 +156,7 @@ logLimit
 =
 100
 ;
-let
+const
 releasedActors
 =
 [
@@ -482,7 +482,7 @@ logLimit
 =
 100
 ;
-let
+const
 releasedActors
 =
 [
@@ -908,7 +908,7 @@ clear
 =
 >
 {
-let
+const
 releasedActors
 =
 [

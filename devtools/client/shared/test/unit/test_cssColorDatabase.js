@@ -168,7 +168,7 @@ colorName
 checkName
 )
 {
-let
+const
 ours
 =
 colorUtils
@@ -178,7 +178,7 @@ colorToRGBA
 colorName
 )
 ;
-let
+const
 fromDom
 =
 InspectorUtils
@@ -211,7 +211,7 @@ if
 checkName
 )
 {
-let
+const
 {
 r
 g
@@ -252,7 +252,7 @@ is
 /
 canonical
 .
-let
+const
 ourName
 =
 colorUtils
@@ -264,7 +264,7 @@ g
 b
 )
 ;
-let
+const
 domName
 =
 InspectorUtils
@@ -300,7 +300,7 @@ run_test
 {
 for
 (
-let
+const
 name
 in
 cssColors
@@ -369,7 +369,7 @@ if
 false
 )
 {
-let
+const
 names
 =
 InspectorUtils
@@ -385,7 +385,7 @@ color
 ;
 for
 (
-let
+const
 name
 of
 names

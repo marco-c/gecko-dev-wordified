@@ -98,7 +98,7 @@ function
 (
 )
 {
-let
+const
 client
 =
 await
@@ -113,7 +113,7 @@ timetosettle
 "
 )
 ;
-let
+const
 chromeActors
 =
 await
@@ -177,7 +177,7 @@ chromeActors
 =
 >
 {
-let
+const
 p
 =
 new
@@ -199,7 +199,7 @@ name
 p
 "
 ;
-let
+const
 q
 =
 p
@@ -222,7 +222,7 @@ p
 }
 )
 ;
-let
+const
 response
 =
 await
@@ -231,7 +231,7 @@ listTabs
 client
 )
 ;
-let
+const
 targetTab
 =
 findTab
@@ -286,7 +286,7 @@ timetosettle
 "
 )
 ;
-let
+const
 p
 =
 new
@@ -310,7 +310,7 @@ name
 p
 "
 ;
-let
+const
 q
 =
 p
@@ -351,7 +351,7 @@ form
 makePromises
 )
 {
-let
+const
 front
 =
 PromisesFront
@@ -374,7 +374,7 @@ listPromises
 (
 )
 ;
-let
+const
 onNewPromise
 =
 new
@@ -400,7 +400,7 @@ promises
 {
 for
 (
-let
+const
 p
 of
 promises
@@ -500,7 +500,7 @@ resolve
 }
 )
 ;
-let
+const
 promise
 =
 makePromises

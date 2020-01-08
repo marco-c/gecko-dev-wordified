@@ -163,7 +163,7 @@ addTab
 TESTCASE_URI
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -321,7 +321,7 @@ editor
 "
 )
 ;
-let
+const
 onStyleEditorReady
 =
 toolbox
@@ -348,7 +348,7 @@ it
 "
 )
 ;
-let
+const
 link
 =
 getRuleViewLinkByIndex
@@ -379,7 +379,7 @@ checkDisplayedStylesheet
 toolbox
 )
 {
-let
+const
 panel
 =
 toolbox
@@ -491,7 +491,7 @@ editorSelected
 editor
 )
 {
-let
+const
 href
 =
 editor
@@ -521,7 +521,7 @@ one
 "
 )
 ;
-let
+const
 {
 line
 }
@@ -576,7 +576,7 @@ is
 text
 )
 ;
-let
+const
 label
 =
 getRuleViewLinkByIndex

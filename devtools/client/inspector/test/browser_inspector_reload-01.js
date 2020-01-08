@@ -185,7 +185,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -206,7 +206,7 @@ p
 inspector
 )
 ;
-let
+const
 markupLoaded
 =
 inspector
@@ -258,7 +258,7 @@ reload
 await
 markupLoaded
 ;
-let
+const
 nodeFront
 =
 await

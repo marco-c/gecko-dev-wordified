@@ -182,7 +182,7 @@ function
 (
 )
 {
-let
+const
 browserWin
 =
 Services
@@ -502,7 +502,7 @@ true
 }
 )
 ;
-let
+const
 li
 =
 document
@@ -526,7 +526,7 @@ addon
 status
 )
 ;
-let
+const
 name
 =
 document
@@ -589,7 +589,7 @@ appendChild
 name
 )
 ;
-let
+const
 status
 =
 document
@@ -633,7 +633,7 @@ appendChild
 status
 )
 ;
-let
+const
 installButton
 =
 document
@@ -689,7 +689,7 @@ appendChild
 installButton
 )
 ;
-let
+const
 uninstallButton
 =
 document
@@ -745,7 +745,7 @@ appendChild
 uninstallButton
 )
 ;
-let
+const
 progress
 =
 document
@@ -774,7 +774,7 @@ adb
 "
 )
 {
-let
+const
 warning
 =
 document

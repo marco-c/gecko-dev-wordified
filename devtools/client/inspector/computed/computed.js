@@ -905,7 +905,7 @@ function
 (
 )
 {
-let
+const
 time
 =
 Date
@@ -922,7 +922,7 @@ this
 canceled
 )
 {
-let
+const
 next
 =
 this
@@ -1172,7 +1172,7 @@ propertyViews
 [
 ]
 ;
-let
+const
 cssProperties
 =
 getCssProperties
@@ -1290,7 +1290,7 @@ bind
 this
 )
 ;
-let
+const
 doc
 =
 this
@@ -2118,7 +2118,7 @@ all
 properties
 for
 (
-let
+const
 propView
 of
 this
@@ -2310,7 +2310,7 @@ return
 null
 ;
 }
-let
+const
 classes
 =
 node
@@ -2380,7 +2380,7 @@ selectorText
 ;
 for
 (
-let
+const
 child
 of
 node
@@ -2553,7 +2553,7 @@ property
 name
 or
 value
-let
+const
 isHref
 =
 classes
@@ -2686,7 +2686,7 @@ isHref
 )
 )
 {
-let
+const
 view
 =
 propertyContent
@@ -2782,7 +2782,7 @@ if
 propertyContent
 )
 {
-let
+const
 view
 =
 propertyContent
@@ -2982,7 +2982,7 @@ numVisibleProperties
 =
 0
 ;
-let
+const
 fragment
 =
 this
@@ -3036,7 +3036,7 @@ Per
 item
 callback
 .
-let
+const
 propView
 =
 new
@@ -3219,7 +3219,7 @@ early
 if
 it
 changed
-let
+const
 viewedElement
 =
 this
@@ -3306,7 +3306,7 @@ Set
 ;
 for
 (
-let
+const
 name
 in
 computed
@@ -3824,7 +3824,7 @@ _filterChangedTimeout
 )
 ;
 }
-let
+const
 filterTimeout
 =
 (
@@ -4189,7 +4189,7 @@ document
 s
 root
 element
-let
+const
 styles
 =
 this
@@ -4205,7 +4205,7 @@ styleDocument
 documentElement
 )
 ;
-let
+const
 mozProps
 =
 [
@@ -4232,7 +4232,7 @@ i
 +
 )
 {
-let
+const
 prop
 =
 styles
@@ -4509,7 +4509,7 @@ function
 event
 )
 {
-let
+const
 target
 =
 event
@@ -4541,7 +4541,7 @@ preventDefault
 (
 )
 ;
-let
+const
 browserWin
 =
 this
@@ -4604,14 +4604,14 @@ function
 event
 )
 {
-let
+const
 win
 =
 this
 .
 styleWindow
 ;
-let
+const
 text
 =
 win
@@ -4673,14 +4673,14 @@ function
 {
 try
 {
-let
+const
 win
 =
 this
 .
 styleWindow
 ;
-let
+const
 text
 =
 win
@@ -5055,7 +5055,7 @@ Property
 views
 for
 (
-let
+const
 propView
 of
 this
@@ -5142,7 +5142,7 @@ tree
 _computed
 )
 {
-let
+const
 value
 =
 this
@@ -5534,7 +5534,7 @@ return
 false
 ;
 }
-let
+const
 searchTerm
 =
 this
@@ -5549,7 +5549,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 isValidSearchTerm
 =
 searchTerm
@@ -5640,7 +5640,7 @@ this
 visible
 )
 {
-let
+const
 isDark
 =
 this
@@ -5727,7 +5727,7 @@ this
 visible
 )
 {
-let
+const
 isDark
 =
 this
@@ -5794,7 +5794,7 @@ function
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -5977,7 +5977,7 @@ this
 onMatchedToggle
 )
 ;
-let
+const
 nameContainer
 =
 doc
@@ -6249,7 +6249,7 @@ name
 :
 "
 separator
-let
+const
 nameSeparator
 =
 doc
@@ -6301,7 +6301,7 @@ this
 nameNode
 )
 ;
-let
+const
 valueContainer
 =
 doc
@@ -6464,7 +6464,7 @@ value
 ;
 "
 separator
-let
+const
 valueSeparator
 =
 doc
@@ -6526,7 +6526,7 @@ function
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -6535,7 +6535,7 @@ tree
 .
 styleDocument
 ;
-let
+const
 element
 =
 doc
@@ -6747,7 +6747,7 @@ numVisibleProperties
 +
 +
 ;
-let
+const
 outputParser
 =
 this
@@ -6756,7 +6756,7 @@ tree
 .
 _outputParser
 ;
-let
+const
 frag
 =
 outputParser
@@ -6865,7 +6865,7 @@ function
 (
 )
 {
-let
+const
 hasMatchedSelectors
 =
 this
@@ -7088,7 +7088,7 @@ function
 (
 )
 {
-let
+const
 frag
 =
 this
@@ -7103,7 +7103,7 @@ createDocumentFragment
 ;
 for
 (
-let
+const
 selector
 of
 this
@@ -7111,7 +7111,7 @@ this
 matchedSelectorViews
 )
 {
-let
+const
 p
 =
 createChild
@@ -7122,7 +7122,7 @@ p
 "
 )
 ;
-let
+const
 span
 =
 createChild
@@ -7142,7 +7142,7 @@ link
 }
 )
 ;
-let
+const
 link
 =
 createChild
@@ -7202,7 +7202,7 @@ selector
 openStyleEditor
 )
 ;
-let
+const
 shortcuts
 =
 new
@@ -7240,7 +7240,7 @@ openStyleEditor
 )
 )
 ;
-let
+const
 status
 =
 createChild
@@ -7303,7 +7303,7 @@ sourceText
 }
 )
 ;
-let
+const
 valueDiv
 =
 createChild
@@ -7415,7 +7415,7 @@ selectorInfo
 =
 >
 {
-let
+const
 selectorView
 =
 new
@@ -7550,7 +7550,7 @@ function
 event
 )
 {
-let
+const
 inspector
 =
 this
@@ -7568,7 +7568,7 @@ target
 tab
 )
 {
-let
+const
 browserWin
 =
 inspector
@@ -7623,7 +7623,7 @@ _matchedSelectorViews
 {
 for
 (
-let
+const
 view
 of
 this
@@ -8095,7 +8095,7 @@ return
 }
 for
 (
-let
+const
 status
 in
 CssLogic
@@ -8103,7 +8103,7 @@ CssLogic
 STATUS
 )
 {
-let
+const
 i
 =
 CssLogic
@@ -8124,7 +8124,7 @@ STATUS
 UNMATCHED
 )
 {
-let
+const
 value
 =
 CssComputedView
@@ -8257,7 +8257,7 @@ this
 _href
 ;
 }
-let
+const
 sheet
 =
 this
@@ -8371,7 +8371,7 @@ the
 /
 templater
 .
-let
+const
 outputParser
 =
 this
@@ -8380,7 +8380,7 @@ tree
 .
 _outputParser
 ;
-let
+const
 frag
 =
 outputParser
@@ -8638,7 +8638,7 @@ this
 generatedLocation
 ;
 }
-let
+const
 selector
 =
 '
@@ -8657,7 +8657,7 @@ source
 ]
 '
 ;
-let
+const
 link
 =
 this
@@ -8676,7 +8676,7 @@ if
 link
 )
 {
-let
+const
 text
 =
 CssLogic
@@ -8796,7 +8796,7 @@ function
 (
 )
 {
-let
+const
 inspector
 =
 this
@@ -8805,7 +8805,7 @@ tree
 .
 inspector
 ;
-let
+const
 rule
 =
 this
@@ -8872,7 +8872,7 @@ view
 source
 window
 .
-let
+const
 parentStyleSheet
 =
 rule
@@ -8890,7 +8890,7 @@ parentStyleSheet
 isSystem
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -8917,7 +8917,7 @@ line
 return
 ;
 }
-let
+const
 {
 href
 line
@@ -8928,7 +8928,7 @@ this
 .
 currentLocation
 ;
-let
+const
 target
 =
 inspector
@@ -9001,7 +9001,7 @@ function
 (
 )
 {
-let
+const
 rule
 =
 this
@@ -9403,7 +9403,7 @@ computedView
 return
 ;
 }
-let
+const
 isInactive
 =
 !
@@ -9486,7 +9486,7 @@ if
 selectElement
 )
 {
-let
+const
 done
 =
 this

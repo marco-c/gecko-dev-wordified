@@ -159,7 +159,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -179,7 +179,7 @@ opened
 "
 )
 ;
-let
+const
 jsterm
 =
 hud
@@ -267,7 +267,7 @@ hello
 "
 )
 ;
-let
+const
 msg
 =
 await
@@ -328,7 +328,7 @@ crashes
 /
 Firefox
 .
-let
+const
 anchor
 =
 msg

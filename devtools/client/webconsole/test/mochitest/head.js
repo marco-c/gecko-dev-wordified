@@ -462,7 +462,7 @@ pref
 }
 )
 ;
-let
+const
 browserConsole
 =
 HUDService
@@ -592,7 +592,7 @@ clearJstermHistory
 true
 )
 {
-let
+const
 toolbox
 =
 await
@@ -604,7 +604,7 @@ webconsole
 "
 )
 ;
-let
+const
 hud
 =
 toolbox
@@ -931,7 +931,7 @@ newMessages
 {
 for
 (
-let
+const
 message
 of
 messages
@@ -949,13 +949,13 @@ continue
 }
 for
 (
-let
+const
 newMessage
 of
 newMessages
 )
 {
-let
+const
 messageBody
 =
 newMessage
@@ -1181,7 +1181,7 @@ the
 provided
 text
 .
-let
+const
 node
 =
 findMessage
@@ -1214,7 +1214,7 @@ the
 expected
 count
 .
-let
+const
 repeatNode
 =
 node
@@ -1766,7 +1766,7 @@ hud
 element
 )
 {
-let
+const
 onConsoleMenuOpened
 =
 hud
@@ -1892,7 +1892,7 @@ chromeWindow
 .
 document
 ;
-let
+const
 popup
 =
 doc
@@ -1920,7 +1920,7 @@ resolve
 )
 ;
 }
-let
+const
 onPopupHidden
 =
 once
@@ -2200,7 +2200,7 @@ text
 "
 )
 ;
-let
+const
 messageNode
 =
 await
@@ -2217,7 +2217,7 @@ text
 )
 )
 ;
-let
+const
 frameLinkNode
 =
 messageNode
@@ -2290,7 +2290,7 @@ location
 "
 )
 ;
-let
+const
 url
 =
 frameLinkNode
@@ -2319,7 +2319,7 @@ url
 )
 )
 ;
-let
+const
 line
 =
 frameLinkNode
@@ -2348,7 +2348,7 @@ line
 )
 )
 ;
-let
+const
 onSourceInDebuggerOpened
 =
 once
@@ -2396,7 +2396,7 @@ filename
 await
 onSourceInDebuggerOpened
 ;
-let
+const
 dbg
 =
 toolbox
@@ -2643,7 +2643,7 @@ value
 =
 value
 ;
-let
+const
 index
 =
 value
@@ -2903,7 +2903,7 @@ gBrowser
 selectedTab
 ;
 }
-let
+const
 target
 =
 TargetFactory
@@ -2925,7 +2925,7 @@ getToolbox
 target
 )
 ;
-let
+const
 dbgPanelAlreadyOpen
 =
 toolbox
@@ -2982,7 +2982,7 @@ jsdebugger
 "
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -3171,7 +3171,7 @@ openConsole
 tab
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -3279,7 +3279,7 @@ gBrowser
 selectedTab
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -3289,7 +3289,7 @@ forTab
 tab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -3501,14 +3501,14 @@ to
 prevent
 navigating
 .
-let
+const
 oldOpenTrustedLinkIn
 =
 window
 .
 openTrustedLinkIn
 ;
-let
+const
 oldOpenWebLinkIn
 =
 window
@@ -3797,7 +3797,7 @@ openNewBrowserWindow
 options
 )
 {
-let
+const
 win
 =
 OpenBrowserWindow
@@ -3970,7 +3970,7 @@ urlInConsole
 |
 url
 ;
-let
+const
 message
 =
 await
@@ -3987,7 +3987,7 @@ urlInConsole
 )
 )
 ;
-let
+const
 onNetmonitorSelected
 =
 toolbox
@@ -4012,7 +4012,7 @@ panel
 }
 )
 ;
-let
+const
 menuPopup
 =
 await
@@ -4022,7 +4022,7 @@ hud
 message
 )
 ;
-let
+const
 openInNetMenuItem
 =
 menuPopup
@@ -4091,7 +4091,7 @@ message
 "
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -4099,7 +4099,7 @@ windowRequire
 =
 panelWin
 ;
-let
+const
 nmActions
 =
 windowRequire
@@ -4119,7 +4119,7 @@ index
 "
 )
 ;
-let
+const
 {
 getSelectedRequest
 }
@@ -4209,7 +4209,7 @@ hud
 node
 )
 {
-let
+const
 outputContainer
 =
 hud
@@ -4255,7 +4255,7 @@ blur
 (
 )
 ;
-let
+const
 selection
 =
 outputContainer
@@ -4266,7 +4266,7 @@ getSelection
 (
 )
 ;
-let
+const
 range
 =
 document
@@ -4350,7 +4350,7 @@ Ci
 nsISupportsString
 )
 ;
-let
+const
 hud
 =
 HUDService
@@ -4470,13 +4470,13 @@ result
 ;
 for
 (
-let
+const
 button
 of
 buttons
 )
 {
-let
+const
 classes
 =
 new
@@ -4491,7 +4491,7 @@ values
 )
 )
 ;
-let
+const
 checked
 =
 classes
@@ -4523,7 +4523,7 @@ checked
 "
 )
 ;
-let
+const
 category
 =
 classes
@@ -4641,13 +4641,13 @@ true
 ;
 for
 (
-let
+const
 category
 in
 settings
 )
 {
-let
+const
 setActive
 =
 settings
@@ -4655,7 +4655,7 @@ settings
 category
 ]
 ;
-let
+const
 button
 =
 filterBar
@@ -4720,7 +4720,7 @@ disabled
 }
 )
 ;
-let
+const
 isChecked
 =
 button

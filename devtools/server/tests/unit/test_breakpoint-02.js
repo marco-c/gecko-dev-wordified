@@ -197,7 +197,7 @@ event
 packet
 )
 {
-let
+const
 location
 =
 {
@@ -269,7 +269,7 @@ interrupted
 }
 )
 ;
-let
+const
 source
 =
 gThreadClient

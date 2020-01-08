@@ -71,7 +71,7 @@ type
 registered
 correctly
 .
-let
+const
 type
 =
 types
@@ -83,7 +83,7 @@ test
 "
 )
 ;
-let
+const
 arrayType
 =
 types

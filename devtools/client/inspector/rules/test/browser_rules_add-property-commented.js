@@ -114,7 +114,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -183,7 +183,7 @@ view
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -192,7 +192,7 @@ view
 0
 )
 ;
-let
+const
 editor
 =
 await
@@ -241,7 +241,7 @@ editor
 "
 )
 ;
-let
+const
 input
 =
 editor
@@ -301,7 +301,7 @@ field
 "
 )
 ;
-let
+const
 onModifications
 =
 view
@@ -332,7 +332,7 @@ styleWindow
 await
 onModifications
 ;
-let
+const
 textProps
 =
 ruleEditor

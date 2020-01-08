@@ -620,7 +620,7 @@ currentNode
 .
 className
 ;
-let
+const
 nodeClasses
 =
 [
@@ -833,7 +833,7 @@ our
 local
 model
 .
-let
+const
 nodeClasses
 =
 this
@@ -1248,7 +1248,7 @@ to
 the
 node
 .
-let
+const
 mod
 =
 this
@@ -1286,7 +1286,7 @@ mutations
 {
 for
 (
-let
+const
 {
 type
 target
@@ -1332,7 +1332,7 @@ class
 continue
 ;
 }
-let
+const
 isMutationForOurChange
 =
 this
@@ -1942,7 +1942,7 @@ innerHTML
 ;
 for
 (
-let
+const
 {
 name
 isApplied
@@ -1955,7 +1955,7 @@ model
 currentClasses
 )
 {
-let
+const
 checkBox
 =
 this
@@ -2067,7 +2067,7 @@ name
 isApplied
 )
 {
-let
+const
 box
 =
 this
@@ -2119,7 +2119,7 @@ name
 =
 name
 ;
-let
+const
 labelWrapper
 =
 this
@@ -2162,7 +2162,7 @@ do
 the
 ellipsis
 .
-let
+const
 label
 =
 this
@@ -2231,7 +2231,7 @@ renderNoClassesMessage
 (
 )
 {
-let
+const
 msg
 =
 this

@@ -52,7 +52,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -64,7 +64,7 @@ initNetMonitor
 SEND_BEACON_URL
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -74,7 +74,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -94,7 +94,7 @@ index
 "
 )
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -190,7 +190,7 @@ recorded
 "
 )
 ;
-let
+const
 request
 =
 getSortedRequests

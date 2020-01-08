@@ -626,7 +626,7 @@ defer
 (
 )
 ;
-let
+const
 timeout
 =
 Services
@@ -650,7 +650,7 @@ _connectionTimeout
 timeout
 )
 ;
-let
+const
 connPromise
 =
 this
@@ -703,7 +703,7 @@ null
 }
 )
 ;
-let
+const
 client
 =
 this
@@ -839,7 +839,7 @@ target
 isTabActor
 )
 {
-let
+const
 tab
 =
 this
@@ -891,7 +891,7 @@ function
 (
 )
 {
-let
+const
 error
 =
 {
@@ -943,7 +943,7 @@ function
 (
 )
 {
-let
+const
 listeners
 =
 [
@@ -1233,7 +1233,7 @@ this
 _onNetworkEventUpdate
 )
 ;
-let
+const
 msgs
 =
 [
@@ -1529,7 +1529,7 @@ state
 )
 ;
 }
-let
+const
 messages
 =
 response

@@ -161,7 +161,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -335,7 +335,7 @@ KEY_End
 "
 )
 ;
-let
+const
 scrollTop
 =
 outputScroller

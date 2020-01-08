@@ -942,7 +942,7 @@ is
 opened
 )
 .
-let
+const
 extensionWindow
 =
 this
@@ -1045,7 +1045,7 @@ this
 _chromeGlobal
 )
 {
-let
+const
 chromeGlobal
 =
 this
@@ -1405,7 +1405,7 @@ function
 (
 )
 {
-let
+const
 e
 =
 Services
@@ -1426,7 +1426,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 window
 =
 e
@@ -1522,7 +1522,7 @@ has
 been
 destroyed
 .
-let
+const
 webProgress
 =
 docShell
@@ -1740,7 +1740,7 @@ page
 to
 attach
 .
-let
+const
 extensionWindow
 =
 this
@@ -1902,7 +1902,7 @@ this
 docShell
 )
 ;
-let
+const
 webProgress
 =
 docShell
@@ -1921,7 +1921,7 @@ Ci
 nsIWebProgress
 )
 ;
-let
+const
 window
 =
 webProgress
@@ -1947,7 +1947,7 @@ level
 /
 frame
 .
-let
+const
 addonID
 =
 window
@@ -1958,7 +1958,7 @@ nodePrincipal
 .
 addonId
 ;
-let
+const
 sameTypeRootAddonID
 =
 docShell
@@ -2156,7 +2156,7 @@ an
 extension
 window
 .
-let
+const
 docShell
 =
 window
@@ -2175,7 +2175,7 @@ Ci
 nsIDocShell
 )
 ;
-let
+const
 rootWin
 =
 docShell
@@ -2274,7 +2274,7 @@ source
 element
 )
 {
-let
+const
 domEl
 =
 unwrapDebuggerObjectGlobal
@@ -2351,7 +2351,7 @@ url2
 .
 "
 .
-let
+const
 url
 =
 source
@@ -2494,7 +2494,7 @@ false
 }
 try
 {
-let
+const
 addonID
 =
 this
@@ -2776,7 +2776,7 @@ try
 catch
 block
 .
-let
+const
 metadata
 =
 Cu

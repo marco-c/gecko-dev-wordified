@@ -155,7 +155,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -394,14 +394,14 @@ hidden
 "
 )
 ;
-let
+const
 searchField
 =
 ruleView
 .
 searchField
 ;
-let
+const
 onRuleViewFiltered
 =
 inspector

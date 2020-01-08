@@ -53,7 +53,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -77,7 +77,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -88,7 +88,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 contextMenuDoc
 =
 monitor
@@ -104,7 +104,7 @@ document
 Avoid
 async
 processing
-let
+const
 Actions
 =
 windowRequire
@@ -231,7 +231,7 @@ item
 await
 wait
 ;
-let
+const
 onDebuggerReady
 =
 toolbox

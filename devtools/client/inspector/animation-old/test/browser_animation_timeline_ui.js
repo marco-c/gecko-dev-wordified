@@ -85,7 +85,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -95,14 +95,14 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 timeline
 =
 panel
 .
 animationsTimelineComponent
 ;
-let
+const
 el
 =
 timeline
@@ -316,7 +316,7 @@ i
 +
 )
 {
-let
+const
 animation
 =
 timeline
@@ -326,7 +326,7 @@ animations
 i
 ]
 ;
-let
+const
 animationEl
 =
 animationEls

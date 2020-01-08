@@ -604,7 +604,7 @@ pollerPoll
 (
 )
 {
-let
+const
 response
 =
 this

@@ -172,7 +172,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -422,7 +422,7 @@ view
 expectedSelectors
 )
 {
-let
+const
 selectors
 =
 view

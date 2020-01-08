@@ -655,7 +655,7 @@ getOffsetParent
 node
 )
 {
-let
+const
 win
 =
 node
@@ -809,7 +809,7 @@ getDefinedGeometryProperties
 node
 )
 {
-let
+const
 props
 =
 new
@@ -841,7 +841,7 @@ the
 current
 node
 .
-let
+const
 cssRules
 =
 getCSSStyleRules
@@ -867,7 +867,7 @@ i
 +
 )
 {
-let
+const
 rule
 =
 cssRules
@@ -877,7 +877,7 @@ i
 ;
 for
 (
-let
+const
 name
 of
 GeoProp
@@ -887,7 +887,7 @@ allProps
 )
 )
 {
-let
+const
 value
 =
 rule
@@ -992,7 +992,7 @@ style
 {
 for
 (
-let
+const
 name
 of
 GeoProp
@@ -1002,7 +1002,7 @@ allProps
 )
 )
 {
-let
+const
 value
 =
 node
@@ -1117,7 +1117,7 @@ computed
 /
 styles
 .
-let
+const
 {
 position
 }
@@ -1129,7 +1129,7 @@ node
 ;
 for
 (
-let
+const
 [
 name
 ]
@@ -1205,7 +1205,7 @@ are
 not
 defined
 .
-let
+const
 hasRightAndLeft
 =
 name
@@ -1226,7 +1226,7 @@ left
 "
 )
 ;
-let
+const
 hasBottomAndTop
 =
 name
@@ -1529,7 +1529,7 @@ this
 )
 )
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -1597,7 +1597,7 @@ markup
 is
 destroyed
 .
-let
+const
 onMouseDown
 =
 this
@@ -1611,7 +1611,7 @@ this
 ;
 for
 (
-let
+const
 side
 of
 GeoProp
@@ -1674,7 +1674,7 @@ _buildMarkup
 (
 )
 {
-let
+const
 container
 =
 createNode
@@ -1699,7 +1699,7 @@ container
 }
 )
 ;
-let
+const
 root
 =
 createNode
@@ -1744,7 +1744,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 svg
 =
 createSVGNode
@@ -1928,7 +1928,7 @@ labels
 .
 for
 (
-let
+const
 name
 of
 GeoProp
@@ -2111,7 +2111,7 @@ parent
 g
 >
 .
-let
+const
 labelG
 =
 createSVGNode
@@ -2157,7 +2157,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 subG
 =
 createSVGNode
@@ -2404,7 +2404,7 @@ highlighterEnv
 return
 ;
 }
-let
+const
 {
 pageListenerTarget
 }
@@ -2601,7 +2601,7 @@ id
 return
 ;
 }
-let
+const
 handlerSide
 =
 this
@@ -2627,12 +2627,12 @@ if
 handlerSide
 )
 {
-let
+const
 side
 =
 handlerSide
 ;
-let
+const
 sideProp
 =
 this
@@ -2667,7 +2667,7 @@ getPropertyValue
 side
 )
 ;
-let
+const
 computedValue
 =
 this
@@ -2679,7 +2679,7 @@ getPropertyValue
 side
 )
 ;
-let
+const
 [
 unit
 ]
@@ -2711,7 +2711,7 @@ parseFloat
 value
 )
 ;
-let
+const
 ratio
 =
 (
@@ -2726,7 +2726,7 @@ computedValue
 |
 1
 ;
-let
+const
 dir
 =
 GeoProp
@@ -2841,7 +2841,7 @@ _dragging
 ]
 )
 {
-let
+const
 {
 side
 }
@@ -2915,7 +2915,7 @@ _dragging
 return
 ;
 }
-let
+const
 {
 side
 x
@@ -2930,7 +2930,7 @@ this
 _dragging
 ]
 ;
-let
+const
 sideProps
 =
 this
@@ -2951,7 +2951,7 @@ sideProps
 return
 ;
 }
-let
+const
 delta
 =
 (
@@ -3093,7 +3093,7 @@ this
 currentNode
 )
 ;
-let
+const
 pos
 =
 this
@@ -3139,7 +3139,7 @@ return
 false
 ;
 }
-let
+const
 hasUpdated
 =
 this
@@ -3303,7 +3303,7 @@ content
 is
 zoomed
 .
-let
+const
 node
 =
 this
@@ -3511,7 +3511,7 @@ padding
 "
 )
 ;
-let
+const
 el
 =
 this
@@ -3525,7 +3525,7 @@ parent
 "
 )
 ;
-let
+const
 isPositioned
 =
 this
@@ -3553,7 +3553,7 @@ position
 fixed
 "
 ;
-let
+const
 isRelative
 =
 this
@@ -3585,7 +3585,7 @@ element
 isPositioned
 )
 {
-let
+const
 {
 p1
 p2
@@ -3600,7 +3600,7 @@ parentQuads
 0
 ]
 ;
-let
+const
 points
 =
 p1
@@ -3677,7 +3677,7 @@ if
 isRelative
 )
 {
-let
+const
 xDelta
 =
 parseFloat
@@ -3689,7 +3689,7 @@ computedStyle
 left
 )
 ;
-let
+const
 yDelta
 =
 parseFloat
@@ -3709,7 +3709,7 @@ xDelta
 yDelta
 )
 {
-let
+const
 {
 p1
 p2
@@ -3726,7 +3726,7 @@ margin
 0
 ]
 ;
-let
+const
 points
 =
 (
@@ -3865,7 +3865,7 @@ updateCurrentNode
 (
 )
 {
-let
+const
 box
 =
 this
@@ -3879,7 +3879,7 @@ node
 "
 )
 ;
-let
+const
 {
 p1
 p2
@@ -3896,7 +3896,7 @@ margin
 0
 ]
 ;
-let
+const
 attr
 =
 p1
@@ -4075,7 +4075,7 @@ hideArrows
 {
 for
 (
-let
+const
 side
 of
 GeoProp
@@ -4175,7 +4175,7 @@ s
 margin
 box
 .
-let
+const
 marginBox
 =
 this
@@ -4432,7 +4432,7 @@ bottom
 -
 -
 +
-let
+const
 getSideArrowStartPos
 =
 side
@@ -4613,7 +4613,7 @@ toUpperCase
 ;
 for
 (
-let
+const
 side
 of
 GeoProp
@@ -4621,7 +4621,7 @@ GeoProp
 SIDES
 )
 {
-let
+const
 sideProp
 =
 this
@@ -4642,7 +4642,7 @@ sideProp
 continue
 ;
 }
-let
+const
 mainAxisStartPos
 =
 getSideArrowStartPos
@@ -4650,7 +4650,7 @@ getSideArrowStartPos
 side
 )
 ;
-let
+const
 mainAxisEndPos
 =
 marginBox
@@ -4658,7 +4658,7 @@ marginBox
 side
 ]
 ;
-let
+const
 crossAxisPos
 =
 marginBox
@@ -4714,7 +4714,7 @@ crossPos
 labelValue
 )
 {
-let
+const
 arrowEl
 =
 this
@@ -4729,7 +4729,7 @@ arrow
 side
 )
 ;
-let
+const
 labelEl
 =
 this
@@ -4744,7 +4744,7 @@ label
 side
 )
 ;
-let
+const
 labelTextEl
 =
 this
@@ -4761,7 +4761,7 @@ text
 side
 )
 ;
-let
+const
 handlerEl
 =
 this
@@ -4934,7 +4934,7 @@ the
 fold
 )
 .
-let
+const
 capitalize
 =
 str
@@ -4956,7 +4956,7 @@ substring
 1
 )
 ;
-let
+const
 winMain
 =
 this
@@ -5047,7 +5047,7 @@ GEOMETRY_LABEL_SIZE
 ;
 }
 }
-let
+const
 labelCross
 =
 crossPos

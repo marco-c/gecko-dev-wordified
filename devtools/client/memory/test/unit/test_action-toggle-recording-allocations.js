@@ -46,7 +46,7 @@ stacks
 .
 *
 /
-let
+const
 {
 toggleRecordingAllocationStacks
 }
@@ -68,12 +68,12 @@ allocations
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 front
 =
 new
@@ -81,14 +81,14 @@ StubbedMemoryFront
 (
 )
 ;
-yield
+await
 front
 .
 attach
 (
 )
 ;
-let
+const
 store
 =
 Store
@@ -151,7 +151,7 @@ front
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -182,7 +182,7 @@ on
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -239,7 +239,7 @@ front
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -270,7 +270,7 @@ off
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -321,7 +321,7 @@ anymore
 "
 )
 ;
-yield
+await
 front
 .
 detach

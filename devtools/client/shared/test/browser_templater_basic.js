@@ -107,16 +107,12 @@ html
 var
 test
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -126,13 +122,13 @@ blank
 "
 )
 ;
-let
+const
 [
 host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -159,7 +155,6 @@ doc
 )
 ;
 }
-)
 ;
 function
 runTest
@@ -169,7 +164,7 @@ host
 doc
 )
 {
-let
+const
 options
 =
 tests
@@ -184,7 +179,7 @@ index
 (
 )
 ;
-let
+const
 holder
 =
 doc
@@ -204,7 +199,7 @@ options
 .
 name
 ;
-let
+const
 body
 =
 doc
@@ -383,7 +378,7 @@ options
 later
 )
 {
-let
+const
 ais
 =
 is

@@ -283,7 +283,7 @@ args
 context
 )
 {
-let
+const
 target
 =
 context
@@ -292,7 +292,7 @@ environment
 .
 target
 ;
-let
+const
 toolbox
 =
 await
@@ -306,7 +306,7 @@ inspector
 "
 )
 ;
-let
+const
 walker
 =
 toolbox
@@ -317,7 +317,7 @@ getCurrentPanel
 .
 walker
 ;
-let
+const
 rootNode
 =
 await
@@ -327,7 +327,7 @@ getRootNode
 (
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -542,7 +542,7 @@ page
 cancel
 it
 .
-let
+const
 target
 =
 context
@@ -551,7 +551,7 @@ environment
 .
 target
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -566,7 +566,7 @@ if
 toolbox
 )
 {
-let
+const
 inspector
 =
 toolbox
@@ -592,7 +592,7 @@ hideEyeDropper
 ;
 }
 }
-let
+const
 telemetry
 =
 new
@@ -700,7 +700,7 @@ if
 eyeDropper
 )
 {
-let
+const
 env
 =
 new
@@ -819,7 +819,7 @@ environment
 }
 )
 {
-let
+const
 eyeDropper
 =
 windowEyeDroppers

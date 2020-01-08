@@ -318,7 +318,7 @@ alsobogus
 '
 )
 ;
-let
+const
 {
 monitor
 }
@@ -340,7 +340,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -351,7 +351,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -371,7 +371,7 @@ index
 "
 )
 ;
-let
+const
 {
 Prefs
 }
@@ -450,7 +450,7 @@ anyway
 "
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -527,7 +527,7 @@ button
 )
 )
 ;
-let
+const
 filters
 =
 Services

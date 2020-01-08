@@ -107,7 +107,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -125,7 +125,7 @@ longString
 "
 )
 ;
-let
+const
 onMessage
 =
 waitForMessage

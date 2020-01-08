@@ -92,7 +92,7 @@ initTestDebuggerServer
 server
 )
 ;
-let
+const
 principals
 =
 [
@@ -126,7 +126,7 @@ nullPrincipalTests
 ;
 for
 (
-let
+const
 [
 title
 principal
@@ -178,7 +178,7 @@ toString
 )
 )
 ;
-let
+const
 client
 =
 new
@@ -369,7 +369,7 @@ the
 following
 defaults
 .
-let
+const
 defaults
 =
 {
@@ -584,7 +584,7 @@ system
 principal
 debuggee
 .
-let
+const
 systemPrincipalTests
 =
 [
@@ -1092,7 +1092,7 @@ a
 null
 principal
 .
-let
+const
 nullPrincipalTests
 =
 [
@@ -1635,7 +1635,7 @@ event
 packet
 )
 {
-let
+const
 [
 objGrip
 inheritsGrip
@@ -1649,7 +1649,7 @@ arguments
 ;
 for
 (
-let
+const
 grip
 of
 [
@@ -1658,7 +1658,7 @@ inheritsGrip
 ]
 )
 {
-let
+const
 isUnsafe
 =
 grip
@@ -2257,7 +2257,7 @@ test
 the
 results
 .
-let
+const
 sandbox
 =
 Cu
@@ -2296,7 +2296,7 @@ sandbox
 .
 obj
 ;
-let
+const
 inherits
 =
 Object
@@ -2468,7 +2468,7 @@ data
 isUnsafe
 )
 {
-let
+const
 propNames
 =
 Reflect

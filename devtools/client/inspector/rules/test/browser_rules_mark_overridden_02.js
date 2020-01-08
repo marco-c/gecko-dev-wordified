@@ -160,7 +160,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -198,14 +198,14 @@ inspector
 view
 )
 {
-let
+const
 elementStyle
 =
 view
 .
 _elementStyle
 ;
-let
+const
 classRule
 =
 elementStyle
@@ -215,7 +215,7 @@ rules
 2
 ]
 ;
-let
+const
 classProp
 =
 classRule
@@ -251,7 +251,7 @@ used
 ;
 for
 (
-let
+const
 computed
 of
 classProp

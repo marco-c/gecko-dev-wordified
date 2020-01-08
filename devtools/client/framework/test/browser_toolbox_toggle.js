@@ -351,7 +351,7 @@ key
 modifiers
 )
 {
-let
+const
 tab
 =
 await
@@ -417,7 +417,7 @@ key
 modifiers
 )
 {
-let
+const
 toolbox
 =
 getToolboxForTab
@@ -461,7 +461,7 @@ key
 "
 )
 ;
-let
+const
 onToolboxDestroyed
 =
 gDevTools
@@ -517,7 +517,7 @@ key
 "
 )
 ;
-let
+const
 onToolboxReady
 =
 gDevTools
@@ -567,7 +567,7 @@ key
 modifiers
 )
 {
-let
+const
 toolbox
 =
 getToolboxForTab
@@ -664,7 +664,7 @@ background
 "
 )
 ;
-let
+const
 onMainWindowFocus
 =
 once
@@ -719,7 +719,7 @@ window
 "
 )
 ;
-let
+const
 toolboxWindow
 =
 toolbox
@@ -728,7 +728,7 @@ win
 .
 top
 ;
-let
+const
 onToolboxWindowFocus
 =
 once
@@ -785,7 +785,7 @@ window
 "
 )
 ;
-let
+const
 onToolboxDestroyed
 =
 gDevTools

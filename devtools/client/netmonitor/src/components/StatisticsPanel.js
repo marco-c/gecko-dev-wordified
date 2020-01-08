@@ -620,7 +620,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 requests
 connector
@@ -665,7 +665,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 requests
 connector
@@ -726,7 +726,7 @@ this
 .
 props
 ;
-let
+const
 ready
 =
 requests
@@ -959,7 +959,7 @@ has
 been
 created
 .
-let
+const
 title
 =
 this
@@ -981,7 +981,7 @@ title
 "
 )
 ;
-let
+const
 containerNode
 =
 document
@@ -1030,7 +1030,7 @@ unmountMDNLinkContainers
 {
 for
 (
-let
+const
 [
 node
 ]
@@ -1065,7 +1065,7 @@ a
 new
 chart
 .
-let
+const
 chart
 =
 Chart
@@ -1338,14 +1338,14 @@ total
 =
 >
 {
-let
+const
 seconds
 =
 total
 /
 1000
 ;
-let
+const
 string
 =
 getTimeWithDecimals
@@ -1389,14 +1389,14 @@ total
 =
 >
 {
-let
+const
 seconds
 =
 total
 /
 1000
 ;
-let
+const
 string
 =
 getTimeWithDecimals
@@ -1483,7 +1483,7 @@ label
 }
 )
 ;
-let
+const
 container
 =
 this
@@ -1579,7 +1579,7 @@ nonBlockingTime
 ;
 for
 (
-let
+const
 request
 of
 requests
@@ -1841,7 +1841,7 @@ transferredSize
 |
 0
 ;
-let
+const
 nonBlockingTime
 =
 request
@@ -2024,14 +2024,14 @@ return
 false
 ;
 }
-let
+const
 list
 =
 responseHeaders
 .
 headers
 ;
-let
+const
 cacheControl
 =
 list
@@ -2058,7 +2058,7 @@ control
 "
 )
 ;
-let
+const
 expires
 =
 list
@@ -2104,7 +2104,7 @@ if
 cacheControl
 )
 {
-let
+const
 maxAgeMatch
 =
 cacheControl
@@ -2244,7 +2244,7 @@ this
 .
 props
 ;
-let
+const
 splitterClassName
 =
 [

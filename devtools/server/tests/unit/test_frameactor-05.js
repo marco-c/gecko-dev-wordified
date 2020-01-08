@@ -225,7 +225,7 @@ be
 popped
 .
 .
-let
+const
 expectPopped
 =
 frameResponse
@@ -267,7 +267,7 @@ event
 pausePacket
 )
 {
-let
+const
 popped
 =
 pausePacket

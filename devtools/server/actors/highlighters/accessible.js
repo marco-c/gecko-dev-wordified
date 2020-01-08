@@ -488,7 +488,7 @@ _buildMarkup
 (
 )
 {
-let
+const
 container
 =
 createNode
@@ -520,7 +520,7 @@ presentation
 }
 )
 ;
-let
+const
 root
 =
 createNode
@@ -572,7 +572,7 @@ the
 SVG
 element
 .
-let
+const
 svg
 =
 createSVGNode
@@ -894,7 +894,7 @@ _highlightTimer
 null
 ;
 }
-let
+const
 {
 duration
 }
@@ -903,7 +903,7 @@ this
 .
 options
 ;
-let
+const
 shown
 =
 this
@@ -1250,7 +1250,7 @@ _updateAccessibleBounds
 (
 )
 {
-let
+const
 bounds
 =
 this
@@ -1273,7 +1273,7 @@ return
 false
 ;
 }
-let
+const
 boundsEl
 =
 this
@@ -1285,7 +1285,7 @@ bounds
 "
 )
 ;
-let
+const
 {
 left
 right
@@ -1295,7 +1295,7 @@ bottom
 =
 bounds
 ;
-let
+const
 path
 =
 M
@@ -1351,7 +1351,7 @@ page
 was
 zoomed
 .
-let
+const
 rootId
 =
 this

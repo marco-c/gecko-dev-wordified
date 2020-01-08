@@ -111,7 +111,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -391,7 +391,7 @@ testSelectEvent
 toolId
 )
 {
-let
+const
 onSelect
 =
 toolbox
@@ -410,7 +410,7 @@ selectTool
 toolId
 )
 ;
-let
+const
 id
 =
 await
@@ -464,7 +464,7 @@ testToolSelectEvent
 toolId
 )
 {
-let
+const
 onSelected
 =
 toolbox
@@ -526,7 +526,7 @@ testSelectToolRace
 (
 )
 {
-let
+const
 toolbox
 =
 await
@@ -543,7 +543,7 @@ selected
 =
 false
 ;
-let
+const
 onSelect
 =
 (
@@ -593,7 +593,7 @@ select
 onSelect
 )
 ;
-let
+const
 p1
 =
 toolbox
@@ -605,7 +605,7 @@ inspector
 "
 )
 ;
-let
+const
 p2
 =
 toolbox
@@ -629,7 +629,7 @@ t
 resolve
 too
 early
-let
+const
 checkSelectToolResolution
 =
 panel
@@ -653,7 +653,7 @@ fired
 "
 )
 ;
-let
+const
 inspector
 =
 toolbox

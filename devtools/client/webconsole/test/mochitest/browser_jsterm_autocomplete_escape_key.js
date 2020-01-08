@@ -190,7 +190,7 @@ function
 (
 )
 {
-let
+const
 {
 jsterm
 }
@@ -220,7 +220,7 @@ completeNode
 =
 jsterm
 ;
-let
+const
 onPopUpOpen
 =
 popup

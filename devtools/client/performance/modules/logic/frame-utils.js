@@ -749,7 +749,7 @@ lineAndColumnIndex
 -
 1
 ;
-let
+const
 lastCharCode
 =
 location
@@ -1108,7 +1108,7 @@ lineAndColumnIndex
 0
 )
 {
-let
+const
 resource
 =
 location
@@ -1256,7 +1256,7 @@ js
 %
 20eval
 "
-let
+const
 evalIndex
 =
 fileName
@@ -1296,12 +1296,12 @@ length
 Match
 the
 filename
-let
+const
 evalLine
 =
 line
 ;
-let
+const
 [
 _fileName
 _line
@@ -1537,7 +1537,7 @@ category
 return
 ;
 }
-let
+const
 location
 =
 frame
@@ -1593,7 +1593,7 @@ line
 "
 resource
 "
-let
+const
 lastCharCode
 =
 location
@@ -2181,7 +2181,7 @@ schema
 .
 category
 ;
-let
+const
 frame
 =
 frameTable
@@ -2191,7 +2191,7 @@ data
 index
 ]
 ;
-let
+const
 category
 =
 frame
@@ -3099,7 +3099,7 @@ it
 does
 not
 .
-let
+const
 totalSamples
 =
 options
@@ -3108,7 +3108,7 @@ root
 .
 samples
 ;
-let
+const
 totalDuration
 =
 options
@@ -3204,7 +3204,7 @@ data
 ALLOCATION_DATA_CALCULATED
 )
 {
-let
+const
 totalBytes
 =
 options
@@ -3388,7 +3388,7 @@ tree
 )
 ;
 }
-let
+const
 calls
 =
 threadNode

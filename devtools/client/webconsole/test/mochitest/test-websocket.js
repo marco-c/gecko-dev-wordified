@@ -90,7 +90,7 @@ function
 (
 )
 {
-let
+const
 ws1
 =
 new
@@ -139,7 +139,7 @@ close
 ;
 }
 ;
-let
+const
 ws2
 =
 new

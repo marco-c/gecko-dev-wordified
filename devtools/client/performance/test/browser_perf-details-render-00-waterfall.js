@@ -120,17 +120,17 @@ actions
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -143,7 +143,7 @@ window
 }
 )
 ;
-let
+const
 {
 DetailsView
 WaterfallView
@@ -153,7 +153,7 @@ panel
 .
 panelWin
 ;
-yield
+await
 startRecording
 (
 panel
@@ -168,7 +168,7 @@ EVENTS
 .
 UI_WATERFALL_RENDERED
 .
-yield
+await
 stopRecording
 (
 panel
@@ -212,7 +212,7 @@ stopped
 "
 )
 ;
-yield
+await
 startRecording
 (
 panel
@@ -227,7 +227,7 @@ EVENTS
 .
 UI_WATERFALL_RENDERED
 .
-yield
+await
 stopRecording
 (
 panel
@@ -273,7 +273,7 @@ time
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

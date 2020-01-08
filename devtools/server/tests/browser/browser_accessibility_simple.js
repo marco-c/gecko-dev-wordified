@@ -77,7 +77,7 @@ accessibility
 expected
 )
 {
-let
+const
 {
 enabled
 canBeDisabled
@@ -148,7 +148,7 @@ function
 (
 )
 {
-let
+const
 {
 walker
 :
@@ -381,7 +381,7 @@ service
 "
 )
 ;
-let
+const
 initEvent
 =
 accessibility
@@ -433,7 +433,7 @@ getWalker
 (
 )
 ;
-let
+const
 rootNode
 =
 await
@@ -443,7 +443,7 @@ getRootNode
 (
 )
 ;
-let
+const
 a11yDoc
 =
 await
@@ -475,7 +475,7 @@ service
 "
 )
 ;
-let
+const
 shutdownEvent
 =
 accessibility

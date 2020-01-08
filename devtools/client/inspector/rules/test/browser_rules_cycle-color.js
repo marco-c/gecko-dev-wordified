@@ -157,7 +157,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -168,7 +168,7 @@ openRuleView
 (
 )
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -216,7 +216,7 @@ container
 view
 )
 {
-let
+const
 valueNode
 =
 container
@@ -231,7 +231,7 @@ color
 "
 )
 ;
-let
+const
 win
 =
 view
@@ -261,7 +261,7 @@ value
 "
 )
 ;
-let
+const
 tests
 =
 [
@@ -380,7 +380,7 @@ again
 ;
 for
 (
-let
+const
 test
 of
 tests
@@ -418,7 +418,7 @@ span
 inspector
 )
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -436,7 +436,7 @@ color
 .
 valueSpan
 ;
-let
+const
 valueNode
 =
 container
@@ -451,7 +451,7 @@ color
 "
 )
 ;
-let
+const
 win
 =
 view
@@ -479,7 +479,7 @@ value
 "
 )
 ;
-let
+const
 tests
 =
 [
@@ -562,7 +562,7 @@ again
 ;
 for
 (
-let
+const
 test
 of
 tests
@@ -631,7 +631,7 @@ color
 "
 )
 ;
-let
+const
 win
 =
 view
@@ -798,7 +798,7 @@ expectedValue
 comment
 )
 {
-let
+const
 swatch
 =
 container
@@ -813,7 +813,7 @@ colorswatch
 "
 )
 ;
-let
+const
 valueNode
 =
 container
@@ -828,7 +828,7 @@ color
 "
 )
 ;
-let
+const
 onUnitChange
 =
 swatch

@@ -240,7 +240,7 @@ doc
 textContent
 )
 {
-let
+const
 span
 =
 options
@@ -367,7 +367,7 @@ element
 "
 )
 ;
-let
+const
 div
 =
 doc
@@ -380,7 +380,7 @@ div
 "
 )
 ;
-let
+const
 span
 =
 doc
@@ -487,7 +487,7 @@ appendChild
 span
 )
 ;
-let
+const
 parent
 =
 doc
@@ -682,7 +682,7 @@ onVisibilityChange
 =
 null
 ;
-let
+const
 open
 =
 total
@@ -885,7 +885,7 @@ if
 postLabel
 )
 {
-let
+const
 selectedItem
 =
 editor
@@ -899,7 +899,7 @@ getItems
 index
 ]
 ;
-let
+const
 selectedElement
 =
 editor
@@ -964,7 +964,7 @@ matches
 the
 post
 label
-let
+const
 swatchSpan
 =
 selectedElement
@@ -1004,7 +1004,7 @@ swatch
 "
 )
 ;
-let
+const
 color
 =
 new
@@ -1022,7 +1022,7 @@ style
 backgroundColor
 )
 ;
-let
+const
 swatchColor
 =
 color
@@ -1036,7 +1036,7 @@ newColor
 postLabel
 )
 ;
-let
+const
 postColor
 =
 color

@@ -135,7 +135,7 @@ properly
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -178,7 +178,7 @@ console
 "
 )
 ;
-let
+const
 inspector
 =
 toolbox
@@ -252,7 +252,7 @@ toolbox
 doc
 )
 ;
-let
+const
 inputNode
 =
 toolbox

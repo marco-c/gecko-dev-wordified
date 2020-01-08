@@ -284,7 +284,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 tab
@@ -300,7 +300,7 @@ blank
 "
 )
 ;
-let
+const
 domContentLoaded
 =
 waitForLinkedBrowserEvent
@@ -311,7 +311,7 @@ DOMContentLoaded
 "
 )
 ;
-let
+const
 pageLoaded
 =
 waitForLinkedBrowserEvent
@@ -322,7 +322,7 @@ load
 "
 )
 ;
-let
+const
 markupLoaded
 =
 inspector
@@ -334,7 +334,7 @@ markuploaded
 "
 )
 ;
-let
+const
 onRequest
 =
 onPageResourceRequest
@@ -353,7 +353,7 @@ page
 "
 )
 ;
-let
+const
 activeTab
 =
 inspector
@@ -385,7 +385,7 @@ image
 "
 )
 ;
-let
+const
 response
 =
 await

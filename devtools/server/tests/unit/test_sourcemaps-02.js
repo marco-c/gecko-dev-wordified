@@ -204,7 +204,7 @@ test_sourcemaps
 .
 js
 .
-let
+const
 expectedSources
 =
 new
@@ -306,7 +306,7 @@ error
 ;
 for
 (
-let
+const
 s
 of
 response

@@ -171,7 +171,7 @@ when
 trying
 to
 autocomplete
-let
+const
 autocompleteUpdated
 =
 hud

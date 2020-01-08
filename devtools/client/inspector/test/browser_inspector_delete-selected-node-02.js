@@ -171,7 +171,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -306,7 +306,7 @@ updated
 "
 )
 ;
-let
+const
 div
 =
 await
@@ -453,7 +453,7 @@ iframe
 "
 )
 ;
-let
+const
 iframe
 =
 await
@@ -466,7 +466,7 @@ deleteIframe
 inspector
 )
 ;
-let
+const
 div
 =
 await
@@ -731,7 +731,7 @@ selector
 inspector
 )
 ;
-let
+const
 nodeToBeDeleted
 =
 inspector
@@ -755,7 +755,7 @@ view
 "
 )
 ;
-let
+const
 container
 =
 await
@@ -765,7 +765,7 @@ selector
 inspector
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -780,7 +780,7 @@ tagLine
 }
 )
 ;
-let
+const
 menuItem
 =
 allMenuItems
@@ -994,7 +994,7 @@ checks
 "
 )
 ;
-let
+const
 actualNodeType
 =
 inspector
@@ -1019,7 +1019,7 @@ type
 "
 )
 ;
-let
+const
 breadcrumbs
 =
 inspector
@@ -1117,7 +1117,7 @@ selector
 crumbLabel
 )
 {
-let
+const
 nodeFront
 =
 await
@@ -1144,7 +1144,7 @@ selected
 "
 )
 ;
-let
+const
 breadcrumbs
 =
 inspector

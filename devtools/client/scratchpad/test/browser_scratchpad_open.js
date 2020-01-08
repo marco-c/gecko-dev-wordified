@@ -276,7 +276,7 @@ testOpenWithState
 (
 )
 {
-let
+const
 state
 =
 {
@@ -396,7 +396,7 @@ testOpenInvalidState
 (
 )
 {
-let
+const
 win
 =
 openScratchpad
@@ -495,7 +495,7 @@ aStatus
 content
 )
 {
-let
+const
 nb
 =
 win
@@ -534,7 +534,7 @@ notification
 "
 )
 ;
-let
+const
 cn
 =
 nb

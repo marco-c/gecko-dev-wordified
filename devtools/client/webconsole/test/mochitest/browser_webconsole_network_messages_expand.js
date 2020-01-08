@@ -161,7 +161,7 @@ XHR_PREF
 }
 )
 ;
-let
+const
 tabs
 =
 [
@@ -288,7 +288,7 @@ gBrowser
 .
 selectedTab
 ;
-let
+const
 target
 =
 TargetFactory
@@ -414,7 +414,7 @@ all
 tabs
 for
 (
-let
+const
 tab
 of
 tabs
@@ -440,7 +440,7 @@ target
 hud
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -450,7 +450,7 @@ getToolbox
 target
 )
 ;
-let
+const
 xhrUrl
 =
 TEST_PATH
@@ -467,7 +467,7 @@ server
 sjs
 "
 ;
-let
+const
 message
 =
 waitForMessage
@@ -507,7 +507,7 @@ testXhrPostSlowResponse
 }
 )
 ;
-let
+const
 {
 node
 :
@@ -533,7 +533,7 @@ waitForRequestUpdates
 toolbox
 )
 ;
-let
+const
 payload
 =
 waitForPayloadReady
@@ -546,7 +546,7 @@ toolbox
 Expand
 network
 log
-let
+const
 urlNode
 =
 messageNode
@@ -565,7 +565,7 @@ click
 (
 )
 ;
-let
+const
 toggleButtonNode
 =
 messageNode
@@ -616,7 +616,7 @@ hud
 tab
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -635,7 +635,7 @@ clearOutput
 true
 )
 ;
-let
+const
 xhrUrl
 =
 TEST_PATH
@@ -652,7 +652,7 @@ server
 sjs
 "
 ;
-let
+const
 message
 =
 waitForMessage
@@ -692,7 +692,7 @@ testXhrPostSlowResponse
 }
 )
 ;
-let
+const
 {
 node
 :
@@ -712,7 +712,7 @@ found
 "
 )
 ;
-let
+const
 updates
 =
 waitForRequestUpdates
@@ -720,7 +720,7 @@ waitForRequestUpdates
 toolbox
 )
 ;
-let
+const
 payload
 =
 waitForPayloadReady
@@ -767,7 +767,7 @@ id
 Expand
 network
 log
-let
+const
 urlNode
 =
 messageNode
@@ -798,7 +798,7 @@ the
 expected
 one
 .
-let
+const
 currentTab
 =
 messageNode
@@ -979,7 +979,7 @@ testStatusInfo
 messageNode
 )
 {
-let
+const
 statusInfo
 =
 messageNode
@@ -1016,7 +1016,7 @@ testEmptyHeaders
 messageNode
 )
 {
-let
+const
 emptyNotice
 =
 messageNode
@@ -1054,7 +1054,7 @@ testHeaders
 messageNode
 )
 {
-let
+const
 headersTab
 =
 messageNode
@@ -1136,7 +1136,7 @@ testEmptyCookies
 messageNode
 )
 {
-let
+const
 emptyNotice
 =
 messageNode
@@ -1174,7 +1174,7 @@ testCookies
 messageNode
 )
 {
-let
+const
 cookiesTab
 =
 messageNode
@@ -1253,7 +1253,7 @@ testEmptyParams
 messageNode
 )
 {
-let
+const
 emptyNotice
 =
 messageNode
@@ -1291,7 +1291,7 @@ testParams
 messageNode
 )
 {
-let
+const
 paramsTab
 =
 messageNode
@@ -1350,7 +1350,7 @@ click
 (
 )
 ;
-let
+const
 paramsPanel
 =
 messageNode
@@ -1371,7 +1371,7 @@ waitForSourceEditor
 paramsPanel
 )
 ;
-let
+const
 paramsContent
 =
 messageNode
@@ -1435,7 +1435,7 @@ testEmptyResponse
 messageNode
 )
 {
-let
+const
 panel
 =
 messageNode
@@ -1477,7 +1477,7 @@ testResponse
 messageNode
 )
 {
-let
+const
 responseTab
 =
 messageNode
@@ -1533,7 +1533,7 @@ click
 (
 )
 ;
-let
+const
 responsePanel
 =
 messageNode
@@ -1554,7 +1554,7 @@ waitForSourceEditor
 responsePanel
 )
 ;
-let
+const
 responseContent
 =
 messageNode
@@ -1611,7 +1611,7 @@ testEmptyTimings
 messageNode
 )
 {
-let
+const
 panel
 =
 messageNode
@@ -1653,7 +1653,7 @@ testTimings
 messageNode
 )
 {
-let
+const
 timingsTab
 =
 messageNode
@@ -1729,7 +1729,7 @@ label
 }
 )
 ;
-let
+const
 timingsContent
 =
 messageNode
@@ -1787,7 +1787,7 @@ testEmptyStackTrace
 messageNode
 )
 {
-let
+const
 panel
 =
 messageNode
@@ -1831,7 +1831,7 @@ testStackTrace
 messageNode
 )
 {
-let
+const
 stackTraceTab
 =
 messageNode
@@ -1919,7 +1919,7 @@ waitForPayloadReady
 toolbox
 )
 {
-let
+const
 {
 ui
 }
@@ -2026,7 +2026,7 @@ waitForRequestUpdates
 toolbox
 )
 {
-let
+const
 {
 ui
 }
@@ -2126,7 +2126,7 @@ waitForLazyRequests
 toolbox
 )
 {
-let
+const
 {
 ui
 }
@@ -2139,7 +2139,7 @@ getCurrentPanel
 .
 hud
 ;
-let
+const
 proxy
 =
 ui

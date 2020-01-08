@@ -162,7 +162,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -183,7 +183,7 @@ testid
 inspector
 )
 ;
-let
+const
 idRule
 =
 getRuleViewRuleEditor
@@ -194,7 +194,7 @@ view
 .
 rule
 ;
-let
+const
 idProp
 =
 idRule
@@ -221,7 +221,7 @@ overridden
 "
 )
 ;
-let
+const
 classRule
 =
 getRuleViewRuleEditor
@@ -232,7 +232,7 @@ view
 .
 rule
 ;
-let
+const
 classProp
 =
 classRule

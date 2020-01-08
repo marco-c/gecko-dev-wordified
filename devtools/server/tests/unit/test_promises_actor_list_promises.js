@@ -87,7 +87,7 @@ function
 (
 )
 {
-let
+const
 client
 =
 await
@@ -102,7 +102,7 @@ test
 "
 )
 ;
-let
+const
 chromeActors
 =
 await
@@ -153,7 +153,7 @@ v
 )
 )
 ;
-let
+const
 response
 =
 await
@@ -162,7 +162,7 @@ listTabs
 client
 )
 ;
-let
+const
 targetTab
 =
 findTab
@@ -247,7 +247,7 @@ form
 makePromise
 )
 {
-let
+const
 resolution
 =
 SECRET
@@ -258,7 +258,7 @@ random
 (
 )
 ;
-let
+const
 promise
 =
 makePromise
@@ -266,7 +266,7 @@ makePromise
 resolution
 )
 ;
-let
+const
 front
 =
 PromisesFront
@@ -282,7 +282,7 @@ attach
 (
 )
 ;
-let
+const
 promises
 =
 await
@@ -299,7 +299,7 @@ false
 ;
 for
 (
-let
+const
 p
 of
 promises

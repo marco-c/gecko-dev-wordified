@@ -693,7 +693,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 request
 connector
@@ -722,7 +722,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 request
 connector
@@ -908,7 +908,7 @@ render
 (
 )
 {
-let
+const
 {
 openLink
 request

@@ -99,7 +99,7 @@ addTab
 TESTCASE_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -161,7 +161,7 @@ inner
 inspector
 )
 ;
-let
+const
 value
 =
 getRuleViewLinkTextByIndex

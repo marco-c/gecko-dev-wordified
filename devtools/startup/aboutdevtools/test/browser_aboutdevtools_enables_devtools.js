@@ -75,7 +75,7 @@ enabled
 false
 )
 ;
-let
+const
 {
 tab
 doc
@@ -87,7 +87,7 @@ openAboutDevTools
 (
 )
 ;
-let
+const
 installPage
 =
 doc
@@ -101,7 +101,7 @@ page
 "
 )
 ;
-let
+const
 welcomePage
 =
 doc
@@ -189,7 +189,7 @@ DevTools
 "
 )
 ;
-let
+const
 installButton
 =
 doc

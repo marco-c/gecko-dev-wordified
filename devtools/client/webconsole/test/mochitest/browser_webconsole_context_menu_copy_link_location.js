@@ -195,7 +195,7 @@ net
 true
 )
 ;
-let
+const
 hud
 =
 await
@@ -240,7 +240,7 @@ window
 "
 )
 ;
-let
+const
 onLogMessage
 =
 waitForMessage
@@ -405,7 +405,7 @@ log
 "
 )
 ;
-let
+const
 onNetworkMessage
 =
 waitForMessage

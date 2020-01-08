@@ -411,7 +411,7 @@ i
 ;
 )
 {
-let
+const
 xy
 =
 this
@@ -591,7 +591,7 @@ of
 css
 predefined
 functions
-let
+const
 predefName
 =
 Object
@@ -735,7 +735,7 @@ getContext
 "
 )
 ;
-let
+const
 p
 =
 this
@@ -1238,7 +1238,7 @@ settings
 }
 )
 {
-let
+const
 xy
 =
 this
@@ -1247,7 +1247,7 @@ bezier
 .
 coordinates
 ;
-let
+const
 defaultSettings
 =
 {
@@ -1278,7 +1278,7 @@ true
 ;
 for
 (
-let
+const
 setting
 in
 settings
@@ -1483,7 +1483,7 @@ closePath
 (
 )
 ;
-let
+const
 circle
 =
 (
@@ -1791,7 +1791,7 @@ parent
 =
 parent
 ;
-let
+const
 {
 curve
 p1
@@ -1877,7 +1877,7 @@ Place
 the
 control
 points
-let
+const
 offsets
 =
 this
@@ -2055,7 +2055,7 @@ function
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -2064,7 +2064,7 @@ parent
 .
 ownerDocument
 ;
-let
+const
 wrap
 =
 doc
@@ -2087,7 +2087,7 @@ display
 wrap
 "
 ;
-let
+const
 plane
 =
 doc
@@ -2110,7 +2110,7 @@ coordinate
 plane
 "
 ;
-let
+const
 p1
 =
 doc
@@ -2140,7 +2140,7 @@ appendChild
 p1
 )
 ;
-let
+const
 p2
 =
 doc
@@ -2170,7 +2170,7 @@ appendChild
 p2
 )
 ;
-let
+const
 curve
 =
 doc
@@ -2482,21 +2482,21 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 point
 =
 event
 .
 target
 ;
-let
+const
 doc
 =
 point
 .
 ownerDocument
 ;
-let
+const
 self
 =
 this
@@ -2518,14 +2518,14 @@ e
 .
 pageX
 ;
-let
+const
 y
 =
 e
 .
 pageY
 ;
-let
+const
 left
 =
 self
@@ -2534,7 +2534,7 @@ curveBoundingBox
 .
 left
 ;
-let
+const
 top
 =
 self
@@ -2657,14 +2657,14 @@ function
 event
 )
 {
-let
+const
 point
 =
 event
 .
 target
 ;
-let
+const
 code
 =
 event
@@ -2696,7 +2696,7 @@ preventDefault
 Arrow
 keys
 pressed
-let
+const
 left
 =
 parseInt
@@ -2709,7 +2709,7 @@ left
 10
 )
 ;
-let
+const
 top
 =
 parseInt
@@ -2722,7 +2722,7 @@ top
 10
 )
 ;
-let
+const
 offset
 =
 3
@@ -2846,7 +2846,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 left
 =
 this
@@ -2855,7 +2855,7 @@ curveBoundingBox
 .
 left
 ;
-let
+const
 top
 =
 this
@@ -2864,7 +2864,7 @@ curveBoundingBox
 .
 top
 ;
-let
+const
 x
 =
 event
@@ -2873,7 +2873,7 @@ pageX
 -
 left
 ;
-let
+const
 y
 =
 event
@@ -2889,7 +2889,7 @@ which
 point
 is
 closer
-let
+const
 distP1
 =
 distance
@@ -2920,7 +2920,7 @@ top
 )
 )
 ;
-let
+const
 distP2
 =
 distance
@@ -2951,7 +2951,7 @@ top
 )
 )
 ;
-let
+const
 point
 =
 distP1
@@ -3229,7 +3229,7 @@ coordinates
 Move
 the
 points
-let
+const
 offsets
 =
 this
@@ -3377,7 +3377,7 @@ of
 the
 predefined
 values
-let
+const
 coordinates
 =
 parseTimingFunction
@@ -3517,7 +3517,7 @@ parent
 =
 parent
 ;
-let
+const
 {
 presetPane
 presets
@@ -3705,7 +3705,7 @@ function
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -3714,7 +3714,7 @@ parent
 .
 ownerDocument
 ;
-let
+const
 presetPane
 =
 doc
@@ -3737,7 +3737,7 @@ preset
 pane
 "
 ;
-let
+const
 categoryList
 =
 doc
@@ -3760,7 +3760,7 @@ preset
 categories
 "
 ;
-let
+const
 presetContainer
 =
 doc
@@ -3796,7 +3796,7 @@ categoryLabel
 =
 >
 {
-let
+const
 category
 =
 this
@@ -3813,7 +3813,7 @@ appendChild
 category
 )
 ;
-let
+const
 presetList
 =
 this
@@ -3856,7 +3856,7 @@ appendChild
 presetPane
 )
 ;
-let
+const
 allCategories
 =
 presetPane
@@ -3869,7 +3869,7 @@ category
 "
 )
 ;
-let
+const
 allPresets
 =
 presetPane
@@ -3903,7 +3903,7 @@ function
 categoryLabel
 )
 {
-let
+const
 doc
 =
 this
@@ -3912,7 +3912,7 @@ parent
 .
 ownerDocument
 ;
-let
+const
 category
 =
 doc
@@ -3942,7 +3942,7 @@ category
 "
 )
 ;
-let
+const
 categoryDisplayLabel
 =
 this
@@ -4002,7 +4002,7 @@ function
 categoryLabel
 )
 {
-let
+const
 doc
 =
 this
@@ -4011,7 +4011,7 @@ parent
 .
 ownerDocument
 ;
-let
+const
 presetList
 =
 doc
@@ -4066,7 +4066,7 @@ presetLabel
 =
 >
 {
-let
+const
 preset
 =
 this
@@ -4099,7 +4099,7 @@ categoryLabel
 presetLabel
 )
 {
-let
+const
 doc
 =
 this
@@ -4108,7 +4108,7 @@ parent
 .
 ownerDocument
 ;
-let
+const
 preset
 =
 doc
@@ -4155,7 +4155,7 @@ presetLabel
 Create
 preset
 preview
-let
+const
 curve
 =
 doc
@@ -4168,7 +4168,7 @@ canvas
 "
 )
 ;
-let
+const
 bezier
 =
 new
@@ -4246,7 +4246,7 @@ curve
 Create
 preset
 label
-let
+const
 presetLabelElem
 =
 doc
@@ -4259,7 +4259,7 @@ p
 "
 )
 ;
-let
+const
 presetDisplayLabel
 =
 this
@@ -4340,7 +4340,7 @@ function
 {
 for
 (
-let
+const
 category
 of
 this
@@ -4363,7 +4363,7 @@ _onCategoryClick
 }
 for
 (
-let
+const
 preset
 of
 this
@@ -4393,7 +4393,7 @@ function
 {
 for
 (
-let
+const
 category
 of
 this
@@ -4416,7 +4416,7 @@ _onCategoryClick
 }
 for
 (
-let
+const
 preset
 of
 this
@@ -4493,7 +4493,7 @@ function
 presetListId
 )
 {
-let
+const
 presetList
 =
 this
@@ -4984,7 +4984,7 @@ function
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -4993,7 +4993,7 @@ parent
 .
 ownerDocument
 ;
-let
+const
 container
 =
 doc
@@ -5051,7 +5051,7 @@ this
 dot
 )
 ;
-let
+const
 scale
 =
 doc
@@ -5593,7 +5593,7 @@ getPadding
 padding
 )
 {
-let
+const
 p
 =
 typeof
@@ -5787,7 +5787,7 @@ value
 ]
 ;
 }
-let
+const
 tokenStream
 =
 getCSSLexer
@@ -5795,7 +5795,7 @@ getCSSLexer
 value
 )
 ;
-let
+const
 getNextToken
 =
 (
@@ -5808,7 +5808,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 tokenStream
@@ -5891,7 +5891,7 @@ return
 undefined
 ;
 }
-let
+const
 result
 =
 [

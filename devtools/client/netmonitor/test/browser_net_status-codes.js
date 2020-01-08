@@ -59,7 +59,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -81,7 +81,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -104,7 +104,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -115,7 +115,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -135,7 +135,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -170,7 +170,7 @@ false
 )
 )
 ;
-let
+const
 requestItems
 =
 [
@@ -656,7 +656,7 @@ verifyRequests
 (
 )
 {
-let
+const
 requestListItems
 =
 document
@@ -675,7 +675,7 @@ item
 ;
 for
 (
-let
+const
 requestItem
 of
 requestListItems
@@ -687,7 +687,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem
@@ -748,13 +748,13 @@ index
 ;
 for
 (
-let
+const
 request
 of
 REQUEST_DATA
 )
 {
-let
+const
 item
 =
 getSortedRequests
@@ -914,7 +914,7 @@ counter
 ;
 for
 (
-let
+const
 item
 of
 REQUEST_DATA
@@ -1039,7 +1039,7 @@ input
 )
 )
 ;
-let
+const
 panel
 =
 document
@@ -1054,7 +1054,7 @@ panel
 "
 )
 ;
-let
+const
 summaryValues
 =
 panel
@@ -1075,7 +1075,7 @@ input
 "
 )
 ;
-let
+const
 {
 method
 correctUri
@@ -1089,7 +1089,7 @@ statusText
 =
 data
 ;
-let
+const
 statusCode
 =
 panel
@@ -1295,7 +1295,7 @@ tab
 )
 )
 ;
-let
+const
 panel
 =
 document
@@ -1322,7 +1322,7 @@ not
 show
 #
 hash
-let
+const
 statusParamValue
 =
 data
@@ -1350,7 +1350,7 @@ split
 0
 ]
 ;
-let
+const
 treeSections
 =
 panel
@@ -1455,7 +1455,7 @@ panel
 "
 )
 ;
-let
+const
 labels
 =
 panel
@@ -1479,7 +1479,7 @@ treeLabel
 "
 )
 ;
-let
+const
 values
 =
 panel

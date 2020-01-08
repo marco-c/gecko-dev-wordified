@@ -273,7 +273,7 @@ gClient
 }
 )
 ;
-let
+const
 node
 =
 new
@@ -525,7 +525,7 @@ timesCalled
 return
 ;
 }
-let
+const
 source
 =
 sources
@@ -533,7 +533,7 @@ sources
 0
 ]
 ;
-let
+const
 sourceClient
 =
 gThreadClient
@@ -585,7 +585,7 @@ sourcesContent
 "
 )
 ;
-let
+const
 expectedContent
 =
 "

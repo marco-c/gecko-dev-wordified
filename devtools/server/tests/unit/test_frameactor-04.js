@@ -322,7 +322,7 @@ gClient
 return
 ;
 }
-let
+const
 test
 =
 gSliceTests
@@ -346,7 +346,7 @@ function
 response
 )
 {
-let
+const
 testFrames
 =
 gFrames
@@ -403,7 +403,7 @@ i
 +
 )
 {
-let
+const
 expected
 =
 testFrames
@@ -411,7 +411,7 @@ testFrames
 i
 ]
 ;
-let
+const
 actual
 =
 response
@@ -439,7 +439,7 @@ actor
 }
 for
 (
-let
+const
 key
 of
 [

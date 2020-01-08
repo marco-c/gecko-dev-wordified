@@ -341,7 +341,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -352,7 +352,7 @@ initNetMonitor
 FILTERING_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -363,7 +363,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -430,7 +430,7 @@ the
 network
 requests
 .
-let
+const
 waitNetwork
 =
 waitForNetworkEvents

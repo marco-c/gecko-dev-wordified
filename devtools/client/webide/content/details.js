@@ -462,7 +462,7 @@ resetUI
 (
 )
 ;
-let
+const
 project
 =
 AppManager
@@ -708,7 +708,7 @@ runtimeApp
 "
 )
 {
-let
+const
 manifestURL
 =
 AppManager
@@ -848,7 +848,7 @@ packaged
 "
 )
 {
-let
+const
 manifestURL
 =
 AppManager
@@ -899,7 +899,7 @@ manifestURL
 }
 }
 }
-let
+const
 errorsNode
 =
 document
@@ -912,7 +912,7 @@ errorslist
 "
 )
 ;
-let
+const
 warningsNode
 =
 document
@@ -934,7 +934,7 @@ errors
 {
 for
 (
-let
+const
 e
 of
 project
@@ -942,7 +942,7 @@ project
 errors
 )
 {
-let
+const
 li
 =
 document
@@ -978,7 +978,7 @@ warnings
 {
 for
 (
-let
+const
 w
 of
 project
@@ -986,7 +986,7 @@ project
 warnings
 )
 {
-let
+const
 li
 =
 document

@@ -126,7 +126,7 @@ testGetTheme
 (
 )
 {
-let
+const
 originalTheme
 =
 getTheme
@@ -273,7 +273,7 @@ testSetTheme
 (
 )
 {
-let
+const
 originalTheme
 =
 getTheme
@@ -301,7 +301,7 @@ between
 aurora
 and
 nightly
-let
+const
 otherTheme
 =
 originalTheme
@@ -319,7 +319,7 @@ light
 dark
 "
 ;
-let
+const
 prefObserver
 =
 new
@@ -345,7 +345,7 @@ theme
 =
 >
 {
-let
+const
 newValue
 =
 Services
@@ -513,7 +513,7 @@ testGetColor
 (
 )
 {
-let
+const
 BLUE_DARK
 =
 "
@@ -521,7 +521,7 @@ BLUE_DARK
 75BFFF
 "
 ;
-let
+const
 BLUE_LIGHT
 =
 "
@@ -529,7 +529,7 @@ BLUE_LIGHT
 0074e8
 "
 ;
-let
+const
 originalTheme
 =
 getTheme
@@ -843,7 +843,7 @@ pink
 ;
 for
 (
-let
+const
 type
 of
 vars

@@ -138,8 +138,8 @@ js
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -159,7 +159,7 @@ for
 each
 box
 .
-yield
+await
 pushPref
 (
 "
@@ -174,7 +174,7 @@ height
 400
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -184,12 +184,12 @@ blank
 "
 )
 ;
-let
+const
 [
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -198,7 +198,7 @@ bottom
 TEST_URI
 )
 ;
-let
+const
 tooltip
 =
 new
@@ -229,7 +229,7 @@ tall
 "
 )
 ;
-let
+const
 tooltipContent
 =
 doc
@@ -296,7 +296,7 @@ height
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -310,7 +310,7 @@ box1
 )
 )
 ;
-let
+const
 containerRect
 =
 tooltip
@@ -321,7 +321,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 panelRect
 =
 tooltip
@@ -411,7 +411,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 onHidden
 ;
 info
@@ -431,7 +431,7 @@ height
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
@@ -482,7 +482,7 @@ tooltip
 "
 )
 ;
-let
+const
 onPanelClick
 =
 once
@@ -511,7 +511,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 onPanelClick
 ;
 is
@@ -574,7 +574,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 onHidden
 ;
 tooltip

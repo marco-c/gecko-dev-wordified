@@ -1811,7 +1811,7 @@ lazyLoadSpec
 type
 )
 {
-let
+const
 modulePath
 =
 lazySpecs
@@ -1934,7 +1934,7 @@ lazyLoadFront
 type
 )
 {
-let
+const
 modulePath
 =
 lazyFronts

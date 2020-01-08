@@ -170,7 +170,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -216,7 +216,7 @@ view
 1
 )
 ;
-let
+const
 editor
 =
 await
@@ -240,7 +240,7 @@ testid
 span
 "
 ;
-let
+const
 onRuleViewChanged
 =
 once
@@ -276,7 +276,7 @@ after
 editing
 the
 selector
-let
+const
 onBlur
 =
 once

@@ -113,12 +113,12 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 MyCustomTreeItem
 }
@@ -127,7 +127,7 @@ synthesizeCustomTreeClass
 (
 )
 ;
-let
+const
 container
 =
 document
@@ -160,7 +160,7 @@ overflow
 scroll
 "
 ;
-yield
+await
 appendAndWaitForPaint
 (
 gBrowser
@@ -171,7 +171,7 @@ parentNode
 container
 )
 ;
-let
+const
 myDataSrc
 =
 {
@@ -225,7 +225,7 @@ children
 )
 ;
 }
-let
+const
 treeRoot
 =
 new
@@ -358,7 +358,7 @@ Test
 PageUp
 and
 PageDown
-let
+const
 nodesPerPageSize
 =
 treeRoot

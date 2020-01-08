@@ -142,7 +142,7 @@ css
 true
 )
 ;
-let
+const
 hud
 =
 await
@@ -151,7 +151,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -163,7 +163,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -246,7 +246,7 @@ text
 "
 )
 ;
-let
+const
 messageNode
 =
 await
@@ -263,7 +263,7 @@ text
 )
 )
 ;
-let
+const
 frameLinkNode
 =
 messageNode
@@ -296,7 +296,7 @@ link
 "
 )
 ;
-let
+const
 onStyleEditorSelected
 =
 toolbox
@@ -336,7 +336,7 @@ filename
 )
 )
 ;
-let
+const
 panel
 =
 await
@@ -376,7 +376,7 @@ focused
 "
 )
 ;
-let
+const
 href
 =
 frameLinkNode
@@ -390,7 +390,7 @@ url
 "
 )
 ;
-let
+const
 line
 =
 frameLinkNode
@@ -414,7 +414,7 @@ line
 "
 )
 ;
-let
+const
 editor
 =
 getEditorForHref
@@ -458,7 +458,7 @@ onStyleEditorReady
 panel
 )
 {
-let
+const
 win
 =
 panel
@@ -544,7 +544,7 @@ null
 ;
 for
 (
-let
+const
 editor
 of
 styleEditorUI

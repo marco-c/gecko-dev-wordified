@@ -2050,7 +2050,7 @@ nextProps
 nextState
 )
 {
-let
+const
 {
 scroll
 height
@@ -5207,7 +5207,7 @@ onCollapse
 }
 )
 ;
-let
+const
 classList
 =
 [

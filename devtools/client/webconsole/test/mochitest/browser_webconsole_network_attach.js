@@ -136,7 +136,7 @@ gBrowser
 .
 selectedTab
 ;
-let
+const
 target
 =
 TargetFactory
@@ -146,7 +146,7 @@ forTab
 currentTab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -156,7 +156,7 @@ getToolbox
 target
 )
 ;
-let
+const
 monitor
 =
 toolbox
@@ -165,7 +165,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 netReady
 =
 monitor
@@ -236,7 +236,7 @@ received
 "
 )
 ;
-let
+const
 webconsolePanel
 =
 await
@@ -249,14 +249,14 @@ webconsole
 "
 )
 ;
-let
+const
 {
 hud
 }
 =
 webconsolePanel
 ;
-let
+const
 xhrUrl
 =
 TEST_PATH
@@ -269,7 +269,7 @@ data
 json
 "
 ;
-let
+const
 messageNode
 =
 await
@@ -286,7 +286,7 @@ xhrUrl
 )
 )
 ;
-let
+const
 urlNode
 =
 messageNode
@@ -309,14 +309,14 @@ found
 "
 )
 ;
-let
+const
 ui
 =
 hud
 .
 ui
 ;
-let
+const
 consoleReady
 =
 ui
@@ -388,7 +388,7 @@ testNetworkMessage
 messageNode
 )
 {
-let
+const
 headersTab
 =
 messageNode
@@ -512,7 +512,7 @@ waitForLazyRequests
 toolbox
 )
 {
-let
+const
 {
 ui
 }
@@ -525,7 +525,7 @@ getCurrentPanel
 .
 hud
 ;
-let
+const
 proxy
 =
 ui

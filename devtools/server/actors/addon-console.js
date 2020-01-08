@@ -491,7 +491,7 @@ ACAOnStartListeners
 request
 )
 {
-let
+const
 startedListeners
 =
 [
@@ -508,7 +508,7 @@ length
 0
 )
 {
-let
+const
 listener
 =
 request

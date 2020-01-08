@@ -201,7 +201,7 @@ target
 client
 )
 ;
-let
+const
 testActor
 =
 await
@@ -210,7 +210,7 @@ getTestActor
 toolbox
 )
 ;
-let
+const
 onPickerStarted
 =
 inspector
@@ -258,7 +258,7 @@ node
 "
 )
 ;
-let
+const
 onPickerStopped
 =
 toolbox
@@ -272,7 +272,7 @@ stopped
 "
 )
 ;
-let
+const
 onInspectorUpdated
 =
 inspector
@@ -351,7 +351,7 @@ clearOutput
 (
 )
 ;
-let
+const
 onEvaluationResult
 =
 waitForMessage
@@ -400,7 +400,7 @@ newH1Content
 newH1Content
 "
 ;
-let
+const
 onAssignmentResult
 =
 waitForMessage

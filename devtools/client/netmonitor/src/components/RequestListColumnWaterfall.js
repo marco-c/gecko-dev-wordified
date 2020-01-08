@@ -265,7 +265,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 connector
 item
@@ -294,7 +294,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 connector
 item
@@ -354,7 +354,7 @@ timingTooltip
 (
 )
 {
-let
+const
 {
 eventTimings
 fromCache
@@ -368,7 +368,7 @@ props
 .
 item
 ;
-let
+const
 tooltip
 =
 [
@@ -393,13 +393,13 @@ eventTimings
 {
 for
 (
-let
+const
 key
 of
 TIMING_KEYS
 )
 {
-let
+const
 width
 =
 eventTimings
@@ -501,7 +501,7 @@ timingBoxes
 (
 )
 {
-let
+const
 {
 eventTimings
 fromCache
@@ -515,7 +515,7 @@ props
 .
 item
 ;
-let
+const
 boxes
 =
 [
@@ -551,13 +551,13 @@ information
 .
 for
 (
-let
+const
 key
 of
 TIMING_KEYS
 )
 {
-let
+const
 width
 =
 eventTimings
@@ -644,7 +644,7 @@ number
 "
 )
 {
-let
+const
 title
 =
 L10N
@@ -697,7 +697,7 @@ render
 (
 )
 {
-let
+const
 {
 firstRequestStartedMillis
 item

@@ -400,7 +400,7 @@ componentWillMount
 (
 )
 {
-let
+const
 {
 walker
 }
@@ -484,7 +484,7 @@ componentWillUnmount
 (
 )
 {
-let
+const
 {
 walker
 }
@@ -731,7 +731,7 @@ accessible
 parent
 )
 {
-let
+const
 {
 accessibles
 walker
@@ -855,7 +855,7 @@ onTextChange
 accessible
 )
 {
-let
+const
 {
 accessibles
 dispatch
@@ -901,7 +901,7 @@ render
 (
 )
 {
-let
+const
 columns
 =
 [
@@ -953,7 +953,7 @@ name
 }
 ]
 ;
-let
+const
 {
 accessibles
 dispatch
@@ -969,7 +969,7 @@ this
 .
 props
 ;
-let
+const
 renderValue
 =
 props
@@ -999,14 +999,14 @@ cropLimit
 ;
 }
 ;
-let
+const
 renderRow
 =
 rowProps
 =
 >
 {
-let
+const
 {
 object
 }
@@ -1015,7 +1015,7 @@ rowProps
 .
 member
 ;
-let
+const
 highlighted
 =
 object

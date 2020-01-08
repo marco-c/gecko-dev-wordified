@@ -400,7 +400,7 @@ twice
 like
 SwapDocShells
 .
-let
+const
 dispatchDevToolsBrowserSwap
 =
 (
@@ -410,14 +410,14 @@ to
 =
 >
 {
-let
+const
 CustomEvent
 =
 browserWindow
 .
 CustomEvent
 ;
-let
+const
 event
 =
 new
@@ -496,7 +496,7 @@ things
 like
 WebExtensions
 .
-let
+const
 addTabSilently
 =
 (
@@ -594,7 +594,7 @@ things
 like
 WebExtensions
 .
-let
+const
 swapBrowsersAndCloseOtherSilently
 =
 (
@@ -743,7 +743,7 @@ when
 they
 happen
 .
-let
+const
 swapBrowserDocShells
 =
 (
@@ -798,7 +798,7 @@ swapping
 )
 ;
 }
-let
+const
 contentTabId
 =
 ourTab
@@ -998,7 +998,7 @@ RDM
 is
 open
 .
-let
+const
 {
 newFrameloader
 }
@@ -1145,7 +1145,7 @@ tab
 "
 )
 ;
-let
+const
 containerTab
 =
 addTabSilently
@@ -1172,7 +1172,7 @@ hideTab
 containerTab
 )
 ;
-let
+const
 containerBrowser
 =
 containerTab
@@ -1453,7 +1453,7 @@ the
 main
 tab
 .
-let
+const
 stateFlags
 =
 gBrowser
@@ -2014,7 +2014,7 @@ tab
 )
 )
 {
-let
+const
 findBar
 =
 gBrowser
@@ -2197,7 +2197,7 @@ hold
 the
 content
 .
-let
+const
 contentTab
 =
 addTabSilently
@@ -2221,7 +2221,7 @@ hideTab
 contentTab
 )
 ;
-let
+const
 contentBrowser
 =
 contentTab
@@ -2336,7 +2336,7 @@ for
 more
 details
 .
-let
+const
 stateFlags
 =
 gBrowser
@@ -2496,7 +2496,7 @@ tab
 )
 )
 {
-let
+const
 findBar
 =
 gBrowser
@@ -2741,13 +2741,13 @@ complete
 .
 for
 (
-let
+const
 property
 of
 NAVIGATION_PROPERTIES
 )
 {
-let
+const
 value
 =
 tab
@@ -2811,7 +2811,7 @@ complete
 .
 for
 (
-let
+const
 property
 of
 NAVIGATION_PROPERTIES

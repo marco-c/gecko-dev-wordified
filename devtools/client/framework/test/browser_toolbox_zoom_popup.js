@@ -189,7 +189,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -201,7 +201,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -220,7 +220,7 @@ HostType
 WINDOW
 )
 ;
-let
+const
 inspector
 =
 toolbox
@@ -229,7 +229,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 hostWindow
 =
 toolbox
@@ -238,21 +238,21 @@ win
 .
 parent
 ;
-let
+const
 originWidth
 =
 hostWindow
 .
 outerWidth
 ;
-let
+const
 originHeight
 =
 hostWindow
 .
 outerHeight
 ;
-let
+const
 windowUtils
 =
 toolbox
@@ -388,7 +388,7 @@ button
 of
 toolbox
 .
-let
+const
 prevTabs
 =
 toolbox
@@ -514,7 +514,7 @@ length
 }
 )
 ;
-let
+const
 menuList
 =
 [
@@ -595,7 +595,7 @@ of
 menuList
 )
 {
-let
+const
 [
 btnRect
 menuRect
@@ -641,7 +641,7 @@ uses
 -
 6
 .
-let
+const
 xDelta
 =
 Math
@@ -657,7 +657,7 @@ btnRect
 left
 )
 ;
-let
+const
 yDelta
 =
 Math
@@ -726,7 +726,7 @@ id
 )
 ;
 }
-let
+const
 onResize
 =
 once
@@ -841,7 +841,7 @@ click
 (
 )
 ;
-let
+const
 popupset
 =
 toolbox
@@ -919,7 +919,7 @@ displayed
 "
 )
 ;
-let
+const
 btnRect
 =
 menuButton
@@ -940,7 +940,7 @@ doc
 .
 bounds
 ;
-let
+const
 menuRect
 =
 menuPopup
@@ -971,7 +971,7 @@ menu
 "
 )
 ;
-let
+const
 onPopupHidden
 =
 once

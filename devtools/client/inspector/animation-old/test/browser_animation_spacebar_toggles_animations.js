@@ -127,7 +127,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 inspector
@@ -140,7 +140,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 {
 toggleAllButtonEl
 }

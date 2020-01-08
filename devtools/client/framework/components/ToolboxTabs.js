@@ -729,7 +729,7 @@ return
 true
 ;
 }
-let
+const
 prevPanels
 =
 prevProps
@@ -746,7 +746,7 @@ def
 id
 )
 ;
-let
+const
 nextPanels
 =
 nextProps
@@ -795,7 +795,7 @@ updateCachedToolTabsWidthMap
 (
 )
 {
-let
+const
 thisNode
 =
 findDOMNode
@@ -803,7 +803,7 @@ findDOMNode
 this
 )
 ;
-let
+const
 utils
 =
 window
@@ -840,7 +840,7 @@ clientWidth
 ;
 for
 (
-let
+const
 tab
 of
 thisNode
@@ -856,7 +856,7 @@ tab
 )
 )
 {
-let
+const
 tabId
 =
 tab
@@ -888,7 +888,7 @@ tabId
 )
 )
 {
-let
+const
 rect
 =
 utils
@@ -955,7 +955,7 @@ updateOverflowedTabs
 (
 )
 {
-let
+const
 node
 =
 findDOMNode
@@ -977,7 +977,7 @@ width
 10
 )
 ;
-let
+const
 {
 currentToolId
 }
@@ -986,7 +986,7 @@ this
 .
 props
 ;
-let
+const
 enabledTabs
 =
 this
@@ -1010,7 +1010,7 @@ sumWidth
 =
 0
 ;
-let
+const
 visibleTabs
 =
 [
@@ -1024,7 +1024,7 @@ of
 enabledTabs
 )
 {
-let
+const
 width
 =
 this
@@ -1090,7 +1090,7 @@ sumWidth
 toolboxWidth
 )
 {
-let
+const
 removeTabId
 =
 visibleTabs
@@ -1154,7 +1154,7 @@ currentToolId
 )
 )
 {
-let
+const
 selectedToolWidth
 =
 this
@@ -1184,7 +1184,7 @@ length
 0
 )
 {
-let
+const
 removingToolId
 =
 visibleTabs
@@ -1193,7 +1193,7 @@ pop
 (
 )
 ;
-let
+const
 removingToolWidth
 =
 this
@@ -1257,7 +1257,7 @@ currentToolId
 ;
 }
 }
-let
+const
 willOverflowTabs
 =
 enabledTabs
@@ -1374,7 +1374,7 @@ renderToolsChevronButton
 (
 )
 {
-let
+const
 {
 panelDefinitions
 selectTool
@@ -1441,7 +1441,7 @@ target
 =
 >
 {
-let
+const
 menu
 =
 new
@@ -1537,7 +1537,7 @@ checkbox
 }
 )
 ;
-let
+const
 rect
 =
 target
@@ -1546,7 +1546,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 screenX
 =
 target
@@ -1557,7 +1557,7 @@ defaultView
 .
 mozInnerScreenX
 ;
-let
+const
 screenY
 =
 target
@@ -1647,7 +1647,7 @@ render
 (
 )
 {
-let
+const
 {
 currentToolId
 focusButton
@@ -1670,7 +1670,7 @@ setCurrentPanelDefinitions
 panelDefinitions
 )
 ;
-let
+const
 tabs
 =
 panelDefinitions

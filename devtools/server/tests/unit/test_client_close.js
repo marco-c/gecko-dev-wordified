@@ -65,7 +65,7 @@ addTestGlobal
 gDebuggee
 )
 ;
-let
+const
 transport
 =
 DebuggerServer
@@ -170,7 +170,7 @@ client
 .
 close
 .
-let
+const
 onClosed
 =
 function

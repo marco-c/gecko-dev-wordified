@@ -515,7 +515,7 @@ to
 save
 operation
 .
-let
+const
 defaultFileName
 =
 Services
@@ -535,7 +535,7 @@ defaultFileName
 "
 )
 ;
-let
+const
 compress
 =
 Services
@@ -668,7 +668,7 @@ zip
 "
 }
 ;
-let
+const
 blob
 =
 compress
@@ -707,7 +707,7 @@ formatDate
 date
 )
 {
-let
+const
 year
 =
 String
@@ -729,7 +729,7 @@ padStart
 "
 )
 ;
-let
+const
 month
 =
 String
@@ -751,7 +751,7 @@ padStart
 "
 )
 ;
-let
+const
 day
 =
 String
@@ -771,7 +771,7 @@ padStart
 "
 )
 ;
-let
+const
 hour
 =
 String
@@ -791,7 +791,7 @@ padStart
 "
 )
 ;
-let
+const
 minutes
 =
 String
@@ -811,7 +811,7 @@ padStart
 "
 )
 ;
-let
+const
 seconds
 =
 String
@@ -1391,7 +1391,7 @@ har
 /
 viewer
 /
-let
+const
 callbackName
 =
 options
@@ -1499,21 +1499,21 @@ function
 options
 )
 {
-let
+const
 {
 connector
 }
 =
 options
 ;
-let
+const
 {
 getTabTarget
 }
 =
 connector
 ;
-let
+const
 {
 form
 :
@@ -1582,7 +1582,7 @@ from
 collected
 data
 .
-let
+const
 builder
 =
 new
@@ -1591,7 +1591,7 @@ HarBuilder
 options
 )
 ;
-let
+const
 result
 =
 await

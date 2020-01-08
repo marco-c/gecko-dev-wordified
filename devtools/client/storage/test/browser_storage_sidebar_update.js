@@ -103,8 +103,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -120,7 +120,7 @@ UPDATE_COUNT
 =
 3
 ;
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -136,7 +136,7 @@ html
 "
 )
 ;
-let
+const
 updated
 =
 gUI
@@ -150,7 +150,7 @@ updated
 "
 )
 ;
-yield
+await
 selectTreeItem
 (
 [
@@ -171,13 +171,13 @@ org
 ]
 )
 ;
-yield
+await
 selectTableItem
 (
 ITEM_NAME
 )
 ;
-yield
+await
 updated
 ;
 is
@@ -209,7 +209,7 @@ for
 them
 to
 finish
-let
+const
 updates
 =
 [
@@ -264,7 +264,7 @@ updateObjectSidebar
 )
 ;
 }
-yield
+await
 promise
 .
 all
@@ -284,7 +284,7 @@ result
 "
 )
 ;
-let
+const
 parsedScope
 =
 gUI
@@ -296,7 +296,7 @@ getScopeAtIndex
 1
 )
 ;
-let
+const
 elements
 =
 parsedScope
@@ -338,7 +338,7 @@ ITEM_NAME
 '
 )
 ;
-yield
+await
 finishTests
 (
 )

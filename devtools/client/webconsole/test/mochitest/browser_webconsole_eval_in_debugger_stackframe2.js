@@ -236,7 +236,7 @@ debugger
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -246,7 +246,7 @@ openDebugger
 (
 )
 ;
-let
+const
 {
 activeThread
 }

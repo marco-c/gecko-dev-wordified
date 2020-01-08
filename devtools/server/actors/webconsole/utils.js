@@ -226,7 +226,7 @@ function
 message
 )
 {
-let
+const
 id
 =
 message
@@ -447,13 +447,13 @@ temp
 ;
 for
 (
-let
+const
 key
 in
 object
 )
 {
-let
+const
 value
 =
 object
@@ -612,7 +612,7 @@ function
 window
 )
 {
-let
+const
 innerWindowID
 =
 this
@@ -656,7 +656,7 @@ i
 +
 )
 {
-let
+const
 frame
 =
 window
@@ -2052,7 +2052,7 @@ the
 results
 instead
 .
-let
+const
 result
 =
 new
@@ -2226,7 +2226,7 @@ xPath
 context
 )
 {
-let
+const
 nodes
 =
 new
@@ -2263,7 +2263,7 @@ s
 been
 redefined
 .
-let
+const
 doc
 =
 owner
@@ -2279,7 +2279,7 @@ context
 |
 doc
 ;
-let
+const
 results
 =
 doc
@@ -2606,7 +2606,7 @@ owner
 object
 )
 {
-let
+const
 values
 =
 [
@@ -2626,7 +2626,7 @@ functions
 and
 accessor
 properties
-let
+const
 waived
 =
 Cu
@@ -2636,7 +2636,7 @@ waiveXrays
 object
 )
 ;
-let
+const
 names
 =
 Object
@@ -2648,7 +2648,7 @@ waived
 ;
 for
 (
-let
+const
 name
 of
 names
@@ -3017,7 +3017,7 @@ owner
 object
 )
 {
-let
+const
 dbgObj
 =
 owner
@@ -3027,7 +3027,7 @@ makeDebuggeeValue
 object
 )
 ;
-let
+const
 grip
 =
 owner
@@ -3182,26 +3182,26 @@ n
 "
 ;
 }
-let
+const
 output
 =
 [
 ]
 ;
-let
+const
 obj
 =
 object
 ;
 for
 (
-let
+const
 name
 in
 obj
 )
 {
-let
+const
 desc
 =
 WebConsoleUtils
@@ -3243,7 +3243,7 @@ from
 browser
 /
 .
-let
+const
 getGrip
 =
 VariablesView
@@ -3255,7 +3255,7 @@ desc
 get
 )
 ;
-let
+const
 setGrip
 =
 VariablesView
@@ -3267,7 +3267,7 @@ desc
 set
 )
 ;
-let
+const
 getString
 =
 VariablesView
@@ -3277,7 +3277,7 @@ getString
 getGrip
 )
 ;
-let
+const
 setString
 =
 VariablesView
@@ -3313,7 +3313,7 @@ setString
 }
 else
 {
-let
+const
 valueGrip
 =
 VariablesView
@@ -3326,7 +3326,7 @@ name
 ]
 )
 ;
-let
+const
 valueString
 =
 VariablesView
@@ -3744,7 +3744,7 @@ jsm
 Cu
 etc
 .
-let
+const
 commands
 =
 isWorker
@@ -3777,7 +3777,7 @@ required
 }
 for
 (
-let
+const
 [
 name
 command
@@ -3827,7 +3827,7 @@ object
 "
 )
 {
-let
+const
 clone
 =
 Object

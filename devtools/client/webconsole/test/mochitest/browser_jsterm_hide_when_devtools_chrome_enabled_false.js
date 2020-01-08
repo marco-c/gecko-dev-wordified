@@ -298,7 +298,7 @@ testObjectInspectorPropertiesAreSet
 objInspector
 )
 ;
-let
+const
 browserTab
 =
 await
@@ -463,7 +463,7 @@ getObjectInspector
 hud
 )
 {
-let
+const
 {
 ui
 jsterm
@@ -516,7 +516,7 @@ true
 "
 )
 ;
-let
+const
 message
 =
 await
@@ -540,7 +540,7 @@ true
 )
 )
 ;
-let
+const
 objInspector
 =
 message
@@ -563,7 +563,7 @@ testJSTermIsVisible
 hud
 )
 {
-let
+const
 inputContainer
 =
 hud
@@ -611,7 +611,7 @@ testObjectInspectorPropertiesAreSet
 objInspector
 )
 {
-let
+const
 onMutation
 =
 waitForNodeMutation
@@ -624,7 +624,7 @@ true
 }
 )
 ;
-let
+const
 arrow
 =
 objInspector
@@ -677,7 +677,7 @@ it
 "
 )
 ;
-let
+const
 nameNode
 =
 objInspector
@@ -700,21 +700,21 @@ label
 "
 )
 ;
-let
+const
 container
 =
 nameNode
 .
 parentNode
 ;
-let
+const
 name
 =
 nameNode
 .
 textContent
 ;
-let
+const
 value
 =
 container
@@ -764,7 +764,7 @@ testJSTermIsNotVisible
 hud
 )
 {
-let
+const
 inputContainer
 =
 hud

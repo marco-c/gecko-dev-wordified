@@ -15,7 +15,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+const
 {
 ActorRegistryFront
 }
@@ -35,7 +35,7 @@ registry
 "
 )
 ;
-let
+const
 actorURL
 =
 "
@@ -113,7 +113,7 @@ response
 =
 >
 {
-let
+const
 options
 =
 {
@@ -136,7 +136,7 @@ true
 }
 }
 ;
-let
+const
 registry
 =
 ActorRegistryFront
@@ -171,7 +171,7 @@ res
 =
 >
 {
-let
+const
 tab
 =
 res
@@ -400,7 +400,7 @@ valid
 "
 )
 ;
-let
+const
 {
 tabs
 selected
@@ -413,7 +413,7 @@ listTabs
 (
 )
 ;
-let
+const
 tab
 =
 tabs

@@ -376,7 +376,7 @@ data
 options
 )
 {
-let
+const
 state
 =
 {
@@ -994,7 +994,7 @@ up
 the
 array
 index
-let
+const
 attrs
 =
 Array
@@ -1186,7 +1186,7 @@ state
 value
 )
 ;
-let
+const
 func
 =
 property
@@ -1215,7 +1215,7 @@ removeAttribute
 name
 )
 ;
-let
+const
 capture
 =
 node
@@ -1617,7 +1617,7 @@ additions
 or
 removals
 .
-let
+const
 childNodes
 =
 Array
@@ -1759,7 +1759,7 @@ function
 path
 )
 {
-let
+const
 insert
 =
 envEval
@@ -1870,7 +1870,7 @@ if
 ;
 try
 {
-let
+const
 originalValue
 =
 node
@@ -1882,7 +1882,7 @@ if
 "
 )
 ;
-let
+const
 value
 =
 stripBraces
@@ -1898,7 +1898,7 @@ true
 ;
 try
 {
-let
+const
 reply
 =
 envEval
@@ -2107,7 +2107,7 @@ foreach
 ;
 try
 {
-let
+const
 originalValue
 =
 node
@@ -2187,7 +2187,7 @@ in
 ARRAY
 }
 '
-let
+const
 nameArr
 =
 value
@@ -2237,7 +2237,7 @@ foreach
 ;
 try
 {
-let
+const
 evaled
 =
 envEval
@@ -2248,7 +2248,7 @@ data
 originalValue
 )
 ;
-let
+const
 cState
 =
 cloneState
@@ -2500,7 +2500,7 @@ else
 {
 for
 (
-let
+const
 member
 in
 set
@@ -2690,7 +2690,7 @@ frame
 ;
 try
 {
-let
+const
 cState
 =
 cloneState
@@ -2725,7 +2725,7 @@ can
 safely
 mutate
 it
-let
+const
 newData
 =
 Object
@@ -3172,7 +3172,7 @@ F001
 and
 F002
 .
-let
+const
 parts
 =
 value
@@ -3266,7 +3266,7 @@ data
 )
 ;
 }
-let
+const
 cState
 =
 cloneState
@@ -3284,7 +3284,7 @@ reply
 siblingNode
 )
 {
-let
+const
 doc
 =
 siblingNode
@@ -3422,7 +3422,7 @@ we
 clone
 the
 list
-let
+const
 list
 =
 Array
@@ -3446,7 +3446,7 @@ function
 child
 )
 {
-let
+const
 imported
 =
 maybeImportNode
@@ -3770,7 +3770,7 @@ have
 the
 real
 data
-let
+const
 tempNode
 =
 siblingNode
@@ -4223,7 +4223,7 @@ split
 )
 ;
 }
-let
+const
 value
 =
 data
@@ -4675,7 +4675,7 @@ in
 '
 data
 '
-let
+const
 keys
 =
 allKeys
@@ -4683,7 +4683,7 @@ allKeys
 data
 )
 ;
-let
+const
 func
 =
 Function
@@ -4703,7 +4703,7 @@ script
 )
 )
 ;
-let
+const
 values
 =
 keys
@@ -4932,7 +4932,7 @@ allKeys
 data
 )
 {
-let
+const
 keys
 =
 [
@@ -4940,7 +4940,7 @@ keys
 ;
 for
 (
-let
+const
 key
 in
 data

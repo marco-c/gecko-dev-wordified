@@ -92,7 +92,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -123,7 +123,7 @@ it
 "
 )
 ;
-let
+const
 body
 =
 await
@@ -139,7 +139,7 @@ body
 inspector
 )
 ;
-let
+const
 selectedNode
 =
 inspector
@@ -216,7 +216,7 @@ walker
 }
 )
 {
-let
+const
 embed
 =
 await
@@ -232,7 +232,7 @@ embed
 "
 )
 ;
-let
+const
 {
 nodes
 }
@@ -245,7 +245,7 @@ children
 embed
 )
 ;
-let
+const
 contentDoc
 =
 nodes
@@ -253,7 +253,7 @@ nodes
 0
 ]
 ;
-let
+const
 body
 =
 await

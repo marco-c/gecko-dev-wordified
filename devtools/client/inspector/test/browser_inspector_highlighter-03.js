@@ -253,7 +253,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -279,7 +279,7 @@ show
 "
 )
 ;
-let
+const
 body
 =
 await
@@ -416,7 +416,7 @@ body
 within
 the
 iframe
-let
+const
 iframeBodySelector
 =
 [

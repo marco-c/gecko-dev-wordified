@@ -883,7 +883,7 @@ config
 }
 )
 {
-let
+const
 {
 before
 after
@@ -928,7 +928,7 @@ maxPosition
 ;
 for
 (
-let
+const
 k
 of
 Object
@@ -951,7 +951,7 @@ DebuggerClient
 Argument
 )
 {
-let
+const
 {
 position
 }
@@ -1038,7 +1038,7 @@ if
 after
 )
 {
-let
+const
 {
 from
 }
@@ -1081,7 +1081,7 @@ the
 last
 parameter
 .
-let
+const
 thisCallback
 =
 args
@@ -1410,7 +1410,7 @@ function
 onConnected
 )
 {
-let
+const
 deferred
 =
 promise
@@ -1641,7 +1641,7 @@ Firefox
 ESR59
 is
 released
-let
+const
 deviceFront
 =
 await
@@ -1651,7 +1651,7 @@ this
 listTabsForm
 )
 ;
-let
+const
 desc
 =
 await
@@ -1706,7 +1706,7 @@ the
 same
 day
 .
-let
+const
 runtimeID
 =
 desc
@@ -1719,7 +1719,7 @@ substr
 8
 )
 ;
-let
+const
 localID
 =
 Services
@@ -1740,7 +1740,7 @@ buildIDToDate
 buildID
 )
 {
-let
+const
 fields
 =
 buildID
@@ -1808,7 +1808,7 @@ fields
 )
 ;
 }
-let
+const
 runtimeDate
 =
 buildIDToDate
@@ -1816,7 +1816,7 @@ buildIDToDate
 runtimeID
 )
 ;
-let
+const
 localDate
 =
 buildIDToDate
@@ -1891,7 +1891,7 @@ old
 Firefox
 on
 device
-let
+const
 platformversion
 =
 desc
@@ -2001,7 +2001,7 @@ function
 onClosed
 )
 {
-let
+const
 deferred
 =
 promise
@@ -2054,7 +2054,7 @@ _eventsEnabled
 =
 false
 ;
-let
+const
 cleanup
 =
 (
@@ -2173,7 +2173,7 @@ child
 clients
 first
 .
-let
+const
 clients
 =
 [
@@ -2205,7 +2205,7 @@ detachClients
 =
 >
 {
-let
+const
 client
 =
 clients
@@ -2456,7 +2456,7 @@ tabActor
 )
 )
 {
-let
+const
 cachedTab
 =
 this
@@ -2468,7 +2468,7 @@ get
 tabActor
 )
 ;
-let
+const
 cachedResponse
 =
 {
@@ -2516,7 +2516,7 @@ cachedTab
 )
 ;
 }
-let
+const
 packet
 =
 {
@@ -2619,7 +2619,7 @@ workerClient
 undefined
 )
 {
-let
+const
 response
 =
 {
@@ -2802,7 +2802,7 @@ onResponse
 noop
 )
 {
-let
+const
 packet
 =
 {
@@ -2957,7 +2957,7 @@ onResponse
 noop
 )
 {
-let
+const
 packet
 =
 {
@@ -3161,7 +3161,7 @@ threadActor
 )
 )
 {
-let
+const
 client
 =
 this
@@ -3202,7 +3202,7 @@ client
 )
 ;
 }
-let
+const
 packet
 =
 {
@@ -3347,7 +3347,7 @@ traceActor
 )
 )
 {
-let
+const
 client
 =
 this
@@ -3388,7 +3388,7 @@ client
 )
 ;
 }
-let
+const
 packet
 =
 {
@@ -3522,7 +3522,7 @@ function
 id
 )
 {
-let
+const
 packet
 =
 {
@@ -4111,7 +4111,7 @@ server
 )
 ;
 }
-let
+const
 type
 =
 packet
@@ -4216,7 +4216,7 @@ this
 _closed
 )
 {
-let
+const
 msg
 =
 "
@@ -4258,7 +4258,7 @@ closed
 .
 "
 ;
-let
+const
 resp
 =
 {
@@ -4284,7 +4284,7 @@ resp
 )
 ;
 }
-let
+const
 request
 =
 new
@@ -4329,7 +4329,7 @@ rejects
 on
 request
 response
-let
+const
 deferred
 =
 promise
@@ -5399,7 +5399,7 @@ _sendOrQueueRequest
 request
 )
 {
-let
+const
 actor
 =
 request
@@ -5471,7 +5471,7 @@ _sendRequest
 request
 )
 {
-let
+const
 actor
 =
 request
@@ -5591,14 +5591,14 @@ _queueRequest
 request
 )
 {
-let
+const
 actor
 =
 request
 .
 actor
 ;
-let
+const
 queue
 =
 this
@@ -5671,7 +5671,7 @@ actor
 return
 ;
 }
-let
+const
 queue
 =
 this
@@ -5692,7 +5692,7 @@ queue
 return
 ;
 }
-let
+const
 request
 =
 queue
@@ -5898,7 +5898,7 @@ function
 "
 )
 {
-let
+const
 handler
 =
 request
@@ -6041,7 +6041,7 @@ of
 this
 unpleasantness
 .
-let
+const
 front
 =
 this
@@ -6174,7 +6174,7 @@ packet
 type
 )
 {
-let
+const
 client
 =
 this
@@ -6188,7 +6188,7 @@ packet
 from
 )
 ;
-let
+const
 type
 =
 packet
@@ -6506,7 +6506,7 @@ if
 activeRequest
 )
 {
-let
+const
 emitReply
 =
 (
@@ -6837,7 +6837,7 @@ function
 packet
 )
 {
-let
+const
 {
 actor
 }
@@ -6920,7 +6920,7 @@ actor
 return
 ;
 }
-let
+const
 activeRequest
 =
 this
@@ -7302,7 +7302,7 @@ arrive
 .
 for
 (
-let
+const
 pool
 of
 this
@@ -7388,7 +7388,7 @@ prefix
 "
 )
 {
-let
+const
 reject
 =
 function
@@ -7507,7 +7507,7 @@ closed
 "
 ;
 }
-let
+const
 packet
 =
 {
@@ -7896,7 +7896,7 @@ have
 multiple
 parents
 .
-let
+const
 fronts
 =
 new
@@ -7904,7 +7904,7 @@ Set
 (
 )
 ;
-let
+const
 poolsToVisit
 =
 [
@@ -7959,7 +7959,7 @@ poolsToVisit
 length
 )
 {
-let
+const
 pool
 =
 poolsToVisit
@@ -7977,7 +7977,7 @@ pool
 ;
 for
 (
-let
+const
 child
 of
 pool
@@ -8009,7 +8009,7 @@ to
 settle
 for
 (
-let
+const
 front
 of
 fronts
@@ -8159,7 +8159,7 @@ function
 client
 )
 {
-let
+const
 actorID
 =
 client
@@ -8351,7 +8351,7 @@ function
 client
 )
 {
-let
+const
 actorID
 =
 client
@@ -8492,7 +8492,7 @@ function
 actorID
 )
 {
-let
+const
 pool
 =
 this
@@ -8524,7 +8524,7 @@ actorID
 {
 for
 (
-let
+const
 pool
 of
 this

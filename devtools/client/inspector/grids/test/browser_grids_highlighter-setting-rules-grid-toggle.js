@@ -162,7 +162,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 gridInspector
@@ -173,7 +173,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -182,14 +182,14 @@ doc
 =
 gridInspector
 ;
-let
+const
 {
 store
 }
 =
 inspector
 ;
-let
+const
 checkbox
 =
 doc
@@ -253,7 +253,7 @@ setting
 "
 )
 ;
-let
+const
 onCheckboxChange
 =
 waitUntilState
@@ -289,7 +289,7 @@ view
 "
 )
 ;
-let
+const
 ruleView
 =
 selectRuleView
@@ -297,7 +297,7 @@ selectRuleView
 inspector
 )
 ;
-let
+const
 highlighters
 =
 ruleView
@@ -314,7 +314,7 @@ grid
 inspector
 )
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -331,7 +331,7 @@ display
 .
 valueSpan
 ;
-let
+const
 gridToggle
 =
 container
@@ -364,7 +364,7 @@ view
 "
 )
 ;
-let
+const
 onHighlighterShown
 =
 highlighters
@@ -398,7 +398,7 @@ settings
 "
 )
 ;
-let
+const
 {
 color
 showGridAreasOverlay

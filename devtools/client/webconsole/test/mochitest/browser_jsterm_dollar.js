@@ -146,7 +146,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await

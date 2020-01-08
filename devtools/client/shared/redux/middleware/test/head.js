@@ -108,7 +108,7 @@ resolve
 =
 >
 {
-let
+const
 unsubscribe
 =
 store

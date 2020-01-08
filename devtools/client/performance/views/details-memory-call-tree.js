@@ -284,7 +284,7 @@ interval
 }
 )
 {
-let
+const
 options
 =
 {
@@ -304,7 +304,7 @@ tree
 )
 }
 ;
-let
+const
 recording
 =
 PerformanceController
@@ -313,7 +313,7 @@ getCurrentRecording
 (
 )
 ;
-let
+const
 allocations
 =
 recording
@@ -322,7 +322,7 @@ getAllocations
 (
 )
 ;
-let
+const
 threadNode
 =
 this
@@ -380,7 +380,7 @@ function
 treeItem
 )
 {
-let
+const
 {
 url
 line
@@ -473,7 +473,7 @@ endTime
 options
 )
 {
-let
+const
 thread
 =
 RecordingUtils
@@ -483,7 +483,7 @@ getProfileThreadFromAllocations
 allocations
 )
 ;
-let
+const
 {
 invertTree
 }
@@ -571,7 +571,7 @@ as
 an
 error
 .
-let
+const
 inverted
 =
 options
@@ -585,7 +585,7 @@ samples
 >
 0
 ;
-let
+const
 root
 =
 new

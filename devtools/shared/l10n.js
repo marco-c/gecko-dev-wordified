@@ -637,7 +637,7 @@ to
 require
 "
 .
-let
+const
 index
 =
 url
@@ -671,7 +671,7 @@ resource
 properties
 "
 .
-let
+const
 baseName
 =
 "
@@ -845,7 +845,7 @@ function
 name
 )
 {
-let
+const
 properties
 =
 getProperties
@@ -1004,7 +1004,7 @@ name
 args
 )
 {
-let
+const
 newArgs
 =
 args
@@ -1216,7 +1216,7 @@ Intl
 NumberFormat
 formatter
 .
-let
+const
 localized
 =
 getNumberFormatter
@@ -1240,7 +1240,7 @@ a
 number
 again
 .
-let
+const
 localizedNumber
 =
 localized
@@ -1307,7 +1307,7 @@ getPropertiesForNode
 node
 )
 {
-let
+const
 bundleEl
 =
 node
@@ -1335,7 +1335,7 @@ return
 null
 ;
 }
-let
+const
 propertiesUrl
 =
 bundleEl
@@ -1585,7 +1585,7 @@ localizeMarkup
 root
 )
 {
-let
+const
 elements
 =
 root
@@ -1603,13 +1603,13 @@ localization
 ;
 for
 (
-let
+const
 element
 of
 elements
 )
 {
-let
+const
 properties
 =
 getPropertiesForNode
@@ -1626,7 +1626,7 @@ properties
 continue
 ;
 }
-let
+const
 attributes
 =
 element
@@ -1649,13 +1649,13 @@ split
 ;
 for
 (
-let
+const
 attribute
 of
 attributes
 )
 {
-let
+const
 [
 name
 value
@@ -1781,7 +1781,7 @@ MultiLocalizationHelper
 stringBundleNames
 )
 {
-let
+const
 instances
 =
 stringBundleNames
@@ -1920,7 +1920,7 @@ args
 {
 for
 (
-let
+const
 l10n
 of
 instances

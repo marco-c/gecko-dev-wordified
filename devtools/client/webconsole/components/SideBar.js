@@ -372,7 +372,7 @@ return
 null
 ;
 }
-let
+const
 {
 grip
 serviceContainer
@@ -382,7 +382,7 @@ this
 .
 props
 ;
-let
+const
 objectInspector
 =
 getObjectInspector
@@ -404,7 +404,7 @@ true
 }
 )
 ;
-let
+const
 endPanel
 =
 dom

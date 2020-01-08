@@ -892,7 +892,7 @@ node
 isPseudoElement
 )
 {
-let
+const
 tagName
 =
 this
@@ -905,7 +905,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 srcAttr
 =
 this
@@ -919,7 +919,7 @@ src
 "
 )
 ;
-let
+const
 isImage
 =
 tagName
@@ -933,7 +933,7 @@ img
 &
 srcAttr
 ;
-let
+const
 isCanvas
 =
 tagName
@@ -1370,7 +1370,7 @@ canFocus
 =
 false
 ;
-let
+const
 doc
 =
 this
@@ -1787,7 +1787,7 @@ markup
 is
 created
 .
-let
+const
 currentLevel
 =
 this
@@ -1803,7 +1803,7 @@ level
 "
 )
 ;
-let
+const
 newLevel
 =
 this
@@ -1850,7 +1850,7 @@ level
 newLevel
 )
 ;
-let
+const
 childContainers
 =
 this
@@ -2265,7 +2265,7 @@ for
 this
 container
 .
-let
+const
 closingTag
 =
 this
@@ -2311,7 +2311,7 @@ this
 closeTagLine
 )
 {
-let
+const
 line
 =
 this
@@ -2362,7 +2362,7 @@ presentation
 "
 )
 ;
-let
+const
 tagState
 =
 this
@@ -2621,7 +2621,7 @@ isDragging
 isDragging
 )
 {
-let
+const
 rootElt
 =
 this
@@ -2820,7 +2820,7 @@ function
 (
 )
 {
-let
+const
 tagName
 =
 this
@@ -2994,7 +2994,7 @@ current
 back
 )
 {
-let
+const
 elms
 =
 this
@@ -3086,7 +3086,7 @@ function
 event
 )
 {
-let
+const
 {
 target
 keyCode
@@ -3095,7 +3095,7 @@ shiftKey
 =
 event
 ;
-let
+const
 isInput
 =
 this
@@ -3191,7 +3191,7 @@ s
 next
 sibling
 .
-let
+const
 next
 =
 this
@@ -3231,7 +3231,7 @@ next
 _editable
 )
 {
-let
+const
 e
 =
 this
@@ -3270,7 +3270,7 @@ e
 }
 else
 {
-let
+const
 next
 =
 this
@@ -3375,7 +3375,7 @@ function
 event
 )
 {
-let
+const
 {
 target
 button
@@ -3385,7 +3385,7 @@ ctrlKey
 =
 event
 ;
-let
+const
 isLeftClick
 =
 button
@@ -3394,7 +3394,7 @@ button
 =
 0
 ;
-let
+const
 isMiddleClick
 =
 button
@@ -3403,7 +3403,7 @@ button
 =
 1
 ;
-let
+const
 isMetaClick
 =
 isLeftClick
@@ -3606,7 +3606,7 @@ isMiddleClick
 isMetaClick
 )
 {
-let
+const
 link
 =
 target
@@ -3615,7 +3615,7 @@ dataset
 .
 link
 ;
-let
+const
 type
 =
 target
@@ -3769,7 +3769,7 @@ cancelDragging
 (
 )
 ;
-let
+const
 dropTargetNodes
 =
 this
@@ -3893,7 +3893,7 @@ the
 start
 position
 .
-let
+const
 initialDiff
 =
 Math
@@ -3959,7 +3959,7 @@ as
 /
 indicator
 .
-let
+const
 position
 =
 this
@@ -4003,7 +4003,7 @@ this
 isDragging
 )
 {
-let
+const
 x
 =
 0
@@ -4090,7 +4090,7 @@ scrollY
 1
 ;
 }
-let
+const
 diff
 =
 y
@@ -4119,7 +4119,7 @@ diff
 px
 "
 ;
-let
+const
 el
 =
 this
@@ -4591,7 +4591,7 @@ this
 _selected
 )
 {
-let
+const
 container
 =
 this
@@ -4820,7 +4820,7 @@ are
 not
 focusable
 .
-let
+const
 focusable
 =
 this

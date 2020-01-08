@@ -129,17 +129,17 @@ actions
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -152,7 +152,7 @@ window
 }
 )
 ;
-let
+const
 {
 PerformanceView
 }
@@ -161,7 +161,7 @@ panel
 .
 panelWin
 ;
-let
+const
 MAIN_CONTAINER
 =
 (
@@ -173,7 +173,7 @@ view
 "
 )
 ;
-let
+const
 EMPTY
 =
 (
@@ -185,7 +185,7 @@ notice
 "
 )
 ;
-let
+const
 CONTENT
 =
 (
@@ -199,7 +199,7 @@ content
 "
 )
 ;
-let
+const
 DETAILS_CONTAINER
 =
 (
@@ -213,7 +213,7 @@ container
 "
 )
 ;
-let
+const
 RECORDING
 =
 (
@@ -225,7 +225,7 @@ notice
 "
 )
 ;
-let
+const
 DETAILS
 =
 (
@@ -271,7 +271,7 @@ load
 "
 )
 ;
-yield
+await
 startRecording
 (
 panel
@@ -326,7 +326,7 @@ panel
 "
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -381,7 +381,7 @@ graphs
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

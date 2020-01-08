@@ -105,7 +105,7 @@ started
 "
 )
 ;
-let
+const
 oldPref
 =
 SpecialPowers

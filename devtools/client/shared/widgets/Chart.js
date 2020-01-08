@@ -741,7 +741,7 @@ size
 )
 ;
 }
-let
+const
 pie
 =
 Chart
@@ -759,7 +759,7 @@ data
 }
 )
 ;
-let
+const
 table
 =
 Chart
@@ -786,7 +786,7 @@ header
 }
 )
 ;
-let
+const
 container
 =
 document
@@ -830,7 +830,7 @@ table
 node
 )
 ;
-let
+const
 proxy
 =
 new
@@ -1492,7 +1492,7 @@ isPlaceholder
 true
 ;
 }
-let
+const
 container
 =
 document
@@ -1612,7 +1612,7 @@ placeholder
 isPlaceholder
 )
 ;
-let
+const
 proxy
 =
 new
@@ -1621,7 +1621,7 @@ PieChart
 container
 )
 ;
-let
+const
 total
 =
 data
@@ -1642,7 +1642,7 @@ size
 0
 )
 ;
-let
+const
 angles
 =
 data
@@ -1665,7 +1665,7 @@ EPSILON
 )
 )
 ;
-let
+const
 largest
 =
 data
@@ -1691,7 +1691,7 @@ a
 b
 )
 ;
-let
+const
 smallest
 =
 data
@@ -1717,14 +1717,14 @@ a
 b
 )
 ;
-let
+const
 textDistance
 =
 radius
 /
 NAMED_SLICE_TEXT_DISTANCE_RATIO
 ;
-let
+const
 translateDistance
 =
 radius
@@ -1772,7 +1772,7 @@ i
 -
 )
 {
-let
+const
 sliceInfo
 =
 data
@@ -1780,7 +1780,7 @@ data
 i
 ]
 ;
-let
+const
 sliceAngle
 =
 angles
@@ -1820,7 +1820,7 @@ endAngle
 /
 2
 ;
-let
+const
 x1
 =
 centerX
@@ -1834,7 +1834,7 @@ sin
 startAngle
 )
 ;
-let
+const
 y1
 =
 centerY
@@ -1848,7 +1848,7 @@ cos
 startAngle
 )
 ;
-let
+const
 x2
 =
 centerX
@@ -1862,7 +1862,7 @@ sin
 endAngle
 )
 ;
-let
+const
 y2
 =
 centerY
@@ -1876,7 +1876,7 @@ cos
 endAngle
 )
 ;
-let
+const
 largeArcFlag
 =
 Math
@@ -1894,7 +1894,7 @@ PI
 :
 0
 ;
-let
+const
 pathNode
 =
 document
@@ -2042,7 +2042,7 @@ smallest
 )
 ;
 }
-let
+const
 hoverX
 =
 translateDistance
@@ -2054,7 +2054,7 @@ sin
 midAngle
 )
 ;
-let
+const
 hoverY
 =
 -
@@ -2067,7 +2067,7 @@ cos
 midAngle
 )
 ;
-let
+const
 hoverTransform
 =
 "
@@ -2156,7 +2156,7 @@ sliceAngle
 NAMED_SLICE_MIN_ANGLE
 )
 {
-let
+const
 textX
 =
 centerX
@@ -2170,7 +2170,7 @@ sin
 midAngle
 )
 ;
-let
+const
 textY
 =
 centerY
@@ -2184,7 +2184,7 @@ cos
 midAngle
 )
 ;
-let
+const
 label
 =
 document
@@ -2761,7 +2761,7 @@ isPlaceholder
 true
 ;
 }
-let
+const
 container
 =
 document
@@ -2855,7 +2855,7 @@ vertical
 "
 )
 ;
-let
+const
 proxy
 =
 new
@@ -2864,7 +2864,7 @@ TableChart
 container
 )
 ;
-let
+const
 titleNode
 =
 document
@@ -2902,7 +2902,7 @@ appendChild
 titleNode
 )
 ;
-let
+const
 tableNode
 =
 document
@@ -3012,7 +3012,7 @@ headerBoxNode
 ;
 for
 (
-let
+const
 [
 key
 value
@@ -3026,7 +3026,7 @@ header
 )
 )
 {
-let
+const
 headerLabelNode
 =
 document
@@ -3086,13 +3086,13 @@ headerNode
 ;
 for
 (
-let
+const
 rowInfo
 of
 data
 )
 {
-let
+const
 rowNode
 =
 document
@@ -3128,7 +3128,7 @@ center
 "
 )
 ;
-let
+const
 boxNode
 =
 document
@@ -3180,7 +3180,7 @@ boxNode
 ;
 for
 (
-let
+const
 [
 key
 value
@@ -3194,7 +3194,7 @@ rowInfo
 )
 )
 {
-let
+const
 index
 =
 data
@@ -3204,7 +3204,7 @@ indexOf
 rowInfo
 )
 ;
-let
+const
 stringified
 =
 strings
@@ -3223,7 +3223,7 @@ index
 :
 value
 ;
-let
+const
 labelNode
 =
 document
@@ -3310,7 +3310,7 @@ rowNode
 )
 ;
 }
-let
+const
 totalsNode
 =
 document
@@ -3355,7 +3355,7 @@ vertical
 ;
 for
 (
-let
+const
 [
 key
 value
@@ -3369,7 +3369,7 @@ totals
 )
 )
 {
-let
+const
 total
 =
 data
@@ -3391,7 +3391,7 @@ key
 0
 )
 ;
-let
+const
 stringified
 =
 value
@@ -3406,7 +3406,7 @@ total
 :
 total
 ;
-let
+const
 labelNode
 =
 document
@@ -3668,7 +3668,7 @@ args
 {
 for
 (
-let
+const
 event
 of
 events

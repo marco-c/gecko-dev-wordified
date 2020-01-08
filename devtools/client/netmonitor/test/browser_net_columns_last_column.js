@@ -55,7 +55,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -77,7 +77,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -88,7 +88,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 initialColumns
 =
 store
@@ -103,13 +103,13 @@ columns
 ;
 for
 (
-let
+const
 column
 in
 initialColumns
 )
 {
-let
+const
 shown
 =
 initialColumns
@@ -117,7 +117,7 @@ initialColumns
 column
 ]
 ;
-let
+const
 columns
 =
 store
@@ -130,7 +130,7 @@ ui
 .
 columns
 ;
-let
+const
 visibleColumns
 =
 [
@@ -138,7 +138,7 @@ visibleColumns
 ;
 for
 (
-let
+const
 c
 in
 columns
@@ -245,7 +245,7 @@ button
 )
 )
 ;
-let
+const
 menuItem
 =
 parent

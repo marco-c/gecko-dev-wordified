@@ -96,7 +96,7 @@ function
 (
 )
 {
-let
+const
 {
 view
 }
@@ -107,14 +107,14 @@ openFontInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 viewDoc
 =
 view
 .
 document
 ;
-let
+const
 fontEl
 =
 getUsedFontsEls
@@ -125,7 +125,7 @@ viewDoc
 0
 ]
 ;
-let
+const
 linkEl
 =
 fontEl
@@ -140,7 +140,7 @@ origin
 "
 )
 ;
-let
+const
 iconEl
 =
 linkEl

@@ -140,7 +140,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -198,7 +198,7 @@ view
 "
 )
 ;
-let
+const
 tooltip
 =
 ruleView
@@ -212,7 +212,7 @@ previewTooltip
 "
 )
 ;
-let
+const
 panel
 =
 tooltip
@@ -272,7 +272,7 @@ the
 font
 rule
 view
-let
+const
 propertyList
 =
 ruleView
@@ -289,7 +289,7 @@ propertylist
 "
 )
 ;
-let
+const
 fontExpander
 =
 propertyList
@@ -316,7 +316,7 @@ click
 (
 )
 ;
-let
+const
 rule
 =
 getRuleViewRule
@@ -328,7 +328,7 @@ testElement
 "
 )
 ;
-let
+const
 computedlist
 =
 rule
@@ -348,13 +348,13 @@ valueSpan
 ;
 for
 (
-let
+const
 computed
 of
 computedlist
 )
 {
-let
+const
 propertyName
 =
 computed
@@ -413,7 +413,7 @@ shown
 on
 this
 property
-let
+const
 previewTooltip
 =
 await
@@ -423,7 +423,7 @@ ruleView
 valueSpan
 )
 ;
-let
+const
 images
 =
 panel
@@ -483,7 +483,7 @@ expected
 "
 )
 ;
-let
+const
 dataURL
 =
 await

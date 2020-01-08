@@ -365,7 +365,7 @@ render
 (
 )
 {
-let
+const
 title
 =
 this
@@ -386,7 +386,7 @@ props
 .
 collapsePaneTitle
 ;
-let
+const
 classNames
 =
 [

@@ -66,7 +66,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -89,7 +89,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 }
@@ -98,7 +98,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 wait
 =
 waitForNetworkEvents

@@ -259,12 +259,12 @@ are
 -
 based
 .
-let
+const
 errorLine
 =
 3
 ;
-let
+const
 editorDoc
 =
 sp
@@ -283,7 +283,7 @@ jumpToLine
 (
 )
 ;
-let
+const
 lineInput
 =
 editorDoc
@@ -295,7 +295,7 @@ input
 "
 )
 ;
-let
+const
 inputLine
 =
 lineInput
@@ -354,7 +354,7 @@ are
 -
 based
 .
-let
+const
 cursor
 =
 sp
@@ -451,7 +451,7 @@ col
 "
 )
 ;
-let
+const
 {
 line
 ch

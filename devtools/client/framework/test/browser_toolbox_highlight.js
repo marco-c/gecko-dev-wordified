@@ -563,7 +563,7 @@ checkHighlighted
 toolId
 )
 {
-let
+const
 tab
 =
 toolbox
@@ -637,7 +637,7 @@ checkNoHighlightWhenSelected
 toolId
 )
 {
-let
+const
 tab
 =
 toolbox
@@ -718,7 +718,7 @@ checkNoHighlight
 toolId
 )
 {
-let
+const
 tab
 =
 toolbox

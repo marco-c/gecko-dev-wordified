@@ -217,7 +217,7 @@ render
 (
 )
 {
-let
+const
 {
 panels
 selectedPanelId
@@ -228,7 +228,7 @@ this
 .
 props
 ;
-let
+const
 panelLinks
 =
 panels
@@ -245,7 +245,7 @@ icon
 =
 >
 {
-let
+const
 selected
 =
 id

@@ -63,7 +63,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 front
@@ -75,7 +75,7 @@ initBackend
 SIMPLE_CONTEXT_URL
 )
 ;
-let
+const
 [
 _
 [
@@ -151,7 +151,7 @@ t7
 =
 1
 ;
-let
+const
 curve
 =
 [
@@ -338,7 +338,7 @@ t6
 ]
 )
 ;
-let
+const
 {
 events
 values

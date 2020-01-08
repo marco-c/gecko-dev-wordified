@@ -55,7 +55,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -67,7 +67,7 @@ initNetMonitor
 CORS_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -78,7 +78,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -98,7 +98,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -133,7 +133,7 @@ false
 )
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -152,7 +152,7 @@ request
 "
 )
 ;
-let
+const
 requestUrl
 =
 "

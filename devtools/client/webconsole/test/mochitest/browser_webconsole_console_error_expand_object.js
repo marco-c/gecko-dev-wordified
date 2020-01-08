@@ -125,7 +125,7 @@ function
 (
 )
 {
-let
+const
 toolbox
 =
 await
@@ -137,7 +137,7 @@ webconsole
 "
 )
 ;
-let
+const
 hud
 =
 toolbox
@@ -207,7 +207,7 @@ node
 await
 onMessagesLogged
 ;
-let
+const
 objectInspectors
 =
 [

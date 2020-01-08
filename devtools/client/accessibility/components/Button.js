@@ -266,7 +266,7 @@ render
 (
 )
 {
-let
+const
 className
 =
 [
@@ -297,7 +297,7 @@ join
 "
 )
 ;
-let
+const
 props
 =
 Object
@@ -325,7 +325,7 @@ busy
 }
 )
 ;
-let
+const
 classList
 =
 [

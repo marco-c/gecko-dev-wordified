@@ -105,8 +105,8 @@ panel
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -121,12 +121,12 @@ started
 "
 )
 ;
-let
+const
 {
 panel
 }
 =
-yield
+await
 addTestTab
 (
 TEST_PAGE_URL
@@ -144,7 +144,7 @@ children
 are
 displayed
 .
-yield
+await
 expandRow
 (
 panel
@@ -162,7 +162,7 @@ is
 displayed
 now
 .
-let
+const
 childRow
 =
 getRowByLabel

@@ -290,7 +290,7 @@ y
 0
 }
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -372,14 +372,14 @@ _buildMarkup
 (
 )
 {
-let
+const
 prefix
 =
 this
 .
 ID_CLASS_PREFIX
 ;
-let
+const
 {
 window
 }
@@ -388,7 +388,7 @@ this
 .
 env
 ;
-let
+const
 container
 =
 createNode
@@ -411,7 +411,7 @@ container
 }
 )
 ;
-let
+const
 root
 =
 createNode
@@ -450,7 +450,7 @@ prefix
 }
 )
 ;
-let
+const
 svg
 =
 createSVGNode
@@ -618,7 +618,7 @@ them
 /
 /
 around
-let
+const
 g
 =
 createSVGNode
@@ -702,7 +702,7 @@ prefix
 ;
 for
 (
-let
+const
 side
 of
 SIDES
@@ -758,7 +758,7 @@ _update
 (
 )
 {
-let
+const
 {
 window
 }
@@ -772,7 +772,7 @@ setIgnoreLayoutChanges
 true
 )
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -780,7 +780,7 @@ getCurrentZoom
 window
 )
 ;
-let
+const
 {
 width
 height
@@ -791,14 +791,14 @@ getWindowDimensions
 window
 )
 ;
-let
+const
 {
 coords
 }
 =
 this
 ;
-let
+const
 isZoomChanged
 =
 zoom
@@ -827,7 +827,7 @@ updateLabel
 )
 ;
 }
-let
+const
 isDocumentSizeChanged
 =
 width
@@ -988,7 +988,7 @@ _cancelUpdate
 (
 )
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -1240,7 +1240,7 @@ w
 h
 )
 {
-let
+const
 {
 coords
 }
@@ -1367,7 +1367,7 @@ updatePaths
 (
 )
 {
-let
+const
 {
 x
 y
@@ -1379,7 +1379,7 @@ this
 .
 coords
 ;
-let
+const
 dir
 =
 M0
@@ -1423,7 +1423,7 @@ main
 rectangle
 area
 .
-let
+const
 x1
 =
 w
@@ -1436,7 +1436,7 @@ w
 :
 0
 ;
-let
+const
 y1
 =
 w
@@ -1455,7 +1455,7 @@ h
 :
 0
 ;
-let
+const
 w1
 =
 w
@@ -1477,7 +1477,7 @@ w
 0
 )
 ;
-let
+const
 h1
 =
 h
@@ -1500,7 +1500,7 @@ w
 0
 )
 ;
-let
+const
 linedir
 =
 M
@@ -1604,7 +1604,7 @@ size
 position
 "
 ;
-let
+const
 isSizeLabel
 =
 type
@@ -1615,7 +1615,7 @@ type
 size
 "
 ;
-let
+const
 label
 =
 this
@@ -1637,7 +1637,7 @@ top
 left
 "
 ;
-let
+const
 {
 innerWidth
 innerHeight
@@ -1664,7 +1664,7 @@ this
 .
 coords
 ;
-let
+const
 scale
 =
 1
@@ -1729,7 +1729,7 @@ labelHeight
 =
 LABEL_SIZE_HEIGHT
 ;
-let
+const
 d
 =
 Math
@@ -1815,7 +1815,7 @@ position
 properly
 the
 label
-let
+const
 labelBoxWidth
 =
 (
@@ -1826,7 +1826,7 @@ labelMargin
 *
 scale
 ;
-let
+const
 labelBoxHeight
 =
 (
@@ -1837,14 +1837,14 @@ labelMargin
 *
 scale
 ;
-let
+const
 isGoingLeft
 =
 w
 <
 scrollX
 ;
-let
+const
 isSizeGoingLeft
 =
 isSizeLabel
@@ -1852,7 +1852,7 @@ isSizeLabel
 &
 isGoingLeft
 ;
-let
+const
 isExceedingLeftMargin
 =
 x
@@ -1861,7 +1861,7 @@ labelBoxWidth
 <
 scrollX
 ;
-let
+const
 isExceedingRightMargin
 =
 x
@@ -1872,7 +1872,7 @@ innerWidth
 +
 scrollX
 ;
-let
+const
 isExceedingTopMargin
 =
 y
@@ -1881,7 +1881,7 @@ labelBoxHeight
 <
 scrollY
 ;
-let
+const
 isExceedingBottomMargin
 =
 y
@@ -2018,7 +2018,7 @@ if
 isSizeLabel
 )
 {
-let
+const
 labelSize
 =
 this
@@ -2032,7 +2032,7 @@ size
 "
 )
 ;
-let
+const
 style
 =
 labelSize
@@ -2086,7 +2086,7 @@ updateViewport
 (
 )
 {
-let
+const
 {
 devicePixelRatio
 }
@@ -2097,7 +2097,7 @@ env
 .
 window
 ;
-let
+const
 {
 documentWidth
 documentHeight
@@ -2139,7 +2139,7 @@ need
 divide
 by
 zoom
-let
+const
 pixelRatio
 =
 devicePixelRatio
@@ -2192,14 +2192,14 @@ would
 be
 1
 .
-let
+const
 minWidth
 =
 1
 /
 pixelRatio
 ;
-let
+const
 strokeWidth
 =
 minWidth
@@ -2249,7 +2249,7 @@ updateGuides
 (
 )
 {
-let
+const
 {
 x
 y
@@ -2592,7 +2592,7 @@ showGuides
 (
 )
 {
-let
+const
 prefix
 =
 this
@@ -2606,7 +2606,7 @@ guide
 ;
 for
 (
-let
+const
 side
 of
 SIDES
@@ -2634,7 +2634,7 @@ hideGuides
 (
 )
 {
-let
+const
 prefix
 =
 this
@@ -2648,7 +2648,7 @@ guide
 ;
 for
 (
-let
+const
 side
 of
 SIDES
@@ -2690,7 +2690,7 @@ let
 x
 y
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -2727,7 +2727,7 @@ _isDragging
 =
 true
 ;
-let
+const
 {
 window
 }
@@ -2986,7 +2986,7 @@ clientY
 +
 scrollY
 ;
-let
+const
 {
 coords
 }
@@ -3045,7 +3045,7 @@ coords
 y
 )
 ;
-let
+const
 type
 =
 this

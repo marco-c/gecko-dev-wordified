@@ -143,7 +143,7 @@ hud
 true
 )
 ;
-let
+const
 filterState
 =
 await
@@ -159,7 +159,7 @@ defaults
 .
 for
 (
-let
+const
 category
 of
 [
@@ -181,7 +181,7 @@ debug
 ]
 )
 {
-let
+const
 state
 =
 filterState
@@ -207,7 +207,7 @@ default
 }
 for
 (
-let
+const
 category
 of
 [
@@ -223,7 +223,7 @@ netxhr
 ]
 )
 {
-let
+const
 state
 =
 filterState
@@ -408,7 +408,7 @@ testFilterPersistence
 (
 )
 {
-let
+const
 hud
 =
 await

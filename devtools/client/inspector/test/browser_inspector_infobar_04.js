@@ -96,7 +96,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -108,7 +108,7 @@ openInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 testData
 =
 {
@@ -225,7 +225,7 @@ the
 correct
 one
 .
-let
+const
 id
 =
 await
@@ -260,7 +260,7 @@ selected
 .
 )
 ;
-let
+const
 dims
 =
 await

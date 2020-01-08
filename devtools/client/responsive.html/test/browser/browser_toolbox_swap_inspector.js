@@ -60,7 +60,7 @@ com
 /
 "
 ;
-let
+const
 checkToolbox
 =
 async
@@ -70,7 +70,7 @@ tab
 location
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -106,7 +106,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -126,7 +126,7 @@ RDM
 )
 ;
 {
-let
+const
 {
 toolbox
 inspector
@@ -236,7 +236,7 @@ RDM
 )
 ;
 {
-let
+const
 {
 ui
 }
@@ -247,7 +247,7 @@ openRDM
 tab
 )
 ;
-let
+const
 {
 toolbox
 inspector

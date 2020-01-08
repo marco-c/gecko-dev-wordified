@@ -909,7 +909,7 @@ run_test
 {
 for
 (
-let
+const
 {
 tagName
 namespaceURI
@@ -949,7 +949,7 @@ attributeValue
 "
 )
 ;
-let
+const
 attributes
 =
 [
@@ -971,7 +971,7 @@ attributeValue
 }
 ]
 ;
-let
+const
 tokens
 =
 parseAttribute

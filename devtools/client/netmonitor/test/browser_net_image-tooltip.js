@@ -82,7 +82,7 @@ test
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -105,7 +105,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -117,7 +117,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -137,14 +137,14 @@ index
 "
 )
 ;
-let
+const
 {
 triggerActivity
 }
 =
 connector
 ;
-let
+const
 {
 ACTIVITY_TYPE
 }
@@ -164,7 +164,7 @@ constants
 "
 )
 ;
-let
+const
 toolboxDoc
 =
 monitor
@@ -309,7 +309,7 @@ item
 extra
 document
 reload
-let
+const
 onEvents
 =
 waitForNetworkEvents
@@ -430,7 +430,7 @@ widget
 "
 )
 ;
-let
+const
 requestsListContents
 =
 document
@@ -530,7 +530,7 @@ showTooltipAndVerify
 target
 )
 {
-let
+const
 anchor
 =
 target
@@ -635,7 +635,7 @@ showTooltipOn
 element
 )
 {
-let
+const
 win
 =
 element
@@ -722,7 +722,7 @@ hides
 the
 tooltip
 .
-let
+const
 anchor
 =
 target
@@ -739,7 +739,7 @@ method
 "
 )
 ;
-let
+const
 win
 =
 anchor

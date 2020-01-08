@@ -75,7 +75,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -94,7 +94,7 @@ html
 "
 )
 ;
-let
+const
 a11yWalker
 =
 await
@@ -111,7 +111,7 @@ enable
 (
 )
 ;
-let
+const
 rootNode
 =
 await
@@ -121,7 +121,7 @@ getRootNode
 (
 )
 ;
-let
+const
 a11yDoc
 =
 await
@@ -132,7 +132,7 @@ getAccessibleFor
 rootNode
 )
 ;
-let
+const
 buttonNode
 =
 await
@@ -149,7 +149,7 @@ button
 "
 )
 ;
-let
+const
 accessibleFront
 =
 await
@@ -160,7 +160,7 @@ getAccessibleFor
 buttonNode
 )
 ;
-let
+const
 sliderNode
 =
 await
@@ -177,7 +177,7 @@ slider
 "
 )
 ;
-let
+const
 accessibleSliderFront
 =
 await
@@ -188,7 +188,7 @@ getAccessibleFor
 sliderNode
 )
 ;
-let
+const
 browser
 =
 gBrowser
@@ -504,7 +504,7 @@ event
 "
 )
 ;
-let
+const
 expectedStates
 =
 [
@@ -892,7 +892,7 @@ child
 "
 )
 ;
-let
+const
 [
 firstChild
 ]
@@ -998,14 +998,14 @@ null
 =
 >
 {
-let
+const
 doc
 =
 content
 .
 document
 ;
-let
+const
 slider
 =
 doc
@@ -1017,7 +1017,7 @@ slider
 "
 )
 ;
-let
+const
 button
 =
 doc

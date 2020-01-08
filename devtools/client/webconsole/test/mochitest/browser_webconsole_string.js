@@ -120,7 +120,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -142,7 +142,7 @@ argument
 "
 )
 ;
-let
+const
 receivedMessages
 =
 waitForMessages
@@ -212,7 +212,7 @@ constant
 "
 )
 ;
-let
+const
 jsterm
 =
 hud
@@ -236,7 +236,7 @@ nconstant
 "
 )
 ;
-let
+const
 msg
 =
 await
@@ -255,7 +255,7 @@ constant
 )
 )
 ;
-let
+const
 body
 =
 msg

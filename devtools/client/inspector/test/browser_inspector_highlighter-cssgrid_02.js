@@ -144,7 +144,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -173,14 +173,14 @@ TEST_URL
 )
 )
 ;
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -206,7 +206,7 @@ container
 "
 )
 ;
-let
+const
 node
 =
 await

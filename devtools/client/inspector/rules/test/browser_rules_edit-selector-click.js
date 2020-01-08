@@ -144,7 +144,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -194,7 +194,7 @@ input
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -219,7 +219,7 @@ view
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -231,7 +231,7 @@ ruleEditor
 selectorText
 )
 ;
-let
+const
 editorInput
 =
 editor
@@ -267,7 +267,7 @@ input
 "
 )
 ;
-let
+const
 onClick
 =
 once
@@ -344,7 +344,7 @@ input
 "
 )
 ;
-let
+const
 onDoubleClick
 =
 once
@@ -424,7 +424,7 @@ input
 "
 )
 ;
-let
+const
 onBlur
 =
 once
@@ -435,7 +435,7 @@ blur
 "
 )
 ;
-let
+const
 rect
 =
 editorInput

@@ -706,7 +706,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -719,7 +719,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -728,7 +728,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 StorageFront
@@ -737,7 +737,7 @@ client
 form
 )
 ;
-let
+const
 data
 =
 await
@@ -839,7 +839,7 @@ data
 {
 for
 (
-let
+const
 storageType
 in
 beforeReload
@@ -898,7 +898,7 @@ match
 ;
 for
 (
-let
+const
 host
 in
 beforeReload
@@ -949,7 +949,7 @@ properly
 "
 )
 ;
-let
+const
 update
 =
 front
@@ -976,14 +976,14 @@ secured
 =
 >
 {
-let
+const
 doc
 =
 content
 .
 document
 ;
-let
+const
 iframe
 =
 doc
@@ -1028,7 +1028,7 @@ iframe
 }
 )
 ;
-let
+const
 data
 =
 await
@@ -1063,7 +1063,7 @@ properly
 "
 )
 ;
-let
+const
 update
 =
 front
@@ -1094,7 +1094,7 @@ selectedBrowser
 {
 for
 (
-let
+const
 iframe
 of
 content
@@ -1137,7 +1137,7 @@ break
 }
 )
 ;
-let
+const
 data
 =
 await
@@ -1171,7 +1171,7 @@ category
 {
 for
 (
-let
+const
 cat
 of
 [
@@ -1238,7 +1238,7 @@ cat
 }
 for
 (
-let
+const
 [
 type
 expectedData
@@ -1252,7 +1252,7 @@ expected
 )
 )
 {
-let
+const
 actualData
 =
 category
@@ -1281,7 +1281,7 @@ data
 .
 )
 ;
-let
+const
 actualKeys
 =
 Object
@@ -1291,7 +1291,7 @@ keys
 actualData
 )
 ;
-let
+const
 expectedKeys
 =
 Object
@@ -1322,7 +1322,7 @@ length
 ;
 for
 (
-let
+const
 [
 key
 dataValues
@@ -1357,7 +1357,7 @@ key
 ;
 for
 (
-let
+const
 dataValue
 of
 dataValues

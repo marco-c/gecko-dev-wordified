@@ -116,7 +116,7 @@ function
 (
 )
 {
-let
+const
 TESTS
 =
 [
@@ -154,7 +154,7 @@ rgb
 ;
 for
 (
-let
+const
 {
 name
 result
@@ -188,7 +188,7 @@ defaultColorUnit
 name
 )
 ;
-let
+const
 tab
 =
 await
@@ -214,7 +214,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -243,7 +243,7 @@ name
 result
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -280,7 +280,7 @@ name
 result
 )
 {
-let
+const
 cPicker
 =
 view
@@ -294,7 +294,7 @@ colorPicker
 "
 )
 ;
-let
+const
 swatch
 =
 getRuleViewProperty
@@ -321,7 +321,7 @@ colorswatch
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 cPicker
@@ -378,14 +378,14 @@ rgb
 }
 )
 ;
-let
+const
 spectrum
 =
 cPicker
 .
 spectrum
 ;
-let
+const
 onHidden
 =
 cPicker
@@ -412,7 +412,7 @@ the
 rule
 view
 twice
-let
+const
 onRuleViewChanged
 =
 waitForNEvents

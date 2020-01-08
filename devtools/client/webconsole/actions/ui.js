@@ -366,7 +366,7 @@ getState
 =
 >
 {
-let
+const
 {
 parameters
 }
@@ -391,7 +391,7 @@ parameters
 {
 for
 (
-let
+const
 parameter
 of
 parameters

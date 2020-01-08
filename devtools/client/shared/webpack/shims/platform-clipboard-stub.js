@@ -80,7 +80,7 @@ copyString
 string
 )
 {
-let
+const
 doCopy
 =
 function

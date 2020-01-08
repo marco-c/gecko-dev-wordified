@@ -145,7 +145,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -311,7 +311,7 @@ valueSpan
 await
 onHighlighterShown
 ;
-let
+const
 onComputedViewReady
 =
 inspector
@@ -327,7 +327,7 @@ refreshed
 "
 )
 ;
-let
+const
 cView
 =
 selectComputedView

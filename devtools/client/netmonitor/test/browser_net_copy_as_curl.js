@@ -52,7 +52,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -569,7 +569,7 @@ bug
 #
 1420513
 )
-let
+const
 waitSlow
 =
 waitForNetworkEvents
@@ -716,7 +716,7 @@ method
 payload
 )
 {
-let
+const
 waitRequest
 =
 waitForNetworkEvents
@@ -779,7 +779,7 @@ testClipboardContent
 expectedResult
 )
 {
-let
+const
 {
 document
 }
@@ -869,7 +869,7 @@ always
 visible
 *
 /
-let
+const
 copyUrlParamsNode
 =
 monitor
@@ -1065,7 +1065,7 @@ s
 '
 "
 ]
-let
+const
 matchRe
 =
 /
@@ -1109,7 +1109,7 @@ z1
 /
 g
 ;
-let
+const
 actual
 =
 result

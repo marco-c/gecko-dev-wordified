@@ -174,7 +174,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -216,7 +216,7 @@ field
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -253,7 +253,7 @@ field
 ;
 for
 (
-let
+const
 key
 of
 "
@@ -261,7 +261,7 @@ background
 "
 )
 {
-let
+const
 onSuggest
 =
 editor
@@ -296,7 +296,7 @@ itemIndex
 =
 4
 ;
-let
+const
 bgcItem
 =
 editor
@@ -357,7 +357,7 @@ click
 "
 )
 ;
-let
+const
 onSuggest
 =
 editor
@@ -371,7 +371,7 @@ suggest
 "
 )
 ;
-let
+const
 node
 =
 editor
@@ -491,7 +491,7 @@ styleDocument
 activeElement
 )
 ;
-let
+const
 textProp
 =
 ruleEditor

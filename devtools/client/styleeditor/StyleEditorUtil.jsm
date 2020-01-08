@@ -274,7 +274,7 @@ name
 )
 ;
 }
-let
+const
 rest
 =
 Array
@@ -382,7 +382,7 @@ if
 expression
 )
 {
-let
+const
 msg
 =
 message
@@ -502,7 +502,7 @@ selector
 textContent
 )
 {
-let
+const
 element
 =
 root
@@ -587,7 +587,7 @@ callback
 {
 for
 (
-let
+const
 key
 in
 object
@@ -941,7 +941,7 @@ i
 +
 )
 {
-let
+const
 element
 =
 matches
@@ -1142,7 +1142,7 @@ file
 "
 )
 {
-let
+const
 uri
 =
 Services
@@ -1154,7 +1154,7 @@ newURI
 path
 )
 ;
-let
+const
 file
 =
 uri
@@ -1192,7 +1192,7 @@ return
 }
 try
 {
-let
+const
 file
 =
 Cc
@@ -1267,7 +1267,7 @@ path
 return
 ;
 }
-let
+const
 fp
 =
 Cc
@@ -1290,7 +1290,7 @@ Ci
 nsIFilePicker
 )
 ;
-let
+const
 mode
 =
 toSave
@@ -1303,7 +1303,7 @@ fp
 .
 modeOpen
 ;
-let
+const
 key
 =
 toSave
@@ -1316,7 +1316,7 @@ saveStyleSheet
 importStyleSheet
 "
 ;
-let
+const
 fpCallback
 =
 function

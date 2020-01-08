@@ -60,7 +60,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 front
@@ -72,13 +72,13 @@ initBackend
 AUTOMATION_URL
 )
 ;
-let
+const
 events
 =
 [
 ]
 ;
-let
+const
 expected
 =
 [
@@ -142,7 +142,7 @@ event
 onAutomationEvent
 )
 ;
-let
+const
 [
 _
 __
@@ -224,7 +224,7 @@ onAutomationEvent
 e
 )
 {
-let
+const
 {
 eventName
 paramName
@@ -233,7 +233,7 @@ args
 =
 e
 ;
-let
+const
 exp
 =
 expected

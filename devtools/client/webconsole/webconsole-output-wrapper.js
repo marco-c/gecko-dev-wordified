@@ -506,7 +506,7 @@ a
 link
 was
 clicked
-let
+const
 target
 =
 event
@@ -618,7 +618,7 @@ if
 something
 is
 selected
-let
+const
 selection
 =
 this
@@ -673,7 +673,7 @@ focus
 }
 )
 ;
-let
+const
 {
 hud
 }
@@ -880,7 +880,7 @@ message
 =
 >
 {
-let
+const
 {
 screenX
 screenY
@@ -889,7 +889,7 @@ target
 =
 e
 ;
-let
+const
 messageEl
 =
 target
@@ -902,7 +902,7 @@ message
 "
 )
 ;
-let
+const
 clipboardText
 =
 messageEl
@@ -913,7 +913,7 @@ textContent
 :
 null
 ;
-let
+const
 messageVariable
 =
 target
@@ -941,7 +941,7 @@ commands
 are
 not
 captured
-let
+const
 variableText
 =
 (
@@ -994,7 +994,7 @@ from
 the
 DOM
 .
-let
+const
 actorEl
 =
 target
@@ -1032,7 +1032,7 @@ id
 "
 )
 ;
-let
+const
 actor
 =
 actorEl
@@ -1045,7 +1045,7 @@ linkActorId
 :
 null
 ;
-let
+const
 rootObjectInspector
 =
 target
@@ -1060,7 +1060,7 @@ inspector
 "
 )
 ;
-let
+const
 rootActor
 =
 rootObjectInspector
@@ -1084,7 +1084,7 @@ id
 :
 null
 ;
-let
+const
 rootActorId
 =
 rootActor
@@ -1097,7 +1097,7 @@ linkActorId
 :
 null
 ;
-let
+const
 sidebarTogglePref
 =
 store
@@ -1110,7 +1110,7 @@ prefs
 .
 sidebarToggle
 ;
-let
+const
 openSidebar
 =
 sidebarTogglePref
@@ -1138,7 +1138,7 @@ messageId
 :
 null
 ;
-let
+const
 menu
 =
 createContextMenu
@@ -1445,7 +1445,7 @@ grip
 =
 >
 {
-let
+const
 onSelectInspector
 =
 this
@@ -1459,7 +1459,7 @@ inspector
 "
 )
 ;
-let
+const
 onGripNodeToFront
 =
 this
@@ -1473,7 +1473,7 @@ gripToNodeFront
 grip
 )
 ;
-let
+const
 [
 front
 inspector
@@ -1490,7 +1490,7 @@ onSelectInspector
 ]
 )
 ;
-let
+const
 onInspectorUpdated
 =
 inspector
@@ -1504,7 +1504,7 @@ updated
 "
 )
 ;
-let
+const
 onNodeFrontSet
 =
 this
@@ -1585,7 +1585,7 @@ root
 Application
 component
 .
-let
+const
 provider
 =
 createElement
@@ -1757,7 +1757,7 @@ messages
 {
 for
 (
-let
+const
 m
 of
 messages

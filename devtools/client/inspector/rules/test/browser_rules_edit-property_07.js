@@ -155,7 +155,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -176,7 +176,7 @@ testid
 inspector
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -187,7 +187,7 @@ view
 .
 rule
 ;
-let
+const
 prop
 =
 rule
@@ -233,7 +233,7 @@ disabled
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -247,7 +247,7 @@ editor
 valueSpan
 )
 ;
-let
+const
 onDone
 =
 view
@@ -371,7 +371,7 @@ set
 "
 )
 ;
-let
+const
 propEditor
 =
 rule

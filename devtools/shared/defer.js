@@ -160,7 +160,7 @@ let
 resolve
 reject
 ;
-let
+const
 promise
 =
 new

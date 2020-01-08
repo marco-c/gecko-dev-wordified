@@ -673,7 +673,7 @@ function
 target
 )
 {
-let
+const
 config
 =
 [
@@ -883,7 +883,7 @@ getAnimationTypes
 }
 ]
 ;
-let
+const
 traits
 =
 {
@@ -891,7 +891,7 @@ traits
 ;
 for
 (
-let
+const
 {
 name
 actor
@@ -1139,7 +1139,7 @@ bind
 this
 )
 ;
-let
+const
 target
 =
 gInspector
@@ -1662,7 +1662,7 @@ selection
 .
 nodeFront
 ;
-let
+const
 done
 =
 gInspector
@@ -1944,7 +1944,7 @@ synchronization
 .
 for
 (
-let
+const
 player
 of
 this
@@ -2093,7 +2093,7 @@ synchronization
 .
 for
 (
-let
+const
 animation
 of
 this
@@ -2232,7 +2232,7 @@ individually
 .
 for
 (
-let
+const
 animation
 of
 this
@@ -2403,7 +2403,7 @@ added
 .
 for
 (
-let
+const
 {
 type
 player
@@ -2444,7 +2444,7 @@ removed
 "
 )
 {
-let
+const
 index
 =
 this
@@ -2620,7 +2620,7 @@ time
 ;
 for
 (
-let
+const
 {
 state
 }

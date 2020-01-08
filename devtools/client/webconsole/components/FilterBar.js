@@ -1251,7 +1251,7 @@ are
 hiding
 messages
 .
-let
+const
 title
 =
 DEFAULT_FILTERS
@@ -1412,7 +1412,7 @@ this
 .
 props
 ;
-let
+const
 children
 =
 [
@@ -1795,7 +1795,7 @@ mapStateToProps
 state
 )
 {
-let
+const
 uiState
 =
 getAllUi

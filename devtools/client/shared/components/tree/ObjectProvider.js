@@ -172,7 +172,7 @@ component
 .
 *
 /
-let
+const
 ObjectProvider
 =
 {
@@ -183,7 +183,7 @@ function
 object
 )
 {
-let
+const
 children
 =
 [
@@ -234,7 +234,7 @@ return
 }
 for
 (
-let
+const
 prop
 in
 object

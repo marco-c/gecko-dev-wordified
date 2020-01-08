@@ -344,7 +344,7 @@ _onResize
 ;
 for
 (
-let
+const
 el
 of
 (
@@ -463,7 +463,7 @@ _onCommandClick
 ;
 for
 (
-let
+const
 el
 of
 (
@@ -826,7 +826,7 @@ function
 (
 )
 {
-let
+const
 node
 =
 this
@@ -835,14 +835,14 @@ getCurrentAudioNode
 (
 )
 ;
-let
+const
 bypassable
 =
 node
 .
 bypassable
 ;
-let
+const
 bypassed
 =
 node
@@ -851,7 +851,7 @@ isBypassed
 (
 )
 ;
-let
+const
 button
 =
 (
@@ -1139,7 +1139,7 @@ function
 e
 )
 {
-let
+const
 node
 =
 this
@@ -1148,14 +1148,14 @@ getCurrentAudioNode
 (
 )
 ;
-let
+const
 button
 =
 e
 .
 target
 ;
-let
+const
 command
 =
 button
@@ -1169,7 +1169,7 @@ command
 "
 )
 ;
-let
+const
 checked
 =
 button

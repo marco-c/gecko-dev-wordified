@@ -243,7 +243,7 @@ render
 (
 )
 {
-let
+const
 {
 devices
 viewport

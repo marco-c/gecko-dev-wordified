@@ -149,7 +149,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -223,7 +223,7 @@ update
 "
 )
 ;
-let
+const
 onUpdated
 =
 inspector
@@ -282,7 +282,7 @@ uppercase
 await
 onUpdated
 ;
-let
+const
 textAlign
 =
 getRuleViewPropertyValue
@@ -317,7 +317,7 @@ align
 "
 )
 ;
-let
+const
 color
 =
 getRuleViewPropertyValue
@@ -383,7 +383,7 @@ size
 "
 )
 ;
-let
+const
 textTransform
 =
 getRuleViewPropertyValue

@@ -171,7 +171,7 @@ event
 packet
 )
 {
-let
+const
 args
 =
 packet
@@ -180,7 +180,7 @@ frame
 .
 arguments
 ;
-let
+const
 objActor
 =
 args

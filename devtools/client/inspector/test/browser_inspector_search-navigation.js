@@ -566,7 +566,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -587,7 +587,7 @@ panelWin
 ;
 for
 (
-let
+const
 [
 key
 query
@@ -616,7 +616,7 @@ as
 query
 )
 ;
-let
+const
 done
 =
 inspector

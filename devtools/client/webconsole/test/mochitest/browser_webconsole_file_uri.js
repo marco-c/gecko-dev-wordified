@@ -152,7 +152,7 @@ PREF
 true
 )
 ;
-let
+const
 jar
 =
 getJar
@@ -163,7 +163,7 @@ gTestPath
 )
 )
 ;
-let
+const
 dir
 =
 jar
@@ -188,7 +188,7 @@ append
 TEST_FILE
 )
 ;
-let
+const
 uri
 =
 Services
@@ -237,7 +237,7 @@ same
 web
 console
 .
-let
+const
 remoteType
 =
 E10SUtils
@@ -250,7 +250,7 @@ spec
 gMultiProcessBrowser
 )
 ;
-let
+const
 {
 browser
 }
@@ -281,7 +281,7 @@ clearOutput
 (
 )
 ;
-let
+const
 loaded
 =
 loadBrowser

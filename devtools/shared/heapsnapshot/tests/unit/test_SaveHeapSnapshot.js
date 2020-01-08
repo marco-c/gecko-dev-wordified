@@ -505,7 +505,7 @@ testGoodParameters
 (
 )
 {
-let
+const
 sandbox
 =
 makeNewSandbox
@@ -558,7 +558,7 @@ Debugger
 (
 )
 ;
-let
+const
 sandboxes
 =
 Array

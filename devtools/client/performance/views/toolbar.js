@@ -137,14 +137,8 @@ binding
 .
 *
 /
-initialize
-:
-Task
-.
 async
-(
-function
-*
+initialize
 (
 )
 {
@@ -258,7 +252,7 @@ ui
 .
 experimental
 preference
-let
+const
 experimentalEnabled
 =
 PerformanceController
@@ -277,7 +271,7 @@ _toggleExperimentalUI
 experimentalEnabled
 )
 ;
-yield
+await
 this
 .
 optionsView
@@ -357,7 +351,6 @@ _onFilterPopupHiding
 )
 ;
 }
-)
 /
 *
 *
@@ -471,7 +464,7 @@ function
 {
 for
 (
-let
+const
 [
 markerName
 markerDetails
@@ -485,7 +478,7 @@ TIMELINE_BLUEPRINT
 )
 )
 {
-let
+const
 menuitem
 =
 document
@@ -641,7 +634,7 @@ function
 (
 )
 {
-let
+const
 menuItems
 =
 (
@@ -661,7 +654,7 @@ type
 "
 )
 ;
-let
+const
 hiddenMarkers
 =
 PerformanceController
@@ -677,7 +670,7 @@ markers
 ;
 for
 (
-let
+const
 menuitem
 of
 menuItems
@@ -1040,7 +1033,7 @@ function
 (
 )
 {
-let
+const
 checkedMenuItems
 =
 (
@@ -1067,7 +1060,7 @@ checked
 "
 )
 ;
-let
+const
 hiddenMarkers
 =
 Array
@@ -1132,7 +1125,7 @@ function
 prefName
 )
 {
-let
+const
 value
 =
 PerformanceController

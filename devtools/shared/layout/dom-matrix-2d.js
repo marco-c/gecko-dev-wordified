@@ -473,7 +473,7 @@ angle
 =
 >
 {
-let
+const
 cos
 =
 Math
@@ -483,7 +483,7 @@ cos
 angle
 )
 ;
-let
+const
 sin
 =
 Math
@@ -624,7 +624,7 @@ M2
 =
 >
 {
-let
+const
 c11
 =
 M1
@@ -657,7 +657,7 @@ M2
 6
 ]
 ;
-let
+const
 c12
 =
 M1
@@ -690,7 +690,7 @@ M2
 7
 ]
 ;
-let
+const
 c13
 =
 M1
@@ -723,7 +723,7 @@ M2
 8
 ]
 ;
-let
+const
 c21
 =
 M1
@@ -756,7 +756,7 @@ M2
 6
 ]
 ;
-let
+const
 c22
 =
 M1
@@ -789,7 +789,7 @@ M2
 7
 ]
 ;
-let
+const
 c23
 =
 M1
@@ -822,7 +822,7 @@ M2
 8
 ]
 ;
-let
+const
 c31
 =
 M1
@@ -855,7 +855,7 @@ M2
 6
 ]
 ;
-let
+const
 c32
 =
 M1
@@ -888,7 +888,7 @@ M2
 7
 ]
 ;
-let
+const
 c33
 =
 M1
@@ -1342,7 +1342,7 @@ v
 =
 >
 {
-let
+const
 uLength
 =
 Math
@@ -1371,7 +1371,7 @@ u
 )
 )
 ;
-let
+const
 vLength
 =
 Math
@@ -1400,7 +1400,7 @@ v
 )
 )
 ;
-let
+const
 basis
 =
 [
@@ -1435,7 +1435,7 @@ vLength
 1
 ]
 ;
-let
+const
 determinant
 =
 1
@@ -1462,7 +1462,7 @@ basis
 ]
 )
 ;
-let
+const
 invertedBasis
 =
 [
@@ -1714,7 +1714,7 @@ node
 parentElement
 )
 {
-let
+const
 {
 a
 b
@@ -1878,7 +1878,7 @@ identity
 (
 )
 ;
-let
+const
 {
 width
 height
@@ -1886,7 +1886,7 @@ height
 =
 size
 ;
-let
+const
 {
 direction
 writingMode
@@ -2241,7 +2241,7 @@ getCSSMatrixTransform
 M
 )
 {
-let
+const
 [
 a
 c

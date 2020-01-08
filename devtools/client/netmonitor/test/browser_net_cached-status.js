@@ -79,7 +79,7 @@ enabled
 false
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -103,7 +103,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -114,7 +114,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -134,7 +134,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -534,13 +534,13 @@ index
 ;
 for
 (
-let
+const
 request
 of
 REQUEST_DATA
 )
 {
-let
+const
 requestItem
 =
 document
@@ -566,7 +566,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem
@@ -671,7 +671,7 @@ performRequestsAndWait
 (
 )
 {
-let
+const
 wait
 =
 waitForNetworkEvents

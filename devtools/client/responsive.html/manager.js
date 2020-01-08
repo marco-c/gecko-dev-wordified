@@ -640,7 +640,7 @@ options
 }
 )
 {
-let
+const
 action
 =
 this
@@ -658,7 +658,7 @@ close
 open
 "
 ;
-let
+const
 completed
 =
 this
@@ -1079,7 +1079,7 @@ trigger
 1
 )
 ;
-let
+const
 ui
 =
 new
@@ -1801,7 +1801,7 @@ initMenuCheckListenerFor
 window
 )
 {
-let
+const
 {
 tabContainer
 }
@@ -1845,7 +1845,7 @@ gBrowser
 tabContainer
 )
 {
-let
+const
 {
 tabContainer
 }
@@ -1885,7 +1885,7 @@ startup
 window
 )
 ;
-let
+const
 menu
 =
 window
@@ -2387,7 +2387,7 @@ start
 "
 )
 ;
-let
+const
 ui
 =
 this
@@ -2476,7 +2476,7 @@ getInnerBrowser
 containerBrowser
 )
 {
-let
+const
 toolWindow
 =
 ui
@@ -2828,7 +2828,7 @@ close
 the
 tab
 .
-let
+const
 isWindowClosing
 =
 options
@@ -2844,7 +2844,7 @@ reason
 unload
 "
 ;
-let
+const
 isTabContentDestroying
 =
 isWindowClosing
@@ -3095,7 +3095,7 @@ reload
 Destroy
 local
 state
-let
+const
 swap
 =
 this
@@ -3170,7 +3170,7 @@ shutdown
 client
 side
 .
-let
+const
 clientClosed
 =
 this
@@ -3278,7 +3278,7 @@ connect
 (
 )
 ;
-let
+const
 {
 tab
 }
@@ -3399,7 +3399,7 @@ showReloadNotification
 (
 )
 ;
-let
+const
 pref
 =
 RELOAD_CONDITION_PREF_PREFIX
@@ -3423,7 +3423,7 @@ handleEvent
 event
 )
 {
-let
+const
 {
 browserWindow
 tab
@@ -3645,7 +3645,7 @@ onChangeDevice
 event
 )
 {
-let
+const
 {
 userAgent
 pixelRatio
@@ -3752,7 +3752,7 @@ onChangeNetworkThrottling
 event
 )
 {
-let
+const
 {
 enabled
 profile
@@ -3795,7 +3795,7 @@ onChangePixelRatio
 event
 )
 {
-let
+const
 {
 pixelRatio
 }
@@ -3818,7 +3818,7 @@ onChangeTouchSimulation
 event
 )
 {
-let
+const
 {
 enabled
 }
@@ -3827,7 +3827,7 @@ event
 .
 data
 ;
-let
+const
 reloadNeeded
 =
 await
@@ -3888,7 +3888,7 @@ onContentResize
 event
 )
 {
-let
+const
 {
 width
 height
@@ -3918,7 +3918,7 @@ onExit
 (
 )
 {
-let
+const
 {
 browserWindow
 tab
@@ -4178,7 +4178,7 @@ return
 false
 ;
 }
-let
+const
 data
 =
 throttlingProfiles
@@ -4198,7 +4198,7 @@ id
 profile
 )
 ;
-let
+const
 {
 download
 upload

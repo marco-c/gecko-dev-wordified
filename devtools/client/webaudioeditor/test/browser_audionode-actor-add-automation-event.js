@@ -47,7 +47,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 front
@@ -59,7 +59,7 @@ initBackend
 SIMPLE_CONTEXT_URL
 )
 ;
-let
+const
 [
 _
 [
@@ -102,7 +102,7 @@ count
 =
 0
 ;
-let
+const
 counter
 =
 (
@@ -163,7 +163,7 @@ t7
 =
 1
 ;
-let
+const
 curve
 =
 [

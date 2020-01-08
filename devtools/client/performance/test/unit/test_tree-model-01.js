@@ -96,7 +96,7 @@ given
 samples
 array
 .
-let
+const
 threadNode
 =
 new
@@ -113,7 +113,7 @@ endTime
 }
 )
 ;
-let
+const
 root
 =
 getFrameNodePath

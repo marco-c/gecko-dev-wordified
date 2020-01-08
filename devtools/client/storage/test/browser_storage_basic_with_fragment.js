@@ -1111,7 +1111,7 @@ testTree
 (
 )
 {
-let
+const
 doc
 =
 gPanelWindow
@@ -1120,7 +1120,7 @@ document
 ;
 for
 (
-let
+const
 [
 item
 ]
@@ -1200,7 +1200,7 @@ testTables
 (
 )
 {
-let
+const
 doc
 =
 gPanelWindow
@@ -1245,7 +1245,7 @@ for
 update
 for
 (
-let
+const
 id
 of
 testCases
@@ -1318,7 +1318,7 @@ be
 updated
 for
 (
-let
+const
 [
 treeItem
 items
@@ -1409,7 +1409,7 @@ the
 table
 for
 (
-let
+const
 id
 of
 items

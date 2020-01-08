@@ -56,7 +56,7 @@ ifWebGLSupported
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -68,7 +68,7 @@ initShaderEditor
 MULTIPLE_CONTEXTS_URL
 )
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -141,7 +141,7 @@ reload
 target
 )
 ;
-let
+const
 [
 firstProgramActor
 secondProgramActor
@@ -319,7 +319,7 @@ list
 "
 )
 ;
-let
+const
 vertexShader
 =
 await
@@ -329,7 +329,7 @@ getVertexShader
 (
 )
 ;
-let
+const
 fragmentShader
 =
 await
@@ -339,7 +339,7 @@ getFragmentShader
 (
 )
 ;
-let
+const
 vertSource
 =
 await
@@ -349,7 +349,7 @@ getText
 (
 )
 ;
-let
+const
 fragSource
 =
 await
@@ -359,7 +359,7 @@ getText
 (
 )
 ;
-let
+const
 vsEditor
 =
 await
@@ -372,7 +372,7 @@ vs
 "
 )
 ;
-let
+const
 fsEditor
 =
 await
@@ -427,7 +427,7 @@ text
 "
 )
 ;
-let
+const
 compiled
 =
 once
@@ -468,7 +468,7 @@ shaders
 }
 )
 ;
-let
+const
 shown
 =
 once

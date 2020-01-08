@@ -253,7 +253,7 @@ inspector
 return
 ;
 }
-let
+const
 {
 setSelectedNode
 onShowBoxModelHighlighterForNode
@@ -267,7 +267,7 @@ getCommonComponentProps
 (
 )
 ;
-let
+const
 {
 onHideBoxModelHighlighter
 onShowBoxModelEditor
@@ -307,7 +307,7 @@ inspector
 panelWin
 )
 ;
-let
+const
 {
 onToggleFlexboxHighlighter
 }
@@ -337,7 +337,7 @@ inspector
 panelWin
 )
 ;
-let
+const
 {
 getSwatchColorPickerTooltip
 onSetGridOverlayColor
@@ -356,7 +356,7 @@ getComponentProps
 (
 )
 ;
-let
+const
 layoutApp
 =
 LayoutApp
@@ -405,7 +405,7 @@ onToggleShowInfiniteLines
 }
 )
 ;
-let
+const
 provider
 =
 createElement

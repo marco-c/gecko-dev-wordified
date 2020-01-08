@@ -54,7 +54,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -89,7 +89,7 @@ test
 "
 )
 ;
-let
+const
 {
 connector
 store
@@ -100,7 +100,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -120,7 +120,7 @@ index
 "
 )
 ;
-let
+const
 {
 HarMenuUtils
 }
@@ -146,7 +146,7 @@ utils
 "
 )
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -195,7 +195,7 @@ till
 its
 done
 .
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -244,7 +244,7 @@ clipboard
 asynchronous
 )
 .
-let
+const
 jsonString
 =
 await
@@ -263,7 +263,7 @@ getState
 connector
 )
 ;
-let
+const
 har
 =
 JSON
@@ -334,7 +334,7 @@ request
 "
 )
 ;
-let
+const
 entry
 =
 har

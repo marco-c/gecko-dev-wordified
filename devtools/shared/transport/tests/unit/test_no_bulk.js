@@ -117,7 +117,7 @@ function
 transportFactory
 )
 {
-let
+const
 transport
 =
 await
@@ -125,7 +125,7 @@ transportFactory
 (
 )
 ;
-let
+const
 client
 =
 new

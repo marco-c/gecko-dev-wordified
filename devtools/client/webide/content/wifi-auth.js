@@ -182,7 +182,7 @@ buildUI
 (
 )
 {
-let
+const
 {
 oob
 }
@@ -211,7 +211,7 @@ createQR
 oob
 )
 {
-let
+const
 oobData
 =
 JSON
@@ -221,7 +221,7 @@ stringify
 oob
 )
 ;
-let
+const
 imgData
 =
 QR
@@ -266,7 +266,7 @@ createToken
 oob
 )
 {
-let
+const
 token
 =
 oob

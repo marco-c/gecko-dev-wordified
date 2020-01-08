@@ -552,7 +552,7 @@ resolve
 =
 >
 {
-let
+const
 target
 =
 TargetFactory
@@ -583,7 +583,7 @@ toolbox
 =
 >
 {
-let
+const
 panel
 =
 toolbox
@@ -688,7 +688,7 @@ panel
 text
 )
 {
-let
+const
 doc
 =
 panel
@@ -697,7 +697,7 @@ panelWin
 .
 document
 ;
-let
+const
 labels
 =
 [
@@ -715,7 +715,7 @@ treeLabel
 )
 ]
 ;
-let
+const
 label
 =
 labels
@@ -786,13 +786,13 @@ rootObjectLevel
 let
 node
 ;
-let
+const
 result
 =
 [
 ]
 ;
-let
+const
 doc
 =
 panel
@@ -801,7 +801,7 @@ panelWin
 .
 document
 ;
-let
+const
 nodes
 =
 [
@@ -947,7 +947,7 @@ of
 nodes
 )
 {
-let
+const
 level
 =
 node
@@ -1195,7 +1195,7 @@ panel
 labelText
 )
 {
-let
+const
 row
 =
 getRowByLabel
@@ -1293,7 +1293,7 @@ refreshPanel
 panel
 )
 {
-let
+const
 doc
 =
 panel
@@ -1302,7 +1302,7 @@ panelWin
 .
 document
 ;
-let
+const
 button
 =
 doc

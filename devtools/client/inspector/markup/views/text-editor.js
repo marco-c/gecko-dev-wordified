@@ -446,7 +446,7 @@ function
 type
 )
 {
-let
+const
 doc
 =
 this
@@ -493,7 +493,7 @@ comment
 "
 )
 {
-let
+const
 openComment
 =
 doc
@@ -601,7 +601,7 @@ comment
 "
 )
 {
-let
+const
 closeComment
 =
 doc
@@ -744,7 +744,7 @@ textContent
 =
 str
 ;
-let
+const
 isWhitespace
 =
 !
@@ -775,7 +775,7 @@ whitespace
 isWhitespace
 )
 ;
-let
+const
 chars
 =
 str

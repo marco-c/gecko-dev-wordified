@@ -508,7 +508,7 @@ client
 matchFn
 )
 {
-let
+const
 collected
 =
 [
@@ -1123,7 +1123,7 @@ resolve
 =
 >
 {
-let
+const
 listener
 =
 (
@@ -1177,7 +1177,7 @@ resolve
 =
 >
 {
-let
+const
 listener
 =
 (

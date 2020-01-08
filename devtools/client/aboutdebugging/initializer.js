@@ -350,7 +350,7 @@ AboutDebugging
 return
 ;
 }
-let
+const
 {
 connect
 client
@@ -376,7 +376,7 @@ connect
 (
 )
 ;
-let
+const
 telemetry
 =
 new

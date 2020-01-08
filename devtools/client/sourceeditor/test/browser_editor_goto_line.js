@@ -95,7 +95,7 @@ jumpToLine
 (
 )
 ;
-let
+const
 editorDoc
 =
 ed
@@ -104,7 +104,7 @@ container
 .
 contentDocument
 ;
-let
+const
 lineInput
 =
 editorDoc
@@ -198,7 +198,7 @@ win
 =
 >
 {
-let
+const
 textLines
 =
 [
@@ -257,7 +257,7 @@ function
 (
 )
 {
-let
+const
 testVectors
 =
 [

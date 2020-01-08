@@ -181,7 +181,7 @@ width
 TOOLBOX_WIDTH
 )
 ;
-let
+const
 [
 doc
 ]
@@ -211,7 +211,7 @@ itself
 "
 )
 ;
-let
+const
 tooltip
 =
 new
@@ -225,7 +225,7 @@ false
 }
 )
 ;
-let
+const
 div
 =
 doc
@@ -427,7 +427,7 @@ is
 wide
 *
 /
-let
+const
 box1
 =
 doc
@@ -439,7 +439,7 @@ box1
 "
 )
 ;
-let
+const
 box2
 =
 doc
@@ -821,7 +821,7 @@ is
 wide
 *
 /
-let
+const
 box3
 =
 doc
@@ -833,7 +833,7 @@ box3
 "
 )
 ;
-let
+const
 box4
 =
 doc

@@ -324,7 +324,7 @@ function
 (
 )
 {
-let
+const
 parentDoc
 =
 this
@@ -333,7 +333,7 @@ _toolbox
 .
 doc
 ;
-let
+const
 iframe
 =
 parentDoc
@@ -362,7 +362,7 @@ window
 is
 ready
 .
-let
+const
 deferredIframe
 =
 defer
@@ -552,7 +552,7 @@ _remoteTarget
 =
 target
 ;
-let
+const
 webConsoleUIWindow
 =
 iframe
@@ -561,7 +561,7 @@ contentWindow
 .
 wrappedJSObject
 ;
-let
+const
 chromeWindow
 =
 iframe
@@ -674,7 +674,7 @@ reason
 =
 >
 {
-let
+const
 msg
 =
 "

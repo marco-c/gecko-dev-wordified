@@ -102,7 +102,7 @@ guts
 .
 for
 (
-let
+const
 id
 in
 DebuggerServer
@@ -110,7 +110,7 @@ DebuggerServer
 _connections
 )
 {
-let
+const
 conn
 =
 DebuggerServer

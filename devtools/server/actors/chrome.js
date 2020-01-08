@@ -655,7 +655,7 @@ no
 window
 /
 docshell
-let
+const
 docShell
 =
 window
@@ -760,7 +760,7 @@ docShells
 [
 ]
 ;
-let
+const
 e
 =
 Services
@@ -780,7 +780,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 window
 =
 e
@@ -789,7 +789,7 @@ getNext
 (
 )
 ;
-let
+const
 docShell
 =
 window
@@ -1009,7 +1009,7 @@ top
 level
 windows
 .
-let
+const
 e
 =
 Services
@@ -1029,7 +1029,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 window
 =
 e
@@ -1038,7 +1038,7 @@ getNext
 (
 )
 ;
-let
+const
 docShell
 =
 window
@@ -1154,7 +1154,7 @@ top
 level
 windows
 .
-let
+const
 e
 =
 Services
@@ -1174,7 +1174,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 window
 =
 e
@@ -1183,7 +1183,7 @@ getNext
 (
 )
 ;
-let
+const
 docShell
 =
 window
@@ -1290,7 +1290,7 @@ all
 open
 windows
 .
-let
+const
 e
 =
 Services
@@ -1311,7 +1311,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 win
 =
 e
@@ -1320,7 +1320,7 @@ getNext
 (
 )
 ;
-let
+const
 windowUtils
 =
 win
@@ -1391,7 +1391,7 @@ all
 open
 windows
 .
-let
+const
 e
 =
 Services
@@ -1412,7 +1412,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 win
 =
 e
@@ -1421,7 +1421,7 @@ getNext
 (
 )
 ;
-let
+const
 windowUtils
 =
 win

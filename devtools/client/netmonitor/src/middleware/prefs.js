@@ -153,7 +153,7 @@ ENABLE_REQUEST_FILTER_TYPE_ONLY
 case
 TOGGLE_REQUEST_FILTER_TYPE
 :
-let
+const
 filters
 =
 Object
@@ -284,13 +284,13 @@ TOGGLE_COLUMN
 case
 RESET_COLUMNS
 :
-let
+const
 visibleColumns
 =
 [
 ]
 ;
-let
+const
 columns
 =
 store
@@ -305,7 +305,7 @@ columns
 ;
 for
 (
-let
+const
 column
 in
 columns

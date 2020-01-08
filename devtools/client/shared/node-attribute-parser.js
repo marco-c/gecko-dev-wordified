@@ -1991,7 +1991,7 @@ function
 attributeValue
 )
 {
-let
+const
 data
 =
 splitBy
@@ -2003,7 +2003,7 @@ attributeValue
 ;
 for
 (
-let
+const
 token
 of
 data
@@ -2104,7 +2104,7 @@ function
 attributeValue
 )
 {
-let
+const
 data
 =
 splitBy
@@ -2116,7 +2116,7 @@ attributeValue
 ;
 for
 (
-let
+const
 token
 of
 data
@@ -2369,7 +2369,7 @@ attributes
 )
 ;
 }
-let
+const
 type
 =
 getType
@@ -2530,13 +2530,13 @@ attributeName
 {
 for
 (
-let
+const
 typeData
 of
 ATTRIBUTE_TYPES
 )
 {
-let
+const
 containsAttribute
 =
 attributeName
@@ -2558,7 +2558,7 @@ attributeName
 *
 "
 ;
-let
+const
 hasNamespace
 =
 namespaceURI
@@ -2580,7 +2580,7 @@ namespaceURI
 *
 "
 ;
-let
+const
 hasTagName
 =
 tagName
@@ -2606,7 +2606,7 @@ tagName
 *
 "
 ;
-let
+const
 isValid
 =
 typeData
@@ -2659,7 +2659,7 @@ attributeName
 {
 for
 (
-let
+const
 {
 name
 value
@@ -2695,7 +2695,7 @@ attributeName
 {
 for
 (
-let
+const
 {
 name
 }

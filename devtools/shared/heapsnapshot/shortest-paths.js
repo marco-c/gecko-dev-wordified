@@ -364,7 +364,7 @@ outer
 :
 for
 (
-let
+const
 path
 of
 paths
@@ -550,7 +550,7 @@ edges
 ;
 for
 (
-let
+const
 [
 from
 toMap
@@ -615,7 +615,7 @@ from
 }
 for
 (
-let
+const
 [
 to
 edgeNameSet
@@ -626,7 +626,7 @@ toMap
 {
 for
 (
-let
+const
 name
 of
 edgeNameSet

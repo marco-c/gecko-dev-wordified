@@ -210,7 +210,7 @@ function
 (
 )
 {
-let
+const
 helper
 =
 await
@@ -227,7 +227,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 {
 finalize
 }
@@ -292,7 +292,7 @@ labels
 ;
 for
 (
-let
+const
 name
 of
 [
@@ -463,7 +463,7 @@ inline
 ;
 for
 (
-let
+const
 name
 of
 [
@@ -572,7 +572,7 @@ positioned
 ;
 for
 (
-let
+const
 name
 of
 SIDES

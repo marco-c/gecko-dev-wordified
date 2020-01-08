@@ -657,7 +657,7 @@ to
 the
 props
 .
-let
+const
 props
 =
 Object
@@ -692,7 +692,7 @@ resizeWaterfall
 (
 )
 {
-let
+const
 waterfallHeader
 =
 this
@@ -800,7 +800,7 @@ waterfallWidth
 scale
 )
 {
-let
+const
 labels
 =
 [
@@ -816,7 +816,7 @@ labels
 .
 .
 .
-let
+const
 timingStep
 =
 REQUESTS_WATERFALL
@@ -891,7 +891,7 @@ x
 scaledStep
 )
 {
-let
+const
 millisecondTime
 =
 x
@@ -1153,7 +1153,7 @@ render
 (
 )
 {
-let
+const
 {
 columns
 scale
@@ -1232,14 +1232,14 @@ header
 =
 >
 {
-let
+const
 name
 =
 header
 .
 name
 ;
-let
+const
 boxName
 =
 header
@@ -1249,7 +1249,7 @@ boxName
 |
 name
 ;
-let
+const
 label
 =
 header
@@ -1280,7 +1280,7 @@ let
 sorted
 sortedTitle
 ;
-let
+const
 active
 =
 sort

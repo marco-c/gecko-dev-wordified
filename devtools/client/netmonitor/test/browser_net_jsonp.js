@@ -53,7 +53,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -75,7 +75,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -98,7 +98,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -109,7 +109,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -129,7 +129,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -177,7 +177,7 @@ tab
 2
 )
 ;
-let
+const
 requestItems
 =
 document
@@ -196,7 +196,7 @@ item
 ;
 for
 (
-let
+const
 requestItem
 of
 requestItems
@@ -208,7 +208,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem
@@ -580,7 +580,7 @@ func
 greeting
 )
 {
-let
+const
 tabpanel
 =
 document
@@ -834,7 +834,7 @@ tabpanel
 "
 )
 ;
-let
+const
 labels
 =
 tabpanel
@@ -858,7 +858,7 @@ treeLabel
 "
 )
 ;
-let
+const
 values
 =
 tabpanel

@@ -171,7 +171,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -214,7 +214,7 @@ expectUncaughtException
 )
 ;
 }
-let
+const
 onMessage
 =
 waitForMessage
@@ -231,7 +231,7 @@ loadDocument
 TEST_URI2
 )
 ;
-let
+const
 {
 node
 }

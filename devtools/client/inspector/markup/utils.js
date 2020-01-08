@@ -518,7 +518,7 @@ element
 container
 )
 {
-let
+const
 elementRect
 =
 element
@@ -527,7 +527,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 containerRect
 =
 container
@@ -632,7 +632,7 @@ trim
 (
 )
 ;
-let
+const
 parseAndGetNode
 =
 str
@@ -707,7 +707,7 @@ mixed
 -
 case
 attributes
-let
+const
 el
 =
 parseAndGetNode
@@ -769,7 +769,7 @@ svg
 "
 )
 ;
-let
+const
 div
 =
 doc
@@ -781,7 +781,7 @@ div
 "
 )
 ;
-let
+const
 attributes
 =
 [
@@ -789,7 +789,7 @@ attributes
 ;
 for
 (
-let
+const
 {
 name
 value

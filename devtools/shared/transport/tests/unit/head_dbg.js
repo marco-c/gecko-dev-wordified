@@ -863,7 +863,7 @@ fileName
 content
 )
 {
-let
+const
 file
 =
 getTestTempFile
@@ -872,7 +872,7 @@ fileName
 true
 )
 ;
-let
+const
 stream
 =
 Cc
@@ -917,7 +917,7 @@ try
 {
 do
 {
-let
+const
 numWritten
 =
 stream
@@ -986,7 +986,7 @@ DebuggerServer
 listeningSockets
 )
 {
-let
+const
 AuthenticatorType
 =
 DebuggerServer
@@ -1000,7 +1000,7 @@ PROMPT
 "
 )
 ;
-let
+const
 authenticator
 =
 new
@@ -1028,7 +1028,7 @@ ALLOW
 ;
 }
 ;
-let
+const
 debuggerListener
 =
 DebuggerServer
@@ -1058,7 +1058,7 @@ open
 )
 ;
 }
-let
+const
 port
 =
 DebuggerServer

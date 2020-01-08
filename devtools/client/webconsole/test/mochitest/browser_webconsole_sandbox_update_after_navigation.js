@@ -198,7 +198,7 @@ persistlog
 false
 )
 ;
-let
+const
 hud
 =
 await
@@ -436,7 +436,7 @@ Bug
 1270234
 )
 .
-let
+const
 cleared
 =
 hud

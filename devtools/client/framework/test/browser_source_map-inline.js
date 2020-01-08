@@ -226,7 +226,7 @@ sourceMapURLService
 Inject
 JS
 script
-let
+const
 sourceSeen
 =
 waitForSourceLoad
@@ -257,7 +257,7 @@ JS_URL
 84
 )
 ;
-let
+const
 newLoc
 =
 await

@@ -211,7 +211,7 @@ event
 packet
 )
 {
-let
+const
 obj1
 =
 packet
@@ -232,7 +232,7 @@ obj1
 frozen
 )
 ;
-let
+const
 obj1Client
 =
 gThreadClient
@@ -251,7 +251,7 @@ obj1Client
 isFrozen
 )
 ;
-let
+const
 obj2
 =
 packet
@@ -273,7 +273,7 @@ obj2
 frozen
 )
 ;
-let
+const
 obj2Client
 =
 gThreadClient
@@ -340,7 +340,7 @@ function
 (
 )
 {
-let
+const
 obj1
 =
 {

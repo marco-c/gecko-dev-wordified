@@ -883,7 +883,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }

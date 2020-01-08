@@ -204,7 +204,7 @@ event
 packet
 )
 {
-let
+const
 args
 =
 packet
@@ -228,7 +228,7 @@ Object
 "
 )
 ;
-let
+const
 objClient
 =
 gThreadClient
@@ -458,7 +458,7 @@ prototype
 undefined
 )
 ;
-let
+const
 protoClient
 =
 gThreadClient

@@ -237,7 +237,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -249,7 +249,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 highlighterUtils
 =
 inspector
@@ -258,7 +258,7 @@ toolbox
 .
 highlighterUtils
 ;
-let
+const
 div
 =
 await
@@ -272,7 +272,7 @@ inspector
 ;
 for
 (
-let
+const
 level
 of
 TEST_LEVELS
@@ -315,7 +315,7 @@ highlightNodeFront
 div
 )
 ;
-let
+const
 isVisible
 =
 await
@@ -367,7 +367,7 @@ down
 "
 )
 ;
-let
+const
 style
 =
 await
@@ -376,7 +376,7 @@ getElementsNodeStyle
 testActor
 )
 ;
-let
+const
 {
 width
 height
@@ -438,7 +438,7 @@ getElementsNodeStyle
 testActor
 )
 {
-let
+const
 value
 =
 await

@@ -55,7 +55,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -77,7 +77,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 }
@@ -86,7 +86,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 markersDone
 =
 waitForTimelineMarkers
@@ -94,7 +94,7 @@ waitForTimelineMarkers
 monitor
 )
 ;
-let
+const
 button
 =
 document
@@ -128,7 +128,7 @@ monitor
 1
 )
 ;
-let
+const
 markers
 =
 await

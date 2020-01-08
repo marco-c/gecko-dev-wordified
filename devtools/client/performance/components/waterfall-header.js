@@ -193,7 +193,7 @@ WaterfallHeader
 props
 )
 {
-let
+const
 {
 startTime
 dataScale
@@ -203,7 +203,7 @@ waterfallWidth
 =
 props
 ;
-let
+const
 tickInterval
 =
 TickUtils
@@ -223,7 +223,7 @@ dataScale
 }
 )
 ;
-let
+const
 ticks
 =
 [
@@ -246,14 +246,14 @@ x
 tickInterval
 )
 {
-let
+const
 left
 =
 x
 +
 WATERFALL_HEADER_TEXT_PADDING
 ;
-let
+const
 time
 =
 Math
@@ -267,7 +267,7 @@ dataScale
 startTime
 )
 ;
-let
+const
 label
 =
 L10N
@@ -282,7 +282,7 @@ tick
 time
 )
 ;
-let
+const
 node
 =
 dom

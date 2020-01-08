@@ -432,7 +432,7 @@ i
 +
 )
 {
-let
+const
 call
 =
 functionCalls
@@ -440,7 +440,7 @@ functionCalls
 i
 ]
 ;
-let
+const
 view
 =
 document
@@ -479,7 +479,7 @@ flex
 "
 )
 ;
-let
+const
 contents
 =
 document
@@ -534,7 +534,7 @@ appendChild
 contents
 )
 ;
-let
+const
 index
 =
 document
@@ -583,7 +583,7 @@ i
 1
 )
 ;
-let
+const
 gutter
 =
 document
@@ -628,7 +628,7 @@ call
 callerPreview
 )
 {
-let
+const
 context
 =
 document
@@ -672,7 +672,7 @@ appendChild
 context
 )
 ;
-let
+const
 separator
 =
 document
@@ -717,7 +717,7 @@ separator
 )
 ;
 }
-let
+const
 name
 =
 document
@@ -761,7 +761,7 @@ appendChild
 name
 )
 ;
-let
+const
 argsPreview
 =
 document
@@ -881,7 +881,7 @@ appendChild
 argsPreview
 )
 ;
-let
+const
 location
 =
 document
@@ -1170,7 +1170,7 @@ function
 screenshot
 )
 {
-let
+const
 {
 index
 width
@@ -1182,7 +1182,7 @@ pixels
 =
 screenshot
 ;
-let
+const
 screenshotNode
 =
 (
@@ -1216,7 +1216,7 @@ height
 pixels
 )
 ;
-let
+const
 dimensionsNode
 =
 (
@@ -1228,7 +1228,7 @@ dimensions
 "
 )
 ;
-let
+const
 actualWidth
 =
 (
@@ -1239,7 +1239,7 @@ scaling
 |
 0
 ;
-let
+const
 actualHeight
 =
 (
@@ -1361,7 +1361,7 @@ remove
 }
 for
 (
-let
+const
 thumbnail
 of
 thumbnails
@@ -1441,7 +1441,7 @@ function
 thumbnail
 )
 {
-let
+const
 {
 index
 width
@@ -1452,7 +1452,7 @@ pixels
 =
 thumbnail
 ;
-let
+const
 thumbnailNode
 =
 document
@@ -1624,7 +1624,7 @@ highlightedThumbnail
 index
 )
 {
-let
+const
 currHighlightedThumbnail
 =
 (
@@ -1658,14 +1658,14 @@ null
 return
 ;
 }
-let
+const
 prevIndex
 =
 this
 .
 _highlightedThumbnailIndex
 ;
-let
+const
 prevHighlightedThumbnail
 =
 (
@@ -2029,7 +2029,7 @@ _isSliding
 =
 >
 {
-let
+const
 frameSnapshot
 =
 SnapshotsListView
@@ -2040,7 +2040,7 @@ attachment
 .
 actor
 ;
-let
+const
 functionCall
 =
 callItem
@@ -2112,7 +2112,7 @@ function
 e
 )
 {
-let
+const
 lowerCaseSearchToken
 =
 this
@@ -2133,7 +2133,7 @@ e
 =
 >
 {
-let
+const
 call
 =
 e
@@ -2142,7 +2142,7 @@ attachment
 .
 actor
 ;
-let
+const
 name
 =
 call
@@ -2153,7 +2153,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 file
 =
 call
@@ -2164,7 +2164,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 line
 =
 call
@@ -2179,7 +2179,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 args
 =
 call
@@ -2306,7 +2306,7 @@ function
 e
 )
 {
-let
+const
 callItem
 =
 this
@@ -2318,7 +2318,7 @@ e
 target
 )
 ;
-let
+const
 view
 =
 (
@@ -2388,7 +2388,7 @@ populated
 )
 )
 {
-let
+const
 isExpanded
 =
 view
@@ -2441,7 +2441,7 @@ location
 )
 )
 {
-let
+const
 {
 file
 line
@@ -2506,7 +2506,7 @@ isExpanded
 return
 ;
 }
-let
+const
 list
 =
 document
@@ -2586,7 +2586,7 @@ stack
 .
 *
 /
-let
+const
 display
 =
 stack
@@ -2611,7 +2611,7 @@ i
 +
 )
 {
-let
+const
 call
 =
 stack
@@ -2619,7 +2619,7 @@ stack
 i
 ]
 ;
-let
+const
 contents
 =
 document
@@ -2661,7 +2661,7 @@ STACK_FUNC_INDENTATION
 px
 "
 ;
-let
+const
 name
 =
 document
@@ -2717,7 +2717,7 @@ appendChild
 name
 )
 ;
-let
+const
 spacer
 =
 document
@@ -2748,7 +2748,7 @@ appendChild
 spacer
 )
 ;
-let
+const
 location
 =
 document
@@ -2895,7 +2895,7 @@ is
 immediately
 available
 .
-let
+const
 functionCall
 =
 callItem
@@ -3118,7 +3118,7 @@ animation
 frame
 snapshot
 .
-let
+const
 drawCall
 =
 getNextDrawCall
@@ -3254,14 +3254,14 @@ _onResume
 return
 ;
 }
-let
+const
 callItem
 =
 this
 .
 selectedItem
 ;
-let
+const
 {
 file
 line

@@ -214,7 +214,7 @@ increment
 =
 0
 ;
-let
+const
 key
 =
 event
@@ -357,7 +357,7 @@ super
 props
 )
 ;
-let
+const
 {
 width
 height
@@ -479,7 +479,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 width
 height
@@ -571,7 +571,7 @@ onInputBlur
 (
 )
 {
-let
+const
 {
 width
 height
@@ -743,14 +743,14 @@ onInputKeyDown
 event
 )
 {
-let
+const
 {
 target
 }
 =
 event
 ;
-let
+const
 increment
 =
 getIncrement
@@ -858,7 +858,7 @@ state
 isInvalid
 )
 {
-let
+const
 {
 width
 height

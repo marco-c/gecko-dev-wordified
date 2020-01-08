@@ -71,7 +71,7 @@ win
 /
 /
 appendTo
-let
+const
 cmFrame
 =
 win
@@ -85,7 +85,7 @@ iframe
 "
 )
 ;
-let
+const
 cmStyle
 =
 cmFrame
@@ -645,7 +645,7 @@ gone
 /
 Font
 size
-let
+const
 size
 =
 ed

@@ -49,7 +49,7 @@ snapshot
 )
 *
 /
-let
+const
 actions
 =
 require
@@ -67,7 +67,7 @@ snapshot
 "
 )
 ;
-let
+const
 {
 snapshotState
 :
@@ -89,12 +89,12 @@ constants
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 front
 =
 new
@@ -102,14 +102,14 @@ StubbedMemoryFront
 (
 )
 ;
-yield
+await
 front
 .
 attach
 (
 )
 ;
-let
+const
 store
 =
 Store
@@ -145,7 +145,7 @@ front
 )
 ;
 }
-yield
+await
 waitUntilState
 (
 store
@@ -223,7 +223,7 @@ id
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -242,7 +242,7 @@ i
 selected
 )
 ;
-let
+const
 {
 snapshots
 }

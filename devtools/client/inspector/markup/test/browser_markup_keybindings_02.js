@@ -107,7 +107,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -133,7 +133,7 @@ element
 "
 )
 ;
-let
+const
 {
 editor
 }
@@ -186,7 +186,7 @@ console
 "
 )
 ;
-let
+const
 onConsoleReady
 =
 toolbox

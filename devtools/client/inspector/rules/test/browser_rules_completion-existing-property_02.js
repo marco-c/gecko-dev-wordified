@@ -428,7 +428,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -518,7 +518,7 @@ h1
 inspector
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -529,7 +529,7 @@ view
 .
 rule
 ;
-let
+const
 prop
 =
 rule
@@ -852,7 +852,7 @@ events
 if
 needed
 .
-let
+const
 popupEvent
 =
 open
@@ -869,7 +869,7 @@ popup
 closed
 "
 ;
-let
+const
 onPopupEvent
 =
 editor

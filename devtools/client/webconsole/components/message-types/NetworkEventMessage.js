@@ -538,7 +538,7 @@ totalTime
 undefined
 )
 {
-let
+const
 statusCodeDocURL
 =
 getHTTPStatusCodeURL
@@ -847,7 +847,7 @@ step
 as
 needed
 .
-let
+const
 connector
 =
 {

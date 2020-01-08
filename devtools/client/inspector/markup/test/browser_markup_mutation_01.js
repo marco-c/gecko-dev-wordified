@@ -200,7 +200,7 @@ function
 inspector
 )
 {
-let
+const
 {
 editor
 }
@@ -337,7 +337,7 @@ function
 inspector
 )
 {
-let
+const
 {
 editor
 }
@@ -454,7 +454,7 @@ function
 inspector
 )
 {
-let
+const
 {
 editor
 }
@@ -594,7 +594,7 @@ function
 inspector
 )
 {
-let
+const
 {
 editor
 }
@@ -714,7 +714,7 @@ testActor
 inspector
 )
 {
-let
+const
 {
 editor
 }
@@ -771,7 +771,7 @@ test
 "
 )
 ;
-let
+const
 attributeContainer
 =
 editor
@@ -877,7 +877,7 @@ function
 inspector
 )
 {
-let
+const
 {
 editor
 }
@@ -910,7 +910,7 @@ created
 "
 )
 ;
-let
+const
 otherAttrContainer
 =
 editor
@@ -969,7 +969,7 @@ earlier
 "
 )
 ;
-let
+const
 newAttrContainer
 =
 editor
@@ -1082,7 +1082,7 @@ function
 inspector
 )
 {
-let
+const
 {
 children
 }
@@ -1184,7 +1184,7 @@ function
 inspector
 )
 {
-let
+const
 container
 =
 await
@@ -1257,7 +1257,7 @@ function
 inspector
 )
 {
-let
+const
 container
 =
 await
@@ -1424,7 +1424,7 @@ function
 inspector
 )
 {
-let
+const
 container
 =
 await
@@ -1546,7 +1546,7 @@ function
 inspector
 )
 {
-let
+const
 container
 =
 await
@@ -1688,7 +1688,7 @@ function
 inspector
 )
 {
-let
+const
 container
 =
 await
@@ -1811,7 +1811,7 @@ function
 inspector
 )
 {
-let
+const
 container
 =
 await
@@ -1966,7 +1966,7 @@ function
 inspector
 )
 {
-let
+const
 container
 =
 await
@@ -1979,7 +1979,7 @@ node2
 inspector
 )
 ;
-let
+const
 openTags
 =
 container
@@ -2159,7 +2159,7 @@ function
 inspector
 )
 {
-let
+const
 {
 children
 }
@@ -2260,7 +2260,7 @@ function
 inspector
 )
 {
-let
+const
 {
 children
 }
@@ -2294,7 +2294,7 @@ parent
 "
 )
 ;
-let
+const
 container
 =
 await
@@ -2307,7 +2307,7 @@ node2
 inspector
 )
 ;
-let
+const
 openTags
 =
 container
@@ -2511,7 +2511,7 @@ expandAll
 (
 )
 ;
-let
+const
 {
 children
 }
@@ -2548,7 +2548,7 @@ node20
 "
 )
 ;
-let
+const
 node20
 =
 children
@@ -2558,7 +2558,7 @@ childNodes
 1
 ]
 ;
-let
+const
 node20Children
 =
 node20
@@ -2588,7 +2588,7 @@ and
 "
 )
 ;
-let
+const
 node21
 =
 node20Children
@@ -2634,7 +2634,7 @@ child
 "
 )
 ;
-let
+const
 node18
 =
 node20Children
@@ -2693,7 +2693,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -2798,7 +2798,7 @@ seenMutations
 =
 0
 ;
-let
+const
 promise
 =
 new

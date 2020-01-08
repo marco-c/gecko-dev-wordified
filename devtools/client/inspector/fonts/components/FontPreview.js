@@ -280,7 +280,7 @@ state
 isFocused
 )
 {
-let
+const
 input
 =
 this
@@ -371,7 +371,7 @@ render
 (
 )
 {
-let
+const
 {
 previewText
 previewUrl
@@ -381,7 +381,7 @@ this
 .
 props
 ;
-let
+const
 {
 isFocused
 }

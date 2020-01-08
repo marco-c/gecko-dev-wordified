@@ -1502,7 +1502,7 @@ actions
 }
 )
 ;
-let
+const
 messages
 =
 getAllMessagesById
@@ -1524,7 +1524,7 @@ toBe
 3
 )
 ;
-let
+const
 repeat
 =
 getAllRepeatById
@@ -7619,7 +7619,7 @@ request
 )
 )
 ;
-let
+const
 updatePacket
 =
 clonePacket
@@ -7779,7 +7779,7 @@ the
 expected
 data
 .
-let
+const
 messages
 =
 getAllMessagesById
@@ -8134,7 +8134,7 @@ data
 )
 )
 ;
-let
+const
 table
 =
 getAllMessagesTableDataById
@@ -8324,7 +8324,7 @@ blue
 )
 )
 ;
-let
+const
 messages
 =
 getAllMessagesById

@@ -255,7 +255,7 @@ dialog
 no
 "
 ;
-let
+const
 win
 =
 Services
@@ -279,7 +279,7 @@ opt
 null
 )
 ;
-let
+const
 opts
 =
 {
@@ -321,7 +321,7 @@ getClientCssProperties
 ;
 for
 (
-let
+const
 o
 in
 additionalOpts
@@ -355,7 +355,7 @@ function
 (
 )
 {
-let
+const
 box
 =
 win
@@ -369,7 +369,7 @@ box
 "
 )
 ;
-let
+const
 editor
 =
 new
@@ -659,7 +659,7 @@ loadHelperScript
 filePath
 )
 {
-let
+const
 testDir
 =
 gTestPath
@@ -734,7 +734,7 @@ line
 +
 +
 ;
-let
+const
 list
 =
 source
@@ -824,7 +824,7 @@ read
 url
 )
 {
-let
+const
 scriptableStream
 =
 Cc
@@ -847,7 +847,7 @@ Ci
 nsIScriptableInputStream
 )
 ;
-let
+const
 channel
 =
 NetUtil
@@ -864,7 +864,7 @@ true
 }
 )
 ;
-let
+const
 input
 =
 channel

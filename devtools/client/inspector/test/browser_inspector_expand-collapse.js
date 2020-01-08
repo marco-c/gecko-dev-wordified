@@ -139,7 +139,7 @@ requestLongerTimeout
 2
 )
 ;
-let
+const
 {
 inspector
 }
@@ -160,7 +160,7 @@ node
 "
 )
 ;
-let
+const
 front
 =
 await
@@ -328,7 +328,7 @@ waitForMultipleChildrenUpdates
 inspector
 )
 ;
-let
+const
 markUpContainer
 =
 getContainerForNodeFront

@@ -223,20 +223,20 @@ target
 /
 add_task
 (
+async
 function
-*
 testWebExtensionsToolboxInspector
 (
 )
 {
-let
+const
 {
 tab
 document
 debugBtn
 }
 =
-yield
+await
 setupTestAboutDebuggingWebExtension
 (
 ADDON_NAME
@@ -277,7 +277,7 @@ any
 scope
 variable
 !
-let
+const
 env
 =
 Cc
@@ -302,7 +302,7 @@ Ci
 nsIEnvironment
 )
 ;
-let
+const
 testScript
 =
 function
@@ -429,7 +429,7 @@ n
 "
 )
 ;
-let
+const
 expectedValue
 =
 "
@@ -440,7 +440,7 @@ Test
 Content
 "
 ;
-let
+const
 actualValue
 =
 nodeActor
@@ -644,7 +644,7 @@ MOZ_TOOLBOX_TEST_SCRIPT
 }
 )
 ;
-let
+const
 onToolboxClose
 =
 BrowserToolboxProcess
@@ -662,7 +662,7 @@ click
 (
 )
 ;
-yield
+await
 onToolboxClose
 ;
 ok
@@ -675,7 +675,7 @@ closed
 "
 )
 ;
-yield
+await
 uninstallAddon
 (
 {
@@ -689,7 +689,7 @@ ADDON_NAME
 }
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab

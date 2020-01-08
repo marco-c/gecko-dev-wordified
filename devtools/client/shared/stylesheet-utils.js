@@ -160,7 +160,7 @@ xulDocument
 url
 )
 {
-let
+const
 styleSheetAttr
 =
 href
@@ -178,7 +178,7 @@ text
 css
 "
 ;
-let
+const
 styleSheet
 =
 xulDocument
@@ -193,7 +193,7 @@ stylesheet
 styleSheetAttr
 )
 ;
-let
+const
 loadPromise
 =
 new

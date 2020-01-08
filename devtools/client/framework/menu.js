@@ -604,14 +604,14 @@ screenY
 toolbox
 )
 {
-let
+const
 doc
 =
 toolbox
 .
 doc
 ;
-let
+const
 popupset
 =
 doc
@@ -893,7 +893,7 @@ function
 parent
 )
 {
-let
+const
 doc
 =
 parent
@@ -928,7 +928,7 @@ item
 submenu
 )
 {
-let
+const
 menupopup
 =
 doc
@@ -949,7 +949,7 @@ _createMenuItems
 menupopup
 )
 ;
-let
+const
 menu
 =
 doc
@@ -1078,7 +1078,7 @@ separator
 "
 )
 {
-let
+const
 menusep
 =
 doc
@@ -1100,7 +1100,7 @@ menusep
 }
 else
 {
-let
+const
 menuitem
 =
 doc

@@ -129,7 +129,7 @@ function
 (
 )
 {
-let
+const
 {
 jsterm
 }

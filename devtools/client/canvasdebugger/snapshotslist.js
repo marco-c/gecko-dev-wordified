@@ -378,7 +378,7 @@ function
 (
 )
 {
-let
+const
 contents
 =
 document
@@ -400,7 +400,7 @@ snapshot
 item
 "
 ;
-let
+const
 thumbnail
 =
 document
@@ -441,7 +441,7 @@ CanvasFront
 .
 THUMBNAIL_SIZE
 ;
-let
+const
 title
 =
 document
@@ -490,7 +490,7 @@ itemCount
 )
 )
 ;
-let
+const
 calls
 =
 document
@@ -534,7 +534,7 @@ loadingLabel
 )
 )
 ;
-let
+const
 save
 =
 document
@@ -571,7 +571,7 @@ this
 _onSaveButtonClick
 )
 ;
-let
+const
 spacer
 =
 document
@@ -595,7 +595,7 @@ flex
 "
 )
 ;
-let
+const
 footer
 =
 document
@@ -626,7 +626,7 @@ appendChild
 save
 )
 ;
-let
+const
 details
 =
 document
@@ -941,7 +941,7 @@ actor
 =
 snapshotActor
 ;
-let
+const
 functionCalls
 =
 snapshotItem
@@ -954,7 +954,7 @@ snapshotOverview
 .
 calls
 ;
-let
+const
 thumbnails
 =
 snapshotItem
@@ -967,7 +967,7 @@ snapshotOverview
 .
 thumbnails
 ;
-let
+const
 screenshot
 =
 snapshotItem
@@ -980,7 +980,7 @@ snapshotOverview
 .
 screenshot
 ;
-let
+const
 lastThumbnail
 =
 thumbnails
@@ -992,7 +992,7 @@ length
 1
 ]
 ;
-let
+const
 {
 width
 height
@@ -1002,7 +1002,7 @@ pixels
 =
 lastThumbnail
 ;
-let
+const
 thumbnailNode
 =
 (
@@ -1042,7 +1042,7 @@ true
 }
 )
 ;
-let
+const
 callsNode
 =
 (
@@ -1059,7 +1059,7 @@ snapshotItem
 target
 )
 ;
-let
+const
 drawCalls
 =
 functionCalls
@@ -1081,7 +1081,7 @@ name
 )
 )
 ;
-let
+const
 drawCallsStr
 =
 PluralForm
@@ -1103,7 +1103,7 @@ drawCallsLabel
 )
 )
 ;
-let
+const
 funcCallsStr
 =
 PluralForm
@@ -1162,7 +1162,7 @@ length
 )
 )
 ;
-let
+const
 saveNode
 =
 (
@@ -1316,7 +1316,7 @@ actor
 return
 ;
 }
-let
+const
 {
 calls
 thumbnails
@@ -2184,7 +2184,7 @@ recording
 "
 )
 ;
-let
+const
 actorCanStop
 =
 await
@@ -2364,7 +2364,7 @@ recording
 "
 )
 ;
-let
+const
 snapshotItem
 =
 this
@@ -2378,7 +2378,7 @@ itemCount
 1
 )
 ;
-let
+const
 snapshotOverview
 =
 await
@@ -2542,7 +2542,7 @@ function
 (
 )
 {
-let
+const
 fp
 =
 Cc
@@ -2652,7 +2652,7 @@ returnOK
 return
 ;
 }
-let
+const
 channel
 =
 NetUtil
@@ -2734,7 +2734,7 @@ data
 ;
 try
 {
-let
+const
 string
 =
 NetUtil
@@ -2838,7 +2838,7 @@ with
 actors
 anymore
 .
-let
+const
 snapshotItem
 =
 this
@@ -2916,7 +2916,7 @@ function
 e
 )
 {
-let
+const
 snapshotItem
 =
 this
@@ -2928,7 +2928,7 @@ e
 target
 )
 ;
-let
+const
 fp
 =
 Cc
@@ -3050,7 +3050,7 @@ opened
 .
 Snappy
 .
-let
+const
 serialized
 =
 (
@@ -3059,7 +3059,7 @@ function
 (
 )
 {
-let
+const
 data
 =
 {
@@ -3082,7 +3082,7 @@ screenshot
 null
 }
 ;
-let
+const
 functionCalls
 =
 snapshotItem
@@ -3091,7 +3091,7 @@ attachment
 .
 calls
 ;
-let
+const
 thumbnails
 =
 snapshotItem
@@ -3100,7 +3100,7 @@ attachment
 .
 thumbnails
 ;
-let
+const
 screenshot
 =
 snapshotItem
@@ -3132,7 +3132,7 @@ i
 =
 >
 {
-let
+const
 {
 type
 name
@@ -3224,7 +3224,7 @@ i
 =
 >
 {
-let
+const
 {
 index
 width
@@ -3261,7 +3261,7 @@ screenshot
 for
 serialization
 .
-let
+const
 {
 index
 width
@@ -3284,7 +3284,7 @@ flipped
 pixels
 }
 ;
-let
+const
 string
 =
 JSON
@@ -3294,7 +3294,7 @@ stringify
 data
 )
 ;
-let
+const
 converter
 =
 Cc
@@ -3395,7 +3395,7 @@ returnCancel
 return
 ;
 }
-let
+const
 footer
 =
 (
@@ -3412,7 +3412,7 @@ snapshotItem
 target
 )
 ;
-let
+const
 save
 =
 (
@@ -3517,7 +3517,7 @@ inputStream
 =
 >
 {
-let
+const
 outputStream
 =
 FileUtils
@@ -3642,7 +3642,7 @@ name
 message
 )
 {
-let
+const
 notificationBox
 =
 toolbox
@@ -3651,7 +3651,7 @@ getNotificationBox
 (
 )
 ;
-let
+const
 notification
 =
 notificationBox

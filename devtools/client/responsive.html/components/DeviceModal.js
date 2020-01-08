@@ -348,7 +348,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 devices
 :
@@ -359,7 +359,7 @@ this
 .
 props
 ;
-let
+const
 {
 devices
 }
@@ -394,7 +394,7 @@ isModalOpen
 {
 for
 (
-let
+const
 type
 of
 devices
@@ -404,7 +404,7 @@ types
 {
 for
 (
-let
+const
 device
 of
 devices
@@ -541,7 +541,7 @@ onDeviceModalSubmit
 (
 )
 {
-let
+const
 {
 devices
 onDeviceListUpdate
@@ -553,7 +553,7 @@ this
 .
 props
 ;
-let
+const
 preferredDevices
 =
 {
@@ -577,7 +577,7 @@ Set
 ;
 for
 (
-let
+const
 type
 of
 devices
@@ -587,7 +587,7 @@ types
 {
 for
 (
-let
+const
 device
 of
 devices
@@ -596,7 +596,7 @@ type
 ]
 )
 {
-let
+const
 newState
 =
 this
@@ -735,7 +735,7 @@ keyCode
 27
 )
 {
-let
+const
 {
 onUpdateDeviceModal
 }
@@ -755,7 +755,7 @@ render
 (
 )
 {
-let
+const
 {
 deviceAdderViewportTemplate
 devices
@@ -767,7 +767,7 @@ this
 .
 props
 ;
-let
+const
 {
 onAddCustomDevice
 }
@@ -782,7 +782,7 @@ sortedDevices
 ;
 for
 (
-let
+const
 type
 of
 devices
@@ -984,7 +984,7 @@ device
 =
 >
 {
-let
+const
 details
 =
 getFormatStr

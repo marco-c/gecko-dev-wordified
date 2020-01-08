@@ -161,7 +161,7 @@ addTab
 TESTCASE_URI
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -394,7 +394,7 @@ toolbox
 view
 )
 {
-let
+const
 onEditor
 =
 waitForStyleEditor
@@ -418,7 +418,7 @@ link
 "
 )
 ;
-let
+const
 link
 =
 getComputedViewLinkByIndex
@@ -439,13 +439,13 @@ click
 (
 )
 ;
-let
+const
 editor
 =
 await
 onEditor
 ;
-let
+const
 {
 line
 }
@@ -483,7 +483,7 @@ view
 text
 )
 {
-let
+const
 link
 =
 getComputedViewLinkByIndex

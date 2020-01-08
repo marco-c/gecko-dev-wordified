@@ -75,7 +75,7 @@ addTestGlobal
 gDebuggee
 )
 ;
-let
+const
 transport
 =
 DebuggerServer

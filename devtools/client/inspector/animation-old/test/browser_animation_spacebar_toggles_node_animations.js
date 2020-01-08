@@ -165,7 +165,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 window
@@ -176,7 +176,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 {
 playTimelineButtonEl
 }

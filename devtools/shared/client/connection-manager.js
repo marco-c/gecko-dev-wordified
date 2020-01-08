@@ -713,7 +713,7 @@ host
 port
 )
 {
-let
+const
 c
 =
 new
@@ -838,7 +838,7 @@ function
 (
 )
 {
-let
+const
 serv
 =
 Cc
@@ -876,7 +876,7 @@ true
 1
 )
 ;
-let
+const
 port
 =
 serv
@@ -1120,7 +1120,7 @@ function
 str
 )
 {
-let
+const
 d
 =
 new
@@ -1128,7 +1128,7 @@ Date
 (
 )
 ;
-let
+const
 hours
 =
 (
@@ -1149,7 +1149,7 @@ slice
 2
 )
 ;
-let
+const
 minutes
 =
 (
@@ -1170,7 +1170,7 @@ slice
 2
 )
 ;
-let
+const
 seconds
 =
 (
@@ -1191,7 +1191,7 @@ slice
 2
 )
 ;
-let
+const
 timestamp
 =
 [
@@ -1407,7 +1407,7 @@ null
 return
 ;
 }
-let
+const
 AuthenticatorType
 =
 DebuggerClient
@@ -1545,7 +1545,7 @@ socketSettings
 (
 )
 {
-let
+const
 settings
 =
 {
@@ -1903,7 +1903,7 @@ _clientConnect
 }
 else
 {
-let
+const
 msg
 =
 "
@@ -2032,14 +2032,14 @@ connectPipe
 )
 ;
 }
-let
+const
 settings
 =
 this
 .
 socketSettings
 ;
-let
+const
 transport
 =
 await

@@ -98,7 +98,7 @@ function
 (
 )
 {
-let
+const
 env
 =
 await
@@ -107,7 +107,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 helper
 =
 await
@@ -119,7 +119,7 @@ HIGHLIGHTER_TYPE
 env
 )
 ;
-let
+const
 {
 testActor
 inspector
@@ -127,7 +127,7 @@ inspector
 =
 env
 ;
-let
+const
 view
 =
 selectRuleView
@@ -135,14 +135,14 @@ selectRuleView
 inspector
 )
 ;
-let
+const
 highlighters
 =
 view
 .
 highlighters
 ;
-let
+const
 config
 =
 {
@@ -207,7 +207,7 @@ property
 inspector
 )
 {
-let
+const
 highlightedNode
 =
 await
@@ -217,7 +217,7 @@ selector
 inspector
 )
 ;
-let
+const
 computedStyle
 =
 await
@@ -371,7 +371,7 @@ config
 }
 )
 ;
-let
+const
 points
 =
 await
@@ -418,7 +418,7 @@ split
 "
 )
 ;
-let
+const
 quads
 =
 await
@@ -429,7 +429,7 @@ getAllAdjustedQuads
 selector
 )
 ;
-let
+const
 {
 top
 left
@@ -466,26 +466,26 @@ y
 /
 100
 ;
-let
+const
 dx
 =
 width
 /
 10
 ;
-let
+const
 dyPercent
 =
 10
 ;
-let
+const
 dy
 =
 height
 /
 dyPercent
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -509,7 +509,7 @@ point
 "
 )
 ;
-let
+const
 {
 mouse
 }
@@ -569,7 +569,7 @@ change
 await
 onRuleViewChanged
 ;
-let
+const
 definition
 =
 await
@@ -697,7 +697,7 @@ a
 new
 one
 .
-let
+const
 points
 =
 await
@@ -721,7 +721,7 @@ HIGHLIGHTER_TYPE
 ]
 )
 ;
-let
+const
 pointsArray
 =
 points
@@ -732,7 +732,7 @@ split
 "
 )
 ;
-let
+const
 quads
 =
 await
@@ -743,7 +743,7 @@ getAllAdjustedQuads
 selector
 )
 ;
-let
+const
 {
 top
 left
@@ -834,7 +834,7 @@ y2
 /
 100
 ;
-let
+const
 {
 mouse
 }
@@ -889,7 +889,7 @@ y2
 /
 2
 ;
-let
+const
 options
 =
 {
@@ -917,7 +917,7 @@ clickCount
 }
 }
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -984,7 +984,7 @@ percentage
 units
 is
 2
-let
+const
 precision
 =
 2
@@ -1042,7 +1042,7 @@ precision
 )
 )
 ;
-let
+const
 definition
 =
 await
@@ -1136,7 +1136,7 @@ config
 }
 )
 ;
-let
+const
 points
 =
 await
@@ -1160,7 +1160,7 @@ HIGHLIGHTER_TYPE
 ]
 )
 ;
-let
+const
 [
 x
 y
@@ -1183,7 +1183,7 @@ split
 "
 )
 ;
-let
+const
 quads
 =
 await
@@ -1194,7 +1194,7 @@ getAllAdjustedQuads
 selector
 )
 ;
-let
+const
 {
 top
 left
@@ -1211,7 +1211,7 @@ border
 .
 bounds
 ;
-let
+const
 options
 =
 {
@@ -1264,7 +1264,7 @@ highlighter
 "
 )
 ;
-let
+const
 onEventHandled
 =
 highlighters
@@ -1280,7 +1280,7 @@ handled
 "
 )
 ;
-let
+const
 {
 mouse
 }
@@ -1303,7 +1303,7 @@ y
 await
 onEventHandled
 ;
-let
+const
 markerHidden
 =
 await
@@ -1355,7 +1355,7 @@ highlighter
 "
 )
 ;
-let
+const
 onShapeChangeApplied
 =
 highlighters
@@ -1396,7 +1396,7 @@ apply
 await
 onShapeChangeApplied
 ;
-let
+const
 definition
 =
 await
@@ -1478,7 +1478,7 @@ clip
 path
 "
 ;
-let
+const
 onShapeChangeApplied
 =
 highlighters
@@ -1509,7 +1509,7 @@ config
 }
 )
 ;
-let
+const
 cx
 =
 parseFloat
@@ -1536,7 +1536,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 cy
 =
 parseFloat
@@ -1563,7 +1563,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 quads
 =
 await
@@ -1574,7 +1574,7 @@ getAllAdjustedQuads
 selector
 )
 ;
-let
+const
 {
 width
 height
@@ -1589,7 +1589,7 @@ border
 .
 bounds
 ;
-let
+const
 cxPixel
 =
 width
@@ -1598,7 +1598,7 @@ cx
 /
 100
 ;
-let
+const
 cyPixel
 =
 height
@@ -1607,14 +1607,14 @@ cy
 /
 100
 ;
-let
+const
 dx
 =
 width
 /
 10
 ;
-let
+const
 dy
 =
 height
@@ -1630,7 +1630,7 @@ center
 "
 )
 ;
-let
+const
 {
 mouse
 }
@@ -1697,7 +1697,7 @@ apply
 await
 onShapeChangeApplied
 ;
-let
+const
 definition
 =
 await
@@ -1797,7 +1797,7 @@ config
 }
 )
 ;
-let
+const
 rx
 =
 parseFloat
@@ -1824,7 +1824,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 ry
 =
 parseFloat
@@ -1851,7 +1851,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 cx
 =
 parseFloat
@@ -1878,7 +1878,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 cy
 =
 parseFloat
@@ -1905,7 +1905,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 quads
 =
 await
@@ -1919,7 +1919,7 @@ ellipse
 "
 )
 ;
-let
+const
 {
 width
 height
@@ -1934,7 +1934,7 @@ content
 .
 bounds
 ;
-let
+const
 highlightedNode
 =
 await
@@ -1944,7 +1944,7 @@ selector
 inspector
 )
 ;
-let
+const
 computedStyle
 =
 await
@@ -1957,7 +1957,7 @@ getComputed
 highlightedNode
 )
 ;
-let
+const
 paddingTop
 =
 parseFloat
@@ -1974,7 +1974,7 @@ top
 value
 )
 ;
-let
+const
 paddingLeft
 =
 parseFloat
@@ -1991,7 +1991,7 @@ left
 value
 )
 ;
-let
+const
 cxPixel
 =
 paddingLeft
@@ -2002,7 +2002,7 @@ cx
 /
 100
 ;
-let
+const
 cyPixel
 =
 paddingTop
@@ -2013,7 +2013,7 @@ cy
 /
 100
 ;
-let
+const
 rxPixel
 =
 cxPixel
@@ -2024,7 +2024,7 @@ rx
 /
 100
 ;
-let
+const
 ryPixel
 =
 cyPixel
@@ -2035,21 +2035,21 @@ ry
 /
 100
 ;
-let
+const
 dx
 =
 width
 /
 10
 ;
-let
+const
 dy
 =
 height
 /
 10
 ;
-let
+const
 {
 mouse
 }
@@ -2115,7 +2115,7 @@ ry
 "
 )
 ;
-let
+const
 onShapeChangeApplied
 =
 highlighters
@@ -2177,7 +2177,7 @@ reflow
 await
 onShapeChangeApplied
 ;
-let
+const
 definition
 =
 await
@@ -2276,7 +2276,7 @@ config
 }
 )
 ;
-let
+const
 x
 =
 parseFloat
@@ -2303,7 +2303,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 y
 =
 parseFloat
@@ -2330,7 +2330,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 width
 =
 parseFloat
@@ -2357,7 +2357,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 height
 =
 parseFloat
@@ -2384,7 +2384,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 quads
 =
 await
@@ -2395,7 +2395,7 @@ getAllAdjustedQuads
 selector
 )
 ;
-let
+const
 {
 width
 :
@@ -2414,7 +2414,7 @@ content
 .
 bounds
 ;
-let
+const
 left
 =
 elemWidth
@@ -2423,7 +2423,7 @@ x
 /
 100
 ;
-let
+const
 top
 =
 elemHeight
@@ -2432,7 +2432,7 @@ y
 /
 100
 ;
-let
+const
 right
 =
 left
@@ -2443,7 +2443,7 @@ width
 /
 100
 ;
-let
+const
 bottom
 =
 top
@@ -2454,7 +2454,7 @@ height
 /
 100
 ;
-let
+const
 xCenter
 =
 (
@@ -2465,7 +2465,7 @@ right
 /
 2
 ;
-let
+const
 yCenter
 =
 (
@@ -2476,21 +2476,21 @@ bottom
 /
 2
 ;
-let
+const
 dx
 =
 elemWidth
 /
 10
 ;
-let
+const
 dy
 =
 elemHeight
 /
 10
 ;
-let
+const
 {
 mouse
 }
@@ -2776,7 +2776,7 @@ reflow
 await
 onShapeChangeApplied
 ;
-let
+const
 definition
 =
 await

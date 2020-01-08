@@ -191,7 +191,7 @@ transportFactory
 onReady
 )
 {
-let
+const
 transport
 =
 await
@@ -199,7 +199,7 @@ transportFactory
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -303,14 +303,14 @@ client
 response
 )
 {
-let
+const
 reallyLong
 =
 really_long
 (
 )
 ;
-let
+const
 request
 =
 client
@@ -343,7 +343,7 @@ bulk
 data
 to
 server
-let
+const
 copyDeferred
 =
 defer
@@ -370,7 +370,7 @@ done
 =
 >
 {
-let
+const
 input
 =
 Cc

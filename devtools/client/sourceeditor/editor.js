@@ -1818,7 +1818,7 @@ resolve
 =
 >
 {
-let
+const
 cm
 =
 editors
@@ -1891,7 +1891,7 @@ once
 )
 ;
 }
-let
+const
 onLoad
 =
 (
@@ -1899,7 +1899,7 @@ onLoad
 =
 >
 {
-let
+const
 win
 =
 env
@@ -2132,7 +2132,7 @@ el
 .
 ownerDocument
 ;
-let
+const
 win
 =
 el
@@ -2141,7 +2141,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 scriptsToInject
 =
 CM_SCRIPTS
@@ -2239,7 +2239,7 @@ config
 cssProperties
 )
 ;
-let
+const
 cssSpec
 =
 win
@@ -2287,7 +2287,7 @@ css
 cssSpec
 )
 ;
-let
+const
 scssSpec
 =
 win
@@ -2394,7 +2394,7 @@ t
 work
 )
 .
-let
+const
 cm
 =
 win
@@ -2856,7 +2856,7 @@ ev
 =
 >
 {
-let
+const
 lineOrOffset
 =
 !
@@ -2873,7 +2873,7 @@ lineToWasmOffset
 line
 )
 ;
-let
+const
 head
 =
 {
@@ -2885,7 +2885,7 @@ ch
 0
 }
 ;
-let
+const
 tail
 =
 {
@@ -3116,7 +3116,7 @@ editor
 =
 this
 ;
-let
+const
 editorReadyEvent
 =
 new
@@ -3284,7 +3284,7 @@ loaded
 )
 ;
 }
-let
+const
 win
 =
 this
@@ -3363,7 +3363,7 @@ function
 doc
 )
 {
-let
+const
 cm
 =
 editors
@@ -3615,7 +3615,7 @@ function
 line
 )
 {
-let
+const
 cm
 =
 editors
@@ -3641,7 +3641,7 @@ getValue
 )
 ;
 }
-let
+const
 info
 =
 this
@@ -3668,7 +3668,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -3785,7 +3785,7 @@ function
 lineOrOffset
 )
 {
-let
+const
 line
 =
 this
@@ -3807,7 +3807,7 @@ return
 null
 ;
 }
-let
+const
 cm
 =
 editors
@@ -3854,7 +3854,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -3871,7 +3871,7 @@ this
 isWasm
 )
 {
-let
+const
 formatter
 =
 getWasmLineNumberFormatter
@@ -3944,7 +3944,7 @@ function
 value
 )
 {
-let
+const
 cm
 =
 editors
@@ -3988,14 +3988,14 @@ Uint8Array
 converting
 from
 string
-let
+const
 binary
 =
 value
 .
 binary
 ;
-let
+const
 data
 =
 new
@@ -4037,7 +4037,7 @@ i
 )
 ;
 }
-let
+const
 {
 lines
 done
@@ -4247,7 +4247,7 @@ is
 preffed
 on
 .
-let
+const
 useAutoClose
 =
 Services
@@ -4387,7 +4387,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -4397,7 +4397,7 @@ get
 this
 )
 ;
-let
+const
 iterFn
 =
 function
@@ -4432,7 +4432,7 @@ text
 ;
 }
 ;
-let
+const
 {
 indentUnit
 indentWithTabs
@@ -4542,7 +4542,7 @@ from
 to
 )
 {
-let
+const
 cm
 =
 editors
@@ -4574,7 +4574,7 @@ if
 to
 )
 {
-let
+const
 text
 =
 cm
@@ -4645,7 +4645,7 @@ value
 at
 )
 {
-let
+const
 cm
 =
 editors
@@ -4734,7 +4734,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -4778,7 +4778,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -4828,7 +4828,7 @@ function
 line
 )
 {
-let
+const
 cm
 =
 editors
@@ -4838,7 +4838,7 @@ get
 this
 )
 ;
-let
+const
 {
 top
 }
@@ -4930,7 +4930,7 @@ ch
 align
 )
 {
-let
+const
 cm
 =
 editors
@@ -5020,7 +5020,7 @@ line
 align
 )
 {
-let
+const
 cm
 =
 editors
@@ -5030,7 +5030,7 @@ get
 this
 )
 ;
-let
+const
 from
 =
 cm
@@ -5043,7 +5043,7 @@ page
 "
 )
 ;
-let
+const
 to
 =
 cm
@@ -5062,14 +5062,14 @@ page
 "
 )
 ;
-let
+const
 linesVisible
 =
 to
 -
 from
 ;
-let
+const
 halfVisible
 =
 Math
@@ -5150,7 +5150,7 @@ maximum
 allowed
 value
 .
-let
+const
 offset
 =
 Math
@@ -5287,7 +5287,7 @@ gutterName
 markerClass
 )
 {
-let
+const
 marker
 =
 this
@@ -5367,7 +5367,7 @@ gutterName
 markerClass
 )
 {
-let
+const
 cm
 =
 editors
@@ -5377,7 +5377,7 @@ get
 this
 )
 ;
-let
+const
 info
 =
 this
@@ -5396,7 +5396,7 @@ info
 return
 ;
 }
-let
+const
 gutterMarkers
 =
 info
@@ -5593,7 +5593,7 @@ markerClass
 content
 )
 {
-let
+const
 cm
 =
 editors
@@ -5603,7 +5603,7 @@ get
 this
 )
 ;
-let
+const
 info
 =
 this
@@ -5622,7 +5622,7 @@ info
 return
 ;
 }
-let
+const
 marker
 =
 cm
@@ -5709,7 +5709,7 @@ line
 gutterName
 )
 {
-let
+const
 cm
 =
 editors
@@ -5719,7 +5719,7 @@ get
 this
 )
 ;
-let
+const
 info
 =
 this
@@ -5758,7 +5758,7 @@ line
 gutterName
 )
 {
-let
+const
 info
 =
 this
@@ -5778,7 +5778,7 @@ return
 null
 ;
 }
-let
+const
 gutterMarkers
 =
 info
@@ -5827,7 +5827,7 @@ function
 gutterName
 )
 {
-let
+const
 cm
 =
 editors
@@ -5954,7 +5954,7 @@ markerClass
 return
 ;
 }
-let
+const
 cm
 =
 editors
@@ -5964,7 +5964,7 @@ get
 this
 )
 ;
-let
+const
 marker
 =
 cm
@@ -5981,13 +5981,13 @@ gutterName
 ;
 for
 (
-let
+const
 name
 in
 eventsArg
 )
 {
-let
+const
 listener
 =
 eventsArg
@@ -6039,7 +6039,7 @@ line
 className
 )
 {
-let
+const
 info
 =
 this
@@ -6111,7 +6111,7 @@ lineOrOffset
 className
 )
 {
-let
+const
 cm
 =
 editors
@@ -6121,7 +6121,7 @@ get
 this
 )
 ;
-let
+const
 line
 =
 this
@@ -6162,7 +6162,7 @@ lineOrOffset
 className
 )
 {
-let
+const
 cm
 =
 editors
@@ -6172,7 +6172,7 @@ get
 this
 )
 ;
-let
+const
 line
 =
 this
@@ -6256,7 +6256,7 @@ text
 "
 )
 {
-let
+const
 cm
 =
 editors
@@ -6266,7 +6266,7 @@ get
 this
 )
 ;
-let
+const
 text
 =
 cm
@@ -6277,7 +6277,7 @@ from
 to
 )
 ;
-let
+const
 span
 =
 cm
@@ -6307,7 +6307,7 @@ textContent
 =
 text
 ;
-let
+const
 mark
 =
 cm
@@ -6419,7 +6419,7 @@ function
 args
 )
 {
-let
+const
 cm
 =
 editors
@@ -6429,7 +6429,7 @@ get
 this
 )
 ;
-let
+const
 res
 =
 args
@@ -6509,7 +6509,7 @@ function
 args
 )
 {
-let
+const
 cm
 =
 editors
@@ -6519,7 +6519,7 @@ get
 this
 )
 ;
-let
+const
 res
 =
 args
@@ -6586,7 +6586,7 @@ top
 }
 )
 {
-let
+const
 cm
 =
 editors
@@ -6652,7 +6652,7 @@ ch
 }
 )
 {
-let
+const
 cm
 =
 editors
@@ -6707,7 +6707,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -6754,7 +6754,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -6801,7 +6801,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -6880,7 +6880,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -6939,7 +6939,7 @@ function
 (
 )
 {
-let
+const
 doc
 =
 editors
@@ -6955,7 +6955,7 @@ getWrapperElement
 .
 ownerDocument
 ;
-let
+const
 div
 =
 doc
@@ -6967,7 +6967,7 @@ div
 "
 )
 ;
-let
+const
 inp
 =
 doc
@@ -6979,7 +6979,7 @@ input
 "
 )
 ;
-let
+const
 txt
 =
 doc
@@ -7050,7 +7050,7 @@ hasMultipleSelections
 )
 )
 {
-let
+const
 cm
 =
 editors
@@ -7060,7 +7060,7 @@ get
 this
 )
 ;
-let
+const
 sel
 =
 cm
@@ -7116,7 +7116,7 @@ line
 column
 2
 .
-let
+const
 match
 =
 sel
@@ -7131,7 +7131,7 @@ if
 match
 )
 {
-let
+const
 [
 line
 column
@@ -7192,7 +7192,7 @@ as
 well
 as
 LINE
-let
+const
 match
 =
 line
@@ -7211,7 +7211,7 @@ if
 match
 )
 {
-let
+const
 [
 matchLine
 column
@@ -7273,7 +7273,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -7283,7 +7283,7 @@ get
 this
 )
 ;
-let
+const
 start
 =
 cm
@@ -7295,7 +7295,7 @@ start
 "
 )
 ;
-let
+const
 end
 =
 cm
@@ -7565,7 +7565,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -7575,7 +7575,7 @@ get
 this
 )
 ;
-let
+const
 start
 =
 cm
@@ -7587,7 +7587,7 @@ start
 "
 )
 ;
-let
+const
 end
 =
 cm
@@ -7859,7 +7859,7 @@ node
 isReplaceAll
 )
 {
-let
+const
 cm
 =
 editors
@@ -7869,7 +7869,7 @@ get
 this
 )
 ;
-let
+const
 isInput
 =
 node
@@ -7882,7 +7882,7 @@ tagName
 INPUT
 "
 ;
-let
+const
 isSearchInput
 =
 isInput
@@ -7920,7 +7920,7 @@ a
 code
 mirror
 dialog
-let
+const
 isDialogInput
 =
 isInput
@@ -8066,7 +8066,7 @@ node
 isFindPrev
 )
 {
-let
+const
 cm
 =
 editors
@@ -8076,7 +8076,7 @@ get
 this
 )
 ;
-let
+const
 isInput
 =
 node
@@ -8089,7 +8089,7 @@ tagName
 INPUT
 "
 ;
-let
+const
 isSearchInput
 =
 isInput
@@ -8114,7 +8114,7 @@ isSearchInput
 return
 ;
 }
-let
+const
 query
 =
 node
@@ -8268,7 +8268,7 @@ function
 (
 )
 {
-let
+const
 cm
 =
 editors
@@ -8278,7 +8278,7 @@ get
 this
 )
 ;
-let
+const
 el
 =
 cm
@@ -8287,7 +8287,7 @@ getWrapperElement
 (
 )
 ;
-let
+const
 win
 =
 el
@@ -8339,7 +8339,7 @@ function
 size
 )
 {
-let
+const
 cm
 =
 editors
@@ -8419,7 +8419,7 @@ o
 v
 )
 {
-let
+const
 cm
 =
 editors
@@ -8604,7 +8604,7 @@ function
 o
 )
 {
-let
+const
 cm
 =
 editors
@@ -8956,7 +8956,7 @@ name
 =
 >
 {
-let
+const
 cm
 =
 editors
@@ -8966,7 +8966,7 @@ get
 this
 )
 ;
-let
+const
 ctx
 =
 {
@@ -9160,7 +9160,7 @@ code
 -
 mirror
 .
-let
+const
 cm
 =
 editors
@@ -9214,7 +9214,7 @@ config
 .
 enableCodeFolding
 ;
-let
+const
 foldGutterIndex
 =
 this
@@ -9232,7 +9232,7 @@ foldgutter
 "
 )
 ;
-let
+const
 cm
 =
 editors
@@ -9286,7 +9286,7 @@ foldGutterIndex
 1
 )
 {
-let
+const
 gutters
 =
 this
@@ -9384,7 +9384,7 @@ foldGutterIndex
 1
 )
 {
-let
+const
 gutters
 =
 this
@@ -9446,7 +9446,7 @@ function
 win
 )
 {
-let
+const
 shortcuts
 =
 new
@@ -9472,7 +9472,7 @@ bind
 this
 )
 ;
-let
+const
 keys
 =
 [
@@ -9544,7 +9544,7 @@ name
 =
 >
 {
-let
+const
 key
 =
 L10N
@@ -9609,7 +9609,7 @@ target
 return
 ;
 }
-let
+const
 node
 =
 event
@@ -9799,7 +9799,7 @@ function
 element
 )
 {
-let
+const
 name
 =
 element
@@ -9875,7 +9875,7 @@ function
 args
 )
 {
-let
+const
 cm
 =
 editors
@@ -10110,7 +10110,7 @@ false
 }
 )
 {
-let
+const
 key
 =
 L10N
@@ -10231,7 +10231,7 @@ keySet
 array
 )
 {
-let
+const
 keys
 =
 {
@@ -10270,7 +10270,7 @@ return
 keys
 ;
 }
-let
+const
 propertyKeywords
 =
 cssProperties
@@ -10279,13 +10279,13 @@ getNames
 (
 )
 ;
-let
+const
 colorKeywords
 =
 {
 }
 ;
-let
+const
 valueKeywords
 =
 {

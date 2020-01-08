@@ -218,7 +218,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -399,7 +399,7 @@ SELECTOR
 inspector
 )
 ;
-let
+const
 onHtmlEditorCreated
 =
 once
@@ -490,7 +490,7 @@ setText
 NEW_HTML
 )
 ;
-let
+const
 onEditorHiddem
 =
 once
@@ -576,7 +576,7 @@ inspector
 testActor
 )
 {
-let
+const
 onEditorShown
 =
 once
@@ -668,7 +668,7 @@ HTML
 "
 )
 ;
-let
+const
 onMutations
 =
 inspector
@@ -769,7 +769,7 @@ inspector
 testActor
 )
 {
-let
+const
 currentBodyHTML
 =
 await
@@ -785,7 +785,7 @@ outerHTML
 "
 )
 ;
-let
+const
 bodyHTML
 =
 '
@@ -810,7 +810,7 @@ body
 >
 '
 ;
-let
+const
 bodyFront
 =
 await
@@ -822,7 +822,7 @@ body
 inspector
 )
 ;
-let
+const
 onUpdated
 =
 inspector
@@ -836,7 +836,7 @@ updated
 "
 )
 ;
-let
+const
 onReselected
 =
 inspector
@@ -868,7 +868,7 @@ onReselected
 await
 onUpdated
 ;
-let
+const
 newBodyHTML
 =
 await
@@ -899,7 +899,7 @@ updated
 "
 )
 ;
-let
+const
 headsNum
 =
 await
@@ -947,7 +947,7 @@ head
 inspector
 )
 ;
-let
+const
 currentHeadHTML
 =
 await
@@ -963,7 +963,7 @@ outerHTML
 "
 )
 ;
-let
+const
 headHTML
 =
 "
@@ -1012,7 +1012,7 @@ head
 >
 "
 ;
-let
+const
 headFront
 =
 await
@@ -1024,7 +1024,7 @@ head
 inspector
 )
 ;
-let
+const
 onUpdated
 =
 inspector
@@ -1038,7 +1038,7 @@ updated
 "
 )
 ;
-let
+const
 onReselected
 =
 inspector
@@ -1187,7 +1187,7 @@ inspector
 testActor
 )
 {
-let
+const
 currentDocElementOuterHMTL
 =
 await
@@ -1204,7 +1204,7 @@ outerHMTL
 "
 )
 ;
-let
+const
 docElementHTML
 =
 "
@@ -1290,7 +1290,7 @@ html
 >
 "
 ;
-let
+const
 docElementFront
 =
 await
@@ -1304,7 +1304,7 @@ documentElement
 (
 )
 ;
-let
+const
 onReselected
 =
 inspector
@@ -1598,7 +1598,7 @@ inspector
 testActor
 )
 {
-let
+const
 currentDocElementOuterHMTL
 =
 await
@@ -1615,7 +1615,7 @@ outerHMTL
 "
 )
 ;
-let
+const
 docElementHTML
 =
 "
@@ -1703,7 +1703,7 @@ html
 >
 "
 ;
-let
+const
 docElementFront
 =
 await
@@ -1717,7 +1717,7 @@ documentElement
 (
 )
 ;
-let
+const
 onReselected
 =
 inspector

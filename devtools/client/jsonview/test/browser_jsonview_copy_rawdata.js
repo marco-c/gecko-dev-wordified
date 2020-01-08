@@ -87,7 +87,7 @@ simple_json
 json
 "
 ;
-let
+const
 jsonText
 =
 "
@@ -108,7 +108,7 @@ value
 n
 "
 ;
-let
+const
 prettyJson
 =
 "
@@ -133,8 +133,8 @@ n
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -149,7 +149,7 @@ started
 "
 )
 ;
-yield
+await
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -161,7 +161,7 @@ Select
 the
 RawData
 tab
-yield
+await
 selectJsonViewContentTab
 (
 "
@@ -174,10 +174,10 @@ rawdata
 Check
 displayed
 JSON
-let
+const
 text
 =
-yield
+await
 getElementText
 (
 "
@@ -203,7 +203,7 @@ DOM
 "
 )
 ;
-let
+const
 browser
 =
 gBrowser
@@ -219,7 +219,7 @@ into
 the
 clipboard
 .
-yield
+await
 waitForClipboardPromise
 (
 function
@@ -257,7 +257,7 @@ Pretty
 Print
 '
 button
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -279,7 +279,7 @@ browser
 let
 prettyText
 =
-yield
+await
 getElementText
 (
 "
@@ -324,7 +324,7 @@ into
 the
 clipboard
 .
-yield
+await
 waitForClipboardPromise
 (
 function
@@ -357,7 +357,7 @@ validator
 value
 )
 {
-let
+const
 str
 =
 normalizeNewLines

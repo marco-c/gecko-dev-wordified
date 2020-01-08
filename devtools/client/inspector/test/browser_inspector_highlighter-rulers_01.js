@@ -197,7 +197,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -209,14 +209,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -348,7 +348,7 @@ the
 body
 is
 given
-let
+const
 body
 =
 await
@@ -429,7 +429,7 @@ size
 "
 )
 ;
-let
+const
 contentX
 =
 await
@@ -448,7 +448,7 @@ text
 highlighterFront
 )
 ;
-let
+const
 contentY
 =
 await

@@ -528,7 +528,7 @@ category
 return
 ;
 }
-let
+const
 errorWindow
 =
 Services
@@ -794,7 +794,7 @@ includePrivate
 false
 )
 {
-let
+const
 errors
 =
 Services
@@ -884,7 +884,7 @@ true
 )
 ;
 }
-let
+const
 ids
 =
 WebConsoleUtils
@@ -1545,7 +1545,7 @@ the
 underlying
 JSObject
 .
-let
+const
 apiMessage
 =
 message
@@ -1631,7 +1631,7 @@ function
 message
 )
 {
-let
+const
 workerType
 =
 WebConsoleUtils
@@ -1688,7 +1688,7 @@ controlling
 a
 window
 .
-let
+const
 scope
 =
 message
@@ -1724,7 +1724,7 @@ window
 workerType
 )
 {
-let
+const
 msgWindow
 =
 Services
@@ -1989,7 +1989,7 @@ messages
 [
 ]
 ;
-let
+const
 ConsoleAPIStorage
 =
 Cc
@@ -2059,7 +2059,7 @@ getEvents
 }
 else
 {
-let
+const
 ids
 =
 WebConsoleUtils
@@ -2396,7 +2396,7 @@ end
 interruptible
 )
 {
-let
+const
 frame
 =
 components
@@ -2728,7 +2728,7 @@ receiveMessage
 message
 )
 {
-let
+const
 logMsg
 =
 message
@@ -2983,7 +2983,7 @@ isTopLevel
 return
 ;
 }
-let
+const
 {
 readyState
 }
@@ -3094,7 +3094,7 @@ onContentLoaded
 event
 )
 {
-let
+const
 window
 =
 event
@@ -3103,7 +3103,7 @@ target
 .
 defaultView
 ;
-let
+const
 packet
 =
 {
@@ -3194,7 +3194,7 @@ onLoad
 event
 )
 {
-let
+const
 window
 =
 event
@@ -3203,7 +3203,7 @@ target
 .
 defaultView
 ;
-let
+const
 packet
 =
 {

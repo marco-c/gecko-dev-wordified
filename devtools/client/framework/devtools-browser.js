@@ -608,7 +608,7 @@ gBrowser
 startTime
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -620,7 +620,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -659,7 +659,7 @@ focus
 a
 windowed
 toolbox
-let
+const
 isDocked
 =
 toolbox
@@ -751,7 +751,7 @@ updateCommandAvailability
 win
 )
 {
-let
+const
 doc
 =
 win
@@ -765,7 +765,7 @@ id
 isEnabled
 )
 {
-let
+const
 cmd
 =
 doc
@@ -832,7 +832,7 @@ true
 Enable
 WebIDE
 ?
-let
+const
 webIDEEnabled
 =
 Services
@@ -885,7 +885,7 @@ Enable
 Browser
 Toolbox
 ?
-let
+const
 chromeEnabled
 =
 Services
@@ -903,7 +903,7 @@ enabled
 "
 )
 ;
-let
+const
 devtoolsRemoteEnabled
 =
 Services
@@ -923,7 +923,7 @@ enabled
 "
 )
 ;
-let
+const
 remoteEnabled
 =
 chromeEnabled
@@ -1221,7 +1221,7 @@ enabled
 {
 for
 (
-let
+const
 win
 of
 this
@@ -1253,7 +1253,7 @@ theme
 {
 for
 (
-let
+const
 win
 of
 this
@@ -1545,7 +1545,7 @@ toolId
 startTime
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -1557,7 +1557,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -1567,7 +1567,7 @@ getToolbox
 target
 )
 ;
-let
+const
 toolDefinition
 =
 gDevTools
@@ -1967,7 +1967,7 @@ case
 browserConsole
 "
 :
-let
+const
 {
 HUDService
 }
@@ -2093,7 +2093,7 @@ gBrowser
 hash
 )
 {
-let
+const
 url
 =
 "
@@ -2213,7 +2213,7 @@ openWebIDE
 (
 )
 {
-let
+const
 win
 =
 Services
@@ -2308,7 +2308,7 @@ allowChromeProcess
 =
 true
 ;
-let
+const
 transport
 =
 DebuggerServer
@@ -2317,7 +2317,7 @@ connectPipe
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -2326,7 +2326,7 @@ DebuggerClient
 transport
 )
 ;
-let
+const
 deferred
 =
 defer
@@ -2359,7 +2359,7 @@ response
 =
 >
 {
-let
+const
 options
 =
 {
@@ -2524,7 +2524,7 @@ openContentProcessToolbox
 gBrowser
 )
 {
-let
+const
 {
 childCount
 }
@@ -2544,7 +2544,7 @@ for
 the
 current
 tab
-let
+const
 mm
 =
 gBrowser
@@ -2576,7 +2576,7 @@ i
 +
 )
 {
-let
+const
 child
 =
 Services
@@ -2651,7 +2651,7 @@ WINDOW
 )
 ;
 }
-let
+const
 msg
 =
 L10N
@@ -2749,7 +2749,7 @@ workerClient
 =
 >
 {
-let
+const
 workerTarget
 =
 TargetFactory
@@ -2892,7 +2892,7 @@ isWebIDEWidgetInstalled
 (
 )
 {
-let
+const
 widgetWrapper
 =
 CustomizableUI
@@ -3016,14 +3016,14 @@ resolve
 )
 ;
 }
-let
+const
 doc
 =
 win
 .
 document
 ;
-let
+const
 {
 styleSheet
 loadPromise
@@ -3226,7 +3226,7 @@ unload
 this
 )
 ;
-let
+const
 tabContainer
 =
 win
@@ -3275,7 +3275,7 @@ setSlowScriptDebugHandler
 (
 )
 {
-let
+const
 debugService
 =
 Cc
@@ -3311,7 +3311,7 @@ tab
 callback
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -3337,7 +3337,7 @@ toolbox
 =
 >
 {
-let
+const
 threadClient
 =
 toolbox
@@ -3526,7 +3526,7 @@ function
 window
 )
 {
-let
+const
 chromeWindow
 =
 window
@@ -3627,7 +3627,7 @@ the
 slow
 script
 .
-let
+const
 utils
 =
 window
@@ -3687,7 +3687,7 @@ browser
 callback
 )
 {
-let
+const
 chromeWindow
 =
 browser
@@ -3696,7 +3696,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 tab
 =
 chromeWindow
@@ -3752,7 +3752,7 @@ unsetSlowScriptDebugHandler
 (
 )
 {
-let
+const
 debugService
 =
 Cc
@@ -3936,7 +3936,7 @@ re
 trying
 to
 add
-let
+const
 allDefs
 =
 gDevTools
@@ -3950,7 +3950,7 @@ prevDef
 ;
 for
 (
-let
+const
 def
 of
 allDefs
@@ -3986,7 +3986,7 @@ def
 }
 for
 (
-let
+const
 win
 of
 gDevToolsBrowser
@@ -4032,7 +4032,7 @@ hasToolboxOpened
 win
 )
 {
-let
+const
 tab
 =
 win
@@ -4043,7 +4043,7 @@ selectedTab
 ;
 for
 (
-let
+const
 [
 target
 ]
@@ -4109,7 +4109,7 @@ _updateMenuCheckbox
 {
 for
 (
-let
+const
 win
 of
 gDevToolsBrowser
@@ -4117,7 +4117,7 @@ gDevToolsBrowser
 _trackedBrowserWindows
 )
 {
-let
+const
 hasToolbox
 =
 gDevToolsBrowser
@@ -4127,7 +4127,7 @@ hasToolboxOpened
 win
 )
 ;
-let
+const
 menu
 =
 win
@@ -4212,7 +4212,7 @@ toolId
 {
 for
 (
-let
+const
 win
 of
 gDevToolsBrowser
@@ -4347,7 +4347,7 @@ closed
 window
 for
 (
-let
+const
 [
 target
 toolbox
@@ -4385,7 +4385,7 @@ destroy
 ;
 }
 }
-let
+const
 styleSheet
 =
 this
@@ -4418,7 +4418,7 @@ win
 )
 ;
 }
-let
+const
 tabContainer
 =
 win
@@ -4633,7 +4633,7 @@ destroy
 ;
 for
 (
-let
+const
 win
 of
 gDevToolsBrowser
@@ -4729,7 +4729,7 @@ function
 toolId
 )
 {
-let
+const
 toolDefinition
 =
 gDevTools
@@ -4912,7 +4912,7 @@ already
 fully
 loaded
 .
-let
+const
 enumerator
 =
 Services
@@ -4935,7 +4935,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 win
 =
 enumerator

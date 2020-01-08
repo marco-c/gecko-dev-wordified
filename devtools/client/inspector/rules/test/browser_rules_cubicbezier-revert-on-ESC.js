@@ -141,7 +141,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -167,7 +167,7 @@ testPressingEscapeRevertsChanges
 view
 )
 {
-let
+const
 {
 propEditor
 }
@@ -319,7 +319,7 @@ tooltip
 "
 )
 ;
-let
+const
 bezierTooltip
 =
 view
@@ -333,7 +333,7 @@ cubicBezier
 "
 )
 ;
-let
+const
 widget
 =
 await
@@ -341,7 +341,7 @@ bezierTooltip
 .
 widget
 ;
-let
+const
 onHidden
 =
 bezierTooltip
@@ -355,7 +355,7 @@ hidden
 "
 )
 ;
-let
+const
 onModifications
 =
 view

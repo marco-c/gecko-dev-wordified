@@ -142,7 +142,7 @@ function
 (
 )
 {
-let
+const
 helper
 =
 await
@@ -159,7 +159,7 @@ HIGHLIGHTER_TYPE
 )
 )
 ;
-let
+const
 {
 finalize
 }
@@ -516,7 +516,7 @@ hidden
 "
 )
 ;
-let
+const
 text
 =
 await
@@ -529,7 +529,7 @@ position
 "
 )
 ;
-let
+const
 [
 x
 y

@@ -1147,13 +1147,13 @@ trim
 (
 )
 ;
-let
+const
 obj
 =
 {
 }
 ;
-let
+const
 ch1
 =
 aLine
@@ -1163,7 +1163,7 @@ charAt
 0
 )
 ;
-let
+const
 ch2
 =
 aLine
@@ -1264,7 +1264,7 @@ pair
 =
 >
 {
-let
+const
 [
 key
 val
@@ -1331,7 +1331,7 @@ SP_setupPopupShowing
 (
 )
 {
-let
+const
 elementIDs
 =
 [
@@ -1351,13 +1351,13 @@ popup
 ;
 for
 (
-let
+const
 elementID
 of
 elementIDs
 )
 {
-let
+const
 elem
 =
 document
@@ -1387,7 +1387,7 @@ goUpdateGlobalEditMenuItems
 (
 )
 ;
-let
+const
 commands
 =
 [
@@ -1440,7 +1440,7 @@ SP_setupCommands
 (
 )
 {
-let
+const
 commands
 =
 {
@@ -2027,13 +2027,13 @@ normalFontSize
 ;
 for
 (
-let
+const
 command
 in
 commands
 )
 {
-let
+const
 elem
 =
 document
@@ -2197,7 +2197,7 @@ preferenceName
 menuId
 )
 {
-let
+const
 checked
 =
 Services
@@ -2279,7 +2279,7 @@ fontSize
 commandId
 )
 {
-let
+const
 prefFontSize
 =
 Services
@@ -2430,7 +2430,7 @@ dirty
 (
 )
 {
-let
+const
 clean
 =
 this
@@ -3111,7 +3111,7 @@ gBrowser
 (
 )
 {
-let
+const
 recentWin
 =
 this
@@ -3391,7 +3391,7 @@ browserWindow
 )
 ;
 }
-let
+const
 evalOptions
 =
 {
@@ -3416,7 +3416,7 @@ webConsoleClient
 =
 >
 {
-let
+const
 deferred
 =
 defer
@@ -3562,7 +3562,7 @@ usageCount
 +
 +
 ;
-let
+const
 selection
 =
 this
@@ -3634,14 +3634,14 @@ SP_run
 (
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 reject
 =
 aReason
@@ -3672,7 +3672,7 @@ aResult
 =
 >
 {
-let
+const
 resolve
 =
 (
@@ -3789,14 +3789,14 @@ SP_inspect
 (
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 reject
 =
 aReason
@@ -3827,7 +3827,7 @@ aResult
 =
 >
 {
-let
+const
 resolve
 =
 (
@@ -3958,7 +3958,7 @@ SP_reloadAndRun
 (
 )
 {
-let
+const
 deferred
 =
 defer
@@ -3997,7 +3997,7 @@ invalid
 return
 ;
 }
-let
+const
 target
 =
 TargetFactory
@@ -4146,14 +4146,14 @@ SP_display
 (
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 reject
 =
 aReason
@@ -4184,7 +4184,7 @@ aResult
 =
 >
 {
-let
+const
 resolve
 =
 (
@@ -4252,7 +4252,7 @@ reject
 }
 else
 {
-let
+const
 objectClient
 =
 new
@@ -4831,7 +4831,7 @@ aCursorPos
 {
 for
 (
-let
+const
 statement
 of
 aAst
@@ -4877,7 +4877,7 @@ VariableDeclaration
 :
 for
 (
-let
+const
 decl
 of
 statement
@@ -5048,7 +5048,7 @@ line
 ;
 for
 (
-let
+const
 line
 of
 aFullText
@@ -5574,7 +5574,7 @@ SP__writePrimitiveAsComment
 aValue
 )
 {
-let
+const
 deferred
 =
 defer
@@ -5593,7 +5593,7 @@ longString
 "
 )
 {
-let
+const
 client
 =
 this
@@ -5747,7 +5747,7 @@ SP_writeAsComment
 aValue
 )
 {
-let
+const
 value
 =
 "
@@ -5779,7 +5779,7 @@ somethingSelected
 )
 )
 {
-let
+const
 from
 =
 this
@@ -5810,7 +5810,7 @@ getSelection
 value
 )
 ;
-let
+const
 to
 =
 this
@@ -5846,7 +5846,7 @@ to
 return
 ;
 }
-let
+const
 text
 =
 this
@@ -5868,7 +5868,7 @@ text
 value
 )
 ;
-let
+const
 [
 from
 to
@@ -5989,7 +5989,7 @@ SP_writeAsErrorComment
 aError
 )
 {
-let
+const
 deferred
 =
 defer
@@ -6012,14 +6012,14 @@ exception
 )
 )
 {
-let
+const
 error
 =
 aError
 .
 exception
 ;
-let
+const
 type
 =
 error
@@ -6135,14 +6135,14 @@ aError
 exception
 )
 {
-let
+const
 error
 =
 aError
 .
 exception
 ;
-let
+const
 stack
 =
 this
@@ -6209,7 +6209,7 @@ server
 for
 more
 .
-let
+const
 objectClient
 =
 new
@@ -6248,7 +6248,7 @@ aResponse
 return
 ;
 }
-let
+const
 {
 ownProperties
 safeGetterValues
@@ -6256,7 +6256,7 @@ safeGetterValues
 =
 aResponse
 ;
-let
+const
 error
 =
 Object
@@ -6282,7 +6282,7 @@ object
 .
 for
 (
-let
+const
 key
 of
 Object
@@ -6308,7 +6308,7 @@ getterValue
 }
 for
 (
-let
+const
 key
 of
 Object
@@ -6332,7 +6332,7 @@ key
 value
 ;
 }
-let
+const
 stack
 =
 this
@@ -6905,7 +6905,7 @@ fileOverwriteConfirmation
 return
 ;
 }
-let
+const
 encoder
 =
 new
@@ -6913,7 +6913,7 @@ TextEncoder
 (
 )
 ;
-let
+const
 buffer
 =
 encoder
@@ -6927,7 +6927,7 @@ getText
 )
 )
 ;
-let
+const
 writePromise
 =
 OS
@@ -7076,7 +7076,7 @@ UTF
 "
 )
 {
-let
+const
 charsets
 =
 Services
@@ -7399,7 +7399,7 @@ file
 type
 detection
 .
-let
+const
 channel
 =
 NetUtil
@@ -7483,7 +7483,7 @@ aStatus
 )
 )
 {
-let
+const
 charsets
 =
 this
@@ -7522,7 +7522,7 @@ if
 content
 )
 {
-let
+const
 message
 =
 this
@@ -7609,7 +7609,7 @@ mode
 line
 comment
 .
-let
+const
 line
 =
 content
@@ -7625,7 +7625,7 @@ n
 0
 ]
 ;
-let
+const
 modeline
 =
 this
@@ -7635,7 +7635,7 @@ _scanModeLine
 line
 )
 ;
-let
+const
 chrome
 =
 Services
@@ -7825,7 +7825,7 @@ SP_openFile
 aIndex
 )
 {
-let
+const
 promptCallback
 =
 aFile
@@ -7912,7 +7912,7 @@ Ci
 nsIFile
 )
 ;
-let
+const
 filePath
 =
 this
@@ -8018,7 +8018,7 @@ promptCallback
 }
 else
 {
-let
+const
 fp
 =
 Cc
@@ -8168,7 +8168,7 @@ SP_getRecentFiles
 (
 )
 {
-let
+const
 branch
 =
 Services
@@ -8224,7 +8224,7 @@ recentFilePaths
 )
 )
 {
-let
+const
 data
 =
 branch
@@ -8291,7 +8291,7 @@ SP_setRecentFile
 aFile
 )
 {
-let
+const
 maxRecent
 =
 Services
@@ -8313,7 +8313,7 @@ maxRecent
 return
 ;
 }
-let
+const
 filePaths
 =
 this
@@ -8322,14 +8322,14 @@ getRecentFiles
 (
 )
 ;
-let
+const
 filesCount
 =
 filePaths
 .
 length
 ;
-let
+const
 pathIndex
 =
 filePaths
@@ -8589,7 +8589,7 @@ SP_populateRecentFilesMenu
 (
 )
 {
-let
+const
 maxRecent
 =
 Services
@@ -8601,7 +8601,7 @@ getIntPref
 PREF_RECENT_FILES_MAX
 )
 ;
-let
+const
 recentFilesMenu
 =
 document
@@ -8637,14 +8637,14 @@ true
 return
 ;
 }
-let
+const
 recentFilesPopup
 =
 recentFilesMenu
 .
 firstChild
 ;
-let
+const
 filePaths
 =
 this
@@ -8653,7 +8653,7 @@ getRecentFiles
 (
 )
 ;
-let
+const
 filename
 =
 this
@@ -8743,7 +8743,7 @@ i
 i
 )
 {
-let
+const
 menuitem
 =
 document
@@ -8853,7 +8853,7 @@ menuseparator
 )
 )
 ;
-let
+const
 clearItems
 =
 document
@@ -8982,7 +8982,7 @@ aIndex
 aLength
 )
 {
-let
+const
 filePaths
 =
 this
@@ -9084,7 +9084,7 @@ SP_handleRecentFileMaxChange
 (
 )
 {
-let
+const
 maxRecent
 =
 Services
@@ -9096,7 +9096,7 @@ getIntPref
 PREF_RECENT_FILES_MAX
 )
 ;
-let
+const
 menu
 =
 document
@@ -9192,7 +9192,7 @@ hidden
 )
 ;
 }
-let
+const
 filePaths
 =
 this
@@ -9210,7 +9210,7 @@ filePaths
 length
 )
 {
-let
+const
 diff
 =
 filePaths
@@ -9287,7 +9287,7 @@ aCallback
 )
 ;
 }
-let
+const
 file
 =
 Cc
@@ -9431,7 +9431,7 @@ SP_saveFileAs
 aCallback
 )
 {
-let
+const
 fp
 =
 Cc
@@ -9454,7 +9454,7 @@ Ci
 nsIFilePicker
 )
 ;
-let
+const
 fpCallback
 =
 aResult
@@ -9657,7 +9657,7 @@ SP_revertFile
 aCallback
 )
 {
-let
+const
 file
 =
 Cc
@@ -9823,14 +9823,14 @@ this
 filename
 )
 {
-let
+const
 ps
 =
 Services
 .
 prompt
 ;
-let
+const
 flags
 =
 ps
@@ -9849,7 +9849,7 @@ ps
 .
 BUTTON_TITLE_CANCEL
 ;
-let
+const
 button
 =
 ps
@@ -10000,7 +10000,7 @@ SP_openWebConsole
 (
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -10072,7 +10072,7 @@ SCRATCHPAD_CONTEXT_CONTENT
 return
 ;
 }
-let
+const
 content
 =
 document
@@ -10193,7 +10193,7 @@ SCRATCHPAD_CONTEXT_BROWSER
 return
 ;
 }
-let
+const
 browser
 =
 document
@@ -10209,7 +10209,7 @@ browser
 "
 )
 ;
-let
+const
 reloadAndRun
 =
 document
@@ -10385,7 +10385,7 @@ col
 "
 )
 ;
-let
+const
 {
 line
 ch
@@ -10476,7 +10476,7 @@ document
 return
 ;
 }
-let
+const
 chrome
 =
 Services
@@ -10493,7 +10493,7 @@ if
 chrome
 )
 {
-let
+const
 environmentMenu
 =
 document
@@ -10509,7 +10509,7 @@ menu
 "
 )
 ;
-let
+const
 errorConsoleCommand
 =
 document
@@ -10525,7 +10525,7 @@ errorConsole
 "
 )
 ;
-let
+const
 chromeContextCommand
 =
 document
@@ -10749,7 +10749,7 @@ createUid
 )
 ;
 }
-let
+const
 config
 =
 {
@@ -10824,7 +10824,7 @@ Editor
 config
 )
 ;
-let
+const
 editorElement
 =
 document
@@ -10939,7 +10939,7 @@ this
 updateStatusBar
 )
 ;
-let
+const
 okstring
 =
 this
@@ -10955,7 +10955,7 @@ okstring
 "
 )
 ;
-let
+const
 msg
 =
 this
@@ -11240,7 +11240,7 @@ WINNT
 "
 )
 {
-let
+const
 helpMenu
 =
 document
@@ -11558,7 +11558,7 @@ this
 _onPaste
 )
 {
-let
+const
 editorElement
 =
 document
@@ -11830,14 +11830,14 @@ this
 dirty
 )
 {
-let
+const
 ps
 =
 Services
 .
 prompt
 ;
-let
+const
 flags
 =
 ps
@@ -11864,7 +11864,7 @@ ps
 .
 BUTTON_TITLE_DONT_SAVE
 ;
-let
+const
 button
 =
 ps
@@ -12192,7 +12192,7 @@ optionName
 optionPreference
 )
 {
-let
+const
 newOptionValue
 =
 !
@@ -12250,7 +12250,7 @@ SP_increaseFontSize
 (
 )
 {
-let
+const
 size
 =
 this
@@ -12268,7 +12268,7 @@ size
 MAXIMUM_FONT_SIZE
 )
 {
-let
+const
 newFontSize
 =
 size
@@ -12375,7 +12375,7 @@ SP_decreaseFontSize
 (
 )
 {
-let
+const
 size
 =
 this
@@ -12393,7 +12393,7 @@ size
 MINIMUM_FONT_SIZE
 )
 {
-let
+const
 newFontSize
 =
 size
@@ -12673,7 +12673,7 @@ SP_removeObserver
 aObserver
 )
 {
-let
+const
 index
 =
 this
@@ -12825,7 +12825,7 @@ length
 i
 )
 {
-let
+const
 observer
 =
 this
@@ -12835,7 +12835,7 @@ _observers
 i
 ]
 ;
-let
+const
 handler
 =
 observer
@@ -12884,7 +12884,7 @@ SP_openDocumentationPage
 (
 )
 {
-let
+const
 url
 =
 this
@@ -13167,7 +13167,7 @@ this
 _connector
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -13182,7 +13182,7 @@ deferred
 .
 promise
 ;
-let
+const
 connectTimer
 =
 setTimeout
@@ -13250,7 +13250,7 @@ aTarget
 =
 >
 {
-let
+const
 consoleActor
 =
 aTarget
@@ -13259,7 +13259,7 @@ form
 .
 consoleActor
 ;
-let
+const
 client
 =
 aTarget
@@ -13380,7 +13380,7 @@ ST__attach
 aSubject
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -13534,7 +13534,7 @@ allowChromeProcess
 =
 true
 ;
-let
+const
 client
 =
 new
@@ -13730,7 +13730,7 @@ decorate
 this
 )
 ;
-let
+const
 ToolSidebar
 =
 require
@@ -13748,7 +13748,7 @@ sidebar
 .
 ToolSidebar
 ;
-let
+const
 tabbox
 =
 document
@@ -13915,14 +13915,14 @@ show
 (
 )
 ;
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 onTabReady
 =
 (
@@ -13950,7 +13950,7 @@ releaseActors
 }
 else
 {
-let
+const
 window
 =
 this
@@ -13964,7 +13964,7 @@ variablesview
 "
 )
 ;
-let
+const
 container
 =
 window
@@ -14426,7 +14426,7 @@ onlyEnumVisible
 false
 ;
 }
-let
+const
 view
 =
 this

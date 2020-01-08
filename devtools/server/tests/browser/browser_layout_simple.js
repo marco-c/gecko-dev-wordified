@@ -69,7 +69,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -176,7 +176,7 @@ getGrids
 "
 )
 ;
-let
+const
 invalidNode
 =
 await
@@ -192,7 +192,7 @@ title
 "
 )
 ;
-let
+const
 grids
 =
 await

@@ -370,7 +370,7 @@ heapWorker
 )
 )
 ;
-let
+const
 census
 =
 getState
@@ -384,7 +384,7 @@ snapshots
 .
 census
 ;
-let
+const
 root1
 =
 census
@@ -396,7 +396,7 @@ children
 0
 ]
 ;
-let
+const
 root2
 =
 census
@@ -408,7 +408,7 @@ children
 0
 ]
 ;
-let
+const
 root3
 =
 census
@@ -420,7 +420,7 @@ children
 0
 ]
 ;
-let
+const
 root4
 =
 census
@@ -432,7 +432,7 @@ children
 0
 ]
 ;
-let
+const
 child1
 =
 root1
@@ -453,7 +453,7 @@ node
 "
 )
 ;
-let
+const
 firstNode
 =
 doc

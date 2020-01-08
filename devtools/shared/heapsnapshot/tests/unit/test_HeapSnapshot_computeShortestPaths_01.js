@@ -233,7 +233,7 @@ size
 ;
 for
 (
-let
+const
 [
 target
 paths
@@ -367,7 +367,7 @@ toString
 ;
 for
 (
-let
+const
 pth
 of
 paths
@@ -383,7 +383,7 @@ path
 ;
 for
 (
-let
+const
 part
 of
 pth
@@ -448,7 +448,7 @@ dumpn
 ;
 for
 (
-let
+const
 path2
 of
 paths
@@ -498,7 +498,7 @@ node
 ;
 for
 (
-let
+const
 part
 of
 path2

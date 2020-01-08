@@ -108,7 +108,7 @@ page
 "
 )
 ;
-let
+const
 {
 inspector
 testActor
@@ -192,7 +192,7 @@ content
 "
 )
 ;
-let
+const
 {
 editor
 }
@@ -209,7 +209,7 @@ div
 inspector
 )
 ;
-let
+const
 attr
 =
 editor
@@ -231,7 +231,7 @@ editable
 "
 )
 ;
-let
+const
 mutated
 =
 inspector

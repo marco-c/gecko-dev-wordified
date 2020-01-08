@@ -133,8 +133,8 @@ waitForExplicitFinish
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -148,12 +148,12 @@ MAP_PREF
 true
 )
 ;
-let
+const
 {
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -182,7 +182,7 @@ editor
 with
 media
 rules
-let
+const
 mediaEditor
 =
 ui
@@ -192,7 +192,7 @@ editors
 0
 ]
 ;
-yield
+await
 openEditor
 (
 mediaEditor
@@ -221,7 +221,7 @@ testMediaEditor
 editor
 )
 {
-let
+const
 sidebar
 =
 editor
@@ -255,7 +255,7 @@ media
 "
 )
 ;
-let
+const
 entries
 =
 [
@@ -334,7 +334,7 @@ text
 lineno
 )
 {
-let
+const
 cond
 =
 rule
@@ -368,7 +368,7 @@ for
 text
 )
 ;
-let
+const
 line
 =
 rule

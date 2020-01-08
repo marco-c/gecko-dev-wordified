@@ -531,7 +531,7 @@ visible
 "
 )
 ;
-let
+const
 waitForMessagePromises
 =
 [
@@ -860,7 +860,7 @@ console
 "
 )
 ;
-let
+const
 waitForMessagePromises
 =
 [

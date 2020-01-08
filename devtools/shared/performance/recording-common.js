@@ -601,7 +601,7 @@ function
 (
 )
 {
-let
+const
 label
 =
 this
@@ -610,7 +610,7 @@ getLabel
 (
 )
 ;
-let
+const
 duration
 =
 this
@@ -619,7 +619,7 @@ getDuration
 (
 )
 ;
-let
+const
 markers
 =
 this
@@ -628,7 +628,7 @@ getMarkers
 (
 )
 ;
-let
+const
 frames
 =
 this
@@ -637,7 +637,7 @@ getFrames
 (
 )
 ;
-let
+const
 memory
 =
 this
@@ -646,7 +646,7 @@ getMemory
 (
 )
 ;
-let
+const
 ticks
 =
 this
@@ -655,7 +655,7 @@ getTicks
 (
 )
 ;
-let
+const
 allocations
 =
 this
@@ -664,7 +664,7 @@ getAllocations
 (
 )
 ;
-let
+const
 profile
 =
 this
@@ -673,7 +673,7 @@ getProfile
 (
 )
 ;
-let
+const
 configuration
 =
 this
@@ -682,7 +682,7 @@ getConfiguration
 (
 )
 ;
-let
+const
 systemHost
 =
 this
@@ -691,7 +691,7 @@ getHostSystemInfo
 (
 )
 ;
-let
+const
 systemClient
 =
 this

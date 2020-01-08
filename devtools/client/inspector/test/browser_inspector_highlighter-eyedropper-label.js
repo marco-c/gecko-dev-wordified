@@ -586,7 +586,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -598,7 +598,7 @@ openInspectorForURL
 TEST_PAGE
 )
 ;
-let
+const
 helper
 =
 await
@@ -619,7 +619,7 @@ prefix
 =
 ID
 ;
-let
+const
 {
 mouse
 show
@@ -763,7 +763,7 @@ place
 ;
 for
 (
-let
+const
 {
 desc
 getCoordinates
@@ -778,7 +778,7 @@ info
 desc
 )
 ;
-let
+const
 {
 x
 y
@@ -852,7 +852,7 @@ positions
 {
 for
 (
-let
+const
 position
 in
 positions
@@ -908,7 +908,7 @@ getElementAttribute
 name
 )
 {
-let
+const
 value
 =
 await

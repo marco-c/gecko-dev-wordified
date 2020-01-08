@@ -149,7 +149,7 @@ in
 content
 scope
 .
-let
+const
 WebConsoleOutputWrapper
 =
 BrowserLoader

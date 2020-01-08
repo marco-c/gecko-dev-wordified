@@ -293,7 +293,7 @@ enabled
 true
 )
 ;
-let
+const
 {
 inspector
 }
@@ -304,14 +304,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 markup
 }
 =
 inspector
 ;
-let
+const
 ruleview
 =
 inspector
@@ -354,7 +354,7 @@ host
 "
 )
 ;
-let
+const
 hostFront
 =
 await
@@ -402,7 +402,7 @@ child
 "
 )
 ;
-let
+const
 hostContainer
 =
 markup
@@ -422,7 +422,7 @@ root
 "
 )
 ;
-let
+const
 childContainers
 =
 hostContainer
@@ -431,7 +431,7 @@ getChildContainers
 (
 )
 ;
-let
+const
 shadowRootContainer
 =
 childContainers
@@ -455,7 +455,7 @@ slot
 "
 )
 ;
-let
+const
 shadowChildContainers
 =
 shadowRootContainer
@@ -464,7 +464,7 @@ getChildContainers
 (
 )
 ;
-let
+const
 slotContainer
 =
 shadowChildContainers
@@ -479,7 +479,7 @@ inspector
 slotContainer
 )
 ;
-let
+const
 slotChildContainers
 =
 slotContainer
@@ -601,7 +601,7 @@ name
 expectedValue
 )
 {
-let
+const
 rule
 =
 getRuleViewRule
@@ -626,7 +626,7 @@ slotted
 selector
 )
 ;
-let
+const
 value
 =
 getRuleViewPropertyValue

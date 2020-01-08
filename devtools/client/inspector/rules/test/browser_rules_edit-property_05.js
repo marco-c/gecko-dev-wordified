@@ -146,7 +146,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -167,7 +167,7 @@ testid
 inspector
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -178,7 +178,7 @@ view
 .
 rule
 ;
-let
+const
 prop
 =
 rule
@@ -269,7 +269,7 @@ editor
 nameSpan
 )
 ;
-let
+const
 onNameDone
 =
 view
@@ -312,7 +312,7 @@ value
 "
 )
 ;
-let
+const
 onValueDone
 =
 view
@@ -578,7 +578,7 @@ getRulePropertyValue
 name
 )
 {
-let
+const
 propValue
 =
 await

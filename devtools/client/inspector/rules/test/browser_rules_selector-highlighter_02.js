@@ -174,7 +174,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -198,7 +198,7 @@ reference
 of
 the
 NodeFront
-let
+const
 HighlighterFront
 =
 {

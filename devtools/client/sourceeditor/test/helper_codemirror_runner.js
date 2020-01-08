@@ -90,7 +90,7 @@ data
 }
 )
 {
-let
+const
 {
 statusMsg
 type

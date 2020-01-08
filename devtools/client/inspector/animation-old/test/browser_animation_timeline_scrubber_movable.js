@@ -135,7 +135,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -145,14 +145,14 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 timeline
 =
 panel
 .
 animationsTimelineComponent
 ;
-let
+const
 {
 win
 timeHeaderEl
@@ -162,7 +162,7 @@ scrubberHandleEl
 =
 timeline
 ;
-let
+const
 playTimelineButtonEl
 =
 panel
@@ -395,7 +395,7 @@ moves
 "
 )
 ;
-let
+const
 onDataChanged
 =
 timeline
@@ -510,7 +510,7 @@ y
 type
 )
 {
-let
+const
 onDataChanged
 =
 timeline
@@ -572,7 +572,7 @@ timeHeaderEl
 pos
 )
 {
-let
+const
 newPos
 =
 Math
@@ -589,7 +589,7 @@ left
 )
 )
 ;
-let
+const
 expectedPos
 =
 Math

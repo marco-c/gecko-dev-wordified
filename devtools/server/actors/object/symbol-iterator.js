@@ -364,7 +364,7 @@ count
 }
 )
 {
-let
+const
 ownSymbols
 =
 [

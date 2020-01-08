@@ -125,7 +125,7 @@ toString
 )
 )
 ;
-let
+const
 client
 =
 new
@@ -188,7 +188,7 @@ test_wrapped_primitive_grips
 (
 )
 {
-let
+const
 tests
 =
 [
@@ -248,7 +248,7 @@ bar
 ;
 for
 (
-let
+const
 data
 of
 tests
@@ -277,7 +277,7 @@ event
 packet
 )
 {
-let
+const
 [
 grip
 ]
@@ -403,7 +403,7 @@ preview
 return
 ;
 }
-let
+const
 value
 =
 grip

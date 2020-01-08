@@ -99,7 +99,7 @@ performTest
 (
 )
 {
-let
+const
 [
 host
 doc
@@ -141,7 +141,7 @@ margin
 "
 )
 ;
-let
+const
 graph
 =
 new
@@ -286,7 +286,7 @@ created
 "
 )
 ;
-let
+const
 bounds
 =
 host

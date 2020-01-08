@@ -100,7 +100,7 @@ resolve
 =
 >
 {
-let
+const
 {
 gBrowser
 }
@@ -109,7 +109,7 @@ tab
 .
 ownerGlobal
 ;
-let
+const
 {
 tabContainer
 }
@@ -163,7 +163,7 @@ isMenuChecked
 =
 >
 {
-let
+const
 menu
 =
 document

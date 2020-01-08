@@ -134,7 +134,7 @@ tests
 [
 ]
 ;
-let
+const
 falsyValues
 =
 [
@@ -246,7 +246,7 @@ shown
 }
 )
 ;
-let
+const
 {
 DebuggerServer
 }
@@ -262,7 +262,7 @@ main
 "
 )
 ;
-let
+const
 longLength
 =
 DebuggerServer
@@ -271,7 +271,7 @@ LONG_STRING_LENGTH
 +
 1
 ;
-let
+const
 longString
 =
 new
@@ -287,7 +287,7 @@ a
 "
 )
 ;
-let
+const
 shortedString
 =
 longString

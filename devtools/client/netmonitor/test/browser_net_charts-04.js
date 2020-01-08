@@ -61,7 +61,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -83,7 +83,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 monitor
 tab
@@ -106,7 +106,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 windowRequire
@@ -116,7 +116,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 {
 Chart
 }
@@ -136,7 +136,7 @@ Chart
 "
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -157,7 +157,7 @@ SIMPLE_URL
 await
 wait
 ;
-let
+const
 table
 =
 Chart
@@ -226,14 +226,14 @@ label2
 }
 )
 ;
-let
+const
 node
 =
 table
 .
 node
 ;
-let
+const
 title
 =
 node
@@ -250,7 +250,7 @@ title
 "
 )
 ;
-let
+const
 grid
 =
 node
@@ -267,7 +267,7 @@ grid
 "
 )
 ;
-let
+const
 totals
 =
 node
@@ -284,7 +284,7 @@ totals
 "
 )
 ;
-let
+const
 rows
 =
 grid
@@ -301,7 +301,7 @@ row
 "
 )
 ;
-let
+const
 sums
 =
 node

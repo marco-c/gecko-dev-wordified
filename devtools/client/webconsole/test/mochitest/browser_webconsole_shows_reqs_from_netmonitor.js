@@ -314,7 +314,7 @@ the
 network
 panel
 .
-let
+const
 target
 =
 TargetFactory
@@ -324,7 +324,7 @@ forTab
 currentTab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -365,7 +365,7 @@ testNetmonitor
 toolbox
 )
 {
-let
+const
 monitor
 =
 toolbox
@@ -374,7 +374,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -384,7 +384,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -404,7 +404,7 @@ index
 "
 )
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -485,7 +485,7 @@ panel
 "
 )
 ;
-let
+const
 item
 =
 getSortedRequests

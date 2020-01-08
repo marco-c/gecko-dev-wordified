@@ -142,7 +142,7 @@ runTests
 (
 )
 {
-let
+const
 sp
 =
 gScratchpadWindow
@@ -631,7 +631,7 @@ runTests2
 (
 )
 {
-let
+const
 sp
 =
 gScratchpadWindow

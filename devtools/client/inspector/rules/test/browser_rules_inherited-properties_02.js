@@ -158,7 +158,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -209,7 +209,7 @@ t
 show
 up
 .
-let
+const
 elementStyle
 =
 view
@@ -233,7 +233,7 @@ rule
 "
 )
 ;
-let
+const
 elementRule
 =
 elementStyle

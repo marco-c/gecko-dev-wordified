@@ -124,7 +124,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -174,7 +174,7 @@ div
 inspector
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -360,7 +360,7 @@ changed
 "
 )
 ;
-let
+const
 valueEditor
 =
 ruleEditor

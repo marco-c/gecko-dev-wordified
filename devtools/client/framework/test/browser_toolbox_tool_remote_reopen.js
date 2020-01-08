@@ -413,7 +413,7 @@ function
 (
 )
 {
-let
+const
 toolIds
 =
 gDevTools
@@ -466,7 +466,7 @@ index
 +
 )
 {
-let
+const
 toolId
 =
 toolIds
@@ -532,7 +532,7 @@ be
 toolId
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -587,7 +587,7 @@ registerAllActors
 (
 )
 ;
-let
+const
 transport
 =
 DebuggerServer
@@ -596,7 +596,7 @@ connectPipe
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -628,7 +628,7 @@ getTarget
 client
 )
 {
-let
+const
 deferred
 =
 defer
@@ -647,7 +647,7 @@ tabList
 =
 >
 {
-let
+const
 target
 =
 TargetFactory
@@ -716,7 +716,7 @@ blank
 "
 )
 ;
-let
+const
 client
 =
 await
@@ -724,7 +724,7 @@ getClient
 (
 )
 ;
-let
+const
 target
 =
 await
@@ -763,7 +763,7 @@ remain
 .
 for
 (
-let
+const
 pool
 of
 client
@@ -784,7 +784,7 @@ continue
 }
 for
 (
-let
+const
 actor
 of
 pool

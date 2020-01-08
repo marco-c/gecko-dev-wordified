@@ -220,7 +220,7 @@ function
 window
 )
 {
-let
+const
 shortcuts
 =
 new
@@ -231,7 +231,7 @@ window
 }
 )
 ;
-let
+const
 docShell
 =
 window
@@ -257,7 +257,7 @@ Ci
 nsIDocShell
 )
 ;
-let
+const
 contViewer
 =
 docShell
@@ -279,7 +279,7 @@ ZOOM_PREF
 )
 )
 ;
-let
+const
 zoomIn
 =
 function
@@ -304,7 +304,7 @@ preventDefault
 ;
 }
 ;
-let
+const
 zoomOut
 =
 function
@@ -329,7 +329,7 @@ preventDefault
 ;
 }
 ;
-let
+const
 zoomReset
 =
 function
@@ -350,7 +350,7 @@ preventDefault
 ;
 }
 ;
-let
+const
 setZoom
 =
 function
@@ -475,7 +475,7 @@ key
 zoomIn
 )
 ;
-let
+const
 zoomIn2
 =
 L10N
@@ -524,7 +524,7 @@ key
 zoomOut
 )
 ;
-let
+const
 zoomOut2
 =
 L10N
@@ -573,7 +573,7 @@ key
 zoomReset
 )
 ;
-let
+const
 zoomReset2
 =
 L10N

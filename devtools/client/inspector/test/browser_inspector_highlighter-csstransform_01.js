@@ -186,7 +186,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -215,14 +215,14 @@ TEST_URL
 )
 )
 ;
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -313,7 +313,7 @@ default
 "
 )
 ;
-let
+const
 hidden
 =
 await
@@ -454,7 +454,7 @@ exists
 ;
 for
 (
-let
+const
 nb
 of
 [
@@ -544,7 +544,7 @@ node
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -565,7 +565,7 @@ show
 node
 )
 ;
-let
+const
 hidden
 =
 await
@@ -624,7 +624,7 @@ node
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -645,7 +645,7 @@ show
 node
 )
 ;
-let
+const
 hidden
 =
 await
@@ -703,7 +703,7 @@ node
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -827,7 +827,7 @@ node
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -867,7 +867,7 @@ corners
 "
 )
 ;
-let
+const
 lines
 =
 [
@@ -875,7 +875,7 @@ lines
 ;
 for
 (
-let
+const
 nb
 of
 [
@@ -894,7 +894,7 @@ of
 ]
 )
 {
-let
+const
 x1
 =
 await
@@ -917,7 +917,7 @@ x1
 highlighterFront
 )
 ;
-let
+const
 y1
 =
 await
@@ -940,7 +940,7 @@ y1
 highlighterFront
 )
 ;
-let
+const
 x2
 =
 await
@@ -963,7 +963,7 @@ x2
 highlighterFront
 )
 ;
-let
+const
 y2
 =
 await
@@ -1090,7 +1090,7 @@ nb
 i
 )
 ;
-let
+const
 line
 =
 lines
@@ -1098,7 +1098,7 @@ lines
 i
 ]
 ;
-let
+const
 p1
 =
 points1
@@ -1168,7 +1168,7 @@ coordinate
 "
 )
 ;
-let
+const
 p2
 =
 points2

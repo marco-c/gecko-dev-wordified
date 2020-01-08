@@ -124,7 +124,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -144,7 +144,7 @@ div
 inspector
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -202,7 +202,7 @@ to
 refresh
 )
 .
-let
+const
 onMutation
 =
 inspector
@@ -214,7 +214,7 @@ markupmutation
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view

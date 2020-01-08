@@ -242,7 +242,7 @@ test_nullSecurityInfo
 (
 )
 {
-let
+const
 result
 =
 NetworkHelper
@@ -330,7 +330,7 @@ errorCode
 -
 8180
 ;
-let
+const
 result
 =
 NetworkHelper
@@ -409,7 +409,7 @@ wpl
 .
 STATE_IS_INSECURE
 ;
-let
+const
 result
 =
 NetworkHelper
@@ -481,7 +481,7 @@ wpl
 .
 STATE_IS_SECURE
 ;
-let
+const
 result
 =
 NetworkHelper
@@ -543,7 +543,7 @@ wpl
 .
 STATE_IS_BROKEN
 ;
-let
+const
 result
 =
 NetworkHelper

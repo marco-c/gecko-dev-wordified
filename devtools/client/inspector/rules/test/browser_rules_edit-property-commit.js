@@ -291,7 +291,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -314,7 +314,7 @@ inspector
 ;
 for
 (
-let
+const
 data
 of
 testData
@@ -344,7 +344,7 @@ expected
 }
 )
 {
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -353,7 +353,7 @@ view
 1
 )
 ;
-let
+const
 propEditor
 =
 idRuleEditor
@@ -378,7 +378,7 @@ field
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -487,7 +487,7 @@ changed
 "
 )
 ;
-let
+const
 onBlur
 =
 once

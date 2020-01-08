@@ -517,14 +517,14 @@ init
 (
 )
 ;
-let
+const
 trace
 =
 connectPipeTracing
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -541,7 +541,7 @@ strfront
 =
 null
 ;
-let
+const
 expectRootChildren
 =
 function
@@ -1203,7 +1203,7 @@ then
 =
 >
 {
-let
+const
 deferred
 =
 defer
@@ -1404,7 +1404,7 @@ then
 =
 >
 {
-let
+const
 deferred
 =
 defer

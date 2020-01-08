@@ -231,7 +231,7 @@ addTab
 URL
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -389,7 +389,7 @@ waitForTick
 (
 )
 ;
-let
+const
 btn
 =
 toolbox
@@ -467,7 +467,7 @@ present
 "
 )
 ;
-let
+const
 menu
 =
 await
@@ -523,7 +523,7 @@ list
 menu
 is
 populated
-let
+const
 frames
 =
 menu
@@ -547,7 +547,7 @@ list
 "
 )
 ;
-let
+const
 topFrameBtn
 =
 frames
@@ -568,7 +568,7 @@ URL
 0
 ]
 ;
-let
+const
 iframeBtn
 =
 frames
@@ -630,7 +630,7 @@ the
 view
 is
 empty
-let
+const
 willNavigate
 =
 toolbox
@@ -675,7 +675,7 @@ top
 level
 document
 .
-let
+const
 newRoot
 =
 toolbox
@@ -937,7 +937,7 @@ keyPress
 Alt
 +
 Down
-let
+const
 shortcut
 =
 L10N

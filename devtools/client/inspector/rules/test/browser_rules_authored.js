@@ -69,7 +69,7 @@ createTestContent
 style
 )
 {
-let
+const
 html
 =
 <
@@ -132,7 +132,7 @@ html
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -164,7 +164,7 @@ function
 (
 )
 {
-let
+const
 view
 =
 await
@@ -228,14 +228,14 @@ f06
 "
 )
 ;
-let
+const
 elementStyle
 =
 view
 .
 _elementStyle
 ;
-let
+const
 expected
 =
 [
@@ -309,7 +309,7 @@ true
 }
 ]
 ;
-let
+const
 rule
 =
 elementStyle
@@ -337,7 +337,7 @@ length
 i
 )
 {
-let
+const
 prop
 =
 rule

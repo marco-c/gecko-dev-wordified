@@ -535,7 +535,7 @@ sortFn
 =
 >
 {
-let
+const
 arr
 =
 [
@@ -618,7 +618,7 @@ sortFn
 =
 >
 {
-let
+const
 arr
 =
 [

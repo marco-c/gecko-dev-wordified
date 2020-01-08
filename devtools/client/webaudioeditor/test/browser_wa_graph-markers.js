@@ -71,7 +71,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -83,14 +83,14 @@ initWebAudioEditor
 SIMPLE_CONTEXT_URL
 )
 ;
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 gFront
 MARKER_STYLING
@@ -98,7 +98,7 @@ MARKER_STYLING
 =
 panelWin
 ;
-let
+const
 currentTheme
 =
 Services
@@ -146,7 +146,7 @@ theme
 "
 )
 ;
-let
+const
 started
 =
 once
@@ -159,7 +159,7 @@ context
 "
 )
 ;
-let
+const
 events
 =
 Promise
@@ -190,7 +190,7 @@ reload
 target
 )
 ;
-let
+const
 [
 actors
 ]

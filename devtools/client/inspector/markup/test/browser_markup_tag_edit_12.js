@@ -144,7 +144,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -232,7 +232,7 @@ collapseSelectionAndTab
 inspector
 )
 ;
-let
+const
 attrs
 =
 await
@@ -461,7 +461,7 @@ collapseSelectionAndTab
 inspector
 )
 ;
-let
+const
 attrs
 =
 await
@@ -534,7 +534,7 @@ on
 the
 newattr
 element
-let
+const
 focusedAttr
 =
 Services
@@ -588,7 +588,7 @@ inspector
 goPrevious
 )
 {
-let
+const
 onEditMutation
 =
 inspector
@@ -686,7 +686,7 @@ container
 inspector
 )
 {
-let
+const
 {
 editor
 }

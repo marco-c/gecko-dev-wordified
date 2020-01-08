@@ -187,7 +187,7 @@ function
 (
 )
 {
-let
+const
 {
 panel
 }
@@ -210,7 +210,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -361,7 +361,7 @@ recording
 "
 )
 ;
-let
+const
 recordingDeleted
 =
 times
@@ -373,7 +373,7 @@ RECORDING_DELETED
 2
 )
 ;
-let
+const
 recordingStopped
 =
 once

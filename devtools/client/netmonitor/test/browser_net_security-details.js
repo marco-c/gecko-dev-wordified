@@ -70,7 +70,7 @@ mode
 1
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -82,7 +82,7 @@ initNetMonitor
 CUSTOM_GET_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -93,7 +93,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -151,7 +151,7 @@ com
 +
 CORS_SJS_PATH
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -252,7 +252,7 @@ value
 )
 )
 ;
-let
+const
 tabpanel
 =
 document
@@ -267,7 +267,7 @@ panel
 "
 )
 ;
-let
+const
 textboxes
 =
 tabpanel
@@ -310,7 +310,7 @@ example
 com
 supports
 .
-let
+const
 protocol
 =
 textboxes
@@ -398,7 +398,7 @@ tls
 parameters
 .
 xhtml
-let
+const
 suite
 =
 textboxes

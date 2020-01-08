@@ -171,7 +171,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -192,7 +192,7 @@ testid
 inspector
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -201,7 +201,7 @@ view
 1
 )
 ;
-let
+const
 propEditor
 =
 ruleEditor
@@ -256,7 +256,7 @@ editor
 "
 )
 ;
-let
+const
 colorSpan
 =
 propEditor
@@ -340,7 +340,7 @@ not
 being
 triggered
 )
-let
+const
 onColorSpanClick
 =
 once
@@ -384,7 +384,7 @@ modifying
 the
 property
 name
-let
+const
 onPropertyValueUpdated
 =
 function
@@ -574,7 +574,7 @@ request
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -623,7 +623,7 @@ change
 "
 )
 ;
-let
+const
 colorSpan
 =
 propEditor
@@ -723,7 +723,7 @@ changed
 "
 )
 ;
-let
+const
 onPropertyValueUpdate
 =
 view

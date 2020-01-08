@@ -1078,7 +1078,7 @@ _recordingControlsMount
 ;
 for
 (
-let
+const
 button
 of
 this
@@ -1294,7 +1294,7 @@ iframe
 ;
 for
 (
-let
+const
 iframe
 of
 iframes
@@ -1313,7 +1313,7 @@ focus
 (
 )
 ;
-let
+const
 viewConfig
 =
 this
@@ -1346,7 +1346,7 @@ state
 }
 for
 (
-let
+const
 {
 sel
 opt
@@ -1358,7 +1358,7 @@ viewConfig
 {
 for
 (
-let
+const
 el
 of
 (
@@ -1396,7 +1396,7 @@ recording
 "
 )
 {
-let
+const
 recording
 =
 PerformanceController
@@ -1445,7 +1445,7 @@ label
 "
 "
 ;
-let
+const
 startCommand
 =
 (
@@ -1467,7 +1467,7 @@ command
 "
 )
 ;
-let
+const
 stopCommand
 =
 (
@@ -1615,7 +1615,7 @@ _bufferStatusSupported
 return
 ;
 }
-let
+const
 recording
 =
 PerformanceController
@@ -1641,7 +1641,7 @@ isRecording
 return
 ;
 }
-let
+const
 bufferUsage
 =
 PerformanceController
@@ -1661,7 +1661,7 @@ to
 a
 percentage
 value
-let
+const
 percent
 =
 Math
@@ -1673,7 +1673,7 @@ bufferUsage
 100
 )
 ;
-let
+const
 container
 =
 (
@@ -1687,7 +1687,7 @@ container
 "
 )
 ;
-let
+const
 bufferLabel
 =
 (
@@ -1909,7 +1909,7 @@ function
 (
 )
 {
-let
+const
 currentRecording
 =
 PerformanceController
@@ -1918,7 +1918,7 @@ getCurrentRecording
 (
 )
 ;
-let
+const
 recordings
 =
 PerformanceController
@@ -2199,7 +2199,7 @@ function
 e
 )
 {
-let
+const
 fp
 =
 Cc

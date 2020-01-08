@@ -181,7 +181,7 @@ shouldLog
 true
 ;
 }
-let
+const
 store
 =
 createStore

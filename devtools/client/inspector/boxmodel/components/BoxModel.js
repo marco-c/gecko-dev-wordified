@@ -290,7 +290,7 @@ onKeyDown
 event
 )
 {
-let
+const
 {
 target
 }
@@ -322,7 +322,7 @@ render
 (
 )
 {
-let
+const
 {
 boxModel
 setSelectedNode

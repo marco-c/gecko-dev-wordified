@@ -1971,7 +1971,7 @@ browser
 .
 xul
 document
-let
+const
 top
 =
 this
@@ -1980,7 +1980,7 @@ win
 .
 top
 ;
-let
+const
 topDocEl
 =
 top
@@ -1989,7 +1989,7 @@ document
 .
 documentElement
 ;
-let
+const
 isRtl
 =
 top
@@ -2494,14 +2494,14 @@ function
 id
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 panel
 =
 this
@@ -3077,7 +3077,7 @@ return
 false
 ;
 }
-let
+const
 focusedWin
 =
 Services
@@ -3204,14 +3204,14 @@ location
 href
 ;
 }
-let
+const
 domReady
 =
 defer
 (
 )
 ;
-let
+const
 domHelper
 =
 new
@@ -3374,7 +3374,7 @@ isReady
 =
 true
 ;
-let
+const
 framesPromise
 =
 this
@@ -3835,7 +3835,7 @@ bug
 1072764
 )
 .
-let
+const
 toolDef
 =
 gDevTools
@@ -4168,7 +4168,7 @@ tools
 are
 open
 .
-let
+const
 performanceFrontConnection
 =
 this
@@ -4440,7 +4440,7 @@ the
 Worker
 global
 .
-let
+const
 service
 =
 this
@@ -4525,7 +4525,7 @@ text
 =
 >
 {
-let
+const
 message
 =
 L10N
@@ -4618,7 +4618,7 @@ text
 =
 >
 {
-let
+const
 message
 =
 L10N
@@ -5009,7 +5009,7 @@ this
 _sourceMapURLService
 ;
 }
-let
+const
 sourceMaps
 =
 this
@@ -5969,7 +5969,7 @@ function
 "
 )
 {
-let
+const
 onChange
 =
 (
@@ -6353,7 +6353,7 @@ force
 =
 >
 {
-let
+const
 key
 =
 L10N
@@ -6881,7 +6881,7 @@ function
 (
 )
 {
-let
+const
 deck
 =
 this
@@ -6897,14 +6897,14 @@ deck
 "
 )
 ;
-let
+const
 webconsolePanel
 =
 this
 .
 webconsolePanel
 ;
-let
+const
 splitter
 =
 this
@@ -6922,7 +6922,7 @@ splitter
 "
 )
 ;
-let
+const
 openedConsolePanel
 =
 this
@@ -7082,7 +7082,7 @@ WINDOW
 return
 ;
 }
-let
+const
 doc
 =
 this
@@ -7095,7 +7095,7 @@ document
 ;
 for
 (
-let
+const
 item
 of
 Startup
@@ -7139,7 +7139,7 @@ toolId
 continue
 ;
 }
-let
+const
 {
 toolId
 shortcut
@@ -7148,7 +7148,7 @@ modifiers
 =
 item
 ;
-let
+const
 key
 =
 doc
@@ -7322,7 +7322,7 @@ key_browserconsole
 )
 )
 {
-let
+const
 key
 =
 doc
@@ -7487,7 +7487,7 @@ function
 toolId
 )
 {
-let
+const
 toolDefinition
 =
 gDevTools
@@ -7619,7 +7619,7 @@ levels
 to
 it
 .
-let
+const
 box
 =
 this
@@ -7752,7 +7752,7 @@ HostType
 WINDOW
 )
 ;
-let
+const
 sideEnabled
 =
 Services
@@ -7768,7 +7768,7 @@ _prefs
 SIDE_ENABLED
 )
 ;
-let
+const
 hostTypes
 =
 [
@@ -7776,7 +7776,7 @@ hostTypes
 ;
 for
 (
-let
+const
 type
 in
 Toolbox
@@ -7784,7 +7784,7 @@ Toolbox
 HostType
 )
 {
-let
+const
 position
 =
 Toolbox
@@ -8114,7 +8114,7 @@ this
 disableAutohideAvailable
 )
 {
-let
+const
 disable
 =
 await
@@ -8383,7 +8383,7 @@ function
 event
 )
 {
-let
+const
 {
 key
 target
@@ -8440,7 +8440,7 @@ metaKey
 return
 ;
 }
-let
+const
 buttons
 =
 [
@@ -8459,7 +8459,7 @@ button
 )
 ]
 ;
-let
+const
 curIndex
 =
 buttons
@@ -8681,7 +8681,7 @@ definition
 =
 >
 {
-let
+const
 button
 =
 this
@@ -8936,7 +8936,7 @@ function
 (
 )
 {
-let
+const
 focus
 =
 this
@@ -8964,7 +8964,7 @@ HostType
 .
 SIDE
 ;
-let
+const
 currentPanel
 =
 this
@@ -9052,7 +9052,7 @@ KeyCodes
 DOM_VK_ESCAPE
 )
 {
-let
+const
 currentPanel
 =
 this
@@ -9275,7 +9275,7 @@ function
 (
 )
 {
-let
+const
 pref
 =
 "
@@ -9286,7 +9286,7 @@ cache
 disabled
 "
 ;
-let
+const
 cacheDisabled
 =
 Services
@@ -9361,7 +9361,7 @@ function
 (
 )
 {
-let
+const
 pref
 =
 "
@@ -9374,7 +9374,7 @@ testing
 enabled
 "
 ;
-let
+const
 serviceWorkersTestingEnabled
 =
 Services
@@ -9534,7 +9534,7 @@ this
 .
 pickerButton
 ;
-let
+const
 currentPanel
 =
 this
@@ -9915,7 +9915,7 @@ _target
 return
 ;
 }
-let
+const
 deck
 =
 this
@@ -9931,7 +9931,7 @@ deck
 "
 )
 ;
-let
+const
 id
 =
 toolDefinition
@@ -9981,7 +9981,7 @@ toolbar
 "
 ;
 }
-let
+const
 panel
 =
 this
@@ -11001,7 +11001,7 @@ id
 )
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -11034,7 +11034,7 @@ if
 iframe
 )
 {
-let
+const
 panel
 =
 this
@@ -11110,7 +11110,7 @@ toolbox
 tool
 maps
 )
-let
+const
 definition
 =
 this
@@ -11277,7 +11277,7 @@ iframe
 parentNode
 )
 {
-let
+const
 vbox
 =
 this
@@ -11312,7 +11312,7 @@ visible
 "
 ;
 }
-let
+const
 onLoad
 =
 (
@@ -11440,7 +11440,7 @@ function
 )
 )
 {
-let
+const
 panel
 =
 built
@@ -11602,7 +11602,7 @@ open
 }
 else
 {
-let
+const
 buildDeferred
 =
 defer
@@ -11902,7 +11902,7 @@ iframe
 contentWindow
 )
 {
-let
+const
 domHelper
 =
 new
@@ -11923,7 +11923,7 @@ onLoad
 }
 else
 {
-let
+const
 callback
 =
 (
@@ -11998,7 +11998,7 @@ function
 iframe
 )
 {
-let
+const
 docEl
 =
 iframe
@@ -12254,7 +12254,7 @@ this
 webconsolePanel
 ;
 }
-let
+const
 iframe
 =
 node
@@ -12435,7 +12435,7 @@ iframe
 visible
 )
 {
-let
+const
 state
 =
 visible
@@ -12448,14 +12448,14 @@ visible
 hidden
 "
 ;
-let
+const
 win
 =
 iframe
 .
 contentWindow
 ;
-let
+const
 doc
 =
 win
@@ -12605,7 +12605,7 @@ currentToolId
 id
 )
 {
-let
+const
 panel
 =
 this
@@ -12867,7 +12867,7 @@ select
 the
 right
 iframe
-let
+const
 toolboxPanels
 =
 this
@@ -13359,7 +13359,7 @@ state
 true
 )
 {
-let
+const
 iframe
 =
 this
@@ -13421,7 +13421,7 @@ function
 (
 )
 {
-let
+const
 consolePanel
 =
 this
@@ -13514,7 +13514,7 @@ the
 webconsole
 frame
 .
-let
+const
 webconsoleURL
 =
 gDevTools
@@ -13644,7 +13644,7 @@ already
 loaded
 in
 background
-let
+const
 iframe
 =
 this
@@ -14178,7 +14178,7 @@ function
 (
 )
 {
-let
+const
 definitions
 =
 this
@@ -14210,7 +14210,7 @@ this
 currentToolId
 )
 ;
-let
+const
 definition
 =
 index
@@ -14279,7 +14279,7 @@ function
 (
 )
 {
-let
+const
 definitions
 =
 this
@@ -14311,7 +14311,7 @@ this
 currentToolId
 )
 ;
-let
+const
 definition
 =
 index
@@ -14538,7 +14538,7 @@ _onWillNavigate
 (
 )
 {
-let
+const
 toolId
 =
 this
@@ -14588,7 +14588,7 @@ netmonitor
 return
 ;
 }
-let
+const
 start
 =
 this
@@ -14601,7 +14601,7 @@ now
 (
 )
 ;
-let
+const
 panel
 =
 this
@@ -14641,7 +14641,7 @@ reloaded
 "
 )
 ;
-let
+const
 delay
 =
 this
@@ -14656,7 +14656,7 @@ now
 -
 start
 ;
-let
+const
 telemetryKey
 =
 "
@@ -14914,7 +14914,7 @@ rootForm
 =
 >
 {
-let
+const
 front
 =
 getPreferenceFront
@@ -14979,7 +14979,7 @@ toggleNoAutohide
 (
 )
 {
-let
+const
 front
 =
 await
@@ -14987,7 +14987,7 @@ this
 .
 preferenceFront
 ;
-let
+const
 toggledValue
 =
 !
@@ -15073,7 +15073,7 @@ return
 false
 ;
 }
-let
+const
 prefFront
 =
 await
@@ -15148,7 +15148,7 @@ resolve
 )
 ;
 }
-let
+const
 packet
 =
 {
@@ -15226,7 +15226,7 @@ function
 event
 )
 {
-let
+const
 menu
 =
 new
@@ -15234,7 +15234,7 @@ Menu
 (
 )
 ;
-let
+const
 target
 =
 event
@@ -15342,7 +15342,7 @@ the
 selected
 one
 .
-let
+const
 checked
 =
 frame
@@ -15605,7 +15605,7 @@ cgi
 id
 =
 1274551
-let
+const
 rect
 =
 target
@@ -15614,7 +15614,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 screenX
 =
 target
@@ -15625,7 +15625,7 @@ defaultView
 .
 mozInnerScreenX
 ;
-let
+const
 screenY
 =
 target
@@ -15806,7 +15806,7 @@ update
 the
 UI
 .
-let
+const
 packet
 =
 {
@@ -15886,7 +15886,7 @@ this
 rootFrameSelected
 )
 {
-let
+const
 frameActor
 =
 await
@@ -16248,7 +16248,7 @@ this
 selectedFrameId
 )
 {
-let
+const
 frames
 =
 [
@@ -16264,7 +16264,7 @@ values
 )
 ]
 ;
-let
+const
 topFrames
 =
 frames
@@ -16319,7 +16319,7 @@ frame
 has
 parentID
 .
-let
+const
 frame
 =
 this
@@ -16333,7 +16333,7 @@ this
 selectedFrameId
 )
 ;
-let
+const
 topFrameSelected
 =
 frame
@@ -17383,7 +17383,7 @@ toolId
 )
 )
 {
-let
+const
 instance
 =
 this
@@ -17411,7 +17411,7 @@ toolId
 )
 ;
 }
-let
+const
 panel
 =
 this
@@ -17446,7 +17446,7 @@ currentToolId
 toolId
 )
 {
-let
+const
 index
 =
 this
@@ -17469,7 +17469,7 @@ id
 toolId
 )
 ;
-let
+const
 nextTool
 =
 this
@@ -17481,7 +17481,7 @@ index
 1
 ]
 ;
-let
+const
 previousTool
 =
 this
@@ -17624,7 +17624,7 @@ HostType
 WINDOW
 )
 {
-let
+const
 doc
 =
 this
@@ -17635,7 +17635,7 @@ parent
 .
 document
 ;
-let
+const
 key
 =
 doc
@@ -17999,7 +17999,7 @@ _target
 form
 )
 ;
-let
+const
 pref
 =
 "
@@ -18010,7 +18010,7 @@ inspector
 showAllAnonymousContent
 "
 ;
-let
+const
 showAllAnonymousContent
 =
 Services
@@ -18111,7 +18111,7 @@ this
 _highlighterHidden
 )
 ;
-let
+const
 autohide
 =
 !
@@ -18571,7 +18571,7 @@ this
 .
 _initInspector
 ;
-let
+const
 currentPanel
 =
 this
@@ -18933,7 +18933,7 @@ this
 _destroyer
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -19302,7 +19302,7 @@ _componentMount
 null
 ;
 }
-let
+const
 outstanding
 =
 [
@@ -19310,7 +19310,7 @@ outstanding
 ;
 for
 (
-let
+const
 [
 id
 panel
@@ -19617,7 +19617,7 @@ of
 the
 toolbox
 .
-let
+const
 deviceFront
 =
 getKnownDeviceFront
@@ -19916,7 +19916,7 @@ then
 =
 >
 {
-let
+const
 api
 =
 this
@@ -20118,7 +20118,7 @@ return
 null
 ;
 }
-let
+const
 target
 =
 this
@@ -20291,7 +20291,7 @@ error
 )
 )
 ;
-let
+const
 leakCheckObserver
 =
 (
@@ -20340,7 +20340,7 @@ _destroyer
 ;
 }
 ;
-let
+const
 topic
 =
 "
@@ -20453,7 +20453,7 @@ function
 (
 )
 {
-let
+const
 window
 =
 this
@@ -21183,7 +21183,7 @@ _performanceQueuedRecordings
 [
 ]
 ;
-let
+const
 recordings
 =
 this
@@ -21281,7 +21281,7 @@ performance
 "
 )
 ;
-let
+const
 panel
 =
 await
@@ -21721,7 +21721,7 @@ function
 (
 )
 {
-let
+const
 netPanel
 =
 this
@@ -21845,7 +21845,7 @@ function
 (
 )
 {
-let
+const
 netMonitor
 =
 await
@@ -21964,7 +21964,7 @@ function
 listener
 )
 {
-let
+const
 netMonitor
 =
 await
@@ -21990,7 +21990,7 @@ function
 listener
 )
 {
-let
+const
 netMonitor
 =
 await
@@ -22069,7 +22069,7 @@ for
 more
 details
 )
-let
+const
 netPanel
 =
 this
@@ -22081,7 +22081,7 @@ netmonitor
 "
 )
 ;
-let
+const
 hasListeners
 =
 netMonitor
@@ -22170,7 +22170,7 @@ function
 requestId
 )
 {
-let
+const
 netMonitor
 =
 await
@@ -22686,7 +22686,7 @@ function
 extensionUUID
 )
 {
-let
+const
 extInfo
 =
 this

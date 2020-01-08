@@ -82,14 +82,14 @@ iterator
 callback
 )
 {
-let
+const
 expected
 =
 items
 .
 length
 ;
-let
+const
 results
 =
 [
@@ -161,7 +161,7 @@ testRestore
 (
 )
 {
-let
+const
 states
 =
 [
@@ -257,7 +257,7 @@ Then
 get
 their
 states
-let
+const
 session
 =
 ScratchpadManager
@@ -309,7 +309,7 @@ saveOpenWindows
 Then
 restore
 them
-let
+const
 restoredWins
 =
 ScratchpadManager
@@ -349,7 +349,7 @@ function
 aWin
 )
 {
-let
+const
 state
 =
 aWin

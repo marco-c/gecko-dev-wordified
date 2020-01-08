@@ -107,7 +107,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -136,7 +136,7 @@ node
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -168,7 +168,7 @@ node
 "
 )
 ;
-let
+const
 players
 =
 await
@@ -237,7 +237,7 @@ selectedBrowser
 =
 >
 {
-let
+const
 el
 =
 content
@@ -408,7 +408,7 @@ selectedBrowser
 =
 >
 {
-let
+const
 el
 =
 content
@@ -693,7 +693,7 @@ finished
 "
 )
 {
-let
+const
 state
 =
 await

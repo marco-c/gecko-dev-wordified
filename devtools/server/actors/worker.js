@@ -224,7 +224,7 @@ nsIPushService
 "
 )
 ;
-let
+const
 WorkerActor
 =
 protocol
@@ -300,7 +300,7 @@ this
 actorID
 ;
 }
-let
+const
 form
 =
 {
@@ -347,7 +347,7 @@ nsIWorkerDebugger
 TYPE_SERVICE
 )
 {
-let
+const
 registration
 =
 this
@@ -364,7 +364,7 @@ registration
 .
 scope
 ;
-let
+const
 newestWorker
 =
 (
@@ -469,7 +469,7 @@ nsIWorkerDebugger
 TYPE_SERVICE
 )
 {
-let
+const
 worker
 =
 this
@@ -762,7 +762,7 @@ wrongType
 }
 ;
 }
-let
+const
 registration
 =
 this
@@ -771,7 +771,7 @@ _getServiceWorkerRegistrationInfo
 (
 )
 ;
-let
+const
 originAttributes
 =
 ChromeUtils
@@ -901,7 +901,7 @@ _getServiceWorkerInfo
 (
 )
 {
-let
+const
 registration
 =
 this
@@ -1020,7 +1020,7 @@ nsIWorkerDebugger
 TYPE_SERVICE
 )
 {
-let
+const
 worker
 =
 this
@@ -1067,7 +1067,7 @@ WorkerActor
 =
 WorkerActor
 ;
-let
+const
 PushSubscriptionActor
 =
 protocol
@@ -1125,7 +1125,7 @@ this
 actorID
 ;
 }
-let
+const
 subscription
 =
 this
@@ -1189,7 +1189,7 @@ null
 }
 )
 ;
-let
+const
 ServiceWorkerActor
 =
 protocol
@@ -1316,7 +1316,7 @@ _serviceWorkerProcessScriptLoaded
 =
 false
 ;
-let
+const
 ServiceWorkerRegistrationActor
 =
 protocol
@@ -1401,7 +1401,7 @@ addListener
 this
 )
 ;
-let
+const
 {
 installingWorker
 waitingWorker
@@ -1484,7 +1484,7 @@ destroy
 (
 )
 ;
-let
+const
 {
 installingWorker
 waitingWorker
@@ -1568,14 +1568,14 @@ this
 actorID
 ;
 }
-let
+const
 registration
 =
 this
 .
 _registration
 ;
-let
+const
 installingWorker
 =
 this
@@ -1586,7 +1586,7 @@ form
 (
 )
 ;
-let
+const
 waitingWorker
 =
 this
@@ -1597,7 +1597,7 @@ form
 (
 )
 ;
-let
+const
 activeWorker
 =
 this
@@ -1608,7 +1608,7 @@ form
 (
 )
 ;
-let
+const
 newestWorker
 =
 (
@@ -1621,7 +1621,7 @@ waitingWorker
 installingWorker
 )
 ;
-let
+const
 isE10s
 =
 Services
@@ -1847,7 +1847,7 @@ topic
 data
 )
 {
-let
+const
 scope
 =
 this
@@ -2124,7 +2124,7 @@ unregister
 (
 )
 {
-let
+const
 {
 principal
 scope
@@ -2134,7 +2134,7 @@ this
 .
 _registration
 ;
-let
+const
 unregisterCallback
 =
 {
@@ -2206,7 +2206,7 @@ getPushSubscription
 (
 )
 {
-let
+const
 registration
 =
 this

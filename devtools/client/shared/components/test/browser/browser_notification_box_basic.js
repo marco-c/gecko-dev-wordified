@@ -177,8 +177,8 @@ box
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -193,10 +193,10 @@ started
 "
 )
 ;
-let
+const
 toolbox
 =
-yield
+await
 openNewTabAndToolbox
 (
 TEST_URI
@@ -210,7 +210,7 @@ webconsole
 Append
 a
 notification
-let
+const
 notificationBox
 =
 toolbox
@@ -244,7 +244,7 @@ of
 one
 notification
 .
-let
+const
 parentNode
 =
 toolbox
@@ -260,7 +260,7 @@ notificationbox
 "
 )
 ;
-let
+const
 nodes
 =
 parentNode

@@ -78,7 +78,7 @@ function
 response
 )
 {
-let
+const
 expectedRequestTypes
 =
 Object
@@ -167,7 +167,7 @@ registerAllActors
 (
 )
 ;
-let
+const
 client
 =
 new

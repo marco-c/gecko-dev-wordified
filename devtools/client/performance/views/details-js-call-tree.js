@@ -359,7 +359,7 @@ interval
 }
 )
 {
-let
+const
 recording
 =
 PerformanceController
@@ -368,7 +368,7 @@ getCurrentRecording
 (
 )
 ;
-let
+const
 profile
 =
 recording
@@ -377,7 +377,7 @@ getProfile
 (
 )
 ;
-let
+const
 showOptimizations
 =
 PerformanceController
@@ -393,7 +393,7 @@ optimizations
 "
 )
 ;
-let
+const
 options
 =
 {
@@ -445,7 +445,7 @@ showOptimizationHint
 showOptimizations
 }
 ;
-let
+const
 threadNode
 =
 this
@@ -554,7 +554,7 @@ function
 treeItem
 )
 {
-let
+const
 showOptimizations
 =
 PerformanceController
@@ -570,14 +570,14 @@ optimizations
 "
 )
 ;
-let
+const
 frameNode
 =
 treeItem
 .
 frame
 ;
-let
+const
 optimizationSites
 =
 frameNode
@@ -644,7 +644,7 @@ showOptimizations
 (
 )
 ;
-let
+const
 frameData
 =
 frameNode
@@ -653,7 +653,7 @@ getInfo
 (
 )
 ;
-let
+const
 optimizations
 =
 JITOptimizationsView
@@ -767,7 +767,7 @@ function
 treeItem
 )
 {
-let
+const
 {
 url
 line
@@ -860,7 +860,7 @@ endTime
 options
 )
 {
-let
+const
 thread
 =
 profile
@@ -870,7 +870,7 @@ threads
 0
 ]
 ;
-let
+const
 {
 contentOnly
 invertTree
@@ -879,7 +879,7 @@ flattenRecursion
 =
 options
 ;
-let
+const
 threadNode
 =
 new
@@ -1044,7 +1044,7 @@ as
 an
 error
 .
-let
+const
 inverted
 =
 options
@@ -1058,7 +1058,7 @@ samples
 >
 0
 ;
-let
+const
 root
 =
 new

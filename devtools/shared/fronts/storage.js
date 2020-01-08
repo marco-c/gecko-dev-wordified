@@ -93,7 +93,7 @@ storage
 ;
 for
 (
-let
+const
 childSpec
 of
 Object

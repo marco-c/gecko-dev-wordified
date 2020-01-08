@@ -84,7 +84,7 @@ types
 =
 protocol
 ;
-let
+const
 childSpecs
 =
 {
@@ -104,7 +104,7 @@ for
 all
 storage
 types
-let
+const
 methods
 =
 {

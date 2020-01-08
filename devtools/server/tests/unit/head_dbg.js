@@ -1103,7 +1103,7 @@ createTestGlobal
 name
 )
 {
-let
+const
 sandbox
 =
 Cu
@@ -1245,7 +1245,7 @@ n
 ;
 for
 (
-let
+const
 tab
 of
 tabs
@@ -1478,7 +1478,7 @@ n
 ;
 for
 (
-let
+const
 source
 of
 sources
@@ -2210,7 +2210,7 @@ testGlobal
 name
 )
 {
-let
+const
 sandbox
 =
 Cu
@@ -2257,7 +2257,7 @@ server
 DebuggerServer
 )
 {
-let
+const
 global
 =
 testGlobal
@@ -2336,7 +2336,7 @@ response
 {
 for
 (
-let
+const
 tab
 of
 response
@@ -2785,7 +2785,7 @@ true
 }
 )
 ;
-let
+const
 transport
 =
 DebuggerServer
@@ -2794,7 +2794,7 @@ connectPipe
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -2906,7 +2906,7 @@ allowChromeProcess
 =
 true
 ;
-let
+const
 client
 =
 new
@@ -3018,7 +3018,7 @@ allowMissing
 false
 )
 {
-let
+const
 file
 =
 do_get_file
@@ -3081,7 +3081,7 @@ usePlatformPathSeparator
 false
 )
 {
-let
+const
 file
 =
 do_get_file
@@ -3211,7 +3211,7 @@ readFile
 fileName
 )
 {
-let
+const
 f
 =
 do_get_file
@@ -3219,7 +3219,7 @@ do_get_file
 fileName
 )
 ;
-let
+const
 s
 =
 Cc
@@ -3293,7 +3293,7 @@ fileName
 content
 )
 {
-let
+const
 file
 =
 do_get_file
@@ -3302,7 +3302,7 @@ fileName
 true
 )
 ;
-let
+const
 stream
 =
 Cc
@@ -3347,7 +3347,7 @@ try
 {
 do
 {
-let
+const
 numWritten
 =
 stream
@@ -3668,7 +3668,7 @@ function
 expected
 )
 {
-let
+const
 packet
 =
 this
@@ -3715,7 +3715,7 @@ function
 expected
 )
 {
-let
+const
 packet
 =
 this
@@ -3790,7 +3790,7 @@ function
 {
 for
 (
-let
+const
 entry
 of
 this
@@ -5005,7 +5005,7 @@ threadClient
 url
 )
 {
-let
+const
 deferred
 =
 defer
@@ -5022,7 +5022,7 @@ res
 =
 >
 {
-let
+const
 source
 =
 res
@@ -5130,7 +5130,7 @@ reload
 tabClient
 )
 {
-let
+const
 deferred
 =
 defer
@@ -5193,28 +5193,28 @@ thread
 sample
 )
 {
-let
+const
 stackTable
 =
 thread
 .
 stackTable
 ;
-let
+const
 frameTable
 =
 thread
 .
 frameTable
 ;
-let
+const
 stringTable
 =
 thread
 .
 stringTable
 ;
-let
+const
 SAMPLE_STACK_SLOT
 =
 thread
@@ -5225,7 +5225,7 @@ schema
 .
 stack
 ;
-let
+const
 STACK_PREFIX_SLOT
 =
 stackTable
@@ -5234,7 +5234,7 @@ schema
 .
 prefix
 ;
-let
+const
 STACK_FRAME_SLOT
 =
 stackTable
@@ -5243,7 +5243,7 @@ schema
 .
 frame
 ;
-let
+const
 FRAME_LOCATION_SLOT
 =
 frameTable
@@ -5279,7 +5279,7 @@ sample
 SAMPLE_STACK_SLOT
 ]
 ;
-let
+const
 locations
 =
 [
@@ -5294,7 +5294,7 @@ stackIndex
 null
 )
 {
-let
+const
 stackEntry
 =
 stackTable
@@ -5304,7 +5304,7 @@ data
 stackIndex
 ]
 ;
-let
+const
 frame
 =
 frameTable

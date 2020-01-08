@@ -362,7 +362,7 @@ state
 ancestry
 )
 {
-let
+const
 expanded
 =
 new
@@ -373,7 +373,7 @@ state
 expanded
 )
 ;
-let
+const
 path
 =
 ancestry
@@ -458,7 +458,7 @@ return
 state
 ;
 }
-let
+const
 {
 expanded
 }
@@ -521,7 +521,7 @@ return
 state
 ;
 }
-let
+const
 {
 path
 expanded
@@ -533,7 +533,7 @@ state
 ancestry
 )
 ;
-let
+const
 selected
 =
 TreeView
@@ -738,7 +738,7 @@ accessibility
 }
 )
 {
-let
+const
 {
 enabled
 canBeDisabled

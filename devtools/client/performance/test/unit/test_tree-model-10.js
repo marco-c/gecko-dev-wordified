@@ -74,7 +74,7 @@ function
 (
 )
 {
-let
+const
 {
 ThreadNode
 }
@@ -98,7 +98,7 @@ model
 "
 )
 ;
-let
+const
 thread
 =
 new
@@ -390,7 +390,7 @@ function
 def
 )
 {
-let
+const
 [
 total
 self
@@ -400,7 +400,7 @@ children
 =
 def
 ;
-let
+const
 node
 =
 getFrameNodePath
@@ -409,7 +409,7 @@ parent
 name
 )
 ;
-let
+const
 data
 =
 node

@@ -731,7 +731,7 @@ DOMContentLoaded
 {
 for
 (
-let
+const
 link
 of
 document

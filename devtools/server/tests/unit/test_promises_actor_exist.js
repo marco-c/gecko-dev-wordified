@@ -66,7 +66,7 @@ function
 (
 )
 {
-let
+const
 client
 =
 await
@@ -81,7 +81,7 @@ test
 "
 )
 ;
-let
+const
 response
 =
 await
@@ -90,7 +90,7 @@ listTabs
 client
 )
 ;
-let
+const
 targetTab
 =
 findTab
@@ -260,7 +260,7 @@ resolve
 }
 )
 ;
-let
+const
 chromeActors
 =
 await

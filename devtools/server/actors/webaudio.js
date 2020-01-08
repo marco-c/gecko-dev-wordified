@@ -666,7 +666,7 @@ function
 (
 )
 {
-let
+const
 node
 =
 this
@@ -798,7 +798,7 @@ function
 enable
 )
 {
-let
+const
 node
 =
 this
@@ -908,7 +908,7 @@ param
 value
 )
 {
-let
+const
 node
 =
 this
@@ -1028,7 +1028,7 @@ function
 param
 )
 {
-let
+const
 node
 =
 this
@@ -1079,7 +1079,7 @@ of
 the
 parameter
 .
-let
+const
 value
 =
 isAudioParam
@@ -1164,7 +1164,7 @@ via
 actor
 pools
 .
-let
+const
 grip
 =
 createValueGrip
@@ -1310,7 +1310,7 @@ function
 param
 )
 {
-let
+const
 props
 =
 Object
@@ -1394,7 +1394,7 @@ paramName
 output
 )
 {
-let
+const
 srcNode
 =
 this
@@ -1405,7 +1405,7 @@ get
 (
 )
 ;
-let
+const
 destNode
 =
 destActor
@@ -1563,7 +1563,7 @@ output
 input
 )
 {
-let
+const
 srcNode
 =
 this
@@ -1574,7 +1574,7 @@ get
 (
 )
 ;
-let
+const
 destNode
 =
 destActor
@@ -1729,7 +1729,7 @@ destActor
 output
 )
 {
-let
+const
 node
 =
 this
@@ -1819,7 +1819,7 @@ function
 paramName
 )
 {
-let
+const
 timeline
 =
 this
@@ -1839,7 +1839,7 @@ return
 null
 ;
 }
-let
+const
 values
 =
 [
@@ -1871,7 +1871,7 @@ values
 }
 ;
 }
-let
+const
 firstEvent
 =
 timeline
@@ -1881,7 +1881,7 @@ events
 0
 ]
 ;
-let
+const
 lastEvent
 =
 timeline
@@ -1917,7 +1917,7 @@ duration
 of
 0
 .
-let
+const
 timeDelta
 =
 (
@@ -1934,7 +1934,7 @@ firstEvent
 .
 time
 ;
-let
+const
 scale
 =
 timeDelta
@@ -1953,7 +1953,7 @@ i
 +
 )
 {
-let
+const
 delta
 =
 firstEvent
@@ -1966,7 +1966,7 @@ i
 scale
 )
 ;
-let
+const
 value
 =
 timeline
@@ -2065,7 +2065,7 @@ i
 +
 )
 {
-let
+const
 delta
 =
 firstEvent
@@ -2080,7 +2080,7 @@ i
 scale
 )
 ;
-let
+const
 value
 =
 timeline
@@ -2179,7 +2179,7 @@ args
 ]
 )
 {
-let
+const
 node
 =
 this
@@ -2190,7 +2190,7 @@ get
 (
 )
 ;
-let
+const
 timeline
 =
 this
@@ -2327,7 +2327,7 @@ used
 in
 tests
 .
-let
+const
 param
 =
 XPCNativeWrapper
@@ -2340,7 +2340,7 @@ paramName
 ]
 )
 ;
-let
+const
 contentGlobal
 =
 Cu
@@ -2350,7 +2350,7 @@ getGlobalForObject
 param
 )
 ;
-let
+const
 contentArgs
 =
 Cu
@@ -2428,7 +2428,7 @@ the
 same
 scope
 .
-let
+const
 curve
 =
 new
@@ -2598,7 +2598,7 @@ eventName
 args
 )
 {
-let
+const
 timeline
 =
 this
@@ -3163,7 +3163,7 @@ function
 functionCall
 )
 {
-let
+const
 {
 name
 }
@@ -3267,7 +3267,7 @@ function
 functionCall
 )
 {
-let
+const
 {
 caller
 args
@@ -3278,12 +3278,12 @@ functionCall
 .
 details
 ;
-let
+const
 source
 =
 caller
 ;
-let
+const
 dest
 =
 args
@@ -3291,7 +3291,7 @@ args
 0
 ]
 ;
-let
+const
 isAudioPar
 =
 dest
@@ -3404,7 +3404,7 @@ function
 functionCall
 )
 {
-let
+const
 {
 caller
 result
@@ -3544,7 +3544,7 @@ functionCall
 .
 details
 ;
-let
+const
 wrappedParam
 =
 new
@@ -3586,7 +3586,7 @@ sanitizeAutomationArgs
 args
 )
 ;
-let
+const
 nodeActor
 =
 this
@@ -3870,7 +3870,7 @@ _instrumentParams
 node
 )
 ;
-let
+const
 actor
 =
 new
@@ -3952,7 +3952,7 @@ function
 node
 )
 {
-let
+const
 type
 =
 getConstructorName
@@ -3993,7 +3993,7 @@ paramName
 =
 >
 {
-let
+const
 param
 =
 node
@@ -4103,7 +4103,7 @@ nativeID
 ~
 nativeID
 ;
-let
+const
 actorID
 =
 this
@@ -4115,7 +4115,7 @@ get
 nativeID
 )
 ;
-let
+const
 actor
 =
 actorID
@@ -4212,7 +4212,7 @@ source
 dest
 )
 {
-let
+const
 sourceActor
 =
 this
@@ -4224,7 +4224,7 @@ source
 id
 )
 ;
-let
+const
 destActor
 =
 this
@@ -4282,7 +4282,7 @@ source
 param
 )
 {
-let
+const
 sourceActor
 =
 this
@@ -4294,7 +4294,7 @@ source
 id
 )
 ;
-let
+const
 destActor
 =
 this
@@ -4352,7 +4352,7 @@ function
 node
 )
 {
-let
+const
 actor
 =
 this
@@ -4401,7 +4401,7 @@ param
 value
 )
 {
-let
+const
 actor
 =
 this
@@ -4454,7 +4454,7 @@ function
 node
 )
 {
-let
+const
 actor
 =
 this
@@ -4587,7 +4587,7 @@ function
 nodeNativeID
 )
 {
-let
+const
 actor
 =
 this
@@ -5379,7 +5379,7 @@ el
 =
 >
 {
-let
+const
 isArray
 =
 typeof
@@ -5480,7 +5480,7 @@ structured
 clone
 instead
 .
-let
+const
 global
 =
 Cu
@@ -5490,7 +5490,7 @@ getGlobalForObject
 this
 )
 ;
-let
+const
 safeView
 =
 Cu

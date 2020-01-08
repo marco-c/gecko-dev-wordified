@@ -174,7 +174,7 @@ function
 (
 )
 {
-let
+const
 {
 AppConstants
 }
@@ -537,7 +537,7 @@ and
 insert
 data
 .
-let
+const
 buffer
 =
 new
@@ -622,7 +622,7 @@ text
 html
 "
 ;
-let
+const
 headers
 =
 getHttpHeaders
@@ -836,7 +836,7 @@ context
 Initialize
 stuff
 .
-let
+const
 win
 =
 NetworkHelper
@@ -891,7 +891,7 @@ initial
 HTML
 code
 .
-let
+const
 buffer
 =
 new
@@ -911,7 +911,7 @@ document
 .
 buffer
 ;
-let
+const
 stream
 =
 new
@@ -1038,7 +1038,7 @@ into
 a
 string
 .
-let
+const
 data
 =
 this
@@ -1154,7 +1154,7 @@ nsIHttpChannel
 {
 try
 {
-let
+const
 header
 =
 request
@@ -1217,7 +1217,7 @@ below
 }
 else
 {
-let
+const
 uri
 =
 request
@@ -1321,7 +1321,7 @@ getHttpHeaders
 request
 )
 {
-let
+const
 headers
 =
 {
@@ -1463,7 +1463,7 @@ win
 headers
 )
 {
-let
+const
 json
 =
 new
@@ -1473,7 +1473,7 @@ Text
 (
 )
 ;
-let
+const
 JSONView
 =
 Cu
@@ -1639,7 +1639,7 @@ children
 ]
 )
 {
-let
+const
 el
 =
 doc
@@ -1651,7 +1651,7 @@ type
 ;
 for
 (
-let
+const
 [
 attr
 value
@@ -1691,7 +1691,7 @@ el
 let
 os
 ;
-let
+const
 platform
 =
 Services
@@ -1748,7 +1748,7 @@ linux
 "
 ;
 }
-let
+const
 baseURI
 =
 "
@@ -2061,7 +2061,7 @@ observer
 {
 for
 (
-let
+const
 {
 target
 addedNodes
@@ -2092,7 +2092,7 @@ content
 {
 for
 (
-let
+const
 node
 of
 addedNodes
@@ -2162,14 +2162,14 @@ keepThemeUpdated
 win
 )
 {
-let
+const
 listener
 =
 function
 (
 )
 {
-let
+const
 theme
 =
 Services
@@ -2279,7 +2279,7 @@ from
 different
 documents
 .
-let
+const
 win
 =
 this
@@ -2297,7 +2297,7 @@ target
 return
 ;
 }
-let
+const
 value
 =
 e

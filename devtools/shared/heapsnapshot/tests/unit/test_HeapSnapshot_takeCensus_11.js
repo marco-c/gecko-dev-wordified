@@ -185,14 +185,14 @@ run_test
 (
 )
 {
-let
+const
 g
 =
 newGlobal
 (
 )
 ;
-let
+const
 dbg
 =
 new

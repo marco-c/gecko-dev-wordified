@@ -586,7 +586,7 @@ function
 {
 for
 (
-let
+const
 prefName
 of
 Object

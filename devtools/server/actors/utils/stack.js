@@ -475,7 +475,7 @@ properties
 .
 for
 (
-let
+const
 [
 stack
 index
@@ -808,7 +808,7 @@ return
 null
 ;
 }
-let
+const
 packet
 =
 Array
@@ -827,7 +827,7 @@ null
 ;
 for
 (
-let
+const
 [
 stack
 index

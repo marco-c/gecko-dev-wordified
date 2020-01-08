@@ -106,7 +106,7 @@ nodes
 "
 )
 ;
-let
+const
 {
 client
 walker
@@ -196,7 +196,7 @@ them
 "
 )
 ;
-let
+const
 nodeInFrame1
 =
 await
@@ -215,7 +215,7 @@ animation
 "
 )
 ;
-let
+const
 nodeInFrame2
 =
 await
@@ -352,7 +352,7 @@ node
 "
 )
 ;
-let
+const
 [
 player
 ]
@@ -370,7 +370,7 @@ player
 .
 ready
 ;
-let
+const
 state
 =
 await
@@ -409,7 +409,7 @@ frameSelector
 nodeSelector
 )
 {
-let
+const
 iframe
 =
 await
@@ -423,7 +423,7 @@ rootNode
 frameSelector
 )
 ;
-let
+const
 {
 nodes
 }

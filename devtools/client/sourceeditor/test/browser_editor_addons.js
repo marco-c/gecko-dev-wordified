@@ -50,7 +50,7 @@ win
 =
 >
 {
-let
+const
 doc
 =
 win

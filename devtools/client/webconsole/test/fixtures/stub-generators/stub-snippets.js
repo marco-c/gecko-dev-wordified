@@ -317,7 +317,7 @@ message
 "
 ]
 ;
-let
+const
 consoleApi
 =
 new
@@ -1756,7 +1756,7 @@ undefined
 "
 ]
 ;
-let
+const
 evaluationResult
 =
 new
@@ -1833,7 +1833,7 @@ tomato
 /
 Network
 Event
-let
+const
 networkEvent
 =
 new
@@ -1993,7 +1993,7 @@ send
 /
 Page
 Error
-let
+const
 pageError
 =
 new

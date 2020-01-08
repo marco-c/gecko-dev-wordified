@@ -1208,7 +1208,7 @@ pseudo
 modules
 and
 globals
-let
+const
 {
 modules
 globals
@@ -1297,7 +1297,7 @@ the
 current
 loader
 instance
-let
+const
 loader
 =
 this
@@ -1308,13 +1308,13 @@ loader
 ;
 for
 (
-let
+const
 id
 in
 modules
 )
 {
-let
+const
 uri
 =
 resolveURI

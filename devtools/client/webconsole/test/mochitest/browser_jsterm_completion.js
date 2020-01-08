@@ -116,7 +116,7 @@ function
 (
 )
 {
-let
+const
 {
 jsterm
 }
@@ -127,7 +127,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 input
 =
 jsterm

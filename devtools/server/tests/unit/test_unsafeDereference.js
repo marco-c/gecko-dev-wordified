@@ -174,7 +174,7 @@ function
 name
 )
 {
-let
+const
 desc
 =
 this
@@ -255,7 +255,7 @@ chrome
 privilege
 sandbox
 .
-let
+const
 contentBox
 =
 Cu
@@ -275,7 +275,7 @@ com
 "
 )
 ;
-let
+const
 chromeBox
 =
 Cu
@@ -327,7 +327,7 @@ and
 property
 names
 .
-let
+const
 mainObj
 =
 {
@@ -403,7 +403,7 @@ mainObj
 =
 mainObj
 ;
-let
+const
 contentObj
 =
 chromeBox
@@ -414,7 +414,7 @@ contentBox
 .
 contentObj
 ;
-let
+const
 chromeObj
 =
 contentBox
@@ -882,7 +882,7 @@ our
 two
 sandboxes
 .
-let
+const
 dbg
 =
 new
@@ -911,7 +911,7 @@ their
 own
 compartments
 .
-let
+const
 contentBoxDO
 =
 dbg
@@ -921,7 +921,7 @@ addDebuggee
 contentBox
 )
 ;
-let
+const
 chromeBoxDO
 =
 dbg
@@ -970,7 +970,7 @@ checked
 for
 above
 .
-let
+const
 mainFromContentDO
 =
 contentBoxDO
@@ -1022,7 +1022,7 @@ unsafeDereference
 mainObj
 )
 ;
-let
+const
 contentFromContentDO
 =
 contentBoxDO
@@ -1076,7 +1076,7 @@ unsafeDereference
 contentObj
 )
 ;
-let
+const
 chromeFromContentDO
 =
 contentBoxDO
@@ -1135,7 +1135,7 @@ viewing
 from
 chromeBox
 .
-let
+const
 mainFromChromeDO
 =
 chromeBoxDO
@@ -1189,7 +1189,7 @@ unsafeDereference
 mainObj
 )
 ;
-let
+const
 contentFromChromeDO
 =
 chromeBoxDO
@@ -1243,7 +1243,7 @@ unsafeDereference
 contentObj
 )
 ;
-let
+const
 chromeFromChromeDO
 =
 chromeBoxDO

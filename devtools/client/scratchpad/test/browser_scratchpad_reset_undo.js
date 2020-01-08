@@ -302,7 +302,7 @@ the
 temporary
 file
 .
-let
+const
 foutA
 =
 Cc
@@ -354,7 +354,7 @@ foutA
 DEFER_OPEN
 )
 ;
-let
+const
 foutB
 =
 Cc
@@ -406,7 +406,7 @@ foutB
 DEFER_OPEN
 )
 ;
-let
+const
 converter
 =
 Cc
@@ -439,7 +439,7 @@ UTF
 8
 "
 ;
-let
+const
 fileContentStreamA
 =
 converter
@@ -449,7 +449,7 @@ convertToInputStream
 gFileAContent
 )
 ;
-let
+const
 fileContentStreamB
 =
 converter
@@ -484,7 +484,7 @@ tempFileSaved
 aStatus
 )
 {
-let
+const
 success
 =
 Components

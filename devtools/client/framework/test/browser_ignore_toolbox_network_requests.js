@@ -229,7 +229,7 @@ opened
 "
 )
 ;
-let
+const
 monitor
 =
 await
@@ -242,7 +242,7 @@ netmonitor
 "
 )
 ;
-let
+const
 {
 store
 }

@@ -109,7 +109,7 @@ PREF
 true
 )
 ;
-let
+const
 {
 inspector
 }
@@ -120,7 +120,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 native
 =
 await
@@ -151,7 +151,7 @@ controls
 /
 div
 >
-let
+const
 nativeChildren
 =
 await
@@ -190,7 +190,7 @@ element
 "
 )
 ;
-let
+const
 video
 =
 nativeChildren
@@ -216,7 +216,7 @@ anonymous
 "
 )
 ;
-let
+const
 videoChildren
 =
 await
@@ -250,7 +250,7 @@ children
 ;
 for
 (
-let
+const
 node
 of
 videoChildren

@@ -124,7 +124,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -199,7 +199,7 @@ field
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -208,7 +208,7 @@ view
 0
 )
 ;
-let
+const
 editor
 =
 await
@@ -235,7 +235,7 @@ field
 ;
 for
 (
-let
+const
 key
 of
 "
@@ -243,7 +243,7 @@ background
 "
 )
 {
-let
+const
 onSuggest
 =
 editor
@@ -278,7 +278,7 @@ itemIndex
 =
 4
 ;
-let
+const
 bgcItem
 =
 editor
@@ -317,7 +317,7 @@ selectedIndex
 =
 itemIndex
 ;
-let
+const
 node
 =
 editor

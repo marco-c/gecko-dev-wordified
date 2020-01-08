@@ -1258,7 +1258,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }

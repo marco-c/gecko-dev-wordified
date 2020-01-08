@@ -88,7 +88,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -361,7 +361,7 @@ clickInRuleView
 inspector
 )
 {
-let
+const
 el
 =
 inspector
@@ -401,7 +401,7 @@ clickInComputedView
 inspector
 )
 {
-let
+const
 el
 =
 inspector

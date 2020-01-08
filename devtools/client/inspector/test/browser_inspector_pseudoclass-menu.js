@@ -134,7 +134,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -155,7 +155,7 @@ div
 inspector
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -185,13 +185,13 @@ inspector
 {
 for
 (
-let
+const
 pseudo
 of
 PSEUDOS
 )
 {
-let
+const
 menuItem
 =
 allMenuItems
@@ -267,7 +267,7 @@ when
 the
 pseudoclass
 changes
-let
+const
 onPseudo
 =
 inspector
@@ -281,7 +281,7 @@ pseudoclass
 "
 )
 ;
-let
+const
 onRefresh
 =
 inspector
@@ -315,7 +315,7 @@ return
 a
 promise
 .
-let
+const
 onMutations
 =
 once
@@ -343,7 +343,7 @@ onRefresh
 await
 onMutations
 ;
-let
+const
 hasLock
 =
 await

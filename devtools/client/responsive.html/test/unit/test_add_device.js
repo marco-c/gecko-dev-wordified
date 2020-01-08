@@ -70,7 +70,7 @@ function
 (
 )
 {
-let
+const
 store
 =
 Store
@@ -85,7 +85,7 @@ dispatch
 =
 store
 ;
-let
+const
 device
 =
 {

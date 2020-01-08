@@ -576,7 +576,7 @@ maxEndTime
 ;
 for
 (
-let
+const
 {
 desc
 animations
@@ -603,7 +603,7 @@ desc
 ;
 for
 (
-let
+const
 state
 of
 animations
@@ -691,7 +691,7 @@ again
 ;
 for
 (
-let
+const
 state
 of
 TEST_ANIMATIONS
@@ -724,7 +724,7 @@ distances
 ;
 for
 (
-let
+const
 {
 time
 expectedDistance
@@ -733,7 +733,7 @@ of
 TEST_STARTTIME_TO_DISTANCE
 )
 {
-let
+const
 distance
 =
 TimeScale
@@ -763,7 +763,7 @@ distances
 ;
 for
 (
-let
+const
 {
 time
 expectedDistance
@@ -772,7 +772,7 @@ of
 TEST_DURATION_TO_DISTANCE
 )
 {
-let
+const
 distance
 =
 TimeScale
@@ -802,7 +802,7 @@ times
 ;
 for
 (
-let
+const
 {
 distance
 expectedTime
@@ -811,7 +811,7 @@ of
 TEST_DISTANCE_TO_TIME
 )
 {
-let
+const
 time
 =
 TimeScale
@@ -842,7 +842,7 @@ times
 ;
 for
 (
-let
+const
 {
 distance
 expectedTime
@@ -851,7 +851,7 @@ of
 TEST_DISTANCE_TO_RELATIVE_TIME
 )
 {
-let
+const
 time
 =
 TimeScale
@@ -882,7 +882,7 @@ millis
 ;
 for
 (
-let
+const
 {
 time
 expectedFormattedTime
@@ -891,7 +891,7 @@ of
 TEST_FORMAT_TIME_MS
 )
 {
-let
+const
 formattedTime
 =
 TimeScale
@@ -961,7 +961,7 @@ seconds
 ;
 for
 (
-let
+const
 {
 time
 expectedFormattedTime
@@ -970,7 +970,7 @@ of
 TEST_FORMAT_TIME_S
 )
 {
-let
+const
 formattedTime
 =
 TimeScale

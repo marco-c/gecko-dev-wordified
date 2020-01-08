@@ -235,7 +235,7 @@ this
 strPromise
 )
 {
-let
+const
 promiseRest
 =
 (

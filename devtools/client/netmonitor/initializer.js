@@ -524,7 +524,7 @@ support
 chrome
 :
 scheme
-let
+const
 href
 =
 window
@@ -547,7 +547,7 @@ http
 "
 )
 ;
-let
+const
 url
 =
 new
@@ -633,7 +633,7 @@ function
 {
 try
 {
-let
+const
 target
 =
 await
@@ -678,7 +678,7 @@ a
 fake
 toolbox
 object
-let
+const
 toolbox
 =
 {
@@ -707,7 +707,7 @@ tab
 }
 }
 ;
-let
+const
 api
 =
 new
@@ -723,7 +723,7 @@ connect
 toolbox
 )
 ;
-let
+const
 app
 =
 window

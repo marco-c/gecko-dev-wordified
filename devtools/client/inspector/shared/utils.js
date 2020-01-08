@@ -439,7 +439,7 @@ slice
 insertionPoint
 )
 ;
-let
+const
 lexer
 =
 getCSSLexer
@@ -452,7 +452,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 lexer
@@ -640,7 +640,7 @@ setTimeout
 =
 >
 {
-let
+const
 props
 =
 parseDeclarations
@@ -747,7 +747,7 @@ attributes
 }
 )
 {
-let
+const
 elt
 =
 parent
@@ -762,7 +762,7 @@ tagName
 ;
 for
 (
-let
+const
 attr
 in
 attributes
@@ -1042,7 +1042,7 @@ array
 in
 NodeFronts
 .
-let
+const
 attributesMap
 =
 {
@@ -1050,7 +1050,7 @@ attributesMap
 ;
 for
 (
-let
+const
 {
 name
 value

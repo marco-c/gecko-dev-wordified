@@ -217,7 +217,7 @@ sourceURL
 sourceLine
 )
 {
-let
+const
 panel
 =
 await
@@ -418,7 +418,7 @@ be
 added
 first
 .
-let
+const
 debuggerAlreadyOpen
 =
 toolbox
@@ -430,7 +430,7 @@ jsdebugger
 "
 )
 ;
-let
+const
 dbg
 =
 await
@@ -548,21 +548,21 @@ waitForSourcesLoaded
 )
 ;
 }
-let
+const
 {
 DebuggerView
 }
 =
 win
 ;
-let
+const
 {
 Sources
 }
 =
 DebuggerView
 ;
-let
+const
 item
 =
 Sources
@@ -938,7 +938,7 @@ level
 scratchpad
 window
 .
-let
+const
 wins
 =
 Services
@@ -963,7 +963,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 win
 =
 wins
@@ -1027,7 +1027,7 @@ within
 toolbox
 for
 (
-let
+const
 toolbox
 of
 gDevTools
@@ -1037,7 +1037,7 @@ getToolboxes
 )
 )
 {
-let
+const
 scratchpadPanel
 =
 toolbox
@@ -1054,7 +1054,7 @@ if
 scratchpadPanel
 )
 {
-let
+const
 {
 scratchpad
 }
@@ -1171,7 +1171,7 @@ sourceURL
 sourceLine
 )
 {
-let
+const
 utils
 =
 toolbox

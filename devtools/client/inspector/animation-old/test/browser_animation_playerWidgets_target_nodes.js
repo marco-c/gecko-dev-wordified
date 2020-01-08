@@ -85,7 +85,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel
@@ -117,7 +117,7 @@ animated
 inspector
 )
 ;
-let
+const
 targetNodeComponent
 =
 getAnimationTargetNodes
@@ -128,7 +128,7 @@ panel
 0
 ]
 ;
-let
+const
 {
 previewer
 }
@@ -210,7 +210,7 @@ correct
 "
 )
 ;
-let
+const
 highlighterEl
 =
 previewer

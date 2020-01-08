@@ -106,8 +106,8 @@ panel
 /
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -122,12 +122,12 @@ started
 "
 )
 ;
-let
+const
 {
 panel
 }
 =
-yield
+await
 addTestTab
 (
 TEST_PAGE_URL
@@ -148,7 +148,7 @@ refresh
 the
 panel
 .
-yield
+await
 evaluateJSAsync
 (
 panel
@@ -160,7 +160,7 @@ _b
 "
 )
 ;
-yield
+await
 refreshPanel
 (
 panel
@@ -176,7 +176,7 @@ is
 displayed
 now
 .
-let
+const
 row
 =
 getRowByLabel

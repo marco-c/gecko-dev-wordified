@@ -282,7 +282,7 @@ pagesize
 5
 )
 ;
-let
+const
 {
 inspector
 }
@@ -322,7 +322,7 @@ host
 "
 )
 ;
-let
+const
 hostFront
 =
 await
@@ -372,14 +372,14 @@ children
 "
 )
 ;
-let
+const
 {
 markup
 }
 =
 inspector
 ;
-let
+const
 hostContainer
 =
 markup
@@ -603,7 +603,7 @@ root
 "
 )
 ;
-let
+const
 shadowRootContainer
 =
 childContainers
@@ -611,7 +611,7 @@ childContainers
 0
 ]
 ;
-let
+const
 shadowRootFront
 =
 shadowRootContainer
@@ -634,7 +634,7 @@ waitForMultipleChildrenUpdates
 inspector
 )
 ;
-let
+const
 shadowChildContainers
 =
 shadowRootContainer
@@ -677,7 +677,7 @@ slot
 "
 )
 ;
-let
+const
 slotContainer
 =
 shadowChildContainers
@@ -685,7 +685,7 @@ shadowChildContainers
 0
 ]
 ;
-let
+const
 slotFront
 =
 slotContainer
@@ -733,7 +733,7 @@ children
 ;
 for
 (
-let
+const
 slotChildContainer
 of
 slotChildContainers

@@ -481,7 +481,7 @@ run_test
 {
 for
 (
-let
+const
 {
 minTimeInterval
 desc
@@ -507,7 +507,7 @@ expectedInterval
 .
 )
 ;
-let
+const
 interval
 =
 findOptimalTimeInterval

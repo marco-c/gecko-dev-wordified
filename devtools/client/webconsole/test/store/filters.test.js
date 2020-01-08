@@ -468,7 +468,7 @@ WARN
 )
 )
 ;
-let
+const
 messages
 =
 getVisibleMessages
@@ -521,7 +521,7 @@ LOG
 )
 )
 ;
-let
+const
 messages
 =
 getVisibleMessages
@@ -576,7 +576,7 @@ DEBUG
 )
 )
 ;
-let
+const
 messages
 =
 getVisibleMessages
@@ -631,7 +631,7 @@ INFO
 )
 )
 ;
-let
+const
 messages
 =
 getVisibleMessages
@@ -686,7 +686,7 @@ WARN
 )
 )
 ;
-let
+const
 messages
 =
 getVisibleMessages
@@ -741,7 +741,7 @@ ERROR
 )
 )
 ;
-let
+const
 messages
 =
 getVisibleMessages
@@ -782,7 +782,7 @@ messages
 =
 >
 {
-let
+const
 message
 =
 stubPreparedMessages
@@ -894,7 +894,7 @@ messages
 =
 >
 {
-let
+const
 message
 =
 stubPreparedMessages
@@ -998,7 +998,7 @@ messages
 =
 >
 {
-let
+const
 message
 =
 stubPreparedMessages
@@ -1284,7 +1284,7 @@ filterTextSet
 )
 )
 ;
-let
+const
 messages
 =
 getVisibleMessages
@@ -1334,7 +1334,7 @@ a
 different
 filename
 .
-let
+const
 locationMsg
 =
 Object
@@ -1423,7 +1423,7 @@ js
 )
 )
 ;
-let
+const
 messages
 =
 getVisibleMessages
@@ -1464,7 +1464,7 @@ functionName
 =
 >
 {
-let
+const
 traceMessage
 =
 stubPackets
@@ -1506,7 +1506,7 @@ testStacktraceFiltering
 )
 )
 ;
-let
+const
 messages
 =
 getVisibleMessages
@@ -1547,7 +1547,7 @@ location
 =
 >
 {
-let
+const
 traceMessage
 =
 stubPackets
@@ -1633,7 +1633,7 @@ js
 )
 )
 ;
-let
+const
 messages
 =
 getVisibleMessages
@@ -1941,7 +1941,7 @@ filterTextSet
 )
 )
 ;
-let
+const
 messages
 =
 getVisibleMessages

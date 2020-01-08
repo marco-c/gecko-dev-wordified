@@ -578,7 +578,7 @@ frameData
 }
 )
 {
-let
+const
 attempts
 =
 site
@@ -587,7 +587,7 @@ data
 .
 attempts
 ;
-let
+const
 lastStrategy
 =
 attempts
@@ -607,7 +607,7 @@ propString
 "
 "
 ;
-let
+const
 propertyName
 =
 site
@@ -667,7 +667,7 @@ propertyName
 ;
 }
 }
-let
+const
 sampleString
 =
 PluralForm
@@ -691,7 +691,7 @@ site
 samples
 )
 ;
-let
+const
 text
 =
 dom
@@ -722,7 +722,7 @@ sampleString
 )
 )
 ;
-let
+const
 frame
 =
 Frame
@@ -772,7 +772,7 @@ column
 }
 )
 ;
-let
+const
 children
 =
 [
@@ -913,7 +913,7 @@ attempt
 }
 )
 {
-let
+const
 success
 =
 isSuccessfulOutcome
@@ -923,7 +923,7 @@ attempt
 outcome
 )
 ;
-let
+const
 {
 strategy
 outcome
@@ -1038,7 +1038,7 @@ type
 }
 )
 {
-let
+const
 children
 =
 [
@@ -1264,7 +1264,7 @@ functionality
 .
 *
 /
-let
+const
 {
 depth
 arrow

@@ -500,7 +500,7 @@ ok
 isActorInstanciated
 )
 ;
-let
+const
 client
 =
 new
@@ -597,7 +597,7 @@ in
 response
 )
 ;
-let
+const
 {
 LazyFront
 }
@@ -615,7 +615,7 @@ registertestactors
 "
 )
 ;
-let
+const
 front
 =
 LazyFront

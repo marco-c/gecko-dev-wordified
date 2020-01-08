@@ -207,7 +207,7 @@ event
 packet
 )
 {
-let
+const
 source
 =
 gThreadClient
@@ -223,7 +223,7 @@ where
 source
 )
 ;
-let
+const
 location
 =
 {
@@ -709,13 +709,13 @@ resumeLimit
 ;
 for
 (
-let
+const
 callback
 of
 testCallbacks
 )
 {
-let
+const
 waiter
 =
 waitForPause
@@ -729,7 +729,7 @@ stepOver
 (
 )
 ;
-let
+const
 packet
 =
 await
@@ -749,7 +749,7 @@ breakpoint
 and
 finish
 .
-let
+const
 waiter
 =
 waitForPause

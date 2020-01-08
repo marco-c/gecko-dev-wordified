@@ -533,7 +533,7 @@ Highlighter
 main
 container
 .
-let
+const
 container
 =
 createNode
@@ -563,7 +563,7 @@ container
 Wrapper
 element
 .
-let
+const
 wrapper
 =
 createNode
@@ -672,7 +672,7 @@ color
 label
 element
 .
-let
+const
 colorLabelContainer
 =
 createNode
@@ -1020,7 +1020,7 @@ for
 user
 events
 .
-let
+const
 {
 pageListenerTarget
 }
@@ -1232,7 +1232,7 @@ pageImage
 =
 null
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -1358,7 +1358,7 @@ the
 content
 window
 .
-let
+const
 imageData
 =
 getWindowAsImageData
@@ -1686,7 +1686,7 @@ centerColor
 (
 )
 {
-let
+const
 pos
 =
 (
@@ -1707,7 +1707,7 @@ cellSize
 2
 )
 ;
-let
+const
 rgb
 =
 this
@@ -1766,7 +1766,7 @@ pageImage
 return
 ;
 }
-let
+const
 {
 width
 height
@@ -1778,7 +1778,7 @@ this
 .
 magnifiedArea
 ;
-let
+const
 zoomedWidth
 =
 width
@@ -1787,7 +1787,7 @@ this
 .
 eyeDropperZoomLevel
 ;
-let
+const
 zoomedHeight
 =
 height
@@ -1796,7 +1796,7 @@ this
 .
 eyeDropperZoomLevel
 ;
-let
+const
 sx
 =
 x
@@ -1807,7 +1807,7 @@ zoomedWidth
 2
 )
 ;
-let
+const
 sy
 =
 y
@@ -1818,12 +1818,12 @@ zoomedHeight
 2
 )
 ;
-let
+const
 sw
 =
 zoomedWidth
 ;
-let
+const
 sh
 =
 zoomedHeight
@@ -1898,7 +1898,7 @@ preview
 and
 value
 .
-let
+const
 rgb
 =
 this
@@ -1980,7 +1980,7 @@ drawGrid
 (
 )
 {
-let
+const
 {
 width
 height
@@ -2143,7 +2143,7 @@ drawCrosshair
 (
 )
 {
-let
+const
 pos
 =
 this
@@ -2292,7 +2292,7 @@ for
 the
 offset
 .
-let
+const
 [
 xOffset
 yOffset
@@ -2308,7 +2308,7 @@ e
 target
 )
 ;
-let
+const
 x
 =
 xOffset
@@ -2323,7 +2323,7 @@ win
 .
 scrollX
 ;
-let
+const
 y
 =
 yOffset
@@ -2542,7 +2542,7 @@ x
 y
 )
 {
-let
+const
 root
 =
 this
@@ -3242,7 +3242,7 @@ to
 the
 clipboard
 .
-let
+const
 color
 =
 toColorString
@@ -3388,7 +3388,7 @@ getWindowAsImageData
 win
 )
 {
-let
+const
 canvas
 =
 win
@@ -3417,7 +3417,7 @@ canvas
 "
 )
 ;
-let
+const
 scale
 =
 getCurrentZoom
@@ -3425,14 +3425,14 @@ getCurrentZoom
 win
 )
 ;
-let
+const
 width
 =
 win
 .
 innerWidth
 ;
-let
+const
 height
 =
 win
@@ -3461,7 +3461,7 @@ mozOpaque
 =
 true
 ;
-let
+const
 ctx
 =
 canvas
@@ -3607,7 +3607,7 @@ rgb
 format
 )
 {
-let
+const
 [
 r
 g
@@ -3664,7 +3664,7 @@ case
 hsl
 "
 :
-let
+const
 [
 h
 s
@@ -3705,7 +3705,7 @@ case
 name
 "
 :
-let
+const
 str
 =
 rgbToColorName
@@ -3793,7 +3793,7 @@ b
 ]
 )
 {
-let
+const
 val
 =
 (

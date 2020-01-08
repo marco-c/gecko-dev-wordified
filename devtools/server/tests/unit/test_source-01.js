@@ -307,7 +307,7 @@ response
 sources
 )
 ;
-let
+const
 source
 =
 response
@@ -345,7 +345,7 @@ ok
 source
 )
 ;
-let
+const
 sourceClient
 =
 gThreadClient

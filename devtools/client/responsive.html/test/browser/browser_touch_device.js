@@ -254,7 +254,7 @@ waitStartup
 ui
 )
 {
-let
+const
 {
 store
 }

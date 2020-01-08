@@ -173,7 +173,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 animationIndex
@@ -184,7 +184,7 @@ msg
 .
 data
 ;
-let
+const
 node
 =
 superQuerySelector
@@ -201,7 +201,7 @@ node
 return
 ;
 }
-let
+const
 animation
 =
 node
@@ -337,7 +337,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 animationIndex
@@ -348,7 +348,7 @@ msg
 .
 data
 ;
-let
+const
 node
 =
 superQuerySelector
@@ -365,7 +365,7 @@ node
 return
 ;
 }
-let
+const
 animation
 =
 node
@@ -485,7 +485,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 animationIndex
@@ -496,7 +496,7 @@ msg
 .
 data
 ;
-let
+const
 node
 =
 superQuerySelector
@@ -513,7 +513,7 @@ node
 return
 ;
 }
-let
+const
 player
 =
 node
@@ -620,7 +620,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 animationIndex
@@ -630,7 +630,7 @@ msg
 .
 data
 ;
-let
+const
 node
 =
 superQuerySelector
@@ -647,7 +647,7 @@ node
 return
 ;
 }
-let
+const
 animation
 =
 node
@@ -812,7 +812,7 @@ content
 document
 )
 {
-let
+const
 frameIndex
 =
 superSelector
@@ -844,7 +844,7 @@ superSelector
 )
 ;
 }
-let
+const
 rootSelector
 =
 superSelector
@@ -859,7 +859,7 @@ trim
 (
 )
 ;
-let
+const
 childSelector
 =
 superSelector

@@ -294,14 +294,14 @@ onSearch
 event
 )
 {
-let
+const
 searchBox
 =
 event
 .
 target
 ;
-let
+const
 win
 =
 searchBox
@@ -327,7 +327,7 @@ searchTimeout
 )
 ;
 }
-let
+const
 callback
 =
 this

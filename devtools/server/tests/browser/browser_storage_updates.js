@@ -1086,7 +1086,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -1099,7 +1099,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -1108,7 +1108,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 StorageFront
@@ -1142,7 +1142,7 @@ i
 +
 )
 {
-let
+const
 test
 =
 TESTS
@@ -1229,7 +1229,7 @@ present
 ;
 for
 (
-let
+const
 storageType
 in
 toBeEmptied
@@ -1259,7 +1259,7 @@ storageType
 ;
 for
 (
-let
+const
 host
 in
 data
@@ -1290,7 +1290,7 @@ found
 ;
 for
 (
-let
+const
 item
 of
 data
@@ -1302,7 +1302,7 @@ host
 ]
 )
 {
-let
+const
 index
 =
 toBeEmptied
@@ -1670,7 +1670,7 @@ front
 index
 )
 {
-let
+const
 update
 =
 front
@@ -1701,7 +1701,7 @@ action
 (
 )
 ;
-let
+const
 addedChangedDeleted
 =
 await
@@ -1856,7 +1856,7 @@ data
 localStorage
 )
 {
-let
+const
 hosts
 =
 data

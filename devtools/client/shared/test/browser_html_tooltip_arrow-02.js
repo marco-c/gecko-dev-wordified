@@ -142,8 +142,8 @@ useXulWrapper
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -157,7 +157,7 @@ be
 200px
 high
 ;
-yield
+await
 pushPref
 (
 "
@@ -172,12 +172,12 @@ height
 200
 )
 ;
-let
+const
 [
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -206,7 +206,7 @@ useXulWrapper
 =
 false
 ;
-yield
+await
 runTests
 (
 doc
@@ -231,7 +231,7 @@ useXulWrapper
 =
 true
 ;
-yield
+await
 runTests
 (
 doc
@@ -240,8 +240,8 @@ doc
 }
 )
 ;
+async
 function
-*
 runTests
 (
 doc
@@ -256,7 +256,7 @@ tooltip
 "
 )
 ;
-let
+const
 tooltip
 =
 new
@@ -273,7 +273,7 @@ useXulWrapper
 }
 )
 ;
-let
+const
 div
 =
 doc
@@ -311,7 +311,7 @@ height
 }
 )
 ;
-let
+const
 {
 right
 :
@@ -326,7 +326,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 elements
 =
 [
@@ -346,7 +346,7 @@ anchor
 ;
 for
 (
-let
+const
 el
 of
 elements
@@ -365,14 +365,14 @@ anchor
 "
 )
 ;
-yield
+await
 showTooltip
 (
 tooltip
 el
 )
 ;
-let
+const
 arrow
 =
 tooltip
@@ -404,7 +404,7 @@ panel
 &
 arrow
 .
-let
+const
 arrowBounds
 =
 arrow
@@ -423,7 +423,7 @@ doc
 .
 bounds
 ;
-let
+const
 panelBounds
 =
 tooltip
@@ -444,7 +444,7 @@ doc
 .
 bounds
 ;
-let
+const
 anchorBounds
 =
 el
@@ -463,7 +463,7 @@ doc
 .
 bounds
 ;
-let
+const
 intersects
 =
 arrowBounds
@@ -485,7 +485,7 @@ anchorBounds
 .
 left
 ;
-let
+const
 isBlockedByViewport
 =
 arrowBounds
@@ -528,7 +528,7 @@ edge
 "
 )
 ;
-let
+const
 isInPanel
 =
 arrowBounds
@@ -566,7 +566,7 @@ horizontally
 "
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip

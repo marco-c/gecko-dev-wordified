@@ -93,7 +93,7 @@ test
 (
 )
 {
-let
+const
 {
 Toolbox
 }
@@ -167,7 +167,7 @@ forTab
 tab
 )
 ;
-let
+const
 options
 =
 {
@@ -245,7 +245,7 @@ event
 data
 )
 ;
-let
+const
 json
 =
 JSON

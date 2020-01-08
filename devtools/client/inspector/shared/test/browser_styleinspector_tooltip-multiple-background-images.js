@@ -211,7 +211,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 }
@@ -255,7 +255,7 @@ view
 "
 )
 ;
-let
+const
 view
 =
 selectRuleView
@@ -272,7 +272,7 @@ h1
 inspector
 )
 ;
-let
+const
 {
 valueSpan
 }
@@ -315,7 +315,7 @@ view
 "
 )
 ;
-let
+const
 onComputedViewReady
 =
 inspector
@@ -331,7 +331,7 @@ refreshed
 "
 )
 ;
-let
+const
 view
 =
 selectComputedView
@@ -342,7 +342,7 @@ inspector
 await
 onComputedViewReady
 ;
-let
+const
 {
 valueSpan
 }
@@ -397,7 +397,7 @@ panel
 imageSrc
 )
 {
-let
+const
 images
 =
 panel
@@ -447,7 +447,7 @@ correct
 )
 ;
 }
-let
+const
 links
 =
 propertyValue
@@ -485,7 +485,7 @@ links
 ]
 )
 ;
-let
+const
 panel
 =
 view

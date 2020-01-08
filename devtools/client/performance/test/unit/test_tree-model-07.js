@@ -77,7 +77,7 @@ test
 (
 )
 {
-let
+const
 {
 ThreadNode
 }
@@ -101,7 +101,7 @@ model
 "
 )
 ;
-let
+const
 url
 =
 (
@@ -131,7 +131,7 @@ given
 samples
 array
 .
-let
+const
 root
 =
 getFrameNodePath

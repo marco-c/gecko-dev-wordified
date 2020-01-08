@@ -238,7 +238,7 @@ source
 originalUrl
 )
 {
-let
+const
 url
 =
 this
@@ -296,7 +296,7 @@ originalUrl
 actorID
 )
 {
-let
+const
 url
 =
 this

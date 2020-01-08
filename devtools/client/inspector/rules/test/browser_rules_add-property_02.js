@@ -145,7 +145,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -178,7 +178,7 @@ field
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -196,7 +196,7 @@ focusNewRuleViewProperty
 ruleEditor
 )
 ;
-let
+const
 input
 =
 editor
@@ -338,7 +338,7 @@ focus
 "
 )
 ;
-let
+const
 onNameAdded
 =
 view
@@ -423,7 +423,7 @@ editor
 "
 )
 ;
-let
+const
 textProp
 =
 ruleEditor
@@ -468,7 +468,7 @@ value
 "
 )
 ;
-let
+const
 onValueAdded
 =
 view

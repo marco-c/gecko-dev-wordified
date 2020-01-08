@@ -157,7 +157,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -203,7 +203,7 @@ view
 SEARCH
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -214,7 +214,7 @@ view
 .
 rule
 ;
-let
+const
 propEditor
 =
 rule
@@ -226,14 +226,14 @@ textProps
 .
 editor
 ;
-let
+const
 computed
 =
 propEditor
 .
 computed
 ;
-let
+const
 editor
 =
 await
@@ -339,7 +339,7 @@ highlighted
 "
 )
 ;
-let
+const
 onBlur
 =
 once
@@ -352,7 +352,7 @@ blur
 "
 )
 ;
-let
+const
 onModification
 =
 view

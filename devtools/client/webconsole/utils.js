@@ -285,7 +285,7 @@ function
 string
 )
 {
-let
+const
 str
 =
 Cc
@@ -515,13 +515,13 @@ temp
 ;
 for
 (
-let
+const
 key
 in
 object
 )
 {
-let
+const
 value
 =
 object
@@ -619,7 +619,7 @@ from
 to
 )
 {
-let
+const
 win
 =
 from
@@ -628,7 +628,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 style
 =
 win
@@ -743,7 +743,7 @@ location
 {
 try
 {
-let
+const
 requestURI
 =
 Services
@@ -755,7 +755,7 @@ newURI
 request
 )
 ;
-let
+const
 contentURI
 =
 Services
@@ -925,7 +925,7 @@ name
 {
 try
 {
-let
+const
 str
 =
 (
@@ -1077,7 +1077,7 @@ undefined
 "
 ;
 }
-let
+const
 type
 =
 typeof
@@ -1525,7 +1525,7 @@ msg
 okstring
 )
 {
-let
+const
 handler
 =
 function
@@ -1597,7 +1597,7 @@ return
 false
 ;
 }
-let
+const
 notification
 =
 notificationBox
@@ -1658,7 +1658,7 @@ pasteKeyUpHandler
 event2
 )
 {
-let
+const
 value
 =
 inputField

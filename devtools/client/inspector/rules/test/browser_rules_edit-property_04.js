@@ -145,7 +145,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -166,7 +166,7 @@ testid
 inspector
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -177,7 +177,7 @@ view
 .
 rule
 ;
-let
+const
 prop
 =
 rule
@@ -203,7 +203,7 @@ view
 prop
 )
 ;
-let
+const
 newValue
 =
 await
@@ -318,7 +318,7 @@ fieldType
 commitKey
 )
 {
-let
+const
 field
 =
 fieldType
@@ -341,7 +341,7 @@ editor
 .
 valueSpan
 ;
-let
+const
 editor
 =
 await
@@ -475,7 +475,7 @@ changed
 )
 ;
 }
-let
+const
 onBlur
 =
 once

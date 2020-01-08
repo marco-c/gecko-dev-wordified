@@ -153,7 +153,7 @@ addActors
 ACTORS_URL
 )
 ;
-let
+const
 transport
 =
 DebuggerServer
@@ -177,7 +177,7 @@ connect
 (
 )
 ;
-let
+const
 {
 errorActor
 }

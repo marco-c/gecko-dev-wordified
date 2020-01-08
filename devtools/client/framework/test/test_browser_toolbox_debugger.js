@@ -88,7 +88,7 @@ jsdebugger
 "
 )
 ;
-let
+const
 dbg
 =
 createDebuggerContext
@@ -96,14 +96,14 @@ createDebuggerContext
 toolbox
 )
 ;
-let
+const
 window
 =
 dbg
 .
 win
 ;
-let
+const
 document
 =
 window
@@ -145,7 +145,7 @@ First
 expand
 the
 domain
-let
+const
 domain
 =
 [
@@ -190,7 +190,7 @@ org
 }
 )
 ;
-let
+const
 arrow
 =
 domain
@@ -209,7 +209,7 @@ click
 (
 )
 ;
-let
+const
 fileName
 =
 testUrl
@@ -290,7 +290,7 @@ click
 (
 )
 ;
-let
+const
 onPaused
 =
 waitForPaused
@@ -350,7 +350,7 @@ during
 test
 closing
 .
-let
+const
 source
 =
 findSource

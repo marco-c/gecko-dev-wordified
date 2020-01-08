@@ -249,7 +249,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -258,7 +258,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 browser
 =
 tab
@@ -636,7 +636,7 @@ process
 )
 )
 ;
-let
+const
 topWindow
 =
 Services
@@ -704,7 +704,7 @@ DebuggerServer
 "
 )
 ;
-let
+const
 loader
 =
 new
@@ -712,7 +712,7 @@ DevToolsLoader
 (
 )
 ;
-let
+const
 {
 DebuggerServer
 }
@@ -748,7 +748,7 @@ allowChromeProcess
 =
 true
 ;
-let
+const
 listener
 =
 DebuggerServer
@@ -892,7 +892,7 @@ Connection
 "
 )
 ;
-let
+const
 server
 =
 await
@@ -901,7 +901,7 @@ setupDebuggerServer
 false
 )
 ;
-let
+const
 {
 port
 }
@@ -910,7 +910,7 @@ server
 .
 listener
 ;
-let
+const
 target
 =
 await
@@ -948,7 +948,7 @@ port
 )
 )
 ;
-let
+const
 topWindow
 =
 Services
@@ -975,7 +975,7 @@ href
 true
 )
 ;
-let
+const
 settings
 =
 target
@@ -1051,7 +1051,7 @@ Connection
 "
 )
 ;
-let
+const
 server
 =
 await
@@ -1060,7 +1060,7 @@ setupDebuggerServer
 true
 )
 ;
-let
+const
 {
 port
 }
@@ -1069,7 +1069,7 @@ server
 .
 listener
 ;
-let
+const
 target
 =
 await
@@ -1114,7 +1114,7 @@ true
 )
 )
 ;
-let
+const
 topWindow
 =
 Services
@@ -1141,7 +1141,7 @@ href
 true
 )
 ;
-let
+const
 settings
 =
 target

@@ -218,7 +218,7 @@ Application
 state
 object
 .
-let
+const
 input
 =
 {
@@ -283,7 +283,7 @@ function
 (
 )
 {
-let
+const
 text
 =
 input
@@ -372,7 +372,7 @@ value
 "
 "
 ;
-let
+const
 isWinNT
 =
 document
@@ -392,7 +392,7 @@ platform
 win
 "
 ;
-let
+const
 eol
 =
 isWinNT
@@ -409,7 +409,7 @@ n
 n
 "
 ;
-let
+const
 responseHeaders
 =
 input
@@ -436,7 +436,7 @@ i
 +
 )
 {
-let
+const
 header
 =
 responseHeaders
@@ -467,7 +467,7 @@ value
 =
 eol
 ;
-let
+const
 requestHeaders
 =
 input
@@ -494,7 +494,7 @@ i
 +
 )
 {
-let
+const
 header
 =
 requestHeaders
@@ -835,7 +835,7 @@ type
 value
 )
 {
-let
+const
 data
 =
 {
@@ -847,7 +847,7 @@ value
 }
 }
 ;
-let
+const
 contentMessageEvent
 =
 new
@@ -902,7 +902,7 @@ root
 .
 *
 /
-let
+const
 content
 =
 document
@@ -914,7 +914,7 @@ content
 "
 )
 ;
-let
+const
 promise
 =
 (
@@ -1058,7 +1058,7 @@ loading
 the
 app
 .
-let
+const
 jsonString
 =
 input
@@ -1157,7 +1157,7 @@ undefined
 (
 )
 ;
-let
+const
 theApp
 =
 render

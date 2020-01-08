@@ -306,7 +306,7 @@ onNameMouseOver
 (
 )
 {
-let
+const
 {
 font
 onToggleFontHighlight
@@ -327,7 +327,7 @@ onNameMouseOut
 (
 )
 {
-let
+const
 {
 font
 onToggleFontHighlight

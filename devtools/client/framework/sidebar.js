@@ -665,7 +665,7 @@ bind
 this
 )
 ;
-let
+const
 width
 =
 Services
@@ -938,7 +938,7 @@ _allTabsBtn
 return
 ;
 }
-let
+const
 tabs
 =
 this
@@ -959,7 +959,7 @@ first
 in
 the
 tabbox
-let
+const
 allTabsContainer
 =
 this
@@ -1159,7 +1159,7 @@ this
 _allTabsBtn
 )
 ;
-let
+const
 menuPopup
 =
 this
@@ -1239,7 +1239,7 @@ the
 sidebar
 for
 (
-let
+const
 [
 id
 tab
@@ -1250,7 +1250,7 @@ this
 _tabs
 )
 {
-let
+const
 item
 =
 this
@@ -1306,7 +1306,7 @@ _allTabsBtn
 return
 ;
 }
-let
+const
 tabs
 =
 this
@@ -1465,7 +1465,7 @@ _allTabsBtn
 return
 ;
 }
-let
+const
 item
 =
 this
@@ -1480,7 +1480,7 @@ menuitem
 "
 )
 ;
-let
+const
 idPrefix
 =
 "
@@ -1585,7 +1585,7 @@ autocheck
 false
 )
 ;
-let
+const
 menu
 =
 this
@@ -1606,7 +1606,7 @@ options
 insertBefore
 )
 {
-let
+const
 referenceItem
 =
 menu
@@ -1822,7 +1822,7 @@ options
 }
 )
 {
-let
+const
 iframe
 =
 this
@@ -1889,7 +1889,7 @@ it
 to
 the
 tabbox
-let
+const
 tab
 =
 this
@@ -1960,7 +1960,7 @@ options
 insertBefore
 )
 {
-let
+const
 referenceTab
 =
 this
@@ -2010,7 +2010,7 @@ allTabs
 menu
 if
 exists
-let
+const
 allTabsItem
 =
 this
@@ -2022,7 +2022,7 @@ tab
 options
 )
 ;
-let
+const
 onIFrameLoaded
 =
 (
@@ -2031,14 +2031,14 @@ event
 =
 >
 {
-let
+const
 doc
 =
 event
 .
 target
 ;
-let
+const
 win
 =
 doc
@@ -2131,7 +2131,7 @@ onIFrameLoaded
 true
 )
 ;
-let
+const
 tabpanel
 =
 this
@@ -2174,7 +2174,7 @@ options
 insertBefore
 )
 {
-let
+const
 referenceTabpanel
 =
 this
@@ -2348,7 +2348,7 @@ function
 (
 )
 {
-let
+const
 knownTabs
 =
 [
@@ -2366,7 +2366,7 @@ values
 ;
 for
 (
-let
+const
 tab
 of
 this
@@ -2602,7 +2602,7 @@ it
 can
 be
 found
-let
+const
 tab
 =
 this
@@ -2621,7 +2621,7 @@ tab
 return
 ;
 }
-let
+const
 win
 =
 this
@@ -2665,7 +2665,7 @@ Also
 remove
 the
 tabpanel
-let
+const
 panel
 =
 this
@@ -2772,7 +2772,7 @@ Toggle
 the
 tab
 .
-let
+const
 tab
 =
 this
@@ -2859,7 +2859,7 @@ function
 id
 )
 {
-let
+const
 tab
 =
 this
@@ -2976,7 +2976,7 @@ null
 ;
 for
 (
-let
+const
 [
 id
 tab
@@ -3235,7 +3235,7 @@ changed
 return
 ;
 }
-let
+const
 previousTool
 =
 this
@@ -3398,7 +3398,7 @@ the
 selected
 one
 .
-let
+const
 tab
 =
 this
@@ -3416,7 +3416,7 @@ allTabsMenuItem
 {
 for
 (
-let
+const
 otherItem
 of
 this
@@ -3759,7 +3759,7 @@ it
 contains
 an
 iframe
-let
+const
 panel
 =
 this
@@ -3948,7 +3948,7 @@ hasChildNodes
 )
 )
 {
-let
+const
 panel
 =
 this
@@ -3959,7 +3959,7 @@ tabpanels
 .
 firstChild
 ;
-let
+const
 win
 =
 panel

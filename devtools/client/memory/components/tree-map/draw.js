@@ -410,7 +410,7 @@ canvases
 dragZoom
 )
 {
-let
+const
 getTreemap
 =
 configureD3Treemap
@@ -553,7 +553,7 @@ function
 canvas
 )
 {
-let
+const
 window
 =
 canvas
@@ -562,14 +562,14 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 ratio
 =
 window
 .
 devicePixelRatio
 ;
-let
+const
 treemap
 =
 window
@@ -881,7 +881,7 @@ depthSortedNodes
 report
 )
 {
-let
+const
 nodes
 =
 treemap
@@ -1021,7 +1021,7 @@ innerWidth
 name
 )
 {
-let
+const
 truncated
 =
 name
@@ -1041,7 +1041,7 @@ length
 )
 )
 ;
-let
+const
 formatted
 =
 truncated
@@ -1193,7 +1193,7 @@ totalCount
 =
 node
 ;
-let
+const
 scale
 =
 dragZoom
@@ -1247,7 +1247,7 @@ FONT_LINE_HEIGHT
 dy
 )
 {
-let
+const
 margin
 =
 borderWidth
@@ -1263,7 +1263,7 @@ ratio
 *
 TEXT_MARGIN
 ;
-let
+const
 x
 =
 margin
@@ -1285,7 +1285,7 @@ dragZoom
 .
 offsetX
 ;
-let
+const
 y
 =
 margin
@@ -1307,7 +1307,7 @@ dragZoom
 .
 offsetY
 ;
-let
+const
 innerWidth
 =
 dx
@@ -1316,7 +1316,7 @@ margin
 *
 2
 ;
-let
+const
 nameSize
 =
 ctx
@@ -1388,7 +1388,7 @@ name
 }
 else
 {
-let
+const
 bytesFormatted
 =
 formatAbbreviatedBytes
@@ -1396,7 +1396,7 @@ formatAbbreviatedBytes
 totalBytes
 )
 ;
-let
+const
 countFormatted
 =
 {
@@ -1406,7 +1406,7 @@ totalCount
 COUNT_LABEL
 }
 ;
-let
+const
 byteSize
 =
 ctx
@@ -1418,7 +1418,7 @@ bytesFormatted
 .
 width
 ;
-let
+const
 countSize
 =
 ctx
@@ -1430,7 +1430,7 @@ countFormatted
 .
 width
 ;
-let
+const
 spaceSize
 =
 ctx
@@ -1593,7 +1593,7 @@ dragZoom
 padding
 )
 {
-let
+const
 border
 =
 borderWidth
@@ -1601,7 +1601,7 @@ borderWidth
 node
 )
 ;
-let
+const
 fillHSL
 =
 colorCoarseType
@@ -1609,7 +1609,7 @@ colorCoarseType
 node
 )
 ;
-let
+const
 strokeHSL
 =
 [
@@ -1631,7 +1631,7 @@ fillHSL
 5
 ]
 ;
-let
+const
 scale
 =
 1
@@ -1653,7 +1653,7 @@ don
 '
 t
 overlap
-let
+const
 x
 =
 scale
@@ -1677,7 +1677,7 @@ border
 /
 2
 ;
-let
+const
 y
 =
 scale
@@ -1701,7 +1701,7 @@ border
 /
 2
 ;
-let
+const
 dx
 =
 scale
@@ -1712,7 +1712,7 @@ dx
 -
 border
 ;
-let
+const
 dy
 =
 scale
@@ -1827,7 +1827,7 @@ nodes
 dragZoom
 )
 {
-let
+const
 window
 =
 canvas
@@ -1836,14 +1836,14 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 ratio
 =
 window
 .
 devicePixelRatio
 ;
-let
+const
 canvasArea
 =
 canvas
@@ -1866,7 +1866,7 @@ tree
 map
 layout
 .
-let
+const
 padding
 =
 [
@@ -1926,7 +1926,7 @@ borderWidth
 node
 )
 {
-let
+const
 areaRatio
 =
 Math
@@ -1972,7 +1972,7 @@ i
 +
 )
 {
-let
+const
 node
 =
 nodes
@@ -2084,7 +2084,7 @@ canvas
 dragZoom
 )
 {
-let
+const
 scale
 =
 1
@@ -2097,7 +2097,7 @@ dragZoom
 zoom
 )
 ;
-let
+const
 x
 =
 -
@@ -2105,7 +2105,7 @@ dragZoom
 .
 translateX
 ;
-let
+const
 y
 =
 -

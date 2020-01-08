@@ -231,7 +231,7 @@ Helpers_getParentObject
 node
 )
 {
-let
+const
 parentNode
 =
 node
@@ -298,7 +298,7 @@ node
 defaultView
 )
 {
-let
+const
 embeddingFrame
 =
 node
@@ -474,7 +474,7 @@ node
 getSVGDocument
 )
 {
-let
+const
 svgDocument
 =
 node
@@ -621,7 +621,7 @@ Helpers_getFirstChild
 node
 )
 {
-let
+const
 SHOW_ALL
 =
 nodeFilterConstants
@@ -661,7 +661,7 @@ Helpers_getNextSibling
 node
 )
 {
-let
+const
 next
 =
 this
@@ -810,14 +810,14 @@ callback
 targetURL
 )
 {
-let
+const
 window
 =
 this
 .
 window
 ;
-let
+const
 docShell
 =
 window
@@ -843,7 +843,7 @@ Ci
 nsIDocShell
 )
 ;
-let
+const
 onReady
 =
 function

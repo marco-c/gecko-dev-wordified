@@ -121,7 +121,7 @@ enableApplicationPanel
 (
 )
 ;
-let
+const
 {
 panel
 tab
@@ -134,7 +134,7 @@ openNewTabAndApplicationPanel
 TAB_URL
 )
 ;
-let
+const
 doc
 =
 panel
@@ -178,7 +178,7 @@ length
 1
 )
 ;
-let
+const
 container
 =
 getWorkerContainers
@@ -257,7 +257,7 @@ ready
 "
 )
 ;
-let
+const
 onToolboxReady
 =
 gDevTools
@@ -271,7 +271,7 @@ ready
 "
 )
 ;
-let
+const
 debugLink
 =
 container
@@ -294,7 +294,7 @@ click
 (
 )
 ;
-let
+const
 serviceWorkerToolbox
 =
 await
@@ -310,7 +310,7 @@ jsdebugger
 "
 )
 ;
-let
+const
 debuggerContext
 =
 createDebuggerContext

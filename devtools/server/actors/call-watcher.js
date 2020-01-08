@@ -530,7 +530,7 @@ if
 holdWeak
 )
 {
-let
+const
 weakRefs
 =
 {
@@ -919,7 +919,7 @@ function
 (
 )
 {
-let
+const
 {
 type
 name
@@ -1126,7 +1126,7 @@ function
 args
 )
 {
-let
+const
 {
 global
 name
@@ -1159,7 +1159,7 @@ method
 let
 methodSignatureEnums
 ;
-let
+const
 knownGlobal
 =
 CallWatcherFront
@@ -1174,7 +1174,7 @@ if
 knownGlobal
 )
 {
-let
+const
 knownMethod
 =
 knownGlobal
@@ -1187,7 +1187,7 @@ if
 knownMethod
 )
 {
-let
+const
 isOverloaded
 =
 typeof
@@ -1227,7 +1227,7 @@ enums
 }
 }
 }
-let
+const
 serializeArgs
 =
 (
@@ -2204,7 +2204,7 @@ isTopLevel
 return
 ;
 }
-let
+const
 self
 =
 this
@@ -2215,7 +2215,7 @@ _tracedWindowId
 =
 id
 ;
-let
+const
 unwrappedWindow
 =
 XPCNativeWrapper
@@ -2225,7 +2225,7 @@ unwrap
 window
 )
 ;
-let
+const
 callback
 =
 this
@@ -2234,7 +2234,7 @@ _onContentFunctionCall
 ;
 for
 (
-let
+const
 global
 of
 this
@@ -2242,7 +2242,7 @@ this
 _tracedGlobals
 )
 {
-let
+const
 prototype
 =
 unwrappedWindow
@@ -2252,7 +2252,7 @@ global
 .
 prototype
 ;
-let
+const
 properties
 =
 Object
@@ -2281,7 +2281,7 @@ callback
 }
 for
 (
-let
+const
 name
 of
 this
@@ -2336,7 +2336,7 @@ name
 subcallback
 )
 {
-let
+const
 propertyDescriptor
 =
 Object
@@ -2454,7 +2454,7 @@ Get
 Xrays
 back
 .
-let
+const
 originalFunc
 =
 Cu
@@ -2520,14 +2520,14 @@ self
 _recording
 )
 {
-let
+const
 type
 =
 CallWatcherFront
 .
 METHOD_FUNCTION
 ;
-let
+const
 stack
 =
 getStack
@@ -2535,7 +2535,7 @@ getStack
 name
 )
 ;
-let
+const
 timestamp
 =
 self
@@ -2660,7 +2660,7 @@ Get
 Xrays
 back
 .
-let
+const
 originalGetter
 =
 Cu
@@ -2675,7 +2675,7 @@ name
 )
 )
 ;
-let
+const
 originalSetter
 =
 Cu
@@ -2717,7 +2717,7 @@ return
 undefined
 ;
 }
-let
+const
 result
 =
 Cu
@@ -2740,14 +2740,14 @@ self
 _recording
 )
 {
-let
+const
 type
 =
 CallWatcherFront
 .
 GETTER_FUNCTION
 ;
-let
+const
 stack
 =
 getStack
@@ -2755,7 +2755,7 @@ getStack
 name
 )
 ;
-let
+const
 timestamp
 =
 self
@@ -2826,14 +2826,14 @@ self
 _recording
 )
 {
-let
+const
 type
 =
 CallWatcherFront
 .
 SETTER_FUNCTION
 ;
-let
+const
 stack
 =
 getStack
@@ -2841,7 +2841,7 @@ getStack
 name
 )
 ;
-let
+const
 timestamp
 =
 self
@@ -3033,7 +3033,7 @@ out
 of
 it
 .
-let
+const
 calls
 =
 [
@@ -3080,7 +3080,7 @@ nextNewLinePivot
 0
 )
 {
-let
+const
 nameDelimiterIndex
 =
 stack
@@ -3092,7 +3092,7 @@ indexOf
 currNewLinePivot
 )
 ;
-let
+const
 columnDelimiterIndex
 =
 stack
@@ -3107,7 +3107,7 @@ nextNewLinePivot
 1
 )
 ;
-let
+const
 lineDelimiterIndex
 =
 stack
@@ -3191,7 +3191,7 @@ callIndex
 0
 )
 {
-let
+const
 file
 =
 stack
@@ -3204,7 +3204,7 @@ nameDelimiterIndex
 lineDelimiterIndex
 )
 ;
-let
+const
 line
 =
 stack
@@ -3217,7 +3217,7 @@ lineDelimiterIndex
 columnDelimiterIndex
 )
 ;
-let
+const
 name
 =
 stack
@@ -3437,7 +3437,7 @@ _finalized
 return
 ;
 }
-let
+const
 functionCall
 =
 new
@@ -3686,7 +3686,7 @@ type
 ;
 for
 (
-let
+const
 key
 in
 object
@@ -3774,7 +3774,7 @@ COLOR_BUFFER_BIT
 |
 DEPTH_BUFFER_BIT
 "
-let
+const
 flags
 =
 [
@@ -4004,7 +4004,7 @@ e
 win
 )
 {
-let
+const
 {
 message
 name
@@ -4013,7 +4013,7 @@ stack
 =
 e
 ;
-let
+const
 parsedStack
 =
 parseStack
@@ -4021,7 +4021,7 @@ parseStack
 stack
 )
 ;
-let
+const
 {
 fileName
 lineNumber
@@ -4040,7 +4040,7 @@ length
 let
 error
 ;
-let
+const
 isDOMException
 =
 ChromeUtils
@@ -4056,7 +4056,7 @@ e
 DOMException
 "
 ;
-let
+const
 constructor
 =
 isDOMException

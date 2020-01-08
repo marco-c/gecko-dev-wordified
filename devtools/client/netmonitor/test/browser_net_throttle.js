@@ -73,7 +73,7 @@ requestLongerTimeout
 2
 )
 ;
-let
+const
 {
 monitor
 }
@@ -84,7 +84,7 @@ initNetMonitor
 SIMPLE_URL
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -95,7 +95,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 {
 ACTIVITY_TYPE
 }
@@ -115,7 +115,7 @@ constants
 "
 )
 ;
-let
+const
 {
 setPreferences
 triggerActivity
@@ -123,7 +123,7 @@ triggerActivity
 =
 connector
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -263,7 +263,7 @@ response
 }
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -296,7 +296,7 @@ eventTimings
 ]
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests

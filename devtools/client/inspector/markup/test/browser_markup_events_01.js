@@ -491,7 +491,7 @@ inspector
 testActor
 )
 {
-let
+const
 nodeMutated
 =
 inspector
@@ -604,7 +604,7 @@ inspector
 testActor
 )
 {
-let
+const
 nodeMutated
 =
 inspector

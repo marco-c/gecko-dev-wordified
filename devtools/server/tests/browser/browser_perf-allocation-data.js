@@ -90,7 +90,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -103,7 +103,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -112,7 +112,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 PerformanceFront
@@ -128,7 +128,7 @@ connect
 (
 )
 ;
-let
+const
 rec
 =
 await
@@ -229,7 +229,7 @@ stopRecording
 rec
 )
 ;
-let
+const
 {
 timestamps
 sizes

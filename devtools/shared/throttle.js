@@ -217,7 +217,7 @@ previous
 =
 0
 ;
-let
+const
 later
 =
 function
@@ -257,7 +257,7 @@ function
 (
 )
 {
-let
+const
 now
 =
 Date
@@ -266,7 +266,7 @@ now
 (
 )
 ;
-let
+const
 remaining
 =
 wait

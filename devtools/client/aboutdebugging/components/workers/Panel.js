@@ -494,7 +494,7 @@ componentDidMount
 (
 )
 {
-let
+const
 client
 =
 this
@@ -746,7 +746,7 @@ componentWillUnmount
 (
 )
 {
-let
+const
 client
 =
 this
@@ -881,7 +881,7 @@ nsIXULRuntime
 .
 maxWebProcessCount
 .
-let
+const
 processCount
 =
 Services
@@ -904,7 +904,7 @@ updateWorkers
 (
 )
 {
-let
+const
 workers
 =
 this
@@ -1080,7 +1080,7 @@ renderServiceWorkersError
 (
 )
 {
-let
+const
 isWindowPrivate
 =
 PrivateBrowsingUtils
@@ -1090,14 +1090,14 @@ isContentWindowPrivate
 window
 )
 ;
-let
+const
 isPrivateBrowsingMode
 =
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
 ;
-let
+const
 isServiceWorkerDisabled
 =
 !
@@ -1116,7 +1116,7 @@ enabled
 "
 )
 ;
-let
+const
 isDisabled
 =
 isWindowPrivate
@@ -1226,7 +1226,7 @@ render
 (
 )
 {
-let
+const
 {
 client
 id
@@ -1236,7 +1236,7 @@ this
 .
 props
 ;
-let
+const
 {
 workers
 processCount
@@ -1246,7 +1246,7 @@ this
 .
 state
 ;
-let
+const
 isE10S
 =
 Services
@@ -1255,7 +1255,7 @@ appinfo
 .
 browserTabsRemoteAutostart
 ;
-let
+const
 isMultiE10S
 =
 isE10S

@@ -1124,7 +1124,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 expandedNodes
 selected
@@ -1132,7 +1132,7 @@ selected
 =
 nextProps
 ;
-let
+const
 state
 =
 {
@@ -1180,7 +1180,7 @@ componentDidUpdate
 (
 )
 {
-let
+const
 selected
 =
 this
@@ -1403,7 +1403,7 @@ Infinity
 }
 )
 {
-let
+const
 expandedNodes
 =
 new
@@ -1411,7 +1411,7 @@ Set
 (
 )
 ;
-let
+const
 queue
 =
 [
@@ -1436,7 +1436,7 @@ queue
 length
 )
 {
-let
+const
 {
 object
 level
@@ -1464,7 +1464,7 @@ object
 continue
 ;
 }
-let
+const
 keys
 =
 Object
@@ -1500,13 +1500,13 @@ break
 }
 for
 (
-let
+const
 key
 of
 keys
 )
 {
-let
+const
 nodePath
 =
 TreeView
@@ -1571,7 +1571,7 @@ toggle
 nodePath
 )
 {
-let
+const
 nodes
 =
 this
@@ -1683,7 +1683,7 @@ key
 return
 ;
 }
-let
+const
 row
 =
 this
@@ -1701,7 +1701,7 @@ row
 return
 ;
 }
-let
+const
 index
 =
 this
@@ -1725,7 +1725,7 @@ case
 ArrowRight
 "
 :
-let
+const
 {
 hasChildren
 open
@@ -1793,7 +1793,7 @@ selected
 }
 else
 {
-let
+const
 parentRow
 =
 this
@@ -1853,7 +1853,7 @@ case
 ArrowDown
 "
 :
-let
+const
 nextRow
 =
 this
@@ -1885,7 +1885,7 @@ case
 ArrowUp
 "
 :
-let
+const
 previousRow
 =
 this
@@ -1917,7 +1917,7 @@ case
 Home
 "
 :
-let
+const
 firstRow
 =
 this
@@ -1947,7 +1947,7 @@ case
 End
 "
 :
-let
+const
 lastRow
 =
 this
@@ -2012,7 +2012,7 @@ nodePath
 event
 )
 {
-let
+const
 onClickRow
 =
 this
@@ -2044,7 +2044,7 @@ stopPropagation
 (
 )
 ;
-let
+const
 cell
 =
 event
@@ -2151,7 +2151,7 @@ getSelectedRowIndex
 (
 )
 {
-let
+const
 row
 =
 this
@@ -2324,7 +2324,7 @@ onFilter
 object
 )
 {
-let
+const
 onFilter
 =
 this
@@ -2350,7 +2350,7 @@ parent
 children
 )
 {
-let
+const
 onSort
 =
 this
@@ -2462,7 +2462,7 @@ return
 ]
 ;
 }
-let
+const
 {
 expandableStrings
 provider
@@ -2542,7 +2542,7 @@ child
 =
 >
 {
-let
+const
 key
 =
 provider
@@ -2552,7 +2552,7 @@ getKey
 child
 )
 ;
-let
+const
 nodePath
 =
 TreeView
@@ -2563,7 +2563,7 @@ path
 key
 )
 ;
-let
+const
 type
 =
 provider
@@ -2623,7 +2623,7 @@ cell
 is
 rendered
 .
-let
+const
 value
 =
 provider
@@ -2889,7 +2889,7 @@ rows
 [
 ]
 ;
-let
+const
 decorator
 =
 this
@@ -2960,7 +2960,7 @@ loaded
 /
 asynchronously
 .
-let
+const
 members
 =
 this
@@ -3020,7 +3020,7 @@ object
 renderRow
 ;
 }
-let
+const
 props
 =
 Object
@@ -3126,7 +3126,7 @@ member
 open
 )
 {
-let
+const
 childRows
 =
 this
@@ -3191,7 +3191,7 @@ childRows
 )
 )
 {
-let
+const
 lastIndex
 =
 rows
@@ -3247,7 +3247,7 @@ render
 (
 )
 {
-let
+const
 root
 =
 this
@@ -3256,7 +3256,7 @@ props
 .
 object
 ;
-let
+const
 classNames
 =
 [
@@ -3281,7 +3281,7 @@ name
 from
 props
 .
-let
+const
 className
 =
 this
@@ -3403,7 +3403,7 @@ rows
 ]
 ;
 }
-let
+const
 props
 =
 Object
@@ -3580,7 +3580,7 @@ columns
 ]
 ;
 }
-let
+const
 defaultColumn
 =
 columns

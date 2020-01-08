@@ -267,7 +267,7 @@ connection
 ;
 }
 ;
-let
+const
 transport
 =
 DebuggerServer
@@ -518,7 +518,7 @@ iteration
 .
 *
 /
-let
+const
 actor
 =
 outerActor
@@ -768,7 +768,7 @@ newSubconnection
 prefix
 )
 {
-let
+const
 {
 conn
 transport
@@ -847,7 +847,7 @@ createSubconnection1
 (
 )
 {
-let
+const
 {
 conn
 transport
@@ -951,7 +951,7 @@ createSubconnection2
 (
 )
 {
-let
+const
 {
 conn
 transport
@@ -1190,7 +1190,7 @@ TestForwardPrefix12WithActor1
 (
 )
 {
-let
+const
 actor
 =
 new
@@ -1251,7 +1251,7 @@ TestForwardPrefix12WithActor12
 (
 )
 {
-let
+const
 actor
 =
 new

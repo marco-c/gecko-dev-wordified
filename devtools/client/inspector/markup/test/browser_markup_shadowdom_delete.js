@@ -250,7 +250,7 @@ enableWebComponents
 (
 )
 ;
-let
+const
 {
 inspector
 }
@@ -290,7 +290,7 @@ host
 "
 )
 ;
-let
+const
 hostFront
 =
 await
@@ -340,14 +340,14 @@ children
 "
 )
 ;
-let
+const
 {
 markup
 }
 =
 inspector
 ;
-let
+const
 hostContainer
 =
 markup
@@ -357,7 +357,7 @@ getContainer
 hostFront
 )
 ;
-let
+const
 childContainers
 =
 hostContainer
@@ -430,7 +430,7 @@ root
 "
 )
 ;
-let
+const
 shadowRootContainer
 =
 childContainers
@@ -445,7 +445,7 @@ inspector
 shadowRootContainer
 )
 ;
-let
+const
 shadowChildContainers
 =
 shadowRootContainer
@@ -488,7 +488,7 @@ slot
 "
 )
 ;
-let
+const
 slotContainer
 =
 shadowChildContainers
@@ -712,7 +712,7 @@ node
 "
 )
 ;
-let
+const
 mutated
 =
 inspector
@@ -724,7 +724,7 @@ markupmutation
 "
 )
 ;
-let
+const
 updated
 =
 inspector

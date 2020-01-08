@@ -3655,7 +3655,7 @@ run_basic_tests
 {
 for
 (
-let
+const
 test
 of
 TEST_DATA
@@ -3868,7 +3868,7 @@ run_comment_tests
 {
 for
 (
-let
+const
 test
 of
 COMMENT_DATA
@@ -3887,7 +3887,7 @@ test
 input
 )
 ;
-let
+const
 output
 =
 _parseCommentDeclarations
@@ -4018,7 +4018,7 @@ run_named_tests
 {
 for
 (
-let
+const
 test
 of
 NAMED_DATA
@@ -4037,7 +4037,7 @@ test
 input
 )
 ;
-let
+const
 output
 =
 parseNamedDeclarations
@@ -4245,7 +4245,7 @@ else
 {
 for
 (
-let
+const
 prop
 of
 actual

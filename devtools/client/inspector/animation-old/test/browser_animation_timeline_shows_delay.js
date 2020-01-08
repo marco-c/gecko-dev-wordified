@@ -114,7 +114,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel
@@ -146,7 +146,7 @@ delayed
 inspector
 )
 ;
-let
+const
 timelineEl
 =
 panel
@@ -329,7 +329,7 @@ timelineEl
 hasDelay
 )
 {
-let
+const
 delay
 =
 timelineEl
@@ -381,7 +381,7 @@ if
 hasDelay
 )
 {
-let
+const
 targetNode
 =
 timelineEl
@@ -409,7 +409,7 @@ timeline
 to
 overflow
 .
-let
+const
 delayLeft
 =
 Math
@@ -425,7 +425,7 @@ getBoundingClientRect
 x
 )
 ;
-let
+const
 sidebarWidth
 =
 Math

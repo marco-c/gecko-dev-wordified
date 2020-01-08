@@ -123,7 +123,7 @@ runTests
 (
 )
 {
-let
+const
 sp
 =
 gScratchpadWindow

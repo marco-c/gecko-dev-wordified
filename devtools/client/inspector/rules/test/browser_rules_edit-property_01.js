@@ -462,7 +462,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -483,7 +483,7 @@ testid
 inspector
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -496,7 +496,7 @@ rule
 ;
 for
 (
-let
+const
 {
 name
 value
@@ -549,7 +549,7 @@ fields
 "
 )
 ;
-let
+const
 doc
 =
 rule
@@ -558,7 +558,7 @@ editor
 .
 doc
 ;
-let
+const
 prop
 =
 rule
@@ -650,7 +650,7 @@ value
 "
 )
 ;
-let
+const
 onValueFocus
 =
 once
@@ -666,7 +666,7 @@ focus
 true
 )
 ;
-let
+const
 onNameDone
 =
 view
@@ -762,7 +762,7 @@ value
 "
 )
 ;
-let
+const
 onValueDone
 =
 view
@@ -776,7 +776,7 @@ changed
 "
 )
 ;
-let
+const
 onBlur
 =
 once
@@ -851,7 +851,7 @@ page
 "
 )
 ;
-let
+const
 propValue
 =
 await
@@ -985,7 +985,7 @@ ruleview
 ;
 for
 (
-let
+const
 i
 in
 DATA

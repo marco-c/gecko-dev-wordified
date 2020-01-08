@@ -69,7 +69,7 @@ response
 content
 )
 {
-let
+const
 {
 mimeType
 }
@@ -142,7 +142,7 @@ body
 =
 content
 ;
-let
+const
 {
 mimeType
 encodedDataLength
@@ -150,7 +150,7 @@ encodedDataLength
 =
 response
 ;
-let
+const
 responseContent
 =
 ResponseInfo
@@ -160,7 +160,7 @@ response
 content
 )
 ;
-let
+const
 payload
 =
 Object
@@ -265,7 +265,7 @@ timing
 TODO
 :
 implement
-let
+const
 {
 dnsStart
 dnsEnd
@@ -278,7 +278,7 @@ receiveHeadersEnd
 =
 timing
 ;
-let
+const
 dns
 =
 parseInt
@@ -289,7 +289,7 @@ dnsStart
 10
 )
 ;
-let
+const
 connect
 =
 parseInt
@@ -300,7 +300,7 @@ connectStart
 10
 )
 ;
-let
+const
 send
 =
 parseInt
@@ -311,7 +311,7 @@ sendStart
 10
 )
 ;
-let
+const
 total
 =
 parseInt
@@ -372,14 +372,14 @@ response
 headers
 )
 {
-let
+const
 {
 headersSize
 }
 =
 headers
 ;
-let
+const
 {
 status
 statusText

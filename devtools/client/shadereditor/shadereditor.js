@@ -1794,7 +1794,7 @@ sources
 or
 instances
 .
-let
+const
 label
 =
 L10N
@@ -1811,7 +1811,7 @@ this
 itemCount
 )
 ;
-let
+const
 contents
 =
 document
@@ -2146,7 +2146,7 @@ item
 was
 selected
 .
-let
+const
 attachment
 =
 sourceItem
@@ -2308,7 +2308,7 @@ target
 }
 )
 {
-let
+const
 sourceItem
 =
 this
@@ -2318,7 +2318,7 @@ getItemForElement
 target
 )
 ;
-let
+const
 attachment
 =
 sourceItem
@@ -2371,7 +2371,7 @@ function
 e
 )
 {
-let
+const
 sourceItem
 =
 this
@@ -2455,7 +2455,7 @@ function
 e
 )
 {
-let
+const
 sourceItem
 =
 this
@@ -2695,7 +2695,7 @@ off
 ;
 for
 (
-let
+const
 p
 of
 this
@@ -2707,7 +2707,7 @@ values
 )
 )
 {
-let
+const
 editor
 =
 yield
@@ -2790,7 +2790,7 @@ function
 sources
 )
 {
-let
+const
 view
 =
 this
@@ -3013,7 +3013,7 @@ type
 )
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -3057,7 +3057,7 @@ promise
 s
 value
 .
-let
+const
 parent
 =
 (
@@ -3073,7 +3073,7 @@ editor
 "
 )
 ;
-let
+const
 editor
 =
 new
@@ -3559,7 +3559,7 @@ function
 (
 )
 {
-let
+const
 editor
 =
 await
@@ -3570,7 +3570,7 @@ _getEditor
 type
 )
 ;
-let
+const
 shaderActor
 =
 await
@@ -3690,7 +3690,7 @@ editor
 errors
 )
 {
-let
+const
 lineCount
 =
 editor
@@ -3699,7 +3699,7 @@ lineCount
 (
 )
 ;
-let
+const
 currentLine
 =
 editor
@@ -3710,7 +3710,7 @@ getCursor
 .
 line
 ;
-let
+const
 listeners
 =
 {
@@ -4006,7 +4006,7 @@ a
 single
 object
 .
-let
+const
 previous
 =
 accumulator
@@ -4253,7 +4253,7 @@ _markerErrorsTooltip
 return
 ;
 }
-let
+const
 tooltip
 =
 node

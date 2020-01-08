@@ -173,7 +173,7 @@ getText
 (
 )
 {
-let
+const
 flavor
 =
 "
@@ -182,7 +182,7 @@ text
 unicode
 "
 ;
-let
+const
 xferable
 =
 Cc
@@ -284,7 +284,7 @@ clipboard
 kGlobalClipboard
 )
 ;
-let
+const
 data
 =
 {

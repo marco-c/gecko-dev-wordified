@@ -189,7 +189,7 @@ frontend
 false
 )
 ;
-let
+const
 hud
 =
 await
@@ -223,7 +223,7 @@ inspector
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -309,14 +309,14 @@ breakpoint
 "
 )
 ;
-let
+const
 jsterm
 =
 hud
 .
 jsterm
 ;
-let
+const
 onMessage
 =
 waitForMessage
@@ -342,7 +342,7 @@ fooObj
 "
 )
 ;
-let
+const
 message
 =
 await
@@ -402,7 +402,7 @@ oi
 =
 objectInspectors
 ;
-let
+const
 onOiExpanded
 =
 waitFor
@@ -513,7 +513,7 @@ Object
 .
 .
 }
-let
+const
 oiNodes
 =
 oi
@@ -615,7 +615,7 @@ waitForFrameAdded
 (
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -627,7 +627,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -637,7 +637,7 @@ getToolbox
 target
 )
 ;
-let
+const
 thread
 =
 toolbox

@@ -147,7 +147,7 @@ setText
 source
 )
 ;
-let
+const
 [
 result
 ]
@@ -184,7 +184,7 @@ close
 it
 again
 .
-let
+const
 target
 =
 TargetFactory
@@ -196,7 +196,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -221,7 +221,7 @@ opened
 "
 )
 ;
-let
+const
 closed
 =
 await
@@ -263,7 +263,7 @@ setText
 source
 )
 ;
-let
+const
 [
 result2
 ]

@@ -130,7 +130,7 @@ field
 change
 for
 (
-let
+const
 field
 of
 fields
@@ -146,7 +146,7 @@ id
 id
 )
 {
-let
+const
 button
 =
 doc
@@ -379,7 +379,7 @@ click
 (
 )
 ;
-let
+const
 newField
 =
 doc
@@ -528,7 +528,7 @@ value
 test
 "
 ;
-let
+const
 newAddField
 =
 doc
@@ -545,7 +545,7 @@ field
 "
 )
 ;
-let
+const
 enter
 =
 doc
@@ -947,7 +947,7 @@ Reset
 a
 custom
 field
-let
+const
 resetBtn
 =
 doc
@@ -989,7 +989,7 @@ catch
 err
 )
 {
-let
+const
 fieldRow
 =
 doc
@@ -1042,7 +1042,7 @@ function
 id
 )
 {
-let
+const
 existing
 =
 doc
@@ -1146,7 +1146,7 @@ function
 id
 )
 {
-let
+const
 custom
 =
 doc
@@ -1354,7 +1354,7 @@ line
 Mouse
 event
 trigger
-let
+const
 mouseClick
 =
 new
@@ -1546,7 +1546,7 @@ non
 -
 existent
 field
-let
+const
 searchField
 =
 doc
@@ -1579,7 +1579,7 @@ click
 (
 )
 ;
-let
+const
 fieldsTotal
 =
 doc

@@ -210,12 +210,12 @@ function
 (
 )
 {
-let
+const
 sw
 =
 gScratchpadWindow
 ;
-let
+const
 {
 require
 }
@@ -241,7 +241,7 @@ jsm
 }
 )
 ;
-let
+const
 {
 TargetFactory
 }
@@ -265,7 +265,7 @@ function
 (
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -295,7 +295,7 @@ toolbox
 =
 >
 {
-let
+const
 hud
 =
 toolbox
@@ -367,7 +367,7 @@ sw
 hud
 )
 {
-let
+const
 sp
 =
 sw
@@ -380,7 +380,7 @@ onMessage
 messages
 )
 {
-let
+const
 msg
 =
 [
@@ -393,7 +393,7 @@ messages
 0
 ]
 ;
-let
+const
 node
 =
 msg
@@ -507,7 +507,7 @@ function
 (
 )
 {
-let
+const
 win
 =
 Services

@@ -88,7 +88,7 @@ addTestGlobal
 gDebuggee
 )
 ;
-let
+const
 transport
 =
 DebuggerServer
@@ -146,7 +146,7 @@ response
 ;
 for
 (
-let
+const
 tab
 of
 response
@@ -795,7 +795,7 @@ do_test_finished
 ;
 try
 {
-let
+const
 inspector
 =
 Cc

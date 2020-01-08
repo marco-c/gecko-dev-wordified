@@ -193,7 +193,7 @@ fireCopyEvent
 element
 )
 {
-let
+const
 evt
 =
 element
@@ -302,7 +302,7 @@ prop
 ;
 for
 (
-let
+const
 property
 of
 view
@@ -326,7 +326,7 @@ view
 )
 )
 {
-let
+const
 nameSpan
 =
 property
@@ -343,7 +343,7 @@ name
 "
 )
 ;
-let
+const
 valueSpan
 =
 property
@@ -455,7 +455,7 @@ propView
 ;
 for
 (
-let
+const
 propertyView
 of
 view
@@ -630,7 +630,7 @@ propertyContent
 ;
 for
 (
-let
+const
 property
 of
 view
@@ -654,7 +654,7 @@ view
 )
 )
 {
-let
+const
 nameSpan
 =
 property
@@ -728,7 +728,7 @@ to
 expand
 the
 property
-let
+const
 onExpand
 =
 view
@@ -943,7 +943,7 @@ view
 "
 )
 ;
-let
+const
 expandos
 =
 view
@@ -983,7 +983,7 @@ reject
 )
 ;
 }
-let
+const
 onExpand
 =
 view
@@ -1088,7 +1088,7 @@ view
 index
 )
 {
-let
+const
 links
 =
 view
@@ -1238,14 +1238,14 @@ selectAllText
 view
 )
 ;
-let
+const
 contentDoc
 =
 view
 .
 styleDocument
 ;
-let
+const
 prop
 =
 contentDoc
@@ -1439,14 +1439,14 @@ copy
 "
 )
 ;
-let
+const
 contentDocument
 =
 view
 .
 styleDocument
 ;
-let
+const
 props
 =
 contentDocument
@@ -1478,7 +1478,7 @@ range
 "
 )
 ;
-let
+const
 range
 =
 contentDocument
@@ -1599,7 +1599,7 @@ checkClipboard
 expectedPattern
 )
 {
-let
+const
 actual
 =
 SpecialPowers
@@ -1613,7 +1613,7 @@ unicode
 "
 )
 ;
-let
+const
 expectedRegExp
 =
 new
@@ -1647,7 +1647,7 @@ expected
 text
 for
 comparison
-let
+const
 terminator
 =
 Services

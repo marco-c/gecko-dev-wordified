@@ -174,7 +174,7 @@ function
 (
 )
 {
-let
+const
 {
 panel
 }
@@ -192,7 +192,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -215,7 +215,7 @@ stopRecording
 panel
 )
 ;
-let
+const
 duration
 =
 PerformanceController
@@ -228,7 +228,7 @@ getDuration
 (
 )
 ;
-let
+const
 graph
 =
 OverviewView
@@ -425,7 +425,7 @@ endTime
 .
 )
 ;
-let
+const
 mapStart
 =
 (
@@ -434,7 +434,7 @@ mapStart
 >
 0
 ;
-let
+const
 mapEnd
 =
 (
@@ -443,7 +443,7 @@ mapEnd
 >
 duration
 ;
-let
+const
 actual
 =
 graph

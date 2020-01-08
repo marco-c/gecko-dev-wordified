@@ -143,7 +143,7 @@ function
 (
 )
 {
-let
+const
 tab1
 =
 await
@@ -165,7 +165,7 @@ window
 "
 )
 ;
-let
+const
 win2
 =
 await
@@ -187,7 +187,7 @@ window
 "
 )
 ;
-let
+const
 tab2
 =
 await
@@ -328,7 +328,7 @@ closeToolboxForTab
 tab
 )
 {
-let
+const
 target
 =
 TargetFactory

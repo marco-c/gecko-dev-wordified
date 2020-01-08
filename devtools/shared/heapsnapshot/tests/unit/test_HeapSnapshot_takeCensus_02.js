@@ -178,7 +178,7 @@ not
 find
 anything
 .
-let
+const
 dbg
 =
 new
@@ -186,7 +186,7 @@ Debugger
 (
 )
 ;
-let
+const
 census0
 =
 saveHeapSnapshotAndTakeCensus
@@ -212,7 +212,7 @@ newGlobalWithDefs
 (
 )
 {
-let
+const
 g
 =
 newGlobal
@@ -290,7 +290,7 @@ census
 finds
 them
 .
-let
+const
 g
 =
 newGlobalWithDefs
@@ -399,7 +399,7 @@ times
 "
 )
 ;
-let
+const
 census1
 =
 dbg

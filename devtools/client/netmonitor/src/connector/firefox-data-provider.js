@@ -459,7 +459,7 @@ id
 data
 )
 {
-let
+const
 {
 method
 url
@@ -627,7 +627,7 @@ id
 data
 )
 {
-let
+const
 {
 responseContent
 responseCookies
@@ -648,7 +648,7 @@ detail
 contents
 in
 parallel
-let
+const
 [
 responseContentObj
 requestHeadersObj
@@ -710,7 +710,7 @@ responseCache
 ]
 )
 ;
-let
+const
 payload
 =
 Object
@@ -766,7 +766,7 @@ fetchResponseContent
 responseContent
 )
 {
-let
+const
 payload
 =
 {
@@ -782,7 +782,7 @@ responseContent
 content
 )
 {
-let
+const
 {
 text
 }
@@ -791,7 +791,7 @@ responseContent
 .
 content
 ;
-let
+const
 response
 =
 await
@@ -827,7 +827,7 @@ fetchRequestHeaders
 requestHeaders
 )
 {
-let
+const
 payload
 =
 {
@@ -850,7 +850,7 @@ headers
 length
 )
 {
-let
+const
 headers
 =
 await
@@ -885,7 +885,7 @@ fetchResponseHeaders
 responseHeaders
 )
 {
-let
+const
 payload
 =
 {
@@ -908,7 +908,7 @@ headers
 length
 )
 {
-let
+const
 headers
 =
 await
@@ -943,7 +943,7 @@ fetchPostData
 requestPostData
 )
 {
-let
+const
 payload
 =
 {
@@ -959,7 +959,7 @@ requestPostData
 postData
 )
 {
-let
+const
 {
 text
 }
@@ -968,7 +968,7 @@ requestPostData
 .
 postData
 ;
-let
+const
 postData
 =
 await
@@ -1083,7 +1083,7 @@ fetchRequestCookies
 requestCookies
 )
 {
-let
+const
 payload
 =
 {
@@ -1094,7 +1094,7 @@ if
 requestCookies
 )
 {
-let
+const
 reqCookies
 =
 [
@@ -1111,7 +1111,7 @@ or
 requestCookies
 .
 cookies
-let
+const
 cookies
 =
 requestCookies
@@ -1150,7 +1150,7 @@ function
 {
 for
 (
-let
+const
 cookie
 of
 cookies
@@ -1210,7 +1210,7 @@ fetchResponseCookies
 responseCookies
 )
 {
-let
+const
 payload
 =
 {
@@ -1221,7 +1221,7 @@ if
 responseCookies
 )
 {
-let
+const
 resCookies
 =
 [
@@ -1238,7 +1238,7 @@ or
 responseCookies
 .
 cookies
-let
+const
 cookies
 =
 responseCookies
@@ -1277,7 +1277,7 @@ function
 {
 for
 (
-let
+const
 cookie
 of
 cookies
@@ -1337,7 +1337,7 @@ fetchResponseCache
 responseCache
 )
 {
-let
+const
 payload
 =
 {
@@ -1682,7 +1682,7 @@ onNetworkEvent
 networkInfo
 )
 {
-let
+const
 {
 actor
 cause
@@ -1772,7 +1772,7 @@ onNetworkEventUpdate
 data
 )
 {
-let
+const
 {
 packet
 networkInfo
@@ -1780,14 +1780,14 @@ networkInfo
 =
 data
 ;
-let
+const
 {
 actor
 }
 =
 networkInfo
 ;
-let
+const
 {
 updateType
 }
@@ -2149,7 +2149,7 @@ onPayloadDataReceived
 actor
 )
 {
-let
+const
 payload
 =
 this
@@ -2400,7 +2400,7 @@ the
 same
 time
 .
-let
+const
 key
 =
 {
@@ -2700,7 +2700,7 @@ the
 client
 getter
 .
-let
+const
 clientMethodName
 =
 get
@@ -2736,7 +2736,7 @@ that
 processes
 request
 response
-let
+const
 callbackMethodName
 =
 on
@@ -2772,7 +2772,7 @@ before
 updating
 this
 data
-let
+const
 updatingEventName
 =
 UPDATING_
@@ -3098,7 +3098,7 @@ onRequestHeaders
 response
 )
 {
-let
+const
 payload
 =
 await
@@ -3171,7 +3171,7 @@ onResponseHeaders
 response
 )
 {
-let
+const
 payload
 =
 await
@@ -3244,7 +3244,7 @@ onRequestCookies
 response
 )
 {
-let
+const
 payload
 =
 await
@@ -3317,7 +3317,7 @@ onRequestPostData
 response
 )
 {
-let
+const
 payload
 =
 await
@@ -3390,7 +3390,7 @@ onSecurityInfo
 response
 )
 {
-let
+const
 payload
 =
 await
@@ -3465,7 +3465,7 @@ onResponseCookies
 response
 )
 {
-let
+const
 payload
 =
 await
@@ -3537,7 +3537,7 @@ onResponseCache
 response
 )
 {
-let
+const
 payload
 =
 await
@@ -3609,7 +3609,7 @@ onResponseContent
 response
 )
 {
-let
+const
 payload
 =
 await
@@ -3723,7 +3723,7 @@ onEventTimings
 response
 )
 {
-let
+const
 payload
 =
 await
@@ -3795,7 +3795,7 @@ onStackTrace
 response
 )
 {
-let
+const
 payload
 =
 await

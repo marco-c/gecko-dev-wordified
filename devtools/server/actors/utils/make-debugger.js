@@ -678,7 +678,7 @@ function
 {
 for
 (
-let
+const
 global
 of
 findDebuggees
@@ -746,7 +746,7 @@ global
 {
 try
 {
-let
+const
 wrappedGlobal
 =
 dbg

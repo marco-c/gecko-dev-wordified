@@ -452,7 +452,7 @@ snapshotFilePath
 =
 >
 {
-let
+const
 snapshot
 =
 snapshots
@@ -490,7 +490,7 @@ snapshotFilePath
 =
 undefined
 ;
-let
+const
 dominatorTreeId
 =
 dominatorTreeSnapshots

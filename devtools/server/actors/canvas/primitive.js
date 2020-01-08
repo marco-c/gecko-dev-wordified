@@ -244,7 +244,7 @@ getCounts
 (
 )
 {
-let
+const
 result
 =
 {
@@ -319,7 +319,7 @@ handleDrawPrimitive
 functionCall
 )
 {
-let
+const
 {
 name
 args
@@ -384,7 +384,7 @@ _processDrawArrays
 args
 )
 {
-let
+const
 mode
 =
 args
@@ -392,7 +392,7 @@ args
 0
 ]
 ;
-let
+const
 count
 =
 args
@@ -613,7 +613,7 @@ _processDrawElements
 args
 )
 {
-let
+const
 mode
 =
 args
@@ -621,7 +621,7 @@ args
 0
 ]
 ;
-let
+const
 count
 =
 args
@@ -731,7 +731,7 @@ WebGLPrimitivesType
 .
 TRIANGLES
 :
-let
+const
 tris
 =
 count

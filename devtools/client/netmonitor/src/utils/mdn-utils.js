@@ -803,7 +803,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 idx
 =
 SUPPORTED_HEADERS

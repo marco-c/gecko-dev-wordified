@@ -246,7 +246,7 @@ event
 packet
 )
 {
-let
+const
 obj
 =
 gThreadClient
@@ -281,7 +281,7 @@ runWithBreakpoint
 packet
 )
 {
-let
+const
 source
 =
 gThreadClient
@@ -293,7 +293,7 @@ packet
 source
 )
 ;
-let
+const
 location
 =
 {

@@ -59,7 +59,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -71,14 +71,14 @@ initWebAudioEditor
 SIMPLE_NODES_URL
 )
 ;
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -87,14 +87,14 @@ PropertiesView
 =
 panelWin
 ;
-let
+const
 gVars
 =
 PropertiesView
 .
 _propsView
 ;
-let
+const
 started
 =
 once
@@ -112,7 +112,7 @@ loadFrameScriptUtils
 (
 )
 ;
-let
+const
 events
 =
 Promise
@@ -144,7 +144,7 @@ reload
 target
 )
 ;
-let
+const
 [
 actors
 ]
@@ -152,7 +152,7 @@ actors
 await
 events
 ;
-let
+const
 nodeIds
 =
 actors
@@ -167,7 +167,7 @@ actor
 actorID
 )
 ;
-let
+const
 types
 =
 [
@@ -215,7 +215,7 @@ OscillatorNode
 "
 ]
 ;
-let
+const
 defaults
 =
 await

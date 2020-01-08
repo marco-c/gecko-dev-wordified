@@ -115,7 +115,7 @@ tcp_fastopen_enable
 false
 )
 ;
-let
+const
 {
 L10N
 }
@@ -165,7 +165,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -177,7 +177,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -197,7 +197,7 @@ index
 "
 )
 ;
-let
+const
 {
 EVENTS
 }
@@ -217,7 +217,7 @@ constants
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSelectedRequest
@@ -253,7 +253,7 @@ false
 )
 )
 ;
-let
+const
 promiseList
 =
 [
@@ -425,7 +425,7 @@ request
 "
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests
@@ -814,7 +814,7 @@ requestHeaders
 ]
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests
@@ -970,7 +970,7 @@ requestCookies
 ]
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests
@@ -1109,7 +1109,7 @@ responseHeaders
 ]
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests
@@ -1234,7 +1234,7 @@ responseCookies
 ]
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests
@@ -1343,7 +1343,7 @@ headersSize
 ]
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests
@@ -1443,7 +1443,7 @@ value
 "
 )
 ;
-let
+const
 requestListItem
 =
 document
@@ -1466,7 +1466,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 requestsListStatus
 =
 requestListItem
@@ -1569,7 +1569,7 @@ mimeType
 ]
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests
@@ -1743,7 +1743,7 @@ eventTimings
 ]
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests
@@ -1846,7 +1846,7 @@ eventTimings
 ]
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests
@@ -2142,7 +2142,7 @@ true
 }
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -2162,7 +2162,7 @@ reload
 await
 wait
 ;
-let
+const
 requestItem
 =
 getSortedRequests

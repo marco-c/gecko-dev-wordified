@@ -270,7 +270,7 @@ all
 set
 up
 .
-let
+const
 client1
 =
 DebuggerServer
@@ -335,7 +335,7 @@ root
 /
 actor
 .
-let
+const
 client2
 =
 DebuggerServer

@@ -591,7 +591,7 @@ event
 packet
 )
 {
-let
+const
 [
 grip
 ]

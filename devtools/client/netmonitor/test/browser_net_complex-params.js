@@ -60,7 +60,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -83,7 +83,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -94,7 +94,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -114,7 +114,7 @@ index
 "
 )
 ;
-let
+const
 {
 L10N
 }
@@ -570,7 +570,7 @@ editor
 updated
 by
 react
-let
+const
 waitSections
 =
 waitForDOM
@@ -589,7 +589,7 @@ section
 2
 )
 ;
-let
+const
 waitSourceEditor
 =
 waitForDOM
@@ -714,7 +714,7 @@ formDataParamName
 formDataParamValue
 )
 {
-let
+const
 tabpanel
 =
 document
@@ -886,7 +886,7 @@ displayed
 "
 )
 ;
-let
+const
 treeSections
 =
 tabpanel
@@ -901,7 +901,7 @@ section
 "
 )
 ;
-let
+const
 labels
 =
 tabpanel
@@ -925,7 +925,7 @@ treeLabel
 "
 )
 ;
-let
+const
 values
 =
 tabpanel
@@ -1126,7 +1126,7 @@ requestPayload
 editorMode
 )
 {
-let
+const
 isJSON
 =
 editorMode
@@ -1137,7 +1137,7 @@ editorMode
 js
 "
 ;
-let
+const
 tabpanel
 =
 document
@@ -1314,7 +1314,7 @@ displayed
 "
 )
 ;
-let
+const
 treeSections
 =
 tabpanel
@@ -1418,7 +1418,7 @@ title
 "
 )
 ;
-let
+const
 labels
 =
 tabpanel
@@ -1442,7 +1442,7 @@ treeLabel
 "
 )
 ;
-let
+const
 values
 =
 tabpanel
@@ -1515,7 +1515,7 @@ if
 isJSON
 )
 {
-let
+const
 requestPayloadObject
 =
 JSON
@@ -1525,7 +1525,7 @@ parse
 requestPayload
 )
 ;
-let
+const
 requestPairs
 =
 Object
@@ -1567,7 +1567,7 @@ i
 +
 )
 {
-let
+const
 [
 requestPayloadName
 requestPayloadValue
@@ -1681,7 +1681,7 @@ testParamsTab3
 (
 )
 {
-let
+const
 tabpanel
 =
 document

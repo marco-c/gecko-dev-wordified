@@ -168,7 +168,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -277,7 +277,7 @@ element
 "
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -370,14 +370,14 @@ to
 "
 )
 ;
-let
+const
 win
 =
 view
 .
 styleWindow
 ;
-let
+const
 searchField
 =
 view

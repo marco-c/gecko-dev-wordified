@@ -30,12 +30,12 @@ ITEMS_PER_PAGE
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -57,7 +57,7 @@ expandAll
 (
 )
 ;
-yield
+await
 selectTreeItem
 (
 [
@@ -83,7 +83,7 @@ checkCellLength
 ITEMS_PER_PAGE
 )
 ;
-yield
+await
 scroll
 (
 )
@@ -95,7 +95,7 @@ ITEMS_PER_PAGE
 2
 )
 ;
-yield
+await
 scroll
 (
 )
@@ -167,7 +167,7 @@ DEC
 "
 )
 ;
-yield
+await
 finishTests
 (
 )
@@ -181,7 +181,7 @@ checkCellLength
 len
 )
 {
-let
+const
 cells
 =
 gPanelWindow
@@ -202,7 +202,7 @@ cell
 "
 )
 ;
-let
+const
 msg
 =
 Table
@@ -230,7 +230,7 @@ checkCellValues
 order
 )
 {
-let
+const
 cells
 =
 [
@@ -267,7 +267,7 @@ index
 arr
 )
 {
-let
+const
 i
 =
 order
@@ -314,13 +314,13 @@ order
 )
 ;
 }
+async
 function
-*
 scroll
 (
 )
 {
-let
+const
 =
 id
 =
@@ -334,7 +334,7 @@ querySelector
 id
 )
 ;
-let
+const
 table
 =
 (
@@ -352,7 +352,7 @@ body
 "
 )
 ;
-let
+const
 cell
 =
 (
@@ -368,7 +368,7 @@ cell
 "
 )
 ;
-let
+const
 cellHeight
 =
 cell
@@ -379,7 +379,7 @@ getBoundingClientRect
 .
 height
 ;
-let
+const
 onStoresUpdate
 =
 gUI
@@ -404,7 +404,7 @@ cellHeight
 *
 50
 ;
-yield
+await
 onStoresUpdate
 ;
 }

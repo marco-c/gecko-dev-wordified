@@ -323,7 +323,7 @@ targetFromURL
 url
 )
 {
-let
+const
 client
 =
 await
@@ -339,14 +339,14 @@ connect
 (
 )
 ;
-let
+const
 params
 =
 url
 .
 searchParams
 ;
-let
+const
 type
 =
 params
@@ -487,7 +487,7 @@ number
 }
 try
 {
-let
+const
 response
 =
 await
@@ -600,7 +600,7 @@ id
 0
 ;
 }
-let
+const
 response
 =
 await
@@ -750,7 +750,7 @@ parameter
 )
 ;
 }
-let
+const
 response
 =
 await
@@ -958,14 +958,14 @@ clientFromURL
 url
 )
 {
-let
+const
 params
 =
 url
 .
 searchParams
 ;
-let
+const
 host
 =
 params
@@ -977,7 +977,7 @@ host
 "
 )
 ;
-let
+const
 port
 =
 params
@@ -989,7 +989,7 @@ port
 "
 )
 ;
-let
+const
 webSocket
 =
 !

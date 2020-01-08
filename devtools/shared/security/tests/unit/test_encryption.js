@@ -166,7 +166,7 @@ sockets
 "
 )
 ;
-let
+const
 AuthenticatorType
 =
 DebuggerServer
@@ -180,7 +180,7 @@ PROMPT
 "
 )
 ;
-let
+const
 authenticator
 =
 new
@@ -208,7 +208,7 @@ ALLOW
 ;
 }
 ;
-let
+const
 listener
 =
 DebuggerServer
@@ -266,7 +266,7 @@ socket
 "
 )
 ;
-let
+const
 transport
 =
 await
@@ -307,7 +307,7 @@ created
 "
 )
 ;
-let
+const
 client
 =
 new
@@ -316,7 +316,7 @@ DebuggerClient
 transport
 )
 ;
-let
+const
 onUnexpectedClose
 =
 (
@@ -360,14 +360,14 @@ server
 will
 echo
 back
-let
+const
 message
 =
 "
 secrets
 "
 ;
-let
+const
 reply
 =
 await
@@ -476,7 +476,7 @@ sockets
 "
 )
 ;
-let
+const
 AuthenticatorType
 =
 DebuggerServer
@@ -490,7 +490,7 @@ PROMPT
 "
 )
 ;
-let
+const
 authenticator
 =
 new
@@ -518,7 +518,7 @@ ALLOW
 ;
 }
 ;
-let
+const
 listener
 =
 DebuggerServer

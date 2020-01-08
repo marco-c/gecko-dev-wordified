@@ -184,14 +184,14 @@ runTests
 (
 )
 {
-let
+const
 doc
 =
 gScratchpadWindow
 .
 document
 ;
-let
+const
 testData
 =
 [
@@ -360,7 +360,7 @@ function
 data
 )
 {
-let
+const
 getPref
 =
 getPrefFunction
@@ -372,7 +372,7 @@ prefId
 ;
 try
 {
-let
+const
 menu
 =
 doc
@@ -390,7 +390,7 @@ doCommand
 (
 )
 ;
-let
+const
 newPreferenceValue
 =
 getPref
@@ -474,7 +474,7 @@ getPrefFunction
 preferenceId
 )
 {
-let
+const
 preferenceType
 =
 Services

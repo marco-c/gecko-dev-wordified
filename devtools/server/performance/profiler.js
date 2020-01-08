@@ -308,7 +308,7 @@ function
 (
 )
 {
-let
+const
 consumers
 =
 new
@@ -499,7 +499,7 @@ length
 0
 )
 {
-let
+const
 msg
 =
 "
@@ -636,7 +636,7 @@ options
 }
 )
 {
-let
+const
 config
 =
 this
@@ -704,7 +704,7 @@ be
 interested
 in
 .
-let
+const
 currentTime
 =
 Services
@@ -821,7 +821,7 @@ _updateProfilerStatusPolling
 (
 )
 ;
-let
+const
 {
 position
 totalSize
@@ -1209,7 +1209,7 @@ function
 options
 )
 {
-let
+const
 startTime
 =
 options
@@ -1219,7 +1219,7 @@ startTime
 |
 0
 ;
-let
+const
 profile
 =
 options
@@ -1511,7 +1511,7 @@ function
 (
 )
 {
-let
+const
 isActive
 =
 Services
@@ -1522,7 +1522,7 @@ IsActive
 (
 )
 ;
-let
+const
 elapsedTime
 =
 isActive
@@ -1537,7 +1537,7 @@ getElapsedTime
 :
 undefined
 ;
-let
+const
 {
 position
 totalSize
@@ -1712,7 +1712,7 @@ with
 the
 response
 .
-let
+const
 {
 action
 arguments
@@ -1726,7 +1726,7 @@ subject
 {
 }
 ;
-let
+const
 profileLabel
 =
 args
@@ -1825,7 +1825,7 @@ profileEnd
 )
 )
 {
-let
+const
 {
 isActive
 currentTime
@@ -2219,7 +2219,7 @@ eventName
 data
 )
 {
-let
+const
 subscribers
 =
 Array
@@ -2250,7 +2250,7 @@ eventName
 ;
 for
 (
-let
+const
 subscriber
 of
 subscribers
@@ -2893,7 +2893,7 @@ data
 }
 )
 {
-let
+const
 response
 =
 [
@@ -3022,7 +3022,7 @@ data
 }
 )
 {
-let
+const
 response
 =
 [

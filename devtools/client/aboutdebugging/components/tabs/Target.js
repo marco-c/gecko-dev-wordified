@@ -251,7 +251,7 @@ debug
 (
 )
 {
-let
+const
 {
 target
 connect
@@ -295,7 +295,7 @@ REMOTE
 "
 )
 {
-let
+const
 {
 host
 port
@@ -340,7 +340,7 @@ render
 (
 )
 {
-let
+const
 {
 target
 }

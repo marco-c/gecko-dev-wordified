@@ -365,7 +365,7 @@ have
 working
 searchParams
 .
-let
+const
 url
 =
 new
@@ -392,7 +392,7 @@ http
 )
 )
 ;
-let
+const
 reason
 =
 url
@@ -406,7 +406,7 @@ reason
 "
 )
 ;
-let
+const
 keyid
 =
 url
@@ -420,7 +420,7 @@ keyid
 "
 )
 ;
-let
+const
 tabid
 =
 parseInt
@@ -1338,7 +1338,7 @@ createFeatureEl
 feature
 )
 {
-let
+const
 li
 =
 document
@@ -1361,7 +1361,7 @@ feature
 "
 )
 ;
-let
+const
 learnMore
 =
 aboutDevtoolsBundle
@@ -1671,7 +1671,7 @@ specific
 to
 the
 reason
-let
+const
 id
 =
 MESSAGES
@@ -1684,7 +1684,7 @@ if
 id
 )
 {
-let
+const
 message
 =
 document
@@ -1753,7 +1753,7 @@ DEVTOOLS_ENABLED_PREF
 updatePage
 )
 ;
-let
+const
 featuresContainer
 =
 document
@@ -1770,7 +1770,7 @@ list
 ;
 for
 (
-let
+const
 feature
 of
 features
@@ -1799,7 +1799,7 @@ the
 external
 links
 .
-let
+const
 externalLinks
 =
 [
@@ -1820,13 +1820,13 @@ external
 ;
 for
 (
-let
+const
 link
 of
 externalLinks
 )
 {
-let
+const
 linkUrl
 =
 new
@@ -2046,7 +2046,7 @@ is
 still
 available
 .
-let
+const
 browserWindow
 =
 Services
@@ -2062,14 +2062,14 @@ browser
 "
 )
 ;
-let
+const
 {
 gBrowser
 }
 =
 browserWindow
 ;
-let
+const
 originalBrowser
 =
 gBrowser
@@ -2079,7 +2079,7 @@ getBrowserForOuterWindowID
 tabid
 )
 ;
-let
+const
 originalTab
 =
 gBrowser

@@ -341,7 +341,7 @@ reloads
 =
 0
 ;
-let
+const
 reloadCounter
 =
 (
@@ -416,7 +416,7 @@ docked
 =
 >
 {
-let
+const
 origHostType
 =
 toolbox
@@ -709,7 +709,7 @@ toolID
 callback
 )
 {
-let
+const
 complete
 =
 (

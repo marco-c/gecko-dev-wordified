@@ -476,7 +476,7 @@ without
 crashing
 try
 {
-let
+const
 sandbox
 =
 Cu
@@ -794,7 +794,7 @@ sleep
 time
 )
 {
-let
+const
 deferred
 =
 defer
@@ -1145,7 +1145,7 @@ hosts
 (
 )
 {
-let
+const
 hosts
 =
 new
@@ -1155,7 +1155,7 @@ Set
 ;
 for
 (
-let
+const
 {
 location
 }
@@ -1167,7 +1167,7 @@ storageActor
 windows
 )
 {
-let
+const
 host
 =
 this
@@ -1200,7 +1200,7 @@ _internalHosts
 {
 for
 (
-let
+const
 host
 of
 this
@@ -1831,7 +1831,7 @@ onWindowReady
 window
 )
 {
-let
+const
 host
 =
 this
@@ -1868,7 +1868,7 @@ host
 window
 )
 ;
-let
+const
 data
 =
 {
@@ -1974,7 +1974,7 @@ null
 return
 ;
 }
-let
+const
 host
 =
 this
@@ -2011,7 +2011,7 @@ delete
 host
 )
 ;
-let
+const
 data
 =
 {
@@ -2063,7 +2063,7 @@ this
 actorID
 ;
 }
-let
+const
 hosts
 =
 {
@@ -2071,7 +2071,7 @@ hosts
 ;
 for
 (
-let
+const
 host
 of
 this
@@ -2136,7 +2136,7 @@ Map
 ;
 for
 (
-let
+const
 host
 of
 this
@@ -2426,7 +2426,7 @@ size
 MAX_STORE_OBJECT_COUNT
 ;
 }
-let
+const
 sortOn
 =
 options
@@ -2438,7 +2438,7 @@ sortOn
 name
 "
 ;
-let
+const
 toReturn
 =
 {
@@ -2496,7 +2496,7 @@ matters
 the
 indexedDB
 .
-let
+const
 win
 =
 this
@@ -2525,13 +2525,13 @@ names
 {
 for
 (
-let
+const
 name
 of
 names
 )
 {
-let
+const
 values
 =
 await
@@ -2548,7 +2548,7 @@ hostVsStores
 principal
 )
 ;
-let
+const
 {
 result
 objectStores
@@ -2575,7 +2575,7 @@ undefined
 {
 for
 (
-let
+const
 {
 key
 count
@@ -2716,7 +2716,7 @@ sort
 before
 slicing
 .
-let
+const
 sorted
 =
 toReturn
@@ -2748,7 +2748,7 @@ sortOn
 }
 )
 ;
-let
+const
 sliced
 =
 sorted
@@ -2876,7 +2876,7 @@ sort
 before
 slicing
 .
-let
+const
 sorted
 =
 obj
@@ -2906,7 +2906,7 @@ sortOn
 }
 )
 ;
-let
+const
 sliced
 =
 sorted
@@ -3139,7 +3139,7 @@ overrides
 }
 )
 {
-let
+const
 actorObject
 =
 StorageActors
@@ -3159,7 +3159,7 @@ null
 ;
 for
 (
-let
+const
 key
 in
 overrides
@@ -3176,7 +3176,7 @@ key
 ]
 ;
 }
-let
+const
 actorSpec
 =
 specs
@@ -3188,7 +3188,7 @@ options
 typeName
 ]
 ;
-let
+const
 actor
 =
 protocol
@@ -3507,7 +3507,7 @@ cookies
 ]
 ;
 }
-let
+const
 hosts
 =
 new
@@ -3517,7 +3517,7 @@ Set
 ;
 for
 (
-let
+const
 host
 of
 this
@@ -3527,7 +3527,7 @@ hosts
 {
 for
 (
-let
+const
 cookie
 of
 cookies
@@ -3902,7 +3902,7 @@ Map
 )
 )
 ;
-let
+const
 doc
 =
 this
@@ -3911,7 +3911,7 @@ storageActor
 .
 document
 ;
-let
+const
 cookies
 =
 this
@@ -3928,7 +3928,7 @@ originAttributes
 ;
 for
 (
-let
+const
 cookie
 of
 cookies
@@ -3945,7 +3945,7 @@ host
 )
 )
 {
-let
+const
 uniqueKey
 =
 {
@@ -4127,7 +4127,7 @@ return
 null
 ;
 }
-let
+const
 hosts
 =
 this
@@ -4137,7 +4137,7 @@ getMatchingHosts
 subject
 )
 ;
-let
+const
 data
 =
 {
@@ -4167,13 +4167,13 @@ length
 {
 for
 (
-let
+const
 host
 of
 hosts
 )
 {
-let
+const
 uniqueKey
 =
 {
@@ -4254,13 +4254,13 @@ length
 {
 for
 (
-let
+const
 host
 of
 hosts
 )
 {
-let
+const
 uniqueKey
 =
 {
@@ -4344,13 +4344,13 @@ length
 {
 for
 (
-let
+const
 host
 of
 hosts
 )
 {
-let
+const
 stores
 =
 [
@@ -4358,13 +4358,13 @@ stores
 ;
 for
 (
-let
+const
 cookie
 of
 subject
 )
 {
-let
+const
 uniqueKey
 =
 {
@@ -4452,7 +4452,7 @@ length
 {
 for
 (
-let
+const
 host
 of
 hosts
@@ -4696,7 +4696,7 @@ editItem
 data
 )
 {
-let
+const
 doc
 =
 this
@@ -4729,7 +4729,7 @@ addItem
 guid
 )
 {
-let
+const
 doc
 =
 this
@@ -4738,7 +4738,7 @@ storageActor
 .
 document
 ;
-let
+const
 time
 =
 new
@@ -4750,7 +4750,7 @@ getTime
 (
 )
 ;
-let
+const
 expiry
 =
 new
@@ -4795,7 +4795,7 @@ host
 name
 )
 {
-let
+const
 doc
 =
 this
@@ -4825,7 +4825,7 @@ host
 domain
 )
 {
-let
+const
 doc
 =
 this
@@ -4855,7 +4855,7 @@ host
 domain
 )
 {
-let
+const
 doc
 =
 this
@@ -5161,7 +5161,7 @@ methodName
 args
 )
 {
-let
+const
 reply
 =
 sendSyncMessage
@@ -5234,7 +5234,7 @@ methodName
 )
 ;
 }
-let
+const
 result
 =
 reply
@@ -5317,7 +5317,7 @@ trimHttpHttpsPort
 host
 )
 ;
-let
+const
 cookies
 =
 Services
@@ -5330,7 +5330,7 @@ host
 originAttributes
 )
 ;
-let
+const
 store
 =
 [
@@ -5345,7 +5345,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 cookie
 =
 cookies
@@ -5563,7 +5563,7 @@ newValue
 =
 data
 ;
-let
+const
 origName
 =
 field
@@ -5582,7 +5582,7 @@ items
 .
 name
 ;
-let
+const
 origHost
 =
 field
@@ -5601,7 +5601,7 @@ items
 .
 host
 ;
-let
+const
 origPath
 =
 field
@@ -5625,7 +5625,7 @@ cookie
 =
 null
 ;
-let
+const
 enumerator
 =
 Services
@@ -5653,7 +5653,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 nsiCookie
 =
 enumerator
@@ -5777,7 +5777,7 @@ in
 the
 future
 .
-let
+const
 now
 =
 new
@@ -5805,7 +5805,7 @@ expires
 now
 )
 {
-let
+const
 tenSecondsFromNow
 =
 (
@@ -6071,7 +6071,7 @@ opts
 name
 )
 {
-let
+const
 split
 =
 opts
@@ -6165,7 +6165,7 @@ cookieHost
 host
 ;
 }
-let
+const
 enumerator
 =
 Services
@@ -6193,7 +6193,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 cookie
 =
 enumerator
@@ -6478,7 +6478,7 @@ deleted
 "
 )
 {
-let
+const
 cookiesNoInterface
 =
 subject
@@ -6490,7 +6490,7 @@ Ci
 nsIArray
 )
 ;
-let
+const
 cookies
 =
 [
@@ -6514,7 +6514,7 @@ i
 +
 )
 {
-let
+const
 cookie
 =
 cookiesNoInterface
@@ -6547,7 +6547,7 @@ data
 return
 ;
 }
-let
+const
 cookie
 =
 subject
@@ -6646,7 +6646,7 @@ getCookiesFromHost
 "
 :
 {
-let
+const
 host
 =
 msg
@@ -6658,7 +6658,7 @@ args
 0
 ]
 ;
-let
+const
 originAttributes
 =
 msg
@@ -6670,7 +6670,7 @@ args
 1
 ]
 ;
-let
+const
 cookies
 =
 cookieHelpers
@@ -6724,7 +6724,7 @@ editCookie
 "
 :
 {
-let
+const
 rowdata
 =
 msg
@@ -6751,7 +6751,7 @@ createNewCookie
 "
 :
 {
-let
+const
 host
 =
 msg
@@ -6763,7 +6763,7 @@ args
 0
 ]
 ;
-let
+const
 guid
 =
 msg
@@ -6775,7 +6775,7 @@ args
 1
 ]
 ;
-let
+const
 originAttributes
 =
 msg
@@ -6804,7 +6804,7 @@ removeCookie
 "
 :
 {
-let
+const
 host
 =
 msg
@@ -6816,7 +6816,7 @@ args
 0
 ]
 ;
-let
+const
 name
 =
 msg
@@ -6828,7 +6828,7 @@ args
 1
 ]
 ;
-let
+const
 originAttributes
 =
 msg
@@ -6857,7 +6857,7 @@ removeAllCookies
 "
 :
 {
-let
+const
 host
 =
 msg
@@ -6869,7 +6869,7 @@ args
 0
 ]
 ;
-let
+const
 domain
 =
 msg
@@ -6881,7 +6881,7 @@ args
 1
 ]
 ;
-let
+const
 originAttributes
 =
 msg
@@ -6910,7 +6910,7 @@ removeAllSessionCookies
 "
 :
 {
-let
+const
 host
 =
 msg
@@ -6922,7 +6922,7 @@ args
 0
 ]
 ;
-let
+const
 domain
 =
 msg
@@ -6934,7 +6934,7 @@ args
 1
 ]
 ;
-let
+const
 originAttributes
 =
 msg
@@ -7343,7 +7343,7 @@ getNamesForHost
 host
 )
 {
-let
+const
 storage
 =
 this
@@ -7375,7 +7375,7 @@ host
 name
 )
 {
-let
+const
 storage
 =
 this
@@ -7403,7 +7403,7 @@ if
 name
 )
 {
-let
+const
 value
 =
 storage
@@ -7619,7 +7619,7 @@ Map
 ;
 for
 (
-let
+const
 window
 of
 this
@@ -7627,7 +7627,7 @@ this
 windows
 )
 {
-let
+const
 host
 =
 this
@@ -7692,7 +7692,7 @@ guid
 host
 )
 {
-let
+const
 storage
 =
 this
@@ -7761,7 +7761,7 @@ items
 }
 )
 {
-let
+const
 storage
 =
 this
@@ -7821,7 +7821,7 @@ host
 name
 )
 {
-let
+const
 storage
 =
 this
@@ -7856,7 +7856,7 @@ removeAll
 host
 )
 {
-let
+const
 storage
 =
 this
@@ -7931,7 +7931,7 @@ return
 null
 ;
 }
-let
+const
 host
 =
 this
@@ -8030,7 +8030,7 @@ deleted
 "
 ;
 }
-let
+const
 updateData
 =
 {
@@ -8082,7 +8082,7 @@ getSchemaAndHost
 url
 )
 {
-let
+const
 uri
 =
 Services
@@ -8290,7 +8290,7 @@ getCachesForHost
 host
 )
 {
-let
+const
 uri
 =
 Services
@@ -8302,7 +8302,7 @@ newURI
 host
 )
 ;
-let
+const
 attrs
 =
 this
@@ -8315,7 +8315,7 @@ nodePrincipal
 .
 originAttributes
 ;
-let
+const
 principal
 =
 Services
@@ -8403,7 +8403,7 @@ the
 service
 worker
 .
-let
+const
 {
 CacheStorage
 }
@@ -8425,7 +8425,7 @@ return
 ]
 ;
 }
-let
+const
 cache
 =
 new
@@ -8448,7 +8448,7 @@ preListStores
 {
 for
 (
-let
+const
 host
 of
 this
@@ -8489,7 +8489,7 @@ this
 actorID
 ;
 }
-let
+const
 hosts
 =
 {
@@ -8497,7 +8497,7 @@ hosts
 ;
 for
 (
-let
+const
 host
 of
 this
@@ -8642,7 +8642,7 @@ name
 0
 ]
 ;
-let
+const
 cache
 =
 this
@@ -8659,7 +8659,7 @@ get
 name
 )
 ;
-let
+const
 requests
 =
 await
@@ -8669,7 +8669,7 @@ keys
 (
 )
 ;
-let
+const
 results
 =
 [
@@ -8677,7 +8677,7 @@ results
 ;
 for
 (
-let
+const
 request
 of
 requests
@@ -8816,7 +8816,7 @@ populateStoresForHost
 host
 )
 {
-let
+const
 storeMap
 =
 new
@@ -8824,7 +8824,7 @@ Map
 (
 )
 ;
-let
+const
 caches
 =
 await
@@ -8839,7 +8839,7 @@ try
 {
 for
 (
-let
+const
 name
 of
 (
@@ -8980,7 +8980,7 @@ getSchemaAndHost
 url
 )
 {
-let
+const
 uri
 =
 Services
@@ -9266,7 +9266,7 @@ if
 cache
 )
 {
-let
+const
 keys
 =
 await
@@ -9592,7 +9592,7 @@ i
 +
 )
 {
-let
+const
 index
 =
 objectStore
@@ -9607,7 +9607,7 @@ i
 ]
 )
 ;
-let
+const
 newIndex
 =
 {
@@ -9864,7 +9864,7 @@ objectStoreNames
 length
 )
 {
-let
+const
 transaction
 =
 db
@@ -9899,7 +9899,7 @@ i
 +
 )
 {
-let
+const
 objectStore
 =
 transaction
@@ -10333,7 +10333,7 @@ host
 name
 )
 {
-let
+const
 win
 =
 this
@@ -10366,7 +10366,7 @@ found
 }
 ;
 }
-let
+const
 principal
 =
 win
@@ -10393,7 +10393,7 @@ host
 name
 )
 {
-let
+const
 [
 db
 store
@@ -10406,7 +10406,7 @@ parse
 name
 )
 ;
-let
+const
 win
 =
 this
@@ -10427,7 +10427,7 @@ win
 return
 ;
 }
-let
+const
 principal
 =
 win
@@ -10454,7 +10454,7 @@ host
 name
 )
 {
-let
+const
 [
 db
 store
@@ -10468,7 +10468,7 @@ parse
 name
 )
 ;
-let
+const
 win
 =
 this
@@ -10489,7 +10489,7 @@ win
 return
 ;
 }
-let
+const
 principal
 =
 win
@@ -10557,7 +10557,7 @@ getNamesForHost
 host
 )
 {
-let
+const
 names
 =
 [
@@ -10565,7 +10565,7 @@ names
 ;
 for
 (
-let
+const
 [
 dbName
 {
@@ -10592,7 +10592,7 @@ size
 {
 for
 (
-let
+const
 objectStore
 of
 objectStores
@@ -10835,7 +10835,7 @@ in
 all
 entries
 .
-let
+const
 name
 =
 names
@@ -10843,7 +10843,7 @@ names
 0
 ]
 ;
-let
+const
 parsedName
 =
 JSON
@@ -10913,14 +10913,14 @@ store
 are
 requested
 .
-let
+const
 index
 =
 options
 .
 index
 ;
-let
+const
 [
 db
 objectStore
@@ -11169,7 +11169,7 @@ Map
 ;
 for
 (
-let
+const
 host
 of
 await
@@ -11196,7 +11196,7 @@ populateStoresForHost
 host
 )
 {
-let
+const
 storeMap
 =
 new
@@ -11204,7 +11204,7 @@ Map
 (
 )
 ;
-let
+const
 win
 =
 this
@@ -11216,7 +11216,7 @@ getWindowFromHost
 host
 )
 ;
-let
+const
 principal
 =
 this
@@ -11226,7 +11226,7 @@ getPrincipal
 win
 )
 ;
-let
+const
 {
 names
 }
@@ -11242,7 +11242,7 @@ principal
 ;
 for
 (
-let
+const
 {
 name
 storage
@@ -11494,7 +11494,7 @@ the
 string
 here
 .
-let
+const
 maxLength
 =
 DebuggerServer
@@ -11571,7 +11571,7 @@ this
 actorID
 ;
 }
-let
+const
 hosts
 =
 {
@@ -11579,7 +11579,7 @@ hosts
 ;
 for
 (
-let
+const
 host
 of
 this
@@ -12037,7 +12037,7 @@ backToChild
 "
 :
 {
-let
+const
 [
 func
 rv
@@ -12049,7 +12049,7 @@ json
 .
 args
 ;
-let
+const
 deferred
 =
 unresolvedPromises
@@ -12088,7 +12088,7 @@ onItemUpdated
 "
 :
 {
-let
+const
 [
 action
 host
@@ -12115,7 +12115,7 @@ path
 }
 )
 ;
-let
+const
 unresolvedPromises
 =
 new
@@ -12133,7 +12133,7 @@ methodName
 args
 )
 {
-let
+const
 deferred
 =
 defer
@@ -12490,7 +12490,7 @@ name
 storage
 )
 {
-let
+const
 request
 =
 this
@@ -12502,7 +12502,7 @@ name
 storage
 )
 ;
-let
+const
 success
 =
 defer
@@ -12517,7 +12517,7 @@ event
 =
 >
 {
-let
+const
 db
 =
 event
@@ -12526,7 +12526,7 @@ target
 .
 result
 ;
-let
+const
 dbData
 =
 new
@@ -12623,7 +12623,7 @@ function
 name
 )
 {
-let
+const
 lastOpenBracketIndex
 =
 name
@@ -12635,7 +12635,7 @@ lastIndexOf
 "
 )
 ;
-let
+const
 lastCloseBracketIndex
 =
 name
@@ -12647,7 +12647,7 @@ lastIndexOf
 "
 )
 ;
-let
+const
 delta
 =
 lastCloseBracketIndex
@@ -12656,7 +12656,7 @@ lastOpenBracketIndex
 -
 1
 ;
-let
+const
 storage
 =
 name
@@ -12768,7 +12768,7 @@ getInternalHosts
 )
 ;
 }
-let
+const
 profileDir
 =
 OS
@@ -12779,7 +12779,7 @@ Path
 .
 profileDir
 ;
-let
+const
 storagePath
 =
 OS
@@ -12797,7 +12797,7 @@ permanent
 "
 )
 ;
-let
+const
 iterator
 =
 new
@@ -12810,7 +12810,7 @@ DirectoryIterator
 storagePath
 )
 ;
-let
+const
 hosts
 =
 [
@@ -12926,7 +12926,7 @@ principal
 dbName
 )
 {
-let
+const
 result
 =
 new
@@ -12936,7 +12936,7 @@ resolve
 =
 >
 {
-let
+const
 {
 name
 storage
@@ -12949,7 +12949,7 @@ splitNameAndStorage
 dbName
 )
 ;
-let
+const
 request
 =
 indexedDBForStorage
@@ -13043,7 +13043,7 @@ onerror
 =
 >
 {
-let
+const
 {
 error
 }
@@ -13167,7 +13167,7 @@ id
 let
 db
 ;
-let
+const
 {
 name
 storage
@@ -13195,7 +13195,7 @@ reject
 =
 >
 {
-let
+const
 request
 =
 this
@@ -13242,7 +13242,7 @@ error
 }
 )
 ;
-let
+const
 transaction
 =
 db
@@ -13255,7 +13255,7 @@ readwrite
 "
 )
 ;
-let
+const
 store
 =
 transaction
@@ -13276,7 +13276,7 @@ reject
 =
 >
 {
-let
+const
 request
 =
 store
@@ -13338,7 +13338,7 @@ catch
 error
 )
 {
-let
+const
 recordPath
 =
 [
@@ -13410,7 +13410,7 @@ storeName
 let
 db
 ;
-let
+const
 {
 name
 storage
@@ -13438,7 +13438,7 @@ reject
 =
 >
 {
-let
+const
 request
 =
 this
@@ -13485,7 +13485,7 @@ error
 }
 )
 ;
-let
+const
 transaction
 =
 db
@@ -13498,7 +13498,7 @@ readwrite
 "
 )
 ;
-let
+const
 store
 =
 transaction
@@ -13519,7 +13519,7 @@ reject
 =
 >
 {
-let
+const
 request
 =
 store
@@ -13579,7 +13579,7 @@ catch
 error
 )
 {
-let
+const
 storePath
 =
 [
@@ -13663,7 +13663,7 @@ host
 principal
 )
 {
-let
+const
 sanitizedHost
 =
 this
@@ -13677,7 +13677,7 @@ principal
 .
 originSuffix
 ;
-let
+const
 profileDir
 =
 OS
@@ -13688,19 +13688,19 @@ Path
 .
 profileDir
 ;
-let
+const
 files
 =
 [
 ]
 ;
-let
+const
 names
 =
 [
 ]
 ;
-let
+const
 storagePath
 =
 OS
@@ -13865,7 +13865,7 @@ temporary
 "
 }
 .
-let
+const
 sqliteFiles
 =
 await
@@ -13879,13 +13879,13 @@ sanitizedHost
 ;
 for
 (
-let
+const
 file
 of
 sqliteFiles
 )
 {
-let
+const
 splitPath
 =
 OS
@@ -13899,7 +13899,7 @@ file
 .
 components
 ;
-let
+const
 idbIndex
 =
 splitPath
@@ -13911,7 +13911,7 @@ idb
 "
 )
 ;
-let
+const
 storage
 =
 splitPath
@@ -13921,7 +13921,7 @@ idbIndex
 2
 ]
 ;
-let
+const
 relative
 =
 file
@@ -13973,7 +13973,7 @@ length
 {
 for
 (
-let
+const
 {
 file
 storage
@@ -13982,7 +13982,7 @@ of
 files
 )
 {
-let
+const
 name
 =
 await
@@ -14072,13 +14072,13 @@ storagePath
 sanitizedHost
 )
 {
-let
+const
 sqlitePaths
 =
 [
 ]
 ;
-let
+const
 idbPaths
 =
 await
@@ -14092,13 +14092,13 @@ sanitizedHost
 ;
 for
 (
-let
+const
 idbPath
 of
 idbPaths
 )
 {
-let
+const
 iterator
 =
 new
@@ -14207,13 +14207,13 @@ storagePath
 sanitizedHost
 )
 {
-let
+const
 idbPaths
 =
 [
 ]
 ;
-let
+const
 typePaths
 =
 await
@@ -14226,13 +14226,13 @@ storagePath
 ;
 for
 (
-let
+const
 typePath
 of
 typePaths
 )
 {
-let
+const
 idbPath
 =
 OS
@@ -14328,7 +14328,7 @@ findStorageTypePaths
 storagePath
 )
 {
-let
+const
 iterator
 =
 new
@@ -14341,7 +14341,7 @@ DirectoryIterator
 storagePath
 )
 ;
-let
+const
 typePaths
 =
 [
@@ -14603,7 +14603,7 @@ return
 null
 ;
 }
-let
+const
 rows
 =
 await
@@ -14633,7 +14633,7 @@ return
 null
 ;
 }
-let
+const
 name
 =
 rows
@@ -14712,7 +14712,7 @@ are
 /
 requested
 .
-let
+const
 dbs
 =
 [
@@ -14781,7 +14781,7 @@ dbs
 )
 ;
 }
-let
+const
 [
 db2
 objectStore
@@ -14815,7 +14815,7 @@ are
 /
 requested
 .
-let
+const
 objectStores
 =
 [
@@ -14868,7 +14868,7 @@ patchMetadataMapsAndProtos
 db
 )
 ;
-let
+const
 objectStores2
 =
 db
@@ -14877,7 +14877,7 @@ objectStores
 ;
 for
 (
-let
+const
 objectStore2
 of
 objectStores2
@@ -14929,7 +14929,7 @@ or
 a
 particular
 id
-let
+const
 storage
 =
 hostVsStores
@@ -14946,7 +14946,7 @@ db2
 .
 storage
 ;
-let
+const
 result
 =
 await
@@ -15204,7 +15204,7 @@ storage
 requestOptions
 )
 {
-let
+const
 {
 name
 }
@@ -15216,7 +15216,7 @@ splitNameAndStorage
 dbName
 )
 ;
-let
+const
 request
 =
 this
@@ -15228,7 +15228,7 @@ name
 storage
 )
 ;
-let
+const
 success
 =
 defer
@@ -15246,7 +15246,7 @@ size
 =
 requestOptions
 ;
-let
+const
 data
 =
 [
@@ -15287,7 +15287,7 @@ target
 .
 result
 ;
-let
+const
 transaction
 =
 db
@@ -15345,13 +15345,13 @@ event2
 =
 >
 {
-let
+const
 objectsSize
 =
 [
 ]
 ;
-let
+const
 count
 =
 event2
@@ -15477,7 +15477,7 @@ event4
 =
 >
 {
-let
+const
 cursor
 =
 event4
@@ -15650,7 +15650,7 @@ patchMetadataMapsAndProtos
 metadata
 )
 {
-let
+const
 md
 =
 Object
@@ -15684,7 +15684,7 @@ _objectStores
 ;
 for
 (
-let
+const
 [
 name
 store
@@ -15695,7 +15695,7 @@ md
 _objectStores
 )
 {
-let
+const
 obj
 =
 Object
@@ -15756,7 +15756,7 @@ _indexes
 }
 for
 (
-let
+const
 [
 name2
 value
@@ -15767,7 +15767,7 @@ obj
 _indexes
 )
 {
-let
+const
 obj2
 =
 Object
@@ -15808,7 +15808,7 @@ handleChildRequest
 msg
 )
 {
-let
+const
 args
 =
 msg
@@ -15832,7 +15832,7 @@ getDBMetaData
 "
 :
 {
-let
+const
 [
 host
 principal
@@ -15874,7 +15874,7 @@ splitNameAndStorage
 "
 :
 {
-let
+const
 [
 name
 ]
@@ -15896,7 +15896,7 @@ getDBNamesForHost
 "
 :
 {
-let
+const
 [
 host
 principal
@@ -15920,7 +15920,7 @@ getValuesForHost
 "
 :
 {
-let
+const
 [
 host
 name
@@ -15950,7 +15950,7 @@ removeDB
 "
 :
 {
-let
+const
 [
 host
 principal
@@ -15976,7 +15976,7 @@ removeDBRecord
 "
 :
 {
-let
+const
 [
 host
 principal
@@ -16006,7 +16006,7 @@ clearDBStore
 "
 :
 {
-let
+const
 [
 host
 principal
@@ -16194,7 +16194,7 @@ trimHttpHttpsPort
 url
 )
 {
-let
+const
 match
 =
 url
@@ -16289,7 +16289,7 @@ Actor
 .
 *
 /
-let
+const
 StorageActor
 =
 protocol
@@ -16420,7 +16420,7 @@ store
 types
 for
 (
-let
+const
 [
 store
 ActorConstructor
@@ -16510,7 +16510,7 @@ bind
 this
 )
 ;
-let
+const
 handler
 =
 tabActor
@@ -16671,7 +16671,7 @@ store
 types
 for
 (
-let
+const
 actor
 of
 this
@@ -16800,7 +16800,7 @@ fetchChildWindows
 item
 )
 {
-let
+const
 docShell
 =
 item
@@ -16831,7 +16831,7 @@ return
 null
 ;
 }
-let
+const
 window
 =
 docShell
@@ -16910,7 +16910,7 @@ i
 +
 )
 {
-let
+const
 child
 =
 docShell
@@ -16967,7 +16967,7 @@ data
 ;
 for
 (
-let
+const
 win
 of
 this
@@ -16979,7 +16979,7 @@ values
 )
 )
 {
-let
+const
 id
 =
 win
@@ -17024,7 +17024,7 @@ host
 {
 for
 (
-let
+const
 win
 of
 this
@@ -17036,7 +17036,7 @@ values
 )
 )
 {
-let
+const
 origin
 =
 win
@@ -17047,7 +17047,7 @@ nodePrincipal
 .
 originNoSuffix
 ;
-let
+const
 url
 =
 win
@@ -17215,7 +17215,7 @@ destroyed
 "
 )
 {
-let
+const
 window
 =
 this
@@ -17384,7 +17384,7 @@ destroyed
 return
 ;
 }
-let
+const
 window
 =
 target
@@ -17549,7 +17549,7 @@ listStores
 (
 )
 {
-let
+const
 toReturn
 =
 {
@@ -17557,7 +17557,7 @@ toReturn
 ;
 for
 (
-let
+const
 [
 name
 value
@@ -17896,7 +17896,7 @@ storeType
 }
 for
 (
-let
+const
 host
 in
 data
@@ -17938,7 +17938,7 @@ host
 }
 for
 (
-let
+const
 name
 of
 data
@@ -18176,7 +18176,7 @@ data
 ;
 for
 (
-let
+const
 host
 in
 data
@@ -18513,7 +18513,7 @@ data
 {
 for
 (
-let
+const
 host
 in
 data
@@ -18556,7 +18556,7 @@ host
 {
 for
 (
-let
+const
 name
 in
 data
@@ -18565,7 +18565,7 @@ host
 ]
 )
 {
-let
+const
 index
 =
 this

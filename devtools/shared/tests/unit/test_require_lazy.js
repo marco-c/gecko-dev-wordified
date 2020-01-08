@@ -182,7 +182,7 @@ o2
 {
 }
 ;
-let
+const
 loader
 =
 new
@@ -275,7 +275,7 @@ non
 main
 loader
 .
-let
+const
 exposeLoader
 =
 loader

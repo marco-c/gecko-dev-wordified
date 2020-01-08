@@ -53,7 +53,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -75,7 +75,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -98,7 +98,7 @@ test
 "
 )
 ;
-let
+const
 {
 all
 NetMonitorView
@@ -109,7 +109,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 {
 RequestsMenu
 }
@@ -314,7 +314,7 @@ opened
 "
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -447,7 +447,7 @@ header
 "
 )
 ;
-let
+const
 timingDivisionEls
 =
 all
@@ -665,7 +665,7 @@ request
 "
 )
 ;
-let
+const
 imageData
 =
 RequestsMenu
@@ -695,7 +695,7 @@ created
 "
 )
 ;
-let
+const
 data
 =
 imageData
@@ -1368,7 +1368,7 @@ hasPixelAt
 x
 )
 {
-let
+const
 i
 =
 (
@@ -1417,7 +1417,7 @@ x1
 x2
 )
 {
-let
+const
 i
 =
 (
@@ -1428,7 +1428,7 @@ x1
 *
 4
 ;
-let
+const
 j
 =
 (
@@ -1462,7 +1462,7 @@ x1
 x2
 )
 {
-let
+const
 i
 =
 (
@@ -1473,7 +1473,7 @@ x1
 *
 4
 ;
-let
+const
 j
 =
 (

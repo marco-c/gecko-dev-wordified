@@ -746,7 +746,7 @@ once
 .
 for
 (
-let
+const
 curSeason
 of
 SEASONS
@@ -900,7 +900,7 @@ once
 .
 for
 (
-let
+const
 curSeason
 of
 SEASONS
@@ -1511,7 +1511,7 @@ content
 ;
 for
 (
-let
+const
 curSeason
 of
 SEASONS
@@ -1581,7 +1581,7 @@ content
 ;
 for
 (
-let
+const
 curSeason
 of
 SEASONS
@@ -1717,7 +1717,7 @@ getVisibleLogs
 hud
 )
 {
-let
+const
 outputNode
 =
 hud

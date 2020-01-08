@@ -157,13 +157,13 @@ threadClient
 ;
 for
 (
-let
+const
 form
 of
 sources
 )
 {
-let
+const
 sourceResponse
 =
 await

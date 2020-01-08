@@ -634,7 +634,7 @@ value
 )
 ;
 }
-let
+const
 dbgGlobal
 =
 hooks
@@ -648,7 +648,7 @@ if
 dbgGlobal
 )
 {
-let
+const
 script
 =
 dbgGlobal
@@ -705,7 +705,7 @@ hooks
 grip
 )
 {
-let
+const
 str
 =
 DevToolsUtils
@@ -761,7 +761,7 @@ hooks
 grip
 )
 {
-let
+const
 time
 =
 DevToolsUtils
@@ -821,7 +821,7 @@ hooks
 grip
 )
 {
-let
+const
 length
 =
 ObjectUtils
@@ -861,7 +861,7 @@ return
 true
 ;
 }
-let
+const
 raw
 =
 obj
@@ -870,7 +870,7 @@ unsafeDereference
 (
 )
 ;
-let
+const
 items
 =
 grip
@@ -979,7 +979,7 @@ off
 of
 it
 .
-let
+const
 desc
 =
 Object
@@ -1085,7 +1085,7 @@ objectActor
 grip
 )
 {
-let
+const
 size
 =
 DevToolsUtils
@@ -1154,7 +1154,7 @@ return
 true
 ;
 }
-let
+const
 items
 =
 grip
@@ -1168,7 +1168,7 @@ items
 ;
 for
 (
-let
+const
 item
 of
 PropertyIterators
@@ -1214,7 +1214,7 @@ objectActor
 grip
 )
 {
-let
+const
 enumEntries
 =
 PropertyIterators
@@ -1265,7 +1265,7 @@ return
 true
 ;
 }
-let
+const
 items
 =
 grip
@@ -1279,7 +1279,7 @@ items
 ;
 for
 (
-let
+const
 item
 of
 enumEntries
@@ -1320,7 +1320,7 @@ objectActor
 grip
 )
 {
-let
+const
 size
 =
 DevToolsUtils
@@ -1382,7 +1382,7 @@ return
 true
 ;
 }
-let
+const
 entries
 =
 grip
@@ -1396,7 +1396,7 @@ entries
 ;
 for
 (
-let
+const
 entry
 of
 PropertyIterators
@@ -1442,7 +1442,7 @@ objectActor
 grip
 )
 {
-let
+const
 enumEntries
 =
 PropertyIterators
@@ -1486,7 +1486,7 @@ return
 true
 ;
 }
-let
+const
 entries
 =
 grip
@@ -1500,7 +1500,7 @@ entries
 ;
 for
 (
-let
+const
 entry
 of
 enumEntries
@@ -1555,7 +1555,7 @@ return
 false
 ;
 }
-let
+const
 keys
 =
 obj
@@ -1596,7 +1596,7 @@ return
 true
 ;
 }
-let
+const
 entries
 =
 grip
@@ -1610,13 +1610,13 @@ entries
 ;
 for
 (
-let
+const
 key
 of
 keys
 )
 {
-let
+const
 value
 =
 ObjectUtils
@@ -1705,7 +1705,7 @@ are
 not
 available
 .
-let
+const
 hasTargetAndHandler
 =
 obj
@@ -1938,7 +1938,7 @@ grip
 rawObj
 )
 {
-let
+const
 {
 obj
 hooks
@@ -2006,7 +2006,7 @@ return
 false
 ;
 }
-let
+const
 canHandle
 =
 GenericObject
@@ -2067,7 +2067,7 @@ specialStringBehavior
 false
 )
 {
-let
+const
 {
 obj
 hooks
@@ -2113,7 +2113,7 @@ symbols
 [
 ]
 ;
-let
+const
 preview
 =
 grip
@@ -2354,7 +2354,7 @@ false
 }
 for
 (
-let
+const
 name
 of
 names
@@ -2381,7 +2381,7 @@ name
 )
 )
 {
-let
+const
 num
 =
 parseInt
@@ -2418,7 +2418,7 @@ continue
 ;
 }
 }
-let
+const
 desc
 =
 objectActor
@@ -2463,13 +2463,13 @@ break
 }
 for
 (
-let
+const
 symbol
 of
 symbols
 )
 {
-let
+const
 descriptor
 =
 objectActor
@@ -2636,7 +2636,7 @@ return
 true
 ;
 }
-let
+const
 raw
 =
 obj
@@ -2645,7 +2645,7 @@ unsafeDereference
 (
 )
 ;
-let
+const
 global
 =
 Cu
@@ -2655,7 +2655,7 @@ getGlobalForObject
 DebuggerServer
 )
 ;
-let
+const
 classProto
 =
 global
@@ -2697,7 +2697,7 @@ structured
 clone
 instead
 .
-let
+const
 safeView
 =
 Cu
@@ -2717,7 +2717,7 @@ OBJECT_PREVIEW_MAX_ITEMS
 global
 )
 ;
-let
+const
 items
 =
 grip
@@ -2814,7 +2814,7 @@ case
 URIError
 "
 :
-let
+const
 name
 =
 DevToolsUtils
@@ -2827,7 +2827,7 @@ name
 "
 )
 ;
-let
+const
 msg
 =
 DevToolsUtils
@@ -2840,7 +2840,7 @@ message
 "
 )
 ;
-let
+const
 stack
 =
 DevToolsUtils
@@ -2853,7 +2853,7 @@ stack
 "
 )
 ;
-let
+const
 fileName
 =
 DevToolsUtils
@@ -2866,7 +2866,7 @@ fileName
 "
 )
 ;
-let
+const
 lineNumber
 =
 DevToolsUtils
@@ -2879,7 +2879,7 @@ lineNumber
 "
 )
 ;
-let
+const
 columnNumber
 =
 DevToolsUtils
@@ -3370,7 +3370,7 @@ return
 true
 ;
 }
-let
+const
 items
 =
 grip
@@ -3407,7 +3407,7 @@ i
 +
 )
 {
-let
+const
 value
 =
 ObjectUtils
@@ -3501,7 +3501,7 @@ rawObj
 length
 }
 ;
-let
+const
 entries
 =
 grip
@@ -3536,7 +3536,7 @@ i
 +
 )
 {
-let
+const
 prop
 =
 rawObj
@@ -3544,7 +3544,7 @@ rawObj
 i
 ]
 ;
-let
+const
 value
 =
 rawObj
@@ -3617,7 +3617,7 @@ return
 false
 ;
 }
-let
+const
 preview
 =
 grip
@@ -3727,7 +3727,7 @@ childNodes
 ;
 for
 (
-let
+const
 node
 of
 rawObj
@@ -3735,7 +3735,7 @@ rawObj
 childNodes
 )
 {
-let
+const
 actor
 =
 hooks
@@ -3903,7 +3903,7 @@ length
 ;
 for
 (
-let
+const
 attr
 of
 rawObj
@@ -4042,7 +4042,7 @@ return
 false
 ;
 }
-let
+const
 preview
 =
 grip
@@ -4081,7 +4081,7 @@ getGripDepth
 2
 )
 {
-let
+const
 target
 =
 obj
@@ -4105,7 +4105,7 @@ target
 )
 ;
 }
-let
+const
 props
 =
 [
@@ -4198,7 +4198,7 @@ KeyboardEvent
 "
 )
 {
-let
+const
 modifiers
 =
 [
@@ -4387,7 +4387,7 @@ properties
 .
 for
 (
-let
+const
 prop
 of
 props
@@ -4500,7 +4500,7 @@ i
 ;
 for
 (
-let
+const
 prop
 in
 rawObj
@@ -4999,7 +4999,7 @@ at
 that
 position
 .
-let
+const
 lastKey
 =
 keys
@@ -5071,7 +5071,7 @@ return
 true
 ;
 }
-let
+const
 items
 =
 grip
@@ -5083,7 +5083,7 @@ items
 [
 ]
 ;
-let
+const
 numItems
 =
 Math
@@ -5110,7 +5110,7 @@ numItems
 i
 )
 {
-let
+const
 desc
 =
 obj

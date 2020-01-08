@@ -266,7 +266,7 @@ hud
 {
 for
 (
-let
+const
 message
 of
 expectedMessages
@@ -310,7 +310,7 @@ matched
 "
 )
 ;
-let
+const
 messages
 =
 await

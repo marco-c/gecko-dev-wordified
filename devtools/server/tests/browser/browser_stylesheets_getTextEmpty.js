@@ -158,7 +158,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -171,7 +171,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -202,7 +202,7 @@ form
 actor
 )
 ;
-let
+const
 front
 =
 StyleSheetsFront
@@ -223,7 +223,7 @@ created
 "
 )
 ;
-let
+const
 sheets
 =
 await
@@ -263,7 +263,7 @@ sheets
 "
 )
 ;
-let
+const
 sheet
 =
 sheets
@@ -281,7 +281,7 @@ update
 false
 )
 ;
-let
+const
 longStr
 =
 await
@@ -291,7 +291,7 @@ getText
 (
 )
 ;
-let
+const
 source
 =
 await

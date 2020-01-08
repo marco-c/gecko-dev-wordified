@@ -138,7 +138,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -179,7 +179,7 @@ then
 press
 escape
 .
-let
+const
 elementRuleEditor
 =
 getRuleViewRuleEditor
@@ -188,7 +188,7 @@ view
 1
 )
 ;
-let
+const
 editor
 =
 await
@@ -232,7 +232,7 @@ view
 styleWindow
 )
 ;
-let
+const
 onBlur
 =
 once

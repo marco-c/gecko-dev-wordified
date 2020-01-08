@@ -123,7 +123,7 @@ TEST_URL
 2
 .
 DUMMY_2_URL
-let
+const
 tab
 =
 await
@@ -132,7 +132,7 @@ addTab
 DUMMY_1_URL
 )
 ;
-let
+const
 browser
 =
 tab
@@ -410,7 +410,7 @@ body
 browser
 )
 ;
-let
+const
 {
 ui
 }

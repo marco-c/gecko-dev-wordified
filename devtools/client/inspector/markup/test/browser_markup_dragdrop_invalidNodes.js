@@ -127,7 +127,7 @@ enabled
 true
 )
 ;
-let
+const
 {
 inspector
 }
@@ -149,7 +149,7 @@ test
 "
 )
 ;
-let
+const
 parentFront
 =
 await
@@ -194,7 +194,7 @@ it
 "
 )
 ;
-let
+const
 parentContainer
 =
 await
@@ -204,7 +204,7 @@ parentFront
 inspector
 )
 ;
-let
+const
 beforePseudo
 =
 parentContainer
@@ -289,7 +289,7 @@ anonymousParent
 "
 )
 ;
-let
+const
 inputFront
 =
 await
@@ -331,7 +331,7 @@ it
 "
 )
 ;
-let
+const
 inputContainer
 =
 await
@@ -341,7 +341,7 @@ inputFront
 inspector
 )
 ;
-let
+const
 anonymousDiv
 =
 inputContainer
@@ -422,7 +422,7 @@ component
 "
 )
 ;
-let
+const
 testComponentFront
 =
 await
@@ -488,7 +488,7 @@ given
 node
 front
 .
-let
+const
 slotted1Front
 =
 await
@@ -501,7 +501,7 @@ slotted1
 inspector
 )
 ;
-let
+const
 slottedContainer
 =
 inspector

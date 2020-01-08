@@ -482,7 +482,7 @@ function
 partialState
 )
 {
-let
+const
 {
 state
 }
@@ -542,7 +542,7 @@ refreshState
 (
 )
 {
-let
+const
 data
 =
 await
@@ -619,7 +619,7 @@ partialData
 =
 >
 {
-let
+const
 {
 state
 hasChanged
@@ -667,7 +667,7 @@ false
 ;
 for
 (
-let
+const
 key
 in
 this

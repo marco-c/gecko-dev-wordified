@@ -149,7 +149,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -186,7 +186,7 @@ editAndCheck
 view
 )
 {
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -195,7 +195,7 @@ view
 1
 )
 ;
-let
+const
 prop
 =
 idRuleEditor
@@ -207,14 +207,14 @@ textProps
 0
 ]
 ;
-let
+const
 propEditor
 =
 prop
 .
 editor
 ;
-let
+const
 newPaddingValue
 =
 "
@@ -232,7 +232,7 @@ field
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -265,7 +265,7 @@ span
 "
 )
 ;
-let
+const
 onPropertyChange
 =
 waitForComputedStyleProperty
@@ -283,7 +283,7 @@ top
 newPaddingValue
 )
 ;
-let
+const
 onRefreshAfterPreview
 =
 once
@@ -366,7 +366,7 @@ applied
 await
 onRefreshAfterPreview
 ;
-let
+const
 onBlur
 =
 once
@@ -441,14 +441,14 @@ changed
 "
 )
 ;
-let
+const
 computed
 =
 prop
 .
 computed
 ;
-let
+const
 propNames
 =
 [
@@ -563,7 +563,7 @@ click
 (
 )
 ;
-let
+const
 computedDom
 =
 propEditor

@@ -117,7 +117,7 @@ enabled
 true
 )
 ;
-let
+const
 {
 inspector
 }
@@ -128,7 +128,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 shadowHostFront
 =
 await
@@ -176,7 +176,7 @@ waitForMultipleChildrenUpdates
 inspector
 )
 ;
-let
+const
 shadowContainer
 =
 inspector
@@ -188,7 +188,7 @@ getContainer
 shadowHostFront
 )
 ;
-let
+const
 containers
 =
 shadowContainer
@@ -210,7 +210,7 @@ element
 "
 )
 ;
-let
+const
 before
 =
 containers
@@ -237,7 +237,7 @@ children
 "
 )
 ;
-let
+const
 shadowRootFront
 =
 containers
@@ -247,7 +247,7 @@ containers
 .
 node
 ;
-let
+const
 children
 =
 await
@@ -306,7 +306,7 @@ element
 "
 )
 ;
-let
+const
 shadowChild1
 =
 children
@@ -336,7 +336,7 @@ element
 "
 )
 ;
-let
+const
 shadowChild2
 =
 children

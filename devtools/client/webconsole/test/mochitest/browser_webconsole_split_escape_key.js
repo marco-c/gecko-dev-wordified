@@ -130,7 +130,7 @@ console
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -160,7 +160,7 @@ displayed
 "
 )
 ;
-let
+const
 onSplitConsoleReady
 =
 toolbox
@@ -197,7 +197,7 @@ win
 await
 onSplitConsoleReady
 ;
-let
+const
 hud
 =
 toolbox
@@ -211,7 +211,7 @@ webconsole
 .
 hud
 ;
-let
+const
 jsterm
 =
 hud
@@ -250,14 +250,14 @@ location
 "
 )
 ;
-let
+const
 popup
 =
 jsterm
 .
 autocompletePopup
 ;
-let
+const
 onPopupShown
 =
 popup
@@ -322,7 +322,7 @@ suggestions
 "
 )
 ;
-let
+const
 onPopupClosed
 =
 popup
@@ -403,7 +403,7 @@ splitconsole
 "
 )
 ;
-let
+const
 onSplitConsoleEvent
 =
 toolbox

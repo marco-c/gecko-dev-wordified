@@ -251,7 +251,7 @@ node
 "
 )
 ;
-let
+const
 onUnhighlight
 =
 toolbox

@@ -93,7 +93,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -104,7 +104,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 panelWin
 searchResultsLabel

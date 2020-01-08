@@ -576,7 +576,7 @@ function
 request
 )
 {
-let
+const
 loadInfo
 =
 request

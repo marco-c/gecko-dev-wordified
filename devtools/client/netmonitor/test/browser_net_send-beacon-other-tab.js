@@ -55,7 +55,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -67,7 +67,7 @@ initNetMonitor
 SIMPLE_URL
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -77,7 +77,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -97,7 +97,7 @@ index
 "
 )
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -131,7 +131,7 @@ false
 )
 )
 ;
-let
+const
 beaconTab
 =
 await
@@ -176,7 +176,7 @@ empty
 "
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -247,7 +247,7 @@ recorded
 "
 )
 ;
-let
+const
 request
 =
 getSortedRequests

@@ -112,7 +112,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -164,7 +164,7 @@ titles
 "
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -194,7 +194,7 @@ node
 "
 )
 ;
-let
+const
 propertyView
 =
 new
@@ -231,7 +231,7 @@ refreshMatchedSelectors
 (
 )
 ;
-let
+const
 numMatchedSelectors
 =
 propertyView

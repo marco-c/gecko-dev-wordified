@@ -294,7 +294,7 @@ uri
 return
 ;
 }
-let
+const
 source
 =
 NetUtil

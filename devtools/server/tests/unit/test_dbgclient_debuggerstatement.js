@@ -68,7 +68,7 @@ addTestGlobal
 gDebuggee
 )
 ;
-let
+const
 transport
 =
 DebuggerServer
@@ -292,7 +292,7 @@ gDebuggee
 b
 )
 ;
-let
+const
 xpcInspector
 =
 Cc
@@ -416,7 +416,7 @@ do_test_finished
 ;
 try
 {
-let
+const
 xpcInspector
 =
 Cc

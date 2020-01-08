@@ -169,7 +169,7 @@ event
 packet
 )
 {
-let
+const
 pauseGrip
 =
 packet

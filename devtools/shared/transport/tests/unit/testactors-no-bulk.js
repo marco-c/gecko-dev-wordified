@@ -89,7 +89,7 @@ createRootActor
 connection
 )
 {
-let
+const
 root
 =
 new

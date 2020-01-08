@@ -271,7 +271,7 @@ Map
 )
 ;
 }
-let
+const
 events
 =
 target
@@ -424,14 +424,14 @@ type
 listener
 )
 {
-let
+const
 length
 =
 arguments
 .
 length
 ;
-let
+const
 events
 =
 target
@@ -478,7 +478,7 @@ s
 type
 given
 .
-let
+const
 listenersForType
 =
 events
@@ -613,7 +613,7 @@ given
 .
 for
 (
-let
+const
 value
 of
 listenersForType
@@ -893,7 +893,7 @@ original
 listener
 given
 .
-let
+const
 newListener
 =
 (
@@ -1133,7 +1133,7 @@ effects
 in
 emit
 .
-let
+const
 listenersForType
 =
 new
@@ -1152,7 +1152,7 @@ type
 ;
 for
 (
-let
+const
 listener
 of
 listenersForType
@@ -1184,7 +1184,7 @@ target
 break
 ;
 }
-let
+const
 events
 =
 target
@@ -1192,7 +1192,7 @@ target
 eventListeners
 ]
 ;
-let
+const
 listeners
 =
 events
@@ -1296,7 +1296,7 @@ with
 the
 others
 .
-let
+const
 msg
 =
 ex
@@ -1386,7 +1386,7 @@ by
 Bug
 1391261
 .
-let
+const
 hasWildcardListeners
 =
 target
@@ -1507,7 +1507,7 @@ in
 target
 )
 {
-let
+const
 listenersForType
 =
 target
@@ -1586,7 +1586,7 @@ decorate
 target
 )
 {
-let
+const
 descriptors
 =
 Object
@@ -2104,7 +2104,7 @@ out
 {
 "
 ;
-let
+const
 entries
 =
 Object
@@ -2138,7 +2138,7 @@ i
 +
 )
 {
-let
+const
 [
 name
 value
@@ -2226,7 +2226,7 @@ it
 can
 throw
 .
-let
+const
 str
 =
 String

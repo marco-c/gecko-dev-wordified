@@ -452,14 +452,14 @@ event
 "
 :
 {
-let
+const
 consoleMsg
 =
 subject
 .
 wrappedJSObject
 ;
-let
+const
 msgData
 =
 {
@@ -543,7 +543,7 @@ unavailable
 >
 "
 .
-let
+const
 unavailString
 =
 "
@@ -552,7 +552,7 @@ unavailable
 >
 "
 ;
-let
+const
 unavailStringLength
 =
 unavailString

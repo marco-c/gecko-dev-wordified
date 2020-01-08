@@ -203,7 +203,7 @@ render
 (
 )
 {
-let
+const
 {
 asyncCause
 }
@@ -299,7 +299,7 @@ render
 (
 )
 {
-let
+const
 {
 stacktrace
 onViewSourceInDebugger
@@ -311,7 +311,7 @@ this
 .
 props
 ;
-let
+const
 frames
 =
 [
@@ -367,7 +367,7 @@ n
 )
 ;
 }
-let
+const
 source
 =
 s

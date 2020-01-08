@@ -107,7 +107,7 @@ function
 (
 )
 {
-let
+const
 generatedStubs
 =
 await
@@ -115,7 +115,7 @@ generateCssMessageStubs
 (
 )
 ;
-let
+const
 repoStubFilePath
 =
 getTestFilePath
@@ -132,7 +132,7 @@ js
 "
 )
 ;
-let
+const
 repoStubFileContent
 =
 await

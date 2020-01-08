@@ -358,7 +358,7 @@ node
 )
 ;
 }
-let
+const
 type
 =
 options
@@ -370,7 +370,7 @@ nodeType
 div
 "
 ;
-let
+const
 node
 =
 options
@@ -404,7 +404,7 @@ type
 ;
 for
 (
-let
+const
 name
 in
 options
@@ -416,7 +416,7 @@ attributes
 }
 )
 {
-let
+const
 value
 =
 options
@@ -848,7 +848,7 @@ time
 10
 )
 ;
-let
+const
 pad
 =
 (
@@ -1144,7 +1144,7 @@ undefined
 :
 endDelay
 ;
-let
+const
 toRate
 =
 v
@@ -1154,7 +1154,7 @@ v
 /
 playbackRate
 ;
-let
+const
 minZero
 =
 v
@@ -1168,7 +1168,7 @@ v
 0
 )
 ;
-let
+const
 rateRelativeDuration
 =
 toRate
@@ -1222,7 +1222,7 @@ into
 account
 here
 .
-let
+const
 relevantDelay
 =
 delay
@@ -1243,7 +1243,7 @@ previousStartTime
 |
 0
 ;
-let
+const
 startTime
 =
 toRate
@@ -1282,7 +1282,7 @@ startTime
 )
 )
 ;
-let
+const
 length
 =
 toRate
@@ -1300,7 +1300,7 @@ endDelay
 )
 )
 ;
-let
+const
 endTime
 =
 previousStartTime
@@ -1564,7 +1564,7 @@ function
 distance
 )
 {
-let
+const
 time
 =
 this
@@ -1752,7 +1752,7 @@ state
 }
 )
 {
-let
+const
 start
 =
 state
@@ -1762,28 +1762,28 @@ previousStartTime
 |
 0
 ;
-let
+const
 duration
 =
 state
 .
 duration
 ;
-let
+const
 rate
 =
 state
 .
 playbackRate
 ;
-let
+const
 count
 =
 state
 .
 iterationCount
 ;
-let
+const
 delay
 =
 state
@@ -1793,7 +1793,7 @@ delay
 |
 0
 ;
-let
+const
 endDelay
 =
 state
@@ -1809,7 +1809,7 @@ The
 start
 position
 .
-let
+const
 x
 =
 this
@@ -1834,7 +1834,7 @@ a
 single
 iteration
 .
-let
+const
 w
 =
 this
@@ -1854,7 +1854,7 @@ for
 all
 iterations
 .
-let
+const
 iterationW
 =
 w
@@ -1875,7 +1875,7 @@ of
 the
 delay
 .
-let
+const
 delayX
 =
 delay
@@ -1899,7 +1899,7 @@ of
 the
 delay
 .
-let
+const
 delayW
 =
 this
@@ -1930,7 +1930,7 @@ negative
 0
 otherwise
 .
-let
+const
 negativeDelayW
 =
 delay
@@ -1949,7 +1949,7 @@ of
 the
 endDelay
 .
-let
+const
 endDelayW
 =
 this
@@ -1975,7 +1975,7 @@ of
 the
 endDelay
 .
-let
+const
 endDelayX
 =
 endDelay

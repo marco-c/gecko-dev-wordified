@@ -67,7 +67,7 @@ let
 fillRectValues
 strokeRectValues
 ;
-let
+const
 ctx
 =
 {
@@ -105,7 +105,7 @@ args
 }
 }
 ;
-let
+const
 node
 =
 {
@@ -131,7 +131,7 @@ depth
 2
 }
 ;
-let
+const
 padding
 =
 [
@@ -139,7 +139,7 @@ padding
 10
 ]
 ;
-let
+const
 borderWidth
 =
 (
@@ -148,7 +148,7 @@ borderWidth
 >
 1
 ;
-let
+const
 dragZoom
 =
 {

@@ -98,7 +98,7 @@ class2
 "
 )
 ;
-let
+const
 {
 inspector
 view

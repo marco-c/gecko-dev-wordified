@@ -134,7 +134,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -146,7 +146,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -192,7 +192,7 @@ testAccordionStateAfterClickingHeader
 doc
 )
 {
-let
+const
 header
 =
 doc
@@ -215,7 +215,7 @@ _header
 "
 )
 ;
-let
+const
 bContent
 =
 doc
@@ -412,7 +412,7 @@ sidebars
 "
 )
 ;
-let
+const
 bContent
 =
 doc
@@ -605,7 +605,7 @@ view
 "
 )
 ;
-let
+const
 {
 boxmodel
 }
@@ -615,7 +615,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -624,7 +624,7 @@ doc
 =
 boxmodel
 ;
-let
+const
 bContent
 =
 doc

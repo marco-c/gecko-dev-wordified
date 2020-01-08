@@ -187,7 +187,7 @@ gScratchpadWindow
 .
 Scratchpad
 ;
-let
+const
 contentMenu
 =
 gScratchpadWindow
@@ -205,7 +205,7 @@ content
 "
 )
 ;
-let
+const
 browserMenu
 =
 gScratchpadWindow
@@ -223,7 +223,7 @@ browser
 "
 )
 ;
-let
+const
 notificationBox
 =
 sp
@@ -507,7 +507,7 @@ foosbug653108
 "
 )
 ;
-let
+const
 [
 result
 ]

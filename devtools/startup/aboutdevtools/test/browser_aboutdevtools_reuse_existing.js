@@ -110,7 +110,7 @@ tab
 "
 )
 ;
-let
+const
 tab
 =
 await
@@ -172,7 +172,7 @@ it
 later
 on
 .
-let
+const
 aboutDevtoolsTab
 =
 gBrowser
@@ -244,7 +244,7 @@ gBrowser
 .
 tabs
 .
-let
+const
 aboutDevtoolsTabs
 =
 [

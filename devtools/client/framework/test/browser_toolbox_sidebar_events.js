@@ -128,13 +128,13 @@ p
 >
 "
 ;
-let
+const
 collectedEvents
 =
 [
 ]
 ;
-let
+const
 toolDefinition
 =
 {
@@ -182,7 +182,7 @@ iframeWindow
 toolbox
 )
 {
-let
+const
 deferred
 =
 defer
@@ -261,7 +261,7 @@ function
 aTab
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -288,7 +288,7 @@ function
 toolbox
 )
 {
-let
+const
 panel
 =
 toolbox
@@ -363,7 +363,7 @@ destroyed
 }
 )
 ;
-let
+const
 tabbox
 =
 panel
@@ -523,7 +523,7 @@ destroy
 (
 )
 ;
-let
+const
 events
 =
 collectedEvents

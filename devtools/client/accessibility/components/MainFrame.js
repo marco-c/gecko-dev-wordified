@@ -587,7 +587,7 @@ resetAccessibility
 (
 )
 {
-let
+const
 {
 dispatch
 accessibility
@@ -611,7 +611,7 @@ useLandscapeMode
 (
 )
 {
-let
+const
 {
 clientWidth
 }
@@ -704,7 +704,7 @@ render
 (
 )
 {
-let
+const
 {
 accessibility
 walker

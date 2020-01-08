@@ -482,7 +482,7 @@ error
 error
 )
 ;
-let
+const
 sourceClient
 =
 gThreadClient

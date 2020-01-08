@@ -164,7 +164,7 @@ function
 (
 )
 {
-let
+const
 clipboard
 =
 require
@@ -180,7 +180,7 @@ clipboard
 "
 )
 ;
-let
+const
 {
 inspector
 testActor
@@ -192,14 +192,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 refSelector
 =
 "
 svg
 "
 ;
-let
+const
 oldHTML
 =
 await
@@ -220,7 +220,7 @@ refSelector
 inspector
 )
 ;
-let
+const
 markupTagLine
 =
 getContainerForSelector
@@ -257,7 +257,7 @@ pastelastchild
 PASTE_AS_LAST_CHILD
 )
 ;
-let
+const
 html
 =
 await
@@ -271,7 +271,7 @@ innerHTML
 "
 )
 ;
-let
+const
 expectedHtml
 =
 PASTE_AS_FIRST_CHILD
@@ -307,7 +307,7 @@ menuId
 clipboardData
 )
 {
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -353,7 +353,7 @@ clipboardData
 }
 )
 ;
-let
+const
 onMutation
 =
 inspector

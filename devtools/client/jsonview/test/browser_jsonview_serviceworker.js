@@ -178,7 +178,7 @@ true
 }
 )
 ;
-let
+const
 swTab
 =
 BrowserTestUtils
@@ -189,7 +189,7 @@ gBrowser
 EMPTY_PAGE
 )
 ;
-let
+const
 browser
 =
 gBrowser
@@ -226,7 +226,7 @@ opts
 =
 >
 {
-let
+const
 reg
 =
 await
@@ -262,7 +262,7 @@ resolve
 =
 >
 {
-let
+const
 worker
 =
 reg
@@ -327,7 +327,7 @@ resolve
 }
 )
 ;
-let
+const
 tab
 =
 await
@@ -369,7 +369,7 @@ rows
 "
 )
 ;
-let
+const
 objectCellCount
 =
 await
@@ -399,7 +399,7 @@ cell
 "
 )
 ;
-let
+const
 objectCellText
 =
 await
@@ -542,7 +542,7 @@ opts
 =
 >
 {
-let
+const
 reg
 =
 await

@@ -361,7 +361,7 @@ set
 of
 debuggers
 .
-let
+const
 dbgs
 =
 new
@@ -369,7 +369,7 @@ Set
 (
 )
 ;
-let
+const
 e
 =
 wdm
@@ -387,7 +387,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 dbg
 =
 e
@@ -440,7 +440,7 @@ debugger
 .
 for
 (
-let
+const
 [
 dbg
 ]
@@ -491,7 +491,7 @@ one
 .
 for
 (
-let
+const
 dbg
 of
 dbgs
@@ -529,7 +529,7 @@ dbg
 ;
 }
 }
-let
+const
 actors
 =
 [
@@ -537,7 +537,7 @@ actors
 ;
 for
 (
-let
+const
 [
 actor
 ]
@@ -902,7 +902,7 @@ set
 of
 registrations
 .
-let
+const
 registrations
 =
 new
@@ -910,7 +910,7 @@ Set
 (
 )
 ;
-let
+const
 array
 =
 swm
@@ -970,7 +970,7 @@ registration
 .
 for
 (
-let
+const
 [
 registration
 ]
@@ -1021,7 +1021,7 @@ one
 .
 for
 (
-let
+const
 registration
 of
 registrations
@@ -1093,7 +1093,7 @@ _mustNotify
 true
 ;
 }
-let
+const
 actors
 =
 [
@@ -1101,7 +1101,7 @@ actors
 ;
 for
 (
-let
+const
 [
 actor
 ]

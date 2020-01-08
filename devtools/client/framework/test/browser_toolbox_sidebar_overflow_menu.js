@@ -200,7 +200,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -213,7 +213,7 @@ blank
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -230,7 +230,7 @@ registerTool
 testToolDefinition
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -244,7 +244,7 @@ testToolDefinition
 id
 )
 ;
-let
+const
 toolPanel
 =
 toolbox
@@ -256,7 +256,7 @@ testToolDefinition
 id
 )
 ;
-let
+const
 tabbox
 =
 toolPanel
@@ -280,7 +280,7 @@ widget
 "
 )
 ;
-let
+const
 sidebar
 =
 new
@@ -298,7 +298,7 @@ true
 }
 )
 ;
-let
+const
 allTabsMenu
 =
 toolPanel
@@ -383,7 +383,7 @@ nb
 +
 )
 {
-let
+const
 url
 =
 data
@@ -517,7 +517,7 @@ nb
 +
 )
 {
-let
+const
 id
 =
 "
@@ -538,7 +538,7 @@ nb
 nb
 )
 ;
-let
+const
 item
 =
 allTabsMenu

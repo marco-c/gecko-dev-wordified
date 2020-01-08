@@ -47,8 +47,8 @@ editor
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -484,12 +484,12 @@ EXPECTED_STYLE_SHEET_COUNT
 =
 12
 ;
-let
+const
 {
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI

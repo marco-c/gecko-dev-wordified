@@ -155,7 +155,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -167,7 +167,7 @@ openInspectorForURL
 TEST_PAGE
 )
 ;
-let
+const
 markupView
 =
 inspector
@@ -460,7 +460,7 @@ hoverContainer
 container
 )
 {
-let
+const
 promise
 =
 inspector
@@ -531,7 +531,7 @@ markup
 view
 )
 ;
-let
+const
 container
 =
 await
@@ -569,7 +569,7 @@ view
 ;
 for
 (
-let
+const
 [
 node
 container
@@ -628,7 +628,7 @@ markup
 view
 )
 ;
-let
+const
 container
 =
 [
@@ -768,7 +768,7 @@ assertHighlighterHidden
 (
 )
 {
-let
+const
 isVisible
 =
 await

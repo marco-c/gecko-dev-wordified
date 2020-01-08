@@ -633,7 +633,7 @@ updateDebugStatus
 (
 )
 {
-let
+const
 debugDisabled
 =
 !
@@ -691,7 +691,7 @@ addons
 =
 >
 {
-let
+const
 extensions
 =
 addons
@@ -908,7 +908,7 @@ render
 (
 )
 {
-let
+const
 {
 client
 connect
@@ -919,7 +919,7 @@ this
 .
 props
 ;
-let
+const
 {
 debugDisabled
 extensions
@@ -931,7 +931,7 @@ this
 .
 state
 ;
-let
+const
 installedName
 =
 Strings
@@ -943,7 +943,7 @@ extensions
 "
 )
 ;
-let
+const
 temporaryName
 =
 Strings
@@ -955,7 +955,7 @@ temporaryExtensions
 "
 )
 ;
-let
+const
 targetClass
 =
 AddonTarget

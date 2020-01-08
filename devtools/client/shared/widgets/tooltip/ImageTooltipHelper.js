@@ -322,7 +322,7 @@ resolve
 =
 >
 {
-let
+const
 imgObj
 =
 new
@@ -349,7 +349,7 @@ onload
 =
 null
 ;
-let
+const
 {
 naturalWidth
 naturalHeight
@@ -581,7 +581,7 @@ imgWidth
 maxDim
 )
 {
-let
+const
 scale
 =
 maxDim
@@ -656,7 +656,7 @@ tiles
 Create
 tooltip
 content
-let
+const
 div
 =
 doc
@@ -796,7 +796,7 @@ if
 hideDimensionLabel
 )
 {
-let
+const
 label
 =
 naturalWidth
@@ -905,7 +905,7 @@ height
 LABEL_HEIGHT
 ;
 }
-let
+const
 width
 =
 Math
@@ -1009,7 +1009,7 @@ tooltip
 doc
 )
 {
-let
+const
 div
 =
 doc
@@ -1039,7 +1039,7 @@ image
 broken
 "
 ;
-let
+const
 message
 =
 L10N

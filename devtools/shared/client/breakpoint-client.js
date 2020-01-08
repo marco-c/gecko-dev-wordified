@@ -375,7 +375,7 @@ function
 (
 )
 {
-let
+const
 root
 =
 this
@@ -494,7 +494,7 @@ function
 (
 )
 {
-let
+const
 root
 =
 this
@@ -544,7 +544,7 @@ gThreadClient
 condition
 )
 {
-let
+const
 root
 =
 this
@@ -553,7 +553,7 @@ _client
 .
 mainRoot
 ;
-let
+const
 deferred
 =
 promise
@@ -571,7 +571,7 @@ traits
 conditionalBreakpoints
 )
 {
-let
+const
 info
 =
 {

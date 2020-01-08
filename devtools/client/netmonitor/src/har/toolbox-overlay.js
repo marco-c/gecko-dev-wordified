@@ -305,7 +305,7 @@ function
 (
 )
 {
-let
+const
 autoExport
 =
 Services
@@ -459,7 +459,7 @@ for
 the
 toolbox
 .
-let
+const
 overlay
 =
 new

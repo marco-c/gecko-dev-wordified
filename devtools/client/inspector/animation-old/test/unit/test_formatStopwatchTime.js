@@ -387,7 +387,7 @@ run_test
 {
 for
 (
-let
+const
 {
 desc
 time

@@ -201,7 +201,7 @@ render
 (
 )
 {
-let
+const
 {
 contentSize
 }
@@ -212,7 +212,7 @@ props
 .
 item
 ;
-let
+const
 size
 =
 typeof

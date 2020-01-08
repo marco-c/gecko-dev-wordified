@@ -355,7 +355,7 @@ panelWin
 =
 >
 {
-let
+const
 deferred
 =
 defer
@@ -393,7 +393,7 @@ selectedBrowser
 =
 >
 {
-let
+const
 button
 =
 content
@@ -510,7 +510,7 @@ onExecuteGetName
 results
 )
 {
-let
+const
 clickable
 =
 results
@@ -545,7 +545,7 @@ fetched
 onGetNameFetch
 )
 ;
-let
+const
 contextMenu
 =
 gWebConsole
@@ -572,7 +572,7 @@ clickable
 =
 >
 {
-let
+const
 openInVarView
 =
 contextMenu
@@ -692,7 +692,7 @@ onExpandClosure
 results
 )
 {
-let
+const
 prop
 =
 results

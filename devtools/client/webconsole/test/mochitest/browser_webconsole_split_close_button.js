@@ -72,7 +72,7 @@ function
 (
 )
 {
-let
+const
 toolbox
 =
 await
@@ -100,7 +100,7 @@ button
 "
 )
 ;
-let
+const
 onSplitConsoleReady
 =
 toolbox
@@ -404,7 +404,7 @@ getCloseButton
 toolbox
 )
 {
-let
+const
 hud
 =
 toolbox
@@ -418,7 +418,7 @@ webconsole
 .
 hud
 ;
-let
+const
 doc
 =
 hud

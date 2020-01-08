@@ -430,7 +430,7 @@ if
 db
 )
 {
-let
+const
 transaction
 =
 db
@@ -441,7 +441,7 @@ STORENAME
 type
 )
 ;
-let
+const
 store
 =
 transaction
@@ -459,7 +459,7 @@ store
 }
 else
 {
-let
+const
 openreq
 =
 indexedDB
@@ -531,7 +531,7 @@ openreq
 .
 result
 ;
-let
+const
 transaction
 =
 db
@@ -542,7 +542,7 @@ STORENAME
 type
 )
 ;
-let
+const
 store
 =
 transaction
@@ -715,7 +715,7 @@ oncomplete
 =
 resolve
 ;
-let
+const
 req
 =
 store
@@ -800,7 +800,7 @@ oncomplete
 =
 resolve
 ;
-let
+const
 req
 =
 store
@@ -883,7 +883,7 @@ oncomplete
 =
 resolve
 ;
-let
+const
 req
 =
 store
@@ -1083,7 +1083,7 @@ onComplete
 (
 )
 {
-let
+const
 cursor
 =
 req
@@ -1125,7 +1125,7 @@ keyOnSuccess
 (
 )
 {
-let
+const
 cursor
 =
 req

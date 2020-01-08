@@ -142,7 +142,7 @@ Net
 panel
 opens
 .
-let
+const
 api
 =
 await
@@ -154,7 +154,7 @@ getNetMonitorAPI
 (
 )
 ;
-let
+const
 app
 =
 this

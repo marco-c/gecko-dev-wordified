@@ -79,7 +79,7 @@ test
 (
 )
 {
-let
+const
 {
 ToolSidebar
 }
@@ -195,19 +195,19 @@ tab1Selected
 =
 false
 ;
-let
+const
 registeredTabs
 =
 {
 }
 ;
-let
+const
 readyTabs
 =
 {
 }
 ;
-let
+const
 toolDefinition
 =
 {
@@ -258,7 +258,7 @@ iframeWindow
 toolbox
 )
 {
-let
+const
 deferred
 =
 defer
@@ -337,7 +337,7 @@ function
 aTab
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -364,7 +364,7 @@ function
 toolbox
 )
 {
-let
+const
 panel
 =
 toolbox
@@ -391,7 +391,7 @@ open
 "
 )
 ;
-let
+const
 tabbox
 =
 panel
@@ -759,7 +759,7 @@ ready
 "
 )
 ;
-let
+const
 tabs
 =
 panel
@@ -775,7 +775,7 @@ tab
 "
 )
 ;
-let
+const
 panels
 =
 panel
@@ -798,7 +798,7 @@ label
 ;
 for
 (
-let
+const
 tab
 of
 tabs
@@ -1124,7 +1124,7 @@ removed
 "
 )
 ;
-let
+const
 tabs
 =
 panel
@@ -1140,7 +1140,7 @@ tab
 "
 )
 ;
-let
+const
 panels
 =
 panel
@@ -1216,7 +1216,7 @@ testWidth
 panel
 )
 {
-let
+const
 tabbox
 =
 panel

@@ -162,7 +162,7 @@ brace
 style
 *
 /
-let
+const
 foo
 =
 "
@@ -182,7 +182,7 @@ log
 ;
 }
 ;
-let
+const
 bar
 =
 "

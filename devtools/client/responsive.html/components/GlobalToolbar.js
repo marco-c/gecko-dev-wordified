@@ -359,7 +359,7 @@ render
 (
 )
 {
-let
+const
 {
 devices
 displayPixelRatio

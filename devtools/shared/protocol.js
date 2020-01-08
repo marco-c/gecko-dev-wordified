@@ -192,7 +192,7 @@ let
 resolve
 reject
 ;
-let
+const
 promise
 =
 new
@@ -628,7 +628,7 @@ collection
 lifetime
 type
 :
-let
+const
 sep
 =
 type
@@ -648,7 +648,7 @@ sep
 0
 )
 {
-let
+const
 collection
 =
 type
@@ -659,7 +659,7 @@ substring
 sep
 )
 ;
-let
+const
 subtype
 =
 types
@@ -760,7 +760,7 @@ might
 be
 actor
 detail
-let
+const
 pieces
 =
 type
@@ -1145,7 +1145,7 @@ exists
 )
 ;
 }
-let
+const
 type
 =
 Object
@@ -1266,7 +1266,7 @@ don
 t
 work
 .
-let
+const
 type
 =
 registeredTypes
@@ -1408,7 +1408,7 @@ getType
 subtype
 )
 ;
-let
+const
 name
 =
 "
@@ -1649,7 +1649,7 @@ name
 specializations
 )
 {
-let
+const
 specTypes
 =
 {
@@ -1657,7 +1657,7 @@ specTypes
 ;
 for
 (
-let
+const
 prop
 in
 specializations
@@ -1778,7 +1778,7 @@ ctx
 =
 >
 {
-let
+const
 ret
 =
 {
@@ -1786,7 +1786,7 @@ ret
 ;
 for
 (
-let
+const
 prop
 in
 v
@@ -1846,7 +1846,7 @@ ctx
 =
 >
 {
-let
+const
 ret
 =
 {
@@ -1854,7 +1854,7 @@ ret
 ;
 for
 (
-let
+const
 prop
 in
 v
@@ -2110,7 +2110,7 @@ name
 )
 ;
 }
-let
+const
 type
 =
 types
@@ -2211,7 +2211,7 @@ isn
 t
 found
 .
-let
+const
 actorID
 =
 typeof
@@ -3158,7 +3158,7 @@ name
 )
 ;
 }
-let
+const
 prop
 =
 registeredLifetimes
@@ -3739,7 +3739,7 @@ return
 undefined
 ;
 }
-let
+const
 v
 =
 arg
@@ -4105,7 +4105,7 @@ path
 {
 for
 (
-let
+const
 name
 of
 path
@@ -4225,7 +4225,7 @@ placeholders
 }
 for
 (
-let
+const
 name
 in
 template
@@ -4421,7 +4421,7 @@ fnArgs
 ctx
 )
 {
-let
+const
 ret
 =
 {
@@ -4429,7 +4429,7 @@ ret
 ;
 for
 (
-let
+const
 key
 in
 this
@@ -4437,7 +4437,7 @@ this
 template
 )
 {
-let
+const
 value
 =
 this
@@ -4571,7 +4571,7 @@ packet
 ctx
 )
 {
-let
+const
 fnArgs
 =
 [
@@ -4579,7 +4579,7 @@ fnArgs
 ;
 for
 (
-let
+const
 templateArg
 of
 this
@@ -4587,21 +4587,21 @@ this
 args
 )
 {
-let
+const
 arg
 =
 templateArg
 .
 placeholder
 ;
-let
+const
 path
 =
 templateArg
 .
 path
 ;
-let
+const
 name
 =
 path
@@ -4689,7 +4689,7 @@ template
 =
 template
 ;
-let
+const
 placeholders
 =
 findPlaceholders
@@ -4722,7 +4722,7 @@ response
 )
 ;
 }
-let
+const
 placeholder
 =
 placeholders
@@ -4846,7 +4846,7 @@ ctx
 )
 ;
 }
-let
+const
 result
 =
 {
@@ -4854,7 +4854,7 @@ result
 ;
 for
 (
-let
+const
 key
 in
 this
@@ -4862,7 +4862,7 @@ this
 template
 )
 {
-let
+const
 value
 =
 this
@@ -4986,7 +4986,7 @@ return
 undefined
 ;
 }
-let
+const
 v
 =
 getPath
@@ -5583,7 +5583,7 @@ return
 }
 for
 (
-let
+const
 actor
 of
 this
@@ -5660,7 +5660,7 @@ function
 (
 )
 {
-let
+const
 parent
 =
 this
@@ -5695,7 +5695,7 @@ return
 }
 for
 (
-let
+const
 actor
 of
 this
@@ -5735,7 +5735,7 @@ this
 continue
 ;
 }
-let
+const
 destroy
 =
 actor
@@ -6009,7 +6009,7 @@ events
 {
 for
 (
-let
+const
 [
 name
 request
@@ -6368,7 +6368,7 @@ function
 create
 )
 {
-let
+const
 pending
 =
 this
@@ -6383,7 +6383,7 @@ resolve
 null
 )
 ;
-let
+const
 response
 =
 create
@@ -6573,7 +6573,7 @@ function
 actorDesc
 )
 {
-let
+const
 actorSpec
 =
 {
@@ -6601,7 +6601,7 @@ properties
 .
 for
 (
-let
+const
 name
 of
 Object
@@ -6612,7 +6612,7 @@ actorDesc
 )
 )
 {
-let
+const
 desc
 =
 Object
@@ -6755,7 +6755,7 @@ value
 _methodSpec
 )
 {
-let
+const
 methodSpec
 =
 desc
@@ -6764,7 +6764,7 @@ value
 .
 _methodSpec
 ;
-let
+const
 spec
 =
 {
@@ -6865,7 +6865,7 @@ methods
 {
 for
 (
-let
+const
 name
 in
 actorDesc
@@ -6873,7 +6873,7 @@ actorDesc
 methods
 )
 {
-let
+const
 methodSpec
 =
 actorDesc
@@ -6883,7 +6883,7 @@ methods
 name
 ]
 ;
-let
+const
 spec
 =
 {
@@ -6992,7 +6992,7 @@ Map
 ;
 for
 (
-let
+const
 name
 in
 actorDesc
@@ -7000,7 +7000,7 @@ actorDesc
 events
 )
 {
-let
+const
 eventRequest
 =
 actorDesc
@@ -7165,7 +7165,7 @@ spec
 =
 >
 {
-let
+const
 handler
 =
 function
@@ -7265,7 +7265,7 @@ actor
 )
 ;
 }
-let
+const
 ret
 =
 this
@@ -7281,7 +7281,7 @@ this
 args
 )
 ;
-let
+const
 sendReturn
 =
 (
@@ -7634,14 +7634,14 @@ of
 constructor
 methods
 .
-let
+const
 cls
 =
 function
 (
 )
 {
-let
+const
 instance
 =
 Object
@@ -7979,7 +7979,7 @@ length
 0
 )
 {
-let
+const
 {
 deferred
 to
@@ -7995,7 +7995,7 @@ shift
 (
 )
 ;
-let
+const
 msg
 =
 "
@@ -8326,7 +8326,7 @@ function
 packet
 )
 {
-let
+const
 deferred
 =
 defer
@@ -8340,7 +8340,7 @@ packet
 basics
 for
 debugging
-let
+const
 {
 to
 type
@@ -8416,7 +8416,7 @@ Pick
 off
 event
 packets
-let
+const
 type
 =
 packet
@@ -8447,7 +8447,7 @@ type
 )
 )
 {
-let
+const
 event
 =
 this
@@ -8520,7 +8520,7 @@ event
 pre
 )
 {
-let
+const
 results
 =
 event
@@ -8682,7 +8682,7 @@ length
 0
 )
 {
-let
+const
 msg
 =
 "
@@ -8704,7 +8704,7 @@ stringify
 packet
 )
 ;
-let
+const
 err
 =
 Error
@@ -8723,7 +8723,7 @@ throw
 err
 ;
 }
-let
+const
 {
 deferred
 stack
@@ -9190,7 +9190,7 @@ Generate
 request
 methods
 .
-let
+const
 methods
 =
 actorSpec
@@ -9244,7 +9244,7 @@ in
 frontProto
 )
 {
-let
+const
 custom
 =
 frontProto
@@ -9491,7 +9491,7 @@ spec
 release
 )
 {
-let
+const
 fn
 =
 frontProto
@@ -9557,7 +9557,7 @@ _clientSpec
 {
 }
 ;
-let
+const
 actorEvents
 =
 actorSpec
@@ -9584,7 +9584,7 @@ handlers
 .
 .
 .
-let
+const
 preHandlers
 =
 new
@@ -9594,7 +9594,7 @@ Map
 ;
 for
 (
-let
+const
 name
 of
 Object
@@ -9605,7 +9605,7 @@ frontProto
 )
 )
 {
-let
+const
 desc
 =
 Object
@@ -9636,7 +9636,7 @@ value
 _preEvent
 )
 {
-let
+const
 preEvent
 =
 desc
@@ -9729,7 +9729,7 @@ Map
 ;
 for
 (
-let
+const
 [
 name
 request
@@ -9865,14 +9865,14 @@ of
 constructor
 methods
 .
-let
+const
 cls
 =
 function
 (
 )
 {
-let
+const
 instance
 =
 Object
@@ -9971,14 +9971,14 @@ function
 type
 )
 {
-let
+const
 actorSpec
 =
 type
 .
 actorSpec
 ;
-let
+const
 ret
 =
 {
@@ -10004,7 +10004,7 @@ events
 ;
 for
 (
-let
+const
 method
 of
 actorSpec
@@ -10071,7 +10071,7 @@ events
 {
 for
 (
-let
+const
 [
 name
 request
@@ -10117,7 +10117,7 @@ function
 (
 )
 {
-let
+const
 ret
 =
 {
@@ -10155,7 +10155,7 @@ getType
 name
 )
 ;
-let
+const
 category
 =
 type

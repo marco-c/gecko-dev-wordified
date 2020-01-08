@@ -431,7 +431,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -477,7 +477,7 @@ element
 "
 )
 ;
-let
+const
 img
 =
 await
@@ -529,7 +529,7 @@ INITIAL_SRC
 inspector
 )
 ;
-let
+const
 container
 =
 getContainerForNodeFront
@@ -773,7 +773,7 @@ newSrc
 inspector
 )
 {
-let
+const
 onMutated
 =
 inspector
@@ -785,7 +785,7 @@ markupmutation
 "
 )
 ;
-let
+const
 onModified
 =
 img
@@ -849,7 +849,7 @@ markup
 }
 )
 {
-let
+const
 panel
 =
 markup
@@ -858,7 +858,7 @@ imagePreviewTooltip
 .
 panel
 ;
-let
+const
 images
 =
 panel
@@ -884,7 +884,7 @@ image
 "
 )
 ;
-let
+const
 label
 =
 panel

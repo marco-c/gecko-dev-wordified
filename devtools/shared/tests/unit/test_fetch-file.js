@@ -247,7 +247,7 @@ test_arrow_urls
 (
 )
 {
-let
+const
 {
 path
 }
@@ -260,7 +260,7 @@ js
 "
 )
 ;
-let
+const
 url
 =
 "
@@ -305,7 +305,7 @@ utf
 }
 )
 ;
-let
+const
 {
 content
 }
@@ -358,7 +358,7 @@ test_empty
 (
 )
 {
-let
+const
 {
 path
 }
@@ -367,7 +367,7 @@ createTemporaryFile
 (
 )
 ;
-let
+const
 {
 content
 }
@@ -431,7 +431,7 @@ test_encoding_utf8
 (
 )
 {
-let
+const
 {
 path
 }
@@ -451,7 +451,7 @@ path
 UTF8_TEST_BUFFER
 )
 ;
-let
+const
 {
 content
 }
@@ -516,7 +516,7 @@ test_encoding_iso_8859_1
 (
 )
 {
-let
+const
 {
 path
 }
@@ -536,7 +536,7 @@ path
 ISO_8859_1_BUFFER
 )
 ;
-let
+const
 {
 content
 }
@@ -699,7 +699,7 @@ test_schemeless_files
 (
 )
 {
-let
+const
 {
 path
 }
@@ -728,7 +728,7 @@ utf
 }
 )
 ;
-let
+const
 {
 content
 }
@@ -781,7 +781,7 @@ createTemporaryFile
 extension
 )
 {
-let
+const
 name
 =
 "
@@ -805,7 +805,7 @@ extension
 "
 )
 ;
-let
+const
 file
 =
 FileUtils

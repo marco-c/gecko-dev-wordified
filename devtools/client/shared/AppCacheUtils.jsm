@@ -611,14 +611,14 @@ reject
 =
 >
 {
-let
+const
 manifestName
 =
 uriInfo
 .
 name
 ;
-let
+const
 manifestLastModified
 =
 new
@@ -698,7 +698,7 @@ mimeType
 )
 ;
 }
-let
+const
 parser
 =
 new
@@ -712,7 +712,7 @@ this
 manifestURI
 )
 ;
-let
+const
 parsed
 =
 parser
@@ -756,7 +756,7 @@ for
 duplicate
 entries
 .
-let
+const
 dupes
 =
 {
@@ -764,7 +764,7 @@ dupes
 ;
 for
 (
-let
+const
 parsedUri
 of
 parsed
@@ -821,7 +821,7 @@ original
 }
 for
 (
-let
+const
 [
 uri
 value
@@ -890,7 +890,7 @@ uri
 .
 for
 (
-let
+const
 neturi
 of
 parsed
@@ -912,7 +912,7 @@ NETWORK
 {
 for
 (
-let
+const
 parsedUri
 of
 parsed
@@ -1003,7 +1003,7 @@ uri
 .
 for
 (
-let
+const
 fb
 of
 parsed
@@ -1013,7 +1013,7 @@ fallbacks
 {
 for
 (
-let
+const
 parsedUri
 of
 parsed
@@ -1118,7 +1118,7 @@ i
 +
 )
 {
-let
+const
 parsedUri
 =
 parsed
@@ -1183,7 +1183,7 @@ should
 be
 refreshed
 .
-let
+const
 resourceLastModified
 =
 new
@@ -1352,7 +1352,7 @@ reject
 =
 >
 {
-let
+const
 inputStream
 =
 Cc
@@ -1381,7 +1381,7 @@ buffer
 "
 "
 ;
-let
+const
 channel
 =
 NetUtil
@@ -1534,7 +1534,7 @@ Ci
 nsIHttpChannel
 )
 ;
-let
+const
 result
 =
 {
@@ -1754,13 +1754,13 @@ cacheDisabled
 )
 ;
 }
-let
+const
 entries
 =
 [
 ]
 ;
-let
+const
 appCacheStorage
 =
 Services
@@ -1801,7 +1801,7 @@ aLastModifiedTime
 aExpirationTime
 )
 {
-let
+const
 lowerKey
 =
 aURI
@@ -1846,7 +1846,7 @@ aIdEnhance
 "
 ;
 }
-let
+const
 entry
 =
 {
@@ -1958,7 +1958,7 @@ ACU_viewEntry
 key
 )
 {
-let
+const
 win
 =
 Services
@@ -1972,7 +1972,7 @@ gDevTools
 chromeWindowType
 )
 ;
-let
+const
 url
 =
 "
@@ -2052,7 +2052,7 @@ cacheDisabled
 )
 ;
 }
-let
+const
 appCacheStorage
 =
 Services
@@ -2104,7 +2104,7 @@ reject
 =
 >
 {
-let
+const
 getURI
 =
 (
@@ -2112,7 +2112,7 @@ getURI
 =
 >
 {
-let
+const
 htmlNode
 =
 this
@@ -2134,7 +2134,7 @@ if
 htmlNode
 )
 {
-let
+const
 pageUri
 =
 this
@@ -2155,7 +2155,7 @@ this
 .
 uri
 ;
-let
+const
 manifestURI
 =
 htmlNode
@@ -2167,7 +2167,7 @@ manifest
 "
 )
 ;
-let
+const
 originRegExp
 =
 new
@@ -2273,7 +2273,7 @@ this
 doc
 )
 {
-let
+const
 uri
 =
 getURI
@@ -2309,14 +2309,14 @@ uriInfo
 success
 )
 {
-let
+const
 html
 =
 uriInfo
 .
 text
 ;
-let
+const
 parser
 =
 _DOMParser
@@ -2337,7 +2337,7 @@ html
 "
 )
 ;
-let
+const
 uri
 =
 getURI
@@ -2575,7 +2575,7 @@ OCIMP_parse
 (
 )
 {
-let
+const
 lines
 =
 this
@@ -2593,7 +2593,7 @@ n
 /
 )
 ;
-let
+const
 fallbacks
 =
 this
@@ -2603,7 +2603,7 @@ fallbacks
 [
 ]
 ;
-let
+const
 settings
 =
 this
@@ -2613,7 +2613,7 @@ settings
 [
 ]
 ;
-let
+const
 errors
 =
 this
@@ -2623,7 +2623,7 @@ errors
 [
 ]
 ;
-let
+const
 uris
 =
 this
@@ -2659,7 +2659,7 @@ i
 +
 )
 {
-let
+const
 text
 =
 this
@@ -3184,7 +3184,7 @@ origin
 )
 )
 {
-let
+const
 trimIdx
 =
 origin
@@ -3325,7 +3325,7 @@ OCIMP_parseFallbackLine
 (
 )
 {
-let
+const
 split
 =
 this
@@ -3341,7 +3341,7 @@ s
 /
 )
 ;
-let
+const
 origURI
 =
 this
@@ -3597,7 +3597,7 @@ origin
 )
 )
 {
-let
+const
 trimIdx
 =
 origin
@@ -3776,7 +3776,7 @@ OCIMP_parseSettingsLine
 (
 )
 {
-let
+const
 text
 =
 this

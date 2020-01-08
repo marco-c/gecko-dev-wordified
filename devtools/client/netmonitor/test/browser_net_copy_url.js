@@ -55,7 +55,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -78,7 +78,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -89,7 +89,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -182,7 +182,7 @@ item
 ]
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests

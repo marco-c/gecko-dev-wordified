@@ -408,7 +408,7 @@ profile
 profilerStartTime
 )
 {
-let
+const
 firstThread
 =
 profile
@@ -518,7 +518,7 @@ profile
 timeOffset
 )
 {
-let
+const
 firstThread
 =
 profile
@@ -539,7 +539,7 @@ schema
 .
 time
 ;
-let
+const
 samplesData
 =
 firstThread
@@ -639,7 +639,7 @@ timeOffset
 {
 for
 (
-let
+const
 marker
 of
 markers
@@ -909,7 +909,7 @@ dest
 src
 )
 {
-let
+const
 length
 =
 src
@@ -1043,7 +1043,7 @@ getProfileThreadFromAllocations
 allocations
 )
 {
-let
+const
 cached
 =
 gProfileThreadFromAllocationCache
@@ -1062,7 +1062,7 @@ return
 cached
 ;
 }
-let
+const
 {
 sites
 timestamps
@@ -1072,7 +1072,7 @@ sizes
 =
 allocations
 ;
-let
+const
 uniqueStrings
 =
 new
@@ -1203,7 +1203,7 @@ for
 /
 correctness
 .
-let
+const
 stackTable
 =
 new
@@ -1214,7 +1214,7 @@ frames
 length
 )
 ;
-let
+const
 frameTable
 =
 new
@@ -1234,7 +1234,7 @@ concat
 the
 location
 .
-let
+const
 locationConcatArray
 =
 new
@@ -1261,7 +1261,7 @@ i
 +
 )
 {
-let
+const
 frame
 =
 frames
@@ -1290,7 +1290,7 @@ null
 continue
 ;
 }
-let
+const
 prefix
 =
 frame
@@ -1478,7 +1478,7 @@ join
 "
 )
 ;
-let
+const
 funcName
 =
 frame
@@ -1564,7 +1564,7 @@ location
 ]
 ;
 }
-let
+const
 samples
 =
 new
@@ -1654,7 +1654,7 @@ same
 /
 information
 .
-let
+const
 stackIndex
 =
 sites
@@ -1697,7 +1697,7 @@ length
 =
 writePos
 ;
-let
+const
 thread
 =
 {
@@ -1892,7 +1892,7 @@ thread
 =
 >
 {
-let
+const
 uniqueStacks
 =
 new
@@ -2023,7 +2023,7 @@ i
 +
 )
 {
-let
+const
 frameIndex
 =
 uniqueStacks
@@ -2122,7 +2122,7 @@ responsiveness
 rss
 uss
 ]
-let
+const
 deflatedSamples
 =
 new
@@ -2151,7 +2151,7 @@ i
 +
 )
 {
-let
+const
 sample
 =
 samples
@@ -2284,7 +2284,7 @@ name
 time
 data
 ]
-let
+const
 deflatedMarkers
 =
 new
@@ -2313,7 +2313,7 @@ i
 +
 )
 {
-let
+const
 marker
 =
 markers
@@ -2819,14 +2819,14 @@ return
 null
 ;
 }
-let
+const
 stringHash
 =
 this
 .
 _stringHash
 ;
-let
+const
 stringTable
 =
 this
@@ -3349,21 +3349,21 @@ optimizations
 line
 category
 ]
-let
+const
 frameHash
 =
 this
 .
 _frameHash
 ;
-let
+const
 frameTable
 =
 this
 .
 _frameTable
 ;
-let
+const
 locationIndex
 =
 this
@@ -3375,7 +3375,7 @@ frame
 location
 )
 ;
-let
+const
 implementationIndex
 =
 this
@@ -3392,7 +3392,7 @@ implementation
 Super
 dumb
 .
-let
+const
 hash
 =
 {
@@ -3540,14 +3540,14 @@ Schema
 prefix
 frame
 ]
-let
+const
 stackHash
 =
 this
 .
 _stackHash
 ;
-let
+const
 stackTable
 =
 this
@@ -3560,7 +3560,7 @@ Also
 super
 dumb
 .
-let
+const
 hash
 =
 prefixIndex

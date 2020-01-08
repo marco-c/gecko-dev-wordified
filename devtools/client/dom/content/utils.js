@@ -144,7 +144,7 @@ function
 key
 )
 {
-let
+const
 index
 =
 key

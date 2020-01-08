@@ -189,7 +189,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -225,7 +225,7 @@ testid
 inspector
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -234,7 +234,7 @@ view
 1
 )
 ;
-let
+const
 propEditor
 =
 ruleEditor
@@ -248,7 +248,7 @@ textProps
 .
 editor
 ;
-let
+const
 swatchSpan
 =
 propEditor
@@ -268,7 +268,7 @@ colorswatch
 3
 ]
 ;
-let
+const
 colorPicker
 =
 view
@@ -302,7 +302,7 @@ propEditor
 nameSpan
 )
 ;
-let
+const
 editor
 =
 inplaceEditor
@@ -352,7 +352,7 @@ background
 image
 "
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -366,7 +366,7 @@ changed
 "
 )
 ;
-let
+const
 onPropertyValueUpdate
 =
 view
@@ -382,7 +382,7 @@ updated
 "
 )
 ;
-let
+const
 onReady
 =
 colorPicker
@@ -526,7 +526,7 @@ click
 "
 )
 ;
-let
+const
 spectrum
 =
 colorPicker

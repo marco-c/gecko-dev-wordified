@@ -133,7 +133,7 @@ addTab
 TESTCASE_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -153,7 +153,7 @@ div
 inspector
 )
 ;
-let
+const
 ruleEl
 =
 getRuleViewRule

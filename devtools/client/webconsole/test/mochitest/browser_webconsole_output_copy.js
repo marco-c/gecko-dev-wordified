@@ -120,7 +120,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -138,7 +138,7 @@ world
 !
 "
 ;
-let
+const
 onMessage
 =
 waitForMessage
@@ -192,7 +192,7 @@ logged
 "
 )
 ;
-let
+const
 selection
 =
 selectNode

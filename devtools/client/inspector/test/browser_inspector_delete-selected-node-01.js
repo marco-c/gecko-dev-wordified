@@ -90,7 +90,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -101,7 +101,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 span
 =
 await
@@ -136,7 +136,7 @@ element
 "
 )
 ;
-let
+const
 parentNode
 =
 span

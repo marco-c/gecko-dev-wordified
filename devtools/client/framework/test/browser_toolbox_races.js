@@ -225,7 +225,7 @@ destroyed
 =
 0
 ;
-let
+const
 onCreated
 =
 (
@@ -239,7 +239,7 @@ created
 ;
 }
 ;
-let
+const
 onReady
 =
 (
@@ -253,7 +253,7 @@ ready
 ;
 }
 ;
-let
+const
 onDestroy
 =
 (
@@ -267,7 +267,7 @@ destroy
 ;
 }
 ;
-let
+const
 onDestroyed
 =
 (

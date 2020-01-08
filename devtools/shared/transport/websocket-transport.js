@@ -375,7 +375,7 @@ transport
 )
 ;
 }
-let
+const
 object
 =
 JSON

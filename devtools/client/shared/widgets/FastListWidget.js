@@ -590,7 +590,7 @@ attachment
 }
 )
 {
-let
+const
 element
 =
 this
@@ -742,7 +742,7 @@ function
 (
 )
 {
-let
+const
 list
 =
 this
@@ -876,7 +876,7 @@ selectedItem
 child
 )
 {
-let
+const
 menuArray
 =
 this
@@ -898,7 +898,7 @@ null
 }
 for
 (
-let
+const
 node
 of
 menuArray
@@ -1207,7 +1207,7 @@ not
 scrolled
 horizontally
 .
-let
+const
 boxObject
 =
 this
@@ -1336,7 +1336,7 @@ _emptyTextValue
 return
 ;
 }
-let
+const
 label
 =
 this

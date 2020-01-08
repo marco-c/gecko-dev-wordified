@@ -296,7 +296,7 @@ getTopWindow
 win
 )
 {
-let
+const
 docShell
 =
 win
@@ -336,7 +336,7 @@ win
 top
 ;
 }
-let
+const
 topDocShell
 =
 docShell
@@ -491,7 +491,7 @@ return
 true
 ;
 }
-let
+const
 parent
 =
 getParentWindow
@@ -578,7 +578,7 @@ return
 null
 ;
 }
-let
+const
 docShell
 =
 win
@@ -618,7 +618,7 @@ win
 parent
 ;
 }
-let
+const
 parentDocShell
 =
 docShell
@@ -835,7 +835,7 @@ getWindowFor
 node
 )
 ;
-let
+const
 scale
 =
 getCurrentZoom
@@ -902,7 +902,7 @@ frameWin
 boundaryWindow
 )
 {
-let
+const
 frameElement
 =
 getFrameElement
@@ -948,7 +948,7 @@ and
 padding
 )
 .
-let
+const
 frameRect
 =
 frameElement
@@ -957,7 +957,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 [
 offsetTop
 offsetLeft
@@ -1165,7 +1165,7 @@ return
 ]
 ;
 }
-let
+const
 quads
 =
 node
@@ -1197,7 +1197,7 @@ return
 ]
 ;
 }
-let
+const
 scale
 =
 getCurrentZoom
@@ -1205,7 +1205,7 @@ getCurrentZoom
 node
 )
 ;
-let
+const
 {
 scrollX
 scrollY
@@ -1213,21 +1213,21 @@ scrollY
 =
 boundaryWindow
 ;
-let
+const
 xOffset
 =
 scrollX
 *
 scale
 ;
-let
+const
 yOffset
 =
 scrollY
 *
 scale
 ;
-let
+const
 adjustedQuads
 =
 [
@@ -1235,7 +1235,7 @@ adjustedQuads
 ;
 for
 (
-let
+const
 quad
 of
 quads
@@ -1636,7 +1636,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 clientRect
 =
 node
@@ -1726,7 +1726,7 @@ to
 change
 properties
 .
-let
+const
 rect
 =
 {
@@ -1779,7 +1779,7 @@ frameWin
 boundaryWindow
 )
 {
-let
+const
 frameElement
 =
 getFrameElement
@@ -1825,7 +1825,7 @@ and
 padding
 )
 .
-let
+const
 frameRect
 =
 frameElement
@@ -1834,7 +1834,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 [
 offsetTop
 offsetLeft
@@ -1987,7 +1987,7 @@ return
 null
 ;
 }
-let
+const
 {
 scrollX
 scrollY
@@ -1995,7 +1995,7 @@ scrollY
 =
 boundaryWindow
 ;
-let
+const
 scale
 =
 getCurrentZoom
@@ -2175,7 +2175,7 @@ the
 width
 and
 height
-let
+const
 width
 =
 node
@@ -2184,7 +2184,7 @@ offsetWidth
 *
 scale
 ;
-let
+const
 height
 =
 node
@@ -2356,7 +2356,7 @@ frame
 contentWindow
 ;
 }
-let
+const
 walker
 =
 Cc
@@ -2413,7 +2413,7 @@ currentNode
 =
 frame
 ;
-let
+const
 document
 =
 walker
@@ -2592,7 +2592,7 @@ getFrameContentOffset
 frame
 )
 {
-let
+const
 style
 =
 safelyGetContentWindow
@@ -2628,7 +2628,7 @@ return
 ]
 ;
 }
-let
+const
 paddingTop
 =
 parseInt
@@ -2646,7 +2646,7 @@ top
 10
 )
 ;
-let
+const
 paddingLeft
 =
 parseInt
@@ -2664,7 +2664,7 @@ left
 10
 )
 ;
-let
+const
 borderTop
 =
 parseInt
@@ -2684,7 +2684,7 @@ width
 10
 )
 ;
-let
+const
 borderLeft
 =
 parseInt
@@ -2918,7 +2918,7 @@ node
 let
 parent
 ;
-let
+const
 doc
 =
 node
@@ -2970,7 +2970,7 @@ getBindingParent
 node
 )
 {
-let
+const
 doc
 =
 node
@@ -3001,7 +3001,7 @@ is
 not
 anonymous
 .
-let
+const
 parent
 =
 doc
@@ -3295,7 +3295,7 @@ isXBLAnonymous
 node
 )
 {
-let
+const
 parent
 =
 getBindingParent
@@ -3347,7 +3347,7 @@ return
 false
 ;
 }
-let
+const
 anonNodes
 =
 [
@@ -3440,7 +3440,7 @@ isShadowAnonymous
 node
 )
 {
-let
+const
 parent
 =
 getBindingParent
@@ -3581,7 +3581,7 @@ getCurrentZoom
 node
 )
 {
-let
+const
 win
 =
 getWindowFor
@@ -3734,7 +3734,7 @@ getDisplayPixelRatio
 node
 )
 {
-let
+const
 win
 =
 getWindowFor
@@ -3827,7 +3827,7 @@ s
 way
 faster
 .
-let
+const
 windowUtils
 =
 utilsFor
@@ -3896,13 +3896,13 @@ window
 .
 scrollMinY
 ;
-let
+const
 scrollbarHeight
 =
 {
 }
 ;
-let
+const
 scrollbarWidth
 =
 {
@@ -3994,7 +3994,7 @@ getViewportDimensions
 window
 )
 {
-let
+const
 windowUtils
 =
 utilsFor
@@ -4002,13 +4002,13 @@ utilsFor
 window
 )
 ;
-let
+const
 scrollbarHeight
 =
 {
 }
 ;
-let
+const
 scrollbarWidth
 =
 {
@@ -4023,7 +4023,7 @@ scrollbarWidth
 scrollbarHeight
 )
 ;
-let
+const
 width
 =
 window
@@ -4034,7 +4034,7 @@ scrollbarWidth
 .
 value
 ;
-let
+const
 height
 =
 window
@@ -4276,7 +4276,7 @@ agent
 "
 ;
 }
-let
+const
 windowUtils
 =
 utilsFor
@@ -4411,7 +4411,7 @@ agent
 "
 ;
 }
-let
+const
 windowUtils
 =
 utilsFor

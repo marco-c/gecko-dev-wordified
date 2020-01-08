@@ -80,7 +80,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -91,7 +91,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 markup
 }
@@ -118,7 +118,7 @@ test
 inspector
 )
 ;
-let
+const
 container
 =
 await

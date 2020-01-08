@@ -1503,7 +1503,7 @@ bounds
 (
 )
 {
-let
+const
 win
 =
 this
@@ -1512,7 +1512,7 @@ document
 .
 defaultView
 ;
-let
+const
 utils
 =
 win
@@ -2026,7 +2026,7 @@ cb
 {
 for
 (
-let
+const
 child
 of
 this
@@ -2090,7 +2090,7 @@ predicate
 {
 for
 (
-let
+const
 child
 of
 this
@@ -2374,7 +2374,7 @@ function
 {
 for
 (
-let
+const
 item
 of
 this
@@ -2457,7 +2457,7 @@ createDocumentFragment
 )
 ;
 }
-let
+const
 childTreeItems
 =
 this
@@ -2530,14 +2530,14 @@ function
 (
 )
 {
-let
+const
 childTreeItems
 =
 this
 .
 _childTreeItems
 ;
-let
+const
 expandedChildTreeItems
 =
 childTreeItems
@@ -2552,7 +2552,7 @@ e
 _expanded
 )
 ;
-let
+const
 nextNode
 =
 this
@@ -2741,14 +2741,14 @@ bind
 this
 )
 ;
-let
+const
 document
 =
 this
 .
 document
 ;
-let
+const
 arrowNode
 =
 this
@@ -2787,7 +2787,7 @@ this
 _onArrowClick
 )
 ;
-let
+const
 targetNode
 =
 this
@@ -2942,7 +2942,7 @@ function
 delta
 )
 {
-let
+const
 childNodes
 =
 this
@@ -2951,7 +2951,7 @@ _containerNode
 .
 childNodes
 ;
-let
+const
 indexOfSelf
 =
 Array
@@ -2993,7 +2993,7 @@ function
 (
 )
 {
-let
+const
 childNodes
 =
 this
@@ -3002,7 +3002,7 @@ _containerNode
 .
 childNodes
 ;
-let
+const
 nodeHeight
 =
 this
@@ -3019,7 +3019,7 @@ length
 ]
 )
 ;
-let
+const
 containerHeight
 =
 this
@@ -3046,7 +3046,7 @@ function
 elem
 )
 {
-let
+const
 win
 =
 this
@@ -3055,7 +3055,7 @@ document
 .
 defaultView
 ;
-let
+const
 utils
 =
 win
@@ -3105,7 +3105,7 @@ function
 (
 )
 {
-let
+const
 childNodes
 =
 this
@@ -3220,7 +3220,7 @@ function
 (
 )
 {
-let
+const
 childNodes
 =
 this
@@ -3263,7 +3263,7 @@ function
 (
 )
 {
-let
+const
 nextElement
 =
 this
@@ -3309,7 +3309,7 @@ function
 (
 )
 {
-let
+const
 prevElement
 =
 this
@@ -3377,7 +3377,7 @@ function
 (
 )
 {
-let
+const
 parentItem
 =
 this
@@ -3723,7 +3723,7 @@ KeyCodes
 .
 DOM_VK_PAGE_UP
 :
-let
+const
 pageUpElement
 =
 this
@@ -3799,7 +3799,7 @@ KeyCodes
 .
 DOM_VK_PAGE_DOWN
 :
-let
+const
 pageDownElement
 =
 this

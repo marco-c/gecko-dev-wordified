@@ -107,7 +107,7 @@ function
 (
 )
 {
-let
+const
 fileContent
 =
 await
@@ -115,7 +115,7 @@ generateEvaluationResultStubs
 (
 )
 ;
-let
+const
 filePath
 =
 OS

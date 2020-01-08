@@ -296,7 +296,7 @@ render
 (
 )
 {
-let
+const
 props
 =
 Object

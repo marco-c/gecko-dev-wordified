@@ -660,7 +660,7 @@ filters
 outerWindowID
 )
 {
-let
+const
 topFrame
 =
 NetworkHelper
@@ -753,7 +753,7 @@ filters
 appId
 )
 {
-let
+const
 appId
 =
 NetworkHelper
@@ -984,7 +984,7 @@ callback
 {
 for
 (
-let
+const
 collector
 of
 this
@@ -1309,7 +1309,7 @@ observe
 subject
 )
 {
-let
+const
 channel
 =
 subject
@@ -1366,7 +1366,7 @@ components
 .
 stack
 ;
-let
+const
 stacktrace
 =
 [
@@ -1512,14 +1512,14 @@ ex
 return
 ;
 }
-let
+const
 oldId
 =
 oldChannel
 .
 channelId
 ;
-let
+const
 stacktrace
 =
 this
@@ -1560,7 +1560,7 @@ getStackTrace
 channelId
 )
 {
-let
+const
 trace
 =
 this
@@ -1784,7 +1784,7 @@ See
 bug
 1309523
 .
-let
+const
 channel
 =
 this
@@ -1951,7 +1951,7 @@ return
 }
 try
 {
-let
+const
 impl
 =
 this
@@ -2418,7 +2418,7 @@ _findOpenResponse
 (
 )
 ;
-let
+const
 data
 =
 NetUtil
@@ -2446,7 +2446,7 @@ httpActivity
 discardResponseBody
 )
 {
-let
+const
 limit
 =
 Services
@@ -2649,7 +2649,7 @@ offset
 =
 0
 ;
-let
+const
 channel
 =
 this
@@ -2771,7 +2771,7 @@ if
 isOptimizedContent
 )
 {
-let
+const
 charset
 =
 this
@@ -2912,7 +2912,7 @@ channel
 applyConversion
 )
 {
-let
+const
 encodingHeader
 =
 channel
@@ -2926,7 +2926,7 @@ Encoding
 "
 )
 ;
-let
+const
 scs
 =
 Cc
@@ -2949,7 +2949,7 @@ Ci
 nsIStreamConverterService
 )
 ;
-let
+const
 encodings
 =
 encodingHeader
@@ -2977,7 +2977,7 @@ nextListener
 =
 this
 ;
-let
+const
 acceptedEncodings
 =
 [
@@ -3004,7 +3004,7 @@ deflate
 ;
 for
 (
-let
+const
 i
 in
 encodings
@@ -3018,7 +3018,7 @@ be
 multiple
 conversions
 applied
-let
+const
 enc
 =
 encodings
@@ -3279,7 +3279,7 @@ request
 after
 redirect
 .
-let
+const
 secinfo
 =
 this
@@ -3290,7 +3290,7 @@ channel
 .
 securityInfo
 ;
-let
+const
 info
 =
 NetworkHelper
@@ -3335,7 +3335,7 @@ function
 (
 )
 {
-let
+const
 httpActivity
 =
 this
@@ -3664,7 +3664,7 @@ _foundOpenResponse
 return
 ;
 }
-let
+const
 channel
 =
 this
@@ -3673,7 +3673,7 @@ httpActivity
 .
 channel
 ;
-let
+const
 openResponse
 =
 this
@@ -3914,7 +3914,7 @@ it
 from
 cache
 .
-let
+const
 charset
 =
 this
@@ -4013,7 +4013,7 @@ function
 data
 )
 {
-let
+const
 response
 =
 {
@@ -5258,7 +5258,7 @@ topic
 data
 )
 {
-let
+const
 channel
 =
 subject
@@ -5477,7 +5477,7 @@ nsIHttpChannel
 return
 ;
 }
-let
+const
 channel
 =
 subject
@@ -5504,7 +5504,7 @@ filters
 return
 ;
 }
-let
+const
 response
 =
 {
@@ -5526,7 +5526,7 @@ cookies
 ]
 }
 ;
-let
+const
 setCookieHeaders
 =
 [
@@ -5545,7 +5545,7 @@ name
 value
 )
 {
-let
+const
 lowerName
 =
 name
@@ -5636,7 +5636,7 @@ header
 =
 >
 {
-let
+const
 cookies
 =
 NetworkHelper
@@ -5667,13 +5667,13 @@ the
 HTTP
 version
 .
-let
+const
 httpVersionMaj
 =
 {
 }
 ;
-let
+const
 httpVersionMin
 =
 {
@@ -5785,7 +5785,7 @@ one
 on
 e10s
 .
-let
+const
 fromServiceWorker
 =
 this
@@ -5840,7 +5840,7 @@ the
 expected
 events
 .
-let
+const
 httpActivity
 =
 this
@@ -5920,7 +5920,7 @@ zeroed
 out
 values
 .
-let
+const
 timings
 =
 this
@@ -5991,7 +5991,7 @@ function
 subject
 )
 {
-let
+const
 throttler
 =
 this
@@ -6005,7 +6005,7 @@ if
 throttler
 )
 {
-let
+const
 channel
 =
 subject
@@ -6040,7 +6040,7 @@ it
 is
 throttled
 .
-let
+const
 httpActivity
 =
 this
@@ -6115,7 +6115,7 @@ extraSizeData
 extraStringData
 )
 {
-let
+const
 transCodes
 =
 this
@@ -6140,7 +6140,7 @@ in
 transCodes
 )
 {
-let
+const
 stage
 =
 transCodes
@@ -6452,7 +6452,7 @@ exit
 this
 function
 .
-let
+const
 httpActivity
 =
 this
@@ -6523,7 +6523,7 @@ activitySubtype
 )
 )
 {
-let
+const
 callback
 =
 this
@@ -6589,7 +6589,7 @@ fromServiceWorker
 }
 )
 {
-let
+const
 httpActivity
 =
 this
@@ -6637,7 +6637,7 @@ timestamp
 }
 ;
 }
-let
+const
 event
 =
 {
@@ -6925,13 +6925,13 @@ the
 HTTP
 version
 .
-let
+const
 httpVersionMaj
 =
 {
 }
 ;
-let
+const
 httpVersionMin
 =
 {
@@ -6993,7 +6993,7 @@ this
 .
 saveRequestAndResponseBodies
 ;
-let
+const
 headers
 =
 [
@@ -7419,7 +7419,7 @@ if
 httpActivity
 )
 {
-let
+const
 win
 =
 NetworkHelper
@@ -7429,7 +7429,7 @@ getWindowForRequest
 channel
 )
 ;
-let
+const
 charset
 =
 win
@@ -7604,7 +7604,7 @@ httpActivity
 fromCache
 )
 {
-let
+const
 channel
 =
 httpActivity
@@ -7626,7 +7626,7 @@ if
 fromCache
 )
 {
-let
+const
 throttler
 =
 this
@@ -7697,7 +7697,7 @@ must
 be
 blocking
 .
-let
+const
 sink
 =
 Cc
@@ -7761,7 +7761,7 @@ the
 response
 body
 .
-let
+const
 newListener
 =
 new
@@ -7800,7 +7800,7 @@ sink
 =
 sink
 ;
-let
+const
 tee
 =
 Cc
@@ -7829,7 +7829,7 @@ Ci
 nsIStreamListenerTee
 )
 ;
-let
+const
 originalListener
 =
 channel
@@ -8062,7 +8062,7 @@ of
 the
 webpage
 .
-let
+const
 webNav
 =
 this
@@ -8279,7 +8279,7 @@ _httpResponseExaminer
 (
 )
 .
-let
+const
 headers
 =
 extraStringData
@@ -8300,7 +8300,7 @@ r
 /
 )
 ;
-let
+const
 statusLine
 =
 headers
@@ -8309,7 +8309,7 @@ shift
 (
 )
 ;
-let
+const
 statusLineArray
 =
 statusLine
@@ -8320,7 +8320,7 @@ split
 "
 )
 ;
-let
+const
 response
 =
 {
@@ -8523,7 +8523,7 @@ function
 httpActivity
 )
 {
-let
+const
 result
 =
 this
@@ -8780,14 +8780,14 @@ receive
 }
 ;
 }
-let
+const
 timings
 =
 httpActivity
 .
 timings
 ;
-let
+const
 harTimings
 =
 {
@@ -9153,7 +9153,7 @@ Resource
 and
 Navigation
 Timing
-let
+const
 timedChannel
 =
 httpActivity
@@ -9825,7 +9825,7 @@ if
 secureConnectionStartTimeRelative
 )
 {
-let
+const
 time
 =
 Math
@@ -9854,7 +9854,7 @@ if
 startSendingTimeRelative
 )
 {
-let
+const
 time
 =
 Math
@@ -9878,7 +9878,7 @@ startSendingTime
 time
 ;
 }
-let
+const
 ot
 =
 this
@@ -9928,13 +9928,13 @@ totalTime
 ;
 for
 (
-let
+const
 timing
 in
 harTimings
 )
 {
-let
+const
 time
 =
 Math
@@ -10041,7 +10041,7 @@ harTimings
 ssl
 ;
 }
-let
+const
 offsets
 =
 {
@@ -10786,7 +10786,7 @@ setupParentProcess
 }
 )
 ;
-let
+const
 mm
 =
 this
@@ -10859,7 +10859,7 @@ _onNewEvent
 msg
 )
 {
-let
+const
 {
 id
 event
@@ -10912,7 +10912,7 @@ channelId
 )
 ;
 }
-let
+const
 actor
 =
 this
@@ -10953,7 +10953,7 @@ _onUpdateEvent
 msg
 )
 {
-let
+const
 {
 id
 method
@@ -10964,7 +10964,7 @@ msg
 .
 data
 ;
-let
+const
 weakActor
 =
 this
@@ -10976,7 +10976,7 @@ get
 id
 )
 ;
-let
+const
 actor
 =
 weakActor
@@ -11073,7 +11073,7 @@ function
 (
 )
 {
-let
+const
 mm
 =
 this
@@ -11414,7 +11414,7 @@ function
 (
 )
 {
-let
+const
 args
 =
 Array
@@ -11424,7 +11424,7 @@ slice
 arguments
 )
 ;
-let
+const
 mm
 =
 this
@@ -11527,7 +11527,7 @@ function
 event
 )
 {
-let
+const
 mm
 =
 this
@@ -11582,7 +11582,7 @@ from
 the
 NetworkMonitor
 .
-let
+const
 methods
 =
 [
@@ -11618,7 +11618,7 @@ addEventTimings
 "
 ]
 ;
-let
+const
 factory
 =
 NetworkEventActorProxy
@@ -11627,7 +11627,7 @@ methodFactory
 ;
 for
 (
-let
+const
 method
 of
 methods
@@ -11922,7 +11922,7 @@ this
 messageManager
 )
 {
-let
+const
 oldMM
 =
 this
@@ -12015,7 +12015,7 @@ function
 msg
 )
 {
-let
+const
 {
 action
 }
@@ -12057,7 +12057,7 @@ this
 netMonitor
 )
 {
-let
+const
 {
 appId
 outerWindowID
@@ -12098,7 +12098,7 @@ setPreferences
 "
 :
 {
-let
+const
 {
 preferences
 }
@@ -12109,7 +12109,7 @@ json
 ;
 for
 (
-let
+const
 key
 of
 Object
@@ -13058,7 +13058,7 @@ Ci
 imgIRequest
 )
 {
-let
+const
 imgIRequest
 =
 request
@@ -13087,7 +13087,7 @@ Ci
 nsIChannel
 )
 {
-let
+const
 nsIChannel
 =
 request
@@ -13199,7 +13199,7 @@ request
 state
 )
 {
-let
+const
 isStart
 =
 state
@@ -13210,7 +13210,7 @@ nsIWebProgressListener
 .
 STATE_START
 ;
-let
+const
 isStop
 =
 state
@@ -13221,7 +13221,7 @@ nsIWebProgressListener
 .
 STATE_STOP
 ;
-let
+const
 isNetwork
 =
 state
@@ -13232,7 +13232,7 @@ nsIWebProgressListener
 .
 STATE_IS_NETWORK
 ;
-let
+const
 isWindow
 =
 state

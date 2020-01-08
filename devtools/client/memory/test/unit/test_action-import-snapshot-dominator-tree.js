@@ -68,7 +68,7 @@ computed
 .
 *
 /
-let
+const
 {
 snapshotState
 dominatorTreeState
@@ -89,7 +89,7 @@ constants
 "
 )
 ;
-let
+const
 {
 importSnapshotAndCensus
 }
@@ -109,7 +109,7 @@ io
 "
 )
 ;
-let
+const
 {
 changeViewAndRefresh
 }
@@ -131,12 +131,12 @@ view
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 front
 =
 new
@@ -144,7 +144,7 @@ StubbedMemoryFront
 (
 )
 ;
-let
+const
 heapWorker
 =
 new
@@ -152,21 +152,21 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
 (
 )
 ;
-let
+const
 store
 =
 Store
 (
 )
 ;
-let
+const
 {
 subscribe
 dispatch
@@ -215,7 +215,7 @@ i
 =
 0
 ;
-let
+const
 expected
 =
 [
@@ -255,7 +255,7 @@ LOADED
 "
 ]
 ;
-let
+const
 expectStates
 =
 (
@@ -263,7 +263,7 @@ expectStates
 =
 >
 {
-let
+const
 snapshot
 =
 getState
@@ -311,7 +311,7 @@ i
 }
 }
 ;
-let
+const
 unsubscribe
 =
 subscribe
@@ -322,7 +322,7 @@ expectStates
 const
 snapshotPath
 =
-yield
+await
 front
 .
 saveHeapSnapshot
@@ -338,7 +338,7 @@ snapshotPath
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -497,7 +497,7 @@ snapshot
 expectedState
 )
 {
-let
+const
 isDominatorState
 =
 expectedState
@@ -519,7 +519,7 @@ if
 isDominatorState
 )
 {
-let
+const
 state
 =
 dominatorTreeState
@@ -554,7 +554,7 @@ state
 state
 ;
 }
-let
+const
 isTreeMapState
 =
 expectedState
@@ -576,7 +576,7 @@ if
 isTreeMapState
 )
 {
-let
+const
 state
 =
 treeMapState
@@ -611,7 +611,7 @@ state
 state
 ;
 }
-let
+const
 state
 =
 snapshotState

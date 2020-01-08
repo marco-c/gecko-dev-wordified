@@ -164,7 +164,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -176,14 +176,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -284,7 +284,7 @@ the
 body
 is
 given
-let
+const
 body
 =
 await
@@ -304,7 +304,7 @@ show
 body
 )
 ;
-let
+const
 hidden
 =
 await
@@ -367,7 +367,7 @@ text
 "
 )
 ;
-let
+const
 dimensionText
 =
 await
@@ -386,7 +386,7 @@ container
 highlighterFront
 )
 ;
-let
+const
 windowDimensions
 =
 await
@@ -396,7 +396,7 @@ getWindowDimensions
 (
 )
 ;
-let
+const
 windowHeight
 =
 Math
@@ -408,7 +408,7 @@ windowDimensions
 height
 )
 ;
-let
+const
 windowWidth
 =
 Math
@@ -420,7 +420,7 @@ windowDimensions
 width
 )
 ;
-let
+const
 windowText
 =
 windowHeight
@@ -480,7 +480,7 @@ size
 "
 )
 ;
-let
+const
 toolbox
 =
 inspector

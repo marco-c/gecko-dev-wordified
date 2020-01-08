@@ -376,7 +376,7 @@ resolve
 =
 >
 {
-let
+const
 l
 =
 (
@@ -725,7 +725,7 @@ _listeners
 return
 ;
 }
-let
+const
 name
 =
 arguments
@@ -733,7 +733,7 @@ arguments
 0
 ]
 ;
-let
+const
 listeners
 =
 this
@@ -750,7 +750,7 @@ slice
 ;
 for
 (
-let
+const
 listener
 of
 listeners

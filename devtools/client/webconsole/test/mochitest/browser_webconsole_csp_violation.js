@@ -215,7 +215,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -232,7 +232,7 @@ clearOutput
 (
 )
 ;
-let
+const
 onRepeatedMessage
 =
 waitForRepeatedMessage

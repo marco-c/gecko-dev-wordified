@@ -378,7 +378,7 @@ active
 =
 true
 ;
-let
+const
 baseURI
 =
 Services
@@ -399,7 +399,7 @@ uuid
 /
 )
 ;
-let
+const
 principal
 =
 Services
@@ -413,7 +413,7 @@ baseURI
 }
 )
 ;
-let
+const
 chromeWebNav
 =
 Services
@@ -425,7 +425,7 @@ createWindowlessBrowser
 true
 )
 ;
-let
+const
 docShell
 =
 chromeWebNav
@@ -451,7 +451,7 @@ createAboutBlankContentViewer
 principal
 )
 ;
-let
+const
 addonWindow
 =
 docShell
@@ -517,7 +517,7 @@ still
 filtered
 correctly
 .
-let
+const
 console1
 =
 new
@@ -557,7 +557,7 @@ are
 filtered
 correctly
 .
-let
+const
 {
 addonWindow
 chromeWebNav
@@ -574,7 +574,7 @@ bar
 }
 )
 ;
-let
+const
 console2
 =
 addonWindow

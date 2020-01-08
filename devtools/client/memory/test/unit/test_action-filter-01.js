@@ -40,7 +40,7 @@ the
 filter
 string
 .
-let
+const
 {
 setFilterString
 }
@@ -67,7 +67,7 @@ function
 (
 )
 {
-let
+const
 store
 =
 Store

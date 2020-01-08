@@ -287,7 +287,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 connector
 request
@@ -316,7 +316,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 connector
 request
@@ -437,7 +437,7 @@ the
 timing
 info
 .
-let
+const
 offset
 =
 offsets

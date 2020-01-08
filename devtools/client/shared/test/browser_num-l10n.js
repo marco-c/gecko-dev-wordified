@@ -63,7 +63,7 @@ test
 (
 )
 {
-let
+const
 l10n
 =
 new

@@ -202,7 +202,7 @@ u00a020
 ;
 for
 (
-let
+const
 {
 desc
 expr
@@ -297,7 +297,7 @@ expected
 ;
 for
 (
-let
+const
 {
 desc
 expr
@@ -424,7 +424,7 @@ expected
 ;
 for
 (
-let
+const
 {
 desc
 expr
@@ -502,7 +502,7 @@ shapeOutside
 ;
 for
 (
-let
+const
 {
 desc
 expr
@@ -794,7 +794,7 @@ M
 ;
 for
 (
-let
+const
 {
 desc
 size
@@ -922,7 +922,7 @@ expected
 ;
 for
 (
-let
+const
 {
 desc
 expr
@@ -1213,7 +1213,7 @@ px
 ;
 for
 (
-let
+const
 {
 desc
 expr

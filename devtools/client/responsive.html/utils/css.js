@@ -128,7 +128,7 @@ window
 url
 )
 {
-let
+const
 winUtils
 =
 getDOMWindowUtils

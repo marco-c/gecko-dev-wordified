@@ -716,7 +716,7 @@ onLearnMoreClick
 e
 )
 {
-let
+const
 {
 exceptionDocURL
 }
@@ -743,7 +743,7 @@ toggleMessage
 e
 )
 {
-let
+const
 {
 open
 dispatch
@@ -789,7 +789,7 @@ onContextMenu
 e
 )
 {
-let
+const
 {
 serviceContainer
 source
@@ -801,7 +801,7 @@ this
 .
 props
 ;
-let
+const
 messageInfo
 =
 {

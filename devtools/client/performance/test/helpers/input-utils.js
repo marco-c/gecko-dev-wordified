@@ -68,7 +68,7 @@ node
 =
 >
 {
-let
+const
 ev
 =
 node

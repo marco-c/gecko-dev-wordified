@@ -516,7 +516,7 @@ render
 (
 )
 {
-let
+const
 {
 item
 depth

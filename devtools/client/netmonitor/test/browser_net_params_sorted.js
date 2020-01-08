@@ -54,7 +54,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -77,7 +77,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -88,7 +88,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -292,7 +292,7 @@ b
 c
 :
 15
-let
+const
 actualKeys
 =
 document
@@ -307,7 +307,7 @@ treeRow
 "
 )
 ;
-let
+const
 expectedKeys
 =
 [

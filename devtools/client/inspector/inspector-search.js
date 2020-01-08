@@ -576,7 +576,7 @@ query
 reverse
 )
 {
-let
+const
 lastSearched
 =
 this
@@ -649,7 +649,7 @@ cleared
 return
 ;
 }
-let
+const
 res
 =
 await
@@ -1180,7 +1180,7 @@ for
 the
 AutocompletePopup
 .
-let
+const
 options
 =
 {
@@ -1530,7 +1530,7 @@ return
 null
 ;
 }
-let
+const
 query
 =
 this
@@ -2463,7 +2463,7 @@ function
 event
 )
 {
-let
+const
 popup
 =
 this
@@ -2799,7 +2799,7 @@ function
 event
 )
 {
-let
+const
 selectedItem
 =
 this
@@ -2944,7 +2944,7 @@ total
 =
 0
 ;
-let
+const
 query
 =
 this
@@ -2953,7 +2953,7 @@ searchBox
 .
 value
 ;
-let
+const
 items
 =
 [
@@ -3077,7 +3077,7 @@ d
 '
 and
 likewise
-let
+const
 lastPart
 =
 query
@@ -3194,7 +3194,7 @@ bar
 '
 and
 likewise
-let
+const
 lastPart
 =
 query
@@ -3301,7 +3301,7 @@ bar
 '
 and
 likewise
-let
+const
 attrPart
 =
 query
@@ -3328,7 +3328,7 @@ attrPart
 value
 ;
 }
-let
+const
 item
 =
 {
@@ -3469,7 +3469,7 @@ total
 0
 )
 {
-let
+const
 onPopupOpened
 =
 this
@@ -3563,7 +3563,7 @@ function
 (
 )
 {
-let
+const
 onPopupClosed
 =
 this
@@ -3630,7 +3630,7 @@ searchBox
 .
 value
 ;
-let
+const
 state
 =
 this
@@ -4028,7 +4028,7 @@ query
 "
 ;
 }
-let
+const
 suggestionsPromise
 =
 this

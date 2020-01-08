@@ -385,7 +385,7 @@ getReferenceElement
 propertyName
 )
 {
-let
+const
 value
 =
 this
@@ -500,7 +500,7 @@ render
 (
 )
 {
-let
+const
 {
 boxModel
 setSelectedNode
@@ -512,14 +512,14 @@ this
 .
 props
 ;
-let
+const
 {
 layout
 }
 =
 boxModel
 ;
-let
+const
 layoutInfo
 =
 [
@@ -560,7 +560,7 @@ info
 =
 >
 {
-let
+const
 {
 referenceElement
 referenceElementType

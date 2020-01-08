@@ -888,7 +888,7 @@ node
 options
 )
 {
-let
+const
 isShown
 =
 await
@@ -1633,7 +1633,7 @@ textProperty
 return
 ;
 }
-let
+const
 shapeValueEl
 =
 this
@@ -1651,7 +1651,7 @@ shapeValueEl
 return
 ;
 }
-let
+const
 pointSelector
 =
 "
@@ -1676,7 +1676,7 @@ Rule
 view
 for
 (
-let
+const
 node
 of
 shapeValueEl
@@ -1732,7 +1732,7 @@ string
 return
 ;
 }
-let
+const
 point
 =
 (
@@ -1846,7 +1846,7 @@ left
 "
 ]
 ;
-let
+const
 selector
 =
 INSET_POINT_TYPES
@@ -1881,7 +1881,7 @@ point
 ;
 for
 (
-let
+const
 node
 of
 shapeValueEl

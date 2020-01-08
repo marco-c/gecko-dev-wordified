@@ -667,7 +667,7 @@ this
 _zoomBinding
 )
 {
-let
+const
 {
 translate
 scale
@@ -995,7 +995,7 @@ node
 enabled
 )
 {
-let
+const
 el
 =
 this
@@ -1090,7 +1090,7 @@ clearGraph
 (
 )
 ;
-let
+const
 graph
 =
 new
@@ -1100,7 +1100,7 @@ Digraph
 (
 )
 ;
-let
+const
 renderer
 =
 new
@@ -1126,7 +1126,7 @@ manipulation
 of
 the
 nodes
-let
+const
 oldDrawNodes
 =
 renderer
@@ -1145,7 +1145,7 @@ graph
 root
 )
 {
-let
+const
 svgNodes
 =
 oldDrawNodes
@@ -1163,7 +1163,7 @@ function
 n
 )
 {
-let
+const
 node
 =
 graph
@@ -1173,7 +1173,7 @@ node
 n
 )
 ;
-let
+const
 classString
 =
 "
@@ -1254,7 +1254,7 @@ render
 manipulation
 of
 edges
-let
+const
 oldDrawEdgePaths
 =
 renderer
@@ -1263,7 +1263,7 @@ drawEdgePaths
 (
 )
 ;
-let
+const
 defaultClasses
 =
 "
@@ -1281,7 +1281,7 @@ graph
 root
 )
 {
-let
+const
 svgEdges
 =
 oldDrawEdgePaths
@@ -1299,7 +1299,7 @@ function
 e
 )
 {
-let
+const
 edge
 =
 graph
@@ -1329,7 +1329,7 @@ to
 not
 overwrite
 them
-let
+const
 edgeClass
 =
 defaultClasses
@@ -1538,7 +1538,7 @@ the
 styling
 manually
 .
-let
+const
 theme
 =
 Services
@@ -1554,7 +1554,7 @@ theme
 "
 )
 ;
-let
+const
 markerColor
 =
 MARKER_STYLING
@@ -1731,7 +1731,7 @@ previously
 selected
 audio
 node
-let
+const
 currentNode
 =
 InspectorView
@@ -1817,7 +1817,7 @@ paramEdges
 }
 )
 ;
-let
+const
 layout
 =
 dagreD3
@@ -2183,7 +2183,7 @@ function
 theme
 )
 {
-let
+const
 markerColor
 =
 MARKER_STYLING
@@ -2191,7 +2191,7 @@ MARKER_STYLING
 theme
 ]
 ;
-let
+const
 marker
 =
 (
@@ -2254,7 +2254,7 @@ function
 e
 )
 {
-let
+const
 node
 =
 findGraphNodeParent
@@ -2296,7 +2296,7 @@ node
 return
 ;
 }
-let
+const
 id
 =
 node

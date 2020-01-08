@@ -340,7 +340,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -349,7 +349,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 testActor
 =
 await
@@ -388,7 +388,7 @@ testActor
 tab
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -409,7 +409,7 @@ gDevTools
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -423,7 +423,7 @@ inspector
 "
 )
 ;
-let
+const
 inspector
 =
 toolbox
@@ -686,7 +686,7 @@ item
 "
 )
 ;
-let
+const
 inspector
 =
 getActiveInspector
@@ -769,7 +769,7 @@ getActiveInspector
 (
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -850,7 +850,7 @@ getActiveInspector
 (
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -860,14 +860,14 @@ selector
 inspector
 )
 ;
-let
+const
 b
 =
 inspector
 .
 breadcrumbs
 ;
-let
+const
 expectedText
 =
 b
@@ -877,7 +877,7 @@ prettyPrintNodeAsText
 nodeFront
 )
 ;
-let
+const
 button
 =
 b

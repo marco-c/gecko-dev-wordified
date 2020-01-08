@@ -250,7 +250,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -262,14 +262,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -284,7 +284,7 @@ SelectorHighlighter
 ;
 for
 (
-let
+const
 {
 inIframe
 selector
@@ -366,7 +366,7 @@ selector
 }
 )
 ;
-let
+const
 nb
 =
 await

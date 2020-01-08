@@ -178,7 +178,7 @@ net
 true
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -190,7 +190,7 @@ webconsole
 "
 )
 ;
-let
+const
 hud
 =
 toolbox
@@ -201,7 +201,7 @@ getCurrentPanel
 .
 hud
 ;
-let
+const
 onMessages
 =
 waitForMessages
@@ -286,7 +286,7 @@ appear
 await
 onMessages
 ;
-let
+const
 url
 =
 TEST_PATH
@@ -313,7 +313,7 @@ without
 the
 GET
 parameters
-let
+const
 shortUrl
 =
 TEST_PATH
@@ -360,7 +360,7 @@ request
 "
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -369,7 +369,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -379,7 +379,7 @@ panel
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire

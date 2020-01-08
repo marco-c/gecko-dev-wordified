@@ -52,19 +52,19 @@ found
 .
 *
 /
+async
 function
-*
 ifTestingSupported
 (
 )
 {
-let
+const
 {
 target
 front
 }
 =
-yield
+await
 initCanvasDebuggerBackend
 (
 NO_CANVAS_URL
@@ -74,7 +74,7 @@ loadFrameScriptUtils
 (
 )
 ;
-let
+const
 navigated
 =
 once
@@ -85,7 +85,7 @@ navigate
 "
 )
 ;
-yield
+await
 front
 .
 setup
@@ -111,7 +111,7 @@ successfully
 "
 )
 ;
-yield
+await
 navigated
 ;
 ok
@@ -131,7 +131,7 @@ up
 "
 )
 ;
-let
+const
 startRecording
 =
 front
@@ -140,7 +140,7 @@ recordAnimationFrame
 (
 )
 ;
-yield
+await
 front
 .
 stopRecordingAnimationFrame
@@ -151,7 +151,7 @@ ok
 (
 !
 (
-yield
+await
 startRecording
 )
 "
@@ -169,7 +169,7 @@ cancelled
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

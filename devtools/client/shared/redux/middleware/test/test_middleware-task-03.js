@@ -136,12 +136,12 @@ run_next_test
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 store
 =
 applyMiddleware
@@ -164,7 +164,7 @@ generatorError
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -255,7 +255,7 @@ dispatch
 getState
 )
 {
-let
+const
 error
 =
 "

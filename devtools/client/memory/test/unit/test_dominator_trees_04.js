@@ -124,12 +124,12 @@ view
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 front
 =
 new
@@ -137,7 +137,7 @@ StubbedMemoryFront
 (
 )
 ;
-let
+const
 heapWorker
 =
 new
@@ -145,7 +145,7 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
@@ -154,7 +154,7 @@ attach
 ;
 for
 (
-let
+const
 intermediateSnapshotState
 of
 [
@@ -193,14 +193,14 @@ snapshot
 state
 )
 ;
-let
+const
 store
 =
 Store
 (
 )
 ;
-let
+const
 {
 getState
 dispatch
@@ -217,7 +217,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilSnapshotState
 (
 store
@@ -272,7 +272,7 @@ start
 being
 computed
 .
-yield
+await
 waitUntilState
 (
 store
@@ -369,7 +369,7 @@ start
 being
 fetched
 .
-yield
+await
 waitUntilState
 (
 store
@@ -449,7 +449,7 @@ finish
 being
 fetched
 .
-yield
+await
 waitUntilState
 (
 store
@@ -522,7 +522,7 @@ destroy
 (
 )
 ;
-yield
+await
 front
 .
 detach

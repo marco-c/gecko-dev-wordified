@@ -836,7 +836,7 @@ componentDidUpdate
 prevProps
 )
 {
-let
+const
 node
 =
 this
@@ -1000,7 +1000,7 @@ onResize
 (
 )
 {
-let
+const
 parent
 =
 this
@@ -1078,7 +1078,7 @@ return
 false
 ;
 }
-let
+const
 lastChildRect
 =
 lastChildEl
@@ -1087,7 +1087,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 contentRect
 =
 contentEl
@@ -1173,7 +1173,7 @@ target
 tooltip
 )
 {
-let
+const
 itemEl
 =
 target
@@ -1200,7 +1200,7 @@ return
 false
 ;
 }
-let
+const
 itemId
 =
 itemEl
@@ -1219,7 +1219,7 @@ return
 false
 ;
 }
-let
+const
 requestItem
 =
 this
@@ -1273,7 +1273,7 @@ return
 false
 ;
 }
-let
+const
 {
 mimeType
 }
@@ -1302,7 +1302,7 @@ return
 false
 ;
 }
-let
+const
 responseContent
 =
 await
@@ -1322,7 +1322,7 @@ responseContent
 "
 )
 ;
-let
+const
 {
 encoding
 text
@@ -1332,7 +1332,7 @@ responseContent
 .
 content
 ;
-let
+const
 src
 =
 formDataURI
@@ -1342,12 +1342,12 @@ encoding
 text
 )
 ;
-let
+const
 maxDim
 =
 REQUESTS_TOOLTIP_IMAGE_MAX_DIM
 ;
-let
+const
 {
 naturalWidth
 naturalHeight
@@ -1362,7 +1362,7 @@ doc
 src
 )
 ;
-let
+const
 options
 =
 {
@@ -1603,7 +1603,7 @@ preventDefault
 (
 )
 ;
-let
+const
 {
 selectedRequest
 displayedRequests

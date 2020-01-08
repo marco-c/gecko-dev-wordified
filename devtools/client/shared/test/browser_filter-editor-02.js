@@ -140,17 +140,17 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -384,7 +384,7 @@ container
 "
 )
 ;
-let
+const
 widget
 =
 new
@@ -410,7 +410,7 @@ types
 ;
 for
 (
-let
+const
 {
 cssValue
 expected
@@ -553,7 +553,7 @@ expected
 {
 for
 (
-let
+const
 [
 index
 filter

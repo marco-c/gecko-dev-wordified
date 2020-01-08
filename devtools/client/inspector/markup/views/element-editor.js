@@ -807,7 +807,7 @@ commit
 return
 ;
 }
-let
+const
 doMods
 =
 this
@@ -816,7 +816,7 @@ _startModifyingAttributes
 (
 )
 ;
-let
+const
 undoMods
 =
 this
@@ -877,7 +877,7 @@ _cssProperties
 }
 )
 ;
-let
+const
 displayName
 =
 this
@@ -902,7 +902,7 @@ textContent
 =
 displayName
 ;
-let
+const
 isVoidElement
 =
 HTML_VOID_ELEMENTS
@@ -990,7 +990,7 @@ editor
 "
 )
 ;
-let
+const
 open
 =
 this
@@ -1200,7 +1200,7 @@ this
 newAttr
 )
 ;
-let
+const
 closingBracket
 =
 this
@@ -1242,7 +1242,7 @@ appendChild
 closingBracket
 )
 ;
-let
+const
 close
 =
 this
@@ -1673,7 +1673,7 @@ null
 /
 /
 Attribute
-let
+const
 attribute
 =
 node
@@ -1747,7 +1747,7 @@ function
 (
 )
 {
-let
+const
 nodeAttributes
 =
 this
@@ -1774,7 +1774,7 @@ on
 the
 node
 .
-let
+const
 currentAttributes
 =
 new
@@ -1795,7 +1795,7 @@ name
 ;
 for
 (
-let
+const
 name
 of
 this
@@ -1853,13 +1853,13 @@ point
 .
 for
 (
-let
+const
 attr
 of
 nodeAttributes
 )
 {
-let
+const
 el
 =
 this
@@ -1873,7 +1873,7 @@ attr
 name
 )
 ;
-let
+const
 valueChanged
 =
 el
@@ -1891,7 +1891,7 @@ attr
 .
 value
 ;
-let
+const
 isEditing
 =
 el
@@ -1909,7 +1909,7 @@ editable
 .
 inplaceEditor
 ;
-let
+const
 canSimplyShowEditor
 =
 el
@@ -1988,7 +1988,7 @@ attribute
 has
 changed
 .
-let
+const
 attribute
 =
 this
@@ -2097,7 +2097,7 @@ the
 display
 type
 node
-let
+const
 showDisplayNode
 =
 this
@@ -2212,7 +2212,7 @@ function
 (
 )
 {
-let
+const
 node
 =
 this
@@ -2505,7 +2505,7 @@ function
 attrName
 )
 {
-let
+const
 attr
 =
 this
@@ -2549,7 +2549,7 @@ before
 null
 )
 {
-let
+const
 attr
 =
 this
@@ -2619,7 +2619,7 @@ createTextNode
 )
 )
 ;
-let
+const
 inner
 =
 this
@@ -2674,7 +2674,7 @@ appendChild
 inner
 )
 ;
-let
+const
 name
 =
 this
@@ -2740,7 +2740,7 @@ createTextNode
 )
 )
 ;
-let
+const
 val
 =
 this
@@ -2899,7 +2899,7 @@ value
 "
 "
 ;
-let
+const
 hasDoubleQuote
 =
 editValueDisplayed
@@ -2911,7 +2911,7 @@ includes
 '
 )
 ;
-let
+const
 hasSingleQuote
 =
 editValueDisplayed
@@ -3191,14 +3191,14 @@ value
 val
 )
 {
-let
+const
 length
 =
 editValueDisplayed
 .
 length
 ;
-let
+const
 editorLength
 =
 editor
@@ -3209,7 +3209,7 @@ value
 .
 length
 ;
-let
+const
 start
 =
 editorLength
@@ -3271,7 +3271,7 @@ initial
 return
 ;
 }
-let
+const
 doMods
 =
 this
@@ -3280,7 +3280,7 @@ _startModifyingAttributes
 (
 )
 ;
-let
+const
 undoMods
 =
 this
@@ -3450,7 +3450,7 @@ class
 "
 )
 {
-let
+const
 idNode
 =
 this
@@ -3565,7 +3565,7 @@ this
 node
 )
 .
-let
+const
 attributes
 =
 this
@@ -3601,7 +3601,7 @@ push
 attribute
 )
 ;
-let
+const
 parsedLinksData
 =
 parseAttribute
@@ -3639,7 +3639,7 @@ if
 /
 needed
 .
-let
+const
 collapse
 =
 value
@@ -3697,7 +3697,7 @@ innerHTML
 ;
 for
 (
-let
+const
 token
 of
 parsedLinksData
@@ -3738,7 +3738,7 @@ value
 }
 else
 {
-let
+const
 link
 =
 this
@@ -3904,7 +3904,7 @@ doMods
 undoMods
 )
 {
-let
+const
 attrs
 =
 parseAttributeValues
@@ -3917,7 +3917,7 @@ doc
 ;
 for
 (
-let
+const
 attr
 of
 attrs
@@ -4004,7 +4004,7 @@ name
 undoMods
 )
 {
-let
+const
 node
 =
 this
@@ -4021,7 +4021,7 @@ name
 )
 )
 {
-let
+const
 oldValue
 =
 node
@@ -4168,7 +4168,7 @@ _editedAttributeObserver
 null
 ;
 }
-let
+const
 activeElement
 =
 this
@@ -4216,7 +4216,7 @@ attribute
 return
 ;
 }
-let
+const
 container
 =
 this
@@ -4230,7 +4230,7 @@ this
 node
 )
 ;
-let
+const
 activeAttrs
 =
 [
@@ -4261,7 +4261,7 @@ none
 "
 )
 ;
-let
+const
 attributeIndex
 =
 activeAttrs
@@ -4271,7 +4271,7 @@ indexOf
 attrNode
 )
 ;
-let
+const
 onMutations
 =
 this
@@ -4294,13 +4294,13 @@ false
 ;
 for
 (
-let
+const
 mutation
 of
 mutations
 )
 {
-let
+const
 inContainer
 =
 this
@@ -4327,7 +4327,7 @@ inContainer
 continue
 ;
 }
-let
+const
 isOriginalAttribute
 =
 mutation
@@ -4368,7 +4368,7 @@ attributeName
 attrName
 ;
 }
-let
+const
 isModifiedOrder
 =
 isDeletedAttribute
@@ -4396,7 +4396,7 @@ filter
 them
 out
 .
-let
+const
 visibleAttrs
 =
 [
@@ -4705,7 +4705,7 @@ restore
 focus
 )
 .
-let
+const
 editable
 =
 activeEditor
@@ -4936,7 +4936,7 @@ function
 {
 for
 (
-let
+const
 key
 in
 this

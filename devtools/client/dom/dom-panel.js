@@ -324,7 +324,7 @@ this
 _opening
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -472,7 +472,7 @@ for
 DOM
 panel
 .
-let
+const
 provider
 =
 {
@@ -534,7 +534,7 @@ this
 _destroying
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -842,7 +842,7 @@ function
 grip
 )
 {
-let
+const
 deferred
 =
 defer
@@ -944,7 +944,7 @@ the
 same
 promise
 .
-let
+const
 request
 =
 this
@@ -967,7 +967,7 @@ return
 request
 ;
 }
-let
+const
 client
 =
 new
@@ -1076,7 +1076,7 @@ function
 url
 )
 {
-let
+const
 parentDoc
 =
 this
@@ -1085,7 +1085,7 @@ _toolbox
 .
 doc
 ;
-let
+const
 iframe
 =
 parentDoc
@@ -1099,7 +1099,7 @@ _toolbox
 "
 )
 ;
-let
+const
 top
 =
 iframe
@@ -1127,7 +1127,7 @@ function
 (
 )
 {
-let
+const
 deferred
 =
 defer
@@ -1193,7 +1193,7 @@ type
 args
 )
 {
-let
+const
 data
 =
 {
@@ -1205,7 +1205,7 @@ args
 args
 }
 ;
-let
+const
 event
 =
 new
@@ -1252,14 +1252,14 @@ function
 event
 )
 {
-let
+const
 data
 =
 event
 .
 data
 ;
-let
+const
 method
 =
 data
@@ -1318,7 +1318,7 @@ obj
 defineAs
 )
 {
-let
+const
 clone
 =
 Cu
@@ -1333,7 +1333,7 @@ defineAs
 }
 )
 ;
-let
+const
 props
 =
 Object
@@ -1361,7 +1361,7 @@ i
 +
 )
 {
-let
+const
 propName
 =
 props
@@ -1369,7 +1369,7 @@ props
 i
 ]
 ;
-let
+const
 propValue
 =
 obj

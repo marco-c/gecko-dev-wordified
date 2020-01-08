@@ -197,7 +197,7 @@ event
 packet
 )
 {
-let
+const
 [
 grip
 ]
@@ -221,7 +221,7 @@ check_preview
 grip
 )
 ;
-let
+const
 objClient
 =
 gThreadClient
@@ -231,7 +231,7 @@ pauseGrip
 grip
 )
 ;
-let
+const
 response
 =
 await

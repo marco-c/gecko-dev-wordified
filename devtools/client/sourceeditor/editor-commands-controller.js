@@ -237,7 +237,7 @@ function
 cmd
 )
 {
-let
+const
 cm
 =
 ed
@@ -342,14 +342,14 @@ function
 cmd
 )
 {
-let
+const
 cm
 =
 ed
 .
 codeMirror
 ;
-let
+const
 map
 =
 {
@@ -470,7 +470,7 @@ insertCommandsController
 sourceEditor
 )
 {
-let
+const
 input
 =
 sourceEditor
@@ -481,7 +481,7 @@ getInputField
 (
 )
 ;
-let
+const
 controller
 =
 createController

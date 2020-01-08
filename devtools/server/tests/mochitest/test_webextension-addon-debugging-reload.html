@@ -313,7 +313,7 @@ promiseWebExtensionStartup
 (
 )
 ;
-let
+const
 addonTarget
 =
 await
@@ -349,7 +349,7 @@ data
 frames
 )
 {
-let
+const
 frameFound
 =
 data
@@ -741,14 +741,14 @@ is
 finally
 uninstalled
 .
-let
+const
 {
 client
 }
 =
 addonTarget
 ;
-let
+const
 waitDebuggingClientClosed
 =
 new
@@ -771,7 +771,7 @@ resolve
 }
 )
 ;
-let
+const
 waitShutdown
 =
 promiseWebExtensionShutdown

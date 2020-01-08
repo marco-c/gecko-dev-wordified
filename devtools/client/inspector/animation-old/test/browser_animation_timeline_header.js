@@ -212,7 +212,7 @@ inspector
 350
 )
 ;
-let
+const
 {
 panel
 }
@@ -222,14 +222,14 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 timeline
 =
 panel
 .
 animationsTimelineComponent
 ;
-let
+const
 headerEl
 =
 timeline
@@ -251,14 +251,14 @@ be
 "
 )
 ;
-let
+const
 width
 =
 headerEl
 .
 offsetWidth
 ;
-let
+const
 animationDuration
 =
 TimeScale
@@ -269,7 +269,7 @@ TimeScale
 .
 minStartTime
 ;
-let
+const
 minTimeInterval
 =
 TIME_GRADUATION_MIN_SPACING
@@ -302,7 +302,7 @@ it
 works
 here
 .
-let
+const
 interval
 =
 findOptimalTimeInterval
@@ -310,7 +310,7 @@ findOptimalTimeInterval
 minTimeInterval
 )
 ;
-let
+const
 nb
 =
 Math
@@ -393,7 +393,7 @@ i
 =
 >
 {
-let
+const
 left
 =
 parseFloat
@@ -405,7 +405,7 @@ style
 left
 )
 ;
-let
+const
 expectedPos
 =
 i
@@ -469,7 +469,7 @@ they
 work
 here
 .
-let
+const
 formattedTime
 =
 TimeScale

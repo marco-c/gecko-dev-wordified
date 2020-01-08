@@ -96,7 +96,7 @@ bug_1405342_serviceworker_iframes
 html
 "
 ;
-let
+const
 {
 ui
 }
@@ -178,7 +178,7 @@ editors
 styleSheet
 )
 ;
-let
+const
 editor
 =
 await
@@ -193,7 +193,7 @@ getSourceEditor
 (
 )
 ;
-let
+const
 text
 =
 editor

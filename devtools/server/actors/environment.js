@@ -242,7 +242,7 @@ environment
 .
 *
 /
-let
+const
 EnvironmentActor
 =
 ActorClassWithSpec
@@ -341,7 +341,7 @@ function
 (
 )
 {
-let
+const
 form
 =
 {
@@ -827,7 +827,7 @@ function
 (
 )
 {
-let
+const
 bindings
 =
 {
@@ -938,19 +938,19 @@ parameterNames
 }
 for
 (
-let
+const
 name
 of
 parameterNames
 )
 {
-let
+const
 arg
 =
 {
 }
 ;
-let
+const
 value
 =
 this
@@ -990,7 +990,7 @@ bug
 725815
 )
 .
-let
+const
 desc
 =
 {
@@ -1030,7 +1030,7 @@ getVariableDescriptor
 name
 )
 ;
-let
+const
 descForm
 =
 {
@@ -1141,7 +1141,7 @@ arg
 }
 for
 (
-let
+const
 name
 of
 this
@@ -1182,7 +1182,7 @@ name
 continue
 ;
 }
-let
+const
 value
 =
 this
@@ -1218,7 +1218,7 @@ when
 getVariableDescriptor
 lands
 .
-let
+const
 desc
 =
 {
@@ -1270,7 +1270,7 @@ getVariableDescriptor
 name
 )
 ;
-let
+const
 descForm
 =
 {

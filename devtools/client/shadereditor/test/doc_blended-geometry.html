@@ -275,7 +275,7 @@ let
 canvas
 gl
 ;
-let
+const
 program
 =
 [
@@ -284,13 +284,13 @@ program
 let
 squareVerticesPositionBuffer
 ;
-let
+const
 vertexPositionAttribute
 =
 [
 ]
 ;
-let
+const
 depthUniform
 =
 [
@@ -375,7 +375,7 @@ initProgram
 i
 )
 {
-let
+const
 vertexShader
 =
 getShader
@@ -387,7 +387,7 @@ vs
 "
 )
 ;
-let
+const
 fragmentShader
 =
 getShader
@@ -498,7 +498,7 @@ getShader
 id
 )
 {
-let
+const
 script
 =
 document
@@ -508,7 +508,7 @@ getElementById
 id
 )
 ;
-let
+const
 source
 =
 script

@@ -307,14 +307,14 @@ link
 =
 >
 {
-let
+const
 parentDoc
 =
 toolbox
 .
 doc
 ;
-let
+const
 iframe
 =
 parentDoc
@@ -332,7 +332,7 @@ netmonitor
 "
 )
 ;
-let
+const
 top
 =
 iframe
@@ -394,7 +394,7 @@ har
 ;
 }
 ;
-let
+const
 {
 actions
 connector
@@ -625,7 +625,7 @@ inspectRequest
 requestId
 )
 {
-let
+const
 {
 actions
 store
@@ -676,7 +676,7 @@ request
 =
 null
 ;
-let
+const
 inspector
 =
 (

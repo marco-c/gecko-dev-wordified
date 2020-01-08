@@ -285,7 +285,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -294,7 +294,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 onCspViolationMessage
 =
 waitForMessage
@@ -309,7 +309,7 @@ error
 "
 )
 ;
-let
+const
 onCspReportMessage
 =
 waitForMessage

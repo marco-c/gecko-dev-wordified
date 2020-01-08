@@ -192,7 +192,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -230,7 +230,7 @@ testid
 inspector
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -239,7 +239,7 @@ view
 1
 )
 ;
-let
+const
 propEditor
 =
 ruleEditor
@@ -253,7 +253,7 @@ textProps
 .
 editor
 ;
-let
+const
 anchor
 =
 propEditor
@@ -294,7 +294,7 @@ propEditor
 nameSpan
 )
 ;
-let
+const
 editor
 =
 inplaceEditor
@@ -341,7 +341,7 @@ background
 image
 "
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -355,7 +355,7 @@ changed
 "
 )
 ;
-let
+const
 onPropertyValueUpdate
 =
 view
@@ -371,7 +371,7 @@ updated
 "
 )
 ;
-let
+const
 onTabOpened
 =
 waitForTab
@@ -424,7 +424,7 @@ target
 the
 link
 .
-let
+const
 rect
 =
 anchor
@@ -509,7 +509,7 @@ tab
 "
 )
 ;
-let
+const
 tab
 =
 await

@@ -141,8 +141,8 @@ doc_empty
 html
 "
 ;
+async
 function
-*
 getWindowsInSnapshot
 (
 front
@@ -160,7 +160,7 @@ snapshot
 const
 path
 =
-yield
+await
 front
 .
 saveHeapSnapshot
@@ -390,8 +390,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -411,7 +411,7 @@ gFront
 const
 startWindows
 =
-yield
+await
 getWindowsInSnapshot
 (
 front
@@ -460,7 +460,7 @@ length
 1
 )
 ;
-yield
+await
 refreshTab
 (
 )
@@ -468,7 +468,7 @@ refreshTab
 const
 endWindows
 =
-yield
+await
 getWindowsInSnapshot
 (
 front
@@ -544,7 +544,7 @@ snapshot
 const
 path
 =
-yield
+await
 front
 .
 saveHeapSnapshot
@@ -709,7 +709,7 @@ j
 ;
 for
 (
-let
+const
 retainingPath
 of
 paths
@@ -853,7 +853,7 @@ j
 ;
 for
 (
-let
+const
 part
 of
 retainingPath

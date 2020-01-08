@@ -100,7 +100,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -152,7 +152,7 @@ view
 "
 )
 ;
-let
+const
 span
 =
 boxmodel
@@ -189,7 +189,7 @@ document
 defaultView
 )
 ;
-let
+const
 editor
 =
 boxmodel
@@ -206,7 +206,7 @@ propertyeditor
 "
 )
 ;
-let
+const
 onRuleViewRefreshed
 =
 once
@@ -299,7 +299,7 @@ view
 "
 )
 ;
-let
+const
 ruleView
 =
 selectRuleView
@@ -307,7 +307,7 @@ selectRuleView
 inspector
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -316,7 +316,7 @@ ruleView
 0
 )
 ;
-let
+const
 textProp
 =
 ruleEditor

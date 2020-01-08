@@ -105,12 +105,12 @@ diffing
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 front
 =
 new
@@ -118,7 +118,7 @@ StubbedMemoryFront
 (
 )
 ;
-let
+const
 heapWorker
 =
 new
@@ -126,14 +126,14 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
 (
 )
 ;
-let
+const
 store
 =
 Store
@@ -180,7 +180,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -269,7 +269,7 @@ view
 "
 )
 ;
-yield
+await
 waitUntilAction
 (
 store
@@ -298,7 +298,7 @@ action
 "
 )
 ;
-let
+const
 deleteEvents
 =
 Promise
@@ -331,7 +331,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 deleteEvents
 ;
 ok
@@ -391,7 +391,7 @@ destroy
 (
 )
 ;
-yield
+await
 front
 .
 detach

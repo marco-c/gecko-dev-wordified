@@ -108,7 +108,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -129,7 +129,7 @@ testid
 inspector
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -138,7 +138,7 @@ view
 1
 )
 ;
-let
+const
 data
 =
 [
@@ -1285,7 +1285,7 @@ true
 ;
 for
 (
-let
+const
 {
 setup
 desc
@@ -1339,7 +1339,7 @@ expectedPattern
 visible
 )
 {
-let
+const
 allMenuItems
 =
 openStyleContextMenuAndGetAllItems
@@ -1348,7 +1348,7 @@ view
 node
 )
 ;
-let
+const
 menuItem
 =
 allMenuItems
@@ -1372,7 +1372,7 @@ menuItemLabel
 )
 )
 ;
-let
+const
 menuitemCopy
 =
 allMenuItems
@@ -1402,7 +1402,7 @@ copy
 )
 )
 ;
-let
+const
 menuitemCopyLocation
 =
 allMenuItems
@@ -1432,7 +1432,7 @@ copyLocation
 )
 )
 ;
-let
+const
 menuitemCopyPropertyDeclaration
 =
 allMenuItems
@@ -1462,7 +1462,7 @@ copyPropertyDeclaration
 )
 )
 ;
-let
+const
 menuitemCopyPropertyName
 =
 allMenuItems
@@ -1492,7 +1492,7 @@ copyPropertyName
 )
 )
 ;
-let
+const
 menuitemCopyPropertyValue
 =
 allMenuItems
@@ -1522,7 +1522,7 @@ copyPropertyValue
 )
 )
 ;
-let
+const
 menuitemCopySelector
 =
 allMenuItems
@@ -1552,7 +1552,7 @@ copySelector
 )
 )
 ;
-let
+const
 menuitemCopyRule
 =
 allMenuItems
@@ -1806,7 +1806,7 @@ view
 index
 )
 {
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -1815,7 +1815,7 @@ view
 1
 )
 ;
-let
+const
 textProp
 =
 ruleEditor
@@ -1841,7 +1841,7 @@ checkClipboardData
 expectedPattern
 )
 {
-let
+const
 actual
 =
 SpecialPowers
@@ -1855,7 +1855,7 @@ unicode
 "
 )
 ;
-let
+const
 expectedRegExp
 =
 new
@@ -1889,7 +1889,7 @@ expected
 text
 for
 comparison
-let
+const
 terminator
 =
 osString

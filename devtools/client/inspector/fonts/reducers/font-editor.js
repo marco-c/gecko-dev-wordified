@@ -210,7 +210,7 @@ properties
 }
 }
 ;
-let
+const
 reducers
 =
 {
@@ -242,7 +242,7 @@ values
 }
 )
 {
-let
+const
 newState
 =
 {
@@ -349,7 +349,7 @@ value
 }
 )
 {
-let
+const
 newState
 =
 {
@@ -468,7 +468,7 @@ properties
 }
 )
 {
-let
+const
 axes
 =
 parseFontVariationAxes
@@ -521,7 +521,7 @@ not
 a
 keyword
 .
-let
+const
 weight
 =
 properties
@@ -607,7 +607,7 @@ not
 a
 keyword
 .
-let
+const
 stretch
 =
 properties
@@ -658,7 +658,7 @@ the
 match
 array
 .
-let
+const
 match
 =
 stretch
@@ -740,7 +740,7 @@ value
 }
 )
 {
-let
+const
 newState
 =
 {
@@ -777,7 +777,7 @@ INITIAL_STATE
 action
 )
 {
-let
+const
 reducer
 =
 reducers

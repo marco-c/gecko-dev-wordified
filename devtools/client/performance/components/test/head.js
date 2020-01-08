@@ -73,7 +73,7 @@ checkOptimizationHeader
 checkOptimizationTree
 *
 /
-let
+const
 {
 require
 }
@@ -121,7 +121,7 @@ jsm
 "
 )
 ;
-let
+const
 {
 BrowserLoader
 }
@@ -151,7 +151,7 @@ js
 }
 )
 ;
-let
+const
 defer
 =
 require
@@ -165,7 +165,7 @@ defer
 "
 )
 ;
-let
+const
 flags
 =
 require
@@ -243,7 +243,7 @@ window
 }
 )
 ;
-let
+const
 =
 (
 selector
@@ -260,7 +260,7 @@ querySelector
 selector
 )
 ;
-let
+const
 =
 (
 selector
@@ -350,7 +350,7 @@ component
 newState
 )
 {
-let
+const
 deferred
 =
 defer
@@ -383,7 +383,7 @@ component
 newState
 )
 {
-let
+const
 deferred
 =
 defer
@@ -471,7 +471,7 @@ outcome
 .
 *
 /
-let
+const
 OPTS_DATA_GENERAL
 =
 [
@@ -991,7 +991,7 @@ checkOptimizationTree
 rowData
 )
 {
-let
+const
 rows
 =
 (
@@ -1023,7 +1023,7 @@ i
 +
 )
 {
-let
+const
 row
 =
 rows
@@ -1031,7 +1031,7 @@ rows
 i
 ]
 ;
-let
+const
 expected
 =
 rowData

@@ -127,7 +127,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -148,14 +148,14 @@ testid
 inspector
 )
 ;
-let
+const
 elementStyle
 =
 view
 .
 _elementStyle
 ;
-let
+const
 elementRule
 =
 elementStyle
@@ -180,7 +180,7 @@ style
 "
 )
 ;
-let
+const
 firstProp
 =
 await
@@ -872,7 +872,7 @@ selector
 propName
 )
 {
-let
+const
 value
 =
 await

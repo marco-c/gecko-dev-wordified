@@ -114,7 +114,7 @@ isEditTagNameCalled
 =
 false
 ;
-let
+const
 {
 inspector
 }
@@ -165,7 +165,7 @@ true
 ;
 }
 ;
-let
+const
 container
 =
 await
@@ -177,7 +177,7 @@ div
 inspector
 )
 ;
-let
+const
 tagEditor
 =
 container

@@ -347,7 +347,7 @@ function
 (
 )
 {
-let
+const
 object
 =
 {

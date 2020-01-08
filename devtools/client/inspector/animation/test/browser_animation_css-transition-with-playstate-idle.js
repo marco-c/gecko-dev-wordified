@@ -493,7 +493,7 @@ function
 (
 )
 {
-let
+const
 win
 =
 content

@@ -301,7 +301,7 @@ debuggerStatement
 "
 )
 ;
-let
+const
 location
 =
 {
@@ -492,7 +492,7 @@ line
 max
 -
 len
-let
+const
 code
 =
 '

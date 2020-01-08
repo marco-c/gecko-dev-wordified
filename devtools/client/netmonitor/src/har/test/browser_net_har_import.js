@@ -52,7 +52,7 @@ async
 =
 >
 {
-let
+const
 {
 tab
 monitor
@@ -85,7 +85,7 @@ test
 "
 )
 ;
-let
+const
 {
 actions
 connector
@@ -97,7 +97,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -117,7 +117,7 @@ index
 "
 )
 ;
-let
+const
 {
 HarMenuUtils
 }
@@ -143,7 +143,7 @@ utils
 "
 )
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -165,7 +165,7 @@ index
 "
 )
 ;
-let
+const
 {
 HarImporter
 }
@@ -216,7 +216,7 @@ till
 its
 done
 .
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -263,7 +263,7 @@ HAR
 into
 the
 clipboard
-let
+const
 json1
 =
 await
@@ -287,7 +287,7 @@ connector
 Import
 HAR
 string
-let
+const
 importer
 =
 new
@@ -311,7 +311,7 @@ into
 the
 clipboard
 again
-let
+const
 json2
 =
 await
@@ -336,7 +336,7 @@ Compare
 exported
 HAR
 data
-let
+const
 har1
 =
 JSON
@@ -346,7 +346,7 @@ parse
 json1
 )
 ;
-let
+const
 har2
 =
 JSON
@@ -695,7 +695,7 @@ obj2
 path
 )
 {
-let
+const
 keys1
 =
 Object
@@ -709,7 +709,7 @@ sort
 (
 )
 ;
-let
+const
 keys2
 =
 Object
@@ -723,7 +723,7 @@ sort
 (
 )
 ;
-let
+const
 name
 =
 path
@@ -839,7 +839,7 @@ same
 after
 import
 .
-let
+const
 ignore
 =
 [
@@ -922,7 +922,7 @@ i
 +
 )
 {
-let
+const
 key
 =
 keys1
@@ -930,7 +930,7 @@ keys1
 i
 ]
 ;
-let
+const
 prop1
 =
 obj1
@@ -938,7 +938,7 @@ obj1
 key
 ]
 ;
-let
+const
 prop2
 =
 obj2
@@ -1083,7 +1083,7 @@ prop1
 prop2
 )
 {
-let
+const
 propName
 =
 name

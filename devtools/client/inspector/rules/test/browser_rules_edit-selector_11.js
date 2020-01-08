@@ -172,7 +172,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -218,7 +218,7 @@ view
 1
 )
 ;
-let
+const
 editor
 =
 await
@@ -241,7 +241,7 @@ value
 pickme
 "
 ;
-let
+const
 onRuleViewChanged
 =
 once
@@ -277,7 +277,7 @@ after
 editing
 the
 selector
-let
+const
 onBlur
 =
 once

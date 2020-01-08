@@ -439,7 +439,7 @@ ZOOM_EPSILON
 =
 ZOOM_EPSILON
 ;
-let
+const
 update
 =
 createUpdateLoop
@@ -630,7 +630,7 @@ update
 (
 )
 {
-let
+const
 isScrollChanging
 =
 (
@@ -650,7 +650,7 @@ zoom
 ZOOM_EPSILON
 )
 ;
-let
+const
 isTranslateChanging
 =
 (
@@ -780,7 +780,7 @@ dragZoom
 translateY
 ;
 }
-let
+const
 zoom
 =
 1
@@ -789,14 +789,14 @@ dragZoom
 .
 smoothZoom
 ;
-let
+const
 x
 =
 dragZoom
 .
 smoothTranslateX
 ;
-let
+const
 y
 =
 dragZoom
@@ -929,7 +929,7 @@ update
 debounceRate
 )
 {
-let
+const
 emitChanged
 =
 debounce
@@ -949,7 +949,7 @@ change
 debounceRate
 )
 ;
-let
+const
 removeDragHandlers
 =
 setDragHandlers
@@ -960,7 +960,7 @@ emitChanged
 update
 )
 ;
-let
+const
 removeScrollHandlers
 =
 setScrollHandlers
@@ -1052,7 +1052,7 @@ emitChanged
 update
 )
 {
-let
+const
 parentEl
 =
 container
@@ -1109,14 +1109,14 @@ drag
 event
 )
 {
-let
+const
 prevMouseX
 =
 dragZoom
 .
 mouseX
 ;
-let
+const
 prevMouseY
 =
 dragZoom
@@ -1363,7 +1363,7 @@ emitChanged
 update
 )
 {
-let
+const
 window
 =
 container
@@ -1400,7 +1400,7 @@ Update
 the
 zoom
 level
-let
+const
 scrollDelta
 =
 getScrollDelta
@@ -1409,7 +1409,7 @@ event
 window
 )
 ;
-let
+const
 prevZoom
 =
 dragZoom
@@ -1442,7 +1442,7 @@ updated
 width
 and
 height
-let
+const
 prevZoomedWidth
 =
 container
@@ -1455,7 +1455,7 @@ offsetWidth
 prevZoom
 )
 ;
-let
+const
 prevZoomedHeight
 =
 container
@@ -1500,7 +1500,7 @@ dragZoom
 zoom
 )
 ;
-let
+const
 deltaWidth
 =
 dragZoom
@@ -1509,7 +1509,7 @@ zoomedWidth
 -
 prevZoomedWidth
 ;
-let
+const
 deltaHeight
 =
 dragZoom
@@ -1518,7 +1518,7 @@ zoomedHeight
 -
 prevZoomedHeight
 ;
-let
+const
 mouseOffsetX
 =
 dragZoom
@@ -1531,7 +1531,7 @@ offsetWidth
 /
 2
 ;
-let
+const
 mouseOffsetY
 =
 dragZoom
@@ -1567,7 +1567,7 @@ zoomed
 width
 /
 height
-let
+const
 ratioZoomX
 =
 (
@@ -1584,7 +1584,7 @@ translateX
 /
 prevZoomedWidth
 ;
-let
+const
 ratioZoomY
 =
 (
@@ -1833,7 +1833,7 @@ container
 dragZoom
 )
 {
-let
+const
 {
 devicePixelRatio
 }
@@ -1844,7 +1844,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 overdrawX
 =
 (
@@ -1859,7 +1859,7 @@ offsetWidth
 /
 2
 ;
-let
+const
 overdrawY
 =
 (

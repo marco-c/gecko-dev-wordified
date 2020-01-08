@@ -143,7 +143,7 @@ verifyURL
 string
 )
 {
-let
+const
 lexer
 =
 InspectorUtils
@@ -153,7 +153,7 @@ getCSSLexer
 string
 )
 ;
-let
+const
 token
 =
 lexer
@@ -197,17 +197,17 @@ null
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -243,7 +243,7 @@ container
 "
 )
 ;
-let
+const
 widget
 =
 new
@@ -1018,7 +1018,7 @@ contents
 "
 )
 ;
-let
+const
 quotedurl
 =
 "
@@ -1102,7 +1102,7 @@ contents
 "
 )
 ;
-let
+const
 dataurl
 =
 "

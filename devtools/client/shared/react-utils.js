@@ -154,7 +154,7 @@ createFactories
 args
 )
 {
-let
+const
 result
 =
 {
@@ -162,7 +162,7 @@ result
 ;
 for
 (
-let
+const
 p
 in
 args

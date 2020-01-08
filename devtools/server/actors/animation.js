@@ -326,7 +326,7 @@ property
 {
 for
 (
-let
+const
 [
 type
 props
@@ -961,7 +961,7 @@ this
 actorID
 ;
 }
-let
+const
 data
 =
 this
@@ -1470,7 +1470,7 @@ function
 (
 )
 {
-let
+const
 iterations
 =
 this
@@ -1776,7 +1776,7 @@ function
 (
 )
 {
-let
+const
 properties
 =
 this
@@ -2324,7 +2324,7 @@ function
 (
 )
 {
-let
+const
 newState
 =
 this
@@ -2405,7 +2405,7 @@ currentState
 {
 for
 (
-let
+const
 key
 in
 newState
@@ -2503,7 +2503,7 @@ function
 mutations
 )
 {
-let
+const
 isCurrentAnimation
 =
 animation
@@ -2517,7 +2517,7 @@ this
 .
 player
 ;
-let
+const
 hasCurrentAnimation
 =
 animations
@@ -2537,7 +2537,7 @@ false
 ;
 for
 (
-let
+const
 {
 removedAnimations
 changedAnimations
@@ -2637,7 +2637,7 @@ at
 least
 )
 .
-let
+const
 newState
 =
 this
@@ -2646,7 +2646,7 @@ getState
 (
 )
 ;
-let
+const
 oldState
 =
 this
@@ -3300,7 +3300,7 @@ value
 .
 for
 (
-let
+const
 property
 of
 properties
@@ -3478,7 +3478,7 @@ distance
 .
 for
 (
-let
+const
 property
 of
 properties
@@ -3751,7 +3751,7 @@ value2
 ;
 for
 (
-let
+const
 values
 of
 property
@@ -3885,7 +3885,7 @@ animationTypes
 ;
 for
 (
-let
+const
 propertyName
 of
 propertyNames
@@ -4480,7 +4480,7 @@ updateAllAnimationsCreatedTime
 (
 )
 ;
-let
+const
 animations
 =
 nodeActor
@@ -4648,7 +4648,7 @@ mozilla
 use
 -
 ownerGlobal
-let
+const
 win
 =
 nodeActor
@@ -4705,13 +4705,13 @@ function
 mutations
 )
 {
-let
+const
 eventData
 =
 [
 ]
 ;
-let
+const
 readyPromises
 =
 [
@@ -4719,7 +4719,7 @@ readyPromises
 ;
 for
 (
-let
+const
 {
 addedAnimations
 removedAnimations
@@ -4730,7 +4730,7 @@ mutations
 {
 for
 (
-let
+const
 player
 of
 removedAnimations
@@ -4840,7 +4840,7 @@ idle
 continue
 ;
 }
-let
+const
 index
 =
 this
@@ -4906,7 +4906,7 @@ index
 }
 for
 (
-let
+const
 player
 of
 addedAnimations
@@ -5018,7 +5018,7 @@ we
 already
 have
 .
-let
+const
 index
 =
 this
@@ -5031,7 +5031,7 @@ a
 =
 >
 {
-let
+const
 isSameType
 =
 a
@@ -5046,7 +5046,7 @@ player
 .
 constructor
 ;
-let
+const
 isSameName
 =
 (
@@ -5092,7 +5092,7 @@ player
 transitionProperty
 )
 ;
-let
+const
 isSameNode
 =
 a
@@ -5484,7 +5484,7 @@ animations
 ;
 for
 (
-let
+const
 {
 document
 }
@@ -5624,7 +5624,7 @@ players
 .
 for
 (
-let
+const
 player
 of
 this
@@ -5727,7 +5727,7 @@ players
 .
 for
 (
-let
+const
 player
 of
 this
@@ -6101,7 +6101,7 @@ player
 =
 >
 {
-let
+const
 pause
 =
 shouldPause

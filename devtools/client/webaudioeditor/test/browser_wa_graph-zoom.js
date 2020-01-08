@@ -56,7 +56,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -68,14 +68,14 @@ initWebAudioEditor
 SIMPLE_CONTEXT_URL
 )
 ;
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -84,7 +84,7 @@ ContextView
 =
 panelWin
 ;
-let
+const
 started
 =
 once

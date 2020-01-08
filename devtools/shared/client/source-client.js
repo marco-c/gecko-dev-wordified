@@ -512,7 +512,7 @@ cb
 noop
 )
 {
-let
+const
 packet
 =
 {
@@ -589,7 +589,7 @@ callback
 noop
 )
 {
-let
+const
 packet
 =
 {
@@ -896,7 +896,7 @@ return
 response
 ;
 }
-let
+const
 {
 contentType
 source
@@ -917,7 +917,7 @@ arrayBuffer
 "
 )
 {
-let
+const
 arrayBuffer
 =
 this
@@ -993,7 +993,7 @@ resp
 encoded
 )
 ;
-let
+const
 newResponse
 =
 {
@@ -1030,7 +1030,7 @@ newResponse
 )
 ;
 }
-let
+const
 longString
 =
 this
@@ -1076,7 +1076,7 @@ return
 resp
 ;
 }
-let
+const
 newResponse
 =
 {
@@ -1182,14 +1182,14 @@ sets
 the
 breakpoint
 .
-let
+const
 doSetBreakpoint
 =
 callback
 =
 >
 {
-let
+const
 root
 =
 this
@@ -1198,7 +1198,7 @@ _client
 .
 mainRoot
 ;
-let
+const
 location
 =
 {
@@ -1206,7 +1206,7 @@ line
 column
 }
 ;
-let
+const
 packet
 =
 {

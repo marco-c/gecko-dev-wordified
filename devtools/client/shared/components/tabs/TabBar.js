@@ -407,7 +407,7 @@ props
 context
 )
 ;
-let
+const
 {
 activeTabId
 children
@@ -418,7 +418,7 @@ children
 =
 props
 ;
-let
+const
 tabs
 =
 this
@@ -428,7 +428,7 @@ createTabs
 children
 )
 ;
-let
+const
 activeTab
 =
 tabs
@@ -664,7 +664,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 activeTabId
 children
@@ -675,7 +675,7 @@ children
 =
 nextProps
 ;
-let
+const
 tabs
 =
 this
@@ -685,7 +685,7 @@ createTabs
 children
 )
 ;
-let
+const
 activeTab
 =
 tabs
@@ -835,7 +835,7 @@ index
 1
 )
 {
-let
+const
 tabs
 =
 this
@@ -886,7 +886,7 @@ url
 )
 ;
 }
-let
+const
 newState
 =
 Object
@@ -979,7 +979,7 @@ length
 return
 ;
 }
-let
+const
 tabs
 =
 this
@@ -1000,7 +1000,7 @@ activeTab
 ;
 for
 (
-let
+const
 {
 id
 index
@@ -1079,7 +1079,7 @@ length
 ;
 }
 }
-let
+const
 newState
 =
 Object
@@ -1245,7 +1245,7 @@ tabId
 isVisible
 )
 {
-let
+const
 index
 =
 this
@@ -1265,7 +1265,7 @@ index
 return
 ;
 }
-let
+const
 tabs
 =
 this
@@ -1327,7 +1327,7 @@ removeTab
 tabId
 )
 {
-let
+const
 index
 =
 this
@@ -1347,7 +1347,7 @@ index
 return
 ;
 }
-let
+const
 tabs
 =
 this
@@ -1477,7 +1477,7 @@ select
 tabId
 )
 {
-let
+const
 index
 =
 this
@@ -1497,7 +1497,7 @@ index
 return
 ;
 }
-let
+const
 newState
 =
 Object
@@ -1700,7 +1700,7 @@ onAllTabsMenuClick
 event
 )
 {
-let
+const
 menu
 =
 new
@@ -1708,7 +1708,7 @@ Menu
 (
 )
 ;
-let
+const
 target
 =
 event
@@ -1873,7 +1873,7 @@ cgi
 id
 =
 1274551
-let
+const
 rect
 =
 target
@@ -1882,7 +1882,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 screenX
 =
 target
@@ -1893,7 +1893,7 @@ defaultView
 .
 mozInnerScreenX
 ;
-let
+const
 screenY
 =
 target
@@ -1995,7 +1995,7 @@ render
 (
 )
 {
-let
+const
 tabs
 =
 this

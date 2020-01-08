@@ -121,8 +121,8 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -136,12 +136,12 @@ UI_EXPERIMENTAL_PREF
 false
 )
 ;
-let
+const
 {
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -154,7 +154,7 @@ window
 }
 )
 ;
-let
+const
 {
 }
 =
@@ -162,7 +162,7 @@ panel
 .
 panelWin
 ;
-let
+const
 body
 =
 (
@@ -174,7 +174,7 @@ body
 "
 )
 ;
-let
+const
 menu
 =
 (
@@ -316,7 +316,7 @@ toggle
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

@@ -166,7 +166,7 @@ parent
 element
 )
 {
-let
+const
 isE10s
 =
 Services
@@ -180,7 +180,7 @@ if
 isE10s
 )
 {
-let
+const
 win
 =
 parent
@@ -189,7 +189,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 onMozAfterPaint
 =
 waitForMozAfterPaint

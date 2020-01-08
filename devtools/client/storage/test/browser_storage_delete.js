@@ -247,12 +247,12 @@ url
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -266,7 +266,7 @@ html
 "
 )
 ;
-let
+const
 contextMenu
 =
 gPanelWindow
@@ -284,7 +284,7 @@ popup
 "
 )
 ;
-let
+const
 menuDeleteItem
 =
 contextMenu
@@ -305,7 +305,7 @@ delete
 ;
 for
 (
-let
+const
 [
 treeItem
 rowName
@@ -315,7 +315,7 @@ of
 TEST_CASES
 )
 {
-let
+const
 treeItemName
 =
 treeItem
@@ -337,13 +337,13 @@ treeItemName
 }
 )
 ;
-yield
+await
 selectTreeItem
 (
 treeItem
 )
 ;
-let
+const
 row
 =
 getRowCells
@@ -378,7 +378,7 @@ treeItemName
 }
 )
 ;
-let
+const
 eventWait
 =
 gUI
@@ -390,11 +390,11 @@ store
 -
 objects
 -
-updated
+edit
 "
 )
 ;
-yield
+await
 waitForContextMenu
 (
 contextMenu
@@ -430,7 +430,7 @@ click
 (
 )
 ;
-let
+const
 truncatedRowName
 =
 String
@@ -486,7 +486,7 @@ truncated
 }
 )
 ;
-yield
+await
 eventWait
 ;
 ok
@@ -520,7 +520,7 @@ deletion
 )
 ;
 }
-yield
+await
 finishTests
 (
 )

@@ -356,7 +356,7 @@ Infinity
 ;
 for
 (
-let
+const
 child
 of
 node

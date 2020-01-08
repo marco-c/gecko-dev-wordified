@@ -210,7 +210,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -308,7 +308,7 @@ div1
 inspector
 )
 ;
-let
+const
 span
 =
 boxmodel
@@ -365,7 +365,7 @@ document
 defaultView
 )
 ;
-let
+const
 editor
 =
 boxmodel
@@ -704,7 +704,7 @@ div2
 inspector
 )
 ;
-let
+const
 span
 =
 boxmodel
@@ -761,7 +761,7 @@ document
 defaultView
 )
 ;
-let
+const
 editor
 =
 boxmodel
@@ -1023,7 +1023,7 @@ div3
 inspector
 )
 ;
-let
+const
 span
 =
 boxmodel
@@ -1080,7 +1080,7 @@ document
 defaultView
 )
 ;
-let
+const
 editor
 =
 boxmodel

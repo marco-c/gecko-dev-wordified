@@ -253,7 +253,7 @@ function
 (
 )
 {
-let
+const
 self
 =
 this
@@ -571,7 +571,7 @@ tabActor
 "
 )
 ;
-let
+const
 tabActor1
 =
 new
@@ -579,7 +579,7 @@ MockTabActor
 (
 )
 ;
-let
+const
 obs11
 =
 getLayoutChangesObserver
@@ -587,7 +587,7 @@ getLayoutChangesObserver
 tabActor1
 )
 ;
-let
+const
 obs12
 =
 getLayoutChangesObserver
@@ -619,7 +619,7 @@ tabActor
 "
 )
 ;
-let
+const
 tabActor2
 =
 new
@@ -627,7 +627,7 @@ MockTabActor
 (
 )
 ;
-let
+const
 obs21
 =
 getLayoutChangesObserver
@@ -635,7 +635,7 @@ getLayoutChangesObserver
 tabActor2
 )
 ;
-let
+const
 obs22
 =
 getLayoutChangesObserver
@@ -760,7 +760,7 @@ callback
 /
 /
 manually
-let
+const
 tabActor
 =
 new
@@ -768,7 +768,7 @@ MockTabActor
 (
 )
 ;
-let
+const
 observer
 =
 getLayoutChangesObserver
@@ -776,13 +776,13 @@ getLayoutChangesObserver
 tabActor
 )
 ;
-let
+const
 reflowsEvents
 =
 [
 ]
 ;
-let
+const
 onReflows
 =
 reflows
@@ -805,13 +805,13 @@ reflows
 onReflows
 )
 ;
-let
+const
 resizeEvents
 =
 [
 ]
 ;
-let
+const
 onResize
 =
 (
@@ -1114,7 +1114,7 @@ sent
 "
 )
 ;
-let
+const
 tabActor
 =
 new
@@ -1122,7 +1122,7 @@ MockTabActor
 (
 )
 ;
-let
+const
 observer
 =
 getLayoutChangesObserver
@@ -1130,13 +1130,13 @@ getLayoutChangesObserver
 tabActor
 )
 ;
-let
+const
 reflowsEvents
 =
 [
 ]
 ;
-let
+const
 onReflows
 =
 (
@@ -1227,7 +1227,7 @@ it
 "
 )
 ;
-let
+const
 tabActor
 =
 new
@@ -1235,7 +1235,7 @@ MockTabActor
 (
 )
 ;
-let
+const
 observer
 =
 getLayoutChangesObserver
@@ -1308,7 +1308,7 @@ it
 "
 )
 ;
-let
+const
 tabActor
 =
 new
@@ -1316,7 +1316,7 @@ MockTabActor
 (
 )
 ;
-let
+const
 observer
 =
 getLayoutChangesObserver
@@ -1381,7 +1381,7 @@ correctly
 "
 )
 ;
-let
+const
 tabActor
 =
 new
@@ -1389,7 +1389,7 @@ MockTabActor
 (
 )
 ;
-let
+const
 observer
 =
 getLayoutChangesObserver
@@ -1500,7 +1500,7 @@ observer
 "
 )
 ;
-let
+const
 tabActor
 =
 new
@@ -1508,7 +1508,7 @@ MockTabActor
 (
 )
 ;
-let
+const
 observer
 =
 getLayoutChangesObserver
@@ -1703,7 +1703,7 @@ stop
 "
 )
 ;
-let
+const
 tabActor
 =
 new
@@ -1711,7 +1711,7 @@ MockTabActor
 (
 )
 ;
-let
+const
 observer
 =
 getLayoutChangesObserver

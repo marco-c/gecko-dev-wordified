@@ -290,7 +290,7 @@ array
 callback
 )
 {
-let
+const
 index
 =
 array
@@ -493,7 +493,7 @@ function
 (
 )
 {
-let
+const
 enabled
 =
 Services
@@ -1078,7 +1078,7 @@ isEnabled
 return
 ;
 }
-let
+const
 {
 scratchpads
 browserConsole
@@ -1087,7 +1087,7 @@ browserToolbox
 =
 session
 ;
-let
+const
 hasDevToolsData
 =
 browserConsole
@@ -1355,7 +1355,7 @@ initDevTools
 into
 account
 .
-let
+const
 startTime
 =
 Cu
@@ -1608,7 +1608,7 @@ initDevTools
 into
 account
 .
-let
+const
 startTime
 =
 Cu
@@ -1660,7 +1660,7 @@ object
 .
 for
 (
-let
+const
 [
 event
 listener
@@ -1890,7 +1890,7 @@ called
 .
 *
 /
-let
+const
 webExtensionsMethods
 =
 [
@@ -1916,7 +1916,7 @@ getToolboxes
 ;
 for
 (
-let
+const
 method
 of
 webExtensionsMethods

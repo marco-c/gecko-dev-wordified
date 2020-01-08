@@ -368,7 +368,7 @@ setFilterContent
 filter
 )
 {
-let
+const
 {
 doc
 }
@@ -377,7 +377,7 @@ this
 .
 tooltip
 ;
-let
+const
 container
 =
 doc
@@ -594,7 +594,7 @@ remove
 )
 ;
 }
-let
+const
 node
 =
 this

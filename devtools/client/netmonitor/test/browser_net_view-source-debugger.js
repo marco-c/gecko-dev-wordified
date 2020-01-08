@@ -171,7 +171,7 @@ asyncstack
 true
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -195,7 +195,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -206,7 +206,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -271,7 +271,7 @@ open
 "
 )
 ;
-let
+const
 wait
 =
 waitForDOM
@@ -356,7 +356,7 @@ click
 await
 wait
 ;
-let
+const
 frameLinkNode
 =
 document
@@ -417,7 +417,7 @@ location
 "
 )
 ;
-let
+const
 url
 =
 frameLinkNode
@@ -446,7 +446,7 @@ url
 )
 )
 ;
-let
+const
 line
 =
 frameLinkNode
@@ -529,7 +529,7 @@ resolve
 await
 onJsDebuggerSelected
 ;
-let
+const
 dbg
 =
 await

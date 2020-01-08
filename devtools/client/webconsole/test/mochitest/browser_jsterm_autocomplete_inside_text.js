@@ -154,7 +154,7 @@ function
 (
 )
 {
-let
+const
 {
 jsterm
 }
@@ -313,7 +313,7 @@ empty
 "
 )
 ;
-let
+const
 items
 =
 popup
@@ -332,7 +332,7 @@ e
 label
 )
 ;
-let
+const
 expectedItems
 =
 [

@@ -65,7 +65,7 @@ test
 (
 )
 {
-let
+const
 Prefs
 =
 new
@@ -92,7 +92,7 @@ enabled
 }
 )
 ;
-let
+const
 originalPrefValue
 =
 Services

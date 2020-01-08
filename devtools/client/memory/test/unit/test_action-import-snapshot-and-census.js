@@ -60,7 +60,7 @@ actions
 .
 *
 /
-let
+const
 {
 actions
 snapshotState
@@ -82,7 +82,7 @@ constants
 "
 )
 ;
-let
+const
 {
 exportSnapshot
 importSnapshotAndCensus
@@ -103,7 +103,7 @@ io
 "
 )
 ;
-let
+const
 {
 takeSnapshotAndCensus
 }
@@ -125,12 +125,12 @@ snapshot
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 front
 =
 new
@@ -138,7 +138,7 @@ StubbedMemoryFront
 (
 )
 ;
-let
+const
 heapWorker
 =
 new
@@ -146,21 +146,21 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
 (
 )
 ;
-let
+const
 store
 =
 Store
 (
 )
 ;
-let
+const
 {
 subscribe
 dispatch
@@ -169,10 +169,10 @@ getState
 =
 store
 ;
-let
+const
 destPath
 =
-yield
+await
 createTempFile
 (
 )
@@ -186,7 +186,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -203,7 +203,7 @@ SAVED
 ]
 )
 ;
-let
+const
 exportEvents
 =
 Promise
@@ -244,7 +244,7 @@ destPath
 )
 )
 ;
-yield
+await
 exportEvents
 ;
 /
@@ -265,7 +265,7 @@ censusI
 =
 0
 ;
-let
+const
 snapshotStates
 =
 [
@@ -280,7 +280,7 @@ READ
 "
 ]
 ;
-let
+const
 censusStates
 =
 [
@@ -292,7 +292,7 @@ SAVED
 "
 ]
 ;
-let
+const
 expectStates
 =
 (
@@ -300,7 +300,7 @@ expectStates
 =
 >
 {
-let
+const
 snapshot
 =
 getState
@@ -330,7 +330,7 @@ snapshotStates
 length
 )
 {
-let
+const
 isCorrectState
 =
 snapshot
@@ -429,7 +429,7 @@ censusI
 }
 }
 ;
-let
+const
 unsubscribe
 =
 subscribe
@@ -446,7 +446,7 @@ destPath
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -601,7 +601,7 @@ selected
 Check
 snapshot
 data
-let
+const
 snapshot1
 =
 getState
@@ -613,7 +613,7 @@ snapshots
 0
 ]
 ;
-let
+const
 snapshot2
 =
 getState
@@ -668,7 +668,7 @@ compare
 equal
 census
 data
-let
+const
 census1
 =
 stripUnique
@@ -690,7 +690,7 @@ report
 )
 )
 ;
-let
+const
 census2
 =
 stripUnique
@@ -741,7 +741,7 @@ stripUnique
 obj
 )
 {
-let
+const
 children
 =
 obj
@@ -754,7 +754,7 @@ children
 ;
 for
 (
-let
+const
 child
 of
 children

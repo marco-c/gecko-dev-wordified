@@ -148,7 +148,7 @@ sidebarToggle
 true
 )
 ;
-let
+const
 hud
 =
 await
@@ -157,7 +157,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 message
 =
 await
@@ -176,7 +176,7 @@ Object
 )
 )
 ;
-let
+const
 object
 =
 message
@@ -234,7 +234,7 @@ sidebarContents
 await
 onSideBarVisible
 ;
-let
+const
 objectInspector
 =
 sidebarContents
@@ -589,7 +589,7 @@ arrayMessage
 await
 onArrayMessage
 ;
-let
+const
 array
 =
 arrayMessage
@@ -700,7 +700,7 @@ hud
 objectNode
 )
 {
-let
+const
 contextMenu
 =
 await
@@ -710,7 +710,7 @@ hud
 objectNode
 )
 ;
-let
+const
 openInSidebarEntry
 =
 contextMenu
@@ -749,7 +749,7 @@ keyStr
 elementToBeFocused
 )
 {
-let
+const
 onFocusChanged
 =
 waitFor

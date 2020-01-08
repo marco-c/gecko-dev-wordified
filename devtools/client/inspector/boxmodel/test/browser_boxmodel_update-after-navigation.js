@@ -110,7 +110,7 @@ addTab
 IFRAME1
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -275,7 +275,7 @@ value
 "
 )
 ;
-let
+const
 paddingElt
 =
 boxmodel
@@ -324,7 +324,7 @@ padding
 "
 )
 ;
-let
+const
 onUpdated
 =
 waitForUpdate
@@ -442,7 +442,7 @@ value
 "
 )
 ;
-let
+const
 sizeElt
 =
 boxmodel
@@ -496,7 +496,7 @@ size
 "
 )
 ;
-let
+const
 onUpdated
 =
 waitForUpdate
@@ -641,7 +641,7 @@ bfcache
 "
 )
 ;
-let
+const
 paddingElt
 =
 boxmodel
@@ -690,7 +690,7 @@ padding
 "
 )
 ;
-let
+const
 onUpdated
 =
 waitForUpdate

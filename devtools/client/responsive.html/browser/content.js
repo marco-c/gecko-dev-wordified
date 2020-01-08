@@ -294,7 +294,7 @@ RequestScreenshot
 screenshot
 )
 ;
-let
+const
 webProgress
 =
 docShell
@@ -407,7 +407,7 @@ onResize
 (
 )
 {
-let
+const
 {
 width
 height
@@ -592,7 +592,7 @@ RequestScreenshot
 screenshot
 )
 ;
-let
+const
 webProgress
 =
 docShell
@@ -658,7 +658,7 @@ requiresFloatingScrollbars
 return
 ;
 }
-let
+const
 allDocShells
 =
 [
@@ -683,7 +683,7 @@ i
 +
 )
 {
-let
+const
 child
 =
 docShell
@@ -710,13 +710,13 @@ child
 }
 for
 (
-let
+const
 d
 of
 allDocShells
 )
 {
-let
+const
 win
 =
 d
@@ -727,7 +727,7 @@ DOMDocument
 .
 defaultView
 ;
-let
+const
 winUtils
 =
 win
@@ -776,7 +776,7 @@ restoreScrollbars
 (
 )
 {
-let
+const
 allDocShells
 =
 [
@@ -823,13 +823,13 @@ nsIDocShell
 }
 for
 (
-let
+const
 d
 of
 allDocShells
 )
 {
-let
+const
 win
 =
 d
@@ -840,7 +840,7 @@ DOMDocument
 .
 defaultView
 ;
-let
+const
 winUtils
 =
 win
@@ -894,7 +894,7 @@ flushStyle
 Force
 presContext
 destruction
-let
+const
 isSticky
 =
 docShell
@@ -941,7 +941,7 @@ screenshot
 (
 )
 {
-let
+const
 canvas
 =
 content
@@ -970,14 +970,14 @@ canvas
 "
 )
 ;
-let
+const
 ratio
 =
 content
 .
 devicePixelRatio
 ;
-let
+const
 width
 =
 content
@@ -986,7 +986,7 @@ innerWidth
 *
 ratio
 ;
-let
+const
 height
 =
 content
@@ -1013,7 +1013,7 @@ height
 =
 height
 ;
-let
+const
 ctx
 =
 canvas
@@ -1069,7 +1069,7 @@ toDataURL
 )
 ;
 }
-let
+const
 WebProgressListener
 =
 {

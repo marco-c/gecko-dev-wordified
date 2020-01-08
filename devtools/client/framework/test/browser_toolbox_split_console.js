@@ -207,7 +207,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -216,7 +216,7 @@ addTab
 URL
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -416,7 +416,7 @@ focused
 "
 )
 ;
-let
+const
 consoleInput
 =
 gToolbox
@@ -536,7 +536,7 @@ focused
 "
 )
 ;
-let
+const
 consoleInput
 =
 gToolbox

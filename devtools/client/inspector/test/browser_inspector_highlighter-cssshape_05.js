@@ -94,7 +94,7 @@ function
 (
 )
 {
-let
+const
 env
 =
 await
@@ -103,7 +103,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 helper
 =
 await
@@ -115,7 +115,7 @@ HIGHLIGHTER_TYPE
 env
 )
 ;
-let
+const
 {
 testActor
 inspector
@@ -123,7 +123,7 @@ inspector
 =
 env
 ;
-let
+const
 view
 =
 selectRuleView
@@ -131,14 +131,14 @@ selectRuleView
 inspector
 )
 ;
-let
+const
 highlighters
 =
 view
 .
 highlighters
 ;
-let
+const
 config
 =
 {
@@ -320,7 +320,7 @@ config
 }
 )
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -332,7 +332,7 @@ property
 .
 valueSpan
 ;
-let
+const
 shapesToggle
 =
 container
@@ -347,7 +347,7 @@ shapeswatch
 "
 )
 ;
-let
+const
 highlighterFront
 =
 highlighters
@@ -405,7 +405,7 @@ view
 "
 )
 ;
-let
+const
 pointSpan
 =
 container
@@ -685,7 +685,7 @@ config
 }
 )
 ;
-let
+const
 highlighterFront
 =
 highlighters
@@ -695,14 +695,14 @@ highlighters
 HIGHLIGHTER_TYPE
 ]
 ;
-let
+const
 {
 mouse
 }
 =
 helper
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -808,7 +808,7 @@ hovered
 "
 )
 ;
-let
+const
 pointSpan
 =
 container

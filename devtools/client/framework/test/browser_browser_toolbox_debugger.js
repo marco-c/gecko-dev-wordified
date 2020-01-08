@@ -277,7 +277,7 @@ done
 =
 >
 {
-let
+const
 options
 =
 {
@@ -402,7 +402,7 @@ done
 }
 )
 ;
-let
+const
 s
 =
 Cu
@@ -478,7 +478,7 @@ the
 latest
 sandbox
 .
-let
+const
 id
 =
 new
@@ -541,7 +541,7 @@ content
 as
 expected
 .
-let
+const
 testUrl
 =
 http
@@ -623,7 +623,7 @@ to
 trigger
 the
 breakpoint
-let
+const
 interval
 =
 setInterval
@@ -668,7 +668,7 @@ any
 scope
 variable
 !
-let
+const
 env
 =
 Cc
@@ -723,7 +723,7 @@ unused
 vars
 *
 /
-let
+const
 testHead
 =
 (
@@ -1353,7 +1353,7 @@ in
 other
 modules
 .
-let
+const
 {
 content
 :
@@ -1393,7 +1393,7 @@ browser
 /
 toolbox
 process
-let
+const
 testScript
 =
 (
@@ -1406,7 +1406,7 @@ testScriptURL
 .
 content
 ;
-let
+const
 source
 =
 "
@@ -1526,7 +1526,7 @@ MOZ_TOOLBOX_TEST_SCRIPT
 }
 )
 ;
-let
+const
 {
 BrowserToolboxProcess
 }

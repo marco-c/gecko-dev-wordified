@@ -377,7 +377,7 @@ testRestoreNotFromFile
 (
 )
 {
-let
+const
 session
 =
 [
@@ -393,7 +393,7 @@ executionContext
 }
 ]
 ;
-let
+const
 [
 win
 ]
@@ -471,7 +471,7 @@ testRestoreFromFileSaved
 (
 )
 {
-let
+const
 session
 =
 [
@@ -497,7 +497,7 @@ true
 }
 ]
 ;
-let
+const
 [
 win
 ]
@@ -594,7 +594,7 @@ testRestoreFromFileUnsaved
 (
 )
 {
-let
+const
 session
 =
 [
@@ -620,7 +620,7 @@ false
 }
 ]
 ;
-let
+const
 [
 win
 ]

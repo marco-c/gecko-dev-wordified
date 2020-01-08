@@ -87,8 +87,8 @@ json
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -118,7 +118,7 @@ load
 in
 new
 tab
-let
+const
 dir
 =
 getChromeDir
@@ -136,7 +136,7 @@ append
 TEST_JSON_FILE
 )
 ;
-let
+const
 uri
 =
 Services
@@ -148,10 +148,10 @@ newFileURI
 dir
 )
 ;
-let
+const
 tab
 =
-yield
+await
 addJsonViewTab
 (
 uri
@@ -170,7 +170,7 @@ and
 pricnipals
 in
 loadInfo
-yield
+await
 ContentTask
 .
 spawn
@@ -181,8 +181,8 @@ linkedBrowser
 {
 TEST_JSON_FILE
 }
+async
 function
-*
 (
 {
 TEST_JSON_FILE
@@ -196,7 +196,7 @@ eslint
 disable
 -
 line
-let
+const
 channel
 =
 content
@@ -207,7 +207,7 @@ docShell
 .
 currentDocumentChannel
 ;
-let
+const
 channelURI
 =
 channel
@@ -246,7 +246,7 @@ uri
 "
 )
 ;
-let
+const
 contentPolicyType
 =
 channel
@@ -271,7 +271,7 @@ contentPolicyType
 "
 )
 ;
-let
+const
 loadingPrincipal
 =
 channel
@@ -292,7 +292,7 @@ loadingPrincipal
 "
 )
 ;
-let
+const
 triggeringPrincipal
 =
 channel
@@ -319,7 +319,7 @@ triggeringPrincipal
 "
 )
 ;
-let
+const
 principalToInherit
 =
 channel
@@ -368,7 +368,7 @@ nodePrincipal
 reload
 the
 tab
-let
+const
 loaded
 =
 BrowserTestUtils
@@ -388,7 +388,7 @@ reload
 (
 )
 ;
-yield
+await
 loaded
 ;
 /
@@ -400,7 +400,7 @@ loadInfo
 are
 still
 correct
-yield
+await
 ContentTask
 .
 spawn
@@ -411,8 +411,8 @@ linkedBrowser
 {
 TEST_JSON_FILE
 }
+async
 function
-*
 (
 {
 TEST_JSON_FILE
@@ -426,7 +426,7 @@ eslint
 disable
 -
 line
-let
+const
 channel
 =
 content
@@ -437,7 +437,7 @@ docShell
 .
 currentDocumentChannel
 ;
-let
+const
 channelURI
 =
 channel
@@ -476,7 +476,7 @@ uri
 "
 )
 ;
-let
+const
 contentPolicyType
 =
 channel
@@ -501,7 +501,7 @@ contentPolicyType
 "
 )
 ;
-let
+const
 loadingPrincipal
 =
 channel
@@ -522,7 +522,7 @@ loadingPrincipal
 "
 )
 ;
-let
+const
 triggeringPrincipal
 =
 channel
@@ -549,7 +549,7 @@ triggeringPrincipal
 "
 )
 ;
-let
+const
 principalToInherit
 =
 channel

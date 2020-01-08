@@ -125,7 +125,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -136,7 +136,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 walker
 }
@@ -169,7 +169,7 @@ div
 inspector
 )
 ;
-let
+const
 divFront
 =
 await
@@ -185,7 +185,7 @@ div
 "
 )
 ;
-let
+const
 textFront
 =
 await
@@ -326,7 +326,7 @@ focused
 "
 )
 ;
-let
+const
 editor
 =
 getContainerForNodeFront
@@ -337,7 +337,7 @@ inspector
 .
 editor
 ;
-let
+const
 attributeEditor
 =
 editor
@@ -359,7 +359,7 @@ editable
 "
 )
 ;
-let
+const
 onFocus
 =
 once

@@ -177,7 +177,7 @@ findCoarseTypeIndex
 node
 )
 {
-let
+const
 index
 =
 TYPES
@@ -359,7 +359,7 @@ colorCoarseType
 node
 )
 {
-let
+const
 h
 =
 Math
@@ -375,7 +375,7 @@ node
 )
 )
 ;
-let
+const
 s
 =
 Math
@@ -386,7 +386,7 @@ min
 S
 )
 ;
-let
+const
 l
 =
 Math

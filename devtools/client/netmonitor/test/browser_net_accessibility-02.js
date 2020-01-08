@@ -58,7 +58,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -103,7 +103,7 @@ requestLongerTimeout
 2
 )
 ;
-let
+const
 {
 window
 document
@@ -115,7 +115,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -177,7 +177,7 @@ count
 "
 )
 ;
-let
+const
 requestItems
 =
 Array

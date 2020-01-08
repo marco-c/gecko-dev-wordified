@@ -192,7 +192,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -294,7 +294,7 @@ element
 "
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -305,7 +305,7 @@ view
 .
 rule
 ;
-let
+const
 ruleEditor
 =
 rule
@@ -317,7 +317,7 @@ textProps
 .
 editor
 ;
-let
+const
 computed
 =
 ruleEditor

@@ -189,7 +189,7 @@ tab
 =
 >
 {
-let
+const
 target
 =
 TargetFactory
@@ -236,14 +236,14 @@ testPrefsAreRespectedWhenReopeningToolbox
 (
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -281,7 +281,7 @@ then
 =
 >
 {
-let
+const
 tabTarget
 =
 TargetFactory
@@ -355,7 +355,7 @@ testSelectTool
 devtoolsToolbox
 )
 {
-let
+const
 deferred
 =
 defer
@@ -443,7 +443,7 @@ testPreferenceAndUIStateIsConsistent
 (
 )
 {
-let
+const
 checkNodes
 =
 [
@@ -475,7 +475,7 @@ checkbox
 )
 ]
 ;
-let
+const
 toolboxButtonNodes
 =
 [
@@ -497,7 +497,7 @@ button
 ;
 for
 (
-let
+const
 tool
 of
 toolbox
@@ -505,7 +505,7 @@ toolbox
 toolbarButtons
 )
 {
-let
+const
 isVisible
 =
 getBoolPref
@@ -515,7 +515,7 @@ tool
 visibilityswitch
 )
 ;
-let
+const
 button
 =
 toolboxButtonNodes
@@ -555,7 +555,7 @@ tool
 id
 )
 ;
-let
+const
 check
 =
 checkNodes
@@ -609,7 +609,7 @@ testToggleToolboxButtons
 (
 )
 {
-let
+const
 checkNodes
 =
 [
@@ -641,7 +641,7 @@ checkbox
 )
 ]
 ;
-let
+const
 visibleToolbarButtons
 =
 toolbox
@@ -658,7 +658,7 @@ tool
 isVisible
 )
 ;
-let
+const
 toolbarButtonNodes
 =
 [
@@ -721,7 +721,7 @@ toggleable
 ;
 for
 (
-let
+const
 tool
 of
 toolbox
@@ -729,14 +729,14 @@ toolbox
 toolbarButtons
 )
 {
-let
+const
 id
 =
 tool
 .
 id
 ;
-let
+const
 matchedCheckboxes
 =
 checkNodes
@@ -755,7 +755,7 @@ id
 id
 )
 ;
-let
+const
 matchedButtons
 =
 toolbarButtonNodes
@@ -924,7 +924,7 @@ error
 .
 for
 (
-let
+const
 tool
 of
 toolbox
@@ -932,7 +932,7 @@ toolbox
 toolbarButtons
 )
 {
-let
+const
 pref
 =
 tool
@@ -962,13 +962,13 @@ the
 preference
 for
 (
-let
+const
 node
 of
 checkNodes
 )
 {
-let
+const
 tool
 =
 toolbox
@@ -994,7 +994,7 @@ id
 0
 ]
 ;
-let
+const
 isVisible
 =
 getBoolPref
@@ -1018,7 +1018,7 @@ testPreferenceAndUIStateIsConsistent
 (
 )
 ;
-let
+const
 isVisibleAfterClick
 =
 getBoolPref
@@ -1102,7 +1102,7 @@ removeCurrentTab
 ;
 for
 (
-let
+const
 pref
 of
 modifiedPrefs

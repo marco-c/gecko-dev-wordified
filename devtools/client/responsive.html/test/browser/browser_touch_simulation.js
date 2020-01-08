@@ -161,7 +161,7 @@ function
 (
 )
 {
-let
+const
 div
 =
 content
@@ -539,7 +539,7 @@ function
 (
 )
 {
-let
+const
 div
 =
 content
@@ -889,14 +889,14 @@ function
 (
 )
 {
-let
+const
 {
 synthesizeClick
 }
 =
 EventUtils
 ;
-let
+const
 meta
 =
 content
@@ -915,7 +915,7 @@ viewport
 "
 )
 ;
-let
+const
 div
 =
 content
@@ -1286,14 +1286,14 @@ function
 (
 )
 {
-let
+const
 {
 synthesizeClick
 }
 =
 EventUtils
 ;
-let
+const
 meta
 =
 content
@@ -1312,7 +1312,7 @@ viewport
 "
 )
 ;
-let
+const
 div
 =
 content
@@ -1403,7 +1403,7 @@ testTouchButton
 ui
 )
 {
-let
+const
 {
 document
 }
@@ -1412,7 +1412,7 @@ ui
 .
 toolWindow
 ;
-let
+const
 touchButton
 =
 document
@@ -1523,7 +1523,7 @@ waitBootstrap
 ui
 )
 {
-let
+const
 {
 store
 }

@@ -149,7 +149,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -170,7 +170,7 @@ testid
 inspector
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -179,7 +179,7 @@ view
 1
 )
 ;
-let
+const
 propEditor
 =
 ruleEditor
@@ -292,7 +292,7 @@ propEditor
 valueSpan
 )
 ;
-let
+const
 onValueDeleted
 =
 view

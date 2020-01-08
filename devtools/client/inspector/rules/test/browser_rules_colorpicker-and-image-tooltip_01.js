@@ -171,7 +171,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -181,7 +181,7 @@ openRuleView
 (
 )
 ;
-let
+const
 value
 =
 getRuleViewProperty
@@ -197,7 +197,7 @@ background
 .
 valueSpan
 ;
-let
+const
 swatch
 =
 value
@@ -215,7 +215,7 @@ colorswatch
 0
 ]
 ;
-let
+const
 url
 =
 value
@@ -296,7 +296,7 @@ color
 "
 )
 ;
-let
+const
 picker
 =
 ruleView
@@ -310,7 +310,7 @@ colorPicker
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 picker
@@ -400,14 +400,14 @@ rgb
 }
 )
 ;
-let
+const
 spectrum
 =
 picker
 .
 spectrum
 ;
-let
+const
 onHidden
 =
 picker
@@ -421,7 +421,7 @@ hidden
 "
 )
 ;
-let
+const
 onModifications
 =
 ruleView

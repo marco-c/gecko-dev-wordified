@@ -126,7 +126,7 @@ Ci
 nsIHandlerService
 )
 ;
-let
+const
 contentTypes
 =
 {
@@ -232,7 +232,7 @@ files
 to
 disk
 .
-let
+const
 useDownloadDir
 =
 SpecialPowers
@@ -262,7 +262,7 @@ useDownloadDir
 false
 )
 ;
-let
+const
 {
 MockFilePicker
 }
@@ -286,7 +286,7 @@ returnCancel
 ;
 for
 (
-let
+const
 kind
 of
 Object
@@ -297,7 +297,7 @@ contentTypes
 )
 )
 {
-let
+const
 isValid
 =
 kind
@@ -310,7 +310,7 @@ valid
 ;
 for
 (
-let
+const
 type
 of
 contentTypes
@@ -335,7 +335,7 @@ the
 test
 fail
 .
-let
+const
 mimeInfo
 =
 mimeSvc
@@ -346,7 +346,7 @@ type
 null
 )
 ;
-let
+const
 exists
 =
 handlerSvc
@@ -356,7 +356,7 @@ exists
 mimeInfo
 )
 ;
-let
+const
 {
 alwaysAskBeforeHandling
 }
@@ -571,7 +571,7 @@ type
 }
 )
 ;
-let
+const
 count
 =
 await

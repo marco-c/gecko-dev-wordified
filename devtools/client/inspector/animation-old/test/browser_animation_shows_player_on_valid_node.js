@@ -93,7 +93,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel
@@ -122,7 +122,7 @@ empty
 "
 )
 ;
-let
+const
 node
 =
 await

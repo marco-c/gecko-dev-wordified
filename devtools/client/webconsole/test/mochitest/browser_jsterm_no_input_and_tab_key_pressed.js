@@ -108,7 +108,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -131,14 +131,14 @@ testCompletion
 hud
 )
 {
-let
+const
 jsterm
 =
 hud
 .
 jsterm
 ;
-let
+const
 input
 =
 jsterm

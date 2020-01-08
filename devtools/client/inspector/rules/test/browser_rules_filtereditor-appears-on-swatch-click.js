@@ -70,7 +70,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 {
 view
 }
@@ -91,7 +91,7 @@ element
 "
 )
 ;
-let
+const
 swatch
 =
 getRuleViewProperty
@@ -117,7 +117,7 @@ filterswatch
 "
 )
 ;
-let
+const
 filterTooltip
 =
 view
@@ -182,7 +182,7 @@ ruleview
 changed
 event
 .
-let
+const
 onRuleViewChanged
 =
 view

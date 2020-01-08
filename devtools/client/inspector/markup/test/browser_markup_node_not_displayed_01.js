@@ -239,7 +239,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -252,7 +252,7 @@ TEST_URL
 ;
 for
 (
-let
+const
 {
 selector
 isDisplayed
@@ -271,7 +271,7 @@ node
 selector
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -281,7 +281,7 @@ selector
 inspector
 )
 ;
-let
+const
 container
 =
 getContainerForNodeFront

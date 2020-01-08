@@ -961,14 +961,14 @@ aTarget
 aGrip
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 from
 =
 aGrip
@@ -977,7 +977,7 @@ initial
 .
 length
 ;
-let
+const
 to
 =
 Math
@@ -1171,7 +1171,7 @@ keys
 into
 quarters
 .
-let
+const
 items
 =
 Math
@@ -1185,14 +1185,14 @@ count
 4
 )
 ;
-let
+const
 iterator
 =
 aGrip
 .
 propertyIterator
 ;
-let
+const
 promises
 =
 [
@@ -1214,7 +1214,7 @@ i
 +
 )
 {
-let
+const
 start
 =
 aGrip
@@ -1225,7 +1225,7 @@ i
 *
 items
 ;
-let
+const
 count
 =
 i
@@ -1258,7 +1258,7 @@ to
 define
 the
 slice
-let
+const
 sliceGrip
 =
 {
@@ -1294,7 +1294,7 @@ items
 for
 this
 slice
-let
+const
 deferred
 =
 defer
@@ -1321,7 +1321,7 @@ names
 =
 >
 {
-let
+const
 label
 =
 "
@@ -1344,7 +1344,7 @@ names
 ]
 "
 ;
-let
+const
 item
 =
 aTarget
@@ -1512,7 +1512,7 @@ enough
 to
 be
 displayed
-let
+const
 deferred
 =
 defer
@@ -1716,14 +1716,14 @@ as
 enumProperties
 request
 .
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 objectClient
 =
 this
@@ -1733,7 +1733,7 @@ _getObjectClient
 aGrip
 )
 ;
-let
+const
 isArray
 =
 aGrip
@@ -1776,7 +1776,7 @@ array
 .
 length
 .
-let
+const
 options
 =
 {
@@ -1801,7 +1801,7 @@ iterator
 =
 >
 {
-let
+const
 sliceGrip
 =
 {
@@ -1854,7 +1854,7 @@ length
 buffer
 etc
 .
-let
+const
 options
 =
 {
@@ -1882,7 +1882,7 @@ iterator
 =
 >
 {
-let
+const
 sliceGrip
 =
 {
@@ -1965,7 +1965,7 @@ iterator
 =
 >
 {
-let
+const
 sliceGrip
 =
 {
@@ -2083,7 +2083,7 @@ null
 "
 )
 {
-let
+const
 proto
 =
 aTarget
@@ -2268,7 +2268,7 @@ game
 and
 return
 immediately
-let
+const
 deferred
 =
 defer
@@ -2441,7 +2441,7 @@ class
 )
 )
 {
-let
+const
 entriesList
 =
 aTarget
@@ -2539,14 +2539,14 @@ then
 =
 >
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 objectClient
 =
 this
@@ -2613,14 +2613,14 @@ aGrip
 aOptions
 )
 {
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 objectClient
 =
 this
@@ -2638,7 +2638,7 @@ aResponse
 =
 >
 {
-let
+const
 ownProperties
 =
 aResponse
@@ -2649,7 +2649,7 @@ ownProperties
 {
 }
 ;
-let
+const
 prototype
 =
 aResponse
@@ -2676,7 +2676,7 @@ on
 old
 actors
 .
-let
+const
 safeGetterValues
 =
 aResponse
@@ -2687,7 +2687,7 @@ safeGetterValues
 {
 }
 ;
-let
+const
 sortable
 =
 VariablesView
@@ -2722,7 +2722,7 @@ VariablesView
 .
 for
 (
-let
+const
 name
 of
 Object
@@ -2740,7 +2740,7 @@ in
 ownProperties
 )
 {
-let
+const
 {
 getterValue
 getterPrototypeLevel
@@ -3073,7 +3073,7 @@ aTarget
 aScope
 )
 {
-let
+const
 objectScopes
 =
 [
@@ -3084,7 +3084,7 @@ environment
 =
 aScope
 ;
-let
+const
 funcScope
 =
 aTarget
@@ -3131,7 +3131,7 @@ the
 inspected
 variables
 .
-let
+const
 label
 =
 StackFrameUtils
@@ -3156,7 +3156,7 @@ addItem
 allow
 duplicates
 .
-let
+const
 closure
 =
 funcScope
@@ -3225,7 +3225,7 @@ bindings
 }
 else
 {
-let
+const
 deferred
 =
 defer
@@ -3412,7 +3412,7 @@ arg
 =
 >
 {
-let
+const
 name
 =
 Object
@@ -3425,7 +3425,7 @@ arg
 0
 ]
 ;
-let
+const
 descriptor
 =
 arg
@@ -3544,14 +3544,14 @@ target
 grip
 )
 {
-let
+const
 objGrip
 =
 grip
 .
 obj
 ;
-let
+const
 objectClient
 =
 this
@@ -3635,7 +3635,7 @@ resolve
 }
 else
 {
-let
+const
 sliceGrip
 =
 {
@@ -3772,7 +3772,7 @@ this
 .
 _overrideValueEvalMacro
 ;
-let
+const
 getter
 =
 aTarget
@@ -3798,7 +3798,7 @@ this
 _getterOrSetterEvalMacro
 ;
 }
-let
+const
 setter
 =
 aTarget
@@ -4003,7 +4003,7 @@ on
 .
 for
 (
-let
+const
 grip
 of
 [
@@ -4197,7 +4197,7 @@ variable
 )
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -4661,7 +4661,7 @@ break
 ;
 default
 :
-let
+const
 error
 =
 "
@@ -4959,7 +4959,7 @@ aFilter
 {
 for
 (
-let
+const
 actor
 of
 this
@@ -5149,7 +5149,7 @@ empty
 (
 )
 ;
-let
+const
 scope
 =
 this
@@ -5190,7 +5190,7 @@ collapsing
 the
 scope
 .
-let
+const
 variable
 =
 scope
@@ -5479,7 +5479,7 @@ call
 "
 )
 {
-let
+const
 c
 =
 aFrame
@@ -5692,7 +5692,7 @@ case
 function
 "
 :
-let
+const
 f
 =
 aEnv

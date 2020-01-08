@@ -203,7 +203,7 @@ window
 |
 global
 .
-let
+const
 EventUtils
 =
 {
@@ -387,7 +387,7 @@ conn
 actorID
 )
 {
-let
+const
 actor
 =
 conn
@@ -1500,7 +1500,7 @@ selector
 )
 )
 {
-let
+const
 fullSelector
 =
 selector
@@ -1522,7 +1522,7 @@ length
 1
 )
 {
-let
+const
 str
 =
 selector
@@ -1531,7 +1531,7 @@ shift
 (
 )
 ;
-let
+const
 iframe
 =
 document
@@ -1649,7 +1649,7 @@ shift
 )
 ;
 }
-let
+const
 node
 =
 document
@@ -1846,7 +1846,7 @@ name
 actorID
 )
 {
-let
+const
 helper
 =
 getHighlighterCanvasFrameHelper
@@ -1946,7 +1946,7 @@ actorID
 let
 value
 ;
-let
+const
 helper
 =
 getHighlighterCanvasFrameHelper
@@ -2034,7 +2034,7 @@ function
 actorID
 )
 {
-let
+const
 highlighter
 =
 this
@@ -2046,7 +2046,7 @@ getActor
 actorID
 )
 ;
-let
+const
 {
 _highlighter
 :
@@ -2167,7 +2167,7 @@ resolve
 =
 >
 {
-let
+const
 highlighter
 =
 this
@@ -2179,7 +2179,7 @@ getActor
 actorID
 )
 ;
-let
+const
 {
 _highlighter
 :
@@ -2265,7 +2265,7 @@ event
 actorID
 )
 {
-let
+const
 highlighter
 =
 this
@@ -2277,7 +2277,7 @@ getActor
 actorID
 )
 ;
-let
+const
 {
 _highlighter
 :
@@ -2372,7 +2372,7 @@ resolve
 =
 >
 {
-let
+const
 node
 =
 selector
@@ -2504,7 +2504,7 @@ if
 actorID
 )
 {
-let
+const
 actor
 =
 this
@@ -2516,7 +2516,7 @@ getActor
 actorID
 )
 ;
-let
+const
 {
 _highlighter
 :
@@ -2543,7 +2543,7 @@ resolve
 )
 ;
 }
-let
+const
 docShell
 =
 this
@@ -2656,13 +2656,13 @@ function
 selector
 )
 {
-let
+const
 regions
 =
 {
 }
 ;
-let
+const
 node
 =
 this
@@ -2674,7 +2674,7 @@ selector
 ;
 for
 (
-let
+const
 boxType
 of
 [
@@ -2841,7 +2841,7 @@ options
 }
 )
 {
-let
+const
 node
 =
 this
@@ -2998,7 +2998,7 @@ function
 selector
 )
 {
-let
+const
 node
 =
 this
@@ -3073,7 +3073,7 @@ selector
 pseudo
 )
 {
-let
+const
 node
 =
 this
@@ -3281,7 +3281,7 @@ function
 selector
 )
 {
-let
+const
 node
 =
 this
@@ -3291,7 +3291,7 @@ _querySelector
 selector
 )
 ;
-let
+const
 rect
 =
 node
@@ -3412,7 +3412,7 @@ property
 value
 )
 {
-let
+const
 node
 =
 this
@@ -3480,7 +3480,7 @@ selector
 property
 )
 {
-let
+const
 node
 =
 this
@@ -3546,7 +3546,7 @@ selector
 attribute
 )
 {
-let
+const
 node
 =
 this
@@ -3615,7 +3615,7 @@ attribute
 value
 )
 {
-let
+const
 node
 =
 this
@@ -3674,7 +3674,7 @@ selector
 attribute
 )
 {
-let
+const
 node
 =
 this
@@ -3752,7 +3752,7 @@ function
 selector
 )
 {
-let
+const
 node
 =
 this
@@ -3762,14 +3762,14 @@ _querySelector
 selector
 )
 ;
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 onLoad
 =
 function
@@ -3883,7 +3883,7 @@ apps
 .
 .
 .
-let
+const
 sb
 =
 Cu
@@ -3902,7 +3902,7 @@ content
 }
 )
 ;
-let
+const
 result
 =
 Cu
@@ -4074,7 +4074,7 @@ return
 }
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -4095,7 +4095,7 @@ function
 event
 )
 {
-let
+const
 data
 =
 {
@@ -4177,7 +4177,7 @@ function
 (
 )
 {
-let
+const
 deferred
 =
 defer
@@ -4217,7 +4217,7 @@ getNodeRect
 selector
 )
 {
-let
+const
 node
 =
 this
@@ -4247,7 +4247,7 @@ parentSelector
 childNodeIndex
 )
 {
-let
+const
 parentNode
 =
 this
@@ -4257,7 +4257,7 @@ _querySelector
 parentSelector
 )
 ;
-let
+const
 node
 =
 parentNode
@@ -4417,7 +4417,7 @@ function
 selector
 )
 {
-let
+const
 node
 =
 this
@@ -4612,7 +4612,7 @@ function
 selector
 )
 {
-let
+const
 node
 =
 this
@@ -4622,7 +4622,7 @@ _querySelector
 selector
 )
 ;
-let
+const
 domRules
 =
 getCSSStyleRules
@@ -4630,7 +4630,7 @@ getCSSStyleRules
 node
 )
 ;
-let
+const
 sheets
 =
 [
@@ -4657,7 +4657,7 @@ i
 +
 )
 {
-let
+const
 sheet
 =
 domRules
@@ -5246,7 +5246,7 @@ selector
 "
 "
 ;
-let
+const
 boxModel
 =
 await
@@ -5256,7 +5256,7 @@ _getBoxModelStatus
 (
 )
 ;
-let
+const
 regions
 =
 await
@@ -5269,7 +5269,7 @@ selector
 ;
 for
 (
-let
+const
 boxType
 of
 [
@@ -5288,7 +5288,7 @@ margin
 ]
 )
 {
-let
+const
 [
 quad
 ]
@@ -5300,7 +5300,7 @@ boxType
 ;
 for
 (
-let
+const
 point
 in
 boxModel
@@ -5414,7 +5414,7 @@ getSimpleBorderRect
 toolbox
 )
 {
-let
+const
 {
 border
 }
@@ -5427,7 +5427,7 @@ _getBoxModelStatus
 toolbox
 )
 ;
-let
+const
 {
 p1
 p2
@@ -5498,7 +5498,7 @@ _getBoxModelStatus
 (
 )
 {
-let
+const
 isVisible
 =
 await
@@ -5508,7 +5508,7 @@ isHighlighting
 (
 )
 ;
-let
+const
 ret
 =
 {
@@ -5519,7 +5519,7 @@ isVisible
 ;
 for
 (
-let
+const
 region
 of
 [
@@ -5538,7 +5538,7 @@ content
 ]
 )
 {
-let
+const
 points
 =
 await
@@ -5549,7 +5549,7 @@ _getPointsForRegion
 region
 )
 ;
-let
+const
 visible
 =
 await
@@ -5580,7 +5580,7 @@ guides
 ;
 for
 (
-let
+const
 guide
 of
 [
@@ -5660,7 +5660,7 @@ assertHighlightedNode
 selector
 )
 {
-let
+const
 rect
 =
 await
@@ -5747,7 +5747,7 @@ parentSelector
 childNodeIndex
 )
 {
-let
+const
 rect
 =
 await
@@ -5810,7 +5810,7 @@ height
 }
 )
 {
-let
+const
 {
 visible
 border
@@ -5851,14 +5851,14 @@ within
 the
 box
 model
-let
+const
 right
 =
 left
 +
 width
 ;
-let
+const
 bottom
 =
 top
@@ -5873,7 +5873,7 @@ dictionnary
 into
 an
 array
-let
+const
 list
 =
 [
@@ -5896,7 +5896,7 @@ i
 +
 )
 {
-let
+const
 p
 =
 points
@@ -6014,7 +6014,7 @@ _getPointsForRegion
 region
 )
 {
-let
+const
 d
 =
 await
@@ -6035,7 +6035,7 @@ d
 "
 )
 ;
-let
+const
 polygons
 =
 d
@@ -6063,7 +6063,7 @@ return
 null
 ;
 }
-let
+const
 points
 =
 polygons
@@ -6255,7 +6255,7 @@ _isRegionHidden
 region
 )
 {
-let
+const
 value
 =
 await
@@ -6290,7 +6290,7 @@ _getGuideStatus
 location
 )
 {
-let
+const
 id
 =
 "
@@ -6304,7 +6304,7 @@ guide
 +
 location
 ;
-let
+const
 hidden
 =
 await
@@ -6318,7 +6318,7 @@ hidden
 "
 )
 ;
-let
+const
 x1
 =
 await
@@ -6332,7 +6332,7 @@ x1
 "
 )
 ;
-let
+const
 y1
 =
 await
@@ -6346,7 +6346,7 @@ y1
 "
 )
 ;
-let
+const
 x2
 =
 await
@@ -6360,7 +6360,7 @@ x2
 "
 )
 ;
-let
+const
 y2
 =
 await
@@ -6460,7 +6460,7 @@ getGuidesRectangle
 (
 )
 {
-let
+const
 tGuide
 =
 await
@@ -6473,7 +6473,7 @@ top
 "
 )
 ;
-let
+const
 rGuide
 =
 await
@@ -6486,7 +6486,7 @@ right
 "
 )
 ;
-let
+const
 bGuide
 =
 await
@@ -6499,7 +6499,7 @@ bottom
 "
 )
 ;
-let
+const
 lGuide
 =
 await
@@ -6777,7 +6777,7 @@ region
 highlighter
 )
 {
-let
+const
 d
 =
 await
@@ -6812,7 +6812,7 @@ null
 }
 ;
 }
-let
+const
 polygons
 =
 d
@@ -6842,7 +6842,7 @@ d
 }
 ;
 }
-let
+const
 points
 =
 [
@@ -6850,7 +6850,7 @@ points
 ;
 for
 (
-let
+const
 polygon
 of
 polygons
@@ -7154,7 +7154,7 @@ points
 on
 the
 edges
-let
+const
 r
 =
 isLeft
@@ -7332,7 +7332,7 @@ p1
 p2
 )
 {
-let
+const
 l
 =
 (

@@ -140,7 +140,7 @@ addTab
 gBrowser
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -341,7 +341,7 @@ Linux
 and
 Mac
 .
-let
+const
 onToolboxFocus
 =
 (
@@ -452,7 +452,7 @@ window
 got
 focus
 .
-let
+const
 onToolboxFocusAgain
 =
 (

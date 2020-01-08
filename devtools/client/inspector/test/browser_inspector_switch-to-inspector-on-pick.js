@@ -107,7 +107,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -116,7 +116,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -168,7 +168,7 @@ webconsole
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -208,7 +208,7 @@ button
 "
 )
 ;
-let
+const
 pickButton
 =
 toolbox

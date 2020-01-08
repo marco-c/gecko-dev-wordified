@@ -59,7 +59,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -71,14 +71,14 @@ initWebAudioEditor
 AUTOMATION_URL
 )
 ;
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -87,7 +87,7 @@ AutomationView
 =
 panelWin
 ;
-let
+const
 started
 =
 once
@@ -100,7 +100,7 @@ context
 "
 )
 ;
-let
+const
 events
 =
 Promise
@@ -131,7 +131,7 @@ reload
 target
 )
 ;
-let
+const
 [
 actors
 ]
@@ -139,7 +139,7 @@ actors
 await
 events
 ;
-let
+const
 nodeIds
 =
 actors

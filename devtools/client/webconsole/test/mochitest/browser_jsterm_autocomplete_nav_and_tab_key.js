@@ -202,7 +202,7 @@ function
 (
 )
 {
-let
+const
 {
 jsterm
 }
@@ -415,7 +415,7 @@ KEY_ArrowDown
 "
 )
 ;
-let
+const
 prefix
 =
 jsterm

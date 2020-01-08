@@ -222,7 +222,7 @@ function
 (
 )
 {
-let
+const
 helper
 =
 await
@@ -245,7 +245,7 @@ prefix
 =
 ID
 ;
-let
+const
 {
 hide
 finalize
@@ -490,7 +490,7 @@ selector
 ;
 for
 (
-let
+const
 side
 in
 arrows
@@ -538,7 +538,7 @@ correct
 "
 )
 ;
-let
+const
 handlerX
 =
 await
@@ -555,7 +555,7 @@ cx
 "
 )
 ;
-let
+const
 handlerY
 =
 await
@@ -572,7 +572,7 @@ cy
 "
 )
 ;
-let
+const
 expectedHandlerX
 =
 await
@@ -592,7 +592,7 @@ name
 cx
 )
 ;
-let
+const
 expectedHandlerY
 =
 await
@@ -654,13 +654,13 @@ correct
 ;
 for
 (
-let
+const
 coordinate
 in
 expectedCoords
 )
 {
-let
+const
 value
 =
 await

@@ -182,7 +182,7 @@ render
 (
 )
 {
-let
+const
 {
 method
 }

@@ -377,7 +377,7 @@ appendStatusMessage
 msg
 )
 {
-let
+const
 statusMessage
 =
 document
@@ -434,7 +434,7 @@ visible
 true
 )
 {
-let
+const
 statusMessageContainer
 =
 document
@@ -493,7 +493,7 @@ function
 Initiate
 the
 connection
-let
+const
 env
 =
 Cc
@@ -518,7 +518,7 @@ Ci
 nsIEnvironment
 )
 ;
-let
+const
 port
 =
 env
@@ -530,7 +530,7 @@ MOZ_BROWSER_TOOLBOX_PORT
 "
 )
 ;
-let
+const
 addonID
 =
 env
@@ -613,14 +613,14 @@ MOZ_BROWSER_TOOLBOX_PORT
 )
 ;
 }
-let
+const
 host
 =
 Prefs
 .
 chromeDebuggingHost
 ;
-let
+const
 webSocket
 =
 Prefs
@@ -645,7 +645,7 @@ webSocket
 }
 )
 ;
-let
+const
 transport
 =
 await
@@ -702,7 +702,7 @@ if
 addonID
 )
 {
-let
+const
 {
 addons
 }
@@ -714,7 +714,7 @@ listAddons
 (
 )
 ;
-let
+const
 addonActor
 =
 addons
@@ -737,7 +737,7 @@ pop
 (
 )
 ;
-let
+const
 isTabActor
 =
 addonActor
@@ -761,7 +761,7 @@ isTabActor
 }
 else
 {
-let
+const
 response
 =
 await
@@ -1047,7 +1047,7 @@ function
 (
 )
 {
-let
+const
 cmdClose
 =
 document
@@ -1092,7 +1092,7 @@ an
 error
 occurs
 .
-let
+const
 delayedStatusReveal
 =
 setTimeout
@@ -1213,7 +1213,7 @@ null
 }
 )
 ;
-let
+const
 target
 =
 await
@@ -1224,7 +1224,7 @@ forRemoteTab
 options
 )
 ;
-let
+const
 frame
 =
 document
@@ -1268,7 +1268,7 @@ the
 debugger
 panel
 .
-let
+const
 selectedTool
 =
 Services
@@ -1322,7 +1322,7 @@ selectedTool
 selected
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -1364,7 +1364,7 @@ raise
 (
 )
 ;
-let
+const
 env
 =
 Cc
@@ -1389,7 +1389,7 @@ Ci
 nsIEnvironment
 )
 ;
-let
+const
 testScript
 =
 env
@@ -1425,7 +1425,7 @@ only
 pref
 is
 set
-let
+const
 prefName
 =
 "
@@ -1491,7 +1491,7 @@ script
 toolbox
 )
 {
-let
+const
 sandbox
 =
 Cu
@@ -1605,7 +1605,7 @@ pause
 /
 resume
 .
-let
+const
 panel
 =
 await
@@ -1640,7 +1640,7 @@ isPaused
 )
 )
 ;
-let
+const
 onPaused
 =
 updateBadgeText
@@ -1651,7 +1651,7 @@ null
 true
 )
 ;
-let
+const
 onResumed
 =
 updateBadgeText
@@ -1740,7 +1740,7 @@ updateBadgeText
 paused
 )
 {
-let
+const
 dockSupport
 =
 Cc
@@ -1803,7 +1803,7 @@ message
 onMessage
 )
 ;
-let
+const
 cmdClose
 =
 document
@@ -1844,7 +1844,7 @@ event
 {
 try
 {
-let
+const
 json
 =
 JSON
@@ -1950,7 +1950,7 @@ quitApp
 (
 )
 {
-let
+const
 quit
 =
 Cc
@@ -1991,7 +1991,7 @@ requested
 "
 )
 ;
-let
+const
 shouldProceed
 =
 !

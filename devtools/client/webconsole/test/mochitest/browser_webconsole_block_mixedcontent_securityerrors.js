@@ -581,7 +581,7 @@ protection
 "
 )
 ;
-let
+const
 {
 gIdentityHandler
 }

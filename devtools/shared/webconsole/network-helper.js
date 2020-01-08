@@ -680,7 +680,7 @@ text
 charset
 )
 {
-let
+const
 conv
 =
 Cc
@@ -904,7 +904,7 @@ Ci
 nsIUploadChannel
 )
 {
-let
+const
 iStream
 =
 request
@@ -967,7 +967,7 @@ from
 the
 stream
 .
-let
+const
 text
 =
 this
@@ -1110,7 +1110,7 @@ docShell
 charset
 )
 {
-let
+const
 webNav
 =
 docShell
@@ -1202,7 +1202,7 @@ Ci
 nsIWebPageDescriptor
 )
 {
-let
+const
 descriptor
 =
 webNav
@@ -1645,7 +1645,7 @@ Ci
 nsIChannel
 )
 {
-let
+const
 loadInfo
 =
 request
@@ -1771,7 +1771,7 @@ charset
 callback
 )
 {
-let
+const
 channel
 =
 NetUtil
@@ -1881,7 +1881,7 @@ passed
 assumed
 charset
 .
-let
+const
 requestChannel
 =
 request
@@ -1893,7 +1893,7 @@ Ci
 nsIChannel
 )
 ;
-let
+const
 contentCharset
 =
 requestChannel
@@ -1987,7 +1987,7 @@ function
 header
 )
 {
-let
+const
 cookies
 =
 header
@@ -1999,7 +1999,7 @@ split
 "
 )
 ;
-let
+const
 result
 =
 [
@@ -2014,7 +2014,7 @@ function
 cookie
 )
 {
-let
+const
 equal
 =
 cookie
@@ -2026,7 +2026,7 @@ indexOf
 "
 )
 ;
-let
+const
 name
 =
 cookie
@@ -2037,7 +2037,7 @@ substr
 equal
 )
 ;
-let
+const
 value
 =
 cookie
@@ -2202,7 +2202,7 @@ UNSET
 ;
 }
 }
-let
+const
 rawCookies
 =
 header
@@ -2223,7 +2223,7 @@ r
 /
 )
 ;
-let
+const
 cookies
 =
 [
@@ -2238,7 +2238,7 @@ function
 cookie
 )
 {
-let
+const
 equal
 =
 cookie
@@ -2250,7 +2250,7 @@ indexOf
 "
 )
 ;
-let
+const
 name
 =
 unescape
@@ -2268,7 +2268,7 @@ trim
 )
 )
 ;
-let
+const
 parts
 =
 cookie
@@ -2287,7 +2287,7 @@ split
 "
 )
 ;
-let
+const
 value
 =
 unescape
@@ -2390,7 +2390,7 @@ indexOf
 1
 )
 {
-let
+const
 pair
 =
 part
@@ -3494,7 +3494,7 @@ return
 true
 ;
 }
-let
+const
 category
 =
 this
@@ -4934,7 +4934,7 @@ get
 incorrect
 results
 .
-let
+const
 flags
 =
 (
@@ -4969,7 +4969,7 @@ not
 the
 scheme
 .
-let
+const
 host
 =
 httpActivity
@@ -5179,7 +5179,7 @@ function
 cert
 )
 {
-let
+const
 info
 =
 {
@@ -5586,7 +5586,7 @@ nsNSSCallbacks
 cpp
 #
 l1233
-let
+const
 reasons
 =
 [
@@ -5601,7 +5601,7 @@ wpl
 STATE_IS_BROKEN
 )
 {
-let
+const
 isCipher
 =
 state
@@ -5778,7 +5778,7 @@ value
 }
 tuples
 .
-let
+const
 paramsArray
 =
 queryString
@@ -5809,7 +5809,7 @@ e
 =
 >
 {
-let
+const
 param
 =
 e
@@ -5922,7 +5922,7 @@ url
 )
 ;
 }
-let
+const
 uri
 =
 Services
@@ -5957,7 +5957,7 @@ uri
 ;
 for
 (
-let
+const
 prop
 of
 Object

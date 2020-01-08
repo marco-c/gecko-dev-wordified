@@ -201,7 +201,7 @@ use
 strict
 "
 ;
-let
+const
 {
 Cc
 Ci
@@ -263,7 +263,7 @@ url
 requestPostData
 )
 {
-let
+const
 win
 =
 Services
@@ -277,7 +277,7 @@ gDevTools
 chromeWindowType
 )
 ;
-let
+const
 rawData
 =
 requestPostData
@@ -301,7 +301,7 @@ rawData
 text
 )
 {
-let
+const
 stringStream
 =
 getInputStreamFromString
@@ -394,7 +394,7 @@ getInputStreamFromString
 data
 )
 {
-let
+const
 stringStream
 =
 Cc

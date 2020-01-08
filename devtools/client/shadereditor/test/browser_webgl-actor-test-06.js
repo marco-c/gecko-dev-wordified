@@ -58,7 +58,7 @@ ifWebGLSupported
 (
 )
 {
-let
+const
 {
 target
 front
@@ -81,7 +81,7 @@ true
 }
 )
 ;
-let
+const
 programActor
 =
 await
@@ -95,7 +95,7 @@ linked
 "
 )
 ;
-let
+const
 vertexShader
 =
 await
@@ -105,7 +105,7 @@ getVertexShader
 (
 )
 ;
-let
+const
 fragmentShader
 =
 await
@@ -607,7 +607,7 @@ function
 (
 )
 {
-let
+const
 newVertexShader
 =
 await
@@ -617,7 +617,7 @@ getVertexShader
 (
 )
 ;
-let
+const
 newFragmentShader
 =
 await
@@ -659,7 +659,7 @@ retrieved
 "
 )
 ;
-let
+const
 vertSource
 =
 await
@@ -669,7 +669,7 @@ getText
 (
 )
 ;
-let
+const
 fragSource
 =
 await

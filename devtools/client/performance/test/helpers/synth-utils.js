@@ -686,7 +686,7 @@ document
 arrowNode
 )
 {
-let
+const
 node
 =
 document
@@ -752,7 +752,7 @@ children
 {
 for
 (
-let
+const
 childDataSrc
 of
 this

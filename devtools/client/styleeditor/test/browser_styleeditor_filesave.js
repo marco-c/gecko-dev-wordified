@@ -144,15 +144,15 @@ NetUtil
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 htmlFile
 =
-yield
+await
 copy
 (
 TESTCASE_URI_HTML
@@ -163,7 +163,7 @@ html
 "
 )
 ;
-yield
+await
 copy
 (
 TESTCASE_URI_CSS
@@ -174,7 +174,7 @@ css
 "
 )
 ;
-let
+const
 uri
 =
 Services
@@ -186,7 +186,7 @@ newFileURI
 htmlFile
 )
 ;
-let
+const
 filePath
 =
 uri
@@ -197,18 +197,18 @@ resolve
 "
 )
 ;
-let
+const
 {
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 filePath
 )
 ;
-let
+const
 editor
 =
 ui
@@ -218,7 +218,7 @@ editors
 0
 ]
 ;
-yield
+await
 editor
 .
 getSourceEditor
@@ -252,7 +252,7 @@ change
 "
 )
 ;
-let
+const
 beginCursor
 =
 {
@@ -278,7 +278,7 @@ beginCursor
 beginCursor
 )
 ;
-yield
+await
 dirty
 ;
 is
@@ -384,7 +384,7 @@ URI
 }
 )
 ;
-yield
+await
 dirty
 ;
 is
@@ -452,7 +452,7 @@ resolve
 =
 >
 {
-let
+const
 destFile
 =
 FileUtils
@@ -487,7 +487,7 @@ read
 srcChromeURL
 )
 {
-let
+const
 scriptableStream
 =
 Cc
@@ -510,7 +510,7 @@ Ci
 nsIScriptableInputStream
 )
 ;
-let
+const
 channel
 =
 NetUtil
@@ -527,7 +527,7 @@ true
 }
 )
 ;
-let
+const
 input
 =
 channel
@@ -601,7 +601,7 @@ file
 callback
 )
 {
-let
+const
 converter
 =
 Cc
@@ -634,7 +634,7 @@ UTF
 8
 "
 ;
-let
+const
 istream
 =
 converter
@@ -644,7 +644,7 @@ convertToInputStream
 data
 )
 ;
-let
+const
 ostream
 =
 FileUtils

@@ -56,7 +56,7 @@ gBrowser
 selectedBrowser
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -94,7 +94,7 @@ tab
 "
 )
 ;
-let
+const
 hidden
 =
 once
@@ -129,7 +129,7 @@ received
 "
 )
 ;
-let
+const
 visible
 =
 once
@@ -159,7 +159,7 @@ received
 "
 )
 ;
-let
+const
 willNavigate
 =
 once
@@ -172,7 +172,7 @@ navigate
 "
 )
 ;
-let
+const
 navigate
 =
 once
@@ -250,7 +250,7 @@ received
 "
 )
 ;
-let
+const
 close
 =
 once

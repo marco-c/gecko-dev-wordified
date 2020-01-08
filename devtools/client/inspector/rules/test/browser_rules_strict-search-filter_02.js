@@ -106,7 +106,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -208,7 +208,7 @@ element
 "
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -219,7 +219,7 @@ view
 .
 rule
 ;
-let
+const
 source
 =
 rule

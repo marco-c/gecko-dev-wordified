@@ -89,8 +89,8 @@ json
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -104,7 +104,7 @@ started
 "
 )
 ;
-yield
+await
 addJsonViewTab
 (
 TEST_JSON_URL
@@ -116,7 +116,7 @@ Select
 the
 RawData
 tab
-yield
+await
 selectJsonViewContentTab
 (
 "
@@ -129,10 +129,10 @@ headers
 Check
 displayed
 headers
-let
+const
 count
 =
-yield
+await
 getElementCount
 (
 "
@@ -157,10 +157,10 @@ groups
 "
 )
 ;
-let
+const
 text
 =
-yield
+await
 getElementText
 (
 "
@@ -186,7 +186,7 @@ empty
 "
 )
 ;
-let
+const
 browser
 =
 gBrowser
@@ -202,7 +202,7 @@ into
 the
 clipboard
 .
-yield
+await
 waitForClipboardPromise
 (
 function

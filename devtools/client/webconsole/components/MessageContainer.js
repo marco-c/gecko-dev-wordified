@@ -477,7 +477,7 @@ getMessage
 (
 )
 ;
-let
+const
 MessageComponent
 =
 getMessageComponent

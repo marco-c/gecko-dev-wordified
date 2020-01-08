@@ -461,7 +461,7 @@ enabled
 true
 )
 ;
-let
+const
 {
 inspector
 }
@@ -512,7 +512,7 @@ data
 ;
 for
 (
-let
+const
 [
 key
 expected
@@ -630,7 +630,7 @@ slottedClassName
 inspector
 )
 {
-let
+const
 selectedContainer
 =
 inspector
@@ -641,7 +641,7 @@ getSelectedContainer
 (
 )
 ;
-let
+const
 slotted
 =
 !

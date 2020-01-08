@@ -356,7 +356,7 @@ startTelemetry
 (
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -368,7 +368,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -442,7 +442,7 @@ responsive
 "
 )
 ;
-let
+const
 button
 =
 toolbox
@@ -498,7 +498,7 @@ resolve
 =
 >
 {
-let
+const
 handler
 =
 (
@@ -594,7 +594,7 @@ node
 id
 )
 ;
-let
+const
 toggled
 =
 waitForToggle

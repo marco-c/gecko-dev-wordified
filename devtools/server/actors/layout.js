@@ -406,7 +406,7 @@ this
 actorID
 ;
 }
-let
+const
 form
 =
 {
@@ -661,7 +661,7 @@ read
 the
 data
 .
-let
+const
 gridFragments
 =
 this
@@ -696,7 +696,7 @@ the
 grid
 outline
 .
-let
+const
 {
 direction
 writingMode
@@ -711,7 +711,7 @@ this
 containerEl
 )
 ;
-let
+const
 form
 =
 {
@@ -1090,7 +1090,7 @@ node
 rawNode
 ;
 }
-let
+const
 treeWalker
 =
 this
@@ -1754,7 +1754,7 @@ node
 documentElement
 ;
 }
-let
+const
 gridElements
 =
 node
@@ -1781,7 +1781,7 @@ n
 )
 )
 ;
-let
+const
 frames
 =
 node
@@ -1796,7 +1796,7 @@ frame
 ;
 for
 (
-let
+const
 frame
 of
 frames

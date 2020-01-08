@@ -57,7 +57,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -80,7 +80,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -91,7 +91,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -111,7 +111,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -159,7 +159,7 @@ tab
 1
 )
 ;
-let
+const
 requestItem
 =
 document
@@ -179,7 +179,7 @@ item
 0
 ]
 ;
-let
+const
 requestsListStatus
 =
 requestItem
@@ -364,7 +364,7 @@ tab
 await
 wait
 ;
-let
+const
 text
 =
 document

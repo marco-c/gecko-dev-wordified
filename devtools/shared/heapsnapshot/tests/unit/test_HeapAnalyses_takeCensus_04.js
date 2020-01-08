@@ -212,7 +212,7 @@ allocationSamplingProbability
 ;
 for
 (
-let
+const
 [
 func
 n
@@ -556,7 +556,7 @@ no
 unexpected
 keys
 .
-let
+const
 stacks
 =
 {

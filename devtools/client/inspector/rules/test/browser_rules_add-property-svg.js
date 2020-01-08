@@ -103,7 +103,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 {
 inspector
 view

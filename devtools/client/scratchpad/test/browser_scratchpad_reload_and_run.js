@@ -134,7 +134,7 @@ DEVTOOLS_CHROME_ENABLED
 true
 )
 ;
-let
+const
 url
 =
 "
@@ -210,7 +210,7 @@ runTests
 (
 )
 {
-let
+const
 sp
 =
 gScratchpadWindow
@@ -253,7 +253,7 @@ the
 browser
 context
 .
-let
+const
 reloadAndRun
 =
 gScratchpadWindow
@@ -412,7 +412,7 @@ setText
 EDITOR_TEXT
 )
 ;
-let
+const
 browser
 =
 gBrowser
@@ -459,7 +459,7 @@ intact
 }
 )
 ;
-let
+const
 reloaded
 =
 BrowserTestUtils

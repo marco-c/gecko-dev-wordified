@@ -469,7 +469,7 @@ children
 {
 for
 (
-let
+const
 child
 of
 node
@@ -531,7 +531,7 @@ children
 {
 for
 (
-let
+const
 child
 of
 node

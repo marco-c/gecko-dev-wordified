@@ -597,7 +597,7 @@ theme
 light
 "
 ;
-let
+const
 mainColor
 =
 getColor
@@ -1441,7 +1441,7 @@ defer
 ;
 for
 (
-let
+const
 graph
 of
 (
@@ -1501,7 +1501,7 @@ destroy
 (
 )
 {
-let
+const
 primary
 =
 this
@@ -1568,7 +1568,7 @@ promise
 }
 for
 (
-let
+const
 graph
 of
 this
@@ -1624,7 +1624,7 @@ options
 }
 )
 {
-let
+const
 theme
 =
 options
@@ -1640,7 +1640,7 @@ _getTheme
 ;
 for
 (
-let
+const
 graph
 of
 this
@@ -1805,7 +1805,7 @@ graphName
 isEnabled
 )
 {
-let
+const
 el
 =
 this
@@ -2099,7 +2099,7 @@ mapEnd
 }
 )
 {
-let
+const
 primary
 =
 this
@@ -2255,7 +2255,7 @@ enabled
 {
 for
 (
-let
+const
 graph
 of
 (
@@ -2296,7 +2296,7 @@ _construct
 graphName
 )
 {
-let
+const
 def
 =
 this
@@ -2306,7 +2306,7 @@ _definition
 graphName
 ]
 ;
-let
+const
 el
 =
 this
@@ -2317,7 +2317,7 @@ def
 selector
 )
 ;
-let
+const
 filter
 =
 this
@@ -2326,7 +2326,7 @@ _getFilter
 (
 )
 ;
-let
+const
 graph
 =
 this
@@ -2616,7 +2616,7 @@ this
 _enabledGraphs
 ;
 }
-let
+const
 enabled
 =
 [
@@ -2624,7 +2624,7 @@ enabled
 ;
 for
 (
-let
+const
 graphName
 of
 this
@@ -2632,7 +2632,7 @@ this
 _enabled
 )
 {
-let
+const
 graph
 =
 await
@@ -2798,7 +2798,7 @@ setData
 return
 ;
 }
-let
+const
 {
 sampleTimes
 }
@@ -2857,7 +2857,7 @@ not
 get
 recorded
 .
-let
+const
 startTime
 =
 sampleTimes
@@ -2865,7 +2865,7 @@ sampleTimes
 0
 ]
 ;
-let
+const
 endTime
 =
 sampleTimes
@@ -2877,7 +2877,7 @@ length
 1
 ]
 ;
-let
+const
 bucketSize
 =
 (
@@ -2888,7 +2888,7 @@ startTime
 /
 OPTIMIZATIONS_GRAPH_RESOLUTION
 ;
-let
+const
 data
 =
 createTierGraphDataFromFrameNode
@@ -3041,7 +3041,7 @@ theme
 light
 "
 ;
-let
+const
 interpreterColor
 =
 getColor
@@ -3054,7 +3054,7 @@ red
 theme
 )
 ;
-let
+const
 baselineColor
 =
 getColor
@@ -3067,7 +3067,7 @@ blue
 theme
 )
 ;
-let
+const
 ionColor
 =
 getColor

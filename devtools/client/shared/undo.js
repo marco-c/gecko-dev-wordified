@@ -420,7 +420,7 @@ larger
 than
 maxUndo
 .
-let
+const
 start
 =
 Math
@@ -457,7 +457,7 @@ this
 _index
 )
 ;
-let
+const
 batch
 =
 this
@@ -469,7 +469,7 @@ this
 .
 _batch
 ;
-let
+const
 entry
 =
 {
@@ -481,7 +481,7 @@ function
 {
 for
 (
-let
+const
 item
 of
 batch
@@ -910,7 +910,7 @@ function
 controllerWindow
 )
 {
-let
+const
 controllers
 =
 controllerWindow

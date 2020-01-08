@@ -1044,7 +1044,7 @@ run_test
 {
 for
 (
-let
+const
 test
 of
 TEST_DATA
@@ -1267,7 +1267,7 @@ else
 {
 for
 (
-let
+const
 prop
 of
 actual

@@ -204,7 +204,7 @@ test_sourcemaps
 .
 js
 .
-let
+const
 expectedSources
 =
 new

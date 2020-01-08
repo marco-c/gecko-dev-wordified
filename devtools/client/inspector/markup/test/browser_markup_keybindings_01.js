@@ -103,7 +103,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -128,7 +128,7 @@ element
 "
 )
 ;
-let
+const
 {
 editor
 }
@@ -246,7 +246,7 @@ the
 markup
 -
 view
-let
+const
 attributes
 =
 (
@@ -280,7 +280,7 @@ mode
 ;
 for
 (
-let
+const
 attribute
 of
 attributes
@@ -335,7 +335,7 @@ already
 focused
 now
 .
-let
+const
 reverseAttributes
 =
 attributes
@@ -352,7 +352,7 @@ shift
 ;
 for
 (
-let
+const
 attribute
 of
 reverseAttributes

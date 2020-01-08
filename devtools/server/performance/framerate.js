@@ -308,7 +308,7 @@ return
 ]
 ;
 }
-let
+const
 ticks
 =
 this

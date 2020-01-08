@@ -78,8 +78,8 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -319,7 +319,7 @@ uDE80
 ;
 for
 (
-let
+const
 {
 input
 output
@@ -348,7 +348,7 @@ input
 "
 )
 ;
-yield
+await
 addJsonViewTab
 (
 "
@@ -362,7 +362,7 @@ json
 input
 )
 ;
-yield
+await
 selectJsonViewContentTab
 (
 "
@@ -376,10 +376,10 @@ Check
 displayed
 data
 .
-let
+const
 data
 =
-yield
+await
 getElementText
 (
 "

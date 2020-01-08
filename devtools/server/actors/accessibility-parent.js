@@ -431,7 +431,7 @@ the
 message
 manager
 .
-let
+const
 oldMM
 =
 this
@@ -507,7 +507,7 @@ onAccessibilityMessage
 msg
 )
 {
-let
+const
 {
 action
 }
@@ -654,7 +654,7 @@ disable
 accessibility
 service
 .
-let
+const
 {
 PlatformAPI
 }
@@ -921,7 +921,7 @@ this
 enabled
 )
 {
-let
+const
 a11yService
 =
 Cc
@@ -944,7 +944,7 @@ Ci
 nsIAccessibilityService
 )
 ;
-let
+const
 {
 PlatformAPI
 }

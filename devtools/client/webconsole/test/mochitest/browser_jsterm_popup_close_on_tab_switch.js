@@ -157,7 +157,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -166,7 +166,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 popup
 =
 hud
@@ -175,7 +175,7 @@ jsterm
 .
 autocompletePopup
 ;
-let
+const
 popupShown
 =
 once

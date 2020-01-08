@@ -296,7 +296,7 @@ selectedRequest
 requests
 )
 {
-let
+const
 {
 id
 isCustom
@@ -317,7 +317,7 @@ url
 =
 selectedRequest
 ;
-let
+const
 {
 connector
 cloneSelectedRequest
@@ -328,13 +328,13 @@ this
 .
 props
 ;
-let
+const
 menu
 =
 [
 ]
 ;
-let
+const
 copySubmenu
 =
 [
@@ -2056,7 +2056,7 @@ openInDebugger
 url
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -2101,7 +2101,7 @@ openInStyleEditor
 url
 )
 {
-let
+const
 toolbox
 =
 gDevTools
@@ -2180,7 +2180,7 @@ copyUrlParams
 url
 )
 {
-let
+const
 params
 =
 getUrlQuery
@@ -2307,7 +2307,7 @@ section
 =
 >
 {
-let
+const
 paramsArray
 =
 parseQueryString
@@ -2556,7 +2556,7 @@ Curl
 command
 generator
 .
-let
+const
 data
 =
 {
@@ -2817,7 +2817,7 @@ responseContent
 "
 )
 ;
-let
+const
 {
 encoding
 text
@@ -2876,7 +2876,7 @@ responseContent
 "
 )
 ;
-let
+const
 {
 encoding
 text
@@ -2886,7 +2886,7 @@ responseContent
 .
 content
 ;
-let
+const
 fileName
 =
 getUrlBaseName
@@ -2908,7 +2908,7 @@ base64
 "
 )
 {
-let
+const
 decoded
 =
 atob

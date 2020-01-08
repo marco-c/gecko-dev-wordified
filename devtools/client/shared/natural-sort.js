@@ -508,7 +508,7 @@ to
 strings
 strip
 whitespace
-let
+const
 i
 =
 function
@@ -548,7 +548,7 @@ sre
 ;
 }
 ;
-let
+const
 x
 =
 i
@@ -560,7 +560,7 @@ a
 "
 "
 ;
-let
+const
 y
 =
 i
@@ -577,7 +577,7 @@ b
 chunk
 /
 tokenize
-let
+const
 xN
 =
 x
@@ -616,7 +616,7 @@ split
 "
 )
 ;
-let
+const
 yN
 =
 y
@@ -662,7 +662,7 @@ hex
 or
 date
 detection
-let
+const
 xD
 =
 parseInt
@@ -695,7 +695,7 @@ x
 )
 )
 ;
-let
+const
 yD
 =
 parseInt
@@ -731,7 +731,7 @@ y
 |
 null
 ;
-let
+const
 normChunk
 =
 function
@@ -1026,7 +1026,7 @@ oFxNcL
 localeCompare
 )
 {
-let
+const
 comp
 =
 oFxNcL

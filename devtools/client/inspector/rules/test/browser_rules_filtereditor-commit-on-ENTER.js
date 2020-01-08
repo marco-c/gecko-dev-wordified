@@ -67,7 +67,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 {
 view
 }
@@ -88,7 +88,7 @@ element
 "
 )
 ;
-let
+const
 swatch
 =
 getRuleViewProperty
@@ -211,7 +211,7 @@ instance
 "
 )
 ;
-let
+const
 filterTooltip
 =
 view
@@ -225,7 +225,7 @@ filterEditor
 "
 )
 ;
-let
+const
 widget
 =
 filterTooltip

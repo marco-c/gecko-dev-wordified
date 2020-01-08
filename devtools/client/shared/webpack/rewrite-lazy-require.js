@@ -91,7 +91,7 @@ named
 "
 depedencies
 .
-let
+const
 res
 =
 content

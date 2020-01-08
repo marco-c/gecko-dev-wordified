@@ -499,7 +499,7 @@ arrays
 .
 for
 (
-let
+const
 type
 of
 typedArrayTypes
@@ -523,7 +523,7 @@ except
 for
 Float64Array
 .
-let
+const
 size
 =
 type
@@ -637,7 +637,7 @@ displayed
 "
 )
 ;
-let
+const
 resultsCount
 =
 findMessages
@@ -662,7 +662,7 @@ execute
 command
 )
 ;
-let
+const
 oi
 =
 await
@@ -673,7 +673,7 @@ waitFor
 =
 >
 {
-let
+const
 results
 =
 findMessages
@@ -730,7 +730,7 @@ inspector
 "
 )
 ;
-let
+const
 onOiExpanded
 =
 waitFor
@@ -778,7 +778,7 @@ click
 await
 onOiExpanded
 ;
-let
+const
 labelNodes
 =
 oi
@@ -811,7 +811,7 @@ i
 +
 )
 {
-let
+const
 key
 =
 expectedKeys
@@ -819,7 +819,7 @@ expectedKeys
 i
 ]
 ;
-let
+const
 labelNode
 =
 labelNodes

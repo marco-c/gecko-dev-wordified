@@ -346,7 +346,7 @@ i
 )
 ;
 ;
-let
+const
 sandbox
 =
 Cu
@@ -364,7 +364,7 @@ com
 "
 )
 ;
-let
+const
 dbg
 =
 new
@@ -372,7 +372,7 @@ Debugger
 (
 )
 ;
-let
+const
 dbgObject
 =
 dbg
@@ -382,7 +382,7 @@ addDebuggee
 sandbox
 )
 ;
-let
+const
 dbgEnv
 =
 dbgObject
@@ -1470,7 +1470,7 @@ generators
 "
 )
 ;
-let
+const
 gen1Result
 =
 Cu
@@ -1525,7 +1525,7 @@ executed
 "
 )
 ;
-let
+const
 gen1NextResult
 =
 Cu
@@ -1566,7 +1566,7 @@ generator
 "
 )
 ;
-let
+const
 gen2Result
 =
 Cu
@@ -1605,7 +1605,7 @@ next
 "
 )
 ;
-let
+const
 gen2NextResult
 =
 Cu

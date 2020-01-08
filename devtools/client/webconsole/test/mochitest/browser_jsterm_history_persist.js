@@ -218,7 +218,7 @@ through
 their
 history
 .
-let
+const
 hud1
 =
 await
@@ -368,7 +368,7 @@ the
 first
 tab
 .
-let
+const
 hud2
 =
 await
@@ -570,7 +570,7 @@ shouldn
 t
 be
 affected
-let
+const
 hud3
 =
 await
@@ -972,7 +972,7 @@ the
 first
 tab
 .
-let
+const
 hud4
 =
 await
@@ -1115,7 +1115,7 @@ works
 "
 )
 ;
-let
+const
 hud5
 =
 await
@@ -1125,7 +1125,7 @@ TEST_URI
 false
 )
 ;
-let
+const
 state5
 =
 hud5
@@ -1233,7 +1233,7 @@ populateInputHistory
 hud
 )
 {
-let
+const
 jsterm
 =
 hud
@@ -1323,7 +1323,7 @@ testNavigatingHistoryInUI
 hud
 )
 {
-let
+const
 jsterm
 =
 hud

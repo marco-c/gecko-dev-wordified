@@ -108,7 +108,7 @@ blank
 "
 )
 ;
-let
+const
 [
 host
 doc
@@ -123,7 +123,7 @@ bottom
 TEST_URI
 )
 ;
-let
+const
 table
 =
 new
@@ -517,7 +517,7 @@ value34
 }
 )
 ;
-let
+const
 span
 =
 doc
@@ -1085,7 +1085,7 @@ id4
 "
 )
 ;
-let
+const
 node
 =
 doc
@@ -1143,7 +1143,7 @@ id7
 "
 )
 ;
-let
+const
 node2
 =
 doc
@@ -1311,7 +1311,7 @@ selectedRow
 id4
 "
 ;
-let
+const
 node3
 =
 doc
@@ -2726,7 +2726,7 @@ while
 cell
 )
 {
-let
+const
 currentCell
 =
 cell
@@ -2738,7 +2738,7 @@ cell
 .
 textContent
 ;
-let
+const
 prevCell
 =
 cell
@@ -2795,7 +2795,7 @@ parentNode
 firstChild
 )
 {
-let
+const
 currentCell
 =
 cell
@@ -2807,7 +2807,7 @@ cell
 .
 textContent
 ;
-let
+const
 nextCell
 =
 cell

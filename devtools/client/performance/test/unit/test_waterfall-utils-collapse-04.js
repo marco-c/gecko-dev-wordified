@@ -123,7 +123,7 @@ expected
 =
 >
 {
-let
+const
 rootMarkerNode
 =
 WaterfallUtils
@@ -174,7 +174,7 @@ expected
 {
 for
 (
-let
+const
 prop
 in
 expected

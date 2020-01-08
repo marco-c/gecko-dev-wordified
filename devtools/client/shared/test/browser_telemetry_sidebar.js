@@ -435,7 +435,7 @@ startTelemetry
 (
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -447,7 +447,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -514,7 +514,7 @@ sidebar
 "
 )
 ;
-let
+const
 inspector
 =
 toolbox
@@ -595,7 +595,7 @@ selectSidebarTab
 (
 )
 {
-let
+const
 tool
 =
 sidebarTools
@@ -878,7 +878,7 @@ null
 ;
 for
 (
-let
+const
 i
 in
 DATA

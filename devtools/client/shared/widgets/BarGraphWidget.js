@@ -869,7 +869,7 @@ function
 (
 )
 {
-let
+const
 {
 canvas
 ctx
@@ -888,21 +888,21 @@ background
 "
 )
 ;
-let
+const
 width
 =
 this
 .
 _width
 ;
-let
+const
 height
 =
 this
 .
 _height
 ;
-let
+const
 gradient
 =
 ctx
@@ -1018,7 +1018,7 @@ source
 )
 ;
 }
-let
+const
 {
 canvas
 ctx
@@ -1037,21 +1037,21 @@ data
 "
 )
 ;
-let
+const
 width
 =
 this
 .
 _width
 ;
-let
+const
 height
 =
 this
 .
 _height
 ;
-let
+const
 totalTypes
 =
 this
@@ -1060,7 +1060,7 @@ format
 .
 length
 ;
-let
+const
 totalTicks
 =
 this
@@ -1069,7 +1069,7 @@ _data
 .
 length
 ;
-let
+const
 lastTick
 =
 this
@@ -1083,7 +1083,7 @@ totalTicks
 .
 delta
 ;
-let
+const
 minBarsWidth
 =
 this
@@ -1094,7 +1094,7 @@ this
 .
 _pixelRatio
 ;
-let
+const
 minBlocksHeight
 =
 this
@@ -1105,7 +1105,7 @@ this
 .
 _pixelRatio
 ;
-let
+const
 duration
 =
 this
@@ -1115,7 +1115,7 @@ dataDuration
 |
 lastTick
 ;
-let
+const
 dataScaleX
 =
 this
@@ -1132,7 +1132,7 @@ this
 dataOffsetX
 )
 ;
-let
+const
 dataScaleY
 =
 this
@@ -1224,13 +1224,13 @@ _blocksBoundingRects
 [
 ]
 ;
-let
+const
 prevHeight
 =
 [
 ]
 ;
-let
+const
 scaledMarginEnd
 =
 GRAPH_BARS_MARGIN_END
@@ -1239,7 +1239,7 @@ this
 .
 _pixelRatio
 ;
-let
+const
 scaledMarginTop
 =
 GRAPH_BARS_MARGIN_TOP
@@ -1320,7 +1320,7 @@ tick
 +
 )
 {
-let
+const
 delta
 =
 this
@@ -1332,7 +1332,7 @@ tick
 .
 delta
 ;
-let
+const
 value
 =
 this
@@ -1350,7 +1350,7 @@ type
 |
 0
 ;
-let
+const
 blockRight
 =
 (
@@ -1363,14 +1363,14 @@ dataOffsetX
 *
 dataScaleX
 ;
-let
+const
 blockHeight
 =
 value
 *
 dataScaleY
 ;
-let
+const
 blockWidth
 =
 blockRight
@@ -1396,7 +1396,7 @@ blockHeight
 continue
 ;
 }
-let
+const
 averageHeight
 =
 (
@@ -1419,7 +1419,7 @@ averageHeight
 minBlocksHeight
 )
 {
-let
+const
 bottom
 =
 height
@@ -1660,7 +1660,7 @@ remove
 }
 for
 (
-let
+const
 {
 color
 label
@@ -1889,7 +1889,7 @@ aren
 t
 highlighted
 .
-let
+const
 {
 canvas
 ctx
@@ -1906,14 +1906,14 @@ highlights
 "
 )
 ;
-let
+const
 width
 =
 this
 .
 _width
 ;
-let
+const
 height
 =
 this
@@ -1927,7 +1927,7 @@ the
 background
 mask
 .
-let
+const
 pattern
 =
 AbstractCanvasGraph
@@ -1971,7 +1971,7 @@ Clear
 highlighted
 areas
 .
-let
+const
 totalTicks
 =
 this
@@ -1980,7 +1980,7 @@ _data
 .
 length
 ;
-let
+const
 firstTick
 =
 unpack
@@ -1993,7 +1993,7 @@ _data
 ]
 )
 ;
-let
+const
 lastTick
 =
 unpack
@@ -2054,7 +2054,7 @@ width
 )
 ;
 }
-let
+const
 firstSnap
 =
 findFirst
@@ -2073,7 +2073,7 @@ start
 start
 )
 ;
-let
+const
 lastSnap
 =
 findLast
@@ -2100,7 +2100,7 @@ end
 end
 )
 ;
-let
+const
 x1
 =
 firstSnap
@@ -2139,7 +2139,7 @@ end
 end
 ;
 }
-let
+const
 y1
 =
 top
@@ -2147,7 +2147,7 @@ top
 |
 0
 ;
-let
+const
 y2
 =
 bottom
@@ -2291,7 +2291,7 @@ skippedHeight
 =
 0
 ;
-let
+const
 scaledMarginEnd
 =
 GRAPH_BARS_MARGIN_END
@@ -2302,7 +2302,7 @@ _pixelRatio
 ;
 for
 (
-let
+const
 {
 delta
 values
@@ -2311,7 +2311,7 @@ of
 data
 )
 {
-let
+const
 barRight
 =
 (
@@ -2324,7 +2324,7 @@ dataOffsetX
 *
 dataScaleX
 ;
-let
+const
 barHeight
 =
 values
@@ -2343,7 +2343,7 @@ b
 0
 )
 ;
-let
+const
 barWidth
 =
 barRight
@@ -2369,7 +2369,7 @@ barHeight
 continue
 ;
 }
-let
+const
 averageHeight
 =
 (
@@ -2435,7 +2435,7 @@ function
 (
 )
 {
-let
+const
 legendNode
 =
 this
@@ -2501,7 +2501,7 @@ color
 label
 )
 {
-let
+const
 itemNode
 =
 this
@@ -2532,7 +2532,7 @@ legend
 item
 "
 ;
-let
+const
 colorNode
 =
 this
@@ -2633,7 +2633,7 @@ this
 _onLegendMouseUp
 )
 ;
-let
+const
 labelNode
 =
 this
@@ -2729,7 +2729,7 @@ GRAPH_LEGEND_MOUSEOVER_DEBOUNCE
 =
 >
 {
-let
+const
 type
 =
 ev
@@ -2740,7 +2740,7 @@ dataset
 .
 index
 ;
-let
+const
 rects
 =
 this
@@ -2912,7 +2912,7 @@ stopPropagation
 (
 )
 ;
-let
+const
 type
 =
 ev
@@ -2923,7 +2923,7 @@ dataset
 .
 index
 ;
-let
+const
 rects
 =
 this
@@ -2943,7 +2943,7 @@ type
 type
 )
 ;
-let
+const
 leftmost
 =
 rects
@@ -2951,7 +2951,7 @@ rects
 0
 ]
 ;
-let
+const
 rightmost
 =
 rects
@@ -3113,7 +3113,7 @@ i
 +
 )
 {
-let
+const
 element
 =
 array
@@ -3194,7 +3194,7 @@ i
 -
 )
 {
-let
+const
 element
 =
 array

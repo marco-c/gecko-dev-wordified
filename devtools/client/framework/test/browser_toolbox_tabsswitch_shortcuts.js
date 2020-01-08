@@ -144,7 +144,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -157,7 +157,7 @@ blank
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -174,7 +174,7 @@ makeRemote
 (
 )
 ;
-let
+const
 toolIDs
 =
 gDevTools
@@ -217,7 +217,7 @@ def
 id
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -237,7 +237,7 @@ HostType
 BOTTOM
 )
 ;
-let
+const
 nextShortcut
 =
 L10N
@@ -253,7 +253,7 @@ key
 "
 )
 ;
-let
+const
 prevShortcut
 =
 L10N
@@ -525,7 +525,7 @@ shortcut
 shortcut
 )
 ;
-let
+const
 onToolSelected
 =
 toolbox
@@ -542,7 +542,7 @@ synthesizeKeyShortcut
 shortcut
 )
 ;
-let
+const
 id
 =
 await

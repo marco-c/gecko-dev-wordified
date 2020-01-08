@@ -95,7 +95,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -431,14 +431,14 @@ selector
 inspector
 )
 ;
-let
+const
 elementStyle
 =
 view
 .
 _elementStyle
 ;
-let
+const
 rules
 =
 {
@@ -530,7 +530,7 @@ i
 ;
 for
 (
-let
+const
 keyframeRule
 of
 rules
@@ -610,7 +610,7 @@ view
 expected
 )
 {
-let
+const
 gutters
 =
 view
@@ -657,7 +657,7 @@ i
 ;
 for
 (
-let
+const
 gutter
 of
 gutters

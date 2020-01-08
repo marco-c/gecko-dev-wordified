@@ -77,7 +77,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -100,7 +100,7 @@ to
 show
 its
 children
-let
+const
 svgNodeFront
 =
 await
@@ -128,7 +128,7 @@ waitForMultipleChildrenUpdates
 inspector
 )
 ;
-let
+const
 clipPathContainer
 =
 await
@@ -175,7 +175,7 @@ lowercased
 "
 )
 ;
-let
+const
 divContainer
 =
 await

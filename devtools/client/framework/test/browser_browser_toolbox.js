@@ -136,7 +136,7 @@ done
 =
 >
 {
-let
+const
 options
 =
 {
@@ -282,7 +282,7 @@ the
 browser
 toolbox
 .
-let
+const
 onCustomMessage
 =
 new
@@ -384,7 +384,7 @@ any
 scope
 variable
 !
-let
+const
 env
 =
 Cc
@@ -415,7 +415,7 @@ global
 toolbox
 *
 /
-let
+const
 testScript
 =
 function
@@ -453,7 +453,7 @@ a
 close
 button
 .
-let
+const
 hasCloseButton
 =
 !
@@ -471,7 +471,7 @@ close
 "
 )
 ;
-let
+const
 {
 jsterm
 }
@@ -480,7 +480,7 @@ console
 .
 hud
 ;
-let
+const
 js
 =
 "
@@ -570,7 +570,7 @@ MOZ_TOOLBOX_TEST_SCRIPT
 }
 )
 ;
-let
+const
 {
 BrowserToolboxProcess
 }
@@ -687,7 +687,7 @@ state
 "
 )
 ;
-let
+const
 hasCloseButton
 =
 await

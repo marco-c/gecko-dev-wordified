@@ -243,7 +243,7 @@ tooltip
 "
 )
 ;
-let
+const
 tooltip
 =
 ruleView
@@ -257,7 +257,7 @@ previewTooltip
 "
 )
 ;
-let
+const
 tooltipContent
 =
 ruleView
@@ -356,7 +356,7 @@ stopTogglingOnHover
 (
 )
 ;
-let
+const
 onShown
 =
 tooltip
@@ -392,7 +392,7 @@ node
 "
 )
 ;
-let
+const
 onHidden
 =
 tooltip
@@ -452,7 +452,7 @@ tooltip
 "
 )
 ;
-let
+const
 tooltip
 =
 computedView
@@ -466,7 +466,7 @@ previewTooltip
 "
 )
 ;
-let
+const
 tooltipContent
 =
 computedView
@@ -565,7 +565,7 @@ stopTogglingOnHover
 (
 )
 ;
-let
+const
 onShown
 =
 tooltip
@@ -601,7 +601,7 @@ node
 "
 )
 ;
-let
+const
 onHidden
 =
 tooltip

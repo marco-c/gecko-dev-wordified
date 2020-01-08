@@ -918,7 +918,7 @@ get
 (
 )
 {
-let
+const
 stack
 =
 getStack
@@ -1792,7 +1792,7 @@ longer
 be
 used
 .
-let
+const
 webNavigation
 =
 new
@@ -1912,7 +1912,7 @@ reattach
 it
 here
 .
-let
+const
 tab
 =
 gBrowser
@@ -1922,7 +1922,7 @@ getTabForBrowser
 outer
 )
 ;
-let
+const
 filteredProgressListener
 =
 gBrowser
@@ -2041,7 +2041,7 @@ browser
 .
 for
 (
-let
+const
 property
 of
 SWAPPED_BROWSER_STATE
@@ -2110,7 +2110,7 @@ target
 .
 for
 (
-let
+const
 property
 of
 PROPERTIES_FROM_BROWSER_WINDOW
@@ -2273,7 +2273,7 @@ focus
 of
 RDM
 .
-let
+const
 {
 detail
 }
@@ -2286,7 +2286,7 @@ preventDefault
 (
 )
 ;
-let
+const
 uri
 =
 Services
@@ -2398,7 +2398,7 @@ stop
 (
 )
 {
-let
+const
 tab
 =
 gBrowser
@@ -2408,7 +2408,7 @@ getTabForBrowser
 outer
 )
 ;
-let
+const
 filteredProgressListener
 =
 gBrowser
@@ -2468,7 +2468,7 @@ elsewhere
 .
 for
 (
-let
+const
 property
 of
 SWAPPED_BROWSER_STATE
@@ -2596,7 +2596,7 @@ owner
 global
 for
 (
-let
+const
 property
 of
 PROPERTIES_FROM_BROWSER_WINDOW
@@ -3514,7 +3514,7 @@ message
 manager
 there
 .
-let
+const
 docShell
 =
 this
@@ -3594,7 +3594,7 @@ init
 {
 for
 (
-let
+const
 method
 of
 this
@@ -3647,7 +3647,7 @@ args
 }
 for
 (
-let
+const
 name
 of
 this
@@ -3855,7 +3855,7 @@ messageManager
 ;
 for
 (
-let
+const
 name
 of
 this
@@ -3913,7 +3913,7 @@ methods
 .
 for
 (
-let
+const
 method
 of
 this

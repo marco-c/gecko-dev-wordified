@@ -423,7 +423,7 @@ ellipse
 return
 true
 .
-let
+const
 inner
 =
 (
@@ -466,7 +466,7 @@ clickWidthY
 *
 2
 ;
-let
+const
 outer
 =
 (
@@ -702,7 +702,7 @@ wiki
 Distance_from_a_point_to_a_line
 #
 Line_defined_by_two_points
-let
+const
 num
 =
 Math
@@ -734,7 +734,7 @@ y2
 x1
 )
 ;
-let
+const
 denom
 =
 getDistance
@@ -898,7 +898,7 @@ wiki
 Vector_projection
 #
 Vector_projection_2
-let
+const
 ab
 =
 [
@@ -910,7 +910,7 @@ by
 ay
 ]
 ;
-let
+const
 ac
 =
 [
@@ -922,7 +922,7 @@ cy
 ay
 ]
 ;
-let
+const
 scalar
 =
 dotProduct

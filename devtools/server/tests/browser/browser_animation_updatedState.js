@@ -84,7 +84,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -163,7 +163,7 @@ to
 avoid
 intermittents
 .
-let
+const
 node
 =
 await
@@ -196,7 +196,7 @@ node
 "
 )
 ;
-let
+const
 [
 player
 ]
@@ -273,7 +273,7 @@ finish
 "
 )
 ;
-let
+const
 onFinished
 =
 waitForAnimationPlayState

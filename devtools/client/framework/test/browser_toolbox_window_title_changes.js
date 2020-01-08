@@ -357,7 +357,7 @@ then
 =
 >
 {
-let
+const
 onTitleChanged
 =
 waitForTitleChange
@@ -410,7 +410,7 @@ function
 (
 )
 {
-let
+const
 onTitleChanged
 =
 waitForTitleChange
@@ -464,7 +464,7 @@ then
 =
 >
 {
-let
+const
 onTitleChanged
 =
 waitForTitleChange
@@ -628,7 +628,7 @@ then
 =
 >
 {
-let
+const
 onTitleChanged
 =
 waitForTitleChange
@@ -770,7 +770,7 @@ url
 context
 )
 {
-let
+const
 win
 =
 Services

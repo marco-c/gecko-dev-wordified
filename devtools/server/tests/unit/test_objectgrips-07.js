@@ -213,7 +213,7 @@ event
 packet
 )
 {
-let
+const
 [
 f
 s
@@ -227,7 +227,7 @@ frame
 .
 arguments
 ;
-let
+const
 [
 fClient
 sClient
@@ -379,7 +379,7 @@ function
 (
 )
 {
-let
+const
 f
 =
 {
@@ -392,7 +392,7 @@ freeze
 f
 )
 ;
-let
+const
 s
 =
 {
@@ -405,7 +405,7 @@ seal
 s
 )
 ;
-let
+const
 ne
 =
 {

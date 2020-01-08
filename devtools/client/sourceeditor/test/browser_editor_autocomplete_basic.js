@@ -116,7 +116,7 @@ win
 =
 >
 {
-let
+const
 edWin
 =
 ed

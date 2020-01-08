@@ -413,7 +413,7 @@ render
 (
 )
 {
-let
+const
 {
 onTakeSnapshotClick
 onImportClick

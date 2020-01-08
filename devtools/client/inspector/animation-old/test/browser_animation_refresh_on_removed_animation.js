@@ -87,7 +87,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel

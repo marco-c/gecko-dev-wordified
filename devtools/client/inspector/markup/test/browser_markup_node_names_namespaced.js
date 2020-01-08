@@ -250,7 +250,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -274,7 +274,7 @@ show
 its
 children
 .
-let
+const
 svgNodeFront
 =
 await
@@ -302,7 +302,7 @@ waitForMultipleChildrenUpdates
 inspector
 )
 ;
-let
+const
 clipPathContainer
 =
 await
@@ -352,7 +352,7 @@ displayed
 "
 )
 ;
-let
+const
 circlePathContainer
 =
 await

@@ -72,8 +72,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -138,7 +138,7 @@ page
 is
 loaded
 .
-let
+const
 tabAdded
 =
 addTab
@@ -146,7 +146,7 @@ addTab
 TESTCASE_URI
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -158,7 +158,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 styleEditorLoaded
 =
 gDevTools
@@ -171,7 +171,7 @@ styleeditor
 "
 )
 ;
-yield
+await
 Promise
 .
 all
@@ -182,7 +182,7 @@ styleEditorLoaded
 ]
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -192,7 +192,7 @@ getToolbox
 target
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -204,14 +204,14 @@ styleeditor
 "
 )
 ;
-let
+const
 {
 panelWindow
 }
 =
 panel
 ;
-let
+const
 root
 =
 panelWindow

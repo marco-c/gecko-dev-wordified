@@ -118,7 +118,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }

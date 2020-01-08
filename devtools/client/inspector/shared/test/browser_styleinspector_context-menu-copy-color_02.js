@@ -150,7 +150,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -215,7 +215,7 @@ div
 inspector
 )
 ;
-let
+const
 element
 =
 getRuleViewProperty
@@ -241,7 +241,7 @@ colorswatch
 "
 )
 ;
-let
+const
 allMenuItems
 =
 openStyleContextMenuAndGetAllItems
@@ -250,7 +250,7 @@ view
 element
 )
 ;
-let
+const
 menuitemCopyColor
 =
 allMenuItems
@@ -348,7 +348,7 @@ div
 inspector
 )
 ;
-let
+const
 {
 valueSpan
 }
@@ -364,7 +364,7 @@ color
 "
 )
 ;
-let
+const
 newColor
 =
 "
@@ -372,7 +372,7 @@ newColor
 C9184E
 "
 ;
-let
+const
 editor
 =
 await
@@ -391,14 +391,14 @@ value
 "
 )
 ;
-let
+const
 input
 =
 editor
 .
 input
 ;
-let
+const
 onBlur
 =
 once
@@ -432,7 +432,7 @@ wait
 1
 )
 ;
-let
+const
 colorValueElement
 =
 getRuleViewProperty
@@ -475,7 +475,7 @@ popupNode
 =
 colorValueElement
 ;
-let
+const
 contextMenu
 =
 view
@@ -533,7 +533,7 @@ div
 inspector
 )
 ;
-let
+const
 swatchElement
 =
 getRuleViewProperty
@@ -569,7 +569,7 @@ picker
 "
 )
 ;
-let
+const
 picker
 =
 view
@@ -583,7 +583,7 @@ colorPicker
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 picker
@@ -604,7 +604,7 @@ click
 await
 onColorPickerReady
 ;
-let
+const
 rgbaColor
 =
 [
@@ -614,7 +614,7 @@ rgbaColor
 1
 ]
 ;
-let
+const
 rgbaColorText
 =
 "
@@ -662,7 +662,7 @@ popupNode
 =
 swatchElement
 ;
-let
+const
 contextMenu
 =
 view

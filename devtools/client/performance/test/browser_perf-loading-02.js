@@ -210,7 +210,7 @@ function
 (
 )
 {
-let
+const
 {
 panel
 }
@@ -228,7 +228,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -238,7 +238,7 @@ panel
 .
 panelWin
 ;
-let
+const
 detailsContainer
 =
 (
@@ -252,7 +252,7 @@ container
 "
 )
 ;
-let
+const
 recordingNotice
 =
 (
@@ -264,7 +264,7 @@ notice
 "
 )
 ;
-let
+const
 loadingNotice
 =
 (
@@ -276,7 +276,7 @@ notice
 "
 )
 ;
-let
+const
 detailsPane
 =
 (
@@ -442,7 +442,7 @@ one
 "
 )
 ;
-let
+const
 recordingSelected
 =
 once

@@ -551,7 +551,7 @@ output
 length
 )
 {
-let
+const
 copier
 =
 new
@@ -964,7 +964,7 @@ function
 (
 )
 {
-let
+const
 bytesAvailable
 =
 this
@@ -975,7 +975,7 @@ available
 (
 )
 ;
-let
+const
 amountToCopy
 =
 Math

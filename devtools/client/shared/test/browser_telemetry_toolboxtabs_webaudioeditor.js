@@ -117,7 +117,7 @@ webaudioeditor
 "
 )
 ;
-let
+const
 originalPref
 =
 Services

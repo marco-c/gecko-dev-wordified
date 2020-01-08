@@ -178,7 +178,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -190,14 +190,14 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 front
 =
 inspector
 .
 inspector
 ;
-let
+const
 highlighter
 =
 await
@@ -210,7 +210,7 @@ CssTransformHighlighter
 "
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -246,7 +246,7 @@ show
 nodeFront
 )
 ;
-let
+const
 data
 =
 await
@@ -262,7 +262,7 @@ node
 "
 )
 ;
-let
+const
 [
 expected
 ]
@@ -271,7 +271,7 @@ data
 .
 border
 ;
-let
+const
 points
 =
 await
@@ -292,7 +292,7 @@ points
 highlighter
 )
 ;
-let
+const
 polygonPoints
 =
 points

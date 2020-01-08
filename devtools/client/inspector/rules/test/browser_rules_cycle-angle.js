@@ -153,7 +153,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -164,7 +164,7 @@ openRuleView
 (
 )
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -207,7 +207,7 @@ container
 view
 )
 {
-let
+const
 valueNode
 =
 container
@@ -222,7 +222,7 @@ angle
 "
 )
 ;
-let
+const
 win
 =
 view
@@ -251,7 +251,7 @@ value
 "
 )
 ;
-let
+const
 tests
 =
 [
@@ -346,7 +346,7 @@ again
 ;
 for
 (
-let
+const
 test
 of
 tests
@@ -417,7 +417,7 @@ angle
 "
 )
 ;
-let
+const
 win
 =
 view
@@ -607,7 +607,7 @@ expectedValue
 comment
 )
 {
-let
+const
 swatch
 =
 container
@@ -622,7 +622,7 @@ angleswatch
 "
 )
 ;
-let
+const
 valueNode
 =
 container
@@ -637,7 +637,7 @@ angle
 "
 )
 ;
-let
+const
 onUnitChange
 =
 swatch

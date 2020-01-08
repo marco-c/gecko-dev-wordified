@@ -187,7 +187,7 @@ function
 (
 )
 {
-let
+const
 doc
 =
 this

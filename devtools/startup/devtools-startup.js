@@ -620,7 +620,7 @@ client
 definitions
 .
 js
-let
+const
 shortcuts
 =
 [
@@ -1410,7 +1410,7 @@ function
 cmdLine
 )
 {
-let
+const
 flags
 =
 this
@@ -1443,7 +1443,7 @@ other
 apps
 )
 .
-let
+const
 isInitialLaunch
 =
 cmdLine
@@ -1474,7 +1474,7 @@ this
 browser
 instance
 .
-let
+const
 hasDevToolsFlag
 =
 flags
@@ -1721,7 +1721,7 @@ false
 }
 ;
 }
-let
+const
 console
 =
 cmdLine
@@ -1734,7 +1734,7 @@ jsconsole
 false
 )
 ;
-let
+const
 debuggerFlag
 =
 cmdLine
@@ -1747,7 +1747,7 @@ jsdebugger
 false
 )
 ;
-let
+const
 devtools
 =
 cmdLine
@@ -2133,7 +2133,7 @@ once
 per
 profile
 .
-let
+const
 alreadyLoggedPref
 =
 "
@@ -2161,7 +2161,7 @@ alreadyLoggedPref
 return
 ;
 }
-let
+const
 scalarId
 =
 "
@@ -2592,7 +2592,7 @@ developerToggleCreated
 return
 ;
 }
-let
+const
 id
 =
 "
@@ -2601,7 +2601,7 @@ developer
 button
 "
 ;
-let
+const
 widget
 =
 CustomizableUI
@@ -2629,7 +2629,7 @@ PROVIDER_API
 return
 ;
 }
-let
+const
 item
 =
 {
@@ -2752,7 +2752,7 @@ those
 right
 now
 .
-let
+const
 doc
 =
 event
@@ -2761,7 +2761,7 @@ target
 .
 ownerDocument
 ;
-let
+const
 menu
 =
 doc
@@ -2773,7 +2773,7 @@ menuWebDeveloperPopup
 "
 )
 ;
-let
+const
 itemsToDisplay
 =
 [
@@ -2836,7 +2836,7 @@ goOfflineMenuitem
 )
 )
 ;
-let
+const
 developerItems
 =
 doc
@@ -2988,7 +2988,7 @@ developerItems
 return
 ;
 }
-let
+const
 view
 =
 doc
@@ -3010,7 +3010,7 @@ PanelUI
 developerItems
 "
 ;
-let
+const
 panel
 =
 doc
@@ -3146,7 +3146,7 @@ hookWebDeveloperMenu
 window
 )
 {
-let
+const
 menu
 =
 window
@@ -3160,7 +3160,7 @@ webDeveloperMenu
 "
 )
 ;
-let
+const
 onPopupShowing
 =
 (
@@ -3248,7 +3248,7 @@ createDevToolsEnableMenuItem
 window
 )
 {
-let
+const
 {
 document
 }
@@ -3262,7 +3262,7 @@ the
 menu
 item
 .
-let
+const
 item
 =
 document
@@ -3368,7 +3368,7 @@ the
 DevTools
 submenu
 .
-let
+const
 systemMenuItem
 =
 document
@@ -3409,7 +3409,7 @@ updateDevToolsMenuItems
 window
 )
 {
-let
+const
 item
 =
 window
@@ -3466,7 +3466,7 @@ onEnabledPrefChanged
 (
 )
 {
-let
+const
 enumerator
 =
 Services
@@ -3491,7 +3491,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 window
 =
 enumerator
@@ -3583,7 +3583,7 @@ isDevToolsUser
 (
 )
 {
-let
+const
 selfXssCount
 =
 Services
@@ -3672,7 +3672,7 @@ current
 experiment
 state
 .
-let
+const
 experimentState
 =
 Services
@@ -3690,7 +3690,7 @@ experiment
 "
 )
 ;
-let
+const
 isRegularExperiment
 =
 experimentState
@@ -3700,7 +3700,7 @@ experimentState
 on
 "
 ;
-let
+const
 isForcedExperiment
 =
 experimentState
@@ -3710,7 +3710,7 @@ experimentState
 force
 "
 ;
-let
+const
 isInExperiment
 =
 isRegularExperiment
@@ -3870,7 +3870,7 @@ regular
 experiment
 group
 .
-let
+const
 isDevToolsUser
 =
 isRegularExperiment
@@ -3907,7 +3907,7 @@ hookKeyShortcuts
 window
 )
 {
-let
+const
 doc
 =
 window
@@ -3957,7 +3957,7 @@ devtoolsKeyset
 return
 ;
 }
-let
+const
 keyset
 =
 doc
@@ -3983,13 +3983,13 @@ devtoolsKeyset
 ;
 for
 (
-let
+const
 key
 of
 KeyShortcuts
 )
 {
-let
+const
 xulKey
 =
 this
@@ -4063,7 +4063,7 @@ bug
 832984
 )
 .
-let
+const
 mainKeyset
 =
 doc
@@ -4105,7 +4105,7 @@ DEVTOOLS_ENABLED_PREF
 )
 )
 {
-let
+const
 id
 =
 key
@@ -4173,7 +4173,7 @@ initDevTools
 into
 account
 .
-let
+const
 startTime
 =
 Cu
@@ -4182,7 +4182,7 @@ now
 (
 )
 ;
-let
+const
 require
 =
 this
@@ -4195,7 +4195,7 @@ KeyShortcut
 key
 )
 ;
-let
+const
 {
 gDevToolsBrowser
 }
@@ -4251,7 +4251,7 @@ mod
 oncommand
 )
 {
-let
+const
 k
 =
 doc
@@ -4440,7 +4440,7 @@ initialized
 =
 true
 ;
-let
+const
 {
 require
 }
@@ -4625,7 +4625,7 @@ isDisabledByPolicy
 return
 ;
 }
-let
+const
 {
 gBrowser
 }
@@ -4663,7 +4663,7 @@ window
 .
 for
 (
-let
+const
 tab
 of
 gBrowser
@@ -4671,7 +4671,7 @@ gBrowser
 tabs
 )
 {
-let
+const
 browser
 =
 tab
@@ -4694,7 +4694,7 @@ is
 still
 loading
 .
-let
+const
 location
 =
 browser
@@ -4771,7 +4771,7 @@ about
 devtools
 "
 ;
-let
+const
 params
 =
 [
@@ -4798,7 +4798,7 @@ reason
 )
 ;
 }
-let
+const
 selectedBrowser
 =
 gBrowser
@@ -4909,7 +4909,7 @@ function
 cmdLine
 )
 {
-let
+const
 window
 =
 Services
@@ -4931,7 +4931,7 @@ if
 window
 )
 {
-let
+const
 require
 =
 this
@@ -4943,7 +4943,7 @@ CommandLine
 "
 )
 ;
-let
+const
 {
 HUDService
 }
@@ -5084,7 +5084,7 @@ target
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -5163,7 +5163,7 @@ if
 remoteDebuggingEnabled
 )
 {
-let
+const
 errorMsg
 =
 "
@@ -5273,7 +5273,7 @@ devtoolsThreadResumed
 =
 false
 ;
-let
+const
 pauseOnStartup
 =
 cmdLine
@@ -5295,7 +5295,7 @@ if
 pauseOnStartup
 )
 {
-let
+const
 observe
 =
 function
@@ -5403,7 +5403,7 @@ the
 debugger
 connects
 .
-let
+const
 tm
 =
 Cc
@@ -5666,7 +5666,7 @@ webSocket
 =
 false
 ;
-let
+const
 defaultPort
 =
 Services
@@ -5750,7 +5750,7 @@ webSocket
 =
 true
 ;
-let
+const
 port
 =
 portOrPath
@@ -5772,7 +5772,7 @@ port
 defaultPort
 ;
 }
-let
+const
 {
 DevToolsLoader
 }
@@ -5872,7 +5872,7 @@ loader
 settings
 )
 .
-let
+const
 serverLoader
 =
 new
@@ -5886,7 +5886,7 @@ invisibleToDebugger
 =
 true
 ;
-let
+const
 {
 DebuggerServer
 :
@@ -5924,7 +5924,7 @@ allowChromeProcess
 =
 true
 ;
-let
+const
 listener
 =
 debuggerServer
@@ -6738,7 +6738,7 @@ function
 message
 )
 {
-let
+const
 chrome
 =
 Services
@@ -6754,7 +6754,7 @@ browser
 "
 )
 ;
-let
+const
 browser
 =
 chrome
@@ -6830,7 +6830,7 @@ not
 the
 blob
 .
-let
+const
 persistable
 =
 browser
@@ -6848,7 +6848,7 @@ onDocumentReady
 doc
 )
 {
-let
+const
 uri
 =
 chrome
@@ -6863,7 +6863,7 @@ doc
 characterSet
 )
 ;
-let
+const
 filename
 =
 chrome

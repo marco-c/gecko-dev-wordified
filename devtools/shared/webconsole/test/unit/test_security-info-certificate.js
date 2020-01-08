@@ -213,7 +213,7 @@ parseCertificateInfo
 "
 )
 ;
-let
+const
 result
 =
 NetworkHelper

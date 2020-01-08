@@ -128,7 +128,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 win
 =
 await
@@ -136,7 +136,7 @@ openWebIDE
 (
 )
 ;
-let
+const
 docProject
 =
 getProjectDocument
@@ -144,7 +144,7 @@ getProjectDocument
 win
 )
 ;
-let
+const
 docRuntime
 =
 getRuntimeDocument
@@ -206,7 +206,7 @@ UI
 .
 toolboxPromise
 ;
-let
+const
 project
 =
 win
@@ -256,7 +256,7 @@ list
 changes
 are
 noticed
-let
+const
 tabsNode
 =
 docProject
@@ -573,7 +573,7 @@ targets
 "
 )
 ;
-let
+const
 tabsNode
 =
 docProject
@@ -590,7 +590,7 @@ tabs
 "
 )
 ;
-let
+const
 tabNode
 =
 tabsNode
@@ -608,7 +608,7 @@ item
 1
 ]
 ;
-let
+const
 project
 =
 waitForUpdate

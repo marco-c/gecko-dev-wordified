@@ -69,7 +69,7 @@ async
 =
 >
 {
-let
+const
 {
 tab
 monitor
@@ -93,7 +93,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -104,7 +104,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire

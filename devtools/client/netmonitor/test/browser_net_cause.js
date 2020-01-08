@@ -517,7 +517,7 @@ least
 one
 request
 .
-let
+const
 {
 tab
 monitor
@@ -529,7 +529,7 @@ initNetMonitor
 SIMPLE_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -541,7 +541,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -561,7 +561,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -596,7 +596,7 @@ false
 )
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -619,7 +619,7 @@ CAUSE_URL
 await
 wait
 ;
-let
+const
 requests
 =
 getSortedRequests
@@ -697,7 +697,7 @@ i
 =
 >
 {
-let
+const
 {
 method
 url
@@ -708,7 +708,7 @@ stack
 =
 spec
 ;
-let
+const
 requestItem
 =
 getSortedRequests
@@ -753,14 +753,14 @@ causeUri
 }
 )
 ;
-let
+const
 stacktrace
 =
 requestItem
 .
 stacktrace
 ;
-let
+const
 stackLen
 =
 stacktrace
@@ -1068,7 +1068,7 @@ button
 )
 )
 ;
-let
+const
 expectedOrder
 =
 EXPECTED_REQUESTS

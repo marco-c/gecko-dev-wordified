@@ -858,7 +858,7 @@ state
 }
 )
 ;
-let
+const
 censusModel
 =
 exports
@@ -1249,7 +1249,7 @@ model
 .
 *
 /
-let
+const
 dominatorTreeModel
 =
 exports
@@ -1773,7 +1773,7 @@ model
 .
 *
 /
-let
+const
 stateKeys
 =
 Object
@@ -1801,7 +1801,7 @@ PropTypes
 .
 number
 ;
-let
+const
 snapshotModel
 =
 exports
@@ -2003,14 +2003,14 @@ snapshot
 propName
 )
 {
-let
+const
 current
 =
 snapshot
 .
 state
 ;
-let
+const
 shouldHavePath
 =
 [
@@ -2025,7 +2025,7 @@ states
 READ
 ]
 ;
-let
+const
 shouldHaveCreationTime
 =
 [
@@ -2137,7 +2137,7 @@ time
 }
 )
 ;
-let
+const
 allocationsModel
 =
 exports
@@ -2202,7 +2202,7 @@ isRequired
 }
 )
 ;
-let
+const
 diffingModel
 =
 exports
@@ -2474,7 +2474,7 @@ state
 }
 )
 ;
-let
+const
 previousViewModel
 =
 exports

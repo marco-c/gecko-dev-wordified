@@ -1158,7 +1158,7 @@ edge
 ;
 for
 (
-let
+const
 {
 edge
 :
@@ -2080,7 +2080,7 @@ length
 ;
 for
 (
-let
+const
 edg
 of
 unvisited

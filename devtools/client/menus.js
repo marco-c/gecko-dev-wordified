@@ -423,7 +423,7 @@ oncommand
 event
 )
 {
-let
+const
 window
 =
 event
@@ -549,7 +549,7 @@ oncommand
 event
 )
 {
-let
+const
 window
 =
 event
@@ -586,7 +586,7 @@ oncommand
 (
 )
 {
-let
+const
 {
 HUDService
 }
@@ -633,7 +633,7 @@ oncommand
 event
 )
 {
-let
+const
 window
 =
 event
@@ -689,7 +689,7 @@ oncommand
 event
 )
 {
-let
+const
 window
 =
 event
@@ -700,7 +700,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 target
 =
 TargetFactory
@@ -779,7 +779,7 @@ oncommand
 event
 )
 {
-let
+const
 window
 =
 event
@@ -823,7 +823,7 @@ oncommand
 event
 )
 {
-let
+const
 window
 =
 event
@@ -871,7 +871,7 @@ oncommand
 event
 )
 {
-let
+const
 window
 =
 event

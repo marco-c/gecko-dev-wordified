@@ -193,7 +193,7 @@ enabled
 true
 )
 ;
-let
+const
 {
 inspector
 toolbox
@@ -263,7 +263,7 @@ at
 the
 moment
 .
-let
+const
 btn
 =
 toolbox
@@ -317,7 +317,7 @@ on
 the
 screen
 .
-let
+const
 menu
 =
 await
@@ -350,7 +350,7 @@ menu
 is
 popuplated
 .
-let
+const
 frames
 =
 menu
@@ -456,7 +456,7 @@ the
 view
 is
 empty
-let
+const
 willNavigate
 =
 toolbox
@@ -526,7 +526,7 @@ top
 level
 document
 .
-let
+const
 newRoot
 =
 inspector
@@ -710,7 +710,7 @@ assertMarkupViewIsLoaded
 inspector
 )
 {
-let
+const
 markupViewBox
 =
 inspector
@@ -751,7 +751,7 @@ assertMarkupViewIsEmpty
 inspector
 )
 {
-let
+const
 markupViewBox
 =
 inspector

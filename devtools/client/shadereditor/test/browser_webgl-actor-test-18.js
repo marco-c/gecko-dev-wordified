@@ -42,19 +42,19 @@ threads
 .
 *
 /
+async
 function
-*
 ifWebGLSupported
 (
 )
 {
-let
+const
 {
 target
 front
 }
 =
-yield
+await
 initBackend
 (
 MULTIPLE_CONTEXTS_URL
@@ -71,7 +71,7 @@ true
 }
 )
 ;
-yield
+await
 getPrograms
 (
 front
@@ -86,7 +86,7 @@ frame
 to
 ensure
 rendering
-yield
+await
 front
 .
 waitForFrame
@@ -96,7 +96,7 @@ waitForFrame
 let
 pixel
 =
-yield
+await
 front
 .
 getPixel
@@ -191,7 +191,7 @@ canvas
 ;
 pixel
 =
-yield
+await
 front
 .
 getPixel
@@ -284,7 +284,7 @@ canvas
 "
 )
 ;
-yield
+await
 removeTab
 (
 target

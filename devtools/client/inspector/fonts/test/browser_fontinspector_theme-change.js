@@ -140,7 +140,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 view
@@ -152,7 +152,7 @@ openFontInspectorForURL
 TEST_URI
 )
 ;
-let
+const
 {
 document
 :
@@ -184,7 +184,7 @@ for
 later
 comparison
 .
-let
+const
 originalURI
 =
 doc
@@ -205,7 +205,7 @@ preview
 .
 src
 ;
-let
+const
 newTheme
 =
 originalTheme
@@ -369,7 +369,7 @@ theme
 inspector
 )
 {
-let
+const
 onUpdated
 =
 inspector

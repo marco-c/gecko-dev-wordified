@@ -886,7 +886,7 @@ script
 FRAME_SCRIPT_URL
 )
 ;
-let
+const
 browser
 =
 tab
@@ -1153,7 +1153,7 @@ font
 nodeFront
 )
 {
-let
+const
 fillStyle
 =
 getThemeColor
@@ -1165,7 +1165,7 @@ color
 "
 )
 ;
-let
+const
 {
 data
 }
@@ -1179,7 +1179,7 @@ font
 fillStyle
 )
 ;
-let
+const
 dataURL
 =
 await
@@ -1476,7 +1476,7 @@ newRgba
 expectedChange
 )
 {
-let
+const
 onRuleViewChanged
 =
 ruleView
@@ -1501,7 +1501,7 @@ object
 "
 )
 ;
-let
+const
 spectrum
 =
 await
@@ -1591,7 +1591,7 @@ waitForSuccess
 =
 >
 {
-let
+const
 {
 element
 name
@@ -1824,7 +1824,7 @@ prop
 ;
 for
 (
-let
+const
 property
 of
 view
@@ -1844,7 +1844,7 @@ view
 )
 )
 {
-let
+const
 nameSpan
 =
 property
@@ -1861,7 +1861,7 @@ name
 "
 )
 ;
-let
+const
 valueSpan
 =
 property

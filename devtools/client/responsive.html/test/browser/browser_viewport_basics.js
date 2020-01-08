@@ -68,7 +68,7 @@ ui
 }
 )
 {
-let
+const
 store
 =
 ui
@@ -112,7 +112,7 @@ of
 default
 size
 appeared
-let
+const
 viewport
 =
 ui
@@ -204,7 +204,7 @@ ui
 TEST_URL
 )
 ;
-let
+const
 location
 =
 await

@@ -1305,7 +1305,7 @@ this
 _isNew
 )
 {
-let
+const
 index
 =
 this
@@ -1336,7 +1336,7 @@ styleSheet
 href
 )
 {
-let
+const
 index
 =
 this
@@ -1365,7 +1365,7 @@ this
 _friendlyName
 )
 {
-let
+const
 sheetURI
 =
 this
@@ -1494,7 +1494,7 @@ isOriginalSource
 return
 ;
 }
-let
+const
 relatedSheet
 =
 this
@@ -1521,7 +1521,7 @@ return
 let
 path
 ;
-let
+const
 href
 =
 removeQuery
@@ -1531,7 +1531,7 @@ relatedSheet
 href
 )
 ;
-let
+const
 uri
 =
 NetUtil
@@ -1553,7 +1553,7 @@ file
 "
 )
 {
-let
+const
 file
 =
 uri
@@ -1582,7 +1582,7 @@ this
 savedFile
 )
 {
-let
+const
 origHref
 =
 removeQuery
@@ -1594,7 +1594,7 @@ styleSheet
 href
 )
 ;
-let
+const
 origUri
 =
 NetUtil
@@ -1824,7 +1824,7 @@ source
 =
 >
 {
-let
+const
 ruleCount
 =
 this
@@ -2189,7 +2189,7 @@ regions
 {
 for
 (
-let
+const
 region
 of
 regions
@@ -2409,7 +2409,7 @@ _justSetText
 =
 true
 ;
-let
+const
 firstLine
 =
 this
@@ -2420,7 +2420,7 @@ getFirstVisibleLine
 (
 )
 ;
-let
+const
 pos
 =
 this
@@ -2553,7 +2553,7 @@ return
 }
 for
 (
-let
+const
 rule
 of
 this
@@ -2590,7 +2590,7 @@ rules
 ;
 for
 (
-let
+const
 rule
 of
 rules
@@ -2820,7 +2820,7 @@ _inputElement
 =
 inputElement
 ;
-let
+const
 config
 =
 {
@@ -2887,7 +2887,7 @@ cssProperties
 cssProperties
 }
 ;
-let
+const
 sourceEditor
 =
 this
@@ -3106,7 +3106,7 @@ function
 (
 )
 {
-let
+const
 self
 =
 this
@@ -3673,7 +3673,7 @@ x
 y
 )
 {
-let
+const
 pos
 =
 this
@@ -3692,7 +3692,7 @@ y
 }
 )
 ;
-let
+const
 info
 =
 this
@@ -3724,7 +3724,7 @@ selector
 return
 ;
 }
-let
+const
 node
 =
 await
@@ -3929,7 +3929,7 @@ file
 callback
 )
 {
-let
+const
 onFile
 =
 (
@@ -3980,7 +3980,7 @@ getText
 )
 ;
 }
-let
+const
 ostream
 =
 FileUtils
@@ -3990,7 +3990,7 @@ openSafeFileOutputStream
 returnFile
 )
 ;
-let
+const
 converter
 =
 Cc
@@ -4023,7 +4023,7 @@ UTF
 8
 "
 ;
-let
+const
 istream
 =
 converter
@@ -4331,7 +4331,7 @@ info
 =
 >
 {
-let
+const
 lastChange
 =
 info
@@ -4605,7 +4605,7 @@ array
 =
 >
 {
-let
+const
 decoder
 =
 new
@@ -4613,7 +4613,7 @@ TextDecoder
 (
 )
 ;
-let
+const
 text
 =
 decoder
@@ -4659,7 +4659,7 @@ _isUpdating
 =
 true
 ;
-let
+const
 relatedSheet
 =
 this
@@ -4731,13 +4731,13 @@ function
 (
 )
 {
-let
+const
 bindings
 =
 {
 }
 ;
-let
+const
 keybind
 =
 Editor
@@ -5111,7 +5111,7 @@ origUri
 file
 )
 {
-let
+const
 {
 origBranch
 branch
@@ -5123,7 +5123,7 @@ origUri
 uri
 )
 ;
-let
+const
 project
 =
 findProjectPath
@@ -5132,7 +5132,7 @@ file
 origBranch
 )
 ;
-let
+const
 parts
 =
 project
@@ -5142,7 +5142,7 @@ concat
 branch
 )
 ;
-let
+const
 path
 =
 OS
@@ -5276,7 +5276,7 @@ file
 branch
 )
 {
-let
+const
 path
 =
 OS

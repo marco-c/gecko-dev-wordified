@@ -347,7 +347,7 @@ reloadTab
 tab
 )
 {
-let
+const
 loaded
 =
 BrowserTestUtils

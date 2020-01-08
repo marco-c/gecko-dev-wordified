@@ -88,7 +88,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -149,7 +149,7 @@ node
 "
 )
 ;
-let
+const
 [
 player
 ]
@@ -312,7 +312,7 @@ body
 "
 )
 ;
-let
+const
 players
 =
 await
@@ -366,13 +366,13 @@ correct
 ;
 for
 (
-let
+const
 animPlayer
 of
 players
 )
 {
-let
+const
 animPlayerState
 =
 await

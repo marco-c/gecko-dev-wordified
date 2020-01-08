@@ -158,7 +158,7 @@ function
 (
 )
 {
-let
+const
 {
 panel
 }
@@ -176,7 +176,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -200,7 +200,7 @@ stopRecording
 panel
 )
 ;
-let
+const
 selected
 =
 once
@@ -211,7 +211,7 @@ EVENTS
 UI_DETAILS_VIEW_SELECTED
 )
 ;
-let
+const
 rendered
 =
 once
@@ -264,7 +264,7 @@ view
 "
 )
 ;
-let
+const
 cleared
 =
 once

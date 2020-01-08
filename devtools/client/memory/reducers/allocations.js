@@ -92,7 +92,7 @@ constants
 "
 )
 ;
-let
+const
 handlers
 =
 Object
@@ -227,7 +227,7 @@ DEFAULT_ALLOCATIONS_STATE
 action
 )
 {
-let
+const
 handle
 =
 handlers

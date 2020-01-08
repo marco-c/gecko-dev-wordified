@@ -712,7 +712,7 @@ the
 temporary
 file
 .
-let
+const
 fout
 =
 Cc
@@ -764,7 +764,7 @@ fout
 DEFER_OPEN
 )
 ;
-let
+const
 converter
 =
 Cc
@@ -797,7 +797,7 @@ UTF
 8
 "
 ;
-let
+const
 fileContentStream
 =
 converter

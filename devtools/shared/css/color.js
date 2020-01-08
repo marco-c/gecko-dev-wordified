@@ -883,7 +883,7 @@ _colorUnit
 null
 )
 {
-let
+const
 defaultUnit
 =
 Services
@@ -1106,7 +1106,7 @@ transparent
 {
 try
 {
-let
+const
 tuple
 =
 this
@@ -1176,7 +1176,7 @@ name
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -1198,7 +1198,7 @@ return
 invalidOrSpecialValue
 ;
 }
-let
+const
 tuple
 =
 this
@@ -1224,7 +1224,7 @@ this
 hex
 ;
 }
-let
+const
 {
 r
 g
@@ -1252,7 +1252,7 @@ hex
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -1381,7 +1381,7 @@ alphaHex
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -1520,7 +1520,7 @@ longHex
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -1555,7 +1555,7 @@ this
 longAlphaHex
 ;
 }
-let
+const
 tuple
 =
 this
@@ -1622,7 +1622,7 @@ longAlphaHex
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -1644,7 +1644,7 @@ return
 invalidOrSpecialValue
 ;
 }
-let
+const
 tuple
 =
 this
@@ -1735,7 +1735,7 @@ rgb
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -1798,7 +1798,7 @@ this
 authored
 ;
 }
-let
+const
 tuple
 =
 this
@@ -1847,7 +1847,7 @@ rgba
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -1902,7 +1902,7 @@ this
 authored
 ;
 }
-let
+const
 components
 =
 this
@@ -1952,7 +1952,7 @@ hsl
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -2033,7 +2033,7 @@ hsla
 (
 )
 {
-let
+const
 invalidOrSpecialValue
 =
 this
@@ -2095,7 +2095,7 @@ this
 hasAlpha
 )
 {
-let
+const
 a
 =
 this
@@ -2396,7 +2396,7 @@ name
 "
 ]
 ;
-let
+const
 currentFormat
 =
 classifyColor
@@ -2408,7 +2408,7 @@ toString
 )
 )
 ;
-let
+const
 putOnEnd
 =
 formats
@@ -2433,7 +2433,7 @@ concat
 putOnEnd
 )
 ;
-let
+const
 currentDisplayedColor
 =
 this
@@ -2446,7 +2446,7 @@ formats
 ;
 for
 (
-let
+const
 format
 of
 formats
@@ -2673,7 +2673,7 @@ function
 (
 )
 {
-let
+const
 tuple
 =
 colorToRGBA
@@ -2734,7 +2734,7 @@ function
 (
 )
 {
-let
+const
 {
 r
 g
@@ -2752,7 +2752,7 @@ this
 cssColor4
 )
 ;
-let
+const
 [
 h
 s
@@ -2832,7 +2832,7 @@ this
 authored
 ;
 }
-let
+const
 {
 r
 g
@@ -2845,7 +2845,7 @@ getRGBATuple
 (
 )
 ;
-let
+const
 [
 h
 s
@@ -3075,7 +3075,7 @@ b
 /
 255
 ;
-let
+const
 max
 =
 Math
@@ -3087,7 +3087,7 @@ g
 b
 )
 ;
-let
+const
 min
 =
 Math
@@ -3105,7 +3105,7 @@ h
 let
 s
 ;
-let
+const
 l
 =
 (
@@ -3133,7 +3133,7 @@ s
 }
 else
 {
-let
+const
 d
 =
 max
@@ -3415,7 +3415,7 @@ useCssColor4ColorFunction
 false
 )
 {
-let
+const
 color
 =
 new
@@ -3490,7 +3490,7 @@ alpha
 1
 ;
 }
-let
+const
 {
 r
 g
@@ -3813,13 +3813,13 @@ cssRGBMap
 ;
 for
 (
-let
+const
 name
 in
 cssColors
 )
 {
-let
+const
 key
 =
 JSON
@@ -4830,7 +4830,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 lexer
@@ -5026,7 +5026,7 @@ lexer
 symbol
 )
 {
-let
+const
 token
 =
 getToken
@@ -5258,7 +5258,7 @@ separator
 colorArray
 )
 {
-let
+const
 token
 =
 getToken
@@ -5676,7 +5676,7 @@ return
 false
 ;
 }
-let
+const
 token
 =
 getToken
@@ -5833,7 +5833,7 @@ lexer
 colorArray
 )
 {
-let
+const
 token
 =
 getToken
@@ -6116,13 +6116,13 @@ commaSeparator
 "
 "
 ;
-let
+const
 hsl
 =
 [
 ]
 ;
-let
+const
 a
 =
 [
@@ -6173,7 +6173,7 @@ less
 or
 not
 .
-let
+const
 hasComma
 =
 expectSymbol
@@ -6237,7 +6237,7 @@ opacity
 value
 parsing
 .
-let
+const
 separatorBeforeAlpha
 =
 hasComma
@@ -6463,13 +6463,13 @@ closeParen
 )
 "
 ;
-let
+const
 hsl
 =
 [
 ]
 ;
-let
+const
 a
 =
 [
@@ -6480,7 +6480,7 @@ a
 Parse
 hue
 .
-let
+const
 token
 =
 getToken
@@ -6523,7 +6523,7 @@ return
 null
 ;
 }
-let
+const
 val
 =
 token
@@ -6850,13 +6850,13 @@ commaSeparator
 "
 "
 ;
-let
+const
 rgba
 =
 [
 ]
 ;
-let
+const
 token
 =
 getToken
@@ -6897,7 +6897,7 @@ unGetToken
 lexer
 )
 ;
-let
+const
 type
 =
 (
@@ -6942,7 +6942,7 @@ return
 null
 ;
 }
-let
+const
 hasComma
 =
 expectSymbol
@@ -6985,7 +6985,7 @@ values
 /
 parsing
 .
-let
+const
 separatorBeforeAlpha
 =
 hasComma
@@ -7252,13 +7252,13 @@ closeParen
 )
 "
 ;
-let
+const
 rgba
 =
 [
 ]
 ;
-let
+const
 token
 =
 getToken
@@ -7307,7 +7307,7 @@ unGetToken
 lexer
 )
 ;
-let
+const
 type
 =
 (
@@ -7627,7 +7627,7 @@ in
 cssColors
 )
 {
-let
+const
 result
 =
 cssColors
@@ -7722,7 +7722,7 @@ a
 }
 ;
 }
-let
+const
 lexer
 =
 getCSSLexer
@@ -7730,7 +7730,7 @@ getCSSLexer
 name
 )
 ;
-let
+const
 func
 =
 getToken
@@ -7847,7 +7847,7 @@ return
 null
 ;
 }
-let
+const
 hsl
 =
 func
@@ -7880,7 +7880,7 @@ if
 useCssColor4ColorFunction
 )
 {
-let
+const
 hasAlpha
 =
 (
@@ -8363,7 +8363,7 @@ backgroundColor
 textColor
 )
 {
-let
+const
 backgroundLuminance
 =
 calculateLuminance
@@ -8371,7 +8371,7 @@ calculateLuminance
 backgroundColor
 )
 ;
-let
+const
 textLuminance
 =
 calculateLuminance
@@ -8379,7 +8379,7 @@ calculateLuminance
 textColor
 )
 ;
-let
+const
 ratio
 =
 (

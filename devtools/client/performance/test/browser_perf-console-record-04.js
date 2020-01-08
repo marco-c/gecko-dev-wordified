@@ -201,7 +201,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 console
@@ -220,7 +220,7 @@ window
 }
 )
 ;
-let
+const
 {
 panel
 }
@@ -237,7 +237,7 @@ tab
 }
 )
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -248,7 +248,7 @@ panel
 .
 panelWin
 ;
-let
+const
 started
 =
 waitForRecordingStartedEvents
@@ -281,7 +281,7 @@ rust
 await
 started
 ;
-let
+const
 recordings
 =
 PerformanceController
@@ -459,7 +459,7 @@ FRAMERATE_GRAPH_LOW_RES_INTERVAL
 }
 )
 ;
-let
+const
 stopped
 =
 waitForRecordingStoppedEvents

@@ -298,7 +298,7 @@ form
 reflowActor
 )
 {
-let
+const
 {
 client
 form
@@ -613,7 +613,7 @@ onReflow
 {
 for
 (
-let
+const
 [
 callback
 ]

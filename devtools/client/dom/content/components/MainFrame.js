@@ -325,7 +325,7 @@ render
 (
 )
 {
-let
+const
 {
 filter
 object

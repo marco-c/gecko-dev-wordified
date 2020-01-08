@@ -474,7 +474,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -488,7 +488,7 @@ TEST_URL
 ;
 for
 (
-let
+const
 data
 of
 TEST_DATA
@@ -525,7 +525,7 @@ info
 desc
 )
 ;
-let
+const
 container
 =
 await
@@ -535,7 +535,7 @@ selector
 inspector
 )
 ;
-let
+const
 nodeValue
 =
 await

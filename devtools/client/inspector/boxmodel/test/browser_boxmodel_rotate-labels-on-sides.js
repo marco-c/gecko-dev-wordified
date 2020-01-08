@@ -386,7 +386,7 @@ html
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -424,7 +424,7 @@ i
 +
 )
 {
-let
+const
 elt
 =
 boxmodel
@@ -441,7 +441,7 @@ i
 selector
 )
 ;
-let
+const
 isLong
 =
 elt
@@ -452,7 +452,7 @@ length
 >
 LONG_TEXT_ROTATE_LIMIT
 ;
-let
+const
 classList
 =
 elt
@@ -461,7 +461,7 @@ parentNode
 .
 classList
 ;
-let
+const
 canBeRotated
 =
 classList
@@ -487,7 +487,7 @@ right
 "
 )
 ;
-let
+const
 isRotated
 =
 classList

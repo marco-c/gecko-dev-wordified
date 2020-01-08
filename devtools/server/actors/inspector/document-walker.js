@@ -599,7 +599,7 @@ function
 (
 )
 {
-let
+const
 node
 =
 this
@@ -663,7 +663,7 @@ function
 (
 )
 {
-let
+const
 node
 =
 this
@@ -727,7 +727,7 @@ function
 (
 )
 {
-let
+const
 node
 =
 this
@@ -908,7 +908,7 @@ with
 the
 filter
 .
-let
+const
 startingNode
 =
 node

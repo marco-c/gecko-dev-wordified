@@ -1407,7 +1407,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -1621,7 +1621,7 @@ focus
 ;
 for
 (
-let
+const
 testData
 of
 TESTS

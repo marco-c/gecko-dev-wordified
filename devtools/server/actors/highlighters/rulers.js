@@ -251,7 +251,7 @@ this
 )
 )
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -303,7 +303,7 @@ function
 (
 )
 {
-let
+const
 {
 window
 }
@@ -312,7 +312,7 @@ this
 .
 env
 ;
-let
+const
 prefix
 =
 this
@@ -410,7 +410,7 @@ axis
 )
 ;
 }
-let
+const
 g
 =
 createSVGNode
@@ -468,7 +468,7 @@ g
 }
 )
 ;
-let
+const
 gRule
 =
 createSVGNode
@@ -500,7 +500,7 @@ prefix
 }
 )
 ;
-let
+const
 pathGraduations
 =
 createSVGNode
@@ -534,7 +534,7 @@ prefix
 }
 )
 ;
-let
+const
 pathMarkers
 =
 createSVGNode
@@ -568,7 +568,7 @@ prefix
 }
 )
 ;
-let
+const
 gText
 =
 createSVGNode
@@ -858,7 +858,7 @@ return
 g
 ;
 }
-let
+const
 container
 =
 createNode
@@ -881,7 +881,7 @@ container
 }
 )
 ;
-let
+const
 root
 =
 createNode
@@ -913,7 +913,7 @@ prefix
 }
 )
 ;
-let
+const
 svg
 =
 createSVGNode
@@ -1118,14 +1118,14 @@ function
 event
 )
 {
-let
+const
 prefix
 =
 this
 .
 ID_CLASS_PREFIX
 ;
-let
+const
 {
 scrollX
 scrollY
@@ -1264,7 +1264,7 @@ function
 (
 )
 {
-let
+const
 {
 window
 }
@@ -1278,7 +1278,7 @@ setIgnoreLayoutChanges
 true
 )
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -1286,7 +1286,7 @@ getCurrentZoom
 window
 )
 ;
-let
+const
 isZoomChanged
 =
 zoom
@@ -1391,7 +1391,7 @@ function
 (
 )
 {
-let
+const
 {
 devicePixelRatio
 }
@@ -1433,7 +1433,7 @@ need
 divide
 by
 zoom
-let
+const
 pixelRatio
 =
 devicePixelRatio
@@ -1488,14 +1488,14 @@ would
 be
 1
 .
-let
+const
 minWidth
 =
 1
 /
 pixelRatio
 ;
-let
+const
 strokeWidth
 =
 Math
@@ -1547,7 +1547,7 @@ function
 (
 )
 {
-let
+const
 {
 window
 }
@@ -1556,7 +1556,7 @@ this
 .
 env
 ;
-let
+const
 {
 innerHeight
 innerWidth
@@ -1564,7 +1564,7 @@ innerWidth
 =
 window
 ;
-let
+const
 infobarId
 =
 this
@@ -1579,7 +1579,7 @@ infobar
 container
 "
 ;
-let
+const
 textContent
 =
 innerHeight
@@ -1623,7 +1623,7 @@ hide
 (
 )
 ;
-let
+const
 {
 pageListenerTarget
 }

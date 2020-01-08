@@ -62,7 +62,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -84,7 +84,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -107,7 +107,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -118,7 +118,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -228,7 +228,7 @@ tab
 await
 wait
 ;
-let
+const
 tabpanel
 =
 document
@@ -404,7 +404,7 @@ title
 "
 )
 ;
-let
+const
 labels
 =
 tabpanel
@@ -428,7 +428,7 @@ treeLabel
 "
 )
 ;
-let
+const
 values
 =
 tabpanel

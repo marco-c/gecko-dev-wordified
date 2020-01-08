@@ -160,7 +160,7 @@ to
 do
 that
 :
-let
+const
 tab
 =
 gBrowser
@@ -230,7 +230,7 @@ on
 the
 chromeEventHandler
 .
-let
+const
 {
 chromeEventHandler
 }
@@ -247,7 +247,7 @@ line
 no
 -
 undef
-let
+const
 onDOMContentLoaded
 =
 ContentTaskUtils
@@ -273,7 +273,7 @@ onDOMContentLoaded
 }
 )
 ;
-let
+const
 {
 inspector
 testActor
@@ -299,7 +299,7 @@ error
 "
 )
 ;
-let
+const
 documentURI
 =
 await

@@ -695,7 +695,7 @@ return
 true
 ;
 }
-let
+const
 document
 =
 target
@@ -705,7 +705,7 @@ ownerDocument
 |
 target
 ;
-let
+const
 dispatcher
 =
 target
@@ -718,7 +718,7 @@ document
 .
 documentElement
 ;
-let
+const
 event
 =
 document
@@ -1578,7 +1578,7 @@ or
 show
 it
 .
-let
+const
 doToggle
 =
 (
@@ -1689,7 +1689,7 @@ collapsed
 }
 else
 {
-let
+const
 width
 =
 Math
@@ -1708,7 +1708,7 @@ width
 +
 1
 ;
-let
+const
 height
 =
 Math
@@ -1787,7 +1787,7 @@ flags
 animated
 )
 {
-let
+const
 options
 =
 {
@@ -2339,7 +2339,7 @@ options
 }
 )
 {
-let
+const
 item
 =
 new
@@ -2675,7 +2675,7 @@ item
 }
 for
 (
-let
+const
 childItem
 of
 item
@@ -3743,7 +3743,7 @@ options
 }
 )
 {
-let
+const
 item
 =
 new
@@ -3972,7 +3972,7 @@ options
 }
 )
 {
-let
+const
 stagedItems
 =
 this
@@ -4036,7 +4036,7 @@ container
 .
 for
 (
-let
+const
 {
 item
 opt
@@ -4342,7 +4342,7 @@ _emptyText
 ;
 for
 (
-let
+const
 [
 item
 ]
@@ -4719,7 +4719,7 @@ visibleFlag
 {
 for
 (
-let
+const
 [
 element
 ]
@@ -4821,7 +4821,7 @@ predicate
 ;
 for
 (
-let
+const
 [
 element
 item
@@ -4918,7 +4918,7 @@ this
 _currentSortPredicate
 )
 {
-let
+const
 sortedItems
 =
 this
@@ -5041,7 +5041,7 @@ you
 return
 ;
 }
-let
+const
 {
 _prebuiltNode
 :
@@ -5053,7 +5053,7 @@ firstTarget
 =
 first
 ;
-let
+const
 {
 _prebuiltNode
 :
@@ -5111,7 +5111,7 @@ DocumentFragment
 {
 for
 (
-let
+const
 node
 of
 firstTarget
@@ -5150,7 +5150,7 @@ DocumentFragment
 {
 for
 (
-let
+const
 node
 of
 secondTarget
@@ -5186,7 +5186,7 @@ items
 to
 swap
 .
-let
+const
 i
 =
 this
@@ -5196,7 +5196,7 @@ _indexOfElement
 firstTarget
 )
 ;
-let
+const
 j
 =
 this
@@ -5221,7 +5221,7 @@ item
 if
 necessary
 .
-let
+const
 selectedTarget
 =
 this
@@ -5683,7 +5683,7 @@ selectedItem
 (
 )
 {
-let
+const
 selectedElement
 =
 this
@@ -5737,7 +5737,7 @@ selectedIndex
 (
 )
 {
-let
+const
 selectedElement
 =
 this
@@ -5787,7 +5787,7 @@ selectedValue
 (
 )
 {
-let
+const
 selectedElement
 =
 this
@@ -5843,7 +5843,7 @@ selectedAttachment
 (
 )
 {
-let
+const
 selectedElement
 =
 this
@@ -5894,7 +5894,7 @@ the
 current
 selection
 .
-let
+const
 targetElement
 =
 item
@@ -5905,7 +5905,7 @@ _target
 :
 null
 ;
-let
+const
 prevElement
 =
 this
@@ -6041,7 +6041,7 @@ item
 )
 ;
 }
-let
+const
 targetElement
 =
 item
@@ -6052,7 +6052,7 @@ _target
 :
 null
 ;
-let
+const
 prevElement
 =
 this
@@ -6148,7 +6148,7 @@ targetElement
 prevElement
 )
 {
-let
+const
 dispTarget
 =
 targetElement
@@ -6156,7 +6156,7 @@ targetElement
 |
 prevElement
 ;
-let
+const
 dispName
 =
 this
@@ -6211,7 +6211,7 @@ selectedIndex
 index
 )
 {
-let
+const
 targetElement
 =
 this
@@ -6960,7 +6960,7 @@ delta
 1
 )
 .
-let
+const
 selectedElement
 =
 this
@@ -7000,7 +7000,7 @@ delta
 return
 ;
 }
-let
+const
 direction
 =
 delta
@@ -7160,14 +7160,14 @@ function
 direction
 )
 {
-let
+const
 commandDispatcher
 =
 this
 .
 _commandDispatcher
 ;
-let
+const
 prevFocusedElement
 =
 commandDispatcher
@@ -7324,7 +7324,7 @@ this
 _cachedCommandDispatcher
 ;
 }
-let
+const
 someElement
 =
 this
@@ -7341,7 +7341,7 @@ if
 someElement
 )
 {
-let
+const
 commandDispatcher
 =
 someElement
@@ -7399,7 +7399,7 @@ _focusedElement
 (
 )
 {
-let
+const
 commandDispatcher
 =
 this
@@ -7804,7 +7804,7 @@ match
 .
 for
 (
-let
+const
 [
 element
 item
@@ -7890,7 +7890,7 @@ yet
 .
 for
 (
-let
+const
 {
 item
 }
@@ -8186,13 +8186,13 @@ items
 (
 )
 {
-let
+const
 store
 =
 [
 ]
 ;
-let
+const
 itemCount
 =
 this
@@ -8445,7 +8445,7 @@ function
 item
 )
 {
-let
+const
 value
 =
 item
@@ -8628,7 +8628,7 @@ function
 item
 )
 {
-let
+const
 itemCount
 =
 this
@@ -8844,14 +8844,14 @@ a
 potential
 DocumentFragment
 .
-let
+const
 node
 =
 item
 .
 _prebuiltNode
 ;
-let
+const
 attachment
 =
 item
@@ -9162,7 +9162,7 @@ item
 }
 for
 (
-let
+const
 childItem
 of
 item
@@ -9483,7 +9483,7 @@ event
 return
 ;
 }
-let
+const
 item
 =
 this

@@ -2360,7 +2360,7 @@ props
 )
 )
 ;
-let
+const
 buttons
 =
 [

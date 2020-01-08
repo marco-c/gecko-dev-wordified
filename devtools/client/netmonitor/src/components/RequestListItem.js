@@ -929,7 +929,7 @@ focus
 )
 ;
 }
-let
+const
 {
 connector
 item
@@ -988,7 +988,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 connector
 item
@@ -1139,7 +1139,7 @@ render
 (
 )
 {
-let
+const
 {
 connector
 columns
@@ -1159,7 +1159,7 @@ this
 .
 props
 ;
-let
+const
 classList
 =
 [

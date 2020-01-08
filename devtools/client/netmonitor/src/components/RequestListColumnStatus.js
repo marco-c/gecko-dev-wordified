@@ -178,7 +178,7 @@ render
 (
 )
 {
-let
+const
 {
 item
 }

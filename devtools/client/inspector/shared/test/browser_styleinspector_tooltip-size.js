@@ -165,7 +165,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -219,7 +219,7 @@ dimensions
 "
 )
 ;
-let
+const
 tooltip
 =
 ruleView
@@ -233,14 +233,14 @@ previewTooltip
 "
 )
 ;
-let
+const
 panel
 =
 tooltip
 .
 panel
 ;
-let
+const
 {
 valueSpan
 }
@@ -256,7 +256,7 @@ background
 "
 )
 ;
-let
+const
 uriSpan
 =
 valueSpan
@@ -294,7 +294,7 @@ tooltip
 with
 its
 content
-let
+const
 previewTooltip
 =
 await
@@ -334,7 +334,7 @@ big
 as
 the
 image
-let
+const
 imageRect
 =
 panel
@@ -350,7 +350,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 panelRect
 =
 panel
@@ -432,7 +432,7 @@ dimensions
 "
 )
 ;
-let
+const
 {
 valueSpan
 }
@@ -448,7 +448,7 @@ background
 "
 )
 ;
-let
+const
 swatch
 =
 valueSpan
@@ -463,7 +463,7 @@ colorswatch
 "
 )
 ;
-let
+const
 cPicker
 =
 ruleView
@@ -477,7 +477,7 @@ colorPicker
 "
 )
 ;
-let
+const
 onReady
 =
 cPicker
@@ -528,7 +528,7 @@ as
 big
 as
 that
-let
+const
 spectrumRect
 =
 cPicker
@@ -541,7 +541,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 panelRect
 =
 cPicker
@@ -600,7 +600,7 @@ picker
 "
 )
 ;
-let
+const
 onHidden
 =
 cPicker
@@ -614,7 +614,7 @@ hidden
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 ruleView

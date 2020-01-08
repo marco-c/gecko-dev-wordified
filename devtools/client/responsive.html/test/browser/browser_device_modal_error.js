@@ -166,7 +166,7 @@ ui
 }
 )
 {
-let
+const
 {
 store
 document
@@ -176,7 +176,7 @@ ui
 .
 toolWindow
 ;
-let
+const
 select
 =
 document
@@ -253,7 +253,7 @@ should
 be
 set
 accordingly
-let
+const
 placeholder
 =
 select

@@ -633,7 +633,7 @@ run_test
 {
 for
 (
-let
+const
 test
 of
 TEST_DATA
@@ -654,7 +654,7 @@ input
 ;
 try
 {
-let
+const
 output
 =
 parseSingleValue

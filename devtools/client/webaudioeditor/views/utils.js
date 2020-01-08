@@ -469,7 +469,7 @@ delayed
 }
 )
 {
-let
+const
 flags
 =
 {

@@ -551,21 +551,21 @@ DevToolsWorker
 )
 ;
 }
-let
+const
 worker
 =
 this
 .
 _worker
 ;
-let
+const
 id
 =
 +
 +
 MESSAGE_COUNTER
 ;
-let
+const
 payload
 =
 {
@@ -649,7 +649,7 @@ reject
 =
 >
 {
-let
+const
 listener
 =
 (
@@ -1084,7 +1084,7 @@ Services
 "
 )
 ;
-let
+const
 {
 URL
 Blob
@@ -1103,7 +1103,7 @@ browser
 "
 )
 ;
-let
+const
 stringifiedFn
 =
 createWorkerString
@@ -1111,7 +1111,7 @@ createWorkerString
 fn
 )
 ;
-let
+const
 blob
 =
 new
@@ -1122,7 +1122,7 @@ stringifiedFn
 ]
 )
 ;
-let
+const
 url
 =
 URL
@@ -1132,7 +1132,7 @@ createObjectURL
 blob
 )
 ;
-let
+const
 worker
 =
 new
@@ -1141,7 +1141,7 @@ DevToolsWorker
 url
 )
 ;
-let
+const
 wrapperFn
 =
 data

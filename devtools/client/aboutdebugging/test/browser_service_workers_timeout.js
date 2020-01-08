@@ -157,7 +157,7 @@ idle_extended_timeout
 SW_TIMEOUT
 )
 ;
-let
+const
 {
 tab
 document
@@ -171,7 +171,7 @@ workers
 "
 )
 ;
-let
+const
 serviceWorkersElement
 =
 getServiceWorkerList
@@ -179,7 +179,7 @@ getServiceWorkerList
 document
 )
 ;
-let
+const
 swTab
 =
 await
@@ -251,7 +251,7 @@ button
 for
 the
 worker
-let
+const
 names
 =
 [
@@ -275,7 +275,7 @@ name
 )
 ]
 ;
-let
+const
 name
 =
 names
@@ -311,7 +311,7 @@ list
 "
 )
 ;
-let
+const
 targetElement
 =
 name
@@ -320,7 +320,7 @@ parentNode
 .
 parentNode
 ;
-let
+const
 debugBtn
 =
 targetElement
@@ -359,7 +359,7 @@ toolbox
 to
 be
 ready
-let
+const
 onToolboxReady
 =
 new

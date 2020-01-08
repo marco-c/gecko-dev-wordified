@@ -270,7 +270,7 @@ obj
 {
 for
 (
-let
+const
 key
 in
 obj
@@ -1882,7 +1882,7 @@ hash
 "
 )
 ;
-let
+const
 serverCert
 =
 socket
@@ -1900,7 +1900,7 @@ SSLStatus
 .
 serverCert
 ;
-let
+const
 advertisedCert
 =
 cert
@@ -2088,7 +2088,7 @@ transport
 }
 )
 {
-let
+const
 deferred
 =
 defer
@@ -2101,7 +2101,7 @@ oobData
 let
 activeSendDialog
 ;
-let
+const
 closeDialog
 =
 (
@@ -2167,7 +2167,7 @@ closeDialog
 (
 )
 ;
-let
+const
 {
 authResult
 }
@@ -2442,7 +2442,7 @@ _createOOB
 (
 )
 {
-let
+const
 clientCert
 =
 await
@@ -2487,7 +2487,7 @@ length
 =
 16
 ;
-let
+const
 rng
 =
 Cc
@@ -2514,7 +2514,7 @@ Ci
 nsIRandomGenerator
 )
 ;
-let
+const
 bytes
 =
 rng
@@ -2829,7 +2829,7 @@ listener
 socket
 )
 {
-let
+const
 requestCert
 =
 Ci
@@ -3088,7 +3088,7 @@ approved
 -
 clients
 ;
-let
+const
 approvedClients
 =
 (
@@ -3139,7 +3139,7 @@ sha256
 ]
 )
 {
-let
+const
 authResult
 =
 AuthenticationResult
@@ -3244,7 +3244,7 @@ hash
 (
 ClientCert
 )
-let
+const
 authResult
 =
 await
@@ -3304,7 +3304,7 @@ additional
 data
 for
 authentication
-let
+const
 oob
 =
 await
@@ -3336,7 +3336,7 @@ AuthenticationResult
 DENY
 ;
 }
-let
+const
 {
 sha256
 k
@@ -3830,13 +3830,13 @@ mode
 }
 for
 (
-let
+const
 key
 in
 Authenticators
 )
 {
-let
+const
 auth
 =
 Authenticators

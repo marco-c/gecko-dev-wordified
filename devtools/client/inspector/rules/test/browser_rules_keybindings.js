@@ -110,7 +110,7 @@ h1
 "
 )
 ;
-let
+const
 {
 inspector
 view
@@ -141,7 +141,7 @@ element
 "
 )
 ;
-let
+const
 brace
 =
 view
@@ -175,7 +175,7 @@ property
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor

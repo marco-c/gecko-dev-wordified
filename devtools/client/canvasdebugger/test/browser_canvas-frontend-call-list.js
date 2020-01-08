@@ -59,7 +59,7 @@ ifTestingSupported
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -71,7 +71,7 @@ initCanvasDebuggerFrontend
 SIMPLE_CANVAS_URL
 )
 ;
-let
+const
 {
 window
 EVENTS
@@ -89,7 +89,7 @@ reload
 target
 )
 ;
-let
+const
 recordingFinished
 =
 once
@@ -100,7 +100,7 @@ EVENTS
 SNAPSHOT_RECORDING_FINISHED
 )
 ;
-let
+const
 callListPopulated
 =
 once
@@ -454,7 +454,7 @@ args
 location
 )
 {
-let
+const
 i
 =
 CallsListView

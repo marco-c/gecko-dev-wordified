@@ -94,7 +94,7 @@ function
 (
 )
 {
-let
+const
 {
 panel
 ui
@@ -106,7 +106,7 @@ openStyleEditorForURL
 TESTCASE_URI
 )
 ;
-let
+const
 editor
 =
 await
@@ -124,7 +124,7 @@ testInitialState
 editor
 )
 ;
-let
+const
 originalHref
 =
 editor
@@ -133,7 +133,7 @@ styleSheet
 .
 href
 ;
-let
+const
 waitForPropertyChange
 =
 onPropertyChange
@@ -228,7 +228,7 @@ a
 new
 style
 sheet
-let
+const
 newButton
 =
 panelWindow
@@ -317,7 +317,7 @@ to
 be
 entered
 fully
-let
+const
 text
 =
 editor
@@ -454,7 +454,7 @@ editor
 .
 summary
 ;
-let
+const
 ruleCount
 =
 summary
@@ -491,7 +491,7 @@ rules
 "
 )
 ;
-let
+const
 color
 =
 await
@@ -560,7 +560,7 @@ function
 {
 for
 (
-let
+const
 c
 of
 TESTCASE_CSS_SOURCE
@@ -651,7 +651,7 @@ closed
 "
 )
 ;
-let
+const
 ruleCount
 =
 editor

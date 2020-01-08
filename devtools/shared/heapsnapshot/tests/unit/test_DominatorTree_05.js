@@ -63,7 +63,7 @@ run_test
 (
 )
 {
-let
+const
 dominatorTree
 =
 saveHeapSnapshotAndComputeDominatorTree
@@ -156,7 +156,7 @@ the
 log
 size
 .
-let
+const
 root
 =
 dominatorTree
@@ -183,7 +183,7 @@ parent
 "
 )
 ;
-let
+const
 seen
 =
 new
@@ -191,7 +191,7 @@ Set
 (
 )
 ;
-let
+const
 stack
 =
 [
@@ -207,7 +207,7 @@ length
 0
 )
 {
-let
+const
 top
 =
 stack
@@ -293,7 +293,7 @@ size
 )
 ;
 }
-let
+const
 newNodes
 =
 dominatorTree
@@ -343,7 +343,7 @@ ids
 )
 ;
 }
-let
+const
 topSize
 =
 dominatorTree
@@ -440,7 +440,7 @@ parent
 )
 ;
 }
-let
+const
 thisSize
 =
 dominatorTree

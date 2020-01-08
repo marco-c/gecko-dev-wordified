@@ -124,7 +124,7 @@ testFalsy
 (
 )
 {
-let
+const
 scratchpad
 =
 gScratchpadWindow
@@ -168,7 +168,7 @@ verifyFalsies
 scratchpad
 )
 {
-let
+const
 tests
 =
 [

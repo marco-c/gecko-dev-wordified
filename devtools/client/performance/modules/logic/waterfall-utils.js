@@ -204,7 +204,7 @@ filter
 }
 )
 {
-let
+const
 {
 getCurrentParentNode
 pushNode
@@ -237,7 +237,7 @@ i
 +
 )
 {
-let
+const
 curr
 =
 markersList
@@ -279,7 +279,7 @@ getCurrentParentNode
 (
 )
 ;
-let
+const
 blueprint
 =
 MarkerBlueprintUtils
@@ -289,7 +289,7 @@ getBlueprintFor
 curr
 )
 ;
-let
+const
 nestable
 =
 "
@@ -304,7 +304,7 @@ nestable
 :
 true
 ;
-let
+const
 collapsible
 =
 "
@@ -337,7 +337,7 @@ in
 the
 marker
 tree
-let
+const
 extendedProps
 =
 {
@@ -736,13 +736,13 @@ createParentNodeFactory
 root
 )
 {
-let
+const
 parentMarkers
 =
 [
 ]
 ;
-let
+const
 factory
 =
 {
@@ -814,7 +814,7 @@ exist
 )
 ;
 }
-let
+const
 lastParent
 =
 parentMarkers

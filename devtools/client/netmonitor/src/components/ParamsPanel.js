@@ -426,7 +426,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 request
 connector
@@ -462,7 +462,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 request
 connector
@@ -582,7 +582,7 @@ obj
 =
 >
 {
-let
+const
 value
 =
 map
@@ -664,7 +664,7 @@ render
 (
 )
 {
-let
+const
 {
 openLink
 request
@@ -674,7 +674,7 @@ this
 .
 props
 ;
-let
+const
 {
 formDataSections
 mimeType
@@ -697,7 +697,7 @@ text
 :
 null
 ;
-let
+const
 query
 =
 getUrlQuery
@@ -746,7 +746,7 @@ PARAMS_EMPTY_TEXT
 )
 ;
 }
-let
+const
 object
 =
 {
@@ -798,7 +798,7 @@ length
 0
 )
 {
-let
+const
 sections
 =
 formDataSections

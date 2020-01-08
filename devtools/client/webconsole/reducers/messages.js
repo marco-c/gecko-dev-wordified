@@ -724,7 +724,7 @@ size
 0
 )
 {
-let
+const
 lastMessage
 =
 [
@@ -809,7 +809,7 @@ the
 parent
 group
 .
-let
+const
 parentGroups
 =
 getParentGroups
@@ -1131,7 +1131,7 @@ will
 never
 be
 rendered
-let
+const
 list
 =
 [
@@ -1171,7 +1171,7 @@ i
 -
 )
 {
-let
+const
 message
 =
 action
@@ -1542,7 +1542,7 @@ action
 id
 ]
 ;
-let
+const
 currMessage
 =
 messagesById
@@ -1856,14 +1856,14 @@ closeState
 state
 }
 ;
-let
+const
 messageId
 =
 action
 .
 id
 ;
-let
+const
 index
 =
 closeState
@@ -2042,7 +2042,7 @@ constants
 NETWORK_UPDATE_REQUEST
 :
 {
-let
+const
 request
 =
 networkMessagesUpdateById
@@ -2360,7 +2360,7 @@ the
 current
 group
 .
-let
+const
 parents
 =
 groupsById
@@ -2509,7 +2509,7 @@ it
 has
 some
 .
-let
+const
 parentGroups
 =
 groupsById
@@ -2643,7 +2643,7 @@ false
 ;
 for
 (
-let
+const
 [
 id
 message
@@ -3421,7 +3421,7 @@ messageText
 =
 message
 ;
-let
+const
 actors
 =
 [
@@ -4575,7 +4575,7 @@ message
 filters
 )
 {
-let
+const
 text
 =
 (
@@ -4968,7 +4968,7 @@ toLocaleLowerCase
 (
 )
 ;
-let
+const
 method
 =
 request
@@ -4979,7 +4979,7 @@ toLocaleLowerCase
 (
 )
 ;
-let
+const
 url
 =
 request
@@ -5384,7 +5384,7 @@ grip
 =
 >
 {
-let
+const
 previewItems
 =
 getGripPreviewItems
@@ -5392,7 +5392,7 @@ getGripPreviewItems
 grip
 )
 ;
-let
+const
 allProps
 =
 previewItems

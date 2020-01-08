@@ -157,7 +157,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -248,7 +248,7 @@ field
 "
 )
 ;
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -257,7 +257,7 @@ view
 1
 )
 ;
-let
+const
 editor
 =
 idRuleEditor
@@ -299,7 +299,7 @@ update
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 once

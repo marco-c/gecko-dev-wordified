@@ -139,7 +139,7 @@ themeRegistration
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -155,7 +155,7 @@ test
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -178,7 +178,7 @@ options
 "
 )
 ;
-let
+const
 themeId
 =
 await
@@ -297,7 +297,7 @@ themeInOptionsPanel
 (
 )
 {
-let
+const
 panelWin
 =
 toolbox
@@ -308,7 +308,7 @@ getCurrentPanel
 .
 panelWin
 ;
-let
+const
 doc
 =
 panelWin
@@ -317,7 +317,7 @@ frameElement
 .
 contentDocument
 ;
-let
+const
 themeBox
 =
 doc
@@ -333,7 +333,7 @@ box
 "
 )
 ;
-let
+const
 testThemeOption
 =
 themeBox
@@ -355,7 +355,7 @@ TEST_THEME_NAME
 ]
 )
 ;
-let
+const
 eventsRecorded
 =
 [
@@ -401,7 +401,7 @@ panel
 "
 )
 ;
-let
+const
 lightThemeOption
 =
 themeBox
@@ -754,7 +754,7 @@ themeUnregistration
 (
 )
 {
-let
+const
 panelWin
 =
 toolbox
@@ -765,7 +765,7 @@ getCurrentPanel
 .
 panelWin
 ;
-let
+const
 onUnRegisteredTheme
 =
 once
@@ -778,7 +778,7 @@ unregistered
 "
 )
 ;
-let
+const
 onThemeSwitchComplete
 =
 once
@@ -793,7 +793,7 @@ complete
 "
 )
 ;
-let
+const
 eventsRecorded
 =
 [
@@ -896,7 +896,7 @@ map
 "
 )
 ;
-let
+const
 doc
 =
 panelWin
@@ -905,7 +905,7 @@ frameElement
 .
 contentDocument
 ;
-let
+const
 themeBox
 =
 doc

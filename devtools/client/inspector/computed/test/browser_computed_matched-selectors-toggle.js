@@ -160,7 +160,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -245,7 +245,7 @@ element
 "
 )
 ;
-let
+const
 twisty
 =
 styleDocument
@@ -269,7 +269,7 @@ found
 "
 )
 ;
-let
+const
 onExpand
 =
 inspector
@@ -317,7 +317,7 @@ div
 is
 not
 empty
-let
+const
 div
 =
 styleDocument
@@ -391,7 +391,7 @@ element
 "
 )
 ;
-let
+const
 twisty
 =
 styleDocument
@@ -415,7 +415,7 @@ found
 "
 )
 ;
-let
+const
 onCollapse
 =
 inspector
@@ -462,7 +462,7 @@ matchedselectors
 div
 is
 empty
-let
+const
 div
 =
 styleDocument
@@ -541,7 +541,7 @@ container
 "
 )
 ;
-let
+const
 container
 =
 styleDocument
@@ -577,7 +577,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 onExpand
 =
 inspector
@@ -633,7 +633,7 @@ div
 is
 not
 empty
-let
+const
 div
 =
 styleDocument
@@ -709,7 +709,7 @@ container
 "
 )
 ;
-let
+const
 container
 =
 styleDocument
@@ -739,7 +739,7 @@ found
 "
 )
 ;
-let
+const
 onCollapse
 =
 inspector
@@ -794,7 +794,7 @@ matchedselectors
 div
 is
 empty
-let
+const
 div
 =
 styleDocument

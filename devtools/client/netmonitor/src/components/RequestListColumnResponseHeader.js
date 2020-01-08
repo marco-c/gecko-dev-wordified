@@ -221,7 +221,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 item
 connector
@@ -250,7 +250,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 item
 connector
@@ -319,7 +319,7 @@ render
 (
 )
 {
-let
+const
 header
 =
 getResponseHeader

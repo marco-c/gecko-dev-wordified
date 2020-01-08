@@ -156,7 +156,7 @@ options
 }
 )
 {
-let
+const
 tab
 =
 await
@@ -223,7 +223,7 @@ panel
 n
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -276,7 +276,7 @@ and
 profileEnd
 methods
 .
-let
+const
 toolbox
 =
 await
@@ -295,7 +295,7 @@ initPerformance
 (
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -345,7 +345,7 @@ options
 }
 )
 {
-let
+const
 tab
 =
 await
@@ -461,7 +461,7 @@ options
 }
 )
 {
-let
+const
 tab
 =
 await
@@ -526,7 +526,7 @@ tab
 }
 )
 {
-let
+const
 {
 target
 toolbox
@@ -550,7 +550,7 @@ tab
 }
 )
 ;
-let
+const
 consoleMethod
 =
 async
@@ -561,7 +561,7 @@ label
 event
 )
 {
-let
+const
 recordingEventReceived
 =
 once
@@ -631,7 +631,7 @@ recordingEventReceived
 ;
 }
 ;
-let
+const
 profile
 =
 async
@@ -656,7 +656,7 @@ started
 ;
 }
 ;
-let
+const
 profileEnd
 =
 async
@@ -734,7 +734,7 @@ n
 "
 )
 ;
-let
+const
 tab
 =
 panel

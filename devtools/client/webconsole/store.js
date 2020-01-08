@@ -588,7 +588,7 @@ PERSIST
 Prepare
 middleware
 .
-let
+const
 middleware
 =
 applyMiddleware
@@ -1064,14 +1064,14 @@ state
 action
 )
 ;
-let
+const
 type
 =
 action
 .
 type
 ;
-let
+const
 proxy
 =
 hud
@@ -1197,7 +1197,7 @@ state
 action
 )
 {
-let
+const
 proxy
 =
 hud
@@ -1244,7 +1244,7 @@ return
 state
 ;
 }
-let
+const
 cssFilterToggled
 =
 action
@@ -1393,7 +1393,7 @@ state
 action
 )
 {
-let
+const
 proxy
 =
 hud
@@ -1418,7 +1418,7 @@ action
 )
 ;
 }
-let
+const
 actions
 =
 {
@@ -1566,14 +1566,14 @@ networkDataProvider
 dataProvider
 ;
 }
-let
+const
 type
 =
 action
 .
 type
 ;
-let
+const
 newState
 =
 reducer
@@ -1649,7 +1649,7 @@ type
 MESSAGE_OPEN
 )
 {
-let
+const
 updates
 =
 getAllNetworkMessagesUpdateById
@@ -1657,7 +1657,7 @@ getAllNetworkMessagesUpdateById
 newState
 )
 ;
-let
+const
 message
 =
 updates
@@ -1788,7 +1788,7 @@ type
 NETWORK_MESSAGE_UPDATE
 )
 {
-let
+const
 actor
 =
 action
@@ -1799,7 +1799,7 @@ networkInfo
 .
 actor
 ;
-let
+const
 open
 =
 getAllMessagesUiById
@@ -1817,7 +1817,7 @@ if
 open
 )
 {
-let
+const
 message
 =
 getMessage
@@ -1946,7 +1946,7 @@ state
 action
 )
 ;
-let
+const
 webConsoleClient
 =
 hud
@@ -2162,7 +2162,7 @@ next
 action
 )
 ;
-let
+const
 triggerStoreActions
 =
 [

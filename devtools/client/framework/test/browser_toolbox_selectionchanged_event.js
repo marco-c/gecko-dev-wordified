@@ -117,7 +117,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -126,7 +126,7 @@ addTab
 PAGE_URL
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -141,7 +141,7 @@ bottom
 "
 )
 ;
-let
+const
 inspector
 =
 toolbox
@@ -150,7 +150,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 root
 =
 await
@@ -162,7 +162,7 @@ getRootNode
 (
 )
 ;
-let
+const
 body
 =
 await
@@ -178,7 +178,7 @@ body
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -217,7 +217,7 @@ Listen
 to
 selection
 changed
-let
+const
 onSelectionChanged
 =
 toolbox
@@ -298,7 +298,7 @@ to
 cleared
 selection
 changed
-let
+const
 onClearSelectionChanged
 =
 toolbox

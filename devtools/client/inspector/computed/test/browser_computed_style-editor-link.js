@@ -478,7 +478,7 @@ addTab
 DOCUMENT_URL
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -556,7 +556,7 @@ view
 0
 )
 ;
-let
+const
 onTab
 =
 waitForTab
@@ -587,13 +587,13 @@ view
 0
 )
 ;
-let
+const
 tab
 =
 await
 onTab
 ;
-let
+const
 tabURI
 =
 tab
@@ -673,7 +673,7 @@ styleeditor
 "
 )
 ;
-let
+const
 onSwitch
 =
 waitForStyleEditor
@@ -697,7 +697,7 @@ view
 2
 )
 ;
-let
+const
 editor
 =
 await
@@ -762,7 +762,7 @@ selected
 "
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -771,7 +771,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 onSelected
 =
 panel
@@ -830,7 +830,7 @@ view
 4
 )
 ;
-let
+const
 editor
 =
 await
@@ -895,7 +895,7 @@ selected
 "
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -904,7 +904,7 @@ getCurrentPanel
 (
 )
 ;
-let
+const
 onSelected
 =
 panel
@@ -963,7 +963,7 @@ view
 1
 )
 ;
-let
+const
 editor
 =
 await
@@ -1015,7 +1015,7 @@ stylesheet
 "
 )
 ;
-let
+const
 expectedHref
 =
 await
@@ -1061,7 +1061,7 @@ view
 index
 )
 {
-let
+const
 link
 =
 getComputedViewLinkByIndex

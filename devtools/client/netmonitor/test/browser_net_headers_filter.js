@@ -61,7 +61,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -84,7 +84,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -95,7 +95,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -276,7 +276,7 @@ correctly
 "
 )
 ;
-let
+const
 totalResponseHeaders
 =
 [
@@ -337,7 +337,7 @@ cookie
 "
 ]
 ;
-let
+const
 expectedResponseHeaders
 =
 [
@@ -361,7 +361,7 @@ type
 "
 ]
 ;
-let
+const
 expectedRequestHeaders
 =
 [
@@ -375,7 +375,7 @@ Connection
 "
 ]
 ;
-let
+const
 labelCells
 =
 document
@@ -388,19 +388,19 @@ treeLabelCell
 "
 )
 ;
-let
+const
 filteredResponseHeaders
 =
 [
 ]
 ;
-let
+const
 filteredRequestHeaders
 =
 [
 ]
 ;
-let
+const
 responseHeadersLength
 =
 totalResponseHeaders

@@ -1371,7 +1371,7 @@ element
 of
 an
 array
-let
+const
 peek
 =
 arr
@@ -1446,7 +1446,7 @@ cached
 null
 state
 locations
-let
+const
 matchedStateIndex
 =
 this
@@ -1464,7 +1464,7 @@ matchedStateIndex
 1
 )
 {
-let
+const
 state
 =
 this
@@ -1582,7 +1582,7 @@ nullStates
 ]
 ;
 }
-let
+const
 tokens
 =
 cssTokenizerWithLineColumn
@@ -1590,7 +1590,7 @@ cssTokenizerWithLineColumn
 source
 )
 ;
-let
+const
 tokIndex
 =
 tokens
@@ -1909,7 +1909,7 @@ scopeStack
 )
 )
 {
-let
+const
 popped
 =
 scopeStack
@@ -2093,7 +2093,7 @@ scopeStack
 )
 )
 {
-let
+const
 popped
 =
 scopeStack
@@ -4577,7 +4577,7 @@ end
 .
 line
 ;
-let
+const
 tokenCh
 =
 token
@@ -4996,7 +4996,7 @@ function
 (
 )
 {
-let
+const
 walker
 =
 this
@@ -5339,14 +5339,14 @@ result
 .
 suggestions
 ;
-let
+const
 query
 =
 this
 .
 selector
 ;
-let
+const
 completion
 =
 [
@@ -5516,7 +5516,7 @@ length
 value
 ;
 }
-let
+const
 item
 =
 {
@@ -5696,7 +5696,7 @@ function
 startProp
 )
 {
-let
+const
 finalList
 =
 [
@@ -5717,7 +5717,7 @@ finalList
 )
 ;
 }
-let
+const
 length
 =
 this
@@ -5772,7 +5772,7 @@ count
 +
 +
 ;
-let
+const
 propName
 =
 this
@@ -5896,13 +5896,13 @@ propName
 startValue
 )
 {
-let
+const
 finalList
 =
 [
 ]
 ;
-let
+const
 list
 =
 [
@@ -5969,7 +5969,7 @@ splice
 )
 ;
 }
-let
+const
 length
 =
 list
@@ -6020,7 +6020,7 @@ count
 +
 +
 ;
-let
+const
 value
 =
 list
@@ -6197,7 +6197,7 @@ function
 line
 )
 {
-let
+const
 arr
 =
 this
@@ -6786,7 +6786,7 @@ line
 +
 +
 ;
-let
+const
 list
 =
 sourceArg
@@ -6880,7 +6880,7 @@ the
 given
 line
 ch
-let
+const
 state
 =
 this
@@ -6895,7 +6895,7 @@ caret
 caret
 )
 ;
-let
+const
 propertyName
 =
 this
@@ -6910,7 +6910,7 @@ ch
 =
 caret
 ;
-let
+const
 sourceArray
 =
 source
@@ -6988,7 +6988,7 @@ not
 .
 *
 /
-let
+const
 traverseForward
 =
 check
@@ -7048,7 +7048,7 @@ prevToken
 =
 undefined
 ;
-let
+const
 tokens
 =
 cssTokenizer
@@ -7061,7 +7061,7 @@ found
 =
 false
 ;
-let
+const
 ech
 =
 line
@@ -7166,7 +7166,7 @@ token
 continue
 ;
 }
-let
+const
 forwState
 =
 this
@@ -7352,7 +7352,7 @@ state
 .
 *
 /
-let
+const
 traverseBackwards
 =
 (
@@ -7411,7 +7411,7 @@ ch
 )
 ;
 }
-let
+const
 tokens
 =
 Array
@@ -7500,7 +7500,7 @@ length
 }
 else
 {
-let
+const
 length
 =
 token
@@ -7547,7 +7547,7 @@ whitespace
 continue
 ;
 }
-let
+const
 backState
 =
 this
@@ -7732,7 +7732,7 @@ of
 the
 selector
 .
-let
+const
 start
 =
 traverseBackwards
@@ -7800,7 +7800,7 @@ of
 the
 selector
 .
-let
+const
 end
 =
 traverseForward
@@ -7985,7 +7985,7 @@ easy
 to
 calculate
 .
-let
+const
 tokens
 =
 cssTokenizer
@@ -7998,7 +7998,7 @@ line
 ;
 for
 (
-let
+const
 token
 of
 tokens
@@ -8131,7 +8131,7 @@ the
 value
 at
 caret
-let
+const
 start
 =
 traverseBackwards
@@ -8162,7 +8162,7 @@ source
 caret
 )
 ;
-let
+const
 end
 =
 traverseForward

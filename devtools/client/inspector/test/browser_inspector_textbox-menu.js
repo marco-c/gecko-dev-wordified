@@ -199,7 +199,7 @@ h1
 >
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -231,7 +231,7 @@ tagname
 "
 )
 ;
-let
+const
 container
 =
 await
@@ -243,7 +243,7 @@ h1
 inspector
 )
 ;
-let
+const
 tag
 =
 container
@@ -480,7 +480,7 @@ selector
 "
 )
 ;
-let
+const
 ruleView
 =
 inspector
@@ -494,7 +494,7 @@ ruleview
 .
 view
 ;
-let
+const
 cssRuleEditor
 =
 getRuleViewRuleEditor
@@ -638,7 +638,7 @@ wait
 /
 for
 .
-let
+const
 onRuleViewChanged
 =
 once
@@ -689,7 +689,7 @@ view
 "
 )
 ;
-let
+const
 onBoxModelUpdated
 =
 inspector
@@ -725,7 +725,7 @@ region
 "
 )
 ;
-let
+const
 margin
 =
 inspector
@@ -852,7 +852,7 @@ open
 "
 )
 ;
-let
+const
 onContextMenu
 =
 once
@@ -916,7 +916,7 @@ menu
 "
 )
 ;
-let
+const
 onContextMenuHidden
 =
 once

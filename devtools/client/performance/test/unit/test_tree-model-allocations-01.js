@@ -60,7 +60,7 @@ function
 (
 )
 {
-let
+const
 {
 ThreadNode
 }
@@ -104,7 +104,7 @@ utils
 "
 )
 ;
-let
+const
 allocationData
 =
 getProfileThreadFromAllocations
@@ -112,7 +112,7 @@ getProfileThreadFromAllocations
 TEST_DATA
 )
 ;
-let
+const
 thread
 =
 new
@@ -590,7 +590,7 @@ parent
 |
 root
 ;
-let
+const
 fields
 =
 [
@@ -655,7 +655,7 @@ pop
 )
 ;
 }
-let
+const
 name
 =
 def
@@ -664,12 +664,12 @@ pop
 (
 )
 ;
-let
+const
 expected
 =
 def
 ;
-let
+const
 node
 =
 getFrameNodePath
@@ -678,7 +678,7 @@ parent
 name
 )
 ;
-let
+const
 data
 =
 node

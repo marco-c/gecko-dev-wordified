@@ -464,7 +464,7 @@ that
 resolves
 on
 response
-let
+const
 request
 =
 gClient
@@ -554,7 +554,7 @@ an
 explicit
 error
 message
-let
+const
 request
 =
 gClient
@@ -668,7 +668,7 @@ also
 an
 EventEmitter
 object
-let
+const
 request
 =
 gClient
@@ -778,7 +778,7 @@ response
 received
 yet
 .
-let
+const
 activeRequest
 =
 gClient
@@ -824,7 +824,7 @@ event
 be
 sent
 .
-let
+const
 pendingRequest
 =
 gClient
@@ -843,7 +843,7 @@ hello
 }
 )
 ;
-let
+const
 expectReply
 =
 defer
@@ -1136,7 +1136,7 @@ with
 promise
 API
 )
-let
+const
 request
 =
 gClient

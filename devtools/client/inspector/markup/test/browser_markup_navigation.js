@@ -664,7 +664,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -715,7 +715,7 @@ data
 ;
 for
 (
-let
+const
 [
 key
 className
@@ -890,7 +890,7 @@ className
 inspector
 )
 {
-let
+const
 node
 =
 inspector

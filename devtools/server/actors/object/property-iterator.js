@@ -473,7 +473,7 @@ options
 enumEntries
 )
 {
-let
+const
 cls
 =
 objectActor
@@ -689,7 +689,7 @@ indexes
 }
 )
 {
-let
+const
 list
 =
 [
@@ -697,7 +697,7 @@ list
 ;
 for
 (
-let
+const
 idx
 of
 indexes
@@ -734,7 +734,7 @@ count
 }
 )
 {
-let
+const
 ownProperties
 =
 Object
@@ -765,7 +765,7 @@ i
 +
 )
 {
-let
+const
 name
 =
 this
@@ -992,7 +992,7 @@ options
 ignoreIndexedProperties
 )
 {
-let
+const
 length
 =
 DevToolsUtils
@@ -1258,7 +1258,7 @@ sliceIndex
 ;
 }
 }
-let
+const
 safeGetterValues
 =
 objectActor
@@ -1269,7 +1269,7 @@ names
 0
 )
 ;
-let
+const
 safeGetterNames
 =
 Object
@@ -1294,7 +1294,7 @@ list
 .
 for
 (
-let
+const
 name
 of
 safeGetterNames
@@ -1496,7 +1496,7 @@ propertyDescription
 index
 )
 {
-let
+const
 name
 =
 names
@@ -1549,7 +1549,7 @@ existing
 properties
 list
 .
-let
+const
 {
 getterValue
 getterPrototypeLevel
@@ -1750,7 +1750,7 @@ of
 Object
 previews
 .
-let
+const
 raw
 =
 objectActor
@@ -1761,7 +1761,7 @@ unsafeDereference
 (
 )
 ;
-let
+const
 keys
 =
 [
@@ -1800,13 +1800,13 @@ function
 {
 for
 (
-let
+const
 key
 of
 keys
 )
 {
-let
+const
 value
 =
 Map
@@ -1860,7 +1860,7 @@ propertyDescription
 index
 )
 {
-let
+const
 key
 =
 keys
@@ -1868,7 +1868,7 @@ keys
 index
 ]
 ;
-let
+const
 val
 =
 Map
@@ -1982,7 +1982,7 @@ wrappers
 for
 them
 .
-let
+const
 raw
 =
 objectActor
@@ -1993,7 +1993,7 @@ unsafeDereference
 (
 )
 ;
-let
+const
 keys
 =
 [
@@ -2045,13 +2045,13 @@ function
 {
 for
 (
-let
+const
 key
 of
 keys
 )
 {
-let
+const
 value
 =
 raw
@@ -2100,7 +2100,7 @@ propertyDescription
 index
 )
 {
-let
+const
 key
 =
 keys
@@ -2108,7 +2108,7 @@ keys
 index
 ]
 ;
-let
+const
 val
 =
 raw
@@ -2285,7 +2285,7 @@ resulting
 objects
 carefully
 .
-let
+const
 raw
 =
 objectActor
@@ -2296,7 +2296,7 @@ unsafeDereference
 (
 )
 ;
-let
+const
 keys
 =
 Cu
@@ -2326,13 +2326,13 @@ function
 {
 for
 (
-let
+const
 key
 of
 keys
 )
 {
-let
+const
 value
 =
 WeakMap
@@ -2386,7 +2386,7 @@ propertyDescription
 index
 )
 {
-let
+const
 key
 =
 keys
@@ -2394,7 +2394,7 @@ keys
 index
 ]
 ;
-let
+const
 val
 =
 WeakMap
@@ -2576,7 +2576,7 @@ resulting
 objects
 carefully
 .
-let
+const
 raw
 =
 objectActor
@@ -2587,7 +2587,7 @@ unsafeDereference
 (
 )
 ;
-let
+const
 values
 =
 [
@@ -2626,7 +2626,7 @@ function
 {
 for
 (
-let
+const
 item
 of
 values
@@ -2660,7 +2660,7 @@ propertyDescription
 index
 )
 {
-let
+const
 val
 =
 values
@@ -2815,7 +2815,7 @@ resulting
 objects
 carefully
 .
-let
+const
 raw
 =
 objectActor
@@ -2826,7 +2826,7 @@ unsafeDereference
 (
 )
 ;
-let
+const
 keys
 =
 Cu
@@ -2856,7 +2856,7 @@ function
 {
 for
 (
-let
+const
 item
 of
 keys
@@ -2890,7 +2890,7 @@ propertyDescription
 index
 )
 {
-let
+const
 val
 =
 keys

@@ -120,7 +120,7 @@ target
 {
 for
 (
-let
+const
 key
 of
 array

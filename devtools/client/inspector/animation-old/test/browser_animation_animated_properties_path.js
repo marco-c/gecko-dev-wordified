@@ -2112,7 +2112,7 @@ i
 ;
 for
 (
-let
+const
 property
 in
 properties

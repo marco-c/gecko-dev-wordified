@@ -670,13 +670,13 @@ CATEGORY_MASK_LIST
 =
 >
 {
-let
+const
 bitmasksForCategory
 =
 {
 }
 ;
-let
+const
 all
 =
 Object
@@ -688,7 +688,7 @@ CATEGORY_MAPPINGS
 ;
 for
 (
-let
+const
 category
 of
 CATEGORIES

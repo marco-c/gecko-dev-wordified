@@ -404,7 +404,7 @@ function
 (
 )
 {
-let
+const
 throttler
 =
 new
@@ -432,7 +432,7 @@ uploadBPSMax
 }
 )
 ;
-let
+const
 uploadChannel
 =
 new
@@ -462,7 +462,7 @@ throttleQueue
 "
 )
 ;
-let
+const
 downloadChannel
 =
 new
@@ -470,14 +470,14 @@ TestChannel
 (
 )
 ;
-let
+const
 testListener
 =
 downloadChannel
 .
 testListener
 ;
-let
+const
 listener
 =
 throttler
@@ -560,7 +560,7 @@ hi
 bob
 "
 ;
-let
+const
 testStream
 =
 Cc
@@ -591,7 +591,7 @@ init
 512
 )
 ;
-let
+const
 out
 =
 testStream
@@ -617,7 +617,7 @@ close
 (
 )
 ;
-let
+const
 testInputStream
 =
 testStream
@@ -627,7 +627,7 @@ newInputStream
 0
 )
 ;
-let
+const
 activityDistributor
 =
 Cc
@@ -811,7 +811,7 @@ distributed
 "
 )
 ;
-let
+const
 onChange
 =
 testListener

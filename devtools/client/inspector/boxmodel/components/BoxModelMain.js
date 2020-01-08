@@ -485,7 +485,7 @@ componentDidUpdate
 (
 )
 {
-let
+const
 displayPosition
 =
 this
@@ -494,7 +494,7 @@ getDisplayPosition
 (
 )
 ;
-let
+const
 isContentBox
 =
 this
@@ -784,7 +784,7 @@ if
 activeDescendant
 )
 {
-let
+const
 displayPosition
 =
 this
@@ -793,7 +793,7 @@ getDisplayPosition
 (
 )
 ;
-let
+const
 nextLayout
 =
 displayPosition
@@ -836,7 +836,7 @@ getBorderOrPaddingValue
 property
 )
 {
-let
+const
 {
 layout
 }
@@ -890,7 +890,7 @@ getContextBox
 (
 )
 {
-let
+const
 {
 layout
 }
@@ -940,7 +940,7 @@ getDisplayPosition
 (
 )
 {
-let
+const
 {
 layout
 }
@@ -986,7 +986,7 @@ return
 "
 ;
 }
-let
+const
 {
 layout
 }
@@ -1074,7 +1074,7 @@ property
 direction
 )
 {
-let
+const
 {
 layout
 }
@@ -1085,7 +1085,7 @@ props
 .
 boxModel
 ;
-let
+const
 autoMargins
 =
 layout
@@ -1127,7 +1127,7 @@ property
 ]
 )
 {
-let
+const
 parsedValue
 =
 parseFloat
@@ -1206,7 +1206,7 @@ getPositionValue
 property
 )
 {
-let
+const
 {
 layout
 }
@@ -1237,7 +1237,7 @@ return
 value
 ;
 }
-let
+const
 parsedValue
 =
 parseFloat
@@ -1308,7 +1308,7 @@ return
 "
 ;
 }
-let
+const
 {
 layout
 }
@@ -1454,7 +1454,7 @@ shiftKey
 level
 )
 {
-let
+const
 editBoxes
 =
 [
@@ -1486,7 +1486,7 @@ editable
 )
 ]
 ;
-let
+const
 editingMode
 =
 target
@@ -1585,7 +1585,7 @@ position
 +
 ;
 }
-let
+const
 editBox
 =
 editBoxes
@@ -1649,7 +1649,7 @@ setAriaActive
 nextLayout
 )
 {
-let
+const
 {
 boxModelContainer
 }
@@ -1891,7 +1891,7 @@ onKeyDown
 event
 )
 {
-let
+const
 {
 target
 keyCode
@@ -1899,7 +1899,7 @@ keyCode
 =
 event
 ;
-let
+const
 isEditable
 =
 target
@@ -1911,7 +1911,7 @@ target
 .
 editor
 ;
-let
+const
 level
 =
 this
@@ -1920,7 +1920,7 @@ getAriaActiveDescendant
 (
 )
 ;
-let
+const
 editingMode
 =
 target
@@ -1963,7 +1963,7 @@ true
 =
 >
 {
-let
+const
 editableBox
 =
 this
@@ -2040,7 +2040,7 @@ false
 =
 >
 {
-let
+const
 nextLayout
 =
 this
@@ -2229,14 +2229,14 @@ onLevelClick
 event
 )
 {
-let
+const
 {
 target
 }
 =
 event
 ;
-let
+const
 displayPosition
 =
 this
@@ -2245,7 +2245,7 @@ getDisplayPosition
 (
 )
 ;
-let
+const
 isContentBox
 =
 this
@@ -2309,7 +2309,7 @@ contentLayout
 return
 ;
 }
-let
+const
 nextLayout
 =
 this
@@ -2364,7 +2364,7 @@ render
 (
 )
 {
-let
+const
 {
 boxModel
 onShowBoxModelEditor
@@ -2374,7 +2374,7 @@ this
 .
 props
 ;
-let
+const
 {
 layout
 }
@@ -2389,7 +2389,7 @@ width
 =
 layout
 ;
-let
+const
 {
 activeDescendant
 :
@@ -2401,7 +2401,7 @@ this
 .
 state
 ;
-let
+const
 borderTop
 =
 this
@@ -2417,7 +2417,7 @@ width
 "
 )
 ;
-let
+const
 borderRight
 =
 this
@@ -2433,7 +2433,7 @@ width
 "
 )
 ;
-let
+const
 borderBottom
 =
 this
@@ -2449,7 +2449,7 @@ width
 "
 )
 ;
-let
+const
 borderLeft
 =
 this
@@ -2465,7 +2465,7 @@ width
 "
 )
 ;
-let
+const
 paddingTop
 =
 this
@@ -2479,7 +2479,7 @@ top
 "
 )
 ;
-let
+const
 paddingRight
 =
 this
@@ -2493,7 +2493,7 @@ right
 "
 )
 ;
-let
+const
 paddingBottom
 =
 this
@@ -2507,7 +2507,7 @@ bottom
 "
 )
 ;
-let
+const
 paddingLeft
 =
 this
@@ -2521,7 +2521,7 @@ left
 "
 )
 ;
-let
+const
 displayPosition
 =
 this
@@ -2530,7 +2530,7 @@ getDisplayPosition
 (
 )
 ;
-let
+const
 positionTop
 =
 this
@@ -2542,7 +2542,7 @@ top
 "
 )
 ;
-let
+const
 positionRight
 =
 this
@@ -2554,7 +2554,7 @@ right
 "
 )
 ;
-let
+const
 positionBottom
 =
 this
@@ -2566,7 +2566,7 @@ bottom
 "
 )
 ;
-let
+const
 positionLeft
 =
 this
@@ -2578,7 +2578,7 @@ left
 "
 )
 ;
-let
+const
 marginTop
 =
 this
@@ -2595,7 +2595,7 @@ top
 "
 )
 ;
-let
+const
 marginRight
 =
 this
@@ -2612,7 +2612,7 @@ right
 "
 )
 ;
-let
+const
 marginBottom
 =
 this
@@ -2629,7 +2629,7 @@ bottom
 "
 )
 ;
-let
+const
 marginLeft
 =
 this
@@ -2664,7 +2664,7 @@ getWidthValue
 width
 )
 ;
-let
+const
 contentBox
 =
 layout

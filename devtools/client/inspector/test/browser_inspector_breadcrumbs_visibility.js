@@ -137,7 +137,7 @@ closed
 /
 )
 ;
-let
+const
 {
 Toolbox
 }
@@ -352,7 +352,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -417,7 +417,7 @@ HostType
 WINDOW
 )
 ;
-let
+const
 hostWindow
 =
 toolbox
@@ -426,21 +426,21 @@ win
 .
 parent
 ;
-let
+const
 originalWidth
 =
 hostWindow
 .
 outerWidth
 ;
-let
+const
 originalHeight
 =
 hostWindow
 .
 outerHeight
 ;
-let
+const
 inspectorResized
 =
 inspector
@@ -538,7 +538,7 @@ hostWindow
 inspector
 )
 {
-let
+const
 breadcrumbs
 =
 inspector
@@ -554,7 +554,7 @@ breadcrumbs
 "
 )
 ;
-let
+const
 startBtn
 =
 breadcrumbs
@@ -569,7 +569,7 @@ up
 "
 )
 ;
-let
+const
 endBtn
 =
 breadcrumbs
@@ -584,7 +584,7 @@ down
 "
 )
 ;
-let
+const
 container
 =
 breadcrumbs
@@ -601,7 +601,7 @@ inner
 "
 )
 ;
-let
+const
 breadcrumbsUpdated
 =
 inspector
@@ -644,7 +644,7 @@ duration
 await
 breadcrumbsUpdated
 ;
-let
+const
 initialCrumb
 =
 container
@@ -677,7 +677,7 @@ visible
 ;
 for
 (
-let
+const
 node
 of
 NODES
@@ -776,7 +776,7 @@ panelWin
 await
 breadcrumbsUpdated
 ;
-let
+const
 selector
 =
 "
@@ -798,7 +798,7 @@ title
 ]
 "
 ;
-let
+const
 relevantCrumb
 =
 container
@@ -836,7 +836,7 @@ window
 el
 )
 {
-let
+const
 rect
 =
 el

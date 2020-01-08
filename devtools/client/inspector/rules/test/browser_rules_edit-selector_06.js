@@ -146,7 +146,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -198,7 +198,7 @@ view
 1
 )
 ;
-let
+const
 editor
 =
 await
@@ -220,7 +220,7 @@ value
 body
 "
 ;
-let
+const
 onRuleViewChanged
 =
 once
@@ -264,7 +264,7 @@ view
 1
 )
 ;
-let
+const
 propEditor
 =
 ruleEditor
@@ -420,7 +420,7 @@ view
 2
 )
 ;
-let
+const
 editor
 =
 await
@@ -442,7 +442,7 @@ value
 asdf
 "
 ;
-let
+const
 onRuleViewChanged
 =
 once

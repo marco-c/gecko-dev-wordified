@@ -1200,7 +1200,7 @@ customColor
 fallbackColor
 )
 {
-let
+const
 highlighted
 =
 this
@@ -1358,7 +1358,7 @@ getGridColorForNodeFront
 nodeFront
 )
 {
-let
+const
 {
 grids
 }
@@ -1373,7 +1373,7 @@ getState
 ;
 for
 (
-let
+const
 grid
 of
 grids
@@ -1824,7 +1824,7 @@ updated
 return
 ;
 }
-let
+const
 currentUrl
 =
 this
@@ -1908,7 +1908,7 @@ and
 about
 :
 pages
-let
+const
 hostname
 =
 parseURL
@@ -1926,7 +1926,7 @@ currentUrl
 .
 protocol
 ;
-let
+const
 customColors
 =
 await
@@ -1943,7 +1943,7 @@ gridInspectorHostColors
 {
 }
 ;
-let
+const
 grids
 =
 [
@@ -1967,7 +1967,7 @@ i
 +
 )
 {
-let
+const
 grid
 =
 gridFronts
@@ -2093,7 +2093,7 @@ return
 ;
 }
 }
-let
+const
 colorForHost
 =
 customColors
@@ -2111,7 +2111,7 @@ i
 :
 null
 ;
-let
+const
 fallbackColor
 =
 GRID_COLORS
@@ -2123,7 +2123,7 @@ GRID_COLORS
 length
 ]
 ;
-let
+const
 color
 =
 this
@@ -2135,7 +2135,7 @@ colorForHost
 fallbackColor
 )
 ;
-let
+const
 highlighted
 =
 this
@@ -3262,7 +3262,7 @@ color
 )
 )
 ;
-let
+const
 {
 grids
 }
@@ -3275,7 +3275,7 @@ getState
 (
 )
 ;
-let
+const
 currentUrl
 =
 this
@@ -3311,7 +3311,7 @@ and
 about
 :
 pages
-let
+const
 hostname
 =
 parseURL
@@ -3329,7 +3329,7 @@ currentUrl
 .
 protocol
 ;
-let
+const
 customGridColors
 =
 await
@@ -3348,7 +3348,7 @@ gridInspectorHostColors
 ;
 for
 (
-let
+const
 grid
 of
 grids
@@ -3934,7 +3934,7 @@ TELEMETRY_GRID_AREAS_OVERLAY_CHECKED
 )
 ;
 }
-let
+const
 {
 grids
 }
@@ -3949,7 +3949,7 @@ getState
 ;
 for
 (
-let
+const
 grid
 of
 grids
@@ -4093,7 +4093,7 @@ TELEMETRY_GRID_LINE_NUMBERS_CHECKED
 )
 ;
 }
-let
+const
 {
 grids
 }
@@ -4108,7 +4108,7 @@ getState
 ;
 for
 (
-let
+const
 grid
 of
 grids
@@ -4250,7 +4250,7 @@ TELEMETRY_INFINITE_LINES_CHECKED
 )
 ;
 }
-let
+const
 {
 grids
 }
@@ -4265,7 +4265,7 @@ getState
 ;
 for
 (
-let
+const
 grid
 of
 grids

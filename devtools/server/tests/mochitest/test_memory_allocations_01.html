@@ -177,7 +177,7 @@ function
 (
 )
 {
-let
+const
 {
 memory
 client
@@ -342,7 +342,7 @@ nested
 callbacks
 *
 /
-let
+const
 response
 =
 await
@@ -401,7 +401,7 @@ isTestAllocation
 alloc
 )
 {
-let
+const
 frame
 =
 response
@@ -461,7 +461,7 @@ line
 )
 ;
 }
-let
+const
 testAllocations
 =
 response
@@ -564,7 +564,7 @@ others
 etc
 )
 .
-let
+const
 expectedLines
 =
 new
@@ -585,13 +585,13 @@ line
 ;
 for
 (
-let
+const
 alloc
 of
 testAllocations
 )
 {
-let
+const
 innerFrame
 =
 response
@@ -632,7 +632,7 @@ innerFrame
 line
 )
 ;
-let
+const
 middleFrame
 =
 response
@@ -666,7 +666,7 @@ middle
 "
 )
 ;
-let
+const
 outerFrame
 =
 response

@@ -172,7 +172,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -182,7 +182,7 @@ openRuleView
 (
 )
 ;
-let
+const
 swatch
 =
 getRuleViewProperty
@@ -208,7 +208,7 @@ colorswatch
 "
 )
 ;
-let
+const
 bgImageSpan
 =
 getRuleViewProperty
@@ -226,7 +226,7 @@ image
 .
 valueSpan
 ;
-let
+const
 uriSpan
 =
 bgImageSpan
@@ -241,7 +241,7 @@ link
 "
 )
 ;
-let
+const
 colorPicker
 =
 view
@@ -272,7 +272,7 @@ swatch
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 colorPicker
@@ -310,7 +310,7 @@ picker
 "
 )
 ;
-let
+const
 onHidden
 =
 colorPicker
@@ -334,7 +334,7 @@ refreshes
 the
 value
 .
-let
+const
 onRuleViewChanged
 =
 view
@@ -348,7 +348,7 @@ changed
 "
 )
 ;
-let
+const
 previewTooltip
 =
 await

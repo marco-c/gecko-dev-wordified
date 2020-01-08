@@ -75,7 +75,7 @@ test
 (
 )
 {
-let
+const
 {
 JITOptimizations
 }
@@ -97,7 +97,7 @@ jit
 "
 )
 ;
-let
+const
 rawSites
 =
 [
@@ -145,7 +145,7 @@ push
 gRawSite3
 )
 ;
-let
+const
 jit
 =
 new
@@ -157,14 +157,14 @@ gStringTable
 stringTable
 )
 ;
-let
+const
 sites
 =
 jit
 .
 optimizationSites
 ;
-let
+const
 [
 first
 second

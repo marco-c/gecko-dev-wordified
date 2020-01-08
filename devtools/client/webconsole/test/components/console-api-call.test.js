@@ -390,7 +390,7 @@ toBe
 2
 )
 ;
-let
+const
 selector
 =
 "
@@ -1362,7 +1362,7 @@ repeats
 "
 )
 ;
-let
+const
 selector
 =
 "
@@ -4165,7 +4165,7 @@ bar
 "
 )
 ;
-let
+const
 wrapper
 =
 mount
@@ -4214,7 +4214,7 @@ click
 "
 )
 ;
-let
+const
 call
 =
 store

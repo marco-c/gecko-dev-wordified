@@ -251,7 +251,7 @@ formatSecurityProtocol
 ;
 for
 (
-let
+const
 {
 description
 input

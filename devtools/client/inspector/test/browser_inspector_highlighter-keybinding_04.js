@@ -109,7 +109,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -142,7 +142,7 @@ nodes
 "
 )
 ;
-let
+const
 onHover
 =
 toolbox
@@ -201,7 +201,7 @@ stop
 "
 )
 ;
-let
+const
 onPickerStopped
 =
 toolbox
@@ -252,7 +252,7 @@ open
 "
 )
 ;
-let
+const
 onSplitConsole
 =
 toolbox
@@ -266,7 +266,7 @@ console
 "
 )
 ;
-let
+const
 onConsoleReady
 =
 toolbox

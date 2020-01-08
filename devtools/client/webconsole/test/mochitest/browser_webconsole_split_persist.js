@@ -90,7 +90,7 @@ state
 is
 persisted
 .
-let
+const
 {
 LocalizationHelper
 }
@@ -106,7 +106,7 @@ l10n
 "
 )
 ;
-let
+const
 L10N
 =
 new
@@ -400,7 +400,7 @@ closing
 "
 )
 ;
-let
+const
 activeElement
 =
 getActiveElement
@@ -410,7 +410,7 @@ toolbox
 doc
 )
 ;
-let
+const
 inputNode
 =
 toolbox
@@ -910,7 +910,7 @@ toggleSplitConsoleWithEscape
 toolbox
 )
 {
-let
+const
 onceSplitConsole
 =
 toolbox
@@ -924,7 +924,7 @@ console
 "
 )
 ;
-let
+const
 toolboxWindow
 =
 toolbox

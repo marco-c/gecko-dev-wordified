@@ -285,7 +285,7 @@ numbers
 =
 >
 {
-let
+const
 counter
 =
 getFilteredMessagesCount
@@ -516,7 +516,7 @@ packets
 )
 )
 ;
-let
+const
 counter
 =
 getFilteredMessagesCount
@@ -828,7 +828,7 @@ messagesClear
 )
 )
 ;
-let
+const
 counter
 =
 getFilteredMessagesCount
@@ -958,7 +958,7 @@ defaultFiltersReset
 )
 )
 ;
-let
+const
 counter
 =
 getFilteredMessagesCount
@@ -1088,7 +1088,7 @@ filtersClear
 )
 )
 ;
-let
+const
 counter
 =
 getFilteredMessagesCount

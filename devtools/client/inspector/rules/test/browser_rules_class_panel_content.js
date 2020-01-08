@@ -510,7 +510,7 @@ div
 "
 )
 ;
-let
+const
 {
 testActor
 inspector
@@ -549,7 +549,7 @@ showClassPanel
 ;
 for
 (
-let
+const
 {
 inputClassName
 expectedClasses

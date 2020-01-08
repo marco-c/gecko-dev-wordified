@@ -97,7 +97,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 controller
@@ -126,7 +126,7 @@ checkDocumentTimeIsCorrect
 controller
 )
 ;
-let
+const
 time1
 =
 controller
@@ -145,7 +145,7 @@ checkDocumentTimeIsCorrect
 controller
 )
 ;
-let
+const
 time2
 =
 controller
@@ -186,7 +186,7 @@ time
 ;
 for
 (
-let
+const
 {
 state
 }
@@ -250,7 +250,7 @@ again
 "
 )
 ;
-let
+const
 onPlayerAdded
 =
 controller
@@ -262,7 +262,7 @@ controller
 PLAYERS_UPDATED_EVENT
 )
 ;
-let
+const
 onRendered
 =
 waitForAnimationTimelineRendering

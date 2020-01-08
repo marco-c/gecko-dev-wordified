@@ -166,7 +166,7 @@ function
 (
 )
 {
-let
+const
 toolbox
 =
 await
@@ -178,7 +178,7 @@ webconsole
 "
 )
 ;
-let
+const
 hud
 =
 toolbox
@@ -1056,7 +1056,7 @@ headers
 }
 )
 ;
-let
+const
 nodes
 =
 [
@@ -1064,13 +1064,13 @@ nodes
 ;
 for
 (
-let
+const
 testCase
 of
 testCases
 )
 {
-let
+const
 node
 =
 await
@@ -1104,7 +1104,7 @@ node
 )
 ;
 }
-let
+const
 consoleTableNodes
 =
 hud
@@ -1435,7 +1435,7 @@ node
 index
 )
 {
-let
+const
 condition
 =
 node

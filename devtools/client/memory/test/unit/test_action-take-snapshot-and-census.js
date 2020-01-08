@@ -60,7 +60,7 @@ actions
 .
 *
 /
-let
+const
 {
 snapshotState
 :
@@ -81,7 +81,7 @@ constants
 "
 )
 ;
-let
+const
 actions
 =
 require
@@ -101,12 +101,12 @@ snapshot
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 front
 =
 new
@@ -114,7 +114,7 @@ StubbedMemoryFront
 (
 )
 ;
-let
+const
 heapWorker
 =
 new
@@ -122,14 +122,14 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
 (
 )
 ;
-let
+const
 store
 =
 Store
@@ -146,7 +146,7 @@ censusI
 =
 0
 ;
-let
+const
 snapshotStates
 =
 [
@@ -164,7 +164,7 @@ READ
 "
 ]
 ;
-let
+const
 censusStates
 =
 [
@@ -176,7 +176,7 @@ SAVED
 "
 ]
 ;
-let
+const
 expectStates
 =
 (
@@ -184,7 +184,7 @@ expectStates
 =
 >
 {
-let
+const
 snapshot
 =
 store
@@ -216,7 +216,7 @@ snapshotStates
 length
 )
 {
-let
+const
 isCorrectState
 =
 snapshot
@@ -315,7 +315,7 @@ censusI
 }
 }
 ;
-let
+const
 unsubscribe
 =
 store
@@ -338,7 +338,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -391,7 +391,7 @@ snapshot
 "
 )
 ;
-let
+const
 snapshot
 =
 store

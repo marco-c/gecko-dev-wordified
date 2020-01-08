@@ -101,7 +101,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -355,7 +355,7 @@ expectUncaughtException
 )
 ;
 }
-let
+const
 uri
 =
 "

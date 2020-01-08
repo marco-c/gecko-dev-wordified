@@ -287,21 +287,21 @@ cache
 action
 )
 {
-let
+const
 response
 =
 action
 .
 response
 ;
-let
+const
 from
 =
 response
 .
 from
 ;
-let
+const
 className
 =
 action
@@ -330,7 +330,7 @@ of
 requested
 children
 .
-let
+const
 previewProps
 =
 response
@@ -345,7 +345,7 @@ ownProperties
 :
 null
 ;
-let
+const
 ownProps
 =
 response
@@ -359,7 +359,7 @@ previewProps
 [
 ]
 ;
-let
+const
 props
 =
 Object
@@ -455,7 +455,7 @@ state
 /
 map
 .
-let
+const
 newCache
 =
 new
@@ -485,7 +485,7 @@ mergeProperties
 response
 )
 {
-let
+const
 {
 ownProperties
 }
@@ -509,7 +509,7 @@ on
 old
 grips
 .
-let
+const
 safeGetterValues
 =
 response
@@ -543,7 +543,7 @@ variablesView
 .
 for
 (
-let
+const
 name
 of
 Object
@@ -561,7 +561,7 @@ in
 ownProperties
 )
 {
-let
+const
 {
 getterValue
 getterPrototypeLevel

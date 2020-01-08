@@ -393,7 +393,7 @@ object
 "
 )
 ;
-let
+const
 spectrum
 =
 await

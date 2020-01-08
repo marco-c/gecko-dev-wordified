@@ -243,7 +243,7 @@ get
 (
 )
 {
-let
+const
 {
 require
 }
@@ -388,7 +388,7 @@ browser
 .
 *
 /
-let
+const
 gDevToolsMethods
 =
 [
@@ -626,7 +626,7 @@ instance
 .
 *
 /
-let
+const
 gDevToolsBrowserMethods
 =
 [

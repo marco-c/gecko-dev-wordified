@@ -1015,7 +1015,7 @@ extraSizeData
 extraStringData
 )
 {
-let
+const
 datum
 =
 {
@@ -1300,7 +1300,7 @@ code
 undefined
 )
 {
-let
+const
 {
 callback
 httpActivity
@@ -1318,7 +1318,7 @@ activities
 code
 ]
 ;
-let
+const
 now
 =
 Date
@@ -1741,7 +1741,7 @@ add
 throttleListener
 )
 ;
-let
+const
 delay
 =
 this
@@ -2067,7 +2067,7 @@ downloadQueue
 length
 )
 {
-let
+const
 {
 length
 done
@@ -2529,7 +2529,7 @@ this
 downloadQueue
 )
 {
-let
+const
 listener
 =
 new
@@ -2540,7 +2540,7 @@ this
 downloadQueue
 )
 ;
-let
+const
 originalListener
 =
 channel

@@ -76,7 +76,7 @@ run_test
 (
 )
 {
-let
+const
 loader1
 =
 new
@@ -84,7 +84,7 @@ DevToolsLoader
 (
 )
 ;
-let
+const
 loader2
 =
 new
@@ -92,7 +92,7 @@ DevToolsLoader
 (
 )
 ;
-let
+const
 indent1
 =
 loader1
@@ -108,7 +108,7 @@ indentation
 "
 )
 ;
-let
+const
 indent2
 =
 loader2

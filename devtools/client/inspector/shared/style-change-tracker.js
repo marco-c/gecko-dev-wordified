@@ -429,7 +429,7 @@ current
 selected
 node
 ?
-let
+const
 currentNode
 =
 this
@@ -527,7 +527,7 @@ parentNode
 (
 )
 ;
-let
+const
 siblings
 =
 parent
@@ -600,7 +600,7 @@ false
 ;
 for
 (
-let
+const
 mutation
 of
 mutations

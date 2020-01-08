@@ -133,7 +133,7 @@ function
 (
 )
 {
-let
+const
 shouldLog
 =
 false
@@ -192,7 +192,7 @@ shouldLog
 true
 ;
 }
-let
+const
 store
 =
 createStore

@@ -346,7 +346,7 @@ use
 strict
 "
 ;
-let
+const
 {
 Cu
 }
@@ -388,7 +388,7 @@ one
 .
 .
 .
-let
+const
 global
 =
 require
@@ -420,7 +420,7 @@ addDebuggerToGlobal
 global
 )
 ;
-let
+const
 {
 Debugger
 }
@@ -790,7 +790,7 @@ sites
 from
 Debugger
 API
-let
+const
 allocations
 =
 dbg
@@ -897,7 +897,7 @@ line
 /
 /
 }
-let
+const
 sources
 =
 {
@@ -905,13 +905,13 @@ sources
 ;
 for
 (
-let
+const
 alloc
 of
 allocations
 )
 {
-let
+const
 {
 frame
 }
@@ -1054,7 +1054,7 @@ line
 ;
 }
 }
-let
+const
 allocationList
 =
 Object
@@ -1131,7 +1131,7 @@ item
 =
 >
 {
-let
+const
 lines
 =
 [
@@ -1329,7 +1329,7 @@ sites
 from
 Debugger
 API
-let
+const
 allocations
 =
 dbg

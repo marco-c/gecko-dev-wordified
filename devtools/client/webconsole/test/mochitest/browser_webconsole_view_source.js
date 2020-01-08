@@ -189,7 +189,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -206,7 +206,7 @@ opened
 "
 )
 ;
-let
+const
 msg
 =
 await
@@ -238,7 +238,7 @@ message
 "
 )
 ;
-let
+const
 locationNode
 =
 msg
@@ -268,7 +268,7 @@ node
 "
 )
 ;
-let
+const
 onTabOpen
 =
 BrowserTestUtils

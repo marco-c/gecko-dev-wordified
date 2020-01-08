@@ -80,7 +80,7 @@ run_test
 (
 )
 {
-let
+const
 dbg
 =
 new
@@ -88,7 +88,7 @@ Debugger
 (
 )
 ;
-let
+const
 census0
 =
 saveHeapSnapshotAndTakeCensus
@@ -109,7 +109,7 @@ Census
 assertAllZeros
 )
 ;
-let
+const
 g1
 =
 newGlobal
@@ -123,7 +123,7 @@ addDebuggee
 g1
 )
 ;
-let
+const
 census1
 =
 saveHeapSnapshotAndTakeCensus
@@ -147,7 +147,7 @@ census0
 )
 )
 ;
-let
+const
 g2
 =
 newGlobal
@@ -161,7 +161,7 @@ addDebuggee
 g2
 )
 ;
-let
+const
 census2
 =
 saveHeapSnapshotAndTakeCensus
@@ -192,7 +192,7 @@ removeDebuggee
 g2
 )
 ;
-let
+const
 census3
 =
 saveHeapSnapshotAndTakeCensus
@@ -223,7 +223,7 @@ removeDebuggee
 g1
 )
 ;
-let
+const
 census4
 =
 saveHeapSnapshotAndTakeCensus

@@ -150,7 +150,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 gridInspector
@@ -161,7 +161,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -170,14 +170,14 @@ doc
 =
 gridInspector
 ;
-let
+const
 {
 store
 }
 =
 inspector
 ;
-let
+const
 cPicker
 =
 gridInspector
@@ -186,14 +186,14 @@ getSwatchColorPickerTooltip
 (
 )
 ;
-let
+const
 spectrum
 =
 cPicker
 .
 spectrum
 ;
-let
+const
 swatch
 =
 doc
@@ -251,7 +251,7 @@ swatch
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 cPicker
@@ -330,7 +330,7 @@ change
 "
 )
 ;
-let
+const
 onGridColorUpdate
 =
 waitUntilState
@@ -356,7 +356,7 @@ color
 "
 )
 ;
-let
+const
 onColorPickerHidden
 =
 cPicker
@@ -434,7 +434,7 @@ view
 "
 )
 ;
-let
+const
 ruleView
 =
 selectRuleView
@@ -442,7 +442,7 @@ selectRuleView
 inspector
 )
 ;
-let
+const
 highlighters
 =
 ruleView
@@ -459,7 +459,7 @@ grid
 inspector
 )
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -476,7 +476,7 @@ display
 .
 valueSpan
 ;
-let
+const
 gridToggle
 =
 container
@@ -509,7 +509,7 @@ view
 "
 )
 ;
-let
+const
 onHighlighterShown
 =
 highlighters
@@ -543,7 +543,7 @@ settings
 "
 )
 ;
-let
+const
 {
 color
 showGridAreasOverlay

@@ -692,7 +692,7 @@ repeatFn
 let
 timer
 ;
-let
+const
 container
 =
 this
@@ -713,7 +713,7 @@ repeatFn
 )
 ;
 }
-let
+const
 window
 =
 this
@@ -826,7 +826,7 @@ function
 (
 )
 {
-let
+const
 children
 =
 this
@@ -847,7 +847,7 @@ length
 return
 ;
 }
-let
+const
 element
 =
 this
@@ -892,7 +892,7 @@ function
 (
 )
 {
-let
+const
 children
 =
 this
@@ -913,7 +913,7 @@ length
 return
 ;
 }
-let
+const
 element
 =
 children
@@ -958,7 +958,7 @@ function
 (
 )
 {
-let
+const
 scrollToStart
 =
 (
@@ -966,7 +966,7 @@ scrollToStart
 =
 >
 {
-let
+const
 element
 =
 this
@@ -984,7 +984,7 @@ element
 return
 ;
 }
-let
+const
 block
 =
 this
@@ -1041,7 +1041,7 @@ function
 (
 )
 {
-let
+const
 scrollToEnd
 =
 (
@@ -1049,7 +1049,7 @@ scrollToEnd
 =
 >
 {
-let
+const
 element
 =
 this
@@ -1067,7 +1067,7 @@ element
 return
 ;
 }
-let
+const
 block
 =
 this
@@ -1129,7 +1129,7 @@ function
 (
 )
 {
-let
+const
 first
 =
 this
@@ -1173,7 +1173,7 @@ disabled
 )
 ;
 }
-let
+const
 last
 =
 this
@@ -1568,7 +1568,7 @@ function
 (
 )
 {
-let
+const
 elementsList
 =
 Array
@@ -1586,7 +1586,7 @@ reverse
 (
 )
 ;
-let
+const
 predicate
 =
 this
@@ -1648,7 +1648,7 @@ function
 (
 )
 {
-let
+const
 predicate
 =
 this
@@ -1733,7 +1733,7 @@ elements
 predicate
 )
 {
-let
+const
 left
 =
 this
@@ -1742,7 +1742,7 @@ inner
 .
 scrollLeft
 ;
-let
+const
 right
 =
 left
@@ -1755,13 +1755,13 @@ clientWidth
 ;
 for
 (
-let
+const
 element
 of
 elements
 )
 {
-let
+const
 elementLeft
 =
 element
@@ -1774,7 +1774,7 @@ parentElement
 .
 offsetLeft
 ;
-let
+const
 elementRight
 =
 elementLeft
@@ -2076,7 +2076,7 @@ className
 parent
 )
 {
-let
+const
 el
 =
 this
@@ -2866,7 +2866,7 @@ node
 className
 )
 {
-let
+const
 classList
 =
 node
@@ -2916,7 +2916,7 @@ i
 }
 for
 (
-let
+const
 pseudo
 of
 node
@@ -3038,7 +3038,7 @@ function
 node
 )
 {
-let
+const
 tagLabel
 =
 this
@@ -3068,7 +3068,7 @@ tag
 plain
 "
 ;
-let
+const
 idLabel
 =
 this
@@ -3098,7 +3098,7 @@ id
 plain
 "
 ;
-let
+const
 classesLabel
 =
 this
@@ -3128,7 +3128,7 @@ classes
 plain
 "
 ;
-let
+const
 pseudosLabel
 =
 this
@@ -3226,7 +3226,7 @@ node
 className
 )
 {
-let
+const
 classList
 =
 node
@@ -3307,12 +3307,12 @@ pseudo
 elements
 )
 .
-let
+const
 maxTagLength
 =
 MAX_LABEL_LENGTH
 ;
-let
+const
 maxIdLength
 =
 MAX_LABEL_LENGTH
@@ -3321,7 +3321,7 @@ tagText
 .
 length
 ;
-let
+const
 maxClassLength
 =
 MAX_LABEL_LENGTH
@@ -3446,7 +3446,7 @@ join
 "
 )
 ;
-let
+const
 fragment
 =
 this
@@ -3666,7 +3666,7 @@ stopPropagation
 (
 )
 ;
-let
+const
 node
 =
 this
@@ -3755,7 +3755,7 @@ function
 event
 )
 {
-let
+const
 target
 =
 event
@@ -3812,7 +3812,7 @@ function
 event
 )
 {
-let
+const
 target
 =
 event
@@ -4652,7 +4652,7 @@ index
 )
 )
 {
-let
+const
 toRemove
 =
 this
@@ -4721,7 +4721,7 @@ function
 node
 )
 {
-let
+const
 button
 =
 this
@@ -4913,7 +4913,7 @@ function
 node
 )
 {
-let
+const
 fragment
 =
 this
@@ -4929,7 +4929,7 @@ lastButtonInserted
 =
 null
 ;
-let
+const
 originalLength
 =
 this
@@ -4982,7 +4982,7 @@ node
 tagName
 )
 {
-let
+const
 button
 =
 this
@@ -5111,7 +5111,7 @@ while
 node
 )
 {
-let
+const
 idx
 =
 this
@@ -5189,7 +5189,7 @@ this
 isDestroyed
 )
 {
-let
+const
 element
 =
 this
@@ -5267,7 +5267,7 @@ i
 -
 )
 {
-let
+const
 {
 node
 button
@@ -5297,7 +5297,7 @@ skip
 the
 update
 .
-let
+const
 textOutput
 =
 this
@@ -5481,7 +5481,7 @@ false
 }
 for
 (
-let
+const
 {
 type
 added
@@ -5795,7 +5795,7 @@ isDestroyed
 return
 ;
 }
-let
+const
 hasInterestingMutations
 =
 this
@@ -5884,7 +5884,7 @@ markupmutation
 {
 for
 (
-let
+const
 {
 type
 removed
@@ -5909,13 +5909,13 @@ continue
 }
 for
 (
-let
+const
 node
 of
 removed
 )
 {
-let
+const
 removedIndex
 =
 this
@@ -6123,7 +6123,7 @@ ancestors
 of
 the
 selection
-let
+const
 parent
 =
 this
@@ -6136,7 +6136,7 @@ parentNode
 (
 )
 ;
-let
+const
 ancestorIdx
 =
 this
@@ -6215,7 +6215,7 @@ idx
 )
 ;
 }
-let
+const
 doneUpdating
 =
 this

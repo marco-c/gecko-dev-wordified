@@ -130,18 +130,18 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -150,7 +150,7 @@ bottom
 TEST_URI
 )
 ;
-let
+const
 container
 =
 doc
@@ -167,7 +167,7 @@ container
 "
 )
 ;
-let
+const
 w
 =
 new
@@ -179,7 +179,7 @@ PREDEFINED
 linear
 )
 ;
-yield
+await
 previewDotReactsToChanges
 (
 w
@@ -200,7 +200,7 @@ w
 ]
 )
 ;
-yield
+await
 previewDotReactsToChanges
 (
 w
@@ -220,7 +220,7 @@ w
 ]
 )
 ;
-yield
+await
 previewDotReactsToChanges
 (
 w
@@ -241,7 +241,7 @@ w
 ]
 )
 ;
-yield
+await
 previewDotReactsToChanges
 (
 w
@@ -253,7 +253,7 @@ ease
 "
 )
 ;
-yield
+await
 previewDotReactsToChanges
 (
 w
@@ -291,8 +291,8 @@ destroy
 }
 )
 ;
+async
 function
-*
 previewDotReactsToChanges
 (
 widget
@@ -300,7 +300,7 @@ coords
 expectedEasing
 )
 {
-let
+const
 onUpdated
 =
 widget
@@ -318,10 +318,10 @@ coordinates
 =
 coords
 ;
-yield
+await
 onUpdated
 ;
-let
+const
 animatedDot
 =
 widget
@@ -330,7 +330,7 @@ timingPreview
 .
 dot
 ;
-let
+const
 animations
 =
 animatedDot
@@ -392,7 +392,7 @@ animated
 "
 )
 ;
-let
+const
 goingToRight
 =
 animations
@@ -431,7 +431,7 @@ coords
 }
 )
 ;
-let
+const
 goingToLeft
 =
 animations

@@ -870,7 +870,7 @@ to
 the
 content
 .
-let
+const
 timeout
 =
 Services
@@ -1131,7 +1131,7 @@ type
 packet
 )
 ;
-let
+const
 {
 actor
 startedDateTime
@@ -1144,7 +1144,7 @@ packet
 .
 eventActor
 ;
-let
+const
 startTime
 =
 Date
@@ -1286,7 +1286,7 @@ type
 packet
 )
 {
-let
+const
 actor
 =
 packet
@@ -1341,7 +1341,7 @@ DebuggerClient
 object
 )
 .
-let
+const
 file
 =
 this
@@ -1379,7 +1379,7 @@ updateType
 packet
 )
 ;
-let
+const
 includeResponseBodies
 =
 Services
@@ -1704,7 +1704,7 @@ resolve
 )
 ;
 }
-let
+const
 file
 =
 this
@@ -1826,7 +1826,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -1891,7 +1891,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -1969,7 +1969,7 @@ onRequestPostData
 response
 )
 ;
-let
+const
 file
 =
 this
@@ -1992,7 +1992,7 @@ response
 Resolve
 long
 string
-let
+const
 text
 =
 response
@@ -2075,7 +2075,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -2140,7 +2140,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -2205,7 +2205,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -2228,7 +2228,7 @@ response
 Resolve
 long
 string
-let
+const
 text
 =
 response
@@ -2311,7 +2311,7 @@ function
 response
 )
 {
-let
+const
 file
 =
 this
@@ -2350,7 +2350,7 @@ headers
 {
 for
 (
-let
+const
 header
 of
 headers
@@ -2514,7 +2514,7 @@ function
 stringGrip
 )
 {
-let
+const
 promise
 =
 this
@@ -2622,7 +2622,7 @@ clone
 of
 it
 .
-let
+const
 clone
 =
 promises

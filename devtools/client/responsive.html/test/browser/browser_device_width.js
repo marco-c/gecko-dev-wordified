@@ -191,7 +191,7 @@ function
 (
 )
 {
-let
+const
 docShell
 =
 content
@@ -286,7 +286,7 @@ height
 await
 resized
 ;
-let
+const
 dimensions
 =
 ui
@@ -539,7 +539,7 @@ doInitialChecks
 ui
 )
 {
-let
+const
 {
 innerWidth
 matchesMedia
@@ -587,7 +587,7 @@ checkScreenProps
 ui
 )
 {
-let
+const
 {
 matchesMedia
 screen
@@ -680,7 +680,7 @@ checkScreenProps2
 ui
 )
 {
-let
+const
 {
 matchesMedia
 screen

@@ -173,7 +173,7 @@ text
 Create
 tooltip
 content
-let
+const
 div
 =
 doc

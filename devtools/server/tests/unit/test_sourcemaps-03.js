@@ -533,7 +533,7 @@ test_simple_source_map
 (
 )
 {
-let
+const
 expectedSources
 =
 new
@@ -687,7 +687,7 @@ finish
 }
 )
 ;
-let
+const
 a
 =
 new
@@ -812,7 +812,7 @@ n
 ]
 )
 ;
-let
+const
 b
 =
 new
@@ -937,7 +937,7 @@ n
 ]
 )
 ;
-let
+const
 c
 =
 new

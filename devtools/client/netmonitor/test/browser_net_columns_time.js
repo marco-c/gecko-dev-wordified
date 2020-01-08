@@ -50,7 +50,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -73,7 +73,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -84,7 +84,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -116,7 +116,7 @@ false
 )
 )
 ;
-let
+const
 visibleColumns
 =
 store
@@ -245,7 +245,7 @@ column
 }
 )
 ;
-let
+const
 onNetworkEvents
 =
 waitForNetworkEvents
@@ -254,7 +254,7 @@ monitor
 1
 )
 ;
-let
+const
 onEventTimings
 =
 waitFor
@@ -299,7 +299,7 @@ in
 the
 list
 .
-let
+const
 requestItems
 =
 document
@@ -332,7 +332,7 @@ item
 "
 )
 ;
-let
+const
 item
 =
 requestItems
@@ -340,7 +340,7 @@ requestItems
 0
 ]
 ;
-let
+const
 types
 =
 [
@@ -360,7 +360,7 @@ latency
 ;
 for
 (
-let
+const
 t
 of
 types
@@ -374,7 +374,7 @@ waitUntil
 =
 >
 {
-let
+const
 node
 =
 item
@@ -397,7 +397,7 @@ time
 "
 )
 ;
-let
+const
 value
 =
 parseInt

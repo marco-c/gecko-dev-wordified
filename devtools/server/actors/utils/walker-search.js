@@ -453,7 +453,7 @@ isn
 '
 t
 one
-let
+const
 entry
 =
 this
@@ -548,7 +548,7 @@ currentlyIndexing
 =
 true
 ;
-let
+const
 documentWalker
 =
 this
@@ -571,7 +571,7 @@ nextNode
 )
 )
 {
-let
+const
 node
 =
 documentWalker
@@ -607,7 +607,7 @@ names
 /
 and
 values
-let
+const
 localName
 =
 node
@@ -721,7 +721,7 @@ localName
 }
 for
 (
-let
+const
 {
 name
 value
@@ -1037,7 +1037,7 @@ node
 )
 ;
 }
-let
+const
 matches
 =
 results
@@ -1069,7 +1069,7 @@ false
 ;
 for
 (
-let
+const
 match
 of
 matches
@@ -1122,7 +1122,7 @@ results
 {
 for
 (
-let
+const
 [
 matched
 res
@@ -1252,7 +1252,7 @@ access
 to
 tagnames
 anyway
-let
+const
 isSelector
 =
 query
@@ -1298,7 +1298,7 @@ isSelector
 return
 ;
 }
-let
+const
 nodes
 =
 this
@@ -1312,7 +1312,7 @@ query
 ;
 for
 (
-let
+const
 node
 of
 nodes
@@ -1544,7 +1544,7 @@ to
 avoid
 duplicate
 results
-let
+const
 results
 =
 new
@@ -1592,7 +1592,7 @@ an
 Array
 to
 return
-let
+const
 resultList
 =
 [
@@ -1600,7 +1600,7 @@ resultList
 ;
 for
 (
-let
+const
 [
 node
 matches
@@ -1611,7 +1611,7 @@ results
 {
 for
 (
-let
+const
 {
 type
 }
@@ -1667,7 +1667,7 @@ break
 ;
 }
 }
-let
+const
 documents
 =
 this
@@ -1751,7 +1751,7 @@ node
 ownerDocument
 )
 {
-let
+const
 indA
 =
 documents
@@ -1765,7 +1765,7 @@ node
 ownerDocument
 )
 ;
-let
+const
 indB
 =
 documents

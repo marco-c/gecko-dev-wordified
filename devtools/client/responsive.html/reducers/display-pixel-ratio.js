@@ -91,7 +91,7 @@ INITIAL_DISPLAY_PIXEL_RATIO
 =
 0
 ;
-let
+const
 reducers
 =
 {
@@ -123,7 +123,7 @@ INITIAL_DISPLAY_PIXEL_RATIO
 action
 )
 {
-let
+const
 reducer
 =
 reducers

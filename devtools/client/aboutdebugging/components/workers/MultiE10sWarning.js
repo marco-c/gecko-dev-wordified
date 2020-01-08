@@ -201,7 +201,7 @@ onUpdatePreferenceClick
 (
 )
 {
-let
+const
 message
 =
 Strings

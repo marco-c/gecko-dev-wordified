@@ -270,7 +270,7 @@ testSingleLineInputNavNoHistory
 jsterm
 )
 {
-let
+const
 inputNode
 =
 jsterm
@@ -667,14 +667,14 @@ testMultiLineInputNavNoHistory
 jsterm
 )
 {
-let
+const
 inputNode
 =
 jsterm
 .
 inputNode
 ;
-let
+const
 lineValues
 =
 [
@@ -761,7 +761,7 @@ true
 )
 ;
 }
-let
+const
 inputValue
 =
 jsterm
@@ -829,7 +829,7 @@ n
 '
 )
 chars
-let
+const
 newlineString
 =
 inputValue
@@ -1327,7 +1327,7 @@ testNavWithHistory
 jsterm
 )
 {
-let
+const
 inputNode
 =
 jsterm
@@ -1361,7 +1361,7 @@ _within_
 single
 line
 input
-let
+const
 values
 =
 [
@@ -1525,7 +1525,7 @@ i
 -
 )
 {
-let
+const
 match
 =
 values

@@ -158,7 +158,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -222,7 +222,7 @@ testColorParsing
 view
 )
 {
-let
+const
 ruleEl
 =
 getRuleViewProperty
@@ -253,7 +253,7 @@ found
 "
 )
 ;
-let
+const
 swatchEls
 =
 ruleEl
@@ -298,7 +298,7 @@ swatches
 "
 )
 ;
-let
+const
 colorEls
 =
 ruleEl
@@ -342,7 +342,7 @@ values
 "
 )
 ;
-let
+const
 colors
 =
 [
@@ -421,7 +421,7 @@ color
 in
 the
 gradient
-let
+const
 ruleEl
 =
 getRuleViewProperty
@@ -437,7 +437,7 @@ image
 "
 )
 ;
-let
+const
 swatchEl
 =
 ruleEl
@@ -454,7 +454,7 @@ colorswatch
 "
 )
 ;
-let
+const
 colorEl
 =
 ruleEl
@@ -490,7 +490,7 @@ it
 "
 )
 ;
-let
+const
 cPicker
 =
 view
@@ -504,7 +504,7 @@ colorPicker
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 cPicker
@@ -525,7 +525,7 @@ click
 await
 onColorPickerReady
 ;
-let
+const
 change
 =
 {

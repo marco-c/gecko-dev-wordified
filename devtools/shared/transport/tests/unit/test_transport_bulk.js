@@ -157,14 +157,14 @@ toTimeString
 )
 )
 ;
-let
+const
 clientDeferred
 =
 defer
 (
 )
 ;
-let
+const
 serverDeferred
 =
 defer
@@ -187,7 +187,7 @@ cleanup_files
 (
 )
 ;
-let
+const
 reallyLong
 =
 really_long
@@ -221,7 +221,7 @@ length
 0
 )
 ;
-let
+const
 transport
 =
 await
@@ -349,7 +349,7 @@ reallyLong
 length
 )
 ;
-let
+const
 outputFile
 =
 getTestTempFile
@@ -380,7 +380,7 @@ parseInt
 )
 )
 ;
-let
+const
 output
 =
 FileUtils
@@ -534,7 +534,7 @@ _connections
 ;
 for
 (
-let
+const
 connId
 in
 DebuggerServer
@@ -675,14 +675,14 @@ verify
 (
 )
 {
-let
+const
 reallyLong
 =
 really_long
 (
 )
 ;
-let
+const
 inputFile
 =
 getTestTempFile
@@ -694,7 +694,7 @@ input
 "
 )
 ;
-let
+const
 outputFile
 =
 getTestTempFile
@@ -738,7 +738,7 @@ file
 contents
 actually
 match
-let
+const
 compareDeferred
 =
 defer
@@ -773,7 +773,7 @@ input
 =
 >
 {
-let
+const
 outputData
 =
 NetUtil
@@ -841,7 +841,7 @@ cleanup_files
 (
 )
 {
-let
+const
 inputFile
 =
 getTestTempFile
@@ -871,7 +871,7 @@ false
 )
 ;
 }
-let
+const
 outputFile
 =
 getTestTempFile

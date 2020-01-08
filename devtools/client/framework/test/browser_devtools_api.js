@@ -147,7 +147,7 @@ runTests1
 tab
 )
 {
-let
+const
 toolDefinition
 =
 {
@@ -192,7 +192,7 @@ iframeWindow
 toolbox
 )
 {
-let
+const
 panel
 =
 createTestPanel
@@ -269,7 +269,7 @@ registered
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -281,7 +281,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 events
 =
 {
@@ -574,7 +574,7 @@ runTests2
 (
 )
 {
-let
+const
 toolDefinition
 =
 {
@@ -678,7 +678,7 @@ registered
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -690,7 +690,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 events
 =
 {
@@ -1031,7 +1031,7 @@ correct
 "
 )
 ;
-let
+const
 toolDefinitions
 =
 gDevTools
@@ -1057,7 +1057,7 @@ gDevTools
 "
 )
 ;
-let
+const
 toolDefinition
 =
 toolDefinitions
@@ -1093,7 +1093,7 @@ event
 "
 )
 ;
-let
+const
 toolSelected
 =
 toolbox
@@ -1105,7 +1105,7 @@ select
 "
 )
 ;
-let
+const
 unregisteredTool
 =
 await
@@ -1214,7 +1214,7 @@ event
 "
 )
 ;
-let
+const
 registeredTool
 =
 await
@@ -1351,7 +1351,7 @@ function
 (
 )
 {
-let
+const
 target
 =
 TargetFactory

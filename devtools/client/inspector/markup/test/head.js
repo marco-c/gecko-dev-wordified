@@ -530,7 +530,7 @@ loadHelperScript
 filePath
 )
 {
-let
+const
 testDir
 =
 gTestPath
@@ -608,7 +608,7 @@ page
 "
 )
 ;
-let
+const
 newRoot
 =
 inspector
@@ -790,7 +790,7 @@ node
 selector
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -800,7 +800,7 @@ selector
 inspector
 )
 ;
-let
+const
 container
 =
 getContainerForNodeFront
@@ -916,7 +916,7 @@ selector
 testActor
 )
 {
-let
+const
 nodeValue
 =
 await
@@ -1149,7 +1149,7 @@ node
 selector
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -1159,7 +1159,7 @@ selector
 inspector
 )
 ;
-let
+const
 container
 =
 getContainerForNodeFront
@@ -1168,7 +1168,7 @@ nodeFront
 inspector
 )
 ;
-let
+const
 updated
 =
 container
@@ -1339,7 +1339,7 @@ inspector
 panelWin
 )
 ;
-let
+const
 input
 =
 inplaceEditor
@@ -1538,7 +1538,7 @@ selector
 }
 )
 ;
-let
+const
 container
 =
 await
@@ -1578,7 +1578,7 @@ event
 "
 )
 ;
-let
+const
 nodeMutated
 =
 inspector
@@ -1722,7 +1722,7 @@ expected
 testActor
 )
 {
-let
+const
 {
 attributes
 :
@@ -1770,13 +1770,13 @@ attributes
 ;
 for
 (
-let
+const
 attr
 in
 expected
 )
 {
-let
+const
 foundAttr
 =
 actual
@@ -1797,7 +1797,7 @@ name
 attr
 )
 ;
-let
+const
 foundValue
 =
 foundAttr
@@ -1925,7 +1925,7 @@ undoChange
 inspector
 )
 {
-let
+const
 canUndo
 =
 inspector
@@ -1970,7 +1970,7 @@ reject
 )
 ;
 }
-let
+const
 mutated
 =
 inspector
@@ -2063,7 +2063,7 @@ redoChange
 inspector
 )
 {
-let
+const
 canRedo
 =
 inspector
@@ -2108,7 +2108,7 @@ reject
 )
 ;
 }
-let
+const
 mutated
 =
 inspector
@@ -2283,7 +2283,7 @@ field
 "
 )
 ;
-let
+const
 field
 =
 getSelectorSearchBox
@@ -2440,7 +2440,7 @@ nodeFront
 inspector
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -2448,7 +2448,7 @@ openContextMenuAndGetAllItems
 inspector
 )
 ;
-let
+const
 deleteMenuItem
 =
 allMenuItems
@@ -2473,7 +2473,7 @@ delete
 "
 )
 ;
-let
+const
 editHTMLMenuItem
 =
 allMenuItems
@@ -2498,7 +2498,7 @@ edithtml
 "
 )
 ;
-let
+const
 pasteHTMLMenuItem
 =
 allMenuItems
@@ -2714,7 +2714,7 @@ nodeFront
 inspector
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -2722,7 +2722,7 @@ openContextMenuAndGetAllItems
 inspector
 )
 ;
-let
+const
 deleteMenuItem
 =
 allMenuItems
@@ -2747,7 +2747,7 @@ delete
 "
 )
 ;
-let
+const
 editHTMLMenuItem
 =
 allMenuItems
@@ -2772,7 +2772,7 @@ edithtml
 "
 )
 ;
-let
+const
 pasteHTMLMenuItem
 =
 allMenuItems
@@ -3121,7 +3121,7 @@ attrName
 editMode
 )
 {
-let
+const
 focusedAttr
 =
 Services
@@ -3141,7 +3141,7 @@ element
 "
 )
 ;
-let
+const
 dataAttr
 =
 focusedAttr
@@ -3306,7 +3306,7 @@ selector
 inspector
 )
 {
-let
+const
 nodeList
 =
 (
@@ -3528,7 +3528,7 @@ client
 options
 )
 {
-let
+const
 moduleUrl
 =
 options
@@ -3548,7 +3548,7 @@ response
 =
 >
 {
-let
+const
 config
 =
 {
@@ -3581,7 +3581,7 @@ on
 the
 backend
 .
-let
+const
 registry
 =
 ActorRegistryFront
@@ -3824,7 +3824,7 @@ yOffset
 10
 )
 {
-let
+const
 container
 =
 typeof
@@ -3845,7 +3845,7 @@ inspector
 :
 selector
 ;
-let
+const
 rect
 =
 container
@@ -3856,7 +3856,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 scrollX
 =
 inspector
@@ -3869,7 +3869,7 @@ documentElement
 .
 scrollLeft
 ;
-let
+const
 scrollY
 =
 inspector
@@ -4117,7 +4117,7 @@ element
 selector
 )
 ;
-let
+const
 container
 =
 typeof
@@ -4290,14 +4290,14 @@ waitForScrollStop
 doc
 )
 {
-let
+const
 el
 =
 doc
 .
 documentElement
 ;
-let
+const
 win
 =
 doc
@@ -4638,7 +4638,7 @@ with
 key
 )
 ;
-let
+const
 mutated
 =
 inspector
@@ -4733,7 +4733,7 @@ of
 the
 nodeFront
 .
-let
+const
 {
 nodes
 }

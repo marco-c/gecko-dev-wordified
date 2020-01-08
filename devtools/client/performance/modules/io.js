@@ -251,7 +251,7 @@ getUnicodeConverter
 (
 )
 {
-let
+const
 cname
 =
 "
@@ -264,7 +264,7 @@ intl
 scriptableunicodeconverter
 "
 ;
-let
+const
 converter
 =
 Cc
@@ -392,7 +392,7 @@ version
 =
 PERF_TOOL_SERIALIZER_CURRENT_VERSION
 ;
-let
+const
 string
 =
 JSON
@@ -402,7 +402,7 @@ stringify
 recordingData
 )
 ;
-let
+const
 inputStream
 =
 getUnicodeConverter
@@ -414,7 +414,7 @@ convertToInputStream
 string
 )
 ;
-let
+const
 outputStream
 =
 FileUtils
@@ -502,7 +502,7 @@ loadRecordingFromFile
 file
 )
 {
-let
+const
 channel
 =
 NetUtil
@@ -561,7 +561,7 @@ recordingData
 ;
 try
 {
-let
+const
 string
 =
 NetUtil
@@ -884,7 +884,7 @@ convertLegacyData
 legacyData
 )
 {
-let
+const
 {
 profilerData
 ticksData
@@ -914,7 +914,7 @@ arrays
 or
 objects
 .
-let
+const
 data
 =
 {

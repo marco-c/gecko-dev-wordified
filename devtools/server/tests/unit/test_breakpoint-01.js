@@ -196,7 +196,7 @@ event
 packet
 )
 {
-let
+const
 source
 =
 gThreadClient
@@ -212,7 +212,7 @@ where
 source
 )
 ;
-let
+const
 location
 =
 {

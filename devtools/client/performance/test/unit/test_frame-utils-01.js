@@ -606,7 +606,7 @@ utils
 "
 )
 ;
-let
+const
 isContent
 =
 (
@@ -629,7 +629,7 @@ isContent
 ;
 for
 (
-let
+const
 frame
 of
 CONTENT_LOCATIONS
@@ -665,7 +665,7 @@ frame
 }
 for
 (
-let
+const
 frame
 of
 CHROME_LOCATIONS
@@ -1310,7 +1310,7 @@ i
 +
 )
 {
-let
+const
 parsed
 =
 parseLocation
@@ -1544,7 +1544,7 @@ i
 +
 )
 {
-let
+const
 parsed
 =
 parseLocation

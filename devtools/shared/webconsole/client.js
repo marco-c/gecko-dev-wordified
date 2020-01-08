@@ -624,14 +624,14 @@ this
 _actor
 )
 {
-let
+const
 actor
 =
 packet
 .
 eventActor
 ;
-let
+const
 networkInfo
 =
 {
@@ -806,7 +806,7 @@ type
 packet
 )
 {
-let
+const
 networkInfo
 =
 this
@@ -1324,7 +1324,7 @@ types
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -1418,7 +1418,7 @@ actor
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -1752,7 +1752,7 @@ options
 }
 )
 {
-let
+const
 packet
 =
 {
@@ -1875,7 +1875,7 @@ options
 )
 ;
 }
-let
+const
 packet
 =
 {
@@ -2146,7 +2146,7 @@ client
 request
 function
 .
-let
+const
 onResponse
 =
 this
@@ -2308,7 +2308,7 @@ onResponse
 frameActor
 )
 {
-let
+const
 packet
 =
 {
@@ -2385,7 +2385,7 @@ function
 (
 )
 {
-let
+const
 packet
 =
 {
@@ -2482,7 +2482,7 @@ preferences
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -2583,7 +2583,7 @@ preferences
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -2674,7 +2674,7 @@ actor
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -2760,7 +2760,7 @@ actor
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -2847,7 +2847,7 @@ actor
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -2933,7 +2933,7 @@ actor
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -3019,7 +3019,7 @@ actor
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -3105,7 +3105,7 @@ actor
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -3191,7 +3191,7 @@ actor
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -3277,7 +3277,7 @@ actor
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -3363,7 +3363,7 @@ actor
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -3453,7 +3453,7 @@ actor
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -3542,7 +3542,7 @@ data
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -3650,7 +3650,7 @@ listeners
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -3758,7 +3758,7 @@ listeners
 onResponse
 )
 {
-let
+const
 packet
 =
 {
@@ -3864,7 +3864,7 @@ actor
 ]
 ;
 }
-let
+const
 client
 =
 new
@@ -4250,7 +4250,7 @@ reject
 =
 >
 {
-let
+const
 {
 initial
 length
@@ -4258,7 +4258,7 @@ length
 =
 stringGrip
 ;
-let
+const
 longStringClient
 =
 this

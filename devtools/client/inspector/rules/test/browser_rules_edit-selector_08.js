@@ -152,7 +152,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view

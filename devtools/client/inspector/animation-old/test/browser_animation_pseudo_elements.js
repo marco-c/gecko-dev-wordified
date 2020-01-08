@@ -83,7 +83,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 panel
@@ -133,7 +133,7 @@ timeline
 "
 )
 ;
-let
+const
 targetNodes
 =
 getAnimationTargetNodes
@@ -141,14 +141,14 @@ getAnimationTargetNodes
 panel
 )
 ;
-let
+const
 getTargetNodeText
 =
 index
 =
 >
 {
-let
+const
 el
 =
 targetNodes
@@ -282,7 +282,7 @@ nodeFronts
 "
 )
 ;
-let
+const
 bodyContainer
 =
 await
@@ -294,7 +294,7 @@ body
 inspector
 )
 ;
-let
+const
 getBodyChildNodeFront
 =
 index
@@ -322,7 +322,7 @@ node
 ;
 }
 ;
-let
+const
 beforeNode
 =
 getBodyChildNodeFront
@@ -330,7 +330,7 @@ getBodyChildNodeFront
 0
 )
 ;
-let
+const
 afterNode
 =
 getBodyChildNodeFront

@@ -103,7 +103,7 @@ visible_loader
 (
 )
 {
-let
+const
 loader
 =
 new
@@ -130,7 +130,7 @@ indentation
 "
 )
 ;
-let
+const
 dbg
 =
 new
@@ -138,7 +138,7 @@ Debugger
 (
 )
 ;
-let
+const
 sandbox
 =
 loader
@@ -259,7 +259,7 @@ invisible_loader
 (
 )
 {
-let
+const
 loader
 =
 new
@@ -286,7 +286,7 @@ indentation
 "
 )
 ;
-let
+const
 dbg
 =
 new
@@ -294,7 +294,7 @@ Debugger
 (
 )
 ;
-let
+const
 sandbox
 =
 loader

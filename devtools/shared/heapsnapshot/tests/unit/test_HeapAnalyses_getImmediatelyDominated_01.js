@@ -300,7 +300,7 @@ nodeId
 ;
 for
 (
-let
+const
 node
 of
 response
@@ -472,7 +472,7 @@ nodeId
 ;
 for
 (
-let
+const
 node
 of
 secondResponse

@@ -72,14 +72,14 @@ run_test
 (
 )
 {
-let
+const
 g
 =
 newGlobal
 (
 )
 ;
-let
+const
 dbg
 =
 new
@@ -88,7 +88,7 @@ Debugger
 g
 )
 ;
-let
+const
 sizeOfAM
 =
 byteSize

@@ -152,7 +152,7 @@ event
 packet
 )
 {
-let
+const
 bindings
 =
 packet
@@ -163,14 +163,14 @@ environment
 .
 bindings
 ;
-let
+const
 args
 =
 bindings
 .
 arguments
 ;
-let
+const
 vars
 =
 bindings
@@ -399,7 +399,7 @@ value
 actor
 )
 ;
-let
+const
 objClient
 =
 gThreadClient

@@ -143,7 +143,7 @@ update
 payload
 )
 {
-let
+const
 {
 request
 response
@@ -156,7 +156,7 @@ encodedDataLength
 =
 payload
 ;
-let
+const
 {
 headers
 postData
@@ -200,7 +200,7 @@ updateTimestamp
 timestamp
 )
 ;
-let
+const
 data
 =
 await
@@ -251,7 +251,7 @@ updateTimestamp
 timestamp
 )
 {
-let
+const
 {
 request
 }
@@ -309,7 +309,7 @@ requestId
 data
 )
 {
-let
+const
 {
 payload
 response
@@ -323,7 +323,7 @@ encodedDataLength
 =
 data
 ;
-let
+const
 [
 requests
 headers
@@ -435,7 +435,7 @@ requestId
 payload
 )
 {
-let
+const
 {
 request
 }
@@ -644,7 +644,7 @@ clear
 (
 )
 ;
-let
+const
 loader
 =
 getBulkLoader

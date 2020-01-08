@@ -305,7 +305,7 @@ objects
 )
 ;
 }
-let
+const
 state
 =
 {
@@ -1177,7 +1177,7 @@ call
 it
 manually
 .
-let
+const
 typedProto
 =
 Object
@@ -1189,7 +1189,7 @@ Uint8Array
 prototype
 )
 ;
-let
+const
 getter
 =
 Object
@@ -1263,7 +1263,7 @@ bit
 unsigned
 integer
 .
-let
+const
 num
 =
 str

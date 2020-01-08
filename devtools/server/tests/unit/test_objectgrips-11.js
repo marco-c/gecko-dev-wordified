@@ -169,7 +169,7 @@ event
 packet
 )
 {
-let
+const
 args
 =
 packet
@@ -178,7 +178,7 @@ frame
 .
 arguments
 ;
-let
+const
 objClient
 =
 gThreadClient
@@ -200,7 +200,7 @@ function
 response
 )
 {
-let
+const
 opn
 =
 response

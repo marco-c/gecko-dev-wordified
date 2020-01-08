@@ -58,7 +58,7 @@ test
 (
 )
 {
-let
+const
 {
 ThreadNode
 }
@@ -94,7 +94,7 @@ given
 samples
 array
 .
-let
+const
 thread
 =
 new
@@ -111,7 +111,7 @@ endTime
 }
 )
 ;
-let
+const
 root
 =
 getFrameNodePath

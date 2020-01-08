@@ -352,7 +352,7 @@ setCubicBezierContent
 bezier
 )
 {
-let
+const
 {
 doc
 }
@@ -361,7 +361,7 @@ this
 .
 tooltip
 ;
-let
+const
 container
 =
 doc
@@ -403,7 +403,7 @@ height
 }
 )
 ;
-let
+const
 def
 =
 defer
@@ -450,7 +450,7 @@ shown
 =
 >
 {
-let
+const
 widget
 =
 new

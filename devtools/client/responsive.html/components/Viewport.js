@@ -346,7 +346,7 @@ device
 deviceType
 )
 {
-let
+const
 {
 viewport
 onChangeDevice
@@ -370,7 +370,7 @@ onRemoveDeviceAssociation
 (
 )
 {
-let
+const
 {
 viewport
 onRemoveDeviceAssociation
@@ -394,7 +394,7 @@ width
 height
 )
 {
-let
+const
 {
 viewport
 onResizeViewport
@@ -418,7 +418,7 @@ onRotateViewport
 (
 )
 {
-let
+const
 {
 viewport
 onRotateViewport
@@ -440,7 +440,7 @@ render
 (
 )
 {
-let
+const
 {
 devices
 screenshot
@@ -455,7 +455,7 @@ this
 .
 props
 ;
-let
+const
 {
 onChangeDevice
 onRemoveDeviceAssociation

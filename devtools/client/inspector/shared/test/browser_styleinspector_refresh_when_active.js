@@ -144,7 +144,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -207,7 +207,7 @@ view
 "
 )
 ;
-let
+const
 onComputedViewReady
 =
 inspector
@@ -231,7 +231,7 @@ inspector
 await
 onComputedViewReady
 ;
-let
+const
 cView
 =
 inspector

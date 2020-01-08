@@ -156,7 +156,7 @@ event
 packet
 )
 {
-let
+const
 args
 =
 packet
@@ -210,7 +210,7 @@ stopMe
 "
 )
 ;
-let
+const
 objClient
 =
 gThreadClient
@@ -303,7 +303,7 @@ event
 packet
 )
 {
-let
+const
 args
 =
 packet
@@ -371,7 +371,7 @@ m
 "
 )
 ;
-let
+const
 objClient
 =
 gThreadClient
@@ -512,7 +512,7 @@ event
 packet
 )
 {
-let
+const
 args
 =
 packet
@@ -576,7 +576,7 @@ displayName
 undefined
 )
 ;
-let
+const
 objClient
 =
 gThreadClient

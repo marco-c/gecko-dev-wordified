@@ -159,7 +159,7 @@ _connections
 )
 ;
 }
-let
+const
 checkServerConnectionCount
 =
 async
@@ -170,7 +170,7 @@ expected
 msg
 )
 {
-let
+const
 conns
 =
 await
@@ -200,7 +200,7 @@ msg
 ;
 }
 ;
-let
+const
 checkToolbox
 =
 async
@@ -210,7 +210,7 @@ tab
 location
 )
 {
-let
+const
 target
 =
 TargetFactory
@@ -246,7 +246,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -255,7 +255,7 @@ addTab
 TEST_URL
 )
 ;
-let
+const
 tabsInDifferentProcesses
 =
 E10S_MULTI_ENABLED
@@ -326,7 +326,7 @@ yet
 "
 )
 ;
-let
+const
 {
 toolbox
 }
@@ -433,7 +433,7 @@ RDM
 "
 )
 ;
-let
+const
 {
 ui
 }
@@ -700,7 +700,7 @@ yet
 "
 )
 ;
-let
+const
 {
 ui
 }
@@ -742,7 +742,7 @@ connection
 "
 )
 ;
-let
+const
 {
 toolbox
 }

@@ -215,7 +215,7 @@ registerAllActors
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -254,7 +254,7 @@ response
 =
 >
 {
-let
+const
 form
 =
 response
@@ -266,7 +266,7 @@ response
 selected
 ]
 ;
-let
+const
 memory
 =
 MemoryFront

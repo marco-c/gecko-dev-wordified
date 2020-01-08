@@ -148,7 +148,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 gridInspector
@@ -159,7 +159,7 @@ openLayoutView
 (
 )
 ;
-let
+const
 {
 document
 :
@@ -168,7 +168,7 @@ doc
 =
 gridInspector
 ;
-let
+const
 {
 highlighters
 }
@@ -185,7 +185,7 @@ grid
 inspector
 )
 ;
-let
+const
 noGridList
 =
 doc
@@ -208,7 +208,7 @@ result
 "
 )
 ;
-let
+const
 gridList
 =
 doc

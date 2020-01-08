@@ -80,7 +80,7 @@ waterfall
 '
 )
 ;
-let
+const
 {
 monitor
 }
@@ -102,7 +102,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 }

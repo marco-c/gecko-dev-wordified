@@ -332,7 +332,7 @@ currentNode
 =
 node
 ;
-let
+const
 doc
 =
 this
@@ -354,7 +354,7 @@ inside
 the
 node
 .
-let
+const
 searchRange
 =
 doc
@@ -370,7 +370,7 @@ selectNodeContents
 node
 )
 ;
-let
+const
 fonts
 =
 InspectorUtils
@@ -394,7 +394,7 @@ the
 provided
 option
 .
-let
+const
 matchingFonts
 =
 fonts
@@ -453,7 +453,7 @@ the
 text
 runs
 .
-let
+const
 selection
 =
 doc
@@ -472,7 +472,7 @@ removeAllRanges
 ;
 for
 (
-let
+const
 matchingFont
 of
 matchingFonts
@@ -480,7 +480,7 @@ matchingFonts
 {
 for
 (
-let
+const
 range
 of
 matchingFont
@@ -540,14 +540,14 @@ in
 the
 seletion
 .
-let
+const
 doc
 =
 this
 .
 currentNodeDocument
 ;
-let
+const
 selection
 =
 doc

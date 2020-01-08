@@ -485,7 +485,7 @@ autoinstallADBHelper
 autoInstallAddons
 )
 ;
-let
+const
 win
 =
 Services
@@ -683,7 +683,7 @@ being
 modified
 by
 AppProjects
-let
+const
 projects
 =
 AppProjects
@@ -1035,7 +1035,7 @@ resolve
 =
 >
 {
-let
+const
 targetWindow
 =
 aWindow
@@ -1043,7 +1043,7 @@ aWindow
 |
 window
 ;
-let
+const
 targetBrowser
 =
 targetWindow
@@ -1056,7 +1056,7 @@ focus
 (
 )
 ;
-let
+const
 tab
 =
 targetBrowser
@@ -1070,7 +1070,7 @@ addTab
 aUrl
 )
 ;
-let
+const
 linkedBrowser
 =
 tab
@@ -1140,7 +1140,7 @@ resolve
 =
 >
 {
-let
+const
 targetWindow
 =
 aWindow
@@ -1148,14 +1148,14 @@ aWindow
 |
 window
 ;
-let
+const
 targetBrowser
 =
 targetWindow
 .
 gBrowser
 ;
-let
+const
 tabContainer
 =
 targetBrowser
@@ -1364,7 +1364,7 @@ panel
 "
 )
 ;
-let
+const
 items
 =
 panelNode
@@ -1398,7 +1398,7 @@ buttons
 "
 )
 ;
-let
+const
 updated
 =
 waitForUpdate
@@ -1478,7 +1478,7 @@ resolve
 =
 >
 {
-let
+const
 onConnectionChange
 =
 state

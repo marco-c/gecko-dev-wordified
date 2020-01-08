@@ -143,7 +143,7 @@ test_longstring_grip
 (
 )
 {
-let
+const
 longString
 =
 "
@@ -333,7 +333,7 @@ event
 packet
 )
 {
-let
+const
 args
 =
 packet
@@ -352,7 +352,7 @@ length
 1
 )
 ;
-let
+const
 grip
 =
 args
@@ -404,7 +404,7 @@ LONG_STRING_INITIAL_LENGTH
 )
 )
 ;
-let
+const
 longStringClient
 =
 gThreadClient

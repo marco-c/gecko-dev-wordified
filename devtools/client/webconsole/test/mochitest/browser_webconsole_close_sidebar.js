@@ -151,7 +151,7 @@ true
 }
 )
 ;
-let
+const
 hud
 =
 await
@@ -177,7 +177,7 @@ button
 "
 )
 ;
-let
+const
 clearButton
 =
 hud
@@ -273,7 +273,7 @@ clear
 "
 )
 ;
-let
+const
 onMessagesCleared
 =
 waitForMessage
@@ -489,7 +489,7 @@ button
 "
 )
 ;
-let
+const
 closeButton
 =
 hud
@@ -510,7 +510,7 @@ button
 "
 )
 ;
-let
+const
 wrapper
 =
 hud
@@ -654,7 +654,7 @@ esc
 "
 )
 ;
-let
+const
 inputNode
 =
 hud
@@ -691,7 +691,7 @@ showSidebar
 hud
 )
 {
-let
+const
 onMessage
 =
 waitForMessage
@@ -736,7 +736,7 @@ a
 await
 onMessage
 ;
-let
+const
 objectNode
 =
 hud
@@ -757,7 +757,7 @@ objectBox
 "
 )
 ;
-let
+const
 wrapper
 =
 hud
@@ -778,7 +778,7 @@ wrapper
 "
 )
 ;
-let
+const
 onSidebarShown
 =
 waitForNodeMutation
@@ -791,7 +791,7 @@ true
 }
 )
 ;
-let
+const
 contextMenu
 =
 await
@@ -801,7 +801,7 @@ hud
 objectNode
 )
 ;
-let
+const
 openInSidebar
 =
 contextMenu

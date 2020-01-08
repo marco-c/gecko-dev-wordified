@@ -1156,7 +1156,7 @@ function
 object
 )
 {
-let
+const
 packet
 =
 new
@@ -1583,7 +1583,7 @@ function
 header
 )
 {
-let
+const
 packet
 =
 new
@@ -1911,7 +1911,7 @@ length
 0
 )
 {
-let
+const
 threadManager
 =
 Cc
@@ -2244,7 +2244,7 @@ function
 {
 for
 (
-let
+const
 packet
 of
 this
@@ -2365,7 +2365,7 @@ this
 _incomingEnabled
 )
 {
-let
+const
 threadManager
 =
 Cc
@@ -2913,7 +2913,7 @@ catch
 e
 )
 {
-let
+const
 msg
 =
 "
@@ -3085,7 +3085,7 @@ function
 (
 )
 {
-let
+const
 amountToRead
 =
 PACKET_HEADER_MAX
@@ -3785,7 +3785,7 @@ function
 packet
 )
 {
-let
+const
 serial
 =
 this
@@ -3885,7 +3885,7 @@ _deepFreeze
 packet
 )
 ;
-let
+const
 other
 =
 this
@@ -4076,7 +4076,7 @@ length
 }
 )
 {
-let
+const
 serial
 =
 this
@@ -4113,7 +4113,7 @@ this
 other
 )
 {
-let
+const
 error
 =
 new
@@ -4139,7 +4139,7 @@ error
 )
 ;
 }
-let
+const
 pipe
 =
 new
@@ -4192,14 +4192,14 @@ return
 /
 /
 Receiver
-let
+const
 deferred
 =
 defer
 (
 )
 ;
-let
+const
 packet
 =
 {
@@ -4220,7 +4220,7 @@ output
 =
 >
 {
-let
+const
 copying
 =
 StreamUtils
@@ -4318,7 +4318,7 @@ onBulkPacket
 /
 /
 Sender
-let
+const
 sendDeferred
 =
 defer
@@ -4358,7 +4358,7 @@ executeSoon
 =
 >
 {
-let
+const
 copyDeferred
 =
 defer
@@ -4378,7 +4378,7 @@ input
 =
 >
 {
-let
+const
 copying
 =
 StreamUtils
@@ -4499,7 +4499,7 @@ avoid
 infinite
 recursion
 .
-let
+const
 other
 =
 this
@@ -4611,7 +4611,7 @@ object
 ;
 for
 (
-let
+const
 prop
 in
 object
@@ -5133,7 +5133,7 @@ object
 {
 try
 {
-let
+const
 holder
 =
 new
@@ -5172,13 +5172,13 @@ object
 {
 for
 (
-let
+const
 key
 in
 object
 )
 {
-let
+const
 value
 =
 object
@@ -5259,7 +5259,7 @@ packet
 )
 )
 {
-let
+const
 attributes
 =
 this
@@ -5794,7 +5794,7 @@ function
 message
 )
 {
-let
+const
 packet
 =
 JSON
@@ -6071,7 +6071,7 @@ function
 event
 )
 {
-let
+const
 packet
 =
 JSON

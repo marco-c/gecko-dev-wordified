@@ -301,7 +301,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -314,13 +314,13 @@ openRuleView
 ;
 for
 (
-let
+const
 data
 of
 TEST_DATA
 )
 {
-let
+const
 {
 node
 expected

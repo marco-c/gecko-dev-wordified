@@ -87,7 +87,7 @@ startTelemetry
 (
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -99,7 +99,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 await

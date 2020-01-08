@@ -167,17 +167,17 @@ pmmLoadFrameScripts
 gBrowser
 )
 ;
-let
+const
 entries
 =
 1000000
 ;
-let
+const
 interval
 =
 1
 ;
-let
+const
 features
 =
 [
@@ -235,7 +235,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -248,7 +248,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -257,7 +257,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 firstFront
 =
 PerformanceFront
@@ -292,7 +292,7 @@ html
 "
 )
 ;
-let
+const
 client2
 =
 new
@@ -305,7 +305,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form2
 =
 await
@@ -314,7 +314,7 @@ connectDebuggerClient
 client2
 )
 ;
-let
+const
 secondFront
 =
 PerformanceFront

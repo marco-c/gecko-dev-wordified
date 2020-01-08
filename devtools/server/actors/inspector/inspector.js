@@ -990,7 +990,7 @@ this
 _walkerPromise
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -1005,14 +1005,14 @@ deferred
 .
 promise
 ;
-let
+const
 window
 =
 this
 .
 window
 ;
-let
+const
 domReady
 =
 (
@@ -1020,7 +1020,7 @@ domReady
 =
 >
 {
-let
+const
 tabActor
 =
 this
@@ -1175,7 +1175,7 @@ walker
 =
 >
 {
-let
+const
 pageStyle
 =
 PageStyleActor
@@ -1344,7 +1344,7 @@ walker
 =
 >
 {
-let
+const
 highlighter
 =
 HighlighterActor
@@ -1634,7 +1634,7 @@ url
 maxDim
 )
 {
-let
+const
 img
 =
 new
@@ -1781,7 +1781,7 @@ url
 node
 )
 {
-let
+const
 document
 =
 InspectorActorUtils
@@ -1816,7 +1816,7 @@ return
 url
 ;
 }
-let
+const
 baseURI
 =
 Services
@@ -2308,7 +2308,7 @@ function
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -2319,7 +2319,7 @@ window
 .
 document
 ;
-let
+const
 ns
 =
 doc

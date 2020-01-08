@@ -53,7 +53,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -75,14 +75,14 @@ test
 "
 )
 ;
-let
+const
 panel
 =
 monitor
 .
 panelWin
 ;
-let
+const
 {
 document
 store
@@ -92,7 +92,7 @@ connector
 =
 panel
 ;
-let
+const
 Actions
 =
 windowRequire

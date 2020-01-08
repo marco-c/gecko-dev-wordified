@@ -416,7 +416,7 @@ numbers
 "
 )
 ;
-let
+const
 c
 =
 new
@@ -620,7 +620,7 @@ coordinates
 "
 )
 ;
-let
+const
 c
 =
 new
@@ -713,7 +713,7 @@ value
 "
 )
 ;
-let
+const
 c
 =
 new
@@ -943,7 +943,7 @@ parseTimingFunction
 ;
 for
 (
-let
+const
 test
 of
 [

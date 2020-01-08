@@ -539,7 +539,7 @@ function
 (
 )
 {
-let
+const
 g
 =
 {
@@ -568,7 +568,7 @@ obj
 class
 }
 ;
-let
+const
 unwrapped
 =
 DevToolsUtils
@@ -1100,7 +1100,7 @@ null
 }
 for
 (
-let
+const
 fn
 of
 previewers
@@ -1139,7 +1139,7 @@ catch
 e
 )
 {
-let
+const
 msg
 =
 "
@@ -1209,7 +1209,7 @@ this
 obj
 )
 ;
-let
+const
 promiseState
 =
 {
@@ -1760,7 +1760,7 @@ function
 request
 )
 {
-let
+const
 actor
 =
 new
@@ -1830,7 +1830,7 @@ function
 (
 )
 {
-let
+const
 actor
 =
 new
@@ -1897,7 +1897,7 @@ function
 (
 )
 {
-let
+const
 actor
 =
 new
@@ -2242,7 +2242,7 @@ Sandbox
 .
 }
 }
-let
+const
 ownProperties
 =
 Object
@@ -2252,7 +2252,7 @@ create
 null
 )
 ;
-let
+const
 ownSymbols
 =
 [
@@ -2260,7 +2260,7 @@ ownSymbols
 ;
 for
 (
-let
+const
 name
 of
 names
@@ -2281,7 +2281,7 @@ name
 }
 for
 (
-let
+const
 sym
 of
 symbols
@@ -2440,7 +2440,7 @@ limit
 0
 )
 {
-let
+const
 safeGetterValues
 =
 Object
@@ -2594,7 +2594,7 @@ obj
 )
 )
 {
-let
+const
 getters
 =
 this
@@ -2606,7 +2606,7 @@ obj
 ;
 for
 (
-let
+const
 name
 of
 getters
@@ -2763,7 +2763,7 @@ null
 continue
 ;
 }
-let
+const
 result
 =
 getter
@@ -3036,7 +3036,7 @@ object
 _safeGetters
 ;
 }
-let
+const
 getters
 =
 new
@@ -3120,7 +3120,7 @@ bug
 }
 for
 (
-let
+const
 name
 of
 names
@@ -3689,7 +3689,7 @@ return
 undefined
 ;
 }
-let
+const
 retval
 =
 {
@@ -4095,7 +4095,7 @@ class
 }
 ;
 }
-let
+const
 envActor
 =
 this
@@ -4254,7 +4254,7 @@ class
 }
 ;
 }
-let
+const
 promises
 =
 this
@@ -4366,7 +4366,7 @@ obj
 .
 promiseAllocationSite
 ;
-let
+const
 allocationStacks
 =
 [
@@ -4384,7 +4384,7 @@ stack
 source
 )
 {
-let
+const
 source
 =
 this
@@ -4522,7 +4522,7 @@ obj
 .
 promiseResolutionSite
 ;
-let
+const
 fulfillmentStacks
 =
 [
@@ -4540,7 +4540,7 @@ stack
 source
 )
 {
-let
+const
 source
 =
 this
@@ -4678,7 +4678,7 @@ obj
 .
 promiseResolutionSite
 ;
-let
+const
 rejectionStacks
 =
 [
@@ -4696,7 +4696,7 @@ stack
 source
 )
 {
-let
+const
 source
 =
 this

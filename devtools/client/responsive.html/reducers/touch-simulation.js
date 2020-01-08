@@ -87,7 +87,7 @@ enabled
 false
 }
 ;
-let
+const
 reducers
 =
 {
@@ -129,7 +129,7 @@ INITIAL_TOUCH_SIMULATION
 action
 )
 {
-let
+const
 reducer
 =
 reducers

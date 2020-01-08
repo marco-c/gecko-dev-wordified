@@ -99,7 +99,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -109,14 +109,14 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 timeline
 =
 panel
 .
 animationsTimelineComponent
 ;
-let
+const
 selected
 =
 timeline
@@ -168,7 +168,7 @@ class
 "
 )
 ;
-let
+const
 animation0
 =
 await
@@ -236,7 +236,7 @@ too
 "
 )
 ;
-let
+const
 animation1
 =
 await
@@ -380,7 +380,7 @@ timeline
 index
 )
 {
-let
+const
 animation
 =
 timeline

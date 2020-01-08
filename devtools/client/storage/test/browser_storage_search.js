@@ -16,12 +16,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -43,7 +43,7 @@ expandAll
 (
 )
 ;
-yield
+await
 selectTreeItem
 (
 [
@@ -114,7 +114,7 @@ hidden
 1
 =
 visible
-let
+const
 testcases
 =
 [
@@ -379,7 +379,7 @@ results
 }
 ]
 ;
-let
+const
 testcasesAfterHiding
 =
 [
@@ -570,7 +570,7 @@ runTests
 testcasesAfterHiding
 )
 ;
-yield
+await
 finishTests
 (
 )
@@ -584,7 +584,7 @@ runTests
 testcases
 )
 {
-let
+const
 =
 sel
 =
@@ -598,7 +598,7 @@ querySelectorAll
 sel
 )
 ;
-let
+const
 names
 =
 (
@@ -614,7 +614,7 @@ cell
 "
 )
 ;
-let
+const
 rows
 =
 (
@@ -632,13 +632,13 @@ cell
 ;
 for
 (
-let
+const
 testcase
 of
 testcases
 )
 {
-let
+const
 {
 value
 results
@@ -727,7 +727,7 @@ value
 }
 )
 ;
-let
+const
 state
 =
 results

@@ -430,7 +430,7 @@ object
 id
 )
 {
-let
+const
 decorator
 =
 this
@@ -572,7 +572,7 @@ this
 .
 props
 ;
-let
+const
 type
 =
 member
@@ -596,7 +596,7 @@ td
 >
 element
 .
-let
+const
 classNames
 =
 this
@@ -687,7 +687,7 @@ id
 renderValue
 ;
 }
-let
+const
 props
 =
 Object
@@ -843,7 +843,7 @@ Default
 value
 rendering
 .
-let
+const
 defaultRenderValue
 =
 props

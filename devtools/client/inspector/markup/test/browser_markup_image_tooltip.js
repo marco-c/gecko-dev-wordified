@@ -203,7 +203,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 }
@@ -237,13 +237,13 @@ inspector
 ;
 for
 (
-let
+const
 testNode
 of
 TEST_NODES
 )
 {
-let
+const
 target
 =
 await
@@ -295,7 +295,7 @@ selector
 inspector
 )
 {
-let
+const
 nodeFront
 =
 await
@@ -305,7 +305,7 @@ selector
 inspector
 )
 ;
-let
+const
 isImg
 =
 nodeFront
@@ -322,7 +322,7 @@ toLowerCase
 img
 "
 ;
-let
+const
 container
 =
 getContainerForNodeFront
@@ -383,7 +383,7 @@ markup
 }
 )
 {
-let
+const
 panel
 =
 markup
@@ -392,7 +392,7 @@ imagePreviewTooltip
 .
 panel
 ;
-let
+const
 images
 =
 panel
@@ -426,7 +426,7 @@ image
 "
 )
 ;
-let
+const
 label
 =
 panel

@@ -198,7 +198,7 @@ loglimit
 1
 )
 ;
-let
+const
 hud
 =
 await
@@ -207,7 +207,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 message
 =
 await
@@ -226,7 +226,7 @@ Object
 )
 )
 ;
-let
+const
 object
 =
 message
@@ -256,7 +256,7 @@ object
 true
 )
 ;
-let
+const
 oi
 =
 sidebar
@@ -639,7 +639,7 @@ hud
 node
 )
 {
-let
+const
 wrapper
 =
 hud
@@ -660,7 +660,7 @@ wrapper
 "
 )
 ;
-let
+const
 onSidebarShown
 =
 waitFor
@@ -680,7 +680,7 @@ sidebar
 )
 )
 ;
-let
+const
 contextMenu
 =
 await
@@ -690,7 +690,7 @@ hud
 node
 )
 ;
-let
+const
 openInSidebar
 =
 contextMenu

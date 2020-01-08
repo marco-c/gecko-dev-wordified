@@ -306,7 +306,7 @@ successfully
 "
 )
 ;
-let
+const
 panel
 =
 toolbox
@@ -710,7 +710,7 @@ store
 expected
 )
 {
-let
+const
 predicate
 =
 (
@@ -718,7 +718,7 @@ predicate
 =
 >
 {
-let
+const
 snapshots
 =
 store
@@ -809,7 +809,7 @@ takeSnapshot
 window
 )
 {
-let
+const
 {
 gStore
 document
@@ -817,7 +817,7 @@ document
 =
 window
 ;
-let
+const
 snapshotCount
 =
 gStore
@@ -893,7 +893,7 @@ clearSnapshots
 window
 )
 {
-let
+const
 {
 gStore
 document
@@ -1007,7 +1007,7 @@ display
 .
 )
 ;
-let
+const
 {
 gStore
 gHeapAnalysesClient
@@ -1102,7 +1102,7 @@ gStore
 =
 >
 {
-let
+const
 selected
 =
 window
@@ -1259,7 +1259,7 @@ getSelectedSnapshotIndex
 store
 )
 {
-let
+const
 snapshots
 =
 store
@@ -1270,7 +1270,7 @@ getState
 .
 snapshots
 ;
-let
+const
 selectedSnapshot
 =
 snapshots
@@ -1390,7 +1390,7 @@ getCensus
 expected
 )
 {
-let
+const
 predicate
 =
 (
@@ -1398,7 +1398,7 @@ predicate
 =
 >
 {
-let
+const
 snapshots
 =
 store
@@ -1464,7 +1464,7 @@ i
 =
 >
 {
-let
+const
 census
 =
 getCensus
@@ -1596,7 +1596,7 @@ queuedFns
 [
 ]
 ;
-let
+const
 mock
 =
 {
@@ -1613,7 +1613,7 @@ function
 (
 )
 {
-let
+const
 thisQueue
 =
 queuedFns

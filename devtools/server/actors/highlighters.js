@@ -845,7 +845,7 @@ bind
 this
 )
 ;
-let
+const
 doc
 =
 this
@@ -1577,7 +1577,7 @@ view
 }
 )
 {
-let
+const
 {
 window
 }
@@ -2189,7 +2189,7 @@ selected
 childNode
 is
 set
-let
+const
 hoveredNode
 =
 this
@@ -2200,7 +2200,7 @@ rawNode
 ;
 for
 (
-let
+const
 sibling
 of
 currentNode
@@ -2463,7 +2463,7 @@ proof
 this
 method
 .
-let
+const
 pickResults
 =
 this
@@ -2546,7 +2546,7 @@ XBL_1
 Anonymous_Content
 #
 Event_Flow_and_Targeting
-let
+const
 node
 =
 event
@@ -2575,7 +2575,7 @@ function
 (
 )
 {
-let
+const
 target
 =
 this
@@ -2682,7 +2682,7 @@ function
 (
 )
 {
-let
+const
 target
 =
 this
@@ -2987,7 +2987,7 @@ _parent
 =
 parent
 ;
-let
+const
 modulePath
 =
 highlighterTypes
@@ -3003,7 +3003,7 @@ if
 modulePath
 )
 {
-let
+const
 list
 =
 [
@@ -3039,7 +3039,7 @@ list
 )
 ;
 }
-let
+const
 constructor
 =
 require
@@ -3922,7 +3922,7 @@ has
 /
 navigated
 .
-let
+const
 self
 =
 this
@@ -3956,7 +3956,7 @@ request
 flag
 )
 {
-let
+const
 isStart
 =
 flag
@@ -3967,7 +3967,7 @@ nsIWebProgressListener
 .
 STATE_START
 ;
-let
+const
 isStop
 =
 flag
@@ -3978,7 +3978,7 @@ nsIWebProgressListener
 .
 STATE_STOP
 ;
-let
+const
 isWindow
 =
 flag
@@ -3989,7 +3989,7 @@ nsIWebProgressListener
 .
 STATE_IS_WINDOW
 ;
-let
+const
 isDocument
 =
 flag
@@ -4179,7 +4179,7 @@ first
 )
 ;
 }
-let
+const
 win
 =
 this

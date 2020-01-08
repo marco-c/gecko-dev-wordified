@@ -161,7 +161,7 @@ startTelemetry
 (
 )
 ;
-let
+const
 {
 panel
 }
@@ -179,7 +179,7 @@ window
 }
 )
 ;
-let
+const
 {
 EVENTS
 PerformanceController
@@ -201,7 +201,7 @@ stopRecording
 panel
 )
 ;
-let
+const
 file
 =
 FileUtils
@@ -238,7 +238,7 @@ parseInt
 )
 )
 ;
-let
+const
 exported
 =
 once
@@ -265,7 +265,7 @@ file
 await
 exported
 ;
-let
+const
 imported
 =
 once

@@ -569,7 +569,7 @@ style
 looks
 like
 .
-let
+const
 dummyElement
 =
 this
@@ -582,7 +582,7 @@ ruleView
 .
 dummyElement
 ;
-let
+const
 dummyStyle
 =
 dummyElement
@@ -668,7 +668,7 @@ value
 "
 "
 .
-let
+const
 subProps
 =
 this
@@ -684,7 +684,7 @@ name
 ;
 for
 (
-let
+const
 prop
 of
 subProps
@@ -771,7 +771,7 @@ false
 ;
 for
 (
-let
+const
 item
 of
 [
@@ -845,7 +845,7 @@ force
 false
 )
 {
-let
+const
 store
 =
 this
@@ -994,7 +994,7 @@ function
 name
 )
 {
-let
+const
 store
 =
 this
@@ -1286,7 +1286,7 @@ function
 (
 )
 {
-let
+const
 selfIndex
 =
 this
@@ -1420,7 +1420,7 @@ function
 (
 )
 {
-let
+const
 selfIndex
 =
 this

@@ -59,7 +59,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -81,7 +81,7 @@ test
 "
 )
 ;
-let
+const
 {
 store
 windowRequire
@@ -92,7 +92,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -112,7 +112,7 @@ index
 "
 )
 ;
-let
+const
 {
 requestData
 sendHTTPRequest
@@ -120,7 +120,7 @@ sendHTTPRequest
 =
 connector
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -154,12 +154,12 @@ false
 )
 )
 ;
-let
+const
 requestUrl
 =
 SIMPLE_SJS
 ;
-let
+const
 requestHeaders
 =
 [
@@ -261,7 +261,7 @@ CZ
 }
 ]
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -423,7 +423,7 @@ URL
 ;
 for
 (
-let
+const
 {
 name
 value
@@ -458,7 +458,7 @@ name
 value
 )
 {
-let
+const
 {
 headers
 }
@@ -500,7 +500,7 @@ hasNotRequestHeader
 name
 )
 {
-let
+const
 {
 headers
 }
@@ -529,7 +529,7 @@ name
 }
 for
 (
-let
+const
 {
 name
 value
@@ -583,7 +583,7 @@ anonymous
 .
 for
 (
-let
+const
 name
 of
 [

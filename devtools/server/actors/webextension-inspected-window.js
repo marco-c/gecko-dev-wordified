@@ -599,7 +599,7 @@ lineNumber
 =
 callerInfo
 ;
-let
+const
 callerURI
 =
 callerInfo
@@ -1169,7 +1169,7 @@ window
 return
 ;
 }
-let
+const
 subjectDocShell
 =
 window
@@ -1270,7 +1270,7 @@ subjectDocShell
 sameTypeParent
 )
 {
-let
+const
 parentWindow
 =
 subjectDocShell
@@ -1875,7 +1875,7 @@ options
 toolboxSelectedNodeActorID
 )
 {
-let
+const
 actor
 =
 DebuggerServer
@@ -2036,7 +2036,7 @@ makeDebuggeeValue
 object
 )
 ;
-let
+const
 consoleActor
 =
 DebuggerServer
@@ -3242,7 +3242,7 @@ denied
 )
 ;
 }
-let
+const
 docPrincipalURI
 =
 window
@@ -3890,7 +3890,7 @@ toolboxConsoleActorID
 )
 ;
 }
-let
+const
 consoleActor
 =
 DebuggerServer

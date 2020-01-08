@@ -263,7 +263,7 @@ componentDidUpdate
 (
 )
 {
-let
+const
 el
 =
 findDOMNode

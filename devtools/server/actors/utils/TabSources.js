@@ -1089,7 +1089,7 @@ URL
 .
 for
 (
-let
+const
 [
 sourceData
 actor
@@ -1135,7 +1135,7 @@ originalUrl
 ;
 }
 }
-let
+const
 actor
 =
 new
@@ -1165,7 +1165,7 @@ contentType
 }
 )
 ;
-let
+const
 sourceActorStore
 =
 this
@@ -1174,7 +1174,7 @@ _thread
 .
 sourceActorStore
 ;
-let
+const
 id
 =
 sourceActorStore
@@ -1657,7 +1657,7 @@ url
 {
 for
 (
-let
+const
 [
 source
 actor
@@ -1775,7 +1775,7 @@ false
 }
 try
 {
-let
+const
 url
 =
 new
@@ -1784,7 +1784,7 @@ URL
 uri
 )
 ;
-let
+const
 pathname
 =
 url
@@ -2018,7 +2018,7 @@ for
 eval
 sources
 .
-let
+const
 url
 =
 isEvalSource
@@ -2032,7 +2032,7 @@ source
 .
 url
 ;
-let
+const
 spec
 =
 {
@@ -2158,7 +2158,7 @@ a
 src
 attribute
 .
-let
+const
 element
 =
 source
@@ -2388,7 +2388,7 @@ else
 {
 try
 {
-let
+const
 pathname
 =
 new
@@ -2399,7 +2399,7 @@ url
 .
 pathname
 ;
-let
+const
 filename
 =
 pathname
@@ -2418,7 +2418,7 @@ lastIndexOf
 1
 )
 ;
-let
+const
 index
 =
 filename
@@ -2430,7 +2430,7 @@ lastIndexOf
 "
 )
 ;
-let
+const
 extension
 =
 index
@@ -2908,7 +2908,7 @@ actors
 =
 >
 {
-let
+const
 actor
 =
 this
@@ -3125,7 +3125,7 @@ source
 url
 )
 ;
-let
+const
 isWasm
 =
 source
@@ -3455,7 +3455,7 @@ absSourceMapURL
 ]
 ;
 }
-let
+const
 fetching
 =
 fetch
@@ -3776,7 +3776,7 @@ false
 }
 )
 {
-let
+const
 oldSm
 =
 this
@@ -3824,7 +3824,7 @@ new
 one
 for
 (
-let
+const
 [
 source
 sm
@@ -4250,7 +4250,7 @@ GeneratedLocation
 )
 ;
 }
-let
+const
 {
 lineNumber
 columnNumber
@@ -4365,7 +4365,7 @@ function
 generatedLocation
 )
 {
-let
+const
 {
 generatedSourceActor
 generatedLine
@@ -4374,7 +4374,7 @@ generatedColumn
 =
 generatedLocation
 ;
-let
+const
 source
 =
 generatedSourceActor
@@ -4461,7 +4461,7 @@ if
 map
 )
 {
-let
+const
 {
 source
 :
@@ -4639,7 +4639,7 @@ function
 originalLocation
 )
 {
-let
+const
 {
 originalSourceActor
 originalLine
@@ -4648,7 +4648,7 @@ originalColumn
 =
 originalLocation
 ;
-let
+const
 source
 =
 (
@@ -4843,7 +4843,7 @@ function
 originalLocation
 )
 {
-let
+const
 {
 originalSourceActor
 }
@@ -4898,7 +4898,7 @@ kinds
 of
 sources
 .
-let
+const
 source
 =
 originalSourceActor
@@ -4940,7 +4940,7 @@ if
 map
 )
 {
-let
+const
 {
 originalLine
 originalColumn
@@ -4948,7 +4948,7 @@ originalColumn
 =
 originalLocation
 ;
-let
+const
 {
 line
 :
@@ -5390,7 +5390,7 @@ function
 (
 )
 {
-let
+const
 actors
 =
 Object
@@ -5421,7 +5421,7 @@ k
 ;
 for
 (
-let
+const
 actor
 of
 this

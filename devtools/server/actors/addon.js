@@ -1035,7 +1035,7 @@ function
 (
 )
 {
-let
+const
 e
 =
 Services
@@ -1056,7 +1056,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 win
 =
 e
@@ -1065,7 +1065,7 @@ getNext
 (
 )
 ;
-let
+const
 windowUtils
 =
 win
@@ -1105,7 +1105,7 @@ function
 (
 )
 {
-let
+const
 e
 =
 Services
@@ -1126,7 +1126,7 @@ hasMoreElements
 )
 )
 {
-let
+const
 win
 =
 e
@@ -1135,7 +1135,7 @@ getNext
 (
 )
 ;
-let
+const
 windowUtils
 =
 win
@@ -1231,7 +1231,7 @@ try
 catch
 block
 .
-let
+const
 metadata
 =
 Cu

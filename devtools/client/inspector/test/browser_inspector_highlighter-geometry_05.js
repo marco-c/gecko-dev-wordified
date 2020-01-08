@@ -348,7 +348,7 @@ function
 (
 )
 {
-let
+const
 helper
 =
 await
@@ -371,7 +371,7 @@ prefix
 =
 ID
 ;
-let
+const
 {
 hide
 finalize
@@ -381,7 +381,7 @@ helper
 ;
 for
 (
-let
+const
 data
 of
 TEST_DATA
@@ -425,7 +425,7 @@ helper
 data
 )
 {
-let
+const
 {
 selector
 }
@@ -583,7 +583,7 @@ isElementHidden
 {
 for
 (
-let
+const
 side
 of
 [
@@ -602,7 +602,7 @@ right
 ]
 )
 {
-let
+const
 hidden
 =
 await

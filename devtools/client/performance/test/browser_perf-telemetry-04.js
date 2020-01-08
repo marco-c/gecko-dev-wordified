@@ -132,7 +132,7 @@ startTelemetry
 (
 )
 ;
-let
+const
 {
 target
 console
@@ -151,7 +151,7 @@ window
 }
 )
 ;
-let
+const
 {
 panel
 }
@@ -168,7 +168,7 @@ tab
 }
 )
 ;
-let
+const
 started
 =
 waitForRecordingStartedEvents
@@ -201,7 +201,7 @@ rust
 await
 started
 ;
-let
+const
 stopped
 =
 waitForRecordingStoppedEvents

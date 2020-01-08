@@ -129,7 +129,7 @@ function
 (
 )
 {
-let
+const
 threadNode
 =
 new
@@ -154,7 +154,7 @@ true
 }
 )
 ;
-let
+const
 treeRoot
 =
 new
@@ -170,7 +170,7 @@ true
 }
 )
 ;
-let
+const
 container
 =
 document
@@ -202,7 +202,7 @@ the
 hidden
 root
 node
-let
+const
 nam
 =
 i
@@ -239,7 +239,7 @@ i
 1
 ]
 ;
-let
+const
 per
 =
 i
@@ -269,7 +269,7 @@ i
 1
 ]
 ;
-let
+const
 selfper
 =
 i

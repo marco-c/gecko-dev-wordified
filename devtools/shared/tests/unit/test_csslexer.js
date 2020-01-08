@@ -276,7 +276,7 @@ inputString
 preserveBackslash
 )
 {
-let
+const
 d
 =
 this
@@ -289,7 +289,7 @@ inputString
 preserveBackslash
 )
 ;
-let
+const
 j
 =
 this
@@ -452,7 +452,7 @@ checkState
 (
 )
 ;
-let
+const
 d
 =
 this
@@ -463,7 +463,7 @@ nextToken
 (
 )
 ;
-let
+const
 j
 =
 this
@@ -513,7 +513,7 @@ cssText
 tokenTypes
 )
 {
-let
+const
 lexer
 =
 new
@@ -543,7 +543,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 lexer
@@ -1242,7 +1242,7 @@ cssText
 locations
 )
 {
-let
+const
 lexer
 =
 new
@@ -1261,7 +1261,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 lexer
@@ -1270,14 +1270,14 @@ nextToken
 (
 )
 ;
-let
+const
 startLine
 =
 lexer
 .
 lineNumber
 ;
-let
+const
 startColumn
 =
 lexer
@@ -1392,7 +1392,7 @@ expectedAppend
 expectedNoAppend
 )
 {
-let
+const
 lexer
 =
 new

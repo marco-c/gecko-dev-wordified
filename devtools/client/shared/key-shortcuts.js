@@ -720,7 +720,7 @@ window
 str
 )
 {
-let
+const
 modifiers
 =
 str
@@ -741,7 +741,7 @@ pop
 (
 )
 ;
-let
+const
 shortcut
 =
 {
@@ -781,7 +781,7 @@ undefined
 ;
 for
 (
-let
+const
 mod
 of
 modifiers
@@ -1188,7 +1188,7 @@ function
 shortcut
 )
 {
-let
+const
 list
 =
 [
@@ -1433,7 +1433,7 @@ accessible
 via
 shift
 .
-let
+const
 isAlphabetical
 =
 event
@@ -1481,7 +1481,7 @@ shortcuts
 Bug
 1300458
 )
-let
+const
 cmdShortcut
 =
 shortcut
@@ -1570,7 +1570,7 @@ is
 not
 provided
 .
-let
+const
 key
 =
 event
@@ -1682,7 +1682,7 @@ event
 {
 for
 (
-let
+const
 [
 key
 shortcut
@@ -1771,7 +1771,7 @@ key
 )
 )
 {
-let
+const
 shortcut
 =
 KeyShortcuts

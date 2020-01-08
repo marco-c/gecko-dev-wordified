@@ -528,7 +528,7 @@ function
 marker
 )
 {
-let
+const
 fields
 =
 Object
@@ -687,7 +687,7 @@ marker
 }
 )
 {
-let
+const
 generic
 =
 L10N
@@ -753,7 +753,7 @@ causeName
 ]
 )
 {
-let
+const
 label
 =
 PREFS
@@ -898,7 +898,7 @@ function
 marker
 )
 {
-let
+const
 fields
 =
 Object
@@ -917,14 +917,14 @@ in
 marker
 )
 {
-let
+const
 cause
 =
 marker
 .
 causeName
 ;
-let
+const
 label
 =
 L10N
@@ -973,7 +973,7 @@ in
 marker
 )
 {
-let
+const
 label
 =
 marker
@@ -1010,7 +1010,7 @@ function
 marker
 )
 {
-let
+const
 fields
 =
 Object
@@ -1029,14 +1029,14 @@ in
 marker
 )
 {
-let
+const
 cause
 =
 marker
 .
 causeName
 ;
-let
+const
 label
 =
 L10N
@@ -1114,7 +1114,7 @@ function
 marker
 )
 {
-let
+const
 label
 =
 marker
@@ -1170,7 +1170,7 @@ in
 marker
 )
 {
-let
+const
 label
 =
 L10N
@@ -1229,7 +1229,7 @@ in
 marker
 )
 {
-let
+const
 label
 =
 L10N

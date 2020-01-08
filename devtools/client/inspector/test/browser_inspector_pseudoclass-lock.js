@@ -260,7 +260,7 @@ ruleview
 "
 )
 ;
-let
+const
 view
 =
 inspector
@@ -478,7 +478,7 @@ div
 "
 )
 ;
-let
+const
 hasLock
 =
 await
@@ -524,7 +524,7 @@ toolbox
 "
 )
 ;
-let
+const
 tab
 =
 toolbox
@@ -627,7 +627,7 @@ when
 the
 pseudoclass
 changes
-let
+const
 onPseudo
 =
 inspector
@@ -641,7 +641,7 @@ pseudoclass
 "
 )
 ;
-let
+const
 onRefresh
 =
 inspector
@@ -675,7 +675,7 @@ return
 a
 promise
 .
-let
+const
 onMutations
 =
 once
@@ -863,7 +863,7 @@ selector
 inspector
 )
 {
-let
+const
 nodeFront
 =
 await
@@ -1015,7 +1015,7 @@ rule
 "
 )
 ;
-let
+const
 rules
 =
 ruleview
@@ -1120,7 +1120,7 @@ class
 "
 )
 ;
-let
+const
 value
 =
 await
@@ -1312,7 +1312,7 @@ rule
 "
 )
 ;
-let
+const
 rules
 =
 ruleview
@@ -1355,7 +1355,7 @@ selector
 inspector
 )
 ;
-let
+const
 value
 =
 await

@@ -186,7 +186,7 @@ run_test
 (
 )
 {
-let
+const
 doc
 =
 DOMParser
@@ -205,7 +205,7 @@ html
 "
 )
 ;
-let
+const
 container
 =
 doc
@@ -225,7 +225,7 @@ container
 "
 )
 ;
-let
+const
 vv
 =
 new
@@ -239,7 +239,7 @@ true
 }
 )
 ;
-let
+const
 scope
 =
 vv
@@ -252,7 +252,7 @@ scope
 "
 )
 ;
-let
+const
 item1
 =
 scope
@@ -271,7 +271,7 @@ value
 }
 )
 ;
-let
+const
 item2
 =
 scope

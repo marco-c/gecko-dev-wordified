@@ -376,7 +376,7 @@ uri
 warningMessage
 )
 {
-let
+const
 hud
 =
 await
@@ -385,7 +385,7 @@ openNewTabAndConsole
 uri
 )
 ;
-let
+const
 message
 =
 await
@@ -435,7 +435,7 @@ message
 expectedUri
 )
 {
-let
+const
 learnMoreLink
 =
 message

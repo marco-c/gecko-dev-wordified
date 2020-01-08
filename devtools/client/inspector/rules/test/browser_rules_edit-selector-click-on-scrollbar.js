@@ -206,7 +206,7 @@ done
 =
 >
 {
-let
+const
 options
 =
 {
@@ -264,7 +264,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -301,14 +301,14 @@ container
 "
 )
 ;
-let
+const
 container
 =
 view
 .
 element
 ;
-let
+const
 hasScrollbar
 =
 container
@@ -353,7 +353,7 @@ view
 "
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -362,7 +362,7 @@ view
 1
 )
 ;
-let
+const
 editor
 =
 await
@@ -451,7 +451,7 @@ field
 "
 )
 ;
-let
+const
 newValue
 =
 "
@@ -471,7 +471,7 @@ e
 f
 "
 ;
-let
+const
 onRuleViewChanged
 =
 once
@@ -548,7 +548,7 @@ clickOnRuleviewScrollbar
 view
 )
 {
-let
+const
 container
 =
 view
@@ -557,7 +557,7 @@ element
 .
 parentNode
 ;
-let
+const
 onScroll
 =
 once
@@ -568,7 +568,7 @@ scroll
 "
 )
 ;
-let
+const
 rect
 =
 container

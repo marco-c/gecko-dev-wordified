@@ -200,7 +200,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -255,7 +255,7 @@ testPrefDefaults
 hud
 )
 ;
-let
+const
 observer
 =
 new
@@ -265,7 +265,7 @@ PrefObserver
 "
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -277,7 +277,7 @@ hud
 target
 )
 ;
-let
+const
 optionsPanel
 =
 await
@@ -356,7 +356,7 @@ testPrefDefaults
 hud
 )
 {
-let
+const
 prefValue
 =
 Services
@@ -387,7 +387,7 @@ check
 "
 )
 ;
-let
+const
 message
 =
 await
@@ -463,7 +463,7 @@ pref
 "
 )
 ;
-let
+const
 prefChanged
 =
 observer
@@ -479,7 +479,7 @@ PREF_MESSAGE_TIMESTAMP
 }
 )
 ;
-let
+const
 checkbox
 =
 panel
@@ -514,7 +514,7 @@ testChangedPref
 hud
 )
 {
-let
+const
 prefValue
 =
 Services
@@ -541,7 +541,7 @@ check
 "
 )
 ;
-let
+const
 message
 =
 await

@@ -134,7 +134,7 @@ window
 "
 )
 ;
-let
+const
 hostWindow
 =
 toolbox
@@ -143,14 +143,14 @@ win
 .
 parent
 ;
-let
+const
 originalWidth
 =
 hostWindow
 .
 outerWidth
 ;
-let
+const
 originalHeight
 =
 hostWindow
@@ -218,7 +218,7 @@ mode
 "
 )
 ;
-let
+const
 onClassnameMutation
 =
 waitForClassMutation
@@ -274,7 +274,7 @@ mode
 "
 )
 ;
-let
+const
 onClassnameMutation
 =
 waitForClassMutation
@@ -507,7 +507,7 @@ resolve
 =
 >
 {
-let
+const
 observer
 =
 new
@@ -521,7 +521,7 @@ mutations
 {
 for
 (
-let
+const
 mutation
 of
 mutations

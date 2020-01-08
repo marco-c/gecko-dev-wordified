@@ -900,7 +900,7 @@ version
 of
 it
 .
-let
+const
 dataUrl
 =
 sheet
@@ -1030,7 +1030,7 @@ url
 pathname
 )
 {
-let
+const
 index
 =
 url
@@ -1183,7 +1183,7 @@ LINE_SEPARATOR
 null
 )
 {
-let
+const
 os
 =
 Services
@@ -1256,7 +1256,7 @@ aren
 t
 any
 .
-let
+const
 trimmed
 =
 text
@@ -1313,7 +1313,7 @@ trim
 )
 ;
 }
-let
+const
 originalText
 =
 text
@@ -1345,7 +1345,7 @@ line
 per
 rule
 .
-let
+const
 lineCount
 =
 text
@@ -1529,7 +1529,7 @@ indentLevel
 =
 0
 ;
-let
+const
 tokens
 =
 CSSLexer
@@ -1616,7 +1616,7 @@ updates
 pushbackToken
 |
 .
-let
+const
 readUntilSignificantToken
 =
 (
@@ -1629,7 +1629,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 tokens
@@ -1679,7 +1679,7 @@ next
 /
 token
 .
-let
+const
 nextToken
 =
 tokens
@@ -1917,7 +1917,7 @@ a
 {
 "
 .
-let
+const
 readUntilNewlineNeeded
 =
 (
@@ -2296,7 +2296,7 @@ spaces
 or
 tabs
 .
-let
+const
 tabPrefs
 =
 getTabPrefs
@@ -2860,7 +2860,7 @@ classList
 {
 for
 (
-let
+const
 cl
 of
 element
@@ -2884,7 +2884,7 @@ label
 ;
 }
 ;
-let
+const
 paths
 =
 [
@@ -3582,7 +3582,7 @@ getCSSStyleRules
 node
 )
 {
-let
+const
 {
 bindingElement
 pseudo

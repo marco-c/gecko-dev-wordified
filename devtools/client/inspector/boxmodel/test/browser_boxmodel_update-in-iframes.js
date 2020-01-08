@@ -88,7 +88,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -182,7 +182,7 @@ value
 "
 )
 ;
-let
+const
 sizeElt
 =
 boxmodel
@@ -229,7 +229,7 @@ size
 "
 )
 ;
-let
+const
 onUpdated
 =
 waitForUpdate
@@ -339,7 +339,7 @@ iframe2
 "
 )
 ;
-let
+const
 onInspectorUpdated
 =
 inspector
@@ -399,7 +399,7 @@ value
 "
 )
 ;
-let
+const
 sizeElt
 =
 boxmodel
@@ -446,7 +446,7 @@ size
 "
 )
 ;
-let
+const
 onUpdated
 =
 waitForUpdate
@@ -523,7 +523,7 @@ selector
 inspector
 )
 {
-let
+const
 iframe1
 =
 await
@@ -535,7 +535,7 @@ iframe
 inspector
 )
 ;
-let
+const
 node
 =
 await
@@ -562,7 +562,7 @@ selector
 inspector
 )
 {
-let
+const
 iframe1
 =
 await
@@ -574,7 +574,7 @@ iframe
 inspector
 )
 ;
-let
+const
 iframe2
 =
 await
@@ -587,7 +587,7 @@ iframe1
 inspector
 )
 ;
-let
+const
 node
 =
 await

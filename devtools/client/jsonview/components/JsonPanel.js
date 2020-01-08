@@ -538,7 +538,7 @@ return
 true
 ;
 }
-let
+const
 json
 =
 object
@@ -580,7 +580,7 @@ renderValue
 props
 )
 {
-let
+const
 member
 =
 props
@@ -664,7 +664,7 @@ str
 {
 try
 {
-let
+const
 u
 =
 new
@@ -757,7 +757,7 @@ available
 horizontal
 space
 .
-let
+const
 columns
 =
 [
@@ -829,7 +829,7 @@ render
 let
 content
 ;
-let
+const
 data
 =
 this

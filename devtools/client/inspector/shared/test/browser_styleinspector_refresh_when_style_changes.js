@@ -248,7 +248,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -257,7 +257,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 }
@@ -312,7 +312,7 @@ view
 "
 )
 ;
-let
+const
 onComputedViewReady
 =
 inspector
@@ -374,7 +374,7 @@ viewName
 {
 for
 (
-let
+const
 {
 target
 className
@@ -448,7 +448,7 @@ tab
 eventName
 )
 {
-let
+const
 onRefreshed
 =
 inspector

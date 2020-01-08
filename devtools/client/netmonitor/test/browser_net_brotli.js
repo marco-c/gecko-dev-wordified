@@ -75,7 +75,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -97,7 +97,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 tab
 monitor
@@ -120,7 +120,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -131,7 +131,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -151,7 +151,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -199,7 +199,7 @@ tab
 BROTLI_REQUESTS
 )
 ;
-let
+const
 requestItem
 =
 document
@@ -216,7 +216,7 @@ item
 "
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem
@@ -358,7 +358,7 @@ code
 "
 )
 ;
-let
+const
 onResponseContent
 =
 monitor

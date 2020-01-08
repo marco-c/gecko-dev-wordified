@@ -108,7 +108,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -172,7 +172,7 @@ highlighter
 "
 )
 ;
-let
+const
 h1
 =
 await
@@ -183,7 +183,7 @@ getHighlighter
 false
 )
 ;
-let
+const
 h2
 =
 await
@@ -236,7 +236,7 @@ inspector
 }
 )
 {
-let
+const
 h1
 =
 await
@@ -249,7 +249,7 @@ BoxModelHighlighter
 "
 )
 ;
-let
+const
 h2
 =
 await
@@ -282,7 +282,7 @@ time
 "
 )
 ;
-let
+const
 h3
 =
 await
@@ -295,7 +295,7 @@ CssTransformHighlighter
 "
 )
 ;
-let
+const
 h4
 =
 await
@@ -420,7 +420,7 @@ inspector
 }
 )
 {
-let
+const
 h1
 =
 await
@@ -433,7 +433,7 @@ BoxModelHighlighter
 "
 )
 ;
-let
+const
 h2
 =
 await
@@ -546,7 +546,7 @@ inspector
 }
 )
 {
-let
+const
 h
 =
 await

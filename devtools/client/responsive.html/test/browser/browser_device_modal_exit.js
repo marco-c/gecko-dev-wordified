@@ -89,7 +89,7 @@ ui
 }
 )
 {
-let
+const
 {
 store
 document
@@ -99,7 +99,7 @@ ui
 .
 toolWindow
 ;
-let
+const
 modal
 =
 document
@@ -116,7 +116,7 @@ wrapper
 "
 )
 ;
-let
+const
 closeButton
 =
 document
@@ -185,7 +185,7 @@ openDeviceModal
 ui
 )
 ;
-let
+const
 preferredDevicesBefore
 =
 _loadPreferredDevices
@@ -208,7 +208,7 @@ modal
 "
 )
 ;
-let
+const
 uncheckedCb
 =
 [
@@ -244,7 +244,7 @@ checked
 0
 ]
 ;
-let
+const
 value
 =
 uncheckedCb
@@ -316,7 +316,7 @@ exitting
 "
 )
 ;
-let
+const
 preferredDevicesAfter
 =
 _loadPreferredDevices

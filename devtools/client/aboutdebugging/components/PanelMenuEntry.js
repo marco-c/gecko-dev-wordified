@@ -220,7 +220,7 @@ render
 (
 )
 {
-let
+const
 {
 id
 name
@@ -256,7 +256,7 @@ common
 styles
 defined
 .
-let
+const
 className
 =
 "

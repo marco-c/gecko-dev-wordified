@@ -182,7 +182,7 @@ frontend
 false
 )
 ;
-let
+const
 {
 jsterm
 }
@@ -202,7 +202,7 @@ popup
 =
 jsterm
 ;
-let
+const
 target
 =
 TargetFactory
@@ -214,7 +214,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -263,7 +263,7 @@ title
 "
 )
 ;
-let
+const
 newItemsLabels
 =
 getPopupLabels
@@ -513,7 +513,7 @@ Debugger
 "
 )
 ;
-let
+const
 {
 panel
 }

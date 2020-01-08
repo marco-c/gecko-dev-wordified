@@ -262,7 +262,7 @@ text
 foobarz
 "
 ;
-let
+const
 onFooBarzMessage
 =
 waitForMessage
@@ -459,7 +459,7 @@ liveBrowserConsoleMessage2
 )
 )
 ;
-let
+const
 msg
 =
 await

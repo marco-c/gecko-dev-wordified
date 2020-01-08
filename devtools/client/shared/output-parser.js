@@ -1260,13 +1260,13 @@ depth
 =
 1
 ;
-let
+const
 functionData
 =
 [
 ]
 ;
-let
+const
 tokens
 =
 [
@@ -1284,7 +1284,7 @@ depth
 0
 )
 {
-let
+const
 token
 =
 tokenStream
@@ -1449,7 +1449,7 @@ sawVariable
 =
 true
 ;
-let
+const
 variableNode
 =
 this
@@ -1760,7 +1760,7 @@ var
 (
 "
 .
-let
+const
 varText
 =
 text
@@ -1775,7 +1775,7 @@ initialToken
 endOffset
 )
 ;
-let
+const
 variableNode
 =
 this
@@ -1805,7 +1805,7 @@ var
 (
 )
 .
-let
+const
 {
 tokens
 functionData
@@ -1823,7 +1823,7 @@ options
 true
 )
 ;
-let
+const
 result
 =
 sawVariable
@@ -1855,13 +1855,13 @@ var
 (
 )
 .
-let
+const
 firstOpts
 =
 {
 }
 ;
-let
+const
 secondOpts
 =
 {
@@ -1918,7 +1918,7 @@ the
 variable
 name
 .
-let
+const
 varName
 =
 text
@@ -2146,7 +2146,7 @@ case
 for
 filter
 .
-let
+const
 subOptions
 =
 Object
@@ -2164,7 +2164,7 @@ expectFilter
 =
 false
 ;
-let
+const
 saveParsed
 =
 this
@@ -2178,7 +2178,7 @@ parsed
 [
 ]
 ;
-let
+const
 rest
 =
 this
@@ -2197,7 +2197,7 @@ parsed
 =
 saveParsed
 ;
-let
+const
 span
 =
 this
@@ -2390,7 +2390,7 @@ previousWasBang
 =
 false
 ;
-let
+const
 colorOK
 =
 function
@@ -2421,7 +2421,7 @@ outerMostFunctionTakesColor
 ;
 }
 ;
-let
+const
 angleOK
 =
 function
@@ -2460,7 +2460,7 @@ while
 done
 )
 {
-let
+const
 token
 =
 tokenStream
@@ -2696,7 +2696,7 @@ options
 isVariableInUse
 )
 {
-let
+const
 variableNode
 =
 this
@@ -2721,7 +2721,7 @@ variableNode
 }
 else
 {
-let
+const
 {
 functionData
 sawVariable
@@ -2736,7 +2736,7 @@ tokenStream
 options
 )
 ;
-let
+const
 functionName
 =
 text
@@ -2782,7 +2782,7 @@ functionName
 ;
 for
 (
-let
+const
 data
 of
 functionData
@@ -2856,7 +2856,7 @@ to
 DOM
 accordingly
 .
-let
+const
 functionText
 =
 functionName
@@ -3225,7 +3225,7 @@ hash
 "
 :
 {
-let
+const
 original
 =
 text
@@ -3327,7 +3327,7 @@ case
 dimension
 "
 :
-let
+const
 value
 =
 text
@@ -3926,7 +3926,7 @@ length
 =
 0
 ;
-let
+const
 tokenStream
 =
 getCSSLexer
@@ -4208,7 +4208,7 @@ bezier
 options
 )
 {
-let
+const
 container
 =
 this
@@ -4236,7 +4236,7 @@ options
 bezierSwatchClass
 )
 {
-let
+const
 swatch
 =
 this
@@ -4263,7 +4263,7 @@ swatch
 )
 ;
 }
-let
+const
 value
 =
 this
@@ -4377,7 +4377,7 @@ text
 className
 )
 {
-let
+const
 container
 =
 this
@@ -4391,7 +4391,7 @@ span
 }
 )
 ;
-let
+const
 toggle
 =
 this
@@ -4408,7 +4408,7 @@ className
 }
 )
 ;
-let
+const
 value
 =
 this
@@ -4606,7 +4606,7 @@ this
 }
 ]
 ;
-let
+const
 container
 =
 this
@@ -4620,7 +4620,7 @@ span
 }
 )
 ;
-let
+const
 toggle
 =
 this
@@ -4641,7 +4641,7 @@ shapeSwatchClass
 ;
 for
 (
-let
+const
 {
 prefix
 coordParser
@@ -4660,14 +4660,14 @@ prefix
 )
 )
 {
-let
+const
 coordsBegin
 =
 prefix
 .
 length
 ;
-let
+const
 coordsEnd
 =
 shape
@@ -4717,7 +4717,7 @@ coordsBegin
 )
 )
 ;
-let
+const
 coordsString
 =
 shape
@@ -4847,7 +4847,7 @@ coords
 container
 )
 {
-let
+const
 tokenStream
 =
 getCSSLexer
@@ -4979,7 +4979,7 @@ added
 to
 coordNode
 yet
-let
+const
 node
 =
 this
@@ -5317,7 +5317,7 @@ signifying
 end
 of
 coord
-let
+const
 node
 =
 this
@@ -5477,7 +5477,7 @@ x
 y
 coords
 .
-let
+const
 node
 =
 this
@@ -5682,7 +5682,7 @@ if
 coord
 )
 {
-let
+const
 node
 =
 this
@@ -5829,7 +5829,7 @@ coords
 container
 )
 {
-let
+const
 tokenStream
 =
 getCSSLexer
@@ -5864,7 +5864,7 @@ point
 radius
 "
 ;
-let
+const
 centerNode
 =
 this
@@ -6077,7 +6077,7 @@ signifying
 end
 of
 radius
-let
+const
 node
 =
 this
@@ -6179,7 +6179,7 @@ of
 cx
 /
 cy
-let
+const
 node
 =
 this
@@ -6342,7 +6342,7 @@ radius
 coord
 )
 {
-let
+const
 node
 =
 this
@@ -6535,7 +6535,7 @@ point
 to
 cy
 .
-let
+const
 node
 =
 this
@@ -6683,7 +6683,7 @@ radius
 "
 )
 {
-let
+const
 node
 =
 this
@@ -6726,7 +6726,7 @@ node
 }
 else
 {
-let
+const
 node
 =
 this
@@ -6886,7 +6886,7 @@ coords
 container
 )
 {
-let
+const
 tokenStream
 =
 getCSSLexer
@@ -6921,7 +6921,7 @@ point
 rx
 "
 ;
-let
+const
 centerNode
 =
 this
@@ -7147,7 +7147,7 @@ of
 rx
 /
 ry
-let
+const
 node
 =
 this
@@ -7242,7 +7242,7 @@ of
 cx
 /
 cy
-let
+const
 node
 =
 this
@@ -7406,7 +7406,7 @@ ry
 coord
 )
 {
-let
+const
 node
 =
 this
@@ -7563,7 +7563,7 @@ x
 /
 y
 .
-let
+const
 node
 =
 this
@@ -7650,7 +7650,7 @@ x
 /
 y
 .
-let
+const
 node
 =
 this
@@ -7807,7 +7807,7 @@ ry
 "
 )
 {
-let
+const
 node
 =
 this
@@ -7848,7 +7848,7 @@ node
 }
 else
 {
-let
+const
 node
 =
 this
@@ -8019,7 +8019,7 @@ left
 "
 ]
 ;
-let
+const
 tokenStream
 =
 getCSSLexer
@@ -8120,13 +8120,13 @@ nodes
 i
 ]
 .
-let
+const
 nodes
 =
 [
 ]
 ;
-let
+const
 otherText
 =
 [
@@ -8358,7 +8358,7 @@ and
 push
 to
 nodes
-let
+const
 node
 =
 this
@@ -8496,7 +8496,7 @@ between
 each
 coord
 .
-let
+const
 node
 =
 this
@@ -8634,7 +8634,7 @@ node
 for
 the
 coord
-let
+const
 node
 =
 this
@@ -8766,7 +8766,7 @@ coord
 }
 else
 {
-let
+const
 node
 =
 this
@@ -8913,7 +8913,7 @@ j
 +
 )
 {
-let
+const
 point
 =
 insetPoints
@@ -8921,7 +8921,7 @@ insetPoints
 j
 ]
 ;
-let
+const
 nodeIndex
 =
 (
@@ -8978,7 +8978,7 @@ array
 {
 for
 (
-let
+const
 text
 of
 otherText
@@ -9029,7 +9029,7 @@ length
 {
 for
 (
-let
+const
 text
 of
 otherText
@@ -9105,7 +9105,7 @@ angle
 options
 )
 {
-let
+const
 angleObj
 =
 new
@@ -9116,7 +9116,7 @@ CssAngle
 angle
 )
 ;
-let
+const
 container
 =
 this
@@ -9144,7 +9144,7 @@ options
 angleSwatchClass
 )
 {
-let
+const
 swatch
 =
 this
@@ -9290,7 +9290,7 @@ swatch
 )
 ;
 }
-let
+const
 value
 =
 this
@@ -9517,7 +9517,7 @@ options
 }
 )
 {
-let
+const
 colorObj
 =
 new
@@ -9541,7 +9541,7 @@ colorObj
 )
 )
 {
-let
+const
 container
 =
 this
@@ -9569,7 +9569,7 @@ options
 colorSwatchClass
 )
 {
-let
+const
 swatch
 =
 this
@@ -9659,7 +9659,7 @@ color
 color
 ;
 }
-let
+const
 value
 =
 this
@@ -9801,7 +9801,7 @@ options
 nodes
 )
 {
-let
+const
 container
 =
 this
@@ -9829,7 +9829,7 @@ options
 filterSwatchClass
 )
 {
-let
+const
 swatch
 =
 this
@@ -9856,7 +9856,7 @@ swatch
 )
 ;
 }
-let
+const
 value
 =
 this
@@ -9930,14 +9930,14 @@ stopPropagation
 (
 )
 ;
-let
+const
 swatch
 =
 event
 .
 target
 ;
-let
+const
 color
 =
 this
@@ -9949,7 +9949,7 @@ get
 swatch
 )
 ;
-let
+const
 val
 =
 color
@@ -10003,14 +10003,14 @@ stopPropagation
 (
 )
 ;
-let
+const
 swatch
 =
 event
 .
 target
 ;
-let
+const
 angle
 =
 this
@@ -10022,7 +10022,7 @@ get
 swatch
 )
 ;
-let
+const
 val
 =
 angle
@@ -10090,7 +10090,7 @@ needed
 termination
 characters
 .
-let
+const
 urlTokenizer
 =
 getCSSLexer
@@ -10350,7 +10350,7 @@ on
 the
 whole
 .
-let
+const
 [
 leader
 body
@@ -10912,7 +10912,7 @@ value
 "
 )
 {
-let
+const
 node
 =
 this
@@ -10925,7 +10925,7 @@ HTML_NS
 tagName
 )
 ;
-let
+const
 attrs
 =
 Object
@@ -10937,7 +10937,7 @@ attributes
 ;
 for
 (
-let
+const
 attr
 of
 attrs
@@ -10969,7 +10969,7 @@ if
 value
 )
 {
-let
+const
 textNode
 =
 this
@@ -11099,7 +11099,7 @@ value
 "
 )
 {
-let
+const
 node
 =
 this
@@ -11172,7 +11172,7 @@ function
 text
 )
 {
-let
+const
 lastItem
 =
 this
@@ -11263,7 +11263,7 @@ function
 (
 )
 {
-let
+const
 frag
 =
 this
@@ -11276,7 +11276,7 @@ createDocumentFragment
 ;
 for
 (
-let
+const
 item
 of
 this
@@ -11811,7 +11811,7 @@ function
 overrides
 )
 {
-let
+const
 defaults
 =
 {
@@ -11885,7 +11885,7 @@ null
 ;
 for
 (
-let
+const
 item
 in
 overrides

@@ -109,7 +109,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -140,7 +140,7 @@ abcd
 inspector
 )
 ;
-let
+const
 container
 =
 await
@@ -182,7 +182,7 @@ event
 "
 )
 ;
-let
+const
 nodeMutated
 =
 inspector
@@ -194,7 +194,7 @@ markupmutation
 "
 )
 ;
-let
+const
 attr
 =
 container
@@ -236,7 +236,7 @@ inspector
 panelWin
 )
 ;
-let
+const
 input
 =
 inplaceEditor
@@ -273,7 +273,7 @@ wxyz
 "
 "
 ;
-let
+const
 onFocus
 =
 once

@@ -665,7 +665,7 @@ shouldLoadMoreItems
 =
 true
 ;
-let
+const
 treeNode
 =
 this
@@ -734,7 +734,7 @@ this
 onHostSelect
 )
 ;
-let
+const
 tableNode
 =
 this
@@ -951,7 +951,7 @@ setupToolbar
 (
 )
 ;
-let
+const
 shortcuts
 =
 new
@@ -968,7 +968,7 @@ defaultView
 }
 )
 ;
-let
+const
 key
 =
 L10N
@@ -1120,7 +1120,7 @@ storageTypes
 indexedDB
 )
 {
-let
+const
 hosts
 =
 storageTypes
@@ -1129,7 +1129,7 @@ indexedDB
 .
 hosts
 ;
-let
+const
 newHosts
 =
 {
@@ -1137,7 +1137,7 @@ newHosts
 ;
 for
 (
-let
+const
 [
 host
 dbs
@@ -2523,7 +2523,7 @@ getCurrentFront
 (
 )
 {
-let
+const
 type
 =
 this
@@ -2623,7 +2623,7 @@ editItem
 data
 )
 {
-let
+const
 front
 =
 this
@@ -2811,7 +2811,7 @@ enumPaths
 {
 for
 (
-let
+const
 type
 in
 response
@@ -2842,7 +2842,7 @@ of
 hosts
 for
 (
-let
+const
 host
 of
 response
@@ -2878,7 +2878,7 @@ a
 host
 for
 (
-let
+const
 host
 in
 response
@@ -2887,7 +2887,7 @@ type
 ]
 )
 {
-let
+const
 paths
 =
 response
@@ -2962,7 +2962,7 @@ ignore
 }
 for
 (
-let
+const
 path
 of
 enumPaths
@@ -3435,7 +3435,7 @@ added
 {
 for
 (
-let
+const
 type
 in
 added
@@ -3443,7 +3443,7 @@ added
 {
 for
 (
-let
+const
 host
 in
 added
@@ -3675,7 +3675,7 @@ deleted
 {
 for
 (
-let
+const
 type
 in
 deleted
@@ -3683,7 +3683,7 @@ deleted
 {
 for
 (
-let
+const
 host
 in
 deleted
@@ -3783,7 +3783,7 @@ else
 {
 for
 (
-let
+const
 name
 of
 deleted
@@ -3809,7 +3809,7 @@ of
 indexedDB
 or
 cache
-let
+const
 names
 =
 JSON
@@ -3927,7 +3927,7 @@ length
 0
 )
 {
-let
+const
 tableItemName
 =
 names
@@ -4046,7 +4046,7 @@ selectedItem
 return
 ;
 }
-let
+const
 [
 type
 host
@@ -4094,7 +4094,7 @@ return
 }
 try
 {
-let
+const
 toUpdate
 =
 [
@@ -4102,7 +4102,7 @@ toUpdate
 ;
 for
 (
-let
+const
 name
 of
 changed
@@ -4114,7 +4114,7 @@ host
 ]
 )
 {
-let
+const
 names
 =
 JSON
@@ -4292,7 +4292,7 @@ names
 reason
 )
 {
-let
+const
 fetchOpts
 =
 reason
@@ -4314,7 +4314,7 @@ itemOffset
 {
 }
 ;
-let
+const
 storageType
 =
 this
@@ -4449,7 +4449,7 @@ indexedDB
 names
 )
 {
-let
+const
 [
 dbName
 objectStoreName
@@ -4570,7 +4570,7 @@ subType
 )
 ;
 }
-let
+const
 {
 data
 }
@@ -4656,7 +4656,7 @@ updateToolbar
 (
 )
 {
-let
+const
 item
 =
 this
@@ -4665,7 +4665,7 @@ tree
 .
 selectedItem
 ;
-let
+const
 howManyNodesIn
 =
 item
@@ -4710,7 +4710,7 @@ the
 add
 button
 .
-let
+const
 canAdd
 =
 this
@@ -4842,7 +4842,7 @@ storageTypes
 ;
 for
 (
-let
+const
 type
 in
 storageTypes
@@ -4977,7 +4977,7 @@ type
 ;
 for
 (
-let
+const
 host
 in
 storageTypes
@@ -5024,7 +5024,7 @@ url
 ;
 for
 (
-let
+const
 name
 of
 storageTypes
@@ -5040,7 +5040,7 @@ host
 {
 try
 {
-let
+const
 names
 =
 JSON
@@ -5161,7 +5161,7 @@ updateObjectSidebar
 (
 )
 {
-let
+const
 item
 =
 this
@@ -5355,7 +5355,7 @@ empty
 (
 )
 ;
-let
+const
 mainScope
 =
 this
@@ -5389,7 +5389,7 @@ if
 value
 )
 {
-let
+const
 itemVar
 =
 mainScope
@@ -5484,7 +5484,7 @@ to
 be
 displayed
 .
-let
+const
 itemProps
 =
 Object
@@ -5523,7 +5523,7 @@ may
 be
 available
 .
-let
+const
 rawObject
 =
 Object
@@ -5533,7 +5533,7 @@ create
 null
 )
 ;
-let
+const
 otherProps
 =
 itemProps
@@ -5564,13 +5564,13 @@ e
 ;
 for
 (
-let
+const
 prop
 of
 otherProps
 )
 {
-let
+const
 column
 =
 this
@@ -5597,7 +5597,7 @@ private
 continue
 ;
 }
-let
+const
 cookieProp
 =
 COOKIE_KEY_MAP
@@ -5690,13 +5690,13 @@ properties
 .
 for
 (
-let
+const
 key
 in
 item
 )
 {
-let
+const
 column
 =
 this
@@ -6146,7 +6146,7 @@ nothing
 to
 do
 }
-let
+const
 value
 =
 (
@@ -6333,7 +6333,7 @@ ftp
 return
 ;
 }
-let
+const
 jsonObject
 =
 Object
@@ -6343,7 +6343,7 @@ create
 null
 )
 ;
-let
+const
 view
 =
 this
@@ -6357,7 +6357,7 @@ name
 =
 json
 ;
-let
+const
 valueScope
 =
 view
@@ -6392,7 +6392,7 @@ expanded
 =
 true
 ;
-let
+const
 jsonVar
 =
 valueScope
@@ -6506,7 +6506,7 @@ _extractKeyValPairs
 value
 )
 {
-let
+const
 makeObject
 =
 (
@@ -6516,7 +6516,7 @@ pairSep
 =
 >
 {
-let
+const
 object
 =
 {
@@ -6524,7 +6524,7 @@ object
 ;
 for
 (
-let
+const
 pair
 of
 value
@@ -6535,7 +6535,7 @@ pairSep
 )
 )
 {
-let
+const
 [
 key
 val
@@ -6622,7 +6622,7 @@ i
 +
 )
 {
-let
+const
 kv
 =
 separators
@@ -6659,7 +6659,7 @@ j
 continue
 ;
 }
-let
+const
 p
 =
 separators
@@ -6667,7 +6667,7 @@ separators
 j
 ]
 ;
-let
+const
 word
 =
 [
@@ -6681,7 +6681,7 @@ p
 ]
 *
 ;
-let
+const
 keyValue
 =
 {
@@ -6694,7 +6694,7 @@ kv
 word
 }
 ;
-let
+const
 keyValueList
 =
 {
@@ -6710,7 +6710,7 @@ keyValue
 )
 *
 ;
-let
+const
 regex
 =
 new
@@ -6785,13 +6785,13 @@ for
 array
 for
 (
-let
+const
 p
 of
 separators
 )
 {
-let
+const
 word
 =
 [
@@ -6802,7 +6802,7 @@ p
 ]
 *
 ;
-let
+const
 wordList
 =
 (
@@ -6818,7 +6818,7 @@ p
 word
 }
 ;
-let
+const
 regex
 =
 new
@@ -6964,7 +6964,7 @@ value
 "
 "
 ;
-let
+const
 [
 type
 host
@@ -7161,31 +7161,31 @@ uniqueKey
 =
 null
 ;
-let
+const
 columns
 =
 {
 }
 ;
-let
+const
 editableFields
 =
 [
 ]
 ;
-let
+const
 hiddenFields
 =
 [
 ]
 ;
-let
+const
 privateFields
 =
 [
 ]
 ;
-let
+const
 fields
 =
 await
@@ -7309,7 +7309,7 @@ a
 string
 change
 .
-let
+const
 name
 =
 f
@@ -7503,7 +7503,7 @@ reason
 {
 for
 (
-let
+const
 item
 of
 data
@@ -7861,7 +7861,7 @@ filterItems
 (
 )
 {
-let
+const
 value
 =
 this
@@ -7944,7 +7944,7 @@ itemOffset
 =
 50
 ;
-let
+const
 item
 =
 this
@@ -7953,7 +7953,7 @@ tree
 .
 selectedItem
 ;
-let
+const
 [
 type
 host
@@ -8057,7 +8057,7 @@ onTablePopupShowing
 event
 )
 {
-let
+const
 selectedItem
 =
 this
@@ -8066,7 +8066,7 @@ tree
 .
 selectedItem
 ;
-let
+const
 type
 =
 selectedItem
@@ -8145,7 +8145,7 @@ preventDefault
 return
 ;
 }
-let
+const
 rowId
 =
 this
@@ -8154,7 +8154,7 @@ table
 .
 contextMenuRowId
 ;
-let
+const
 data
 =
 this
@@ -8175,7 +8175,7 @@ this
 actorSupportsRemoveItem
 )
 {
-let
+const
 name
 =
 data
@@ -8187,7 +8187,7 @@ table
 uniqueId
 ]
 ;
-let
+const
 separatorRegex
 =
 new
@@ -8199,7 +8199,7 @@ g
 "
 )
 ;
-let
+const
 label
 =
 addEllipsis
@@ -8372,7 +8372,7 @@ cookies
 "
 )
 {
-let
+const
 host
 =
 addEllipsis
@@ -8437,7 +8437,7 @@ showMenu
 =
 false
 ;
-let
+const
 selectedItem
 =
 this
@@ -8451,7 +8451,7 @@ if
 selectedItem
 )
 {
-let
+const
 type
 =
 selectedItem
@@ -8693,7 +8693,7 @@ of
 the
 tree
 )
-let
+const
 showDelete
 =
 (
@@ -8735,7 +8735,7 @@ if
 showDelete
 )
 {
-let
+const
 itemName
 =
 addEllipsis
@@ -8933,7 +8933,7 @@ onRemoveItem
 (
 )
 {
-let
+const
 [
 host
 .
@@ -8948,7 +8948,7 @@ tree
 .
 selectedItem
 ;
-let
+const
 front
 =
 this
@@ -8957,7 +8957,7 @@ getCurrentFront
 (
 )
 ;
-let
+const
 rowId
 =
 this
@@ -8966,7 +8966,7 @@ table
 .
 contextMenuRowId
 ;
-let
+const
 data
 =
 this
@@ -9089,7 +9089,7 @@ s
 async
 )
 .
-let
+const
 [
 host
 .
@@ -9104,7 +9104,7 @@ tree
 .
 selectedItem
 ;
-let
+const
 front
 =
 this
@@ -9113,7 +9113,7 @@ getCurrentFront
 (
 )
 ;
-let
+const
 name
 =
 path
@@ -9205,7 +9205,7 @@ s
 async
 )
 .
-let
+const
 [
 host
 .
@@ -9220,7 +9220,7 @@ tree
 .
 selectedItem
 ;
-let
+const
 front
 =
 this
@@ -9229,7 +9229,7 @@ getCurrentFront
 (
 )
 ;
-let
+const
 name
 =
 path
@@ -9284,7 +9284,7 @@ onRemoveAllFrom
 (
 )
 {
-let
+const
 [
 host
 ]
@@ -9295,7 +9295,7 @@ tree
 .
 selectedItem
 ;
-let
+const
 front
 =
 this
@@ -9304,7 +9304,7 @@ getCurrentFront
 (
 )
 ;
-let
+const
 rowId
 =
 this
@@ -9313,7 +9313,7 @@ table
 .
 contextMenuRowId
 ;
-let
+const
 data
 =
 this
@@ -9342,7 +9342,7 @@ onRemoveTreeItem
 (
 )
 {
-let
+const
 [
 type
 host
@@ -9426,7 +9426,7 @@ host
 dbName
 )
 {
-let
+const
 front
 =
 this
@@ -9456,7 +9456,7 @@ result
 blocked
 )
 {
-let
+const
 notificationBox
 =
 this
@@ -9509,7 +9509,7 @@ error
 =
 >
 {
-let
+const
 notificationBox
 =
 this
@@ -9562,7 +9562,7 @@ host
 cacheName
 )
 {
-let
+const
 front
 =
 this

@@ -137,7 +137,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -146,7 +146,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 inputNode
 =
 hud
@@ -251,7 +251,7 @@ message
 }
 )
 ;
-let
+const
 msg
 =
 await
@@ -363,7 +363,7 @@ waitForBlurredInput
 hud
 )
 ;
-let
+const
 selection
 =
 hud
@@ -433,7 +433,7 @@ waitForBlurredInput
 hud
 )
 {
-let
+const
 inputNode
 =
 hud
@@ -450,7 +450,7 @@ resolve
 =
 >
 {
-let
+const
 lostFocus
 =
 (

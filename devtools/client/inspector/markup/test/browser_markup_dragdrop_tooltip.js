@@ -103,7 +103,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -114,7 +114,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 markup
 }
@@ -139,7 +139,7 @@ attribute
 "
 )
 ;
-let
+const
 img
 =
 await
@@ -151,7 +151,7 @@ img
 inspector
 )
 ;
-let
+const
 target
 =
 img
@@ -251,7 +251,7 @@ target
 "
 )
 ;
-let
+const
 isValid
 =
 await

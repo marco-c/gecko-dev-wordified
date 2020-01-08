@@ -1928,7 +1928,7 @@ return
 ;
 }
 }
-let
+const
 highlighted
 =
 this

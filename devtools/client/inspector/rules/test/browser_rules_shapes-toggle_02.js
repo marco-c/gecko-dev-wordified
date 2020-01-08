@@ -169,7 +169,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -190,7 +190,7 @@ shape
 inspector
 )
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -209,7 +209,7 @@ path
 .
 valueSpan
 ;
-let
+const
 shapeToggle
 =
 container
@@ -224,7 +224,7 @@ shapeswatch
 "
 )
 ;
-let
+const
 shapeToggleStyle
 =
 getComputedStyle
@@ -232,7 +232,7 @@ getComputedStyle
 shapeToggle
 )
 ;
-let
+const
 overriddenContainer
 =
 getRuleViewProperty
@@ -250,7 +250,7 @@ path
 .
 valueSpan
 ;
-let
+const
 overriddenShapeToggle
 =
 overriddenContainer
@@ -265,7 +265,7 @@ shapeswatch
 "
 )
 ;
-let
+const
 overriddenShapeToggleStyle
 =
 getComputedStyle

@@ -90,7 +90,7 @@ manager
 }
 )
 {
-let
+const
 {
 store
 }
@@ -222,7 +222,7 @@ ui
 expected
 )
 {
-let
+const
 selector
 =
 "
@@ -236,7 +236,7 @@ throttling
 selector
 "
 ;
-let
+const
 select
 =
 ui
@@ -283,7 +283,7 @@ ui
 expected
 )
 {
-let
+const
 state
 =
 await
@@ -344,7 +344,7 @@ ui
 profile
 )
 ;
-let
+const
 data
 =
 throttlingProfiles
@@ -364,7 +364,7 @@ id
 profile
 )
 ;
-let
+const
 {
 download
 upload

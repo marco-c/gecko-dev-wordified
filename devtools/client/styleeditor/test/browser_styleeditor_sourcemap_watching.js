@@ -221,12 +221,12 @@ jsm
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 new
 Promise
 (
@@ -274,10 +274,10 @@ up
 for
 other
 tests
-let
+const
 HTMLFile
 =
-yield
+await
 copy
 (
 TESTCASE_URI_HTML
@@ -290,10 +290,10 @@ html
 ]
 )
 ;
-let
+const
 CSSFile
 =
-yield
+await
 copy
 (
 TESTCASE_URI_CSS
@@ -311,7 +311,7 @@ css
 ]
 )
 ;
-yield
+await
 copy
 (
 TESTCASE_URI_SCSS
@@ -329,7 +329,7 @@ scss
 ]
 )
 ;
-yield
+await
 copy
 (
 TESTCASE_URI_MAP
@@ -349,7 +349,7 @@ map
 ]
 )
 ;
-yield
+await
 copy
 (
 TESTCASE_URI_REG_CSS
@@ -362,7 +362,7 @@ css
 ]
 )
 ;
-let
+const
 uri
 =
 Services
@@ -374,7 +374,7 @@ newFileURI
 HTMLFile
 )
 ;
-let
+const
 testcaseURI
 =
 uri
@@ -385,12 +385,12 @@ resolve
 "
 )
 ;
-let
+const
 {
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 testcaseURI
@@ -441,7 +441,7 @@ editor
 "
 )
 ;
-let
+const
 link
 =
 getLinkFor
@@ -455,7 +455,7 @@ click
 (
 )
 ;
-yield
+await
 editor
 .
 getSourceEditor
@@ -465,7 +465,7 @@ getSourceEditor
 let
 color
 =
-yield
+await
 getComputedStyleProperty
 (
 {
@@ -512,7 +512,7 @@ defer
 (
 )
 ;
-let
+const
 styleApplied
 =
 editor
@@ -526,7 +526,7 @@ applied
 "
 )
 ;
-yield
+await
 pauseForTimeChange
 (
 )
@@ -560,7 +560,7 @@ file
 to
 change
 .
-yield
+await
 editSCSS
 (
 editor
@@ -591,7 +591,7 @@ the
 CSS
 file
 .
-yield
+await
 editCSSFile
 (
 CSSFile
@@ -613,12 +613,12 @@ event
 "
 )
 ;
-yield
+await
 styleApplied
 ;
 color
 =
-yield
+await
 getComputedStyleProperty
 (
 {
@@ -898,7 +898,7 @@ srcChromeURL
 destFilePath
 )
 {
-let
+const
 destFile
 =
 FileUtils
@@ -928,7 +928,7 @@ read
 srcChromeURL
 )
 {
-let
+const
 scriptableStream
 =
 Cc
@@ -951,7 +951,7 @@ Ci
 nsIScriptableInputStream
 )
 ;
-let
+const
 channel
 =
 NetUtil
@@ -968,7 +968,7 @@ true
 }
 )
 ;
-let
+const
 input
 =
 channel
@@ -1049,7 +1049,7 @@ resolve
 =
 >
 {
-let
+const
 converter
 =
 Cc
@@ -1082,7 +1082,7 @@ UTF
 8
 "
 ;
-let
+const
 istream
 =
 converter
@@ -1092,7 +1092,7 @@ convertToInputStream
 data
 )
 ;
-let
+const
 ostream
 =
 FileUtils

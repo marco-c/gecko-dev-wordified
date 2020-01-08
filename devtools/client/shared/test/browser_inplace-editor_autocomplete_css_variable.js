@@ -820,7 +820,7 @@ autocomplete
 "
 )
 ;
-let
+const
 [
 host
 win
@@ -832,7 +832,7 @@ createHost
 (
 )
 ;
-let
+const
 xulDocument
 =
 win
@@ -841,7 +841,7 @@ top
 .
 document
 ;
-let
+const
 popup
 =
 new
@@ -926,7 +926,7 @@ removeCurrentTab
 }
 )
 ;
-let
+const
 runAutocompletionTest
 =
 async
@@ -956,7 +956,7 @@ mockGetCSSValuesForPropertyName
 ;
 for
 (
-let
+const
 data
 of
 testData

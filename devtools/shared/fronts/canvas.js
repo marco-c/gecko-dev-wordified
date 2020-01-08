@@ -312,7 +312,7 @@ _animationFrameEndScreenshot
 )
 ;
 }
-let
+const
 cachedScreenshot
 =
 this
@@ -333,7 +333,7 @@ return
 cachedScreenshot
 ;
 }
-let
+const
 screenshot
 =
 this

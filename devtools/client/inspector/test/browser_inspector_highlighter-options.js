@@ -281,7 +281,7 @@ visible
 ;
 for
 (
-let
+const
 side
 of
 [
@@ -364,7 +364,7 @@ testActor
 {
 for
 (
-let
+const
 region
 of
 [
@@ -383,7 +383,7 @@ content
 ]
 )
 {
-let
+const
 {
 d
 }
@@ -441,7 +441,7 @@ testActor
 {
 for
 (
-let
+const
 side
 of
 [
@@ -460,7 +460,7 @@ left
 ]
 )
 {
-let
+const
 hidden
 =
 await
@@ -526,7 +526,7 @@ function
 testActor
 )
 {
-let
+const
 hidden
 =
 await
@@ -883,7 +883,7 @@ function
 testActor
 )
 {
-let
+const
 topY1
 =
 await
@@ -905,7 +905,7 @@ y1
 "
 )
 ;
-let
+const
 rightX1
 =
 await
@@ -927,7 +927,7 @@ x1
 "
 )
 ;
-let
+const
 bottomY1
 =
 await
@@ -949,7 +949,7 @@ y1
 "
 )
 ;
-let
+const
 leftX1
 =
 await
@@ -1116,7 +1116,7 @@ function
 testActor
 )
 {
-let
+const
 topY1
 =
 await
@@ -1138,7 +1138,7 @@ y1
 "
 )
 ;
-let
+const
 rightX1
 =
 await
@@ -1160,7 +1160,7 @@ x1
 "
 )
 ;
-let
+const
 bottomY1
 =
 await
@@ -1182,7 +1182,7 @@ y1
 "
 )
 ;
-let
+const
 leftX1
 =
 await
@@ -1352,7 +1352,7 @@ testActor
 {
 for
 (
-let
+const
 region
 of
 [
@@ -1371,7 +1371,7 @@ content
 ]
 )
 {
-let
+const
 {
 d
 }
@@ -1406,7 +1406,7 @@ attribute
 "
 )
 ;
-let
+const
 faded
 =
 await
@@ -1516,7 +1516,7 @@ testActor
 {
 for
 (
-let
+const
 region
 of
 [
@@ -1535,7 +1535,7 @@ content
 ]
 )
 {
-let
+const
 {
 d
 }
@@ -1570,7 +1570,7 @@ attribute
 "
 )
 ;
-let
+const
 faded
 =
 await
@@ -1650,7 +1650,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -1679,7 +1679,7 @@ TEST_URL
 )
 )
 ;
-let
+const
 divFront
 =
 await
@@ -1693,7 +1693,7 @@ inspector
 ;
 for
 (
-let
+const
 {
 desc
 options

@@ -196,7 +196,7 @@ pref
 false
 )
 ;
-let
+const
 prefObserver
 =
 (
@@ -243,7 +243,7 @@ observer
 and
 prevent
 leaking
-let
+const
 unloadObserver
 =
 function

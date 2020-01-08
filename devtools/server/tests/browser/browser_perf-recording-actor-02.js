@@ -104,7 +104,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -117,7 +117,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -126,7 +126,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 PerformanceFront
@@ -150,7 +150,7 @@ setProfilerStatusInterval
 10
 )
 ;
-let
+const
 model
 =
 await
@@ -161,7 +161,7 @@ startRecording
 config
 )
 ;
-let
+const
 stats
 =
 await
@@ -316,7 +316,7 @@ lastBufferStatus
 1
 )
 {
-let
+const
 currentBufferStatus
 =
 front

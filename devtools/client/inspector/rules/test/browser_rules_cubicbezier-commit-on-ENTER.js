@@ -132,7 +132,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -153,7 +153,7 @@ element
 "
 )
 ;
-let
+const
 swatch
 =
 getRuleViewProperty
@@ -197,7 +197,7 @@ swatch
 ruleView
 )
 {
-let
+const
 bezierTooltip
 =
 ruleView
@@ -220,7 +220,7 @@ tooltip
 "
 )
 ;
-let
+const
 onBezierWidgetReady
 =
 bezierTooltip
@@ -241,7 +241,7 @@ click
 await
 onBezierWidgetReady
 ;
-let
+const
 widget
 =
 await
@@ -279,7 +279,7 @@ coordinates
 1
 ]
 ;
-let
+const
 expected
 =
 "
@@ -307,7 +307,7 @@ function
 (
 )
 {
-let
+const
 func
 =
 await
@@ -428,7 +428,7 @@ the
 tooltip
 closes
 .
-let
+const
 onRuleViewChanged
 =
 waitForNEvents
@@ -459,7 +459,7 @@ RETURN
 await
 onRuleViewChanged
 ;
-let
+const
 style
 =
 await
@@ -497,7 +497,7 @@ RETURN
 "
 )
 ;
-let
+const
 ruleViewStyle
 =
 getRuleViewProperty

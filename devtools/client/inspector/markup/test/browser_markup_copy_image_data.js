@@ -100,7 +100,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 testActor
@@ -141,7 +141,7 @@ assertCopyImageDataAvailable
 inspector
 )
 ;
-let
+const
 expectedSrc
 =
 await
@@ -179,7 +179,7 @@ assertCopyImageDataAvailable
 inspector
 )
 ;
-let
+const
 expectedURL
 =
 await
@@ -260,7 +260,7 @@ assertCopyImageDataNotAvailable
 inspector
 )
 {
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -268,7 +268,7 @@ openContextMenuAndGetAllItems
 inspector
 )
 ;
-let
+const
 item
 =
 allMenuItems
@@ -330,7 +330,7 @@ assertCopyImageDataAvailable
 inspector
 )
 {
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -338,7 +338,7 @@ openContextMenuAndGetAllItems
 inspector
 )
 ;
-let
+const
 item
 =
 allMenuItems

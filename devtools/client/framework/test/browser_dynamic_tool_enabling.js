@@ -170,7 +170,7 @@ el
 prefs
 )
 {
-let
+const
 expectedValue
 =
 expectedAttributeValueFromPrefs
@@ -230,13 +230,13 @@ test
 {
 for
 (
-let
+const
 k
 in
 gItemsToTest
 )
 {
-let
+const
 el
 =
 document
@@ -280,7 +280,7 @@ prefs
 ;
 for
 (
-let
+const
 pref
 of
 prefs

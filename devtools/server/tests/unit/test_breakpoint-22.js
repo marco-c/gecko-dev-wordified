@@ -202,7 +202,7 @@ getSources
 gThreadClient
 )
 ;
-let
+const
 packet
 =
 await
@@ -212,7 +212,7 @@ evalCode
 gClient
 )
 ;
-let
+const
 source
 =
 gThreadClient
@@ -228,7 +228,7 @@ where
 source
 )
 ;
-let
+const
 location
 =
 {
@@ -241,7 +241,7 @@ line0
 2
 }
 ;
-let
+const
 [
 res
 ]
@@ -261,7 +261,7 @@ res
 error
 )
 ;
-let
+const
 location2
 =
 {

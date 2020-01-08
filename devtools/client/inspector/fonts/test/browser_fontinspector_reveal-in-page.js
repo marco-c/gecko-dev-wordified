@@ -151,7 +151,7 @@ height
 500
 )
 ;
-let
+const
 {
 tab
 view
@@ -170,7 +170,7 @@ view
 .
 document
 ;
-let
+const
 fontEls
 =
 getUsedFontsEls
@@ -255,7 +255,7 @@ text
 runs
 found
 .
-let
+const
 expectedSelectionChangeEvents
 =
 [
@@ -317,7 +317,7 @@ expecting
 a
 selectionchange
 .
-let
+const
 nameEl
 =
 fontEls
@@ -401,7 +401,7 @@ expecting
 a
 selectionchange
 .
-let
+const
 otherEl
 =
 fontEls
@@ -489,7 +489,7 @@ function
 n
 )
 {
-let
+const
 win
 =
 content

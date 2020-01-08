@@ -473,7 +473,7 @@ Fetch
 the
 actor
 constructor
-let
+const
 c
 =
 mod
@@ -915,7 +915,7 @@ Fetch
 the
 actor
 constructor
-let
+const
 C
 =
 this
@@ -931,7 +931,7 @@ a
 new
 actor
 instance
-let
+const
 instance
 =
 new
@@ -1327,7 +1327,7 @@ extensions
 .
 for
 (
-let
+const
 name
 in
 factories
@@ -1578,7 +1578,7 @@ object
 {
 for
 (
-let
+const
 name
 in
 this
@@ -1586,7 +1586,7 @@ this
 _extraActors
 )
 {
-let
+const
 actor
 =
 this
@@ -1702,7 +1702,7 @@ APDestroy
 {
 for
 (
-let
+const
 id
 in
 this
@@ -2119,7 +2119,7 @@ callback
 {
 for
 (
-let
+const
 name
 in
 this
@@ -2327,14 +2327,14 @@ originalUrl
 (
 )
 {
-let
+const
 actor
 =
 this
 .
 originalSourceActor
 ;
-let
+const
 source
 =
 actor

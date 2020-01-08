@@ -193,7 +193,7 @@ getFileName
 (
 )
 {
-let
+const
 date
 =
 new
@@ -201,7 +201,7 @@ Date
 (
 )
 ;
-let
+const
 month
 =
 (
@@ -226,7 +226,7 @@ substr
 2
 )
 ;
-let
+const
 day
 =
 (
@@ -247,7 +247,7 @@ substr
 2
 )
 ;
-let
+const
 dateString
 =
 [
@@ -267,7 +267,7 @@ join
 "
 )
 ;
-let
+const
 timeString
 =
 date
@@ -315,7 +315,7 @@ createScreenshotFor
 node
 )
 {
-let
+const
 mm
 =
 node
@@ -433,7 +433,7 @@ enabled
 )
 )
 {
-let
+const
 cameraAudio
 =
 new
@@ -521,7 +521,7 @@ animationFrame
 (
 )
 ;
-let
+const
 iframe
 =
 document
@@ -533,7 +533,7 @@ iframe
 "
 )
 ;
-let
+const
 data
 =
 await

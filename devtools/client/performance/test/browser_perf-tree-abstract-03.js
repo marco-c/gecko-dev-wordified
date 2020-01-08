@@ -107,12 +107,12 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 MyCustomTreeItem
 myDataSrc
@@ -122,7 +122,7 @@ synthesizeCustomTreeClass
 (
 )
 ;
-let
+const
 container
 =
 document
@@ -134,7 +134,7 @@ vbox
 "
 )
 ;
-yield
+await
 appendAndWaitForPaint
 (
 gBrowser
@@ -156,7 +156,7 @@ RIGHT
 .
 .
 .
-let
+const
 treeRoot
 =
 new
@@ -227,7 +227,7 @@ focused
 "
 )
 ;
-let
+const
 fooItem
 =
 treeRoot
@@ -237,7 +237,7 @@ getChild
 0
 )
 ;
-let
+const
 barItem
 =
 treeRoot
@@ -443,7 +443,7 @@ focused
 "
 )
 ;
-let
+const
 bazItem
 =
 barItem

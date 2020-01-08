@@ -182,7 +182,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -193,7 +193,7 @@ openRuleView
 (
 )
 ;
-let
+const
 highlighters
 =
 view
@@ -522,7 +522,7 @@ shape2
 inspector
 )
 ;
-let
+const
 firstShapesHighlighterShown
 =
 highlighters

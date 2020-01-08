@@ -320,7 +320,7 @@ return
 ]
 ;
 }
-let
+const
 path
 =
 parseFileUri
@@ -537,7 +537,7 @@ just
 the
 UUID
 .
-let
+const
 uuid
 =
 /
@@ -930,7 +930,7 @@ learnMore
 )
 ;
 }
-let
+const
 warnings
 =
 target
@@ -1140,7 +1140,7 @@ debug
 (
 )
 {
-let
+const
 {
 client
 connect
@@ -1200,7 +1200,7 @@ uninstall
 (
 )
 {
-let
+const
 {
 target
 }
@@ -1222,7 +1222,7 @@ reload
 (
 )
 {
-let
+const
 {
 client
 target
@@ -1232,7 +1232,7 @@ this
 .
 props
 ;
-let
+const
 {
 AboutDebugging
 }
@@ -1306,7 +1306,7 @@ render
 (
 )
 {
-let
+const
 {
 target
 debugDisabled

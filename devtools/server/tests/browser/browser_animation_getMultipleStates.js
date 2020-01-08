@@ -78,7 +78,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -284,7 +284,7 @@ selector
 playerIndex
 )
 {
-let
+const
 node
 =
 await
@@ -298,7 +298,7 @@ rootNode
 selector
 )
 ;
-let
+const
 players
 =
 await
@@ -309,7 +309,7 @@ getAnimationPlayersForNode
 node
 )
 ;
-let
+const
 player
 =
 players
@@ -324,7 +324,7 @@ ready
 (
 )
 ;
-let
+const
 state
 =
 await

@@ -927,7 +927,7 @@ timeline
 "
 )
 ;
-let
+const
 scrubberContainer
 =
 createNode
@@ -1649,7 +1649,7 @@ function
 {
 for
 (
-let
+const
 actorID
 in
 this
@@ -1758,7 +1758,7 @@ function
 {
 for
 (
-let
+const
 animation
 of
 this
@@ -1920,7 +1920,7 @@ onAnimationSelected
 animation
 )
 {
-let
+const
 index
 =
 this
@@ -2627,7 +2627,7 @@ offset
 %
 "
 ;
-let
+const
 time
 =
 TimeScale
@@ -2763,7 +2763,7 @@ animations
 .
 for
 (
-let
+const
 animation
 of
 this
@@ -2800,7 +2800,7 @@ true
 }
 for
 (
-let
+const
 actorID
 in
 this
@@ -2891,7 +2891,7 @@ reset
 ;
 for
 (
-let
+const
 {
 state
 }
@@ -2915,7 +2915,7 @@ drawHeaderAndBackground
 ;
 for
 (
-let
+const
 animation
 of
 this
@@ -3584,7 +3584,7 @@ the
 animated
 node
 .
-let
+const
 animatedNodeEl
 =
 createNode
@@ -3615,7 +3615,7 @@ animated
 node
 target
 .
-let
+const
 targetNode
 =
 new
@@ -3663,7 +3663,7 @@ block
 here
 )
 .
-let
+const
 timeBlockEl
 =
 createNode
@@ -3699,7 +3699,7 @@ animation
 time
 block
 .
-let
+const
 timeBlock
 =
 new
@@ -3860,7 +3860,7 @@ function
 time
 )
 {
-let
+const
 isOutOfBounds
 =
 time
@@ -3876,7 +3876,7 @@ TimeScale
 .
 maxEndTime
 ;
-let
+const
 isAllPaused
 =
 !
@@ -3886,7 +3886,7 @@ isAtLeastOneAnimationPlaying
 (
 )
 ;
-let
+const
 hasInfinite
 =
 this
@@ -4058,7 +4058,7 @@ x
 }
 )
 ;
-let
+const
 now
 =
 this
@@ -4210,7 +4210,7 @@ function
 (
 )
 {
-let
+const
 width
 =
 this
@@ -4219,7 +4219,7 @@ timeHeaderEl
 .
 offsetWidth
 ;
-let
+const
 animationDuration
 =
 TimeScale
@@ -4230,7 +4230,7 @@ TimeScale
 .
 minStartTime
 ;
-let
+const
 minTimeInterval
 =
 TIME_GRADUATION_MIN_SPACING
@@ -4239,7 +4239,7 @@ animationDuration
 /
 width
 ;
-let
+const
 intervalLength
 =
 findOptimalTimeInterval
@@ -4247,7 +4247,7 @@ findOptimalTimeInterval
 minTimeInterval
 )
 ;
-let
+const
 intervalWidth
 =
 intervalLength
@@ -4301,7 +4301,7 @@ i
 +
 )
 {
-let
+const
 pos
 =
 100
@@ -4608,7 +4608,7 @@ getTracks
 animation
 )
 {
-let
+const
 tracks
 =
 {
@@ -4788,7 +4788,7 @@ e
 }
 for
 (
-let
+const
 {
 name
 values
@@ -4920,7 +4920,7 @@ e
 }
 for
 (
-let
+const
 frame
 of
 frames
@@ -4928,7 +4928,7 @@ frames
 {
 for
 (
-let
+const
 name
 in
 frame

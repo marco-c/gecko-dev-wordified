@@ -163,7 +163,7 @@ doc
 document
 )
 {
-let
+const
 url
 =
 URL
@@ -173,7 +173,7 @@ createObjectURL
 blob
 )
 ;
-let
+const
 a
 =
 doc

@@ -211,7 +211,7 @@ h1
 }
 )
 ;
-let
+const
 msg
 =
 await
@@ -232,7 +232,7 @@ h1
 )
 )
 ;
-let
+const
 node
 =
 msg
@@ -287,7 +287,7 @@ it
 "
 )
 ;
-let
+const
 onNodeHighlight
 =
 toolbox
@@ -316,7 +316,7 @@ mousemove
 view
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -354,7 +354,7 @@ node
 "
 )
 ;
-let
+const
 onNodeUnhighlight
 =
 toolbox
@@ -368,7 +368,7 @@ unhighlight
 "
 )
 ;
-let
+const
 btn
 =
 toolbox

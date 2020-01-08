@@ -146,13 +146,13 @@ lastSpec
 ;
 for
 (
-let
+const
 type
 of
 Types
 )
 {
-let
+const
 spec
 =
 type
@@ -216,7 +216,7 @@ test_specs
 {
 for
 (
-let
+const
 type
 of
 Types
@@ -224,7 +224,7 @@ Types
 {
 for
 (
-let
+const
 typeName
 of
 type
@@ -267,7 +267,7 @@ test_fronts
 {
 for
 (
-let
+const
 item
 of
 Types
@@ -286,7 +286,7 @@ continue
 }
 for
 (
-let
+const
 typeName
 of
 item
@@ -299,7 +299,7 @@ lazyLoadFront
 typeName
 )
 ;
-let
+const
 type
 =
 getType

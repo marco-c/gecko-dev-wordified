@@ -82,7 +82,7 @@ resolve
 =
 >
 {
-let
+const
 listener
 =
 {
@@ -163,7 +163,7 @@ resolve
 =
 >
 {
-let
+const
 listener
 =
 (
@@ -469,7 +469,7 @@ promiseWebExtensionStartup
 ]
 )
 ;
-let
+const
 addonActor
 =
 await

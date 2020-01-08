@@ -211,7 +211,7 @@ options
 }
 )
 {
-let
+const
 id
 =
 getRandomInt
@@ -247,7 +247,7 @@ url
 n
 )
 ;
-let
+const
 {
 gBrowser
 }
@@ -355,7 +355,7 @@ function
 options
 )
 {
-let
+const
 {
 OpenBrowserWindow
 }
@@ -371,7 +371,7 @@ gDevTools
 chromeWindowType
 )
 ;
-let
+const
 win
 =
 OpenBrowserWindow

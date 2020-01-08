@@ -44,7 +44,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 front
@@ -56,7 +56,7 @@ initBackend
 SIMPLE_NODES_URL
 )
 ;
-let
+const
 [
 _
 nodes
@@ -91,7 +91,7 @@ node
 ]
 )
 ;
-let
+const
 actualTypes
 =
 nodes
@@ -106,7 +106,7 @@ node
 type
 )
 ;
-let
+const
 isSourceResult
 =
 nodes
@@ -132,7 +132,7 @@ i
 =
 >
 {
-let
+const
 shouldBeSource
 =
 type

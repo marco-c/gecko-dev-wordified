@@ -67,12 +67,12 @@ js
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -82,13 +82,13 @@ blank
 "
 )
 ;
-let
+const
 [
 host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -110,7 +110,7 @@ colors
 "
 )
 ;
-let
+const
 canvas
 =
 createTestCanvas
@@ -153,7 +153,7 @@ createTestCanvas
 doc
 )
 {
-let
+const
 canvas
 =
 doc
@@ -194,7 +194,7 @@ testColorUtils
 canvas
 )
 {
-let
+const
 data
 =
 getFixtureColorData
@@ -203,7 +203,7 @@ getFixtureColorData
 ;
 for
 (
-let
+const
 {
 authored
 name
@@ -215,7 +215,7 @@ of
 data
 )
 {
-let
+const
 color
 =
 new
@@ -483,7 +483,7 @@ canvas
 let
 target
 ;
-let
+const
 ctx
 =
 canvas
@@ -495,7 +495,7 @@ getContext
 "
 )
 ;
-let
+const
 clearCanvas
 =
 function
@@ -510,7 +510,7 @@ width
 ;
 }
 ;
-let
+const
 setColor
 =
 function
@@ -536,7 +536,7 @@ fillRect
 ;
 }
 ;
-let
+const
 setTargetColor
 =
 function
@@ -567,7 +567,7 @@ setColor
 rgba
 )
 ;
-let
+const
 [
 r
 g
@@ -606,7 +606,7 @@ a
 ;
 }
 ;
-let
+const
 test
 =
 function
@@ -636,7 +636,7 @@ some
 tolerence
 here
 .
-let
+const
 tolerance
 =
 3
@@ -650,7 +650,7 @@ setColor
 color
 )
 ;
-let
+const
 [
 r
 g
@@ -670,7 +670,7 @@ getImageData
 .
 data
 ;
-let
+const
 rgbFail
 =
 Math
@@ -778,7 +778,7 @@ a
 )
 ;
 }
-let
+const
 alphaFail
 =
 a
@@ -852,7 +852,7 @@ testSetAlpha
 (
 )
 {
-let
+const
 values
 =
 [

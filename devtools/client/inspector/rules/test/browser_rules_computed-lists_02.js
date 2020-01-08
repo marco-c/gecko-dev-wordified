@@ -152,7 +152,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -190,7 +190,7 @@ inspector
 view
 )
 {
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -201,7 +201,7 @@ view
 .
 rule
 ;
-let
+const
 propEditor
 =
 rule
@@ -213,7 +213,7 @@ textProps
 .
 editor
 ;
-let
+const
 expander
 =
 propEditor
@@ -278,7 +278,7 @@ open
 "
 )
 ;
-let
+const
 computed
 =
 propEditor
@@ -287,14 +287,14 @@ prop
 .
 computed
 ;
-let
+const
 computedDom
 =
 propEditor
 .
 computed
 ;
-let
+const
 propNames
 =
 [
@@ -371,7 +371,7 @@ i
 =
 >
 {
-let
+const
 propValue
 =
 i

@@ -258,7 +258,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -282,7 +282,7 @@ highlighter
 "
 )
 ;
-let
+const
 divFront
 =
 await
@@ -306,13 +306,13 @@ divFront
 ;
 for
 (
-let
+const
 id
 of
 ELEMENTS
 )
 {
-let
+const
 foundId
 =
 await

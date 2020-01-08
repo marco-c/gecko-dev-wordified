@@ -161,7 +161,7 @@ event
 packet
 )
 {
-let
+const
 args
 =
 packet
@@ -170,7 +170,7 @@ frame
 .
 arguments
 ;
-let
+const
 objActor1
 =
 args
@@ -191,7 +191,7 @@ function
 response
 )
 {
-let
+const
 frame
 =
 response

@@ -535,7 +535,7 @@ frameB
 =
 >
 {
-let
+const
 dataA
 =
 frameA
@@ -544,7 +544,7 @@ getDisplayedData
 (
 )
 ;
-let
+const
 dataB
 =
 frameB
@@ -553,7 +553,7 @@ getDisplayedData
 (
 )
 ;
-let
+const
 isAllocations
 =
 "
@@ -1460,7 +1460,7 @@ document
 arrowNode
 )
 {
-let
+const
 frameInfo
 =
 this
@@ -1469,7 +1469,7 @@ getDisplayedData
 (
 )
 ;
-let
+const
 cells
 =
 [
@@ -1477,7 +1477,7 @@ cells
 ;
 for
 (
-let
+const
 type
 of
 CELL_TYPES
@@ -1586,7 +1586,7 @@ level
 )
 ;
 }
-let
+const
 targetNode
 =
 document
@@ -1758,7 +1758,7 @@ function
 children
 )
 {
-let
+const
 newLevel
 =
 this
@@ -1769,7 +1769,7 @@ level
 ;
 for
 (
-let
+const
 newFrame
 of
 this
@@ -1883,7 +1883,7 @@ value
 type
 )
 {
-let
+const
 cell
 =
 doc
@@ -1975,7 +1975,7 @@ frameInfo
 frameLevel
 )
 {
-let
+const
 cell
 =
 doc
@@ -2066,7 +2066,7 @@ frameInfo
 isMetaCategory
 )
 {
-let
+const
 icon
 =
 doc
@@ -2141,7 +2141,7 @@ if
 frameName
 )
 {
-let
+const
 nameNode
 =
 doc
@@ -2224,7 +2224,7 @@ for
 leaf
 nodes
 .
-let
+const
 hasDescendants
 =
 Object
@@ -2284,7 +2284,7 @@ selected
 and
 copied
 .
-let
+const
 lastDescription
 =
 cell
@@ -2345,7 +2345,7 @@ the
 cell
 content
 .
-let
+const
 firstDescription
 =
 cell
@@ -2363,7 +2363,7 @@ type
 "
 )
 ;
-let
+const
 levelIndicator
 =
 frameLevel
@@ -2411,7 +2411,7 @@ frameInfo
 fileName
 )
 {
-let
+const
 urlNode
 =
 doc
@@ -2488,7 +2488,7 @@ frameInfo
 line
 )
 {
-let
+const
 lineNode
 =
 doc
@@ -2540,7 +2540,7 @@ frameInfo
 column
 )
 {
-let
+const
 columnNode
 =
 doc
@@ -2592,7 +2592,7 @@ frameInfo
 host
 )
 {
-let
+const
 hostNode
 =
 doc
@@ -2642,7 +2642,7 @@ categoryData
 label
 )
 {
-let
+const
 categoryNode
 =
 doc

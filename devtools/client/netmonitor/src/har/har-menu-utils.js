@@ -330,7 +330,7 @@ actions
 openSplitConsole
 )
 {
-let
+const
 fp
 =
 Cc
@@ -448,7 +448,7 @@ nsIFilePicker
 returnOK
 )
 {
-let
+const
 file
 =
 Cc
@@ -527,7 +527,7 @@ openSplitConsole
 {
 try
 {
-let
+const
 importer
 =
 new
@@ -652,7 +652,7 @@ data
 =
 >
 {
-let
+const
 decoder
 =
 new

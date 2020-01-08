@@ -131,7 +131,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -315,7 +315,7 @@ selector
 isDragging
 )
 {
-let
+const
 container
 =
 await

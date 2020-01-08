@@ -1000,7 +1000,7 @@ getNotificationWithValue
 value
 )
 {
-let
+const
 notification
 =
 this
@@ -1213,7 +1213,7 @@ props
 notification
 )
 {
-let
+const
 onClick
 =
 event
@@ -1227,7 +1227,7 @@ props
 callback
 )
 {
-let
+const
 result
 =
 props

@@ -130,7 +130,7 @@ plural
 rule
 #
 11
-let
+const
 [
 get
 numForms
@@ -178,7 +178,7 @@ in
 some
 dummy
 text
-let
+const
 words
 =
 "
@@ -202,7 +202,7 @@ everything
 else
 "
 ;
-let
+const
 test
 =
 function

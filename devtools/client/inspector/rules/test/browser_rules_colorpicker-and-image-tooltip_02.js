@@ -194,7 +194,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 view
 }
@@ -261,7 +261,7 @@ color
 "
 )
 ;
-let
+const
 picker
 =
 ruleView
@@ -275,7 +275,7 @@ colorPicker
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 picker
@@ -333,14 +333,14 @@ rgb
 }
 )
 ;
-let
+const
 spectrum
 =
 picker
 .
 spectrum
 ;
-let
+const
 onModifications
 =
 waitForNEvents
@@ -354,7 +354,7 @@ changed
 2
 )
 ;
-let
+const
 onHidden
 =
 picker
@@ -399,7 +399,7 @@ tooltip
 "
 )
 ;
-let
+const
 value
 =
 getRuleViewProperty
@@ -415,7 +415,7 @@ background
 .
 valueSpan
 ;
-let
+const
 url
 =
 value
@@ -430,7 +430,7 @@ link
 "
 )
 ;
-let
+const
 previewTooltip
 =
 await

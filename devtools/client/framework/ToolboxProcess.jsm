@@ -409,7 +409,7 @@ onRun
 options
 )
 {
-let
+const
 emitter
 =
 new
@@ -843,7 +843,7 @@ function
 {
 for
 (
-let
+const
 process
 of
 processes
@@ -963,7 +963,7 @@ id
 options
 )
 {
-let
+const
 promises
 =
 [
@@ -971,7 +971,7 @@ promises
 ;
 for
 (
-let
+const
 process
 of
 processes
@@ -1153,7 +1153,7 @@ invisibleToDebugger
 =
 true
 ;
-let
+const
 {
 DebuggerServer
 }
@@ -1300,7 +1300,7 @@ DebuggerServer
 "
 )
 ;
-let
+const
 chromeDebuggingWebSocket
 =
 Services
@@ -1322,7 +1322,7 @@ websocket
 "
 )
 ;
-let
+const
 listener
 =
 this
@@ -1473,7 +1473,7 @@ _migrateProfileDir
 (
 )
 ;
-let
+const
 debuggingProfileDir
 =
 Services
@@ -1617,7 +1617,7 @@ profile
 .
 .
 .
-let
+const
 prefsFile
 =
 debuggingProfileDir
@@ -1814,7 +1814,7 @@ _migrateProfileDir
 (
 )
 {
-let
+const
 oldDebuggingProfileDir
 =
 Services
@@ -1831,7 +1831,7 @@ Ci
 nsIFile
 )
 ;
-let
+const
 newDebuggingProfileDir
 =
 Services
@@ -1985,7 +1985,7 @@ old
 to
 new
 location
-let
+const
 newDebuggingProfileParent
 =
 Services
@@ -2075,7 +2075,7 @@ process
 "
 )
 ;
-let
+const
 command
 =
 Services
@@ -2105,7 +2105,7 @@ process
 "
 )
 ;
-let
+const
 args
 =
 [
@@ -2133,7 +2133,7 @@ chrome
 DBG_XUL
 ]
 ;
-let
+const
 environment
 =
 {
@@ -2381,7 +2381,7 @@ close
 (
 )
 ;
-let
+const
 dumpPipe
 =
 async
@@ -2547,7 +2547,7 @@ what
 connection
 )
 {
-let
+const
 wrappedJSObject
 =
 {
@@ -2913,7 +2913,7 @@ subject
 =
 >
 {
-let
+const
 {
 id
 options

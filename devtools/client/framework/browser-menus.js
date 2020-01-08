@@ -365,7 +365,7 @@ isCheckbox
 }
 )
 {
-let
+const
 menuitem
 =
 doc
@@ -503,14 +503,14 @@ toolDefinition
 doc
 )
 {
-let
+const
 id
 =
 toolDefinition
 .
 id
 ;
-let
+const
 menuId
 =
 "
@@ -542,7 +542,7 @@ menuId
 return
 ;
 }
-let
+const
 oncommand
 =
 function
@@ -551,7 +551,7 @@ id
 event
 )
 {
-let
+const
 window
 =
 event
@@ -585,7 +585,7 @@ null
 id
 )
 ;
-let
+const
 menuitem
 =
 createMenuItem
@@ -771,7 +771,7 @@ toolDefinition
 prevDef
 )
 {
-let
+const
 {
 menuitem
 }
@@ -790,7 +790,7 @@ if
 prevDef
 )
 {
-let
+const
 menuitem
 =
 doc
@@ -919,7 +919,7 @@ toolId
 doc
 )
 {
-let
+const
 key
 =
 doc
@@ -945,7 +945,7 @@ remove
 )
 ;
 }
-let
+const
 menuitem
 =
 doc
@@ -1022,7 +1022,7 @@ addAllToolsToMenu
 doc
 )
 {
-let
+const
 fragKeys
 =
 doc
@@ -1031,7 +1031,7 @@ createDocumentFragment
 (
 )
 ;
-let
+const
 fragMenuItems
 =
 doc
@@ -1042,7 +1042,7 @@ createDocumentFragment
 ;
 for
 (
-let
+const
 toolDefinition
 of
 gDevTools
@@ -1063,7 +1063,7 @@ inMenu
 continue
 ;
 }
-let
+const
 elements
 =
 createToolMenuElements
@@ -1108,7 +1108,7 @@ menuitem
 )
 ;
 }
-let
+const
 mps
 =
 doc
@@ -1176,7 +1176,7 @@ addTopLevelItems
 doc
 )
 {
-let
+const
 menuItems
 =
 doc
@@ -1185,7 +1185,7 @@ createDocumentFragment
 (
 )
 ;
-let
+const
 {
 menuitems
 }
@@ -1202,7 +1202,7 @@ menus
 ;
 for
 (
-let
+const
 item
 of
 menuitems
@@ -1215,7 +1215,7 @@ item
 separator
 )
 {
-let
+const
 separator
 =
 doc
@@ -1245,7 +1245,7 @@ separator
 }
 else
 {
-let
+const
 {
 id
 l10nKey
@@ -1260,7 +1260,7 @@ a
 <
 menuitem
 >
-let
+const
 menuitem
 =
 createMenuItem
@@ -1358,7 +1358,7 @@ remove
 them
 on
 unload
-let
+const
 nodes
 =
 [
@@ -1366,7 +1366,7 @@ nodes
 ;
 for
 (
-let
+const
 node
 of
 menuItems
@@ -1390,7 +1390,7 @@ doc
 nodes
 )
 ;
-let
+const
 menu
 =
 doc
@@ -1443,7 +1443,7 @@ expected
 /
 position
 .
-let
+const
 pageSource
 =
 doc
@@ -1455,7 +1455,7 @@ menu_pageSource
 "
 )
 ;
-let
+const
 endSeparator
 =
 doc
@@ -1515,7 +1515,7 @@ removeTopLevelItems
 doc
 )
 {
-let
+const
 nodes
 =
 FragmentsCache
@@ -1543,7 +1543,7 @@ doc
 ;
 for
 (
-let
+const
 node
 of
 nodes

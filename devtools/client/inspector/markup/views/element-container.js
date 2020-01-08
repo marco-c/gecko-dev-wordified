@@ -434,7 +434,7 @@ _buildEventTooltipContent
 target
 )
 {
-let
+const
 tooltip
 =
 this
@@ -450,7 +450,7 @@ hide
 (
 )
 ;
-let
+const
 listenerInfo
 =
 await
@@ -462,7 +462,7 @@ getEventListenerInfo
 (
 )
 ;
-let
+const
 toolbox
 =
 this
@@ -734,7 +734,7 @@ function
 (
 )
 {
-let
+const
 maxDim
 =
 Services
@@ -746,7 +746,7 @@ getIntPref
 PREVIEW_MAX_DIM_PREF
 )
 ;
-let
+const
 preview
 =
 await
@@ -759,7 +759,7 @@ getImageData
 maxDim
 )
 ;
-let
+const
 data
 =
 await
@@ -977,7 +977,7 @@ tag
 /
 name
 .
-let
+const
 src
 =
 this
@@ -991,7 +991,7 @@ src
 "
 )
 ;
-let
+const
 expectedTarget
 =
 src
@@ -1027,7 +1027,7 @@ false
 }
 try
 {
-let
+const
 {
 data
 size
@@ -1047,7 +1047,7 @@ preview
 is
 ready
 .
-let
+const
 options
 =
 {
@@ -1327,7 +1327,7 @@ function
 attrName
 )
 {
-let
+const
 doMods
 =
 this
@@ -1338,7 +1338,7 @@ _startModifyingAttributes
 (
 )
 ;
-let
+const
 undoMods
 =
 this

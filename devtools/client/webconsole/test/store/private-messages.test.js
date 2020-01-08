@@ -1072,7 +1072,7 @@ request
 )
 )
 ;
-let
+const
 state
 =
 getState
@@ -1201,7 +1201,7 @@ action
 =
 >
 {
-let
+const
 releasedActors
 =
 [

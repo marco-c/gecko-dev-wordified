@@ -86,7 +86,7 @@ use
 strict
 "
 ;
-let
+const
 audioURL
 =
 "
@@ -113,7 +113,7 @@ test
 ogg
 "
 ;
-let
+const
 ctx
 =
 new
@@ -121,7 +121,7 @@ AudioContext
 (
 )
 ;
-let
+const
 bufferNode
 =
 ctx
@@ -130,7 +130,7 @@ createBufferSource
 (
 )
 ;
-let
+const
 shaperNode
 =
 ctx
@@ -147,7 +147,7 @@ generateWaveShapingCurve
 (
 )
 ;
-let
+const
 xhr
 =
 getBuffer
@@ -204,12 +204,12 @@ generateWaveShapingCurve
 (
 )
 {
-let
+const
 frames
 =
 65536
 ;
-let
+const
 curve
 =
 new
@@ -218,12 +218,12 @@ Float32Array
 frames
 )
 ;
-let
+const
 n
 =
 frames
 ;
-let
+const
 n2
 =
 n
@@ -246,7 +246,7 @@ n
 i
 )
 {
-let
+const
 x
 =
 (
@@ -257,7 +257,7 @@ n2
 /
 n2
 ;
-let
+const
 y
 =
 Math
@@ -291,7 +291,7 @@ url
 callback
 )
 {
-let
+const
 xhr
 =
 new

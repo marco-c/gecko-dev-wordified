@@ -404,7 +404,7 @@ axes
 {
 }
 ;
-let
+const
 keywords
 =
 [

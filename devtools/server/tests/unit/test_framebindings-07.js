@@ -168,7 +168,7 @@ event
 packet
 )
 {
-let
+const
 environment
 =
 packet
@@ -189,7 +189,7 @@ function
 "
 )
 ;
-let
+const
 parent
 =
 environment
@@ -208,7 +208,7 @@ block
 "
 )
 ;
-let
+const
 grandpa
 =
 parent
@@ -227,7 +227,7 @@ function
 "
 )
 ;
-let
+const
 envClient
 =
 gThreadClient
@@ -266,7 +266,7 @@ z
 "
 )
 ;
-let
+const
 parentClient
 =
 gThreadClient
@@ -304,7 +304,7 @@ Function
 "
 )
 ;
-let
+const
 grandpaClient
 =
 gThreadClient

@@ -153,7 +153,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -230,7 +230,7 @@ view
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -291,7 +291,7 @@ key
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 once
@@ -335,14 +335,14 @@ view
 1
 )
 ;
-let
+const
 rule
 =
 ruleEditor
 .
 rule
 ;
-let
+const
 textPropEditor
 =
 rule

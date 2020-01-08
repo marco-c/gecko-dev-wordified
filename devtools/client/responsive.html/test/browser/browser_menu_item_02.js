@@ -74,7 +74,7 @@ document
 =
 >
 {
-let
+const
 menu
 =
 document
@@ -121,7 +121,7 @@ openNewBrowserWindow
 (
 )
 ;
-let
+const
 {
 gBrowser
 }
@@ -145,7 +145,7 @@ function
 browser
 )
 {
-let
+const
 tab
 =
 gBrowser

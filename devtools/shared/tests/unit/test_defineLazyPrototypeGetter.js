@@ -103,7 +103,7 @@ with
 expected
 attributes
 .
-let
+const
 descriptor
 =
 Object
@@ -186,7 +186,7 @@ been
 /
 activated
 .
-let
+const
 instance
 =
 new
@@ -252,7 +252,7 @@ getter
 is
 activated
 .
-let
+const
 descriptor
 =
 Object
@@ -312,7 +312,7 @@ test_multiple_instances
 (
 )
 {
-let
+const
 instance1
 =
 new
@@ -320,7 +320,7 @@ Class
 (
 )
 ;
-let
+const
 instance2
 =
 new
@@ -328,14 +328,14 @@ Class
 (
 )
 ;
-let
+const
 foo1
 =
 instance1
 .
 foo
 ;
-let
+const
 foo2
 =
 instance2
@@ -478,7 +478,7 @@ the
 instance
 itself
 .
-let
+const
 instance
 =
 new

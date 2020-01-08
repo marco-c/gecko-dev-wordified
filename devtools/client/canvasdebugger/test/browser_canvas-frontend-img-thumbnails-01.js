@@ -49,7 +49,7 @@ ifTestingSupported
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -61,7 +61,7 @@ initCanvasDebuggerFrontend
 SIMPLE_CANVAS_URL
 )
 ;
-let
+const
 {
 window
 all
@@ -79,7 +79,7 @@ reload
 target
 )
 ;
-let
+const
 recordingFinished
 =
 once
@@ -90,7 +90,7 @@ EVENTS
 SNAPSHOT_RECORDING_FINISHED
 )
 ;
-let
+const
 callListPopulated
 =
 once
@@ -101,7 +101,7 @@ EVENTS
 CALL_LIST_POPULATED
 )
 ;
-let
+const
 thumbnailsDisplayed
 =
 once
@@ -158,7 +158,7 @@ UI
 "
 )
 ;
-let
+const
 firstThumbnail
 =
 (
@@ -262,7 +262,7 @@ vertically
 "
 )
 ;
-let
+const
 secondThumbnail
 =
 (
@@ -366,7 +366,7 @@ vertically
 "
 )
 ;
-let
+const
 thirdThumbnail
 =
 (
@@ -470,7 +470,7 @@ vertically
 "
 )
 ;
-let
+const
 fourthThumbnail
 =
 (

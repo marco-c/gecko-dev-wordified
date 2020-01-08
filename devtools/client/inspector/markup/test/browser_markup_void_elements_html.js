@@ -78,7 +78,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -89,7 +89,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 {
 win
 }
@@ -113,7 +113,7 @@ displayed
 "
 )
 ;
-let
+const
 {
 editor
 }
@@ -306,7 +306,7 @@ element
 "
 )
 ;
-let
+const
 hrNodeFront
 =
 await

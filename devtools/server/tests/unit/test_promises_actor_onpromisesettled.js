@@ -120,7 +120,7 @@ function
 (
 )
 {
-let
+const
 client
 =
 await
@@ -135,7 +135,7 @@ test
 "
 )
 ;
-let
+const
 chromeActors
 =
 await
@@ -226,7 +226,7 @@ v
 )
 )
 ;
-let
+const
 response
 =
 await
@@ -235,7 +235,7 @@ listTabs
 client
 )
 ;
-let
+const
 targetTab
 =
 findTab
@@ -352,7 +352,7 @@ makeResolvePromise
 makeRejectPromise
 )
 {
-let
+const
 front
 =
 PromisesFront
@@ -361,7 +361,7 @@ client
 form
 )
 ;
-let
+const
 resolution
 =
 "
@@ -399,7 +399,7 @@ true
 false
 )
 ;
-let
+const
 resolvedPromise
 =
 makeResolvePromise
@@ -407,7 +407,7 @@ makeResolvePromise
 resolution
 )
 ;
-let
+const
 foundResolvedPromise
 =
 await
@@ -449,7 +449,7 @@ false
 true
 )
 ;
-let
+const
 rejectedPromise
 =
 makeRejectPromise
@@ -457,7 +457,7 @@ makeRejectPromise
 resolution
 )
 ;
-let
+const
 foundRejectedPromise
 =
 await
@@ -525,7 +525,7 @@ promises
 {
 for
 (
-let
+const
 p
 of
 promises

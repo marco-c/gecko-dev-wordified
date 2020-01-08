@@ -491,7 +491,7 @@ test
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -500,14 +500,14 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 browser
 =
 tab
 .
 linkedBrowser
 ;
-let
+const
 completer
 =
 new
@@ -522,7 +522,7 @@ getClientCssProperties
 }
 )
 ;
-let
+const
 checkState
 =
 state
@@ -740,7 +740,7 @@ i
 ;
 for
 (
-let
+const
 testcase
 of
 tests
@@ -770,7 +770,7 @@ len
 ]
 )
 {
-let
+const
 progress
 =
 content
@@ -784,7 +784,7 @@ progress
 "
 )
 ;
-let
+const
 progressDiv
 =
 content
@@ -973,7 +973,7 @@ function
 (
 )
 {
-let
+const
 progress
 =
 content

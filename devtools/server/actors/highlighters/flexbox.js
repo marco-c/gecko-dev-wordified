@@ -384,7 +384,7 @@ this
 onWillNavigate
 )
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -474,7 +474,7 @@ _buildMarkup
 (
 )
 {
-let
+const
 container
 =
 createNode
@@ -499,7 +499,7 @@ container
 }
 )
 ;
-let
+const
 root
 =
 createNode
@@ -661,7 +661,7 @@ destroy
 (
 )
 {
-let
+const
 {
 highlighterEnv
 }
@@ -682,7 +682,7 @@ this
 onWillNavigate
 )
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -780,7 +780,7 @@ right
 bottom
 )
 {
-let
+const
 {
 devicePixelRatio
 }
@@ -997,7 +997,7 @@ the
 flexbox
 gaps
 .
-let
+const
 canvas
 =
 createNode
@@ -1014,7 +1014,7 @@ canvas
 }
 )
 ;
-let
+const
 width
 =
 canvas
@@ -1025,7 +1025,7 @@ FLEXBOX_CONTAINER_PATTERN_WIDTH
 *
 devicePixelRatio
 ;
-let
+const
 height
 =
 canvas
@@ -1036,7 +1036,7 @@ FLEXBOX_CONTAINER_PATTERN_HEIGHT
 *
 devicePixelRatio
 ;
-let
+const
 ctx
 =
 canvas
@@ -1111,7 +1111,7 @@ restore
 (
 )
 ;
-let
+const
 pattern
 =
 ctx
@@ -1269,7 +1269,7 @@ justify
 content
 gaps
 .
-let
+const
 canvas
 =
 createNode
@@ -1286,7 +1286,7 @@ canvas
 }
 )
 ;
-let
+const
 width
 =
 canvas
@@ -1297,7 +1297,7 @@ FLEXBOX_JUSTIFY_CONTENT_PATTERN_WIDTH
 *
 devicePixelRatio
 ;
-let
+const
 height
 =
 canvas
@@ -1308,7 +1308,7 @@ FLEXBOX_JUSTIFY_CONTENT_PATTERN_HEIGHT
 *
 devicePixelRatio
 ;
-let
+const
 ctx
 =
 canvas
@@ -1383,7 +1383,7 @@ restore
 (
 )
 ;
-let
+const
 pattern
 =
 ctx
@@ -1464,7 +1464,7 @@ _hasMoved
 (
 )
 {
-let
+const
 hasMoved
 =
 AutoRefreshHighlighter
@@ -1498,7 +1498,7 @@ currentNode
 )
 ;
 }
-let
+const
 oldFlexData
 =
 this
@@ -1517,7 +1517,7 @@ getAsFlexContainer
 (
 )
 ;
-let
+const
 hasFlexDataChanged
 =
 compareFlexData
@@ -1528,7 +1528,7 @@ this
 flexData
 )
 ;
-let
+const
 oldAlignItems
 =
 this
@@ -1545,14 +1545,14 @@ computedStyle
 .
 alignItems
 ;
-let
+const
 newAlignItems
 =
 this
 .
 alignItemsValue
 ;
-let
+const
 oldFlexBasis
 =
 this
@@ -1569,14 +1569,14 @@ computedStyle
 .
 flexBasis
 ;
-let
+const
 newFlexBasis
 =
 this
 .
 flexBasis
 ;
-let
+const
 oldFlexDirection
 =
 this
@@ -1593,14 +1593,14 @@ computedStyle
 .
 flexDirection
 ;
-let
+const
 newFlexDirection
 =
 this
 .
 flexDirection
 ;
-let
+const
 oldFlexWrap
 =
 this
@@ -1617,14 +1617,14 @@ computedStyle
 .
 flexWrap
 ;
-let
+const
 newFlexWrap
 =
 this
 .
 flexWrap
 ;
-let
+const
 oldJustifyContent
 =
 this
@@ -1641,7 +1641,7 @@ computedStyle
 .
 justifyContent
 ;
-let
+const
 newJustifyContent
 =
 this
@@ -1825,7 +1825,7 @@ _scrollUpdate
 (
 )
 {
-let
+const
 hasUpdated
 =
 updateCanvasPosition
@@ -2048,7 +2048,7 @@ content
 return
 ;
 }
-let
+const
 {
 devicePixelRatio
 }
@@ -2057,7 +2057,7 @@ this
 .
 win
 ;
-let
+const
 lineWidth
 =
 getDisplayPixelRatio
@@ -2067,7 +2067,7 @@ this
 win
 )
 ;
-let
+const
 offset
 =
 (
@@ -2078,7 +2078,7 @@ lineWidth
 %
 1
 ;
-let
+const
 canvasX
 =
 Math
@@ -2094,7 +2094,7 @@ x
 devicePixelRatio
 )
 ;
-let
+const
 canvasY
 =
 Math
@@ -2163,7 +2163,7 @@ strokeStyle
 =
 DEFAULT_COLOR
 ;
-let
+const
 {
 bounds
 }
@@ -2177,7 +2177,7 @@ content
 0
 ]
 ;
-let
+const
 flexLines
 =
 this
@@ -2188,7 +2188,7 @@ getLines
 (
 )
 ;
-let
+const
 isColumn
 =
 this
@@ -2202,7 +2202,7 @@ column
 "
 )
 ;
-let
+const
 options
 =
 {
@@ -2215,13 +2215,13 @@ currentMatrix
 ;
 for
 (
-let
+const
 flexLine
 of
 flexLines
 )
 {
-let
+const
 {
 crossStart
 crossSize
@@ -2247,7 +2247,7 @@ first
 baseline
 "
 :
-let
+const
 {
 firstBaselineOffset
 }
@@ -2668,7 +2668,7 @@ content
 return
 ;
 }
-let
+const
 {
 devicePixelRatio
 }
@@ -2677,7 +2677,7 @@ this
 .
 win
 ;
-let
+const
 lineWidth
 =
 getDisplayPixelRatio
@@ -2689,7 +2689,7 @@ win
 *
 2
 ;
-let
+const
 offset
 =
 (
@@ -2700,7 +2700,7 @@ lineWidth
 %
 1
 ;
-let
+const
 canvasX
 =
 Math
@@ -2716,7 +2716,7 @@ x
 devicePixelRatio
 )
 ;
-let
+const
 canvasY
 =
 Math
@@ -2783,7 +2783,7 @@ strokeStyle
 =
 DEFAULT_COLOR
 ;
-let
+const
 {
 bounds
 }
@@ -2860,7 +2860,7 @@ content
 return
 ;
 }
-let
+const
 {
 devicePixelRatio
 }
@@ -2869,7 +2869,7 @@ this
 .
 win
 ;
-let
+const
 lineWidth
 =
 getDisplayPixelRatio
@@ -2879,7 +2879,7 @@ this
 win
 )
 ;
-let
+const
 offset
 =
 (
@@ -2890,7 +2890,7 @@ lineWidth
 %
 1
 ;
-let
+const
 canvasX
 =
 Math
@@ -2906,7 +2906,7 @@ x
 devicePixelRatio
 )
 ;
-let
+const
 canvasY
 =
 Math
@@ -2986,7 +2986,7 @@ getFlexContainerPattern
 devicePixelRatio
 )
 ;
-let
+const
 {
 bounds
 }
@@ -3050,7 +3050,7 @@ to
 the
 boundary
 .
-let
+const
 p1
 =
 apply
@@ -3064,7 +3064,7 @@ currentMatrix
 ]
 )
 ;
-let
+const
 p2
 =
 apply
@@ -3078,7 +3078,7 @@ currentMatrix
 ]
 )
 ;
-let
+const
 angleRad
 =
 Math
@@ -3311,7 +3311,7 @@ content
 return
 ;
 }
-let
+const
 {
 devicePixelRatio
 }
@@ -3320,7 +3320,7 @@ this
 .
 win
 ;
-let
+const
 lineWidth
 =
 getDisplayPixelRatio
@@ -3330,7 +3330,7 @@ this
 win
 )
 ;
-let
+const
 offset
 =
 (
@@ -3341,7 +3341,7 @@ lineWidth
 %
 1
 ;
-let
+const
 canvasX
 =
 Math
@@ -3357,7 +3357,7 @@ x
 devicePixelRatio
 )
 ;
-let
+const
 canvasY
 =
 Math
@@ -3424,7 +3424,7 @@ strokeStyle
 =
 DEFAULT_COLOR
 ;
-let
+const
 {
 bounds
 }
@@ -3438,7 +3438,7 @@ content
 0
 ]
 ;
-let
+const
 flexLines
 =
 this
@@ -3451,13 +3451,13 @@ getLines
 ;
 for
 (
-let
+const
 flexLine
 of
 flexLines
 )
 {
-let
+const
 flexItems
 =
 flexLine
@@ -3468,20 +3468,20 @@ getItems
 ;
 for
 (
-let
+const
 flexItem
 of
 flexItems
 )
 {
-let
+const
 {
 node
 }
 =
 flexItem
 ;
-let
+const
 quads
 =
 getAdjustedQuads
@@ -3519,7 +3519,7 @@ the
 current
 quads
 .
-let
+const
 {
 bounds
 :
@@ -3531,7 +3531,7 @@ quads
 0
 ]
 ;
-let
+const
 left
 =
 Math
@@ -3547,7 +3547,7 @@ bounds
 left
 )
 ;
-let
+const
 top
 =
 Math
@@ -3563,7 +3563,7 @@ bounds
 top
 )
 ;
-let
+const
 right
 =
 Math
@@ -3579,7 +3579,7 @@ bounds
 left
 )
 ;
-let
+const
 bottom
 =
 Math
@@ -3690,7 +3690,7 @@ content
 return
 ;
 }
-let
+const
 {
 devicePixelRatio
 }
@@ -3699,7 +3699,7 @@ this
 .
 win
 ;
-let
+const
 lineWidth
 =
 getDisplayPixelRatio
@@ -3709,7 +3709,7 @@ this
 win
 )
 ;
-let
+const
 offset
 =
 (
@@ -3720,7 +3720,7 @@ lineWidth
 %
 1
 ;
-let
+const
 canvasX
 =
 Math
@@ -3736,7 +3736,7 @@ x
 devicePixelRatio
 )
 ;
-let
+const
 canvasY
 =
 Math
@@ -3790,7 +3790,7 @@ strokeStyle
 =
 DEFAULT_COLOR
 ;
-let
+const
 {
 bounds
 }
@@ -3804,7 +3804,7 @@ content
 0
 ]
 ;
-let
+const
 flexLines
 =
 this
@@ -3815,7 +3815,7 @@ getLines
 (
 )
 ;
-let
+const
 isColumn
 =
 this
@@ -3829,7 +3829,7 @@ column
 "
 )
 ;
-let
+const
 options
 =
 {
@@ -3842,13 +3842,13 @@ currentMatrix
 ;
 for
 (
-let
+const
 flexLine
 of
 flexLines
 )
 {
-let
+const
 {
 crossStart
 crossSize
@@ -4153,7 +4153,7 @@ content
 return
 ;
 }
-let
+const
 {
 bounds
 }
@@ -4167,7 +4167,7 @@ content
 0
 ]
 ;
-let
+const
 flexLines
 =
 this
@@ -4178,7 +4178,7 @@ getLines
 (
 )
 ;
-let
+const
 isColumn
 =
 this
@@ -4194,13 +4194,13 @@ column
 ;
 for
 (
-let
+const
 flexLine
 of
 flexLines
 )
 {
-let
+const
 {
 crossStart
 crossSize
@@ -4208,7 +4208,7 @@ crossSize
 =
 flexLine
 ;
-let
+const
 flexItems
 =
 flexLine
@@ -4224,20 +4224,20 @@ mainStart
 ;
 for
 (
-let
+const
 flexItem
 of
 flexItems
 )
 {
-let
+const
 {
 node
 }
 =
 flexItem
 ;
-let
+const
 quads
 =
 getAdjustedQuads
@@ -4275,7 +4275,7 @@ the
 current
 quads
 .
-let
+const
 {
 bounds
 :
@@ -4287,7 +4287,7 @@ quads
 0
 ]
 ;
-let
+const
 left
 =
 Math
@@ -4303,7 +4303,7 @@ bounds
 left
 )
 ;
-let
+const
 top
 =
 Math
@@ -4319,7 +4319,7 @@ bounds
 top
 )
 ;
-let
+const
 right
 =
 Math
@@ -4335,7 +4335,7 @@ bounds
 left
 )
 ;
-let
+const
 bottom
 =
 Math
@@ -4456,7 +4456,7 @@ setIgnoreLayoutChanges
 true
 )
 ;
-let
+const
 root
 =
 this
@@ -4594,7 +4594,7 @@ our
 canvas
 '
 rendering
-let
+const
 {
 currentMatrix
 hasNodeTransformations
@@ -4844,7 +4844,7 @@ i
 +
 )
 {
-let
+const
 oldLine
 =
 oldLines
@@ -4852,7 +4852,7 @@ oldLines
 i
 ]
 ;
-let
+const
 newLine
 =
 newLines
@@ -4921,7 +4921,7 @@ return
 true
 ;
 }
-let
+const
 oldItems
 =
 oldLine
@@ -4930,7 +4930,7 @@ getItems
 (
 )
 ;
-let
+const
 newItems
 =
 newLine
@@ -4974,7 +4974,7 @@ j
 +
 )
 {
-let
+const
 oldItem
 =
 oldItems
@@ -4982,7 +4982,7 @@ oldItems
 j
 ]
 ;
-let
+const
 newItem
 =
 newItems

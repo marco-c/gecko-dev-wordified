@@ -165,21 +165,21 @@ runTests
 (
 )
 {
-let
+const
 sp
 =
 gScratchpadWindow
 .
 Scratchpad
 ;
-let
+const
 doc
 =
 gScratchpadWindow
 .
 document
 ;
-let
+const
 winUtils
 =
 gScratchpadWindow
@@ -198,7 +198,7 @@ Ci
 nsIDOMWindowUtils
 )
 ;
-let
+const
 OS
 =
 Services
@@ -267,7 +267,7 @@ menu
 "
 )
 ;
-let
+const
 menubar
 =
 editMenu
@@ -406,7 +406,7 @@ menuitem
 "
 )
 ;
-let
+const
 anchor
 =
 doc
@@ -418,7 +418,7 @@ isContextMenu
 =
 false
 ;
-let
+const
 oldVal
 =
 sp
@@ -429,7 +429,7 @@ getText
 (
 )
 ;
-let
+const
 testSelfXss
 =
 function
@@ -472,7 +472,7 @@ getter
 "
 )
 ;
-let
+const
 notificationbox
 =
 doc
@@ -486,7 +486,7 @@ notificationbox
 "
 )
 ;
-let
+const
 notification
 =
 notificationbox
@@ -565,7 +565,7 @@ firstShow
 ;
 }
 ;
-let
+const
 openMenu
 =
 function
@@ -680,7 +680,7 @@ false
 ;
 }
 ;
-let
+const
 closeMenu
 =
 function
@@ -785,7 +785,7 @@ hidePopup
 ;
 }
 ;
-let
+const
 firstShow
 =
 function
@@ -818,7 +818,7 @@ firstHide
 ;
 }
 ;
-let
+const
 firstHide
 =
 function
@@ -858,7 +858,7 @@ showAfterSelect
 ;
 }
 ;
-let
+const
 showAfterSelect
 =
 function
@@ -893,7 +893,7 @@ hideAfterSelect
 ;
 }
 ;
-let
+const
 hideAfterSelect
 =
 function
@@ -918,7 +918,7 @@ function
 (
 )
 {
-let
+const
 selectedText
 =
 sp
@@ -969,7 +969,7 @@ gScratchpadWindow
 ;
 }
 ;
-let
+const
 onCut
 =
 function
@@ -997,7 +997,7 @@ showAfterCut
 ;
 }
 ;
-let
+const
 showAfterCut
 =
 function
@@ -1053,7 +1053,7 @@ hideAfterCut
 ;
 }
 ;
-let
+const
 hideAfterCut
 =
 function
@@ -1099,7 +1099,7 @@ gScratchpadWindow
 ;
 }
 ;
-let
+const
 onPaste
 =
 function
@@ -1127,7 +1127,7 @@ showAfterPaste
 ;
 }
 ;
-let
+const
 showAfterPaste
 =
 function
@@ -1183,7 +1183,7 @@ hideAfterPaste
 ;
 }
 ;
-let
+const
 hideAfterPaste
 =
 function
@@ -1225,7 +1225,7 @@ finish
 }
 }
 ;
-let
+const
 testContextMenu
 =
 function

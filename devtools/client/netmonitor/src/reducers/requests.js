@@ -269,7 +269,7 @@ case
 ADD_REQUEST
 :
 {
-let
+const
 nextState
 =
 {
@@ -279,7 +279,7 @@ nextState
 state
 }
 ;
-let
+const
 newRequest
 =
 {
@@ -330,7 +330,7 @@ started
 ended
 timestamps
 .
-let
+const
 {
 startedMillis
 }
@@ -445,7 +445,7 @@ case
 UPDATE_REQUEST
 :
 {
-let
+const
 {
 requests
 lastEndedMillis
@@ -493,7 +493,7 @@ data
 )
 }
 ;
-let
+const
 requestEndTime
 =
 request
@@ -626,7 +626,7 @@ case
 CLONE_SELECTED_REQUEST
 :
 {
-let
+const
 {
 requests
 selectedId
@@ -644,7 +644,7 @@ return
 state
 ;
 }
-let
+const
 clonedRequest
 =
 requests
@@ -664,7 +664,7 @@ return
 state
 ;
 }
-let
+const
 newRequest
 =
 {
@@ -877,7 +877,7 @@ case
 OPEN_NETWORK_DETAILS
 :
 {
-let
+const
 nextState
 =
 {
@@ -963,7 +963,7 @@ closeCustomRequest
 state
 )
 {
-let
+const
 {
 requests
 selectedId
@@ -981,7 +981,7 @@ return
 state
 ;
 }
-let
+const
 removedRequest
 =
 requests
@@ -1061,7 +1061,7 @@ key
 value
 )
 {
-let
+const
 newMap
 =
 new
@@ -1104,7 +1104,7 @@ map
 key
 )
 {
-let
+const
 newMap
 =
 new

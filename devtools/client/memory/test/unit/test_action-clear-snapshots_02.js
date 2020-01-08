@@ -45,7 +45,7 @@ state
 READ
 or
 ERROR
-let
+const
 {
 takeSnapshotAndCensus
 clearSnapshots
@@ -67,7 +67,7 @@ snapshot
 "
 )
 ;
-let
+const
 {
 snapshotState
 :
@@ -91,12 +91,12 @@ constants
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 front
 =
 new
@@ -104,7 +104,7 @@ StubbedMemoryFront
 (
 )
 ;
-let
+const
 heapWorker
 =
 new
@@ -112,14 +112,14 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
 (
 )
 ;
-let
+const
 store
 =
 Store
@@ -180,7 +180,7 @@ front
 )
 )
 ;
-yield
+await
 waitUntilSnapshotState
 (
 store
@@ -194,7 +194,7 @@ SAVED
 ]
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -234,7 +234,7 @@ action
 "
 )
 ;
-let
+const
 deleteEvents
 =
 Promise
@@ -267,7 +267,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 deleteEvents
 ;
 ok
@@ -298,7 +298,7 @@ remaining
 "
 )
 ;
-let
+const
 remainingSnapshot
 =
 getState
@@ -354,7 +354,7 @@ destroy
 (
 )
 ;
-yield
+await
 front
 .
 detach

@@ -137,7 +137,7 @@ processCount
 2
 )
 ;
-let
+const
 {
 tab
 document
@@ -151,7 +151,7 @@ workers
 "
 )
 ;
-let
+const
 warningSection
 =
 document
@@ -170,7 +170,7 @@ process
 "
 )
 ;
-let
+const
 img
 =
 warningSection
@@ -194,7 +194,7 @@ rendered
 "
 )
 ;
-let
+const
 serviceWorkersElement
 =
 getServiceWorkerList
@@ -202,7 +202,7 @@ getServiceWorkerList
 document
 )
 ;
-let
+const
 swTab
 =
 await
@@ -242,7 +242,7 @@ appears
 in
 the
 UI
-let
+const
 serviceWorkerContainer
 =
 await
@@ -338,7 +338,7 @@ to
 "
 )
 ;
-let
+const
 onWarningCleared
 =
 waitUntil
@@ -348,7 +348,7 @@ waitUntil
 =
 >
 {
-let
+const
 hasWarning
 =
 document
@@ -424,7 +424,7 @@ to
 "
 )
 ;
-let
+const
 onWarningRestored
 =
 waitUntil
@@ -434,7 +434,7 @@ waitUntil
 =
 >
 {
-let
+const
 hasWarning
 =
 document

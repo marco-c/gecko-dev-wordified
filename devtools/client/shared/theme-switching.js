@@ -148,7 +148,7 @@ utils
 "
 )
 ;
-let
+const
 documentElement
 =
 document
@@ -158,7 +158,7 @@ documentElement
 let
 os
 ;
-let
+const
 platform
 =
 navigator
@@ -270,7 +270,7 @@ true
 return
 ;
 }
-let
+const
 devtoolsStyleSheets
 =
 new
@@ -289,7 +289,7 @@ forceStyle
 (
 )
 {
-let
+const
 computedStyle
 =
 window
@@ -341,7 +341,7 @@ return
 Save
 display
 value
-let
+const
 display
 =
 computedStyle
@@ -464,7 +464,7 @@ gOldTheme
 return
 ;
 }
-let
+const
 oldTheme
 =
 gOldTheme
@@ -473,7 +473,7 @@ gOldTheme
 =
 newTheme
 ;
-let
+const
 oldThemeDef
 =
 gDevTools
@@ -592,7 +592,7 @@ newThemeDef
 ]
 )
 ;
-let
+const
 loadEvents
 =
 [
@@ -600,7 +600,7 @@ loadEvents
 ;
 for
 (
-let
+const
 url
 of
 newThemeDef
@@ -608,7 +608,7 @@ newThemeDef
 stylesheets
 )
 {
-let
+const
 {
 styleSheet
 loadPromise
@@ -826,7 +826,7 @@ oldThemeDef
 {
 for
 (
-let
+const
 name
 of
 oldThemeDef
@@ -846,7 +846,7 @@ name
 }
 for
 (
-let
+const
 sheet
 of
 devtoolsStyleSheets
@@ -899,7 +899,7 @@ theme
 .
 for
 (
-let
+const
 name
 of
 newThemeDef

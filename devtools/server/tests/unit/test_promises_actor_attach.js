@@ -79,7 +79,7 @@ function
 (
 )
 {
-let
+const
 client
 =
 await
@@ -94,7 +94,7 @@ test
 "
 )
 ;
-let
+const
 chromeActors
 =
 await
@@ -131,7 +131,7 @@ client
 chromeActors
 )
 ;
-let
+const
 response
 =
 await
@@ -140,7 +140,7 @@ listTabs
 client
 )
 ;
-let
+const
 targetTab
 =
 findTab
@@ -169,7 +169,7 @@ tab
 "
 )
 ;
-let
+const
 [
 tabResponse
 ]
@@ -205,7 +205,7 @@ client
 parent
 )
 {
-let
+const
 promises
 =
 PromisesFront

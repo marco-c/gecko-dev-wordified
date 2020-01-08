@@ -722,7 +722,7 @@ bind
 this
 )
 ;
-let
+const
 {
 pageListenerTarget
 }
@@ -764,7 +764,7 @@ _buildMarkup
 (
 )
 {
-let
+const
 container
 =
 createNode
@@ -803,7 +803,7 @@ highlighter
 when
 needed
 .
-let
+const
 rootWrapper
 =
 createNode
@@ -841,7 +841,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 mainSvg
 =
 createSVGNode
@@ -932,7 +932,7 @@ the
 element
 quads
 .
-let
+const
 clipSvg
 =
 createSVGNode
@@ -1293,7 +1293,7 @@ a
 solid
 line
 .
-let
+const
 shapeClipSvg
 =
 createSVGNode
@@ -1410,7 +1410,7 @@ ID_CLASS_PREFIX
 }
 )
 ;
-let
+const
 mainGroup
 =
 createSVGNode
@@ -2092,7 +2092,7 @@ referenceBox
 .
 bounds
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -2360,7 +2360,7 @@ referenceBox
 .
 bounds
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -2790,7 +2790,7 @@ setCursor
 cursorType
 )
 {
-let
+const
 container
 =
 this
@@ -2863,7 +2863,7 @@ g
 "
 )
 ;
-let
+const
 pointerEvents
 =
 cursorType
@@ -3314,7 +3314,7 @@ than
 the
 parent
 .
-let
+const
 nodeDocument
 =
 this
@@ -3341,7 +3341,7 @@ ownerDocument
 nodeDocument
 )
 {
-let
+const
 [
 xOffset
 yOffset
@@ -3357,7 +3357,7 @@ this
 currentNode
 )
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -3395,7 +3395,7 @@ to
 the
 page
 .
-let
+const
 viewportLeft
 =
 pageX
@@ -3404,7 +3404,7 @@ event
 .
 clientX
 ;
-let
+const
 viewportTop
 =
 pageY
@@ -3423,7 +3423,7 @@ in
 the
 iframe
 .
-let
+const
 {
 scrollTop
 scrollLeft
@@ -3798,7 +3798,7 @@ pageY
 bottom
 )
 ;
-let
+const
 {
 point
 }
@@ -3945,7 +3945,7 @@ this
 transformMode
 )
 {
-let
+const
 {
 percentX
 percentY
@@ -3959,7 +3959,7 @@ pageX
 pageY
 )
 ;
-let
+const
 index
 =
 this
@@ -4047,7 +4047,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 percentX
 percentY
@@ -4061,7 +4061,7 @@ pageX
 pageY
 )
 ;
-let
+const
 type
 =
 this
@@ -4242,7 +4242,7 @@ pageY
 type
 )
 {
-let
+const
 {
 width
 height
@@ -4252,7 +4252,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 pointsInfo
 =
 this
@@ -4271,7 +4271,7 @@ i
 =
 >
 {
-let
+const
 xComputed
 =
 this
@@ -4288,7 +4288,7 @@ i
 *
 width
 ;
-let
+const
 yComputed
 =
 this
@@ -4305,7 +4305,7 @@ i
 *
 height
 ;
-let
+const
 unitX
 =
 getUnit
@@ -4313,7 +4313,7 @@ getUnit
 x
 )
 ;
-let
+const
 unitY
 =
 getUnit
@@ -4321,7 +4321,7 @@ getUnit
 y
 )
 ;
-let
+const
 valueX
 =
 (
@@ -4338,7 +4338,7 @@ parseFloat
 x
 )
 ;
-let
+const
 valueY
 =
 (
@@ -4355,7 +4355,7 @@ parseFloat
 y
 )
 ;
-let
+const
 ratioX
 =
 this
@@ -4366,7 +4366,7 @@ unitX
 width
 )
 ;
-let
+const
 ratioY
 =
 this
@@ -4496,7 +4496,7 @@ pageY
 type
 )
 {
-let
+const
 {
 width
 height
@@ -4506,7 +4506,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 {
 cx
 cy
@@ -4516,7 +4516,7 @@ this
 .
 origCoordUnits
 ;
-let
+const
 cxComputed
 =
 this
@@ -4529,7 +4529,7 @@ cx
 *
 width
 ;
-let
+const
 cyComputed
 =
 this
@@ -4542,7 +4542,7 @@ cy
 *
 height
 ;
-let
+const
 unitX
 =
 getUnit
@@ -4550,7 +4550,7 @@ getUnit
 cx
 )
 ;
-let
+const
 unitY
 =
 getUnit
@@ -4558,7 +4558,7 @@ getUnit
 cy
 )
 ;
-let
+const
 valueX
 =
 (
@@ -4575,7 +4575,7 @@ parseFloat
 cx
 )
 ;
-let
+const
 valueY
 =
 (
@@ -4592,7 +4592,7 @@ parseFloat
 cy
 )
 ;
-let
+const
 ratioX
 =
 this
@@ -4603,7 +4603,7 @@ unitX
 width
 )
 ;
-let
+const
 ratioY
 =
 this
@@ -4623,7 +4623,7 @@ this
 .
 origCoordinates
 ;
-let
+const
 computedSize
 =
 Math
@@ -4669,7 +4669,7 @@ origCoordUnits
 .
 radius
 ;
-let
+const
 unitRad
 =
 getUnit
@@ -4693,7 +4693,7 @@ parseFloat
 valueRad
 )
 ;
-let
+const
 ratioRad
 =
 this
@@ -4808,7 +4808,7 @@ pageY
 type
 )
 {
-let
+const
 {
 width
 height
@@ -4818,7 +4818,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 {
 cx
 cy
@@ -4828,7 +4828,7 @@ this
 .
 origCoordUnits
 ;
-let
+const
 cxComputed
 =
 this
@@ -4841,7 +4841,7 @@ cx
 *
 width
 ;
-let
+const
 cyComputed
 =
 this
@@ -4854,7 +4854,7 @@ cy
 *
 height
 ;
-let
+const
 unitX
 =
 getUnit
@@ -4862,7 +4862,7 @@ getUnit
 cx
 )
 ;
-let
+const
 unitY
 =
 getUnit
@@ -4870,7 +4870,7 @@ getUnit
 cy
 )
 ;
-let
+const
 valueX
 =
 (
@@ -4887,7 +4887,7 @@ parseFloat
 cx
 )
 ;
-let
+const
 valueY
 =
 (
@@ -4904,7 +4904,7 @@ parseFloat
 cy
 )
 ;
-let
+const
 ratioX
 =
 this
@@ -4915,7 +4915,7 @@ unitX
 width
 )
 ;
-let
+const
 ratioY
 =
 this
@@ -4953,7 +4953,7 @@ origCoordUnits
 .
 rx
 ;
-let
+const
 unitRX
 =
 getUnit
@@ -4977,7 +4977,7 @@ parseFloat
 valueRX
 )
 ;
-let
+const
 ratioRX
 =
 (
@@ -5006,7 +5006,7 @@ origCoordUnits
 .
 ry
 ;
-let
+const
 unitRY
 =
 getUnit
@@ -5030,7 +5030,7 @@ parseFloat
 valueRY
 )
 ;
-let
+const
 ratioRY
 =
 (
@@ -5148,7 +5148,7 @@ pageY
 type
 )
 {
-let
+const
 {
 width
 height
@@ -5158,7 +5158,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 pointsInfo
 =
 {
@@ -5195,7 +5195,7 @@ origCoordUnits
 point
 ]
 ;
-let
+const
 size
 =
 (
@@ -5221,7 +5221,7 @@ width
 :
 height
 ;
-let
+const
 computedValue
 =
 this
@@ -5235,7 +5235,7 @@ point
 *
 size
 ;
-let
+const
 unit
 =
 getUnit
@@ -5259,7 +5259,7 @@ parseFloat
 value
 )
 ;
-let
+const
 ratio
 =
 this
@@ -5365,7 +5365,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 type
 }
@@ -5508,7 +5508,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 x
 y
@@ -5520,14 +5520,14 @@ this
 _dragging
 ]
 ;
-let
+const
 deltaX
 =
 pageX
 -
 x
 ;
-let
+const
 deltaY
 =
 pageY
@@ -5828,7 +5828,7 @@ position
 .
 *
 /
-let
+const
 {
 type
 x
@@ -5841,7 +5841,7 @@ this
 _dragging
 ]
 ;
-let
+const
 {
 width
 height
@@ -5861,7 +5861,7 @@ the
 one
 being
 dragged
-let
+const
 anchor
 =
 getAnchorPoint
@@ -5869,7 +5869,7 @@ getAnchorPoint
 type
 )
 ;
-let
+const
 {
 ne
 nw
@@ -5898,7 +5898,7 @@ transformed
 coordinate
 system
 .
-let
+const
 u
 =
 [
@@ -5934,7 +5934,7 @@ nw
 height
 ]
 ;
-let
+const
 v
 =
 [
@@ -5991,7 +5991,7 @@ transformed
 coordinate
 system
 .
-let
+const
 {
 basis
 invertedBasis
@@ -6018,7 +6018,7 @@ be
 translated
 before
 scaling
-let
+const
 transX
 =
 this
@@ -6038,7 +6038,7 @@ anchor
 *
 width
 ;
-let
+const
 transY
 =
 this
@@ -6068,14 +6068,14 @@ to
 current
 mouse
 position
-let
+const
 distanceX
 =
 pageX
 -
 x
 ;
-let
+const
 distanceY
 =
 pageY
@@ -6093,7 +6093,7 @@ to
 transformed
 coordinate
 system
-let
+const
 tDistanceX
 =
 invertedBasis
@@ -6110,7 +6110,7 @@ invertedBasis
 *
 distanceY
 ;
-let
+const
 tDistanceY
 =
 invertedBasis
@@ -6140,14 +6140,14 @@ width
 height
 of
 shape
-let
+const
 proportionX
 =
 tDistanceX
 /
 uLength
 ;
-let
+const
 proportionY
 =
 tDistanceY
@@ -6179,7 +6179,7 @@ ne
 /
 se
 .
-let
+const
 scaleX
 =
 (
@@ -6226,7 +6226,7 @@ sw
 /
 se
 .
-let
+const
 scaleY
 =
 (
@@ -6262,7 +6262,7 @@ scaling
 on
 two
 axes
-let
+const
 scaleXY
 =
 (
@@ -6273,7 +6273,7 @@ scaleY
 /
 2
 ;
-let
+const
 translateMatrix
 =
 translate
@@ -6417,7 +6417,7 @@ basis
 )
 ;
 }
-let
+const
 translateBackMatrix
 =
 translate
@@ -6579,7 +6579,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 matrix
 }
@@ -6589,7 +6589,7 @@ this
 _dragging
 ]
 ;
-let
+const
 {
 center
 ne
@@ -6604,7 +6604,7 @@ _dragging
 .
 transformedBB
 ;
-let
+const
 {
 width
 height
@@ -6614,7 +6614,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 centerX
 =
 center
@@ -6626,7 +6626,7 @@ center
 *
 width
 ;
-let
+const
 centerY
 =
 center
@@ -6638,7 +6638,7 @@ center
 *
 height
 ;
-let
+const
 {
 x
 :
@@ -6658,21 +6658,21 @@ convertPercentToPageCoords
 center
 )
 ;
-let
+const
 dx
 =
 pageCenterX
 -
 pageX
 ;
-let
+const
 dy
 =
 pageCenterY
 -
 pageY
 ;
-let
+const
 u
 =
 [
@@ -6708,7 +6708,7 @@ nw
 height
 ]
 ;
-let
+const
 v
 =
 [
@@ -6744,7 +6744,7 @@ nw
 height
 ]
 ;
-let
+const
 {
 invertedBasis
 }
@@ -6755,7 +6755,7 @@ u
 v
 )
 ;
-let
+const
 tdx
 =
 invertedBasis
@@ -6772,7 +6772,7 @@ invertedBasis
 *
 dy
 ;
-let
+const
 tdy
 =
 invertedBasis
@@ -6789,7 +6789,7 @@ invertedBasis
 *
 dy
 ;
-let
+const
 angle
 =
 Math
@@ -6800,7 +6800,7 @@ tdx
 tdy
 )
 ;
-let
+const
 translateMatrix
 =
 translate
@@ -6811,7 +6811,7 @@ centerX
 centerY
 )
 ;
-let
+const
 rotateMatrix
 =
 rotate
@@ -6819,7 +6819,7 @@ rotate
 angle
 )
 ;
-let
+const
 translateBackMatrix
 =
 translate
@@ -6873,7 +6873,7 @@ _transformPolygon
 (
 )
 {
-let
+const
 {
 pointsInfo
 }
@@ -6912,7 +6912,7 @@ point
 =
 >
 {
-let
+const
 {
 unitX
 unitY
@@ -6924,7 +6924,7 @@ ratioY
 =
 point
 ;
-let
+const
 vector
 =
 [
@@ -7079,7 +7079,7 @@ transX
 null
 )
 {
-let
+const
 {
 unitX
 unitY
@@ -7233,7 +7233,7 @@ ratioY
 unitY
 )
 ;
-let
+const
 circleDef
 =
 circle
@@ -7358,7 +7358,7 @@ transY
 null
 )
 {
-let
+const
 {
 unitX
 unitY
@@ -7558,7 +7558,7 @@ ratioY
 unitY
 )
 ;
-let
+const
 centerStr
 =
 {
@@ -7574,7 +7574,7 @@ newCy
 unitY
 }
 ;
-let
+const
 ellipseDef
 =
 ellipse
@@ -7644,7 +7644,7 @@ _transformInset
 (
 )
 {
-let
+const
 {
 top
 left
@@ -7659,7 +7659,7 @@ _dragging
 .
 pointsInfo
 ;
-let
+const
 {
 width
 height
@@ -7669,7 +7669,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 topLeft
 =
 [
@@ -7792,7 +7792,7 @@ and
 convert
 back
 .
-let
+const
 bottomRight
 =
 [
@@ -8019,7 +8019,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 width
 height
@@ -8029,7 +8029,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 {
 percentX
 percentY
@@ -8043,7 +8043,7 @@ pageX
 pageY
 )
 ;
-let
+const
 point
 =
 this
@@ -8067,7 +8067,7 @@ point
 return
 ;
 }
-let
+const
 [
 x
 y
@@ -8080,7 +8080,7 @@ coordUnits
 point
 ]
 ;
-let
+const
 xComputed
 =
 this
@@ -8097,7 +8097,7 @@ point
 *
 width
 ;
-let
+const
 yComputed
 =
 this
@@ -8114,7 +8114,7 @@ point
 *
 height
 ;
-let
+const
 unitX
 =
 getUnit
@@ -8122,7 +8122,7 @@ getUnit
 x
 )
 ;
-let
+const
 unitY
 =
 getUnit
@@ -8130,7 +8130,7 @@ getUnit
 y
 )
 ;
-let
+const
 valueX
 =
 (
@@ -8147,7 +8147,7 @@ parseFloat
 x
 )
 ;
-let
+const
 valueY
 =
 (
@@ -8164,7 +8164,7 @@ parseFloat
 y
 )
 ;
-let
+const
 ratioX
 =
 this
@@ -8175,7 +8175,7 @@ unitX
 width
 )
 ;
-let
+const
 ratioY
 =
 this
@@ -8274,7 +8274,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 point
 unitX
@@ -8292,7 +8292,7 @@ this
 _dragging
 ]
 ;
-let
+const
 deltaX
 =
 (
@@ -8303,7 +8303,7 @@ x
 *
 ratioX
 ;
-let
+const
 deltaY
 =
 (
@@ -8314,7 +8314,7 @@ y
 *
 ratioY
 ;
-let
+const
 newX
 =
 round
@@ -8325,7 +8325,7 @@ deltaX
 unitX
 )
 ;
-let
+const
 newY
 =
 round
@@ -8742,7 +8742,7 @@ _deletePolygonPoint
 point
 )
 {
-let
+const
 coordinates
 =
 this
@@ -8917,7 +8917,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 width
 height
@@ -8927,7 +8927,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 {
 percentX
 percentY
@@ -8941,7 +8941,7 @@ pageX
 pageY
 )
 ;
-let
+const
 point
 =
 this
@@ -8981,7 +8981,7 @@ center
 "
 )
 {
-let
+const
 {
 cx
 cy
@@ -8991,7 +8991,7 @@ this
 .
 coordUnits
 ;
-let
+const
 cxComputed
 =
 this
@@ -9004,7 +9004,7 @@ cx
 *
 width
 ;
-let
+const
 cyComputed
 =
 this
@@ -9017,7 +9017,7 @@ cy
 *
 height
 ;
-let
+const
 unitX
 =
 getUnit
@@ -9025,7 +9025,7 @@ getUnit
 cx
 )
 ;
-let
+const
 unitY
 =
 getUnit
@@ -9033,7 +9033,7 @@ getUnit
 cy
 )
 ;
-let
+const
 valueX
 =
 (
@@ -9050,7 +9050,7 @@ parseFloat
 cx
 )
 ;
-let
+const
 valueY
 =
 (
@@ -9067,7 +9067,7 @@ parseFloat
 cy
 )
 ;
-let
+const
 ratioX
 =
 this
@@ -9078,7 +9078,7 @@ unitX
 width
 )
 ;
-let
+const
 ratioY
 =
 this
@@ -9132,7 +9132,7 @@ this
 .
 coordinates
 ;
-let
+const
 computedSize
 =
 Math
@@ -9178,7 +9178,7 @@ coordUnits
 .
 radius
 ;
-let
+const
 unit
 =
 getUnit
@@ -9202,7 +9202,7 @@ parseFloat
 value
 )
 ;
-let
+const
 ratio
 =
 this
@@ -9321,7 +9321,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 radius
 cx
@@ -9343,7 +9343,7 @@ center
 "
 )
 {
-let
+const
 {
 unitX
 unitY
@@ -9360,7 +9360,7 @@ this
 _dragging
 ]
 ;
-let
+const
 deltaX
 =
 (
@@ -9371,7 +9371,7 @@ x
 *
 ratioX
 ;
-let
+const
 deltaY
 =
 (
@@ -9382,7 +9382,7 @@ y
 *
 ratioY
 ;
-let
+const
 newCx
 =
 {
@@ -9398,7 +9398,7 @@ unitX
 unitX
 }
 ;
-let
+const
 newCy
 =
 {
@@ -9434,7 +9434,7 @@ trim
 )
 cleans
 up
-let
+const
 circleDef
 =
 circle
@@ -9496,7 +9496,7 @@ radius
 "
 )
 {
-let
+const
 {
 value
 unit
@@ -9524,7 +9524,7 @@ center
 and
 mouse
 .
-let
+const
 {
 x
 :
@@ -9550,7 +9550,7 @@ coordinates
 cy
 )
 ;
-let
+const
 newRadiusPx
 =
 getDistance
@@ -9561,7 +9561,7 @@ pageX
 pageY
 )
 ;
-let
+const
 delta
 =
 (
@@ -9572,7 +9572,7 @@ origRadius
 *
 ratio
 ;
-let
+const
 newRadius
 =
 {
@@ -9588,7 +9588,7 @@ unit
 unit
 }
 ;
-let
+const
 circleDef
 =
 circle
@@ -9683,7 +9683,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 width
 height
@@ -9693,7 +9693,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 {
 percentX
 percentY
@@ -9707,7 +9707,7 @@ pageX
 pageY
 )
 ;
-let
+const
 point
 =
 this
@@ -9747,7 +9747,7 @@ center
 "
 )
 {
-let
+const
 {
 cx
 cy
@@ -9757,7 +9757,7 @@ this
 .
 coordUnits
 ;
-let
+const
 cxComputed
 =
 this
@@ -9770,7 +9770,7 @@ cx
 *
 width
 ;
-let
+const
 cyComputed
 =
 this
@@ -9783,7 +9783,7 @@ cy
 *
 height
 ;
-let
+const
 unitX
 =
 getUnit
@@ -9791,7 +9791,7 @@ getUnit
 cx
 )
 ;
-let
+const
 unitY
 =
 getUnit
@@ -9799,7 +9799,7 @@ getUnit
 cy
 )
 ;
-let
+const
 valueX
 =
 (
@@ -9816,7 +9816,7 @@ parseFloat
 cx
 )
 ;
-let
+const
 valueY
 =
 (
@@ -9833,7 +9833,7 @@ parseFloat
 cy
 )
 ;
-let
+const
 ratioX
 =
 this
@@ -9844,7 +9844,7 @@ unitX
 width
 )
 ;
-let
+const
 ratioY
 =
 this
@@ -9915,7 +9915,7 @@ coordUnits
 .
 rx
 ;
-let
+const
 unit
 =
 getUnit
@@ -9939,7 +9939,7 @@ parseFloat
 value
 )
 ;
-let
+const
 ratio
 =
 this
@@ -10004,7 +10004,7 @@ coordUnits
 .
 ry
 ;
-let
+const
 unit
 =
 getUnit
@@ -10028,7 +10028,7 @@ parseFloat
 value
 )
 ;
-let
+const
 ratio
 =
 this
@@ -10150,7 +10150,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 percentX
 percentY
@@ -10164,7 +10164,7 @@ pageX
 pageY
 )
 ;
-let
+const
 {
 rx
 ry
@@ -10187,7 +10187,7 @@ center
 "
 )
 {
-let
+const
 {
 unitX
 unitY
@@ -10204,7 +10204,7 @@ this
 _dragging
 ]
 ;
-let
+const
 deltaX
 =
 (
@@ -10215,7 +10215,7 @@ x
 *
 ratioX
 ;
-let
+const
 deltaY
 =
 (
@@ -10226,7 +10226,7 @@ y
 *
 ratioY
 ;
-let
+const
 newCx
 =
 {
@@ -10242,7 +10242,7 @@ unitX
 unitX
 }
 ;
-let
+const
 newCy
 =
 {
@@ -10258,7 +10258,7 @@ unitY
 unitY
 }
 ;
-let
+const
 ellipseDef
 =
 ellipse
@@ -10323,7 +10323,7 @@ rx
 "
 )
 {
-let
+const
 {
 value
 unit
@@ -10336,7 +10336,7 @@ this
 _dragging
 ]
 ;
-let
+const
 newRadiusPercent
 =
 Math
@@ -10352,7 +10352,7 @@ coordinates
 cx
 )
 ;
-let
+const
 {
 width
 }
@@ -10361,7 +10361,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 delta
 =
 (
@@ -10378,7 +10378,7 @@ origRadius
 *
 ratio
 ;
-let
+const
 newRadius
 =
 {
@@ -10394,7 +10394,7 @@ unit
 unit
 }
 ;
-let
+const
 ellipseDef
 =
 ellipse
@@ -10459,7 +10459,7 @@ ry
 "
 )
 {
-let
+const
 {
 value
 unit
@@ -10472,7 +10472,7 @@ this
 _dragging
 ]
 ;
-let
+const
 newRadiusPercent
 =
 Math
@@ -10488,7 +10488,7 @@ coordinates
 cy
 )
 ;
-let
+const
 {
 height
 }
@@ -10497,7 +10497,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 delta
 =
 (
@@ -10514,7 +10514,7 @@ origRadius
 *
 ratio
 ;
-let
+const
 newRadius
 =
 {
@@ -10530,7 +10530,7 @@ unit
 unit
 }
 ;
-let
+const
 ellipseDef
 =
 ellipse
@@ -10628,7 +10628,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 width
 height
@@ -10638,7 +10638,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 {
 percentX
 percentY
@@ -10652,7 +10652,7 @@ pageX
 pageY
 )
 ;
-let
+const
 point
 =
 this
@@ -10691,7 +10691,7 @@ coordUnits
 point
 ]
 ;
-let
+const
 size
 =
 (
@@ -10717,7 +10717,7 @@ width
 :
 height
 ;
-let
+const
 computedValue
 =
 this
@@ -10731,7 +10731,7 @@ point
 *
 size
 ;
-let
+const
 unit
 =
 getUnit
@@ -10755,7 +10755,7 @@ parseFloat
 value
 )
 ;
-let
+const
 ratio
 =
 this
@@ -10766,7 +10766,7 @@ unit
 size
 )
 ;
-let
+const
 origValue
 =
 (
@@ -10922,7 +10922,7 @@ this
 .
 coordUnits
 ;
-let
+const
 {
 value
 origValue
@@ -10946,7 +10946,7 @@ left
 "
 )
 {
-let
+const
 delta
 =
 (
@@ -10985,7 +10985,7 @@ right
 "
 )
 {
-let
+const
 delta
 =
 (
@@ -11024,7 +11024,7 @@ top
 "
 )
 {
-let
+const
 delta
 =
 (
@@ -11063,7 +11063,7 @@ bottom
 "
 )
 {
-let
+const
 delta
 =
 (
@@ -11183,7 +11183,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 percentX
 percentY
@@ -11204,7 +11204,7 @@ this
 transformMode
 )
 {
-let
+const
 point
 =
 this
@@ -11243,7 +11243,7 @@ polygon
 "
 )
 {
-let
+const
 point
 =
 this
@@ -11254,7 +11254,7 @@ percentX
 percentY
 )
 ;
-let
+const
 oldHoveredPoint
 =
 this
@@ -11321,7 +11321,7 @@ circle
 "
 )
 {
-let
+const
 point
 =
 this
@@ -11332,7 +11332,7 @@ percentX
 percentY
 )
 ;
-let
+const
 oldHoveredPoint
 =
 this
@@ -11392,7 +11392,7 @@ ellipse
 "
 )
 {
-let
+const
 point
 =
 this
@@ -11403,7 +11403,7 @@ percentX
 percentY
 )
 ;
-let
+const
 oldHoveredPoint
 =
 this
@@ -11463,7 +11463,7 @@ inset
 "
 )
 {
-let
+const
 point
 =
 this
@@ -11474,7 +11474,7 @@ percentX
 percentY
 )
 ;
-let
+const
 oldHoveredPoint
 =
 this
@@ -11676,7 +11676,7 @@ auto
 return
 ;
 }
-let
+const
 hoverCursor
 =
 (
@@ -11719,7 +11719,7 @@ auto
 return
 ;
 }
-let
+const
 {
 nw
 ne
@@ -11997,7 +11997,7 @@ hoverCursor
 ;
 for
 (
-let
+const
 {
 pointName
 x
@@ -12087,7 +12087,7 @@ scale
 )
 )
 {
-let
+const
 direction
 =
 this
@@ -12202,7 +12202,7 @@ setCursor
 hoverCursor
 )
 ;
-let
+const
 {
 cx
 cy
@@ -12297,7 +12297,7 @@ center
 "
 )
 {
-let
+const
 {
 cx
 cy
@@ -12332,7 +12332,7 @@ rx
 "
 )
 {
-let
+const
 {
 cx
 cy
@@ -12370,7 +12370,7 @@ ry
 "
 )
 {
-let
+const
 {
 cx
 cy
@@ -12418,7 +12418,7 @@ setCursor
 hoverCursor
 )
 ;
-let
+const
 {
 top
 right
@@ -12430,7 +12430,7 @@ this
 .
 coordinates
 ;
-let
+const
 centerX
 =
 (
@@ -12445,7 +12445,7 @@ right
 /
 2
 ;
-let
+const
 centerY
 =
 (
@@ -12460,7 +12460,7 @@ bottom
 /
 2
 ;
-let
+const
 points
 =
 point
@@ -12471,7 +12471,7 @@ split
 "
 )
 ;
-let
+const
 coords
 =
 points
@@ -12581,7 +12581,7 @@ _drawHoverMarker
 points
 )
 {
-let
+const
 {
 width
 height
@@ -12591,7 +12591,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -12601,7 +12601,7 @@ this
 win
 )
 ;
-let
+const
 path
 =
 points
@@ -12637,7 +12637,7 @@ join
 "
 )
 ;
-let
+const
 markerHover
 =
 this
@@ -12845,14 +12845,14 @@ to
 the
 frame
 .
-let
+const
 dims
 =
 this
 .
 frameDimensions
 ;
-let
+const
 {
 top
 left
@@ -12872,7 +12872,7 @@ pageY
 =
 top
 ;
-let
+const
 percentX
 =
 pageX
@@ -12881,7 +12881,7 @@ pageX
 /
 width
 ;
-let
+const
 percentY
 =
 pageY
@@ -12979,14 +12979,14 @@ x
 y
 )
 {
-let
+const
 dims
 =
 this
 .
 frameDimensions
 ;
-let
+const
 {
 top
 left
@@ -13098,7 +13098,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 nw
 ne
@@ -13116,7 +13116,7 @@ this
 .
 transformedBoundingBox
 ;
-let
+const
 {
 width
 height
@@ -13126,7 +13126,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -13136,7 +13136,7 @@ this
 win
 )
 ;
-let
+const
 clickRadiusX
 =
 BASE_MARKER_SIZE
@@ -13147,7 +13147,7 @@ zoom
 /
 width
 ;
-let
+const
 clickRadiusY
 =
 BASE_MARKER_SIZE
@@ -13158,7 +13158,7 @@ zoom
 /
 height
 ;
-let
+const
 points
 =
 [
@@ -13395,7 +13395,7 @@ polygon
 "
 )
 {
-let
+const
 x
 =
 rotatePoint
@@ -13403,7 +13403,7 @@ rotatePoint
 0
 ]
 ;
-let
+const
 y
 =
 rotatePoint
@@ -13454,7 +13454,7 @@ rotate
 }
 for
 (
-let
+const
 {
 pointName
 x
@@ -13602,14 +13602,14 @@ pageX
 pageY
 )
 {
-let
+const
 {
 coordinates
 }
 =
 this
 ;
-let
+const
 {
 width
 height
@@ -13619,7 +13619,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -13629,7 +13629,7 @@ this
 win
 )
 ;
-let
+const
 clickRadiusX
 =
 BASE_MARKER_SIZE
@@ -13640,7 +13640,7 @@ zoom
 /
 width
 ;
-let
+const
 clickRadiusY
 =
 BASE_MARKER_SIZE
@@ -13653,7 +13653,7 @@ height
 ;
 for
 (
-let
+const
 [
 index
 coord
@@ -13666,7 +13666,7 @@ entries
 )
 )
 {
-let
+const
 [
 x
 y
@@ -13788,14 +13788,14 @@ pageX
 pageY
 )
 {
-let
+const
 {
 coordinates
 }
 =
 this
 ;
-let
+const
 {
 width
 }
@@ -13804,7 +13804,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 clickWidth
 =
 LINE_CLICK_WIDTH
@@ -13831,7 +13831,7 @@ i
 +
 )
 {
-let
+const
 [
 x1
 y1
@@ -13842,7 +13842,7 @@ coordinates
 i
 ]
 ;
-let
+const
 [
 x2
 y2
@@ -13904,7 +13904,7 @@ those
 two
 points
 .
-let
+const
 distance
 =
 distanceToLine
@@ -13995,7 +13995,7 @@ the
 clicked
 point
 .
-let
+const
 [
 newX
 newY
@@ -14139,7 +14139,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 cx
 cy
@@ -14151,7 +14151,7 @@ this
 .
 coordinates
 ;
-let
+const
 {
 width
 height
@@ -14161,7 +14161,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -14171,7 +14171,7 @@ this
 win
 )
 ;
-let
+const
 clickRadiusX
 =
 BASE_MARKER_SIZE
@@ -14182,7 +14182,7 @@ zoom
 /
 width
 ;
-let
+const
 clickRadiusY
 =
 BASE_MARKER_SIZE
@@ -14212,7 +14212,7 @@ center
 "
 ;
 }
-let
+const
 clickWidthX
 =
 LINE_CLICK_WIDTH
@@ -14221,7 +14221,7 @@ LINE_CLICK_WIDTH
 /
 width
 ;
-let
+const
 clickWidthY
 =
 LINE_CLICK_WIDTH
@@ -14379,7 +14379,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 cx
 cy
@@ -14391,7 +14391,7 @@ this
 .
 coordinates
 ;
-let
+const
 {
 width
 height
@@ -14401,7 +14401,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -14411,7 +14411,7 @@ this
 win
 )
 ;
-let
+const
 clickRadiusX
 =
 BASE_MARKER_SIZE
@@ -14422,7 +14422,7 @@ zoom
 /
 width
 ;
-let
+const
 clickRadiusY
 =
 BASE_MARKER_SIZE
@@ -14593,7 +14593,7 @@ pageX
 pageY
 )
 {
-let
+const
 {
 top
 left
@@ -14605,7 +14605,7 @@ this
 .
 coordinates
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -14615,7 +14615,7 @@ this
 win
 )
 ;
-let
+const
 {
 width
 height
@@ -14625,7 +14625,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 clickWidthX
 =
 LINE_CLICK_WIDTH
@@ -14634,7 +14634,7 @@ LINE_CLICK_WIDTH
 /
 width
 ;
-let
+const
 clickWidthY
 =
 LINE_CLICK_WIDTH
@@ -14643,7 +14643,7 @@ LINE_CLICK_WIDTH
 /
 height
 ;
-let
+const
 clickRadiusX
 =
 BASE_MARKER_SIZE
@@ -14654,7 +14654,7 @@ zoom
 /
 width
 ;
-let
+const
 clickRadiusY
 =
 BASE_MARKER_SIZE
@@ -14665,7 +14665,7 @@ zoom
 /
 height
 ;
-let
+const
 centerX
 =
 (
@@ -14680,7 +14680,7 @@ right
 /
 2
 ;
-let
+const
 centerY
 =
 (
@@ -15170,7 +15170,7 @@ margin
 ;
 for
 (
-let
+const
 geometry
 of
 geometryTypes
@@ -15239,7 +15239,7 @@ trim
 ;
 for
 (
-let
+const
 {
 name
 prefix
@@ -15407,7 +15407,7 @@ this
 coordUnits
 ;
 }
-let
+const
 splitDef
 =
 definition
@@ -15479,7 +15479,7 @@ Number
 .
 MIN_SAFE_INTEGER
 ;
-let
+const
 coordinates
 =
 splitDef
@@ -15490,7 +15490,7 @@ coords
 =
 >
 {
-let
+const
 [
 x
 y
@@ -15701,7 +15701,7 @@ lastIndexOf
 )
 )
 ;
-let
+const
 splitDef
 =
 definition
@@ -15978,7 +15978,7 @@ keyword
 at
 "
 .
-let
+const
 values
 =
 definition
@@ -15998,7 +15998,7 @@ values
 0
 ]
 ;
-let
+const
 {
 width
 height
@@ -16008,7 +16008,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 center
 =
 splitCoords
@@ -16070,7 +16070,7 @@ sqrt
 2
 )
 .
-let
+const
 computedSize
 =
 Math
@@ -16275,28 +16275,28 @@ the
 above
 equation
 .
-let
+const
 ratioX
 =
 width
 /
 computedSize
 ;
-let
+const
 ratioY
 =
 height
 /
 computedSize
 ;
-let
+const
 radiusX
 =
 radius
 /
 ratioX
 ;
-let
+const
 radiusY
 =
 radius
@@ -16488,7 +16488,7 @@ lastIndexOf
 )
 )
 ;
-let
+const
 values
 =
 definition
@@ -16500,7 +16500,7 @@ at
 "
 )
 ;
-let
+const
 [
 cx
 =
@@ -16568,7 +16568,7 @@ g
 [
 ]
 ;
-let
+const
 radius
 =
 (
@@ -16734,7 +16734,7 @@ this
 coordUnits
 ;
 }
-let
+const
 values
 =
 definition
@@ -16746,7 +16746,7 @@ at
 "
 )
 ;
-let
+const
 center
 =
 splitCoords
@@ -16769,7 +16769,7 @@ this
 )
 )
 ;
-let
+const
 radii
 =
 splitCoords
@@ -17149,7 +17149,7 @@ lastIndexOf
 )
 )
 ;
-let
+const
 values
 =
 definition
@@ -17161,7 +17161,7 @@ at
 "
 )
 ;
-let
+const
 [
 rx
 =
@@ -17235,7 +17235,7 @@ g
 [
 ]
 ;
-let
+const
 [
 cx
 =
@@ -17427,7 +17427,7 @@ this
 coordUnits
 ;
 }
-let
+const
 values
 =
 definition
@@ -17439,7 +17439,7 @@ round
 "
 )
 ;
-let
+const
 offsets
 =
 splitCoords
@@ -17804,7 +17804,7 @@ lastIndexOf
 )
 )
 ;
-let
+const
 values
 =
 definition
@@ -17825,7 +17825,7 @@ values
 1
 ]
 ;
-let
+const
 offsets
 =
 splitCoords
@@ -18030,7 +18030,7 @@ coord
 i
 )
 {
-let
+const
 {
 width
 height
@@ -18040,7 +18040,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 size
 =
 i
@@ -18111,7 +18111,7 @@ destroy
 (
 )
 {
-let
+const
 {
 pageListenerTarget
 }
@@ -18545,7 +18545,7 @@ identity
 ;
 }
 }
-let
+const
 oldShapeCoordinates
 =
 JSON
@@ -18582,7 +18582,7 @@ css
 )
 )
 {
-let
+const
 property
 =
 shapeModeToCssPropertyName
@@ -18651,7 +18651,7 @@ toLowerCase
 }
 )
 ;
-let
+const
 style
 =
 getComputedStyle
@@ -18697,7 +18697,7 @@ none
 }
 else
 {
-let
+const
 {
 coordinates
 shapeType
@@ -18739,7 +18739,7 @@ shapeType
 ;
 }
 }
-let
+const
 newShapeCoordinates
 =
 JSON
@@ -19133,7 +19133,7 @@ transform
 "
 )
 ;
-let
+const
 root
 =
 this
@@ -19155,7 +19155,7 @@ hidden
 true
 )
 ;
-let
+const
 {
 top
 left
@@ -19167,7 +19167,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -19299,7 +19299,7 @@ a
 dashed
 line
 .
-let
+const
 quadRect
 =
 this
@@ -19413,7 +19413,7 @@ path
 "
 )
 ;
-let
+const
 {
 width
 :
@@ -19655,7 +19655,7 @@ circle
 "
 )
 {
-let
+const
 {
 rx
 cx
@@ -19743,7 +19743,7 @@ ellipse
 "
 )
 {
-let
+const
 {
 rx
 ry
@@ -19819,7 +19819,7 @@ inset
 "
 )
 {
-let
+const
 {
 top
 left
@@ -19831,7 +19831,7 @@ this
 .
 coordinates
 ;
-let
+const
 centerX
 =
 (
@@ -19846,7 +19846,7 @@ right
 /
 2
 ;
-let
+const
 centerY
 =
 (
@@ -19861,7 +19861,7 @@ bottom
 /
 2
 ;
-let
+const
 markerCoords
 =
 [
@@ -19982,7 +19982,7 @@ height
 zoom
 )
 {
-let
+const
 {
 nw
 ne
@@ -20000,7 +20000,7 @@ this
 .
 transformedBoundingBox
 ;
-let
+const
 boundingBox
 =
 this
@@ -20014,7 +20014,7 @@ box
 "
 )
 ;
-let
+const
 path
 =
 M
@@ -20078,7 +20078,7 @@ hidden
 "
 )
 ;
-let
+const
 markerPoints
 =
 [
@@ -20153,7 +20153,7 @@ push
 rotatePoint
 )
 ;
-let
+const
 rotateLine
 =
 M
@@ -20356,7 +20356,7 @@ show
 the
 polygon
 .
-let
+const
 points
 =
 this
@@ -20383,7 +20383,7 @@ join
 "
 )
 ;
-let
+const
 polygonEl
 =
 this
@@ -20414,7 +20414,7 @@ hidden
 "
 )
 ;
-let
+const
 clipPolygon
 =
 this
@@ -20447,7 +20447,7 @@ hidden
 "
 )
 ;
-let
+const
 dashedPolygon
 =
 this
@@ -20542,7 +20542,7 @@ height
 zoom
 )
 {
-let
+const
 {
 rx
 ry
@@ -20554,7 +20554,7 @@ this
 .
 coordinates
 ;
-let
+const
 ellipseEl
 =
 this
@@ -20615,7 +20615,7 @@ hidden
 "
 )
 ;
-let
+const
 clipEllipse
 =
 this
@@ -20678,7 +20678,7 @@ hidden
 "
 )
 ;
-let
+const
 dashedEllipse
 =
 this
@@ -20801,7 +20801,7 @@ height
 zoom
 )
 {
-let
+const
 {
 top
 left
@@ -20813,7 +20813,7 @@ this
 .
 coordinates
 ;
-let
+const
 rectEl
 =
 this
@@ -20882,7 +20882,7 @@ hidden
 "
 )
 ;
-let
+const
 clipRect
 =
 this
@@ -20953,7 +20953,7 @@ hidden
 "
 )
 ;
-let
+const
 dashedRect
 =
 this
@@ -21112,7 +21112,7 @@ height
 zoom
 )
 {
-let
+const
 markers
 =
 coords
@@ -21148,7 +21148,7 @@ join
 "
 )
 ;
-let
+const
 outline
 =
 coords
@@ -21298,7 +21298,7 @@ calculateTransformedBoundingBox
 (
 )
 {
-let
+const
 {
 minX
 minY
@@ -21310,7 +21310,7 @@ this
 .
 origBoundingBox
 ;
-let
+const
 {
 width
 height
@@ -21320,7 +21320,7 @@ this
 .
 currentDimensions
 ;
-let
+const
 toPixel
 =
 scale
@@ -21333,7 +21333,7 @@ height
 100
 )
 ;
-let
+const
 toPercent
 =
 scale
@@ -21346,7 +21346,7 @@ width
 height
 )
 ;
-let
+const
 matrix
 =
 multiply
@@ -21361,7 +21361,7 @@ toPixel
 )
 )
 ;
-let
+const
 centerX
 =
 (
@@ -21372,7 +21372,7 @@ maxX
 /
 2
 ;
-let
+const
 centerY
 =
 (
@@ -21383,7 +21383,7 @@ maxY
 /
 2
 ;
-let
+const
 nw
 =
 apply
@@ -21395,7 +21395,7 @@ minY
 ]
 )
 ;
-let
+const
 ne
 =
 apply
@@ -21407,7 +21407,7 @@ minY
 ]
 )
 ;
-let
+const
 sw
 =
 apply
@@ -21419,7 +21419,7 @@ maxY
 ]
 )
 ;
-let
+const
 se
 =
 apply
@@ -21431,7 +21431,7 @@ maxY
 ]
 )
 ;
-let
+const
 n
 =
 apply
@@ -21443,7 +21443,7 @@ minY
 ]
 )
 ;
-let
+const
 s
 =
 apply
@@ -21455,7 +21455,7 @@ maxY
 ]
 )
 ;
-let
+const
 w
 =
 apply
@@ -21467,7 +21467,7 @@ centerY
 ]
 )
 ;
-let
+const
 e
 =
 apply
@@ -21479,7 +21479,7 @@ centerY
 ]
 )
 ;
-let
+const
 center
 =
 apply
@@ -21491,7 +21491,7 @@ centerY
 ]
 )
 ;
-let
+const
 u
 =
 [
@@ -21527,7 +21527,7 @@ nw
 height
 ]
 ;
-let
+const
 v
 =
 [
@@ -21563,7 +21563,7 @@ nw
 height
 ]
 ;
-let
+const
 {
 basis
 invertedBasis
@@ -21608,7 +21608,7 @@ toPixel
 )
 )
 ;
-let
+const
 rotatePoint
 =
 apply
@@ -21894,7 +21894,7 @@ pointName
 anchor
 )
 {
-let
+const
 scalePoint
 =
 pointName
@@ -21909,7 +21909,7 @@ split
 1
 ]
 ;
-let
+const
 anchorPos
 =
 this
@@ -21919,7 +21919,7 @@ transformedBoundingBox
 anchor
 ]
 ;
-let
+const
 scalePos
 =
 this
@@ -21929,7 +21929,7 @@ transformedBoundingBox
 scalePoint
 ]
 ;
-let
+const
 {
 minX
 minY
@@ -21941,21 +21941,21 @@ this
 .
 boundingBox
 ;
-let
+const
 width
 =
 maxX
 -
 minX
 ;
-let
+const
 height
 =
 maxY
 -
 minY
 ;
-let
+const
 dx
 =
 (
@@ -21972,7 +21972,7 @@ anchorPos
 /
 width
 ;
-let
+const
 dy
 =
 (
@@ -22474,7 +22474,7 @@ return
 prop
 ;
 }
-let
+const
 cssRules
 =
 getCSSStyleRules
@@ -22500,7 +22500,7 @@ i
 +
 )
 {
-let
+const
 rule
 =
 cssRules
@@ -22508,7 +22508,7 @@ cssRules
 i
 ]
 ;
-let
+const
 value
 =
 rule
@@ -22547,7 +22547,7 @@ node
 style
 )
 {
-let
+const
 value
 =
 node
@@ -22899,7 +22899,7 @@ a
 %
 value
 .
-let
+const
 px
 =
 parseFloat
@@ -23054,7 +23054,7 @@ leaving
 only
 addition
 .
-let
+const
 values
 =
 expression
@@ -23153,7 +23153,7 @@ mode
 =
 >
 {
-let
+const
 property
 =
 mode
@@ -23435,7 +23435,7 @@ of
 the
 element
 .
-let
+const
 radius
 =
 size
@@ -23454,14 +23454,14 @@ height
 /
 zoom
 ;
-let
+const
 ratio
 =
 width
 /
 height
 ;
-let
+const
 rx
 =
 (
@@ -23476,7 +23476,7 @@ radius
 /
 ratio
 ;
-let
+const
 ry
 =
 (
@@ -23749,7 +23749,7 @@ stroke
 linecap
 "
 .
-let
+const
 strokeWidth
 =
 parseFloat
@@ -23769,7 +23769,7 @@ strokeWidth
 /
 2
 ;
-let
+const
 tagName
 =
 node
@@ -23830,7 +23830,7 @@ miter
 "
 )
 {
-let
+const
 miter
 =
 getComputedStyle
@@ -23991,7 +23991,7 @@ px
 "
 ;
 }
-let
+const
 [
 unit
 ]

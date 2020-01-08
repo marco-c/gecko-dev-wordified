@@ -60,7 +60,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -72,14 +72,14 @@ initWebAudioEditor
 BUG_1141261_URL
 )
 ;
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -87,7 +87,7 @@ EVENTS
 =
 panelWin
 ;
-let
+const
 events
 =
 Promise

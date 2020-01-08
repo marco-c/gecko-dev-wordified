@@ -164,8 +164,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -245,7 +245,7 @@ canvases
 "
 )
 ;
-let
+const
 canvases
 =
 new
@@ -445,7 +445,7 @@ timesResizeCalled
 }
 )
 ;
-let
+const
 main
 =
 canvases
@@ -454,7 +454,7 @@ main
 .
 canvas
 ;
-let
+const
 zoom
 =
 canvases
@@ -463,7 +463,7 @@ zoom
 .
 canvas
 ;
-let
+const
 ratio
 =
 window

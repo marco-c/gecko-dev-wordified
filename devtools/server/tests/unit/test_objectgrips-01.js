@@ -189,7 +189,7 @@ event
 packet
 )
 {
-let
+const
 args
 =
 packet
@@ -213,7 +213,7 @@ Object
 "
 )
 ;
-let
+const
 objClient
 =
 gThreadClient

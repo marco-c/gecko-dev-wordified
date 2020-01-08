@@ -315,7 +315,7 @@ render
 (
 )
 {
-let
+const
 data
 =
 this

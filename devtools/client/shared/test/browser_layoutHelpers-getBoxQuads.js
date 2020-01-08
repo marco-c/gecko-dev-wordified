@@ -72,7 +72,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -139,7 +139,7 @@ it
 needs
 to
 .
-let
+const
 mm
 =
 tab
@@ -281,7 +281,7 @@ sendCommand
 cmd
 )
 {
-let
+const
 onDone
 =
 new
@@ -469,7 +469,7 @@ points
 "
 )
 ;
-let
+const
 node
 =
 doc
@@ -481,7 +481,7 @@ body
 "
 )
 ;
-let
+const
 [
 res
 ]
@@ -589,7 +589,7 @@ property
 ;
 for
 (
-let
+const
 boundProp
 of
 [
@@ -644,7 +644,7 @@ property
 }
 for
 (
-let
+const
 point
 of
 [
@@ -665,7 +665,7 @@ p4
 {
 for
 (
-let
+const
 pointProp
 of
 [
@@ -730,7 +730,7 @@ nodes
 ;
 for
 (
-let
+const
 input
 of
 [
@@ -794,7 +794,7 @@ rendered
 "
 )
 ;
-let
+const
 style
 =
 doc
@@ -832,7 +832,7 @@ node
 "
 )
 ;
-let
+const
 hidden
 =
 doc
@@ -895,7 +895,7 @@ one
 "
 )
 ;
-let
+const
 node
 =
 doc
@@ -918,7 +918,7 @@ border
 "
 )
 ;
-let
+const
 [
 withBoxType
 ]
@@ -934,7 +934,7 @@ border
 "
 )
 ;
-let
+const
 [
 withoutBoxType
 ]
@@ -949,7 +949,7 @@ node
 ;
 for
 (
-let
+const
 boundProp
 of
 [
@@ -1013,7 +1013,7 @@ type
 }
 for
 (
-let
+const
 point
 of
 [
@@ -1034,7 +1034,7 @@ p4
 {
 for
 (
-let
+const
 pointProp
 of
 [
@@ -1132,7 +1132,7 @@ getBoxQuads
 "
 )
 ;
-let
+const
 node
 =
 doc
@@ -1157,7 +1157,7 @@ border
 ;
 for
 (
-let
+const
 region
 of
 [
@@ -1176,7 +1176,7 @@ margin
 ]
 )
 {
-let
+const
 expected
 =
 node
@@ -1193,7 +1193,7 @@ region
 0
 ]
 ;
-let
+const
 [
 actual
 ]
@@ -1209,7 +1209,7 @@ region
 ;
 for
 (
-let
+const
 boundProp
 of
 [
@@ -1279,7 +1279,7 @@ box
 }
 for
 (
-let
+const
 point
 of
 [
@@ -1300,7 +1300,7 @@ p4
 {
 for
 (
-let
+const
 pointProp
 of
 [
@@ -1398,7 +1398,7 @@ account
 "
 )
 ;
-let
+const
 rootIframe
 =
 doc
@@ -1410,7 +1410,7 @@ iframe
 "
 )
 ;
-let
+const
 subIframe
 =
 rootIframe
@@ -1424,7 +1424,7 @@ iframe
 "
 )
 ;
-let
+const
 innerNode
 =
 subIframe
@@ -1441,7 +1441,7 @@ node
 "
 )
 ;
-let
+const
 [
 quad
 ]
@@ -1473,7 +1473,7 @@ border
 +
 node
 padding
-let
+const
 p1x
 =
 10
@@ -1518,7 +1518,7 @@ the
 inner
 node
 width
-let
+const
 p2x
 =
 p1x
@@ -1613,7 +1613,7 @@ down
 "
 )
 ;
-let
+const
 scrolledNode
 =
 doc
@@ -1634,7 +1634,7 @@ scrollTop
 =
 100
 ;
-let
+const
 subScrolledNode
 =
 doc
@@ -1657,7 +1657,7 @@ scrollTop
 =
 200
 ;
-let
+const
 innerNode
 =
 doc
@@ -1895,7 +1895,7 @@ produces
 a
 smaller
 quad
-let
+const
 node
 =
 doc
@@ -1918,7 +1918,7 @@ border
 "
 )
 ;
-let
+const
 [
 defaultQuad
 ]
@@ -1949,7 +1949,7 @@ enlarge
 "
 )
 ;
-let
+const
 [
 zoomedInQuad
 ]
@@ -2044,7 +2044,7 @@ reduce
 "
 )
 ;
-let
+const
 [
 zoomedOutQuad
 ]
@@ -2150,7 +2150,7 @@ breaks
 "
 )
 ;
-let
+const
 node
 =
 doc
@@ -2163,7 +2163,7 @@ inline
 "
 )
 ;
-let
+const
 quads
 =
 getAdjustedQuads

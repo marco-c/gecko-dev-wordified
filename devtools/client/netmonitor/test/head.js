@@ -1530,7 +1530,7 @@ target
 disabled
 )
 {
-let
+const
 options
 =
 {
@@ -1542,7 +1542,7 @@ performReload
 true
 }
 ;
-let
+const
 navigationFinished
 =
 waitForNavigation
@@ -1628,7 +1628,7 @@ resolve
 =
 >
 {
-let
+const
 markers
 =
 [
@@ -1918,21 +1918,21 @@ waitForAllRequestsFinished
 monitor
 )
 {
-let
+const
 window
 =
 monitor
 .
 panelWin
 ;
-let
+const
 {
 connector
 }
 =
 window
 ;
-let
+const
 {
 getNetworkRequest
 }
@@ -1965,7 +1965,7 @@ finished
 or
 not
 ?
-let
+const
 requests
 =
 new
@@ -1979,7 +1979,7 @@ onRequest
 id
 )
 {
-let
+const
 networkInfo
 =
 getNetworkRequest
@@ -1987,7 +1987,7 @@ getNetworkRequest
 id
 )
 ;
-let
+const
 {
 url
 }
@@ -2031,7 +2031,7 @@ onTimings
 id
 )
 {
-let
+const
 networkInfo
 =
 getNetworkRequest
@@ -2039,7 +2039,7 @@ getNetworkRequest
 id
 )
 ;
-let
+const
 {
 url
 }
@@ -2202,7 +2202,7 @@ finishedQueue
 {
 }
 ;
-let
+const
 updatingTypes
 =
 [
@@ -2264,7 +2264,7 @@ EventTimings
 "
 ]
 ;
-let
+const
 updatedTypes
 =
 [
@@ -2380,7 +2380,7 @@ actor
 =
 >
 {
-let
+const
 key
 =
 actor
@@ -2442,7 +2442,7 @@ actor
 =
 >
 {
-let
+const
 key
 =
 actor
@@ -2491,7 +2491,7 @@ checkNetworkEventUpdateState
 {
 for
 (
-let
+const
 key
 in
 finishedQueue
@@ -2576,7 +2576,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -2598,7 +2598,7 @@ successfully
 url
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -2624,7 +2624,7 @@ remoted
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -2650,7 +2650,7 @@ successfully
 "
 )
 ;
-let
+const
 monitor
 =
 toolbox
@@ -2672,14 +2672,14 @@ if
 enableCache
 )
 {
-let
+const
 panel
 =
 monitor
 .
 panelWin
 ;
-let
+const
 {
 store
 windowRequire
@@ -2687,7 +2687,7 @@ windowRequire
 =
 panel
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -2719,7 +2719,7 @@ page
 "
 )
 ;
-let
+const
 requestsDone
 =
 waitForAllRequestsFinished
@@ -2727,7 +2727,7 @@ waitForAllRequestsFinished
 monitor
 )
 ;
-let
+const
 markersDone
 =
 waitForTimelineMarkers
@@ -2906,7 +2906,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 monitor
@@ -2917,7 +2917,7 @@ target
 .
 tab
 ;
-let
+const
 url
 =
 newUrl
@@ -2947,7 +2947,7 @@ finished
 "
 )
 ;
-let
+const
 onDestroyed
 =
 monitor
@@ -3005,7 +3005,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 monitor
@@ -3032,7 +3032,7 @@ finished
 "
 )
 ;
-let
+const
 onDestroyed
 =
 monitor
@@ -3076,14 +3076,14 @@ resolve
 =
 >
 {
-let
+const
 panel
 =
 monitor
 .
 panelWin
 ;
-let
+const
 {
 getNetworkRequest
 }
@@ -3108,7 +3108,7 @@ onNetworkEvent
 actor
 )
 {
-let
+const
 networkInfo
 =
 getNetworkRequest
@@ -3164,7 +3164,7 @@ onPayloadReady
 actor
 )
 {
-let
+const
 networkInfo
 =
 getNetworkRequest
@@ -3401,7 +3401,7 @@ toSource
 )
 )
 ;
-let
+const
 visibleIndex
 =
 requestList
@@ -3424,7 +3424,7 @@ item
 visibleIndex
 )
 ;
-let
+const
 {
 fuzzyUrl
 status
@@ -3440,7 +3440,7 @@ displayedStatus
 =
 data
 ;
-let
+const
 target
 =
 document
@@ -3472,7 +3472,7 @@ not
 show
 #
 hash
-let
+const
 unicodeUrl
 =
 getUnicodeUrl
@@ -3490,7 +3490,7 @@ split
 ]
 )
 ;
-let
+const
 name
 =
 getUrlBaseName
@@ -3498,7 +3498,7 @@ getUrlBaseName
 url
 )
 ;
-let
+const
 query
 =
 getUrlQuery
@@ -3506,7 +3506,7 @@ getUrlQuery
 url
 )
 ;
-let
+const
 host
 =
 getUnicodeHostname
@@ -3517,7 +3517,7 @@ url
 )
 )
 ;
-let
+const
 scheme
 =
 getUrlScheme
@@ -3525,7 +3525,7 @@ getUrlScheme
 url
 )
 ;
-let
+const
 {
 remoteAddress
 remotePort
@@ -3542,7 +3542,7 @@ timings
 =
 requestItem
 ;
-let
+const
 formattedIPPort
 =
 getFormattedIPAndPort
@@ -3551,7 +3551,7 @@ remoteAddress
 remotePort
 )
 ;
-let
+const
 remoteIP
 =
 remoteAddress
@@ -3564,7 +3564,7 @@ formattedIPPort
 unknown
 "
 ;
-let
+const
 duration
 =
 getFormattedTime
@@ -3572,7 +3572,7 @@ getFormattedTime
 totalTime
 )
 ;
-let
+const
 latency
 =
 getFormattedTime
@@ -3584,7 +3584,7 @@ timings
 wait
 )
 ;
-let
+const
 protocol
 =
 getFormattedProtocol
@@ -3968,7 +3968,7 @@ correct
 "
 )
 ;
-let
+const
 domainTooltip
 =
 host
@@ -4286,7 +4286,7 @@ status
 undefined
 )
 {
-let
+const
 value
 =
 target
@@ -4316,7 +4316,7 @@ code
 "
 )
 ;
-let
+const
 codeValue
 =
 target
@@ -4337,7 +4337,7 @@ code
 .
 textContent
 ;
-let
+const
 tooltip
 =
 target
@@ -4458,7 +4458,7 @@ cause
 undefined
 )
 {
-let
+const
 value
 =
 Array
@@ -4505,7 +4505,7 @@ TEXT_NODE
 .
 textContent
 ;
-let
+const
 tooltip
 =
 target
@@ -4593,7 +4593,7 @@ type
 undefined
 )
 {
-let
+const
 value
 =
 target
@@ -4612,7 +4612,7 @@ type
 .
 textContent
 ;
-let
+const
 tooltip
 =
 target
@@ -4696,7 +4696,7 @@ transferred
 undefined
 )
 {
-let
+const
 value
 =
 target
@@ -4715,7 +4715,7 @@ transferred
 .
 textContent
 ;
-let
+const
 tooltip
 =
 target
@@ -4803,7 +4803,7 @@ size
 undefined
 )
 {
-let
+const
 value
 =
 target
@@ -4822,7 +4822,7 @@ size
 .
 textContent
 ;
-let
+const
 tooltip
 =
 target
@@ -4906,7 +4906,7 @@ time
 undefined
 )
 {
-let
+const
 value
 =
 target
@@ -4927,7 +4927,7 @@ total
 .
 textContent
 ;
-let
+const
 tooltip
 =
 target
@@ -5324,7 +5324,7 @@ monitor
 filterType
 )
 {
-let
+const
 doc
 =
 monitor
@@ -5333,7 +5333,7 @@ panelWin
 .
 document
 ;
-let
+const
 target
 =
 doc
@@ -5372,7 +5372,7 @@ was
 found
 )
 ;
-let
+const
 buttons
 =
 [
@@ -5423,7 +5423,7 @@ should
 be
 checked
 .
-let
+const
 checkStatus
 =
 buttons
@@ -5519,7 +5519,7 @@ monitor
 isChecked
 )
 {
-let
+const
 doc
 =
 monitor
@@ -5528,7 +5528,7 @@ panelWin
 .
 document
 ;
-let
+const
 buttons
 =
 doc
@@ -5566,7 +5566,7 @@ i
 +
 )
 {
-let
+const
 button
 =
 buttons
@@ -5985,7 +5985,7 @@ expectResponse
 true
 )
 {
-let
+const
 mm
 =
 gBrowser
@@ -6085,7 +6085,7 @@ waitForContentMessage
 name
 )
 {
-let
+const
 mm
 =
 gBrowser
@@ -6156,7 +6156,7 @@ this
 is
 the
 headers
-let
+const
 firstRequestLine
 =
 requestList
@@ -6172,7 +6172,7 @@ Find
 number
 of
 columns
-let
+const
 numberOfColumns
 =
 headers
@@ -6195,7 +6195,7 @@ i
 +
 )
 {
-let
+const
 headerColumn
 =
 headers
@@ -6205,7 +6205,7 @@ childNodes
 i
 ]
 ;
-let
+const
 requestColumn
 =
 firstRequestLine
@@ -6257,7 +6257,7 @@ monitor
 column
 )
 {
-let
+const
 {
 document
 parent
@@ -6310,7 +6310,7 @@ headers
 )
 )
 ;
-let
+const
 onHeaderRemoved
 =
 waitForDOM
@@ -6392,7 +6392,7 @@ monitor
 column
 )
 {
-let
+const
 {
 document
 parent
@@ -6445,7 +6445,7 @@ headers
 )
 )
 ;
-let
+const
 onHeaderAdded
 =
 waitForDOM
@@ -6555,7 +6555,7 @@ monitor
 index
 )
 {
-let
+const
 document
 =
 monitor
@@ -6564,7 +6564,7 @@ panelWin
 .
 document
 ;
-let
+const
 onResponseContent
 =
 monitor
@@ -6654,7 +6654,7 @@ it
 if
 needed
 .
-let
+const
 editor
 =
 document
@@ -6679,7 +6679,7 @@ if
 editor
 )
 {
-let
+const
 waitDOM
 =
 waitForDOM
@@ -6760,7 +6760,7 @@ tab
 count
 )
 {
-let
+const
 wait
 =
 waitForNetworkEvents

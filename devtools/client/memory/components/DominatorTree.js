@@ -362,7 +362,7 @@ render
 (
 )
 {
-let
+const
 {
 depth
 focused
@@ -601,7 +601,7 @@ render
 (
 )
 {
-let
+const
 {
 depth
 focused

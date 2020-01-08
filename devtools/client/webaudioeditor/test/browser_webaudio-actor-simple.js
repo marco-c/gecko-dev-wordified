@@ -47,7 +47,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 front
@@ -59,7 +59,7 @@ initBackend
 SIMPLE_CONTEXT_URL
 )
 ;
-let
+const
 [
 _
 __

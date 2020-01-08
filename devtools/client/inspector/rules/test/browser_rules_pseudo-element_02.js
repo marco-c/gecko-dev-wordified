@@ -90,7 +90,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 }
@@ -100,7 +100,7 @@ openRuleView
 (
 )
 ;
-let
+const
 node
 =
 await
@@ -113,7 +113,7 @@ topleft
 inspector
 )
 ;
-let
+const
 children
 =
 await
@@ -146,7 +146,7 @@ children
 "
 )
 ;
-let
+const
 beforeElement
 =
 children
@@ -179,7 +179,7 @@ beforeElement
 inspector
 )
 ;
-let
+const
 afterElement
 =
 children

@@ -125,7 +125,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -156,7 +156,7 @@ a
 inspector
 )
 ;
-let
+const
 markupLoaded
 =
 inspector
@@ -168,7 +168,7 @@ markuploaded
 "
 )
 ;
-let
+const
 y
 =
 await
@@ -228,7 +228,7 @@ reload
 await
 markupLoaded
 ;
-let
+const
 newY
 =
 await

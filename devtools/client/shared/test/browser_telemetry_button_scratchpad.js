@@ -149,7 +149,7 @@ enabled
 true
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -161,7 +161,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -183,7 +183,7 @@ opened
 "
 )
 ;
-let
+const
 onAllWindowsOpened
 =
 trackScratchpadWindows
@@ -287,7 +287,7 @@ domwindowopened
 "
 )
 {
-let
+const
 win
 =
 subject
@@ -446,7 +446,7 @@ scratchpad
 "
 )
 ;
-let
+const
 button
 =
 toolbox

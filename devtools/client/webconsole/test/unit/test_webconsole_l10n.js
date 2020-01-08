@@ -86,7 +86,7 @@ l10n
 "
 )
 ;
-let
+const
 date
 =
 new
@@ -95,7 +95,7 @@ Date
 TEST_TIMESTAMP
 )
 ;
-let
+const
 localizedString
 =
 WCUL10n

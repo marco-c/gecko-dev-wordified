@@ -212,7 +212,7 @@ visible
 or
 not
 .
-let
+const
 isUnknown
 =
 !
@@ -345,7 +345,7 @@ function
 marker
 )
 {
-let
+const
 blueprint
 =
 this
@@ -355,7 +355,7 @@ getBlueprintFor
 marker
 )
 ;
-let
+const
 dynamic
 =
 typeof
@@ -369,7 +369,7 @@ label
 function
 "
 ;
-let
+const
 label
 =
 dynamic
@@ -442,7 +442,7 @@ function
 markerName
 )
 {
-let
+const
 blueprint
 =
 this
@@ -456,7 +456,7 @@ markerName
 }
 )
 ;
-let
+const
 dynamic
 =
 typeof
@@ -470,7 +470,7 @@ label
 function
 "
 ;
-let
+const
 generic
 =
 dynamic
@@ -650,7 +650,7 @@ function
 marker
 )
 {
-let
+const
 blueprint
 =
 this
@@ -660,7 +660,7 @@ getBlueprintFor
 marker
 )
 ;
-let
+const
 dynamic
 =
 typeof
@@ -674,7 +674,7 @@ fields
 function
 "
 ;
-let
+const
 fields
 =
 dynamic

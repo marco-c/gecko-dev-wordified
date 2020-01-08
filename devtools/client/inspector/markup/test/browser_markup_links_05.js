@@ -91,7 +91,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -198,7 +198,7 @@ open
 "
 )
 ;
-let
+const
 onTabOpened
 =
 once
@@ -217,7 +217,7 @@ onFollowLink
 (
 )
 ;
-let
+const
 {
 target
 :
@@ -381,7 +381,7 @@ selected
 "
 )
 ;
-let
+const
 onSelection
 =
 inspector
@@ -544,7 +544,7 @@ selected
 "
 )
 ;
-let
+const
 onFailed
 =
 inspector

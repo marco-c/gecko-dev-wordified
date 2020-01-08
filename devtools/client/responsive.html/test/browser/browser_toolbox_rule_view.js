@@ -210,7 +210,7 @@ node
 "
 )
 ;
-let
+const
 {
 inspector
 view
@@ -348,7 +348,7 @@ update
 "
 )
 ;
-let
+const
 onRefresh
 =
 ruleView
@@ -420,7 +420,7 @@ update
 "
 )
 ;
-let
+const
 onRefresh
 =
 ruleView
@@ -497,7 +497,7 @@ escape
 "
 )
 ;
-let
+const
 onSplit
 =
 inspector

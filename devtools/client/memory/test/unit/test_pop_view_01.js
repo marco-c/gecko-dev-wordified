@@ -123,12 +123,12 @@ FETCHED
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 front
 =
 new
@@ -136,7 +136,7 @@ StubbedMemoryFront
 (
 )
 ;
-let
+const
 heapWorker
 =
 new
@@ -144,14 +144,14 @@ HeapAnalysesClient
 (
 )
 ;
-yield
+await
 front
 .
 attach
 (
 )
 ;
-let
+const
 store
 =
 Store
@@ -202,7 +202,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilCensusState
 (
 store
@@ -322,7 +322,7 @@ breakdown
 ;
 for
 (
-let
+const
 state
 of
 TEST_STATES
@@ -365,7 +365,7 @@ expected
 test
 state
 .
-yield
+await
 waitUntilState
 (
 store
@@ -433,7 +433,7 @@ heapWorker
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -481,7 +481,7 @@ destroy
 (
 )
 ;
-yield
+await
 front
 .
 detach

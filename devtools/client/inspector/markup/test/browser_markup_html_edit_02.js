@@ -164,7 +164,7 @@ selected
 "
 )
 ;
-let
+const
 textNodeName
 =
 await
@@ -187,7 +187,7 @@ nextSibling
 nodeName
 )
 ;
-let
+const
 textNodeData
 =
 await
@@ -337,7 +337,7 @@ selected
 "
 )
 ;
-let
+const
 textNodeName
 =
 await
@@ -360,7 +360,7 @@ nextSibling
 nodeName
 )
 ;
-let
+const
 textNodeData
 =
 await
@@ -499,7 +499,7 @@ selected
 "
 )
 ;
-let
+const
 emText
 =
 await
@@ -517,7 +517,7 @@ textContent
 "
 )
 ;
-let
+const
 strongText
 =
 await
@@ -641,7 +641,7 @@ selected
 "
 )
 ;
-let
+const
 divText
 =
 await
@@ -658,7 +658,7 @@ textContent
 "
 )
 ;
-let
+const
 divTag
 =
 await
@@ -675,7 +675,7 @@ tagName
 "
 )
 ;
-let
+const
 pText
 =
 await
@@ -693,7 +693,7 @@ textContent
 "
 )
 ;
-let
+const
 pTag
 =
 await
@@ -858,7 +858,7 @@ selected
 "
 )
 ;
-let
+const
 num
 =
 await
@@ -873,7 +873,7 @@ div
 "
 )
 ;
-let
+const
 pText
 =
 await
@@ -890,7 +890,7 @@ textContent
 "
 )
 ;
-let
+const
 pTag
 =
 await
@@ -907,7 +907,7 @@ tagName
 "
 )
 ;
-let
+const
 divText
 =
 await
@@ -926,7 +926,7 @@ textContent
 "
 )
 ;
-let
+const
 divTag
 =
 await
@@ -1125,7 +1125,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor

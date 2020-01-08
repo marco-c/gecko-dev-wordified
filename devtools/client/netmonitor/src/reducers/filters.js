@@ -88,7 +88,7 @@ overrideParams
 }
 )
 {
-let
+const
 allFilterTypes
 =
 [
@@ -162,7 +162,7 @@ obj
 }
 )
 ;
-let
+const
 filterTypes
 =
 allFilterTypes
@@ -246,7 +246,7 @@ state
 action
 )
 {
-let
+const
 {
 filter
 }
@@ -366,7 +366,7 @@ state
 action
 )
 {
-let
+const
 {
 filter
 }

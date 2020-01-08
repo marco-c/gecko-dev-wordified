@@ -544,7 +544,7 @@ data
 append
 ;
 }
-let
+const
 notificationBox
 =
 this
@@ -555,7 +555,7 @@ getNotificationBox
 (
 )
 ;
-let
+const
 notification
 =
 notificationBox

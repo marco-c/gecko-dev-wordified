@@ -58,7 +58,7 @@ ifWebGLSupported
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -70,7 +70,7 @@ initShaderEditor
 SIMPLE_CANVAS_URL
 )
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -113,7 +113,7 @@ SOURCES_SHOWN
 ]
 )
 ;
-let
+const
 vsEditor
 =
 await
@@ -126,7 +126,7 @@ vs
 "
 )
 ;
-let
+const
 fsEditor
 =
 await

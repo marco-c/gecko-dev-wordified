@@ -159,13 +159,13 @@ frameArgs
 onResponse
 )
 {
-let
+const
 grips
 =
 [
 ]
 ;
-let
+const
 handler
 =
 function
@@ -291,7 +291,7 @@ event
 packet
 )
 {
-let
+const
 frameArgs
 =
 [
@@ -413,7 +413,7 @@ releaseMany
 .
 .
 .
-let
+const
 release
 =
 [

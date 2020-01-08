@@ -86,12 +86,12 @@ enabled
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -101,7 +101,7 @@ blank
 "
 )
 ;
-yield
+await
 performTest
 (
 )
@@ -115,19 +115,19 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 performTest
 (
 )
 {
-let
+const
 [
 host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -178,7 +178,7 @@ fallback
 css
 properties
 .
-let
+const
 toolbox
 =
 {
@@ -199,13 +199,13 @@ false
 }
 }
 ;
-yield
+await
 initCssProperties
 (
 toolbox
 )
 ;
-let
+const
 cssProperties
 =
 getCssProperties
@@ -213,7 +213,7 @@ getCssProperties
 toolbox
 )
 ;
-let
+const
 parser
 =
 new
@@ -428,7 +428,7 @@ value
 segments
 )
 {
-let
+const
 result
 =
 {
@@ -442,7 +442,7 @@ expected
 ;
 for
 (
-let
+const
 segment
 of
 segments
@@ -583,7 +583,7 @@ doc
 parser
 )
 {
-let
+const
 tests
 =
 [
@@ -1681,7 +1681,7 @@ f06
 )
 ]
 ;
-let
+const
 target
 =
 doc
@@ -1707,7 +1707,7 @@ div
 ;
 for
 (
-let
+const
 test
 of
 tests
@@ -1720,7 +1720,7 @@ test
 desc
 )
 ;
-let
+const
 frag
 =
 parser
@@ -1792,7 +1792,7 @@ doc
 parser
 )
 {
-let
+const
 frag
 =
 parser
@@ -1827,7 +1827,7 @@ colorswatch
 }
 )
 ;
-let
+const
 target
 =
 doc
@@ -2178,13 +2178,13 @@ expectedTrailer
 ;
 for
 (
-let
+const
 test
 of
 tests
 )
 {
-let
+const
 url
 =
 test
@@ -2201,7 +2201,7 @@ test
 .
 trailer
 ;
-let
+const
 frag
 =
 parser
@@ -2228,7 +2228,7 @@ baseURI
 }
 )
 ;
-let
+const
 target
 =
 doc
@@ -2247,7 +2247,7 @@ appendChild
 frag
 )
 ;
-let
+const
 expectedTrailer
 =
 test
@@ -2259,7 +2259,7 @@ test
 .
 trailer
 ;
-let
+const
 expected
 =
 test
@@ -2336,7 +2336,7 @@ doc
 parser
 )
 {
-let
+const
 frag
 =
 parser
@@ -2361,7 +2361,7 @@ filterswatch
 }
 )
 ;
-let
+const
 swatchCount
 =
 frag
@@ -3077,7 +3077,7 @@ spanCount
 ;
 for
 (
-let
+const
 {
 desc
 definition
@@ -3092,7 +3092,7 @@ info
 desc
 )
 ;
-let
+const
 frag
 =
 parser
@@ -3116,7 +3116,7 @@ shape
 }
 )
 ;
-let
+const
 spans
 =
 frag
@@ -3170,7 +3170,7 @@ doc
 parser
 )
 {
-let
+const
 TESTS
 =
 [
@@ -3557,13 +3557,13 @@ span
 ;
 for
 (
-let
+const
 test
 of
 TESTS
 )
 {
-let
+const
 getValue
 =
 function
@@ -3581,7 +3581,7 @@ varName
 ;
 }
 ;
-let
+const
 frag
 =
 parser
@@ -3608,7 +3608,7 @@ class
 }
 )
 ;
-let
+const
 target
 =
 doc
@@ -3982,7 +3982,7 @@ al
 ;
 for
 (
-let
+const
 {
 desc
 definition
@@ -3997,7 +3997,7 @@ info
 desc
 )
 ;
-let
+const
 frag
 =
 parser
@@ -4023,7 +4023,7 @@ family
 }
 )
 ;
-let
+const
 spans
 =
 frag
@@ -4110,7 +4110,7 @@ content
 ;
 for
 (
-let
+const
 {
 desc
 definition
@@ -4125,7 +4125,7 @@ info
 desc
 )
 ;
-let
+const
 frag
 =
 parser

@@ -177,7 +177,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -190,7 +190,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -199,7 +199,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 StorageFront
@@ -271,7 +271,7 @@ createIndexedDB
 (
 )
 {
-let
+const
 request
 =
 indexedDB
@@ -292,14 +292,14 @@ function
 (
 )
 {
-let
+const
 db
 =
 request
 .
 result
 ;
-let
+const
 store
 =
 db
@@ -352,7 +352,7 @@ testInternalDBs
 front
 )
 {
-let
+const
 data
 =
 await
@@ -362,7 +362,7 @@ listStores
 (
 )
 ;
-let
+const
 hosts
 =
 data
@@ -384,7 +384,7 @@ chrome
 "
 )
 ;
-let
+const
 path
 =
 [
@@ -399,7 +399,7 @@ MyObjectStore
 "
 ]
 ;
-let
+const
 foundDB
 =
 hosts

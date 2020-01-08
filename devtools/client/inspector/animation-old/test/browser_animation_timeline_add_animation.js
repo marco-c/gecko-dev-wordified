@@ -92,7 +92,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 controller
@@ -527,7 +527,7 @@ again
 "
 )
 ;
-let
+const
 onPlayerAdded
 =
 controller
@@ -539,7 +539,7 @@ controller
 PLAYERS_UPDATED_EVENT
 )
 ;
-let
+const
 onRendered
 =
 waitForAnimationTimelineRendering

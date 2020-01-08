@@ -156,17 +156,17 @@ actions
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -179,7 +179,7 @@ window
 }
 )
 ;
-let
+const
 {
 PerformanceController
 }
@@ -209,7 +209,7 @@ UI_ENABLE_MEMORY_PREF
 false
 )
 ;
-yield
+await
 startRecording
 (
 panel
@@ -225,7 +225,7 @@ UI_ENABLE_MEMORY_PREF
 true
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -292,7 +292,7 @@ stopping
 without
 it
 .
-yield
+await
 startRecording
 (
 panel
@@ -308,7 +308,7 @@ UI_ENABLE_MEMORY_PREF
 false
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -365,7 +365,7 @@ allocations
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

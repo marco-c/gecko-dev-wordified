@@ -439,7 +439,7 @@ script
 FRAME_SCRIPT_URL
 )
 ;
-let
+const
 browser
 =
 tab
@@ -650,7 +650,7 @@ editorTooltip
 view
 )
 {
-let
+const
 onModified
 =
 view
@@ -664,7 +664,7 @@ changed
 "
 )
 ;
-let
+const
 onHidden
 =
 editorTooltip
@@ -1094,7 +1094,7 @@ if
 expectedChange
 )
 {
-let
+const
 {
 selector
 name
@@ -1114,7 +1114,7 @@ value
 )
 ;
 }
-let
+const
 onRuleViewChanged
 =
 ruleView
@@ -1139,7 +1139,7 @@ object
 "
 )
 ;
-let
+const
 spectrum
 =
 colorPicker
@@ -1425,7 +1425,7 @@ newRgba
 expectedChange
 )
 {
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -1434,7 +1434,7 @@ view
 ruleIndex
 )
 ;
-let
+const
 propEditor
 =
 ruleEditor
@@ -1448,7 +1448,7 @@ propIndex
 .
 editor
 ;
-let
+const
 swatch
 =
 propEditor
@@ -1465,7 +1465,7 @@ colorswatch
 "
 )
 ;
-let
+const
 cPicker
 =
 view
@@ -1493,7 +1493,7 @@ swatch
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 cPicker
@@ -1739,7 +1739,7 @@ coords
 expectedChange
 )
 {
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -1748,7 +1748,7 @@ view
 ruleIndex
 )
 ;
-let
+const
 propEditor
 =
 ruleEditor
@@ -1762,7 +1762,7 @@ propIndex
 .
 editor
 ;
-let
+const
 swatch
 =
 propEditor
@@ -1779,7 +1779,7 @@ bezierswatch
 "
 )
 ;
-let
+const
 bezierTooltip
 =
 view
@@ -1806,7 +1806,7 @@ swatch
 "
 )
 ;
-let
+const
 onBezierWidgetReady
 =
 bezierTooltip
@@ -1827,7 +1827,7 @@ click
 await
 onBezierWidgetReady
 ;
-let
+const
 widget
 =
 await
@@ -1849,7 +1849,7 @@ widget
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 view
@@ -1893,7 +1893,7 @@ page
 "
 )
 ;
-let
+const
 {
 selector
 name
@@ -2146,7 +2146,7 @@ rule
 ruleIndex
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -2164,7 +2164,7 @@ focusNewRuleViewProperty
 ruleEditor
 )
 ;
-let
+const
 numOfProps
 =
 ruleEditor
@@ -2175,7 +2175,7 @@ textProps
 .
 length
 ;
-let
+const
 onMutations
 =
 new
@@ -2351,7 +2351,7 @@ value
 =
 name
 ;
-let
+const
 onNameAdded
 =
 view
@@ -2406,7 +2406,7 @@ styleDocument
 activeElement
 )
 ;
-let
+const
 textProps
 =
 ruleEditor
@@ -2415,7 +2415,7 @@ rule
 .
 textProps
 ;
-let
+const
 textProp
 =
 textProps
@@ -2510,7 +2510,7 @@ bug
 1209295
 )
 .
-let
+const
 onPreview
 =
 view
@@ -2543,7 +2543,7 @@ flush
 await
 onPreview
 ;
-let
+const
 onValueAdded
 =
 view
@@ -2769,7 +2769,7 @@ editor
 valueSpan
 )
 ;
-let
+const
 onPreview
 =
 view
@@ -2831,7 +2831,7 @@ flush
 await
 onPreview
 ;
-let
+const
 onValueDone
 =
 view
@@ -3005,7 +3005,7 @@ editor
 nameSpan
 )
 ;
-let
+const
 onModifications
 =
 view
@@ -3143,7 +3143,7 @@ view
 textProp
 )
 {
-let
+const
 onRuleViewRefreshed
 =
 view
@@ -3232,7 +3232,7 @@ inspector
 testActor
 )
 {
-let
+const
 onNewRoot
 =
 inspector
@@ -3537,7 +3537,7 @@ index
 expectedIndex
 )
 ;
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -3546,7 +3546,7 @@ view
 expectedIndex
 )
 ;
-let
+const
 editor
 =
 ruleEditor
@@ -3735,7 +3735,7 @@ element
 keys
 )
 {
-let
+const
 onFocus
 =
 once
@@ -3749,7 +3749,7 @@ true
 ;
 for
 (
-let
+const
 key
 of
 keys
@@ -3825,7 +3825,7 @@ mutations
 {
 for
 (
-let
+const
 mutation
 of
 mutations
@@ -3919,7 +3919,7 @@ icon
 view
 )
 {
-let
+const
 onToggled
 =
 view
@@ -4337,7 +4337,7 @@ view
 swatch
 )
 {
-let
+const
 tooltip
 =
 view
@@ -4363,7 +4363,7 @@ swatch
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 view
@@ -4393,7 +4393,7 @@ click
 await
 onColorPickerReady
 ;
-let
+const
 dropperButton
 =
 tooltip
@@ -4421,7 +4421,7 @@ icon
 "
 )
 ;
-let
+const
 onOpened
 =
 tooltip

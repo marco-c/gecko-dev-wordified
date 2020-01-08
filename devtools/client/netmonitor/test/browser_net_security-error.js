@@ -58,7 +58,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -70,7 +70,7 @@ initNetMonitor
 CUSTOM_GET_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -81,7 +81,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -128,7 +128,7 @@ problem
 "
 )
 ;
-let
+const
 requestsDone
 =
 waitForNetworkEvents
@@ -178,7 +178,7 @@ com
 await
 requestsDone
 ;
-let
+const
 securityInfoLoaded
 =
 waitForDOM
@@ -252,7 +252,7 @@ tab
 await
 securityInfoLoaded
 ;
-let
+const
 errormsg
 =
 document

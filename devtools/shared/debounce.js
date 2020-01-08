@@ -167,7 +167,7 @@ timer
 )
 ;
 }
-let
+const
 args
 =
 arguments

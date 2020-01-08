@@ -529,7 +529,7 @@ once
 tests
 finish
 .
-let
+const
 stopObservingPrefs
 =
 PrefUtils

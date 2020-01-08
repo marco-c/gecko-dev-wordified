@@ -259,7 +259,7 @@ function
 msg
 )
 {
-let
+const
 {
 name
 styleSheetIndex
@@ -303,7 +303,7 @@ rule
 ruleIndex
 )
 ;
-let
+const
 sheet
 =
 content
@@ -320,7 +320,7 @@ if
 sheet
 )
 {
-let
+const
 rule
 =
 sheet
@@ -456,7 +456,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 pseudo
@@ -467,14 +467,14 @@ msg
 .
 data
 ;
-let
+const
 doc
 =
 content
 .
 document
 ;
-let
+const
 element
 =
 doc
@@ -484,7 +484,7 @@ querySelector
 selector
 )
 ;
-let
+const
 value
 =
 content
@@ -616,7 +616,7 @@ function
 msg
 )
 {
-let
+const
 {
 selector
 pseudo
@@ -628,7 +628,7 @@ msg
 .
 data
 ;
-let
+const
 element
 =
 content
@@ -647,7 +647,7 @@ waitForSuccess
 =
 >
 {
-let
+const
 value
 =
 content

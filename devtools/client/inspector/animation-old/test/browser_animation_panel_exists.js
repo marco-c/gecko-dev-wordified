@@ -89,7 +89,7 @@ panel
 "
 )
 ;
-let
+const
 {
 panel
 controller

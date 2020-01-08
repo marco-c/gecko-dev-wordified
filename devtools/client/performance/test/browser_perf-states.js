@@ -143,17 +143,17 @@ actions
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -166,7 +166,7 @@ window
 }
 )
 ;
-let
+const
 {
 PerformanceView
 OverviewView
@@ -552,7 +552,7 @@ yet
 "
 )
 ;
-yield
+await
 startRecording
 (
 panel
@@ -635,7 +635,7 @@ now
 "
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -800,7 +800,7 @@ yet
 "
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -970,7 +970,7 @@ yet
 "
 )
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -1138,7 +1138,7 @@ yet
 "
 )
 ;
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

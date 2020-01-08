@@ -171,7 +171,7 @@ centered
 true
 )
 {
-let
+const
 win
 =
 elem
@@ -180,7 +180,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 clientRect
 =
 elem
@@ -236,14 +236,14 @@ the
 top
 left
 .
-let
+const
 topToBottom
 =
 clientRect
 .
 bottom
 ;
-let
+const
 bottomToTop
 =
 clientRect

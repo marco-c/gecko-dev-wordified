@@ -206,7 +206,7 @@ this
 ;
 for
 (
-let
+const
 [
 event
 ]
@@ -295,7 +295,7 @@ this
 }
 for
 (
-let
+const
 [
 event
 ]
@@ -480,7 +480,7 @@ getDuration
 )
 )
 ;
-let
+const
 config
 =
 model
@@ -491,7 +491,7 @@ getConfiguration
 ;
 for
 (
-let
+const
 k
 in
 config

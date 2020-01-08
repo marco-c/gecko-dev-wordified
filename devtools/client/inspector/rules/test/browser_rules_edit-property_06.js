@@ -149,7 +149,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -169,7 +169,7 @@ body
 inspector
 )
 ;
-let
+const
 rule
 =
 getRuleViewRuleEditor
@@ -180,7 +180,7 @@ view
 .
 rule
 ;
-let
+const
 prop
 =
 rule

@@ -291,7 +291,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 width
 height
@@ -349,7 +349,7 @@ onDeviceAdderSave
 (
 )
 {
-let
+const
 {
 devices
 onAddCustomDevice
@@ -483,7 +483,7 @@ render
 (
 )
 {
-let
+const
 {
 devices
 viewportTemplate
@@ -493,7 +493,7 @@ this
 .
 props
 ;
-let
+const
 {
 deviceAdderDisplayed
 height
@@ -601,7 +601,7 @@ window
 let
 deviceName
 ;
-let
+const
 normalizedViewport
 =
 Object
@@ -620,7 +620,7 @@ viewportTemplate
 device
 )
 {
-let
+const
 device
 =
 devices

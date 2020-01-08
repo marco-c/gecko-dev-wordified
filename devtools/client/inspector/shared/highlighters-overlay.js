@@ -850,7 +850,7 @@ addToView
 view
 )
 {
-let
+const
 el
 =
 view
@@ -970,7 +970,7 @@ removeFromView
 view
 )
 {
-let
+const
 el
 =
 view
@@ -1182,7 +1182,7 @@ options
 textProperty
 )
 {
-let
+const
 shapesEditor
 =
 await
@@ -1284,7 +1284,7 @@ node
 options
 )
 {
-let
+const
 shapesEditor
 =
 await
@@ -1384,7 +1384,7 @@ onShapesHighlighterShown
 data
 )
 {
-let
+const
 {
 node
 options
@@ -1464,7 +1464,7 @@ hideShapesHighlighter
 (
 )
 {
-let
+const
 shapesEditor
 =
 await
@@ -1653,7 +1653,7 @@ this
 shapesHighlighterShown
 )
 {
-let
+const
 options
 =
 Object
@@ -1840,7 +1840,7 @@ node
 options
 )
 {
-let
+const
 highlighter
 =
 await
@@ -1862,7 +1862,7 @@ highlighter
 return
 ;
 }
-let
+const
 isShown
 =
 await
@@ -1906,7 +1906,7 @@ flexbox
 highlighter
 state
 .
-let
+const
 {
 url
 }
@@ -1917,7 +1917,7 @@ inspector
 .
 target
 ;
-let
+const
 selector
 =
 await
@@ -2466,7 +2466,7 @@ options
 trigger
 )
 {
-let
+const
 highlighter
 =
 await
@@ -2505,7 +2505,7 @@ node
 )
 )
 ;
-let
+const
 isShown
 =
 await
@@ -2608,7 +2608,7 @@ grid
 highlighter
 state
 .
-let
+const
 {
 url
 }
@@ -2619,7 +2619,7 @@ inspector
 .
 target
 ;
-let
+const
 selector
 =
 await
@@ -3119,7 +3119,7 @@ showGeometryEditor
 node
 )
 {
-let
+const
 highlighter
 =
 await
@@ -3141,7 +3141,7 @@ highlighter
 return
 ;
 }
-let
+const
 isShown
 =
 await
@@ -3459,7 +3459,7 @@ state
 showFunction
 )
 {
-let
+const
 {
 selector
 options
@@ -3526,7 +3526,7 @@ false
 return
 ;
 }
-let
+const
 walker
 =
 this
@@ -3535,7 +3535,7 @@ inspector
 .
 walker
 ;
-let
+const
 rootNode
 =
 await
@@ -3545,7 +3545,7 @@ getRootNode
 (
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -3769,7 +3769,7 @@ case
 shapesEditor
 "
 :
-let
+const
 highlighter
 =
 await
@@ -3937,7 +3937,7 @@ _getHighlighter
 type
 )
 {
-let
+const
 utils
 =
 this
@@ -4141,7 +4141,7 @@ node
 return
 ;
 }
-let
+const
 ruleViewEl
 =
 this
@@ -4161,7 +4161,7 @@ element
 ;
 for
 (
-let
+const
 icon
 of
 ruleViewEl
@@ -4386,7 +4386,7 @@ installing
 the
 handler
 .
-let
+const
 onHidden
 =
 this
@@ -4537,7 +4537,7 @@ return
 }
 try
 {
-let
+const
 isInTree
 =
 await
@@ -4902,7 +4902,7 @@ return
 false
 ;
 }
-let
+const
 isTransform
 =
 nodeInfo
@@ -4926,7 +4926,7 @@ property
 transform
 "
 ;
-let
+const
 isEnabled
 =
 nodeInfo
@@ -5012,7 +5012,7 @@ return
 false
 ;
 }
-let
+const
 isShape
 =
 nodeInfo
@@ -5055,7 +5055,7 @@ outside
 "
 )
 ;
-let
+const
 isEnabled
 =
 nodeInfo
@@ -5332,7 +5332,7 @@ event
 .
 target
 ;
-let
+const
 view
 =
 this
@@ -5370,7 +5370,7 @@ computedview
 .
 computedView
 ;
-let
+const
 nodeInfo
 =
 view
@@ -5401,7 +5401,7 @@ nodeInfo
 )
 )
 {
-let
+const
 {
 point
 }
@@ -5479,7 +5479,7 @@ hoveredHighlighterShown
 =
 type
 ;
-let
+const
 node
 =
 this
@@ -5593,7 +5593,7 @@ hide
 the
 highlighter
 .
-let
+const
 view
 =
 this
@@ -5631,7 +5631,7 @@ computedview
 .
 computedView
 ;
-let
+const
 nodeInfo
 =
 view
@@ -5729,7 +5729,7 @@ onMarkupMutation
 mutations
 )
 {
-let
+const
 hasInterestingMutation
 =
 mutations
@@ -5911,7 +5911,7 @@ destroyEditors
 {
 for
 (
-let
+const
 type
 in
 this
@@ -5989,7 +5989,7 @@ destroyHighlighters
 {
 for
 (
-let
+const
 type
 in
 this

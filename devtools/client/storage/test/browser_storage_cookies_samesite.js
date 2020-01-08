@@ -99,12 +99,12 @@ correctly
 .
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -120,7 +120,7 @@ html
 "
 )
 ;
-let
+const
 id1
 =
 getCookieId
@@ -150,7 +150,7 @@ test
 "
 )
 ;
-let
+const
 id2
 =
 getCookieId
@@ -180,7 +180,7 @@ test
 "
 )
 ;
-let
+const
 id3
 =
 getCookieId
@@ -210,7 +210,7 @@ test
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -240,7 +240,7 @@ id3
 ]
 )
 ;
-let
+const
 sameSite1
 =
 getRowValues
@@ -250,7 +250,7 @@ id1
 .
 sameSite
 ;
-let
+const
 sameSite2
 =
 getRowValues
@@ -260,7 +260,7 @@ id2
 .
 sameSite
 ;
-let
+const
 sameSite3
 =
 getRowValues
@@ -309,7 +309,7 @@ Strict
 "
 )
 ;
-yield
+await
 finishTests
 (
 )

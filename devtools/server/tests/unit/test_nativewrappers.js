@@ -35,7 +35,7 @@ addDebuggerToGlobal
 this
 )
 ;
-let
+const
 g
 =
 testGlobal
@@ -45,7 +45,7 @@ test1
 "
 )
 ;
-let
+const
 dbg
 =
 new
@@ -69,7 +69,7 @@ function
 frame
 )
 {
-let
+const
 args
 =
 frame
@@ -123,7 +123,7 @@ debugger
 "
 )
 ;
-let
+const
 g2
 =
 testGlobal

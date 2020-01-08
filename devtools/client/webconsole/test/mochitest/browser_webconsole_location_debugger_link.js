@@ -327,7 +327,7 @@ expectUncaughtException
 )
 ;
 }
-let
+const
 hud
 =
 await
@@ -336,7 +336,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -348,7 +348,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools

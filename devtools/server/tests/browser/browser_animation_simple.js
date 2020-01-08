@@ -67,7 +67,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -211,7 +211,7 @@ NodeActor
 "
 )
 ;
-let
+const
 invalidNode
 =
 await
@@ -227,7 +227,7 @@ title
 "
 )
 ;
-let
+const
 players
 =
 await

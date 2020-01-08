@@ -549,7 +549,7 @@ pos
 offset
 )
 {
-let
+const
 {
 TOP
 BOTTOM
@@ -599,12 +599,12 @@ for
 the
 tooltip
 .
-let
+const
 availableTop
 =
 anchorTop
 ;
-let
+const
 availableBottom
 =
 viewportRect
@@ -687,7 +687,7 @@ BOTTOM
 Calculate
 HEIGHT
 .
-let
+const
 availableHeight
 =
 pos
@@ -1009,7 +1009,7 @@ offset
 isRtl
 )
 {
-let
+const
 anchorWidth
 =
 anchorRect
@@ -1184,7 +1184,7 @@ TYPE
 ARROW
 )
 {
-let
+const
 arrowCenter
 =
 left
@@ -1195,7 +1195,7 @@ ARROW_WIDTH
 /
 2
 ;
-let
+const
 anchorCenter
 =
 anchorStart
@@ -1438,7 +1438,7 @@ node
 getBoxQuads
 )
 {
-let
+const
 {
 top
 left
@@ -1452,14 +1452,14 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 right
 =
 left
 +
 width
 ;
-let
+const
 bottom
 =
 top
@@ -1489,7 +1489,7 @@ from
 the
 rect
 .
-let
+const
 {
 width
 height
@@ -1501,7 +1501,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 quads
 =
 node
@@ -1513,7 +1513,7 @@ relativeTo
 }
 )
 ;
-let
+const
 top
 =
 quads
@@ -1525,7 +1525,7 @@ bounds
 .
 top
 ;
-let
+const
 left
 =
 quads
@@ -1551,14 +1551,14 @@ of
 the
 data
 .
-let
+const
 right
 =
 left
 +
 width
 ;
-let
+const
 bottom
 =
 top
@@ -2012,7 +2012,7 @@ _createXulPanelWrapper
 (
 )
 ;
-let
+const
 inner
 =
 this
@@ -2633,7 +2633,7 @@ anchorRect
 Get
 viewport
 size
-let
+const
 viewportRect
 =
 this
@@ -2642,7 +2642,7 @@ _getViewportRect
 (
 )
 ;
-let
+const
 themeHeight
 =
 EXTRA_HEIGHT
@@ -2661,7 +2661,7 @@ this
 type
 ]
 ;
-let
+const
 preferredHeight
 =
 this
@@ -2670,7 +2670,7 @@ preferredHeight
 +
 themeHeight
 ;
-let
+const
 {
 top
 height
@@ -2710,7 +2710,7 @@ auto
 "
 )
 .
-let
+const
 isTop
 =
 computedPosition
@@ -2851,7 +2851,7 @@ _measureContainerWidth
 }
 else
 {
-let
+const
 themeWidth
 =
 2
@@ -2872,7 +2872,7 @@ preferredWidth
 themeWidth
 ;
 }
-let
+const
 anchorWin
 =
 anchor
@@ -2881,7 +2881,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 isRtl
 =
 anchorWin
@@ -2899,7 +2899,7 @@ direction
 rtl
 "
 ;
-let
+const
 {
 left
 width
@@ -3287,7 +3287,7 @@ the
 OS
 reserved
 space
-let
+const
 {
 availLeft
 availTop
@@ -3348,7 +3348,7 @@ function
 (
 )
 {
-let
+const
 xulParent
 =
 this
@@ -3427,7 +3427,7 @@ width
 auto
 "
 ;
-let
+const
 width
 =
 this
@@ -3604,7 +3604,7 @@ hidden
 "
 )
 ;
-let
+const
 tooltipHasFocus
 =
 this
@@ -3770,7 +3770,7 @@ function
 (
 )
 {
-let
+const
 container
 =
 this
@@ -4019,7 +4019,7 @@ return
 true
 ;
 }
-let
+const
 tooltipWindow
 =
 this
@@ -4256,7 +4256,7 @@ receive
 -
 focus
 .
-let
+const
 focusableSelector
 =
 "
@@ -4268,7 +4268,7 @@ select
 textarea
 "
 ;
-let
+const
 focusableElement
 =
 this
@@ -4359,7 +4359,7 @@ function
 (
 )
 {
-let
+const
 panel
 =
 this
@@ -4537,7 +4537,7 @@ this
 _onXulPanelHidden
 )
 ;
-let
+const
 onPanelShown
 =
 listenOnce
@@ -4662,7 +4662,7 @@ resolve
 )
 ;
 }
-let
+const
 onPanelHidden
 =
 listenOnce

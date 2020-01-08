@@ -138,7 +138,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -188,7 +188,7 @@ pop
 (
 )
 ;
-let
+const
 onMessage
 =
 waitForMessage

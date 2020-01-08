@@ -70,7 +70,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -127,7 +127,7 @@ walker
 animations
 )
 {
-let
+const
 node
 =
 await
@@ -146,7 +146,7 @@ animation
 "
 )
 ;
-let
+const
 [
 player
 ]
@@ -1247,7 +1247,7 @@ nodeSelector
 index
 )
 {
-let
+const
 node
 =
 await
@@ -1261,7 +1261,7 @@ rootNode
 nodeSelector
 )
 ;
-let
+const
 players
 =
 await
@@ -1272,7 +1272,7 @@ getAnimationPlayersForNode
 node
 )
 ;
-let
+const
 player
 =
 players

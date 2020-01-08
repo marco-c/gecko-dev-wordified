@@ -379,12 +379,12 @@ LineGraphWidget
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -394,7 +394,7 @@ blank
 "
 )
 ;
-yield
+await
 performTest
 (
 )
@@ -408,19 +408,19 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 performTest
 (
 )
 {
-let
+const
 [
 host
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -459,7 +459,7 @@ margin
 "
 )
 ;
-let
+const
 graph
 =
 new
@@ -473,7 +473,7 @@ fps
 "
 )
 ;
-yield
+await
 graph
 .
 once
@@ -504,7 +504,7 @@ refreshCount
 +
 )
 ;
-yield
+await
 testGraph
 (
 host
@@ -529,7 +529,7 @@ times
 "
 )
 ;
-yield
+await
 graph
 .
 destroy
@@ -543,8 +543,8 @@ destroy
 )
 ;
 }
+async
 function
-*
 testGraph
 (
 host
@@ -558,7 +558,7 @@ setData
 TEST_DATA
 )
 ;
-let
+const
 initialBounds
 =
 host
@@ -581,7 +581,7 @@ resizeBy
 100
 )
 ;
-yield
+await
 graph
 .
 once
@@ -591,7 +591,7 @@ refresh
 "
 )
 ;
-let
+const
 newBounds
 =
 host
@@ -950,7 +950,7 @@ resizeBy
 100
 )
 ;
-yield
+await
 graph
 .
 once
@@ -960,7 +960,7 @@ refresh
 "
 )
 ;
-let
+const
 newerBounds
 =
 host

@@ -128,7 +128,7 @@ getTooltipContent
 doc
 )
 {
-let
+const
 div
 =
 doc
@@ -177,17 +177,17 @@ div
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -216,7 +216,7 @@ useXulWrapper
 =
 false
 ;
-yield
+await
 runTests
 (
 doc
@@ -241,7 +241,7 @@ useXulWrapper
 =
 true
 ;
-yield
+await
 runTests
 (
 doc
@@ -250,14 +250,14 @@ doc
 }
 )
 ;
+async
 function
-*
 runTests
 (
 doc
 )
 {
-yield
+await
 addTab
 (
 "
@@ -267,7 +267,7 @@ blank
 "
 )
 ;
-let
+const
 tooltip
 =
 new
@@ -360,7 +360,7 @@ shown
 +
 )
 ;
-let
+const
 onShown
 =
 tooltip
@@ -386,7 +386,7 @@ box1
 )
 )
 ;
-yield
+await
 onShown
 ;
 is
@@ -402,7 +402,7 @@ once
 "
 )
 ;
-yield
+await
 waitForReflow
 (
 tooltip
@@ -461,7 +461,7 @@ hidden
 +
 )
 ;
-let
+const
 onPopupHidden
 =
 tooltip
@@ -479,7 +479,7 @@ hide
 (
 )
 ;
-yield
+await
 onPopupHidden
 ;
 is
@@ -495,7 +495,7 @@ once
 "
 )
 ;
-yield
+await
 waitForReflow
 (
 tooltip

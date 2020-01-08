@@ -99,7 +99,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -148,7 +148,7 @@ render
 "
 )
 ;
-let
+const
 attributes
 =
 await
@@ -232,7 +232,7 @@ changed
 "
 )
 ;
-let
+const
 attributes
 =
 await

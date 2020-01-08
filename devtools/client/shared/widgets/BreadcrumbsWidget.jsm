@@ -656,14 +656,14 @@ aIndex
 aContents
 )
 {
-let
+const
 list
 =
 this
 .
 _list
 ;
-let
+const
 breadcrumb
 =
 new
@@ -840,7 +840,7 @@ function
 (
 )
 {
-let
+const
 list
 =
 this
@@ -928,7 +928,7 @@ selectedItem
 aChild
 )
 {
-let
+const
 childNodes
 =
 this
@@ -952,7 +952,7 @@ null
 }
 for
 (
-let
+const
 node
 of
 childNodes

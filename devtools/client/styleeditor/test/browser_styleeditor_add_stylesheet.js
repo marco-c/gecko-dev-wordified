@@ -80,17 +80,17 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -139,7 +139,7 @@ the
 initial
 open
 .
-let
+const
 added
 =
 new
@@ -149,7 +149,7 @@ resolve
 =
 >
 {
-let
+const
 handler
 =
 (
@@ -214,7 +214,7 @@ sheet
 "
 )
 ;
-yield
+await
 ContentTask
 .
 spawn
@@ -228,7 +228,7 @@ null
 =
 >
 {
-let
+const
 document
 =
 content
@@ -280,7 +280,7 @@ style
 }
 )
 ;
-yield
+await
 added
 ;
 is

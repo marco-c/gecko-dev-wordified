@@ -288,7 +288,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 item
 connector
@@ -317,7 +317,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 item
 connector
@@ -369,7 +369,7 @@ getTime
 props
 )
 {
-let
+const
 {
 firstRequestStartedMillis
 item
@@ -458,7 +458,7 @@ render
 (
 )
 {
-let
+const
 {
 type
 }
@@ -467,7 +467,7 @@ this
 .
 props
 ;
-let
+const
 time
 =
 getFormattedTime

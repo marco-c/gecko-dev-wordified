@@ -689,7 +689,7 @@ function
 (
 )
 {
-let
+const
 pool
 =
 new
@@ -784,7 +784,7 @@ promise
 )
 ;
 }
-let
+const
 actor
 =
 new
@@ -985,7 +985,7 @@ function
 (
 )
 {
-let
+const
 promises
 =
 this
@@ -1132,7 +1132,7 @@ promise
 =
 >
 {
-let
+const
 actor
 =
 this
@@ -1142,7 +1142,7 @@ _createObjectActorForPromise
 promise
 )
 ;
-let
+const
 needsScheduling
 =
 array

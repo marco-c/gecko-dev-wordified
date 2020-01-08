@@ -117,7 +117,7 @@ html
 "
 )
 ;
-let
+const
 contextMenu
 =
 gPanelWindow
@@ -135,7 +135,7 @@ popup
 "
 )
 ;
-let
+const
 menuDeleteAllItem
 =
 contextMenu
@@ -519,13 +519,13 @@ plop
 ;
 for
 (
-let
+const
 store
 of
 deleteHosts
 )
 {
-let
+const
 storeName
 =
 store
@@ -543,7 +543,7 @@ selectTreeItem
 store
 )
 ;
-let
+const
 eventName
 =
 "
@@ -573,7 +573,7 @@ cleared
 "
 )
 ;
-let
+const
 eventWait
 =
 gUI
@@ -583,7 +583,7 @@ once
 eventName
 )
 ;
-let
+const
 selector
 =
 [
@@ -610,7 +610,7 @@ widget
 -
 item
 ;
-let
+const
 target
 =
 gPanelWindow

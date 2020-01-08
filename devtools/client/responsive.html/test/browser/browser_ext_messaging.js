@@ -131,7 +131,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -146,7 +146,7 @@ openRDM
 tab
 )
 ;
-let
+const
 extension
 =
 ExtensionTestUtils
@@ -247,7 +247,7 @@ init
 let
 extTab
 ;
-let
+const
 contentMessage
 =
 new
@@ -270,7 +270,7 @@ content
 "
 )
 ;
-let
+const
 listener
 =
 async
@@ -309,7 +309,7 @@ message
 "
 )
 ;
-let
+const
 tabs
 =
 await
@@ -598,7 +598,7 @@ content
 "
 )
 ;
-let
+const
 contentSender
 =
 await
@@ -783,7 +783,7 @@ id
 "
 )
 ;
-let
+const
 {
 id
 }
@@ -891,7 +891,7 @@ content
 }
 )
 ;
-let
+const
 contentScriptReady
 =
 extension
@@ -907,7 +907,7 @@ ready
 "
 )
 ;
-let
+const
 backgroundScriptReady
 =
 extension
@@ -923,7 +923,7 @@ ready
 "
 )
 ;
-let
+const
 finish
 =
 extension

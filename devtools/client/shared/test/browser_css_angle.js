@@ -66,12 +66,12 @@ angle
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -81,12 +81,12 @@ blank
 "
 )
 ;
-let
+const
 [
 host
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -131,7 +131,7 @@ testAngleUtils
 (
 )
 {
-let
+const
 data
 =
 getTestData
@@ -140,7 +140,7 @@ getTestData
 ;
 for
 (
-let
+const
 {
 authored
 deg
@@ -152,7 +152,7 @@ of
 data
 )
 {
-let
+const
 angle
 =
 new
@@ -264,7 +264,7 @@ testAngleValidity
 (
 )
 {
-let
+const
 data
 =
 getAngleValidityData
@@ -273,7 +273,7 @@ getAngleValidityData
 ;
 for
 (
-let
+const
 {
 angle
 result
@@ -282,7 +282,7 @@ of
 data
 )
 {
-let
+const
 testAngle
 =
 new
@@ -293,7 +293,7 @@ CssAngle
 angle
 )
 ;
-let
+const
 validString
 =
 testAngle
@@ -342,7 +342,7 @@ grad
 turn
 )
 {
-let
+const
 {
 ANGLEUNIT
 }

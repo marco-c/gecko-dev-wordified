@@ -254,7 +254,7 @@ run_test
 (
 )
 {
-let
+const
 result
 =
 NetworkHelper

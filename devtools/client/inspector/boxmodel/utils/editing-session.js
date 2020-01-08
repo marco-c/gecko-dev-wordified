@@ -332,7 +332,7 @@ object
 if
 available
 .
-let
+const
 index
 =
 this
@@ -374,7 +374,7 @@ cssText
 locally
 otherwise
 .
-let
+const
 dummyStyle
 =
 this
@@ -462,7 +462,7 @@ for
 getPropertyFromRule
 to
 use
-let
+const
 div
 =
 this
@@ -568,7 +568,7 @@ that
 .
 for
 (
-let
+const
 rule
 of
 this
@@ -576,7 +576,7 @@ this
 _rules
 )
 {
-let
+const
 value
 =
 this
@@ -707,7 +707,7 @@ _rules
 ]
 )
 {
-let
+const
 elementStyleRule
 =
 this
@@ -823,7 +823,7 @@ properties
 {
 for
 (
-let
+const
 property
 of
 properties
@@ -875,7 +875,7 @@ a
 sequence
 here
 .
-let
+const
 modifications
 =
 this
@@ -1114,7 +1114,7 @@ why
 .
 for
 (
-let
+const
 [
 property
 value
@@ -1125,7 +1125,7 @@ this
 _modifications
 )
 {
-let
+const
 modifications
 =
 this

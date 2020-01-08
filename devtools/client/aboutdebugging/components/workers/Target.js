@@ -298,7 +298,7 @@ debug
 (
 )
 {
-let
+const
 {
 client
 target
@@ -323,7 +323,7 @@ render
 (
 )
 {
-let
+const
 {
 target
 debugDisabled

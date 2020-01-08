@@ -1465,7 +1465,7 @@ url
 {
 try
 {
-let
+const
 {
 fileName
 }
@@ -1602,7 +1602,7 @@ w
 h
 )
 {
-let
+const
 storage
 =
 getImageDataStorage
@@ -1817,7 +1817,7 @@ options
 }
 )
 {
-let
+const
 ctx
 =
 canvas
@@ -1884,7 +1884,7 @@ height
 return
 ;
 }
-let
+const
 imageData
 =
 getImageDataStorage
@@ -1910,7 +1910,7 @@ options
 centered
 )
 {
-let
+const
 left
 =
 (
@@ -1923,7 +1923,7 @@ width
 /
 2
 ;
-let
+const
 top
 =
 (
@@ -2055,7 +2055,7 @@ height
 pixels
 )
 {
-let
+const
 canvas
 =
 document
@@ -2185,7 +2185,7 @@ i
 +
 )
 {
-let
+const
 nextCall
 =
 calls
@@ -2193,7 +2193,7 @@ calls
 i
 ]
 ;
-let
+const
 name
 =
 nextCall
@@ -2280,7 +2280,7 @@ i
 -
 )
 {
-let
+const
 prevCall
 =
 calls
@@ -2288,7 +2288,7 @@ calls
 i
 ]
 ;
-let
+const
 screenshot
 =
 prevCall
@@ -2358,7 +2358,7 @@ i
 -
 )
 {
-let
+const
 thumbnail
 =
 thumbnails

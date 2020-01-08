@@ -85,7 +85,7 @@ html
 "
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -131,7 +131,7 @@ page
 "
 )
 ;
-let
+const
 onMarkupLoaded
 =
 waitForMarkupLoaded
@@ -211,7 +211,7 @@ value
 "
 )
 ;
-let
+const
 paddingElt
 =
 boxmodel
@@ -260,7 +260,7 @@ padding
 "
 )
 ;
-let
+const
 onUpdated
 =
 waitForUpdate

@@ -108,7 +108,7 @@ filter
 netxhr
 "
 ;
-let
+const
 {
 l10n
 }
@@ -191,7 +191,7 @@ gBrowser
 .
 selectedTab
 ;
-let
+const
 target
 =
 TargetFactory
@@ -201,7 +201,7 @@ forTab
 currentTab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools
@@ -211,7 +211,7 @@ getToolbox
 target
 )
 ;
-let
+const
 {
 ui
 }
@@ -287,7 +287,7 @@ executed
 await
 onNetworkMessageUpdate
 ;
-let
+const
 xhrUrl
 =
 TEST_PATH
@@ -300,7 +300,7 @@ data
 json
 "
 ;
-let
+const
 messageNode
 =
 await
@@ -317,7 +317,7 @@ xhrUrl
 )
 )
 ;
-let
+const
 statusCodeNode
 =
 messageNode
@@ -357,7 +357,7 @@ webConsoleMoreInfoLabel
 )
 )
 ;
-let
+const
 {
 middleMouseEvent
 ctrlOrCmdKeyMouseEvent
@@ -369,7 +369,7 @@ getMouseEvents
 (
 )
 ;
-let
+const
 testCases
 =
 [
@@ -438,7 +438,7 @@ null
 ;
 for
 (
-let
+const
 testCase
 of
 testCases
@@ -451,7 +451,7 @@ clickEvent
 =
 testCase
 ;
-let
+const
 onConsoleMenuOpened
 =
 [
@@ -481,7 +481,7 @@ open
 :
 null
 ;
-let
+const
 {
 link
 where
@@ -562,7 +562,7 @@ getMouseEvents
 (
 )
 {
-let
+const
 isOSX
 =
 Services
@@ -576,7 +576,7 @@ OS
 Darwin
 "
 ;
-let
+const
 middleMouseEvent
 =
 new
@@ -598,7 +598,7 @@ window
 }
 )
 ;
-let
+const
 ctrlOrCmdKeyMouseEvent
 =
 new
@@ -630,7 +630,7 @@ window
 }
 )
 ;
-let
+const
 rightClickMouseEvent
 =
 new
@@ -652,7 +652,7 @@ window
 }
 )
 ;
-let
+const
 rightClickCtrlOrCmdKeyMouseEvent
 =
 new

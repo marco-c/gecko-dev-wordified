@@ -339,7 +339,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -352,7 +352,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 domContentLoaded
 =
 waitForLinkedBrowserEvent
@@ -363,7 +363,7 @@ DOMContentLoaded
 "
 )
 ;
-let
+const
 pageLoaded
 =
 waitForLinkedBrowserEvent
@@ -441,7 +441,7 @@ menu
 "
 )
 ;
-let
+const
 markupLoaded
 =
 inspector

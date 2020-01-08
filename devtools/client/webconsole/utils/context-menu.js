@@ -406,7 +406,7 @@ rootActorId
 }
 )
 {
-let
+const
 win
 =
 parentNode
@@ -415,7 +415,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 selection
 =
 win
@@ -424,7 +424,7 @@ getSelection
 (
 )
 ;
-let
+const
 {
 source
 request
@@ -436,7 +436,7 @@ message
 {
 }
 ;
-let
+const
 menu
 =
 new
@@ -744,7 +744,7 @@ request
 return
 ;
 }
-let
+const
 mainWindow
 =
 Services
@@ -851,7 +851,7 @@ click
 =
 >
 {
-let
+const
 evalString
 =
 {
@@ -903,7 +903,7 @@ i
 ;
 }
 ;
-let
+const
 options
 =
 {
@@ -1332,7 +1332,7 @@ click
 =
 >
 {
-let
+const
 webconsoleOutput
 =
 parentNode

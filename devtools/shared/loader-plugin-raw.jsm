@@ -158,7 +158,7 @@ id
 require
 )
 {
-let
+const
 index
 =
 id
@@ -170,7 +170,7 @@ indexOf
 "
 )
 ;
-let
+const
 rawId
 =
 id
@@ -287,7 +287,7 @@ slice
 )
 ;
 }
-let
+const
 stream
 =
 NetUtil
@@ -318,7 +318,7 @@ open2
 (
 )
 ;
-let
+const
 count
 =
 stream
@@ -327,7 +327,7 @@ available
 (
 )
 ;
-let
+const
 data
 =
 NetUtil

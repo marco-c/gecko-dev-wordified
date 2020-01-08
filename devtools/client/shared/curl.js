@@ -583,7 +583,7 @@ function
 data
 )
 {
-let
+const
 utils
 =
 CurlUtils
@@ -597,7 +597,7 @@ curl
 "
 ]
 ;
-let
+const
 ignoredHeaders
 =
 new
@@ -635,7 +635,7 @@ page
 platform
 )
 .
-let
+const
 escapeString
 =
 Services
@@ -679,7 +679,7 @@ postDataText
 =
 null
 ;
-let
+const
 multipartRequest
 =
 utils
@@ -695,7 +695,7 @@ Create
 post
 data
 .
-let
+const
 postData
 =
 [
@@ -800,7 +800,7 @@ binary
 "
 )
 ;
-let
+const
 boundary
 =
 utils
@@ -810,7 +810,7 @@ getMultipartBoundary
 data
 )
 ;
-let
+const
 text
 =
 utils
@@ -1022,7 +1022,7 @@ if
 multipartRequest
 )
 {
-let
+const
 multipartHeaders
 =
 utils
@@ -1060,7 +1060,7 @@ i
 +
 )
 {
-let
+const
 header
 =
 headers
@@ -1310,7 +1310,7 @@ return
 true
 ;
 }
-let
+const
 contentType
 =
 this
@@ -1450,7 +1450,7 @@ return
 true
 ;
 }
-let
+const
 contentType
 =
 this
@@ -1542,7 +1542,7 @@ return
 "
 ;
 }
-let
+const
 lines
 =
 postDataText
@@ -1658,7 +1658,7 @@ toLowerCase
 ;
 for
 (
-let
+const
 header
 of
 headers
@@ -1740,7 +1740,7 @@ function
 data
 )
 {
-let
+const
 boundaryRe
 =
 /
@@ -1773,7 +1773,7 @@ Type
 request
 header
 .
-let
+const
 contentType
 =
 this
@@ -1856,7 +1856,7 @@ the
 request
 payload
 .
-let
+const
 boundaryString
 =
 data
@@ -1953,7 +1953,7 @@ boundary
 +
 boundary
 ;
-let
+const
 parts
 =
 multipartText
@@ -1965,7 +1965,7 @@ boundary
 ;
 for
 (
-let
+const
 part
 of
 parts
@@ -2081,7 +2081,7 @@ to
 the
 result
 .
-let
+const
 headers
 =
 part
@@ -2216,7 +2216,7 @@ function
 multipartText
 )
 {
-let
+const
 headers
 =
 [
@@ -2251,7 +2251,7 @@ the
 header
 section
 .
-let
+const
 index
 =
 multipartText
@@ -2290,7 +2290,7 @@ the
 header
 lines
 .
-let
+const
 headersText
 =
 multipartText
@@ -2301,7 +2301,7 @@ substring
 index
 )
 ;
-let
+const
 headerLines
 =
 headersText
@@ -2323,7 +2323,7 @@ null
 ;
 for
 (
-let
+const
 line
 of
 headerLines
@@ -2404,7 +2404,7 @@ trim
 continue
 ;
 }
-let
+const
 indexOfColon
 =
 line
@@ -2428,7 +2428,7 @@ indexOfColon
 continue
 ;
 }
-let
+const
 header
 =
 [

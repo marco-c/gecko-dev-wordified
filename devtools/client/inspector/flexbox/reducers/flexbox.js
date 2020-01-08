@@ -128,7 +128,7 @@ nodeFront
 null
 }
 ;
-let
+const
 reducers
 =
 {
@@ -196,7 +196,7 @@ INITIAL_FLEXBOX
 action
 )
 {
-let
+const
 reducer
 =
 reducers

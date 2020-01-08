@@ -265,7 +265,7 @@ html
 ;
 for
 (
-let
+const
 {
 color
 id
@@ -304,7 +304,7 @@ div
 >
 ;
 }
-let
+const
 tab
 =
 await
@@ -330,7 +330,7 @@ html
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -343,13 +343,13 @@ openRuleView
 ;
 for
 (
-let
+const
 color
 of
 colors
 )
 {
-let
+const
 selector
 =
 "
@@ -367,7 +367,7 @@ selector
 inspector
 )
 ;
-let
+const
 swatch
 =
 getRuleViewProperty
@@ -393,7 +393,7 @@ colorswatch
 "
 )
 ;
-let
+const
 cPicker
 =
 view
@@ -407,7 +407,7 @@ colorPicker
 "
 )
 ;
-let
+const
 onColorPickerReady
 =
 cPicker
@@ -459,14 +459,14 @@ rgb
 }
 )
 ;
-let
+const
 spectrum
 =
 cPicker
 .
 spectrum
 ;
-let
+const
 onHidden
 =
 cPicker
@@ -493,7 +493,7 @@ the
 rule
 view
 twice
-let
+const
 onRuleViewChanged
 =
 waitForNEvents
@@ -558,7 +558,7 @@ name
 )
 ;
 }
-let
+const
 target
 =
 TargetFactory

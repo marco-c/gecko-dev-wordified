@@ -502,7 +502,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -515,7 +515,7 @@ TEST_URL
 ;
 for
 (
-let
+const
 test
 of
 TEST_DATA
@@ -559,7 +559,7 @@ to
 "
 )
 ;
-let
+const
 {
 editor
 }
@@ -573,7 +573,7 @@ selector
 inspector
 )
 ;
-let
+const
 popupNode
 =
 editor
@@ -623,7 +623,7 @@ popupNode
 "
 )
 ;
-let
+const
 allMenuItems
 =
 openContextMenuAndGetAllItems
@@ -636,7 +636,7 @@ popupNode
 }
 )
 ;
-let
+const
 linkFollow
 =
 allMenuItems
@@ -663,7 +663,7 @@ follow
 "
 )
 ;
-let
+const
 linkCopy
 =
 allMenuItems

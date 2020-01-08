@@ -257,7 +257,7 @@ event
 packet
 )
 {
-let
+const
 obj
 =
 gThreadClient
@@ -292,7 +292,7 @@ runWithSource
 packet
 )
 {
-let
+const
 source
 =
 gThreadClient
@@ -383,7 +383,7 @@ k
 /
 line
 1
-let
+const
 arg
 =
 15
@@ -544,7 +544,7 @@ error
 error
 )
 ;
-let
+const
 sourceClient
 =
 gThreadClient

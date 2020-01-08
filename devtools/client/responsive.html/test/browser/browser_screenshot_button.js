@@ -92,7 +92,7 @@ function
 resolve
 )
 {
-let
+const
 {
 Downloads
 }
@@ -114,7 +114,7 @@ jsm
 "
 )
 ;
-let
+const
 list
 =
 await
@@ -127,7 +127,7 @@ Downloads
 ALL
 )
 ;
-let
+const
 view
 =
 {
@@ -199,7 +199,7 @@ toolWindow
 }
 )
 {
-let
+const
 {
 store
 document
@@ -243,7 +243,7 @@ button
 "
 )
 ;
-let
+const
 screenshotButton
 =
 document
@@ -265,20 +265,20 @@ click
 (
 )
 ;
-let
+const
 whenScreenshotSucceeded
 =
 waitUntilScreenshot
 (
 )
 ;
-let
+const
 filePath
 =
 await
 whenScreenshotSucceeded
 ;
-let
+const
 image
 =
 new
@@ -318,7 +318,7 @@ viewport
 at
 the
 moment
-let
+const
 viewport
 =
 store
@@ -332,7 +332,7 @@ viewports
 0
 ]
 ;
-let
+const
 ratio
 =
 window

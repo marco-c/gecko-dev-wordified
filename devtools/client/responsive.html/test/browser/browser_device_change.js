@@ -223,7 +223,7 @@ ui
 }
 )
 {
-let
+const
 {
 store
 }
@@ -432,7 +432,7 @@ device
 when
 resizing
 viewport
-let
+const
 deviceRemoved
 =
 once
@@ -648,7 +648,7 @@ openRDM
 tab
 )
 ;
-let
+const
 {
 store
 }
@@ -858,7 +858,7 @@ w
 h
 )
 {
-let
+const
 viewport
 =
 ui
@@ -950,7 +950,7 @@ ui
 expected
 )
 {
-let
+const
 dppx
 =
 await

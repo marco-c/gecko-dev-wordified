@@ -96,7 +96,7 @@ offsetParent
 null
 }
 ;
-let
+const
 reducers
 =
 {
@@ -188,7 +188,7 @@ INITIAL_BOX_MODEL
 action
 )
 {
-let
+const
 reducer
 =
 reducers

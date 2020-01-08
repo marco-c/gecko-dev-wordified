@@ -46,7 +46,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -58,14 +58,14 @@ initWebAudioEditor
 CONNECT_MULTI_PARAM_URL
 )
 ;
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -73,7 +73,7 @@ EVENTS
 =
 panelWin
 ;
-let
+const
 started
 =
 once
@@ -86,7 +86,7 @@ context
 "
 )
 ;
-let
+const
 events
 =
 Promise
@@ -119,7 +119,7 @@ reload
 target
 )
 ;
-let
+const
 [
 actors
 ]
@@ -127,7 +127,7 @@ actors
 await
 events
 ;
-let
+const
 nodeIDs
 =
 actors
@@ -142,7 +142,7 @@ actor
 actorID
 )
 ;
-let
+const
 [
 carrier
 gain
@@ -152,7 +152,7 @@ mod2
 =
 nodeIDs
 ;
-let
+const
 edges
 =
 [
@@ -222,7 +222,7 @@ i
 =
 >
 {
-let
+const
 edge
 =
 findGraphEdge

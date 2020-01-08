@@ -502,7 +502,7 @@ object
 name
 ]
 ;
-let
+const
 value
 =
 lambda
@@ -936,7 +936,7 @@ function
 (
 )
 {
-let
+const
 temp
 =
 {
@@ -1175,7 +1175,7 @@ obj
 property
 ]
 ;
-let
+const
 value
 =
 destructure
@@ -1363,7 +1363,7 @@ a
 sandbox
 instead
 .
-let
+const
 sandbox
 =
 Cu
@@ -1448,7 +1448,7 @@ Timer
 =
 >
 {
-let
+const
 {
 setTimeout
 clearTimeout
@@ -1842,7 +1842,7 @@ returning
 globals
 values
 .
-let
+const
 globals
 =
 {

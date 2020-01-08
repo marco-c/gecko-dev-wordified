@@ -81,7 +81,7 @@ win
 =
 >
 {
-let
+const
 edWin
 =
 ed
@@ -297,7 +297,7 @@ resolve
 }
 )
 ;
-let
+const
 autocompleteKey
 =
 Editor

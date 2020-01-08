@@ -61,7 +61,7 @@ testBug1091706
 (
 )
 {
-let
+const
 loader
 =
 new
@@ -69,14 +69,14 @@ DevToolsLoader
 (
 )
 ;
-let
+const
 require
 =
 loader
 .
 require
 ;
-let
+const
 indent1
 =
 require
@@ -90,7 +90,7 @@ indentation
 "
 )
 ;
-let
+const
 indent2
 =
 require

@@ -71,12 +71,12 @@ FlameGraph
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -86,7 +86,7 @@ blank
 "
 )
 ;
-yield
+await
 performTest
 (
 )
@@ -101,12 +101,11 @@ removeCurrentTab
 )
 ;
 function
-*
 performTest
 (
 )
 {
-let
+const
 out1
 =
 FlameGraphUtils
@@ -116,7 +115,7 @@ createFlameGraphDataFromThread
 TEST_DATA
 )
 ;
-let
+const
 out2
 =
 FlameGraphUtils
@@ -140,7 +139,7 @@ identical
 "
 )
 ;
-let
+const
 out3
 =
 FlameGraphUtils
@@ -177,7 +176,7 @@ removeFromCache
 TEST_DATA
 )
 ;
-let
+const
 out4
 =
 FlameGraphUtils

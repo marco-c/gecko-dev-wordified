@@ -471,7 +471,7 @@ generateCssProperties
 ;
 for
 (
-let
+const
 propertyName
 in
 CSS_PROPERTIES
@@ -966,7 +966,7 @@ object
 {
 for
 (
-let
+const
 key
 in
 a

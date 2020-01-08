@@ -55,7 +55,7 @@ test
 (
 )
 {
-let
+const
 FrameUtils
 =
 require
@@ -77,7 +77,7 @@ utils
 "
 )
 ;
-let
+const
 {
 FrameNode
 }
@@ -101,7 +101,7 @@ model
 "
 )
 ;
-let
+const
 {
 CATEGORY_MASK
 }
@@ -121,7 +121,7 @@ categories
 "
 )
 ;
-let
+const
 compute
 =
 frame
@@ -140,7 +140,7 @@ frame
 ;
 }
 ;
-let
+const
 frames
 =
 [
@@ -716,7 +716,7 @@ false
 )
 ]
 ;
-let
+const
 fields
 =
 [
@@ -754,7 +754,7 @@ port
 "
 ]
 ;
-let
+const
 expected
 =
 [
@@ -1139,7 +1139,7 @@ i
 +
 )
 {
-let
+const
 info
 =
 frames
@@ -1151,7 +1151,7 @@ getInfo
 (
 )
 ;
-let
+const
 expect
 =
 expected
@@ -1177,7 +1177,7 @@ j
 +
 )
 {
-let
+const
 field
 =
 fields
@@ -1185,7 +1185,7 @@ fields
 j
 ]
 ;
-let
+const
 value
 =
 field

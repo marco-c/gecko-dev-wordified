@@ -506,7 +506,7 @@ state
 entries
 )
 {
-let
+const
 newEntries
 =
 [

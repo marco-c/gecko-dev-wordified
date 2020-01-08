@@ -141,7 +141,7 @@ cacheable
 )
 ;
 }
-let
+const
 request
 =
 remainingRequest
@@ -153,7 +153,7 @@ split
 "
 )
 ;
-let
+const
 rawUrl
 =
 request

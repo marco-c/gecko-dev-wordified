@@ -333,7 +333,7 @@ node
 selectorOrNodeFront
 )
 ;
-let
+const
 nodeFront
 =
 await
@@ -343,7 +343,7 @@ selectorOrNodeFront
 inspector
 )
 ;
-let
+const
 updated
 =
 inspector
@@ -803,7 +803,7 @@ inspector
 reason
 )
 {
-let
+const
 onUpdate
 =
 waitForUpdate

@@ -756,7 +756,7 @@ viewedElement
 =
 viewedElement
 ;
-let
+const
 doc
 =
 this
@@ -985,7 +985,7 @@ sourceFilter
 value
 )
 {
-let
+const
 oldValue
 =
 this
@@ -1084,7 +1084,7 @@ allow
 such
 sheets
 .
-let
+const
 needFullUpdate
 =
 (
@@ -1140,7 +1140,7 @@ objects
 .
 for
 (
-let
+const
 property
 in
 this
@@ -1492,7 +1492,7 @@ Cache
 the
 sheet
 .
-let
+const
 cssSheet
 =
 this
@@ -1537,7 +1537,7 @@ rules
 .
 for
 (
-let
+const
 aDomRule
 of
 cssSheet
@@ -1657,7 +1657,7 @@ _cacheSheets
 )
 ;
 }
-let
+const
 sheets
 =
 [
@@ -2133,7 +2133,7 @@ scope
 {
 for
 (
-let
+const
 cacheId
 in
 this
@@ -2141,7 +2141,7 @@ this
 _sheets
 )
 {
-let
+const
 sheets
 =
 this
@@ -2183,7 +2183,7 @@ dead
 sheets
 try
 {
-let
+const
 sheet
 =
 sheets
@@ -2627,7 +2627,7 @@ i
 +
 )
 {
-let
+const
 rule
 =
 this
@@ -2640,7 +2640,7 @@ i
 0
 ]
 ;
-let
+const
 status
 =
 this
@@ -2985,7 +2985,7 @@ _buildMatchedRules
 )
 ;
 }
-let
+const
 result
 =
 {
@@ -3002,7 +3002,7 @@ function
 value
 )
 {
-let
+const
 rule
 =
 value
@@ -3010,7 +3010,7 @@ value
 0
 ]
 ;
-let
+const
 status
 =
 value
@@ -3188,7 +3188,7 @@ this
 .
 viewedElement
 ;
-let
+const
 filter
 =
 this
@@ -3230,7 +3230,7 @@ return
 }
 do
 {
-let
+const
 status
 =
 this
@@ -3292,7 +3292,7 @@ shadow
 DOM
 element
 .
-let
+const
 numDomRules
 =
 domRules
@@ -3319,7 +3319,7 @@ i
 +
 )
 {
-let
+const
 domRule
 =
 domRules
@@ -3343,7 +3343,7 @@ STYLE_RULE
 continue
 ;
 }
-let
+const
 sheet
 =
 this
@@ -3407,7 +3407,7 @@ contentSheet
 continue
 ;
 }
-let
+const
 rule
 =
 sheet
@@ -3486,7 +3486,7 @@ length
 0
 )
 {
-let
+const
 rule
 =
 new
@@ -3617,7 +3617,7 @@ function
 domObject
 )
 {
-let
+const
 mediaText
 =
 domObject
@@ -3895,13 +3895,13 @@ function
 domRule
 )
 {
-let
+const
 selectors
 =
 [
 ]
 ;
-let
+const
 len
 =
 InspectorUtils
@@ -3927,7 +3927,7 @@ i
 +
 )
 {
-let
+const
 text
 =
 InspectorUtils
@@ -4153,7 +4153,7 @@ return
 null
 ;
 }
-let
+const
 {
 bindingElement
 pseudo
@@ -4791,7 +4791,7 @@ _sheetAllowed
 =
 true
 ;
-let
+const
 filter
 =
 this
@@ -5098,7 +5098,7 @@ function
 domRule
 )
 {
-let
+const
 cacheId
 =
 domRule
@@ -5405,7 +5405,7 @@ domRule
 =
 domRule
 ;
-let
+const
 parentRule
 =
 domRule
@@ -5970,7 +5970,7 @@ this
 _selectors
 ;
 }
-let
+const
 selectors
 =
 CssLogic
@@ -7486,14 +7486,14 @@ selector
 status
 )
 {
-let
+const
 cssRule
 =
 selector
 .
 cssRule
 ;
-let
+const
 value
 =
 cssRule
@@ -7540,7 +7540,7 @@ property
 )
 )
 {
-let
+const
 selectorInfo
 =
 new
@@ -7599,7 +7599,7 @@ function
 (
 )
 {
-let
+const
 passId
 =
 +
@@ -7610,7 +7610,7 @@ _cssLogic
 .
 _passId
 ;
-let
+const
 iterator
 =
 function
@@ -7618,7 +7618,7 @@ function
 selectorInfo
 )
 {
-let
+const
 cssRule
 =
 selectorInfo
@@ -7861,7 +7861,7 @@ value
 =
 value
 ;
-let
+const
 priority
 =
 this

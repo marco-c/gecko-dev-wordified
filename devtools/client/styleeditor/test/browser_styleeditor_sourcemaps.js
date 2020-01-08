@@ -499,17 +499,17 @@ waitForExplicitFinish
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 ui
 }
 =
-yield
+await
 openStyleEditorForURL
 (
 TESTCASE_URI
@@ -557,7 +557,7 @@ editors
 Test
 Scss
 editors
-yield
+await
 testEditor
 (
 ui
@@ -569,7 +569,7 @@ editors
 origNames
 )
 ;
-yield
+await
 testEditor
 (
 ui
@@ -581,7 +581,7 @@ editors
 origNames
 )
 ;
-yield
+await
 testEditor
 (
 ui
@@ -599,7 +599,7 @@ Test
 disabling
 original
 sources
-yield
+await
 togglePref
 (
 ui
@@ -629,7 +629,7 @@ toggled
 Test
 CSS
 editors
-yield
+await
 testEditor
 (
 ui
@@ -641,7 +641,7 @@ editors
 cssNames
 )
 ;
-yield
+await
 testEditor
 (
 ui
@@ -653,7 +653,7 @@ editors
 cssNames
 )
 ;
-yield
+await
 testEditor
 (
 ui
@@ -683,7 +683,7 @@ testFirstEditor
 editor
 )
 {
-let
+const
 name
 =
 getStylesheetNameFor
@@ -718,7 +718,7 @@ editor
 possibleNames
 )
 {
-let
+const
 name
 =
 getStylesheetNameFor
@@ -757,7 +757,7 @@ then
 =
 >
 {
-let
+const
 expectedText
 =
 contents
@@ -765,7 +765,7 @@ contents
 name
 ]
 ;
-let
+const
 text
 =
 editor
@@ -805,7 +805,7 @@ togglePref
 UI
 )
 {
-let
+const
 editorsPromise
 =
 UI
@@ -819,7 +819,7 @@ reset
 "
 )
 ;
-let
+const
 selectedPromise
 =
 UI

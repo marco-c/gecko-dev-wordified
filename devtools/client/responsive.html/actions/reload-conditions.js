@@ -127,7 +127,7 @@ dispatch
 =
 >
 {
-let
+const
 pref
 =
 PREF_PREFIX
@@ -182,7 +182,7 @@ prefs
 .
 for
 (
-let
+const
 id
 in
 Types
@@ -214,14 +214,14 @@ state
 return
 ;
 }
-let
+const
 pref
 =
 PREF_PREFIX
 +
 id
 ;
-let
+const
 value
 =
 Services

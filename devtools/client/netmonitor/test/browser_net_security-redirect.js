@@ -62,7 +62,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -74,7 +74,7 @@ initNetMonitor
 CUSTOM_GET_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -85,7 +85,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -117,7 +117,7 @@ false
 )
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -183,7 +183,7 @@ redirect
 "
 )
 ;
-let
+const
 [
 initialSecurityIcon
 redirectSecurityIcon

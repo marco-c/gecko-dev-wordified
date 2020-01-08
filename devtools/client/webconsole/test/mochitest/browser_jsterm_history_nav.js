@@ -143,7 +143,7 @@ function
 (
 )
 {
-let
+const
 {
 jsterm
 }
@@ -154,7 +154,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 popup
 =
 jsterm
@@ -174,7 +174,7 @@ during
 the
 test
 .
-let
+const
 onShown
 =
 function
@@ -324,7 +324,7 @@ jsterm
 lastInputValue
 )
 ;
-let
+const
 onSetInputValue
 =
 jsterm

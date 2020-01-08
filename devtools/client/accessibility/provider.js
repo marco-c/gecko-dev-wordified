@@ -230,7 +230,7 @@ return
 ]
 ;
 }
-let
+const
 obj
 =
 this

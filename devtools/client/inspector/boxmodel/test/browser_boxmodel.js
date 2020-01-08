@@ -775,7 +775,7 @@ function
 (
 )
 {
-let
+const
 style
 =
 "
@@ -827,7 +827,7 @@ auto
 }
 "
 ;
-let
+const
 html
 =
 "
@@ -869,7 +869,7 @@ html
 )
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -932,7 +932,7 @@ correct
 "
 )
 ;
-let
+const
 doc
 =
 boxmodel
@@ -957,7 +957,7 @@ i
 +
 )
 {
-let
+const
 elt
 =
 doc
@@ -1025,14 +1025,14 @@ model
 "
 )
 ;
-let
+const
 doc
 =
 boxmodel
 .
 document
 ;
-let
+const
 onUpdated
 =
 waitForUpdate
@@ -1089,7 +1089,7 @@ i
 +
 )
 {
-let
+const
 elt
 =
 doc

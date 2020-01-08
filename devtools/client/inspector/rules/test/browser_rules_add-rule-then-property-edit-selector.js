@@ -161,7 +161,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -289,7 +289,7 @@ view
 index
 )
 {
-let
+const
 ruleEditor
 =
 getRuleViewRuleEditor
@@ -315,7 +315,7 @@ bold
 true
 )
 ;
-let
+const
 textProps
 =
 ruleEditor
@@ -324,7 +324,7 @@ rule
 .
 textProps
 ;
-let
+const
 lastRule
 =
 textProps
@@ -383,7 +383,7 @@ view
 name
 )
 {
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -408,7 +408,7 @@ view
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -472,7 +472,7 @@ update
 "
 )
 ;
-let
+const
 onRuleViewChanged
 =
 once
@@ -575,7 +575,7 @@ exists
 "
 )
 ;
-let
+const
 idRuleEditor
 =
 getRuleViewRuleEditor
@@ -584,7 +584,7 @@ view
 index
 )
 ;
-let
+const
 textProps
 =
 idRuleEditor
@@ -593,7 +593,7 @@ rule
 .
 textProps
 ;
-let
+const
 lastRule
 =
 textProps

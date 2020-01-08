@@ -147,7 +147,7 @@ url
 tests
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -170,7 +170,7 @@ expandAll
 ;
 for
 (
-let
+const
 test
 of
 tests
@@ -426,7 +426,7 @@ inspector
 testActor
 )
 {
-let
+const
 {
 selector
 expected
@@ -436,7 +436,7 @@ isSourceMapped
 =
 test
 ;
-let
+const
 container
 =
 await
@@ -466,7 +466,7 @@ testActor
 )
 ;
 }
-let
+const
 evHolder
 =
 container
@@ -533,7 +533,7 @@ hidden
 return
 ;
 }
-let
+const
 tooltip
 =
 inspector
@@ -660,7 +660,7 @@ sourceMapPromise
 /
 Check
 values
-let
+const
 headers
 =
 tooltip
@@ -677,14 +677,14 @@ header
 "
 )
 ;
-let
+const
 nodeFront
 =
 container
 .
 node
 ;
-let
+const
 cssSelector
 =
 nodeFront
@@ -735,7 +735,7 @@ for
 cssSelector
 )
 ;
-let
+const
 header
 =
 headers
@@ -743,7 +743,7 @@ headers
 i
 ]
 ;
-let
+const
 type
 =
 header
@@ -762,7 +762,7 @@ type
 "
 )
 ;
-let
+const
 filename
 =
 header
@@ -779,7 +779,7 @@ filename
 "
 )
 ;
-let
+const
 attributes
 =
 header
@@ -796,7 +796,7 @@ attributes
 "
 )
 ;
-let
+const
 contentBox
 =
 header
@@ -1034,7 +1034,7 @@ changed
 "
 )
 ;
-let
+const
 editor
 =
 tooltip
@@ -1178,7 +1178,7 @@ msg
 return
 ;
 }
-let
+const
 result
 =
 textDiff
@@ -1189,7 +1189,7 @@ text2
 ;
 for
 (
-let
+const
 {
 atom
 operation

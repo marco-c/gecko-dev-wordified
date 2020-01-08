@@ -125,7 +125,7 @@ scratchpad
 "
 )
 ;
-let
+const
 [
 win
 ]
@@ -136,7 +136,7 @@ openTabAndScratchpad
 options
 )
 ;
-let
+const
 menuToolbar
 =
 win
@@ -254,7 +254,7 @@ Scratchpad
 "
 )
 ;
-let
+const
 target
 =
 TargetFactory
@@ -266,7 +266,7 @@ gBrowser
 selectedTab
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -280,7 +280,7 @@ scratchpad
 "
 )
 ;
-let
+const
 menuToolbar
 =
 toolbox

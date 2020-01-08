@@ -68,7 +68,7 @@ state
 marker
 )
 {
-let
+const
 value
 =
 state

@@ -62,7 +62,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -74,7 +74,7 @@ initWebAudioEditor
 SIMPLE_CONTEXT_URL
 )
 ;
-let
+const
 {
 gFront
 }
@@ -422,7 +422,7 @@ started
 ]
 )
 ;
-let
+const
 rendered
 =
 waitForGraphRendered

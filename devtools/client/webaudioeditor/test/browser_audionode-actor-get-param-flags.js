@@ -46,7 +46,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 front
@@ -58,7 +58,7 @@ initBackend
 SIMPLE_NODES_URL
 )
 ;
-let
+const
 [
 _
 nodes
@@ -93,7 +93,7 @@ node
 ]
 )
 ;
-let
+const
 allNodeParams
 =
 await
@@ -116,7 +116,7 @@ getParams
 )
 )
 ;
-let
+const
 nodeTypes
 =
 [
@@ -208,7 +208,7 @@ i
 +
 )
 {
-let
+const
 type
 =
 nodeTypes
@@ -216,7 +216,7 @@ nodeTypes
 i
 ]
 ;
-let
+const
 params
 =
 allNodeParams
@@ -226,7 +226,7 @@ i
 ;
 for
 (
-let
+const
 {
 param
 value
@@ -236,7 +236,7 @@ of
 params
 )
 {
-let
+const
 testFlags
 =
 await

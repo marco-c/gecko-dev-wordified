@@ -318,7 +318,7 @@ PROFILER_BUFFER_SIZE_PREF
 1000000
 )
 ;
-let
+const
 {
 target
 console
@@ -337,7 +337,7 @@ window
 }
 )
 ;
-let
+const
 {
 panel
 }
@@ -354,7 +354,7 @@ tab
 }
 )
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -385,7 +385,7 @@ setProfilerStatusInterval
 10
 )
 ;
-let
+const
 DETAILS_CONTAINER
 =
 (
@@ -399,7 +399,7 @@ container
 "
 )
 ;
-let
+const
 NORMAL_BUFFER_STATUS_MESSAGE
 =
 (
@@ -417,7 +417,7 @@ message
 "
 )
 ;
-let
+const
 CONSOLE_BUFFER_STATUS_MESSAGE
 =
 (

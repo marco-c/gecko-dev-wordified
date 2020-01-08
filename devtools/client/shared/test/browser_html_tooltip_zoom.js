@@ -121,7 +121,7 @@ getTooltipContent
 doc
 )
 {
-let
+const
 div
 =
 doc
@@ -185,7 +185,7 @@ function
 (
 )
 {
-let
+const
 [
 host
 doc
@@ -247,7 +247,7 @@ the
 toolbox
 preferences
 .
-let
+const
 contentViewer
 =
 host
@@ -264,7 +264,7 @@ fullZoom
 =
 zoom
 ;
-let
+const
 tooltip
 =
 new
@@ -338,7 +338,7 @@ fired
 "
 )
 ;
-let
+const
 onShown
 =
 tooltip
@@ -367,7 +367,7 @@ box1
 await
 onShown
 ;
-let
+const
 menuRect
 =
 doc
@@ -398,7 +398,7 @@ doc
 .
 bounds
 ;
-let
+const
 anchorRect
 =
 doc
@@ -424,7 +424,7 @@ doc
 .
 bounds
 ;
-let
+const
 xDelta
 =
 Math
@@ -440,7 +440,7 @@ anchorRect
 left
 )
 ;
-let
+const
 yDelta
 =
 Math
@@ -546,7 +546,7 @@ fired
 "
 )
 ;
-let
+const
 onPopupHidden
 =
 tooltip

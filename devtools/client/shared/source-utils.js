@@ -696,7 +696,7 @@ com
 :
 8888
 "
-let
+const
 isChrome
 =
 isChromeScheme
@@ -1008,7 +1008,7 @@ getSourceNames
 source
 )
 {
-let
+const
 data
 =
 gSourceNamesStore
@@ -1062,7 +1062,7 @@ sourceStr
 )
 )
 {
-let
+const
 commaIndex
 =
 sourceStr
@@ -1129,7 +1129,7 @@ slice
 100
 )
 ;
-let
+const
 result
 =
 {
@@ -1184,7 +1184,7 @@ sourceStr
 )
 )
 {
-let
+const
 result
 =
 {
@@ -1433,7 +1433,7 @@ slice
 )
 ;
 }
-let
+const
 result
 =
 {
@@ -1832,7 +1832,7 @@ i
 0
 )
 {
-let
+const
 firstChar
 =
 location
@@ -2149,7 +2149,7 @@ i
 0
 )
 {
-let
+const
 firstChar
 =
 location

@@ -185,7 +185,7 @@ sidebarToggle
 true
 )
 ;
-let
+const
 hud
 =
 await
@@ -194,7 +194,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 message
 =
 findMessage
@@ -205,7 +205,7 @@ foo
 "
 )
 ;
-let
+const
 [
 objectA
 objectB
@@ -227,7 +227,7 @@ object
 "
 )
 ;
-let
+const
 number
 =
 findMessage
@@ -242,7 +242,7 @@ objectBox
 "
 )
 ;
-let
+const
 string
 =
 findMessage
@@ -257,7 +257,7 @@ objectBox
 "
 )
 ;
-let
+const
 bool
 =
 findMessage
@@ -272,7 +272,7 @@ objectBox
 "
 )
 ;
-let
+const
 nullMessage
 =
 findMessage
@@ -287,7 +287,7 @@ objectBox
 "
 )
 ;
-let
+const
 undefinedMsg
 =
 findMessage
@@ -741,7 +741,7 @@ number
 "
 )
 ;
-let
+const
 numberContextMenuEnabled
 =
 await
@@ -780,7 +780,7 @@ string
 "
 )
 ;
-let
+const
 stringContextMenuEnabled
 =
 await
@@ -819,7 +819,7 @@ bool
 "
 )
 ;
-let
+const
 boolContextMenuEnabled
 =
 await
@@ -859,7 +859,7 @@ message
 "
 )
 ;
-let
+const
 nullContextMenuEnabled
 =
 await
@@ -899,7 +899,7 @@ message
 "
 )
 ;
-let
+const
 undefinedContextMenuEnabled
 =
 await
@@ -936,7 +936,7 @@ node
 expectMutation
 )
 {
-let
+const
 wrapper
 =
 hud
@@ -957,7 +957,7 @@ wrapper
 "
 )
 ;
-let
+const
 onSidebarShown
 =
 waitForNodeMutation
@@ -970,7 +970,7 @@ true
 }
 )
 ;
-let
+const
 contextMenu
 =
 await
@@ -980,7 +980,7 @@ hud
 node
 )
 ;
-let
+const
 openInSidebar
 =
 contextMenu
@@ -1029,7 +1029,7 @@ hud
 node
 )
 {
-let
+const
 contextMenu
 =
 await
@@ -1039,7 +1039,7 @@ hud
 node
 )
 ;
-let
+const
 openInSidebar
 =
 contextMenu
@@ -1058,7 +1058,7 @@ sidebar
 "
 )
 ;
-let
+const
 enabled
 =
 !

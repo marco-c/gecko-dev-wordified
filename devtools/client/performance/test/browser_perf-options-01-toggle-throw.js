@@ -100,17 +100,17 @@ utils
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 {
 panel
 }
 =
-yield
+await
 initPerformanceInNewTab
 (
 {
@@ -123,7 +123,7 @@ window
 }
 )
 ;
-let
+const
 {
 DetailsView
 JsCallTreeView
@@ -133,7 +133,7 @@ panel
 .
 panelWin
 ;
-yield
+await
 DetailsView
 .
 selectView
@@ -219,7 +219,7 @@ fail
 )
 ;
 }
-yield
+await
 teardownToolboxAndRemoveTab
 (
 panel

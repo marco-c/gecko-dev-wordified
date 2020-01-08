@@ -189,7 +189,7 @@ render
 (
 )
 {
-let
+const
 {
 onRecordButtonClick
 isRecording
@@ -200,7 +200,7 @@ this
 .
 props
 ;
-let
+const
 classList
 =
 [

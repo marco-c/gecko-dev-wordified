@@ -1171,7 +1171,7 @@ div
 /
 div
 >
-let
+const
 content
 =
 this
@@ -1182,7 +1182,7 @@ createDocumentFragment
 (
 )
 ;
-let
+const
 filterListWrapper
 =
 this
@@ -1256,7 +1256,7 @@ this
 filterList
 )
 ;
-let
+const
 filterListFooter
 =
 this
@@ -1327,7 +1327,7 @@ this
 filterSelect
 )
 ;
-let
+const
 filterListPlaceholder
 =
 this
@@ -1375,7 +1375,7 @@ appendChild
 filterListPlaceholder
 )
 ;
-let
+const
 addFilter
 =
 this
@@ -1491,7 +1491,7 @@ this
 togglePresets
 )
 ;
-let
+const
 presetListWrapper
 =
 this
@@ -1565,7 +1565,7 @@ this
 presetList
 )
 ;
-let
+const
 presetListFooter
 =
 this
@@ -1839,7 +1839,7 @@ function
 (
 )
 {
-let
+const
 select
 =
 this
@@ -1854,7 +1854,7 @@ filter
 =
 >
 {
-let
+const
 option
 =
 this
@@ -1931,7 +1931,7 @@ function
 (
 )
 {
-let
+const
 base
 =
 this
@@ -1954,7 +1954,7 @@ className
 filter
 "
 ;
-let
+const
 name
 =
 this
@@ -1979,7 +1979,7 @@ filter
 name
 "
 ;
-let
+const
 value
 =
 this
@@ -2004,7 +2004,7 @@ filter
 value
 "
 ;
-let
+const
 drag
 =
 this
@@ -2032,7 +2032,7 @@ dragHandleTooltipText
 "
 )
 ;
-let
+const
 label
 =
 this
@@ -2061,7 +2061,7 @@ appendChild
 label
 )
 ;
-let
+const
 unitPreview
 =
 this
@@ -2076,7 +2076,7 @@ span
 "
 )
 ;
-let
+const
 input
 =
 this
@@ -2118,7 +2118,7 @@ appendChild
 unitPreview
 )
 ;
-let
+const
 removeButton
 =
 this
@@ -2177,7 +2177,7 @@ function
 (
 )
 {
-let
+const
 base
 =
 this
@@ -2203,7 +2203,7 @@ preset
 "
 )
 ;
-let
+const
 name
 =
 this
@@ -2225,7 +2225,7 @@ appendChild
 name
 )
 ;
-let
+const
 value
 =
 this
@@ -2247,7 +2247,7 @@ appendChild
 value
 )
 ;
-let
+const
 removeButton
 =
 this
@@ -2753,7 +2753,7 @@ keyCode
 return
 ;
 }
-let
+const
 input
 =
 e
@@ -2905,7 +2905,7 @@ filter
 unit
 )
 {
-let
+const
 startValue
 =
 parseFloat
@@ -2995,7 +2995,7 @@ input
 .
 selectionStart
 ;
-let
+const
 num
 =
 getNeighbourNumber
@@ -3024,7 +3024,7 @@ value
 =
 num
 ;
-let
+const
 split
 =
 input
@@ -3049,7 +3049,7 @@ direction
 multiplier
 )
 ;
-let
+const
 dotIndex
 =
 computed
@@ -3154,7 +3154,7 @@ function
 e
 )
 {
-let
+const
 filterEl
 =
 e
@@ -3169,7 +3169,7 @@ filter
 "
 )
 ;
-let
+const
 index
 =
 this
@@ -3179,7 +3179,7 @@ _getFilterElementIndex
 filterEl
 )
 ;
-let
+const
 filter
 =
 this
@@ -3189,7 +3189,7 @@ filters
 index
 ]
 ;
-let
+const
 def
 =
 this
@@ -3250,7 +3250,7 @@ function
 e
 )
 {
-let
+const
 filterEl
 =
 e
@@ -3354,14 +3354,14 @@ draglabel
 )
 )
 {
-let
+const
 label
 =
 e
 .
 target
 ;
-let
+const
 input
 =
 filterEl
@@ -3373,7 +3373,7 @@ input
 "
 )
 ;
-let
+const
 index
 =
 this
@@ -3486,7 +3486,7 @@ isRemoveButton
 return
 ;
 }
-let
+const
 filterEl
 =
 e
@@ -3501,7 +3501,7 @@ filter
 "
 )
 ;
-let
+const
 index
 =
 this
@@ -3576,7 +3576,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 top
 =
 e
@@ -3585,7 +3585,7 @@ pageY
 -
 LIST_PADDING
 ;
-let
+const
 bottom
 =
 e
@@ -3914,14 +3914,14 @@ function
 e
 )
 {
-let
+const
 dragging
 =
 this
 .
 _dragging
 ;
-let
+const
 input
 =
 dragging
@@ -4125,7 +4125,7 @@ isReorderingFilter
 return
 ;
 }
-let
+const
 filterEl
 =
 this
@@ -4207,14 +4207,14 @@ function
 e
 )
 {
-let
+const
 el
 =
 e
 .
 target
 ;
-let
+const
 preset
 =
 el
@@ -4236,7 +4236,7 @@ preset
 return
 ;
 }
-let
+const
 id
 =
 +
@@ -4324,7 +4324,7 @@ on
 a
 preset
 .
-let
+const
 p
 =
 presets
@@ -4403,7 +4403,7 @@ preventDefault
 (
 )
 ;
-let
+const
 name
 =
 this
@@ -4412,7 +4412,7 @@ addPresetInput
 .
 value
 ;
-let
+const
 value
 =
 this
@@ -4467,7 +4467,7 @@ presets
 =
 >
 {
-let
+const
 index
 =
 presets
@@ -4702,7 +4702,7 @@ innerHTML
 "
 "
 ;
-let
+const
 base
 =
 this
@@ -4711,7 +4711,7 @@ _filterItemMarkup
 ;
 for
 (
-let
+const
 filter
 of
 this
@@ -4731,7 +4731,7 @@ filter
 name
 )
 ;
-let
+const
 el
 =
 base
@@ -4741,7 +4741,7 @@ cloneNode
 true
 )
 ;
-let
+const
 [
 name
 value
@@ -4751,7 +4751,7 @@ el
 .
 children
 ;
-let
+const
 label
 =
 name
@@ -4761,7 +4761,7 @@ children
 1
 ]
 ;
-let
+const
 [
 input
 unitPreview
@@ -4994,7 +4994,7 @@ el
 )
 ;
 }
-let
+const
 lastInput
 =
 this
@@ -5182,7 +5182,7 @@ render
 return
 ;
 }
-let
+const
 base
 =
 this
@@ -5200,7 +5200,7 @@ innerHTML
 ;
 for
 (
-let
+const
 [
 index
 preset
@@ -5213,7 +5213,7 @@ entries
 )
 )
 {
-let
+const
 el
 =
 base
@@ -5223,7 +5223,7 @@ cloneNode
 true
 )
 ;
-let
+const
 [
 label
 span
@@ -6110,7 +6110,7 @@ function
 index
 )
 {
-let
+const
 filter
 =
 this
@@ -6531,7 +6531,7 @@ index
 value
 )
 {
-let
+const
 filter
 =
 this
@@ -6728,7 +6728,7 @@ a
 number
 )
 {
-let
+const
 fixed
 =
 parseFloat
@@ -6892,7 +6892,7 @@ tokenizeFilterValue
 css
 )
 {
-let
+const
 filters
 =
 [
@@ -6932,7 +6932,7 @@ contents
 ;
 for
 (
-let
+const
 token
 of
 cssTokenizer
@@ -7021,7 +7021,7 @@ from
 the
 url
 .
-let
+const
 originalText
 =
 css
@@ -7036,7 +7036,7 @@ token
 endOffset
 )
 ;
-let
+const
 [
 quote
 ]

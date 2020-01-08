@@ -176,7 +176,7 @@ test
 might
 fail
 .
-let
+const
 {
 Toolbox
 }
@@ -201,7 +201,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -229,7 +229,7 @@ sidebar
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -342,7 +342,7 @@ menu
 )
 )
 ;
-let
+const
 toolsMenuButton
 =
 toolbox
@@ -388,7 +388,7 @@ hidden
 "
 )
 ;
-let
+const
 storageButton
 =
 toolbox
@@ -447,7 +447,7 @@ function
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -475,7 +475,7 @@ sidebar
 "
 )
 ;
-let
+const
 toolbox
 =
 await
@@ -526,7 +526,7 @@ tab
 "
 )
 ;
-let
+const
 onRegistered
 =
 toolbox
@@ -704,7 +704,7 @@ tools
 "
 )
 ;
-let
+const
 onUnregistered
 =
 toolbox

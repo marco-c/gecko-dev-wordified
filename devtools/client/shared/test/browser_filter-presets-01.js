@@ -94,17 +94,17 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -140,7 +140,7 @@ container
 "
 )
 ;
-let
+const
 widget
 =
 new
@@ -157,7 +157,7 @@ cssIsValid
 /
 First
 render
-yield
+await
 widget
 .
 once
@@ -189,7 +189,7 @@ NAME
 Test
 "
 ;
-yield
+await
 showFilterPopupPresetsAndCreatePreset
 (
 widget
@@ -197,7 +197,7 @@ NAME
 VALUE
 )
 ;
-let
+const
 preset
 =
 widget
@@ -260,14 +260,14 @@ correctly
 let
 list
 =
-yield
+await
 widget
 .
 getPresets
 (
 )
 ;
-let
+const
 input
 =
 widget
@@ -370,7 +370,7 @@ setCssValue
 VALUE_2
 )
 ;
-yield
+await
 savePreset
 (
 widget
@@ -408,7 +408,7 @@ render
 ;
 list
 =
-yield
+await
 widget
 .
 getPresets
@@ -484,7 +484,7 @@ value
 "
 )
 ;
-yield
+await
 widget
 .
 setPresets
@@ -512,7 +512,7 @@ value
 "
 "
 ;
-yield
+await
 savePreset
 (
 widget
@@ -527,7 +527,7 @@ error
 ;
 list
 =
-yield
+await
 widget
 .
 getPresets
@@ -578,7 +578,7 @@ none
 "
 )
 ;
-yield
+await
 savePreset
 (
 widget
@@ -593,7 +593,7 @@ error
 ;
 list
 =
-yield
+await
 widget
 .
 getPresets
@@ -680,7 +680,7 @@ render
 "
 )
 {
-let
+const
 onEvent
 =
 widget

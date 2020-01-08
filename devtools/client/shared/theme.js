@@ -227,7 +227,7 @@ light
 as
 default
 .
-let
+const
 selector
 =
 THEME_SELECTOR_STRINGS
@@ -484,7 +484,7 @@ theme
 =
 >
 {
-let
+const
 themeName
 =
 theme
@@ -532,7 +532,7 @@ type
 )
 )
 ;
-let
+const
 variableMatch
 =
 match

@@ -266,7 +266,7 @@ event
 packet
 )
 {
-let
+const
 source
 =
 gThreadClient

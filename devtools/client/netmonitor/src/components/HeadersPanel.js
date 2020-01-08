@@ -721,7 +721,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 request
 connector
@@ -756,7 +756,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 request
 connector
@@ -802,7 +802,7 @@ headers
 length
 )
 {
-let
+const
 headerKey
 =
 {
@@ -820,7 +820,7 @@ headersSize
 }
 )
 ;
-let
+const
 propertiesResult
 =
 {
@@ -973,7 +973,7 @@ return
 null
 ;
 }
-let
+const
 headerDocURL
 =
 getHeadersURL
@@ -1099,7 +1099,7 @@ this
 .
 props
 ;
-let
+const
 item
 =
 {
@@ -1169,7 +1169,7 @@ HEADERS_EMPTY_TEXT
 )
 ;
 }
-let
+const
 object
 =
 Object
@@ -1209,7 +1209,7 @@ showing
 hash
 in
 url
-let
+const
 summaryUrl
 =
 urlDetails
@@ -1238,7 +1238,7 @@ split
 :
 null
 ;
-let
+const
 summaryMethod
 =
 method
@@ -1253,7 +1253,7 @@ method
 :
 null
 ;
-let
+const
 summaryAddress
 =
 remoteAddress
@@ -1280,7 +1280,7 @@ if
 status
 )
 {
-let
+const
 statusCodeDocURL
 =
 getHTTPStatusCodeURL
@@ -1292,7 +1292,7 @@ toString
 )
 )
 ;
-let
+const
 toggleRawHeadersClassList
 =
 [
@@ -1460,7 +1460,7 @@ RAW_HEADERS
 )
 ;
 }
-let
+const
 summaryVersion
 =
 httpVersion
@@ -1485,7 +1485,7 @@ above
 other
 response
 headers
-let
+const
 statusLine
 =
 {

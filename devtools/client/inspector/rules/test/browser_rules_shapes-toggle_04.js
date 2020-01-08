@@ -158,7 +158,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -169,7 +169,7 @@ openRuleView
 (
 )
 ;
-let
+const
 highlighters
 =
 view
@@ -199,7 +199,7 @@ shape
 inspector
 )
 ;
-let
+const
 container
 =
 getRuleViewProperty
@@ -251,7 +251,7 @@ view
 "
 )
 ;
-let
+const
 onHighlighterShown
 =
 highlighters
@@ -291,7 +291,7 @@ ellipse
 "
 )
 ;
-let
+const
 editor
 =
 await
@@ -302,7 +302,7 @@ container
 30
 )
 ;
-let
+const
 onDone
 =
 view

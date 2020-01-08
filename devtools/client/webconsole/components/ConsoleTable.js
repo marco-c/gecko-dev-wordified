@@ -386,7 +386,7 @@ parameters
 ]
 )
 ;
-let
+const
 dataType
 =
 getParametersDataType
@@ -420,7 +420,7 @@ getHeaders
 columns
 )
 {
-let
+const
 headerItems
 =
 [
@@ -497,7 +497,7 @@ index
 =
 >
 {
-let
+const
 cells
 =
 [
@@ -859,13 +859,13 @@ Map
 (
 )
 ;
-let
+const
 items
 =
 [
 ]
 ;
-let
+const
 addItem
 =
 function
@@ -900,7 +900,7 @@ key
 ;
 }
 ;
-let
+const
 addColumn
 =
 function
@@ -908,7 +908,7 @@ function
 columnIndex
 )
 {
-let
+const
 columnExists
 =
 columns
@@ -918,7 +918,7 @@ has
 columnIndex
 )
 ;
-let
+const
 hasMaxColumns
 =
 columns
@@ -928,7 +928,7 @@ size
 =
 TABLE_COLUMN_MAX_ITEMS
 ;
-let
+const
 hasCustomHeaders
 =
 Array
@@ -1029,7 +1029,7 @@ index
 )
 ;
 }
-let
+const
 item
 =
 {
@@ -1040,7 +1040,7 @@ INDEX_NAME
 index
 }
 ;
-let
+const
 property
 =
 data
@@ -1057,14 +1057,14 @@ property
 preview
 )
 {
-let
+const
 {
 preview
 }
 =
 property
 ;
-let
+const
 entries
 =
 preview
@@ -1083,7 +1083,7 @@ entries
 {
 for
 (
-let
+const
 key
 of
 Object
@@ -1094,7 +1094,7 @@ entries
 )
 )
 {
-let
+const
 entry
 =
 entries
@@ -1276,7 +1276,7 @@ INDEX_NAME
 )
 )
 {
-let
+const
 index
 =
 columns
@@ -1336,7 +1336,7 @@ VALUE_NAME
 )
 )
 {
-let
+const
 index
 =
 columns

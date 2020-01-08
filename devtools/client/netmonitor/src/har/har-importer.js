@@ -192,7 +192,7 @@ function
 har
 )
 {
-let
+const
 json
 =
 JSON
@@ -232,7 +232,7 @@ map
 for
 pages
 .
-let
+const
 pages
 =
 new
@@ -288,7 +288,7 @@ entry
 =
 >
 {
-let
+const
 requestId
 =
 String
@@ -298,7 +298,7 @@ String
 guid
 )
 ;
-let
+const
 startedMillis
 =
 Date
@@ -491,7 +491,7 @@ type
 =
 >
 {
-let
+const
 time
 =
 entry
@@ -628,7 +628,7 @@ false
 Page
 timing
 markers
-let
+const
 pageTimings
 =
 pages

@@ -90,7 +90,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -119,7 +119,7 @@ inspector
 view
 )
 {
-let
+const
 node
 =
 await
@@ -141,7 +141,7 @@ node
 inspector
 )
 ;
-let
+const
 float
 =
 getComputedViewPropertyValue
@@ -169,7 +169,7 @@ float
 "
 )
 ;
-let
+const
 children
 =
 await
@@ -202,7 +202,7 @@ children
 "
 )
 ;
-let
+const
 beforeElement
 =
 children
@@ -275,7 +275,7 @@ left
 "
 )
 ;
-let
+const
 afterElement
 =
 children

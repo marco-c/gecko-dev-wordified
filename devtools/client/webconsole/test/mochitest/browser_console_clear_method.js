@@ -156,7 +156,7 @@ loadTab
 TEST_URI
 )
 ;
-let
+const
 hud
 =
 await

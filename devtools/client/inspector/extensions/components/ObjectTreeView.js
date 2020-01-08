@@ -231,7 +231,7 @@ this
 .
 props
 ;
-let
+const
 columns
 =
 [
@@ -264,7 +264,7 @@ has
 children
 )
 .
-let
+const
 renderValue
 =
 props

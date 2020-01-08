@@ -358,7 +358,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -371,7 +371,7 @@ openRuleView
 ;
 for
 (
-let
+const
 {
 selector
 expectedTextContent
@@ -404,7 +404,7 @@ selector
 selector
 )
 ;
-let
+const
 prop
 =
 getRuleViewProperty

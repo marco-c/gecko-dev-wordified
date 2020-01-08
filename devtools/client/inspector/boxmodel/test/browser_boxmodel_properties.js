@@ -343,7 +343,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -406,7 +406,7 @@ correct
 "
 )
 ;
-let
+const
 doc
 =
 boxmodel
@@ -415,7 +415,7 @@ document
 ;
 for
 (
-let
+const
 {
 property
 value
@@ -424,7 +424,7 @@ of
 res1
 )
 {
-let
+const
 elt
 =
 doc
@@ -480,14 +480,14 @@ model
 "
 )
 ;
-let
+const
 doc
 =
 boxmodel
 .
 document
 ;
-let
+const
 onUpdated
 =
 waitForUpdate
@@ -546,7 +546,7 @@ onUpdated
 ;
 for
 (
-let
+const
 {
 property
 value
@@ -555,7 +555,7 @@ of
 res2
 )
 {
-let
+const
 elt
 =
 doc

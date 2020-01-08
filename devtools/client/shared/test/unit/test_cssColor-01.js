@@ -343,7 +343,7 @@ input
 isColor
 )
 {
-let
+const
 ours
 =
 colorUtils
@@ -353,7 +353,7 @@ colorToRGBA
 input
 )
 ;
-let
+const
 platform
 =
 InspectorUtils
@@ -439,13 +439,13 @@ run_test
 {
 for
 (
-let
+const
 test
 of
 CLASSIFY_TESTS
 )
 {
-let
+const
 result
 =
 colorUtils
@@ -478,7 +478,7 @@ input
 "
 )
 ;
-let
+const
 obj
 =
 new
@@ -581,7 +581,7 @@ for
 bug
 1303826
 .
-let
+const
 black
 =
 new
@@ -625,7 +625,7 @@ cycling
 "
 )
 ;
-let
+const
 upper
 =
 new

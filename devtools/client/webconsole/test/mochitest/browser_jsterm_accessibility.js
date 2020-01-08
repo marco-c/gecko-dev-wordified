@@ -144,7 +144,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -153,14 +153,14 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 jsterm
 =
 hud
 .
 jsterm
 ;
-let
+const
 input
 =
 jsterm
@@ -331,7 +331,7 @@ event
 "
 )
 ;
-let
+const
 onPopupClosed
 =
 jsterm
@@ -397,7 +397,7 @@ jsterm
 value
 )
 {
-let
+const
 popup
 =
 jsterm

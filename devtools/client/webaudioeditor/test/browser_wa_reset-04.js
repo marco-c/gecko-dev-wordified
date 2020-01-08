@@ -69,7 +69,7 @@ enabled
 true
 )
 ;
-let
+const
 {
 target
 panel
@@ -82,7 +82,7 @@ initWebAudioEditor
 IFRAME_CONTEXT_URL
 )
 ;
-let
+const
 {
 gFront
 }
@@ -176,7 +176,7 @@ hidden
 "
 )
 ;
-let
+const
 btn
 =
 toolbox
@@ -227,7 +227,7 @@ on
 the
 screen
 .
-let
+const
 menu
 =
 await
@@ -251,7 +251,7 @@ open
 "
 )
 ;
-let
+const
 frames
 =
 menu
@@ -412,7 +412,7 @@ navigate
 "
 )
 ;
-let
+const
 started
 =
 once

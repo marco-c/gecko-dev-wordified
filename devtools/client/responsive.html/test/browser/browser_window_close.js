@@ -39,7 +39,7 @@ function
 (
 )
 {
-let
+const
 newWindowPromise
 =
 BrowserTestUtils
@@ -70,7 +70,7 @@ _blank
 "
 )
 ;
-let
+const
 newWindow
 =
 await
@@ -94,7 +94,7 @@ gBrowser
 selectedBrowser
 )
 ;
-let
+const
 tab
 =
 newWindow
@@ -168,7 +168,7 @@ closed
 "
 )
 ;
-let
+const
 offPromise
 =
 once

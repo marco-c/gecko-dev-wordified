@@ -48,7 +48,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 front
@@ -60,7 +60,7 @@ initBackend
 DESTROY_NODES_URL
 )
 ;
-let
+const
 [
 created
 ]
@@ -119,7 +119,7 @@ node
 ]
 )
 ;
-let
+const
 waitUntilDestroyed
 =
 getN
@@ -154,7 +154,7 @@ forceNodeCollection
 (
 )
 ;
-let
+const
 destroyed
 =
 await

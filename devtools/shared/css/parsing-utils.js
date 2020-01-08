@@ -527,7 +527,7 @@ cssTokenizer
 string
 )
 {
-let
+const
 lexer
 =
 getCSSLexer
@@ -540,7 +540,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 lexer
@@ -781,7 +781,7 @@ cssTokenizerWithLineColumn
 string
 )
 {
-let
+const
 lexer
 =
 getCSSLexer
@@ -789,7 +789,7 @@ getCSSLexer
 string
 )
 ;
-let
+const
 result
 =
 [
@@ -805,7 +805,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 lexer
@@ -814,14 +814,14 @@ nextToken
 (
 )
 ;
-let
+const
 lineNumber
 =
 lexer
 .
 lineNumber
 ;
-let
+const
 columnNumber
 =
 lexer
@@ -893,7 +893,7 @@ undefined
 }
 else
 {
-let
+const
 startLoc
 =
 {
@@ -995,7 +995,7 @@ escapeCSSComment
 inputString
 )
 {
-let
+const
 result
 =
 inputString
@@ -1122,7 +1122,7 @@ unescapeCSSComment
 inputString
 )
 {
-let
+const
 result
 =
 inputString
@@ -1411,7 +1411,7 @@ substring
 )
 ;
 }
-let
+const
 rewrittenText
 =
 unescapeCSSComment
@@ -1613,7 +1613,7 @@ to
 the
 length
 .
-let
+const
 rewrites
 =
 new
@@ -1631,7 +1631,7 @@ fill
 0
 )
 ;
-let
+const
 commentRe
 =
 /
@@ -1658,7 +1658,7 @@ while
 true
 )
 {
-let
+const
 matchData
 =
 commentRe
@@ -1845,7 +1845,7 @@ write
 such
 things
 .
-let
+const
 newDecls
 =
 parseDeclarationsInternal
@@ -1859,7 +1859,7 @@ commentOverride
 ;
 for
 (
-let
+const
 decl
 of
 newDecls
@@ -2039,7 +2039,7 @@ cssTrim
 str
 )
 {
-let
+const
 match
 =
 /
@@ -2116,7 +2116,7 @@ cssTrimRight
 str
 )
 {
-let
+const
 match
 =
 /
@@ -2357,7 +2357,7 @@ string
 )
 ;
 }
-let
+const
 lexer
 =
 getCSSLexer
@@ -2485,7 +2485,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 lexer
@@ -3283,7 +3283,7 @@ lastProp
 value
 )
 {
-let
+const
 commentText
 =
 inputString
@@ -3302,7 +3302,7 @@ endOffset
 2
 )
 ;
-let
+const
 newDecls
 =
 parseCommentDeclarations
@@ -3329,7 +3329,7 @@ the
 final
 element
 .
-let
+const
 lastDecl
 =
 declarations
@@ -3568,7 +3568,7 @@ cssTrim
 current
 )
 ;
-let
+const
 terminator
 =
 lexer
@@ -5049,7 +5049,7 @@ offset
 offset
 )
 {
-let
+const
 c
 =
 string
@@ -5430,7 +5430,7 @@ replace
 "
 )
 ;
-let
+const
 lexer
 =
 getCSSLexer
@@ -5449,7 +5449,7 @@ previousOffset
 =
 0
 ;
-let
+const
 parenStack
 =
 [
@@ -5470,7 +5470,7 @@ on
 the
 stack
 .
-let
+const
 pushParen
 =
 (
@@ -5577,7 +5577,7 @@ from
 the
 stack
 .
-let
+const
 popSomeParens
 =
 (
@@ -5595,7 +5595,7 @@ length
 0
 )
 {
-let
+const
 paren
 =
 parenStack
@@ -5684,7 +5684,7 @@ while
 true
 )
 {
-let
+const
 token
 =
 lexer
@@ -5993,7 +5993,7 @@ text
 length
 )
 ;
-let
+const
 eofFixup
 =
 lexer
@@ -6260,7 +6260,7 @@ index
 return
 ;
 }
-let
+const
 termDecl
 =
 this
@@ -6332,7 +6332,7 @@ endIndex
 +
 1
 ;
-let
+const
 trailingText
 =
 this
@@ -6665,7 +6665,7 @@ text
 index
 )
 {
-let
+const
 [
 anySanitized
 sanitizedText
@@ -6927,7 +6927,7 @@ can
 be
 deleted
 .
-let
+const
 commentStart
 =
 decl
@@ -7000,7 +7000,7 @@ sanitization
 changes
 properly
 .
-let
+const
 commentNamePart
 =
 this
@@ -7138,7 +7138,7 @@ can
 be
 deleted
 .
-let
+const
 trailingText
 =
 this
@@ -7208,7 +7208,7 @@ syntax
 /
 here
 .
-let
+const
 declText
 =
 this
@@ -7618,7 +7618,7 @@ this
 hasNewLine
 )
 {
-let
+const
 wsOffset
 =
 this
@@ -8469,7 +8469,7 @@ this
 hasNewLine
 )
 {
-let
+const
 nlOffset
 =
 this
@@ -8526,7 +8526,7 @@ n
 "
 )
 {
-let
+const
 trailingText
 =
 this
@@ -8538,7 +8538,7 @@ substring
 copyOffset
 )
 ;
-let
+const
 match
 =
 BLANK_LINE_RX
@@ -9024,7 +9024,7 @@ string
 )
 ;
 }
-let
+const
 tokens
 =
 cssTokenizer
@@ -9032,7 +9032,7 @@ cssTokenizer
 value
 )
 ;
-let
+const
 result
 =
 [
@@ -9061,7 +9061,7 @@ false
 ;
 for
 (
-let
+const
 token
 of
 tokens
@@ -9614,7 +9614,7 @@ isCssPropertyKnown
 value
 )
 {
-let
+const
 declaration
 =
 parseDeclarations

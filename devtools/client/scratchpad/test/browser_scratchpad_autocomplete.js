@@ -259,13 +259,13 @@ i
 ;
 for
 (
-let
+const
 completion
 of
 completions
 )
 {
-let
+const
 active
 =
 hints

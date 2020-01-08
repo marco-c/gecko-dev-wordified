@@ -274,7 +274,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -285,7 +285,7 @@ TEST_URI
 ;
 for
 (
-let
+const
 data
 of
 TestData
@@ -310,7 +310,7 @@ hud
 testData
 )
 {
-let
+const
 isE10s
 =
 Services
@@ -346,7 +346,7 @@ script
 )
 )
 ;
-let
+const
 msg
 =
 "
@@ -402,7 +402,7 @@ error
 doc
 URL
 .
-let
+const
 urlObj
 =
 new
@@ -431,7 +431,7 @@ from
 the
 URL
 .
-let
+const
 url
 =
 {
@@ -474,7 +474,7 @@ the
 title
 attribute
 .
-let
+const
 hrefs
 =
 new
@@ -484,7 +484,7 @@ Set
 ;
 for
 (
-let
+const
 link
 of
 hud

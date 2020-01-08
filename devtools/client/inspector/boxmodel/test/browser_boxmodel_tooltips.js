@@ -584,7 +584,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 boxmodel
@@ -883,7 +883,7 @@ content
 ;
 for
 (
-let
+const
 {
 selector
 values
@@ -928,7 +928,7 @@ values
 ;
 for
 (
-let
+const
 key
 in
 boxmodel
@@ -950,7 +950,7 @@ position
 continue
 ;
 }
-let
+const
 name
 =
 boxmodel
@@ -962,7 +962,7 @@ key
 .
 property
 ;
-let
+const
 expectedTooltipData
 =
 values
@@ -981,7 +981,7 @@ name
 name
 )
 ;
-let
+const
 el
 =
 boxmodel
@@ -1047,7 +1047,7 @@ rule
 "
 )
 ;
-let
+const
 expectedTooltip
 =
 name

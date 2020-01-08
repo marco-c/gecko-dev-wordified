@@ -145,7 +145,7 @@ getTooltipContent
 doc
 )
 {
-let
+const
 div
 =
 doc
@@ -182,17 +182,17 @@ div
 }
 add_task
 (
+async
 function
-*
 (
 )
 {
-let
+const
 [
 doc
 ]
 =
-yield
+await
 createHost
 (
 "
@@ -201,7 +201,7 @@ bottom
 TEST_URI
 )
 ;
-let
+const
 box1
 =
 doc
@@ -213,7 +213,7 @@ box1
 "
 )
 ;
-let
+const
 box2
 =
 doc
@@ -225,7 +225,7 @@ box2
 "
 )
 ;
-let
+const
 box3
 =
 doc
@@ -237,7 +237,7 @@ box3
 "
 )
 ;
-let
+const
 box4
 =
 doc
@@ -257,7 +257,7 @@ height
 =
 50
 ;
-let
+const
 tooltip
 =
 new
@@ -444,7 +444,7 @@ test
 "
 )
 ;
-yield
+await
 hideTooltip
 (
 tooltip

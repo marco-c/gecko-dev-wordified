@@ -105,7 +105,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 }
@@ -115,7 +115,7 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 targets
 =
 getAnimationTargetNodes
@@ -139,7 +139,7 @@ node
 "
 )
 ;
-let
+const
 domNodePreview1
 =
 targets
@@ -194,7 +194,7 @@ node
 "
 )
 ;
-let
+const
 domNodePreview2
 =
 targets
@@ -315,7 +315,7 @@ lockHighlighterOn
 domNodePreview
 )
 {
-let
+const
 onLocked
 =
 domNodePreview
@@ -347,7 +347,7 @@ unlockHighlighterOn
 domNodePreview
 )
 {
-let
+const
 onUnlocked
 =
 domNodePreview
@@ -378,7 +378,7 @@ clickOnHighlighterIcon
 domNodePreview
 )
 {
-let
+const
 lockEl
 =
 domNodePreview

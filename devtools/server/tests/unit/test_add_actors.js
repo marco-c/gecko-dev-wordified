@@ -536,7 +536,7 @@ first
 one
 is
 ours
-let
+const
 connID
 =
 Object
@@ -551,7 +551,7 @@ _connections
 0
 ]
 ;
-let
+const
 postInitGlobalActor
 =
 getActorInstance
@@ -562,7 +562,7 @@ gActors
 postInitGlobalActor
 )
 ;
-let
+const
 preInitGlobalActor
 =
 getActorInstance

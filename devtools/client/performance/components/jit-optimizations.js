@@ -720,7 +720,7 @@ onViewSourceInDebugger
 }
 )
 {
-let
+const
 {
 isMetaCategory
 url
@@ -729,7 +729,7 @@ line
 =
 frameData
 ;
-let
+const
 name
 =
 isMetaCategory
@@ -754,7 +754,7 @@ Simulate
 SavedFrame
 s
 interface
-let
+const
 frame
 =
 {
@@ -907,7 +907,7 @@ _createTree
 props
 )
 {
-let
+const
 {
 autoExpandDepth
 frameData
@@ -921,7 +921,7 @@ this
 .
 props
 ;
-let
+const
 getSite
 =
 id
@@ -943,7 +943,7 @@ id
 id
 )
 ;
-let
+const
 getIonTypeForObserved
 =
 type
@@ -985,7 +985,7 @@ type
 ;
 }
 ;
-let
+const
 isSite
 =
 site
@@ -1002,7 +1002,7 @@ id
 =
 site
 ;
-let
+const
 isAttempts
 =
 attempts
@@ -1023,7 +1023,7 @@ attempts
 =
 attempts
 ;
-let
+const
 isAttempt
 =
 attempt
@@ -1045,7 +1045,7 @@ includes
 attempt
 )
 ;
-let
+const
 isTypes
 =
 types
@@ -1066,7 +1066,7 @@ types
 =
 types
 ;
-let
+const
 isType
 =
 type
@@ -1088,7 +1088,7 @@ includes
 type
 )
 ;
-let
+const
 isObservedType
 =
 type
@@ -1099,7 +1099,7 @@ getIonTypeForObserved
 type
 )
 ;
-let
+const
 getRowType
 =
 node
@@ -1210,14 +1210,14 @@ the
 /
 optimizations
 data
-let
+const
 getKey
 =
 node
 =
 >
 {
-let
+const
 site
 =
 getSite
@@ -1352,7 +1352,7 @@ node
 )
 )
 {
-let
+const
 iontype
 =
 getIonTypeForObserved
@@ -1402,7 +1402,7 @@ node
 =
 >
 {
-let
+const
 site
 =
 getSite
@@ -1607,7 +1607,7 @@ state
 =
 >
 {
-let
+const
 expanded
 =
 new
@@ -1645,7 +1645,7 @@ state
 =
 >
 {
-let
+const
 expanded
 =
 new
@@ -1730,7 +1730,7 @@ render
 (
 )
 {
-let
+const
 header
 =
 this
@@ -1742,7 +1742,7 @@ this
 props
 )
 ;
-let
+const
 tree
 =
 this

@@ -87,7 +87,7 @@ function
 (
 )
 {
-let
+const
 {
 client
 walker
@@ -137,7 +137,7 @@ walker
 animations
 )
 {
-let
+const
 node
 =
 await
@@ -156,7 +156,7 @@ animation
 "
 )
 ;
-let
+const
 [
 player
 ]
@@ -189,7 +189,7 @@ from
 the
 initialstate
 .
-let
+const
 keys
 =
 Object

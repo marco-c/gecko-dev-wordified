@@ -467,7 +467,7 @@ createContainingDiv
 parentEl
 )
 {
-let
+const
 div
 =
 parentEl
@@ -543,7 +543,7 @@ container
 className
 )
 {
-let
+const
 window
 =
 container
@@ -552,7 +552,7 @@ ownerDocument
 .
 defaultView
 ;
-let
+const
 canvas
 =
 container
@@ -621,7 +621,7 @@ none
 }
 )
 ;
-let
+const
 ctx
 =
 canvas
@@ -683,7 +683,7 @@ canvases
 debounceRate
 )
 {
-let
+const
 {
 container
 main
@@ -692,7 +692,7 @@ zoom
 =
 canvases
 ;
-let
+const
 window
 =
 container
@@ -706,7 +706,7 @@ resize
 (
 )
 {
-let
+const
 width
 =
 container
@@ -717,7 +717,7 @@ window
 .
 devicePixelRatio
 ;
-let
+const
 height
 =
 container
@@ -777,7 +777,7 @@ may
 not
 need
 debouncing
-let
+const
 debouncedResize
 =
 debounceRate

@@ -848,7 +848,7 @@ render
 (
 )
 {
-let
+const
 classnames
 =
 [
@@ -859,7 +859,7 @@ tabbar
 "
 ]
 ;
-let
+const
 startButtons
 =
 renderToolboxButtonsStart
@@ -869,7 +869,7 @@ this
 props
 )
 ;
-let
+const
 endButtons
 =
 renderToolboxButtonsEnd
@@ -1458,7 +1458,7 @@ separator
 if
 needed
 .
-let
+const
 children
 =
 renderedButtons

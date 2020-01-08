@@ -192,7 +192,7 @@ grips
 =
 >
 {
-let
+const
 message
 =
 prepareMessage
@@ -300,7 +300,7 @@ grips
 =
 >
 {
-let
+const
 message
 =
 prepareMessage

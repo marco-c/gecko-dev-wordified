@@ -182,7 +182,7 @@ visibilityHandlerConnect
 (
 )
 {
-let
+const
 args
 =
 [

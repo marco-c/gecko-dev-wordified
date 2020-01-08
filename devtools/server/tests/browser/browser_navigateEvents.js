@@ -575,14 +575,14 @@ function
 event
 )
 {
-let
+const
 stack
 =
 browser
 .
 parentNode
 ;
-let
+const
 dialogs
 =
 stack
@@ -607,7 +607,7 @@ dialogs
 ]
 )
 ;
-let
+const
 {
 button0
 button1
@@ -648,7 +648,7 @@ topic
 state
 )
 {
-let
+const
 channel
 =
 subject
@@ -660,7 +660,7 @@ Ci
 nsIHttpChannel
 )
 ;
-let
+const
 url
 =
 channel
@@ -768,7 +768,7 @@ Connect
 to
 this
 tab
-let
+const
 transport
 =
 DebuggerServer
@@ -777,7 +777,7 @@ connectPipe
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -810,7 +810,7 @@ packet
 }
 )
 ;
-let
+const
 form
 =
 await
@@ -819,7 +819,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 actorID
 =
 form
@@ -854,7 +854,7 @@ Open
 a
 test
 tab
-let
+const
 browser
 =
 await
@@ -941,7 +941,7 @@ event
 onMessage
 )
 ;
-let
+const
 {
 client
 actorID
@@ -1038,7 +1038,7 @@ object
 the
 BrowserTabActor
 instance
-let
+const
 tabActor
 =
 DebuggerServer

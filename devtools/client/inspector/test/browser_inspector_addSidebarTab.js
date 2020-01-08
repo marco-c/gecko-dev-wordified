@@ -124,7 +124,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }
@@ -409,7 +409,7 @@ is
 properly
 rendered
 .
-let
+const
 tabPanelNode
 =
 inspector

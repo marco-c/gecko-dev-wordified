@@ -237,7 +237,7 @@ this
 _opening
 ;
 }
-let
+const
 deferred
 =
 defer
@@ -343,7 +343,7 @@ process
 of
 opening
 .
-let
+const
 front
 =
 await
@@ -427,7 +427,7 @@ gFront
 =
 front
 ;
-let
+const
 {
 PerformanceController
 EVENTS
@@ -588,7 +588,7 @@ _destroyed
 return
 ;
 }
-let
+const
 {
 PerformanceController
 EVENTS

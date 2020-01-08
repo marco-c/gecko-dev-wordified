@@ -142,14 +142,14 @@ function
 (
 )
 {
-let
+const
 profile
 =
 synthesizeProfile
 (
 )
 ;
-let
+const
 threadNode
 =
 new
@@ -204,7 +204,7 @@ calls
 .
 calls
 ;
-let
+const
 treeRoot
 =
 new
@@ -217,7 +217,7 @@ threadNode
 }
 )
 ;
-let
+const
 container
 =
 document
@@ -236,7 +236,7 @@ attachTo
 container
 )
 ;
-let
+const
 fun
 =
 i
@@ -264,7 +264,7 @@ function
 i
 ]
 ;
-let
+const
 nam
 =
 i
@@ -299,7 +299,7 @@ name
 i
 ]
 ;
-let
+const
 dur
 =
 i

@@ -376,7 +376,7 @@ _parent
 =
 aNode
 ;
-let
+const
 {
 contextMenu
 showArrows
@@ -931,7 +931,7 @@ aAttachment
 }
 )
 {
-let
+const
 group
 =
 this
@@ -943,7 +943,7 @@ aAttachment
 group
 )
 ;
-let
+const
 item
 =
 this
@@ -955,7 +955,7 @@ aContents
 aAttachment
 )
 ;
-let
+const
 element
 =
 item
@@ -1022,7 +1022,7 @@ _list
 lastElementChild
 )
 {
-let
+const
 utils
 =
 this
@@ -1043,7 +1043,7 @@ Ci
 nsIDOMWindowUtils
 )
 ;
-let
+const
 childRect
 =
 utils
@@ -1057,7 +1057,7 @@ _list
 lastElementChild
 )
 ;
-let
+const
 listRect
 =
 utils
@@ -1344,7 +1344,7 @@ function
 (
 )
 {
-let
+const
 list
 =
 this
@@ -1464,7 +1464,7 @@ selectedItem
 aChild
 )
 {
-let
+const
 menuArray
 =
 this
@@ -1486,7 +1486,7 @@ null
 }
 for
 (
-let
+const
 node
 of
 menuArray
@@ -1597,7 +1597,7 @@ not
 scrolled
 horizontally
 .
-let
+const
 boxObject
 =
 this
@@ -1653,7 +1653,7 @@ function
 {
 for
 (
-let
+const
 group
 of
 this
@@ -1691,7 +1691,7 @@ function
 (
 )
 {
-let
+const
 visibleChildNodes
 =
 "
@@ -1718,7 +1718,7 @@ true
 ;
 for
 (
-let
+const
 group
 of
 this
@@ -1745,7 +1745,7 @@ length
 }
 for
 (
-let
+const
 menuItem
 of
 this
@@ -2096,7 +2096,7 @@ _emptyTextValue
 return
 ;
 }
-let
+const
 label
 =
 this
@@ -2265,7 +2265,7 @@ function
 aName
 )
 {
-let
+const
 cachedGroup
 =
 this
@@ -2286,7 +2286,7 @@ return
 cachedGroup
 ;
 }
-let
+const
 group
 =
 new
@@ -2843,7 +2843,7 @@ if
 aName
 )
 {
-let
+const
 target
 =
 this
@@ -2885,7 +2885,7 @@ name
 aName
 )
 ;
-let
+const
 list
 =
 this
@@ -2919,7 +2919,7 @@ group
 list
 "
 ;
-let
+const
 title
 =
 this
@@ -2953,7 +2953,7 @@ group
 title
 "
 ;
-let
+const
 name
 =
 this
@@ -3030,7 +3030,7 @@ aOptions
 showCheckbox
 )
 {
-let
+const
 checkbox
 =
 this
@@ -3115,7 +3115,7 @@ title
 is
 shown
 .
-let
+const
 target
 =
 this
@@ -3262,7 +3262,7 @@ function
 aIndex
 )
 {
-let
+const
 ownerList
 =
 this
@@ -3271,7 +3271,7 @@ ownerView
 .
 _list
 ;
-let
+const
 groupsArray
 =
 this
@@ -3367,14 +3367,14 @@ function
 sortPredicate
 )
 {
-let
+const
 identifier
 =
 this
 .
 identifier
 ;
-let
+const
 groupsArray
 =
 this
@@ -3383,13 +3383,13 @@ _orderedGroupElementsArray
 ;
 for
 (
-let
+const
 group
 of
 groupsArray
 )
 {
-let
+const
 name
 =
 group
@@ -3624,7 +3624,7 @@ aOptions
 showCheckbox
 )
 {
-let
+const
 container
 =
 this
@@ -3656,7 +3656,7 @@ widget
 item
 "
 ;
-let
+const
 target
 =
 this
@@ -3706,7 +3706,7 @@ aOptions
 showCheckbox
 )
 {
-let
+const
 checkbox
 =
 this
@@ -3760,7 +3760,7 @@ aOptions
 showArrow
 )
 {
-let
+const
 arrow
 =
 this
@@ -3821,7 +3821,7 @@ checkbox
 is
 shown
 .
-let
+const
 target
 =
 this
@@ -4000,7 +4000,7 @@ function
 aIndex
 )
 {
-let
+const
 ownerList
 =
 this
@@ -4009,7 +4009,7 @@ ownerView
 .
 _list
 ;
-let
+const
 menuArray
 =
 this
@@ -4421,7 +4421,7 @@ aParentNode
 aOptions
 )
 {
-let
+const
 checkbox
 =
 aParentNode

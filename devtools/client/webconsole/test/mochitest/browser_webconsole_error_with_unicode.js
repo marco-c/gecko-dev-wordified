@@ -90,7 +90,7 @@ function
 (
 )
 {
-let
+const
 hud
 =
 await
@@ -146,7 +146,7 @@ message
 "
 )
 ;
-let
+const
 msg
 =
 await

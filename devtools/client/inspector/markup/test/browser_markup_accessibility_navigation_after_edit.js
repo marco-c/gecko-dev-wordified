@@ -664,7 +664,7 @@ function
 (
 )
 {
-let
+const
 url
 =
 data
@@ -682,7 +682,7 @@ utf
 TEST_URI
 }
 ;
-let
+const
 {
 inspector
 }
@@ -803,7 +803,7 @@ focus
 ;
 for
 (
-let
+const
 testData
 of
 TESTS

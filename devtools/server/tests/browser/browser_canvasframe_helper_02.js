@@ -76,7 +76,7 @@ function
 (
 )
 {
-let
+const
 browser
 =
 await
@@ -167,14 +167,14 @@ markup
 "
 )
 ;
-let
+const
 doc
 =
 content
 .
 document
 ;
-let
+const
 nodeBuilder
 =
 (
@@ -182,7 +182,7 @@ nodeBuilder
 =
 >
 {
-let
+const
 root
 =
 doc
@@ -194,7 +194,7 @@ div
 "
 )
 ;
-let
+const
 child
 =
 doc
@@ -275,7 +275,7 @@ helper
 "
 )
 ;
-let
+const
 env
 =
 new
@@ -292,7 +292,7 @@ doc
 defaultView
 )
 ;
-let
+const
 helper
 =
 new

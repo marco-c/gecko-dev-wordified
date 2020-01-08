@@ -187,7 +187,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 inspector
@@ -198,14 +198,14 @@ openAnimationInspector
 (
 )
 ;
-let
+const
 timeline
 =
 panel
 .
 animationsTimelineComponent
 ;
-let
+const
 btn
 =
 panel
@@ -368,7 +368,7 @@ check
 (
 )
 {
-let
+const
 pos
 =
 scrubberEl
@@ -384,7 +384,7 @@ bounds
 .
 right
 ;
-let
+const
 width
 =
 win

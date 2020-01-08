@@ -502,7 +502,7 @@ bug
 iframe
 "
 ;
-let
+const
 onMessages
 =
 waitForMessages

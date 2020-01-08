@@ -184,7 +184,7 @@ str
 "
 "
 ;
-let
+const
 stack
 =
 new

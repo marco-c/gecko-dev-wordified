@@ -305,7 +305,7 @@ properties
 will
 go
 here
-let
+const
 exported
 =
 {
@@ -454,7 +454,7 @@ becomes
 )
 *
 /
-let
+const
 isRemoteHighlightable
 =
 exported
@@ -542,7 +542,7 @@ isInspectorInitialized
 =
 false
 ;
-let
+const
 requireInspector
 =
 generator
@@ -759,7 +759,7 @@ already
 started
 *
 /
-let
+const
 startPicker
 =
 exported
@@ -964,7 +964,7 @@ started
 "
 )
 ;
-let
+const
 node
 =
 await
@@ -1032,7 +1032,7 @@ already
 stopped
 *
 /
-let
+const
 stopPicker
 =
 exported
@@ -1226,7 +1226,7 @@ canceled
 .
 *
 /
-let
+const
 cancelPicker
 =
 exported
@@ -1556,7 +1556,7 @@ been
 highlighted
 *
 /
-let
+const
 highlightNodeFront
 =
 exported
@@ -1737,7 +1737,7 @@ options
 }
 )
 {
-let
+const
 nodeFront
 =
 await
@@ -1819,7 +1819,7 @@ when
 done
 *
 /
-let
+const
 gripToNodeFront
 =
 exported
@@ -2181,7 +2181,7 @@ function
 typeName
 )
 {
-let
+const
 highlighter
 =
 await

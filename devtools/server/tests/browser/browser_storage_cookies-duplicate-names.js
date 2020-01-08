@@ -302,7 +302,7 @@ initDebuggerServer
 (
 )
 ;
-let
+const
 client
 =
 new
@@ -315,7 +315,7 @@ connectPipe
 )
 )
 ;
-let
+const
 form
 =
 await
@@ -324,7 +324,7 @@ connectDebuggerClient
 client
 )
 ;
-let
+const
 front
 =
 StorageFront
@@ -333,7 +333,7 @@ client
 form
 )
 ;
-let
+const
 data
 =
 await
@@ -422,7 +422,7 @@ testCookies
 cookiesActor
 )
 {
-let
+const
 numHosts
 =
 Object
@@ -473,7 +473,7 @@ hosts
 cookiesActor
 )
 {
-let
+const
 host
 =
 Object
@@ -486,7 +486,7 @@ hosts
 index
 ]
 ;
-let
+const
 matchItems
 =
 data
@@ -521,7 +521,7 @@ matches
 ;
 for
 (
-let
+const
 item
 of
 data
@@ -536,7 +536,7 @@ false
 ;
 for
 (
-let
+const
 toMatch
 of
 TESTDATA

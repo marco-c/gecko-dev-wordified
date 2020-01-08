@@ -348,7 +348,7 @@ createElement
 )
 ;
 }
-let
+const
 objectInspectorProps
 =
 {
@@ -691,7 +691,7 @@ the
 style
 string
 .
-let
+const
 dummy
 =
 createElement

@@ -89,7 +89,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -101,14 +101,14 @@ initWebAudioEditor
 BUG_1130901_URL
 )
 ;
-let
+const
 {
 panelWin
 }
 =
 panel
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -117,7 +117,7 @@ gAudioNodes
 =
 panelWin
 ;
-let
+const
 rendered
 =
 waitForGraphRendered

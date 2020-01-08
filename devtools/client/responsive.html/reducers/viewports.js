@@ -126,7 +126,7 @@ value
 }
 }
 ;
-let
+const
 reducers
 =
 {
@@ -506,7 +506,7 @@ INITIAL_VIEWPORTS
 action
 )
 {
-let
+const
 reducer
 =
 reducers

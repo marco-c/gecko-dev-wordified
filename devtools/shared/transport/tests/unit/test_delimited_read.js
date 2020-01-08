@@ -180,7 +180,7 @@ input
 length
 )
 ;
-let
+const
 result
 =
 StreamUtils

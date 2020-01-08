@@ -221,7 +221,7 @@ function
 (
 )
 {
-let
+const
 manifestFile
 =
 FileUtils
@@ -293,7 +293,7 @@ return
 null
 ;
 }
-let
+const
 appManifestFile
 =
 manifestFile
@@ -313,7 +313,7 @@ webapp
 "
 )
 ;
-let
+const
 jsonManifestFile
 =
 manifestFile
@@ -333,7 +333,7 @@ json
 "
 )
 ;
-let
+const
 hasAppManifest
 =
 appManifestFile
@@ -349,7 +349,7 @@ isFile
 (
 )
 ;
-let
+const
 hasJsonManifest
 =
 jsonManifestFile
@@ -414,7 +414,7 @@ function
 (
 )
 {
-let
+const
 manifestFile
 =
 this
@@ -470,7 +470,7 @@ reject
 let
 error
 ;
-let
+const
 req
 =
 new
@@ -705,7 +705,7 @@ function
 manifestURL
 )
 {
-let
+const
 fixedManifest
 =
 Services
@@ -777,7 +777,7 @@ reject
 }
 else
 {
-let
+const
 fixedManifest
 =
 manifestURL
@@ -1267,7 +1267,7 @@ packaged
 "
 )
 {
-let
+const
 manifestURL
 =
 Services
@@ -1406,7 +1406,7 @@ resolve
 )
 ;
 }
-let
+const
 origin
 =
 this
@@ -1537,7 +1537,7 @@ resolve
 )
 ;
 }
-let
+const
 req
 =
 new
@@ -1760,7 +1760,7 @@ function
 manifest
 )
 {
-let
+const
 appType
 =
 manifest

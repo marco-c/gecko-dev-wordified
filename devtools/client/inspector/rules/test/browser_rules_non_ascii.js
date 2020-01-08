@@ -200,7 +200,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -221,14 +221,14 @@ q
 inspector
 )
 ;
-let
+const
 elementStyle
 =
 view
 .
 _elementStyle
 ;
-let
+const
 expected
 =
 [
@@ -244,7 +244,7 @@ false
 }
 ]
 ;
-let
+const
 rule
 =
 elementStyle
@@ -272,7 +272,7 @@ length
 i
 )
 {
-let
+const
 prop
 =
 rule

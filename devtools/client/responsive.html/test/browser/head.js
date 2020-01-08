@@ -789,12 +789,12 @@ mode
 "
 )
 ;
-let
+const
 manager
 =
 ResponsiveUIManager
 ;
-let
+const
 ui
 =
 await
@@ -868,7 +868,7 @@ mode
 "
 )
 ;
-let
+const
 manager
 =
 ResponsiveUIManager
@@ -1168,7 +1168,7 @@ function
 resolve
 )
 {
-let
+const
 isSizeMatching
 =
 (
@@ -1207,7 +1207,7 @@ the
 promise
 immediately
 .
-let
+const
 size
 =
 await
@@ -1310,7 +1310,7 @@ See
 bug
 1302879
 .
-let
+const
 browser
 =
 ui
@@ -1319,7 +1319,7 @@ getViewportBrowser
 (
 )
 ;
-let
+const
 onResize
 =
 data
@@ -1382,7 +1382,7 @@ resolve
 ;
 }
 ;
-let
+const
 onBrowserLoadEnd
 =
 async
@@ -1390,7 +1390,7 @@ function
 (
 )
 {
-let
+const
 data
 =
 await
@@ -1467,7 +1467,7 @@ width
 height
 )
 {
-let
+const
 size
 =
 ui
@@ -1523,7 +1523,7 @@ height
 height
 )
 {
-let
+const
 resized
 =
 waitForViewportResizeTo
@@ -1588,7 +1588,7 @@ selector
 win
 )
 {
-let
+const
 el
 =
 win
@@ -1652,7 +1652,7 @@ y
 win
 )
 {
-let
+const
 {
 Simulate
 }
@@ -1680,7 +1680,7 @@ utils
 "
 )
 ;
-let
+const
 rect
 =
 getElRect
@@ -1689,7 +1689,7 @@ selector
 win
 )
 ;
-let
+const
 startPoint
 =
 {
@@ -1727,7 +1727,7 @@ height
 )
 }
 ;
-let
+const
 endPoint
 =
 [
@@ -1743,7 +1743,7 @@ clientY
 y
 ]
 ;
-let
+const
 elem
 =
 win
@@ -1839,14 +1839,14 @@ expectedViewportSize
 expectedHandleMove
 )
 {
-let
+const
 win
 =
 ui
 .
 toolWindow
 ;
-let
+const
 resized
 =
 waitForViewportResizeTo
@@ -1858,7 +1858,7 @@ ui
 expectedViewportSize
 )
 ;
-let
+const
 startRect
 =
 dragElementBy
@@ -1874,7 +1874,7 @@ win
 await
 resized
 ;
-let
+const
 endRect
 =
 getElRect
@@ -1942,14 +1942,14 @@ toolWindow
 }
 )
 {
-let
+const
 {
 document
 }
 =
 toolWindow
 ;
-let
+const
 {
 Simulate
 }
@@ -1977,7 +1977,7 @@ utils
 "
 )
 ;
-let
+const
 select
 =
 document
@@ -1994,7 +1994,7 @@ selector
 "
 )
 ;
-let
+const
 modal
 =
 document
@@ -2131,14 +2131,14 @@ selector
 value
 )
 {
-let
+const
 {
 document
 }
 =
 toolWindow
 ;
-let
+const
 {
 Simulate
 }
@@ -2179,7 +2179,7 @@ selector
 .
 )
 ;
-let
+const
 select
 =
 document
@@ -2207,7 +2207,7 @@ element
 .
 )
 ;
-let
+const
 option
 =
 [
@@ -2499,7 +2499,7 @@ waitForPageShow
 browser
 )
 {
-let
+const
 mm
 =
 browser
@@ -2514,7 +2514,7 @@ resolve
 =
 >
 {
-let
+const
 onShow
 =
 message
@@ -2598,7 +2598,7 @@ browser
 url
 )
 {
-let
+const
 loaded
 =
 BrowserTestUtils
@@ -2627,7 +2627,7 @@ back
 browser
 )
 {
-let
+const
 shown
 =
 waitForPageShow
@@ -2651,7 +2651,7 @@ forward
 browser
 )
 {
-let
+const
 shown
 =
 waitForPageShow
@@ -2801,7 +2801,7 @@ ui
 expected
 )
 {
-let
+const
 {
 document
 }
@@ -2810,7 +2810,7 @@ ui
 .
 toolWindow
 ;
-let
+const
 touchButton
 =
 document
@@ -2829,7 +2829,7 @@ button
 "
 )
 ;
-let
+const
 flag
 =
 await
@@ -2924,7 +2924,7 @@ label
 "
 )
 ;
-let
+const
 select
 =
 ui
@@ -2975,7 +2975,7 @@ toggleTouchSimulation
 ui
 )
 {
-let
+const
 {
 document
 }
@@ -2984,7 +2984,7 @@ ui
 .
 toolWindow
 ;
-let
+const
 touchButton
 =
 document
@@ -3003,7 +3003,7 @@ button
 "
 )
 ;
-let
+const
 changed
 =
 once
@@ -3018,7 +3018,7 @@ changed
 "
 )
 ;
-let
+const
 loaded
 =
 waitForViewportLoad
@@ -3070,7 +3070,7 @@ browser
 expected
 )
 {
-let
+const
 ua
 =
 await
@@ -3158,7 +3158,7 @@ ui
 device
 )
 {
-let
+const
 {
 Simulate
 }
@@ -3188,7 +3188,7 @@ utils
 "
 )
 ;
-let
+const
 {
 store
 document
@@ -3198,7 +3198,7 @@ ui
 .
 toolWindow
 ;
-let
+const
 nameInput
 =
 document
@@ -3216,7 +3216,7 @@ input
 "
 )
 ;
-let
+const
 [
 widthInput
 heightInput
@@ -3237,7 +3237,7 @@ input
 "
 )
 ;
-let
+const
 pixelRatioInput
 =
 document
@@ -3257,7 +3257,7 @@ input
 "
 )
 ;
-let
+const
 userAgentInput
 =
 document
@@ -3277,7 +3277,7 @@ input
 "
 )
 ;
-let
+const
 touchInput
 =
 document
@@ -3399,7 +3399,7 @@ change
 touchInput
 )
 ;
-let
+const
 existingCustomDevices
 =
 store
@@ -3414,7 +3414,7 @@ custom
 .
 length
 ;
-let
+const
 adderSave
 =
 document
@@ -3431,7 +3431,7 @@ save
 "
 )
 ;
-let
+const
 saved
 =
 waitUntilState
@@ -3471,7 +3471,7 @@ reloadOnUAChange
 enabled
 )
 {
-let
+const
 pref
 =
 RELOAD_CONDITION_PREF_PREFIX
@@ -3497,7 +3497,7 @@ reloadOnTouchChange
 enabled
 )
 {
-let
+const
 pref
 =
 RELOAD_CONDITION_PREF_PREFIX

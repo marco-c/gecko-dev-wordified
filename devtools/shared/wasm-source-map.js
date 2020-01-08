@@ -254,7 +254,7 @@ originalPositionFor
 generatedPosition
 )
 {
-let
+const
 result
 =
 this
@@ -289,7 +289,7 @@ _remapGeneratedPosition
 position
 )
 {
-let
+const
 generatedPosition
 =
 {
@@ -326,7 +326,7 @@ generatedPositionFor
 originalPosition
 )
 {
-let
+const
 position
 =
 this
@@ -352,7 +352,7 @@ allGeneratedPositionsFor
 originalPosition
 )
 {
-let
+const
 positions
 =
 this
@@ -438,7 +438,7 @@ entry
 =
 >
 {
-let
+const
 {
 source
 generatedColumn

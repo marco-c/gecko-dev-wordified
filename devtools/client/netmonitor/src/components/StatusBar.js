@@ -359,7 +359,7 @@ timingMarkers
 }
 )
 {
-let
+const
 {
 count
 contentSize
@@ -369,7 +369,7 @@ millis
 =
 summary
 ;
-let
+const
 {
 DOMContentLoaded
 load
@@ -377,7 +377,7 @@ load
 =
 timingMarkers
 ;
-let
+const
 countText
 =
 count
@@ -416,7 +416,7 @@ replace
 count
 )
 ;
-let
+const
 transferText
 =
 L10N
@@ -440,7 +440,7 @@ transferredSize
 )
 )
 ;
-let
+const
 finishText
 =
 L10N

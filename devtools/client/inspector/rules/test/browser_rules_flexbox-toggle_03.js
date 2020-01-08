@@ -170,7 +170,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -181,7 +181,7 @@ openRuleView
 (
 )
 ;
-let
+const
 {
 highlighters
 }
@@ -501,7 +501,7 @@ flex2
 inspector
 )
 ;
-let
+const
 firstFlexboxHighterShown
 =
 highlighters

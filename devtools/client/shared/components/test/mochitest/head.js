@@ -887,7 +887,7 @@ node
 ;
 for
 (
-let
+const
 node
 of
 treeNodes
@@ -1282,7 +1282,7 @@ tooltip
 }
 )
 {
-let
+const
 =
 selector
 =
@@ -1294,7 +1294,7 @@ querySelector
 selector
 )
 ;
-let
+const
 func
 =
 (
@@ -1312,7 +1312,7 @@ name
 "
 )
 ;
-let
+const
 source
 =
 (
@@ -1326,7 +1326,7 @@ source
 "
 )
 ;
-let
+const
 sourceInner
 =
 (
@@ -1342,7 +1342,7 @@ inner
 "
 )
 ;
-let
+const
 filename
 =
 (
@@ -1356,7 +1356,7 @@ filename
 "
 )
 ;
-let
+const
 line
 =
 (

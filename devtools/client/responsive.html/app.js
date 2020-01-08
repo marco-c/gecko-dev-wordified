@@ -1225,7 +1225,7 @@ render
 (
 )
 {
-let
+const
 {
 devices
 displayPixelRatio
@@ -1240,7 +1240,7 @@ this
 .
 props
 ;
-let
+const
 {
 onAddCustomDevice
 onBrowserMounted

@@ -869,7 +869,7 @@ options
 }
 )
 {
-let
+const
 recording
 =
 PerformanceController
@@ -919,7 +919,7 @@ isDisabled
 return
 ;
 }
-let
+const
 mapStart
 =
 (
@@ -928,7 +928,7 @@ mapStart
 >
 0
 ;
-let
+const
 mapEnd
 =
 (
@@ -941,7 +941,7 @@ getDuration
 (
 )
 ;
-let
+const
 selection
 =
 {
@@ -1022,7 +1022,7 @@ function
 (
 )
 {
-let
+const
 recording
 =
 PerformanceController
@@ -1084,7 +1084,7 @@ getDuration
 }
 ;
 }
-let
+const
 mapStart
 =
 (
@@ -1093,7 +1093,7 @@ mapStart
 >
 0
 ;
-let
+const
 mapEnd
 =
 (
@@ -1106,7 +1106,7 @@ getDuration
 (
 )
 ;
-let
+const
 selection
 =
 this
@@ -1282,7 +1282,7 @@ isDisabled
 return
 ;
 }
-let
+const
 recording
 =
 PerformanceController
@@ -1816,7 +1816,7 @@ _checkSelection
 recording
 )
 {
-let
+const
 isEnabled
 =
 recording
@@ -2027,7 +2027,7 @@ markers
 "
 :
 {
-let
+const
 graph
 =
 await
@@ -2047,7 +2047,7 @@ if
 graph
 )
 {
-let
+const
 filter
 =
 PerformanceController
@@ -2094,7 +2094,7 @@ recording
 {
 for
 (
-let
+const
 [
 graphName
 requirements
@@ -2463,7 +2463,7 @@ arguments
 ]
 ;
 }
-let
+const
 currentRecording
 =
 PerformanceController

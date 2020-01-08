@@ -532,7 +532,7 @@ selected
 )
 ;
 }
-let
+const
 currentSelected
 =
 this
@@ -886,7 +886,7 @@ event
 =
 >
 {
-let
+const
 menu
 =
 this
@@ -1076,7 +1076,7 @@ function
 (
 )
 {
-let
+const
 next
 =
 this
@@ -1118,7 +1118,7 @@ function
 (
 )
 {
-let
+const
 prev
 =
 this
@@ -1983,7 +1983,7 @@ root
 ;
 for
 (
-let
+const
 id
 of
 item
@@ -2377,7 +2377,7 @@ _selectedLabel
 target
 )
 {
-let
+const
 ids
 =
 target
@@ -2616,7 +2616,7 @@ function
 (
 )
 {
-let
+const
 {
 top
 bottom
@@ -2630,7 +2630,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+const
 height
 =
 this
@@ -3263,7 +3263,7 @@ inside
 the
 tree
 .
-let
+const
 id
 =
 items
@@ -3422,7 +3422,7 @@ this
 level
 ]
 ;
-let
+const
 node
 =
 items
@@ -3476,7 +3476,7 @@ node
 textContent
 ;
 }
-let
+const
 treeItem
 =
 new
@@ -3569,7 +3569,7 @@ item
 at
 correct
 position
-let
+const
 nextSibling
 =
 [
@@ -3772,7 +3772,7 @@ items
 ]
 )
 {
-let
+const
 id
 =
 items
@@ -3796,7 +3796,7 @@ id
 )
 )
 {
-let
+const
 deleted
 =
 this
@@ -4001,7 +4001,7 @@ level
 )
 )
 {
-let
+const
 label
 =
 this
@@ -4097,7 +4097,7 @@ expanded
 }
 for
 (
-let
+const
 child
 of
 this
@@ -4163,7 +4163,7 @@ true
 }
 for
 (
-let
+const
 child
 of
 this

@@ -372,19 +372,19 @@ parseFilters
 query
 )
 {
-let
+const
 flags
 =
 [
 ]
 ;
-let
+const
 text
 =
 [
 ]
 ;
-let
+const
 parts
 =
 query
@@ -400,7 +400,7 @@ s
 ;
 for
 (
-let
+const
 part
 of
 parts
@@ -415,7 +415,7 @@ part
 continue
 ;
 }
-let
+const
 colonIndex
 =
 part
@@ -458,7 +458,7 @@ substring
 colonIndex
 )
 ;
-let
+const
 negative
 =
 key
@@ -663,7 +663,7 @@ length
 )
 ;
 }
-let
+const
 quantity
 =
 Number
@@ -835,7 +835,7 @@ case
 protocol
 "
 :
-let
+const
 protocol
 =
 item
@@ -899,7 +899,7 @@ remote
 ip
 "
 :
-let
+const
 data
 =
 getFormattedIPAndPort
@@ -954,7 +954,7 @@ object
 "
 )
 {
-let
+const
 {
 headers
 }
@@ -1003,7 +1003,7 @@ case
 cause
 "
 :
-let
+const
 causeType
 =
 item
@@ -1251,7 +1251,7 @@ regexp
 :
 try
 {
-let
+const
 pattern
 =
 new
@@ -1302,7 +1302,7 @@ length
 0
 )
 {
-let
+const
 host
 =
 item
@@ -1311,7 +1311,7 @@ urlDetails
 .
 host
 ;
-let
+const
 i
 =
 responseCookies
@@ -1322,7 +1322,7 @@ c
 =
 >
 {
-let
+const
 domain
 =
 c
@@ -1498,7 +1498,7 @@ url
 text
 )
 {
-let
+const
 lowerCaseUrl
 =
 getUnicodeUrl
@@ -1519,7 +1519,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 textLength
 =
 text
@@ -1606,7 +1606,7 @@ return
 true
 ;
 }
-let
+const
 filters
 =
 parseFilters
@@ -1621,7 +1621,7 @@ true
 ;
 for
 (
-let
+const
 textFilter
 of
 filters
@@ -1643,7 +1643,7 @@ textFilter
 }
 for
 (
-let
+const
 flagFilter
 of
 filters

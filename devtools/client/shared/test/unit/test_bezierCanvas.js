@@ -445,7 +445,7 @@ coordinates
 "
 )
 ;
-let
+const
 b
 =
 new
@@ -638,7 +638,7 @@ hasDrawnCurve
 =
 false
 ;
-let
+const
 b
 =
 new

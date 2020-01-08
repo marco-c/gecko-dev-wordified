@@ -301,7 +301,7 @@ printed
 to
 the
 console
-let
+const
 hud1
 =
 await
@@ -310,7 +310,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 aTimerCompleted
 =
 await
@@ -433,7 +433,7 @@ doesn
 '
 t
 exist
-let
+const
 hud2
 =
 await
@@ -442,7 +442,7 @@ openNewTabAndConsole
 TEST_URI2
 )
 ;
-let
+const
 error1
 =
 await
@@ -745,7 +745,7 @@ selectedBrowser
 TEST_URI4
 )
 ;
-let
+const
 error2
 =
 await

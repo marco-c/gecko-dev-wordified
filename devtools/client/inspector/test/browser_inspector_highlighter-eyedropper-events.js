@@ -668,7 +668,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -697,7 +697,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 helper
 =
 await
@@ -776,14 +776,14 @@ keyboard
 "
 )
 ;
-let
+const
 {
 mouse
 }
 =
 helper
 ;
-let
+const
 {
 width
 height
@@ -992,7 +992,7 @@ keyboard
 "
 )
 {
-let
+const
 options
 =
 shift
@@ -1038,7 +1038,7 @@ getElementAttribute
 }
 )
 {
-let
+const
 style
 =
 await

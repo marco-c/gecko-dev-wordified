@@ -288,7 +288,7 @@ PROFILER_BUFFER_SIZE_PREF
 10000
 )
 ;
-let
+const
 {
 panel
 }
@@ -306,7 +306,7 @@ window
 }
 )
 ;
-let
+const
 {
 gFront
 EVENTS
@@ -336,7 +336,7 @@ setProfilerStatusInterval
 10
 )
 ;
-let
+const
 DETAILS_CONTAINER
 =
 (
@@ -350,7 +350,7 @@ container
 "
 )
 ;
-let
+const
 NORMAL_BUFFER_STATUS_MESSAGE
 =
 (
@@ -432,7 +432,7 @@ display
 "
 )
 ;
-let
+const
 bufferUsage
 =
 PerformanceController

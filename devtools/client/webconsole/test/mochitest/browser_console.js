@@ -256,7 +256,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 opened
 =
 waitForBrowserConsole
@@ -477,7 +477,7 @@ hud
 iframeWindow
 )
 ;
-let
+const
 sandbox
 =
 new
@@ -503,7 +503,7 @@ URLSearchParams
 }
 )
 ;
-let
+const
 error
 =
 Cu
@@ -639,7 +639,7 @@ for
 network
 requests
 .
-let
+const
 xhr
 =
 new
@@ -696,7 +696,7 @@ for
 xhr
 error
 .
-let
+const
 xhrErr
 =
 new
@@ -1007,7 +1007,7 @@ of
 a
 CPOW
 .
-let
+const
 cpowEval
 =
 await
@@ -1041,7 +1041,7 @@ result
 actor
 )
 ;
-let
+const
 objectClient
 =
 new
@@ -1091,7 +1091,7 @@ in
 the
 ObjectActor
 .
-let
+const
 prototypeAndProperties
 =
 await
@@ -1146,7 +1146,7 @@ the
 _contentWindow
 property
 .
-let
+const
 cpow
 =
 prototypeAndProperties
@@ -1169,7 +1169,7 @@ CPOW
 in
 e10s
 .
-let
+const
 e10sCheck
 =
 await
@@ -1258,7 +1258,7 @@ for
 the
 CPOW
 .
-let
+const
 objClient
 =
 new
@@ -1626,7 +1626,7 @@ was
 logged
 )
 ;
-let
+const
 message
 =
 await

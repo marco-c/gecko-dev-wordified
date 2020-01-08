@@ -70,7 +70,7 @@ throttleUploadTest
 actuallyThrottle
 )
 {
-let
+const
 {
 tab
 monitor
@@ -114,7 +114,7 @@ actuallyThrottle
 "
 )
 ;
-let
+const
 {
 connector
 store
@@ -125,7 +125,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -145,7 +145,7 @@ index
 "
 )
 ;
-let
+const
 {
 HarMenuUtils
 }
@@ -171,7 +171,7 @@ utils
 "
 )
 ;
-let
+const
 {
 getSortedRequests
 }
@@ -309,7 +309,7 @@ till
 its
 done
 .
-let
+const
 onEventTimings
 =
 monitor
@@ -325,7 +325,7 @@ EVENTS
 RECEIVED_EVENT_TIMINGS
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -382,7 +382,7 @@ clipboard
 asynchronous
 )
 .
-let
+const
 jsonString
 =
 await
@@ -401,7 +401,7 @@ getState
 connector
 )
 ;
-let
+const
 har
 =
 JSON
@@ -472,7 +472,7 @@ request
 "
 )
 ;
-let
+const
 entry
 =
 har

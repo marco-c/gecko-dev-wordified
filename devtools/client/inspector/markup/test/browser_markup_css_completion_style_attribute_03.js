@@ -570,7 +570,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 }

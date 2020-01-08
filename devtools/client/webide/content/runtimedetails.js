@@ -424,7 +424,7 @@ generateFields
 json
 )
 {
-let
+const
 table
 =
 document
@@ -438,13 +438,13 @@ table
 ;
 for
 (
-let
+const
 name
 in
 json
 )
 {
-let
+const
 tr
 =
 document
@@ -536,7 +536,7 @@ BuildUI
 (
 )
 {
-let
+const
 table
 =
 document
@@ -616,7 +616,7 @@ CheckLockState
 (
 )
 {
-let
+const
 adbCheckResult
 =
 document
@@ -634,7 +634,7 @@ yesno
 "
 )
 ;
-let
+const
 devtoolsCheckResult
 =
 document
@@ -652,7 +652,7 @@ yesno
 "
 )
 ;
-let
+const
 flipCertPerfButton
 =
 document
@@ -668,7 +668,7 @@ button
 "
 )
 ;
-let
+const
 flipCertPerfAction
 =
 document
@@ -686,7 +686,7 @@ action
 "
 )
 ;
-let
+const
 adbRootAction
 =
 document
@@ -704,7 +704,7 @@ action
 "
 )
 ;
-let
+const
 sYes
 =
 Strings
@@ -716,7 +716,7 @@ runtimedetails_checkyes
 "
 )
 ;
-let
+const
 sNo
 =
 Strings
@@ -728,7 +728,7 @@ runtimedetails_checkno
 "
 )
 ;
-let
+const
 sUnknown
 =
 Strings
@@ -740,7 +740,7 @@ runtimedetails_checkunknown
 "
 )
 ;
-let
+const
 sNotUSB
 =
 Strings
@@ -840,7 +840,7 @@ RuntimeTypes
 USB
 )
 {
-let
+const
 device
 =
 AppManager
@@ -946,7 +946,7 @@ apps
 check
 try
 {
-let
+const
 prefFront
 =
 AppManager
@@ -1058,7 +1058,7 @@ EnableCertApps
 (
 )
 {
-let
+const
 device
 =
 AppManager
@@ -1241,7 +1241,7 @@ RootADB
 (
 )
 {
-let
+const
 device
 =
 AppManager

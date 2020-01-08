@@ -223,7 +223,7 @@ gBrowser
 .
 selectedTab
 ;
-let
+const
 target
 =
 TargetFactory
@@ -233,7 +233,7 @@ forTab
 currentTab
 )
 ;
-let
+const
 toolbox
 =
 gDevTools

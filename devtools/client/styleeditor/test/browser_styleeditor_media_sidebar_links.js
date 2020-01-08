@@ -219,7 +219,7 @@ function
 (
 )
 {
-let
+const
 {
 ui
 }
@@ -230,7 +230,7 @@ openStyleEditorForURL
 TESTCASE_URI
 )
 ;
-let
+const
 editor
 =
 ui
@@ -246,7 +246,7 @@ openEditor
 editor
 )
 ;
-let
+const
 tab
 =
 gBrowser
@@ -305,7 +305,7 @@ testNumberOfLinks
 editor
 )
 {
-let
+const
 sidebar
 =
 editor
@@ -322,7 +322,7 @@ sidebar
 "
 )
 ;
-let
+const
 conditions
 =
 sidebar
@@ -477,7 +477,7 @@ type
 value
 )
 {
-let
+const
 sidebar
 =
 editor
@@ -511,7 +511,7 @@ condition
 "
 )
 ;
-let
+const
 onMediaChange
 =
 once
@@ -549,7 +549,7 @@ click
 (
 )
 ;
-let
+const
 rdmUI
 =
 ResponsiveUIManager
@@ -559,7 +559,7 @@ getResponsiveUIForTab
 tab
 )
 ;
-let
+const
 onContentResize
 =
 waitForResizeTo
@@ -663,7 +663,7 @@ active
 "
 )
 ;
-let
+const
 dimension
 =
 (
@@ -717,7 +717,7 @@ window
 tab
 )
 ;
-let
+const
 onMediaChange
 =
 waitForNEvents
@@ -773,7 +773,7 @@ doFinalChecks
 editor
 )
 {
-let
+const
 sidebar
 =
 editor
@@ -905,7 +905,7 @@ resolve
 =
 >
 {
-let
+const
 onResize
 =
 data
@@ -1002,7 +1002,7 @@ getSizing
 rdmUI
 )
 {
-let
+const
 browser
 =
 rdmUI
@@ -1011,7 +1011,7 @@ getViewportBrowser
 (
 )
 ;
-let
+const
 sizing
 =
 await

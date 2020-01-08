@@ -139,7 +139,7 @@ configure
 "
 )
 ;
-let
+const
 webpackConfig
 =
 {
@@ -1272,7 +1272,7 @@ basename
 __dirname
 )
 ;
-let
+const
 config
 =
 toolboxConfig

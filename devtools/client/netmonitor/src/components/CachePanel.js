@@ -414,7 +414,7 @@ componentDidMount
 (
 )
 {
-let
+const
 {
 connector
 request
@@ -443,7 +443,7 @@ componentWillReceiveProps
 nextProps
 )
 {
-let
+const
 {
 connector
 request
@@ -623,7 +623,7 @@ return
 null
 ;
 }
-let
+const
 d
 =
 new
@@ -659,7 +659,7 @@ render
 (
 )
 {
-let
+const
 {
 request
 openLink
@@ -669,7 +669,7 @@ this
 .
 props
 ;
-let
+const
 {
 responseCache
 }
@@ -679,7 +679,7 @@ request
 let
 object
 ;
-let
+const
 cache
 =
 this

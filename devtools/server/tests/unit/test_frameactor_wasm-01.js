@@ -242,7 +242,7 @@ length
 4
 )
 ;
-let
+const
 wasmFrame
 =
 frameResponse
@@ -274,7 +274,7 @@ this
 undefined
 )
 ;
-let
+const
 location
 =
 wasmFrame
@@ -437,7 +437,7 @@ call
 )
 )
 '
-let
+const
 m
 =
 new
@@ -526,7 +526,7 @@ Uint8Array
 )
 )
 ;
-let
+const
 i
 =
 new

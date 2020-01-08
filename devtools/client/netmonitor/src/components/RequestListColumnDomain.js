@@ -257,7 +257,7 @@ render
 (
 )
 {
-let
+const
 {
 item
 onSecurityIconMouseDown
@@ -267,7 +267,7 @@ this
 .
 props
 ;
-let
+const
 {
 remoteAddress
 remotePort
@@ -282,7 +282,7 @@ isLocal
 =
 item
 ;
-let
+const
 iconClassList
 =
 [
@@ -300,7 +300,7 @@ icon
 let
 iconTitle
 ;
-let
+const
 title
 =
 host

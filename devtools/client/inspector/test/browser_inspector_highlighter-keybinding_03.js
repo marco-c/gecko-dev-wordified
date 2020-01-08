@@ -104,7 +104,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 toolbox
@@ -293,7 +293,7 @@ ahoy
 "
 )
 ;
-let
+const
 shortcutOpts
 =
 {
@@ -521,7 +521,7 @@ highlighted
 "
 )
 ;
-let
+const
 onHighlighterReady
 =
 toolbox
@@ -535,7 +535,7 @@ ready
 "
 )
 ;
-let
+const
 onPickerNodeHovered
 =
 inspector

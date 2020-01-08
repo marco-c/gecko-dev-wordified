@@ -95,7 +95,7 @@ html
 "
 )
 ;
-let
+const
 {
 panel
 controller
@@ -119,7 +119,7 @@ panel
 "
 )
 ;
-let
+const
 timelineEl
 =
 panel
@@ -128,7 +128,7 @@ animationsTimelineComponent
 .
 rootWrapperEl
 ;
-let
+const
 timeBlockNameEls
 =
 timelineEl
@@ -217,7 +217,7 @@ animation
 i
 )
 ;
-let
+const
 title
 =
 el
@@ -229,7 +229,7 @@ title
 "
 )
 ;
-let
+const
 state
 =
 controller

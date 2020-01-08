@@ -177,7 +177,7 @@ reject
 =
 >
 {
-let
+const
 xhr
 =
 new
@@ -239,7 +239,7 @@ _cache
 )
 )
 {
-let
+const
 json
 =
 Services
@@ -409,7 +409,7 @@ onload
 {
 try
 {
-let
+const
 json
 =
 JSON

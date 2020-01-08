@@ -150,7 +150,7 @@ view
 .
 document
 ;
-let
+const
 otherFontsAccordion
 =
 viewDoc
@@ -251,7 +251,7 @@ Serif
 is
 used
 instead
-let
+const
 name
 =
 getName
@@ -339,7 +339,7 @@ viewDoc
 ;
 for
 (
-let
+const
 otherFontEl
 of
 otherFontsEls

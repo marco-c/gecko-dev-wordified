@@ -148,7 +148,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -180,7 +180,7 @@ property
 "
 )
 ;
-let
+const
 textProp
 =
 await

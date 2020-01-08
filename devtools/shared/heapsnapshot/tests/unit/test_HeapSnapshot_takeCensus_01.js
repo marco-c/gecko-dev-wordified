@@ -73,7 +73,7 @@ run_test
 (
 )
 {
-let
+const
 dbg
 =
 new
@@ -98,7 +98,7 @@ object
 ;
 for
 (
-let
+const
 prop
 of
 Object
@@ -109,7 +109,7 @@ census
 )
 )
 {
-let
+const
 desc
 =
 Object
@@ -190,7 +190,7 @@ dbg
 )
 )
 ;
-let
+const
 g
 =
 newGlobal

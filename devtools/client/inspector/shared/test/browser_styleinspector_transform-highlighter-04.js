@@ -215,7 +215,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -236,7 +236,7 @@ test
 inspector
 )
 ;
-let
+const
 hs
 =
 view
@@ -314,7 +314,7 @@ property
 "
 )
 ;
-let
+const
 classRuleEditor
 =
 getRuleViewRuleEditor
@@ -323,7 +323,7 @@ view
 1
 )
 ;
-let
+const
 propEditor
 =
 classRuleEditor
@@ -446,7 +446,7 @@ transform
 )
 )
 ;
-let
+const
 onHighlighterShown
 =
 hs

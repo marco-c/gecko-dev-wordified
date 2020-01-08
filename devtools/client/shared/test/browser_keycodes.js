@@ -59,7 +59,7 @@ function
 {
 for
 (
-let
+const
 key
 in
 KeyCodes

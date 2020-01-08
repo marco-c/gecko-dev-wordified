@@ -229,7 +229,7 @@ without
 .
 for
 (
-let
+const
 tab
 of
 tabs

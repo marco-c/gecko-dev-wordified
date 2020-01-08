@@ -306,7 +306,7 @@ componentDidMount
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -317,7 +317,7 @@ content
 .
 ownerDocument
 ;
-let
+const
 panel
 =
 doc
@@ -391,7 +391,7 @@ componentWillUnmount
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -402,7 +402,7 @@ content
 .
 ownerDocument
 ;
-let
+const
 panels
 =
 doc

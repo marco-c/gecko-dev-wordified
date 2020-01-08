@@ -288,7 +288,7 @@ function
 (
 )
 {
-let
+const
 observer
 =
 new
@@ -327,7 +327,7 @@ true
 await
 onPrefUpdated
 ;
-let
+const
 hud
 =
 await
@@ -1190,7 +1190,7 @@ hud
 message
 )
 {
-let
+const
 menuPopup
 =
 await
@@ -1200,7 +1200,7 @@ hud
 message
 )
 ;
-let
+const
 copyMenuItem
 =
 menuPopup

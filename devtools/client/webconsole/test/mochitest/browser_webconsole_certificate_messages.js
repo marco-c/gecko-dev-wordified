@@ -233,7 +233,7 @@ hud
 TRIGGER_MSG
 )
 ;
-let
+const
 onSha1Warning
 =
 waitForMessage

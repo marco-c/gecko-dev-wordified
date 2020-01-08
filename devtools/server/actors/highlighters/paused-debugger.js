@@ -209,7 +209,7 @@ _buildMarkup
 (
 )
 {
-let
+const
 {
 window
 }
@@ -218,14 +218,14 @@ this
 .
 env
 ;
-let
+const
 prefix
 =
 this
 .
 ID_CLASS_PREFIX
 ;
-let
+const
 container
 =
 createNode
@@ -253,7 +253,7 @@ container
 Wrapper
 element
 .
-let
+const
 wrapper
 =
 createNode
@@ -299,7 +299,7 @@ prefix
 }
 )
 ;
-let
+const
 toolbar
 =
 createNode
@@ -446,7 +446,7 @@ s
 root
 element
 .
-let
+const
 root
 =
 this
@@ -528,7 +528,7 @@ in
 the
 toolbar
 .
-let
+const
 toolbar
 =
 this

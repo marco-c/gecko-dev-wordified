@@ -120,7 +120,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+const
 win
 =
 Services
@@ -275,12 +275,8 @@ finish
 var
 startTests
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -288,7 +284,7 @@ populateTable
 (
 )
 ;
-yield
+await
 testKeyboardInteraction
 (
 )
@@ -298,7 +294,6 @@ endTests
 )
 ;
 }
-)
 ;
 function
 populateTable
@@ -707,12 +702,8 @@ behavior
 var
 testKeyboardInteraction
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -740,7 +731,7 @@ id2
 "
 )
 ;
-let
+const
 node
 =
 getNodeByValue
@@ -750,7 +741,7 @@ id2
 "
 )
 ;
-let
+const
 event
 =
 table
@@ -769,10 +760,10 @@ click
 node
 )
 ;
-yield
+await
 event
 ;
-yield
+await
 testRow
 (
 "
@@ -787,7 +778,7 @@ row
 "
 )
 ;
-yield
+await
 testRow
 (
 "
@@ -802,7 +793,7 @@ row
 "
 )
 ;
-yield
+await
 testRow
 (
 "
@@ -817,7 +808,7 @@ row
 "
 )
 ;
-yield
+await
 testRow
 (
 "
@@ -832,7 +823,7 @@ row
 "
 )
 ;
-yield
+await
 testRow
 (
 "
@@ -847,7 +838,7 @@ row
 "
 )
 ;
-yield
+await
 testRow
 (
 "
@@ -862,7 +853,7 @@ row
 "
 )
 ;
-yield
+await
 testRow
 (
 "
@@ -877,7 +868,7 @@ row
 "
 )
 ;
-yield
+await
 testRow
 (
 "
@@ -892,7 +883,7 @@ row
 "
 )
 ;
-yield
+await
 testRow
 (
 "
@@ -940,7 +931,7 @@ to
 first
 row
 .
-yield
+await
 testRow
 (
 "
@@ -966,7 +957,7 @@ to
 last
 row
 .
-yield
+await
 testRow
 (
 "
@@ -982,10 +973,9 @@ row
 )
 ;
 }
-)
 ;
+async
 function
-*
 testRow
 (
 id
@@ -993,7 +983,7 @@ key
 destination
 )
 {
-let
+const
 node
 =
 getNodeByValue
@@ -1047,7 +1037,7 @@ destination
 }
 )
 ;
-let
+const
 event
 =
 table
@@ -1071,10 +1061,10 @@ doc
 defaultView
 )
 ;
-let
+const
 uniqueId
 =
-yield
+await
 event
 ;
 is
@@ -1114,7 +1104,7 @@ class
 "
 )
 ;
-let
+const
 nodes
 =
 doc

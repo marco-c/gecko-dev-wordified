@@ -390,7 +390,7 @@ value
 length
 )
 {
-let
+const
 stringMatch
 =
 new
@@ -426,7 +426,7 @@ i
 +
 )
 {
-let
+const
 key
 =
 this
@@ -436,7 +436,7 @@ _keys
 i
 ]
 ;
-let
+const
 row
 =
 this
@@ -497,7 +497,7 @@ hide
 }
 else
 {
-let
+const
 trs
 =
 this
@@ -562,7 +562,7 @@ function
 json
 )
 {
-let
+const
 deviceItems
 =
 Object
@@ -604,7 +604,7 @@ i
 +
 )
 {
-let
+const
 key
 =
 this
@@ -646,7 +646,7 @@ customType
 newRow
 )
 {
-let
+const
 table
 =
 this
@@ -660,7 +660,7 @@ table
 "
 )
 ;
-let
+const
 sResetDefault
 =
 Strings
@@ -709,7 +709,7 @@ input
 "
 )
 ;
-let
+const
 tr
 =
 this
@@ -968,7 +968,7 @@ td
 name
 )
 ;
-let
+const
 button
 =
 this
@@ -1080,7 +1080,7 @@ if
 newRow
 )
 {
-let
+const
 existing
 =
 table
@@ -1136,7 +1136,7 @@ function
 (
 )
 {
-let
+const
 table
 =
 this
@@ -1150,7 +1150,7 @@ table
 "
 )
 ;
-let
+const
 trs
 =
 table
@@ -1302,14 +1302,14 @@ function
 options
 )
 {
-let
+const
 fieldName
 =
 options
 .
 id
 ;
-let
+const
 inputType
 =
 options
@@ -1323,7 +1323,7 @@ options
 .
 value
 ;
-let
+const
 input
 =
 this
@@ -1445,7 +1445,7 @@ event
 target
 )
 {
-let
+const
 inputType
 =
 event
@@ -1514,7 +1514,7 @@ editable
 )
 )
 {
-let
+const
 id
 =
 event
@@ -1624,7 +1624,7 @@ _kind
 name
 )
 ;
-let
+const
 dataType
 =
 input
@@ -1638,7 +1638,7 @@ type
 "
 )
 ;
-let
+const
 tr
 =
 this
@@ -1912,7 +1912,7 @@ reset
 )
 )
 {
-let
+const
 btnId
 =
 event
@@ -1928,7 +1928,7 @@ id
 "
 )
 ;
-let
+const
 input
 =
 this
@@ -1959,7 +1959,7 @@ function
 (
 )
 {
-let
+const
 table
 =
 this
@@ -1973,7 +1973,7 @@ table
 "
 )
 ;
-let
+const
 customValueType
 =
 table
@@ -1992,7 +1992,7 @@ type
 .
 value
 ;
-let
+const
 customTextEl
 =
 table
@@ -2082,7 +2082,7 @@ function
 (
 )
 {
-let
+const
 table
 =
 this
@@ -2096,7 +2096,7 @@ table
 "
 )
 ;
-let
+const
 customTextEl
 =
 table
@@ -2150,7 +2150,7 @@ function
 (
 )
 {
-let
+const
 table
 =
 this
@@ -2164,7 +2164,7 @@ table
 "
 )
 ;
-let
+const
 customValueType
 =
 this
@@ -2182,7 +2182,7 @@ customValueType
 return
 ;
 }
-let
+const
 customRow
 =
 table
@@ -2203,7 +2203,7 @@ type
 "
 )
 ;
-let
+const
 customTextEl
 =
 table
@@ -2220,7 +2220,7 @@ text
 "
 )
 ;
-let
+const
 customTextNameEl
 =
 table
@@ -2271,7 +2271,7 @@ customTextEl
 checked
 ;
 }
-let
+const
 customTextName
 =
 customTextNameEl

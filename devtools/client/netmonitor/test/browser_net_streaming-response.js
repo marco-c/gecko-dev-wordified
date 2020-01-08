@@ -66,7 +66,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -89,7 +89,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -100,7 +100,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -120,7 +120,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSortedRequests
@@ -200,7 +200,7 @@ length
 ;
 for
 (
-let
+const
 [
 fmt
 ]
@@ -208,7 +208,7 @@ of
 REQUESTS
 )
 {
-let
+const
 url
 =
 CONTENT_TYPE_SJS
@@ -257,7 +257,7 @@ url
 await
 wait
 ;
-let
+const
 requestItems
 =
 document
@@ -276,7 +276,7 @@ item
 ;
 for
 (
-let
+const
 requestItem
 of
 requestItems
@@ -288,7 +288,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem

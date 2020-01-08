@@ -335,7 +335,7 @@ timestampString
 milliseconds
 )
 {
-let
+const
 d
 =
 new

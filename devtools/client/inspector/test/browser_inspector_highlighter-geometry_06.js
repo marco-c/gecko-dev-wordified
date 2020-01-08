@@ -664,7 +664,7 @@ function
 (
 )
 {
-let
+const
 inspector
 =
 await
@@ -673,7 +673,7 @@ openInspectorForURL
 TEST_URL
 )
 ;
-let
+const
 helper
 =
 await
@@ -691,7 +691,7 @@ prefix
 =
 ID
 ;
-let
+const
 {
 show
 hide
@@ -720,7 +720,7 @@ node2
 ;
 for
 (
-let
+const
 desc
 in
 TESTS
@@ -804,7 +804,7 @@ side
 by
 )
 {
-let
+const
 {
 mouse
 reflow
@@ -813,7 +813,7 @@ highlightedNode
 =
 helper
 ;
-let
+const
 {
 x
 y
@@ -826,7 +826,7 @@ helper
 side
 )
 ;
-let
+const
 dx
 =
 x
@@ -835,7 +835,7 @@ by
 .
 x
 ;
-let
+const
 dy
 =
 y
@@ -844,7 +844,7 @@ by
 .
 y
 ;
-let
+const
 beforeDragStyle
 =
 await
@@ -1010,7 +1010,7 @@ y
 by
 )
 {
-let
+const
 {
 x
 :
@@ -1134,7 +1134,7 @@ name
 delta
 )
 {
-let
+const
 afterDragStyle
 =
 await
@@ -1151,13 +1151,13 @@ true
 ;
 for
 (
-let
+const
 side
 of
 SIDES
 )
 {
-let
+const
 afterValue
 =
 Math
@@ -1175,7 +1175,7 @@ value
 )
 )
 ;
-let
+const
 beforeValue
 =
 Math

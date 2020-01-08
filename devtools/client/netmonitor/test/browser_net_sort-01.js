@@ -59,7 +59,7 @@ function
 (
 )
 {
-let
+const
 {
 L10N
 }
@@ -81,7 +81,7 @@ l10n
 "
 )
 ;
-let
+const
 {
 monitor
 }
@@ -137,7 +137,7 @@ requestLongerTimeout
 2
 )
 ;
-let
+const
 {
 document
 store
@@ -148,7 +148,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -168,7 +168,7 @@ index
 "
 )
 ;
-let
+const
 {
 getDisplayedRequests
 getSelectedRequest
@@ -230,7 +230,7 @@ loadFrameScriptUtils
 (
 )
 ;
-let
+const
 requests
 =
 [
@@ -943,7 +943,7 @@ sortType
 direction
 )
 {
-let
+const
 doc
 =
 monitor
@@ -952,7 +952,7 @@ panelWin
 .
 document
 ;
-let
+const
 target
 =
 doc
@@ -975,7 +975,7 @@ button
 "
 )
 ;
-let
+const
 headers
 =
 doc
@@ -996,7 +996,7 @@ button
 ;
 for
 (
-let
+const
 header
 of
 headers
@@ -1473,7 +1473,7 @@ visible
 "
 )
 ;
-let
+const
 requestItems
 =
 document
@@ -1492,7 +1492,7 @@ item
 ;
 for
 (
-let
+const
 requestItem
 of
 requestItems
@@ -1504,7 +1504,7 @@ scrollIntoView
 (
 )
 ;
-let
+const
 requestsListStatus
 =
 requestItem

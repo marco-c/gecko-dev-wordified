@@ -178,13 +178,13 @@ event
 packet
 )
 {
-let
+const
 grips
 =
 [
 ]
 ;
-let
+const
 handler
 =
 function
@@ -359,7 +359,7 @@ the
 third
 alive
 .
-let
+const
 release
 =
 [

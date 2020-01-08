@@ -45,7 +45,7 @@ function
 event
 )
 {
-let
+const
 a
 =
 5

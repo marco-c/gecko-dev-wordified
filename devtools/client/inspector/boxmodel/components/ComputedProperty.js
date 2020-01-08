@@ -275,7 +275,7 @@ renderReferenceElementPreview
 (
 )
 {
-let
+const
 {
 referenceElement
 referenceElementType

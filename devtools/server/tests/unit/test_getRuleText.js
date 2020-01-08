@@ -714,7 +714,7 @@ run_test
 {
 for
 (
-let
+const
 test
 of
 TEST_DATA

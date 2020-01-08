@@ -175,7 +175,7 @@ function
 response
 )
 {
-let
+const
 frame0
 =
 response
@@ -185,7 +185,7 @@ frames
 0
 ]
 ;
-let
+const
 frame1
 =
 response

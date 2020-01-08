@@ -171,7 +171,7 @@ event
 packet
 )
 {
-let
+const
 env
 =
 packet
@@ -188,7 +188,7 @@ env
 undefined
 )
 ;
-let
+const
 objClient
 =
 gThreadClient
@@ -286,7 +286,7 @@ global
 lexical
 scope
 .
-let
+const
 parentEnv
 =
 env
@@ -303,7 +303,7 @@ parentEnv
 undefined
 )
 ;
-let
+const
 parentClient
 =
 gThreadClient

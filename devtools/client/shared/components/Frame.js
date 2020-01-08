@@ -600,7 +600,7 @@ line
 column
 )
 {
-let
+const
 newState
 =
 {
@@ -730,7 +730,7 @@ let
 frame
 isSourceMapped
 ;
-let
+const
 {
 onClick
 showFunctionName
@@ -860,7 +860,7 @@ after
 >
 "
 .
-let
+const
 source
 =
 frame
@@ -889,7 +889,7 @@ pop
 "
 "
 ;
-let
+const
 line
 =
 frame
@@ -909,7 +909,7 @@ line
 :
 null
 ;
-let
+const
 column
 =
 frame
@@ -1137,7 +1137,7 @@ column
 ;
 }
 }
-let
+const
 attributes
 =
 {
@@ -1467,7 +1467,7 @@ and
 bug
 1290056
 .
-let
+const
 sourceInnerEl
 =
 dom

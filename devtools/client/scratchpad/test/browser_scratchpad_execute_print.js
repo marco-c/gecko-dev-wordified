@@ -125,14 +125,14 @@ runTests
 (
 )
 {
-let
+const
 sp
 =
 gScratchpadWindow
 .
 Scratchpad
 ;
-let
+const
 tests
 =
 [
@@ -209,7 +209,7 @@ correct
 "
 )
 ;
-let
+const
 pageResult
 =
 await
@@ -304,7 +304,7 @@ function
 (
 )
 {
-let
+const
 pageResult
 =
 await
@@ -561,7 +561,7 @@ value
 "
 )
 ;
-let
+const
 pageResult
 =
 await
@@ -676,7 +676,7 @@ function
 (
 )
 {
-let
+const
 pageResult
 =
 await

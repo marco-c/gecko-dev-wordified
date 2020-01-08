@@ -1122,7 +1122,7 @@ enabled
 siblingProp
 )
 {
-let
+const
 prop
 =
 new
@@ -1304,7 +1304,7 @@ markOverriddenAll
 (
 )
 ;
-let
+const
 disabledProps
 =
 [
@@ -1312,7 +1312,7 @@ disabledProps
 ;
 for
 (
-let
+const
 prop
 of
 this
@@ -1417,7 +1417,7 @@ the
 disabled
 store
 .
-let
+const
 disabled
 =
 this
@@ -1474,7 +1474,7 @@ then
 =
 >
 {
-let
+const
 cssProps
 =
 {
@@ -1517,7 +1517,7 @@ here
 .
 for
 (
-let
+const
 cssProp
 of
 parseNamedDeclarations
@@ -1547,7 +1547,7 @@ cssProp
 }
 for
 (
-let
+const
 textProp
 of
 this
@@ -1701,7 +1701,7 @@ here
 .
 for
 (
-let
+const
 index
 in
 modifications
@@ -1709,7 +1709,7 @@ modifications
 changedDeclarations
 )
 {
-let
+const
 newValue
 =
 modifications
@@ -1743,7 +1743,7 @@ properties
 .
 for
 (
-let
+const
 prop
 of
 this
@@ -1907,7 +1907,7 @@ the
 next
 modification
 .
-let
+const
 resultPromise
 =
 promise
@@ -1926,7 +1926,7 @@ then
 =
 >
 {
-let
+const
 modifications
 =
 this
@@ -2103,7 +2103,7 @@ name
 return
 ;
 }
-let
+const
 oldName
 =
 property
@@ -2116,7 +2116,7 @@ name
 =
 name
 ;
-let
+const
 index
 =
 this
@@ -2268,7 +2268,7 @@ priority
 =
 priority
 ;
-let
+const
 index
 =
 this
@@ -2395,7 +2395,7 @@ value
 priority
 )
 {
-let
+const
 modifications
 =
 this
@@ -2531,7 +2531,7 @@ enabled
 !
 value
 ;
-let
+const
 index
 =
 this
@@ -2610,7 +2610,7 @@ function
 property
 )
 {
-let
+const
 index
 =
 this
@@ -2706,13 +2706,13 @@ function
 (
 )
 {
-let
+const
 textProps
 =
 [
 ]
 ;
-let
+const
 store
 =
 this
@@ -2805,13 +2805,13 @@ true
 }
 for
 (
-let
+const
 prop
 of
 props
 )
 {
-let
+const
 name
 =
 prop
@@ -2860,7 +2860,7 @@ invisible
 property
 here
 .
-let
+const
 invisible
 =
 this
@@ -2878,7 +2878,7 @@ isInherited
 name
 )
 ;
-let
+const
 value
 =
 store
@@ -2896,7 +2896,7 @@ prop
 value
 )
 ;
-let
+const
 textProp
 =
 new
@@ -2956,7 +2956,7 @@ function
 (
 )
 {
-let
+const
 store
 =
 this
@@ -2977,7 +2977,7 @@ store
 if
 any
 .
-let
+const
 disabledProps
 =
 store
@@ -3002,7 +3002,7 @@ return
 ]
 ;
 }
-let
+const
 textProps
 =
 [
@@ -3010,13 +3010,13 @@ textProps
 ;
 for
 (
-let
+const
 prop
 of
 disabledProps
 )
 {
-let
+const
 value
 =
 store
@@ -3036,7 +3036,7 @@ prop
 value
 )
 ;
-let
+const
 textProp
 =
 new
@@ -3110,7 +3110,7 @@ matchedSelectors
 [
 ]
 ;
-let
+const
 newTextProps
 =
 this
@@ -3187,7 +3187,7 @@ set
 of
 properties
 .
-let
+const
 brandNewProps
 =
 [
@@ -3195,7 +3195,7 @@ brandNewProps
 ;
 for
 (
-let
+const
 newProp
 of
 newTextProps
@@ -3240,7 +3240,7 @@ updated
 .
 for
 (
-let
+const
 prop
 of
 this
@@ -3541,7 +3541,7 @@ function
 newProp
 )
 {
-let
+const
 match
 =
 {
@@ -3555,7 +3555,7 @@ null
 ;
 for
 (
-let
+const
 prop
 of
 this
@@ -4141,7 +4141,7 @@ function
 (
 )
 {
-let
+const
 selectorText
 =
 this
@@ -4154,7 +4154,7 @@ cssText
 "
 "
 ;
-let
+const
 terminator
 =
 Services
@@ -4183,7 +4183,7 @@ n
 ;
 for
 (
-let
+const
 textProp
 of
 this
@@ -4278,7 +4278,7 @@ function
 {
 for
 (
-let
+const
 prop
 of
 this

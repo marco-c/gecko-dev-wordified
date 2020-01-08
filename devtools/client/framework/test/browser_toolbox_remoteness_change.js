@@ -102,7 +102,7 @@ process
 "
 )
 ;
-let
+const
 tab
 =
 await
@@ -164,7 +164,7 @@ openToolboxForTab
 tab
 )
 ;
-let
+const
 onToolboxDestroyed
 =
 toolbox
@@ -176,7 +176,7 @@ destroyed
 "
 )
 ;
-let
+const
 onToolboxCreated
 =
 gDevTools
@@ -203,7 +203,7 @@ process
 "
 )
 ;
-let
+const
 onLoaded
 =
 BrowserTestUtils
@@ -326,7 +326,7 @@ document
 "
 )
 ;
-let
+const
 console
 =
 await
@@ -339,7 +339,7 @@ webconsole
 "
 )
 ;
-let
+const
 {
 jsterm
 }
@@ -348,7 +348,7 @@ console
 .
 hud
 ;
-let
+const
 url
 =
 await

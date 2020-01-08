@@ -58,7 +58,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -81,7 +81,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 store
@@ -92,7 +92,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 {
 getSortedRequests
 getSelectedRequest
@@ -115,7 +115,7 @@ index
 "
 )
 ;
-let
+const
 wait
 =
 waitForNetworkEvents
@@ -164,7 +164,7 @@ item
 ]
 )
 ;
-let
+const
 requestItem
 =
 getSortedRequests
@@ -181,7 +181,7 @@ get
 0
 )
 ;
-let
+const
 {
 method
 httpVersion
@@ -220,7 +220,7 @@ item
 ]
 )
 ;
-let
+const
 selectedRequest
 =
 getSelectedRequest

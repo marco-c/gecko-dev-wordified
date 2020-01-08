@@ -200,7 +200,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -218,7 +218,7 @@ the
 highlighter
 front
 .
-let
+const
 HighlighterFront
 =
 {

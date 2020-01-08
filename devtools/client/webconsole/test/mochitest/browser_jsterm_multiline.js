@@ -163,7 +163,7 @@ nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTOUT
 ;
-let
+const
 SHOULD_ENTER_MULTILINE
 =
 [
@@ -319,7 +319,7 @@ true
 }
 ]
 ;
-let
+const
 SHOULD_EXECUTE
 =
 [
@@ -585,7 +585,7 @@ process
 "
 )
 ;
-let
+const
 hud
 =
 await
@@ -594,7 +594,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-let
+const
 {
 inputNode
 }
@@ -605,7 +605,7 @@ jsterm
 ;
 for
 (
-let
+const
 {
 input
 shiftKey
@@ -635,7 +635,7 @@ shiftKey
 }
 )
 ;
-let
+const
 inputValue
 =
 hud
@@ -679,7 +679,7 @@ input
 "
 )
 ;
-let
+const
 inputWithNewline
 =
 input
@@ -704,7 +704,7 @@ correct
 }
 for
 (
-let
+const
 {
 input
 shiftKey
@@ -751,7 +751,7 @@ getInputValue
 )
 )
 ;
-let
+const
 inputValue
 =
 hud
@@ -913,7 +913,7 @@ null
 ;
 for
 (
-let
+const
 i
 in
 DATA

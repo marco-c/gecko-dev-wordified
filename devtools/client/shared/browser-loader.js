@@ -1277,7 +1277,7 @@ or
 a
 regexp
 .
-let
+const
 isBrowserDir
 =
 BROWSER_BASED_DIRS

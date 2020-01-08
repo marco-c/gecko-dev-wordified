@@ -139,7 +139,7 @@ function
 (
 )
 {
-let
+const
 {
 inspector
 testActor
@@ -250,7 +250,7 @@ showAllNodes
 inspector
 )
 {
-let
+const
 container
 =
 await
@@ -262,7 +262,7 @@ ul
 inspector
 )
 ;
-let
+const
 button
 =
 container
@@ -288,7 +288,7 @@ here
 "
 )
 ;
-let
+const
 win
 =
 button
@@ -330,7 +330,7 @@ inspector
 testActor
 )
 {
-let
+const
 container
 =
 await
@@ -367,7 +367,7 @@ anymore
 "
 )
 ;
-let
+const
 numItems
 =
 await

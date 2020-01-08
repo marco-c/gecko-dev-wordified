@@ -237,7 +237,7 @@ line
 "
 "
 ;
-let
+const
 wait
 =
 (
@@ -255,7 +255,7 @@ stream
 {
 try
 {
-let
+const
 amountToRead
 =
 HEADER_MAX_LEN
@@ -435,7 +435,7 @@ reject
 =
 >
 {
-let
+const
 wait
 =
 (
@@ -471,7 +471,7 @@ stream
 {
 try
 {
-let
+const
 written
 =
 output
@@ -571,7 +571,7 @@ requestLine
 "
 "
 ;
-let
+const
 headers
 =
 new
@@ -584,7 +584,7 @@ while
 true
 )
 {
-let
+const
 line
 =
 await
@@ -619,7 +619,7 @@ line
 }
 else
 {
-let
+const
 colon
 =
 line
@@ -654,7 +654,7 @@ line
 )
 ;
 }
-let
+const
 name
 =
 line
@@ -669,7 +669,7 @@ toLowerCase
 (
 )
 ;
-let
+const
 value
 =
 line
@@ -729,7 +729,7 @@ output
 response
 )
 {
-let
+const
 responseString
 =
 response
@@ -800,7 +800,7 @@ headers
 }
 )
 {
-let
+const
 [
 method
 path
@@ -867,7 +867,7 @@ path
 )
 ;
 }
-let
+const
 upgrade
 =
 headers
@@ -910,7 +910,7 @@ header
 )
 ;
 }
-let
+const
 connection
 =
 headers
@@ -973,7 +973,7 @@ header
 )
 ;
 }
-let
+const
 version
 =
 headers
@@ -1031,7 +1031,7 @@ Compute
 the
 accept
 key
-let
+const
 key
 =
 headers
@@ -1091,7 +1091,7 @@ computeKey
 key
 )
 {
-let
+const
 str
 =
 key
@@ -1108,7 +1108,7 @@ E914
 C5AB0DC85B11
 "
 ;
-let
+const
 data
 =
 Array
@@ -1127,7 +1127,7 @@ charCodeAt
 )
 )
 ;
-let
+const
 hash
 =
 new
@@ -1192,7 +1192,7 @@ output
 Read
 the
 request
-let
+const
 request
 =
 await
@@ -1212,7 +1212,7 @@ info
 from
 the
 request
-let
+const
 {
 acceptKey
 }
@@ -1369,7 +1369,7 @@ input
 output
 )
 ;
-let
+const
 transportProvider
 =
 {
@@ -1423,7 +1423,7 @@ reject
 =
 >
 {
-let
+const
 socket
 =
 WebSocket

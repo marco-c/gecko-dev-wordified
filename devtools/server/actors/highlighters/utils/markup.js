@@ -387,7 +387,7 @@ ClassList
 className
 )
 {
-let
+const
 trimmed
 =
 (
@@ -504,7 +504,7 @@ remove
 token
 )
 {
-let
+const
 index
 =
 this
@@ -841,7 +841,7 @@ its
 document
 accessible
 ?
-let
+const
 doc
 =
 node
@@ -891,7 +891,7 @@ in
 the
 document
 .
-let
+const
 bindingParent
 =
 getRootBindingParent
@@ -1225,7 +1225,7 @@ win
 options
 )
 {
-let
+const
 type
 =
 options
@@ -1237,7 +1237,7 @@ nodeType
 div
 "
 ;
-let
+const
 namespace
 =
 options
@@ -1247,7 +1247,7 @@ namespace
 |
 XHTML_NS
 ;
-let
+const
 node
 =
 win
@@ -1262,7 +1262,7 @@ type
 ;
 for
 (
-let
+const
 name
 in
 options
@@ -1589,7 +1589,7 @@ event
 to
 fire
 .
-let
+const
 doc
 =
 this
@@ -1746,7 +1746,7 @@ _insert
 (
 )
 {
-let
+const
 doc
 =
 this
@@ -1915,7 +1915,7 @@ window
 STYLESHEET_URI
 )
 ;
-let
+const
 node
 =
 this
@@ -2167,7 +2167,7 @@ _remove
 {
 try
 {
-let
+const
 doc
 =
 this
@@ -2924,7 +2924,7 @@ type
 )
 )
 {
-let
+const
 target
 =
 this
@@ -2972,7 +2972,7 @@ Map
 )
 ;
 }
-let
+const
 listeners
 =
 this
@@ -3035,7 +3035,7 @@ id
 type
 )
 {
-let
+const
 listeners
 =
 this
@@ -3091,7 +3091,7 @@ type
 )
 )
 {
-let
+const
 target
 =
 this
@@ -3116,7 +3116,7 @@ handleEvent
 event
 )
 {
-let
+const
 listeners
 =
 this
@@ -3167,7 +3167,7 @@ isPropagationStopped
 =
 false
 ;
-let
+const
 eventProxy
 =
 new
@@ -3262,7 +3262,7 @@ while
 node
 )
 {
-let
+const
 handler
 =
 listeners
@@ -3322,7 +3322,7 @@ highlighterEnv
 pageListenerTarget
 )
 {
-let
+const
 target
 =
 this
@@ -3333,7 +3333,7 @@ pageListenerTarget
 ;
 for
 (
-let
+const
 [
 type
 ]
@@ -3391,7 +3391,7 @@ id
 )
 ;
 }
-let
+const
 classList
 =
 new
@@ -3439,7 +3439,7 @@ toString
 }
 )
 ;
-let
+const
 element
 =
 {
@@ -3844,7 +3844,7 @@ node
 id
 )
 {
-let
+const
 boundaryWindow
 =
 this
@@ -3853,7 +3853,7 @@ highlighterEnv
 .
 window
 ;
-let
+const
 zoom
 =
 getCurrentZoom
@@ -4272,7 +4272,7 @@ options
 }
 )
 {
-let
+const
 zoom
 =
 getCurrentZoom
@@ -4280,7 +4280,7 @@ getCurrentZoom
 win
 )
 ;
-let
+const
 viewport
 =
 getViewportDimensions
@@ -4288,19 +4288,19 @@ getViewportDimensions
 win
 )
 ;
-let
+const
 {
 computedStyle
 }
 =
 container
 ;
-let
+const
 margin
 =
 2
 ;
-let
+const
 arrowSize
 =
 parseFloat
@@ -4323,7 +4323,7 @@ size
 )
 )
 ;
-let
+const
 containerHeight
 =
 parseFloat
@@ -4338,7 +4338,7 @@ height
 )
 )
 ;
-let
+const
 containerWidth
 =
 parseFloat
@@ -4353,14 +4353,14 @@ width
 )
 )
 ;
-let
+const
 containerHalfWidth
 =
 containerWidth
 /
 2
 ;
-let
+const
 viewportWidth
 =
 viewport
@@ -4369,7 +4369,7 @@ width
 *
 zoom
 ;
-let
+const
 viewportHeight
 =
 viewport
@@ -4405,12 +4405,12 @@ for
 the
 infobar
 .
-let
+const
 topBoundary
 =
 margin
 ;
-let
+const
 bottomBoundary
 =
 viewportHeight
@@ -4421,14 +4421,14 @@ margin
 -
 1
 ;
-let
+const
 leftBoundary
 =
 containerHalfWidth
 +
 margin
 ;
-let
+const
 rightBoundary
 =
 viewportWidth
@@ -4455,7 +4455,7 @@ containerHeight
 -
 arrowSize
 ;
-let
+const
 bottom
 =
 bounds
@@ -4609,7 +4609,7 @@ of
 relative
 )
 .
-let
+const
 canBePlacedOnTop
 =
 top
@@ -4617,7 +4617,7 @@ top
 =
 pageYOffset
 ;
-let
+const
 canBePlacedOnBottom
 =
 bottomBoundary
@@ -4628,7 +4628,7 @@ bottom
 >
 0
 ;
-let
+const
 forcedOnTop
 =
 options
@@ -4641,7 +4641,7 @@ position
 top
 "
 ;
-let
+const
 forcedOnBottom
 =
 options
@@ -4683,7 +4683,7 @@ bottom
 "
 ;
 }
-let
+const
 isOffscreenOnTop
 =
 top
@@ -4692,7 +4692,7 @@ topBoundary
 +
 pageYOffset
 ;
-let
+const
 isOffscreenOnBottom
 =
 top
@@ -4701,7 +4701,7 @@ bottomBoundary
 +
 pageYOffset
 ;
-let
+const
 isOffscreenOnLeft
 =
 left
@@ -4710,7 +4710,7 @@ leftBoundary
 +
 pageXOffset
 ;
-let
+const
 isOffscreenOnRight
 =
 left

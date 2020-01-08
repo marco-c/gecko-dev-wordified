@@ -102,7 +102,7 @@ inspector
 "
 )
 ;
-let
+const
 {
 toolbox
 inspector
@@ -187,7 +187,7 @@ span
 inspector
 )
 ;
-let
+const
 container
 =
 await
@@ -199,7 +199,7 @@ h1
 inspector
 )
 ;
-let
+const
 onHighlighterReady
 =
 toolbox

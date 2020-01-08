@@ -84,7 +84,7 @@ function
 (
 )
 {
-let
+const
 {
 tab
 monitor
@@ -96,7 +96,7 @@ initNetMonitor
 CUSTOM_GET_URL
 )
 ;
-let
+const
 {
 document
 store
@@ -107,7 +107,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 Actions
 =
 windowRequire
@@ -141,7 +141,7 @@ false
 ;
 for
 (
-let
+const
 test
 of
 TEST_CASES

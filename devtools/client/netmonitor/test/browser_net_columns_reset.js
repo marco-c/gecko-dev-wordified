@@ -50,7 +50,7 @@ function
 (
 )
 {
-let
+const
 {
 monitor
 }
@@ -72,7 +72,7 @@ test
 "
 )
 ;
-let
+const
 {
 document
 parent
@@ -83,7 +83,7 @@ monitor
 .
 panelWin
 ;
-let
+const
 {
 Prefs
 }
@@ -105,7 +105,7 @@ prefs
 "
 )
 ;
-let
+const
 prefBefore
 =
 Prefs

@@ -174,7 +174,7 @@ NON_BUILTIN_ROOT_PREF
 }
 )
 ;
-let
+const
 hud
 =
 await
@@ -808,7 +808,7 @@ node
 name
 )
 ;
-let
+const
 learnMoreNode
 =
 node

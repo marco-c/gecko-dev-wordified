@@ -279,7 +279,7 @@ render
 (
 )
 {
-let
+const
 {
 boxModel
 }
@@ -288,7 +288,7 @@ this
 .
 props
 ;
-let
+const
 {
 geometryEditorEnabled
 layout
@@ -296,7 +296,7 @@ layout
 =
 boxModel
 ;
-let
+const
 {
 height
 =

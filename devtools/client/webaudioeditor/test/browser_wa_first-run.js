@@ -49,7 +49,7 @@ function
 (
 )
 {
-let
+const
 {
 target
 panel
@@ -61,7 +61,7 @@ initWebAudioEditor
 SIMPLE_CONTEXT_URL
 )
 ;
-let
+const
 {
 gFront
 }
@@ -155,7 +155,7 @@ hidden
 "
 )
 ;
-let
+const
 navigating
 =
 once
@@ -168,7 +168,7 @@ navigate
 "
 )
 ;
-let
+const
 started
 =
 once

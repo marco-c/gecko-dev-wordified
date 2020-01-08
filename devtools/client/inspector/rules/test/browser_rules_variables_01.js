@@ -86,7 +86,7 @@ addTab
 TEST_URI
 )
 ;
-let
+const
 {
 inspector
 view
@@ -146,7 +146,7 @@ y
 "
 )
 ;
-let
+const
 unsetColor
 =
 getRuleViewProperty
@@ -174,7 +174,7 @@ variable
 "
 )
 ;
-let
+const
 setColor
 =
 unsetColor
@@ -266,7 +266,7 @@ previewTooltip
 setColor
 )
 ;
-let
+const
 unsetVar
 =
 getRuleViewProperty
@@ -296,14 +296,14 @@ variable
 "
 )
 ;
-let
+const
 setVar
 =
 unsetVar
 .
 nextElementSibling
 ;
-let
+const
 setVarName
 =
 setVar

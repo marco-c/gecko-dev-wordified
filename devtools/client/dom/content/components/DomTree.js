@@ -437,7 +437,7 @@ render
 (
 )
 {
-let
+const
 {
 dispatch
 grips
@@ -449,7 +449,7 @@ this
 .
 props
 ;
-let
+const
 columns
 =
 [
@@ -508,7 +508,7 @@ own
 specific
 template
 .
-let
+const
 renderValue
 =
 props

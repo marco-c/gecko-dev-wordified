@@ -830,7 +830,7 @@ render
 (
 )
 {
-let
+const
 {
 devices
 screenshot

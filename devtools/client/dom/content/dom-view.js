@@ -363,7 +363,7 @@ function
 rootGrip
 )
 {
-let
+const
 content
 =
 document
@@ -376,7 +376,7 @@ content
 "
 )
 ;
-let
+const
 mainFrame
 =
 MainFrame
@@ -394,7 +394,7 @@ Render
 top
 level
 component
-let
+const
 provider
 =
 React
@@ -432,14 +432,14 @@ function
 event
 )
 {
-let
+const
 data
 =
 event
 .
 data
 ;
-let
+const
 method
 =
 data

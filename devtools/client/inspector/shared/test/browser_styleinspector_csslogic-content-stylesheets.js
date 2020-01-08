@@ -410,7 +410,7 @@ targetSelector
 testActor
 )
 {
-let
+const
 sheets
 =
 await
@@ -423,7 +423,7 @@ targetSelector
 ;
 for
 (
-let
+const
 sheet
 of
 sheets

@@ -412,7 +412,7 @@ enableWebComponents
 (
 )
 ;
-let
+const
 {
 inspector
 }
@@ -439,7 +439,7 @@ slots
 are
 defined
 .
-let
+const
 beforeTree
 =
 class
@@ -554,7 +554,7 @@ appears
 "
 )
 ;
-let
+const
 mutated
 =
 waitForNMutations
@@ -566,7 +566,7 @@ childList
 2
 )
 ;
-let
+const
 pseudoMutated
 =
 waitForMutation
@@ -590,7 +590,7 @@ function
 (
 )
 {
-let
+const
 root
 =
 content
@@ -605,7 +605,7 @@ root
 "
 )
 ;
-let
+const
 hasBeforeEl
 =
 content
@@ -668,7 +668,7 @@ expected
 to
 appear
 .
-let
+const
 afterTree
 =
 class

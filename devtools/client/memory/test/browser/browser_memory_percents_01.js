@@ -162,7 +162,7 @@ cell
 .
 for
 (
-let
+const
 cell
 of
 cells
@@ -243,8 +243,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -301,7 +301,7 @@ CENSUS
 )
 )
 ;
-yield
+await
 dispatch
 (
 takeSnapshotAndCensus

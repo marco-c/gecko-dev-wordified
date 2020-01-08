@@ -147,7 +147,7 @@ getResolvedURI
 gTestPath
 )
 ;
-let
+const
 dir
 =
 getChromeDir
@@ -340,14 +340,14 @@ content
 /
 process
 .
-let
+const
 browser
 =
 gBrowser
 .
 selectedBrowser
 ;
-let
+const
 actualPath
 =
 await

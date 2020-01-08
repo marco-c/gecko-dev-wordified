@@ -284,7 +284,7 @@ node14
 "
 )
 ;
-let
+const
 container
 =
 await
@@ -312,7 +312,7 @@ editor
 "
 )
 ;
-let
+const
 attr
 =
 container
@@ -339,7 +339,7 @@ inspector
 panelWin
 )
 ;
-let
+const
 editor
 =
 inplaceEditor
@@ -365,7 +365,7 @@ i
 +
 )
 {
-let
+const
 data
 =
 testData
@@ -396,7 +396,7 @@ is
 actually
 created
 .
-let
+const
 onMutation
 =
 i
@@ -505,7 +505,7 @@ event
 here
 again
 .
-let
+const
 onMutation
 =
 inspector
@@ -606,7 +606,7 @@ editor
 inspector
 )
 {
-let
+const
 key
 =
 data
@@ -633,7 +633,7 @@ key
 )
 )
 {
-let
+const
 suggestionIndex
 =
 parseInt
@@ -911,7 +911,7 @@ editor
 inspector
 )
 {
-let
+const
 [
 completion
 selStart
@@ -1009,7 +1009,7 @@ closed
 }
 else
 {
-let
+const
 nodeFront
 =
 await
@@ -1022,7 +1022,7 @@ node14
 inspector
 )
 ;
-let
+const
 container
 =
 getContainerForNodeFront
@@ -1031,7 +1031,7 @@ nodeFront
 inspector
 )
 ;
-let
+const
 attr
 =
 container

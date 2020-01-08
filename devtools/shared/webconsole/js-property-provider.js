@@ -417,7 +417,7 @@ findCompletionBeginning
 str
 )
 {
-let
+const
 bodyStack
 =
 [
@@ -584,7 +584,7 @@ c
 )
 )
 {
-let
+const
 last
 =
 bodyStack
@@ -1063,7 +1063,7 @@ should
 be
 completed
 .
-let
+const
 beginning
 =
 findCompletionBeginning
@@ -1132,7 +1132,7 @@ return
 null
 ;
 }
-let
+const
 completionPart
 =
 inputValue
@@ -1144,7 +1144,7 @@ beginning
 startPos
 )
 ;
-let
+const
 lastDot
 =
 completionPart
@@ -1247,7 +1247,7 @@ lastDot
 0
 )
 {
-let
+const
 parser
 =
 new
@@ -1261,7 +1261,7 @@ logExceptions
 =
 false
 ;
-let
+const
 syntaxTree
 =
 parser
@@ -1277,7 +1277,7 @@ lastDot
 )
 )
 ;
-let
+const
 lastTree
 =
 syntaxTree
@@ -1286,7 +1286,7 @@ getLastSyntaxTree
 (
 )
 ;
-let
+const
 lastBody
 =
 lastTree
@@ -1343,14 +1343,14 @@ if
 lastBody
 )
 {
-let
+const
 expression
 =
 lastBody
 .
 expression
 ;
-let
+const
 matchProp
 =
 completionPart
@@ -1437,7 +1437,7 @@ a
 property
 lookup
 .
-let
+const
 properties
 =
 completionPart
@@ -1449,7 +1449,7 @@ split
 "
 )
 ;
-let
+const
 matchProp
 =
 properties
@@ -1491,7 +1491,7 @@ global
 lexical
 scope
 .
-let
+const
 env
 =
 anEnvironment
@@ -1522,7 +1522,7 @@ matchProp
 )
 ;
 }
-let
+const
 firstProp
 =
 properties
@@ -1681,7 +1681,7 @@ i
 +
 )
 {
-let
+const
 prop
 =
 properties
@@ -1960,7 +1960,7 @@ get
 the
 array
 .
-let
+const
 propWithoutIndices
 =
 prop
@@ -2035,7 +2035,7 @@ element
 let
 result
 ;
-let
+const
 arrayIndicesRegex
 =
 /
@@ -2070,7 +2070,7 @@ prop
 null
 )
 {
-let
+const
 indexWithBrackets
 =
 result
@@ -2078,7 +2078,7 @@ result
 0
 ]
 ;
-let
+const
 indexAsText
 =
 indexWithBrackets
@@ -2093,7 +2093,7 @@ length
 2
 )
 ;
-let
+const
 index
 =
 parseInt
@@ -2445,7 +2445,7 @@ getProperties
 }
 )
 {
-let
+const
 matches
 =
 new
@@ -2469,7 +2469,7 @@ the
 prototype
 chain
 .
-let
+const
 iter
 =
 chainIterator
@@ -2484,7 +2484,7 @@ of
 iter
 )
 {
-let
+const
 props
 =
 getProperties
@@ -2584,7 +2584,7 @@ i
 +
 )
 {
-let
+const
 prop
 =
 props
@@ -2834,7 +2834,7 @@ the
 prototype
 chain
 .
-let
+const
 iter
 =
 chainIterator
@@ -2849,7 +2849,7 @@ of
 iter
 )
 {
-let
+const
 prop
 =
 getProperty
@@ -3172,7 +3172,7 @@ function
 obj
 )
 {
-let
+const
 names
 =
 obj

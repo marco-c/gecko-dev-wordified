@@ -136,7 +136,7 @@ function
 (
 )
 {
-let
+const
 {
 toolbox
 testActor
@@ -176,7 +176,7 @@ activate
 "
 )
 ;
-let
+const
 highlighterShowing
 =
 toolbox

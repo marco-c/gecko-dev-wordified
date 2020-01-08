@@ -440,7 +440,7 @@ the
 WebGL
 proxy
 .
-let
+const
 {
 linkedProxy
 :
@@ -461,14 +461,14 @@ source
 to
 inject
 .
-let
+const
 oldText
 =
 this
 .
 text
 ;
-let
+const
 newText
 =
 text
@@ -482,7 +482,7 @@ shader
 s
 source
 .
-let
+const
 error
 =
 proxy
@@ -1065,14 +1065,14 @@ type
 ]
 ;
 }
-let
+const
 proxy
 =
 this
 .
 linkedProxy
 ;
-let
+const
 shader
 =
 proxy
@@ -1085,7 +1085,7 @@ shaders
 type
 )
 ;
-let
+const
 shaderActor
 =
 new
@@ -1599,7 +1599,7 @@ function
 (
 )
 {
-let
+const
 id
 =
 ContentObserver
@@ -1663,7 +1663,7 @@ function
 (
 )
 {
-let
+const
 deferred
 =
 defer
@@ -1793,7 +1793,7 @@ position
 }
 )
 {
-let
+const
 {
 x
 y
@@ -1801,7 +1801,7 @@ y
 =
 position
 ;
-let
+const
 canvas
 =
 this
@@ -1817,7 +1817,7 @@ querySelector
 selector
 )
 ;
-let
+const
 context
 =
 XPCNativeWrapper
@@ -1834,7 +1834,7 @@ webgl
 )
 )
 ;
-let
+const
 {
 proxy
 }
@@ -1848,7 +1848,7 @@ for
 context
 )
 ;
-let
+const
 height
 =
 canvas
@@ -2132,7 +2132,7 @@ function
 args
 )
 {
-let
+const
 programActor
 =
 new
@@ -2239,12 +2239,12 @@ window
 observer
 )
 {
-let
+const
 self
 =
 this
 ;
-let
+const
 id
 =
 ContentObserver
@@ -2254,7 +2254,7 @@ GetInnerWindowID
 window
 )
 ;
-let
+const
 canvasElem
 =
 XPCNativeWrapper
@@ -2266,14 +2266,14 @@ window
 HTMLCanvasElement
 )
 ;
-let
+const
 canvasPrototype
 =
 canvasElem
 .
 prototype
 ;
-let
+const
 originalGetContext
 =
 canvasPrototype
@@ -2347,7 +2347,7 @@ to
 be
 created
 .
-let
+const
 context
 =
 originalGetContext
@@ -2468,7 +2468,7 @@ methods
 .
 for
 (
-let
+const
 {
 timing
 callback
@@ -2482,7 +2482,7 @@ _methods
 {
 for
 (
-let
+const
 func
 of
 functions
@@ -2690,7 +2690,7 @@ timing
 1
 )
 {
-let
+const
 {
 cache
 proxy
@@ -2703,7 +2703,7 @@ for
 context
 )
 ;
-let
+const
 originalFunc
 =
 context
@@ -2711,7 +2711,7 @@ context
 funcName
 ]
 ;
-let
+const
 beforeFuncName
 =
 callbackName
@@ -2722,7 +2722,7 @@ callbackName
 |
 funcName
 ;
-let
+const
 afterFuncName
 =
 callbackName
@@ -2766,7 +2766,7 @@ observer
 suppressHandlers
 )
 {
-let
+const
 glBreak
 =
 observer
@@ -2818,7 +2818,7 @@ Get
 Xrays
 back
 .
-let
+const
 glResult
 =
 Cu
@@ -2853,7 +2853,7 @@ observer
 suppressHandlers
 )
 {
-let
+const
 glBreak
 =
 observer
@@ -3273,7 +3273,7 @@ id
 context
 )
 {
-let
+const
 cache
 =
 new
@@ -3283,7 +3283,7 @@ id
 context
 )
 ;
-let
+const
 proxy
 =
 new
@@ -3560,7 +3560,7 @@ cache
 proxy
 )
 {
-let
+const
 program
 =
 glArgs
@@ -3568,7 +3568,7 @@ glArgs
 0
 ]
 ;
-let
+const
 shaders
 =
 proxy
@@ -3701,7 +3701,7 @@ glResult
 return
 ;
 }
-let
+const
 [
 program
 name
@@ -3816,7 +3816,7 @@ glResult
 return
 ;
 }
-let
+const
 [
 program
 name
@@ -4417,7 +4417,7 @@ glArgs
 cache
 )
 {
-let
+const
 blendColor
 =
 cache
@@ -4526,7 +4526,7 @@ glArgs
 cache
 )
 {
-let
+const
 state
 =
 cache
@@ -4606,7 +4606,7 @@ glArgs
 cache
 )
 {
-let
+const
 state
 =
 cache
@@ -4691,7 +4691,7 @@ glArgs
 cache
 )
 {
-let
+const
 state
 =
 cache
@@ -4784,7 +4784,7 @@ glArgs
 cache
 )
 {
-let
+const
 state
 =
 cache
@@ -4909,7 +4909,7 @@ cache
 proxy
 )
 {
-let
+const
 traits
 =
 cache
@@ -5063,7 +5063,7 @@ cache
 proxy
 )
 {
-let
+const
 traits
 =
 cache
@@ -5313,14 +5313,14 @@ function
 proxy
 )
 {
-let
+const
 gl
 =
 this
 .
 _gl
 ;
-let
+const
 s
 =
 this
@@ -5715,7 +5715,7 @@ currentProgram
 program
 )
 {
-let
+const
 programInfo
 =
 this
@@ -6012,7 +6012,7 @@ function
 program
 )
 {
-let
+const
 attributes
 =
 this
@@ -6028,7 +6028,7 @@ attributes
 ;
 for
 (
-let
+const
 attribute
 of
 attributes
@@ -6109,7 +6109,7 @@ function
 program
 )
 {
-let
+const
 uniforms
 =
 this
@@ -6125,7 +6125,7 @@ uniforms
 ;
 for
 (
-let
+const
 [
 uniform
 ]
@@ -6239,14 +6239,14 @@ function
 initialValue
 )
 {
-let
+const
 attributes
 =
 this
 .
 _currentAttributesMap
 ;
-let
+const
 currentInfo
 =
 attributes
@@ -6356,14 +6356,14 @@ function
 initialValue
 )
 {
-let
+const
 uniforms
 =
 this
 .
 _currentUniformsMap
 ;
-let
+const
 currentInfo
 =
 uniforms
@@ -6541,7 +6541,7 @@ _observer
 =
 observer
 ;
-let
+const
 exports
 =
 [
@@ -6854,7 +6854,7 @@ return
 null
 ;
 }
-let
+const
 gl
 =
 this
@@ -6983,7 +6983,7 @@ return
 null
 ;
 }
-let
+const
 gl
 =
 this
@@ -7206,14 +7206,14 @@ shaders
 type
 )
 {
-let
+const
 gl
 =
 this
 .
 _gl
 ;
-let
+const
 shaderTypeEnum
 =
 {
@@ -7234,7 +7234,7 @@ type
 ;
 for
 (
-let
+const
 shader
 of
 shaders
@@ -7346,7 +7346,7 @@ shader
 text
 )
 {
-let
+const
 gl
 =
 this
@@ -7375,7 +7375,7 @@ linkProgram
 program
 )
 ;
-let
+const
 error
 =
 {
@@ -7485,7 +7485,7 @@ function
 (
 )
 {
-let
+const
 gl
 =
 this
@@ -7520,7 +7520,7 @@ the
 default
 renderbuffer
 .
-let
+const
 hasFramebuffer
 =
 this
@@ -7532,7 +7532,7 @@ FRAMEBUFFER_BINDING
 "
 )
 ;
-let
+const
 hasRenderbuffer
 =
 this
@@ -7570,7 +7570,7 @@ of
 the
 framebuffer
 .
-let
+const
 writesDepth
 =
 this
@@ -7582,7 +7582,7 @@ DEPTH_ATTACHMENT
 "
 )
 ;
-let
+const
 writesStencil
 =
 this
@@ -7735,14 +7735,14 @@ function
 (
 )
 {
-let
+const
 gl
 =
 this
 .
 _gl
 ;
-let
+const
 s
 =
 this
@@ -7967,7 +7967,7 @@ funcName
 args
 )
 {
-let
+const
 prevState
 =
 this
@@ -7984,7 +7984,7 @@ suppressHandlers
 =
 true
 ;
-let
+const
 result
 =
 this
@@ -8030,7 +8030,7 @@ predicate
 {
 for
 (
-let
+const
 [
 key
 value

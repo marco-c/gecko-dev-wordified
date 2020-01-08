@@ -164,7 +164,7 @@ function
 (
 )
 {
-let
+const
 packet
 =
 await
@@ -174,7 +174,7 @@ evalCode
 gClient
 )
 ;
-let
+const
 source
 =
 gThreadClient
@@ -194,7 +194,7 @@ source
 /
 Whole
 line
-let
+const
 wholeLineLocation
 =
 {
@@ -255,7 +255,7 @@ breakpoints
 /
 Specific
 column
-let
+const
 columnLocation
 =
 {

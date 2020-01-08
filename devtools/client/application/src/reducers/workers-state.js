@@ -119,7 +119,7 @@ case
 UPDATE_WORKERS
 :
 {
-let
+const
 {
 workers
 }

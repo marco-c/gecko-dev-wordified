@@ -166,7 +166,7 @@ event
 packet
 )
 {
-let
+const
 arg1Actor
 =
 packet

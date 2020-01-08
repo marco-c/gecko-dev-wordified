@@ -166,7 +166,7 @@ TEST_URI
 )
 )
 ;
-let
+const
 {
 inspector
 view
@@ -247,7 +247,7 @@ view
 0
 )
 ;
-let
+const
 onFocus
 =
 once
@@ -360,7 +360,7 @@ i
 +
 )
 {
-let
+const
 textProp
 =
 ruleEditor
@@ -372,7 +372,7 @@ textProps
 i
 ]
 ;
-let
+const
 propEditor
 =
 textProp
@@ -437,7 +437,7 @@ the
 selector
 )
 .
-let
+const
 onRuleViewChanged
 =
 i
@@ -544,7 +544,7 @@ a
 property
 value
 .
-let
+const
 onRuleViewChanged
 =
 view
@@ -652,7 +652,7 @@ ruleEditor
 commitKey
 )
 {
-let
+const
 onFocus
 =
 once
@@ -690,7 +690,7 @@ element
 message
 )
 {
-let
+const
 editor
 =
 inplaceEditor
