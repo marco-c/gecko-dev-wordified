@@ -234,7 +234,7 @@ document
 createElement
 (
 "
-h1
+h2
 "
 )
 ;
@@ -452,6 +452,7 @@ className
 save
 -
 button
+primary
 "
 ;
 this
