@@ -3147,12 +3147,14 @@ FloatRegisters
 :
 Double
 )
+{
 return
 FloatRegisters
 :
 :
 Single
 ;
+}
 return
 FloatRegisters
 :
@@ -3174,10 +3176,12 @@ aliasIdx
 =
 0
 )
+{
 return
 *
 this
 ;
+}
 return
 FloatRegister
 (

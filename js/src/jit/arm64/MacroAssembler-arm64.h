@@ -1257,6 +1257,7 @@ IsHiddenSP
 reg
 )
 )
+{
 vixl
 :
 :
@@ -1268,6 +1269,7 @@ Push
 sp
 )
 ;
+}
 vixl
 :
 :
@@ -1882,6 +1884,7 @@ vixl
 sp
 )
 )
+{
 Mov
 (
 vixl
@@ -1893,6 +1896,7 @@ GetStackPointer64
 )
 )
 ;
+}
 }
 void
 initStackPtr
@@ -1914,6 +1918,7 @@ vixl
 sp
 )
 )
+{
 Mov
 (
 GetStackPointer64
@@ -1925,6 +1930,7 @@ vixl
 sp
 )
 ;
+}
 }
 void
 storeValue
@@ -2562,13 +2568,16 @@ type
 =
 JSVAL_TYPE_OBJECT
 )
+{
 unboxObjectOrNull
 (
 value
 scratch
 )
 ;
+}
 else
+{
 unboxNonDouble
 (
 value
@@ -2576,6 +2585,7 @@ scratch
 type
 )
 ;
+}
 storePtr
 (
 scratch
@@ -10886,6 +10896,7 @@ cond
 =
 NotEqual
 )
+{
 MOZ_CRASH
 (
 "
@@ -10898,6 +10909,7 @@ comparisons
 "
 )
 ;
+}
 /
 /
 In
@@ -13650,6 +13662,7 @@ ptr
 .
 value
 )
+{
 dataRelocations_
 .
 writeUnsigned
@@ -13661,6 +13674,7 @@ getOffset
 )
 )
 ;
+}
 }
 void
 writeDataRelocation
@@ -13708,10 +13722,12 @@ IsInsideNursery
 cell
 )
 )
+{
 embedsNurseryPointers_
 =
 true
 ;
+}
 dataRelocations_
 .
 writeUnsigned
@@ -13854,6 +13870,7 @@ address
 .
 offset
 )
+{
 Add
 (
 dest64
@@ -13866,6 +13883,7 @@ offset
 )
 )
 ;
+}
 }
 public
 :
@@ -14166,16 +14184,20 @@ if
 (
 enabled
 )
+{
 blr
 (
 ScratchReg2_64
 )
 ;
+}
 else
+{
 nop
 (
 )
 ;
+}
 }
 addPendingJump
 (
@@ -14294,6 +14316,7 @@ IsUncondB
 (
 )
 )
+{
 ret
 +
 =
@@ -14310,6 +14333,7 @@ vixl
 :
 kInstructionSizeLog2
 ;
+}
 return
 ret
 ;
@@ -14470,6 +14494,7 @@ vixl
 sp
 )
 )
+{
 checkARMRegAlignment
 (
 vixl
@@ -14478,6 +14503,7 @@ vixl
 sp
 )
 ;
+}
 #
 endif
 }
@@ -14808,6 +14834,7 @@ src
 =
 rzr
 )
+{
 And
 (
 ARMRegister
@@ -14826,7 +14853,9 @@ JSVAL_TAG_MASK
 )
 )
 ;
+}
 else
+{
 Bfxil
 (
 ARMRegister
@@ -14843,6 +14872,7 @@ src
 JSVAL_TAG_SHIFT
 )
 ;
+}
 }
 /
 /

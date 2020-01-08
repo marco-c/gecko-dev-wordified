@@ -760,9 +760,11 @@ bytesNeeded
 )
 )
 )
+{
 return
 false
 ;
+}
 armbuffer_
 .
 executableCopy
@@ -800,11 +802,13 @@ oom
 (
 )
 )
+{
 return
 BufferOffset
 (
 )
 ;
+}
 armbuffer_
 .
 flushPool
@@ -1017,11 +1021,13 @@ oom
 (
 )
 )
+{
 return
 BufferOffset
 (
 )
 ;
+}
 return
 tableOffset
 ;
@@ -1325,6 +1331,7 @@ if
 (
 flushICache
 )
+{
 AutoFlushICache
 :
 :
@@ -1341,6 +1348,7 @@ size
 )
 )
 ;
+}
 }
 BufferOffset
 Assembler
@@ -2350,6 +2358,7 @@ length
 (
 )
 )
+{
 jumpRelocations_
 .
 writeFixedUint32_t
@@ -2357,6 +2366,7 @@ writeFixedUint32_t
 0
 )
 ;
+}
 /
 /
 Each
@@ -2429,12 +2439,14 @@ RelocationKind
 :
 JITCODE
 )
+{
 addJumpRelocation
 (
 src
 reloc
 )
 ;
+}
 /
 /
 This
@@ -2534,12 +2546,14 @@ RelocationKind
 :
 JITCODE
 )
+{
 addJumpRelocation
 (
 src
 reloc
 )
 ;
+}
 size_t
 extendedTableIndex
 =
@@ -3116,6 +3130,7 @@ IsStackPtrSync
 (
 )
 )
+{
 first
 =
 first
@@ -3134,6 +3149,7 @@ skipPool
 (
 )
 ;
+}
 load
 =
 const_cast
@@ -3201,8 +3217,10 @@ IsBLR
 =
 enabled
 )
+{
 return
 ;
+}
 if
 (
 call
@@ -3498,9 +3516,11 @@ more
 (
 )
 )
+{
 return
 false
 ;
+}
 offset_
 =
 reader_
@@ -3693,6 +3713,7 @@ IsStackPtrSync
 (
 )
 )
+{
 inst
 =
 inst
@@ -3711,6 +3732,7 @@ skipPool
 (
 )
 ;
+}
 if
 (
 inst

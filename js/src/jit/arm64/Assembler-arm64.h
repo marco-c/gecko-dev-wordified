@@ -1722,6 +1722,7 @@ length
 (
 )
 )
+{
 memcpy
 (
 dest
@@ -1737,6 +1738,7 @@ length
 )
 )
 ;
+}
 }
 void
 copyDataRelocationTable
@@ -1755,6 +1757,7 @@ length
 (
 )
 )
+{
 memcpy
 (
 dest
@@ -1770,6 +1773,7 @@ length
 )
 )
 ;
+}
 }
 size_t
 jumpRelocationTableBytes
@@ -2527,6 +2531,7 @@ j
 :
 pendingJumps_
 )
+{
 MOZ_ASSERT
 (
 j
@@ -2540,6 +2545,7 @@ RelocationKind
 HARDCODED
 )
 ;
+}
 #
 endif
 }
@@ -3301,9 +3307,11 @@ usedIntArgs
 =
 NumIntArgRegs
 )
+{
 return
 false
 ;
+}
 *
 out
 =
@@ -3340,9 +3348,11 @@ usedFloatArgs
 =
 NumFloatArgRegs
 )
+{
 return
 false
 ;
+}
 *
 out
 =
@@ -3452,9 +3462,11 @@ usedFloatArgs
 out
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Unfortunately
@@ -3499,9 +3511,11 @@ usedIntArgs
 =
 NumCallTempNonArgRegs
 )
+{
 return
 false
 ;
+}
 *
 out
 =

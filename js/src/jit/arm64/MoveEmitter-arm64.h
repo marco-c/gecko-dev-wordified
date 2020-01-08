@@ -296,6 +296,7 @@ isGeneralReg
 (
 )
 )
+{
 return
 ARMRegister
 (
@@ -307,7 +308,9 @@ reg
 64
 )
 ;
+}
 else
+{
 return
 ARMRegister
 (
@@ -319,6 +322,7 @@ base
 64
 )
 ;
+}
 }
 ARMFPRegister
 toFPReg
