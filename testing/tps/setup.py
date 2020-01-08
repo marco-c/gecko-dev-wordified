@@ -83,7 +83,7 @@ httplib2
         
 '
 mozfile
-=
+>
 =
 1
 .
