@@ -4341,13 +4341,6 @@ StartForceKillTimer
 (
 )
 ;
-void
-OnGenerateMinidumpComplete
-(
-bool
-aDumpResult
-)
-;
 /
 /
 Ensure
