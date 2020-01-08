@@ -495,7 +495,7 @@ getBrowser
 (
 )
 .
-addTab
+addWebTab
 (
 uri
 )
