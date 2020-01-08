@@ -105,6 +105,11 @@ bezier
 .
 67
 )
+%
+define
+lwtPopupBrighttextLinkColor
+#
+45a1ff
 :
 root
 {
@@ -211,8 +216,7 @@ link
 {
 color
 :
-#
-45a1ff
+lwtPopupBrighttextLinkColor
 ;
 }
 /
