@@ -83,7 +83,7 @@ dump
 -
 *
 -
-DateTimePickerHelper
+DateTimePickerParent
 :
 "
 +
@@ -102,7 +102,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-DateTimePickerHelper
+DateTimePickerParent
 "
 ]
 ;
@@ -147,7 +147,7 @@ jsm
 /
 *
 *
-DateTimePickerHelper
+DateTimePickerParent
 receives
 message
 from
@@ -169,9 +169,9 @@ updating
 the
 picker
 .
-Similary
+Similarly
 *
-DateTimePickerHelper
+DateTimePickerParent
 listens
 for
 picker
@@ -194,7 +194,7 @@ them
 *
 /
 var
-DateTimePickerHelper
+DateTimePickerParent
 =
 {
 picker
