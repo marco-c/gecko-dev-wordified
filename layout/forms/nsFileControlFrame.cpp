@@ -2279,6 +2279,16 @@ DataTransfer
 aDataTransfer
 )
 {
+if
+(
+!
+aDataTransfer
+)
+{
+return
+false
+;
+}
 /
 /
 We
