@@ -3108,6 +3108,7 @@ GetVsyncInterval
 (
 )
 const
+override
 {
 /
 /

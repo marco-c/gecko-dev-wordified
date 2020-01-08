@@ -1036,6 +1036,13 @@ nullptr
 )
 override
 ;
+TimeDuration
+GetVsyncInterval
+(
+)
+const
+override
+;
 /
 /
 CompositableParentManager
