@@ -4531,6 +4531,19 @@ kPinset_google_root_pems
 }
 {
 "
+firefox
+.
+com
+"
+true
+true
+true
+15
+&
+kPinset_mozilla_services
+}
+{
+"
 fj
 .
 search
@@ -10713,7 +10726,7 @@ Preload
 List
 Length
 =
-487
+488
 ;
 static
 const
@@ -10730,6 +10743,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1546862504246000
+1547121793919000
 )
 ;
