@@ -1406,6 +1406,9 @@ ClientLayerManager
 APZTestData
 mApzTestData
 ;
+TimeStamp
+mTransactionStart
+;
 WebRenderCommandBuilder
 mWebRenderCommandBuilder
 ;
