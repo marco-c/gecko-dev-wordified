@@ -2396,7 +2396,6 @@ listTabs
 function
 (
 options
-onResponse
 )
 {
 return
@@ -2407,7 +2406,6 @@ mainRoot
 listTabs
 (
 options
-onResponse
 )
 ;
 }
@@ -2446,7 +2444,6 @@ listAddons
 :
 function
 (
-onResponse
 )
 {
 return
@@ -2456,7 +2453,6 @@ mainRoot
 .
 listAddons
 (
-onResponse
 )
 ;
 }
