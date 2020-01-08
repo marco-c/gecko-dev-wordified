@@ -215,7 +215,7 @@ TestManifest
     
 VariablePassthru
     
-XPIDLFile
+XPIDLModule
 )
 from
 .
@@ -2684,7 +2684,7 @@ obj
 #
 CommonBackend
 handles
-XPIDLFile
+XPIDLModule
 but
 we
 want
@@ -2703,7 +2703,7 @@ if
 isinstance
 (
 obj
-XPIDLFile
+XPIDLModule
 )
 :
             
@@ -2720,7 +2720,7 @@ xpt
 %
 obj
 .
-module
+name
             
 self
 .

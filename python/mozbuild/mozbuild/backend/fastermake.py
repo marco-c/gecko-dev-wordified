@@ -103,7 +103,7 @@ FinalTargetFiles
     
 JARManifest
     
-XPIDLFile
+XPIDLModule
 )
 from
 mozbuild
@@ -793,7 +793,7 @@ elif
 isinstance
 (
 obj
-XPIDLFile
+XPIDLModule
 )
 :
             
