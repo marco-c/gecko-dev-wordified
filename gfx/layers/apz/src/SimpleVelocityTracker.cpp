@@ -616,7 +616,10 @@ return
 velocity
 ;
 }
+Maybe
+<
 float
+>
 SimpleVelocityTracker
 :
 :
@@ -702,7 +705,10 @@ count
 ;
 }
 return
+Some
+(
 velocity
+)
 ;
 }
 void
