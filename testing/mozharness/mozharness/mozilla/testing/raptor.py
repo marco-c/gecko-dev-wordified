@@ -2443,6 +2443,7 @@ app
 firefox
 "
 or
+(
 self
 .
 app
@@ -2451,6 +2452,12 @@ app
 "
 geckoview
 "
+and
+not
+self
+.
+run_local
+)
 :
             
 binary_path
@@ -2502,6 +2509,11 @@ binary_path
         
 else
 :
+#
+running
+on
+google
+chrome
             
 if
 not
@@ -2511,36 +2523,36 @@ run_local
 :
                 
 #
+when
+running
+locally
+we
+already
+set
+the
+chrome
+binary
+above
+in
+init
+;
+here
+                
+#
 in
 production
 we
 aready
 installed
-google
 chrome
 so
 set
 the
 binary
 path
-for
-arg
-                
-#
-when
-running
-locally
-a
--
--
-binary
-arg
-as
-passed
-in
-already
-in
-raptor_cmd_line_args
+to
+our
+install
                 
 kw_options
 [
