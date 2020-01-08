@@ -276,6 +276,15 @@ r0
 =
 0
 invalid_reg
+invalid_reg2
+/
+/
+To
+avoid
+silly
+static_assert
+failures
+.
 }
 ;
 typedef

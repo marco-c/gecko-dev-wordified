@@ -10647,6 +10647,13 @@ isInterpretedLazy
 )
 )
 ;
+AutoRealm
+ar
+(
+cx
+fun
+)
+;
 Rooted
 <
 LazyScript
