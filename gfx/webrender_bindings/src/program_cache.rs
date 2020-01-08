@@ -807,7 +807,11 @@ file_name
 =
 uuid1
 .
-to_hyphenated_string
+hyphenated
+(
+)
+.
+to_string
 (
 )
 ;
