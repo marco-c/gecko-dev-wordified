@@ -30832,6 +30832,8 @@ ActiveScrolledRoot
 aActiveScrolledRoot
 bool
 aForEventsAndPluginsOnly
+bool
+aNeedsActiveLayer
 )
 ;
 nsDisplayOpacity
@@ -30861,6 +30863,12 @@ mForEventsAndPluginsOnly
 aOther
 .
 mForEventsAndPluginsOnly
+)
+mNeedsActiveLayer
+(
+aOther
+.
+mNeedsActiveLayer
 )
 mChildOpacityState
 (
@@ -31384,6 +31392,11 @@ children
 .
 Applied
 }
+;
+bool
+mNeedsActiveLayer
+:
+1
 ;
 #
 ifndef
