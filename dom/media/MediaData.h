@@ -3697,6 +3697,7 @@ mTarget
 ;
 class
 MediaRawData
+final
 :
 public
 MediaData
@@ -3960,7 +3961,6 @@ out
 of
 memory
 .
-virtual
 already_AddRefed
 <
 MediaRawData
@@ -3989,7 +3989,6 @@ thread
 -
 safe
 .
-virtual
 UniquePtr
 <
 MediaRawDataWriter
@@ -3998,7 +3997,6 @@ CreateWriter
 (
 )
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (
