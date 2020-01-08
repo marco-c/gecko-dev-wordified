@@ -235,6 +235,13 @@ AddBufferBindCounts
 1
 )
 ;
+mBoundVertexArray
+-
+>
+mHasBeenBound
+=
+true
+;
 }
 }
 already_AddRefed
@@ -275,13 +282,6 @@ WebGLVertexArray
 globj
 =
 CreateVertexArrayImpl
-(
-)
-;
-globj
--
->
-GenVertexArray
 (
 )
 ;
