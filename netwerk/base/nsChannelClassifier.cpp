@@ -3325,6 +3325,10 @@ AntiTrackingCommon
 IsOnContentBlockingAllowList
 (
 topWinURI
+NS_UsePrivateBrowsing
+(
+aChannel
+)
 aAnnotationsOnly
 ?
 AntiTrackingCommon

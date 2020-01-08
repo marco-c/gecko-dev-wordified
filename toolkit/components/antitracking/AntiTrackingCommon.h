@@ -1054,6 +1054,8 @@ IsOnContentBlockingAllowList
 nsIURI
 *
 aTopWinURI
+bool
+aIsPrivateBrowsing
 ContentBlockingAllowListPurpose
 aPurpose
 bool
