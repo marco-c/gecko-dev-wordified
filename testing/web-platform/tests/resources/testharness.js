@@ -4257,7 +4257,7 @@ series
 of
 events
 has
-occured
+occurred
 .
 *
 *
@@ -7100,7 +7100,7 @@ primitive
 arrays
 are
 equal
-withing
+within
 +
 /
 -
@@ -7386,7 +7386,7 @@ primitive
 numbers
 are
 equal
-withing
+within
 +
 /
 -
