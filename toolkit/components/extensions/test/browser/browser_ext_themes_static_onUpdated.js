@@ -136,6 +136,17 @@ updateInfo
 )
 ;
 }
+manifest
+:
+{
+permissions
+:
+[
+"
+theme
+"
+]
+}
 }
 )
 ;

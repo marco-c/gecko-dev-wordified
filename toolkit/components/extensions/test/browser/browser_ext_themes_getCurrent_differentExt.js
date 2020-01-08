@@ -162,6 +162,17 @@ theme
 )
 ;
 }
+manifest
+:
+{
+permissions
+:
+[
+"
+theme
+"
+]
+}
 }
 )
 ;
