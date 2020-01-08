@@ -3445,6 +3445,7 @@ cr
 funcTableEntry
 (
 )
+&
 exportInstance
 )
 ;
@@ -3500,6 +3501,7 @@ i
 codeBase
 +
 entryOffset
+&
 instance
 )
 ;
