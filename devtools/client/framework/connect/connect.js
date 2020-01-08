@@ -1083,8 +1083,11 @@ allowChromeProcess
 {
 gClient
 .
+mainRoot
+.
 getProcess
 (
+0
 )
 .
 then
