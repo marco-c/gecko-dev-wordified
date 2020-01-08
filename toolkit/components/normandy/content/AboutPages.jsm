@@ -466,7 +466,7 @@ addCleanupHandler
 /
 Stop
 loading
-processs
+process
 scripts
 and
 notify

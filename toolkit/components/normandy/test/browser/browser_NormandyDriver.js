@@ -1367,6 +1367,8 @@ withMockPreferences
 PreferenceExperiments
 .
 withMockExperiments
+(
+)
 async
 function
 testPreferenceStudies
