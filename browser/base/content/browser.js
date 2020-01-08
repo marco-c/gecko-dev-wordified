@@ -4817,15 +4817,6 @@ by
 bug
 1349689
 .
-let
-win
-=
-gBrowser
-.
-ownerGlobal
-;
-win
-.
 openPreferences
 (
 "
