@@ -779,7 +779,7 @@ can
 react
 .
 void
-NotifyEvictedFromRenderingObserverList
+NotifyEvictedFromRenderingObserverSet
 (
 )
 ;
