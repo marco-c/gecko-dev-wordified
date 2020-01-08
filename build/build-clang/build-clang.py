@@ -4487,6 +4487,21 @@ fPIC
 "
 ]
         
+#
+Silence
+clang
+'
+s
+warnings
+about
+arguments
+not
+being
+used
+in
+compilation
+.
+        
 extra_cxxflags2
 =
 [
@@ -4494,6 +4509,12 @@ extra_cxxflags2
 -
 fPIC
 "
+'
+-
+Qunused
+-
+arguments
+'
 "
 -
 static
