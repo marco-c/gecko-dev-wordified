@@ -547,6 +547,11 @@ CompareSymbolResult
 \
 _
 (
+CompareInt32Result
+)
+\
+_
+(
 ArrayJoinResult
 )
 \
