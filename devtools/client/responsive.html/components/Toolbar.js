@@ -157,7 +157,7 @@ DeviceSelector
 )
 ;
 const
-NetworkThrottlingSelector
+NetworkThrottlingMenu
 =
 createFactory
 (
@@ -174,7 +174,7 @@ components
 /
 throttling
 /
-NetworkThrottlingSelector
+NetworkThrottlingMenu
 "
 )
 )
@@ -625,11 +625,14 @@ separator
 "
 }
 )
-NetworkThrottlingSelector
+NetworkThrottlingMenu
 (
 {
 networkThrottling
 onChangeNetworkThrottling
+useTopLevelWindow
+:
+true
 }
 )
 dom
