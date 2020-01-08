@@ -239,9 +239,17 @@ deps
 {
 }
         
+#
+sort
+for
+deterministic
+chunking
+        
 for
 dep_label
 in
+sorted
+(
 job
 [
 '
@@ -251,6 +259,7 @@ dependencies
 .
 keys
 (
+)
 )
 :
             
