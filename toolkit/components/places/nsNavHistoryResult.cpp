@@ -15859,8 +15859,8 @@ OnDeleteVisits
 nsIURI
 *
 aURI
-PRTime
-aVisitTime
+bool
+aPartialRemoval
 const
 nsACString
 &
@@ -15899,10 +15899,8 @@ notification
 ;
 if
 (
-aVisitTime
-=
-=
-0
+!
+aPartialRemoval
 )
 {
 /
@@ -26994,8 +26992,8 @@ OnDeleteVisits
 nsIURI
 *
 aURI
-PRTime
-aVisitTime
+bool
+aPartialRemoval
 const
 nsACString
 &
@@ -27016,7 +27014,7 @@ ENUMERATE_HISTORY_OBSERVERS
 OnDeleteVisits
 (
 aURI
-aVisitTime
+aPartialRemoval
 aGUID
 aReason
 aTransitionType

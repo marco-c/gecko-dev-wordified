@@ -758,7 +758,7 @@ onManyFrecenciesChanged
 onDeleteVisits
 (
 uri
-time
+partialRemoval
 guid
 reason
 )

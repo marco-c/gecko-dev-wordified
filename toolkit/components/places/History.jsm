@@ -6601,13 +6601,7 @@ onDeleteVisits
 "
 [
 uri
-/
-*
-last
-visit
-*
-/
-0
+false
 guid
 reason
 -

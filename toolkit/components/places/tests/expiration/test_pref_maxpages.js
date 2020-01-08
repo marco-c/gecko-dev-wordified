@@ -679,7 +679,7 @@ onDeleteVisits
 =
 (
 aURI
-aTime
+aPartialRemoval
 )
 =
 >
@@ -697,7 +697,7 @@ spec
 "
 "
 +
-aTime
+aPartialRemoval
 )
 ;
 }

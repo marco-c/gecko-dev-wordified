@@ -13015,8 +13015,8 @@ OnDeleteVisits
 nsIURI
 *
 aURI
-PRTime
-aVisitTime
+bool
+aPartialRemoval
 const
 nsACString
 &
@@ -13052,7 +13052,7 @@ removed
 if
 (
 !
-aVisitTime
+aPartialRemoval
 )
 {
 /

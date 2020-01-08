@@ -3777,7 +3777,7 @@ increment
 onDeleteVisits
 (
 uri
-visitTime
+partialRemoval
 guid
 reason
 )
