@@ -21678,7 +21678,12 @@ See
 ShadowRoot
 :
 :
-SetIsComposedDocParticipant
+Bind
+and
+ShadowRoot
+:
+:
+Unbind
 .
 ShadowRootSet
 mComposedShadowRoots
