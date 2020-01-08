@@ -16,9 +16,9 @@ Version
 :
 2018
 -
-01
+08
 -
-01
+29
 /
 *
 *
@@ -289,7 +289,7 @@ en
 Unidades
 Indexadas
 (
-URUIURUI
+UI
 )
 (
 URUGUAY
@@ -297,6 +297,16 @@ URUGUAY
 UYI
 :
 0
+/
+/
+Unidad
+Previsional
+(
+URUGUAY
+)
+UYW
+:
+4
 /
 /
 Dong
