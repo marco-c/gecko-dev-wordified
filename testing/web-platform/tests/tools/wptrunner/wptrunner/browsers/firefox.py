@@ -1323,6 +1323,23 @@ test
 )
 :
         
+if
+self
+.
+asan
+:
+            
+self
+.
+lsan_handler
+.
+set_allowed
+(
+test
+.
+lsan_allowed
+)
+        
 return
 {
 "
