@@ -2777,7 +2777,7 @@ StyleScrollbarWidth
 Auto
 :
 return
-16
+12
 *
 AppUnitsPerCSSPixel
 (
@@ -2790,7 +2790,7 @@ StyleScrollbarWidth
 Thin
 :
 return
-8
+6
 *
 AppUnitsPerCSSPixel
 (
