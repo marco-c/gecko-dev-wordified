@@ -6263,6 +6263,11 @@ details
 tabParent
 )
 ;
+if
+(
+channel
+)
+{
 return
 SecurityInfo
 .
@@ -6276,6 +6281,7 @@ details
 options
 )
 ;
+}
 }
 }
 ;
