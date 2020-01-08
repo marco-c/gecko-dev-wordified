@@ -292,10 +292,14 @@ AllocServiceWorkerContainerChild
 (
 )
 {
-return
-new
-ServiceWorkerContainerChild
+MOZ_CRASH
 (
+"
+should
+not
+be
+called
+"
 )
 ;
 }
