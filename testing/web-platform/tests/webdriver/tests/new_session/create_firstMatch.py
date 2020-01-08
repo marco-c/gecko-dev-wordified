@@ -12,6 +12,18 @@ import
 product
 flatten
 from
+tests
+.
+support
+.
+asserts
+import
+assert_success
+from
+tests
+.
+new_session
+.
 support
 .
 create
@@ -50,7 +62,8 @@ value
 )
 :
     
-resp
+response
+_
 =
 new_session
 (
@@ -60,6 +73,7 @@ capabilities
 "
 :
 {
+        
 "
 firstMatch
 "
@@ -76,4 +90,9 @@ value
 ]
 }
 }
+)
+    
+assert_success
+(
+response
 )

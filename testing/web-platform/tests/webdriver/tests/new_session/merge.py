@@ -7,9 +7,14 @@ long
 import
 pytest
 from
-webdriver
+tests
+.
+support
+.
+asserts
 import
-error
+assert_error
+assert_success
 from
 conftest
 import
@@ -148,7 +153,7 @@ firstMatch
 ]
 )
     
-resp
+response
 _
 =
 new_session
@@ -162,8 +167,15 @@ capabilities
 }
 )
     
+value
+=
+assert_success
+(
+response
+)
+    
 assert
-resp
+value
 [
 "
 capabilities
@@ -285,17 +297,9 @@ value
 )
 :
     
-with
-pytest
-.
-raises
-(
-error
-.
-InvalidArgumentException
-)
-:
-         
+response
+_
+=
 new_session
 (
 {
@@ -303,8 +307,8 @@ new_session
 capabilities
 "
 :
-                      
 {
+        
 "
 alwaysMatch
 "
@@ -320,7 +324,7 @@ value
 ]
 }
 )
-                       
+        
 "
 firstMatch
 "
@@ -337,8 +341,18 @@ value
 ]
 }
 ]
+    
 }
 }
+)
+    
+assert_error
+(
+response
+"
+invalid
+argument
+"
 )
 pytest
 .
@@ -367,7 +381,7 @@ platform_name
 )
 :
     
-resp
+response
 _
 =
 new_session
@@ -377,8 +391,8 @@ new_session
 capabilities
 "
 :
-                        
 {
+        
 "
 alwaysMatch
 "
@@ -399,15 +413,14 @@ script
 }
 }
 )
-                        
+        
 "
 firstMatch
 "
 :
 [
-                            
 {
-                                
+            
 "
 platformName
 "
@@ -417,7 +430,7 @@ platform_name
 upper
 (
 )
-                                
+            
 "
 pageLoadStrategy
 "
@@ -425,17 +438,16 @@ pageLoadStrategy
 "
 none
 "
-                            
+        
 }
-                            
 {
-                                
+            
 "
 platformName
 "
 :
 platform_name
-                                
+            
 "
 pageLoadStrategy
 "
@@ -443,16 +455,22 @@ pageLoadStrategy
 "
 eager
 "
-                            
+        
 }
-                        
 ]
 }
 }
 )
     
+value
+=
+assert_success
+(
+response
+)
+    
 assert
-resp
+value
 [
 "
 capabilities
@@ -468,7 +486,7 @@ platformName
 platform_name
     
 assert
-resp
+value
 [
 "
 capabilities
@@ -492,7 +510,7 @@ add_browser_capabilites
 )
 :
     
-resp
+response
 session
 =
 new_session
@@ -516,6 +534,13 @@ add_browser_capabilites
 }
 )
     
+value
+=
+assert_success
+(
+response
+)
+    
 browser_settings
 =
 {
@@ -524,7 +549,7 @@ browser_settings
 browserName
 "
 :
-resp
+value
 [
 "
 capabilities
@@ -540,7 +565,7 @@ browserName
 browserVersion
 "
 :
-resp
+value
 [
 "
 capabilities
@@ -551,32 +576,10 @@ capabilities
 browserVersion
 "
 ]
-        
-"
-platformName
-"
-:
-resp
-[
-"
-capabilities
-"
-]
-[
-"
-platformName
-"
-]
     
 }
     
-session
-.
-end
-(
-)
-    
-resp
+response
 _
 =
 new_session
@@ -586,8 +589,8 @@ new_session
 capabilities
 "
 :
-                        
 {
+        
 "
 alwaysMatch
 "
@@ -608,15 +611,14 @@ script
 }
 }
 )
-                        
+        
 "
 firstMatch
 "
 :
 [
-                            
 {
-                                
+            
 "
 browserName
 "
@@ -631,7 +633,7 @@ browserName
 "
 invalid
 "
-                                
+            
 "
 pageLoadStrategy
 "
@@ -639,11 +641,10 @@ pageLoadStrategy
 "
 none
 "
-                            
+        
 }
-                            
 {
-                                
+            
 "
 browserName
 "
@@ -654,7 +655,7 @@ browser_settings
 browserName
 "
 ]
-                                
+            
 "
 pageLoadStrategy
 "
@@ -662,16 +663,25 @@ pageLoadStrategy
 "
 eager
 "
-                            
+        
 }
-                        
 ]
 }
 }
+delete_existing_session
+=
+True
+)
+    
+value
+=
+assert_success
+(
+response
 )
     
 assert
-resp
+value
 [
 "
 capabilities
@@ -692,7 +702,7 @@ browserName
 ]
     
 assert
-resp
+value
 [
 "
 capabilities
