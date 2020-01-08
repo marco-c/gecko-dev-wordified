@@ -8908,8 +8908,9 @@ __init__
 (
 self
 parent
-*
-patterns
+pattern
+=
+None
 )
 :
         
@@ -8926,9 +8927,9 @@ parent
         
 self
 .
-patterns
+pattern
 =
-patterns
+pattern
         
 self
 .
