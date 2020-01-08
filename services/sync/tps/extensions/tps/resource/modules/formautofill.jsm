@@ -165,7 +165,7 @@ defineModuleGetter
 (
 this
 "
-OSKeyStore
+MasterPassword
 "
 "
 resource
@@ -174,7 +174,7 @@ resource
 /
 formautofill
 /
-OSKeyStore
+MasterPassword
 .
 jsm
 "
@@ -697,7 +697,7 @@ number
 ]
 =
 await
-OSKeyStore
+MasterPassword
 .
 decrypt
 (
