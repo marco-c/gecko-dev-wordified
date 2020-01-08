@@ -306,7 +306,7 @@ to
 the
                              
 parent
-TestManager
+TestRunnerManager
 process
         
 :
@@ -1966,9 +1966,7 @@ self
 name
 =
 "
-Thread
--
-TestrunnerManager
+TestRunnerManager
 -
 %
 i
@@ -2055,10 +2053,10 @@ Main
 loop
 for
 the
-TestManager
+TestRunnerManager
 .
         
-TestManagers
+TestRunnerManagers
 generally
 receive
 commands
@@ -3350,8 +3348,6 @@ args
 name
 =
 "
-Thread
--
 TestRunner
 -
 %
@@ -4807,9 +4803,8 @@ logger
 debug
 (
 "
+TestRunnerManager
 teardown
-in
-testrunnermanager
 "
 )
         
@@ -4974,7 +4969,8 @@ logger
 debug
 (
 "
-Testrunner
+Runner
+process
 exited
 with
 code
@@ -5045,7 +5041,7 @@ logger
 debug
 (
 "
-TestManager
+TestRunnerManager
 cleanup
 "
 )
@@ -5118,9 +5114,15 @@ logger
 warning
 (
 "
+Command
+left
+in
+command_queue
+during
+cleanup
+:
 %
 r
-:
 %
 r
 "
@@ -5156,9 +5158,15 @@ logger
 warning
 (
 "
+Command
+left
+in
+remote_queue
+during
+cleanup
+:
 %
 r
-:
 %
 r
 "
@@ -5309,7 +5317,7 @@ that
 owns
 all
 the
-TestManager
+TestRunnerManager
 threads
 .
 "
