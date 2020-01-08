@@ -1797,11 +1797,6 @@ difference
 )
 CSS_KEY
 (
-digits
-digits
-)
-CSS_KEY
-(
 disabled
 disabled
 )
