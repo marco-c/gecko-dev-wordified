@@ -10875,7 +10875,7 @@ mFontDir
 ;
 nsCOMPtr
 <
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 >
 mEntries
 ;
