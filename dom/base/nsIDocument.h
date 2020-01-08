@@ -24475,11 +24475,6 @@ mAllowZoom
 1
 ;
 bool
-mAllowDoubleTapZoom
-:
-1
-;
-bool
 mValidScaleFloat
 :
 1
