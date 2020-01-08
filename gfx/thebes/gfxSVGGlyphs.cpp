@@ -977,7 +977,10 @@ svg
 +
 xml
 "
+getter_Copies
+(
 contractId
+)
 )
 ;
 NS_ENSURE_SUCCESS

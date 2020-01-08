@@ -217,8 +217,8 @@ explicit
 nsCategoryObserver
 (
 const
-nsACString
-&
+char
+*
 aCategory
 )
 ;
@@ -589,6 +589,10 @@ new
 nsCategoryObserver
 (
 mCategoryName
+.
+get
+(
+)
 )
 ;
 mObserver

@@ -2884,7 +2884,14 @@ GetCategoryEntry
 (
 NS_CONTENT_LISTENER_CATEGORYMANAGER_ENTRY
 mContentType
+.
+get
+(
+)
+getter_Copies
+(
 contractidString
+)
 )
 ;
 if
