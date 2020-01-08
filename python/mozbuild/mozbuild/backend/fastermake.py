@@ -487,7 +487,7 @@ defines
 defines
 .
 defines
-           
+            
 for
 path
 files
@@ -1026,14 +1026,6 @@ elif
 isinstance
 (
 obj
-XPIDLModule
-)
-:
-        
-elif
-isinstance
-(
-obj
 GeneratedFile
 )
 :
@@ -1156,18 +1148,9 @@ elif
 isinstance
 (
 obj
-XPIDLFile
+XPIDLModule
 )
 :
->
->
->
->
->
->
->
-merge
-rev
             
 self
 .
