@@ -31480,10 +31480,9 @@ setInputOperandId
 ;
 writer
 .
-guardType
+guardIsNumber
 (
 valId
-JSVAL_TYPE_DOUBLE
 )
 ;
 Int32OperandId
