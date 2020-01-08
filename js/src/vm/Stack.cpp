@@ -9655,7 +9655,6 @@ jitActivation
 )
 rematerializedFrames_
 (
-nullptr
 )
 ionRecovery_
 (
@@ -9773,11 +9772,6 @@ isWasmTrapping
 ;
 clearRematerializedFrames
 (
-)
-;
-js_delete
-(
-rematerializedFrames_
 )
 ;
 }
@@ -10015,7 +10009,7 @@ rematerializedFrames_
 cx
 -
 >
-new_
+make_unique
 <
 RematerializedFrameTable
 >
@@ -10043,8 +10037,10 @@ init
 )
 {
 rematerializedFrames_
-=
-nullptr
+.
+reset
+(
+)
 ;
 ReportOutOfMemory
 (
