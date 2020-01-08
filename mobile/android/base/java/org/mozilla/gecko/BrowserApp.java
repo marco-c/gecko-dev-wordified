@@ -10593,6 +10593,13 @@ destroy
 (
 )
 ;
+MmaDelegate
+.
+flushResources
+(
+this
+)
+;
 super
 .
 onDestroy
