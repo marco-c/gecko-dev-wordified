@@ -768,6 +768,13 @@ NotifyVSync
 )
 override
 ;
+virtual
+void
+Run10msTasks
+(
+)
+override
+;
 protected
 :
 VRSystemManagerPuppet
