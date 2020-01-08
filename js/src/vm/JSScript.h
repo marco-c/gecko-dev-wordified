@@ -14053,11 +14053,6 @@ JSScript
 script
 )
 ;
-void
-resetScript
-(
-)
-;
 JSScript
 *
 maybeScript
