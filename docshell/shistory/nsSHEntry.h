@@ -339,6 +339,9 @@ mScrollRestorationIsManual
 bool
 mLoadedInThisProcess
 ;
+bool
+mPersist
+;
 }
 ;
 #

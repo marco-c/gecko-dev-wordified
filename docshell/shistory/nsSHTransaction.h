@@ -147,13 +147,12 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSISHTRANSACTION
+explicit
 nsSHTransaction
 (
 nsISHEntry
 *
 aSHEntry
-bool
-aPersist
 )
 ;
 protected
@@ -176,9 +175,6 @@ mSHEntry
 /
 never
 null
-bool
-mPersist
-;
 }
 ;
 #
