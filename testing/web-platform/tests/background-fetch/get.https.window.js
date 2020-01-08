@@ -335,9 +335,8 @@ assert_equals
 (
 registration
 .
-state
+result
 '
-pending
 '
 )
 ;
