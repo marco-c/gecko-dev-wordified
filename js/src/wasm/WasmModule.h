@@ -981,7 +981,9 @@ instantiateGlobals
 JSContext
 *
 cx
-HandleValVector
+const
+ValVector
+&
 globalImportValues
 WasmGlobalObjectVector
 &
@@ -1004,7 +1006,9 @@ FunctionVector
 funcImports
 HandleWasmMemoryObject
 memory
-HandleValVector
+const
+ValVector
+&
 globalImportValues
 )
 const
@@ -1378,7 +1382,9 @@ HandleWasmTableObject
 tableImport
 HandleWasmMemoryObject
 memoryImport
-HandleValVector
+const
+ValVector
+&
 globalImportValues
 WasmGlobalObjectVector
 &

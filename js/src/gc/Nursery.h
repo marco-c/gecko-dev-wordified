@@ -382,6 +382,15 @@ MapObject
 class
 SetObject
 ;
+void
+SetGCZeal
+(
+JSRuntime
+*
+uint8_t
+uint32_t
+)
+;
 namespace
 gc
 {
