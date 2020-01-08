@@ -79,6 +79,18 @@ extras
 )
 :
     
+#
+Assumes
+input
+bytes
+are
+either
+UTF8
+bytes
+or
+unicode
+.
+    
 rv
 =
 "
@@ -177,6 +189,14 @@ rv
 =
 c
     
+if
+isinstance
+(
+rv
+unicode
+)
+:
+        
 return
 rv
 .
@@ -186,6 +206,12 @@ encode
 utf8
 "
 )
+    
+else
+:
+        
+return
+rv
 class
 ManifestSerializer
 (
