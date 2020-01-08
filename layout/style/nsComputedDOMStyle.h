@@ -2374,6 +2374,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetImageOrientation
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetWillChange
 (
 )
