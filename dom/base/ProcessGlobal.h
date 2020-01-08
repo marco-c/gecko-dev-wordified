@@ -544,6 +544,17 @@ return
 mPrincipal
 ;
 }
+bool
+IsProcessScoped
+(
+)
+const
+override
+{
+return
+true
+;
+}
 void
 SetInitialProcessData
 (
