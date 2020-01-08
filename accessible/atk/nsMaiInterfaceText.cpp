@@ -2744,6 +2744,10 @@ AsHyperText
 )
 ;
 return
+!
+textAcc
+|
+|
 textAcc
 -
 >
