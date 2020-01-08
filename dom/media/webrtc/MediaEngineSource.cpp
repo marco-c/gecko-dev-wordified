@@ -239,6 +239,12 @@ MediaSourceEnum
 :
 AudioCapture
 :
+case
+MediaSourceEnum
+:
+:
+Other
+:
 return
 false
 ;
