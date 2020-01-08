@@ -27820,7 +27820,7 @@ RootedObjectGroup
 group
 (
 cx_
-ObjectGroupCompartment
+ObjectGroupRealm
 :
 :
 getStringSplitStringGroup

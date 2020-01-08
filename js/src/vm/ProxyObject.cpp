@@ -599,6 +599,18 @@ isDOMClass
 )
 )
 {
+ObjectGroupRealm
+&
+realm
+=
+ObjectGroupRealm
+:
+:
+getForNewObject
+(
+cx
+)
+;
 RootedObject
 protoObj
 (
@@ -619,6 +631,7 @@ JSObject
 setNewGroupUnknown
 (
 cx
+realm
 clasp
 protoObj
 )

@@ -6369,7 +6369,7 @@ RootedObjectGroup
 group
 (
 cx
-ObjectGroupCompartment
+ObjectGroupRealm
 :
 :
 makeGroup

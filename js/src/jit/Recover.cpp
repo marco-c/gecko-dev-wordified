@@ -6135,7 +6135,7 @@ RootedObjectGroup
 group
 (
 cx
-ObjectGroupCompartment
+ObjectGroupRealm
 :
 :
 getStringSplitStringGroup

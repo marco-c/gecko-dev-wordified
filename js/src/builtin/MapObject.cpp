@@ -2635,7 +2635,7 @@ ObjectGroup
 *
 group
 =
-ObjectGroupCompartment
+ObjectGroupRealm
 :
 :
 makeGroup
@@ -7738,7 +7738,7 @@ ObjectGroup
 *
 group
 =
-ObjectGroupCompartment
+ObjectGroupRealm
 :
 :
 makeGroup
