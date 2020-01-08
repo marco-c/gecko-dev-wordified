@@ -516,6 +516,11 @@ default_popup
 |
 "
 "
+pinned
+:
+options
+.
+pinned
 }
 ;
 this
@@ -687,7 +692,11 @@ defaults
 icon
 pinnedToUrlbar
 :
-true
+this
+.
+defaults
+.
+pinned
 disabled
 :
 !
