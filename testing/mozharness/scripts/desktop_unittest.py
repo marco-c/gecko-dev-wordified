@@ -7805,8 +7805,6 @@ only
 supported
 for
 xpcshell
-/
-mochitest
 and
                         
 #
@@ -7821,21 +7819,13 @@ if
 not
 is_baseline_test
 and
-\
-                           
-suite_category
-in
-[
-'
-mochitest
-'
+suite
+=
+=
 '
 xpcshell
 '
-]
 and
-\
-                           
 self
 .
 _is_linux
