@@ -269,15 +269,6 @@ h
 #
 include
 <
-sys
-/
-epoll
-.
-h
->
-#
-include
-<
 stdlib
 .
 h
