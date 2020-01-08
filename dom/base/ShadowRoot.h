@@ -1061,10 +1061,13 @@ mIsUAWidget
 void
 SetIsUAWidget
 (
-bool
-aIsUAWidget
 )
+{
+mIsUAWidget
+=
+true
 ;
+}
 void
 GetEventTargetParent
 (
