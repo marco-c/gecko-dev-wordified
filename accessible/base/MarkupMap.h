@@ -160,7 +160,7 @@ New_HyperText
 roles
 :
 :
-SECTION
+BLOCKQUOTE
 )
 MARKUPMAP
 (
