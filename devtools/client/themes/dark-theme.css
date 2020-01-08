@@ -296,8 +296,6 @@ Bug
 /
 scrollbar
 -
-face
--
 color
 :
 var
@@ -312,13 +310,6 @@ color
 -
 inactive
 )
-;
-scrollbar
--
-track
--
-color
-:
 var
 (
 -

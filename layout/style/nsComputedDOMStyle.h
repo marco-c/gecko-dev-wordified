@@ -2550,15 +2550,7 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetScrollbarFaceColor
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
-DoGetScrollbarTrackColor
+DoGetScrollbarColor
 (
 )
 ;

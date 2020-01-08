@@ -1536,15 +1536,6 @@ color
 "
 scrollbar
 -
-face
--
-color
-"
-"
-scrollbar
--
-track
--
 color
 "
 "
