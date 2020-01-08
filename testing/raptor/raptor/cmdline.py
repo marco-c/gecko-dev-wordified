@@ -167,6 +167,9 @@ firefox
 '
 chrome
 '
+'
+geckoview
+'
 ]
 )
     
@@ -385,6 +388,30 @@ required
 "
 )
     
+#
+if
+running
+on
+a
+desktop
+browser
+make
+sure
+the
+binary
+exists
+    
+if
+args
+.
+app
+!
+=
+"
+geckoview
+"
+:
+        
 if
 not
 os
@@ -398,7 +425,7 @@ args
 binary
 )
 :
-        
+            
 parser
 .
 error
