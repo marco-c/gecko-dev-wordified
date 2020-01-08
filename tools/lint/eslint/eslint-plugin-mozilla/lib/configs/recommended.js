@@ -305,6 +305,16 @@ only
 )
 .
 "
+PlacesBookmarkAddition
+"
+:
+false
+"
+PlacesEvent
+"
+:
+false
+"
 PlacesObservers
 "
 :

@@ -2505,11 +2505,6 @@ onItemVisited
 )
 {
 }
-onItemAdded
-(
-)
-{
-}
 onItemChanged
 (
 id
