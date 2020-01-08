@@ -35,11 +35,11 @@ file
 -
 -
 -
-es6id
+esid
 :
-14
-.
-5
+sec
+-
+makesuperpropertyreference
 description
 :
 >

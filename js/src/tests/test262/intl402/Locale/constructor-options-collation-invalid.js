@@ -150,7 +150,6 @@ and
 numbers
 collation
 =
-[
 (
 3
 *
@@ -167,13 +166,14 @@ collation
 8alphanum
 )
 )
-]
 *
 /
 const
 invalidCollationOptions
 =
 [
+"
+"
 "
 a
 "

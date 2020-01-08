@@ -167,6 +167,13 @@ string
 is
 returned
 .
+features
+:
+[
+String
+.
+fromCodePoint
+]
 -
 -
 -

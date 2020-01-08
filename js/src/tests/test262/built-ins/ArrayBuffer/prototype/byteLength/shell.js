@@ -11,9 +11,11 @@ Copyright
 (
 C
 )
-2017
-Ecma
-International
+2016
+the
+V8
+project
+authors
 .
 All
 rights

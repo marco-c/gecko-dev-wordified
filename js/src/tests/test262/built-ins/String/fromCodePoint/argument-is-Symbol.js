@@ -148,6 +148,9 @@ features
 :
 [
 Symbol
+String
+.
+fromCodePoint
 ]
 -
 -

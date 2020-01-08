@@ -47,8 +47,8 @@ file
 description
 :
 >
-An
-ExportClause
+A
+NamedExport
 without
 an
 ExportsList
@@ -176,7 +176,7 @@ FromClause
 3
 Exports
 Syntax
-ExportClause
+NamedExport
 :
 {
 }

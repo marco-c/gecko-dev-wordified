@@ -78,6 +78,13 @@ propertyHelper
 .
 js
 ]
+features
+:
+[
+String
+.
+fromCodePoint
+]
 -
 -
 -

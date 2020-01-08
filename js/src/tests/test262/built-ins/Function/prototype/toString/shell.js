@@ -89,9 +89,9 @@ Copyright
 (
 C
 )
-2017
-Ecma
-International
+2016
+Michael
+Ficarra
 .
 All
 rights

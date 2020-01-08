@@ -35,13 +35,11 @@ file
 -
 -
 -
-es6id
+esid
 :
-12
-.
-3
-.
-7
+sec
+-
+gettemplateobject
 description
 :
 Properties
@@ -86,9 +84,8 @@ js
 /
 var
 templateObject
-;
-(
 function
+tag
 (
 parameter
 )
@@ -98,7 +95,7 @@ templateObject
 parameter
 ;
 }
-)
+tag
 {
 1
 }

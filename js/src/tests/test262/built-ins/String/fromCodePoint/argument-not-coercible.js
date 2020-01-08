@@ -144,6 +144,13 @@ ReturnIfAbrupt
 nextCP
 )
 .
+features
+:
+[
+String
+.
+fromCodePoint
+]
 -
 -
 -

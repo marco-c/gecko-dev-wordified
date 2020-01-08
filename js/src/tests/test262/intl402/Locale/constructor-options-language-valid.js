@@ -375,7 +375,7 @@ options
 toString
 (
 )
-expected
+expect
 new
 Intl
 .

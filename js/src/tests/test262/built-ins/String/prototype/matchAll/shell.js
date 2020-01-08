@@ -317,8 +317,8 @@ Copyright
 C
 )
 2017
-Ecma
-International
+Mathias
+Bynens
 .
 All
 rights

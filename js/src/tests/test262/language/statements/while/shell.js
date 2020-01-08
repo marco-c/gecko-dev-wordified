@@ -11,9 +11,11 @@ Copyright
 (
 C
 )
-2015
-Andr
-Bargull
+2016
+the
+V8
+project
+authors
 .
 All
 rights

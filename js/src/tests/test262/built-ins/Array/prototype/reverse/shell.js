@@ -11,9 +11,9 @@ Copyright
 (
 C
 )
-2017
-Ecma
-International
+2016
+Jordan
+Harband
 .
 All
 rights

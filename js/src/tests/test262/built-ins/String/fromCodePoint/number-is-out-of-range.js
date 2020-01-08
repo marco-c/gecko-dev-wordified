@@ -185,6 +185,13 @@ exception
 .
 .
 .
+features
+:
+[
+String
+.
+fromCodePoint
+]
 -
 -
 -

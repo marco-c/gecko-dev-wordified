@@ -19,7 +19,7 @@ supported
 /
 /
 Copyright
-2017
+2018
 Mathias
 Bynens
 .
@@ -85,18 +85,11 @@ escapes
 -
 tests
 Unicode
-v10
+v11
 .
 0
 .
 0
-Emoji
-v5
-.
-0
-(
-UTR51
-)
 esid
 :
 sec
@@ -148,6 +141,7 @@ loneCodePoints
 0x00180E
 0x00FEFF
 0x0110BD
+0x0110CD
 0x0E0001
 ]
 ranges
@@ -423,6 +417,10 @@ ranges
 ]
 [
 0x0110BE
+0x0110CC
+]
+[
+0x0110CE
 0x01BC9F
 ]
 [
