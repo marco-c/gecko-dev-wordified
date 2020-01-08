@@ -148,6 +148,7 @@ return
 false
 ;
 }
+;
 const
 substitutedCss
 =
@@ -616,6 +617,7 @@ window
 downloadOnly
 ;
 }
+;
 /
 /
 the
@@ -2176,6 +2178,7 @@ this
 .
 document
 )
+;
 /
 /
 eslint
@@ -2233,6 +2236,9 @@ class
 preview
 -
 overlay
+precision
+-
+cursor
 "
 >
 <
@@ -5520,6 +5526,7 @@ delay
 )
 ;
 }
+;
 }
 remove
 (

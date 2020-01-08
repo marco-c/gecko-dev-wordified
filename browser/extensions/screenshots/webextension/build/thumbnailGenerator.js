@@ -112,6 +112,7 @@ maxResizeScaleFactor
 0
 .
 5
+;
 /
 /
 The
@@ -414,6 +415,7 @@ thumbnailImageHeight
 scaledX
 scaledY
 }
+;
 }
 /
 *
@@ -852,6 +854,7 @@ png
 "
 )
 )
+;
 }
 return
 ;
@@ -875,6 +878,7 @@ toDataURL
 )
 ;
 }
+;
 thumbnailImage
 .
 src
