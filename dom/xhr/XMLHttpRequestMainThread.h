@@ -1563,6 +1563,10 @@ const
 BodyExtractorBase
 *
 aBody
+bool
+aBodyIsDocumentOrString
+=
+false
 )
 ;
 bool
