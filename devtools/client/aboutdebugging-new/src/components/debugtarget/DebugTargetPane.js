@@ -239,7 +239,7 @@ arrayOf
 (
 PropTypes
 .
-Object
+object
 )
 .
 isRequired

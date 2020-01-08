@@ -164,6 +164,7 @@ isRequired
 }
 renderField
 (
+key
 name
 value
 title
@@ -176,6 +177,13 @@ dom
 dt
 (
 {
+key
+:
+{
+key
+}
+-
+dt
 }
 name
 )
@@ -191,6 +199,13 @@ ellipsis
 -
 text
 "
+key
+:
+{
+key
+}
+-
+dd
 title
 :
 title
@@ -243,6 +258,11 @@ extension
 -
 detail__manifest
 "
+key
+:
+"
+manifest
+"
 href
 :
 manifestURL
@@ -264,6 +284,9 @@ this
 .
 renderField
 (
+"
+uuid
+"
 "
 Internal
 UUID
@@ -323,6 +346,9 @@ this
 renderField
 (
 "
+location
+"
+"
 Location
 "
 location
@@ -333,6 +359,9 @@ this
 .
 renderField
 (
+"
+extension
+"
 "
 Extension
 ID

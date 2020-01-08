@@ -396,7 +396,10 @@ targets
 .
 map
 (
+(
 target
+key
+)
 =
 >
 DebugTargetItem
@@ -405,6 +408,7 @@ DebugTargetItem
 actionComponent
 detailComponent
 dispatch
+key
 target
 }
 )
