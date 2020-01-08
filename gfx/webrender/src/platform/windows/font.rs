@@ -793,9 +793,6 @@ FontFile
 :
 new_from_data
 (
-&
-*
-*
 data
 )
 {
