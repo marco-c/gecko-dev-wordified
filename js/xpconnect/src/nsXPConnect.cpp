@@ -1153,6 +1153,13 @@ InitSingletonScopes
 (
 )
 ;
+mozJSComponentLoader
+:
+:
+InitStatics
+(
+)
+;
 }
 /
 /
@@ -1186,6 +1193,13 @@ cnt
 )
 ;
 }
+mozJSComponentLoader
+:
+:
+Shutdown
+(
+)
+;
 }
 /
 /
