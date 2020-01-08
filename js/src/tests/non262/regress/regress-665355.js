@@ -37,6 +37,14 @@ true
 ;
 }
 }
+/
+/
+assert
+cycle
+doesn
+'
+t
+work
 assertEq
 (
 test
@@ -46,6 +54,9 @@ x
 true
 )
 ;
+/
+/
+works
 assertEq
 (
 test
@@ -53,7 +64,7 @@ test
 {
 }
 )
-true
+false
 )
 ;
 assertEq
@@ -62,7 +73,7 @@ test
 (
 null
 )
-true
+false
 )
 ;
 reportCompare
