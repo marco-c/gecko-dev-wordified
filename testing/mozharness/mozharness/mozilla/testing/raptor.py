@@ -1203,6 +1203,21 @@ get
 gecko_profile_interval
 '
 )
+        
+self
+.
+test_packages_url
+=
+self
+.
+config
+.
+get
+(
+'
+test_packages_url
+'
+)
     
 #
 We
