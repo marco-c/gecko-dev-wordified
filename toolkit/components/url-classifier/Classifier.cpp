@@ -5175,6 +5175,7 @@ i
 {
 RefPtr
 <
+const
 TableUpdate
 >
 update
@@ -5491,7 +5492,7 @@ Classifier
 :
 ApplyFullHashes
 (
-TableUpdateArray
+ConstTableUpdateArray
 &
 aUpdates
 )
@@ -7086,6 +7087,7 @@ i
 {
 RefPtr
 <
+const
 TableUpdate
 >
 update
@@ -8240,8 +8242,11 @@ output
 &
 prefixes2
 ;
+RefPtr
+<
+const
 TableUpdateV4
-*
+>
 lastAppliedUpdate
 =
 nullptr
@@ -8695,6 +8700,7 @@ UpdateCache
 (
 RefPtr
 <
+const
 TableUpdate
 >
 aUpdate
@@ -8782,6 +8788,7 @@ lookupV2
 {
 RefPtr
 <
+const
 TableUpdateV2
 >
 updateV2
@@ -8845,6 +8852,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
+const
 TableUpdateV4
 >
 updateV4

@@ -3524,6 +3524,7 @@ T
 >
 *
 aStorePrefixes
+const
 ChunkSet
 &
 aUpdateChunks

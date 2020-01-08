@@ -555,7 +555,8 @@ End
 (
 )
 ;
-auto
+const
+TableUpdateArray
 &
 tus
 =
@@ -566,7 +567,11 @@ GetTableUpdates
 (
 )
 ;
-auto
+RefPtr
+<
+const
+TableUpdateV4
+>
 tuv4
 =
 TableUpdate

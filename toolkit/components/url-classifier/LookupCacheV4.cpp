@@ -1645,6 +1645,7 @@ the
 old
 map
 .
+const
 TableUpdateV4
 :
 :
@@ -3238,8 +3239,11 @@ LookupCacheV4
 :
 WriteMetadata
 (
+RefPtr
+<
+const
 TableUpdateV4
-*
+>
 aTableUpdate
 )
 {
