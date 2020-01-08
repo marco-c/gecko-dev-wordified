@@ -965,8 +965,9 @@ UrlClassifierDBServiceWorkerProxy
 :
 CacheCompletions
 (
-CacheResultArray
-*
+const
+ConstCacheResultArray
+&
 aEntries
 )
 {
