@@ -824,7 +824,7 @@ currentDelay
 =
 0
 .
-0
+0f
 )
 ;
 MOZ_ASSERT
@@ -1024,7 +1024,7 @@ interpolationFactor
 =
 0
 .
-0
+0f
 &
 &
 !
@@ -1112,7 +1112,7 @@ interpolationFactor
 =
 1
 .
-0
+0f
 -
 interpolationFactor
 ;
