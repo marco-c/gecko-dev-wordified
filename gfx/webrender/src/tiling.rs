@@ -114,10 +114,7 @@ use
 clip_scroll_tree
 :
 :
-{
-ClipScrollTree
 SpatialNodeIndex
-}
 ;
 use
 device
@@ -398,13 +395,6 @@ resource_cache
 rc
 mut
 ResourceCache
-pub
-clip_scroll_tree
-:
-&
-'
-a
-ClipScrollTree
 pub
 use_dual_source_blending
 :

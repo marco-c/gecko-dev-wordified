@@ -2618,6 +2618,8 @@ glyph
 key
 .
 index
+(
+)
 as
 CGGlyph
 ;
@@ -3795,6 +3797,8 @@ glyph
 key
 .
 index
+(
+)
 as
 CGGlyph
 ;

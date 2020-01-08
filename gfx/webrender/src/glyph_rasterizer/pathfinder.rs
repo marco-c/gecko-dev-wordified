@@ -1355,6 +1355,8 @@ SubpixelOffset
 glyph_key
 .
 subpixel_offset
+(
+)
 .
 0
 as
@@ -1375,6 +1377,8 @@ new
 glyph_key
 .
 index
+(
+)
 pathfinder_subpixel_offset
 )
 ;
@@ -1791,6 +1795,8 @@ SubpixelOffset
 glyph_key
 .
 subpixel_offset
+(
+)
 .
 0
 as
@@ -1805,6 +1811,8 @@ f64
 glyph_key
 .
 subpixel_offset
+(
+)
 .
 0
 .
@@ -1826,6 +1834,8 @@ new
 glyph_key
 .
 index
+(
+)
 pathfinder_subpixel_offset
 )
 ;

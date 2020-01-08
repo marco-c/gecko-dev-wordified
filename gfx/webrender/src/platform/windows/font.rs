@@ -1365,6 +1365,8 @@ glyph
 key
 .
 index
+(
+)
 as
 u16
 ;
@@ -1905,6 +1907,8 @@ get_design_glyph_metrics
 key
 .
 index
+(
+)
 as
 u16
 ]

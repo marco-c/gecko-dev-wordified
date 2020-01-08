@@ -113,7 +113,7 @@ api
 :
 :
 {
-BlobImageRenderer
+BlobImageHandler
 ColorF
 DeviceIntPoint
 DeviceIntRect
@@ -8891,11 +8891,11 @@ options
 enable_render_on_scroll
 ;
 let
-blob_image_renderer
+blob_image_handler
 =
 options
 .
-blob_image_renderer
+blob_image_handler
 .
 take
 (
@@ -9168,7 +9168,7 @@ new
 (
 texture_cache
 glyph_rasterizer
-blob_image_renderer
+blob_image_handler
 )
 ;
 let
@@ -24217,13 +24217,13 @@ ThreadPool
 >
 >
 pub
-blob_image_renderer
+blob_image_handler
 :
 Option
 <
 Box
 <
-BlobImageRenderer
+BlobImageHandler
 >
 >
 pub
@@ -24462,7 +24462,7 @@ Stream
 workers
 :
 None
-blob_image_renderer
+blob_image_handler
 :
 None
 recorder

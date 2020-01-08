@@ -2897,6 +2897,8 @@ face
 glyph
 .
 index
+(
+)
 as
 FT_UInt
 load_flags
@@ -3111,6 +3113,8 @@ font
 glyph
 .
 index
+(
+)
 font
 .
 size
