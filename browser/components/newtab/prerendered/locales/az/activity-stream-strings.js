@@ -1364,8 +1364,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Menyunu
+a
 "
 "
 pocket_learn_more

@@ -860,9 +860,9 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Ako
+to
+funguje
 "
 "
 pocket_cta_button
@@ -1320,8 +1320,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Otvor
+ponuku
 "
 "
 pocket_learn_more

@@ -775,9 +775,10 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+S
+dan
+virker
+det
 "
 "
 pocket_cta_button
@@ -1192,7 +1193,7 @@ context_menu_title
 "
 :
 "
-Open
+bn
 menu
 "
 "

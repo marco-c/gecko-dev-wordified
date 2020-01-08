@@ -260,9 +260,7 @@ menu_action_show_file_windows
 :
 "
 Opne
-mappa
-med
-fila
+innhaldsmappe
 "
 "
 menu_action_show_file_linux
@@ -270,9 +268,7 @@ menu_action_show_file_linux
 :
 "
 Opne
-mappa
-med
-fila
+innhaldsmappe
 "
 "
 menu_action_show_file_default
@@ -1163,8 +1159,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Opne
+meny
 "
 "
 pocket_learn_more

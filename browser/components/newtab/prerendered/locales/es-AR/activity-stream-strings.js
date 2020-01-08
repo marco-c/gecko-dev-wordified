@@ -1191,8 +1191,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Abrir
+men
 "
 "
 pocket_learn_more

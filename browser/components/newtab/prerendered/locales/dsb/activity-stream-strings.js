@@ -1370,8 +1370,9 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Meni
+w
+cyni
 "
 "
 pocket_learn_more

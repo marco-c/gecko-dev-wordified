@@ -1233,8 +1233,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+ppna
+meny
 "
 "
 pocket_learn_more

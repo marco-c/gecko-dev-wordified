@@ -1202,7 +1202,7 @@ context_menu_title
 "
 :
 "
-Open
+Abrir
 menu
 "
 "

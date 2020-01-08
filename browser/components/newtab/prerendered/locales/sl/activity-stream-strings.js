@@ -1171,8 +1171,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Odpri
+meni
 "
 "
 pocket_learn_more
