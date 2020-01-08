@@ -329,6 +329,8 @@ owned
 by
 *
 Worklet
+and
+WorkletGlobalScope
 .
 No
 parent
@@ -336,10 +338,10 @@ thread
 cycle
 collected
 objects
+*
 are
 owned
 indefinitely
-*
 by
 WorkletImpl
 because
@@ -347,6 +349,7 @@ WorkletImpl
 is
 not
 cycle
+*
 collected
 .
 *
