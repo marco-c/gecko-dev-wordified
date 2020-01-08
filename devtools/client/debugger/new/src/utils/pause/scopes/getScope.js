@@ -374,9 +374,6 @@ this
 ;
 if
 (
-bindings
-&
-&
 "
 this
 "
