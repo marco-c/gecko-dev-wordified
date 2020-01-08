@@ -372,10 +372,10 @@ hostname
 )
 ;
 let
-sslStatus
+secInfo
 =
 new
-FakeSSLStatus
+FakeTransportSecurityInfo
 (
 constructCertFromFile
 (
@@ -460,7 +460,7 @@ nsISiteSecurityService
 HEADER_HSTS
 uri
 header
-sslStatus
+secInfo
 0
 Ci
 .
@@ -503,7 +503,7 @@ nsISiteSecurityService
 HEADER_HPKP
 uri
 header
-sslStatus
+secInfo
 0
 Ci
 .

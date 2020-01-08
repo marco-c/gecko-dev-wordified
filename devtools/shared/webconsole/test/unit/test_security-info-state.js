@@ -172,9 +172,6 @@ STATE_IS_BROKEN
 errorCode
 :
 0
-SSLStatus
-:
-{
 /
 /
 nsISSLStatus
@@ -188,7 +185,6 @@ cipherSuite
 "
 TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
 "
-}
 }
 ;
 function

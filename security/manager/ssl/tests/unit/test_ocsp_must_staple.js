@@ -388,14 +388,14 @@ nsISiteSecurityService
 )
 ;
 let
-sslStatus
+secInfo
 =
 new
-FakeSSLStatus
+FakeTransportSecurityInfo
 (
 )
 ;
-sslStatus
+secInfo
 .
 serverCert
 =
@@ -433,7 +433,7 @@ nsISiteSecurityService
 HEADER_HPKP
 uri
 header
-sslStatus
+secInfo
 0
 Ci
 .

@@ -337,7 +337,7 @@ execute_script
 "
           
 var
-securityUI
+secInfo
 =
 arguments
 [
@@ -347,27 +347,14 @@ arguments
 linkedBrowser
 .
 securityUI
-;
-          
-var
-status
-=
-securityUI
 .
 secInfo
-&
-&
-securityUI
-.
-secInfo
-.
-SSLStatus
 ;
           
 return
-status
+secInfo
 ?
-status
+secInfo
 .
 serverCert
 :
