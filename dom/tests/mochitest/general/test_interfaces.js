@@ -11005,7 +11005,7 @@ ServiceWorkerContainer
 "
 insecureContext
 :
-true
+false
 }
 /
 /
