@@ -450,6 +450,9 @@ get
 ;
 return
 sentItem
+&
+&
+sentItem
 .
 requestHeaders
 &
@@ -457,6 +460,9 @@ requestHeaders
 sentItem
 .
 requestPostData
+&
+&
+origItem
 &
 &
 origItem
