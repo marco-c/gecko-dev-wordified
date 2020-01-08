@@ -1326,11 +1326,10 @@ AutoLockForExclusiveAccess
 lock
 )
 {
-AutoAtomsZone
+AutoAllocInAtomsZone
 az
 (
 cx
-lock
 )
 ;
 JitContext
@@ -2161,11 +2160,10 @@ lock
 cx
 )
 ;
-AutoAtomsZone
+AutoAllocInAtomsZone
 az
 (
 cx
-lock
 )
 ;
 debugTrapHandler_

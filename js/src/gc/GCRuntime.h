@@ -3107,6 +3107,13 @@ thingKind
 )
 ;
 void
+setParallelAtomsAllocEnabled
+(
+bool
+enabled
+)
+;
+void
 bufferGrayRoots
 (
 )
