@@ -410,6 +410,14 @@ ErrorResult
 aRv
 )
 ;
+void
+InjectContentScripts
+(
+ErrorResult
+&
+aRv
+)
+;
 bool
 CanAccessURI
 (
