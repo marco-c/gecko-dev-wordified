@@ -1036,6 +1036,8 @@ VideoInfo
 aVideoInfo
 float
 aFramerate
+bool
+aDisallowHWDecoder
 const
 layers
 :
@@ -1265,6 +1267,7 @@ SendPVideoDecoderConstructor
 this
 aVideoInfo
 aFramerate
+aDisallowHWDecoder
 aIdentifier
 &
 success
