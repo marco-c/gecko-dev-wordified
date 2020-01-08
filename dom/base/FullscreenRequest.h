@@ -265,7 +265,7 @@ dom
 :
 Element
 *
-GetElement
+Element
 (
 )
 const
@@ -276,7 +276,7 @@ mElement
 }
 nsIDocument
 *
-GetDocument
+Document
 (
 )
 const
