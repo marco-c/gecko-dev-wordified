@@ -196,10 +196,9 @@ PaymentResponse
 nsPIDOMWindowInner
 *
 aWindow
-const
-nsAString
-&
-aInternalId
+PaymentRequest
+*
+aRequest
 const
 nsAString
 &
@@ -243,9 +242,9 @@ mCompleteCalled
 (
 false
 )
-mInternalId
+mRequest
 (
-aInternalId
+aRequest
 )
 mRequestId
 (
@@ -784,7 +783,7 @@ manager
 >
 CompletePayment
 (
-mInternalId
+mRequest
 result
 )
 ;
