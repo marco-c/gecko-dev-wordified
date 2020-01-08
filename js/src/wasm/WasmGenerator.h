@@ -1070,7 +1070,7 @@ finishCodeTier
 (
 )
 ;
-bool
+SharedMetadata
 finishMetadata
 (
 const
