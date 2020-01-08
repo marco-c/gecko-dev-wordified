@@ -499,6 +499,13 @@ TraceLoggerThread
 ;
 #
 endif
+namespace
+gc
+{
+class
+AutoHeapSession
+;
+}
 }
 /
 /
@@ -6218,7 +6225,7 @@ js
 gc
 :
 :
-AutoTraceSession
+AutoHeapSession
 ;
 friend
 class

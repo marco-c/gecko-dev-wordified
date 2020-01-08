@@ -1960,7 +1960,7 @@ traceRuntimeForMajorGC
 JSTracer
 *
 trc
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -2087,7 +2087,7 @@ traceRuntimeForMinorGC
 JSTracer
 *
 trc
-AutoTraceSession
+AutoGCSession
 &
 session
 )
@@ -2322,8 +2322,6 @@ traceRuntime
 (
 trc
 prep
-.
-session
 )
 ;
 }
@@ -2380,10 +2378,6 @@ traceRuntimeAtoms
 (
 trc
 session
-.
-lock
-(
-)
 )
 ;
 traceRuntimeCommon
@@ -3275,14 +3269,10 @@ rt
 TraceWeakMapKeysValues
 )
 ;
-AutoPrepareForTracing
-prep
+AutoTraceSession
+session
 (
-TlsContext
-.
-get
-(
-)
+rt
 )
 ;
 gcstats
@@ -3312,8 +3302,6 @@ traceRuntime
 (
 &
 trc
-prep
-.
 session
 )
 ;

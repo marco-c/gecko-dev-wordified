@@ -1500,8 +1500,6 @@ traceRuntime
 (
 trc
 prep
-.
-session
 )
 ;
 VerifyNode
@@ -3966,13 +3964,6 @@ AutoTraceSession
 session
 (
 rt
-JS
-:
-:
-HeapState
-:
-:
-Tracing
 )
 ;
 CheckHeapTracer
@@ -4324,13 +4315,6 @@ AutoTraceSession
 session
 (
 rt
-JS
-:
-:
-HeapState
-:
-:
-Tracing
 )
 ;
 CheckGrayMarkingTracer
