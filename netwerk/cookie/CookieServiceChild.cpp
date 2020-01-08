@@ -238,7 +238,7 @@ h
 #
 include
 "
-nsICookiePermission
+nsCookiePermission
 .
 h
 "
@@ -2229,9 +2229,11 @@ nsICookiePermission
 >
 permissionService
 =
-do_GetService
+nsCookiePermission
+:
+:
+GetOrCreate
 (
-NS_COOKIEPERMISSION_CONTRACTID
 )
 ;
 CookieStatus
@@ -3949,9 +3951,11 @@ nsICookiePermission
 >
 permissionService
 =
-do_GetService
+nsCookiePermission
+:
+:
+GetOrCreate
 (
-NS_COOKIEPERMISSION_CONTRACTID
 )
 ;
 CookieStatus
