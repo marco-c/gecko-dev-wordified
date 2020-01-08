@@ -383,9 +383,11 @@ isJit
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 jit
 :
 :
@@ -422,9 +424,11 @@ hasExitFP
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Skip
@@ -451,9 +455,11 @@ done
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 jit
 :
 :
@@ -538,8 +544,10 @@ enabled_
 =
 enabled
 )
+{
 return
 ;
+}
 /
 *
 *
@@ -637,6 +645,7 @@ hasJitcodeGlobalTable
 (
 )
 )
+{
 rt
 -
 >
@@ -654,6 +663,7 @@ setAllEntriesAsExpired
 (
 )
 ;
+}
 rt
 -
 >
@@ -992,6 +1002,7 @@ next
 (
 )
 )
+{
 r
 -
 >
@@ -1002,6 +1013,7 @@ ensureProfilingLabels
 enabled
 )
 ;
+}
 }
 /
 *
@@ -1096,9 +1108,11 @@ str
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 s
@@ -1215,6 +1229,7 @@ lookup
 script
 )
 )
+{
 locked
 -
 >
@@ -1223,6 +1238,7 @@ remove
 entry
 )
 ;
+}
 }
 void
 GeckoProfilerRuntime
@@ -1417,6 +1433,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT_IF
 (
 profilingStack_
@@ -1443,6 +1460,7 @@ pc
 )
 )
 ;
+}
 }
 #
 endif
@@ -1692,6 +1710,7 @@ isJsFrame
 (
 )
 )
+{
 fprintf
 (
 stderr
@@ -1714,7 +1733,9 @@ dynamicString
 )
 )
 ;
+}
 else
+{
 fprintf
 (
 stderr
@@ -1745,6 +1766,7 @@ dynamicString
 )
 )
 ;
+}
 }
 }
 ProfilingStackFrame
@@ -1956,6 +1978,7 @@ filename
 =
 nullptr
 )
+{
 filename
 =
 "
@@ -1964,6 +1987,7 @@ unknown
 >
 "
 ;
+}
 size_t
 lenFilename
 =
@@ -2155,9 +2179,11 @@ if
 !
 cstr
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Construct
@@ -2191,9 +2217,11 @@ if
 !
 atomStr
 )
+{
 return
 nullptr
 ;
+}
 ret
 =
 snprintf
@@ -2329,6 +2357,7 @@ i
 +
 +
 )
+{
 profilingStack_
 -
 >
@@ -2342,6 +2371,7 @@ trace
 trc
 )
 ;
+}
 }
 }
 void
@@ -2676,8 +2706,10 @@ sp
 =
 0
 )
+{
 return
 ;
+}
 ProfilingStackFrame
 &
 frame
@@ -2742,8 +2774,10 @@ profiler
 =
 nullptr
 )
+{
 return
 ;
+}
 uint32_t
 sp
 =
@@ -2769,8 +2803,10 @@ sp
 =
 0
 )
+{
 return
 ;
+}
 ProfilingStackFrame
 &
 frame
@@ -2862,9 +2898,11 @@ if
 !
 script
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 If
@@ -2942,9 +2980,11 @@ isProfilerSamplingEnabled
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -2985,9 +3025,11 @@ lineOrPcOffset
 =
 NullPCOffset
 )
+{
 return
 nullptr
 ;
+}
 JSScript
 *
 script
@@ -3257,6 +3299,7 @@ if
 (
 previouslyEnabled_
 )
+{
 cx_
 -
 >
@@ -3264,6 +3307,7 @@ disableProfilerSampling
 (
 )
 ;
+}
 }
 AutoSuppressProfilerSampling
 :
@@ -3277,6 +3321,7 @@ if
 (
 previouslyEnabled_
 )
+{
 cx_
 -
 >
@@ -3284,4 +3329,5 @@ enableProfilerSampling
 (
 )
 ;
+}
 }
