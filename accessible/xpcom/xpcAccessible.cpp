@@ -1012,7 +1012,7 @@ xpcAccessible
 :
 GetDOMNode
 (
-nsIDOMNode
+nsINode
 *
 *
 aDOMNode
@@ -1038,8 +1038,10 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
+nsCOMPtr
+<
 nsINode
-*
+>
 node
 =
 Intl
@@ -1051,13 +1053,10 @@ GetNode
 (
 )
 ;
-if
-(
 node
-)
-CallQueryInterface
+.
+forget
 (
-node
 aDOMNode
 )
 ;

@@ -656,7 +656,7 @@ GetXPCDocument
 this
 )
 ;
-nsIDOMNode
+nsINode
 *
 node
 =
@@ -1227,7 +1227,7 @@ GetXPCDocument
 this
 )
 ;
-nsIDOMNode
+nsINode
 *
 node
 =
@@ -1405,7 +1405,7 @@ GetXPCDocument
 this
 )
 ;
-nsIDOMNode
+nsINode
 *
 node
 =
@@ -1613,7 +1613,7 @@ true
 XXX
 fix
 this
-nsIDOMNode
+nsINode
 *
 node
 =
@@ -1809,7 +1809,7 @@ GetXPCDocument
 this
 )
 ;
-nsIDOMNode
+nsINode
 *
 node
 =
@@ -2015,7 +2015,7 @@ nsIAccessibleEvent
 :
 EVENT_TEXT_REMOVED
 ;
-nsIDOMNode
+nsINode
 *
 node
 =
@@ -4381,7 +4381,7 @@ GetXPCDocument
 this
 )
 ;
-nsIDOMNode
+nsINode
 *
 node
 =

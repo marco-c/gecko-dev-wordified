@@ -28,17 +28,6 @@ rules
 "
 :
 {
-"
-mozilla
-/
-reject
--
-importGlobalProperties
-"
-:
-"
-error
-"
 /
 /
 XXX

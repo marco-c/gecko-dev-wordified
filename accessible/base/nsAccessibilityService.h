@@ -568,7 +568,7 @@ aRootAccessible
 bool
 HasAccessible
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 )

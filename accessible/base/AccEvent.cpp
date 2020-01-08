@@ -2570,21 +2570,6 @@ GetNode
 (
 )
 ;
-nsIDOMNode
-*
-domNode
-=
-node
-?
-node
--
->
-AsDOMNode
-(
-)
-:
-nullptr
-;
 bool
 fromUser
 =
@@ -2682,7 +2667,7 @@ ToXPCDocument
 (
 doc
 )
-domNode
+node
 fromUser
 state
 extra
@@ -2751,7 +2736,7 @@ ToXPCDocument
 (
 doc
 )
-domNode
+node
 fromUser
 tc
 -
@@ -2820,7 +2805,7 @@ ToXPCDocument
 (
 doc
 )
-domNode
+node
 fromUser
 ToXPC
 (
@@ -2897,7 +2882,7 @@ ToXPCDocument
 (
 doc
 )
-domNode
+node
 fromUser
 cm
 -
@@ -2953,7 +2938,7 @@ ToXPCDocument
 (
 doc
 )
-domNode
+node
 fromUser
 ToXPC
 (
@@ -3046,7 +3031,7 @@ ToXPCDocument
 (
 doc
 )
-domNode
+node
 fromUser
 attribute
 )
@@ -3073,7 +3058,7 @@ ToXPCDocument
 (
 doc
 )
-domNode
+node
 fromUser
 )
 ;
