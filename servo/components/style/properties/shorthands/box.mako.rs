@@ -96,10 +96,10 @@ sub_properties
 "
 overflow
 -
-x
+y
 overflow
 -
-y
+x
 "
 spec
 =
@@ -354,7 +354,7 @@ moz_kw_found
 %
 endif
 let
-overflow_x
+overflow_y
 =
 parse_overflow
 (
@@ -364,7 +364,7 @@ input
 ?
 ;
 let
-overflow_y
+overflow_x
 =
 input
 .
@@ -382,7 +382,7 @@ i
 .
 unwrap_or
 (
-overflow_x
+overflow_y
 )
 ;
 Ok
@@ -445,7 +445,7 @@ Write
 {
 self
 .
-overflow_x
+overflow_y
 .
 to_css
 (
@@ -474,7 +474,7 @@ write_char
 ;
 self
 .
-overflow_y
+overflow_x
 .
 to_css
 (
