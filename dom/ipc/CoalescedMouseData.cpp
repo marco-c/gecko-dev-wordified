@@ -634,12 +634,6 @@ mRefreshDriver
 =
 refreshDriver
 ;
-DebugOnly
-<
-bool
->
-success
-=
 mRefreshDriver
 -
 >
@@ -650,11 +644,6 @@ FlushType
 :
 :
 Event
-)
-;
-MOZ_ASSERT
-(
-success
 )
 ;
 }
