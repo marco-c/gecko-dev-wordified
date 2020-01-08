@@ -1129,6 +1129,7 @@ in
 =
 NS_LITERAL_STRING
 (
+u
 "
 \
 x0100
@@ -2119,6 +2120,7 @@ in
 =
 NS_LITERAL_STRING
 (
+u
 "
 x
 /
@@ -5264,6 +5266,7 @@ in
 =
 NS_LITERAL_STRING
 (
+u
 "
 x
 /
