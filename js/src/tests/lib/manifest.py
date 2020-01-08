@@ -2615,6 +2615,22 @@ suite
 "
 "
     
+if
+not
+os
+.
+path
+.
+exists
+(
+filename
+)
+:
+        
+return
+[
+]
+    
 entries
 =
 [
@@ -3486,6 +3502,7 @@ testcase
 =
 RefTestCase
 (
+location
 filename
 )
         
