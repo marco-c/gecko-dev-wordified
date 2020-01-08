@@ -29277,15 +29277,12 @@ DeleteAll
 (
 )
 ;
-MOZ_ASSERT
-(
 aState
 .
 mNoWrapFloats
 .
-IsEmpty
+Clear
 (
-)
 )
 ;
 aState
