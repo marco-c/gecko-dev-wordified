@@ -2458,11 +2458,9 @@ chrome
 :
 /
 /
-global
+browser
 /
 skin
-/
-icons
 /
 check
 .
@@ -7966,7 +7964,9 @@ global
 /
 skin
 /
-icons
+in
+-
+content
 /
 check
 .
@@ -8030,6 +8030,10 @@ primary
 -
 color
 )
+;
+stroke
+:
+none
 ;
 z
 -

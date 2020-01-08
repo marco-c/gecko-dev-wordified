@@ -315,7 +315,9 @@ global
 /
 skin
 /
-icons
+in
+-
+content
 /
 check
 .
@@ -337,6 +339,10 @@ fill
 :
 #
 2292d0
+;
+stroke
+:
+none
 ;
 }
 treechildren
@@ -419,6 +425,10 @@ fill
 :
 #
 2292d0
+;
+stroke
+:
+none
 ;
 }
 treechildren
