@@ -210,9 +210,9 @@ RefPtr
 dom
 :
 :
-Element
+EventTarget
 >
-mElement
+mTarget
 ;
 RefPtr
 <
@@ -268,7 +268,7 @@ Animation
 aAnimation
 )
 :
-mElement
+mTarget
 (
 aTarget
 .
@@ -379,7 +379,7 @@ Animation
 aAnimation
 )
 :
-mElement
+mTarget
 (
 aTarget
 .
@@ -764,7 +764,7 @@ Dispatch
 (
 info
 .
-mElement
+mTarget
 mPresContext
 info
 .
