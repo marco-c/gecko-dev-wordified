@@ -201,10 +201,10 @@ override
 void
 PostMessage
 (
-ipc
-:
-:
-StructuredCloneData
+RefPtr
+<
+ServiceWorkerCloneData
+>
 &
 &
 aData

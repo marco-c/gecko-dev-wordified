@@ -182,6 +182,9 @@ class
 ClientState
 ;
 class
+ServiceWorkerCloneData
+;
+class
 ServiceWorkerPrivate
 ;
 /
@@ -554,10 +557,10 @@ aListener
 void
 PostMessage
 (
-ipc
-:
-:
-StructuredCloneData
+RefPtr
+<
+ServiceWorkerCloneData
+>
 &
 &
 aData

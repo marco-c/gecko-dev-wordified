@@ -1409,10 +1409,10 @@ ServiceWorkerInfo
 :
 PostMessage
 (
-ipc
-:
-:
-StructuredCloneData
+RefPtr
+<
+ServiceWorkerCloneData
+>
 &
 &
 aData
