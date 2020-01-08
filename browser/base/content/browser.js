@@ -25732,6 +25732,11 @@ aMsg
 .
 data
 .
+pageURL
+aMsg
+.
+data
+.
 originalURL
 aMsg
 .
@@ -25924,6 +25929,7 @@ pendingicon
 setIconFromLink
 (
 aBrowser
+aPageURL
 aOriginalURL
 aCanUseForTab
 aExpiration
@@ -25945,9 +25951,11 @@ if
 !
 tab
 )
+{
 return
 false
 ;
+}
 try
 {
 PlacesUIUtils
@@ -25961,6 +25969,10 @@ scriptSecurityManager
 .
 getSystemPrincipal
 (
+)
+makeURI
+(
+aPageURL
 )
 makeURI
 (
