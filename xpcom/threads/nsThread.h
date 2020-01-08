@@ -817,11 +817,6 @@ JSRuntime
 bool
 mCanInvokeJS
 ;
-bool
-GetSchedulerLoggingEnabled
-(
-)
-;
 mozilla
 :
 :
