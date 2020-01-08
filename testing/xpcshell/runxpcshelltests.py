@@ -1352,7 +1352,7 @@ False
         
 self
 .
-complete_command
+command
 =
 None
         
@@ -3135,8 +3135,6 @@ def
 buildCmdHead
 (
 self
-headfiles
-xpcscmd
 )
 :
         
@@ -3189,6 +3187,17 @@ line
 "
 "
 "
+        
+headfiles
+=
+self
+.
+getHeadFiles
+(
+self
+.
+test_object
+)
         
 cmdH
 =
@@ -3243,8 +3252,6 @@ jsDebuggerInfo
 port
         
 return
-xpcscmd
-+
 [
             
 '
@@ -3585,8 +3592,6 @@ self
 .
 xrePath
         
-self
-.
 xpcsCmd
 =
 [
@@ -3703,8 +3708,6 @@ replace
 '
 )
             
-self
-.
 xpcsCmd
 .
 extend
@@ -3732,8 +3735,6 @@ sanitized
 ]
 )
         
-self
-.
 xpcsCmd
 .
 extend
@@ -3767,8 +3768,6 @@ self
 debuggerInfo
 :
             
-self
-.
 xpcsCmd
 =
 [
@@ -3785,8 +3784,6 @@ debuggerInfo
 .
 args
 +
-self
-.
 xpcsCmd
         
 #
@@ -3872,8 +3869,6 @@ self
 pluginsDir
 :
             
-self
-.
 xpcsCmd
 .
 extend
@@ -3888,6 +3883,9 @@ self
 pluginsDir
 ]
 )
+        
+return
+xpcsCmd
     
 def
 cleanupDir
@@ -4322,7 +4320,7 @@ command
 =
 self
 .
-complete_command
+command
 )
         
 else
@@ -5102,98 +5100,86 @@ setupMozinfoJS
 (
 )
         
+#
+The
+order
+of
+the
+command
+line
+is
+important
+:
+        
+#
+1
+)
+Arguments
+for
+xpcshell
+itself
+        
+self
+.
+command
+=
 self
 .
 buildXpcsCmd
 (
 )
         
-head_files
-=
-self
-.
-getHeadFiles
-(
-self
-.
-test_object
+#
+2
 )
+Arguments
+for
+the
+head
+files
         
-cmdH
-=
+self
+.
+command
+.
+extend
+(
 self
 .
 buildCmdHead
 (
-head_files
-self
-.
-xpcsCmd
+)
 )
         
 #
-The
+3
+)
+Arguments
+for
+the
 test
 file
-will
-have
-to
-be
-loaded
-after
-the
-head
-files
-.
         
-cmdT
-=
+self
+.
+command
+.
+extend
+(
 self
 .
 buildCmdTestFile
 (
 path
 )
-        
-args
-=
-self
-.
-xpcsRunArgs
-[
-:
-]
-        
-if
-'
-debug
-'
-in
-self
-.
-test_object
-:
-            
-args
-.
-insert
-(
-0
-'
--
-d
-'
 )
         
-#
-The
-test
-name
-to
-log
-        
-cmdI
-=
+self
+.
+command
+.
+extend
+(
 [
 '
 -
@@ -5207,37 +5193,20 @@ _TEST_NAME
 %
 s
 "
+;
 '
 %
 name
 ]
+)
         
 #
-Directory
+4
+)
+Arguments
 for
-javascript
 code
 coverage
-output
-null
-by
-default
-.
-        
-cmdC
-=
-[
-'
--
-e
-'
-'
-const
-_JSCOV_DIR
-=
-null
-'
-]
         
 if
 self
@@ -5245,8 +5214,13 @@ self
 jscovdir
 :
             
-cmdC
-=
+self
+.
+command
+.
+extend
+(
+                
 [
 '
 -
@@ -5260,6 +5234,7 @@ _JSCOV_DIR
 %
 s
 "
+;
 '
 %
 self
@@ -5277,35 +5252,46 @@ replace
 '
 )
 ]
-            
+)
+        
+#
+5
+)
+Runtime
+arguments
+        
+if
+'
+debug
+'
+in
 self
 .
-complete_command
-=
-cmdH
-+
-cmdT
-+
-cmdI
-+
-cmdC
-+
-args
-        
-else
+test_object
 :
             
 self
 .
-complete_command
-=
-cmdH
-+
-cmdT
-+
-cmdI
-+
-args
+command
+.
+append
+(
+'
+-
+d
+'
+)
+        
+self
+.
+command
+.
+extend
+(
+self
+.
+xpcsRunArgs
+)
         
 if
 self
@@ -5553,7 +5539,7 @@ logCommand
 name
 self
 .
-complete_command
+command
 test_dir
 )
             
@@ -5565,7 +5551,7 @@ launchProcess
 (
 self
 .
-complete_command
+command
                                       
 stdout
 =
