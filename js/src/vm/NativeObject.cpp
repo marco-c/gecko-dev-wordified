@@ -6526,7 +6526,7 @@ MOZ_ASSERT
 reqCapacity
 >
 =
-getDenseInitializedLengthUnchecked
+getDenseInitializedLength
 (
 )
 )
