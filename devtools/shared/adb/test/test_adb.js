@@ -1031,12 +1031,6 @@ ADB
 .
 stop
 (
-true
-/
-*
-sync
-*
-/
 )
 ;
 ok
@@ -1281,12 +1275,6 @@ ADB
 .
 stop
 (
-true
-/
-*
-sync
-*
-/
 )
 ;
 ok
