@@ -190,6 +190,10 @@ bool
 aIsDataFont
 =
 false
+bool
+aNeedsCairo
+=
+false
 )
 :
 mFont
@@ -199,6 +203,10 @@ aFont
 mIsDataFont
 (
 aIsDataFont
+)
+mNeedsCairo
+(
+aNeedsCairo
 )
 {
 CFRetain
@@ -318,6 +326,9 @@ mFont
 ;
 bool
 mIsDataFont
+;
+bool
+mNeedsCairo
 ;
 }
 ;
