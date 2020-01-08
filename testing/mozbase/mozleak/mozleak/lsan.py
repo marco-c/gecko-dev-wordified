@@ -103,6 +103,9 @@ None
 allowed
 =
 None
+maxNumRecordedFrames
+=
+None
 )
 :
         
@@ -154,6 +157,10 @@ self
 .
 maxNumRecordedFrames
 =
+maxNumRecordedFrames
+if
+maxNumRecordedFrames
+else
 4
         
 self
@@ -1149,6 +1156,25 @@ utils
 .
 py
 "
+)
+            
+self
+.
+logger
+.
+info
+(
+"
+Allowed
+depth
+was
+%
+d
+"
+%
+self
+.
+maxNumRecordedFrames
 )
             
 for
