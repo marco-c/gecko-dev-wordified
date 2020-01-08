@@ -241,6 +241,9 @@ mConnection
 nsCString
 mAppName
 ;
+nsCString
+mPathName
+;
 }
 ;
 #
