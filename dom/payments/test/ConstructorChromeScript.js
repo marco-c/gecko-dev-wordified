@@ -3809,12 +3809,6 @@ function
 (
 )
 {
-paymentSrv
-.
-cleanup
-(
-)
-;
 sendAsyncMessage
 (
 "
