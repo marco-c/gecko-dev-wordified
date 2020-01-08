@@ -92,7 +92,7 @@ const
 selectors
 :
 {
-getSources
+getSourceCount
 }
 getState
 }
@@ -185,14 +185,12 @@ download
 .
 is
 (
-getSources
+getSourceCount
 (
 getState
 (
 )
 )
-.
-size
 1
 "
 Only

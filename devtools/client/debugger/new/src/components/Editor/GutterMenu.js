@@ -1118,12 +1118,7 @@ props
 .
 selectedSource
 .
-get
-(
-"
 id
-"
-)
 :
 "
 "

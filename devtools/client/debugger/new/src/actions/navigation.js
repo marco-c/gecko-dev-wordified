@@ -487,6 +487,10 @@ waitForMs
 ;
 if
 (
+Object
+.
+keys
+(
 (
 0
 _sources
@@ -498,8 +502,9 @@ getState
 (
 )
 )
+)
 .
-size
+length
 =
 =
 0

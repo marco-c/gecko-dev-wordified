@@ -588,12 +588,7 @@ location
 url
 )
 .
-get
-(
-"
 id
-"
-)
 line
 :
 l

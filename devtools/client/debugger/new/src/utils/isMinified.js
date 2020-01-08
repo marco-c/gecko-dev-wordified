@@ -151,12 +151,7 @@ text
 =
 source
 .
-get
-(
-"
 text
-"
-)
 ;
 if
 (
