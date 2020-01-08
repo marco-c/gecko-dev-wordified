@@ -10292,6 +10292,7 @@ JS
 FormatStackDump
 (
 cx
+nullptr
 /
 *
 showArgs

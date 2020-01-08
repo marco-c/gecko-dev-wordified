@@ -2956,8 +2956,7 @@ source
 .
 *
 /
-JSString
-*
+UniqueChars
 DecompileArgument
 (
 JSContext

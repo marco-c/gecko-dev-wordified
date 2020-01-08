@@ -374,6 +374,7 @@ JS
 FormatStackDump
 (
 cx
+nullptr
 showArgs
 showLocals
 showThisProps

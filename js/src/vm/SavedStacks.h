@@ -3036,10 +3036,7 @@ get
 }
 }
 ;
-JS
-:
-:
-UniqueChars
+UTF8CharsZ
 BuildUTF8StackString
 (
 JSContext

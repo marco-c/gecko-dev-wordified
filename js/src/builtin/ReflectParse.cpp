@@ -19920,11 +19920,14 @@ return
 false
 ;
 filename
-=
-EncodeLatin1
+.
+reset
+(
+JS_EncodeString
 (
 cx
 str
+)
 )
 ;
 if

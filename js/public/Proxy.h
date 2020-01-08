@@ -4506,7 +4506,7 @@ reportErrorIfExceptionIsNotPending
 JSContext
 *
 cx
-HandleId
+jsid
 id
 )
 ;

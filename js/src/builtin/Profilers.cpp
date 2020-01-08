@@ -204,15 +204,6 @@ include
 "
 js
 /
-CharacterEncoding
-.
-h
-"
-#
-include
-"
-js
-/
 Utility
 .
 h
@@ -979,7 +970,9 @@ nullptr
 ;
 }
 return
-JS_EncodeStringToLatin1
+UniqueChars
+(
+JS_EncodeString
 (
 cx
 args
@@ -989,6 +982,7 @@ argi
 .
 toString
 (
+)
 )
 )
 ;
