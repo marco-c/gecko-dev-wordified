@@ -184,6 +184,7 @@ texture_cache
 {
 TextureCache
 TextureCacheHandle
+Eviction
 }
 ;
 use
@@ -1357,6 +1358,10 @@ UvRectKind
 :
 :
 Rect
+Eviction
+:
+:
+Auto
 )
 ;
 GlyphCacheEntry
