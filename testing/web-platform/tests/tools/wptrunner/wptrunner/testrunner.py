@@ -4424,6 +4424,18 @@ RunnerManagerState
 running
 )
         
+self
+.
+logger
+.
+debug
+(
+"
+Wait
+finished
+"
+)
+        
 #
 The
 browser
@@ -4437,24 +4449,12 @@ ensures
 we
 do
 any
+        
+#
 post
 -
 stop
-        
-#
 processing
-        
-self
-.
-logger
-.
-debug
-(
-"
-Wait
-finished
-"
-)
         
 return
 self
