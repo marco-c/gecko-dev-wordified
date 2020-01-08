@@ -29577,7 +29577,7 @@ pc
 -
 >
 lastYieldOffset
-JSMSG_YIELD_IN_DEFAULT
+JSMSG_YIELD_IN_PARAMETER
 )
 ;
 return
@@ -29603,7 +29603,7 @@ pc
 -
 >
 lastAwaitOffset
-JSMSG_AWAIT_IN_DEFAULT
+JSMSG_AWAIT_IN_PARAMETER
 )
 ;
 return
@@ -52064,7 +52064,7 @@ inParametersOfAsyncFunction
 {
 error
 (
-JSMSG_AWAIT_IN_DEFAULT
+JSMSG_AWAIT_IN_PARAMETER
 )
 ;
 return
@@ -52331,7 +52331,7 @@ pc
 -
 >
 lastYieldOffset
-JSMSG_YIELD_IN_DEFAULT
+JSMSG_YIELD_IN_PARAMETER
 )
 ;
 return
@@ -52357,7 +52357,7 @@ pc
 -
 >
 lastAwaitOffset
-JSMSG_AWAIT_IN_DEFAULT
+JSMSG_AWAIT_IN_PARAMETER
 )
 ;
 return

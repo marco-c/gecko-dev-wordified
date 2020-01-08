@@ -141,7 +141,7 @@ var
 summary
 =
 '
-JSMSG_AWAIT_IN_DEFAULT
+JSMSG_AWAIT_IN_PARAMETER
 error
 for
 incomplete
@@ -354,14 +354,14 @@ code
 SyntaxError
 "
 await
+expression
 can
 '
 t
 be
 used
 in
-default
-expression
+parameter
 "
 )
 ;
