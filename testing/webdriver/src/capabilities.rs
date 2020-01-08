@@ -1091,9 +1091,9 @@ x
 .
 contains
 (
-"
+'
 :
-"
+'
 )
 {
 return
@@ -3126,9 +3126,9 @@ name
 .
 contains
 (
-"
+'
 :
-"
+'
 )
 {
 if

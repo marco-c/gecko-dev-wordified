@@ -1803,9 +1803,9 @@ component
 .
 starts_with
 (
-"
+'
 {
-"
+'
 )
 {
 if
@@ -1814,9 +1814,9 @@ component
 .
 ends_with
 (
-"
+'
 }
-"
+'
 )
 {
 panic
