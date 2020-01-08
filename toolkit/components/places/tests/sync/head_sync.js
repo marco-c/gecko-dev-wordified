@@ -1081,11 +1081,6 @@ PlacesSyncUtils
 .
 bookmarks
 .
-DESCRIPTION_ANNO
-PlacesSyncUtils
-.
-bookmarks
-.
 SMART_BOOKMARKS_ANNO
 PlacesUtils
 .
