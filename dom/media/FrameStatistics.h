@@ -319,8 +319,6 @@ uint64_t
 aDecoded
 uint64_t
 aDropped
-uint64_t
-aPresented
 )
 :
 mParsedFrames
@@ -330,10 +328,6 @@ aParsed
 mDecodedFrames
 (
 aDecoded
-)
-mPresentedFrames
-(
-aPresented
 )
 mDroppedFrames
 (
@@ -699,7 +693,7 @@ any
 thread
 .
 void
-Accumulate
+NotifyDecodedFrames
 (
 const
 FrameStatisticsData
@@ -831,7 +825,7 @@ mFrameStats
 mFrameStats
 -
 >
-Accumulate
+NotifyDecodedFrames
 (
 mStats
 )
