@@ -11446,7 +11446,7 @@ GetContent
 )
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 )
