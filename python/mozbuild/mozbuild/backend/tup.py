@@ -7868,7 +7868,7 @@ cmd_key
 .
 join
 (
-outputs
+command
 )
             
 if
