@@ -641,9 +641,6 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
 "
 "
 firstrun_extra_legal_links

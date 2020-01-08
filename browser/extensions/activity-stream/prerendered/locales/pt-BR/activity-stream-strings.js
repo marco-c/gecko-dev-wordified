@@ -415,7 +415,7 @@ prefs_home_description
 :
 "
 Escolha
-qual
+que
 conte
 do
 voc
@@ -1073,10 +1073,13 @@ firstrun_invalid_input
 "
 :
 "
-Email
+Necess
+rio
+e
+-
+mail
 v
 lido
-requerido
 "
 "
 firstrun_extra_legal_links

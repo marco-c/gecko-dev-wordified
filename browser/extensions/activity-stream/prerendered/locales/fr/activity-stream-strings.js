@@ -1160,9 +1160,10 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Adresse
+lectronique
+valide
+requise
 "
 "
 firstrun_extra_legal_links

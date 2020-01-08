@@ -810,9 +810,6 @@ firstrun_form_header
 "
 :
 "
-Enter
-your
-email
 "
 "
 firstrun_form_sub_header
@@ -865,17 +862,12 @@ firstrun_terms_of_service
 "
 :
 "
-Terms
-of
-Service
 "
 "
 firstrun_privacy_notice
 "
 :
 "
-Privacy
-Notice
 "
 "
 firstrun_continue_to_login
