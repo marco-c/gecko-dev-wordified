@@ -4905,7 +4905,7 @@ values
 specified
 :
 :
-motion
+svg_path
 :
 :
 {

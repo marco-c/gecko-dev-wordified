@@ -834,6 +834,16 @@ use
 self
 :
 :
+svg_path
+:
+:
+SVGPathData
+;
+pub
+use
+self
+:
+:
 table
 :
 :
@@ -1107,6 +1117,10 @@ source_size_list
 pub
 mod
 svg
+;
+pub
+mod
+svg_path
 ;
 pub
 mod
