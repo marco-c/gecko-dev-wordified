@@ -1097,7 +1097,7 @@ kind
 ParseNode
 *
 name
-ParseNode
+ListNode
 *
 params
 ParseNode
@@ -1320,10 +1320,10 @@ ParseNode
 >
 appendDirectivesToBody
 (
-ParseNode
+ListNode
 *
 body
-ParseNode
+ListNode
 *
 directives
 )

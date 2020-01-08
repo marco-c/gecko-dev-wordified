@@ -17026,6 +17026,14 @@ lists
 left
 -
 >
+template
+as
+<
+ListNode
+>
+(
+)
+.
 appendWithoutOrderAssumption
 (
 right
@@ -28147,7 +28155,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 BinASTParser
@@ -28255,7 +28263,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 BinASTParser
@@ -37032,7 +37040,9 @@ iter
 postDefaultCases
 -
 >
-pn_head
+head
+(
+)
 ;
 while
 (
@@ -39706,10 +39716,9 @@ if
 declarators
 -
 >
-pn_count
-=
-=
-0
+empty
+(
+)
 )
 return
 raiseEmpty
@@ -42480,7 +42489,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 BinASTParser
@@ -42833,7 +42842,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 BinASTParser
@@ -42985,7 +42994,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 BinASTParser
@@ -43124,7 +43133,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 BinASTParser
@@ -43260,7 +43269,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 BinASTParser
@@ -43379,7 +43388,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 BinASTParser
@@ -43498,7 +43507,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 BinASTParser
