@@ -31848,9 +31848,6 @@ ts
 ;
 if
 (
-false
-&
-&
 clock_gettime
 (
 CLOCK_MONOTONIC
