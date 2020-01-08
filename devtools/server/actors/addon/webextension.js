@@ -442,7 +442,7 @@ addon
 ;
 this
 .
-id
+addonId
 =
 addon
 .
@@ -583,7 +583,7 @@ getByID
 (
 this
 .
-id
+addonId
 )
 ;
 return
@@ -597,7 +597,7 @@ id
 :
 this
 .
-id
+addonId
 name
 :
 this
@@ -696,7 +696,7 @@ getExtensionManifestWarnings
 (
 this
 .
-id
+addonId
 )
 }
 ;
@@ -906,7 +906,7 @@ id
 =
 this
 .
-id
+addonId
 )
 {
 return
@@ -992,7 +992,7 @@ addonId
 =
 parentActor
 .
-id
+addonId
 ;
 this
 .

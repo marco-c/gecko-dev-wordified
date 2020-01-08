@@ -721,7 +721,7 @@ addonId
 {
 this
 .
-id
+addonId
 =
 addonId
 ;
@@ -982,7 +982,7 @@ addonId
 :
 this
 .
-id
+addonId
 }
 ;
 this
@@ -1200,7 +1200,7 @@ null
 ;
 this
 .
-id
+addonId
 =
 null
 ;
@@ -1524,7 +1524,7 @@ addonId
 =
 this
 .
-id
+addonId
 )
 {
 return
@@ -1803,7 +1803,7 @@ addonId
 =
 this
 .
-id
+addonId
 )
 {
 /
@@ -2149,7 +2149,7 @@ addonID
 =
 this
 .
-id
+addonId
 |
 |
 windowDetails
@@ -2160,7 +2160,7 @@ sameTypeRootAddonID
 =
 this
 .
-id
+addonId
 ;
 }
 )
@@ -2188,7 +2188,7 @@ addonId
 =
 this
 .
-id
+addonId
 ;
 }
 ;
@@ -2545,7 +2545,7 @@ addonID
 =
 this
 .
-id
+addonId
 ;
 }
 catch
@@ -2833,7 +2833,7 @@ addonID
 =
 this
 .
-id
+addonId
 ;
 }
 }
