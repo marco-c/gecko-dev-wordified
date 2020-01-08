@@ -130,10 +130,7 @@ use
 error_reporting
 :
 :
-{
 ContextualParseError
-ParseErrorReporter
-}
 ;
 use
 parser
@@ -142,7 +139,6 @@ parser
 {
 Parse
 ParserContext
-ParserErrorContext
 }
 ;
 use
@@ -609,7 +605,6 @@ parse_counter_style_body
 i
 '
 t
-R
 >
 (
 name
@@ -619,13 +614,6 @@ context
 :
 &
 ParserContext
-error_context
-:
-&
-ParserErrorContext
-<
-R
->
 input
 :
 &
@@ -652,10 +640,6 @@ ParseError
 i
 >
 >
-where
-R
-:
-ParseErrorReporter
 {
 let
 start
@@ -756,7 +740,6 @@ context
 .
 log_css_error
 (
-error_context
 location
 error
 )
@@ -991,7 +974,6 @@ context
 .
 log_css_error
 (
-error_context
 start
 error
 )

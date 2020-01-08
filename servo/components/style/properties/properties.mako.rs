@@ -10120,6 +10120,7 @@ ParsingMode
 :
 DEFAULT
 quirks_mode
+None
 )
 ;
 let
