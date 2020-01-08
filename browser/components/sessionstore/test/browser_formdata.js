@@ -550,8 +550,7 @@ utf
 8
 <
 input
-%
-20id
+id
 =
 input
 >
@@ -919,8 +918,7 @@ utf
 8
 <
 input
-%
-20autofocus
+autofocus
 =
 true
 >
