@@ -5,6 +5,22 @@ config
 {
     
 '
+default_actions
+'
+:
+[
+        
+'
+clobber
+'
+        
+'
+build
+'
+    
+]
+    
+'
 stage_platform
 '
 :
@@ -207,6 +223,18 @@ bin
 #
     
 }
+    
+'
+mozconfig_variant
+'
+:
+'
+cross
+-
+noopt
+-
+debug
+'
     
 '
 artifact_flag_build_variant_in_try
