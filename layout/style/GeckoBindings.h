@@ -414,11 +414,6 @@ aPtr
 )
 ;
 }
-extern
-"
-C
-"
-{
 class
 ServoBundledURI
 {
@@ -486,6 +481,11 @@ mExtraData
 ;
 }
 ;
+extern
+"
+C
+"
+{
 /
 /
 Debugging
@@ -1360,6 +1360,8 @@ RawServoAnimationValueTableBorrowed
 to
 avoid
 exposing
+/
+/
 nsRefPtrHashtable
 in
 FFI
@@ -2456,12 +2458,12 @@ or
 mCounterResets
 field
 in
+/
+/
 nsStyleContent
 .
 This
 is
-/
-/
 needed
 to
 run
@@ -2471,6 +2473,8 @@ otherwise
 we
 '
 d
+/
+/
 leak
 the
 images
@@ -4128,6 +4132,7 @@ Gecko_CopyConstruct_nsStyle
 #
 name
 (
+\
 nsStyle
 #
 #
