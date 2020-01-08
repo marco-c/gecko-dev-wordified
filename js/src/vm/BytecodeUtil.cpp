@@ -18056,16 +18056,9 @@ if
 !
 res
 )
-{
-JS_ReportOutOfMemory
-(
-cx
-)
-;
 return
 nullptr
 ;
-}
 js_memcpy
 (
 res

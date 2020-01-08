@@ -1086,16 +1086,9 @@ if
 !
 p
 )
-{
-JS_ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
-}
 JS_SetPrivate
 (
 obj

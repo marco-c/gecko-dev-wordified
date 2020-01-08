@@ -34705,16 +34705,9 @@ if
 !
 buf
 )
-{
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 nullptr
 ;
-}
 mozilla
 :
 :
