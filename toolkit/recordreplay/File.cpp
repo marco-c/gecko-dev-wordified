@@ -126,7 +126,7 @@ include
 "
 ipc
 /
-ChildIPC
+ChildInternal
 .
 h
 "
@@ -1157,6 +1157,9 @@ child
 :
 ReportFatalError
 (
+Nothing
+(
+)
 "
 Input
 Mismatch
