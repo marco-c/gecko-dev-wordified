@@ -7801,13 +7801,7 @@ dump
 is
 only
 supported
-for
-xpcshell
-/
-mochitest
-and
-                        
-#
+on
 Linux
 for
 the
@@ -7818,19 +7812,6 @@ being
 if
 not
 is_baseline_test
-and
-\
-                           
-suite_category
-in
-[
-'
-mochitest
-'
-'
-xpcshell
-'
-]
 and
 \
                            
