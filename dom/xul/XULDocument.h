@@ -837,12 +837,6 @@ nsAString
 aAttr
 )
 ;
-using
-nsDocument
-:
-:
-GetBoxObjectFor
-;
 protected
 :
 virtual
