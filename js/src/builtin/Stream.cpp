@@ -935,7 +935,6 @@ template
 class
 T
 >
-MOZ_ALWAYS_INLINE
 bool
 Is
 (
@@ -971,7 +970,6 @@ template
 class
 T
 >
-MOZ_ALWAYS_INLINE
 bool
 IsMaybeWrapped
 (
@@ -1641,7 +1639,6 @@ class
 T
 >
 static
-MOZ_ALWAYS_INLINE
 T
 *
 ToUnwrapped
@@ -1726,7 +1723,6 @@ class
 T
 >
 static
-MOZ_ALWAYS_INLINE
 T
 *
 ToUnwrapped
@@ -1883,7 +1879,6 @@ class
 T
 >
 static
-MOZ_ALWAYS_INLINE
 T
 *
 ToUnwrapped
@@ -2068,7 +2063,6 @@ class
 T
 >
 static
-MOZ_ALWAYS_INLINE
 T
 *
 ToUnwrapped
@@ -2249,7 +2243,6 @@ wrapper
 .
 *
 /
-MOZ_ALWAYS_INLINE
 static
 MOZ_MUST_USE
 ReadableStream
@@ -2514,7 +2507,6 @@ wrapper
 .
 *
 /
-MOZ_ALWAYS_INLINE
 static
 MOZ_MUST_USE
 ReadableStreamReader
