@@ -325,6 +325,11 @@ size
 )
 ;
 void
+NullOutImageBuffer
+(
+)
+;
+void
 NotifyListener
 (
 )
