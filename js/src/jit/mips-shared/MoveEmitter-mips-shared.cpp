@@ -219,6 +219,7 @@ i
 +
 +
 )
+{
 emit
 (
 moves
@@ -229,6 +230,7 @@ i
 )
 )
 ;
+}
 }
 Address
 MoveEmitterMIPSShared
@@ -314,6 +316,7 @@ base
 =
 StackPointer
 )
+{
 return
 operand
 .
@@ -321,6 +324,7 @@ disp
 (
 )
 ;
+}
 /
 /
 Adjust
@@ -448,6 +452,7 @@ isGeneralReg
 (
 )
 )
+{
 masm
 .
 movePtr
@@ -464,6 +469,7 @@ reg
 )
 )
 ;
+}
 else
 if
 (
@@ -473,6 +479,7 @@ isMemory
 (
 )
 )
+{
 masm
 .
 storePtr
@@ -488,7 +495,9 @@ to
 )
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -499,6 +508,7 @@ arguments
 "
 )
 ;
+}
 }
 else
 if
@@ -743,6 +753,7 @@ isGeneralReg
 (
 )
 )
+{
 masm
 .
 move32
@@ -759,6 +770,7 @@ reg
 )
 )
 ;
+}
 else
 if
 (
@@ -768,6 +780,7 @@ isMemory
 (
 )
 )
+{
 masm
 .
 store32
@@ -783,7 +796,9 @@ to
 )
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -794,6 +809,7 @@ arguments
 "
 )
 ;
+}
 }
 else
 if

@@ -2931,6 +2931,7 @@ isFloat
 (
 )
 )
+{
 loadInt32OrDouble
 (
 address
@@ -2941,7 +2942,9 @@ fpu
 )
 )
 ;
+}
 else
+{
 ma_lw
 (
 dest
@@ -2955,6 +2958,7 @@ address
 )
 )
 ;
+}
 }
 void
 loadUnboxedValue
@@ -2975,6 +2979,7 @@ isFloat
 (
 )
 )
+{
 loadInt32OrDouble
 (
 address
@@ -2993,7 +2998,9 @@ address
 scale
 )
 ;
+}
 else
+{
 load32
 (
 ToPayload
@@ -3007,6 +3014,7 @@ gpr
 )
 )
 ;
+}
 }
 template
 <
@@ -3274,12 +3282,14 @@ s0
 =
 d0
 )
+{
 move32
 (
 s0
 d0
 )
 ;
+}
 if
 (
 s1
@@ -3287,12 +3297,14 @@ s1
 =
 d1
 )
+{
 move32
 (
 s1
 d1
 )
 ;
+}
 }
 void
 storeValue
@@ -3518,6 +3530,7 @@ isGCThing
 (
 )
 )
+{
 push
 (
 ImmGCPtr
@@ -3530,7 +3543,9 @@ toGCThing
 )
 )
 ;
+}
 else
+{
 push
 (
 Imm32
@@ -3543,6 +3558,7 @@ toNunboxPayload
 )
 )
 ;
+}
 }
 void
 pushValue
@@ -3589,6 +3605,7 @@ isGCThing
 (
 )
 )
+{
 push
 (
 ImmGCPtr
@@ -3601,7 +3618,9 @@ toGCThing
 )
 )
 ;
+}
 else
+{
 push
 (
 Imm32
@@ -3614,6 +3633,7 @@ toNunboxPayload
 )
 )
 ;
+}
 push
 (
 Imm32

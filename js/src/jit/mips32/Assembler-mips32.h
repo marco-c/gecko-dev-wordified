@@ -281,9 +281,11 @@ usedArgSlots_
 =
 4
 )
+{
 return
 ShadowStackSpace
 ;
+}
 return
 usedArgSlots_
 *
@@ -1663,9 +1665,11 @@ usedIntArgs
 out
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Unfortunately
@@ -1710,9 +1714,11 @@ usedIntArgs
 =
 NumCallTempNonArgRegs
 )
+{
 return
 false
 ;
+}
 *
 out
 =

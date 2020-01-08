@@ -402,6 +402,7 @@ isMod
 (
 )
 )
+{
 return
 mir_
 -
@@ -415,6 +416,7 @@ canBeDivideByZero
 (
 )
 ;
+}
 return
 mir_
 -
@@ -444,6 +446,7 @@ isMod
 (
 )
 )
+{
 return
 mir_
 -
@@ -457,6 +460,7 @@ canBeNegativeDividend
 (
 )
 ;
+}
 return
 mir_
 -
@@ -507,6 +511,7 @@ isMod
 (
 )
 )
+{
 return
 mir_
 -
@@ -520,6 +525,7 @@ bytecodeOffset
 (
 )
 ;
+}
 return
 mir_
 -
@@ -682,6 +688,7 @@ isMod
 (
 )
 )
+{
 return
 mir_
 -
@@ -695,6 +702,7 @@ canBeDivideByZero
 (
 )
 ;
+}
 return
 mir_
 -
@@ -745,6 +753,7 @@ isMod
 (
 )
 )
+{
 return
 mir_
 -
@@ -758,6 +767,7 @@ bytecodeOffset
 (
 )
 ;
+}
 return
 mir_
 -

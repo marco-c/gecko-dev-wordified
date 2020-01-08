@@ -5333,12 +5333,14 @@ expectTailCall
 =
 NonTailCall
 )
+{
 masm
 .
 pushReturnAddress
 (
 )
 ;
+}
 /
 /
 We
@@ -5655,9 +5657,11 @@ masm
 f
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 setupUnalignedABICall
@@ -5730,6 +5734,7 @@ argPassedInFloatReg
 explicitArg
 )
 )
+{
 masm
 .
 passABIArg
@@ -5745,7 +5750,9 @@ MoveOp
 DOUBLE
 )
 ;
+}
 else
+{
 masm
 .
 passABIArg
@@ -5761,6 +5768,7 @@ MoveOp
 GENERAL
 )
 ;
+}
 argDisp
 +
 =
@@ -5858,6 +5866,7 @@ InvalidReg
 =
 outReg
 )
+{
 masm
 .
 passABIArg
@@ -5865,6 +5874,7 @@ passABIArg
 outReg
 )
 ;
+}
 masm
 .
 callWithABI
@@ -5891,9 +5901,11 @@ masm
 f
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Test

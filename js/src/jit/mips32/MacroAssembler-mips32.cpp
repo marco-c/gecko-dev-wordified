@@ -1986,6 +1986,7 @@ ZeroExtend
 =
 extension
 )
+{
 as_lbu
 (
 dest
@@ -1993,7 +1994,9 @@ base
 encodedOffset
 )
 ;
+}
 else
+{
 as_lb
 (
 dest
@@ -2001,6 +2004,7 @@ base
 encodedOffset
 )
 ;
+}
 break
 ;
 case
@@ -2013,6 +2017,7 @@ ZeroExtend
 =
 extension
 )
+{
 as_lhu
 (
 dest
@@ -2020,7 +2025,9 @@ base
 encodedOffset
 )
 ;
+}
 else
+{
 as_lh
 (
 dest
@@ -2028,6 +2035,7 @@ base
 encodedOffset
 )
 ;
+}
 break
 ;
 case
@@ -2866,10 +2874,12 @@ delaySlotFill
 =
 FillDelaySlot
 )
+{
 as_nop
 (
 )
 ;
+}
 return
 ;
 }
@@ -2976,6 +2986,7 @@ oom
 (
 )
 )
+{
 label
 -
 >
@@ -2988,6 +2999,7 @@ getOffset
 )
 )
 ;
+}
 /
 /
 Leave
@@ -3007,10 +3019,12 @@ delaySlotFill
 =
 FillDelaySlot
 )
+{
 as_nop
 (
 )
 ;
+}
 }
 void
 MacroAssemblerMIPS
@@ -3118,10 +3132,12 @@ IsInRange
 offset
 )
 )
+{
 jumpKind
 =
 ShortJump
 ;
+}
 if
 (
 jumpKind
@@ -3487,6 +3503,7 @@ oom
 (
 )
 )
+{
 label
 -
 >
@@ -3499,6 +3516,7 @@ getOffset
 )
 )
 ;
+}
 return
 ;
 }
@@ -3581,6 +3599,7 @@ oom
 (
 )
 )
+{
 label
 -
 >
@@ -3593,6 +3612,7 @@ getOffset
 )
 )
 ;
+}
 /
 /
 Leave
@@ -3614,10 +3634,12 @@ if
 (
 conditional
 )
+{
 as_nop
 (
 )
 ;
+}
 }
 void
 MacroAssemblerMIPSCompat
@@ -3745,6 +3767,7 @@ Assembler
 :
 GreaterThanOrEqual
 )
+{
 as_xori
 (
 dest
@@ -3752,6 +3775,7 @@ dest
 1
 )
 ;
+}
 break
 ;
 case
@@ -3803,6 +3827,7 @@ Assembler
 :
 LessThanOrEqual
 )
+{
 as_xori
 (
 dest
@@ -3810,6 +3835,7 @@ dest
 1
 )
 ;
+}
 break
 ;
 case
@@ -5737,6 +5763,7 @@ isDouble
 (
 )
 )
+{
 ma_ldc1WordAligned
 (
 f
@@ -5744,7 +5771,9 @@ StackPointer
 0
 )
 ;
+}
 else
+{
 as_lwc1
 (
 f
@@ -5752,6 +5781,7 @@ StackPointer
 0
 )
 ;
+}
 as_addiu
 (
 StackPointer
@@ -5794,6 +5824,7 @@ isDouble
 (
 )
 )
+{
 ma_sdc1WordAligned
 (
 f
@@ -5801,7 +5832,9 @@ StackPointer
 0
 )
 ;
+}
 else
+{
 as_swc1
 (
 f
@@ -5809,6 +5842,7 @@ StackPointer
 0
 )
 ;
+}
 }
 bool
 MacroAssemblerMIPSCompat
@@ -8175,6 +8209,7 @@ payloadReg
 =
 dest
 )
+{
 ma_move
 (
 dest
@@ -8185,6 +8220,7 @@ payloadReg
 )
 )
 ;
+}
 }
 void
 MacroAssemblerMIPSCompat
@@ -8780,6 +8816,7 @@ payloadReg
 (
 )
 )
+{
 ma_move
 (
 dest
@@ -8790,6 +8827,7 @@ payloadReg
 src
 )
 ;
+}
 ma_li
 (
 dest
@@ -9419,6 +9457,7 @@ isGCThing
 (
 )
 )
+{
 ma_li
 (
 data
@@ -9432,7 +9471,9 @@ toGCThing
 )
 )
 ;
+}
 else
+{
 ma_li
 (
 data
@@ -9446,6 +9487,7 @@ toNunboxPayload
 )
 )
 ;
+}
 }
 CodeOffsetJump
 MacroAssemblerMIPSCompat
@@ -10319,6 +10361,7 @@ payloadReg
 (
 )
 )
+{
 ma_move
 (
 dest
@@ -10329,6 +10372,7 @@ payloadReg
 payload
 )
 ;
+}
 }
 void
 MacroAssemblerMIPSCompat
@@ -12214,6 +12258,7 @@ imm32
 .
 value
 )
+{
 asMasm
 (
 )
@@ -12224,6 +12269,7 @@ imm32
 StackPointer
 )
 ;
+}
 }
 /
 /
@@ -12690,6 +12736,7 @@ has
 iter
 )
 )
+{
 as_ldc1
 (
 *
@@ -12699,6 +12746,7 @@ SecondScratchReg
 diffF
 )
 ;
+}
 diffF
 -
 =
@@ -12764,6 +12812,7 @@ has
 iter
 )
 )
+{
 loadPtr
 (
 Address
@@ -12775,6 +12824,7 @@ diffG
 iter
 )
 ;
+}
 }
 freeStack
 (
@@ -13340,8 +13390,10 @@ if
 !
 enoughMemory_
 )
+{
 return
 ;
+}
 MoveEmitter
 emitter
 (
@@ -13804,6 +13856,7 @@ payloadReg
 (
 )
 )
+{
 move32
 (
 reg
@@ -13818,6 +13871,7 @@ payloadReg
 )
 )
 ;
+}
 return
 ;
 }
@@ -14051,12 +14105,14 @@ s0
 =
 d0
 )
+{
 move32
 (
 s0
 d0
 )
 ;
+}
 if
 (
 s1
@@ -14064,12 +14120,14 @@ s1
 =
 d1
 )
+{
 move32
 (
 s1
 d1
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -14112,6 +14170,7 @@ isGCThing
 (
 )
 )
+{
 movePtr
 (
 ImmGCPtr
@@ -14129,7 +14188,9 @@ payloadReg
 )
 )
 ;
+}
 else
+{
 move32
 (
 Imm32
@@ -14147,6 +14208,7 @@ payloadReg
 )
 )
 ;
+}
 }
 /
 /
@@ -14784,6 +14846,7 @@ valueType
 =
 slotType
 )
+{
 storeTypeTag
 (
 ImmType
@@ -14796,6 +14859,7 @@ valueType
 dest
 )
 ;
+}
 /
 /
 Store
@@ -14810,6 +14874,7 @@ constant
 (
 )
 )
+{
 storePayload
 (
 value
@@ -14820,7 +14885,9 @@ value
 dest
 )
 ;
+}
 else
+{
 storePayload
 (
 value
@@ -14839,6 +14906,7 @@ gpr
 dest
 )
 ;
+}
 }
 template
 void
@@ -15700,6 +15768,7 @@ if
 !
 isSigned
 )
+{
 asMasm
 (
 )
@@ -15715,7 +15784,9 @@ output
 high
 )
 ;
+}
 else
+{
 asMasm
 (
 )
@@ -15734,6 +15805,7 @@ Imm32
 )
 )
 ;
+}
 }
 else
 {
@@ -15859,6 +15931,7 @@ if
 !
 isSigned
 )
+{
 asMasm
 (
 )
@@ -15874,7 +15947,9 @@ output
 high
 )
 ;
+}
 else
+{
 asMasm
 (
 )
@@ -15893,6 +15968,7 @@ Imm32
 )
 )
 ;
+}
 }
 else
 {

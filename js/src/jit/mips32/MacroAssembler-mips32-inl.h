@@ -318,6 +318,7 @@ low
 =
 dest
 )
+{
 move32
 (
 src
@@ -326,6 +327,7 @@ low
 dest
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -348,6 +350,7 @@ dest
 .
 low
 )
+{
 move32
 (
 src
@@ -356,6 +359,7 @@ dest
 low
 )
 ;
+}
 move32
 (
 Imm32
@@ -447,6 +451,7 @@ dest
 .
 low
 )
+{
 move32
 (
 src
@@ -455,6 +460,7 @@ dest
 low
 )
 ;
+}
 ma_sra
 (
 dest
@@ -605,6 +611,7 @@ int32_t
 0xFFFFFFFF
 )
 )
+{
 and32
 (
 imm
@@ -617,6 +624,7 @@ dest
 low
 )
 ;
+}
 if
 (
 imm
@@ -633,6 +641,7 @@ int32_t
 0xFFFFFFFF
 )
 )
+{
 and32
 (
 imm
@@ -645,6 +654,7 @@ dest
 high
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -701,6 +711,7 @@ low
 .
 value
 )
+{
 or32
 (
 imm
@@ -713,6 +724,7 @@ dest
 low
 )
 ;
+}
 if
 (
 imm
@@ -723,6 +735,7 @@ hi
 .
 value
 )
+{
 or32
 (
 imm
@@ -735,6 +748,7 @@ dest
 high
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -758,6 +772,7 @@ low
 .
 value
 )
+{
 xor32
 (
 imm
@@ -770,6 +785,7 @@ dest
 low
 )
 ;
+}
 if
 (
 imm
@@ -780,6 +796,7 @@ hi
 .
 value
 )
+{
 xor32
 (
 imm
@@ -792,6 +809,7 @@ dest
 high
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -6023,11 +6041,13 @@ if
 (
 fail
 )
+{
 jump
 (
 fail
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -6072,11 +6092,13 @@ if
 (
 fail
 )
+{
 jump
 (
 fail
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -6811,6 +6833,7 @@ Assembler
 :
 Equal
 )
+{
 branchTestMagic
 (
 Assembler
@@ -6822,7 +6845,9 @@ valaddr
 notMagic
 )
 ;
+}
 else
+{
 branchTestMagic
 (
 Assembler
@@ -6833,6 +6858,7 @@ valaddr
 label
 )
 ;
+}
 branch32
 (
 cond
@@ -7104,6 +7130,7 @@ address
 .
 offset
 )
+{
 asMasm
 (
 )
@@ -7119,6 +7146,7 @@ offset
 dest
 )
 ;
+}
 }
 void
 MacroAssemblerMIPSCompat

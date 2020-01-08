@@ -213,6 +213,7 @@ usedArgSlots_
 destReg
 )
 )
+{
 current_
 =
 ABIArg
@@ -220,7 +221,9 @@ ABIArg
 destReg
 )
 ;
+}
 else
+{
 current_
 =
 ABIArg
@@ -231,6 +234,7 @@ usedArgSlots_
 )
 )
 ;
+}
 usedArgSlots_
 +
 +
@@ -265,10 +269,12 @@ if
 !
 usedArgSlots_
 )
+{
 firstArgFloat
 =
 true
 ;
+}
 contentType
 =
 (
@@ -300,6 +306,7 @@ usedArgSlots_
 destFReg
 )
 )
+{
 current_
 =
 ABIArg
@@ -315,7 +322,9 @@ contentType
 )
 )
 ;
+}
 else
+{
 current_
 =
 ABIArg
@@ -326,6 +335,7 @@ usedArgSlots_
 )
 )
 ;
+}
 usedArgSlots_
 +
 +
@@ -616,6 +626,7 @@ if
 (
 flushICache
 )
+{
 AutoFlushICache
 :
 :
@@ -632,6 +643,7 @@ size
 )
 )
 ;
+}
 }
 uintptr_t
 Assembler

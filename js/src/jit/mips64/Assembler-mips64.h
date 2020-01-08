@@ -239,9 +239,11 @@ usedArgSlots_
 =
 8
 )
+{
 return
 0
 ;
+}
 return
 (
 usedArgSlots_
@@ -1844,9 +1846,11 @@ usedIntArgs
 out
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Unfortunately
@@ -1891,9 +1895,11 @@ usedIntArgs
 =
 NumCallTempNonArgRegs
 )
+{
 return
 false
 ;
+}
 *
 out
 =
