@@ -122,6 +122,10 @@ self
 )
 :
         
+line_count
+=
+0
+        
 while
 True
 :
@@ -155,6 +159,11 @@ self
 next
 (
 )
+                
+line_count
++
+=
+1
             
 else
 :
@@ -165,7 +174,8 @@ reset_peek
 (
 )
                 
-break
+return
+line_count
     
 def
 peek_blank_lines
@@ -350,10 +360,9 @@ skip_inline_ws
 )
     
 def
-take_char_if
+expect_line_end
 (
 self
-ch
 )
 :
         
@@ -361,22 +370,34 @@ if
 self
 .
 ch
-=
-=
-ch
+is
+None
 :
             
-self
+#
+EOF
+is
+a
+valid
+line
+end
+in
+Fluent
 .
-next
-(
-)
             
 return
 True
         
 return
-False
+self
+.
+expect_char
+(
+'
+\
+n
+'
+)
     
 def
 take_char
@@ -470,28 +491,11 @@ cc
 )
     
 def
-is_entry_id_start
+is_identifier_start
 (
 self
 )
 :
-        
-if
-self
-.
-current_is
-(
-'
--
-'
-)
-:
-            
-self
-.
-peek
-(
-)
         
 ch
 =
@@ -599,7 +603,7 @@ in
 SPECIAL_LINE_START_CHARS
     
 def
-is_peek_pattern_start
+is_peek_value_start
 (
 self
 )
@@ -650,7 +654,7 @@ True
 return
 self
 .
-is_peek_next_line_pattern_start
+is_peek_next_line_value
 (
 )
     
@@ -824,7 +828,7 @@ current_peek_is
                 
 if
 i
-!
+<
 =
 level
 and
@@ -1124,7 +1128,7 @@ return
 False
     
 def
-is_peek_next_line_pattern_start
+is_peek_next_line_value
 (
 self
 )
@@ -1281,8 +1285,19 @@ or
                    
 self
 .
-is_entry_id_start
+is_identifier_start
 (
+)
+or
+\
+                   
+self
+.
+current_is
+(
+'
+-
+'
 )
 or
 \
@@ -1353,33 +1368,8 @@ def
 take_id_start
 (
 self
-allow_term
 )
 :
-        
-if
-allow_term
-and
-self
-.
-current_is
-(
-'
--
-'
-)
-:
-            
-self
-.
-next
-(
-)
-            
-return
-'
--
-'
         
 if
 self
@@ -1407,34 +1397,19 @@ next
 return
 ret
         
-allowed_range
-=
-'
-a
--
-zA
--
-Z
--
-'
-if
-allow_term
-else
-'
-a
--
-zA
--
-Z
-'
-        
 raise
 ParseError
 (
 '
 E0004
 '
-allowed_range
+'
+a
+-
+zA
+-
+Z
+'
 )
     
 def
@@ -1647,6 +1622,89 @@ cc
 =
 57
 )
+        
+return
+self
+.
+take_char
+(
+closure
+)
+    
+def
+take_hex_digit
+(
+self
+)
+:
+        
+def
+closure
+(
+ch
+)
+:
+            
+cc
+=
+ord
+(
+ch
+)
+            
+return
+(
+                
+(
+cc
+>
+=
+48
+and
+cc
+<
+=
+57
+)
+#
+0
+-
+9
+                
+or
+(
+cc
+>
+=
+65
+and
+cc
+<
+=
+70
+)
+#
+A
+-
+F
+                
+or
+(
+cc
+>
+=
+97
+and
+cc
+<
+=
+102
+)
+)
+#
+a
+-
+f
         
 return
 self

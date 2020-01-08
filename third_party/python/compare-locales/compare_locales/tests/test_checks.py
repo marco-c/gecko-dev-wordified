@@ -65,6 +65,14 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+from
+__future__
+import
+unicode_literals
 import
 unittest
 from
@@ -87,6 +95,14 @@ compare_locales
 paths
 import
 File
+import
+six
+from
+six
+.
+moves
+import
+range
 class
 BaseHelper
 (
@@ -282,6 +298,7 @@ properties
     
 refContent
 =
+b
 '
 '
 '
@@ -303,6 +320,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -329,7 +347,7 @@ self
 .
 _test
 (
-r
+br
 '
 '
 '
@@ -391,6 +409,7 @@ properties
     
 refContent
 =
+b
 '
 '
 '
@@ -470,6 +489,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -558,6 +578,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -662,6 +683,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -785,6 +807,7 @@ GB
     
 refContent
 =
+b
 '
 '
 '
@@ -859,6 +882,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -892,6 +916,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -936,6 +961,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1001,6 +1027,7 @@ dtd
     
 refContent
 =
+b
 '
 '
 '
@@ -1104,6 +1131,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1161,7 +1189,6 @@ self
 .
 _test
 (
-u
 '
 '
 '
@@ -1199,7 +1226,6 @@ warning
 0
 0
 )
-u
 '
 Referencing
 unknown
@@ -1224,6 +1250,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1276,6 +1303,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1329,6 +1357,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1384,6 +1413,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1423,6 +1453,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1452,6 +1483,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1509,6 +1541,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1554,6 +1587,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1600,6 +1634,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1639,6 +1674,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1685,6 +1721,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1725,6 +1762,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1787,6 +1825,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1810,6 +1849,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1840,6 +1880,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1883,6 +1924,7 @@ dtd
     
 refContent
 =
+b
 '
 '
 '
@@ -1950,6 +1992,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -1969,6 +2012,7 @@ brandShorterName
 '
 '
 '
+                   
 tuple
 (
 )
@@ -1985,6 +2029,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -2047,6 +2092,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -2121,6 +2167,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -2157,6 +2204,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -2227,6 +2275,7 @@ self
 .
 _test
 (
+b
 '
 '
 '
@@ -2329,7 +2378,6 @@ module
     
 apos_msg
 =
-u
 "
 Apostrophes
 in
@@ -2346,7 +2394,6 @@ or
 +
 \
                
-u
 "
 \
 \
@@ -2365,7 +2412,6 @@ quotes
     
 quot_msg
 =
-u
 "
 Quotes
 in
@@ -2383,7 +2429,6 @@ or
 +
 \
                
-u
 "
 \
 \
@@ -2445,6 +2490,29 @@ self
 v
 )
 :
+        
+if
+isinstance
+(
+v
+six
+.
+binary_type
+)
+:
+            
+v
+=
+v
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
         
 v
 =
@@ -2715,7 +2783,7 @@ quoted
 for
 i
 in
-xrange
+range
 (
 3
 )
@@ -3449,6 +3517,7 @@ self
 .
 getDTDEntity
 (
+b
 "
 Some
 broken
@@ -3511,7 +3580,6 @@ self
 .
 getDTDEntity
 (
-u
 "
 \
 u9690
@@ -3521,6 +3589,7 @@ u9690
 +
 "
 \
+\
 u006
 "
 +
@@ -3528,6 +3597,7 @@ u006
 "
 +
 "
+\
 \
 u0064
 "
@@ -4094,6 +4164,7 @@ p
 .
 readContents
 (
+b
 '
 <
 !

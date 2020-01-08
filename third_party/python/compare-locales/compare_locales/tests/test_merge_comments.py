@@ -126,7 +126,7 @@ Bar
         
 self
 .
-assertMultiLineEqual
+assertEqual
 (
             
 merge_channels
@@ -206,7 +206,7 @@ Bar
         
 self
 .
-assertMultiLineEqual
+assertEqual
 (
             
 merge_channels
@@ -290,7 +290,7 @@ Bar
         
 self
 .
-assertMultiLineEqual
+assertEqual
 (
             
 merge_channels
@@ -386,7 +386,7 @@ Foo
         
 self
 .
-assertMultiLineEqual
+assertEqual
 (
             
 merge_channels
@@ -466,7 +466,7 @@ Foo
         
 self
 .
-assertMultiLineEqual
+assertEqual
 (
             
 merge_channels
@@ -550,7 +550,7 @@ Foo
         
 self
 .
-assertMultiLineEqual
+assertEqual
 (
             
 merge_channels
@@ -636,7 +636,7 @@ Foo
         
 self
 .
-assertMultiLineEqual
+assertEqual
 (
             
 merge_channels
@@ -721,7 +721,7 @@ Bar
         
 self
 .
-assertMultiLineEqual
+assertEqual
 (
             
 merge_channels
@@ -810,7 +810,7 @@ Bar
         
 self
 .
-assertMultiLineEqual
+assertEqual
 (
             
 merge_channels
