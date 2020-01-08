@@ -326,13 +326,11 @@ ChromeUtils
 import
 (
 "
-chrome
+resource
 :
 /
 /
 mozscreenshots
-/
-content
 /
 TestRunner
 .
