@@ -1,5 +1,14 @@
+/
+/
+|
+jit
+-
+test
+|
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -7,10 +16,6 @@ oomTest
 '
 in
 this
-)
-)
-quit
-(
 )
 var
 dbg

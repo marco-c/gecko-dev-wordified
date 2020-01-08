@@ -8,8 +8,11 @@ test
 exitstatus
 :
 3
+;
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -18,12 +21,6 @@ oomAfterAllocations
 in
 this
 )
-)
-quit
-(
-3
-)
-;
 var
 g
 =

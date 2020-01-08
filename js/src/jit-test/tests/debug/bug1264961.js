@@ -7,8 +7,10 @@ test
 |
 slow
 ;
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -17,11 +19,6 @@ oomTest
 in
 this
 )
-)
-quit
-(
-)
-;
 loadFile
 (
 var
