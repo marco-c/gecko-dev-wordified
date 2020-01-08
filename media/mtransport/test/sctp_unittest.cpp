@@ -903,7 +903,7 @@ loopback_
 )
 )
 ;
-flow_
+loopback_
 -
 >
 SignalPacketReceived
@@ -1263,12 +1263,15 @@ TransportFlow
 >
 &
 flow
+TransportLayer
+*
+layer
 )
 {
 TransportResult
 res
 =
-flow
+layer
 -
 >
 SendPacket
@@ -1429,6 +1432,7 @@ SendPacket_s
 buffer
 len
 flow_
+loopback_
 )
 NS_DISPATCH_NORMAL
 )
@@ -1440,9 +1444,9 @@ return
 void
 PacketReceived
 (
-TransportFlow
+TransportLayer
 *
-flow
+layer
 const
 unsigned
 char

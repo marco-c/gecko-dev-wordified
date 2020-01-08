@@ -941,9 +941,9 @@ remoteport
 void
 CompleteConnect
 (
-TransportFlow
+TransportLayer
 *
-flow
+layer
 TransportLayer
 :
 :
@@ -1308,9 +1308,9 @@ release
 void
 SctpDtlsInput
 (
-TransportFlow
+TransportLayer
 *
-flow
+layer
 const
 unsigned
 char
@@ -1995,6 +1995,10 @@ RefPtr
 TransportFlow
 >
 mTransportFlow
+;
+TransportLayerDtls
+*
+mDtls
 ;
 nsCOMPtr
 <
