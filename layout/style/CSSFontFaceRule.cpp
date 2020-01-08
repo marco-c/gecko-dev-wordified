@@ -119,7 +119,9 @@ include
 "
 mozilla
 /
-ServoFontFaceRule
+dom
+/
+CSSFontFaceRule
 .
 h
 "
@@ -210,7 +212,7 @@ dom
 -
 /
 /
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 and
 related
 routines
@@ -221,10 +223,10 @@ routines
 QueryInterface
 implementation
 for
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 NS_INTERFACE_MAP_BEGIN
 (
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 )
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRY
@@ -306,14 +308,14 @@ else
 NS_INTERFACE_MAP_END
 NS_IMPL_ADDREF_USING_AGGREGATOR
 (
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 ContainingRule
 (
 )
 )
 NS_IMPL_RELEASE_USING_AGGREGATOR
 (
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 ContainingRule
 (
 )
@@ -327,7 +329,7 @@ GetPropertyValue
 and
 RemovePropertyValue
 void
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 GetPropertyValue
@@ -359,7 +361,7 @@ aResult
 ;
 }
 void
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 GetCssText
@@ -384,7 +386,7 @@ aCssText
 ;
 }
 void
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 SetCssText
@@ -414,7 +416,7 @@ bug
 443978
 }
 NS_IMETHODIMP
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 GetPropertyValue
@@ -451,7 +453,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 RemoveProperty
@@ -529,7 +531,7 @@ NS_OK
 ;
 }
 void
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 GetPropertyPriority
@@ -561,7 +563,7 @@ Truncate
 ;
 }
 NS_IMETHODIMP
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 SetProperty
@@ -622,7 +624,7 @@ bug
 443978
 }
 uint32_t
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 Length
@@ -637,7 +639,7 @@ mRawRule
 ;
 }
 void
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 IndexedGetter
@@ -704,7 +706,7 @@ css
 :
 Rule
 *
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 GetParentRule
@@ -719,7 +721,7 @@ ContainingRule
 }
 nsINode
 *
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 GetParentObject
@@ -739,7 +741,7 @@ GetParentObject
 }
 JSObject
 *
-ServoFontFaceRuleDecl
+CSSFontFaceRuleDecl
 :
 :
 WrapObject
@@ -817,16 +819,16 @@ aGivenProto
 -
 /
 /
-ServoFontFaceRule
+CSSFontFaceRule
 /
 /
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-ServoFontFaceRule
+CSSFontFaceRule
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
-ServoFontFaceRule
+CSSFontFaceRule
 mozilla
 :
 :
@@ -894,7 +896,7 @@ aClosure
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-ServoFontFaceRule
+CSSFontFaceRule
 mozilla
 :
 :
@@ -968,7 +970,7 @@ p
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-ServoFontFaceRule
+CSSFontFaceRule
 mozilla
 :
 :
@@ -988,7 +990,7 @@ IsCCLeaf
 .
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 bool
-ServoFontFaceRule
+CSSFontFaceRule
 :
 :
 IsCCLeaf
@@ -1022,7 +1024,7 @@ PreservingWrapper
 }
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED_0
 (
-ServoFontFaceRule
+CSSFontFaceRule
 mozilla
 :
 :
@@ -1035,7 +1037,7 @@ Rule
 ifdef
 DEBUG
 void
-ServoFontFaceRule
+CSSFontFaceRule
 :
 :
 List
@@ -1105,7 +1107,7 @@ get
 #
 endif
 uint16_t
-ServoFontFaceRule
+CSSFontFaceRule
 :
 :
 Type
@@ -1121,7 +1123,7 @@ FONT_FACE_RULE
 ;
 }
 void
-ServoFontFaceRule
+CSSFontFaceRule
 :
 :
 GetCssText
@@ -1150,7 +1152,7 @@ aCssText
 }
 nsICSSDeclaration
 *
-ServoFontFaceRule
+CSSFontFaceRule
 :
 :
 Style
@@ -1168,7 +1170,7 @@ virtual
 *
 /
 size_t
-ServoFontFaceRule
+CSSFontFaceRule
 :
 :
 SizeOfIncludingThis
@@ -1192,7 +1194,7 @@ virtual
 /
 JSObject
 *
-ServoFontFaceRule
+CSSFontFaceRule
 :
 :
 WrapObject
