@@ -63,6 +63,12 @@ strict
 ;
 /
 *
+globals
+module
+*
+/
+/
+*
 *
 *
 This
@@ -197,9 +203,9 @@ the
 browser
 *
 /
-window
+module
 .
-DAMP_TESTS
+exports
 =
 [
 {
