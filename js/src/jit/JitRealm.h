@@ -1875,10 +1875,6 @@ uint8_t
 Baseline
 IC
 see
-SharedIC
-.
-h
-and
 BaselineIC
 .
 h
