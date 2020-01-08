@@ -12402,7 +12402,7 @@ ret
 .
 mChSize
 =
-ceil
+NS_round
 (
 aPresContext
 -
