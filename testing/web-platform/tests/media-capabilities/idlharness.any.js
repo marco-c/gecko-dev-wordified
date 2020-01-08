@@ -233,7 +233,7 @@ MediaCapabilities
 :
 [
 '
-navigatior
+navigator
 .
 mediaCapabilities
 '
