@@ -761,5 +761,13 @@ return
 prefValues
 ;
 }
+isOfficialBranding
+(
+)
+{
+return
+false
+;
+}
 }
 ;

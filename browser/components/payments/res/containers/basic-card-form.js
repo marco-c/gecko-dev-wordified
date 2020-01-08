@@ -1327,14 +1327,6 @@ dataset
 .
 acceptedCardsLabel
 ;
-this
-.
-acceptedCardsList
-.
-hidden
-=
-editing
-;
 /
 /
 The
