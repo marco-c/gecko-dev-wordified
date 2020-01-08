@@ -5374,24 +5374,14 @@ def
 activate_pipenv
 (
 self
-pipfile
-=
-None
+path
 args
 =
 None
-populate
-=
-False
 )
 :
         
 if
-pipfile
-is
-not
-None
-and
 not
 os
 .
@@ -5399,7 +5389,7 @@ path
 .
 exists
 (
-pipfile
+path
 )
 :
             
@@ -5416,7 +5406,7 @@ s
 .
 '
 %
-pipfile
+path
 )
         
 self
@@ -5431,9 +5421,8 @@ virtualenv_manager
 .
 activate_pipenv
 (
-pipfile
+path
 args
-populate
 )
 class
 MachCommandBase
