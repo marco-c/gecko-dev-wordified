@@ -378,7 +378,7 @@ const
 tran_low_t
 *
 input
-uint8_t
+uint16_t
 *
 dest
 int
@@ -396,7 +396,7 @@ const
 tran_low_t
 *
 input
-uint8_t
+uint16_t
 *
 dest
 int
@@ -414,7 +414,7 @@ const
 tran_low_t
 *
 input
-uint8_t
+uint16_t
 *
 dest
 int
@@ -432,7 +432,7 @@ const
 tran_low_t
 *
 input
-uint8_t
+uint16_t
 *
 dest
 int
@@ -450,7 +450,7 @@ const
 tran_low_t
 *
 input
-uint8_t
+uint16_t
 *
 dest
 int
@@ -470,7 +470,7 @@ const
 tran_low_t
 *
 input
-uint8_t
+uint16_t
 *
 dest
 int
@@ -490,7 +490,7 @@ const
 tran_low_t
 *
 input
-uint8_t
+uint16_t
 *
 dest
 int
@@ -510,7 +510,7 @@ const
 tran_low_t
 *
 input
-uint8_t
+uint16_t
 *
 dest
 int

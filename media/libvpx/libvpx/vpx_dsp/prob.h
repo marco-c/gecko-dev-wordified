@@ -294,7 +294,7 @@ int
 (
 (
 (
-int64_t
+uint64_t
 )
 num
 *

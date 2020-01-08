@@ -98,6 +98,15 @@ mkvwriter
 h
 "
 #
+include
+<
+sys
+/
+types
+.
+h
+>
+#
 ifdef
 _MSC_VER
 #

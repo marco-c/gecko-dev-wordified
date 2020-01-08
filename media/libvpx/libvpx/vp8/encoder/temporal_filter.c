@@ -198,6 +198,13 @@ h
 #
 include
 "
+temporal_filter
+.
+h
+"
+#
+include
+"
 vpx_mem
 /
 vpx_mem

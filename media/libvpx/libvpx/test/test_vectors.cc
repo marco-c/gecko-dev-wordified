@@ -5179,6 +5179,17 @@ big_superframe
 .
 webm
 "
+"
+vp90
+-
+2
+-
+22
+-
+svc_1280x720_1
+.
+webm
+"
 RESIZE_TEST_VECTORS
 }
 ;

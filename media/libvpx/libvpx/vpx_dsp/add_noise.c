@@ -129,6 +129,15 @@ h
 #
 include
 "
+vpx_dsp
+/
+postproc
+.
+h
+"
+#
+include
+"
 vpx_ports
 /
 mem

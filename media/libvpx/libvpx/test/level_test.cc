@@ -461,7 +461,7 @@ level_
 TEST_P
 (
 LevelTest
-TestTargetLevel11
+TestTargetLevel11Large
 )
 {
 ASSERT_NE
@@ -493,7 +493,7 @@ yuv
 30
 1
 0
-90
+60
 )
 ;
 target_level_
@@ -515,7 +515,7 @@ video
 )
 )
 ;
-ASSERT_EQ
+ASSERT_GE
 (
 target_level_
 level_
@@ -525,7 +525,7 @@ level_
 TEST_P
 (
 LevelTest
-TestTargetLevel20
+TestTargetLevel20Large
 )
 {
 ASSERT_NE
@@ -557,7 +557,7 @@ yuv
 30
 1
 0
-90
+60
 )
 ;
 target_level_
@@ -579,7 +579,7 @@ video
 )
 )
 ;
-ASSERT_EQ
+ASSERT_GE
 (
 target_level_
 level_
@@ -589,7 +589,7 @@ level_
 TEST_P
 (
 LevelTest
-TestTargetLevel31
+TestTargetLevel31Large
 )
 {
 ASSERT_NE
@@ -643,7 +643,7 @@ video
 )
 )
 ;
-ASSERT_EQ
+ASSERT_GE
 (
 target_level_
 level_
@@ -702,7 +702,7 @@ video
 )
 )
 ;
-ASSERT_EQ
+ASSERT_GE
 (
 11
 level_
@@ -723,7 +723,7 @@ video
 )
 )
 ;
-ASSERT_EQ
+ASSERT_GE
 (
 20
 level_
@@ -961,6 +961,12 @@ level
 =
 =
 0
+|
+|
+level
+=
+=
+1
 |
 |
 level

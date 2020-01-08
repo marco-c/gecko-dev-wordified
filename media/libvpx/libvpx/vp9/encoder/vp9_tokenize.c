@@ -1557,7 +1557,7 @@ vp9_cat6_low_cost
 }
 ;
 const
-int
+uint16_t
 vp9_cat6_high_cost
 [
 64
@@ -1634,7 +1634,7 @@ vp9_cat6_high_cost
 if
 CONFIG_VP9_HIGHBITDEPTH
 const
-int
+uint16_t
 vp9_cat6_high10_high_cost
 [
 256
@@ -1900,7 +1900,7 @@ vp9_cat6_high10_high_cost
 }
 ;
 const
-int
+uint16_t
 vp9_cat6_high12_high_cost
 [
 1024

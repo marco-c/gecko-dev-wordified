@@ -128,6 +128,17 @@ vp8
 /
 encoder
 /
+picklpf
+.
+h
+"
+#
+include
+"
+vp8
+/
+encoder
+/
 quantize
 .
 h

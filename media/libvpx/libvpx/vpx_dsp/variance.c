@@ -1233,7 +1233,7 @@ yoffset
 ;
 \
 \
-vpx_comp_avg_pred
+vpx_comp_avg_pred_c
 (
 temp3
 second_pred
@@ -2132,6 +2132,9 @@ return
 *
 sse
 -
+(
+uint32_t
+)
 (
 (
 (
@@ -3476,7 +3479,7 @@ yoffset
 ;
 \
 \
-vpx_highbd_comp_avg_pred
+vpx_highbd_comp_avg_pred_c
 (
 temp3
 second_pred
@@ -3637,7 +3640,7 @@ yoffset
 ;
 \
 \
-vpx_highbd_comp_avg_pred
+vpx_highbd_comp_avg_pred_c
 (
 temp3
 second_pred
@@ -3798,7 +3801,7 @@ yoffset
 ;
 \
 \
-vpx_highbd_comp_avg_pred
+vpx_highbd_comp_avg_pred_c
 (
 temp3
 second_pred

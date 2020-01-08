@@ -1635,10 +1635,9 @@ return
 sse
 -
 (
-(
-(
 uint32_t
 )
+(
 (
 (
 int64_t
@@ -1646,7 +1645,6 @@ int64_t
 sum
 *
 sum
-)
 )
 >
 >

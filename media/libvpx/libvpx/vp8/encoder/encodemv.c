@@ -198,12 +198,12 @@ x
 <
 mvnum_short
 )
+{
 /
 *
 Small
 *
 /
-{
 vp8_write
 (
 w
@@ -241,12 +241,12 @@ bit
 /
 }
 else
+{
 /
 *
 Large
 *
 /
-{
 int
 i
 =

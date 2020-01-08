@@ -921,6 +921,16 @@ else
 /
 Generic
 case
+assert
+(
+size
+%
+8
+=
+=
+0
+)
+;
 return
 vpx_sum_squares_2d_i16_nxn_sse2
 (

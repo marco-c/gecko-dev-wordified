@@ -310,6 +310,9 @@ WRAPLOW
 (
 dct_const_round_shift
 (
+(
+int16_t
+)
 input
 [
 0

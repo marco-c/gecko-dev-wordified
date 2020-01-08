@@ -8053,6 +8053,17 @@ rc_two_pass_vbrmin_section
 rc_two_pass_vbrmax_section
 *
 /
+0
+/
+/
+rc_2pass_vbr_corpus_complexity
+(
+only
+has
+meaningfull
+for
+VP9
+)
 /
 *
 keyframing

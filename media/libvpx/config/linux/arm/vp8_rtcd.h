@@ -1,3 +1,14 @@
+/
+/
+This
+file
+is
+generated
+.
+Do
+not
+edit
+.
 #
 ifndef
 VP8_RTCD_H_

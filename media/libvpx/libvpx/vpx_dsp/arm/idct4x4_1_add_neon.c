@@ -113,6 +113,17 @@ include
 "
 vpx_dsp
 /
+arm
+/
+mem_neon
+.
+h
+"
+#
+include
+"
+vpx_dsp
+/
 inv_txfm
 .
 h
@@ -272,6 +283,9 @@ WRAPLOW
 (
 dct_const_round_shift
 (
+(
+int16_t
+)
 input
 [
 0

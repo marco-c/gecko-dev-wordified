@@ -329,7 +329,7 @@ file
 *
 (
 (
-int
+char
 *
 )
 (

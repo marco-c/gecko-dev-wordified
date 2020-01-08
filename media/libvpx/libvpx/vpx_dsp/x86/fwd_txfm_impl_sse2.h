@@ -2385,9 +2385,6 @@ k__cospi_p16_p16
 =
 _mm_set1_epi16
 (
-(
-int16_t
-)
 cospi_16_64
 )
 ;
@@ -5213,9 +5210,6 @@ k__cospi_p16_p16
 =
 _mm_set1_epi16
 (
-(
-int16_t
-)
 cospi_16_64
 )
 ;
