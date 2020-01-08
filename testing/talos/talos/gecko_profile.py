@@ -138,6 +138,7 @@ self
 upload_dir
 browser_config
 test_config
+webrender_enabled
 )
 :
         
@@ -238,6 +239,18 @@ gecko_profile_threads
 '
 GeckoMain
 Compositor
+'
+        
+if
+webrender_enabled
+:
+            
+gecko_profile_threads
++
+=
+'
+WR
+Renderer
 '
         
 #
@@ -578,6 +591,22 @@ option
 (
 '
 entries
+'
+)
+)
+            
+'
+MOZ_PROFILER_STARTUP_FILTERS
+'
+:
+str
+(
+self
+.
+option
+(
+'
+threads
 '
 )
 )
