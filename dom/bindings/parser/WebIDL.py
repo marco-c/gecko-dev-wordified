@@ -19986,7 +19986,18 @@ isDictionary
 )
 :
             
-return
+dictionary
+=
+self
+.
+inner
+            
+while
+dictionary
+:
+                
+if
+not
 all
 (
 m
@@ -19999,12 +20010,23 @@ isJSONType
 for
 m
 in
-self
-.
-inner
+dictionary
 .
 members
 )
+:
+                    
+return
+False
+                
+dictionary
+=
+dictionary
+.
+parent
+            
+return
+True
         
 else
 :
