@@ -759,9 +759,8 @@ compartment
 )
 =
 =
-GetCompartmentForRealm
+compartment
 (
-realm_
 )
 ;
 }
@@ -1513,6 +1512,7 @@ any
 data
 in
 their
+realm
 compartment
 and
 zone
@@ -1525,6 +1525,8 @@ compartment
 const
 {
 return
+realm_
+?
 JS
 :
 :
@@ -1532,6 +1534,8 @@ GetCompartmentForRealm
 (
 realm_
 )
+:
+nullptr
 ;
 }
 JS

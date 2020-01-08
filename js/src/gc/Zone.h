@@ -1393,6 +1393,15 @@ shapeTables
 size_t
 *
 atomsMarkBitmaps
+size_t
+*
+compartmentObjects
+size_t
+*
+crossCompartmentWrappersTables
+size_t
+*
+compartmentsPrivateData
 )
 ;
 /
