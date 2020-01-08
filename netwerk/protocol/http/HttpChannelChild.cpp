@@ -2739,6 +2739,10 @@ const
 bool
 &
 aApplyConversion
+const
+ResourceTimingStruct
+&
+aTiming
 )
 :
 NeckoTargetChannelEvent
@@ -2820,6 +2824,10 @@ mLoadInfoForwarder
 (
 loadInfoForwarder
 )
+mTiming
+(
+aTiming
+)
 {
 }
 void
@@ -2869,6 +2877,7 @@ mCacheKey
 mAltDataType
 mAltDataLen
 mApplyConversion
+mTiming
 )
 ;
 }
@@ -2927,6 +2936,9 @@ mAltDataLen
 ;
 ParentLoadInfoForwarderArgs
 mLoadInfoForwarder
+;
+ResourceTimingStruct
+mTiming
 ;
 }
 ;
@@ -3018,6 +3030,10 @@ const
 bool
 &
 aApplyConversion
+const
+ResourceTimingStruct
+&
+aTiming
 )
 {
 LOG
@@ -3127,6 +3143,7 @@ cacheKey
 altDataType
 altDataLen
 aApplyConversion
+aTiming
 )
 )
 ;
@@ -3319,6 +3336,10 @@ const
 bool
 &
 aApplyConversion
+const
+ResourceTimingStruct
+&
+aTiming
 )
 {
 LOG
@@ -3633,6 +3654,10 @@ this
 mTracingEnabled
 =
 false
+;
+mTransactionTimings
+=
+aTiming
 ;
 DoOnStartRequest
 (

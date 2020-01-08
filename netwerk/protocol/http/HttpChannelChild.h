@@ -809,6 +809,10 @@ const
 bool
 &
 aApplyConversion
+const
+ResourceTimingStruct
+&
+aTiming
 )
 override
 ;
@@ -2412,6 +2416,10 @@ const
 bool
 &
 aApplyConversion
+const
+ResourceTimingStruct
+&
+aTiming
 )
 ;
 void
