@@ -913,6 +913,13 @@ nsIWebProgressListener
 :
 :
 STATE_COOKIES_BLOCKED_FOREIGN
+/
+/
+*
+nsIWebProgressListener
+:
+:
+STATE_BLOCKED_SLOW_TRACKING_CONTENT
 static
 void
 NotifyRejection
