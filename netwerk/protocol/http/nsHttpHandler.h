@@ -2456,9 +2456,6 @@ InitUserAgentComponents
 void
 PrefsChanged
 (
-nsIPrefBranch
-*
-prefs
 const
 char
 *
