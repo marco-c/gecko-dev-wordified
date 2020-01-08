@@ -215,17 +215,6 @@ LengthOrPercentage
 NonNegativeLength
 }
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 fn
 in_ua_or_chrome_sheet
 (

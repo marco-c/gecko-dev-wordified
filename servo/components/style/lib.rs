@@ -648,6 +648,17 @@ extern
 crate
 style_traits
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 extern
 crate
 thin_slice
