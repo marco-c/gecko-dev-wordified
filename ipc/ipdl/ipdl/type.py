@@ -157,6 +157,7 @@ args
         
 raise
 Exception
+(
 "
 INTERNAL
 ERROR
@@ -171,13 +172,14 @@ s
 '
 "
 %
+                        
 (
-            
 node
 .
 __class__
 .
 __name__
+)
 )
     
 def
@@ -4123,6 +4125,10 @@ named
 s
 '
 "
+#
+NOQA
+:
+E501
                        
 tu
 .
@@ -5857,6 +5863,10 @@ s
 '
 )
 "
+#
+NOQA
+:
+E501
                     
 mgdname
 p
@@ -6074,6 +6084,10 @@ type
 s
 '
 "
+#
+NOQA
+:
+E501
                 
 mgrname
 pname
@@ -7588,6 +7602,10 @@ s
 '
 provides
 "
+#
+NOQA
+:
+E501
                     
 pname
 mgrtype
@@ -7828,6 +7846,10 @@ protocol
 s
 '
 "
+#
+NOQA
+:
+E501
                 
 pname
 mgsname
@@ -7950,6 +7972,10 @@ protocol
 s
 '
 "
+#
+NOQA
+:
+E501
                 
 pname
 mgrname
@@ -8101,6 +8127,10 @@ s
 '
 )
 "
+#
+NOQA
+:
+E501
                 
 mname
 pname
@@ -8240,6 +8270,10 @@ s
 '
 provides
 "
+#
+NOQA
+:
+E501
                 
 mname
 pname
@@ -8407,6 +8441,10 @@ not
 async
 "
 %
+#
+NOQA
+:
+E501
                                  
 (
 mname

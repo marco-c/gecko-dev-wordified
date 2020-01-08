@@ -54,8 +54,6 @@ MPL
 /
 .
 import
-os
-import
 sys
 from
 ipdl
@@ -420,6 +418,10 @@ visitTranslationUnit
 self
 tu
 )
+#
+NOQA
+:
+F821
     
 def
 visitCxxInclude

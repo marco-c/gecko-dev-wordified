@@ -357,6 +357,7 @@ src
 '
 svnpath
 )
+                
 localpath
 ]
 )
