@@ -271,10 +271,6 @@ const
 bool
 ValidateRange
 (
-const
-char
-*
-funcName
 size_t
 byteOffset
 size_t
@@ -316,10 +312,6 @@ override
 bool
 ValidateCanBindToTarget
 (
-const
-char
-*
-funcName
 GLenum
 target
 )

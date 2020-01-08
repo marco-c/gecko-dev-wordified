@@ -288,10 +288,6 @@ ValidateSamplerParameterParams
 WebGLContext
 *
 webgl
-const
-char
-*
-funcName
 GLenum
 pname
 const
@@ -487,9 +483,8 @@ default
 webgl
 -
 >
-ErrorInvalidEnumArg
+ErrorInvalidEnumInfo
 (
-funcName
 "
 pname
 "
@@ -503,9 +498,8 @@ false
 webgl
 -
 >
-ErrorInvalidEnumArg
+ErrorInvalidEnumInfo
 (
-funcName
 "
 param
 "
@@ -522,10 +516,6 @@ WebGLSampler
 :
 SamplerParameter
 (
-const
-char
-*
-funcName
 GLenum
 pname
 const
@@ -540,7 +530,6 @@ if
 ValidateSamplerParameterParams
 (
 mContext
-funcName
 pname
 param
 )
