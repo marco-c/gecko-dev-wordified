@@ -1281,6 +1281,14 @@ NPAudioDeviceChangeDetails
 details
 )
 ;
+NPError
+AudioDeviceStateChanged
+(
+NPAudioDeviceStateChanged
+&
+aDeviceState
+)
+;
 #
 endif
 private
