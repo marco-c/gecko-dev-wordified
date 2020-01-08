@@ -4308,6 +4308,10 @@ status
 delete
 mzMappings
 ;
+mzMappings
+=
+NULL
+;
 uprv_free
 (
 entry

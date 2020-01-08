@@ -1424,6 +1424,9 @@ now
 .
 *
 internal
+(
+private
+)
 *
 /
 CanonicalIterator
@@ -1447,6 +1450,9 @@ now
 .
 *
 internal
+(
+private
+)
 *
 /
 CanonicalIterator

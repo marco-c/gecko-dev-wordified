@@ -649,7 +649,9 @@ ICU
 PATCH
 :
 Enable
-ARM
+ARM32
+&
+ARM64
 builds
 for
 Windows
@@ -658,6 +660,12 @@ with
 defined
 (
 _M_ARM
+)
+|
+|
+defined
+(
+_M_ARM64
 )
 '
 .
@@ -691,6 +699,12 @@ __avr32__
 defined
 (
 _M_ARM
+)
+|
+|
+defined
+(
+_M_ARM64
 )
 |
 |

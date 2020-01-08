@@ -325,6 +325,13 @@ ustr_cnv
 .
 h
 "
+#
+include
+"
+ucnv_bld
+.
+h
+"
 /
 *
 mutexed
@@ -528,6 +535,10 @@ converter
 )
 ;
 }
+ucnv_enableCleanup
+(
+)
+;
 umtx_lock
 (
 NULL

@@ -1232,6 +1232,9 @@ kMaxLinearMatchLength
 *
 *
 internal
+(
+private
+)
 *
 /
 class

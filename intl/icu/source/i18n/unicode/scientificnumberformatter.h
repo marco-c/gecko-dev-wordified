@@ -249,9 +249,6 @@ class
 FieldPositionIterator
 ;
 class
-DecimalFormatStaticSets
-;
-class
 DecimalFormatSymbols
 ;
 class
@@ -851,10 +848,6 @@ const
 UnicodeString
 &
 preExponent
-const
-DecimalFormatStaticSets
-&
-decimalFormatSets
 UnicodeString
 &
 appendTo
@@ -909,10 +902,6 @@ const
 UnicodeString
 &
 preExponent
-const
-DecimalFormatStaticSets
-&
-decimalFormatSets
 UnicodeString
 &
 appendTo
@@ -984,10 +973,6 @@ const
 UnicodeString
 &
 preExponent
-const
-DecimalFormatStaticSets
-&
-decimalFormatSets
 UnicodeString
 &
 appendTo
@@ -1077,11 +1062,6 @@ fDecimalFormat
 Style
 *
 fStyle
-;
-const
-DecimalFormatStaticSets
-*
-fStaticSets
 ;
 }
 ;

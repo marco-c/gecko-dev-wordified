@@ -617,7 +617,7 @@ ICU
 #
 define
 U_ICU_VERSION_MAJOR_NUM
-61
+62
 /
 *
 *
@@ -763,7 +763,7 @@ ICU
 #
 define
 U_ICU_VERSION_SUFFIX
-_61
+_62
 /
 *
 *
@@ -994,7 +994,7 @@ ICU
 define
 U_ICU_VERSION
 "
-61
+62
 .
 1
 "
@@ -1115,7 +1115,7 @@ ICU
 define
 U_ICU_VERSION_SHORT
 "
-61
+62
 "
 #
 ifndef
@@ -1144,7 +1144,7 @@ Only
 define
 U_ICU_DATA_VERSION
 "
-61
+62
 .
 1
 "

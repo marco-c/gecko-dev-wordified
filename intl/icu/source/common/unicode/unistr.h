@@ -16489,6 +16489,7 @@ src
 Move
 assignment
 operator
+;
 might
 leave
 src
@@ -16583,6 +16584,7 @@ API
 *
 Move
 assignment
+;
 might
 leave
 src
@@ -27601,6 +27603,7 @@ that
 *
 Move
 constructor
+;
 might
 leave
 src

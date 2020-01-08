@@ -2161,6 +2161,14 @@ UPROPS_PREPENDED_CONCATENATION_MARK
 )
 defaultContains
 }
+{
+2
+U_MASK
+(
+UPROPS_2_EXTENDED_PICTOGRAPHIC
+)
+defaultContains
+}
 }
 ;
 U_CAPI

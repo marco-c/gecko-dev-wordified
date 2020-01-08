@@ -3178,9 +3178,6 @@ status
 )
 )
 {
-delete
-result
-;
 return
 NULL
 ;
@@ -3255,9 +3252,6 @@ status
 )
 )
 {
-delete
-result
-;
 return
 NULL
 ;

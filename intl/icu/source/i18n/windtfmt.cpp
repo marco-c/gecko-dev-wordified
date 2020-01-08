@@ -2692,8 +2692,6 @@ icuid
 z
 )
 ;
-if
-(
 found
 =
 uprv_getWindowsTimeZoneInfo
@@ -2710,6 +2708,10 @@ length
 (
 )
 )
+;
+if
+(
+found
 )
 {
 break

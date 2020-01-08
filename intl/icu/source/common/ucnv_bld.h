@@ -2157,6 +2157,13 @@ UErrorCode
 pErrorCode
 )
 ;
+U_CAPI
+void
+U_EXPORT2
+ucnv_enableCleanup
+(
+)
+;
 #
 endif
 #
