@@ -16964,13 +16964,6 @@ NewSdpTest
 CheckDtlsMessage
 )
 {
-SKIP_TEST_WITH_RUST_PARSER
-;
-/
-/
-See
-Bug
-1432920
 ParseSdp
 (
 kBasicAudioVideoOffer
