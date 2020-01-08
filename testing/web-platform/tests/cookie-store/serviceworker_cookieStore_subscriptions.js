@@ -791,11 +791,13 @@ ExtendableEvent
 await
 async_cleanup
 (
+async
 (
 )
 =
 >
 {
+await
 cookieStore
 .
 delete
