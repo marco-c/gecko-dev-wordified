@@ -552,6 +552,11 @@ userContextId
 data
 .
 userContextId
+webExtContextData
+:
+data
+.
+webExtContextData
 }
 ;
 let
@@ -947,6 +952,15 @@ frameId
 this
 .
 frameOuterWindowID
+webExtContextData
+:
+gContextMenuContentData
+?
+gContextMenuContentData
+.
+webExtContextData
+:
+undefined
 }
 ;
 subject
@@ -1183,7 +1197,7 @@ from
 context
 sent
 by
-ContextMenu
+ContextMenuChild
 .
 jsm
 /
