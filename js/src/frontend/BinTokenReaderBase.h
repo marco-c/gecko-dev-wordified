@@ -807,6 +807,9 @@ return
 false
 ;
 }
+#
+ifndef
+FUZZING
 /
 /
 Perform
@@ -851,6 +854,8 @@ return
 false
 ;
 }
+#
+endif
 /
 /
 Looks
