@@ -394,6 +394,7 @@ expression
 :
 "
 x
+;
 "
 }
 ]
