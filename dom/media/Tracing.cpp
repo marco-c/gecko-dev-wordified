@@ -348,10 +348,6 @@ const
 char
 *
 aCategory
-const
-char
-*
-aComment
 uint64_t
 aDuration
 uint64_t
@@ -571,11 +567,11 @@ aLocation
 "
 perf
 "
-mComment
 durationUS
 mPID
 mTID
 aFrames
+aSampleRate
 )
 ;
 }
