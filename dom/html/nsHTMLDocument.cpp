@@ -9557,7 +9557,7 @@ the
 document
 '
 s
-compartment
+realm
 exactly
 matches
 NodePrincipal
@@ -9578,12 +9578,15 @@ GetWrapperPreserveColor
 MOZ_ASSERT_IF
 (
 wrapper
-JS_GetCompartmentPrincipals
+JS
+:
+:
+GetRealmPrincipals
 (
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 wrapper
 )
