@@ -350,11 +350,6 @@ foundValidMoof
 =
 false
 ;
-bool
-foundMdat
-=
-false
-;
 for
 (
 Box
@@ -4329,14 +4324,6 @@ ReadU32
 (
 )
 )
-;
-uint8_t
-version
-=
-flags
->
->
-24
 ;
 if
 (
