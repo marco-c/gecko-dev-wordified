@@ -7215,6 +7215,9 @@ GetType
 eStyleImageType_Image
 )
 {
+css
+:
+:
 URLValueData
 *
 url
