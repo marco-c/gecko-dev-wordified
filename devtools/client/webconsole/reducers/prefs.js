@@ -130,6 +130,9 @@ logLimit
 sidebarToggle
 :
 false
+jstermCodeMirror
+:
+false
 }
 overrides
 )
