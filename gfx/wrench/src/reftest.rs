@@ -3092,6 +3092,16 @@ self
 wrench
 )
 ;
+self
+.
+wrench
+.
+api
+.
+flush_scene_builder
+(
+)
+;
 /
 /
 wait
