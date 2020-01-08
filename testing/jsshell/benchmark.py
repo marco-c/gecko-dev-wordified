@@ -199,6 +199,9 @@ shell
 args
 =
 None
+shell_name
+=
+None
 )
 :
         
@@ -213,6 +216,12 @@ self
 args
 =
 args
+        
+self
+.
+shell_name
+=
+shell_name
     
 abstractproperty
     
@@ -458,6 +467,36 @@ runs
 "
 "
         
+name
+=
+self
+.
+name
+        
+if
+self
+.
+shell_name
+:
+            
+name
+=
+'
+{
+}
+-
+{
+}
+'
+.
+format
+(
+name
+self
+.
+shell_name
+)
+        
 self
 .
 perfherder_data
@@ -502,8 +541,6 @@ lower_is_better
 name
 '
 :
-self
-.
 name
                     
 '
@@ -2123,6 +2160,21 @@ self
 )
 :
         
+if
+os
+.
+path
+.
+isdir
+(
+self
+.
+path
+)
+:
+            
+return
+        
 #
 Some
 benchmarks
@@ -2278,7 +2330,7 @@ extra_args
 None
 perfherder
 =
-False
+None
 )
 :
     
@@ -2359,6 +2411,9 @@ binary
 args
 =
 extra_args
+shell_name
+=
+perfherder
 )
     
 res
@@ -2517,14 +2572,9 @@ add_argument
 -
 perfherder
 '
-action
-=
-'
-store_true
-'
 default
 =
-False
+None
                         
 help
 =
@@ -2533,6 +2583,11 @@ Log
 PERFHERDER_DATA
 to
 stdout
+using
+the
+given
+suite
+name
 .
 "
 )
