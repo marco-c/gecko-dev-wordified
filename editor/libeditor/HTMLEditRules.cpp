@@ -70009,8 +70009,11 @@ HTMLEditorRef
 (
 )
 .
-GetSelectionContainer
+GetSelectionContainerElement
 (
+SelectionRef
+(
+)
 )
 ;
 if
