@@ -4867,7 +4867,7 @@ platform
 =
 =
 "
-mac
+darwin
 "
 :
     
