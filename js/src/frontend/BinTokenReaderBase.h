@@ -128,6 +128,15 @@ include
 "
 frontend
 /
+ErrorReporter
+.
+h
+"
+#
+include
+"
+frontend
+/
 TokenStream
 .
 h
@@ -452,6 +461,9 @@ BinTokenReaderBase
 JSContext
 *
 cx
+ErrorReporter
+*
+er
 const
 uint8_t
 *
@@ -464,6 +476,10 @@ length
 cx_
 (
 cx
+)
+errorReporter_
+(
+er
 )
 poisoned_
 (
@@ -911,6 +927,10 @@ endif
 JSContext
 *
 cx_
+;
+ErrorReporter
+*
+errorReporter_
 ;
 /
 /

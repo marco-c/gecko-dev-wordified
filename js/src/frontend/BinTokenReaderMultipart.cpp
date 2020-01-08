@@ -382,6 +382,9 @@ BinTokenReaderMultipart
 JSContext
 *
 cx
+ErrorReporter
+*
+er
 const
 uint8_t
 *
@@ -394,6 +397,7 @@ length
 BinTokenReaderBase
 (
 cx
+er
 start
 length
 )
@@ -418,6 +422,11 @@ posBeforeTree_
 nullptr
 )
 {
+MOZ_ASSERT
+(
+er
+)
+;
 }
 JS
 :

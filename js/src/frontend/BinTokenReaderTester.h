@@ -552,6 +552,9 @@ BinTokenReaderTester
 JSContext
 *
 cx
+ErrorReporter
+*
+er
 const
 uint8_t
 *
@@ -585,6 +588,9 @@ BinTokenReaderTester
 JSContext
 *
 cx
+ErrorReporter
+*
+er
 const
 Vector
 <
