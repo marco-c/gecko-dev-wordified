@@ -62,14 +62,6 @@ mozilla
 .
 org
 "
-"
-workerbootstrap
--
-test
-mozilla
-.
-org
-"
 ]
 ;
 let
