@@ -57454,8 +57454,15 @@ if
 !
 iter_
 .
-readMemCopy
+readMemOrTableCopy
 (
+/
+*
+isMem
+=
+*
+/
+true
 &
 nothing
 &

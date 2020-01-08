@@ -16536,8 +16536,15 @@ iter
 (
 )
 .
-readMemCopy
+readMemOrTableCopy
 (
+/
+*
+isMem
+=
+*
+/
+true
 &
 dest
 &
