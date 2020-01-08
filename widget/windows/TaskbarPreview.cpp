@@ -688,7 +688,9 @@ false
 if
 (
 !
-mWnd
+IsWindowAvailable
+(
+)
 )
 return
 NS_OK
@@ -985,6 +987,12 @@ UpdateTaskbarProperties
 ;
 }
 else
+if
+(
+IsWindowAvailable
+(
+)
+)
 {
 WindowHook
 &
