@@ -23472,9 +23472,7 @@ asyncDispatcher
 new
 AsyncEventDispatcher
 (
-OwnerDoc
-(
-)
+this
 NS_LITERAL_STRING
 (
 "

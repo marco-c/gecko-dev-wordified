@@ -1318,6 +1318,12 @@ target
 dispatchEvent
 (
 new
+aEvent
+.
+target
+.
+ownerGlobal
+.
 CustomEvent
 (
 "
@@ -1432,6 +1438,12 @@ target
 dispatchEvent
 (
 new
+aEvent
+.
+target
+.
+ownerGlobal
+.
 CustomEvent
 (
 "
