@@ -306,9 +306,6 @@ dom
 MouseEvent
 *
 aEvent
-nsIContent
-*
-aTargetContent
 )
 ;
 /
@@ -351,9 +348,9 @@ event
 nsresult
 FireFocusOnTargetContent
 (
-nsIDOMNode
+nsIContent
 *
-aTargetNode
+aTargetContent
 bool
 aIsTouch
 )
