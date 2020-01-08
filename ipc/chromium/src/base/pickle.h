@@ -622,6 +622,15 @@ Pickle
 other
 )
 ;
+void
+CopyFrom
+(
+const
+Pickle
+&
+other
+)
+;
 /
 /
 Returns
