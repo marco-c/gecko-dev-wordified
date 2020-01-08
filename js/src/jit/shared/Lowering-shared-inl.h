@@ -1863,14 +1863,6 @@ MOZ_ASSERT
 lir
 -
 >
-isBinarySharedStub
-(
-)
-|
-|
-lir
--
->
 isNullarySharedStub
 (
 )
