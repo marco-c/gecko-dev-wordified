@@ -552,6 +552,11 @@ CompareInt32Result
 \
 _
 (
+CompareDoubleResult
+)
+\
+_
+(
 ArrayJoinResult
 )
 \
