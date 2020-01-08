@@ -1253,6 +1253,16 @@ document
 pub
 trait
 StylesheetInDocument
+:
+:
+:
+std
+:
+:
+fmt
+:
+:
+Debug
 {
 /
 /
@@ -1889,6 +1899,7 @@ StylesheetSet
 derive
 (
 Clone
+Debug
 )
 ]
 #
