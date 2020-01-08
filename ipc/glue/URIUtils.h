@@ -256,7 +256,6 @@ static
 bool
 Read
 (
-const
 IPC
 :
 :
