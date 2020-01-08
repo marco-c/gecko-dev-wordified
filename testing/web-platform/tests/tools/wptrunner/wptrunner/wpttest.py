@@ -501,6 +501,10 @@ browser_channel
 =
 None
                  
+verify
+=
+None
+                 
 extras
 =
 None
@@ -661,6 +665,33 @@ browser_channel
 ]
 =
 browser_channel
+        
+self
+[
+"
+verify
+"
+]
+=
+verify
+        
+if
+"
+wasm
+"
+not
+in
+self
+:
+            
+self
+[
+"
+wasm
+"
+]
+=
+False
         
 if
 extras
