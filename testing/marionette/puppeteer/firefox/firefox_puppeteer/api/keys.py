@@ -73,10 +73,9 @@ Keys
 "
 "
 "
-    
 Proxy
 to
-Marionette
+marionette
 '
 s
 keys
@@ -93,7 +92,6 @@ testing
 across
 platforms
 .
-    
 "
 "
 "
@@ -108,21 +106,21 @@ marionette
         
 self
 .
-is_mac
+isDarwin
 =
 marionette
 .
 session_capabilities
 [
-"
+'
 platformName
-"
+'
 ]
 =
 =
-"
-mac
-"
+'
+darwin
+'
     
 property
     
@@ -140,7 +138,7 @@ META
 if
 self
 .
-is_mac
+isDarwin
 else
 self
 .

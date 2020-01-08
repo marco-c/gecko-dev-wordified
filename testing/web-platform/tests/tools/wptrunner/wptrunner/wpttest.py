@@ -2457,10 +2457,7 @@ default_timeout
     
 long_timeout
 =
-180
-#
-3
-minutes
+120
 manifest_test_cls
 =
 {
