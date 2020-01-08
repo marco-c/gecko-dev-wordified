@@ -2586,6 +2586,7 @@ void
 *
 aKey
 )
+const
 ;
 /
 /
@@ -4102,6 +4103,7 @@ static
 bool
 EntryIsFree
 (
+const
 PLDHashEntryHdr
 *
 aEntry
@@ -4121,6 +4123,7 @@ static
 bool
 EntryIsRemoved
 (
+const
 PLDHashEntryHdr
 *
 aEntry
@@ -4140,6 +4143,7 @@ static
 bool
 EntryIsLive
 (
+const
 PLDHashEntryHdr
 *
 aEntry
@@ -4195,6 +4199,7 @@ Hash1
 PLDHashNumber
 aHash0
 )
+const
 ;
 void
 Hash2
@@ -4208,14 +4213,17 @@ uint32_t
 &
 aSizeMaskOut
 )
+const
 ;
 static
 bool
 MatchEntryKeyhash
 (
+const
 PLDHashEntryHdr
 *
 aEntry
+const
 PLDHashNumber
 aHash
 )
@@ -4227,6 +4235,7 @@ AddressEntry
 uint32_t
 aIndex
 )
+const
 ;
 /
 /
@@ -4278,6 +4287,7 @@ void
 *
 aKey
 )
+const
 ;
 enum
 SearchReason
@@ -4303,6 +4313,7 @@ aKey
 PLDHashNumber
 aKeyHash
 )
+const
 ;
 PLDHashEntryHdr
 *
@@ -4311,6 +4322,7 @@ FindFreeEntry
 PLDHashNumber
 aKeyHash
 )
+const
 ;
 bool
 ChangeTable
