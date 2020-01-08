@@ -309,7 +309,6 @@ clipChain
 mParent
 |
 |
-*
 ActiveScrolledRoot
 :
 :

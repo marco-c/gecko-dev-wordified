@@ -568,9 +568,9 @@ should
 be
 clipped
 by
-*
 mClipChainContentDescendants
 .
+*
 Null
 if
 no
@@ -660,8 +660,8 @@ or
 both
 mClipChainContentDescendants
 and
-*
 mClipChainContainingBlockDescendants
+*
 are
 null
 .

@@ -467,6 +467,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
+virtual
 void
 MoveBy
 (
@@ -985,6 +986,7 @@ aBuilder
 )
 {
 }
+virtual
 bool
 InvalidateForSyncDecodeImages
 (
@@ -1046,6 +1048,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
+virtual
 bool
 InvalidateForSyncDecodeImages
 (
@@ -1084,6 +1087,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
+virtual
 void
 MoveBy
 (
@@ -1094,6 +1098,7 @@ aOffset
 )
 override
 ;
+virtual
 bool
 InvalidateForSyncDecodeImages
 (
@@ -1133,6 +1138,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
+virtual
 void
 MoveBy
 (
@@ -1169,6 +1175,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
+virtual
 void
 MoveBy
 (
@@ -1290,6 +1297,7 @@ aColor
 )
 {
 }
+virtual
 void
 MoveBy
 (
@@ -1332,6 +1340,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
+virtual
 void
 MoveBy
 (
@@ -1376,6 +1385,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
+virtual
 bool
 InvalidateForSyncDecodeImages
 (
@@ -1426,6 +1436,7 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
+virtual
 bool
 InvalidateForSyncDecodeImages
 (
@@ -1494,6 +1505,7 @@ nsPoint
 aFrameOffsetToViewport
 )
 ;
+virtual
 bool
 InvalidateForSyncDecodeImages
 (

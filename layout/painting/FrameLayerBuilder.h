@@ -364,7 +364,6 @@ objects
 manage
 these
 lists
-*
 automatically
 .
 *
@@ -380,8 +379,8 @@ in
 the
 LayerManagerData
 object
-*
 marking
+*
 items
 that
 are
@@ -394,12 +393,12 @@ we
 sweep
 the
 LayerManagerData
-*
 hash
 -
 set
 and
 remove
+*
 all
 items
 that
@@ -904,12 +903,13 @@ of
 data
 instead
 of
-*
 allocating
 a
 new
+*
 object
 .
+*
 Set
 the
 passed
@@ -919,12 +919,12 @@ and
 clears
 the
 opt
-*
 layer
 and
 inactive
 manager
 .
+*
 Parent
 and
 display
@@ -934,7 +934,6 @@ are
 assumed
 to
 be
-*
 the
 same
 .
@@ -953,7 +952,6 @@ transaction
 to
 complete
 the
-*
 update
 .
 *
@@ -1017,8 +1015,8 @@ that
 won
 '
 t
-*
 live
+*
 longer
 than
 the
@@ -1047,8 +1045,8 @@ must
 be
 specified
 to
-*
 retain
+*
 until
 the
 next
@@ -1174,8 +1172,8 @@ mFramesWithLayers
 (
 from
 an
-*
 existing
+*
 paint
 )
 has
@@ -2241,7 +2239,6 @@ FrameLayerBuilder
 FrameLayerBuilder
 (
 )
-override
 ;
 static
 void
@@ -3631,8 +3628,8 @@ painted
 It
 '
 s
-*
 either
+*
 the
 transform
 saved

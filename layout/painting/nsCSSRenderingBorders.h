@@ -381,9 +381,9 @@ h
 for
 each
 rounded
-*
 corner
 .
+*
 If
 the
 corner
@@ -400,9 +400,9 @@ should
 be
 given
 for
-*
 it
 .
+*
 borderColors
 -
 -
@@ -1092,8 +1092,6 @@ adjacent
 corners
 to
 the
-/
-/
 context
 Rect
 GetSideClipWithoutCornersRect

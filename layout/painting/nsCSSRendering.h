@@ -2913,11 +2913,11 @@ specified
 aLayer
 !
 =
-*
 -
 1
 )
 .
+*
 If
 all
 layers
@@ -4694,7 +4694,6 @@ surface
 size
 and
 speed
-*
 up
 blur
 .
@@ -4714,8 +4713,8 @@ units
 !
 )
 to
-*
 avoid
+*
 blurring
 over
 to
@@ -4735,8 +4734,8 @@ the
 content
 drawn
 to
-*
 the
+*
 returned
 gfxContext
 is
@@ -4746,10 +4745,10 @@ a
 mask
 and
 not
+*
 drawn
 directly
 to
-*
 aDestinationCtx
 .
 *
@@ -5230,7 +5229,6 @@ surface
 size
 and
 speed
-*
 up
 blur
 .
@@ -5249,8 +5247,8 @@ units
 !
 )
 to
-*
 avoid
+*
 blurring
 over
 to
@@ -5463,7 +5461,6 @@ inside
 rect
 '
 s
-*
 path
 .
 *
@@ -5481,8 +5478,8 @@ units
 !
 )
 to
-*
 avoid
+*
 blurring
 over
 to
