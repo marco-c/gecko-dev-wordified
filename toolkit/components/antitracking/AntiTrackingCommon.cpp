@@ -3490,12 +3490,7 @@ false
 }
 parentPrincipal
 =
-loadInfo
--
->
-TriggeringPrincipal
-(
-)
+toplevelPrincipal
 ;
 if
 (
