@@ -37,6 +37,10 @@ test_import
 str
 )
 {
+echo_output
+=
+null
+;
 importScripts
 (
 '
@@ -126,6 +130,10 @@ e
 {
 var
 error
+=
+null
+;
+echo_output
 =
 null
 ;
