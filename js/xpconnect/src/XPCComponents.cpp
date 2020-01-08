@@ -13855,7 +13855,7 @@ toObject
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -14726,7 +14726,7 @@ runnable
 .
 Maybe
 <
-JSAutoRealmAllowCCW
+JSAutoRealm
 >
 ar
 ;
@@ -16074,7 +16074,7 @@ aCx
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
@@ -16453,7 +16453,7 @@ return
 false
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx

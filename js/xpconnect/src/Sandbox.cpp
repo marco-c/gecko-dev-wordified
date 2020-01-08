@@ -1217,7 +1217,7 @@ funobj
 )
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -7469,7 +7469,7 @@ options
 wantXrays
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -8085,7 +8085,7 @@ options
 metadata
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -12066,7 +12066,7 @@ cx
 (
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 sandcx
@@ -12389,7 +12389,7 @@ cx
 )
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -12465,7 +12465,7 @@ metadata
 cx
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

@@ -8391,7 +8391,7 @@ SetGlobalObject
 glob
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

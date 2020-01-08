@@ -494,7 +494,7 @@ JSD
 is
 gone
 .
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx

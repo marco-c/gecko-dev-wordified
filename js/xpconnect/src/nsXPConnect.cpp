@@ -3161,7 +3161,7 @@ global
 return
 nullptr
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -3571,7 +3571,7 @@ ends
 up
 there
 .
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aJSContext

@@ -2990,7 +2990,7 @@ obj
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
