@@ -3769,7 +3769,7 @@ const
 css
 :
 :
-URLValueData
+URLValue
 &
 aURL
 nsTArray
@@ -9952,7 +9952,7 @@ const
 css
 :
 :
-URLValueData
+URLValue
 *
 aURL
 nsROCSSPrimitiveValue
@@ -9987,7 +9987,7 @@ usable
 nsIURI
 in
 the
-URLValueData
+URLValue
 and
 the
 url

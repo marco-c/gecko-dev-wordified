@@ -422,7 +422,7 @@ the
 css
 :
 :
-ImageValue
+URLValue
 might
 /
 /
@@ -1564,10 +1564,7 @@ ImageLoader
 :
 RegisterCSSImage
 (
-ImageLoader
-:
-:
-Image
+URLValue
 *
 aImage
 )
@@ -1834,10 +1831,7 @@ ImageLoader
 :
 DeregisterCSSImageFromAllLoaders
 (
-ImageLoader
-:
-:
-Image
+URLValue
 *
 aImage
 )
@@ -2908,10 +2902,7 @@ aPolicy
 nsIDocument
 *
 aDocument
-ImageLoader
-:
-:
-Image
+URLValue
 *
 aImage
 CORSMode
@@ -2998,7 +2989,7 @@ This
 css
 :
 :
-ImageValue
+URLValue
 has
 already
 been

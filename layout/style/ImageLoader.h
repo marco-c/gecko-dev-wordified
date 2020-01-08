@@ -250,7 +250,7 @@ namespace
 css
 {
 struct
-ImageValue
+URLValue
 ;
 /
 *
@@ -345,16 +345,6 @@ REQUEST_HAS_BLOCKED_ONLOAD
 1
 }
 ;
-typedef
-mozilla
-:
-:
-css
-:
-:
-ImageValue
-Image
-;
 explicit
 ImageLoader
 (
@@ -389,7 +379,7 @@ imgRequestProxy
 *
 RegisterCSSImage
 (
-Image
+URLValue
 *
 aImage
 )
@@ -506,9 +496,9 @@ aPolicy
 nsIDocument
 *
 aDocument
-Image
+URLValue
 *
-aCSSValue
+aImage
 CORSMode
 aCorsMode
 )
@@ -525,7 +515,7 @@ given
 css
 :
 :
-ImageValue
+URLValue
 and
 deregisters
 /
@@ -554,7 +544,7 @@ static
 void
 DeregisterCSSImageFromAllLoaders
 (
-Image
+URLValue
 *
 aImage
 )
@@ -1058,7 +1048,7 @@ of
 css
 :
 :
-ImageValues
+URLValues
 keyed
 by
 their
@@ -1112,7 +1102,7 @@ but
 css
 :
 :
-ImageValues
+URLValues
 might
 be
 destroyed
@@ -1166,7 +1156,7 @@ every
 css
 :
 :
-ImageValue
+URLValue
 object
 that
 has
@@ -1193,7 +1183,7 @@ this
 css
 :
 :
-ImageValue
+URLValue
 .
 nsTHashtable
 <
@@ -1217,7 +1207,7 @@ this
 css
 :
 :
-ImageValue
+URLValue
 .
 /
 /
@@ -1237,7 +1227,7 @@ specified
 css
 :
 :
-ImageValue
+URLValue
 /
 /
 object
@@ -1294,7 +1284,7 @@ all
 css
 :
 :
-ImageValues
+URLValues
 that
 have
 been
@@ -1359,7 +1349,7 @@ but
 css
 :
 :
-ImageValues
+URLValues
 might
 be
 destroyed

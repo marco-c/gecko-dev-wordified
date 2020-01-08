@@ -1496,7 +1496,7 @@ a
 css
 :
 :
-ImageValue
+URLValue
 to
 represent
 the
@@ -1527,16 +1527,6 @@ nsStyleImageRequest
 {
 public
 :
-typedef
-mozilla
-:
-:
-css
-:
-:
-URLValueData
-URLValueData
-;
 /
 /
 Flags
@@ -1732,7 +1722,7 @@ mozilla
 css
 :
 :
-ImageValue
+URLValue
 *
 aImageValue
 )
@@ -1824,7 +1814,7 @@ get
 Returns
 whether
 the
-ImageValue
+URLValue
 objects
 in
 the
@@ -1835,7 +1825,7 @@ nsStyleImageRequests
 return
 true
 from
-URLValueData
+URLValue
 :
 :
 DefinitelyEqualURIs
@@ -1856,7 +1846,7 @@ mozilla
 css
 :
 :
-ImageValue
+URLValue
 *
 GetImageValue
 (
@@ -1920,7 +1910,7 @@ mozilla
 css
 :
 :
-ImageValue
+URLValue
 >
 mImageValue
 ;
@@ -2273,16 +2263,6 @@ css
 URLValue
 URLValue
 ;
-typedef
-mozilla
-:
-:
-css
-:
-:
-URLValueData
-URLValueData
-;
 nsStyleImage
 (
 )
@@ -2630,7 +2610,7 @@ GetImageURI
 )
 const
 ;
-URLValueData
+URLValue
 *
 GetURLValue
 (
