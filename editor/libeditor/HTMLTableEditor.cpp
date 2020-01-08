@@ -2069,7 +2069,7 @@ this
 EditSubAction
 :
 :
-insertNode
+eInsertNode
 nsIEditor
 :
 :
@@ -2894,7 +2894,7 @@ this
 EditSubAction
 :
 :
-insertNode
+eInsertNode
 nsIEditor
 :
 :
@@ -9597,7 +9597,7 @@ this
 EditSubAction
 :
 :
-insertNode
+eInsertNode
 nsIEditor
 :
 :
@@ -10937,7 +10937,7 @@ this
 EditSubAction
 :
 :
-insertNode
+eInsertNode
 nsIEditor
 :
 :
@@ -14530,7 +14530,7 @@ this
 EditSubAction
 :
 :
-insertNode
+eInsertNode
 nsIEditor
 :
 :

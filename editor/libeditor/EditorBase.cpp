@@ -7770,7 +7770,7 @@ this
 EditSubAction
 :
 :
-createNode
+eCreateNode
 nsIEditor
 :
 :
@@ -8249,7 +8249,7 @@ this
 EditSubAction
 :
 :
-insertNode
+eInsertNode
 nsIEditor
 :
 :
@@ -9343,7 +9343,7 @@ this
 EditSubAction
 :
 :
-createNode
+eCreateNode
 nsIEditor
 :
 :
