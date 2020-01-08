@@ -2458,13 +2458,7 @@ DIRECT2D1_1
 }
 }
 return
-std
-:
-:
-move
-(
 data
-)
 ;
 }
 void

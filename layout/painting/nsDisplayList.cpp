@@ -1193,7 +1193,13 @@ AppendLiteral
 }
 }
 return
+std
+:
+:
+move
+(
 str
+)
 ;
 }
 static

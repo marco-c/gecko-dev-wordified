@@ -2470,7 +2470,7 @@ BackgroundPageHTML
 )
 const
 {
-nsAutoCString
+nsCString
 result
 ;
 if

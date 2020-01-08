@@ -1781,7 +1781,7 @@ s
 )
 {
 return
-nullptr
+s
 ;
 }
 wchar_t
@@ -1854,13 +1854,7 @@ c
 '
 ;
 return
-std
-:
-:
-move
-(
 s
-)
 ;
 }
 inline

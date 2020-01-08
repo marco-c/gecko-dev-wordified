@@ -31437,7 +31437,7 @@ return
 true
 ;
 }
-nsCString
+nsAutoCString
 nsCookieService
 :
 :

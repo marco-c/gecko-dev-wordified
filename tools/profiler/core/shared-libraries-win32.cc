@@ -733,7 +733,13 @@ dwFileVersionLS
 )
 ;
 return
+std
+:
+:
+move
+(
 version
+)
 ;
 }
 SharedLibraryInfo

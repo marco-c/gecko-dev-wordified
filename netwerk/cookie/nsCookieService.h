@@ -1409,7 +1409,7 @@ AppClearDataObserverInit
 )
 ;
 static
-nsCString
+nsAutoCString
 GetPathFromURI
 (
 nsIURI
