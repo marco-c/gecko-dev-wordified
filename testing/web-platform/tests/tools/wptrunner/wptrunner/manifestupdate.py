@@ -2403,13 +2403,15 @@ set
 self
 .
 property_name
+                                  
 self
 .
 update_value
 (
-None
+unconditional_value
 new_default_value
 )
+                                  
 condition
 =
 None
@@ -3099,6 +3101,15 @@ new_value
 )
 :
         
+new_value
+=
+self
+.
+value_type
+(
+new_value
+)
+        
 if
 old_value
 is
@@ -3117,6 +3128,9 @@ old_value
         
 if
 old_value
+is
+not
+None
 and
 old_value
 <
@@ -3125,6 +3139,8 @@ new_value
             
 return
 new_value
++
+1
         
 if
 old_value
@@ -3134,6 +3150,8 @@ None
             
 return
 new_value
++
+1
         
 return
 old_value
@@ -3273,8 +3291,6 @@ extend
 item
 .
 value
-+
-1
 for
 item
 in
@@ -3290,8 +3306,6 @@ extend
 item
 .
 value
-+
-1
 for
 item
 in
@@ -3355,6 +3369,15 @@ new_value
 )
 :
         
+new_value
+=
+self
+.
+value_type
+(
+new_value
+)
+        
 if
 old_value
 is
@@ -3373,6 +3396,9 @@ old_value
         
 if
 old_value
+is
+not
+None
 and
 new_value
 <
@@ -3406,7 +3432,7 @@ to
 0
             
 return
-0
+new_value
         
 return
 old_value
@@ -3542,8 +3568,6 @@ max
 item
 .
 value
--
-1
 )
 for
 item
@@ -3563,8 +3587,6 @@ max
 item
 .
 value
--
-1
 )
 for
 item
@@ -3625,7 +3647,7 @@ result
 :
         
 #
-IF
+If
 we
 have
 an
