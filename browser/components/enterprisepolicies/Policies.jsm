@@ -4580,6 +4580,13 @@ via
 -
 policy
 "
+queryCharset
+:
+"
+UTF
+-
+8
+"
 }
 ;
 try
