@@ -1153,6 +1153,15 @@ DOMNode
 )
 ;
 }
+else
+{
+valueProps
+.
+noGrip
+=
+true
+;
+}
 const
 classList
 =
