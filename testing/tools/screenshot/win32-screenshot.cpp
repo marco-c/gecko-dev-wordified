@@ -410,6 +410,9 @@ this
 binary
 .
 #
+ifndef
+__MINGW32__
+#
 pragma
 comment
 (
@@ -425,6 +428,8 @@ ENTRY
 wmainCRTStartup
 "
 )
+#
+endif
 using
 namespace
 Gdiplus

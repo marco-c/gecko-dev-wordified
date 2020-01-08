@@ -122,6 +122,9 @@ WindowsNetworkFunctionsWrapper
 h
 "
 #
+ifndef
+__MINGW32__
+#
 pragma
 comment
 (
@@ -143,6 +146,8 @@ dhcpcsvc
 lib
 "
 )
+#
+endif
 namespace
 mozilla
 {

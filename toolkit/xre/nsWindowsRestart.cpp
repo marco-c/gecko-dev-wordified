@@ -141,6 +141,9 @@ userenv
 h
 >
 #
+ifndef
+__MINGW32__
+#
 pragma
 comment
 (
@@ -151,6 +154,8 @@ userenv
 lib
 "
 )
+#
+endif
 /
 *
 *
