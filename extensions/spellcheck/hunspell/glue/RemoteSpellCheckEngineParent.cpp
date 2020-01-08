@@ -95,7 +95,9 @@ h
 #
 include
 "
-nsISpellChecker
+mozilla
+/
+mozSpellChecker
 .
 h
 "
@@ -118,9 +120,11 @@ RemoteSpellcheckEngineParent
 {
 mSpellChecker
 =
-do_CreateInstance
+mozSpellChecker
+:
+:
+Create
 (
-NS_SPELLCHECKER_CONTRACTID
 )
 ;
 }
