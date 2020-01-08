@@ -2273,6 +2273,16 @@ case
 SVG_FECOMPONENTTRANSFER_TYPE_TABLE
 :
 {
+if
+(
+!
+tableValues
+.
+IsEmpty
+(
+)
+)
+{
 aAttributes
 .
 mValues
@@ -2294,6 +2304,7 @@ Length
 )
 )
 ;
+}
 break
 ;
 }
