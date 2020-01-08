@@ -1549,7 +1549,7 @@ uint32_t
 outputTypeIndex
 void
 *
-ptr
+maybeNullPtr
 )
 ;
 }
