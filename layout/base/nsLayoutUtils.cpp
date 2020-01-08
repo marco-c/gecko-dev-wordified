@@ -37853,7 +37853,7 @@ nsIFrame
 InlineMinISizeData
 data
 ;
-DISPLAY_MIN_WIDTH
+DISPLAY_MIN_INLINE_SIZE
 (
 aFrame
 data
@@ -37929,7 +37929,7 @@ nsIFrame
 InlinePrefISizeData
 data
 ;
-DISPLAY_PREF_WIDTH
+DISPLAY_PREF_INLINE_SIZE
 (
 aFrame
 data

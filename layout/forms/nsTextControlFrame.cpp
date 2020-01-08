@@ -3225,7 +3225,7 @@ result
 =
 0
 ;
-DISPLAY_PREF_WIDTH
+DISPLAY_PREF_INLINE_SIZE
 (
 this
 result
@@ -3282,7 +3282,8 @@ aRenderingContext
 /
 Our
 min
-width
+inline
+size
 is
 just
 our
@@ -3292,12 +3293,12 @@ if
 we
 have
 auto
-width
-.
+inline
+size
 nscoord
 result
 ;
-DISPLAY_MIN_WIDTH
+DISPLAY_MIN_INLINE_SIZE
 (
 this
 result

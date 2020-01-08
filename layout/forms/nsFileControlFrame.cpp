@@ -2473,7 +2473,7 @@ aRenderingContext
 nscoord
 result
 ;
-DISPLAY_MIN_WIDTH
+DISPLAY_MIN_INLINE_SIZE
 (
 this
 result
@@ -2483,11 +2483,13 @@ result
 /
 Our
 min
-width
+inline
+size
 is
 our
 pref
-width
+inline
+size
 result
 =
 GetPrefISize

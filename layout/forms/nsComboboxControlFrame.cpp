@@ -5775,7 +5775,7 @@ aRenderingContext
 nscoord
 minISize
 ;
-DISPLAY_MIN_WIDTH
+DISPLAY_MIN_INLINE_SIZE
 (
 this
 minISize
@@ -5810,7 +5810,7 @@ aRenderingContext
 nscoord
 prefISize
 ;
-DISPLAY_PREF_WIDTH
+DISPLAY_PREF_INLINE_SIZE
 (
 this
 prefISize
