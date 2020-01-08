@@ -36815,13 +36815,6 @@ bar
 "
 "
 :
--
-moz
--
-placeholder
-"
-"
-:
 placeholder
 "
 "

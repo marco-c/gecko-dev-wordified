@@ -15069,11 +15069,8 @@ pseudo
 pseudo
 =
 =
+*
 pseudo_element
-.
-canonical
-(
-)
 None
 =
 >
