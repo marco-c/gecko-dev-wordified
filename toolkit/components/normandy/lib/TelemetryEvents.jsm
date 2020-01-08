@@ -178,6 +178,9 @@ reason
 "
 preference
 "
+"
+detail
+"
 ]
 record_on_release
 :
