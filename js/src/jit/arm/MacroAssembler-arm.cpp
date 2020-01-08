@@ -277,6 +277,12 @@ using
 mozilla
 :
 :
+DebugOnly
+;
+using
+mozilla
+:
+:
 IsPositiveZero
 ;
 using

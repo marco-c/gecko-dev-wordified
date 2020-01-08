@@ -163,12 +163,6 @@ BytecodeUtil
 .
 h
 "
-using
-mozilla
-:
-:
-DebugOnly
-;
 namespace
 js
 {
@@ -2763,6 +2757,9 @@ EDtrAddr
 addr
 Register
 rt
+mozilla
+:
+:
 DebugOnly
 <
 Register
@@ -2817,6 +2814,9 @@ ma_strd
 (
 Register
 rt
+mozilla
+:
+:
 DebugOnly
 <
 Register

@@ -384,12 +384,6 @@ UnboxedObject
 .
 h
 "
-using
-mozilla
-:
-:
-FloatingPoint
-;
 /
 /
 *
