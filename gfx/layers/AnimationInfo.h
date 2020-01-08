@@ -422,12 +422,6 @@ ApplyPendingUpdatesForThisTransaction
 )
 ;
 bool
-HasOpacityAnimation
-(
-)
-const
-;
-bool
 HasTransformAnimation
 (
 )
