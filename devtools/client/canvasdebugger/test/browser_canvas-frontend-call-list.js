@@ -595,7 +595,7 @@ target
 "
 [
 object
-XULElement
+XULTextElement
 ]
 "
 "
