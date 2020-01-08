@@ -889,7 +889,7 @@ this
 .
 rule
 .
-style
+domRule
 this
 .
 name
@@ -1026,7 +1026,7 @@ this
 .
 rule
 .
-style
+domRule
 name
 this
 .
