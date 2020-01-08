@@ -2980,12 +2980,12 @@ isWaiting
 )
 fx
 .
-wake
+notify
 (
 FutexThread
 :
 :
-WakeForJSInterrupt
+NotifyForJSInterrupt
 )
 ;
 fx
