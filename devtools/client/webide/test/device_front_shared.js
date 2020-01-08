@@ -1114,7 +1114,6 @@ contains
 hide
 "
 )
-true
 "
 Reset
 button

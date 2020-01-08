@@ -642,8 +642,6 @@ children
 .
 value
 "
-"
-"
 The
 2nd
 option

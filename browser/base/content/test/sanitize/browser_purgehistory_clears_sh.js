@@ -283,7 +283,6 @@ browser
 webNavigation
 .
 canGoBack
-true
 "
 New
 value
@@ -301,7 +300,6 @@ browser
 webNavigation
 .
 canGoForward
-true
 "
 New
 value
