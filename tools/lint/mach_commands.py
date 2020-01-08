@@ -174,6 +174,12 @@ linters
 "
 "
         
+self
+.
+_activate_virtualenv
+(
+)
+        
 from
 mozlint
 import
@@ -221,12 +227,6 @@ SEARCH_PATHS
 append
 (
 here
-)
-        
-self
-.
-_activate_virtualenv
-(
 )
         
 return
