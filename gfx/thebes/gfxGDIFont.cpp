@@ -723,7 +723,7 @@ mType
 NativeFontType
 :
 :
-GDI_FONT_FACE
+GDI_LOGFONT
 ;
 LOGFONT
 lf
@@ -753,7 +753,7 @@ mAzureScaledFont
 Factory
 :
 :
-CreateScaledFontWithCairo
+CreateScaledFontForNativeFont
 (
 nativeFont
 GetUnscaledFont

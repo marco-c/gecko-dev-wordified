@@ -1033,6 +1033,8 @@ aUnscaledFont
 cairo_scaled_font_t
 *
 aCairoFont
+FT_Face
+aFTFace
 FT2FontEntry
 *
 aFontEntry
@@ -1052,6 +1054,10 @@ aFontStyle
 mCharGlyphCache
 (
 32
+)
+mFTFace
+(
+aFTFace
 )
 {
 NS_ASSERTION
@@ -1136,15 +1142,13 @@ mType
 NativeFontType
 :
 :
-CAIRO_FONT_FACE
+FREETYPE_FACE
 ;
 nativeFont
 .
 mFont
 =
-GetCairoScaledFont
-(
-)
+mFTFace
 ;
 mAzureScaledFont
 =
@@ -1158,6 +1162,9 @@ GetUnscaledFont
 (
 )
 GetAdjustedSize
+(
+)
+GetCairoScaledFont
 (
 )
 )
