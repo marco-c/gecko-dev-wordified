@@ -320,10 +320,7 @@ AudioParam
 SetValueCurveAtTime
 (
 const
-nsTArray
-<
-float
->
+Float32Array
 &
 aValues
 double
@@ -358,6 +355,12 @@ return
 this
 ;
 }
+aValues
+.
+ComputeLengthAndData
+(
+)
+;
 aStartTime
 =
 std
@@ -393,7 +396,7 @@ aStartTime
 aDuration
 aValues
 .
-Elements
+Data
 (
 )
 aValues
