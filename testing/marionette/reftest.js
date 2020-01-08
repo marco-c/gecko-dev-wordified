@@ -713,7 +713,6 @@ reftest
 "
 "
 chrome
-dialog
 height
 =
 600
