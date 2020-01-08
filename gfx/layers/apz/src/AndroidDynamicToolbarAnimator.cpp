@@ -3508,7 +3508,6 @@ ProcessDynamicToolbarMovement
 (
 mControllerLastEventTimeStamp
 aTimeStamp
--
 (
 float
 )
