@@ -2470,6 +2470,7 @@ MOZ_ASSERT
 (
 density
 >
+=
 0
 .
 0
