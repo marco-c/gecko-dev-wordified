@@ -690,7 +690,10 @@ defined
 (
 XP_WIN
 )
-HANDLE
+base
+:
+:
+ProcessHandle
 mShmemFile
 ;
 #
