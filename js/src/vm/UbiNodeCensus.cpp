@@ -2329,6 +2329,9 @@ const
 char
 *
 CountBasePtr
+mozilla
+:
+:
 CStringHasher
 SystemAllocPolicy
 >
@@ -6249,6 +6252,9 @@ pointers
 into
 it
 .
+mozilla
+:
+:
 Generation
 generation
 =
@@ -6748,6 +6754,9 @@ lookup
 )
 {
 return
+mozilla
+:
+:
 CStringHasher
 :
 :
@@ -6776,6 +6785,9 @@ lookup
 )
 {
 return
+mozilla
+:
+:
 CStringHasher
 :
 :

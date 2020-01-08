@@ -3338,7 +3338,7 @@ associated
 }
 ;
 namespace
-js
+mozilla
 {
 template
 <
@@ -3432,7 +3432,7 @@ l
 /
 /
 namespace
-js
+mozilla
 class
 ObjectGroupRealm
 :

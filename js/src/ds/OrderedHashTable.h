@@ -413,6 +413,15 @@ Move
 .
 h
 "
+#
+include
+"
+js
+/
+HashTable
+.
+h
+"
 namespace
 js
 {

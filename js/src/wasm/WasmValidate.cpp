@@ -12353,6 +12353,9 @@ HashSet
 const
 char
 *
+mozilla
+:
+:
 CStringHasher
 SystemAllocPolicy
 >

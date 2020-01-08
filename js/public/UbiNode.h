@@ -10701,7 +10701,7 @@ ubi
 namespace
 JS
 namespace
-js
+mozilla
 {
 /
 /
@@ -10783,7 +10783,7 @@ HashPolicy
 /
 /
 namespace
-js
+mozilla
 #
 endif
 /

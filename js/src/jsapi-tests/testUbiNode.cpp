@@ -2533,7 +2533,7 @@ name
 }
 ;
 namespace
-js
+mozilla
 {
 template
 <
@@ -2615,7 +2615,7 @@ to
 /
 /
 namespace
-js
+mozilla
 BEGIN_TEST
 (
 test_ubiPostOrder
