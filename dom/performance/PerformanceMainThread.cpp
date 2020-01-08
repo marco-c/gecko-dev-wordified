@@ -133,9 +133,7 @@ include
 "
 mozilla
 /
-dom
-/
-DOMPrefs
+StaticPrefs
 .
 h
 "
@@ -1513,10 +1511,10 @@ markCreationEpoch
 ;
 if
 (
-DOMPrefs
+StaticPrefs
 :
 :
-PerformanceLoggingEnabled
+dom_performance_enable_user_timing_logging
 (
 )
 |
@@ -1621,10 +1619,10 @@ PR_USEC_PER_MSEC
 ;
 if
 (
-DOMPrefs
+StaticPrefs
 :
 :
-PerformanceLoggingEnabled
+dom_performance_enable_user_timing_logging
 (
 )
 )
