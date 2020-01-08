@@ -172,7 +172,7 @@ status
 ;
 }
 nsresult
-nsQueryInterfaceWithError
+nsQueryInterfaceISupportsWithError
 :
 :
 operator
@@ -318,7 +318,7 @@ nsCOMPtr_base
 assign_from_qi_with_error
 (
 const
-nsQueryInterfaceWithError
+nsQueryInterfaceISupportsWithError
 &
 aQI
 const
