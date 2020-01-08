@@ -16009,13 +16009,6 @@ defined
 (
 NIGHTLY_BUILD
 )
-&
-&
-!
-defined
-(
-ANDROID
-)
 pref
 (
 "
