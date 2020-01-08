@@ -70087,10 +70087,7 @@ mOSHE
 >
 GetTitle
 (
-getter_Copies
-(
 title
-)
 )
 ;
 newSHEntry

@@ -1602,10 +1602,9 @@ viewSrcURL
 ;
 shEntry
 .
-setTitle
-(
+title
+=
 viewSrcURL
-)
 ;
 let
 systemPrincipal
