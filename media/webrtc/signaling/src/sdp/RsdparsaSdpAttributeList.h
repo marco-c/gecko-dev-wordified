@@ -1021,6 +1021,14 @@ attributeList
 )
 ;
 void
+LoadCandidate
+(
+RustAttributeList
+*
+attributeList
+)
+;
+void
 WarnAboutMisplacedAttribute
 (
 SdpAttribute
