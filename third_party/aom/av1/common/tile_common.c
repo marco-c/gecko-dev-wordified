@@ -1597,6 +1597,8 @@ is_uv
 cm
 -
 >
+seq_params
+.
 subsampling_x
 ;
 const
@@ -1609,6 +1611,8 @@ is_uv
 cm
 -
 >
+seq_params
+.
 subsampling_y
 ;
 r

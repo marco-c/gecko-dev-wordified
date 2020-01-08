@@ -210,7 +210,7 @@ TX_SIZE
 tx_size
 )
 ;
-uint8_t
+void
 av1_read_coeffs_txb_facade
 (
 const
@@ -228,13 +228,13 @@ const
 r
 const
 int
+plane
+const
+int
 row
 const
 int
 col
-const
-int
-plane
 const
 TX_SIZE
 tx_size

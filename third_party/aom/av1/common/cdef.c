@@ -868,6 +868,8 @@ if
 cm
 -
 >
+seq_params
+.
 use_highbitdepth
 )
 {
@@ -1197,6 +1199,8 @@ AOMMAX
 cm
 -
 >
+seq_params
+.
 bit_depth
 -
 8
@@ -2954,6 +2958,8 @@ if
 cm
 -
 >
+seq_params
+.
 use_highbitdepth
 )
 {

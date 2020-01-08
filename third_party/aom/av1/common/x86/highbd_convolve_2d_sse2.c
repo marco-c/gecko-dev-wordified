@@ -1146,9 +1146,11 @@ int
 w
 int
 h
+const
 InterpFilterParams
 *
 filter_params_x
+const
 InterpFilterParams
 *
 filter_params_y

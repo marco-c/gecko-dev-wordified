@@ -2890,6 +2890,17 @@ detail
 int
 setjmp
 ;
+/
+/
+Boolean
+:
+whether
+'
+jmp
+'
+is
+valid
+.
 jmp_buf
 jmp
 ;

@@ -438,6 +438,7 @@ overlap_flag
 int
 clip_to_restricted_range
 ;
+unsigned
 int
 bit_depth
 ;
@@ -556,6 +557,7 @@ stride
 void
 av1_add_film_grain_run
 (
+const
 aom_film_grain_t
 *
 grain_params
@@ -625,7 +627,7 @@ image
 \
 param
 [
-in
+out
 ]
 dst
 Resulting
@@ -637,9 +639,11 @@ grain
 void
 av1_add_film_grain
 (
+const
 aom_film_grain_t
 *
 grain_params
+const
 aom_image_t
 *
 src

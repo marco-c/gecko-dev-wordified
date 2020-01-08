@@ -651,6 +651,8 @@ base_qindex
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 ;
@@ -831,6 +833,8 @@ segment
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 ;
@@ -1245,6 +1249,8 @@ base_qindex
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 ;

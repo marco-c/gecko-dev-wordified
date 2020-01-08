@@ -5015,10 +5015,14 @@ got_any_frames
 =
 0
 ;
+aom_image_t
+*
+frame_img
+;
 while
 (
 (
-img
+frame_img
 =
 aom_codec_get_frame
 (
@@ -5030,6 +5034,10 @@ iter
 )
 )
 {
+img
+=
+frame_img
+;
 +
 +
 frame_count

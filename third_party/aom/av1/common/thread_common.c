@@ -3962,6 +3962,8 @@ is_uv
 cm
 -
 >
+seq_params
+.
 subsampling_y
 ;
 AV1PixelRect

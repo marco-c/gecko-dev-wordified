@@ -584,6 +584,8 @@ i
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 ;
@@ -1917,6 +1919,8 @@ rate_level
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 ;

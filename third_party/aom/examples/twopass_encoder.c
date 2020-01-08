@@ -1244,6 +1244,7 @@ g_timebase
 .
 den
 }
+0
 }
 ;
 AvxVideoWriter

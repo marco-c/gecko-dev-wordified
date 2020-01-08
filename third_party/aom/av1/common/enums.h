@@ -2630,6 +2630,10 @@ ALTREF_FRAME
 7
 #
 define
+EXTREF_FRAME
+REF_FRAMES
+#
+define
 LAST_REF_FRAMES
 (
 LAST3_FRAME
@@ -2911,6 +2915,10 @@ used
 define
 MAX_EXTERNAL_REFERENCES
 128
+#
+define
+MAX_TILES
+512
 #
 ifdef
 __cplusplus

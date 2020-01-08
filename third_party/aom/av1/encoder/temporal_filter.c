@@ -4161,6 +4161,8 @@ cpi
 >
 common
 .
+seq_params
+.
 bit_depth
 )
 )
@@ -4187,6 +4189,8 @@ cpi
 -
 >
 common
+.
+seq_params
 .
 bit_depth
 )

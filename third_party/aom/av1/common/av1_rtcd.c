@@ -162,7 +162,7 @@ JBB
 :
 Remove
 this
-once
+aom_once
 by
 insuring
 that
@@ -178,11 +178,11 @@ functions
 are
 protected
 by
-once
+aom_once
 (
 )
 ;
-once
+aom_once
 (
 setup_rtcd_internal
 )

@@ -828,6 +828,7 @@ aom_img_upshift
 aom_image_t
 *
 dst
+const
 aom_image_t
 *
 src
@@ -841,6 +842,7 @@ aom_img_downshift
 aom_image_t
 *
 dst
+const
 aom_image_t
 *
 src
@@ -854,6 +856,7 @@ aom_img_truncate_16_to_8
 aom_image_t
 *
 dst
+const
 aom_image_t
 *
 src

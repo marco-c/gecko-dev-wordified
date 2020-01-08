@@ -1240,6 +1240,8 @@ use_highbd
 cm
 -
 >
+seq_params
+.
 use_highbitdepth
 ?
 1
@@ -1280,6 +1282,8 @@ is_uv
 cm
 -
 >
+seq_params
+.
 subsampling_x
 ;
 const

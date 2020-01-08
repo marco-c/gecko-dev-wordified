@@ -1086,6 +1086,8 @@ bit_depth
 cm
 -
 >
+seq_params
+.
 bit_depth
 ;
 const
@@ -1095,6 +1097,8 @@ highbd
 cm
 -
 >
+seq_params
+.
 use_highbitdepth
 ;
 const
@@ -1161,6 +1165,8 @@ is_uv
 cm
 -
 >
+seq_params
+.
 subsampling_x
 is_uv
 &
@@ -1168,6 +1174,8 @@ is_uv
 cm
 -
 >
+seq_params
+.
 subsampling_y
 highbd
 bit_depth
@@ -4268,6 +4276,8 @@ highbd
 cm
 -
 >
+seq_params
+.
 use_highbitdepth
 ;
 const
@@ -4277,6 +4287,8 @@ bit_depth
 cm
 -
 >
+seq_params
+.
 bit_depth
 ;
 uint8_t
@@ -4349,6 +4361,8 @@ is_uv
 cm
 -
 >
+seq_params
+.
 subsampling_x
 ;
 const
@@ -4361,6 +4375,8 @@ is_uv
 cm
 -
 >
+seq_params
+.
 subsampling_y
 ;
 const
@@ -8841,6 +8857,8 @@ if
 cm
 -
 >
+seq_params
+.
 use_highbitdepth
 )
 {
@@ -9492,6 +9510,8 @@ rsc
 cm
 -
 >
+seq_params
+.
 use_highbitdepth
 ;
 rusi
@@ -10497,6 +10517,8 @@ rsc
 cm
 -
 >
+seq_params
+.
 use_highbitdepth
 ;
 extend_frame

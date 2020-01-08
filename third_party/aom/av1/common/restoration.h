@@ -2442,9 +2442,6 @@ rrow0
 int
 *
 rrow1
-int
-*
-tile_tl_idx
 )
 ;
 void

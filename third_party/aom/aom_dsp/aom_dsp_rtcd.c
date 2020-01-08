@@ -153,7 +153,7 @@ aom_dsp_rtcd
 (
 )
 {
-once
+aom_once
 (
 setup_rtcd_internal
 )
