@@ -52060,7 +52060,7 @@ done
 here
 so
 that
-RenumberLists
+RenumberList
 will
 work
 (
@@ -52808,7 +52808,7 @@ and
 the
 caller
 of
-RenumberLists
+RenumberList
 .
 But
 the
