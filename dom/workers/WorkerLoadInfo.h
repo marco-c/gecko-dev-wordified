@@ -593,6 +593,9 @@ bool
 mStorageAllowed
 ;
 bool
+mFirstPartyStorageAccessGranted
+;
+bool
 mServiceWorkersTestingInWindow
 ;
 OriginAttributes

@@ -247,6 +247,14 @@ nsPIDOMWindowInner
 aWindow
 )
 ;
+void
+PropagateFirstPartyStorageAccessGrantedToWorkers
+(
+nsPIDOMWindowInner
+*
+aWindow
+)
+;
 /
 /
 All
