@@ -1028,11 +1028,6 @@ CFGBlock
 header
 )
 ;
-bool
-initLoopEntry
-(
-)
-;
 /
 /
 Please
@@ -3963,6 +3958,14 @@ AbortReasonOr
 Ok
 >
 jsop_dup2
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
+jsop_loopentry
 (
 )
 ;
