@@ -2002,6 +2002,10 @@ aArgv
 ParentPid
 (
 )
+*
+prefsHandle
+*
+prefMapHandle
 )
 ;
 }
