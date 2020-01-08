@@ -609,7 +609,7 @@ of
 /
 nsIContent
 *
-XULWidgetElm
+BindingParent
 (
 )
 const
