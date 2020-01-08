@@ -1903,9 +1903,6 @@ hiddenRows
 :
 [
 "
-description
-"
-"
 keyword
 "
 "
