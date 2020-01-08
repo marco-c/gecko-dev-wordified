@@ -787,6 +787,8 @@ const
 gfxFontStyle
 *
 aStyle
+FT_Face
+aFTFace
 )
 ;
 /

@@ -5206,6 +5206,16 @@ return
 false
 ;
 }
+virtual
+bool
+HasVariationSettings
+(
+)
+{
+return
+false
+;
+}
 void
 AddUserData
 (
