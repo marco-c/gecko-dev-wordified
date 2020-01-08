@@ -1191,6 +1191,15 @@ pageUrl
 url
 )
 .
+setPrivateMode
+(
+tab
+.
+isPrivate
+(
+)
+)
+.
 skipNetwork
 (
 )
