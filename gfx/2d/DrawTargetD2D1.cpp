@@ -1387,6 +1387,8 @@ bitmap
 ;
 HRESULT
 hr
+=
+E_FAIL
 ;
 if
 (
