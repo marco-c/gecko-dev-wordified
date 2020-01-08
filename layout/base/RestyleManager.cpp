@@ -3921,7 +3921,7 @@ UpdateBackgroundPosition
 AddOrRemoveTransform
 "
 "
-CSSOverflowChange
+ScrollbarChange
 "
 "
 UpdateWidgetProperties
@@ -9357,7 +9357,7 @@ FrameConstructor
 /
 /
 Handle
-nsChangeHint_CSSOverflowChange
+nsChangeHint_ScrollbarChange
 by
 either
 updating
@@ -9393,7 +9393,7 @@ data
 .
 mHint
 &
-nsChangeHint_CSSOverflowChange
+nsChangeHint_ScrollbarChange
 )
 {
 data
@@ -9402,7 +9402,7 @@ mHint
 &
 =
 ~
-nsChangeHint_CSSOverflowChange
+nsChangeHint_ScrollbarChange
 ;
 bool
 doReconstruct
