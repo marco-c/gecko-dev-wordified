@@ -188,7 +188,7 @@ setupapi
 ]
 extern
 "
-stdcall
+system
 "
 {
 fn
@@ -349,7 +349,7 @@ hid
 ]
 extern
 "
-stdcall
+system
 "
 {
 fn
