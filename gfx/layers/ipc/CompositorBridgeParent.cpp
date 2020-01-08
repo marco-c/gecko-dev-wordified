@@ -7835,6 +7835,8 @@ ApplyAsyncProperties
 LayerTransactionParent
 *
 aLayerTree
+TransformsToSkip
+aSkip
 )
 {
 /
@@ -7933,13 +7935,7 @@ TransformShadowTree
 (
 time
 mVsyncRate
-AsyncCompositionManager
-:
-:
-TransformsToSkip
-:
-:
-APZ
+aSkip
 )
 ;
 if
@@ -11599,13 +11595,6 @@ ifdef
 XP_WIN
 if
 (
-mOptions
-.
-UseWebRender
-(
-)
-&
-&
 DeviceManagerDx
 :
 :

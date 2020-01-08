@@ -3091,6 +3091,8 @@ ApplyAsyncProperties
 LayerTransactionParent
 *
 aLayerTree
+TransformsToSkip
+aSkip
 )
 {
 LayersId
@@ -3154,6 +3156,7 @@ mParent
 ApplyAsyncProperties
 (
 aLayerTree
+aSkip
 )
 ;
 }

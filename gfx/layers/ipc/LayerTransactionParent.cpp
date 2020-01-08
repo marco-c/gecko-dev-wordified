@@ -4733,6 +4733,13 @@ mCompositorBridge
 ApplyAsyncProperties
 (
 this
+CompositorBridgeParentBase
+:
+:
+TransformsToSkip
+:
+:
+APZ
 )
 ;
 if
@@ -4883,6 +4890,13 @@ mCompositorBridge
 ApplyAsyncProperties
 (
 this
+CompositorBridgeParentBase
+:
+:
+TransformsToSkip
+:
+:
+APZ
 )
 ;
 if
