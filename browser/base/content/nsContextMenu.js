@@ -952,6 +952,11 @@ frameId
 this
 .
 frameOuterWindowID
+webExtBrowserType
+:
+this
+.
+webExtBrowserType
 webExtContextData
 :
 gContextMenuContentData
