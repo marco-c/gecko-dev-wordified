@@ -248,13 +248,6 @@ h
 #
 include
 "
-Monitor
-.
-h
-"
-#
-include
-"
 ParentInternal
 .
 h
@@ -497,7 +490,6 @@ various
 synchronization
 tasks
 .
-static
 Monitor
 *
 gMonitor
