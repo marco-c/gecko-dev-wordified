@@ -1368,6 +1368,16 @@ startupReason
 "
 ADDON_INSTALL
 "
+|
+|
+extension
+.
+startupReason
+=
+=
+"
+ADDON_ENABLE
+"
 )
 {
 inControl
