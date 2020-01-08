@@ -18508,6 +18508,11 @@ finished
 ?
 *
 /
+if
+(
+cx
+)
+{
 PORT_FreeArena
 (
 cx
@@ -18517,6 +18522,7 @@ our_pool
 PR_TRUE
 )
 ;
+}
 return
 rv
 ;
