@@ -2839,7 +2839,7 @@ mResizedObject
 nsresult
 rv
 =
-RefreshResizers
+RefreshResizersInternal
 (
 )
 ;
