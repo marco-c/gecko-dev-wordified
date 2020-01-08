@@ -2903,7 +2903,7 @@ Allocator
 /
 /
 /
-void
+bool
 GCRuntime
 :
 :
@@ -2924,6 +2924,7 @@ helperLock
 )
 )
 return
+true
 ;
 /
 /
@@ -2956,6 +2957,7 @@ joinWithLockHeld
 helperLock
 )
 ;
+return
 allocTask
 .
 startWithLockHeld

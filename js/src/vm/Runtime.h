@@ -6847,6 +6847,11 @@ startBackgroundAllocTaskIfIdle
 (
 )
 ;
+/
+/
+Ignore
+failure
+.
 }
 /
 *

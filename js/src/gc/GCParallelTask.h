@@ -475,6 +475,7 @@ exactly
 like
 pthreads
 .
+MOZ_MUST_USE
 bool
 start
 (
@@ -516,6 +517,7 @@ use
 these
 methods
 .
+MOZ_MUST_USE
 bool
 startWithLockHeld
 (
