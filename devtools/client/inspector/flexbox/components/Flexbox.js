@@ -375,6 +375,12 @@ flexbox
 if
 (
 flexItemShown
+|
+|
+!
+flexItems
+.
+length
 )
 {
 return
