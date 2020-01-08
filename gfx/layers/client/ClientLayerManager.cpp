@@ -2909,6 +2909,17 @@ FlushAsyncPaints
 (
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+ClientLayerManager
+:
+:
+FlushAsyncPaints
+"
+GRAPHICS
+)
+;
 CompositorBridgeChild
 *
 cbc
