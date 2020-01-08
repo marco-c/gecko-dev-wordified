@@ -8547,7 +8547,7 @@ use
 hash
 :
 :
-FxHashSet
+FnvHashSet
 ;
 let
 me
@@ -8584,7 +8584,7 @@ let
 mut
 seen
 =
-FxHashSet
+FnvHashSet
 :
 :
 default

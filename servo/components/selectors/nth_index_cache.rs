@@ -57,10 +57,10 @@ MPL
 *
 /
 use
-fxhash
+fnv
 :
 :
-FxHashMap
+FnvHashMap
 ;
 use
 tree
@@ -266,7 +266,7 @@ pub
 struct
 NthIndexCacheInner
 (
-FxHashMap
+FnvHashMap
 <
 OpaqueElement
 i32

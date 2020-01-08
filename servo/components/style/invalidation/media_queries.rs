@@ -79,10 +79,10 @@ context
 QuirksMode
 ;
 use
-fxhash
+fnv
 :
 :
-FxHashSet
+FnvHashSet
 ;
 use
 media_queries
@@ -469,7 +469,7 @@ time
 .
 set
 :
-FxHashSet
+FnvHashSet
 <
 MediaListKey
 >
@@ -499,7 +499,7 @@ Self
 {
 set
 :
-FxHashSet
+FnvHashSet
 :
 :
 default

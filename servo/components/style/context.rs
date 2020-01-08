@@ -144,10 +144,10 @@ euclid
 TypedScale
 ;
 use
-fxhash
+fnv
 :
 :
-FxHashMap
+FnvHashMap
 ;
 use
 font_metrics
@@ -1171,7 +1171,7 @@ Arc
 <
 RwLock
 <
-FxHashMap
+FnvHashMap
 <
 OpaqueNode
 Vec
@@ -1215,7 +1215,7 @@ Arc
 <
 RwLock
 <
-FxHashMap
+FnvHashMap
 <
 OpaqueNode
 Vec
@@ -4033,7 +4033,7 @@ apply
 .
 map
 :
-FxHashMap
+FnvHashMap
 <
 SendElement
 <
@@ -4158,7 +4158,7 @@ SelectorFlagsMap
 {
 map
 :
-FxHashMap
+FnvHashMap
 :
 :
 default
@@ -6074,7 +6074,7 @@ self
 -
 >
 &
-FxHashMap
+FnvHashMap
 <
 Atom
 PropertyId

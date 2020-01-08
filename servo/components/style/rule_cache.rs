@@ -78,10 +78,10 @@ reset
 properties
 .
 use
-fxhash
+fnv
 :
 :
-FxHashMap
+FnvHashMap
 ;
 use
 logical_geometry
@@ -481,7 +481,7 @@ that
 ?
 map
 :
-FxHashMap
+FnvHashMap
 <
 StrongRuleNode
 SmallVec
@@ -524,7 +524,7 @@ Self
 {
 map
 :
-FxHashMap
+FnvHashMap
 :
 :
 default
