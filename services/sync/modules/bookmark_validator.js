@@ -5738,7 +5738,6 @@ keyword
 tags
 pos
 queryId
-loadInSidebar
 *
 -
 root

@@ -421,9 +421,6 @@ _additionalInfoFields
 :
 [
 "
-editBMPanel_loadInSidebarCheckbox
-"
-"
 editBMPanel_keywordRow
 "
 ]
@@ -4911,9 +4908,6 @@ hiddenRows
 [
 "
 folderPicker
-"
-"
-loadInSidebar
 "
 "
 location

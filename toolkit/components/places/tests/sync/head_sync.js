@@ -1086,11 +1086,6 @@ PlacesSyncUtils
 .
 bookmarks
 .
-SIDEBAR_ANNO
-PlacesSyncUtils
-.
-bookmarks
-.
 SMART_BOOKMARKS_ANNO
 PlacesUtils
 .

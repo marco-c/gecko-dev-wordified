@@ -517,12 +517,6 @@ awesome
 ;
 fxrecord
 .
-loadInSidebar
-=
-false
-;
-fxrecord
-.
 parentName
 =
 BookmarksToolbarTitle

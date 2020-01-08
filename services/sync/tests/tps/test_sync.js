@@ -161,9 +161,6 @@ google
 .
 com
 "
-loadInSidebar
-:
-true
 tags
 :
 [
@@ -188,9 +185,6 @@ title
 "
 Google
 "
-loadInSidebar
-:
-false
 tags
 :
 [
@@ -629,9 +623,6 @@ title
 "
 Google
 "
-loadInSidebar
-:
-false
 tags
 :
 [
@@ -941,9 +932,6 @@ title
 "
 Google
 "
-loadInSidebar
-:
-false
 tags
 :
 [

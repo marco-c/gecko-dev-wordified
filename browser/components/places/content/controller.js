@@ -1908,9 +1908,6 @@ keyword
 "
 location
 "
-"
-loadInSidebar
-"
 ]
 uri
 :
