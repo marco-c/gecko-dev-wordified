@@ -205,6 +205,13 @@ HeadlessClipboard
 h
 "
 #
+include
+"
+IMContextWrapper
+.
+h
+"
+#
 ifdef
 MOZ_X11
 #
@@ -1837,6 +1844,13 @@ nsWindow
 :
 :
 ReleaseGlobals
+(
+)
+;
+IMContextWrapper
+:
+:
+Shutdown
 (
 )
 ;

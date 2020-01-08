@@ -19510,6 +19510,13 @@ children
 next
 ;
 }
+IMContextWrapper
+:
+:
+OnThemeChanged
+(
+)
+;
 }
 void
 nsWindow
