@@ -396,12 +396,14 @@ cx
 InterpreterActivation
 &
 activation
-HandleObject
-obj
+Handle
+<
+GeneratorObject
+*
+>
+genObj
 HandleValue
 arg
-ResumeKind
-resumeKind
 )
 ;
 static
@@ -997,7 +999,7 @@ setClosing
 {
 MOZ_ASSERT
 (
-isSuspended
+isRunning
 (
 )
 )
