@@ -1492,7 +1492,7 @@ response
 await
 this
 .
-modifySelector2
+_modifySelector
 (
 node
 value
@@ -1507,7 +1507,7 @@ response
 await
 this
 .
-modifySelector2
+_modifySelector
 (
 node
 value
