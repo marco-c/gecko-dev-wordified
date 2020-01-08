@@ -189,3 +189,10 @@ action
 "
 )
 ;
+DenseMap
+<
+unsigned
+bool
+>
+InThirdPartyPathCache
+;
