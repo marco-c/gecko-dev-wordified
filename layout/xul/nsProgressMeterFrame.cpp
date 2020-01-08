@@ -361,6 +361,9 @@ NS_NewProgressMeterFrame
 nsIPresShell
 *
 aPresShell
+mozilla
+:
+:
 ComputedStyle
 *
 aStyle
