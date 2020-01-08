@@ -18421,6 +18421,7 @@ startTime
 }
 ;
 }
+async
 recordTiming
 (
 name
@@ -18440,6 +18441,7 @@ name
 try
 {
 return
+await
 task
 (
 )
