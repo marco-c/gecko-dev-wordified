@@ -746,6 +746,16 @@ f32
 LayoutPixel
 >
 ;
+pub
+type
+LayoutSideOffsets
+=
+TypedSideOffsets2D
+<
+f32
+LayoutPixel
+>
+;
 /
 /
 /
