@@ -5909,7 +5909,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -5952,7 +5952,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -6347,7 +6347,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -12753,7 +12753,7 @@ surface
 DecodeAndCropBlobCompletedMainThread
 (
 nullptr
-NS_ERROR_FAILURE
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -12990,7 +12990,7 @@ croppedSurface
 DecodeAndCropBlobCompletedMainThread
 (
 nullptr
-NS_ERROR_FAILURE
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -13033,7 +13033,7 @@ image
 DecodeAndCropBlobCompletedMainThread
 (
 nullptr
-NS_ERROR_FAILURE
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
