@@ -170,6 +170,15 @@ Likely
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Poison
+.
+h
+"
 /
 /
 We
@@ -1255,6 +1264,9 @@ char
 *
 const
 mLogName
+;
+CorruptionCanary
+mCanary
 ;
 Atomic
 <
