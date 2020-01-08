@@ -764,13 +764,12 @@ WindowID
 ;
 isTopLevel
 =
-top
+outer
 -
 >
 IsTopLevelWindow
 (
 )
-;
 ;
 docURI
 -
