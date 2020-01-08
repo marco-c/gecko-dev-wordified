@@ -4637,6 +4637,10 @@ LonghandId
 for
 NonCustomPropertyId
 {
+#
+[
+inline
+]
 fn
 from
 (
@@ -4664,6 +4668,10 @@ ShorthandId
 for
 NonCustomPropertyId
 {
+#
+[
+inline
+]
 fn
 from
 (
@@ -4702,6 +4710,10 @@ AliasId
 for
 NonCustomPropertyId
 {
+#
+[
+inline
+]
 fn
 from
 (

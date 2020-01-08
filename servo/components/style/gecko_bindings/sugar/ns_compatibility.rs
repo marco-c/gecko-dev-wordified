@@ -87,6 +87,10 @@ nsCompatibility
 for
 QuirksMode
 {
+#
+[
+inline
+]
 fn
 from
 (
