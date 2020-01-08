@@ -420,13 +420,23 @@ checkout_root
 :
         
 #
-Already
+Clang
+/
+llvm
+already
 installed
 as
 browser
 package
         
-pass
+self
+.
+ensure_rust_package
+(
+'
+cbindgen
+'
+)
     
 def
 upgrade_mercurial

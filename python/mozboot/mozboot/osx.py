@@ -3994,13 +3994,20 @@ checkout_root
 #
 We
 installed
-these
+clang
 via
 homebrew
 earlier
 .
         
-pass
+self
+.
+ensure_rust_package
+(
+'
+cbindgen
+'
+)
     
 def
 ensure_node_packages
