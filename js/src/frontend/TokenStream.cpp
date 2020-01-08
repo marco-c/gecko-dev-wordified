@@ -3806,6 +3806,7 @@ findWindowStart
 size_t
 offset
 )
+const
 {
 /
 /
@@ -4200,6 +4201,7 @@ findWindowEnd
 size_t
 offset
 )
+const
 {
 const
 char16_t
