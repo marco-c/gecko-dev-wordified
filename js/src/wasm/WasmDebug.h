@@ -872,7 +872,7 @@ callSites
 ;
 }
 uint32_t
-debugFuncToCodeRangeIndex
+funcToCodeRangeIndex
 (
 uint32_t
 funcIndex
@@ -888,7 +888,7 @@ Tier
 Debug
 )
 .
-debugFuncToCodeRange
+funcToCodeRange
 [
 funcIndex
 ]

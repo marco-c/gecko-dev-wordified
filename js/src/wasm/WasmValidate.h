@@ -1095,7 +1095,7 @@ wasm
 module
 tail
 :
-DataSegmentVector
+DataSegmentEnvVector
 dataSegments
 ;
 Maybe
