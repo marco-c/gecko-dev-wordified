@@ -402,6 +402,39 @@ name
 is
 shown
         
+l10n_header
+=
+self
+.
+browser
+.
+localize_property
+(
+'
+identity
+.
+headerWithHost
+'
+)
+        
+l10n_header
+=
+l10n_header
+.
+replace
+(
+'
+%
+S
+'
+cert
+[
+'
+organization
+'
+]
+)
+        
 self
 .
 assertEqual
@@ -414,7 +447,7 @@ view
 .
 main
 .
-host
+header
 .
 get_property
 (
@@ -423,12 +456,7 @@ textContent
 '
 )
                          
-cert
-[
-'
-organization
-'
-]
+l10n_header
 )
         
 #
