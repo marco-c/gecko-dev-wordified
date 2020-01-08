@@ -109,6 +109,12 @@ std
 :
 :
 io
+;
+use
+std
+:
+:
+io
 :
 :
 BufWriter
@@ -121,12 +127,6 @@ io
 :
 :
 Cursor
-;
-use
-std
-:
-:
-io
 ;
 use
 std
@@ -1303,6 +1303,7 @@ Ok
 (
 )
 )
+;
 }
 match
 name
@@ -1628,11 +1629,13 @@ level
 )
 )
 )
+;
 }
 }
 x
 =
 >
+{
 return
 Err
 (
@@ -1659,6 +1662,7 @@ x
 )
 )
 )
+}
 }
 }
 }
@@ -1706,6 +1710,7 @@ all
 |
 x
 |
+{
 x
 .
 is_string
@@ -1732,6 +1737,7 @@ x
 is_boolean
 (
 )
+}
 )
 {
 return
@@ -1765,6 +1771,7 @@ boolean
 x
 =
 >
+{
 return
 Err
 (
@@ -1793,6 +1800,7 @@ x
 )
 )
 )
+}
 }
 }
 }
@@ -1883,6 +1891,7 @@ boolean
 _
 =
 >
+{
 return
 Err
 (
@@ -1908,6 +1917,7 @@ name
 )
 )
 )
+}
 }
 Ok
 (
@@ -3066,7 +3076,6 @@ map_err
 |
 _
 |
-{
 WebDriverError
 :
 :
@@ -3083,7 +3092,6 @@ unzip
 profile
 "
 )
-}
 )
 )
 ;
@@ -3118,7 +3126,6 @@ map_err
 |
 _
 |
-{
 WebDriverError
 :
 :
@@ -3136,7 +3143,6 @@ file
 failed
 "
 )
-}
 )
 )
 ;
