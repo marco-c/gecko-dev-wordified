@@ -117,6 +117,15 @@ MPL
 #
 include
 "
+js
+/
+JSON
+.
+h
+"
+#
+include
+"
 nsArrayUtils
 .
 h

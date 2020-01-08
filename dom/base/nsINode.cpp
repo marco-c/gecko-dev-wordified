@@ -150,6 +150,15 @@ h
 #
 include
 "
+js
+/
+JSON
+.
+h
+"
+#
+include
+"
 mozAutoDocUpdate
 .
 h
