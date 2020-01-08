@@ -297,20 +297,6 @@ DAMAGE
 .
 /
 /
-/
-/
-Author
-:
-wan
-google
-.
-com
-(
-Zhanyong
-Wan
-)
-/
-/
 This
 sample
 shows
@@ -362,6 +348,8 @@ gtest
 .
 h
 "
+namespace
+{
 /
 /
 First
@@ -1997,3 +1985,7 @@ endif
 /
 /
 GTEST_HAS_TYPED_TEST_P
+}
+/
+/
+namespace

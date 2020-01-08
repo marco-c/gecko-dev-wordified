@@ -297,20 +297,6 @@ DAMAGE
 .
 /
 /
-/
-/
-Author
-:
-vladl
-google
-.
-com
-(
-Vlad
-Losev
-)
-/
-/
 This
 sample
 shows
@@ -379,6 +365,8 @@ gtest
 .
 h
 "
+namespace
+{
 #
 if
 GTEST_HAS_COMBINE
@@ -1407,3 +1395,7 @@ endif
 /
 /
 GTEST_HAS_COMBINE
+}
+/
+/
+namespace

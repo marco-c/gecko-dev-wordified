@@ -311,20 +311,6 @@ framework
 .
 /
 /
-/
-/
-Author
-:
-wan
-google
-.
-com
-(
-Zhanyong
-Wan
-)
-/
-/
 This
 sample
 shows
@@ -419,6 +405,8 @@ gtest
 .
 h
 "
+namespace
+{
 /
 /
 In
@@ -887,3 +875,7 @@ c_string
 )
 ;
 }
+}
+/
+/
+namespace

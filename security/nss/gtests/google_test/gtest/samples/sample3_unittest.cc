@@ -311,20 +311,6 @@ framework
 .
 /
 /
-/
-/
-Author
-:
-wan
-google
-.
-com
-(
-Zhanyong
-Wan
-)
-/
-/
 In
 this
 example
@@ -666,6 +652,8 @@ gtest
 .
 h
 "
+namespace
+{
 /
 /
 To
@@ -683,7 +671,7 @@ testing
 Test
 .
 class
-QueueTest
+QueueTestSmpl3
 :
 public
 testing
@@ -744,7 +732,7 @@ need
 to
 initialize
 the
-varaibles
+variables
 .
 /
 /
@@ -1103,7 +1091,7 @@ tor
 .
 TEST_F
 (
-QueueTest
+QueueTestSmpl3
 DefaultConstructor
 )
 {
@@ -1139,7 +1127,7 @@ Dequeue
 .
 TEST_F
 (
-QueueTest
+QueueTestSmpl3
 Dequeue
 )
 {
@@ -1248,7 +1236,7 @@ function
 .
 TEST_F
 (
-QueueTest
+QueueTestSmpl3
 Map
 )
 {
@@ -1271,3 +1259,7 @@ q2_
 )
 ;
 }
+}
+/
+/
+namespace

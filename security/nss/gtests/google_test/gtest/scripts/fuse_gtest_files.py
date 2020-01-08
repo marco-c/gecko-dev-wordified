@@ -478,23 +478,29 @@ com
 You
 can
 read
-http
+https
 :
 /
 /
-code
-.
-google
+github
 .
 com
 /
-p
+google
 /
 googletest
 /
-wiki
+blob
 /
-GoogleTestAdvancedGuide
+master
+/
+googletest
+/
+docs
+/
+advanced
+.
+md
 for
 more
 information
@@ -518,8 +524,27 @@ import
 os
 import
 re
-import
+try
+:
+  
+from
 sets
+import
+Set
+as
+set
+#
+For
+Python
+2
+.
+3
+compatibility
+except
+ImportError
+:
+  
+pass
 import
 sys
 #
@@ -787,6 +812,7 @@ relative_path
 :
     
 print
+(
 '
 ERROR
 :
@@ -806,6 +832,7 @@ relative_path
                                                       
 directory
 )
+)
     
 print
 (
@@ -819,7 +846,7 @@ project
 root
 directory
 '
-           
+          
 '
 or
 omit
@@ -1022,7 +1049,7 @@ N
 )
 '
 %
-           
+          
 (
 relative_path
 output_dir
@@ -1058,10 +1085,12 @@ Y
 :
       
 print
+(
 '
 ABORTED
 .
 '
+)
       
 sys
 .
@@ -1197,7 +1226,7 @@ output_dir
   
 output_file
 =
-file
+open
 (
 os
 .
@@ -1215,9 +1244,7 @@ w
   
 processed_files
 =
-sets
-.
-Set
+set
 (
 )
 #
@@ -1293,7 +1320,7 @@ header
 for
 line
 in
-file
+open
 (
 os
 .
@@ -1427,9 +1454,7 @@ output_file
   
 processed_files
 =
-sets
-.
-Set
+set
 (
 )
   
@@ -1498,7 +1523,7 @@ file
 for
 line
 in
-file
+open
 (
 os
 .
@@ -1807,7 +1832,7 @@ output_dir
   
 output_file
 =
-file
+open
 (
 os
 .
@@ -1954,7 +1979,9 @@ else
 :
     
 print
+(
 __doc__
+)
     
 sys
 .
