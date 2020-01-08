@@ -802,6 +802,13 @@ options
 )
 )
 {
+mServiceThread
+-
+>
+Stop
+(
+)
+;
 delete
 mServiceThread
 ;
@@ -860,6 +867,13 @@ mServiceThread
 mShutdownRequested
 =
 true
+;
+mServiceThread
+-
+>
+Stop
+(
+)
 ;
 delete
 mServiceThread
