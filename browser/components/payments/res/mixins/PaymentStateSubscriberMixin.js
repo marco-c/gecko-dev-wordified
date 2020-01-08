@@ -115,11 +115,6 @@ PaymentsStore
 changesPrevented
 :
 false
-completionState
-:
-"
-initial
-"
 orderDetailsShowing
 :
 false
@@ -198,6 +193,11 @@ selectedStateKey
 request
 :
 {
+completeStatus
+:
+"
+initial
+"
 tabId
 :
 null
