@@ -166,14 +166,6 @@ mozharness
 .
 base
 .
-transfer
-import
-TransferMixin
-from
-mozharness
-.
-base
-.
 vcs
 .
 vcsbase
@@ -394,8 +386,6 @@ AutomationMixin
 VCSMixin
 BaseScript
 MarMixin
-                          
-TransferMixin
 )
 :
     
