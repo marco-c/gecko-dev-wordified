@@ -6086,7 +6086,7 @@ FontStyleAngle
 Angle
 :
 :
-Deg
+from_degrees
 (
 animated
 .
@@ -6310,7 +6310,7 @@ FontStyleAngle
 Angle
 :
 :
-Deg
+from_degrees
 (
 specified
 :
@@ -6437,7 +6437,7 @@ FontStyleAngle
 Angle
 :
 :
-Deg
+from_degrees
 (
 angle
 )

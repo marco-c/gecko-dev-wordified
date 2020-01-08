@@ -2296,7 +2296,7 @@ ComputedAngle
 ComputedAngle
 :
 :
-Deg
+from_degrees
 (
 Self
 :
