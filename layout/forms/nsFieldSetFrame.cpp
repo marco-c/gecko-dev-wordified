@@ -3297,9 +3297,6 @@ ReflowOutput
 kidDesiredSize
 (
 kidReflowInput
-aDesiredSize
-.
-mFlags
 )
 ;
 /

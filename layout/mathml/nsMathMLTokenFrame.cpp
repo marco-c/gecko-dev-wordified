@@ -796,9 +796,6 @@ aReflowInput
 GetWritingMode
 (
 )
-aDesiredSize
-.
-mFlags
 )
 ;
 WritingMode
