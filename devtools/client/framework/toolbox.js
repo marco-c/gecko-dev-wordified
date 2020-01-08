@@ -12905,7 +12905,7 @@ the
 visibilitychange
 '
 event
-win
+doc
 .
 dispatchEvent
 (

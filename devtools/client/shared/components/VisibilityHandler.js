@@ -207,7 +207,7 @@ componentDidMount
 (
 )
 {
-window
+document
 .
 addEventListener
 (
@@ -239,7 +239,7 @@ componentWillUnmount
 (
 )
 {
-window
+document
 .
 removeEventListener
 (
