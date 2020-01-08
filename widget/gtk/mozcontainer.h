@@ -538,6 +538,9 @@ wl_egl_window
 *
 eglwindow
 ;
+gboolean
+committed
+;
 #
 endif
 }
