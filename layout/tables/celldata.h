@@ -1118,7 +1118,7 @@ nscoord
 BC_BORDER_START_HALF_COORD
 (
 int32_t
-p2t
+d2a
 BCPixelSize
 px
 )
@@ -1129,7 +1129,7 @@ BC_BORDER_START_HALF
 px
 )
 *
-p2t
+d2a
 ;
 }
 static
@@ -1138,7 +1138,7 @@ nscoord
 BC_BORDER_END_HALF_COORD
 (
 int32_t
-p2t
+d2a
 BCPixelSize
 px
 )
@@ -1149,7 +1149,7 @@ BC_BORDER_END_HALF
 px
 )
 *
-p2t
+d2a
 ;
 }
 /
