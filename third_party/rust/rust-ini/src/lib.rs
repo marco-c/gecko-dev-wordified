@@ -480,14 +480,6 @@ v
 /
 /
 !
-#
-[
-macro_use
-]
-extern
-crate
-log
-;
 pub
 use
 ini
