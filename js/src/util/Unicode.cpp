@@ -24109,6 +24109,7 @@ codePoint
 =
 0x1000B
 )
+{
 /
 /
 LINEAR
@@ -24126,6 +24127,7 @@ JE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24139,6 +24141,7 @@ codePoint
 =
 0x10026
 )
+{
 /
 /
 LINEAR
@@ -24156,6 +24159,7 @@ QO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24169,6 +24173,7 @@ codePoint
 =
 0x1003A
 )
+{
 /
 /
 LINEAR
@@ -24186,6 +24191,7 @@ WO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24199,6 +24205,7 @@ codePoint
 =
 0x1003D
 )
+{
 /
 /
 LINEAR
@@ -24216,6 +24223,7 @@ ZE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24229,6 +24237,7 @@ codePoint
 =
 0x1004D
 )
+{
 /
 /
 LINEAR
@@ -24246,6 +24255,7 @@ TWO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24259,6 +24269,7 @@ codePoint
 =
 0x1005D
 )
+{
 /
 /
 LINEAR
@@ -24274,6 +24285,7 @@ B089
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24287,6 +24299,7 @@ codePoint
 =
 0x100FA
 )
+{
 /
 /
 LINEAR
@@ -24304,6 +24317,7 @@ B305
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24317,6 +24331,7 @@ codePoint
 =
 0x10174
 )
+{
 /
 /
 GREEK
@@ -24334,6 +24349,7 @@ MNAS
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24347,6 +24363,7 @@ codePoint
 =
 0x1029C
 )
+{
 /
 /
 LYCIAN
@@ -24360,6 +24377,7 @@ X
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24373,6 +24391,7 @@ codePoint
 =
 0x102D0
 )
+{
 /
 /
 CARIAN
@@ -24386,6 +24405,7 @@ UUU3
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24399,6 +24419,7 @@ codePoint
 =
 0x1031F
 )
+{
 /
 /
 OLD
@@ -24414,6 +24435,7 @@ ESS
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24427,6 +24449,7 @@ codePoint
 =
 0x1034A
 )
+{
 /
 /
 OLD
@@ -24442,6 +24465,7 @@ HUNDRED
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24455,6 +24479,7 @@ codePoint
 =
 0x10375
 )
+{
 /
 /
 OLD
@@ -24470,6 +24495,7 @@ IA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24483,6 +24509,7 @@ codePoint
 =
 0x1039D
 )
+{
 /
 /
 UGARITIC
@@ -24496,6 +24523,7 @@ SSU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24509,6 +24537,7 @@ codePoint
 =
 0x103C3
 )
+{
 /
 /
 OLD
@@ -24524,6 +24553,7 @@ HA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24537,6 +24567,7 @@ codePoint
 =
 0x103CF
 )
+{
 /
 /
 OLD
@@ -24552,6 +24583,7 @@ BUUMISH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24565,6 +24597,7 @@ codePoint
 =
 0x103D5
 )
+{
 /
 /
 OLD
@@ -24580,6 +24613,7 @@ HUNDRED
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24593,6 +24627,7 @@ codePoint
 =
 0x1049D
 )
+{
 /
 /
 DESERET
@@ -24608,6 +24643,7 @@ OO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24621,6 +24657,7 @@ codePoint
 =
 0x104D3
 )
+{
 /
 /
 OSAGE
@@ -24636,6 +24673,7 @@ ZHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24649,6 +24687,7 @@ codePoint
 =
 0x104FB
 )
+{
 /
 /
 OSAGE
@@ -24664,6 +24703,7 @@ ZHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24677,6 +24717,7 @@ codePoint
 =
 0x10527
 )
+{
 /
 /
 ELBASAN
@@ -24690,6 +24731,7 @@ KHE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24703,6 +24745,7 @@ codePoint
 =
 0x10563
 )
+{
 /
 /
 CAUCASIAN
@@ -24718,6 +24761,7 @@ KIW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24731,6 +24775,7 @@ codePoint
 =
 0x10736
 )
+{
 /
 /
 LINEAR
@@ -24746,6 +24791,7 @@ A664
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24759,6 +24805,7 @@ codePoint
 =
 0x10755
 )
+{
 /
 /
 LINEAR
@@ -24776,6 +24823,7 @@ JE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24789,6 +24837,7 @@ codePoint
 =
 0x10767
 )
+{
 /
 /
 LINEAR
@@ -24804,6 +24853,7 @@ A807
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24817,6 +24867,7 @@ codePoint
 =
 0x10805
 )
+{
 /
 /
 CYPRIOT
@@ -24830,6 +24881,7 @@ JA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24843,6 +24895,7 @@ codePoint
 =
 0x10808
 )
+{
 /
 /
 CYPRIOT
@@ -24856,6 +24909,7 @@ JO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24869,6 +24923,7 @@ codePoint
 =
 0x10835
 )
+{
 /
 /
 CYPRIOT
@@ -24882,6 +24937,7 @@ WO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24895,6 +24951,7 @@ codePoint
 =
 0x10838
 )
+{
 /
 /
 CYPRIOT
@@ -24908,6 +24965,7 @@ XE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24921,6 +24979,7 @@ codePoint
 =
 0x1083C
 )
+{
 /
 /
 CYPRIOT
@@ -24934,6 +24993,7 @@ ZA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24947,6 +25007,7 @@ codePoint
 =
 0x10855
 )
+{
 /
 /
 CYPRIOT
@@ -24961,6 +25022,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -24974,6 +25036,7 @@ codePoint
 =
 0x10876
 )
+{
 /
 /
 PALMYRENE
@@ -24987,6 +25050,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25000,6 +25064,7 @@ codePoint
 =
 0x1089E
 )
+{
 /
 /
 NABATAEAN
@@ -25014,6 +25079,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25027,6 +25093,7 @@ codePoint
 =
 0x108F2
 )
+{
 /
 /
 HATRAN
@@ -25040,6 +25107,7 @@ QOPH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25053,6 +25121,7 @@ codePoint
 =
 0x108F5
 )
+{
 /
 /
 HATRAN
@@ -25066,6 +25135,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25079,6 +25149,7 @@ codePoint
 =
 0x10915
 )
+{
 /
 /
 PHOENICIAN
@@ -25092,6 +25163,7 @@ TAU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25105,6 +25177,7 @@ codePoint
 =
 0x10939
 )
+{
 /
 /
 LYDIAN
@@ -25118,6 +25191,7 @@ C
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25131,6 +25205,7 @@ codePoint
 =
 0x109B7
 )
+{
 /
 /
 MEROITIC
@@ -25146,6 +25221,7 @@ DA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25159,6 +25235,7 @@ codePoint
 =
 0x109BF
 )
+{
 /
 /
 MEROITIC
@@ -25174,6 +25251,7 @@ IMN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25187,6 +25265,7 @@ codePoint
 =
 0x10A00
 )
+{
 /
 /
 KHAROSHTHI
@@ -25200,6 +25279,7 @@ A
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25213,6 +25293,7 @@ codePoint
 =
 0x10A13
 )
+{
 /
 /
 KHAROSHTHI
@@ -25226,6 +25307,7 @@ GHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25239,6 +25321,7 @@ codePoint
 =
 0x10A17
 )
+{
 /
 /
 KHAROSHTHI
@@ -25252,6 +25335,7 @@ JA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25265,6 +25349,7 @@ codePoint
 =
 0x10A35
 )
+{
 /
 /
 KHAROSHTHI
@@ -25278,6 +25363,7 @@ VHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25291,6 +25377,7 @@ codePoint
 =
 0x10A7C
 )
+{
 /
 /
 OLD
@@ -25308,6 +25395,7 @@ THETH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25321,6 +25409,7 @@ codePoint
 =
 0x10A9C
 )
+{
 /
 /
 OLD
@@ -25338,6 +25427,7 @@ ZAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25351,6 +25441,7 @@ codePoint
 =
 0x10AC7
 )
+{
 /
 /
 MANICHAEAN
@@ -25364,6 +25455,7 @@ WAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25377,6 +25469,7 @@ codePoint
 =
 0x10AE4
 )
+{
 /
 /
 MANICHAEAN
@@ -25390,6 +25483,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25403,6 +25497,7 @@ codePoint
 =
 0x10B35
 )
+{
 /
 /
 AVESTAN
@@ -25416,6 +25511,7 @@ HE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25429,6 +25525,7 @@ codePoint
 =
 0x10B55
 )
+{
 /
 /
 INSCRIPTIONAL
@@ -25444,6 +25541,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25457,6 +25555,7 @@ codePoint
 =
 0x10B72
 )
+{
 /
 /
 INSCRIPTIONAL
@@ -25472,6 +25571,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25485,6 +25585,7 @@ codePoint
 =
 0x10B91
 )
+{
 /
 /
 PSALTER
@@ -25500,6 +25601,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25513,6 +25615,7 @@ codePoint
 =
 0x10C48
 )
+{
 /
 /
 OLD
@@ -25530,6 +25633,7 @@ BASH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25543,6 +25647,7 @@ codePoint
 =
 0x10CB2
 )
+{
 /
 /
 OLD
@@ -25560,6 +25665,7 @@ US
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25573,6 +25679,7 @@ codePoint
 =
 0x10CF2
 )
+{
 /
 /
 OLD
@@ -25590,6 +25697,7 @@ US
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25603,6 +25711,7 @@ codePoint
 =
 0x10D23
 )
+{
 /
 /
 HANIFI
@@ -25619,6 +25728,7 @@ KHONNA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25632,6 +25742,7 @@ codePoint
 =
 0x10F1C
 )
+{
 /
 /
 OLD
@@ -25651,6 +25762,7 @@ TAIL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25664,6 +25776,7 @@ codePoint
 =
 0x10F27
 )
+{
 /
 /
 OLD
@@ -25683,6 +25796,7 @@ DALETH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25696,6 +25810,7 @@ codePoint
 =
 0x10F45
 )
+{
 /
 /
 SOGDIAN
@@ -25709,6 +25824,7 @@ SHIN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25722,6 +25838,7 @@ codePoint
 =
 0x11037
 )
+{
 /
 /
 BRAHMI
@@ -25737,6 +25854,7 @@ NNNA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25750,6 +25868,7 @@ codePoint
 =
 0x110AF
 )
+{
 /
 /
 KAITHI
@@ -25763,6 +25882,7 @@ HA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25776,6 +25896,7 @@ codePoint
 =
 0x110E8
 )
+{
 /
 /
 SORA
@@ -25791,6 +25912,7 @@ MAE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25804,6 +25926,7 @@ codePoint
 =
 0x11126
 )
+{
 /
 /
 CHAKMA
@@ -25817,6 +25940,7 @@ HAA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25830,6 +25954,7 @@ codePoint
 =
 0x11144
 )
+{
 /
 /
 CHAKMA
@@ -25843,6 +25968,7 @@ LHAA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25856,6 +25982,7 @@ codePoint
 =
 0x11172
 )
+{
 /
 /
 MAHAJANI
@@ -25869,6 +25996,7 @@ RRA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25882,6 +26010,7 @@ codePoint
 =
 0x11176
 )
+{
 /
 /
 MAHAJANI
@@ -25895,6 +26024,7 @@ SHRI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25908,6 +26038,7 @@ codePoint
 =
 0x111B2
 )
+{
 /
 /
 SHARADA
@@ -25921,6 +26052,7 @@ HA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25934,6 +26066,7 @@ codePoint
 =
 0x111C4
 )
+{
 /
 /
 SHARADA
@@ -25946,6 +26079,7 @@ OM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25959,6 +26093,7 @@ codePoint
 =
 0x111DA
 )
+{
 /
 /
 SHARADA
@@ -25970,6 +26105,7 @@ EKAM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -25983,6 +26119,7 @@ codePoint
 =
 0x111DC
 )
+{
 /
 /
 SHARADA
@@ -25994,6 +26131,7 @@ HEADSTROKE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26007,6 +26145,7 @@ codePoint
 =
 0x11211
 )
+{
 /
 /
 KHOJKI
@@ -26020,6 +26159,7 @@ JJA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26033,6 +26173,7 @@ codePoint
 =
 0x1122B
 )
+{
 /
 /
 KHOJKI
@@ -26046,6 +26187,7 @@ LLA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26059,6 +26201,7 @@ codePoint
 =
 0x11286
 )
+{
 /
 /
 MULTANI
@@ -26072,6 +26215,7 @@ GA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26085,6 +26229,7 @@ codePoint
 =
 0x11288
 )
+{
 /
 /
 MULTANI
@@ -26098,6 +26243,7 @@ GHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26111,6 +26257,7 @@ codePoint
 =
 0x1128D
 )
+{
 /
 /
 MULTANI
@@ -26124,6 +26271,7 @@ JJA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26137,6 +26285,7 @@ codePoint
 =
 0x1129D
 )
+{
 /
 /
 MULTANI
@@ -26150,6 +26299,7 @@ BA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26163,6 +26313,7 @@ codePoint
 =
 0x112A8
 )
+{
 /
 /
 MULTANI
@@ -26176,6 +26327,7 @@ RHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26189,6 +26341,7 @@ codePoint
 =
 0x112DE
 )
+{
 /
 /
 KHUDAWADI
@@ -26202,6 +26355,7 @@ HA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26215,6 +26369,7 @@ codePoint
 =
 0x1130C
 )
+{
 /
 /
 GRANTHA
@@ -26229,6 +26384,7 @@ L
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26242,6 +26398,7 @@ codePoint
 =
 0x11310
 )
+{
 /
 /
 GRANTHA
@@ -26255,6 +26412,7 @@ AI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26268,6 +26426,7 @@ codePoint
 =
 0x11328
 )
+{
 /
 /
 GRANTHA
@@ -26281,6 +26440,7 @@ NA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26294,6 +26454,7 @@ codePoint
 =
 0x11330
 )
+{
 /
 /
 GRANTHA
@@ -26307,6 +26468,7 @@ RA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26320,6 +26482,7 @@ codePoint
 =
 0x11333
 )
+{
 /
 /
 GRANTHA
@@ -26333,6 +26496,7 @@ LLA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26346,6 +26510,7 @@ codePoint
 =
 0x11339
 )
+{
 /
 /
 GRANTHA
@@ -26359,6 +26524,7 @@ HA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26372,6 +26538,7 @@ codePoint
 =
 0x1133D
 )
+{
 /
 /
 GRANTHA
@@ -26385,6 +26552,7 @@ AVAGRAHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26398,6 +26566,7 @@ codePoint
 =
 0x11350
 )
+{
 /
 /
 GRANTHA
@@ -26409,6 +26578,7 @@ OM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26422,6 +26592,7 @@ codePoint
 =
 0x11361
 )
+{
 /
 /
 GRANTHA
@@ -26436,6 +26607,7 @@ LL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26449,6 +26621,7 @@ codePoint
 =
 0x11434
 )
+{
 /
 /
 NEWA
@@ -26462,6 +26635,7 @@ HA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26475,6 +26649,7 @@ codePoint
 =
 0x1144A
 )
+{
 /
 /
 NEWA
@@ -26487,6 +26662,7 @@ SIDDHI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26500,6 +26676,7 @@ codePoint
 =
 0x114AF
 )
+{
 /
 /
 TIRHUTA
@@ -26512,6 +26689,7 @@ HA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26525,6 +26703,7 @@ codePoint
 =
 0x114C5
 )
+{
 /
 /
 TIRHUTA
@@ -26537,6 +26716,7 @@ GVANG
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26550,6 +26730,7 @@ codePoint
 =
 0x114C7
 )
+{
 /
 /
 TIRHUTA
@@ -26561,6 +26742,7 @@ OM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26574,6 +26756,7 @@ codePoint
 =
 0x115AE
 )
+{
 /
 /
 SIDDHAM
@@ -26587,6 +26770,7 @@ HA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26600,6 +26784,7 @@ codePoint
 =
 0x115DB
 )
+{
 /
 /
 SIDDHAM
@@ -26618,6 +26803,7 @@ U
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26631,6 +26817,7 @@ codePoint
 =
 0x1162F
 )
+{
 /
 /
 MODI
@@ -26644,6 +26831,7 @@ LLA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26657,6 +26845,7 @@ codePoint
 =
 0x11644
 )
+{
 /
 /
 MODI
@@ -26670,6 +26859,7 @@ HUVA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26683,6 +26873,7 @@ codePoint
 =
 0x116AA
 )
+{
 /
 /
 TAKRI
@@ -26696,6 +26887,7 @@ RRA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26709,6 +26901,7 @@ codePoint
 =
 0x1171A
 )
+{
 /
 /
 AHOM
@@ -26723,6 +26916,7 @@ BA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26736,6 +26930,7 @@ codePoint
 =
 0x1182B
 )
+{
 /
 /
 DOGRA
@@ -26749,6 +26944,7 @@ RRA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26762,6 +26958,7 @@ codePoint
 =
 0x118DF
 )
+{
 /
 /
 WARANG
@@ -26779,6 +26976,7 @@ VIYO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26792,6 +26990,7 @@ codePoint
 =
 0x118FF
 )
+{
 /
 /
 WARANG
@@ -26805,6 +27004,7 @@ OM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26818,6 +27018,7 @@ codePoint
 =
 0x11A00
 )
+{
 /
 /
 ZANABAZAR
@@ -26833,6 +27034,7 @@ A
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26846,6 +27048,7 @@ codePoint
 =
 0x11A32
 )
+{
 /
 /
 ZANABAZAR
@@ -26861,6 +27064,7 @@ KSSA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26874,6 +27078,7 @@ codePoint
 =
 0x11A3A
 )
+{
 /
 /
 ZANABAZAR
@@ -26895,6 +27100,7 @@ RA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26908,6 +27114,7 @@ codePoint
 =
 0x11A50
 )
+{
 /
 /
 SOYOMBO
@@ -26921,6 +27128,7 @@ A
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26934,6 +27142,7 @@ codePoint
 =
 0x11A83
 )
+{
 /
 /
 SOYOMBO
@@ -26947,6 +27156,7 @@ KSSA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26960,6 +27170,7 @@ codePoint
 =
 0x11A89
 )
+{
 /
 /
 SOYOMBO
@@ -26979,6 +27190,7 @@ SA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -26992,6 +27204,7 @@ codePoint
 =
 0x11A9D
 )
+{
 /
 /
 SOYOMBO
@@ -27005,6 +27218,7 @@ PLUTA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27018,6 +27232,7 @@ codePoint
 =
 0x11AF8
 )
+{
 /
 /
 PAU
@@ -27036,6 +27251,7 @@ FINAL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27049,6 +27265,7 @@ codePoint
 =
 0x11C08
 )
+{
 /
 /
 BHAIKSUKI
@@ -27063,6 +27280,7 @@ L
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27076,6 +27294,7 @@ codePoint
 =
 0x11C2E
 )
+{
 /
 /
 BHAIKSUKI
@@ -27089,6 +27308,7 @@ HA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27102,6 +27322,7 @@ codePoint
 =
 0x11C40
 )
+{
 /
 /
 BHAIKSUKI
@@ -27115,6 +27336,7 @@ AVAGRAHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27128,6 +27350,7 @@ codePoint
 =
 0x11C8F
 )
+{
 /
 /
 MARCHEN
@@ -27141,6 +27364,7 @@ A
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27154,6 +27378,7 @@ codePoint
 =
 0x11D06
 )
+{
 /
 /
 MASARAM
@@ -27169,6 +27394,7 @@ E
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27182,6 +27408,7 @@ codePoint
 =
 0x11D09
 )
+{
 /
 /
 MASARAM
@@ -27197,6 +27424,7 @@ O
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27210,6 +27438,7 @@ codePoint
 =
 0x11D30
 )
+{
 /
 /
 MASARAM
@@ -27225,6 +27454,7 @@ TRA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27238,6 +27468,7 @@ codePoint
 =
 0x11D46
 )
+{
 /
 /
 MASARAM
@@ -27251,6 +27482,7 @@ REPHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27264,6 +27496,7 @@ codePoint
 =
 0x11D65
 )
+{
 /
 /
 GUNJALA
@@ -27279,6 +27512,7 @@ UU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27292,6 +27526,7 @@ codePoint
 =
 0x11D68
 )
+{
 /
 /
 GUNJALA
@@ -27307,6 +27542,7 @@ AI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27320,6 +27556,7 @@ codePoint
 =
 0x11D89
 )
+{
 /
 /
 GUNJALA
@@ -27335,6 +27572,7 @@ SA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27348,6 +27586,7 @@ codePoint
 =
 0x11D98
 )
+{
 /
 /
 GUNJALA
@@ -27361,6 +27600,7 @@ OM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27374,6 +27614,7 @@ codePoint
 =
 0x11EF2
 )
+{
 /
 /
 MAKASAR
@@ -27386,6 +27627,7 @@ ANGKA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27399,6 +27641,7 @@ codePoint
 =
 0x12399
 )
+{
 /
 /
 CUNEIFORM
@@ -27413,6 +27656,7 @@ U
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27426,6 +27670,7 @@ codePoint
 =
 0x1246E
 )
+{
 /
 /
 CUNEIFORM
@@ -27445,6 +27690,7 @@ FORM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27458,6 +27704,7 @@ codePoint
 =
 0x12543
 )
+{
 /
 /
 CUNEIFORM
@@ -27478,6 +27725,7 @@ TENU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27491,6 +27739,7 @@ codePoint
 =
 0x1342E
 )
+{
 /
 /
 EGYPTIAN
@@ -27504,6 +27753,7 @@ AA032
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27517,6 +27767,7 @@ codePoint
 =
 0x14646
 )
+{
 /
 /
 ANATOLIAN
@@ -27530,6 +27781,7 @@ A530
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27543,6 +27795,7 @@ codePoint
 =
 0x16A38
 )
+{
 /
 /
 BAMUM
@@ -27563,6 +27816,7 @@ VUEQ
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27576,6 +27830,7 @@ codePoint
 =
 0x16A5E
 )
+{
 /
 /
 MRO
@@ -27589,6 +27844,7 @@ TEK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27602,6 +27858,7 @@ codePoint
 =
 0x16AED
 )
+{
 /
 /
 BASSA
@@ -27617,6 +27874,7 @@ I
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27630,6 +27888,7 @@ codePoint
 =
 0x16B2F
 )
+{
 /
 /
 PAHAWH
@@ -27645,6 +27904,7 @@ CAU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27658,6 +27918,7 @@ codePoint
 =
 0x16B43
 )
+{
 /
 /
 PAHAWH
@@ -27675,6 +27936,7 @@ YAM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27688,6 +27950,7 @@ codePoint
 =
 0x16B77
 )
+{
 /
 /
 PAHAWH
@@ -27706,6 +27969,7 @@ TOS
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27719,6 +27983,7 @@ codePoint
 =
 0x16B8F
 )
+{
 /
 /
 PAHAWH
@@ -27736,6 +28001,7 @@ VWJ
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27749,6 +28015,7 @@ codePoint
 =
 0x16E7F
 )
+{
 /
 /
 MEDEFAIDRIN
@@ -27764,6 +28031,7 @@ Y
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27777,6 +28045,7 @@ codePoint
 =
 0x16F44
 )
+{
 /
 /
 MIAO
@@ -27790,6 +28059,7 @@ HHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27803,6 +28073,7 @@ codePoint
 =
 0x16F50
 )
+{
 /
 /
 MIAO
@@ -27816,6 +28087,7 @@ NASALIZATION
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27829,6 +28101,7 @@ codePoint
 =
 0x16F9F
 )
+{
 /
 /
 MIAO
@@ -27847,6 +28120,7 @@ TONE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27860,6 +28134,7 @@ codePoint
 =
 0x16FE1
 )
+{
 /
 /
 TANGUT
@@ -27873,6 +28148,7 @@ MARK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27886,6 +28162,7 @@ codePoint
 =
 0x187F1
 )
+{
 /
 /
 Tangut
@@ -27897,6 +28174,7 @@ Ideograph
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27910,6 +28188,7 @@ codePoint
 =
 0x18AF2
 )
+{
 /
 /
 TANGUT
@@ -27925,6 +28204,7 @@ COMPONENT
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27938,6 +28218,7 @@ codePoint
 =
 0x1B11E
 )
+{
 /
 /
 KATAKANA
@@ -27958,6 +28239,7 @@ MO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27971,6 +28253,7 @@ codePoint
 =
 0x1B2FB
 )
+{
 /
 /
 NUSHU
@@ -27986,6 +28269,7 @@ CHARACTER
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -27999,6 +28283,7 @@ codePoint
 =
 0x1BC6A
 )
+{
 /
 /
 DUPLOYAN
@@ -28013,6 +28298,7 @@ M
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28026,6 +28312,7 @@ codePoint
 =
 0x1BC7C
 )
+{
 /
 /
 DUPLOYAN
@@ -28043,6 +28330,7 @@ HOOK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28056,6 +28344,7 @@ codePoint
 =
 0x1BC88
 )
+{
 /
 /
 DUPLOYAN
@@ -28071,6 +28360,7 @@ VERTICAL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28084,6 +28374,7 @@ codePoint
 =
 0x1BC99
 )
+{
 /
 /
 DUPLOYAN
@@ -28099,6 +28390,7 @@ ARROW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28112,6 +28404,7 @@ codePoint
 =
 0x1D454
 )
+{
 /
 /
 MATHEMATICAL
@@ -28127,6 +28420,7 @@ G
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28140,6 +28434,7 @@ codePoint
 =
 0x1D49C
 )
+{
 /
 /
 MATHEMATICAL
@@ -28155,6 +28450,7 @@ A
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28168,6 +28464,7 @@ codePoint
 =
 0x1D49F
 )
+{
 /
 /
 MATHEMATICAL
@@ -28183,6 +28480,7 @@ D
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28196,6 +28494,7 @@ codePoint
 =
 0x1D4A2
 )
+{
 /
 /
 MATHEMATICAL
@@ -28211,6 +28510,7 @@ G
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28224,6 +28524,7 @@ codePoint
 =
 0x1D4A6
 )
+{
 /
 /
 MATHEMATICAL
@@ -28239,6 +28540,7 @@ K
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28252,6 +28554,7 @@ codePoint
 =
 0x1D4AC
 )
+{
 /
 /
 MATHEMATICAL
@@ -28267,6 +28570,7 @@ Q
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28280,6 +28584,7 @@ codePoint
 =
 0x1D4B9
 )
+{
 /
 /
 MATHEMATICAL
@@ -28295,6 +28600,7 @@ D
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28308,6 +28614,7 @@ codePoint
 =
 0x1D4BB
 )
+{
 /
 /
 MATHEMATICAL
@@ -28323,6 +28630,7 @@ F
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28336,6 +28644,7 @@ codePoint
 =
 0x1D4C3
 )
+{
 /
 /
 MATHEMATICAL
@@ -28351,6 +28660,7 @@ N
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28364,6 +28674,7 @@ codePoint
 =
 0x1D505
 )
+{
 /
 /
 MATHEMATICAL
@@ -28379,6 +28690,7 @@ B
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28392,6 +28704,7 @@ codePoint
 =
 0x1D50A
 )
+{
 /
 /
 MATHEMATICAL
@@ -28407,6 +28720,7 @@ G
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28420,6 +28734,7 @@ codePoint
 =
 0x1D514
 )
+{
 /
 /
 MATHEMATICAL
@@ -28435,6 +28750,7 @@ Q
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28448,6 +28764,7 @@ codePoint
 =
 0x1D51C
 )
+{
 /
 /
 MATHEMATICAL
@@ -28463,6 +28780,7 @@ Y
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28476,6 +28794,7 @@ codePoint
 =
 0x1D539
 )
+{
 /
 /
 MATHEMATICAL
@@ -28493,6 +28812,7 @@ B
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28506,6 +28826,7 @@ codePoint
 =
 0x1D53E
 )
+{
 /
 /
 MATHEMATICAL
@@ -28525,6 +28846,7 @@ G
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28538,6 +28860,7 @@ codePoint
 =
 0x1D544
 )
+{
 /
 /
 MATHEMATICAL
@@ -28557,6 +28880,7 @@ M
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28570,6 +28894,7 @@ codePoint
 =
 0x1D546
 )
+{
 /
 /
 MATHEMATICAL
@@ -28589,6 +28914,7 @@ O
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28602,6 +28928,7 @@ codePoint
 =
 0x1D550
 )
+{
 /
 /
 MATHEMATICAL
@@ -28621,6 +28948,7 @@ Y
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28634,6 +28962,7 @@ codePoint
 =
 0x1D6A5
 )
+{
 /
 /
 MATHEMATICAL
@@ -28652,6 +28981,7 @@ J
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28665,6 +28995,7 @@ codePoint
 =
 0x1D6C0
 )
+{
 /
 /
 MATHEMATICAL
@@ -28680,6 +29011,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28693,6 +29025,7 @@ codePoint
 =
 0x1D6DA
 )
+{
 /
 /
 MATHEMATICAL
@@ -28708,6 +29041,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28721,6 +29055,7 @@ codePoint
 =
 0x1D6FA
 )
+{
 /
 /
 MATHEMATICAL
@@ -28736,6 +29071,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28749,6 +29085,7 @@ codePoint
 =
 0x1D714
 )
+{
 /
 /
 MATHEMATICAL
@@ -28764,6 +29101,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28777,6 +29115,7 @@ codePoint
 =
 0x1D734
 )
+{
 /
 /
 MATHEMATICAL
@@ -28793,6 +29132,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28806,6 +29146,7 @@ codePoint
 =
 0x1D74E
 )
+{
 /
 /
 MATHEMATICAL
@@ -28823,6 +29164,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28836,6 +29178,7 @@ codePoint
 =
 0x1D76E
 )
+{
 /
 /
 MATHEMATICAL
@@ -28855,6 +29198,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28868,6 +29212,7 @@ codePoint
 =
 0x1D788
 )
+{
 /
 /
 MATHEMATICAL
@@ -28889,6 +29234,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28902,6 +29248,7 @@ codePoint
 =
 0x1D7A8
 )
+{
 /
 /
 MATHEMATICAL
@@ -28924,6 +29271,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28937,6 +29285,7 @@ codePoint
 =
 0x1D7C2
 )
+{
 /
 /
 MATHEMATICAL
@@ -28960,6 +29309,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -28973,6 +29323,7 @@ codePoint
 =
 0x1D7CB
 )
+{
 /
 /
 MATHEMATICAL
@@ -28992,6 +29343,7 @@ DIGAMMA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29005,6 +29357,7 @@ codePoint
 =
 0x1E8C4
 )
+{
 /
 /
 MENDE
@@ -29022,6 +29375,7 @@ NYON
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29035,6 +29389,7 @@ codePoint
 =
 0x1E943
 )
+{
 /
 /
 ADLAM
@@ -29050,6 +29405,7 @@ SHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29063,6 +29419,7 @@ codePoint
 =
 0x1EE03
 )
+{
 /
 /
 ARABIC
@@ -29076,6 +29433,7 @@ DAL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29089,6 +29447,7 @@ codePoint
 =
 0x1EE1F
 )
+{
 /
 /
 ARABIC
@@ -29103,6 +29462,7 @@ QAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29116,6 +29476,7 @@ codePoint
 =
 0x1EE22
 )
+{
 /
 /
 ARABIC
@@ -29131,6 +29492,7 @@ JEEM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29144,6 +29506,7 @@ codePoint
 =
 0x1EE24
 )
+{
 /
 /
 ARABIC
@@ -29159,6 +29522,7 @@ HEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29172,6 +29536,7 @@ codePoint
 =
 0x1EE27
 )
+{
 /
 /
 ARABIC
@@ -29187,6 +29552,7 @@ HAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29200,6 +29566,7 @@ codePoint
 =
 0x1EE32
 )
+{
 /
 /
 ARABIC
@@ -29215,6 +29582,7 @@ QAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29228,6 +29596,7 @@ codePoint
 =
 0x1EE37
 )
+{
 /
 /
 ARABIC
@@ -29243,6 +29612,7 @@ KHAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29256,6 +29626,7 @@ codePoint
 =
 0x1EE39
 )
+{
 /
 /
 ARABIC
@@ -29271,6 +29642,7 @@ DAD
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29284,6 +29656,7 @@ codePoint
 =
 0x1EE3B
 )
+{
 /
 /
 ARABIC
@@ -29299,6 +29672,7 @@ GHAIN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29312,6 +29686,7 @@ codePoint
 =
 0x1EE42
 )
+{
 /
 /
 ARABIC
@@ -29327,6 +29702,7 @@ JEEM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29340,6 +29716,7 @@ codePoint
 =
 0x1EE47
 )
+{
 /
 /
 ARABIC
@@ -29355,6 +29732,7 @@ HAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29368,6 +29746,7 @@ codePoint
 =
 0x1EE49
 )
+{
 /
 /
 ARABIC
@@ -29383,6 +29762,7 @@ YEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29396,6 +29776,7 @@ codePoint
 =
 0x1EE4B
 )
+{
 /
 /
 ARABIC
@@ -29411,6 +29792,7 @@ LAM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29424,6 +29806,7 @@ codePoint
 =
 0x1EE4F
 )
+{
 /
 /
 ARABIC
@@ -29439,6 +29822,7 @@ AIN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29452,6 +29836,7 @@ codePoint
 =
 0x1EE52
 )
+{
 /
 /
 ARABIC
@@ -29467,6 +29852,7 @@ QAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29480,6 +29866,7 @@ codePoint
 =
 0x1EE54
 )
+{
 /
 /
 ARABIC
@@ -29495,6 +29882,7 @@ SHEEN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29508,6 +29896,7 @@ codePoint
 =
 0x1EE57
 )
+{
 /
 /
 ARABIC
@@ -29523,6 +29912,7 @@ KHAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29536,6 +29926,7 @@ codePoint
 =
 0x1EE59
 )
+{
 /
 /
 ARABIC
@@ -29551,6 +29942,7 @@ DAD
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29564,6 +29956,7 @@ codePoint
 =
 0x1EE5B
 )
+{
 /
 /
 ARABIC
@@ -29579,6 +29972,7 @@ GHAIN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29592,6 +29986,7 @@ codePoint
 =
 0x1EE5D
 )
+{
 /
 /
 ARABIC
@@ -29609,6 +30004,7 @@ NOON
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29622,6 +30018,7 @@ codePoint
 =
 0x1EE5F
 )
+{
 /
 /
 ARABIC
@@ -29639,6 +30036,7 @@ QAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29652,6 +30050,7 @@ codePoint
 =
 0x1EE62
 )
+{
 /
 /
 ARABIC
@@ -29667,6 +30066,7 @@ JEEM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29680,6 +30080,7 @@ codePoint
 =
 0x1EE64
 )
+{
 /
 /
 ARABIC
@@ -29695,6 +30096,7 @@ HEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29708,6 +30110,7 @@ codePoint
 =
 0x1EE6A
 )
+{
 /
 /
 ARABIC
@@ -29723,6 +30126,7 @@ KAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29736,6 +30140,7 @@ codePoint
 =
 0x1EE72
 )
+{
 /
 /
 ARABIC
@@ -29751,6 +30156,7 @@ QAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29764,6 +30170,7 @@ codePoint
 =
 0x1EE77
 )
+{
 /
 /
 ARABIC
@@ -29779,6 +30186,7 @@ KHAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29792,6 +30200,7 @@ codePoint
 =
 0x1EE7C
 )
+{
 /
 /
 ARABIC
@@ -29808,6 +30217,7 @@ BEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29821,6 +30231,7 @@ codePoint
 =
 0x1EE7E
 )
+{
 /
 /
 ARABIC
@@ -29838,6 +30249,7 @@ FEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29851,6 +30263,7 @@ codePoint
 =
 0x1EE89
 )
+{
 /
 /
 ARABIC
@@ -29866,6 +30279,7 @@ YEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29879,6 +30293,7 @@ codePoint
 =
 0x1EE9B
 )
+{
 /
 /
 ARABIC
@@ -29894,6 +30309,7 @@ GHAIN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29907,6 +30323,7 @@ codePoint
 =
 0x1EEA3
 )
+{
 /
 /
 ARABIC
@@ -29926,6 +30343,7 @@ DAL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29939,6 +30357,7 @@ codePoint
 =
 0x1EEA9
 )
+{
 /
 /
 ARABIC
@@ -29958,6 +30377,7 @@ YEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -29971,6 +30391,7 @@ codePoint
 =
 0x1EEBB
 )
+{
 /
 /
 ARABIC
@@ -29990,6 +30411,7 @@ GHAIN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30003,6 +30425,7 @@ codePoint
 =
 0x2A6D6
 )
+{
 /
 /
 CJK
@@ -30018,6 +30441,7 @@ B
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30031,6 +30455,7 @@ codePoint
 =
 0x2B734
 )
+{
 /
 /
 CJK
@@ -30046,6 +30471,7 @@ C
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30059,6 +30485,7 @@ codePoint
 =
 0x2B81D
 )
+{
 /
 /
 CJK
@@ -30074,6 +30501,7 @@ D
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30087,6 +30515,7 @@ codePoint
 =
 0x2CEA1
 )
+{
 /
 /
 CJK
@@ -30102,6 +30531,7 @@ E
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30115,6 +30545,7 @@ codePoint
 =
 0x2EBE0
 )
+{
 /
 /
 CJK
@@ -30130,6 +30561,7 @@ F
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30143,6 +30575,7 @@ codePoint
 =
 0x2FA1D
 )
+{
 /
 /
 CJK
@@ -30160,6 +30593,7 @@ IDEOGRAPH
 return
 true
 ;
+}
 return
 false
 ;
@@ -30190,6 +30624,7 @@ codePoint
 =
 0x1000B
 )
+{
 /
 /
 LINEAR
@@ -30207,6 +30642,7 @@ JE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30220,6 +30656,7 @@ codePoint
 =
 0x10026
 )
+{
 /
 /
 LINEAR
@@ -30237,6 +30674,7 @@ QO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30250,6 +30688,7 @@ codePoint
 =
 0x1003A
 )
+{
 /
 /
 LINEAR
@@ -30267,6 +30706,7 @@ WO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30280,6 +30720,7 @@ codePoint
 =
 0x1003D
 )
+{
 /
 /
 LINEAR
@@ -30297,6 +30738,7 @@ ZE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30310,6 +30752,7 @@ codePoint
 =
 0x1004D
 )
+{
 /
 /
 LINEAR
@@ -30327,6 +30770,7 @@ TWO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30340,6 +30784,7 @@ codePoint
 =
 0x1005D
 )
+{
 /
 /
 LINEAR
@@ -30355,6 +30800,7 @@ B089
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30368,6 +30814,7 @@ codePoint
 =
 0x100FA
 )
+{
 /
 /
 LINEAR
@@ -30385,6 +30832,7 @@ B305
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30398,6 +30846,7 @@ codePoint
 =
 0x10174
 )
+{
 /
 /
 GREEK
@@ -30415,6 +30864,7 @@ MNAS
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30428,6 +30878,7 @@ codePoint
 =
 0x101FD
 )
+{
 /
 /
 PHAISTOS
@@ -30447,6 +30898,7 @@ STROKE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30460,6 +30912,7 @@ codePoint
 =
 0x1029C
 )
+{
 /
 /
 LYCIAN
@@ -30473,6 +30926,7 @@ X
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30486,6 +30940,7 @@ codePoint
 =
 0x102D0
 )
+{
 /
 /
 CARIAN
@@ -30499,6 +30954,7 @@ UUU3
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30512,6 +30968,7 @@ codePoint
 =
 0x102E0
 )
+{
 /
 /
 COPTIC
@@ -30527,6 +30984,7 @@ MARK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30540,6 +30998,7 @@ codePoint
 =
 0x1031F
 )
+{
 /
 /
 OLD
@@ -30555,6 +31014,7 @@ ESS
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30568,6 +31028,7 @@ codePoint
 =
 0x1034A
 )
+{
 /
 /
 OLD
@@ -30583,6 +31044,7 @@ HUNDRED
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30596,6 +31058,7 @@ codePoint
 =
 0x1037A
 )
+{
 /
 /
 OLD
@@ -30612,6 +31075,7 @@ SII
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30625,6 +31089,7 @@ codePoint
 =
 0x1039D
 )
+{
 /
 /
 UGARITIC
@@ -30638,6 +31103,7 @@ SSU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30651,6 +31117,7 @@ codePoint
 =
 0x103C3
 )
+{
 /
 /
 OLD
@@ -30666,6 +31133,7 @@ HA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30679,6 +31147,7 @@ codePoint
 =
 0x103CF
 )
+{
 /
 /
 OLD
@@ -30694,6 +31163,7 @@ BUUMISH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30707,6 +31177,7 @@ codePoint
 =
 0x103D5
 )
+{
 /
 /
 OLD
@@ -30722,6 +31193,7 @@ HUNDRED
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30735,6 +31207,7 @@ codePoint
 =
 0x1049D
 )
+{
 /
 /
 DESERET
@@ -30750,6 +31223,7 @@ OO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30763,6 +31237,7 @@ codePoint
 =
 0x104A9
 )
+{
 /
 /
 OSMANYA
@@ -30776,6 +31251,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30789,6 +31265,7 @@ codePoint
 =
 0x104D3
 )
+{
 /
 /
 OSAGE
@@ -30804,6 +31281,7 @@ ZHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30817,6 +31295,7 @@ codePoint
 =
 0x104FB
 )
+{
 /
 /
 OSAGE
@@ -30832,6 +31311,7 @@ ZHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30845,6 +31325,7 @@ codePoint
 =
 0x10527
 )
+{
 /
 /
 ELBASAN
@@ -30858,6 +31339,7 @@ KHE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30871,6 +31353,7 @@ codePoint
 =
 0x10563
 )
+{
 /
 /
 CAUCASIAN
@@ -30886,6 +31369,7 @@ KIW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30899,6 +31383,7 @@ codePoint
 =
 0x10736
 )
+{
 /
 /
 LINEAR
@@ -30914,6 +31399,7 @@ A664
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30927,6 +31413,7 @@ codePoint
 =
 0x10755
 )
+{
 /
 /
 LINEAR
@@ -30944,6 +31431,7 @@ JE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30957,6 +31445,7 @@ codePoint
 =
 0x10767
 )
+{
 /
 /
 LINEAR
@@ -30972,6 +31461,7 @@ A807
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -30985,6 +31475,7 @@ codePoint
 =
 0x10805
 )
+{
 /
 /
 CYPRIOT
@@ -30998,6 +31489,7 @@ JA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31011,6 +31503,7 @@ codePoint
 =
 0x10808
 )
+{
 /
 /
 CYPRIOT
@@ -31024,6 +31517,7 @@ JO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31037,6 +31531,7 @@ codePoint
 =
 0x10835
 )
+{
 /
 /
 CYPRIOT
@@ -31050,6 +31545,7 @@ WO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31063,6 +31559,7 @@ codePoint
 =
 0x10838
 )
+{
 /
 /
 CYPRIOT
@@ -31076,6 +31573,7 @@ XE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31089,6 +31587,7 @@ codePoint
 =
 0x1083C
 )
+{
 /
 /
 CYPRIOT
@@ -31102,6 +31601,7 @@ ZA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31115,6 +31615,7 @@ codePoint
 =
 0x10855
 )
+{
 /
 /
 CYPRIOT
@@ -31129,6 +31630,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31142,6 +31644,7 @@ codePoint
 =
 0x10876
 )
+{
 /
 /
 PALMYRENE
@@ -31155,6 +31658,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31168,6 +31672,7 @@ codePoint
 =
 0x1089E
 )
+{
 /
 /
 NABATAEAN
@@ -31182,6 +31687,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31195,6 +31701,7 @@ codePoint
 =
 0x108F2
 )
+{
 /
 /
 HATRAN
@@ -31208,6 +31715,7 @@ QOPH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31221,6 +31729,7 @@ codePoint
 =
 0x108F5
 )
+{
 /
 /
 HATRAN
@@ -31234,6 +31743,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31247,6 +31757,7 @@ codePoint
 =
 0x10915
 )
+{
 /
 /
 PHOENICIAN
@@ -31260,6 +31771,7 @@ TAU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31273,6 +31785,7 @@ codePoint
 =
 0x10939
 )
+{
 /
 /
 LYDIAN
@@ -31286,6 +31799,7 @@ C
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31299,6 +31813,7 @@ codePoint
 =
 0x109B7
 )
+{
 /
 /
 MEROITIC
@@ -31314,6 +31829,7 @@ DA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31327,6 +31843,7 @@ codePoint
 =
 0x109BF
 )
+{
 /
 /
 MEROITIC
@@ -31342,6 +31859,7 @@ IMN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31355,6 +31873,7 @@ codePoint
 =
 0x10A03
 )
+{
 /
 /
 KHAROSHTHI
@@ -31370,6 +31889,7 @@ R
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31383,6 +31903,7 @@ codePoint
 =
 0x10A06
 )
+{
 /
 /
 KHAROSHTHI
@@ -31398,6 +31919,7 @@ O
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31411,6 +31933,7 @@ codePoint
 =
 0x10A13
 )
+{
 /
 /
 KHAROSHTHI
@@ -31425,6 +31948,7 @@ GHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31438,6 +31962,7 @@ codePoint
 =
 0x10A17
 )
+{
 /
 /
 KHAROSHTHI
@@ -31451,6 +31976,7 @@ JA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31464,6 +31990,7 @@ codePoint
 =
 0x10A35
 )
+{
 /
 /
 KHAROSHTHI
@@ -31477,6 +32004,7 @@ VHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31490,6 +32018,7 @@ codePoint
 =
 0x10A3A
 )
+{
 /
 /
 KHAROSHTHI
@@ -31505,6 +32034,7 @@ BELOW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31518,6 +32048,7 @@ codePoint
 =
 0x10A3F
 )
+{
 /
 /
 KHAROSHTHI
@@ -31529,6 +32060,7 @@ VIRAMA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31542,6 +32074,7 @@ codePoint
 =
 0x10A7C
 )
+{
 /
 /
 OLD
@@ -31559,6 +32092,7 @@ THETH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31572,6 +32106,7 @@ codePoint
 =
 0x10A9C
 )
+{
 /
 /
 OLD
@@ -31589,6 +32124,7 @@ ZAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31602,6 +32138,7 @@ codePoint
 =
 0x10AC7
 )
+{
 /
 /
 MANICHAEAN
@@ -31615,6 +32152,7 @@ WAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31628,6 +32166,7 @@ codePoint
 =
 0x10AE6
 )
+{
 /
 /
 MANICHAEAN
@@ -31642,6 +32181,7 @@ BELOW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31655,6 +32195,7 @@ codePoint
 =
 0x10B35
 )
+{
 /
 /
 AVESTAN
@@ -31668,6 +32209,7 @@ HE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31681,6 +32223,7 @@ codePoint
 =
 0x10B55
 )
+{
 /
 /
 INSCRIPTIONAL
@@ -31696,6 +32239,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31709,6 +32253,7 @@ codePoint
 =
 0x10B72
 )
+{
 /
 /
 INSCRIPTIONAL
@@ -31724,6 +32269,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31737,6 +32283,7 @@ codePoint
 =
 0x10B91
 )
+{
 /
 /
 PSALTER
@@ -31752,6 +32299,7 @@ TAW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31765,6 +32313,7 @@ codePoint
 =
 0x10C48
 )
+{
 /
 /
 OLD
@@ -31782,6 +32331,7 @@ BASH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31795,6 +32345,7 @@ codePoint
 =
 0x10CB2
 )
+{
 /
 /
 OLD
@@ -31812,6 +32363,7 @@ US
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31825,6 +32377,7 @@ codePoint
 =
 0x10CF2
 )
+{
 /
 /
 OLD
@@ -31842,6 +32395,7 @@ US
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31855,6 +32409,7 @@ codePoint
 =
 0x10D27
 )
+{
 /
 /
 HANIFI
@@ -31870,6 +32425,7 @@ TASSI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31883,6 +32439,7 @@ codePoint
 =
 0x10D39
 )
+{
 /
 /
 HANIFI
@@ -31898,6 +32455,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31911,6 +32469,7 @@ codePoint
 =
 0x10F1C
 )
+{
 /
 /
 OLD
@@ -31930,6 +32489,7 @@ TAIL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31943,6 +32503,7 @@ codePoint
 =
 0x10F27
 )
+{
 /
 /
 OLD
@@ -31962,6 +32523,7 @@ DALETH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -31975,6 +32537,7 @@ codePoint
 =
 0x10F50
 )
+{
 /
 /
 SOGDIAN
@@ -31989,6 +32552,7 @@ BELOW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32002,6 +32566,7 @@ codePoint
 =
 0x11046
 )
+{
 /
 /
 BRAHMI
@@ -32014,6 +32579,7 @@ VIRAMA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32027,6 +32593,7 @@ codePoint
 =
 0x1106F
 )
+{
 /
 /
 BRAHMI
@@ -32040,6 +32607,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32053,6 +32621,7 @@ codePoint
 =
 0x110BA
 )
+{
 /
 /
 BRAHMI
@@ -32066,6 +32635,7 @@ NUKTA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32079,6 +32649,7 @@ codePoint
 =
 0x110E8
 )
+{
 /
 /
 SORA
@@ -32094,6 +32665,7 @@ MAE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32107,6 +32679,7 @@ codePoint
 =
 0x110F9
 )
+{
 /
 /
 SORA
@@ -32122,6 +32695,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32135,6 +32709,7 @@ codePoint
 =
 0x11134
 )
+{
 /
 /
 CHAKMA
@@ -32147,6 +32722,7 @@ MAAYYAA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32160,6 +32736,7 @@ codePoint
 =
 0x1113F
 )
+{
 /
 /
 CHAKMA
@@ -32173,6 +32750,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32186,6 +32764,7 @@ codePoint
 =
 0x11146
 )
+{
 /
 /
 CHAKMA
@@ -32200,6 +32779,7 @@ EI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32213,6 +32793,7 @@ codePoint
 =
 0x11173
 )
+{
 /
 /
 MAHAJANI
@@ -32226,6 +32807,7 @@ NUKTA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32239,6 +32821,7 @@ codePoint
 =
 0x11176
 )
+{
 /
 /
 MAHAJANI
@@ -32252,6 +32835,7 @@ SHRI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32265,6 +32849,7 @@ codePoint
 =
 0x111C4
 )
+{
 /
 /
 SHARADA
@@ -32277,6 +32862,7 @@ OM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32290,6 +32876,7 @@ codePoint
 =
 0x111CC
 )
+{
 /
 /
 SHARADA
@@ -32305,6 +32892,7 @@ MARK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32318,6 +32906,7 @@ codePoint
 =
 0x111DA
 )
+{
 /
 /
 SHARADA
@@ -32330,6 +32919,7 @@ EKAM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32343,6 +32933,7 @@ codePoint
 =
 0x111DC
 )
+{
 /
 /
 SHARADA
@@ -32354,6 +32945,7 @@ HEADSTROKE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32367,6 +32959,7 @@ codePoint
 =
 0x11211
 )
+{
 /
 /
 KHOJKI
@@ -32380,6 +32973,7 @@ JJA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32393,6 +32987,7 @@ codePoint
 =
 0x11237
 )
+{
 /
 /
 KHOJKI
@@ -32406,6 +33001,7 @@ SHADDA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32419,6 +33015,7 @@ codePoint
 =
 0x1123E
 )
+{
 /
 /
 KHOJKI
@@ -32432,6 +33029,7 @@ SUKUN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32445,6 +33043,7 @@ codePoint
 =
 0x11286
 )
+{
 /
 /
 MULTANI
@@ -32458,6 +33057,7 @@ GA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32471,6 +33071,7 @@ codePoint
 =
 0x11288
 )
+{
 /
 /
 MULTANI
@@ -32484,6 +33085,7 @@ GHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32497,6 +33099,7 @@ codePoint
 =
 0x1128D
 )
+{
 /
 /
 MULTANI
@@ -32510,6 +33113,7 @@ JJA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32523,6 +33127,7 @@ codePoint
 =
 0x1129D
 )
+{
 /
 /
 MULTANI
@@ -32536,6 +33141,7 @@ BA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32549,6 +33155,7 @@ codePoint
 =
 0x112A8
 )
+{
 /
 /
 MULTANI
@@ -32562,6 +33169,7 @@ RHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32575,6 +33183,7 @@ codePoint
 =
 0x112EA
 )
+{
 /
 /
 KHUDAWADI
@@ -32588,6 +33197,7 @@ VIRAMA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32601,6 +33211,7 @@ codePoint
 =
 0x112F9
 )
+{
 /
 /
 KHUDAWADI
@@ -32614,6 +33225,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32627,6 +33239,7 @@ codePoint
 =
 0x11303
 )
+{
 /
 /
 GRANTHA
@@ -32642,6 +33255,7 @@ VISARGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32655,6 +33269,7 @@ codePoint
 =
 0x1130C
 )
+{
 /
 /
 GRANTHA
@@ -32669,6 +33284,7 @@ L
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32682,6 +33298,7 @@ codePoint
 =
 0x11310
 )
+{
 /
 /
 GRANTHA
@@ -32695,6 +33312,7 @@ AI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32708,6 +33326,7 @@ codePoint
 =
 0x11328
 )
+{
 /
 /
 GRANTHA
@@ -32721,6 +33340,7 @@ NA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32734,6 +33354,7 @@ codePoint
 =
 0x11330
 )
+{
 /
 /
 GRANTHA
@@ -32747,6 +33368,7 @@ RA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32760,6 +33382,7 @@ codePoint
 =
 0x11333
 )
+{
 /
 /
 GRANTHA
@@ -32773,6 +33396,7 @@ LLA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32786,6 +33410,7 @@ codePoint
 =
 0x11339
 )
+{
 /
 /
 GRANTHA
@@ -32799,6 +33424,7 @@ HA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32812,6 +33438,7 @@ codePoint
 =
 0x11344
 )
+{
 /
 /
 COMBINING
@@ -32827,6 +33454,7 @@ RR
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32840,6 +33468,7 @@ codePoint
 =
 0x11348
 )
+{
 /
 /
 GRANTHA
@@ -32855,6 +33484,7 @@ AI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32868,6 +33498,7 @@ codePoint
 =
 0x1134D
 )
+{
 /
 /
 GRANTHA
@@ -32882,6 +33513,7 @@ VIRAMA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32895,6 +33527,7 @@ codePoint
 =
 0x11350
 )
+{
 /
 /
 GRANTHA
@@ -32906,6 +33539,7 @@ OM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32919,6 +33553,7 @@ codePoint
 =
 0x11357
 )
+{
 /
 /
 GRANTHA
@@ -32934,6 +33569,7 @@ MARK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32947,6 +33583,7 @@ codePoint
 =
 0x11363
 )
+{
 /
 /
 GRANTHA
@@ -32962,6 +33599,7 @@ LL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -32975,6 +33613,7 @@ codePoint
 =
 0x1136C
 )
+{
 /
 /
 COMBINING
@@ -32990,6 +33629,7 @@ SIX
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33003,6 +33643,7 @@ codePoint
 =
 0x11374
 )
+{
 /
 /
 COMBINING
@@ -33018,6 +33659,7 @@ PA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33031,6 +33673,7 @@ codePoint
 =
 0x1144A
 )
+{
 /
 /
 NEWA
@@ -33043,6 +33686,7 @@ SIDDHI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33056,6 +33700,7 @@ codePoint
 =
 0x11459
 )
+{
 /
 /
 NEWA
@@ -33069,6 +33714,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33082,6 +33728,7 @@ codePoint
 =
 0x1145E
 )
+{
 /
 /
 NEWA
@@ -33095,6 +33742,7 @@ MARK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33108,6 +33756,7 @@ codePoint
 =
 0x114C5
 )
+{
 /
 /
 TIRHUTA
@@ -33119,6 +33768,7 @@ GVANG
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33132,6 +33782,7 @@ codePoint
 =
 0x114C7
 )
+{
 /
 /
 TIRHUTA
@@ -33143,6 +33794,7 @@ OM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33156,6 +33808,7 @@ codePoint
 =
 0x114D9
 )
+{
 /
 /
 TIRHUTA
@@ -33169,6 +33822,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33182,6 +33836,7 @@ codePoint
 =
 0x115B5
 )
+{
 /
 /
 SIDDHAM
@@ -33197,6 +33852,7 @@ RR
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33210,6 +33866,7 @@ codePoint
 =
 0x115C0
 )
+{
 /
 /
 SIDDHAM
@@ -33224,6 +33881,7 @@ NUKTA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33237,6 +33895,7 @@ codePoint
 =
 0x115DD
 )
+{
 /
 /
 SIDDHAM
@@ -33256,6 +33915,7 @@ UU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33269,6 +33929,7 @@ codePoint
 =
 0x11640
 )
+{
 /
 /
 MODI
@@ -33282,6 +33943,7 @@ ARDHACANDRA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33295,6 +33957,7 @@ codePoint
 =
 0x11644
 )
+{
 /
 /
 MODI
@@ -33308,6 +33971,7 @@ HUVA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33321,6 +33985,7 @@ codePoint
 =
 0x11659
 )
+{
 /
 /
 MODI
@@ -33334,6 +33999,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33347,6 +34013,7 @@ codePoint
 =
 0x116B7
 )
+{
 /
 /
 TAKRI
@@ -33360,6 +34027,7 @@ NUKTA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33373,6 +34041,7 @@ codePoint
 =
 0x116C9
 )
+{
 /
 /
 TAKRI
@@ -33386,6 +34055,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33399,6 +34069,7 @@ codePoint
 =
 0x1171A
 )
+{
 /
 /
 AHOM
@@ -33413,6 +34084,7 @@ BA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33426,6 +34098,7 @@ codePoint
 =
 0x1172B
 )
+{
 /
 /
 AHOM
@@ -33441,6 +34114,7 @@ KILLER
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33454,6 +34128,7 @@ codePoint
 =
 0x11739
 )
+{
 /
 /
 AHOM
@@ -33467,6 +34142,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33480,6 +34156,7 @@ codePoint
 =
 0x1183A
 )
+{
 /
 /
 DOGRA
@@ -33493,6 +34170,7 @@ NUKTA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33506,6 +34184,7 @@ codePoint
 =
 0x118E9
 )
+{
 /
 /
 WARANG
@@ -33522,6 +34201,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33535,6 +34215,7 @@ codePoint
 =
 0x118FF
 )
+{
 /
 /
 WARANG
@@ -33548,6 +34229,7 @@ OM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33561,6 +34243,7 @@ codePoint
 =
 0x11A3E
 )
+{
 /
 /
 ZANABAZAR
@@ -33579,6 +34262,7 @@ VA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33592,6 +34276,7 @@ codePoint
 =
 0x11A47
 )
+{
 /
 /
 ZANABAZAR
@@ -33605,6 +34290,7 @@ SUBJOINER
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33618,6 +34304,7 @@ codePoint
 =
 0x11A83
 )
+{
 /
 /
 SOYOMBO
@@ -33631,6 +34318,7 @@ KSSA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33644,6 +34332,7 @@ codePoint
 =
 0x11A99
 )
+{
 /
 /
 SOYOMBO
@@ -33659,6 +34348,7 @@ SUBJOINER
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33672,6 +34362,7 @@ codePoint
 =
 0x11A9D
 )
+{
 /
 /
 SOYOMBO
@@ -33685,6 +34376,7 @@ PLUTA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33698,6 +34390,7 @@ codePoint
 =
 0x11AF8
 )
+{
 /
 /
 PAU
@@ -33716,6 +34409,7 @@ FINAL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33729,6 +34423,7 @@ codePoint
 =
 0x11C08
 )
+{
 /
 /
 BHAIKSUKI
@@ -33743,6 +34438,7 @@ L
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33756,6 +34452,7 @@ codePoint
 =
 0x11C36
 )
+{
 /
 /
 BHAIKSUKI
@@ -33771,6 +34468,7 @@ L
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33784,6 +34482,7 @@ codePoint
 =
 0x11C40
 )
+{
 /
 /
 BHAIKSUKI
@@ -33798,6 +34497,7 @@ AVAGRAHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33811,6 +34511,7 @@ codePoint
 =
 0x11C59
 )
+{
 /
 /
 BHAIKSUKI
@@ -33824,6 +34525,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33837,6 +34539,7 @@ codePoint
 =
 0x11C8F
 )
+{
 /
 /
 MARCHEN
@@ -33850,6 +34553,7 @@ A
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33863,6 +34567,7 @@ codePoint
 =
 0x11CA7
 )
+{
 /
 /
 MARCHEN
@@ -33878,6 +34583,7 @@ ZA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33891,6 +34597,7 @@ codePoint
 =
 0x11CB6
 )
+{
 /
 /
 MARCHEN
@@ -33905,6 +34612,7 @@ CANDRABINDU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33918,6 +34626,7 @@ codePoint
 =
 0x11D06
 )
+{
 /
 /
 MASARAM
@@ -33933,6 +34642,7 @@ E
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33946,6 +34656,7 @@ codePoint
 =
 0x11D09
 )
+{
 /
 /
 MASARAM
@@ -33961,6 +34672,7 @@ O
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -33974,6 +34686,7 @@ codePoint
 =
 0x11D36
 )
+{
 /
 /
 MASARAM
@@ -33991,6 +34704,7 @@ R
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34004,6 +34718,7 @@ codePoint
 =
 0x11D3A
 )
+{
 /
 /
 MASARAM
@@ -34021,6 +34736,7 @@ E
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34034,6 +34750,7 @@ codePoint
 =
 0x11D3D
 )
+{
 /
 /
 MASARAM
@@ -34051,6 +34768,7 @@ O
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34064,6 +34782,7 @@ codePoint
 =
 0x11D47
 )
+{
 /
 /
 MASARAM
@@ -34081,6 +34800,7 @@ KARA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34094,6 +34814,7 @@ codePoint
 =
 0x11D59
 )
+{
 /
 /
 MASARAM
@@ -34109,6 +34830,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34122,6 +34844,7 @@ codePoint
 =
 0x11D65
 )
+{
 /
 /
 GUNJALA
@@ -34137,6 +34860,7 @@ UU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34150,6 +34874,7 @@ codePoint
 =
 0x11D68
 )
+{
 /
 /
 GUNJALA
@@ -34165,6 +34890,7 @@ AI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34178,6 +34904,7 @@ codePoint
 =
 0x11D8E
 )
+{
 /
 /
 GUNJALA
@@ -34194,6 +34921,7 @@ UU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34207,6 +34935,7 @@ codePoint
 =
 0x11D91
 )
+{
 /
 /
 GUNJALA
@@ -34224,6 +34953,7 @@ AI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34237,6 +34967,7 @@ codePoint
 =
 0x11D98
 )
+{
 /
 /
 GUNJALA
@@ -34252,6 +34983,7 @@ OM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34265,6 +34997,7 @@ codePoint
 =
 0x11DA9
 )
+{
 /
 /
 GUNJALA
@@ -34280,6 +35013,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34293,6 +35027,7 @@ codePoint
 =
 0x11EF6
 )
+{
 /
 /
 MAKASAR
@@ -34307,6 +35042,7 @@ O
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34320,6 +35056,7 @@ codePoint
 =
 0x12399
 )
+{
 /
 /
 CUNEIFORM
@@ -34334,6 +35071,7 @@ U
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34347,6 +35085,7 @@ codePoint
 =
 0x1246E
 )
+{
 /
 /
 CUNEIFORM
@@ -34366,6 +35105,7 @@ FORM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34379,6 +35119,7 @@ codePoint
 =
 0x12543
 )
+{
 /
 /
 CUNEIFORM
@@ -34399,6 +35140,7 @@ TENU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34412,6 +35154,7 @@ codePoint
 =
 0x1342E
 )
+{
 /
 /
 EGYPTIAN
@@ -34425,6 +35168,7 @@ AA032
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34438,6 +35182,7 @@ codePoint
 =
 0x14646
 )
+{
 /
 /
 ANATOLIAN
@@ -34451,6 +35196,7 @@ A530
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34464,6 +35210,7 @@ codePoint
 =
 0x16A38
 )
+{
 /
 /
 BAMUM
@@ -34484,6 +35231,7 @@ VUEQ
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34497,6 +35245,7 @@ codePoint
 =
 0x16A5E
 )
+{
 /
 /
 MRO
@@ -34510,6 +35259,7 @@ TEK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34523,6 +35273,7 @@ codePoint
 =
 0x16A69
 )
+{
 /
 /
 MRO
@@ -34536,6 +35287,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34549,6 +35301,7 @@ codePoint
 =
 0x16AED
 )
+{
 /
 /
 BASSA
@@ -34564,6 +35317,7 @@ I
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34577,6 +35331,7 @@ codePoint
 =
 0x16AF4
 )
+{
 /
 /
 BASSA
@@ -34596,6 +35351,7 @@ TONE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34609,6 +35365,7 @@ codePoint
 =
 0x16B36
 )
+{
 /
 /
 PAHAWH
@@ -34625,6 +35382,7 @@ TAUM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34638,6 +35396,7 @@ codePoint
 =
 0x16B43
 )
+{
 /
 /
 PAHAWH
@@ -34655,6 +35414,7 @@ YAM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34668,6 +35428,7 @@ codePoint
 =
 0x16B59
 )
+{
 /
 /
 PAHAWH
@@ -34683,6 +35444,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34696,6 +35458,7 @@ codePoint
 =
 0x16B77
 )
+{
 /
 /
 PAHAWH
@@ -34714,6 +35477,7 @@ TOS
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34727,6 +35491,7 @@ codePoint
 =
 0x16B8F
 )
+{
 /
 /
 PAHAWH
@@ -34744,6 +35509,7 @@ VWJ
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34757,6 +35523,7 @@ codePoint
 =
 0x16E7F
 )
+{
 /
 /
 MEDEFAIDRIN
@@ -34772,6 +35539,7 @@ Y
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34785,6 +35553,7 @@ codePoint
 =
 0x16F44
 )
+{
 /
 /
 MIAO
@@ -34798,6 +35567,7 @@ HHA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34811,6 +35581,7 @@ codePoint
 =
 0x16F7E
 )
+{
 /
 /
 MIAO
@@ -34825,6 +35596,7 @@ NG
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34838,6 +35610,7 @@ codePoint
 =
 0x16F9F
 )
+{
 /
 /
 MIAO
@@ -34854,6 +35627,7 @@ TONE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34867,6 +35641,7 @@ codePoint
 =
 0x16FE1
 )
+{
 /
 /
 TANGUT
@@ -34880,6 +35655,7 @@ MARK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34893,6 +35669,7 @@ codePoint
 =
 0x187F1
 )
+{
 /
 /
 Tangut
@@ -34904,6 +35681,7 @@ Ideograph
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34917,6 +35695,7 @@ codePoint
 =
 0x18AF2
 )
+{
 /
 /
 TANGUT
@@ -34932,6 +35711,7 @@ COMPONENT
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34945,6 +35725,7 @@ codePoint
 =
 0x1B11E
 )
+{
 /
 /
 KATAKANA
@@ -34965,6 +35746,7 @@ MO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -34978,6 +35760,7 @@ codePoint
 =
 0x1B2FB
 )
+{
 /
 /
 NUSHU
@@ -34993,6 +35776,7 @@ CHARACTER
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35006,6 +35790,7 @@ codePoint
 =
 0x1BC6A
 )
+{
 /
 /
 DUPLOYAN
@@ -35020,6 +35805,7 @@ M
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35033,6 +35819,7 @@ codePoint
 =
 0x1BC7C
 )
+{
 /
 /
 DUPLOYAN
@@ -35050,6 +35837,7 @@ HOOK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35063,6 +35851,7 @@ codePoint
 =
 0x1BC88
 )
+{
 /
 /
 DUPLOYAN
@@ -35078,6 +35867,7 @@ VERTICAL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35091,6 +35881,7 @@ codePoint
 =
 0x1BC99
 )
+{
 /
 /
 DUPLOYAN
@@ -35106,6 +35897,7 @@ ARROW
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35119,6 +35911,7 @@ codePoint
 =
 0x1BC9E
 )
+{
 /
 /
 DUPLOYAN
@@ -35133,6 +35926,7 @@ MARK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35146,6 +35940,7 @@ codePoint
 =
 0x1D169
 )
+{
 /
 /
 MUSICAL
@@ -35163,6 +35958,7 @@ TREMOLO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35176,6 +35972,7 @@ codePoint
 =
 0x1D172
 )
+{
 /
 /
 MUSICAL
@@ -35194,6 +35991,7 @@ FLAG
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35207,6 +36005,7 @@ codePoint
 =
 0x1D182
 )
+{
 /
 /
 MUSICAL
@@ -35222,6 +36021,7 @@ LOURE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35235,6 +36035,7 @@ codePoint
 =
 0x1D18B
 )
+{
 /
 /
 MUSICAL
@@ -35251,6 +36052,7 @@ TONGUE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35264,6 +36066,7 @@ codePoint
 =
 0x1D1AD
 )
+{
 /
 /
 MUSICAL
@@ -35281,6 +36084,7 @@ PIZZICATO
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35294,6 +36098,7 @@ codePoint
 =
 0x1D244
 )
+{
 /
 /
 COMBINING
@@ -35309,6 +36114,7 @@ PENTASEME
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35322,6 +36128,7 @@ codePoint
 =
 0x1D454
 )
+{
 /
 /
 MATHEMATICAL
@@ -35337,6 +36144,7 @@ G
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35350,6 +36158,7 @@ codePoint
 =
 0x1D49C
 )
+{
 /
 /
 MATHEMATICAL
@@ -35365,6 +36174,7 @@ A
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35378,6 +36188,7 @@ codePoint
 =
 0x1D49F
 )
+{
 /
 /
 MATHEMATICAL
@@ -35393,6 +36204,7 @@ D
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35406,6 +36218,7 @@ codePoint
 =
 0x1D4A2
 )
+{
 /
 /
 MATHEMATICAL
@@ -35421,6 +36234,7 @@ G
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35434,6 +36248,7 @@ codePoint
 =
 0x1D4A6
 )
+{
 /
 /
 MATHEMATICAL
@@ -35449,6 +36264,7 @@ K
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35462,6 +36278,7 @@ codePoint
 =
 0x1D4AC
 )
+{
 /
 /
 MATHEMATICAL
@@ -35477,6 +36294,7 @@ Q
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35490,6 +36308,7 @@ codePoint
 =
 0x1D4B9
 )
+{
 /
 /
 MATHEMATICAL
@@ -35505,6 +36324,7 @@ D
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35518,6 +36338,7 @@ codePoint
 =
 0x1D4BB
 )
+{
 /
 /
 MATHEMATICAL
@@ -35533,6 +36354,7 @@ F
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35546,6 +36368,7 @@ codePoint
 =
 0x1D4C3
 )
+{
 /
 /
 MATHEMATICAL
@@ -35561,6 +36384,7 @@ N
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35574,6 +36398,7 @@ codePoint
 =
 0x1D505
 )
+{
 /
 /
 MATHEMATICAL
@@ -35589,6 +36414,7 @@ B
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35602,6 +36428,7 @@ codePoint
 =
 0x1D50A
 )
+{
 /
 /
 MATHEMATICAL
@@ -35617,6 +36444,7 @@ G
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35630,6 +36458,7 @@ codePoint
 =
 0x1D514
 )
+{
 /
 /
 MATHEMATICAL
@@ -35645,6 +36474,7 @@ Q
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35658,6 +36488,7 @@ codePoint
 =
 0x1D51C
 )
+{
 /
 /
 MATHEMATICAL
@@ -35673,6 +36504,7 @@ Y
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35686,6 +36518,7 @@ codePoint
 =
 0x1D539
 )
+{
 /
 /
 MATHEMATICAL
@@ -35703,6 +36536,7 @@ B
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35716,6 +36550,7 @@ codePoint
 =
 0x1D53E
 )
+{
 /
 /
 MATHEMATICAL
@@ -35735,6 +36570,7 @@ G
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35748,6 +36584,7 @@ codePoint
 =
 0x1D544
 )
+{
 /
 /
 MATHEMATICAL
@@ -35767,6 +36604,7 @@ M
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35780,6 +36618,7 @@ codePoint
 =
 0x1D546
 )
+{
 /
 /
 MATHEMATICAL
@@ -35799,6 +36638,7 @@ O
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35812,6 +36652,7 @@ codePoint
 =
 0x1D550
 )
+{
 /
 /
 MATHEMATICAL
@@ -35831,6 +36672,7 @@ Y
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35844,6 +36686,7 @@ codePoint
 =
 0x1D6A5
 )
+{
 /
 /
 MATHEMATICAL
@@ -35862,6 +36705,7 @@ J
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35875,6 +36719,7 @@ codePoint
 =
 0x1D6C0
 )
+{
 /
 /
 MATHEMATICAL
@@ -35890,6 +36735,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35903,6 +36749,7 @@ codePoint
 =
 0x1D6DA
 )
+{
 /
 /
 MATHEMATICAL
@@ -35918,6 +36765,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35931,6 +36779,7 @@ codePoint
 =
 0x1D6FA
 )
+{
 /
 /
 MATHEMATICAL
@@ -35946,6 +36795,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35959,6 +36809,7 @@ codePoint
 =
 0x1D714
 )
+{
 /
 /
 MATHEMATICAL
@@ -35974,6 +36825,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -35987,6 +36839,7 @@ codePoint
 =
 0x1D734
 )
+{
 /
 /
 MATHEMATICAL
@@ -36003,6 +36856,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36016,6 +36870,7 @@ codePoint
 =
 0x1D74E
 )
+{
 /
 /
 MATHEMATICAL
@@ -36033,6 +36888,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36046,6 +36902,7 @@ codePoint
 =
 0x1D76E
 )
+{
 /
 /
 MATHEMATICAL
@@ -36065,6 +36922,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36078,6 +36936,7 @@ codePoint
 =
 0x1D788
 )
+{
 /
 /
 MATHEMATICAL
@@ -36099,6 +36958,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36112,6 +36972,7 @@ codePoint
 =
 0x1D7A8
 )
+{
 /
 /
 MATHEMATICAL
@@ -36134,6 +36995,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36147,6 +37009,7 @@ codePoint
 =
 0x1D7C2
 )
+{
 /
 /
 MATHEMATICAL
@@ -36170,6 +37033,7 @@ OMEGA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36183,6 +37047,7 @@ codePoint
 =
 0x1D7CB
 )
+{
 /
 /
 MATHEMATICAL
@@ -36202,6 +37067,7 @@ DIGAMMA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36215,6 +37081,7 @@ codePoint
 =
 0x1D7FF
 )
+{
 /
 /
 MATHEMATICAL
@@ -36230,6 +37097,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36243,6 +37111,7 @@ codePoint
 =
 0x1DA36
 )
+{
 /
 /
 SIGNWRITING
@@ -36257,6 +37126,7 @@ IN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36270,6 +37140,7 @@ codePoint
 =
 0x1DA6C
 )
+{
 /
 /
 SIGNWRITING
@@ -36283,6 +37154,7 @@ EXCITEMENT
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36296,6 +37168,7 @@ codePoint
 =
 0x1DA75
 )
+{
 /
 /
 SIGNWRITING
@@ -36317,6 +37190,7 @@ JOINTS
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36330,6 +37204,7 @@ codePoint
 =
 0x1DA84
 )
+{
 /
 /
 SIGNWRITING
@@ -36345,6 +37220,7 @@ NECK
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36358,6 +37234,7 @@ codePoint
 =
 0x1DA9F
 )
+{
 /
 /
 SIGNWRITING
@@ -36375,6 +37252,7 @@ MODIFIER
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36388,6 +37266,7 @@ codePoint
 =
 0x1DAAF
 )
+{
 /
 /
 SIGNWRITING
@@ -36405,6 +37284,7 @@ MODIFIER
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36418,6 +37298,7 @@ codePoint
 =
 0x1E006
 )
+{
 /
 /
 COMBINING
@@ -36433,6 +37314,7 @@ ZHIVETE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36446,6 +37328,7 @@ codePoint
 =
 0x1E018
 )
+{
 /
 /
 COMBINING
@@ -36461,6 +37344,7 @@ HERU
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36474,6 +37358,7 @@ codePoint
 =
 0x1E021
 )
+{
 /
 /
 COMBINING
@@ -36489,6 +37374,7 @@ YATI
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36502,6 +37388,7 @@ codePoint
 =
 0x1E024
 )
+{
 /
 /
 COMBINING
@@ -36518,6 +37405,7 @@ YUS
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36531,6 +37419,7 @@ codePoint
 =
 0x1E02A
 )
+{
 /
 /
 COMBINING
@@ -36546,6 +37435,7 @@ FITA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36559,6 +37449,7 @@ codePoint
 =
 0x1E8C4
 )
+{
 /
 /
 MENDE
@@ -36576,6 +37467,7 @@ NYON
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36589,6 +37481,7 @@ codePoint
 =
 0x1E8D6
 )
+{
 /
 /
 MENDE
@@ -36606,6 +37499,7 @@ MILLIONS
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36619,6 +37513,7 @@ codePoint
 =
 0x1E94A
 )
+{
 /
 /
 ADLAM
@@ -36632,6 +37527,7 @@ NUKTA
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36645,6 +37541,7 @@ codePoint
 =
 0x1E959
 )
+{
 /
 /
 ADLAM
@@ -36658,6 +37555,7 @@ NINE
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36671,6 +37569,7 @@ codePoint
 =
 0x1EE03
 )
+{
 /
 /
 ARABIC
@@ -36684,6 +37583,7 @@ DAL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36697,6 +37597,7 @@ codePoint
 =
 0x1EE1F
 )
+{
 /
 /
 ARABIC
@@ -36711,6 +37612,7 @@ QAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36724,6 +37626,7 @@ codePoint
 =
 0x1EE22
 )
+{
 /
 /
 ARABIC
@@ -36739,6 +37642,7 @@ JEEM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36752,6 +37656,7 @@ codePoint
 =
 0x1EE24
 )
+{
 /
 /
 ARABIC
@@ -36767,6 +37672,7 @@ HEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36780,6 +37686,7 @@ codePoint
 =
 0x1EE27
 )
+{
 /
 /
 ARABIC
@@ -36795,6 +37702,7 @@ HAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36808,6 +37716,7 @@ codePoint
 =
 0x1EE32
 )
+{
 /
 /
 ARABIC
@@ -36823,6 +37732,7 @@ QAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36836,6 +37746,7 @@ codePoint
 =
 0x1EE37
 )
+{
 /
 /
 ARABIC
@@ -36851,6 +37762,7 @@ KHAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36864,6 +37776,7 @@ codePoint
 =
 0x1EE39
 )
+{
 /
 /
 ARABIC
@@ -36879,6 +37792,7 @@ DAD
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36892,6 +37806,7 @@ codePoint
 =
 0x1EE3B
 )
+{
 /
 /
 ARABIC
@@ -36907,6 +37822,7 @@ GHAIN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36920,6 +37836,7 @@ codePoint
 =
 0x1EE42
 )
+{
 /
 /
 ARABIC
@@ -36935,6 +37852,7 @@ JEEM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36948,6 +37866,7 @@ codePoint
 =
 0x1EE47
 )
+{
 /
 /
 ARABIC
@@ -36963,6 +37882,7 @@ HAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -36976,6 +37896,7 @@ codePoint
 =
 0x1EE49
 )
+{
 /
 /
 ARABIC
@@ -36991,6 +37912,7 @@ YEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37004,6 +37926,7 @@ codePoint
 =
 0x1EE4B
 )
+{
 /
 /
 ARABIC
@@ -37019,6 +37942,7 @@ LAM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37032,6 +37956,7 @@ codePoint
 =
 0x1EE4F
 )
+{
 /
 /
 ARABIC
@@ -37047,6 +37972,7 @@ AIN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37060,6 +37986,7 @@ codePoint
 =
 0x1EE52
 )
+{
 /
 /
 ARABIC
@@ -37075,6 +38002,7 @@ QAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37088,6 +38016,7 @@ codePoint
 =
 0x1EE54
 )
+{
 /
 /
 ARABIC
@@ -37103,6 +38032,7 @@ SHEEN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37116,6 +38046,7 @@ codePoint
 =
 0x1EE57
 )
+{
 /
 /
 ARABIC
@@ -37131,6 +38062,7 @@ KHAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37144,6 +38076,7 @@ codePoint
 =
 0x1EE59
 )
+{
 /
 /
 ARABIC
@@ -37159,6 +38092,7 @@ DAD
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37172,6 +38106,7 @@ codePoint
 =
 0x1EE5B
 )
+{
 /
 /
 ARABIC
@@ -37187,6 +38122,7 @@ GHAIN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37200,6 +38136,7 @@ codePoint
 =
 0x1EE5D
 )
+{
 /
 /
 ARABIC
@@ -37217,6 +38154,7 @@ NOON
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37230,6 +38168,7 @@ codePoint
 =
 0x1EE5F
 )
+{
 /
 /
 ARABIC
@@ -37247,6 +38186,7 @@ QAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37260,6 +38200,7 @@ codePoint
 =
 0x1EE62
 )
+{
 /
 /
 ARABIC
@@ -37275,6 +38216,7 @@ JEEM
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37288,6 +38230,7 @@ codePoint
 =
 0x1EE64
 )
+{
 /
 /
 ARABIC
@@ -37303,6 +38246,7 @@ HEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37316,6 +38260,7 @@ codePoint
 =
 0x1EE6A
 )
+{
 /
 /
 ARABIC
@@ -37331,6 +38276,7 @@ KAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37344,6 +38290,7 @@ codePoint
 =
 0x1EE72
 )
+{
 /
 /
 ARABIC
@@ -37359,6 +38306,7 @@ QAF
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37372,6 +38320,7 @@ codePoint
 =
 0x1EE77
 )
+{
 /
 /
 ARABIC
@@ -37387,6 +38336,7 @@ KHAH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37400,6 +38350,7 @@ codePoint
 =
 0x1EE7C
 )
+{
 /
 /
 ARABIC
@@ -37416,6 +38367,7 @@ BEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37429,6 +38381,7 @@ codePoint
 =
 0x1EE7E
 )
+{
 /
 /
 ARABIC
@@ -37446,6 +38399,7 @@ FEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37459,6 +38413,7 @@ codePoint
 =
 0x1EE89
 )
+{
 /
 /
 ARABIC
@@ -37474,6 +38429,7 @@ YEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37487,6 +38443,7 @@ codePoint
 =
 0x1EE9B
 )
+{
 /
 /
 ARABIC
@@ -37502,6 +38459,7 @@ GHAIN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37515,6 +38473,7 @@ codePoint
 =
 0x1EEA3
 )
+{
 /
 /
 ARABIC
@@ -37534,6 +38493,7 @@ DAL
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37547,6 +38507,7 @@ codePoint
 =
 0x1EEA9
 )
+{
 /
 /
 ARABIC
@@ -37566,6 +38527,7 @@ YEH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37579,6 +38541,7 @@ codePoint
 =
 0x1EEBB
 )
+{
 /
 /
 ARABIC
@@ -37598,6 +38561,7 @@ GHAIN
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37611,6 +38575,7 @@ codePoint
 =
 0x2A6D6
 )
+{
 /
 /
 CJK
@@ -37626,6 +38591,7 @@ B
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37639,6 +38605,7 @@ codePoint
 =
 0x2B734
 )
+{
 /
 /
 CJK
@@ -37654,6 +38621,7 @@ C
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37667,6 +38635,7 @@ codePoint
 =
 0x2B81D
 )
+{
 /
 /
 CJK
@@ -37682,6 +38651,7 @@ D
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37695,6 +38665,7 @@ codePoint
 =
 0x2CEA1
 )
+{
 /
 /
 CJK
@@ -37710,6 +38681,7 @@ E
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37723,6 +38695,7 @@ codePoint
 =
 0x2EBE0
 )
+{
 /
 /
 CJK
@@ -37738,6 +38711,7 @@ F
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37751,6 +38725,7 @@ codePoint
 =
 0x2FA1D
 )
+{
 /
 /
 CJK
@@ -37768,6 +38743,7 @@ IDEOGRAPH
 return
 true
 ;
+}
 if
 (
 codePoint
@@ -37781,6 +38757,7 @@ codePoint
 =
 0xE01EF
 )
+{
 /
 /
 VARIATION
@@ -37796,6 +38773,7 @@ SELECTOR
 return
 true
 ;
+}
 return
 false
 ;
@@ -37824,9 +38802,11 @@ ch
 >
 0xFB17
 )
+{
 return
 false
 ;
+}
 if
 (
 ch
@@ -38011,21 +38991,25 @@ ch
 =
 0x1E9A
 )
+{
 return
 ch
 >
 =
 0x1E96
 ;
+}
 if
 (
 ch
 <
 0x1F50
 )
+{
 return
 false
 ;
+}
 /
 /
 U
@@ -38588,9 +39572,11 @@ ch
 <
 0xFB00
 )
+{
 return
 false
 ;
+}
 /
 /
 U

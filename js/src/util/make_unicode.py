@@ -5590,6 +5590,8 @@ ch
 {
 }
 )
+{
+{
 '
 .
 format
@@ -5621,6 +5623,14 @@ hexlit
 min_child
 )
 )
+)
+                
+println
+(
+indent
+'
+}
+'
 )
             
 else
@@ -5724,6 +5734,8 @@ ch
 {
 }
 )
+{
+{
 '
 .
 format
@@ -5742,6 +5754,14 @@ indent
 return
 false
 ;
+'
+)
+            
+println
+(
+indent
+'
+}
 '
 )
         
@@ -5982,6 +6002,8 @@ if
 {
 }
 )
+{
+{
 '
 .
 format
@@ -6007,6 +6029,13 @@ println
 return
 false
 ;
+'
+)
+        
+println
+(
+'
+}
 '
 )
         
@@ -6235,6 +6264,8 @@ ch
 {
 }
 )
+{
+{
 '
 .
 format
@@ -6255,6 +6286,13 @@ println
 return
 false
 ;
+'
+)
+                
+println
+(
+'
+}
 '
 )
             
@@ -10141,6 +10179,8 @@ codePoint
 X
 }
 )
+{
+{
 /
 /
 {
@@ -10180,6 +10220,13 @@ println
 return
 true
 ;
+'
+)
+            
+println
+(
+'
+}
 '
 )
         
@@ -11997,6 +12044,8 @@ if
 {
 }
 )
+{
+{
 '
 .
 format
@@ -12024,6 +12073,13 @@ consequent
 casefolded
 )
 )
+)
+            
+println
+(
+'
+}
+'
 )
         
 println
@@ -12099,6 +12155,8 @@ if
 {
 }
 )
+{
+{
 '
 .
 format
@@ -12135,6 +12193,13 @@ consequent
 ch
 )
 )
+)
+            
+println
+(
+'
+}
+'
 )
         
 println
