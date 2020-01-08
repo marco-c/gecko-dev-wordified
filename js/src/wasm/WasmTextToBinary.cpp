@@ -14758,7 +14758,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 flt
 )
@@ -15944,7 +15944,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 Float
 (
@@ -16300,7 +16300,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 Float
 (
@@ -16377,7 +16377,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 val
 .
@@ -16426,7 +16426,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 uint32_t
 (
@@ -16455,7 +16455,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 uint32_t
 (
@@ -16503,7 +16503,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 uint64_t
 (
@@ -16531,7 +16531,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 val
 .
@@ -16556,7 +16556,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 uint64_t
 (
@@ -16584,7 +16584,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 uint64_t
 (
@@ -23441,7 +23441,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 uint32_t
 (
@@ -25556,7 +25556,7 @@ lifo
 )
 AstConst
 (
-Val
+LitVal
 (
 uint32_t
 (

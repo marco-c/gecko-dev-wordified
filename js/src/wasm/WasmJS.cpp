@@ -726,7 +726,7 @@ ValType
 targetType
 HandleValue
 v
-Val
+LitVal
 *
 val
 )
@@ -767,7 +767,7 @@ false
 *
 val
 =
-Val
+LitVal
 (
 uint32_t
 (
@@ -806,7 +806,7 @@ false
 *
 val
 =
-Val
+LitVal
 (
 float
 (
@@ -845,7 +845,7 @@ false
 *
 val
 =
-Val
+LitVal
 (
 d
 )
@@ -873,7 +873,7 @@ isNull
 *
 val
 =
-Val
+LitVal
 (
 ValType
 :
@@ -906,7 +906,7 @@ false
 *
 val
 =
-Val
+LitVal
 (
 ValType
 :
@@ -944,7 +944,7 @@ Value
 ToJSValue
 (
 const
-Val
+LitVal
 &
 val
 )
@@ -1296,7 +1296,7 @@ memoryImport
 WasmGlobalObjectVector
 &
 globalObjs
-ValVector
+LitValVector
 *
 globalImportValues
 )
@@ -1678,7 +1678,7 @@ DefinitionKind
 Global
 :
 {
-Val
+LitVal
 val
 ;
 const
@@ -2522,7 +2522,7 @@ globalObjs
 cx
 )
 ;
-ValVector
+LitValVector
 globals
 ;
 if
@@ -6884,7 +6884,7 @@ GlobalDescVector
 &
 globals
 const
-ValVector
+LitValVector
 &
 globalImportValues
 const
@@ -7561,7 +7561,7 @@ globalObjs
 cx
 )
 ;
-ValVector
+LitValVector
 globals
 ;
 if
@@ -13679,7 +13679,7 @@ JSContext
 *
 cx
 const
-Val
+LitVal
 &
 val
 bool
@@ -14348,10 +14348,10 @@ set
 globalVal
 |
 .
-Val
+LitVal
 globalVal
 =
-Val
+LitVal
 (
 uint32_t
 (
@@ -14432,7 +14432,7 @@ I64
 :
 globalVal
 =
-Val
+LitVal
 (
 uint64_t
 (
@@ -14450,7 +14450,7 @@ F32
 :
 globalVal
 =
-Val
+LitVal
 (
 float
 (
@@ -14470,7 +14470,7 @@ F64
 :
 globalVal
 =
-Val
+LitVal
 (
 double
 (
@@ -14490,7 +14490,7 @@ AnyRef
 :
 globalVal
 =
-Val
+LitVal
 (
 ValType
 :
@@ -14843,7 +14843,7 @@ return
 false
 ;
 }
-Val
+LitVal
 val
 ;
 if
@@ -15149,7 +15149,7 @@ toBoolean
 )
 ;
 }
-Val
+LitVal
 WasmGlobalObject
 :
 :
@@ -15169,7 +15169,7 @@ cell
 (
 )
 ;
-Val
+LitVal
 val
 ;
 switch
@@ -15191,7 +15191,7 @@ I32
 :
 val
 =
-Val
+LitVal
 (
 uint32_t
 (
@@ -15212,7 +15212,7 @@ I64
 :
 val
 =
-Val
+LitVal
 (
 uint64_t
 (
@@ -15233,7 +15233,7 @@ F32
 :
 val
 =
-Val
+LitVal
 (
 cell
 -
@@ -15251,7 +15251,7 @@ F64
 :
 val
 =
-Val
+LitVal
 (
 cell
 -
@@ -15269,7 +15269,7 @@ AnyRef
 :
 val
 =
-Val
+LitVal
 (
 ValType
 :

@@ -540,7 +540,7 @@ FunctionVector
 >
 funcImports
 const
-ValVector
+LitValVector
 &
 globalImportValues
 const

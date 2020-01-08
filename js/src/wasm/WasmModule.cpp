@@ -4551,7 +4551,7 @@ uint32_t
 EvaluateInitExpr
 (
 const
-ValVector
+LitValVector
 &
 globalImportValues
 InitExpr
@@ -4640,7 +4640,7 @@ funcImports
 HandleWasmMemoryObject
 memoryObj
 const
-ValVector
+LitValVector
 &
 globalImportValues
 )
@@ -6441,11 +6441,11 @@ true
 ;
 }
 static
-Val
+LitVal
 ExtractGlobalValue
 (
 const
-ValVector
+LitValVector
 &
 globalImportValues
 uint32_t
@@ -6580,7 +6580,7 @@ JSContext
 *
 cx
 const
-ValVector
+LitValVector
 &
 globalImportValues
 size_t
@@ -6613,7 +6613,7 @@ globalIndex
 return
 true
 ;
-Val
+LitVal
 val
 =
 ExtractGlobalValue
@@ -6703,7 +6703,7 @@ JSContext
 *
 cx
 const
-ValVector
+LitValVector
 &
 globalImportValues
 WasmGlobalObjectVector
@@ -7514,7 +7514,7 @@ tableImport
 HandleWasmMemoryObject
 memoryImport
 const
-ValVector
+LitValVector
 &
 globalImportValues
 WasmGlobalObjectVector
