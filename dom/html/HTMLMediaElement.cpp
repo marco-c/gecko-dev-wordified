@@ -31831,6 +31831,12 @@ STALL_MS
 )
 )
 {
+if
+(
+!
+mMediaSource
+)
+{
 DispatchAsyncEvent
 (
 NS_LITERAL_STRING
@@ -31841,10 +31847,8 @@ stalled
 )
 )
 ;
-if
-(
-mMediaSource
-)
+}
+else
 {
 ChangeDelayLoadStatus
 (
