@@ -774,11 +774,11 @@ nsINavBookmarkObserver
 ;
 this
 .
-handlePlacesEvent
+handlePlacesEvents
 =
 this
 .
-handlePlacesEvent
+handlePlacesEvents
 .
 bind
 (
@@ -786,7 +786,7 @@ this
 )
 ;
 }
-handlePlacesEvent
+handlePlacesEvents
 (
 events
 )
@@ -1148,7 +1148,7 @@ this
 .
 placesObserver
 .
-handlePlacesEvent
+handlePlacesEvents
 )
 ;
 Services
@@ -1445,7 +1445,7 @@ this
 .
 placesObserver
 .
-handlePlacesEvent
+handlePlacesEvents
 )
 ;
 Services

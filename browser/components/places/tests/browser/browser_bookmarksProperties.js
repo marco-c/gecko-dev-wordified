@@ -2234,7 +2234,13 @@ PlacesTestUtils
 waitForNotification
 (
 "
-onItemAdded
+bookmark
+-
+added
+"
+null
+"
+places
 "
 )
 ;

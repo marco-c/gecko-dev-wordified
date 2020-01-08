@@ -2225,12 +2225,6 @@ waitForNotification
 (
 notification
 conditionFn
-=
-(
-)
-=
->
-true
 type
 =
 "
@@ -2264,6 +2258,10 @@ events
 {
 if
 (
+!
+conditionFn
+|
+|
 conditionFn
 (
 events
@@ -2382,6 +2380,10 @@ args
 {
 if
 (
+!
+conditionFn
+|
+|
 conditionFn
 .
 apply

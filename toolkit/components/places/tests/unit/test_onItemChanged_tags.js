@@ -260,11 +260,6 @@ resolve
 ;
 }
 }
-onItemAdded
-(
-)
-{
-}
 onBeginUpdateBatch
 (
 )

@@ -3268,7 +3268,9 @@ check
 name
 :
 "
-onItemAdded
+bookmark
+-
+added
 "
 params
 :
@@ -3300,7 +3302,8 @@ bookmarks
 TYPE_FOLDER
 urlHref
 :
-null
+"
+"
 title
 :
 "
@@ -4273,7 +4276,9 @@ check
 name
 :
 "
-onItemAdded
+bookmark
+-
+added
 "
 params
 :
