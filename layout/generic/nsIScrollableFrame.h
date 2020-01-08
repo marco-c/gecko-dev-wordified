@@ -1064,7 +1064,7 @@ the
 size
 of
 the
-scroll
+view
 port
 to
 use
@@ -1079,7 +1079,7 @@ position
 /
 virtual
 nsSize
-GetScrollPositionClampingScrollPortSize
+GetVisualViewportSize
 (
 )
 const

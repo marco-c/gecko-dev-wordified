@@ -9131,16 +9131,12 @@ the
 viewport
 or
 the
-scroll
-position
-clamping
-scrollport
+visual
+viewport
 size
 if
 one
 is
-/
-/
 set
 .
 nsIPresShell
@@ -9159,7 +9155,7 @@ if
 ps
 -
 >
-IsScrollPositionClampingScrollPortSizeSet
+IsVisualViewportSizeSet
 (
 )
 )
@@ -9176,7 +9172,7 @@ nsPoint
 ps
 -
 >
-GetScrollPositionClampingScrollPortSize
+GetVisualViewportSize
 (
 )
 )

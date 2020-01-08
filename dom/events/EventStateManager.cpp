@@ -16971,8 +16971,7 @@ and
 page
 scrolling
 use
-view
-port
+viewport
 size
 .
 if

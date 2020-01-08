@@ -2022,7 +2022,7 @@ LogInfo
 (
 "
 Setting
-scrollport
+viewport
 to
 <
 w
@@ -2047,7 +2047,7 @@ windowUtils
 (
 )
 .
-setScrollPositionClampingScrollPortSize
+setVisualViewportSize
 (
 sw
 sh

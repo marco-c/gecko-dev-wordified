@@ -42874,7 +42874,7 @@ PresShell
 )
 -
 >
-IsScrollPositionClampingScrollPortSizeSet
+IsVisualViewportSizeSet
 (
 )
 )
@@ -42891,7 +42891,7 @@ PresShell
 )
 -
 >
-GetScrollPositionClampingScrollPortSize
+GetVisualViewportSize
 (
 )
 )
@@ -43817,7 +43817,7 @@ PresShell
 )
 -
 >
-IsScrollPositionClampingScrollPortSizeSet
+IsVisualViewportSizeSet
 (
 )
 )
@@ -43832,7 +43832,7 @@ PresShell
 )
 -
 >
-GetScrollPositionClampingScrollPortSize
+GetVisualViewportSize
 (
 )
 ;
