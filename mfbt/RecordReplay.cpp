@@ -331,6 +331,16 @@ ProgressCounter
 \
 Macro
 (
+NewTimeWarpTarget
+ProgressCounter
+(
+)
+(
+)
+)
+\
+Macro
+(
 IsInternalScript
 bool
 (
