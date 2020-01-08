@@ -1223,6 +1223,17 @@ size
 .
 *
 param
+aDecoderFlags
+Flags
+specifying
+the
+behavior
+of
+this
+decoder
+.
+*
+param
 aSurfaceFlags
 Flags
 specifying
@@ -1263,6 +1274,8 @@ IntSize
 >
 &
 aOutputSize
+DecoderFlags
+aDecoderFlags
 SurfaceFlags
 aSurfaceFlags
 )

@@ -1375,6 +1375,10 @@ WrapNotNull
 sourceBuffer
 )
 aSize
+DecoderFlags
+:
+:
+FIRST_FRAME_ONLY
 ToSurfaceFlags
 (
 aFlags
