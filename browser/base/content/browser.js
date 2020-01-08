@@ -21621,6 +21621,13 @@ sslStatus
 =
 securityInfo
 .
+QueryInterface
+(
+Ci
+.
+nsISSLStatusProvider
+)
+.
 SSLStatus
 ;
 let
@@ -21836,6 +21843,13 @@ securityInfoAsString
 sslStatus
 =
 securityInfo
+.
+QueryInterface
+(
+Ci
+.
+nsISSLStatusProvider
+)
 .
 SSLStatus
 ;

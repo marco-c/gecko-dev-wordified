@@ -385,7 +385,15 @@ status
 =
 securityUI
 .
-secInfo
+QueryInterface
+(
+Components
+.
+interfaces
+.
+nsISSLStatusProvider
+)
+                                 
 .
 SSLStatus
 ;
