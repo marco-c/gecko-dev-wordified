@@ -63,7 +63,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip
 class
 TestCommandLineArguments
 (
@@ -256,23 +255,6 @@ has
 not
 been
 enabled
-"
-)
-    
-skip
-(
-"
-Bug
-1430717
--
-Causes
-'
-1000s
-of
-no
-output
-'
-failures
 "
 )
     
