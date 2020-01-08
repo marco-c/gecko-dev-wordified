@@ -205,8 +205,6 @@ ToggleMenu
 id
 :
 "
-global
--
 reload
 -
 conditions

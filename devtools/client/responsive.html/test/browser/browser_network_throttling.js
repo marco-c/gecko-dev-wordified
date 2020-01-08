@@ -227,8 +227,6 @@ selector
 =
 "
 #
-global
--
 network
 -
 throttling

@@ -517,8 +517,6 @@ select
 id
 :
 "
-global
--
 network
 -
 throttling
