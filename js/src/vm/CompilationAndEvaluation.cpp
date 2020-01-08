@@ -689,7 +689,7 @@ script
 }
 static
 bool
-Compile
+CompileFile
 (
 JSContext
 *
@@ -846,9 +846,7 @@ filename
 )
 ;
 return
-:
-:
-Compile
+CompileFile
 (
 cx
 options
@@ -1013,9 +1011,7 @@ script
 )
 {
 return
-:
-:
-Compile
+CompileFile
 (
 cx
 options
@@ -1219,9 +1215,7 @@ true
 )
 ;
 return
-:
-:
-Compile
+CompileFile
 (
 cx
 options
