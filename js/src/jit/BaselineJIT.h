@@ -2335,8 +2335,6 @@ ICEntry
 &
 stackCheckICEntry
 (
-bool
-earlyCheck
 )
 ;
 ICEntry
