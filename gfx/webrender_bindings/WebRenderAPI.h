@@ -543,6 +543,11 @@ GenerateFrame
 )
 ;
 void
+InvalidateRenderedFrame
+(
+)
+;
+void
 UpdateDynamicProperties
 (
 const
