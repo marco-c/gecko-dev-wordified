@@ -309,6 +309,10 @@ mBooleanProperties
 (
 0
 )
+mRelationProperties
+(
+3
+)
 mStringProperties
 (
 16
