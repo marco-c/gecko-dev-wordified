@@ -22912,9 +22912,12 @@ ArrayIncludes
 2
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
+/
+*
+Future
+additions
+*
+/
 JS_SELF_HOSTED_FN
 (
 "
@@ -22937,8 +22940,6 @@ ArrayFlat
 0
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
