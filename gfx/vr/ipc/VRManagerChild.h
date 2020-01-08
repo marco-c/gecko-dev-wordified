@@ -936,12 +936,6 @@ VRMockDisplay
 >
 mVRMockDisplay
 ;
-VRControllerState
-mLastControllerState
-[
-kVRControllerMaxCount
-]
-;
 DISALLOW_COPY_AND_ASSIGN
 (
 VRManagerChild
