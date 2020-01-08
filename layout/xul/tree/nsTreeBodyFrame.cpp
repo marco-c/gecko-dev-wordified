@@ -14550,7 +14550,7 @@ FillCursorInformationFromStyle
 childContext
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 aCursor
