@@ -702,7 +702,7 @@ aEditSubAction
 EditSubAction
 :
 :
-makeList
+eCreateOrChangeList
 |
 |
 aEditSubAction
@@ -4229,7 +4229,7 @@ case
 EditSubAction
 :
 :
-makeList
+eCreateOrChangeList
 :
 return
 WillMakeList
@@ -24747,7 +24747,7 @@ aRightOffset
 EditSubAction
 :
 :
-makeList
+eCreateOrChangeList
 arrayOfNodes
 TouchContent
 :
@@ -28947,7 +28947,7 @@ arrayOfRanges
 EditSubAction
 :
 :
-makeList
+eCreateOrChangeList
 )
 ;
 /
@@ -49235,7 +49235,7 @@ aEditSubAction
 EditSubAction
 :
 :
-makeList
+eCreateOrChangeList
 |
 |
 aEditSubAction
@@ -49747,7 +49747,7 @@ GetNodesFromSelection
 EditSubAction
 :
 :
-makeList
+eCreateOrChangeList
 aOutArrayOfNodes
 aTouchContent
 )

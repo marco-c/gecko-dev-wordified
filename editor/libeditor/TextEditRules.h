@@ -3262,7 +3262,7 @@ bOrdered
 EditSubAction
 :
 :
-makeList
+eCreateOrChangeList
 bool
 entireList
 ;

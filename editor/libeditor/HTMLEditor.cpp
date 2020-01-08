@@ -12252,7 +12252,7 @@ this
 EditSubAction
 :
 :
-makeList
+eCreateOrChangeList
 nsIEditor
 :
 :
@@ -12286,7 +12286,7 @@ subActionInfo
 EditSubAction
 :
 :
-makeList
+eCreateOrChangeList
 )
 ;
 subActionInfo
