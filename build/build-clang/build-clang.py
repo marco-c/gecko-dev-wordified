@@ -2482,6 +2482,9 @@ include
 lib
 "
 "
+lib32
+"
+"
 libexec
 "
 "
