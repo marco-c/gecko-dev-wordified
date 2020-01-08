@@ -3503,6 +3503,10 @@ _tabClient
 .
 listWorkers
 (
+)
+.
+then
+(
 (
 response
 )

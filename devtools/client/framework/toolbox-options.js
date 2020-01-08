@@ -3753,6 +3753,10 @@ activeTab
 reconfigure
 (
 options
+)
+.
+then
+(
 resolve
 )
 ;
