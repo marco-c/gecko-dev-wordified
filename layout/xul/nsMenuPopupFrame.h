@@ -4359,6 +4359,10 @@ mSizedToPopup
 (
 false
 )
+mIsOpenChanged
+(
+false
+)
 {
 }
 void

@@ -257,6 +257,10 @@ mColumns
 (
 aColumns
 )
+mIndex
+(
+0
+)
 mPrevious
 (
 nullptr
