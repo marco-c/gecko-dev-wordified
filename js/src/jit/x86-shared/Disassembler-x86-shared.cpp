@@ -981,7 +981,7 @@ VEX_PS
 uint32_t
 opcode
 =
-OP_HLT
+OP_NOP_00
 ;
 uint8_t
 modrm
