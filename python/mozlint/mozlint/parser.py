@@ -72,6 +72,10 @@ from
 types
 import
 supported_types
+GLOBAL_SUPPORT_FILES
+=
+[
+]
 class
 Parser
 (
@@ -817,9 +821,13 @@ files
 ]
 )
 .
-append
+extend
 (
+GLOBAL_SUPPORT_FILES
++
+[
 path
+]
 )
             
 linter
