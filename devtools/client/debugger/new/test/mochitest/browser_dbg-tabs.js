@@ -222,6 +222,7 @@ simple2
 "
 )
 ;
+await
 closeTab
 (
 dbg
@@ -230,6 +231,7 @@ simple1
 "
 )
 ;
+await
 closeTab
 (
 dbg

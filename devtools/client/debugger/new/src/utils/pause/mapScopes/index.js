@@ -2471,6 +2471,15 @@ if
 (
 !
 hadApplicableBindings
+&
+&
+name
+!
+=
+=
+"
+this
+"
 )
 {
 /

@@ -260,6 +260,10 @@ setBoolPref
 "
 devtools
 .
+debugger
+.
+features
+.
 map
 -
 await
