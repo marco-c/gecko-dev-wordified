@@ -2691,6 +2691,23 @@ Traits
 ConstClientType
 ConstClientType
 ;
+typedef
+LinkedListElement
+<
+T
+>
+*
+ElementType
+;
+typedef
+const
+LinkedListElement
+<
+T
+>
+*
+ConstElementType
+;
 LinkedListElement
 <
 T
@@ -2703,6 +2720,8 @@ template
 <
 typename
 Type
+typename
+Element
 >
 class
 Iterator
@@ -2747,7 +2766,13 @@ operator
 {
 mCurrent
 =
+static_cast
+<
+Element
+>
+(
 mCurrent
+)
 -
 >
 getNext
@@ -2766,9 +2791,6 @@ operator
 (
 const
 Iterator
-<
-Type
->
 &
 aOther
 )
@@ -3349,6 +3371,7 @@ myList
 Iterator
 <
 RawType
+ElementType
 >
 begin
 (
@@ -3358,6 +3381,7 @@ return
 Iterator
 <
 RawType
+ElementType
 >
 (
 getFirst
@@ -3369,6 +3393,7 @@ getFirst
 Iterator
 <
 ConstRawType
+ConstElementType
 >
 begin
 (
@@ -3379,6 +3404,7 @@ return
 Iterator
 <
 ConstRawType
+ConstElementType
 >
 (
 getFirst
@@ -3390,6 +3416,7 @@ getFirst
 Iterator
 <
 RawType
+ElementType
 >
 end
 (
@@ -3399,6 +3426,7 @@ return
 Iterator
 <
 RawType
+ElementType
 >
 (
 nullptr
@@ -3408,6 +3436,7 @@ nullptr
 Iterator
 <
 ConstRawType
+ConstElementType
 >
 end
 (
@@ -3418,6 +3447,7 @@ return
 Iterator
 <
 ConstRawType
+ConstElementType
 >
 (
 nullptr
