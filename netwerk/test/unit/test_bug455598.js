@@ -226,6 +226,16 @@ cm
 cookieExists
 (
 cookie
+.
+host
+cookie
+.
+path
+cookie
+.
+name
+{
+}
 )
 )
 ;
