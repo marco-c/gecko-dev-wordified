@@ -131,6 +131,10 @@ server
 actors
 /
 worker
+/
+service
+-
+worker
 "
 true
 )

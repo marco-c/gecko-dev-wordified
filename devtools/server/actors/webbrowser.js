@@ -261,6 +261,8 @@ server
 actors
 /
 worker
+/
+worker
 -
 list
 "
@@ -281,6 +283,8 @@ devtools
 server
 /
 actors
+/
+worker
 /
 worker
 -
