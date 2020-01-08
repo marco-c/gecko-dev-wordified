@@ -3745,10 +3745,12 @@ string
 pcHandle
 nsresult
 result
+const
 nsAutoPtr
 <
 RTCStatsQuery
 >
+&
 query
 )
 ;
