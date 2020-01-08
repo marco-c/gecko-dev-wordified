@@ -2986,8 +2986,10 @@ PreserveWrapperCallback
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 obj
 )
 ;

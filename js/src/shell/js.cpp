@@ -20631,8 +20631,7 @@ DummyPreserveWrapperCallback
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

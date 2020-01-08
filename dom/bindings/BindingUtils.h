@@ -9912,8 +9912,14 @@ not
 bool
 TryPreserveWrapper
 (
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 obj
 )
 ;
