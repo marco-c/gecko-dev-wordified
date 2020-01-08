@@ -18706,7 +18706,7 @@ win
 .
 gBrowser
 .
-addTab
+addWebTab
 (
 URI
 .
@@ -19388,7 +19388,7 @@ win
 .
 gBrowser
 .
-addTab
+addWebTab
 (
 url
 )
@@ -19623,7 +19623,7 @@ win
 .
 gBrowser
 .
-addTab
+addWebTab
 (
 url
 )

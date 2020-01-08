@@ -6000,7 +6000,7 @@ win
 .
 gBrowser
 .
-addTab
+addWebTab
 (
 url
 )

@@ -4914,7 +4914,7 @@ selectedTab
 =
 gBrowser
 .
-addTab
+addTrustedTab
 (
 url
 {
