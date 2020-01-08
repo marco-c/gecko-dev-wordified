@@ -570,14 +570,10 @@ name
 .
 textContent
 =
-Strings
-.
-GetStringFromName
-(
 "
-addons_adb_label2
+ADB
+Extension
 "
-)
 ;
 break
 ;
