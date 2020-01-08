@@ -189,12 +189,6 @@ Comment
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED
-(
-Comment
-CharacterData
-nsIDOMNode
-)
 already_AddRefed
 <
 CharacterData

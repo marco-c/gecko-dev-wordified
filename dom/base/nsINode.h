@@ -167,13 +167,6 @@ baseURIProperty
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -4752,7 +4745,7 @@ ones
 defined
 for
 *
-nsIDOMNode
+Node
 .
 nodeType
 *

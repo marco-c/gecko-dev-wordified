@@ -242,17 +242,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-/
-/
-for
-Find
-#
-include
-"
 nsPIDOMWindow
 .
 h

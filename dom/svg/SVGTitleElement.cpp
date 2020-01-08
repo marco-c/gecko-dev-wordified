@@ -259,7 +259,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 (
 SVGTitleElement
 SVGTitleElementBase
-nsIDOMNode
 nsIMutationObserver
 )
 /

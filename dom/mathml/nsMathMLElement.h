@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 Link
 .
 h
@@ -211,8 +204,6 @@ final
 :
 public
 nsMathMLElementBase
-public
-nsIDOMNode
 public
 mozilla
 :

@@ -153,13 +153,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -227,8 +220,6 @@ final
 :
 public
 nsIAttribute
-public
-nsIDOMNode
 {
 virtual
 ~

@@ -165,12 +165,6 @@ XBLChildrenElement
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED
-(
-XBLChildrenElement
-Element
-nsIDOMNode
-)
 NS_IMPL_ELEMENT_CLONE
 (
 XBLChildrenElement

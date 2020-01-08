@@ -399,7 +399,6 @@ NS_IMPL_ISUPPORTS_INHERITED
 (
 SVGFEImageElement
 SVGFEImageElementBase
-nsIDOMNode
 imgINotificationObserver
 nsIImageLoadingContent
 )

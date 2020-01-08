@@ -140,13 +140,6 @@ CharacterData
 .
 h
 "
-#
-include
-"
-nsIDOMNode
-.
-h
-"
 namespace
 mozilla
 {
@@ -159,8 +152,6 @@ final
 :
 public
 CharacterData
-public
-nsIDOMNode
 {
 private
 :
@@ -258,7 +249,11 @@ IsComment
 /
 /
 nsISupports
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+Comment
+CharacterData
+)
 virtual
 already_AddRefed
 <

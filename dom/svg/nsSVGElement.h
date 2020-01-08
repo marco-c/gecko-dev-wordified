@@ -247,13 +247,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 SVGContentUtils
 .
 h
@@ -365,8 +358,6 @@ nsSVGElementBase
 /
 /
 nsIContent
-public
-nsIDOMNode
 {
 protected
 :
@@ -519,7 +510,11 @@ SVGStringList
 /
 /
 nsISupports
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+nsSVGElement
+nsSVGElementBase
+)
 void
 DidAnimateClass
 (

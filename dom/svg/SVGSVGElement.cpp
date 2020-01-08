@@ -435,11 +435,7 @@ GetParentObject
 )
 {
 return
-static_cast
-<
-nsIDOMNode
-*
->
+ToSupports
 (
 mElement
 )
@@ -779,11 +775,10 @@ cb
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
-NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
+NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED_0
 (
 SVGSVGElement
 SVGSVGElementBase
-nsIDOMNode
 )
 SVGView
 :

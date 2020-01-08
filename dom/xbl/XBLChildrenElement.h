@@ -123,13 +123,6 @@ nsXBLChildrenElement_h___
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsINodeList
 .
 h
@@ -219,7 +212,11 @@ aNodeInfo
 /
 /
 nsISupports
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+XBLChildrenElement
+nsXMLElement
+)
 /
 /
 nsINode

@@ -208,12 +208,6 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED
-(
-nsXMLElement
-Element
-nsIDOMNode
-)
 JSObject
 *
 nsXMLElement

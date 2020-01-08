@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h
@@ -319,8 +312,6 @@ nsGenericHTMLElement
 :
 public
 nsGenericHTMLElementBase
-public
-nsIDOMNode
 {
 public
 :
@@ -386,7 +377,11 @@ NODE_HAS_DIRECTION_LTR
 )
 ;
 }
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+nsGenericHTMLElement
+nsGenericHTMLElementBase
+)
 NS_IMPL_FROMNODE
 (
 nsGenericHTMLElement

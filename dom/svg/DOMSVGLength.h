@@ -1339,14 +1339,7 @@ get
 )
 ;
 return
-static_cast
-<
-nsIDOMNode
-*
->
-(
 svgElement
-)
 ;
 }
 JSObject
