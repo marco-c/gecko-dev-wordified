@@ -390,6 +390,9 @@ separators
 :
 '
 )
+sort_keys
+=
+True
 )
         
 fh
