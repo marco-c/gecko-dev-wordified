@@ -13814,7 +13814,7 @@ JS_GetProperty
 cx
 obj
 "
-type
+value
 "
 &
 typeVal

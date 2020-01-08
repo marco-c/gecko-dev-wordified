@@ -3153,7 +3153,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 i32
@@ -3171,7 +3171,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 f32
@@ -3189,7 +3189,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 f64
@@ -3219,7 +3219,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 i64
@@ -3272,7 +3272,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 fnord
@@ -3331,7 +3331,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 i32
@@ -3354,7 +3354,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 f32
@@ -3387,7 +3387,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 f64
@@ -3424,7 +3424,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 i32
@@ -3454,7 +3454,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 i32
@@ -3474,7 +3474,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 f32
@@ -3494,7 +3494,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 f64
@@ -3522,7 +3522,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 i32
@@ -3610,7 +3610,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 i32
@@ -3653,7 +3653,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 i32
@@ -3693,7 +3693,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 i32
@@ -4620,7 +4620,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 i32
@@ -4701,7 +4701,7 @@ new
 Global
 (
 {
-type
+value
 :
 "
 i32
