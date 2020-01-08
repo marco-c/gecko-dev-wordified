@@ -309,7 +309,7 @@ aCount
 )
 const
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Adding
@@ -342,7 +342,7 @@ aDistance
 )
 const
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Computing
@@ -379,7 +379,7 @@ aResult
 )
 const
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Interpolating

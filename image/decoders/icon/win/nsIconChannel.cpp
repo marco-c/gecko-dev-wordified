@@ -4038,7 +4038,7 @@ int64_t
 aContentLength
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsIconChannel

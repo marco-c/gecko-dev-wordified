@@ -844,7 +844,7 @@ OnClose
 void
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 OnClose
@@ -853,6 +853,8 @@ not
 be
 called
 for
+"
+"
 TaskbarWindowPreviews
 "
 )
@@ -877,7 +879,7 @@ rAcceptActivation
 =
 true
 ;
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 OnActivate
@@ -886,6 +888,8 @@ not
 be
 called
 for
+"
+"
 TaskbarWindowPreviews
 "
 )

@@ -862,7 +862,7 @@ moz_gtk_shutdown
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected

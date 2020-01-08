@@ -5638,7 +5638,7 @@ if
 aData
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 null
@@ -5746,7 +5746,7 @@ if
 aData
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 null

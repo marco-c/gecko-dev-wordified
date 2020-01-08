@@ -116,13 +116,13 @@ mAtom
 nullptr
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsHtml5AtomTable
 is
 broken
-and
+;
 tried
 to
 copy

@@ -19131,7 +19131,7 @@ earlier
 in
 this
 function
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 switch
@@ -19827,7 +19827,7 @@ earlier
 in
 this
 function
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 switch

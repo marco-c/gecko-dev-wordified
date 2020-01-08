@@ -17870,7 +17870,7 @@ to
 our
 child
 list
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 How
@@ -19212,7 +19212,7 @@ list
 "
 )
 ;
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 How
@@ -21196,7 +21196,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 How

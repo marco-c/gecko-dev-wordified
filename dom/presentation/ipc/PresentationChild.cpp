@@ -276,7 +276,7 @@ PresentationIPCRequest
 aRequest
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 We
@@ -285,6 +285,8 @@ never
 be
 manually
 allocating
+"
+"
 PPresentationRequestChild
 actors
 "

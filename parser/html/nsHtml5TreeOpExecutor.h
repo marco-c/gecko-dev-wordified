@@ -587,7 +587,7 @@ aEncoding
 )
 override
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 No

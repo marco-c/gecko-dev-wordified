@@ -377,7 +377,7 @@ aUnit
 eStyleUnit_Coord
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 not
@@ -760,7 +760,7 @@ aValue
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 not
@@ -994,7 +994,7 @@ M_PI
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unrecognized

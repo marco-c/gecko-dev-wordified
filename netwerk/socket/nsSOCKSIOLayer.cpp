@@ -2032,7 +2032,7 @@ u8
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown

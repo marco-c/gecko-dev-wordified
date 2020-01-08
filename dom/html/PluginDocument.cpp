@@ -508,13 +508,15 @@ if
 objListener
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 PluginStreamListener
 without
 appropriate
 content
+"
+"
 node
 "
 )
@@ -576,7 +578,7 @@ rv
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 InitializeFromChannel

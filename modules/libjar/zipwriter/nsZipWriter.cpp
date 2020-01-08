@@ -1242,7 +1242,7 @@ reach
 here
 in
 reality
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Loop

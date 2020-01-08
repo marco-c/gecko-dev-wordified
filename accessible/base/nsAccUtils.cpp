@@ -1730,7 +1730,7 @@ break
 }
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 invalid
@@ -1855,7 +1855,7 @@ break
 }
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 invalid

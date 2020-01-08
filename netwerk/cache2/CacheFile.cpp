@@ -12414,7 +12414,7 @@ return
 other
 error
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 We

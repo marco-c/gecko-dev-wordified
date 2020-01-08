@@ -1352,7 +1352,7 @@ colIdx
 continue
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 huh

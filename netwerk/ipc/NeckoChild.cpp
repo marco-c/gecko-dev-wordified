@@ -561,7 +561,7 @@ takes
 an
 existing
 HttpChildChannel
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPHttpChannelChild
@@ -570,6 +570,8 @@ not
 be
 called
 on
+"
+"
 child
 "
 )
@@ -660,7 +662,7 @@ takes
 an
 existing
 object
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPStunAddrsRequestChild
@@ -668,6 +670,8 @@ should
 not
 be
 called
+"
+"
 on
 child
 "
@@ -753,7 +757,7 @@ HttpChannelChild
 OpenAlternativeOutputStream
 (
 )
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPAltDataOutputStreamChild
@@ -931,7 +935,7 @@ nsCookieService
 GetSingleton
 (
 )
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPCookieServiceChild
@@ -1022,7 +1026,7 @@ nsWyciwygProtocolHandler
 NewChannel2
 (
 )
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPWyciwygChannelChild
@@ -1109,7 +1113,7 @@ uint32_t
 aSerial
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPWebSocketChild
@@ -1537,7 +1541,7 @@ bool
 aUseArrayBuffers
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPTCPServerSocket
@@ -1604,7 +1608,7 @@ nsCString
 aFilter
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPUDPSocket
@@ -1697,7 +1701,7 @@ takes
 an
 existing
 object
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 AllocPDNSRequestChild

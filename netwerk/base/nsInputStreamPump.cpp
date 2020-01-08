@@ -3035,7 +3035,7 @@ nextState
 =
 0
 ;
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -3984,7 +3984,7 @@ offsetBefore
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Tell

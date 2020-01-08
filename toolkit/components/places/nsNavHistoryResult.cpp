@@ -3381,7 +3381,7 @@ if
 result
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -5562,7 +5562,7 @@ SortComparison_FrecencyGreater
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Bad
@@ -20376,7 +20376,7 @@ aIndex
 0
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -20422,7 +20422,7 @@ while
 updating
 indexes
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -20433,6 +20433,8 @@ adding
 :
 greater
 than
+"
+"
 count
 "
 )
@@ -21784,7 +21786,7 @@ aNewValue
 ;
 }
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -23687,7 +23689,7 @@ if
 bookmarks
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Can
@@ -23921,7 +23923,7 @@ if
 bookmarks
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Can
@@ -24562,7 +24564,7 @@ if
 mRootNode
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Root

@@ -6872,9 +6872,8 @@ VALUE_MODE_FILENAME
 return
 mValueChanged
 ;
-default
-:
-NS_NOTREACHED
+}
+MOZ_ASSERT_UNREACHABLE
 (
 "
 We
@@ -6895,7 +6894,6 @@ modes
 return
 false
 ;
-}
 }
 /
 *

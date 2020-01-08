@@ -793,7 +793,7 @@ aRoot
 )
 override
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 internal
@@ -815,7 +815,7 @@ aRange
 )
 override
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 internal
@@ -844,7 +844,7 @@ aEndOffset
 )
 override
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 internal
@@ -871,7 +871,7 @@ aEnd
 )
 override
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 internal

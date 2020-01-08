@@ -7423,7 +7423,7 @@ int32_t
 maxTotalProgress
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 notification
@@ -7512,7 +7512,7 @@ uint32_t
 aFlags
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 notification
@@ -7551,7 +7551,7 @@ char16_t
 aMessage
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 notification
@@ -7586,7 +7586,7 @@ uint32_t
 state
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 notification

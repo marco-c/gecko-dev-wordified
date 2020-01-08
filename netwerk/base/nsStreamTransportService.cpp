@@ -723,7 +723,7 @@ only
 supports
 reading
 !
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsInputStreamTransport

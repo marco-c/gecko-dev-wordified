@@ -1114,7 +1114,7 @@ HandleHashKey
 aOther
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 HandleHashKey

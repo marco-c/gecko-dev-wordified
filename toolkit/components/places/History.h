@@ -1311,7 +1311,7 @@ nsURIHashKey
 aOther
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Do
@@ -1423,7 +1423,7 @@ nsURIHashKey
 aOther
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Do

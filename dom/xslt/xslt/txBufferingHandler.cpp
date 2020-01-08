@@ -1761,7 +1761,7 @@ mNsID
 default
 :
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected

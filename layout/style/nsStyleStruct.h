@@ -12580,7 +12580,7 @@ D270
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected
@@ -12665,7 +12665,7 @@ eStyleUnit_Degree
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected

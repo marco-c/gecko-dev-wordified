@@ -614,7 +614,7 @@ mStackTop
 mMarkLength
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 should
@@ -941,7 +941,7 @@ re
 freeing
 to
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 out

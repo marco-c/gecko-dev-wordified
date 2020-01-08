@@ -853,7 +853,7 @@ Init
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsDirectoryService

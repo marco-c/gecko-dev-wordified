@@ -801,7 +801,7 @@ mozIDOMWindowProxy
 aResult
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsBrowserStatusFilter
@@ -831,7 +831,7 @@ aResult
 =
 0
 ;
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsBrowserStatusFilter
@@ -861,7 +861,7 @@ aResult
 =
 0
 ;
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsBrowserStatusFilter
@@ -891,7 +891,7 @@ aIsTopLevel
 =
 false
 ;
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsBrowserStatusFilter
@@ -916,7 +916,7 @@ bool
 aIsLoadingDocument
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsBrowserStatusFilter
@@ -946,7 +946,7 @@ aLoadType
 =
 0
 ;
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsBrowserStatusFilter

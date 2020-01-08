@@ -481,7 +481,7 @@ Accessible
 aChild
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 InsertChildAt
@@ -508,7 +508,7 @@ Accessible
 aChild
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 RemoveChild

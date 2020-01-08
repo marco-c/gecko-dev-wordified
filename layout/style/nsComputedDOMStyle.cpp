@@ -8041,7 +8041,7 @@ eStyleContentType_AltContent
 :
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
@@ -13717,7 +13717,7 @@ write
 center
 "
 keyword
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 invalid
@@ -13841,7 +13841,7 @@ write
 center
 "
 keyword
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 invalid
@@ -15150,7 +15150,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected
@@ -36766,7 +36766,7 @@ break
 }
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unexpected

@@ -2135,7 +2135,7 @@ CreatePlatformFontList
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 oops
@@ -2146,6 +2146,8 @@ doesn
 t
 have
 a
+"
+"
 gfxPlatformFontList
 implementation
 "

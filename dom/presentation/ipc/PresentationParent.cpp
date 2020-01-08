@@ -999,7 +999,7 @@ uint8_t
 aRole
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 We
@@ -1008,6 +1008,8 @@ never
 be
 manually
 allocating
+"
+"
 AllocPPresentationBuilderParent
 actors
 "

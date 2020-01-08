@@ -13950,7 +13950,7 @@ return
 NS_OK
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown

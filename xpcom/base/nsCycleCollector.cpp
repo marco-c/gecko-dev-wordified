@@ -4238,7 +4238,7 @@ mRefCount
 0
 }
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 should
@@ -4626,7 +4626,7 @@ mNext
 nullptr
 }
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 should
@@ -4715,7 +4715,7 @@ NodeBlock
 (
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 should
@@ -11496,7 +11496,7 @@ CCGraphDescriber
 :
 eUnknown
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 CCGraphDescriber

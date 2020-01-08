@@ -4724,7 +4724,7 @@ GetLength
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 looking
@@ -5087,7 +5087,7 @@ GetLength
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 looking
@@ -5458,7 +5458,7 @@ GetLength
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 looking
@@ -5827,7 +5827,7 @@ GetLength
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 looking

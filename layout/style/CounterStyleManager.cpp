@@ -4295,7 +4295,7 @@ aOrdinal
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -4821,7 +4821,7 @@ aResult
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -5188,7 +5188,7 @@ cjkDecimal
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Not
@@ -7088,7 +7088,7 @@ aOrdinal
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -7599,7 +7599,7 @@ aIsRTL
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -8208,7 +8208,7 @@ break
 }
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -9336,7 +9336,7 @@ aOrdinal
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -9555,7 +9555,7 @@ mSymbols
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -10122,7 +10122,7 @@ be
 processed
 by
 CustomCounterStyle
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
@@ -10137,7 +10137,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown

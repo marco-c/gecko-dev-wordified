@@ -2964,7 +2964,7 @@ if
 pluginHost
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 No
@@ -3072,7 +3072,7 @@ if
 mInstanceOwner
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 expecting
@@ -3105,7 +3105,7 @@ if
 pluginHost
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 No
@@ -3263,14 +3263,9 @@ mNetworkCreated
 aJSPluginId
 )
 ;
-if
+MOZ_ASSERT
 (
-!
 mFrameLoader
-)
-{
-NS_NOTREACHED
-(
 "
 nsFrameLoader
 :
@@ -3280,7 +3275,6 @@ failed
 "
 )
 ;
-}
 }
 /
 /
@@ -3381,7 +3375,7 @@ Failed
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Could
@@ -3880,7 +3874,7 @@ if
 mFrameLoader
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Should
@@ -3934,7 +3928,7 @@ object
 .
 .
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Should
@@ -4282,7 +4276,7 @@ if
 pluginHost
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 No
@@ -6062,7 +6056,7 @@ so
 something
 is
 wrong
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Opened
@@ -6076,6 +6070,8 @@ don
 '
 t
 have
+"
+"
 a
 plugin
 "
@@ -6103,7 +6099,7 @@ nullptr
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Failed
@@ -6111,6 +6107,8 @@ to
 create
 PluginStreamListener
 aborting
+"
+"
 channel
 "
 )
@@ -6141,7 +6139,7 @@ mType
 eType_Loading
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Should
@@ -6726,7 +6724,7 @@ with
 no
 final
 listener
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Got
@@ -6737,6 +6735,8 @@ with
 no
 connected
 final
+"
+"
 listener
 "
 )
@@ -7663,7 +7663,7 @@ NS_EVENT_STATE_VULNERABLE_NO_UPDATE
 ;
 }
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unknown
@@ -8495,7 +8495,7 @@ aContentPolicy
 mURI
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Doing
@@ -8691,7 +8691,7 @@ if
 aContentPolicy
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Null
@@ -8824,14 +8824,16 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Calling
 checkProcessPolicy
 with
-a
+an
 unloadable
+"
+"
 type
 "
 )
@@ -9525,7 +9527,7 @@ uriStr
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unrecognized
@@ -10034,7 +10036,7 @@ rv
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 GetContentType
@@ -10165,7 +10167,7 @@ rv
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 NS_GetFinalChannelURI
@@ -11683,7 +11685,7 @@ already
 loaded
 tag
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Should
@@ -12844,7 +12846,7 @@ have
 originated
 from
 OnStartRequest
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Loading
@@ -13672,7 +13674,7 @@ mPendingCheckPluginStopEvent
 mFinalListener
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Trying
@@ -13731,7 +13733,7 @@ mChannel
 mChannelLoaded
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Trying
@@ -13909,7 +13911,7 @@ a
 valid
 state
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Attempting
@@ -14574,7 +14576,7 @@ if
 handlerURI
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Selected
@@ -14585,6 +14587,8 @@ a
 proper
 fake
 plugin
+"
+"
 handler
 "
 )
@@ -14729,7 +14733,7 @@ a
 valid
 state
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Attempting
@@ -14739,6 +14743,8 @@ a
 document
 without
 a
+"
+"
 channel
 "
 )
@@ -14873,7 +14879,7 @@ rv
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Failed
@@ -18008,7 +18014,7 @@ rv
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 failed

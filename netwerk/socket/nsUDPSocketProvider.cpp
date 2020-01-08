@@ -197,7 +197,7 @@ onto
 an
 existing
 socket
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Cannot

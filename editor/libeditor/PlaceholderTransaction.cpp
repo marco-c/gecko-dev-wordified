@@ -494,7 +494,7 @@ if
 mForwarding
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 tried
@@ -506,6 +506,8 @@ placeholder
 that
 was
 in
+"
+"
 forwarding
 mode
 !

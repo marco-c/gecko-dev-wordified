@@ -234,7 +234,7 @@ Expr
 aExpr
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 setting

@@ -12347,7 +12347,7 @@ what
 the
 caller
 intended
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 NS_RelaxStrictFileOriginPolicy

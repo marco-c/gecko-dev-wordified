@@ -2083,7 +2083,7 @@ rv
 NS_BASE_STREAM_CLOSED
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Input
@@ -2093,6 +2093,8 @@ s
 Read
 method
 returned
+"
+"
 NS_BASE_STREAM_CLOSED
 "
 )
@@ -2355,7 +2357,7 @@ rv
 NS_BASE_STREAM_CLOSED
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Input
@@ -2365,6 +2367,8 @@ s
 Read
 method
 returned
+"
+"
 NS_BASE_STREAM_CLOSED
 "
 )

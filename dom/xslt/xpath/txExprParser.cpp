@@ -1488,7 +1488,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 operator
@@ -4074,7 +4074,7 @@ forget
 )
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 internal
@@ -4869,7 +4869,7 @@ NS_ERROR_XPATH_PAREN_EXPECTED
 ;
 }
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 internal

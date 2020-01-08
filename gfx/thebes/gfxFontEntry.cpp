@@ -10862,7 +10862,7 @@ font
 list
 manager
 !
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 no

@@ -12971,10 +12971,7 @@ int32_t
 outNumTestsFailed
 )
 {
-#
-ifdef
-DEBUG
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 This
@@ -12985,12 +12982,12 @@ called
 .
 Overridden
 by
+"
+"
 subclasses
 "
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -16266,7 +16263,7 @@ break
 }
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -20504,7 +20501,7 @@ cur
 parent
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 What
@@ -20745,7 +20742,7 @@ cur
 next
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 What
@@ -20856,7 +20853,7 @@ cur
 next
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 What

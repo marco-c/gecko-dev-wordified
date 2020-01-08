@@ -2333,7 +2333,7 @@ to
 enforce
 this
 !
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 yikes

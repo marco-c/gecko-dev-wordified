@@ -2390,7 +2390,7 @@ not
 implemented
 here
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Shouldn
@@ -2460,7 +2460,7 @@ not
 implemented
 here
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Shouldn

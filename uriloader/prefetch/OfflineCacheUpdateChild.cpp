@@ -1704,7 +1704,7 @@ nsIPrincipal
 aLoadingPrincipal
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Not
@@ -1759,7 +1759,7 @@ nsIObserver
 aObserver
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Not

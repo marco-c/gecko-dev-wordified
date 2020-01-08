@@ -1668,7 +1668,7 @@ return
 true
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 What
@@ -2343,7 +2343,7 @@ i
 return
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 What

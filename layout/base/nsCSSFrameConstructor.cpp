@@ -3630,7 +3630,7 @@ frame
 ;
 }
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 unreachable
@@ -11654,7 +11654,7 @@ break
 case
 eStyleContentType_Uninitialized
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 uninitialized

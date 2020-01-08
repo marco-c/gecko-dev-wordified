@@ -978,7 +978,7 @@ while
 1
 )
 ;
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 should

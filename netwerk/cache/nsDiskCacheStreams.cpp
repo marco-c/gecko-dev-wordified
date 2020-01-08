@@ -3934,7 +3934,7 @@ uint32_t
 bytesWritten
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 WriteFrom
@@ -3963,7 +3963,7 @@ uint32_t
 bytesWritten
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 WriteSegments

@@ -4059,7 +4059,7 @@ our
 ReadSegments
 method
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsGIOInputStream

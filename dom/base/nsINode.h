@@ -9103,7 +9103,7 @@ cur
 parent
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 How

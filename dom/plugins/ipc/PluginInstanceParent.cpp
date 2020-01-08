@@ -10785,12 +10785,9 @@ IPC_OK
 ;
 #
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
-PluginInstanceParent
-:
-:
 RecvSetNetscapeWindowAsParent
 not
 implemented
@@ -10967,7 +10964,7 @@ if
 self
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 PluginInstanceParent
@@ -11064,7 +11061,7 @@ mPluginWndProc
 PluginWindowHookProc
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 PluginWindowHookProc
@@ -12097,12 +12094,9 @@ IPC_OK
 ;
 #
 else
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
-PluginInstanceParent
-:
-:
 AnswerPluginFocusChange
 not
 implemented

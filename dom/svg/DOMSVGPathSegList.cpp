@@ -826,7 +826,7 @@ go
 down
 /
 /
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 code
 paths
 or
@@ -837,6 +837,8 @@ reading
 setting
 more
 bad
+/
+/
 memory
 !
 !

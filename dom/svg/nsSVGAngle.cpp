@@ -374,7 +374,7 @@ unit
 return
 ;
 }
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -679,7 +679,7 @@ return
 ;
 default
 :
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
@@ -1701,7 +1701,7 @@ SVG
 1
 )
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Trying

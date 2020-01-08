@@ -5227,7 +5227,7 @@ if
 startContent
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 startContent

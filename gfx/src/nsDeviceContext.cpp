@@ -272,7 +272,6 @@ h
 /
 /
 for
-NS_NOTREACHED
 NS_ASSERTION
 etc
 #
@@ -3996,7 +3995,7 @@ aScale
 0
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid

@@ -1267,7 +1267,7 @@ an
 allocator
 here
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Allocator
@@ -1275,9 +1275,9 @@ for
 PPrintProgressDialogChild
 should
 not
+"
+"
 be
-"
-"
 called
 on
 nsPrintingProxy
@@ -1350,7 +1350,7 @@ an
 allocator
 here
 .
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Allocator
@@ -1358,9 +1358,9 @@ for
 PPrintSettingsDialogChild
 should
 not
+"
+"
 be
-"
-"
 called
 on
 nsPrintingProxy

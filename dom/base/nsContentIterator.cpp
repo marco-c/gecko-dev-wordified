@@ -3174,7 +3174,7 @@ child
 at
 offset
 !
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 nsContentIterator

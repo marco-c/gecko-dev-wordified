@@ -1448,7 +1448,7 @@ rv
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 invalid
@@ -9431,7 +9431,7 @@ rv
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 column
@@ -18483,7 +18483,7 @@ rv
 )
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 primary
@@ -18639,7 +18639,7 @@ x
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 The
@@ -18649,6 +18649,8 @@ the
 primary
 column
 is
+"
+"
 invalid
 "
 )

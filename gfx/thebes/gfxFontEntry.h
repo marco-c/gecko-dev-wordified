@@ -3567,7 +3567,7 @@ uint8_t
 aBuffer
 )
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 forgot
@@ -3576,6 +3576,8 @@ override
 either
 GetFontTable
 or
+"
+"
 CopyFontTable
 ?
 "
