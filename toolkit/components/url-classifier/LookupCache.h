@@ -342,7 +342,7 @@ mPartialHashLength
 ;
 }
 }
-nsCString
+nsAutoCString
 PartialHashHex
 (
 )
