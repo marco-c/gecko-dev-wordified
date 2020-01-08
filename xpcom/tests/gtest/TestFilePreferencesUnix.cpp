@@ -51,7 +51,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 .
 h
 "
@@ -836,7 +836,7 @@ the
 directory
 nsCOMPtr
 <
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 >
 dirEnumerator
 ;
