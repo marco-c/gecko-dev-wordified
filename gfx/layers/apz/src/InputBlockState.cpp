@@ -510,14 +510,11 @@ wrong
 scrollframe
 .
 In
-Nightly
+debug
 /
 /
 builds
 we
-issue
-a
-diagnostic
 assert
 in
 this
@@ -625,10 +622,7 @@ GetGuid
 )
 )
 {
-#
-ifdef
-NIGHTLY_BUILD
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 "
@@ -646,8 +640,6 @@ targets
 "
 )
 ;
-#
-endif
 UpdateTargetApzc
 (
 aTargetApzc
