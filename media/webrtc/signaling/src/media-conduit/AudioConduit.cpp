@@ -4373,7 +4373,7 @@ avsync_offset_ms
 )
 ;
 }
-CSFLogError
+CSFLogDebug
 (
 LOGTAG
 "

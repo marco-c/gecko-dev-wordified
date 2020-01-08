@@ -7998,7 +7998,7 @@ return
 result
 ;
 }
-CSFLogError
+CSFLogDebug
 (
 LOGTAG
 "
