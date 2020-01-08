@@ -1659,10 +1659,9 @@ cx
 v
 )
 ;
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 val
@@ -1672,7 +1671,6 @@ not
 an
 identifier
 "
-nullptr
 )
 ;
 return
@@ -3096,10 +3094,9 @@ GlobalObject
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_DEBUG_WRAPPER_IN_WAY
 JSDVG_SEARCH_STACK
 dbgobj
@@ -3111,10 +3108,9 @@ isWindowProxy
 }
 else
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_DEBUG_BAD_REFERENT
 JSDVG_SEARCH_STACK
 dbgobj
@@ -3124,7 +3120,6 @@ a
 global
 object
 "
-nullptr
 )
 ;
 }
@@ -35781,10 +35776,9 @@ ReferentT
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_DEBUG_BAD_REFERENT
 JSDVG_SEARCH_STACK
 args
@@ -35794,7 +35788,6 @@ thisv
 )
 nullptr
 refname
-nullptr
 )
 ;
 return
@@ -46570,10 +46563,9 @@ ReferentT
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_DEBUG_BAD_REFERENT
 JSDVG_SEARCH_STACK
 args
@@ -46583,7 +46575,6 @@ thisv
 )
 nullptr
 refname
-nullptr
 )
 ;
 return
@@ -47120,10 +47111,9 @@ WasmInstanceObject
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_DEBUG_BAD_REFERENT
 JSDVG_SEARCH_STACK
 args
@@ -47137,7 +47127,6 @@ a
 wasm
 source
 "
-nullptr
 )
 ;
 return
@@ -53225,10 +53214,9 @@ frame
 )
 )
 ;
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_DEBUG_BAD_REFERENT
 JSDVG_SEARCH_STACK
 frameobj
@@ -53238,7 +53226,6 @@ a
 script
 frame
 "
-nullptr
 )
 ;
 return
@@ -69563,10 +69550,9 @@ GlobalObject
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_DEBUG_WRAPPER_IN_WAY
 JSDVG_SEARCH_STACK
 dbgobj
@@ -69578,10 +69564,9 @@ isWindowProxy
 }
 else
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_DEBUG_BAD_REFERENT
 JSDVG_SEARCH_STACK
 dbgobj
@@ -69591,7 +69576,6 @@ a
 global
 object
 "
-nullptr
 )
 ;
 }

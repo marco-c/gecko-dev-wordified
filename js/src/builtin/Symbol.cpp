@@ -1056,10 +1056,9 @@ isSymbol
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 arg
@@ -1069,7 +1068,6 @@ not
 a
 symbol
 "
-nullptr
 )
 ;
 return
