@@ -251,16 +251,6 @@ FeatureMap
 :
 eAll
 }
-/
-/
-TODO
-:
-not
-supported
-yet
-!
-!
-!
 {
 "
 microphone
