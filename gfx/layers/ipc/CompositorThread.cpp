@@ -383,13 +383,6 @@ yet
 "
 )
 ;
-CompositorBridgeParent
-:
-:
-Shutdown
-(
-)
-;
 delete
 aCompositorThread
 ;
