@@ -194,11 +194,8 @@ enabled
 {
 AccessFu
 .
-attach
+enable
 (
-this
-.
-window
 )
 ;
 }
@@ -206,7 +203,7 @@ else
 {
 AccessFu
 .
-detach
+disable
 (
 )
 ;
