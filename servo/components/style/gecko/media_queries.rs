@@ -133,7 +133,7 @@ structs
 :
 {
 nsPresContext
-RawGeckoPresContextOwned
+RawGeckoPresContextBorrowed
 }
 ;
 use
@@ -294,7 +294,7 @@ fine
 .
 pres_context
 :
-RawGeckoPresContextOwned
+RawGeckoPresContextBorrowed
 default_values
 :
 Arc
@@ -661,7 +661,7 @@ new
 (
 pres_context
 :
-RawGeckoPresContextOwned
+RawGeckoPresContextBorrowed
 )
 -
 >

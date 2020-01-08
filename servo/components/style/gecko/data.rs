@@ -109,7 +109,7 @@ structs
 :
 :
 {
-RawGeckoPresContextOwned
+RawGeckoPresContextBorrowed
 ServoStyleSetSizes
 StyleSheet
 as
@@ -1053,7 +1053,7 @@ new
 (
 pres_context
 :
-RawGeckoPresContextOwned
+RawGeckoPresContextBorrowed
 )
 -
 >

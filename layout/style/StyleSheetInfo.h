@@ -178,6 +178,9 @@ mozilla
 class
 StyleSheet
 ;
+struct
+URLExtraData
+;
 /
 *
 *
