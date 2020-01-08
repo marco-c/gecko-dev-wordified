@@ -226,8 +226,6 @@ starting
 tests
 var
 postStartupDelay
-=
-30000
 ;
 /
 /
@@ -3074,6 +3072,12 @@ benchmarkPort
 config
 .
 benchmark_port
+;
+postStartupDelay
+=
+config
+.
+post_startup_delay
 ;
 getBrowserInfo
 (

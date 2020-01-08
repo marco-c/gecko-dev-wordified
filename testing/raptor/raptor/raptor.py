@@ -377,6 +377,20 @@ benchmark
 =
 None
         
+self
+.
+post_startup_delay
+=
+30000
+#
+raptor
+webext
+pause
+time
+after
+browser
+startup
+        
 #
 Create
 the
@@ -1278,6 +1292,10 @@ self
 control_server
 .
 port
+                        
+self
+.
+post_startup_delay
                         
 benchmark_port
 )
@@ -2230,6 +2248,32 @@ test
 page_cycles
 '
 ]
+)
+        
+#
+account
+for
+the
+pause
+the
+raptor
+webext
+runner
+takes
+after
+browser
+startup
+        
+timeout
++
+=
+int
+(
+self
+.
+post_startup_delay
+/
+1000
 )
         
 try
