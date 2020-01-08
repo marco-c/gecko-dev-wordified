@@ -4869,11 +4869,10 @@ char
 *
 final
 =
-(
+js_pod_malloc
+<
 char
-*
-)
-js_malloc
+>
 (
 nbytes
 )

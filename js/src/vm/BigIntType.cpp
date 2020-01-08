@@ -1250,16 +1250,12 @@ num_
 UniqueChars
 str
 (
-static_cast
+js_pod_malloc
 <
 char
-*
 >
 (
-js_malloc
-(
 strSize
-)
 )
 )
 ;

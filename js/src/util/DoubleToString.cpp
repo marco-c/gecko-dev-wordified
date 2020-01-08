@@ -2014,11 +2014,10 @@ dinput
 ;
 buffer
 =
-(
+js_pod_malloc
+<
 char
-*
-)
-js_malloc
+>
 (
 DTOBASESTR_BUFFER_SIZE
 )
