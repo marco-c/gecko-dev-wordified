@@ -112,6 +112,15 @@ mozilla_TelemetryHistogramNameMap_h
 #
 define
 mozilla_TelemetryHistogramNameMap_h
+#
+include
+"
+mozilla
+/
+PerfectHash
+.
+h
+"
 namespace
 mozilla
 {
