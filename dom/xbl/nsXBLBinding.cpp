@@ -6437,8 +6437,8 @@ cx
 obj
 )
 ;
-JSAutoCompartment
-ac
+JSAutoRealm
+ar
 (
 cx
 xblScope
