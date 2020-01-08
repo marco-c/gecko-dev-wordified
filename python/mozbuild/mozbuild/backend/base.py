@@ -1165,8 +1165,25 @@ Always
 update
 its
 mtime
+if
+we
+'
+re
+not
+in
+dry
+-
+run
+mode
 .
             
+if
+not
+self
+.
+dry_run
+:
+                
 with
 open
 (
@@ -1176,7 +1193,7 @@ a
 '
 )
 :
-                
+                    
 os
 .
 utime
