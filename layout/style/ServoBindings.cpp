@@ -14403,9 +14403,9 @@ Element
 Gecko_GetElementsWithId
 (
 const
-nsIDocument
+DocumentOrShadowRoot
 *
-aDocument
+aDocOrShadowRoot
 nsAtom
 *
 aId
@@ -14413,7 +14413,7 @@ aId
 {
 MOZ_ASSERT
 (
-aDocument
+aDocOrShadowRoot
 )
 ;
 MOZ_ASSERT
@@ -14422,7 +14422,7 @@ aId
 )
 ;
 return
-aDocument
+aDocOrShadowRoot
 -
 >
 GetAllElementsForId
