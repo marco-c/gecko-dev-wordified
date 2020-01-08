@@ -19527,7 +19527,7 @@ cx
 )
 ;
 {
-JSGetterOp
+GetterOp
 getterOp
 =
 JS_DATA_TO_FUNC_PTR
@@ -19540,7 +19540,7 @@ get
 )
 )
 ;
-JSSetterOp
+SetterOp
 setterOp
 =
 JS_DATA_TO_FUNC_PTR
