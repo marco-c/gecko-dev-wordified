@@ -117,10 +117,6 @@ nsCookiePermission
 (
 )
 :
-mCookiesLifetimeSec
-(
-INT64_MAX
-)
 mCookiesLifetimePolicy
 (
 0
@@ -192,16 +188,6 @@ mozIThirdPartyUtil
 >
 mThirdPartyUtil
 ;
-int64_t
-mCookiesLifetimeSec
-;
-/
-/
-lifetime
-limit
-specified
-in
-seconds
 uint8_t
 mCookiesLifetimePolicy
 ;
