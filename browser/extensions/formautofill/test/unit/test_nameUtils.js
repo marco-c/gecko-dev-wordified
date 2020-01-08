@@ -13,13 +13,6 @@ use
 strict
 "
 ;
-add_task
-(
-async
-function
-(
-)
-{
 ChromeUtils
 .
 import
@@ -35,9 +28,6 @@ FormAutofillNameUtils
 .
 jsm
 "
-)
-;
-}
 )
 ;
 /
