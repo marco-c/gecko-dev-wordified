@@ -5516,9 +5516,27 @@ extra_asmflags
 [
 ]
         
+#
+Avoid
+libLLVM
+internal
+function
+calls
+going
+through
+the
+PLT
+.
+        
 extra_ldflags
 =
 [
+'
+-
+Wl
+-
+Bsymbolic
+'
 ]
         
 if
