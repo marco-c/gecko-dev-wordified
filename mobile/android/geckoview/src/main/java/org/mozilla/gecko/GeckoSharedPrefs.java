@@ -1134,6 +1134,19 @@ context
 {
 if
 (
+!
+GeckoAppShell
+.
+isFennec
+(
+)
+)
+{
+return
+;
+}
+if
+(
 migrationDone
 )
 {
@@ -1626,7 +1639,7 @@ scope
 .
 *
 /
-public
+private
 static
 Editor
 migrateFromPreferenceManager
@@ -1804,7 +1817,7 @@ accesses
 .
 *
 /
-public
+private
 static
 void
 migrateCrashReporterSettings
