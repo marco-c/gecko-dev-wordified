@@ -1203,11 +1203,6 @@ fallbackColor
 const
 highlighted
 =
-this
-.
-_highlighters
-&
-&
 nodeFront
 =
 =
@@ -2138,11 +2133,6 @@ fallbackColor
 const
 highlighted
 =
-this
-.
-_highlighters
-&
-&
 nodeFront
 =
 =
@@ -3120,12 +3110,6 @@ abort
 .
 if
 (
-!
-this
-.
-_highlighters
-|
-|
 !
 this
 .
