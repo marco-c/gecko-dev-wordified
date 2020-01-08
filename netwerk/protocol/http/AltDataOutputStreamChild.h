@@ -242,7 +242,7 @@ bool
 WriteDataInChunks
 (
 const
-nsCString
+nsDependentCSubstring
 &
 data
 )
