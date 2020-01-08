@@ -1876,6 +1876,16 @@ prunedInfo
 .
 id
 )
+/
+TelemetryStorage
+.
+loadArchivedPing
+-
+no
+ping
+with
+id
+/
 "
 Ping
 "

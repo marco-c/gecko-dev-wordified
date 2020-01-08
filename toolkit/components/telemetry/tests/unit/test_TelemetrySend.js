@@ -3952,6 +3952,16 @@ loadPendingPing
 (
 pingId
 )
+/
+TelemetryStorage
+.
+loadPendingPing
+-
+no
+ping
+with
+id
+/
 "
 The
 ping
