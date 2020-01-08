@@ -181,10 +181,12 @@ newGlobal
 ;
 ASSERT_TRUE
 (
-JS_InitStandardClasses
+JS
+:
+:
+InitRealmStandardClasses
 (
 cx
-newGlobal
 )
 )
 ;

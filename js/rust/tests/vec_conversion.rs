@@ -134,7 +134,10 @@ jsapi
 root
 :
 :
-JS_InitStandardClasses
+JS
+:
+:
+InitRealmStandardClasses
 ;
 use
 js
@@ -379,10 +382,9 @@ get
 assert
 !
 (
-JS_InitStandardClasses
+InitRealmStandardClasses
 (
 cx
-global
 )
 )
 ;

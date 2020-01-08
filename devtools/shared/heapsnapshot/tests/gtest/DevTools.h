@@ -589,10 +589,12 @@ Array
 if
 (
 !
-JS_InitStandardClasses
+JS
+:
+:
+InitRealmStandardClasses
 (
 cx
-newGlobal
 )
 )
 return

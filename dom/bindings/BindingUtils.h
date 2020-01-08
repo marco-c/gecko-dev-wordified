@@ -18928,10 +18928,12 @@ aInitStandardClasses
 &
 &
 !
-JS_InitStandardClasses
+JS
+:
+:
+InitRealmStandardClasses
 (
 aCx
-aGlobal
 )
 )
 {

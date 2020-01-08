@@ -547,10 +547,12 @@ Array
 /
 checkBool
 (
-JS_InitStandardClasses
+JS
+:
+:
+InitRealmStandardClasses
 (
 cx
-global
 )
 )
 ;
