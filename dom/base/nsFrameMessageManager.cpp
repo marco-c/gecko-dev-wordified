@@ -7555,7 +7555,7 @@ ok
 js
 :
 :
-ExecuteInGlobalAndReturnScope
+ExecuteInFrameScriptEnvironment
 (
 cx
 aGlobal
