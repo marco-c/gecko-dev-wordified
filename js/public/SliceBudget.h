@@ -266,6 +266,15 @@ UnlimitedDeadline
 )
 const
 {
+mozilla
+:
+:
+recordreplay
+:
+:
+AutoPassThroughThreadEvents
+pt
+;
 static
 const
 mozilla
