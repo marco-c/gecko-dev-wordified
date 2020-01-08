@@ -1,3 +1,17 @@
+/
+*
+eslint
+-
+disable
+mozilla
+/
+no
+-
+arbitrary
+-
+setTimeout
+*
+/
 ChromeUtils
 .
 import
@@ -411,7 +425,6 @@ modify
 -
 request
 "
-false
 )
 ;
 }
