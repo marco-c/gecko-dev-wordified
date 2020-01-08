@@ -2859,6 +2859,9 @@ ActiveChildIsRecording
 {
 return
 gActiveChild
+&
+&
+gActiveChild
 -
 >
 IsRecording
