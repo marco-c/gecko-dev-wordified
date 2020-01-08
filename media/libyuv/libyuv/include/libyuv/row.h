@@ -1251,6 +1251,12 @@ _M_IX86
 )
 &
 &
+defined
+(
+_MSC_VER
+)
+&
+&
 \
 (
 defined
