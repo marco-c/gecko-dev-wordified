@@ -47,16 +47,6 @@ linux64
 valgrind
 '
     
-'
-perfherder_extra_options
-'
-:
-[
-'
-valgrind
-'
-]
-    
 #
 #
 #

@@ -48,18 +48,6 @@ debug_build
 :
 True
     
-'
-perfherder_extra_options
-'
-:
-[
-'
-static
--
-analysis
-'
-]
-    
 #
 #
 #

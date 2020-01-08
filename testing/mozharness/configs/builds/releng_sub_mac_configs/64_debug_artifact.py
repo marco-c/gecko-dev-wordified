@@ -174,16 +174,6 @@ syntax
 is
 detected
     
-'
-perfherder_extra_options
-'
-:
-[
-'
-artifact
-'
-]
-    
 #
 #
 #

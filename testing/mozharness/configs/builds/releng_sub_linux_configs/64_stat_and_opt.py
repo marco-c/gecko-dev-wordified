@@ -74,18 +74,6 @@ hg
 shared
 '
     
-'
-perfherder_extra_options
-'
-:
-[
-'
-static
--
-analysis
-'
-]
-    
 #
 #
 #
