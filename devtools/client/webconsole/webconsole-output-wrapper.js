@@ -585,6 +585,19 @@ canRewind
 if
 (
 !
+(
+hud
+.
+owner
+&
+&
+hud
+.
+owner
+.
+target
+&
+&
 hud
 .
 owner
@@ -592,6 +605,7 @@ owner
 target
 .
 activeTab
+)
 )
 {
 return
