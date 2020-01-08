@@ -2871,6 +2871,15 @@ nsICookieService
 BEHAVIOR_LIMIT_FOREIGN
 |
 |
+mCookieBehavior
+=
+=
+nsICookieService
+:
+:
+BEHAVIOR_REJECT_TRACKER
+|
+|
 mThirdPartySession
 |
 |
