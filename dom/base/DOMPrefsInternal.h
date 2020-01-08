@@ -240,17 +240,6 @@ files
 .
 DOM_PREF
 (
-EnableAutoDeclineCanvasPrompts
-"
-privacy
-.
-resistFingerprinting
-.
-autoDeclineNoUserInputCanvasPrompts
-"
-)
-DOM_PREF
-(
 DevToolsEnabled
 "
 devtools
