@@ -3022,7 +3022,7 @@ GetFontFamiliesFromGenericFamilies
 (
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aGenericFamilies

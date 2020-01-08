@@ -10568,7 +10568,7 @@ aNames
 const
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aFallbacks
@@ -10577,7 +10577,7 @@ aFallbacks
 for
 (
 const
-nsString
+nsCString
 &
 fallback
 :
@@ -10590,10 +10590,7 @@ AppendElement
 (
 FontFamilyName
 (
-NS_ConvertUTF16toUTF8
-(
 fallback
-)
 eUnquotedName
 )
 )
@@ -10630,7 +10627,7 @@ FontFamilyList
 aFamilyList
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aFallbacks
@@ -11969,7 +11966,7 @@ the
 list
 AutoTArray
 <
-nsString
+nsCString
 16
 >
 mathFallbacks

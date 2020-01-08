@@ -5771,12 +5771,12 @@ void
 ParseFontList
 (
 const
-nsAString
+nsACString
 &
 aFamilyList
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aFontList
@@ -5806,7 +5806,7 @@ char
 aPrefName
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aFontList
@@ -5837,7 +5837,7 @@ char
 aPrefName
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aFontList
