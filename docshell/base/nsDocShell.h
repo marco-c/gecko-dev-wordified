@@ -1112,6 +1112,8 @@ override
 NS_IMETHOD
 GetScriptableOriginAttributes
 (
+JSContext
+*
 JS
 :
 :
