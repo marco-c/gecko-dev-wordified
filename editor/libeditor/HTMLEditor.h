@@ -11239,14 +11239,6 @@ Selection
 aSelection
 )
 ;
-nsresult
-ShowResizersInner
-(
-Element
-&
-aResizedElement
-)
-;
 /
 *
 *
@@ -11357,7 +11349,7 @@ Element
 *
 /
 nsresult
-ShowResizers
+ShowResizersInternal
 (
 Element
 &
