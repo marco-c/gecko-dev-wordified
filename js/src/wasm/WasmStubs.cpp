@@ -2059,7 +2059,7 @@ ImmPtr
 &
 funcPtr
 HasGcTypes
-gcTypesConfigured
+gcTypesEnabled
 Offsets
 *
 offsets
@@ -2504,7 +2504,7 @@ WasmTlsReg
 ;
 if
 (
-gcTypesConfigured
+gcTypesEnabled
 =
 =
 HasGcTypes
@@ -2937,7 +2937,7 @@ WasmTlsReg
 ;
 if
 (
-gcTypesConfigured
+gcTypesEnabled
 =
 =
 HasGcTypes
@@ -3657,7 +3657,7 @@ ImmPtr
 &
 funcPtr
 HasGcTypes
-gcTypesConfigured
+gcTypesEnabled
 Offsets
 *
 offsets
@@ -5125,7 +5125,7 @@ ifdef
 ENABLE_WASM_GC
 if
 (
-gcTypesConfigured
+gcTypesEnabled
 =
 =
 HasGcTypes
@@ -5208,7 +5208,7 @@ ifdef
 ENABLE_WASM_GC
 if
 (
-gcTypesConfigured
+gcTypesEnabled
 =
 =
 HasGcTypes
@@ -13621,7 +13621,7 @@ callee
 bool
 isAsmJS
 HasGcTypes
-gcTypesConfigured
+gcTypesEnabled
 CodeRangeVector
 *
 codeRanges
@@ -13661,7 +13661,7 @@ GenerateInterpEntry
 masm
 fe
 callee
-gcTypesConfigured
+gcTypesEnabled
 &
 offsets
 )
@@ -13719,7 +13719,7 @@ masm
 funcExportIndex
 fe
 callee
-gcTypesConfigured
+gcTypesEnabled
 &
 offsets
 )
@@ -14037,7 +14037,7 @@ isAsmJS
 )
 env
 .
-gcTypesConfigured
+gcTypesEnabled
 &
 code
 -

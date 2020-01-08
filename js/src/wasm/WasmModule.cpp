@@ -1564,7 +1564,7 @@ false
 ;
 }
 HasGcTypes
-gcTypesConfigured
+gcTypesEnabled
 =
 code
 (
@@ -1574,7 +1574,7 @@ metadata
 (
 )
 .
-temporaryGcTypesConfigured
+temporaryHasGcTypes
 ;
 const
 CodeTier
@@ -1607,7 +1607,7 @@ stubs2
 >
 createTier2
 (
-gcTypesConfigured
+gcTypesEnabled
 funcExportIndices
 tier2
 &
