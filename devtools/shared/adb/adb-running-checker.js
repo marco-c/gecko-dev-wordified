@@ -271,9 +271,7 @@ version
 parseInt
 (
 data
-"
 16
-"
 )
 ;
 if
