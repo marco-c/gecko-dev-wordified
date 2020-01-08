@@ -169,12 +169,13 @@ setData
 dataStream
 )
 ;
-tab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab
+.
+linkedBrowser
 "
 http
 :
