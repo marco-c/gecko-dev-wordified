@@ -553,18 +553,6 @@ as
 e
 :
             
-if
-'
-No
-JSON
-object
-'
-in
-e
-.
-message
-:
-                
 #
 As
 of
@@ -575,7 +563,7 @@ sends
 4
 garbage
 characters
-                
+            
 #
 at
 the
@@ -589,7 +577,7 @@ Work
 around
 this
 .
-                
+            
 #
 https
 :
@@ -612,10 +600,10 @@ detail
 id
 =
 718550
-                
+            
 import
 json
-                
+            
 info
 =
 json
@@ -630,11 +618,6 @@ text
 :
 ]
 )
-            
-else
-:
-                
-raise
         
 return
 (
