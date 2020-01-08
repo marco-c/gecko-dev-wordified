@@ -2131,15 +2131,7 @@ search
 "
 value
 :
-AppConstants
-.
-MOZ_UPDATE_CHANNEL
-!
-=
-=
-"
-release
-"
+true
 }
 ]
 [
