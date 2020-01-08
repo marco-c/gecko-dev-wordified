@@ -148,9 +148,9 @@ this
 ;
 addon
 .
-userDisabled
-=
-false
+enable
+(
+)
 ;
 }
 )
@@ -210,9 +210,9 @@ this
 ;
 addon
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 }
 )

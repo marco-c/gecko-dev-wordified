@@ -633,11 +633,12 @@ ons
 "
 )
 ;
+await
 pd
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 let
 XS

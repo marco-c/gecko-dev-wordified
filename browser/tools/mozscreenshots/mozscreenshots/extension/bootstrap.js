@@ -211,11 +211,12 @@ if
 addon
 )
 {
+await
 addon
 .
-userDisabled
-=
-false
+enable
+(
+)
 ;
 }
 }

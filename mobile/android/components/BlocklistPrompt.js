@@ -556,9 +556,9 @@ i
 .
 item
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 }
 }

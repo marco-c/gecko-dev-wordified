@@ -1651,9 +1651,9 @@ args
 .
 addon
 .
-userDisabled
-=
-false
+enable
+(
+)
 ;
 return
 l10n
@@ -1834,9 +1834,9 @@ args
 .
 addon
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 return
 l10n

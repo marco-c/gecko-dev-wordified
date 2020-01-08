@@ -7076,11 +7076,12 @@ org
 "
 )
 ;
+await
 aAddon
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 aAddon
 .

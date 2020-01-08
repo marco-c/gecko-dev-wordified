@@ -181,11 +181,12 @@ aAddon
 null
 )
 ;
+await
 aAddon
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 executeSoon
 (

@@ -1822,9 +1822,9 @@ win
 }
 addon
 .
-userDisabled
-=
-true
+disable
+(
+)
 ;
 }
 /

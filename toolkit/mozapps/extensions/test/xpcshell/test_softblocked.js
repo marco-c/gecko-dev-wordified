@@ -583,11 +583,12 @@ as
 previously
 enabled
 .
+await
 s1
 .
-userDisabled
-=
-false
+enable
+(
+)
 ;
 Assert
 .

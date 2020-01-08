@@ -3814,9 +3814,8 @@ getAddonByID
 id
 )
 ;
-Object
-.
-assign
+await
+setInitialState
 (
 addon
 options
