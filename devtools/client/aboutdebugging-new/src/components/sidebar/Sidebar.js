@@ -502,6 +502,13 @@ SidebarRuntimeItem
 id
 :
 pageId
+deviceName
+:
+runtime
+.
+extra
+.
+deviceName
 dispatch
 icon
 isConnected
