@@ -3932,6 +3932,11 @@ toggleHiddenTabs
 {
 if
 (
+window
+.
+gBrowser
+&
+&
 gBrowser
 .
 visibleTabs
