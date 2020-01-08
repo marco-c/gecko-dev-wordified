@@ -89,6 +89,13 @@ WebGLContext
 h
 "
 #
+include
+"
+WebGLFormats
+.
+h
+"
+#
 ifdef
 FOO
 #

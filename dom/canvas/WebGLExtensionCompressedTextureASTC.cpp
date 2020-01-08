@@ -88,6 +88,13 @@ WebGLContext
 .
 h
 "
+#
+include
+"
+WebGLFormats
+.
+h
+"
 namespace
 mozilla
 {
