@@ -326,7 +326,7 @@ nullptr
 and
 the
 active
-compartment
+realm
 which
 /
 /
@@ -355,9 +355,9 @@ JitContext
 CompileRuntime
 *
 rt
-CompileCompartment
+CompileRealm
 *
-comp
+realm
 TempAllocator
 *
 temp
@@ -425,7 +425,7 @@ the
 current
 runtime
 /
-compartment
+realm
 for
 use
 /
@@ -437,9 +437,9 @@ CompileRuntime
 *
 runtime
 ;
-CompileCompartment
+CompileRealm
 *
-compartment
+realm
 ;
 int
 getNextAssemblerId

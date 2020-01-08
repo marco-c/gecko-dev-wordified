@@ -824,7 +824,7 @@ JitContext
 with
 a
 null
-JSCompartment
+Realm
 .
 return
 GetJitContext
@@ -832,7 +832,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 =
 =
 nullptr

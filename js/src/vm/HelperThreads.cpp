@@ -11717,7 +11717,7 @@ rt
 jit
 :
 :
-CompileCompartment
+CompileRealm
 :
 :
 get
@@ -11730,7 +11730,7 @@ script
 )
 -
 >
-compartment
+realm
 (
 )
 )

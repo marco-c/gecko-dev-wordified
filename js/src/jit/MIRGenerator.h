@@ -247,9 +247,9 @@ public
 :
 MIRGenerator
 (
-CompileCompartment
+CompileRealm
 *
-compartment
+realm
 const
 JitCompileOptions
 &
@@ -932,9 +932,9 @@ abortedPreliminaryGroups_
 }
 public
 :
-CompileCompartment
+CompileRealm
 *
-compartment
+realm
 ;
 CompileRuntime
 *

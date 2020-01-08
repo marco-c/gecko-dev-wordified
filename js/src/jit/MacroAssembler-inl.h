@@ -4030,7 +4030,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 zone

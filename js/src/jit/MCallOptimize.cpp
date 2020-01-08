@@ -17287,7 +17287,7 @@ toStringTag
 =
 SYMBOL_TO_JSID
 (
-compartment
+realm
 -
 >
 runtime

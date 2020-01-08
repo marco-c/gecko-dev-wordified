@@ -920,9 +920,9 @@ IonBuilder
 JSContext
 *
 analysisContext
-CompileCompartment
+CompileRealm
 *
-comp
+realm
 const
 JitCompileOptions
 &
@@ -957,7 +957,7 @@ loopDepth
 :
 MIRGenerator
 (
-comp
+realm
 options
 temp
 graph
@@ -13493,7 +13493,7 @@ Symbol
 *
 sym
 =
-compartment
+realm
 -
 >
 runtime
@@ -25796,7 +25796,7 @@ IonBuilder
 inlineBuilder
 (
 analysisContext
-compartment
+realm
 options
 &
 alloc
@@ -34554,7 +34554,7 @@ target
 >
 lookupPure
 (
-compartment
+realm
 -
 >
 runtime
@@ -38139,7 +38139,7 @@ accessor
 DOMInstanceClassHasProtoAtDepth
 instanceChecker
 =
-compartment
+realm
 -
 >
 runtime
@@ -49190,9 +49190,9 @@ static
 bool
 ObjectHasExtraOwnProperty
 (
-CompileCompartment
+CompileRealm
 *
-comp
+realm
 TypeSet
 :
 :
@@ -49253,7 +49253,7 @@ typeDescr
 .
 hasProperty
 (
-comp
+realm
 -
 >
 runtime
@@ -49308,7 +49308,7 @@ return
 JSID_IS_ATOM
 (
 id
-comp
+realm
 -
 >
 runtime
@@ -49359,7 +49359,7 @@ nullptr
 return
 ClassMayResolveId
 (
-comp
+realm
 -
 >
 runtime
@@ -49856,7 +49856,7 @@ if
 (
 ObjectHasExtraOwnProperty
 (
-compartment
+realm
 objKey
 id
 )
@@ -50209,7 +50209,7 @@ clasp
 |
 ObjectHasExtraOwnProperty
 (
-compartment
+realm
 key
 id
 )
@@ -50570,7 +50570,7 @@ clasp
 |
 ObjectHasExtraOwnProperty
 (
-compartment
+realm
 key
 id
 )
@@ -52483,7 +52483,7 @@ CompileZone
 *
 zone
 =
-compartment
+realm
 -
 >
 zone
@@ -53504,7 +53504,7 @@ NaN
 {
 pushConstant
 (
-compartment
+realm
 -
 >
 runtime
@@ -53537,7 +53537,7 @@ Infinity
 {
 pushConstant
 (
-compartment
+realm
 -
 >
 runtime
@@ -67893,7 +67893,7 @@ if
 (
 ObjectHasExtraOwnProperty
 (
-compartment
+realm
 key
 NameToId
 (
@@ -69478,7 +69478,7 @@ clasp
 |
 ObjectHasExtraOwnProperty
 (
-compartment
+realm
 key
 NameToId
 (
@@ -83402,7 +83402,7 @@ clone
 )
 ;
 }
-compartment
+realm
 -
 >
 setSingletonsAsValues
@@ -89736,7 +89736,7 @@ WellKnownSymbols
 symbols
 =
 &
-compartment
+realm
 -
 >
 runtime
@@ -93658,7 +93658,7 @@ obj
 )
 )
 {
-compartment
+realm
 -
 >
 zone
@@ -94308,7 +94308,7 @@ trc
 if
 (
 !
-compartment
+realm
 -
 >
 runtime

@@ -5376,7 +5376,7 @@ inline
 path
 if
 the
-compartment
+realm
 has
 an
 object
@@ -5407,7 +5407,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 hasAllocationMetadataBuilder
@@ -5687,7 +5687,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 zone
@@ -5871,7 +5871,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 zone
@@ -6359,7 +6359,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 zone
@@ -7010,7 +7010,7 @@ GetJitContext
 )
 -
 >
-compartment
+realm
 -
 >
 zone
