@@ -2548,7 +2548,6 @@ Infinity
 Infinity
 {
 }
-undefined
 ]
 ;
 invalidFreqs
