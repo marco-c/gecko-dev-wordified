@@ -2815,6 +2815,12 @@ bool
 composite_needed
 :
 bool
+_render_time_ns
+:
+Option
+<
+u64
+>
 )
 {
 unsafe
@@ -4032,6 +4038,9 @@ pre_scene_swap
 (
 &
 self
+_scenebuild_time
+:
+u64
 )
 {
 unsafe
@@ -4052,6 +4061,9 @@ self
 info
 :
 PipelineInfo
+_sceneswap_time
+:
+u64
 )
 {
 let
