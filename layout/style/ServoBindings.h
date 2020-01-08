@@ -1105,6 +1105,8 @@ SheetLoadDataHolder
 data
 RawServoStyleSheetContentsStrong
 sheet_contents
+StyleUseCountersOwnedOrNull
+use_counters
 )
 ;
 mozilla
@@ -5069,16 +5071,6 @@ Gecko_MediaFeatures_GetOperatingSystemVersion
 (
 nsIDocument
 *
-)
-;
-/
-/
-Use
-counters
-.
-StyleUseCountersStrong
-Servo_UseCounters_Create
-(
 )
 ;
 }

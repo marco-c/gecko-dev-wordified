@@ -5802,6 +5802,14 @@ aLoader
 GetCompatibilityMode
 (
 )
+/
+*
+should_record_counters
+=
+*
+/
+!
+!
 useCounters
 )
 ;
