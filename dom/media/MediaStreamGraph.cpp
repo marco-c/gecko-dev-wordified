@@ -21146,7 +21146,7 @@ GetDuration
 )
 ;
 }
-NS_ERROR
+MOZ_CRASH
 (
 "
 Track
