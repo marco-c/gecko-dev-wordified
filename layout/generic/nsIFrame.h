@@ -26176,6 +26176,7 @@ for
 its
 descendants
 .
+virtual
 void
 AddSizeOfExcludingThisForTree
 (
