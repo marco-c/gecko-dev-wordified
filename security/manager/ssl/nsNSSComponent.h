@@ -427,6 +427,8 @@ UnloadEnterpriseRoots
 void
 MaybeEnableFamilySafetyCompatibility
 (
+uint32_t
+familySafetyMode
 )
 ;
 void
