@@ -9263,6 +9263,10 @@ topology
 "
 )
 ;
+topology
+=
+D3D11_PRIMITIVE_TOPOLOGY_UNDEFINED
+;
 break
 ;
 }
