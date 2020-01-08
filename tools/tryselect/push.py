@@ -380,7 +380,7 @@ try_task_config
 fh
 indent
 =
-2
+4
 separators
 =
 (
@@ -600,6 +600,9 @@ True
 closed_tree
 =
 False
+files_to_change
+=
+None
 )
 :
     
@@ -668,6 +671,13 @@ labels
 try_task_config
 =
 {
+            
+'
+version
+'
+:
+1
+            
 '
 tasks
 '
@@ -676,6 +686,7 @@ sorted
 (
 labels
 )
+        
 }
         
 if
@@ -701,19 +712,86 @@ msg
 try_task_config
 )
     
-config
+config_path
 =
 None
+    
+changed_files
+=
+[
+]
     
 if
 try_task_config
 :
         
-config
+config_path
 =
 write_task_config
 (
 try_task_config
+)
+        
+changed_files
+.
+append
+(
+config_path
+)
+    
+if
+files_to_change
+:
+        
+for
+path
+content
+in
+files_to_change
+.
+items
+(
+)
+:
+            
+path
+=
+os
+.
+path
+.
+join
+(
+vcs
+.
+path
+path
+)
+            
+with
+open
+(
+path
+'
+w
+'
+)
+as
+fh
+:
+                
+fh
+.
+write
+(
+content
+)
+            
+changed_files
+.
+append
+(
+path
 )
     
 try
@@ -739,7 +817,7 @@ commit_message
 )
             
 if
-config
+config_path
 :
                 
 print
@@ -756,7 +834,7 @@ json
 with
 open
 (
-config
+config_path
 )
 as
 fh
@@ -773,15 +851,17 @@ read
             
 return
         
-if
-config
+for
+path
+in
+changed_files
 :
             
 vcs
 .
 add_remove_files
 (
-config
+path
 )
         
 try
@@ -852,7 +932,7 @@ finally
 :
         
 if
-config
+config_path
 and
 os
 .
@@ -860,7 +940,7 @@ path
 .
 isfile
 (
-config
+config_path
 )
 :
             
@@ -868,5 +948,5 @@ os
 .
 remove
 (
-config
+config_path
 )
