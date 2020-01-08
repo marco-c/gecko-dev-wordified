@@ -217,14 +217,14 @@ jsm
 "
 )
 ;
-const
+var
 {
 prefs
 }
 =
 Services
 ;
-const
+var
 defaultPrefs
 =
 prefs
