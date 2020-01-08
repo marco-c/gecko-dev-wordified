@@ -1068,6 +1068,8 @@ NS_EscapeURL
 (
 path
 esc_OnlyNonASCII
+|
+esc_Spaces
 buf
 mozilla
 :
