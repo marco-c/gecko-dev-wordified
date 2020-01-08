@@ -228,7 +228,9 @@ marionette
 _send_message
 (
 "
-performActions
+WebDriver
+:
+PerformActions
 "
 params
 =
