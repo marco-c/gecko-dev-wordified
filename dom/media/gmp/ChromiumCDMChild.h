@@ -563,6 +563,10 @@ const
 bool
 &
 aAllowPersistentState
+InitResolver
+&
+&
+aResolver
 )
 override
 ;
