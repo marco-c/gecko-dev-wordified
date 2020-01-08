@@ -66,11 +66,6 @@ propertyHelper
 .
 js
 ]
-features
-:
-[
-Proxy
-]
 -
 -
 -

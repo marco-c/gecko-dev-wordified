@@ -98,11 +98,6 @@ V
 .
 .
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

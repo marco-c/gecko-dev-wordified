@@ -87,14 +87,6 @@ a
 TypeError
 exception
 .
-features
-:
-[
-Reflect
-Reflect
-.
-construct
-]
 -
 -
 -

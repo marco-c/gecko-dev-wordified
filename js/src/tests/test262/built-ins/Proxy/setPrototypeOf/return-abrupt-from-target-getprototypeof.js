@@ -98,11 +98,6 @@ GetPrototypeOf
 (
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

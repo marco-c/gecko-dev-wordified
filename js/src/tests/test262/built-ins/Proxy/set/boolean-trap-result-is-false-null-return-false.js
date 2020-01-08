@@ -67,11 +67,7 @@ false
 features
 :
 [
-Proxy
 Reflect
-Reflect
-.
-set
 ]
 -
 -

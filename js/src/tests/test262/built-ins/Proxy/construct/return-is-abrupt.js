@@ -84,11 +84,6 @@ ReturnIfAbrupt
 newObj
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

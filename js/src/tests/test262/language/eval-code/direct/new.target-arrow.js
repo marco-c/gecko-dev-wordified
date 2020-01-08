@@ -126,9 +126,6 @@ features
 arrow
 -
 function
-new
-.
-target
 ]
 -
 -

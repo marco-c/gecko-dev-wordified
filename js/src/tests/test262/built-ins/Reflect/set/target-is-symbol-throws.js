@@ -93,10 +93,6 @@ exception
 features
 :
 [
-Reflect
-Reflect
-.
-set
 Symbol
 ]
 -

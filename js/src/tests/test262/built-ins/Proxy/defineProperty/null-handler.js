@@ -54,11 +54,6 @@ handler
 is
 null
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

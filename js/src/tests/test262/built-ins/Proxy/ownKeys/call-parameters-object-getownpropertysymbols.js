@@ -80,7 +80,6 @@ target
 features
 :
 [
-Proxy
 Symbol
 ]
 -

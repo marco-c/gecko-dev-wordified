@@ -95,14 +95,6 @@ args
 newTarget
 )
 .
-features
-:
-[
-Reflect
-Reflect
-.
-construct
-]
 -
 -
 -

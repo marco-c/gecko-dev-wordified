@@ -89,14 +89,6 @@ propertyHelper
 .
 js
 ]
-features
-:
-[
-Reflect
-Reflect
-.
-construct
-]
 -
 -
 -

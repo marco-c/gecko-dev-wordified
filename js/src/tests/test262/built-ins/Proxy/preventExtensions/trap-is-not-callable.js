@@ -147,11 +147,6 @@ exception
 .
 .
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

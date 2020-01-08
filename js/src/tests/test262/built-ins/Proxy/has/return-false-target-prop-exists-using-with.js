@@ -94,11 +94,6 @@ flags
 [
 noStrict
 ]
-features
-:
-[
-Proxy
-]
 -
 -
 -

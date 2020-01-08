@@ -77,8 +77,6 @@ js
 features
 :
 [
-Proxy
-Symbol
 Symbol
 .
 iterator

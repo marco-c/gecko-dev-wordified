@@ -80,11 +80,6 @@ revoke
 revoker
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

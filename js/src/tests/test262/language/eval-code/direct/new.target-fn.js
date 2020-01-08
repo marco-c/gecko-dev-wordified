@@ -124,9 +124,9 @@ ArrowFunction
 features
 :
 [
-new
-.
-target
+arrow
+-
+function
 ]
 -
 -

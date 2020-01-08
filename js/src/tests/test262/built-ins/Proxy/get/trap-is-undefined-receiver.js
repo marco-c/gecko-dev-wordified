@@ -117,11 +117,6 @@ P
 Receiver
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

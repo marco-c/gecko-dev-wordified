@@ -126,11 +126,6 @@ flags
 [
 noStrict
 ]
-features
-:
-[
-Proxy
-]
 -
 -
 -

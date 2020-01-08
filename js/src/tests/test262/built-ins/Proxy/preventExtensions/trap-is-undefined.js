@@ -63,7 +63,6 @@ undefined
 features
 :
 [
-Proxy
 Reflect
 ]
 -

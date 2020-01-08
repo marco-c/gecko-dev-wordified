@@ -121,11 +121,6 @@ V
 Receiver
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

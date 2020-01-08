@@ -80,11 +80,6 @@ exception
 .
 .
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

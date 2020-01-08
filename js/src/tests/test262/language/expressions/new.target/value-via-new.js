@@ -148,13 +148,6 @@ newTarget
 be
 F
 .
-features
-:
-[
-new
-.
-target
-]
 -
 -
 -

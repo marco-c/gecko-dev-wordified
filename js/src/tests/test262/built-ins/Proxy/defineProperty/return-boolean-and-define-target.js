@@ -81,7 +81,6 @@ exception
 features
 :
 [
-Proxy
 Reflect
 ]
 includes

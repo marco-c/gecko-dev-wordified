@@ -124,7 +124,6 @@ js
 features
 :
 [
-Reflect
 Symbol
 ]
 -

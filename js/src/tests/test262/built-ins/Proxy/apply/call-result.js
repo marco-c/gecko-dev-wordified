@@ -77,11 +77,6 @@ thisArgument
 argArray
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

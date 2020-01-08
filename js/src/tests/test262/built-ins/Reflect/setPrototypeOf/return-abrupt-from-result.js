@@ -85,10 +85,6 @@ features
 :
 [
 Proxy
-Reflect
-Reflect
-.
-setPrototypeOf
 ]
 -
 -

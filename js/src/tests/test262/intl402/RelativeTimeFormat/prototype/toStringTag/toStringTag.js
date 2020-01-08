@@ -79,9 +79,7 @@ the
 string
 value
 "
-Intl
-.
-RelativeTimeFormat
+Object
 "
 .
 This
@@ -149,9 +147,7 @@ toStringTag
 value
 :
 "
-Intl
-.
-RelativeTimeFormat
+Object
 "
 writable
 :

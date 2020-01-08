@@ -211,11 +211,6 @@ exception
 .
 .
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

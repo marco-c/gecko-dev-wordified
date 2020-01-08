@@ -73,11 +73,7 @@ writable
 features
 :
 [
-Proxy
 Reflect
-Reflect
-.
-set
 ]
 -
 -

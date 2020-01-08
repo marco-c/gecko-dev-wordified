@@ -76,11 +76,6 @@ V
 Receiver
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

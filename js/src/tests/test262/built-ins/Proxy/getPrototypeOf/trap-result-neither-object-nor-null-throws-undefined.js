@@ -55,11 +55,6 @@ result
 is
 undefined
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

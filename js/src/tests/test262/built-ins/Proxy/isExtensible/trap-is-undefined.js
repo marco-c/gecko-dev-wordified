@@ -96,11 +96,6 @@ IsExtensible
 .
 .
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

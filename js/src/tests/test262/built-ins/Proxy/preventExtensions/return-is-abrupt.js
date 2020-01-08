@@ -87,11 +87,6 @@ booleanTrapResult
 .
 .
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

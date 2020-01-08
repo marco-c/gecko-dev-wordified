@@ -73,11 +73,6 @@ Receiver
 )
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

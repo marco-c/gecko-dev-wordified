@@ -60,11 +60,6 @@ trap
 is
 undefined
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

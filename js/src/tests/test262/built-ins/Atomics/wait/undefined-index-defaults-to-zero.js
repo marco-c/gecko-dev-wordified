@@ -343,7 +343,7 @@ sameValue
 (
 Atomics
 .
-notify
+wake
 (
 i32a
 0
@@ -352,7 +352,7 @@ i32a
 '
 Atomics
 .
-notify
+wake
 (
 i32a
 0
@@ -364,7 +364,7 @@ returns
 ;
 /
 /
-notify
+wake
 at
 index
 0
@@ -374,7 +374,7 @@ sameValue
 (
 Atomics
 .
-notify
+wake
 (
 i32a
 0
@@ -383,7 +383,7 @@ i32a
 '
 Atomics
 .
-notify
+wake
 (
 i32a
 0
@@ -395,7 +395,7 @@ returns
 ;
 /
 /
-notify
+wake
 again
 at
 index
