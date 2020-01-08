@@ -116,8 +116,10 @@ logger
 None
 run_step
 write_inconsistent
+write_slow_tests
 write_results
 =
+None
 None
 None
 None
@@ -210,6 +212,7 @@ global
 wptrunner
 run_step
 write_inconsistent
+write_slow_tests
 write_results
     
 from
@@ -224,6 +227,7 @@ stability
 import
 run_step
 write_inconsistent
+write_slow_tests
 write_results
 class
 TravisFold
@@ -2141,6 +2145,7 @@ logger
         
 results
 inconsistent
+slow
 iterations
 =
 run_step
@@ -2175,6 +2180,22 @@ logger
 error
 inconsistent
 iterations
+)
+            
+retcode
+=
+2
+        
+elif
+slow
+:
+            
+write_slow_tests
+(
+logger
+.
+error
+slow
 )
             
 retcode
