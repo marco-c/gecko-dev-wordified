@@ -997,11 +997,16 @@ this
 .
 _identityPopupMixedContentLearnMore
 =
+[
+.
+.
+.
 document
 .
-getElementById
+querySelectorAll
 (
 "
+.
 identity
 -
 popup
@@ -1013,6 +1018,7 @@ learn
 more
 "
 )
+]
 ;
 }
 get
@@ -4588,6 +4594,13 @@ this
 .
 _identityPopupMixedContentLearnMore
 .
+forEach
+(
+e
+=
+>
+e
+.
 setAttribute
 (
 "
@@ -4600,6 +4613,7 @@ mixed
 -
 content
 "
+)
 )
 ;
 this
