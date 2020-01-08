@@ -128,9 +128,7 @@ include
 "
 mozilla
 /
-gfx
-/
-Swizzle
+ArrayUtils
 .
 h
 "
@@ -139,7 +137,9 @@ include
 "
 mozilla
 /
-PodOperations
+gfx
+/
+Swizzle
 .
 h
 "
@@ -355,7 +355,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out
 check_bgra
@@ -391,7 +391,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out
 check_rgba
@@ -427,7 +427,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out
 check_argb
@@ -651,7 +651,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out
 check_bgra
@@ -687,7 +687,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out
 check_rgba
@@ -723,7 +723,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out
 check_argb
@@ -1121,7 +1121,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out
 check_bgra
@@ -1157,7 +1157,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out
 check_rgba
@@ -1193,7 +1193,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out
 check_argb
@@ -1229,7 +1229,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out
 check_rgbx
@@ -1265,7 +1265,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out24
 check_bgr
@@ -1301,7 +1301,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out24
 check_rgb
@@ -1337,7 +1337,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out8
 check_a
@@ -1393,7 +1393,7 @@ IntSize
 ;
 EXPECT_TRUE
 (
-PodEqual
+ArrayEqual
 (
 out16
 check_16

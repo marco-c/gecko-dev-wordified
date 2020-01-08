@@ -159,6 +159,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -5744,7 +5753,7 @@ colorMatrix
 )
 |
 |
-PodEqual
+ArrayEqual
 (
 colorMatrix
 identityMatrix
@@ -7177,7 +7186,7 @@ allZero
 )
 &
 &
-PodEqual
+ArrayEqual
 (
 coefficients
 .

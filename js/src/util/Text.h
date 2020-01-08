@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Assertions
 .
 h
@@ -538,7 +547,7 @@ return
 mozilla
 :
 :
-PodEqual
+ArrayEqual
 (
 s1
 s2

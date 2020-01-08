@@ -9237,7 +9237,7 @@ EV
 if
 (
 !
-PodEqual
+ArrayEqual
 (
 fingerprint
 entry
@@ -9267,7 +9267,7 @@ policy
 numBytes
 &
 &
-PodEqual
+ArrayEqual
 (
 cabforumOIDData
 -
@@ -9319,7 +9319,7 @@ policy
 numBytes
 &
 &
-PodEqual
+ArrayEqual
 (
 oidData
 -
@@ -9892,7 +9892,7 @@ NS_ERROR_FAILURE
 bool
 same
 =
-PodEqual
+ArrayEqual
 (
 certFingerprint
 entry

@@ -176,6 +176,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h
@@ -625,7 +634,7 @@ mLatin1String
 )
 {
 return
-PodEqual
+ArrayEqual
 (
 aKey
 -

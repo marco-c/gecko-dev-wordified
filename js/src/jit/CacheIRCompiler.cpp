@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScopeExit
 .
 h
@@ -7879,7 +7888,7 @@ if
 mozilla
 :
 :
-PodEqual
+ArrayEqual
 (
 entry
 .

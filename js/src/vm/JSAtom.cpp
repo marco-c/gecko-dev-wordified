@@ -698,7 +698,7 @@ return
 mozilla
 :
 :
-PodEqual
+ArrayEqual
 (
 keyChars
 lookup
@@ -759,7 +759,7 @@ return
 mozilla
 :
 :
-PodEqual
+ArrayEqual
 (
 keyChars
 lookup

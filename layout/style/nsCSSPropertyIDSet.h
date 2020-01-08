@@ -85,15 +85,6 @@ h
 #
 include
 "
-mozilla
-/
-PodOperations
-.
-h
-"
-#
-include
-"
 nsCSSPropertyID
 .
 h
@@ -423,7 +414,7 @@ return
 mozilla
 :
 :
-PodEqual
+ArrayEqual
 (
 mProperties
 aOther

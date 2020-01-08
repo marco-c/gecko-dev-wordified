@@ -124,6 +124,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FloatingPoint
 .
 h
@@ -306,6 +315,12 @@ using
 mozilla
 :
 :
+ArrayEqual
+;
+using
+mozilla
+:
+:
 IsAsciiDigit
 ;
 using
@@ -325,12 +340,6 @@ mozilla
 :
 :
 PodCopy
-;
-using
-mozilla
-:
-:
-PodEqual
 ;
 using
 mozilla
@@ -6263,7 +6272,7 @@ hasTwoByteChars
 )
 )
 return
-PodEqual
+ArrayEqual
 (
 str1
 -
@@ -6313,7 +6322,7 @@ hasLatin1Chars
 )
 )
 return
-PodEqual
+ArrayEqual
 (
 str1
 -
@@ -6437,7 +6446,7 @@ hasLatin1Chars
 )
 )
 return
-PodEqual
+ArrayEqual
 (
 textChars
 pat
@@ -6490,7 +6499,7 @@ hasTwoByteChars
 )
 )
 return
-PodEqual
+ArrayEqual
 (
 textChars
 pat
@@ -7130,7 +7139,7 @@ hasLatin1Chars
 (
 )
 ?
-PodEqual
+ArrayEqual
 (
 latin1
 str
@@ -12416,7 +12425,7 @@ len
 MaxLengthForCharComparison
 &
 &
-PodEqual
+ArrayEqual
 (
 chars
 strChars

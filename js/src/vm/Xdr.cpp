@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -209,7 +218,7 @@ using
 mozilla
 :
 :
-PodEqual
+ArrayEqual
 ;
 template
 <
@@ -835,7 +844,7 @@ scripts
 if
 (
 !
-PodEqual
+ArrayEqual
 (
 decodedBuildId
 .
