@@ -7610,7 +7610,11 @@ checkbox
 :
 checked
 {
-left
+inset
+-
+inline
+-
+start
 :
 -
 9999px

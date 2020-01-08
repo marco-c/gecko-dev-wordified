@@ -1023,7 +1023,7 @@ renderPreferences
 document
 :
 {
-createElementNS
+createXULElement
 :
 sandbox
 .
