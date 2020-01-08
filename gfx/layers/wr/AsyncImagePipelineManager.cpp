@@ -2314,11 +2314,11 @@ It
 is
 for
 making
-epoc
+epoch
 update
-consisitent
+consistent
 .
-aMaybeFastTxn
+aSceneBuilderTxn
 .
 UpdateEpoch
 (
