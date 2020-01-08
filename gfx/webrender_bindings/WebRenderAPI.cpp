@@ -810,14 +810,6 @@ aUseSceneBuilderThread
 :
 mUseSceneBuilderThread
 (
-gfxPrefs
-:
-:
-WebRenderAsyncSceneBuild
-(
-)
-&
-&
 aUseSceneBuilderThread
 )
 {
