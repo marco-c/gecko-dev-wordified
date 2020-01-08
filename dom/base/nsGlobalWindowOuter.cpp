@@ -353,13 +353,6 @@ endif
 #
 include
 "
-nsDOMOfflineResourceList
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -906,13 +899,6 @@ h
 include
 "
 Crypto
-.
-h
-"
-#
-include
-"
-nsIDOMOfflineResourceList
 .
 h
 "

@@ -488,9 +488,6 @@ class
 nsIDocShellTreeOwner
 ;
 class
-nsIDOMOfflineResourceList
-;
-class
 nsIScrollableFrame
 ;
 class

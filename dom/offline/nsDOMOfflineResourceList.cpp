@@ -436,10 +436,6 @@ nsDOMOfflineResourceList
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMOfflineResourceList
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIOfflineCacheUpdateObserver
 )
 NS_INTERFACE_MAP_ENTRY
@@ -917,16 +913,6 @@ nullptr
 ;
 }
 }
-/
-/
-/
-/
-nsDOMOfflineResourceList
-:
-:
-nsIDOMOfflineResourceList
-/
-/
 already_AddRefed
 <
 DOMStringList
