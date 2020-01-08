@@ -236,10 +236,6 @@ rv
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsCollation
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
 nsCollationFactory
 )
 namespace
