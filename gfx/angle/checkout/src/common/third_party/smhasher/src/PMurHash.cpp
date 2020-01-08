@@ -645,6 +645,13 @@ PMurHash
 .
 h
 "
+#
+include
+<
+stdint
+.
+h
+>
 /
 *
 I
@@ -2130,7 +2137,7 @@ i
 =
 -
 (
-long
+intptr_t
 )
 ptr
 &
