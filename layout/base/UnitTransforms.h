@@ -307,6 +307,8 @@ layer
 pixels
 in
 any
+/
+/
 layer
 ParentLayerToLayerForRootComposition
 /
@@ -550,6 +552,12 @@ asserted
 this
 .
 NoTransformOnLayer
+/
+/
+LayerPixels
+are
+ImagePixels
+LayerIsImage
 }
 ;
 template

@@ -737,10 +737,7 @@ SetImageVisibleArea
 ImageKey
 aKey
 const
-gfx
-:
-:
-Rect
+ImageIntRect
 &
 aArea
 )

@@ -7546,7 +7546,7 @@ WrImageKey
 area
 :
 &
-NormalizedRect
+DeviceUintRect
 )
 {
 txn
