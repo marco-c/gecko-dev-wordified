@@ -1850,7 +1850,7 @@ performance
 .
 enable_scheduler_timing
 "
-false
+true
 )
 ;
 /
@@ -59619,7 +59619,7 @@ webextensions
 .
 enablePerformanceCounters
 "
-false
+true
 )
 ;
 /
