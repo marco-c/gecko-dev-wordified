@@ -47109,12 +47109,11 @@ nsIDOMWindow
 ;
 browser
 =
-gBrowser
-.
-getBrowserForContentWindow
-(
 contentWindow
-)
+.
+docShell
+.
+chromeEventHandler
 ;
 }
 else
