@@ -76,7 +76,7 @@ do_get_file
 "
 data
 /
-search_blacklist
+search_ignorelist
 .
 json
 "
