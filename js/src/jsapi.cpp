@@ -7376,12 +7376,7 @@ void
 cx
 -
 >
-zone
-(
-)
--
->
-pod_malloc
+maybe_pod_malloc
 <
 uint8_t
 >
@@ -7429,12 +7424,7 @@ void
 cx
 -
 >
-zone
-(
-)
--
->
-pod_realloc
+maybe_pod_realloc
 <
 uint8_t
 >

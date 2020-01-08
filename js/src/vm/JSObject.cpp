@@ -10872,11 +10872,6 @@ slots_
 cx
 -
 >
-zone
-(
-)
--
->
 pod_malloc
 <
 HeapSlot

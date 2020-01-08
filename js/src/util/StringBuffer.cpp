@@ -271,11 +271,6 @@ tmp
 cx
 -
 >
-zone
-(
-)
--
->
 pod_realloc
 <
 CharT
@@ -297,11 +292,6 @@ tmp
 js_free
 (
 buf
-)
-;
-ReportOutOfMemory
-(
-cx
 )
 ;
 return

@@ -1694,11 +1694,6 @@ site
 cx
 -
 >
-zone
-(
-)
--
->
 new_
 <
 WasmBreakpointSite
@@ -1712,8 +1707,12 @@ if
 (
 !
 site
-|
-|
+)
+return
+nullptr
+;
+if
+(
 !
 breakpointSites_
 .

@@ -816,11 +816,6 @@ return
 cx
 -
 >
-zone
-(
-)
--
->
 pod_malloc
 <
 T

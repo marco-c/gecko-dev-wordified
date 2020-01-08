@@ -440,11 +440,6 @@ map
 cx
 -
 >
-zone
-(
-)
--
->
 new_
 <
 typename
