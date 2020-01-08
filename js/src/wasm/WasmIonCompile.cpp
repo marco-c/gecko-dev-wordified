@@ -6818,10 +6818,7 @@ kind
 )
 =
 =
-FuncTypeIdDesc
-:
-:
-Kind
+FuncTypeIdDescKind
 :
 :
 None
@@ -6952,10 +6949,7 @@ kind
 )
 !
 =
-FuncTypeIdDesc
-:
-:
-Kind
+FuncTypeIdDescKind
 :
 :
 None
