@@ -15655,6 +15655,12 @@ isIonScripted
 )
 ;
 }
+bool
+principalsSubsumeFrame
+(
+)
+const
+;
 void
 popActivation
 (
