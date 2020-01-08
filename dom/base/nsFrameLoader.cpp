@@ -18060,7 +18060,6 @@ mMessageManager
 new
 ChromeMessageSender
 (
-nullptr
 parentManager
 )
 ;
@@ -20132,7 +20131,7 @@ return
 NS_OK
 ;
 }
-ChromeMessageSender
+ProcessMessageManager
 *
 nsFrameLoader
 :
