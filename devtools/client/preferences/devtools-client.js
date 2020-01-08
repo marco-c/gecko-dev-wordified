@@ -145,7 +145,7 @@ toolbox
 selectedTool
 "
 "
-inspector
+webconsole
 "
 )
 ;
