@@ -509,7 +509,7 @@ mod
 clip
 ;
 mod
-clip_node
+clip_scroll_node
 ;
 mod
 clip_scroll_tree
@@ -669,9 +669,6 @@ segment
 ;
 mod
 shade
-;
-mod
-spatial_node
 ;
 mod
 texture_allocator

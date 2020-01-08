@@ -186,7 +186,7 @@ clip_scroll_tree
 :
 :
 {
-SpatialNodeIndex
+ClipScrollNodeIndex
 ClipScrollTree
 }
 ;
@@ -701,8 +701,8 @@ this
 document
 which
 tracks
-SpatialNodes
-ClipNodes
+both
+ClipScrollNodes
 and
 ClipChains
 .
@@ -723,10 +723,10 @@ preserve
 scrolling
 positions
 between
+/
+/
+/
 rendered
-/
-/
-/
 frames
 .
 clip_scroll_tree
@@ -1969,7 +1969,7 @@ scroll_node_index
 :
 Option
 <
-SpatialNodeIndex
+ClipScrollNodeIndex
 >
 )
 -

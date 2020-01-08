@@ -134,15 +134,6 @@ glutin
 Api
 ;
 use
-glutin
-:
-:
-dpi
-:
-:
-PhysicalSize
-;
-use
 std
 :
 :
@@ -1486,7 +1477,10 @@ resize
 self
 _
 :
-PhysicalSize
+u32
+_
+:
+u32
 )
 {
 }
