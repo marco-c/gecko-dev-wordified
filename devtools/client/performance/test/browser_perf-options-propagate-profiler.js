@@ -192,7 +192,7 @@ prefs
 setIntPref
 (
 PROFILER_SAMPLE_RATE_PREF
-2
+2000
 )
 ;
 await

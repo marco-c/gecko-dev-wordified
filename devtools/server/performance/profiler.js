@@ -265,9 +265,9 @@ profiler
 .
 sample
 -
-rate
+frequency
 -
-khz
+hz
 .
 interval
 :

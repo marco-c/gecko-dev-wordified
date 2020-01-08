@@ -164,7 +164,7 @@ sample
 -
 frequency
 -
-khz
+hz
 "
 ;
 exports
