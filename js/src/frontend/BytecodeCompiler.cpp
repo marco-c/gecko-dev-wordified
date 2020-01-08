@@ -4767,13 +4767,7 @@ mozilla
 TimeDuration
 delta
 =
-mozilla
-:
-:
-TimeStamp
-:
-:
-Now
+ReallyNow
 (
 )
 -

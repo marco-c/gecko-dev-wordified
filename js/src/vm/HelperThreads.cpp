@@ -9409,10 +9409,7 @@ prev
 TimeStamp
 now
 =
-TimeStamp
-:
-:
-Now
+ReallyNow
 (
 )
 ;
