@@ -17521,6 +17521,7 @@ component
 >
 HasActiveSmartCards
 (
+&
 activeSmartCards
 )
 ;
@@ -17581,6 +17582,7 @@ component
 >
 HasUserCertsInstalled
 (
+&
 hasUserCerts
 )
 ;

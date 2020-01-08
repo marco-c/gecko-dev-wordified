@@ -893,6 +893,7 @@ component
 IsCertTestBuiltInRoot
 (
 cert
+&
 result
 )
 ;
