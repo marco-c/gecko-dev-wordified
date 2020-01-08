@@ -17581,12 +17581,13 @@ mFrameStats
 mFrameStats
 -
 >
-NotifyDecodedFrames
+Accumulate
 (
 {
 0
 0
 lengthDecodedQueue
+0
 }
 )
 ;
@@ -17771,7 +17772,7 @@ mFrameStats
 mFrameStats
 -
 >
-NotifyDecodedFrames
+Accumulate
 (
 {
 0
@@ -17779,6 +17780,7 @@ NotifyDecodedFrames
 SizeOfVideoQueueInFrames
 (
 )
+0
 }
 )
 ;
@@ -17819,12 +17821,13 @@ mFrameStats
 mFrameStats
 -
 >
-NotifyDecodedFrames
+Accumulate
 (
 {
 aSkipped
 0
 aSkipped
+0
 }
 )
 ;
