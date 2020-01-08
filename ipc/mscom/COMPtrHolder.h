@@ -972,6 +972,7 @@ defined
 (
 MOZ_CONTENT_SANDBOX
 )
+typename
 paramType
 :
 :
