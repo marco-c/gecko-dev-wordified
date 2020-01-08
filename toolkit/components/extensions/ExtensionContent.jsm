@@ -3731,7 +3731,7 @@ rejected
 .
 ExtensionTelemetry
 .
-contentScriptInjection
+userScriptInjection
 .
 stopwatchStart
 (
@@ -3850,7 +3850,7 @@ finally
 {
 ExtensionTelemetry
 .
-contentScriptInjection
+userScriptInjection
 .
 stopwatchFinish
 (
