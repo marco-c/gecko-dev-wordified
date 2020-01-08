@@ -56,25 +56,6 @@ manifest
 "
     
 "
-tooltool_servers
-"
-:
-[
-'
-http
-:
-/
-/
-taskcluster
-/
-relengapi
-/
-tooltool
-/
-'
-]
-    
-"
 emulator_manifest
 "
 :
