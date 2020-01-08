@@ -5945,7 +5945,7 @@ callInfo
 )
 ;
 InliningResult
-inlineIsWrappedArrayConstructor
+inlineIsCrossRealmArrayConstructor
 (
 CallInfo
 &

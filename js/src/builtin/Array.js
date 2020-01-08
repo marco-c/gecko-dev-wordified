@@ -6313,7 +6313,7 @@ C
 )
 &
 &
-IsWrappedArrayConstructor
+IsCrossRealmArrayConstructor
 (
 C
 )
