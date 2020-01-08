@@ -192,9 +192,11 @@ if
 !
 clone
 )
+{
 return
 nullptr
 ;
+}
 clone
 -
 >
@@ -238,9 +240,11 @@ clone
 >
 name_
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 clone
@@ -327,6 +331,7 @@ jsObjectClassName
 (
 )
 )
+{
 fprintf
 (
 stderr
@@ -340,6 +345,7 @@ s
 clsName
 )
 ;
+}
 }
 fputc
 (
@@ -562,6 +568,7 @@ if
 !
 name
 )
+{
 name
 =
 u
@@ -573,6 +580,7 @@ name
 >
 "
 ;
+}
 js_fputs
 (
 name
@@ -642,6 +650,7 @@ i
 =
 0
 )
+{
 fprintf
 (
 stderr
@@ -656,6 +665,7 @@ n
 "
 )
 ;
+}
 }
 #
 endif
