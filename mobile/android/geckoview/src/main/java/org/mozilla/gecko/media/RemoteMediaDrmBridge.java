@@ -772,6 +772,17 @@ e
 )
 ;
 }
+RemoteManager
+.
+getInstance
+(
+)
+.
+onRemoteMediaDrmBridgeReleased
+(
+mRemote
+)
+;
 mRemote
 =
 null
