@@ -647,7 +647,7 @@ want
 to
 get
 the
-TabChildGlobal
+TabChildMessageManager
 which
 is
 the

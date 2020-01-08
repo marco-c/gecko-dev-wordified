@@ -1771,7 +1771,7 @@ tabChild
 {
 RefPtr
 <
-TabChildGlobal
+TabChildMessageManager
 >
 mm
 =
@@ -2921,7 +2921,7 @@ process
 trace
 all
 the
-TabChildGlobals
+TabChildMessageManagers
 .
 /
 /
@@ -2933,7 +2933,7 @@ root
 outer
 window
 per
-TabChildGlobal
+TabChildMessageManager
 we
 need
 /

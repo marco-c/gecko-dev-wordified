@@ -4713,7 +4713,10 @@ messageManager
 is
 wrapped
 in
-TabChildGlobal
+TabChildMessageManager
+'
+s
+global
 .
 nsCOMPtr
 <

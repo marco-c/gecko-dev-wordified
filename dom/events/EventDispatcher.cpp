@@ -5148,7 +5148,7 @@ chrome
 event
 handler
 or
-TabChildGlobal
+TabChildMessageManager
 for
 event
 target

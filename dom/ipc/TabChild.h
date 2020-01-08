@@ -530,7 +530,7 @@ class
 CoalescedWheelData
 ;
 class
-TabChildGlobal
+TabChildMessageManager
 :
 public
 ContentFrameMessageManager
@@ -546,7 +546,7 @@ nsSupportsWeakReference
 public
 :
 explicit
-TabChildGlobal
+TabChildMessageManager
 (
 TabChild
 *
@@ -556,7 +556,7 @@ aTabChild
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-TabChildGlobal
+TabChildMessageManager
 DOMEventTargetHelper
 )
 void
@@ -764,7 +764,7 @@ mTabChild
 protected
 :
 ~
-TabChildGlobal
+TabChildMessageManager
 (
 )
 ;
@@ -1179,7 +1179,7 @@ protected
 :
 RefPtr
 <
-TabChildGlobal
+TabChildMessageManager
 >
 mTabChildGlobal
 ;
@@ -1494,7 +1494,7 @@ FORWARD_SHMEM_ALLOCATOR_TO
 (
 PBrowserChild
 )
-TabChildGlobal
+TabChildMessageManager
 *
 GetMessageManager
 (
