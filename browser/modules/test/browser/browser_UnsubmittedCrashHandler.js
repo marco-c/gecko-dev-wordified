@@ -3839,6 +3839,9 @@ shutdownWhileShowing
 )
 ;
 }
+/
+NS_ERROR_UNEXPECTED
+/
 "
 We
 should
@@ -3850,9 +3853,6 @@ notification
 had
 closed
 before
-"
-+
-"
 uninitting
 .
 "

@@ -172,7 +172,7 @@ browser
 )
 ;
 }
-"
+/
 '
 Block
 '
@@ -186,8 +186,8 @@ save
 temporarily
 on
 a
-tab
-"
+browser
+/
 )
 ;
 }
