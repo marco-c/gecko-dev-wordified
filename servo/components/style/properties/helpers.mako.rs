@@ -2032,7 +2032,6 @@ properties
 :
 :
 {
-DeclaredValue
 LonghandId
 LonghandIdSet
 }
