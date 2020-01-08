@@ -2381,7 +2381,7 @@ serializedSize
 const
 {
 return
-sig_
+funcType_
 .
 serializedSize
 (
@@ -2408,7 +2408,7 @@ const
 {
 cursor
 =
-sig_
+funcType_
 .
 serialize
 (
@@ -2449,7 +2449,7 @@ cursor
 (
 cursor
 =
-sig_
+funcType_
 .
 deserialize
 (
@@ -2489,7 +2489,7 @@ mallocSizeOf
 const
 {
 return
-sig_
+funcType_
 .
 sizeOfExcludingThis
 (
@@ -2507,7 +2507,7 @@ serializedSize
 const
 {
 return
-sig_
+funcType_
 .
 serializedSize
 (
@@ -2534,7 +2534,7 @@ const
 {
 cursor
 =
-sig_
+funcType_
 .
 serialize
 (
@@ -2575,7 +2575,7 @@ cursor
 (
 cursor
 =
-sig_
+funcType_
 .
 deserialize
 (
@@ -2615,7 +2615,7 @@ mallocSizeOf
 const
 {
 return
-sig_
+funcType_
 .
 sizeOfExcludingThis
 (
@@ -3356,7 +3356,7 @@ funcExports
 funcExportIndex
 ]
 .
-sig
+funcType
 (
 )
 .
@@ -3695,7 +3695,7 @@ numExpectedRanges
 =
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -4290,7 +4290,7 @@ interpRangeIndex
 =
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -4419,7 +4419,7 @@ funcExports
 funcExportIndex
 ]
 .
-sig
+funcType
 (
 )
 .
@@ -5109,7 +5109,7 @@ pod
 +
 SerializedVectorSize
 (
-sigIds
+funcTypeIds
 )
 +
 SerializedPodVectorSize
@@ -5159,7 +5159,7 @@ const
 return
 SizeOfVectorExcludingThis
 (
-sigIds
+funcTypeIds
 mallocSizeOf
 )
 +
@@ -5261,7 +5261,7 @@ cursor
 SerializeVector
 (
 cursor
-sigIds
+funcTypeIds
 )
 ;
 cursor
@@ -5364,7 +5364,7 @@ DeserializeVector
 (
 cursor
 &
-sigIds
+funcTypeIds
 )
 )
 &

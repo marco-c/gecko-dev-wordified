@@ -5521,7 +5521,7 @@ if
 (
 funcExport
 .
-sig
+funcType
 (
 )
 !
@@ -5536,7 +5536,7 @@ funcImports
 i
 ]
 .
-sig
+funcType
 (
 )
 )

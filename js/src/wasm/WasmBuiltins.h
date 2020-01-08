@@ -413,9 +413,9 @@ MaybeGetBuiltinThunk
 HandleFunction
 f
 const
-Sig
+FuncType
 &
-sig
+funcType
 )
 ;
 void

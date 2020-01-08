@@ -9254,9 +9254,9 @@ sigIndex_
 ;
 }
 const
-Sig
+FuncType
 &
-sig
+funcType
 (
 )
 const
@@ -9279,7 +9279,7 @@ HashPolicy
 :
 typedef
 const
-Sig
+FuncType
 &
 Lookup
 ;
@@ -9312,7 +9312,7 @@ rhs
 return
 lhs
 .
-sig
+funcType
 (
 )
 =
@@ -9382,9 +9382,9 @@ PropertyName
 name
 ;
 const
-Sig
+FuncType
 &
-sig
+funcType
 ;
 Lookup
 (
@@ -9392,18 +9392,18 @@ PropertyName
 *
 name
 const
-Sig
+FuncType
 &
-sig
+funcType
 )
 :
 name
 (
 name
 )
-sig
+funcType
 (
-sig
+funcType
 )
 {
 }
@@ -9425,7 +9425,7 @@ l
 name
 l
 .
-sig
+funcType
 .
 hash
 (
@@ -9458,14 +9458,14 @@ name
 &
 lhs
 .
-sig
+funcType
 (
 )
 =
 =
 rhs
 .
-sig
+funcType
 ;
 }
 }
@@ -9849,7 +9849,7 @@ op
 bool
 newSig
 (
-Sig
+FuncType
 &
 &
 sig
@@ -9912,7 +9912,7 @@ sig
 bool
 declareSig
 (
-Sig
+FuncType
 &
 &
 sig
@@ -13327,7 +13327,7 @@ PropertyName
 name
 uint32_t
 firstUse
-Sig
+FuncType
 &
 &
 sig
@@ -13472,7 +13472,7 @@ true
 bool
 declareFuncPtrTable
 (
-Sig
+FuncType
 &
 &
 sig
@@ -13800,7 +13800,7 @@ declareImport
 PropertyName
 *
 name
-Sig
+FuncType
 &
 &
 sig
@@ -14780,7 +14780,7 @@ MOZ_ASSERT
 (
 env_
 .
-funcSigs
+funcTypes
 .
 empty
 (
@@ -14792,7 +14792,7 @@ if
 !
 env_
 .
-funcSigs
+funcTypes
 .
 resize
 (
@@ -14858,7 +14858,7 @@ MOZ_ASSERT
 !
 env_
 .
-funcSigs
+funcTypes
 [
 funcIndex
 ]
@@ -14866,7 +14866,7 @@ funcIndex
 ;
 env_
 .
-funcSigs
+funcTypes
 [
 funcIndex
 ]
@@ -14926,7 +14926,7 @@ MOZ_ASSERT
 !
 env_
 .
-funcSigs
+funcTypes
 [
 funcIndex
 ]
@@ -14934,7 +14934,7 @@ funcIndex
 ;
 env_
 .
-funcSigs
+funcTypes
 [
 funcIndex
 ]
@@ -31692,11 +31692,11 @@ ParseNode
 *
 usepn
 const
-Sig
+FuncType
 &
 sig
 const
-Sig
+FuncType
 &
 existing
 )
@@ -31935,7 +31935,7 @@ m
 ParseNode
 *
 usepn
-Sig
+FuncType
 &
 &
 sig
@@ -32035,7 +32035,7 @@ func
 ;
 }
 const
-SigWithId
+FuncTypeWithId
 &
 existingSig
 =
@@ -32188,7 +32188,7 @@ args
 return
 false
 ;
-Sig
+FuncType
 sig
 (
 std
@@ -32305,7 +32305,7 @@ usepn
 PropertyName
 *
 name
-Sig
+FuncType
 &
 &
 sig
@@ -32854,7 +32854,7 @@ args
 return
 false
 ;
-Sig
+FuncType
 sig
 (
 std
@@ -33130,7 +33130,7 @@ args
 return
 false
 ;
-Sig
+FuncType
 sig
 (
 std
@@ -48578,7 +48578,7 @@ CheckFunctionSignature
 (
 m
 fn
-Sig
+FuncType
 (
 std
 :
@@ -48601,9 +48601,11 @@ fn
 func
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 func
@@ -48973,7 +48975,7 @@ Uint32Vector
 elemFuncDefIndices
 ;
 const
-Sig
+FuncType
 *
 sig
 =
@@ -49090,7 +49092,7 @@ functions
 )
 ;
 const
-Sig
+FuncType
 &
 funcSig
 =
@@ -49173,7 +49175,7 @@ return
 false
 ;
 }
-Sig
+FuncType
 copy
 ;
 if

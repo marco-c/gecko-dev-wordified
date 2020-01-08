@@ -12447,9 +12447,9 @@ emitInitStackLocals
 )
 ;
 const
-SigWithId
+FuncTypeWithId
 &
-sig
+funcType
 (
 )
 const
@@ -12458,7 +12458,7 @@ return
 *
 env_
 .
-funcSigs
+funcTypes
 [
 func_
 .
@@ -21852,7 +21852,7 @@ GenerateFunctionPrologue
 masm
 env_
 .
-funcSigs
+funcTypes
 [
 func_
 .
@@ -22056,7 +22056,7 @@ ValTypeVector
 &
 args
 =
-sig
+funcType
 (
 )
 .
@@ -22330,7 +22330,7 @@ offsetOfResults
 ;
 switch
 (
-sig
+funcType
 (
 )
 .
@@ -22505,7 +22505,7 @@ offsetOfResults
 ;
 switch
 (
-sig
+funcType
 (
 )
 .
@@ -24599,7 +24599,7 @@ void
 callIndirect
 (
 uint32_t
-sigIndex
+funcTypeIndex
 const
 Stk
 &
@@ -24611,15 +24611,15 @@ call
 )
 {
 const
-SigWithId
+FuncTypeWithId
 &
-sig
+funcType
 =
 env_
 .
 types
 [
-sigIndex
+funcTypeIndex
 ]
 .
 funcType
@@ -24628,7 +24628,7 @@ funcType
 ;
 MOZ_ASSERT
 (
-sig
+funcType
 .
 id
 .
@@ -24637,7 +24637,7 @@ kind
 )
 !
 =
-SigIdDesc
+FuncTypeIdDesc
 :
 :
 Kind
@@ -24702,7 +24702,7 @@ CalleeDesc
 wasmTable
 (
 table
-sig
+funcType
 .
 id
 )
@@ -48319,7 +48319,7 @@ true
 ;
 doReturn
 (
-sig
+funcType
 (
 )
 .
@@ -48795,14 +48795,14 @@ sync
 )
 ;
 const
-Sig
+FuncType
 &
-sig
+funcType
 =
 *
 env_
 .
-funcSigs
+funcTypes
 [
 funcIndex
 ]
@@ -48820,7 +48820,7 @@ funcIndex
 uint32_t
 numArgs
 =
-sig
+funcType
 .
 args
 (
@@ -48869,7 +48869,7 @@ if
 !
 emitCallArgs
 (
-sig
+funcType
 .
 args
 (
@@ -48917,7 +48917,7 @@ numArgs
 pushReturnedIfNonVoid
 (
 baselineCall
-sig
+funcType
 .
 ret
 (
@@ -48944,7 +48944,7 @@ readCallSiteLineOrBytecode
 )
 ;
 uint32_t
-sigIndex
+funcTypeIndex
 ;
 Nothing
 callee_
@@ -48963,7 +48963,7 @@ iter_
 readCallIndirect
 (
 &
-sigIndex
+funcTypeIndex
 &
 callee_
 &
@@ -48985,15 +48985,15 @@ sync
 )
 ;
 const
-SigWithId
+FuncTypeWithId
 &
-sig
+funcType
 =
 env_
 .
 types
 [
-sigIndex
+funcTypeIndex
 ]
 .
 funcType
@@ -49015,7 +49015,7 @@ callee
 uint32_t
 numArgs
 =
-sig
+funcType
 .
 args
 (
@@ -49108,7 +49108,7 @@ if
 !
 emitCallArgs
 (
-sig
+funcType
 .
 args
 (
@@ -49122,7 +49122,7 @@ false
 ;
 callIndirect
 (
-sigIndex
+funcTypeIndex
 callee
 baselineCall
 )
@@ -49141,7 +49141,7 @@ numArgs
 pushReturnedIfNonVoid
 (
 baselineCall
-sig
+funcType
 .
 ret
 (
@@ -56498,7 +56498,7 @@ iter_
 .
 readFunctionStart
 (
-sig
+funcType
 (
 )
 .
@@ -57085,7 +57085,7 @@ deadCode_
 )
 doReturn
 (
-sig
+funcType
 (
 )
 .
@@ -64263,7 +64263,7 @@ fr
 setupLocals
 (
 locals_
-sig
+funcType
 (
 )
 .
@@ -64692,7 +64692,7 @@ appendAll
 (
 env
 .
-funcSigs
+funcTypes
 [
 func
 .

@@ -562,7 +562,7 @@ iter
 (
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -1379,7 +1379,7 @@ switch
 (
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -3020,7 +3020,7 @@ StackArgBytes
 (
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -4107,7 +4107,7 @@ StackArgBytes
 (
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -4263,7 +4263,7 @@ if
 (
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -4418,7 +4418,7 @@ i
 <
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -4470,7 +4470,7 @@ switch
 (
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -5175,7 +5175,7 @@ iter
 (
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -5661,7 +5661,7 @@ switch
 (
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -5935,7 +5935,7 @@ if
 (
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -7289,8 +7289,8 @@ const
 FuncImport
 &
 fi
-SigIdDesc
-sigId
+FuncTypeIdDesc
+funcTypeId
 FuncOffsets
 *
 offsets
@@ -7304,7 +7304,7 @@ masm
 GenerateFunctionPrologue
 (
 masm
-sigId
+funcTypeId
 Nothing
 (
 )
@@ -7320,7 +7320,7 @@ masm
 WasmStackAlignment
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -7423,7 +7423,7 @@ i
 (
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -7682,7 +7682,7 @@ masm
 fi
 env
 .
-funcSigs
+funcTypes
 [
 funcIndex
 ]
@@ -7990,7 +7990,7 @@ size_t
 1
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -8065,7 +8065,7 @@ FillArgumentArray
 masm
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -8263,7 +8263,7 @@ argc
 =
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -8452,7 +8452,7 @@ switch
 (
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -9059,7 +9059,7 @@ sizeOfThisAndArgs
 +
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -9304,7 +9304,7 @@ argc
 =
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -9412,7 +9412,7 @@ FillArgumentArray
 masm
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -9433,7 +9433,7 @@ argOffset
 =
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -9506,7 +9506,7 @@ Imm32
 (
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -9984,7 +9984,7 @@ switch
 (
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -10599,7 +10599,7 @@ switch
 (
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -10710,7 +10710,7 @@ if
 (
 fi
 .
-sig
+funcType
 (
 )
 .
@@ -13213,7 +13213,7 @@ isAsmJS
 |
 fe
 .
-sig
+funcType
 (
 )
 .
@@ -13429,7 +13429,7 @@ if
 (
 fi
 .
-sig
+funcType
 (
 )
 .
