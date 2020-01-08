@@ -3759,14 +3759,6 @@ the
 debugger
 server
 context
-*
-for
-instance
-from
-a
-gcli
-command
-)
 .
 *
 /

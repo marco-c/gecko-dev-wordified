@@ -16006,7 +16006,6 @@ error
 *
 *
 Initiate
-gcli
 screenshot
 command
 on
