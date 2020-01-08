@@ -267,12 +267,6 @@ active
 :
 focus
 "
-"
-:
-focus
--
-within
-"
 ]
 ;
 /

@@ -10848,11 +10848,6 @@ active
 "
 focus
 "
-"
-focus
--
-within
-"
 ]
 )
 {
