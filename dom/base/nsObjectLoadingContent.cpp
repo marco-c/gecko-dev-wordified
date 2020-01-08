@@ -22139,7 +22139,15 @@ GetCurrentJSContext
 )
 )
 ;
-JSAutoRealmAllowCCW
+MOZ_ASSERT
+(
+IsDOMObject
+(
+aObject
+)
+)
+;
+JSAutoRealm
 ar
 (
 aCx
