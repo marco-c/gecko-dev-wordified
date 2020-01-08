@@ -3315,6 +3315,8 @@ nsIAppStartup
 eForceQuit
 )
 ;
+return
+;
 }
 env
 .
