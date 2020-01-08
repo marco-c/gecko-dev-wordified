@@ -814,6 +814,11 @@ IMPL_EVENT_HANDLER
 shippingoptionchange
 )
 ;
+IMPL_EVENT_HANDLER
+(
+paymentmethodchange
+)
+;
 void
 SetIPC
 (

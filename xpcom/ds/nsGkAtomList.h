@@ -6233,6 +6233,13 @@ onpaste
 )
 GK_ATOM
 (
+onpaymentmethodchange
+"
+onpaymentmethodchange
+"
+)
+GK_ATOM
+(
 onpointerlockchange
 "
 onpointerlockchange
