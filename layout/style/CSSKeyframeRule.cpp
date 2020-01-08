@@ -290,10 +290,14 @@ nullptr
 }
 DeclarationBlock
 *
-GetCSSDeclaration
+GetOrCreateCSSDeclaration
 (
 Operation
 aOperation
+DeclarationBlock
+*
+*
+aCreated
 )
 final
 {
@@ -307,6 +311,9 @@ SetCSSDeclaration
 DeclarationBlock
 *
 aDecls
+MutationClosureData
+*
+aClosureData
 )
 final
 {

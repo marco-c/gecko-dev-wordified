@@ -409,10 +409,14 @@ DeclarationBlock
 CSSStyleRuleDeclaration
 :
 :
-GetCSSDeclaration
+GetOrCreateCSSDeclaration
 (
 Operation
 aOperation
+DeclarationBlock
+*
+*
+aCreated
 )
 {
 return
@@ -428,6 +432,9 @@ SetCSSDeclaration
 DeclarationBlock
 *
 aDecl
+MutationClosureData
+*
+aClosureData
 )
 {
 CSSStyleRule

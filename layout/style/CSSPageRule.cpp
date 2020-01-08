@@ -395,10 +395,14 @@ DeclarationBlock
 CSSPageRuleDeclaration
 :
 :
-GetCSSDeclaration
+GetOrCreateCSSDeclaration
 (
 Operation
 aOperation
+DeclarationBlock
+*
+*
+aCreated
 )
 {
 return
@@ -414,6 +418,9 @@ SetCSSDeclaration
 DeclarationBlock
 *
 aDecl
+MutationClosureData
+*
+aClosureData
 )
 {
 MOZ_ASSERT

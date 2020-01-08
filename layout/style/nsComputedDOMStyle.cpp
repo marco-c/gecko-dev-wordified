@@ -4260,9 +4260,14 @@ DeclarationBlock
 nsComputedDOMStyle
 :
 :
-GetCSSDeclaration
+GetOrCreateCSSDeclaration
 (
 Operation
+aOperation
+DeclarationBlock
+*
+*
+aCreated
 )
 {
 MOZ_CRASH
@@ -4284,6 +4289,8 @@ nsComputedDOMStyle
 SetCSSDeclaration
 (
 DeclarationBlock
+*
+MutationClosureData
 *
 )
 {

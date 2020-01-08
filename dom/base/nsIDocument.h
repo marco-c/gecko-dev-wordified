@@ -10134,6 +10134,15 @@ EndUpdate
 =
 0
 ;
+uint32_t
+UpdateNestingLevel
+(
+)
+{
+return
+mUpdateNestLevel
+;
+}
 virtual
 void
 BeginLoad
