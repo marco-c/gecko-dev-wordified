@@ -532,10 +532,8 @@ contents
 querySelector
 (
 "
-#
-payment
--
-summary
+header
+>
 .
 page
 -
