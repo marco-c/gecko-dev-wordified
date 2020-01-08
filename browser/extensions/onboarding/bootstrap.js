@@ -1166,6 +1166,7 @@ onboarding
 js
 "
 true
+true
 )
 ;
 initContentMessageListener

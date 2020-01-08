@@ -4231,6 +4231,7 @@ content
 js
 "
 true
+true
 )
 ;
 /
@@ -4256,6 +4257,7 @@ manifestMessages
 .
 js
 "
+true
 true
 )
 ;

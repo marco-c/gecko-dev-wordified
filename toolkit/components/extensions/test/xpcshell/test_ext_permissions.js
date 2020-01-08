@@ -298,6 +298,7 @@ call
 this
 )
 false
+true
 )
 ;
 extensionHandlers

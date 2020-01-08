@@ -1202,6 +1202,7 @@ FormAutofillFrameScript
 js
 "
 true
+true
 )
 ;
 }
