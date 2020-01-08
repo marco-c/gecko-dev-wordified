@@ -946,7 +946,7 @@ typename
 U
 >
 static
-inline
+constexpr
 U
 ComputeByteAlignment
 (
@@ -977,17 +977,6 @@ unsigned
 "
 )
 ;
-MOZ_ASSERT
-(
-mozilla
-:
-:
-IsPowerOfTwo
-(
-alignment
-)
-)
-;
 return
 (
 alignment
@@ -1010,7 +999,7 @@ typename
 U
 >
 static
-inline
+constexpr
 T
 AlignBytes
 (
