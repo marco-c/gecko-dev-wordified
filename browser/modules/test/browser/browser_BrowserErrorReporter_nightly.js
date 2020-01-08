@@ -300,6 +300,12 @@ initialization
 "
 )
 ;
+reporter
+.
+uninit
+(
+)
+;
 }
 )
 ;
