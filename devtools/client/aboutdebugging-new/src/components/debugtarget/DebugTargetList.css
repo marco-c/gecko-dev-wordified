@@ -71,6 +71,10 @@ start
 :
 60px
 ;
+overflow
+:
+hidden
+;
 }
 .
 debug
@@ -82,8 +86,10 @@ list
 -
 collapsed
 {
-display
+max
+-
+height
 :
-none
+0
 ;
 }
