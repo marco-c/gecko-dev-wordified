@@ -2495,7 +2495,7 @@ testPendingQuotaTaskPromise
 Remove
 the
 pending
-optout
+deletion
 ping
 generated
 when
