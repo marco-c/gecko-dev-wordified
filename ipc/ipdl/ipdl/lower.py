@@ -3765,9 +3765,7 @@ inner
 type
 .
         
-t
-.
-const
+inner
 =
 _cxxConstRefType
 (
@@ -3776,8 +3774,19 @@ ipdltype
 basetype
 side
 )
+        
+t
 .
 const
+=
+inner
+.
+const
+or
+not
+inner
+.
+ref
         
 t
 .

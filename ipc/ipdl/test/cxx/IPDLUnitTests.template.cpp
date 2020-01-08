@@ -2585,6 +2585,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+QuitXPCOM
+"
 QuitXPCOM
 )
 )
@@ -2609,6 +2612,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DeleteSubprocess
+"
 DeleteSubprocess
 MessageLoop
 :
@@ -2766,6 +2772,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+TryThreadedShutdown
+"
 TryThreadedShutdown
 )
 )
@@ -2810,6 +2819,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DeferredParentShutdown
+"
 DeferredParentShutdown
 )
 )
@@ -2854,6 +2866,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+ChildCompleted
+"
 ChildCompleted
 )
 )
@@ -2879,6 +2894,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+ChildDie
+"
 ChildDie
 )
 )

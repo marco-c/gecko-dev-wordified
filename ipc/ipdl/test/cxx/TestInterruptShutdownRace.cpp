@@ -415,6 +415,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DeleteSubprocess
+"
 DeleteSubprocess
 )
 )
@@ -443,6 +446,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+Done
+"
 Done
 )
 )

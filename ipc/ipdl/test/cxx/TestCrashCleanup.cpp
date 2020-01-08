@@ -295,6 +295,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DeleteSubprocess
+"
 DeleteSubprocess
 &
 mutex
@@ -440,6 +443,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DeleteTheWorld
+"
 DeleteTheWorld
 )
 )
@@ -476,6 +482,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+Done
+"
 Done
 )
 )

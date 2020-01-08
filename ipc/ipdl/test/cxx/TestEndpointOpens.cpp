@@ -480,6 +480,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+OpenParent
+"
 OpenParent
 a
 std
@@ -755,6 +758,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+ShutdownTestEndpointOpensOpenedParent
+"
 ShutdownTestEndpointOpensOpenedParent
 this
 GetTransport
@@ -1112,6 +1118,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+OpenChild
+"
 OpenChild
 a
 std
@@ -1496,6 +1505,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+ShutdownTestEndpointOpensOpenedChild
+"
 ShutdownTestEndpointOpensOpenedChild
 this
 GetTransport
