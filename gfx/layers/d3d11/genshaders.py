@@ -261,7 +261,7 @@ manifest
 =
 yaml
 .
-load
+safe_load
 (
 in_fp
 )
