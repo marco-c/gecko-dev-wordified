@@ -2323,6 +2323,7 @@ error_context
 +
 EC_ARULE
 +
+int
 (
 (
 n
@@ -2371,9 +2372,12 @@ r
 >
 rule_idx
 =
+uint16
+(
 n
 -
 1
+)
 ;
 #
 endif
@@ -2866,7 +2870,7 @@ EC_APASS
 /
 TODO
 :
-Coverty
+Coverity
 :
 1315804
 :
@@ -3247,6 +3251,7 @@ error_context
 +
 EC_ASTARTS
 +
+int
 (
 (
 s
@@ -3352,6 +3357,7 @@ error_context
 +
 EC_ATRANS
 +
+int
 (
 (
 (
@@ -3521,6 +3527,7 @@ error_context
 +
 EC_ARULEMAP
 +
+int
 (
 n
 <

@@ -17546,11 +17546,11 @@ pGlyf
 ;
 if
 (
+OVERFLOW_OFFSET_CHECK
+(
+pByte
 nGlyfOffset
-+
-pByte
-<
-pByte
+)
 |
 |
 nGlyfOffset
@@ -22034,7 +22034,7 @@ NULL
 ;
 }
 }
-long
+size_t
 lGlyfOffset
 =
 LocaLookup

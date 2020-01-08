@@ -351,7 +351,10 @@ if
 fseek
 (
 _file
+long
+(
 tbl_offset
+)
 SEEK_SET
 )
 )
@@ -460,7 +463,10 @@ if
 fseek
 (
 _file
+long
+(
 tbl_offset
+)
 SEEK_SET
 )
 )
@@ -623,7 +629,10 @@ fseek
 file_face
 .
 _file
+long
+(
 tbl_offset
+)
 SEEK_SET
 )
 !

@@ -491,7 +491,7 @@ Segment
 seg
 uint8
 direction
-int
+size_t
 maxSize
 )
 ;
@@ -1243,7 +1243,7 @@ Segment
 seg
 uint8
 direction
-int
+size_t
 maxSize
 )
 :
@@ -1265,7 +1265,10 @@ m_highwater
 )
 m_maxSize
 (
+int
+(
 maxSize
+)
 )
 m_dir
 (

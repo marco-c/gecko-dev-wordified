@@ -290,9 +290,6 @@ class
 GlyphFace
 ;
 class
-SegCacheEntry
-;
-class
 Segment
 ;
 struct
@@ -1501,10 +1498,6 @@ pointer
 to
 justification
 parameters
-friend
-class
-SegCacheEntry
-;
 friend
 class
 Segment

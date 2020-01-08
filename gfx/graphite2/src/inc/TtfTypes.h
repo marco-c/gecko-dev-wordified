@@ -1507,7 +1507,7 @@ members
 aren
 '
 t
-alligned
+aligned
 /
 /
 correctly
@@ -1523,7 +1523,7 @@ supposed
 /
 to
 be
-recongnised
+recognised
 by
 VS
 C
