@@ -149,6 +149,12 @@ callbackTracking
 callbackNonTracking
 cleanupFunction
 extraPrefs
+windowOpenTest
+=
+true
+userInteractionTest
+=
+true
 )
 {
 /
@@ -238,6 +244,11 @@ window
 open
 (
 )
+if
+(
+windowOpenTest
+)
+{
 this
 .
 _createWindowOpenTask
@@ -255,6 +266,7 @@ _createCleanupTask
 cleanupFunction
 )
 ;
+}
 /
 /
 Permission
@@ -266,6 +278,11 @@ user
 -
 interaction
 .
+if
+(
+userInteractionTest
+)
+{
 this
 .
 _createUserInteractionTask
@@ -283,6 +300,7 @@ _createCleanupTask
 cleanupFunction
 )
 ;
+}
 }
 }
 async
