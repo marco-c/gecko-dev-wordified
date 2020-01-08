@@ -3141,7 +3141,7 @@ LogBlockedRequest
 (
 aRequest
 "
-CORSAllowOriginNotMatchingOrigin
+CORSMultipleAllowOriginNotAllowed
 "
 nullptr
 topChannel
