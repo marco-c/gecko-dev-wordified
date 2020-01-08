@@ -1904,7 +1904,11 @@ CompletionKind
 completionKind
 HandleValue
 completionValue
-HandleObject
+Handle
+<
+PromiseObject
+*
+>
 promise
 )
 {
@@ -2310,7 +2314,11 @@ CompletionKind
 completionKind
 HandleValue
 completionValue
-HandleObject
+Handle
+<
+PromiseObject
+*
+>
 promise
 )
 {

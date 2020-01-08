@@ -375,7 +375,7 @@ const
 Value
 &
 completionValue
-JSObject
+PromiseObject
 *
 promise
 )
@@ -456,7 +456,11 @@ CompletionKind
 completionKind
 HandleValue
 completionValue
-HandleObject
+Handle
+<
+PromiseObject
+*
+>
 promise
 )
 ;
@@ -499,7 +503,7 @@ Slot_CompletionValue
 )
 ;
 }
-JSObject
+PromiseObject
 *
 promise
 (
@@ -514,6 +518,13 @@ Slot_Promise
 )
 .
 toObject
+(
+)
+.
+as
+<
+PromiseObject
+>
 (
 )
 ;
@@ -1203,7 +1214,11 @@ CompletionKind
 completionKind
 HandleValue
 completionValue
-HandleObject
+Handle
+<
+PromiseObject
+*
+>
 promise
 )
 ;
