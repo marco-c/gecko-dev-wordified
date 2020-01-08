@@ -163,13 +163,6 @@ needed
 #
 include
 "
-nsCWebBrowser
-.
-h
-"
-#
-include
-"
 nsIBaseWindow
 .
 h

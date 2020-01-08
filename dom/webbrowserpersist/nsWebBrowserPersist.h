@@ -191,6 +191,13 @@ h
 #
 include
 "
+nsIWebBrowserPersist
+.
+h
+"
+#
+include
+"
 nsIWebBrowserPersistDocument
 .
 h
@@ -222,13 +229,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsCWebBrowserPersist
 .
 h
 "

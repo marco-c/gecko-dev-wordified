@@ -280,13 +280,6 @@ h
 #
 include
 "
-nsCWebBrowserPersist
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
