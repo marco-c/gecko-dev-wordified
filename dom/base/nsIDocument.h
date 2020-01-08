@@ -9999,6 +9999,9 @@ const
 char
 *
 aMessage
+nsINode
+*
+aTarget
 )
 ;
 void

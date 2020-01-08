@@ -20869,6 +20869,7 @@ OwnerDoc
 DispatchFullscreenError
 (
 error
+this
 )
 ;
 return
