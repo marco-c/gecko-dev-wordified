@@ -810,7 +810,7 @@ widget
 .
 GridView
 "
-eNoNameRule
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
