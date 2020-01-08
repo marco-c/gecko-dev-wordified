@@ -742,6 +742,7 @@ false
 LayerActivityTracker
 (
 )
+override
 {
 mDestroying
 =
@@ -752,7 +753,6 @@ AgeAllGenerations
 )
 ;
 }
-virtual
 void
 NotifyExpired
 (
