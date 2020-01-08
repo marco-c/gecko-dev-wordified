@@ -453,6 +453,8 @@ null
 ;
 await
 gatherPromise
+.
+promise
 ;
 Assert
 .
