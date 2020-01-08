@@ -5178,7 +5178,7 @@ use
 values
 :
 :
-serialize_atom_identifier
+serialize_atom_name
 ;
 match
 *
@@ -5238,7 +5238,7 @@ write_str
 )
 ?
 ;
-serialize_atom_identifier
+serialize_atom_name
 (
 name
 dest
