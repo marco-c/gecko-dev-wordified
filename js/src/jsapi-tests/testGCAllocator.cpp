@@ -389,12 +389,14 @@ if
 (
 growUp
 )
+{
 return
 testGCAllocatorUp
 (
 PageSize
 )
 ;
+}
 return
 testGCAllocatorDown
 (
@@ -573,15 +575,19 @@ i
 1
 ]
 )
+{
 upCount
 +
 +
 ;
+}
 else
+{
 downCount
 +
 +
 ;
+}
 }
 for
 (
@@ -598,6 +604,7 @@ i
 +
 +
 )
+{
 unmapPages
 (
 chunks
@@ -609,6 +616,7 @@ i
 Chunk
 )
 ;
+}
 /
 *
 Check
@@ -719,9 +727,11 @@ if
 !
 stagingArea
 )
+{
 return
 false
 ;
+}
 /
 /
 Ensure
@@ -820,9 +830,11 @@ chunkPool
 false
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Unmap
@@ -1130,6 +1142,7 @@ tempChunks
 =
 0
 )
+{
 unmapPages
 (
 chunkPool
@@ -1141,6 +1154,7 @@ tempChunks
 Chunk
 )
 ;
+}
 return
 true
 ;
@@ -1197,9 +1211,11 @@ if
 !
 stagingArea
 )
+{
 return
 false
 ;
+}
 /
 /
 Ensure
@@ -1313,9 +1329,11 @@ chunkPool
 true
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Unmap
@@ -1582,6 +1600,7 @@ tempChunks
 =
 0
 )
+{
 unmapPages
 (
 chunkPool
@@ -1593,6 +1612,7 @@ tempChunks
 Chunk
 )
 ;
+}
 return
 true
 ;
@@ -1699,6 +1719,7 @@ tempChunks
 1
 ]
 )
+{
 break
 ;
 /
@@ -1715,6 +1736,7 @@ here
 is
 okay
 .
+}
 if
 (
 (
@@ -1735,6 +1757,7 @@ tempChunks
 ^
 addressesGrowDown
 )
+{
 break
 ;
 /
@@ -1746,6 +1769,7 @@ direction
 is
 inconsistent
 !
+}
 }
 /
 /
@@ -1842,6 +1866,7 @@ tempChunks
 =
 0
 )
+{
 unmapPages
 (
 chunkPool
@@ -1853,6 +1878,7 @@ tempChunks
 Chunk
 )
 ;
+}
 unmapPages
 (
 stagingArea
@@ -2077,6 +2103,7 @@ i
 x
 '
 )
+{
 mapMemoryAt
 (
 (
@@ -2096,6 +2123,7 @@ Chunk
 Chunk
 )
 ;
+}
 }
 /
 /
@@ -2118,6 +2146,7 @@ allocator
 =
 UseNormalAllocator
 )
+{
 result
 =
 js
@@ -2134,7 +2163,9 @@ Chunk
 Alignment
 )
 ;
+}
 else
+{
 result
 =
 js
@@ -2151,6 +2182,7 @@ Chunk
 Alignment
 )
 ;
+}
 /
 /
 Clean
@@ -2163,6 +2195,7 @@ if
 (
 result
 )
+{
 js
 :
 :
@@ -2177,6 +2210,7 @@ result
 Chunk
 )
 ;
+}
 for
 (
 -
@@ -2205,6 +2239,7 @@ i
 x
 '
 )
+{
 js
 :
 :
@@ -2230,6 +2265,7 @@ Chunk
 Chunk
 )
 ;
+}
 }
 /
 /
@@ -2258,6 +2294,7 @@ tempChunks
 =
 0
 )
+{
 js
 :
 :
@@ -2275,6 +2312,7 @@ tempChunks
 Chunk
 )
 ;
+}
 }
 return
 result
@@ -2575,9 +2613,11 @@ region
 =
 MAP_FAILED
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 region
@@ -2594,6 +2634,7 @@ region
 length
 )
 )
+{
 MOZ_RELEASE_ASSERT
 (
 errno
@@ -2602,6 +2643,7 @@ errno
 ENOMEM
 )
 ;
+}
 return
 nullptr
 ;
@@ -2712,9 +2754,11 @@ region
 =
 MAP_FAILED
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 (
@@ -2741,6 +2785,7 @@ region
 length
 )
 )
+{
 MOZ_RELEASE_ASSERT
 (
 errno
@@ -2749,6 +2794,7 @@ errno
 ENOMEM
 )
 ;
+}
 return
 nullptr
 ;
@@ -2946,9 +2992,11 @@ region
 =
 MAP_FAILED
 )
+{
 return
 nullptr
 ;
+}
 return
 region
 ;
@@ -2973,6 +3021,7 @@ p
 size
 )
 )
+{
 MOZ_RELEASE_ASSERT
 (
 errno
@@ -2981,6 +3030,7 @@ errno
 ENOMEM
 )
 ;
+}
 }
 #
 else

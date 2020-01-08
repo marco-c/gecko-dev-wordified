@@ -200,9 +200,11 @@ toBoolean
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Assumption

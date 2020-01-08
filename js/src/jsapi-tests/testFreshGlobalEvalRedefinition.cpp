@@ -246,9 +246,11 @@ if
 !
 g
 )
+{
 return
 false
 ;
+}
 JSAutoRealm
 ar
 (

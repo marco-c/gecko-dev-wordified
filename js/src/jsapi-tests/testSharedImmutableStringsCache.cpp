@@ -529,12 +529,14 @@ thread
 :
 threads
 )
+{
 thread
 .
 join
 (
 )
 ;
+}
 return
 true
 ;

@@ -282,6 +282,7 @@ next
 +
 i
 )
+{
 CHECK
 (
 iter
@@ -291,6 +292,7 @@ get
 )
 )
 ;
+}
 CHECK
 (
 i

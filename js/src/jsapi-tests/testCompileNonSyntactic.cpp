@@ -166,6 +166,7 @@ runtime
 )
 )
 )
+{
 js
 :
 :
@@ -177,6 +178,7 @@ FinishGC
 cx
 )
 ;
+}
 AutoLockMonitor
 alm
 (

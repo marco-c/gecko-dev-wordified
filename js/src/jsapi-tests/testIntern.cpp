@@ -310,6 +310,7 @@ status
 =
 JSFINALIZE_GROUP_START
 )
+{
 sw
 .
 strOk
@@ -334,6 +335,7 @@ sw
 str
 )
 ;
+}
 }
 END_TEST
 (

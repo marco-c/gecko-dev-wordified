@@ -120,11 +120,13 @@ sRemain
 -
 -
 )
+{
 JS_RequestInterruptCallback
 (
 cx
 )
 ;
+}
 args
 .
 rval

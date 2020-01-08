@@ -1063,6 +1063,7 @@ cx
 2
 )
 )
+{
 /
 /
 ArrayBuffer
@@ -1076,6 +1077,7 @@ object
 return
 false
 ;
+}
 if
 (
 !
@@ -1085,6 +1087,7 @@ cx
 2000
 )
 )
+{
 /
 /
 ArrayBuffer
@@ -1104,6 +1107,7 @@ allocation
 return
 false
 ;
+}
 return
 true
 ;
@@ -1425,9 +1429,11 @@ byteLength
 v
 )
 )
+{
 return
 false
 ;
+}
 *
 len
 =

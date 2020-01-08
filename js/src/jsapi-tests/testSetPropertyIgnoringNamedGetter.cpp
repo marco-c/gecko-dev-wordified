@@ -211,9 +211,11 @@ id
 desc
 )
 )
+{
 return
 false
 ;
+}
 return
 SetPropertyIgnoringNamedGetter
 (
@@ -277,9 +279,11 @@ phantom
 match
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 match
@@ -324,6 +328,7 @@ if
 (
 ownOnly
 )
+{
 return
 Wrapper
 :
@@ -336,6 +341,7 @@ id
 desc
 )
 ;
+}
 return
 Wrapper
 :

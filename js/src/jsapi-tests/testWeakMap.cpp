@@ -661,6 +661,7 @@ IsIncrementalGCInProgress
 cx
 )
 )
+{
 cx
 -
 >
@@ -676,6 +677,7 @@ debugGCSlice
 budget
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -829,6 +831,7 @@ IsIncrementalGCInProgress
 cx
 )
 )
+{
 cx
 -
 >
@@ -844,6 +847,7 @@ debugGCSlice
 budget
 )
 ;
+}
 CHECK
 (
 checkSize
@@ -975,6 +979,7 @@ if
 !
 keyDelegate
 )
+{
 return
 0
 ;
@@ -992,6 +997,7 @@ point
 to
 it
 .
+}
 MOZ_RELEASE_ASSERT
 (
 keyDelegate
@@ -1088,9 +1094,11 @@ if
 !
 key
 )
+{
 return
 nullptr
 ;
+}
 return
 key
 ;
@@ -1175,9 +1183,11 @@ if
 !
 object
 )
+{
 return
 nullptr
 ;
+}
 }
 {
 JSAutoRealm
@@ -1197,9 +1207,11 @@ cx
 object
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 /
 /
@@ -1401,9 +1413,11 @@ if
 !
 global
 )
+{
 return
 nullptr
 ;
+}
 JS_SetReservedSlot
 (
 global

@@ -190,10 +190,12 @@ kind
 =
 expectedKind
 )
+{
 found
 =
 true
 ;
+}
 }
 public
 :

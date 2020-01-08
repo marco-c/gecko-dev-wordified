@@ -256,10 +256,12 @@ if
 !
 chars_
 )
+{
 abort
 (
 )
 ;
+}
 }
 void
 operator
@@ -292,10 +294,12 @@ if
 !
 chars_
 )
+{
 abort
 (
 )
 ;
+}
 }
 const
 char16_t

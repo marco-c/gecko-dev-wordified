@@ -235,9 +235,11 @@ uint32_t
 0x0000FFFF
 )
 )
+{
 return
 initial
 ;
+}
 return
 initial
 <
@@ -279,9 +281,11 @@ uint32_t
 0x0000FFFF
 )
 )
+{
 return
 initial
 ;
+}
 return
 initial
 <
@@ -304,6 +308,7 @@ initial
 =
 0x00010000
 )
+{
 return
 (
 initial
@@ -317,6 +322,7 @@ initial
 =
 0
 ;
+}
 return
 initial
 %
@@ -846,9 +852,11 @@ has
 n
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -872,9 +880,11 @@ n
 n
 )
 )
+{
 return
 false
 ;
+}
 i
 +
 +
@@ -947,9 +957,11 @@ has
 n
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -971,9 +983,11 @@ putNew
 n
 )
 )
+{
 return
 false
 ;
+}
 i
 +
 +
@@ -1045,8 +1059,10 @@ key
 )
 )
 )
+{
 continue
 ;
+}
 uint32_t
 hi
 =
@@ -1075,9 +1091,11 @@ has
 hi
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1097,9 +1115,11 @@ value
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 m
 -
@@ -1161,9 +1181,11 @@ value
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -1226,8 +1248,10 @@ get
 )
 )
 )
+{
 continue
 ;
+}
 uint32_t
 hi
 =
@@ -1252,9 +1276,11 @@ has
 hi
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1265,9 +1291,11 @@ putNew
 hi
 )
 )
+{
 return
 false
 ;
+}
 }
 s
 -
@@ -1316,9 +1344,11 @@ get
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -1448,6 +1478,7 @@ key
 (
 )
 )
+{
 iter
 .
 rekey
@@ -1455,6 +1486,7 @@ rekey
 tmp
 )
 ;
+}
 }
 CHECK
 (
@@ -1601,6 +1633,7 @@ get
 (
 )
 )
+{
 iter
 .
 rekey
@@ -1608,6 +1641,7 @@ rekey
 tmp
 )
 ;
+}
 }
 CHECK
 (
@@ -1803,6 +1837,7 @@ key
 (
 )
 )
+{
 iter
 .
 rekey
@@ -1810,6 +1845,7 @@ rekey
 tmp
 )
 ;
+}
 }
 }
 CHECK
@@ -1981,6 +2017,7 @@ get
 (
 )
 )
+{
 iter
 .
 rekey
@@ -1988,6 +2025,7 @@ rekey
 tmp
 )
 ;
+}
 }
 }
 CHECK
@@ -2376,6 +2414,7 @@ key
 0
 )
 )
+{
 return
 false
 ;
@@ -2392,6 +2431,7 @@ or
 add
 (
 )
+}
 size_t
 capacity
 =
@@ -2551,12 +2591,14 @@ next
 (
 )
 )
+{
 iter
 .
 remove
 (
 )
 ;
+}
 CHECK
 (
 set

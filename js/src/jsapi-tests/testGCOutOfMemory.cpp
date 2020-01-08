@@ -539,9 +539,11 @@ if
 !
 cx
 )
+{
 return
 nullptr
 ;
+}
 setNativeStackQuota
 (
 cx

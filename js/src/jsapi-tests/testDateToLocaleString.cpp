@@ -229,9 +229,11 @@ toBoolean
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Pervasive

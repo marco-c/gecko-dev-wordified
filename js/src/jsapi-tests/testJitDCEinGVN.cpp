@@ -281,9 +281,11 @@ alloc
 mul0
 )
 )
+{
 return
 false
 ;
+}
 MMul
 *
 mul1
@@ -331,9 +333,11 @@ alloc
 mul1
 )
 )
+{
 return
 false
 ;
+}
 MReturn
 *
 ret
@@ -366,9 +370,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 mul0
@@ -1269,9 +1275,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 c1

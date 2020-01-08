@@ -269,9 +269,11 @@ JS
 :
 TranscodeResult_Ok
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 thaw
@@ -307,9 +309,11 @@ JS
 :
 TranscodeResult_Ok
 )
+{
 return
 nullptr
 ;
+}
 return
 script2
 ;

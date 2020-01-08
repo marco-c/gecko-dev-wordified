@@ -238,6 +238,7 @@ isGoto
 (
 )
 )
+{
 block
 =
 block
@@ -258,6 +259,7 @@ getSuccessor
 0
 )
 ;
+}
 return
 block
 ;
@@ -771,9 +773,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 The
@@ -924,9 +928,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 The
@@ -1701,9 +1707,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 The
@@ -1888,9 +1896,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 The
@@ -2728,9 +2738,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 innerHeader

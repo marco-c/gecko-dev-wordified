@@ -94,6 +94,7 @@ val
 buffer
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -106,6 +107,7 @@ buffer
 "
 )
 ;
+}
 gLatestMessage
 =
 buffer
@@ -119,6 +121,7 @@ if
 !
 gLatestMessage
 )
+{
 MOZ_CRASH
 (
 "
@@ -130,6 +133,7 @@ string
 "
 )
 ;
+}
 }
 }
 ;
@@ -164,6 +168,7 @@ b
 result
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -174,6 +179,7 @@ strings
 "
 )
 ;
+}
 return
 result
 =
@@ -486,6 +492,7 @@ __FILE__
 __LINE__
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -497,6 +504,7 @@ failed
 "
 )
 ;
+}
 CHECK
 (
 JS_IsExceptionPending
@@ -649,6 +657,7 @@ __FILE__
 __LINE__
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -660,6 +669,7 @@ failed
 "
 )
 ;
+}
 CHECK
 (
 JS_IsExceptionPending
@@ -843,6 +853,7 @@ __FILE__
 __LINE__
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -854,6 +865,7 @@ failed
 "
 )
 ;
+}
 CHECK
 (
 JS_IsExceptionPending

@@ -201,6 +201,7 @@ if
 (
 createThread
 )
+{
 MOZ_RELEASE_ASSERT
 (
 testThread
@@ -212,6 +213,7 @@ this
 )
 )
 ;
+}
 }
 static
 void
@@ -316,6 +318,7 @@ state
 >
 flag
 )
+{
 state
 -
 >
@@ -326,6 +329,7 @@ wait
 lock
 )
 ;
+}
 }
 state
 -
@@ -662,8 +666,10 @@ CVStatus
 :
 Timeout
 )
+{
 break
 ;
+}
 }
 }
 CHECK
@@ -1209,8 +1215,10 @@ CVStatus
 :
 Timeout
 )
+{
 break
 ;
+}
 }
 }
 CHECK

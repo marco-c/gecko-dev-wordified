@@ -1927,9 +1927,11 @@ hasAtomic8
 (
 )
 )
+{
 return
 true
 ;
+}
 const
 uint64_t
 A
@@ -1974,9 +1976,11 @@ hasAtomic8
 (
 )
 )
+{
 return
 true
 ;
+}
 const
 int64_t
 A

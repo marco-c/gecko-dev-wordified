@@ -209,9 +209,11 @@ str
 ch
 )
 )
+{
 return
 false
 ;
+}
 CHECK
 (
 ch
@@ -289,9 +291,11 @@ str
 ch
 )
 )
+{
 return
 false
 ;
+}
 CHECK
 (
 ch

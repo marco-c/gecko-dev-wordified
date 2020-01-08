@@ -437,9 +437,11 @@ id
 v
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 v
@@ -474,9 +476,11 @@ if
 !
 flatStr
 )
+{
 return
 false
 ;
+}
 if
 (
 JS_FlatStringEqualsAscii
@@ -512,9 +516,11 @@ if
 !
 docAll
 )
+{
 return
 false
 ;
+}
 JS
 :
 :
@@ -550,9 +556,11 @@ allValue
 JSPROP_RESOLVING
 )
 )
+{
 return
 false
 ;
+}
 *
 resolvedp
 =
