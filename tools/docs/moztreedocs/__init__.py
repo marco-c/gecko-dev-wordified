@@ -384,10 +384,17 @@ os
 .
 path
 .
+normpath
+(
+os
+.
+path
+.
 join
 (
 reldir
 key
+)
 )
             
 if
