@@ -254,7 +254,7 @@ fontOptions
 )
 .
 isRequired
-onPreviewFonts
+onPreviewTextChange
 :
 PropTypes
 .
@@ -314,7 +314,7 @@ const
 {
 fontData
 fontOptions
-onPreviewFonts
+onPreviewTextChange
 onToggleFontHighlight
 }
 =
@@ -339,7 +339,7 @@ FontList
 {
 fonts
 fontOptions
-onPreviewFonts
+onPreviewTextChange
 onToggleFontHighlight
 }
 )
@@ -380,7 +380,7 @@ const
 {
 fontData
 fontOptions
-onPreviewFonts
+onPreviewTextChange
 }
 =
 this
@@ -466,7 +466,7 @@ componentProps
 {
 fontOptions
 fonts
-onPreviewFonts
+onPreviewTextChange
 onToggleFontHighlight
 :
 this
