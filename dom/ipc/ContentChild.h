@@ -3498,14 +3498,6 @@ SystemFontListEntry
 &
 &
 aFontList
-const
-FileDescriptor
-&
-aSharedDataMapFile
-const
-uint32_t
-&
-aSharedDataMapSize
 )
 override
 ;
