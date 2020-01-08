@@ -585,7 +585,13 @@ aNodeInfo
 :
 nsMathMLElementBase
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 ALLOW_THIS_IN_INITIALIZER_LIST
 (
@@ -622,7 +628,13 @@ aNodeInfo
 :
 nsMathMLElementBase
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 ALLOW_THIS_IN_INITIALIZER_LIST
 (

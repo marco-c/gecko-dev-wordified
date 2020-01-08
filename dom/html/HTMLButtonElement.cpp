@@ -440,6 +440,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 FromParser
 aFromParser
@@ -447,7 +448,13 @@ aFromParser
 :
 nsGenericHTMLFormElementWithState
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 kButtonDefaultType
 -
 >

@@ -220,7 +220,13 @@ dom
 :
 HTMLUnknownElement
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 ;
 }
@@ -234,7 +240,13 @@ dom
 :
 HTMLDialogElement
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 ;
 }

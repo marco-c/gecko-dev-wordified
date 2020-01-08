@@ -257,6 +257,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 mozilla
 :
@@ -270,7 +271,13 @@ aFromParser
 :
 nsGenericHTMLElement
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 nsBrowserElement
 (

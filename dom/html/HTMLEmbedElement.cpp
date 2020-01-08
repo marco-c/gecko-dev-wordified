@@ -260,6 +260,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 FromParser
 aFromParser
@@ -267,7 +268,13 @@ aFromParser
 :
 nsGenericHTMLElement
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 {
 RegisterActivityObserver

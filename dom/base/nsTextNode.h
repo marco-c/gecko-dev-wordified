@@ -232,6 +232,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 )
 :
@@ -243,7 +244,13 @@ dom
 :
 Text
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 {
 Init

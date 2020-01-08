@@ -179,6 +179,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 )
 :
@@ -190,7 +191,13 @@ dom
 :
 Element
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 {
 }

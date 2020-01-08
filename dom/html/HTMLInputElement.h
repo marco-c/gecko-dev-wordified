@@ -803,6 +803,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 mozilla
 :

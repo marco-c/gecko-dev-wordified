@@ -182,6 +182,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 mozilla
 :

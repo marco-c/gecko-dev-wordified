@@ -332,6 +332,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 )
 ;

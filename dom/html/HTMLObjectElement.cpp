@@ -284,6 +284,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 FromParser
 aFromParser
@@ -291,7 +292,13 @@ aFromParser
 :
 nsGenericHTMLFormElement
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 NS_FORM_OBJECT
 )
 mIsDoneAddingChildren

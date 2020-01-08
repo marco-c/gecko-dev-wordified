@@ -304,6 +304,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 )
 ;
@@ -610,6 +611,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 )
 ;
@@ -835,6 +837,7 @@ dom
 :
 NodeInfo
 >
+&
 &
 aNodeInfo
 )
