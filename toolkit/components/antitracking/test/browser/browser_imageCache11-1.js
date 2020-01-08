@@ -30,7 +30,7 @@ true
 let
 blockingByContentBlockingUI
 =
-true
+false
 ;
 let
 blockingByContentBlockingRTUI
@@ -40,7 +40,7 @@ false
 let
 blockingByAllowList
 =
-false
+true
 ;
 let
 expectedBlockingNotifications
