@@ -481,6 +481,11 @@ WrFilterOp
 >
 (
 )
+WebRenderBackgroundData
+*
+aBackground
+=
+nullptr
 )
 ;
 virtual
