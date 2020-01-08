@@ -2239,6 +2239,10 @@ default
 :
 MOZ_ASSERT_UNREACHABLE
 (
+"
+Unexpected
+AssertedScopeKind
+"
 )
 ;
 break
