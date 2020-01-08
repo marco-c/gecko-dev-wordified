@@ -233,7 +233,7 @@ i
 <
 aMenu
 .
-childNodes
+children
 .
 length
 ;
@@ -247,7 +247,7 @@ item
 =
 aMenu
 .
-childNodes
+children
 [
 i
 ]
