@@ -1764,6 +1764,7 @@ Category
 :
 uint32_t
 {
+IDLE
 OTHER
 LAYOUT
 JS
