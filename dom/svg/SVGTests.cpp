@@ -181,7 +181,7 @@ dom
 {
 nsStaticAtom
 *
-*
+const
 SVGTests
 :
 :
@@ -191,17 +191,14 @@ sStringListNames
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 requiredFeatures
-&
 nsGkAtoms
 :
 :
 requiredExtensions
-&
 nsGkAtoms
 :
 :
@@ -383,7 +380,6 @@ if
 aAttribute
 =
 =
-*
 sStringListNames
 [
 i
@@ -1099,7 +1095,6 @@ if
 aAttribute
 =
 =
-*
 sStringListNames
 [
 i
@@ -1186,7 +1181,6 @@ if
 aAttribute
 =
 =
-*
 sStringListNames
 [
 i
@@ -1211,7 +1205,7 @@ return
 }
 }
 }
-nsAtom
+nsStaticAtom
 *
 SVGTests
 :
@@ -1224,7 +1218,6 @@ aAttrEnum
 const
 {
 return
-*
 sStringListNames
 [
 aAttrEnum

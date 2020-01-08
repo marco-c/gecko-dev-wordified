@@ -556,7 +556,7 @@ nsAtom
 aAttribute
 )
 ;
-nsAtom
+nsStaticAtom
 *
 GetAttrName
 (
@@ -677,7 +677,7 @@ mStringListAttributes
 static
 nsStaticAtom
 *
-*
+const
 sStringListNames
 [
 3
