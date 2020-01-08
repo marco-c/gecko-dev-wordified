@@ -180,7 +180,7 @@ connects
 itself
 to
 a
-WebExtensionChildActor
+WebExtensionTargetActor
 counterpart
 which
 is

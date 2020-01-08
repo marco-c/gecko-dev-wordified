@@ -2459,6 +2459,10 @@ d
 \
 .
 webExtension
+(
+Target
+)
+?
 \
 d
 +
@@ -2482,6 +2486,10 @@ d
 \
 /
 webExtension
+(
+Target
+)
+?
 \
 d
 +
@@ -2994,7 +3002,7 @@ actor
 form
 from
 a
-WebExtensionChildActor
+WebExtensionTargetActor
 instance
 )
 .

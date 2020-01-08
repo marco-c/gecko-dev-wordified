@@ -85,7 +85,7 @@ actor
 is
 extended
 by
-WebExtensionChildActor
+WebExtensionTargetActor
 .
 *
 *
