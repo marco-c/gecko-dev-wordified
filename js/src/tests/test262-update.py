@@ -200,14 +200,6 @@ matchAll
 "
     
 "
-Symbol
-.
-prototype
-.
-description
-"
-    
-"
 global
 "
     
