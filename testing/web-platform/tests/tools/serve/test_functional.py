@@ -297,6 +297,11 @@ check_subdomains
 "
 :
 False
+"
+bind_address
+"
+:
+False
 }
 handle
 )
