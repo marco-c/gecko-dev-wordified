@@ -153,7 +153,7 @@ class
 nsIURI
 ;
 class
-nsISSLStatus
+nsITransportSecurityInfo
 ;
 using
 mozilla
@@ -866,9 +866,9 @@ const
 nsCString
 &
 aHeader
-nsISSLStatus
+nsITransportSecurityInfo
 *
-aSSLStatus
+aSecInfo
 uint32_t
 aFlags
 SecurityPropertySource
@@ -927,9 +927,9 @@ const
 nsCString
 &
 aHeader
-nsISSLStatus
+nsITransportSecurityInfo
 *
-aSSLStatus
+aSecInfo
 uint32_t
 flags
 const

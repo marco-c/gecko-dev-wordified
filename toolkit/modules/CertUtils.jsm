@@ -1083,7 +1083,7 @@ return
 ;
 }
 let
-sslStatus
+secInfo
 =
 aChannel
 .
@@ -1095,13 +1095,11 @@ Ci
 .
 nsITransportSecurityInfo
 )
-.
-SSLStatus
 ;
 let
 cert
 =
-sslStatus
+secInfo
 .
 serverCert
 ;
@@ -1132,7 +1130,7 @@ for
 (
 issuerCert
 of
-sslStatus
+secInfo
 .
 succeededCertChain
 .

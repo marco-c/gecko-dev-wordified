@@ -21381,9 +21381,6 @@ SECURITY_UI
 let
 securityInfo
 ;
-let
-sslStatus
-;
 switch
 (
 elementId
@@ -21418,12 +21415,6 @@ getSecurityInfo
 securityInfoAsString
 )
 ;
-sslStatus
-=
-securityInfo
-.
-SSLStatus
-;
 let
 params
 =
@@ -21431,7 +21422,7 @@ params
 exceptionAdded
 :
 false
-sslStatus
+securityInfo
 }
 ;
 if
@@ -21487,7 +21478,7 @@ flags
 ;
 if
 (
-sslStatus
+securityInfo
 .
 isUntrusted
 )
@@ -21502,7 +21493,7 @@ ERROR_UNTRUSTED
 }
 if
 (
-sslStatus
+securityInfo
 .
 isDomainMismatch
 )
@@ -21517,7 +21508,7 @@ ERROR_MISMATCH
 }
 if
 (
-sslStatus
+securityInfo
 .
 isNotValidAtThisTime
 )
@@ -21546,7 +21537,7 @@ location
 let
 cert
 =
-sslStatus
+securityInfo
 .
 serverCert
 ;
@@ -21779,12 +21770,6 @@ getSecurityInfo
 securityInfoAsString
 )
 ;
-sslStatus
-=
-securityInfo
-.
-SSLStatus
-;
 let
 errorInfo
 =
@@ -21800,7 +21785,7 @@ validityInfo
 {
 notAfter
 :
-sslStatus
+securityInfo
 .
 serverCert
 .
@@ -21809,7 +21794,7 @@ validity
 notAfter
 notBefore
 :
-sslStatus
+securityInfo
 .
 serverCert
 .
@@ -21818,7 +21803,7 @@ validity
 notBefore
 notAfterLocalTime
 :
-sslStatus
+securityInfo
 .
 serverCert
 .
@@ -21827,7 +21812,7 @@ validity
 notAfterLocalTime
 notBeforeLocalTime
 :
-sslStatus
+securityInfo
 .
 serverCert
 .
@@ -21861,12 +21846,12 @@ securityInfo
 errorCodeString
 certIsUntrusted
 :
-sslStatus
+securityInfo
 .
 isUntrusted
 certSubjectAltNames
 :
-sslStatus
+securityInfo
 .
 serverCert
 .
@@ -21879,12 +21864,12 @@ url
 location
 isDomainMismatch
 :
-sslStatus
+securityInfo
 .
 isDomainMismatch
 isNotValidAtThisTime
 :
-sslStatus
+securityInfo
 .
 isNotValidAtThisTime
 frameId
