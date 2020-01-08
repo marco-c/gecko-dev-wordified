@@ -8545,6 +8545,13 @@ module
 .
 join
 (
+d
+.
+full_path
+                                                                
+for
+d
+in
 deps
 )
 )

@@ -10999,16 +10999,7 @@ yield
 XPIDLFile
 (
 context
-mozpath
-.
-join
-(
-context
-.
-srcdir
 idl
-)
-                
 xpidl_module
 )
     
