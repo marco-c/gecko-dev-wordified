@@ -1186,7 +1186,7 @@ file
 s
 line
 %
-zu
+u
 offset
 %
 zu

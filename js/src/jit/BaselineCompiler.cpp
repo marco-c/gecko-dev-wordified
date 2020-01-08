@@ -632,7 +632,7 @@ script
 s
 :
 %
-zu
+u
 (
 %
 p
@@ -667,7 +667,7 @@ script
 s
 :
 %
-zu
+u
 "
 script
 -
@@ -1482,7 +1482,7 @@ for
 s
 :
 %
-zu
+u
 "
 (
 void
@@ -1912,7 +1912,7 @@ script
 s
 :
 %
-zu
+u
 (
 %
 p

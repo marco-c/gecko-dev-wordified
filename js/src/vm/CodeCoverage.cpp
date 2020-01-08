@@ -1063,7 +1063,7 @@ printf
 FN
 :
 %
-zu
+u
 "
 script
 -

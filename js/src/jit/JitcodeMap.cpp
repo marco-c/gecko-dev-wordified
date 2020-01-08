@@ -2105,7 +2105,7 @@ SprintfLiteral
 linenoStr
 "
 %
-zu
+u
 "
 script
 -
@@ -10229,7 +10229,7 @@ for
 s
 :
 %
-zu
+u
 (
 %
 zu
@@ -10308,7 +10308,7 @@ d
 s
 :
 %
-zu
+u
 "
 int
 (

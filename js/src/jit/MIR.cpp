@@ -7417,7 +7417,7 @@ printf
 s
 :
 %
-zu
+u
 )
 "
 script
