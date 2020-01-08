@@ -254,6 +254,13 @@ storageLocalSetIDB
 "
 WEBEXT_STORAGE_LOCAL_IDB_SET_MS
 "
+"
+userScriptInjection
+"
+:
+"
+WEBEXT_USER_SCRIPT_INJECTION_MS
+"
 }
 ;
 /
