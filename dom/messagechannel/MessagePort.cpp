@@ -3947,6 +3947,14 @@ We
 cannot
 proceed
 .
+mState
+=
+eStateDisentangled
+;
+UpdateMustKeepAlive
+(
+)
+;
 return
 ;
 }
