@@ -202,6 +202,9 @@ class
 ContentProcessMessageManager
 ;
 class
+InProcessTabChildMessageManager
+;
+class
 TabChildGlobal
 ;
 }
@@ -216,9 +219,6 @@ namespace
 mozilla
 class
 SandboxPrivate
-;
-class
-nsInProcessTabChildGlobal
 ;
 class
 nsWindowRoot

@@ -1113,13 +1113,6 @@ h
 #
 include
 "
-nsInProcessTabChildGlobal
-.
-h
-"
-#
-include
-"
 nsIAddonPolicyService
 .
 h
@@ -1774,6 +1767,13 @@ nsXPConnect
 include
 "
 HTMLSplitOnSpacesTokenizer
+.
+h
+"
+#
+include
+"
+InProcessTabChildMessageManager
 .
 h
 "
@@ -62469,7 +62469,7 @@ manager
 frameLoader
 -
 >
-GetTabChildGlobal
+GetTabChildMessageManager
 (
 )
 ;

@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 .
 h
 "
@@ -259,7 +259,7 @@ dom
 ipc
 ;
 bool
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 DoSendBlockingMessage
@@ -408,7 +408,7 @@ JSObject
 *
 >
 aCpows
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 *
 aTabChild
 )
@@ -463,14 +463,14 @@ NS_OK
 }
 RefPtr
 <
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 >
 mTabChild
 ;
 }
 ;
 nsresult
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 DoSendAsyncMessage
@@ -579,10 +579,10 @@ return
 NS_OK
 ;
 }
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 (
 nsIDocShell
 *
@@ -689,11 +689,11 @@ false
 ;
 }
 }
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 ~
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 (
 )
 {
@@ -743,7 +743,7 @@ to
 return
 .
 void
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 MarkForCC
@@ -763,7 +763,7 @@ MarkForCC
 ;
 }
 bool
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 Init
@@ -870,11 +870,11 @@ id
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 DOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
@@ -896,7 +896,7 @@ cb
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 DOMEventTargetHelper
 )
 tmp
@@ -914,7 +914,7 @@ aClosure
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 DOMEventTargetHelper
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
@@ -945,7 +945,7 @@ UnlinkHostObjectURIs
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -973,16 +973,16 @@ DOMEventTargetHelper
 )
 NS_IMPL_ADDREF_INHERITED
 (
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 DOMEventTargetHelper
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 DOMEventTargetHelper
 )
 bool
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 WrapGlobalObject
@@ -1068,7 +1068,7 @@ ok
 ;
 }
 void
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 CacheFrameLoader
@@ -1087,7 +1087,7 @@ already_AddRefed
 <
 nsPIDOMWindowOuter
 >
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 GetContent
@@ -1130,7 +1130,7 @@ already_AddRefed
 <
 nsIEventTarget
 >
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 GetTabEventTarget
@@ -1156,7 +1156,7 @@ forget
 ;
 }
 uint64_t
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 ChromeOuterWindowID
@@ -1250,7 +1250,7 @@ WindowID
 ;
 }
 void
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 FireUnloadEvent
@@ -1356,7 +1356,7 @@ false
 ;
 }
 void
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 DisconnectEventListeners
@@ -1418,7 +1418,7 @@ nullptr
 ;
 }
 void
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 Disconnect
@@ -1467,7 +1467,7 @@ NS_IMETHODIMP_
 nsIContent
 *
 )
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 GetOwnerContent
@@ -1479,7 +1479,7 @@ mOwner
 ;
 }
 void
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 GetEventTargetParent
@@ -1546,7 +1546,7 @@ this
 fl
 -
 >
-GetTabChildGlobal
+GetTabChildMessageManager
 (
 )
 "
@@ -1716,7 +1716,7 @@ public
 :
 nsAsyncScriptLoad
 (
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 *
 aTabChild
 const
@@ -1771,7 +1771,7 @@ NS_OK
 }
 RefPtr
 <
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 >
 mTabChild
 ;
@@ -1784,7 +1784,7 @@ mRunInGlobalScope
 }
 ;
 void
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 LoadFrameScript
@@ -1874,7 +1874,7 @@ already_AddRefed
 <
 nsFrameLoader
 >
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 GetFrameLoader
