@@ -532,6 +532,14 @@ unbind
 (
 )
 {
+if
+(
+mChild
+!
+=
+null
+)
+{
 final
 Context
 context
@@ -549,6 +557,7 @@ unbindService
 this
 )
 ;
+}
 final
 int
 pid
