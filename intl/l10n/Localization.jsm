@@ -1799,6 +1799,14 @@ l10n
 pseudo
 "
 :
+L10nRegistry
+.
+ctxCache
+.
+clear
+(
+)
+;
 this
 .
 onChange
