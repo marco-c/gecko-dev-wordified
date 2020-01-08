@@ -21042,6 +21042,11 @@ GetSameTypeParentDocument
 (
 )
 ;
+void
+MaybeAllowStorageForOpener
+(
+)
+;
 /
 /
 Helpers
