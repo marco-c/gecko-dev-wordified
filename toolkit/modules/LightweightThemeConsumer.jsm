@@ -1377,8 +1377,6 @@ this
 .
 _active
 =
-!
-!
 aData
 &
 &
