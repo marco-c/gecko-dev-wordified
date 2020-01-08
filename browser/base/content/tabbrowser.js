@@ -5438,6 +5438,7 @@ newBrowser
 .
 currentURI
 0
+true
 ]
 true
 false

@@ -4652,8 +4652,13 @@ await
 loadPromise
 ;
 await
-removeTabAndWaitForNotificationClose
+BrowserTestUtils
+.
+removeTab
 (
+gBrowser
+.
+selectedTab
 )
 ;
 }
