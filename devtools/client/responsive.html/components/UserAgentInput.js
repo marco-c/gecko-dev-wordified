@@ -471,6 +471,13 @@ agent
 -
 input
 "
+class
+:
+"
+text
+-
+input
+"
 onChange
 :
 this
