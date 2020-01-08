@@ -1951,8 +1951,6 @@ path_replace
 (
 "
 .
-https
-.
 any
 .
 serviceworker
@@ -2874,8 +2872,6 @@ GET
 "
 "
 *
-.
-https
 .
 any
 .

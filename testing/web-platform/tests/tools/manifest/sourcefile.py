@@ -827,27 +827,6 @@ utf
 )
 )
         
-if
-variant
-.
-get
-(
-"
-force_https
-"
-False
-)
-:
-            
-suffix
-=
-"
-.
-https
-"
-+
-suffix
-        
 rv
 .
 add
@@ -4892,6 +4871,7 @@ timeout
 self
 .
 timeout
+                                
 jsshell
 =
 jsshell
