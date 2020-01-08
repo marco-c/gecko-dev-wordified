@@ -492,12 +492,22 @@ DEPRECATED_VARIABLES
     
 b
 '
+ALLOW_COMPILER_WARNINGS
+'
+    
+b
+'
 EXPORT_LIBRARY
 '
     
 b
 '
 EXTRA_LIBS
+'
+    
+b
+'
+FAIL_ON_WARNINGS
 '
     
 b
