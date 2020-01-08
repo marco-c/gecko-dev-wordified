@@ -1962,10 +1962,6 @@ left
 .
 ruleview
 -
-rule
-.
-ruleview
--
 expander
 .
 theme
@@ -1975,6 +1971,13 @@ twisty
 dir
 (
 rtl
+)
+:
+not
+(
+[
+open
+]
 )
 {
 /
@@ -1998,7 +2001,11 @@ Bug
 /
 transform
 :
-none
+rotate
+(
+-
+90deg
+)
 ;
 }
 .
