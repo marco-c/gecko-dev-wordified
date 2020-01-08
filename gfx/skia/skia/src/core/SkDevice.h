@@ -1927,6 +1927,13 @@ snapSpecial
 (
 )
 ;
+virtual
+void
+setImmutable
+(
+)
+{
+}
 bool
 readPixels
 (
