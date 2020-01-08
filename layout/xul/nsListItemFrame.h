@@ -130,10 +130,6 @@ nsGridRowLeafFrame
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsIFrame
 *
 NS_NewListItemFrame
@@ -141,6 +137,9 @@ NS_NewListItemFrame
 nsIPresShell
 *
 aPresShell
+mozilla
+:
+:
 ComputedStyle
 *
 aStyle

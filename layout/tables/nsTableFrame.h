@@ -226,10 +226,6 @@ StackingContextHelper
 /
 namespace
 mozilla
-using
-namespace
-mozilla
-;
 struct
 BCPropertyData
 ;

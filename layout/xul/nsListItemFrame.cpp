@@ -168,6 +168,10 @@ nsIContent
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsListItemFrame
 :
 :
