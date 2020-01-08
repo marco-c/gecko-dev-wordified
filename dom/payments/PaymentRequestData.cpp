@@ -3072,6 +3072,10 @@ mShippingOption
 (
 aShippingOption
 )
+mState
+(
+eCreated
+)
 {
 }
 NS_IMETHODIMP
