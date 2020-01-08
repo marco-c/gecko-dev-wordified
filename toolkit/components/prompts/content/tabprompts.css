@@ -96,6 +96,8 @@ vertical
 ;
 }
 .
+tabmodalprompt
+-
 mainContainer
 {
 min
@@ -186,6 +188,7 @@ bidi
 plaintext
 ;
 }
+tabmodalprompt
 label
 [
 value
