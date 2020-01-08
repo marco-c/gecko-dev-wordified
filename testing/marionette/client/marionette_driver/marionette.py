@@ -5682,7 +5682,7 @@ NewSession
 raise
 errors
 .
-MarionetteException
+InvalidSessionIdException
 (
 "
 Please
@@ -9877,6 +9877,9 @@ if
 send_request
 :
                 
+try
+:
+                    
 self
 .
 _send_message
@@ -9887,6 +9890,14 @@ WebDriver
 DeleteSession
 "
 )
+                
+except
+errors
+.
+InvalidSessionIdException
+:
+                    
+pass
         
 finally
 :
