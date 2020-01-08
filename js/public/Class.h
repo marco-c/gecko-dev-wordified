@@ -1424,6 +1424,14 @@ failNoIndexedSetter
 (
 )
 ;
+JS_PUBLIC_API
+(
+bool
+)
+failNotDataDescriptor
+(
+)
+;
 uint32_t
 failureCode
 (
