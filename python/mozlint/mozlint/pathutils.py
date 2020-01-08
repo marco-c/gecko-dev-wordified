@@ -1472,6 +1472,26 @@ add
 (
 path
 )
+                    
+discard
+.
+update
+(
+[
+e
+for
+e
+in
+excs
+if
+path
+.
+contains
+(
+e
+)
+]
+)
         
 #
 Next
