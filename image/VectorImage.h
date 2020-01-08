@@ -457,11 +457,7 @@ aFlags
 )
 override
 ;
-Tuple
-<
-ImgDrawResult
 IntSize
->
 GetImageContainerSize
 (
 layers

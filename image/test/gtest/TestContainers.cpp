@@ -503,7 +503,7 @@ layers
 ImageContainer
 >
 upscaleContainer
-;
+=
 image
 -
 >
@@ -523,10 +523,6 @@ imgIContainer
 :
 :
 FLAG_HIGH_QUALITY_SCALING
-getter_AddRefs
-(
-upscaleContainer
-)
 )
 ;
 ASSERT_TRUE
@@ -607,7 +603,7 @@ layers
 ImageContainer
 >
 downscaleContainer
-;
+=
 image
 -
 >
@@ -627,10 +623,6 @@ imgIContainer
 :
 :
 FLAG_HIGH_QUALITY_SCALING
-getter_AddRefs
-(
-downscaleContainer
-)
 )
 ;
 containerSize
@@ -683,7 +675,7 @@ layers
 ImageContainer
 >
 againContainer
-;
+=
 image
 -
 >
@@ -700,10 +692,6 @@ imgIContainer
 :
 :
 FLAG_SYNC_DECODE
-getter_AddRefs
-(
-againContainer
-)
 )
 ;
 ASSERT_EQ
