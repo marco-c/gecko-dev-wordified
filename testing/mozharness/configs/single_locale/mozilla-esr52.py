@@ -142,12 +142,6 @@ purge
 options
     
 '
-purge_minsize
-'
-:
-12
-    
-'
 is_automation
 '
 :
