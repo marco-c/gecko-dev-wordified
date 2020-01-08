@@ -1212,13 +1212,7 @@ nullptr
 )
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 ManualNACPtr

@@ -580,13 +580,7 @@ principalInfo
 )
 ;
 return
-std
-:
-:
-move
-(
 ref
-)
 ;
 }
 const

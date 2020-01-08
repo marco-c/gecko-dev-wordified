@@ -3733,15 +3733,9 @@ file
 )
 ;
 return
-std
-:
-:
-move
-(
 FileLocation
 (
 file
-)
 )
 ;
 }
@@ -3756,11 +3750,6 @@ Archive
 )
 ;
 return
-std
-:
-:
-move
-(
 FileLocation
 (
 zip
@@ -3768,7 +3757,6 @@ mPath
 .
 get
 (
-)
 )
 )
 ;

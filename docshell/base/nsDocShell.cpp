@@ -15482,13 +15482,7 @@ Info
 )
 ;
 return
-std
-:
-:
-move
-(
 result
-)
 ;
 }
 nsGlobalWindowInner
@@ -82787,11 +82781,6 @@ timelines
 AddMarkerForDocShell
 (
 this
-std
-:
-:
-move
-(
 mozilla
 :
 :
@@ -82810,7 +82799,6 @@ MarkerTracingType
 START
 aAsyncStack
 aAsyncCause
-)
 )
 )
 ;

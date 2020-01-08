@@ -794,13 +794,7 @@ nullptr
 ;
 }
 return
-std
-:
-:
-move
-(
 mozFB
-)
 ;
 }
 /

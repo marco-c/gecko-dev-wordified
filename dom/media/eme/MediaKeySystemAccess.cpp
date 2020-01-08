@@ -5014,13 +5014,7 @@ together
 .
 }
 return
-std
-:
-:
-move
-(
 supportedCapabilities
-)
 ;
 }
 /

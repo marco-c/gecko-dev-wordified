@@ -1416,13 +1416,7 @@ newContent
 )
 ;
 return
-std
-:
-:
-move
-(
 newContent
-)
 ;
 }
 /

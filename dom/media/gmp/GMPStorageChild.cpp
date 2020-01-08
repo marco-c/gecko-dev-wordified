@@ -244,13 +244,7 @@ aDataSize
 )
 ;
 return
-std
-:
-:
-move
-(
 data
-)
 ;
 }
 namespace
