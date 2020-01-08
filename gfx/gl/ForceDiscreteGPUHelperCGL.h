@@ -155,6 +155,11 @@ public
 ForceDiscreteGPUHelperCGL
 (
 )
+:
+mPixelFormatObj
+(
+nullptr
+)
 {
 /
 /
