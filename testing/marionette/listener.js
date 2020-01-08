@@ -5408,6 +5408,14 @@ clear
 (
 )
 ;
+event
+.
+DoubleClickTracker
+.
+resetClick
+(
+)
+;
 }
 /
 *
