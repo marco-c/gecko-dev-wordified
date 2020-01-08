@@ -29,11 +29,6 @@ valgrind
 -
 test
 '
-        
-#
-'
-update
-'
     
 ]
     

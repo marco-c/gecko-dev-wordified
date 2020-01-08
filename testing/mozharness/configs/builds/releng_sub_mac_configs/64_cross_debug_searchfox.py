@@ -17,16 +17,6 @@ clobber
 '
 build
 '
-        
-'
-update
-'
-#
-decided
-by
-query_is_nightly
-(
-)
     
 ]
     

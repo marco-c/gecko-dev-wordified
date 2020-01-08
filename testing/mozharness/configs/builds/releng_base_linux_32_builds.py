@@ -172,16 +172,6 @@ check
 -
 test
 '
-        
-'
-update
-'
-#
-decided
-by
-query_is_nightly
-(
-)
     
 ]
     

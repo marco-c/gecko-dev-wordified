@@ -113,16 +113,6 @@ default_actions
 '
 build
 '
-        
-'
-update
-'
-#
-decided
-by
-query_is_nightly
-(
-)
     
 ]
     

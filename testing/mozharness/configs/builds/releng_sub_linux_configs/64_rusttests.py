@@ -23,11 +23,6 @@ check
 -
 test
 '
-        
-#
-'
-update
-'
     
 ]
     

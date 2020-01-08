@@ -118,16 +118,6 @@ multi
 -
 l10n
 '
-        
-'
-update
-'
-#
-decided
-by
-query_is_nightly
-(
-)
     
 ]
     
