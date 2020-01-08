@@ -25572,7 +25572,7 @@ failed
 }
 )
 .
-finally
+then
 (
 function
 (
