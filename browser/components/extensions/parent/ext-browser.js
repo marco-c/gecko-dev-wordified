@@ -286,7 +286,7 @@ instanceOf
 (
 target
 "
-XULElement
+XULFrameElement
 "
 )
 |

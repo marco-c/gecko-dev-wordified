@@ -883,7 +883,7 @@ node
 =
 =
 "
-XULElement
+XULFrameElement
 "
 &
 &

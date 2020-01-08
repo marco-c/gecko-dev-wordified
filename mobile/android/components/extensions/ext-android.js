@@ -125,7 +125,7 @@ target
 =
 =
 "
-XULElement
+XULFrameElement
 "
 )
 {
