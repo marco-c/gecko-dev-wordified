@@ -1094,12 +1094,15 @@ GetRemoteType
 const
 ;
 virtual
-nsresult
+void
 DoGetRemoteType
 (
 nsAString
 &
 aRemoteType
+ErrorResult
+&
+aError
 )
 const
 override
@@ -1109,9 +1112,6 @@ aRemoteType
 GetRemoteType
 (
 )
-;
-return
-NS_OK
 ;
 }
 enum
