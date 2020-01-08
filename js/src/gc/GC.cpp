@@ -43743,9 +43743,11 @@ shouldCompact
 (
 )
 ;
+MOZ_ASSERT
+(
+!
 lastMarkSlice
-=
-false
+)
 ;
 rootsRemoved
 =
@@ -44096,6 +44098,10 @@ State
 :
 :
 Sweep
+;
+lastMarkSlice
+=
+false
 ;
 beginSweepPhase
 (
