@@ -6511,9 +6511,9 @@ httpChannel
 httpChannel
 -
 >
-OverrideTrackingResource
+OverrideTrackingFlagsForDocumentCookieAccessor
 (
-isTracking
+docHTTPChannel
 )
 ;
 }

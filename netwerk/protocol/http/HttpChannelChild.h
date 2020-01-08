@@ -1517,6 +1517,8 @@ ProcessNotifyTrackingProtectionDisabled
 void
 ProcessNotifyTrackingResource
 (
+bool
+aIsThirdParty
 )
 ;
 void

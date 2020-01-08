@@ -11310,6 +11310,8 @@ HttpChannelParent
 :
 NotifyTrackingResource
 (
+bool
+aIsThirdParty
 )
 {
 LOG
@@ -11320,6 +11322,10 @@ HttpChannelParent
 :
 :
 NotifyTrackingResource
+thirdparty
+=
+%
+d
 [
 this
 =
@@ -11329,6 +11335,13 @@ p
 \
 n
 "
+static_cast
+<
+int
+>
+(
+aIsThirdParty
+)
 this
 )
 )
@@ -11352,6 +11365,7 @@ mBgParent
 >
 OnNotifyTrackingResource
 (
+aIsThirdParty
 )
 ;
 }

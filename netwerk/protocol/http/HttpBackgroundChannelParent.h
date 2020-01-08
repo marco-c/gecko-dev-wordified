@@ -422,6 +422,8 @@ channel
 bool
 OnNotifyTrackingResource
 (
+bool
+aIsThirdParty
 )
 ;
 /

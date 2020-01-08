@@ -3787,6 +3787,8 @@ FTPChannelParent
 :
 NotifyTrackingResource
 (
+bool
+aIsThirdParty
 )
 {
 /

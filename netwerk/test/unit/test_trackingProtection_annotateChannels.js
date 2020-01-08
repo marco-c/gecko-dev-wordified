@@ -1888,10 +1888,10 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_NORMAL
+PRIORITY_LOWEST
 expectedThrottleable
 :
-false
+true
 }
 {
 path
@@ -1923,10 +1923,10 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_NORMAL
+PRIORITY_LOWEST
 expectedThrottleable
 :
-false
+true
 }
 ]
 ;

@@ -236,6 +236,8 @@ DataChannelParent
 :
 NotifyTrackingResource
 (
+bool
+aIsThirdParty
 )
 {
 /
