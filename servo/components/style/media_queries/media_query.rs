@@ -144,7 +144,7 @@ use
 super
 :
 :
-Expression
+MediaFeatureExpression
 ;
 use
 values
@@ -603,6 +603,7 @@ MediaQueryType
 The
 set
 of
+range
 expressions
 that
 this
@@ -615,7 +616,7 @@ expressions
 :
 Vec
 <
-Expression
+MediaFeatureExpression
 >
 }
 impl
@@ -1184,7 +1185,7 @@ expressions
 .
 push
 (
-Expression
+MediaFeatureExpression
 :
 :
 parse
@@ -1248,7 +1249,7 @@ expressions
 .
 push
 (
-Expression
+MediaFeatureExpression
 :
 :
 parse
