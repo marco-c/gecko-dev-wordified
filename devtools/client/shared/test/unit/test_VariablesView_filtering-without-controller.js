@@ -181,6 +181,12 @@ DOMParser
 (
 )
 ;
+DOMParser
+.
+forceEnableXULXBL
+(
+)
+;
 function
 run_test
 (
