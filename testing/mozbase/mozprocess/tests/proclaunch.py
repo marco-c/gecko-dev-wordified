@@ -16,6 +16,17 @@ import
 argparse
 import
 collections
+try
+:
+    
+import
+configparser
+as
+ConfigParser
+except
+ImportError
+:
+    
 import
 ConfigParser
 import
