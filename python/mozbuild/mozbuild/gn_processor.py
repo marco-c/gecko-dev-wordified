@@ -3983,7 +3983,10 @@ cond
 for
 cond
 in
+sorted
+(
 conditions
+)
 :
                 
 common_dirs
