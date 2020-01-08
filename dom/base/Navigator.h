@@ -914,6 +914,8 @@ aPersistent
 uint32_t
 MaxTouchPoints
 (
+CallerType
+aCallerType
 )
 ;
 void
