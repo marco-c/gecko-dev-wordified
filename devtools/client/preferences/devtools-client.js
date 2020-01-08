@@ -856,7 +856,7 @@ gridinspector
 .
 maxHighlighters
 "
-1
+3
 )
 ;
 /
