@@ -833,11 +833,11 @@ GetLocalVisibleRegion
 (
 )
 .
-ToUnknownRegion
+GetBounds
 (
 )
 .
-GetBounds
+ToUnknownRect
 (
 )
 +
