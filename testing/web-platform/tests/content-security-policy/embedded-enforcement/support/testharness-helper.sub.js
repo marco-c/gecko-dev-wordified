@@ -992,6 +992,10 @@ window
 .
 onmessage
 =
+t
+.
+step_func
+(
 function
 (
 e
@@ -1010,8 +1014,6 @@ contentWindow
 )
 return
 ;
-t
-.
 assert_unreached
 (
 '
@@ -1028,6 +1030,8 @@ frame
 )
 ;
 }
+)
+;
 i
 .
 onload
