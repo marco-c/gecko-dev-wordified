@@ -4880,6 +4880,7 @@ isTenured
 (
 )
 )
+{
 obj
 -
 >
@@ -4898,6 +4899,7 @@ asTenured
 )
 )
 ;
+}
 }
 /
 *
@@ -4928,6 +4930,7 @@ isTenured
 (
 )
 )
+{
 obj
 -
 >
@@ -4946,6 +4949,7 @@ asTenured
 )
 )
 ;
+}
 }
 /
 *
@@ -5079,8 +5083,10 @@ storeBuffer
 (
 )
 )
+{
 return
 ;
+}
 buffer
 -
 >
@@ -5155,6 +5161,7 @@ storeBuffer
 )
 )
 )
+{
 buffer
 -
 >
@@ -5177,6 +5184,7 @@ cellp
 )
 )
 ;
+}
 }
 namespace
 js
@@ -7459,9 +7467,11 @@ isPrimitive
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 ToPrimitiveSlow
 (
@@ -7492,9 +7502,11 @@ isPrimitive
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 ToPrimitiveSlow
 (
@@ -7722,12 +7734,14 @@ newKind
 =
 GenericObject
 )
+{
 return
 gc
 :
 :
 TenuredHeap
 ;
+}
 if
 (
 clasp
@@ -7744,12 +7758,14 @@ CanNurseryAllocateFinalizedClass
 clasp
 )
 )
+{
 return
 gc
 :
 :
 TenuredHeap
 ;
+}
 return
 gc
 :
@@ -8844,6 +8860,7 @@ isObject
 (
 )
 )
+{
 return
 &
 vp
@@ -8852,6 +8869,7 @@ toObject
 (
 )
 ;
+}
 return
 js
 :
@@ -8940,6 +8958,7 @@ isObject
 (
 )
 )
+{
 return
 &
 vp
@@ -8948,6 +8967,7 @@ toObject
 (
 )
 ;
+}
 return
 js
 :
@@ -8983,6 +9003,7 @@ isObject
 (
 )
 )
+{
 return
 &
 vp
@@ -8991,6 +9012,7 @@ toObject
 (
 )
 ;
+}
 return
 js
 :
@@ -9026,6 +9048,7 @@ isObject
 (
 )
 )
+{
 return
 &
 vp
@@ -9034,6 +9057,7 @@ toObject
 (
 )
 ;
+}
 return
 js
 :
@@ -9125,6 +9149,7 @@ isObject
 (
 )
 )
+{
 return
 &
 v
@@ -9133,6 +9158,7 @@ toObject
 (
 )
 ;
+}
 ReportNotObject
 (
 cx
@@ -9222,6 +9248,7 @@ isObject
 (
 )
 )
+{
 return
 &
 v
@@ -9230,6 +9257,7 @@ toObject
 (
 )
 ;
+}
 ReportNotObjectArg
 (
 cx
@@ -9308,6 +9336,7 @@ isObject
 (
 )
 )
+{
 return
 &
 v
@@ -9316,6 +9345,7 @@ toObject
 (
 )
 ;
+}
 ReportNotObjectWithName
 (
 cx
@@ -9612,9 +9642,11 @@ isObject
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 v
 .

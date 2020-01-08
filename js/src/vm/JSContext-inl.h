@@ -473,6 +473,7 @@ realm
 (
 )
 )
+{
 fail
 (
 realm
@@ -482,6 +483,7 @@ r
 argIndex
 )
 ;
+}
 }
 void
 check
@@ -508,6 +510,7 @@ compartment
 (
 )
 )
+{
 fail
 (
 compartment
@@ -517,6 +520,7 @@ c
 argIndex
 )
 ;
+}
 }
 void
 check
@@ -545,6 +549,7 @@ zone
 (
 )
 )
+{
 fail
 (
 zone
@@ -554,6 +559,7 @@ z
 argIndex
 )
 ;
+}
 }
 void
 check
@@ -788,6 +794,7 @@ isAtom
 (
 )
 )
+{
 checkAtom
 (
 &
@@ -800,7 +807,9 @@ asAtom
 argIndex
 )
 ;
+}
 else
+{
 check
 (
 str
@@ -812,6 +821,7 @@ zone
 argIndex
 )
 ;
+}
 }
 void
 check
@@ -855,6 +865,7 @@ isObject
 (
 )
 )
+{
 check
 (
 &
@@ -866,6 +877,7 @@ toObject
 argIndex
 )
 ;
+}
 else
 if
 (
@@ -875,6 +887,7 @@ isString
 (
 )
 )
+{
 check
 (
 v
@@ -885,6 +898,7 @@ toString
 argIndex
 )
 ;
+}
 else
 if
 (
@@ -894,6 +908,7 @@ isSymbol
 (
 )
 )
+{
 check
 (
 v
@@ -904,6 +919,7 @@ toSymbol
 argIndex
 )
 ;
+}
 }
 /
 /
@@ -1001,12 +1017,14 @@ i
 :
 container
 )
+{
 check
 (
 i
 argIndex
 )
 ;
+}
 }
 void
 check
@@ -1041,6 +1059,7 @@ i
 +
 +
 )
+{
 check
 (
 arr
@@ -1050,6 +1069,7 @@ i
 argIndex
 )
 ;
+}
 }
 void
 check
@@ -1087,6 +1107,7 @@ end
 +
 p
 )
+{
 check
 (
 *
@@ -1094,6 +1115,7 @@ p
 argIndex
 )
 ;
+}
 }
 void
 check
@@ -1111,6 +1133,7 @@ JSID_IS_ATOM
 id
 )
 )
+{
 checkAtom
 (
 JSID_TO_ATOM
@@ -1120,6 +1143,7 @@ id
 argIndex
 )
 ;
+}
 else
 if
 (
@@ -1128,6 +1152,7 @@ JSID_IS_SYMBOL
 id
 )
 )
+{
 checkAtom
 (
 JSID_TO_SYMBOL
@@ -1137,7 +1162,9 @@ id
 argIndex
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 !
@@ -1147,6 +1174,7 @@ id
 )
 )
 ;
+}
 }
 void
 check
@@ -1173,6 +1201,7 @@ if
 (
 script
 )
+{
 check
 (
 script
@@ -1184,6 +1213,7 @@ realm
 argIndex
 )
 ;
+}
 }
 void
 check
@@ -1224,6 +1254,7 @@ hasGetterObject
 (
 )
 )
+{
 check
 (
 desc
@@ -1234,6 +1265,7 @@ getterObject
 argIndex
 )
 ;
+}
 if
 (
 desc
@@ -1242,6 +1274,7 @@ hasSetterObject
 (
 )
 )
+{
 check
 (
 desc
@@ -1252,6 +1285,7 @@ setterObject
 argIndex
 )
 ;
+}
 check
 (
 desc
@@ -1384,6 +1418,7 @@ contextChecksEnabled
 (
 )
 )
+{
 checkImpl
 (
 0
@@ -1393,6 +1428,7 @@ args
 .
 )
 ;
+}
 #
 endif
 }
@@ -1426,6 +1462,7 @@ contextChecksEnabled
 (
 )
 )
+{
 checkImpl
 (
 0
@@ -1435,6 +1472,7 @@ args
 .
 )
 ;
+}
 }
 template
 <
@@ -1478,6 +1516,7 @@ contextChecksEnabled
 (
 )
 )
+{
 checkImpl
 (
 0
@@ -1487,6 +1526,7 @@ args
 .
 )
 ;
+}
 #
 endif
 }
@@ -1612,9 +1652,11 @@ CheckRecursionLimit
 cx
 )
 )
+{
 return
 false
 ;
+}
 cx
 -
 >
@@ -1640,6 +1682,7 @@ if
 (
 ok
 )
+{
 cx
 -
 >
@@ -1648,6 +1691,7 @@ check
 vp
 )
 ;
+}
 return
 ok
 ;
@@ -1680,9 +1724,11 @@ CheckRecursionLimit
 cx
 )
 )
+{
 return
 false
 ;
+}
 cx
 -
 >
@@ -1729,9 +1775,11 @@ CheckRecursionLimit
 cx
 )
 )
+{
 return
 false
 ;
+}
 cx
 -
 >
@@ -1778,9 +1826,11 @@ CheckRecursionLimit
 cx
 )
 )
+{
 return
 false
 ;
+}
 cx
 -
 >
@@ -1794,6 +1844,7 @@ if
 (
 op
 )
+{
 return
 op
 (
@@ -1803,6 +1854,7 @@ id
 result
 )
 ;
+}
 return
 result
 .
@@ -1871,6 +1923,7 @@ hasAnyPendingInterrupt
 )
 )
 )
+{
 return
 cx
 -
@@ -1879,6 +1932,7 @@ handleInterrupt
 (
 )
 ;
+}
 JS_INTERRUPT_POSSIBLY_FAIL
 (
 )
@@ -2038,8 +2092,10 @@ errorInterception
 .
 isExecuting
 )
+{
 break
 ;
+}
 /
 /
 Check
@@ -2066,8 +2122,10 @@ errorInterception
 .
 interceptor
 )
+{
 break
 ;
+}
 /
 /
 Make
@@ -2368,6 +2426,7 @@ if
 (
 zone_
 )
+{
 zone_
 -
 >
@@ -2376,6 +2435,7 @@ addTenuredAllocsSinceMinorGC
 allocsThisZoneSinceMinorGC_
 )
 ;
+}
 allocsThisZoneSinceMinorGC_
 =
 0
@@ -2680,6 +2740,7 @@ if
 (
 startingRealm
 )
+{
 startingRealm
 -
 >
@@ -2687,6 +2748,7 @@ leave
 (
 )
 ;
+}
 }
 inline
 void
@@ -2887,11 +2949,13 @@ if
 (
 ppc
 )
+{
 *
 ppc
 =
 nullptr
 ;
+}
 js
 :
 :
@@ -2908,9 +2972,11 @@ if
 !
 act
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 act
@@ -2957,9 +3023,11 @@ compartment
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 JSScript
 *
 script
@@ -2991,9 +3059,11 @@ hasWasmExitFP
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 js
 :
 :
@@ -3109,18 +3179,22 @@ realm
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 ppc
 )
+{
 *
 ppc
 =
 pc
 ;
+}
 return
 script
 ;

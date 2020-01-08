@@ -869,6 +869,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 i
 =
 uint32_t
@@ -880,6 +881,7 @@ toInt32
 )
 )
 ;
+}
 MOZ_TRY
 (
 xdr
@@ -899,6 +901,7 @@ mode
 =
 XDR_DECODE
 )
+{
 vp
 .
 set
@@ -912,6 +915,7 @@ i
 )
 )
 ;
+}
 break
 ;
 }
@@ -929,6 +933,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 d
 =
 vp
@@ -937,6 +942,7 @@ toDouble
 (
 )
 ;
+}
 MOZ_TRY
 (
 xdr
@@ -956,6 +962,7 @@ mode
 =
 XDR_DECODE
 )
+{
 vp
 .
 set
@@ -966,6 +973,7 @@ d
 )
 )
 ;
+}
 break
 ;
 }
@@ -986,6 +994,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 atom
 =
 &
@@ -1000,6 +1009,7 @@ asAtom
 (
 )
 ;
+}
 MOZ_TRY
 (
 XDRAtom
@@ -1017,6 +1027,7 @@ mode
 =
 XDR_DECODE
 )
+{
 vp
 .
 set
@@ -1027,6 +1038,7 @@ atom
 )
 )
 ;
+}
 break
 ;
 }
@@ -1040,6 +1052,7 @@ mode
 =
 XDR_DECODE
 )
+{
 vp
 .
 set
@@ -1050,6 +1063,7 @@ true
 )
 )
 ;
+}
 break
 ;
 case
@@ -1062,6 +1076,7 @@ mode
 =
 XDR_DECODE
 )
+{
 vp
 .
 set
@@ -1072,6 +1087,7 @@ false
 )
 )
 ;
+}
 break
 ;
 case
@@ -1084,6 +1100,7 @@ mode
 =
 XDR_DECODE
 )
+{
 vp
 .
 set
@@ -1093,6 +1110,7 @@ NullValue
 )
 )
 ;
+}
 break
 ;
 case
@@ -1112,6 +1130,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 obj
 =
 &
@@ -1121,6 +1140,7 @@ toObject
 (
 )
 ;
+}
 MOZ_TRY
 (
 XDRObjectLiteral
@@ -1138,6 +1158,7 @@ mode
 =
 XDR_DECODE
 )
+{
 vp
 .
 setObject
@@ -1146,6 +1167,7 @@ setObject
 obj
 )
 ;
+}
 break
 ;
 }
@@ -1159,6 +1181,7 @@ mode
 =
 XDR_DECODE
 )
+{
 vp
 .
 set
@@ -1168,6 +1191,7 @@ UndefinedValue
 )
 )
 ;
+}
 break
 ;
 case
@@ -1180,6 +1204,7 @@ mode
 =
 XDR_DECODE
 )
+{
 vp
 .
 setMagic
@@ -1187,6 +1212,7 @@ setMagic
 JS_ELEMENTS_HOLE
 )
 ;
+}
 break
 ;
 default
@@ -1379,11 +1405,14 @@ if
 (
 endOfScopeSentinel
 )
+{
 atom
 =
 nullptr
 ;
+}
 else
+{
 MOZ_TRY
 (
 XDRAtom
@@ -1394,6 +1423,7 @@ atom
 )
 )
 ;
+}
 if
 (
 mode
@@ -1401,6 +1431,7 @@ mode
 =
 XDR_DECODE
 )
+{
 lazy
 -
 >
@@ -1413,6 +1444,7 @@ i
 =
 atom
 ;
+}
 }
 return
 Ok
@@ -1779,6 +1811,7 @@ if
 !
 lazy
 )
+{
 return
 xdr
 -
@@ -1791,6 +1824,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 lazy
 -
 >
@@ -1965,9 +1999,11 @@ i
 &
 scope
 )
+{
 return
 i
 ;
+}
 }
 MOZ_CRASH
 (
@@ -2321,6 +2357,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 length
 =
 script
@@ -2330,6 +2367,7 @@ length
 (
 )
 ;
+}
 MOZ_TRY
 (
 xdr
@@ -2431,6 +2469,7 @@ hasConsts
 (
 )
 )
+{
 nconsts
 =
 script
@@ -2443,6 +2482,7 @@ consts
 >
 length
 ;
+}
 if
 (
 script
@@ -2452,6 +2492,7 @@ hasObjects
 (
 )
 )
+{
 nobjects
 =
 script
@@ -2464,6 +2505,7 @@ objects
 >
 length
 ;
+}
 nscopes
 =
 script
@@ -2485,6 +2527,7 @@ hasTrynotes
 (
 )
 )
+{
 ntrynotes
 =
 script
@@ -2497,6 +2540,7 @@ trynotes
 >
 length
 ;
+}
 if
 (
 script
@@ -2506,6 +2550,7 @@ hasScopeNotes
 (
 )
 )
+{
 nscopenotes
 =
 script
@@ -2518,6 +2563,7 @@ scopeNotes
 >
 length
 ;
+}
 if
 (
 script
@@ -2527,6 +2573,7 @@ hasYieldAndAwaitOffsets
 (
 )
 )
+{
 nyieldoffsets
 =
 script
@@ -2540,6 +2587,7 @@ length
 (
 )
 ;
+}
 nTypeSets
 =
 script
@@ -2567,6 +2615,7 @@ noScriptRval
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2577,6 +2626,7 @@ scriptBits
 NoScriptRval
 )
 ;
+}
 if
 (
 script
@@ -2586,6 +2636,7 @@ strict
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2596,6 +2647,7 @@ scriptBits
 Strict
 )
 ;
+}
 if
 (
 script
@@ -2605,6 +2657,7 @@ explicitUseStrict
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2615,6 +2668,7 @@ scriptBits
 ExplicitUseStrict
 )
 ;
+}
 if
 (
 script
@@ -2624,6 +2678,7 @@ selfHosted
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2634,6 +2689,7 @@ scriptBits
 SelfHosted
 )
 ;
+}
 if
 (
 script
@@ -2643,6 +2699,7 @@ bindingsAccessedDynamically
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2653,6 +2710,7 @@ scriptBits
 ContainsDynamicNameAccess
 )
 ;
+}
 if
 (
 script
@@ -2662,6 +2720,7 @@ funHasExtensibleScope
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2672,6 +2731,7 @@ scriptBits
 FunHasExtensibleScope
 )
 ;
+}
 if
 (
 script
@@ -2681,6 +2741,7 @@ funHasAnyAliasedFormal
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2691,6 +2752,7 @@ scriptBits
 FunHasAnyAliasedFormal
 )
 ;
+}
 if
 (
 script
@@ -2700,6 +2762,7 @@ argumentsHasVarBinding
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2710,6 +2773,7 @@ scriptBits
 ArgumentsHasVarBinding
 )
 ;
+}
 if
 (
 script
@@ -2727,6 +2791,7 @@ needsArgsObj
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2737,6 +2802,7 @@ scriptBits
 NeedsArgsObj
 )
 ;
+}
 if
 (
 script
@@ -2746,6 +2812,7 @@ hasMappedArgsObj
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2756,6 +2823,7 @@ scriptBits
 HasMappedArgsObj
 )
 ;
+}
 if
 (
 script
@@ -2765,6 +2833,7 @@ functionHasThisBinding
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2775,6 +2844,7 @@ scriptBits
 FunctionHasThisBinding
 )
 ;
+}
 if
 (
 script
@@ -2784,6 +2854,7 @@ functionHasExtraBodyVarScope
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2794,6 +2865,7 @@ scriptBits
 FunctionHasExtraBodyVarScope
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 sourceObjectArg
@@ -2818,6 +2890,7 @@ if
 !
 sourceObjectArg
 )
+{
 scriptBits
 |
 =
@@ -2828,6 +2901,7 @@ scriptBits
 OwnSource
 )
 ;
+}
 if
 (
 script
@@ -2837,6 +2911,7 @@ isGenerator
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2847,6 +2922,7 @@ scriptBits
 IsGenerator
 )
 ;
+}
 if
 (
 script
@@ -2856,6 +2932,7 @@ isAsync
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2866,6 +2943,7 @@ scriptBits
 IsAsync
 )
 ;
+}
 if
 (
 script
@@ -2875,6 +2953,7 @@ hasRest
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2885,6 +2964,7 @@ scriptBits
 HasRest
 )
 ;
+}
 if
 (
 script
@@ -2894,6 +2974,7 @@ hasSingletons
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2904,6 +2985,7 @@ scriptBits
 HasSingleton
 )
 ;
+}
 if
 (
 script
@@ -2913,6 +2995,7 @@ treatAsRunOnce
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2923,6 +3006,7 @@ scriptBits
 TreatAsRunOnce
 )
 ;
+}
 if
 (
 script
@@ -2932,6 +3016,7 @@ isRelazifiable
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2942,6 +3027,7 @@ scriptBits
 HasLazyScript
 )
 ;
+}
 if
 (
 script
@@ -2951,6 +3037,7 @@ hasNonSyntacticScope
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2961,6 +3048,7 @@ scriptBits
 HasNonSyntacticScope
 )
 ;
+}
 if
 (
 script
@@ -2970,6 +3058,7 @@ hasInnerFunctions
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2980,6 +3069,7 @@ scriptBits
 HasInnerFunctions
 )
 ;
+}
 if
 (
 script
@@ -2989,6 +3079,7 @@ needsHomeObject
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -2999,6 +3090,7 @@ scriptBits
 NeedsHomeObject
 )
 ;
+}
 if
 (
 script
@@ -3008,6 +3100,7 @@ isDerivedClassConstructor
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -3018,6 +3111,7 @@ scriptBits
 IsDerivedClassConstructor
 )
 ;
+}
 if
 (
 script
@@ -3027,6 +3121,7 @@ isDefaultClassConstructor
 (
 )
 )
+{
 scriptBits
 |
 =
@@ -3037,6 +3132,7 @@ scriptBits
 IsDefaultClassConstructor
 )
 ;
+}
 }
 MOZ_TRY
 (
@@ -3469,6 +3565,7 @@ if
 !
 ss
 )
+{
 return
 xdr
 -
@@ -3481,6 +3578,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 ScriptSourceHolder
 ssHolder
 (
@@ -3549,6 +3647,7 @@ cx
 options
 )
 )
+{
 return
 xdr
 -
@@ -3561,6 +3660,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 sourceObject
 =
 ScriptSourceObject
@@ -3577,6 +3677,7 @@ if
 !
 sourceObject
 )
+{
 return
 xdr
 -
@@ -3589,6 +3690,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 if
 (
 xdr
@@ -3686,6 +3788,7 @@ if
 !
 script
 )
+{
 return
 xdr
 -
@@ -3698,6 +3801,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 /
 /
 Set
@@ -3727,6 +3831,7 @@ if
 (
 fun
 )
+{
 fun
 -
 >
@@ -3735,6 +3840,7 @@ initScript
 script
 )
 ;
+}
 }
 else
 {
@@ -3874,6 +3980,7 @@ scriptBits
 Strict
 )
 )
+{
 script
 -
 >
@@ -3883,6 +3990,7 @@ strict_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -3894,6 +4002,7 @@ scriptBits
 ExplicitUseStrict
 )
 )
+{
 script
 -
 >
@@ -3903,6 +4012,7 @@ explicitUseStrict_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -3914,6 +4024,7 @@ scriptBits
 ContainsDynamicNameAccess
 )
 )
+{
 script
 -
 >
@@ -3923,6 +4034,7 @@ bindingsAccessedDynamically_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -3934,6 +4046,7 @@ scriptBits
 FunHasExtensibleScope
 )
 )
+{
 script
 -
 >
@@ -3943,6 +4056,7 @@ funHasExtensibleScope_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -3954,6 +4068,7 @@ scriptBits
 FunHasAnyAliasedFormal
 )
 )
+{
 script
 -
 >
@@ -3963,6 +4078,7 @@ funHasAnyAliasedFormal_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -3974,6 +4090,7 @@ scriptBits
 ArgumentsHasVarBinding
 )
 )
+{
 script
 -
 >
@@ -3981,6 +4098,7 @@ setArgumentsHasVarBinding
 (
 )
 ;
+}
 if
 (
 scriptBits
@@ -3992,6 +4110,7 @@ scriptBits
 NeedsArgsObj
 )
 )
+{
 script
 -
 >
@@ -4000,6 +4119,7 @@ setNeedsArgsObj
 true
 )
 ;
+}
 if
 (
 scriptBits
@@ -4011,6 +4131,7 @@ scriptBits
 HasMappedArgsObj
 )
 )
+{
 script
 -
 >
@@ -4020,6 +4141,7 @@ hasMappedArgsObj_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -4031,6 +4153,7 @@ scriptBits
 FunctionHasThisBinding
 )
 )
+{
 script
 -
 >
@@ -4040,6 +4163,7 @@ functionHasThisBinding_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -4051,6 +4175,7 @@ scriptBits
 FunctionHasExtraBodyVarScope
 )
 )
+{
 script
 -
 >
@@ -4060,6 +4185,7 @@ functionHasExtraBodyVarScope_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -4071,6 +4197,7 @@ scriptBits
 HasSingleton
 )
 )
+{
 script
 -
 >
@@ -4080,6 +4207,7 @@ hasSingletons_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -4091,6 +4219,7 @@ scriptBits
 TreatAsRunOnce
 )
 )
+{
 script
 -
 >
@@ -4100,6 +4229,7 @@ treatAsRunOnce_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -4111,6 +4241,7 @@ scriptBits
 HasNonSyntacticScope
 )
 )
+{
 script
 -
 >
@@ -4120,6 +4251,7 @@ hasNonSyntacticScope_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -4131,6 +4263,7 @@ scriptBits
 HasInnerFunctions
 )
 )
+{
 script
 -
 >
@@ -4140,6 +4273,7 @@ hasInnerFunctions_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -4151,6 +4285,7 @@ scriptBits
 NeedsHomeObject
 )
 )
+{
 script
 -
 >
@@ -4160,6 +4295,7 @@ needsHomeObject_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -4171,6 +4307,7 @@ scriptBits
 IsDerivedClassConstructor
 )
 )
+{
 script
 -
 >
@@ -4180,6 +4317,7 @@ isDerivedClassConstructor_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -4191,6 +4329,7 @@ scriptBits
 IsDefaultClassConstructor
 )
 )
+{
 script
 -
 >
@@ -4200,6 +4339,7 @@ isDefaultClassConstructor_
 =
 true
 ;
+}
 if
 (
 scriptBits
@@ -4211,6 +4351,7 @@ scriptBits
 IsGenerator
 )
 )
+{
 script
 -
 >
@@ -4222,6 +4363,7 @@ GeneratorKind
 Generator
 )
 ;
+}
 if
 (
 scriptBits
@@ -4233,6 +4375,7 @@ scriptBits
 IsAsync
 )
 )
+{
 script
 -
 >
@@ -4244,6 +4387,7 @@ FunctionAsyncKind
 AsyncFunction
 )
 ;
+}
 if
 (
 scriptBits
@@ -4255,6 +4399,7 @@ scriptBits
 HasRest
 )
 )
+{
 script
 -
 >
@@ -4262,6 +4407,7 @@ setHasRest
 (
 )
 ;
+}
 }
 JS_STATIC_ASSERT
 (
@@ -4296,6 +4442,7 @@ scriptBits
 OwnSource
 )
 )
+{
 MOZ_TRY
 (
 sourceObject
@@ -4315,6 +4462,7 @@ xdr
 )
 )
 ;
+}
 MOZ_TRY
 (
 xdr
@@ -4501,6 +4649,7 @@ nsrcnotes
 natoms
 )
 )
+{
 return
 xdr
 -
@@ -4513,6 +4662,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 }
 auto
 scriptDataGuard
@@ -4533,6 +4683,7 @@ mode
 =
 XDR_DECODE
 )
+{
 script
 -
 >
@@ -4540,6 +4691,7 @@ freeScriptData
 (
 )
 ;
+}
 }
 )
 ;
@@ -4690,6 +4842,7 @@ shareScriptData
 cx
 )
 )
+{
 return
 xdr
 -
@@ -4702,6 +4855,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 }
 if
 (
@@ -4751,6 +4905,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 val
 =
 vector
@@ -4758,6 +4913,7 @@ vector
 i
 ]
 ;
+}
 MOZ_TRY
 (
 XDRScriptConst
@@ -4775,6 +4931,7 @@ mode
 =
 XDR_DECODE
 )
+{
 vector
 [
 i
@@ -4785,6 +4942,7 @@ init
 val
 )
 ;
+}
 }
 }
 {
@@ -5145,6 +5303,7 @@ if
 !
 scope
 )
+{
 return
 xdr
 -
@@ -5157,6 +5316,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 }
 break
 ;
@@ -5304,6 +5464,7 @@ mode
 =
 XDR_DECODE
 )
+{
 vector
 [
 i
@@ -5314,6 +5475,7 @@ init
 scope
 )
 ;
+}
 }
 /
 /
@@ -5462,10 +5624,12 @@ RegExpObject
 (
 )
 )
+{
 classk
 =
 CK_RegexpObject
 ;
+}
 else
 if
 (
@@ -5479,10 +5643,12 @@ JSFunction
 (
 )
 )
+{
 classk
 =
 CK_JSFunction
 ;
+}
 else
 if
 (
@@ -5507,11 +5673,14 @@ ArrayObject
 (
 )
 )
+{
 classk
 =
 CK_JSObject
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -5525,6 +5694,7 @@ object
 "
 )
 ;
+}
 }
 MOZ_TRY
 (
@@ -5564,6 +5734,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 regexp
 =
 &
@@ -5580,6 +5751,7 @@ RegExpObject
 (
 )
 ;
+}
 MOZ_TRY
 (
 XDRScriptRegExpObject
@@ -5597,11 +5769,13 @@ mode
 =
 XDR_DECODE
 )
+{
 *
 objp
 =
 regexp
 ;
+}
 break
 ;
 }
@@ -5818,6 +5992,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 tmp
 =
 &
@@ -5834,6 +6009,7 @@ JSFunction
 (
 )
 ;
+}
 MOZ_TRY
 (
 XDRInterpretedFunction
@@ -6258,6 +6434,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 lazy
 =
 script
@@ -6267,6 +6444,7 @@ maybeLazyScript
 (
 )
 ;
+}
 MOZ_TRY
 (
 XDRRelazificationInfo
@@ -6287,6 +6465,7 @@ mode
 =
 XDR_DECODE
 )
+{
 script
 -
 >
@@ -6295,6 +6474,7 @@ setLazyScript
 lazy
 )
 ;
+}
 }
 if
 (
@@ -6334,6 +6514,7 @@ helperThread
 (
 )
 )
+{
 Debugger
 :
 :
@@ -6343,6 +6524,7 @@ cx
 script
 )
 ;
+}
 }
 return
 Ok
@@ -6704,6 +6886,7 @@ if
 !
 lazy
 )
+{
 return
 xdr
 -
@@ -6716,6 +6899,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 lazy
 -
 >
@@ -6808,6 +6992,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 func
 =
 innerFunctions
@@ -6815,6 +7000,7 @@ innerFunctions
 i
 ]
 ;
+}
 MOZ_TRY
 (
 XDRInterpretedFunction
@@ -6854,6 +7040,7 @@ isInterpretedLazy
 (
 )
 )
+{
 innerFunctions
 [
 i
@@ -6870,6 +7057,7 @@ setEnclosingLazyScript
 lazy
 )
 ;
+}
 }
 }
 }
@@ -7387,6 +7575,7 @@ i
 +
 +
 )
+{
 base
 .
 infallibleEmplaceBack
@@ -7400,6 +7589,7 @@ i
 )
 )
 ;
+}
 /
 /
 Create
@@ -7439,9 +7629,11 @@ if
 !
 map
 )
+{
 return
 false
 ;
+}
 realm
 (
 )
@@ -7624,6 +7816,7 @@ isInterpreter
 (
 )
 )
+{
 iter
 -
 >
@@ -7637,6 +7830,7 @@ enableInterruptsIfRunning
 this
 )
 ;
+}
 }
 return
 true
@@ -7864,9 +8058,11 @@ pcOffset
 =
 offset
 )
+{
 return
 nullptr
 ;
+}
 return
 elem
 ;
@@ -7940,9 +8136,11 @@ pcOffset
 =
 offset
 )
+{
 return
 nullptr
 ;
+}
 return
 elem
 ;
@@ -8002,6 +8200,7 @@ end
 (
 )
 )
+{
 return
 &
 pcCounts_
@@ -8010,6 +8209,7 @@ back
 (
 )
 ;
+}
 if
 (
 elem
@@ -8022,9 +8222,11 @@ pcOffset
 =
 offset
 )
+{
 return
 elem
 ;
+}
 if
 (
 elem
@@ -8036,11 +8238,13 @@ begin
 (
 )
 )
+{
 return
 elem
 -
 1
 ;
+}
 return
 nullptr
 ;
@@ -8114,9 +8318,11 @@ pcOffset
 =
 offset
 )
+{
 return
 nullptr
 ;
+}
 return
 elem
 ;
@@ -8195,9 +8401,11 @@ end
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 &
 throwCounts_
@@ -8219,9 +8427,11 @@ pcOffset
 =
 offset
 )
+{
 return
 elem
 ;
+}
 if
 (
 elem
@@ -8233,11 +8443,13 @@ begin
 (
 )
 )
+{
 return
 elem
 -
 1
 ;
+}
 return
 nullptr
 ;
@@ -8308,6 +8520,7 @@ pcOffset
 =
 offset
 )
+{
 elem
 =
 throwCounts_
@@ -8318,6 +8531,7 @@ elem
 searched
 )
 ;
+}
 return
 elem
 ;
@@ -8407,6 +8621,7 @@ hasIonScript
 (
 )
 )
+{
 js
 :
 :
@@ -8424,6 +8639,7 @@ zone
 ion
 )
 ;
+}
 ion
 =
 ionScript
@@ -8583,12 +8799,14 @@ main
 (
 )
 )
+{
 pc
 =
 main
 (
 )
 ;
+}
 ScriptCounts
 &
 sc
@@ -8625,9 +8843,11 @@ if
 !
 baseCount
 )
+{
 return
 0
 ;
+}
 if
 (
 baseCount
@@ -8640,6 +8860,7 @@ pcOffset
 =
 targetOffset
 )
+{
 return
 baseCount
 -
@@ -8648,6 +8869,7 @@ numExec
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 baseCount
@@ -8692,9 +8914,11 @@ if
 !
 throwCount
 )
+{
 return
 count
 ;
+}
 if
 (
 throwCount
@@ -8712,9 +8936,11 @@ pcOffset
 (
 )
 )
+{
 return
 count
 ;
+}
 count
 -
 =
@@ -8770,12 +8996,14 @@ main
 (
 )
 )
+{
 pc
 =
 main
 (
 )
 ;
+}
 ScriptCounts
 &
 sc
@@ -8806,8 +9034,10 @@ if
 !
 baseCount
 )
+{
 return
 ;
+}
 baseCount
 -
 >
@@ -8846,6 +9076,7 @@ sc
 .
 ionCounts_
 )
+{
 ionCounts
 -
 >
@@ -8856,6 +9087,7 @@ sc
 ionCounts_
 )
 ;
+}
 sc
 .
 ionCounts_
@@ -9035,9 +9267,11 @@ realm
 >
 scriptNameMap
 )
+{
 return
 false
 ;
+}
 auto
 p
 =
@@ -9243,9 +9477,11 @@ if
 !
 sourceObject
 )
+{
 return
 nullptr
 ;
+}
 source
 -
 >
@@ -9451,9 +9687,11 @@ element
 elementAttributeName
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 There
@@ -9625,9 +9863,11 @@ cx
 elementValue
 )
 )
+{
 return
 false
 ;
+}
 RootedValue
 nameValue
 (
@@ -9638,6 +9878,7 @@ if
 (
 elementAttrName
 )
+{
 nameValue
 =
 StringValue
@@ -9645,6 +9886,7 @@ StringValue
 elementAttrName
 )
 ;
+}
 if
 (
 !
@@ -9663,9 +9905,11 @@ cx
 nameValue
 )
 )
+{
 return
 false
 ;
+}
 source
 -
 >
@@ -9752,9 +9996,11 @@ sourceRetrievable
 (
 )
 )
+{
 return
 true
 ;
+}
 char16_t
 *
 src
@@ -9793,17 +10039,21 @@ src
 length
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
 src
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -9820,9 +10070,11 @@ src
 length
 )
 )
+{
 return
 false
 ;
+}
 *
 worked
 =
@@ -10279,9 +10531,11 @@ if
 !
 map_
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 Map
@@ -10369,9 +10623,11 @@ if
 !
 map
 )
+{
 return
 false
 ;
+}
 map_
 =
 std
@@ -10401,9 +10657,11 @@ str
 )
 )
 )
+{
 return
 false
 ;
+}
 holdEntry
 (
 holder
@@ -10427,8 +10685,10 @@ if
 !
 map_
 )
+{
 return
 ;
+}
 for
 (
 Map
@@ -10588,6 +10848,7 @@ popFront
 (
 )
 )
+{
 n
 +
 =
@@ -10608,6 +10869,7 @@ get
 )
 )
 ;
+}
 }
 return
 n
@@ -10677,9 +10939,11 @@ ssc
 holder
 )
 )
+{
 return
 decompressed
 ;
+}
 size_t
 totalLengthInBytes
 =
@@ -10980,6 +11244,7 @@ if
 !
 prev_
 )
+{
 source_
 -
 >
@@ -10987,6 +11252,7 @@ movePendingCompressedSource
 (
 )
 ;
+}
 }
 }
 void
@@ -11002,8 +11268,10 @@ if
 !
 pendingCompressed_
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 data
@@ -11163,9 +11431,11 @@ if
 !
 chars
 )
+{
 return
 nullptr
 ;
+}
 return
 chars
 +
@@ -11183,6 +11453,7 @@ Missing
 (
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -11201,6 +11472,7 @@ Missing
 "
 )
 ;
+}
 MOZ_ASSERT
 (
 data
@@ -11337,9 +11609,11 @@ if
 !
 chars
 )
+{
 return
 nullptr
 ;
+}
 return
 chars
 +
@@ -11498,9 +11772,11 @@ if
 !
 chars
 )
+{
 return
 nullptr
 ;
+}
 size_t
 numChars
 =
@@ -11714,9 +11990,11 @@ get
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 NewStringCopyN
 <
@@ -11789,9 +12067,11 @@ get
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 NewStringCopyNDontDeflate
 <
@@ -11866,9 +12146,11 @@ get
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 len
@@ -11883,9 +12165,11 @@ ensureTwoByteChars
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 buf
 .
@@ -12109,9 +12393,11 @@ Uncompressed
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 There
@@ -12233,9 +12519,11 @@ length
 !
 canCompressOffThread
 )
+{
 return
 true
 ;
+}
 /
 /
 The
@@ -12334,9 +12622,11 @@ runtime
 )
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Heap
@@ -12566,6 +12856,7 @@ if
 (
 pinnedCharsStack_
 )
+{
 pendingCompressed_
 =
 mozilla
@@ -12586,7 +12877,9 @@ uncompressedLength
 )
 )
 ;
+}
 else
+{
 data
 =
 SourceType
@@ -12604,6 +12897,7 @@ uncompressedLength
 )
 )
 ;
+}
 }
 bool
 ScriptSource
@@ -12778,9 +13072,11 @@ if
 !
 newPtr
 )
+{
 return
 false
 ;
+}
 /
 /
 Since
@@ -12832,8 +13128,10 @@ shouldCancel
 (
 )
 )
+{
 return
 ;
+}
 ScriptSource
 *
 source
@@ -12924,8 +13222,10 @@ if
 !
 compressed
 )
+{
 return
 ;
+}
 const
 char16_t
 *
@@ -12977,8 +13277,10 @@ init
 (
 )
 )
+{
 return
 ;
+}
 comp
 .
 setOutput
@@ -13020,8 +13322,10 @@ shouldCancel
 (
 )
 )
+{
 return
 ;
+}
 switch
 (
 comp
@@ -13099,8 +13403,10 @@ compressed
 inputBytes
 )
 )
+{
 return
 ;
+}
 comp
 .
 setOutput
@@ -13181,8 +13487,10 @@ compressed
 totalBytes
 )
 )
+{
 return
 ;
+}
 comp
 .
 finish
@@ -13201,8 +13509,10 @@ shouldCancel
 (
 )
 )
+{
 return
 ;
+}
 auto
 &
 strings
@@ -13370,9 +13680,11 @@ containsAsmJS
 (
 )
 )
+{
 return
 true
 ;
+}
 xdrEncoder_
 =
 js
@@ -13493,9 +13805,11 @@ JS
 :
 TranscodeResult_Failure
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -13631,9 +13945,11 @@ JS
 :
 TranscodeResult_Failure
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -13669,9 +13985,11 @@ hasEncoder
 (
 )
 )
+{
 return
 false
 ;
+}
 auto
 cleanup
 =
@@ -13929,12 +14247,14 @@ mode
 =
 XDR_ENCODE
 )
+{
 len
 =
 length
 (
 )
 ;
+}
 MOZ_TRY
 (
 xdr
@@ -14039,6 +14359,7 @@ if
 !
 bytes
 )
+{
 return
 xdr
 -
@@ -14051,6 +14372,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 MOZ_TRY
 (
 xdr
@@ -14094,6 +14416,7 @@ byteLen
 len
 )
 )
+{
 return
 xdr
 -
@@ -14106,6 +14429,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 }
 else
 {
@@ -14147,6 +14471,7 @@ source
 len
 )
 )
+{
 return
 xdr
 -
@@ -14159,6 +14484,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 }
 }
 else
@@ -14282,6 +14608,7 @@ if
 !
 sourceMapURL_
 )
+{
 return
 xdr
 -
@@ -14294,6 +14621,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 }
 auto
 guard
@@ -14314,10 +14642,12 @@ mode
 =
 XDR_DECODE
 )
+{
 sourceMapURL_
 =
 nullptr
 ;
+}
 }
 )
 ;
@@ -14445,6 +14775,7 @@ if
 !
 displayURL_
 )
+{
 return
 xdr
 -
@@ -14457,6 +14788,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 }
 auto
 guard
@@ -14477,10 +14809,12 @@ mode
 =
 XDR_DECODE
 )
+{
 displayURL_
 =
 nullptr
 ;
+}
 }
 )
 ;
@@ -14634,6 +14968,7 @@ cx
 fn
 )
 )
+{
 return
 xdr
 -
@@ -14646,6 +14981,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 /
 /
 Note
@@ -14718,6 +15054,7 @@ get
 (
 )
 )
+{
 return
 xdr
 -
@@ -14730,6 +15067,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 mozilla
 :
 :
@@ -15023,9 +15361,11 @@ if
 !
 formatted
 )
+{
 return
 nullptr
 ;
+}
 mozilla
 :
 :
@@ -15200,9 +15540,11 @@ if
 !
 formatted
 )
+{
 return
 false
 ;
+}
 filename_
 .
 reset
@@ -15234,9 +15576,11 @@ filename
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -15264,9 +15608,11 @@ if
 !
 introducerFilename_
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -15409,9 +15755,11 @@ len
 =
 1
 )
+{
 return
 true
 ;
+}
 displayURL_
 =
 DuplicateString
@@ -15464,9 +15812,11 @@ len
 =
 1
 )
+{
 return
 true
 ;
+}
 sourceMapURL_
 =
 DuplicateString
@@ -15810,6 +16160,7 @@ natoms
 +
 i
 )
+{
 new
 (
 &
@@ -15822,6 +16173,7 @@ GCPtrAtom
 (
 )
 ;
+}
 /
 /
 Sanity
@@ -15967,9 +16319,11 @@ if
 !
 ssd
 )
+{
 return
 false
 ;
+}
 setScriptData
 (
 ssd
@@ -17482,6 +17836,7 @@ nconsts
 =
 0
 )
+{
 size
 +
 =
@@ -17497,6 +17852,7 @@ sizeof
 Value
 )
 ;
+}
 if
 (
 nobjects
@@ -17504,6 +17860,7 @@ nobjects
 =
 0
 )
+{
 size
 +
 =
@@ -17520,6 +17877,7 @@ NativeObject
 *
 )
 ;
+}
 if
 (
 ntrynotes
@@ -17527,6 +17885,7 @@ ntrynotes
 =
 0
 )
+{
 size
 +
 =
@@ -17542,6 +17901,7 @@ sizeof
 JSTryNote
 )
 ;
+}
 if
 (
 nscopenotes
@@ -17549,6 +17909,7 @@ nscopenotes
 =
 0
 )
+{
 size
 +
 =
@@ -17564,6 +17925,7 @@ sizeof
 ScopeNote
 )
 ;
+}
 if
 (
 nyieldoffsets
@@ -17571,6 +17933,7 @@ nyieldoffsets
 =
 0
 )
+{
 size
 +
 =
@@ -17586,6 +17949,7 @@ sizeof
 uint32_t
 )
 ;
+}
 return
 size
 ;
@@ -17842,9 +18206,11 @@ if
 !
 script
 )
+{
 return
 nullptr
 ;
+}
 uint8_t
 *
 stubEntry
@@ -17951,9 +18317,11 @@ if
 !
 script
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 cx
@@ -17984,9 +18352,11 @@ initScriptName
 cx
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 script
@@ -18018,9 +18388,11 @@ filename
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Create
@@ -18060,9 +18432,11 @@ if
 !
 map
 )
+{
 return
 false
 ;
+}
 realm
 (
 )
@@ -18172,9 +18546,11 @@ if
 !
 size
 )
+{
 return
 nullptr
 ;
+}
 uint8_t
 *
 data
@@ -18202,9 +18578,11 @@ if
 !
 data
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 size_t
@@ -18298,9 +18676,11 @@ script
 >
 data
 )
+{
 return
 false
 ;
+}
 script
 -
 >
@@ -19022,9 +19402,11 @@ if
 !
 functionProtoScope
 )
+{
 return
 false
 ;
+}
 script
 -
 >
@@ -19072,9 +19454,11 @@ srcNotesLength
 numAtoms
 )
 )
+{
 return
 false
 ;
+}
 jsbytecode
 *
 code
@@ -19247,6 +19631,7 @@ isInterpretedLazy
 (
 )
 )
+{
 fun
 -
 >
@@ -19255,7 +19640,9 @@ setUnlazifiedScript
 script
 )
 ;
+}
 else
+{
 fun
 -
 >
@@ -19264,6 +19651,7 @@ setScript
 script
 )
 ;
+}
 script
 -
 >
@@ -19332,6 +19720,7 @@ definitelyNeedsArgsObj
 (
 )
 )
+{
 script
 -
 >
@@ -19340,6 +19729,7 @@ setNeedsArgsObj
 true
 )
 ;
+}
 }
 else
 {
@@ -19442,6 +19832,7 @@ hasRest
 (
 )
 )
+{
 script
 -
 >
@@ -19449,6 +19840,7 @@ setHasRest
 (
 )
 ;
+}
 PositionalFormalParameterIter
 fi
 (
@@ -19467,10 +19859,12 @@ closedOver
 (
 )
 )
+{
 fi
 +
 +
 ;
+}
 script
 -
 >
@@ -19745,9 +20139,11 @@ finishTakingSrcNotes
 nsrcnotes
 )
 )
+{
 return
 false
 ;
+}
 uint32_t
 natoms
 =
@@ -19877,9 +20273,11 @@ nsrcnotes
 natoms
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Any
@@ -20024,9 +20422,11 @@ shareScriptData
 cx
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 bce
@@ -20041,6 +20441,7 @@ length
 =
 0
 )
+{
 bce
 -
 >
@@ -20056,6 +20457,7 @@ consts
 )
 )
 ;
+}
 if
 (
 bce
@@ -20068,6 +20470,7 @@ length
 =
 0
 )
+{
 bce
 -
 >
@@ -20083,6 +20486,7 @@ objects
 )
 )
 ;
+}
 if
 (
 bce
@@ -20097,6 +20501,7 @@ length
 =
 0
 )
+{
 bce
 -
 >
@@ -20112,6 +20517,7 @@ scopes
 )
 )
 ;
+}
 if
 (
 bce
@@ -20126,6 +20532,7 @@ length
 =
 0
 )
+{
 bce
 -
 >
@@ -20141,6 +20548,7 @@ trynotes
 )
 )
 ;
+}
 if
 (
 bce
@@ -20155,6 +20563,7 @@ length
 =
 0
 )
+{
 bce
 -
 >
@@ -20171,6 +20580,7 @@ scopeNotes
 prologueLength
 )
 ;
+}
 script
 -
 >
@@ -20335,6 +20745,7 @@ isFunctionBox
 (
 )
 )
+{
 initFromFunctionBox
 (
 script
@@ -20349,6 +20760,7 @@ asFunctionBox
 )
 )
 ;
+}
 else
 if
 (
@@ -20362,11 +20774,13 @@ isModuleContext
 (
 )
 )
+{
 initFromModuleContext
 (
 script
 )
 ;
+}
 /
 /
 Copy
@@ -20398,6 +20812,7 @@ length
 =
 0
 )
+{
 bce
 -
 >
@@ -20414,6 +20829,7 @@ yieldAndAwaitOffsets
 prologueLength
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -20866,8 +21282,10 @@ kind
 =
 JSTRY_FINALLY
 )
+{
 continue
 ;
+}
 MOZ_ASSERT
 (
 JSOp
@@ -21185,6 +21603,7 @@ if
 (
 types_
 )
+{
 types_
 -
 >
@@ -21192,6 +21611,7 @@ destroy
 (
 )
 ;
+}
 jit
 :
 :
@@ -21241,6 +21661,7 @@ if
 (
 scriptData_
 )
+{
 scriptData_
 -
 >
@@ -21248,6 +21669,7 @@ decRefCount
 (
 )
 ;
+}
 /
 /
 In
@@ -21396,9 +21818,11 @@ length
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 cache
@@ -21586,10 +22010,12 @@ SN_IS_GETTABLE
 sn
 )
 )
+{
 +
 +
 nsrcnotes
 ;
+}
 }
 if
 (
@@ -21676,6 +22102,7 @@ SN_IS_GETTABLE
 sn
 )
 )
+{
 cache
 .
 map
@@ -21686,6 +22113,7 @@ pc
 sn
 )
 ;
+}
 }
 cache
 .
@@ -21855,8 +22283,10 @@ offset
 >
 target
 )
+{
 break
 ;
+}
 SrcNoteType
 type
 =
@@ -21964,11 +22394,13 @@ if
 (
 columnp
 )
+{
 *
 columnp
 =
 column
 ;
+}
 return
 lineno
 ;
@@ -22010,9 +22442,11 @@ if
 !
 pc
 )
+{
 return
 0
 ;
+}
 return
 PCToLineNumber
 (
@@ -22157,9 +22591,11 @@ mainOffset
 )
 )
 )
+{
 goto
 out
 ;
+}
 if
 (
 lineno
@@ -22256,10 +22692,12 @@ best
 =
 0
 )
+{
 offset
 =
 best
 ;
+}
 out
 :
 return
@@ -22343,6 +22781,7 @@ type
 =
 SRC_SETLINE
 )
+{
 lineno
 =
 unsigned
@@ -22360,6 +22799,7 @@ Line
 )
 )
 ;
+}
 else
 if
 (
@@ -22368,20 +22808,24 @@ type
 =
 SRC_NEWLINE
 )
+{
 lineno
 +
 +
 ;
+}
 if
 (
 maxLineNo
 <
 lineno
 )
+{
 maxLineNo
 =
 lineno
 ;
+}
 }
 return
 1
@@ -22923,9 +23367,11 @@ if
 !
 cloneProto
 )
+{
 return
 nullptr
 ;
+}
 }
 gc
 :
@@ -23039,6 +23485,7 @@ if
 (
 atom
 )
+{
 cx
 -
 >
@@ -23047,6 +23494,7 @@ markAtom
 atom
 )
 ;
+}
 RootedFunction
 clone
 (
@@ -23081,9 +23529,11 @@ if
 !
 clone
 )
+{
 return
 nullptr
 ;
+}
 JSScript
 :
 :
@@ -23099,9 +23549,11 @@ if
 !
 srcScript
 )
+{
 return
 nullptr
 ;
+}
 JSScript
 *
 cloneScript
@@ -23119,9 +23571,11 @@ if
 !
 cloneScript
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -23134,9 +23588,11 @@ cx
 clone
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 clone
 ;
@@ -23414,9 +23870,11 @@ size
 !
 data
 )
+{
 return
 false
 ;
+}
 /
 *
 Scopes
@@ -23593,9 +24051,11 @@ append
 clone
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 /
@@ -23823,9 +24283,11 @@ cx
 innerFun
 )
 )
+{
 return
 false
 ;
+}
 }
 Scope
 *
@@ -23895,9 +24357,11 @@ append
 clone
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 /
@@ -23959,6 +24423,7 @@ dst
 >
 data
 )
+{
 memcpy
 (
 dst
@@ -23972,6 +24437,7 @@ data
 size
 )
 ;
+}
 if
 (
 cx
@@ -24015,6 +24481,7 @@ i
 +
 +
 )
+{
 cx
 -
 >
@@ -24036,6 +24503,7 @@ i
 ]
 )
 ;
+}
 }
 /
 *
@@ -24172,6 +24640,7 @@ analyzedArgsUsage
 (
 )
 )
+{
 dst
 -
 >
@@ -24185,6 +24654,7 @@ needsArgsObj
 )
 )
 ;
+}
 }
 dst
 -
@@ -24523,6 +24993,7 @@ nconsts
 +
 i
 )
+{
 MOZ_ASSERT_IF
 (
 vector
@@ -24548,6 +25019,7 @@ isAtom
 )
 )
 ;
+}
 }
 if
 (
@@ -24606,6 +25078,7 @@ nobjects
 +
 i
 )
+{
 vector
 [
 i
@@ -24628,6 +25101,7 @@ NativeObject
 )
 )
 ;
+}
 }
 {
 GCPtrScope
@@ -24679,6 +25153,7 @@ nscopes
 +
 i
 )
+{
 vector
 [
 i
@@ -24693,6 +25168,7 @@ i
 )
 ;
 }
+}
 if
 (
 ntrynotes
@@ -24700,6 +25176,7 @@ ntrynotes
 =
 0
 )
+{
 dst
 -
 >
@@ -24728,6 +25205,7 @@ trynotes
 vector
 )
 ;
+}
 if
 (
 nscopenotes
@@ -24735,6 +25213,7 @@ nscopenotes
 =
 0
 )
+{
 dst
 -
 >
@@ -24763,6 +25242,7 @@ scopeNotes
 vector
 )
 ;
+}
 if
 (
 nyieldoffsets
@@ -24915,9 +25395,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 cx
 -
 >
@@ -24976,9 +25458,11 @@ cx
 sourceObject
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 CompileOptions
 options
@@ -25106,9 +25590,11 @@ if
 !
 dst
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 src
@@ -25196,9 +25682,11 @@ append
 clone
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -25214,9 +25702,11 @@ dst
 scopes
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 dst
 ;
@@ -25284,9 +25774,11 @@ if
 !
 dst
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Clone
@@ -25425,6 +25917,7 @@ FunctionScope
 (
 )
 )
+{
 clone
 =
 FunctionScope
@@ -25445,7 +25938,9 @@ fun
 enclosingClone
 )
 ;
+}
 else
+{
 clone
 =
 Scope
@@ -25458,6 +25953,7 @@ original
 enclosingClone
 )
 ;
+}
 if
 (
 !
@@ -25472,9 +25968,11 @@ append
 clone
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 /
 /
@@ -25550,6 +26048,7 @@ isInterpretedLazy
 (
 )
 )
+{
 fun
 -
 >
@@ -25558,7 +26057,9 @@ setUnlazifiedScript
 dst
 )
 ;
+}
 else
+{
 fun
 -
 >
@@ -25567,6 +26068,7 @@ initScript
 dst
 )
 ;
+}
 return
 dst
 ;
@@ -25848,9 +26350,11 @@ bitFields_
 .
 hasDebugScript_
 )
+{
 return
 true
 ;
+}
 size_t
 nbytes
 =
@@ -25897,9 +26401,11 @@ if
 !
 debug
 )
+{
 return
 false
 ;
+}
 /
 *
 Create
@@ -25941,9 +26447,11 @@ if
 !
 map
 )
+{
 return
 false
 ;
+}
 realm
 (
 )
@@ -26077,6 +26585,7 @@ isInterpreter
 (
 )
 )
+{
 iter
 -
 >
@@ -26090,6 +26599,7 @@ enableInterruptsIfRunning
 this
 )
 ;
+}
 }
 return
 true
@@ -26147,6 +26657,7 @@ hasBaselineScript
 (
 )
 )
+{
 baseline
 -
 >
@@ -26156,6 +26667,7 @@ this
 nullptr
 )
 ;
+}
 if
 (
 !
@@ -26170,6 +26682,7 @@ debug
 >
 numSites
 )
+{
 fop
 -
 >
@@ -26180,6 +26693,7 @@ releaseDebugScript
 )
 )
 ;
+}
 }
 }
 bool
@@ -26231,9 +26745,11 @@ ensureHasDebugScript
 cx
 )
 )
+{
 return
 false
 ;
+}
 DebugScript
 *
 debug
@@ -26345,9 +26861,11 @@ ensureHasDebugScript
 cx
 )
 )
+{
 return
 nullptr
 ;
+}
 DebugScript
 *
 debug
@@ -26397,9 +26915,11 @@ if
 !
 site
 )
+{
 return
 nullptr
 ;
+}
 debug
 -
 >
@@ -26485,6 +27005,7 @@ stepModeEnabled
 (
 )
 )
+{
 fop
 -
 >
@@ -26495,6 +27016,7 @@ releaseDebugScript
 )
 )
 ;
+}
 }
 void
 JSScript
@@ -26523,8 +27045,10 @@ hasAnyBreakpointsOrStepMode
 (
 )
 )
+{
 return
 ;
+}
 for
 (
 jsbytecode
@@ -26626,6 +27150,7 @@ getHandler
 handler
 )
 )
+{
 bp
 -
 >
@@ -26634,6 +27159,7 @@ destroy
 fop
 )
 ;
+}
 }
 }
 }
@@ -26663,9 +27189,11 @@ if
 !
 site
 )
+{
 return
 false
 ;
+}
 return
 site
 -
@@ -26713,6 +27241,7 @@ natoms
 +
 i
 )
+{
 TraceNullableEdge
 (
 trc
@@ -26728,6 +27257,7 @@ atom
 "
 )
 ;
+}
 }
 void
 JSScript
@@ -26833,6 +27363,7 @@ scriptData
 (
 )
 )
+{
 scriptData
 (
 )
@@ -26843,6 +27374,7 @@ traceChildren
 trc
 )
 ;
+}
 if
 (
 ScopeArray
@@ -26853,6 +27385,7 @@ scopes
 (
 )
 )
+{
 TraceRange
 (
 trc
@@ -26869,6 +27402,7 @@ scopes
 "
 )
 ;
+}
 if
 (
 hasConsts
@@ -26972,6 +27506,7 @@ maybeLazyScript
 (
 )
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -26982,6 +27517,7 @@ lazyScript
 "
 )
 ;
+}
 if
 (
 trc
@@ -26991,6 +27527,7 @@ isMarkingTracer
 (
 )
 )
+{
 realm
 (
 )
@@ -27000,6 +27537,7 @@ mark
 (
 )
 ;
+}
 jit
 :
 :
@@ -27071,6 +27609,7 @@ if
 (
 scope
 )
+{
 scope
 =
 MaybeForwarded
@@ -27078,6 +27617,7 @@ MaybeForwarded
 scope
 )
 ;
+}
 /
 /
 Find
@@ -27118,6 +27658,7 @@ if
 (
 scope
 )
+{
 scope
 =
 MaybeForwarded
@@ -27125,6 +27666,7 @@ MaybeForwarded
 scope
 )
 ;
+}
 }
 if
 (
@@ -27143,6 +27685,7 @@ LexicalScope
 (
 )
 )
+{
 nlivefixed
 =
 scope
@@ -27159,6 +27702,7 @@ nextFrameSlot
 (
 )
 ;
+}
 else
 if
 (
@@ -27172,6 +27716,7 @@ VarScope
 (
 )
 )
+{
 nlivefixed
 =
 scope
@@ -27188,6 +27733,7 @@ nextFrameSlot
 (
 )
 ;
+}
 }
 }
 MOZ_ASSERT
@@ -27241,9 +27787,11 @@ hasScopeNotes
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 size_t
 offset
 =
@@ -27509,11 +28057,14 @@ ScopeNote
 :
 NoScopeIndex
 )
+{
 scope
 =
 nullptr
 ;
+}
 else
+{
 scope
 =
 getScope
@@ -27524,6 +28075,7 @@ checkNote
 index
 )
 ;
+}
 break
 ;
 }
@@ -27537,8 +28089,10 @@ parent
 =
 UINT32_MAX
 )
+{
 break
 ;
+}
 check
 =
 checkNote
@@ -27589,9 +28143,11 @@ lookupScope
 pc
 )
 )
+{
 return
 scope
 ;
+}
 return
 bodyScope
 (
@@ -27732,17 +28288,21 @@ names
 .
 arguments
 )
+{
 bi
 +
 +
 ;
+}
 if
 (
 !
 bi
 )
+{
 return
 ;
+}
 if
 (
 bi
@@ -27809,6 +28369,7 @@ pc
 =
 JSOP_ARGUMENTS
 )
+{
 pc
 +
 =
@@ -27817,6 +28378,7 @@ GetBytecodeLength
 pc
 )
 ;
+}
 pc
 +
 =
@@ -27889,6 +28451,7 @@ bi
 )
 )
 )
+{
 env
 .
 setAliasedBinding
@@ -27902,6 +28465,7 @@ argsobj
 )
 )
 ;
+}
 }
 else
 {
@@ -27952,6 +28516,7 @@ frameSlot
 )
 )
 )
+{
 frame
 .
 unaliasedLocal
@@ -27965,6 +28530,7 @@ ObjectValue
 argsobj
 )
 ;
+}
 }
 }
 /
@@ -28084,9 +28650,11 @@ needsArgsObj
 (
 )
 )
+{
 return
 true
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -28168,6 +28736,7 @@ hasBaselineScript
 (
 )
 )
+{
 script
 -
 >
@@ -28180,6 +28749,7 @@ setNeedsArgsObj
 (
 )
 ;
+}
 /
 *
 *
@@ -28416,8 +28986,10 @@ isIon
 (
 )
 )
+{
 continue
 ;
+}
 AbstractFramePtr
 frame
 =
@@ -28483,6 +29055,7 @@ if
 !
 argsobj
 )
+{
 oomUnsafe
 .
 crash
@@ -28495,6 +29068,7 @@ argumentsOptimizationFailed
 "
 )
 ;
+}
 SetFrameArgumentsObject
 (
 cx
@@ -28525,9 +29099,11 @@ functionHasParameterExprs
 (
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 PositionalFormalParameterIter
@@ -28554,6 +29130,7 @@ argumentSlot
 =
 argSlot
 )
+{
 return
 fi
 .
@@ -28561,6 +29138,7 @@ closedOver
 (
 )
 ;
+}
 }
 MOZ_CRASH
 (
@@ -29085,9 +29663,11 @@ if
 !
 table
 )
+{
 return
 nullptr
 ;
+}
 }
 LazyScript
 *
@@ -29106,9 +29686,11 @@ if
 !
 res
 )
+{
 return
 nullptr
 ;
+}
 cx
 -
 >
@@ -29334,9 +29916,11 @@ if
 !
 res
 )
+{
 return
 nullptr
 ;
+}
 JSAtom
 *
 *
@@ -29369,6 +29953,7 @@ i
 +
 +
 )
+{
 resClosedOverBindings
 [
 i
@@ -29379,6 +29964,7 @@ closedOverBindings
 i
 ]
 ;
+}
 GCPtrFunction
 *
 resInnerFunctions
@@ -29436,6 +30022,7 @@ isInterpretedLazy
 (
 )
 )
+{
 resInnerFunctions
 [
 i
@@ -29452,6 +30039,7 @@ setEnclosingLazyScript
 res
 )
 ;
+}
 }
 return
 res
@@ -29574,9 +30162,11 @@ if
 !
 res
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Fill
@@ -29638,6 +30228,7 @@ i
 +
 +
 )
+{
 closedOverBindings
 [
 i
@@ -29645,6 +30236,7 @@ i
 =
 dummyAtom
 ;
+}
 GCPtrFunction
 *
 functions
@@ -29678,6 +30270,7 @@ i
 +
 +
 )
+{
 functions
 [
 i
@@ -29688,6 +30281,7 @@ init
 dummyFun
 )
 ;
+}
 /
 /
 Set
@@ -29766,6 +30360,7 @@ if
 (
 enclosingScope
 )
+{
 res
 -
 >
@@ -29774,6 +30369,7 @@ setEnclosingScope
 enclosingScope
 )
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -29789,6 +30385,7 @@ if
 (
 script
 )
+{
 res
 -
 >
@@ -29797,6 +30394,7 @@ initScript
 script
 )
 ;
+}
 return
 res
 ;
@@ -30012,9 +30610,11 @@ hasTrynotes
 (
 )
 )
+{
 return
 false
 ;
+}
 JSTryNote
 *
 tn
@@ -30331,6 +30931,7 @@ isSelfHostingRealm
 (
 )
 )
+{
 script_
 -
 >
@@ -30339,6 +30940,7 @@ setDoNotRelazify
 oldDoNotRelazify_
 )
 ;
+}
 script_
 =
 nullptr
@@ -30387,6 +30989,7 @@ GlobalScope
 (
 )
 )
+{
 scope
 -
 >
@@ -30402,6 +31005,7 @@ setTopLevelPrivate
 value
 )
 ;
+}
 else
 if
 (
@@ -30415,6 +31019,7 @@ ModuleScope
 (
 )
 )
+{
 scope
 -
 >
@@ -30430,7 +31035,9 @@ setTopLevelPrivate
 value
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -30440,6 +31047,7 @@ kind
 "
 )
 ;
+}
 }
 void
 *
@@ -30464,9 +31072,11 @@ isGlobalCode
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 Scope
 *
 scope
@@ -30487,6 +31097,7 @@ GlobalScope
 (
 )
 )
+{
 return
 scope
 -
@@ -30502,6 +31113,7 @@ topLevelPrivate
 (
 )
 ;
+}
 else
 if
 (
@@ -30515,6 +31127,7 @@ ModuleScope
 (
 )
 )
+{
 return
 scope
 -
@@ -30530,6 +31143,7 @@ topLevelPrivate
 (
 )
 ;
+}
 MOZ_CRASH
 (
 "
@@ -30830,9 +31444,11 @@ if
 !
 source
 )
+{
 return
 nullptr
 ;
+}
 return
 source
 -

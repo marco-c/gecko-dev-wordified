@@ -1547,9 +1547,11 @@ isNative
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Note
@@ -2392,9 +2394,11 @@ hasScript
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 nonLazyScript
 (
@@ -2874,6 +2878,7 @@ isInterpretedLazy
 (
 )
 )
+{
 lazyScript
 (
 )
@@ -2884,7 +2889,9 @@ setAsyncKind
 asyncKind
 )
 ;
+}
 else
+{
 nonLazyScript
 (
 )
@@ -2895,6 +2902,7 @@ setAsyncKind
 asyncKind
 )
 ;
+}
 }
 static
 bool
@@ -3801,9 +3809,11 @@ cx
 fun
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 fun
 -
@@ -3979,6 +3989,7 @@ needsIncrementalBarrier
 (
 )
 )
+{
 js
 :
 :
@@ -3992,6 +4003,7 @@ lazyScript
 )
 )
 ;
+}
 JSScript
 *
 script
@@ -4243,6 +4255,7 @@ isInterpreted
 (
 )
 )
+{
 return
 js
 :
@@ -4252,12 +4265,14 @@ GeneratorKind
 :
 NotGenerator
 ;
+}
 if
 (
 hasScript
 (
 )
 )
+{
 return
 nonLazyScript
 (
@@ -4268,6 +4283,7 @@ generatorKind
 (
 )
 ;
+}
 if
 (
 js
@@ -4281,6 +4297,7 @@ lazyScriptOrNull
 (
 )
 )
+{
 return
 lazy
 -
@@ -4289,6 +4306,7 @@ generatorKind
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 isSelfHostedBuiltin
@@ -4372,6 +4390,7 @@ isInterpretedLazy
 (
 )
 )
+{
 return
 lazyScript
 (
@@ -4382,12 +4401,14 @@ isAsync
 (
 )
 ;
+}
 if
 (
 hasScript
 (
 )
 )
+{
 return
 nonLazyScript
 (
@@ -4398,6 +4419,7 @@ isAsync
 (
 )
 ;
+}
 return
 false
 ;
@@ -4495,6 +4517,7 @@ maybeScript
 (
 )
 )
+{
 lazyScript
 (
 )
@@ -4505,6 +4528,7 @@ initScript
 script
 )
 ;
+}
 }
 flags_
 &
@@ -5611,6 +5635,7 @@ isExtended
 (
 )
 )
+{
 kind
 =
 js
@@ -5624,6 +5649,7 @@ AllocKind
 :
 FUNCTION_EXTENDED
 ;
+}
 MOZ_ASSERT_IF
 (
 isTenured

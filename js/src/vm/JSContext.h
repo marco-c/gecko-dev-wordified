@@ -1015,9 +1015,11 @@ MOZ_LIKELY
 p
 )
 )
+{
 return
 p
 ;
+}
 size_t
 bytes
 ;
@@ -1080,9 +1082,11 @@ if
 !
 p
 )
+{
 return
 nullptr
 ;
+}
 updateMallocCounter
 (
 bytes
@@ -4187,6 +4191,7 @@ initialized
 (
 )
 )
+{
 unwrappedException_
 .
 ref
@@ -4198,6 +4203,7 @@ init
 this
 )
 ;
+}
 return
 unwrappedException_
 .
@@ -4654,6 +4660,7 @@ initialized
 (
 )
 )
+{
 asyncStackForNewActivations_
 .
 ref
@@ -4665,6 +4672,7 @@ init
 this
 )
 ;
+}
 return
 asyncStackForNewActivations_
 .
