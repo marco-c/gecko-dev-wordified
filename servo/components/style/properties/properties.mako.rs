@@ -418,17 +418,6 @@ parser
 :
 ParserContext
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 use
 properties
 :
