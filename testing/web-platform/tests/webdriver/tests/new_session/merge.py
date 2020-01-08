@@ -86,7 +86,7 @@ def
 test_platform_name
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 platform_name
 body
 )
@@ -117,7 +117,7 @@ alwaysMatch
 "
 ]
 =
-add_browser_capabilites
+add_browser_capabilities
 (
 capabilities
 [
@@ -140,7 +140,7 @@ firstMatch
 0
 ]
 =
-add_browser_capabilites
+add_browser_capabilities
 (
 capabilities
 [
@@ -291,7 +291,7 @@ def
 test_merge_invalid
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 key
 value
 )
@@ -313,7 +313,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 key
@@ -376,7 +376,7 @@ def
 test_merge_platformName
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 platform_name
 )
 :
@@ -397,7 +397,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 "
@@ -506,7 +506,7 @@ def
 test_merge_browserName
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 )
 :
     
@@ -525,7 +525,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -595,7 +595,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 "

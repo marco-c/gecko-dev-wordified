@@ -17,7 +17,7 @@ def
 test_basic
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 )
 :
     
@@ -36,7 +36,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -75,7 +75,7 @@ def
 test_repeat_new_session
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 )
 :
     
@@ -94,7 +94,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -123,7 +123,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -169,7 +169,7 @@ def
 test_missing_first_match
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 )
 :
     
@@ -188,7 +188,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -205,7 +205,7 @@ def
 test_missing_always_match
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 )
 :
     
@@ -225,7 +225,7 @@ firstMatch
 "
 :
 [
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -243,7 +243,7 @@ def
 test_desired
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 )
 :
     
@@ -257,7 +257,7 @@ new_session
 desiredCapbilities
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -277,7 +277,7 @@ def
 test_ignore_non_spec_fields_in_capabilities
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 )
 :
     
@@ -297,7 +297,7 @@ capabilities
 alwaysMatch
 "
 :
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 }
@@ -349,7 +349,7 @@ def
 test_valid_but_unmatchable_key
 (
 new_session
-add_browser_capabilites
+add_browser_capabilities
 )
 :
     
@@ -370,7 +370,7 @@ firstMatch
 :
 [
         
-add_browser_capabilites
+add_browser_capabilities
 (
 {
 "
