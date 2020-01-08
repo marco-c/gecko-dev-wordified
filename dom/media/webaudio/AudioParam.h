@@ -212,7 +212,6 @@ aDefaultValue
 float
 aMinValue
 =
--
 std
 :
 :
@@ -222,7 +221,7 @@ float
 >
 :
 :
-infinity
+lowest
 (
 )
 float
@@ -237,7 +236,7 @@ float
 >
 :
 :
-infinity
+max
 (
 )
 )
