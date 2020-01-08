@@ -715,8 +715,6 @@ false
 ;
 this
 .
-log
-.
 debug
 (
 "
@@ -1423,8 +1421,6 @@ data
 {
 this
 .
-log
-.
 debug
 (
 "
@@ -1561,8 +1557,6 @@ ProfileAutocomplete
 ;
 this
 .
-log
-.
 debug
 (
 "
@@ -1629,8 +1623,6 @@ return
 ;
 }
 this
-.
-log
 .
 debug
 (
@@ -1861,8 +1853,6 @@ focusedInput
 )
 {
 this
-.
-log
 .
 debug
 (
@@ -2573,8 +2563,6 @@ try
 {
 this
 .
-log
-.
 debug
 (
 "
@@ -2594,8 +2582,6 @@ isAutofillEnabled
 )
 {
 this
-.
-log
 .
 debug
 (
@@ -2625,8 +2611,6 @@ domWin
 )
 {
 this
-.
-log
 .
 debug
 (
@@ -2663,8 +2647,6 @@ handler
 )
 {
 this
-.
-log
 .
 debug
 (
@@ -3353,22 +3335,19 @@ element
 {
 this
 .
-log
-.
 debug
 (
 "
 identifyAutofillFields
 :
 "
-"
-"
-+
 element
 .
 ownerDocument
 .
 location
+.
+href
 )
 ;
 if
@@ -3380,8 +3359,6 @@ savedFieldNames
 )
 {
 this
-.
-log
 .
 debug
 (
@@ -3459,8 +3436,6 @@ element
 {
 this
 .
-log
-.
 debug
 (
 "
@@ -3504,8 +3479,6 @@ formHandler
 )
 ;
 this
-.
-log
 .
 debug
 (
