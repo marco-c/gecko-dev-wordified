@@ -341,11 +341,18 @@ define
 MOZ_THROW_INLINE
 MOZ_ALWAYS_INLINE_EVEN_DEBUG
 #
+define
+MOZ_THROW_EXPORT
+#
 else
 #
 define
 MOZ_THROW_INLINE
 MOZ_ALWAYS_INLINE
+#
+define
+MOZ_THROW_EXPORT
+MOZ_EXPORT
 #
 endif
 namespace
@@ -400,7 +407,7 @@ at
 home
 !
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_bad_exception
@@ -421,7 +428,7 @@ bad_exception
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_bad_alloc
@@ -442,7 +449,7 @@ bad_alloc
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_bad_cast
@@ -463,7 +470,7 @@ bad_cast
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_bad_typeid
@@ -491,7 +498,7 @@ by
 functional
 >
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_bad_function_call
@@ -512,7 +519,7 @@ bad_function_call
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_logic_error
@@ -530,7 +537,7 @@ msg
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_domain_error
@@ -548,7 +555,7 @@ msg
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_invalid_argument
@@ -566,7 +573,7 @@ msg
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_length_error
@@ -584,7 +591,7 @@ msg
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_out_of_range
@@ -602,7 +609,7 @@ msg
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_runtime_error
@@ -620,7 +627,7 @@ msg
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_range_error
@@ -638,7 +645,7 @@ msg
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_overflow_error
@@ -656,7 +663,7 @@ msg
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_underflow_error
@@ -674,7 +681,7 @@ msg
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_ios_failure
@@ -692,7 +699,7 @@ msg
 ;
 }
 MOZ_THROW_NORETURN
-MOZ_EXPORT
+MOZ_THROW_EXPORT
 MOZ_THROW_INLINE
 void
 __throw_system_error
