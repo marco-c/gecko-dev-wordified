@@ -453,7 +453,11 @@ h
 #
 include
 "
-nsIRedirectChannelRegistrar
+mozilla
+/
+net
+/
+RedirectChannelRegistrar
 .
 h
 "
@@ -6170,9 +6174,11 @@ nsIRedirectChannelRegistrar
 >
 redirectReg
 =
-do_GetService
+RedirectChannelRegistrar
+:
+:
+GetOrCreate
 (
-NS_REDIRECTCHANNELREGISTRAR_CONTRACTID
 )
 ;
 MOZ_ASSERT
