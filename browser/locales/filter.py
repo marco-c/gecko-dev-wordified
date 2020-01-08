@@ -126,14 +126,6 @@ browser
 /
 extensions
 /
-onboarding
-"
-                   
-"
-browser
-/
-extensions
-/
 webcompat
 -
 reporter
