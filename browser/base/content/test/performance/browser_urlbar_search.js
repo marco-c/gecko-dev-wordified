@@ -1334,7 +1334,7 @@ gURLBar
 anonid
 "
 "
-textbox
+moz
 -
 input
 -
