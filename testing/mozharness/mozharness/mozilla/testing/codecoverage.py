@@ -963,8 +963,7 @@ tests
 '
 )
 )
-\
-            
+                                
 '
 config
 /
@@ -3094,6 +3093,7 @@ source_files
 ]
 =
 [
+                                
 sf
 for
 sf
@@ -3332,6 +3332,7 @@ self
 .
 parse_coverage_artifacts
 (
+                
 self
 .
 gcov_dir
@@ -3741,8 +3742,7 @@ coverage
 '
 ]
 )
-\
-                                 
+                         
 if
 cov
 is
@@ -3774,8 +3774,7 @@ coverage
 '
 ]
 )
-\
-                            
+                    
 if
 cov
 is

@@ -264,6 +264,7 @@ abs_mochitest_dir
 '
 browser
 '
+                          
 '
 browser
 -
@@ -493,7 +494,6 @@ subsuite
 '
 )
 )
-\
                                
 for
 t
@@ -507,7 +507,6 @@ not
 in
 t
 and
-\
                                
 t
 [
@@ -569,6 +568,7 @@ tests
 '
 layout
 '
+                          
 '
 reftests
 '
@@ -607,6 +607,7 @@ tests
 '
 testing
 '
+                          
 '
 crashtest
 '
@@ -1238,7 +1239,7 @@ mochitest
 -
 media
 '
-                     
+                    
 #
 below
 should
@@ -3086,7 +3087,7 @@ key
 for
 key
 in
-                    
+                              
 self
 .
 suites

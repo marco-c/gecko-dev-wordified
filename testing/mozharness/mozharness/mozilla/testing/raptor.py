@@ -927,6 +927,7 @@ config
 .
 get
 (
+            
 '
 mitmproxy
 '
@@ -1108,6 +1109,7 @@ path
 .
 join
 (
+            
 abs_dirs
 [
 '
@@ -1208,6 +1210,7 @@ self
 .
 fatal
 (
+                
 "
 Raptor
 requires
@@ -2667,7 +2670,7 @@ log_obj
 self
 .
 log_obj
-                                   
+                                    
 error_list
 =
 RaptorErrorList
@@ -3199,15 +3202,15 @@ cwd
 self
 .
 workdir
-                                            
+                                                
 output_timeout
 =
 output_timeout
-                                            
+                                                
 output_parser
 =
 parser
-                                            
+                                                
 env
 =
 env
