@@ -2081,6 +2081,15 @@ repeat
 10
         
 wpt_kwargs
+[
+"
+headless
+"
+]
+=
+False
+        
+wpt_kwargs
 =
 setup_wptrunner
 (
