@@ -886,6 +886,7 @@ time
 >
 MaxTimeMagnitude
 )
+{
 return
 ClippedTime
 (
@@ -900,6 +901,7 @@ double
 )
 )
 ;
+}
 /
 /
 Step

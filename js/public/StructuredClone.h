@@ -3288,6 +3288,7 @@ StructuredCloneScope
 :
 Unassigned
 )
+{
 MOZ_ASSERT
 (
 scope_
@@ -3306,6 +3307,7 @@ initialized
 "
 )
 ;
+}
 scope_
 =
 scope
@@ -3804,9 +3806,11 @@ RemainingInSegment
 )
 )
 )
+{
 return
 false
 ;
+}
 iter
 .
 Advance

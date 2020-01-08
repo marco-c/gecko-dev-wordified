@@ -1109,6 +1109,7 @@ elem
 :
 vector
 )
+{
 GCPolicy
 <
 T
@@ -1126,6 +1127,7 @@ element
 "
 )
 ;
+}
 }
 bool
 needsSweep
@@ -1197,6 +1199,7 @@ dst
 =
 src
 )
+{
 vector
 [
 dst
@@ -1211,6 +1214,7 @@ unbarrieredGet
 (
 )
 ;
+}
 dst
 +
 +
@@ -1226,6 +1230,7 @@ length
 (
 )
 )
+{
 vector
 .
 shrinkTo
@@ -1233,6 +1238,7 @@ shrinkTo
 dst
 )
 ;
+}
 }
 }
 ;

@@ -249,6 +249,7 @@ if
 *
 vp
 )
+{
 :
 :
 js
@@ -265,6 +266,7 @@ vp
 name
 )
 ;
+}
 }
 static
 bool

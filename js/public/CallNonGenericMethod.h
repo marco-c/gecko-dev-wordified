@@ -931,6 +931,7 @@ Test
 thisv
 )
 )
+{
 return
 Impl
 (
@@ -938,6 +939,7 @@ cx
 args
 )
 ;
+}
 return
 detail
 :
@@ -984,6 +986,7 @@ Test
 thisv
 )
 )
+{
 return
 Impl
 (
@@ -991,6 +994,7 @@ cx
 args
 )
 ;
+}
 return
 detail
 :

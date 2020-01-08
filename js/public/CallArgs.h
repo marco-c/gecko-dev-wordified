@@ -1203,9 +1203,11 @@ isMagic
 (
 )
 )
+{
 return
 false
 ;
+}
 #
 ifdef
 JS_DEBUG
@@ -1219,6 +1221,7 @@ usedRval
 (
 )
 )
+{
 CheckIsValidConstructible
 (
 calleev
@@ -1226,6 +1229,7 @@ calleev
 )
 )
 ;
+}
 #
 endif
 return
@@ -2157,6 +2161,7 @@ argc
 +
 i
 )
+{
 MOZ_ASSERT
 (
 ValueIsNotGray
@@ -2168,6 +2173,7 @@ i
 )
 )
 ;
+}
 #
 endif
 return

@@ -1751,9 +1751,11 @@ traceKind
 =
 OutOfLineTraceKindMask
 )
+{
 return
 traceKind
 ;
+}
 return
 outOfLineKind
 (
@@ -2160,9 +2162,11 @@ Symbol
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 is
@@ -2172,6 +2176,7 @@ JSString
 (
 )
 )
+{
 return
 JS
 :
@@ -2189,6 +2194,7 @@ asCell
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 is
@@ -2993,9 +2999,11 @@ grayWord
 grayMask
 )
 )
+{
 return
 false
 ;
+}
 uintptr_t
 *
 blackWord
@@ -3071,9 +3079,11 @@ IsInsideNursery
 cell
 )
 )
+{
 return
 false
 ;
+}
 return
 TenuredCellIsMarkedGray
 (
@@ -3263,9 +3273,11 @@ if
 !
 cell
 )
+{
 return
 false
 ;
+}
 auto
 location
 =
@@ -3339,9 +3351,11 @@ CellAlignBytes
 =
 0
 )
+{
 return
 false
 ;
+}
 auto
 location
 =
@@ -3363,6 +3377,7 @@ ChunkLocation
 :
 TenuredHeap
 )
+{
 return
 !
 !
@@ -3374,6 +3389,7 @@ GetGCThingZone
 addr
 )
 ;
+}
 if
 (
 location
@@ -3384,6 +3400,7 @@ ChunkLocation
 :
 Nursery
 )
+{
 return
 detail
 :
@@ -3393,6 +3410,7 @@ NurseryCellHasStoreBuffer
 cell
 )
 ;
+}
 return
 false
 ;
@@ -3412,9 +3430,11 @@ if
 !
 cell
 )
+{
 return
 true
 ;
+}
 return
 IsCellPointerValid
 (
@@ -3539,6 +3559,7 @@ str
 )
 )
 )
+{
 return
 js
 :
@@ -3560,6 +3581,7 @@ str
 )
 )
 ;
+}
 return
 GetNurseryStringZone
 (
@@ -3597,9 +3619,11 @@ mayBeOwnedByOtherRuntime
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 js
 :
@@ -4078,8 +4102,10 @@ asCell
 )
 )
 )
+{
 return
 ;
+}
 /
 /
 There
@@ -4110,8 +4136,10 @@ mayBeOwnedByOtherRuntime
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 IsIncrementalBarrierNeededOnTenuredGCThing
@@ -4119,6 +4147,7 @@ IsIncrementalBarrierNeededOnTenuredGCThing
 thing
 )
 )
+{
 JS
 :
 :
@@ -4127,6 +4156,7 @@ IncrementalReadBarrier
 thing
 )
 ;
+}
 else
 if
 (
@@ -4148,6 +4178,7 @@ asCell
 )
 )
 )
+{
 JS
 :
 :
@@ -4156,6 +4187,7 @@ UnmarkGrayGCThingRecursively
 thing
 )
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -4271,9 +4303,11 @@ objp
 )
 )
 )
+{
 return
 false
 ;
+}
 auto
 zone
 =
@@ -4311,9 +4345,11 @@ isGCSweepingOrCompacting
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 EdgeNeedsSweepUnbarrieredSlow
 (

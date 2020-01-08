@@ -520,6 +520,7 @@ if
 (
 ownsChars_
 )
+{
 js_free
 (
 const_cast
@@ -532,6 +533,7 @@ data_
 )
 )
 ;
+}
 }
 /
 *

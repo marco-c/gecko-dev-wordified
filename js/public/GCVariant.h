@@ -424,6 +424,7 @@ value
 |
 thing
 )
+{
 GCPolicy
 <
 T
@@ -438,6 +439,7 @@ thing
 name
 )
 ;
+}
 }
 template
 <
@@ -670,6 +672,7 @@ value
 |
 thing
 )
+{
 GCPolicy
 <
 T
@@ -684,6 +687,7 @@ thing
 name
 )
 ;
+}
 }
 else
 {

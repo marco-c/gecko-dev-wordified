@@ -1590,9 +1590,11 @@ ok
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 reportStrictErrorOrWarning
 (
@@ -4881,9 +4883,11 @@ flags
 ProtoKeyMask
 )
 )
+{
 return
 JSProto_Object
 ;
+}
 return
 JSProtoKey
 (
