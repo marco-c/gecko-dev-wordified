@@ -821,6 +821,12 @@ UpdateWakeLock
 )
 override
 ;
+bool
+ShouldCreateVideoWakeLock
+(
+)
+const
+;
 void
 CreateVideoWakeLockIfNeeded
 (

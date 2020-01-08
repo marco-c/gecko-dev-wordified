@@ -42937,6 +42937,10 @@ AudioCaptureStreamChangeIfNeeded
 )
 ;
 }
+UpdateWakeLock
+(
+)
+;
 }
 void
 HTMLMediaElement
