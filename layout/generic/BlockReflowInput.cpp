@@ -5771,10 +5771,7 @@ mBCoord
 floatDisplay
 -
 >
-PhysicalBreakType
-(
-wm
-)
+mBreakType
 )
 ;
 }
