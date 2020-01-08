@@ -17969,7 +17969,7 @@ None
                     
 console_output
 =
-False
+True
 exit_on_finish
 =
 False
