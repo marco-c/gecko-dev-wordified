@@ -720,7 +720,7 @@ tab
 const
 onMediaChange
 =
-waitForNEvents
+once
 (
 ui
 "
@@ -730,7 +730,6 @@ list
 -
 changed
 "
-2
 )
 ;
 await
