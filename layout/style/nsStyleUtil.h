@@ -202,6 +202,13 @@ mozilla
 class
 FontSlantStyle
 ;
+namespace
+dom
+{
+class
+Element
+;
+}
 }
 /
 /
