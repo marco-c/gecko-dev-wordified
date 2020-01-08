@@ -530,6 +530,16 @@ feature
 )
 ;
 }
+getActivePolicies
+(
+)
+{
+throw
+Cr
+.
+NS_ERROR_NOT_AVAILABLE
+;
+}
 }
 ;
 var
