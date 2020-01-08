@@ -345,11 +345,19 @@ bgp
 #
 ldap
         
+427
+#
+afp
+(
+alternate
+)
+        
 465
 #
 smtp
-+
-ssl
+(
+alternate
+)
         
 512
 #
@@ -389,6 +397,10 @@ netnews
 #
 uucp
         
+548
+#
+afp
+        
 556
 #
 remotefs
@@ -402,6 +414,9 @@ ssl
 587
 #
 smtp
+(
+outgoing
+)
         
 601
 #
@@ -417,7 +432,7 @@ ssl
         
 993
 #
-imap
+ldap
 +
 ssl
         
@@ -479,6 +494,12 @@ irc
 (
 alternate
 )
+        
+6697
+#
+irc
++
+tls
     
 ]
 def
