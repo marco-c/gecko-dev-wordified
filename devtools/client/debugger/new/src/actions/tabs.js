@@ -203,6 +203,9 @@ framework
 const
 {
 url
+id
+:
+sourceId
 }
 =
 source
@@ -232,6 +235,7 @@ UPDATE_TAB
 url
 framework
 isOriginal
+sourceId
 }
 ;
 }
@@ -244,6 +248,9 @@ source
 const
 {
 url
+id
+:
+sourceId
 }
 =
 source
@@ -272,6 +279,7 @@ ADD_TAB
 "
 url
 isOriginal
+sourceId
 }
 ;
 }

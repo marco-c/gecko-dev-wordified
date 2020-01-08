@@ -324,6 +324,13 @@ selected
 )
 ;
 await
+assertNodeIsFocused
+(
+dbg
+4
+)
+;
+await
 waitForSelectedSource
 (
 dbg
@@ -402,6 +409,13 @@ waitForSourceCount
 (
 dbg
 9
+)
+;
+await
+assertNodeIsFocused
+(
+dbg
+4
 )
 ;
 is

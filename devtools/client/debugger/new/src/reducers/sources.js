@@ -529,6 +529,15 @@ source
 url
 }
 ;
+if
+(
+action
+.
+source
+.
+url
+)
+{
 _prefs
 .
 prefs
@@ -537,6 +546,7 @@ pendingSelectedLocation
 =
 location
 ;
+}
 return
 {
 .
