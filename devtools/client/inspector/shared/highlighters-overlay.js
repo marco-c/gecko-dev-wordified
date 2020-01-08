@@ -6058,7 +6058,6 @@ highlighters
 .
 *
 /
-async
 destroy
 (
 )
