@@ -386,6 +386,8 @@ aAllocator
 ID3D11Device
 *
 aDevice
+bool
+aPreferNV12
 )
 ;
 gfx

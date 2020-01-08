@@ -284,6 +284,8 @@ aAllocator
 ID3D11Device
 *
 aDevice
+bool
+aPreferNV12
 )
 {
 if
@@ -293,6 +295,9 @@ aAllocator
 {
 if
 (
+aPreferNV12
+&
+&
 gfxPrefs
 :
 :
@@ -566,9 +571,9 @@ if
 desc
 .
 Format
+!
 =
-=
-DXGI_FORMAT_NV12
+DXGI_FORMAT_B8G8R8A8_UNORM
 )
 {
 nsAutoCString
