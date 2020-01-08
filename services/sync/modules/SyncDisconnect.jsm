@@ -1064,6 +1064,13 @@ Weave
 .
 Service
 .
+promiseInitialized
+;
+await
+Weave
+.
+Service
+.
 startOver
 (
 )
