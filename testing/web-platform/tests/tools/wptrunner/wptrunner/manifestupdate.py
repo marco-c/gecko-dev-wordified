@@ -642,9 +642,11 @@ return
 self
 .
 child_map
-[
+.
+get
+(
 test_id
-]
+)
     
 def
 has_test
