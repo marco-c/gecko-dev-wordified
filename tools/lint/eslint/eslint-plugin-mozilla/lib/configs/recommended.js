@@ -314,6 +314,11 @@ PlacesWeakCallbackWrapper
 "
 :
 false
+"
+PrioEncoder
+"
+:
+false
 /
 /
 Specific
