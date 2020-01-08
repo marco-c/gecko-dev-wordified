@@ -928,6 +928,13 @@ case
 unknown
 "
 :
+case
+"
+bad
+-
+perms
+"
+:
 /
 /
 Background

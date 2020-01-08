@@ -164,6 +164,8 @@ WCHAR
 name
 [
 MAX_PATH
++
+1
 ]
 ;
 }
@@ -179,6 +181,8 @@ WCHAR
 d_name
 [
 MAX_PATH
++
+1
 ]
 ;
 }
