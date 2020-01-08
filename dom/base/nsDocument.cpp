@@ -9983,11 +9983,6 @@ nsIDocument
 NS_INTERFACE_TABLE_ENTRY
 (
 nsDocument
-nsIDOMDocument
-)
-NS_INTERFACE_TABLE_ENTRY
-(
-nsDocument
 nsIDOMNode
 )
 NS_INTERFACE_TABLE_ENTRY
