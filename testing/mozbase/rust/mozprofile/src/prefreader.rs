@@ -4703,9 +4703,9 @@ let
 data
 =
 match
+*
 token
 {
-&
 PrefToken
 :
 :
@@ -4718,7 +4718,6 @@ _
 "
 pref
 "
-&
 PrefToken
 :
 :
@@ -4731,7 +4730,6 @@ _
 "
 user_pref
 "
-&
 PrefToken
 :
 :
@@ -4744,7 +4742,6 @@ _
 "
 sticky_pref
 "
-&
 PrefToken
 :
 :
@@ -4804,7 +4801,6 @@ push_str
 *
 data_buf
 }
-&
 PrefToken
 :
 :
@@ -4855,7 +4851,6 @@ borrow
 *
 data_buf
 }
-&
 PrefToken
 :
 :
@@ -4905,7 +4900,6 @@ borrow
 *
 data_buf
 }
-&
 PrefToken
 :
 :
@@ -4928,7 +4922,6 @@ data
 *
 data_buf
 }
-&
 PrefToken
 :
 :
@@ -4940,7 +4933,6 @@ _
 >
 "
 "
-&
 PrefToken
 :
 :
@@ -4955,7 +4947,6 @@ _
 \
 n
 "
-&
 PrefToken
 :
 :
@@ -5021,7 +5012,6 @@ push
 *
 data_buf
 }
-&
 PrefToken
 :
 :
@@ -5050,7 +5040,6 @@ to_string
 *
 data_buf
 }
-&
 PrefToken
 :
 :
@@ -5076,7 +5065,6 @@ false
 "
 }
 }
-&
 PrefToken
 :
 :
