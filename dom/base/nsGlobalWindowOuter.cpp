@@ -31476,6 +31476,12 @@ nsIWebProgressListener
 STATE_BLOCKED_UNSAFE_CONTENT
 ;
 }
+const
+uint32_t
+oldState
+=
+state
+;
 state
 |
 =
@@ -31487,7 +31493,14 @@ eventSink
 OnSecurityChange
 (
 aChannel
+oldState
 state
+doc
+-
+>
+GetContentBlockingLog
+(
+)
 )
 ;
 }
