@@ -1757,7 +1757,7 @@ case
 EditSubAction
 :
 :
-insertText
+eInsertText
 :
 case
 EditSubAction
@@ -4672,7 +4672,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertText
+eInsertText
 /
 /
 don

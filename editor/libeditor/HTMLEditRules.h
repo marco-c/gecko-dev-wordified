@@ -1064,7 +1064,7 @@ or
 EditSubAction
 :
 :
-insertText
+eInsertText
 .
 *
 param

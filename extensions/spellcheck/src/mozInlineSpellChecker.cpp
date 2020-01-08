@@ -1368,12 +1368,14 @@ aEditSubAction
 EditSubAction
 :
 :
-insertText
+eInsertText
 )
+{
 mCreatedRange
 =
 mRange
 ;
+}
 /
 /
 if

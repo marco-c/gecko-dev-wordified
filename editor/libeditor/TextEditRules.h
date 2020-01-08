@@ -1045,7 +1045,7 @@ or
 EditSubAction
 :
 :
-insertText
+eInsertText
 .
 *
 param
@@ -3198,7 +3198,7 @@ mEditSubAction
 EditSubAction
 :
 :
-insertText
+eInsertText
 /
 EditSubAction
 :
