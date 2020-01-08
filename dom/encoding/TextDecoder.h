@@ -269,6 +269,10 @@ mFatal
 (
 false
 )
+mIgnoreBOM
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -646,6 +650,16 @@ return
 mFatal
 ;
 }
+bool
+IgnoreBOM
+(
+)
+const
+{
+return
+mIgnoreBOM
+;
+}
 private
 :
 nsCString
@@ -665,6 +679,9 @@ mDecoder
 ;
 bool
 mFatal
+;
+bool
+mIgnoreBOM
 ;
 }
 ;
