@@ -4344,6 +4344,17 @@ nsAString
 aOrigin
 )
 ;
+const
+nsTArray
+<
+nsString
+>
+&
+GetFirstPartyStorageAccessGrantedOrigins
+(
+)
+const
+;
 bool
 IsFirstPartyStorageAccessGrantedFor
 (
