@@ -88,11 +88,6 @@ IsExtensible
 target
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

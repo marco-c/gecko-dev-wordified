@@ -108,9 +108,6 @@ class
 fields
 -
 public
-new
-.
-target
 ]
 flags
 :

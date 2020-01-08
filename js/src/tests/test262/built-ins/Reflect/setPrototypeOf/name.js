@@ -83,14 +83,6 @@ propertyHelper
 .
 js
 ]
-features
-:
-[
-Reflect
-Reflect
-.
-setPrototypeOf
-]
 -
 -
 -

@@ -80,9 +80,6 @@ args
 features
 :
 [
-new
-.
-target
 Reflect
 ]
 -

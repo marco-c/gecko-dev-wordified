@@ -173,11 +173,6 @@ handlerProto
 .
 .
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

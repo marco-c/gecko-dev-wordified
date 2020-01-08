@@ -59,7 +59,6 @@ Symbol
 features
 :
 [
-Proxy
 Symbol
 ]
 -

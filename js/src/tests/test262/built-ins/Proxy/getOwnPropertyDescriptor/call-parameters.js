@@ -87,11 +87,6 @@ P
 .
 .
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

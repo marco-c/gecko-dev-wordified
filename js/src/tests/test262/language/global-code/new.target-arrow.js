@@ -210,9 +210,6 @@ features
 arrow
 -
 function
-new
-.
-target
 ]
 negative
 :

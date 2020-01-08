@@ -191,11 +191,6 @@ GetPrototypeOf
 Return
 handlerProto
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

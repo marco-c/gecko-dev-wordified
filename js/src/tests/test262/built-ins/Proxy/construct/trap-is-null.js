@@ -174,11 +174,6 @@ undefined
 features
 :
 [
-new
-.
-target
-Proxy
-Reflect
 Reflect
 .
 construct

@@ -53,11 +53,6 @@ if
 handler
 is
 null
-features
-:
-[
-Proxy
-]
 -
 -
 -

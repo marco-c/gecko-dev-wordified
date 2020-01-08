@@ -96,11 +96,6 @@ a
 particular
 function
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

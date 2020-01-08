@@ -82,11 +82,6 @@ ReturnIfAbrupt
 trapResult
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

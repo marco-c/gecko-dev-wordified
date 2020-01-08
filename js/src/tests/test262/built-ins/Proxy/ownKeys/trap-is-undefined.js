@@ -81,11 +81,6 @@ OwnPropertyKeys
 ]
 (
 )
-features
-:
-[
-Proxy
-]
 -
 -
 -

@@ -591,7 +591,7 @@ sameValue
 (
 Atomics
 .
-notify
+wake
 (
 i32a
 0
@@ -600,7 +600,7 @@ i32a
 '
 Atomics
 .
-notify
+wake
 (
 i32a
 0

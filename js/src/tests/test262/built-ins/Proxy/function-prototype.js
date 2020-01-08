@@ -75,11 +75,6 @@ FunctionPrototype
 3
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

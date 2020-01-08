@@ -74,11 +74,6 @@ P
 Receiver
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

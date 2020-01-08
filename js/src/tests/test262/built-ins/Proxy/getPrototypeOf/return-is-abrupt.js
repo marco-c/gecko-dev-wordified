@@ -71,11 +71,6 @@ ReturnIfAbrupt
 handlerProto
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

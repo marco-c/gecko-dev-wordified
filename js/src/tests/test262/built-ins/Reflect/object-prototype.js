@@ -73,11 +73,6 @@ ObjectPrototype
 3
 )
 .
-features
-:
-[
-Reflect
-]
 -
 -
 -

@@ -127,13 +127,6 @@ parse
 type
 :
 SyntaxError
-features
-:
-[
-new
-.
-target
-]
 -
 -
 -

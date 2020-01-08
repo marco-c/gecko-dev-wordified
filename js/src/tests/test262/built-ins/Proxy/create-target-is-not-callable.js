@@ -133,11 +133,6 @@ a
 TypeError
 exception
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

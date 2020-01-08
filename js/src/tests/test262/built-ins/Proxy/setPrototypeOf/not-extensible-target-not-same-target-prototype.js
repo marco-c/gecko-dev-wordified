@@ -207,8 +207,6 @@ exception
 features
 :
 [
-Proxy
-Reflect
 Reflect
 .
 setPrototypeOf

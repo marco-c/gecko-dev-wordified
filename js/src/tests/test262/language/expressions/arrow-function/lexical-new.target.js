@@ -197,16 +197,6 @@ of
 the
 ArrowFunction
 .
-features
-:
-[
-arrow
--
-function
-new
-.
-target
-]
 -
 -
 -

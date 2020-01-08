@@ -97,13 +97,7 @@ newTarget
 features
 :
 [
-new
-.
-target
 Reflect
-Reflect
-.
-construct
 ]
 -
 -

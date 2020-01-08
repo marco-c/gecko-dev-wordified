@@ -99,11 +99,6 @@ OwnPropertyKeys
 Return
 trapResult
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

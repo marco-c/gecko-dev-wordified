@@ -117,14 +117,6 @@ false
 .
 .
 .
-features
-:
-[
-Reflect
-Reflect
-.
-setPrototypeOf
-]
 -
 -
 -

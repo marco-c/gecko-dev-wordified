@@ -138,13 +138,6 @@ GetValue
 exprRef
 )
 .
-features
-:
-[
-new
-.
-target
-]
 -
 -
 -

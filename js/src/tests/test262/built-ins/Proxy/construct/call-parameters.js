@@ -103,11 +103,6 @@ argArray
 newTarget
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

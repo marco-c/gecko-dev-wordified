@@ -107,11 +107,6 @@ descObj
 .
 .
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

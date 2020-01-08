@@ -196,14 +196,6 @@ slot
 .
 .
 .
-features
-:
-[
-Reflect
-Reflect
-.
-setPrototypeOf
-]
 -
 -
 -

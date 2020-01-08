@@ -93,11 +93,6 @@ target
 .
 .
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

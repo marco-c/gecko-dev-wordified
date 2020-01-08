@@ -69,11 +69,6 @@ Functions
 Return
 undefined
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

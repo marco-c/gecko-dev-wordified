@@ -77,11 +77,6 @@ ReturnIfAbrupt
 booleanTrapResult
 )
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

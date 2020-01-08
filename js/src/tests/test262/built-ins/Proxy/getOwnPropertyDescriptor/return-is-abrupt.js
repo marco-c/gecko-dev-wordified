@@ -86,11 +86,6 @@ trapResultObj
 .
 .
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

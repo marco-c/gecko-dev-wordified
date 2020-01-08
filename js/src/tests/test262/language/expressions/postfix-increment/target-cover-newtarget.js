@@ -130,13 +130,6 @@ parse
 type
 :
 ReferenceError
-features
-:
-[
-new
-.
-target
-]
 -
 -
 -

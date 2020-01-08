@@ -73,11 +73,6 @@ that
 requires
 initialization
 .
-features
-:
-[
-Proxy
-]
 -
 -
 -

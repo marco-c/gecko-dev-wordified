@@ -60,12 +60,6 @@ a
 Boolean
 value
 .
-features
-:
-[
-Proxy
-Reflect
-]
 -
 -
 -
