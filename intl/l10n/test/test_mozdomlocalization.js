@@ -241,6 +241,17 @@ equal
 typeof
 domLocalization
 .
+registerObservers
+"
+function
+"
+)
+;
+equal
+(
+typeof
+domLocalization
+.
 formatMessages
 "
 function
