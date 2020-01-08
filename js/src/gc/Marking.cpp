@@ -9688,7 +9688,7 @@ ScopeKind
 :
 Function
 :
-reinterpret_cast
+static_cast
 <
 FunctionScope
 :
@@ -9720,7 +9720,7 @@ ScopeKind
 :
 ParameterExpressionVar
 :
-reinterpret_cast
+static_cast
 <
 VarScope
 :
@@ -9770,7 +9770,7 @@ ScopeKind
 :
 StrictNamedLambda
 :
-reinterpret_cast
+static_cast
 <
 LexicalScope
 :
@@ -9802,7 +9802,7 @@ ScopeKind
 :
 NonSyntactic
 :
-reinterpret_cast
+static_cast
 <
 GlobalScope
 :
@@ -9834,7 +9834,7 @@ ScopeKind
 :
 StrictEval
 :
-reinterpret_cast
+static_cast
 <
 EvalScope
 :
@@ -9860,7 +9860,7 @@ ScopeKind
 :
 Module
 :
-reinterpret_cast
+static_cast
 <
 ModuleScope
 :
@@ -9894,7 +9894,7 @@ ScopeKind
 :
 WasmInstance
 :
-reinterpret_cast
+static_cast
 <
 WasmInstanceScope
 :
@@ -9920,7 +9920,7 @@ ScopeKind
 :
 WasmFunction
 :
-reinterpret_cast
+static_cast
 <
 WasmFunctionScope
 :
@@ -10036,7 +10036,7 @@ Data
 *
 data
 =
-reinterpret_cast
+static_cast
 <
 FunctionScope
 :
@@ -10105,7 +10105,7 @@ Data
 *
 data
 =
-reinterpret_cast
+static_cast
 <
 VarScope
 :
@@ -10176,7 +10176,7 @@ Data
 *
 data
 =
-reinterpret_cast
+static_cast
 <
 LexicalScope
 :
@@ -10229,7 +10229,7 @@ Data
 *
 data
 =
-reinterpret_cast
+static_cast
 <
 GlobalScope
 :
@@ -10282,7 +10282,7 @@ Data
 *
 data
 =
-reinterpret_cast
+static_cast
 <
 EvalScope
 :
@@ -10329,7 +10329,7 @@ Data
 *
 data
 =
-reinterpret_cast
+static_cast
 <
 ModuleScope
 :
@@ -10400,7 +10400,7 @@ Data
 *
 data
 =
-reinterpret_cast
+static_cast
 <
 WasmInstanceScope
 :
@@ -10463,7 +10463,7 @@ Data
 *
 data
 =
-reinterpret_cast
+static_cast
 <
 WasmFunctionScope
 :

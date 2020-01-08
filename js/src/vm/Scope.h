@@ -231,6 +231,9 @@ namespace
 js
 {
 class
+BaseScopeData
+;
+class
 ModuleObject
 ;
 class
@@ -1698,7 +1701,8 @@ environmentShape_
 ;
 protected
 :
-uintptr_t
+BaseScopeData
+*
 data_
 ;
 Scope
@@ -1723,7 +1727,7 @@ environmentShape
 )
 data_
 (
-0
+nullptr
 )
 {
 paddedKind_
@@ -1856,16 +1860,10 @@ data_
 ;
 data_
 =
-reinterpret_cast
-<
-uintptr_t
->
-(
 data
 .
 release
 (
-)
 )
 ;
 }
@@ -2492,6 +2490,7 @@ newLexicalScopeData
 struct
 Data
 :
+public
 BaseScopeData
 {
 /
@@ -2689,7 +2688,7 @@ data
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -2709,7 +2708,7 @@ const
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -3051,6 +3050,7 @@ newFunctionScopeData
 struct
 Data
 :
+public
 BaseScopeData
 {
 /
@@ -3556,7 +3556,7 @@ data
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -3576,7 +3576,7 @@ const
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -3877,6 +3877,7 @@ newVarScopeData
 struct
 Data
 :
+public
 BaseScopeData
 {
 /
@@ -4051,7 +4052,7 @@ data
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -4071,7 +4072,7 @@ const
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -4560,7 +4561,7 @@ data
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -4580,7 +4581,7 @@ const
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -4868,6 +4869,7 @@ newEvalScopeData
 struct
 Data
 :
+public
 BaseScopeData
 {
 /
@@ -5096,7 +5098,7 @@ data
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -5116,7 +5118,7 @@ const
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -5627,7 +5629,7 @@ data
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -5647,7 +5649,7 @@ const
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -5736,6 +5738,7 @@ public
 struct
 Data
 :
+public
 BaseScopeData
 {
 uint32_t
@@ -5832,7 +5835,7 @@ data
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -5852,7 +5855,7 @@ const
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -5988,6 +5991,7 @@ public
 struct
 Data
 :
+public
 BaseScopeData
 {
 uint32_t
@@ -6061,7 +6065,7 @@ data
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
@@ -6081,7 +6085,7 @@ const
 {
 return
 *
-reinterpret_cast
+static_cast
 <
 Data
 *
