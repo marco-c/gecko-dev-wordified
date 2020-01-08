@@ -3152,10 +3152,6 @@ nsDependentAtomString
 (
 aProperty
 )
-CSSEnabledState
-:
-:
-eForAllContent
 )
 ;
 MOZ_ASSERT

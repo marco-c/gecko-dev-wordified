@@ -7303,10 +7303,6 @@ nsDependentAtomString
 (
 aMappedAttrName
 )
-CSSEnabledState
-:
-:
-eForAllContent
 )
 ;
 if

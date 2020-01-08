@@ -3897,6 +3897,16 @@ ComputedStyleBorrowed
 ;
 SERVO_BINDING_FUNC
 (
+Servo_Property_LookupEnabledForAllContent
+nsCSSPropertyID
+const
+nsACString
+*
+name
+)
+;
+SERVO_BINDING_FUNC
+(
 Servo_Property_IsShorthand
 bool
 const
