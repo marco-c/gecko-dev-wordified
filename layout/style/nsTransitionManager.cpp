@@ -1601,7 +1601,7 @@ aElapsedTime
 const
 TimeStamp
 &
-aTimeStamp
+aScheduledEventTimeStamp
 )
 {
 double
@@ -1722,7 +1722,7 @@ Target
 )
 aMessage
 elapsedTime
-aTimeStamp
+aScheduledEventTimeStamp
 this
 )
 )
