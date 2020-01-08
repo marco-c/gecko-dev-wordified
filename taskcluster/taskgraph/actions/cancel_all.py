@@ -190,6 +190,12 @@ params
 )
         
 response
+.
+raise_for_status
+(
+)
+        
+response
 =
 response
 .
