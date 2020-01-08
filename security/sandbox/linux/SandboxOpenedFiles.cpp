@@ -309,9 +309,6 @@ const
 {
 int
 fd
-=
--
-1
 ;
 if
 (

@@ -961,6 +961,17 @@ line
 more
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+break
+;
+}
 /
 /
 Cut
