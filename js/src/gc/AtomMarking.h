@@ -442,7 +442,7 @@ bitmap
 |
 .
 void
-updateZoneBitmap
+refineZoneBitmapForCollectedZone
 (
 Zone
 *
@@ -472,13 +472,14 @@ in
 any
 /
 /
+uncollected
 zone
 in
 the
 runtime
 .
 void
-updateChunkMarkBits
+markAtomsUsedByUncollectedZones
 (
 JSRuntime
 *

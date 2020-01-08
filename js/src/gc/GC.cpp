@@ -33376,7 +33376,7 @@ gc
 .
 atomMarking
 .
-updateZoneBitmap
+refineZoneBitmapForCollectedZone
 (
 zone
 marked
@@ -33393,9 +33393,9 @@ in
 computeBitmapFromChunkMarkBits
 .
 The
-updateZoneBitmap
 /
 /
+refineZoneBitmapForCollectedZone
 call
 can
 only
@@ -33403,13 +33403,13 @@ remove
 atoms
 from
 the
+/
+/
 zone
 bitmap
 so
 it
 is
-/
-/
 conservative
 to
 just
@@ -33425,7 +33425,7 @@ gc
 .
 atomMarking
 .
-updateChunkMarkBits
+markAtomsUsedByUncollectedZones
 (
 runtime
 )
