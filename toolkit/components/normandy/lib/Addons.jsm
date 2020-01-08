@@ -733,6 +733,7 @@ found
 )
 ;
 }
+await
 addon
 .
 uninstall

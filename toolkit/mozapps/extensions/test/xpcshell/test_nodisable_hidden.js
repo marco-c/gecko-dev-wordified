@@ -457,6 +457,7 @@ extension
 "
 )
 ;
+await
 addon
 .
 uninstall

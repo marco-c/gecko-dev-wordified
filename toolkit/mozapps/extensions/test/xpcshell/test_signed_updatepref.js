@@ -723,6 +723,7 @@ AddonManager
 SIGNEDSTATE_MISSING
 )
 ;
+await
 addon
 .
 uninstall
@@ -925,6 +926,7 @@ AddonManager
 SIGNEDSTATE_MISSING
 )
 ;
+await
 addon
 .
 uninstall

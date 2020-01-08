@@ -465,6 +465,7 @@ fails
 "
 )
 ;
+await
 addon
 .
 uninstall

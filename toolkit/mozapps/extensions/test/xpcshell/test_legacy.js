@@ -758,6 +758,7 @@ appDisabled
 false
 )
 ;
+await
 addon
 .
 uninstall
@@ -803,6 +804,7 @@ appDisabled
 true
 )
 ;
+await
 addon
 .
 uninstall

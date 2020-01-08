@@ -1003,6 +1003,7 @@ org
 "
 )
 ;
+await
 a1
 .
 uninstall
@@ -1242,6 +1243,7 @@ AddonManager
 SCOPE_PROFILE
 )
 ;
+await
 a1
 .
 uninstall
@@ -1380,6 +1382,7 @@ AddonManager
 SCOPE_PROFILE
 )
 ;
+await
 a1
 .
 uninstall

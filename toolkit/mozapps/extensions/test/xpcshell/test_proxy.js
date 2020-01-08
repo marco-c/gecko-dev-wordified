@@ -446,6 +446,7 @@ exists
 )
 )
 ;
+await
 addon
 .
 uninstall

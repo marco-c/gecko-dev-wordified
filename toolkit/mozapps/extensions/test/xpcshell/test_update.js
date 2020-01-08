@@ -1660,6 +1660,7 @@ end_test
 (
 )
 ;
+await
 a1
 .
 uninstall
@@ -1866,6 +1867,7 @@ a2
 appDisabled
 )
 ;
+await
 a2
 .
 uninstall
@@ -2259,6 +2261,7 @@ a3
 appDisabled
 )
 ;
+await
 a3
 .
 uninstall
@@ -2528,6 +2531,7 @@ end_test
 (
 )
 ;
+await
 a1
 .
 uninstall
@@ -4188,6 +4192,7 @@ PARAM_IDS
 )
 )
 {
+await
 addon
 .
 uninstall
@@ -4559,6 +4564,7 @@ a4
 isCompatible
 )
 ;
+await
 a4
 .
 uninstall
@@ -4885,6 +4891,7 @@ a7
 appDisabled
 )
 ;
+await
 a7
 .
 uninstall
@@ -5451,6 +5458,7 @@ version
 "
 )
 ;
+await
 a1
 .
 uninstall
@@ -5475,6 +5483,7 @@ version
 "
 )
 ;
+await
 a8
 .
 uninstall
@@ -5645,6 +5654,7 @@ a2
 syncGUID
 )
 ;
+await
 a2
 .
 uninstall
@@ -5923,6 +5933,7 @@ org
 "
 )
 ;
+await
 a9
 .
 uninstall
@@ -6106,6 +6117,7 @@ update
 "
 )
 ;
+await
 a10
 .
 uninstall
@@ -6287,6 +6299,7 @@ update
 "
 )
 ;
+await
 a11
 .
 uninstall
@@ -6558,6 +6571,7 @@ end_test
 (
 )
 ;
+await
 a12
 .
 uninstall
@@ -6597,6 +6611,7 @@ addon
 of
 addons
 )
+await
 addon
 .
 uninstall

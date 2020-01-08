@@ -2020,6 +2020,7 @@ original
 add
 -
 on
+await
 addon
 .
 uninstall
@@ -2140,21 +2141,11 @@ ID
 )
 ;
 await
-Promise
-.
-all
-(
-[
 AddonManager
 .
 installTemporaryAddon
 (
 webext
-)
-promiseWebExtensionStartup
-(
-)
-]
 )
 ;
 let
@@ -2339,21 +2330,11 @@ ID
 )
 ;
 await
-Promise
-.
-all
-(
-[
 AddonManager
 .
 installTemporaryAddon
 (
 webext
-)
-promiseWebExtensionStartup
-(
-)
-]
 )
 ;
 addon
@@ -2482,6 +2463,7 @@ AddonManager
 SIGNEDSTATE_NOT_REQUIRED
 )
 ;
+await
 addon
 .
 uninstall
@@ -3014,6 +2996,7 @@ AddonManager
 SIGNEDSTATE_NOT_REQUIRED
 )
 ;
+await
 addon
 .
 uninstall
@@ -3160,6 +3143,7 @@ remove
 true
 )
 ;
+await
 addon
 .
 uninstall
@@ -3587,6 +3571,7 @@ promiseAddonByID
 ID
 )
 ;
+await
 addon
 .
 uninstall
@@ -3978,6 +3963,7 @@ promiseAddonByID
 ID
 )
 ;
+await
 addon
 .
 uninstall
@@ -4432,6 +4418,7 @@ promiseAddonByID
 ID
 )
 ;
+await
 addon
 .
 uninstall
@@ -4921,6 +4908,7 @@ AddonManager
 SIGNEDSTATE_NOT_REQUIRED
 )
 ;
+await
 tempAddon
 .
 uninstall
@@ -5079,6 +5067,7 @@ AddonManager
 SIGNEDSTATE_NOT_REQUIRED
 )
 ;
+await
 addon
 .
 uninstall

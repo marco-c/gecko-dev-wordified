@@ -412,6 +412,7 @@ info
 (
 "
 Wait
+for
 the
 options_ui
 page
@@ -639,6 +640,7 @@ info
 (
 "
 Wait
+for
 the
 new
 options_ui

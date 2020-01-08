@@ -1855,6 +1855,7 @@ difference
 MAX_TIME_DIFFERENCE
 )
 ;
+await
 a1
 .
 uninstall
@@ -2887,6 +2888,7 @@ a2
 updateDate
 )
 ;
+await
 a2
 .
 uninstall
@@ -3308,6 +3310,7 @@ exists
 )
 )
 ;
+await
 a3
 .
 uninstall
@@ -3522,6 +3525,7 @@ exists
 )
 )
 ;
+await
 a3
 .
 uninstall
@@ -4516,6 +4520,7 @@ false
 }
 )
 ;
+await
 a2_2
 .
 uninstall
@@ -4812,6 +4817,7 @@ false
 }
 )
 ;
+await
 a2_2
 .
 uninstall
@@ -5120,6 +5126,7 @@ false
 }
 )
 ;
+await
 a2_2
 .
 uninstall
@@ -5370,6 +5377,7 @@ description
 "
 )
 ;
+await
 a2
 .
 uninstall
@@ -5573,6 +5581,7 @@ description
 "
 )
 ;
+await
 a2
 .
 uninstall
@@ -5751,6 +5760,7 @@ description
 "
 )
 ;
+await
 a2
 .
 uninstall
@@ -5978,6 +5988,7 @@ removeAddonListener
 AddonListener
 )
 ;
+await
 install
 .
 addon
@@ -6217,6 +6228,7 @@ removeAddonListener
 AddonListener
 )
 ;
+await
 install
 .
 addon
@@ -7015,6 +7027,7 @@ removeAddonListener
 AddonListener
 )
 ;
+await
 install
 .
 addon

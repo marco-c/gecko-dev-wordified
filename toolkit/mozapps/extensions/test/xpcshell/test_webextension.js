@@ -128,6 +128,7 @@ add_task
 (
 async
 function
+test_1
 (
 )
 {
@@ -692,11 +693,6 @@ enable
 (
 )
 ;
-await
-promiseWebExtensionStartup
-(
-)
-;
 equal
 (
 GlobalManager
@@ -719,6 +715,7 @@ ID
 )
 )
 ;
+await
 addon
 .
 uninstall
@@ -773,6 +770,7 @@ add_task
 (
 async
 function
+test_2
 (
 )
 {
@@ -957,6 +955,7 @@ exists
 )
 )
 ;
+await
 addon
 .
 uninstall
@@ -1169,6 +1168,7 @@ on
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -1190,6 +1190,7 @@ add_task
 (
 async
 function
+test_3
 (
 )
 {
@@ -1286,6 +1287,7 @@ add_task
 (
 async
 function
+test_4
 (
 )
 {
@@ -1574,6 +1576,7 @@ html
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -1690,6 +1693,7 @@ html
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -1826,6 +1830,7 @@ dependencies
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -1988,6 +1993,7 @@ en
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -2111,6 +2117,7 @@ net
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -2193,6 +2200,7 @@ creator
 null
 )
 ;
+await
 addon
 .
 uninstall
@@ -2413,6 +2421,7 @@ AddonManager
 SIGNEDSTATE_NOT_REQUIRED
 )
 ;
+await
 addon
 .
 uninstall
@@ -2504,6 +2513,7 @@ addon
 isWebExtension
 )
 ;
+await
 addon
 .
 uninstall
@@ -2585,21 +2595,11 @@ ID
 )
 ;
 await
-Promise
-.
-all
-(
-[
 AddonManager
 .
 installTemporaryAddon
 (
 webext
-)
-promiseWebExtensionStartup
-(
-)
-]
 )
 ;
 let
@@ -2787,21 +2787,11 @@ png
 )
 ;
 await
-Promise
-.
-all
-(
-[
 AddonManager
 .
 installTemporaryAddon
 (
 webext2
-)
-promiseWebExtensionStartup
-(
-)
-]
 )
 ;
 addon
@@ -2912,6 +2902,7 @@ addon
 isWebExtension
 )
 ;
+await
 addon
 .
 uninstall

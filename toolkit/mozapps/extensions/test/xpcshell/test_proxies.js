@@ -970,6 +970,7 @@ as
 expected
 )
 ;
+await
 addon
 .
 uninstall
@@ -1347,6 +1348,7 @@ addon
 null
 )
 ;
+await
 addon
 .
 uninstall

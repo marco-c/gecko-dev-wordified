@@ -1501,6 +1501,7 @@ onUninstalling
 ID
 )
 ;
+await
 theme
 .
 uninstall
@@ -1576,6 +1577,7 @@ canceled
 "
 )
 ;
+await
 theme
 .
 uninstall
@@ -1766,6 +1768,7 @@ theme
 "
 )
 ;
+await
 addon
 .
 uninstall

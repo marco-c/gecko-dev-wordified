@@ -222,6 +222,7 @@ add_task
 (
 async
 function
+test_1
 (
 )
 {
@@ -571,6 +572,7 @@ add_task
 (
 async
 function
+test_2
 (
 )
 {
@@ -919,6 +921,7 @@ add_task
 (
 async
 function
+test_3
 (
 )
 {

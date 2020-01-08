@@ -426,6 +426,7 @@ check_icons
 addon
 )
 ;
+await
 addon
 .
 uninstall
@@ -573,6 +574,7 @@ png
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -669,6 +671,7 @@ addon
 null
 )
 ;
+await
 addon
 .
 uninstall

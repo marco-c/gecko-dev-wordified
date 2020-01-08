@@ -4156,6 +4156,17 @@ _onAddonChange
 )
 ;
 }
+onUninstalled
+(
+)
+{
+this
+.
+_onAddonChange
+(
+)
+;
+}
 _onAddonChange
 (
 )

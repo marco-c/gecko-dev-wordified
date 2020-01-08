@@ -655,6 +655,7 @@ getActiveVersion
 1
 )
 ;
+await
 addon
 .
 uninstall
@@ -804,6 +805,7 @@ getActiveVersion
 1
 )
 ;
+await
 addon
 .
 uninstall
@@ -948,6 +950,7 @@ getActiveVersion
 1
 )
 ;
+await
 addon
 .
 uninstall
@@ -1270,6 +1273,7 @@ ids
 ID
 )
 ;
+await
 addon
 .
 uninstall
@@ -1413,6 +1417,7 @@ AddonManager
 SIGNEDSTATE_MISSING
 )
 ;
+await
 addon
 .
 uninstall
@@ -1552,6 +1557,7 @@ AddonManager
 SIGNEDSTATE_BROKEN
 )
 ;
+await
 addon
 .
 uninstall
@@ -1686,6 +1692,7 @@ AddonManager
 SIGNEDSTATE_BROKEN
 )
 ;
+await
 addon
 .
 uninstall
@@ -1974,6 +1981,7 @@ ids
 ID
 )
 ;
+await
 addon
 .
 uninstall
@@ -2379,6 +2387,7 @@ getActiveVersion
 2
 )
 ;
+await
 addon
 .
 uninstall
@@ -2536,6 +2545,7 @@ getActiveVersion
 2
 )
 ;
+await
 addon
 .
 uninstall

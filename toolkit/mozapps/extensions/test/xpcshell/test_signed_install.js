@@ -933,6 +933,7 @@ leafName
 null
 )
 ;
+await
 install
 .
 addon
@@ -1083,6 +1084,7 @@ rdf
 null
 )
 ;
+await
 addon
 .
 uninstall
@@ -1233,6 +1235,7 @@ rdf
 null
 )
 ;
+await
 install
 .
 addon

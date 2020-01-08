@@ -516,6 +516,7 @@ onUninstalling
 }
 )
 ;
+await
 a1
 .
 uninstall
@@ -628,6 +629,7 @@ onUninstalled
 }
 )
 ;
+await
 a1
 .
 uninstall
@@ -856,6 +858,7 @@ onUninstalling
 }
 )
 ;
+await
 a1
 .
 uninstall
@@ -1155,6 +1158,7 @@ a1
 userDisabled
 )
 ;
+await
 a1
 .
 uninstall
@@ -1333,6 +1337,7 @@ onUninstalling
 }
 )
 ;
+await
 a1
 .
 uninstall
@@ -1682,6 +1687,7 @@ a1
 userDisabled
 )
 ;
+await
 a1
 .
 uninstall
@@ -1912,6 +1918,7 @@ onUninstalling
 }
 )
 ;
+await
 a1
 .
 uninstall
@@ -2012,6 +2019,7 @@ onUninstalled
 }
 )
 ;
+await
 a1
 .
 uninstall
@@ -2358,6 +2366,7 @@ onUninstalling
 }
 )
 ;
+await
 a1
 .
 uninstall
@@ -2588,6 +2597,7 @@ a1
 userDisabled
 )
 ;
+await
 a1
 .
 uninstall
@@ -2822,6 +2832,7 @@ onUninstalling
 }
 )
 ;
+await
 a1
 .
 uninstall
@@ -3114,6 +3125,7 @@ a1
 userDisabled
 )
 ;
+await
 a1
 .
 uninstall
@@ -3276,6 +3288,7 @@ onUninstalling
 }
 )
 ;
+await
 a1
 .
 uninstall
@@ -3491,6 +3504,7 @@ onUninstalling
 }
 )
 ;
+await
 a1
 .
 uninstall

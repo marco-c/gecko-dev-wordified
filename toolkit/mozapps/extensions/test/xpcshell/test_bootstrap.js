@@ -1879,6 +1879,13 @@ ensure_test_completed
 (
 )
 ;
+await
+new
+Promise
+(
+executeSoon
+)
+;
 notEqual
 (
 b1
@@ -3039,6 +3046,7 @@ OP_NEEDS_RESTART_UNINSTALL
 0
 )
 ;
+await
 b1
 .
 uninstall
@@ -4171,6 +4179,7 @@ ID1
 "
 )
 ;
+await
 b1
 .
 uninstall
@@ -4372,6 +4381,7 @@ ID1
 "
 )
 ;
+await
 b1
 .
 uninstall
@@ -4808,6 +4818,7 @@ checkBootstrappedPref
 (
 )
 ;
+await
 b1
 .
 uninstall
@@ -4978,6 +4989,7 @@ checkBootstrappedPref
 (
 )
 ;
+await
 b1
 .
 uninstall
@@ -5399,6 +5411,7 @@ checkAddonNotStarted
 ID1
 )
 ;
+await
 b1_2
 .
 uninstall
@@ -5733,6 +5746,7 @@ getAddonByID
 ID1
 )
 ;
+await
 b1_3
 .
 uninstall
@@ -7106,6 +7120,7 @@ checkBootstrappedPref
 (
 )
 ;
+await
 b1_2
 .
 uninstall
@@ -7660,6 +7675,7 @@ getAddonByID
 ID1
 )
 ;
+await
 b1_2
 .
 uninstall

@@ -1010,6 +1010,7 @@ a1_4
 "
 )
 ;
+await
 a1_4
 .
 uninstall
@@ -1189,6 +1190,7 @@ file
 0
 )
 ;
+await
 a1
 .
 uninstall

@@ -874,6 +874,7 @@ onUninstalled
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -1353,6 +1354,7 @@ onUninstalled
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -1977,6 +1979,7 @@ onInstalled
 "
 )
 ;
+await
 addon
 .
 reload
@@ -2086,6 +2089,7 @@ onUninstalled
 "
 )
 ;
+await
 addon
 .
 uninstall
@@ -2577,6 +2581,7 @@ onUninstalled
 "
 )
 ;
+await
 addon
 .
 uninstall

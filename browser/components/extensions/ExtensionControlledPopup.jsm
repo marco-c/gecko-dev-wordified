@@ -1820,6 +1820,7 @@ win
 )
 ;
 }
+await
 addon
 .
 disable
