@@ -1065,14 +1065,8 @@ SkTypeface
 ScaledFontDWrite
 :
 :
-GetSkTypeface
+CreateSkTypeface
 (
-)
-{
-if
-(
-!
-mTypeface
 )
 {
 RefPtr
@@ -1196,8 +1190,7 @@ contrast
 0f
 ;
 }
-mTypeface
-=
+return
 SkCreateTypefaceFromDWriteFont
 (
 factory
@@ -1207,10 +1200,6 @@ mForceGDIMode
 gamma
 contrast
 )
-;
-}
-return
-mTypeface
 ;
 }
 #

@@ -206,7 +206,7 @@ ifdef
 USE_SKIA
 SkTypeface
 *
-GetSkTypeface
+CreateSkTypeface
 (
 )
 override
