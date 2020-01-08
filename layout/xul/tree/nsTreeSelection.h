@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsITreeColumns
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h
@@ -159,6 +152,9 @@ h
 "
 class
 nsITreeBoxObject
+;
+class
+nsITreeColumn
 ;
 struct
 nsTreeRange

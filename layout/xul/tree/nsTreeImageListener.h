@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsITreeColumns
-.
-h
-"
-#
-include
-"
 nsTreeBodyFrame
 .
 h
@@ -157,6 +150,9 @@ Attributes
 .
 h
 "
+class
+nsITreeColumn
+;
 /
 /
 This

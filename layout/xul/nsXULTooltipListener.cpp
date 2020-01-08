@@ -225,6 +225,13 @@ h
 #
 include
 "
+nsTreeColumns
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ErrorResult

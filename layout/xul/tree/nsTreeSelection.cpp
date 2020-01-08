@@ -204,6 +204,13 @@ nsComponentManagerUtils
 .
 h
 "
+#
+include
+"
+nsTreeColumns
+.
+h
+"
 using
 namespace
 mozilla

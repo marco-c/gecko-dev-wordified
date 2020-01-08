@@ -159,13 +159,6 @@ nsITreeBoxObject
 h
 "
 #
-include
-"
-nsITreeColumns
-.
-h
-"
-#
 endif
 #
 include
@@ -185,6 +178,9 @@ h
 "
 class
 nsIContent
+;
+class
+nsITreeColumn
 ;
 namespace
 mozilla
