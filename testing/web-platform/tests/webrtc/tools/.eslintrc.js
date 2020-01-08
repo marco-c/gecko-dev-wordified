@@ -223,6 +223,8 @@ identity
 -
 helper
 .
+sub
+.
 js
 parseAssertionResult
 :
