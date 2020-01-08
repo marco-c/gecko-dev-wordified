@@ -1664,7 +1664,7 @@ PRMJ_FormatTime
 char
 *
 buf
-int
+size_t
 buflen
 const
 char
@@ -2567,9 +2567,6 @@ fake_year_len
 ;
 if
 (
-(
-int
-)
 new_result
 >
 =
