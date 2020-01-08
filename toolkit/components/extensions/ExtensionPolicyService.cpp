@@ -318,6 +318,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h
