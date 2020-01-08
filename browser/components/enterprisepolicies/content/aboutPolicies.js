@@ -1821,6 +1821,13 @@ DisableSetDesktopBackground
 "
 DisableSetAsDesktopBackground
 "
+"
+Certificates
+"
+:
+"
+CertificatesDescription
+"
 }
 ;
 for
