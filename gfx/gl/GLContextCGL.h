@@ -174,7 +174,6 @@ GLContextProviderCGL
 ;
 NSOpenGLContext
 *
-const
 mContext
 ;
 public
