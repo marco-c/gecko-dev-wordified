@@ -491,7 +491,7 @@ checkJsTermCompletionValue
 (
 jsterm
 "
-entsByTagNameNS
+entById
 "
 "
 '
@@ -547,7 +547,7 @@ checkJsTermCompletionValue
 (
 jsterm
 "
-entsByTagName
+entsByClassName
 "
 "
 '
@@ -603,7 +603,7 @@ checkJsTermCompletionValue
 (
 jsterm
 "
-entsByTagNameNS
+entById
 "
 "
 '
