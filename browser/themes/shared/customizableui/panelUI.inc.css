@@ -6752,6 +6752,8 @@ padding
 :
 4px
 12px
+!
+important
 ;
 background
 -
@@ -8031,6 +8033,8 @@ padding
 :
 4px
 5px
+!
+important
 ;
 }
 #
@@ -8111,6 +8115,8 @@ padding
 :
 1px
 8px
+!
+important
 ;
 background
 -
@@ -8995,6 +9001,8 @@ padding
 left
 :
 6px
+!
+important
 ;
 }
 #
@@ -9622,12 +9630,16 @@ padding
 top
 :
 4px
+!
+important
 ;
 padding
 -
 bottom
 :
 4px
+!
+important
 ;
 -
 moz
