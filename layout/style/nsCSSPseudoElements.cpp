@@ -162,6 +162,13 @@ nsGkAtomConsts
 .
 h
 "
+#
+include
+"
+nsStaticAtomUtils
+.
+h
+"
 using
 namespace
 mozilla
