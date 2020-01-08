@@ -15,6 +15,10 @@ collections
 import
 OrderedDict
 from
+six
+import
+iteritems
+from
 .
 .
 manifest
@@ -644,10 +648,9 @@ for
 commit
 parents
 in
-commit_parents
-.
 iteritems
 (
+commit_parents
 )
 :
             

@@ -19,8 +19,6 @@ re
 import
 time
 import
-types
-import
 uuid
 from
 six
@@ -33,6 +31,7 @@ six
 import
 text_type
 binary_type
+string_types
 def
 resolve_content
 (
@@ -2814,6 +2813,17 @@ path
 )
 :
         
+algorithm
+=
+algorithm
+.
+decode
+(
+"
+ascii
+"
+)
+        
 if
 algorithm
 not
@@ -3070,6 +3080,17 @@ tokens
 .
 popleft
 (
+)
+        
+field
+=
+field
+.
+decode
+(
+"
+ascii
+"
 )
         
 if
@@ -3543,11 +3564,8 @@ isinstance
 value
 (
 int
+string_types
 )
-+
-types
-.
-StringTypes
 )
 tokens
         
@@ -3644,7 +3662,7 @@ re
 .
 compile
 (
-r
+br
 "
 {
 {

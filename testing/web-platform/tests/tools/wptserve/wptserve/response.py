@@ -19,8 +19,6 @@ Morsel
 import
 json
 import
-types
-import
 uuid
 import
 socket
@@ -40,6 +38,7 @@ import
 string_types
 binary_type
 text_type
+itervalues
 missing
 =
 object
@@ -1314,9 +1313,7 @@ isinstance
 self
 .
 content
-types
-.
-StringTypes
+string_types
 )
 :
             
@@ -2436,12 +2433,11 @@ for
 key
 values
 in
+itervalues
+(
 self
 .
 data
-.
-itervalues
-(
 )
 :
             
@@ -3135,11 +3131,27 @@ if
 isinstance
 (
 data
-types
-.
-StringTypes
+(
+text_type
+binary_type
+)
 )
 :
+            
+#
+Deliberately
+allows
+both
+text
+and
+binary
+types
+.
+See
+self
+.
+encode
+.
             
 self
 .

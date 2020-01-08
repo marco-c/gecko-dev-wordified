@@ -22,6 +22,10 @@ quote
 unquote
 urljoin
 from
+six
+import
+iteritems
+from
 .
 constants
 import
@@ -1920,9 +1924,32 @@ path
 )
 )
             
-execfile
+with
+open
 (
 path
+'
+rb
+'
+)
+as
+f
+:
+                
+exec
+(
+compile
+(
+f
+.
+read
+(
+)
+path
+'
+exec
+'
+)
 environ
 environ
 )
@@ -2834,10 +2861,9 @@ for
 k
 v
 in
-headers
-.
 iteritems
 (
+headers
 )
 :
             
