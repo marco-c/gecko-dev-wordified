@@ -66,14 +66,6 @@ start
 (
 )
         
-assert
-session
-.
-session_id
-is
-not
-None
-        
 return
 func
 (
@@ -4345,15 +4337,31 @@ session
 =
 session
         
-assert
+if
 id
-not
 in
 self
 .
 session
 .
 _element_cache
+:
+            
+raise
+ValueError
+(
+"
+Element
+already
+in
+cache
+:
+%
+s
+"
+%
+id
+)
         
 self
 .
@@ -4442,13 +4450,6 @@ json
 session
 )
 :
-        
-assert
-Element
-.
-identifier
-in
-json
         
 uuid
 =
