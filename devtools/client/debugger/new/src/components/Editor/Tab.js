@@ -924,7 +924,7 @@ render
 const
 {
 selectedSource
-selectSpecificSource
+selectSource
 closeTab
 source
 tabSources
@@ -1022,7 +1022,7 @@ stopPropagation
 )
 ;
 return
-selectSpecificSource
+selectSource
 (
 sourceId
 )
@@ -1319,13 +1319,13 @@ connect
 (
 mapStateToProps
 {
-selectSpecificSource
+selectSource
 :
 _actions2
 .
 default
 .
-selectSpecificSource
+selectSource
 closeTab
 :
 _actions2
