@@ -12882,7 +12882,7 @@ isInitialized
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 results
 -
