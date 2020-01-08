@@ -296,7 +296,7 @@ formats
 :
 [
 "
-mar_sha384
+autograph_mar384
 "
 ]
     
@@ -820,7 +820,7 @@ signing
 :
 format
 :
-mar_sha384
+autograph_mar384
 '
 ]
         
