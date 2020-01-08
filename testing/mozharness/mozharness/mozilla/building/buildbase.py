@@ -3508,6 +3508,23 @@ py
 '
         
 '
+dmd
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_dmd
+.
+py
+'
+        
+'
 tup
 '
 :
