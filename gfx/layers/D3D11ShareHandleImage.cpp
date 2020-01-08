@@ -252,6 +252,10 @@ gfx
 IntRect
 &
 aRect
+const
+GUID
+&
+aSourceFormat
 )
 :
 Image
@@ -270,6 +274,10 @@ mPictureRect
 (
 aRect
 )
+mSourceFormat
+(
+aSourceFormat
+)
 {
 }
 bool
@@ -284,8 +292,6 @@ aAllocator
 ID3D11Device
 *
 aDevice
-bool
-aPreferNV12
 )
 {
 if
@@ -295,7 +301,10 @@ aAllocator
 {
 if
 (
-aPreferNV12
+mSourceFormat
+=
+=
+MFVideoFormat_NV12
 &
 &
 gfxPrefs
@@ -637,6 +646,7 @@ manager
 CopyToBGRATexture
 (
 texture
+mSourceFormat
 getter_AddRefs
 (
 outTexture
@@ -660,7 +670,6 @@ gfxWarning
 Failed
 to
 copy
-NV12
 to
 BGRA
 texture
