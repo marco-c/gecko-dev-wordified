@@ -321,7 +321,7 @@ dom
 label
 (
 {
-for
+htmlFor
 :
 "
 about
