@@ -189,6 +189,11 @@ Class
 class_
 ;
 static
+const
+Class
+protoClass_
+;
+static
 JSObject
 *
 create
