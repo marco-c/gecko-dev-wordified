@@ -140,7 +140,7 @@ run_test
 (
 )
 {
-DebuggerServer
+ActorRegistry
 .
 addGlobalActor
 (

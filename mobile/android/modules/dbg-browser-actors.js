@@ -125,7 +125,7 @@ root
 ;
 const
 {
-DebuggerServer
+ActorRegistry
 }
 =
 require
@@ -135,7 +135,9 @@ devtools
 /
 server
 /
-main
+actor
+-
+registry
 "
 )
 ;
@@ -193,7 +195,7 @@ the
 factories
 registered
 with
-DebuggerServer
+ActorRegistry
 .
 addGlobalActor
 *
@@ -269,7 +271,7 @@ aConnection
 )
 globalActorFactories
 :
-DebuggerServer
+ActorRegistry
 .
 globalActorFactories
 onShutdown

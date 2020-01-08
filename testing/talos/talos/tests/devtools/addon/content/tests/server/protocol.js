@@ -268,7 +268,7 @@ jsm
 ;
 const
 {
-DebuggerServer
+ActorRegistry
 }
 =
 require
@@ -278,11 +278,13 @@ devtools
 /
 server
 /
-main
+actor
+-
+registry
 "
 )
 ;
-DebuggerServer
+ActorRegistry
 .
 registerModule
 (
