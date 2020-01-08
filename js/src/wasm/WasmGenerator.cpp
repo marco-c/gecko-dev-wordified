@@ -4347,7 +4347,7 @@ case
 Tier
 :
 :
-Optimized
+Ion
 :
 if
 (
@@ -5116,7 +5116,7 @@ case
 Tier
 :
 :
-Optimized
+Ion
 :
 threshold
 =
@@ -7241,7 +7241,7 @@ tier
 Tier
 :
 :
-Optimized
+Ion
 )
 ;
 MOZ_ASSERT
