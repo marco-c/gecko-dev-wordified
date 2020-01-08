@@ -486,7 +486,7 @@ OwnerDoc
 )
 -
 >
-HasBeenUserActivated
+HasBeenUserGestureActivated
 (
 )
 )
@@ -748,7 +748,7 @@ GetExtantDoc
 )
 -
 >
-HasBeenUserActivated
+HasBeenUserGestureActivated
 (
 )
 )
