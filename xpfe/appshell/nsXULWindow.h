@@ -884,9 +884,6 @@ chrome
 has
 loaded
 bool
-mPersistentWindowStateLoaded
-;
-bool
 mSizingShellFromXUL
 ;
 /
