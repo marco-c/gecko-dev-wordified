@@ -1571,16 +1571,6 @@ Builder
 (
 )
 .
-javaCrashReportingEnabled
-(
-true
-)
-.
-nativeCrashReportingEnabled
-(
-true
-)
-.
 crashReportingJobId
 (
 JobIdsConstants

@@ -8383,16 +8383,6 @@ isAutomation
 {
 runtimeSettingsBuilder
 .
-nativeCrashReportingEnabled
-(
-true
-)
-.
-javaCrashReportingEnabled
-(
-true
-)
-.
 crashReportingJobId
 (
 1024

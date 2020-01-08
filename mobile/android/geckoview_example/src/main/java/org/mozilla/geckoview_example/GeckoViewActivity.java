@@ -903,16 +903,6 @@ remoteDebuggingEnabled
 true
 )
 .
-nativeCrashReportingEnabled
-(
-true
-)
-.
-javaCrashReportingEnabled
-(
-true
-)
-.
 crashReportingJobId
 (
 1024
