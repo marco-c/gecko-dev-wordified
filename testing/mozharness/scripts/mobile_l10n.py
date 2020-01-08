@@ -168,6 +168,8 @@ path
 ]
 )
 )
+#
+noqa
 from
 mozharness
 .

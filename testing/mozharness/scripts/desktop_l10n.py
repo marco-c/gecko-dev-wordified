@@ -145,6 +145,8 @@ path
 ]
 )
 )
+#
+noqa
 from
 mozharness
 .
