@@ -236,6 +236,8 @@ nsIIOService
 serv
 bool
 wantReturnValue
+bool
+useCompilationScope
 JS
 :
 :
