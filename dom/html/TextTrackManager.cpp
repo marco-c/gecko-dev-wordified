@@ -1699,10 +1699,6 @@ if
 (
 !
 overlay
-|
-|
-!
-controls
 )
 {
 return
