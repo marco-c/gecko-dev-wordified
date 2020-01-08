@@ -3377,8 +3377,8 @@ null
 *
 *
 *
-Gets
-the
+return
+The
 locale
 code
 in
