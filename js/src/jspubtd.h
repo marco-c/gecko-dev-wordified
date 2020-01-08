@@ -395,9 +395,6 @@ struct
 JSFunctionSpec
 ;
 struct
-JSLocaleCallbacks
-;
-struct
 JSPrincipals
 ;
 struct

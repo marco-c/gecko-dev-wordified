@@ -523,6 +523,9 @@ js
 struct
 DtoaState
 ;
+struct
+JSLocaleCallbacks
+;
 #
 ifdef
 JS_SIMULATOR_ARM64
