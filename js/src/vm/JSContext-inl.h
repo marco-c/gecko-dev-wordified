@@ -198,6 +198,9 @@ h
 namespace
 js
 {
+#
+ifdef
+JS_CRASH_DIAGNOSTICS
 class
 CompartmentChecker
 {
@@ -270,9 +273,11 @@ JS
 Compartment
 *
 c2
+int
+argIndex
 )
 {
-printf
+MOZ_CRASH_UNSAFE_PRINTF
 (
 "
 *
@@ -286,6 +291,10 @@ vs
 .
 %
 p
+at
+argument
+%
+d
 \
 n
 "
@@ -299,10 +308,7 @@ void
 *
 )
 c2
-)
-;
-MOZ_CRASH
-(
+argIndex
 )
 ;
 }
@@ -322,9 +328,11 @@ JS
 Zone
 *
 z2
+int
+argIndex
 )
 {
-printf
+MOZ_CRASH_UNSAFE_PRINTF
 (
 "
 *
@@ -338,6 +346,10 @@ vs
 .
 %
 p
+at
+argument
+%
+d
 \
 n
 "
@@ -351,42 +363,7 @@ void
 *
 )
 z2
-)
-;
-MOZ_CRASH
-(
-)
-;
-}
-static
-void
-check
-(
-JS
-:
-:
-Compartment
-*
-c1
-JS
-:
-:
-Compartment
-*
-c2
-)
-{
-if
-(
-c1
-!
-=
-c2
-)
-fail
-(
-c1
-c2
+argIndex
 )
 ;
 }
@@ -399,6 +376,8 @@ JS
 Compartment
 *
 c
+int
+argIndex
 )
 {
 if
@@ -415,6 +394,7 @@ fail
 (
 compartment
 c
+argIndex
 )
 ;
 }
@@ -427,6 +407,8 @@ JS
 Zone
 *
 z
+int
+argIndex
 )
 {
 if
@@ -453,6 +435,7 @@ zone
 (
 )
 z
+argIndex
 )
 ;
 }
@@ -462,6 +445,8 @@ check
 JSObject
 *
 obj
+int
+argIndex
 )
 {
 if
@@ -504,6 +489,7 @@ obj
 compartment
 (
 )
+argIndex
 )
 ;
 }
@@ -523,6 +509,8 @@ T
 >
 &
 rooted
+int
+argIndex
 )
 {
 check
@@ -532,6 +520,7 @@ rooted
 get
 (
 )
+argIndex
 )
 ;
 }
@@ -548,6 +537,8 @@ Handle
 T
 >
 handle
+int
+argIndex
 )
 {
 check
@@ -557,6 +548,7 @@ handle
 get
 (
 )
+argIndex
 )
 ;
 }
@@ -573,6 +565,8 @@ MutableHandle
 T
 >
 handle
+int
+argIndex
 )
 {
 check
@@ -582,6 +576,7 @@ handle
 get
 (
 )
+argIndex
 )
 ;
 }
@@ -596,6 +591,8 @@ checkAtom
 T
 *
 thing
+int
+argIndex
 )
 {
 static_assert
@@ -685,8 +682,9 @@ runtimeFromAnyThread
 (
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 rt
 -
 >
@@ -705,7 +703,37 @@ zone
 thing
 )
 )
+{
+MOZ_CRASH_UNSAFE_PRINTF
+(
+"
+*
+*
+*
+Atom
+not
+marked
+for
+zone
+%
+p
+at
+argument
+%
+d
+\
+n
+"
+compartment
+-
+>
+zone
+(
+)
+argIndex
+)
 ;
+}
 }
 #
 endif
@@ -716,6 +744,8 @@ check
 JSString
 *
 str
+int
+argIndex
 )
 {
 MOZ_ASSERT
@@ -738,7 +768,6 @@ isAtom
 (
 )
 )
-{
 checkAtom
 (
 &
@@ -748,11 +777,10 @@ str
 asAtom
 (
 )
+argIndex
 )
 ;
-}
 else
-{
 checkZone
 (
 str
@@ -761,9 +789,9 @@ str
 zone
 (
 )
+argIndex
 )
 ;
-}
 }
 void
 check
@@ -774,11 +802,14 @@ JS
 Symbol
 *
 symbol
+int
+argIndex
 )
 {
 checkAtom
 (
 symbol
+argIndex
 )
 ;
 }
@@ -792,6 +823,8 @@ js
 Value
 &
 v
+int
+argIndex
 )
 {
 if
@@ -810,6 +843,7 @@ v
 toObject
 (
 )
+argIndex
 )
 ;
 else
@@ -828,6 +862,7 @@ v
 toString
 (
 )
+argIndex
 )
 ;
 else
@@ -846,6 +881,7 @@ v
 toSymbol
 (
 )
+argIndex
 )
 ;
 }
@@ -934,6 +970,8 @@ const
 Container
 &
 container
+int
+argIndex
 )
 {
 for
@@ -946,6 +984,7 @@ container
 check
 (
 i
+argIndex
 )
 ;
 }
@@ -959,6 +998,8 @@ JS
 HandleValueArray
 &
 arr
+int
+argIndex
 )
 {
 for
@@ -986,6 +1027,7 @@ arr
 [
 i
 ]
+argIndex
 )
 ;
 }
@@ -996,6 +1038,8 @@ const
 CallArgs
 &
 args
+int
+argIndex
 )
 {
 for
@@ -1027,6 +1071,7 @@ check
 (
 *
 p
+argIndex
 )
 ;
 }
@@ -1035,6 +1080,8 @@ check
 (
 jsid
 id
+int
+argIndex
 )
 {
 if
@@ -1050,6 +1097,7 @@ JSID_TO_ATOM
 (
 id
 )
+argIndex
 )
 ;
 else
@@ -1066,6 +1114,7 @@ JSID_TO_SYMBOL
 (
 id
 )
+argIndex
 )
 ;
 else
@@ -1085,6 +1134,8 @@ check
 JSScript
 *
 script
+int
+argIndex
 )
 {
 MOZ_ASSERT
@@ -1110,6 +1161,7 @@ script
 compartment
 (
 )
+argIndex
 )
 ;
 }
@@ -1119,6 +1171,8 @@ check
 InterpreterFrame
 *
 fp
+int
+argIndex
 )
 ;
 void
@@ -1126,6 +1180,8 @@ check
 (
 AbstractFramePtr
 frame
+int
+argIndex
 )
 ;
 void
@@ -1136,6 +1192,8 @@ Handle
 PropertyDescriptor
 >
 desc
+int
+argIndex
 )
 {
 check
@@ -1145,6 +1203,7 @@ desc
 object
 (
 )
+argIndex
 )
 ;
 if
@@ -1162,6 +1221,7 @@ desc
 getterObject
 (
 )
+argIndex
 )
 ;
 if
@@ -1179,6 +1239,7 @@ desc
 setterObject
 (
 )
+argIndex
 )
 ;
 check
@@ -1188,6 +1249,7 @@ desc
 value
 (
 )
+argIndex
 )
 ;
 }
@@ -1199,6 +1261,8 @@ TypeSet
 :
 Type
 type
+int
+argIndex
 )
 {
 check
@@ -1208,11 +1272,17 @@ type
 maybeCompartment
 (
 )
+argIndex
 )
 ;
 }
 }
 ;
+#
+endif
+/
+/
+JS_CRASH_DIAGNOSTICS
 /
 *
 *
@@ -1294,6 +1364,7 @@ c
 check
 (
 t1
+2
 )
 ;
 }
@@ -1327,6 +1398,7 @@ c
 check
 (
 t1
+2
 )
 ;
 #
@@ -1371,6 +1443,7 @@ c
 check
 (
 t1
+2
 )
 ;
 #
@@ -1412,6 +1485,7 @@ c
 check
 (
 t1
+2
 )
 ;
 c
@@ -1419,6 +1493,7 @@ c
 check
 (
 t2
+3
 )
 ;
 #
@@ -1466,6 +1541,7 @@ c
 check
 (
 t1
+2
 )
 ;
 c
@@ -1473,6 +1549,7 @@ c
 check
 (
 t2
+3
 )
 ;
 c
@@ -1480,6 +1557,7 @@ c
 check
 (
 t3
+4
 )
 ;
 #
@@ -1533,6 +1611,7 @@ c
 check
 (
 t1
+2
 )
 ;
 c
@@ -1540,6 +1619,7 @@ c
 check
 (
 t2
+3
 )
 ;
 c
@@ -1547,6 +1627,7 @@ c
 check
 (
 t3
+4
 )
 ;
 c
@@ -1554,6 +1635,7 @@ c
 check
 (
 t4
+5
 )
 ;
 #
@@ -1613,6 +1695,7 @@ c
 check
 (
 t1
+2
 )
 ;
 c
@@ -1620,6 +1703,7 @@ c
 check
 (
 t2
+3
 )
 ;
 c
@@ -1627,6 +1711,7 @@ c
 check
 (
 t3
+4
 )
 ;
 c
@@ -1634,6 +1719,7 @@ c
 check
 (
 t4
+5
 )
 ;
 c
@@ -1641,6 +1727,7 @@ c
 check
 (
 t5
+6
 )
 ;
 #
