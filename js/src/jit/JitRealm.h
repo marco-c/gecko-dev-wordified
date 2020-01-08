@@ -2829,7 +2829,6 @@ createZeroed
 (
 cx
 descr
-0
 gc
 :
 :

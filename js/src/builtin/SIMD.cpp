@@ -3419,7 +3419,6 @@ createZeroed
 (
 cx
 descr
-0
 )
 )
 ;
@@ -4761,7 +4760,6 @@ createZeroed
 (
 cx
 typeDescr
-0
 )
 )
 ;
@@ -11018,7 +11016,6 @@ createZeroed
 (
 cx
 typeDescr
-0
 )
 )
 ;

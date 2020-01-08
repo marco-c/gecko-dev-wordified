@@ -4063,8 +4063,6 @@ JSContext
 cx
 HandleTypeDescr
 typeObj
-int32_t
-length
 gc
 :
 :
@@ -4403,8 +4401,6 @@ Class
 clasp
 HandleTypeDescr
 type
-int32_t
-length
 gc
 :
 :
@@ -4491,20 +4487,6 @@ object
 for
 resulting
 object
-/
-/
--
-length
-:
-0
-unless
-this
-is
-an
-array
-otherwise
-the
-length
 static
 OutlineTypedObject
 *
@@ -4515,8 +4497,6 @@ JSContext
 cx
 HandleTypeDescr
 type
-int32_t
-length
 gc
 :
 :
