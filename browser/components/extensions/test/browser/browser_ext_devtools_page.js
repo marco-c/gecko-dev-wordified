@@ -830,6 +830,7 @@ content_script_loaded
 let
 target
 =
+await
 gDevTools
 .
 getTargetForTab
@@ -1684,6 +1685,7 @@ extension_tab_loaded
 let
 target
 =
+await
 gDevTools
 .
 getTargetForTab
