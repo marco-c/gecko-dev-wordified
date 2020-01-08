@@ -40286,11 +40286,12 @@ true
 if
 (
 !
-gfxPrefs
+nsLayoutUtils
 :
 :
-MetaViewportEnabled
+ShouldHandleMetaViewport
 (
+this
 )
 )
 {
