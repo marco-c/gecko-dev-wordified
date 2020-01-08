@@ -170,6 +170,13 @@ nsPresContext
 .
 h
 "
+#
+include
+"
+nsStyleStruct
+.
+h
+"
 class
 nsTransformedTextRun
 ;
