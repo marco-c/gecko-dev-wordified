@@ -214,7 +214,7 @@ FRAME_ID
 (
 nsDateTimeControlFrame
 DateTimeControl
-NotLeaf
+Leaf
 )
 FRAME_ID
 (
