@@ -967,6 +967,12 @@ mOrdering
 aNumResourcesGuess
 )
 {
+recordreplay
+:
+:
+AutoPassThroughThreadEvents
+pt
+;
 mLock
 =
 PR_NewLock
