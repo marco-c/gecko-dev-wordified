@@ -4457,6 +4457,16 @@ gfxPlatform
 )
 ;
 virtual
+bool
+HasBattery
+(
+)
+{
+return
+true
+;
+}
+virtual
 void
 InitAcceleration
 (
