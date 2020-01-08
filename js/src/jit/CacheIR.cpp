@@ -35265,10 +35265,15 @@ CacheKind
 NewObject
 mode
 )
+#
+ifdef
+JS_CACHEIR_SPEW
 op_
 (
 op
 )
+#
+endif
 templateObject_
 (
 templateObj
