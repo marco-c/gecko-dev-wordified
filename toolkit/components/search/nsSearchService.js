@@ -29409,8 +29409,6 @@ startpage
 .
 baidu
 |
-\
-.
 duckduckgo
 )
 \
