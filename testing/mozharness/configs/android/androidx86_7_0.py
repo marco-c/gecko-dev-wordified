@@ -139,7 +139,7 @@ emulator_extra_args
 "
 -
 gpu
-swiftshader
+swiftshader_indirect
 -
 skip
 -
