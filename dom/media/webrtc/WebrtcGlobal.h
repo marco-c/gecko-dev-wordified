@@ -2106,7 +2106,7 @@ true
 ;
 static
 void
-WriteRTCRTPStreamStats
+WriteRTCRtpStreamStats
 (
 Message
 *
@@ -2118,7 +2118,7 @@ mozilla
 dom
 :
 :
-RTCRTPStreamStats
+RTCRtpStreamStats
 &
 aParam
 )
@@ -2214,7 +2214,7 @@ mTransportId
 }
 static
 bool
-ReadRTCRTPStreamStats
+ReadRTCRtpStreamStats
 (
 const
 Message
@@ -2229,7 +2229,7 @@ mozilla
 dom
 :
 :
-RTCRTPStreamStats
+RTCRtpStreamStats
 *
 aResult
 )
@@ -2519,7 +2519,7 @@ aParam
 mPacketsReceived
 )
 ;
-WriteRTCRTPStreamStats
+WriteRTCRtpStreamStats
 (
 aMsg
 aParam
@@ -2686,7 +2686,7 @@ mPacketsReceived
 |
 |
 !
-ReadRTCRTPStreamStats
+ReadRTCRtpStreamStats
 (
 aMsg
 aIter
@@ -2815,7 +2815,7 @@ aParam
 mPliCount
 )
 ;
-WriteRTCRTPStreamStats
+WriteRTCRtpStreamStats
 (
 aMsg
 aParam
@@ -2967,7 +2967,7 @@ mPliCount
 |
 |
 !
-ReadRTCRTPStreamStats
+ReadRTCRtpStreamStats
 (
 aMsg
 aIter
