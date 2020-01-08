@@ -306,9 +306,12 @@ public
 explicit
 Scriptability
 (
-JSCompartment
+JS
+:
+:
+Realm
 *
-c
+realm
 )
 ;
 bool
