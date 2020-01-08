@@ -849,6 +849,7 @@ isFromDevTools
 false
 }
 )
+;
 }
 if
 (
