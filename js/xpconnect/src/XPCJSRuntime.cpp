@@ -4268,7 +4268,7 @@ dom
 TraceBlackJS
 (
 trc
-nsXPConnect
+nsIXPConnect
 :
 :
 XPConnect
@@ -4276,7 +4276,7 @@ XPConnect
 )
 -
 >
-IsShuttingDown
+GetIsShuttingDown
 (
 )
 )
