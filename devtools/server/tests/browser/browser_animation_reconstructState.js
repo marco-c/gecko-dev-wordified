@@ -169,6 +169,13 @@ getAnimationPlayersForNode
 node
 )
 ;
+await
+player
+.
+ready
+(
+)
+;
 /
 /
 Get
