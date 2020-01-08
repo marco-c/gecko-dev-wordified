@@ -76,7 +76,7 @@ another
 animation
 requestLongerTimeout
 (
-3
+2
 )
 ;
 const
