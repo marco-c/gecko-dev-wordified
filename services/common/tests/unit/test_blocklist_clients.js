@@ -2083,7 +2083,7 @@ add_task
 (
 async
 function
-test_entries_are_filtered_when_jexl_filters_is_present
+test_entries_are_filtered_when_jexl_filter_expression_is_present
 (
 )
 {
@@ -2100,7 +2100,7 @@ true
 willMatch
 :
 true
-filters
+filter_expression
 :
 null
 }
@@ -2108,7 +2108,7 @@ null
 willMatch
 :
 true
-filters
+filter_expression
 :
 "
 1
@@ -2121,7 +2121,7 @@ filters
 willMatch
 :
 false
-filters
+filter_expression
 :
 "
 1
@@ -2134,7 +2134,7 @@ filters
 willMatch
 :
 true
-filters
+filter_expression
 :
 "
 1
@@ -2173,7 +2173,7 @@ prevails
 over
 versionRange
 .
-filters
+filter_expression
 :
 "
 1
