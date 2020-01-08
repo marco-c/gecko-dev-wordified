@@ -868,6 +868,8 @@ await
 adbBinary
 .
 exists
+(
+)
 )
 ;
 await
