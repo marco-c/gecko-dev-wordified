@@ -41896,6 +41896,8 @@ nsCSSPseudoElements
 :
 :
 firstLetter
+(
+)
 )
 ;
 ComputedStyle
@@ -55667,6 +55669,8 @@ nsCSSPseudoElements
 :
 :
 firstLine
+(
+)
 )
 ;
 ComputedStyle
