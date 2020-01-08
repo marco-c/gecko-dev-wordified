@@ -7871,15 +7871,6 @@ MOZ_ASSERT
 resolvingList
 )
 ;
-js_delete
-(
-ionPcScriptCache
-.
-ref
-(
-)
-)
-;
 if
 (
 dtoaState
