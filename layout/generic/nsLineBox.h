@@ -3413,6 +3413,7 @@ aFrameIndexInLine
 #
 ifdef
 DEBUG_FRAME_DUMP
+static
 const
 char
 *
@@ -3421,7 +3422,6 @@ BreakTypeToString
 StyleClear
 aBreakType
 )
-const
 ;
 char
 *

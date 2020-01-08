@@ -1441,6 +1441,11 @@ Next
 ;
 }
 }
+/
+*
+static
+*
+/
 const
 char
 *
@@ -1452,7 +1457,6 @@ BreakTypeToString
 StyleClear
 aBreakType
 )
-const
 {
 switch
 (
