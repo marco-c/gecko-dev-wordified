@@ -376,7 +376,7 @@ is
 created
 by
 a
-WebExtensionParentActor
+WebExtensionActor
 counterpart
 when
 its

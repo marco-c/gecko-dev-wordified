@@ -2901,7 +2901,7 @@ is
 related
 to
 a
-WebExtensionParentActor
+WebExtensionActor
 instance
 /
 /

@@ -231,7 +231,7 @@ lazyRequireGetter
 (
 this
 "
-WebExtensionParentActor
+WebExtensionActor
 "
 "
 devtools
@@ -243,8 +243,6 @@ actors
 addon
 /
 webextension
--
-parent
 "
 true
 )
@@ -5116,7 +5114,7 @@ isWebExtension
 actor
 =
 new
-WebExtensionParentActor
+WebExtensionActor
 (
 this
 .
