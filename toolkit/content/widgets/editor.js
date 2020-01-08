@@ -453,17 +453,6 @@ currentURI
 ;
 }
 get
-contentWindowAsCPOW
-(
-)
-{
-return
-this
-.
-contentWindow
-;
-}
-get
 webBrowserFind
 (
 )
