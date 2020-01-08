@@ -6011,7 +6011,7 @@ enabled
 "
 MediaCapabilitiesEnabled
 RelaxedAtomicBool
-true
+false
 )
 VARCACHE_PREF
 (
