@@ -225,7 +225,7 @@ aAction
 )
 ;
 bool
-mActorAlived
+mActorAlive
 ;
 uint64_t
 mTabId

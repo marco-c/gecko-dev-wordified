@@ -201,7 +201,7 @@ uint64_t
 aTabId
 )
 :
-mActorAlived
+mActorAlive
 (
 true
 )
@@ -232,7 +232,7 @@ aRequest
 if
 (
 !
-mActorAlived
+mActorAlive
 )
 {
 return
@@ -1064,7 +1064,7 @@ r
 if
 (
 !
-mActorAlived
+mActorAlive
 )
 {
 return
@@ -1560,7 +1560,7 @@ r
 if
 (
 !
-mActorAlived
+mActorAlive
 )
 {
 return
@@ -2000,7 +2000,7 @@ r
 if
 (
 !
-mActorAlived
+mActorAlive
 )
 {
 return
@@ -2051,7 +2051,7 @@ Recv__delete__
 (
 )
 {
-mActorAlived
+mActorAlive
 =
 false
 ;
@@ -2071,7 +2071,7 @@ ActorDestroyReason
 aWhy
 )
 {
-mActorAlived
+mActorAlive
 =
 false
 ;
