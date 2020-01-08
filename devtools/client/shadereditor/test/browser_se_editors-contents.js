@@ -68,12 +68,14 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-front
+gFront
 ShadersEditorsView
 EVENTS
 }
 =
 panel
+.
+panelWin
 ;
 reload
 (
@@ -88,7 +90,7 @@ all
 [
 once
 (
-front
+gFront
 "
 program
 -
@@ -98,6 +100,8 @@ linked
 once
 (
 panel
+.
+panelWin
 EVENTS
 .
 SOURCES_SHOWN

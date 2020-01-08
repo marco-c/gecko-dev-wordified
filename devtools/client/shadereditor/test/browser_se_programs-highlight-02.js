@@ -69,13 +69,15 @@ BLENDED_GEOMETRY_CANVAS_URL
 ;
 const
 {
-front
+gFront
 EVENTS
 ShadersListView
 ShadersEditorsView
 }
 =
 panel
+.
+panelWin
 ;
 reload
 (
@@ -98,12 +100,14 @@ all
 [
 getPrograms
 (
-front
+gFront
 2
 )
 once
 (
 panel
+.
+panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -114,7 +118,7 @@ SOURCES_SHOWN
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -143,7 +147,7 @@ true
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -200,7 +204,7 @@ panel
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -229,7 +233,7 @@ true
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -302,7 +306,7 @@ panel
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -331,7 +335,7 @@ true
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -389,7 +393,7 @@ panel
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -418,7 +422,7 @@ true
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
