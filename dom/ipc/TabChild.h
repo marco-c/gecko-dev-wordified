@@ -2871,6 +2871,11 @@ InvalidateLayers
 )
 ;
 void
+SchedulePaint
+(
+)
+;
+void
 ReinitRendering
 (
 )
