@@ -3613,6 +3613,8 @@ f32
 20
 ]
 )
+SrgbToLinear
+LinearToSrgb
 }
 impl
 FilterOp
