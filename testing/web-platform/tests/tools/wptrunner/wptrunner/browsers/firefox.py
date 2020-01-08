@@ -308,6 +308,23 @@ else
 return
 3
     
+elif
+run_info_data
+[
+"
+os
+"
+]
+=
+=
+"
+android
+"
+:
+        
+return
+4
+    
 return
 1
 def
@@ -2837,6 +2854,10 @@ dirname
 self
 .
 binary
+or
+self
+.
+certutil_binary
 )
         
 if
