@@ -7647,6 +7647,11 @@ REASON
 .
 POPULATE
 :
+case
+REASON
+.
+NEXT_50_ITEMS
+:
 /
 /
 Update
@@ -7671,11 +7676,6 @@ case
 REASON
 .
 NEW_ROW
-:
-case
-REASON
-.
-NEXT_50_ITEMS
 :
 /
 /
