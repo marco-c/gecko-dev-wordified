@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsISHContainer
-.
-h
-"
-#
-include
-"
 nsISHEntry
 .
 h
@@ -179,8 +172,6 @@ final
 :
 public
 nsISHEntry
-public
-nsISHContainer
 {
 public
 :
@@ -198,7 +189,6 @@ aOther
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISHENTRY
-NS_DECL_NSISHCONTAINER
 void
 DropPresentationState
 (

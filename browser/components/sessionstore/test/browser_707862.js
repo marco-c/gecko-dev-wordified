@@ -184,15 +184,6 @@ getEntryAtIndex
 false
 )
 ;
-entry
-.
-QueryInterface
-(
-Ci
-.
-nsISHContainer
-)
-;
 whenChildCount
 (
 entry
