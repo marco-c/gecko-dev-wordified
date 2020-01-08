@@ -239,8 +239,6 @@ TEMP_DIRECTORY
 XXXXXXXXXX
 .
 fxsnapshot
-.
-gz
 /
 /
 TEMP_DIRECTORY
@@ -250,8 +248,6 @@ XXXXXXXXXX
 XXXXX
 .
 fxsnapshot
-.
-gz
 /
 /
 /
@@ -362,8 +358,6 @@ now
 }
 .
 fxsnapshot
-.
-gz
 )
 ;
 }
@@ -625,8 +619,6 @@ snapshotId
 "
 .
 fxsnapshot
-.
-gz
 "
 )
 ;

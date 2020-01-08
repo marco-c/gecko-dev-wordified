@@ -1012,8 +1012,6 @@ TmpD
 tmp
 .
 fxsnapshot
-.
-gz
 "
 ]
 )
