@@ -232,6 +232,12 @@ Singleton
 )
 )
 {
+mU
+.
+mBool
+=
+false
+;
 if
 (
 !

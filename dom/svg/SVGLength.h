@@ -286,9 +286,6 @@ public
 SVGLength
 (
 )
-#
-ifdef
-DEBUG
 :
 mValue
 (
@@ -313,8 +310,6 @@ by
 IsValid
 (
 )
-#
-endif
 {
 }
 SVGLength
