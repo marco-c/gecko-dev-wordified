@@ -359,7 +359,7 @@ resolve
 =
 >
 {
-get_chrome_actors
+get_parent_process_actors
 (
 client
 =

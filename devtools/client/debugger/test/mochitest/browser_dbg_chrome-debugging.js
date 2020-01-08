@@ -326,7 +326,7 @@ stack
 }
 )
 ;
-testChromeActor
+testParentProcessTargetActor
 (
 )
 ;
@@ -335,7 +335,7 @@ testChromeActor
 ;
 }
 function
-testChromeActor
+testParentProcessTargetActor
 (
 )
 {

@@ -1033,7 +1033,7 @@ getProcess
 (
 )
 and
-ChromeActor
+ParentProcessTargetActor
 if
 (
 globals

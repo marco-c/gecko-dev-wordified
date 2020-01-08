@@ -965,7 +965,7 @@ true
 }
 )
 ;
-getChromeActors
+getParentProcessActors
 (
 client
 )
@@ -2857,9 +2857,8 @@ to
 it
 and
 fetch
-target
 actors
-for
+targeting
 the
 parent
 process
@@ -2883,7 +2882,7 @@ actor
 IDs
 .
 function
-get_chrome_actors
+get_parent_process_actors
 (
 callback
 )
@@ -2957,7 +2956,7 @@ form
 ;
 }
 function
-getChromeActors
+getParentProcessActors
 (
 client
 server

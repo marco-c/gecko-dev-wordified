@@ -541,7 +541,7 @@ waitForExplicitFinish
 (
 )
 ;
-getChromeActors
+getParentProcessActors
 (
 (
 client

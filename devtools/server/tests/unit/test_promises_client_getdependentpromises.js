@@ -109,10 +109,10 @@ dependentpromises
 )
 ;
 const
-chromeActors
+parentProcessActors
 =
 await
-getChromeActors
+getParentProcessActors
 (
 client
 )
@@ -121,7 +121,7 @@ await
 attachTab
 (
 client
-chromeActors
+parentProcessActors
 )
 ;
 ok
@@ -152,7 +152,7 @@ await
 testGetDependentPromises
 (
 client
-chromeActors
+parentProcessActors
 (
 )
 =

@@ -2010,7 +2010,7 @@ Fx
 39
 exposes
 a
-ChromeActor
+ParentProcessTargetActor
 to
 debug
 the

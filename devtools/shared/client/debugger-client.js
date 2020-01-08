@@ -3470,7 +3470,7 @@ traceClient
 *
 Fetch
 the
-ChromeActor
+ParentProcessTargetActor
 for
 the
 main

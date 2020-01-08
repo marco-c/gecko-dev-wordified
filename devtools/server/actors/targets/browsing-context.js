@@ -98,8 +98,9 @@ is
 extended
 by
 FrameTargetActor
-ChromeActor
+ParentProcessTargetActor
 and
+*
 ChromeWindowTargetActor
 .
 *
@@ -1916,7 +1917,7 @@ docshells
 Used
 by
 the
-ChromeActor
+ParentProcessTargetActor
 to
 list
 all
@@ -5074,7 +5075,7 @@ s
 docshells
 when
 using
-ChromeActor
+ParentProcessTargetActor
 against
 a
 /

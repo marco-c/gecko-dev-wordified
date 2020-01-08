@@ -49,7 +49,7 @@ to
 the
 /
 /
-ChromeActor
+ParentProcessTargetActor
 or
 a
 ChildProcessActor

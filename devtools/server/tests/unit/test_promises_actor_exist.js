@@ -55,7 +55,7 @@ in
 the
 TabActors
 and
-ChromeActors
+ParentProcessTargetActors
 .
 *
 /
@@ -261,10 +261,10 @@ resolve
 )
 ;
 const
-chromeActors
+parentProcessActors
 =
 await
-getChromeActors
+getParentProcessActors
 (
 client
 )
@@ -274,7 +274,7 @@ Assert
 ok
 (
 typeof
-chromeActors
+parentProcessActors
 .
 promisesActor
 =
