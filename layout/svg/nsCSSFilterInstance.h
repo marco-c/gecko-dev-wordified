@@ -266,16 +266,6 @@ mozilla
 gfx
 :
 :
-PrimitiveType
-PrimitiveType
-;
-typedef
-mozilla
-:
-:
-gfx
-:
-:
 Size
 Size
 ;
@@ -576,8 +566,6 @@ aInputIsTainted
 FilterPrimitiveDescription
 CreatePrimitiveDescription
 (
-PrimitiveType
-aType
 const
 nsTArray
 <

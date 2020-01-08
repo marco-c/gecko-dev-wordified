@@ -469,10 +469,12 @@ aInputImages
 return
 FilterPrimitiveDescription
 (
-PrimitiveType
-:
-:
-Tile
+AsVariant
+(
+TileAttributes
+(
+)
+)
 )
 ;
 }
