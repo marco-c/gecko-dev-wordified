@@ -40590,6 +40590,7 @@ newSwitchStatement
 begin
 discriminant
 caseList
+seenDefault
 )
 ;
 }
