@@ -2058,6 +2058,17 @@ MOZ_OPTIMIZE
 '
             
 '
+MOZ_DEBUG_LDFLAGS
+'
+:
+[
+'
+-
+DEBUG
+'
+]
+            
+'
 MOZ_DEBUG_SYMBOLS
 '
 :
@@ -2185,6 +2196,17 @@ MOZ_DMD
 '
 1
 '
+            
+'
+MOZ_DEBUG_LDFLAGS
+'
+:
+[
+'
+-
+DEBUG
+'
+]
             
 '
 MOZ_DEBUG_SYMBOLS
