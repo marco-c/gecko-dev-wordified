@@ -58941,7 +58941,7 @@ void
 nsLayoutUtils
 :
 :
-SetScrollPositionClampingScrollPortSize
+SetVisualViewportSize
 (
 nsIPresShell
 *
@@ -58975,7 +58975,7 @@ height
 aPresShell
 -
 >
-SetScrollPositionClampingScrollPortSize
+SetVisualViewportSize
 (
 nsPresContext
 :
