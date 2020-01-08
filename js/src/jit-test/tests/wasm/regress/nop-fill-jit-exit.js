@@ -39,7 +39,7 @@ e
 Early
 quit
 on
-plateforms
+platforms
 not
 supporting
 single

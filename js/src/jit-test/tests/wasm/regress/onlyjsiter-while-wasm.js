@@ -1,5 +1,14 @@
+/
+/
+|
+jit
+-
+test
+|
+skip
+-
 if
-(
+:
 typeof
 evalInCooperativeThread
 =
@@ -8,11 +17,6 @@ evalInCooperativeThread
 '
 undefined
 '
-)
-quit
-(
-)
-;
 try
 {
 evalInCooperativeThread
