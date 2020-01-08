@@ -942,7 +942,7 @@ owner
 .
 panel
 .
-childNodes
+children
 ;
 ok
 (
@@ -1065,7 +1065,7 @@ aButtonIndex
 ;
 notification
 .
-childNodes
+children
 [
 aButtonIndex
 -
