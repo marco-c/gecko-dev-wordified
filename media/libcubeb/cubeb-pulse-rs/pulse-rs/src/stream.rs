@@ -2473,7 +2473,7 @@ self
 Result
 <
 (
-u64
+USec
 )
 >
 {
@@ -2481,7 +2481,7 @@ let
 mut
 usec
 :
-u64
+USec
 =
 0
 ;
