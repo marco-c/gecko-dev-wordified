@@ -800,7 +800,7 @@ getStr
 "
 fontinspector
 .
-familiesNotUsedLabel
+familiesUnusedLabel
 "
 )
 )
@@ -955,7 +955,7 @@ getStr
 "
 fontinspector
 .
-seeMore
+showMore
 "
 )
 )
@@ -977,7 +977,7 @@ getStr
 "
 fontinspector
 .
-seeLess
+showLess
 "
 )
 )
