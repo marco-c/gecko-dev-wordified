@@ -609,9 +609,6 @@ when
 0
 .
 bool
-mIMEUpdatingContext
-;
-bool
 mIMESelectionChanged
 ;
 bool
@@ -1068,10 +1065,6 @@ yet
 mIMEFocusCount
 (
 0
-)
-mIMEUpdatingContext
-(
-false
 )
 mIMESelectionChanged
 (
