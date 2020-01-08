@@ -2189,6 +2189,10 @@ NS_IsMainThread
 )
 )
 ;
+mListener
+=
+nullptr
+;
 /
 /
 Finish
