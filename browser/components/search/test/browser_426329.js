@@ -665,6 +665,7 @@ test
 .
 xml
 "
+null
 "
 data
 :
