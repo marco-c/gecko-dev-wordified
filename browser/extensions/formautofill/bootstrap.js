@@ -185,7 +185,7 @@ defineModuleGetter
 (
 this
 "
-formAutofillParent
+FormAutofill
 "
 "
 resource
@@ -194,7 +194,7 @@ resource
 /
 formautofill
 /
-FormAutofillParent
+FormAutofill
 .
 jsm
 "
@@ -206,7 +206,7 @@ defineModuleGetter
 (
 this
 "
-FormAutofillUtils
+formAutofillParent
 "
 "
 resource
@@ -215,7 +215,7 @@ resource
 /
 formautofill
 /
-FormAutofillUtils
+FormAutofillParent
 .
 jsm
 "
@@ -1028,7 +1028,7 @@ true
 ;
 if
 (
-FormAutofillUtils
+FormAutofill
 .
 isAutofillCreditCardsAvailable
 )

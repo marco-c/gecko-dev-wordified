@@ -239,6 +239,23 @@ resource
 /
 formautofill
 /
+FormAutofill
+.
+jsm
+"
+)
+;
+ChromeUtils
+.
+import
+(
+"
+resource
+:
+/
+/
+formautofill
+/
 FormAutofillUtils
 .
 jsm
@@ -291,7 +308,7 @@ log
 =
 null
 ;
-FormAutofillUtils
+FormAutofill
 .
 defineLazyLogGetter
 (
@@ -842,7 +859,7 @@ checked
 state
 if
 (
-FormAutofillUtils
+FormAutofill
 .
 isAutofillAddressesEnabled
 )
@@ -947,7 +964,7 @@ savedAddressesBtn
 ;
 if
 (
-FormAutofillUtils
+FormAutofill
 .
 isAutofillCreditCardsAvailable
 )
@@ -1276,7 +1293,7 @@ checked
 state
 if
 (
-FormAutofillUtils
+FormAutofill
 .
 isAutofillCreditCardsEnabled
 )
@@ -1578,7 +1595,7 @@ addressAutofillCheckboxLabel
 let
 pref
 =
-FormAutofillUtils
+FormAutofill
 .
 isAutofillAddressesEnabled
 ;
@@ -1621,7 +1638,7 @@ creditCardAutofillCheckboxLabel
 let
 pref
 =
-FormAutofillUtils
+FormAutofill
 .
 isAutofillCreditCardsEnabled
 ;

@@ -428,7 +428,7 @@ resource
 /
 formautofill
 /
-FormAutofillContent
+FormAutofill
 .
 jsm
 "
@@ -439,7 +439,7 @@ resource
 /
 formautofill
 /
-FormAutofillUtils
+FormAutofillContent
 .
 jsm
 "
