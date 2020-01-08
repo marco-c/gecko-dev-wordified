@@ -4519,6 +4519,11 @@ CANVASDEBUGGER
 :
 case
 "
+DEVELOPERTOOLBAR
+"
+:
+case
+"
 DOM
 "
 :

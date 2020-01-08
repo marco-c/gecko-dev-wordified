@@ -817,7 +817,6 @@ typed
 As
 per
 the
-old
 GCLI
 documentation
 we
