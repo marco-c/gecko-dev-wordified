@@ -361,6 +361,11 @@ ssl_tls13_cookie_xtn
 tls13_ServerHandleCookieXtn
 }
 {
+ssl_record_size_limit_xtn
+&
+ssl_HandleRecordSizeLimitXtn
+}
+{
 0
 NULL
 }
@@ -458,6 +463,11 @@ tls13_ClientHandlePreSharedKeyXtn
 ssl_tls13_early_data_xtn
 &
 tls13_ClientHandleEarlyDataXtn
+}
+{
+ssl_record_size_limit_xtn
+&
+ssl_HandleRecordSizeLimitXtn
 }
 {
 0
@@ -855,6 +865,11 @@ tls13_ClientSendHrrCookieXtn
 ssl_tls13_psk_key_exchange_modes_xtn
 &
 tls13_ClientSendPskModesXtn
+}
+{
+ssl_record_size_limit_xtn
+&
+ssl_SendRecordSizeLimitXtn
 }
 /
 *

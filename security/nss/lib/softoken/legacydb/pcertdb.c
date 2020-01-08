@@ -13772,6 +13772,13 @@ dbentry
 SECStatus
 rv
 ;
+PORT_InitCheapArena
+(
+&
+tmpArena
+DER_DEFAULT_CHUNKSIZE
+)
+;
 arena
 =
 PORT_NewArena
@@ -13796,13 +13803,6 @@ goto
 loser
 ;
 }
-PORT_InitCheapArena
-(
-&
-tmpArena
-DER_DEFAULT_CHUNKSIZE
-)
-;
 entry
 =
 (

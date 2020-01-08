@@ -1055,6 +1055,13 @@ direction
 =
 direction
 ;
+spec
+-
+>
+recordSizeLimit
+=
+MAX_FRAGMENT_LENGTH
+;
 SSL_TRC
 (
 10

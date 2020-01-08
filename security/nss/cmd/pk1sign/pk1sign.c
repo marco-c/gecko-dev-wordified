@@ -1060,7 +1060,7 @@ if
 data
 )
 {
-PORT_Free
+PR_Free
 (
 data
 )

@@ -1411,6 +1411,9 @@ protocols
 SECItem
 nextProtoNego
 ;
+PRUint16
+recordSizeLimit
+;
 PRUint32
 maxEarlyDataSize
 ;
