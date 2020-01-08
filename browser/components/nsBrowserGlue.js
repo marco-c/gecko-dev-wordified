@@ -2368,6 +2368,17 @@ LoginFillSuccessful
 LoginManagerParent
 "
 ]
+"
+LoginStats
+:
+LoginEncountered
+"
+:
+[
+"
+LoginManagerParent
+"
+]
 /
 /
 PLEASE
