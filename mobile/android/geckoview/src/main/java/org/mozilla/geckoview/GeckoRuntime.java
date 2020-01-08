@@ -726,6 +726,17 @@ GeckoThread
 FLAG_DEBUGGING
 ;
 }
+GeckoAppShell
+.
+setDisplayDensityOverride
+(
+settings
+.
+getDisplayDensityOverride
+(
+)
+)
+;
 final
 int
 crashReportingJobId
