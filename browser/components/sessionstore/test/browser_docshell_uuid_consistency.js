@@ -403,13 +403,6 @@ content
 .
 window
 .
-QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-.
 getInterface
 (
 Ci
