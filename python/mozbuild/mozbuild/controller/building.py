@@ -9362,6 +9362,12 @@ not_indexed
 True
 )
         
+self
+.
+_write_mozconfig_json
+(
+)
+        
 def
 on_line
 (
