@@ -474,6 +474,7 @@ NS_IMPL_ISUPPORTS
 (
 nsFileStreamBase
 nsISeekableStream
+nsITellableStream
 nsIFileMetadata
 )
 NS_IMETHODIMP
@@ -2224,6 +2225,7 @@ nsFileInputStream
 nsIInputStream
 nsIFileInputStream
 nsISeekableStream
+nsITellableStream
 nsILineInputStream
 )
 nsresult

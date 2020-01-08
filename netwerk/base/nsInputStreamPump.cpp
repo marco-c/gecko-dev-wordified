@@ -3943,7 +3943,7 @@ a
 nsPipeInputStream
 which
 implements
-nsISeekableStream
+nsITellableStream
 :
 :
 Tell
@@ -3954,9 +3954,9 @@ offsetBefore
 ;
 nsCOMPtr
 <
-nsISeekableStream
+nsITellableStream
 >
-seekable
+tellable
 =
 do_QueryInterface
 (
@@ -3965,12 +3965,12 @@ mAsyncStream
 ;
 if
 (
-seekable
+tellable
 &
 &
 NS_FAILED
 (
-seekable
+tellable
 -
 >
 Tell
@@ -4143,7 +4143,7 @@ consume
 data
 if
 (
-seekable
+tellable
 )
 {
 /
@@ -4179,7 +4179,7 @@ if
 (
 NS_FAILED
 (
-seekable
+tellable
 -
 >
 Tell

@@ -289,6 +289,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSIMIMEINPUTSTREAM
 NS_DECL_NSISEEKABLESTREAM
+NS_DECL_NSITELLABLESTREAM
 NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
 NS_DECL_NSIASYNCINPUTSTREAM
 NS_DECL_NSIINPUTSTREAMCALLBACK
@@ -461,6 +462,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsISeekableStream
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsITellableStream
+)
 NS_INTERFACE_MAP_ENTRY_CONDITIONAL
 (
 nsIIPCSerializableInputStream
@@ -527,6 +532,7 @@ nsIMIMEInputStream
 nsIAsyncInputStream
 nsIInputStream
 nsISeekableStream
+nsITellableStream
 )
 nsMIMEInputStream
 :
@@ -1369,7 +1375,7 @@ this
 }
 /
 /
-nsISeekableStream
+nsITellableStream
 NS_IMETHODIMP
 nsMIMEInputStream
 :
@@ -1385,7 +1391,7 @@ INITSTREAMS
 ;
 nsCOMPtr
 <
-nsISeekableStream
+nsITellableStream
 >
 stream
 =
@@ -1404,6 +1410,9 @@ _retval
 )
 ;
 }
+/
+/
+nsISeekableStream
 NS_IMETHODIMP
 nsMIMEInputStream
 :

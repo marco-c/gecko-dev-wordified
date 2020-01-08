@@ -226,7 +226,7 @@ h
 #
 include
 "
-nsISeekableStream
+nsITellableStream
 .
 h
 "
@@ -7145,7 +7145,7 @@ readerType1
 ;
 nsCOMPtr
 <
-nsISeekableStream
+nsITellableStream
 >
 readerType2
 =

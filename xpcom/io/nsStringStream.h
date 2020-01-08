@@ -154,6 +154,8 @@ nsIInputStream
 *
 nsISeekableStream
 *
+nsITellableStream
+*
 nsISupportsCString
 *
 /
@@ -232,6 +234,7 @@ will
 *
 implement
 nsIStringInputStream
+nsITellableStream
 and
 nsISeekableStream
 .
@@ -417,6 +420,7 @@ will
 *
 implement
 nsIStringInputStream
+nsTellableStream
 and
 nsISeekableStream
 .
