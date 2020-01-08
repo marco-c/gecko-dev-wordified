@@ -233,6 +233,16 @@ nsPIDOMWindow
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+:
+:
+quota
+;
 namespace
 mozilla
 {

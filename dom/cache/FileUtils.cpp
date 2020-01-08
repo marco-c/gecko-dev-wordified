@@ -1267,10 +1267,7 @@ nsIOutputStream
 >
 fileStream
 =
-FileOutputStream
-:
-:
-Create
+CreateFileOutputStream
 (
 PERSISTENCE_TYPE_DEFAULT
 aQuotaInfo
@@ -1729,10 +1726,7 @@ nsIInputStream
 >
 fileStream
 =
-FileInputStream
-:
-:
-Create
+CreateFileInputStream
 (
 PERSISTENCE_TYPE_DEFAULT
 aQuotaInfo
