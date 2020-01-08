@@ -439,19 +439,27 @@ nargs
 default
 =
 [
+        
 '
 sixgill
 -
 tree
 '
+        
 '
 suppression
 '
+        
 '
 hazards
 '
+        
 '
 exceptions
+'
+        
+'
+virtual
 '
 ]
     
