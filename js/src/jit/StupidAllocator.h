@@ -359,6 +359,10 @@ mir
 lir
 graph
 )
+registerCount
+(
+0
+)
 {
 }
 MOZ_MUST_USE

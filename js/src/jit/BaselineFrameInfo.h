@@ -500,9 +500,11 @@ endif
 ;
 private
 :
+MOZ_INIT_OUTSIDE_CTOR
 Kind
 kind_
 ;
+MOZ_INIT_OUTSIDE_CTOR
 union
 Data
 {
@@ -556,6 +558,7 @@ MOZ_POP_DISABLE_NONTRIVIAL_UNION_WARNINGS
 }
 data
 ;
+MOZ_INIT_OUTSIDE_CTOR
 JSValueType
 knownType_
 ;

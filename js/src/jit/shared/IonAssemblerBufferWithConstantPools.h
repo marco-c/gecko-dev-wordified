@@ -2265,6 +2265,11 @@ LifoAlloc
 &
 alloc
 )
+:
+earliestRange_
+(
+0
+)
 {
 /
 /

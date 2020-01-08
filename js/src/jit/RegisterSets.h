@@ -1374,8 +1374,9 @@ public
 ConstantOrRegister
 (
 )
-{
-}
+=
+delete
+;
 MOZ_IMPLICIT
 ConstantOrRegister
 (

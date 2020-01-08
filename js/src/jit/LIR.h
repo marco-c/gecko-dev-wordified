@@ -8302,6 +8302,15 @@ slot
 SafepointSlotEntry
 (
 )
+:
+stack
+(
+0
+)
+slot
+(
+0
+)
 {
 }
 SafepointSlotEntry
@@ -8367,6 +8376,11 @@ payload
 ;
 SafepointNunboxEntry
 (
+)
+:
+typeVreg
+(
+0
 )
 {
 }

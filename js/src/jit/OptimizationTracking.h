@@ -3860,6 +3860,14 @@ hasAddendum
 (
 HasNothing
 )
+script
+(
+nullptr
+)
+offset
+(
+0
+)
 {
 }
 IonTrackedTypeWithAddendum
