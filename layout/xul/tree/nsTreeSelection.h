@@ -154,7 +154,7 @@ class
 nsITreeBoxObject
 ;
 class
-nsITreeColumn
+nsTreeColumn
 ;
 struct
 nsTreeRange
@@ -314,9 +314,9 @@ one
 clicked
 etc
 .
-nsCOMPtr
+RefPtr
 <
-nsITreeColumn
+nsTreeColumn
 >
 mCurrentColumn
 ;

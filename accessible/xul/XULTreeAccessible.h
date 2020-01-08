@@ -124,7 +124,7 @@ class
 nsTreeBodyFrame
 ;
 class
-nsITreeColumn
+nsTreeColumn
 ;
 namespace
 mozilla
@@ -993,7 +993,7 @@ XULTreeGridCellAccessible
 *
 GetCellAccessible
 (
-nsITreeColumn
+nsTreeColumn
 *
 aColumn
 )
@@ -1129,7 +1129,7 @@ column
 void
 GetCellName
 (
-nsITreeColumn
+nsTreeColumn
 *
 aColumn
 nsAString
@@ -1270,9 +1270,9 @@ XULTreeItemAccessible
 /
 /
 XULTreeItemAccessible
-nsCOMPtr
+RefPtr
 <
-nsITreeColumn
+nsTreeColumn
 >
 mColumn
 ;

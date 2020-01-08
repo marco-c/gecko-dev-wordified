@@ -390,7 +390,7 @@ IsCellCropped
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 ErrorResult
@@ -403,7 +403,7 @@ RemoveImageCacheEntry
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 &
 col
 ErrorResult
@@ -584,7 +584,7 @@ EnsureCellIsVisible
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 )
@@ -623,7 +623,7 @@ ScrollToCell
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 )
@@ -633,7 +633,7 @@ col
 void
 ScrollToColumn
 (
-nsITreeColumn
+nsTreeColumn
 *
 col
 )
@@ -652,7 +652,7 @@ horizontalPosition
 void
 InvalidateColumn
 (
-nsITreeColumn
+nsTreeColumn
 *
 col
 )
@@ -673,7 +673,7 @@ InvalidateCell
 (
 int32_t
 row
-nsITreeColumn
+nsTreeColumn
 *
 col
 )
@@ -698,7 +698,7 @@ int32_t
 startIndex
 int32_t
 endIndex
-nsITreeColumn
+nsTreeColumn
 *
 col
 )

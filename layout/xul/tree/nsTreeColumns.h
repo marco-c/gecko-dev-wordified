@@ -680,6 +680,8 @@ mColumns
 aColumns
 ;
 }
+public
+:
 const
 nsAString
 &
@@ -691,8 +693,6 @@ return
 mId
 ;
 }
-public
-:
 nsAtom
 *
 GetAtom

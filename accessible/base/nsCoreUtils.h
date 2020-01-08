@@ -171,6 +171,9 @@ class
 nsRange
 ;
 class
+nsTreeColumn
+;
+class
 nsIBoxObject
 ;
 class
@@ -327,7 +330,7 @@ nsITreeBoxObject
 aTreeBoxObj
 int32_t
 aRowIndex
-nsITreeColumn
+nsTreeColumn
 *
 aColumn
 const
@@ -1567,7 +1570,7 @@ object
 static
 already_AddRefed
 <
-nsITreeColumn
+nsTreeColumn
 >
 GetFirstSensibleColumn
 (
@@ -1625,7 +1628,7 @@ object
 static
 already_AddRefed
 <
-nsITreeColumn
+nsTreeColumn
 >
 GetSensibleColumnAt
 (
@@ -1654,7 +1657,7 @@ column
 static
 already_AddRefed
 <
-nsITreeColumn
+nsTreeColumn
 >
 GetNextSensibleColumn
 (
@@ -1681,7 +1684,7 @@ column
 static
 already_AddRefed
 <
-nsITreeColumn
+nsTreeColumn
 >
 GetPreviousSensibleColumn
 (

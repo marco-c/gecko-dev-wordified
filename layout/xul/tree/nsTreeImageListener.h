@@ -151,7 +151,7 @@ Attributes
 h
 "
 class
-nsITreeColumn
+nsTreeColumn
 ;
 /
 /
@@ -217,7 +217,7 @@ AddCell
 (
 int32_t
 aIndex
-nsITreeColumn
+nsTreeColumn
 *
 aCol
 )
@@ -250,7 +250,7 @@ public
 explicit
 InvalidationArea
 (
-nsITreeColumn
+nsTreeColumn
 *
 aCol
 )
@@ -277,7 +277,7 @@ int32_t
 aIndex
 )
 ;
-nsITreeColumn
+nsTreeColumn
 *
 GetCol
 (
@@ -334,9 +334,9 @@ aNext
 }
 private
 :
-nsCOMPtr
+RefPtr
 <
-nsITreeColumn
+nsTreeColumn
 >
 mCol
 ;

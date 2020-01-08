@@ -2355,9 +2355,9 @@ System
 int32_t
 row
 ;
-nsCOMPtr
+RefPtr
 <
-nsITreeColumn
+nsTreeColumn
 >
 col
 ;
@@ -3008,7 +3008,7 @@ nsIContent
 aSourceNode
 int32_t
 aRow
-nsITreeColumn
+nsTreeColumn
 *
 aCol
 int32_t
@@ -3119,7 +3119,7 @@ Element
 aTooltip
 int32_t
 aRow
-nsITreeColumn
+nsTreeColumn
 *
 aCol
 )
