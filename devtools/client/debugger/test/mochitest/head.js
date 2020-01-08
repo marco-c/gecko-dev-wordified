@@ -7593,7 +7593,7 @@ workerListChanged
 function
 attachThread
 (
-workerClient
+workerTargetFront
 options
 )
 {
@@ -7608,7 +7608,7 @@ thread
 )
 ;
 return
-workerClient
+workerTargetFront
 .
 attachThread
 (
@@ -7620,7 +7620,7 @@ async
 function
 waitForWorkerClose
 (
-workerClient
+workerTargetFront
 )
 {
 info
@@ -7636,7 +7636,7 @@ close
 )
 ;
 await
-workerClient
+workerTargetFront
 .
 once
 (
@@ -8691,7 +8691,7 @@ targetFront
 ;
 let
 [
-workerClient
+workerTargetFront
 ]
 =
 await
@@ -8717,7 +8717,7 @@ TargetFactory
 .
 forWorker
 (
-workerClient
+workerTargetFront
 )
 "
 jsdebugger
@@ -8750,7 +8750,7 @@ return
 client
 tab
 targetFront
-workerClient
+workerTargetFront
 toolbox
 gDebugger
 }

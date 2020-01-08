@@ -802,7 +802,7 @@ forWorker
 :
 function
 (
-workerClient
+workerTargetFront
 )
 {
 let
@@ -812,7 +812,7 @@ targets
 .
 get
 (
-workerClient
+workerTargetFront
 )
 ;
 if
@@ -828,14 +828,14 @@ target
 new
 WorkerTarget
 (
-workerClient
+workerTargetFront
 )
 ;
 targets
 .
 set
 (
-workerClient
+workerTargetFront
 target
 )
 ;
@@ -5963,7 +5963,7 @@ warningFlag
 function
 WorkerTarget
 (
-workerClient
+workerTargetFront
 )
 {
 EventEmitter
@@ -5975,9 +5975,9 @@ this
 ;
 this
 .
-_workerClient
+_workerTargetFront
 =
-workerClient
+workerTargetFront
 ;
 }
 /
@@ -6041,12 +6041,12 @@ is
 constructed
 with
 a
-WorkerClient
+WorkerTargetFront
 directly
 .
 *
 *
-WorkerClient
+WorkerTargetFront
 is
 designed
 to
@@ -6129,7 +6129,7 @@ url
 return
 this
 .
-_workerClient
+_workerTargetFront
 .
 url
 ;
@@ -6154,7 +6154,7 @@ consoleActor
 :
 this
 .
-_workerClient
+_workerTargetFront
 .
 consoleActor
 }
@@ -6168,7 +6168,7 @@ activeTab
 return
 this
 .
-_workerClient
+_workerTargetFront
 ;
 }
 get
@@ -6201,7 +6201,7 @@ client
 return
 this
 .
-_workerClient
+_workerTargetFront
 .
 client
 ;
@@ -6223,7 +6223,7 @@ function
 {
 this
 .
-_workerClient
+_workerTargetFront
 .
 detach
 (

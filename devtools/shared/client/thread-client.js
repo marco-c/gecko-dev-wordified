@@ -340,7 +340,7 @@ API
 param
 client
 DebuggerClient
-WorkerClient
+WorkerTargetFront
 or
 BrowsingContextFront
 *

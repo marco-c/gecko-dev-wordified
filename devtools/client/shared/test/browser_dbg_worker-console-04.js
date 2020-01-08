@@ -273,7 +273,7 @@ const
 {
 client
 tab
-workerClient
+workerTargetFront
 toolbox
 }
 =
@@ -423,7 +423,7 @@ WORKER_URL
 await
 waitForWorkerClose
 (
-workerClient
+workerTargetFront
 )
 ;
 await
@@ -435,7 +435,7 @@ TargetFactory
 .
 forWorker
 (
-workerClient
+workerTargetFront
 )
 )
 ;

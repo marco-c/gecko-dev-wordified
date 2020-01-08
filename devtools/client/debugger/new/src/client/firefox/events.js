@@ -272,6 +272,8 @@ Parent
 may
 be
 BrowsingContextTargetFront
+/
+WorkerTargetFront
 and
 be
 protocol
@@ -282,8 +284,6 @@ js
 /
 Or
 DebuggerClient
-/
-WorkerClient
 and
 still
 be

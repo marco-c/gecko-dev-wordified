@@ -800,7 +800,7 @@ actor
 function
 attachThread
 (
-workerClient
+workerTargetFront
 options
 )
 {
@@ -815,7 +815,7 @@ thread
 )
 ;
 return
-workerClient
+workerTargetFront
 .
 attachThread
 (
@@ -827,7 +827,7 @@ async
 function
 waitForWorkerClose
 (
-workerClient
+workerTargetFront
 )
 {
 info
@@ -843,7 +843,7 @@ close
 )
 ;
 await
-workerClient
+workerTargetFront
 .
 once
 (
@@ -1102,7 +1102,7 @@ targetFront
 ;
 const
 [
-workerClient
+workerTargetFront
 ]
 =
 await
@@ -1128,7 +1128,7 @@ TargetFactory
 .
 forWorker
 (
-workerClient
+workerTargetFront
 )
 "
 jsdebugger
@@ -1173,7 +1173,7 @@ context
 client
 tab
 targetFront
-workerClient
+workerTargetFront
 toolbox
 gDebugger
 }
