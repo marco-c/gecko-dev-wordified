@@ -1191,6 +1191,13 @@ aEvent
 detail
 .
 caseSensitive
+entireWord
+:
+aEvent
+.
+detail
+.
+entireWord
 highlightAll
 :
 aEvent
