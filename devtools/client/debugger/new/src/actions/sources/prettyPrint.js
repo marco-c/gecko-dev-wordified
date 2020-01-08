@@ -873,7 +873,6 @@ id
 )
 )
 ;
-return
 dispatch
 (
 (
@@ -898,6 +897,9 @@ id
 }
 )
 )
+;
+return
+newPrettySource
 ;
 }
 ;
