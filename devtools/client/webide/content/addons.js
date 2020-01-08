@@ -687,6 +687,9 @@ adbAddon
 .
 install
 (
+"
+webide
+"
 )
 ;
 installButton

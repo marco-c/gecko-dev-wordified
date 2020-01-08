@@ -807,6 +807,9 @@ adbAddon
 .
 install
 (
+"
+webide
+"
 )
 ;
 }
