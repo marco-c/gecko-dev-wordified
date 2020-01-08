@@ -446,13 +446,6 @@ namespace
 js
 :
 :
-gc
-;
-using
-namespace
-js
-:
-:
 frontend
 ;
 using

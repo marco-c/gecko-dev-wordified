@@ -464,13 +464,6 @@ namespace
 js
 ;
 using
-namespace
-js
-:
-:
-gc
-;
-using
 mozilla
 :
 :
@@ -1580,6 +1573,9 @@ HeapSlot
 See
 AllocKindForLazyBuffer
 .
+gc
+:
+:
 AllocKind
 newAllocKind
 =
@@ -2684,6 +2680,9 @@ JSContext
 cx
 HandleObject
 proto
+gc
+:
+:
 AllocKind
 allocKind
 )
@@ -2962,6 +2961,9 @@ allocKind
 =
 buffer
 ?
+gc
+:
+:
 GetGCObjectKind
 (
 instanceClass
@@ -3793,6 +3795,9 @@ allocKind
 !
 fitsInline
 ?
+gc
+:
+:
 GetGCObjectKind
 (
 clasp
@@ -4142,6 +4147,9 @@ len
 void
 *
 buf
+gc
+:
+:
 AllocKind
 allocKind
 )
@@ -4388,6 +4396,9 @@ allocKind
 !
 fitsInline
 ?
+gc
+:
+:
 GetGCObjectKind
 (
 clasp

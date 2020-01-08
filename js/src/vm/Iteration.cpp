@@ -417,13 +417,6 @@ namespace
 js
 ;
 using
-namespace
-js
-:
-:
-gc
-;
-using
 mozilla
 :
 :

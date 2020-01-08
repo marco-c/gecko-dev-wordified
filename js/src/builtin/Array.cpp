@@ -459,13 +459,6 @@ namespace
 js
 ;
 using
-namespace
-js
-:
-:
-gc
-;
-using
 mozilla
 :
 :
@@ -24371,6 +24364,9 @@ GenericCreateConstructor
 <
 ArrayConstructor
 1
+gc
+:
+:
 AllocKind
 :
 :

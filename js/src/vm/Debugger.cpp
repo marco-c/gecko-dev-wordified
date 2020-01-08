@@ -17248,9 +17248,6 @@ iter
 )
 {
 const
-jit
-:
-:
 JSJitFrameIter
 &
 frame

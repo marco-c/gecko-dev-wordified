@@ -206,13 +206,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-gc
-;
 bool
 js
 :

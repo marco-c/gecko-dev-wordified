@@ -681,13 +681,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-gc
-;
 void
 js
 :
@@ -4846,6 +4839,9 @@ class_
 kind
 =
 =
+gc
+:
+:
 AllocKind
 :
 :
@@ -4855,6 +4851,9 @@ FUNCTION
 kind
 =
 =
+gc
+:
+:
 AllocKind
 :
 :
@@ -11143,6 +11142,9 @@ trace
 bogus
 values
 .
+gc
+:
+:
 StoreBuffer
 &
 sb
@@ -12349,6 +12351,9 @@ our
 intermediate
 state
 .
+gc
+:
+:
 AutoSuppressGC
 suppress
 (
@@ -26631,6 +26636,13 @@ nursery
 )
 const
 {
+using
+namespace
+js
+:
+:
+gc
+;
 MOZ_ASSERT
 (
 IsInsideNursery
@@ -26706,6 +26718,9 @@ getElementsHeader
 )
 )
 return
+gc
+:
+:
 AllocKind
 :
 :
@@ -27074,6 +27089,9 @@ OutlineTypedObject
 )
 )
 return
+gc
+:
+:
 AllocKind
 :
 :
@@ -27749,6 +27767,9 @@ nursery
 size_t
 size
 =
+gc
+:
+:
 Arena
 :
 :

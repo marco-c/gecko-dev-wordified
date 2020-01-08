@@ -355,13 +355,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-gc
-;
 static
 void
 exn_finalize

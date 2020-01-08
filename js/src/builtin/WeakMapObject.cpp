@@ -177,13 +177,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-gc
-;
 MOZ_ALWAYS_INLINE
 bool
 IsWeakMap
@@ -995,6 +988,9 @@ weakmap
 while
 iterating
 .
+gc
+:
+:
 AutoSuppressGC
 suppress
 (

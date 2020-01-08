@@ -524,13 +524,6 @@ namespace
 js
 ;
 using
-namespace
-js
-:
-:
-gc
-;
-using
 mozilla
 :
 :
@@ -813,6 +806,9 @@ atomsZoneFreeLists_
 =
 js_new
 <
+gc
+:
+:
 FreeLists
 >
 (
@@ -1916,6 +1912,9 @@ hadOutOfMemory
 =
 true
 ;
+gc
+:
+:
 AutoSuppressGC
 suppressGC
 (
@@ -2217,6 +2216,9 @@ helperThread
 )
 return
 ;
+gc
+:
+:
 AutoSuppressGC
 suppressGC
 (
@@ -4251,6 +4253,9 @@ callback
 GetErrorMessage
 ;
 {
+gc
+:
+:
 AutoSuppressGC
 suppressGC
 (
