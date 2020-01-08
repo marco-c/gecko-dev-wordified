@@ -1713,14 +1713,6 @@ disabled
 }
 )
 ;
-info
-(
-"
-call
-manuallyClickCancel
-"
-)
-;
 spawnPaymentDialogTask
 (
 frame
