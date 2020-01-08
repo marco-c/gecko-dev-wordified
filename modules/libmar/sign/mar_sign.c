@@ -3360,6 +3360,10 @@ free
 extractedSignature
 )
 ;
+extractedSignature
+=
+NULL
+;
 /
 *
 skip
