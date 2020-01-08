@@ -1072,6 +1072,7 @@ start
 (
 A11Y_SERVICE_DURATION
 this
+true
 )
 ;
 }
@@ -1085,6 +1086,7 @@ finish
 (
 A11Y_SERVICE_DURATION
 this
+true
 )
 ;
 }
