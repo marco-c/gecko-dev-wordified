@@ -236,12 +236,12 @@ getDirectCallee
 {
 if
 (
-hasCustomAnnotation
+hasCustomAttribute
+<
+moz_no_addref_release_on_return
+>
 (
 Callee
-"
-moz_no_addref_release_on_return
-"
 )
 )
 {

@@ -98,9 +98,7 @@ MemMoveAnnotation
 :
 CustomTypeAnnotation
 (
-"
 moz_non_memmovable
-"
 "
 non
 -

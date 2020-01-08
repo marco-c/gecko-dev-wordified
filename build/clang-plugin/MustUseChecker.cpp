@@ -82,9 +82,7 @@ MustUse
 =
 CustomTypeAnnotation
 (
-"
 moz_must_use_type
-"
 "
 must
 -

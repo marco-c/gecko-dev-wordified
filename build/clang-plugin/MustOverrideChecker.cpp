@@ -341,12 +341,12 @@ methods
 {
 if
 (
-hasCustomAnnotation
+hasCustomAttribute
+<
+moz_must_override
+>
 (
 M
-"
-moz_must_override
-"
 )
 )
 MustOverrides
