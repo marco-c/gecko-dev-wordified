@@ -1005,6 +1005,11 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+{
+url
+:
+expectedSpec
+}
 )
 ;
 let
@@ -1015,14 +1020,6 @@ newWin
 gBrowser
 .
 selectedBrowser
-;
-await
-BrowserTestUtils
-.
-browserLoaded
-(
-newBrowser
-)
 ;
 is
 (
