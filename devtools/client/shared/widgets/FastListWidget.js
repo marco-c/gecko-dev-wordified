@@ -185,7 +185,7 @@ js
 *
 *
 param
-nsIDOMNode
+Node
 aNode
 *
 The
@@ -538,7 +538,7 @@ item
 .
 *
 param
-nsIDOMNode
+Node
 aContents
 *
 The
@@ -566,7 +566,7 @@ user
 .
 *
 return
-nsIDOMNode
+Node
 *
 The
 element
@@ -836,7 +836,7 @@ container
 .
 *
 return
-nsIDOMNode
+Node
 *
 /
 get
@@ -866,7 +866,7 @@ container
 .
 *
 param
-nsIDOMNode
+Node
 child
 *
 /
@@ -990,7 +990,7 @@ item
 .
 *
 return
-nsIDOMNode
+Node
 *
 The
 element
@@ -1168,7 +1168,7 @@ visible
 *
 *
 param
-nsIDOMNode
+Node
 element
 *
 The

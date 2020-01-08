@@ -22410,7 +22410,7 @@ node
 *
 param
 {
-nsIDOMNode
+Node
 }
 node
 the

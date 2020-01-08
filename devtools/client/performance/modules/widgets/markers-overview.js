@@ -372,7 +372,7 @@ data
 *
 *
 param
-nsIDOMNode
+Node
 parent
 *
 The

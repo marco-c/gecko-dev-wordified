@@ -610,7 +610,7 @@ event
 *
 *
 param
-nsIDOMNode
+Node
 target
 *
 A
@@ -784,7 +784,7 @@ to
 .
 *
 param
-nsIDOMNode
+Node
 node
 *
 A
@@ -895,7 +895,7 @@ to
 .
 *
 param
-nsIDOMNode
+Node
 node
 *
 A
@@ -1349,7 +1349,7 @@ toggle
 finishes
 *
 param
-nsIDOMNode
+Node
 pane
 *
 The
@@ -2025,8 +2025,8 @@ very
 thin
 wrapper
 around
-an
-nsIDOMNode
+a
+Node
 with
 a
 few
@@ -2114,7 +2114,7 @@ item
 .
 *
 param
-nsIDOMNode
+Node
 element
 *
 A
@@ -2248,11 +2248,11 @@ item
 *
 *
 param
-nsIDOMNode
+Node
 element
 *
-An
-nsIDOMNode
+A
+Node
 representing
 the
 child
@@ -2581,7 +2581,7 @@ element
 .
 *
 param
-nsIDOMNode
+Node
 element
 *
 The
@@ -2992,7 +2992,7 @@ node
 "
 is
 a
-nsIDOMNode
+Node
 .
 *
 *
@@ -3013,7 +3013,7 @@ methods
 -
 function
 :
-nsIDOMNode
+Node
 insertItemAt
 (
 aIndex
@@ -3021,7 +3021,7 @@ aIndex
 number
 aNode
 :
-nsIDOMNode
+Node
 *
 aValue
 :
@@ -3031,7 +3031,7 @@ string
 -
 function
 :
-nsIDOMNode
+Node
 getItemAtIndex
 (
 aIndex
@@ -3045,7 +3045,7 @@ removeChild
 (
 aChild
 :
-nsIDOMNode
+Node
 )
 *
 -
@@ -3057,7 +3057,7 @@ removeAllItems
 -
 get
 :
-nsIDOMNode
+Node
 selectedItem
 (
 )
@@ -3068,7 +3068,7 @@ selectedItem
 (
 aChild
 :
-nsIDOMNode
+Node
 )
 *
 -
@@ -3151,7 +3151,7 @@ ensureElementIsVisible
 (
 aChild
 :
-nsIDOMNode
+Node
 )
 *
 *
@@ -3277,7 +3277,7 @@ container
 .
 *
 param
-nsIDOMNode
+Node
 |
 object
 widget
@@ -3427,7 +3427,7 @@ container
 .
 *
 return
-nsIDOMNode
+Node
 |
 object
 *
@@ -3600,7 +3600,7 @@ appended
 *
 *
 param
-nsIDOMNode
+Node
 element
 *
 A
@@ -7380,7 +7380,7 @@ container
 *
 *
 return
-nsIDOMNode
+Node
 *
 The
 focused
@@ -7571,7 +7571,7 @@ element
 *
 *
 param
-nsIDOMNode
+Node
 element
 *
 The
@@ -8045,7 +8045,7 @@ container
 *
 *
 param
-nsIDOMNode
+Node
 element
 *
 The
@@ -9056,7 +9056,7 @@ element
 .
 *
 param
-nsIDOMNode
+Node
 element
 *
 The

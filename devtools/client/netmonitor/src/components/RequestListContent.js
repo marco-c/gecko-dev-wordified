@@ -1139,7 +1139,7 @@ not
 *
 *
 param
-nsIDOMNode
+Node
 target
 *
 The

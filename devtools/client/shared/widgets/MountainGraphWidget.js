@@ -397,7 +397,7 @@ from
 *
 *
 param
-nsIDOMNode
+Node
 parent
 *
 The

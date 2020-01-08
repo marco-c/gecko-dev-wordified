@@ -1442,8 +1442,8 @@ NodeFront
 feel
 more
 like
-an
-nsIDOMNode
+a
+Node
 get
 id
 (
@@ -2609,8 +2609,8 @@ _serverConnection
 *
 *
 Get
-an
-nsIDOMNode
+a
+Node
 for
 the
 given

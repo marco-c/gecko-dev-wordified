@@ -1823,7 +1823,7 @@ want
 .
 *
 return
-nsIDOMNode
+Node
 or
 null
 *
@@ -2186,7 +2186,7 @@ param
 [
 optional
 ]
-nsIDOMNode
+Node
 context
 *
 Context
@@ -2209,7 +2209,7 @@ set
 return
 array
 of
-nsIDOMNode
+Node
 *
 /
 WebConsoleCommands

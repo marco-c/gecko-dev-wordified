@@ -133,7 +133,7 @@ marker
 *
 *
 param
-nsIDOMNode
+Node
 parent
 *
 The
@@ -145,7 +145,7 @@ view
 .
 *
 param
-nsIDOMNode
+Node
 splitter
 *
 The

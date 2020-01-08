@@ -638,7 +638,7 @@ details
 *
 param
 {
-nsIDOMNode
+Node
 }
 el
 *

@@ -1270,7 +1270,7 @@ boxed
 .
 *
 return
-nsIDOMNode
+Node
 *
 The
 stack

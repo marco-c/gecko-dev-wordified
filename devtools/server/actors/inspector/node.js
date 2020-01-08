@@ -63,7 +63,6 @@ strict
 ;
 const
 {
-Ci
 Cu
 }
 =
@@ -1258,9 +1257,7 @@ nodeType
 =
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 DOCUMENT_FRAGMENT_NODE
 ;
@@ -1301,9 +1298,7 @@ nodeType
 =
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 DOCUMENT_FRAGMENT_NODE
 ;
@@ -1451,9 +1446,7 @@ nodeType
 =
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 ELEMENT_NODE
 &
@@ -1674,9 +1667,7 @@ nodeType
 !
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 ELEMENT_NODE
 |
@@ -2031,9 +2022,7 @@ nodeType
 !
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 ELEMENT_NODE
 )

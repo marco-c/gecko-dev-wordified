@@ -209,7 +209,7 @@ marker
 return
 array
 <
-nsIDOMNode
+Node
 >
 *
 /
@@ -280,7 +280,7 @@ object
 marker
 *
 return
-nsIDOMNode
+Node
 *
 /
 buildTitle
@@ -443,7 +443,7 @@ object
 marker
 *
 return
-nsIDOMNode
+Node
 *
 /
 buildDuration
@@ -616,7 +616,7 @@ string
 value
 *
 return
-nsIDOMNode
+Node
 *
 /
 buildNameValueLabel
@@ -1492,7 +1492,7 @@ options
 return
 array
 <
-nsIDOMNode
+Node
 >
 *
 /

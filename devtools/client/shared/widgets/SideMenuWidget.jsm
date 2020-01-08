@@ -272,7 +272,7 @@ js
 *
 *
 param
-nsIDOMNode
+Node
 aNode
 *
 The
@@ -839,7 +839,7 @@ item
 .
 *
 param
-nsIDOMNode
+Node
 aContents
 *
 The
@@ -907,7 +907,7 @@ if
 shown
 *
 return
-nsIDOMNode
+Node
 *
 The
 element
@@ -1203,7 +1203,7 @@ item
 .
 *
 return
-nsIDOMNode
+Node
 *
 The
 element
@@ -1247,7 +1247,7 @@ container
 *
 *
 param
-nsIDOMNode
+Node
 aChild
 *
 The
@@ -1424,7 +1424,7 @@ container
 .
 *
 return
-nsIDOMNode
+Node
 *
 /
 get
@@ -1454,7 +1454,7 @@ container
 .
 *
 param
-nsIDOMNode
+Node
 aChild
 *
 /
@@ -1558,7 +1558,7 @@ visible
 *
 *
 param
-nsIDOMNode
+Node
 aElement
 *
 The
@@ -1921,7 +1921,7 @@ node
 *
 *
 param
-nsIDOMNode
+Node
 aNode
 *
 The
@@ -2376,7 +2376,7 @@ item
 .
 *
 param
-nsIDOMNode
+Node
 aContents
 *
 The
@@ -2496,7 +2496,7 @@ removed
 *
 *
 param
-nsIDOMNode
+Node
 aChild
 *
 An
@@ -2512,7 +2512,7 @@ SideMenuItem
 .
 *
 return
-nsIDOMNode
+Node
 *
 The
 wrapper
@@ -3511,7 +3511,7 @@ item
 .
 *
 param
-nsIDOMNode
+Node
 aContents
 *
 The
@@ -3981,7 +3981,7 @@ item
 .
 *
 return
-nsIDOMNode
+Node
 *
 The
 element
@@ -4217,7 +4217,7 @@ view
 param
 string
 |
-nsIDOMNode
+Node
 aContents
 *
 The
@@ -4354,7 +4354,7 @@ user
 *
 *
 param
-nsIDOMNode
+Node
 aParentNode
 *
 The

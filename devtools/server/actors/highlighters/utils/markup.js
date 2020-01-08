@@ -63,7 +63,6 @@ strict
 ;
 const
 {
-Ci
 Cu
 Cr
 }
@@ -781,9 +780,7 @@ isNodeValid
 node
 nodeType
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 ELEMENT_NODE
 )

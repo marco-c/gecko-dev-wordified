@@ -63,7 +63,6 @@ strict
 ;
 const
 {
-Ci
 Cu
 }
 =
@@ -414,9 +413,7 @@ node
 nodeType
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 DOCUMENT_NODE
 ?
@@ -823,9 +820,7 @@ node
 nodeType
 =
 =
-Ci
-.
-nsIDOMNode
+Node
 .
 TEXT_NODE
 &

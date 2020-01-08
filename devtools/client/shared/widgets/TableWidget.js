@@ -380,7 +380,7 @@ etc
 *
 param
 {
-nsIDOMNode
+Node
 }
 node
 *

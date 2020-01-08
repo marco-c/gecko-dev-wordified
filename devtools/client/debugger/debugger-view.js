@@ -5468,7 +5468,7 @@ panel
 .
 *
 param
-nsIDOMNode
+Node
 aNode
 *
 /
@@ -5691,7 +5691,7 @@ panel
 .
 *
 return
-nsIDOMNode
+Node
 *
 /
 get

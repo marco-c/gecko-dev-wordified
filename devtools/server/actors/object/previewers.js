@@ -3605,12 +3605,11 @@ rawObj
 |
 |
 !
+Node
+.
+isInstance
 (
 rawObj
-instanceof
-Ci
-.
-nsIDOMNode
 )
 )
 {

@@ -178,7 +178,7 @@ structure
 *
 param
 {
-nsIDOMNode
+Node
 }
 node
 *

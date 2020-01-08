@@ -4123,11 +4123,12 @@ node
 {
 if
 (
-node
-instanceof
-Ci
+Node
 .
-nsIDOMNode
+isInstance
+(
+node
+)
 )
 {
 if

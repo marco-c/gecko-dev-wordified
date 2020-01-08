@@ -956,7 +956,7 @@ panel
 *
 param
 {
-nsIDOMNode
+Node
 }
 anchor
 *

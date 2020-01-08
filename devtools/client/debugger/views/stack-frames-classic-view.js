@@ -576,7 +576,7 @@ stack
 .
 *
 return
-nsIDOMNode
+Node
 *
 The
 stack

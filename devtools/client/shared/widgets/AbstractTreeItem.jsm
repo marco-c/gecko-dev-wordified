@@ -272,8 +272,8 @@ or
 node
 "
 is
-an
-nsIDOMNode
+a
+Node
 .
 *
 *
@@ -692,7 +692,7 @@ root
 .
 attachTo
 (
-nsIDOMNode
+Node
 )
 ;
 *
@@ -1105,15 +1105,15 @@ fit
 *
 *
 param
-nsIDOMNode
+Node
 document
 *
 param
-nsIDOMNode
+Node
 arrowNode
 *
 return
-nsIDOMNode
+Node
 *
 /
 _displaySelf
@@ -1379,7 +1379,7 @@ items
 .
 *
 return
-nsIDOMNode
+Node
 *
 /
 get
@@ -1561,7 +1561,7 @@ element
 *
 *
 param
-nsIDOMNode
+Node
 containerNode
 *
 The
@@ -1581,7 +1581,7 @@ item
 .
 *
 param
-nsIDOMNode
+Node
 fragmentNode
 [
 optional
@@ -1609,7 +1609,7 @@ containerNode
 .
 *
 param
-nsIDOMNode
+Node
 beforeNode
 [
 optional
@@ -2920,7 +2920,7 @@ item
 .
 *
 return
-nsIDOMNode
+Node
 *
 The
 element
@@ -3287,7 +3287,7 @@ focus
 }
 /
 /
-nsIDOMNode
+Node
 }
 /
 *
@@ -3334,7 +3334,7 @@ focus
 }
 /
 /
-nsIDOMNode
+Node
 }
 /
 *

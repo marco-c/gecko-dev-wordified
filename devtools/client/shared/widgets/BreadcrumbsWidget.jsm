@@ -227,7 +227,7 @@ js
 *
 *
 param
-nsIDOMNode
+Node
 aNode
 *
 The
@@ -624,7 +624,7 @@ item
 .
 *
 param
-nsIDOMNode
+Node
 aContents
 *
 The
@@ -636,7 +636,7 @@ container
 .
 *
 return
-nsIDOMNode
+Node
 *
 The
 element
@@ -725,7 +725,7 @@ item
 .
 *
 return
-nsIDOMNode
+Node
 *
 The
 element
@@ -771,7 +771,7 @@ container
 *
 *
 param
-nsIDOMNode
+Node
 aChild
 *
 The
@@ -888,7 +888,7 @@ container
 .
 *
 return
-nsIDOMNode
+Node
 *
 /
 get
@@ -918,7 +918,7 @@ container
 .
 *
 param
-nsIDOMNode
+Node
 aChild
 *
 /
@@ -1104,7 +1104,7 @@ visible
 *
 *
 param
-nsIDOMNode
+Node
 aElement
 *
 The
@@ -1362,7 +1362,7 @@ breadcrumb
 .
 *
 param
-nsIDOMNode
+Node
 aContents
 *
 The
@@ -1478,7 +1478,7 @@ view
 param
 string
 |
-nsIDOMNode
+Node
 aContents
 *
 The

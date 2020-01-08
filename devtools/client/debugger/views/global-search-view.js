@@ -2111,7 +2111,7 @@ visible
 *
 *
 param
-nsIDOMNode
+Node
 aMatch
 *
 The
@@ -2155,7 +2155,7 @@ match
 *
 *
 param
-nsIDOMNode
+Node
 aMatch
 *
 The
@@ -2840,7 +2840,7 @@ item
 .
 *
 return
-nsIDOMNode
+Node
 *
 /
 get
@@ -2871,7 +2871,7 @@ UI
 *
 *
 param
-nsIDOMNode
+Node
 aElementNode
 *
 The
@@ -3566,7 +3566,7 @@ item
 .
 *
 return
-nsIDOMNode
+Node
 *
 /
 get
@@ -3597,7 +3597,7 @@ UI
 *
 *
 param
-nsIDOMNode
+Node
 aElementNode
 *
 The
@@ -3998,7 +3998,7 @@ view
 .
 *
 param
-nsIDOMNode
+Node
 aNode
 *
 param
@@ -4046,11 +4046,11 @@ view
 .
 *
 param
-nsIDOMNode
+Node
 aNode
 *
 param
-nsIDOMNode
+Node
 aFirstMatch
 *
 /
@@ -4087,8 +4087,8 @@ true
 *
 *
 *
-An
-nsIDOMNode
+A
+Node
 label
 with
 an
@@ -4238,7 +4238,7 @@ element
 *
 *
 param
-nsIDOMNode
+Node
 aElement
 *
 The
@@ -4329,7 +4329,7 @@ item
 .
 *
 return
-nsIDOMNode
+Node
 *
 The
 matched
@@ -4412,7 +4412,7 @@ element
 *
 *
 param
-nsIDOMNode
+Node
 aElement
 *
 The

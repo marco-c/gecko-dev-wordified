@@ -593,7 +593,7 @@ another
 *
 *
 param
-nsIDOMNode
+Node
 from
 *
 The
@@ -602,7 +602,7 @@ node
 .
 *
 param
-nsIDOMNode
+Node
 to
 *
 The

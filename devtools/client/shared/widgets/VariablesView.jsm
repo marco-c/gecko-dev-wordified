@@ -589,7 +589,7 @@ function
 *
 *
 param
-nsIDOMNode
+Node
 aParentNode
 *
 The
@@ -4198,7 +4198,7 @@ node
 *
 *
 param
-nsIDOMNode
+Node
 aNode
 *
 The
@@ -6105,7 +6105,7 @@ view
 .
 *
 return
-nsIDOMNode
+Node
 *
 /
 get
@@ -6135,7 +6135,7 @@ view
 .
 *
 return
-nsIDOMNode
+Node
 *
 /
 get
@@ -8837,7 +8837,7 @@ node
 *
 *
 param
-nsIDOMNode
+Node
 aNode
 *
 The
@@ -10583,7 +10583,7 @@ item
 .
 *
 return
-nsIDOMNode
+Node
 *
 /
 get
@@ -12384,7 +12384,7 @@ scope
 .
 *
 return
-nsIDOMNode
+Node
 *
 /
 get

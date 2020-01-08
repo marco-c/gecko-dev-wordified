@@ -511,7 +511,7 @@ position
 *
 *
 param
-nsIDOMNode
+Node
 parent
 *
 The

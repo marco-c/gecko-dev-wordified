@@ -422,7 +422,7 @@ from
 *
 *
 param
-nsIDOMNode
+Node
 parent
 *
 The
@@ -760,7 +760,7 @@ PerformanceGraph
 *
 *
 param
-nsIDOMNode
+Node
 parent
 *
 The
@@ -860,7 +860,7 @@ PerformanceGraph
 *
 *
 param
-nsIDOMNode
+Node
 parent
 *
 The
@@ -2688,7 +2688,7 @@ from
 *
 *
 param
-nsIDOMNode
+Node
 parent
 *
 The
