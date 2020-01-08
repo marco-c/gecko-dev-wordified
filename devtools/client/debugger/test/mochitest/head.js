@@ -953,10 +953,11 @@ targetBrowser
 .
 selectedTab
 =
-targetBrowser
+BrowserTestUtils
 .
 addTab
 (
+targetBrowser
 aUrl
 )
 ;

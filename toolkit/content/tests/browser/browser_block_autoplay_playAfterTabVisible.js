@@ -389,12 +389,13 @@ state
 let
 tab
 =
-window
-.
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+window
+.
+gBrowser
 "
 about
 :
