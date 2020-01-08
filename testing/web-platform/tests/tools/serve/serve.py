@@ -3540,7 +3540,6 @@ port
 =
 get_port
 (
-host
 )
     
 logger
@@ -6007,9 +6006,6 @@ config
 server_host
 get_port
 (
-config
-.
-server_host
 )
 )
         
