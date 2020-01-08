@@ -473,7 +473,7 @@ two
 )
 ;
 void
-Val
+LitVal
 :
 :
 writePayload
@@ -638,7 +638,7 @@ MOZ_CRASH
 (
 "
 unexpected
-Val
+LitVal
 type
 "
 )

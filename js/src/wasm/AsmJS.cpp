@@ -936,7 +936,7 @@ U
 ValType
 importType_
 ;
-Val
+LitVal
 val_
 ;
 U
@@ -945,7 +945,7 @@ U
 :
 val_
 (
-Val
+LitVal
 (
 )
 )
@@ -1122,7 +1122,7 @@ var
 initKind_
 ;
 }
-Val
+LitVal
 varInitVal
 (
 )
@@ -4732,7 +4732,7 @@ the
 wasm
 :
 :
-Val
+LitVal
 class
 do
 not
@@ -5349,7 +5349,7 @@ return
 false
 ;
 }
-Val
+LitVal
 value
 (
 )
@@ -5379,7 +5379,7 @@ NumLit
 BigUnsigned
 :
 return
-Val
+LitVal
 (
 toUint32
 (
@@ -5393,7 +5393,7 @@ NumLit
 Float
 :
 return
-Val
+LitVal
 (
 toFloat
 (
@@ -5407,7 +5407,7 @@ NumLit
 Double
 :
 return
-Val
+LitVal
 (
 toDouble
 (
@@ -5427,7 +5427,7 @@ NumLit
 Uint8x16
 :
 return
-Val
+LitVal
 (
 simdValue
 (
@@ -5451,7 +5451,7 @@ NumLit
 Uint16x8
 :
 return
-Val
+LitVal
 (
 simdValue
 (
@@ -5475,7 +5475,7 @@ NumLit
 Uint32x4
 :
 return
-Val
+LitVal
 (
 simdValue
 (
@@ -5493,7 +5493,7 @@ NumLit
 Float32x4
 :
 return
-Val
+LitVal
 (
 simdValue
 (
@@ -5511,7 +5511,7 @@ NumLit
 Bool8x16
 :
 return
-Val
+LitVal
 (
 simdValue
 (
@@ -5533,7 +5533,7 @@ NumLit
 Bool16x8
 :
 return
-Val
+LitVal
 (
 simdValue
 (
@@ -5555,7 +5555,7 @@ NumLit
 Bool32x4
 :
 return
-Val
+LitVal
 (
 simdValue
 (
@@ -13788,7 +13788,7 @@ emplaceBack
 tableIndex
 InitExpr
 (
-Val
+LitVal
 (
 uint32_t
 (
@@ -50944,7 +50944,7 @@ AsmJSGlobal
 global
 HandleValue
 importVal
-Val
+LitVal
 *
 val
 )
@@ -51078,7 +51078,7 @@ false
 *
 val
 =
-Val
+LitVal
 (
 uint32_t
 (
@@ -51130,7 +51130,7 @@ false
 *
 val
 =
-Val
+LitVal
 (
 f
 )
@@ -51166,7 +51166,7 @@ false
 *
 val
 =
-Val
+LitVal
 (
 d
 )
@@ -51205,7 +51205,7 @@ false
 *
 val
 =
-Val
+LitVal
 (
 simdConstant
 .
@@ -51248,7 +51248,7 @@ false
 *
 val
 =
-Val
+LitVal
 (
 simdConstant
 .
@@ -51291,7 +51291,7 @@ false
 *
 val
 =
-Val
+LitVal
 (
 simdConstant
 .
@@ -51334,7 +51334,7 @@ false
 *
 val
 =
-Val
+LitVal
 (
 simdConstant
 .
@@ -51388,7 +51388,7 @@ Int8x16
 *
 val
 =
-Val
+LitVal
 (
 simdConstant
 .
@@ -51442,7 +51442,7 @@ Int16x8
 *
 val
 =
-Val
+LitVal
 (
 simdConstant
 .
@@ -51496,7 +51496,7 @@ Int32x4
 *
 val
 =
-Val
+LitVal
 (
 simdConstant
 .
@@ -54086,7 +54086,7 @@ MutableHandle
 FunctionVector
 >
 funcImports
-ValVector
+LitValVector
 *
 valImports
 )
@@ -54147,7 +54147,7 @@ AsmJSGlobal
 Variable
 :
 {
-Val
+LitVal
 val
 ;
 if
@@ -54489,7 +54489,7 @@ return
 false
 ;
 }
-ValVector
+LitValVector
 valImports
 ;
 Rooted

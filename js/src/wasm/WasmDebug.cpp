@@ -2694,7 +2694,7 @@ isConstant
 )
 )
 {
-Val
+LitVal
 value
 =
 global

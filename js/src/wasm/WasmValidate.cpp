@@ -11537,7 +11537,7 @@ init
 =
 InitExpr
 (
-Val
+LitVal
 (
 uint32_t
 (
@@ -11593,7 +11593,7 @@ init
 =
 InitExpr
 (
-Val
+LitVal
 (
 uint64_t
 (
@@ -11649,7 +11649,7 @@ init
 =
 InitExpr
 (
-Val
+LitVal
 (
 f32
 )
@@ -11702,7 +11702,7 @@ init
 =
 InitExpr
 (
-Val
+LitVal
 (
 f64
 )
@@ -11800,7 +11800,7 @@ init
 =
 InitExpr
 (
-Val
+LitVal
 (
 ValType
 :

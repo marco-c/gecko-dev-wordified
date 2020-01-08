@@ -4166,7 +4166,7 @@ True
 /
 /
 The
-Val
+LitVal
 class
 represents
 a
@@ -4177,9 +4177,9 @@ of
 a
 given
 value
+/
+/
 type
-/
-/
 mostly
 for
 the
@@ -4191,11 +4191,11 @@ and
 initializers
 .
 A
-Val
+LitVal
+/
+/
 does
 not
-/
-/
 directly
 map
 to
@@ -4219,7 +4219,7 @@ i64
 values
 .
 A
-Val
+LitVal
 may
 contain
 non
@@ -4247,7 +4247,7 @@ JS
 boundary
 .
 class
-Val
+LitVal
 {
 ValType
 type_
@@ -4287,14 +4287,14 @@ u
 ;
 public
 :
-Val
+LitVal
 (
 )
 =
 default
 ;
 explicit
-Val
+LitVal
 (
 uint32_t
 i32
@@ -4316,7 +4316,7 @@ i32
 ;
 }
 explicit
-Val
+LitVal
 (
 uint64_t
 i64
@@ -4338,7 +4338,7 @@ i64
 ;
 }
 explicit
-Val
+LitVal
 (
 float
 f32
@@ -4360,7 +4360,7 @@ f32
 ;
 }
 explicit
-Val
+LitVal
 (
 double
 f64
@@ -4382,7 +4382,7 @@ f64
 ;
 }
 explicit
-Val
+LitVal
 (
 ValType
 refType
@@ -4416,7 +4416,7 @@ ptr
 ;
 }
 explicit
-Val
+LitVal
 (
 const
 I8x16
@@ -4472,7 +4472,7 @@ i8x16_
 ;
 }
 explicit
-Val
+LitVal
 (
 const
 I16x8
@@ -4528,7 +4528,7 @@ i16x8_
 ;
 }
 explicit
-Val
+LitVal
 (
 const
 I32x4
@@ -4584,7 +4584,7 @@ i32x4_
 ;
 }
 explicit
-Val
+LitVal
 (
 const
 F32x4
@@ -4912,11 +4912,11 @@ const
 typedef
 Vector
 <
-Val
+LitVal
 0
 SystemAllocPolicy
 >
-ValVector
+LitValVector
 ;
 /
 /
@@ -5633,7 +5633,7 @@ kind_
 union
 U
 {
-Val
+LitVal
 val_
 ;
 struct
@@ -5670,7 +5670,7 @@ default
 explicit
 InitExpr
 (
-Val
+LitVal
 val
 )
 :
@@ -5751,7 +5751,7 @@ Kind
 Constant
 ;
 }
-Val
+LitVal
 val
 (
 )
@@ -6369,7 +6369,7 @@ isExport_
 }
 var
 ;
-Val
+LitVal
 cst_
 ;
 V
@@ -6803,7 +6803,7 @@ var
 isMutable_
 ;
 }
-Val
+LitVal
 constantValue
 (
 )
@@ -13414,7 +13414,7 @@ const
 unsigned
 MaxMemoryAccessSize
 =
-Val
+LitVal
 :
 :
 sizeofLargestValue
