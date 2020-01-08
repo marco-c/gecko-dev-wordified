@@ -6971,6 +6971,9 @@ cwd
 self
 .
 topobjdir
+pass_thru
+=
+True
 )
                     
 backend_cls
