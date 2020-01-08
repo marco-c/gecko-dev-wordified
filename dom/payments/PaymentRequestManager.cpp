@@ -2625,7 +2625,7 @@ nsresult
 PaymentRequestManager
 :
 :
-CleanupPayment
+ClosePayment
 (
 PaymentRequest
 *
@@ -2690,7 +2690,7 @@ GetInternalId
 requestId
 )
 ;
-IPCPaymentCleanupActionRequest
+IPCPaymentCloseActionRequest
 action
 (
 requestId

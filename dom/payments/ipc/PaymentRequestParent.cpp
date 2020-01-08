@@ -901,11 +901,11 @@ case
 IPCPaymentActionRequest
 :
 :
-TIPCPaymentCleanupActionRequest
+TIPCPaymentCloseActionRequest
 :
 {
 const
-IPCPaymentCleanupActionRequest
+IPCPaymentCloseActionRequest
 &
 request
 =
@@ -923,7 +923,7 @@ requestId
 nsIPaymentActionRequest
 :
 :
-CLEANUP_ACTION
+CLOSE_ACTION
 getter_AddRefs
 (
 action

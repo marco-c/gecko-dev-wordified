@@ -6382,7 +6382,7 @@ GetSingleton
 mgr
 -
 >
-CleanupPayment
+ClosePayment
 (
 this
 )
