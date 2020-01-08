@@ -6963,8 +6963,6 @@ extract
 fennec
 APK
 tests
-.
-zip
 host
 utils
 and

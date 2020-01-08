@@ -562,6 +562,13 @@ tests
 .
 zip
 '
+'
+tests
+.
+tar
+.
+gz
+'
 )
 )
 "

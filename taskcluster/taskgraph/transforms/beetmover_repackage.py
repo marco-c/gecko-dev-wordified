@@ -280,7 +280,9 @@ common
 .
 tests
 .
-zip
+tar
+.
+gz
 "
     
 "
@@ -290,7 +292,9 @@ cppunittest
 .
 tests
 .
-zip
+tar
+.
+gz
 "
     
 "
@@ -316,7 +320,9 @@ mochitest
 .
 tests
 .
-zip
+tar
+.
+gz
 "
     
 "
@@ -334,7 +340,9 @@ reftest
 .
 tests
 .
-zip
+tar
+.
+gz
 "
     
 "
@@ -344,7 +352,9 @@ talos
 .
 tests
 .
-zip
+tar
+.
+gz
 "
     
 "
@@ -354,7 +364,9 @@ awsy
 .
 tests
 .
-zip
+tar
+.
+gz
 "
     
 "
@@ -392,7 +404,9 @@ xpcshell
 .
 tests
 .
-zip
+tar
+.
+gz
 "
     
 "
