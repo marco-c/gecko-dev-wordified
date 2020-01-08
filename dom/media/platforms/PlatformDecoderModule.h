@@ -307,6 +307,7 @@ Option
 {
 Default
 LowLatency
+HardwareDecoderNotAllowed
 }
 ;
 using
