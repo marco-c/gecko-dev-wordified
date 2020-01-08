@@ -1965,7 +1965,7 @@ r
 this
 -
 >
-StartBulkWrite
+StartBulkWriteImpl
 (
 XPCOM_MAX
 (
@@ -2415,7 +2415,7 @@ terminated
 this
 -
 >
-FinishBulkWrite
+FinishBulkWriteImpl
 (
 newLength
 .

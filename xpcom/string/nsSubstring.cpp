@@ -3019,7 +3019,7 @@ return
 aThis
 -
 >
-StartBulkWrite
+StartBulkWriteImpl
 (
 aCapacity
 aUnitsToPreserve
@@ -3307,7 +3307,7 @@ return
 aThis
 -
 >
-StartBulkWrite
+StartBulkWriteImpl
 (
 aCapacity
 aUnitsToPreserve
