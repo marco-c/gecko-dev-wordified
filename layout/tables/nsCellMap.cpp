@@ -5103,17 +5103,12 @@ uint32_t
 aRowIndex
 uint32_t
 aColIndex
-bool
-aIsBEndIEnd
 )
 {
 if
 (
 !
 mBCInfo
-|
-|
-aIsBEndIEnd
 )
 ABORT0
 (
@@ -5367,7 +5362,7 @@ coord
 For
 bEnd
 /
-iStart
+iEnd
 store
 it
 at

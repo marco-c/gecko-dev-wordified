@@ -1053,10 +1053,6 @@ uint32_t
 aYPos
 uint32_t
 aXPos
-bool
-aIsBEndIEnd
-=
-false
 )
 ;
 void
