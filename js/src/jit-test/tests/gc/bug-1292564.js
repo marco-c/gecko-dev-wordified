@@ -35,6 +35,11 @@ global
 =
 newGlobal
 (
+{
+sameZoneAs
+:
+this
+}
 )
 ;
 Debugger
