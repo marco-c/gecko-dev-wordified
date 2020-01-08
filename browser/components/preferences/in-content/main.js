@@ -15673,7 +15673,7 @@ browser
 .
 chrome
 .
-site_icons
+favicons
 "
 )
 )
