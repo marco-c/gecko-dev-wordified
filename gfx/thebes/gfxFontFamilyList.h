@@ -212,7 +212,7 @@ serializaiton
 enum
 FontFamilyType
 :
-uint32_t
+uint8_t
 {
 eFamily_none
 =
