@@ -374,6 +374,10 @@ PREF_FONT_EDITOR
 )
 {
 return
+fonts
+.
+length
+?
 Accordion
 (
 {
@@ -409,6 +413,8 @@ false
 ]
 }
 )
+:
+null
 ;
 }
 return
