@@ -119,7 +119,7 @@ with
 the
 PromiseActor
 await
-attachTarget
+attachTab
 (
 client
 parentProcessActors
@@ -176,7 +176,7 @@ tabResponse
 ]
 =
 await
-attachTarget
+attachTab
 (
 client
 targetTab

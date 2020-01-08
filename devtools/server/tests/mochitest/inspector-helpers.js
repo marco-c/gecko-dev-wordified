@@ -506,7 +506,7 @@ nested
 callbacks
 client
 .
-attachTarget
+attachTab
 (
 tab
 .

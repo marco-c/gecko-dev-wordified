@@ -233,7 +233,6 @@ tab
 const
 target
 =
-await
 gDevTools
 .
 getTargetForTab
@@ -281,7 +280,6 @@ tab
 const
 target
 =
-await
 gDevTools
 .
 getTargetForTab

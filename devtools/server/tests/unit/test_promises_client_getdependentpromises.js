@@ -118,7 +118,7 @@ client
 )
 ;
 await
-attachTarget
+attachTab
 (
 client
 parentProcessActors
@@ -265,7 +265,7 @@ tab
 )
 ;
 await
-attachTarget
+attachTab
 (
 client
 targetTab

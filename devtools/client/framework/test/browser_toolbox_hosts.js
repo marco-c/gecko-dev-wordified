@@ -168,7 +168,6 @@ URL
 ;
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -694,7 +693,6 @@ destroy
 ;
 target
 =
-await
 TargetFactory
 .
 forTab
