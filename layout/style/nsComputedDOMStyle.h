@@ -471,7 +471,6 @@ StyleType
 aStyleType
 )
 ;
-virtual
 nsINode
 *
 GetParentObject
@@ -480,7 +479,7 @@ GetParentObject
 override
 {
 return
-mContent
+mElement
 ;
 }
 static
@@ -4743,7 +4742,6 @@ grab
 the
 /
 /
-0th
 presshell
 if
 any
@@ -4754,11 +4752,17 @@ document
 nsWeakPtr
 mDocumentWeak
 ;
-nsCOMPtr
+RefPtr
 <
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 >
-mContent
+mElement
 ;
 /
 *
