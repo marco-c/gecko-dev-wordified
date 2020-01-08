@@ -52,7 +52,7 @@ root
 ;
 const
 {
-DebuggerServer
+ActorRegistry
 }
 =
 require
@@ -62,7 +62,9 @@ devtools
 /
 server
 /
-main
+actor
+-
+registry
 "
 )
 ;
@@ -103,7 +105,7 @@ connection
 {
 globalActorFactories
 :
-DebuggerServer
+ActorRegistry
 .
 globalActorFactories
 }

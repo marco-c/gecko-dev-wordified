@@ -143,7 +143,7 @@ registerAllActors
 (
 )
 ;
-DebuggerServer
+ActorRegistry
 .
 registerModule
 (

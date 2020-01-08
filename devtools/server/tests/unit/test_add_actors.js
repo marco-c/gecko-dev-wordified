@@ -147,7 +147,7 @@ function
 (
 )
 {
-DebuggerServer
+ActorRegistry
 .
 registerModule
 (
@@ -183,7 +183,7 @@ true
 }
 )
 ;
-DebuggerServer
+ActorRegistry
 .
 registerModule
 (
@@ -231,7 +231,7 @@ tab
 "
 )
 ;
-DebuggerServer
+ActorRegistry
 .
 registerModule
 (
@@ -267,7 +267,7 @@ true
 }
 )
 ;
-DebuggerServer
+ActorRegistry
 .
 registerModule
 (

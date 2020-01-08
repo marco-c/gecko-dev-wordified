@@ -372,7 +372,7 @@ browser
 have
 specified
 with
-DebuggerServer
+ActorRegistry
 .
 addTargetScopedActor
 *
