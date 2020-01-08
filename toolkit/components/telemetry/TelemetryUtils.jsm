@@ -760,6 +760,17 @@ previousBuildID
 Event
 Ping
 Preferences
+EventPingEnabled
+:
+"
+toolkit
+.
+telemetry
+.
+eventping
+.
+enabled
+"
 EventPingEventLimit
 :
 "
