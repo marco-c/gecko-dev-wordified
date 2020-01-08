@@ -215,12 +215,6 @@ nsIPrincipal
 class
 nsWindowSizes
 ;
-struct
-PLHashEntry
-;
-struct
-PLHashTable
-;
 template
 <
 class
