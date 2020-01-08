@@ -3436,14 +3436,6 @@ SetTlsFlags
 mTlsFlags
 )
 ;
-mConnectionInfo
--
->
-SetTrrUsed
-(
-mTRR
-)
-;
 /
 /
 notify

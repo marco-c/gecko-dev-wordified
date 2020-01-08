@@ -552,10 +552,6 @@ mTlsFlags
 =
 0x0
 ;
-mTrrUsed
-=
-false
-;
 mUsingHttpsProxy
 =
 (
@@ -1680,16 +1676,6 @@ clone
 SetTlsFlags
 (
 GetTlsFlags
-(
-)
-)
-;
-clone
--
->
-SetTrrUsed
-(
-GetTrrUsed
 (
 )
 )
