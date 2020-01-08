@@ -2513,6 +2513,11 @@ keyName
 Unidentified
 "
 ;
+let
+printable
+=
+false
+;
 if
 (
 key
@@ -2731,6 +2736,10 @@ nsITextInputProcessor
 .
 KEY_FORCE_PRINTABLE_KEY
 ;
+printable
+=
+true
+;
 }
 }
 let
@@ -2785,11 +2794,7 @@ keyName
 ;
 if
 (
-!
-MODIFIER_KEYCODES_LOOKUP
-[
-key
-]
+printable
 &
 &
 keyEvent
