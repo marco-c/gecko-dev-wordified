@@ -248,16 +248,6 @@ CalcNode
 ;
 pub
 use
-properties
-:
-:
-animated_properties
-:
-:
-TransitionProperty
-;
-pub
-use
 self
 :
 :
@@ -485,6 +475,7 @@ box_
 {
 ScrollSnapType
 TouchAction
+TransitionProperty
 VerticalAlign
 WillChange
 }
