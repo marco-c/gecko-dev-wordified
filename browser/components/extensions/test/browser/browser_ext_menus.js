@@ -1335,11 +1335,8 @@ dontShowItem
 .
 label
 "
-Don
-\
-u2019t
-Show
-in
+Remove
+from
 Address
 Bar
 "
