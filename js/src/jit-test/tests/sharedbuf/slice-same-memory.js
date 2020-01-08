@@ -47,11 +47,11 @@ var
 sab2
 =
 (
-setSharedArrayBuffer
+setSharedObject
 (
 sab
 )
-getSharedArrayBuffer
+getSharedObject
 (
 )
 )

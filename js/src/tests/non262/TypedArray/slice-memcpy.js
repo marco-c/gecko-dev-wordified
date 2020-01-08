@@ -463,7 +463,7 @@ compartments
 if
 (
 typeof
-setSharedArrayBuffer
+setSharedObject
 =
 =
 =
@@ -564,7 +564,7 @@ function
 len
 )
 {
-setSharedArrayBuffer
+setSharedObject
 (
 ab
 )
@@ -583,7 +583,7 @@ constructor
 name
 }
 (
-getSharedArrayBuffer
+getSharedObject
 (
 )
 {
@@ -601,7 +601,7 @@ len
 }
 finally
 {
-setSharedArrayBuffer
+setSharedObject
 (
 null
 )

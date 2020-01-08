@@ -53,12 +53,12 @@ SharedArrayBuffer
 &
 this
 .
-getSharedArrayBuffer
+getSharedObject
 &
 &
 this
 .
-setSharedArrayBuffer
+setSharedObject
 &
 &
 this
@@ -306,7 +306,7 @@ SharedArrayBuffer
 sabLength
 )
 ;
-setSharedArrayBuffer
+setSharedObject
 (
 sab
 )
@@ -372,7 +372,7 @@ iab
 new
 Int32Array
 (
-getSharedArrayBuffer
+getSharedObject
 (
 )
 )
