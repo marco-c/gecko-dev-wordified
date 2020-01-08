@@ -4712,7 +4712,7 @@ eBoolInteger
 nsMediaFeature
 :
 :
-eNoRequirements
+eUserAgentAndChromeOnly
 {
 nullptr
 }
