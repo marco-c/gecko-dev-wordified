@@ -2403,15 +2403,11 @@ false
 ;
 /
 /
-Make
-sure
+Enable
 the
 Accessibility
 panel
-is
-hidden
-by
-default
+.
 pref
 (
 "
@@ -2421,7 +2417,7 @@ accessibility
 .
 enabled
 "
-false
+true
 )
 ;
 /
