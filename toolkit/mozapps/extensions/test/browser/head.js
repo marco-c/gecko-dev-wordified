@@ -1908,7 +1908,7 @@ name
 "
 )
 ;
-ok
+is
 (
 tiptext
 .

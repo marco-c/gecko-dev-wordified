@@ -525,7 +525,7 @@ Space
 "
 )
 ;
-ok
+is
 (
 popup
 .

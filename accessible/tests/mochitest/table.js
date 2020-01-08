@@ -3112,7 +3112,7 @@ rowIdx
 colIdx
 )
 ;
-ok
+is
 (
 actualSelCellAccessible
 expectedSelCellAccessible

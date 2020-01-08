@@ -1119,7 +1119,7 @@ TEST_URL
 ;
 Assert
 .
-ok
+equal
 (
 tags
 [

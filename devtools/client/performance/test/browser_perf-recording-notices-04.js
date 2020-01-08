@@ -446,7 +446,7 @@ getCurrentRecording
 )
 )
 ;
-ok
+is
 (
 bufferUsage
 1
@@ -461,7 +461,7 @@ recording
 "
 )
 ;
-ok
+is
 (
 DETAILS_CONTAINER
 .

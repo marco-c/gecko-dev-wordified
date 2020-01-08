@@ -579,7 +579,7 @@ true
 "
 )
 ;
-ok
+is
 (
 obj
 .
@@ -637,7 +637,7 @@ true
 "
 )
 ;
-ok
+is
 (
 obj
 .

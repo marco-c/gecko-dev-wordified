@@ -129,7 +129,7 @@ pressCtrlTab
 (
 )
 ;
-ok
+is
 (
 ctrlTab
 .
