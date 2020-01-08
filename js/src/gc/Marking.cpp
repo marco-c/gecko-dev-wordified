@@ -2411,6 +2411,12 @@ IsUnmarkGrayTracer
 (
 trc
 )
+|
+|
+IsClearEdgesTracer
+(
+trc
+)
 )
 ;
 if
