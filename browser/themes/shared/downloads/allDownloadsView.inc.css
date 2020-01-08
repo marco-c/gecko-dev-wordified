@@ -565,9 +565,6 @@ fieldtext
 itemFocused
 >
 .
-downloadButtonArea
->
-.
 downloadButton
 :
 hover
@@ -589,9 +586,6 @@ Highlight
 ;
 }
 itemFocused
->
-.
-downloadButtonArea
 >
 .
 downloadButton

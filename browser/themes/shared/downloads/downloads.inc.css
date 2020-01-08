@@ -1620,7 +1620,7 @@ verdict
 )
 >
 .
-downloadButtonArea
+downloadButton
 :
 hover
 item
@@ -1665,7 +1665,7 @@ verdict
 )
 >
 .
-downloadButtonArea
+downloadButton
 :
 hover
 :
@@ -1898,7 +1898,7 @@ svg
 ;
 }
 .
-downloadShowBlockedInfo
+downloadIconSubviewArrow
 >
 .
 button
@@ -1941,7 +1941,7 @@ svg
 ;
 }
 .
-downloadShowBlockedInfo
+downloadIconSubviewArrow
 >
 .
 button
