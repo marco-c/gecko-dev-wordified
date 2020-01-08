@@ -19158,11 +19158,12 @@ n
 "
 result
 resultNode
-(
-int
-)
-*
 aOutHitResult
+-
+>
+serialize
+(
+)
 )
 ;
 return
