@@ -130,15 +130,6 @@ include
 "
 mozilla
 /
-EditorUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 LookAndFeel
 .
 h
@@ -6654,8 +6645,9 @@ point
 of
 view
 AutoPlaceholderBatch
-batchIt
+treatAsOneTransaction
 (
+*
 this
 )
 ;

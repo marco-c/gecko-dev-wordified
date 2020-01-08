@@ -111,15 +111,6 @@ include
 "
 mozilla
 /
-EditorUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
