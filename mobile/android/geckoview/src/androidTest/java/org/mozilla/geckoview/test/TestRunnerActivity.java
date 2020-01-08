@@ -830,6 +830,13 @@ consoleOutput
 (
 true
 )
+.
+crashHandler
+(
+TestCrashHandler
+.
+class
+)
 ;
 sRuntime
 =
