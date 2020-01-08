@@ -124,7 +124,9 @@ window
 but
 async
 await
-promiseWindowWillBeClosed
+BrowserTestUtils
+.
+domWindowClosed
 (
 win
 )
