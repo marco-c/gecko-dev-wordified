@@ -1375,7 +1375,7 @@ strip
 *
 '
 )
-                   
+                                    
 firstCap
 (
 a
@@ -1488,7 +1488,7 @@ nativeType
 in
 '
 )
-                       
+                         
 firstCap
 (
 a
@@ -1739,7 +1739,6 @@ write
 n
 "
 )
-;
     
 fd
 .
@@ -1751,7 +1750,6 @@ write
 n
 "
 )
-;
     
 if
 a
@@ -1965,7 +1963,6 @@ NS_OK
 n
 "
 )
-;
     
 fd
 .
@@ -1979,7 +1976,6 @@ n
 n
 "
 )
-;
 def
 interfaces
 (
@@ -2188,7 +2184,6 @@ n
 n
 "
 )
-;
     
 fd
 .
