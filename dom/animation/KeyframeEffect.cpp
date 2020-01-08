@@ -4580,6 +4580,8 @@ s
 \
 n
 "
+nsCString
+(
 nsCSSProps
 :
 :
@@ -4588,6 +4590,7 @@ GetStringValue
 p
 .
 mProperty
+)
 )
 .
 get
