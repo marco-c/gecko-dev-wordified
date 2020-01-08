@@ -3142,8 +3142,9 @@ maxInputChannels
 listener
 -
 >
-InputChannelCount
+RequestedInputChannelCount
 (
+this
 )
 )
 ;
