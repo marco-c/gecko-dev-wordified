@@ -49227,8 +49227,6 @@ CloneDocHelper
 nsDocument
 *
 clone
-bool
-aPreallocateChildren
 )
 const
 {
