@@ -400,16 +400,6 @@ FeatureMap
 :
 eSelf
 }
-/
-/
-TODO
-:
-not
-supported
-yet
-!
-!
-!
 {
 "
 midi
