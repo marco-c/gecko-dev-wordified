@@ -461,6 +461,12 @@ comm
 -
 beta
 '
+        
+'
+comm
+-
+esr60
+'
     
 ]
 )
@@ -681,6 +687,18 @@ release
         
 '
 mozilla
+-
+esr60
+'
+        
+'
+comm
+-
+beta
+'
+        
+'
+comm
 -
 esr60
 '
@@ -1210,6 +1228,12 @@ mozilla
 -
 beta
 '
+        
+'
+comm
+-
+beta
+'
     
 ]
 )
@@ -1243,6 +1267,12 @@ set
         
 '
 mozilla
+-
+esr60
+'
+        
+'
+comm
 -
 esr60
 '
@@ -2932,6 +2962,11 @@ source
 '
 '
 fennec
+-
+source
+'
+'
+thunderbird
 -
 source
 '
