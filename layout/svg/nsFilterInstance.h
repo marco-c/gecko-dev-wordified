@@ -718,6 +718,12 @@ aDirtyArea
 imgDrawingParams
 &
 aImgParams
+float
+aOpacity
+=
+1
+.
+0f
 )
 ;
 /
@@ -1318,6 +1324,12 @@ aCtx
 imgDrawingParams
 &
 aImgParams
+float
+aOpacity
+=
+1
+.
+0f
 )
 ;
 const
