@@ -160,6 +160,9 @@ run_test
 (
 self
 raptor_args
+app
+=
+None
 )
 :
         
@@ -205,6 +208,9 @@ self
 init_variables
 (
 raptor_args
+app
+=
+app
 )
         
 self
@@ -243,6 +249,9 @@ init_variables
 (
 self
 raptor_args
+app
+=
+None
 )
 :
         
@@ -324,6 +333,15 @@ self
 get_binary_path
 (
 )
+if
+app
+!
+=
+'
+geckoview
+'
+else
+None
         
 self
 .
@@ -1280,6 +1298,14 @@ argv
 [
 2
 :
+]
+app
+=
+kwargs
+[
+'
+app
+'
 ]
 )
         
