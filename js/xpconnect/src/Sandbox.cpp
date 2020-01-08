@@ -7513,10 +7513,12 @@ below
 if
 (
 !
-JS_GetObjectPrototype
+JS
+:
+:
+GetRealmObjectPrototype
 (
 cx
-sandbox
 )
 )
 return
