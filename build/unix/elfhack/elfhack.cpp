@@ -9432,6 +9432,7 @@ getSize
 (
 )
 +
+(
 relhackcode
 -
 >
@@ -9443,6 +9444,7 @@ getAddr
 align
 -
 1
+)
 )
 ;
 if
