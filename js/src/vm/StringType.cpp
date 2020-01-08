@@ -14831,7 +14831,7 @@ id
 frontend
 :
 :
-IsIdentifier
+IsIdentifierNameOrPrivateName
 (
 JSID_TO_ATOM
 (

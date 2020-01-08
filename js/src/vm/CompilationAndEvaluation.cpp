@@ -2075,7 +2075,15 @@ frontend
 :
 IsIdentifier
 (
+reinterpret_cast
+<
+const
+Latin1Char
+*
+>
+(
 name
+)
 nameLen
 )
 )
