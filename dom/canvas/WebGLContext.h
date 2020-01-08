@@ -3896,6 +3896,11 @@ GetVRFrame
 (
 )
 ;
+void
+EnsureVRReady
+(
+)
+;
 /
 /
 /
@@ -9060,6 +9065,9 @@ mShouldPresent
 ;
 bool
 mDisableFragHighP
+;
+bool
+mVRReady
 ;
 template
 <
