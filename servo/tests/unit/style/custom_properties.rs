@@ -92,7 +92,7 @@ style
 properties
 :
 :
-DeclaredValue
+CustomDeclarationValue
 ;
 use
 test
@@ -249,12 +249,17 @@ builder
 cascade
 (
 name
-DeclaredValue
+&
+CustomDeclarationValue
 :
 :
 Value
 (
 val
+.
+clone
+(
+)
 )
 )
 ;
