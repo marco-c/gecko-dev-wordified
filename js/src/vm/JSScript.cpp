@@ -9461,9 +9461,11 @@ ReadOnlyCompileOptions
 options
 )
 {
-releaseAssertSameCompartment
-(
 cx
+-
+>
+releaseCheck
+(
 source
 )
 ;
