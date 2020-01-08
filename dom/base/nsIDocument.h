@@ -16586,13 +16586,6 @@ ShadowRoot
 aShadowRoot
 )
 {
-MOZ_ASSERT
-(
-IsShadowDOMEnabled
-(
-)
-)
-;
 mComposedShadowRoots
 .
 PutEntry
@@ -16633,13 +16626,6 @@ ShadowRoot
 aShadowRoot
 )
 {
-MOZ_ASSERT
-(
-IsShadowDOMEnabled
-(
-)
-)
-;
 mComposedShadowRoots
 .
 RemoveEntry
