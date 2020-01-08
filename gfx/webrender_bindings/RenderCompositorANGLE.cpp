@@ -2102,6 +2102,12 @@ HandleDeviceReset
 "
 BeginFrame
 "
+/
+*
+aNotify
+*
+/
+true
 )
 ;
 return
@@ -2210,6 +2216,12 @@ HandleDeviceReset
 "
 SyncObject
 "
+/
+*
+aNotify
+*
+/
+true
 )
 ;
 return
