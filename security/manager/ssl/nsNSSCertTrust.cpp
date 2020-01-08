@@ -63,6 +63,13 @@ nsNSSCertTrust
 .
 h
 "
+#
+include
+"
+certdb
+.
+h
+"
 void
 nsNSSCertTrust
 :

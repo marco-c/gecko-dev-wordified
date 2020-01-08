@@ -1252,7 +1252,6 @@ for
 a
 password
 .
-static
 nsresult
 GetPromise
 (

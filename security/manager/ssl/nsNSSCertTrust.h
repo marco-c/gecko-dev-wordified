@@ -65,13 +65,6 @@ nsNSSCertTrust_h
 #
 include
 "
-certdb
-.
-h
-"
-#
-include
-"
 certt
 .
 h
