@@ -1071,6 +1071,11 @@ GetPerformance
 (
 )
 ;
+void
+QueuePerformanceNavigationTiming
+(
+)
+;
 bool
 HasMutationListeners
 (
