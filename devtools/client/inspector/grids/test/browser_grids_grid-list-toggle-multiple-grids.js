@@ -36,7 +36,6 @@ strict
 /
 Test
 toggling
-the
 multiple
 grid
 highlighters

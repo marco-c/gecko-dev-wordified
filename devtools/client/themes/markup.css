@@ -2916,6 +2916,8 @@ grid
 "
 ]
 .
+interactive
+.
 markup
 -
 badge
@@ -2931,6 +2933,8 @@ flex
 "
 ]
 .
+interactive
+.
 markup
 -
 badge
@@ -2945,6 +2949,8 @@ inline
 grid
 "
 ]
+.
+interactive
 .
 markup
 -
@@ -3059,6 +3065,8 @@ not
 .
 active
 )
+.
+interactive
 :
 focus
 .
@@ -3080,6 +3088,8 @@ not
 .
 active
 )
+.
+interactive
 :
 hover
 .
@@ -3153,6 +3163,8 @@ not
 .
 active
 )
+.
+interactive
 :
 focus
 .
@@ -3176,6 +3188,8 @@ not
 .
 active
 )
+.
+interactive
 :
 hover
 .
