@@ -617,8 +617,10 @@ abortedPreliminaryGroups_
 i
 ]
 )
+{
 return
 ;
+}
 }
 AutoEnterOOMUnsafeRegion
 oomUnsafe
@@ -633,6 +635,7 @@ append
 group
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -642,6 +645,7 @@ addAbortedPreliminaryGroup
 "
 )
 ;
+}
 }
 void
 MIRGraph
@@ -802,6 +806,7 @@ iter
 +
 +
 )
+{
 iter
 -
 >
@@ -812,6 +817,7 @@ setId
 id
 )
 ;
+}
 }
 bool
 MIRGraph
@@ -834,9 +840,11 @@ hasLastIns
 (
 )
 )
+{
 return
 true
 ;
+}
 start
 -
 >
@@ -895,8 +903,10 @@ isMarked
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -913,9 +923,11 @@ i
 )
 )
 )
+{
 return
 false
 ;
+}
 start
 -
 >
@@ -969,8 +981,10 @@ hasLastIns
 (
 )
 )
+{
 continue
 ;
+}
 for
 (
 size_t
@@ -1007,8 +1021,10 @@ isMarked
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -1025,9 +1041,11 @@ j
 )
 )
 )
+{
 return
 false
 ;
+}
 block
 -
 >
@@ -1067,6 +1085,7 @@ isMarked
 (
 )
 )
+{
 osrBlock
 (
 )
@@ -1076,6 +1095,7 @@ mark
 (
 )
 ;
+}
 }
 /
 /
@@ -1162,8 +1182,10 @@ isMarked
 (
 )
 )
+{
 continue
 ;
+}
 allMarked
 =
 false
@@ -1306,6 +1328,7 @@ isDead
 (
 )
 )
+{
 removeBlock
 (
 osrBlock
@@ -1313,6 +1336,7 @@ osrBlock
 )
 )
 ;
+}
 }
 for
 (
@@ -1333,6 +1357,7 @@ i
 +
 +
 )
+{
 blocks
 [
 i
@@ -1343,6 +1368,7 @@ unmark
 (
 )
 ;
+}
 start
 -
 >
@@ -1388,10 +1414,12 @@ block
 =
 osrBlock_
 )
+{
 osrBlock_
 =
 nullptr
 ;
+}
 if
 (
 returnAccumulator_
@@ -1427,6 +1455,7 @@ i
 =
 block
 )
+{
 returnAccumulator_
 -
 >
@@ -1442,11 +1471,14 @@ begin
 i
 )
 ;
+}
 else
+{
 i
 +
 +
 ;
+}
 }
 }
 block
@@ -1566,6 +1598,7 @@ i
 +
 +
 )
+{
 i
 -
 >
@@ -1573,6 +1606,7 @@ unmark
 (
 )
 ;
+}
 }
 MBasicBlock
 *
@@ -1643,9 +1677,11 @@ init
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -1664,9 +1700,11 @@ maybePred
 0
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 block
 ;
@@ -1727,9 +1765,11 @@ init
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -1753,9 +1793,11 @@ pred
 popped
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 block
 ;
@@ -1863,9 +1905,11 @@ init
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -1877,9 +1921,11 @@ inheritResumePoint
 pred
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 block
 ;
@@ -1951,9 +1997,11 @@ init
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -1978,9 +2026,11 @@ pred
 stackPhiCount
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 block
 ;
@@ -2060,9 +2110,11 @@ if
 !
 split
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 {
@@ -2151,9 +2203,11 @@ init
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 A
@@ -2351,9 +2405,11 @@ alloc
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 split
 -
 >
@@ -2483,6 +2539,7 @@ block
 =
 succ
 )
+{
 def
 =
 def
@@ -2498,6 +2555,7 @@ getOperand
 succEdgeIdx
 )
 ;
+}
 splitEntry
 -
 >
@@ -2550,9 +2608,11 @@ append
 pred
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 split
 -
@@ -2694,9 +2754,11 @@ init
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 pred
@@ -2782,9 +2844,11 @@ if
 !
 phis
 )
+{
 return
 nullptr
 ;
+}
 }
 /
 /
@@ -2855,6 +2919,7 @@ i
 <
 nfree
 )
+{
 phi
 =
 graph
@@ -2863,7 +2928,9 @@ takePhiFromFreeList
 (
 )
 ;
+}
 else
+{
 phi
 =
 phis
@@ -2874,6 +2941,7 @@ i
 nfree
 )
 ;
+}
 new
 (
 phi
@@ -2949,9 +3017,11 @@ append
 pred
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 block
@@ -3200,9 +3270,11 @@ nslots
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -3273,6 +3345,7 @@ e
 +
 i
 )
+{
 thisSlots
 [
 i
@@ -3283,6 +3356,7 @@ fromSlots
 i
 ]
 ;
+}
 }
 bool
 MBasicBlock
@@ -3345,11 +3419,13 @@ kind_
 =
 PENDING_LOOP_HEADER
 )
+{
 copySlots
 (
 maybePred
 )
 ;
+}
 MOZ_ASSERT
 (
 info_
@@ -3434,9 +3510,11 @@ init
 alloc
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 maybePred
@@ -3452,9 +3530,11 @@ append
 maybePred
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 kind_
@@ -3510,9 +3590,11 @@ if
 !
 phi
 )
+{
 return
 false
 ;
+}
 phi
 -
 >
@@ -3692,9 +3774,11 @@ if
 !
 phi
 )
+{
 return
 false
 ;
+}
 phi
 -
 >
@@ -3750,6 +3834,7 @@ i
 +
 +
 )
+{
 entryResumePoint
 (
 )
@@ -3764,6 +3849,7 @@ i
 )
 )
 ;
+}
 }
 }
 else
@@ -3808,6 +3894,7 @@ i
 +
 +
 )
+{
 entryResumePoint
 (
 )
@@ -3818,6 +3905,7 @@ clearOperand
 i
 )
 ;
+}
 }
 return
 true
@@ -3867,6 +3955,7 @@ i
 +
 +
 )
+{
 slots_
 [
 i
@@ -3880,6 +3969,7 @@ getOperand
 i
 )
 ;
+}
 MOZ_ASSERT
 (
 info_
@@ -3927,9 +4017,11 @@ append
 pred
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -4017,9 +4109,11 @@ if
 !
 entryResumePoint_
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -4091,6 +4185,7 @@ i
 +
 +
 )
+{
 slots_
 [
 stackPosition_
@@ -4107,6 +4202,7 @@ i
 1
 ]
 ;
+}
 -
 -
 stackPosition_
@@ -4190,6 +4286,7 @@ isOsrEnvironmentChain
 (
 )
 )
+{
 cloneRp
 =
 def
@@ -4199,6 +4296,7 @@ toOsrEnvironmentChain
 (
 )
 ;
+}
 }
 else
 if
@@ -4224,6 +4322,7 @@ isOsrReturnValue
 (
 )
 )
+{
 cloneRp
 =
 def
@@ -4233,6 +4332,7 @@ toOsrReturnValue
 (
 )
 ;
+}
 }
 else
 if
@@ -4312,6 +4412,7 @@ isOsrArgumentsObject
 (
 )
 )
+{
 cloneRp
 =
 def
@@ -4321,6 +4422,7 @@ toOsrArgumentsObject
 (
 )
 ;
+}
 }
 else
 {
@@ -4430,6 +4532,7 @@ isOsrValue
 (
 )
 )
+{
 cloneRp
 =
 def
@@ -4439,6 +4542,7 @@ toOsrValue
 (
 )
 ;
+}
 else
 if
 (
@@ -4449,6 +4553,7 @@ isGetArgumentsObjectArg
 (
 )
 )
+{
 cloneRp
 =
 def
@@ -4458,6 +4563,7 @@ toGetArgumentsObjectArg
 (
 )
 ;
+}
 else
 if
 (
@@ -4468,6 +4574,7 @@ isParameter
 (
 )
 )
+{
 cloneRp
 =
 def
@@ -4477,6 +4584,7 @@ toParameter
 (
 )
 ;
+}
 }
 if
 (
@@ -4507,9 +4615,11 @@ if
 !
 clone
 )
+{
 return
 false
 ;
+}
 cloneRp
 -
 >
@@ -4736,11 +4846,13 @@ depth
 +
 +
 )
+{
 swapAt
 (
 depth
 )
 ;
+}
 }
 void
 MBasicBlock
@@ -4834,11 +4946,13 @@ n
 -
 -
 )
+{
 swapAt
 (
 n
 )
 ;
+}
 }
 void
 MBasicBlock
@@ -4966,6 +5080,7 @@ MIRType
 :
 MagicOptimizedOut
 )
+{
 return
 ins
 -
@@ -4974,6 +5089,7 @@ toConstant
 (
 )
 ;
+}
 MConstant
 *
 constant
@@ -5361,6 +5477,7 @@ refType
 &
 RefType_DiscardOperands
 )
+{
 rp
 -
 >
@@ -5368,6 +5485,7 @@ releaseUses
 (
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -5502,12 +5620,14 @@ RefType_DiscardResumePoint
 &
 rp
 )
+{
 discardResumePoint
 (
 rp
 refType
 )
 ;
+}
 /
 /
 We
@@ -5598,6 +5718,7 @@ i
 +
 +
 )
+{
 ins
 -
 >
@@ -5606,6 +5727,7 @@ releaseOperand
 i
 )
 ;
+}
 }
 ins
 -
@@ -5676,6 +5798,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT
 (
 !
@@ -5688,6 +5811,7 @@ i
 )
 )
 ;
+}
 #
 endif
 prepareForDiscard
@@ -5724,6 +5848,7 @@ isPhi
 (
 )
 )
+{
 at
 -
 >
@@ -5742,7 +5867,9 @@ toPhi
 )
 )
 ;
+}
 else
+{
 at
 -
 >
@@ -5761,6 +5888,7 @@ toInstruction
 )
 )
 ;
+}
 }
 void
 MBasicBlock
@@ -5894,6 +6022,7 @@ iter
 +
 +
 )
+{
 iter
 -
 >
@@ -5901,6 +6030,7 @@ removeAllOperands
 (
 )
 ;
+}
 for
 (
 MBasicBlock
@@ -5927,6 +6057,7 @@ pred
 +
 +
 )
+{
 (
 *
 pred
@@ -5937,6 +6068,7 @@ clearSuccessorWithPhis
 (
 )
 ;
+}
 }
 void
 MBasicBlock
@@ -5971,10 +6103,12 @@ if
 (
 outerResumePoint_
 )
+{
 clearOuterResumePoint
 (
 )
 ;
+}
 if
 (
 discardEntry
@@ -5982,10 +6116,12 @@ discardEntry
 &
 entryResumePoint_
 )
+{
 clearEntryResumePoint
 (
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -6273,6 +6409,7 @@ hasLastIns
 (
 )
 )
+{
 insertBefore
 (
 lastIns
@@ -6281,12 +6418,15 @@ lastIns
 ins
 )
 ;
+}
 else
+{
 add
 (
 ins
 )
 ;
+}
 }
 void
 MBasicBlock
@@ -6383,6 +6523,7 @@ pred
 :
 predecessors_
 )
+{
 pred
 -
 >
@@ -6390,6 +6531,7 @@ clearSuccessorWithPhis
 (
 )
 ;
+}
 }
 }
 void
@@ -6459,8 +6601,10 @@ if
 (
 rp
 )
+{
 break
 ;
+}
 }
 /
 /
@@ -6477,12 +6621,14 @@ if
 !
 rp
 )
+{
 rp
 =
 entryResumePoint
 (
 )
 ;
+}
 /
 /
 The
@@ -6593,6 +6739,7 @@ i
 +
 +
 )
+{
 rp
 -
 >
@@ -6606,6 +6753,7 @@ setUseRemovedUnchecked
 (
 )
 ;
+}
 rp
 =
 rp
@@ -6838,9 +6986,11 @@ addInputSlow
 other
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -6874,6 +7024,7 @@ type
 (
 )
 )
+{
 phi
 =
 MPhi
@@ -6894,7 +7045,9 @@ type
 )
 )
 ;
+}
 else
+{
 phi
 =
 MPhi
@@ -6909,14 +7062,17 @@ fallible
 )
 )
 ;
+}
 if
 (
 !
 phi
 )
+{
 return
 false
 ;
+}
 addPhi
 (
 phi
@@ -6961,9 +7117,11 @@ length
 1
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 size_t
@@ -7033,6 +7191,7 @@ entryResumePoint
 (
 )
 )
+{
 entryResumePoint
 (
 )
@@ -7044,6 +7203,7 @@ i
 phi
 )
 ;
+}
 }
 }
 }
@@ -7174,9 +7334,11 @@ existingPosition
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 if
@@ -7189,9 +7351,11 @@ append
 pred
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -7514,12 +7678,14 @@ pred
 hadTypeChange
 )
 )
+{
 return
 AbortReason
 :
 :
 Alloc
 ;
+}
 if
 (
 hadTypeChange
@@ -7545,6 +7711,7 @@ phi
 +
 +
 )
+{
 phi
 -
 >
@@ -7560,6 +7727,7 @@ numOperands
 1
 )
 ;
+}
 return
 AbortReason
 :
@@ -7590,12 +7758,14 @@ append
 pred
 )
 )
+{
 return
 AbortReason
 :
 :
 Alloc
 ;
+}
 return
 AbortReason
 :
@@ -8103,8 +8273,10 @@ pred
 =
 newBackedge
 )
+{
 break
 ;
+}
 }
 /
 /
@@ -8323,9 +8495,11 @@ i
 =
 block
 )
+{
 return
 i
 ;
+}
 }
 MOZ_CRASH
 (
@@ -8379,9 +8553,11 @@ i
 =
 block
 )
+{
 return
 i
 ;
+}
 }
 MOZ_CRASH
 (
@@ -8551,6 +8727,7 @@ j
 +
 +
 )
+{
 MOZ_ASSERT
 (
 predecessors_
@@ -8562,6 +8739,7 @@ j
 old
 )
 ;
+}
 #
 endif
 return
@@ -8652,10 +8830,12 @@ backedge
 =
 pred
 )
+{
 clearLoopHeader
 (
 )
 ;
+}
 /
 /
 Adjust
@@ -8740,6 +8920,7 @@ j
 +
 +
 )
+{
 getPredecessor
 (
 j
@@ -8754,6 +8935,7 @@ j
 1
 )
 ;
+}
 }
 /
 /
@@ -8827,6 +9009,7 @@ end
 +
 iter
 )
+{
 iter
 -
 >
@@ -8835,6 +9018,7 @@ removeOperand
 predIndex
 )
 ;
+}
 /
 /
 Now
@@ -9042,8 +9226,10 @@ entryDef
 =
 exitDef
 )
+{
 continue
 ;
+}
 /
 /
 If
@@ -9441,9 +9627,11 @@ addInputSlow
 exitDef
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -9458,9 +9646,11 @@ exitDef
 typeChange
 )
 )
+{
 return
 false
 ;
+}
 *
 hadTypeChange
 |
@@ -9493,9 +9683,11 @@ if
 (
 specialized_
 )
+{
 return
 true
 ;
+}
 specialized_
 =
 true
@@ -9539,9 +9731,11 @@ specializeType
 alloc
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -9573,9 +9767,11 @@ numPredecessors
 =
 1
 )
+{
 return
 nullptr
 ;
+}
 MBasicBlock
 *
 dom
@@ -9594,9 +9790,11 @@ getPredecessor
 0
 )
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Look
@@ -9688,9 +9886,11 @@ ifFalse
 =
 this
 )
+{
 return
 nullptr
 ;
+}
 *
 pdirection
 =
@@ -9889,9 +10089,11 @@ alloc
 stackPosition_
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 size_t
@@ -9910,6 +10112,7 @@ e
 +
 i
 )
+{
 slots_
 [
 i
@@ -9923,6 +10126,7 @@ slots_
 i
 ]
 ;
+}
 return
 true
 ;
@@ -10200,9 +10404,11 @@ removeSuccessorBlocks
 current_
 )
 )
+{
 return
 nullptr
 ;
+}
 MInstructionIterator
 lastIns
 (
@@ -10268,6 +10474,7 @@ stackPosition_
 =
 stackPosition_
 )
+{
 current_
 -
 >
@@ -10276,6 +10483,7 @@ setStackDepth
 stackPosition_
 )
 ;
+}
 for
 (
 size_t
@@ -10294,6 +10502,7 @@ e
 +
 i
 )
+{
 current_
 -
 >
@@ -10307,6 +10516,7 @@ slots_
 i
 ]
 ;
+}
 MOZ_ASSERT
 (
 current_
@@ -10722,6 +10932,7 @@ entryResumePoint
 (
 )
 )
+{
 resume
 -
 >
@@ -10730,6 +10941,7 @@ dump
 out
 )
 ;
+}
 for
 (
 MPhiIterator
@@ -10751,6 +10963,7 @@ iter
 +
 +
 )
+{
 iter
 -
 >
@@ -10759,6 +10972,7 @@ dump
 out
 )
 ;
+}
 for
 (
 MInstructionIterator
@@ -10780,6 +10994,7 @@ iter
 +
 +
 )
+{
 iter
 -
 >
@@ -10788,6 +11003,7 @@ dump
 out
 )
 ;
+}
 #
 endif
 }

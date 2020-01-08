@@ -2659,6 +2659,7 @@ if
 !
 isConstructing
 )
+{
 bit
 |
 =
@@ -2667,6 +2668,7 @@ JSFunction
 :
 WASM_OPTIMIZED
 ;
+}
 bit
 =
 IMM32_16ADJ
@@ -3100,6 +3102,7 @@ JitOptions
 .
 spectreObjectMitigationsMisc
 )
+{
 spectreZeroRegister
 (
 cond
@@ -3107,6 +3110,7 @@ scratch
 spectreRegToZero
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -3251,6 +3255,7 @@ JitOptions
 .
 spectreObjectMitigationsMisc
 )
+{
 spectreZeroRegister
 (
 cond
@@ -3258,6 +3263,7 @@ scratch
 spectreRegToZero
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -3372,6 +3378,7 @@ JitOptions
 .
 spectreObjectMitigationsMisc
 )
+{
 move32
 (
 Imm32
@@ -3381,6 +3388,7 @@ Imm32
 scratch
 )
 ;
+}
 branchPtr
 (
 cond
@@ -3407,6 +3415,7 @@ JitOptions
 .
 spectreObjectMitigationsMisc
 )
+{
 spectreMovePtr
 (
 cond
@@ -3414,6 +3423,7 @@ scratch
 spectreRegToZero
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -3506,6 +3516,7 @@ JitOptions
 .
 spectreObjectMitigationsMisc
 )
+{
 move32
 (
 Imm32
@@ -3515,6 +3526,7 @@ Imm32
 scratch
 )
 ;
+}
 branchPtr
 (
 cond
@@ -3538,6 +3550,7 @@ JitOptions
 .
 spectreObjectMitigationsMisc
 )
+{
 spectreMovePtr
 (
 cond
@@ -3545,6 +3558,7 @@ scratch
 spectreRegToZero
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -3652,6 +3666,7 @@ JitOptions
 .
 spectreObjectMitigationsMisc
 )
+{
 move32
 (
 Imm32
@@ -3661,6 +3676,7 @@ Imm32
 scratch
 )
 ;
+}
 branchPtr
 (
 cond
@@ -3687,6 +3703,7 @@ JitOptions
 .
 spectreObjectMitigationsMisc
 )
+{
 spectreMovePtr
 (
 cond
@@ -3694,6 +3711,7 @@ scratch
 spectreRegToZero
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -3814,6 +3832,7 @@ JitOptions
 .
 spectreObjectMitigationsMisc
 )
+{
 move32
 (
 Imm32
@@ -3823,6 +3842,7 @@ Imm32
 scratch
 )
 ;
+}
 branchPtr
 (
 cond
@@ -3846,6 +3866,7 @@ JitOptions
 .
 spectreObjectMitigationsMisc
 )
+{
 spectreMovePtr
 (
 cond
@@ -3853,6 +3874,7 @@ scratch
 spectreRegToZero
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -5668,11 +5690,13 @@ offset
 <
 0
 )
+{
 offset
 +
 =
 alignment
 ;
+}
 /
 /
 Test
@@ -5794,12 +5818,14 @@ reg
 =
 ReturnReg
 )
+{
 mov
 (
 ReturnReg
 reg
 )
 ;
+}
 /
 /
 C
@@ -5916,6 +5942,7 @@ hasValue
 (
 )
 )
+{
 storeCallResultValue
 (
 dest
@@ -5925,7 +5952,9 @@ valueReg
 )
 )
 ;
+}
 else
+{
 storeCallResultValue
 (
 dest
@@ -5943,6 +5972,7 @@ type
 )
 )
 ;
+}
 }
 }
 /
