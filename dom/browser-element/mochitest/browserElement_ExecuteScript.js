@@ -941,11 +941,12 @@ can
 '
 t
 access
-its
+property
 "
 btoa
 "
-property
+of
+it
 scriptId
 :
 {
