@@ -596,7 +596,7 @@ the
 main
 thread
 .
-already_AddRefed
+RefPtr
 <
 HRTFDatabaseLoader
 >
@@ -640,12 +640,10 @@ Context
 SampleRate
 (
 )
-std
-:
-:
-move
-(
 loader
+.
+forget
+(
 )
 )
 ;
