@@ -25,7 +25,7 @@ BEHAVIOR_REJECT_TRACKER
 let
 blockingByContentBlocking
 =
-false
+true
 ;
 let
 blockingByContentBlockingUI
@@ -40,7 +40,7 @@ true
 let
 blockingByAllowList
 =
-false
+true
 ;
 let
 expectedBlockingNotifications
