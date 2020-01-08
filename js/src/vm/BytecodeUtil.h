@@ -4178,8 +4178,9 @@ numExec_
 static
 const
 char
-*
 numExecName
+[
+]
 ;
 }
 ;

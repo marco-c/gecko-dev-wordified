@@ -7723,6 +7723,7 @@ h
 *
 /
 static
+const
 JSConstDoubleSpec
 number_constants
 [

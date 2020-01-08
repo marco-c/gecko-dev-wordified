@@ -9650,7 +9650,7 @@ view
 InnerViewTable
 *
 /
-static
+constexpr
 size_t
 VIEW_LIST_MAX_LENGTH
 =

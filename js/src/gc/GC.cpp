@@ -6812,11 +6812,12 @@ nextScheduled
 }
 const
 char
-*
 gc
 :
 :
 ZealModeHelpText
+[
+]
 =
 "
 Specifies
@@ -8197,6 +8198,7 @@ static
 const
 char
 *
+const
 names
 [
 ]

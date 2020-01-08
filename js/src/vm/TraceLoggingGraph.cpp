@@ -393,6 +393,7 @@ static
 const
 char
 *
+const
 outdir
 =
 getenv
