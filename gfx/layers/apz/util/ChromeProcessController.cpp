@@ -403,9 +403,9 @@ ChromeProcessController
 RequestContentRepaint
 (
 const
-FrameMetrics
+RepaintRequest
 &
-aFrameMetrics
+aRequest
 )
 {
 MOZ_ASSERT
@@ -415,14 +415,9 @@ IsRepaintThread
 )
 )
 ;
-FrameMetrics
-metrics
-=
-aFrameMetrics
-;
 if
 (
-metrics
+aRequest
 .
 IsRootContent
 (
@@ -434,7 +429,7 @@ APZCCallbackHelper
 :
 UpdateRootFrame
 (
-metrics
+aRequest
 )
 ;
 }
@@ -445,7 +440,7 @@ APZCCallbackHelper
 :
 UpdateSubFrame
 (
-metrics
+aRequest
 )
 ;
 }
