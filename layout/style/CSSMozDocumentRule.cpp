@@ -139,6 +139,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoBindings
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

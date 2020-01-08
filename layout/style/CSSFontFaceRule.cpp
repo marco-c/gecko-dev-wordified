@@ -150,6 +150,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoBindings
+.
+h
+"
+#
+include
+"
 nsCSSProps
 .
 h

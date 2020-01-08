@@ -282,6 +282,15 @@ include
 "
 mozilla
 /
+ServoBindings
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoCSSParser
 .
 h

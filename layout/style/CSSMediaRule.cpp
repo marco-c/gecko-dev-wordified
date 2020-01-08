@@ -147,6 +147,15 @@ MediaList
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ServoBindings
+.
+h
+"
 namespace
 mozilla
 {
