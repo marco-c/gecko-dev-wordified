@@ -1541,6 +1541,14 @@ mHeight
 (
 0
 )
+mDisplayWidth
+(
+0
+)
+mDisplayHeight
+(
+0
+)
 mSampleFreq
 (
 0

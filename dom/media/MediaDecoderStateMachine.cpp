@@ -4986,6 +4986,16 @@ StateObject
 (
 aPtr
 )
+mVisibility
+(
+static_cast
+<
+EventVisibility
+>
+(
+0
+)
+)
 {
 }
 RefPtr

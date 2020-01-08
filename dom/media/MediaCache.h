@@ -4000,6 +4000,14 @@ nsUint32HashKey
 (
 aKey
 )
+mNextBlock
+(
+0
+)
+mPrevBlock
+(
+0
+)
 {
 }
 Entry

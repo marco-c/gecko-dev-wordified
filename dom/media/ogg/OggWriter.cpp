@@ -139,6 +139,15 @@ OggWriter
 ContainerWriter
 (
 )
+mOggStreamState
+(
+)
+mOggPage
+(
+)
+mPacket
+(
+)
 {
 if
 (

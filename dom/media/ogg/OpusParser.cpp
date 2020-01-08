@@ -236,6 +236,10 @@ mCoupledStreams
 (
 0
 )
+mPrevPacketGranulepos
+(
+0
+)
 {
 }
 bool

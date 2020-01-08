@@ -427,6 +427,10 @@ mChunkIndex
 (
 0
 )
+mDataLength
+(
+0
+)
 mTotalChunkLen
 (
 0
@@ -440,6 +444,10 @@ mSamplesPerSecond
 0
 )
 mChannels
+(
+0
+)
+mSampleFormat
 (
 0
 )

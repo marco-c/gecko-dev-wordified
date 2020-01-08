@@ -203,6 +203,12 @@ aIndice
 {
 mIndice
 .
+data
+=
+nullptr
+;
+mIndice
+.
 length
 =
 aIndice

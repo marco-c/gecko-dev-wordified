@@ -511,6 +511,10 @@ mLocation
 (
 aLocation
 )
+mComment
+(
+nullptr
+)
 mEventType
 (
 aEventType
