@@ -239,12 +239,6 @@ using
 js
 :
 :
-GetGlobalForObjectCrossCompartment
-;
-using
-js
-:
-:
 AssertSameCompartment
 ;
 nsresult
@@ -801,7 +795,10 @@ JSObject
 globalObject
 (
 cx
-GetGlobalForObjectCrossCompartment
+JS
+:
+:
+GetNonCCWObjectGlobal
 (
 targetClassObject
 )
