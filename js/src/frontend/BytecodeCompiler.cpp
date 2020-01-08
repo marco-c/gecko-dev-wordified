@@ -3904,9 +3904,11 @@ src
 len
 )
 )
+{
 return
 nullptr
 ;
+}
 RootedScript
 script
 (
@@ -5634,9 +5636,11 @@ if
 !
 script
 )
+{
 return
 false
 ;
+}
 if
 (
 lazy
@@ -5646,6 +5650,7 @@ hasBeenCloned
 (
 )
 )
+{
 script
 -
 >
@@ -5653,6 +5658,7 @@ setHasBeenCloned
 (
 )
 ;
+}
 frontend
 :
 :
@@ -5704,9 +5710,11 @@ isErr
 (
 )
 )
+{
 return
 false
 ;
+}
 ParseNode
 *
 pn
@@ -5757,9 +5765,11 @@ init
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -5786,9 +5796,11 @@ TopLevelFunction
 Yes
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -5798,9 +5810,11 @@ cx
 pn
 )
 )
+{
 return
 false
 ;
+}
 return
 script
 ;

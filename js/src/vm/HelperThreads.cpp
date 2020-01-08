@@ -5800,9 +5800,11 @@ ensureBinTablesInitialized
 cx
 )
 )
+{
 return
 false
 ;
+}
 auto
 task
 =
@@ -7491,8 +7493,10 @@ CanUseExtraThreads
 (
 )
 )
+{
 return
 ;
+}
 AutoLockHelperThreadState
 lock
 ;
@@ -7505,12 +7509,14 @@ thread
 *
 threads
 )
+{
 thread
 .
 shouldFreeUnusedMemory
 =
 true
 ;
+}
 notifyAll
 (
 PRODUCER
