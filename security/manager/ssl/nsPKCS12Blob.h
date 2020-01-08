@@ -240,6 +240,9 @@ getPKCS12FilePassword
 uint32_t
 &
 passwordBufferLength
+mozilla
+:
+:
 UniquePtr
 <
 uint8_t
@@ -256,6 +259,9 @@ newPKCS12FilePassword
 uint32_t
 &
 passwordBufferLength
+mozilla
+:
+:
 UniquePtr
 <
 uint8_t
@@ -269,6 +275,9 @@ passwordBuffer
 nsresult
 inputToDecoder
 (
+mozilla
+:
+:
 UniqueSEC_PKCS12DecoderContext
 &
 dcx
@@ -280,6 +289,9 @@ PRErrorCode
 nssError
 )
 ;
+mozilla
+:
+:
 UniquePtr
 <
 uint8_t
