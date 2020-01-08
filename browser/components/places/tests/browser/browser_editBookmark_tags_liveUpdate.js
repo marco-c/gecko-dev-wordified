@@ -3,6 +3,7 @@ use
 strict
 "
 ;
+async
 function
 checkTagsSelector
 (
@@ -10,25 +11,30 @@ aAvailableTags
 aCheckedTags
 )
 {
-is
-(
+let
+tags
+=
+await
 PlacesUtils
 .
-tagging
+bookmarks
 .
-allTags
+fetchTags
+(
+)
+;
+is
+(
+tags
 .
 length
 aAvailableTags
 .
 length
 "
-tagging
-service
-is
-in
-sync
-.
+Check
+tags
+list
 "
 )
 ;
@@ -431,6 +437,7 @@ tag
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
@@ -517,6 +524,7 @@ tag
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
@@ -691,6 +699,7 @@ tag
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
@@ -783,6 +792,7 @@ tags
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
@@ -879,6 +889,7 @@ tag
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
@@ -974,6 +985,7 @@ tag
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
@@ -1084,6 +1096,7 @@ tag
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
@@ -1175,6 +1188,7 @@ tag
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
@@ -1289,6 +1303,7 @@ tag
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
@@ -1376,6 +1391,7 @@ tags
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
@@ -1472,6 +1488,7 @@ tag
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
@@ -1567,6 +1584,7 @@ tag
 "
 )
 ;
+await
 checkTagsSelector
 (
 [
