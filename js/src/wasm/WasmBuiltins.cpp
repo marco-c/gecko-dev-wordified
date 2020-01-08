@@ -4704,6 +4704,9 @@ memFill
 abiType
 )
 ;
+#
+ifdef
+ENABLE_WASM_GC
 case
 SymbolicAddress
 :
@@ -4747,6 +4750,8 @@ postBarrier
 abiType
 )
 ;
+#
+endif
 #
 if
 defined
@@ -5207,12 +5212,17 @@ SymbolicAddress
 :
 MemFill
 :
+#
+ifdef
+ENABLE_WASM_GC
 case
 SymbolicAddress
 :
 :
 PostBarrier
 :
+#
+endif
 return
 true
 ;
