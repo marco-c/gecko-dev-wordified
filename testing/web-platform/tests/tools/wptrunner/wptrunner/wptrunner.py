@@ -1773,6 +1773,14 @@ kwargs
 debug_info
 "
 ]
+                                      
+not
+kwargs
+[
+"
+no_capture_stdio
+"
+]
 )
 as
 manager_group
