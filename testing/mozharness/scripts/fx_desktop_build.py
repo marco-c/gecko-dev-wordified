@@ -285,14 +285,6 @@ source
 '
 update
 '
-                
-'
-ensure
--
-upload
--
-path
-'
             
 ]
             
