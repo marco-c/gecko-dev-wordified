@@ -726,12 +726,16 @@ const
 buffer
 =
 new
+Uint8Array
+(
+new
 WasmModuleBuilder
 (
 )
 .
 toBuffer
 (
+)
 )
 ;
 assert_equals

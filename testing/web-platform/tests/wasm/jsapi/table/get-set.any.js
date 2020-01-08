@@ -79,7 +79,6 @@ kSig_v_d
 addBody
 (
 [
-kExprEnd
 ]
 )
 .
@@ -100,7 +99,6 @@ kSig_v_v
 addBody
 (
 [
-kExprEnd
 ]
 )
 .

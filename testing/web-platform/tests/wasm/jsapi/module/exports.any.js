@@ -623,7 +623,6 @@ kSig_v_v
 addBody
 (
 [
-kExprEnd
 ]
 )
 .
@@ -644,7 +643,6 @@ kSig_v_v
 addBody
 (
 [
-kExprEnd
 ]
 )
 .
@@ -654,7 +652,7 @@ exportFunc
 ;
 builder
 .
-setFunctionTableLength
+setTableLength
 (
 1
 )
