@@ -807,7 +807,7 @@ landmark
 )
 ;
 }
-nsAtom
+nsStaticAtom
 *
 ProxyAccessible
 :
