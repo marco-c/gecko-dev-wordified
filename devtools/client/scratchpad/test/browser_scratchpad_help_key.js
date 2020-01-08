@@ -71,10 +71,11 @@ addTab
 gBrowser
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 data
 :

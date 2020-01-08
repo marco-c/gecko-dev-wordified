@@ -145,12 +145,13 @@ monitor
 1
 )
 ;
-tab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab
+.
+linkedBrowser
 SIMPLE_URL
 )
 ;
