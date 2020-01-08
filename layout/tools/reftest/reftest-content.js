@@ -1841,13 +1841,6 @@ webBrowserPrint
 =
 content
 .
-QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-.
 getInterface
 (
 Ci
