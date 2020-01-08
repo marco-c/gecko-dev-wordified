@@ -286,15 +286,9 @@ global
 xpc
 :
 :
-NativeGlobal
-(
-JS
-:
-:
-CurrentGlobalOrNull
+CurrentNativeGlobal
 (
 cx
-)
 )
 ;
 if
