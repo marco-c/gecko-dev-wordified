@@ -148,6 +148,10 @@ test_path
 )
 s
 /
+tests
+/
+tools
+/
 certs
 /
 cacert
@@ -169,6 +173,10 @@ path
 test_path
 )
 s
+/
+tests
+/
+tools
 /
 certs
 /
@@ -195,6 +203,10 @@ path
 test_path
 )
 s
+/
+tests
+/
+tools
 /
 certs
 /
