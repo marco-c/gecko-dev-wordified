@@ -2066,7 +2066,7 @@ mAsyncTask
 >
 mClients
 .
-push_back
+AppendElement
 (
 mBuffer
 -
@@ -2093,7 +2093,7 @@ mAsyncTask
 >
 mClients
 .
-push_back
+AppendElement
 (
 mBuffer
 -
@@ -5845,7 +5845,7 @@ mAsyncTask
 >
 mClients
 .
-push_back
+AppendElement
 (
 mFrontBuffer
 -
@@ -5872,7 +5872,7 @@ mAsyncTask
 >
 mClients
 .
-push_back
+AppendElement
 (
 mFrontBuffer
 -

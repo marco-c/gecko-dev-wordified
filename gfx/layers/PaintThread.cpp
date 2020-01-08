@@ -301,7 +301,7 @@ DropTextureClients
 {
 mClients
 .
-clear
+Clear
 (
 )
 ;

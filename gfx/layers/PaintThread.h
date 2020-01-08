@@ -258,15 +258,13 @@ DrawTargetCapture
 >
 mCapture
 ;
-std
-:
-:
-vector
+AutoTArray
 <
 RefPtr
 <
 TextureClient
 >
+4
 >
 mClients
 ;
