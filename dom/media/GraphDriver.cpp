@@ -1348,6 +1348,14 @@ Start
 (
 )
 {
+MOZ_ASSERT
+(
+!
+ThreadRunning
+(
+)
+)
+;
 LOG
 (
 LogLevel
@@ -1376,12 +1384,12 @@ NS_WARN_IF
 mThread
 )
 ;
-if
+MOZ_ASSERT
 (
 !
 mThread
 )
-{
+;
 /
 /
 Ensure
@@ -1467,7 +1475,6 @@ forget
 NS_DISPATCH_NORMAL
 )
 ;
-}
 }
 }
 void
