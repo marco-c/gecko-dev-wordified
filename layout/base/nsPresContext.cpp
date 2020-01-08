@@ -10077,7 +10077,7 @@ for
 the
 rest
 .
-MediaFeatureValuesChanged
+MediaFeatureValuesChangedAllDocuments
 (
 {
 eRestyle_ForceDescendants
