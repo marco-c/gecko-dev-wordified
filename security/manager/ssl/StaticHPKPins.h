@@ -4399,6 +4399,20 @@ kPinset_yahoo
 }
 {
 "
+example
+.
+test
+"
+true
+true
+false
+-
+1
+&
+kPinset_test
+}
+{
+"
 exclude
 -
 subdomains
@@ -10662,7 +10676,7 @@ Preload
 List
 Length
 =
-486
+487
 ;
 static
 const
@@ -10679,6 +10693,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1536837856621000
+1537278828249000
 )
 ;
