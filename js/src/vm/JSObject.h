@@ -3900,7 +3900,7 @@ result
 )
 ;
 static
-bool
+void
 swap
 (
 JSContext

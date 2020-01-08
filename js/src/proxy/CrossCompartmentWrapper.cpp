@@ -4195,9 +4195,6 @@ the
 new
 one
 .
-if
-(
-!
 JSObject
 :
 :
@@ -4207,13 +4204,7 @@ cx
 wobj
 tobj
 )
-)
-{
-MOZ_CRASH
-(
-)
 ;
-}
 }
 /
 /

@@ -11844,7 +11844,7 @@ objects
 .
 *
 /
-bool
+void
 JSObject
 :
 :
@@ -13463,9 +13463,6 @@ a
 b
 r
 )
-;
-return
-true
 ;
 }
 static
