@@ -2686,9 +2686,6 @@ selectedNodes
 }
 }
 openFlatContainer
-:
-function
-PO_openFlatContainerFlatContainer
 (
 aContainer
 )
@@ -2697,11 +2694,7 @@ if
 (
 aContainer
 .
-itemId
-!
-=
--
-1
+bookmarkGuid
 )
 {
 PlacesUtils
