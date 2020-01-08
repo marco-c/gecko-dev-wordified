@@ -391,8 +391,13 @@ Macro
 (
 InternalBeginOrderedAtomicAccess
 (
+const
+void
+*
+aValue
 )
 (
+aValue
 )
 )
 \
