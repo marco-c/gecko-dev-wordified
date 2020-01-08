@@ -14292,9 +14292,6 @@ delimiter
 "
 )
 ;
-int
-c
-;
 bool
 parsingTemplate
 =
@@ -14417,10 +14414,13 @@ getCodeUnit
 (
 )
 .
+int32_t
+unit
+;
 while
 (
 (
-c
+unit
 =
 getCodeUnit
 (
@@ -14433,7 +14433,7 @@ untilChar
 {
 if
 (
-c
+unit
 =
 =
 EOF
@@ -14441,7 +14441,7 @@ EOF
 {
 ungetCodeUnit
 (
-c
+unit
 )
 ;
 const
@@ -14471,7 +14471,7 @@ false
 }
 if
 (
-c
+unit
 =
 =
 '
@@ -14533,7 +14533,7 @@ if
 getChar
 (
 &
-c
+unit
 )
 )
 return
@@ -14541,7 +14541,7 @@ false
 ;
 if
 (
-c
+unit
 =
 =
 EOF
@@ -14579,7 +14579,7 @@ static_cast
 CharT
 >
 (
-c
+unit
 )
 )
 {
@@ -14588,7 +14588,7 @@ case
 b
 '
 :
-c
+unit
 =
 '
 \
@@ -14602,7 +14602,7 @@ case
 f
 '
 :
-c
+unit
 =
 '
 \
@@ -14616,7 +14616,7 @@ case
 n
 '
 :
-c
+unit
 =
 '
 \
@@ -14630,7 +14630,7 @@ case
 r
 '
 :
-c
+unit
 =
 '
 \
@@ -14644,7 +14644,7 @@ case
 t
 '
 :
-c
+unit
 =
 '
 \
@@ -14658,7 +14658,7 @@ case
 v
 '
 :
-c
+unit
 =
 '
 \
@@ -14752,7 +14752,7 @@ true
 do
 {
 int32_t
-c
+u3
 =
 getCodeUnit
 (
@@ -14760,7 +14760,7 @@ getCodeUnit
 ;
 if
 (
-c
+u3
 =
 =
 EOF
@@ -14812,7 +14812,7 @@ false
 }
 if
 (
-c
+u3
 =
 =
 '
@@ -14877,7 +14877,7 @@ if
 !
 JS7_ISHEX
 (
-c
+u3
 )
 )
 {
@@ -14920,7 +14920,7 @@ or
 .
 ungetCodeUnit
 (
-c
+u3
 )
 ;
 TokenStreamAnyChars
@@ -14973,7 +14973,7 @@ code
 |
 JS7_UNHEX
 (
-c
+u3
 )
 ;
 if
@@ -15072,7 +15072,7 @@ unicode
 NonBMPMin
 )
 {
-c
+unit
 =
 code
 ;
@@ -15098,7 +15098,7 @@ code
 return
 false
 ;
-c
+unit
 =
 unicode
 :
@@ -15160,7 +15160,7 @@ cp
 )
 )
 {
-c
+unit
 =
 (
 JS7_UNHEX
@@ -15318,7 +15318,7 @@ cp
 )
 )
 {
-c
+unit
 =
 (
 JS7_UNHEX
@@ -15415,7 +15415,7 @@ if
 (
 JS7_ISOCT
 (
-c
+unit
 )
 )
 {
@@ -15424,7 +15424,7 @@ val
 =
 JS7_UNOCT
 (
-c
+unit
 )
 ;
 if
@@ -15433,7 +15433,7 @@ if
 peekChar
 (
 &
-c
+unit
 )
 )
 return
@@ -15464,7 +15464,7 @@ val
 |
 IsAsciiDigit
 (
-c
+unit
 )
 )
 {
@@ -15525,7 +15525,7 @@ if
 (
 JS7_ISOCT
 (
-c
+unit
 )
 )
 {
@@ -15537,12 +15537,12 @@ val
 +
 JS7_UNOCT
 (
-c
+unit
 )
 ;
 consumeKnownChar
 (
-c
+unit
 )
 ;
 if
@@ -15551,7 +15551,7 @@ if
 peekChar
 (
 &
-c
+unit
 )
 )
 return
@@ -15561,7 +15561,7 @@ if
 (
 JS7_ISOCT
 (
-c
+unit
 )
 )
 {
@@ -15578,7 +15578,7 @@ val
 +
 JS7_UNOCT
 (
-c
+unit
 )
 ;
 if
@@ -15590,7 +15590,7 @@ val
 )
 consumeKnownChar
 (
-c
+unit
 )
 ;
 else
@@ -15600,7 +15600,7 @@ save
 ;
 }
 }
-c
+unit
 =
 char16_t
 (
@@ -15615,7 +15615,7 @@ break
 else
 if
 (
-c
+unit
 =
 =
 '
@@ -15624,7 +15624,7 @@ r
 '
 |
 |
-c
+unit
 =
 =
 '
@@ -15653,7 +15653,7 @@ breaks
 .
 ungetCodeUnit
 (
-c
+unit
 )
 ;
 const
@@ -15683,7 +15683,7 @@ false
 }
 if
 (
-c
+unit
 =
 =
 '
@@ -15692,7 +15692,7 @@ r
 '
 )
 {
-c
+unit
 =
 '
 \
@@ -15764,7 +15764,7 @@ updateFlagsForEOL
 else
 if
 (
-c
+unit
 =
 =
 unicode
@@ -15773,7 +15773,7 @@ unicode
 LINE_SEPARATOR
 |
 |
-c
+unit
 =
 =
 unicode
@@ -15856,7 +15856,7 @@ if
 parsingTemplate
 &
 &
-c
+unit
 =
 =
 '
@@ -15885,7 +15885,7 @@ tokenbuf
 .
 append
 (
-c
+unit
 )
 )
 {
