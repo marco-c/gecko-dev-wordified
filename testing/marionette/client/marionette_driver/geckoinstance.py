@@ -4336,6 +4336,24 @@ userMadeSearchSuggestionsChoice
 True
         
 #
+Don
+'
+t
+warn
+when
+exiting
+the
+browser
+        
+"
+browser
+.
+warnOnQuit
+"
+:
+False
+        
+#
 Disable
 first
 -
