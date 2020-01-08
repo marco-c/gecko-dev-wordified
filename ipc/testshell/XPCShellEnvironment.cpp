@@ -1262,14 +1262,11 @@ nsIXPConnect
 >
 xpc
 =
-do_GetService
-(
 nsIXPConnect
 :
 :
-GetCID
+XPConnect
 (
-)
 )
 ;
 if

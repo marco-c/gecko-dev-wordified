@@ -325,13 +325,10 @@ nsIXPConnect
 >
 xpc
 (
-mozilla
+nsIXPConnect
 :
 :
-services
-:
-:
-GetXPConnect
+XPConnect
 (
 )
 )
