@@ -901,7 +901,7 @@ XPCOMUtils
 .
 defineLazyGlobalGetters
 (
-this
+global
 [
 "
 fetch
