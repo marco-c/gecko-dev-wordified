@@ -411,7 +411,9 @@ self
 try
 :
             
-if
+return
+bool
+(
 self
 .
 config
@@ -422,10 +424,7 @@ get
 code_coverage
 '
 )
-:
-                
-return
-True
+)
         
 except
 (
@@ -488,7 +487,9 @@ self
 try
 :
             
-if
+return
+bool
+(
 self
 .
 config
@@ -499,13 +500,7 @@ get
 disable_ccov_upload
 '
 )
-:
-                
-return
-True
-            
-return
-False
+)
         
 except
 (
@@ -530,7 +525,9 @@ self
 try
 :
             
-if
+return
+bool
+(
 self
 .
 config
@@ -541,10 +538,7 @@ get
 jsd_code_coverage
 '
 )
-:
-                
-return
-True
+)
         
 except
 (
