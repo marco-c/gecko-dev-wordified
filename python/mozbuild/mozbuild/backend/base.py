@@ -2259,6 +2259,23 @@ srcdir
 =
 srcdir
             
+srcdir_rel
+=
+mozpath
+.
+relpath
+(
+srcdir
+mozpath
+.
+dirname
+(
+obj
+.
+output_path
+)
+)
+            
 relativesrcdir
 =
 mozpath

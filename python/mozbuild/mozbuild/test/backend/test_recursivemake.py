@@ -2219,6 +2219,26 @@ env
 topsrcdir
             
 '
+srcdir_rel
+:
+=
+%
+s
+'
+%
+mozpath
+.
+relpath
+(
+env
+.
+topsrcdir
+env
+.
+topobjdir
+)
+            
+'
 VPATH
 :
 =
@@ -2378,7 +2398,7 @@ len
 (
 lines
 )
-10
+11
 )
         
 self
