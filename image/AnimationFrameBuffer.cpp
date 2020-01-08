@@ -1435,7 +1435,8 @@ mPending
 0
 ;
 }
-DrawableFrameRef
+imgFrame
+*
 AnimationFrameBuffer
 :
 :
@@ -1485,9 +1486,7 @@ frames
 )
 ;
 return
-DrawableFrameRef
-(
-)
+nullptr
 ;
 }
 /
@@ -1519,9 +1518,7 @@ Length
 )
 {
 return
-DrawableFrameRef
-(
-)
+nullptr
 ;
 }
 /
@@ -1588,9 +1585,7 @@ MayDiscard
 )
 ;
 return
-DrawableFrameRef
-(
-)
+nullptr
 ;
 }
 /
@@ -1648,9 +1643,8 @@ mFrames
 [
 aFrame
 ]
--
->
-DrawableRef
+.
+get
 (
 )
 ;

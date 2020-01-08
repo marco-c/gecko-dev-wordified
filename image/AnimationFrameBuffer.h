@@ -531,7 +531,8 @@ available
 .
 *
 /
-DrawableFrameRef
+imgFrame
+*
 Get
 (
 size_t

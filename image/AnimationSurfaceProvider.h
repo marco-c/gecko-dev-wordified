@@ -474,6 +474,14 @@ aFrame
 )
 override
 ;
+RawAccessFrameRef
+RawAccessRef
+(
+size_t
+aFrame
+)
+override
+;
 /
 /
 Animation
