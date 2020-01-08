@@ -170,11 +170,11 @@ skin
 /
 images
 /
+aboutdebugging
+-
 firefox
 -
 logo
--
-glyph
 .
 svg
 "
@@ -193,11 +193,11 @@ skin
 /
 images
 /
+aboutdebugging
+-
 firefox
 -
 logo
--
-glyph
 .
 svg
 "
