@@ -109,11 +109,6 @@ MarionetteTestCase
 )
 :
     
-ping_list
-=
-[
-]
-    
 def
 __init__
 (
@@ -140,6 +135,13 @@ args
 *
 kwargs
 )
+        
+self
+.
+ping_list
+=
+[
+]
     
 def
 setUp
