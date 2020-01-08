@@ -3644,17 +3644,11 @@ sources_
 >
 append
 (
-std
-:
-:
-move
-(
 LCovSource
 (
 &
 alloc_
 source_name
-)
 )
 )
 )
