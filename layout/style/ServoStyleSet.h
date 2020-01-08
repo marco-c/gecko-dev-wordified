@@ -2118,7 +2118,9 @@ dom
 :
 Element
 &
-aElement
+const
+ComputedStyle
+&
 nsAtom
 *
 aName

@@ -783,6 +783,8 @@ RawServoStyleSetBorrowed
 set
 RawGeckoElementBorrowed
 element
+ComputedStyleBorrowed
+style
 nsAtom
 *
 name
