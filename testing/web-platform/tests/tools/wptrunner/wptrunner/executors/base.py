@@ -374,6 +374,9 @@ __call__
 self
 test
 result
+extra
+=
+None
 )
 :
         
@@ -424,7 +427,7 @@ expected
 s
 "
 %
-                                      
+                                        
 (
 result_url
 test
@@ -446,6 +449,9 @@ harness_codes
 status
 ]
 message
+extra
+=
+extra
 )
         
 return
@@ -519,6 +525,8 @@ get
 "
 extra
 "
+{
+}
 )
 )
 [
