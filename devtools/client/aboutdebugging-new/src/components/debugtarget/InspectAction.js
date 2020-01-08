@@ -288,7 +288,7 @@ inspect
 className
 :
 "
-aboutdebugging
+default
 -
 button
 "
