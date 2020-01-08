@@ -87,8 +87,6 @@ MPL
 .
 import
 sys
-import
-buildconfig
 from
 mozbuild
 .
@@ -100,6 +98,7 @@ main
 (
 output
 input_file
+version
 )
 :
     
@@ -121,20 +120,7 @@ update
 VERSION
 '
 :
-'
-xul
-%
-s
-'
-%
-buildconfig
-.
-substs
-[
-'
-MOZILLA_SYMBOLVERSION
-'
-]
+version
     
 }
 )
