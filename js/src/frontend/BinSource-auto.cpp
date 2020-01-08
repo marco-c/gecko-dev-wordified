@@ -38236,7 +38236,7 @@ body
 catchClause
 /
 *
-finally
+finallyBlock
 =
 *
 /
@@ -42242,7 +42242,7 @@ list
 result
 /
 *
-child
+kid
 =
 *
 /
@@ -43178,7 +43178,7 @@ list
 result
 /
 *
-item
+kid
 =
 *
 /
