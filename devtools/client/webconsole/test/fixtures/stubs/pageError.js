@@ -3027,8 +3027,6 @@ let
 a
 a
 ;
-\
-n
 "
 "
 lineNumber
