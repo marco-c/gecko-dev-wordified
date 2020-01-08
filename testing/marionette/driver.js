@@ -21811,6 +21811,13 @@ dialog
 .
 ui
 ;
+loginTextbox
+.
+value
+=
+"
+"
+;
 await
 interaction
 .
