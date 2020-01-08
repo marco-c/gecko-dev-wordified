@@ -10213,9 +10213,17 @@ host
 (
 host
 )
+result
+{
+false
+}
 keepWaiting
 (
 true
+)
+retVal
+(
+NS_ERROR_NOT_INITIALIZED
 )
 {
 }

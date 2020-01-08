@@ -1366,6 +1366,10 @@ mPluginWindow
 (
 nullptr
 )
+mLastEventloopNestingLevel
+(
+0
+)
 {
 /
 /

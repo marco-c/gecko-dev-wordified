@@ -1243,6 +1243,10 @@ mProcessIdValid
 (
 false
 )
+mProcessId
+(
+0
+)
 mModule
 (
 nullptr
@@ -3207,6 +3211,10 @@ mIsFlashPlugin
 (
 false
 )
+mRunID
+(
+0
+)
 mCrashReporterMutex
 (
 "
@@ -3285,6 +3293,10 @@ PluginModuleContentParent
 PluginModuleParent
 (
 false
+)
+mPluginId
+(
+0
 )
 {
 Preferences
@@ -3397,6 +3409,10 @@ nullptr
 )
 #
 endif
+mIsBlocklisted
+(
+false
+)
 mIsCleaningFromTimeout
 (
 false
