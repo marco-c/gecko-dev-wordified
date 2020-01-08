@@ -194,7 +194,7 @@ class
 nsDisplayThemedBackground
 ;
 class
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 ;
 class
 nsDisplayMask
@@ -1352,7 +1352,7 @@ public
 :
 nsDisplaySVGEffectGeometry
 (
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 *
 aItem
 nsDisplayListBuilder
