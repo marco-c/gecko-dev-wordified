@@ -4036,10 +4036,7 @@ startTimes_
 key
 ]
 =
-TimeStamp
-:
-:
-Now
+ReallyNow
 (
 )
 ;
@@ -4063,10 +4060,7 @@ profileDurations_
 key
 ]
 =
-TimeStamp
-:
-:
-Now
+ReallyNow
 (
 )
 -

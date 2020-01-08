@@ -41863,13 +41863,7 @@ clearBufferedGrayRoots
 auto
 currentTime
 =
-mozilla
-:
-:
-TimeStamp
-:
-:
-Now
+ReallyNow
 (
 )
 ;

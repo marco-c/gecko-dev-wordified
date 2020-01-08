@@ -9479,10 +9479,7 @@ rt
 TimeStamp
 timeStart
 =
-TimeStamp
-:
-:
-Now
+ReallyNow
 (
 )
 ;
@@ -9544,10 +9541,7 @@ lock
 TimeStamp
 timeStart
 =
-TimeStamp
-:
-:
-Now
+ReallyNow
 (
 )
 ;
