@@ -354,12 +354,6 @@ WasmCodeProfilingLabels
 \
 _
 (
-WasmModuleTieringLock
-500
-)
-\
-_
-(
 WasmCompileTaskState
 500
 )
