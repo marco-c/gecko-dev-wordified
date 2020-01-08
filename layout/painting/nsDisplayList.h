@@ -33342,6 +33342,11 @@ aFrame
 )
 override
 ;
+void
+Disown
+(
+)
+;
 protected
 :
 ViewID
