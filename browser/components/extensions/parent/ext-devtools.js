@@ -349,6 +349,7 @@ context
 .
 devToolsTarget
 =
+await
 DevToolsShim
 .
 createTargetForTab
