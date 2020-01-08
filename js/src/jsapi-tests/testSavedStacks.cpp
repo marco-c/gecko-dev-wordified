@@ -2192,7 +2192,7 @@ Ok
 CHECK_EQUAL
 (
 column
-9U
+5U
 )
 ;
 /

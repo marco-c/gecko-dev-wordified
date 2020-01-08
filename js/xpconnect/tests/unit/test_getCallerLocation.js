@@ -282,7 +282,7 @@ equal
 frame
 .
 column
-18
+14
 "
 Frame
 column
@@ -330,7 +330,7 @@ js
 :
 5
 :
-18
+14
 \
 n
 "
@@ -442,7 +442,7 @@ js
 :
 5
 :
-18
+14
 \
 n
 '
@@ -676,7 +676,7 @@ equal
 error
 .
 columnNumber
-18
+14
 "
 Error
 column
