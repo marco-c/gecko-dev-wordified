@@ -621,7 +621,10 @@ AutoRealmUnchecked
 JSContext
 *
 cx
-JSCompartment
+JS
+:
+:
+Realm
 *
 target
 )
@@ -629,13 +632,7 @@ target
 AutoRealm
 (
 cx
-JS
-:
-:
-GetRealmForCompartment
-(
 target
-)
 )
 {
 }

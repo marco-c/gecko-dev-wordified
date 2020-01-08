@@ -792,7 +792,7 @@ nullptr
 ;
 }
 void
-detachFromCompartment
+detachFromRealm
 (
 )
 ;

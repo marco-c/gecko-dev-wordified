@@ -29492,7 +29492,7 @@ from
 the
 /
 /
-compartment
+realm
 wide
 list
 while
@@ -29521,7 +29521,7 @@ group
 layout
 -
 >
-detachFromCompartment
+detachFromRealm
 (
 )
 ;

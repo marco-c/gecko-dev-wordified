@@ -692,16 +692,10 @@ oldRealm
 JS
 :
 :
-GetRealmForCompartment
-(
-JS
-:
-:
 EnterRealm
 (
 cx
 global
-)
 )
 ;
 typedef

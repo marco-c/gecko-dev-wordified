@@ -14333,6 +14333,16 @@ operator
 (
 )
 ;
+JS
+:
+:
+Realm
+*
+realm
+(
+)
+const
+;
 JSCompartment
 *
 compartment
