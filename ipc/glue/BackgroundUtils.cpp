@@ -1196,7 +1196,10 @@ aPrincipal
 OriginAttributesRef
 (
 )
-Move
+std
+:
+:
+move
 (
 whitelistInfo
 )
@@ -3190,7 +3193,10 @@ originAttributes
 )
 redirectChainIncludingInternalRedirects
 redirectChain
-Move
+std
+:
+:
+move
 (
 ancestorPrincipals
 )

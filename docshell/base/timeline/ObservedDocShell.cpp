@@ -282,7 +282,10 @@ mTimelineMarkers
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 aMarker
 )
@@ -386,7 +389,10 @@ mOffTheMainThreadTimelineMarkers
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 aMarker
 )
@@ -535,7 +541,10 @@ mTimelineMarkers
 .
 AppendElements
 (
-Move
+std
+:
+:
+move
 (
 mOffTheMainThreadTimelineMarkers
 )
@@ -1324,7 +1333,10 @@ keptStartMarkers
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 mTimelineMarkers
 .

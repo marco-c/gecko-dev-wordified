@@ -1565,7 +1565,10 @@ aChunkSize
 :
 mWriter
 (
-Move
+std
+:
+:
+move
 (
 aAllocator
 )

@@ -197,7 +197,10 @@ cpc
 >
 Init
 (
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -297,7 +300,10 @@ ChildProfilerController
 :
 :
 SetupProfilerChild
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -506,7 +512,10 @@ PProfilerChild
 >
 endpoint
 =
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )

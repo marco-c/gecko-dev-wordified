@@ -298,7 +298,10 @@ mVerifier
 .
 AddLog
 (
-Move
+std
+:
+:
+move
 (
 log
 )
@@ -501,7 +504,10 @@ list
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 sct
 )
@@ -1381,7 +1387,10 @@ verifier
 .
 AddLog
 (
-Move
+std
+:
+:
+move
 (
 log
 )

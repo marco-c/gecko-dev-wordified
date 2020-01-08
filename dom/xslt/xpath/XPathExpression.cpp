@@ -198,12 +198,6 @@ XPathResultBinding
 .
 h
 "
-using
-mozilla
-:
-:
-Move
-;
 namespace
 mozilla
 {
@@ -312,7 +306,10 @@ aDocument
 :
 mExpression
 (
-Move
+std
+:
+:
+move
 (
 aExpression
 )

@@ -2123,7 +2123,10 @@ false
 }
 aCharRectArray
 =
-Move
+std
+:
+:
+move
 (
 textRects
 .

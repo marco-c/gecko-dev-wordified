@@ -670,10 +670,10 @@ rhs
 :
 mExitFunction
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 rhs
 .
@@ -782,10 +782,10 @@ ScopeExit
 ExitFunction
 >
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 exitFunction
 )

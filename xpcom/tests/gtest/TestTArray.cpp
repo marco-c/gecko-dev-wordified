@@ -476,7 +476,10 @@ array
 .
 AppendElements
 (
-Move
+std
+:
+:
+move
 (
 temp
 )
@@ -509,7 +512,10 @@ array
 .
 AppendElements
 (
-Move
+std
+:
+:
+move
 (
 temp
 )
@@ -633,7 +639,10 @@ array2
 .
 Assign
 (
-Move
+std
+:
+:
+move
 (
 array
 )
@@ -691,7 +700,10 @@ array
 ;
 array
 =
-Move
+std
+:
+:
+move
 (
 array
 )

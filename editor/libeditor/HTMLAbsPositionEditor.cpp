@@ -1451,7 +1451,10 @@ UnbindFromTree
 .
 DeleteRefToAnonymousNode
 (
-Move
+std
+:
+:
+move
 (
 mGrabber
 )
@@ -1460,7 +1463,10 @@ ps
 ;
 DeleteRefToAnonymousNode
 (
-Move
+std
+:
+:
+move
 (
 mPositioningShadow
 )
@@ -1991,7 +1997,10 @@ NS_ERROR_NOT_INITIALIZED
 ;
 DeleteRefToAnonymousNode
 (
-Move
+std
+:
+:
+move
 (
 mPositioningShadow
 )

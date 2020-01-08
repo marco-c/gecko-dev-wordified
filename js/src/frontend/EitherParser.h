@@ -950,10 +950,10 @@ parser
 .
 match
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 optionsMatcher
 )
@@ -993,10 +993,10 @@ parser
 .
 match
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 matcher
 )

@@ -262,7 +262,10 @@ it
 is
 unsafe
 to
-Move
+std
+:
+:
+move
 (
 )
 a
@@ -1348,7 +1351,10 @@ mSupportsTransferring
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 mTransferredPorts
 )

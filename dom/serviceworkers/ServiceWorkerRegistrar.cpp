@@ -4316,7 +4316,10 @@ GetCurrentThreadEventTarget
 )
 mData
 (
-Move
+std
+:
+:
+move
 (
 aData
 )
@@ -4532,7 +4535,10 @@ runnable
 new
 ServiceWorkerRegistrarSaveDataRunnable
 (
-Move
+std
+:
+:
+move
 (
 data
 )
@@ -6825,7 +6831,10 @@ blocker
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 client
 )

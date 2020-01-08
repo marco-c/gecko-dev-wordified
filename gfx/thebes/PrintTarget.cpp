@@ -1113,7 +1113,10 @@ IsSyncPagePrinting
 ;
 mPageDoneCallback
 =
-Move
+std
+:
+:
+move
 (
 aCallback
 )

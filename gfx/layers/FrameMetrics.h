@@ -5143,7 +5143,10 @@ aSnapInfo
 {
 mSnapInfo
 =
-Move
+std
+:
+:
+move
 (
 aSnapInfo
 )

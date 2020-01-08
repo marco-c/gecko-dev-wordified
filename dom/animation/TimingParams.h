@@ -1072,7 +1072,10 @@ aDuration
 {
 mDuration
 =
-Move
+std
+:
+:
+move
 (
 aDuration
 )
@@ -1275,7 +1278,10 @@ aFunction
 {
 mFunction
 =
-Move
+std
+:
+:
+move
 (
 aFunction
 )

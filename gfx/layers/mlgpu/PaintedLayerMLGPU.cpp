@@ -277,7 +277,10 @@ aRegion
 {
 mRenderRegion
 =
-Move
+std
+:
+:
+move
 (
 aRegion
 )
@@ -727,7 +730,10 @@ AssignToView
 (
 aBuilder
 aView
-Move
+std
+:
+:
+move
 (
 aGeometry
 )
@@ -1206,7 +1212,10 @@ AssignToView
 (
 aBuilder
 aView
-Move
+std
+:
+:
+move
 (
 geometry
 )
@@ -1229,7 +1238,10 @@ baseOpacity
 ;
 SetShadowVisibleRegion
 (
-Move
+std
+:
+:
+move
 (
 visible
 )

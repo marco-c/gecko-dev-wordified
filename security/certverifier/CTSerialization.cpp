@@ -2381,7 +2381,10 @@ rv
 }
 output
 =
-Move
+std
+:
+:
+move
 (
 result
 )
@@ -3138,7 +3141,10 @@ timestamp
 ;
 output
 =
-Move
+std
+:
+:
+move
 (
 result
 )

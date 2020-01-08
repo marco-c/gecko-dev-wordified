@@ -1195,7 +1195,10 @@ aOther
 :
 Base
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -1203,7 +1206,10 @@ first
 (
 )
 )
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -1255,7 +1261,10 @@ first
 (
 )
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -1268,7 +1277,10 @@ second
 (
 )
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .

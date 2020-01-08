@@ -246,7 +246,10 @@ WrapInterface
 Interface
 >
 (
-Move
+std
+:
+:
+move
 (
 aTargetInterface
 )
@@ -327,7 +330,10 @@ hr
 return
 CreateInterceptor
 (
-Move
+std
+:
+:
+move
 (
 aTargetInterface
 )

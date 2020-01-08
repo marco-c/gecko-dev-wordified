@@ -506,7 +506,10 @@ keyedMutex
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 ret
 )
@@ -1880,7 +1883,10 @@ config
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 ret
 )

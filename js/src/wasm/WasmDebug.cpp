@@ -413,7 +413,10 @@ false
 }
 sortedByOffsetExprLocIndices_
 =
-Move
+std
+:
+:
+move
 (
 indices
 )
@@ -689,7 +692,10 @@ binarySource
 :
 code_
 (
-Move
+std
+:
+:
+move
 (
 code
 )
@@ -1001,7 +1007,10 @@ nullptr
 }
 maybeSourceMap_
 =
-Move
+std
+:
+:
+move
 (
 sourceMap
 )

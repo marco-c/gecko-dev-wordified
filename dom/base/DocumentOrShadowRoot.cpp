@@ -367,7 +367,10 @@ StyleSheet
 >
 sheet
 =
-Move
+std
+:
+:
+move
 (
 mStyleSheets
 [

@@ -521,7 +521,10 @@ RecvSyncMessage
 (
 aMsg
 aData
-Move
+std
+:
+:
+move
 (
 aCpows
 )
@@ -576,7 +579,10 @@ nsIContentParent
 RecvAsyncMessage
 (
 aMsg
-Move
+std
+:
+:
+move
 (
 aCpows
 )

@@ -980,7 +980,10 @@ value
 (
 )
 )
-Move
+std
+:
+:
+move
 (
 samples
 )
@@ -1058,7 +1061,10 @@ decoder
 new
 DummyMediaDataDecoder
 (
-Move
+std
+:
+:
+move
 (
 creator
 )
@@ -1136,7 +1142,10 @@ decoder
 new
 DummyMediaDataDecoder
 (
-Move
+std
+:
+:
+move
 (
 creator
 )

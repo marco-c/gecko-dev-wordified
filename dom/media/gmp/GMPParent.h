@@ -241,7 +241,10 @@ aOther
 :
 mAPIName
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -250,7 +253,10 @@ mAPIName
 )
 mAPITags
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .

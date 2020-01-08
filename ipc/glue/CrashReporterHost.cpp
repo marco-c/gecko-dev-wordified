@@ -860,7 +860,10 @@ mCreateMinidumpCallback
 .
 Init
 (
-Move
+std
+:
+:
+move
 (
 aCallback
 )
@@ -1091,7 +1094,10 @@ getter_AddRefs
 (
 mTargetDump
 )
-Move
+std
+:
+:
+move
 (
 callback
 )

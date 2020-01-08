@@ -913,7 +913,10 @@ originAttributes
 )
 mPOSTData
 (
-Move
+std
+:
+:
+move
 (
 ocspRequest
 )
@@ -2795,7 +2798,10 @@ OCSPRequest
 (
 aiaLocation
 originAttributes
-Move
+std
+:
+:
+move
 (
 ocspRequest
 )
@@ -6394,7 +6400,10 @@ sslStatus
 >
 SetSucceededCertChain
 (
-Move
+std
+:
+:
+move
 (
 builtChain
 )

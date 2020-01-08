@@ -1612,7 +1612,10 @@ newSize
 ;
 mBuffer
 =
-Move
+std
+:
+:
+move
 (
 newBuffer
 )

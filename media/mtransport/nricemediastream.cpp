@@ -1742,7 +1742,10 @@ localp
 *
 localp
 =
-Move
+std
+:
+:
+move
 (
 local
 )
@@ -1754,7 +1757,10 @@ remotep
 *
 remotep
 =
-Move
+std
+:
+:
+move
 (
 remote
 )

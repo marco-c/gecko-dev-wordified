@@ -284,7 +284,10 @@ aCallbacks
 :
 mCallbacks
 (
-Move
+std
+:
+:
+move
 (
 aCallbacks
 )
@@ -502,7 +505,10 @@ aCallbacks
 :
 SimpleChannel
 (
-Move
+std
+:
+:
+move
 (
 aCallbacks
 )
@@ -776,7 +782,10 @@ chan
 new
 SimpleChannelChild
 (
-Move
+std
+:
+:
+move
 (
 aCallbacks
 )
@@ -790,7 +799,10 @@ chan
 new
 SimpleChannel
 (
-Move
+std
+:
+:
+move
 (
 aCallbacks
 )

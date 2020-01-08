@@ -154,7 +154,10 @@ mPaintActor
 >
 Bind
 (
-Move
+std
+:
+:
+move
 (
 parentPipe
 )
@@ -176,7 +179,10 @@ if
 !
 SendStartTest
 (
-Move
+std
+:
+:
+move
 (
 childPipe
 )
@@ -779,7 +785,10 @@ TestPaintThreadChild
 :
 :
 Bind
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )

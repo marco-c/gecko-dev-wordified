@@ -6918,7 +6918,10 @@ aRows
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 row
 )
@@ -7380,7 +7383,10 @@ newRows
 i
 ]
 =
-Move
+std
+:
+:
+move
 (
 rows
 [
@@ -7870,7 +7876,10 @@ aIndex
 i
 +
 1
-Move
+std
+:
+:
+move
 (
 rows
 [

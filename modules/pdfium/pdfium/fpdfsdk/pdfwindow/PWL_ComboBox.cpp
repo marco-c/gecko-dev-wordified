@@ -2587,7 +2587,10 @@ m_nPopupWhere
 =
 nWhere
 ;
-Move
+std
+:
+:
+move
 (
 rcWindow
 true
@@ -2633,7 +2636,10 @@ m_bPopup
 =
 bPopup
 ;
-Move
+std
+:
+:
+move
 (
 m_rcOldWindow
 true

@@ -255,7 +255,10 @@ aOther
 :
 mFirstIter
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -289,7 +292,10 @@ aRH
 {
 mFirstIter
 =
-Move
+std
+:
+:
+move
 (
 aRH
 .

@@ -1027,7 +1027,10 @@ mOldBuf
 {
 mOldBuf
 =
-Move
+std
+:
+:
+move
 (
 mBuf
 )
@@ -1035,7 +1038,10 @@ mBuf
 }
 mBuf
 =
-Move
+std
+:
+:
+move
 (
 buf
 )

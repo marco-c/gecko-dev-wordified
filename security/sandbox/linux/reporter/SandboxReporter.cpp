@@ -2027,7 +2027,10 @@ few
 words
 .
 return
-Move
+std
+:
+:
+move
 (
 snapshot
 )

@@ -4957,7 +4957,10 @@ U2FRegisterPromise
 :
 CreateAndResolve
 (
-Move
+std
+:
+:
+move
 (
 result
 )
@@ -6394,7 +6397,10 @@ U2FSignPromise
 :
 CreateAndResolve
 (
-Move
+std
+:
+:
+move
 (
 result
 )

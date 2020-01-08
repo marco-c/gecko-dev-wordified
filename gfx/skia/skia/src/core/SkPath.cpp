@@ -1021,7 +1021,10 @@ Cubic
 we
 insert
 a
-Move
+std
+:
+:
+move
 (
 0
 0

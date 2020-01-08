@@ -7564,7 +7564,10 @@ Message
 >
 message
 (
-Move
+std
+:
+:
+move
 (
 mCurrentMessage
 )
@@ -9375,7 +9378,10 @@ aImpl
 )
 mEvent
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )

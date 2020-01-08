@@ -394,7 +394,10 @@ mMaxPoolUse
 #
 endif
 return
-Move
+std
+:
+:
+move
 (
 res
 )
@@ -434,7 +437,10 @@ mShmemPool
 mPoolFree
 ]
 =
-Move
+std
+:
+:
+move
 (
 aShmem
 )

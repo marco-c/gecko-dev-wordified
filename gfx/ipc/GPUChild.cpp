@@ -1952,7 +1952,10 @@ DeferredDeleteGPUChild
 )
 mChild
 (
-Move
+std
+:
+:
+move
 (
 aChild
 )
@@ -2004,7 +2007,10 @@ NS_DispatchToMainThread
 new
 DeferredDeleteGPUChild
 (
-Move
+std
+:
+:
+move
 (
 aChild
 )

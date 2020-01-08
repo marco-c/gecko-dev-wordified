@@ -139,7 +139,10 @@ mOpQueue
 .
 AppendElements
 (
-Move
+std
+:
+:
+move
 (
 aOpQueue
 )

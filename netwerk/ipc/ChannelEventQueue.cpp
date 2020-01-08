@@ -195,7 +195,10 @@ ChannelEvent
 >
 event
 (
-Move
+std
+:
+:
+move
 (
 mEventQueue
 [

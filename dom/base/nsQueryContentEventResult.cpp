@@ -1428,10 +1428,10 @@ mString
 ;
 mRectArray
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 aEvent
 .

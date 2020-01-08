@@ -2044,7 +2044,10 @@ mFrames
 .
 Insert
 (
-Move
+std
+:
+:
+move
 (
 frame
 )
@@ -2362,7 +2365,10 @@ mFrames
 .
 Insert
 (
-Move
+std
+:
+:
+move
 (
 frame
 )

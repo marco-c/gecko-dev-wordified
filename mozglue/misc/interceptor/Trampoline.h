@@ -658,7 +658,10 @@ uintptr_t
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 result
 )

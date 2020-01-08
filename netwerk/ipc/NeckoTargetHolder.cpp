@@ -206,7 +206,10 @@ mNeckoTarget
 >
 Dispatch
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )
@@ -235,7 +238,10 @@ mainThreadTarget
 >
 Dispatch
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )

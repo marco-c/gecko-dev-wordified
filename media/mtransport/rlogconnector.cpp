@@ -559,7 +559,10 @@ disableCount_
 {
 AddMsg
 (
-Move
+std
+:
+:
+move
 (
 log
 )
@@ -587,7 +590,10 @@ log_messages_
 .
 push_front
 (
-Move
+std
+:
+:
+move
 (
 msg
 )

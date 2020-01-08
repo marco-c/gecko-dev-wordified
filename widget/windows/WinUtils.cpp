@@ -6854,7 +6854,10 @@ new
 AsyncEncodeAndWriteIcon
 (
 path
-Move
+std
+:
+:
+move
 (
 data
 )
@@ -6933,7 +6936,10 @@ aIconPath
 )
 mBuffer
 (
-Move
+std
+:
+:
+move
 (
 aBuffer
 )

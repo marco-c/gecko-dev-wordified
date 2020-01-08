@@ -242,7 +242,10 @@ RenderCompositorANGLE
 :
 Create
 (
-Move
+std
+:
+:
+move
 (
 aWidget
 )
@@ -257,7 +260,10 @@ RenderCompositorOGL
 :
 Create
 (
-Move
+std
+:
+:
+move
 (
 aWidget
 )

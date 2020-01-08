@@ -319,10 +319,10 @@ _classname
 Element
 (
 aResult
-mozilla
+std
 :
 :
-Move
+move
 (
 aNodeInfo
 )

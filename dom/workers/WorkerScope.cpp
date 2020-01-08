@@ -2631,7 +2631,10 @@ aCategory
 >
 Dispatch
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )
@@ -2731,7 +2734,10 @@ GetClientState
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 state
 )
@@ -5335,7 +5341,10 @@ aCategory
 >
 Dispatch
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )

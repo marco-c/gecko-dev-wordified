@@ -656,7 +656,10 @@ ExtractDataAsync
 type
 params
 usingCustomParseOptions
-Move
+std
+:
+:
+move
 (
 imageBuffer
 )

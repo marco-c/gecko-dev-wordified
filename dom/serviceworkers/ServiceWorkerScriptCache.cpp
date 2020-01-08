@@ -937,7 +937,10 @@ TakePrincipalInfo
 )
 {
 return
-Move
+std
+:
+:
+move
 (
 mPrincipalInfo
 )
@@ -3132,7 +3135,10 @@ ir
 >
 SetPrincipalInfo
 (
-Move
+std
+:
+:
+move
 (
 principalInfo
 )
@@ -4639,7 +4645,10 @@ rv
 }
 mPrincipalInfo
 =
-Move
+std
+:
+:
+move
 (
 principalInfo
 )

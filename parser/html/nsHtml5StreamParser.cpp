@@ -7430,7 +7430,10 @@ aStreamParser
 )
 mData
 (
-Move
+std
+:
+:
+move
 (
 aData
 )
@@ -7647,7 +7650,10 @@ new
 nsHtml5DataAvailable
 (
 this
-Move
+std
+:
+:
+move
 (
 data
 )
@@ -11230,7 +11236,10 @@ TaskCategory
 :
 :
 Network
-Move
+std
+:
+:
+move
 (
 aRunnable
 )
@@ -11247,7 +11256,10 @@ TaskCategory
 :
 :
 Network
-Move
+std
+:
+:
+move
 (
 aRunnable
 )

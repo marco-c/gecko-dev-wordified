@@ -3515,7 +3515,10 @@ set
 =
 NewInstance
 (
-Move
+std
+:
+:
+move
 (
 interfaceArray
 )

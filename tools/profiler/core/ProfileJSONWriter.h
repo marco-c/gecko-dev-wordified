@@ -567,10 +567,10 @@ aWriter
 :
 JSONWriter
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aWriter
 )

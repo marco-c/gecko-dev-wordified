@@ -794,10 +794,10 @@ true
 #
 endif
 return
-mozilla
+std
 :
 :
-Move
+move
 (
 v
 )

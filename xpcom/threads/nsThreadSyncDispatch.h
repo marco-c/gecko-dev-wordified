@@ -191,10 +191,10 @@ aOrigin
 )
 mSyncTask
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aTask
 )

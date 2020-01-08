@@ -429,12 +429,6 @@ using
 mozilla
 :
 :
-Move
-;
-using
-mozilla
-:
-:
 PodArrayZero
 ;
 using
@@ -15981,7 +15975,10 @@ clear
 RecompileInfoVector
 pending
 (
-Move
+std
+:
+:
+move
 (
 recompiles
 )

@@ -1521,7 +1521,10 @@ XP_MACOSX
 )
 mPaths
 =
-Move
+std
+:
+:
+move
 (
 paths
 )

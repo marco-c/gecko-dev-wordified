@@ -361,12 +361,6 @@ using
 mozilla
 :
 :
-Move
-;
-using
-mozilla
-:
-:
 Mutex
 ;
 using
@@ -1848,7 +1842,10 @@ mEntries
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 line
 )
@@ -2523,7 +2520,10 @@ callResult
 ;
 aCapturedFrame
 =
-Move
+std
+:
+:
+move
 (
 line
 )

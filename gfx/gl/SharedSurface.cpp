@@ -2035,7 +2035,10 @@ SharedSurface
 >
 surf
 =
-Move
+std
+:
+:
+move
 (
 CreateShared
 (
@@ -2070,7 +2073,10 @@ SharedSurfaceTextureClient
 :
 Create
 (
-Move
+std
+:
+:
+move
 (
 surf
 )

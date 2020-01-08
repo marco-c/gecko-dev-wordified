@@ -530,7 +530,10 @@ child
 >
 InitForContent
 (
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -1013,7 +1016,10 @@ ChildProfilerController
 :
 Create
 (
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -3908,7 +3914,10 @@ if
 !
 CreateForContentProcess
 (
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -3972,7 +3981,10 @@ FunctionBrokerChild
 :
 Initialize
 (
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )

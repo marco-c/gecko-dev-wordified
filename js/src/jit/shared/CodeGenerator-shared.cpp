@@ -6484,10 +6484,10 @@ types_
 >
 append
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 ty
 )
@@ -12220,7 +12220,10 @@ patchableTLEvents_
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 patchEvent
 )

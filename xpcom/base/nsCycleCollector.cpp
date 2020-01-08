@@ -7059,7 +7059,10 @@ mEntries
 .
 Append
 (
-Move
+std
+:
+:
+move
 (
 entry
 )

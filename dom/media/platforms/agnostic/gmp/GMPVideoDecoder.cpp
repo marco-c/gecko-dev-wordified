@@ -615,7 +615,10 @@ mDecodedData
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 v
 )
@@ -1898,7 +1901,10 @@ tags
 GetNodeId
 (
 )
-Move
+std
+:
+:
+move
 (
 callback
 )
@@ -2068,7 +2074,10 @@ mGMP
 >
 Decode
 (
-Move
+std
+:
+:
+move
 (
 frame
 )

@@ -3693,7 +3693,10 @@ extmapAttr
 }
 mNegotiatedDetails
 =
-Move
+std
+:
+:
+move
 (
 negotiatedDetails
 )

@@ -452,7 +452,10 @@ UiCompositorControllerChild
 :
 :
 OpenForGPUProcess
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -1322,7 +1325,10 @@ mWidget
 >
 RecvScreenPixels
 (
-Move
+std
+:
+:
+move
 (
 aMem
 )

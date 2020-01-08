@@ -2202,7 +2202,10 @@ should
 remain
 true
 after
-Move
+std
+:
+:
+move
 (
 )
 .
@@ -2212,7 +2215,10 @@ int
 >
 i
 =
-Move
+std
+:
+:
+move
 (
 val
 .
@@ -2415,7 +2421,10 @@ ResolveValue
 ;
 /
 /
-Move
+std
+:
+:
+move
 (
 )
 shouldn
@@ -2433,7 +2442,10 @@ aVal
 RRValue
 val
 =
-Move
+std
+:
+:
+move
 (
 aVal
 )

@@ -634,7 +634,10 @@ aNotifications
 >
 AppendElements
 (
-Move
+std
+:
+:
+move
 (
 mImageCompositeNotifications
 )

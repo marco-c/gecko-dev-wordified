@@ -9116,7 +9116,10 @@ aSystem
 )
 mSymbols
 (
-Move
+std
+:
+:
+move
 (
 aSymbols
 )
@@ -11168,7 +11171,10 @@ CounterStyle
 >
 list
 (
-Move
+std
+:
+:
+move
 (
 mRetiredStyles
 )

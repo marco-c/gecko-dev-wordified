@@ -3050,7 +3050,10 @@ certOut
 *
 certOut
 =
-Move
+std
+:
+:
+move
 (
 cert
 )

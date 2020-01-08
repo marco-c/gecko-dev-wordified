@@ -379,7 +379,10 @@ aChildPid
 )
 mPolicy
 (
-Move
+std
+:
+:
+move
 (
 aPolicy
 )
@@ -557,7 +560,10 @@ rv
 new
 SandboxBroker
 (
-Move
+std
+:
+:
+move
 (
 aPolicy
 )
@@ -592,7 +598,10 @@ clientFd
 ;
 }
 return
-Move
+std
+:
+:
+move
 (
 rv
 )

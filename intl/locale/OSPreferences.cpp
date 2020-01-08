@@ -417,7 +417,10 @@ newLocales
 {
 mSystemLocales
 =
-Move
+std
+:
+:
+move
 (
 newLocales
 )

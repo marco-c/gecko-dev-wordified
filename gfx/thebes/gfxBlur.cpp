@@ -2178,7 +2178,10 @@ aBlurMargin
 )
 mKey
 (
-Move
+std
+:
+:
+move
 (
 aKey
 )
@@ -3042,7 +3045,10 @@ BlurCacheData
 (
 aBoxShadow
 aBlurMargin
-Move
+std
+:
+:
+move
 (
 key
 )
@@ -7335,7 +7341,10 @@ BlurCacheData
 (
 aBoxShadow
 blurMargin
-Move
+std
+:
+:
+move
 (
 key
 )

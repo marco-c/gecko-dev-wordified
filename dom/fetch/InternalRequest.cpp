@@ -2773,7 +2773,10 @@ aPrincipalInfo
 {
 mPrincipalInfo
 =
-Move
+std
+:
+:
+move
 (
 aPrincipalInfo
 )

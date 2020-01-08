@@ -371,7 +371,10 @@ bounds
 LayerIntRegion
 region
 =
-Move
+std
+:
+:
+move
 (
 GetShadowVisibleRegion
 (
@@ -443,7 +446,10 @@ c_str
 ;
 SetShadowVisibleRegion
 (
-Move
+std
+:
+:
+move
 (
 region
 )

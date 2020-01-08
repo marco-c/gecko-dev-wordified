@@ -137,12 +137,6 @@ nsGkAtoms
 .
 h
 "
-using
-mozilla
-:
-:
-Move
-;
 txUnknownHandler
 :
 :
@@ -1153,7 +1147,10 @@ txResultBuffer
 >
 buffer
 (
-Move
+std
+:
+:
+move
 (
 mBuffer
 )

@@ -1012,7 +1012,10 @@ aSample
 mTime
 duration
 frames
-Move
+std
+:
+:
+move
 (
 buffer
 )

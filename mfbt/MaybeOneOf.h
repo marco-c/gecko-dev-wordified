@@ -670,7 +670,10 @@ construct
 T1
 >
 (
-Move
+std
+:
+:
+move
 (
 rhs
 .
@@ -705,7 +708,10 @@ construct
 T2
 >
 (
-Move
+std
+:
+:
+move
 (
 rhs
 .
@@ -782,7 +788,10 @@ this
 )
 MaybeOneOf
 (
-Move
+std
+:
+:
+move
 (
 rhs
 )

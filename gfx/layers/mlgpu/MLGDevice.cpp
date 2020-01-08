@@ -299,7 +299,10 @@ GetSize
 nsIntRegion
 invalid
 =
-Move
+std
+:
+:
+move
 (
 aRegion
 )
@@ -1705,7 +1708,10 @@ aOut
 >
 mRects
 =
-Move
+std
+:
+:
+move
 (
 aRects
 )

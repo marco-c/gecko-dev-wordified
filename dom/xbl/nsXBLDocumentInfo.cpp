@@ -1333,7 +1333,10 @@ rv
 =
 NewObjectInputStreamFromBuffer
 (
-Move
+std
+:
+:
+move
 (
 buf
 )
@@ -1842,7 +1845,10 @@ spec
 get
 (
 )
-Move
+std
+:
+:
+move
 (
 buf
 )

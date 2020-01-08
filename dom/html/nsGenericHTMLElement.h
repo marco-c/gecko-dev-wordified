@@ -7322,10 +7322,10 @@ NOT_FROM_PARSER
 return
 NS_NewHTMLSharedElement
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aNodeInfo
 )

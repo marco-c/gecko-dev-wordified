@@ -547,7 +547,10 @@ mProtocol
 >
 GiveBuffer
 (
-Move
+std
+:
+:
+move
 (
 mShmem
 )
@@ -6596,7 +6599,10 @@ IsOnMessageLoopThread
 ;
 GiveBuffer
 (
-Move
+std
+:
+:
+move
 (
 aBuffer
 )
@@ -6646,7 +6652,10 @@ mBuffers
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 aBuffer
 )

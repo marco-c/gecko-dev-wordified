@@ -1844,7 +1844,10 @@ value
 .
 aResult
 =
-Move
+std
+:
+:
+move
 (
 val
 )

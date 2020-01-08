@@ -9040,7 +9040,10 @@ aStack
 aDuration
 aSystemUptime
 aFirefoxUptime
-Move
+std
+:
+:
+move
 (
 aAnnotations
 )
@@ -12093,7 +12096,10 @@ duration
 aStack
 aSystemUptime
 aFirefoxUptime
-Move
+std
+:
+:
+move
 (
 aAnnotations
 )

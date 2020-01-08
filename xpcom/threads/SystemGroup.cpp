@@ -435,7 +435,10 @@ Initialized
 return
 NS_DispatchToMainThread
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )
@@ -454,7 +457,10 @@ Get
 Dispatch
 (
 aCategory
-Move
+std
+:
+:
+move
 (
 aRunnable
 )

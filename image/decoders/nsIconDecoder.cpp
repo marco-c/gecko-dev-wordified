@@ -519,7 +519,10 @@ TerminateFailure
 }
 mPipe
 =
-Move
+std
+:
+:
+move
 (
 *
 pipe

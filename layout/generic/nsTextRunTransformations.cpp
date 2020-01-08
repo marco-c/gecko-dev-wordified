@@ -429,7 +429,10 @@ aString
 aLength
 aFlags
 aFlags2
-Move
+std
+:
+:
+move
 (
 aStyles
 )
@@ -713,7 +716,10 @@ aString
 aLength
 aFlags
 aFlags2
-Move
+std
+:
+:
+move
 (
 aStyles
 )
@@ -832,7 +838,10 @@ ShapedTextFlags
 :
 TEXT_IS_8BIT
 aFlags2
-Move
+std
+:
+:
+move
 (
 aStyles
 )
@@ -4417,7 +4426,10 @@ nsTextFrameUtils
 Flags
 (
 )
-Move
+std
+:
+:
+move
 (
 styleArray
 )

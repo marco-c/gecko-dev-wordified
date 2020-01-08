@@ -1504,7 +1504,10 @@ CanWorkInPlace
 AudioSampleBuffer
 data
 (
-Move
+std
+:
+:
+move
 (
 buffer
 )
@@ -1517,7 +1520,10 @@ mAudioConverter
 >
 Process
 (
-Move
+std
+:
+:
+move
 (
 data
 )
@@ -1618,7 +1624,10 @@ DecodePromise
 :
 CreateAndResolve
 (
-Move
+std
+:
+:
+move
 (
 results
 )

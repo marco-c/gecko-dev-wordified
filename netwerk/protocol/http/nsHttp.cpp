@@ -3966,7 +3966,10 @@ preserve
 }
 buf
 =
-Move
+std
+:
+:
+move
 (
 tmp
 )

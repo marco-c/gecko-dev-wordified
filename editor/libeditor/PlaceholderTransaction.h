@@ -326,7 +326,10 @@ SelectionState
 >
 selState
 (
-Move
+std
+:
+:
+move
 (
 aSelState
 )
@@ -343,7 +346,10 @@ PlaceholderTransaction
 (
 aEditorBase
 aName
-Move
+std
+:
+:
+move
 (
 selState
 )

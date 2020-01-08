@@ -966,7 +966,10 @@ mMediaRawDatas
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 sample
 )
@@ -2210,7 +2213,10 @@ mDecodedData
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 data
 )

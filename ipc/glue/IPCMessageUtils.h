@@ -5156,7 +5156,10 @@ aResult
 =
 JSStructuredCloneData
 (
-Move
+std
+:
+:
+move
 (
 out
 )
@@ -5449,10 +5452,10 @@ mozilla
 :
 Some
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 tmp
 )

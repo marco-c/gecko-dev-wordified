@@ -277,7 +277,10 @@ task
 >
 mCommandOffsets
 =
-Move
+std
+:
+:
+move
 (
 mCommandOffsets
 )

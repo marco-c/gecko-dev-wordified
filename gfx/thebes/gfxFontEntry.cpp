@@ -1091,7 +1091,10 @@ rv
 }
 mUVSData
 =
-Move
+std
+:
+:
+move
 (
 uvsData
 )
@@ -2208,7 +2211,10 @@ aBuffer
 :
 mTableData
 (
-Move
+std
+:
+:
+move
 (
 aBuffer
 )
@@ -2514,7 +2520,10 @@ mSharedBlobData
 new
 FontTableBlobData
 (
-Move
+std
+:
+:
+move
 (
 aTable
 )
@@ -2983,7 +2992,10 @@ entry
 >
 ShareTableAndGetBlob
 (
-Move
+std
+:
+:
+move
 (
 *
 aBuffer

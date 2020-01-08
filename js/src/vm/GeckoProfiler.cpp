@@ -1113,10 +1113,10 @@ add
 (
 s
 script
-mozilla
+std
 :
 :
-Move
+move
 (
 str
 )

@@ -582,10 +582,10 @@ aEffectSet
 )
 mHashIterator
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aEffectSet
 .
@@ -629,10 +629,10 @@ mEffectSet
 )
 mHashIterator
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aOther
 .

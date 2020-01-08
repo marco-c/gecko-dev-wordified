@@ -6275,7 +6275,10 @@ re
 >
 addTable
 (
-Move
+std
+:
+:
+move
 (
 tables
 [

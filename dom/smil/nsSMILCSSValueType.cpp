@@ -2696,7 +2696,10 @@ ValueWrapper
 aEndWrapper
 .
 mPropID
-Move
+std
+:
+:
+move
 (
 results
 )
@@ -3283,7 +3286,10 @@ new
 ValueWrapper
 (
 aPropID
-Move
+std
+:
+:
+move
 (
 parsedValues
 )
@@ -3789,7 +3795,10 @@ zeroValues
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 zeroValue
 )
@@ -3809,7 +3818,10 @@ valueToMatchWrapper
 -
 >
 mPropID
-Move
+std
+:
+:
+move
 (
 zeroValues
 )

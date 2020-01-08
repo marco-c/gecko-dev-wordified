@@ -900,10 +900,10 @@ gEndpointBridgeMainChild
 >
 SendBridged
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 parent
 )
@@ -926,10 +926,10 @@ if
 !
 SendBridged
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 child
 )

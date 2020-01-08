@@ -1158,7 +1158,10 @@ delete
 /
 construct
 using
-Move
+std
+:
+:
+move
 (
 )
 !
@@ -1178,7 +1181,10 @@ delete
 /
 assign
 using
-Move
+std
+:
+:
+move
 (
 )
 !

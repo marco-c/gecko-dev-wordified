@@ -2961,7 +2961,10 @@ self
 >
 mStream
 =
-Move
+std
+:
+:
+move
 (
 aStream
 )

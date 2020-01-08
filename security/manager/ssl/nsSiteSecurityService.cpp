@@ -6435,7 +6435,10 @@ x509CertList
 new
 nsNSSCertList
 (
-Move
+std
+:
+:
+move
 (
 certList
 )

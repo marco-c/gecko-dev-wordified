@@ -878,7 +878,10 @@ factory
 >
 mPrincipalInfo
 =
-Move
+std
+:
+:
+move
 (
 principalInfo
 )

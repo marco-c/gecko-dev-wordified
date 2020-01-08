@@ -1941,7 +1941,10 @@ UpdateRegistrationState
 [
 self
 =
-Move
+std
+:
+:
+move
 (
 self
 )

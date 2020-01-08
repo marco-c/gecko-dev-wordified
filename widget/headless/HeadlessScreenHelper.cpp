@@ -303,7 +303,10 @@ screenManager
 .
 Refresh
 (
-Move
+std
+:
+:
+move
 (
 screenList
 )

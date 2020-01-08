@@ -1176,7 +1176,10 @@ mElement
 ;
 aValue
 =
-Move
+std
+:
+:
+move
 (
 val
 )
@@ -1312,7 +1315,10 @@ mElement
 ;
 val
 =
-Move
+std
+:
+:
+move
 (
 tmp
 )

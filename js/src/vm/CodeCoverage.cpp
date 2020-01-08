@@ -671,7 +671,10 @@ numBranchesHit_
 )
 linesHit_
 (
-Move
+std
+:
+:
+move
 (
 src
 .
@@ -3641,7 +3644,10 @@ sources_
 >
 append
 (
-Move
+std
+:
+:
+move
 (
 LCovSource
 (

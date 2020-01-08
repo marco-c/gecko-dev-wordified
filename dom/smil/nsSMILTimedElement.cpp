@@ -4982,7 +4982,10 @@ mOldIntervals
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 mCurrentInterval
 )
@@ -8624,7 +8627,10 @@ timeSpecsList
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 spec
 )
@@ -10420,7 +10426,10 @@ filteredList
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 mOldIntervals
 [

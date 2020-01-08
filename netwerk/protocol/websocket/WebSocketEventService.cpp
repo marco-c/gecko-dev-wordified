@@ -405,7 +405,10 @@ aInnerWindowID
 )
 mFrame
 (
-Move
+std
+:
+:
+move
 (
 aFrame
 )
@@ -1503,7 +1506,10 @@ WebSocketFrame
 >
 frame
 (
-Move
+std
+:
+:
+move
 (
 aFrame
 )
@@ -1623,7 +1629,10 @@ WebSocketFrame
 >
 frame
 (
-Move
+std
+:
+:
+move
 (
 aFrame
 )

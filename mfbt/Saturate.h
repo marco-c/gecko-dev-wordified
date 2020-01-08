@@ -917,7 +917,10 @@ aValue
 {
 mValue
 =
-Move
+std
+:
+:
+move
 (
 aValue
 .
@@ -1087,7 +1090,10 @@ aRhs
 {
 mValue
 =
-Move
+std
+:
+:
+move
 (
 aRhs
 .

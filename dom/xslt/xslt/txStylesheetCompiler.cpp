@@ -1914,7 +1914,10 @@ rv
 =
 addInstruction
 (
-Move
+std
+:
+:
+move
 (
 instr
 )
@@ -2578,7 +2581,10 @@ forget
 ;
 mElementContext
 =
-Move
+std
+:
+:
+move
 (
 context
 )

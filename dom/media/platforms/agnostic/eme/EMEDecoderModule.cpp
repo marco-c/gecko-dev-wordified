@@ -646,7 +646,10 @@ aDecodeTaskQueue
 )
 mADTSSampleConverter
 (
-Move
+std
+:
+:
+move
 (
 aConverter
 )
@@ -1918,7 +1921,10 @@ aParams
 :
 MediaDataDecoderProxy
 (
-Move
+std
+:
+:
+move
 (
 aProxyThread
 )
@@ -1978,7 +1984,10 @@ aProxy
 :
 MediaDataDecoderProxy
 (
-Move
+std
+:
+:
+move
 (
 aProxyDecoder
 )
@@ -2825,7 +2834,10 @@ mType
 aParams
 .
 mOnWaitingForKeyEvent
-Move
+std
+:
+:
+move
 (
 converter
 )

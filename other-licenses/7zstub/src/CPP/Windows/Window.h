@@ -658,7 +658,10 @@ _window
 ;
 }
 bool
-Move
+std
+:
+:
+move
 (
 int
 x

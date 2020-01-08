@@ -1666,7 +1666,10 @@ destruction
 .
 SpawnASCReleaseThread
 (
-Move
+std
+:
+:
+move
 (
 mAudioSessionControl
 )

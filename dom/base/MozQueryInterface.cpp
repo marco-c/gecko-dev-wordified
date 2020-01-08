@@ -682,7 +682,10 @@ return
 new
 MozQueryInterface
 (
-Move
+std
+:
+:
+move
 (
 ifaces
 )

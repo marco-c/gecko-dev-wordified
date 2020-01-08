@@ -5061,7 +5061,10 @@ mIsDoingPrintPreview
 {
 mOldPrtPreview
 =
-Move
+std
+:
+:
+move
 (
 mPrtPreview
 )
@@ -11067,7 +11070,10 @@ mKids
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 po
 )
@@ -18359,7 +18365,10 @@ aPO
 -
 >
 mViewManager
-Move
+std
+:
+:
+move
 (
 styleSet
 )
@@ -28120,7 +28129,10 @@ it
 over
 mPrtPreview
 =
-Move
+std
+:
+:
+move
 (
 mPrt
 )

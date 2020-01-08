@@ -145,12 +145,6 @@ using
 mozilla
 :
 :
-Move
-;
-using
-mozilla
-:
-:
 NonDereferenceable
 ;
 #
@@ -374,7 +368,10 @@ assignment
 .
 nd3
 =
-Move
+std
+:
+:
+move
 (
 nd1
 )

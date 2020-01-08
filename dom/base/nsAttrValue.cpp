@@ -822,7 +822,10 @@ mBits
 {
 SetTo
 (
-Move
+std
+:
+:
+move
 (
 aValue
 )
@@ -6103,7 +6106,10 @@ array
 >
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 classAtom
 )
@@ -6182,7 +6188,10 @@ array
 >
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 classAtom
 )

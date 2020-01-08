@@ -2116,10 +2116,10 @@ mozPersonalDictionarySave
 (
 this
 theFile
-mozilla
+std
 :
 :
-Move
+move
 (
 array
 )

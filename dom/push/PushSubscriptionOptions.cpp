@@ -174,7 +174,10 @@ aGlobal
 )
 mRawAppServerKey
 (
-Move
+std
+:
+:
+move
 (
 aRawAppServerKey
 )

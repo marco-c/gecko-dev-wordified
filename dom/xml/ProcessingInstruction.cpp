@@ -367,7 +367,10 @@ aData
 :
 CharacterData
 (
-Move
+std
+:
+:
+move
 (
 aNodeInfo
 )

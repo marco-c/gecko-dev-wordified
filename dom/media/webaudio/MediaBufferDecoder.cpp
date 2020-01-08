@@ -2525,7 +2525,10 @@ mContext
 SampleRate
 (
 )
-Move
+std
+:
+:
+move
 (
 mBuffer
 )

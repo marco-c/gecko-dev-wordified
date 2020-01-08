@@ -394,7 +394,10 @@ InitForContentRunnable
 "
 &
 Open
-Move
+std
+:
+:
+move
 (
 aVideoManager
 )
@@ -1371,7 +1374,10 @@ this
 SurfaceDescriptorGPUVideo
 sd
 =
-Move
+std
+:
+:
+move
 (
 aSD
 )

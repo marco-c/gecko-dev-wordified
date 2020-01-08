@@ -1165,7 +1165,10 @@ mEventQueue
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 event
 )
@@ -1253,7 +1256,10 @@ mEventQueue
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 event
 )
@@ -1443,7 +1449,10 @@ mEventQueue
 InsertElementAt
 (
 0
-Move
+std
+:
+:
+move
 (
 aEvent
 )
@@ -1597,7 +1606,10 @@ newEvents
 i
 ]
 =
-Move
+std
+:
+:
+move
 (
 aEvents
 [

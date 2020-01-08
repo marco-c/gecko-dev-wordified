@@ -188,7 +188,10 @@ aOther
 :
 mStorage
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -227,7 +230,10 @@ aOther
 {
 mStorage
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .

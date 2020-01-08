@@ -917,7 +917,10 @@ DecodePromise
 :
 CreateAndResolve
 (
-Move
+std
+:
+:
+move
 (
 results
 )
@@ -1006,7 +1009,10 @@ aResults
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 output
 )
@@ -1243,7 +1249,10 @@ DecodePromise
 :
 CreateAndResolve
 (
-Move
+std
+:
+:
+move
 (
 results
 )

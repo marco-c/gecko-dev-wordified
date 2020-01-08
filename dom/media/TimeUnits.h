@@ -1417,7 +1417,10 @@ aOther
 :
 BaseType
 (
-Move
+std
+:
+:
+move
 (
 aOther
 )
@@ -1456,7 +1459,10 @@ aOther
 :
 BaseType
 (
-Move
+std
+:
+:
+move
 (
 aOther
 )

@@ -508,7 +508,10 @@ mLastUsedFrame
 )
 mBuffer
 (
-Move
+std
+:
+:
+move
 (
 aEntry
 .

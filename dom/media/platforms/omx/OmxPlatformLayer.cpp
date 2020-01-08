@@ -1116,7 +1116,10 @@ kWideBand
 }
 }
 return
-Move
+std
+:
+:
+move
 (
 conf
 )
@@ -1454,7 +1457,10 @@ OmxCommonVideoConfig
 ;
 }
 return
-Move
+std
+:
+:
+move
 (
 conf
 )

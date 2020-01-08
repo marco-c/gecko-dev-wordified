@@ -239,7 +239,10 @@ mDecls
 new
 DeclarationBlock
 (
-Move
+std
+:
+:
+move
 (
 aDecls
 )

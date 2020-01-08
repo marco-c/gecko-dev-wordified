@@ -435,12 +435,6 @@ using
 mozilla
 :
 :
-Move
-;
-using
-mozilla
-:
-:
 PointerRangeSize
 ;
 /
@@ -2054,7 +2048,10 @@ ts
 context
 (
 )
-Move
+std
+:
+:
+move
 (
 err
 )

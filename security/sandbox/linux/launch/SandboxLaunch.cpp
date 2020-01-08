@@ -2247,7 +2247,10 @@ aOptions
 >
 fork_delegate
 =
-Move
+std
+:
+:
+move
 (
 forker
 )

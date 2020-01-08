@@ -5190,7 +5190,10 @@ nsIInputStream
 >
 source
 =
-Move
+std
+:
+:
+move
 (
 aSource
 )

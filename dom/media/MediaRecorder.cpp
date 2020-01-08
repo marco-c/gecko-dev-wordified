@@ -1796,7 +1796,10 @@ aSession
 )
 mBuffer
 (
-Move
+std
+:
+:
+move
 (
 aBuffer
 )
@@ -4145,7 +4148,10 @@ new
 StoreEncodedBufferRunnable
 (
 this
-Move
+std
+:
+:
+move
 (
 encodedBuf
 )
@@ -6311,7 +6317,10 @@ new
 StoreEncodedBufferRunnable
 (
 this
-Move
+std
+:
+:
+move
 (
 encodedBuf
 )
@@ -6893,7 +6902,10 @@ nullptr
 auto
 tracks
 (
-Move
+std
+:
+:
+move
 (
 mMediaStreamTracks
 )

@@ -780,7 +780,10 @@ nsIRunnable
 >
 runnable
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )

@@ -522,7 +522,10 @@ UINT64_MAX
 )
 mBlobImpls
 (
-Move
+std
+:
+:
+move
 (
 aBlobImpls
 )
@@ -558,7 +561,10 @@ UINT64_MAX
 )
 mBlobImpls
 (
-Move
+std
+:
+:
+move
 (
 aBlobImpls
 )

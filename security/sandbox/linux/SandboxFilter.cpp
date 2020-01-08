@@ -2398,7 +2398,10 @@ Allow
 (
 )
 :
-Move
+std
+:
+:
+move
 (
 aOrElse
 )
@@ -5377,7 +5380,10 @@ aBroker
 )
 mParams
 (
-Move
+std
+:
+:
+move
 (
 aParams
 )
@@ -8154,7 +8160,10 @@ ContentSandboxPolicy
 >
 (
 aMaybeBroker
-Move
+std
+:
+:
+move
 (
 aParams
 )

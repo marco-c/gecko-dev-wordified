@@ -5478,7 +5478,10 @@ UnscaledFontFontconfig
 >
 front
 =
-Move
+std
+:
+:
+move
 (
 mUnscaledFonts
 [
@@ -5507,7 +5510,10 @@ mUnscaledFonts
 i
 ]
 =
-Move
+std
+:
+:
+move
 (
 mUnscaledFonts
 [
@@ -5523,7 +5529,10 @@ mUnscaledFonts
 0
 ]
 =
-Move
+std
+:
+:
+move
 (
 front
 )

@@ -4244,7 +4244,10 @@ mEventTarget
 >
 Dispatch
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )
@@ -4273,7 +4276,10 @@ mEventTarget
 >
 DelayedDispatch
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )

@@ -935,7 +935,10 @@ mQueryPromises
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 holder
 )
@@ -1011,7 +1014,10 @@ ReputationPromise
 >
 holder
 =
-Move
+std
+:
+:
+move
 (
 mQueryPromises
 .

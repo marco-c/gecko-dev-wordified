@@ -805,7 +805,10 @@ AsString
 )
 mMIMEType
 (
-Move
+std
+:
+:
+move
 (
 aType
 )

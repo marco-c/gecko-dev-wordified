@@ -210,7 +210,10 @@ aBufferSize
 :
 mInputStream
 (
-Move
+std
+:
+:
+move
 (
 aInputStream
 )
@@ -279,7 +282,10 @@ aClonedFrom
 :
 mInputStream
 (
-Move
+std
+:
+:
+move
 (
 aClonedBaseStream
 )

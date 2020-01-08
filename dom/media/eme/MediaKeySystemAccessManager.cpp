@@ -2176,7 +2176,10 @@ requests
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 request
 )
@@ -2433,7 +2436,10 @@ PendingRequest
 >
 requests
 (
-Move
+std
+:
+:
+move
 (
 mRequests
 )

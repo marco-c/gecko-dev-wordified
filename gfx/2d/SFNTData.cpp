@@ -879,7 +879,10 @@ offset
 ;
 }
 return
-Move
+std
+:
+:
+move
 (
 sfntData
 )
@@ -914,7 +917,10 @@ nullptr
 ;
 }
 return
-Move
+std
+:
+:
+move
 (
 sfntData
 )
@@ -1229,7 +1235,10 @@ aU16FullNames
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 name
 )

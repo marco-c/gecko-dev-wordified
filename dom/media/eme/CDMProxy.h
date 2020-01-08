@@ -677,7 +677,10 @@ Assumes
 ownership
 of
 (
-Move
+std
+:
+:
+move
 (
 )
 s
@@ -806,7 +809,10 @@ Assumes
 ownership
 of
 (
-Move
+std
+:
+:
+move
 (
 )
 s
@@ -873,7 +879,10 @@ Assumes
 ownership
 of
 (
-Move
+std
+:
+:
+move
 (
 )
 s

@@ -225,7 +225,10 @@ runOnGC
 new
 DebuggerOnGCRunnable
 (
-Move
+std
+:
+:
+move
 (
 gcEvent
 )
@@ -299,7 +302,10 @@ jsapi
 cx
 (
 )
-Move
+std
+:
+:
+move
 (
 mGCData
 )

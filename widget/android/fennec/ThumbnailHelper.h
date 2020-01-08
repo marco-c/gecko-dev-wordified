@@ -1244,7 +1244,10 @@ ThumbnailHelperIdle
 )
 mLambda
 (
-Move
+std
+:
+:
+move
 (
 aCall
 )
@@ -1366,7 +1369,10 @@ NS_DispatchToMainThread
 new
 IdleEvent
 (
-Move
+std
+:
+:
+move
 (
 aCall
 )

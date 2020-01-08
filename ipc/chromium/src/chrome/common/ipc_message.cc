@@ -727,10 +727,10 @@ other
 :
 Pickle
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 other
 )
@@ -946,10 +946,10 @@ Pickle
 this
 )
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 other
 )

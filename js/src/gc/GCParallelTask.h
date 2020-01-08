@@ -902,10 +902,10 @@ other
 :
 GCParallelTask
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 other
 )

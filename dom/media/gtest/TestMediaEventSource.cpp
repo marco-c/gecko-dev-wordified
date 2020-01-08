@@ -2382,7 +2382,10 @@ source
 .
 Notify
 (
-Move
+std
+:
+:
+move
 (
 val
 )
@@ -2547,7 +2550,10 @@ source
 Connect
 (
 queue
-Move
+std
+:
+:
+move
 (
 func
 )

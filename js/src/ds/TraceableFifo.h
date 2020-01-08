@@ -405,10 +405,10 @@ rhs
 :
 Base
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 rhs
 )
@@ -433,10 +433,10 @@ Base
 operator
 =
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 rhs
 )

@@ -5006,7 +5006,10 @@ aPath
 )
 mBuffer
 (
-Move
+std
+:
+:
+move
 (
 aBuffer
 )
@@ -7260,7 +7263,10 @@ new
 DoWriteAtomicEvent
 (
 aPath
-Move
+std
+:
+:
+move
 (
 buffer
 )

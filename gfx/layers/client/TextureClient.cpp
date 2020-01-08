@@ -8366,7 +8366,10 @@ aOutDesc
 SurfaceDescriptorGPUVideo
 (
 handle
-Move
+std
+:
+:
+move
 (
 subDesc
 )

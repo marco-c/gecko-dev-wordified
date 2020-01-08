@@ -1041,7 +1041,10 @@ commands
 .
 mCommands
 =
-Move
+std
+:
+:
+move
 (
 mOwner
 -

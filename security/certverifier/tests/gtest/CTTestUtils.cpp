@@ -3733,7 +3733,10 @@ rv
 ;
 result
 =
-Move
+std
+:
+:
+move
 (
 trustDomain
 .

@@ -1428,7 +1428,10 @@ do_AddRef
 new
 VideoEngine
 (
-Move
+std
+:
+:
+move
 (
 aConfig
 )

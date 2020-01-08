@@ -2469,7 +2469,10 @@ forget
 )
 mRef
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -2517,7 +2520,10 @@ forget
 ;
 mRef
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .

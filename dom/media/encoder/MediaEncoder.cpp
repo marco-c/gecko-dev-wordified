@@ -820,7 +820,10 @@ AudioTrackEncoder
 :
 :
 AppendAudioSegment
-Move
+std
+:
+:
+move
 (
 copy
 )
@@ -1459,7 +1462,10 @@ VideoTrackEncoder
 :
 :
 AppendVideoSegment
-Move
+std
+:
+:
+move
 (
 copy
 )
@@ -2056,7 +2062,10 @@ aEncoderThread
 )
 mWriter
 (
-Move
+std
+:
+:
+move
 (
 aWriter
 )
@@ -3665,7 +3674,10 @@ MediaEncoder
 >
 (
 aEncoderThread
-Move
+std
+:
+:
+move
 (
 writer
 )

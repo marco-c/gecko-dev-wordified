@@ -3249,7 +3249,10 @@ unsatisfactory
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 aDevices
 [
@@ -3441,7 +3444,10 @@ rejects
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 aDevices
 [
@@ -3479,7 +3485,10 @@ aDevices
 .
 AppendElements
 (
-Move
+std
+:
+:
+move
 (
 rejects
 )

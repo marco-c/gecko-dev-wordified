@@ -3392,10 +3392,10 @@ if
 !
 Assign
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aStr
 )

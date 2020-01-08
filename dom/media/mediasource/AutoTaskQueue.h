@@ -194,7 +194,10 @@ mTaskQueue
 new
 TaskQueue
 (
-Move
+std
+:
+:
+move
 (
 aPool
 )
@@ -235,7 +238,10 @@ mTaskQueue
 new
 TaskQueue
 (
-Move
+std
+:
+:
+move
 (
 aPool
 )
@@ -289,7 +295,10 @@ mTaskQueue
 >
 Dispatch
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )

@@ -524,7 +524,10 @@ CompositorManagerParent
 :
 :
 Bind
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )

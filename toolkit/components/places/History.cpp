@@ -3869,7 +3869,10 @@ uris
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 uri
 )
@@ -4711,7 +4714,10 @@ serializableUris
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 serializedUri
 )
@@ -4773,7 +4779,10 @@ serializableUris
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 serializedUri
 )

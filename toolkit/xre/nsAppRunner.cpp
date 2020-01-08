@@ -21603,7 +21603,10 @@ FILE_STARTUP_INCOMPLETE
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 crashFile
 )

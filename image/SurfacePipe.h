@@ -5032,7 +5032,10 @@ aOther
 :
 mHead
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -5069,7 +5072,10 @@ aOther
 ;
 mHead
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -5857,7 +5863,10 @@ aHead
 :
 mHead
 (
-Move
+std
+:
+:
+move
 (
 aHead
 )

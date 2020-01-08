@@ -10413,10 +10413,10 @@ FinishSaveDocumentInternal
 "
 this
 saveMethod
-mozilla
+std
 :
 :
-Move
+move
 (
 toWalk
 )
@@ -15325,10 +15325,10 @@ mWalkStack
 .
 AppendElement
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 toWalk
 )

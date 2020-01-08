@@ -1438,7 +1438,10 @@ Engine
 >
 SetBuffer
 (
-Move
+std
+:
+:
+move
 (
 mBuffer
 )
@@ -1463,7 +1466,10 @@ Message
 >
 (
 this
-Move
+std
+:
+:
+move
 (
 aBuffer
 )
@@ -4226,7 +4232,10 @@ GraphImpl
 >
 RunMessageAfterProcessing
 (
-Move
+std
+:
+:
+move
 (
 message
 )

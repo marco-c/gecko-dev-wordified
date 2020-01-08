@@ -476,7 +476,10 @@ aStreamCleanupList
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 autoStream
 )
@@ -595,7 +598,10 @@ GetManager
 ExecuteOpenStream
 (
 this
-Move
+std
+:
+:
+move
 (
 aResolver
 )

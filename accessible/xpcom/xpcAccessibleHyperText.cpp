@@ -2639,7 +2639,10 @@ AppendElement
 new
 xpcAccessibleTextRange
 (
-Move
+std
+:
+:
+move
 (
 ranges
 [
@@ -2765,7 +2768,10 @@ AppendElement
 new
 xpcAccessibleTextRange
 (
-Move
+std
+:
+:
+move
 (
 ranges
 [

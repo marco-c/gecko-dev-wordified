@@ -6472,7 +6472,10 @@ aAddr
 )
 mData
 (
-Move
+std
+:
+:
+move
 (
 aData
 )
@@ -7011,7 +7014,10 @@ SendRequestRunnable
 this
 *
 aAddr
-Move
+std
+:
+:
+move
 (
 fallibleArray
 )

@@ -601,7 +601,10 @@ GetLayer
 )
 mWidgetRenderView
 clip
-Move
+std
+:
+:
+move
 (
 geometry
 )
@@ -998,7 +1001,10 @@ AssignToView
 (
 this
 aView
-Move
+std
+:
+:
+move
 (
 aGeometry
 )
@@ -1605,7 +1611,10 @@ geometry
 {
 geometry
 =
-Move
+std
+:
+:
+move
 (
 entry
 .
@@ -1618,7 +1627,10 @@ AssignLayer
 child
 aView
 clip
-Move
+std
+:
+:
+move
 (
 geometry
 )

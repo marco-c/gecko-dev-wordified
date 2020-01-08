@@ -1950,7 +1950,10 @@ false
 }
 aOutRegion
 =
-Move
+std
+:
+:
+move
 (
 result
 )
@@ -2285,7 +2288,10 @@ mChildren
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 CloneLayerTreePropertiesInternal
 (
@@ -3497,7 +3503,10 @@ invalidOfLayer
 ;
 aOutRegion
 =
-Move
+std
+:
+:
+move
 (
 result
 )

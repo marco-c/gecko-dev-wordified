@@ -1459,7 +1459,10 @@ result
 =
 cb
 (
-Move
+std
+:
+:
+move
 (
 aNodeInfo
 )

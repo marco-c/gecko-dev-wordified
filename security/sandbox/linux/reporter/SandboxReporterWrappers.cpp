@@ -756,7 +756,10 @@ mOffset
 )
 mArray
 (
-Move
+std
+:
+:
+move
 (
 aSnap
 .

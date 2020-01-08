@@ -1347,7 +1347,10 @@ transaction
 >
 mWorkerHolder
 =
-Move
+std
+:
+:
+move
 (
 workerHolder
 )
@@ -4184,7 +4187,10 @@ WorkerHolder
 >
 workerHolder
 =
-Move
+std
+:
+:
+move
 (
 mWorkerHolder
 )
@@ -5306,7 +5312,10 @@ IDBTransaction
 >
 transaction
 =
-Move
+std
+:
+:
+move
 (
 mTransaction
 )

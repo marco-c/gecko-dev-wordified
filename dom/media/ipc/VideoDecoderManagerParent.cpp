@@ -338,7 +338,10 @@ handle
 aTexture
 ;
 return
-Move
+std
+:
+:
+move
 (
 ret
 )
@@ -907,7 +910,10 @@ VideoDecoderManagerParent
 :
 :
 Open
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )

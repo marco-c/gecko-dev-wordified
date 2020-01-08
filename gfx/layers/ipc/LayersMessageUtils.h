@@ -3898,10 +3898,10 @@ layers
 :
 KeyboardMap
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 shortcuts
 )

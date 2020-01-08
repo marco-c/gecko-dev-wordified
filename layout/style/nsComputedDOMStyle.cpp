@@ -5415,7 +5415,10 @@ again
 ;
 SetResolvedComputedStyle
 (
-Move
+std
+:
+:
+move
 (
 resolvedComputedStyle
 )

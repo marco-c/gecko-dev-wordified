@@ -1088,7 +1088,10 @@ list
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 Input
 (
@@ -1104,7 +1107,10 @@ list
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 Input
 (

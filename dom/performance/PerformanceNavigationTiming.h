@@ -282,7 +282,10 @@ aName
 :
 PerformanceResourceTiming
 (
-Move
+std
+:
+:
+move
 (
 aPerformanceTiming
 )

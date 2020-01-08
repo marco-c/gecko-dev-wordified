@@ -323,7 +323,10 @@ aOther
 :
 mServo
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -401,7 +404,10 @@ aOther
 {
 mServo
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .

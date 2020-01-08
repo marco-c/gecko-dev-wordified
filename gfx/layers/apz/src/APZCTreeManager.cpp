@@ -2183,7 +2183,10 @@ end
 {
 adoptedData
 =
-Move
+std
+:
+:
+move
 (
 it
 -
@@ -2219,7 +2222,10 @@ mTestData
 aLayersId
 ]
 =
-Move
+std
+:
+:
+move
 (
 adoptedData
 )
@@ -2459,7 +2465,10 @@ std
 make_pair
 (
 aOriginatingLayersId
-Move
+std
+:
+:
+move
 (
 ptr
 )
@@ -3676,7 +3685,10 @@ mMapLock
 ;
 mApzcMap
 =
-Move
+std
+:
+:
+move
 (
 state
 .

@@ -394,12 +394,6 @@ using
 mozilla
 :
 :
-Move
-;
-using
-mozilla
-:
-:
 Nothing
 ;
 using
@@ -8444,10 +8438,10 @@ insertFrames
 (
 cx
 frame
-mozilla
+std
 :
 :
-Move
+move
 (
 capture
 )

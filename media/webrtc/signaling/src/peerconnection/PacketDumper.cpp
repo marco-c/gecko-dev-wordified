@@ -385,7 +385,10 @@ return
 NS_OK
 ;
 }
-Move
+std
+:
+:
+move
 (
 ownedPacket
 )

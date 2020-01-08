@@ -208,7 +208,10 @@ SurfacePipe
 pipe
 ;
 return
-Move
+std
+:
+:
+move
 (
 pipe
 )
@@ -232,7 +235,10 @@ aPipeline
 return
 SurfacePipe
 {
-Move
+std
+:
+:
+move
 (
 aPipeline
 )

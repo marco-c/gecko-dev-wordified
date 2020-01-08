@@ -1344,7 +1344,10 @@ aClipRect
 )
 mGeometry
 (
-Move
+std
+:
+:
+move
 (
 aGeometry
 )
@@ -1782,7 +1785,10 @@ GetLayer
 (
 )
 clipRect
-Move
+std
+:
+:
+move
 (
 layer
 .

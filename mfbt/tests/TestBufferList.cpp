@@ -1534,10 +1534,10 @@ kSmallWrite
 ;
 bl
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 bl2
 )

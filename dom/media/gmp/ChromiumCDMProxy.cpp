@@ -1296,7 +1296,10 @@ aCreateSessionToken
 sessionType
 initDataType
 aPromiseId
-Move
+std
+:
+:
+move
 (
 aInitData
 )
@@ -1526,7 +1529,10 @@ ChromiumCDMParent
 :
 SetServerCertificate
 aPromiseId
-Move
+std
+:
+:
+move
 (
 aCert
 )
@@ -1676,7 +1682,10 @@ NS_ConvertUTF16toUTF8
 aSessionId
 )
 aPromiseId
-Move
+std
+:
+:
+move
 (
 aResponse
 )

@@ -6682,7 +6682,10 @@ match
 return
 LookupResult
 (
-Move
+std
+:
+:
+move
 (
 drawableSurface
 )
@@ -7094,7 +7097,10 @@ aAutoLock
 return
 LookupResult
 (
-Move
+std
+:
+:
+move
 (
 drawableSurface
 )
@@ -8217,7 +8223,10 @@ IsEmpty
 ;
 aDiscard
 =
-Move
+std
+:
+:
+move
 (
 mCachedSurfacesDiscard
 )
@@ -9416,7 +9425,10 @@ CachedSurface
 >
 discard
 (
-Move
+std
+:
+:
+move
 (
 mDiscard
 )

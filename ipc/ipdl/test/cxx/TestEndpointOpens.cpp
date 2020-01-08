@@ -482,10 +482,10 @@ NewRunnableFunction
 (
 OpenParent
 a
-mozilla
+std
 :
 :
-Move
+move
 (
 endpoint
 )
@@ -1114,10 +1114,10 @@ NewRunnableFunction
 (
 OpenChild
 a
-mozilla
+std
 :
 :
-Move
+move
 (
 child
 )

@@ -2151,7 +2151,10 @@ funcs
 >
 Analyze
 (
-Move
+std
+:
+:
+move
 (
 aWriteFunc
 )

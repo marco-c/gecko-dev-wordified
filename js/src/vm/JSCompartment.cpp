@@ -728,7 +728,10 @@ false
 ;
 iteratorSentinel_
 =
-Move
+std
+:
+:
+move
 (
 sentinel
 )
@@ -1183,7 +1186,10 @@ false
 ;
 jitRealm_
 =
-Move
+std
+:
+:
+move
 (
 jitRealm
 )
@@ -3626,7 +3632,10 @@ nullptr
 ;
 nonSyntacticLexicalEnvironments_
 =
-Move
+std
+:
+:
+move
 (
 map
 )
@@ -7160,7 +7169,10 @@ objects_
 .
 objectMetadataTable
 =
-Move
+std
+:
+:
+move
 (
 table
 )

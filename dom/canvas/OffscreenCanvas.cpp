@@ -972,7 +972,10 @@ screen
 >
 Morph
 (
-Move
+std
+:
+:
+move
 (
 factory
 )

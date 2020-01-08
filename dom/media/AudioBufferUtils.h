@@ -1126,7 +1126,10 @@ mChannels
 ;
 mBuffer
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .

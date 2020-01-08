@@ -2669,7 +2669,10 @@ regList
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 reg
 )

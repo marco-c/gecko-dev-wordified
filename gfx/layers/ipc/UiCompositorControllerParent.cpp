@@ -280,7 +280,10 @@ mUiControllerParent
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 controller
 )
@@ -356,7 +359,10 @@ UiCompositorControllerParent
 :
 :
 Open
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -1039,7 +1045,10 @@ mAnimator
 >
 AdoptToolbarPixels
 (
-Move
+std
+:
+:
+move
 (
 aMem
 )

@@ -3974,7 +3974,10 @@ patterns
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 pattern
 )
@@ -3996,7 +3999,10 @@ aGlobal
 GetAsSupports
 (
 )
-Move
+std
+:
+:
+move
 (
 patterns
 )

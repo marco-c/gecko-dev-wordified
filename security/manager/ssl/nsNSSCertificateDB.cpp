@@ -6532,7 +6532,10 @@ nssCertList
 new
 nsNSSCertList
 (
-Move
+std
+:
+:
+move
 (
 certList
 )
@@ -6897,7 +6900,10 @@ nssCertList
 new
 nsNSSCertList
 (
-Move
+std
+:
+:
+move
 (
 resultChain
 )

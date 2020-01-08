@@ -421,7 +421,10 @@ aThread
 )
 mCompositor
 (
-Move
+std
+:
+:
+move
 (
 aCompositor
 )

@@ -3254,7 +3254,10 @@ char
 >
 v2
 (
-Move
+std
+:
+:
+move
 (
 v1
 )
@@ -3363,7 +3366,10 @@ Destroyer
 >
 v4
 (
-Move
+std
+:
+:
+move
 (
 v3
 )
@@ -3386,7 +3392,10 @@ a
 ;
 v5
 =
-Move
+std
+:
+:
+move
 (
 v4
 )

@@ -1569,7 +1569,10 @@ ImageBitmapCloneData
 >
 cloneData
 =
-Move
+std
+:
+:
+move
 (
 imageBitmap
 .
@@ -3128,7 +3131,10 @@ return
 nullptr
 ;
 return
-Move
+std
+:
+:
+move
 (
 blob
 )

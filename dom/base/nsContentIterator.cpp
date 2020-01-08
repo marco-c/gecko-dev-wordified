@@ -203,12 +203,6 @@ using
 mozilla
 :
 :
-Move
-;
-using
-mozilla
-:
-:
 RawRangeBoundary
 ;
 /
@@ -6262,7 +6256,10 @@ NS_ERROR_UNEXPECTED
 }
 mRange
 =
-Move
+std
+:
+:
+move
 (
 range
 )

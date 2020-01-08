@@ -2125,7 +2125,10 @@ nullptr
 )
 mState
 (
-Move
+std
+:
+:
+move
 (
 aState
 )
@@ -2822,7 +2825,10 @@ aTrans
 {
 mTrans
 =
-Move
+std
+:
+:
+move
 (
 aTrans
 )
@@ -5127,7 +5133,10 @@ aActor
 >
 SetTransport
 (
-Move
+std
+:
+:
+move
 (
 t
 )

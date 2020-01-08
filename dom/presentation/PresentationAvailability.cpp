@@ -1014,7 +1014,10 @@ Promise
 >
 promises
 =
-Move
+std
+:
+:
+move
 (
 mPromises
 )

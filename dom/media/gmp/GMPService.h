@@ -518,7 +518,10 @@ GetDecryptingGMPVideoDecoder
 aHelper
 aTags
 aNodeId
-Move
+std
+:
+:
+move
 (
 aCallback
 )

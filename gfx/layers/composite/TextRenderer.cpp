@@ -1543,7 +1543,10 @@ mFonts
 aType
 ]
 =
-Move
+std
+:
+:
+move
 (
 cache
 )

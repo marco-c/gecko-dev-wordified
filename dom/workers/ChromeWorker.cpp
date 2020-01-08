@@ -402,7 +402,10 @@ aWorkerPrivate
 Worker
 (
 aGlobalObject
-Move
+std
+:
+:
+move
 (
 aWorkerPrivate
 )

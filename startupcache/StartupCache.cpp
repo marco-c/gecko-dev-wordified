@@ -1951,7 +1951,10 @@ return
 new
 CacheEntry
 (
-Move
+std
+:
+:
+move
 (
 inbuf
 )

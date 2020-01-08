@@ -302,7 +302,10 @@ aData
 :
 mData
 (
-Move
+std
+:
+:
+move
 (
 aData
 )
@@ -353,7 +356,10 @@ sharedData
 new
 SharedJSAllocatedData
 (
-Move
+std
+:
+:
+move
 (
 buf
 )
@@ -406,7 +412,10 @@ sharedData
 new
 SharedJSAllocatedData
 (
-Move
+std
+:
+:
+move
 (
 buf
 )

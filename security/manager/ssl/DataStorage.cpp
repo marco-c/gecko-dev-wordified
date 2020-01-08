@@ -1122,7 +1122,10 @@ aEntries
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 entry
 )
@@ -1338,7 +1341,10 @@ items
 (
 )
 =
-Move
+std
+:
+:
+move
 (
 e
 .
@@ -1359,7 +1365,10 @@ entries
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 entry
 )

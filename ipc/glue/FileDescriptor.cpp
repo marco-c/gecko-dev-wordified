@@ -266,10 +266,10 @@ INVALID_HANDLE
 *
 this
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 aOther
 )

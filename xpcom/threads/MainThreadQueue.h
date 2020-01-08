@@ -279,7 +279,10 @@ synchronizedQueue
 new
 SynchronizedQueueT
 (
-Move
+std
+:
+:
+move
 (
 queue
 )

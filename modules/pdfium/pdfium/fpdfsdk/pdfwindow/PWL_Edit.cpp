@@ -3666,7 +3666,10 @@ right
 =
 PWL_SCROLLBAR_WIDTH
 ;
-Move
+std
+:
+:
+move
 (
 rcWindow
 true
@@ -3695,7 +3698,10 @@ SetVisible
 false
 )
 ;
-Move
+std
+:
+:
+move
 (
 m_rcOldWindow
 true

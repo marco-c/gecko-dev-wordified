@@ -1866,7 +1866,10 @@ SVG_MARKER_ORIENT_ANGLE
 }
 aValue
 =
-Move
+std
+:
+:
+move
 (
 val
 )

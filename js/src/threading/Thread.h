@@ -769,10 +769,10 @@ or
 rvalue
 references
 (
-mozilla
+std
 :
 :
-Move
+move
 )
 .
 Attempting

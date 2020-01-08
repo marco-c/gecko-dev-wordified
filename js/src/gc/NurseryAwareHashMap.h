@@ -297,10 +297,10 @@ ReadBarrieredBase
 T
 >
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 v
 )

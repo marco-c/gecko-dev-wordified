@@ -1034,7 +1034,10 @@ mCanZeroPadList
 ;
 aValue
 =
-Move
+std
+:
+:
+move
 (
 val
 )
@@ -1419,7 +1422,10 @@ mCanZeroPadList
 ;
 val
 =
-Move
+std
+:
+:
+move
 (
 tmp
 )

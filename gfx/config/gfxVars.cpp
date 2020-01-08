@@ -463,7 +463,10 @@ nsTArray
 GfxVarUpdate
 >
 (
-Move
+std
+:
+:
+move
 (
 initUpdates
 )

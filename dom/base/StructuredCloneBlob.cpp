@@ -895,7 +895,10 @@ mBuffer
 >
 adopt
 (
-Move
+std
+:
+:
+move
 (
 data
 )

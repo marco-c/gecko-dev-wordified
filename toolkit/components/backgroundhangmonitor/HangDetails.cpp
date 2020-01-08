@@ -2409,7 +2409,10 @@ hangDetails
 new
 nsHangDetails
 (
-Move
+std
+:
+:
+move
 (
 mHangDetails
 )

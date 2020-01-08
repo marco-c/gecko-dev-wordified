@@ -2135,7 +2135,10 @@ newLocales
 {
 mRequestedLocales
 =
-Move
+std
+:
+:
+move
 (
 newLocales
 )
@@ -2255,7 +2258,10 @@ newLocales
 {
 mAppLocales
 =
-Move
+std
+:
+:
+move
 (
 newLocales
 )
@@ -5937,7 +5943,10 @@ mAvailableLocales
 {
 mAvailableLocales
 =
-Move
+std
+:
+:
+move
 (
 newLocales
 )

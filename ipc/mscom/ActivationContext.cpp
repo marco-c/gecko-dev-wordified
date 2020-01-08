@@ -934,7 +934,10 @@ aActCtx
 :
 mActCtx
 (
-Move
+std
+:
+:
+move
 (
 aActCtx
 )
@@ -969,7 +972,10 @@ Deactivate
 ;
 mActCtx
 =
-Move
+std
+:
+:
+move
 (
 aActCtx
 )
@@ -996,7 +1002,10 @@ aRgn
 :
 mActCtx
 (
-Move
+std
+:
+:
+move
 (
 aRgn
 .
@@ -1037,7 +1046,10 @@ Deactivate
 ;
 mActCtx
 =
-Move
+std
+:
+:
+move
 (
 aRgn
 .

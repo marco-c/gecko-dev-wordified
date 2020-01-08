@@ -301,7 +301,10 @@ Init
 [
 self
 =
-Move
+std
+:
+:
+move
 (
 self
 )

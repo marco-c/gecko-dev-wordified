@@ -478,7 +478,10 @@ mPromise
 .
 Reject
 (
-Move
+std
+:
+:
+move
 (
 failure
 )
@@ -616,7 +619,10 @@ mPromise
 .
 Reject
 (
-Move
+std
+:
+:
+move
 (
 failure
 )
@@ -638,7 +644,10 @@ mRawDatas
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 aData
 -

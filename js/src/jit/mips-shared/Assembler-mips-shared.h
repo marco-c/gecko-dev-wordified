@@ -8017,10 +8017,10 @@ JumpImmediate
 ;
 addCodeLabel
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 cl
 )

@@ -294,7 +294,10 @@ js
 SystemAllocPolicy
 >
 (
-Move
+std
+:
+:
+move
 (
 lastPtr
 )
@@ -416,7 +419,10 @@ js
 SystemAllocPolicy
 >
 (
-Move
+std
+:
+:
+move
 (
 lastPtr
 )

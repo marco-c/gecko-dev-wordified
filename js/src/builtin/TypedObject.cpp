@@ -13944,7 +13944,10 @@ realm
 .
 lazyArrayBuffers
 =
-Move
+std
+:
+:
+move
 (
 table
 )

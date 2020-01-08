@@ -1647,7 +1647,10 @@ ImgDrawResult
 :
 :
 NOT_READY
-Move
+std
+:
+:
+move
 (
 surface
 )
@@ -1952,7 +1955,10 @@ mCachedSurface
 GetDrawResult
 (
 )
-Move
+std
+:
+:
+move
 (
 surface
 )

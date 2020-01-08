@@ -8599,7 +8599,10 @@ return
 nullptr
 ;
 return
-Move
+std
+:
+:
+move
 (
 ret
 )
@@ -10524,7 +10527,10 @@ RGB16F
 /
 /
 return
-Move
+std
+:
+:
+move
 (
 ret
 )

@@ -339,7 +339,10 @@ get
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 entry
 )

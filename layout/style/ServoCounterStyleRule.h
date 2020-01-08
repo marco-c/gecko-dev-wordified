@@ -184,7 +184,10 @@ aColumn
 )
 mRawRule
 (
-Move
+std
+:
+:
+move
 (
 aRawRule
 )

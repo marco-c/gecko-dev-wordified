@@ -2119,7 +2119,10 @@ dstBegin
 *
 out_anchoredBuffer
 =
-Move
+std
+:
+:
+move
 (
 dstBuffer
 )

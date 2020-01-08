@@ -548,7 +548,10 @@ avail
 *
 buffer
 =
-Move
+std
+:
+:
+move
 (
 temp
 )

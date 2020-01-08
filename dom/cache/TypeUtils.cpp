@@ -2038,7 +2038,10 @@ ir
 >
 SetPrincipalInfo
 (
-Move
+std
+:
+:
+move
 (
 info
 )
@@ -2662,7 +2665,10 @@ ref
 new
 InternalHeaders
 (
-Move
+std
+:
+:
+move
 (
 entryList
 )
@@ -3429,7 +3435,10 @@ aStreamCleanupList
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 autoStream
 )

@@ -467,7 +467,10 @@ sct
 .
 logId
 =
-Move
+std
+:
+:
+move
 (
 logId
 )
@@ -478,7 +481,10 @@ verifiedScts
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 verifiedSct
 )

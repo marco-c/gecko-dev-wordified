@@ -237,7 +237,10 @@ aOther
 :
 mKey
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -246,7 +249,10 @@ mKey
 )
 mValue
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -327,7 +333,10 @@ aOther
 :
 mEntries
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .

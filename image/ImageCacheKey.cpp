@@ -525,7 +525,10 @@ aOther
 :
 mURI
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -534,7 +537,10 @@ mURI
 )
 mBlobSerial
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .

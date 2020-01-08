@@ -1958,7 +1958,10 @@ here
 *
 aSpecs
 =
-Move
+std
+:
+:
+move
 (
 specs
 )

@@ -1399,7 +1399,10 @@ key
 >
 matchPattern
 =
-Move
+std
+:
+:
+move
 (
 aMatch
 )
@@ -1409,7 +1412,10 @@ key
 >
 useExpr
 =
-Move
+std
+:
+:
+move
 (
 aUse
 )

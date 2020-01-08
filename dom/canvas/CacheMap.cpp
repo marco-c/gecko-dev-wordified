@@ -205,7 +205,10 @@ invalidators
 :
 mInvalidators
 (
-Move
+std
+:
+:
+move
 (
 invalidators
 )

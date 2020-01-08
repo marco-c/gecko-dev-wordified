@@ -1190,7 +1190,10 @@ nsISupports
 >
 parent
 (
-Move
+std
+:
+:
+move
 (
 mParent
 )
@@ -1202,7 +1205,10 @@ MutableBlobStorageCallback
 >
 callback
 (
-Move
+std
+:
+:
+move
 (
 mCallback
 )
@@ -1248,7 +1254,10 @@ MutableBlobStorageCallback
 >
 callback
 (
-Move
+std
+:
+:
+move
 (
 mCallback
 )

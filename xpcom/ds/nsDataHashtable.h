@@ -433,10 +433,10 @@ value
 .
 emplace
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 ent
 -

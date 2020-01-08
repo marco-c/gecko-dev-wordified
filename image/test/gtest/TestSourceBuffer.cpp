@@ -3892,7 +3892,10 @@ expect
 SourceBufferIterator
 movedIterator
 =
-Move
+std
+:
+:
+move
 (
 GetIterator
 (
@@ -3992,7 +3995,10 @@ expect
 .
 movedIterator
 =
-Move
+std
+:
+:
+move
 (
 GetIterator
 (

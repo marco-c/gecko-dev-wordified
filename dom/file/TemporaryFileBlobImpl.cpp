@@ -527,7 +527,10 @@ nsIFile
 >
 file
 =
-Move
+std
+:
+:
+move
 (
 mFile
 )

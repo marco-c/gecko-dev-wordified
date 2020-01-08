@@ -510,10 +510,10 @@ build
 endif
 mLaunchCompleteTask
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 aLaunchCompleteTask
 )

@@ -2268,7 +2268,10 @@ return
 }
 SendWrite
 (
-Move
+std
+:
+:
+move
 (
 aData
 )
@@ -3134,7 +3137,10 @@ Suspended
 :
 BufferData
 (
-Move
+std
+:
+:
+move
 (
 aData
 )
@@ -3150,7 +3156,10 @@ Disconnecting
 :
 SendWrite
 (
-Move
+std
+:
+:
+move
 (
 aData
 )

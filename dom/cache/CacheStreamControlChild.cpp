@@ -711,7 +711,10 @@ aStreamCleanupList
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 autoStream
 )

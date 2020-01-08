@@ -181,7 +181,10 @@ aFontInflation
 :
 mInnerTransformingTextRunFactory
 (
-Move
+std
+:
+:
+move
 (
 aInnerTransformingTextRunFactory
 )

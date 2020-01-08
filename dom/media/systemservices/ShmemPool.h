@@ -243,7 +243,10 @@ mInitialized
 ;
 mShmem
 =
-Move
+std
+:
+:
+move
 (
 rhs
 .
@@ -286,7 +289,10 @@ mInitialized
 ;
 mShmem
 =
-Move
+std
+:
+:
+move
 (
 rhs
 .
@@ -927,7 +933,10 @@ mMaxPoolUse
 #
 endif
 return
-Move
+std
+:
+:
+move
 (
 res
 )

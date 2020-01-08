@@ -2178,7 +2178,10 @@ Note
 CreateSession
 (
 )
-Move
+std
+:
+:
+move
 (
 )
 s
@@ -3277,7 +3280,10 @@ Note
 UpdateSession
 (
 )
-Move
+std
+:
+:
+move
 (
 )
 s

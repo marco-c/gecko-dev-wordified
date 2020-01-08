@@ -3338,7 +3338,10 @@ Nothing
 return
 Some
 (
-Move
+std
+:
+:
+move
 (
 other
 )
@@ -5215,7 +5218,10 @@ needed
 State
 nextState
 =
-Move
+std
+:
+:
+move
 (
 *
 mYieldingToState

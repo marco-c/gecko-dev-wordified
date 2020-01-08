@@ -558,10 +558,10 @@ aOther
 :
 nsTArray
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aOther
 )

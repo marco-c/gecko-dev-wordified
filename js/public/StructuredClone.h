@@ -3098,10 +3098,10 @@ scope
 :
 bufList_
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 buffers
 )
@@ -3138,10 +3138,10 @@ buffers
 :
 JSStructuredCloneData
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 buffers
 )

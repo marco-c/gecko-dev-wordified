@@ -221,7 +221,10 @@ mDecls
 new
 DeclarationBlock
 (
-Move
+std
+:
+:
+move
 (
 aDecls
 )
@@ -609,7 +612,10 @@ aColumn
 )
 mRawRule
 (
-Move
+std
+:
+:
+move
 (
 aRawRule
 )

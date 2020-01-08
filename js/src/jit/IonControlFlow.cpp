@@ -741,10 +741,10 @@ blocks_
 .
 infallibleAppend
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 block
 )

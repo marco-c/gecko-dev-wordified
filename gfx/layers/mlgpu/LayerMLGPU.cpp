@@ -459,7 +459,10 @@ AddBoundsToView
 (
 aBuilder
 aView
-Move
+std
+:
+:
+move
 (
 aGeometry
 )
@@ -506,7 +509,10 @@ AddItem
 (
 this
 bounds
-Move
+std
+:
+:
+move
 (
 aGeometry
 )
@@ -700,7 +706,10 @@ aRegion
 {
 mRenderRegion
 =
-Move
+std
+:
+:
+move
 (
 aRegion
 )

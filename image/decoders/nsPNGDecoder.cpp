@@ -1377,7 +1377,10 @@ NS_ERROR_FAILURE
 }
 mPipe
 =
-Move
+std
+:
+:
+move
 (
 *
 pipe

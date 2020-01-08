@@ -236,7 +236,10 @@ geometry
 (
 Some
 (
-Move
+std
+:
+:
+move
 (
 aGeometry
 )
@@ -277,7 +280,10 @@ geometry
 .
 emplace
 (
-Move
+std
+:
+:
+move
 (
 aPoints
 )

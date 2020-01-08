@@ -968,7 +968,10 @@ aTask
 {
 PostDelayedTask
 (
-Move
+std
+:
+:
+move
 (
 aTask
 )
@@ -1032,7 +1035,10 @@ mThread
 >
 Dispatch
 (
-Move
+std
+:
+:
+move
 (
 aTask
 )
@@ -1047,7 +1053,10 @@ mThread
 >
 DelayedDispatch
 (
-Move
+std
+:
+:
+move
 (
 aTask
 )

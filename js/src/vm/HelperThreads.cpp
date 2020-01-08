@@ -8955,7 +8955,10 @@ worklist
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 pending
 [
@@ -12501,7 +12504,10 @@ locked
 ;
 task
 =
-Move
+std
+:
+:
+move
 (
 worklist
 .
@@ -12576,7 +12582,10 @@ locked
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 task
 )
@@ -12668,7 +12677,10 @@ pending
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 task
 )

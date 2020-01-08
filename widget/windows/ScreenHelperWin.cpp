@@ -633,7 +633,10 @@ screens
 InsertElementAt
 (
 0
-Move
+std
+:
+:
+move
 (
 screen
 )
@@ -647,7 +650,10 @@ screens
 >
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 screen
 )
@@ -742,7 +748,10 @@ screenManager
 .
 Refresh
 (
-Move
+std
+:
+:
+move
 (
 screens
 )

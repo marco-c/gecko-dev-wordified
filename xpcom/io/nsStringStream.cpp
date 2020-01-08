@@ -547,7 +547,10 @@ mData
 .
 Assign
 (
-Move
+std
+:
+:
+move
 (
 aString
 )
@@ -2109,7 +2112,10 @@ stream
 >
 Init
 (
-Move
+std
+:
+:
+move
 (
 aStringToRead
 )

@@ -1348,7 +1348,10 @@ entries
 .
 mReturnIterator
 =
-Move
+std
+:
+:
+move
 (
 mLexer
 .
@@ -1513,7 +1516,10 @@ saved
 .
 mIterator
 =
-Move
+std
+:
+:
+move
 (
 mLexer
 .
@@ -2653,7 +2659,10 @@ DecoderType
 :
 :
 PNG
-Move
+std
+:
+:
+move
 (
 containedIterator
 .
@@ -3162,7 +3171,10 @@ DecoderType
 :
 :
 BMP
-Move
+std
+:
+:
+move
 (
 containedIterator
 .

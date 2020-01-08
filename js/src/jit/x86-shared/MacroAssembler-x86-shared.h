@@ -300,10 +300,10 @@ value
 )
 uses
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 other
 .
@@ -459,10 +459,10 @@ Constant
 SimdConstant
 >
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 d
 )
