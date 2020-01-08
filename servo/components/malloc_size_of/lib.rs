@@ -1291,6 +1291,7 @@ usize
 <
 =
 256
+;
 }
 /
 /
@@ -5998,14 +5999,12 @@ attr_selector
 )
 =
 >
-{
 attr_selector
 .
 size_of
 (
 ops
 )
-}
 Component
 :
 :
@@ -6016,14 +6015,12 @@ components
 )
 =
 >
-{
 components
 .
 size_of
 (
 ops
 )
-}
 Component
 :
 :
@@ -6034,7 +6031,6 @@ pseudo
 )
 =
 >
-{
 (
 *
 pseudo
@@ -6044,7 +6040,6 @@ size_of
 (
 ops
 )
-}
 Component
 :
 :
@@ -6085,7 +6080,6 @@ pseudo
 )
 =
 >
-{
 (
 *
 pseudo
@@ -6095,7 +6089,6 @@ size_of
 (
 ops
 )
-}
 Component
 :
 :
@@ -6692,6 +6685,11 @@ atomic
 :
 :
 AtomicIsize
+)
+;
+malloc_size_of_is_0
+!
+(
 std
 :
 :
