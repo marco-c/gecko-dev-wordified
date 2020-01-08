@@ -119,13 +119,6 @@ with
 the
 PromiseActor
 await
-attachTarget
-(
-client
-parentProcessActors
-)
-;
-await
 testAttach
 (
 client
@@ -168,13 +161,6 @@ target
 tab
 .
 "
-)
-;
-await
-attachTarget
-(
-client
-targetTab
 )
 ;
 await

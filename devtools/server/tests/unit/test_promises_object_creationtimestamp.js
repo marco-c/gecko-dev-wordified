@@ -226,13 +226,6 @@ with
 the
 PromiseActor
 await
-attachTarget
-(
-client
-parentProcessActors
-)
-;
-await
 testPromiseCreationTimestamp
 (
 client
