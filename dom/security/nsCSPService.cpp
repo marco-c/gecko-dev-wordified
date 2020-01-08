@@ -2132,6 +2132,19 @@ nsIContentPolicy
 :
 ACCEPT
 ;
+nsCOMPtr
+<
+nsISupports
+>
+requestContext
+=
+loadInfo
+-
+>
+GetLoadingContext
+(
+)
+;
 /
 /
 1
@@ -2206,7 +2219,7 @@ nullptr
 /
 /
 nsIURI
-nullptr
+requestContext
 /
 /
 nsISupports
@@ -2347,7 +2360,7 @@ nullptr
 /
 /
 nsIURI
-nullptr
+requestContext
 /
 /
 nsISupports
