@@ -59,6 +59,12 @@ localpaths
 import
 repo_root
 from
+six
+.
+moves
+import
+reload_module
+from
 manifest
 .
 sourcefile
@@ -66,6 +72,12 @@ import
 read_script_metadata
 js_meta_re
 parse_variants
+from
+mozlog
+.
+structuredlog
+import
+StructuredLogger
 from
 wptserve
 import
@@ -5058,17 +5070,26 @@ logging
 module
 unlocked
     
+reload_module
+(
+logging
+)
+    
 try
 :
         
-logging
+StructuredLogger
 .
-_releaseLock
+_lock
+.
+release
 (
 )
     
 except
-RuntimeError
+threading
+.
+ThreadError
 :
         
 pass
@@ -5143,17 +5164,26 @@ logging
 module
 unlocked
     
+reload_module
+(
+logging
+)
+    
 try
 :
         
-logging
+StructuredLogger
 .
-_releaseLock
+_lock
+.
+release
 (
 )
     
 except
-RuntimeError
+threading
+.
+ThreadError
 :
         
 pass
