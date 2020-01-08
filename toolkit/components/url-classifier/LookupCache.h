@@ -523,13 +523,6 @@ expired
 bool
 mConfirmed
 ;
-/
-/
-TODO
-:
-Is
-this
-necessary
 bool
 mProtocolV2
 ;
