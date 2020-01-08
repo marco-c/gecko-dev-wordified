@@ -4256,6 +4256,8 @@ nativeTab
 if
 (
 !
+createProperties
+.
 url
 )
 {
