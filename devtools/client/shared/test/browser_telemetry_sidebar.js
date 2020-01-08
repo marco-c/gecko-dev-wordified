@@ -160,7 +160,7 @@ computedview
 newpanel
 :
 "
-newanimationinspector
+animationinspector
 "
 }
 }
@@ -194,7 +194,7 @@ extra
 oldpanel
 :
 "
-newanimationinspector
+animationinspector
 "
 newpanel
 :
@@ -316,7 +316,7 @@ computedview
 newpanel
 :
 "
-newanimationinspector
+animationinspector
 "
 }
 }
@@ -350,7 +350,7 @@ extra
 oldpanel
 :
 "
-newanimationinspector
+animationinspector
 "
 newpanel
 :
@@ -615,7 +615,7 @@ layoutview
 fontinspector
 "
 "
-newanimationinspector
+animationinspector
 "
 ]
 ;

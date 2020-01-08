@@ -6777,7 +6777,7 @@ const
 animationId
 =
 "
-newanimationinspector
+animationinspector
 "
 ;
 const
