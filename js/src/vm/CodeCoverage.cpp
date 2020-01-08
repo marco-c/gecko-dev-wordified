@@ -199,7 +199,7 @@ include
 "
 vm
 /
-JSCompartment
+JSScript
 .
 h
 "
@@ -208,7 +208,7 @@ include
 "
 vm
 /
-JSScript
+Realm
 .
 h
 "

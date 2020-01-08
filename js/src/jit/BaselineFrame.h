@@ -315,7 +315,7 @@ isDebuggee
 in
 vm
 /
-JSCompartment
+Realm
 .
 h
 for

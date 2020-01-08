@@ -2074,7 +2074,7 @@ above
 isDebuggee
 '
 in
-JSCompartment
+Realm
 .
 h
 for

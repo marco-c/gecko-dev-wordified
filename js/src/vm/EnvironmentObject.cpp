@@ -178,7 +178,7 @@ include
 "
 vm
 /
-JSCompartment
+ProxyObject
 .
 h
 "
@@ -187,7 +187,7 @@ include
 "
 vm
 /
-ProxyObject
+Realm
 .
 h
 "

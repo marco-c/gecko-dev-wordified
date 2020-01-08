@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-vm_JSCompartment_h
+vm_Realm_h
 #
 define
-vm_JSCompartment_h
+vm_Realm_h
 #
 include
 "
@@ -10515,6 +10515,6 @@ JS
 endif
 /
 *
-vm_JSCompartment_h
+vm_Realm_h
 *
 /

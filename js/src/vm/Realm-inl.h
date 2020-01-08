@@ -110,16 +110,16 @@ MPL
 /
 #
 ifndef
-vm_JSCompartment_inl_h
+vm_Realm_inl_h
 #
 define
-vm_JSCompartment_inl_h
+vm_Realm_inl_h
 #
 include
 "
 vm
 /
-JSCompartment
+Realm
 .
 h
 "
@@ -1260,6 +1260,6 @@ true
 endif
 /
 *
-vm_JSCompartment_inl_h
+vm_Realm_inl_h
 *
 /

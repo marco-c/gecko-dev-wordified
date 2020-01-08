@@ -146,7 +146,7 @@ include
 "
 vm
 /
-JSCompartment
+Probes
 .
 h
 "
@@ -155,7 +155,7 @@ include
 "
 vm
 /
-Probes
+Realm
 .
 h
 "

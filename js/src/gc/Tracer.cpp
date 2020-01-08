@@ -251,7 +251,7 @@ include
 "
 vm
 /
-JSCompartment
+ObjectGroup
 -
 inl
 .
@@ -262,7 +262,7 @@ include
 "
 vm
 /
-ObjectGroup
+Realm
 -
 inl
 .
