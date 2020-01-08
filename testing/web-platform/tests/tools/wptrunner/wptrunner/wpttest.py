@@ -1653,6 +1653,9 @@ False
 jsshell
 =
 False
+scripts
+=
+None
 )
 :
         
@@ -1682,6 +1685,15 @@ self
 jsshell
 =
 jsshell
+        
+self
+.
+scripts
+=
+scripts
+or
+[
+]
     
 classmethod
     
@@ -1768,6 +1780,38 @@ jsshell
 else
 False
         
+script_metadata
+=
+manifest_item
+.
+source_file
+.
+script_metadata
+or
+[
+]
+        
+scripts
+=
+[
+v
+for
+(
+k
+v
+)
+in
+script_metadata
+if
+k
+=
+=
+b
+"
+script
+"
+]
+        
 return
 cls
 (
@@ -1808,6 +1852,10 @@ testdriver
 jsshell
 =
 jsshell
+                   
+scripts
+=
+scripts
 )
     
 property
