@@ -466,6 +466,8 @@ mPixmap
 ;
 bool
 mOwnsContext
+=
+true
 ;
 }
 ;

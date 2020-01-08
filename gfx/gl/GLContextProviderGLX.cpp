@@ -3863,10 +3863,6 @@ mPixmap
 (
 aPixmap
 )
-mOwnsContext
-(
-true
-)
 {
 }
 static

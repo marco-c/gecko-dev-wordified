@@ -323,6 +323,8 @@ public
 :
 bool
 mIsDoubleBuffered
+=
+false
 ;
 }
 ;
