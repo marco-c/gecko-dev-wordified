@@ -762,10 +762,6 @@ nsStaticAtom
 constexpr
 nsAtom
 (
-const
-char16_t
-*
-aStr
 uint32_t
 aLength
 uint32_t
@@ -1051,10 +1047,6 @@ match
 constexpr
 nsStaticAtom
 (
-const
-char16_t
-*
-aStr
 uint32_t
 aLength
 uint32_t
@@ -1065,7 +1057,6 @@ aStringOffset
 :
 nsAtom
 (
-aStr
 aLength
 aHash
 )

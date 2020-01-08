@@ -325,10 +325,6 @@ nsStaticAtom
 (
 /
 /
-u
-"
-a
-"
 1
 0x01234567
 /
@@ -370,10 +366,6 @@ nsStaticAtom
 (
 /
 /
-u
-"
-bb
-"
 2
 0x12345678
 /
@@ -415,10 +407,6 @@ nsStaticAtom
 (
 /
 /
-u
-"
-ccc
-"
 3
 0x23456789
 /
@@ -468,10 +456,6 @@ atom_type_
 nsStaticAtom
 (
 \
-u
-"
-"
-value_
 sizeof
 (
 value_
