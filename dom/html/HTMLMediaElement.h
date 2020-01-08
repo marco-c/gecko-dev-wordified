@@ -7236,7 +7236,7 @@ start
 playback
 .
 bool
-IsAllowedToPlay
+AudioChannelAgentBlockedPlay
 (
 )
 ;
