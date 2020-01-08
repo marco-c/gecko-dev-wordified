@@ -152,6 +152,9 @@ namespace
 dom
 {
 class
+BrowsingContext
+;
+class
 ContentParent
 ;
 class
@@ -269,6 +272,13 @@ IdType
 ContentParent
 >
 ContentParentId
+;
+typedef
+IdType
+<
+BrowsingContext
+>
+BrowsingContextId
 ;
 }
 /

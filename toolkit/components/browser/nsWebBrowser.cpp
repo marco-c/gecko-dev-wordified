@@ -6923,6 +6923,14 @@ SetTreeOwner
 mDocShellTreeOwner
 )
 ;
+mDocShell
+-
+>
+AttachBrowsingContext
+(
+nullptr
+)
+;
 /
 /
 If

@@ -1226,6 +1226,14 @@ nsIDocShellTreeItem
 typeChrome
 )
 ;
+mDocShell
+-
+>
+AttachBrowsingContext
+(
+nullptr
+)
+;
 r
 .
 MoveTo
