@@ -2470,7 +2470,6 @@ we
 should
 remove
 .
-pub
 fn
 frame_message
 (
@@ -2518,7 +2517,6 @@ low_priority
 false
 }
 }
-pub
 fn
 scene_message
 (
