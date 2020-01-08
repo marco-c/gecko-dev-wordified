@@ -1278,9 +1278,6 @@ actions
 :
 [
 '
-download_input
-'
-'
 setup
 '
 '
