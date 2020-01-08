@@ -1613,16 +1613,6 @@ nsSSLIOLayerFreeTLSIntolerantSites
 (
 )
 ;
-nsresult
-displayUnknownCertErrorAlert
-(
-nsNSSSocketInfo
-*
-infoObject
-int
-error
-)
-;
 #
 endif
 /
