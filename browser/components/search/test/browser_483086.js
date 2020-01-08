@@ -228,6 +228,7 @@ test
 .
 xml
 "
+null
 "
 data
 :
@@ -404,6 +405,7 @@ test
 .
 xml
 "
+null
 "
 data
 :
