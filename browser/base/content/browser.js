@@ -21802,6 +21802,17 @@ break
 ;
 case
 "
+advancedPanelReturnButton
+"
+:
+goBackFromErrorPage
+(
+)
+;
+break
+;
+case
+"
 advancedButton
 "
 :
