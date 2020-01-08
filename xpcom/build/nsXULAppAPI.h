@@ -2432,6 +2432,9 @@ int
 mPrefsFd
 ;
 int
+mPrefMapFd
+;
+int
 mIpcFd
 ;
 int
