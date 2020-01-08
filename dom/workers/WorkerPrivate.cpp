@@ -25273,10 +25273,10 @@ return
 uint32_t
 cancelingTimeoutMillis
 =
-DOMPrefs
+StaticPrefs
 :
 :
-WorkerCancelingTimeoutMillis
+dom_worker_canceling_timeoutMilliseconds
 (
 )
 ;
