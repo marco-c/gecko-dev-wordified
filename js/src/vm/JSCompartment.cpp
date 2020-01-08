@@ -394,14 +394,6 @@ runtimeFromAnyThread
 (
 )
 )
-data
-(
-nullptr
-)
-gcIncomingGrayPointers
-(
-nullptr
-)
 {
 runtime_
 -
@@ -5308,7 +5300,7 @@ sweepAfterMinorGC
 ;
 }
 void
-JSCompartment
+Realm
 :
 :
 sweepSavedStacks

@@ -2060,8 +2060,12 @@ clear
 void
 chooseSamplingProbability
 (
-JSCompartment
+JS
+:
+:
+Realm
 *
+realm
 )
 ;
 /

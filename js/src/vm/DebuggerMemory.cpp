@@ -2145,7 +2145,7 @@ all
 debuggee
 /
 /
-compartments
+realms
 recompute
 their
 sampling
@@ -2199,7 +2199,7 @@ front
 )
 -
 >
-compartment
+realm
 (
 )
 -
