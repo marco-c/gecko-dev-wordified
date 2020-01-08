@@ -4220,8 +4220,6 @@ for
 /
 /
 VRSystemManagerExternal
-return
-;
 }
 void
 VRSystemManagerExternal
@@ -4243,8 +4241,6 @@ for
 /
 /
 VRSystemManagerExternal
-return
-;
 }
 void
 VRSystemManagerExternal

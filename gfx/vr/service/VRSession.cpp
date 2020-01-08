@@ -53,15 +53,6 @@ false
 )
 {
 }
-VRSession
-:
-:
-~
-VRSession
-(
-)
-{
-}
 #
 if
 defined
