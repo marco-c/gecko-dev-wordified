@@ -70443,7 +70443,6 @@ id
 "
 [
 none
-auto
 subgrid
 min
 -
