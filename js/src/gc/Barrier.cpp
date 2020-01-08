@@ -1415,6 +1415,17 @@ JSScript
 >
 )
 ;
+template
+struct
+JS_PUBLIC_API
+(
+MovableCellHasher
+<
+LazyScript
+*
+>
+)
+;
 #
 ifdef
 JS_BROKEN_GCC_ATTRIBUTE_WARNING
