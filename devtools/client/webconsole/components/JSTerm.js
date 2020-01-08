@@ -9132,12 +9132,6 @@ destroy
 {
 this
 .
-clearCompletion
-(
-)
-;
-this
-.
 webConsoleClient
 .
 clearNetworkRequests

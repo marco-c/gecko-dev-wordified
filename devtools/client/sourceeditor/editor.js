@@ -9169,6 +9169,15 @@ AUTOCOMPLETE_MARK_CLASSNAME
 ;
 cm
 .
+operation
+(
+(
+)
+=
+>
+{
+cm
+.
 getAllMarks
 (
 )
@@ -9232,6 +9241,9 @@ text
 )
 ;
 }
+}
+)
+;
 }
 /
 *
