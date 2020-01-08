@@ -281,6 +281,15 @@ nsAString
 aRequestId
 )
 ;
+nsresult
+ShowPayment
+(
+const
+nsAString
+&
+aRequestId
+)
+;
 bool
 IsBasicCardPayment
 (
