@@ -152,13 +152,6 @@ included
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

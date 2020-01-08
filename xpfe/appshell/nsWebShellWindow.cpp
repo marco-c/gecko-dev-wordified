@@ -299,13 +299,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIDocumentLoaderFactory
 .
 h
