@@ -9229,11 +9229,6 @@ config
 =
 FrameBuilderConfig
 {
-enable_scrollbars
-:
-options
-.
-enable_scrollbars
 default_font_render_mode
 dual_source_blending_is_enabled
 :
@@ -9510,6 +9505,13 @@ size_of_op
 options
 .
 size_of_op
+;
+let
+namespace_alloc_by_client
+=
+options
+.
+namespace_alloc_by_client
 ;
 let
 blob_image_handler
@@ -9984,6 +9986,7 @@ config
 recorder
 sampler
 size_of_op
+namespace_alloc_by_client
 )
 ;
 backend
@@ -26406,10 +26409,6 @@ max_recorded_profiles
 :
 usize
 pub
-enable_scrollbars
-:
-bool
-pub
 precache_shaders
 :
 bool
@@ -26555,6 +26554,10 @@ pub
 support_low_priority_transactions
 :
 bool
+pub
+namespace_alloc_by_client
+:
+bool
 }
 impl
 Default
@@ -26596,9 +26599,6 @@ empty
 max_recorded_profiles
 :
 0
-enable_scrollbars
-:
-false
 precache_shaders
 :
 false
@@ -26744,6 +26744,9 @@ ChasePrimitive
 :
 Nothing
 support_low_priority_transactions
+:
+false
+namespace_alloc_by_client
 :
 false
 }
