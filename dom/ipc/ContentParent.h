@@ -1114,6 +1114,15 @@ ContentParent
 aArray
 )
 ;
+static
+void
+BroadcastStringBundle
+(
+const
+StringBundleDescriptor
+&
+)
+;
 const
 nsAString
 &
