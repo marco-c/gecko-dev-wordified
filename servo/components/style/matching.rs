@@ -4089,7 +4089,7 @@ is_root
 !
 self
 .
-is_native_anonymous
+is_in_native_anonymous_subtree
 (
 )
 {
