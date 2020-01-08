@@ -219,6 +219,11 @@ Date
 now
 (
 )
+.
+toString
+(
+16
+)
 )
 ;
 typeText
