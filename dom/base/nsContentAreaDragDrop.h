@@ -519,6 +519,9 @@ SaveURIToFile
 nsIURI
 *
 inSourceURI
+nsIPrincipal
+*
+inTriggeringPrincipal
 nsIFile
 *
 inDestFile
