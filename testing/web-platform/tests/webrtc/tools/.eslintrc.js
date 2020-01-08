@@ -89,7 +89,7 @@ true
 assert_idl_attribute
 :
 true
-assert_exists
+assert_own_property
 :
 true
 assert_greater_than
