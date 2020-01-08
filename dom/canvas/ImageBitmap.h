@@ -757,16 +757,6 @@ ErrorResult
 aRv
 )
 ;
-int32_t
-MappedDataLength
-(
-ImageBitmapFormat
-aFormat
-ErrorResult
-&
-aRv
-)
-;
 size_t
 GetAllocatedSize
 (
