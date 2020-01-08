@@ -25586,6 +25586,10 @@ tooltipNode
 ;
 if
 (
+!
+tab
+|
+|
 tab
 .
 localName
