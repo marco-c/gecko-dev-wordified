@@ -55648,10 +55648,8 @@ kNameSpaceID_XUL
 ;
 }
 }
-RefPtr
-<
 nsAtom
->
+*
 tagAtom
 =
 nodeInfo
@@ -55661,11 +55659,11 @@ NameAtom
 (
 )
 ;
-RefPtr
-<
 nsAtom
->
+*
 typeAtom
+=
+nullptr
 ;
 bool
 isCustomElement
@@ -55685,10 +55683,6 @@ typeAtom
 isCustomElementName
 ?
 tagAtom
-.
-get
-(
-)
 :
 aIsAtom
 ;
