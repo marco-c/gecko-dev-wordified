@@ -709,12 +709,6 @@ mFrameLoader
 ;
 RefPtr
 <
-ContainerLayer
->
-mContainer
-;
-RefPtr
-<
 LayerManager
 >
 mLayerManager
