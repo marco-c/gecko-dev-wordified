@@ -15968,7 +15968,11 @@ activeTab
 .
 switchToFrame
 (
+{
+windowId
+:
 frameId
+}
 )
 ;
 }
