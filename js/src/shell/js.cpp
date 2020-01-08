@@ -27183,7 +27183,7 @@ else
 JSAutoByteString
 printable
 ;
-JS_ReportErrorASCII
+JS_ReportErrorUTF8
 (
 cx
 "
@@ -27197,6 +27197,8 @@ expected
 multipart
 '
 or
+"
+"
 '
 simple
 '
