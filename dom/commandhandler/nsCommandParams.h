@@ -504,6 +504,7 @@ mEntryType
 )
 ;
 }
+explicit
 HashEntry
 (
 const

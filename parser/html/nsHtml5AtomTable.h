@@ -111,8 +111,8 @@ aStr
 ;
 nsHtml5AtomEntry
 (
-const
 nsHtml5AtomEntry
+&
 &
 aOther
 )
