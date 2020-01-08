@@ -6826,7 +6826,7 @@ NS_UnescapeURL
 buf
 )
 ;
-CopyASCIItoUTF16
+CopyUTF8toUTF16
 (
 buf
 userBuf
@@ -6855,7 +6855,7 @@ NS_UnescapeURL
 buf
 )
 ;
-CopyASCIItoUTF16
+CopyUTF8toUTF16
 (
 buf
 passBuf
