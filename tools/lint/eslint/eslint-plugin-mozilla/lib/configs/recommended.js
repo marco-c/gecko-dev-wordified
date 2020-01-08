@@ -103,11 +103,6 @@ BroadcastChannel
 :
 false
 "
-BrowserFeedWriter
-"
-:
-false
-"
 CSSAnimation
 "
 :
