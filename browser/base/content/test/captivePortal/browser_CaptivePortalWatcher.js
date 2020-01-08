@@ -209,7 +209,7 @@ win
 )
 ;
 await
-closeWindowAndWaitForXulWindowVisible
+closeWindowAndWaitForWindowActivate
 (
 win
 )
@@ -398,7 +398,7 @@ win2
 )
 ;
 await
-closeWindowAndWaitForXulWindowVisible
+closeWindowAndWaitForWindowActivate
 (
 win2
 )
@@ -560,7 +560,7 @@ win
 )
 ;
 await
-closeWindowAndWaitForXulWindowVisible
+closeWindowAndWaitForWindowActivate
 (
 win
 )
@@ -678,7 +678,7 @@ win
 )
 ;
 await
-closeWindowAndWaitForXulWindowVisible
+closeWindowAndWaitForWindowActivate
 (
 win
 )
@@ -785,13 +785,13 @@ win2
 )
 ;
 await
-closeWindowAndWaitForXulWindowVisible
+closeWindowAndWaitForWindowActivate
 (
 win2
 )
 ;
 await
-closeWindowAndWaitForXulWindowVisible
+closeWindowAndWaitForWindowActivate
 (
 win1
 )

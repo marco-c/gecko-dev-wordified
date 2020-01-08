@@ -566,14 +566,9 @@ values
 let
 tabsRestoredLabels
 =
-[
-.
-.
-.
 BrowserWindowTracker
 .
 orderedWindows
-]
 .
 map
 (
