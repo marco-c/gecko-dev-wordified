@@ -1001,7 +1001,7 @@ debugger
 implementation
 .
 return
-expression
+null
 ;
 }
 isPaused
