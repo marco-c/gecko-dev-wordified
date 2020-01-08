@@ -2806,7 +2806,7 @@ mPendingOtherFamilyNameTask
 =
 task
 ;
-NS_IdleDispatchToCurrentThread
+NS_IdleDispatchToMainThread
 (
 task
 .
