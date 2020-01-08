@@ -876,6 +876,16 @@ fontsApp
 FontsApp
 (
 {
+fontEditorEnabled
+:
+Services
+.
+prefs
+.
+getBoolPref
+(
+PREF_FONT_EDITOR
+)
 onInstanceChange
 :
 this
