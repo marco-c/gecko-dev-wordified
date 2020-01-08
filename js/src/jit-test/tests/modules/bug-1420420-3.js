@@ -1,5 +1,14 @@
+/
+/
+|
+jit
+-
+test
+|
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -8,11 +17,6 @@ stackTest
 in
 this
 )
-)
-quit
-(
-)
-;
 let
 a
 =
