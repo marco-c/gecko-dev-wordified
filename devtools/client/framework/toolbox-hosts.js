@@ -946,7 +946,7 @@ hostTab
 ;
 this
 .
-hostType
+type
 =
 hostType
 ;
