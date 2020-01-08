@@ -1466,9 +1466,7 @@ gpu_required
 default
 "
 :
-"
 False
-"
             
 "
 help
