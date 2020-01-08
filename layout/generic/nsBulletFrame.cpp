@@ -1123,6 +1123,16 @@ mDest
 (
 dest
 )
+mColor
+(
+NS_RGBA
+(
+0
+0
+0
+0
+)
+)
 mListStyleType
 (
 NS_STYLE_LIST_STYLE_NONE

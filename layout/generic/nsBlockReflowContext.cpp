@@ -236,6 +236,10 @@ mOuterReflowInput
 (
 aParentRI
 )
+mFrame
+(
+nullptr
+)
 mSpace
 (
 aParentRI
@@ -243,6 +247,14 @@ aParentRI
 GetWritingMode
 (
 )
+)
+mICoord
+(
+0
+)
+mBCoord
+(
+0
 )
 mMetrics
 (

@@ -1072,6 +1072,10 @@ mPrevContent
 (
 nullptr
 )
+mPrevFrame
+(
+nullptr
+)
 #
 ifdef
 DEBUG
@@ -14869,6 +14873,14 @@ aFontMetrics
 mPt
 (
 aPt
+)
+mText
+(
+nullptr
+)
+mLength
+(
+0
 )
 {
 }

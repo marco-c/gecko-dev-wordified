@@ -428,6 +428,10 @@ mBuilder
 (
 nullptr
 )
+mOldCurrentItem
+(
+nullptr
+)
 {
 }
 void
