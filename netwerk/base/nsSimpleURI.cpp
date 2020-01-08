@@ -3286,7 +3286,7 @@ newRef
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsSimpleURI
 :
 :

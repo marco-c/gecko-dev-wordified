@@ -2962,7 +2962,11 @@ do_check_uri_eq
 URI
 URI
 .
-clone
+mutate
+(
+)
+.
+finalize
 (
 )
 )
@@ -3522,7 +3526,11 @@ do_check_uri_eq
 testURI
 testURI
 .
-clone
+mutate
+(
+)
+.
+finalize
 (
 )
 )

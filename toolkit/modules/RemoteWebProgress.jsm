@@ -209,10 +209,6 @@ return
 this
 .
 _uri
-.
-clone
-(
-)
 ;
 }
 get
@@ -224,10 +220,6 @@ return
 this
 .
 _originalURI
-.
-clone
-(
-)
 ;
 }
 get
