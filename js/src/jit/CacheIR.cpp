@@ -31531,6 +31531,16 @@ rhs
 rhsVal_
 )
 ;
+sp
+.
+opcodeProperty
+(
+"
+op
+"
+op_
+)
+;
 }
 #
 endif
