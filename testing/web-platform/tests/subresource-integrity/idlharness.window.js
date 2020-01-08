@@ -57,10 +57,10 @@ SRI
 html
 '
 '
-dom
-'
-'
 cssom
+'
+'
+dom
 '
 ]
 idl_array
