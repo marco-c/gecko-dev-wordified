@@ -113,10 +113,11 @@ jsm
 "
 )
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 XMLHttpRequest

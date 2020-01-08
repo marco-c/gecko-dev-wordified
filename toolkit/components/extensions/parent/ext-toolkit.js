@@ -41,6 +41,7 @@ isValidCookieStoreId
 isContainerCookieStoreId
 EventManager
 InputEventManager
+URL
 *
 /
 /
@@ -98,10 +99,11 @@ jsm
 "
 )
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 URL

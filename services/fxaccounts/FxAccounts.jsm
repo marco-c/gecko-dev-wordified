@@ -61,17 +61,6 @@ use
 strict
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URL
-"
-]
-)
-;
 ChromeUtils
 .
 import

@@ -160,17 +160,6 @@ jsm
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URL
-"
-]
-)
-;
 var
 BrowserUtils
 =

@@ -110,10 +110,11 @@ jsm
 "
 )
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 indexedDB

@@ -716,10 +716,11 @@ blankWindowShown
 (
 )
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 fetch

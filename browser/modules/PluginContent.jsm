@@ -146,17 +146,6 @@ jsm
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-InspectorUtils
-"
-]
-)
-;
 XPCOMUtils
 .
 defineLazyGetter

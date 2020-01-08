@@ -287,10 +287,11 @@ jsm
 "
 )
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 CSS

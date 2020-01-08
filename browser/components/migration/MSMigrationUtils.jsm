@@ -145,10 +145,11 @@ jsm
 "
 )
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 FileReader
@@ -311,10 +312,11 @@ WEB_CREDENTIALS_VAULT_ID
 0x28DB4D70
 ]
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 File

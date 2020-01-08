@@ -26701,10 +26701,11 @@ try
 mozilla
 jsm
 support
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 DOMParser

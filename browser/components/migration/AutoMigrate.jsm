@@ -465,10 +465,11 @@ kBrandBundle
 }
 )
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 URL
