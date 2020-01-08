@@ -377,43 +377,11 @@ wizard
 '
 )
     
-CommandArgument
-(
-'
--
-g
-'
-'
--
--
-git
-'
-action
-=
-'
-store_true
-'
-                     
-help
-=
-'
-Use
-Git
-instead
-of
-Mercurial
-.
-'
-)
-    
 def
 vcs_setup
 (
 self
 update_only
-=
-False
-git
 =
 False
 )
@@ -456,6 +424,7 @@ wizard
 helping
 you
 configure
+the
         
 VCS
 for
@@ -517,31 +486,6 @@ to
 date
 .
         
-If
-"
--
--
-git
-"
-is
-used
-then
-Git
-is
-selected
-as
-the
-VCS
-instead
-of
-Mercurial
-        
-which
-is
-the
-default
-.
-        
 "
 "
 "
@@ -556,6 +500,22 @@ bootstrap
 as
 bootstrap
         
+import
+mozversioncontrol
+        
+repo
+=
+mozversioncontrol
+.
+get_repository_object
+(
+self
+.
+_context
+.
+topdir
+)
+        
 vcs
 =
 '
@@ -563,7 +523,14 @@ hg
 '
         
 if
+repo
+.
+name
+=
+=
+'
 git
+'
 :
             
 vcs
@@ -663,7 +630,14 @@ update_only
 :
             
 if
+repo
+.
+name
+=
+=
+'
 git
+'
 :
                 
 bootstrap
@@ -697,7 +671,14 @@ else
 :
             
 if
+repo
+.
+name
+=
+=
+'
 git
+'
 :
                 
 bootstrap
