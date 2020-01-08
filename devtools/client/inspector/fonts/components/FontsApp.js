@@ -290,17 +290,6 @@ this
 .
 props
 ;
-const
-hasFonts
-=
-fontEditor
-.
-fonts
-.
-length
->
-0
-;
 return
 dom
 .
@@ -327,9 +316,6 @@ panel
 fontinspector
 "
 }
-hasFonts
-&
-&
 FontEditor
 (
 {
