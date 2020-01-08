@@ -409,6 +409,8 @@ const
 nsAString
 &
 host
+bool
+isHttps
 const
 mozilla
 :
@@ -426,6 +428,8 @@ const
 nsAString
 &
 host
+bool
+isHttps
 const
 mozilla
 :
@@ -443,6 +447,8 @@ const
 nsAString
 &
 host
+bool
+isHttps
 const
 mozilla
 :
@@ -460,6 +466,8 @@ const
 nsAString
 &
 host
+bool
+isHttps
 const
 mozilla
 :
@@ -513,6 +521,8 @@ const
 nsAString
 &
 host
+bool
+isHttps
 const
 mozilla
 :
@@ -549,6 +559,8 @@ const
 nsAString
 &
 hostname
+bool
+isHttps
 const
 mozilla
 :
