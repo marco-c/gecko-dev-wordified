@@ -13382,7 +13382,7 @@ templateObject
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -17256,7 +17256,7 @@ offsetOfRegExps
 (
 )
 +
-RegExpCompartment
+RegExpRealm
 :
 :
 offsetOfOptimizableRegExpPrototypeShape
@@ -17605,7 +17605,7 @@ offsetOfRegExps
 (
 )
 +
-RegExpCompartment
+RegExpRealm
 :
 :
 offsetOfOptimizableRegExpInstanceShape

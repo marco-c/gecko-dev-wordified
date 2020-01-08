@@ -398,9 +398,6 @@ data
 (
 nullptr
 )
-regExps
-(
-)
 gcIncomingGrayPointers
 (
 nullptr
@@ -5407,7 +5404,7 @@ this
 ;
 }
 void
-JSCompartment
+Realm
 :
 :
 sweepRegExps
