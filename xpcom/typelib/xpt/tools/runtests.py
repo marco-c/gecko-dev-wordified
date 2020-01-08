@@ -2644,6 +2644,7 @@ xpt
 .
 SimpleType
 (
+                                            
 xpt
 .
 Type
@@ -2656,7 +2657,7 @@ pointer
 True
 )
 )
-                                        
+        
 ]
 )
 )
@@ -2724,6 +2725,7 @@ xpt
 .
 SimpleType
 (
+                                            
 xpt
 .
 Type
@@ -2745,6 +2747,7 @@ xpt
 .
 SimpleType
 (
+                                            
 xpt
 .
 Type
@@ -2757,7 +2760,7 @@ pointer
 True
 )
 )
-                                        
+        
 ]
 )
 )
@@ -2844,7 +2847,7 @@ InterfaceType
 bar
 )
 )
-                                        
+        
 ]
 )
 )
@@ -2929,7 +2932,7 @@ Tags
 nsIID
 )
 )
-                                        
+        
 ]
 )
 )
@@ -3047,7 +3050,7 @@ Tags
 int32
 )
 )
-                                        
+        
 ]
 )
 )
@@ -3204,7 +3207,7 @@ Tags
 int32
 )
 )
-                                        
+        
 ]
 )
 )
@@ -3934,6 +3937,7 @@ xpt
 .
 Interface
 (
+            
 "
 IFoo
 "
@@ -3980,6 +3984,7 @@ xpt
 .
 Interface
 (
+            
 "
 IBar
 "
@@ -4414,6 +4419,7 @@ xpt
 .
 Interface
 (
+            
 "
 IFoo
 "
@@ -4606,6 +4612,7 @@ xpt
 .
 Interface
 (
+            
 "
 IFoo
 "

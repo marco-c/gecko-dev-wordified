@@ -2031,7 +2031,7 @@ AString
 '
 jsval
 '
-        
+    
 )
     
 def
@@ -8667,6 +8667,7 @@ UNRESOLVED_IID
 raise
 DataError
 (
+                    
 "
 Cannot
 instantiate
@@ -10745,6 +10746,7 @@ expected_size
 raise
 FileFormatError
 (
+                
 "
 File
 is
@@ -11369,6 +11371,7 @@ typelib
 !
 "
 %
+                                
 (
 i
 .
@@ -11447,6 +11450,7 @@ typelib
 "
 %
 (
+                            
 i
 .
 name
@@ -11508,6 +11512,7 @@ typelib
 "
 %
 (
+                        
 i
 .
 name
@@ -12728,7 +12733,7 @@ params
 or
 "
 "
-                            
+                        
 )
 )
                 
@@ -13830,7 +13835,7 @@ iface
 in
 merged_interfaces
 :
-                
+            
 t
 .
 element_type
