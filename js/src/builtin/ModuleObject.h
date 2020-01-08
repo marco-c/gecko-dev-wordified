@@ -663,8 +663,10 @@ if
 !
 map_
 )
+{
 return
 ;
+}
 for
 (
 auto
@@ -690,6 +692,7 @@ popFront
 (
 )
 )
+{
 func
 (
 r
@@ -703,6 +706,7 @@ key
 )
 )
 ;
+}
 }
 private
 :
