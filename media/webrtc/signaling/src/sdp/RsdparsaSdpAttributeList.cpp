@@ -4752,7 +4752,7 @@ attributeList
 int64_t
 max_msg_size
 =
-sdp_get_max_msg_sizse
+sdp_get_max_msg_size
 (
 attributeList
 )

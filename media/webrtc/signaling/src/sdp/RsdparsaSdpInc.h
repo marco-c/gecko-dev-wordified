@@ -1287,7 +1287,7 @@ aList
 )
 ;
 int64_t
-sdp_get_max_msg_sizse
+sdp_get_max_msg_size
 (
 const
 RustAttributeList

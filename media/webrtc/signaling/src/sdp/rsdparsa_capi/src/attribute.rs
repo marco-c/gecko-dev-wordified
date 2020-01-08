@@ -2949,7 +2949,7 @@ extern
 C
 "
 fn
-sdp_get_max_msg_sizse
+sdp_get_max_msg_size
 (
 attributes
 :
