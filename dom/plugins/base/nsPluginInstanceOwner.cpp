@@ -11087,10 +11087,10 @@ NS_LITERAL_STRING
 MozPerformDelayedBlur
 "
 )
-CanBuble
+CanBubble
 :
 :
-No
+eNo
 Cancelable
 :
 :
