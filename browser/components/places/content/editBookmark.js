@@ -1406,13 +1406,9 @@ location
 keyword
 "
 "
-feedLocation
-"
-"
-siteLocation
-"
 folderPicker
 "
+.
 *
 /
 initPanel
