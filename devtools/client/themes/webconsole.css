@@ -2269,6 +2269,10 @@ overflow
 :
 ellipsis
 ;
+cursor
+:
+default
+;
 }
 .
 message
@@ -2288,6 +2292,10 @@ inline
 start
 :
 6px
+;
+cursor
+:
+default
 ;
 }
 .
@@ -2313,6 +2321,10 @@ highlight
 -
 red
 )
+;
+cursor
+:
+default
 ;
 }
 .

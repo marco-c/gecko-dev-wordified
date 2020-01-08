@@ -738,7 +738,7 @@ requestUrl
 =
 dom
 .
-a
+span
 (
 {
 className
