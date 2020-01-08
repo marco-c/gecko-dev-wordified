@@ -529,10 +529,7 @@ JSContext
 *
 cx
 const
-Vector
-<
-Value
->
+AutoValueVector
 &
 values
 )
