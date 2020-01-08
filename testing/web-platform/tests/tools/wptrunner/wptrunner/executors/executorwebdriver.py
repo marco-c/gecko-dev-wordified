@@ -1543,9 +1543,14 @@ timeout
 )
         
 except
+(
 client
 .
 TimeoutException
+client
+.
+ScriptTimeoutException
+)
 :
             
 self
