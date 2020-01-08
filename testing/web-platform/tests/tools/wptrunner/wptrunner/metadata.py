@@ -1721,6 +1721,9 @@ in
 log_file
 :
             
+try
+:
+                
 data
 =
 json
@@ -1729,6 +1732,22 @@ loads
 (
 line
 )
+            
+except
+ValueError
+:
+                
+#
+Just
+skip
+lines
+that
+aren
+'
+t
+json
+                
+continue
             
 action
 =
