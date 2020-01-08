@@ -3397,6 +3397,8 @@ curve
 "
 )
 ;
+break
+;
 }
 channel_offset
 +
