@@ -1807,6 +1807,7 @@ TEST_ADDRESS_2
 let
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -1923,6 +1924,7 @@ set
 .
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -2009,12 +2011,15 @@ test
 ;
 do_check_record_matches
 (
+(
+await
 profileStorage
 .
 addresses
 .
 getAll
 (
+)
 )
 [
 0
@@ -2049,6 +2054,7 @@ TEST_ADDRESS_2
 let
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -2070,6 +2076,7 @@ guid
 let
 address
 =
+await
 profileStorage
 .
 addresses
@@ -2094,6 +2101,7 @@ set
 .
 address
 =
+await
 profileStorage
 .
 addresses
@@ -2169,6 +2177,7 @@ test
 ;
 do_check_record_matches
 (
+await
 profileStorage
 .
 addresses
@@ -2184,6 +2193,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 addresses
@@ -2224,6 +2234,7 @@ TEST_ADDRESS_2
 let
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -2353,6 +2364,7 @@ deleted
 before
 saving
 .
+await
 profileStorage
 .
 addresses
@@ -2413,6 +2425,7 @@ cause
 any
 problem
 .
+await
 profileStorage
 .
 addresses
@@ -2445,14 +2458,11 @@ TEST_ADDRESS_WITH_EMPTY_COMPUTED_FIELD
 email
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 addresses
@@ -2475,14 +2485,11 @@ field
 /
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 addresses
@@ -2503,14 +2510,11 @@ field
 /
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 addresses
@@ -2650,6 +2654,7 @@ TEST_ADDRESS_2
 let
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -2739,6 +2744,7 @@ country
 undefined
 )
 ;
+await
 profileStorage
 .
 addresses
@@ -2780,6 +2786,7 @@ below
 let
 address
 =
+await
 profileStorage
 .
 addresses
@@ -2845,6 +2852,7 @@ with
 empty
 string
 .
+await
 profileStorage
 .
 addresses
@@ -2886,6 +2894,7 @@ below
 .
 address
 =
+await
 profileStorage
 .
 addresses
@@ -3000,6 +3009,7 @@ deleted
 while
 updating
 .
+await
 profileStorage
 .
 addresses
@@ -3069,6 +3079,7 @@ cause
 any
 problem
 .
+await
 profileStorage
 .
 addresses
@@ -3112,6 +3123,7 @@ TEST_ADDRESS_WITH_EMPTY_COMPUTED_FIELD
 email
 )
 ;
+await
 profileStorage
 .
 addresses
@@ -3155,14 +3167,11 @@ TEST_ADDRESS_WITH_EMPTY_COMPUTED_FIELD
 email
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 addresses
@@ -3183,14 +3192,11 @@ record
 /
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 addresses
@@ -3214,14 +3220,11 @@ field
 /
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 addresses
@@ -3243,14 +3246,11 @@ field
 /
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 addresses
@@ -3281,14 +3281,11 @@ guid
 TEST_ADDRESS_2
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 addresses
@@ -3336,6 +3333,7 @@ TEST_ADDRESS_2
 let
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -3466,6 +3464,7 @@ onChanged
 let
 address
 =
+await
 profileStorage
 .
 addresses
@@ -3577,6 +3576,7 @@ TEST_ADDRESS_2
 let
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -3667,6 +3667,7 @@ onChanged
 ;
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -3689,6 +3690,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 addresses
@@ -3751,6 +3753,7 @@ addressInStorage
 let
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -3902,6 +3905,7 @@ onMerged
 }
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -4050,6 +4054,7 @@ TEST_ADDRESS_1
 let
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -4209,6 +4214,7 @@ TEST_ADDRESS_2
 let
 addresses
 =
+await
 profileStorage
 .
 addresses
@@ -4269,6 +4275,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 addresses
@@ -4293,6 +4300,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 addresses
@@ -4339,6 +4347,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 addresses
@@ -4418,6 +4427,7 @@ _clone
 TEST_ADDRESS_2
 )
 ;
+await
 profileStorage
 .
 addresses
@@ -4442,6 +4452,8 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 addresses
@@ -4449,6 +4461,7 @@ addresses
 mergeToStorage
 (
 anotherAddress
+)
 )
 .
 length
@@ -4459,12 +4472,15 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 addresses
 .
 getAll
 (
+)
 )
 [
 1
@@ -4480,12 +4496,15 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 addresses
 .
 getAll
 (
+)
 )
 [
 2
@@ -4513,6 +4532,8 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 addresses
@@ -4520,6 +4541,7 @@ addresses
 mergeToStorage
 (
 TEST_ADDRESS_WITH_EMPTY_COMPUTED_FIELD
+)
 )
 .
 length
@@ -4583,6 +4605,8 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 addresses
@@ -4591,6 +4615,7 @@ mergeToStorage
 (
 anotherAddress
 true
+)
 )
 .
 length
@@ -4601,12 +4626,15 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 addresses
 .
 getAll
 (
+)
 )
 [
 0
@@ -4634,6 +4662,8 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 addresses
@@ -4642,6 +4672,7 @@ mergeToStorage
 (
 TEST_ADDRESS_WITH_EMPTY_COMPUTED_FIELD
 true
+)
 )
 .
 length

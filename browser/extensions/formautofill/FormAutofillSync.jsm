@@ -654,6 +654,7 @@ let
 guid
 }
 of
+await
 this
 .
 storage
@@ -741,6 +742,7 @@ id
 return
 Boolean
 (
+await
 this
 .
 storage
@@ -856,6 +858,7 @@ record
 let
 localDupeID
 =
+await
 this
 .
 storage
@@ -999,6 +1002,7 @@ toEntry
 (
 )
 ;
+await
 this
 .
 storage
@@ -1047,6 +1051,7 @@ id
 let
 entry
 =
+await
 this
 .
 storage
@@ -1158,6 +1163,7 @@ let
 forkedGUID
 }
 =
+await
 this
 .
 storage
@@ -1188,6 +1194,7 @@ forkedRecord
 =
 forkedGUID
 ?
+await
 this
 .
 storage
@@ -1202,6 +1209,7 @@ null
 let
 reconciledRecord
 =
+await
 this
 .
 storage

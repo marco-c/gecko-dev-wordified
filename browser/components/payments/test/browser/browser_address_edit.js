@@ -76,6 +76,7 @@ address
 "
 )
 ;
+await
 formAutofillStorage
 .
 creditCards
