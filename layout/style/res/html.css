@@ -1281,6 +1281,12 @@ indent
 :
 0
 ;
+overflow
+-
+wrap
+:
+normal
+;
 }
 table
 [
