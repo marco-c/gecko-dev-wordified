@@ -77,6 +77,10 @@ parse
 as
 urlparse
 from
+six
+import
+viewitems
+from
 mozpack
 .
 chrome
@@ -245,12 +249,11 @@ for
 name
 count
 in
+viewitems
+(
 other
 .
 function_exec_counts
-.
-iteritems
-(
 )
 :
             
@@ -277,12 +280,11 @@ for
 key
 taken
 in
+viewitems
+(
 other
 .
 branches
-.
-iteritems
-(
 )
 :
             
@@ -312,12 +314,11 @@ exec_count
 checksum
 )
 in
+viewitems
+(
 other
 .
 lines
-.
-iteritems
-(
 )
 :
             
@@ -427,12 +428,11 @@ for
 fn_name
 count
 in
+viewitems
+(
 self
 .
 function_exec_counts
-.
-iteritems
-(
 )
                                      
 if
@@ -721,12 +721,11 @@ for
 ln
 line_info
 in
+viewitems
+(
 record
 .
 lines
-.
-iteritems
-(
 )
 :
             
@@ -905,12 +904,11 @@ for
 ln
 fn_name
 in
+viewitems
+(
 record
 .
 functions
-.
-iteritems
-(
 )
 :
             
@@ -1043,12 +1041,11 @@ branch_number
 )
 taken
 in
+viewitems
+(
 record
 .
 branches
-.
-iteritems
-(
 )
 :
             
@@ -2333,12 +2330,11 @@ fn_name
 in
 sorted
 (
+viewitems
+(
 record
 .
 functions
-.
-iteritems
-(
 )
 )
 :
@@ -2392,12 +2388,11 @@ exec_count
 in
 sorted
 (
+viewitems
+(
 record
 .
 function_exec_counts
-.
-iteritems
-(
 )
 )
 :
@@ -2623,12 +2618,11 @@ checksum
 in
 sorted
 (
+viewitems
+(
 record
 .
 lines
-.
-iteritems
-(
 )
 )
 :
@@ -3871,12 +3865,11 @@ for
 prefix
 dests
 in
+viewitems
+(
 self
 .
 _url_prefixes
-.
-iteritems
-(
 )
 :
             
