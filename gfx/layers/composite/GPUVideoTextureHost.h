@@ -145,7 +145,10 @@ TextureHost
 {
 public
 :
+static
 GPUVideoTextureHost
+*
+CreateFromDescriptor
 (
 TextureFlags
 aFlags
@@ -403,6 +406,15 @@ override
 ;
 protected
 :
+GPUVideoTextureHost
+(
+TextureFlags
+aFlags
+TextureHost
+*
+aWrappedTextureHost
+)
+;
 RefPtr
 <
 TextureHost
