@@ -3707,12 +3707,10 @@ aFontFaceSrc
 -
 >
 mReferrer
-mDocument
+aFontFaceSrc
 -
 >
-GetReferrerPolicy
-(
-)
+mReferrerPolicy
 )
 ;
 Unused
@@ -7542,10 +7540,10 @@ face
 >
 mReferrerPolicy
 =
-set
+url
 -
 >
-mDocument
+mExtraData
 -
 >
 GetReferrerPolicy
