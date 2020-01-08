@@ -449,6 +449,10 @@ mSegmentSize
 (
 0
 )
+mSegmentSizeLog2
+(
+0
+)
 mWriteInProgress
 (
 false

@@ -238,6 +238,12 @@ mState
 ZERO
 )
 {
+mUnion
+.
+table
+=
+nullptr
+;
 }
 ~
 nsCheapSet

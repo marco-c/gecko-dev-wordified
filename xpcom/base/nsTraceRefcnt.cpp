@@ -1843,6 +1843,9 @@ mClassSize
 (
 aClassSize
 )
+mStats
+(
+)
 {
 MOZ_ASSERT
 (
