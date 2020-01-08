@@ -2852,8 +2852,12 @@ const
 nsACString
 &
 aHost
+const
+nsACString
+&
+aOriginSuffix
 bool
-privateBrowsing
+aPrivateBrowsing
 bool
 aParentsToo
 )
@@ -3104,7 +3108,8 @@ if
 IsTRRBlacklisted
 (
 check
-privateBrowsing
+aOriginSuffix
+aPrivateBrowsing
 false
 )
 )
@@ -3145,6 +3150,8 @@ nsAutoCString
 hashkey
 (
 aHost
++
+aOriginSuffix
 )
 ;
 nsCString
@@ -3156,7 +3163,7 @@ mTRRBLStorage
 Get
 (
 hashkey
-privateBrowsing
+aPrivateBrowsing
 ?
 DataStorage_Private
 :
@@ -3271,7 +3278,7 @@ proxyStorageRemove
 [
 storage
 hashkey
-privateBrowsing
+aPrivateBrowsing
 ]
 (
 )
@@ -3282,7 +3289,7 @@ storage
 Remove
 (
 hashkey
-privateBrowsing
+aPrivateBrowsing
 ?
 DataStorage_Private
 :
@@ -3338,6 +3345,10 @@ const
 nsACString
 &
 aHost
+const
+nsACString
+&
+aOriginSuffix
 bool
 pb
 bool
@@ -3361,6 +3372,10 @@ mHost
 (
 aHost
 )
+mOriginSuffix
+(
+aOriginSuffix
+)
 mPB
 (
 pb
@@ -3383,6 +3398,7 @@ mService
 TRRBlacklist
 (
 mHost
+mOriginSuffix
 mPB
 mParentsToo
 )
@@ -3406,6 +3422,9 @@ mService
 nsCString
 mHost
 ;
+nsCString
+mOriginSuffix
+;
 bool
 mPB
 ;
@@ -3424,6 +3443,10 @@ const
 nsACString
 &
 aHost
+const
+nsACString
+&
+aOriginSuffix
 bool
 privateBrowsing
 bool
@@ -3454,6 +3477,7 @@ ProxyBlacklist
 (
 this
 aHost
+aOriginSuffix
 privateBrowsing
 aParentsToo
 )
@@ -3488,6 +3512,8 @@ nsAutoCString
 hashkey
 (
 aHost
++
+aOriginSuffix
 )
 ;
 nsAutoCString
@@ -3613,6 +3639,7 @@ if
 IsTRRBlacklisted
 (
 check
+aOriginSuffix
 privateBrowsing
 false
 )
@@ -4313,6 +4340,10 @@ newRRSet
 -
 >
 mHostName
+rec
+-
+>
+originSuffix
 pb
 false
 )

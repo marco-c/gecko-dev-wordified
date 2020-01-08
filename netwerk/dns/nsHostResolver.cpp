@@ -3820,6 +3820,7 @@ nsCString
 (
 host
 )
+originSuffix
 pb
 true
 )

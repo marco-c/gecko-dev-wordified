@@ -1407,6 +1407,11 @@ skip
 the
 blacklist
 check
+MOZ_ASSERT
+(
+mRec
+)
+;
 if
 (
 gTRRService
@@ -1415,6 +1420,10 @@ gTRRService
 IsTRRBlacklisted
 (
 mHost
+mRec
+-
+>
+originSuffix
 mPB
 true
 )
