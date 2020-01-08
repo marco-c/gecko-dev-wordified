@@ -221,6 +221,9 @@ OPTIONAL
 headerURL
 "
 "
+footerURL
+"
+"
 textcolor
 "
 "
@@ -269,6 +272,13 @@ headerURL
 lightweighttheme
 -
 header
+"
+footerURL
+:
+"
+lightweighttheme
+-
+footer
 "
 }
 ;
