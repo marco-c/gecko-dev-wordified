@@ -8754,7 +8754,7 @@ types
 ]
 }
 '
-offset
+inset
 -
 block
 -
@@ -8783,7 +8783,7 @@ props
 #
 propdef
 -
-offset
+inset
 -
 block
 -
@@ -8794,7 +8794,7 @@ types
 ]
 }
 '
-offset
+inset
 -
 block
 -
@@ -8823,7 +8823,7 @@ props
 #
 propdef
 -
-offset
+inset
 -
 block
 -
@@ -8834,7 +8834,7 @@ types
 ]
 }
 '
-offset
+inset
 -
 inline
 -
@@ -8863,7 +8863,7 @@ props
 #
 propdef
 -
-offset
+inset
 -
 inline
 -
@@ -8874,7 +8874,7 @@ types
 ]
 }
 '
-offset
+inset
 -
 inline
 -
@@ -8903,7 +8903,7 @@ props
 #
 propdef
 -
-offset
+inset
 -
 inline
 -
