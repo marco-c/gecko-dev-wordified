@@ -480,7 +480,7 @@ PlacesUtils
 .
 annotations
 .
-EXPIRE_WITH_HISTORY
+EXPIRE_NEVER
 )
 ;
 /
@@ -548,7 +548,7 @@ PlacesUtils
 .
 annotations
 .
-EXPIRE_WITH_HISTORY
+EXPIRE_NEVER
 )
 ;
 /

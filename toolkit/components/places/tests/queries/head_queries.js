@@ -834,9 +834,11 @@ annoVal
 qdata
 .
 annoFlags
-qdata
+PlacesUtils
 .
-annoExpiration
+annotations
+.
+EXPIRE_NEVER
 )
 ;
 }
@@ -888,9 +890,11 @@ annoVal
 qdata
 .
 annoFlags
-qdata
+PlacesUtils
 .
-annoExpiration
+annotations
+.
+EXPIRE_NEVER
 )
 ;
 }

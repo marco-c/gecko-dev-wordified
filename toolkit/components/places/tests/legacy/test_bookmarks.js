@@ -2582,7 +2582,9 @@ annotation
 foo
 "
 0
-0
+anno
+.
+EXPIRE_NEVER
 )
 ;
 Assert

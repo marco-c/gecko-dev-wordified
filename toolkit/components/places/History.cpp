@@ -8858,7 +8858,7 @@ destinationURISpec
 nsIAnnotationService
 :
 :
-EXPIRE_WITH_HISTORY
+EXPIRE_NEVER
 )
 ;
 NS_ENSURE_SUCCESS
