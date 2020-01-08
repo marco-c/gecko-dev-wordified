@@ -855,7 +855,11 @@ h
 #
 include
 "
-nsHostObjectProtocolHandler
+mozilla
+/
+dom
+/
+BlobURLProtocolHandler
 .
 h
 "
@@ -2241,7 +2245,7 @@ Shutdown
 (
 )
 ;
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 RemoveDataEntries

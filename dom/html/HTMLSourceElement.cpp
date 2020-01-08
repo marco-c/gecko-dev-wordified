@@ -201,7 +201,11 @@ h
 #
 include
 "
-nsHostObjectProtocolHandler
+mozilla
+/
+dom
+/
+BlobURLProtocolHandler
 .
 h
 "

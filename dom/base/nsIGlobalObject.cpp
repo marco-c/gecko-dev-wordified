@@ -128,6 +128,17 @@ mozilla
 /
 dom
 /
+BlobURLProtocolHandler
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ServiceWorker
 .
 h
@@ -154,13 +165,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsHostObjectProtocolHandler
 .
 h
 "
@@ -418,7 +422,7 @@ Length
 index
 )
 {
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 RemoveDataEntry
@@ -501,7 +505,7 @@ Length
 index
 )
 {
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 RemoveDataEntry
@@ -524,7 +528,7 @@ return
 }
 /
 /
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 is
 main
 -
@@ -663,7 +667,7 @@ Length
 index
 )
 {
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 Traverse

@@ -1652,6 +1652,17 @@ mozilla
 /
 dom
 /
+BlobURLProtocolHandler
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ipc
 /
 StructuredCloneData
@@ -1714,13 +1725,6 @@ include
 mozilla
 /
 StyleSheetInlines
-.
-h
-"
-#
-include
-"
-nsHostObjectProtocolHandler
 .
 h
 "
@@ -10675,7 +10679,7 @@ Length
 i
 )
 {
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 RemoveDataEntry
@@ -15188,7 +15192,7 @@ registrations
 ;
 if
 (
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 GetAllBlobURLEntries
@@ -29913,7 +29917,7 @@ if
 (
 NS_SUCCEEDED
 (
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 AddDataEntry
@@ -29993,7 +29997,7 @@ nsCString
 aURI
 )
 {
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 RemoveDataEntry
