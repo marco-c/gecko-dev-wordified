@@ -195,13 +195,6 @@ h
 #
 include
 "
-nsForwardReference
-.
-h
-"
-#
-include
-"
 nsHTMLStyleSheet
 .
 h
