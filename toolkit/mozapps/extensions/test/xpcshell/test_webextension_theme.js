@@ -474,6 +474,13 @@ disable
 (
 )
 ;
+await
+new
+Promise
+(
+executeSoon
+)
+;
 Assert
 .
 ok

@@ -9739,6 +9739,7 @@ add
 on
 *
 /
+async
 addonChanged
 (
 aId
@@ -9801,6 +9802,7 @@ id
 =
 aId
 )
+await
 this
 .
 updateAddonDisabledState
