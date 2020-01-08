@@ -13443,7 +13443,7 @@ property
 :
 rotate
 on
-roate
+rotate
 and
 translate
 )
