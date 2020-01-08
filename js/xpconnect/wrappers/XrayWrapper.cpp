@@ -885,10 +885,10 @@ toObject
 )
 ;
 return
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 xrayTarget
 )

@@ -14477,10 +14477,10 @@ return
 }
 mGlobalJSObject
 =
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 obj
 )
@@ -22543,10 +22543,10 @@ protoAndIfaceCache
 *
 GetProtoAndIfaceCache
 (
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 newTarget
 )

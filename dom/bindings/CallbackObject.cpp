@@ -1275,10 +1275,10 @@ JSObject
 *
 global
 =
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 realCallback
 )
