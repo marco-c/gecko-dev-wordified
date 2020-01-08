@@ -3683,7 +3683,7 @@ FindInReadable
 NS_LITERAL_CSTRING
 (
 "
-resource
+chrome
 :
 /
 /
