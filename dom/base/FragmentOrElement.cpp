@@ -6730,7 +6730,7 @@ true
 "
 aVisitor
 .
-IgnoreCurrentTarget
+IgnoreCurrentTargetBecauseOfShadowDOMRetargeting
 (
 )
 ;
@@ -7100,7 +7100,7 @@ null
 "
 aVisitor
 .
-IgnoreCurrentTarget
+IgnoreCurrentTargetBecauseOfShadowDOMRetargeting
 (
 )
 ;
