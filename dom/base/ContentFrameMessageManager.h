@@ -382,6 +382,14 @@ GetTabEventTarget
 =
 0
 ;
+virtual
+uint64_t
+ChromeOuterWindowID
+(
+)
+=
+0
+;
 nsFrameMessageManager
 *
 GetMessageManager
