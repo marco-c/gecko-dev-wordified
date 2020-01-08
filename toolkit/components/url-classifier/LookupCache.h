@@ -388,13 +388,7 @@ i
 ;
 }
 return
-std
-:
-:
-move
-(
 hex
-)
 ;
 }
 bool
