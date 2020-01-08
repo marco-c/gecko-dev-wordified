@@ -280,6 +280,9 @@ js
 namespace
 jit
 {
+class
+AutoSaveLiveRegisters
+;
 /
 /
 IonCacheIRCompiler
@@ -657,6 +660,9 @@ prepareVMCall
 MacroAssembler
 &
 masm
+const
+AutoSaveLiveRegisters
+&
 )
 ;
 MOZ_MUST_USE
@@ -2108,6 +2114,18 @@ return
 returnAddr
 ;
 }
+/
+/
+The
+AutoSaveLiveRegisters
+parameter
+is
+used
+to
+ensure
+registers
+were
+saved
 void
 IonCacheIRCompiler
 :
@@ -2117,6 +2135,9 @@ prepareVMCall
 MacroAssembler
 &
 masm
+const
+AutoSaveLiveRegisters
+&
 )
 {
 uint32_t
@@ -7825,6 +7846,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -7995,6 +8017,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -8565,6 +8588,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -8735,6 +8759,7 @@ slow
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -14361,6 +14386,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -14509,6 +14535,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -14661,6 +14688,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -14781,6 +14809,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
