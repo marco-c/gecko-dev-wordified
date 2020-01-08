@@ -2473,7 +2473,7 @@ TextEditorRef
 (
 )
 .
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 nsIEditor
 :
@@ -3999,7 +3999,7 @@ TextEditorRef
 (
 )
 .
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 nsIEditor
 :

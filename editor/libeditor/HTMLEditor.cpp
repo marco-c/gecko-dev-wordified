@@ -6947,7 +6947,7 @@ IsCollapsed
 nsresult
 rv
 =
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 eNone
 eStrip
@@ -9630,7 +9630,7 @@ eStrip
 .
 rv
 =
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 eNone
 eNoStrip

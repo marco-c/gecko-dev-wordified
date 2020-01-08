@@ -584,7 +584,7 @@ targetOffset
 nsresult
 rv
 =
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 eNone
 eStrip

@@ -8278,7 +8278,7 @@ HTMLEditorRef
 (
 )
 .
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 nsIEditor
 :
@@ -10440,7 +10440,7 @@ HTMLEditorRef
 (
 )
 .
-DeleteSelectionAsAction
+DeleteSelectionAsSubAction
 (
 nsIEditor
 :
