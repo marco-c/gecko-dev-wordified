@@ -2541,12 +2541,12 @@ case
 nsXPTType
 :
 :
-T_SEQUENCE
+T_ARRAY
 :
 {
 auto
 *
-sequence
+array
 =
 static_cast
 <
@@ -2557,7 +2557,7 @@ xpt
 detail
 :
 :
-UntypedSequence
+UntypedTArray
 *
 >
 (
@@ -2568,7 +2568,7 @@ return
 NativeArray2JS
 (
 d
-sequence
+array
 -
 >
 Elements
@@ -2580,7 +2580,7 @@ ArrayElementType
 (
 )
 iid
-sequence
+array
 -
 >
 Length
@@ -5430,7 +5430,7 @@ case
 nsXPTType
 :
 :
-T_SEQUENCE
+T_ARRAY
 :
 {
 auto
@@ -5444,7 +5444,7 @@ xpt
 detail
 :
 :
-UntypedSequence
+UntypedTArray
 *
 )
 d
@@ -10415,8 +10415,9 @@ break
 ;
 /
 /
+Legacy
 Array
-Types
+Type
 case
 nsXPTType
 :
@@ -10486,13 +10487,13 @@ break
 }
 /
 /
-Sequence
+Array
 Type
 case
 nsXPTType
 :
 :
-T_SEQUENCE
+T_ARRAY
 :
 {
 const
@@ -10508,7 +10509,7 @@ ArrayElementType
 ;
 auto
 *
-sequence
+array
 =
 (
 xpt
@@ -10517,7 +10518,7 @@ xpt
 detail
 :
 :
-UntypedSequence
+UntypedTArray
 *
 )
 aValue
@@ -10531,7 +10532,7 @@ i
 ;
 i
 <
-sequence
+array
 -
 >
 Length
@@ -10550,7 +10551,7 @@ elty
 .
 ElementPtr
 (
-sequence
+array
 -
 >
 Elements
@@ -10561,7 +10562,7 @@ i
 )
 ;
 }
-sequence
+array
 -
 >
 Clear
@@ -10875,7 +10876,7 @@ case
 nsXPTType
 :
 :
-T_SEQUENCE
+T_ARRAY
 :
 new
 (
@@ -10887,7 +10888,7 @@ xpt
 detail
 :
 :
-UntypedSequence
+UntypedTArray
 (
 )
 ;

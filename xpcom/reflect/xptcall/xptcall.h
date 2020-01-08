@@ -340,8 +340,8 @@ xpt
 detail
 :
 :
-UntypedSequence
-sequence
+UntypedTArray
+array
 ;
 /
 /

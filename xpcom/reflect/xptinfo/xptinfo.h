@@ -1579,12 +1579,12 @@ TD_ASTRING
 TD_JSVAL
 =
 28
-TD_SEQUENCE
+TD_ARRAY
 =
 29
 _TD_LAST_COMPLEX
 =
-TD_SEQUENCE
+TD_ARRAY
 }
 ;
 static_assert
@@ -1877,7 +1877,7 @@ Tag
 )
 =
 =
-TD_SEQUENCE
+TD_ARRAY
 )
 ;
 return
@@ -2110,7 +2110,7 @@ Tag
 )
 =
 =
-TD_SEQUENCE
+TD_ARRAY
 &
 &
 InnermostType
@@ -2197,7 +2197,7 @@ Tag
 )
 =
 =
-TD_SEQUENCE
+TD_ARRAY
 )
 {
 return
@@ -2763,8 +2763,8 @@ TD_PROMISE
 ;
 TD_ALIAS_
 (
-T_SEQUENCE
-TD_SEQUENCE
+T_ARRAY
+TD_ARRAY
 )
 ;
 #
@@ -4391,7 +4391,7 @@ detail
 /
 /
 The
-UntypedSequence
+UntypedTArray
 type
 allows
 low
@@ -4417,7 +4417,7 @@ in
 question
 .
 class
-UntypedSequence
+UntypedTArray
 :
 public
 nsTArray_base
@@ -5579,7 +5579,7 @@ Value
 )
 ;
 case
-TD_SEQUENCE
+TD_ARRAY
 :
 return
 sizeof
@@ -5590,7 +5590,7 @@ xpt
 detail
 :
 :
-UntypedSequence
+UntypedTArray
 )
 ;
 }

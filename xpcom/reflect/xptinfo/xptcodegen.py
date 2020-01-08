@@ -2586,7 +2586,7 @@ tag
 =
 =
 '
-array
+legacy_array
 '
 :
             
@@ -2772,14 +2772,14 @@ tag
 =
 =
 '
-TD_SEQUENCE
+TD_ARRAY
 '
 :
             
 #
 NOTE
 :
-TD_SEQUENCE
+TD_ARRAY
 can
 hold
 16
