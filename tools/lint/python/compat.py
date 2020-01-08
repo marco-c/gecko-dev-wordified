@@ -424,7 +424,7 @@ e
 for
 e
 in
-lintargs
+config
 .
 get
 (
