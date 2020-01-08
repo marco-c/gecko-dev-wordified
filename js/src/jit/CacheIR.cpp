@@ -14481,6 +14481,14 @@ objId
 }
 writer
 .
+guardIndexGreaterThanDenseInitLength
+(
+objId
+indexId
+)
+;
+writer
+.
 callNativeGetElementResult
 (
 objId
