@@ -1397,14 +1397,14 @@ global
 }
 initExtension
 (
-extension
+policy
 )
 {
 this
 .
 injectExtensionScripts
 (
-extension
+policy
 )
 ;
 }
@@ -1449,7 +1449,7 @@ Script
 loading
 injectExtensionScripts
 (
-extension
+policy
 )
 {
 for
@@ -1487,7 +1487,7 @@ for
 let
 script
 of
-extension
+policy
 .
 contentScripts
 )
@@ -2030,7 +2030,7 @@ new
 DefaultWeakMap
 (
 (
-extension
+policy
 )
 =
 >
