@@ -1582,9 +1582,9 @@ using_foo
 (
 config
 job
-    
 taskdesc
 )
+    
 and
 should
 modify

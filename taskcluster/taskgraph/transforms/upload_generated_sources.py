@@ -66,7 +66,6 @@ files
 task
 description
 template
-  
 taskcluster
 /
 ci
