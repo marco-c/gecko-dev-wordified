@@ -1565,8 +1565,6 @@ Example
 value
 :
 {
-Number
-|
 String
 |
 null
@@ -1602,7 +1600,7 @@ font
 -
 value
 -
-slider
+input
 [
 name
 =
