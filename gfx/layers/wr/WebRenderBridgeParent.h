@@ -1586,6 +1586,12 @@ WrTransformProperty
 aTransformArray
 )
 ;
+bool
+IsRootWebRenderBridgeParent
+(
+)
+const
+;
 CompositorBridgeParent
 *
 GetRootCompositorBridgeParent
