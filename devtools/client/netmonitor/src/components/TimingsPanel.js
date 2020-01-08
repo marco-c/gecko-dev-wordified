@@ -669,7 +669,7 @@ getFormatStr
 "
 networkMenu
 .
-totalMS
+totalMS2
 "
 timings
 [
