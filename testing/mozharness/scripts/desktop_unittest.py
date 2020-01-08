@@ -7927,6 +7927,14 @@ rmtree
 (
 gcov_dir
 )
+                            
+del
+env
+[
+'
+GCOV_RESULTS_DIR
+'
+]
                     
 #
 mochitest
