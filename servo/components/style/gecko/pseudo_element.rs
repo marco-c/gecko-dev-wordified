@@ -176,6 +176,12 @@ std
 fmt
 ;
 use
+str
+:
+:
+starts_with_ignore_ascii_case
+;
+use
 string_cache
 :
 :
