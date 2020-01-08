@@ -331,7 +331,7 @@ list
 ;
 }
 static
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 *
 GetObserverList
 (
@@ -343,7 +343,7 @@ aElement
 return
 static_cast
 <
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 *
 >
 (
@@ -385,7 +385,7 @@ if
 target
 )
 {
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 *
 observerList
 =
@@ -940,7 +940,7 @@ itself
 to
 an
 *
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 object
 belonging
 to
@@ -4390,7 +4390,7 @@ FilterProperty
 ;
 }
 void
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 :
 :
 InvalidateAll
@@ -4499,7 +4499,7 @@ OnNonDOMMutationRenderingChange
 }
 }
 void
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 :
 :
 InvalidateAllForReflow
@@ -4625,7 +4625,7 @@ OnNonDOMMutationRenderingChange
 }
 }
 void
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 :
 :
 RemoveAll
@@ -4768,7 +4768,7 @@ SVGRenderingObserver
 aObserver
 )
 {
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 *
 observerList
 =
@@ -4786,7 +4786,7 @@ observerList
 observerList
 =
 new
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 (
 )
 ;
@@ -4812,7 +4812,7 @@ nsINode
 :
 DeleteProperty
 <
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 >
 )
 ;
@@ -4848,7 +4848,7 @@ SVGRenderingObserver
 aObserver
 )
 {
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 *
 observerList
 =
@@ -4926,7 +4926,7 @@ Element
 aElement
 )
 {
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 *
 observerList
 =
@@ -5041,7 +5041,7 @@ ObjectBoundingBoxProperty
 )
 )
 ;
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 *
 observerList
 =
@@ -5258,7 +5258,7 @@ HasRenderingObservers
 )
 )
 {
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 *
 observerList
 =

@@ -2309,11 +2309,11 @@ referenced
 *
 /
 class
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 {
 public
 :
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 (
 )
 :
@@ -2324,12 +2324,12 @@ mObservers
 {
 MOZ_COUNT_CTOR
 (
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 )
 ;
 }
 ~
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 (
 )
 {
@@ -2339,7 +2339,7 @@ InvalidateAll
 ;
 MOZ_COUNT_DTOR
 (
-nsSVGRenderingObserverList
+SVGRenderingObserverList
 )
 ;
 }
