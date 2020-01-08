@@ -3109,7 +3109,7 @@ nsFrameMessageManager
 :
 SendMessage
 "
-EVENTS
+OTHER
 aMessageName
 )
 ;
