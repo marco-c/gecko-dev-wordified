@@ -282,8 +282,8 @@ if
 !
 MOZ_GCC_VERSION_AT_LEAST
 (
-4
-9
+6
+1
 0
 )
 #
@@ -298,9 +298,9 @@ require
 at
 least
 gcc
-4
+6
 .
-9
+1
 to
 build
 .
