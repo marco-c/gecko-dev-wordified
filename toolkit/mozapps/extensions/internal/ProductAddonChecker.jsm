@@ -68,7 +68,7 @@ ProductAddonChecker
 *
 /
 const
-LOCAL_EME_SOURCES
+LOCAL_GMP_SOURCES
 =
 [
 {
@@ -1704,7 +1704,7 @@ Promise
 .
 all
 (
-LOCAL_EME_SOURCES
+LOCAL_GMP_SOURCES
 .
 map
 (
