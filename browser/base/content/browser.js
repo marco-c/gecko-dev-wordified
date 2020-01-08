@@ -47968,6 +47968,21 @@ PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
 ;
+let
+closingTabs
+=
+gBrowser
+.
+tabs
+.
+length
+-
+gBrowser
+.
+_removingTabs
+.
+length
+;
 if
 (
 !
@@ -47984,6 +47999,7 @@ gBrowser
 .
 warnAboutClosingTabs
 (
+closingTabs
 gBrowser
 .
 closingTabsEnum
@@ -48241,6 +48257,7 @@ gBrowser
 .
 warnAboutClosingTabs
 (
+closingTabs
 gBrowser
 .
 closingTabsEnum
@@ -48383,6 +48400,7 @@ gBrowser
 .
 warnAboutClosingTabs
 (
+closingTabs
 gBrowser
 .
 closingTabsEnum
