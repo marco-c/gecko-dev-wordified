@@ -28,9 +28,17 @@ executorselenium
 import
 (
 SeleniumTestharnessExecutor
+#
+noqa
+:
+F401
                                           
 SeleniumRefTestExecutor
 )
+#
+noqa
+:
+F401
 from
 .
 .
@@ -39,6 +47,10 @@ executors
 executorinternetexplorer
 import
 InternetExplorerDriverWdspecExecutor
+#
+noqa
+:
+F401
 __wptrunner__
 =
 {
@@ -194,13 +206,6 @@ run_info_data
 kwargs
 )
 :
-    
-from
-selenium
-.
-webdriver
-import
-DesiredCapabilities
     
 options
 =

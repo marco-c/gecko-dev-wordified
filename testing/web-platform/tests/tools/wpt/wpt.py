@@ -12,6 +12,10 @@ from
 tools
 import
 localpaths
+#
+noqa
+:
+flake8
 from
 six
 import

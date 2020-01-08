@@ -13,11 +13,14 @@ testfiles
 import
 branch_point
 files_changed
-affected_testfiles
 from
 tools
 import
 localpaths
+#
+noqa
+:
+F401
 from
 six
 import

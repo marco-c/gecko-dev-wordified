@@ -11,8 +11,6 @@ subprocess
 import
 sys
 import
-tempfile
-import
 mozinfo
 import
 mozleak
@@ -73,11 +71,23 @@ executormarionette
 import
 (
 MarionetteTestharnessExecutor
+#
+noqa
+:
+F401
                                             
 MarionetteRefTestExecutor
+#
+noqa
+:
+F401
                                             
 MarionetteWdspecExecutor
 )
+#
+noqa
+:
+F401
 here
 =
 os

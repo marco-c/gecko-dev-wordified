@@ -28,9 +28,17 @@ executorselenium
 import
 (
 SeleniumTestharnessExecutor
+#
+noqa
+:
+F401
                                           
 SeleniumRefTestExecutor
 )
+#
+noqa
+:
+F401
 __wptrunner__
 =
 {

@@ -107,6 +107,10 @@ from
 tools
 import
 localpaths
+#
+noqa
+:
+F401
 logger
 =
 None

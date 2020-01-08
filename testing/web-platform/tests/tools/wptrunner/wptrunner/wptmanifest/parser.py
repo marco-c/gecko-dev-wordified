@@ -55,8 +55,6 @@ from
 __future__
 import
 unicode_literals
-import
-types
 from
 cStringIO
 import

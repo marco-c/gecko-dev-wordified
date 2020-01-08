@@ -55,6 +55,10 @@ from
 tools
 import
 localpaths
+#
+noqa
+:
+flake8
 class
 LoadConfig
 (

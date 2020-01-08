@@ -22,9 +22,17 @@ executorselenium
 import
 (
 SeleniumTestharnessExecutor
+#
+noqa
+:
+F401
                                           
 SeleniumRefTestExecutor
 )
+#
+noqa
+:
+F401
 from
 .
 .
@@ -33,6 +41,10 @@ executors
 executorwebkit
 import
 WebKitDriverWdspecExecutor
+#
+noqa
+:
+F401
 from
 .
 .

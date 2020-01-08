@@ -30,9 +30,17 @@ executorselenium
 import
 (
 SeleniumTestharnessExecutor
+#
+noqa
+:
+F401
                                           
 SeleniumRefTestExecutor
 )
+#
+noqa
+:
+F401
 from
 .
 .
@@ -41,6 +49,10 @@ executors
 executorchrome
 import
 ChromeDriverWdspecExecutor
+#
+noqa
+:
+F401
 __wptrunner__
 =
 {

@@ -1,6 +1,4 @@
 import
-os
-import
 sys
 from
 os
@@ -57,6 +55,10 @@ from
 tools
 import
 localpaths
+#
+noqa
+:
+F401
 from
 wptserve
 import
