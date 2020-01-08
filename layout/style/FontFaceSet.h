@@ -584,7 +584,7 @@ aLanguageOverride
 gfxCharacterMap
 *
 aUnicodeRanges
-uint8_t
+StyleFontDisplay
 aFontDisplay
 RangeFlags
 aRangeFlags
