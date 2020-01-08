@@ -7250,9 +7250,10 @@ invalidation
 inside
 3d
 transforms
+.
 /
 /
-for
+For
 now
 just
 paint
@@ -7261,6 +7262,7 @@ as
 a
 single
 item
+.
 BlobItemData
 *
 data
