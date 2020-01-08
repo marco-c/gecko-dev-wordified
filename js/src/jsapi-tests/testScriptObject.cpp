@@ -781,6 +781,13 @@ script_filename
 1
 )
 ;
+options
+.
+setUTF8
+(
+true
+)
+;
 JS
 :
 :
@@ -795,7 +802,7 @@ CHECK
 JS
 :
 :
-Compile
+CompileUtf8Path
 (
 cx
 options
@@ -875,6 +882,13 @@ script_filename
 1
 )
 ;
+options
+.
+setUTF8
+(
+true
+)
+;
 JS
 :
 :
@@ -889,7 +903,7 @@ CHECK
 JS
 :
 :
-Compile
+CompileUtf8Path
 (
 cx
 options
