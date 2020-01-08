@@ -93,7 +93,6 @@ api
 :
 :
 {
-GlyphKey
 ImageData
 ImageDescriptor
 ImageFormat
@@ -154,6 +153,14 @@ glyph_rasterizer
 {
 FontInstance
 FontContexts
+GlyphKey
+}
+;
+use
+glyph_rasterizer
+:
+:
+{
 GlyphRasterizer
 GlyphRasterJob
 GlyphRasterJobs

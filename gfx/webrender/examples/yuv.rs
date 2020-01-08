@@ -554,11 +554,11 @@ builder
 &
 mut
 DisplayListBuilder
-resources
+txn
 :
 &
 mut
-ResourceUpdates
+Transaction
 _framebuffer_size
 :
 DeviceUintSize
@@ -667,7 +667,7 @@ generate_image_key
 (
 )
 ;
-resources
+txn
 .
 add_image
 (
@@ -719,7 +719,7 @@ Default
 None
 )
 ;
-resources
+txn
 .
 add_image
 (
@@ -771,7 +771,7 @@ Default
 None
 )
 ;
-resources
+txn
 .
 add_image
 (
@@ -823,7 +823,7 @@ Default
 None
 )
 ;
-resources
+txn
 .
 add_image
 (

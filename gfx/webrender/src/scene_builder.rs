@@ -65,7 +65,7 @@ DocumentId
 PipelineId
 ApiMsg
 FrameMsg
-ResourceUpdates
+ResourceUpdate
 }
 ;
 use
@@ -174,7 +174,10 @@ SceneRequest
 >
 resource_updates
 :
-ResourceUpdates
+Vec
+<
+ResourceUpdate
+>
 frame_ops
 :
 Vec
@@ -223,7 +226,10 @@ BuiltScene
 >
 resource_updates
 :
-ResourceUpdates
+Vec
+<
+ResourceUpdate
+>
 frame_ops
 :
 Vec

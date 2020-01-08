@@ -2312,6 +2312,8 @@ Debug
 Deserialize
 PartialEq
 Serialize
+Hash
+Eq
 )
 ]
 pub

@@ -3800,15 +3800,14 @@ self
 updates
 :
 &
-ResourceUpdates
+[
+ResourceUpdate
+]
 )
 {
 for
 update
 in
-&
-updates
-.
 updates
 {
 match
@@ -4119,6 +4118,8 @@ types
 only
 make
 sense
+/
+/
 within
 the
 gecko
