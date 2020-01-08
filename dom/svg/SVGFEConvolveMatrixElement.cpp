@@ -363,7 +363,6 @@ sEdgeModeMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -371,7 +370,6 @@ duplicate
 SVG_EDGEMODE_DUPLICATE
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -379,7 +377,6 @@ wrap
 SVG_EDGEMODE_WRAP
 }
 {
-&
 nsGkAtoms
 :
 :

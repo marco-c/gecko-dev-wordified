@@ -214,7 +214,6 @@ sTypeMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -222,7 +221,6 @@ matrix
 SVG_FECOLORMATRIX_TYPE_MATRIX
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -230,7 +228,6 @@ saturate
 SVG_FECOLORMATRIX_TYPE_SATURATE
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -238,7 +235,6 @@ hueRotate
 SVG_FECOLORMATRIX_TYPE_HUE_ROTATE
 }
 {
-&
 nsGkAtoms
 :
 :

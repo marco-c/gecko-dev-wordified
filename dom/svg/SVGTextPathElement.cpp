@@ -298,7 +298,6 @@ sMethodMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -306,7 +305,6 @@ align
 TEXTPATH_METHODTYPE_ALIGN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -329,7 +327,6 @@ sSpacingMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -337,7 +334,6 @@ _auto
 TEXTPATH_SPACINGTYPE_AUTO
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -360,7 +356,6 @@ sSideMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -368,7 +363,6 @@ left
 TEXTPATH_SIDETYPE_LEFT
 }
 {
-&
 nsGkAtoms
 :
 :

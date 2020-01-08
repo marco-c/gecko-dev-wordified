@@ -211,9 +211,10 @@ nsSVGEnumMapping
 {
 nsStaticAtom
 *
-*
+const
 mKey
 ;
+const
 nsSVGEnumValue
 mVal
 ;

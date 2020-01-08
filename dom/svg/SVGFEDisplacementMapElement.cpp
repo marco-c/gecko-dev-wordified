@@ -233,7 +233,6 @@ sChannelMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -241,7 +240,6 @@ R
 SVG_CHANNEL_R
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -249,7 +247,6 @@ G
 SVG_CHANNEL_G
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -257,7 +254,6 @@ B
 SVG_CHANNEL_B
 }
 {
-&
 nsGkAtoms
 :
 :

@@ -675,7 +675,6 @@ sSVGUnitTypesMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -683,7 +682,6 @@ userSpaceOnUse
 SVG_UNIT_TYPE_USERSPACEONUSE
 }
 {
-&
 nsGkAtoms
 :
 :

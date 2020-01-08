@@ -305,7 +305,6 @@ sTypeMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -313,7 +312,6 @@ fractalNoise
 SVG_TURBULENCE_TYPE_FRACTALNOISE
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -336,7 +334,6 @@ sStitchTilesMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -344,7 +341,6 @@ stitch
 SVG_STITCHTYPE_STITCH
 }
 {
-&
 nsGkAtoms
 :
 :

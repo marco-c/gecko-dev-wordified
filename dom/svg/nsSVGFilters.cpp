@@ -1514,7 +1514,6 @@ sTypeMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -1522,7 +1521,6 @@ identity
 SVG_FECOMPONENTTRANSFER_TYPE_IDENTITY
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -1530,7 +1528,6 @@ table
 SVG_FECOMPONENTTRANSFER_TYPE_TABLE
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -1538,7 +1535,6 @@ discrete
 SVG_FECOMPONENTTRANSFER_TYPE_DISCRETE
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -1546,7 +1542,6 @@ linear
 SVG_FECOMPONENTTRANSFER_TYPE_LINEAR
 }
 {
-&
 nsGkAtoms
 :
 :
