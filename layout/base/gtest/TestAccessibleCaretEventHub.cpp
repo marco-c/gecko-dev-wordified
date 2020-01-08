@@ -1413,7 +1413,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMousePressReleaseOnNoCaret
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestPressReleaseOnNoCaret
 (
@@ -1427,7 +1427,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchPressReleaseOnNoCaret
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestPressReleaseOnNoCaret
 (
@@ -1556,7 +1556,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMousePressReleaseOnCaret
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestPressReleaseOnCaret
 (
@@ -1570,7 +1570,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchPressReleaseOnCaret
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestPressReleaseOnCaret
 (
@@ -1730,7 +1730,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMousePressMoveReleaseOnNoCaret
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestPressMoveReleaseOnNoCaret
 (
@@ -1745,7 +1745,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchPressMoveReleaseOnNoCaret
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestPressMoveReleaseOnNoCaret
 (
@@ -1987,7 +1987,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMousePressMoveReleaseOnCaret
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestPressMoveReleaseOnCaret
 (
@@ -2002,7 +2002,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchPressMoveReleaseOnCaret
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestPressMoveReleaseOnCaret
 (
@@ -2340,7 +2340,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchStartMoveEndOnCaretWithTouchCancelIgnored
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 nscoord
 x0
@@ -2650,7 +2650,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMouseLongTapWithSelectWordSuccessful
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestLongTapWithSelectWordSuccessful
 (
@@ -2664,7 +2664,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchLongTapWithSelectWordSuccessful
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestLongTapWithSelectWordSuccessful
 (
@@ -3074,7 +3074,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMouseLongTapWithSelectWordFailed
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestLongTapWithSelectWordFailed
 (
@@ -3088,7 +3088,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchLongTapWithSelectWordFailed
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestLongTapWithSelectWordFailed
 (
@@ -3222,7 +3222,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestTouchEventDrivenAsyncPanZoomScroll
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestEventDrivenAsyncPanZoomScroll
 (
@@ -3237,7 +3237,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestMouseEventDrivenAsyncPanZoomScroll
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestEventDrivenAsyncPanZoomScroll
 (
@@ -3787,7 +3787,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestAsyncPanZoomScroll
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 TestAsyncPanZoomScroll
 (
@@ -4102,7 +4102,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestAsyncPanZoomScrollStartedThenBlur
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 {
 InSequence
@@ -4232,7 +4232,7 @@ TEST_F
 AccessibleCaretEventHubTester
 TestAsyncPanZoomScrollEndedThenBlur
 )
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 {
 InSequence
