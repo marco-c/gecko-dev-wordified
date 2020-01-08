@@ -4436,16 +4436,10 @@ MOZ_CONTENT_SANDBOX
 )
 mParentProxyStream
 =
-std
-:
-:
-move
-(
 holder
 .
 GetPreservedStream
 (
-)
 )
 ;
 #

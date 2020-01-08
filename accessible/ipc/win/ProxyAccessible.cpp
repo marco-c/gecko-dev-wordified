@@ -1281,9 +1281,9 @@ nsIntRect
 nsIntRect
 rect
 ;
-HRESULT
-hr
-=
+Unused
+<
+<
 custom
 -
 >
@@ -2178,13 +2178,7 @@ targets
 )
 ;
 return
-std
-:
-:
-move
-(
 proxies
-)
 ;
 }
 double
