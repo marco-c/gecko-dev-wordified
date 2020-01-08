@@ -130,13 +130,6 @@ h
 #
 include
 "
-FrameMetrics
-.
-h
-"
-#
-include
-"
 ImageTypes
 .
 h
