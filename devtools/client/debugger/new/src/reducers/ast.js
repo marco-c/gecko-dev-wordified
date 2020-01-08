@@ -1068,7 +1068,7 @@ isEmptyLineInSource
 (
 state
 line
-selectedSource
+selectedSourceId
 )
 {
 const
@@ -1077,7 +1077,7 @@ emptyLines
 getEmptyLines
 (
 state
-selectedSource
+selectedSourceId
 )
 ;
 return
@@ -1096,13 +1096,13 @@ function
 getEmptyLines
 (
 state
-source
+sourceId
 )
 {
 if
 (
 !
-source
+sourceId
 )
 {
 return
@@ -1118,9 +1118,7 @@ emptyLines
 .
 get
 (
-source
-.
-id
+sourceId
 )
 ;
 }

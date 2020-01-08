@@ -198,7 +198,7 @@ await
 onPaused
 ;
 await
-waitForLoadedSource
+waitForSelectedSource
 (
 dbg
 "

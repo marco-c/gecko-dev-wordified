@@ -1293,9 +1293,7 @@ getEmptyLines
 state
 selectedSource
 .
-toJS
-(
-)
+id
 )
 }
 ;

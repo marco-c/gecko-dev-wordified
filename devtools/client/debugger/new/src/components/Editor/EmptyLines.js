@@ -401,9 +401,7 @@ getEmptyLines
 state
 selectedSource
 .
-toJS
-(
-)
+id
 )
 ;
 return

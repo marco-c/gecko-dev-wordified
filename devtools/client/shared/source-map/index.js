@@ -4588,6 +4588,18 @@ getOriginalURLs
 )
 ;
 const
+getOriginalRanges
+=
+dispatcher
+.
+task
+(
+"
+getOriginalRanges
+"
+)
+;
+const
 getGeneratedRanges
 =
 dispatcher
@@ -4721,6 +4733,7 @@ isGeneratedId
 isOriginalId
 hasMappedSource
 getOriginalURLs
+getOriginalRanges
 getGeneratedRanges
 getGeneratedLocation
 getAllGeneratedLocations
