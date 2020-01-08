@@ -522,9 +522,6 @@ overrides
 void
 UpdateHrefTarget
 (
-nsIContent
-*
-aNodeForContext
 const
 nsAString
 &
