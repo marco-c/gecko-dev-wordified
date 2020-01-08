@@ -601,7 +601,7 @@ permissionsText
 "
 )
 ;
-const
+let
 l10n
 =
 sitePermissionsL10n
@@ -842,7 +842,6 @@ _loadPermissions
 (
 )
 ;
-await
 this
 .
 buildPermissionsList
@@ -2333,7 +2332,6 @@ close
 )
 ;
 }
-async
 buildPermissionsList
 (
 sortCol
