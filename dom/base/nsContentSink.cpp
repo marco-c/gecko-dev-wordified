@@ -9088,7 +9088,7 @@ aName
 {
 aName
 .
-AssignASCII
+AssignLiteral
 (
 "
 nsContentSink_timer

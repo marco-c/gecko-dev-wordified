@@ -3081,7 +3081,7 @@ aName
 {
 aName
 .
-AssignASCII
+AssignLiteral
 (
 "
 PendingAlertsCollector_timer

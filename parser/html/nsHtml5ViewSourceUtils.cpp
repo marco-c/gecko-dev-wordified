@@ -260,7 +260,7 @@ style
 ;
 style
 .
-AssignASCII
+AssignLiteral
 (
 "
 -

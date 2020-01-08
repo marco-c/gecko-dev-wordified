@@ -1234,7 +1234,7 @@ aName
 {
 aName
 .
-AssignASCII
+AssignLiteral
 (
 "
 UITimerCallback_timer

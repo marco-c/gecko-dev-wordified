@@ -398,7 +398,7 @@ used
 .
 aResult
 .
-AssignASCII
+AssignLiteral
 (
 "
 DIRECT

@@ -3934,7 +3934,7 @@ updater
 .
 pid
 .
-AssignASCII
+AssignLiteral
 (
 "
 0
@@ -4018,7 +4018,7 @@ update
 .
 pid
 .
-AssignASCII
+AssignLiteral
 (
 "
 -

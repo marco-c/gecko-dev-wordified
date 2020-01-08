@@ -26511,7 +26511,7 @@ NS_ERROR_NOT_AVAILABLE
 {
 log
 .
-AssignASCII
+AssignLiteral
 (
 "
 Concurrent
@@ -26548,7 +26548,7 @@ return
 }
 log
 .
-AssignASCII
+AssignLiteral
 (
 "
 Starting
@@ -26663,7 +26663,7 @@ log
 ;
 log
 .
-AssignASCII
+AssignLiteral
 (
 "
 Starting
