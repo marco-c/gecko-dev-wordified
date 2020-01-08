@@ -3766,6 +3766,26 @@ FAILURE
 )
     
 #
+HTTP
+/
+2
+sent
+a
+GOAWAY
+    
+errors
+[
+"
+NS_ERROR_NET_HTTP2_SENT_GOAWAY
+"
+]
+=
+FAILURE
+(
+83
+)
+    
+#
 XXX
 really
 need
