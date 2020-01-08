@@ -10370,7 +10370,7 @@ nsIFrame
 *
 parent
 =
-GetClosestFlattenedTreeAncestorPrimaryFrame
+GetInFlowParent
 (
 )
 ;
@@ -16505,7 +16505,7 @@ frame
 aDescendant
 -
 >
-GetClosestFlattenedTreeAncestorPrimaryFrame
+GetInFlowParent
 (
 )
 ;
@@ -16522,7 +16522,7 @@ frame
 frame
 -
 >
-GetClosestFlattenedTreeAncestorPrimaryFrame
+GetInFlowParent
 (
 )
 )
