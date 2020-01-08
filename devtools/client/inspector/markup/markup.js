@@ -668,6 +668,14 @@ inspector
 ;
 this
 .
+highlighters
+=
+inspector
+.
+highlighters
+;
+this
+.
 walker
 =
 this
@@ -12213,6 +12221,12 @@ null
 this
 .
 doc
+=
+null
+;
+this
+.
+highlighters
 =
 null
 ;
