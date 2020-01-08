@@ -12455,12 +12455,6 @@ endif
 void
 EnsurePreInsertionValidity1
 (
-nsINode
-&
-aNewChild
-nsINode
-*
-aRefChild
 mozilla
 :
 :
