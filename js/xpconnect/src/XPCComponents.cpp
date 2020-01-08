@@ -17479,6 +17479,8 @@ nsILoadContext
 >
 loadContext
 =
+:
+:
 CreateLoadContext
 (
 )
@@ -17517,6 +17519,8 @@ nsILoadContext
 >
 loadContext
 =
+:
+:
 CreatePrivateLoadContext
 (
 )
