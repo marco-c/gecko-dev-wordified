@@ -854,6 +854,11 @@ onComplete
 SpecialPowers
 .
 quit
+.
+bind
+(
+SpecialPowers
+)
 ;
 }
 if
