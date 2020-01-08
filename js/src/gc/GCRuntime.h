@@ -4575,15 +4575,6 @@ in
 each
 zone
 .
-Protected
-by
-the
-/
-/
-exclusive
-access
-lock
-.
 AtomMarkingRuntime
 atomMarking
 ;

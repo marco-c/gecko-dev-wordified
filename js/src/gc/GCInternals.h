@@ -550,14 +550,13 @@ any
 code
 that
 needs
-to
 exclusive
 access
 to
 the
-/
-/
 heap
+/
+/
 in
 order
 to
