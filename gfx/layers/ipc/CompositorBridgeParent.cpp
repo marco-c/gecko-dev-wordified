@@ -3764,7 +3764,7 @@ mWrBridge
 mWrBridge
 -
 >
-ScheduleGenerateFrame
+ScheduleForcedGenerateFrame
 (
 )
 ;
