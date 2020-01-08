@@ -569,6 +569,7 @@ FirstChild
 }
 class
 nsDisplayFieldSetBorder
+final
 :
 public
 nsDisplayItem
