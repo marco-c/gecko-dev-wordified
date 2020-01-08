@@ -186,11 +186,11 @@ Classifier
 {
 public
 :
-Classifier
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
+Classifier
 )
 ;
-~
 Classifier
 (
 )
@@ -754,6 +754,11 @@ aCache
 ;
 private
 :
+~
+Classifier
+(
+)
+;
 void
 DropStores
 (

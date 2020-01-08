@@ -1467,7 +1467,7 @@ aResult
 )
 const
 ;
-nsAutoPtr
+RefPtr
 <
 mozilla
 :
