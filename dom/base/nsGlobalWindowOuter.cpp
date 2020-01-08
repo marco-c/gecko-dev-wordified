@@ -37171,14 +37171,7 @@ finder
 >
 SetSearchString
 (
-PromiseFlatString
-(
 aString
-)
-.
-get
-(
-)
 )
 ;
 if

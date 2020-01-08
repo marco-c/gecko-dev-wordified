@@ -1550,10 +1550,6 @@ mWebBrowserFind
 SetSearchString
 (
 mTypeAheadBuffer
-.
-get
-(
-)
 )
 ;
 /
