@@ -704,8 +704,9 @@ nameStr
 pathStr
 nameStr
 pathStr
-"
-"
+EmptyCString
+(
+)
 "
 "
 )

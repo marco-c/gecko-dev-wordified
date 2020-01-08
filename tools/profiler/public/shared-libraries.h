@@ -224,10 +224,7 @@ nsString
 &
 aDebugPath
 const
-std
-:
-:
-string
+nsCString
 &
 aVersion
 const
@@ -676,10 +673,7 @@ mDebugPath
 ;
 }
 const
-std
-:
-:
-string
+nsCString
 &
 GetVersion
 (
@@ -752,10 +746,7 @@ mDebugName
 nsString
 mDebugPath
 ;
-std
-:
-:
-string
+nsCString
 mVersion
 ;
 std

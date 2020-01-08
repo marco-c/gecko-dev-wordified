@@ -4400,7 +4400,7 @@ GetVersion
 (
 )
 .
-empty
+IsEmpty
 (
 )
 )
@@ -4421,7 +4421,7 @@ GetVersion
 (
 )
 .
-c_str
+BeginReading
 (
 )
 )
