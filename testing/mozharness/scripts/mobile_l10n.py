@@ -187,14 +187,6 @@ OutputParser
 from
 mozharness
 .
-base
-.
-transfer
-import
-TransferMixin
-from
-mozharness
-.
 mozilla
 .
 automation
@@ -246,8 +238,6 @@ class
 MobileSingleLocale
 (
 LocalesMixin
-                         
-TransferMixin
 TooltoolMixin
 AutomationMixin
                          
