@@ -11673,11 +11673,7 @@ aObj
 "
 d3d11
 "
-FEATURE_DIRECT3D_11_ANGLE
-Some
-(
 d3d11
-)
 &
 obj
 )
@@ -11907,14 +11903,7 @@ aObj
 "
 d2d
 "
-nsIGfxInfo
-:
-:
-FEATURE_DIRECT2D
-Some
-(
 d2d
-)
 &
 obj
 )
