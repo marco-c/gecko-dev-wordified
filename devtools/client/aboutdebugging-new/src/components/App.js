@@ -332,6 +332,13 @@ object
 )
 .
 isRequired
+isScanningUsb
+:
+PropTypes
+.
+bool
+.
+isRequired
 networkEnabled
 :
 PropTypes
@@ -480,6 +487,7 @@ const
 adbAddonStatus
 dispatch
 fluentBundles
+isScanningUsb
 networkRuntimes
 selectedPage
 usbRuntimes
@@ -518,6 +526,7 @@ className
 app__sidebar
 "
 dispatch
+isScanningUsb
 networkRuntimes
 selectedPage
 usbRuntimes
@@ -561,6 +570,13 @@ state
 ui
 .
 adbAddonStatus
+isScanningUsb
+:
+state
+.
+ui
+.
+isScanningUsb
 networkEnabled
 :
 state
