@@ -22557,6 +22557,8 @@ status
         
 except
 Exception
+as
+e
 :
             
 traceback
@@ -22586,6 +22588,41 @@ application
 n
 "
 )
+            
+if
+'
+ADBTimeoutError
+'
+in
+repr
+(
+e
+)
+:
+                
+self
+.
+log
+.
+info
+(
+"
+runtests
+.
+py
+|
+Device
+disconnected
+.
+Aborting
+test
+.
+\
+n
+"
+)
+                
+raise
             
 status
 =

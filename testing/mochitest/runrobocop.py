@@ -136,6 +136,7 @@ from
 mozdevice
 import
 ADBAndroid
+ADBTimeoutError
 import
 mozfile
 import
@@ -3006,6 +3007,12 @@ device
 .
 test_root
 )
+        
+except
+ADBTimeoutError
+:
+            
+raise
         
 except
 Exception

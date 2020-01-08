@@ -116,6 +116,7 @@ from
 mozdevice
 import
 ADBAndroid
+ADBTimeoutError
 import
 mozinfo
 SCRIPT_DIR
@@ -2292,6 +2293,12 @@ test_root
 )
         
 except
+ADBTimeoutError
+:
+            
+raise
+        
+except
 Exception
 as
 e
@@ -2744,6 +2751,10 @@ printDeviceInfo
 try
 :
         
+device_exception
+=
+False
+        
 if
 options
 .
@@ -2773,6 +2784,8 @@ options
     
 except
 Exception
+as
+e
 :
         
 mochitest
@@ -2799,20 +2812,57 @@ print_exc
 (
 )
         
-try
+if
+isinstance
+(
+e
+ADBTimeoutError
+)
 :
             
+mochitest
+.
+log
+.
+info
+(
+"
+Device
+disconnected
+.
+Will
+not
+run
+mochitest
+.
+cleanup
+(
+)
+.
+"
+)
+            
+device_exception
+=
+True
+        
+else
+:
+            
+try
+:
+                
 mochitest
 .
 cleanup
 (
 options
 )
-        
+            
 except
 Exception
 :
-            
+                
 #
 device
 error
@@ -2824,7 +2874,7 @@ up
 oh
 well
 !
-            
+                
 traceback
 .
 print_exc
@@ -2836,6 +2886,9 @@ retVal
 1
     
 if
+not
+device_exception
+and
 options
 .
 log_mach

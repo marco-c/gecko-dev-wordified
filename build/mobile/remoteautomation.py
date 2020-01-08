@@ -76,6 +76,10 @@ automation
 import
 Automation
 from
+mozdevice
+import
+ADBTimeoutError
+from
 mozlog
 import
 get_default_logger
@@ -2414,6 +2418,12 @@ stdoutlen
 )
             
 except
+ADBTimeoutError
+:
+                
+raise
+            
+except
 Exception
 :
                 
@@ -2819,6 +2829,12 @@ todo
 +
 =
 val
+                                
+except
+ADBTimeoutError
+:
+                                    
+raise
                                 
 except
 Exception
@@ -3381,6 +3397,12 @@ attempts
 )
                 
 except
+ADBTimeoutError
+:
+                    
+raise
+                
+except
 :
 #
 NOQA
@@ -3430,6 +3452,12 @@ attempts
 =
 1
 )
+                
+except
+ADBTimeoutError
+:
+                    
+raise
                 
 except
 :
@@ -3527,6 +3555,12 @@ attempts
 =
 1
 )
+                
+except
+ADBTimeoutError
+:
+                    
+raise
                 
 except
 :
