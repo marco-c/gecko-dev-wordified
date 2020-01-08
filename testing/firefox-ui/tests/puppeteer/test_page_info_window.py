@@ -181,33 +181,6 @@ deck
 )
         
 #
-feed
-panel
-        
-self
-.
-assertEqual
-(
-page_info
-.
-deck
-.
-feed
-.
-element
-.
-get_property
-(
-'
-localName
-'
-)
-'
-vbox
-'
-)
-        
-#
 general
 panel
         
