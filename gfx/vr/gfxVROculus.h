@@ -403,9 +403,6 @@ bool
 mRequestTracking
 ;
 bool
-mTracking
-;
-bool
 mDrawBlack
 ;
 bool
