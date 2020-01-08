@@ -49652,7 +49652,6 @@ mContainer
 bool
 haveNoXBLChildren
 =
-(
 !
 iter
 .
@@ -49666,7 +49665,6 @@ iter
 .
 GetNextChild
 (
-)
 )
 ;
 if
