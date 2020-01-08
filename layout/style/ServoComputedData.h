@@ -129,6 +129,9 @@ ServoTypes
 .
 h
 "
+class
+nsWindowSizes
+;
 /
 *
 *
