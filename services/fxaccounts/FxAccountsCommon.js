@@ -736,6 +736,16 @@ statechange
 ;
 exports
 .
+ON_NEW_DEVICE_ID
+=
+"
+fxaccounts
+:
+new_device_id
+"
+;
+exports
+.
 COMMAND_SENDTAB
 =
 "
