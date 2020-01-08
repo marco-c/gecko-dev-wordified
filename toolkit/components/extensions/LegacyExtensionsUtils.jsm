@@ -882,7 +882,7 @@ webextension
 *
 param
 {
-number
+string
 }
 reason
 *
@@ -897,6 +897,13 @@ received
 from
 the
 XPIProvider
+one
+of
+*
+the
+keys
+in
+BOOTSTRAP_REASONS
 .
 *
 param
@@ -1069,6 +1076,7 @@ this
 .
 version
 }
+reason
 )
 ;
 this
@@ -1360,7 +1368,7 @@ onBeforeStarted
 /
 /
 Run
-ambedded
+embedded
 extension
 startup
 and
@@ -1380,7 +1388,6 @@ extension
 .
 startup
 (
-reason
 )
 .
 catch
@@ -1446,7 +1453,7 @@ webextension
 *
 param
 {
-number
+string
 }
 reason
 *
@@ -1461,6 +1468,13 @@ received
 from
 the
 XPIProvider
+one
+*
+of
+the
+keys
+in
+BOOTSTRAP_REASONS
 .
 *
 *
