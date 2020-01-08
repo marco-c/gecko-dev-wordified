@@ -175,9 +175,9 @@ devtools
 /
 client
 /
-shared
+debugger
 /
-widgets
+content
 /
 tooltip
 /
