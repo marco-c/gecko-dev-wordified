@@ -664,12 +664,11 @@ empty
 :
 if
 (
-isTabEmpty
-(
 gBrowser
 .
 selectedTab
-)
+.
+isEmpty
 )
 {
 tabsToClose

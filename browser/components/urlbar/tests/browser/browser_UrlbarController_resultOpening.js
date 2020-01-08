@@ -331,8 +331,12 @@ sandbox
 stub
 (
 window
+.
+gBrowser
+.
+selectedTab
 "
-isTabEmpty
+isEmpty
 "
 )
 .
