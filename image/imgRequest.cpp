@@ -327,6 +327,15 @@ include
 "
 mozilla
 /
+SizeOfState
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
