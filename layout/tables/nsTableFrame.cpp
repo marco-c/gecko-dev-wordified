@@ -1962,7 +1962,7 @@ easy
 if
 (
 !
-IS_TABLE_CELL
+IsTableCell
 (
 aFrame
 -
@@ -12508,7 +12508,7 @@ Type
 ;
 if
 (
-IS_TABLE_CELL
+IsTableCell
 (
 frameType
 )
@@ -12684,7 +12684,7 @@ aReflowInput
 {
 NS_ASSERTION
 (
-IS_TABLE_CELL
+IsTableCell
 (
 aReflowInput
 .
@@ -12982,7 +12982,7 @@ Type
 ;
 NS_ASSERTION
 (
-IS_TABLE_CELL
+IsTableCell
 (
 frameType
 )

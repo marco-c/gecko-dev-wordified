@@ -1430,7 +1430,7 @@ suffix
 }
 static
 bool
-IS_TABLE_CELL
+IsTableCell
 (
 LayoutFrameType
 frameType
@@ -1476,7 +1476,7 @@ Type
 ;
 if
 (
-IS_TABLE_CELL
+IsTableCell
 (
 frameType
 )

@@ -5112,7 +5112,7 @@ nsBoxFrame
 .
 if
 (
-IS_TABLE_CELL
+IsTableCell
 (
 aFrameType
 )
@@ -5947,7 +5947,7 @@ mCBReflowInput
 &
 &
 (
-IS_TABLE_CELL
+IsTableCell
 (
 mCBReflowInput
 -
@@ -17071,7 +17071,7 @@ mParentReflowInput
 {
 if
 (
-IS_TABLE_CELL
+IsTableCell
 (
 cbri
 -
@@ -17419,7 +17419,7 @@ CompatibilityMode
 if
 (
 !
-IS_TABLE_CELL
+IsTableCell
 (
 cbri
 -

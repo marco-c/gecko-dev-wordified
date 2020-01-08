@@ -54893,7 +54893,7 @@ cell
 frame
 if
 (
-IS_TABLE_CELL
+IsTableCell
 (
 cellFrame
 -
@@ -54950,7 +54950,7 @@ rowFrame
 else
 if
 (
-IS_TABLE_CELL
+IsTableCell
 (
 frameType
 )
