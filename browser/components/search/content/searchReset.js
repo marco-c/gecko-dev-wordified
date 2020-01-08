@@ -330,7 +330,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 let
 submission
@@ -500,7 +500,7 @@ keepCurrentEngine
 /
 Calling
 the
-currentEngine
+defaultEngine
 setter
 will
 force
@@ -544,13 +544,13 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 record
 (
@@ -601,7 +601,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;
