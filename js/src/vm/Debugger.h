@@ -1165,9 +1165,11 @@ zone
 )
 )
 )
+{
 return
 false
 ;
+}
 bool
 ok
 =
@@ -1186,6 +1188,7 @@ if
 !
 ok
 )
+{
 decZoneCount
 (
 k
@@ -1196,6 +1199,7 @@ zone
 )
 )
 ;
+}
 return
 ok
 ;
@@ -1346,6 +1350,7 @@ key
 (
 )
 )
+{
 e
 .
 rekeyFront
@@ -1353,6 +1358,7 @@ rekeyFront
 key
 )
 ;
+}
 key
 .
 unsafeSet
@@ -1570,6 +1576,7 @@ zone
 0
 )
 )
+{
 return
 false
 ;
@@ -1580,6 +1587,7 @@ OOM
 d
 while
 adding
+}
 +
 +
 p
@@ -1655,6 +1663,7 @@ value
 =
 0
 )
+{
 zoneCounts
 .
 remove
@@ -1662,6 +1671,7 @@ remove
 zone
 )
 ;
+}
 }
 }
 ;
@@ -12753,9 +12763,11 @@ isEmpty
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 &
 (
@@ -13004,8 +13016,10 @@ hideScriptFromDebugger
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 script
@@ -13020,12 +13034,14 @@ isDebuggee
 (
 )
 )
+{
 slowPathOnNewScript
 (
 cx
 script
 )
 ;
+}
 }
 /
 *
@@ -13099,6 +13115,7 @@ isEmpty
 (
 )
 )
+{
 Debugger
 :
 :
@@ -13108,6 +13125,7 @@ cx
 global
 )
 ;
+}
 }
 /
 *
@@ -13167,9 +13185,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 RootedObject
 hobj
 (
