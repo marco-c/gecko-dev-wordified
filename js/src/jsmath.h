@@ -782,6 +782,14 @@ vp
 ;
 extern
 double
+math_sqrt_uncached
+(
+double
+x
+)
+;
+extern
+double
 math_sqrt_impl
 (
 MathCache
