@@ -11383,16 +11383,8 @@ aAddons
 await
 AddonManager
 .
-getAddonsByTypes
+getAllAddons
 (
-[
-"
-extension
-"
-"
-theme
-"
-]
 )
 ;
 var
