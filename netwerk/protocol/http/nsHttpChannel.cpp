@@ -4507,7 +4507,7 @@ Unused
 <
 AsyncAbort
 (
-NS_ERROR_TRACKING_ANNOTATION_URI
+NS_ERROR_ABORT
 )
 ;
 CloseCacheEntry
