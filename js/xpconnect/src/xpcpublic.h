@@ -3288,9 +3288,15 @@ ShouldDiscardSystemSource
 (
 )
 ;
-bool
-SharedMemoryEnabled
+void
+SetPrefableRealmOptions
 (
+JS
+:
+:
+RealmOptions
+&
+options
 )
 ;
 bool
