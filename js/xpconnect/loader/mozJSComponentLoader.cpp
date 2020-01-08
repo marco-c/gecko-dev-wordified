@@ -3079,10 +3079,10 @@ aTargetObject
 !
 IsLoaderGlobal
 (
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 aTargetObject
 )
