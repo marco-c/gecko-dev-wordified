@@ -401,6 +401,16 @@ GK_ATOM
 )
 "
 \
+s
+*
+(
+[
+^
+)
+]
+*
+)
+\
 )
 '
                          
@@ -467,6 +477,8 @@ CSS_PSEUDO_ELEMENT
 *
 )
 "
+(
+)
 '
                          
 re
@@ -559,6 +571,8 @@ CSS_WRAPPER_ANON_BOX
 *
 )
 "
+(
+)
 \
 )
 '
@@ -669,6 +683,7 @@ source
 macro_name
 ident
 value
+ty
 )
 :
         
@@ -715,6 +730,12 @@ self
 macro
 =
 macro_name
+        
+self
+.
+ty
+=
+ty
         
 if
 self
@@ -815,9 +836,7 @@ self
 return
 self
 .
-source
-.
-TYPE
+ty
     
 def
 capitalized
@@ -1024,6 +1043,19 @@ content
 )
 :
                 
+ty
+=
+result
+.
+group
+(
+4
+)
+or
+source
+.
+TYPE
+                
 atoms
 .
 append
@@ -1049,6 +1081,7 @@ group
 (
 3
 )
+ty
 )
 )
     
@@ -1672,15 +1705,29 @@ IMPORTS
 )
         
 for
-source
+ty
 in
-SOURCES
+sorted
+(
+set
+(
+[
+atom
+.
+type
+(
+)
+for
+atom
+in
+atoms
+]
+)
+)
 :
             
 if
-source
-.
-TYPE
+ty
 !
 =
 "
@@ -1709,9 +1756,7 @@ n
 .
 format
 (
-source
-.
-TYPE
+ty
 )
 )
         

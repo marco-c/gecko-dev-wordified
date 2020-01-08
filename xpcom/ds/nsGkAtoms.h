@@ -149,6 +149,7 @@ GK_ATOM
 (
 name_
 value_
+type_
 )
 NS_STATIC_ATOM_DECL_STRING
 (
@@ -175,6 +176,7 @@ GK_ATOM
 (
 name_
 value_
+type_
 )
 NS_STATIC_ATOM_ENUM
 (
@@ -272,10 +274,11 @@ GK_ATOM
 (
 name_
 value_
+type_
 )
 NS_STATIC_ATOM_DECL_PTR
 (
-nsStaticAtom
+type_
 name_
 )
 #
