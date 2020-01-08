@@ -4157,10 +4157,6 @@ StyleParseErrorKind
 UnknownProperty
 (
 name
-.
-clone
-(
-)
 )
 )
 )
@@ -4189,7 +4185,6 @@ self
 .
 declarations
 id
-name
 self
 .
 context
