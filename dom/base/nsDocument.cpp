@@ -77397,6 +77397,10 @@ Create
 (
 global
 aRv
+Promise
+:
+:
+ePropagateUserInteraction
 )
 ;
 if
