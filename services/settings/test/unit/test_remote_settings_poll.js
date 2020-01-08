@@ -3773,7 +3773,7 @@ main
 collection
 :
 "
-tippytop
+example
 "
 }
 ]
@@ -3840,7 +3840,7 @@ bucket
 /
 /
 The
-tippytop
+example
 has
 a
 dump
@@ -3904,7 +3904,7 @@ details
 .
 collection
 "
-tippytop
+example
 "
 )
 ;
