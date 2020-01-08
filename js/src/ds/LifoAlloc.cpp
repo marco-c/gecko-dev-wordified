@@ -194,7 +194,7 @@ bool
 protect
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 RoundUpPow2
 (
@@ -205,7 +205,7 @@ size
 size
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 size
 >
