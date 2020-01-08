@@ -726,8 +726,8 @@ pocket_learn_more
 "
 :
 "
-Learn
-More
+Argibide
+gehiago
 "
 "
 pocket_cta_button
