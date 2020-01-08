@@ -316,11 +316,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-FontTableURIProtocolHandler
+nsHostObjectProtocolHandler
 .
 h
 "
@@ -7533,12 +7529,6 @@ uri
 |
 |
 !
-mozilla
-:
-:
-dom
-:
-:
 IsFontTableURI
 (
 uri
@@ -8838,10 +8828,7 @@ PendingEvent
 >
 pendingEvents
 (
-std
-:
-:
-move
+Move
 (
 mPendingEvents
 )
@@ -9876,7 +9863,7 @@ nsRefreshDriver
 :
 Tick
 "
-GRAPHICS
+LAYOUT
 )
 ;
 /
