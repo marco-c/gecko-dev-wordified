@@ -220,7 +220,7 @@ override
 NS_IMETHOD
 UpdateDragImage
 (
-nsIDOMNode
+nsINode
 *
 aImage
 int32_t
@@ -330,7 +330,7 @@ operations
 bool
 CreateDragImage
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsIScriptableRegion

@@ -138,7 +138,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -2113,7 +2113,7 @@ currentDragSession
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 sourceNode
 ;

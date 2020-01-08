@@ -274,13 +274,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIOutputStream
 .
 h

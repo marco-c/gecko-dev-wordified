@@ -262,7 +262,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -16207,7 +16207,7 @@ different
 application
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 sourceNode
 ;

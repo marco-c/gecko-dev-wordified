@@ -210,10 +210,10 @@ class
 nsIContent
 ;
 class
-nsIDOMNode
+nsIDocument
 ;
 class
-nsIDocument
+nsINode
 ;
 class
 nsPresContext
@@ -623,7 +623,7 @@ used
 nsresult
 DrawDrag
 (
-nsIDOMNode
+nsINode
 *
 aDOMNode
 nsIScriptableRegion
@@ -887,7 +887,7 @@ mTargetSize
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mSourceNode
 ;
@@ -969,7 +969,7 @@ while
 dragging
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mImage
 ;

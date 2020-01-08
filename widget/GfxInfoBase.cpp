@@ -200,13 +200,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
