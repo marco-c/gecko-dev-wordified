@@ -11171,6 +11171,7 @@ popup
 setItems
 (
 finalList
+selectedIndex
 )
 ;
 this
