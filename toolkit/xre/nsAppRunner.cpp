@@ -26862,7 +26862,6 @@ InitializeUserPrefs
 (
 )
 ;
-{
 nsAppStartupNotifier
 :
 :
@@ -26871,7 +26870,6 @@ NotifyObservers
 APPSTARTUP_TOPIC
 )
 ;
-}
 nsCOMPtr
 <
 nsIAppStartup
