@@ -232,10 +232,11 @@ then
 =
 >
 {
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 xpipath
 )
 ;
