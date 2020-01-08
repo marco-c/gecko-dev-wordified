@@ -6231,7 +6231,7 @@ str
 )
 {
 return
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 NewUCString
@@ -6331,7 +6331,7 @@ v
 ;
 bytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -7543,7 +7543,7 @@ JS
 UniqueChars
 nameStr
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 name
@@ -8580,7 +8580,7 @@ JS
 UniqueChars
 nameStr
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 name
@@ -9142,7 +9142,7 @@ JS
 UniqueChars
 propStr
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 idStr
@@ -9280,7 +9280,7 @@ JS
 UniqueChars
 propStr
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 idStr
@@ -9377,7 +9377,7 @@ JS
 UniqueChars
 nameStr
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 name

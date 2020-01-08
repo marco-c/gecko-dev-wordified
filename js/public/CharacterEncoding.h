@@ -2339,7 +2339,7 @@ JS
 :
 UniqueChars
 )
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 JSContext
 *
@@ -2359,7 +2359,7 @@ DEPRECATED
 Same
 behavior
 as
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 )
 but

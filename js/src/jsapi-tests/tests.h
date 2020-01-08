@@ -705,6 +705,8 @@ HandleValue
 v
 )
 {
+if
+(
 JSString
 *
 str
@@ -714,10 +716,6 @@ JS_ValueToSource
 cx
 v
 )
-;
-if
-(
-str
 )
 {
 if
@@ -728,7 +726,7 @@ JS
 UniqueChars
 bytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -1657,7 +1655,7 @@ JS
 UniqueChars
 bytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 s
@@ -1867,7 +1865,7 @@ JS
 UniqueChars
 bytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str

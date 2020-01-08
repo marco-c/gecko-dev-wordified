@@ -4984,7 +4984,7 @@ seperators
 UniqueChars
 numBytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str

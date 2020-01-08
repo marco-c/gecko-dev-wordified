@@ -1554,7 +1554,7 @@ JS
 UniqueChars
 name
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -3706,7 +3706,7 @@ JS
 UniqueChars
 name
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 JSID_TO_STRING
@@ -4889,7 +4889,7 @@ JS
 UniqueChars
 name
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -5734,7 +5734,7 @@ JS
 UniqueChars
 name
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 JSID_TO_STRING
@@ -6594,7 +6594,7 @@ JS
 UniqueChars
 bytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 jsstr
@@ -7799,7 +7799,7 @@ false
 ;
 messageBytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -10520,7 +10520,7 @@ _retval
 ;
 cInitializerBytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str

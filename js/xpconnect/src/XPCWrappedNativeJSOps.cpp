@@ -2271,7 +2271,7 @@ break
 ;
 name
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 ccx
 JSID_TO_STRING
