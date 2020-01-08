@@ -1195,6 +1195,11 @@ results
 let
 input
 =
+test
+.
+input
+|
+|
 new
 AutoCompleteInput
 (
@@ -2107,6 +2112,9 @@ correct
 )
 ;
 }
+return
+input
+;
 }
 var
 addBookmark
