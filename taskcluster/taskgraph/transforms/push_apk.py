@@ -1135,10 +1135,6 @@ keys
 )
       
 if
-task_kind
-not
-in
-(
 '
 google
 -
@@ -1146,12 +1142,9 @@ play
 -
 strings
 '
-'
-beetmover
--
-checksums
-'
-)
+not
+in
+task_kind
     
 ]
     
