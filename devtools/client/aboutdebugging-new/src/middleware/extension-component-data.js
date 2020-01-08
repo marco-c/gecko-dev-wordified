@@ -91,10 +91,16 @@ devtools
 client
 /
 aboutdebugging
+-
+new
+/
+src
 /
 modules
 /
-addon
+extensions
+-
+helper
 "
 )
 ;
