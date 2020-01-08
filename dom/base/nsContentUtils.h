@@ -21995,7 +21995,7 @@ sCookiesLifetimePolicy
 ;
 static
 bool
-sShortcutsCustomized
+sAntiTrackingControlCenterUIEnabled
 ;
 static
 int32_t
