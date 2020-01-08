@@ -2591,6 +2591,7 @@ warnRemoteNullable
 .
 warn
 (
+key
 )
 ;
 }
@@ -3879,6 +3880,7 @@ _warnDeprecatedStatsRemoteAccessNullable
 warn
 :
 (
+key
 )
 =
 >
@@ -3886,7 +3888,6 @@ this
 .
 logWarning
 (
-"
 Detected
 soon
 -
@@ -3897,6 +3898,14 @@ getStats
 (
 )
 use
+with
+key
+=
+"
+{
+key
+}
+"
 !
 stat
 .
@@ -3934,7 +3943,6 @@ isremote
 -
 65
 /
-"
 )
 }
 ;
