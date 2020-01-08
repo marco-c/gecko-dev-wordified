@@ -105,8 +105,6 @@ GeneratedFile
     
 JARManifest
     
-XPIDLModule
-    
 LocalizedFiles
     
 LocalizedPreprocessedFiles
