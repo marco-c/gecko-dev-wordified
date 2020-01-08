@@ -319,7 +319,7 @@ category
 '
 devenv
 '
-        
+             
 description
 =
 '
@@ -330,7 +330,7 @@ specific
 commands
 .
 '
-        
+             
 conditions
 =
 [
@@ -359,7 +359,7 @@ assemble
 -
 app
 '
-        
+                
 "
 "
 "
@@ -441,6 +441,7 @@ GRADLE_ANDROID_APP_TASKS
 '
 ]
 +
+                          
 [
 '
 -
@@ -477,7 +478,7 @@ sdk
 -
 bindings
 '
-        
+                
 "
 "
 "
@@ -654,6 +655,7 @@ self
 .
 gradle
 (
+            
 self
 .
 substs
@@ -690,7 +692,7 @@ jni
 -
 wrappers
 '
-        
+                
 "
 "
 "
@@ -734,6 +736,7 @@ self
 .
 gradle
 (
+            
 self
 .
 substs
@@ -766,7 +769,7 @@ jni
 -
 wrappers
 '
-        
+                
 "
 "
 "
@@ -814,6 +817,7 @@ self
 .
 gradle
 (
+            
 self
 .
 substs
@@ -840,7 +844,7 @@ android
 '
 test
 '
-        
+                
 "
 "
 "
@@ -917,6 +921,7 @@ GRADLE_ANDROID_TEST_TASKS
 '
 ]
 +
+                          
 [
 "
 -
@@ -1372,6 +1377,7 @@ failed
                     
 print
 (
+                        
 '
 TEST
 -
@@ -1795,7 +1801,7 @@ android
 '
 lint
 '
-        
+                
 "
 "
 "
@@ -1870,6 +1876,7 @@ GRADLE_ANDROID_LINT_TASKS
 '
 ]
 +
+                          
 [
 "
 -
@@ -1994,6 +2001,7 @@ path
 .
 join
 (
+                
 self
 .
 topobjdir
@@ -2406,7 +2414,7 @@ android
 '
 checkstyle
 '
-        
+                
 "
 "
 "
@@ -2481,6 +2489,7 @@ GRADLE_ANDROID_CHECKSTYLE_TASKS
 '
 ]
 +
+                          
 [
 "
 -
@@ -2554,6 +2563,7 @@ join
 self
 .
 topobjdir
+                              
 '
 gradle
 /
@@ -3025,7 +3035,7 @@ android
 '
 findbugs
 '
-        
+                
 "
 "
 "
@@ -3106,6 +3116,7 @@ GRADLE_ANDROID_FINDBUGS_TASKS
 '
 ]
 +
+                          
 [
 "
 -
@@ -3252,6 +3263,7 @@ reports
 /
 findbugs
 '
+                                      
 '
 findbugs
 -
@@ -3589,6 +3601,7 @@ FAIL
 format
 (
 report
+                                                                 
 error
 .
 get
@@ -3707,7 +3720,7 @@ gradle
 -
 dependencies
 '
-        
+                
 "
 "
 "
@@ -3820,6 +3833,7 @@ GRADLE_ANDROID_DEPENDENCIES_TASKS
 '
 ]
 +
+                    
 [
 "
 -
@@ -3847,7 +3861,7 @@ archive
 -
 geckoview
 '
-        
+                
 "
 "
 "
@@ -3919,6 +3933,7 @@ self
 .
 gradle
 (
+            
 self
 .
 substs
@@ -3955,7 +3970,7 @@ geckoview
 -
 docs
 '
-        
+                
 "
 "
 "
@@ -3984,7 +3999,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -4010,7 +4025,7 @@ USER
 /
 REPO
 '
-        
+                     
 help
 =
 '
@@ -4020,7 +4035,7 @@ javadoc
 to
 Github
 '
-             
+                     
 '
 using
 the
@@ -4050,7 +4065,7 @@ BRANCH
 PATH
 ]
 '
-        
+                     
 default
 =
 '
@@ -4060,7 +4075,7 @@ pages
 /
 javadoc
 '
-        
+                     
 help
 =
 '
@@ -4090,7 +4105,7 @@ metavar
 '
 MSG
 '
-        
+                     
 default
 =
 '
@@ -4098,7 +4113,7 @@ GeckoView
 docs
 upload
 '
-        
+                     
 help
 =
 '
@@ -4124,7 +4139,7 @@ default
 '
 debug
 '
-        
+                     
 help
 =
 '
@@ -4986,7 +5001,7 @@ category
 '
 devenv
 '
-        
+             
 description
 =
 '
@@ -4994,7 +5009,7 @@ Run
 gradle
 .
 '
-        
+             
 conditions
 =
 [
@@ -5020,7 +5035,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -5159,7 +5174,7 @@ GRADLE_FLAGS
 )
 or
 \
-                       
+            
 os
 .
 environ
@@ -5479,7 +5494,7 @@ plain
 ]
 +
 args
-            
+                                
 append_env
 =
 {
@@ -5574,7 +5589,7 @@ category
 '
 devenv
 '
-        
+             
 conditions
 =
 [
@@ -5651,12 +5666,12 @@ category
 '
 devenv
 '
-        
+             
 conditions
 =
 [
 ]
-        
+             
 description
 =
 '
@@ -5722,7 +5737,7 @@ x86
 0
 '
 ]
-        
+                     
 help
 =
 '
@@ -5771,7 +5786,7 @@ x86
 "
 .
 '
-        
+                     
 default
 =
 '
@@ -5793,7 +5808,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -5821,7 +5836,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -5850,7 +5865,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -5899,6 +5914,7 @@ substs
 self
 .
 substs
+                                   
 device_serial
 =
 '
@@ -6498,12 +6514,12 @@ category
 '
 devenv
 '
-        
+             
 conditions
 =
 [
 ]
-        
+             
 description
 =
 '
@@ -6525,7 +6541,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -6550,7 +6566,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -6623,7 +6639,7 @@ autophone
 "
 {
 }
-                
+                     
 "
 This
 mach

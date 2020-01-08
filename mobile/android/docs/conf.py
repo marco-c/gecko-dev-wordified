@@ -1416,6 +1416,7 @@ output
 latex_elements
 =
 {
+    
 #
 The
 paper
@@ -1430,6 +1431,7 @@ a4paper
 '
 )
 .
+    
 #
 '
 papersize
@@ -1438,6 +1440,7 @@ papersize
 '
 letterpaper
 '
+    
 #
 The
 font
@@ -1455,6 +1458,7 @@ or
 '
 )
 .
+    
 #
 '
 pointsize
@@ -1463,6 +1467,7 @@ pointsize
 '
 10pt
 '
+    
 #
 Additional
 stuff
@@ -1471,6 +1476,7 @@ the
 LaTeX
 preamble
 .
+    
 #
 '
 preamble

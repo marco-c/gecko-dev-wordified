@@ -406,12 +406,12 @@ args
 self
 .
 keytool
-                 
+                
 '
 -
 list
 '
-                 
+                
 '
 -
 keystore
@@ -419,7 +419,7 @@ keystore
 self
 .
 keystore
-                 
+                
 '
 -
 storepass
@@ -427,7 +427,7 @@ storepass
 '
 android
 '
-                 
+                
 '
 -
 alias
@@ -435,7 +435,7 @@ alias
 self
 .
 alias
-               
+                
 ]
         
 if
@@ -583,12 +583,12 @@ args
 self
 .
 keytool
-                 
+                
 '
 -
 genkeypair
 '
-                 
+                
 '
 -
 keystore
@@ -596,7 +596,7 @@ keystore
 self
 .
 keystore
-                 
+                
 '
 -
 storepass
@@ -604,7 +604,7 @@ storepass
 '
 android
 '
-                 
+                
 '
 -
 alias
@@ -612,7 +612,7 @@ alias
 self
 .
 alias
-                 
+                
 '
 -
 keypass
@@ -620,7 +620,7 @@ keypass
 '
 android
 '
-                 
+                
 '
 -
 dname
@@ -637,7 +637,7 @@ C
 =
 US
 '
-                 
+                
 '
 -
 keyalg
@@ -645,7 +645,7 @@ keyalg
 '
 RSA
 '
-                 
+                
 '
 -
 validity
@@ -653,7 +653,7 @@ validity
 '
 365
 '
-               
+                
 ]
         
 if
@@ -740,7 +740,7 @@ args
 self
 .
 jarsigner
-                 
+                
 '
 -
 digestalg
@@ -748,7 +748,7 @@ digestalg
 '
 SHA1
 '
-                 
+                
 '
 -
 sigalg
@@ -756,7 +756,7 @@ sigalg
 '
 MD5withRSA
 '
-                 
+                
 '
 -
 keystore
@@ -764,7 +764,7 @@ keystore
 self
 .
 keystore
-                 
+                
 '
 -
 storepass
@@ -772,13 +772,13 @@ storepass
 '
 android
 '
-                 
+                
 apk
-                 
+                
 self
 .
 alias
-               
+                
 ]
         
 if
