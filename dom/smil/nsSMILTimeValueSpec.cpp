@@ -747,7 +747,7 @@ if
 aContextNode
 -
 >
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )

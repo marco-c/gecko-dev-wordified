@@ -890,7 +890,7 @@ doc
 mTarget
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
