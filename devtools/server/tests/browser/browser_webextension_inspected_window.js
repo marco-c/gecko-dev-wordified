@@ -175,7 +175,7 @@ target
 ;
 const
 [
-tabClient
+targetFront
 ]
 =
 await
@@ -221,7 +221,7 @@ return
 {
 client
 form
-tabClient
+targetFront
 consoleClient
 inspectedWindowFront
 extension
@@ -269,7 +269,7 @@ unload
 function
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 {
 return
@@ -280,9 +280,9 @@ resolve
 =
 >
 {
-client
+targetFront
 .
-addListener
+on
 (
 "
 tabNavigated
@@ -290,7 +290,6 @@ tabNavigated
 function
 tabNavigatedListener
 (
-evt
 pkt
 )
 {
@@ -312,9 +311,9 @@ pkt
 isFrameSwitching
 )
 {
-client
+targetFront
 .
-removeListener
+off
 (
 "
 tabNavigated
@@ -1688,6 +1687,7 @@ consoleClient
 inspectedWindowFront
 extension
 fakeExtCallerInfo
+targetFront
 }
 =
 await
@@ -1716,7 +1716,7 @@ waitForNoBypassCacheReload
 =
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 ;
 const
@@ -1807,7 +1807,7 @@ waitForForceBypassCacheReload
 =
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 ;
 await
@@ -1896,6 +1896,7 @@ consoleClient
 inspectedWindowFront
 extension
 fakeExtCallerInfo
+targetFront
 }
 =
 await
@@ -1925,7 +1926,7 @@ waitForCustomUserAgentReload
 =
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 ;
 await
@@ -2002,7 +2003,7 @@ waitForNoCustomUserAgentReload
 =
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 ;
 await
@@ -2085,6 +2086,7 @@ consoleClient
 inspectedWindowFront
 extension
 fakeExtCallerInfo
+targetFront
 }
 =
 await
@@ -2118,7 +2120,7 @@ waitForInjectedScriptReload
 =
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 ;
 await
@@ -2217,7 +2219,7 @@ waitForNoInjectedScriptReload
 =
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 ;
 await
@@ -2324,6 +2326,7 @@ consoleClient
 inspectedWindowFront
 extension
 fakeExtCallerInfo
+targetFront
 }
 =
 await
@@ -2371,7 +2374,7 @@ waitForCustomUserAgentReload
 =
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 ;
 inspectedWindowFront
@@ -2466,7 +2469,7 @@ waitForNoCustomUserAgentReload
 =
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 ;
 await
@@ -2549,6 +2552,7 @@ consoleClient
 inspectedWindowFront
 extension
 fakeExtCallerInfo
+targetFront
 }
 =
 await
@@ -2593,7 +2597,7 @@ waitForPageLoad
 =
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 ;
 await
@@ -2659,7 +2663,7 @@ waitForInjectedScriptReload
 =
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 ;
 await
@@ -2795,7 +2799,7 @@ waitForNoInjectedScriptReload
 =
 waitForNextTabNavigated
 (
-client
+targetFront
 )
 ;
 await

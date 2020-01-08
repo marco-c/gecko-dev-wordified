@@ -365,13 +365,14 @@ destroyed
 const
 onTabDetached
 =
-once
-(
 toolbox
 .
 target
 .
-client
+activeTab
+.
+once
+(
 "
 tabDetached
 "
