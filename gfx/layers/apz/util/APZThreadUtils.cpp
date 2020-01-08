@@ -290,10 +290,12 @@ APZThreadUtils
 :
 RunOnControllerThread
 (
-already_AddRefed
+RefPtr
 <
 Runnable
 >
+&
+&
 aTask
 )
 {
@@ -303,7 +305,13 @@ Runnable
 >
 task
 =
+std
+:
+:
+move
+(
 aTask
+)
 ;
 if
 (

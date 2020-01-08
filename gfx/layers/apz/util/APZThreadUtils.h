@@ -323,10 +323,12 @@ static
 void
 RunOnControllerThread
 (
-already_AddRefed
+RefPtr
 <
 Runnable
 >
+&
+&
 aTask
 )
 ;
