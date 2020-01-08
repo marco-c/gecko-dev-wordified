@@ -738,8 +738,6 @@ Array
 .
 from
 (
-enumerate
-(
 this
 .
 _ini
@@ -747,7 +745,6 @@ _ini
 getKeys
 (
 section
-)
 )
 )
 .
@@ -2139,8 +2136,6 @@ for
 let
 key
 of
-enumerate
-(
 this
 .
 _ini
@@ -2155,7 +2150,6 @@ Preferences
 this
 .
 _locale
-)
 )
 )
 {
@@ -2244,8 +2238,6 @@ for
 let
 key
 of
-enumerate
-(
 this
 .
 _ini
@@ -2260,7 +2252,6 @@ Preferences
 this
 .
 _language
-)
 )
 )
 {
@@ -2357,8 +2348,6 @@ for
 let
 key
 of
-enumerate
-(
 this
 .
 _ini
@@ -2368,7 +2357,6 @@ getKeys
 "
 Preferences
 "
-)
 )
 )
 {
@@ -2561,8 +2549,6 @@ for
 let
 key
 of
-enumerate
-(
 this
 .
 _ini
@@ -2577,7 +2563,6 @@ LocalizablePreferences
 this
 .
 _locale
-)
 )
 )
 {
@@ -2695,8 +2680,6 @@ for
 let
 key
 of
-enumerate
-(
 this
 .
 _ini
@@ -2711,7 +2694,6 @@ LocalizablePreferences
 this
 .
 _language
-)
 )
 )
 {
@@ -2837,8 +2819,6 @@ for
 let
 key
 of
-enumerate
-(
 this
 .
 _ini
@@ -2848,7 +2828,6 @@ getKeys
 "
 LocalizablePreferences
 "
-)
 )
 )
 {
@@ -3247,29 +3226,6 @@ value
 ;
 }
 function
-*
-enumerate
-(
-UTF8Enumerator
-)
-{
-while
-(
-UTF8Enumerator
-.
-hasMore
-(
-)
-)
-yield
-UTF8Enumerator
-.
-getNext
-(
-)
-;
-}
-function
 enumToObject
 (
 UTF8Enumerator
@@ -3286,10 +3242,7 @@ for
 let
 i
 of
-enumerate
-(
 UTF8Enumerator
-)
 )
 ret
 [
