@@ -1867,6 +1867,10 @@ pub
 brush_flags
 :
 BrushFlags
+pub
+user_data
+:
+i32
 }
 impl
 From
@@ -1941,7 +1945,9 @@ i32
 <
 24
 )
-0
+instance
+.
+user_data
 ]
 }
 }
