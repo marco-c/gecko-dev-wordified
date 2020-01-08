@@ -145,6 +145,7 @@ panel
 const
 target
 =
+await
 TargetFactory
 .
 forTab

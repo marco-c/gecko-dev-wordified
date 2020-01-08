@@ -220,6 +220,7 @@ toolbox
 let
 target
 =
+await
 TargetFactory
 .
 forTab

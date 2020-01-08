@@ -3372,6 +3372,7 @@ Ci
 nsISlowScriptDebug
 )
 ;
+async
 function
 slowScriptDebugHandler
 (
@@ -3382,6 +3383,7 @@ callback
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -3748,6 +3750,13 @@ finishDebuggerStartup
 )
 ;
 }
+)
+.
+catch
+(
+console
+.
+error
 )
 ;
 }

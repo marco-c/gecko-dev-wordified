@@ -329,6 +329,7 @@ blank
 .
 then
 (
+async
 function
 (
 aTab
@@ -337,6 +338,7 @@ aTab
 const
 target
 =
+await
 TargetFactory
 .
 forTab
