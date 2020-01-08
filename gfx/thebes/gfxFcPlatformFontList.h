@@ -1682,10 +1682,6 @@ aLanguage
 nsACString
 &
 aLangStr
-bool
-aCheckEnvironment
-=
-true
 )
 ;
 static

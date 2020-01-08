@@ -14815,8 +14815,6 @@ aLanguage
 nsACString
 &
 aLangStr
-bool
-aCheckEnvironment
 )
 {
 aLangStr
@@ -14987,11 +14985,6 @@ mozilla
 lang
 group
 .
-if
-(
-aCheckEnvironment
-)
-{
 const
 char
 *
@@ -15127,7 +15120,6 @@ aLangStr
 {
 return
 ;
-}
 }
 if
 (
