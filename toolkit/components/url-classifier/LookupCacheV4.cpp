@@ -1104,8 +1104,11 @@ LookupCacheV4
 :
 StoreToFile
 (
+nsCOMPtr
+<
 nsIFile
-*
+>
+&
 aFile
 )
 {
@@ -1125,8 +1128,11 @@ LookupCacheV4
 :
 LoadFromFile
 (
+nsCOMPtr
+<
 nsIFile
-*
+>
+&
 aFile
 )
 {
