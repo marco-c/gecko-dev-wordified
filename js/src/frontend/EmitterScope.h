@@ -897,12 +897,14 @@ enclosingInFrame
 (
 )
 )
+{
 return
 inFrame
 -
 >
 nextFrameSlot_
 ;
+}
 return
 0
 ;

@@ -357,6 +357,7 @@ emitAsyncIterator
 (
 )
 )
+{
 /
 /
 NEXT
@@ -364,6 +365,7 @@ ITER
 return
 false
 ;
+}
 }
 else
 {
@@ -377,6 +379,7 @@ emitIterator
 (
 )
 )
+{
 /
 /
 NEXT
@@ -384,6 +387,7 @@ ITER
 return
 false
 ;
+}
 }
 int32_t
 iterDepth
@@ -439,6 +443,7 @@ emit1
 JSOP_UNDEFINED
 )
 )
+{
 /
 /
 NEXT
@@ -447,6 +452,7 @@ UNDEF
 return
 false
 ;
+}
 loopInfo_
 .
 emplace
@@ -483,9 +489,11 @@ SRC_FOR_OF
 noteIndex_
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -497,6 +505,7 @@ emitEntryJump
 bce_
 )
 )
+{
 /
 /
 NEXT
@@ -505,6 +514,7 @@ UNDEF
 return
 false
 ;
+}
 if
 (
 !
@@ -519,6 +529,7 @@ Nothing
 )
 )
 )
+{
 /
 /
 NEXT
@@ -527,6 +538,7 @@ UNDEF
 return
 false
 ;
+}
 /
 /
 If
@@ -683,6 +695,7 @@ emit1
 JSOP_RECREATELEXICALENV
 )
 )
+{
 return
 false
 ;
@@ -691,6 +704,7 @@ false
 NEXT
 ITER
 UNDEF
+}
 }
 /
 /
@@ -714,9 +728,11 @@ deadZoneFrameSlots
 bce_
 )
 )
+{
 return
 false
 ;
+}
 }
 #
 ifdef
@@ -761,9 +777,11 @@ updateSourceCoordNotes
 forPos
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -776,6 +794,7 @@ emit1
 JSOP_POP
 )
 )
+{
 /
 /
 NEXT
@@ -783,6 +802,7 @@ ITER
 return
 false
 ;
+}
 if
 (
 !
@@ -794,6 +814,7 @@ emit1
 JSOP_DUP2
 )
 )
+{
 /
 /
 NEXT
@@ -803,6 +824,7 @@ ITER
 return
 false
 ;
+}
 if
 (
 !
@@ -816,6 +838,7 @@ iterKind_
 allowSelfHostedIter_
 )
 )
+{
 return
 false
 ;
@@ -824,6 +847,7 @@ false
 NEXT
 ITER
 RESULT
+}
 if
 (
 !
@@ -835,6 +859,7 @@ emit1
 JSOP_DUP
 )
 )
+{
 /
 /
 NEXT
@@ -844,6 +869,7 @@ RESULT
 return
 false
 ;
+}
 if
 (
 !
@@ -866,6 +892,7 @@ done
 JSOP_GETPROP
 )
 )
+{
 return
 false
 ;
@@ -875,6 +902,7 @@ NEXT
 ITER
 RESULT
 DONE
+}
 InternalIfEmitter
 ifDone
 (
@@ -890,6 +918,7 @@ emitThen
 (
 )
 )
+{
 /
 /
 NEXT
@@ -898,6 +927,7 @@ RESULT
 return
 false
 ;
+}
 /
 /
 Remove
@@ -920,6 +950,7 @@ emit1
 JSOP_POP
 )
 )
+{
 /
 /
 NEXT
@@ -927,6 +958,7 @@ ITER
 return
 false
 ;
+}
 if
 (
 !
@@ -938,6 +970,7 @@ emit1
 JSOP_UNDEFINED
 )
 )
+{
 /
 /
 NEXT
@@ -946,6 +979,7 @@ UNDEF
 return
 false
 ;
+}
 /
 /
 If
@@ -980,6 +1014,7 @@ emitSpecialBreakForDone
 bce_
 )
 )
+{
 /
 /
 NEXT
@@ -988,6 +1023,7 @@ UNDEF
 return
 false
 ;
+}
 if
 (
 !
@@ -997,6 +1033,7 @@ emitEnd
 (
 )
 )
+{
 /
 /
 NEXT
@@ -1005,6 +1042,7 @@ RESULT
 return
 false
 ;
+}
 /
 /
 Emit
@@ -1077,6 +1115,7 @@ value
 JSOP_GETPROP
 )
 )
+{
 return
 false
 ;
@@ -1085,6 +1124,7 @@ false
 NEXT
 ITER
 VALUE
+}
 if
 (
 !
@@ -1096,9 +1136,11 @@ emitBeginCodeNeedingIteratorClose
 bce_
 )
 )
+{
 return
 false
 ;
+}
 #
 ifdef
 DEBUG
@@ -1180,6 +1222,7 @@ emit1
 JSOP_POP
 )
 )
+{
 /
 /
 NEXT
@@ -1187,6 +1230,7 @@ ITER
 return
 false
 ;
+}
 if
 (
 !
@@ -1198,6 +1242,7 @@ emit1
 JSOP_UNDEFINED
 )
 )
+{
 /
 /
 NEXT
@@ -1206,6 +1251,7 @@ UNDEF
 return
 false
 ;
+}
 #
 ifdef
 DEBUG
@@ -1283,9 +1329,11 @@ emitEndCodeNeedingIteratorClose
 bce_
 )
 )
+{
 return
 false
 ;
+}
 loopInfo_
 -
 >
@@ -1357,9 +1405,11 @@ bce_
 iteratedPos
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1371,6 +1421,7 @@ emit1
 JSOP_FALSE
 )
 )
+{
 /
 /
 NEXT
@@ -1380,6 +1431,7 @@ FALSE
 return
 false
 ;
+}
 if
 (
 !
@@ -1392,6 +1444,7 @@ bce_
 JSOP_IFEQ
 )
 )
+{
 /
 /
 NEXT
@@ -1400,6 +1453,7 @@ UNDEF
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 bce_
@@ -1465,9 +1519,11 @@ patchBreaksAndContinues
 bce_
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1513,11 +1569,13 @@ emitPopN
 3
 )
 )
+{
 /
 /
 return
 false
 ;
+}
 loopInfo_
 .
 reset

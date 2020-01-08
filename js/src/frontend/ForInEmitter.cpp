@@ -287,12 +287,14 @@ emit1
 JSOP_ITER
 )
 )
+{
 /
 /
 ITER
 return
 false
 ;
+}
 /
 /
 For
@@ -330,6 +332,7 @@ emit1
 JSOP_UNDEFINED
 )
 )
+{
 /
 /
 ITER
@@ -337,6 +340,7 @@ ITERVAL
 return
 false
 ;
+}
 loopInfo_
 .
 emplace
@@ -374,9 +378,11 @@ SRC_FOR_IN
 noteIndex_
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Jump
@@ -415,6 +421,7 @@ emitEntryJump
 bce_
 )
 )
+{
 /
 /
 ITER
@@ -422,6 +429,7 @@ ITERVAL
 return
 false
 ;
+}
 if
 (
 !
@@ -436,6 +444,7 @@ Nothing
 )
 )
 )
+{
 /
 /
 ITER
@@ -443,6 +452,7 @@ ITERVAL
 return
 false
 ;
+}
 /
 /
 If
@@ -600,6 +610,7 @@ emit1
 JSOP_RECREATELEXICALENV
 )
 )
+{
 return
 false
 ;
@@ -607,6 +618,7 @@ false
 /
 ITER
 ITERVAL
+}
 }
 /
 /
@@ -630,9 +642,11 @@ deadZoneFrameSlots
 bce_
 )
 )
+{
 return
 false
 ;
+}
 }
 #
 ifdef
@@ -665,6 +679,7 @@ emit1
 JSOP_ITERNEXT
 )
 )
+{
 /
 /
 ITER
@@ -672,6 +687,7 @@ ITERVAL
 return
 false
 ;
+}
 #
 ifdef
 DEBUG
@@ -815,9 +831,11 @@ updateSourceCoordNotes
 forPos
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -833,6 +851,7 @@ Nothing
 )
 )
 )
+{
 /
 /
 ITER
@@ -840,6 +859,7 @@ ITERVAL
 return
 false
 ;
+}
 if
 (
 !
@@ -851,12 +871,14 @@ emit1
 JSOP_POP
 )
 )
+{
 /
 /
 ITER
 return
 false
 ;
+}
 if
 (
 !
@@ -868,6 +890,7 @@ emit1
 JSOP_MOREITER
 )
 )
+{
 /
 /
 ITER
@@ -876,6 +899,7 @@ NEXTITERVAL
 return
 false
 ;
+}
 if
 (
 !
@@ -887,6 +911,7 @@ emit1
 JSOP_ISNOITER
 )
 )
+{
 /
 /
 ITER
@@ -896,6 +921,7 @@ ISNOITER
 return
 false
 ;
+}
 if
 (
 !
@@ -908,6 +934,7 @@ bce_
 JSOP_IFEQ
 )
 )
+{
 /
 /
 ITER
@@ -915,6 +942,7 @@ NEXTITERVAL
 return
 false
 ;
+}
 /
 /
 Set
@@ -969,9 +997,11 @@ patchBreaksAndContinues
 bce_
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Pop
@@ -990,12 +1020,14 @@ emit1
 JSOP_POP
 )
 )
+{
 /
 /
 ITER
 return
 false
 ;
+}
 if
 (
 !
@@ -1041,11 +1073,13 @@ emit1
 JSOP_ENDITER
 )
 )
+{
 /
 /
 return
 false
 ;
+}
 loopInfo_
 .
 reset
