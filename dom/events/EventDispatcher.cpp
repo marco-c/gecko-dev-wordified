@@ -1349,7 +1349,10 @@ aTargets
 {
 mRetargetedTouchTargets
 =
-Move
+std
+:
+:
+move
 (
 aTargets
 )
@@ -1639,7 +1642,10 @@ aInitialTargetTouches
 {
 mInitialTargetTouches
 =
-Move
+std
+:
+:
+move
 (
 aInitialTargetTouches
 )
@@ -2567,7 +2573,10 @@ mRetargetedRelatedTarget
 ;
 SetRetargetedTouchTarget
 (
-Move
+std
+:
+:
+move
 (
 aVisitor
 .
@@ -6132,7 +6141,10 @@ targetEtci
 >
 SetInitialTargetTouches
 (
-Move
+std
+:
+:
+move
 (
 initialTargetTouches
 )

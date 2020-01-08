@@ -2458,10 +2458,10 @@ DIRECT2D1_1
 }
 }
 return
-mozilla
+std
 :
 :
-Move
+move
 (
 data
 )
@@ -2581,10 +2581,10 @@ SKIA
 }
 InitBackendPrefs
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 data
 )

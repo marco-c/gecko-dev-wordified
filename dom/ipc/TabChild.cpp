@@ -3898,7 +3898,10 @@ new
 APZEventState
 (
 mPuppetWidget
-Move
+std
+:
+:
+move
 (
 callback
 )
@@ -19918,7 +19921,10 @@ TabGroup
 Dispatch
 (
 aCategory
-Move
+std
+:
+:
+move
 (
 aRunnable
 )
@@ -19932,7 +19938,10 @@ DispatcherTrait
 Dispatch
 (
 aCategory
-Move
+std
+:
+:
+move
 (
 aRunnable
 )

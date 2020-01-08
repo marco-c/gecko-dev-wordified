@@ -1333,7 +1333,10 @@ NewRunnableFunction
 DestroyPaintThreadRunnable
 "
 DestroyPaintThread
-Move
+std
+:
+:
+move
 (
 pt
 )

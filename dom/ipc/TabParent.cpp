@@ -18237,10 +18237,10 @@ mInitialDataTransferItems
 .
 AppendElement
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aTransfers
 [

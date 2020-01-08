@@ -677,7 +677,10 @@ mEvents
 .
 PutEvent
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )
@@ -1786,7 +1789,10 @@ thread
 forget
 (
 )
-Move
+std
+:
+:
+move
 (
 aEvent
 )
@@ -1845,7 +1851,10 @@ flags
 ;
 PutEvent
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )
