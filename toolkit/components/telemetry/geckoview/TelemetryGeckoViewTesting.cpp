@@ -73,8 +73,6 @@ h
 #
 include
 "
-core
-/
 TelemetryScalar
 .
 h

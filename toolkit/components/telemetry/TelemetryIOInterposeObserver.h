@@ -189,8 +189,6 @@ h
 #
 include
 "
-core
-/
 TelemetryCommon
 .
 h
