@@ -275,6 +275,17 @@ nsCycleCollector_doDeferredDeletion
 (
 )
 ;
+bool
+nsCycleCollector_doDeferredDeletionWithBudget
+(
+js
+:
+:
+SliceBudget
+&
+aBudget
+)
+;
 already_AddRefed
 <
 nsICycleCollectorLogSink
