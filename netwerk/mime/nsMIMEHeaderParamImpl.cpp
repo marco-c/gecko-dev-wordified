@@ -2787,7 +2787,7 @@ char
 *
 valueStart
 =
-str
+nullptr
 ;
 const
 char
