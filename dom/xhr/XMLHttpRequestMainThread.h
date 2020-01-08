@@ -385,6 +385,17 @@ mozilla
 /
 dom
 /
+MimeType
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PerformanceStorage
 .
 h
