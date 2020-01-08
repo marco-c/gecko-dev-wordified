@@ -1693,7 +1693,7 @@ Moving
 toolbox
 to
 the
-side
+right
 .
 .
 .
@@ -1708,7 +1708,7 @@ toolbox
 switchHost
 (
 "
-side
+right
 "
 )
 ;
@@ -1720,7 +1720,7 @@ prefs
 reload
 for
 a
-side
+right
 host
 .
 "

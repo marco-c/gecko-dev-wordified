@@ -257,7 +257,7 @@ key
 ;
 const
 {
-SIDE
+RIGHT
 BOTTOM
 WINDOW
 }
@@ -270,7 +270,7 @@ checkHostType
 (
 toolbox
 BOTTOM
-SIDE
+RIGHT
 )
 ;
 info
@@ -280,7 +280,7 @@ Switching
 from
 bottom
 to
-side
+right
 "
 )
 ;
@@ -312,7 +312,7 @@ onHostChanged
 checkHostType
 (
 toolbox
-SIDE
+RIGHT
 BOTTOM
 )
 ;
@@ -321,7 +321,7 @@ info
 "
 Switching
 from
-side
+right
 to
 bottom
 "
@@ -355,7 +355,7 @@ checkHostType
 (
 toolbox
 BOTTOM
-SIDE
+RIGHT
 )
 ;
 info

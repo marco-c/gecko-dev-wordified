@@ -159,8 +159,8 @@ Switch
 the
 host
 to
-side
-type
+the
+right
 "
 )
 ;
@@ -170,7 +170,7 @@ toolbox
 switchHost
 (
 "
-side
+right
 "
 )
 ;

@@ -3401,7 +3401,7 @@ bottom
 to
 docked
 on
-side
+right
 "
 )
 ;
@@ -3410,7 +3410,7 @@ toolbox
 switchHost
 (
 "
-side
+right
 "
 )
 ;

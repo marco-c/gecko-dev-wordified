@@ -141,7 +141,7 @@ bottom
 vertical
 "
 "
-side
+right
 "
 ]
 [

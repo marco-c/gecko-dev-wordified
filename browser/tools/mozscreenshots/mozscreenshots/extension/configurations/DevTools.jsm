@@ -451,7 +451,7 @@ getTargetForSelectedTab
 inspector
 "
 "
-side
+right
 "
 )
 ;

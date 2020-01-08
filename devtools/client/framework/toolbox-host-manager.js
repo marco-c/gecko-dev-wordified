@@ -1200,6 +1200,7 @@ not
 already
 used
 and
+right
 side
 if
 not
@@ -1234,7 +1235,7 @@ Toolbox
 .
 HostType
 .
-SIDE
+RIGHT
 ;
 }
 else

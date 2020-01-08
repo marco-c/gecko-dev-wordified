@@ -80,7 +80,7 @@ DATASET_RELEASE_CHANNEL_OPTOUT
 ;
 const
 {
-SIDE
+RIGHT
 BOTTOM
 }
 =
@@ -122,7 +122,7 @@ extra
 host
 :
 "
-side
+right
 "
 width
 :
@@ -242,7 +242,7 @@ openAndCloseToolbox
 "
 webconsole
 "
-SIDE
+RIGHT
 )
 ;
 await

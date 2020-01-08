@@ -234,7 +234,7 @@ Toolbox
 .
 HostType
 .
-SIDE
+RIGHT
 )
 ;
 checkHostType
@@ -243,7 +243,7 @@ Toolbox
 .
 HostType
 .
-SIDE
+RIGHT
 )
 ;
 await

@@ -3058,7 +3058,8 @@ host
 (
 bottom
 window
-side
+left
+right
 )
 *
 param

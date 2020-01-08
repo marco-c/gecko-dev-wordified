@@ -245,7 +245,7 @@ webconsole
 ;
 const
 {
-SIDE
+RIGHT
 BOTTOM
 }
 =
@@ -259,9 +259,9 @@ const
 type
 of
 [
-SIDE
+RIGHT
 BOTTOM
-SIDE
+RIGHT
 ]
 )
 {

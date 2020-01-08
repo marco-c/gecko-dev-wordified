@@ -131,7 +131,7 @@ toolbox
 previousHost
 "
 "
-side
+right
 "
 )
 ;

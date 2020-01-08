@@ -162,7 +162,7 @@ testHosts
 bottom
 "
 "
-side
+right
 "
 "
 window
@@ -188,13 +188,13 @@ testHosts
 (
 [
 "
-side
+right
 "
 "
 bottom
 "
 "
-side
+right
 "
 ]
 [
@@ -218,7 +218,7 @@ testHosts
 bottom
 "
 "
-side
+right
 "
 "
 bottom
@@ -242,7 +242,7 @@ testHosts
 (
 [
 "
-side
+right
 "
 "
 window
@@ -250,7 +250,7 @@ window
 big
 "
 "
-side
+right
 "
 ]
 [
@@ -276,7 +276,7 @@ window
 big
 "
 "
-side
+right
 "
 "
 window
@@ -310,7 +310,7 @@ small
 bottom
 "
 "
-side
+right
 "
 ]
 [

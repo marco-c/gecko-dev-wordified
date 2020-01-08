@@ -224,7 +224,7 @@ tab
 webconsole
 "
 "
-side
+right
 "
 )
 ;

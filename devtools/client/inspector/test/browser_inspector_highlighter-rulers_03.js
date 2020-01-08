@@ -496,7 +496,7 @@ Toolbox
 .
 HostType
 .
-SIDE
+RIGHT
 )
 ;
 }
