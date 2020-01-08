@@ -1038,7 +1038,7 @@ nsIContentChild
 :
 RecvAsyncMessage
 "
-OTHER
+EVENTS
 aMsg
 )
 ;

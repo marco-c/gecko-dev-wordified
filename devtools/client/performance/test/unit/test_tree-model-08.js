@@ -103,7 +103,7 @@ model
 ;
 let
 {
-CATEGORY_INDEX
+CATEGORY_MASK
 }
 =
 require
@@ -484,7 +484,7 @@ line
 456
 category
 :
-CATEGORY_INDEX
+CATEGORY_MASK
 (
 "
 other

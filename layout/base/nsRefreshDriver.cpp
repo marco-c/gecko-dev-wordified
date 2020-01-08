@@ -9863,7 +9863,7 @@ nsRefreshDriver
 :
 Tick
 "
-LAYOUT
+GRAPHICS
 )
 ;
 /

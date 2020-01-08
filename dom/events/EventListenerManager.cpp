@@ -7628,7 +7628,7 @@ EventListenerManager
 :
 HandleEventInternal
 "
-OTHER
+EVENTS
 typeStr
 )
 ;
