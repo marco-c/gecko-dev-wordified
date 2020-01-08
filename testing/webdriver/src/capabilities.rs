@@ -896,11 +896,8 @@ key
 value
 )
 in
+&
 capabilities
-.
-iter
-(
-)
 {
 match
 &
@@ -1305,10 +1302,6 @@ value
 )
 in
 obj
-.
-iter
-(
-)
 {
 match
 &
@@ -2187,10 +2180,6 @@ value
 )
 in
 obj
-.
-iter
-(
-)
 {
 match
 &
@@ -2671,10 +2660,6 @@ first_match_entry
 clone
 (
 )
-.
-into_iter
-(
-)
 {
 merged
 .
@@ -2759,10 +2744,6 @@ value
 )
 in
 merged
-.
-iter
-(
-)
 {
 match
 &
