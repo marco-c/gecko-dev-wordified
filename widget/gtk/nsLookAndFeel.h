@@ -373,6 +373,12 @@ nscolor
 mMozWindowInactiveCaption
 ;
 nscolor
+mMozCellHighlightBackground
+;
+nscolor
+mMozCellHighlightText
+;
+nscolor
 mTextSelectedText
 ;
 nscolor
@@ -410,6 +416,13 @@ mInitialized
 ;
 void
 EnsureInit
+(
+)
+;
+private
+:
+nsresult
+InitCellHighlightColors
 (
 )
 ;
