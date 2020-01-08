@@ -3037,7 +3037,6 @@ doc
 >
 SetUserHasInteracted
 (
-true
 )
 ;
 doc

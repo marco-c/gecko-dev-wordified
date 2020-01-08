@@ -19933,8 +19933,6 @@ beforeunload
 void
 SetUserHasInteracted
 (
-bool
-aUserHasInteracted
 )
 ;
 bool
