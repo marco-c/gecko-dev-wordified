@@ -44,6 +44,10 @@ wasmTextToBinary
 (
 module
 (
+gc_feature_opt_in
+1
+)
+(
 type
 point
 (
@@ -306,6 +310,10 @@ wasmTextToBinary
 (
 module
 (
+gc_feature_opt_in
+1
+)
+(
 type
 box
 (
@@ -435,6 +443,10 @@ wasmTextToBinary
 (
 (
 module
+(
+gc_feature_opt_in
+1
+)
 (
 type
 box
