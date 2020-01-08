@@ -256,7 +256,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_ANDROID_GOOGLE_VR
 )
 #
 include
@@ -275,7 +275,7 @@ endif
 /
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_ANDROID_GOOGLE_VR
 )
 using
 namespace
@@ -502,8 +502,6 @@ mFrameId
 0
 ;
 mDisplayInfo
-.
-mDisplayState
 .
 mPresentingGeneration
 =
@@ -1570,7 +1568,7 @@ if
 !
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_ANDROID_GOOGLE_VR
 )
 MOZ_ASSERT
 (
@@ -1594,7 +1592,7 @@ endif
 !
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_ANDROID_GOOGLE_VR
 )
 AUTO_PROFILER_TRACING
 (
@@ -2025,23 +2023,23 @@ break
 elif
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_ANDROID_GOOGLE_VR
 )
 case
 SurfaceDescriptor
 :
 :
-TSurfaceTextureDescriptor
+TEGLImageDescriptor
 :
 {
 const
-SurfaceTextureDescriptor
+EGLImageDescriptor
 &
 desc
 =
 aTexture
 .
-get_SurfaceTextureDescriptor
+get_EGLImageDescriptor
 (
 )
 ;
@@ -2050,6 +2048,7 @@ if
 !
 SubmitFrame
 (
+&
 desc
 aLeftEyeRect
 aRightEyeRect
@@ -2100,7 +2099,7 @@ XP_MACOSX
 |
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_ANDROID_GOOGLE_VR
 )
 /
 *
@@ -2292,7 +2291,7 @@ if
 !
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_ANDROID_GOOGLE_VR
 )
 if
 (
@@ -2321,7 +2320,7 @@ endif
 !
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_ANDROID_GOOGLE_VR
 )
 if
 (
@@ -2444,7 +2443,7 @@ if
 !
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_ANDROID_GOOGLE_VR
 )
 mSubmitThread
 -
@@ -2490,7 +2489,7 @@ endif
 /
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_ANDROID_GOOGLE_VR
 )
 }
 bool
