@@ -318,14 +318,6 @@ HorizontalPosition
 (
 )
 ;
-already_AddRefed
-<
-nsIScriptableRegion
->
-SelectionRegion
-(
-)
-;
 void
 EnsureCellIsVisible
 (
