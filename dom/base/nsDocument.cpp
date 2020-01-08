@@ -72806,10 +72806,10 @@ BEHAVIOR_REJECT_TRACKER
 |
 |
 !
-StaticPrefs
+AntiTrackingCommon
 :
 :
-browser_contentblocking_enabled
+ShouldHonorContentBlockingCookieRestrictions
 (
 )
 )
@@ -77746,10 +77746,10 @@ false
 ;
 if
 (
-StaticPrefs
+AntiTrackingCommon
 :
 :
-browser_contentblocking_enabled
+ShouldHonorContentBlockingCookieRestrictions
 (
 )
 &

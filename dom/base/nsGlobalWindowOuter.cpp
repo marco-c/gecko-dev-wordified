@@ -13225,10 +13225,10 @@ newInnerWindow
 {
 if
 (
-StaticPrefs
+AntiTrackingCommon
 :
 :
-browser_contentblocking_enabled
+ShouldHonorContentBlockingCookieRestrictions
 (
 )
 &
