@@ -803,7 +803,7 @@ aDestinationUUID
 uint32_t
 aSequenceID
 bool
-mNeutered
+aNeutered
 ErrorResult
 &
 aRv
