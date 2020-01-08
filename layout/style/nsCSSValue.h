@@ -1034,6 +1034,16 @@ return
 mLoadID
 ;
 }
+CORSMode
+CorsMode
+(
+)
+const
+{
+return
+mCORSMode
+;
+}
 private
 :
 /
