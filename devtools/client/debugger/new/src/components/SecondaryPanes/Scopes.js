@@ -253,6 +253,15 @@ MPL
 .
 *
 /
+const
+{
+ObjectInspector
+}
+=
+_devtoolsReps
+.
+objectInspector
+;
 class
 Scopes
 extends
@@ -520,8 +529,6 @@ default
 .
 createElement
 (
-_devtoolsReps
-.
 ObjectInspector
 {
 roots
