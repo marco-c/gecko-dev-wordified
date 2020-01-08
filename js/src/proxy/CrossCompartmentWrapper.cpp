@@ -169,6 +169,17 @@ include
 "
 vm
 /
+Compartment
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 JSObject
 -
 inl

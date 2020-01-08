@@ -444,6 +444,17 @@ include
 "
 vm
 /
+Compartment
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 GeckoProfiler
 -
 inl

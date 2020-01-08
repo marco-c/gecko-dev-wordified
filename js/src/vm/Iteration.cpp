@@ -342,6 +342,17 @@ include
 "
 vm
 /
+Compartment
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 JSScript
 -
 inl
