@@ -464,6 +464,15 @@ layers
 :
 ScrollbarData
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+Event
+;
 bool
 nsSliderFrame
 :

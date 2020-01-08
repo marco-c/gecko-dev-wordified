@@ -135,11 +135,6 @@ class
 XULListboxAccessible
 XULListboxAccessibleWrap
 ;
-typedef
-class
-XULListCellAccessible
-XULListCellAccessibleWrap
-;
 }
 /
 /

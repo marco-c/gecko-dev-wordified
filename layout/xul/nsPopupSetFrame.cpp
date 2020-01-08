@@ -186,6 +186,13 @@ nsMenuPopupFrame
 .
 h
 "
+typedef
+mozilla
+:
+:
+ComputedStyle
+ComputedStyle
+;
 nsIFrame
 *
 NS_NewPopupSetFrame

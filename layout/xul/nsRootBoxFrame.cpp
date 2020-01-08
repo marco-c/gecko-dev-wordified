@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsDisplayList
+.
+h
+"
+#
+include
+"
 nsStackLayout
 .
 h
