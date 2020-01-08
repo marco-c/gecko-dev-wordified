@@ -3001,6 +3001,9 @@ JS
 AutoHideScriptedCaller
 mCallerOverride
 ;
+AutoProfilerLabel
+mAutoProfilerLabel
+;
 }
 ;
 /
