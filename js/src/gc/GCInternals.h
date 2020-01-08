@@ -757,6 +757,7 @@ PhaseKind
 :
 NONE
 )
+{
 gc
 -
 >
@@ -769,6 +770,7 @@ endPhase
 outer
 )
 ;
+}
 MOZ_ASSERT
 (
 gc
@@ -796,6 +798,7 @@ if
 (
 restartPreVerifier
 )
+{
 gc
 -
 >
@@ -803,6 +806,7 @@ startVerifyPreBarriers
 (
 )
 ;
+}
 if
 (
 outer
@@ -816,6 +820,7 @@ PhaseKind
 :
 NONE
 )
+{
 gc
 -
 >
@@ -828,6 +833,7 @@ beginPhase
 outer
 )
 ;
+}
 }
 }
 ;

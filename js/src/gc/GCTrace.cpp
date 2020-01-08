@@ -243,6 +243,7 @@ if
 (
 file
 )
+{
 fwrite
 (
 &
@@ -255,6 +256,7 @@ data
 file
 )
 ;
+}
 }
 static
 inline
@@ -529,9 +531,11 @@ if
 !
 filename
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -609,6 +613,7 @@ AllAllocKinds
 (
 )
 )
+{
 TraceEvent
 (
 gcTraceFile
@@ -622,6 +627,7 @@ kind
 )
 )
 ;
+}
 return
 true
 ;
@@ -857,8 +863,10 @@ has
 clasp
 )
 )
+{
 return
 ;
+}
 TraceEvent
 (
 gcTraceFile
@@ -935,8 +943,10 @@ has
 group
 )
 )
+{
 return
 ;
+}
 maybeTraceClass
 (
 group
@@ -1040,8 +1050,10 @@ if
 !
 funName
 )
+{
 return
 ;
+}
 size_t
 length
 =
@@ -1113,8 +1125,10 @@ if
 !
 gcTraceFile
 )
+{
 return
 ;
+}
 ObjectGroup
 *
 group
@@ -1240,8 +1254,10 @@ if
 !
 gcTraceFile
 )
+{
 return
 ;
+}
 if
 (
 thing
@@ -1261,6 +1277,7 @@ AllocKind
 :
 OBJECT_GROUP
 )
+{
 tracedGroups
 .
 remove
@@ -1276,6 +1293,7 @@ thing
 )
 )
 ;
+}
 TraceEvent
 (
 gcTraceFile

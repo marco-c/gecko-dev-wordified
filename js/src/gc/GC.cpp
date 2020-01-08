@@ -4013,6 +4013,7 @@ next
 (
 )
 )
+{
 MOZ_ASSERT
 (
 !
@@ -4028,6 +4029,7 @@ isMarkedAny
 )
 )
 ;
+}
 }
 #
 endif
@@ -4712,6 +4714,7 @@ onMainThread
 (
 )
 )
+{
 maybeLock
 .
 emplace
@@ -4724,6 +4727,7 @@ runtime
 )
 )
 ;
+}
 /
 /
 During
@@ -4827,6 +4831,7 @@ if
 (
 nmarked
 )
+{
 dest
 .
 insertAt
@@ -4835,6 +4840,7 @@ arena
 nfree
 )
 ;
+}
 else
 if
 (
@@ -4846,6 +4852,7 @@ ArenaLists
 :
 KEEP_ARENAS
 )
+{
 arena
 -
 >
@@ -4861,7 +4868,9 @@ dest
 thingsPerArena
 )
 ;
+}
 else
+{
 fop
 -
 >
@@ -4882,6 +4891,7 @@ ref
 )
 )
 ;
+}
 budget
 .
 step
@@ -4897,9 +4907,11 @@ isOverBudget
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -5059,9 +5071,11 @@ if
 !
 count_
 )
+{
 return
 nullptr
 ;
+}
 return
 remove
 (
@@ -5115,6 +5129,7 @@ if
 (
 head_
 )
+{
 head_
 -
 >
@@ -5124,6 +5139,7 @@ prev
 =
 chunk
 ;
+}
 head_
 =
 chunk
@@ -5174,6 +5190,7 @@ head_
 =
 chunk
 )
+{
 head_
 =
 chunk
@@ -5183,6 +5200,7 @@ info
 .
 next
 ;
+}
 if
 (
 chunk
@@ -5192,6 +5210,7 @@ info
 .
 prev
 )
+{
 chunk
 -
 >
@@ -5211,6 +5230,7 @@ info
 .
 next
 ;
+}
 if
 (
 chunk
@@ -5220,6 +5240,7 @@ info
 .
 next
 )
+{
 chunk
 -
 >
@@ -5239,6 +5260,7 @@ info
 .
 prev
 ;
+}
 chunk
 -
 >
@@ -5316,9 +5338,11 @@ cursor
 =
 chunk
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -6069,18 +6093,22 @@ if
 (
 ok
 )
+{
 addArenaToDecommittedList
 (
 arena
 )
 ;
+}
 else
+{
 addArenaToFreeList
 (
 rt
 arena
 )
 ;
+}
 updateChunkListAfterFree
 (
 rt
@@ -6138,8 +6166,10 @@ allocated
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 MarkPagesUnused
@@ -7429,18 +7459,22 @@ mainContextFromOwnThread
 )
 )
 )
+{
 return
 ;
+}
 if
 (
 verifyPreData
 )
+{
 VerifyBarriers
 (
 rt
 PreBarrierVerifier
 )
 ;
+}
 if
 (
 zeal
@@ -7486,6 +7520,7 @@ isIncrementalGCInProgress
 (
 )
 )
+{
 finishGC
 (
 JS
@@ -7497,6 +7532,7 @@ gcreason
 DEBUG_GC
 )
 ;
+}
 }
 ZealMode
 zealMode
@@ -7516,6 +7552,7 @@ ZealMode
 :
 GenerationalGC
 )
+{
 nursery
 (
 )
@@ -7524,6 +7561,7 @@ enterZealMode
 (
 )
 ;
+}
 /
 /
 Some
@@ -7566,11 +7604,13 @@ mode
 :
 IncrementalSliceZealModes
 )
+{
 clearZealMode
 (
 mode
 )
 ;
+}
 }
 bool
 schedule
@@ -7590,6 +7630,7 @@ zeal
 =
 0
 )
+{
 zealModeBits
 |
 =
@@ -7601,11 +7642,14 @@ unsigned
 zeal
 )
 ;
+}
 else
+{
 zealModeBits
 =
 0
 ;
+}
 zealFrequency
 =
 frequency
@@ -7806,9 +7850,11 @@ length
 =
 0
 )
+{
 return
 false
 ;
+}
 for
 (
 auto
@@ -7825,9 +7871,11 @@ isdigit
 c
 )
 )
+{
 return
 false
 ;
+}
 }
 *
 paramOut
@@ -7913,9 +7961,11 @@ start
 ptr
 )
 )
+{
 return
 false
 ;
+}
 start
 =
 ptr
@@ -8064,9 +8114,11 @@ text
 parts
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 parts
@@ -8087,11 +8139,13 @@ length
 >
 2
 )
+{
 return
 PrintZealHelpAndFail
 (
 )
 ;
+}
 uint32_t
 frequency
 =
@@ -8120,11 +8174,13 @@ parts
 frequency
 )
 )
+{
 return
 PrintZealHelpAndFail
 (
 )
 ;
+}
 CharRangeVector
 modes
 ;
@@ -8144,9 +8200,11 @@ parts
 modes
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 const
@@ -8179,11 +8237,13 @@ descr
 mode
 )
 )
+{
 return
 PrintZealHelpAndFail
 (
 )
 ;
+}
 setZeal
 (
 mode
@@ -8532,6 +8592,7 @@ if
 (
 size
 )
+{
 setMarkStackLimit
 (
 atoi
@@ -8541,6 +8602,7 @@ size
 lock
 )
 ;
+}
 jitReleaseNumber
 =
 majorGCNumber
@@ -8560,9 +8622,11 @@ maxNurseryBytes
 lock
 )
 )
+{
 return
 false
 ;
+}
 }
 #
 ifdef
@@ -8596,9 +8660,11 @@ parseAndSetZeal
 zealSpec
 )
 )
+{
 return
 false
 ;
+}
 #
 endif
 if
@@ -8612,9 +8678,11 @@ initTrace
 this
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -8625,9 +8693,11 @@ init
 mode
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -8635,9 +8705,11 @@ initSweepActions
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -8850,6 +8922,7 @@ next
 (
 )
 )
+{
 js_delete
 (
 realm
@@ -8859,6 +8932,7 @@ get
 )
 )
 ;
+}
 comp
 -
 >
@@ -9017,9 +9091,11 @@ value
 =
 0
 )
+{
 return
 false
 ;
+}
 setMarkStackLimit
 (
 value
@@ -9090,9 +9166,11 @@ value
 lock
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 ZonesIter
@@ -9241,9 +9319,11 @@ newLimit
 =
 UINT64_MAX
 )
+{
 return
 false
 ;
+}
 setHighFrequencyLowLimit
 (
 newLimit
@@ -9275,9 +9355,11 @@ newLimit
 =
 0
 )
+{
 return
 false
 ;
+}
 setHighFrequencyHighLimit
 (
 newLimit
@@ -9310,9 +9392,11 @@ newGrowth
 >
 MaxHeapGrowthFactor
 )
+{
 return
 false
 ;
+}
 setHighFrequencyHeapGrowthMax
 (
 newGrowth
@@ -9345,9 +9429,11 @@ newGrowth
 >
 MaxHeapGrowthFactor
 )
+{
 return
 false
 ;
+}
 setHighFrequencyHeapGrowthMin
 (
 newGrowth
@@ -9380,9 +9466,11 @@ newGrowth
 >
 MaxHeapGrowthFactor
 )
+{
 return
 false
 ;
+}
 setLowFrequencyHeapGrowth
 (
 newGrowth
@@ -9454,9 +9542,11 @@ newFactor
 .
 0
 )
+{
 return
 false
 ;
+}
 allocThresholdFactor_
 =
 newFactor
@@ -9490,9 +9580,11 @@ newFactor
 .
 0
 )
+{
 return
 false
 ;
+}
 allocThresholdFactorAvoidInterrupt_
 =
 newFactor
@@ -9531,12 +9623,14 @@ gcMaxNurseryBytes
 (
 )
 )
+{
 value
 =
 gcMaxNurseryBytes
 (
 )
 ;
+}
 nurseryFreeThresholdForIdleCollection_
 =
 value
@@ -9606,12 +9700,14 @@ highFrequencyLowLimitBytes_
 =
 highFrequencyHighLimitBytes_
 )
+{
 highFrequencyHighLimitBytes_
 =
 highFrequencyLowLimitBytes_
 +
 1
 ;
+}
 MOZ_ASSERT
 (
 highFrequencyHighLimitBytes_
@@ -9641,12 +9737,14 @@ highFrequencyHighLimitBytes_
 =
 highFrequencyLowLimitBytes_
 )
+{
 highFrequencyLowLimitBytes_
 =
 highFrequencyHighLimitBytes_
 -
 1
 ;
+}
 MOZ_ASSERT
 (
 highFrequencyHighLimitBytes_
@@ -9675,10 +9773,12 @@ highFrequencyHeapGrowthMin_
 >
 highFrequencyHeapGrowthMax_
 )
+{
 highFrequencyHeapGrowthMax_
 =
 highFrequencyHeapGrowthMin_
 ;
+}
 MOZ_ASSERT
 (
 highFrequencyHeapGrowthMin_
@@ -9716,10 +9816,12 @@ highFrequencyHeapGrowthMax_
 <
 highFrequencyHeapGrowthMin_
 )
+{
 highFrequencyHeapGrowthMin_
 =
 highFrequencyHeapGrowthMax_
 ;
+}
 MOZ_ASSERT
 (
 highFrequencyHeapGrowthMin_
@@ -9780,10 +9882,12 @@ minEmptyChunkCount_
 >
 maxEmptyChunkCount_
 )
+{
 maxEmptyChunkCount_
 =
 minEmptyChunkCount_
 ;
+}
 MOZ_ASSERT
 (
 maxEmptyChunkCount_
@@ -9813,10 +9917,12 @@ minEmptyChunkCount_
 >
 maxEmptyChunkCount_
 )
+{
 minEmptyChunkCount_
 =
 maxEmptyChunkCount_
 ;
+}
 MOZ_ASSERT
 (
 maxEmptyChunkCount_
@@ -11012,6 +11118,7 @@ tenuredCallback
 .
 op
 )
+{
 tenuredCallback
 .
 op
@@ -11027,6 +11134,7 @@ tenuredCallback
 data
 )
 ;
+}
 }
 bool
 GCRuntime
@@ -11160,6 +11268,7 @@ ref
 (
 )
 )
+{
 p
 .
 op
@@ -11171,6 +11280,7 @@ p
 data
 )
 ;
+}
 }
 bool
 GCRuntime
@@ -11288,6 +11398,7 @@ ref
 (
 )
 )
+{
 p
 .
 op
@@ -11298,6 +11409,7 @@ p
 data
 )
 ;
+}
 }
 bool
 GCRuntime
@@ -11421,6 +11533,7 @@ ref
 (
 )
 )
+{
 p
 .
 op
@@ -11432,6 +11545,7 @@ p
 data
 )
 ;
+}
 }
 JS
 :
@@ -11545,6 +11659,7 @@ gcDoCycleCollectionCallback
 .
 op
 )
+{
 gcDoCycleCollectionCallback
 .
 op
@@ -11552,6 +11667,7 @@ op
 cx
 )
 ;
+}
 }
 bool
 GCRuntime
@@ -11623,6 +11739,7 @@ isIncrementalGCInProgress
 (
 )
 )
+{
 GCPtrValue
 :
 :
@@ -11632,6 +11749,7 @@ writeBarrierPre
 vp
 )
 ;
+}
 return
 rootsHash
 .
@@ -11729,11 +11847,13 @@ if
 !
 ok
 )
+{
 JS_ReportOutOfMemory
 (
 cx
 )
 ;
+}
 return
 ok
 ;
@@ -11823,6 +11943,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -11832,6 +11953,7 @@ value
 lock
 )
 ;
+}
 }
 double
 ZoneHeapThreshold
@@ -11893,11 +12015,13 @@ isDynamicHeapGrowthEnabled
 (
 )
 )
+{
 return
 3
 .
 0
 ;
+}
 /
 /
 For
@@ -11930,6 +12054,7 @@ lastBytes
 *
 1024
 )
+{
 return
 tunables
 .
@@ -11937,6 +12062,7 @@ lowFrequencyHeapGrowth
 (
 )
 ;
+}
 /
 /
 If
@@ -11972,6 +12098,7 @@ inHighFrequencyGCMode
 (
 )
 )
+{
 return
 tunables
 .
@@ -11979,6 +12106,7 @@ lowFrequencyHeapGrowth
 (
 )
 ;
+}
 /
 /
 The
@@ -12128,9 +12256,11 @@ lastBytes
 =
 lowLimit
 )
+{
 return
 maxRatio
 ;
+}
 if
 (
 lastBytes
@@ -12138,9 +12268,11 @@ lastBytes
 =
 highLimit
 )
+{
 return
 minRatio
 ;
+}
 double
 factor
 =
@@ -12799,9 +12931,11 @@ isCompactingGCEnabled
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 initialReason
@@ -12962,11 +13096,13 @@ isCompactingGc
 (
 )
 )
+{
 FinishGC
 (
 cx
 )
 ;
+}
 }
 AutoDisableCompactingGC
 :
@@ -13083,6 +13219,7 @@ arena
 >
 next
 )
+{
 MOZ_ASSERT
 (
 cursorp_
@@ -13095,6 +13232,7 @@ arena
 next
 )
 ;
+}
 #
 endif
 Arena
@@ -13319,9 +13457,11 @@ isCursorAtEnd
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 Arena
 *
 *
@@ -13437,10 +13577,12 @@ arena
 >
 next
 )
+{
 fullArenaCount
 +
 +
 ;
+}
 for
 (
 Arena
@@ -13526,8 +13668,10 @@ followingUsedCells
 =
 previousFreeCells
 )
+{
 break
 ;
+}
 size_t
 freeCells
 =
@@ -13960,10 +14104,12 @@ owner
 =
 srcNative
 )
+{
 owner
 =
 dstNative
 ;
+}
 }
 }
 else
@@ -13996,6 +14142,7 @@ usingInlineValueArray
 (
 )
 )
+{
 dstObj
 -
 >
@@ -14010,6 +14157,7 @@ setInlineValueArray
 (
 )
 ;
+}
 }
 /
 /
@@ -14037,12 +14185,14 @@ extObjectMovedOp
 (
 )
 )
+{
 op
 (
 dstObj
 srcObj
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 dstObj
@@ -14601,9 +14751,11 @@ relocCount
 =
 0
 )
+{
 return
 false
 ;
+}
 if
 (
 IsOOMReason
@@ -14611,9 +14763,11 @@ IsOOMReason
 reason
 )
 )
+{
 return
 true
 ;
+}
 return
 (
 relocCount
@@ -14655,11 +14809,13 @@ IsCompactingKind
 kind
 )
 )
+{
 result
 +
 =
 kind
 ;
+}
 }
 return
 result
@@ -14873,6 +15029,7 @@ kind
 :
 allocKindsToRelocate
 )
+{
 toRelocate
 [
 kind
@@ -14889,6 +15046,7 @@ arenaCount
 relocCount
 )
 ;
+}
 if
 (
 !
@@ -14899,9 +15057,11 @@ relocCount
 reason
 )
 )
+{
 return
 false
 ;
+}
 zone_
 -
 >
@@ -15063,9 +15223,11 @@ stats
 )
 )
 )
+{
 return
 false
 ;
+}
 #
 ifdef
 DEBUG
@@ -15150,6 +15312,7 @@ arena
 >
 next
 )
+{
 freeCells
 +
 =
@@ -15160,6 +15323,7 @@ countFreeCells
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 freeCells
@@ -15224,6 +15388,7 @@ IsForwarded
 thing
 )
 )
+{
 *
 thingp
 =
@@ -15232,6 +15397,7 @@ Forwarded
 thing
 )
 ;
+}
 }
 void
 MovingTracer
@@ -15466,6 +15632,7 @@ next
 (
 )
 )
+{
 AutoSweepTypeScript
 sweep
 (
@@ -15474,6 +15641,7 @@ script
 oom
 )
 ;
+}
 for
 (
 auto
@@ -15502,6 +15670,7 @@ next
 (
 )
 )
+{
 AutoSweepObjectGroup
 sweep
 (
@@ -15510,6 +15679,7 @@ group
 oom
 )
 ;
+}
 zone
 -
 >
@@ -15586,6 +15756,7 @@ weakCaches
 (
 )
 )
+{
 cache
 -
 >
@@ -15593,6 +15764,7 @@ sweep
 (
 )
 ;
+}
 if
 (
 jit
@@ -15609,6 +15781,7 @@ jitZone
 (
 )
 )
+{
 jitZone
 -
 >
@@ -15616,6 +15789,7 @@ sweep
 (
 )
 ;
+}
 for
 (
 RealmsInZoneIter
@@ -15782,6 +15956,7 @@ next
 (
 )
 )
+{
 UpdateCellPointers
 (
 trc
@@ -15799,6 +15974,7 @@ getCell
 )
 )
 ;
+}
 }
 /
 *
@@ -16175,6 +16351,7 @@ if
 !
 arena
 )
+{
 arena
 =
 zone
@@ -16187,7 +16364,9 @@ getFirstArena
 kind
 )
 ;
+}
 else
+{
 arena
 =
 arena
@@ -16195,13 +16374,16 @@ arena
 >
 next
 ;
+}
 if
 (
 arena
 )
+{
 return
 arena
 ;
+}
 }
 }
 MOZ_ASSERT
@@ -16248,12 +16430,14 @@ if
 !
 begin
 )
+{
 return
 {
 nullptr
 nullptr
 }
 ;
+}
 Arena
 *
 last
@@ -16478,6 +16662,7 @@ arena
 >
 next
 )
+{
 UpdateArenaPointers
 (
 &
@@ -16485,6 +16670,7 @@ trc
 arena
 )
 ;
+}
 }
 void
 UpdatePointersTask
@@ -16513,10 +16699,12 @@ getArenasToUpdate
 (
 )
 )
+{
 updateArenas
 (
 )
 ;
+}
 }
 }
 /
@@ -16555,9 +16743,11 @@ CanUseExtraThreads
 (
 )
 )
+{
 return
 0
 ;
+}
 size_t
 targetTaskCount
 =
@@ -16670,9 +16860,11 @@ IsShapeAllocKind
 kind
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -16704,11 +16896,13 @@ CanUpdateKindInBackground
 kind
 )
 )
+{
 result
 +
 =
 kind
 ;
+}
 }
 return
 result
@@ -16869,6 +17063,7 @@ isObject
 (
 )
 )
+{
 UpdateCellPointers
 (
 trc
@@ -16880,6 +17075,7 @@ toObject
 )
 )
 ;
+}
 }
 }
 }
@@ -17055,6 +17251,7 @@ i
 +
 +
 )
+{
 joinTask
 (
 *
@@ -17072,6 +17269,7 @@ COMPACT_UPDATE_CELLS
 lock
 )
 ;
+}
 for
 (
 size_t
@@ -17087,6 +17285,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT
 (
 bgTasks
@@ -17099,6 +17298,7 @@ isNothing
 )
 )
 ;
+}
 }
 }
 /
@@ -17716,6 +17916,7 @@ next
 (
 )
 )
+{
 comp
 -
 >
@@ -17723,6 +17924,7 @@ fixupAfterMovingGC
 (
 )
 ;
+}
 zone
 -
 >
@@ -17878,11 +18080,13 @@ next
 (
 )
 )
+{
 callWeakPointerCompartmentCallbacks
 (
 comp
 )
 ;
+}
 }
 /
 *
@@ -18046,6 +18250,7 @@ grayRootTracer
 .
 op
 )
+{
 (
 *
 op
@@ -18058,6 +18263,7 @@ grayRootTracer
 data
 )
 ;
+}
 }
 /
 /
@@ -18112,6 +18318,7 @@ weakCaches
 (
 )
 )
+{
 cache
 -
 >
@@ -18119,6 +18326,7 @@ sweep
 (
 )
 ;
+}
 /
 /
 Type
@@ -18577,6 +18785,7 @@ AllAllocKinds
 (
 )
 )
+{
 freeLists_
 [
 i
@@ -18585,6 +18794,7 @@ i
 &
 emptySentinel
 ;
+}
 }
 ArenaLists
 :
@@ -18884,11 +19094,13 @@ phase
 .
 kinds
 )
+{
 queueForForegroundSweep
 (
 kind
 )
 ;
+}
 }
 void
 ArenaLists
@@ -19004,11 +19216,13 @@ phase
 .
 kinds
 )
+{
 queueForBackgroundSweep
 (
 kind
 )
 ;
+}
 }
 inline
 void
@@ -19753,6 +19967,7 @@ isUnlimited
 (
 )
 )
+{
 return
 snprintf
 (
@@ -19763,6 +19978,7 @@ unlimited
 "
 )
 ;
+}
 else
 if
 (
@@ -19770,6 +19986,7 @@ isWorkBudget
 (
 )
 )
+{
 return
 snprintf
 (
@@ -19789,7 +20006,9 @@ workBudget
 budget
 )
 ;
+}
 else
+{
 return
 snprintf
 (
@@ -19808,6 +20027,7 @@ budget
 )
 ;
 }
+}
 bool
 SliceBudget
 :
@@ -19824,9 +20044,11 @@ IsNull
 (
 )
 )
+{
 return
 true
 ;
+}
 bool
 over
 =
@@ -19842,10 +20064,12 @@ if
 !
 over
 )
+{
 counter
 =
 CounterReset
 ;
+}
 return
 over
 ;
@@ -19880,8 +20104,10 @@ majorGCRequested
 (
 )
 )
+{
 return
 ;
+}
 majorGCTriggerReason
 =
 reason
@@ -19944,8 +20170,10 @@ minorGCRequested
 (
 )
 )
+{
 return
 ;
+}
 minorGCTriggerReason_
 =
 reason
@@ -20115,9 +20343,11 @@ IsRecordingOrReplaying
 (
 )
 )
+{
 return
 true
 ;
+}
 switch
 (
 reason
@@ -20277,9 +20507,11 @@ CurrentThreadCanAccessRuntime
 rt
 )
 )
+{
 return
 false
 ;
+}
 /
 *
 GC
@@ -20298,9 +20530,11 @@ RuntimeHeapIsCollecting
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 GCs
@@ -20324,9 +20558,11 @@ RecordReplayCheckCanGC
 reason
 )
 )
+{
 return
 false
 ;
+}
 JS
 :
 :
@@ -20561,6 +20797,7 @@ gcDelayBytes
 <
 ArenaSize
 )
+{
 zone
 -
 >
@@ -20568,7 +20805,9 @@ gcDelayBytes
 =
 0
 ;
+}
 else
+{
 zone
 -
 >
@@ -20577,6 +20816,7 @@ gcDelayBytes
 =
 ArenaSize
 ;
+}
 if
 (
 !
@@ -20736,9 +20976,11 @@ RuntimeHeapIsBusy
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 GCs
@@ -20762,9 +21004,11 @@ RecordReplayCheckCanGC
 reason
 )
 )
+{
 return
 false
 ;
+}
 #
 ifdef
 JS_GC_ZEAL
@@ -20981,8 +21225,10 @@ gcIfRequested
 (
 )
 )
+{
 return
 ;
+}
 double
 threshold
 =
@@ -21209,6 +21455,7 @@ next
 (
 )
 )
+{
 chunk
 -
 >
@@ -21217,6 +21464,7 @@ decommitAllArenasWithoutUnlocking
 lock
 )
 ;
+}
 MOZ_ASSERT
 (
 availableChunks
@@ -21294,8 +21542,10 @@ inHighFrequencyGCMode
 (
 )
 )
+{
 return
 ;
+}
 BackgroundDecommitTask
 :
 :
@@ -21351,6 +21601,7 @@ next
 (
 )
 )
+{
 MOZ_ASSERT
 (
 !
@@ -21362,6 +21613,7 @@ info
 numArenasFreeCommitted
 )
 ;
+}
 /
 /
 Since
@@ -21509,8 +21761,10 @@ start
 (
 )
 )
+{
 return
 ;
+}
 decommitTask
 .
 runFromMainThread
@@ -21712,8 +21966,10 @@ cancel_
 !
 ok
 )
+{
 break
 ;
+}
 }
 }
 toDecommit
@@ -21791,8 +22047,10 @@ isEmpty
 (
 )
 )
+{
 return
 ;
+}
 FreeOp
 fop
 (
@@ -21918,6 +22176,7 @@ if
 (
 arenas
 )
+{
 ArenaLists
 :
 :
@@ -21930,6 +22189,7 @@ arenas
 emptyArenas
 )
 ;
+}
 }
 }
 AutoLockGC
@@ -22221,6 +22481,7 @@ if
 (
 sweepOnBackgroundThread
 )
+{
 sweepTask
 .
 startIfIdle
@@ -22228,6 +22489,7 @@ startIfIdle
 lock
 )
 ;
+}
 }
 void
 GCRuntime
@@ -22415,8 +22677,10 @@ isRunningWithLockHeld
 lock
 )
 )
+{
 return
 ;
+}
 /
 /
 Join
@@ -22734,10 +22998,12 @@ isIncrementalGCInProgress
 (
 )
 )
+{
 assertBackgroundSweepingFinished
 (
 )
 ;
+}
 }
 bool
 GCRuntime
@@ -22762,10 +23028,12 @@ zealModeBits
 =
 0
 )
+{
 releaseTypes
 =
 true
 ;
+}
 #
 endif
 /
@@ -22790,20 +23058,24 @@ majorGCNumber
 =
 jitReleaseNumber
 )
+{
 releaseTypes
 =
 true
 ;
+}
 if
 (
 releaseTypes
 )
+{
 jitReleaseNumber
 =
 majorGCNumber
 +
 JIT_SCRIPT_RELEASE_TYPES_PERIOD
 ;
+}
 return
 releaseTypes
 ;
@@ -22985,18 +23257,21 @@ rt
 >
 destroyRealmCallback
 )
+{
 callback
 (
 fop
 this
 )
 ;
+}
 if
 (
 principals
 (
 )
 )
+{
 JS_DropPrincipals
 (
 rt
@@ -23010,6 +23285,7 @@ principals
 )
 )
 ;
+}
 fop
 -
 >
@@ -23051,12 +23327,14 @@ rt
 >
 destroyCompartmentCallback
 )
+{
 callback
 (
 fop
 this
 )
 ;
+}
 fop
 -
 >
@@ -23771,8 +24049,10 @@ if
 (
 numActiveZoneIters
 )
+{
 return
 ;
+}
 assertBackgroundSweepingFinished
 (
 )
@@ -23877,6 +24157,7 @@ zoneIsDead
 destroyingRuntime
 )
 {
+{
 /
 /
 We
@@ -23911,6 +24192,7 @@ checkEmptyFreeLists
 (
 )
 ;
+}
 /
 /
 We
@@ -23961,10 +24243,12 @@ checkEmptyArenaLists
 (
 )
 )
+{
 arenasEmptyAtShutdown
 =
 false
 ;
+}
 #
 endif
 zone
@@ -24185,6 +24469,7 @@ env
 *
 env
 )
+{
 maxCells
 =
 atol
@@ -24192,6 +24477,7 @@ atol
 env
 )
 ;
+}
 for
 (
 Arena
@@ -24533,6 +24819,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -24544,6 +24831,7 @@ purge
 (
 )
 ;
+}
 rt
 -
 >
@@ -24604,6 +24892,7 @@ next
 (
 )
 )
+{
 realm
 -
 >
@@ -24611,6 +24900,7 @@ purge
 (
 )
 ;
+}
 for
 (
 GCZonesIter
@@ -24731,6 +25021,7 @@ maybeThisRuntimeSharedImmutableStrings
 (
 )
 )
+{
 cache
 -
 >
@@ -24738,6 +25029,7 @@ purge
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 unmarkGrayStack
@@ -24796,24 +25088,30 @@ if
 (
 cleanUpEverything
 )
+{
 return
 false
 ;
+}
 if
 (
 !
 canAllocateMoreCode
 )
+{
 return
 false
 ;
+}
 if
 (
 alwaysPreserveCode
 )
+{
 return
 true
 ;
+}
 if
 (
 realm
@@ -24823,9 +25121,11 @@ preserveJitCode
 (
 )
 )
+{
 return
 true
 ;
+}
 const
 auto
 &
@@ -24857,9 +25157,11 @@ oneSecond
 =
 currentTime
 )
+{
 return
 true
 ;
+}
 if
 (
 reason
@@ -24873,9 +25175,11 @@ gcreason
 :
 DEBUG_GC
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -25111,9 +25415,11 @@ ObjectValue
 src
 )
 )
+{
 return
 true
 ;
+}
 }
 }
 /
@@ -25403,8 +25709,10 @@ cx
 >
 disableStrictProxyCheckingCount
 )
+{
 return
 ;
+}
 CompartmentCheckTracer
 trc
 (
@@ -25652,6 +25960,7 @@ hasScript
 (
 )
 )
+{
 fun
 -
 >
@@ -25660,6 +25969,7 @@ maybeRelazify
 rt
 )
 ;
+}
 }
 }
 static
@@ -25752,9 +26062,11 @@ gcState
 .
 scheduledForDestruction
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -25779,9 +26091,11 @@ isGCScheduled
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 If
@@ -25962,6 +26276,7 @@ isAtomsZone
 (
 )
 )
+{
 return
 TlsContext
 .
@@ -25974,6 +26289,7 @@ canCollectAtoms
 (
 )
 ;
+}
 return
 zone
 -
@@ -26082,6 +26398,7 @@ AllAllocKinds
 (
 )
 )
+{
 MOZ_ASSERT
 (
 !
@@ -26096,6 +26413,7 @@ i
 )
 )
 ;
+}
 }
 #
 endif
@@ -26337,6 +26655,7 @@ isGCScheduled
 (
 )
 )
+{
 c
 -
 >
@@ -26346,6 +26665,7 @@ maybeAlive
 =
 true
 ;
+}
 if
 (
 shouldPreserveJITCode
@@ -26356,6 +26676,7 @@ reason
 canAllocateMoreCode
 )
 )
+{
 r
 -
 >
@@ -26369,6 +26690,7 @@ setPreservingCode
 true
 )
 ;
+}
 if
 (
 r
@@ -26378,6 +26700,7 @@ hasBeenEnteredIgnoringJit
 (
 )
 )
+{
 c
 -
 >
@@ -26387,6 +26710,7 @@ hasEnteredRealm
 =
 true
 ;
+}
 }
 }
 if
@@ -26421,6 +26745,7 @@ done
 (
 )
 )
+{
 activation
 -
 >
@@ -26439,6 +26764,7 @@ setPreservingCode
 true
 )
 ;
+}
 }
 /
 *
@@ -26649,8 +26975,10 @@ isSelfHostingZone
 (
 )
 )
+{
 continue
 ;
+}
 RelazifyFunctions
 (
 zone
@@ -26741,8 +27069,10 @@ keepShapeTables
 (
 )
 )
+{
 continue
 ;
+}
 for
 (
 auto
@@ -26771,6 +27101,7 @@ next
 (
 )
 )
+{
 baseShape
 -
 >
@@ -26778,6 +27109,7 @@ maybePurgeTable
 (
 )
 ;
+}
 }
 }
 static
@@ -26940,10 +27272,12 @@ if
 (
 fullCompartmentChecks
 )
+{
 checkForCompartmentMismatches
 (
 )
 ;
+}
 #
 endif
 if
@@ -26960,9 +27294,11 @@ ref
 )
 )
 )
+{
 return
 false
 ;
+}
 /
 *
 *
@@ -26993,6 +27329,7 @@ isCollecting
 (
 )
 )
+{
 session
 .
 maybeCheckAtomsAccess
@@ -27002,6 +27339,7 @@ emplace
 rt
 )
 ;
+}
 /
 *
 *
@@ -27059,6 +27397,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -27068,6 +27407,7 @@ clearFreeLists
 (
 )
 ;
+}
 marker
 .
 start
@@ -27217,6 +27557,7 @@ if
 (
 isIncremental
 )
+{
 bufferGrayRoots
 .
 emplace
@@ -27233,6 +27574,7 @@ BUFFER_GRAY_ROOTS
 helperLock
 )
 ;
+}
 AutoUnlockHelperThreadState
 unlock
 (
@@ -27506,10 +27848,12 @@ if
 (
 isIncremental
 )
+{
 markCompartments
 (
 )
 ;
+}
 updateMallocCountersOnGCStart
 (
 )
@@ -27977,8 +28321,10 @@ append
 comp
 )
 )
+{
 return
 ;
+}
 }
 }
 while
@@ -28077,8 +28423,10 @@ append
 dest
 )
 )
+{
 return
 ;
+}
 }
 }
 }
@@ -28135,6 +28483,7 @@ gcState
 .
 maybeAlive
 )
+{
 comp
 -
 >
@@ -28144,6 +28493,7 @@ scheduledForDestruction
 =
 true
 ;
+}
 }
 }
 void
@@ -28189,6 +28539,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -28196,6 +28547,7 @@ updateAllGCMallocCountersOnGCStart
 (
 )
 ;
+}
 /
 /
 Update
@@ -28216,12 +28568,14 @@ if
 (
 isFull
 )
+{
 mallocCounter
 .
 updateOnGCStart
 (
 )
 ;
+}
 }
 template
 <
@@ -28340,6 +28694,7 @@ next
 (
 )
 )
+{
 markedAny
 |
 =
@@ -28353,6 +28708,7 @@ zone
 marker
 )
 ;
+}
 }
 markedAny
 |
@@ -28386,8 +28742,10 @@ if
 !
 markedAny
 )
+{
 break
 ;
+}
 auto
 unlimited
 =
@@ -28507,11 +28865,13 @@ next
 (
 )
 )
+{
 markBufferedGrayRoots
 (
 zone
 )
 ;
+}
 }
 else
 {
@@ -28530,6 +28890,7 @@ grayRootTracer
 .
 op
 )
+{
 (
 *
 op
@@ -28542,6 +28903,7 @@ grayRootTracer
 data
 )
 ;
+}
 }
 auto
 unlimited
@@ -29021,8 +29383,10 @@ if
 !
 entry
 )
+{
 return
 ;
+}
 memcpy
 (
 (
@@ -29067,8 +29431,10 @@ entry
 )
 )
 )
+{
 return
 ;
+}
 }
 }
 /
@@ -29150,8 +29516,10 @@ init
 (
 )
 )
+{
 return
 ;
+}
 for
 (
 GCZonesIter
@@ -29186,8 +29554,10 @@ zone
 markedWeakMaps
 )
 )
+{
 return
 ;
+}
 AutoEnterOOMUnsafeRegion
 oomUnsafe
 ;
@@ -29262,6 +29632,7 @@ value
 )
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -29277,6 +29648,7 @@ validator
 )
 ;
 }
+}
 if
 (
 !
@@ -29291,6 +29663,7 @@ clear
 (
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -29305,6 +29678,7 @@ validator
 "
 )
 ;
+}
 }
 /
 *
@@ -29438,6 +29812,7 @@ next
 (
 )
 )
+{
 WeakMapBase
 :
 :
@@ -29446,6 +29821,7 @@ unmarkZone
 zone
 )
 ;
+}
 MOZ_ASSERT
 (
 gcmarker
@@ -29495,6 +29871,7 @@ next
 (
 )
 )
+{
 chunk
 -
 >
@@ -29504,6 +29881,7 @@ clear
 (
 )
 ;
+}
 }
 }
 {
@@ -29670,6 +30048,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -29685,6 +30064,7 @@ Zone
 MarkGray
 )
 ;
+}
 gc
 -
 >
@@ -29751,6 +30131,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -29766,6 +30147,7 @@ Zone
 Mark
 )
 ;
+}
 MOZ_ASSERT
 (
 gc
@@ -29928,6 +30310,7 @@ clear
 (
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -29942,6 +30325,7 @@ validator
 "
 )
 ;
+}
 }
 WeakMapBase
 :
@@ -30055,6 +30439,7 @@ value
 )
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -30069,6 +30454,7 @@ validator
 "
 )
 ;
+}
 }
 gc
 -
@@ -30127,8 +30513,10 @@ if
 !
 initialized
 )
+{
 return
 ;
+}
 gc
 -
 >
@@ -30190,6 +30578,7 @@ if
 !
 ptr
 )
+{
 continue
 ;
 /
@@ -30206,6 +30595,7 @@ mark
 .
 *
 /
+}
 ChunkBitmap
 *
 bitmap
@@ -30259,8 +30649,10 @@ get
 i
 )
 )
+{
 continue
 ;
+}
 Arena
 *
 arena
@@ -30284,8 +30676,10 @@ allocated
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -30299,8 +30693,10 @@ isGCSweeping
 (
 )
 )
+{
 continue
 ;
+}
 AllocKind
 kind
 =
@@ -30389,6 +30785,7 @@ isMarkedAny
 cell
 )
 )
+{
 MOZ_RELEASE_ASSERT
 (
 incBitmap
@@ -30400,6 +30797,7 @@ cell
 )
 )
 ;
+}
 /
 *
 *
@@ -30452,6 +30850,7 @@ isMarkedGray
 cell
 )
 )
+{
 MOZ_RELEASE_ASSERT
 (
 !
@@ -30464,6 +30863,7 @@ cell
 )
 )
 ;
+}
 thing
 +
 =
@@ -30517,6 +30917,7 @@ ZealMode
 IncrementalMarkingValidator
 )
 )
+{
 markingValidator
 =
 js_new
@@ -30527,10 +30928,12 @@ MarkingValidator
 this
 )
 ;
+}
 if
 (
 markingValidator
 )
+{
 markingValidator
 -
 >
@@ -30539,6 +30942,7 @@ nonIncrementalMark
 session
 )
 ;
+}
 #
 endif
 }
@@ -30557,6 +30961,7 @@ if
 (
 markingValidator
 )
+{
 markingValidator
 -
 >
@@ -30564,6 +30969,7 @@ validate
 (
 )
 ;
+}
 #
 endif
 }
@@ -30963,6 +31369,7 @@ isGCMarking
 (
 )
 )
+{
 finder_
 .
 addEdgeTo
@@ -30970,6 +31377,7 @@ addEdgeTo
 zone
 )
 ;
+}
 }
 }
 }
@@ -31199,6 +31607,7 @@ next
 (
 )
 )
+{
 comp
 -
 >
@@ -31207,6 +31616,7 @@ findOutgoingEdges
 finder
 )
 ;
+}
 for
 (
 ZoneSet
@@ -31250,6 +31660,7 @@ isGCMarking
 (
 )
 )
+{
 finder
 .
 addEdgeTo
@@ -31261,6 +31672,7 @@ front
 )
 )
 ;
+}
 }
 Debugger
 :
@@ -31399,9 +31811,11 @@ findInterZoneEdges
 zone
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -31448,6 +31862,7 @@ next
 (
 )
 )
+{
 MOZ_ASSERT
 (
 zone
@@ -31462,6 +31877,7 @@ empty
 )
 )
 ;
+}
 #
 endif
 JSContext
@@ -31521,12 +31937,14 @@ findInterZoneEdges
 (
 )
 )
+{
 finder
 .
 useOneComponent
 (
 )
 ;
+}
 #
 ifdef
 JS_GC_ZEAL
@@ -31551,12 +31969,14 @@ hasIncrementalTwoSliceZealMode
 (
 )
 )
+{
 finder
 .
 useOneComponent
 (
 )
 ;
+}
 #
 endif
 for
@@ -31636,6 +32056,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -31647,6 +32068,7 @@ clear
 (
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -31689,6 +32111,7 @@ nextNodeInGroup
 (
 )
 )
+{
 MOZ_ASSERT
 (
 zone
@@ -31699,6 +32122,7 @@ isGCMarking
 )
 )
 ;
+}
 }
 MOZ_ASSERT_IF
 (
@@ -31735,6 +32159,7 @@ next
 (
 )
 )
+{
 MOZ_ASSERT
 (
 zone
@@ -31749,6 +32174,7 @@ empty
 )
 )
 ;
+}
 #
 endif
 }
@@ -31842,6 +32268,7 @@ if
 !
 isIncremental
 )
+{
 ZoneComponentFinder
 :
 :
@@ -31850,6 +32277,7 @@ mergeGroups
 currentSweepGroup
 )
 ;
+}
 if
 (
 abortSweepAfterCurrentGroup
@@ -31948,11 +32376,13 @@ next
 (
 )
 )
+{
 ResetGrayList
 (
 comp
 )
 ;
+}
 abortSweepAfterCurrentGroup
 =
 false
@@ -32340,6 +32770,7 @@ popFront
 (
 )
 )
+{
 AssertNotOnGrayList
 (
 &
@@ -32362,6 +32793,7 @@ toObject
 )
 )
 ;
+}
 }
 #
 endif
@@ -32455,6 +32887,7 @@ if
 (
 unlink
 )
+{
 SetProxyReservedSlot
 (
 prev
@@ -32464,6 +32897,7 @@ UndefinedValue
 )
 )
 ;
+}
 return
 next
 ;
@@ -32645,10 +33079,12 @@ obj
 =
 src
 )
+{
 found
 =
 true
 ;
+}
 obj
 =
 NextIncomingCrossCompartmentPointer
@@ -32909,6 +33345,7 @@ isMarkedGray
 (
 )
 )
+{
 TraceManuallyBarrieredEdge
 (
 &
@@ -32924,6 +33361,7 @@ pointer
 "
 )
 ;
+}
 }
 else
 {
@@ -32949,6 +33387,7 @@ isMarkedGray
 (
 )
 )
+{
 TraceManuallyBarrieredEdge
 (
 &
@@ -32966,10 +33405,12 @@ pointer
 ;
 }
 }
+}
 if
 (
 unlinkList
 )
+{
 c
 -
 >
@@ -32977,6 +33418,7 @@ gcIncomingGrayPointers
 =
 nullptr
 ;
+}
 }
 auto
 unlimited
@@ -33019,9 +33461,11 @@ IsGrayListObject
 wrapper
 )
 )
+{
 return
 false
 ;
+}
 unsigned
 slot
 =
@@ -33045,6 +33489,7 @@ isUndefined
 (
 )
 )
+{
 return
 false
 ;
@@ -33057,6 +33502,7 @@ list
 .
 *
 /
+}
 JSObject
 *
 tail
@@ -33221,6 +33667,7 @@ while
 (
 src
 )
+{
 src
 =
 NextIncomingCrossCompartmentPointer
@@ -33229,6 +33676,7 @@ src
 true
 )
 ;
+}
 comp
 -
 >
@@ -33435,22 +33883,26 @@ removedFlags
 &
 JS_GC_SWAP_OBJECT_A_REMOVED
 )
+{
 DelayCrossCompartmentGrayMarking
 (
 b
 )
 ;
+}
 if
 (
 removedFlags
 &
 JS_GC_SWAP_OBJECT_B_REMOVED
 )
+{
 DelayCrossCompartmentGrayMarking
 (
 a
 )
 ;
+}
 }
 IncrementalProgress
 GCRuntime
@@ -33606,6 +34058,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -33621,6 +34074,7 @@ Zone
 MarkGray
 )
 ;
+}
 marker
 .
 setMarkColorGray
@@ -33715,6 +34169,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -33730,6 +34185,7 @@ Zone
 Mark
 )
 ;
+}
 MOZ_ASSERT
 (
 marker
@@ -33928,6 +34384,7 @@ next
 (
 )
 )
+{
 runtime
 -
 >
@@ -33941,6 +34398,7 @@ zone
 marked
 )
 ;
+}
 }
 else
 {
@@ -34052,6 +34510,7 @@ next
 (
 )
 )
+{
 realm
 -
 >
@@ -34059,6 +34518,7 @@ sweepVarNames
 (
 )
 ;
+}
 }
 static
 void
@@ -34101,6 +34561,7 @@ next
 (
 )
 )
+{
 c
 -
 >
@@ -34108,6 +34569,7 @@ sweepCrossCompartmentWrappers
 (
 )
 ;
+}
 }
 static
 void
@@ -34150,6 +34612,7 @@ next
 (
 )
 )
+{
 r
 -
 >
@@ -34157,6 +34620,7 @@ sweepObjectGroups
 (
 )
 ;
+}
 }
 static
 void
@@ -34420,6 +34884,7 @@ shouldCancel
 (
 )
 )
+{
 HelperThreadState
 (
 )
@@ -34431,6 +34896,7 @@ pending
 i
 )
 ;
+}
 }
 }
 static
@@ -34530,11 +34996,13 @@ IsAboutToBeFinalizedDuringSweep
 edge
 )
 )
+{
 *
 edge
 =
 nullptr
 ;
+}
 }
 zone
 -
@@ -34582,6 +35050,7 @@ clear
 (
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -34597,6 +35066,7 @@ beginSweepingSweepGroup
 "
 )
 ;
+}
 zone
 -
 >
@@ -34641,6 +35111,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -34648,6 +35119,7 @@ sweepUniqueIds
 (
 )
 ;
+}
 }
 void
 GCRuntime
@@ -34904,6 +35376,7 @@ next
 (
 )
 )
+{
 r
 -
 >
@@ -34911,6 +35384,7 @@ sweepDebugEnvironments
 (
 )
 ;
+}
 }
 /
 /
@@ -34982,6 +35456,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -34990,6 +35465,7 @@ sweepBreakpoints
 fop
 )
 ;
+}
 }
 }
 void
@@ -35108,6 +35584,7 @@ next
 (
 )
 )
+{
 r
 -
 >
@@ -35115,6 +35592,7 @@ sweepJitRealm
 (
 )
 ;
+}
 for
 (
 SweepGroupZonesIter
@@ -35153,6 +35631,7 @@ jitZone
 (
 )
 )
+{
 jitZone
 -
 >
@@ -35160,6 +35639,7 @@ sweep
 (
 )
 ;
+}
 }
 /
 /
@@ -35275,6 +35755,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -35283,6 +35764,7 @@ discardJitCode
 fop
 )
 ;
+}
 }
 {
 gcstats
@@ -35342,6 +35824,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -35359,6 +35842,7 @@ isPreservingCode
 )
 )
 ;
+}
 }
 }
 using
@@ -35471,9 +35955,11 @@ cache
 ZoneWeakCache
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 for
@@ -35505,9 +35991,11 @@ cache
 RuntimeWeakCache
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -35595,9 +36083,11 @@ needsSweep
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Caches
@@ -35626,9 +36116,11 @@ setNeedsIncrementalBarrier
 true
 )
 )
+{
 return
 true
 ;
+}
 return
 immediateTasks
 -
@@ -35648,6 +36140,7 @@ if
 !
 ok
 )
+{
 immediateTasks
 -
 >
@@ -35655,6 +36148,7 @@ clearAndFree
 (
 )
 ;
+}
 return
 ok
 ;
@@ -35737,6 +36231,7 @@ needsIncrementalBarrier
 (
 )
 )
+{
 cache
 -
 >
@@ -35745,6 +36240,7 @@ setNeedsIncrementalBarrier
 false
 )
 ;
+}
 cache
 -
 >
@@ -35901,10 +36397,12 @@ isAtomsZone
 (
 )
 )
+{
 sweepingAtoms
 =
 true
 ;
+}
 #
 ifdef
 DEBUG
@@ -36015,11 +36513,13 @@ next
 (
 )
 )
+{
 callWeakPointerCompartmentCallbacks
 (
 comp
 )
 ;
+}
 }
 }
 callFinalizeCallbacks
@@ -36190,11 +36690,13 @@ rt
 sweepCacheTasks
 )
 )
+{
 SweepWeakCachesOnMainThread
 (
 rt
 )
 ;
+}
 for
 (
 auto
@@ -36203,6 +36705,7 @@ task
 :
 sweepCacheTasks
 )
+{
 startTask
 (
 task
@@ -36213,6 +36716,7 @@ SWEEP_WEAK_CACHES
 lock
 )
 ;
+}
 {
 AutoUnlockHelperThreadState
 unlock
@@ -36234,6 +36738,7 @@ task
 :
 sweepCacheTasks
 )
+{
 joinTask
 (
 task
@@ -36245,14 +36750,17 @@ lock
 )
 ;
 }
+}
 if
 (
 sweepingAtoms
 )
+{
 startSweepingAtomsTable
 (
 )
 ;
+}
 /
 /
 Queue
@@ -36338,6 +36846,7 @@ BackgroundFinalizePhases
 +
 i
 )
+{
 zone
 -
 >
@@ -36352,6 +36861,7 @@ i
 ]
 )
 ;
+}
 zone
 -
 >
@@ -36470,9 +36980,11 @@ ZealMode
 IncrementalMultipleSlices
 )
 )
+{
 return
 NotFinished
 ;
+}
 return
 Finished
 ;
@@ -36683,11 +37195,14 @@ isAtomsZone
 (
 )
 )
+{
 sweepAtomsZone
 =
 true
 ;
+}
 else
+{
 zones
 .
 append
@@ -36696,10 +37211,12 @@ zone
 )
 ;
 }
+}
 if
 (
 sweepAtomsZone
 )
+{
 zones
 .
 append
@@ -36707,6 +37224,7 @@ append
 atomsZone
 )
 ;
+}
 queueZonesForBackgroundSweep
 (
 zones
@@ -36717,6 +37235,7 @@ if
 !
 sweepOnBackgroundThread
 )
+{
 sweepTask
 .
 runFromMainThread
@@ -36724,6 +37243,7 @@ runFromMainThread
 rt
 )
 ;
+}
 return
 Finished
 ;
@@ -36953,9 +37473,11 @@ isEmpty
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Empty
@@ -37051,6 +37573,7 @@ IsObjectAllocKind
 thingKind
 )
 )
+{
 sweepList
 .
 extractEmpty
@@ -37063,6 +37586,7 @@ ref
 )
 )
 ;
+}
 ArenaList
 finalized
 =
@@ -37201,6 +37725,7 @@ isMarkedAny
 (
 )
 )
+{
 shape
 -
 >
@@ -37208,6 +37733,7 @@ sweep
 (
 )
 ;
+}
 }
 static
 void
@@ -37308,6 +37834,7 @@ next
 (
 )
 )
+{
 SweepThing
 (
 i
@@ -37324,6 +37851,7 @@ args
 .
 )
 ;
+}
 *
 arenasToSweep
 =
@@ -37367,9 +37895,11 @@ isOverBudget
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -37563,9 +38093,11 @@ budget
 oom
 )
 )
+{
 return
 NotFinished
 ;
+}
 if
 (
 !
@@ -37587,9 +38119,11 @@ budget
 oom
 )
 )
+{
 return
 NotFinished
 ;
+}
 /
 /
 Finish
@@ -37741,8 +38275,10 @@ if
 !
 atomsTable
 )
+{
 return
 ;
+}
 /
 /
 Create
@@ -37828,9 +38364,11 @@ isGCSweeping
 (
 )
 )
+{
 return
 Finished
 ;
+}
 gcstats
 :
 :
@@ -37864,9 +38402,11 @@ if
 !
 maybeAtoms
 )
+{
 return
 Finished
 ;
+}
 if
 (
 !
@@ -37888,9 +38428,11 @@ ref
 budget
 )
 )
+{
 return
 NotFinished
 ;
+}
 maybeAtoms
 .
 reset
@@ -38051,9 +38593,11 @@ empty
 lock
 )
 )
+{
 return
 nullptr
 ;
+}
 JS
 :
 :
@@ -38110,6 +38654,7 @@ needsIncrementalBarrier
 (
 )
 )
+{
 sweepCache
 =
 sweepCache
@@ -38119,12 +38664,15 @@ getNext
 (
 )
 ;
+}
 if
 (
 sweepCache
 )
+{
 break
 ;
+}
 sweepZone
 =
 sweepZone
@@ -38138,6 +38686,7 @@ if
 (
 sweepZone
 )
+{
 sweepCache
 =
 sweepZone
@@ -38151,6 +38700,7 @@ getFirst
 (
 )
 ;
+}
 }
 }
 private
@@ -38370,8 +38920,10 @@ isOverBudget
 (
 )
 )
+{
 break
 ;
+}
 cache_
 =
 work_
@@ -38497,6 +39049,7 @@ i
 +
 +
 )
+{
 tasks
 [
 i
@@ -38510,6 +39063,7 @@ budget
 lock
 )
 ;
+}
 /
 /
 Tasks
@@ -38614,9 +39168,11 @@ budget
 sweepList
 )
 )
+{
 return
 NotFinished
 ;
+}
 /
 /
 Reset
@@ -38721,9 +39277,11 @@ ref
 budget
 )
 )
+{
 return
 NotFinished
 ;
+}
 if
 (
 !
@@ -38743,9 +39301,11 @@ ref
 budget
 )
 )
+{
 return
 NotFinished
 ;
+}
 return
 Finished
 ;
@@ -39055,6 +39615,7 @@ isNothing
 (
 )
 )
+{
 maybeIter
 .
 emplace
@@ -39075,6 +39636,7 @@ args
 )
 ;
 }
+}
 ~
 IncrementalIter
 (
@@ -39086,12 +39648,14 @@ done
 (
 )
 )
+{
 maybeIter
 .
 reset
 (
 )
 ;
+}
 }
 bool
 done
@@ -39683,9 +40247,11 @@ i
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -39745,9 +40311,11 @@ args
 =
 NotFinished
 )
+{
 return
 NotFinished
 ;
+}
 }
 return
 Finished
@@ -39778,6 +40346,7 @@ action
 :
 actions
 )
+{
 action
 -
 >
@@ -39785,6 +40354,7 @@ assertFinished
 (
 )
 ;
+}
 }
 }
 ;
@@ -39955,9 +40525,11 @@ get
 =
 NotFinished
 )
+{
 return
 NotFinished
 ;
+}
 }
 return
 Finished
@@ -40132,9 +40704,11 @@ args
 =
 NotFinished
 )
+{
 return
 NotFinished
 ;
+}
 }
 return
 Finished
@@ -40699,9 +41273,11 @@ actions
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 UniquePtr
 <
@@ -40766,9 +41342,11 @@ if
 !
 action
 )
+{
 return
 nullptr
 ;
+}
 using
 Action
 =
@@ -40852,9 +41430,11 @@ if
 !
 action
 )
+{
 return
 nullptr
 ;
+}
 using
 Action
 =
@@ -40944,9 +41524,11 @@ if
 !
 action
 )
+{
 return
 nullptr
 ;
+}
 using
 Action
 =
@@ -41341,9 +41923,11 @@ SWEEP_MARK
 =
 NotFinished
 )
+{
 return
 NotFinished
 ;
+}
 }
 return
 sweepActions
@@ -41743,6 +42327,7 @@ hasJitRuntime
 (
 )
 )
+{
 rt
 -
 >
@@ -41759,6 +42344,7 @@ purge
 (
 )
 ;
+}
 }
 {
 gcstats
@@ -41792,10 +42378,12 @@ allCCVisibleZonesWereCollected
 (
 )
 )
+{
 grayBitsValid
 =
 true
 ;
+}
 }
 finishMarkingValidation
 (
@@ -41946,6 +42534,7 @@ CanRelocateZone
 zone
 )
 )
+{
 zonesToMaybeCompact
 .
 ref
@@ -41957,6 +42546,7 @@ append
 zone
 )
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -42203,8 +42793,10 @@ isOverBudget
 (
 )
 )
+{
 break
 ;
+}
 }
 if
 (
@@ -42273,17 +42865,21 @@ ShouldProtectRelocatedArenas
 reason
 )
 )
+{
 protectAndHoldArenas
 (
 relocatedArenas
 )
 ;
+}
 else
+{
 releaseRelocatedArenas
 (
 relocatedArenas
 )
 ;
+}
 /
 /
 Clear
@@ -42903,11 +43499,13 @@ next
 (
 )
 )
+{
 ResetGrayList
 (
 c
 )
 ;
+}
 for
 (
 GCZonesIter
@@ -43036,6 +43634,7 @@ next
 (
 )
 )
+{
 c
 -
 >
@@ -43045,6 +43644,7 @@ scheduledForDestruction
 =
 false
 ;
+}
 for
 (
 GCZonesIter
@@ -43076,6 +43676,7 @@ isGCMarking
 (
 )
 )
+{
 zone
 -
 >
@@ -43085,6 +43686,7 @@ unmarkPreMarkedFreeCells
 (
 )
 ;
+}
 }
 /
 *
@@ -43711,6 +44313,7 @@ isGCMarking
 (
 )
 )
+{
 zone
 -
 >
@@ -43719,6 +44322,7 @@ setNeedsIncrementalBarrier
 true
 )
 ;
+}
 }
 }
 void
@@ -43782,6 +44386,7 @@ obj
 +
 +
 )
+{
 TraceManuallyBarrieredEdge
 (
 &
@@ -43793,6 +44398,7 @@ obj
 "
 )
 ;
+}
 #
 endif
 }
@@ -44320,10 +44926,12 @@ if
 !
 destroyingRuntime
 )
+{
 pushZealSelectedObjects
 (
 )
 ;
+}
 incrementalState
 =
 State
@@ -44347,8 +44955,10 @@ ZealMode
 YieldBeforeMarking
 )
 )
+{
 break
 ;
+}
 MOZ_FALLTHROUGH
 ;
 case
@@ -44440,8 +45050,10 @@ MARK
 =
 NotFinished
 )
+{
 break
 ;
+}
 MOZ_ASSERT
 (
 marker
@@ -44826,8 +45438,10 @@ budget
 =
 NotFinished
 )
+{
 break
 ;
+}
 endSweepPhase
 (
 destroyingRuntime
@@ -44900,8 +45514,10 @@ isBackgroundSweeping
 (
 )
 )
+{
 break
 ;
+}
 }
 else
 {
@@ -45026,8 +45642,10 @@ isUnlimited
 (
 )
 )
+{
 break
 ;
+}
 MOZ_FALLTHROUGH
 ;
 case
@@ -45057,10 +45675,12 @@ if
 !
 startedCompacting
 )
+{
 beginCompactPhase
 (
 )
 ;
+}
 if
 (
 compactPhase
@@ -45073,8 +45693,10 @@ session
 =
 NotFinished
 )
+{
 break
 ;
+}
 endCompactPhase
 (
 )
@@ -45143,8 +45765,10 @@ isRunning
 (
 )
 )
+{
 break
 ;
+}
 decommitTask
 .
 join
@@ -45218,6 +45842,7 @@ isIncrementalGCAllowed
 (
 )
 )
+{
 return
 gc
 :
@@ -45227,6 +45852,7 @@ AbortReason
 :
 IncrementalDisabled
 ;
+}
 return
 gc
 :
@@ -45271,8 +45897,10 @@ isGCScheduled
 (
 )
 )
+{
 return
 ;
+}
 fprintf
 (
 stderr
@@ -45530,6 +46158,7 @@ gcreason
 :
 ALLOC_TRIGGER
 )
+{
 return
 resetIncrementalGC
 (
@@ -45543,6 +46172,7 @@ NonIncrementalRequested
 session
 )
 ;
+}
 return
 IncrementalResult
 :
@@ -45631,6 +46261,7 @@ gcreason
 :
 COMPARTMENT_REVIVED
 )
+{
 unsafeReason
 =
 gc
@@ -45641,6 +46272,7 @@ AbortReason
 :
 CompartmentRevived
 ;
+}
 else
 if
 (
@@ -45649,6 +46281,7 @@ mode
 =
 JSGC_MODE_INCREMENTAL
 )
+{
 unsafeReason
 =
 gc
@@ -45659,6 +46292,7 @@ AbortReason
 :
 ModeChange
 ;
+}
 }
 if
 (
@@ -45764,8 +46398,10 @@ canCollect
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 zone
@@ -45881,15 +46517,18 @@ wasGCStarted
 (
 )
 )
+{
 reset
 =
 true
 ;
 }
+}
 if
 (
 reset
 )
+{
 return
 resetIncrementalGC
 (
@@ -45900,6 +46539,7 @@ ZoneChange
 session
 )
 ;
+}
 return
 IncrementalResult
 :
@@ -45967,8 +46607,10 @@ canCollect
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 gc
@@ -45981,6 +46623,7 @@ gcMode
 =
 JSGC_MODE_GLOBAL
 )
+{
 zone
 -
 >
@@ -45988,6 +46631,7 @@ scheduleGC
 (
 )
 ;
+}
 /
 /
 To
@@ -46026,6 +46670,7 @@ wasGCStarted
 (
 )
 )
+{
 zone
 -
 >
@@ -46033,6 +46678,7 @@ scheduleGC
 (
 )
 ;
+}
 /
 /
 This
@@ -46081,6 +46727,7 @@ eagerAllocTrigger
 inHighFrequencyMode
 )
 )
+{
 zone
 -
 >
@@ -46088,6 +46735,7 @@ scheduleGC
 (
 )
 ;
+}
 /
 /
 This
@@ -46111,6 +46759,7 @@ shouldTriggerGCForTooMuchMalloc
 (
 )
 )
+{
 zone
 -
 >
@@ -46118,6 +46767,7 @@ scheduleGC
 (
 )
 ;
+}
 }
 }
 ~
@@ -46147,6 +46797,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -46154,6 +46805,7 @@ unscheduleGC
 (
 )
 ;
+}
 }
 }
 ;
@@ -46232,16 +46884,20 @@ gcCallback
 .
 op
 )
+{
 return
 ;
+}
 if
 (
 isIncrementalGCInProgress
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 gcCallbackDepth
@@ -46285,6 +46941,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -46295,6 +46952,7 @@ zone
 >
 gcScheduled_
 ;
+}
 }
 gcCallbackDepth
 +
@@ -46355,6 +47013,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -46365,6 +47024,7 @@ zone
 >
 gcScheduledSaved_
 ;
+}
 }
 }
 /
@@ -46473,6 +47133,7 @@ nonincrementalByAPI
 budget
 )
 )
+{
 minorGC
 (
 reason
@@ -46485,6 +47146,7 @@ PhaseKind
 EVICT_NURSERY_FOR_MAJOR_GC
 )
 ;
+}
 AutoGCSession
 session
 (
@@ -46519,10 +47181,12 @@ isIncrementalGCInProgress
 (
 )
 )
+{
 incMajorGcNumber
 (
 )
 ;
+}
 /
 /
 It
@@ -46753,6 +47417,7 @@ activeGCInAtomsZone
 (
 )
 )
+{
 session
 .
 maybeCheckAtomsAccess
@@ -46762,6 +47427,7 @@ emplace
 rt
 )
 ;
+}
 auto
 result
 =
@@ -46886,9 +47552,11 @@ isEnabled
 (
 )
 )
+{
 return
 false
 ;
+}
 switch
 (
 incrementalState
@@ -47198,12 +47866,14 @@ canCollect
 (
 )
 )
+{
 zoneStats
 .
 collectableZoneCount
 +
 +
 ;
+}
 if
 (
 zone
@@ -47412,10 +48082,12 @@ isMarkedGray
 (
 )
 )
+{
 +
 +
 realmsGray
 ;
+}
 }
 double
 grayFraction
@@ -47441,6 +48113,7 @@ realmsGray
 >
 LimitGrayRealms
 )
+{
 callDoCycleCollectionCallback
 (
 rt
@@ -47451,6 +48124,7 @@ mainContextFromOwnThread
 )
 )
 ;
+}
 }
 void
 GCRuntime
@@ -47528,9 +48202,11 @@ mainContextFromOwnThread
 >
 suppressGC
 )
+{
 return
 false
 ;
+}
 /
 /
 Only
@@ -47578,9 +48254,11 @@ IsShutdownGC
 reason
 )
 )
+{
 return
 false
 ;
+}
 #
 ifdef
 JS_GC_ZEAL
@@ -47595,9 +48273,11 @@ IsDeterministicGCReason
 reason
 )
 )
+{
 return
 false
 ;
+}
 #
 endif
 return
@@ -47649,9 +48329,11 @@ if
 !
 isIncremental
 )
+{
 return
 false
 ;
+}
 for
 (
 CompartmentsIter
@@ -47683,9 +48365,11 @@ gcState
 .
 scheduledForDestruction
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -47753,8 +48437,10 @@ checkIfGCAllowedInCurrentState
 reason
 )
 )
+{
 return
 ;
+}
 stats
 (
 )
@@ -48084,10 +48770,12 @@ gcreason
 :
 COMPARTMENT_REVIVED
 )
+{
 maybeDoCycleCollection
 (
 )
 ;
+}
 #
 ifdef
 JS_GC_ZEAL
@@ -48188,6 +48876,7 @@ gc_
 rt
 )
 )
+{
 EnqueuePendingParseTasksAfterGC
 (
 gc_
@@ -48195,6 +48884,7 @@ gc_
 rt
 )
 ;
+}
 }
 SliceBudget
 GCRuntime
@@ -48235,12 +48925,14 @@ gcreason
 :
 ALLOC_TRIGGER
 )
+{
 millis
 =
 defaultSliceBudget
 (
 )
 ;
+}
 else
 if
 (
@@ -48257,6 +48949,7 @@ isDynamicMarkSliceEnabled
 (
 )
 )
+{
 millis
 =
 defaultSliceBudget
@@ -48265,13 +48958,16 @@ defaultSliceBudget
 *
 IGC_MARK_SLICE_MULTIPLIER
 ;
+}
 else
+{
 millis
 =
 defaultSliceBudget
 (
 )
 ;
+}
 }
 return
 SliceBudget
@@ -48329,8 +49025,10 @@ RecordReplayCheckCanGC
 reason
 )
 )
+{
 return
 ;
+}
 invocationKind
 =
 gckind
@@ -48658,9 +49356,11 @@ isGCScheduled
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -48695,6 +49395,7 @@ ZonesSelected
 rt
 )
 )
+{
 JS
 :
 :
@@ -48708,6 +49409,7 @@ mainContextFromOwnThread
 )
 )
 ;
+}
 invocationKind
 =
 gckind
@@ -48752,6 +49454,7 @@ ZonesSelected
 rt
 )
 )
+{
 JS
 :
 :
@@ -48765,6 +49468,7 @@ mainContextFromOwnThread
 )
 )
 ;
+}
 collect
 (
 false
@@ -48814,6 +49518,7 @@ ZonesSelected
 rt
 )
 )
+{
 JS
 :
 :
@@ -48827,6 +49532,7 @@ mainContextFromOwnThread
 )
 )
 ;
+}
 }
 void
 GCRuntime
@@ -49060,8 +49766,10 @@ mainContextFromOwnThread
 >
 suppressGC
 )
+{
 return
 ;
+}
 /
 /
 Note
@@ -49136,6 +49844,7 @@ next
 (
 )
 )
+{
 numAllocs
 +
 =
@@ -49146,6 +49855,7 @@ getAndResetTenuredAllocsSinceMinorGC
 (
 )
 ;
+}
 stats
 (
 )
@@ -49233,11 +49943,13 @@ ZealMode
 CheckHeapAfterGC
 )
 )
+{
 CheckHeapAfterGC
 (
 rt
 )
 ;
+}
 #
 endif
 {
@@ -49269,12 +49981,14 @@ next
 (
 )
 )
+{
 maybeAllocTriggerZoneGC
 (
 zone
 lock
 )
 ;
+}
 }
 }
 JS
@@ -49368,6 +50082,7 @@ generationalDisabled
 =
 0
 )
+{
 cx
 -
 >
@@ -49379,6 +50094,7 @@ enable
 (
 )
 ;
+}
 }
 JS_PUBLIC_API
 (
@@ -49437,6 +50153,7 @@ minorGCRequested
 (
 )
 )
+{
 minorGC
 (
 nursery
@@ -49448,6 +50165,7 @@ minorGCTriggerReason
 )
 )
 ;
+}
 if
 (
 majorGCRequested
@@ -49529,18 +50247,22 @@ isIncrementalGCInProgress
 (
 )
 )
+{
 startGC
 (
 GC_NORMAL
 majorGCTriggerReason
 )
 ;
+}
 else
+{
 gcSlice
 (
 majorGCTriggerReason
 )
 ;
+}
 return
 true
 ;
@@ -49838,9 +50560,11 @@ if
 !
 zoneHolder
 )
+{
 return
 nullptr
 ;
+}
 const
 JSPrincipals
 *
@@ -49921,9 +50645,11 @@ if
 !
 compHolder
 )
+{
 return
 nullptr
 ;
+}
 comp
 =
 compHolder
@@ -49968,9 +50694,11 @@ cx
 principals
 )
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Make
@@ -49998,6 +50726,7 @@ if
 !
 compHolder
 )
+{
 MOZ_RELEASE_ASSERT
 (
 realm
@@ -50014,6 +50743,7 @@ comp
 )
 )
 ;
+}
 AutoLockGC
 lock
 (
@@ -50162,6 +50892,7 @@ if
 (
 compHolder
 )
+{
 zone
 -
 >
@@ -50178,6 +50909,7 @@ release
 )
 )
 ;
+}
 if
 (
 zoneHolder
@@ -50567,6 +51299,7 @@ needsDelazificationForDebugger
 (
 )
 )
+{
 target
 -
 >
@@ -50574,6 +51307,7 @@ scheduleDelazificationForDebugger
 (
 )
 ;
+}
 /
 /
 Release
@@ -50953,6 +51687,7 @@ maybeUnboxedLayoutDontCheckGeneration
 (
 )
 )
+{
 layout
 -
 >
@@ -50960,6 +51695,7 @@ detachFromRealm
 (
 )
 ;
+}
 }
 /
 /
@@ -51190,6 +51926,7 @@ next
 (
 )
 )
+{
 MOZ_ASSERT
 (
 r
@@ -51202,6 +51939,7 @@ get
 source
 )
 ;
+}
 /
 /
 Merge
@@ -51506,6 +52244,7 @@ target
 >
 scriptNameMap
 )
+{
 oomUnsafe
 .
 crash
@@ -51522,6 +52261,7 @@ map
 "
 )
 ;
+}
 }
 for
 (
@@ -51609,6 +52349,7 @@ value
 )
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -51628,6 +52369,7 @@ map
 "
 )
 ;
+}
 }
 source
 -
@@ -51743,8 +52485,10 @@ mainContextFromOwnThread
 >
 suppressGC
 )
+{
 return
 ;
+}
 if
 (
 hasZealMode
@@ -51755,6 +52499,7 @@ ZealMode
 GenerationalGC
 )
 )
+{
 return
 minorGC
 (
@@ -51767,6 +52512,7 @@ gcreason
 DEBUG_GC
 )
 ;
+}
 PrepareForDebugGC
 (
 rt
@@ -51832,18 +52578,22 @@ isIncrementalGCInProgress
 (
 )
 )
+{
 incrementalLimit
 =
 zealFrequency
 /
 2
 ;
+}
 else
+{
 incrementalLimit
 *
 =
 2
 ;
+}
 budget
 =
 SliceBudget
@@ -51872,10 +52622,12 @@ isIncrementalGCInProgress
 (
 )
 )
+{
 invocationKind
 =
 GC_SHRINK
 ;
+}
 collect
 (
 false
@@ -52005,10 +52757,12 @@ isIncrementalGCInProgress
 (
 )
 )
+{
 invocationKind
 =
 GC_NORMAL
 ;
+}
 collect
 (
 false
@@ -52130,10 +52884,12 @@ ZealMode
 RootsChange
 )
 )
+{
 nextScheduled
 =
 1
 ;
+}
 #
 endif
 }
@@ -52600,6 +53356,7 @@ if
 (
 targetZoneIsCollecting
 )
+{
 toList
 -
 >
@@ -52608,7 +53365,9 @@ insertBeforeCursor
 fromArena
 )
 ;
+}
 else
+{
 toList
 -
 >
@@ -52617,6 +53376,7 @@ insertAtCursor
 fromArena
 )
 ;
+}
 }
 fromList
 -
@@ -52984,6 +53744,7 @@ if
 (
 cx_
 )
+{
 cx_
 -
 >
@@ -52991,6 +53752,7 @@ inUnsafeRegion
 +
 +
 ;
+}
 }
 JS
 :
@@ -53272,6 +54034,7 @@ isString
 (
 )
 )
+{
 ptr
 =
 checkedCast
@@ -53290,6 +54053,7 @@ TraceKind
 String
 )
 ;
+}
 else
 if
 (
@@ -53299,6 +54063,7 @@ isObject
 (
 )
 )
+{
 ptr
 =
 checkedCast
@@ -53318,6 +54083,7 @@ TraceKind
 Object
 )
 ;
+}
 else
 if
 (
@@ -53327,6 +54093,7 @@ isSymbol
 (
 )
 )
+{
 ptr
 =
 checkedCast
@@ -53348,6 +54115,7 @@ Symbol
 #
 ifdef
 ENABLE_BIGINT
+}
 else
 if
 (
@@ -53357,6 +54125,7 @@ isBigInt
 (
 )
 )
+{
 ptr
 =
 checkedCast
@@ -53377,6 +54146,7 @@ BigInt
 ;
 #
 endif
+}
 else
 if
 (
@@ -53386,6 +54156,7 @@ isPrivateGCThing
 (
 )
 )
+{
 ptr
 =
 checkedCast
@@ -53407,7 +54178,9 @@ getTraceKind
 )
 )
 ;
+}
 else
+{
 ptr
 =
 checkedCast
@@ -53422,6 +54195,7 @@ TraceKind
 Null
 )
 ;
+}
 }
 JS
 :
@@ -53624,6 +54398,7 @@ maybeTable
 nogc
 )
 )
+{
 table
 -
 >
@@ -53631,6 +54406,7 @@ checkAfterMovingGC
 (
 )
 ;
+}
 }
 }
 for
@@ -53716,6 +54492,7 @@ debugEnvs
 (
 )
 )
+{
 r
 -
 >
@@ -53728,6 +54505,7 @@ checkHashTablesAfterMovingGC
 (
 )
 ;
+}
 }
 }
 }
@@ -53796,6 +54574,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -53803,6 +54582,7 @@ scheduleGC
 (
 )
 ;
+}
 }
 JS_PUBLIC_API
 (
@@ -53829,8 +54609,10 @@ IsIncrementalGCInProgress
 cx
 )
 )
+{
 return
 ;
+}
 for
 (
 ZonesIter
@@ -53868,11 +54650,13 @@ wasGCStarted
 (
 )
 )
+{
 PrepareZoneForGC
 (
 zone
 )
 ;
+}
 }
 }
 JS_PUBLIC_API
@@ -53926,9 +54710,11 @@ isGCScheduled
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -54157,6 +54943,7 @@ IsIncrementalGCInProgress
 cx
 )
 )
+{
 cx
 -
 >
@@ -54171,6 +54958,7 @@ abortGC
 (
 )
 ;
+}
 }
 char16_t
 *
@@ -54240,9 +55028,11 @@ if
 !
 out
 )
+{
 return
 nullptr
 ;
+}
 out
 .
 get
@@ -54345,9 +55135,11 @@ if
 !
 out
 )
+{
 return
 nullptr
 ;
+}
 out
 .
 get
@@ -54524,9 +55316,11 @@ if
 !
 out
 )
+{
 return
 nullptr
 ;
+}
 out
 .
 get
@@ -55157,9 +55951,11 @@ RuntimeHeapIsBusy
 (
 )
 )
+{
 return
 false
 ;
+}
 auto
 state
 =
@@ -55221,8 +56017,10 @@ if
 !
 obj
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -55290,8 +56088,10 @@ if
 !
 thing
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -56314,9 +57114,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 using
 namespace
 MemInfo
@@ -56452,9 +57254,11 @@ if
 !
 zoneObj
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -56469,9 +57273,11 @@ zoneObj
 JSPROP_ENUMERATE
 )
 )
+{
 return
 nullptr
 ;
+}
 struct
 NamedZoneGetter
 {
@@ -56659,12 +57465,14 @@ if
 !
 noAlloc
 )
+{
 noAlloc
 .
 emplace
 (
 )
 ;
+}
 this
 -
 >
@@ -57054,9 +57862,11 @@ isTenured
 (
 )
 )
+{
 return
 false
 ;
+}
 auto
 tc
 =
@@ -57279,9 +58089,11 @@ CanCheckGrayBits
 cell
 )
 )
+{
 return
 false
 ;
+}
 auto
 tc
 =
@@ -57344,9 +58156,11 @@ wasGCStarted
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 detail
 :
@@ -57452,9 +58266,11 @@ CanCheckGrayBits
 cell
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 TODO
@@ -57520,9 +58336,11 @@ CellIsMarkedGray
 tc
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 The
@@ -57591,9 +58409,11 @@ wasGCStarted
 (
 )
 )
+{
 return
 false
 ;
+}
 Zone
 *
 sourceZone
@@ -57622,9 +58442,11 @@ wasGCStarted
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
