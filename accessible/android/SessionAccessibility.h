@@ -780,6 +780,8 @@ SendClickedEvent
 AccessibleWrap
 *
 aAccessible
+bool
+aChecked
 )
 ;
 void
