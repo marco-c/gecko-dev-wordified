@@ -540,6 +540,7 @@ GetLastError
 )
 )
 ;
+return
 NS_ERROR_FAILURE
 ;
 }
@@ -649,6 +650,7 @@ error
 )
 )
 ;
+return
 NS_ERROR_FAILURE
 ;
 }
