@@ -589,7 +589,7 @@ NotificationHelper
 .
 Channel
 .
-DEFAULT
+SYNCED_TABS
 )
 .
 getId
