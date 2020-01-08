@@ -6451,6 +6451,12 @@ Reason
 vcEvent
 -
 >
+BoundaryType
+(
+)
+vcEvent
+-
+>
 IsFromUserInput
 (
 )

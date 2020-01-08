@@ -319,6 +319,8 @@ int32_t
 aOldEnd
 PivotMoveReason
 aReason
+TextBoundaryType
+aBoundaryType
 bool
 aIsFromUserInput
 )
