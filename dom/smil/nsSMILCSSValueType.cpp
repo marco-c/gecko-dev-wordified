@@ -197,7 +197,7 @@ include
 "
 mozilla
 /
-DeclarationBlockInlines
+DeclarationBlock
 .
 h
 "
@@ -207,15 +207,6 @@ include
 mozilla
 /
 ServoBindings
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ServoDeclarationBlock
 .
 h
 "
@@ -3550,11 +3541,6 @@ Servo_DeclarationBlock_SetPropertyToAnimationValue
 (
 aDecl
 .
-AsServo
-(
-)
--
->
 Raw
 (
 )

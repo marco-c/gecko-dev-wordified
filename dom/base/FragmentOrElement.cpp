@@ -189,7 +189,7 @@ include
 "
 mozilla
 /
-DeclarationBlockInlines
+DeclarationBlock
 .
 h
 "

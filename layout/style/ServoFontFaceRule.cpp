@@ -145,6 +145,13 @@ CSSStyleDeclarationBinding
 .
 h
 "
+#
+include
+"
+nsCSSProps
+.
+h
+"
 using
 namespace
 mozilla

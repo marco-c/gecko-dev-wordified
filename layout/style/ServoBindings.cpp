@@ -410,7 +410,7 @@ include
 "
 mozilla
 /
-DeclarationBlockInlines
+DeclarationBlock
 .
 h
 "
@@ -2032,11 +2032,6 @@ return
 decl
 -
 >
-AsServo
-(
-)
--
->
 RefRawStrong
 (
 )
@@ -2187,11 +2182,6 @@ GetContentDeclarationBlock
 {
 return
 decl
--
->
-AsServo
-(
-)
 -
 >
 RefRawStrong

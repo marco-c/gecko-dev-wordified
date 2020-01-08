@@ -213,7 +213,7 @@ include
 "
 mozilla
 /
-DeclarationBlockInlines
+DeclarationBlock
 .
 h
 "
@@ -14608,7 +14608,7 @@ DeclarationBlock
 >
 declaration
 =
-ServoDeclarationBlock
+DeclarationBlock
 :
 :
 FromCssText

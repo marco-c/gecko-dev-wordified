@@ -2937,7 +2937,7 @@ Snapshots
 *
 Resolve
 all
-ServoDeclarationBlocks
+DeclarationBlocks
 attached
 to
 mapped

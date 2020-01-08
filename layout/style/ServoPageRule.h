@@ -171,7 +171,7 @@ DocGroup
 namespace
 dom
 class
-ServoDeclarationBlock
+DeclarationBlock
 ;
 class
 ServoPageRule
@@ -289,7 +289,7 @@ const
 ;
 RefPtr
 <
-ServoDeclarationBlock
+DeclarationBlock
 >
 mDecls
 ;
