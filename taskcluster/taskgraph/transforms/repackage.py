@@ -1002,6 +1002,13 @@ update
 signing_dependencies
 )
         
+attributes
+=
+copy_attributes_from_dependent_job
+(
+dep_job
+)
+        
 treeherder
 =
 job
@@ -1015,6 +1022,17 @@ treeherder
 }
 )
         
+if
+attributes
+.
+get
+(
+'
+nightly
+'
+)
+:
+            
 treeherder
 .
 setdefault
@@ -1024,6 +1042,21 @@ symbol
 '
 '
 Nr
+'
+)
+        
+else
+:
+            
+treeherder
+.
+setdefault
+(
+'
+symbol
+'
+'
+Rpk
 '
 )
         
