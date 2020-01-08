@@ -2288,9 +2288,15 @@ mChildren
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 CloneLayerTreePropertiesInternal
 (
 child
+)
 )
 )
 ;

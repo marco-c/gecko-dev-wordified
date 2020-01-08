@@ -6235,10 +6235,16 @@ samples
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 mReorderQueue
 .
 Pop
 (
+)
 )
 )
 ;

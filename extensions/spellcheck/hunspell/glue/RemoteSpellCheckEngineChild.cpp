@@ -275,7 +275,13 @@ promiseHolder
 )
 ;
 return
+std
+:
+:
+move
+(
 result
+)
 ;
 }
 mozilla

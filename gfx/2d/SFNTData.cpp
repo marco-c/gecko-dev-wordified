@@ -879,7 +879,13 @@ offset
 ;
 }
 return
+std
+:
+:
+move
+(
 sfntData
+)
 ;
 }
 UniquePtr
@@ -911,7 +917,13 @@ nullptr
 ;
 }
 return
+std
+:
+:
+move
+(
 sfntData
+)
 ;
 }
 /

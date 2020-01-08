@@ -615,6 +615,11 @@ edge
 ;
 currentEdge
 =
+std
+:
+:
+move
+(
 Edge
 (
 edge
@@ -630,6 +635,7 @@ name
 :
 nullptr
 referent
+)
 )
 ;
 front_

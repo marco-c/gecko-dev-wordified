@@ -560,7 +560,13 @@ BackendType
 SKIA
 ;
 return
+std
+:
+:
+move
+(
 data
+)
 ;
 }
 bool

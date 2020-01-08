@@ -1113,7 +1113,13 @@ mDetachPromise
 )
 ;
 return
+std
+:
+:
+move
+(
 ref
+)
 ;
 }
 }

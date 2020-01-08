@@ -16789,9 +16789,15 @@ mNonAAFont
 {
 mNonAAFont
 =
+std
+:
+:
+move
+(
 CopyWithAntialiasOption
 (
 kAntialiasNone
+)
 )
 ;
 }

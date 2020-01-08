@@ -1113,6 +1113,11 @@ mObserved
 >
 AddMarker
 (
+std
+:
+:
+move
+(
 MakeUnique
 <
 TimelineMarker
@@ -1121,6 +1126,7 @@ TimelineMarker
 aName
 aTracingType
 aStackRequest
+)
 )
 )
 ;
@@ -1172,6 +1178,11 @@ mObserved
 >
 AddMarker
 (
+std
+:
+:
+move
+(
 MakeUnique
 <
 TimelineMarker
@@ -1181,6 +1192,7 @@ aName
 aTime
 aTracingType
 aStackRequest
+)
 )
 )
 ;

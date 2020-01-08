@@ -1116,7 +1116,13 @@ kWideBand
 }
 }
 return
+std
+:
+:
+move
+(
 conf
+)
 ;
 }
 /
@@ -1451,7 +1457,13 @@ OmxCommonVideoConfig
 ;
 }
 return
+std
+:
+:
+move
+(
 conf
+)
 ;
 }
 OMX_ERRORTYPE

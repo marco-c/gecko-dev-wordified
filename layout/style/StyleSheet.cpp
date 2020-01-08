@@ -5780,7 +5780,13 @@ GetCompatibilityMode
 ;
 }
 return
+std
+:
+:
+move
+(
 p
+)
 ;
 }
 void
