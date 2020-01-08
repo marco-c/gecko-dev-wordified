@@ -5983,9 +5983,9 @@ options
         
 if
 not
-self
+obj
 .
-environment
+config
 .
 substs
 .
