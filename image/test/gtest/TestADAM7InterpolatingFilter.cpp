@@ -275,7 +275,6 @@ ADAM7InterpolatingConfig
 SurfaceConfig
 {
 decoder
-0
 aSize
 SurfaceFormat
 :
@@ -322,7 +321,6 @@ ADAM7InterpolatingConfig
 SurfaceConfig
 {
 decoder
-0
 aSize
 SurfaceFormat
 :
@@ -4822,7 +4820,6 @@ ADAM7InterpolatingConfig
 PalettedSurfaceConfig
 {
 decoder
-0
 IntSize
 (
 100

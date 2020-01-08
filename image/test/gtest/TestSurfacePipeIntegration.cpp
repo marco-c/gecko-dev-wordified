@@ -1059,7 +1059,6 @@ Configure
 SurfaceConfig
 {
 decoder
-0
 IntSize
 (
 100
@@ -1689,7 +1688,6 @@ Configure
 PalettedSurfaceConfig
 {
 decoder
-0
 IntSize
 (
 100
@@ -2353,7 +2351,6 @@ B8G8R8A8
 SurfaceConfig
 {
 decoder
-0
 IntSize
 (
 25
@@ -2951,7 +2948,6 @@ B8G8R8A8
 SurfaceConfig
 {
 decoder
-0
 IntSize
 (
 20
@@ -3275,7 +3271,6 @@ B8G8R8A8
 SurfaceConfig
 {
 decoder
-0
 IntSize
 (
 20
@@ -3459,7 +3454,6 @@ IntRect
 SurfaceConfig
 {
 decoder
-0
 IntSize
 (
 100
@@ -3633,7 +3627,6 @@ B8G8R8A8
 SurfaceConfig
 {
 decoder
-0
 IntSize
 (
 20
@@ -3717,7 +3710,6 @@ B8G8R8A8
 PalettedSurfaceConfig
 {
 decoder
-0
 IntSize
 (
 100
@@ -3812,7 +3804,6 @@ B8G8R8A8
 PalettedSurfaceConfig
 {
 decoder
-0
 IntSize
 (
 100
@@ -3972,7 +3963,6 @@ B8G8R8A8
 SurfaceConfig
 {
 decoder
-0
 IntSize
 (
 600

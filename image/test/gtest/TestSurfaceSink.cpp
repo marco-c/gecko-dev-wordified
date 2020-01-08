@@ -252,7 +252,6 @@ aFunc
 SurfaceConfig
 {
 decoder
-0
 IntSize
 (
 100
@@ -314,7 +313,6 @@ aFunc
 PalettedSurfaceConfig
 {
 decoder
-0
 IntSize
 (
 100

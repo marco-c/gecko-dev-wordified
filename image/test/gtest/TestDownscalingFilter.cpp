@@ -253,7 +253,6 @@ B8G8R8A8
 SurfaceConfig
 {
 decoder
-0
 aOutputSize
 SurfaceFormat
 :
@@ -309,7 +308,6 @@ B8G8R8A8
 SurfaceConfig
 {
 decoder
-0
 aOutputSize
 SurfaceFormat
 :
@@ -1696,7 +1694,6 @@ B8G8R8A8
 PalettedSurfaceConfig
 {
 decoder
-0
 IntSize
 (
 20
