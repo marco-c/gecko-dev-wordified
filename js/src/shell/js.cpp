@@ -5172,7 +5172,7 @@ if
 JS
 :
 :
-Compile
+CompileUtf8File
 (
 cx
 options
