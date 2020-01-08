@@ -5888,6 +5888,11 @@ cx
 check
 (
 script
+-
+>
+compartment
+(
+)
 type
 )
 ;
