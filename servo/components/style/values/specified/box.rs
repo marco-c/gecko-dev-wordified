@@ -3152,7 +3152,7 @@ match
 PropertyId
 :
 :
-parse
+parse_ignoring_rule_type
 (
 ident
 context
@@ -5331,7 +5331,7 @@ match
 PropertyId
 :
 :
-parse
+parse_ignoring_rule_type
 (
 &
 ident
