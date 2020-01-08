@@ -3679,8 +3679,6 @@ nsBlockFrame
 aOldParent
 bool
 aReparentSiblings
-ReparentingDirection
-aDirection
 )
 ;
 virtual
