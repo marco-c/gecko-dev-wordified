@@ -708,10 +708,14 @@ char16_t
 const
 sValidTypeNames
 [
-3
+4
 ]
 =
 {
+u
+"
+navigation
+"
 u
 "
 mark

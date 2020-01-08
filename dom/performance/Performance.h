@@ -594,6 +594,14 @@ PerformanceEntry
 aEntry
 )
 ;
+virtual
+void
+QueueNavigationTimingEntry
+(
+)
+=
+0
+;
 protected
 :
 explicit
