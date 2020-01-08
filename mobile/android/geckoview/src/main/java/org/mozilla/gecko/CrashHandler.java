@@ -1916,12 +1916,11 @@ final
 int
 crashReporterJobId
 =
-GeckoThread
-.
-getCrashReporterJobId
-(
-)
+1024
 ;
+/
+/
+FIXME
 if
 (
 context
