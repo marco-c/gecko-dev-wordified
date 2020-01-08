@@ -3082,9 +3082,11 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 env
 )
 ;
@@ -3541,9 +3543,11 @@ AutoObjectVector
 targetObj
 )
 {
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 varEnv
 )
 ;

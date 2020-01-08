@@ -4469,9 +4469,11 @@ Type
 type
 )
 {
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 script
 type
 )
@@ -4623,9 +4625,11 @@ Type
 type
 )
 {
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 script
 type
 )

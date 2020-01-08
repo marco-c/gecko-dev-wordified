@@ -395,9 +395,11 @@ cx
 stack
 )
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 obj
 stack
 )

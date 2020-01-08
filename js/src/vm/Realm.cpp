@@ -4039,9 +4039,11 @@ maybeCCWRealm
 this
 )
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 compartment
 (
 )
@@ -4086,9 +4088,11 @@ maybeCCWRealm
 )
 )
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 metadata
 )
 ;

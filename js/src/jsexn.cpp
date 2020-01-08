@@ -6347,9 +6347,11 @@ MutableHandleValue
 rval
 )
 {
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 stack
 fileName
 message

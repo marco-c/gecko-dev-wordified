@@ -12771,9 +12771,11 @@ init
 (
 )
 {
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 script
 )
 ;

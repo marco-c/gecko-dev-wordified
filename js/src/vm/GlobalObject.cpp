@@ -5444,9 +5444,11 @@ GlobalObject
 global
 )
 {
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 global
 )
 ;
@@ -5556,9 +5558,11 @@ GlobalObject
 global
 )
 {
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 global
 )
 ;
