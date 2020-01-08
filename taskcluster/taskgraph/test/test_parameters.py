@@ -551,7 +551,7 @@ parameters
         
 self
 .
-assert_equal
+assertEqual
 (
             
 load_parameters_file
@@ -639,7 +639,7 @@ data
             
 self
 .
-assert_equal
+assertEqual
 (
                 
 load_parameters_file
