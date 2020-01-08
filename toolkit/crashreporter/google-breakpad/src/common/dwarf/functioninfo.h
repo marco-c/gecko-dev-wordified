@@ -447,6 +447,13 @@ function
 uint64
 highpc
 ;
+/
+/
+Ranges
+offset
+uint64
+ranges
+;
 }
 ;
 struct

@@ -2995,7 +2995,7 @@ register_location
 {
 TypedMDRVA
 <
-MDRawContextARM64
+MDRawContextARM64_Old
 >
 context
 (
@@ -3037,7 +3037,7 @@ location
 (
 )
 ;
-MDRawContextARM64
+MDRawContextARM64_Old
 *
 context_ptr
 =
@@ -3052,7 +3052,7 @@ context_ptr
 >
 context_flags
 =
-MD_CONTEXT_ARM64_FULL
+MD_CONTEXT_ARM64_FULL_OLD
 ;
 #
 define
@@ -6377,7 +6377,7 @@ info_ptr
 >
 processor_architecture
 =
-MD_CPU_ARCHITECTURE_ARM64
+MD_CPU_ARCHITECTURE_ARM64_OLD
 ;
 break
 ;

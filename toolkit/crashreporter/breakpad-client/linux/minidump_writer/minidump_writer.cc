@@ -7278,7 +7278,7 @@ defined
 (
 __aarch64__
 )
-MD_CPU_ARCHITECTURE_ARM64
+MD_CPU_ARCHITECTURE_ARM64_OLD
 ;
 #
 else

@@ -355,7 +355,7 @@ defined
 __aarch64__
 )
 typedef
-MDRawContextARM64
+MDRawContextARM64_Old
 RawContextCPU
 ;
 #

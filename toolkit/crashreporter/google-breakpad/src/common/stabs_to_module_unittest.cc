@@ -614,6 +614,11 @@ EXPECT_EQ
 function
 -
 >
+ranges
+[
+0
+]
+.
 size
 )
 ;
@@ -1221,6 +1226,11 @@ EXPECT_LT
 function
 -
 >
+ranges
+[
+0
+]
+.
 size
 )
 ;
@@ -1603,6 +1613,11 @@ EXPECT_EQ
 function
 -
 >
+ranges
+[
+0
+]
+.
 size
 )
 ;
@@ -2052,6 +2067,11 @@ EXPECT_LT
 function
 -
 >
+ranges
+[
+0
+]
+.
 size
 )
 ;

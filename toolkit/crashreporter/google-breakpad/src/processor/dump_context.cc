@@ -4504,9 +4504,7 @@ context_flags
 =
 0x
 %
-"
-PRIx64
-"
+x
 \
 n
 "
