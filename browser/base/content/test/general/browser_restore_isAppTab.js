@@ -492,10 +492,11 @@ tab
 "
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 DUMMY
 )
 ;
@@ -598,10 +599,11 @@ tab
 "
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 about
 :

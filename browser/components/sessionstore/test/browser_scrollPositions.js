@@ -1205,10 +1205,11 @@ there
 as
 well
 .
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 URL2
 )
 ;

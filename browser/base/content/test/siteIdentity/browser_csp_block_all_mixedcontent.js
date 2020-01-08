@@ -407,10 +407,11 @@ then
 verifyUInotDegraded
 )
 ;
-gTestBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gTestBrowser
 url
 )
 ;
