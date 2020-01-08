@@ -814,6 +814,7 @@ nsISupports
 *
 Obj
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1197,6 +1198,7 @@ Find
 REFNSIID
 iid
 )
+const
 {
 auto
 entry
@@ -1482,6 +1484,7 @@ Find
 REFNSIID
 iid
 )
+const
 {
 auto
 entry
@@ -1802,6 +1805,7 @@ nsIClassInfo
 *
 info
 )
+const
 {
 auto
 entry
@@ -2115,6 +2119,7 @@ nsIClassInfo
 *
 info
 )
+const
 {
 auto
 entry
@@ -2412,6 +2417,7 @@ XPCNativeSetKey
 *
 key
 )
+const
 {
 auto
 entry

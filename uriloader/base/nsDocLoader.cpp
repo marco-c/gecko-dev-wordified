@@ -8367,6 +8367,7 @@ nsIRequest
 *
 aRequest
 )
+const
 {
 return
 static_cast

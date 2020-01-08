@@ -2048,6 +2048,7 @@ nsCString
 *
 key
 )
+const
 ;
 nsresult
 AddEntry

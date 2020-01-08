@@ -1071,6 +1071,7 @@ nsACString
 &
 aName
 )
+const
 {
 NS_ASSERTION
 (
@@ -1142,6 +1143,7 @@ nsAString
 &
 aName
 )
+const
 {
 NS_ASSERTION
 (

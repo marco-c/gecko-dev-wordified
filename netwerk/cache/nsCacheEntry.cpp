@@ -2012,6 +2012,7 @@ nsCString
 *
 key
 )
+const
 {
 NS_ASSERTION
 (

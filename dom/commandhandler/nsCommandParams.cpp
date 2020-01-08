@@ -1430,14 +1430,7 @@ HashEntry
 *
 >
 (
-const_cast
-<
-PLDHashTable
-&
->
-(
 mValuesHash
-)
 .
 Search
 (

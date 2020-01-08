@@ -312,6 +312,7 @@ nsACString
 &
 aName
 )
+const
 ;
 int32_t
 Lookup
@@ -321,6 +322,7 @@ nsAString
 &
 aName
 )
+const
 ;
 const
 nsCString

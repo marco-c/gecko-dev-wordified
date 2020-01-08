@@ -1487,6 +1487,7 @@ FindActiveBinding
 uint32_t
 hashNumber
 )
+const
 {
 NS_ASSERTION
 (
