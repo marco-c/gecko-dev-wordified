@@ -224,6 +224,7 @@ path
 :
     
 return
+(
 '
 /
 locale
@@ -232,6 +233,7 @@ locale
 in
 path
 or
+            
 '
 /
 localization
@@ -239,6 +241,18 @@ localization
 '
 in
 path
+or
+            
+path
+.
+startswith
+(
+'
+localization
+/
+'
+)
+)
 def
 normalize_path
 (
