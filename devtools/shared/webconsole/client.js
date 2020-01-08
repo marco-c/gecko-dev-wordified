@@ -1047,7 +1047,7 @@ securityInfo
 :
 networkInfo
 .
-securityInfo
+securityState
 =
 packet
 .

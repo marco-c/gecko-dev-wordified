@@ -1814,7 +1814,7 @@ securityState
 :
 networkInfo
 .
-securityInfo
+securityState
 }
 )
 ;
