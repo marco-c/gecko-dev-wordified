@@ -1861,9 +1861,6 @@ writeBarrier
 ObjectGroup
 *
 replacement
-AutoClearTypeInferenceStateOnOOM
-&
-oom
 )
 ;
 ObjectGroupFlags
@@ -2897,9 +2894,6 @@ cx
 void
 maybeClearNewScriptOnOOM
 (
-AutoClearTypeInferenceStateOnOOM
-&
-oom
 )
 ;
 void
@@ -2956,7 +2950,7 @@ AutoSweepObjectGroup
 &
 sweep
 AutoClearTypeInferenceStateOnOOM
-&
+*
 oom
 )
 ;

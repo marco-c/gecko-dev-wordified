@@ -10884,7 +10884,7 @@ js
 :
 :
 AutoClearTypeInferenceStateOnOOM
-&
+*
 oom
 )
 ;
