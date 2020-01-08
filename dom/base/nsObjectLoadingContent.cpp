@@ -14691,6 +14691,17 @@ mFrameLoader
 LoadURI
 (
 handlerURI
+thisContent
+-
+>
+AsElement
+(
+)
+-
+>
+NodePrincipal
+(
+)
 false
 )
 ;
