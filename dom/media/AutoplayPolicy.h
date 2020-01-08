@@ -296,7 +296,7 @@ to
 play
 .
 static
-uint32_t
+bool
 IsAllowedToPlay
 (
 const
