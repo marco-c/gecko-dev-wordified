@@ -1322,12 +1322,8 @@ skin
 tracking
 -
 protection
--
-16
 .
 svg
-#
-enabled
 )
 ;
 margin
@@ -1377,11 +1373,9 @@ tracking
 -
 protection
 -
-16
+disabled
 .
 svg
-#
-disabled
 )
 ;
 }
