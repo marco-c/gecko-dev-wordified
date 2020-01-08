@@ -288,7 +288,6 @@ const
 pathname
 protocol
 host
-path
 }
 =
 (
@@ -360,6 +359,8 @@ return
 .
 def
 path
+:
+pathname
 filename
 group
 :
@@ -397,7 +398,7 @@ return
 def
 path
 :
-path
+pathname
 filename
 group
 :
@@ -509,7 +510,7 @@ return
 def
 path
 :
-path
+pathname
 filename
 group
 :
@@ -595,7 +596,7 @@ return
 def
 path
 :
-path
+pathname
 group
 :
 protocol

@@ -859,13 +859,6 @@ _actions2
 default
 .
 setPrimaryPaneTab
-selectLocation
-:
-_actions2
-.
-default
-.
-selectLocation
 setActiveSearch
 :
 _actions2

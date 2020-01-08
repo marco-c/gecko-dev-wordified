@@ -550,6 +550,12 @@ line
 source
 &
 &
+!
+source
+.
+isWasm
+&
+&
 (
 0
 _selectors

@@ -8199,6 +8199,11 @@ height
 100
 %
 ;
+padding
+:
+4px
+0
+;
 }
 .
 sources
@@ -9869,7 +9874,7 @@ none
 ;
 padding
 :
-10px
+4px
 0
 ;
 margin

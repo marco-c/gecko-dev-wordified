@@ -675,11 +675,7 @@ selectSourceURL
 (
 url
 {
-location
-:
-{
 line
-}
 }
 )
 ;
