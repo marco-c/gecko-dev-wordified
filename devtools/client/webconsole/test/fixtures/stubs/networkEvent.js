@@ -2257,7 +2257,7 @@ private
 :
 false
 "
-isTrackingResource
+isThirdPartyTrackingResource
 "
 :
 false
@@ -2651,7 +2651,7 @@ private
 :
 false
 "
-isTrackingResource
+isThirdPartyTrackingResource
 "
 :
 false
@@ -3046,7 +3046,7 @@ private
 :
 false
 "
-isTrackingResource
+isThirdPartyTrackingResource
 "
 :
 false

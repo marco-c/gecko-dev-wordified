@@ -368,11 +368,11 @@ private
 this
 .
 _private
-isTrackingResource
+isThirdPartyTrackingResource
 :
 this
 .
-_isTrackingResource
+_isThirdPartyTrackingResource
 }
 ;
 }
@@ -574,11 +574,11 @@ fromServiceWorker
 ;
 this
 .
-_isTrackingResource
+_isThirdPartyTrackingResource
 =
 networkEvent
 .
-isTrackingResource
+isThirdPartyTrackingResource
 ;
 this
 .
