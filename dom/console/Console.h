@@ -1216,10 +1216,9 @@ the
 mConsoleEventNotifier
 -
 >
-Callable
+CallableGlobal
 (
 )
-scope
 when
 we
 want
@@ -1268,8 +1267,14 @@ Value
 >
 &
 aArguments
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aTargetScope
 JS
 :

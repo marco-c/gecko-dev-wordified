@@ -120437,14 +120437,14 @@ our
 chrome
 object
             
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
 mImpl
 -
 >
-CallbackOrNull
+CallbackGlobalOrNull
 (
 )
 )

@@ -2498,7 +2498,7 @@ things
 .
 Maybe
 <
-JSAutoRealmAllowCCW
+JSAutoRealm
 >
 mAr
 ;
