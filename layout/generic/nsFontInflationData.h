@@ -178,7 +178,7 @@ aFrame
 Returns
 whether
 the
-usable
+effective
 width
 changed
 (
@@ -193,7 +193,6 @@ mark
 its
 descendants
 dirty
-)
 static
 bool
 UpdateFontInflationDataISizeFor
@@ -233,13 +232,13 @@ mInflationEnabled
 ;
 }
 nscoord
-UsableISize
+EffectiveISize
 (
 )
 const
 {
 return
-mUsableISize
+mNCAISize
 ;
 }
 private
@@ -430,7 +429,7 @@ nsIFrame
 mBFCFrame
 ;
 nscoord
-mUsableISize
+mNCAISize
 ;
 nscoord
 mTextAmount
