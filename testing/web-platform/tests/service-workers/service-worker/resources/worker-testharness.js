@@ -190,6 +190,7 @@ function
 (
 )
 {
+return
 self
 .
 caches
