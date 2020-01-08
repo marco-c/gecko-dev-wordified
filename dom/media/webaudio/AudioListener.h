@@ -199,6 +199,14 @@ final
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+AudioListenerEngine
+)
+AudioListenerEngine
+(
+)
+;
 enum
 class
 AudioListenerParameter
@@ -218,10 +226,6 @@ orthogonal
 to
 FRONT
 }
-;
-AudioListenerEngine
-(
-)
 ;
 void
 RecvListenerEngineEvent
@@ -263,6 +267,13 @@ const
 ;
 private
 :
+~
+AudioListenerEngine
+(
+)
+=
+default
+;
 ThreeDPoint
 mPosition
 ;
@@ -368,7 +379,6 @@ double
 aZUp
 )
 ;
-const
 AudioListenerEngine
 *
 Engine
@@ -425,8 +435,7 @@ AudioContext
 >
 mContext
 ;
-const
-UniquePtr
+RefPtr
 <
 AudioListenerEngine
 >
