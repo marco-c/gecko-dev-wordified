@@ -19,8 +19,6 @@ This
 is
 used
 in
-addon
-/
 webextension
 /
 background
