@@ -1416,9 +1416,11 @@ oom
 (
 )
 )
+{
 return
 SIZE_MAX
 ;
+}
 /
 /
 Use
@@ -2057,9 +2059,11 @@ target
 <
 i
 )
+{
 return
 false
 ;
+}
 /
 /
 Trivial
@@ -2098,9 +2102,11 @@ isTrivial
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true

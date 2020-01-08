@@ -392,9 +392,11 @@ if
 !
 stub
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Create
@@ -837,9 +839,11 @@ fun
 phase
 )
 )
+{
 return
 false
 ;
+}
 icEntries_
 .
 back

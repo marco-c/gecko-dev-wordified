@@ -182,9 +182,11 @@ isConstantValue
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 a
@@ -197,9 +199,11 @@ isConstantIndex
 (
 )
 )
+{
 return
 true
 ;
+}
 #
 else
 if
@@ -214,9 +218,11 @@ isConstantValue
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 a
@@ -229,9 +235,11 @@ isConstantIndex
 (
 )
 )
+{
 return
 true
 ;
+}
 #
 endif
 return
@@ -258,6 +266,7 @@ isConstantValue
 (
 )
 )
+{
 return
 a
 -
@@ -271,6 +280,7 @@ toInt32
 (
 )
 ;
+}
 if
 (
 a
@@ -280,6 +290,7 @@ isConstantIndex
 (
 )
 )
+{
 return
 a
 -
@@ -293,6 +304,7 @@ index
 (
 )
 ;
+}
 MOZ_CRASH
 (
 "
@@ -326,6 +338,7 @@ isConstantValue
 (
 )
 )
+{
 return
 a
 -
@@ -339,6 +352,7 @@ toInt64
 (
 )
 ;
+}
 if
 (
 a
@@ -348,6 +362,7 @@ isConstantIndex
 (
 )
 )
+{
 return
 a
 -
@@ -361,6 +376,7 @@ index
 (
 )
 ;
+}
 MOZ_CRASH
 (
 "
@@ -403,6 +419,7 @@ isConstantValue
 (
 )
 )
+{
 return
 a
 .
@@ -419,6 +436,7 @@ toInt64
 (
 )
 ;
+}
 if
 (
 a
@@ -431,6 +449,7 @@ isConstantIndex
 (
 )
 )
+{
 return
 a
 .
@@ -447,6 +466,7 @@ index
 (
 )
 ;
+}
 #
 else
 if
@@ -461,6 +481,7 @@ isConstantValue
 (
 )
 )
+{
 return
 a
 .
@@ -477,6 +498,7 @@ toInt64
 (
 )
 ;
+}
 if
 (
 a
@@ -489,6 +511,7 @@ isConstantIndex
 (
 )
 )
+{
 return
 a
 .
@@ -505,6 +528,7 @@ index
 (
 )
 ;
+}
 #
 endif
 MOZ_CRASH
@@ -768,9 +792,11 @@ isBogusTemp
 (
 )
 )
+{
 return
 InvalidReg
 ;
+}
 return
 ToRegister
 (
@@ -914,9 +940,11 @@ isBogusTemp
 (
 )
 )
+{
 return
 InvalidFloatReg
 ;
+}
 return
 ToFloatRegister
 (
@@ -959,6 +987,7 @@ isGeneralReg
 (
 )
 )
+{
 return
 AnyRegister
 (
@@ -968,6 +997,7 @@ a
 )
 )
 ;
+}
 return
 AnyRegister
 (
@@ -1527,6 +1557,7 @@ isArgument
 (
 )
 )
+{
 return
 ArgToStackOffset
 (
@@ -1542,6 +1573,7 @@ index
 )
 )
 ;
+}
 return
 SlotToStackOffset
 (
@@ -2001,6 +2033,7 @@ HeapAccess
 :
 Load
 )
+{
 kind
 =
 HeapAccess
@@ -2008,6 +2041,7 @@ HeapAccess
 :
 LoadSext32
 ;
+}
 break
 ;
 default

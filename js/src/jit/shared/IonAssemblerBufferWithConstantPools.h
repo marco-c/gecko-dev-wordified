@@ -2336,6 +2336,7 @@ r
 +
 +
 )
+{
 new
 (
 &
@@ -2349,6 +2350,7 @@ RangeVector
 alloc
 )
 ;
+}
 }
 ~
 BranchDeadlineSet
@@ -2382,6 +2384,7 @@ r
 +
 +
 )
+{
 vectorForRange
 (
 r
@@ -2392,6 +2395,7 @@ RangeVector
 (
 )
 ;
+}
 }
 /
 /
@@ -2454,6 +2458,7 @@ r
 +
 +
 )
+{
 count
 +
 =
@@ -2466,6 +2471,7 @@ length
 (
 )
 ;
+}
 return
 count
 ;
@@ -2511,6 +2517,7 @@ r
 +
 +
 )
+{
 count
 =
 std
@@ -2529,6 +2536,7 @@ length
 )
 )
 ;
+}
 return
 count
 ;
@@ -2761,6 +2769,7 @@ back
 <
 deadline
 )
+{
 return
 vec
 .
@@ -2769,6 +2778,7 @@ append
 deadline
 )
 ;
+}
 /
 /
 Fast
@@ -2794,6 +2804,7 @@ empty
 (
 )
 )
+{
 return
 vec
 .
@@ -2809,6 +2820,7 @@ rangeIdx
 deadline
 )
 ;
+}
 return
 addDeadlineSlow
 (
@@ -3026,8 +3038,10 @@ empty
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 deadline
@@ -3120,8 +3134,10 @@ where
 =
 deadline
 )
+{
 return
 ;
+}
 vec
 .
 erase
@@ -3137,10 +3153,12 @@ deadline
 =
 earliest_
 )
+{
 recomputeEarliest
 (
 )
 ;
+}
 }
 }
 ;
@@ -4047,9 +4065,11 @@ assigned
 (
 )
 )
+{
 return
 false
 ;
+}
 size_t
 offset
 =
@@ -4109,9 +4129,11 @@ if
 (
 oom_
 )
+{
 return
 OOM_FAIL
 ;
+}
 unsigned
 ret
 =
@@ -5550,11 +5572,13 @@ i
 +
 +
 )
+{
 putInt
 (
 nopFillInst_
 )
 ;
+}
 inhibitNops_
 =
 false
@@ -5698,9 +5722,11 @@ checkFull
 poolOffset
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Any
@@ -6001,9 +6027,11 @@ poolEnd
 +
 secondaryVeneers
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -6048,6 +6076,7 @@ if
 (
 numPoolEntries
 )
+{
 pool_
 .
 updateLimiter
@@ -6060,6 +6089,7 @@ sizeExcludingCurrentPool
 )
 )
 ;
+}
 if
 (
 !
@@ -6074,6 +6104,7 @@ if
 (
 numPoolEntries
 )
+{
 JitSpew
 (
 JitSpew_Pools
@@ -6092,7 +6123,9 @@ spill
 id
 )
 ;
+}
 else
+{
 JitSpew
 (
 JitSpew_Pools
@@ -6117,6 +6150,7 @@ sizeExcludingCurrentPool
 )
 )
 ;
+}
 finishPool
 (
 )
@@ -6130,9 +6164,11 @@ oom
 (
 )
 )
+{
 return
 OOM_FAIL
 ;
+}
 return
 insertEntryForwards
 (
@@ -6407,11 +6443,13 @@ bail
 (
 )
 )
+{
 return
 BufferOffset
 (
 )
 ;
+}
 insertNopFill
 (
 )
@@ -6531,6 +6569,7 @@ idx
 length
 )
 )
+{
 JitSpewCont
 (
 JitSpew_Pools
@@ -6539,6 +6578,7 @@ _
 "
 )
 ;
+}
 }
 JitSpewFin
 (
@@ -6575,11 +6615,13 @@ oom
 (
 )
 )
+{
 return
 BufferOffset
 (
 )
 ;
+}
 /
 /
 Now
@@ -6677,11 +6719,13 @@ pe
 =
 nullptr
 )
+{
 *
 pe
 =
 retPE
 ;
+}
 return
 this
 -
@@ -6918,6 +6962,7 @@ numPoolEntries
 0
 )
 )
+{
 return
 allocEntry
 (
@@ -6933,6 +6978,7 @@ nullptr
 nullptr
 )
 ;
+}
 #
 if
 defined
@@ -7178,6 +7224,7 @@ rangeIdx
 deadline
 )
 )
+{
 this
 -
 >
@@ -7185,6 +7232,7 @@ fail_oom
 (
 )
 ;
+}
 }
 /
 /
@@ -7263,6 +7311,7 @@ oom
 (
 )
 )
+{
 branchDeadlines_
 .
 removeDeadline
@@ -7271,6 +7320,7 @@ rangeIdx
 deadline
 )
 ;
+}
 }
 private
 :
@@ -7300,9 +7350,11 @@ empty
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Include
@@ -7552,8 +7604,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 Now
@@ -7665,8 +7719,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 Fix
@@ -8106,8 +8162,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 JitSpew
 (
 JitSpew_Pools
@@ -8460,8 +8518,10 @@ requiredFill
 =
 0
 )
+{
 return
 ;
+}
 requiredFill
 =
 alignment
@@ -8580,11 +8640,13 @@ oom
 (
 )
 )
+{
 putInt
 (
 alignFillInst_
 )
 ;
+}
 inhibitNops_
 =
 false
@@ -8609,8 +8671,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 The
@@ -8710,9 +8774,11 @@ oom
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 The

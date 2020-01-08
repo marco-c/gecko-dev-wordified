@@ -305,10 +305,12 @@ if
 (
 masmArg
 )
+{
 return
 *
 masmArg
 ;
+}
 maybeMasm_
 .
 emplace
@@ -510,12 +512,14 @@ isProfilerInstrumentationEnabled
 (
 )
 )
+{
 masm
 .
 enableProfilingInstrumentation
 (
 )
 ;
+}
 if
 (
 gen
@@ -792,6 +796,7 @@ isProfilerInstrumentationEnabled
 (
 )
 )
+{
 masm
 .
 profilerEnterFrame
@@ -804,6 +809,7 @@ getStackPointer
 CallTempReg0
 )
 ;
+}
 if
 (
 gen
@@ -822,6 +828,7 @@ trackRecordReplayProgress
 (
 )
 )
+{
 masm
 .
 inc64
@@ -840,6 +847,7 @@ ExecutionProgressCounter
 )
 )
 ;
+}
 /
 /
 Ensure
@@ -974,12 +982,14 @@ isProfilerInstrumentationEnabled
 (
 )
 )
+{
 masm
 .
 profilerExitFrame
 (
 )
 ;
+}
 masm
 .
 ret
@@ -1132,9 +1142,11 @@ bytecodeSite
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -1150,9 +1162,11 @@ ensureBallast
 (
 )
 )
+{
 return
 false
 ;
+}
 JitSpew
 (
 JitSpew_Codegen
@@ -1365,9 +1379,11 @@ isProfilerInstrumentationEnabled
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Fails
@@ -1404,9 +1420,11 @@ oom
 (
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 site
@@ -1853,9 +1871,11 @@ append
 entry
 )
 )
+{
 return
 false
 ;
+}
 JitSpew
 (
 JitSpew_Profiling
@@ -1984,11 +2004,13 @@ i
 +
 +
 )
+{
 dumpNativeToBytecodeEntry
 (
 i
 )
 ;
+}
 #
 endif
 }
@@ -2101,6 +2123,7 @@ ref
 .
 tree
 )
+{
 pcDelta
 =
 nextRef
@@ -2112,6 +2135,7 @@ ref
 .
 pc
 ;
+}
 }
 JitSpewStart
 (
@@ -2313,9 +2337,11 @@ isOptimizationTrackingEnabled
 (
 )
 )
+{
 return
 true
 ;
+}
 MOZ_ASSERT
 (
 optimizations
@@ -2400,9 +2426,11 @@ optimizations
 =
 optimizations
 )
+{
 return
 true
 ;
+}
 }
 /
 /
@@ -2480,8 +2508,10 @@ isOptimizationTrackingEnabled
 (
 )
 )
+{
 return
 ;
+}
 uint32_t
 nativeOffset
 =
@@ -2565,12 +2595,14 @@ offset
 (
 )
 )
+{
 trackedOptimizations_
 .
 popBack
 (
 )
 ;
+}
 }
 /
 /
@@ -2677,6 +2709,7 @@ isBox
 (
 )
 )
+{
 mir
 =
 mir
@@ -2692,6 +2725,7 @@ getOperand
 0
 )
 ;
+}
 MIRType
 type
 =
@@ -3160,6 +3194,7 @@ isMemory
 (
 )
 )
+{
 alloc
 =
 RValueAllocation
@@ -3174,6 +3209,7 @@ payload
 )
 )
 ;
+}
 else
 if
 (
@@ -3184,6 +3220,7 @@ isGeneralReg
 (
 )
 )
+{
 alloc
 =
 RValueAllocation
@@ -3198,6 +3235,7 @@ payload
 )
 )
 ;
+}
 else
 if
 (
@@ -3208,6 +3246,7 @@ isFloatReg
 (
 )
 )
+{
 alloc
 =
 RValueAllocation
@@ -3221,7 +3260,9 @@ payload
 )
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -3232,6 +3273,7 @@ type
 "
 )
 ;
+}
 break
 ;
 }
@@ -3380,6 +3422,7 @@ isFloatReg
 (
 )
 )
+{
 alloc
 =
 RValueAllocation
@@ -3393,7 +3436,9 @@ payload
 )
 )
 ;
+}
 else
+{
 alloc
 =
 RValueAllocation
@@ -3407,6 +3452,7 @@ payload
 )
 )
 ;
+}
 break
 ;
 }
@@ -3610,6 +3656,7 @@ isRegister
 (
 )
 )
+{
 alloc
 =
 RValueAllocation
@@ -3627,7 +3674,9 @@ payload
 )
 )
 ;
+}
 else
+{
 alloc
 =
 RValueAllocation
@@ -3646,6 +3695,7 @@ payload
 )
 ;
 }
+}
 else
 {
 if
@@ -3657,6 +3707,7 @@ isRegister
 (
 )
 )
+{
 alloc
 =
 RValueAllocation
@@ -3674,7 +3725,9 @@ payload
 )
 )
 ;
+}
 else
+{
 alloc
 =
 RValueAllocation
@@ -3692,6 +3745,7 @@ payload
 )
 )
 ;
+}
 }
 #
 elif
@@ -3705,6 +3759,7 @@ isRegister
 (
 )
 )
+{
 alloc
 =
 RValueAllocation
@@ -3718,7 +3773,9 @@ payload
 )
 )
 ;
+}
 else
+{
 alloc
 =
 RValueAllocation
@@ -3732,6 +3789,7 @@ payload
 )
 )
 ;
+}
 #
 endif
 break
@@ -3795,12 +3853,14 @@ isIncompleteObject
 (
 )
 )
+{
 alloc
 .
 setNeedSideEffect
 (
 )
 ;
+}
 masm
 .
 propagateOOM
@@ -3852,8 +3912,10 @@ recoverOffset
 =
 INVALID_RECOVER_OFFSET
 )
+{
 return
 ;
+}
 uint32_t
 numInstructions
 =
@@ -3962,6 +4024,7 @@ insn
 *
 recover
 )
+{
 recovers_
 .
 writeInstruction
@@ -3969,6 +4032,7 @@ writeInstruction
 insn
 )
 ;
+}
 recovers_
 .
 endRecover
@@ -4019,8 +4083,10 @@ snapshotOffset
 =
 INVALID_SNAPSHOT_OFFSET
 )
+{
 return
 ;
+}
 LRecoverInfo
 *
 recoverInfo
@@ -4212,6 +4278,7 @@ trackedPc
 (
 )
 )
+{
 pcOpcode
 =
 *
@@ -4227,6 +4294,7 @@ trackedPc
 (
 )
 ;
+}
 }
 }
 snapshots_
@@ -4388,9 +4456,11 @@ if
 !
 deoptTable_
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 frameClass_
@@ -4416,9 +4486,11 @@ bailoutId
 =
 INVALID_BAILOUT_ID
 )
+{
 return
 true
 ;
+}
 /
 /
 Is
@@ -4438,9 +4510,11 @@ length
 =
 BAILOUT_TABLE_SIZE
 )
+{
 return
 false
 ;
+}
 unsigned
 bailoutId
 =
@@ -4530,6 +4604,7 @@ encoded
 (
 )
 )
+{
 safepoints_
 .
 encode
@@ -4537,6 +4612,7 @@ encode
 safepoint
 )
 ;
+}
 index
 .
 resolve
@@ -4675,9 +4751,11 @@ script
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 /
 /
@@ -4756,6 +4834,7 @@ hasCaller
 (
 )
 )
+{
 tree
 =
 tree
@@ -4765,6 +4844,7 @@ caller
 (
 )
 ;
+}
 /
 /
 If
@@ -4857,9 +4937,11 @@ if
 !
 data
 )
+{
 return
 false
 ;
+}
 for
 (
 uint32_t
@@ -4879,6 +4961,7 @@ i
 +
 +
 )
+{
 data
 [
 i
@@ -4889,6 +4972,7 @@ scriptList
 i
 ]
 ;
+}
 /
 /
 Success
@@ -4979,9 +5063,11 @@ createNativeToBytecodeScriptList
 cx
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 nativeToBytecodeScriptListLength_
@@ -5887,9 +5973,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 UniqueTrackedOptimizations
 unique
 (
@@ -5949,9 +6037,11 @@ entry
 optimizations
 )
 )
+{
 return
 false
 ;
+}
 }
 /
 /
@@ -5989,9 +6079,11 @@ sortByFrequency
 cx
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Write
@@ -6124,9 +6216,11 @@ if
 !
 data
 )
+{
 return
 false
 ;
+}
 memcpy
 (
 data
@@ -6322,10 +6416,12 @@ outcome
 )
 )
 )
+{
 oom_
 =
 true
 ;
+}
 }
 }
 ;
@@ -6413,10 +6509,12 @@ tracked
 type
 )
 )
+{
 oom_
 =
 true
 ;
+}
 }
 void
 operator
@@ -6474,10 +6572,12 @@ i
 ]
 )
 )
+{
 oom_
 =
 true
 ;
+}
 }
 if
 (
@@ -6496,10 +6596,12 @@ ty
 )
 )
 )
+{
 oom_
 =
 true
 ;
+}
 accTypes_
 .
 clear
@@ -7489,12 +7591,14 @@ paddingSize
 +
 i
 )
+{
 masm
 .
 nop
 (
 )
 ;
+}
 }
 MOZ_ASSERT_IF
 (
@@ -7893,6 +7997,7 @@ isDouble
 (
 )
 )
+{
 masm
 .
 storeDouble
@@ -7901,6 +8006,7 @@ reg
 dump
 )
 ;
+}
 else
 if
 (
@@ -7910,6 +8016,7 @@ isSingle
 (
 )
 )
+{
 masm
 .
 storeFloat32
@@ -7930,6 +8037,7 @@ defined
 (
 JS_CODEGEN_X64
 )
+}
 else
 if
 (
@@ -7939,6 +8047,7 @@ isSimd128
 (
 )
 )
+{
 masm
 .
 storeUnalignedSimd128Float
@@ -7949,7 +8058,9 @@ dump
 ;
 #
 endif
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -7960,6 +8071,7 @@ type
 "
 )
 ;
+}
 }
 }
 ;
@@ -8972,9 +9084,11 @@ if
 !
 checkOsiPointRegisters
 )
+{
 return
 false
 ;
+}
 if
 (
 safepoint
@@ -9000,6 +9114,7 @@ emptyFloat
 (
 )
 )
+{
 return
 false
 ;
@@ -9010,6 +9125,7 @@ registers
 to
 check
 .
+}
 return
 true
 ;
@@ -9033,8 +9149,10 @@ shouldVerifyOsiPointRegs
 safepoint
 )
 )
+{
 return
 ;
+}
 /
 /
 Set
@@ -9353,6 +9471,7 @@ safepoint
 )
 )
 )
+{
 StoreAllLiveRegs
 (
 masm
@@ -9369,6 +9488,7 @@ liveRegs
 )
 )
 ;
+}
 #
 endif
 /
@@ -10302,8 +10422,10 @@ lir
 )
 )
 )
+{
 return
 ;
+}
 masm
 .
 jump
@@ -11642,10 +11764,12 @@ d
 <
 d
 )
+{
 p
 +
 +
 ;
+}
 /
 /
 .
@@ -11775,8 +11899,10 @@ TraceLogTextIdEnabled
 TraceLogger_Scripts
 )
 )
+{
 return
 ;
+}
 Label
 done
 ;
@@ -11903,6 +12029,7 @@ if
 (
 isStart
 )
+{
 masm
 .
 tracelogStartId
@@ -11911,7 +12038,9 @@ logger
 script
 )
 ;
+}
 else
+{
 masm
 .
 tracelogStopId
@@ -11920,6 +12049,7 @@ logger
 script
 )
 ;
+}
 masm
 .
 Pop
@@ -11963,8 +12093,10 @@ TraceLogTextIdEnabled
 textId
 )
 )
+{
 return
 ;
+}
 Label
 done
 ;
@@ -12049,6 +12181,7 @@ if
 (
 isStart
 )
+{
 masm
 .
 tracelogStartId
@@ -12057,7 +12190,9 @@ logger
 textId
 )
 ;
+}
 else
+{
 masm
 .
 tracelogStopId
@@ -12066,6 +12201,7 @@ logger
 textId
 )
 ;
+}
 masm
 .
 bind
@@ -12106,8 +12242,10 @@ TraceLogTextIdEnabled
 enabledTextId
 )
 )
+{
 return
 ;
+}
 Label
 done
 ;
@@ -12242,6 +12380,7 @@ if
 (
 isStart
 )
+{
 masm
 .
 tracelogStartId
@@ -12250,7 +12389,9 @@ loggerReg
 eventReg
 )
 ;
+}
 else
+{
 masm
 .
 tracelogStopId
@@ -12259,6 +12400,7 @@ loggerReg
 eventReg
 )
 ;
+}
 masm
 .
 Pop
