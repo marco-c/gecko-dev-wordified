@@ -104,7 +104,7 @@ AS_ENABLED
 "
 value
 :
-true
+0
 }
 ;
 const
