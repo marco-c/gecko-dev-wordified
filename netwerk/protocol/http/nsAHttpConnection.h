@@ -1313,7 +1313,7 @@ nsHttp
 h
 version
 virtual
-uint32_t
+HttpVersion
 Version
 (
 )
@@ -1756,7 +1756,7 @@ Transport
 \
 }
 \
-uint32_t
+HttpVersion
 Version
 (
 )
@@ -1780,7 +1780,16 @@ Version
 )
 :
 \
-NS_HTTP_VERSION_UNKNOWN
+mozilla
+:
+:
+net
+:
+:
+HttpVersion
+:
+:
+UNKNOWN
 ;
 \
 }

@@ -2087,7 +2087,7 @@ restarted
 uint32_t
 mCaps
 ;
-nsHttpVersion
+HttpVersion
 mHttpVersion
 ;
 uint16_t

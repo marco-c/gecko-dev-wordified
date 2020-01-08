@@ -309,7 +309,10 @@ GET
 )
 mVersion
 (
-NS_HTTP_VERSION_1_1
+HttpVersion
+:
+:
+v1_1
 )
 mParsedMethod
 (
@@ -444,7 +447,7 @@ nsHttpRequestHead
 :
 SetVersion
 (
-nsHttpVersion
+HttpVersion
 version
 )
 {
@@ -603,7 +606,7 @@ aMethod
 mMethod
 ;
 }
-nsHttpVersion
+HttpVersion
 nsHttpRequestHead
 :
 :
@@ -1790,7 +1793,10 @@ mVersion
 )
 {
 case
-NS_HTTP_VERSION_1_1
+HttpVersion
+:
+:
+v1_1
 :
 buf
 .
@@ -1806,7 +1812,10 @@ AppendLiteral
 break
 ;
 case
-NS_HTTP_VERSION_0_9
+HttpVersion
+:
+:
+v0_9
 :
 buf
 .

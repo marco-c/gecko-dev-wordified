@@ -4453,7 +4453,7 @@ HttpConnInfo
 :
 SetHTTP1ProtocolVersion
 (
-uint8_t
+HttpVersion
 pv
 )
 {
@@ -4463,7 +4463,10 @@ pv
 )
 {
 case
-NS_HTTP_VERSION_0_9
+HttpVersion
+:
+:
+v0_9
 :
 protocolVersion
 .
@@ -4482,7 +4485,10 @@ http
 break
 ;
 case
-NS_HTTP_VERSION_1_0
+HttpVersion
+:
+:
+v1_0
 :
 protocolVersion
 .
@@ -4501,7 +4507,10 @@ http
 break
 ;
 case
-NS_HTTP_VERSION_1_1
+HttpVersion
+:
+:
+v1_1
 :
 protocolVersion
 .
@@ -4520,7 +4529,10 @@ http
 break
 ;
 case
-NS_HTTP_VERSION_2_0
+HttpVersion
+:
+:
+v2_0
 :
 protocolVersion
 .
@@ -4560,7 +4572,7 @@ HttpConnInfo
 :
 SetHTTP2ProtocolVersion
 (
-uint8_t
+SpdyVersion
 pv
 )
 {
@@ -4569,7 +4581,10 @@ MOZ_ASSERT
 pv
 =
 =
-HTTP_VERSION_2
+SpdyVersion
+:
+:
+HTTP_2
 )
 ;
 protocolVersion

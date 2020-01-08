@@ -496,7 +496,8 @@ UserAgent
 (
 )
 ;
-nsHttpVersion
+enum
+HttpVersion
 HttpVersion
 (
 )
@@ -505,7 +506,8 @@ return
 mHttpVersion
 ;
 }
-nsHttpVersion
+enum
+HttpVersion
 ProxyHttpVersion
 (
 )
@@ -2577,10 +2579,12 @@ mConnMgr
 prefs
 /
 /
-uint8_t
+enum
+HttpVersion
 mHttpVersion
 ;
-uint8_t
+enum
+HttpVersion
 mProxyHttpVersion
 ;
 uint32_t

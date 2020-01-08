@@ -209,7 +209,8 @@ DontReuse
 0
 ;
 virtual
-uint32_t
+enum
+SpdyVersion
 SpdyVersion
 (
 )
@@ -221,7 +222,10 @@ ASpdySession
 *
 NewSpdySession
 (
-uint32_t
+net
+:
+:
+SpdyVersion
 version
 nsISocketTransport
 *
@@ -767,7 +771,7 @@ index
 )
 const
 ;
-uint8_t
+SpdyVersion
 Version
 [
 kCount
