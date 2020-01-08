@@ -3678,6 +3678,7 @@ GCVector
 JSScript
 *
 1
+SystemAllocPolicy
 >
 scripts
 ;
@@ -3697,6 +3698,7 @@ GCVector
 ScriptSourceObject
 *
 1
+SystemAllocPolicy
 >
 sourceObjects
 ;
