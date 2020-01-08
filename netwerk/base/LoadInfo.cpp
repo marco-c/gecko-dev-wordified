@@ -3842,8 +3842,10 @@ return
 node
 ;
 }
+already_AddRefed
+<
 nsISupports
-*
+>
 LoadInfo
 :
 :
@@ -3910,6 +3912,10 @@ mContextForTopLevelLoad
 ;
 return
 context
+.
+forget
+(
+)
 ;
 }
 already_AddRefed
