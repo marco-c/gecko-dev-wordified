@@ -393,13 +393,6 @@ ExtractTemp0
 32
 )
 ;
-ARMRegister
-XTemp
-(
-ExtractTemp0
-64
-)
-;
 Label
 maybeNegZero
 revertRegister
