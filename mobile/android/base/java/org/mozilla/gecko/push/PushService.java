@@ -206,6 +206,15 @@ mozilla
 .
 gecko
 .
+GeckoServicesCreatorService
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 GeckoThread
 ;
 import
@@ -2002,7 +2011,6 @@ GeckoService
 .
 getIntentToCreateServices
 (
-context
 "
 android
 -
@@ -2021,10 +2029,11 @@ profileName
 profilePath
 )
 ;
-context
+GeckoServicesCreatorService
 .
-startService
+enqueueWork
 (
+context
 intent
 )
 ;
