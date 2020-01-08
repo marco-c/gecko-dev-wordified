@@ -8283,7 +8283,7 @@ rv
 )
 )
 {
-MOZ_CRASH
+NS_WARNING
 (
 "
 Failed
@@ -8369,7 +8369,7 @@ parent
 )
 )
 {
-MOZ_CRASH
+NS_WARNING
 (
 "
 Failed

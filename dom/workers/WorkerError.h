@@ -360,6 +360,15 @@ uint64_t
 aInnerWindowId
 )
 ;
+static
+void
+CreateAndDispatchGenericErrorRunnableToParent
+(
+WorkerPrivate
+*
+aWorkerPrivate
+)
+;
 }
 ;
 }
