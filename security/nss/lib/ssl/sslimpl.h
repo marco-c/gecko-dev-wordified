@@ -1384,7 +1384,7 @@ support
 #
 define
 MAX_SIGNATURE_SCHEMES
-15
+18
 typedef
 struct
 sslOptionsStr
