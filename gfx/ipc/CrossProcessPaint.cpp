@@ -319,7 +319,7 @@ kMinPaintScale
 =
 0
 .
-05
+05f
 ;
 /
 *
