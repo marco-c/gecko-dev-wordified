@@ -3723,8 +3723,7 @@ Value
 else
 {
 AutoNoJSAPI
-(
-)
+nojsapi
 ;
 MediaManager
 *
