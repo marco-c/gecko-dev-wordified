@@ -2278,6 +2278,10 @@ text
 =
 =
 searchString
+.
+trim
+(
+)
 Waiting
 for
 the
