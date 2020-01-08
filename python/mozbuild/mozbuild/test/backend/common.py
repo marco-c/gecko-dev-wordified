@@ -1520,6 +1520,24 @@ CONFIGS
 name
 ]
         
+config
+[
+'
+substs
+'
+]
+[
+'
+MOZ_UI_LOCALE
+'
+]
+=
+'
+en
+-
+US
+'
+        
 objdir
 =
 mkdtemp
