@@ -176,7 +176,8 @@ assert
 session
 .
 active_element
-is
+=
+=
 element
     
 response
@@ -199,7 +200,8 @@ assert
 session
 .
 active_element
-is
+=
+=
 element
     
 assert
@@ -332,7 +334,8 @@ assert
 session
 .
 active_element
-is
+=
+=
 body
     
 response
@@ -355,7 +358,8 @@ assert
 session
 .
 active_element
-is
+=
+=
 element
     
 assert
@@ -474,7 +478,8 @@ assert
 session
 .
 active_element
-is
+=
+=
 body
     
 response
@@ -497,7 +502,8 @@ assert
 session
 .
 active_element
-is
+=
+=
 frame
     
 #
