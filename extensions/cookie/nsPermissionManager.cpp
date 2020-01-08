@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+AntiTrackingCommon
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -991,6 +1000,7 @@ trackingprotection
 -
 pb
 "
+USER_INTERACTION_PERM
 }
 ;
 /
