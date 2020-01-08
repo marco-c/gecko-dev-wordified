@@ -711,6 +711,14 @@ getPlayer
 id
 )
 ;
+if
+(
+mPlayer
+!
+=
+null
+)
+{
 mPlayer
 .
 addDemuxerWrapperCallbackListener
@@ -718,6 +726,7 @@ addDemuxerWrapperCallbackListener
 callback
 )
 ;
+}
 }
 catch
 (
