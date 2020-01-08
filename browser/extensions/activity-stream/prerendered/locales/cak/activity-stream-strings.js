@@ -757,8 +757,7 @@ settings_pane_highlights_options_bookmarks
 "
 :
 "
-Taq
-yaketal
+Yaketal
 "
 "
 settings_pane_snippets_header

@@ -175,7 +175,7 @@ menu_action_pin
 "
 :
 "
-Aggiungi
+Fissa
 alla
 bacheca
 "

@@ -1043,7 +1043,6 @@ continue
 to
 Firefox
 Sync
-.
 "
 "
 firstrun_email_input_placeholder
