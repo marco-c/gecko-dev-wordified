@@ -1233,7 +1233,7 @@ aEditSubAction
 EditSubAction
 :
 :
-setText
+eSetText
 )
 {
 /
@@ -1792,7 +1792,7 @@ case
 EditSubAction
 :
 :
-setText
+eSetText
 :
 UndefineCaretBidiLevel
 (

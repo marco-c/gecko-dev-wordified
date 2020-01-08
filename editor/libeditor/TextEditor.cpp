@@ -6262,7 +6262,7 @@ this
 EditSubAction
 :
 :
-setText
+eSetText
 nsIEditor
 :
 :
@@ -6303,7 +6303,7 @@ subActionInfo
 EditSubAction
 :
 :
-setText
+eSetText
 )
 ;
 subActionInfo

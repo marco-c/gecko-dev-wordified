@@ -16211,7 +16211,7 @@ this
 EditSubAction
 :
 :
-setText
+eSetText
 nsIEditor
 :
 :
