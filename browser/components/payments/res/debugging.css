@@ -151,3 +151,15 @@ width
 %
 ;
 }
+#
+complete
+-
+status
+{
+column
+-
+count
+:
+2
+;
+}

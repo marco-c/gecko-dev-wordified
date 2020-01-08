@@ -196,7 +196,6 @@ request
 completeStatus
 :
 "
-initial
 "
 tabId
 :
