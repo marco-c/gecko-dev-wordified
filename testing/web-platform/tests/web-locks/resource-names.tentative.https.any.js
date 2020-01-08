@@ -12,6 +12,16 @@ Resources
 DOMString
 edge
 cases
+/
+/
+META
+:
+global
+=
+window
+dedicatedworker
+sharedworker
+serviceworker
 '
 use
 strict
