@@ -4714,7 +4714,6 @@ log
 .
 error
 (
-"
 Unable
 to
 add
@@ -4723,7 +4722,6 @@ device
 {
 deviceName
 }
-"
 )
 ;
 log
