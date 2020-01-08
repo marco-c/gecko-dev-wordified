@@ -2430,13 +2430,7 @@ dxgiHandle
 )
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 SharedSurface_D3D11Interop
@@ -3054,13 +3048,7 @@ interop
 )
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 SurfaceFactory_D3D11Interop
