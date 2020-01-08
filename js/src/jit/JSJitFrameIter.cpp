@@ -4821,6 +4821,10 @@ FrameType
 :
 BaselineJS
 ;
+fixBaselineReturnAddress
+(
+)
+;
 return
 ;
 }
@@ -4961,6 +4965,10 @@ FrameType
 :
 :
 BaselineJS
+;
+fixBaselineReturnAddress
+(
+)
 ;
 return
 ;
