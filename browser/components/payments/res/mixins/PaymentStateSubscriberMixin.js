@@ -240,6 +240,10 @@ displayItems
 :
 [
 ]
+shippingAddressErrors
+:
+{
+}
 shippingOptions
 :
 [

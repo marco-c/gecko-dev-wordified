@@ -316,6 +316,10 @@ value
 }
 }
 ]
+shippingAddressErrors
+:
+{
+}
 shippingOptions
 :
 [
@@ -562,6 +566,10 @@ value
 }
 }
 ]
+shippingAddressErrors
+:
+{
+}
 shippingOptions
 :
 [
