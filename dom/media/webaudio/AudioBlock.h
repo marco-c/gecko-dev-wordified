@@ -383,6 +383,8 @@ not
 exposed
 .
 Use
+Get
+/
 SetBuffer
 (
 )
@@ -525,6 +527,17 @@ aChannel
 ]
 )
 )
+;
+}
+ThreadSharedObject
+*
+GetBuffer
+(
+)
+const
+{
+return
+mBuffer
 ;
 }
 void

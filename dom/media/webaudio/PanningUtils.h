@@ -461,6 +461,14 @@ U
 aOnLeft
 )
 {
+aOutput
+-
+>
+AllocateChannels
+(
+2
+)
+;
 if
 (
 aInput
