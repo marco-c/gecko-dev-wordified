@@ -212,6 +212,7 @@ placeholder
 =
 "
 CVV
+*
 "
 ;
 /
