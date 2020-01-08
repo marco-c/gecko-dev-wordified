@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+EmptyBlobImpl
+.
+h
+"
+#
+include
+"
 MutableBlobStorage
 .
 h
