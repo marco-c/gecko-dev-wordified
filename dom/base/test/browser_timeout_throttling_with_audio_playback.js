@@ -390,10 +390,11 @@ true
 "
 )
 ;
-newBrowser
+BrowserTestUtils
 .
 loadURI
 (
+newBrowser
 url
 )
 ;
