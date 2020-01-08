@@ -172,6 +172,16 @@ name
 backfill
 '
     
+kind
+=
+'
+hook
+'
+    
+generic
+=
+True
+    
 symbol
 =
 '
