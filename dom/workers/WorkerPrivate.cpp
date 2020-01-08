@@ -18911,6 +18911,17 @@ WaitForWorkerEvents
 (
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+WorkerPrivate
+:
+:
+WaitForWorkerEvents
+"
+IDLE
+)
+;
 AssertIsOnWorkerThread
 (
 )
