@@ -3884,7 +3884,7 @@ LazyStubTier
 createMany
 (
 HasGcTypes
-gcTypesEnabled
+gcTypesConfigured
 const
 Uint32Vector
 &
@@ -4072,7 +4072,7 @@ asmjs
 *
 /
 false
-gcTypesEnabled
+gcTypesConfigured
 &
 codeRanges
 )
@@ -4667,7 +4667,7 @@ metadata
 (
 )
 .
-temporaryHasGcTypes
+temporaryGcTypesConfigured
 funcExportIndexes
 codeTier
 &
@@ -4862,7 +4862,7 @@ LazyStubTier
 createTier2
 (
 HasGcTypes
-gcTypesEnabled
+gcTypesConfigured
 const
 Uint32Vector
 &
@@ -4899,7 +4899,7 @@ if
 !
 createMany
 (
-gcTypesEnabled
+gcTypesConfigured
 funcExportIndices
 codeTier
 &

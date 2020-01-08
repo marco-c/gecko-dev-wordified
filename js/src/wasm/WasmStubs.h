@@ -290,7 +290,7 @@ callee
 bool
 isAsmJS
 HasGcTypes
-gcTypesEnabled
+gcTypesConfigured
 CodeRangeVector
 *
 codeRanges

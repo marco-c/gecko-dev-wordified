@@ -5480,12 +5480,12 @@ memoryUsage
 metadata_
 -
 >
-temporaryHasGcTypes
+temporaryGcTypesConfigured
 =
 env_
 -
 >
-gcTypesEnabled
+gcTypesConfigured
 ;
 metadata_
 -
