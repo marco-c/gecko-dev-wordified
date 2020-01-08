@@ -11421,7 +11421,7 @@ mGen
 ;
 mTable
 .
-checkOverRemoved
+rehashIfOverRemoved
 (
 )
 ;
@@ -13690,7 +13690,7 @@ Rehashed
 ;
 }
 bool
-shouldCompressTable
+overRemoved
 (
 )
 {
@@ -13774,7 +13774,7 @@ capacity
 ;
 }
 RebuildStatus
-checkOverloaded
+rehashIfOverloaded
 (
 FailureBehavior
 aReportFailure
@@ -13797,7 +13797,7 @@ NotOverloaded
 uint32_t
 newCapacity
 =
-shouldCompressTable
+overRemoved
 (
 )
 ?
@@ -13833,7 +13833,7 @@ with
 removals
 .
 void
-checkOverRemoved
+rehashIfOverRemoved
 (
 )
 {
@@ -13846,7 +13846,7 @@ overloaded
 {
 if
 (
-checkOverloaded
+rehashIfOverloaded
 (
 DontReportFailure
 )
@@ -13919,7 +13919,7 @@ mMutationCount
 endif
 }
 void
-checkUnderloaded
+shrinkIfUnderloaded
 (
 )
 {
@@ -14510,7 +14510,7 @@ table
 Since
 we
 call
-checkUnderloaded
+shrinkIfUnderloaded
 (
 )
 on
@@ -15298,7 +15298,7 @@ mEntry
 RebuildStatus
 status
 =
-checkOverloaded
+rehashIfOverloaded
 (
 )
 ;
@@ -15607,7 +15607,7 @@ false
 }
 if
 (
-checkOverloaded
+rehashIfOverloaded
 (
 )
 =
@@ -15874,7 +15874,7 @@ aPtr
 mEntry
 )
 ;
-checkUnderloaded
+shrinkIfUnderloaded
 (
 )
 ;
@@ -16006,7 +16006,7 @@ aLookup
 aKey
 )
 ;
-checkOverRemoved
+rehashIfOverRemoved
 (
 )
 ;
