@@ -451,9 +451,9 @@ resource
 /
 /
 /
-modules
+actors
 /
-PageStyleHandler
+PageStyleChild
 .
 jsm
 "
