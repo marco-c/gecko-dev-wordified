@@ -1813,6 +1813,12 @@ with
 ZWJ
 *
 /
+0x179Au
+/
+*
+Khmer
+*
+/
 }
 ;
 static

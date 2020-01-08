@@ -1197,7 +1197,7 @@ neutrals
 /
 public
 :
-HBINT16
+HBUINT16
 indexToLocFormat
 ;
 /
@@ -1212,7 +1212,7 @@ long
 .
 *
 /
-HBINT16
+HBUINT16
 glyphDataFormat
 ;
 /

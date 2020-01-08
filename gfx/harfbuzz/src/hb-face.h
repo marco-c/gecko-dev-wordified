@@ -366,6 +366,7 @@ void
 *
 hb_face_get_user_data
 (
+const
 hb_face_t
 *
 face
@@ -387,6 +388,7 @@ HB_EXTERN
 hb_bool_t
 hb_face_is_immutable
 (
+const
 hb_face_t
 *
 face
@@ -397,6 +399,7 @@ hb_blob_t
 *
 hb_face_reference_table
 (
+const
 hb_face_t
 *
 face
@@ -431,6 +434,7 @@ unsigned
 int
 hb_face_get_index
 (
+const
 hb_face_t
 *
 face
@@ -453,6 +457,7 @@ unsigned
 int
 hb_face_get_upem
 (
+const
 hb_face_t
 *
 face
@@ -475,6 +480,7 @@ unsigned
 int
 hb_face_get_glyph_count
 (
+const
 hb_face_t
 *
 face
@@ -485,6 +491,7 @@ unsigned
 int
 hb_face_get_table_tags
 (
+const
 hb_face_t
 *
 face

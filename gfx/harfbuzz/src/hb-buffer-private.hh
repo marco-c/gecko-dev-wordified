@@ -2195,6 +2195,11 @@ HB_GLYPH_FLAG_UNSAFE_TO_BREAK
 }
 }
 ;
+DECLARE_NULL_INSTANCE
+(
+hb_buffer_t
+)
+;
 /
 *
 Loop

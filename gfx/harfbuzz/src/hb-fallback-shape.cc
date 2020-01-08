@@ -228,11 +228,11 @@ data
 *
 /
 struct
-hb_fallback_shaper_face_data_t
+hb_fallback_face_data_t
 {
 }
 ;
-hb_fallback_shaper_face_data_t
+hb_fallback_face_data_t
 *
 _hb_fallback_shaper_face_data_create
 (
@@ -244,7 +244,7 @@ HB_UNUSED
 {
 return
 (
-hb_fallback_shaper_face_data_t
+hb_fallback_face_data_t
 *
 )
 HB_SHAPER_DATA_SUCCEEDED
@@ -253,7 +253,7 @@ HB_SHAPER_DATA_SUCCEEDED
 void
 _hb_fallback_shaper_face_data_destroy
 (
-hb_fallback_shaper_face_data_t
+hb_fallback_face_data_t
 *
 data
 HB_UNUSED
@@ -269,11 +269,11 @@ data
 *
 /
 struct
-hb_fallback_shaper_font_data_t
+hb_fallback_font_data_t
 {
 }
 ;
-hb_fallback_shaper_font_data_t
+hb_fallback_font_data_t
 *
 _hb_fallback_shaper_font_data_create
 (
@@ -285,7 +285,7 @@ HB_UNUSED
 {
 return
 (
-hb_fallback_shaper_font_data_t
+hb_fallback_font_data_t
 *
 )
 HB_SHAPER_DATA_SUCCEEDED
@@ -294,7 +294,7 @@ HB_SHAPER_DATA_SUCCEEDED
 void
 _hb_fallback_shaper_font_data_destroy
 (
-hb_fallback_shaper_font_data_t
+hb_fallback_font_data_t
 *
 data
 HB_UNUSED
@@ -310,11 +310,11 @@ data
 *
 /
 struct
-hb_fallback_shaper_shape_plan_data_t
+hb_fallback_shape_plan_data_t
 {
 }
 ;
-hb_fallback_shaper_shape_plan_data_t
+hb_fallback_shape_plan_data_t
 *
 _hb_fallback_shaper_shape_plan_data_create
 (
@@ -344,7 +344,7 @@ HB_UNUSED
 {
 return
 (
-hb_fallback_shaper_shape_plan_data_t
+hb_fallback_shape_plan_data_t
 *
 )
 HB_SHAPER_DATA_SUCCEEDED
@@ -353,7 +353,7 @@ HB_SHAPER_DATA_SUCCEEDED
 void
 _hb_fallback_shaper_shape_plan_data_destroy
 (
-hb_fallback_shaper_shape_plan_data_t
+hb_fallback_shape_plan_data_t
 *
 data
 HB_UNUSED
