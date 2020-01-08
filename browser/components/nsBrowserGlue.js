@@ -1195,11 +1195,6 @@ ActivatePlugins
 "
 BrowserPlugins
 :
-NotificationShown
-"
-"
-BrowserPlugins
-:
 ContextMenuCommand
 "
 "
