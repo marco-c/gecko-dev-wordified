@@ -1449,11 +1449,6 @@ report_warning
 )
 )
 ;
-JS_BeginRequest
-(
-js_context
-)
-;
 Ok
 (
 Runtime
@@ -1877,13 +1872,6 @@ self
 {
 unsafe
 {
-JS_EndRequest
-(
-self
-.
-cx
-)
-;
 JS_DestroyContext
 (
 self

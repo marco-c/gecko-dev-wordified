@@ -6110,12 +6110,6 @@ uint64_t
 )
 )
 ;
-JSAutoRequest
-ar
-(
-aCx
-)
-;
 static
 const
 JSStructuredCloneCallbacks

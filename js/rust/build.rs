@@ -1910,9 +1910,6 @@ JS
 IsPromiseObject
 "
 "
-JS_BeginRequest
-"
-"
 JS_ClearPendingException
 "
 "
@@ -1964,9 +1961,6 @@ Dump
 "
 "
 JS_EncodeStringToUTF8
-"
-"
-JS_EndRequest
 "
 "
 JS

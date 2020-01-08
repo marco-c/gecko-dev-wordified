@@ -429,12 +429,6 @@ cx
 return
 false
 ;
-JS_BeginRequest
-(
-*
-cx
-)
-;
 global
 -
 >
@@ -492,11 +486,6 @@ if
 cx
 )
 {
-JS_EndRequest
-(
-cx
-)
-;
 JS_DestroyContext
 (
 cx

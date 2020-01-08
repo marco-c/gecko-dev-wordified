@@ -830,17 +830,7 @@ cx
 nullptr
 )
 ;
-JS_BeginRequest
-(
-cx
-)
-;
 CreateGlobalAndRunTest
-(
-cx
-)
-;
-JS_EndRequest
 (
 cx
 )

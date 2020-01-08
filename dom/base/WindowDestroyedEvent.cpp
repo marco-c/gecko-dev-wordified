@@ -19,10 +19,6 @@ jsapi
 .
 h
 "
-/
-/
-for
-JSAutoRequest
 #
 include
 "

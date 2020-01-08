@@ -16689,12 +16689,6 @@ suppressGC
 cx
 )
 ;
-JSAutoRequest
-request
-(
-cx
-)
-;
 Zone
 *
 zone

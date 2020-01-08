@@ -22137,12 +22137,6 @@ cx
 ;
 do
 {
-JSAutoRequest
-areq
-(
-cx
-)
-;
 JS
 :
 :
@@ -61111,12 +61105,6 @@ cgc
 nocgc
 .
 emplace
-(
-cx
-)
-;
-JSAutoRequest
-areq
 (
 cx
 )

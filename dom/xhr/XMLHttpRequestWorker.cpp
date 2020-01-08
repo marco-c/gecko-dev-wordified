@@ -4420,12 +4420,6 @@ mInnerEventStreamId
 AutoSafeJSContext
 cx
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS
 :
 :
@@ -6634,12 +6628,6 @@ HasData
 {
 AutoSafeJSContext
 cx
-;
-JSAutoRequest
-ar
-(
-cx
-)
 ;
 JS
 :

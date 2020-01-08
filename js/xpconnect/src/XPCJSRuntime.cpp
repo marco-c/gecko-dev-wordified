@@ -20882,12 +20882,6 @@ JSContext
 cx
 )
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 /
 /
 if
@@ -22289,12 +22283,6 @@ Get
 >
 Context
 (
-)
-;
-JSAutoRequest
-ar
-(
-cx
 )
 ;
 RootedValue

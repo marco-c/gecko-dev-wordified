@@ -327,11 +327,6 @@ cx
 )
 return
 ;
-JS_BeginRequest
-(
-cx
-)
-;
 global
 .
 init
@@ -633,15 +628,6 @@ global
 nullptr
 ;
 }
-if
-(
-cx
-)
-JS_EndRequest
-(
-cx
-)
-;
 }
 }
 ;

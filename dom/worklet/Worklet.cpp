@@ -1915,12 +1915,6 @@ GetJSContext
 (
 )
 ;
-JSAutoRequest
-areq
-(
-cx
-)
-;
 AutoJSAPI
 jsapi
 ;
