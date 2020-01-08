@@ -7110,6 +7110,10 @@ mInTransform
 (
 false
 )
+mInFilter
+(
+false
+)
 mInPageSequence
 (
 false
@@ -7347,6 +7351,10 @@ mIgnoreSuppression
 false
 ;
 mInTransform
+=
+false
+;
+mInFilter
 =
 false
 ;
