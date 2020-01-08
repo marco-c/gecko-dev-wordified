@@ -744,15 +744,6 @@ len
 ;
 name
 .
-SetCapacity
-(
-len
-+
-1
-)
-;
-name
-.
 Append
 (
 aFormatStr

@@ -3655,7 +3655,10 @@ mTxInlineFrame
 {
 sz
 }
-nsCString
+nsAutoCStringN
+<
+1025
+>
 compressedData
 ;
 nsAutoCString
