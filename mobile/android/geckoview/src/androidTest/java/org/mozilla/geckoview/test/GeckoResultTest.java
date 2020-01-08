@@ -1105,7 +1105,7 @@ boom
 ;
 deferred
 .
-then
+exceptionally
 (
 new
 OnExceptionListener
@@ -1395,7 +1395,7 @@ boom
 }
 )
 .
-then
+exceptionally
 (
 new
 OnExceptionListener
@@ -1448,7 +1448,7 @@ MockException
 }
 )
 .
-then
+exceptionally
 (
 new
 OnExceptionListener
@@ -1549,7 +1549,7 @@ fromValue
 42
 )
 .
-then
+exceptionally
 (
 new
 OnExceptionListener
@@ -1873,7 +1873,7 @@ null
 }
 )
 .
-then
+exceptionally
 (
 new
 OnExceptionListener
