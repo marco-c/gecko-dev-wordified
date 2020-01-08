@@ -5016,6 +5016,8 @@ atom
 -
 >
 length
+(
+)
 ;
 }
 static
@@ -5059,6 +5061,8 @@ s
 -
 >
 length
+(
+)
 ;
 }
 MOZ_ALWAYS_INLINE
@@ -5088,6 +5092,8 @@ s
 -
 >
 length
+(
+)
 ;
 }
 MOZ_ALWAYS_INLINE
@@ -5117,6 +5123,8 @@ s
 -
 >
 length
+(
+)
 ;
 }
 MOZ_ALWAYS_INLINE
@@ -5146,6 +5154,8 @@ s
 -
 >
 flags
+(
+)
 &
 JS
 :
@@ -5186,6 +5196,8 @@ atom
 -
 >
 flags
+(
+)
 &
 JS
 :
@@ -5226,6 +5238,8 @@ s
 -
 >
 flags
+(
+)
 &
 JS
 :
@@ -5296,6 +5310,8 @@ s
 -
 >
 flags
+(
+)
 &
 String
 :
@@ -5370,6 +5386,8 @@ s
 -
 >
 flags
+(
+)
 &
 String
 :
@@ -5561,6 +5579,8 @@ s
 -
 >
 flags
+(
+)
 &
 String
 :
@@ -5665,6 +5685,8 @@ s
 -
 >
 flags
+(
+)
 &
 String
 :
