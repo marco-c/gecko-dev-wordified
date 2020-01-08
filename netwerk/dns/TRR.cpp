@@ -895,6 +895,7 @@ SendHTTPRequest
 {
 FailData
 (
+NS_ERROR_FAILURE
 )
 ;
 /
@@ -5593,6 +5594,8 @@ TRR
 :
 FailData
 (
+nsresult
+error
 )
 {
 if
@@ -5646,7 +5649,7 @@ mHostResolver
 CompleteLookup
 (
 mRec
-NS_ERROR_FAILURE
+error
 ai
 mPB
 )
@@ -6189,6 +6192,7 @@ get
 ;
 FailData
 (
+NS_ERROR_UNEXPECTED
 )
 ;
 return
@@ -6306,6 +6310,7 @@ mFailed
 ;
 FailData
 (
+NS_ERROR_UNKNOWN_HOST
 )
 ;
 return

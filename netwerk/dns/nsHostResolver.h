@@ -1224,6 +1224,9 @@ mFirstTRR
 partial
 TRR
 storage
+nsresult
+mFirstTRRresult
+;
 uint16_t
 mResolving
 ;
