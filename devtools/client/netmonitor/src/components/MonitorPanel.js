@@ -972,7 +972,11 @@ maxSize
 "
 splitterSize
 :
+networkDetailsOpen
+?
 1
+:
+0
 startPanel
 :
 RequestList
