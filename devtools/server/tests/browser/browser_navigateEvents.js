@@ -1036,7 +1036,7 @@ server
 side
 object
 the
-BrowserTabActor
+FrameTargetActor
 instance
 const
 targetActor
