@@ -1378,7 +1378,7 @@ EventUtils
 synthesizeKey
 (
 "
-Tab
+KEY_Tab
 "
 {
 shiftKey
