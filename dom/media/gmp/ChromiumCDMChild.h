@@ -177,7 +177,7 @@ Init
 cdm
 :
 :
-ContentDecryptionModule_9
+ContentDecryptionModule_10
 *
 aCDM
 const
@@ -862,7 +862,7 @@ nullptr
 cdm
 :
 :
-ContentDecryptionModule_9
+ContentDecryptionModule_10
 *
 mCDM
 =
