@@ -6689,7 +6689,12 @@ return
 *
 savedOutlineInnerRect
 ;
-NS_NOTREACHED
+/
+/
+FIXME
+bug
+1221888
+NS_ERROR
 (
 "
 we
