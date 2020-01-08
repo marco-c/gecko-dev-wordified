@@ -71040,6 +71040,10 @@ return
 No
 3rd
 party
+or
+no
+tracking
+resource
 .
 if
 (
@@ -71052,6 +71056,16 @@ IsThirdPartyWindowOrChannel
 openerInner
 nullptr
 nullptr
+)
+|
+|
+!
+nsContentUtils
+:
+:
+IsTrackingResourceWindow
+(
+openerInner
 )
 )
 {
