@@ -4022,6 +4022,8 @@ JSID_FROM_BITS
 size_t
 )
 atom
+|
+JSID_TYPE_STRING
 )
 )
 ;

@@ -31888,11 +31888,9 @@ return
 JSFlatString
 *
 )
-(
-JSID_BITS
+JSID_TO_STRING
 (
 id
-)
 )
 ;
 }
