@@ -532,13 +532,6 @@ h
 #
 include
 "
-mozISpellI18NManager
-.
-h
-"
-#
-include
-"
 mozISpellI18NUtil
 .
 h
