@@ -3049,6 +3049,7 @@ styleSet
 >
 ProbePseudoElementStyle
 (
+*
 mFrame
 -
 >

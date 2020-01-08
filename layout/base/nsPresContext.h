@@ -4642,6 +4642,7 @@ IsPaginated
 bool
 ElementWouldPropagateScrollbarStyles
 (
+const
 mozilla
 :
 :
@@ -4649,8 +4650,7 @@ dom
 :
 :
 Element
-*
-aElement
+&
 )
 ;
 /

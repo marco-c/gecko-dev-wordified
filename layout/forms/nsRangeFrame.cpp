@@ -551,6 +551,7 @@ styleSet
 >
 ProbePseudoElementStyle
 (
+*
 aContent
 -
 >

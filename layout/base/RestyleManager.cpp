@@ -16661,7 +16661,6 @@ StyleSet
 .
 ResolveServoStyle
 (
-&
 mParentElement
 )
 ;
@@ -18762,6 +18761,7 @@ StyleSet
 .
 ResolveServoStyle
 (
+*
 aElement
 )
 ;
@@ -18863,6 +18863,7 @@ StyleSet
 .
 ResolveServoStyle
 (
+*
 aElement
 )
 :

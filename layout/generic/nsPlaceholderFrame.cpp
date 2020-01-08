@@ -1450,6 +1450,7 @@ StyleSet
 >
 ResolveServoStyle
 (
+*
 parentElement
 )
 ;

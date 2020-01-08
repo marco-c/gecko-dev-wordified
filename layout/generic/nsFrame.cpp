@@ -14231,6 +14231,7 @@ StyleSet
 >
 ProbePseudoElementStyle
 (
+*
 element
 CSSPseudoElementType
 :
@@ -66732,6 +66733,7 @@ StyleSet
 >
 ResolveServoStyle
 (
+*
 parentElement
 )
 ;

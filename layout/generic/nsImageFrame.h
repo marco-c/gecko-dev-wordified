@@ -838,6 +838,7 @@ static
 bool
 ShouldCreateImageFrameFor
 (
+const
 mozilla
 :
 :
@@ -845,11 +846,11 @@ dom
 :
 :
 Element
-*
+&
 aElement
 ComputedStyle
-*
-aComputedStyle
+&
+aStyle
 )
 ;
 ImgDrawResult

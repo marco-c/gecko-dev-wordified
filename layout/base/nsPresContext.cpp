@@ -8364,8 +8364,9 @@ nsPresContext
 :
 ElementWouldPropagateScrollbarStyles
 (
+const
 Element
-*
+&
 aElement
 )
 {
@@ -8388,8 +8389,7 @@ contexts
 if
 (
 aElement
--
->
+.
 GetParent
 (
 )
@@ -8397,8 +8397,7 @@ GetParent
 &
 !
 aElement
--
->
+.
 IsHTMLElement
 (
 nsGkAtoms
@@ -8511,6 +8510,7 @@ dummy
 )
 =
 =
+&
 aElement
 ;
 }
