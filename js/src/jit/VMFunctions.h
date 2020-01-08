@@ -5706,8 +5706,8 @@ MutableHandleValue
 rval
 )
 ;
-void
-GetDynamicName
+bool
+GetDynamicNamePure
 (
 JSContext
 *
