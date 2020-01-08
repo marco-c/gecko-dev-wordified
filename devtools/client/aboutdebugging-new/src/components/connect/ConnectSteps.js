@@ -168,7 +168,9 @@ className
 "
 connect
 -
-page__steps
+page__step
+-
+list
 "
 }
 this
