@@ -2769,6 +2769,7 @@ nullptr
 }
 if
 (
+(
 !
 gfxPrefs
 :
@@ -2782,6 +2783,13 @@ aAPIShmem
 =
 =
 nullptr
+)
+|
+|
+!
+XRE_IsGPUProcess
+(
+)
 )
 {
 return
