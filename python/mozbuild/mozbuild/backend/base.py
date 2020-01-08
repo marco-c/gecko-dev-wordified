@@ -1105,25 +1105,12 @@ changed
 .
         
 if
+backend_output_list
+!
+=
 self
 .
-_deleted_count
-or
-self
-.
-_created_count
-or
-\
-                
-not
-os
-.
-path
-.
-exists
-(
-list_file
-)
+_backend_output_files
 :
             
 with
