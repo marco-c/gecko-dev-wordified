@@ -89,12 +89,14 @@ EDITOR
 def
 edit_issues
 (
-issues
+result
 )
 :
     
 if
 not
+result
+.
 issues
 :
         
@@ -419,7 +421,7 @@ summary
 False
 )
 (
-issues
+result
 )
             
 fh
@@ -464,6 +466,8 @@ for
 path
 errors
 in
+result
+.
 issues
 .
 iteritems
