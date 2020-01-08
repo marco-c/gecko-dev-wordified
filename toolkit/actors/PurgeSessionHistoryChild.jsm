@@ -204,15 +204,6 @@ sessionHistory
 .
 legacySHistory
 ;
-legacy
-.
-QueryInterface
-(
-Ci
-.
-nsISHistoryInternal
-)
-;
 let
 indexEntry
 =

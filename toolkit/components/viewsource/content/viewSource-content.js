@@ -1651,13 +1651,6 @@ sessionHistory
 .
 legacySHistory
 .
-QueryInterface
-(
-Ci
-.
-nsISHistoryInternal
-)
-.
 addEntry
 (
 shEntry

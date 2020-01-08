@@ -259,9 +259,6 @@ class
 nsISHistory
 ;
 class
-nsISHistoryInternal
-;
-class
 nsIWebNavigation
 ;
 class
@@ -439,12 +436,6 @@ EvictLocalContentViewers
 nsISHistory
 *
 LegacySHistory
-(
-)
-;
-nsISHistoryInternal
-*
-LegacySHistoryInternal
 (
 )
 ;

@@ -1479,10 +1479,6 @@ nsIWebNavigation
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsISHistoryInternal
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_END

@@ -284,7 +284,7 @@ index
 /
 /
 Check
-nsISHistoryInternal
+nsISHistory
 .
 notifyOnHistoryReload
 info
