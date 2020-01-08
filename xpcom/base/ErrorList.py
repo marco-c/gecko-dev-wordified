@@ -7672,18 +7672,6 @@ FAILURE
 1013
 )
     
-errors
-[
-"
-NS_ERROR_DOM_QUOTA_REACHED
-"
-]
-=
-FAILURE
-(
-1014
-)
-    
 #
 A
 way

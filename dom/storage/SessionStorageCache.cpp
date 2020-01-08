@@ -644,7 +644,7 @@ delta
 )
 {
 return
-NS_ERROR_DOM_QUOTA_REACHED
+NS_ERROR_DOM_QUOTA_EXCEEDED_ERR
 ;
 }
 dataSet
