@@ -25640,9 +25640,6 @@ values
 :
 [
 "
-flip
-"
-"
 from
 -
 image
@@ -25652,6 +25649,9 @@ inherit
 "
 "
 initial
+"
+"
+none
 "
 "
 unset

@@ -1616,7 +1616,7 @@ image
 return
 ;
 }
-nsStyleImageOrientation
+auto
 newOrientation
 =
 StyleVisibility

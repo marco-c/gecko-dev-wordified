@@ -34529,7 +34529,7 @@ Is
 support
 for
 the
-CSS4
+CSS
 image
 -
 orientation
