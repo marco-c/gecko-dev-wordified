@@ -3641,9 +3641,6 @@ perspective
 origin
 "
 "
-position
-:
-:
 Position
 "
 "

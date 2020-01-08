@@ -2435,6 +2435,10 @@ AlignSelf
 "
                 
 "
+Appearance
+"
+                
+"
 BackgroundRepeat
 "
                 
@@ -2447,11 +2451,35 @@ BorderStyle
 "
                 
 "
+Clear
+"
+                
+"
 ColumnCount
 "
                 
 "
 Contain
+"
+                
+"
+Display
+"
+                
+"
+Float
+"
+                
+"
+FontSizeAdjust
+"
+                
+"
+FontStretch
+"
+                
+"
+FontStyle
 "
                 
 "
@@ -2464,6 +2492,10 @@ FontSynthesis
                 
 "
 FontWeight
+"
+                
+"
+GreaterThanOrEqualToOneNumber
 "
                 
 "
@@ -2519,6 +2551,10 @@ OutlineStyle
 "
                 
 "
+OverflowClipBox
+"
+                
+"
 OverscrollBehavior
 "
                 
@@ -2527,11 +2563,19 @@ Percentage
 "
                 
 "
+SVGOpacity
+"
+                
+"
 SVGPaintOrder
 "
                 
 "
 ScrollSnapType
+"
+                
+"
+TextAlign
 "
                 
 "
@@ -2559,6 +2603,22 @@ ZIndex
 "
             
 }
+        
+if
+self
+.
+name
+=
+=
+"
+overflow
+-
+y
+"
+:
+            
+return
+True
         
 return
 bool
