@@ -1356,6 +1356,21 @@ test
 run_info
 =
 run_info
+                                   
+extra
+=
+{
+"
+run_by_dir
+"
+:
+kwargs
+[
+"
+run_by_dir
+"
+]
+}
 )
                 
 for
