@@ -8312,7 +8312,7 @@ character
 Returns
 false
 if
-teh
+the
 input
 contains
 neither
