@@ -1160,6 +1160,8 @@ wr
 usize
 mDumpIndent
 ;
+public
+:
 /
 /
 Whether
