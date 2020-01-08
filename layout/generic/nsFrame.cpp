@@ -74164,11 +74164,6 @@ aParent
 nsLayoutUtils
 :
 :
-SCROLLABLE_SAME_DOC
-|
-nsLayoutUtils
-:
-:
 SCROLLABLE_FIXEDPOS_FINDS_ROOT
 |
 nsLayoutUtils
