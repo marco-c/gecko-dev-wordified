@@ -83,6 +83,9 @@ module
 importedModules
 )
 ;
+return
+importedModules
+;
 }
 )
 ;
