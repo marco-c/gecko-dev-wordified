@@ -3296,6 +3296,16 @@ swapBrowser
 )
 {
 }
+get
+progressListeners
+(
+)
+{
+return
+[
+]
+;
+}
 }
 ;
 }
