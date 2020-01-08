@@ -5070,7 +5070,11 @@ JSON
 .
 stringify
 (
+{
+theme
+:
 aThemeData
+}
 )
 )
 ;
