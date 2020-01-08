@@ -604,14 +604,6 @@ a
 function
 /
 constructor
-LightweightThemeManager
-:
-{
-currentThemeForDisplay
-:
-{
-}
-}
 PlacesUtils
 :
 {
