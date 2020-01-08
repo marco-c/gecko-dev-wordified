@@ -685,6 +685,9 @@ activeElement
 if
 (
 focus
+&
+&
+focus
 .
 editor
 )
