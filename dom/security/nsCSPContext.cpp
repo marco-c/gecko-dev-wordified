@@ -821,6 +821,8 @@ aMimeTypeGuess
 nsIURI
 *
 aOriginalURIIfRedirect
+bool
+aSendViolationReports
 int16_t
 *
 outDecision
@@ -1255,12 +1257,7 @@ to
 default
 -
 src
-true
-/
-/
-send
-violation
-reports
+aSendViolationReports
 true
 /
 /

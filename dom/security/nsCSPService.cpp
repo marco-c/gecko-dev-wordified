@@ -1420,6 +1420,12 @@ URL
 is
 null
 .
+aLoadInfo
+-
+>
+GetSendCSPViolationEvents
+(
+)
 aDecision
 )
 ;
@@ -1534,6 +1540,12 @@ URL
 is
 null
 .
+aLoadInfo
+-
+>
+GetSendCSPViolationEvents
+(
+)
 aDecision
 )
 ;
@@ -2202,6 +2214,10 @@ originalUri
 /
 Original
 nsIURI
+true
+/
+/
+aSendViolationReports
 &
 aDecision
 )
@@ -2342,6 +2358,10 @@ originalUri
 /
 Original
 nsIURI
+true
+/
+/
+aSendViolationReports
 &
 aDecision
 )

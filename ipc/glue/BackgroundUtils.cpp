@@ -2407,6 +2407,12 @@ GetIsDocshellReload
 aLoadInfo
 -
 >
+GetSendCSPViolationEvents
+(
+)
+aLoadInfo
+-
+>
 GetOriginAttributes
 (
 )
@@ -3283,6 +3289,11 @@ isInThirdPartyContext
 loadInfoArgs
 .
 isDocshellReload
+(
+)
+loadInfoArgs
+.
+sendCSPViolationEvents
 (
 )
 loadInfoArgs
