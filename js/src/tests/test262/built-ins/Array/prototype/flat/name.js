@@ -44,7 +44,7 @@ array
 .
 prototype
 .
-flatten
+flat
 description
 :
 >
@@ -52,7 +52,7 @@ Array
 .
 prototype
 .
-flatten
+flat
 .
 name
 value
@@ -83,7 +83,7 @@ Array
 .
 prototype
 .
-flatten
+flat
 ]
 -
 -
@@ -98,11 +98,11 @@ Array
 .
 prototype
 .
-flatten
+flat
 .
 name
 '
-flatten
+flat
 '
 '
 The
@@ -112,12 +112,12 @@ Array
 .
 prototype
 .
-flatten
+flat
 .
 name
 is
 "
-flatten
+flat
 "
 '
 )
@@ -128,7 +128,7 @@ Array
 .
 prototype
 .
-flatten
+flat
 '
 name
 '
@@ -140,7 +140,7 @@ Array
 .
 prototype
 .
-flatten
+flat
 '
 name
 '
@@ -152,7 +152,7 @@ Array
 .
 prototype
 .
-flatten
+flat
 '
 name
 '

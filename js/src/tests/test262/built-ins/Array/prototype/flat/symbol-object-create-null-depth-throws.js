@@ -44,7 +44,7 @@ array
 .
 prototype
 .
-flatten
+flat
 description
 :
 >
@@ -67,7 +67,7 @@ Array
 .
 prototype
 .
-flatten
+flat
 ]
 -
 -
@@ -86,7 +86,7 @@ function
 [
 ]
 .
-flatten
+flat
 (
 Symbol
 (
@@ -112,7 +112,7 @@ function
 [
 ]
 .
-flatten
+flat
 (
 Object
 .

@@ -44,7 +44,7 @@ array
 .
 prototype
 .
-flatten
+flat
 description
 :
 >
@@ -78,7 +78,7 @@ Array
 .
 prototype
 .
-flatten
+flat
 ]
 -
 -
@@ -108,7 +108,7 @@ function
 {
 a
 .
-flatten
+flat
 (
 )
 ;
@@ -142,7 +142,7 @@ function
 {
 a
 .
-flatten
+flat
 (
 )
 ;
@@ -178,7 +178,7 @@ function
 {
 a
 .
-flatten
+flat
 (
 )
 ;
@@ -212,7 +212,7 @@ function
 {
 a
 .
-flatten
+flat
 (
 )
 ;

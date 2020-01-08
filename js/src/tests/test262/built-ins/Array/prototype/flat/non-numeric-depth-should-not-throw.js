@@ -44,7 +44,7 @@ array
 .
 prototype
 .
-flatten
+flat
 description
 :
 >
@@ -74,7 +74,7 @@ Array
 .
 prototype
 .
-flatten
+flat
 ]
 -
 -
@@ -118,7 +118,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )
@@ -158,7 +158,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )
@@ -198,7 +198,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )
@@ -237,7 +237,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )
@@ -276,7 +276,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )
@@ -317,7 +317,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )
