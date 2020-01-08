@@ -12050,7 +12050,7 @@ GetLimits
 cx
 obj
 MaxTableInitialLength
-MaxTableMaximumLength
+UINT32_MAX
 "
 Table
 "
