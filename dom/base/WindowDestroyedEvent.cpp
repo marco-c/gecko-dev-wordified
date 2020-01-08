@@ -67,6 +67,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 mozilla
 {
