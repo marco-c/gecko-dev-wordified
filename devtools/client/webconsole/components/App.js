@@ -983,6 +983,7 @@ JSTerm
 (
 {
 hud
+serviceContainer
 onPaste
 :
 this
