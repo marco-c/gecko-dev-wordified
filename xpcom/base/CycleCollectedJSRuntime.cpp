@@ -10231,9 +10231,6 @@ details
 mMessage
 )
 ;
-nsAutoCString
-stack
-;
 JS
 :
 :
@@ -10268,17 +10265,6 @@ showThisProps
 *
 /
 false
-)
-;
-stack
-.
-Append
-(
-buf
-.
-get
-(
-)
 )
 ;
 CopyUTF8toUTF16
