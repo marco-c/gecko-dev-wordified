@@ -174,11 +174,6 @@ nsXPTMethodInfo
 *
 info
 ;
-nsresult
-result
-=
-NS_ERROR_FAILURE
-;
 uint64_t
 *
 iargs
@@ -869,6 +864,7 @@ fargs
 ;
 }
 }
+nsresult
 result
 =
 self

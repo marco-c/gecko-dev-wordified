@@ -222,11 +222,6 @@ nsXPTMethodInfo
 *
 info
 ;
-nsresult
-result
-=
-NS_ERROR_FAILURE
-;
 NS_ASSERTION
 (
 self
@@ -1207,6 +1202,7 @@ break
 ;
 }
 }
+nsresult
 result
 =
 self

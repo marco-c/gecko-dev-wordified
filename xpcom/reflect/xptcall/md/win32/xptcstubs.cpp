@@ -183,11 +183,6 @@ paramCount
 uint8_t
 i
 ;
-nsresult
-result
-=
-NS_ERROR_FAILURE
-;
 /
 /
 If
@@ -764,6 +759,7 @@ uint32_t
 args
 )
 ;
+nsresult
 result
 =
 self
