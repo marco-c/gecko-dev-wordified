@@ -2010,13 +2010,11 @@ RootedScript
 script
 (
 cx
-JSFunction
-:
-:
-getOrCreateScript
-(
-cx
 callee
+-
+>
+nonLazyScript
+(
 )
 )
 ;
