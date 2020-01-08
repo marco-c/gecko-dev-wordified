@@ -8492,10 +8492,9 @@ utf8
 return
 false
 ;
-JS_ReportErrorFlagsAndNumberUTF8
+JS_ReportErrorNumberUTF8
 (
 cx
-JSREPORT_ERROR
 GetErrorMessage
 nullptr
 JSMSG_BAD_REGEXP_FLAG

@@ -1524,10 +1524,9 @@ u
 offset
 )
 ;
-JS_ReportErrorFlagsAndNumberASCII
+JS_ReportErrorNumberASCII
 (
 cx
-JSREPORT_ERROR
 GetErrorMessage
 nullptr
 JSMSG_MALFORMED_UTF8_CHAR
@@ -1585,10 +1584,9 @@ v
 0x10000
 )
 ;
-JS_ReportErrorFlagsAndNumberASCII
+JS_ReportErrorNumberASCII
 (
 cx
-JSREPORT_ERROR
 GetErrorMessage
 nullptr
 JSMSG_UTF8_CHAR_TOO_LARGE

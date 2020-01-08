@@ -17269,10 +17269,9 @@ toISO
 )
 )
 {
-JS_ReportErrorFlagsAndNumberASCII
+JS_ReportErrorNumberASCII
 (
 cx
-JSREPORT_ERROR
 js
 :
 :

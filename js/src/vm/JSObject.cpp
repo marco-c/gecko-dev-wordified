@@ -22296,7 +22296,7 @@ object
 use
 ToObject
 .
-reportCantConvert
+reportScanStack
 controls
 how
 null
@@ -22378,7 +22378,6 @@ ReportIsNullOrUndefined
 cx
 JSDVG_SEARCH_STACK
 val
-nullptr
 )
 ;
 }
