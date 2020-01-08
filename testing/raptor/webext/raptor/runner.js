@@ -637,9 +637,8 @@ settings
 lower_is_better
 =
 =
-"
+=
 true
-"
 ;
 results
 .
@@ -650,9 +649,8 @@ settings
 subtest_lower_is_better
 =
 =
-"
+=
 true
-"
 ;
 results
 .
