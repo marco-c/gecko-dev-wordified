@@ -557,7 +557,7 @@ If
 origin
 |
 matches
-document
+self
 .
 origin
 also
@@ -647,7 +647,7 @@ if
 origin
 =
 =
-document
+self
 .
 origin
 )
@@ -714,7 +714,7 @@ if
 origin
 =
 =
-document
+self
 .
 origin
 )
@@ -1016,7 +1016,7 @@ options
 .
 origin
 =
-document
+self
 .
 origin
 ;
@@ -1125,7 +1125,7 @@ If
 origin
 |
 matches
-document
+self
 .
 origin
 assert
@@ -1180,7 +1180,7 @@ if
 origin
 =
 =
-document
+self
 .
 origin
 )
@@ -1253,7 +1253,7 @@ if
 origin
 =
 =
-document
+self
 .
 origin
 )
@@ -1574,7 +1574,7 @@ If
 origin
 |
 matches
-document
+self
 .
 origin
 assert
@@ -1629,7 +1629,7 @@ if
 origin
 =
 =
-document
+self
 .
 origin
 )
