@@ -174,7 +174,6 @@ avcodec
 h
 "
 extern
-const
 uint32_t
 ff_square_tab
 [
@@ -576,6 +575,12 @@ median_sad
 ;
 }
 MECmpContext
+;
+void
+ff_me_cmp_init_static
+(
+void
+)
 ;
 int
 ff_check_alignment

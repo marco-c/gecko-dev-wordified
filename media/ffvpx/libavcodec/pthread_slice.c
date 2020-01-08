@@ -872,6 +872,15 @@ void
 *
 )
 ;
+#
+if
+HAVE_W32THREADS
+w32thread_init
+(
+)
+;
+#
+endif
 /
 /
 We
