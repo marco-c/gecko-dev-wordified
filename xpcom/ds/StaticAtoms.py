@@ -725,6 +725,16 @@ alink
 Atom
 (
 "
+allow
+"
+"
+allow
+"
+)
+    
+Atom
+(
+"
 allowdirs
 "
 "
