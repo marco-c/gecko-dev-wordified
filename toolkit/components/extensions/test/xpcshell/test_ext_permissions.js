@@ -3270,6 +3270,9 @@ menus
 mozillaAddons
 "
 "
+search
+"
+"
 storage
 "
 "

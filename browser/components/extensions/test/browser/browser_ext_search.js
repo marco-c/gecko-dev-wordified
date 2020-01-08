@@ -283,6 +283,9 @@ permissions
 :
 [
 "
+search
+"
+"
 tabs
 "
 ]
@@ -658,6 +661,9 @@ manifest
 permissions
 :
 [
+"
+search
+"
 "
 tabs
 "
