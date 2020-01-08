@@ -2676,13 +2676,7 @@ aItem
 BackfaceIsHidden
 (
 )
-wr
-:
-:
-ImageRendering
-:
-:
-Auto
+rendering
 key
 .
 value
