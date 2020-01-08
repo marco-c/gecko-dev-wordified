@@ -493,7 +493,7 @@ None
 nargs
 =
 '
-*
++
 '
 help
 =
