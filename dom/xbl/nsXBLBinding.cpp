@@ -6626,7 +6626,7 @@ holder
 xblScope
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -6980,7 +6980,7 @@ stick
 it
 on
 .
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar3
 (
 cx
