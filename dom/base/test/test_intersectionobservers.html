@@ -426,27 +426,13 @@ function
 callDelayed
 (
 fn
-delay
 )
 {
 callbacks
 .
 push
 (
-{
 fn
-:
-fn
-time
-:
-+
-new
-Date
-(
-)
-+
-delay
-}
 )
 ;
 }
@@ -479,18 +465,12 @@ callbacks
 i
 ]
 ;
-if
-(
-+
-new
-Date
-(
-)
->
-=
-cb
+SimpleTest
 .
-time
+executeSoon
+(
+function
+(
 )
 {
 SimpleTest
@@ -498,8 +478,8 @@ SimpleTest
 executeSoon
 (
 cb
-.
-fn
+)
+}
 )
 ;
 callbacks
@@ -510,7 +490,6 @@ i
 1
 )
 ;
-}
 }
 requestAnimationFrame
 (
@@ -2205,7 +2184,6 @@ done
 )
 ;
 }
-ASYNC_TIMEOUT
 )
 ;
 }
@@ -2302,7 +2280,6 @@ done
 )
 ;
 }
-ASYNC_TIMEOUT
 )
 ;
 }
@@ -3415,7 +3392,6 @@ done
 )
 ;
 }
-ASYNC_TIMEOUT
 )
 ;
 }
@@ -6419,7 +6395,6 @@ targetEl1
 callDelayed
 (
 done
-0
 )
 ;
 }
@@ -6467,7 +6442,6 @@ done
 )
 ;
 }
-ASYNC_TIMEOUT
 )
 ;
 }
@@ -6985,7 +6959,6 @@ scrollLeft
 40
 ;
 }
-0
 )
 ;
 }
@@ -7136,7 +7109,6 @@ translateY
 '
 ;
 }
-0
 )
 ;
 }
@@ -7312,7 +7284,6 @@ done
 )
 ;
 }
-ASYNC_TIMEOUT
 )
 ;
 }
@@ -7431,7 +7402,6 @@ done
 )
 ;
 }
-ASYNC_TIMEOUT
 )
 ;
 }
@@ -7855,7 +7825,6 @@ done
 )
 ;
 }
-ASYNC_TIMEOUT
 )
 ;
 }
@@ -8301,7 +8270,6 @@ done
 )
 ;
 }
-ASYNC_TIMEOUT
 )
 ;
 }
@@ -8613,7 +8581,6 @@ done
 )
 ;
 }
-ASYNC_TIMEOUT
 )
 ;
 }
