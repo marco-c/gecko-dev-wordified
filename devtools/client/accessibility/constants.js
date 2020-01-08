@@ -286,9 +286,6 @@ DOMNode
 description
 "
 "
-help
-"
-"
 keyboardShortcut
 "
 "
@@ -345,11 +342,6 @@ change
 "
 "
 description
--
-change
-"
-"
-help
 -
 change
 "

@@ -235,10 +235,6 @@ description
 :
 "
 "
-help
-:
-"
-"
 keyboardShortcut
 :
 "
@@ -457,10 +453,6 @@ description
 :
 "
 "
-help
-:
-"
-"
 keyboardShortcut
 :
 "
@@ -543,10 +535,6 @@ value
 "
 "
 description
-:
-"
-"
-help
 :
 "
 "
@@ -646,10 +634,6 @@ value
 "
 "
 description
-:
-"
-"
-help
 :
 "
 "

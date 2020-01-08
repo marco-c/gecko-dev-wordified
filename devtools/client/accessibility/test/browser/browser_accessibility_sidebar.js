@@ -193,10 +193,6 @@ description
 :
 "
 "
-help
-:
-"
-"
 keyboardShortcut
 :
 "

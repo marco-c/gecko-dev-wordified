@@ -313,10 +313,6 @@ description
 :
 "
 "
-help
-:
-"
-"
 keyboardShortcut
 :
 "
