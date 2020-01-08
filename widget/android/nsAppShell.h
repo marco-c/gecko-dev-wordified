@@ -1389,6 +1389,8 @@ event
 }
 mEventQueue
 ;
+private
+:
 mozilla
 :
 :
