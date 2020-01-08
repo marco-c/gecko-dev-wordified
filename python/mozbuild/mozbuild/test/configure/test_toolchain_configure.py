@@ -2092,6 +2092,20 @@ bin
 )
 )
         
+args
+=
+args
++
+[
+'
+-
+-
+enable
+-
+release
+'
+]
+        
 sandbox
 =
 self
