@@ -2612,7 +2612,10 @@ true
 }
 Override
 public
-void
+GeckoResult
+<
+GeckoSession
+>
 onNewSession
 (
 final
@@ -2621,12 +2624,6 @@ session
 final
 String
 uri
-final
-GeckoResponse
-<
-GeckoSession
->
-response
 )
 {
 /
