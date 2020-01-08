@@ -213,16 +213,6 @@ FeatureMap
 :
 eAll
 }
-/
-/
-TODO
-:
-not
-supported
-yet
-!
-!
-!
 {
 "
 camera
