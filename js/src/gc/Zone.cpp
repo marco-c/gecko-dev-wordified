@@ -338,6 +338,10 @@ arenas
 (
 this
 )
+tenuredAllocsSinceMinorGC_
+(
+0
+)
 types
 (
 this
