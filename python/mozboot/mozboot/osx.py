@@ -3991,6 +3991,16 @@ checkout_root
 )
 :
         
+cbindgen_min_version
+=
+'
+0
+.
+6
+.
+4
+'
+        
 #
 We
 installed
@@ -4007,6 +4017,7 @@ ensure_rust_package
 '
 cbindgen
 '
+cbindgen_min_version
 )
     
 def
