@@ -619,6 +619,8 @@ Length
 ;
 mSensorState
 .
+pose
+.
 orientation
 [
 0
@@ -634,6 +636,8 @@ Data
 ]
 ;
 mSensorState
+.
+pose
 .
 orientation
 [
@@ -651,6 +655,8 @@ Data
 ;
 mSensorState
 .
+pose
+.
 orientation
 [
 2
@@ -666,6 +672,8 @@ Data
 ]
 ;
 mSensorState
+.
+pose
 .
 orientation
 [
@@ -723,6 +731,8 @@ Length
 ;
 mSensorState
 .
+pose
+.
 angularVelocity
 [
 0
@@ -739,6 +749,8 @@ Data
 ;
 mSensorState
 .
+pose
+.
 angularVelocity
 [
 1
@@ -754,6 +766,8 @@ Data
 ]
 ;
 mSensorState
+.
+pose
 .
 angularVelocity
 [
@@ -811,6 +825,8 @@ Length
 ;
 mSensorState
 .
+pose
+.
 angularAcceleration
 [
 0
@@ -827,6 +843,8 @@ Data
 ;
 mSensorState
 .
+pose
+.
 angularAcceleration
 [
 1
@@ -842,6 +860,8 @@ Data
 ]
 ;
 mSensorState
+.
+pose
 .
 angularAcceleration
 [
@@ -899,6 +919,8 @@ Length
 ;
 mSensorState
 .
+pose
+.
 position
 [
 0
@@ -915,6 +937,8 @@ Data
 ;
 mSensorState
 .
+pose
+.
 position
 [
 1
@@ -930,6 +954,8 @@ Data
 ]
 ;
 mSensorState
+.
+pose
 .
 position
 [
@@ -987,6 +1013,8 @@ Length
 ;
 mSensorState
 .
+pose
+.
 linearVelocity
 [
 0
@@ -1003,6 +1031,8 @@ Data
 ;
 mSensorState
 .
+pose
+.
 linearVelocity
 [
 1
@@ -1018,6 +1048,8 @@ Data
 ]
 ;
 mSensorState
+.
+pose
 .
 linearVelocity
 [
@@ -1075,6 +1107,8 @@ Length
 ;
 mSensorState
 .
+pose
+.
 linearAcceleration
 [
 0
@@ -1091,6 +1125,8 @@ Data
 ;
 mSensorState
 .
+pose
+.
 linearAcceleration
 [
 1
@@ -1106,6 +1142,8 @@ Data
 ]
 ;
 mSensorState
+.
+pose
 .
 linearAcceleration
 [
