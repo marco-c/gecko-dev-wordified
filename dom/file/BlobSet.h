@@ -165,6 +165,7 @@ final
 {
 public
 :
+MOZ_MUST_USE
 nsresult
 AppendVoidPtr
 (
@@ -176,6 +177,7 @@ uint32_t
 aLength
 )
 ;
+MOZ_MUST_USE
 nsresult
 AppendString
 (
@@ -187,6 +189,7 @@ bool
 nativeEOL
 )
 ;
+MOZ_MUST_USE
 nsresult
 AppendBlobImpl
 (
@@ -195,7 +198,7 @@ BlobImpl
 aBlobImpl
 )
 ;
-nsTArray
+FallibleTArray
 <
 RefPtr
 <
@@ -213,7 +216,7 @@ mBlobImpls
 }
 private
 :
-nsTArray
+FallibleTArray
 <
 RefPtr
 <
