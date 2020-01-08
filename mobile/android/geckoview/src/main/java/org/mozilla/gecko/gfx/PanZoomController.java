@@ -181,7 +181,6 @@ util
 ArrayList
 ;
 public
-final
 class
 PanZoomController
 extends
@@ -1008,11 +1007,7 @@ getButtonState
 )
 ;
 }
-/
-*
-package
-*
-/
+protected
 PanZoomController
 (
 final
