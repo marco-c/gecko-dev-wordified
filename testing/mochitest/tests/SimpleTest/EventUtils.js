@@ -17055,14 +17055,9 @@ j
 +
 )
 {
-SpecialPowers
-.
-wrap
-(
 event
 .
 dataTransfer
-)
 .
 mozSetDataAt
 (
