@@ -8153,6 +8153,12 @@ mExtraData
 GetReferrer
 (
 )
+mExtraData
+-
+>
+GetReferrerPolicy
+(
+)
 this
 mCORSMode
 )
