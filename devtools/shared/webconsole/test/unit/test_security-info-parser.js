@@ -216,9 +216,6 @@ generateQI
 Ci
 .
 nsITransportSecurityInfo
-Ci
-.
-nsISSLStatusProvider
 ]
 )
 securityState
