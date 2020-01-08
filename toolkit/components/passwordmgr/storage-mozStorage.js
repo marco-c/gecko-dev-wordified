@@ -317,6 +317,16 @@ Ci
 nsIInterfaceRequestor
 ]
 )
+_xpcom_factory
+:
+XPCOMUtils
+.
+generateSingletonFactory
+(
+this
+.
+LoginManagerStorage_mozStorage
+)
 getInterface
 (
 aIID
