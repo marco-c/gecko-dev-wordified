@@ -194,7 +194,6 @@ then
 (
 [
 aTab
-debuggeeWin
 aPanel
 ]
 )

@@ -148,7 +148,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -159,11 +158,6 @@ const
 gTab
 =
 aTab
-;
-const
-gDebuggee
-=
-aDebuggee
 ;
 const
 gPanel
