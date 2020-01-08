@@ -2119,9 +2119,6 @@ the
 /
 /
 major
-std
-:
-:
 string
 implementations
 use

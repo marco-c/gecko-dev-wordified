@@ -1588,8 +1588,6 @@ const
 string
 &
 input
-int
-error
 )
 ;
 /

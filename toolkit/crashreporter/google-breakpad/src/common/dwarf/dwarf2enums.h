@@ -1049,8 +1049,6 @@ DW_AT_call_line
 /
 DWARF
 4
-values
-.
 DW_AT_linkage_name
 =
 0x6e
@@ -2059,6 +2057,12 @@ DW_LANG_UPC
 DW_LANG_D
 =
 0x0013
+DW_LANG_Rust
+=
+0x001c
+DW_LANG_Swift
+=
+0x001e
 /
 /
 Implementation

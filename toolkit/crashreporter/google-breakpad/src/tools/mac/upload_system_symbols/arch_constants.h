@@ -399,3 +399,9 @@ kMachHeaderFtypeExe
 =
 MH_EXECUTE
 ;
+const
+uint32_t
+kMachHeaderFtypeDylinker
+=
+MH_DYLINKER
+;

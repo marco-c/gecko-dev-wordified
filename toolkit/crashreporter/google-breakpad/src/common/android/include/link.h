@@ -467,18 +467,6 @@ endif
 /
 /
 __cplusplus
-#
-if
-defined
-(
-ANDROID
-)
-&
-&
-ANDROID_VERSION
-<
-=
-20
 struct
 r_debug
 {
@@ -544,8 +532,6 @@ l_prev
 ;
 }
 ;
-#
-endif
 #
 ifdef
 __cplusplus

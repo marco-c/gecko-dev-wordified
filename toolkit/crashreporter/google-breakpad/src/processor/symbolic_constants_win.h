@@ -346,6 +346,15 @@ string
 #
 include
 "
+common
+/
+using_std_string
+.
+h
+"
+#
+include
+"
 google_breakpad
 /
 common
@@ -370,9 +379,6 @@ string
 .
 *
 /
-std
-:
-:
 string
 NTStatusToString
 (

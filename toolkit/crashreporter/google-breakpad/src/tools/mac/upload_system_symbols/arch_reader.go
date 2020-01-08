@@ -467,4 +467,9 @@ MachOExe
 C
 .
 kMachHeaderFtypeExe
+MachODylinker
+=
+C
+.
+kMachHeaderFtypeDylinker
 )

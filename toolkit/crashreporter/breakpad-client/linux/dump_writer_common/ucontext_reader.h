@@ -366,7 +366,7 @@ implementations
 of
 accessors
 to
-ucontext
+ucontext_t
 structs
 .
 struct
