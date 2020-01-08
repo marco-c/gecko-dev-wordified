@@ -544,7 +544,7 @@ isInterpreted
 ;
 return
 &
-global
+nonCCWGlobal
 (
 )
 ;

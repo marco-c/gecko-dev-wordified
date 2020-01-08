@@ -1676,13 +1676,14 @@ hasNonSyntacticScope
 envChain
 =
 &
-envChain
+cx
 -
 >
 global
 (
 )
-.
+-
+>
 lexicalEnvironment
 (
 )
