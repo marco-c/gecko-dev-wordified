@@ -2126,6 +2126,13 @@ picker
 securityCodeInput
 )
 .
+querySelector
+(
+"
+input
+"
+)
+.
 setUserInput
 (
 securityCode

@@ -299,7 +299,6 @@ any
 label
 div
 )
->
 .
 label
 -
@@ -374,7 +373,6 @@ div
 focus
 -
 within
->
 .
 label
 -
@@ -389,7 +387,6 @@ any
 label
 div
 )
->
 .
 label
 -
@@ -537,7 +534,6 @@ required
 ]
 >
 label
->
 .
 label
 -
@@ -558,7 +554,6 @@ div
 [
 required
 ]
->
 .
 label
 -
