@@ -13886,7 +13886,7 @@ ReportUnterminatedRegExp
 this
 ]
 (
-CharT
+int32_t
 unit
 )
 {
