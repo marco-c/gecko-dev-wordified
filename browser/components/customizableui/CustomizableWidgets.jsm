@@ -1118,7 +1118,7 @@ body
 =
 document
 .
-createElement
+createXULElement
 (
 "
 vbox
