@@ -7496,6 +7496,9 @@ parse
 (
 &
 name
+self
+.
+context
 )
 {
 Ok
