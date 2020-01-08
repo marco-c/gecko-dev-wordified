@@ -6282,6 +6282,13 @@ onpopupshown
 )
 GK_ATOM
 (
+onprocessorerror
+"
+onprocessorerror
+"
+)
+GK_ATOM
+(
 onpush
 "
 onpush
