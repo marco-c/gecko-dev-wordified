@@ -5518,7 +5518,8 @@ nsAString
 aFamily
 nsTArray
 <
-FamilyAndGeneric
+gfxFontFamily
+*
 >
 *
 aOutput
@@ -5563,10 +5564,7 @@ aOutput
 >
 AppendElement
 (
-FamilyAndGeneric
-(
 ff
-)
 )
 ;
 return
