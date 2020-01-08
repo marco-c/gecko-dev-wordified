@@ -1244,7 +1244,6 @@ const
 {
 onAddCustomDevice
 onBrowserMounted
-onChangeDevice
 onChangeNetworkThrottling
 onChangePixelRatio
 onChangeReloadCondition
@@ -1255,7 +1254,6 @@ onExit
 onRemoveCustomDevice
 onRemoveDeviceAssociation
 onResizeViewport
-onRotateViewport
 onScreenshot
 onUpdateDeviceDisplayed
 onUpdateDeviceModal
@@ -1365,16 +1363,12 @@ onScreenshot
 Viewports
 (
 {
-devices
 screenshot
 viewports
 onBrowserMounted
-onChangeDevice
 onContentResize
 onRemoveDeviceAssociation
-onRotateViewport
 onResizeViewport
-onUpdateDeviceModal
 }
 )
 DeviceModal
