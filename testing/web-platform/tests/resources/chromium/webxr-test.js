@@ -593,8 +593,6 @@ null
 {
 this
 .
-presentation_provider_
-.
 pose_
 =
 null
