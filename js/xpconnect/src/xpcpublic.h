@@ -367,16 +367,6 @@ JSObject
 aScope
 )
 ;
-static
-Scriptability
-&
-Get
-(
-JSScript
-*
-aScript
-)
-;
 private
 :
 /

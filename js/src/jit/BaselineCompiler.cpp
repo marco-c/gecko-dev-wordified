@@ -29633,18 +29633,6 @@ MOZ_ASSERT
 module
 )
 ;
-RootedScript
-moduleScript
-(
-cx
-module
--
->
-script
-(
-)
-)
-;
 JSObject
 *
 metaObject
@@ -29652,7 +29640,7 @@ metaObject
 GetOrCreateModuleMetaObject
 (
 cx
-moduleScript
+module
 )
 ;
 if

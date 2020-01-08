@@ -2090,8 +2090,8 @@ GetOrCreateModuleMetaObject
 JSContext
 *
 cx
-HandleScript
-script
+HandleObject
+module
 )
 ;
 }

@@ -865,7 +865,7 @@ callbackData
 }
 JS_PUBLIC_API
 (
-JSScript
+JSObject
 *
 )
 JS
