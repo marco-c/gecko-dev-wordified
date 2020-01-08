@@ -244,17 +244,7 @@ TimingParams
 &
 aTiming
 )
-:
-mDocument
-(
-aDocument
-)
-mTiming
-(
-aTiming
-)
-{
-}
+;
 virtual
 KeyframeEffect
 *
@@ -648,8 +638,6 @@ virtual
 AnimationEffect
 (
 )
-=
-default
 ;
 Nullable
 <
