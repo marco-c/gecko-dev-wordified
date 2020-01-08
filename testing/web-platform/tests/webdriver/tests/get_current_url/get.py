@@ -26,9 +26,9 @@ tests
 .
 support
 .
-wait
+sync
 import
-wait
+Poll
 alert_doc
 =
 inline
@@ -466,16 +466,28 @@ wd_test_modification
 "
 )
     
-wait
+Poll
 (
 session
+message
+=
+"
+URL
+did
+not
+change
+"
+)
+.
+until
+(
          
 lambda
-_
+s
 :
 get_current_url
 (
-session
+s
 )
 .
 body
@@ -494,13 +506,6 @@ body
 value
 "
 ]
-         
-"
-URL
-did
-not
-change
-"
 )
     
 result
