@@ -355,6 +355,25 @@ expected
 .
 '
 ]
+        
+'
+expected_exclude
+'
+:
+[
+'
+subdir2
+/
+c
+.
+py
+'
+'
+subdir1
+/
+subdir3
+'
+]
     
 }
     
@@ -556,6 +575,19 @@ expected
 '
 )
     
+expected_exclude
+=
+test
+.
+pop
+(
+'
+expected_exclude
+'
+[
+]
+)
+    
 paths
 exclude
 =
@@ -573,6 +605,12 @@ assert_paths
 (
 paths
 expected
+)
+    
+assert_paths
+(
+exclude
+expected_exclude
 )
 pytest
 .
