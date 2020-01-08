@@ -85,7 +85,7 @@ h
 #
 include
 "
-scoped_ptrs
+nss_scoped_ptrs
 .
 h
 "
