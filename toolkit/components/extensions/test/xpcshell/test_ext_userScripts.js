@@ -1151,6 +1151,17 @@ target
 window
 and
 document
+/
+/
+Temporarily
+disabled
+due
+to
+bug
+1498364
+false
+&
+&
 add_task
 (
 async
