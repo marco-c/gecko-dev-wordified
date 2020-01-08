@@ -294,17 +294,9 @@ os
 .
 path
 .
-join
-(
-os
-.
-path
-.
 dirname
 (
 path
-)
-value
 )
         
 if
@@ -343,6 +335,7 @@ build
 .
 topsrcdir
 reldir
+value
 )
             
 if
@@ -427,7 +420,15 @@ trees
 key
 ]
 =
+os
+.
+path
+.
+join
+(
 reldir
+value
+)
         
 if
 name
@@ -442,7 +443,15 @@ python_package_dirs
 .
 add
 (
+os
+.
+path
+.
+join
+(
 reldir
+value
+)
 )
     
 return
