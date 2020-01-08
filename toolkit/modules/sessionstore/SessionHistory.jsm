@@ -629,8 +629,6 @@ this
 serializeEntry
 (
 txn
-.
-sHEntry
 )
 ;
 data
