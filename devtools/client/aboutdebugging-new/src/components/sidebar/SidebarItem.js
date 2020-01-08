@@ -290,6 +290,11 @@ className
 sidebar
 -
 item
+js
+-
+sidebar
+-
+item
 "
 +
 (
