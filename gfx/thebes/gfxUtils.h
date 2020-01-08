@@ -2154,6 +2154,12 @@ int32_t
 status
 )
 ;
+static
+void
+RemoveShaderCacheFromDiskIfNecessary
+(
+)
+;
 /
 *
 *
