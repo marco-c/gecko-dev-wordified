@@ -10783,6 +10783,10 @@ type
 if
 (
 maxPacketLifeTime
+!
+=
+=
+undefined
 )
 {
 type
@@ -10798,6 +10802,10 @@ else
 if
 (
 maxRetransmits
+!
+=
+=
+undefined
 )
 {
 type
