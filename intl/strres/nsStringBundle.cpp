@@ -1458,6 +1458,11 @@ return
 mMapSize
 ;
 }
+if
+(
+mStringMap
+)
+{
 return
 mStringMap
 -
@@ -1465,6 +1470,10 @@ mStringMap
 MapSize
 (
 )
+;
+}
+return
+0
 ;
 }
 bool
@@ -2187,7 +2196,8 @@ bundles
 "
 )
 ;
-{
+if
+(
 RefPtr
 <
 SharedStringBundle
@@ -2198,10 +2208,6 @@ do_QueryObject
 (
 this
 )
-;
-if
-(
-shared
 )
 {
 path
@@ -2242,7 +2248,6 @@ nsStringBundle
 "
 )
 ;
-}
 }
 path
 .
