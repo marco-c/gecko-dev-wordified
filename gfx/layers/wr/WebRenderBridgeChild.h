@@ -1179,6 +1179,10 @@ wr
 IdNamespace
 &
 aNewIdNamespace
+const
+TextureFactoryIdentifier
+&
+textureFactoryIdentifier
 )
 override
 ;

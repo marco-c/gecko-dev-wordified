@@ -1294,6 +1294,10 @@ aImageMgr
 CompositorAnimationStorage
 *
 aAnimStorage
+const
+TextureFactoryIdentifier
+&
+aTextureFactoryIdentifier
 )
 ;
 void

@@ -2766,6 +2766,10 @@ wr
 IdNamespace
 &
 aNewIdNamespace
+const
+TextureFactoryIdentifier
+&
+textureFactoryIdentifier
 )
 {
 if
@@ -2781,6 +2785,11 @@ WrUpdated
 )
 ;
 }
+IdentifyTextureHost
+(
+textureFactoryIdentifier
+)
+;
 /
 /
 Update

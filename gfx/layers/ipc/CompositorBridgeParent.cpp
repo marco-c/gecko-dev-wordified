@@ -10131,6 +10131,12 @@ AsyncImageManager
 GetAnimationStorage
 (
 )
+mWrBridge
+-
+>
+GetTextureFactoryIdentifier
+(
+)
 )
 ;
 /
