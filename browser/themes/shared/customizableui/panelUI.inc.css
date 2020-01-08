@@ -7043,6 +7043,10 @@ fill
 :
 currentColor
 ;
+color
+:
+inherit
+;
 }
 #
 appMenu
