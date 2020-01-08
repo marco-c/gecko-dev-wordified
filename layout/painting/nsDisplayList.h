@@ -4824,6 +4824,17 @@ mCompositorHitTestInfo
 aHitTestInfo
 ;
 }
+nsDisplayCompositorHitTestInfo
+*
+GetCompositorHitTestInfo
+(
+)
+const
+{
+return
+mCompositorHitTestInfo
+;
+}
 /
 *
 *
