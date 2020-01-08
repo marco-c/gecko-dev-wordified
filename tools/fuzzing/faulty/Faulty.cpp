@@ -4339,12 +4339,6 @@ while
 more
 )
 ;
-file
-.
-forget
-(
-)
-;
 return
 NS_OK
 ;
