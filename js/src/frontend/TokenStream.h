@@ -4066,8 +4066,10 @@ lookaheadToken
 .
 modifier
 )
+{
 return
 ;
+}
 if
 (
 lookaheadToken
@@ -4105,8 +4107,10 @@ modifier
 =
 None
 )
+{
 return
 ;
+}
 }
 if
 (
@@ -4145,8 +4149,10 @@ modifier
 =
 Operand
 )
+{
 return
 ;
+}
 }
 MOZ_ASSERT_UNREACHABLE
 (
@@ -4654,6 +4660,7 @@ TokenKind
 Name
 )
 )
+{
 return
 currentToken
 (
@@ -4663,6 +4670,7 @@ name
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 TokenKindIsPossibleIdentifierName
@@ -4927,8 +4935,10 @@ InvalidEscapeType
 :
 None
 )
+{
 return
 ;
+}
 invalidTemplateEscapeOffset
 =
 offset
@@ -5047,8 +5057,10 @@ modifierException
 =
 modifierException
 )
+{
 return
 ;
+}
 if
 (
 next
@@ -5836,11 +5848,13 @@ lineIndex
 =
 0
 )
+{
 return
 column
 +
 initialColumn_
 ;
+}
 return
 column
 ;
@@ -5914,6 +5928,7 @@ length
 (
 )
 )
+{
 /
 /
 +
@@ -5924,6 +5939,7 @@ sentinel
 return
 false
 ;
+}
 *
 onThisLine
 =
@@ -7433,6 +7449,7 @@ ptr
 end
 )
 )
+{
 return
 PeekedCodePoint
 <
@@ -7444,6 +7461,7 @@ none
 (
 )
 ;
+}
 char16_t
 lead
 =
@@ -7576,6 +7594,7 @@ ptr
 end
 )
 )
+{
 return
 PeekedCodePoint
 <
@@ -7590,6 +7609,7 @@ none
 (
 )
 ;
+}
 const
 mozilla
 :
@@ -7612,6 +7632,7 @@ IsAscii
 lead
 )
 )
+{
 return
 PeekedCodePoint
 <
@@ -7629,6 +7650,7 @@ toUint8
 1
 )
 ;
+}
 const
 mozilla
 :
@@ -7669,6 +7691,7 @@ isNothing
 (
 )
 )
+{
 return
 PeekedCodePoint
 <
@@ -7683,6 +7706,7 @@ none
 (
 )
 ;
+}
 auto
 len
 =
@@ -8711,9 +8735,11 @@ remaining
 (
 )
 )
+{
 return
 false
 ;
+}
 char16_t
 v
 =
@@ -8754,9 +8780,11 @@ JS7_ISHEX
 unit
 )
 )
+{
 return
 false
 ;
+}
 v
 =
 (
@@ -8819,9 +8847,11 @@ remaining
 (
 )
 )
+{
 return
 false
 ;
+}
 const
 CharT
 *
@@ -9226,10 +9256,12 @@ r
 '
 )
 )
+{
 ptr
 -
 -
 ;
+}
 }
 /
 *
@@ -10587,8 +10619,10 @@ c
 =
 EOF
 )
+{
 return
 ;
+}
 sourceUnits
 .
 ungetCodeUnit
@@ -13228,6 +13262,7 @@ atEnd
 )
 )
 )
+{
 return
 CodeUnitValue
 (
@@ -13241,6 +13276,7 @@ getCodeUnit
 )
 )
 ;
+}
 anyCharsAccess
 (
 )
@@ -13725,9 +13761,11 @@ anyCharsAccess
 .
 lineno
 )
+{
 return
 true
 ;
+}
 return
 addLineOfContext
 (
@@ -13986,9 +14024,11 @@ cur
 end
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 drainCharBufferIntoAtom
 (
@@ -16637,9 +16677,11 @@ InvalidEscapeType
 :
 None
 )
+{
 return
 true
 ;
+}
 reportInvalidEscapeError
 (
 anyCharsAccess
@@ -18010,9 +18052,11 @@ ttp
 modifier
 )
 )
+{
 return
 false
 ;
+}
 anyChars
 .
 ungetToken
@@ -18067,9 +18111,11 @@ tt
 modifier
 )
 )
+{
 return
 false
 ;
+}
 anyChars
 .
 ungetToken
@@ -18150,9 +18196,11 @@ pos
 modifier
 )
 )
+{
 return
 false
 ;
+}
 *
 offset
 =
@@ -18554,9 +18602,11 @@ tmp
 modifier
 )
 )
+{
 return
 false
 ;
+}
 const
 Token
 &
@@ -18667,9 +18717,11 @@ token
 modifier
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 token
@@ -18767,9 +18819,11 @@ peekToken
 tt
 )
 )
+{
 return
 false
 ;
+}
 *
 endsExpr
 =
@@ -19243,6 +19297,7 @@ i
 +
 +
 )
+{
 lookaheadTokens
 [
 i
@@ -19262,6 +19317,7 @@ i
 )
 ]
 ;
+}
 }
 class
 TokenStreamAnyCharsAccess

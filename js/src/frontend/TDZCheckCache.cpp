@@ -241,11 +241,13 @@ ensureCache
 bce
 )
 )
+{
 return
 Nothing
 (
 )
 ;
+}
 CheckTDZMap
 :
 :
@@ -264,6 +266,7 @@ if
 (
 p
 )
+{
 return
 Some
 (
@@ -277,6 +280,7 @@ value
 wrapped
 )
 ;
+}
 MaybeCheckTDZ
 rv
 =
@@ -405,9 +409,11 @@ ensureCache
 bce
 )
 )
+{
 return
 false
 ;
+}
 CheckTDZMap
 :
 :

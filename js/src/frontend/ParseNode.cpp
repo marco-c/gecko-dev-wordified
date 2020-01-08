@@ -338,11 +338,13 @@ if
 !
 p
 )
+{
 ReportOutOfMemory
 (
 cx
 )
 ;
+}
 return
 p
 ;
@@ -751,9 +753,11 @@ if
 !
 list
 )
+{
 return
 nullptr
 ;
+}
 list
 -
 >
@@ -819,6 +823,7 @@ pn
 =
 nullptr
 )
+{
 out
 .
 put
@@ -829,7 +834,9 @@ NULL
 "
 )
 ;
+}
 else
+{
 pn
 -
 >
@@ -839,6 +846,7 @@ out
 indent
 )
 ;
+}
 }
 static
 void
@@ -876,6 +884,7 @@ indent
 +
 i
 )
+{
 out
 .
 putChar
@@ -884,6 +893,7 @@ putChar
 '
 )
 ;
+}
 }
 void
 ParseNode
@@ -1278,6 +1288,7 @@ IsFinite
 pn_dval
 )
 )
+{
 out
 .
 put
@@ -1287,10 +1298,12 @@ put
 "
 )
 ;
+}
 if
 (
 cstr
 )
+{
 out
 .
 printf
@@ -1302,7 +1315,9 @@ s
 cstr
 )
 ;
+}
 else
+{
 out
 .
 printf
@@ -1314,6 +1329,7 @@ g
 pn_dval
 )
 ;
+}
 break
 ;
 }
@@ -1495,6 +1511,7 @@ isSuper
 (
 )
 )
+{
 out
 .
 put
@@ -1504,7 +1521,9 @@ super
 "
 )
 ;
+}
 else
+{
 DumpParseTree
 (
 pn_left
@@ -1514,6 +1533,7 @@ indent
 2
 )
 ;
+}
 out
 .
 printf
@@ -1896,6 +1916,7 @@ len
 =
 0
 )
+{
 out
 .
 put
@@ -1911,6 +1932,7 @@ name
 "
 )
 ;
+}
 for
 (
 size_t
@@ -1946,6 +1968,7 @@ c
 <
 127
 )
+{
 out
 .
 putChar
@@ -1953,6 +1976,7 @@ putChar
 c
 )
 ;
+}
 else
 if
 (
@@ -1961,6 +1985,7 @@ c
 =
 255
 )
+{
 out
 .
 printf
@@ -1978,7 +2003,9 @@ c
 )
 )
 ;
+}
 else
+{
 out
 .
 printf
@@ -1996,6 +2023,7 @@ c
 )
 )
 ;
+}
 }
 }
 void
@@ -2133,6 +2161,7 @@ hasLatin1Chars
 (
 )
 )
+{
 DumpName
 (
 out
@@ -2151,7 +2180,9 @@ length
 )
 )
 ;
+}
 else
+{
 DumpName
 (
 out
@@ -2170,6 +2201,7 @@ length
 )
 )
 ;
+}
 }
 return
 ;
@@ -2352,6 +2384,7 @@ hasLatin1Chars
 (
 )
 )
+{
 DumpName
 (
 out
@@ -2370,7 +2403,9 @@ length
 )
 )
 ;
+}
 else
+{
 DumpName
 (
 out
@@ -2389,6 +2424,7 @@ length
 )
 )
 ;
+}
 if
 (
 i
@@ -2400,12 +2436,14 @@ length
 -
 1
 )
+{
 IndentNewLine
 (
 out
 nameIndent
 )
 ;
+}
 }
 }
 out
@@ -2628,6 +2666,7 @@ box
 >
 traceLink
 )
+{
 box
 -
 >
@@ -2636,6 +2675,7 @@ trace
 trc
 )
 ;
+}
 }
 void
 ObjectBox
@@ -2684,6 +2724,7 @@ if
 (
 enclosingScope_
 )
+{
 TraceRoot
 (
 trc
@@ -2696,6 +2737,7 @@ enclosingScope
 "
 )
 ;
+}
 }
 bool
 js
@@ -2790,9 +2832,11 @@ explicitName
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 14
@@ -2831,9 +2875,11 @@ names
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
