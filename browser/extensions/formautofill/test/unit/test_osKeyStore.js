@@ -452,16 +452,6 @@ Assert
 .
 equal
 (
-OSKeyStore
-.
-isEnabled
-true
-)
-;
-Assert
-.
-equal
-(
 await
 OSKeyStore
 .
