@@ -375,9 +375,6 @@ pagehide
 "
 )
 {
-mozSystemGroup
-:
-true
 }
 checkFn
 false
@@ -405,9 +402,6 @@ pageshow
 "
 )
 {
-mozSystemGroup
-:
-true
 }
 checkFn
 false
@@ -735,9 +729,6 @@ content
 pageshow
 "
 {
-mozSystemGroup
-:
-true
 }
 )
 ;
