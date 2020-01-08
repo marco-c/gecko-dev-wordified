@@ -1260,12 +1260,7 @@ fullZoom
 =
 win
 .
-getInterface
-(
-Ci
-.
-nsIDOMWindowUtils
-)
+windowUtils
 .
 fullZoom
 ;
@@ -2612,12 +2607,7 @@ dwu
 =
 window
 .
-getInterface
-(
-Ci
-.
-nsIDOMWindowUtils
-)
+windowUtils
 ;
 let
 toolbarItem
