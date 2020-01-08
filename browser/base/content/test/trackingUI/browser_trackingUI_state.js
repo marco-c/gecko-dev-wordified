@@ -1628,6 +1628,7 @@ exception
 ;
 ok
 (
+!
 ContentBlocking
 .
 iconBox
