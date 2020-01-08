@@ -16859,7 +16859,7 @@ sync
 with
 GECKO_TOOLS_MENU_UUID
 in
-BrowserApp
+AddonUICache
 .
 java
 .

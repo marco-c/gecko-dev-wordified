@@ -2277,6 +2277,16 @@ init
 context
 )
 ;
+AddonUICache
+.
+getInstance
+(
+)
+.
+init
+(
+)
+;
 GlobalPageMetadata
 .
 getInstance
