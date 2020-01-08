@@ -3022,7 +3022,6 @@ Ok
 XDRResult
 codeChars
 (
-const
 JS
 :
 :
