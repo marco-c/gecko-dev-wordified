@@ -701,7 +701,9 @@ to
 script
 -
 >
-main
+code
+(
+)
 *
 /
 uint32_t
@@ -967,11 +969,12 @@ scope
 starts
 /
 /
-from
+relative
+to
 script
 -
 >
-main
+code
 (
 )
 .

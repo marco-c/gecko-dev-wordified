@@ -22521,6 +22521,7 @@ script
 trynotes
 (
 )
+prologueLength
 )
 ;
 }
@@ -23199,11 +23200,12 @@ jsbytecode
 *
 tryStart
 =
-mainEntry
-+
+offsetToPC
+(
 tn
 .
 start
+)
 ;
 jsbytecode
 *
