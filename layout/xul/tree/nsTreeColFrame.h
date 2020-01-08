@@ -305,7 +305,7 @@ method
 that
 gets
 the
-nsITreeColumns
+TreeColumns
 object
 this
 column
