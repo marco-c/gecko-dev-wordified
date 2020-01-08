@@ -15952,7 +15952,7 @@ hover
 {
 this
 .
-onHightlightFrame
+onHighlightFrame
 (
 frame
 .
@@ -16333,7 +16333,7 @@ the
 page
 *
 /
-onHightlightFrame
+onHighlightFrame
 :
 async
 function
