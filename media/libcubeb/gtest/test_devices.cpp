@@ -102,6 +102,16 @@ cubeb
 .
 h
 "
+/
+/
+#
+define
+ENABLE_NORMAL_LOG
+/
+/
+#
+define
+ENABLE_VERBOSE_LOG
 #
 include
 "
