@@ -186,15 +186,6 @@ include
 "
 mozilla
 /
-CycleCollectedJSContext
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DeferredFinalize
 .
 h

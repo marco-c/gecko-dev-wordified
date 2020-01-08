@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IntegerPrintfMacros
 .
 h
