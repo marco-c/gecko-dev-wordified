@@ -1468,9 +1468,6 @@ mDelayAgnostic
 bool
 mExtendedFilter
 ;
-bool
-mStarted
-;
 const
 nsString
 mDeviceName
