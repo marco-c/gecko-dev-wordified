@@ -602,7 +602,7 @@ subActionInfo
 EditSubAction
 :
 :
-setTextProperty
+eSetTextProperty
 )
 ;
 /
@@ -7812,7 +7812,7 @@ this
 EditSubAction
 :
 :
-removeTextProperty
+eRemoveTextProperty
 nsIEditor
 :
 :
@@ -7842,7 +7842,7 @@ subActionInfo
 EditSubAction
 :
 :
-removeTextProperty
+eRemoveTextProperty
 )
 ;
 /
@@ -8927,7 +8927,7 @@ this
 EditSubAction
 :
 :
-setTextProperty
+eSetTextProperty
 nsIEditor
 :
 :
