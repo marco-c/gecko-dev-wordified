@@ -1439,10 +1439,6 @@ WebGLExtensionCompressedTextureASTC
 ;
 friend
 class
-WebGLExtensionCompressedTextureATC
-;
-friend
-class
 WebGLExtensionCompressedTextureBPTC
 ;
 friend
