@@ -306,6 +306,8 @@ renderer
 :
 MAX_VERTEX_TEXTURE_WIDTH
 -
+VECS_PER_PRIM_HEADER
+-
 VECS_PER_TEXT_RUN
 )
 *
@@ -316,7 +318,7 @@ MAX_TEXT_RUN_LENGTH
 :
 usize
 =
-2040
+2038
 ;
 /
 /

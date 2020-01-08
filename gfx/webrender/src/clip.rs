@@ -118,7 +118,6 @@ clip_scroll_tree
 {
 ClipChainIndex
 CoordinateSystemId
-TransformIndex
 }
 ;
 use
@@ -153,6 +152,7 @@ gpu_types
 :
 {
 BoxShadowStretchMode
+ClipScrollNodeIndex
 }
 ;
 use
@@ -3813,9 +3813,9 @@ struct
 ClipWorkItem
 {
 pub
-transform_index
+scroll_node_data_index
 :
-TransformIndex
+ClipScrollNodeIndex
 pub
 clip_sources
 :

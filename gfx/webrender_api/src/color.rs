@@ -934,7 +934,7 @@ u8
 )
 -
 >
-Self
+ColorU
 {
 ColorU
 {
