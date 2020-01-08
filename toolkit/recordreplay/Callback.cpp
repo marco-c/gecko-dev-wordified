@@ -227,6 +227,10 @@ return
 }
 AutoOrderedAtomicAccess
 at
+(
+&
+gCallbackData
+)
 ;
 StaticMutexAutoLock
 lock
