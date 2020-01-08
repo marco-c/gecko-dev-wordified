@@ -2642,6 +2642,10 @@ asyncClassifyLocalWithTables
 (
 uri
 tableName
+[
+]
+[
+]
 (
 c
 list
