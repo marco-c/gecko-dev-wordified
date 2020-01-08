@@ -1877,12 +1877,8 @@ only
 allowed
 to
 register
-only
 skin
 packages
-and
-style
-overlays
 .
 *
 /
@@ -2032,12 +2028,8 @@ only
 allowed
 to
 register
-only
 skin
 packages
-and
-style
-overlays
 .
 *
 /
