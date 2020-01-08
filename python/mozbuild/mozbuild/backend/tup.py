@@ -2800,9 +2800,25 @@ symbols_file
 ]
         
 if
+(
 shlib
 .
 symbols_file
+and
+            
+backend_file
+.
+environment
+.
+substs
+.
+get
+(
+'
+GCC_USE_GNU_LD
+'
+)
+)
 :
             
 inputs
@@ -2813,13 +2829,6 @@ shlib
 .
 symbols_file
 )
-            
-#
-TODO
-:
-Assumes
-GNU
-LD
             
 symbols_file
 =
