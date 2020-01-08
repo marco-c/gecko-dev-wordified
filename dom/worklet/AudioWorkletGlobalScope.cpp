@@ -161,15 +161,8 @@ AudioWorkletGlobalScope
 :
 AudioWorkletGlobalScope
 (
-WorkletImpl
-*
-aImpl
 )
 :
-WorkletGlobalScope
-(
-aImpl
-)
 mCurrentFrame
 (
 0

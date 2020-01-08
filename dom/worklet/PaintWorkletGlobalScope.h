@@ -134,9 +134,6 @@ h
 namespace
 mozilla
 {
-class
-WorkletImpl
-;
 namespace
 dom
 {
@@ -152,12 +149,8 @@ WorkletGlobalScope
 {
 public
 :
-explicit
 PaintWorkletGlobalScope
 (
-WorkletImpl
-*
-aImpl
 )
 ;
 bool
