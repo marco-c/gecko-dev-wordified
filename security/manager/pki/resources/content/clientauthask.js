@@ -428,7 +428,16 @@ cert
 .
 *
 type
-nsIDOMXULCheckboxElement
+Element
+checkbox
+has
+to
+have
+|
+checked
+|
+property
+.
 *
 /
 var
