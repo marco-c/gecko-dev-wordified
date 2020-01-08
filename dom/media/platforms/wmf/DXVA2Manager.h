@@ -393,6 +393,9 @@ virtual
 HRESULT
 ConfigureForSize
 (
+IMFMediaType
+*
+aInputType
 uint32_t
 aWidth
 uint32_t
