@@ -448,6 +448,18 @@ JSTERM_CODE_MIRROR
 )
 ;
 const
+jstermReverseSearch
+=
+getBoolPref
+(
+PREFS
+.
+FEATURES
+.
+JSTERM_REVERSE_SEARCH
+)
+;
+const
 historyCount
 =
 getIntPref
@@ -471,6 +483,7 @@ PrefState
 logLimit
 sidebarToggle
 jstermCodeMirror
+jstermReverseSearch
 historyCount
 }
 )
