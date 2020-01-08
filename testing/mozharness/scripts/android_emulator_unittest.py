@@ -4647,11 +4647,11 @@ coverage
 -
 output
 -
-path
+dir
 '
 self
 .
-java_coverage_output_path
+java_coverage_output_dir
 ]
 )
         
