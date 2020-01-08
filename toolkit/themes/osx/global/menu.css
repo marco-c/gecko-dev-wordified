@@ -898,6 +898,15 @@ popups
 menulist
 >
 menupopup
+{
+font
+:
+inherit
+;
+}
+menulist
+>
+menupopup
 >
 menuitem
 menulist
