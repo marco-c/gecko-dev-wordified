@@ -11247,8 +11247,6 @@ cursor
 -
 start
 ;
-cursor
-=
 FreshlyInitializeBindings
 (
 cursor
@@ -11696,8 +11694,6 @@ cursor
 -
 start
 ;
-cursor
-=
 FreshlyInitializeBindings
 (
 cursor
@@ -11946,8 +11942,6 @@ cursor
 =
 start
 ;
-cursor
-=
 FreshlyInitializeBindings
 (
 cursor
@@ -12625,8 +12619,6 @@ cursor
 -
 start
 ;
-cursor
-=
 FreshlyInitializeBindings
 (
 cursor
@@ -12878,8 +12870,6 @@ cursor
 =
 start
 ;
-cursor
-=
 FreshlyInitializeBindings
 (
 cursor
@@ -13242,8 +13232,6 @@ cursor
 -
 start
 ;
-cursor
-=
 FreshlyInitializeBindings
 (
 cursor
