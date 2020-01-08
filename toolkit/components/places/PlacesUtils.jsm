@@ -2852,6 +2852,9 @@ moz
 action
 :
 "
+observers
+:
+PlacesObservers
 /
 *
 *
