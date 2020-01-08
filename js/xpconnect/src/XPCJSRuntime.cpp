@@ -14036,7 +14036,7 @@ node
 node
 -
 >
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 &
