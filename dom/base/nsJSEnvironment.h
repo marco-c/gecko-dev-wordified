@@ -464,6 +464,7 @@ Startup
 (
 )
 .
+static
 void
 EnsureStatics
 (
