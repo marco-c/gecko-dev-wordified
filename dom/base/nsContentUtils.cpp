@@ -24275,6 +24275,8 @@ CanBubble
 aCanBubble
 Cancelable
 aCancelable
+Composed
+aComposed
 Trusted
 aTrusted
 Event
@@ -24363,6 +24365,7 @@ InitEvent
 aEventName
 aCanBubble
 aCancelable
+aComposed
 )
 ;
 event
@@ -24428,6 +24431,8 @@ CanBubble
 aCanBubble
 Cancelable
 aCancelable
+Composed
+aComposed
 bool
 *
 aDefaultAction
@@ -24441,6 +24446,7 @@ aTarget
 aEventName
 aCanBubble
 aCancelable
+aComposed
 Trusted
 :
 :
@@ -24485,6 +24491,10 @@ aTarget
 aEventName
 aCanBubble
 aCancelable
+Composed
+:
+:
+eDefault
 Trusted
 :
 :
@@ -24516,6 +24526,8 @@ CanBubble
 aCanBubble
 Cancelable
 aCancelable
+Composed
+aComposed
 Trusted
 aTrusted
 bool
@@ -24547,6 +24559,7 @@ aTarget
 aEventName
 aCanBubble
 aCancelable
+aComposed
 aTrusted
 getter_AddRefs
 (
@@ -24852,6 +24865,10 @@ aTarget
 aEventName
 aCanBubble
 aCancelable
+Composed
+:
+:
+eDefault
 Trusted
 :
 :
@@ -25057,6 +25074,10 @@ aTarget
 aEventName
 aCanBubble
 aCancelable
+Composed
+:
+:
+eDefault
 Trusted
 :
 :
