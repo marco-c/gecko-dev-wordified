@@ -964,6 +964,8 @@ any
 column
 nscoord
 mMaxBSize
+=
+0
 ;
 /
 /
@@ -982,6 +984,8 @@ all
 columns
 nscoord
 mSumBSize
+=
+0
 ;
 /
 /
@@ -998,6 +1002,8 @@ last
 column
 nscoord
 mLastBSize
+=
+0
 ;
 /
 /
@@ -1023,6 +1029,8 @@ block
 size
 nscoord
 mMaxOverflowingBSize
+=
+0
 ;
 /
 /
@@ -1070,6 +1078,8 @@ balancing
 .
 bool
 mHasExcessBSize
+=
+false
 ;
 void
 Reset
