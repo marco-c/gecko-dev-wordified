@@ -354,12 +354,6 @@ fAntiAliasMode
 DWRITE_GRID_FIT_MODE
 fGridFitMode
 ;
-SkTScopedComPtr
-<
-IDWriteRenderingParams
->
-fDefaultRenderingParams
-;
 bool
 fIsColorFont
 ;
