@@ -1564,6 +1564,13 @@ a
 no
 -
 op
+and
+it
+reports
+being
+/
+/
+empty
 .
 {
 #
@@ -1577,6 +1584,12 @@ mChecker
 ;
 #
 endif
+aOther
+.
+mEntryCount
+=
+0
+;
 aOther
 .
 mEntryStore
