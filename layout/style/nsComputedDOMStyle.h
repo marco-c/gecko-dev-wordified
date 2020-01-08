@@ -5115,6 +5115,10 @@ mFlushedPendingReflows
 ;
 #
 endif
+friend
+struct
+ComputedStyleMap
+;
 }
 ;
 already_AddRefed
