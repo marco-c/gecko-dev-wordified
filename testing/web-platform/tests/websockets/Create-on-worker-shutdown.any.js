@@ -131,6 +131,10 @@ w
 .
 onmessage
 =
+t
+.
+step_func
+(
 function
 (
 e
@@ -192,6 +196,8 @@ done
 )
 ;
 }
+)
+;
 }
 '
 WebSocket
