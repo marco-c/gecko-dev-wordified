@@ -4460,7 +4460,7 @@ See
 bug
 1477923
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -5940,7 +5940,7 @@ PrivilegedJunkScope
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

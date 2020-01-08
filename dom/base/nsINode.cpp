@@ -7555,7 +7555,7 @@ GetGlobalJSObject
 )
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -7678,7 +7678,7 @@ GetWrapper
 )
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

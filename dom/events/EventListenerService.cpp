@@ -988,7 +988,7 @@ aObject
 {
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;
@@ -1182,7 +1182,7 @@ JSContext
 aCx
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 &
 aAr
@@ -1257,7 +1257,7 @@ cx
 ;
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;

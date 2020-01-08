@@ -1600,11 +1600,11 @@ int32
 true
 "
 void
-JSAutoRealm
+JSAutoRealmAllowCCW
 :
 :
 ~
-JSAutoRealm
+JSAutoRealmAllowCCW
 (
 int32
 )

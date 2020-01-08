@@ -511,7 +511,7 @@ GetWrapper
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

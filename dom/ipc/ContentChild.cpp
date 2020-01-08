@@ -2859,7 +2859,7 @@ isObject
 )
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

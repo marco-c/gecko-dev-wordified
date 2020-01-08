@@ -2197,7 +2197,7 @@ a
 global
 now
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -15707,7 +15707,7 @@ InitializeGCTimers
 ;
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 workerCompartment
 ;
@@ -16265,7 +16265,7 @@ make
 the
 decision
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -16345,7 +16345,7 @@ make
 the
 decision
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -26680,7 +26680,7 @@ global
 nullptr
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -26822,7 +26822,7 @@ global
 nullptr
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

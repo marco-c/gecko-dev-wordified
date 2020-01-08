@@ -22537,7 +22537,7 @@ scope
 )
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

@@ -7672,7 +7672,7 @@ attributesRef
 JSPROP_PERMANENT
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -7740,7 +7740,7 @@ HandleObject
 obj
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

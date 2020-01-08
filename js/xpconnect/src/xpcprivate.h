@@ -15031,7 +15031,7 @@ mozilla
 :
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 mAutoRealm
 ;

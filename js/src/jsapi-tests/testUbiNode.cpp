@@ -737,7 +737,7 @@ script
 there
 too
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1205,7 +1205,7 @@ script
 there
 too
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

@@ -21797,7 +21797,7 @@ realm
 .
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;

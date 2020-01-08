@@ -213,7 +213,7 @@ ok
 false
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -404,7 +404,7 @@ false
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -755,7 +755,7 @@ ooms
 /
 {
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1129,7 +1129,7 @@ match
 }
 {
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

@@ -1955,7 +1955,7 @@ IgnoreErrors
 )
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

@@ -951,7 +951,7 @@ GetGlobalJSObject
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

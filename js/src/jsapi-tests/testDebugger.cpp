@@ -197,7 +197,7 @@ g
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ae
 (
 cx
@@ -426,7 +426,7 @@ hits
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ae
 (
 cx

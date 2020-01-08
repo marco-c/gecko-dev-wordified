@@ -4733,7 +4733,7 @@ the
 right
 prototype
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -5927,7 +5927,7 @@ cx
 proto
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -6470,7 +6470,7 @@ cx
 obj
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -6593,7 +6593,7 @@ parent_proto
 }
 else
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 innerAR
 (
 cx
@@ -6634,7 +6634,7 @@ holder
 xblScope
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -6820,7 +6820,7 @@ and
 create
 it
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx
@@ -6988,7 +6988,7 @@ stick
 it
 on
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar3
 (
 cx
@@ -7058,7 +7058,7 @@ and
 return
 it
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar4
 (
 cx
@@ -7587,7 +7587,7 @@ internal
 version
 .
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

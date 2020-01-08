@@ -2335,7 +2335,7 @@ things
 .
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 mAr
 ;

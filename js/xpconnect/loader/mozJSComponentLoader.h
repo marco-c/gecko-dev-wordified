@@ -799,7 +799,7 @@ mozilla
 AutoJSContext
 cx
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

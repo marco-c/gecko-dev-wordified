@@ -1316,7 +1316,7 @@ primitive
 )
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;
@@ -1911,7 +1911,7 @@ are
 not
 callable
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2631,7 +2631,7 @@ enter
 its
 realm
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -3148,7 +3148,7 @@ cx
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

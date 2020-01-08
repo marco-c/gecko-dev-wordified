@@ -7343,7 +7343,7 @@ T
 value
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -7805,7 +7805,7 @@ cx
 scope
 for
 the
-JSAutoRealm
+JSAutoRealmAllowCCW
 so
 that
 we
@@ -7821,7 +7821,7 @@ JS_WrapValue
 .
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;
@@ -8287,7 +8287,7 @@ cx
 scope
 for
 the
-JSAutoRealm
+JSAutoRealmAllowCCW
 so
 that
 we
@@ -8303,7 +8303,7 @@ JS_WrapValue
 .
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;
@@ -15308,7 +15308,7 @@ obj
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -19067,7 +19067,7 @@ return
 false
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -20265,7 +20265,7 @@ return
 false
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

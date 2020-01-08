@@ -3602,7 +3602,7 @@ UncheckedUnwrap
 global
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -4112,7 +4112,7 @@ UncheckedUnwrap
 global
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -4886,7 +4886,7 @@ UncheckedUnwrap
 global
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -10517,7 +10517,7 @@ mCountValue
 )
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 aCx
@@ -14850,7 +14850,7 @@ i
 mGlobal
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

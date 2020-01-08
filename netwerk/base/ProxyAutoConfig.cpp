@@ -4845,7 +4845,7 @@ mContext
 mGlobal
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 mContext
@@ -5123,7 +5123,7 @@ areq
 cx
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -5498,7 +5498,7 @@ areq
 cx
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -5893,7 +5893,7 @@ IsOK
 )
 return
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 mJSContext

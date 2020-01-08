@@ -664,7 +664,7 @@ if
 obj
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

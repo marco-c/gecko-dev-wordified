@@ -30374,7 +30374,7 @@ nonLazyScript
 }
 else
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx_

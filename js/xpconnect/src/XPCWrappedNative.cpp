@@ -1565,7 +1565,7 @@ ends
 up
 there
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2707,7 +2707,7 @@ mozilla
 :
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;

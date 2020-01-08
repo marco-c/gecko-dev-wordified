@@ -448,7 +448,7 @@ global
 s
 realm
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 mRealm
 ;
 /

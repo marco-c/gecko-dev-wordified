@@ -4924,7 +4924,7 @@ nsIVariant
 ;
 #
 endif
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -5820,7 +5820,7 @@ v
 cx
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -6517,7 +6517,7 @@ cx
 (
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

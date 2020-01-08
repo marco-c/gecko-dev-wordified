@@ -6433,7 +6433,7 @@ class
 MOZ_RAII
 JS_PUBLIC_API
 (
-JSAutoRealm
+JSAutoRealmAllowCCW
 )
 {
 JSContext
@@ -6449,7 +6449,7 @@ oldRealm_
 ;
 public
 :
-JSAutoRealm
+JSAutoRealmAllowCCW
 (
 JSContext
 *
@@ -6460,7 +6460,7 @@ target
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 (
 JSContext
 *
@@ -6472,7 +6472,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
-JSAutoRealm
+JSAutoRealmAllowCCW
 (
 )
 ;

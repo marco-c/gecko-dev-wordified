@@ -1852,7 +1852,7 @@ worker
 .
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;

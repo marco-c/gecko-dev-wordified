@@ -839,7 +839,7 @@ scopeObject
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1500,7 +1500,7 @@ the
 bound
 element
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx
@@ -1748,7 +1748,7 @@ v
 cx
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1854,7 +1854,7 @@ toObject
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx

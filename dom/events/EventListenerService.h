@@ -329,7 +329,7 @@ JSContext
 aCx
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 &
 aAr

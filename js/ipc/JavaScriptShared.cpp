@@ -2800,7 +2800,7 @@ compartment
 /
 wrappers
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2819,7 +2819,7 @@ hasXrayWaiver
 )
 {
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx

@@ -1425,7 +1425,7 @@ nsAutoJSString
 fieldName
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1557,7 +1557,7 @@ UncheckedUnwrap
 xblProto
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx
@@ -2544,7 +2544,7 @@ the
 functions
 there
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -2743,7 +2743,7 @@ define
 them
 there
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 aCx
@@ -3397,7 +3397,7 @@ the
 bound
 node
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx

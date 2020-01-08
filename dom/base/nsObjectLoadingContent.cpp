@@ -22086,7 +22086,7 @@ GetCurrentJSContext
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -22957,7 +22957,7 @@ proto
 cx
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

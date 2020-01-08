@@ -4276,7 +4276,7 @@ rs
 impl
 Drop
 for
-JSAutoRealm
+JSAutoRealmAllowCCW
 {
 fn
 drop

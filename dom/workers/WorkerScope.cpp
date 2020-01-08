@@ -4815,7 +4815,7 @@ AssertIsOnWorkerThread
 ;
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;

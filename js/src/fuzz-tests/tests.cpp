@@ -313,7 +313,7 @@ newGlobal
 return
 nullptr
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

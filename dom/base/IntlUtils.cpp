@@ -548,7 +548,7 @@ result
 as
 DisplayNameResult
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -821,7 +821,7 @@ result
 as
 LocaleInfo
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

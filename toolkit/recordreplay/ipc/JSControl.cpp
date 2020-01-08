@@ -1183,7 +1183,7 @@ root
 gReplayDebuggers
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ac
 (
 aCx
@@ -1732,7 +1732,7 @@ MOZ_RELEASE_ASSERT
 breakpoint
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ac
 (
 aCx
@@ -2288,7 +2288,7 @@ toObject
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ac
 (
 cx
@@ -2408,7 +2408,7 @@ disallow
 AutoSafeJSContext
 cx
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ac
 (
 cx
@@ -2603,7 +2603,7 @@ disallow
 AutoSafeJSContext
 cx
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ac
 (
 cx
@@ -2694,7 +2694,7 @@ disallow
 AutoSafeJSContext
 cx
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ac
 (
 cx
@@ -2750,7 +2750,7 @@ disallow
 AutoSafeJSContext
 cx
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ac
 (
 cx
@@ -2813,7 +2813,7 @@ disallow
 AutoSafeJSContext
 cx
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ac
 (
 cx

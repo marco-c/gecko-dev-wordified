@@ -9780,7 +9780,7 @@ obj
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -13653,7 +13653,7 @@ newParent
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 oldAr
 (
 aCx
@@ -13767,7 +13767,7 @@ aObj
 )
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 newAr
 (
 aCx
@@ -21610,7 +21610,7 @@ reflector
 realm
 .
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -23392,7 +23392,7 @@ issues
 /
 3575
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -23630,7 +23630,7 @@ caller
 /
 realm
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -24026,7 +24026,7 @@ the
 caller
 realm
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -24250,7 +24250,7 @@ id
 =
 1317658
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -24436,7 +24436,7 @@ create
 JS
 things
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -24712,7 +24712,7 @@ in
 different
 realm
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -24824,7 +24824,7 @@ be
 created
 in
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -24935,7 +24935,7 @@ aCx
 aReflector
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

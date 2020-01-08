@@ -2272,7 +2272,7 @@ been
 compiled
 above
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2750,7 +2750,7 @@ the
 xbl
 scope
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2862,7 +2862,7 @@ window
 and
 such
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx

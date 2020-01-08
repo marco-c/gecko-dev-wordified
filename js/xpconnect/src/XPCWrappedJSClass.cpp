@@ -2990,7 +2990,7 @@ obj
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -3834,7 +3834,7 @@ See
 bug
 1478359
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aes
@@ -6669,7 +6669,7 @@ See
 bug
 1478359
 .
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

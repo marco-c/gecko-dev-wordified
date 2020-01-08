@@ -3948,7 +3948,7 @@ nsJSObjWrapper
 )
 npobj
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -4202,7 +4202,7 @@ npjsobj
 mJSObj
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -4664,7 +4664,7 @@ npjsobj
 mJSObj
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -4888,7 +4888,7 @@ aes
 npjsobj
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -5116,7 +5116,7 @@ npjsobj
 mJSObj
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -5344,7 +5344,7 @@ npjsobj
 mJSObj
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -5665,7 +5665,7 @@ npjsobj
 mJSObj
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -6584,7 +6584,7 @@ return
 obj
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
