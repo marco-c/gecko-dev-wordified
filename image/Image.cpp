@@ -1311,12 +1311,6 @@ ImgDrawResult
 :
 BAD_ARGS
 :
-case
-ImgDrawResult
-:
-:
-NOT_SUPPORTED
-:
 container
 .
 forget
@@ -1764,12 +1758,6 @@ ImgDrawResult
 :
 :
 BAD_ARGS
-:
-case
-ImgDrawResult
-:
-:
-NOT_SUPPORTED
 :
 container
 .
