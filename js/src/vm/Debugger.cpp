@@ -8588,7 +8588,7 @@ Continue
 ;
 if
 (
-processResumptionValue
+processResumptionValueNoUncaughtExceptionHook
 (
 ar
 frame
@@ -8599,9 +8599,11 @@ resumeMode
 vp
 )
 )
+{
 return
 resumeMode
 ;
+}
 }
 else
 {
@@ -9738,7 +9740,7 @@ bool
 Debugger
 :
 :
-processResumptionValue
+processResumptionValueNoUncaughtExceptionHook
 (
 Maybe
 <
