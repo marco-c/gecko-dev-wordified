@@ -1701,7 +1701,7 @@ cookies
 "
 )
 ;
-todo
+is
 (
 columns
 [
@@ -1709,8 +1709,6 @@ columns
 ]
 .
 value
-=
-=
 "
 "
 "
@@ -1806,7 +1804,7 @@ cookies
 "
 )
 ;
-todo
+is
 (
 columns
 [
@@ -1814,8 +1812,6 @@ columns
 ]
 .
 value
-=
-=
 "
 "
 "
@@ -2137,7 +2133,7 @@ cookies
 "
 )
 ;
-todo
+is
 (
 columns
 [
@@ -2145,8 +2141,6 @@ columns
 ]
 .
 value
-=
-=
 "
 "
 "
