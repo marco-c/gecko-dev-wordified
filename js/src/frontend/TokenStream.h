@@ -13208,6 +13208,8 @@ atEnd
 )
 )
 return
+CodeUnitValue
+(
 this
 -
 >
@@ -13215,6 +13217,7 @@ sourceUnits
 .
 getCodeUnit
 (
+)
 )
 ;
 anyCharsAccess
