@@ -533,7 +533,7 @@ poly
 ;
 }
 fn
-test_trasnformed
+test_transformed
 (
 rect
 :
@@ -766,7 +766,7 @@ vec3
 )
 )
 ;
-test_trasnformed
+test_transformed
 (
 rect
 transform
@@ -857,7 +857,7 @@ m44
 /
 for
 fun
-test_trasnformed
+test_transformed
 (
 rect
 transform
