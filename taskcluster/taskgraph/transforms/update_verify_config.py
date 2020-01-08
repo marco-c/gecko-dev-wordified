@@ -914,17 +914,6 @@ name
 '
 ]
                 
-project
-=
-config
-.
-params
-[
-'
-project
-'
-]
-                
 platform
 =
 task
