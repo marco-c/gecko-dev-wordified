@@ -1543,7 +1543,13 @@ tableswitchExitOffset
 GetSrcNoteOffset
 (
 sn
-0
+SrcNote
+:
+:
+TableSwitch
+:
+:
+EndOffset
 )
 ;
 sn
