@@ -988,6 +988,12 @@ nsGkAtoms
 {
 private
 :
+friend
+void
+NS_InitAtomTable
+(
+)
+;
 /
 /
 This
@@ -1054,12 +1060,6 @@ AtomsCount
 ;
 public
 :
-static
-void
-RegisterStaticAtoms
-(
-)
-;
 static
 nsStaticAtom
 *
