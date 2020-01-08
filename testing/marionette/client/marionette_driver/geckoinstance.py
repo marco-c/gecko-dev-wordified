@@ -4126,13 +4126,11 @@ False
 Do
 not
 warn
-on
-exit
 when
-multiple
-tabs
-are
+closing
+all
 open
+tabs
         
 "
 browser
