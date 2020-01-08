@@ -2246,6 +2246,13 @@ Shutdown
 (
 )
 ;
+nsresult
+SessionError
+(
+enum
+errorType
+)
+;
 /
 /
 This
