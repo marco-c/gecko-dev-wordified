@@ -91,6 +91,12 @@ media
 -
 condition
 use
+context
+:
+:
+QuirksMode
+;
+use
 cssparser
 :
 :
@@ -98,12 +104,6 @@ cssparser
 Parser
 Token
 }
-;
-use
-context
-:
-:
-QuirksMode
 ;
 use
 parser
@@ -162,8 +162,8 @@ Copy
 Debug
 Eq
 MallocSizeOf
-PartialEq
 Parse
+PartialEq
 ToCss
 )
 ]
@@ -205,7 +205,6 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
-Parse
 ToCss
 )
 ]

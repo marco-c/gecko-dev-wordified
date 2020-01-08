@@ -1095,11 +1095,6 @@ org
 /
 multipage
 /
-semantics
--
-other
-.
-html
 #
 selector
 -
