@@ -6882,7 +6882,7 @@ DOMParser
 *
 *
 return
-nsIDOMDocument
+Document
 from
 the
 file

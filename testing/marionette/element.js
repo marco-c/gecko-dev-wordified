@@ -2374,10 +2374,13 @@ AnonAttribute
 if
 (
 rootNode
-instanceof
-Ci
 .
-nsIDOMDocument
+nodeType
+=
+=
+rootNode
+.
+DOCUMENT_NODE
 )
 {
 startNode

@@ -7198,8 +7198,13 @@ DOMNode
 if
 (
 targetNode
-instanceof
-nsIDOMDocument
+.
+nodeType
+=
+=
+targetNode
+.
+DOCUMENT_NODE
 )
 {
 targetNode

@@ -138,13 +138,6 @@ I
 nsIInputStream
 ;
 const
-nsIDOMDocument
-=
-I
-.
-nsIDOMDocument
-;
-const
 nsIDOMNode
 =
 I
