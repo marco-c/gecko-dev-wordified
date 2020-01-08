@@ -4851,7 +4851,7 @@ global
 objectFromIncumbentGlobal
 -
 >
-global
+nonCCWGlobal
 (
 )
 ;
@@ -6707,7 +6707,7 @@ cx
 realReason
 -
 >
-global
+nonCCWGlobal
 (
 )
 )

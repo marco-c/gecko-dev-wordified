@@ -1072,6 +1072,7 @@ Wrapper
 *
 wrapperHandler
 (
+const
 JSObject
 *
 wrapper
@@ -2523,6 +2524,7 @@ inline
 bool
 IsWrapper
 (
+const
 JSObject
 *
 obj

@@ -9228,7 +9228,7 @@ return
 obj
 -
 >
-global
+nonCCWGlobal
 (
 )
 ;

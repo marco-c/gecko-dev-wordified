@@ -2926,6 +2926,7 @@ js
 :
 IsCrossCompartmentWrapper
 (
+const
 JSObject
 *
 obj

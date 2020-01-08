@@ -15660,7 +15660,7 @@ v
 obj
 -
 >
-global
+nonCCWGlobal
 (
 )
 .
@@ -15961,6 +15961,13 @@ global
 obj
 -
 >
+as
+<
+JSFunction
+>
+(
+)
+.
 global
 (
 )

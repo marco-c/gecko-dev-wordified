@@ -33053,7 +33053,7 @@ ToWindowProxyIfWindow
 obj
 -
 >
-global
+nonCCWGlobal
 (
 )
 )
