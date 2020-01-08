@@ -1314,10 +1314,6 @@ initPageCaptivePortal
 (
 )
 ;
-updateContainerPosition
-(
-)
-;
 return
 ;
 }
@@ -2281,10 +2277,6 @@ hostname
 ;
 }
 }
-updateContainerPosition
-(
-)
-;
 }
 function
 updateContainerPosition
