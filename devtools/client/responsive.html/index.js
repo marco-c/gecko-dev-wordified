@@ -1000,7 +1000,12 @@ window
 .
 addInitialViewport
 =
-contentURI
+(
+{
+uri
+userContextId
+}
+)
 =
 >
 {
@@ -1016,7 +1021,7 @@ dispatch
 (
 changeLocation
 (
-contentURI
+uri
 )
 )
 ;
@@ -1038,6 +1043,7 @@ dispatch
 (
 addViewport
 (
+userContextId
 )
 )
 ;
