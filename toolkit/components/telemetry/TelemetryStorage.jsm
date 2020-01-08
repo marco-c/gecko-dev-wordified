@@ -6065,8 +6065,7 @@ directory
 is
 older
 than
-180
-days
+allowed
 remove
 it
 .
@@ -7328,8 +7327,7 @@ Remove
 pings
 older
 than
-180
-days
+allowed
 .
 try
 {
