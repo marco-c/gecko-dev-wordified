@@ -134,6 +134,9 @@ require
 .
 .
 /
+.
+.
+/
 actions
 /
 index
