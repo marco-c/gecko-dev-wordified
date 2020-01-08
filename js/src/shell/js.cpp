@@ -6957,8 +6957,9 @@ endif
 /
 ENABLE_INTL_API
 static
+MOZ_MUST_USE
 bool
-EvalAndPrint
+EvalUtf8AndPrint
 (
 JSContext
 *
@@ -7029,7 +7030,7 @@ if
 JS
 :
 :
-Compile
+CompileUtf8
 (
 cx
 options
@@ -7451,7 +7452,7 @@ break
 while
 (
 !
-JS_BufferIsCompilableUnit
+JS_Utf8BufferIsCompilableUnit
 (
 cx
 cx
@@ -7503,10 +7504,13 @@ are
 cx
 )
 ;
-(
-void
-)
-EvalAndPrint
+mozilla
+:
+:
+Unused
+<
+<
+EvalUtf8AndPrint
 (
 cx
 buffer

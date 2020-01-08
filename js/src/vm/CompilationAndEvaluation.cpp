@@ -1278,7 +1278,7 @@ JS_PUBLIC_API
 (
 bool
 )
-JS_BufferIsCompilableUnit
+JS_Utf8BufferIsCompilableUnit
 (
 JSContext
 *

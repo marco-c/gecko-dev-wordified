@@ -1995,7 +1995,7 @@ lineno
 while
 (
 !
-JS_BufferIsCompilableUnit
+JS_Utf8BufferIsCompilableUnit
 (
 cx
 global
@@ -2042,6 +2042,13 @@ setFileAndLine
 typein
 "
 startline
+)
+;
+options
+.
+setUTF8
+(
+true
 )
 ;
 JS
