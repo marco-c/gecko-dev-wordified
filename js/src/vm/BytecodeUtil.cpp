@@ -13708,7 +13708,7 @@ hasScript
 |
 frameIter
 .
-compartment
+realm
 (
 )
 !
@@ -13716,7 +13716,7 @@ compartment
 cx
 -
 >
-compartment
+realm
 (
 )
 )
@@ -14216,7 +14216,7 @@ selfHosted
 |
 frameIter
 .
-compartment
+realm
 (
 )
 !
@@ -14224,7 +14224,7 @@ compartment
 cx
 -
 >
-compartment
+realm
 (
 )
 )
