@@ -166,14 +166,7 @@ playback_settings
 playback_binary_manifest
 '
 '
-playback_binary_zip_mac
-'
-                     
-'
 playback_pageset_manifest
-'
-'
-playback_pageset_zip_mac
 '
                      
 '

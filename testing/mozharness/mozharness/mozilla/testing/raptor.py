@@ -3429,7 +3429,10 @@ self
 .
 info
 (
+str
+(
 e
+)
 )
     
 def
@@ -3596,7 +3599,10 @@ self
 .
 info
 (
+str
+(
 e
+)
 )
     
 def

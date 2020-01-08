@@ -1270,13 +1270,6 @@ pageset
 for
 all
 platforms
-(
-pageset
-was
-recorded
-on
-win10
-)
         
 LOG
 .

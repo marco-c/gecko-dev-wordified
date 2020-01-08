@@ -681,12 +681,17 @@ resultType
 var
 _result
 =
+Math
+.
+round
+(
 perfResult
 [
 0
 ]
 .
 duration
+)
 ;
 var
 resultType
