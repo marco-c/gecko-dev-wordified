@@ -2982,7 +2982,13 @@ valid
 bool
 CheckFormValidity
 (
-nsIMutableArray
+nsTArray
+<
+RefPtr
+<
+Element
+>
+>
 *
 aInvalidElements
 )
