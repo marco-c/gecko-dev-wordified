@@ -14,6 +14,15 @@ EDIT
 [
 cfg_attr
 (
+rustfmt
+rustfmt_skip
+)
+]
+#
+!
+[
+cfg_attr
+(
 feature
 =
 "
@@ -27,6 +36,40 @@ match_same_arms
 )
 )
 ]
+use
+*
+;
+#
+[
+cfg
+(
+any
+(
+feature
+=
+"
+full
+"
+feature
+=
+"
+derive
+"
+)
+)
+]
+use
+punctuated
+:
+:
+Punctuated
+;
+use
+proc_macro2
+:
+:
+Span
+;
 #
 [
 cfg
@@ -58,40 +101,6 @@ visit
 :
 *
 ;
-use
-proc_macro2
-:
-:
-Span
-;
-#
-[
-cfg
-(
-any
-(
-feature
-=
-"
-full
-"
-feature
-=
-"
-derive
-"
-)
-)
-]
-use
-punctuated
-:
-:
-Punctuated
-;
-use
-*
-;
 #
 [
 cfg
@@ -117,7 +126,6 @@ expr
 {
 e
 }
-;
 }
 #
 [
@@ -158,7 +166,6 @@ unreachable
 (
 )
 }
-;
 }
 /
 /
@@ -1580,6 +1587,17 @@ self
 i
 )
 }
+#
+[
+cfg
+(
+feature
+=
+"
+full
+"
+)
+]
 #
 [
 cfg
@@ -7920,6 +7938,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 extern_token
@@ -8028,6 +8047,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 lt_token
@@ -8066,11 +8086,13 @@ visit_generic_argument
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 gt_token
@@ -8137,6 +8159,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon_token
@@ -8227,6 +8250,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 self_token
@@ -8283,6 +8307,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 and_token
@@ -8340,6 +8365,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 self_token
@@ -8425,6 +8451,7 @@ visit_attribute
 it
 )
 }
+;
 if
 let
 Some
@@ -8479,6 +8506,7 @@ visit_pat
 it
 )
 }
+;
 if
 let
 Some
@@ -8496,6 +8524,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -8526,6 +8555,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 fat_arrow_token
@@ -8712,6 +8742,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 pound_token
@@ -8735,6 +8766,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 bracket_token
@@ -8849,6 +8881,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -9735,6 +9768,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 eq_token
@@ -9820,6 +9854,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -9843,6 +9878,7 @@ visit_stmt
 it
 )
 }
+;
 }
 #
 [
@@ -9899,6 +9935,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 for_token
@@ -9912,6 +9949,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 lt_token
@@ -9950,11 +9988,13 @@ visit_lifetime_def
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 gt_token
@@ -10029,11 +10069,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 const_token
@@ -10057,6 +10099,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon_token
@@ -10272,6 +10315,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 enum_token
@@ -10285,6 +10329,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -10323,6 +10368,7 @@ visit_variant
 it
 )
 }
+;
 }
 #
 [
@@ -10371,6 +10417,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 struct_token
@@ -10461,6 +10508,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 union_token
@@ -10537,6 +10585,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -11152,11 +11201,15 @@ _binding_0
 =
 >
 {
+full
+!
+(
 _visitor
 .
 visit_expr_field
 (
 _binding_0
+)
 )
 ;
 }
@@ -11590,11 +11643,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 bracket_token
@@ -11633,6 +11688,7 @@ visit_expr
 it
 )
 }
+;
 }
 #
 [
@@ -11710,6 +11766,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_expr
@@ -11726,6 +11783,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 eq_token
@@ -11822,6 +11880,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_expr
@@ -11920,6 +11979,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_expr
@@ -12029,6 +12089,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_block
@@ -12116,11 +12177,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 box_token
@@ -12217,11 +12280,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 break_token
@@ -12339,6 +12404,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_expr
@@ -12355,6 +12421,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -12393,6 +12460,7 @@ visit_expr
 it
 )
 }
+;
 }
 #
 [
@@ -12459,6 +12527,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_expr
@@ -12475,6 +12544,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 as_token
@@ -12571,11 +12641,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 do_token
@@ -12589,6 +12661,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 catch_token
@@ -12684,6 +12757,7 @@ visit_attribute
 it
 )
 }
+;
 if
 let
 Some
@@ -12737,6 +12811,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 or1_token
@@ -12775,11 +12850,13 @@ visit_fn_arg
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 or2_token
@@ -12886,11 +12963,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 continue_token
@@ -12920,6 +12999,17 @@ it
 }
 ;
 }
+#
+[
+cfg
+(
+feature
+=
+"
+full
+"
+)
+]
 #
 [
 cfg
@@ -12985,6 +13075,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_expr
@@ -13001,6 +13092,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 dot_token
@@ -13096,6 +13188,7 @@ visit_attribute
 it
 )
 }
+;
 if
 let
 Some
@@ -13121,6 +13214,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 for_token
@@ -13145,6 +13239,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 in_token
@@ -13251,11 +13346,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 group_token
@@ -13352,11 +13449,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 if_token
@@ -13403,6 +13502,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -13505,11 +13605,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 if_token
@@ -13523,6 +13625,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 let_token
@@ -13561,11 +13664,13 @@ visit_pat
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 eq_token
@@ -13612,6 +13717,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -13714,6 +13820,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_expr
@@ -13730,6 +13837,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 arrow_token
@@ -13815,6 +13923,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_expr
@@ -13831,6 +13940,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 bracket_token
@@ -13916,6 +14026,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_lit
@@ -14003,6 +14114,7 @@ visit_attribute
 it
 )
 }
+;
 if
 let
 Some
@@ -14028,6 +14140,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 loop_token
@@ -14123,6 +14236,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_macro
@@ -14210,11 +14324,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 match_token
@@ -14239,6 +14355,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -14262,6 +14379,7 @@ visit_arm
 it
 )
 }
+;
 }
 #
 [
@@ -14339,6 +14457,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_expr
@@ -14355,6 +14474,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 dot_token
@@ -14398,6 +14518,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -14436,6 +14557,7 @@ visit_expr
 it
 )
 }
+;
 }
 #
 [
@@ -14502,11 +14624,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -14592,6 +14716,7 @@ visit_attribute
 it
 )
 }
+;
 if
 let
 Some
@@ -14699,6 +14824,7 @@ visit_attribute
 it
 )
 }
+;
 if
 let
 Some
@@ -14832,11 +14958,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 and_token
@@ -14957,11 +15085,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 bracket_token
@@ -14986,6 +15116,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -15082,11 +15213,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 return_token
@@ -15195,6 +15328,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_path
@@ -15210,6 +15344,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -15248,6 +15383,7 @@ visit_field_value
 it
 )
 }
+;
 if
 let
 Some
@@ -15372,6 +15508,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_expr
@@ -15388,6 +15525,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 question_token
@@ -15473,11 +15611,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -15516,6 +15656,7 @@ visit_expr
 it
 )
 }
+;
 }
 #
 [
@@ -15593,6 +15734,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_expr
@@ -15609,6 +15751,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon_token
@@ -15694,6 +15837,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_un_op
@@ -15792,11 +15936,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 unsafe_token
@@ -15951,6 +16097,7 @@ visit_attribute
 it
 )
 }
+;
 if
 let
 Some
@@ -15976,6 +16123,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 while_token
@@ -16082,6 +16230,7 @@ visit_attribute
 it
 )
 }
+;
 if
 let
 Some
@@ -16107,6 +16256,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 while_token
@@ -16120,6 +16270,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 let_token
@@ -16158,11 +16309,13 @@ visit_pat
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 eq_token
@@ -16269,11 +16422,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 yield_token
@@ -16371,6 +16526,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -16512,6 +16668,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_member
@@ -16634,6 +16791,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_member
@@ -16836,6 +16994,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -16874,6 +17033,7 @@ visit_field
 it
 )
 }
+;
 }
 #
 [
@@ -16930,6 +17090,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -16968,6 +17129,7 @@ visit_field
 it
 )
 }
+;
 }
 #
 [
@@ -17034,6 +17196,7 @@ visit_attribute
 it
 )
 }
+;
 for
 it
 in
@@ -17049,6 +17212,7 @@ visit_item
 it
 )
 }
+;
 }
 #
 [
@@ -17240,6 +17404,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 fn_token
@@ -17263,6 +17428,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -17301,6 +17467,7 @@ visit_fn_arg
 it
 )
 }
+;
 if
 let
 Some
@@ -17517,6 +17684,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -17553,6 +17721,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -17619,6 +17788,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -17634,6 +17804,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 static_token
@@ -17681,6 +17852,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon_token
@@ -17705,6 +17877,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -17771,6 +17944,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -17786,6 +17960,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 type_token
@@ -17809,6 +17984,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -18323,6 +18499,7 @@ visit_generic_param
 it
 )
 }
+;
 if
 let
 Some
@@ -18600,6 +18777,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -18639,6 +18817,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 const_token
@@ -18662,6 +18841,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon_token
@@ -18685,6 +18865,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 eq_token
@@ -18708,6 +18889,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -18774,6 +18956,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_macro
@@ -18866,6 +19049,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -18978,6 +19162,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -19017,6 +19202,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 type_token
@@ -19050,6 +19236,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 eq_token
@@ -19073,6 +19260,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -19611,6 +19799,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -19626,6 +19815,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 const_token
@@ -19649,6 +19839,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon_token
@@ -19673,6 +19864,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 eq_token
@@ -19697,6 +19889,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -19763,6 +19956,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -19778,6 +19972,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 enum_token
@@ -19811,6 +20006,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -19849,6 +20045,7 @@ visit_variant
 it
 )
 }
+;
 }
 #
 [
@@ -19907,6 +20104,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -19922,6 +20120,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 extern_token
@@ -19935,6 +20134,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 crate_token
@@ -19970,6 +20170,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -19999,6 +20200,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -20065,6 +20267,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -20233,6 +20436,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_abi
@@ -20248,6 +20452,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -20271,6 +20476,7 @@ visit_foreign_item
 it
 )
 }
+;
 }
 #
 [
@@ -20329,6 +20535,7 @@ visit_attribute
 it
 )
 }
+;
 if
 let
 Some
@@ -20382,6 +20589,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 impl_token
@@ -20455,6 +20663,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -20483,6 +20692,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -20506,6 +20716,7 @@ visit_impl_item
 it
 )
 }
+;
 }
 #
 [
@@ -20564,6 +20775,7 @@ visit_attribute
 it
 )
 }
+;
 if
 let
 Some
@@ -20676,6 +20888,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -20691,6 +20904,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 macro_token
@@ -20714,6 +20928,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -20735,6 +20950,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -20809,6 +21025,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -20824,6 +21041,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 mod_token
@@ -20859,6 +21077,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -20886,6 +21105,7 @@ visit_item
 it
 )
 }
+;
 }
 ;
 if
@@ -20970,6 +21190,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -20985,6 +21206,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 static_token
@@ -21032,6 +21254,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon_token
@@ -21056,6 +21279,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 eq_token
@@ -21080,6 +21304,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -21146,6 +21371,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -21161,6 +21387,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 struct_token
@@ -21281,6 +21508,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -21344,6 +21572,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 trait_token
@@ -21426,11 +21655,13 @@ visit_type_param_bound
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -21454,6 +21685,7 @@ visit_trait_item
 it
 )
 }
+;
 }
 #
 [
@@ -21512,6 +21744,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -21527,6 +21760,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 type_token
@@ -21560,6 +21794,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 eq_token
@@ -21584,6 +21819,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -21650,6 +21886,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -21665,6 +21902,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 union_token
@@ -21761,6 +21999,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_visibility
@@ -21776,6 +22015,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 use_token
@@ -21823,6 +22063,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -21959,6 +22200,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon_token
@@ -22102,6 +22344,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_lifetime
@@ -22166,6 +22409,7 @@ visit_lifetime
 it
 )
 }
+;
 }
 #
 [
@@ -22933,11 +23177,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 let_token
@@ -22976,6 +23222,7 @@ visit_pat
 it
 )
 }
+;
 if
 let
 Some
@@ -22993,6 +23240,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -23035,6 +23283,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -23065,6 +23314,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -23139,6 +23389,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 bang_token
@@ -23563,6 +23814,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -23601,6 +23853,7 @@ visit_nested_meta
 it
 )
 }
+;
 }
 #
 [
@@ -23667,6 +23920,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 eq_token
@@ -23883,6 +24137,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon2_token
@@ -23896,6 +24151,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 lt_token
@@ -23934,11 +24190,13 @@ visit_generic_method_argument
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 gt_token
@@ -24097,6 +24355,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -24135,6 +24394,7 @@ visit_type
 it
 )
 }
+;
 _visitor
 .
 visit_return_type
@@ -24526,6 +24786,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 box_token
@@ -24682,6 +24943,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -25105,6 +25367,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 and_token
@@ -25215,6 +25478,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 bracket_token
@@ -25253,6 +25517,7 @@ visit_pat
 it
 )
 }
+;
 if
 let
 Some
@@ -25354,6 +25619,7 @@ visit_pat
 it
 )
 }
+;
 }
 #
 [
@@ -25431,6 +25697,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -25469,6 +25736,7 @@ visit_field_pat
 it
 )
 }
+;
 if
 let
 Some
@@ -25560,6 +25828,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -25598,6 +25867,7 @@ visit_pat
 it
 )
 }
+;
 if
 let
 Some
@@ -25676,6 +25946,7 @@ visit_pat
 it
 )
 }
+;
 }
 #
 [
@@ -25895,6 +26166,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 underscore_token
@@ -26008,6 +26280,7 @@ visit_path_segment
 it
 )
 }
+;
 }
 #
 [
@@ -26247,6 +26520,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 eq_token
@@ -26380,6 +26654,7 @@ visit_lifetime
 it
 )
 }
+;
 }
 #
 [
@@ -26466,6 +26741,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon_token
@@ -26504,6 +26780,7 @@ visit_type_param_bound
 it
 )
 }
+;
 }
 #
 [
@@ -26560,6 +26837,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 lt_token
@@ -26616,6 +26894,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 gt_token
@@ -27427,11 +27706,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 const_token
@@ -27455,6 +27736,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon_token
@@ -27490,6 +27772,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -27519,6 +27802,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -27585,6 +27869,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_macro
@@ -27677,6 +27962,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_method_sig
@@ -27789,11 +28075,13 @@ visit_attribute
 it
 )
 }
+;
 tokens_helper
 (
 _visitor
 &
 (
+&
 _i
 .
 type_token
@@ -27876,6 +28164,7 @@ visit_type_param_bound
 it
 )
 }
+;
 if
 let
 Some
@@ -27893,6 +28182,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -27922,6 +28212,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -28378,6 +28669,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 bracket_token
@@ -28402,6 +28694,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 semi_token
@@ -28520,6 +28813,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 fn_token
@@ -28553,6 +28847,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -28591,6 +28886,7 @@ visit_bare_fn_arg
 it
 )
 }
+;
 if
 let
 Some
@@ -28681,6 +28977,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 group_token
@@ -28756,6 +29053,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 impl_token
@@ -28794,6 +29092,7 @@ visit_type_param_bound
 it
 )
 }
+;
 }
 #
 [
@@ -28850,6 +29149,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 underscore_token
@@ -28975,6 +29275,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 bang_token
@@ -29049,6 +29350,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_ident
@@ -29113,6 +29415,7 @@ visit_type_param_bound
 it
 )
 }
+;
 if
 let
 Some
@@ -29307,6 +29610,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -29463,6 +29767,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 star_token
@@ -29586,6 +29891,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 and_token
@@ -29705,6 +30011,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 bracket_token
@@ -29829,6 +30136,7 @@ visit_type_param_bound
 it
 )
 }
+;
 }
 #
 [
@@ -29885,6 +30193,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -29923,6 +30232,7 @@ visit_type
 it
 )
 }
+;
 }
 #
 [
@@ -30155,6 +30465,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 star_token
@@ -30211,6 +30522,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 brace_token
@@ -30249,6 +30561,7 @@ visit_use_tree
 it
 )
 }
+;
 }
 #
 [
@@ -30360,6 +30673,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 colon2_token
@@ -30437,6 +30751,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 as_token
@@ -30664,6 +30979,7 @@ visit_attribute
 it
 )
 }
+;
 _visitor
 .
 visit_ident
@@ -30701,6 +31017,7 @@ tokens_helper
 _visitor
 &
 (
+&
 (
 it
 )
@@ -30781,6 +31098,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 crate_token
@@ -30845,6 +31163,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 pub_token
@@ -30909,6 +31228,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 pub_token
@@ -30922,6 +31242,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 paren_token
@@ -31142,6 +31463,7 @@ tokens_helper
 _visitor
 &
 (
+&
 _i
 .
 where_token
@@ -31180,6 +31502,7 @@ visit_where_predicate
 it
 )
 }
+;
 }
 #
 [
