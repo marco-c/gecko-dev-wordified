@@ -215,6 +215,10 @@ device_ready_retry_wait
 device_ready_retry_attempts
 =
 3
+                 
+require_root
+=
+True
 )
 :
         
@@ -599,6 +603,20 @@ ready
 .
         
 :
+param
+bool
+require_root
+:
+check
+that
+we
+have
+root
+permissions
+on
+device
+        
+:
 raises
 :
 *
@@ -655,6 +673,10 @@ device_ready_retry_wait
 device_ready_retry_attempts
 =
 device_ready_retry_attempts
+                           
+require_root
+=
+require_root
 )
         
 #
@@ -705,16 +727,17 @@ Enforcing
 or
 Permissive
         
-try
-:
-            
 self
 .
 selinux
 =
-True
+False
+        
+try
+:
             
-if
+enforce
+=
 self
 .
 shell_output
@@ -726,11 +749,33 @@ timeout
 =
 timeout
 )
-!
+            
+self
+.
+selinux
+=
+(
+enforce
+=
 =
 '
-Permissive
+enforcing
 '
+or
+enforce
+=
+=
+'
+1
+'
+)
+            
+if
+self
+.
+_require_root
+and
+enforce
 :
                 
 self
@@ -762,6 +807,12 @@ root
 =
 True
 )
+                
+self
+.
+selinux
+=
+True
         
 except
 (
@@ -793,12 +844,6 @@ s
 %
 e
 )
-            
-self
-.
-selinux
-=
-False
         
 self
 .
@@ -2111,8 +2156,14 @@ if
 (
 self
 .
+_require_root
+and
+                        
+self
+.
 selinux
 and
+                        
 self
 .
 shell_output
@@ -2120,7 +2171,6 @@ shell_output
 '
 getenforce
 '
-                                                           
 timeout
 =
 timeout
