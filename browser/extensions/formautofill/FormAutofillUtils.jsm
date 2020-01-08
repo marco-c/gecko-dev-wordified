@@ -202,10 +202,7 @@ cardNumber
 nameOnCard
 "
 "
-cardExpiresMonth
-"
-"
-cardExpiresYear
+cardExpires
 "
 ]
 ;
