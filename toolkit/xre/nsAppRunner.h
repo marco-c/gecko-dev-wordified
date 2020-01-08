@@ -247,6 +247,10 @@ gRestartArgv
 ;
 extern
 bool
+gRestartedByOS
+;
+extern
+bool
 gLogConsoleErrors
 ;
 extern
