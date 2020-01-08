@@ -8468,13 +8468,6 @@ aStatus
 {
 if
 (
-*
-aStatus
-=
-=
-nsEventStatus_eConsumeNoDefault
-|
-|
 !
 aEvent
 -
