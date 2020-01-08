@@ -747,6 +747,11 @@ getAddressLabel
 PaymentDialogUtils
 .
 getAddressLabel
+getSupportedNetworks
+:
+PaymentDialogUtils
+.
+getCreditCardNetworks
 }
 )
 ;
