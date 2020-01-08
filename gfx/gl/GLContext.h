@@ -16864,6 +16864,14 @@ const
 uint8_t
 mDebugFlags
 ;
+static
+uint8_t
+ChooseDebugFlags
+(
+CreateContextFlags
+createFlags
+)
+;
 protected
 :
 RefPtr
