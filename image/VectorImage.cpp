@@ -475,7 +475,7 @@ Element
 *
 elem
 =
-GetTarget
+GetReferencedElementWithoutObserving
 (
 )
 ;
@@ -531,10 +531,9 @@ StopObserving
 )
 ;
 }
-virtual
 Element
 *
-GetTarget
+GetReferencedElementWithoutObserving
 (
 )
 override
@@ -559,7 +558,7 @@ Element
 *
 elem
 =
-GetTarget
+GetReferencedElementWithoutObserving
 (
 )
 ;
