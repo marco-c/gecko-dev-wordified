@@ -3524,6 +3524,15 @@ bool
 false
 )
 ;
+SCOPED_GFX_PREF
+(
+APZFlingMinVelocityThreshold
+float
+0
+.
+0f
+)
+;
 CreateScrollHandoffLayerTree1
 (
 )
