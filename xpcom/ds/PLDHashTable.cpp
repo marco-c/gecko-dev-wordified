@@ -3312,6 +3312,11 @@ Get
 PLDHashNumber
 keyHash
 =
+mozilla
+:
+:
+ScrambleHashCode
+(
 mOps
 -
 >
@@ -3319,11 +3324,7 @@ hashKey
 (
 aKey
 )
-;
-keyHash
-*
-=
-kGoldenRatio
+)
 ;
 /
 /

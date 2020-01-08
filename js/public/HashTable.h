@@ -9778,6 +9778,9 @@ l
 HashNumber
 keyHash
 =
+mozilla
+:
+:
 ScrambleHashCode
 (
 HashPolicy

@@ -4526,6 +4526,9 @@ l
 const
 {
 return
+mozilla
+:
+:
 ScrambleHashCode
 (
 Ops
