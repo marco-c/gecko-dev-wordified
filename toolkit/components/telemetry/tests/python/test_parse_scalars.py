@@ -144,7 +144,7 @@ dictionary
 return
 yaml
 .
-load
+safe_load
 (
 scalar
 )
