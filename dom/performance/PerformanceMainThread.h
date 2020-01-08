@@ -141,6 +141,9 @@ namespace
 dom
 {
 class
+PerformanceNavigationTiming
+;
+class
 PerformanceMainThread
 final
 :
@@ -431,7 +434,7 @@ override
 ;
 RefPtr
 <
-PerformanceEntry
+PerformanceNavigationTiming
 >
 mDocEntry
 ;

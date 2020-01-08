@@ -452,6 +452,17 @@ RedirectCount
 )
 const
 ;
+void
+UpdatePropertiesFromHttpChannel
+(
+nsIHttpChannel
+*
+aHttpChannel
+nsITimedChannel
+*
+aChannel
+)
+;
 private
 :
 ~
