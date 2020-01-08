@@ -110,6 +110,23 @@ fill
 currentColor
 ;
 }
+.
+search
+-
+one
+-
+offs
+{
+-
+moz
+-
+box
+-
+orient
+:
+vertical
+;
+}
 /
 *
 *
@@ -916,8 +933,6 @@ important
 .
 search
 -
-panel
--
 one
 -
 offs
@@ -930,7 +945,6 @@ compact
 true
 ]
 )
->
 .
 searchbar
 -
@@ -950,8 +964,6 @@ row
 .
 search
 -
-panel
--
 one
 -
 offs
@@ -960,7 +972,6 @@ compact
 =
 true
 ]
->
 .
 searchbar
 -
@@ -986,8 +997,6 @@ dummy
 .
 search
 -
-panel
--
 one
 -
 offs
@@ -996,7 +1005,6 @@ compact
 =
 true
 ]
->
 .
 searchbar
 -
@@ -1022,8 +1030,6 @@ row
 .
 search
 -
-panel
--
 one
 -
 offs
@@ -1032,7 +1038,6 @@ compact
 =
 true
 ]
->
 .
 searchbar
 -
