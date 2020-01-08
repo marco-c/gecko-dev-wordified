@@ -3866,6 +3866,13 @@ uint32_t
 len
 )
 ;
+RawGeckoURLExtraDataBorrowedMut
+Servo_CssUrlData_GetExtraData
+(
+RawServoCssUrlDataBorrowed
+url
+)
+;
 /
 /
 CSS

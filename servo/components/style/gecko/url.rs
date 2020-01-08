@@ -910,17 +910,6 @@ clone
 into_strong
 (
 )
-url
-.
-0
-.
-extra_data
-.
-0
-.
-get
-(
-)
 cors
 )
 ;

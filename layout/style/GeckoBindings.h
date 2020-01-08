@@ -713,9 +713,6 @@ LoaderReusableStyleSheets
 reusable_sheets
 RawServoCssUrlDataStrong
 url
-RawGeckoURLExtraData
-*
-url_extra_data
 RawServoMediaListStrong
 media_list
 )
@@ -734,9 +731,6 @@ SheetLoadDataHolder
 parent_data
 RawServoCssUrlDataStrong
 url
-RawGeckoURLExtraData
-*
-url_extra_data
 RawServoMediaListStrong
 media_list
 RawServoImportRuleStrong
@@ -3281,9 +3275,6 @@ Gecko_URLValue_Create
 (
 RawServoCssUrlDataStrong
 url
-RawGeckoURLExtraData
-*
-extra_data
 mozilla
 :
 :
