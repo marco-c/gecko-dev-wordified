@@ -8449,6 +8449,11 @@ remoteDebuggingEnabled
 (
 true
 )
+.
+consoleOutput
+(
+true
+)
 ;
 if
 (
