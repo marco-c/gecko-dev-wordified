@@ -381,7 +381,7 @@ compartment
 1
 .
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

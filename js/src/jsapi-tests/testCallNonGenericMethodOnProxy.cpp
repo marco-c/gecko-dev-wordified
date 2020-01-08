@@ -415,7 +415,7 @@ and
 enter
 it
 .
-JSAutoRealmAllowCCW
+JSAutoRealm
 enter
 (
 cx

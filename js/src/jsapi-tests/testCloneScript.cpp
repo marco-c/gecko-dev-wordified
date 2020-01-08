@@ -254,7 +254,7 @@ compile
 for
 A
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 a
 (
 cx
@@ -338,7 +338,7 @@ clone
 into
 B
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 b
 (
 cx
@@ -612,7 +612,7 @@ Compile
 in
 A
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 a
 (
 cx
@@ -730,7 +730,7 @@ Clone
 into
 B
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 b
 (
 cx

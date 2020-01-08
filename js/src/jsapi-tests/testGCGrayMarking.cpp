@@ -322,7 +322,7 @@ InitGlobals
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -3736,7 +3736,7 @@ cx
 target
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
