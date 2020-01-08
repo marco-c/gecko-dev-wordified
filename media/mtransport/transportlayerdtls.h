@@ -873,6 +873,11 @@ State
 endState
 )
 ;
+void
+RecordCipherTelemetry
+(
+)
+;
 RefPtr
 <
 DtlsIdentity
