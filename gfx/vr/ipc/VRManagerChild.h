@@ -508,6 +508,13 @@ RunFrameRequestCallbacks
 )
 ;
 void
+NotifyPresentationGenerationChanged
+(
+uint32_t
+aDisplayID
+)
+;
+void
 UpdateDisplayInfo
 (
 nsTArray
@@ -823,6 +830,13 @@ dom
 VREventObserver
 *
 aObserver
+)
+;
+void
+NotifyPresentationGenerationChangedInternal
+(
+uint32_t
+aDisplayID
 )
 ;
 nsTArray
