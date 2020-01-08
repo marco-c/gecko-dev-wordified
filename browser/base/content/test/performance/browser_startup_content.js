@@ -429,7 +429,7 @@ resource
 /
 modules
 /
-ContentLinkHandler
+ContentMetaHandler
 .
 jsm
 "
@@ -441,7 +441,7 @@ resource
 /
 modules
 /
-ContentMetaHandler
+LinkHandlerChild
 .
 jsm
 "
