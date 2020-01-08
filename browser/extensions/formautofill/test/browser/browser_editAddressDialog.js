@@ -2640,6 +2640,14 @@ of
 mutatableLabels
 )
 {
+if
+(
+!
+labelEl
+.
+textContent
+)
+{
 await
 TestUtils
 .
@@ -2664,8 +2672,10 @@ the
 mutation
 observer
 "
+10
 )
 ;
+}
 isnot
 (
 labelEl
