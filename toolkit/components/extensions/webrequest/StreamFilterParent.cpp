@@ -1014,6 +1014,12 @@ aContentParent
 ;
 RefPtr
 <
+mozilla
+:
+:
+net
+:
+:
 nsHttpChannel
 >
 chan
@@ -4689,6 +4695,9 @@ ActorThread
 )
 {
 return
+net
+:
+:
 gSocketTransportService
 ;
 }

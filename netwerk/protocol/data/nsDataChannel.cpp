@@ -617,6 +617,9 @@ getter_AddRefs
 (
 bufOutStream
 )
+net
+:
+:
 nsIOService
 :
 :

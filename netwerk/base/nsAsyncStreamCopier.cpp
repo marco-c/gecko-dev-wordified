@@ -132,6 +132,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+net
+;
 #
 undef
 LOG

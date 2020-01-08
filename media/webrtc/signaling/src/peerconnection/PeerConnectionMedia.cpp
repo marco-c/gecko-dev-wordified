@@ -1041,6 +1041,9 @@ discovery
 mStunAddrsRequest
 =
 new
+net
+:
+:
 StunAddrsRequestChild
 (
 new

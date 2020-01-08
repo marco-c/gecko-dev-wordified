@@ -19422,6 +19422,12 @@ nsILoadInfo
 secCheckLoadInfo
 =
 new
+mozilla
+:
+:
+net
+:
+:
 LoadInfo
 (
 aLoadingPrincipal

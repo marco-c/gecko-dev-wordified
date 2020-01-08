@@ -411,6 +411,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+net
+;
 #
 define
 PREFLIGHT_CACHE_SIZE
@@ -8550,6 +8557,9 @@ static_cast
 mozilla
 :
 :
+net
+:
+:
 LoadInfo
 *
 >
@@ -8569,6 +8579,9 @@ CloneForNewRequest
 static_cast
 <
 mozilla
+:
+:
+net
 :
 :
 LoadInfo
