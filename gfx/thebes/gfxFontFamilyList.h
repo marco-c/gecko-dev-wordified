@@ -335,7 +335,7 @@ FontFamilyName
 :
 mType
 (
-eFamily_named
+eFamily_none
 )
 {
 }
