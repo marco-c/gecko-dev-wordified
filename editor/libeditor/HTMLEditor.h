@@ -222,6 +222,13 @@ h
 #
 include
 "
+nsIEditorBlobListener
+.
+h
+"
+#
+include
+"
 nsIEditorMailSupport
 .
 h
@@ -230,13 +237,6 @@ h
 include
 "
 nsIEditorStyleSheets
-.
-h
-"
-#
-include
-"
-nsIEditorUtils
 .
 h
 "
