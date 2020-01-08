@@ -372,10 +372,6 @@ const
 nsAString
 &
 aMessage
-const
-nsACString
-&
-aCategory
 )
 ;
 private

@@ -1253,10 +1253,6 @@ const
 nsAString
 &
 aMessage
-const
-nsACString
-&
-aCategory
 )
 override
 ;

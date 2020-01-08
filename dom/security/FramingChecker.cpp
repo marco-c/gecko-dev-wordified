@@ -1428,12 +1428,9 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
-IgnoringSrcBecauseOfDirective
+CSP
 "
-)
 innerWindowID
 privateWindow
 )

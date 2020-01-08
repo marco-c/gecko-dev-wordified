@@ -23231,10 +23231,6 @@ const
 nsString
 &
 aMessage
-const
-nsCString
-&
-aCategory
 )
 {
 Unused
@@ -23243,7 +23239,6 @@ Unused
 LogBlockedCORSRequest
 (
 aMessage
-aCategory
 )
 ;
 return
@@ -23262,10 +23257,6 @@ const
 nsAString
 &
 aMessage
-const
-nsACString
-&
-aCategory
 )
 {
 if
@@ -23305,7 +23296,6 @@ LogBlockedCORSRequest
 innerWindowID
 privateBrowsing
 aMessage
-aCategory
 )
 ;
 }
