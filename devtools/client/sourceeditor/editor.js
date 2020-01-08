@@ -1650,6 +1650,58 @@ null
 Exposes
 the
 CodeMirror
+class
+.
+We
+want
+to
+be
+able
+to
+*
+invoke
+static
+commands
+such
+as
+runMode
+for
+syntax
+highlighting
+.
+*
+/
+get
+CodeMirror
+(
+)
+{
+const
+codeMirror
+=
+editors
+.
+get
+(
+this
+)
+;
+return
+codeMirror
+&
+&
+codeMirror
+.
+constructor
+;
+}
+/
+*
+*
+*
+Exposes
+the
+CodeMirror
 instance
 .
 We
@@ -1818,7 +1870,7 @@ resolve
 =
 >
 {
-const
+let
 cm
 =
 editors
@@ -1891,7 +1943,7 @@ once
 )
 ;
 }
-const
+let
 onLoad
 =
 (
@@ -1899,7 +1951,7 @@ onLoad
 =
 >
 {
-const
+let
 win
 =
 env
@@ -2132,7 +2184,7 @@ el
 .
 ownerDocument
 ;
-const
+let
 win
 =
 el
@@ -2141,7 +2193,7 @@ ownerDocument
 .
 defaultView
 ;
-const
+let
 scriptsToInject
 =
 CM_SCRIPTS
@@ -2239,7 +2291,7 @@ config
 cssProperties
 )
 ;
-const
+let
 cssSpec
 =
 win
@@ -2287,7 +2339,7 @@ css
 cssSpec
 )
 ;
-const
+let
 scssSpec
 =
 win
@@ -2394,7 +2446,7 @@ t
 work
 )
 .
-const
+let
 cm
 =
 win
@@ -2856,7 +2908,7 @@ ev
 =
 >
 {
-const
+let
 lineOrOffset
 =
 !
@@ -2873,7 +2925,7 @@ lineToWasmOffset
 line
 )
 ;
-const
+let
 head
 =
 {
@@ -2885,7 +2937,7 @@ ch
 0
 }
 ;
-const
+let
 tail
 =
 {
@@ -3116,7 +3168,7 @@ editor
 =
 this
 ;
-const
+let
 editorReadyEvent
 =
 new
@@ -3284,7 +3336,7 @@ loaded
 )
 ;
 }
-const
+let
 win
 =
 this
@@ -3363,7 +3415,7 @@ function
 doc
 )
 {
-const
+let
 cm
 =
 editors
@@ -3615,7 +3667,7 @@ function
 line
 )
 {
-const
+let
 cm
 =
 editors
@@ -3641,7 +3693,7 @@ getValue
 )
 ;
 }
-const
+let
 info
 =
 this
@@ -3668,7 +3720,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -3785,7 +3837,7 @@ function
 lineOrOffset
 )
 {
-const
+let
 line
 =
 this
@@ -3807,7 +3859,7 @@ return
 null
 ;
 }
-const
+let
 cm
 =
 editors
@@ -3854,7 +3906,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -3871,7 +3923,7 @@ this
 isWasm
 )
 {
-const
+let
 formatter
 =
 getWasmLineNumberFormatter
@@ -3944,7 +3996,7 @@ function
 value
 )
 {
-const
+let
 cm
 =
 editors
@@ -3988,14 +4040,14 @@ Uint8Array
 converting
 from
 string
-const
+let
 binary
 =
 value
 .
 binary
 ;
-const
+let
 data
 =
 new
@@ -4037,7 +4089,7 @@ i
 )
 ;
 }
-const
+let
 {
 lines
 done
@@ -4247,7 +4299,7 @@ is
 preffed
 on
 .
-const
+let
 useAutoClose
 =
 Services
@@ -4387,7 +4439,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -4397,7 +4449,7 @@ get
 this
 )
 ;
-const
+let
 iterFn
 =
 function
@@ -4432,7 +4484,7 @@ text
 ;
 }
 ;
-const
+let
 {
 indentUnit
 indentWithTabs
@@ -4542,7 +4594,7 @@ from
 to
 )
 {
-const
+let
 cm
 =
 editors
@@ -4574,7 +4626,7 @@ if
 to
 )
 {
-const
+let
 text
 =
 cm
@@ -4645,7 +4697,7 @@ value
 at
 )
 {
-const
+let
 cm
 =
 editors
@@ -4734,7 +4786,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -4778,7 +4830,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -4828,7 +4880,7 @@ function
 line
 )
 {
-const
+let
 cm
 =
 editors
@@ -4838,7 +4890,7 @@ get
 this
 )
 ;
-const
+let
 {
 top
 }
@@ -4930,7 +4982,7 @@ ch
 align
 )
 {
-const
+let
 cm
 =
 editors
@@ -5020,7 +5072,7 @@ line
 align
 )
 {
-const
+let
 cm
 =
 editors
@@ -5030,7 +5082,7 @@ get
 this
 )
 ;
-const
+let
 from
 =
 cm
@@ -5043,7 +5095,7 @@ page
 "
 )
 ;
-const
+let
 to
 =
 cm
@@ -5062,14 +5114,14 @@ page
 "
 )
 ;
-const
+let
 linesVisible
 =
 to
 -
 from
 ;
-const
+let
 halfVisible
 =
 Math
@@ -5150,7 +5202,7 @@ maximum
 allowed
 value
 .
-const
+let
 offset
 =
 Math
@@ -5287,7 +5339,7 @@ gutterName
 markerClass
 )
 {
-const
+let
 marker
 =
 this
@@ -5367,7 +5419,7 @@ gutterName
 markerClass
 )
 {
-const
+let
 cm
 =
 editors
@@ -5377,7 +5429,7 @@ get
 this
 )
 ;
-const
+let
 info
 =
 this
@@ -5396,7 +5448,7 @@ info
 return
 ;
 }
-const
+let
 gutterMarkers
 =
 info
@@ -5593,7 +5645,7 @@ markerClass
 content
 )
 {
-const
+let
 cm
 =
 editors
@@ -5603,7 +5655,7 @@ get
 this
 )
 ;
-const
+let
 info
 =
 this
@@ -5622,7 +5674,7 @@ info
 return
 ;
 }
-const
+let
 marker
 =
 cm
@@ -5709,7 +5761,7 @@ line
 gutterName
 )
 {
-const
+let
 cm
 =
 editors
@@ -5719,7 +5771,7 @@ get
 this
 )
 ;
-const
+let
 info
 =
 this
@@ -5758,7 +5810,7 @@ line
 gutterName
 )
 {
-const
+let
 info
 =
 this
@@ -5778,7 +5830,7 @@ return
 null
 ;
 }
-const
+let
 gutterMarkers
 =
 info
@@ -5827,7 +5879,7 @@ function
 gutterName
 )
 {
-const
+let
 cm
 =
 editors
@@ -5954,7 +6006,7 @@ markerClass
 return
 ;
 }
-const
+let
 cm
 =
 editors
@@ -5964,7 +6016,7 @@ get
 this
 )
 ;
-const
+let
 marker
 =
 cm
@@ -5981,13 +6033,13 @@ gutterName
 ;
 for
 (
-const
+let
 name
 in
 eventsArg
 )
 {
-const
+let
 listener
 =
 eventsArg
@@ -6039,7 +6091,7 @@ line
 className
 )
 {
-const
+let
 info
 =
 this
@@ -6111,7 +6163,7 @@ lineOrOffset
 className
 )
 {
-const
+let
 cm
 =
 editors
@@ -6121,7 +6173,7 @@ get
 this
 )
 ;
-const
+let
 line
 =
 this
@@ -6162,7 +6214,7 @@ lineOrOffset
 className
 )
 {
-const
+let
 cm
 =
 editors
@@ -6172,7 +6224,7 @@ get
 this
 )
 ;
-const
+let
 line
 =
 this
@@ -6256,7 +6308,7 @@ text
 "
 )
 {
-const
+let
 cm
 =
 editors
@@ -6266,7 +6318,7 @@ get
 this
 )
 ;
-const
+let
 text
 =
 cm
@@ -6277,7 +6329,7 @@ from
 to
 )
 ;
-const
+let
 span
 =
 cm
@@ -6307,7 +6359,7 @@ textContent
 =
 text
 ;
-const
+let
 mark
 =
 cm
@@ -6419,7 +6471,7 @@ function
 args
 )
 {
-const
+let
 cm
 =
 editors
@@ -6429,7 +6481,7 @@ get
 this
 )
 ;
-const
+let
 res
 =
 args
@@ -6509,7 +6561,7 @@ function
 args
 )
 {
-const
+let
 cm
 =
 editors
@@ -6519,7 +6571,7 @@ get
 this
 )
 ;
-const
+let
 res
 =
 args
@@ -6586,7 +6638,7 @@ top
 }
 )
 {
-const
+let
 cm
 =
 editors
@@ -6652,7 +6704,7 @@ ch
 }
 )
 {
-const
+let
 cm
 =
 editors
@@ -6707,7 +6759,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -6754,7 +6806,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -6801,7 +6853,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -6880,7 +6932,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -6939,7 +6991,7 @@ function
 (
 )
 {
-const
+let
 doc
 =
 editors
@@ -6955,7 +7007,7 @@ getWrapperElement
 .
 ownerDocument
 ;
-const
+let
 div
 =
 doc
@@ -6967,7 +7019,7 @@ div
 "
 )
 ;
-const
+let
 inp
 =
 doc
@@ -6979,7 +7031,7 @@ input
 "
 )
 ;
-const
+let
 txt
 =
 doc
@@ -7050,7 +7102,7 @@ hasMultipleSelections
 )
 )
 {
-const
+let
 cm
 =
 editors
@@ -7060,7 +7112,7 @@ get
 this
 )
 ;
-const
+let
 sel
 =
 cm
@@ -7116,7 +7168,7 @@ line
 column
 2
 .
-const
+let
 match
 =
 sel
@@ -7131,7 +7183,7 @@ if
 match
 )
 {
-const
+let
 [
 line
 column
@@ -7192,7 +7244,7 @@ as
 well
 as
 LINE
-const
+let
 match
 =
 line
@@ -7211,7 +7263,7 @@ if
 match
 )
 {
-const
+let
 [
 matchLine
 column
@@ -7273,7 +7325,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -7283,7 +7335,7 @@ get
 this
 )
 ;
-const
+let
 start
 =
 cm
@@ -7295,7 +7347,7 @@ start
 "
 )
 ;
-const
+let
 end
 =
 cm
@@ -7565,7 +7617,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -7575,7 +7627,7 @@ get
 this
 )
 ;
-const
+let
 start
 =
 cm
@@ -7587,7 +7639,7 @@ start
 "
 )
 ;
-const
+let
 end
 =
 cm
@@ -7859,7 +7911,7 @@ node
 isReplaceAll
 )
 {
-const
+let
 cm
 =
 editors
@@ -7869,7 +7921,7 @@ get
 this
 )
 ;
-const
+let
 isInput
 =
 node
@@ -7882,7 +7934,7 @@ tagName
 INPUT
 "
 ;
-const
+let
 isSearchInput
 =
 isInput
@@ -7920,7 +7972,7 @@ a
 code
 mirror
 dialog
-const
+let
 isDialogInput
 =
 isInput
@@ -8066,7 +8118,7 @@ node
 isFindPrev
 )
 {
-const
+let
 cm
 =
 editors
@@ -8076,7 +8128,7 @@ get
 this
 )
 ;
-const
+let
 isInput
 =
 node
@@ -8089,7 +8141,7 @@ tagName
 INPUT
 "
 ;
-const
+let
 isSearchInput
 =
 isInput
@@ -8114,7 +8166,7 @@ isSearchInput
 return
 ;
 }
-const
+let
 query
 =
 node
@@ -8268,7 +8320,7 @@ function
 (
 )
 {
-const
+let
 cm
 =
 editors
@@ -8278,7 +8330,7 @@ get
 this
 )
 ;
-const
+let
 el
 =
 cm
@@ -8287,7 +8339,7 @@ getWrapperElement
 (
 )
 ;
-const
+let
 win
 =
 el
@@ -8339,7 +8391,7 @@ function
 size
 )
 {
-const
+let
 cm
 =
 editors
@@ -8419,7 +8471,7 @@ o
 v
 )
 {
-const
+let
 cm
 =
 editors
@@ -8604,7 +8656,7 @@ function
 o
 )
 {
-const
+let
 cm
 =
 editors
@@ -8956,7 +9008,7 @@ name
 =
 >
 {
-const
+let
 cm
 =
 editors
@@ -8966,7 +9018,7 @@ get
 this
 )
 ;
-const
+let
 ctx
 =
 {
@@ -9160,7 +9212,7 @@ code
 -
 mirror
 .
-const
+let
 cm
 =
 editors
@@ -9214,7 +9266,7 @@ config
 .
 enableCodeFolding
 ;
-const
+let
 foldGutterIndex
 =
 this
@@ -9232,7 +9284,7 @@ foldgutter
 "
 )
 ;
-const
+let
 cm
 =
 editors
@@ -9286,7 +9338,7 @@ foldGutterIndex
 1
 )
 {
-const
+let
 gutters
 =
 this
@@ -9384,7 +9436,7 @@ foldGutterIndex
 1
 )
 {
-const
+let
 gutters
 =
 this
@@ -9446,7 +9498,7 @@ function
 win
 )
 {
-const
+let
 shortcuts
 =
 new
@@ -9472,7 +9524,7 @@ bind
 this
 )
 ;
-const
+let
 keys
 =
 [
@@ -9544,7 +9596,7 @@ name
 =
 >
 {
-const
+let
 key
 =
 L10N
@@ -9609,7 +9661,7 @@ target
 return
 ;
 }
-const
+let
 node
 =
 event
@@ -9799,7 +9851,7 @@ function
 element
 )
 {
-const
+let
 name
 =
 element
@@ -9875,7 +9927,7 @@ function
 args
 )
 {
-const
+let
 cm
 =
 editors
@@ -10110,7 +10162,7 @@ false
 }
 )
 {
-const
+let
 key
 =
 L10N
@@ -10231,7 +10283,7 @@ keySet
 array
 )
 {
-const
+let
 keys
 =
 {
@@ -10270,7 +10322,7 @@ return
 keys
 ;
 }
-const
+let
 propertyKeywords
 =
 cssProperties
@@ -10279,13 +10331,13 @@ getNames
 (
 )
 ;
-const
+let
 colorKeywords
 =
 {
 }
 ;
-const
+let
 valueKeywords
 =
 {
