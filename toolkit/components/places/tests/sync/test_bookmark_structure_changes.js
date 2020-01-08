@@ -777,7 +777,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 "
 http
@@ -868,7 +868,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 "
 http
@@ -1876,7 +1876,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 null
 }
@@ -1954,7 +1954,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 null
 }
@@ -2032,7 +2032,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 "
 https
@@ -2124,7 +2124,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 "
 https
@@ -2214,7 +2214,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 "
 https
@@ -2306,7 +2306,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 "
 https
@@ -2398,7 +2398,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 "
 http
@@ -3397,7 +3397,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 "
 http
@@ -4412,7 +4412,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 "
 http
@@ -4497,7 +4497,7 @@ bookmarks
 SOURCES
 .
 SYNC
-uri
+urlHref
 :
 null
 }
