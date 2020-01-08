@@ -89412,7 +89412,7 @@ the
 js
 :
 :
-IsDelegate
+IsPrototypeOf
 part
 of
 the
