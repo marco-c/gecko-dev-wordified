@@ -8470,12 +8470,6 @@ mCDMProxy
 =
 aProxy
 ;
-if
-(
-!
-mCDMProxy
-)
-{
 /
 /
 Release
@@ -8490,7 +8484,6 @@ mEncryptedPlatform
 =
 nullptr
 ;
-}
 if
 (
 !
