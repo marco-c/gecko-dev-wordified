@@ -199,7 +199,7 @@ properties
 {
 CSSWideKeyword
 CustomDeclaration
-DeclarationSource
+DeclarationPushMode
 }
 ;
 use
@@ -401,10 +401,10 @@ push
 (
 d
 i
-DeclarationSource
+DeclarationPushMode
 :
 :
-CssOm
+Append
 )
 ;
 }
