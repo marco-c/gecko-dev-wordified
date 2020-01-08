@@ -350,7 +350,7 @@ param
 .
 AutoConfigURL
 .
-spec
+href
 )
 ;
 }
