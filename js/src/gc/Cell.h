@@ -296,6 +296,13 @@ GC
 things
 .
 struct
+alignas
+(
+gc
+:
+:
+CellAlignBytes
+)
 Cell
 {
 public
