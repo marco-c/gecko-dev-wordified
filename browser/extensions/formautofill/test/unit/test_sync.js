@@ -419,7 +419,6 @@ US
 "
 }
 ;
-async
 function
 expectLocalProfiles
 (
@@ -430,7 +429,6 @@ expected
 let
 profiles
 =
-await
 profileStorage
 .
 addresses
@@ -664,8 +662,6 @@ Assert
 .
 equal
 (
-(
-await
 profileStorage
 .
 addresses
@@ -677,7 +673,6 @@ includeDeleted
 :
 true
 }
-)
 )
 .
 length
@@ -1127,7 +1122,6 @@ score
 let
 existingGUID
 =
-await
 profileStorage
 .
 addresses
@@ -1155,7 +1149,6 @@ _generateGUID
 (
 )
 ;
-await
 profileStorage
 .
 addresses
@@ -1172,7 +1165,6 @@ true
 }
 )
 ;
-await
 expectLocalProfiles
 (
 profileStorage
@@ -1283,7 +1275,6 @@ deletedGUID
 )
 )
 ;
-await
 expectLocalProfiles
 (
 profileStorage
@@ -1496,7 +1487,6 @@ sync
 (
 )
 ;
-await
 expectLocalProfiles
 (
 profileStorage
@@ -1615,7 +1605,6 @@ try
 let
 guid1
 =
-await
 profileStorage
 .
 addresses
@@ -1628,7 +1617,6 @@ TEST_PROFILE_1
 let
 guid2
 =
-await
 profileStorage
 .
 addresses
@@ -1787,7 +1775,6 @@ sync
 (
 )
 ;
-await
 expectLocalProfiles
 (
 profileStorage
@@ -1855,7 +1842,6 @@ try
 let
 existingGUID
 =
-await
 profileStorage
 .
 addresses
@@ -2024,7 +2010,6 @@ try
 let
 guid
 =
-await
 profileStorage
 .
 addresses
@@ -2132,8 +2117,6 @@ sync
 ok
 (
 !
-await
-await
 profileStorage
 .
 addresses
@@ -2157,7 +2140,6 @@ item
 let
 localRecords
 =
-await
 profileStorage
 .
 addresses
@@ -2312,7 +2294,6 @@ sync
 ok
 (
 !
-await
 profileStorage
 .
 addresses
@@ -2336,8 +2317,6 @@ item
 let
 localTombstone
 =
-(
-await
 profileStorage
 .
 addresses
@@ -2349,7 +2328,6 @@ includeDeleted
 :
 true
 }
-)
 )
 .
 find
@@ -2416,7 +2394,6 @@ try
 let
 guid
 =
-await
 profileStorage
 .
 addresses
@@ -2508,7 +2485,6 @@ sync
 ok
 (
 !
-await
 profileStorage
 .
 addresses
@@ -2529,8 +2505,6 @@ locally
 let
 localTombstone
 =
-(
-await
 profileStorage
 .
 addresses
@@ -2542,7 +2516,6 @@ includeDeleted
 :
 true
 }
-)
 )
 .
 find
@@ -2632,7 +2605,6 @@ try
 let
 guid
 =
-await
 profileStorage
 .
 addresses
@@ -2805,7 +2777,6 @@ version
 let
 localRecord
 =
-await
 profileStorage
 .
 addresses
@@ -2930,7 +2901,6 @@ try
 let
 guid
 =
-await
 profileStorage
 .
 addresses
@@ -2998,7 +2968,6 @@ moved
 !
 "
 ;
-await
 profileStorage
 .
 addresses
@@ -3177,7 +3146,6 @@ moved
 let
 localRecord
 =
-await
 profileStorage
 .
 addresses
@@ -3272,7 +3240,6 @@ locally
 let
 guid
 =
-await
 profileStorage
 .
 addresses
@@ -3342,7 +3309,6 @@ sync
 (
 )
 ;
-await
 expectLocalProfiles
 (
 profileStorage
@@ -3410,7 +3376,6 @@ server
 let
 guid1
 =
-await
 profileStorage
 .
 addresses
@@ -3449,7 +3414,6 @@ sync
 it
 yet
 .
-await
 profileStorage
 .
 addresses
@@ -3616,7 +3580,6 @@ sync
 (
 )
 ;
-await
 expectLocalProfiles
 (
 profileStorage
@@ -3757,7 +3720,6 @@ locally
 let
 localGuid
 =
-await
 profileStorage
 .
 addresses
@@ -3883,7 +3845,6 @@ original
 was
 unsynced
 .
-await
 expectLocalProfiles
 (
 profileStorage
@@ -3941,7 +3902,6 @@ locally
 let
 localGuid
 =
-await
 profileStorage
 .
 addresses
@@ -4076,7 +4036,6 @@ first
 was
 synced
 .
-await
 expectLocalProfiles
 (
 profileStorage
@@ -4309,7 +4268,6 @@ NEW
 let
 aGuid
 =
-await
 profileStorage
 .
 addresses
@@ -4322,7 +4280,6 @@ localRecord
 let
 bGuid
 =
-await
 profileStorage
 .
 addresses
@@ -4424,7 +4381,6 @@ sync
 (
 )
 ;
-await
 expectLocalProfiles
 (
 profileStorage
@@ -4646,7 +4602,6 @@ locally
 let
 guid
 =
-await
 profileStorage
 .
 addresses
@@ -4740,7 +4695,6 @@ moved
 !
 "
 ;
-await
 profileStorage
 .
 addresses
@@ -4939,7 +4893,6 @@ server
 "
 )
 ;
-await
 expectLocalProfiles
 (
 profileStorage
@@ -5086,7 +5039,6 @@ try
 let
 guid
 =
-await
 profileStorage
 .
 addresses
@@ -5096,7 +5048,6 @@ add
 TEST_PROFILE_1
 )
 ;
-await
 expectLocalProfiles
 (
 profileStorage
@@ -5196,7 +5147,6 @@ noted
 "
 )
 ;
-await
 expectLocalProfiles
 (
 profileStorage

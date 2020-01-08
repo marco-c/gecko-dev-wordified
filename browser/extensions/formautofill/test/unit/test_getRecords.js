@@ -562,12 +562,7 @@ getAll
 .
 returns
 (
-Promise
-.
-resolve
-(
 expectedResult
-)
 )
 ;
 }
@@ -683,12 +678,7 @@ getAll
 .
 returns
 (
-Promise
-.
-resolve
-(
 mockAddresses
-)
 )
 ;
 let
@@ -1081,11 +1071,6 @@ creditCards
 let
 encryptedCCRecords
 =
-await
-Promise
-.
-all
-(
 [
 TEST_CREDIT_CARD_1
 TEST_CREDIT_CARD_2
@@ -1093,7 +1078,6 @@ TEST_CREDIT_CARD_2
 .
 map
 (
-async
 record
 =
 >
@@ -1144,10 +1128,9 @@ encrypted
 "
 ]
 =
-await
 MasterPassword
 .
-encrypt
+encryptSync
 (
 record
 [
@@ -1164,7 +1147,6 @@ clonedRecord
 ;
 }
 )
-)
 ;
 sinon
 .
@@ -1178,10 +1160,6 @@ getAll
 )
 =
 >
-Promise
-.
-resolve
-(
 [
 Object
 .
@@ -1206,7 +1184,6 @@ encryptedCCRecords
 ]
 )
 ]
-)
 )
 ;
 let

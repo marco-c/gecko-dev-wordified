@@ -1001,7 +1001,6 @@ add
 let
 guid
 =
-await
 formAutofillStorage
 .
 addresses
@@ -1056,7 +1055,6 @@ add
 let
 guid
 =
-await
 formAutofillStorage
 .
 creditCards

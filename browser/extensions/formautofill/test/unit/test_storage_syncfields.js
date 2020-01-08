@@ -243,7 +243,6 @@ use
 this
 helper
 .
-async
 function
 findGUID
 (
@@ -255,7 +254,6 @@ options
 let
 all
 =
-await
 storage
 .
 getAll
@@ -321,7 +319,6 @@ let
 address
 ]
 =
-await
 profileStorage
 .
 addresses
@@ -432,7 +429,6 @@ let
 address
 ]
 =
-await
 profileStorage
 .
 addresses
@@ -531,7 +527,6 @@ update
 "
 )
 ;
-await
 profileStorage
 .
 addresses
@@ -574,7 +569,6 @@ changes
 ;
 address
 =
-await
 profileStorage
 .
 addresses
@@ -832,7 +826,6 @@ checkingSyncChange
 "
 add
 "
-async
 (
 )
 =
@@ -869,11 +862,14 @@ changeCounter
 0
 )
 ;
-await
 Assert
 .
-rejects
+throws
 (
+(
+)
+=
+>
 profileStorage
 .
 addresses
@@ -949,7 +945,6 @@ checkingSyncChange
 "
 add
 "
-async
 (
 )
 =
@@ -972,7 +967,6 @@ true
 let
 added
 =
-await
 findGUID
 (
 profileStorage
@@ -1031,7 +1025,6 @@ checkingSyncChange
 "
 add
 "
-async
 (
 )
 =
@@ -1053,7 +1046,6 @@ true
 ;
 added
 =
-await
 findGUID
 (
 profileStorage
@@ -1125,7 +1117,6 @@ Add
 a
 tombstone
 .
-await
 profileStorage
 .
 addresses
@@ -1174,11 +1165,14 @@ version
 }
 )
 ;
-await
 Assert
 .
-rejects
+throws
 (
+(
+)
+=
+>
 profileStorage
 .
 addresses
@@ -1212,7 +1206,6 @@ can
 let
 guid3
 =
-await
 profileStorage
 .
 addresses
@@ -1236,7 +1229,6 @@ guid3
 let
 got
 =
-await
 profileStorage
 .
 addresses
@@ -1309,7 +1301,6 @@ guid
 }
 ]
 =
-await
 profileStorage
 .
 addresses
@@ -1348,7 +1339,6 @@ checkingSyncChange
 "
 remove
 "
-async
 (
 )
 =
@@ -1371,7 +1361,6 @@ true
 let
 record
 =
-await
 profileStorage
 .
 addresses
@@ -1445,7 +1434,6 @@ checkingSyncChange
 "
 remove
 "
-async
 (
 )
 =
@@ -1468,7 +1456,6 @@ true
 let
 tombstone
 =
-await
 findGUID
 (
 profileStorage
@@ -1580,7 +1567,6 @@ checkingSyncChange
 "
 add
 "
-async
 (
 )
 =
@@ -1618,7 +1604,6 @@ checkingSyncChange
 "
 remove
 "
-async
 (
 )
 =
@@ -1641,7 +1626,6 @@ true
 let
 tombstone
 =
-await
 findGUID
 (
 profileStorage
@@ -1701,7 +1685,6 @@ TEST_ADDRESS_2
 let
 startAddresses
 =
-await
 profileStorage
 .
 addresses
@@ -1812,7 +1795,6 @@ checkingSyncChange
 "
 add
 "
-async
 (
 )
 =
@@ -1849,7 +1831,6 @@ checkingSyncChange
 "
 add
 "
-async
 (
 )
 =
@@ -1924,7 +1905,6 @@ onChanged
 let
 addresses
 =
-await
 profileStorage
 .
 addresses
@@ -2189,7 +2169,6 @@ addresses
 let
 guid1
 =
-await
 psa
 .
 add
@@ -2200,7 +2179,6 @@ TEST_ADDRESS_1
 let
 guid2
 =
-await
 psa
 .
 add
@@ -2211,7 +2189,6 @@ TEST_ADDRESS_2
 let
 guid3
 =
-await
 psa
 .
 add
@@ -2271,7 +2248,6 @@ change
 the
 second
 .
-await
 psa
 .
 update
@@ -2457,7 +2433,6 @@ _generateGUID
 let
 guid_synced
 =
-await
 profileStorage
 .
 addresses
@@ -2500,7 +2475,6 @@ synced
 let
 guid_u1
 =
-await
 profileStorage
 .
 addresses
@@ -2513,7 +2487,6 @@ TEST_ADDRESS_2
 let
 guid_u2
 =
-await
 profileStorage
 .
 addresses
@@ -2695,8 +2668,6 @@ works
 .
 equal
 (
-(
-await
 profileStorage
 .
 addresses
@@ -2708,7 +2679,6 @@ includeDeleted
 :
 true
 }
-)
 )
 .
 length
@@ -2734,8 +2704,6 @@ targetguid
 ;
 equal
 (
-(
-await
 profileStorage
 .
 addresses
@@ -2748,7 +2716,6 @@ includeDeleted
 true
 }
 )
-)
 .
 length
 3
@@ -2756,7 +2723,6 @@ length
 ;
 ok
 (
-await
 profileStorage
 .
 addresses
@@ -2776,7 +2742,6 @@ exists
 ;
 ok
 (
-await
 profileStorage
 .
 addresses
@@ -2800,7 +2765,6 @@ exists
 ;
 ok
 (
-await
 profileStorage
 .
 addresses
@@ -2820,7 +2784,6 @@ exists
 ok
 (
 !
-await
 profileStorage
 .
 addresses
@@ -2867,7 +2830,6 @@ let
 record
 ]
 =
-await
 profileStorage
 .
 addresses
@@ -2881,11 +2843,14 @@ true
 }
 )
 ;
-await
 Assert
 .
-rejects
+throws
 (
+(
+)
+=
+>
 profileStorage
 .
 addresses
@@ -2953,7 +2918,6 @@ timeLastModified
 *
 1000
 ;
-await
 profileStorage
 .
 addresses
@@ -2985,7 +2949,6 @@ true
 ;
 strictEqual
 (
-await
 profileStorage
 .
 addresses
@@ -3048,7 +3011,6 @@ TEST_ADDRESS_2
 let
 addresses
 =
-await
 profileStorage
 .
 addresses
@@ -3112,7 +3074,6 @@ pullSyncChanges
 ;
 addresses
 =
-await
 profileStorage
 .
 addresses
@@ -3167,7 +3128,6 @@ resetSync
 ;
 addresses
 =
-await
 profileStorage
 .
 addresses

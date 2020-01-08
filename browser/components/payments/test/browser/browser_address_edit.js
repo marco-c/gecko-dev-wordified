@@ -76,7 +76,6 @@ address
 "
 )
 ;
-await
 formAutofillStorage
 .
 creditCards
