@@ -87,7 +87,6 @@ derive
 (
 Animate
 Clone
-ComputeSquaredDistance
 Debug
 MallocSizeOf
 PartialEq
