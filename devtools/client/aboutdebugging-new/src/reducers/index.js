@@ -83,7 +83,7 @@ redux
 ;
 const
 {
-runtimeReducer
+debugTargetsReducer
 }
 =
 require
@@ -91,7 +91,9 @@ require
 "
 .
 /
-runtime
+debug
+-
+targets
 -
 state
 "
@@ -136,9 +138,9 @@ exports
 combineReducers
 (
 {
-runtime
+debugTargets
 :
-runtimeReducer
+debugTargetsReducer
 runtimes
 :
 runtimesReducer

@@ -122,7 +122,7 @@ index
 ;
 const
 {
-RuntimeState
+DebugTargetsState
 }
 =
 require
@@ -132,7 +132,9 @@ require
 /
 reducers
 /
-runtime
+debug
+-
+targets
 -
 state
 "
@@ -293,10 +295,10 @@ const
 initialState
 =
 {
-runtime
+debugTargets
 :
 new
-RuntimeState
+DebugTargetsState
 (
 )
 runtimes

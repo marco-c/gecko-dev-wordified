@@ -80,7 +80,7 @@ constants
 )
 ;
 function
-RuntimeState
+DebugTargetsState
 (
 )
 {
@@ -114,11 +114,11 @@ temporaryExtensions
 ;
 }
 function
-runtimeReducer
+debugTargetsReducer
 (
 state
 =
-RuntimeState
+DebugTargetsState
 (
 )
 action
@@ -136,7 +136,7 @@ DISCONNECT_RUNTIME_SUCCESS
 :
 {
 return
-RuntimeState
+DebugTargetsState
 (
 )
 ;
@@ -234,7 +234,7 @@ module
 exports
 =
 {
-RuntimeState
-runtimeReducer
+DebugTargetsState
+debugTargetsReducer
 }
 ;
