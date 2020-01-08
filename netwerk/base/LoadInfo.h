@@ -1172,6 +1172,12 @@ mLoadTriggeredFromExternal
 bool
 mServiceWorkerTaintingSynthesized
 ;
+bool
+mIsTracker
+;
+bool
+mIsTrackerBlocked
+;
 }
 ;
 }
