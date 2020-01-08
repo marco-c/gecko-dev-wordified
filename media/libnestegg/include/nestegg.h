@@ -1635,7 +1635,7 @@ in
 nanoseconds
 .
 note
-Timecodes
+Timestamps
 presented
 by
 nestegg
@@ -3058,8 +3058,7 @@ track
 *
 Query
 the
-time
-stamp
+timestamp
 in
 nanoseconds
 of
