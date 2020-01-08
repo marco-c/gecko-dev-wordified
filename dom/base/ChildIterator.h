@@ -2068,6 +2068,7 @@ AsContent
 nullptr
 ;
 }
+explicit
 StyleChildrenIterator
 (
 const
