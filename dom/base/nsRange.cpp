@@ -19545,8 +19545,6 @@ InspectorFontFace
 aResult
 uint32_t
 aMaxRanges
-bool
-aSkipCollapsedWhitespace
 )
 {
 NS_ENSURE_TRUE
@@ -19871,7 +19869,6 @@ offset
 true
 fontFaces
 aMaxRanges
-aSkipCollapsedWhitespace
 )
 ;
 continue
@@ -19900,7 +19897,6 @@ Offset
 true
 fontFaces
 aMaxRanges
-aSkipCollapsedWhitespace
 )
 ;
 continue
@@ -19915,7 +19911,6 @@ GetFontFacesForFrames
 frame
 fontFaces
 aMaxRanges
-aSkipCollapsedWhitespace
 )
 ;
 }

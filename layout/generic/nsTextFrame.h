@@ -4097,12 +4097,6 @@ CountGraphemeClusters
 )
 const
 ;
-bool
-HasAnyNoncollapsedCharacters
-(
-)
-override
-;
 protected
 :
 virtual
@@ -5275,6 +5269,12 @@ void
 ClearFrameOffsetCache
 (
 )
+;
+bool
+HasAnyNoncollapsedCharacters
+(
+)
+override
 ;
 void
 ClearMetrics
