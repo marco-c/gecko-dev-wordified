@@ -9488,6 +9488,12 @@ mochitest
 '
 reftest
 '
+'
+talos
+'
+'
+raptor
+'
 ]
 :
             
