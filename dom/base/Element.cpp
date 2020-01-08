@@ -4728,13 +4728,13 @@ ScrollBehavior
 Auto
 )
 {
-ScrollStyles
+ScrollbarStyles
 styles
 =
 sf
 -
 >
-GetScrollStyles
+GetScrollbarStyles
 (
 )
 ;
@@ -5326,7 +5326,7 @@ if
 sf
 -
 >
-GetScrollStyles
+GetScrollbarStyles
 (
 )
 .
@@ -5483,7 +5483,7 @@ if
 sf
 -
 >
-GetScrollStyles
+GetScrollbarStyles
 (
 )
 .
@@ -11849,7 +11849,7 @@ this
 presContext
 -
 >
-GetViewportScrollStylesOverrideElement
+GetViewportScrollbarStylesOverrideElement
 (
 )
 "
@@ -21801,7 +21801,7 @@ realm
 .
 Maybe
 <
-JSAutoRealmAllowCCW
+JSAutoRealm
 >
 ar
 ;

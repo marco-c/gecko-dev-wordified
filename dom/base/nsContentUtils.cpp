@@ -38987,7 +38987,7 @@ actual
 script
 execution
 .
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

@@ -22954,7 +22954,7 @@ proto
 cx
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
