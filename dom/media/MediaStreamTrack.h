@@ -1350,6 +1350,17 @@ mStopped
 true
 ;
 }
+if
+(
+!
+mStopped
+)
+{
+SinkEnabledStateChanged
+(
+)
+;
+}
 }
 protected
 :
