@@ -5621,14 +5621,6 @@ staticSink
 IsATOK2015ActiveInternal
 (
 )
-|
-|
-staticSink
--
->
-IsATOK2016ActiveInternal
-(
-)
 )
 ;
 }
