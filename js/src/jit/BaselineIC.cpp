@@ -34066,6 +34066,9 @@ op
 case
 JSOP_ADD
 :
+case
+JSOP_SUB
+:
 break
 ;
 default
