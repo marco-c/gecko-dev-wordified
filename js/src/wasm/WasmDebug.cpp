@@ -263,15 +263,6 @@ include
 "
 wasm
 /
-WasmBinaryToText
-.
-h
-"
-#
-include
-"
-wasm
-/
 WasmInstance
 .
 h
