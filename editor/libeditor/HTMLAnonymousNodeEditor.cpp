@@ -1797,7 +1797,9 @@ IsObjectResizerEnabled
 &
 &
 !
-mIsAbsolutelyPositioningEnabled
+IsAbsolutePositionEditorEnabled
+(
+)
 &
 &
 !
@@ -1935,7 +1937,9 @@ absPosElement
 ;
 if
 (
-mIsAbsolutelyPositioningEnabled
+IsAbsolutePositionEditorEnabled
+(
+)
 )
 {
 /
@@ -2233,7 +2237,9 @@ bug
 .
 if
 (
-mIsAbsolutelyPositioningEnabled
+IsAbsolutePositionEditorEnabled
+(
+)
 &
 &
 mAbsolutelyPositionedObject
@@ -2455,7 +2461,9 @@ rv
 }
 if
 (
-mIsAbsolutelyPositioningEnabled
+IsAbsolutePositionEditorEnabled
+(
+)
 &
 &
 absPosElement

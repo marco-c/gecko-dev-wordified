@@ -666,7 +666,7 @@ aIsEnabled
 *
 aIsEnabled
 =
-AbsolutePositioningEnabled
+IsAbsolutePositionEditorEnabled
 (
 )
 ;
@@ -684,9 +684,10 @@ bool
 aIsEnabled
 )
 {
-mIsAbsolutelyPositioningEnabled
-=
+EnableAbsolutePositionEditor
+(
 aIsEnabled
+)
 ;
 return
 NS_OK

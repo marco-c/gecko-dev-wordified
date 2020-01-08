@@ -721,7 +721,7 @@ false
 )
 mIsAbsolutelyPositioningEnabled
 (
-true
+false
 )
 mResizedObjectIsAbsolutelyPositioned
 (
