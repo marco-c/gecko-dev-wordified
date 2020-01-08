@@ -167,6 +167,9 @@ test_string
 =
 '
 mozilla
+.
+org
+/
 '
         
 self
