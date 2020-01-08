@@ -9571,11 +9571,14 @@ if
 (
 initialTLSDelta
 >
+PR_MillisecondsToInterval
+(
 gHttpHandler
 -
 >
 TLSHandshakeTimeout
 (
+)
 )
 )
 {
