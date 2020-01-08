@@ -63,6 +63,9 @@ EXPORTED_SYMBOLS
 "
 ThemeVariableMap
 "
+"
+ThemeContentPropertyList
+"
 ]
 ;
 const
@@ -536,5 +539,17 @@ popup_highlight_text
 "
 }
 ]
+]
+;
+const
+ThemeContentPropertyList
+=
+[
+"
+ntp_background
+"
+"
+ntp_text
+"
 ]
 ;
