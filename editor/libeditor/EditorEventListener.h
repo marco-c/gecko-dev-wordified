@@ -249,7 +249,22 @@ Disconnect
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIDOMEVENTLISTENER
+/
+/
+nsIDOMEventListener
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+NS_IMETHOD
+HandleEvent
+(
+dom
+:
+:
+Event
+*
+aEvent
+)
+override
+;
 void
 SpellCheckIfNeeded
 (
@@ -328,6 +343,7 @@ WidgetCompositionEvent
 aCompositionEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 MouseDown
@@ -356,6 +372,7 @@ return
 NS_OK
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 MouseClick
@@ -384,6 +401,7 @@ InternalFocusEvent
 aBlurEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DragEnter
 (
@@ -395,6 +413,7 @@ DragEvent
 aDragEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DragOver
 (
@@ -417,6 +436,7 @@ DragEvent
 aDragEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Drop
 (
@@ -428,6 +448,7 @@ DragEvent
 aDragEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 CanDrop
 (
@@ -501,6 +522,7 @@ WidgetKeyboardEvent
 aKeyboardEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleMiddleClickPaste
 (

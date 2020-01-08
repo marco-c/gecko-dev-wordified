@@ -4190,8 +4190,10 @@ mCachedModifiers
 =
 0
 ;
+RefPtr
+<
 UIEvent
-*
+>
 uiEvent
 =
 aEvent

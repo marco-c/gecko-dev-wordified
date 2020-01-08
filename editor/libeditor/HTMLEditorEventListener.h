@@ -171,6 +171,7 @@ override
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 MouseDown
@@ -197,6 +198,7 @@ aMouseEvent
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 MouseClick
