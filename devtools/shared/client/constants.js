@@ -200,13 +200,6 @@ documentEvent
 documentEvent
 "
 "
-newGlobal
-"
-:
-"
-newGlobal
-"
-"
 newScript
 "
 :
