@@ -395,7 +395,7 @@ XULSortServiceImpl
 public
 nsIXULSortService
 {
-protected
+public
 :
 XULSortServiceImpl
 (
@@ -403,6 +403,8 @@ void
 )
 {
 }
+protected
+:
 virtual
 ~
 XULSortServiceImpl
@@ -411,18 +413,6 @@ void
 )
 {
 }
-friend
-nsresult
-NS_NewXULSortService
-(
-nsIXULSortService
-*
-*
-mgr
-)
-;
-private
-:
 public
 :
 /
