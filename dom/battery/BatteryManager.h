@@ -123,13 +123,6 @@ mozilla_dom_battery_BatteryManager_h
 #
 include
 "
-Types
-.
-h
-"
-#
-include
-"
 mozilla
 /
 DOMEventTargetHelper
@@ -141,7 +134,7 @@ include
 "
 mozilla
 /
-Observer
+HalBatteryInformation
 .
 h
 "
@@ -178,6 +171,9 @@ BatteryManager
 public
 DOMEventTargetHelper
 public
+hal
+:
+:
 BatteryObserver
 {
 public
