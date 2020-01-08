@@ -555,7 +555,7 @@ sub_tables
 =
 tables
 .
-array
+arrayZ
 +
 start_offset
 ;
@@ -907,7 +907,7 @@ rec
 =
 tables
 .
-array
+arrayZ
 [
 i
 ]
@@ -1229,7 +1229,7 @@ rec
 =
 tables
 .
-array
+arrayZ
 [
 i
 ]
@@ -1457,13 +1457,12 @@ Header
 0x00010000u
 *
 /
-ArrayOf
+LArrayOf
 <
 LOffsetTo
 <
 OffsetTable
 >
-HBUINT32
 >
 table
 ;
@@ -1804,9 +1803,8 @@ this
 .
 *
 /
-static
-const
-hb_tag_t
+enum
+{
 CFFTag
 =
 HB_TAG
@@ -1824,7 +1822,6 @@ T
 O
 '
 )
-;
 /
 *
 OpenType
@@ -1833,9 +1830,6 @@ Postscript
 outlines
 *
 /
-static
-const
-hb_tag_t
 TrueTypeTag
 =
 HB_TAG
@@ -1845,7 +1839,6 @@ HB_TAG
 0
 0
 )
-;
 /
 *
 OpenType
@@ -1854,9 +1847,6 @@ TrueType
 outlines
 *
 /
-static
-const
-hb_tag_t
 TTCTag
 =
 HB_TAG
@@ -1874,16 +1864,12 @@ c
 f
 '
 )
-;
 /
 *
 TrueType
 Collection
 *
 /
-static
-const
-hb_tag_t
 TrueTag
 =
 HB_TAG
@@ -1901,7 +1887,6 @@ u
 e
 '
 )
-;
 /
 *
 Obsolete
@@ -1909,9 +1894,6 @@ Apple
 TrueType
 *
 /
-static
-const
-hb_tag_t
 Typ1Tag
 =
 HB_TAG
@@ -1929,7 +1911,6 @@ p
 1
 '
 )
-;
 /
 *
 Obsolete
@@ -1941,6 +1922,8 @@ SFNT
 container
 *
 /
+}
+;
 inline
 hb_tag_t
 get_tag

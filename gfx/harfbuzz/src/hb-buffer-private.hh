@@ -576,12 +576,12 @@ direction
 *
 /
 bool
-in_error
+successful
 ;
 /
 *
-Allocation
-failed
+Allocations
+successful
 *
 /
 bool

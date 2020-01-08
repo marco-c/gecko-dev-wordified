@@ -255,6 +255,9 @@ glyphs
 hb_bool_t
 drop_hints
 ;
+hb_bool_t
+drop_ot_layout
+;
 /
 *
 TODO

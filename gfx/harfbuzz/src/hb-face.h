@@ -236,6 +236,16 @@ blob
 h
 "
 HB_BEGIN_DECLS
+HB_EXTERN
+unsigned
+int
+hb_face_count
+(
+hb_blob_t
+*
+blob
+)
+;
 /
 *
 *

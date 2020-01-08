@@ -330,9 +330,6 @@ face
 )
 )
 return
-OT
-:
-:
 Null
 (
 OT
@@ -391,9 +388,6 @@ face
 )
 )
 return
-OT
-:
-:
 Null
 (
 OT

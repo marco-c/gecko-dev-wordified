@@ -2,17 +2,11 @@
 *
 *
 Copyright
-(
-C
-)
 2011
 Martin
 Hosken
 *
 Copyright
-(
-C
-)
 2011
 SIL
 International

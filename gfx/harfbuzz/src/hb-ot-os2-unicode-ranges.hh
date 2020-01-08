@@ -1972,7 +1972,7 @@ if
 range
 !
 =
-NULL
+nullptr
 )
 return
 range

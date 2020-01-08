@@ -352,7 +352,7 @@ p
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 /

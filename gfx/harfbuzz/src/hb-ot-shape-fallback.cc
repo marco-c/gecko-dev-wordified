@@ -3155,12 +3155,10 @@ space
 *
 Unicode
 doc
-http
+https
 :
 /
 /
-www
-.
 unicode
 .
 org

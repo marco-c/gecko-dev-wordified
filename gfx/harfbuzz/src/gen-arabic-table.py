@@ -5,13 +5,20 @@ usr
 /
 bin
 /
+env
 python
+from
+__future__
 import
-sys
+print_function
+division
+absolute_import
 import
+io
 os
 .
 path
+sys
 if
 len
 (
@@ -25,11 +32,7 @@ argv
 :
 	
 print
->
->
-sys
-.
-stderr
+(
 "
 usage
 :
@@ -52,6 +55,12 @@ Blocks
 .
 txt
 "
+file
+=
+sys
+.
+stderr
+)
 	
 sys
 .
@@ -62,9 +71,18 @@ exit
 files
 =
 [
-file
+io
+.
+open
 (
 x
+encoding
+=
+'
+utf
+-
+8
+'
 )
 for
 x
@@ -541,6 +559,8 @@ value
 short
 	
 print
+(
+)
 	
 for
 value
@@ -554,6 +574,7 @@ items
 :
 		
 print
+(
 "
 #
 define
@@ -566,6 +587,7 @@ s
 (
 short
 value
+)
 )
 	
 uu
@@ -661,8 +683,11 @@ last
 u
 	
 print
+(
+)
 	
 print
+(
 "
 static
 const
@@ -672,11 +697,14 @@ joining_table
 ]
 =
 "
+)
 	
 print
+(
 "
 {
 "
+)
 	
 last_block
 =
@@ -694,8 +722,11 @@ ranges
 :
 		
 print
+(
+)
 		
 print
+(
 "
 #
 define
@@ -709,6 +740,7 @@ d
 (
 start
 offset
+)
 )
 		
 for
@@ -765,6 +797,8 @@ start
 :
 					
 print
+(
+)
 				
 if
 block
@@ -773,6 +807,7 @@ all_blocks
 :
 					
 print
+(
 "
 \
 n
@@ -785,11 +820,13 @@ s
 "
 %
 block
+)
 				
 else
 :
 					
 print
+(
 "
 \
 n
@@ -799,6 +836,7 @@ FILLER
 *
 /
 "
+)
 				
 last_block
 =
@@ -814,8 +852,11 @@ u
 :
 					
 print
+(
+)
 					
 print
+(
 "
 /
 *
@@ -840,6 +881,11 @@ u
 u
 %
 32
+)
+end
+=
+"
+"
 )
 			
 if
@@ -852,8 +898,11 @@ u
 :
 				
 print
+(
+)
 				
 print
+(
 "
 /
 *
@@ -864,12 +913,13 @@ print
 "
 %
 u
+end
+=
+"
+"
+)
 			
-sys
-.
-stdout
-.
-write
+print
 (
 "
 %
@@ -880,9 +930,15 @@ short_value
 [
 value
 ]
+end
+=
+"
+"
 )
 		
 print
+(
+)
 		
 offset
 +
@@ -894,6 +950,8 @@ start
 1
 	
 print
+(
+)
 	
 occupancy
 =
@@ -905,6 +963,7 @@ num
 offset
 	
 print
+(
 "
 }
 ;
@@ -930,8 +989,11 @@ d
 offset
 occupancy
 )
+)
 	
 print
+(
+)
 	
 page_bits
 =
@@ -939,15 +1001,20 @@ page_bits
 ;
 	
 print
+(
+)
 	
 print
+(
 "
 static
 unsigned
 int
 "
+)
 	
 print
+(
 "
 joining_type
 (
@@ -955,13 +1022,17 @@ hb_codepoint_t
 u
 )
 "
+)
 	
 print
+(
 "
 {
 "
+)
 	
 print
+(
 "
 switch
 (
@@ -974,11 +1045,14 @@ d
 "
 %
 page_bits
+)
 	
 print
+(
 "
 {
 "
+)
 	
 pages
 =
@@ -1022,6 +1096,7 @@ pages
 :
 		
 print
+(
 "
 case
 0x
@@ -1031,6 +1106,7 @@ case
 "
 %
 p
+)
 		
 for
 (
@@ -1069,6 +1145,7 @@ joining_offset_0x
 start
 			
 print
+(
 "
 if
 (
@@ -1107,47 +1184,64 @@ end
 start
 offset
 )
+)
 		
 print
+(
 "
 break
 ;
 "
+)
 		
 print
+(
 "
 "
+)
 	
 print
+(
 "
 default
 :
 "
+)
 	
 print
+(
 "
 break
 ;
 "
+)
 	
 print
+(
 "
 }
 "
+)
 	
 print
+(
 "
 return
 X
 ;
 "
+)
 	
 print
+(
 "
 }
 "
+)
 	
 print
+(
+)
 	
 for
 value
@@ -1161,6 +1255,7 @@ items
 :
 		
 print
+(
 "
 #
 undef
@@ -1171,8 +1266,11 @@ s
 (
 short
 )
+)
 	
 print
+(
+)
 def
 print_shaping_table
 (
@@ -1512,8 +1610,11 @@ shape
 c
 	
 print
+(
+)
 	
 print
+(
 "
 static
 const
@@ -1526,11 +1627,14 @@ shaping_table
 ]
 =
 "
+)
 	
 print
+(
 "
 {
 "
+)
 	
 keys
 =
@@ -1628,6 +1732,7 @@ s
 )
 		
 print
+(
 "
 {
 %
@@ -1660,16 +1765,22 @@ else
 "
 "
 )
+)
 	
 print
+(
 "
 }
 ;
 "
+)
 	
 print
+(
+)
 	
 print
+(
 "
 #
 define
@@ -1680,8 +1791,10 @@ SHAPING_TABLE_FIRST
 "
 %
 min_u
+)
 	
 print
+(
 "
 #
 define
@@ -1692,8 +1805,11 @@ SHAPING_TABLE_LAST
 "
 %
 max_u
+)
 	
 print
+(
+)
 	
 ligas
 =
@@ -1876,8 +1992,11 @@ ligas
 )
 	
 print
+(
+)
 	
 print
+(
 "
 static
 const
@@ -1885,36 +2004,46 @@ struct
 ligature_set_t
 {
 "
+)
 	
 print
+(
 "
 uint16_t
 first
 ;
 "
+)
 	
 print
+(
 "
 struct
 ligature_pairs_t
 {
 "
+)
 	
 print
+(
 "
 uint16_t
 second
 ;
 "
+)
 	
 print
+(
 "
 uint16_t
 ligature
 ;
 "
+)
 	
 print
+(
 "
 }
 ligatures
@@ -1926,8 +2055,10 @@ d
 "
 %
 max_i
+)
 	
 print
+(
 "
 }
 ligature_table
@@ -1935,33 +2066,30 @@ ligature_table
 ]
 =
 "
+)
 	
 print
+(
 "
 {
 "
-	
-keys
-=
-ligas
-.
-keys
-(
-)
-	
-keys
-.
-sort
-(
 )
 	
 for
 first
 in
+sorted
+(
+ligas
+.
 keys
+(
+)
+)
 :
 		
 print
+(
 "
 {
 0x
@@ -1972,6 +2100,7 @@ print
 %
 (
 first
+)
 )
 		
 for
@@ -1984,6 +2113,7 @@ first
 :
 			
 print
+(
 "
 {
 0x
@@ -2018,21 +2148,29 @@ liga
 ]
 ]
 )
+)
 		
 print
+(
 "
 }
 }
 "
+)
 	
 print
+(
 "
 }
 ;
 "
+)
 	
 print
+(
+)
 print
+(
 "
 /
 *
@@ -2047,12 +2185,16 @@ table
 *
 /
 "
+)
 print
+(
 "
 /
 *
 "
+)
 print
+(
 "
 *
 The
@@ -2064,11 +2206,15 @@ by
 running
 :
 "
+)
 print
+(
 "
 *
 "
+)
 print
+(
 "
 *
 .
@@ -2090,11 +2236,15 @@ Blocks
 .
 txt
 "
+)
 print
+(
 "
 *
 "
+)
 print
+(
 "
 *
 on
@@ -2104,10 +2254,13 @@ these
 headers
 :
 "
+)
 print
+(
 "
 *
 "
+)
 for
 h
 in
@@ -2121,6 +2274,7 @@ h
 :
 		
 print
+(
 "
 *
 %
@@ -2134,25 +2288,36 @@ strip
 (
 )
 )
+)
 print
+(
 "
 *
 /
 "
+)
 print
+(
+)
 print
+(
 "
 #
 ifndef
 HB_OT_SHAPE_COMPLEX_ARABIC_TABLE_HH
 "
+)
 print
+(
 "
 #
 define
 HB_OT_SHAPE_COMPLEX_ARABIC_TABLE_HH
 "
+)
 print
+(
+)
 read_blocks
 (
 files
@@ -2175,7 +2340,10 @@ files
 ]
 )
 print
+(
+)
 print
+(
 "
 #
 endif
@@ -2185,8 +2353,12 @@ HB_OT_SHAPE_COMPLEX_ARABIC_TABLE_HH
 *
 /
 "
+)
 print
+(
+)
 print
+(
 "
 /
 *
@@ -2201,3 +2373,4 @@ table
 *
 /
 "
+)

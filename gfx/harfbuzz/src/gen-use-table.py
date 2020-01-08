@@ -5,8 +5,16 @@ usr
 /
 bin
 /
+env
 python
+from
+__future__
 import
+print_function
+division
+absolute_import
+import
+io
 sys
 if
 len
@@ -21,11 +29,7 @@ argv
 :
 	
 print
->
->
-sys
-.
-stderr
+(
 "
 usage
 :
@@ -51,6 +55,12 @@ Blocks
 .
 txt
 "
+file
+=
+sys
+.
+stderr
+)
 	
 sys
 .
@@ -74,9 +84,18 @@ Tibetan
 files
 =
 [
-file
+io
+.
+open
 (
 x
+encoding
+=
+'
+utf
+-
+8
+'
 )
 for
 x
@@ -766,6 +785,10 @@ Consonant_Head_Letter
 '
 	
 '
+Consonant_Initial_Postfixed
+'
+	
+'
 Modifying_Letter
 '
 	
@@ -880,6 +903,17 @@ Top_And_Bottom_And_Right
 Overstruck
 '
 ]
+try
+:
+	
+basestring
+except
+NameError
+:
+	
+basestring
+=
+str
 class
 PropertyValue
 (
@@ -956,6 +990,22 @@ self
 =
 =
 other
+)
+	
+def
+__hash__
+(
+self
+)
+:
+		
+return
+hash
+(
+str
+(
+self
+)
 )
 property_values
 =
@@ -1105,6 +1155,7 @@ not
 U
 in
 [
+0x104B
 0x104E
 0x2022
 0x11A3F
@@ -1216,6 +1267,20 @@ UGC
 )
 :
 	
+#
+Consonant_Initial_Postfixed
+is
+new
+in
+Unicode
+11
+;
+not
+in
+the
+spec
+.
+	
 return
 (
 (
@@ -1229,6 +1294,12 @@ UGC
 =
 Lo
 )
+or
+		
+UISC
+=
+=
+Consonant_Initial_Postfixed
 or
 		
 UISC
@@ -2482,7 +2553,7 @@ but
 not
 in
 Unicode
-8
+11
 .
 0
 		
@@ -2516,7 +2587,7 @@ are
 they
 in
 Unicode
-8
+11
 .
 0
 		
@@ -2557,16 +2628,6 @@ if
 U
 =
 =
-0x1133C
-:
-UIPC
-=
-Bottom
-		
-if
-U
-=
-=
 0x1171E
 :
 UIPC
@@ -2602,6 +2663,35 @@ U
 UIPC
 =
 Top
+		
+#
+https
+:
+/
+/
+github
+.
+com
+/
+roozbehp
+/
+unicode
+-
+data
+/
+issues
+/
+8
+		
+if
+U
+=
+=
+0x0A51
+:
+UIPC
+=
+Bottom
 		
 assert
 (
@@ -2749,6 +2839,7 @@ map_to_use
 data
 )
 print
+(
 "
 /
 *
@@ -2763,12 +2854,16 @@ table
 *
 /
 "
+)
 print
+(
 "
 /
 *
 "
+)
 print
+(
 "
 *
 The
@@ -2780,11 +2875,15 @@ by
 running
 :
 "
+)
 print
+(
 "
 *
 "
+)
 print
+(
 "
 *
 .
@@ -2809,11 +2908,15 @@ Blocks
 .
 txt
 "
+)
 print
+(
 "
 *
 "
+)
 print
+(
 "
 *
 on
@@ -2823,10 +2926,13 @@ these
 headers
 :
 "
+)
 print
+(
 "
 *
 "
+)
 for
 h
 in
@@ -2840,6 +2946,7 @@ h
 :
 		
 print
+(
 "
 *
 %
@@ -2853,13 +2960,19 @@ strip
 (
 )
 )
+)
 print
+(
 "
 *
 /
 "
+)
 print
+(
+)
 print
+(
 '
 #
 include
@@ -2879,7 +2992,10 @@ private
 hh
 "
 '
+)
 print
+(
+)
 total
 =
 0
@@ -2914,10 +3030,15 @@ last_block
 :
 		
 print
+(
+)
 		
 print
+(
+)
 		
 print
+(
 "
 /
 *
@@ -2928,6 +3049,7 @@ s
 "
 %
 block
+)
 		
 if
 start
@@ -2936,6 +3058,7 @@ start
 :
 			
 print
+(
 '
 '
 *
@@ -2949,6 +3072,11 @@ start
 *
 6
 )
+)
+end
+=
+'
+'
 )
 	
 num
@@ -2997,8 +3125,11 @@ u
 :
 			
 print
+(
+)
 			
 print
+(
 "
 /
 *
@@ -3009,6 +3140,11 @@ print
 "
 %
 u
+end
+=
+'
+'
+)
 		
 if
 u
@@ -3031,11 +3167,7 @@ u
 defaults
 )
 		
-sys
-.
-stdout
-.
-write
+print
 (
 "
 %
@@ -3046,6 +3178,10 @@ d
 [
 0
 ]
+end
+=
+'
+'
 )
 	
 total
@@ -3071,15 +3207,13 @@ last_block
 block
 uu
 =
+sorted
+(
 data
 .
 keys
 (
 )
-uu
-.
-sort
-(
 )
 last
 =
@@ -3126,6 +3260,7 @@ k
 continue
 	
 print
+(
 "
 #
 define
@@ -3152,6 +3287,7 @@ __name__
 3
 :
 ]
+)
 )
 for
 k
@@ -3190,6 +3326,7 @@ k
 suf
 		
 print
+(
 "
 #
 define
@@ -3204,10 +3341,14 @@ s
 tag
 tag
 )
+)
 print
+(
 "
 "
+)
 print
+(
 "
 static
 const
@@ -3218,6 +3359,7 @@ use_table
 =
 {
 "
+)
 for
 u
 in
@@ -3370,10 +3512,15 @@ starts
 ]
 			
 print
+(
+)
 			
 print
+(
+)
 			
 print
+(
 "
 #
 define
@@ -3387,6 +3534,7 @@ d
 (
 start
 offset
+)
 )
 			
 starts
@@ -3430,7 +3578,11 @@ starts
 1
 ]
 print
+(
+)
 print
+(
+)
 occupancy
 =
 used
@@ -3443,6 +3595,7 @@ page_bits
 =
 12
 print
+(
 "
 }
 ;
@@ -3468,12 +3621,18 @@ d
 offset
 occupancy
 )
+)
 print
+(
+)
 print
+(
 "
 USE_TABLE_ELEMENT_TYPE
 "
+)
 print
+(
 "
 hb_use_get_category
 (
@@ -3481,11 +3640,15 @@ hb_codepoint_t
 u
 )
 "
+)
 print
+(
 "
 {
 "
+)
 print
+(
 "
 switch
 (
@@ -3498,10 +3661,13 @@ d
 "
 %
 page_bits
+)
 print
+(
 "
 {
 "
+)
 pages
 =
 set
@@ -3529,6 +3695,7 @@ pages
 :
 	
 print
+(
 "
 case
 0x
@@ -3538,6 +3705,7 @@ case
 "
 %
 p
+)
 	
 for
 (
@@ -3580,6 +3748,7 @@ use_offset_0x
 start
 		
 print
+(
 "
 if
 (
@@ -3620,41 +3789,58 @@ end
 start
 offset
 )
+)
 	
 print
+(
 "
 break
 ;
 "
+)
 	
 print
+(
 "
 "
+)
 print
+(
 "
 default
 :
 "
+)
 print
+(
 "
 break
 ;
 "
+)
 print
+(
 "
 }
 "
+)
 print
+(
 "
 return
 USE_O
 ;
 "
+)
 print
+(
 "
 }
 "
+)
 print
+(
+)
 for
 k
 in
@@ -3681,6 +3867,7 @@ k
 continue
 	
 print
+(
 "
 #
 undef
@@ -3689,6 +3876,7 @@ s
 "
 %
 k
+)
 for
 k
 v
@@ -3726,6 +3914,7 @@ k
 suf
 		
 print
+(
 "
 #
 undef
@@ -3734,8 +3923,12 @@ s
 "
 %
 tag
+)
 print
+(
+)
 print
+(
 "
 /
 *
@@ -3750,6 +3943,7 @@ table
 *
 /
 "
+)
 #
 Maintain
 at
