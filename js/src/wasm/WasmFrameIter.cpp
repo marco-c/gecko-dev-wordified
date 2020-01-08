@@ -3942,7 +3942,7 @@ Global
 Register
 scratch
 =
-WasmTableCallScratchReg
+WasmTableCallScratchReg0
 ;
 masm
 .

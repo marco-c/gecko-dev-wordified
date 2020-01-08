@@ -17449,6 +17449,15 @@ scratch
 )
 ;
 void
+switchToWasmTlsRealm
+(
+Register
+scratch1
+Register
+scratch2
+)
+;
+void
 debugAssertContextRealm
 (
 const
