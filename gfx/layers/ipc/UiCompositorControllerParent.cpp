@@ -530,7 +530,7 @@ resize
 parent
 -
 >
-RecvForceIsFirstPaint
+ForceIsFirstPaint
 (
 )
 ;
