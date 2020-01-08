@@ -7950,7 +7950,7 @@ win
 step
 5
 return
-doc
+rootNode
 .
 elementsFromPoint
 (
