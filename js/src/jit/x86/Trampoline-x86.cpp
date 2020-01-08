@@ -4693,6 +4693,7 @@ more
 +
 iter
 )
+{
 masm
 .
 Push
@@ -4701,6 +4702,7 @@ Push
 iter
 )
 ;
+}
 masm
 .
 reserveStack
@@ -5192,6 +5194,7 @@ i
 +
 +
 )
+{
 masm
 .
 call
@@ -5200,6 +5203,7 @@ call
 bailout
 )
 ;
+}
 masm
 .
 bind
@@ -5669,9 +5673,11 @@ masm
 f
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 setupUnalignedABICall
@@ -5931,6 +5937,7 @@ outReg
 =
 InvalidReg
 )
+{
 masm
 .
 passABIArg
@@ -5938,6 +5945,7 @@ passABIArg
 outReg
 )
 ;
+}
 masm
 .
 callWithABI
@@ -5964,9 +5972,11 @@ masm
 f
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Test
@@ -6145,6 +6155,7 @@ runtime
 >
 jitSupportsFloatingPoint
 )
+{
 masm
 .
 Pop
@@ -6152,7 +6163,9 @@ Pop
 ReturnDoubleReg
 )
 ;
+}
 else
+{
 masm
 .
 assumeUnreachable
@@ -6172,6 +6185,7 @@ support
 "
 )
 ;
+}
 break
 ;
 default
@@ -6224,12 +6238,14 @@ JitOptions
 .
 spectreJitToCxxCalls
 )
+{
 masm
 .
 speculationBarrier
 (
 )
 ;
+}
 masm
 .
 leaveExitFrame

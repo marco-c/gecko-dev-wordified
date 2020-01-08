@@ -418,6 +418,7 @@ low
 =
 dest
 )
+{
 movl
 (
 src
@@ -426,6 +427,7 @@ low
 dest
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -448,6 +450,7 @@ dest
 .
 low
 )
+{
 movl
 (
 src
@@ -456,6 +459,7 @@ dest
 low
 )
 ;
+}
 movl
 (
 Imm32
@@ -597,12 +601,14 @@ src
 =
 eax
 )
+{
 movl
 (
 src
 eax
 )
 ;
+}
 masm
 .
 cdq
@@ -745,6 +751,7 @@ int32_t
 0xFFFFFFFF
 )
 )
+{
 andl
 (
 imm
@@ -757,6 +764,7 @@ dest
 low
 )
 ;
+}
 if
 (
 imm
@@ -773,6 +781,7 @@ int32_t
 0xFFFFFFFF
 )
 )
+{
 andl
 (
 imm
@@ -785,6 +794,7 @@ dest
 high
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -811,6 +821,7 @@ value
 =
 0
 )
+{
 orl
 (
 imm
@@ -823,6 +834,7 @@ dest
 low
 )
 ;
+}
 if
 (
 imm
@@ -836,6 +848,7 @@ value
 =
 0
 )
+{
 orl
 (
 imm
@@ -848,6 +861,7 @@ dest
 high
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -874,6 +888,7 @@ value
 =
 0
 )
+{
 xorl
 (
 imm
@@ -886,6 +901,7 @@ dest
 low
 )
 ;
+}
 if
 (
 imm
@@ -899,6 +915,7 @@ value
 =
 0
 )
+{
 xorl
 (
 imm
@@ -911,6 +928,7 @@ dest
 high
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -1447,8 +1465,10 @@ if
 !
 dbl
 )
+{
 return
 ;
+}
 masm
 .
 vaddsd_mr
@@ -2008,6 +2028,7 @@ value
 =
 5
 )
+{
 leal
 (
 Operand
@@ -2023,7 +2044,9 @@ TimesFour
 edx
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -2032,6 +2055,7 @@ imm
 "
 )
 ;
+}
 addl
 (
 edx
@@ -3899,6 +3923,7 @@ amount
 0x20
 )
 )
+{
 xchgl
 (
 dest
@@ -3909,6 +3934,7 @@ dest
 low
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -4007,6 +4033,7 @@ amount
 0x20
 )
 )
+{
 xchgl
 (
 dest
@@ -4017,6 +4044,7 @@ dest
 low
 )
 ;
+}
 }
 /
 /
@@ -4804,11 +4832,13 @@ if
 !
 fallthrough
 )
+{
 jump
 (
 fail
 )
 ;
+}
 break
 ;
 case
@@ -4856,11 +4886,13 @@ if
 !
 fallthrough
 )
+{
 jump
 (
 fail
 )
 ;
+}
 break
 ;
 case
@@ -5007,11 +5039,13 @@ if
 !
 fallthrough
 )
+{
 jump
 (
 fail
 )
 ;
+}
 break
 ;
 }
@@ -5034,11 +5068,13 @@ if
 (
 fallthrough
 )
+{
 bind
 (
 fail
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -5130,11 +5166,13 @@ if
 !
 fallthrough
 )
+{
 jump
 (
 fail
 )
 ;
+}
 break
 ;
 case
@@ -5178,11 +5216,13 @@ if
 !
 fallthrough
 )
+{
 jump
 (
 fail
 )
 ;
+}
 break
 ;
 case
@@ -5325,11 +5365,13 @@ if
 !
 fallthrough
 )
+{
 jump
 (
 fail
 )
 ;
+}
 break
 ;
 }
@@ -5352,11 +5394,13 @@ if
 (
 fallthrough
 )
+{
 bind
 (
 fail
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -5417,6 +5461,7 @@ Assembler
 :
 Equal
 )
+{
 branch32
 (
 Assembler
@@ -5433,7 +5478,9 @@ firstHalf
 done
 )
 ;
+}
 else
+{
 branch32
 (
 Assembler
@@ -5449,6 +5496,7 @@ firstHalf
 label
 )
 ;
+}
 branch32
 (
 cond
@@ -5570,6 +5618,7 @@ Assembler
 :
 Equal
 )
+{
 branch32
 (
 Assembler
@@ -5582,7 +5631,9 @@ scratch
 done
 )
 ;
+}
 else
+{
 branch32
 (
 Assembler
@@ -5594,6 +5645,7 @@ scratch
 label
 )
 ;
+}
 load32
 (
 Address
@@ -6262,6 +6314,7 @@ Assembler
 :
 Equal
 )
+{
 branchTestMagic
 (
 Assembler
@@ -6273,7 +6326,9 @@ valaddr
 notMagic
 )
 ;
+}
 else
+{
 branchTestMagic
 (
 Assembler
@@ -6284,6 +6339,7 @@ valaddr
 label
 )
 ;
+}
 branch32
 (
 cond
@@ -7515,6 +7571,7 @@ gpr
 (
 )
 )
+{
 movl
 (
 src
@@ -7529,6 +7586,7 @@ gpr
 )
 )
 ;
+}
 }
 }
 template
@@ -7632,6 +7690,7 @@ isFloat
 (
 )
 )
+{
 loadInt32OrDouble
 (
 src
@@ -7642,7 +7701,9 @@ fpu
 )
 )
 ;
+}
 else
+{
 movl
 (
 Operand
@@ -7656,6 +7717,7 @@ gpr
 )
 )
 ;
+}
 }
 /
 /

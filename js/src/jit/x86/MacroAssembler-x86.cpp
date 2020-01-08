@@ -246,8 +246,10 @@ d
 dest
 )
 )
+{
 return
 ;
+}
 Double
 *
 dbl
@@ -262,8 +264,10 @@ if
 !
 dbl
 )
+{
 return
 ;
+}
 masm
 .
 vmovsd_mr
@@ -317,8 +321,10 @@ f
 dest
 )
 )
+{
 return
 ;
+}
 Float
 *
 flt
@@ -333,8 +339,10 @@ if
 !
 flt
 )
+{
 return
 ;
+}
 masm
 .
 vmovss_mr
@@ -390,8 +398,10 @@ v
 dest
 )
 )
+{
 return
 ;
+}
 SimdData
 *
 i4
@@ -406,8 +416,10 @@ if
 !
 i4
 )
+{
 return
 ;
+}
 masm
 .
 vmovdqa_mr
@@ -463,8 +475,10 @@ v
 dest
 )
 )
+{
 return
 ;
+}
 SimdData
 *
 f4
@@ -479,8 +493,10 @@ if
 !
 f4
 )
+{
 return
 ;
+}
 masm
 .
 vmovaps_mr
@@ -573,6 +589,7 @@ empty
 (
 )
 )
+{
 masm
 .
 haltingAlign
@@ -583,6 +600,7 @@ double
 )
 )
 ;
+}
 for
 (
 const
@@ -612,6 +630,7 @@ d
 .
 uses
 )
+{
 addCodeLabel
 (
 CodeLabel
@@ -621,6 +640,7 @@ cst
 )
 )
 ;
+}
 masm
 .
 doubleConstant
@@ -635,8 +655,10 @@ if
 !
 enoughMemory_
 )
+{
 return
 ;
+}
 }
 if
 (
@@ -647,6 +669,7 @@ empty
 (
 )
 )
+{
 masm
 .
 haltingAlign
@@ -657,6 +680,7 @@ float
 )
 )
 ;
+}
 for
 (
 const
@@ -686,6 +710,7 @@ f
 .
 uses
 )
+{
 addCodeLabel
 (
 CodeLabel
@@ -695,6 +720,7 @@ cst
 )
 )
 ;
+}
 masm
 .
 floatConstant
@@ -709,8 +735,10 @@ if
 !
 enoughMemory_
 )
+{
 return
 ;
+}
 }
 /
 /
@@ -731,6 +759,7 @@ empty
 (
 )
 )
+{
 masm
 .
 haltingAlign
@@ -738,6 +767,7 @@ haltingAlign
 SimdMemoryAlignment
 )
 ;
+}
 for
 (
 const
@@ -767,6 +797,7 @@ v
 .
 uses
 )
+{
 addCodeLabel
 (
 CodeLabel
@@ -776,6 +807,7 @@ cst
 )
 )
 ;
+}
 masm
 .
 simd128Constant
@@ -794,8 +826,10 @@ if
 !
 enoughMemory_
 )
+{
 return
 ;
+}
 }
 }
 void
@@ -2084,6 +2118,7 @@ if
 (
 amountLeft
 )
+{
 subl
 (
 Imm32
@@ -2093,6 +2128,7 @@ amountLeft
 StackPointer
 )
 ;
+}
 /
 /
 Restore
@@ -2386,8 +2422,10 @@ if
 !
 enoughMemory_
 )
+{
 return
 ;
+}
 MoveEmitter
 emitter
 (
@@ -2567,11 +2605,13 @@ if
 (
 dynamicAlignment_
 )
+{
 pop
 (
 esp
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -2826,6 +2866,7 @@ payloadReg
 (
 )
 )
+{
 movl
 (
 reg
@@ -2840,6 +2881,7 @@ payloadReg
 )
 )
 ;
+}
 return
 ;
 }
@@ -3038,12 +3080,14 @@ s0
 =
 d0
 )
+{
 movl
 (
 s0
 d0
 )
 ;
+}
 if
 (
 s1
@@ -3051,12 +3095,14 @@ s1
 =
 d1
 )
+{
 movl
 (
 s1
 d1
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -3099,6 +3145,7 @@ isGCThing
 (
 )
 )
+{
 movl
 (
 ImmGCPtr
@@ -3116,7 +3163,9 @@ payloadReg
 )
 )
 ;
+}
 else
+{
 movl
 (
 Imm32
@@ -3134,6 +3183,7 @@ payloadReg
 )
 )
 ;
+}
 }
 /
 /
@@ -3223,12 +3273,14 @@ ptr
 =
 buffer
 )
+{
 movePtr
 (
 ptr
 buffer
 )
 ;
+}
 orPtr
 (
 Imm32
@@ -3775,6 +3827,7 @@ isGCThing
 (
 )
 )
+{
 cmpPtr
 (
 lhs
@@ -3792,7 +3845,9 @@ toGCThing
 )
 )
 ;
+}
 else
+{
 cmpPtr
 (
 lhs
@@ -3810,6 +3865,7 @@ toNunboxPayload
 )
 )
 ;
+}
 if
 (
 cond
@@ -4046,6 +4102,7 @@ valueType
 =
 slotType
 )
+{
 storeTypeTag
 (
 ImmType
@@ -4061,6 +4118,7 @@ dest
 )
 )
 ;
+}
 /
 /
 Store
@@ -4075,6 +4133,7 @@ constant
 (
 )
 )
+{
 storePayload
 (
 value
@@ -4088,7 +4147,9 @@ dest
 )
 )
 ;
+}
 else
+{
 storePayload
 (
 value
@@ -4110,6 +4171,7 @@ dest
 )
 )
 ;
+}
 }
 template
 void
@@ -4203,6 +4265,7 @@ JitOptions
 .
 spectreIndexMasking
 )
+{
 cmovCCl
 (
 cond
@@ -4213,6 +4276,7 @@ boundsCheckLimit
 index
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -4252,6 +4316,7 @@ JitOptions
 .
 spectreIndexMasking
 )
+{
 cmovCCl
 (
 cond
@@ -4262,6 +4327,7 @@ boundsCheckLimit
 index
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -4845,6 +4911,7 @@ Operand
 :
 MEM_REG_DISP
 )
+{
 MOZ_RELEASE_ASSERT
 (
 srcAddr
@@ -4861,6 +4928,7 @@ out
 low
 )
 ;
+}
 movl
 (
 LowWord

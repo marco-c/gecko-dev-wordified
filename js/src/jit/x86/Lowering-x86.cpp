@@ -715,6 +715,7 @@ fallible
 (
 )
 )
+{
 assignSnapshot
 (
 lir
@@ -726,6 +727,7 @@ bailoutKind
 )
 )
 ;
+}
 defineReuseInput
 (
 lir
@@ -854,6 +856,7 @@ fallible
 (
 )
 )
+{
 assignSnapshot
 (
 lir
@@ -865,6 +868,7 @@ bailoutKind
 )
 )
 ;
+}
 define
 (
 lir
@@ -1020,6 +1024,7 @@ fallible
 (
 )
 )
+{
 assignSnapshot
 (
 lir
@@ -1031,6 +1036,7 @@ bailoutKind
 )
 )
 ;
+}
 /
 /
 Types
@@ -1110,6 +1116,7 @@ if
 (
 reusePayloadReg
 )
+{
 defineReuseInput
 (
 lir
@@ -1117,13 +1124,16 @@ unbox
 0
 )
 ;
+}
 else
+{
 define
 (
 lir
 unbox
 )
 ;
+}
 }
 void
 LIRGenerator
@@ -1798,10 +1808,12 @@ constant
 =
 2
 )
+{
 needsTemp
 =
 false
 ;
+}
 if
 (
 int64_t
@@ -1815,10 +1827,12 @@ shift
 =
 constant
 )
+{
 needsTemp
 =
 false
 ;
+}
 }
 /
 /
@@ -1873,6 +1887,7 @@ if
 (
 needsTemp
 )
+{
 ins
 -
 >
@@ -1884,6 +1899,7 @@ temp
 )
 )
 ;
+}
 defineInt64Fixed
 (
 ins
@@ -2354,6 +2370,7 @@ offset
 0
 )
 )
+{
 baseAlloc
 =
 ins
@@ -2379,6 +2396,7 @@ useRegisterAtStart
 base
 )
 ;
+}
 if
 (
 ins
@@ -2826,6 +2844,7 @@ offset
 0
 )
 )
+{
 baseAlloc
 =
 useRegisterAtStart
@@ -2833,6 +2852,7 @@ useRegisterAtStart
 base
 )
 ;
+}
 LAllocation
 valueAlloc
 ;
@@ -4230,6 +4250,7 @@ type
 =
 1
 )
+{
 defineFixed
 (
 lir
@@ -4243,13 +4264,16 @@ eax
 )
 )
 ;
+}
 else
+{
 define
 (
 lir
 ins
 )
 ;
+}
 }
 void
 LIRGenerator
@@ -4528,6 +4552,7 @@ isConstant
 (
 )
 )
+{
 value
 =
 useFixed
@@ -4541,7 +4566,9 @@ value
 ebx
 )
 ;
+}
 else
+{
 value
 =
 useRegisterOrConstant
@@ -4554,6 +4581,7 @@ value
 )
 )
 ;
+}
 LWasmAtomicBinopHeapForEffect
 *
 lir
@@ -4918,6 +4946,7 @@ if
 (
 bitOp
 )
+{
 tempDef
 =
 tempFixed
@@ -4925,6 +4954,7 @@ tempFixed
 ecx
 )
 ;
+}
 }
 else
 if
@@ -4961,12 +4991,14 @@ if
 (
 bitOp
 )
+{
 tempDef
 =
 temp
 (
 )
 ;
+}
 }
 else
 {
@@ -5030,6 +5062,7 @@ byteArray
 |
 bitOp
 )
+{
 defineFixed
 (
 lir
@@ -5043,6 +5076,7 @@ eax
 )
 )
 ;
+}
 else
 if
 (
@@ -5058,13 +5092,16 @@ isConstant
 (
 )
 )
+{
 define
 (
 lir
 ins
 )
 ;
+}
 else
+{
 defineReuseInput
 (
 lir
@@ -5075,6 +5112,7 @@ LWasmAtomicBinopHeap
 valueOp
 )
 ;
+}
 }
 void
 LIRGeneratorX86

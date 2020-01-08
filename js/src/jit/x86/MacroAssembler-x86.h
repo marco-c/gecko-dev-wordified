@@ -339,6 +339,7 @@ base
 =
 StackPointer
 )
+{
 return
 Operand
 (
@@ -352,6 +353,7 @@ offset
 4
 )
 ;
+}
 return
 payloadOf
 (
@@ -1922,6 +1924,7 @@ payloadReg
 (
 )
 )
+{
 movl
 (
 payload
@@ -1932,6 +1935,7 @@ payloadReg
 )
 )
 ;
+}
 movl
 (
 ImmType
@@ -2027,6 +2031,7 @@ isGCThing
 (
 )
 )
+{
 push
 (
 ImmGCPtr
@@ -2039,7 +2044,9 @@ toGCThing
 )
 )
 ;
+}
 else
+{
 push
 (
 Imm32
@@ -2052,6 +2059,7 @@ toNunboxPayload
 )
 )
 ;
+}
 }
 void
 pushValue
@@ -2168,6 +2176,7 @@ isGCThing
 (
 )
 )
+{
 movl
 (
 ImmGCPtr
@@ -2184,7 +2193,9 @@ dest
 )
 )
 ;
+}
 else
+{
 movl
 (
 Imm32
@@ -2201,6 +2212,7 @@ dest
 )
 )
 ;
+}
 }
 void
 storePayload
@@ -5389,12 +5401,14 @@ src
 =
 temp
 )
+{
 moveDouble
 (
 src
 temp
 )
 ;
+}
 vpsrldq
 (
 Imm32
@@ -5441,6 +5455,7 @@ payloadReg
 (
 )
 )
+{
 movl
 (
 src
@@ -5451,6 +5466,7 @@ payloadReg
 )
 )
 ;
+}
 movl
 (
 ImmType
@@ -5559,12 +5575,14 @@ containsReg
 dest
 )
 )
+{
 movl
 (
 payload
 dest
 )
 ;
+}
 }
 ;
 if
@@ -6412,6 +6430,7 @@ payloadReg
 =
 dest
 )
+{
 movl
 (
 src
@@ -6422,6 +6441,7 @@ payloadReg
 dest
 )
 ;
+}
 }
 /
 /

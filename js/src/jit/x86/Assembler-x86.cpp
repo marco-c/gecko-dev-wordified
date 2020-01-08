@@ -379,6 +379,7 @@ rp
 :
 jumps_
 )
+{
 X86Encoding
 :
 :
@@ -394,6 +395,7 @@ rp
 target
 )
 ;
+}
 }
 class
 RelocationIterator
@@ -434,9 +436,11 @@ more
 (
 )
 )
+{
 return
 false
 ;
+}
 offset_
 =
 reader_

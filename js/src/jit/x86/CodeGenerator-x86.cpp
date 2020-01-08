@@ -351,12 +351,14 @@ FrameSizes
 i
 ]
 )
+{
 return
 FrameSizeClass
 (
 i
 )
 ;
+}
 }
 return
 FrameSizeClass
@@ -1074,6 +1076,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 cmp32
@@ -1099,7 +1102,9 @@ toBoolean
 )
 )
 ;
+}
 else
+{
 masm
 .
 cmp32
@@ -1115,6 +1120,7 @@ rhs
 )
 )
 ;
+}
 masm
 .
 emitSet
@@ -1311,6 +1317,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 cmp32
@@ -1336,7 +1343,9 @@ toBoolean
 )
 )
 ;
+}
 else
+{
 masm
 .
 cmp32
@@ -1352,6 +1361,7 @@ rhs
 )
 )
 ;
+}
 emitBranch
 (
 JSOpToCondition
@@ -1830,6 +1840,7 @@ input
 =
 temp
 )
+{
 masm
 .
 mov
@@ -1838,6 +1849,7 @@ input
 temp
 )
 ;
+}
 /
 /
 Beware
@@ -1920,6 +1932,7 @@ input
 =
 temp
 )
+{
 masm
 .
 mov
@@ -1928,6 +1941,7 @@ input
 temp
 )
 ;
+}
 /
 /
 Beware
@@ -2727,6 +2741,7 @@ if
 (
 ool
 )
+{
 masm
 .
 bind
@@ -2739,6 +2754,7 @@ rejoin
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -2934,6 +2950,7 @@ used
 (
 )
 )
+{
 masm
 .
 bind
@@ -2942,6 +2959,7 @@ bind
 rejoin
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -5988,13 +6006,16 @@ compilingWasm
 (
 )
 )
+{
 masm
 .
 setupWasmABICall
 (
 )
 ;
+}
 else
+{
 masm
 .
 setupUnalignedABICall
@@ -6002,6 +6023,7 @@ setupUnalignedABICall
 output
 )
 ;
+}
 masm
 .
 vcvtss2sd
@@ -6836,6 +6858,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 xor64
@@ -6844,7 +6867,9 @@ output
 output
 )
 ;
+}
 else
+{
 masm
 .
 wasmTrap
@@ -6864,6 +6889,7 @@ bytecodeOffset
 )
 )
 ;
+}
 masm
 .
 jump
@@ -6942,6 +6968,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 callWithABI
@@ -6961,7 +6988,9 @@ SymbolicAddress
 ModI64
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -6981,6 +7010,7 @@ SymbolicAddress
 DivI64
 )
 ;
+}
 /
 /
 output
@@ -7231,6 +7261,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 callWithABI
@@ -7250,7 +7281,9 @@ SymbolicAddress
 UModI64
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -7270,6 +7303,7 @@ SymbolicAddress
 UDivI64
 )
 ;
+}
 /
 /
 output
@@ -7735,6 +7769,7 @@ low
 =
 input
 )
+{
 masm
 .
 movl
@@ -7745,6 +7780,7 @@ output
 low
 )
 ;
+}
 masm
 .
 xorl
@@ -7985,6 +8021,7 @@ bottomHalf
 (
 )
 )
+{
 masm
 .
 movl
@@ -8000,7 +8037,9 @@ low
 output
 )
 ;
+}
 else
+{
 masm
 .
 movl
@@ -8016,6 +8055,7 @@ high
 output
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -8419,6 +8459,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 wasmTruncateFloat32ToUInt64
@@ -8441,7 +8482,9 @@ rejoin
 floatTemp
 )
 ;
+}
 else
+{
 masm
 .
 wasmTruncateFloat32ToInt64
@@ -8465,6 +8508,7 @@ floatTemp
 )
 ;
 }
+}
 else
 {
 if
@@ -8476,6 +8520,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 wasmTruncateDoubleToUInt64
@@ -8498,7 +8543,9 @@ rejoin
 floatTemp
 )
 ;
+}
 else
+{
 masm
 .
 wasmTruncateDoubleToInt64
@@ -8521,6 +8568,7 @@ rejoin
 floatTemp
 )
 ;
+}
 }
 }
 void
@@ -8648,6 +8696,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 convertUInt64ToDouble
@@ -8657,7 +8706,9 @@ output
 temp
 )
 ;
+}
 else
+{
 masm
 .
 convertInt64ToDouble
@@ -8666,6 +8717,7 @@ input
 output
 )
 ;
+}
 }
 else
 {
@@ -8683,6 +8735,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 convertUInt64ToFloat32
@@ -8692,7 +8745,9 @@ output
 temp
 )
 ;
+}
 else
+{
 masm
 .
 convertInt64ToFloat32
@@ -8701,6 +8756,7 @@ input
 output
 )
 ;
+}
 }
 }
 void
