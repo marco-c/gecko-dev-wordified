@@ -1549,10 +1549,13 @@ RootedObject
 obj
 (
 cx
+&
 ni
 -
 >
-obj
+objectBeingIterated
+(
+)
 )
 ;
 {

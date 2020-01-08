@@ -1272,10 +1272,13 @@ next
 enumerators
 )
 return
+&
 next
 -
 >
-obj
+objectBeingIterated
+(
+)
 =
 =
 obj
