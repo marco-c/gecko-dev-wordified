@@ -173,6 +173,11 @@ getDbTable
 snippets
 "
 )
+this
+.
+store
+.
+dispatch
 )
 ;
 /

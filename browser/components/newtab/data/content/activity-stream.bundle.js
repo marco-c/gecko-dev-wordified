@@ -2866,6 +2866,9 @@ type
 of
 [
 "
+INSTALL_ADDON_FROM_URL
+"
+"
 OPEN_PRIVATE_BROWSER_WINDOW
 "
 "
@@ -9647,9 +9650,13 @@ data
 {
 trigger
 :
+{
+id
+:
 "
 firstRun
 "
+}
 }
 }
 )
@@ -21867,6 +21874,11 @@ data
 {
 url
 :
+site
+.
+open_url
+|
+|
 site
 .
 url
