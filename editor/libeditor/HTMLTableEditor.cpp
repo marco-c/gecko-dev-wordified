@@ -791,6 +791,7 @@ selection
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -1108,6 +1109,7 @@ munging
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -2211,6 +2213,7 @@ munging
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -3015,6 +3018,7 @@ munging
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -4212,6 +4216,7 @@ false
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -4954,6 +4959,7 @@ false
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -5126,6 +5132,7 @@ selection
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -6590,6 +6597,7 @@ deletions
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -9635,6 +9643,7 @@ munging
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -11229,6 +11238,7 @@ selection
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;

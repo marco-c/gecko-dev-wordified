@@ -2041,7 +2041,6 @@ working
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 TextEditorRef
 (
 )
@@ -4885,7 +4884,6 @@ subtransactions
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 TextEditorRef
 (
 )
@@ -8334,7 +8332,6 @@ br
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 TextEditorRef
 (
 )

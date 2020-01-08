@@ -3003,7 +3003,6 @@ working
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -8913,7 +8912,6 @@ subtransactions
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -19013,7 +19011,6 @@ IsPlaintextEditor
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -21766,7 +21763,6 @@ NameAtom
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -28924,7 +28920,6 @@ HTMLEditorRef
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -37761,7 +37756,6 @@ necessary
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -49093,7 +49087,6 @@ selection
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )

@@ -6137,6 +6137,7 @@ subtransactions
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
+*
 this
 )
 ;

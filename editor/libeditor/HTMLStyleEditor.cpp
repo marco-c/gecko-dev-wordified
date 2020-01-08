@@ -589,6 +589,7 @@ this
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
+*
 this
 )
 ;
@@ -7829,6 +7830,7 @@ this
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
+*
 this
 )
 ;
@@ -8944,6 +8946,7 @@ this
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
+*
 this
 )
 ;
