@@ -303,13 +303,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

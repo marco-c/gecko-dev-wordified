@@ -198,13 +198,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
@@ -585,7 +578,7 @@ DEBUG
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 node
 (

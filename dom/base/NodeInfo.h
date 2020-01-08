@@ -814,10 +814,10 @@ the
 values
 specified
 in
-nsIDOMNode
+Node
 *
 for
-nsIDOMNode
+Node
 .
 nodeType
 *
@@ -1764,7 +1764,7 @@ mNodeType
 As
 defined
 by
-nsIDOMNode
+Node
 .
 nodeType
 const

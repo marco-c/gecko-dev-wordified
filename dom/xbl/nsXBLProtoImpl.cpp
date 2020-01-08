@@ -168,13 +168,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsXBLPrototypeBinding
 .
 h

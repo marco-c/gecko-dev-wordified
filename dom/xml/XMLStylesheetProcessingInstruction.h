@@ -257,7 +257,7 @@ ProcessingInstruction
 )
 /
 /
-nsIDOMNode
+nsINode
 virtual
 void
 SetNodeValueInternal

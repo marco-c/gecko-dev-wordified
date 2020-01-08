@@ -325,7 +325,7 @@ nullptr
 }
 /
 /
-nsIDOMNode
+nsINode
 void
 XMLStylesheetProcessingInstruction
 :

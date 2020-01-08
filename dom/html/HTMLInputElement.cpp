@@ -6265,7 +6265,7 @@ nsIConstraintValidation
 )
 /
 /
-nsIDOMNode
+nsINode
 nsresult
 HTMLInputElement
 :

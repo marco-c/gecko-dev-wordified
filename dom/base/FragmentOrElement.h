@@ -134,7 +134,7 @@ provides
 an
 implementation
 of
-nsIDOMNode
+nsINode
 implements
 nsIContent
 provides
@@ -391,7 +391,7 @@ fragments
 implementing
 many
 nsIContent
-nsIDOMNode
+nsINode
 and
 Element
 methods

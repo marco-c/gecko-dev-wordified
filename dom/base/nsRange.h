@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

@@ -249,10 +249,8 @@ aAttrName
 )
 const
 ;
-already_AddRefed
-<
 nsINode
->
+*
 GetRelatedNode
 (
 )

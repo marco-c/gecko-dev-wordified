@@ -255,7 +255,7 @@ public
 :
 /
 /
-nsIDOMNode
+nsINode
 specializations
 virtual
 nsresult

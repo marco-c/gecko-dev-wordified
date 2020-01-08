@@ -519,7 +519,7 @@ SVGScriptElement
 -
 /
 /
-nsIDOMNode
+nsINode
 methods
 nsresult
 SVGScriptElement

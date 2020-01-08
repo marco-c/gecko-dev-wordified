@@ -793,7 +793,7 @@ UnlinkSource
 -
 /
 /
-nsIDOMNode
+nsINode
 methods
 nsresult
 SVGUseElement

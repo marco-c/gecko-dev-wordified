@@ -606,7 +606,7 @@ aNodeInfo
 -
 /
 /
-nsIDOMNode
+nsINode
 method
 NS_IMPL_ELEMENT_CLONE_WITH_INIT
 (

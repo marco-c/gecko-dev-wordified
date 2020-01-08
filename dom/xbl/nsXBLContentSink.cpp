@@ -147,13 +147,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

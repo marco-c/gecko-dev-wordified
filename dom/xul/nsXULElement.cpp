@@ -2122,7 +2122,7 @@ nsStyledElement
 -
 /
 /
-nsIDOMNode
+nsINode
 interface
 nsresult
 nsXULElement

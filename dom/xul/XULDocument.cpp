@@ -9317,7 +9317,7 @@ NS_OK
 /
 /
 /
-nsIDOMNode
+nsINode
 interface
 /
 /

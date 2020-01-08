@@ -255,7 +255,7 @@ public
 :
 /
 /
-nsIDOMNode
+nsINode
 virtual
 nsresult
 Clone
