@@ -2472,6 +2472,12 @@ IsEmpty
 mManualInvalidation
 )
 {
+mDevices
+.
+Clear
+(
+)
+;
 CubebUtils
 :
 :
@@ -2485,6 +2491,12 @@ Input
 )
 ;
 }
+aOutDevices
+.
+Clear
+(
+)
+;
 aOutDevices
 .
 AppendElements
