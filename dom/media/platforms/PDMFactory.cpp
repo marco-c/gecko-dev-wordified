@@ -566,10 +566,10 @@ mCheckerList
 .
 AppendElement
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Func
 >

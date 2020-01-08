@@ -1414,7 +1414,10 @@ this
 aMethod
 )
 (
-Forward
+std
+:
+:
+forward
 <
 ParamType
 >
@@ -1470,7 +1473,10 @@ IsOnMessageLoopThread
 CallMethod
 (
 aMethod
-Forward
+std
+:
+:
+forward
 <
 ParamType
 >
@@ -1546,7 +1552,10 @@ aName
 this
 m
 aMethod
-Forward
+std
+:
+:
+forward
 <
 ParamType
 >

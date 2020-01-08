@@ -360,10 +360,10 @@ const
 return
 mFunction
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

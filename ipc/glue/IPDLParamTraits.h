@@ -219,7 +219,10 @@ P
 Write
 (
 aMsg
-Forward
+std
+:
+:
+forward
 <
 R
 >
@@ -449,7 +452,10 @@ Write
 (
 aMsg
 aActor
-Forward
+std
+:
+:
+forward
 <
 P
 >

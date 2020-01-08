@@ -789,10 +789,10 @@ fifo
 .
 pushBack
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 U
 >
@@ -829,10 +829,10 @@ fifo
 .
 emplaceBack
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 .

@@ -440,7 +440,10 @@ aRange
 :
 mRange
 (
-Forward
+std
+:
+:
+forward
 <
 TextRange
 >

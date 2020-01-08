@@ -2457,10 +2457,10 @@ JSObject
 (
 nullptr
 )
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >
@@ -2513,10 +2513,10 @@ type
 >
 (
 )
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

@@ -339,10 +339,10 @@ args
 return
 aFnPtr
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

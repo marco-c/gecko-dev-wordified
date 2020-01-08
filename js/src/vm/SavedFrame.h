@@ -1156,10 +1156,10 @@ HashPolicy
 :
 hasHash
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Lookup
 >
@@ -1193,10 +1193,10 @@ HashPolicy
 :
 ensureHash
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Lookup
 >

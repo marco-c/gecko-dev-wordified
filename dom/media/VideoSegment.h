@@ -303,7 +303,10 @@ aPrincipalHandle
 {
 mPrincipalHandle
 =
-Forward
+std
+:
+:
+forward
 <
 PrincipalHandle
 >

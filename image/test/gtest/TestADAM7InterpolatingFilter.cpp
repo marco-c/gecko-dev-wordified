@@ -262,7 +262,10 @@ decoder
 WithFilterPipeline
 (
 decoder
-Forward
+std
+:
+:
+forward
 <
 Func
 >

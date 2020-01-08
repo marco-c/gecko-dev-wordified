@@ -3720,10 +3720,10 @@ ins
 LClass
 (
 numOperands
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

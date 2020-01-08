@@ -1740,7 +1740,10 @@ mSyncObj
 aSyncMethod
 )
 (
-Forward
+std
+:
+:
+forward
 <
 Args
 >
@@ -1803,7 +1806,10 @@ asyncInterface
 aAsyncMethod
 )
 (
-Forward
+std
+:
+:
+forward
 <
 Args
 >

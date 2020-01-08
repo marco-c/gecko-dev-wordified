@@ -189,7 +189,10 @@ Type
 aLabel
 mProxy
 aFunc
-Forward
+std
+:
+:
+forward
 <
 Args
 >

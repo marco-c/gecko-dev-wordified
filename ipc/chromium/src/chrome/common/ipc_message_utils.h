@@ -1277,10 +1277,10 @@ Type
 Write
 (
 m
-mozilla
+std
 :
 :
-Forward
+forward
 <
 P
 >

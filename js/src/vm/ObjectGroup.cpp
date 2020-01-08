@@ -3352,10 +3352,10 @@ NewEntry
 :
 hasHash
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Lookup
 >
@@ -3389,10 +3389,10 @@ NewEntry
 :
 ensureHash
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Lookup
 >

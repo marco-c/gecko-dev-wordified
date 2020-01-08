@@ -283,7 +283,10 @@ aPtr
 :
 mPtr
 (
-Forward
+std
+:
+:
+forward
 <
 COMPtrType
 >
@@ -307,7 +310,10 @@ aActCtx
 :
 mPtr
 (
-Forward
+std
+:
+:
+forward
 <
 COMPtrType
 >
@@ -362,7 +368,10 @@ aPtr
 {
 mPtr
 =
-Forward
+std
+:
+:
+forward
 <
 COMPtrType
 >

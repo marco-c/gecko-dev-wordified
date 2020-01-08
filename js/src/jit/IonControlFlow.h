@@ -247,10 +247,10 @@ alloc
 )
 CFGThisOpcode
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >
@@ -302,10 +302,10 @@ alloc
 )
 CFGThisOpcode
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

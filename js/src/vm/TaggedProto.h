@@ -1002,10 +1002,10 @@ JSObject
 (
 nullptr
 )
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >
@@ -1034,10 +1034,10 @@ proto
 toObject
 (
 )
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

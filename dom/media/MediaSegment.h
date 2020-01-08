@@ -960,7 +960,10 @@ aLastPrincipalHandle
 {
 mLastPrincipalHandle
 =
-Forward
+std
+:
+:
+forward
 <
 PrincipalHandle
 >

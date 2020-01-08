@@ -179,10 +179,10 @@ aArgs
 :
 MMPolicy
 (
-mozilla
+std
 :
 :
-Forward
+forward
 <
 Args
 >

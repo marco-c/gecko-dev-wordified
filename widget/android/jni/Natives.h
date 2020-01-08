@@ -3759,7 +3759,10 @@ Args
 .
 >
 (
-Forward
+std
+:
+:
+forward
 <
 ProxyArgs
 >
@@ -3904,7 +3907,10 @@ IsStatic
 thisArg
 :
 nullptr
-Forward
+std
+:
+:
+forward
 <
 ProxyArgs
 >
@@ -4065,7 +4071,10 @@ IsStatic
 thisArg
 :
 nullptr
-Forward
+std
+:
+:
+forward
 <
 ProxyArgs
 >
