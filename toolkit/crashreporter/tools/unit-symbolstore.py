@@ -5024,7 +5024,7 @@ cpp
 #
 Also
 check
-Assertions
+Sprintf
 .
 h
 to
@@ -5048,7 +5048,7 @@ file_lines
 '
 mfbt
 /
-Assertions
+Sprintf
 .
 h
 '
