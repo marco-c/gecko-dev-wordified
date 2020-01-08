@@ -1366,9 +1366,9 @@ true
 ;
 }
 virtual
-AbortSignal
+AbortSignalImpl
 *
-GetSignal
+GetSignalImpl
 (
 )
 const

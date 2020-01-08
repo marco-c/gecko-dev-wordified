@@ -651,11 +651,11 @@ can
 return
 a
 null
-AbortSignal
+AbortSignalImpl
 .
-AbortSignal
+AbortSignalImpl
 *
-GetSignal
+GetSignalImpl
 (
 )
 const

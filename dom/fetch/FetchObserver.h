@@ -179,9 +179,9 @@ FetchObserver
 nsIGlobalObject
 *
 aGlobal
-AbortSignal
+AbortSignalImpl
 *
-aSignal
+aSignalImpl
 )
 ;
 JSObject
