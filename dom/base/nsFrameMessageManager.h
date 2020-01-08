@@ -808,7 +808,7 @@ class
 nsFrameMessageManager
 :
 public
-nsIContentFrameMessageManager
+nsIMessageSender
 {
 friend
 class
@@ -902,10 +902,9 @@ MM_NONE
 {
 }
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsFrameMessageManager
-nsIContentFrameMessageManager
 )
 void
 MarkForCC
@@ -1288,7 +1287,6 @@ SharedData
 )
 ;
 NS_DECL_NSIMESSAGESENDER
-NS_DECL_NSICONTENTFRAMEMESSAGEMANAGER
 static
 mozilla
 :
