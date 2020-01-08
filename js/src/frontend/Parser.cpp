@@ -11335,7 +11335,7 @@ bindings
 =
 alloc
 .
-newWithSize
+allocInSize
 <
 Data
 >
