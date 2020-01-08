@@ -1050,11 +1050,6 @@ position
 "
 bottom
 "
-theme
-:
-"
-auto
-"
 autoSelect
 :
 true

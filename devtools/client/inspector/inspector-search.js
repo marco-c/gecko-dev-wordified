@@ -1201,11 +1201,6 @@ position
 "
 top
 "
-theme
-:
-"
-auto
-"
 onClick
 :
 this

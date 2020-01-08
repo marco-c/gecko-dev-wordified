@@ -1926,11 +1926,6 @@ doc
 autoSelect
 :
 true
-theme
-:
-"
-auto
-"
 }
 )
 ;
