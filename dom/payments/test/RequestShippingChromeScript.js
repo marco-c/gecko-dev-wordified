@@ -245,12 +245,6 @@ region
 "
 /
 /
-region
-code
-"
-"
-/
-/
 city
 "
 "

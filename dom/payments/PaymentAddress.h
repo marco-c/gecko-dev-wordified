@@ -179,10 +179,6 @@ aRegion
 const
 nsAString
 &
-aRegionCode
-const
-nsAString
-&
 aCity
 const
 nsAString
@@ -276,15 +272,6 @@ aRetVal
 const
 ;
 void
-GetRegionCode
-(
-nsAString
-&
-aRetVal
-)
-const
-;
-void
 GetCity
 (
 nsAString
@@ -365,9 +352,6 @@ mAddressLine
 ;
 nsString
 mRegion
-;
-nsString
-mRegionCode
 ;
 nsString
 mCity

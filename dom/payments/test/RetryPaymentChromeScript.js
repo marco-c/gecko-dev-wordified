@@ -261,13 +261,6 @@ CA
 /
 region
 "
-CA
-"
-/
-/
-region
-code
-"
 San
 Bruno
 "
