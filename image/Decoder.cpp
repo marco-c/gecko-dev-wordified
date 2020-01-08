@@ -1991,13 +1991,6 @@ animated
 "
 )
 ;
-aPreviousFrame
--
->
-SetRawAccessOnly
-(
-)
-;
 /
 /
 If
@@ -2094,13 +2087,6 @@ frameNum
 0
 )
 {
-ref
--
->
-SetRawAccessOnly
-(
-)
-;
 /
 /
 Some
