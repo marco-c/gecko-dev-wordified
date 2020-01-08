@@ -130,6 +130,11 @@ cookie
 cookieBehavior
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 Checks
