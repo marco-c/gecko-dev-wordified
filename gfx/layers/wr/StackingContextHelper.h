@@ -340,7 +340,7 @@ aClipNodeId
 =
 nullptr
 bool
-aRasterizeLocally
+aAnimated
 =
 false
 )

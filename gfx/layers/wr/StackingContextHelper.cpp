@@ -274,7 +274,7 @@ WrClipId
 *
 aClipNodeId
 bool
-aRasterizeLocally
+aAnimated
 )
 :
 mBuilder
@@ -301,7 +301,7 @@ aIsPreserve3D
 )
 mRasterizeLocally
 (
-aRasterizeLocally
+aAnimated
 |
 |
 aParentSC
@@ -382,7 +382,7 @@ true
 ;
 if
 (
-aAnimation
+aAnimated
 )
 {
 mSnappingSurfaceTransform

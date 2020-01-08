@@ -51720,7 +51720,7 @@ pixel
 snapping
 )
 bool
-rasterizeLocally
+animated
 =
 ActiveLayerTracker
 :
@@ -51780,7 +51780,7 @@ Extend3DContext
 mNoExtendContext
 deferredTransformItem
 nullptr
-rasterizeLocally
+animated
 )
 ;
 return
