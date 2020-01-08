@@ -509,6 +509,7 @@ str
 RootedScript
 callerScript
 ;
+MOZ_INIT_OUTSIDE_CTOR
 jsbytecode
 *
 pc

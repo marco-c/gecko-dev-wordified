@@ -8607,6 +8607,7 @@ JS
 RootedString
 s_
 ;
+MOZ_INIT_OUTSIDE_CTOR
 union
 {
 const

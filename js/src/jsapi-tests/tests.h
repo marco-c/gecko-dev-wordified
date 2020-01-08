@@ -3062,6 +3062,14 @@ cx_
 (
 cx
 )
+zealBits_
+(
+0
+)
+frequency_
+(
+0
+)
 {
 uint32_t
 dummy

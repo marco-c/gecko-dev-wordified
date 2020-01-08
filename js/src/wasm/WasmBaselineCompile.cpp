@@ -6339,6 +6339,17 @@ reservedSize_
 (
 localSize_
 )
+frameOffset_
+(
+0
+)
+mirType_
+(
+MIRType
+:
+:
+Undefined
+)
 done_
 (
 false

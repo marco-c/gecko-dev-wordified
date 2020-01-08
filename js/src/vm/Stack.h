@@ -11981,6 +11981,8 @@ warning
 .
 uint32_t
 checkRegs_
+=
+0
 ;
 RegisterDump
 regs_

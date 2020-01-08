@@ -10001,6 +10001,10 @@ parent
 (
 nullptr
 )
+listp
+(
+nullptr
+)
 {
 setNumFixedSlots
 (
@@ -10208,6 +10212,10 @@ mutableFlags
 0
 )
 parent
+(
+nullptr
+)
+listp
 (
 nullptr
 )

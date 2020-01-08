@@ -4186,6 +4186,9 @@ SeqRegExpNode
 (
 on_success
 )
+data_
+{
+}
 action_type_
 (
 action_type

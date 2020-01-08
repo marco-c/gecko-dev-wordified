@@ -750,6 +750,11 @@ uint64
 RecyclableAtomMapValueWrapper
 (
 )
+:
+dummy
+(
+0
+)
 {
 assertInvariant
 (
