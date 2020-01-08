@@ -263,6 +263,8 @@ environment
 topsrcdir
 topobjdir
 dry_run
+                 
+default_group
 )
 :
         
@@ -441,6 +443,12 @@ set
 (
 )
         
+self
+.
+_default_group
+=
+default_group
+        
 #
 These
 files
@@ -595,7 +603,7 @@ None
 extra_inputs
 =
 None
-extra_outputs
+output_group
 =
 None
 check_unchanged
@@ -617,6 +625,18 @@ outputs
 or
 [
 ]
+        
+if
+output_group
+is
+None
+:
+            
+output_group
+=
+self
+.
+_default_group
         
 for
 f
@@ -767,7 +787,7 @@ outputs
 s
 %
 (
-extra_outputs
+output_group
 )
 s
 \
@@ -852,22 +872,15 @@ outputs
 )
             
 '
-extra_outputs
+output_group
 '
 :
 '
-|
 '
 +
-'
-'
-.
-join
-(
-extra_outputs
-)
+output_group
 if
-extra_outputs
+output_group
 else
 '
 '
@@ -914,17 +927,6 @@ basename
 source
 )
 ]
-        
-if
-output_group
-:
-            
-outputs
-.
-append
-(
-output_group
-)
         
 #
 The
@@ -976,6 +978,10 @@ source
 outputs
 =
 outputs
+            
+output_group
+=
+output_group
         
 )
     
@@ -1904,6 +1910,20 @@ MOZ_OBJ_ROOT
 shlibs
 >
 '
+        
+self
+.
+_default_group
+=
+'
+(
+MOZ_OBJ_ROOT
+)
+/
+<
+default
+>
+'
     
 def
 _get_mozconfig_env
@@ -2034,9 +2054,16 @@ what
 what
 =
 [
-self
-.
-environment
+'
+%
+s
+/
+<
+default
+>
+'
+%
+config
 .
 topobjdir
 ]
@@ -2328,6 +2355,9 @@ topobjdir
 self
 .
 dry_run
+self
+.
+_default_group
 )
         
 return
@@ -2850,13 +2880,11 @@ shlib
 lib_name
 ]
             
-extra_outputs
+output_group
 =
-[
 self
 .
 _shlibs
-]
             
 display
 =
@@ -6335,13 +6363,11 @@ outputs
 =
 outputs
                 
-extra_outputs
+output_group
 =
-[
 self
 .
 _rust_libs
-]
                 
 extra_inputs
 =
@@ -6899,31 +6925,26 @@ outputs
 )
 :
                 
-extra_outputs
+output_group
 =
-[
 self
 .
 _early_generated_files
-]
             
 else
 :
                 
-extra_outputs
+output_group
 =
-[
 self
 .
 _installed_files
-]
 if
 obj
 .
 required_for_compile
 else
-[
-]
+None
                 
 full_inputs
 +
@@ -7086,9 +7107,9 @@ outputs
 =
 outputs
                 
-extra_outputs
+output_group
 =
-extra_outputs
+output_group
                 
 check_unchanged
 =
@@ -8488,13 +8509,11 @@ outputs
 =
 outputs
                 
-extra_outputs
+output_group
 =
-[
 self
 .
 _installed_files
-]
                 
 check_unchanged
 =
@@ -9326,13 +9345,11 @@ outputs
 =
 outputs
             
-extra_outputs
+output_group
 =
-[
 self
 .
 _installed_files
-]
             
 check_unchanged
 =
@@ -9558,13 +9575,11 @@ outputs
 =
 outputs
             
-extra_outputs
+output_group
 =
-[
 self
 .
 _installed_files
-]
             
 check_unchanged
 =
