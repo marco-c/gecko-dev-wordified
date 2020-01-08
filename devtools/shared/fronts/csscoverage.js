@@ -656,7 +656,7 @@ notes
 on
 target
 .
-makeRemote
+attach
 (
 )
 see
@@ -694,7 +694,7 @@ trgt
 return
 trgt
 .
-makeRemote
+attach
 (
 )
 .
