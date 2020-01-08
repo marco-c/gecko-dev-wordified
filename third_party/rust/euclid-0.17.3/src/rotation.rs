@@ -125,13 +125,13 @@ Zero
 }
 ;
 use
-core
+std
 :
 :
 fmt
 ;
 use
-core
+std
 :
 :
 ops
@@ -151,7 +151,7 @@ SubAssign
 }
 ;
 use
-core
+std
 :
 :
 marker
@@ -5540,7 +5540,7 @@ simple_rotation_2d
 )
 {
 use
-core
+std
 :
 :
 f32
@@ -5797,7 +5797,7 @@ simple_rotation_3d_in_2d
 )
 {
 use
-core
+std
 :
 :
 f32
@@ -6072,7 +6072,7 @@ pre_post
 )
 {
 use
-core
+std
 :
 :
 f32
@@ -6254,10 +6254,6 @@ approx_eq
 (
 &
 p2
-.
-unwrap
-(
-)
 )
 )
 ;
@@ -6304,10 +6300,6 @@ approx_eq
 (
 &
 p3
-.
-unwrap
-(
-)
 )
 )
 ;
@@ -6322,7 +6314,7 @@ to_transform3d
 )
 {
 use
-core
+std
 :
 :
 f32
@@ -6571,10 +6563,6 @@ approx_eq
 (
 &
 p2
-.
-unwrap
-(
-)
 )
 )
 ;
@@ -7119,7 +7107,7 @@ around_axis
 )
 {
 use
-core
+std
 :
 :
 f32
@@ -7381,7 +7369,7 @@ from_euler
 )
 {
 use
-core
+std
 :
 :
 f32
@@ -7773,7 +7761,7 @@ wrap_angles
 )
 {
 use
-core
+std
 :
 :
 f32
