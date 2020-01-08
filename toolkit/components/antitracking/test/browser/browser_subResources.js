@@ -244,7 +244,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
@@ -331,7 +331,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
@@ -429,7 +429,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
@@ -516,7 +516,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
@@ -558,7 +558,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
@@ -629,7 +629,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
@@ -1037,7 +1037,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
@@ -1124,7 +1124,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
@@ -1222,7 +1222,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
@@ -1309,7 +1309,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
@@ -1351,7 +1351,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
@@ -1424,7 +1424,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /
