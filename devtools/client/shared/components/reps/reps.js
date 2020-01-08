@@ -6505,6 +6505,7 @@ preventDefault
 openLink
 (
 token
+e
 )
 ;
 }
