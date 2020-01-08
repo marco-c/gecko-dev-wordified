@@ -832,11 +832,11 @@ out
 after
 %
 d
-seconds
-with
 "
                   
 "
+seconds
+with
 no
 output
 "
