@@ -360,8 +360,16 @@ NS_MATHML_OPERATOR_RSPACE_ATTR
 #
 define
 NS_MATHML_OPERATOR_SIZE_INFINITY
-NS_IEEEPositiveInfinity
 (
+mozilla
+:
+:
+PositiveInfinity
+<
+float
+>
+(
+)
 )
 class
 nsMathMLOperators
