@@ -845,6 +845,20 @@ false
 ]
 /
 /
+Remove
+redundant
+portions
+from
+URLs
+.
+[
+"
+trimURLs
+"
+true
+]
+/
+/
 Results
 will
 include
@@ -1338,7 +1352,7 @@ get
 *
 returns
 {
-value
+*
 }
 The
 preference
@@ -1617,7 +1631,7 @@ get
 *
 returns
 {
-value
+*
 }
 The
 raw
@@ -1878,7 +1892,7 @@ get
 *
 returns
 {
-value
+*
 }
 The
 validated
