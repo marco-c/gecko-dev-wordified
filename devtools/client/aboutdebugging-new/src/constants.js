@@ -241,6 +241,13 @@ NETWORK
 "
 network
 "
+THIS_FIREFOX
+:
+"
+this
+-
+firefox
+"
 }
 ;
 const
