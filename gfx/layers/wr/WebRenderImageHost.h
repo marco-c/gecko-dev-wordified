@@ -350,7 +350,6 @@ IntSize
 GetImageSize
 (
 )
-const
 override
 ;
 virtual

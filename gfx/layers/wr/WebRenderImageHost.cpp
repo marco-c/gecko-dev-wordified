@@ -1605,7 +1605,6 @@ WebRenderImageHost
 GetImageSize
 (
 )
-const
 {
 const
 TimedImage
