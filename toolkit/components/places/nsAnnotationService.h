@@ -460,9 +460,6 @@ kAnnoIndex_LastModified
 nsresult
 StartGetAnnotation
 (
-nsIURI
-*
-aURI
 int64_t
 aItemId
 const
