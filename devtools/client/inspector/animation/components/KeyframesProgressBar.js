@@ -630,9 +630,6 @@ progress
 bar
 -
 area
-devtools
--
-toolbar
 "
 }
 dom
