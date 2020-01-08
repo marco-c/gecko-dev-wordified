@@ -125,10 +125,10 @@ ElementState
 }
 ;
 use
-fnv
+fxhash
 :
 :
-FnvHashMap
+FxHashMap
 ;
 use
 invalidation
@@ -4100,7 +4100,7 @@ pub
 struct
 SnapshotMap
 (
-FnvHashMap
+FxHashMap
 <
 OpaqueNode
 ServoElementSnapshot
@@ -4130,7 +4130,7 @@ Self
 {
 SnapshotMap
 (
-FnvHashMap
+FxHashMap
 :
 :
 default
@@ -4199,7 +4199,7 @@ SnapshotMap
 type
 Target
 =
-FnvHashMap
+FxHashMap
 <
 OpaqueNode
 ServoElementSnapshot
