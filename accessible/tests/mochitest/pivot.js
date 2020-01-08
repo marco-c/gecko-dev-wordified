@@ -747,7 +747,10 @@ matches
 expecting
 "
 +
+prettyName
+(
 aIdOrNameOrAcc
+)
 +
 "
 got
