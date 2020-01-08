@@ -33952,11 +33952,11 @@ errorNumber
 JSMSG_BAD_CONST_ASSIGN
 )
 ;
-UniqueChars
-printable
-;
 if
 (
+UniqueChars
+printable
+=
 ValueToPrintableLatin1
 (
 cx
@@ -33964,8 +33964,6 @@ IdToValue
 (
 id
 )
-&
-printable
 )
 )
 JS_ReportErrorNumberLatin1

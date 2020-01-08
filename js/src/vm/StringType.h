@@ -11598,9 +11598,7 @@ string
 *
 /
 extern
-const
-char
-*
+UniqueChars
 ValueToPrintableLatin1
 (
 JSContext
@@ -11609,9 +11607,6 @@ cx
 const
 Value
 &
-UniqueChars
-*
-bytes
 bool
 asSource
 =
@@ -11638,9 +11633,7 @@ UTF
 *
 /
 extern
-const
-char
-*
+UniqueChars
 ValueToPrintableUTF8
 (
 JSContext
@@ -11649,9 +11642,6 @@ cx
 const
 Value
 &
-UniqueChars
-*
-bytes
 bool
 asSource
 =
