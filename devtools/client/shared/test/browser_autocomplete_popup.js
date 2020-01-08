@@ -329,7 +329,7 @@ is
 popup
 .
 selectedIndex
-2
+0
 "
 Index
 of
@@ -337,7 +337,7 @@ the
 first
 item
 from
-bottom
+top
 is
 selected
 .
@@ -351,13 +351,13 @@ popup
 selectedItem
 items
 [
-2
+0
 ]
 "
 First
 item
 from
-bottom
+top
 is
 selected
 "
