@@ -2149,7 +2149,7 @@ blacklisting
 "
 )
 ;
-mOptions
+newOpts
 .
 antialias
 =
