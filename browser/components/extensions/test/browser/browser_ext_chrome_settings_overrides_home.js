@@ -2143,7 +2143,7 @@ promisePopupShown
 panel
 )
 ;
-BrowserGoHome
+BrowserHome
 (
 )
 ;

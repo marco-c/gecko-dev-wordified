@@ -414,7 +414,7 @@ tab
 ;
 win
 .
-BrowserGoHome
+BrowserHome
 (
 )
 ;
