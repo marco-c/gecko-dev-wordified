@@ -65,6 +65,7 @@ testdir
 .
 maketxtfile
 (
+            
 test_something
 =
 "
@@ -92,6 +93,7 @@ i
 "
 "
 "
+        
 )
         
 for
@@ -229,14 +231,13 @@ testdir
 inline_genitems
 (
 p
-                                                    
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
             
 assert
@@ -297,14 +298,13 @@ testdir
 inline_genitems
 (
 p
-                                                    
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
             
 assert
@@ -352,6 +352,7 @@ testdir
 .
 makepyfile
 (
+            
 whatever
 =
 "
@@ -385,6 +386,7 @@ magic
 "
 "
 "
+        
 )
         
 for
@@ -406,14 +408,13 @@ testdir
 inline_genitems
 (
 p
-                                                    
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
             
 assert
@@ -486,6 +487,7 @@ testdir
 .
 makepyfile
 (
+            
 whatever
 =
 "
@@ -581,6 +583,7 @@ doctest
 "
 "
 "
+        
 )
         
 for
@@ -602,14 +605,13 @@ testdir
 inline_genitems
 (
 p
-                                                    
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
             
 assert
@@ -682,6 +684,7 @@ testdir
 .
 maketxtfile
 (
+            
 test_doc
 =
 "
@@ -708,6 +711,7 @@ False
 "
 "
 "
+        
 )
         
 reprec
@@ -742,6 +746,7 @@ testdir
 .
 maketxtfile
 (
+            
 xdoc
 =
 "
@@ -768,6 +773,7 @@ False
 "
 "
 "
+        
 )
         
 reprec
@@ -835,6 +841,7 @@ testdir
 .
 maketxtfile
 (
+            
 xdoc
 =
 "
@@ -851,16 +858,19 @@ xdoc
 "
 "
 "
+        
 )
         
 testdir
 .
 makefile
 (
-'
+            
+"
 .
 foo
-'
+"
+            
 test
 =
 "
@@ -877,12 +887,14 @@ test
 "
 "
 "
+        
 )
         
 testdir
 .
 maketxtfile
 (
+            
 test_normal
 =
 "
@@ -899,34 +911,31 @@ test_normal
 "
 "
 "
+        
 )
         
 expected
 =
-set
-(
-[
-'
+{
+"
 xdoc
 .
 txt
-'
-'
+"
+"
 test
 .
 foo
-'
-'
+"
+"
 test_normal
 .
 txt
-'
-]
-)
+"
+}
         
 assert
-set
-(
+{
 x
 .
 basename
@@ -940,7 +949,7 @@ tmpdir
 listdir
 (
 )
-)
+}
 =
 =
 expected
@@ -990,30 +999,26 @@ stdout
 fnmatch_lines
 (
 [
-            
-'
+"
 *
 test
 .
 foo
 *
-'
-            
-'
+"
+"
 *
 xdoc
 .
 txt
 *
-'
-            
-'
+"
+"
 *
 2
 passed
 *
-'
-        
+"
 ]
 )
         
@@ -1032,22 +1037,19 @@ stdout
 fnmatch_lines
 (
 [
-            
-'
+"
 *
 test_normal
 .
 txt
 *
-'
-            
-'
+"
+"
 *
 1
 passed
 *
-'
-        
+"
 ]
 )
     
@@ -1058,43 +1060,39 @@ mark
 parametrize
 (
         
-'
+"
 test_string
 encoding
-'
+"
         
 [
-            
 (
 u
-'
+"
 foo
-'
-'
+"
+"
 ascii
-'
+"
 )
-            
 (
 u
-'
-'
-'
+"
+"
+"
 latin1
-'
+"
 )
-            
 (
 u
-'
-'
-'
+"
+"
+"
 utf
 -
 8
-'
+"
 )
-        
 ]
     
 )
@@ -1128,6 +1126,7 @@ testdir
 .
 makeini
 (
+            
 "
 "
 "
@@ -1139,7 +1138,6 @@ pytest
 doctest_encoding
 =
 {
-0
 }
         
 "
@@ -1148,8 +1146,11 @@ doctest_encoding
 .
 format
 (
+                
 encoding
+            
 )
+        
 )
         
 doctest
@@ -1165,12 +1166,10 @@ u
 u
 "
 {
-0
 }
 "
             
 {
-1
 }
         
 "
@@ -1179,11 +1178,13 @@ u
 .
 format
 (
+            
 test_string
 repr
 (
 test_string
 )
+        
 )
         
 testdir
@@ -1219,14 +1220,12 @@ stdout
 fnmatch_lines
 (
 [
-            
-'
+"
 *
 1
 passed
 *
-'
-        
+"
 ]
 )
     
@@ -1242,6 +1241,7 @@ testdir
 .
 maketxtfile
 (
+            
 "
 "
 "
@@ -1265,6 +1265,7 @@ i
 "
 "
 "
+        
 )
         
 result
@@ -1288,14 +1289,15 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 unexpected_exception
 *
 "
-            
+                
 "
 *
 >
@@ -1306,7 +1308,7 @@ i
 0
 *
 "
-            
+                
 "
 *
 >
@@ -1317,7 +1319,7 @@ i
 i
 *
 "
-            
+                
 "
 *
 UNEXPECTED
@@ -1325,8 +1327,9 @@ UNEXPECTED
 ZeroDivision
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -1365,6 +1368,7 @@ testdir
 .
 makepyfile
 (
+            
 '
 '
 '
@@ -1467,6 +1471,7 @@ after
 '
 '
 '
+        
 )
         
 result
@@ -1475,13 +1480,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
         
 result
@@ -1490,15 +1495,16 @@ stdout
 .
 fnmatch_lines
 (
-[
             
-'
+[
+                
+"
 *
 docstring_partial_context_around_error
 *
-'
-            
-'
+"
+                
+"
 005
 *
 text
@@ -1506,9 +1512,9 @@ text
 line
 -
 3
-'
-            
-'
+"
+                
+"
 006
 *
 text
@@ -1516,9 +1522,9 @@ text
 line
 -
 4
-'
-            
-'
+"
+                
+"
 013
 *
 text
@@ -1526,9 +1532,9 @@ text
 line
 -
 11
-'
-            
-'
+"
+                
+"
 014
 *
 >
@@ -1537,27 +1543,28 @@ line
 1
 +
 1
-'
-            
-'
+"
+                
+"
 Expected
 :
-'
-            
-'
+"
+                
+"
 3
-'
-            
-'
+"
+                
+"
 Got
 :
-'
-            
-'
+"
+                
+"
 2
-'
-        
+"
+            
 ]
+        
 )
         
 #
@@ -1569,13 +1576,13 @@ trimmed
 out
         
 assert
-'
+"
 text
 -
 line
 -
 2
-'
+"
 not
 in
 result
@@ -1587,13 +1594,13 @@ str
 )
         
 assert
-'
+"
 text
 -
 line
 -
 after
-'
+"
 not
 in
 result
@@ -1651,6 +1658,7 @@ testdir
 .
 makepyfile
 (
+            
 '
 '
 '
@@ -1693,6 +1701,7 @@ line
 '
 '
 '
+        
 )
         
 result
@@ -1701,13 +1710,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
         
 result
@@ -1716,15 +1725,16 @@ stdout
 .
 fnmatch_lines
 (
-[
             
-'
+[
+                
+"
 *
 docstring_full_context_around_error
 *
-'
-            
-'
+"
+                
+"
 003
 *
 text
@@ -1732,9 +1742,9 @@ text
 line
 -
 1
-'
-            
-'
+"
+                
+"
 004
 *
 text
@@ -1742,9 +1752,9 @@ text
 line
 -
 2
-'
-            
-'
+"
+                
+"
 006
 *
 >
@@ -1753,27 +1763,28 @@ line
 1
 +
 1
-'
-            
-'
+"
+                
+"
 Expected
 :
-'
-            
-'
+"
+                
+"
 3
-'
-            
-'
+"
+                
+"
 Got
 :
-'
-            
-'
+"
+                
+"
 2
-'
-        
+"
+            
 ]
+        
 )
     
 def
@@ -1790,21 +1801,23 @@ tmpdir
 .
 join
 (
-'
+"
 hello
 .
 py
-'
+"
 )
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -1850,7 +1863,9 @@ a
 "
 "
 "
+            
 )
+        
 )
         
 result
@@ -1874,14 +1889,15 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 hello
 *
 "
-            
+                
 "
 *
 EXAMPLE
@@ -1896,7 +1912,7 @@ that
 example
 *
 "
-            
+                
 "
 *
 1
@@ -1904,7 +1920,7 @@ example
 0
 *
 "
-            
+                
 "
 *
 UNEXPECTED
@@ -1912,15 +1928,16 @@ UNEXPECTED
 ZeroDivision
 *
 "
-            
+                
 "
 *
 1
 failed
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -1935,6 +1952,7 @@ testdir
 .
 maketxtfile
 (
+            
 "
 "
 "
@@ -1952,6 +1970,7 @@ asdalsdkjaslkdjasd
 "
 "
 "
+        
 )
         
 result
@@ -1982,8 +2001,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 >
@@ -1993,7 +2013,7 @@ import
 asdals
 *
 "
-            
+                
 "
 *
 UNEXPECTED
@@ -2010,7 +2030,7 @@ e
 =
 MODULE_NOT_FOUND_ERROR
 )
-            
+                
 "
 {
 e
@@ -2030,8 +2050,9 @@ e
 =
 MODULE_NOT_FOUND_ERROR
 )
-        
+            
 ]
+        
 )
     
 def
@@ -2057,12 +2078,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -2073,13 +2096,16 @@ asdalsdkjaslkdjasd
 "
 "
 "
+            
 )
+        
 )
         
 testdir
 .
 maketxtfile
 (
+            
 "
 "
 "
@@ -2097,6 +2123,7 @@ hello
 "
 "
 "
+        
 )
         
 result
@@ -2134,8 +2161,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 ERROR
@@ -2145,7 +2173,7 @@ hello
 py
 *
 "
-            
+                
 "
 *
 {
@@ -2166,7 +2194,7 @@ e
 =
 MODULE_NOT_FOUND_ERROR
 )
-            
+                
 "
 *
 Interrupted
@@ -2177,8 +2205,9 @@ during
 collection
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -2195,6 +2224,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2227,6 +2257,7 @@ False
 "
 "
 "
+        
 )
         
 reprec
@@ -2286,12 +2317,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -2329,7 +2362,9 @@ i
 "
 "
 "
+            
 )
+        
 )
         
 result
@@ -2354,9 +2389,10 @@ stdout
 .
 fnmatch_lines
 (
-[
             
-'
+[
+                
+"
 004
 *
 >
@@ -2365,9 +2401,9 @@ fnmatch_lines
 i
 =
 0
-'
-            
-'
+"
+                
+"
 005
 *
 >
@@ -2376,30 +2412,30 @@ i
 i
 +
 1
-'
-            
-'
+"
+                
+"
 *
 Expected
 :
-'
-            
+"
+                
 "
 *
 2
 "
-            
+                
 "
 *
 Got
 :
 "
-            
+                
 "
 *
 1
 "
-            
+                
 "
 *
 :
@@ -2407,8 +2443,9 @@ Got
 :
 DocTestFailure
 "
-        
+            
 ]
+        
 )
     
 def
@@ -2425,6 +2462,7 @@ testdir
 .
 maketxtfile
 (
+            
 "
 "
 "
@@ -2448,6 +2486,7 @@ i
 "
 "
 "
+        
 )
         
 result
@@ -2469,9 +2508,10 @@ stdout
 .
 fnmatch_lines
 (
-[
             
-'
+[
+                
+"
 001
 >
 >
@@ -2479,9 +2519,9 @@ fnmatch_lines
 i
 =
 0
-'
-            
-'
+"
+                
+"
 002
 >
 >
@@ -2489,26 +2529,26 @@ i
 i
 +
 1
-'
-            
-'
+"
+                
+"
 Expected
 :
-'
-            
+"
+                
 "
 2
 "
-            
+                
 "
 Got
 :
 "
-            
+                
 "
 1
 "
-            
+                
 "
 *
 test_txtfile_failing
@@ -2519,8 +2559,9 @@ txt
 :
 DocTestFailure
 "
-        
+            
 ]
+        
 )
     
 def
@@ -2537,6 +2578,7 @@ testdir
 .
 maketxtfile
 (
+            
 "
 "
 "
@@ -2570,6 +2612,7 @@ LocalPath
 "
 "
 "
+        
 )
         
 reprec
@@ -2602,6 +2645,7 @@ testdir
 .
 makeini
 (
+            
 "
 "
 "
@@ -2617,12 +2661,14 @@ myfixture
 "
 "
 "
+        
 )
         
 testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -2656,6 +2702,7 @@ WORLD
 "
 "
 "
+        
 )
         
 p
@@ -2664,6 +2711,7 @@ testdir
 .
 maketxtfile
 (
+            
 "
 "
 "
@@ -2693,6 +2741,7 @@ WORLD
 "
 "
 "
+        
 )
         
 reprec
@@ -2727,6 +2776,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2768,6 +2818,7 @@ LocalPath
 "
 "
 "
+        
 )
         
 reprec
@@ -2809,6 +2860,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2917,6 +2969,7 @@ True
 "
 "
 "
+        
 )
         
 reprec
@@ -2958,6 +3011,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3032,6 +3086,7 @@ magic
 "
 "
 "
+        
 )
         
 reprec
@@ -3074,6 +3129,7 @@ testdir
 .
 makeini
 (
+            
 "
 "
 "
@@ -3090,6 +3146,7 @@ NORMALIZE_WHITESPACE
 "
 "
 "
+        
 )
         
 p
@@ -3098,6 +3155,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3141,6 +3199,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -3180,6 +3239,7 @@ testdir
 .
 makeini
 (
+            
 "
 "
 "
@@ -3195,6 +3255,7 @@ ELLIPSIS
 "
 "
 "
+        
 )
         
 p
@@ -3203,6 +3264,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3246,6 +3308,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -3288,6 +3351,7 @@ testdir
 .
 makeini
 (
+            
 "
 "
 "
@@ -3304,6 +3368,7 @@ NORMALIZE_WHITESPACE
 "
 "
 "
+        
 )
         
 p
@@ -3312,6 +3377,7 @@ testdir
 .
 maketxtfile
 (
+            
 xdoc
 =
 "
@@ -3340,6 +3406,7 @@ foo
 "
 "
 "
+        
 )
         
 reprec
@@ -3384,6 +3451,7 @@ testdir
 .
 makeini
 (
+            
 "
 "
 "
@@ -3399,6 +3467,7 @@ ELLIPSIS
 "
 "
 "
+        
 )
         
 p
@@ -3407,6 +3476,7 @@ testdir
 .
 maketxtfile
 (
+            
 xdoc
 =
 "
@@ -3435,6 +3505,7 @@ foo
 "
 "
 "
+        
 )
         
 reprec
@@ -3501,6 +3572,7 @@ testdir
 .
 makepyfile
 (
+            
 u
 '
 '
@@ -3555,6 +3627,7 @@ anything
 '
 '
 '
+        
 )
         
 result
@@ -3563,13 +3636,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
         
 result
@@ -3579,20 +3652,17 @@ stdout
 fnmatch_lines
 (
 [
-            
-'
+"
 Got
 nothing
-'
-            
-'
+"
+"
 *
 1
 failed
 in
 *
-'
-        
+"
 ]
 )
     
@@ -3610,6 +3680,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3650,6 +3721,7 @@ x
 "
 "
 "
+        
 )
         
 reprec
@@ -3658,6 +3730,7 @@ testdir
 .
 inline_run
 (
+            
 p
 "
 -
@@ -3666,7 +3739,6 @@ doctest
 -
 modules
 "
-                                    
 "
 -
 -
@@ -3678,6 +3750,7 @@ import
 -
 errors
 "
+        
 )
         
 reprec
@@ -3737,6 +3810,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3769,6 +3843,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -3785,7 +3860,6 @@ doctest
 -
 modules
 "
-                                    
 "
 -
 -
@@ -3850,6 +3924,7 @@ testdir
 .
 maketxtfile
 (
+            
 test_unicode_doctest
 =
 "
@@ -3904,6 +3979,7 @@ By
 "
 "
 "
+        
 )
         
 result
@@ -3921,25 +3997,24 @@ stdout
 .
 fnmatch_lines
 (
-[
             
-'
+[
+"
 *
 UNEXPECTED
 EXCEPTION
 :
 ZeroDivisionError
 *
-'
-            
-'
+"
+"
 *
 1
 failed
 *
-'
-        
+"
 ]
+        
 )
     
 def
@@ -3985,6 +4060,7 @@ testdir
 .
 makepyfile
 (
+            
 test_unicode_doctest_module
 =
 "
@@ -4047,6 +4123,7 @@ nico
 "
 "
 "
+        
 )
         
 result
@@ -4056,13 +4133,13 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
         
 result
@@ -4072,12 +4149,122 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 1
 passed
 *
+"
+]
+)
+    
+def
+test_print_unicode_value
+(
+self
+testdir
+)
+:
+        
+"
+"
+"
+        
+Test
+case
+for
+issue
+3583
+:
+Printing
+Unicode
+in
+doctest
+under
+Python
+2
+.
+7
+        
+doesn
 '
+t
+work
+        
+"
+"
+"
+        
+p
+=
+testdir
+.
+maketxtfile
+(
+            
+test_print_unicode_value
+=
+r
+"
+"
+"
+            
+Here
+is
+a
+doctest
+:
+:
+                
+>
+>
+>
+print
+(
+u
+'
+\
+xE5
+\
+xE9
+\
+xEE
+\
+xF8
+\
+xFC
+'
+)
+                
+        
+"
+"
+"
+        
+)
+        
+result
+=
+testdir
+.
+runpytest
+(
+p
+)
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+[
+"
+*
+1
+passed
+*
+"
 ]
 )
     
@@ -4089,9 +4276,9 @@ testdir
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Test
 case
@@ -4108,9 +4295,9 @@ returns
 lineno
 .
         
-'
-'
-'
+"
+"
+"
         
 p
 =
@@ -4118,6 +4305,7 @@ testdir
 .
 makepyfile
 (
+            
 test_reportinfo
 =
 "
@@ -4161,6 +4349,7 @@ c
 "
 "
 "
+        
 )
         
 items
@@ -4171,13 +4360,13 @@ testdir
 inline_genitems
 (
 p
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
         
 reportinfo
@@ -4208,9 +4397,9 @@ testdir
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Test
 to
@@ -4234,9 +4423,9 @@ doctest
 -
 modules
         
-'
-'
-'
+"
+"
+"
         
 p
 =
@@ -4244,6 +4433,7 @@ testdir
 .
 makepyfile
 (
+            
 setup
 =
 "
@@ -4289,6 +4479,7 @@ find_packages
 "
 "
 "
+        
 )
         
 result
@@ -4298,13 +4489,13 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
         
 result
@@ -4314,13 +4505,13 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 collected
 0
 items
 *
-'
+"
 ]
 )
     
@@ -4332,9 +4523,9 @@ testdir
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Test
 to
@@ -4364,9 +4555,9 @@ doctest
 -
 modules
         
-'
-'
-'
+"
+"
+"
         
 p
 =
@@ -4374,6 +4565,7 @@ testdir
 .
 makepyfile
 (
+            
 setup
 =
 "
@@ -4394,6 +4586,7 @@ bar
 "
 "
 "
+        
 )
         
 result
@@ -4403,13 +4596,13 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
         
 result
@@ -4419,13 +4612,13 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 collected
 1
 item
 *
-'
+"
 ]
 )
 class
@@ -4441,16 +4634,16 @@ mark
 .
 parametrize
 (
-'
+"
 config_mode
-'
+"
 [
-'
+"
 ini
-'
-'
+"
+"
 comment
-'
+"
 ]
 )
     
@@ -4510,18 +4703,19 @@ if
 config_mode
 =
 =
-'
+"
 ini
-'
+"
 :
             
 testdir
 .
 makeini
 (
-'
-'
-'
+                
+"
+"
+"
             
 [
 pytest
@@ -4531,33 +4725,35 @@ doctest_optionflags
 =
 ALLOW_UNICODE
             
-'
-'
-'
+"
+"
+"
+            
 )
             
 comment
 =
-'
-'
+"
+"
         
 else
 :
             
 comment
 =
-'
+"
 #
 doctest
 :
 +
 ALLOW_UNICODE
-'
+"
         
 testdir
 .
 maketxtfile
 (
+            
 test_doc
 =
 "
@@ -4592,16 +4788,20 @@ comment
 .
 format
 (
+                
 comment
 =
 comment
+            
 )
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 foo
 =
 "
@@ -4650,10 +4850,13 @@ comment
 .
 format
 (
+                
 comment
 =
 comment
+            
 )
+        
 )
         
 reprec
@@ -4686,16 +4889,16 @@ mark
 .
 parametrize
 (
-'
+"
 config_mode
-'
+"
 [
-'
+"
 ini
-'
-'
+"
+"
 comment
-'
+"
 ]
 )
     
@@ -4759,18 +4962,19 @@ if
 config_mode
 =
 =
-'
+"
 ini
-'
+"
 :
             
 testdir
 .
 makeini
 (
-'
-'
-'
+                
+"
+"
+"
             
 [
 pytest
@@ -4780,33 +4984,35 @@ doctest_optionflags
 =
 ALLOW_BYTES
             
-'
-'
-'
+"
+"
+"
+            
 )
             
 comment
 =
-'
-'
+"
+"
         
 else
 :
             
 comment
 =
-'
+"
 #
 doctest
 :
 +
 ALLOW_BYTES
-'
+"
         
 testdir
 .
 maketxtfile
 (
+            
 test_doc
 =
 "
@@ -4834,16 +5040,20 @@ foo
 .
 format
 (
+                
 comment
 =
 comment
+            
 )
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 foo
 =
 "
@@ -4885,10 +5095,13 @@ foo
 .
 format
 (
+                
 comment
 =
 comment
+            
 )
+        
 )
         
 reprec
@@ -4964,6 +5177,7 @@ testdir
 .
 maketxtfile
 (
+            
 test_doc
 =
 "
@@ -4992,6 +5206,7 @@ ascii
 "
 "
 "
+        
 )
         
 reprec
@@ -5086,6 +5301,7 @@ testdir
 .
 maketxtfile
 (
+            
 test_doc
 =
 "
@@ -5107,6 +5323,7 @@ foo
 "
 "
 "
+        
 )
         
 reprec
@@ -5198,12 +5415,12 @@ fixture
 params
 =
 [
-'
+"
 text
-'
-'
+"
+"
 module
-'
+"
 ]
 )
     
@@ -5233,9 +5450,9 @@ if
 mode
 =
 =
-'
+"
 text
-'
+"
 :
                 
 testdir
@@ -5252,9 +5469,9 @@ assert
 mode
 =
 =
-'
+"
 module
-'
+"
                 
 testdir
 .
@@ -5290,6 +5507,7 @@ makedoctest
         
 makedoctest
 (
+            
 "
 "
 "
@@ -5320,6 +5538,7 @@ SKIP
 "
 "
 "
+        
 )
         
 reprec
@@ -5357,6 +5576,7 @@ makedoctest
         
 makedoctest
 (
+            
 "
 "
 "
@@ -5387,6 +5607,7 @@ SKIP
 "
 "
 "
+        
 )
         
 reprec
@@ -5424,6 +5645,7 @@ makedoctest
         
 makedoctest
 (
+            
 "
 "
 "
@@ -5459,6 +5681,7 @@ SKIP
 "
 "
 "
+        
 )
         
 reprec
@@ -5496,8 +5719,8 @@ makedoctest
         
 makedoctest
 (
-'
-'
+"
+"
 )
         
 reprec
@@ -5526,6 +5749,187 @@ skipped
 =
 0
 )
+    
+def
+test_continue_on_failure
+(
+self
+testdir
+)
+:
+        
+testdir
+.
+maketxtfile
+(
+            
+test_something
+=
+"
+"
+"
+            
+>
+>
+>
+i
+=
+5
+            
+>
+>
+>
+def
+foo
+(
+)
+:
+            
+.
+.
+.
+raise
+ValueError
+(
+'
+error1
+'
+)
+            
+>
+>
+>
+foo
+(
+)
+            
+>
+>
+>
+i
+            
+>
+>
+>
+i
++
+2
+            
+7
+            
+>
+>
+>
+i
++
+1
+        
+"
+"
+"
+        
+)
+        
+result
+=
+testdir
+.
+runpytest
+(
+"
+-
+-
+doctest
+-
+modules
+"
+"
+-
+-
+doctest
+-
+continue
+-
+on
+-
+failure
+"
+)
+        
+result
+.
+assert_outcomes
+(
+passed
+=
+0
+failed
+=
+1
+)
+        
+#
+The
+lines
+that
+contains
+the
+failure
+are
+4
+5
+and
+8
+.
+The
+first
+one
+        
+#
+is
+a
+stack
+trace
+and
+the
+other
+two
+are
+mismatches
+.
+        
+result
+.
+stdout
+.
+fnmatch_lines
+(
+            
+[
+"
+*
+4
+:
+UnexpectedException
+*
+"
+"
+*
+5
+:
+DocTestFailure
+*
+"
+"
+*
+8
+:
+DocTestFailure
+*
+"
+]
+        
+)
 class
 TestDoctestAutoUseFixtures
 (
@@ -5536,18 +5940,18 @@ object
 SCOPES
 =
 [
-'
+"
 module
-'
-'
+"
+"
 session
-'
-'
+"
+"
 class
-'
-'
+"
+"
 function
-'
+"
 ]
     
 def
@@ -5603,6 +6007,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -5659,12 +6064,14 @@ pytest_session_data
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 foo
 =
 "
@@ -5727,6 +6134,7 @@ pytest_session_data
 "
 "
 "
+        
 )
         
 result
@@ -5750,12 +6158,12 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 2
 passed
 *
-'
+"
 )
     
 pytest
@@ -5764,9 +6172,9 @@ mark
 .
 parametrize
 (
-'
+"
 scope
-'
+"
 SCOPES
 )
     
@@ -5776,9 +6184,9 @@ mark
 .
 parametrize
 (
-'
+"
 enable_doctest
-'
+"
 [
 True
 False
@@ -5827,9 +6235,10 @@ testdir
 .
 makeconftest
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -5860,22 +6269,26 @@ request
 return
 99
         
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                
 scope
 =
 scope
+            
 )
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 test_1
 =
 '
@@ -5922,18 +6335,19 @@ assert
 '
 '
 '
+        
 )
         
 params
 =
 (
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
 if
 enable_doctest
@@ -5966,7 +6380,7 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 =
 =
@@ -5976,7 +6390,7 @@ d
 passed
 in
 *
-'
+"
 %
 passes
 ]
@@ -5988,9 +6402,9 @@ mark
 .
 parametrize
 (
-'
+"
 scope
-'
+"
 SCOPES
 )
     
@@ -6000,9 +6414,9 @@ mark
 .
 parametrize
 (
-'
+"
 autouse
-'
+"
 [
 True
 False
@@ -6015,9 +6429,9 @@ mark
 .
 parametrize
 (
-'
+"
 use_fixture_in_doctest
-'
+"
 [
 True
 False
@@ -6027,12 +6441,13 @@ False
 def
 test_fixture_module_doctest_scopes
 (
+        
 self
 testdir
 scope
 autouse
-                                           
 use_fixture_in_doctest
+    
 )
 :
         
@@ -6068,9 +6483,10 @@ testdir
 .
 makeconftest
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -6103,19 +6519,22 @@ request
 return
 99
         
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                
 scope
 =
 scope
 autouse
 =
 autouse
+            
 )
+        
 )
         
 if
@@ -6126,6 +6545,7 @@ testdir
 .
 maketxtfile
 (
+                
 test_doc
 =
 "
@@ -6147,6 +6567,7 @@ auto
 "
 "
 "
+            
 )
         
 else
@@ -6156,6 +6577,7 @@ testdir
 .
 maketxtfile
 (
+                
 test_doc
 =
 "
@@ -6174,6 +6596,7 @@ test_doc
 "
 "
 "
+            
 )
         
 result
@@ -6182,19 +6605,19 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
         
 assert
-'
+"
 FAILURES
-'
+"
 not
 in
 str
@@ -6215,7 +6638,7 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 =
 =
@@ -6224,7 +6647,7 @@ fnmatch_lines
 passed
 in
 *
-'
+"
 ]
 )
     
@@ -6234,9 +6657,9 @@ mark
 .
 parametrize
 (
-'
+"
 scope
-'
+"
 SCOPES
 )
     
@@ -6283,9 +6706,10 @@ testdir
 .
 makeconftest
 (
-'
-'
-'
+            
+"
+"
+"
             
 import
 pytest
@@ -6376,22 +6800,26 @@ None
 return
 99
         
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                
 scope
 =
 scope
+            
 )
+        
 )
         
 testdir
 .
 maketxtfile
 (
+            
 test_doc
 =
 "
@@ -6410,6 +6838,7 @@ test_doc
 "
 "
 "
+        
 )
         
 result
@@ -6418,19 +6847,19 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 doctest
 -
 modules
-'
+"
 )
         
 assert
-'
+"
 FAILURES
-'
+"
 not
 in
 str
@@ -6451,7 +6880,7 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 =
 =
@@ -6460,7 +6889,7 @@ fnmatch_lines
 passed
 in
 *
-'
+"
 ]
 )
 class
@@ -6473,18 +6902,18 @@ object
 SCOPES
 =
 [
-'
+"
 module
-'
-'
+"
+"
 session
-'
-'
+"
+"
 class
-'
-'
+"
+"
 function
-'
+"
 ]
     
 pytest
@@ -6493,9 +6922,9 @@ mark
 .
 parametrize
 (
-'
+"
 scope
-'
+"
 SCOPES
 )
     
@@ -6536,6 +6965,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -6584,10 +7014,13 @@ contextlib
 .
 format
 (
+                
 scope
 =
 scope
+            
 )
+        
 )
         
 p
@@ -6596,6 +7029,7 @@ testdir
 .
 maketxtfile
 (
+            
 "
 "
 "
@@ -6615,6 +7049,7 @@ contextlib
 "
 "
 "
+        
 )
         
 reprec
@@ -6641,9 +7076,9 @@ mark
 .
 parametrize
 (
-'
+"
 scope
-'
+"
 SCOPES
 )
     
@@ -6685,6 +7120,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -6733,10 +7169,13 @@ contextlib
 .
 format
 (
+                
 scope
 =
 scope
+            
 )
+        
 )
         
 p
@@ -6745,6 +7184,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6778,6 +7218,7 @@ contextlib
 "
 "
 "
+        
 )
         
 reprec
@@ -6824,6 +7265,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6902,6 +7344,7 @@ n
 "
 "
 "
+        
 )
         
 return
@@ -6932,19 +7375,19 @@ mark
 .
 parametrize
 (
-'
+"
 format
-'
+"
 [
-'
+"
 udiff
-'
-'
+"
+"
 UDIFF
-'
-'
+"
+"
 uDiFf
-'
+"
 ]
 )
     
@@ -6973,35 +7416,32 @@ stdout
 .
 fnmatch_lines
 (
-[
             
-'
+[
+"
 0
 1
 4
-'
-            
-'
+"
+"
 -
 1
 2
 4
-'
-            
-'
+"
+"
 +
 1
 2
 5
-'
-            
-'
+"
+"
 2
 3
 6
-'
-        
+"
 ]
+        
 )
     
 def
@@ -7019,9 +7459,9 @@ self
 _run_doctest_report
 (
 testdir
-'
+"
 cdiff
-'
+"
 )
         
 result
@@ -7030,33 +7470,34 @@ stdout
 .
 fnmatch_lines
 (
-[
             
-'
+[
+                
+"
 a
 b
-'
-            
-'
+"
+                
+"
 0
 1
 4
-'
-            
-'
+"
+                
+"
 !
 1
 2
 4
-'
-            
-'
+"
+                
+"
 2
 3
 6
-'
-            
-'
+"
+                
+"
 -
 -
 -
@@ -7066,33 +7507,34 @@ b
 -
 -
 -
-'
-            
-'
+"
+                
+"
 a
 b
-'
-            
-'
+"
+                
+"
 0
 1
 4
-'
-            
-'
+"
+                
+"
 !
 1
 2
 5
-'
-            
-'
+"
+                
+"
 2
 3
 6
-'
-        
+"
+            
 ]
+        
 )
     
 def
@@ -7110,9 +7552,9 @@ self
 _run_doctest_report
 (
 testdir
-'
+"
 ndiff
-'
+"
 )
         
 result
@@ -7121,50 +7563,52 @@ stdout
 .
 fnmatch_lines
 (
-[
             
-'
+[
+                
+"
 a
 b
-'
-            
-'
+"
+                
+"
 0
 1
 4
-'
-            
-'
+"
+                
+"
 -
 1
 2
 4
-'
-            
-'
+"
+                
+"
 ?
 ^
-'
-            
-'
+"
+                
+"
 +
 1
 2
 5
-'
-            
-'
+"
+                
+"
 ?
 ^
-'
-            
-'
+"
+                
+"
 2
 3
 6
-'
-        
+"
+            
 ]
+        
 )
     
 pytest
@@ -7173,16 +7617,16 @@ mark
 .
 parametrize
 (
-'
+"
 format
-'
+"
 [
-'
+"
 none
-'
-'
+"
+"
 only_first_failure
-'
+"
 ]
 )
     
@@ -7211,65 +7655,67 @@ stdout
 .
 fnmatch_lines
 (
-[
             
-'
+[
+                
+"
 Expected
 :
-'
-            
-'
+"
+                
+"
 a
 b
-'
-            
-'
+"
+                
+"
 0
 1
 4
-'
-            
-'
+"
+                
+"
 1
 2
 4
-'
-            
-'
+"
+                
+"
 2
 3
 6
-'
-            
-'
+"
+                
+"
 Got
 :
-'
-            
-'
+"
+                
+"
 a
 b
-'
-            
-'
+"
+                
+"
 0
 1
 4
-'
-            
-'
+"
+                
+"
 1
 2
 5
-'
-            
-'
+"
+                
+"
 2
 3
 6
-'
-        
+"
+            
 ]
+        
 )
     
 def
@@ -7287,9 +7733,9 @@ self
 _run_doctest_report
 (
 testdir
-'
+"
 obviously_invalid_format
-'
+"
 )
         
 result
@@ -7298,8 +7744,9 @@ stderr
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 error
@@ -7322,6 +7769,7 @@ choose
 from
 *
 "
-        
+            
 ]
+        
 )

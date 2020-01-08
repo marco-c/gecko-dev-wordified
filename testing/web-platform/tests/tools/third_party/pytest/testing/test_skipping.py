@@ -58,9 +58,9 @@ evalskipif
 MarkEvaluator
 (
 item
-'
+"
 skipif
-'
+"
 )
         
 assert
@@ -89,6 +89,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -113,6 +114,7 @@ pass
 "
 "
 "
+        
 )
         
 ev
@@ -120,9 +122,9 @@ ev
 MarkEvaluator
 (
 item
-'
+"
 xyz
-'
+"
 )
         
 assert
@@ -176,6 +178,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -211,6 +214,7 @@ pass
 "
 "
 "
+        
 )
         
 ev
@@ -218,9 +222,9 @@ ev
 MarkEvaluator
 (
 item
-'
+"
 xyz
-'
+"
 )
         
 assert
@@ -263,7 +267,7 @@ mark
 .
 skipif
 (
-'
+"
 sys
 .
 version_info
@@ -273,7 +277,7 @@ version_info
 >
 =
 3
-'
+"
 )
     
 def
@@ -290,6 +294,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -326,6 +331,7 @@ pass
 "
 "
 "
+        
 )
         
 ev
@@ -333,9 +339,9 @@ ev
 MarkEvaluator
 (
 item
-'
+"
 xyz
-'
+"
 )
         
 assert
@@ -386,6 +392,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -430,6 +437,7 @@ pass
 "
 "
 "
+        
 )
         
 ev
@@ -437,9 +445,9 @@ ev
 MarkEvaluator
 (
 item
-'
+"
 xyz
-'
+"
 )
         
 assert
@@ -494,9 +502,9 @@ lines
 =
 [
             
-'
-'
-'
+"
+"
+"
 pytest
 .
 mark
@@ -514,13 +522,13 @@ murks
 )
 "
 )
-'
-'
-'
+"
+"
+"
             
-'
-'
-'
+"
+"
+"
 pytest
 .
 mark
@@ -537,9 +545,9 @@ murks
 )
 "
 )
-'
-'
-'
+"
+"
+"
         
 ]
         
@@ -559,6 +567,7 @@ testdir
 .
 getitem
 (
+                
 "
 "
 "
@@ -583,6 +592,7 @@ pass
 "
 "
 "
+                
 %
 (
 lines
@@ -600,6 +610,7 @@ i
 2
 ]
 )
+            
 )
             
 ev
@@ -607,9 +618,9 @@ ev
 MarkEvaluator
 (
 item
-'
+"
 skipif
-'
+"
 )
             
 assert
@@ -661,6 +672,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -714,6 +726,7 @@ pass
 "
 "
 "
+        
 )
         
 ev
@@ -721,9 +734,9 @@ ev
 MarkEvaluator
 (
 item
-'
+"
 skipif
-'
+"
 )
         
 assert
@@ -775,6 +788,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -802,6 +816,7 @@ pass
 "
 "
 "
+        
 )
         
 ev
@@ -809,9 +824,9 @@ ev
 MarkEvaluator
 (
 item
-'
+"
 skipif
-'
+"
 )
         
 exc
@@ -873,6 +888,7 @@ testdir
 .
 getitems
 (
+            
 "
 "
 "
@@ -914,6 +930,7 @@ pass
 "
 "
 "
+        
 )
         
 item
@@ -929,9 +946,9 @@ ev
 MarkEvaluator
 (
 item
-'
+"
 skipif
-'
+"
 )
         
 assert
@@ -973,9 +990,9 @@ mark
 .
 parametrize
 (
-'
+"
 strict
-'
+"
 [
 True
 False
@@ -997,6 +1014,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -1028,8 +1046,10 @@ assert
 "
 "
 "
+            
 %
 strict
+        
 )
         
 reports
@@ -1086,6 +1106,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -1121,6 +1142,7 @@ assert
 "
 "
 "
+        
 )
         
 reports
@@ -1168,6 +1190,115 @@ xfail
 "
     
 def
+test_xfail_using_platform
+(
+self
+testdir
+)
+:
+        
+"
+"
+"
+        
+Verify
+that
+platform
+can
+be
+used
+with
+xfail
+statements
+.
+        
+"
+"
+"
+        
+item
+=
+testdir
+.
+getitem
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+pytest
+.
+mark
+.
+xfail
+(
+"
+platform
+.
+platform
+(
+)
+=
+=
+platform
+.
+platform
+(
+)
+"
+)
+            
+def
+test_func
+(
+)
+:
+                
+assert
+0
+        
+"
+"
+"
+        
+)
+        
+reports
+=
+runtestprotocol
+(
+item
+log
+=
+False
+)
+        
+assert
+len
+(
+reports
+)
+=
+=
+3
+        
+callreport
+=
+reports
+[
+1
+]
+        
+assert
+callreport
+.
+wasxfail
+    
+def
 test_xfail_xpassed_strict
 (
 self
@@ -1181,6 +1312,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -1216,6 +1348,7 @@ assert
 "
 "
 "
+        
 )
         
 reports
@@ -1287,6 +1420,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1327,6 +1461,7 @@ hello
 "
 "
 "
+        
 )
         
 result
@@ -1348,8 +1483,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 def
@@ -1359,14 +1494,12 @@ test_func
 :
 *
 "
-            
 "
 *
 assert
 0
 *
 "
-            
 "
 *
 1
@@ -1376,8 +1509,8 @@ failed
 pass
 *
 "
-        
 ]
+        
 )
     
 def
@@ -1394,6 +1527,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -1424,6 +1558,7 @@ assert
 "
 "
 "
+        
 )
         
 reports
@@ -1459,9 +1594,9 @@ wasxfail
 )
         
 assert
-'
+"
 xfail
-'
+"
 in
 callreport
 .
@@ -1481,6 +1616,7 @@ testdir
 .
 makepyfile
 (
+            
 test_one
 =
 "
@@ -1508,6 +1644,7 @@ assert
 "
 "
 "
+        
 )
         
 testdir
@@ -1515,10 +1652,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 v
-'
+"
 )
         
 #
@@ -1560,6 +1697,7 @@ testdir
 .
 makepyfile
 (
+            
 test_one
 =
 "
@@ -1648,6 +1786,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -1657,10 +1796,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 rx
-'
+"
 )
         
 result
@@ -1669,8 +1808,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 test_one
@@ -1678,14 +1818,14 @@ test_one
 test_this
 *
 "
-            
+                
 "
 *
 NOTRUN
 *
 noway
 "
-            
+                
 "
 *
 test_one
@@ -1693,7 +1833,7 @@ test_one
 test_this_true
 *
 "
-            
+                
 "
 *
 NOTRUN
@@ -1704,15 +1844,16 @@ condition
 True
 *
 "
-            
+                
 "
 *
 1
 passed
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -1729,6 +1870,7 @@ testdir
 .
 makepyfile
 (
+            
 test_one
 =
 "
@@ -1779,6 +1921,7 @@ ValueError
 "
 "
 "
+        
 )
         
 result
@@ -1788,10 +1931,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 rx
-'
+"
 )
         
 result
@@ -1800,8 +1943,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 test_one
@@ -1809,22 +1952,20 @@ test_one
 test_this
 *
 "
-            
 "
 *
 NOTRUN
 *
 hello
 "
-            
 "
 *
 1
 xfailed
 *
 "
-        
 ]
+        
 )
     
 def
@@ -1841,6 +1982,7 @@ testdir
 .
 makepyfile
 (
+            
 test_one
 =
 "
@@ -1868,6 +2010,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -1877,10 +2020,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 rX
-'
+"
 )
         
 result
@@ -1890,7 +2033,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 XPASS
@@ -1898,14 +2040,12 @@ XPASS
 test_that
 *
 "
-            
 "
 *
 1
 xpassed
 *
 "
-        
 ]
 )
         
@@ -1931,6 +2071,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1956,6 +2097,7 @@ hello
 "
 "
 "
+        
 )
         
 result
@@ -1974,14 +2116,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 1
 xfailed
 *
 "
-        
 ]
 )
         
@@ -2005,7 +2145,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 XFAIL
@@ -2013,7 +2152,6 @@ XFAIL
 test_this
 *
 "
-            
 "
 *
 reason
@@ -2022,7 +2160,6 @@ reason
 hello
 *
 "
-        
 ]
 )
         
@@ -2068,6 +2205,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2103,6 +2241,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -2121,14 +2260,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 1
 xfailed
 *
 "
-        
 ]
 )
         
@@ -2152,7 +2289,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 XFAIL
@@ -2160,7 +2296,6 @@ XFAIL
 test_this
 *
 "
-            
 "
 *
 reason
@@ -2169,7 +2304,6 @@ reason
 hello
 *
 "
-        
 ]
 )
         
@@ -2193,6 +2327,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -2210,6 +2345,7 @@ fail
 "
 "
 "
+        
 )
     
 def
@@ -2226,6 +2362,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2270,6 +2407,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -2279,10 +2417,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 rxX
-'
+"
 )
         
 result
@@ -2292,7 +2430,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 XFAIL
@@ -2300,7 +2437,6 @@ XFAIL
 test_this
 *
 "
-            
 "
 *
 XPASS
@@ -2308,7 +2444,6 @@ XPASS
 test_that
 *
 "
-        
 ]
 )
     
@@ -2326,6 +2461,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2373,6 +2509,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -2382,10 +2519,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 rxX
-'
+"
 )
         
 result
@@ -2395,7 +2532,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 XFAIL
@@ -2403,13 +2539,11 @@ XFAIL
 test_this
 *
 "
-            
 "
 *
 NOTRUN
 *
 "
-        
 ]
 )
     
@@ -2427,6 +2561,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2469,6 +2604,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -2487,14 +2623,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 1
 xfailed
 *
 "
-        
 ]
 )
     
@@ -2504,20 +2638,22 @@ mark
 .
 parametrize
 (
-'
+        
+"
 expected
 actual
 matchline
-'
-                             
+"
+        
 [
+            
 (
-'
+"
 TypeError
-'
-'
+"
+"
 TypeError
-'
+"
 "
 *
 1
@@ -2525,17 +2661,17 @@ xfailed
 *
 "
 )
-                              
+            
 (
-'
+"
 (
 AttributeError
 TypeError
 )
-'
-'
+"
+"
 TypeError
-'
+"
 "
 *
 1
@@ -2543,14 +2679,14 @@ xfailed
 *
 "
 )
-                              
+            
 (
-'
+"
 TypeError
-'
-'
+"
+"
 IndexError
-'
+"
 "
 *
 1
@@ -2558,17 +2694,17 @@ failed
 *
 "
 )
-                              
+            
 (
-'
+"
 (
 AttributeError
 TypeError
 )
-'
-'
+"
+"
 IndexError
-'
+"
 "
 *
 1
@@ -2576,8 +2712,9 @@ failed
 *
 "
 )
-                              
+        
 ]
+    
 )
     
 def
@@ -2597,6 +2734,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2631,11 +2769,13 @@ s
 "
 "
 "
+            
 %
 (
 expected
 actual
 )
+        
 )
         
 result
@@ -2654,9 +2794,7 @@ stdout
 fnmatch_lines
 (
 [
-            
 matchline
-        
 ]
 )
     
@@ -2704,6 +2842,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2740,6 +2879,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -2749,10 +2889,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 rxX
-'
+"
 )
         
 result
@@ -2762,20 +2902,17 @@ stdout
 fnmatch_lines
 (
 [
-            
-'
+"
 *
 XFAIL
 *
-'
-            
-'
+"
+"
 *
 unsupported
 feature
 *
-'
-        
+"
 ]
 )
         
@@ -2793,9 +2930,9 @@ mark
 .
 parametrize
 (
-'
+"
 strict
-'
+"
 [
 True
 False
@@ -2817,6 +2954,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2869,8 +3007,10 @@ executes
 "
 "
 "
+            
 %
 strict
+        
 )
         
 result
@@ -2880,10 +3020,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 rxX
-'
+"
 )
         
 if
@@ -2896,15 +3036,14 @@ stdout
 .
 fnmatch_lines
 (
-[
                 
-'
+[
+"
 *
 test_foo
 *
-'
-                
-'
+"
+"
 *
 XPASS
 (
@@ -2914,9 +3053,9 @@ strict
 unsupported
 feature
 *
-'
-            
+"
 ]
+            
 )
         
 else
@@ -2928,15 +3067,16 @@ stdout
 .
 fnmatch_lines
 (
-[
                 
-'
+[
+                    
+"
 *
 test_strict_xfail
 *
-'
-                
-'
+"
+                    
+"
 XPASS
 test_strict_xfail
 .
@@ -2946,9 +3086,10 @@ py
 test_foo
 unsupported
 feature
-'
-            
+"
+                
 ]
+            
 )
         
 assert
@@ -2972,9 +3113,9 @@ tmpdir
 .
 join
 (
-'
+"
 foo_executed
-'
+"
 )
 .
 isfile
@@ -2987,9 +3128,9 @@ mark
 .
 parametrize
 (
-'
+"
 strict
-'
+"
 [
 True
 False
@@ -3011,6 +3152,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3048,8 +3190,10 @@ pass
 "
 "
 "
+            
 %
 strict
+        
 )
         
 result
@@ -3059,10 +3203,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 rxX
-'
+"
 )
         
 result
@@ -3071,12 +3215,12 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 1
 passed
 *
-'
+"
 )
         
 assert
@@ -3093,9 +3237,9 @@ mark
 .
 parametrize
 (
-'
+"
 strict
-'
+"
 [
 True
 False
@@ -3117,6 +3261,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3156,8 +3301,10 @@ pass
 "
 "
 "
+            
 %
 strict
+        
 )
         
 result
@@ -3167,10 +3314,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 rxX
-'
+"
 )
         
 result
@@ -3179,12 +3326,12 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 1
 passed
 *
-'
+"
 )
         
 assert
@@ -3201,16 +3348,16 @@ mark
 .
 parametrize
 (
-'
+"
 strict_val
-'
+"
 [
-'
+"
 true
-'
-'
+"
+"
 false
-'
+"
 ]
 )
     
@@ -3227,9 +3374,10 @@ testdir
 .
 makeini
 (
-'
-'
-'
+            
+"
+"
+"
             
 [
 pytest
@@ -3240,11 +3388,13 @@ xfail_strict
 %
 s
         
-'
-'
-'
+"
+"
+"
+            
 %
 strict_val
+        
 )
         
 p
@@ -3253,6 +3403,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3285,6 +3436,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -3294,10 +3446,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 rxX
-'
+"
 )
         
 strict
@@ -3305,9 +3457,9 @@ strict
 strict_val
 =
 =
-'
+"
 true
-'
+"
         
 result
 .
@@ -3315,21 +3467,21 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 1
 failed
 *
-'
+"
 if
 strict
 else
-'
+"
 *
 1
 xpassed
 *
-'
+"
 )
         
 assert
@@ -3364,6 +3516,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3398,6 +3551,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -3415,14 +3569,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 1
 xfail
 *
 "
-        
 ]
 )
     
@@ -3438,6 +3590,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3472,6 +3625,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -3489,14 +3643,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 1
 xfail
 *
 "
-        
 ]
 )
 class
@@ -3518,6 +3670,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3567,6 +3720,7 @@ pass
 "
 "
 "
+        
 )
         
 rec
@@ -3601,6 +3755,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3630,6 +3785,7 @@ pass
 "
 "
 "
+        
 )
         
 rec
@@ -3661,6 +3817,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3691,6 +3848,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -3699,10 +3857,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 rs
-'
+"
 )
         
 result
@@ -3712,21 +3870,18 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 testing
 stuff
 *
 "
-            
 "
 *
 1
 skipped
 *
 "
-        
 ]
 )
     
@@ -3742,6 +3897,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3766,6 +3922,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -3774,10 +3931,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 rs
-'
+"
 )
         
 result
@@ -3787,21 +3944,18 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 unconditional
 skip
 *
 "
-            
 "
 *
 1
 skipped
 *
 "
-        
 ]
 )
     
@@ -3817,6 +3971,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3849,6 +4004,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -3857,10 +4013,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 rs
-'
+"
 )
         
 result
@@ -3870,21 +4026,18 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 for
 lolz
 *
 "
-            
 "
 *
 1
 skipped
 *
 "
-        
 ]
 )
     
@@ -3900,6 +4053,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3956,6 +4110,7 @@ True
 "
 "
 "
+        
 )
         
 result
@@ -3964,10 +4119,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 rs
-'
+"
 )
         
 result
@@ -3977,7 +4132,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 nothing
@@ -3985,7 +4139,6 @@ in
 particular
 *
 "
-            
 "
 *
 1
@@ -3995,7 +4148,6 @@ passed
 skipped
 *
 "
-        
 ]
 )
     
@@ -4011,6 +4163,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4035,6 +4188,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -4056,21 +4210,18 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 unconditional
 skip
 *
 "
-            
 "
 *
 1
 skipped
 *
 "
-        
 ]
 )
 class
@@ -4094,6 +4245,7 @@ testdir
 .
 getitem
 (
+            
 "
 "
 "
@@ -4129,9 +4281,8 @@ pass
 "
 "
 "
+        
 )
-#
-noqa
         
 x
 =
@@ -4146,7 +4297,6 @@ skip
 Exception
 lambda
 :
-                          
 pytest_runtest_setup
 (
 item
@@ -4179,25 +4329,24 @@ mark
 .
 parametrize
 (
-'
-params
-'
-[
         
-'
+"
+params
+"
+[
+"
+\
 "
 hasattr
 (
 sys
-\
 '
 platform
-\
 '
 )
+\
 "
-'
-        
+"
 '
 True
 reason
@@ -4207,8 +4356,8 @@ invalid
 platform
 "
 '
-    
 ]
+    
 )
     
 def
@@ -4226,6 +4375,7 @@ testdir
 .
 makepyfile
 (
+            
 test_foo
 =
 "
@@ -4260,6 +4410,7 @@ assert
 "
 "
 "
+            
 %
 dict
 (
@@ -4267,6 +4418,7 @@ params
 =
 params
 )
+        
 )
         
 result
@@ -4276,14 +4428,14 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 s
-'
-'
+"
+"
 -
 rs
-'
+"
 )
         
 result
@@ -4293,7 +4445,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 SKIP
@@ -4307,14 +4458,12 @@ py
 platform
 *
 "
-            
 "
 *
 1
 skipped
 *
 "
-        
 ]
 )
         
@@ -4326,44 +4475,119 @@ ret
 =
 0
     
+def
+test_skipif_using_platform
+(
+self
+testdir
+)
+:
+        
+item
+=
+testdir
+.
+getitem
+(
+            
+"
+"
+"
+            
+import
+pytest
+            
+pytest
+.
+mark
+.
+skipif
+(
+"
+platform
+.
+platform
+(
+)
+=
+=
+platform
+.
+platform
+(
+)
+"
+)
+            
+def
+test_func
+(
+)
+:
+                
+pass
+        
+"
+"
+"
+        
+)
+        
+pytest
+.
+raises
+(
+pytest
+.
+skip
+.
+Exception
+lambda
+:
+pytest_runtest_setup
+(
+item
+)
+)
+    
 pytest
 .
 mark
 .
 parametrize
 (
-'
+        
+"
 marker
 msg1
 msg2
-'
+"
+        
 [
-        
 (
-'
+"
 skipif
-'
-'
+"
+"
 SKIP
-'
-'
+"
+"
 skipped
-'
+"
 )
-        
 (
-'
+"
 xfail
-'
-'
+"
+"
 XPASS
-'
-'
+"
+"
 xpassed
-'
+"
 )
-    
 ]
+    
 )
     
 def
@@ -4381,6 +4605,7 @@ testdir
 .
 makepyfile
 (
+            
 test_foo
 =
 "
@@ -4437,10 +4662,13 @@ assert
 .
 format
 (
+                
 marker
 =
 marker
+            
 )
+        
 )
         
 result
@@ -4449,14 +4677,14 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 s
-'
-'
+"
+"
 -
 rsxX
-'
+"
 )
         
 result
@@ -4465,8 +4693,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 {
@@ -4487,7 +4716,7 @@ msg1
 =
 msg1
 )
-            
+                
 "
 *
 1
@@ -4503,8 +4732,9 @@ msg2
 =
 msg2
 )
-        
+            
 ]
+        
 )
         
 assert
@@ -4527,6 +4757,7 @@ testdir
 .
 makepyfile
 (
+        
 test_one
 =
 "
@@ -4554,6 +4785,7 @@ hello
 "
 "
 "
+    
 )
     
 result
@@ -4563,10 +4795,10 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 v
-'
+"
 )
     
 result
@@ -4575,8 +4807,9 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 #
 "
 *
@@ -4588,15 +4821,16 @@ use
 r
 *
 "
-        
+            
 "
 *
 1
 skipped
 *
 "
-    
+        
 ]
+    
 )
 def
 test_skipif_class
@@ -4611,6 +4845,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -4661,6 +4896,7 @@ assert
 "
 "
 "
+    
 )
     
 result
@@ -4679,14 +4915,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 2
 skipped
 *
 "
-    
 ]
 )
 def
@@ -4959,10 +5193,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 rs
-'
+"
 )
     
 result
@@ -4972,7 +5206,6 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 SKIP
@@ -4987,7 +5220,6 @@ py
 :
 test
 "
-    
 ]
 )
     
@@ -5077,10 +5309,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 rs
-'
+"
 )
     
 result
@@ -5090,7 +5322,6 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 SKIP
@@ -5103,7 +5334,6 @@ py
 :
 Folding
 "
-    
 ]
 )
     
@@ -5125,6 +5355,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5188,6 +5419,7 @@ four
 "
 "
 "
+    
 )
     
 result
@@ -5208,37 +5440,34 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
 "
 FAIL
 *
 test_1
 *
 "
-        
 "
 XFAIL
 *
 test_2
 *
 "
-        
 "
 XPASS
 *
 test_3
 *
 "
-        
 "
 SKIP
 *
 four
 *
 "
-    
 ]
+    
 )
 def
 test_reportchars_error
@@ -5288,6 +5517,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -5296,10 +5526,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 rE
-'
+"
 )
     
 result
@@ -5309,14 +5539,12 @@ stdout
 fnmatch_lines
 (
 [
-        
-'
+"
 ERROR
 *
 test_foo
 *
-'
-    
+"
 ]
 )
 def
@@ -5330,6 +5558,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5393,6 +5622,7 @@ four
 "
 "
 "
+    
 )
     
 result
@@ -5413,37 +5643,34 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
 "
 FAIL
 *
 test_1
 *
 "
-        
 "
 SKIP
 *
 four
 *
 "
-        
 "
 XFAIL
 *
 test_2
 *
 "
-        
 "
 XPASS
 *
 test_3
 *
 "
-    
 ]
+    
 )
 def
 test_reportchars_all_error
@@ -5493,6 +5720,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -5501,10 +5729,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 ra
-'
+"
 )
     
 result
@@ -5514,14 +5742,12 @@ stdout
 fnmatch_lines
 (
 [
-        
-'
+"
 ERROR
 *
 test_foo
 *
-'
-    
+"
 ]
 )
 pytest
@@ -5551,6 +5777,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5608,6 +5835,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -5662,8 +5890,9 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 *
 ERROR
@@ -5671,7 +5900,7 @@ ERROR
 test_nameerror
 *
 "
-        
+            
 "
 *
 evaluating
@@ -5681,13 +5910,13 @@ skipif
 expression
 *
 "
-        
+            
 "
 *
 asd
 *
 "
-        
+            
 "
 *
 ERROR
@@ -5695,7 +5924,7 @@ ERROR
 test_syntax
 *
 "
-        
+            
 "
 *
 evaluating
@@ -5705,21 +5934,21 @@ xfail
 expression
 *
 "
-        
+            
 "
 syntax
 error
 "
-        
+            
 markline
-        
+            
 "
 SyntaxError
 :
 invalid
 syntax
 "
-        
+            
 "
 *
 1
@@ -5729,8 +5958,9 @@ pass
 error
 *
 "
-    
+        
 ]
+    
 )
 def
 test_xfail_skipif_with_globals
@@ -5743,6 +5973,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5802,6 +6033,7 @@ assert
 "
 "
 "
+    
 )
     
 result
@@ -5823,7 +6055,6 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 SKIP
@@ -5834,7 +6065,6 @@ x
 3
 *
 "
-        
 "
 *
 XFAIL
@@ -5842,7 +6072,6 @@ XFAIL
 test_boolean
 *
 "
-        
 "
 *
 x
@@ -5851,7 +6080,6 @@ x
 3
 *
 "
-    
 ]
 )
 def
@@ -5865,6 +6093,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5892,6 +6121,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -5909,14 +6139,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 1
 error
 *
 "
-    
 ]
 )
 def
@@ -5945,8 +6173,9 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 *
 skipif
@@ -5958,7 +6187,7 @@ condition
 skip
 *
 "
-        
+            
 "
 *
 xfail
@@ -5983,8 +6212,9 @@ expected
 failure
 *
 "
-    
+        
 ]
+    
 )
 def
 test_xfail_test_setup_exception
@@ -5997,6 +6227,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -6014,6 +6245,7 @@ pytest_runtest_setup
 "
 "
 "
+    
 )
     
 p
@@ -6022,6 +6254,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6047,6 +6280,7 @@ assert
 "
 "
 "
+    
 )
     
 result
@@ -6067,9 +6301,9 @@ ret
 0
     
 assert
-'
+"
 xfailed
-'
+"
 in
 result
 .
@@ -6080,9 +6314,9 @@ str
 )
     
 assert
-'
+"
 xpassed
-'
+"
 not
 in
 result
@@ -6103,6 +6337,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6147,12 +6382,14 @@ pass
 "
 "
 "
+    
 )
     
 testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -6179,6 +6416,7 @@ abc
 "
 "
 "
+    
 )
     
 result
@@ -6199,6 +6437,7 @@ stdout
 .
 fnmatch_lines_random
 (
+        
 "
 "
 "
@@ -6225,6 +6464,7 @@ skipped
 "
 "
 "
+    
 )
 class
 TestBooleanCondition
@@ -6245,6 +6485,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6299,6 +6540,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -6315,6 +6557,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -6330,6 +6573,7 @@ skipped
 "
 "
 "
+        
 )
     
 def
@@ -6344,6 +6588,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6371,6 +6616,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -6391,6 +6637,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -6403,6 +6650,7 @@ error
 "
 "
 "
+        
 )
     
 def
@@ -6417,6 +6665,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -6450,6 +6699,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -6470,6 +6720,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -6490,6 +6741,7 @@ xfail
 "
 "
 "
+        
 )
 def
 test_xfail_item
@@ -6514,6 +6766,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -6573,6 +6826,7 @@ parent
 "
 "
 "
+    
 )
     
 result
@@ -6609,9 +6863,9 @@ if
 hasattr
 (
 r
-'
+"
 wasxfail
-'
+"
 )
 ]
     
@@ -6650,6 +6904,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6673,6 +6928,7 @@ True
 "
 "
 "
+    
 )
     
 result
@@ -6689,7 +6945,6 @@ stdout
 .
 fnmatch_lines
 (
-        
 "
 *
 Using
@@ -6705,7 +6960,6 @@ not
 allowed
 *
 "
-    
 )
 def
 test_module_level_skip_with_allow_module_level
@@ -6740,6 +6994,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6771,6 +7026,7 @@ assert
 "
 "
 "
+    
 )
     
 result
@@ -6791,14 +7047,12 @@ stdout
 .
 fnmatch_lines
 (
-        
 "
 *
 SKIP
 *
 skip_module_level
 "
-    
 )
 def
 test_invalid_skip_keyword_parameter
@@ -6834,6 +7088,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6865,6 +7120,7 @@ assert
 "
 "
 "
+    
 )
     
 result
@@ -6881,7 +7137,6 @@ stdout
 .
 fnmatch_lines
 (
-        
 "
 *
 TypeError
@@ -6894,7 +7149,6 @@ unknown
 ]
 *
 "
-    
 )
 def
 test_mark_xfail_item
@@ -6921,6 +7175,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -7004,6 +7259,7 @@ parent
 "
 "
 "
+    
 )
     
 result
@@ -7040,11 +7296,123 @@ if
 hasattr
 (
 r
-'
+"
 wasxfail
-'
+"
 )
 ]
     
 assert
 xfailed
+def
+test_summary_list_after_errors
+(
+testdir
+)
+:
+    
+"
+"
+"
+Ensure
+the
+list
+of
+errors
+/
+fails
+/
+xfails
+/
+skips
+appears
+after
+tracebacks
+in
+terminal
+reporting
+.
+"
+"
+"
+    
+testdir
+.
+makepyfile
+(
+        
+"
+"
+"
+        
+import
+pytest
+        
+def
+test_fail
+(
+)
+:
+            
+assert
+0
+    
+"
+"
+"
+    
+)
+    
+result
+=
+testdir
+.
+runpytest
+(
+"
+-
+ra
+"
+)
+    
+result
+.
+stdout
+.
+fnmatch_lines
+(
+        
+[
+            
+"
+=
+*
+FAILURES
+*
+=
+"
+            
+"
+*
+=
+short
+test
+summary
+info
+=
+*
+"
+            
+"
+FAIL
+test_summary_list_after_errors
+.
+py
+:
+:
+test_fail
+"
+        
+]
+    
+)

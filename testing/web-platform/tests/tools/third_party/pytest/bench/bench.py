@@ -4,9 +4,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 import
@@ -14,6 +14,8 @@ cProfile
     
 import
 pytest
+#
+NOQA
     
 import
 pstats
@@ -49,7 +51,7 @@ cProfile
 .
 run
 (
-'
+"
 pytest
 .
 cmdline
@@ -59,12 +61,12 @@ main
 %
 r
 )
-'
+"
 %
 script
-'
+"
 prof
-'
+"
 )
     
 p
@@ -88,9 +90,9 @@ p
 .
 sort_stats
 (
-'
+"
 cumulative
-'
+"
 )
     
 print

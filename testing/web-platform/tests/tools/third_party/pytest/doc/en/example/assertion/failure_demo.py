@@ -43,13 +43,10 @@ b
 :
     
 assert
-(
 a
 =
 =
-            
 b
-)
 def
 test_generative
 (
@@ -72,9 +69,9 @@ metafunc
 :
     
 if
-'
+"
 param1
-'
+"
 in
 metafunc
 .
@@ -148,9 +145,7 @@ self
         
 otherfunc_multi
 (
-                  
 42
-                  
 6
 *
 9
@@ -192,14 +187,14 @@ self
 :
         
 assert
-'
+"
 spam
-'
+"
 =
 =
-'
+"
 eggs
-'
+"
     
 def
 test_eq_similar_text
@@ -209,18 +204,18 @@ self
 :
         
 assert
-'
+"
 foo
 1
 bar
-'
+"
 =
 =
-'
+"
 foo
 2
 bar
-'
+"
     
 def
 test_eq_multiline_text
@@ -230,22 +225,22 @@ self
 :
         
 assert
-'
+"
 foo
 \
 nspam
 \
 nbar
-'
+"
 =
 =
-'
+"
 foo
 \
 neggs
 \
 nbar
-'
+"
     
 def
 test_eq_long_text
@@ -256,37 +251,37 @@ self
         
 a
 =
-'
+"
 1
-'
+"
 *
 100
 +
-'
+"
 a
-'
+"
 +
-'
+"
 2
-'
+"
 *
 100
         
 b
 =
-'
+"
 1
-'
+"
 *
 100
 +
-'
+"
 b
-'
+"
 +
-'
+"
 2
-'
+"
 *
 100
         
@@ -305,45 +300,45 @@ self
         
 a
 =
-'
+"
 1
 \
 n
-'
+"
 *
 100
 +
-'
+"
 a
-'
+"
 +
-'
+"
 2
 \
 n
-'
+"
 *
 100
         
 b
 =
-'
+"
 1
 \
 n
-'
+"
 *
 100
 +
-'
+"
 b
-'
+"
 +
-'
+"
 2
 \
 n
-'
+"
 *
 100
         
@@ -432,38 +427,38 @@ self
         
 assert
 {
-'
+"
 a
-'
+"
 :
 0
-'
+"
 b
-'
+"
 :
 1
-'
+"
 c
-'
+"
 :
 0
 }
 =
 =
 {
-'
+"
 a
-'
+"
 :
 0
-'
+"
 b
-'
+"
 :
 2
-'
+"
 d
-'
+"
 :
 0
 }
@@ -476,25 +471,19 @@ self
 :
         
 assert
-set
-(
-[
+{
 0
 10
 11
 12
-]
-)
+}
 =
 =
-set
-(
-[
+{
 0
 20
 21
-]
-)
+}
     
 def
 test_eq_longer_list
@@ -543,7 +532,7 @@ self
         
 text
 =
-'
+"
 some
 multiline
 \
@@ -558,12 +547,12 @@ nand
 a
 \
 ntail
-'
+"
         
 assert
-'
+"
 foo
-'
+"
 not
 in
 text
@@ -577,16 +566,16 @@ self
         
 text
 =
-'
+"
 single
 foo
 line
-'
+"
         
 assert
-'
+"
 foo
-'
+"
 not
 in
 text
@@ -600,26 +589,26 @@ self
         
 text
 =
-'
+"
 head
-'
+"
 *
 50
 +
-'
+"
 foo
-'
+"
 +
-'
+"
 tail
-'
+"
 *
 20
         
 assert
-'
+"
 foo
-'
+"
 not
 in
 text
@@ -633,28 +622,28 @@ self
         
 text
 =
-'
+"
 head
-'
+"
 *
 50
 +
-'
+"
 f
-'
+"
 *
 70
 +
-'
+"
 tail
-'
+"
 *
 20
         
 assert
-'
+"
 f
-'
+"
 *
 70
 not
@@ -739,12 +728,12 @@ self
 raise
 Exception
 (
-'
+"
 Failed
 to
 get
 attrib
-'
+"
 )
         
 b
@@ -835,9 +824,11 @@ self
         
 s
 =
-'
+"
 qwe
-'
+"
+#
+NOQA
         
 raises
 (
@@ -899,6 +890,8 @@ b
 [
 1
 ]
+#
+NOQA
     
 def
 test_reinterpret_fails_with_print_for_the_fun_of_it
@@ -907,7 +900,7 @@ self
 )
 :
         
-l
+items
 =
 [
 1
@@ -918,19 +911,19 @@ l
 print
 (
 "
-l
+items
 is
 %
 r
 "
 %
-l
+items
 )
         
 a
 b
 =
-l
+items
 .
 pop
 (
@@ -946,6 +939,8 @@ self
 if
 namenotexi
 :
+#
+NOQA
             
 pass
     
@@ -975,9 +970,15 @@ test_dynamic_compile_shows_nicely
 )
 :
     
+import
+imp
+    
+import
+sys
+    
 src
 =
-'
+"
 def
 foo
 (
@@ -992,22 +993,18 @@ assert
 0
 \
 n
-'
+"
     
 name
 =
-'
+"
 abc
 -
 123
-'
+"
     
 module
 =
-py
-.
-std
-.
 imp
 .
 new_module
@@ -1025,9 +1022,9 @@ compile
 (
 src
 name
-'
+"
 exec
-'
+"
 )
     
 py
@@ -1042,10 +1039,6 @@ module
 __dict__
 )
     
-py
-.
-std
-.
 sys
 .
 modules
@@ -1109,7 +1102,7 @@ self
 )
 :
         
-l
+items
 =
 [
 ]
@@ -1117,7 +1110,7 @@ l
 a
 b
 =
-l
+items
     
 def
 test_z2_type_error
@@ -1126,14 +1119,14 @@ self
 )
 :
         
-l
+items
 =
 3
         
 a
 b
 =
-l
+items
     
 def
 test_startswith
@@ -1354,12 +1347,16 @@ b
 2
         
 assert
+(
+            
 A
 .
 a
 =
 =
 b
+        
+)
 "
 A
 .
@@ -1372,8 +1369,6 @@ b
 \
 n
 "
-\
-            
 "
 or
 does

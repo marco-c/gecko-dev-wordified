@@ -13,9 +13,13 @@ print_function
 import
 pytest
 import
-py
-import
 os
+import
+re
+import
+sys
+import
+types
 from
 _pytest
 .
@@ -62,6 +66,7 @@ testdir
 .
 makepyfile
 (
+            
 newhooks
 =
 "
@@ -83,6 +88,7 @@ hook
 "
 "
 "
+        
 )
         
 conf
@@ -91,6 +97,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -142,6 +149,7 @@ xyz
 "
 "
 "
+        
 )
         
 config
@@ -175,6 +183,7 @@ config
 .
 pluginmanager
 )
+        
 )
         
 config
@@ -231,6 +240,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -255,6 +265,7 @@ sys
 "
 "
 "
+        
 )
         
 res
@@ -280,7 +291,6 @@ stderr
 fnmatch_lines
 (
 [
-            
 "
 *
 did
@@ -290,7 +300,6 @@ find
 sys
 *
 "
-        
 ]
 )
     
@@ -308,6 +317,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -332,6 +342,7 @@ Item2
 "
 "
 "
+        
 )
         
 result
@@ -363,6 +374,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -387,6 +399,7 @@ world
 "
 "
 "
+        
 )
         
 p
@@ -395,6 +408,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -433,6 +447,7 @@ __all__
 "
 "
 "
+        
 )
         
 reprec
@@ -476,9 +491,9 @@ hasattr
 config
 .
 option
-'
+"
 test123
-'
+"
 )
         
 p
@@ -487,6 +502,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -521,6 +537,7 @@ True
 "
 "
 "
+        
 )
         
 config
@@ -841,9 +858,9 @@ values
 2
             
 assert
-'
+"
 pytest_plugin_registered
-'
+"
 in
 values
 [
@@ -851,9 +868,9 @@ values
 ]
             
 assert
-'
+"
 finish
-'
+"
 in
 values
 [
@@ -958,19 +975,17 @@ makepyfile
 *
 *
 {
-            
-'
+"
 tests
 /
 conftest
 .
 py
-'
+"
 :
-'
-'
-            
-'
+"
+"
+"
 tests
 /
 subdir
@@ -978,11 +993,10 @@ subdir
 conftest
 .
 py
-'
+"
 :
-'
-'
-        
+"
+"
 }
 )
         
@@ -994,13 +1008,13 @@ tmpdir
 .
 join
 (
-'
+"
 tests
 /
 conftest
 .
 py
-'
+"
 )
         
 conftest2
@@ -1011,7 +1025,7 @@ tmpdir
 .
 join
 (
-'
+"
 tests
 /
 subdir
@@ -1019,7 +1033,7 @@ subdir
 conftest
 .
 py
-'
+"
 )
         
 config
@@ -1043,9 +1057,9 @@ tmpdir
 .
 join
 (
-'
+"
 tests
-'
+"
 )
 )
         
@@ -1076,9 +1090,9 @@ tmpdir
 .
 join
 (
-'
+"
 tests
-'
+"
 )
 )
         
@@ -1203,6 +1217,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1217,6 +1232,7 @@ mark
 "
 "
 "
+    
 )
     
 result
@@ -1262,7 +1278,6 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 tryfirst
@@ -1270,7 +1285,6 @@ tryfirst
 first
 *
 "
-        
 "
 *
 trylast
@@ -1278,7 +1292,6 @@ trylast
 last
 *
 "
-    
 ]
 )
 def
@@ -1336,6 +1349,7 @@ testdir
 .
 makepyfile
 (
+        
 qwe
 =
 "
@@ -1375,6 +1389,7 @@ test_traceback
 "
 "
 "
+    
 )
     
 with
@@ -1427,10 +1442,6 @@ test_traceback
 "
     
 assert
-py
-.
-std
-.
 re
 .
 match
@@ -1445,10 +1456,6 @@ value
 )
     
 assert
-py
-.
-std
-.
 re
 .
 match
@@ -1487,10 +1494,6 @@ PytestPluginManager
         
 mod
 =
-py
-.
-std
-.
 types
 .
 ModuleType
@@ -1592,10 +1595,6 @@ monkeypatch
         
 mod
 =
-py
-.
-std
-.
 types
 .
 ModuleType
@@ -1609,16 +1608,12 @@ monkeypatch
 .
 setitem
 (
-py
-.
-std
-.
 sys
 .
 modules
-'
+"
 pytest_xyz
-'
+"
 mod
 )
         
@@ -1632,9 +1627,9 @@ pm
 .
 import_plugin
 (
-'
+"
 pytest_xyz
-'
+"
 )
         
 assert
@@ -1642,9 +1637,9 @@ pm
 .
 get_plugin
 (
-'
+"
 pytest_xyz
-'
+"
 )
 =
 =
@@ -1697,10 +1692,6 @@ pytest_p2
         
 mod
 =
-py
-.
-std
-.
 types
 .
 ModuleType
@@ -1782,10 +1773,6 @@ pluginmanager
         
 mod
 =
-py
-.
-std
-.
 types
 .
 ModuleType
@@ -1837,10 +1824,6 @@ dirpath
 )
 )
         
-py
-.
-std
-.
 sys
 .
 path
@@ -1941,12 +1924,12 @@ monkeypatch
 .
 setenv
 (
-'
+"
 PYTEST_PLUGINS
-'
-'
+"
+"
 nonexisting
-'
+"
 prepend
 =
 "
@@ -1983,6 +1966,7 @@ testdir
 .
 makepyfile
 (
+            
 skipping1
 =
 "
@@ -2004,6 +1988,7 @@ hello
 "
 "
 "
+        
 )
         
 p
@@ -2070,8 +2055,8 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
 "
 *
 skipped
@@ -2082,7 +2067,6 @@ skipping1
 hello
 *
 "
-            
 "
 *
 skipped
@@ -2093,8 +2077,8 @@ skipping2
 hello
 *
 "
-        
 ]
+        
 )
     
 def
@@ -2131,12 +2115,12 @@ setitem
 os
 .
 environ
-'
+"
 PYTEST_PLUGINS
-'
-'
+"
+"
 xy123
-'
+"
 )
         
 l1
@@ -2180,9 +2164,9 @@ pytestpm
 .
 get_plugin
 (
-'
+"
 xy123
-'
+"
 )
         
 pytestpm
@@ -2234,6 +2218,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2270,18 +2255,19 @@ None
 "
 "
 "
+        
 )
         
 monkeypatch
 .
 setenv
 (
-'
+"
 PYTEST_PLUGINS
-'
-'
+"
+"
 pytest_x500
-'
+"
 prepend
 =
 "
@@ -2461,9 +2447,9 @@ __name__
 .
 endswith
 (
-'
+"
 pytest_hello
-'
+"
 )
         
 plugin2
@@ -2660,10 +2646,10 @@ pytest
 .
 raises
 (
+            
 ImportError
 lambda
 :
-                      
 pytestpm
 .
 consider_preparse
@@ -2681,6 +2667,7 @@ hello123
 "
 ]
 )
+        
 )
     
 def

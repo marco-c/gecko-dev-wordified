@@ -111,9 +111,9 @@ monkeypatch
 setattr
 (
 A
-'
+"
 y
-'
+"
 2
 raising
 =
@@ -139,9 +139,9 @@ not
 hasattr
 (
 A
-'
+"
 y
-'
+"
 )
     
 monkeypatch
@@ -155,9 +155,9 @@ monkeypatch
 setattr
 (
 A
-'
+"
 x
-'
+"
 2
 )
     
@@ -174,9 +174,9 @@ monkeypatch
 setattr
 (
 A
-'
+"
 x
-'
+"
 3
 )
     
@@ -399,7 +399,6 @@ pytest
 raises
 (
 ImportError
-                      
 lambda
 :
 monkeypatch
@@ -427,8 +426,8 @@ pytest
 .
 raises
 (
+            
 AttributeError
-                      
 lambda
 :
 monkeypatch
@@ -444,6 +443,7 @@ qweqwe
 "
 None
 )
+        
 )
     
 def
@@ -477,13 +477,13 @@ monkeypatch
 .
 setattr
 (
-'
+"
 os
 .
 path
 .
 qweqwe
-'
+"
 42
 raising
 =
@@ -573,9 +573,9 @@ monkeypatch
 delattr
 (
 A
-'
+"
 x
-'
+"
 )
     
 assert
@@ -583,9 +583,9 @@ not
 hasattr
 (
 A
-'
+"
 x
-'
+"
 )
     
 monkeypatch
@@ -613,9 +613,9 @@ monkeypatch
 delattr
 (
 A
-'
+"
 x
-'
+"
 )
     
 pytest
@@ -641,9 +641,9 @@ monkeypatch
 delattr
 (
 A
-'
+"
 y
-'
+"
 raising
 =
 False
@@ -654,9 +654,9 @@ monkeypatch
 setattr
 (
 A
-'
+"
 x
-'
+"
 5
 raising
 =
@@ -693,9 +693,9 @@ test_setitem
 d
 =
 {
-'
+"
 x
-'
+"
 :
 1
 }
@@ -711,9 +711,9 @@ monkeypatch
 setitem
 (
 d
-'
+"
 x
-'
+"
 2
 )
     
@@ -722,9 +722,9 @@ monkeypatch
 setitem
 (
 d
-'
+"
 y
-'
+"
 1700
 )
     
@@ -733,18 +733,18 @@ monkeypatch
 setitem
 (
 d
-'
+"
 y
-'
+"
 1700
 )
     
 assert
 d
 [
-'
+"
 x
-'
+"
 ]
 =
 =
@@ -753,9 +753,9 @@ x
 assert
 d
 [
-'
+"
 y
-'
+"
 ]
 =
 =
@@ -766,18 +766,18 @@ monkeypatch
 setitem
 (
 d
-'
+"
 x
-'
+"
 3
 )
     
 assert
 d
 [
-'
+"
 x
-'
+"
 ]
 =
 =
@@ -792,27 +792,27 @@ undo
 assert
 d
 [
-'
+"
 x
-'
+"
 ]
 =
 =
 1
     
 assert
-'
+"
 y
-'
+"
 not
 in
 d
     
 d
 [
-'
+"
 x
-'
+"
 ]
 =
 5
@@ -826,9 +826,9 @@ undo
 assert
 d
 [
-'
+"
 x
-'
+"
 ]
 =
 =
@@ -855,18 +855,18 @@ monkeypatch
 setitem
 (
 d
-'
+"
 x
-'
+"
 2
 )
     
 del
 d
 [
-'
+"
 x
-'
+"
 ]
     
 monkeypatch
@@ -931,9 +931,9 @@ monkeypatch
 setenv
 (
 key
-'
+"
 hello
-'
+"
 )
     
 del
@@ -994,9 +994,9 @@ test_delitem
 d
 =
 {
-'
+"
 x
-'
+"
 :
 1
 }
@@ -1012,15 +1012,15 @@ monkeypatch
 delitem
 (
 d
-'
+"
 x
-'
+"
 )
     
 assert
-'
+"
 x
-'
+"
 not
 in
 d
@@ -1030,9 +1030,9 @@ monkeypatch
 delitem
 (
 d
-'
+"
 y
-'
+"
 raising
 =
 False
@@ -1065,18 +1065,18 @@ monkeypatch
 setitem
 (
 d
-'
+"
 y
-'
+"
 1700
 )
     
 assert
 d
 [
-'
+"
 y
-'
+"
 ]
 =
 =
@@ -1084,32 +1084,32 @@ y
     
 d
 [
-'
+"
 hello
-'
+"
 ]
 =
-'
+"
 world
-'
+"
     
 monkeypatch
 .
 setitem
 (
 d
-'
+"
 x
-'
+"
 1500
 )
     
 assert
 d
 [
-'
+"
 x
-'
+"
 ]
 =
 =
@@ -1126,16 +1126,16 @@ d
 =
 =
 {
-'
+"
 hello
-'
+"
 :
-'
+"
 world
-'
-'
+"
+"
 x
-'
+"
 :
 1
 }
@@ -1155,9 +1155,9 @@ monkeypatch
 .
 setenv
 (
-'
+"
 XYZ123
-'
+"
 2
 )
     
@@ -1169,9 +1169,9 @@ os
 .
 environ
 [
-'
+"
 XYZ123
-'
+"
 ]
 =
 =
@@ -1186,9 +1186,9 @@ undo
 )
     
 assert
-'
+"
 XYZ123
-'
+"
 not
 in
 os
@@ -1202,9 +1202,9 @@ test_delenv
     
 name
 =
-'
+"
 xyz1234
-'
+"
     
 assert
 name
@@ -1371,9 +1371,9 @@ monkeypatch
 .
 setenv
 (
-'
+"
 XYZ123
-'
+"
 2
 prepend
 =
@@ -1387,9 +1387,9 @@ os
 .
 environ
 [
-'
+"
 XYZ123
-'
+"
 ]
 =
 =
@@ -1401,9 +1401,9 @@ monkeypatch
 .
 setenv
 (
-'
+"
 XYZ123
-'
+"
 3
 prepend
 =
@@ -1417,9 +1417,9 @@ os
 .
 environ
 [
-'
+"
 XYZ123
-'
+"
 ]
 =
 =
@@ -1436,9 +1436,9 @@ undo
 )
     
 assert
-'
+"
 XYZ123
-'
+"
 not
 in
 os
@@ -1457,6 +1457,7 @@ testdir
 .
 inline_runsource
 (
+        
 "
 "
 "
@@ -1483,6 +1484,7 @@ MonkeyPatch
 "
 "
 "
+    
 )
     
 res
@@ -1526,18 +1528,18 @@ mp
 .
 syspath_prepend
 (
-'
+"
 world
-'
+"
 )
     
 mp
 .
 syspath_prepend
 (
-'
+"
 hello
-'
+"
 )
     
 assert
@@ -1604,10 +1606,10 @@ mp
 .
 syspath_prepend
 (
-'
+"
 hello
 world
-'
+"
 )
     
 mp
@@ -1622,11 +1624,11 @@ path
 .
 append
 (
-'
+"
 more
 hello
 world
-'
+"
 )
     
 mp
@@ -1645,11 +1647,11 @@ path
 ]
 =
 =
-'
+"
 more
 hello
 world
-'
+"
 def
 test_chdir_with_path_local
 (
@@ -1799,6 +1801,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1836,6 +1839,7 @@ f
 "
 "
 "
+    
 )
     
 result
@@ -1852,6 +1856,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -1864,6 +1869,7 @@ passed
 "
 "
 "
+    
 )
 def
 test_importerror
@@ -1896,10 +1902,12 @@ py
 .
 write
 (
+        
 textwrap
 .
 dedent
 (
+            
 "
 "
 "
@@ -1915,7 +1923,9 @@ x
 "
 "
 "
+        
 )
+    
 )
     
 testdir
@@ -1933,10 +1943,12 @@ py
 .
 write
 (
+        
 textwrap
 .
 dedent
 (
+            
 "
 "
 "
@@ -1966,7 +1978,9 @@ x
 "
 "
 "
+        
 )
+    
 )
     
 result
@@ -1983,6 +1997,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -2013,6 +2028,7 @@ doesnotexist
 .
 format
 (
+            
 "
 '
 "
@@ -2028,7 +2044,9 @@ version_info
 else
 "
 "
+        
 )
+    
 )
 class
 SampleNew
@@ -2091,36 +2109,37 @@ mark
 .
 parametrize
 (
-'
-Sample
-'
-[
     
+"
+Sample
+"
+    
+[
 SampleNew
 SampleNewInherit
-    
 SampleOld
 SampleOldInherit
 ]
+    
 ids
 =
 [
-'
+"
 new
-'
-'
+"
+"
 new
 -
 inherit
-'
-'
+"
+"
 old
-'
-'
+"
+"
 old
 -
 inherit
-'
+"
 ]
 )
 def
@@ -2141,9 +2160,9 @@ monkeypatch
 setattr
 (
 Sample
-'
+"
 hello
-'
+"
 None
 )
     
@@ -2176,9 +2195,9 @@ pytest
 .
 importorskip
 (
-'
+"
 requests
-'
+"
 )
     
 monkeypatch
@@ -2194,7 +2213,7 @@ monkeypatch
 .
 delattr
 (
-'
+"
 requests
 .
 sessions
@@ -2202,7 +2221,7 @@ sessions
 Session
 .
 request
-'
+"
 )
     
 finally
@@ -2212,4 +2231,63 @@ monkeypatch
 .
 undo
 (
+)
+def
+test_context
+(
+)
+:
+    
+monkeypatch
+=
+MonkeyPatch
+(
+)
+    
+import
+functools
+    
+import
+inspect
+    
+with
+monkeypatch
+.
+context
+(
+)
+as
+m
+:
+        
+m
+.
+setattr
+(
+functools
+"
+partial
+"
+3
+)
+        
+assert
+not
+inspect
+.
+isclass
+(
+functools
+.
+partial
+)
+    
+assert
+inspect
+.
+isclass
+(
+functools
+.
+partial
 )

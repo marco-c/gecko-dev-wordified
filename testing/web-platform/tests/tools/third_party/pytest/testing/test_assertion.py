@@ -85,9 +85,9 @@ if
 name
 =
 =
-'
+"
 verbose
-'
+"
 :
                 
 return
@@ -98,14 +98,14 @@ verbose
 raise
 KeyError
 (
-'
+"
 Not
 mocked
 out
 :
 %
 s
-'
+"
 %
 name
 )
@@ -127,9 +127,9 @@ mark
 .
 parametrize
 (
-'
+"
 initial_conftest
-'
+"
 [
 True
 False
@@ -142,16 +142,16 @@ mark
 .
 parametrize
 (
-'
+"
 mode
-'
+"
 [
-'
+"
 plain
-'
-'
+"
+"
 rewrite
-'
+"
 ]
 )
     
@@ -195,11 +195,11 @@ tmpdir
 .
 join
 (
-'
+"
 foo
 /
 tests
-'
+"
 )
 .
 ensure
@@ -211,21 +211,21 @@ dir
         
 conftest_path
 =
-'
+"
 conftest
 .
 py
-'
+"
 if
 initial_conftest
 else
-'
+"
 foo
 /
 conftest
 .
 py
-'
+"
         
 contents
 =
@@ -276,7 +276,7 @@ check
 "
 "
             
-'
+"
 foo
 /
 tests
@@ -284,7 +284,7 @@ tests
 test_foo
 .
 py
-'
+"
 :
 "
 "
@@ -327,14 +327,14 @@ testdir
 .
 runpytest_subprocess
 (
-'
+"
 -
 -
 assert
 =
 %
 s
-'
+"
 %
 mode
 )
@@ -343,30 +343,30 @@ if
 mode
 =
 =
-'
+"
 plain
-'
+"
 :
             
 expected
 =
-'
+"
 E
 AssertionError
-'
+"
         
 elif
 mode
 =
 =
-'
+"
 rewrite
-'
+"
 :
             
 expected
 =
-'
+"
 *
 assert
 10
@@ -374,7 +374,7 @@ assert
 =
 30
 *
-'
+"
         
 else
 :
@@ -431,6 +431,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -489,6 +490,7 @@ passed
 "
 "
 "
+        
 )
         
 result
@@ -506,8 +508,7 @@ stdout
 fnmatch_lines
 (
 [
-            
-'
+"
 *
 assert
 1
@@ -515,8 +516,7 @@ assert
 =
 0
 *
-'
-        
+"
 ]
 )
     
@@ -526,16 +526,16 @@ mark
 .
 parametrize
 (
-'
+"
 mode
-'
+"
 [
-'
+"
 plain
-'
-'
+"
+"
 rewrite
-'
+"
 ]
 )
     
@@ -552,11 +552,11 @@ contents
 =
 {
             
-'
+"
 conftest
 .
 py
-'
+"
 :
 "
 "
@@ -574,11 +574,11 @@ ham
 "
 "
             
-'
+"
 ham
 .
 py
-'
+"
 :
 "
 "
@@ -623,11 +623,11 @@ check
 "
 "
             
-'
+"
 test_foo
 .
 py
-'
+"
 :
 "
 "
@@ -670,14 +670,14 @@ testdir
 .
 runpytest_subprocess
 (
-'
+"
 -
 -
 assert
 =
 %
 s
-'
+"
 %
 mode
 )
@@ -686,30 +686,30 @@ if
 mode
 =
 =
-'
+"
 plain
-'
+"
 :
             
 expected
 =
-'
+"
 E
 AssertionError
-'
+"
         
 elif
 mode
 =
 =
-'
+"
 rewrite
-'
+"
 :
             
 expected
 =
-'
+"
 *
 assert
 10
@@ -717,7 +717,7 @@ assert
 =
 30
 *
-'
+"
         
 else
 :
@@ -742,16 +742,16 @@ mark
 .
 parametrize
 (
-'
+"
 mode
-'
+"
 [
-'
+"
 str
-'
-'
+"
+"
 list
-'
+"
 ]
 )
     
@@ -811,9 +811,9 @@ if
 mode
 =
 =
-'
+"
 str
-'
+"
 else
 '
 [
@@ -827,11 +827,11 @@ contents
 =
 {
             
-'
+"
 conftest
 .
 py
-'
+"
 :
 "
 "
@@ -849,16 +849,18 @@ plugins
 .
 format
 (
+                
 plugins
 =
 plugins
+            
 )
             
-'
+"
 ham
 .
 py
-'
+"
 :
 "
 "
@@ -871,11 +873,11 @@ pytest
 "
 "
             
-'
+"
 test_foo
 .
 py
-'
+"
 :
 "
 "
@@ -922,13 +924,13 @@ testdir
 .
 runpytest_subprocess
 (
-'
+"
 -
 -
 assert
 =
 rewrite
-'
+"
 )
         
 assert
@@ -975,11 +977,11 @@ contents
 =
 {
             
-'
+"
 conftest
 .
 py
-'
+"
 :
 "
 "
@@ -995,29 +997,29 @@ ham
 "
 "
             
-'
+"
 ham
 .
 py
-'
+"
 :
 "
 "
             
-'
+"
 hamster
 .
 py
-'
+"
 :
 "
 "
             
-'
+"
 test_foo
 .
 py
-'
+"
 :
 "
 "
@@ -1084,13 +1086,13 @@ testdir
 .
 runpytest_subprocess
 (
-'
+"
 -
 -
 assert
 =
 rewrite
-'
+"
 )
         
 assert
@@ -1107,16 +1109,16 @@ mark
 .
 parametrize
 (
-'
+"
 mode
-'
+"
 [
-'
+"
 plain
-'
-'
+"
+"
 rewrite
-'
+"
 ]
 )
     
@@ -1126,16 +1128,16 @@ mark
 .
 parametrize
 (
-'
+"
 plugin_state
-'
+"
 [
-'
+"
 development
-'
-'
+"
+"
 installed
-'
+"
 ]
 )
     
@@ -1176,9 +1178,9 @@ tmpdir
 .
 join
 (
-'
+"
 hampkg
-'
+"
 )
 .
 ensure
@@ -1192,13 +1194,13 @@ contents
 =
 {
             
-'
+"
 hampkg
 /
 __init__
 .
 py
-'
+"
 :
 "
 "
@@ -1243,11 +1245,11 @@ check
 "
 "
             
-'
+"
 spamplugin
 .
 py
-'
+"
 :
 "
 "
@@ -1297,11 +1299,11 @@ check
 "
 "
             
-'
+"
 mainwrapper
 .
 py
-'
+"
 :
 "
 "
@@ -1545,16 +1547,18 @@ main
 .
 format
 (
+                
 plugin_state
 =
 plugin_state
+            
 )
             
-'
+"
 test_foo
 .
 py
-'
+"
 :
 "
 "
@@ -1613,58 +1617,60 @@ testdir
 .
 run
 (
+            
 sys
 .
 executable
-'
+"
 mainwrapper
 .
 py
-'
-'
+"
+"
 -
 s
-'
-'
+"
+"
 -
 -
 assert
 =
 %
 s
-'
+"
 %
 mode
+        
 )
         
 if
 mode
 =
 =
-'
+"
 plain
-'
+"
 :
             
 expected
 =
-'
+"
 E
 AssertionError
-'
+"
         
 elif
 mode
 =
 =
-'
+"
 rewrite
-'
+"
 :
             
 expected
 =
-'
+"
 *
 assert
 10
@@ -1672,7 +1678,7 @@ assert
 =
 30
 *
-'
+"
         
 else
 :
@@ -1705,9 +1711,9 @@ tmpdir
 .
 join
 (
-'
+"
 pkg
-'
+"
 )
 .
 ensure
@@ -1721,13 +1727,13 @@ contents
 =
 {
             
-'
+"
 pkg
 /
 __init__
 .
 py
-'
+"
 :
 "
 "
@@ -1751,13 +1757,13 @@ helper
 "
 "
             
-'
+"
 pkg
 /
 helper
 .
 py
-'
+"
 :
 "
 "
@@ -1785,13 +1791,13 @@ b
 "
 "
             
-'
+"
 pkg
 /
 plugin
 .
 py
-'
+"
 :
 "
 "
@@ -1824,13 +1830,13 @@ tool
 "
 "
             
-'
+"
 pkg
 /
 other
 .
 py
-'
+"
 :
 "
 "
@@ -1863,11 +1869,11 @@ pop
 "
 "
             
-'
+"
 conftest
 .
 py
-'
+"
 :
 "
 "
@@ -1887,11 +1893,11 @@ plugin
 "
 "
             
-'
+"
 test_pkg
 .
 py
-'
+"
 :
 "
 "
@@ -1948,13 +1954,13 @@ testdir
 .
 runpytest_subprocess
 (
-'
+"
 -
 -
 assert
 =
 rewrite
-'
+"
 )
         
 result
@@ -1963,8 +1969,10 @@ stdout
 .
 fnmatch_lines
 (
+            
 [
-'
+                
+"
 >
 *
 assert
@@ -1973,9 +1981,9 @@ a
 =
 b
 *
-'
-                                     
-'
+"
+                
+"
 E
 *
 assert
@@ -1984,9 +1992,9 @@ assert
 =
 3
 *
-'
-                                     
-'
+"
+                
+"
 >
 *
 assert
@@ -1999,14 +2007,16 @@ pop
 =
 3
 *
-'
-                                     
-'
+"
+                
+"
 E
 *
 AssertionError
-'
+"
+            
 ]
+        
 )
     
 def
@@ -2030,9 +2040,9 @@ pytest
 register_assert_rewrite
 (
 [
-'
+"
 pytest_tests_internal_non_existing
-'
+"
 ]
 )
         
@@ -2040,13 +2050,14 @@ pytest
 .
 register_assert_rewrite
 (
-'
+            
+"
 pytest_tests_internal_non_existing
-'
-                                       
-'
+"
+"
 pytest_tests_internal_non_existing2
-'
+"
+        
 )
 class
 TestBinReprIntegration
@@ -2067,6 +2078,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -2116,12 +2128,14 @@ values
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2163,6 +2177,7 @@ list
 "
 "
 "
+        
 )
         
 result
@@ -2184,7 +2199,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 test_hello
@@ -2192,7 +2206,6 @@ test_hello
 FAIL
 *
 "
-            
 "
 *
 test_check
@@ -2200,7 +2213,6 @@ test_check
 PASS
 *
 "
-        
 ]
 )
 def
@@ -2232,10 +2244,10 @@ plugin
 pytest_assertrepr_compare
 (
 config
-'
+"
 =
 =
-'
+"
 left
 right
 )
@@ -2260,9 +2272,9 @@ callequal
 0
 1
 ]
-'
+"
 foo
-'
+"
 )
 is
 None
@@ -2310,12 +2322,12 @@ diff
 =
 callequal
 (
-'
+"
 spam
-'
-'
+"
+"
 eggs
-'
+"
 )
 [
 1
@@ -2323,18 +2335,18 @@ eggs
 ]
         
 assert
-'
+"
 -
 spam
-'
+"
 in
 diff
         
 assert
-'
+"
 +
 eggs
-'
+"
 in
 diff
     
@@ -2349,30 +2361,30 @@ lines
 =
 callequal
 (
-'
+"
 a
-'
+"
 *
 50
 +
-'
+"
 spam
-'
-'
+"
+"
 a
-'
+"
 *
 50
 +
-'
+"
 eggs
-'
+"
 )
         
 assert
-'
+"
 Skipping
-'
+"
 in
 lines
 [
@@ -2386,9 +2398,9 @@ lines
 :
             
 assert
-'
+"
 a
-'
+"
 *
 50
 not
@@ -2406,60 +2418,60 @@ lines
 =
 callequal
 (
-'
+"
 a
-'
+"
 *
 50
 +
-'
+"
 spam
-'
-'
+"
+"
 a
-'
+"
 *
 50
 +
-'
+"
 eggs
-'
+"
 verbose
 =
 True
 )
         
 assert
-'
+"
 -
-'
+"
 +
-'
+"
 a
-'
+"
 *
 50
 +
-'
+"
 spam
-'
+"
 in
 lines
         
 assert
-'
+"
 +
-'
+"
 +
-'
+"
 a
-'
+"
 *
 50
 +
-'
+"
 eggs
-'
+"
 in
 lines
     
@@ -2472,23 +2484,23 @@ self
         
 left
 =
-'
+"
 foo
 \
 nspam
 \
 nbar
-'
+"
         
 right
 =
-'
+"
 foo
 \
 neggs
 \
 nbar
-'
+"
         
 diff
 =
@@ -2499,18 +2511,18 @@ right
 )
         
 assert
-'
+"
 -
 spam
-'
+"
 in
 diff
         
 assert
-'
+"
 +
 eggs
-'
+"
 in
 diff
     
@@ -2551,27 +2563,31 @@ parametrize
 (
         
 [
-'
+"
 left
-'
-'
+"
+"
 right
-'
-'
+"
+"
 expected
-'
+"
 ]
+        
 [
             
 (
+                
 [
 0
 1
 ]
+                
 [
 0
 2
 ]
+                
 "
 "
 "
@@ -2601,19 +2617,23 @@ diff
 "
 "
 "
+            
 )
             
 (
+                
 {
 0
 :
 1
 }
+                
 {
 0
 :
 2
 }
+                
 "
 "
 "
@@ -2645,23 +2665,21 @@ diff
 "
 "
 "
+            
 )
             
 (
-set
-(
-[
+                
+{
 0
 1
-]
-)
-set
-(
-[
+}
+                
+{
 0
 2
-]
-)
+}
+                
 "
 "
 "
@@ -2697,9 +2715,11 @@ set
 "
 "
 "
+                
 if
 not
 PY3
+                
 else
 "
 "
@@ -2730,6 +2750,7 @@ diff
 "
 "
 "
+            
 )
         
 ]
@@ -2811,7 +2832,7 @@ expl
 ]
 =
 =
-'
+"
 Use
 -
 v
@@ -2820,14 +2841,14 @@ get
 the
 full
 diff
-'
+"
         
 expl
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -2923,16 +2944,16 @@ expl
 callequal
 (
 {
-'
+"
 a
-'
+"
 :
 0
 }
 {
-'
+"
 a
-'
+"
 :
 1
 }
@@ -2958,26 +2979,26 @@ lines
 callequal
 (
 {
-'
+"
 a
-'
+"
 :
 0
-'
+"
 b
-'
+"
 :
 1
 }
 {
-'
+"
 a
-'
+"
 :
 1
-'
+"
 b
-'
+"
 :
 1
 }
@@ -2991,19 +3012,19 @@ lines
 .
 startswith
 (
-'
+"
 Omitting
 1
 identical
 item
-'
+"
 )
         
 assert
-'
+"
 Common
 items
-'
+"
 not
 in
 lines
@@ -3019,9 +3040,9 @@ lines
 :
             
 assert
-'
+"
 b
-'
+"
 not
 in
 line
@@ -3058,26 +3079,26 @@ lines
 callequal
 (
 {
-'
+"
 a
-'
+"
 :
 0
-'
+"
 b
-'
+"
 :
 1
 }
 {
-'
+"
 a
-'
+"
 :
 1
-'
+"
 b
-'
+"
 :
 1
 }
@@ -3094,12 +3115,12 @@ lines
 .
 startswith
 (
-'
+"
 Omitting
 1
 identical
 item
-'
+"
 )
         
 assert
@@ -3110,10 +3131,10 @@ lines
 .
 startswith
 (
-'
+"
 Differing
 items
-'
+"
 )
         
 assert
@@ -3143,10 +3164,10 @@ a
 "
         
 assert
-'
+"
 Common
 items
-'
+"
 not
 in
 lines
@@ -3163,26 +3184,26 @@ lines
 callequal
 (
 {
-'
+"
 a
-'
+"
 :
 0
-'
+"
 b
-'
+"
 :
 1
 }
 {
-'
+"
 a
-'
+"
 :
 1
-'
+"
 b
-'
+"
 :
 1
 }
@@ -3199,17 +3220,17 @@ lines
 .
 startswith
 (
-'
+"
 Common
 items
 :
-'
+"
 )
         
 assert
-'
+"
 Omitting
-'
+"
 not
 in
 lines
@@ -3245,20 +3266,14 @@ expl
 =
 callequal
 (
-set
-(
-[
+{
 0
 1
-]
-)
-set
-(
-[
+}
+{
 0
 2
-]
-)
+}
 )
         
 assert
@@ -3287,13 +3302,10 @@ frozenset
 1
 ]
 )
-set
-(
-[
+{
 0
 2
-]
-)
+}
 )
         
 assert
@@ -3319,17 +3331,14 @@ builtin
 .
 _tryimport
 (
-            
 "
 collections
 .
 abc
 "
-            
 "
 collections
 "
-            
 "
 sys
 "
@@ -3576,9 +3585,9 @@ A
 )
         
 assert
-'
+"
 ValueError
-'
+"
 in
 "
 "
@@ -3595,9 +3604,9 @@ callequal
 {
 }
 {
-'
+"
 1
-'
+"
 :
 A
 (
@@ -3606,9 +3615,9 @@ A
 )
         
 assert
-'
+"
 faulty
-'
+"
 in
 "
 "
@@ -3637,7 +3646,7 @@ repr
 did
 trigger
         
-a
+an
 unbound
 local
 error
@@ -3663,8 +3672,8 @@ self
 :
                 
 return
-'
-'
+"
+"
         
 expl
 =
@@ -3673,8 +3682,8 @@ callequal
 A
 (
 )
-'
-'
+"
+"
 )
         
 assert
@@ -3690,30 +3699,30 @@ self
         
 expl
 =
-'
-'
+"
+"
 .
 join
 (
 callequal
 (
-'
+"
 foo
-'
-'
+"
+"
 bar
-'
+"
 )
 )
         
 assert
-'
+"
 raised
 in
 repr
 (
 )
-'
+"
 not
 in
 expl
@@ -3733,13 +3742,13 @@ builtin
 .
 _totext
 (
-'
-'
-'
+"
+"
+"
 utf
 -
 8
-'
+"
 )
         
 right
@@ -3750,13 +3759,13 @@ builtin
 .
 _totext
 (
-'
-'
-'
+"
+"
+"
 utf
 -
 8
-'
+"
 )
         
 expl
@@ -3788,11 +3797,11 @@ _totext
 '
 '
 "
-'
+"
 utf
 -
 8
-'
+"
 )
         
 assert
@@ -3808,14 +3817,14 @@ builtin
 .
 _totext
 (
-'
+"
 -
-'
-'
+"
+"
 utf
 -
 8
-'
+"
 )
         
 assert
@@ -3831,14 +3840,14 @@ builtin
 .
 _totext
 (
-'
+"
 +
-'
-'
+"
+"
 utf
 -
 8
-'
+"
 )
     
 def
@@ -3884,10 +3893,10 @@ self
 :
                 
 return
-'
+"
 \
 xff
-'
+"
         
 expl
 =
@@ -3896,9 +3905,9 @@ callequal
 A
 (
 )
-'
+"
 1
-'
+"
 )
         
 assert
@@ -3916,8 +3925,8 @@ util
 .
 format_explanation
 (
-'
-'
+"
+"
 )
     
 def
@@ -3933,62 +3942,50 @@ issue
         
 left
 =
-'
+"
 e
-'
+"
         
 right
 =
-'
+"
 \
 xc3
 \
 xa9
-'
+"
         
 if
 not
 isinstance
 (
 left
-py
-.
-builtin
-.
 bytes
 )
 :
             
 left
 =
-py
-.
-builtin
-.
 bytes
 (
 left
-'
+"
 utf
 -
 8
-'
+"
 )
             
 right
 =
-py
-.
-builtin
-.
 bytes
 (
 right
-'
+"
 utf
 -
 8
-'
+"
 )
         
 expl
@@ -4024,10 +4021,10 @@ builtin
 .
 _totext
 (
-'
+"
 \
 n
-'
+"
 )
 .
 join
@@ -4067,6 +4064,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4092,6 +4090,7 @@ n
 "
 "
 "
+        
 )
         
 result
@@ -4117,13 +4116,11 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 AssertionError
 *
 "
-        
 ]
 )
     
@@ -4136,10 +4133,10 @@ self
         
 expl
 =
-'
+"
 assert
 foo
-'
+"
         
 assert
 util
@@ -4150,10 +4147,10 @@ expl
 )
 =
 =
-'
+"
 assert
 foo
-'
+"
     
 def
 test_fmt_where
@@ -4164,60 +4161,57 @@ self
         
 expl
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
 [
-'
+"
 assert
 1
-'
-                          
-'
+"
+"
 {
 1
 =
 foo
-'
-                          
-'
+"
+"
 }
 =
 =
 2
-'
+"
 ]
 )
         
 res
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
 [
-'
+"
 assert
 1
 =
 =
 2
-'
-                         
-'
+"
+"
 +
 where
 1
 =
 foo
-'
+"
 ]
 )
         
@@ -4241,79 +4235,73 @@ self
         
 expl
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
 [
-'
+"
 assert
 1
-'
-                          
-'
+"
+"
 {
 1
 =
 foo
-'
-                          
-'
+"
+"
 }
 =
 =
 2
-'
-                          
-'
+"
+"
 {
 2
 =
 bar
-'
-                          
-'
+"
+"
 }
-'
+"
 ]
 )
         
 res
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
 [
-'
+"
 assert
 1
 =
 =
 2
-'
-                         
-'
+"
+"
 +
 where
 1
 =
 foo
-'
-                         
-'
+"
+"
 +
 and
 2
 =
 bar
-'
+"
 ]
 )
         
@@ -4337,79 +4325,73 @@ self
         
 expl
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
 [
-'
+"
 assert
 1
-'
-                          
-'
+"
+"
 {
 1
 =
 foo
-'
-                          
-'
+"
+"
 {
 foo
 =
 bar
-'
-                          
-'
+"
+"
 }
-'
-                          
-'
+"
+"
 }
 =
 =
 2
-'
+"
 ]
 )
         
 res
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
 [
-'
+"
 assert
 1
 =
 =
 2
-'
-                         
-'
+"
+"
 +
 where
 1
 =
 foo
-'
-                         
-'
+"
+"
 +
 where
 foo
 =
 bar
-'
+"
 ]
 )
         
@@ -4433,10 +4415,10 @@ self
         
 expl
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -4452,27 +4434,25 @@ foo
 bar
 "
 '
-                          
-'
+"
 ~
 -
 foo
-'
-                          
-'
+"
+"
 ~
 +
 bar
-'
+"
 ]
 )
         
 res
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -4488,16 +4468,14 @@ foo
 bar
 "
 '
-                         
-'
+"
 -
 foo
-'
-                         
-'
+"
+"
 +
 bar
-'
+"
 ]
 )
         
@@ -4521,31 +4499,30 @@ self
         
 expl
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
 [
-'
+"
 assert
 foo
 =
 =
 bar
-'
-                          
-'
+"
+"
 baz
-'
+"
 ]
 )
         
 res
 =
-'
+"
 assert
 foo
 =
@@ -4554,7 +4531,7 @@ bar
 \
 \
 nbaz
-'
+"
         
 assert
 util
@@ -4576,95 +4553,103 @@ self
         
 expl
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
+            
 [
-'
+                
+"
 the
 assertion
 message
 here
-'
-                          
-'
+"
+                
+"
 >
 assert
 1
-'
-                          
-'
+"
+                
+"
 {
 1
 =
 foo
-'
-                          
-'
+"
+                
+"
 }
 =
 =
 2
-'
-                          
-'
+"
+                
+"
 {
 2
 =
 bar
-'
-                          
-'
+"
+                
+"
 }
-'
+"
+            
 ]
+        
 )
         
 res
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
+            
 [
-'
+                
+"
 the
 assertion
 message
 here
-'
-                         
-'
+"
+                
+"
 assert
 1
 =
 =
 2
-'
-                         
-'
+"
+                
+"
 +
 where
 1
 =
 foo
-'
-                         
-'
+"
+                
+"
 +
 and
 2
 =
 bar
-'
+"
+            
 ]
+        
 )
         
 assert
@@ -4687,102 +4672,110 @@ self
         
 expl
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
+            
 [
-'
+                
+"
 the
 assertion
-'
-                          
-'
+"
+                
+"
 ~
 message
 here
-'
-                          
-'
+"
+                
+"
 >
 assert
 1
-'
-                          
-'
+"
+                
+"
 {
 1
 =
 foo
-'
-                          
-'
+"
+                
+"
 }
 =
 =
 2
-'
-                          
-'
+"
+                
+"
 {
 2
 =
 bar
-'
-                          
-'
+"
+                
+"
 }
-'
+"
+            
 ]
+        
 )
         
 res
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
+            
 [
-'
+                
+"
 the
 assertion
-'
-                         
-'
+"
+                
+"
 message
 here
-'
-                         
-'
+"
+                
+"
 assert
 1
 =
 =
 2
-'
-                         
-'
+"
+                
+"
 +
 where
 1
 =
 foo
-'
-                         
-'
+"
+                
+"
 +
 and
 2
 =
 bar
-'
+"
+            
 ]
+        
 )
         
 assert
@@ -4887,9 +4880,9 @@ self
 expl
 =
 [
-'
+"
 a
-'
+"
 *
 100
 for
@@ -4934,8 +4927,8 @@ self
 expl
 =
 [
-'
-'
+"
+"
 for
 x
 in
@@ -5039,9 +5032,9 @@ self
 expl
 =
 [
-'
+"
 a
-'
+"
 for
 x
 in
@@ -5147,9 +5140,9 @@ self
 expl
 =
 [
-'
+"
 a
-'
+"
 *
 80
 for
@@ -5257,9 +5250,9 @@ self
 expl
 =
 [
-'
+"
 a
-'
+"
 *
 250
 for
@@ -5365,9 +5358,9 @@ self
 expl
 =
 [
-'
+"
 a
-'
+"
 *
 250
 for
@@ -5503,6 +5496,7 @@ testdir
 .
 makepyfile
 (
+            
 r
 "
 "
@@ -5590,20 +5584,22 @@ b
 "
 "
 "
+            
 %
 (
 line_len
 line_count
 )
+        
 )
         
 monkeypatch
 .
 delenv
 (
-'
+"
 CI
-'
+"
 raising
 =
 False
@@ -5637,29 +5633,30 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 -
 1
 *
 "
-            
+                
 "
 *
 -
 3
 *
 "
-            
+                
 "
 *
 -
 5
 *
 "
-            
+                
 "
 *
 truncated
@@ -5678,8 +5675,9 @@ vv
 "
 %
 expected_truncated_lines
-        
+            
 ]
+        
 )
         
 result
@@ -5688,10 +5686,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 vv
-'
+"
 )
         
 result
@@ -5701,13 +5699,11 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 6
 *
 "
-        
 ]
 )
         
@@ -5715,12 +5711,12 @@ monkeypatch
 .
 setenv
 (
-'
+"
 CI
-'
-'
+"
+"
 1
-'
+"
 )
         
 result
@@ -5738,13 +5734,11 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 6
 *
 "
-        
 ]
 )
 def
@@ -5758,6 +5752,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5781,6 +5776,7 @@ comment
 "
 "
 "
+    
 )
     
 result
@@ -5805,6 +5801,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -5827,6 +5824,7 @@ failed
 "
 "
 "
+    
 )
 def
 test_rewritten
@@ -5839,6 +5837,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5861,6 +5860,7 @@ globals
 "
 "
 "
+    
 )
     
 assert
@@ -5889,20 +5889,23 @@ pytest_assertrepr_compare
 (
         
 mock_config
-'
+"
 not
 in
-'
-'
+"
+"
 foo
-'
-'
+"
+"
 aaafoobbb
-'
+"
+    
 )
 [
+        
 1
 :
+    
 ]
     
 assert
@@ -5919,16 +5922,115 @@ contained
 here
 :
 "
-'
+"
 aaafoobbb
-'
-'
+"
+"
 ?
 +
 +
 +
-'
+"
 ]
+def
+test_reprcompare_whitespaces
+(
+mock_config
+)
+:
+    
+detail
+=
+plugin
+.
+pytest_assertrepr_compare
+(
+mock_config
+"
+=
+=
+"
+"
+\
+r
+\
+n
+"
+"
+\
+n
+"
+)
+    
+assert
+(
+        
+detail
+        
+=
+=
+[
+            
+r
+"
+'
+\
+r
+\
+n
+'
+=
+=
+'
+\
+n
+'
+"
+            
+r
+"
+Strings
+contain
+only
+whitespace
+escaping
+them
+using
+repr
+(
+)
+"
+            
+r
+"
+-
+'
+\
+r
+\
+n
+'
+"
+            
+r
+"
+?
+-
+-
+"
+            
+r
+"
++
+'
+\
+n
+'
+"
+        
+]
+    
+)
 def
 test_pytest_assertrepr_compare_integration
 (
@@ -5940,6 +6042,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -5984,6 +6087,7 @@ y
 "
 "
 "
+    
 )
     
 result
@@ -6000,8 +6104,8 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
 "
 *
 def
@@ -6011,7 +6115,6 @@ test_hello
 :
 *
 "
-        
 "
 *
 assert
@@ -6021,7 +6124,6 @@ x
 y
 *
 "
-        
 "
 *
 E
@@ -6032,7 +6134,6 @@ items
 left
 *
 "
-        
 "
 *
 E
@@ -6040,8 +6141,8 @@ E
 50
 *
 "
-    
 ]
+    
 )
 def
 test_sequence_comparison_uses_repr
@@ -6054,6 +6155,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6093,6 +6195,7 @@ y
 "
 "
 "
+    
 )
     
 result
@@ -6109,8 +6212,9 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 *
 def
@@ -6120,7 +6224,7 @@ test_hello
 :
 *
 "
-        
+            
 "
 *
 assert
@@ -6130,7 +6234,7 @@ x
 y
 *
 "
-        
+            
 "
 *
 E
@@ -6141,7 +6245,7 @@ items
 left
 *
 "
-        
+            
 "
 *
 E
@@ -6151,7 +6255,7 @@ x
 '
 *
 "
-        
+            
 "
 *
 E
@@ -6162,7 +6266,7 @@ items
 right
 *
 "
-        
+            
 "
 *
 E
@@ -6172,8 +6276,9 @@ y
 '
 *
 "
-    
+        
 ]
+    
 )
 def
 test_assertrepr_loaded_per_dir
@@ -6189,7 +6294,7 @@ makepyfile
 test_base
 =
 [
-'
+"
 def
 test_base
 (
@@ -6200,7 +6305,7 @@ assert
 =
 =
 2
-'
+"
 ]
 )
     
@@ -6210,9 +6315,9 @@ testdir
 .
 mkdir
 (
-'
+"
 a
-'
+"
 )
     
 a_test
@@ -6221,18 +6326,18 @@ a
 .
 join
 (
-'
+"
 test_a
 .
 py
-'
+"
 )
     
 a_test
 .
 write
 (
-'
+"
 def
 test_a
 (
@@ -6243,7 +6348,7 @@ assert
 =
 =
 2
-'
+"
 )
     
 a_conftest
@@ -6252,11 +6357,11 @@ a
 .
 join
 (
-'
+"
 conftest
 .
 py
-'
+"
 )
     
 a_conftest
@@ -6285,9 +6390,9 @@ testdir
 .
 mkdir
 (
-'
+"
 b
-'
+"
 )
     
 b_test
@@ -6296,18 +6401,18 @@ b
 .
 join
 (
-'
+"
 test_b
 .
 py
-'
+"
 )
     
 b_test
 .
 write
 (
-'
+"
 def
 test_b
 (
@@ -6318,7 +6423,7 @@ assert
 =
 =
 2
-'
+"
 )
     
 b_conftest
@@ -6327,11 +6432,11 @@ b
 .
 join
 (
-'
+"
 conftest
 .
 py
-'
+"
 )
     
 b_conftest
@@ -6368,9 +6473,10 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 *
 def
 test_base
@@ -6378,9 +6484,9 @@ test_base
 )
 :
 *
-'
-        
-'
+"
+            
+"
 *
 E
 *
@@ -6390,9 +6496,9 @@ assert
 =
 2
 *
-'
-        
-'
+"
+            
+"
 *
 def
 test_a
@@ -6400,9 +6506,9 @@ test_a
 )
 :
 *
-'
-        
-'
+"
+            
+"
 *
 E
 *
@@ -6410,9 +6516,9 @@ assert
 summary
 a
 *
-'
-        
-'
+"
+            
+"
 *
 def
 test_b
@@ -6420,9 +6526,9 @@ test_b
 )
 :
 *
-'
-        
-'
+"
+            
+"
 *
 E
 *
@@ -6430,8 +6536,10 @@ assert
 summary
 b
 *
-'
+"
+        
 ]
+    
 )
 def
 test_assertion_options
@@ -6444,6 +6552,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6467,6 +6576,7 @@ x
 "
 "
 "
+    
 )
     
 result
@@ -6535,6 +6645,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6560,6 +6671,7 @@ assert
 "
 "
 "
+    
 )
     
 result
@@ -6582,21 +6694,19 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 1
 failed
 *
 "
-    
 ]
 )
     
 assert
-'
+"
 SyntaxError
-'
+"
 not
 in
 result
@@ -6619,6 +6729,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -6661,6 +6772,7 @@ f
 "
 "
 "
+    
 )
     
 result
@@ -6685,8 +6797,9 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 *
 test_traceback_failure
@@ -6695,7 +6808,7 @@ py
 F
 *
 "
-        
+            
 "
 =
 =
@@ -6709,16 +6822,16 @@ FAILURES
 =
 =
 "
-        
+            
 "
 ____
 *
 ____
 "
-        
+            
 "
 "
-        
+            
 "
 def
 test_onefails
@@ -6726,7 +6839,7 @@ test_onefails
 )
 :
 "
-        
+            
 "
 >
 f
@@ -6734,10 +6847,10 @@ f
 3
 )
 "
-        
+            
 "
 "
-        
+            
 "
 *
 test_
@@ -6748,18 +6861,18 @@ py
 6
 :
 "
-        
+            
 "
 _
 _
 _
 *
 "
-        
+            
 #
 "
 "
-        
+            
 "
 def
 f
@@ -6768,7 +6881,7 @@ x
 )
 :
 "
-        
+            
 "
 >
 assert
@@ -6779,7 +6892,7 @@ g
 (
 )
 "
-        
+            
 "
 E
 assert
@@ -6788,7 +6901,7 @@ assert
 =
 2
 "
-        
+            
 "
 E
 +
@@ -6799,10 +6912,10 @@ g
 (
 )
 "
-        
+            
 "
 "
-        
+            
 "
 *
 test_traceback_failure
@@ -6813,8 +6926,9 @@ py
 :
 AssertionError
 "
-    
+        
 ]
+    
 )
     
 result
@@ -6836,8 +6950,9 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 *
 test_traceback_failure
@@ -6846,7 +6961,7 @@ py
 F
 *
 "
-        
+            
 "
 =
 =
@@ -6860,16 +6975,16 @@ FAILURES
 =
 =
 "
-        
+            
 "
 ____
 *
 ____
 "
-        
+            
 "
 "
-        
+            
 "
 def
 test_onefails
@@ -6877,7 +6992,7 @@ test_onefails
 )
 :
 "
-        
+            
 "
 >
 f
@@ -6885,10 +7000,10 @@ f
 3
 )
 "
-        
+            
 "
 "
-        
+            
 "
 *
 test_
@@ -6899,10 +7014,10 @@ py
 6
 :
 "
-        
+            
 "
 "
-        
+            
 "
 def
 f
@@ -6911,7 +7026,7 @@ x
 )
 :
 "
-        
+            
 "
 >
 assert
@@ -6922,7 +7037,7 @@ g
 (
 )
 "
-        
+            
 "
 E
 assert
@@ -6931,7 +7046,7 @@ assert
 =
 2
 "
-        
+            
 "
 E
 +
@@ -6942,10 +7057,10 @@ g
 (
 )
 "
-        
+            
 "
 "
-        
+            
 "
 *
 test_traceback_failure
@@ -6956,8 +7071,9 @@ py
 :
 AssertionError
 "
-    
+        
 ]
+    
 )
 pytest
 .
@@ -6965,6 +7081,7 @@ mark
 .
 skipif
 (
+    
 sys
 .
 version_info
@@ -6978,9 +7095,10 @@ version_info
 3
 3
 )
+    
 reason
 =
-'
+"
 Python
 3
 .
@@ -6991,7 +7109,7 @@ chained
 exceptions
 on
 multiprocess
-'
+"
 )
 def
 test_exception_handling_no_traceback
@@ -7030,6 +7148,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -7096,6 +7215,7 @@ multitask_job
 "
 "
 "
+    
 )
     
 result
@@ -7120,8 +7240,9 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
+            
 "
 =
 =
@@ -7135,7 +7256,7 @@ FAILURES
 =
 =
 "
-        
+            
 "
 *
 multiprocessing
@@ -7146,7 +7267,7 @@ RemoteTraceback
 :
 *
 "
-        
+            
 "
 Traceback
 (
@@ -7157,7 +7278,7 @@ last
 )
 :
 "
-        
+            
 "
 *
 assert
@@ -7166,7 +7287,7 @@ n
 =
 10
 "
-        
+            
 "
 The
 above
@@ -7181,7 +7302,7 @@ following
 exception
 :
 "
-        
+            
 "
 >
 *
@@ -7189,8 +7310,9 @@ multitask_job
 (
 )
 "
-    
+        
 ]
+    
 )
 pytest
 .
@@ -7198,6 +7320,7 @@ mark
 .
 skipif
 (
+    
 "
 '
 __pypy__
@@ -7267,7 +7390,6 @@ stderr
 fnmatch_lines
 (
 [
-        
 "
 *
 WARNING
@@ -7279,7 +7401,6 @@ not
 executed
 *
 "
-    
 ]
 )
     
@@ -7312,7 +7433,6 @@ stderr
 fnmatch_lines
 (
 [
-        
 "
 *
 WARNING
@@ -7324,7 +7444,6 @@ not
 executed
 *
 "
-    
 ]
 )
 def
@@ -7338,6 +7457,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -7353,12 +7473,14 @@ pass
 "
 "
 "
+    
 )
     
 testdir
 .
 makeini
 (
+        
 "
 "
 "
@@ -7376,6 +7498,7 @@ py
 "
 "
 "
+    
 )
     
 result
@@ -7399,6 +7522,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -7411,6 +7535,7 @@ Module
 "
 "
 "
+    
 )
 def
 test_AssertionError_message
@@ -7423,6 +7548,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -7449,6 +7575,7 @@ y
 "
 "
 "
+    
 )
     
 result
@@ -7465,6 +7592,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 "
 "
 "
@@ -7495,6 +7623,7 @@ AssertionError
 "
 "
 "
+    
 )
 pytest
 .
@@ -7505,7 +7634,7 @@ skipif
 PY3
 reason
 =
-'
+"
 This
 bug
 does
@@ -7513,7 +7642,7 @@ not
 exist
 on
 PY3
-'
+"
 )
 def
 test_set_with_unsortable_elements
@@ -7568,14 +7697,13 @@ self
 :
             
 return
-'
+"
 repr
 (
 {
-0
 }
 )
-'
+"
 .
 format
 (
@@ -7619,8 +7747,7 @@ name
     
 left_set
 =
-set
-(
+{
 UnsortableKey
 (
 str
@@ -7636,12 +7763,11 @@ range
 1
 3
 )
-)
+}
     
 right_set
 =
-set
-(
+{
 UnsortableKey
 (
 str
@@ -7657,7 +7783,7 @@ range
 2
 4
 )
-)
+}
     
 expl
 =
@@ -7706,6 +7832,7 @@ textwrap
 .
 dedent
 (
+        
 "
 "
 "
@@ -7769,6 +7896,7 @@ repr
 "
 "
 "
+    
 )
 .
 strip
@@ -7776,10 +7904,10 @@ strip
 )
     
 assert
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -7800,6 +7928,7 @@ testdir
 .
 makepyfile
 (
+        
 r
 "
 "
@@ -7826,6 +7955,7 @@ n
 "
 "
 "
+    
 )
     
 result
@@ -7842,6 +7972,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 r
 "
 "
@@ -7875,6 +8006,7 @@ asdf
 "
 "
 "
+    
 )
 def
 test_assert_tuple_warning
@@ -7887,6 +8019,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -7911,6 +8044,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -7919,10 +8053,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 rw
-'
+"
 )
     
 result
@@ -7931,27 +8065,26 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+"
 *
 test_assert_tuple_warning
 .
 py
 :
 2
-'
-        
-'
+"
+"
 *
 assertion
 is
 always
 true
 *
-'
-    
+"
 ]
+    
 )
 def
 test_assert_indirect_tuple_no_warning
@@ -7964,6 +8097,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -7991,6 +8125,7 @@ tpl
 "
 "
 "
+    
 )
     
 result
@@ -7999,18 +8134,18 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 rw
-'
+"
 )
     
 output
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -8022,9 +8157,9 @@ lines
 )
     
 assert
-'
+"
 WR1
-'
+"
 not
 in
 output
@@ -8040,6 +8175,7 @@ testdir
 .
 makepyfile
 (
+        
 u
 "
 "
@@ -8078,6 +8214,7 @@ Unicode
 "
 "
 "
+    
 )
     
 result
@@ -8095,11 +8232,11 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 AssertionError
 *
-'
+"
 ]
 )
 def
@@ -8113,6 +8250,7 @@ testdir
 .
 makepyfile
 (
+        
 r
 "
 "
@@ -8136,6 +8274,7 @@ xff
 "
 "
 "
+    
 )
     
 result
@@ -8152,6 +8291,7 @@ stdout
 .
 fnmatch_lines
 (
+        
 [
 r
 "
@@ -8165,13 +8305,14 @@ xff
 '
 )
 "
-'
+"
 E
 AssertionError
 :
 *
-'
+"
 ]
+    
 )
 def
 test_raise_assertion_error_raisin_repr
@@ -8184,6 +8325,7 @@ testdir
 .
 makepyfile
 (
+        
 u
 "
 "
@@ -8225,6 +8367,7 @@ RaisingRepr
 "
 "
 "
+    
 )
     
 result
@@ -8241,8 +8384,9 @@ stdout
 .
 fnmatch_lines
 (
+        
 [
-'
+"
 E
 AssertionError
 :
@@ -8251,8 +8395,9 @@ unprintable
 AssertionError
 object
 >
-'
+"
 ]
+    
 )
 def
 test_issue_1944
@@ -8265,6 +8410,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -8288,6 +8434,7 @@ f
 "
 "
 "
+    
 )
     
 result
