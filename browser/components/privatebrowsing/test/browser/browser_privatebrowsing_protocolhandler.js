@@ -109,6 +109,8 @@ notificationValue
 Protocol
 Registration
 :
+web
++
 testprotocol
 "
 ;

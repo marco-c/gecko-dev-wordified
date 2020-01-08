@@ -88,6 +88,8 @@ notificationValue
 Protocol
 Registration
 :
+web
++
 testprotocol
 "
 ;
@@ -205,6 +207,8 @@ protoSvc
 getProtocolHandlerInfo
 (
 "
+web
++
 testprotocol
 "
 )
@@ -263,6 +267,8 @@ one
 handler
 registered
 for
+web
++
 testprotocol
 "
 )
@@ -409,7 +415,9 @@ foobar
 ?
 uri
 =
-testprotocol
+web
+%
+2Btestprotocol
 %
 3Atest
 "
