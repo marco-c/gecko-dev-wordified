@@ -514,7 +514,7 @@ global
 1u
 )
 ;
-GCForReason
+NonIncrementalGC
 (
 cx
 GC_NORMAL
@@ -533,7 +533,7 @@ global
 remainingIonScripts
 )
 ;
-GCForReason
+NonIncrementalGC
 (
 cx
 GC_SHRINK

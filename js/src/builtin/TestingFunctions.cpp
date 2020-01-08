@@ -2104,7 +2104,7 @@ GC_NORMAL
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 cx
 gckind
@@ -3102,7 +3102,7 @@ cx
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 cx
 GC_SHRINK
@@ -26741,7 +26741,7 @@ cx
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 cx
 GC_NORMAL

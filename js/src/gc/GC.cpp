@@ -52698,7 +52698,7 @@ void
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 JSContext
 *

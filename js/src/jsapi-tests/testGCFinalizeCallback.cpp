@@ -405,7 +405,7 @@ zone
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 cx
 GC_NORMAL
@@ -508,7 +508,7 @@ zone
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 cx
 GC_NORMAL

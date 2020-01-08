@@ -2505,7 +2505,7 @@ JS_PUBLIC_API
 (
 void
 )
-GCForReason
+NonIncrementalGC
 (
 JSContext
 *
@@ -2889,7 +2889,7 @@ this
 is
 equivalent
 to
-GCForReason
+NonIncrementalGC
 .
 When
 this

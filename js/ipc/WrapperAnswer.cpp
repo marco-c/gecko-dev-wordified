@@ -366,7 +366,7 @@ PrepareForFullGC
 cx
 )
 ;
-GCForReason
+NonIncrementalGC
 (
 cx
 GC_NORMAL

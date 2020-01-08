@@ -293,7 +293,7 @@ gCx
 JS
 :
 :
-GCForReason
+NonIncrementalGC
 (
 gCx
 GC_NORMAL
