@@ -449,12 +449,12 @@ document
 nsresult
 InitIterator
 (
-nsIDOMNode
+nsINode
 *
 aStartNode
 int32_t
 aStartOffset
-nsIDOMNode
+nsINode
 *
 aEndNode
 int32_t
