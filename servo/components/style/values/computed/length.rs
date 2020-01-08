@@ -84,7 +84,7 @@ use
 ordered_float
 :
 :
-NotNaN
+NotNan
 ;
 use
 properties
@@ -2850,7 +2850,7 @@ self
 >
 (
 Au
-NotNaN
+NotNan
 <
 f32
 >
@@ -2883,7 +2883,7 @@ from
 (
 l
 )
-NotNaN
+NotNan
 :
 :
 new
@@ -2908,7 +2908,7 @@ Au
 (
 0
 )
-NotNaN
+NotNan
 :
 :
 new
@@ -2940,7 +2940,7 @@ unclamped_length
 (
 )
 )
-NotNaN
+NotNan
 :
 :
 new
