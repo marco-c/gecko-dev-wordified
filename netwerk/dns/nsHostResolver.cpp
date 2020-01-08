@@ -1623,6 +1623,10 @@ negative
 (
 false
 )
+mResolverMode
+(
+MODE_NATIVEONLY
+)
 mResolving
 (
 0
