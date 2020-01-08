@@ -729,6 +729,7 @@ tmp
 "
 )
 ;
+await
 Assert
 .
 rejects
@@ -863,6 +864,7 @@ close
 (
 )
 ;
+await
 Assert
 .
 rejects

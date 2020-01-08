@@ -1533,6 +1533,7 @@ it
 "
 )
 ;
+await
 Assert
 .
 rejects
@@ -1907,6 +1908,7 @@ it
 "
 )
 ;
+await
 Assert
 .
 rejects

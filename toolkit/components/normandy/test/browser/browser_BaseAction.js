@@ -475,6 +475,7 @@ finalize
 (
 )
 ;
+await
 Assert
 .
 rejects

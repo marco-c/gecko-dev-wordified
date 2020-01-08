@@ -3467,6 +3467,7 @@ see
 bug
 1237961
 .
+await
 Assert
 .
 rejects
@@ -3521,6 +3522,7 @@ fail
 "
 )
 ;
+await
 Assert
 .
 rejects
@@ -3575,6 +3577,7 @@ fail
 "
 )
 ;
+await
 Assert
 .
 rejects
@@ -3649,6 +3652,7 @@ fail
 "
 )
 ;
+await
 Assert
 .
 rejects
