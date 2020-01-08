@@ -343,6 +343,10 @@ the
 recording
 interval
 .
+Defaults
+to
+1ms
+.
 *
 param
 {
@@ -356,7 +360,7 @@ interval
 (
 state
 =
-1
+1000
 action
 )
 {
