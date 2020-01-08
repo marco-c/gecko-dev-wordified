@@ -339,14 +339,16 @@ tests
 tooltool_cache
 "
 :
+os
+.
+environ
+.
+get
+(
 "
-/
-builds
-/
-worker
-/
-tooltool_cache
+TOOLTOOL_CACHE
 "
+)
     
 "
 tooltool_servers
