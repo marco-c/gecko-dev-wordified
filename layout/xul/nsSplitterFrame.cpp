@@ -2766,7 +2766,7 @@ RemoveListener
 (
 )
 {
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 mOuter
 )
@@ -5361,7 +5361,7 @@ prefValue
 true
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakBox
 .

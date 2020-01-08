@@ -1165,7 +1165,7 @@ button
 s
 content
 node
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 mContent
 )
