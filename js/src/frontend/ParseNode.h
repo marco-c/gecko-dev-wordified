@@ -4160,14 +4160,6 @@ name
 )
 const
 ;
-inline
-JSAtom
-*
-atom
-(
-)
-const
-;
 ParseNode
 *
 expr
