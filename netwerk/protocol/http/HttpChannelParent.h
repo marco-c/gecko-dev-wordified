@@ -874,9 +874,9 @@ uint64_t
 &
 aContentWindowId
 const
-nsCString
+ArrayOfStringPairs
 &
-aPreferredAlternativeType
+aPreferredAlternativeTypes
 const
 uint64_t
 &
