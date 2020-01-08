@@ -393,12 +393,16 @@ animate
 ;
 this
 .
-broadcaster
+appMenuButton
 =
 (
 "
 #
-trackingProtectionBroadcaster
+appMenu
+-
+tp
+-
+toggle
 "
 )
 ;
@@ -964,7 +968,7 @@ window
 {
 this
 .
-broadcaster
+appMenuButton
 .
 setAttribute
 (
@@ -978,7 +982,7 @@ enabledInPrivateWindows
 ;
 this
 .
-broadcaster
+appMenuButton
 .
 setAttribute
 (
@@ -994,7 +998,7 @@ enabledInPrivateWindows
 ;
 this
 .
-broadcaster
+appMenuButton
 .
 setAttribute
 (
@@ -1019,7 +1023,7 @@ else
 {
 this
 .
-broadcaster
+appMenuButton
 .
 setAttribute
 (
@@ -1033,7 +1037,7 @@ enabledGlobally
 ;
 this
 .
-broadcaster
+appMenuButton
 .
 setAttribute
 (
@@ -1049,7 +1053,7 @@ enabledGlobally
 ;
 this
 .
-broadcaster
+appMenuButton
 .
 setAttribute
 (

@@ -1454,7 +1454,7 @@ document
 getElementById
 (
 "
-singleFeedMenuitemState
+subscribeToPageMenuitem
 "
 )
 ;
@@ -1479,7 +1479,7 @@ document
 getElementById
 (
 "
-multipleFeedsMenuState
+subscribeToPageMenupopup
 "
 )
 ;
