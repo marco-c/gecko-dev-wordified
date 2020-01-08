@@ -3272,7 +3272,15 @@ commentOffsets
 HTML
 comments
 are
-ignored
+not
+special
+-
+-
+they
+are
+just
+ordinary
+tokens
 .
 {
 parseComments
@@ -3304,6 +3312,10 @@ expected
 name
 :
 "
+<
+!
+-
+-
 color
 "
 value
@@ -3318,7 +3330,7 @@ priority
 offsets
 :
 [
-5
+0
 16
 ]
 }
@@ -3326,6 +3338,9 @@ offsets
 name
 :
 "
+-
+-
+>
 color
 "
 value
@@ -3340,7 +3355,7 @@ priority
 offsets
 :
 [
-21
+17
 33
 ]
 }
