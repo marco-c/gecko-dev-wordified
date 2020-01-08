@@ -3767,7 +3767,7 @@ NS_OK
 non
 -
 XUL
-documents
+elements
 should
 just
 use
@@ -3777,10 +3777,10 @@ tooltip
 if
 (
 !
-document
+aTarget
 -
 >
-IsXULDocument
+IsXULElement
 (
 )
 )
