@@ -540,6 +540,7 @@ removeAnimationsCurrentTimeListener
 rewindAnimationsCurrentTime
 setAnimationsPlaybackRate
 setAnimationsPlayState
+timeScale
 }
 )
 SplitBox
