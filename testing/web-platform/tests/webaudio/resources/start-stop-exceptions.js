@@ -116,6 +116,7 @@ start
 .
 throw
 (
+DOMException
 '
 InvalidStateError
 '
@@ -239,6 +240,7 @@ twice
 .
 throw
 (
+DOMException
 '
 InvalidStateError
 '
