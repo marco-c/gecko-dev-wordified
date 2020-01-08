@@ -3582,7 +3582,7 @@ document
 content
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
