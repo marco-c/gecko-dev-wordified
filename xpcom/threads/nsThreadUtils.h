@@ -2993,6 +2993,7 @@ also
 nsIIdleRunnable
 .
 enum
+class
 RunnableKind
 {
 Standard
@@ -4083,6 +4084,9 @@ template
 class
 TimerBehaviour
 <
+RunnableKind
+:
+:
 IdleWithTimer
 >
 {
@@ -4220,6 +4224,9 @@ Kind
 mozilla
 :
 :
+RunnableKind
+:
+:
 Standard
 >
 class
@@ -4237,6 +4244,9 @@ Kind
 mozilla
 :
 :
+RunnableKind
+:
+:
 Standard
 mozilla
 :
@@ -4252,6 +4262,9 @@ Kind
 =
 =
 mozilla
+:
+:
+RunnableKind
 :
 :
 Cancelable
@@ -4298,6 +4311,9 @@ Kind
 mozilla
 :
 :
+RunnableKind
+:
+:
 Standard
 mozilla
 :
@@ -4313,6 +4329,9 @@ Kind
 =
 =
 mozilla
+:
+:
+RunnableKind
 :
 :
 Cancelable
@@ -4595,6 +4614,9 @@ aKind
 mozilla
 :
 :
+RunnableKind
+:
+:
 Idle
 |
 |
@@ -4602,6 +4624,9 @@ aKind
 =
 =
 mozilla
+:
+:
+RunnableKind
 :
 :
 IdleWithTimer
@@ -4731,6 +4756,9 @@ Kind
 mozilla
 :
 :
+RunnableKind
+:
+:
 Cancelable
 ;
 }
@@ -4842,6 +4870,9 @@ Kind
 =
 =
 mozilla
+:
+:
+RunnableKind
 :
 :
 Cancelable
@@ -4959,6 +4990,9 @@ Kind
 mozilla
 :
 :
+RunnableKind
+:
+:
 Cancelable
 ;
 }
@@ -5060,6 +5094,9 @@ Kind
 =
 =
 mozilla
+:
+:
+RunnableKind
 :
 :
 Cancelable
@@ -5176,6 +5213,9 @@ Kind
 mozilla
 :
 :
+RunnableKind
+:
+:
 Cancelable
 ;
 }
@@ -5279,6 +5319,9 @@ Kind
 =
 =
 mozilla
+:
+:
+RunnableKind
 :
 :
 Cancelable
@@ -7878,6 +7921,9 @@ static_assert
 Kind
 >
 =
+RunnableKind
+:
+:
 Cancelable
 "
 Don
@@ -8051,6 +8097,9 @@ PtrType
 Type
 Method
 true
+RunnableKind
+:
+:
 Standard
 >
 :
@@ -8084,6 +8133,9 @@ PtrType
 Type
 Method
 true
+RunnableKind
+:
+:
 Standard
 Storages
 .
@@ -8123,6 +8175,9 @@ PtrType
 Type
 Method
 true
+RunnableKind
+:
+:
 Cancelable
 >
 :
@@ -8156,6 +8211,9 @@ PtrType
 Type
 Method
 true
+RunnableKind
+:
+:
 Cancelable
 Storages
 .
@@ -8195,6 +8253,9 @@ PtrType
 Type
 Method
 true
+RunnableKind
+:
+:
 Idle
 >
 :
@@ -8228,6 +8289,9 @@ PtrType
 Type
 Method
 true
+RunnableKind
+:
+:
 Idle
 Storages
 .
@@ -8267,6 +8331,9 @@ PtrType
 Type
 Method
 true
+RunnableKind
+:
+:
 IdleWithTimer
 >
 :
@@ -8300,6 +8367,9 @@ PtrType
 Type
 Method
 true
+RunnableKind
+:
+:
 IdleWithTimer
 Storages
 .
@@ -8339,6 +8409,9 @@ PtrType
 Type
 Method
 false
+RunnableKind
+:
+:
 Standard
 >
 :
@@ -8372,6 +8445,9 @@ PtrType
 Type
 Method
 false
+RunnableKind
+:
+:
 Standard
 Storages
 .
@@ -8410,6 +8486,9 @@ PtrType
 Type
 Method
 false
+RunnableKind
+:
+:
 Cancelable
 >
 :
@@ -8443,6 +8522,9 @@ PtrType
 Type
 Method
 false
+RunnableKind
+:
+:
 Cancelable
 Storages
 .
@@ -8481,6 +8563,9 @@ PtrType
 Type
 Method
 false
+RunnableKind
+:
+:
 Idle
 >
 :
@@ -8514,6 +8599,9 @@ PtrType
 Type
 Method
 false
+RunnableKind
+:
+:
 Idle
 Storages
 .
@@ -8553,6 +8641,9 @@ PtrType
 Type
 Method
 false
+RunnableKind
+:
+:
 IdleWithTimer
 >
 :
@@ -8586,6 +8677,9 @@ PtrType
 Type
 Method
 false
+RunnableKind
+:
+:
 IdleWithTimer
 Storages
 .
