@@ -1160,17 +1160,6 @@ None
 )
 :
         
-for
-metadata
-in
-self
-.
-_inherit_metadata
-:
-            
-yield
-metadata
-        
 if
 self
 .
@@ -1179,13 +1168,6 @@ is
 not
 None
 :
-            
-yield
-self
-.
-_get_metadata
-(
-)
             
 if
 subtest
@@ -1212,6 +1194,27 @@ None
                     
 yield
 subtest_meta
+            
+yield
+self
+.
+_get_metadata
+(
+)
+        
+for
+metadata
+in
+reversed
+(
+self
+.
+_inherit_metadata
+)
+:
+            
+yield
+metadata
     
 def
 disabled
@@ -1440,6 +1443,11 @@ meta
 .
 tags
             
+tags
+|
+=
+meta_tags
+            
 if
 atom_reset
 in
@@ -1447,27 +1455,13 @@ meta_tags
 :
                 
 tags
-=
-meta_tags
-.
-copy
-(
-)
-                
-tags
 .
 remove
 (
 atom_reset
 )
-            
-else
-:
                 
-tags
-|
-=
-meta_tags
+break
         
 tags
 .
@@ -1535,35 +1529,26 @@ meta
 .
 prefs
             
-if
-atom_reset
-in
-prefs
-:
-                
-prefs
-=
-meta_prefs
-.
-copy
-(
-)
-                
-del
-prefs
-[
-atom_reset
-]
-            
-else
-:
-                
 prefs
 .
 update
 (
 meta_prefs
 )
+            
+if
+atom_reset
+in
+meta_prefs
+:
+                
+del
+prefs
+[
+atom_reset
+]
+                
+break
         
 return
 prefs
