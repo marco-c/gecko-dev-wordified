@@ -1975,11 +1975,13 @@ if
 (
 result_
 )
+{
 *
 result_
 =
 v
 ;
+}
 }
 }
 ;
@@ -2125,6 +2127,7 @@ isInvoke
 (
 )
 )
+{
 asInvoke
 (
 )
@@ -2135,7 +2138,9 @@ setReturnValue
 v
 )
 ;
+}
 else
+{
 asExecute
 (
 )
@@ -2146,6 +2151,7 @@ setReturnValue
 v
 )
 ;
+}
 }
 extern
 bool
@@ -2449,8 +2455,10 @@ tn_
 >
 length
 )
+{
 continue
 ;
+}
 /
 *
 *
@@ -2648,8 +2656,10 @@ getStackDepth_
 (
 )
 )
+{
 break
 ;
+}
 }
 }
 public
