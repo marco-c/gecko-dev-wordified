@@ -638,8 +638,6 @@ const
 nscolor
 *
 aBorderColors
-nscolor
-aBackgroundColor
 bool
 aBackfaceIsVisible
 const
@@ -901,14 +899,6 @@ mBorderColors
 [
 4
 ]
-;
-/
-/
-the
-background
-color
-nscolor
-mBackgroundColor
 ;
 /
 /

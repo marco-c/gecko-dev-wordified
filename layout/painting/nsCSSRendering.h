@@ -3269,8 +3269,6 @@ uint8_t
 aBorderStyle
 nscolor
 aBorderColor
-nscolor
-aBGColor
 const
 nsRect
 &
@@ -3385,8 +3383,6 @@ uint8_t
 aBorderStyle
 nscolor
 aBorderColor
-nscolor
-aBGColor
 const
 nsRect
 &

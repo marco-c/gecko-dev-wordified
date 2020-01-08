@@ -665,8 +665,6 @@ MakeBorderColor
 (
 nscolor
 aColor
-nscolor
-aBackgroundColor
 BorderColorStyle
 aBorderColorStyle
 )
@@ -728,8 +726,6 @@ uint32_t
 aBorderColorStyleCount
 nscolor
 aBorderColor
-nscolor
-aBackgroundColor
 )
 ;
 /
@@ -1177,8 +1173,6 @@ const
 nscolor
 *
 aBorderColors
-nscolor
-aBackgroundColor
 bool
 aBackfaceIsVisible
 const
@@ -1213,10 +1207,6 @@ aOuterRect
 mBorderRadii
 (
 aBorderRadii
-)
-mBackgroundColor
-(
-aBackgroundColor
 )
 mBackfaceIsVisible
 (
@@ -10553,8 +10543,6 @@ MakeBorderColor
 (
 nscolor
 aColor
-nscolor
-aBackgroundColor
 BorderColorStyle
 aBorderColorStyle
 )
@@ -10614,7 +10602,6 @@ BorderColorStyleDark
 NS_GetSpecial3DColors
 (
 colors
-aBackgroundColor
 aColor
 )
 ;
@@ -10659,8 +10646,6 @@ uint32_t
 aBorderColorStyleCount
 nscolor
 aBorderColor
-nscolor
-aBackgroundColor
 )
 {
 NS_ASSERTION
@@ -10679,7 +10664,6 @@ return
 MakeBorderColor
 (
 aBorderColor
-aBackgroundColor
 aBorderColorStyle
 [
 aLineIndex
@@ -12487,7 +12471,6 @@ i
 borderColorStyle
 borderColorStyleCount
 borderRenderColor
-mBackgroundColor
 )
 ;
 ColorPattern
@@ -27754,7 +27737,6 @@ sides
 0
 ]
 ]
-mBackgroundColor
 BorderColorStyleForSolidCorner
 (
 mBorderStyles
