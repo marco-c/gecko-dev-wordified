@@ -22929,7 +22929,7 @@ loader
 mozJSComponentLoader
 :
 :
-GetOrCreate
+Get
 (
 )
 ;
