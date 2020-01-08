@@ -98,10 +98,6 @@ BackendTester
 )
 :
     
-__test__
-=
-False
-    
 def
 test_all_tests_metadata_file_written
 (
