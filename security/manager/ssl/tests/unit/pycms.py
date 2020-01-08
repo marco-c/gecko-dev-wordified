@@ -1147,7 +1147,7 @@ self
 buildAuthenticatedAttributes
 (
 digestValue
-          
+                                                                    
 implicitTag
 =
 tag
@@ -1450,7 +1450,7 @@ signer
 toDER
 (
 )
-            
+                                     
 asn1Spec
 =
 rfc2459
@@ -1520,7 +1520,7 @@ self
 buildSignerInfo
 (
 certificate
-                
+                                                                 
 pykey
 .
 HASH_SHA1
@@ -1553,7 +1553,7 @@ self
 buildSignerInfo
 (
 certificate
-                
+                                                                 
 pykey
 .
 HASH_SHA256

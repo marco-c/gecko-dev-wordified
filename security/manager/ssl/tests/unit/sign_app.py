@@ -1207,6 +1207,7 @@ signer
 '
 +
 keyName
+                 
 keyName
 issuerName
 True
@@ -1563,13 +1564,13 @@ map
 lambda
 coseAlgorithm
 :
-                
+                             
 coseAlgorithmToSignatureParams
 (
 coseAlgorithm
 coseIssuerName
 )
-                
+                             
 coseAlgorithms
 )
             
