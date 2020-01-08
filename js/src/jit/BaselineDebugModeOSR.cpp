@@ -1369,7 +1369,7 @@ returnAddressToFp
 (
 )
 ;
-BaselineICEntry
+ICEntry
 &
 icEntry
 =
@@ -3308,7 +3308,7 @@ baseline
 JIT
 code
 .
-BaselineICEntry
+ICEntry
 &
 callVMEntry
 =
@@ -3391,7 +3391,7 @@ tied
 an
 opcode
 .
-BaselineICEntry
+ICEntry
 &
 warmupCountEntry
 =
@@ -3490,7 +3490,7 @@ ICEntry
 :
 Kind_EarlyStackCheck
 ;
-BaselineICEntry
+ICEntry
 &
 stackCheckEntry
 =

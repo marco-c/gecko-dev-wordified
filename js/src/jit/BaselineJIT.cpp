@@ -2532,7 +2532,7 @@ icEntries
 *
 sizeof
 (
-BaselineICEntry
+ICEntry
 )
 ;
 size_t
@@ -2907,7 +2907,7 @@ i
 +
 )
 {
-BaselineICEntry
+ICEntry
 &
 ent
 =
@@ -3421,7 +3421,7 @@ break
 }
 }
 }
-BaselineICEntry
+ICEntry
 &
 BaselineScript
 :
@@ -3574,7 +3574,7 @@ baseline
 )
 {
 }
-BaselineICEntry
+ICEntry
 &
 operator
 [
@@ -3597,7 +3597,7 @@ index
 }
 }
 ;
-BaselineICEntry
+ICEntry
 &
 BaselineScript
 :
@@ -3634,7 +3634,7 @@ numICEntries
 returnOffset
 ]
 (
-BaselineICEntry
+ICEntry
 &
 entry
 )
@@ -3765,7 +3765,7 @@ numICEntries
 pcOffset
 ]
 (
-BaselineICEntry
+ICEntry
 &
 entry
 )
@@ -3814,7 +3814,7 @@ BaselineScript
 returnAddressForIC
 (
 const
-BaselineICEntry
+ICEntry
 &
 ent
 )
@@ -3840,7 +3840,7 @@ offset
 )
 ;
 }
-BaselineICEntry
+ICEntry
 *
 BaselineScript
 :
@@ -4052,7 +4052,7 @@ return
 nullptr
 ;
 }
-BaselineICEntry
+ICEntry
 &
 BaselineScript
 :
@@ -4063,7 +4063,7 @@ uint32_t
 pcOffset
 )
 {
-BaselineICEntry
+ICEntry
 *
 entry
 =
@@ -4082,7 +4082,7 @@ return
 entry
 ;
 }
-BaselineICEntry
+ICEntry
 *
 BaselineScript
 :
@@ -4091,7 +4091,7 @@ maybeICEntryFromPCOffset
 (
 uint32_t
 pcOffset
-BaselineICEntry
+ICEntry
 *
 prevLookedUpEntry
 )
@@ -4157,7 +4157,7 @@ pcOffset
 10
 )
 {
-BaselineICEntry
+ICEntry
 *
 firstEntry
 =
@@ -4167,7 +4167,7 @@ icEntry
 0
 )
 ;
-BaselineICEntry
+ICEntry
 *
 lastEntry
 =
@@ -4181,7 +4181,7 @@ numICEntries
 1
 )
 ;
-BaselineICEntry
+ICEntry
 *
 curEntry
 =
@@ -4240,7 +4240,7 @@ pcOffset
 )
 ;
 }
-BaselineICEntry
+ICEntry
 &
 BaselineScript
 :
@@ -4249,12 +4249,12 @@ icEntryFromPCOffset
 (
 uint32_t
 pcOffset
-BaselineICEntry
+ICEntry
 *
 prevLookedUpEntry
 )
 {
-BaselineICEntry
+ICEntry
 *
 entry
 =
@@ -4274,7 +4274,7 @@ return
 entry
 ;
 }
-BaselineICEntry
+ICEntry
 &
 BaselineScript
 :
@@ -4454,7 +4454,7 @@ entry
 )
 ;
 }
-BaselineICEntry
+ICEntry
 &
 BaselineScript
 :
@@ -4608,7 +4608,7 @@ found
 )
 ;
 }
-BaselineICEntry
+ICEntry
 &
 BaselineScript
 :
@@ -4709,7 +4709,7 @@ found
 )
 ;
 }
-BaselineICEntry
+ICEntry
 &
 BaselineScript
 :
@@ -4855,7 +4855,7 @@ JSScript
 *
 script
 const
-BaselineICEntry
+ICEntry
 *
 entries
 )
@@ -4911,7 +4911,7 @@ i
 +
 )
 {
-BaselineICEntry
+ICEntry
 &
 realEntry
 =
@@ -6753,7 +6753,7 @@ i
 +
 )
 {
-BaselineICEntry
+ICEntry
 &
 entry
 =
@@ -7033,7 +7033,7 @@ i
 +
 )
 {
-BaselineICEntry
+ICEntry
 &
 entry
 =

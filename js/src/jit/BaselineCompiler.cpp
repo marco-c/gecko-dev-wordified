@@ -1700,7 +1700,7 @@ i
 .
 icEntry
 ;
-BaselineICEntry
+ICEntry
 *
 entryAddr
 =
@@ -3449,7 +3449,7 @@ Kind
 kind
 )
 {
-BaselineICEntry
+ICEntry
 *
 entry
 =

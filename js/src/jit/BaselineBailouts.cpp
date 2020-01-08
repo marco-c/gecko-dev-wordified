@@ -9030,7 +9030,7 @@ script
 pc
 location
 .
-BaselineICEntry
+ICEntry
 &
 icEntry
 =
@@ -9116,7 +9116,7 @@ if
 enterMonitorChain
 )
 {
-BaselineICEntry
+ICEntry
 &
 icEntry
 =
@@ -10451,7 +10451,7 @@ inlinable
 fallback
 stub
 .
-BaselineICEntry
+ICEntry
 &
 icEntry
 =
