@@ -1162,7 +1162,7 @@ this
 .
 panel
 .
-mozMatchesSelector
+matches
 (
 "
 :
