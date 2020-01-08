@@ -576,6 +576,11 @@ except
 "
 "
 JS_SetICUMemoryFunctions
+or
+JS
+:
+:
+SetGMPMemoryFunctions
 "
 )
 ;
