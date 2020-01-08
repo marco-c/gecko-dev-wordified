@@ -458,6 +458,16 @@ self
 box_
 :
 :
+Float
+;
+pub
+use
+self
+:
+:
+box_
+:
+:
 {
 OverflowClipBox
 OverscrollBehavior
