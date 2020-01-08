@@ -115,14 +115,7 @@ nsICodeCoverage
 await
 codeCoverage
 .
-dumpCounters
-(
-)
-;
-await
-codeCoverage
-.
-resetCounters
+flushCounters
 (
 )
 ;
