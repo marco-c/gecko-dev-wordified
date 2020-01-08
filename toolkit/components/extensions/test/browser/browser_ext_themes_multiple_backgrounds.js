@@ -939,7 +939,7 @@ toolboxCS
 .
 backgroundPosition
 "
-0
+100
 %
 0
 %
