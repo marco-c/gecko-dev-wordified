@@ -3060,8 +3060,8 @@ AssignLiteral
 must
 ONLY
 be
-applied
-to
+called
+with
 an
 actual
 literal
@@ -3233,8 +3233,8 @@ AssignLiteral
 must
 ONLY
 be
-applied
-to
+called
+with
 an
 actual
 literal
@@ -3886,8 +3886,8 @@ ReplaceLiteral
 must
 ONLY
 be
-applied
-to
+called
+with
 an
 actual
 literal
@@ -4192,8 +4192,8 @@ AppendLiteral
 must
 ONLY
 be
-applied
-to
+called
+with
 an
 actual
 literal
@@ -5253,8 +5253,8 @@ InsertLiteral
 must
 ONLY
 be
-applied
-to
+called
+with
 an
 actual
 literal

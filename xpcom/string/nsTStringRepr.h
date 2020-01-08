@@ -1559,8 +1559,8 @@ EqualsLiteral
 must
 ONLY
 be
-applied
-to
+called
+with
 an
 actual
 literal
@@ -1811,8 +1811,8 @@ LowerCaseEqualsLiteral
 must
 ONLY
 be
-applied
-to
+called
+with
 an
 actual
 /
