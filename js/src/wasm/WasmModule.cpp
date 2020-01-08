@@ -8066,6 +8066,15 @@ funcNames
 empty
 (
 )
+|
+|
+!
+!
+metadata
+(
+)
+.
+moduleName
 )
 {
 maybeBytecode
