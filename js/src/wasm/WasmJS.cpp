@@ -6901,6 +6901,10 @@ const
 WasmGlobalObjectVector
 &
 globalObjs
+const
+ShareableBytes
+*
+bytecode
 HandleObject
 proto
 )
@@ -7371,6 +7375,8 @@ instance
 init
 (
 cx
+bytecode
+funcImports
 )
 )
 return

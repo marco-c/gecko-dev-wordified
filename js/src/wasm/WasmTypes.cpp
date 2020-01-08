@@ -2615,7 +2615,7 @@ tableIndex
 +
 sizeof
 (
-offset
+offsetIfActive
 )
 +
 SerializedPodVectorSize
@@ -2667,10 +2667,10 @@ WriteBytes
 (
 cursor
 &
-offset
+offsetIfActive
 sizeof
 (
-offset
+offsetIfActive
 )
 )
 ;
@@ -2737,10 +2737,10 @@ ReadBytes
 (
 cursor
 &
-offset
+offsetIfActive
 sizeof
 (
-offset
+offsetIfActive
 )
 )
 )

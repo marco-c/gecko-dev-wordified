@@ -1459,6 +1459,13 @@ const
 WasmGlobalObjectVector
 &
 globalObjs
+const
+wasm
+:
+:
+ShareableBytes
+*
+bytecode
 HandleObject
 proto
 )
