@@ -2047,13 +2047,6 @@ ShutDown
 (
 )
 ;
-WebIDLGlobalNameHash
-:
-:
-Shutdown
-(
-)
-;
 nsListControlFrame
 :
 :
