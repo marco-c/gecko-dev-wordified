@@ -1843,6 +1843,14 @@ to
 be
 written
             
+self
+.
+runner
+.
+stop
+(
+)
+            
 for
 clean
 stop_f
