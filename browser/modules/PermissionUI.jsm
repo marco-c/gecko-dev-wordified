@@ -4626,7 +4626,7 @@ GetStringFromName
 "
 autoplay
 .
-Allow
+Allow2
 .
 label
 "
@@ -4640,7 +4640,7 @@ GetStringFromName
 "
 autoplay
 .
-Allow
+Allow2
 .
 accesskey
 "
