@@ -494,6 +494,8 @@ aClasses
 DocumentOrShadowRoot
 (
 )
+=
+default
 ;
 Element
 *
