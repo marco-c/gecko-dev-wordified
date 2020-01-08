@@ -7271,7 +7271,7 @@ this
 EditSubAction
 :
 :
-ignore
+eReplaceHeadWithHTMLSource
 nsIEditor
 :
 :

@@ -8317,7 +8317,7 @@ TextEditorRef
 EditSubAction
 :
 :
-ignore
+eCreateBogusNode
 nsIEditor
 :
 :

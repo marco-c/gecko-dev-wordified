@@ -2834,7 +2834,16 @@ aEditSubAction
 EditSubAction
 :
 :
-ignore
+eReplaceHeadWithHTMLSource
+|
+|
+aEditSubAction
+=
+=
+EditSubAction
+:
+:
+eCreateBogusNode
 )
 {
 return
