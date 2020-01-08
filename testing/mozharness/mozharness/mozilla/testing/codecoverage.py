@@ -946,6 +946,7 @@ get
 '
 abs_test_install_dir
 '
+                                         
 os
 .
 path
@@ -1289,6 +1290,10 @@ browser_baselinecoverage
 .
 js
 '
+#
+NOQA
+:
+E501
                 
 '
 suite
@@ -1358,6 +1363,10 @@ wpt_baselinecoverage
 .
 html
 '
+#
+NOQA
+:
+E501
         
 if
 self
@@ -1773,16 +1782,21 @@ def
 parse_coverage_artifacts
 (
 self
+                                 
 gcov_dir
+                                 
 jsvm_dir
+                                 
 merge
 =
 False
+                                 
 output_format
 =
 '
 lcov
 '
+                                 
 filter_covered
 =
 False
@@ -3081,6 +3095,8 @@ for
 per
 -
 test
+                            
+#
 coverage
 purposes
 .
@@ -3332,10 +3348,10 @@ self
 .
 parse_coverage_artifacts
 (
-                
 self
 .
 gcov_dir
+                                                                                
 self
 .
 jsvm_dir

@@ -91,8 +91,6 @@ BLOCK
 *
 *
 import
-argparse
-import
 math
 import
 os
@@ -108,14 +106,6 @@ from
 manifestparser
 import
 TestManifest
-from
-mozharness
-.
-base
-.
-script
-import
-PostScriptAction
 class
 SingleTestMixin
 (
@@ -704,6 +694,7 @@ tests_by_path
 update
 (
 {
+                    
 os
 .
 path
@@ -726,6 +717,7 @@ in
 man
 .
 files
+                
 }
 )
                 
@@ -2256,9 +2248,6 @@ get
 gpu_required
 '
 )
-=
-=
-True
 :
             
 self

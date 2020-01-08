@@ -501,9 +501,6 @@ CRITICAL
 explanation
 '
 :
-r
-"
-"
 "
 Most
 likely
@@ -517,13 +514,14 @@ the
 test
 was
 otherwise
+"
+     
+"
 unsuccessful
 in
 even
 starting
 .
-"
-"
 "
 }
 ]
@@ -1350,6 +1348,9 @@ non
 e10s
 and
 use
+"
+            
+"
 -
 -
 e10s
@@ -1761,11 +1762,6 @@ benchmark_zip
 =
 None
         
-self
-.
-mitmproxy_rel_bin
-=
-None
 #
 some
 platforms
@@ -1774,6 +1770,12 @@ a
 mitmproxy
 release
 binary
+        
+self
+.
+mitmproxy_rel_bin
+=
+None
         
 #
 zip
@@ -1795,6 +1797,13 @@ mitmproxy_recording_set
 =
 None
         
+#
+files
+inside
+the
+recording
+set
+        
 self
 .
 mitmproxy_recordings_file_list
@@ -1805,24 +1814,12 @@ config
 .
 get
 (
-            
 '
 mitmproxy
 '
 None
 )
-#
-files
-inside
-the
-recording
-set
         
-self
-.
-mitmdump
-=
-None
 #
 path
 to
@@ -1832,6 +1829,12 @@ itself
 in
 py3
 venv
+        
+self
+.
+mitmdump
+=
+None
     
 #
 We
@@ -1847,6 +1850,8 @@ message
 in
 the
 format
+    
+#
 mozharness
 :
 <
@@ -1988,13 +1993,13 @@ path
 .
 join
 (
-            
 abs_dirs
 [
 '
 abs_work_dir
 '
 ]
+                                                       
 '
 blobber_upload_dir
 '
@@ -2477,6 +2482,8 @@ go
 through
 tests
 and
+        
+#
 find
 suite
 name
@@ -2731,10 +2738,10 @@ None
 :
             
 if
-not
 self
 .
 suite
+not
 in
 self
 .
@@ -2826,11 +2833,10 @@ not
 binary_path
 :
             
-self
-.
-fatal
-(
-                
+msg
+=
+"
+"
 "
 Talos
 requires
@@ -2846,6 +2852,7 @@ specify
 binary_path
 or
 add
+            
 download
 -
 and
@@ -2857,6 +2864,14 @@ action
 list
 .
 "
+"
+"
+            
+self
+.
+fatal
+(
+msg
 )
         
 #
@@ -3516,6 +3531,7 @@ talos_json
 )
             
 if
+(
 '
 -
 a
@@ -3530,6 +3546,7 @@ talos_extra_options
 '
 ]
 or
+                
 '
 -
 -
@@ -3544,6 +3561,7 @@ config
 talos_extra_options
 '
 ]
+)
 :
                 
 #
@@ -3726,7 +3744,6 @@ tooltool_artifacts
 .
 append
 (
-                
 {
 '
 name
@@ -3735,6 +3752,7 @@ name
 self
 .
 pagesets_name
+                                       
 '
 manifest
 '
@@ -3757,7 +3775,6 @@ tooltool_artifacts
 .
 append
 (
-                
 {
 '
 name
@@ -3766,6 +3783,7 @@ name
 self
 .
 benchmark_zip
+                                       
 '
 manifest
 '
@@ -4054,6 +4072,7 @@ was
 specified
 "
 %
+                          
 artifact
 )
         
@@ -4260,6 +4279,7 @@ dest
 )
         
 except
+Exception
 :
             
 self
@@ -4966,6 +4986,9 @@ no
 -
 download
 was
+"
+                              
+"
 specified
 "
 )
@@ -5094,8 +5117,8 @@ suite
 .
 get
 (
-                
 config_key
+                                                                                      
 False
 )
             
@@ -5341,6 +5364,8 @@ self
 .
 mitmproxy_recording_set
 =
+(
+                
 self
 .
 talos_json_config
@@ -5357,11 +5382,11 @@ suite
 .
 get
 (
-                
 '
 mitmproxy_recording_set
 '
 False
+)
 )
             
 return
@@ -6251,6 +6276,7 @@ schema
 )
         
 except
+Exception
 :
             
 self
@@ -6277,6 +6303,7 @@ def
 _artifact_perf_data
 (
 self
+parser
 dest
 )
 :
@@ -6318,6 +6345,7 @@ dest
 )
         
 except
+Exception
 :
             
 self
@@ -7229,6 +7257,7 @@ self
 .
 _artifact_perf_data
 (
+parser
 dest
 )
         

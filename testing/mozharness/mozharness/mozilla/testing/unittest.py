@@ -91,8 +91,6 @@ BLOCK
 *
 *
 import
-os
-import
 re
 from
 mozharness

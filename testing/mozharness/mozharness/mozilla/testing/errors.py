@@ -233,6 +233,10 @@ d
 '
 '
 )
+#
+NOQA
+:
+E501
     
 '
 pass_group
@@ -418,6 +422,10 @@ d
 '
 '
 )
+#
+NOQA
+:
+E501
         
 '
 pass_group
@@ -488,6 +496,10 @@ d
 '
 '
 )
+#
+NOQA
+:
+E501
         
 '
 pass_group
@@ -623,6 +635,10 @@ d
 '
 '
 )
+#
+NOQA
+:
+E501
         
 '
 pass_group
@@ -1145,6 +1161,10 @@ leaked
 )
 "
 )
+#
+NOQA
+:
+E501
         
 '
 minimum_regex
@@ -1252,6 +1272,10 @@ call
 '
 '
 )
+#
+NOQA
+:
+E501
     
 }
 }
