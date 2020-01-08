@@ -3126,19 +3126,42 @@ rc
 ]
             
 '
-DEFFILE
+EXTRA_DEPS
 '
 :
 [
                 
 '
-DEFFILE
-:
+EXTRA_DEPS
++
 =
+%
+s
+'
+%
+mozpath
+.
+join
+(
+mozpath
+.
+relpath
+(
+env
+.
+topsrcdir
+                                                                  
+env
+.
+topobjdir
+)
+                                                  
+'
 baz
 .
 def
 '
+)
             
 ]
             
