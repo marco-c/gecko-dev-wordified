@@ -3158,7 +3158,7 @@ realm_
 realm_
 -
 >
-hasBeenEntered
+hasBeenEnteredIgnoringJit
 (
 )
 )
@@ -3169,7 +3169,7 @@ realm
 realm
 -
 >
-hasBeenEntered
+hasBeenEnteredIgnoringJit
 (
 )
 )

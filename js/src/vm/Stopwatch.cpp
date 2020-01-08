@@ -1663,6 +1663,8 @@ MOZ_UNLIKELY
 compartment
 -
 >
+gcState
+.
 scheduledForDestruction
 )
 )
@@ -1920,6 +1922,8 @@ MOZ_UNLIKELY
 compartment
 -
 >
+gcState
+.
 scheduledForDestruction
 )
 )

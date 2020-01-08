@@ -553,6 +553,14 @@ Realm
 (
 )
 {
+MOZ_ASSERT
+(
+!
+hasBeenEnteredIgnoringJit
+(
+)
+)
+;
 /
 /
 Write
