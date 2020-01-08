@@ -702,7 +702,7 @@ section
 mSerializeCallback
 (
 mOutputStream
-mUnscaledFonts
+mScaledFonts
 )
 ;
 WriteElement
