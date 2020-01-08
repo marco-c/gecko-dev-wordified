@@ -354,7 +354,6 @@ in
 a
 \
 "
-\
 got
 {
 :
@@ -504,7 +503,7 @@ Lifetime
 {
 apostrophe
 :
-Default
+Apostrophe
 :
 :
 default

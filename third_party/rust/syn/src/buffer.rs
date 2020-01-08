@@ -235,7 +235,7 @@ macros
 [
 feature
 (
-proc_macro
+proc_macro_diagnostic
 )
 ]
 /
