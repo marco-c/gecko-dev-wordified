@@ -350,26 +350,6 @@ api
 BRANCH
     
 "
-signature_verification_script
-"
-:
-"
-tools
-/
-release
-/
-signing
-/
-verify
--
-android
--
-signature
-.
-sh
-"
-    
-"
 key_alias
 "
 :
