@@ -2955,7 +2955,7 @@ originalTarget
 nsIURI
 *
 linkURI
-nsIDOMNode
+nsINode
 *
 linkNode
 bool

@@ -1127,7 +1127,7 @@ leak
 .
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mPossibleTooltipNode
 ;

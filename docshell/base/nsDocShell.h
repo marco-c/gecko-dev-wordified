@@ -552,9 +552,6 @@ class
 nsIDocument
 ;
 class
-nsIDOMNode
-;
-class
 nsIGlobalHistory2
 ;
 class
