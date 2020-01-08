@@ -539,7 +539,7 @@ if
 IsSecureContextOrObjectIsFromSecureContext
 (
 aCx
-aGlobal
+global
 )
 )
 {
@@ -553,7 +553,7 @@ isTestingEnabledInWindow
 =
 IsServiceWorkersTestingEnabledInWindow
 (
-aGlobal
+global
 )
 ;
 const
