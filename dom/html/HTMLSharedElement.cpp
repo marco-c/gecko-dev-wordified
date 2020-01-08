@@ -751,7 +751,6 @@ attributes
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -760,7 +759,6 @@ type
 /
 /
 {
-&
 nsGkAtoms
 :
 :

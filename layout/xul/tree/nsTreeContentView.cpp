@@ -3162,12 +3162,10 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 ascending
-&
 nsGkAtoms
 :
 :

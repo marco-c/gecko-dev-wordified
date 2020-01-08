@@ -1840,12 +1840,10 @@ clickableRoles
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 button
-&
 nsGkAtoms
 :
 :

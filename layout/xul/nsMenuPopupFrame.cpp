@@ -1542,17 +1542,14 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 top
-&
 nsGkAtoms
 :
 :
 parent
-&
 nsGkAtoms
 :
 :
