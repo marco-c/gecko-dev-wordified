@@ -15897,7 +15897,7 @@ the
 scheme
 result
 =
-NS_strdup
+NS_xstrdup
 (
 relpath
 )
@@ -15979,7 +15979,7 @@ is
 absolute
 result
 =
-NS_strdup
+NS_xstrdup
 (
 relpath
 )

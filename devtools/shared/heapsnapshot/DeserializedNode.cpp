@@ -621,7 +621,7 @@ edge
 .
 name
 ?
-NS_strdup
+NS_xstrdup
 (
 edge
 .

@@ -390,7 +390,7 @@ mValue
 .
 reset
 (
-NS_strdup
+NS_xstrdup
 (
 v
 )

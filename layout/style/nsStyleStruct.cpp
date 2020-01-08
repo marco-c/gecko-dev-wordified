@@ -24211,7 +24211,7 @@ mContent
 .
 mString
 =
-NS_strdup
+NS_xstrdup
 (
 aOther
 .

@@ -2390,7 +2390,7 @@ txt
 ;
 gRecordedShutdownTimeFileName
 =
-NS_strdup
+NS_xstrdup
 (
 mozFile
 -

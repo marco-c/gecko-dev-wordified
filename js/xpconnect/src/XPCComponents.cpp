@@ -15724,7 +15724,7 @@ false
 *
 aRv
 =
-NS_strdup
+NS_xstrdup
 (
 js
 :
@@ -15736,13 +15736,6 @@ obj
 -
 >
 name
-)
-;
-NS_ENSURE_TRUE
-(
-*
-aRv
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return

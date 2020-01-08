@@ -1004,15 +1004,9 @@ edgeName
 {
 ownedEdgeName
 =
-NS_strdup
+NS_xstrdup
 (
 edgeName
-)
-;
-ASSERT_NE
-(
-ownedEdgeName
-nullptr
 )
 ;
 }

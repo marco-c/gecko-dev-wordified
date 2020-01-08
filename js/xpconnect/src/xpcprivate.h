@@ -14521,7 +14521,7 @@ NS_JS_ID_CID
 )
 NS_DECL_ISUPPORTS
 NS_DECL_NSIJSID
-bool
+void
 InitWithName
 (
 const
@@ -14534,7 +14534,7 @@ char
 nameString
 )
 ;
-bool
+void
 SetName
 (
 const

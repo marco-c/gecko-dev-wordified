@@ -1198,7 +1198,7 @@ CharT
 >
 owned
 (
-NS_strndup
+NS_xstrndup
 (
 tempString
 length
@@ -1207,10 +1207,6 @@ length
 ;
 if
 (
-!
-owned
-|
-|
 !
 internedStrings
 .
