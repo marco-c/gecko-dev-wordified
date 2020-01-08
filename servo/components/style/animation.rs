@@ -303,9 +303,6 @@ values
 computed
 :
 :
-transform
-:
-:
 TimingFunction
 ;
 use
@@ -327,7 +324,7 @@ values
 generics
 :
 :
-transform
+easing
 :
 :
 {

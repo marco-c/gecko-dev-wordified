@@ -90,7 +90,7 @@ values
 computed
 :
 :
-transform
+easing
 :
 :
 TimingFunction
@@ -104,7 +104,7 @@ values
 generics
 :
 :
-transform
+easing
 :
 :
 {
@@ -119,7 +119,7 @@ values
 generics
 :
 :
-transform
+easing
 :
 :
 TimingFunction
@@ -133,7 +133,7 @@ values
 specified
 :
 :
-transform
+easing
 :
 :
 TimingFunction

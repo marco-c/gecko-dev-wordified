@@ -552,6 +552,16 @@ use
 self
 :
 :
+easing
+:
+:
+TimingFunction
+;
+pub
+use
+self
+:
+:
 effects
 :
 :
@@ -890,7 +900,6 @@ transform
 {
 Rotate
 Scale
-TimingFunction
 Transform
 TransformOperation
 }
@@ -1000,6 +1009,10 @@ column
 pub
 mod
 counters
+;
+pub
+mod
+easing
 ;
 pub
 mod

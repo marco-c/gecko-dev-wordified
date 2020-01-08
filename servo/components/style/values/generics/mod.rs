@@ -164,6 +164,10 @@ counters
 ;
 pub
 mod
+easing
+;
+pub
+mod
 effects
 ;
 pub
