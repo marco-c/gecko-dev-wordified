@@ -321,7 +321,7 @@ stderr
 "
 Error
 %
-d
+lu
 opening
 target
 process
@@ -503,7 +503,7 @@ stderr
 "
 Error
 %
-d
+lu
 in
 VirtualAllocEx
 \
@@ -549,7 +549,7 @@ stderr
 "
 Error
 %
-d
+lu
 in
 WriteProcessMemory
 \
@@ -632,7 +632,7 @@ stderr
 "
 Error
 %
-d
+lu
 in
 CreateRemoteThread
 \

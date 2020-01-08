@@ -272,7 +272,7 @@ get
 handle
 for
 %
-d
+lu
 \
 n
 "
@@ -359,7 +359,7 @@ stderr
 Error
 0x
 %
-X
+lX
 in
 MiniDumpWriteDump
 \

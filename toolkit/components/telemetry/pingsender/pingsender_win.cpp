@@ -904,7 +904,7 @@ request
 :
 code
 %
-u
+lu
 \
 n
 "
