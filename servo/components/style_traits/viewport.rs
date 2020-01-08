@@ -1132,7 +1132,6 @@ auto
 )
 =
 >
-{
 Ok
 (
 Zoom
@@ -1140,7 +1139,6 @@ Zoom
 :
 Auto
 )
-}
 ref
 t
 =
