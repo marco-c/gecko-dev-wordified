@@ -1577,10 +1577,7 @@ array
 *
 _result
 =
-nsMemory
-:
-:
-Clone
+moz_xmemdup
 (
 aData
 .
@@ -1597,13 +1594,6 @@ sizeof
 (
 uint8_t
 )
-)
-;
-NS_ENSURE_TRUE
-(
-*
-_result
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 /

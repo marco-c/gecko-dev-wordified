@@ -818,10 +818,7 @@ void
 *
 blob
 =
-nsMemory
-:
-:
-Clone
+moz_xmemdup
 (
 :
 :
@@ -833,12 +830,6 @@ aIndex
 ]
 )
 size
-)
-;
-NS_ENSURE_TRUE
-(
-blob
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 *

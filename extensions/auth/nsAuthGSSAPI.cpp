@@ -3122,10 +3122,7 @@ length
 *
 outToken
 =
-nsMemory
-:
-:
-Clone
+moz_xmemdup
 (
 output_token
 .
@@ -3323,10 +3320,7 @@ length
 *
 outToken
 =
-nsMemory
-:
-:
-Clone
+moz_xmemdup
 (
 output_token
 .
@@ -3482,10 +3476,7 @@ zero
 *
 outToken
 =
-nsMemory
-:
-:
-Clone
+moz_xmemdup
 (
 output_token
 .
