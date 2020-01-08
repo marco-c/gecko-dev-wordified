@@ -5078,6 +5078,13 @@ id
 {
 if
 (
+Settings
+.
+isEnabled
+(
+)
+&
+&
 mView
 instanceof
 ViewParent
