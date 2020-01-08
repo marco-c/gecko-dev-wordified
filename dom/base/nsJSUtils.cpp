@@ -634,12 +634,10 @@ MOZ_ASSERT
 js
 :
 :
-GetEnterRealmDepth
+GetContextRealm
 (
 cx
 )
->
-0
 )
 ;
 MOZ_ASSERT_IF
