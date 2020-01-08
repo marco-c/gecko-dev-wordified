@@ -207,6 +207,9 @@ finalize
 )
 ;
 }
+/
+NS_ERROR_UNEXPECTED
+/
 "
 illegal
 UTF
