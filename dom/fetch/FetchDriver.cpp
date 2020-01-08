@@ -3026,10 +3026,7 @@ LOAD_BYPASS_SERVICE_WORKER
 nsSecurityFlags
 secFlags
 =
-nsILoadInfo
-:
-:
-SEC_ABOUT_BLANK_INHERITS
+0
 ;
 if
 (
