@@ -3455,6 +3455,10 @@ ProcessIdState
 :
 eUnstarted
 )
+mIsMainThreadProtocol
+(
+false
+)
 {
 }
 IToplevelProtocol
