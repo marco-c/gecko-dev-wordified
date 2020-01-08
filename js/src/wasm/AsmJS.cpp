@@ -20190,6 +20190,10 @@ typeAt
 uint8_t
 (
 type
+.
+code
+(
+)
 )
 )
 ;
@@ -40396,6 +40400,10 @@ type
 toWasmBlockSignatureType
 (
 )
+.
+code
+(
+)
 )
 )
 ;
@@ -51501,6 +51509,12 @@ return
 true
 ;
 }
+case
+ValType
+:
+:
+Ref
+:
 case
 ValType
 :

@@ -7048,6 +7048,10 @@ abiType
 switch
 (
 ret
+.
+code
+(
+)
 )
 {
 case
