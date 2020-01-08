@@ -199,6 +199,10 @@ mPool
 (
 nullptr
 )
+mShutdown
+(
+false
+)
 {
 }
 virtual
@@ -254,6 +258,9 @@ nsCOMPtr
 nsIThreadPool
 >
 mPool
+;
+bool
+mShutdown
 ;
 }
 ;
