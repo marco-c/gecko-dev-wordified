@@ -225,6 +225,15 @@ include
 "
 mozilla
 /
+ServoBindings
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoCSSRuleList
 .
 h
