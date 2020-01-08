@@ -5419,7 +5419,7 @@ IsRecordingOrReplaying
 recordreplay
 :
 :
-AddContentParseData
+AddContentParseData16
 (
 this
 dst
@@ -7001,7 +7001,7 @@ IsRecordingOrReplaying
 recordreplay
 :
 :
-AddContentParseData
+AddContentParseData16
 (
 this
 dst
