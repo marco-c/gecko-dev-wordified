@@ -1226,8 +1226,6 @@ framePushed
 (
 )
 -
-frameInitialAdjustment_
--
 slot
 ;
 MOZ_ASSERT
@@ -1312,8 +1310,6 @@ masm
 framePushed
 (
 )
--
-frameInitialAdjustment_
 -
 offset
 ;

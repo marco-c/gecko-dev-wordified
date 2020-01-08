@@ -491,10 +491,6 @@ argumentsSize
 (
 )
 )
-frameInitialAdjustment_
-(
-0
-)
 frameClass_
 (
 FrameSizeClass
