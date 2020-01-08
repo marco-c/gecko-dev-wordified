@@ -6760,7 +6760,7 @@ isSymbol
 ;
 bytes
 =
-JS_EncodeString
+EncodeLatin1
 (
 cx
 str
@@ -6825,7 +6825,7 @@ string
 ;
 bytes
 =
-JS_EncodeString
+EncodeLatin1
 (
 cx
 str

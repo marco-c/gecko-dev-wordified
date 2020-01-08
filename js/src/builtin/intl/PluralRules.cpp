@@ -1238,7 +1238,10 @@ nullptr
 UniqueChars
 locale
 =
-JS_EncodeString
+intl
+:
+:
+EncodeLocale
 (
 cx
 value
@@ -1702,7 +1705,10 @@ nullptr
 UniqueChars
 locale
 =
-JS_EncodeString
+intl
+:
+:
+EncodeLocale
 (
 cx
 value
