@@ -1142,7 +1142,7 @@ context_menu_title
 "
 :
 "
-Open
+Apri
 menu
 "
 "

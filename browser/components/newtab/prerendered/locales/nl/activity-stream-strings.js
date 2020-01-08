@@ -1152,8 +1152,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Menu
+openen
 "
 "
 pocket_learn_more
