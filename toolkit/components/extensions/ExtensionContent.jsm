@@ -6209,15 +6209,7 @@ for
 let
 docShell
 of
-XPCOMUtils
-.
-IterSimpleEnumerator
-(
 enum_
-Ci
-.
-nsIDocShell
-)
 )
 {
 try

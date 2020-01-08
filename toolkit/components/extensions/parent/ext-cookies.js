@@ -1870,15 +1870,7 @@ for
 const
 cookie
 of
-XPCOMUtils
-.
-IterSimpleEnumerator
-(
 enumerator
-Ci
-.
-nsICookie2
-)
 )
 {
 if
