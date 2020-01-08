@@ -768,11 +768,6 @@ setEnabledTLSVersions
 )
 ;
 nsresult
-ConfigureInternalPKCS11Token
-(
-)
-;
-nsresult
 RegisterObservers
 (
 )
