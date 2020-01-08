@@ -1478,6 +1478,17 @@ vp9
 break
 ;
 case
+MP4PARSE_CODEC_AV1
+:
+codec_string
+=
+"
+av1
+"
+;
+break
+;
+case
 MP4PARSE_CODEC_MP3
 :
 codec_string
