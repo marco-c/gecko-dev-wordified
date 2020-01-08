@@ -8519,6 +8519,16 @@ onpaste
 Atom
 (
 "
+onpayerdetailchange
+"
+"
+onpayerdetailchange
+"
+)
+    
+Atom
+(
+"
 onpaymentmethodchange
 "
 "
