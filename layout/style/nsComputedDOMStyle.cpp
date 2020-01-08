@@ -26781,7 +26781,6 @@ aPaint
 >
 GetFallbackColor
 (
-mComputedStyle
 )
 )
 ;
@@ -26892,7 +26891,6 @@ paint
 >
 GetColor
 (
-mComputedStyle
 )
 )
 ;

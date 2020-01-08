@@ -329,9 +329,9 @@ animated
 color
 :
 :
-Color
+RGBA
 as
-AnimatedColor
+AnimatedRGBA
 ;
 use
 values
@@ -21739,7 +21739,7 @@ IntermediateSVGPaint
 =
 SVGPaint
 <
-AnimatedColor
+AnimatedRGBA
 ComputedUrl
 >
 ;
@@ -21754,7 +21754,7 @@ IntermediateSVGPaintKind
 =
 SVGPaintKind
 <
-AnimatedColor
+AnimatedRGBA
 ComputedUrl
 >
 ;

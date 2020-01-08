@@ -118,18 +118,6 @@ values
 computed
 :
 :
-color
-:
-:
-Color
-;
-use
-values
-:
-:
-computed
-:
-:
 url
 :
 :
@@ -182,7 +170,7 @@ generic
 :
 SVGPaint
 <
-Color
+RGBA
 ComputedUrl
 >
 ;
@@ -203,7 +191,7 @@ generic
 :
 SVGPaintKind
 <
-Color
+RGBA
 ComputedUrl
 >
 ;
@@ -271,10 +259,6 @@ from_floats
 .
 1
 .
-)
-.
-into
-(
 )
 ;
 SVGPaint
