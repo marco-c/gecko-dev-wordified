@@ -2085,7 +2085,7 @@ verbose
 level
 =
 "
-TRACE
+Trace
 "
 if
 self
@@ -2096,7 +2096,7 @@ verbose
 2
 else
 "
-DEBUG
+Debug
 "
             
 args

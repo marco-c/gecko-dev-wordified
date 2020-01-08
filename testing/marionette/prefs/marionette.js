@@ -205,7 +205,7 @@ log
 level
 "
 "
-info
+Info
 "
 )
 ;
