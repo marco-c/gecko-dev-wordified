@@ -231,6 +231,11 @@ aEnumerator
 )
 )
 {
+MOZ_ASSERT
+(
+mEnumerator
+)
+;
 }
 private
 :
