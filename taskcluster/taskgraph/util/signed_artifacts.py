@@ -124,6 +124,9 @@ True
 kind
 =
 None
+project
+=
+None
 )
 :
     
@@ -140,7 +143,7 @@ build_platform
 '
 )
     
-use_stub
+is_nightly
 =
 task
 .
@@ -149,9 +152,7 @@ attributes
 get
 (
 '
-stub
--
-installer
+nightly
 '
 )
     
@@ -450,9 +451,66 @@ widevine
 }
 ]
         
+no_stub
+=
+(
+"
+mozilla
+-
+esr60
+"
+"
+jamun
+"
+)
+        
 if
-use_stub
+'
+win32
+'
+in
+build_platform
+and
+is_nightly
+and
+project
+not
+in
+no_stub
 :
+            
+#
+TODO
+:
+fix
+the
+project
+hint
+to
+be
+a
+better
+design
+            
+#
+We
+don
+'
+t
+build
+stub
+installer
+on
+esr
+so
+we
+don
+'
+t
+want
+to
+sign
+it
             
 artifacts_specifications
 [

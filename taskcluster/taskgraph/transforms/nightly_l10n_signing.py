@@ -244,6 +244,17 @@ dep_job
 keep_locale_template
 =
 True
+            
+project
+=
+config
+.
+params
+[
+"
+project
+"
+]
         
 )
         

@@ -184,12 +184,6 @@ shipping_phase
 '
 shipping_product
 '
-    
-'
-stub
--
-installer
-'
 )
 def
 attrmatch

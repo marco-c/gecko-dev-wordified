@@ -351,6 +351,17 @@ kind
 config
 .
 kind
+            
+project
+=
+config
+.
+params
+[
+"
+project
+"
+]
         
 )
         
