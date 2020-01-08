@@ -272,6 +272,23 @@ unittest_task
 '
 mochitest
 -
+gl
+'
+'
+linux
+/
+debug
+'
+'
+debug
+'
+)
+    
+unittest_task
+(
+'
+mochitest
+-
 webgl1
 -
 core
@@ -2197,9 +2214,7 @@ self
 u
 mochitest
 -
-webgl1
--
-core
+gpu
 gtest
 sets
 unittests
@@ -2223,9 +2238,7 @@ try
 u
 mochitest
 -
-webgl1
--
-core
+gpu
 gtest
 '
 )
@@ -2262,9 +2275,7 @@ test
 '
 mochitest
 -
-webgl1
--
-core
+gpu
 '
 }
             
