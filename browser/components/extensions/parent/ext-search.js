@@ -318,9 +318,7 @@ engine
 >
 {
 let
-favicon_url
-=
-null
+favIconUrl
 ;
 if
 (
@@ -363,7 +361,7 @@ URLs
 to
 data
 URLs
-favicon_url
+favIconUrl
 =
 await
 getDataURI
@@ -378,7 +376,7 @@ spec
 }
 else
 {
-favicon_url
+favIconUrl
 =
 engine
 .
@@ -395,7 +393,7 @@ name
 engine
 .
 name
-is_default
+isDefault
 :
 engine
 =
@@ -411,7 +409,10 @@ alias
 engine
 .
 alias
-favicon_url
+|
+|
+undefined
+favIconUrl
 }
 ;
 }
