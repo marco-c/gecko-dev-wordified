@@ -117,7 +117,7 @@ index
 function
 debugTargetListenerMiddleware
 (
-state
+store
 )
 {
 const
@@ -128,7 +128,7 @@ onExtensionsUpdated
 =
 >
 {
-state
+store
 .
 dispatch
 (
@@ -149,7 +149,7 @@ onTabsUpdated
 =
 >
 {
-state
+store
 .
 dispatch
 (
@@ -230,7 +230,7 @@ onWorkersUpdated
 =
 >
 {
-state
+store
 .
 dispatch
 (
@@ -354,7 +354,7 @@ const
 client
 }
 =
-state
+store
 .
 getState
 (
