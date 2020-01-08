@@ -156,10 +156,7 @@ size_t
 mTable
 ;
 size_t
-mDynamicAtomObjects
-;
-size_t
-mDynamicUnsharedBuffers
+mDynamicAtoms
 ;
 AtomsSizes
 (
@@ -169,11 +166,7 @@ mTable
 (
 0
 )
-mDynamicAtomObjects
-(
-0
-)
-mDynamicUnsharedBuffers
+mDynamicAtoms
 (
 0
 )
