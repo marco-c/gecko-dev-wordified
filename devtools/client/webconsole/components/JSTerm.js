@@ -7238,15 +7238,8 @@ non
 alphanumeric
 other
 than
-"
 _
-"
-"
-:
-"
 or
-"
-"
 if
 it
 exists
@@ -7268,7 +7261,6 @@ zA
 Z0
 -
 9_
-:
 ]
 [
 a
@@ -7278,7 +7270,6 @@ zA
 Z0
 -
 9_
-:
 ]
 *
 /
@@ -7305,7 +7296,6 @@ to
 filter
 the
 cache
-.
 if
 (
 lastNonAlpha
