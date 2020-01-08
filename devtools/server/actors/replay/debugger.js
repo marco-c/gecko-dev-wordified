@@ -3138,7 +3138,7 @@ getNewestFrame
 )
 ;
 }
-_getNewConsoleMessage
+getNewConsoleMessage
 (
 )
 {
@@ -3208,7 +3208,7 @@ call
 this
 this
 .
-_getNewConsoleMessage
+getNewConsoleMessage
 (
 )
 )

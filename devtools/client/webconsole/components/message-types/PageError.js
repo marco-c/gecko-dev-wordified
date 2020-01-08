@@ -238,6 +238,7 @@ open
 repeat
 serviceContainer
 timestampsVisible
+isPaused
 }
 =
 props
@@ -322,6 +323,7 @@ Message
 {
 dispatch
 messageId
+isPaused
 open
 collapsible
 :

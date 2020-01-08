@@ -177,6 +177,7 @@ getAllMessagesUiById
 getAllMessagesTableDataById
 getAllNetworkMessagesUpdateById
 getVisibleMessages
+getPausedExecutionPoint
 getAllRepeatById
 }
 =
@@ -374,6 +375,11 @@ PropTypes
 func
 .
 isRequired
+pausedExecutionPoint
+:
+PropTypes
+.
+any
 }
 ;
 }
@@ -858,6 +864,7 @@ networkMessageActiveTabId
 serviceContainer
 timestampsVisible
 initialized
+pausedExecutionPoint
 }
 =
 this
@@ -953,6 +960,7 @@ networkMessagesUpdate
 messageId
 ]
 networkMessageActiveTabId
+pausedExecutionPoint
 getMessage
 :
 (
@@ -1080,6 +1088,12 @@ state
 ui
 .
 initialized
+pausedExecutionPoint
+:
+getPausedExecutionPoint
+(
+state
+)
 messages
 :
 getAllMessagesById

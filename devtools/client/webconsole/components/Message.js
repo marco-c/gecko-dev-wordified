@@ -558,6 +558,11 @@ any
 }
 )
 )
+isPaused
+:
+PropTypes
+.
+bool
 }
 ;
 }
@@ -936,6 +941,7 @@ collapsible
 collapseTitle
 source
 type
+isPaused
 level
 indent
 topLevelClasses
@@ -969,6 +975,14 @@ message
 source
 type
 level
+isPaused
+?
+"
+paused
+"
+:
+"
+"
 )
 ;
 if
