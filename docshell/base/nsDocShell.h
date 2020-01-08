@@ -5840,6 +5840,9 @@ nsIDOMStorageManager
 >
 mSessionStorageManager
 ;
+uint64_t
+mContentWindowID
+;
 nsCOMPtr
 <
 nsIContentViewer
