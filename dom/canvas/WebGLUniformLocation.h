@@ -298,10 +298,6 @@ const
 WebGLProgram
 *
 prog
-const
-char
-*
-funcName
 )
 const
 ;
@@ -312,10 +308,6 @@ uint8_t
 setterElemSize
 GLenum
 setterType
-const
-char
-*
-funcName
 )
 const
 ;
@@ -326,10 +318,6 @@ uint8_t
 setterElemSize
 size_t
 setterArraySize
-const
-char
-*
-funcName
 )
 const
 ;

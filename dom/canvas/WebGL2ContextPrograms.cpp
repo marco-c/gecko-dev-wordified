@@ -213,6 +213,17 @@ nsAString
 name
 )
 {
+const
+FuncScope
+funcScope
+(
+*
+this
+"
+getFragDataLocation
+"
+)
+;
 if
 (
 IsContextLost
@@ -229,8 +240,6 @@ if
 ValidateObject
 (
 "
-getFragDataLocation
-:
 program
 "
 prog
