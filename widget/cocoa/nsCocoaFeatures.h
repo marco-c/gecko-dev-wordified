@@ -210,6 +210,12 @@ OnElCapitanOrLater
 ;
 static
 bool
+OnSierraExactly
+(
+)
+;
+static
+bool
 OnSierraOrLater
 (
 )
@@ -222,7 +228,7 @@ OnHighSierraOrLater
 ;
 static
 bool
-OnSierraExactly
+OnMojaveOrLater
 (
 )
 ;
