@@ -436,8 +436,7 @@ EXPIRE_SESSION
 let
 pages
 =
-as
-.
+await
 getPagesWithAnnotation
 (
 "
@@ -457,8 +456,7 @@ length
 ;
 pages
 =
-as
-.
+await
 getPagesWithAnnotation
 (
 "
@@ -479,8 +477,7 @@ length
 let
 items
 =
-as
-.
+await
 getItemsWithAnnotation
 (
 "
@@ -500,8 +497,7 @@ length
 ;
 items
 =
-as
-.
+await
 getItemsWithAnnotation
 (
 "

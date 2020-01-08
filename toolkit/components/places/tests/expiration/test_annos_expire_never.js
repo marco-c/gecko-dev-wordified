@@ -380,8 +380,7 @@ EXPIRE_NEVER
 let
 pages
 =
-as
-.
+await
 getPagesWithAnnotation
 (
 "
@@ -401,8 +400,7 @@ length
 ;
 pages
 =
-as
-.
+await
 getPagesWithAnnotation
 (
 "
@@ -581,8 +579,7 @@ EXPIRE_NEVER
 let
 items
 =
-as
-.
+await
 getItemsWithAnnotation
 (
 "
@@ -602,8 +599,7 @@ length
 ;
 items
 =
-as
-.
+await
 getItemsWithAnnotation
 (
 "
@@ -746,8 +742,7 @@ EXPIRE_NEVER
 }
 pages
 =
-as
-.
+await
 getPagesWithAnnotation
 (
 "
@@ -767,8 +762,7 @@ length
 ;
 pages
 =
-as
-.
+await
 getPagesWithAnnotation
 (
 "
@@ -808,8 +802,7 @@ promiseForceExpirationStep
 ;
 pages
 =
-as
-.
+await
 getPagesWithAnnotation
 (
 "
@@ -829,8 +822,7 @@ length
 ;
 pages
 =
-as
-.
+await
 getPagesWithAnnotation
 (
 "
@@ -850,8 +842,7 @@ length
 ;
 items
 =
-as
-.
+await
 getItemsWithAnnotation
 (
 "
@@ -871,8 +862,7 @@ length
 ;
 items
 =
-as
-.
+await
 getItemsWithAnnotation
 (
 "
@@ -892,8 +882,7 @@ length
 ;
 pages
 =
-as
-.
+await
 getPagesWithAnnotation
 (
 "
@@ -913,8 +902,7 @@ length
 ;
 pages
 =
-as
-.
+await
 getPagesWithAnnotation
 (
 "
