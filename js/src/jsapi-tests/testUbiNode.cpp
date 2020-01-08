@@ -661,6 +661,13 @@ options
 cx
 )
 ;
+options
+.
+setUTF8
+(
+true
+)
+;
 /
 /
 Create
@@ -710,7 +717,7 @@ CHECK
 JS
 :
 :
-Compile
+CompileUtf8
 (
 cx
 options
@@ -786,7 +793,7 @@ CHECK
 JS
 :
 :
-Compile
+CompileUtf8
 (
 cx
 options
@@ -1157,6 +1164,13 @@ options
 cx
 )
 ;
+options
+.
+setUTF8
+(
+true
+)
+;
 /
 /
 Create
@@ -1180,7 +1194,7 @@ CHECK
 JS
 :
 :
-Compile
+CompileUtf8
 (
 cx
 options
@@ -1232,7 +1246,7 @@ CHECK
 JS
 :
 :
-Compile
+CompileUtf8
 (
 cx
 options
