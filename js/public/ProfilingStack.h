@@ -1765,7 +1765,7 @@ Category
 uint32_t
 {
 OTHER
-CSS
+LAYOUT
 JS
 GCCC
 NETWORK
