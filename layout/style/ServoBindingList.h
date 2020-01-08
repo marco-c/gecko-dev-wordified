@@ -379,6 +379,8 @@ css
 LoaderReusableStyleSheets
 *
 reusable_sheets
+StyleUseCountersBorrowedOrNull
+use_counters
 )
 SERVO_BINDING_FUNC
 (
@@ -412,6 +414,8 @@ uint32_t
 line_number_offset
 nsCompatibility
 quirks_mode
+StyleUseCountersBorrowedOrNull
+use_counters
 )
 SERVO_BINDING_FUNC
 (

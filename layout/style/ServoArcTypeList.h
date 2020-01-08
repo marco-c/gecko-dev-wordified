@@ -133,6 +133,11 @@ preprocessing
 /
 SERVO_ARC_TYPE
 (
+UseCounters
+StyleUseCounters
+)
+SERVO_ARC_TYPE
+(
 CssRules
 ServoCssRules
 )

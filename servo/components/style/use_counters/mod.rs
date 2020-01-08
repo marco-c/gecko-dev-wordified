@@ -288,6 +288,13 @@ want
 to
 store
 .
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 UseCounters

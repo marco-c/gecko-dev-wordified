@@ -5071,6 +5071,16 @@ nsIDocument
 *
 )
 ;
+/
+/
+Use
+counters
+.
+StyleUseCountersStrong
+Servo_UseCounters_Create
+(
+)
+;
 }
 /
 /
