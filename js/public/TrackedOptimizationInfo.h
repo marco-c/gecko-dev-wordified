@@ -1056,6 +1056,11 @@ CantInlineNativeNoSpecialization
 \
 _
 (
+CantInlineUnexpectedNewTarget
+)
+\
+_
+(
 HasCommonInliningPath
 )
 \
