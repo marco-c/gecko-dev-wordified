@@ -1159,6 +1159,12 @@ delete
 ;
 }
 ;
+class
+JS_PUBLIC_API
+(
+CompileOptions
+)
+;
 /
 *
 *

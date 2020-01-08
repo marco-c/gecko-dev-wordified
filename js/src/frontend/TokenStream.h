@@ -1986,6 +1986,15 @@ include
 "
 js
 /
+CompileOptions
+.
+h
+"
+#
+include
+"
+js
+/
 UniquePtr
 .
 h
@@ -4466,6 +4475,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -6351,6 +6363,9 @@ parsing
 tokenizing
 .
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options_
@@ -16494,6 +16509,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -19307,6 +19325,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options

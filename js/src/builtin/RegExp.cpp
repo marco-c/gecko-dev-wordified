@@ -256,6 +256,12 @@ mozilla
 :
 IsAsciiDigit
 ;
+using
+JS
+:
+:
+CompileOptions
+;
 /
 *
 *

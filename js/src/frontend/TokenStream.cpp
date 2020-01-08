@@ -443,6 +443,12 @@ mozilla
 :
 Utf8Unit
 ;
+using
+JS
+:
+:
+ReadOnlyCompileOptions
+;
 struct
 ReservedWordInfo
 {

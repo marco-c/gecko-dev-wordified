@@ -284,6 +284,12 @@ JS
 AutoValueArray
 ;
 using
+JS
+:
+:
+CompileOptions
+;
+using
 mozilla
 :
 :

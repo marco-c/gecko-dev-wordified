@@ -256,6 +256,12 @@ using
 JS
 :
 :
+CompileOptions
+;
+using
+JS
+:
+:
 SourceBufferHolder
 ;
 /

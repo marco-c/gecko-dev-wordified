@@ -1630,6 +1630,15 @@ h
 #
 include
 "
+js
+/
+CompileOptions
+.
+h
+"
+#
+include
+"
 vm
 /
 Iteration
@@ -2267,6 +2276,9 @@ LifoAlloc
 &
 alloc
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -2416,6 +2428,9 @@ strict
 ;
 }
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -3349,6 +3364,9 @@ LifoAlloc
 &
 alloc
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -3386,6 +3404,9 @@ LifoAlloc
 &
 alloc
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -5792,6 +5813,9 @@ LifoAlloc
 &
 alloc
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options

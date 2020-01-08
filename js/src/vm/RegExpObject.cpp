@@ -366,6 +366,12 @@ using
 JS
 :
 :
+CompileOptions
+;
+using
+JS
+:
+:
 AutoCheckCannotGC
 ;
 JS_STATIC_ASSERT

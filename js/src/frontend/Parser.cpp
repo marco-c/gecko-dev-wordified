@@ -538,6 +538,12 @@ JS
 :
 AutoGCRooter
 ;
+using
+JS
+:
+:
+ReadOnlyCompileOptions
+;
 namespace
 js
 {

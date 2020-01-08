@@ -689,6 +689,12 @@ JS
 AutoStableStringChars
 ;
 using
+JS
+:
+:
+CompileOptions
+;
+using
 mozilla
 :
 :

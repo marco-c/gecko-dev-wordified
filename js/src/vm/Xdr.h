@@ -158,6 +158,15 @@ include
 "
 js
 /
+CompileOptions
+.
+h
+"
+#
+include
+"
+js
+/
 Transcoding
 .
 h
@@ -1437,6 +1446,9 @@ false
 }
 virtual
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -3022,6 +3034,9 @@ public
 XDRDecoder
 {
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 *
 options_
@@ -3121,6 +3136,9 @@ LifoAlloc
 &
 alloc
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 *
 options
@@ -3199,6 +3217,9 @@ true
 ;
 }
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
