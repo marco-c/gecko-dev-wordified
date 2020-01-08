@@ -3010,6 +3010,13 @@ if
 varobj
 -
 >
+as
+<
+GlobalObject
+>
+(
+)
+.
 realm
 (
 )

@@ -4782,7 +4782,7 @@ PostGlobalWriteBarrier
 JSRuntime
 *
 rt
-JSObject
+GlobalObject
 *
 obj
 )
@@ -4792,6 +4792,9 @@ MOZ_ASSERT
 obj
 -
 >
+JSObject
+:
+:
 is
 <
 GlobalObject
