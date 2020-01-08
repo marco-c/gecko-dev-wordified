@@ -542,11 +542,6 @@ onEndUpdateBatch
 )
 {
 }
-onVisits
-(
-)
-{
-}
 onTitleChanged
 (
 )
