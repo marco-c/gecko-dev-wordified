@@ -421,7 +421,7 @@ check
 param
 filters
 *
-NetworkMonitor
+NetworkObserver
 filters
 to
 match
@@ -796,7 +796,7 @@ is
 used
 within
 the
-NetworkMonitor
+NetworkObserver
 feature
 *
 to
@@ -883,7 +883,7 @@ this
 request
 .
 See
-NetworkMonitor
+NetworkObserver
 *
 for
 more
@@ -1188,7 +1188,7 @@ This
 NetworkResponseListener
 tracks
 the
-NetworkMonitor
+NetworkObserver
 .
 openResponses
 object
@@ -2806,7 +2806,7 @@ request
 .
 The
 *
-NetworkMonitor
+NetworkObserver
 .
 _httpResponseExaminer
 (
@@ -2818,7 +2818,7 @@ response
 headers
 in
 *
-NetworkMonitor
+NetworkObserver
 .
 openResponses
 .
@@ -3907,7 +3907,7 @@ information
 *
 /
 function
-NetworkMonitor
+NetworkObserver
 (
 filters
 owner
@@ -4007,11 +4007,11 @@ null
 }
 exports
 .
-NetworkMonitor
+NetworkObserver
 =
-NetworkMonitor
+NetworkObserver
 ;
-NetworkMonitor
+NetworkObserver
 .
 prototype
 =
