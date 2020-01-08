@@ -908,7 +908,7 @@ of
 options
 to
 the
-BrowserAddonActors
+AddonTargetActors
 for
 the
 given

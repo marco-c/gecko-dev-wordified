@@ -223,7 +223,7 @@ listAddons
 )
 ;
 const
-addonActor
+addonTargetActor
 =
 result
 .
@@ -248,7 +248,7 @@ addonId
 ;
 ok
 (
-addonActor
+addonTargetActor
 Found
 add
 -
@@ -261,7 +261,7 @@ addonId
 )
 ;
 return
-addonActor
+addonTargetActor
 ;
 }
 async
@@ -269,7 +269,7 @@ function
 reloadAddon
 (
 client
-addonActor
+addonTargetActor
 )
 {
 /
@@ -306,7 +306,7 @@ request
 {
 to
 :
-addonActor
+addonTargetActor
 .
 actor
 type
@@ -470,7 +470,7 @@ promiseWebExtensionStartup
 )
 ;
 const
-addonActor
+addonTargetActor
 =
 await
 findAddonInRootList
@@ -490,7 +490,7 @@ all
 reloadAddon
 (
 client
-addonActor
+addonTargetActor
 )
 promiseWebExtensionStartup
 (
@@ -578,7 +578,7 @@ equal
 newAddonActor
 .
 id
-addonActor
+addonTargetActor
 .
 id
 )
@@ -600,7 +600,7 @@ equal
 newAddonActor
 .
 actor
-addonActor
+addonTargetActor
 .
 actor
 )
@@ -741,7 +741,7 @@ equal
 upgradedAddonActor
 .
 id
-addonActor
+addonTargetActor
 .
 id
 )
@@ -764,7 +764,7 @@ equal
 upgradedAddonActor
 .
 actor
-addonActor
+addonTargetActor
 .
 actor
 )

@@ -651,7 +651,7 @@ listAddons
 )
 ;
 const
-addonActor
+addonTargetActor
 =
 addons
 .
@@ -676,7 +676,7 @@ pop
 if
 (
 !
-addonActor
+addonTargetActor
 )
 {
 client
@@ -711,7 +711,7 @@ forRemoteTab
 {
 form
 :
-addonActor
+addonTargetActor
 client
 chrome
 :
@@ -751,7 +751,7 @@ listAddons
 )
 ;
 const
-addonActor
+addonTargetActor
 =
 addons
 .
@@ -776,7 +776,7 @@ pop
 if
 (
 !
-addonActor
+addonTargetActor
 )
 {
 client
@@ -808,7 +808,7 @@ request
 {
 to
 :
-addonActor
+addonTargetActor
 .
 actor
 type

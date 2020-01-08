@@ -3513,7 +3513,7 @@ of
 options
 to
 the
-BrowserAddonActors
+AddonTargetActors
 for
 the
 given
@@ -11021,7 +11021,7 @@ of
 options
 to
 the
-BrowserAddonActors
+AddonTargetActors
 for
 the
 given
@@ -11107,7 +11107,7 @@ getList
 then
 (
 (
-addonActors
+addonTargetActors
 )
 =
 >
@@ -11117,7 +11117,7 @@ for
 const
 actor
 of
-addonActors
+addonTargetActors
 )
 {
 if

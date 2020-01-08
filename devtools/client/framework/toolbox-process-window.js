@@ -715,7 +715,7 @@ listAddons
 )
 ;
 const
-addonActor
+addonTargetActor
 =
 addons
 .
@@ -740,7 +740,7 @@ pop
 const
 isBrowsingContext
 =
-addonActor
+addonTargetActor
 .
 isWebExtension
 ;
@@ -750,7 +750,7 @@ openToolbox
 {
 form
 :
-addonActor
+addonTargetActor
 chrome
 :
 true

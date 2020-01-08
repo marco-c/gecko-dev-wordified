@@ -281,7 +281,7 @@ parentActor
 *
 The
 parent
-BrowserAddonActor
+AddonTargetActor
 actor
 .
 *

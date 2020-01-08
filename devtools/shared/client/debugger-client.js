@@ -2754,13 +2754,14 @@ Attach
 to
 an
 addon
+target
 actor
 .
 *
 *
 param
 string
-addonActor
+addonTargetActor
 *
 The
 actor
@@ -2800,7 +2801,7 @@ attachAddon
 :
 function
 (
-addonActor
+addonTargetActor
 onResponse
 =
 noop
@@ -2812,7 +2813,7 @@ packet
 {
 to
 :
-addonActor
+addonTargetActor
 type
 :
 "
@@ -2851,7 +2852,7 @@ new
 AddonClient
 (
 this
-addonActor
+addonTargetActor
 )
 ;
 this

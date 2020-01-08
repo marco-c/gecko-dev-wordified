@@ -1031,7 +1031,7 @@ PropTypes
 shape
 (
 {
-addonActor
+addonTargetActor
 :
 PropTypes
 .
@@ -1251,7 +1251,7 @@ to
 :
 target
 .
-addonActor
+addonTargetActor
 type
 :
 "

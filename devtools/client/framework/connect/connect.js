@@ -777,7 +777,7 @@ document
 getElementById
 (
 "
-addonActors
+addonTargetActors
 "
 )
 ;

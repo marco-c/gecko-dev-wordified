@@ -263,7 +263,7 @@ directly
 /
 return
 new
-BrowserAddonActor
+AddonTargetActor
 (
 this
 .
