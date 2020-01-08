@@ -468,11 +468,6 @@ promiseStartupManager
 (
 )
 ;
-await
-promiseWebExtensionStartup
-(
-)
-;
 equal
 (
 GlobalManager
@@ -812,11 +807,6 @@ profileDir
 ;
 await
 promiseStartupManager
-(
-)
-;
-await
-promiseWebExtensionStartup
 (
 )
 ;
