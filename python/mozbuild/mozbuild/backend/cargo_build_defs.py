@@ -209,6 +209,22 @@ o
 ]
     
 '
+num
+-
+traits
+'
+:
+[
+        
+'
+rust_out
+.
+o
+'
+    
+]
+    
+'
 selectors
 '
 :
