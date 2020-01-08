@@ -8069,14 +8069,9 @@ if
 info
 -
 >
-globalHasExclusiveExpandos
+compartmentHasExclusiveExpandos
 (
-cx_
--
->
-global
-(
-)
+obj
 )
 )
 return
