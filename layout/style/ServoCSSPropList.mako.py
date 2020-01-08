@@ -477,6 +477,10 @@ Clear
 "
     
 "
+ClipRectOrAuto
+"
+    
+"
 Color
 "
     
