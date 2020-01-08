@@ -476,6 +476,7 @@ box_
 OverflowClipBox
 OverscrollBehavior
 Perspective
+Resize
 }
 ;
 pub

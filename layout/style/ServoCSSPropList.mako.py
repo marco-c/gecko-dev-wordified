@@ -585,6 +585,10 @@ Opacity
 "
     
 "
+Resize
+"
+    
+"
 url
 :
 :

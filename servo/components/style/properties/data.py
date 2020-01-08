@@ -2575,6 +2575,10 @@ Percentage
 "
                 
 "
+Resize
+"
+                
+"
 SVGOpacity
 "
                 

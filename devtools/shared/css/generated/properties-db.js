@@ -32203,6 +32203,9 @@ values
 :
 [
 "
+block
+"
+"
 both
 "
 "
@@ -32213,6 +32216,9 @@ inherit
 "
 "
 initial
+"
+"
+inline
 "
 "
 none
