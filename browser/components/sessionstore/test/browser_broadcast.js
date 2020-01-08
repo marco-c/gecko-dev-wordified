@@ -989,13 +989,12 @@ window
 let
 tab
 =
-BrowserTestUtils
-.
-addTab
-(
 win
 .
 gBrowser
+.
+addTab
+(
 )
 ;
 let

@@ -62,13 +62,12 @@ url
 let
 tab
 =
-BrowserTestUtils
-.
-addTab
-(
 window
 .
 gBrowser
+.
+addTab
+(
 url
 )
 ;

@@ -191,13 +191,12 @@ openNewBrowserWindow
 let
 tab
 =
-BrowserTestUtils
-.
-addTab
-(
 newWin
 .
 gBrowser
+.
+addTab
+(
 READER_MODE_URL
 )
 ;

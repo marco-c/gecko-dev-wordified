@@ -986,11 +986,10 @@ browser
 .
 selectedTab
 =
-BrowserTestUtils
+browser
 .
 addTab
 (
-browser
 )
 ;
 info

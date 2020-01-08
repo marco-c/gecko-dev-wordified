@@ -4302,15 +4302,6 @@ blank
 skipAnimation
 :
 true
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 }
 )
 ;

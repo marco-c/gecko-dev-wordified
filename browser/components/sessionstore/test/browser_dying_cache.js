@@ -135,13 +135,12 @@ one
 let
 tab
 =
-BrowserTestUtils
-.
-addTab
-(
 win
 .
 gBrowser
+.
+addTab
+(
 "
 about
 :

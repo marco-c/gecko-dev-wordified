@@ -263,13 +263,6 @@ loadSearchFromContext
 "
 mozilla
 "
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 )
 ;
 BrowserSearch
@@ -279,13 +272,6 @@ loadSearchFromContext
 "
 firefox
 "
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 )
 ;
 /
