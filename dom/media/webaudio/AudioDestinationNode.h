@@ -385,10 +385,10 @@ const
 override
 ;
 void
-InputMuted
+NotifyAudibleStateChanged
 (
 bool
-aInputMuted
+aAudible
 )
 ;
 void
