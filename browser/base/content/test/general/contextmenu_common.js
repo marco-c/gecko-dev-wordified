@@ -626,11 +626,7 @@ id
 !
 =
 "
-screenshots_mozilla_org
--
-menuitem
--
-_create
+screenshots_mozilla_org_create
 -
 screenshot
 "
@@ -2888,11 +2884,7 @@ screenshotItems
 "
 null
 "
-screenshots_mozilla_org
--
-menuitem
--
-_create
+screenshots_mozilla_org_create
 -
 screenshot
 "
