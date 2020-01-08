@@ -3109,6 +3109,11 @@ c
 =
 aConstraints
 ;
+LogConstraints
+(
+c
+)
+;
 /
 /
 First
