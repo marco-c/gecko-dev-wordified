@@ -350,6 +350,9 @@ ipc_channel_error
 IsGarbageCollecting
 "
 "
+LowCommitSpaceEvents
+"
+"
 MozCrashReason
 "
 "
