@@ -109,8 +109,6 @@ size
 ;
 }
 .
-tabmodalprompt
--
 mainContainer
 {
 color
@@ -163,8 +161,6 @@ hsla
 ;
 }
 .
-tabmodalprompt
--
 topContainer
 {
 padding
@@ -173,8 +169,6 @@ padding
 ;
 }
 .
-tabmodalprompt
--
 buttonContainer
 {
 padding
@@ -216,11 +210,6 @@ hsla
 )
 ;
 }
-.
-tabmodalprompt
--
-buttonContainer
->
 button
 {
 -
@@ -368,11 +357,6 @@ hsla
 )
 ;
 }
-.
-tabmodalprompt
--
-buttonContainer
->
 button
 [
 default
@@ -394,11 +378,6 @@ hsl
 )
 ;
 }
-.
-tabmodalprompt
--
-buttonContainer
->
 button
 :
 hover
@@ -417,11 +396,6 @@ hsl
 )
 ;
 }
-.
-tabmodalprompt
--
-buttonContainer
->
 button
 :
 hover
@@ -495,11 +469,6 @@ hsla
 )
 ;
 }
-.
-tabmodalprompt
--
-buttonContainer
->
 button
 :
 focus
