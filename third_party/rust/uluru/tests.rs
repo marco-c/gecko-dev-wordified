@@ -53,6 +53,7 @@ A
 cache
 :
 &
+mut
 LRUCache
 <
 A
@@ -82,7 +83,7 @@ T
 {
 cache
 .
-iter
+iter_mut
 (
 )
 .
@@ -115,6 +116,7 @@ empty
 )
 {
 let
+mut
 cache
 =
 TestCache
@@ -141,6 +143,7 @@ assert_eq
 items
 (
 &
+mut
 cache
 )
 [
@@ -246,6 +249,7 @@ assert_eq
 items
 (
 &
+mut
 cache
 )
 [
@@ -291,6 +295,7 @@ assert_eq
 items
 (
 &
+mut
 cache
 )
 [
@@ -345,6 +350,7 @@ assert_eq
 items
 (
 &
+mut
 cache
 )
 [
@@ -461,6 +467,7 @@ assert_eq
 items
 (
 &
+mut
 cache
 )
 [
@@ -533,6 +540,7 @@ assert_eq
 items
 (
 &
+mut
 cache
 )
 [
@@ -591,6 +599,7 @@ assert_eq
 items
 (
 &
+mut
 cache
 )
 [
@@ -636,6 +645,7 @@ assert_eq
 items
 (
 &
+mut
 cache
 )
 [
@@ -658,6 +668,7 @@ assert_eq
 items
 (
 &
+mut
 cache
 )
 [
