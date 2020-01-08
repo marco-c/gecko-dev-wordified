@@ -106,7 +106,7 @@ Services
 ;
 var
 {
-Pool
+ActorPool
 }
 =
 require
@@ -114,9 +114,11 @@ require
 "
 devtools
 /
-shared
+server
 /
-protocol
+actors
+/
+common
 "
 )
 ;
@@ -6534,7 +6536,7 @@ this
 _actorPool
 =
 new
-Pool
+ActorPool
 (
 this
 )
@@ -7317,7 +7319,7 @@ this
 .
 _actorPool
 .
-manage
+addActor
 (
 actor
 )
@@ -7350,7 +7352,7 @@ this
 .
 _actorPool
 .
-unmanage
+removeActor
 (
 actor
 )
