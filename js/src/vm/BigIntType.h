@@ -116,6 +116,13 @@ define
 vm_BigIntType_h
 #
 include
+<
+gmp
+.
+h
+>
+#
+include
 "
 gc
 /
@@ -227,6 +234,11 @@ ArenaList
 h
 )
 .
+union
+{
+mpz_t
+num_
+;
 uint8_t
 unused_
 [
@@ -238,6 +250,8 @@ gc
 :
 MinCellSize
 ]
+;
+}
 ;
 public
 :
@@ -328,6 +342,12 @@ x
 ;
 bool
 toBoolean
+(
+)
+;
+static
+void
+init
 (
 )
 ;
