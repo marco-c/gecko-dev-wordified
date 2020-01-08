@@ -157,6 +157,10 @@ static
 bool
 sNewTabPageEnabled
 ;
+static
+bool
+sNewCertErrorPageEnabled
+;
 }
 ;
 }
