@@ -3290,6 +3290,9 @@ nullptr
 nsString
 mBaseName
 ;
+nsCString
+mContentStartupFinishedTopic
+;
 nsCOMPtr
 <
 nsIFile
