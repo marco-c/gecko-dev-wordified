@@ -1416,6 +1416,14 @@ aIsTrackingResource
 )
 override
 ;
+NS_IMETHOD
+OverrideTrackingResource
+(
+bool
+aIsTracking
+)
+override
+;
 /
 /
 nsIHttpChannelInternal
