@@ -971,6 +971,7 @@ def
 from_manifest
 (
 cls
+manifest_file
 manifest_item
 inherit_metadata
 test_metadata
@@ -1840,6 +1841,7 @@ def
 from_manifest
 (
 cls
+manifest_file
 manifest_item
 inherit_metadata
 test_metadata
@@ -2149,6 +2151,8 @@ from_manifest
 (
 cls
                       
+manifest_file
+                      
 manifest_test
                       
 inherit_metadata
@@ -2409,9 +2413,7 @@ comparison_key
             
 manifest_node
 =
-manifest_test
-.
-manifest
+manifest_file
 .
 get_reference
 (
@@ -2428,6 +2430,8 @@ ReftestTest
 .
 from_manifest
 (
+manifest_file
+                                                      
 manifest_node
                                                       
 [
@@ -2678,6 +2682,7 @@ WdspecTest
 def
 from_manifest
 (
+manifest_file
 manifest_test
 inherit_metadata
 test_metadata
@@ -2698,6 +2703,7 @@ test_cls
 .
 from_manifest
 (
+manifest_file
 manifest_test
 inherit_metadata
 test_metadata
