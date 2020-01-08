@@ -3732,7 +3732,7 @@ mEditorBase
 (
 aEditorBase
 )
-mOldState
+mAllowedTransactionsToChangeSelection
 (
 true
 )
@@ -3744,12 +3744,12 @@ if
 mEditorBase
 )
 {
-mOldState
+mAllowedTransactionsToChangeSelection
 =
 mEditorBase
 -
 >
-GetShouldTxnSetSelection
+AllowsTransactionsToChangeSelection
 (
 )
 ;
@@ -3778,7 +3778,7 @@ mEditorBase
 >
 SetShouldTxnSetSelection
 (
-mOldState
+mAllowedTransactionsToChangeSelection
 )
 ;
 }
@@ -3790,7 +3790,7 @@ EditorBase
 mEditorBase
 ;
 bool
-mOldState
+mAllowedTransactionsToChangeSelection
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
