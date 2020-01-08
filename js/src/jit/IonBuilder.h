@@ -2696,17 +2696,6 @@ AbortReasonOr
 <
 Ok
 >
-newArrayTrySharedStub
-(
-bool
-*
-emitted
-)
-;
-AbortReasonOr
-<
-Ok
->
 newArrayTryTemplateObject
 (
 bool
