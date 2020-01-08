@@ -269,10 +269,16 @@ ePreservable
 ;
 mPreservedStream
 =
+std
+:
+:
+move
+(
 proxyStream
 .
 GetPreservedStream
 (
+)
 )
 ;
 MOZ_ASSERT
