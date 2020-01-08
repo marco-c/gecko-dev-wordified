@@ -1180,6 +1180,17 @@ aIncumbentGlobal
 )
 )
 {
+MOZ_ASSERT
+(
+js
+:
+:
+IsFunctionObject
+(
+aCallback
+)
+)
+;
 }
 virtual
 ~
