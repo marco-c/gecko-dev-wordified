@@ -3423,6 +3423,17 @@ name
 =
 =
 name
+&
+&
+prop
+.
+enabled
+&
+&
+!
+prop
+.
+overridden
 )
 ;
 if
