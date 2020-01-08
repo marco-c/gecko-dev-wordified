@@ -5270,6 +5270,15 @@ ImgDrawResult
 :
 :
 BAD_ARGS
+|
+|
+res
+=
+=
+ImgDrawResult
+:
+:
+NOT_SUPPORTED
 )
 {
 return
