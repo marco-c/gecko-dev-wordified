@@ -1003,7 +1003,7 @@ _callbacks
 /
 /
 The
-earlist
+earliest
 that
 a
 policy
