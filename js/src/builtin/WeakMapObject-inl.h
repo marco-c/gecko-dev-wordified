@@ -132,17 +132,6 @@ ProxyObject
 .
 h
 "
-#
-include
-"
-gc
-/
-WeakMap
--
-inl
-.
-h
-"
 namespace
 js
 {
