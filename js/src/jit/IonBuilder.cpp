@@ -62126,7 +62126,7 @@ TypedArrayObject
 (
 )
 .
-viewDataEither
+dataPointerEither
 (
 )
 ;

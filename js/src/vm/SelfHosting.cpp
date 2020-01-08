@@ -8418,7 +8418,7 @@ data
 tarray
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -9290,7 +9290,7 @@ targetData
 target
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -9316,7 +9316,7 @@ unsafeSrcDataCrossCompartment
 unsafeTypedArrayCrossCompartment
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -9552,7 +9552,7 @@ targetDataLimit
 target
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -10215,7 +10215,7 @@ dest
 target
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -10602,7 +10602,7 @@ unsafeSrcDataCrossCompartment
 unsafeSrcCrossCompartment
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 ;
@@ -11149,7 +11149,7 @@ get
 unsafeSrcCrossCompartment
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -11831,7 +11831,7 @@ sourceData
 source
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -11857,7 +11857,7 @@ unsafeTargetDataCrossCompartment
 unsafeTypedArrayCrossCompartment
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .

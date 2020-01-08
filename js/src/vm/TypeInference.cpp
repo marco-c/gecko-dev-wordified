@@ -12802,7 +12802,7 @@ viewData
 (
 tarray
 .
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -12910,7 +12910,7 @@ TypedArrayObject
 return
 tarr
 .
-viewDataEither
+dataPointerEither
 (
 )
 .

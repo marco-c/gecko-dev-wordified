@@ -861,7 +861,7 @@ dataPointer
 tarray
 -
 >
-viewDataUnshared
+dataPointerUnshared
 (
 )
 tarray
@@ -3237,7 +3237,7 @@ buffer
 obj
 -
 >
-initViewData
+initDataPointer
 (
 buffer
 -
@@ -3645,7 +3645,7 @@ safe
 obj
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -6764,7 +6764,7 @@ loadSafeWhenRacy
 tarray
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -6814,7 +6814,7 @@ storeSafeWhenRacy
 (
 tarray
 .
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -12973,7 +12973,7 @@ ExternalType
 tarr
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -13994,7 +13994,7 @@ dataPointer
 =
 view
 .
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -15289,7 +15289,7 @@ int8_t
 tarr
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -15400,7 +15400,7 @@ uint8_t
 tarr
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -15511,7 +15511,7 @@ uint8_t
 tarr
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -15622,7 +15622,7 @@ int16_t
 tarr
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -15733,7 +15733,7 @@ uint16_t
 tarr
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -15844,7 +15844,7 @@ int32_t
 tarr
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -15955,7 +15955,7 @@ uint32_t
 tarr
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -16066,7 +16066,7 @@ float
 tarr
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -16177,7 +16177,7 @@ double
 tarr
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .

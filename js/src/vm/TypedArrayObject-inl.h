@@ -1182,7 +1182,7 @@ return
 obj
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 ;
@@ -1577,7 +1577,7 @@ unshared
 obj
 -
 >
-viewDataUnshared
+dataPointerUnshared
 (
 )
 )
@@ -1815,7 +1815,7 @@ dest
 target
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -1867,7 +1867,7 @@ dest
 source
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -2754,7 +2754,7 @@ dest
 target
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -2989,7 +2989,7 @@ dest
 target
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -3180,7 +3180,7 @@ dest
 target
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -3434,7 +3434,7 @@ newDest
 target
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -3646,7 +3646,7 @@ dest
 target
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -3699,7 +3699,7 @@ src
 source
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .
@@ -3804,7 +3804,7 @@ data
 source
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 sourceByteLen

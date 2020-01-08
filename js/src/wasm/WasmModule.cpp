@@ -3075,7 +3075,7 @@ TypedArrayObject
 (
 )
 .
-viewDataUnshared
+dataPointerUnshared
 (
 )
 moduleSegment

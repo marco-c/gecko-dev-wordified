@@ -51503,7 +51503,7 @@ TypedArrayObject
 (
 )
 .
-viewDataUnshared
+dataPointerUnshared
 (
 )
 bytecode
