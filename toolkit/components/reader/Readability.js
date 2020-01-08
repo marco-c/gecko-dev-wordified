@@ -930,6 +930,10 @@ REGEXPS
 unlikelyCandidates
 :
 /
+-
+ad
+-
+|
 banner
 |
 breadcrumbs
