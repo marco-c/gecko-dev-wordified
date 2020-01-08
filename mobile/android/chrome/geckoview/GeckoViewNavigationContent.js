@@ -224,12 +224,7 @@ enabled
 )
 {
 return
-Promise
-.
-resolve
-(
 false
-)
 ;
 }
 /
