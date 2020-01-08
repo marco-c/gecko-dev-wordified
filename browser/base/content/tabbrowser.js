@@ -15849,6 +15849,7 @@ warnAboutClosingTabs
 (
 aCloseTabs
 aTab
+aOptionalMessage
 )
 {
 var
@@ -16130,6 +16131,20 @@ focus
 ;
 var
 warningMessage
+;
+if
+(
+aOptionalMessage
+)
+{
+warningMessage
+=
+aOptionalMessage
+;
+}
+else
+{
+warningMessage
 =
 PluralForm
 .
@@ -16157,6 +16172,7 @@ replace
 tabsToClose
 )
 ;
+}
 var
 buttonPressed
 =
