@@ -553,6 +553,13 @@ maybeGlobal
 (
 )
 ;
+const
+uint32_t
+*
+addressOfGlobalWriteBarriered
+(
+)
+;
 bool
 hasAllocationMetadataBuilder
 (
