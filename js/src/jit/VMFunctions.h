@@ -7015,6 +7015,11 @@ const
 VMFunction
 AddOrUpdateSparseElementHelperInfo
 ;
+extern
+const
+VMFunction
+GetSparseElementHelperInfo
+;
 /
 /
 TailCall
