@@ -3133,7 +3133,7 @@ gecko_profile_interval
     
 gecko_profile_entries
 =
-1000000
+2000000
     
 win_counters
 =
