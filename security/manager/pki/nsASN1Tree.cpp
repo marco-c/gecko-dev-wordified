@@ -1510,7 +1510,7 @@ NS_IMETHODIMP
 nsNSSASN1Tree
 :
 :
-SelectionChanged
+SelectionChangedXPCOM
 (
 )
 {

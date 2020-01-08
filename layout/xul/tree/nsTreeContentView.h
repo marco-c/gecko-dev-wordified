@@ -623,14 +623,12 @@ ErrorResult
 aError
 )
 ;
-/
-/
-XPCOM
+void
 SelectionChanged
 (
 )
-is
-OK
+{
+}
 void
 CycleCell
 (
