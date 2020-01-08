@@ -782,9 +782,9 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+C
+mo
+funciona
 "
 "
 pocket_cta_button
@@ -1185,6 +1185,14 @@ firstrun_skip_login
 Saltear
 este
 paso
+"
+"
+context_menu_title
+"
+:
+"
+Open
+menu
 "
 "
 pocket_learn_more

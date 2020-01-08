@@ -72,6 +72,13 @@ privacy_html
 "
 scene2_privacy_html
 "
+"
+disclaimer_html
+"
+:
+"
+scene2_disclaimer_html
+"
 }
 ;
 export

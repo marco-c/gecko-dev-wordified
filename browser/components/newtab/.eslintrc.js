@@ -1926,6 +1926,11 @@ multiline
 "
 :
 true
+"
+consistent
+"
+:
+true
 }
 ]
 "

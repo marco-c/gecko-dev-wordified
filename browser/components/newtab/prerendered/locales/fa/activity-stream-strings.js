@@ -503,9 +503,6 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
 "
 "
 pocket_cta_button
@@ -712,6 +709,14 @@ firstrun_skip_login
 "
 :
 "
+"
+"
+context_menu_title
+"
+:
+"
+Open
+menu
 "
 "
 pocket_learn_more

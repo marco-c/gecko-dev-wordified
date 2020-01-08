@@ -1112,6 +1112,14 @@ this
 step
 "
 "
+context_menu_title
+"
+:
+"
+Open
+menu
+"
+"
 prefs_restore_defaults_button
 "
 :

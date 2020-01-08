@@ -790,7 +790,7 @@ pocket_cta_button
 "
 :
 "
-Obter
+Adicionar
 o
 Pocket
 "
@@ -1196,6 +1196,14 @@ firstrun_skip_login
 Pular
 essa
 etapa
+"
+"
+context_menu_title
+"
+:
+"
+Open
+menu
 "
 "
 pocket_learn_more

@@ -731,5 +731,13 @@ firstrun_skip_login
 :
 "
 "
+"
+context_menu_title
+"
+:
+"
+Open
+menu
+"
 }
 ;

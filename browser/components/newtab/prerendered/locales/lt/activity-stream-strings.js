@@ -750,9 +750,9 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Kaip
+tai
+veikia
 "
 "
 pocket_cta_button
@@ -1144,6 +1144,14 @@ firstrun_skip_login
 "
 Praleisti
 ingsn
+"
+"
+context_menu_title
+"
+:
+"
+Open
+menu
 "
 "
 pocket_learn_more

@@ -770,9 +770,8 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Kako
+deluje
 "
 "
 pocket_cta_button
@@ -1166,6 +1165,14 @@ Presko
 i
 ta
 korak
+"
+"
+context_menu_title
+"
+:
+"
+Open
+menu
 "
 "
 pocket_learn_more

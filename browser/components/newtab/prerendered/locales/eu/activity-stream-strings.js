@@ -726,9 +726,8 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Nola
+dabilen
 "
 "
 pocket_cta_button
@@ -1094,6 +1093,14 @@ firstrun_skip_login
 Saltatu
 urrats
 hau
+"
+"
+context_menu_title
+"
+:
+"
+Open
+menu
 "
 "
 pocket_learn_more

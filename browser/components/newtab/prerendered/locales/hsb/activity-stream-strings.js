@@ -1279,6 +1279,14 @@ esko
 i
 "
 "
+context_menu_title
+"
+:
+"
+Open
+menu
+"
+"
 pocket_learn_more
 "
 :

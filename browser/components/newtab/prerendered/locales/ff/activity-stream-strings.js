@@ -1155,5 +1155,13 @@ Diw
 ngal
 daawal
 "
+"
+context_menu_title
+"
+:
+"
+Open
+menu
+"
 }
 ;

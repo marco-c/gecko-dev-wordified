@@ -57,6 +57,7 @@ const
 {
 CENTRAL_LOCALES
 DEFAULT_LOCALE
+LOCALES_SOURCE_DIRECTORY
 }
 =
 require
@@ -646,7 +647,6 @@ console
 .
 log
 (
-"
 Switching
 to
 and
@@ -656,15 +656,14 @@ l10n
 tree
 under
 :
-locales
-"
+{
+LOCALES_SOURCE_DIRECTORY
+}
 )
 ;
 cd
 (
-"
-locales
-"
+LOCALES_SOURCE_DIRECTORY
 )
 ;
 ls
