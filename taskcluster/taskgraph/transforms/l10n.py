@@ -475,7 +475,7 @@ the
 mozharness
 script
         
-Required
+Optional
 (
 '
 options
