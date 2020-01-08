@@ -3411,6 +3411,7 @@ deallocated
 by
 SetPendingExceptionWithMessage
 .
+MOZ_INIT_OUTSIDE_CTOR
 Message
 *
 mMessage
@@ -3444,6 +3445,7 @@ unrooted
 by
 SetPendingJSException
 .
+MOZ_INIT_OUTSIDE_CTOR
 JS
 :
 :
@@ -3475,6 +3477,7 @@ deallocated
 by
 SetPendingDOMException
 .
+MOZ_INIT_OUTSIDE_CTOR
 DOMExceptionInfo
 *
 mDOMExceptionInfo
@@ -3514,11 +3517,6 @@ existence
 MOZ_PUSH_DISABLE_NONTRIVIAL_UNION_WARNINGS
 Extra
 (
-)
-:
-mMessage
-(
-nullptr
 )
 {
 }
