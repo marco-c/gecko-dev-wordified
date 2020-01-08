@@ -195,6 +195,14 @@ level
 )
 const
 ;
+void
+TrackRustParsingFailed
+(
+size_t
+sipccErrorCount
+)
+const
+;
 private
 :
 std
