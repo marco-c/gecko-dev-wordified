@@ -452,6 +452,14 @@ mPushCompleted
 true
 ;
 }
+virtual
+void
+TopLevelOuterContentWindowIdChanged
+(
+uint64_t
+)
+override
+;
 nsCString
 &
 GetRequestString
@@ -616,6 +624,9 @@ mOnPushFailed
 ;
 nsCString
 mRequestString
+;
+uint32_t
+mDefaultPriorityDependency
 ;
 }
 ;
