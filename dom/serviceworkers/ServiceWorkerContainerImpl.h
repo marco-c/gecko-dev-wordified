@@ -212,10 +212,7 @@ aFailureCB
 const
 override
 ;
-RefPtr
-<
-ServiceWorkerRegistrationPromise
->
+void
 GetRegistration
 (
 const
@@ -226,6 +223,14 @@ const
 nsACString
 &
 aURL
+ServiceWorkerRegistrationCallback
+&
+&
+aSuccessCB
+ServiceWorkerFailureCallback
+&
+&
+aFailureCB
 )
 const
 override
