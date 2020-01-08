@@ -1026,7 +1026,7 @@ Init
 (
 )
 {
-HangMonitor
+BackgroundHangMonitor
 :
 :
 RegisterAnnotator
@@ -1058,7 +1058,7 @@ if
 mInitialized
 )
 {
-HangMonitor
+BackgroundHangMonitor
 :
 :
 UnregisterAnnotator
@@ -1255,10 +1255,7 @@ CPUUsageWatcher
 :
 AnnotateHang
 (
-HangMonitor
-:
-:
-HangAnnotations
+BackgroundHangAnnotations
 &
 aAnnotations
 )
@@ -1351,10 +1348,7 @@ CPUUsageWatcher
 :
 AnnotateHang
 (
-HangMonitor
-:
-:
-HangAnnotations
+BackgroundHangAnnotations
 &
 aAnnotations
 )

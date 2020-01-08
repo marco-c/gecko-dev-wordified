@@ -698,19 +698,6 @@ scan
 :
 False
         
-#
-No
-hang
-monitor
-        
-"
-hangmonitor
-.
-timeout
-"
-:
-0
-        
 "
 javascript
 .
