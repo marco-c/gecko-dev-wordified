@@ -772,10 +772,6 @@ sourceBuffer
 Nothing
 (
 )
-DecoderFlags
-:
-:
-FIRST_FRAME_ONLY
 DefaultSurfaceFlags
 (
 )
