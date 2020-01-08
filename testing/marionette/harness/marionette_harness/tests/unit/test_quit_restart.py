@@ -65,10 +65,6 @@ unittest
 import
 urllib
 from
-unittest
-import
-skip
-from
 marionette_driver
 import
 errors
@@ -1739,22 +1735,6 @@ marionette
 shutdown_timeout
 =
 timeout_shutdown
-    
-skip
-(
-"
-Bug
-1397612
--
-Hang
-of
-Marionette
-client
-after
-the
-restart
-"
-)
     
 def
 test_in_app_restart_safe_mode
