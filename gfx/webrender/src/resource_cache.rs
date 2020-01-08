@@ -8791,6 +8791,11 @@ missing_blob_images
 )
 ;
 let
+is_low_priority
+=
+false
+;
+let
 rasterized_blobs
 =
 self
@@ -8811,6 +8816,7 @@ rasterize
 self
 .
 missing_blob_images
+is_low_priority
 )
 ;
 self
@@ -11917,6 +11923,7 @@ rasterizer
 rasterize
 (
 blob_request_params
+false
 )
 .
 pop

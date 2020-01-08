@@ -1255,6 +1255,7 @@ renderer
 RendererStats
 SceneBuilderHooks
 ThreadListener
+ShaderPrecacheFlags
 }
 ;
 pub

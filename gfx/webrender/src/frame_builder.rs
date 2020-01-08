@@ -1889,6 +1889,7 @@ render_tasks
 .
 write_task_data
 (
+device_pixel_scale
 )
 ;
 resource_cache

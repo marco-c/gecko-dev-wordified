@@ -8231,7 +8231,11 @@ ref_spatial_node
 .
 coordinate_system_relative_scale_offset
 .
-difference
+inverse
+(
+)
+.
+accumulate
 (
 &
 clip_spatial_node
