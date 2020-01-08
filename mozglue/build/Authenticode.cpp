@@ -767,6 +767,12 @@ dwStateAction
 =
 WTD_STATEACTION_VERIFY
 ;
+trustData
+.
+dwProvFlags
+=
+WTD_CACHE_ONLY_URL_RETRIEVAL
+;
 const
 HWND
 hwnd
