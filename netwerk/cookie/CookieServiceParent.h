@@ -320,7 +320,7 @@ URIParams
 &
 aHost
 const
-URIParams
+OptionalURIParams
 &
 aChannelURI
 const
