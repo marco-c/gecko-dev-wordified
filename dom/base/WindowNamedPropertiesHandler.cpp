@@ -1465,7 +1465,7 @@ childWindows
 outer
 -
 >
-GetWindowList
+GetFrames
 (
 )
 ;
