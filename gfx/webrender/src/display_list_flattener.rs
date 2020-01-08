@@ -10206,6 +10206,9 @@ render_mode
 flags
 font_instance
 .
+synthetic_italics
+font_instance
+.
 platform_options
 font_instance
 .

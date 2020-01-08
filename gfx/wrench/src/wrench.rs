@@ -2822,6 +2822,9 @@ Option
 <
 ColorU
 >
+synthetic_italics
+:
+SyntheticItalics
 )
 -
 >
@@ -2901,6 +2904,12 @@ bg_color
 bg_color
 ;
 }
+options
+.
+synthetic_italics
+=
+synthetic_italics
+;
 txn
 .
 add_font_instance
