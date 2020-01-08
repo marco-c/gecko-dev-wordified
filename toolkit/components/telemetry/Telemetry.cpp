@@ -1677,7 +1677,7 @@ data
 TelemetryHistogram
 :
 :
-GetHistogramSizesofIncludingThis
+GetHistogramSizesOfIncludingThis
 (
 aMallocSizeOf
 )
@@ -1928,7 +1928,7 @@ n
 TelemetryHistogram
 :
 :
-GetHistogramSizesofIncludingThis
+GetHistogramSizesOfIncludingThis
 (
 aMallocSizeOf
 )
