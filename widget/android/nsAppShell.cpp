@@ -4627,7 +4627,7 @@ ProcessNextNativeEvent
 :
 Wait
 "
-OTHER
+IDLE
 )
 ;
 mozilla
