@@ -1760,7 +1760,7 @@ nsresult
 >
 rv
 =
-HideResizers
+HideResizersInternal
 (
 )
 ;
@@ -1771,7 +1771,7 @@ NS_SUCCEEDED
 rv
 )
 "
-HideResizers
+HideResizersInternal
 (
 )
 failed
@@ -1783,7 +1783,9 @@ NS_ASSERTION
 !
 mResizedObject
 "
-HideResizers
+HideResizersInternal
+(
+)
 failed
 "
 )
@@ -1971,7 +1973,7 @@ nsresult
 >
 rv
 =
-HideResizers
+HideResizersInternal
 (
 )
 ;
@@ -1982,7 +1984,7 @@ NS_SUCCEEDED
 rv
 )
 "
-HideResizers
+HideResizersInternal
 (
 )
 failed
@@ -1994,7 +1996,9 @@ NS_ASSERTION
 !
 mResizedObject
 "
-HideResizers
+HideResizersInternal
+(
+)
 failed
 "
 )
@@ -2644,7 +2648,7 @@ focusElement
 Perhaps
 even
 if
-HideResizers
+HideResizersInternal
 (
 )
 failed
@@ -2653,9 +2657,9 @@ should
 try
 to
 hide
+/
+/
 inline
-/
-/
 table
 editing
 UI
@@ -2668,9 +2672,9 @@ only
 when
 we
 cannot
+/
+/
 do
-/
-/
 anything
 .
 So
@@ -2684,7 +2688,7 @@ now
 nsresult
 rv
 =
-HideResizers
+HideResizersInternal
 (
 )
 ;
@@ -2708,7 +2712,9 @@ NS_ASSERTION
 !
 mResizedObject
 "
-HideResizers
+HideResizersInternal
+(
+)
 failed
 "
 )
