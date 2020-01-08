@@ -1094,6 +1094,10 @@ focused
 if
 (
 !
+position
+|
+|
+!
 Utils
 .
 getState
