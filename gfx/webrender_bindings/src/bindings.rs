@@ -11008,6 +11008,9 @@ WrImageKey
 premultiplied_alpha
 :
 bool
+color
+:
+ColorF
 )
 {
 debug_assert
@@ -11091,10 +11094,7 @@ tile_spacing
 image_rendering
 alpha_type
 key
-ColorF
-:
-:
-WHITE
+color
 )
 ;
 }

@@ -33736,6 +33736,7 @@ new
 TextDrawTarget
 (
 aBuilder
+aResources
 aSc
 aManager
 this

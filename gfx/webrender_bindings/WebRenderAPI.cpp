@@ -5404,6 +5404,13 @@ ImageKey
 aImage
 bool
 aPremultipliedAlpha
+const
+wr
+:
+:
+ColorF
+&
+aColor
 )
 {
 wr
@@ -5442,6 +5449,7 @@ size
 aFilter
 aImage
 aPremultipliedAlpha
+aColor
 )
 ;
 }
@@ -5493,6 +5501,13 @@ ImageKey
 aImage
 bool
 aPremultipliedAlpha
+const
+wr
+:
+:
+ColorF
+&
+aColor
 )
 {
 WRDL_LOG
@@ -5564,6 +5579,7 @@ aTileSpacing
 aFilter
 aImage
 aPremultipliedAlpha
+aColor
 )
 ;
 }

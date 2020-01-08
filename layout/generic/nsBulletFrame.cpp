@@ -3109,6 +3109,7 @@ new
 TextDrawTarget
 (
 aBuilder
+aResources
 aSc
 aManager
 aItem
