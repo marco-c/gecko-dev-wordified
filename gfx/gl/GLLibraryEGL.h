@@ -1895,6 +1895,11 @@ out_failureId
 )
 ;
 void
+Shutdown
+(
+)
+;
+void
 DumpEGLConfig
 (
 EGLConfig
