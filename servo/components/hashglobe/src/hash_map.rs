@@ -11389,13 +11389,11 @@ b
 )
 =
 >
-{
 b
 .
 into_bucket
 (
 )
-}
 }
 ;
 bucket
@@ -13045,7 +13043,6 @@ elem
 }
 =
 >
-{
 Some
 (
 Occupied
@@ -13062,7 +13059,6 @@ elem
 }
 )
 )
-}
 InternalEntry
 :
 :
@@ -13073,7 +13069,6 @@ elem
 }
 =
 >
-{
 Some
 (
 Vacant
@@ -13086,7 +13081,6 @@ elem
 }
 )
 )
-}
 InternalEntry
 :
 :
@@ -13279,7 +13273,6 @@ v
 )
 =
 >
-{
 f
 .
 debug_tuple
@@ -13297,7 +13290,6 @@ v
 finish
 (
 )
-}
 Occupied
 (
 ref
@@ -13305,7 +13297,6 @@ o
 )
 =
 >
-{
 f
 .
 debug_tuple
@@ -13323,7 +13314,6 @@ o
 finish
 (
 )
-}
 }
 }
 }

@@ -401,7 +401,6 @@ info
 )
 =
 >
-{
 write
 !
 (
@@ -432,7 +431,6 @@ info
 .
 alignment
 )
-}
 None
 =
 >
