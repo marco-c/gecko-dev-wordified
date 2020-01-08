@@ -4286,6 +4286,9 @@ activate_pipenv
 (
 self
 pipfile
+args
+=
+None
 )
 :
         
@@ -4372,6 +4375,13 @@ _virtualenvs
 }
 )
         
+args
+=
+args
+or
+[
+]
+        
 subprocess
 .
 check_call
@@ -4382,12 +4392,9 @@ pipenv
 '
 install
 '
-'
--
--
-deploy
-'
 ]
++
+args
             
 stderr
 =
