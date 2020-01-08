@@ -206,7 +206,7 @@ h
 #
 include
 "
-nsISHTransaction
+nsSHTransaction
 .
 h
 "
@@ -3652,16 +3652,10 @@ nsISHTransaction
 >
 txn
 (
-do_CreateInstance
+new
+nsSHTransaction
 (
-NS_SHTRANSACTION_CONTRACTID
 )
-)
-;
-NS_ENSURE_TRUE
-(
-txn
-NS_ERROR_FAILURE
 )
 ;
 nsCOMPtr
