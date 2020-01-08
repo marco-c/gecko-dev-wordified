@@ -576,6 +576,12 @@ case
 ValType
 :
 :
+Ref
+:
+case
+ValType
+:
+:
 AnyRef
 :
 u
@@ -589,14 +595,6 @@ ptr
 )
 ;
 return
-;
-case
-ValType
-:
-:
-Ref
-:
-break
 ;
 }
 MOZ_CRASH
