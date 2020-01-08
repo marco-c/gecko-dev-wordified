@@ -1702,7 +1702,7 @@ check
 PaymentValidationErrors
 .
 payer
-PayerErrorFields
+PayerErrors
 payerErrors
 (
 aErrors

@@ -476,7 +476,7 @@ Combination
 of
 AddressErrors
 and
-PayerErrorFields
+PayerErrors
 as
 keys
 this
