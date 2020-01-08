@@ -1042,7 +1042,7 @@ flex
 container
 to
 the
-second
+first
 index
 of
 the
@@ -1056,7 +1056,7 @@ items
 .
 splice
 (
-1
+0
 0
 {
 component
