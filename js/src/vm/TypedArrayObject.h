@@ -2370,10 +2370,13 @@ i
 *
 indexp
 =
+static_cast
+<
+uint64_t
+>
 (
-double
-)
 i
+)
 ;
 return
 true
