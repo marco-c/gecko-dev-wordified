@@ -16628,7 +16628,7 @@ PropertyResult
 propp
 )
 {
-AutoAssertNoException
+AutoAssertNoPendingException
 nogc
 (
 cx
