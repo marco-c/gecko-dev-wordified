@@ -1973,14 +1973,10 @@ if
 the
 given
 URL
-and
-density
-equal
+equals
 the
 last
 URL
-and
-density
 that
 was
 loaded
@@ -1994,8 +1990,6 @@ SelectedSourceMatchesLast
 nsIURI
 *
 aSelectedSource
-double
-aSelectedDensity
 )
 ;
 /

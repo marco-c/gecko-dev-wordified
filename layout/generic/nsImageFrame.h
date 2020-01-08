@@ -600,6 +600,11 @@ Nothing
 )
 override
 ;
+void
+ResponsiveContentDensityChanged
+(
+)
+;
 #
 ifdef
 ACCESSIBILITY
