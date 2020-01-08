@@ -550,8 +550,6 @@ click
 closeTab
 (
 sourceTab
-.
-url
 )
 }
 }
@@ -998,8 +996,6 @@ stopPropagation
 closeTab
 (
 source
-.
-url
 )
 ;
 }
@@ -1110,8 +1106,6 @@ button
 closeTab
 (
 source
-.
-url
 )
 onContextMenu
 :
