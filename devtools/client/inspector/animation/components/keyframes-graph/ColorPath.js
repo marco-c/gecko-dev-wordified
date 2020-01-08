@@ -207,7 +207,10 @@ maxObject
 {
 distance
 :
-0
+-
+Number
+.
+MAX_VALUE
 }
 ;
 for
