@@ -17,15 +17,6 @@ ion
 -
 eager
 ;
--
--
-ion
--
-shared
--
-stubs
-=
-off
 setJitCompilerOption
 (
 '
