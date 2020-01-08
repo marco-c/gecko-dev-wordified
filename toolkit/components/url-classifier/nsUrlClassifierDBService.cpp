@@ -1911,7 +1911,6 @@ ReadNoiseEntries
 aPrefix
 tableName
 aCount
-&
 noiseEntries
 )
 ;

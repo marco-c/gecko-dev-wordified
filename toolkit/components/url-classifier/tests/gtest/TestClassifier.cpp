@@ -402,7 +402,6 @@ hash
 fixedLengthPrefix
 aTable
 noiseCount
-&
 noiseEntries
 )
 ;
