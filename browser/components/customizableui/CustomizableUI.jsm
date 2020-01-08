@@ -507,7 +507,7 @@ purposes
 var
 kVersion
 =
-14
+15
 ;
 /
 *
@@ -575,6 +575,13 @@ var
 ObsoleteBuiltinButtons
 =
 {
+"
+feed
+-
+button
+"
+:
+15
 }
 ;
 /
