@@ -618,6 +618,9 @@ Video
 Audio
 =
 1
+Metadata
+=
+2
 }
 impl
 Default
@@ -2764,6 +2767,16 @@ Audio
 TrackType
 :
 :
+Metadata
+=
+>
+Mp4parseTrackType
+:
+:
+Metadata
+TrackType
+:
+:
 Unknown
 =
 >
@@ -3737,7 +3750,7 @@ Invalid
 info
 )
 .
-extra_data
+codec_specific_config
 .
 length
 =
@@ -3756,7 +3769,7 @@ u32
 info
 )
 .
-extra_data
+codec_specific_config
 .
 data
 =
@@ -3885,7 +3898,7 @@ Invalid
 info
 )
 .
-extra_data
+codec_specific_config
 .
 length
 =
@@ -3902,7 +3915,7 @@ u32
 info
 )
 .
-extra_data
+codec_specific_config
 .
 data
 =
@@ -3932,7 +3945,7 @@ alac
 info
 )
 .
-extra_data
+codec_specific_config
 .
 length
 =
@@ -3951,7 +3964,7 @@ u32
 info
 )
 .
-extra_data
+codec_specific_config
 .
 data
 =
