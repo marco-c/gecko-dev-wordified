@@ -106,6 +106,17 @@ BinarySearch
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+Logging
+.
+h
+"
 struct
 SkippedRangeStartComparator
 {
