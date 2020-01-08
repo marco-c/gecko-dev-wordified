@@ -279,7 +279,7 @@ platformName
 =
 =
 "
-windows_nt
+windows
 "
 :
             
