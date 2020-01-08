@@ -2442,6 +2442,15 @@ app
 "
 firefox
 "
+or
+self
+.
+app
+=
+=
+"
+geckoview
+"
 :
             
 binary_path
@@ -2499,12 +2508,6 @@ not
 self
 .
 run_local
-and
-self
-.
-binary_path
-is
-None
 :
                 
 #
@@ -2809,31 +2812,6 @@ s
 %
 key
 value
-]
-)
-        
-if
-self
-.
-binary_path
-is
-not
-None
-:
-            
-options
-.
-extend
-(
-[
-'
--
--
-binary
-'
-self
-.
-binary_path
 ]
 )
         
