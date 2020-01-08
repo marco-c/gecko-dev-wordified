@@ -944,6 +944,9 @@ AutoRecordAtomicAccess
 Recording
 >
 record
+(
+this
+)
 ;
 return
 mValue
@@ -1018,6 +1021,9 @@ AutoRecordAtomicAccess
 Recording
 >
 record
+(
+this
+)
 ;
 T
 result
@@ -1151,6 +1157,9 @@ AutoRecordAtomicAccess
 Recording
 >
 record
+(
+this
+)
 ;
 mValue
 .
@@ -1194,6 +1203,9 @@ AutoRecordAtomicAccess
 Recording
 >
 record
+(
+this
+)
 ;
 return
 mValue
