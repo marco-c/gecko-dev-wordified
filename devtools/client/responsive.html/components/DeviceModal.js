@@ -782,6 +782,7 @@ name
 ;
 }
 return
+(
 dom
 .
 div
@@ -1159,6 +1160,7 @@ onUpdateDeviceModal
 false
 )
 }
+)
 )
 )
 ;
