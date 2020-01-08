@@ -478,7 +478,7 @@ h
 #
 include
 "
-nsIListControlFrame
+nsListControlFrame
 .
 h
 "
@@ -19806,7 +19806,7 @@ a
 dropdown
 list
 .
-nsIListControlFrame
+nsListControlFrame
 *
 listControlFrame
 =

@@ -316,7 +316,7 @@ h
 #
 include
 "
-nsIListControlFrame
+nsListControlFrame
 .
 h
 "
@@ -9027,7 +9027,7 @@ OnContentReset
 }
 else
 {
-nsIListControlFrame
+nsListControlFrame
 *
 listFrame
 =

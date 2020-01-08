@@ -246,7 +246,7 @@ nsThreadUtils
 h
 "
 class
-nsIListControlFrame
+nsListControlFrame
 ;
 class
 nsComboboxDisplayFrame
@@ -1625,14 +1625,13 @@ mDropdownFrame
 dropdown
 list
 frame
-nsIListControlFrame
+nsListControlFrame
 *
 mListControlFrame
 ;
 /
 /
 ListControl
-Interface
 for
 the
 dropdown
