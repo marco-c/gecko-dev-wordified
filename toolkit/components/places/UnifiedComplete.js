@@ -1835,7 +1835,10 @@ AND
 bookmarked
 (
 SELECT
+TOTAL
+(
 foreign_count
+)
 >
 0
 FROM
@@ -1874,7 +1877,10 @@ FFFF
 '
 (
 SELECT
+TOTAL
+(
 foreign_count
+)
 >
 0
 FROM
