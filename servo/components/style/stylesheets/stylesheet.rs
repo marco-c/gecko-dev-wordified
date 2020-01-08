@@ -1014,7 +1014,7 @@ new
 *
 self
 .
-source_map_url
+source_url
 .
 read
 (
