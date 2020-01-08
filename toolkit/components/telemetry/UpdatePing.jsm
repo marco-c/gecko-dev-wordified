@@ -259,6 +259,9 @@ var
 UpdatePing
 =
 {
+_enabled
+:
+false
 earlyInit
 (
 )
@@ -496,6 +499,17 @@ aPreviousVersion
 aPreviousBuildId
 )
 {
+if
+(
+!
+this
+.
+_enabled
+)
+{
+return
+;
+}
 this
 .
 _log
