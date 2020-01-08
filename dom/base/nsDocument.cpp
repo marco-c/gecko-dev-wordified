@@ -19416,9 +19416,9 @@ else
 if
 (
 mReadyState
+>
 =
-=
-READYSTATE_COMPLETE
+READYSTATE_INTERACTIVE
 )
 {
 /
