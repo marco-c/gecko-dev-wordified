@@ -3342,6 +3342,14 @@ this
 target
 .
 activeTab
+&
+&
+!
+this
+.
+target
+.
+chrome
 )
 {
 const
