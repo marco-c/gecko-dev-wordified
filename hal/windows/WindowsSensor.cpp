@@ -485,10 +485,6 @@ PR_Now
 (
 )
 values
-hal
-:
-:
-SENSOR_ACCURACY_UNKNOWN
 )
 ;
 hal

@@ -969,14 +969,6 @@ AppendElement
 5f
 )
 ;
-sensorData
-.
-accuracy
-(
-)
-=
-SENSOR_ACCURACY_UNRELIABLE
-;
 mTarget
 -
 >

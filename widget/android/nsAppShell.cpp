@@ -1819,8 +1819,6 @@ float
 aZ
 float
 aW
-int32_t
-aAccuracy
 int64_t
 aTime
 )
@@ -2046,13 +2044,6 @@ aType
 )
 aTime
 values
-hal
-:
-:
-SensorAccuracyType
-(
-aAccuracy
-)
 )
 ;
 hal
