@@ -114,10 +114,6 @@ gtar
 '
             
 '
-node
-'
-            
-'
 rust
 '
             
@@ -349,6 +345,29 @@ pkg_add
 '
 '
 cbindgen
+'
+]
+)
+    
+def
+ensure_node_packages
+(
+self
+state_dir
+checkout_root
+)
+:
+        
+self
+.
+run_as_root
+(
+[
+'
+pkg_add
+'
+'
+node
 '
 ]
 )

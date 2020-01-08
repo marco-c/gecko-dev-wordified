@@ -142,10 +142,6 @@ gtar
 '
             
 '
-npm
-'
-            
-'
 pkgconf
 '
             
@@ -441,6 +437,24 @@ pkg_install
 rust
 -
 cbindgen
+'
+)
+    
+def
+ensure_node_packages
+(
+self
+state_dir
+checkout_root
+)
+:
+        
+self
+.
+pkg_install
+(
+'
+npm
 '
 )
     
