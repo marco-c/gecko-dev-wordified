@@ -316,7 +316,7 @@ helper
 *
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

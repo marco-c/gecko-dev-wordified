@@ -1758,7 +1758,7 @@ run_next_test
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -2091,7 +2091,7 @@ run_next_test
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

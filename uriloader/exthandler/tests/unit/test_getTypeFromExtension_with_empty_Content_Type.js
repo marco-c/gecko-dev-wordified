@@ -163,7 +163,7 @@ before
 /
 /
 calling
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 during
