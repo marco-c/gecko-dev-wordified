@@ -10847,6 +10847,11 @@ GetCurrentInnerWindowInternal
 (
 )
 ;
+nsresult
+rv
+=
+NS_OK
+;
 /
 /
 We
@@ -11579,7 +11584,6 @@ a
 new
 global
 .
-nsresult
 rv
 =
 CreateNativeGlobalForInner

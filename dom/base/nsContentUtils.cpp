@@ -16226,6 +16226,12 @@ form
 index
 in
 form
+int32_t
+index
+=
+-
+1
+;
 Element
 *
 formElement
@@ -16282,7 +16288,6 @@ form
 in
 the
 document
-int32_t
 index
 =
 htmlForms
@@ -16582,7 +16587,6 @@ up
 to
 date
 .
-int32_t
 index
 =
 htmlFormControls
@@ -36080,6 +36084,11 @@ MOZ_CRASH
 )
 ;
 }
+nsresult
+rv
+=
+NS_OK
+;
 JS
 :
 :
@@ -36100,7 +36109,6 @@ cx
 )
 )
 ;
-nsresult
 rv
 =
 sXPConnect
