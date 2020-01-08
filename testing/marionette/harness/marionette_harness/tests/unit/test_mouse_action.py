@@ -76,7 +76,7 @@ marionette_driver
 .
 marionette
 import
-W3C_WEBELEMENT_KEY
+WEB_ELEMENT_KEY
 from
 marionette_harness
 import
@@ -271,13 +271,11 @@ origin
 "
 :
 {
-                
-W3C_WEBELEMENT_KEY
+WEB_ELEMENT_KEY
 :
 element
 .
 id
-            
 }
             
 "
