@@ -10433,6 +10433,10 @@ mBuilderDumpIndex
 =
 0
 ;
+mContainsSVGGroup
+=
+false
+;
 MOZ_ASSERT
 (
 mDumpIndent
@@ -11385,6 +11389,8 @@ the
 same
 image
 .
+mContainsSVGGroup
+=
 mDoGrouping
 =
 true

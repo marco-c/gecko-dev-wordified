@@ -421,6 +421,8 @@ const
 WebRenderScrollData
 &
 aScrollData
+bool
+aContainsSVGroup
 const
 mozilla
 :

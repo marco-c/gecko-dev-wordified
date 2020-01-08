@@ -1611,6 +1611,11 @@ builderDumpIndex
 0
 ;
 bool
+containsSVGGroup
+=
+false
+;
+bool
 dumpEnabled
 =
 mWebRenderCommandBuilder
@@ -1716,6 +1721,14 @@ builderDumpIndex
 mWebRenderCommandBuilder
 .
 GetBuilderDumpIndex
+(
+)
+;
+containsSVGGroup
+=
+mWebRenderCommandBuilder
+.
+GetContainsSVGGroup
 (
 )
 ;
@@ -2134,6 +2147,7 @@ ToUnknownSize
 )
 mLatestTransactionId
 mScrollData
+containsSVGGroup
 refreshStart
 mTransactionStart
 )

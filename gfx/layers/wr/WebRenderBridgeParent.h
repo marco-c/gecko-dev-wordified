@@ -629,6 +629,10 @@ IdNamespace
 &
 aIdNamespace
 const
+bool
+&
+aContainsSVGGroup
+const
 TimeStamp
 &
 aRefreshStartTime
@@ -1100,6 +1104,8 @@ Epoch
 aWrEpoch
 TransactionId
 aTransactionId
+bool
+aContainsSVGGroup
 const
 TimeStamp
 &
@@ -1710,6 +1716,8 @@ Epoch
 aEpoch
 TransactionId
 aId
+bool
+aContainsSVGGroup
 const
 TimeStamp
 &
@@ -1747,6 +1755,10 @@ mFwdTime
 (
 aFwdTime
 )
+mContainsSVGGroup
+(
+aContainsSVGGroup
+)
 mUseForTelemetry
 (
 aUseForTelemetry
@@ -1770,6 +1782,9 @@ mTxnStartTime
 ;
 TimeStamp
 mFwdTime
+;
+bool
+mContainsSVGGroup
 ;
 bool
 mUseForTelemetry
