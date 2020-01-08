@@ -95,9 +95,9 @@ BaseTryParser
 from
 .
 .
-vcs
+push
 import
-VCSHelper
+push_to_try
 here
 =
 os
@@ -2484,16 +2484,6 @@ self
 mach_context
 =
 mach_context
-        
-self
-.
-vcs
-=
-VCSHelper
-.
-create
-(
-)
     
 property
     
@@ -5384,10 +5374,6 @@ s
 msg
 )
         
-self
-.
-vcs
-.
 push_to_try
 (
 '
@@ -5414,7 +5400,7 @@ kwargs
 push
 '
 ]
-                             
+                    
 closed_tree
 =
 kwargs
