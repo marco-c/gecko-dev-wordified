@@ -208,6 +208,15 @@ CreateWindowController
 (
 )
 ;
+static
+already_AddRefed
+<
+nsIController
+>
+CreateEditingController
+(
+)
+;
 protected
 :
 virtual
