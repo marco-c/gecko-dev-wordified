@@ -1360,7 +1360,12 @@ if
 text
 )
 {
-NS_NOTREACHED
+/
+/
+FIXME
+bug
+1126649
+NS_ERROR
 (
 "
 We
