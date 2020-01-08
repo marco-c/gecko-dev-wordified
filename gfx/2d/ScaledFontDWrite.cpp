@@ -3280,6 +3280,12 @@ Some
 platformOptions
 )
 ;
+GetVariationsFromFontFace
+(
+mFontFace
+aOutVariations
+)
+;
 return
 true
 ;
