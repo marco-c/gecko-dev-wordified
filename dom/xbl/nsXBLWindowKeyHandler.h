@@ -322,9 +322,6 @@ aKeyEvent
 nsAtom
 *
 aEventType
-nsXBLPrototypeHandler
-*
-aHandler
 bool
 aExecute
 bool
@@ -363,9 +360,6 @@ aKeyEvent
 nsAtom
 *
 aEventType
-nsXBLPrototypeHandler
-*
-aHandler
 uint32_t
 aCharCode
 const
@@ -882,16 +876,6 @@ mHandler
 /
 /
 platform
-bindings
-nsXBLPrototypeHandler
-*
-mUserHandler
-;
-/
-/
-user
--
-specific
 bindings
 /
 /
