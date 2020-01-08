@@ -1227,9 +1227,9 @@ NativeRole
 )
 const
 {
-nsCOMPtr
+RefPtr
 <
-nsITreeColumns
+nsTreeColumns
 >
 treeColumns
 ;
@@ -2465,9 +2465,9 @@ int32_t
 aEndColIdx
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsITreeColumns
+nsTreeColumns
 >
 treeColumns
 ;

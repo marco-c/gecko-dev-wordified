@@ -881,7 +881,7 @@ nsTreeColumn
 :
 GetColumns
 (
-nsITreeColumns
+nsTreeColumns
 *
 *
 aColumns

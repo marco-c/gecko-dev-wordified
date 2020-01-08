@@ -202,13 +202,6 @@ h
 #
 include
 "
-nsITreeColumns
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -1324,7 +1317,7 @@ TreeBoxObject
 :
 GetColumns
 (
-nsITreeColumns
+nsTreeColumns
 *
 *
 aColumns
