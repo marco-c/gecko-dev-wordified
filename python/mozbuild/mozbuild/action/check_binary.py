@@ -1164,6 +1164,8 @@ get_output
 (
 '
 dumpbin
+.
+exe
 '
 '
 -
