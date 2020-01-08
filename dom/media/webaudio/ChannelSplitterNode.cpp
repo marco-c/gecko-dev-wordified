@@ -378,7 +378,7 @@ aOutputCount
 AudioNode
 (
 aContext
-6
+aOutputCount
 ChannelCountMode
 :
 :
