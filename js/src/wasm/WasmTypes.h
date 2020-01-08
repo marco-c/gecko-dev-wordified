@@ -11119,9 +11119,6 @@ uint8_t
 *
 memoryBase
 ;
-#
-ifndef
-WASM_HUGE_MEMORY
 /
 /
 Bounds
@@ -11144,8 +11141,6 @@ memory
 uint32_t
 boundsCheckLimit
 ;
-#
-endif
 /
 /
 Pointer

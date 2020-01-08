@@ -336,6 +336,7 @@ ArrayBufferObjectMaybeShared
 byteLength
 (
 )
+const
 {
 return
 AnyArrayBufferByteLength
