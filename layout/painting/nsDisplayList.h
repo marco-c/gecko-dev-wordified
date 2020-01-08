@@ -18909,6 +18909,7 @@ destructors
 .
 *
 /
+virtual
 void
 DeleteAll
 (
@@ -21486,6 +21487,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+override
 {
 for
 (
