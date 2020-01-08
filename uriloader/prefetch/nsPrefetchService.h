@@ -410,7 +410,7 @@ aURI
 nsIURI
 *
 aReferrerURI
-nsIDOMNode
+nsINode
 *
 aSource
 bool
@@ -426,7 +426,7 @@ aURI
 nsIURI
 *
 aReferrerURI
-nsIDOMNode
+nsINode
 *
 aSource
 nsContentPolicyType
@@ -452,7 +452,7 @@ aURI
 nsIURI
 *
 aReferrerURI
-nsIDOMNode
+nsINode
 *
 aSource
 nsPrefetchNode
@@ -800,7 +800,7 @@ aURI
 nsIURI
 *
 aReferrerURI
-nsIDOMNode
+nsINode
 *
 aSource
 nsContentPolicyType
