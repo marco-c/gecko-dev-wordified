@@ -434,8 +434,6 @@ next
 "
 )
 ;
-pagerNavigation
-.
 next
 (
 )
