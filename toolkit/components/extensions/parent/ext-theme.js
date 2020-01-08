@@ -893,6 +893,11 @@ break
 ;
 case
 "
+tab_background_separator
+"
+:
+case
+"
 tab_loading
 "
 :
