@@ -1641,7 +1641,9 @@ if
 bce_
 -
 >
-addTryNote
+tryNoteList
+.
+append
 (
 JSTRY_CATCH
 depth_
@@ -1713,7 +1715,9 @@ if
 bce_
 -
 >
-addTryNote
+tryNoteList
+.
+append
 (
 JSTRY_FINALLY
 depth_

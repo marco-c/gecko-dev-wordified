@@ -2689,12 +2689,13 @@ script
 )
 pcOffset_
 (
+pc
+-
 script
 -
 >
-pcToOffset
+main
 (
-pc
 )
 )
 getStackDepth_
