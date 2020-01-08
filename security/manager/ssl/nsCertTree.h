@@ -621,12 +621,6 @@ mCompareCache
 ;
 nsCOMPtr
 <
-nsINSSComponent
->
-mNSSComponent
-;
-nsCOMPtr
-<
 nsICertOverrideService
 >
 mOverrideService
