@@ -899,6 +899,17 @@ fork
 (
 )
 .
+/
+/
+It
+is
+not
+required
+to
+call
+pthread_atfork
+hooks
+.
 mozilla
 :
 :
