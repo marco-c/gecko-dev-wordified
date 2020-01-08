@@ -3021,15 +3021,6 @@ OwnerDoc
 while
 (
 doc
-&
-&
-!
-doc
--
->
-UserHasInteracted
-(
-)
 )
 {
 doc
