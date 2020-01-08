@@ -935,6 +935,15 @@ StorageAccessGrantedReason
 aReason
 )
 ;
+static
+void
+StoreUserInteractionFor
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 /
 /
 For

@@ -22035,6 +22035,11 @@ MaybeAllowStorageForOpener
 (
 )
 ;
+void
+MaybeStoreUserInteractionAsPermission
+(
+)
+;
 /
 /
 Helpers
