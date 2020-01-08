@@ -1284,6 +1284,7 @@ split
 ]
     
 return
+[
 '
 '
 .
@@ -1298,6 +1299,7 @@ join
 (
 logging_args
 )
+]
 def
 docker_worker_setup_secrets
 (
