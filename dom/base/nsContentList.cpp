@@ -4564,6 +4564,8 @@ PopulateSelf
 (
 uint32_t
 aNeededLength
+uint32_t
+aExpectedElementsIfDirty
 )
 {
 if
@@ -4597,7 +4599,7 @@ LIST_DIRTY
 count
 =
 =
-0
+aExpectedElementsIfDirty
 "
 Reset
 (
@@ -6222,6 +6224,8 @@ PopulateSelf
 (
 uint32_t
 aNeededLength
+uint32_t
+aExpectedElementsIfDirty
 )
 {
 if
@@ -6287,6 +6291,10 @@ AsElement
 )
 )
 ;
++
++
+aExpectedElementsIfDirty
+;
 }
 nsContentList
 :
@@ -6294,6 +6302,7 @@ nsContentList
 PopulateSelf
 (
 aNeededLength
+aExpectedElementsIfDirty
 )
 ;
 }
