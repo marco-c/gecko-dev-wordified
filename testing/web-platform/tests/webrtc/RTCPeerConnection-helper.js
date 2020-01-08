@@ -1421,17 +1421,6 @@ section
 if
 (
 candidate
-&
-&
-remotePc
-.
-signalingState
-!
-=
-=
-'
-closed
-'
 )
 {
 remotePc
