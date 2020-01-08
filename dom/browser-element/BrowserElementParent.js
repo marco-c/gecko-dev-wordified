@@ -5486,8 +5486,6 @@ listeners
 try
 {
 listener
-.
-recvNextPaint
 (
 )
 ;
