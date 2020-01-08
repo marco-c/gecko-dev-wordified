@@ -474,6 +474,15 @@ x
 )
 ;
 static
+double
+numberValue
+(
+BigInt
+*
+x
+)
+;
+static
 JSLinearString
 *
 toString
