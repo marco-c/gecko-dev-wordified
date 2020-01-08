@@ -1106,6 +1106,8 @@ actions
 networkUpdateRequest
 (
 publicMessageId
+{
+}
 )
 )
 ;
@@ -1116,6 +1118,8 @@ actions
 networkUpdateRequest
 (
 privateMessageId
+{
+}
 )
 )
 ;
