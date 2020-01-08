@@ -7893,7 +7893,6 @@ objectBeingIterated
 )
 !
 =
-*
 obj
 )
 return

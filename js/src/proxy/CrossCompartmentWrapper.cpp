@@ -1549,7 +1549,6 @@ RootedObject
 obj
 (
 cx
-&
 ni
 -
 >

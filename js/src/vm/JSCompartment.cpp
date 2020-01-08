@@ -5557,7 +5557,9 @@ MOZ_ASSERT_IF
 ni
 -
 >
-obj
+objectBeingIterated
+(
+)
 &
 ObjectRealm
 :
@@ -5567,7 +5569,9 @@ get
 ni
 -
 >
-obj
+objectBeingIterated
+(
+)
 )
 =
 =

@@ -1324,7 +1324,6 @@ next
 enumerators
 )
 return
-&
 next
 -
 >
