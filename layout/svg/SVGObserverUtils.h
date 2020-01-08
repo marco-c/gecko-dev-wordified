@@ -1988,7 +1988,7 @@ override
 }
 ;
 class
-nsSVGTextPathProperty
+SVGTextPathObserver
 final
 :
 public
@@ -1996,7 +1996,7 @@ nsSVGRenderingObserverProperty
 {
 public
 :
-nsSVGTextPathProperty
+SVGTextPathObserver
 (
 nsIURI
 *
@@ -2710,7 +2710,7 @@ nsSVGPaintingProperty
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
 (
 HrefAsTextPathProperty
-nsSVGTextPathProperty
+SVGTextPathObserver
 )
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
 (
@@ -3621,7 +3621,7 @@ aProperty
 *
 Get
 an
-nsSVGTextPathProperty
+SVGTextPathObserver
 for
 the
 frame
@@ -3634,7 +3634,7 @@ necessary
 *
 /
 static
-nsSVGTextPathProperty
+SVGTextPathObserver
 *
 GetTextPathProperty
 (
@@ -3650,7 +3650,7 @@ mozilla
 :
 FramePropertyDescriptor
 <
-nsSVGTextPathProperty
+SVGTextPathObserver
 >
 *
 aProperty

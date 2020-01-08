@@ -2283,7 +2283,7 @@ mFrame
 }
 }
 bool
-nsSVGTextPathProperty
+SVGTextPathObserver
 :
 :
 TargetIsValid
@@ -2315,7 +2315,7 @@ path
 ;
 }
 void
-nsSVGTextPathProperty
+SVGTextPathObserver
 :
 :
 OnRenderingChange
@@ -2422,7 +2422,7 @@ have
 this
 /
 /
-nsSVGTextPathProperty
+SVGTextPathObserver
 if
 this
 <
@@ -2997,7 +2997,7 @@ aProperty
 )
 ;
 }
-nsSVGTextPathProperty
+SVGTextPathObserver
 *
 SVGObserverUtils
 :
@@ -3016,7 +3016,7 @@ mozilla
 :
 FramePropertyDescriptor
 <
-nsSVGTextPathProperty
+SVGTextPathObserver
 >
 *
 aProperty
