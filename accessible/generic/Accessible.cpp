@@ -12896,7 +12896,7 @@ kEmbeddedObjectChar
 return
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 mParent
 "
