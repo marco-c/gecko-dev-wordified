@@ -4583,12 +4583,6 @@ RefPtr
 <
 ThrottledEventQueue
 >
-mMainThreadThrottledEventQueue
-;
-nsCOMPtr
-<
-nsIEventTarget
->
 mMainThreadEventTarget
 ;
 RefPtr
