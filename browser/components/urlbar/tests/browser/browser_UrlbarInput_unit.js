@@ -468,6 +468,13 @@ load
 "
 )
 ;
+win
+.
+gBrowser
+=
+{
+}
+;
 registerCleanupFunction
 (
 async
