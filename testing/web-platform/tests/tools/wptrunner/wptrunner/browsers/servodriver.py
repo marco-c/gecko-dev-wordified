@@ -207,6 +207,17 @@ binary
 ]
         
 "
+binary_args
+"
+:
+kwargs
+[
+"
+binary_args
+"
+]
+        
+"
 debug_info
 "
 :
@@ -436,6 +447,9 @@ webdriver_host
 server_config
 =
 None
+binary_args
+=
+None
 user_stylesheets
 =
 None
@@ -455,6 +469,15 @@ self
 binary
 =
 binary
+        
+self
+.
+binary_args
+=
+binary_args
+or
+[
+]
         
 self
 .
@@ -583,6 +606,10 @@ self
 .
 binary
             
+self
+.
+binary_args
++
 [
                 
 "
