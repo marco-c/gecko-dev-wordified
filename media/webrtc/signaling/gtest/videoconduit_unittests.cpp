@@ -5941,6 +5941,12 @@ VideoCodecMode
 kScreensharing
 )
 ;
+ASSERT_EQ
+(
+ec
+kMediaConduitNoError
+)
+;
 ec
 =
 mVideoConduit
