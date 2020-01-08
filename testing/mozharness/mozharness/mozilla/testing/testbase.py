@@ -3338,9 +3338,6 @@ build_url
 self
 .
 installer_url
-write_to_file
-=
-True
 )
     
 def
@@ -3540,10 +3537,6 @@ symbols_url
 self
 .
 symbols_url
-                              
-write_to_file
-=
-True
 )
             
 if

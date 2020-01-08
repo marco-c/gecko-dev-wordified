@@ -2549,9 +2549,6 @@ set_property
 (
 prop_key
 prop_value
-write_to_file
-=
-True
 )
         
 MercurialScript
@@ -2636,10 +2633,6 @@ self
 .
 locales_property
 )
-                          
-write_to_file
-=
-True
 )
     
 #
@@ -4337,9 +4330,6 @@ set_property
 tools_revision
 "
 rev
-write_to_file
-=
-True
 )
     
 def
