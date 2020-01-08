@@ -249,7 +249,6 @@ runExtraTests
 false
 cookieBehavior
 blockingByContentBlocking
-blockingByContentBlockingUI
 blockingByContentBlockingRTUI
 blockingByAllowList
 callback
@@ -496,12 +495,7 @@ images
 let
 expected
 =
-(
 blockingByContentBlocking
-&
-&
-blockingByContentBlockingUI
-)
 ?
 2
 :
