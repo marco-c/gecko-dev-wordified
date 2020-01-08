@@ -407,12 +407,6 @@ Database
 >
 mDB
 ;
-nsCOMArray
-<
-nsIAnnotationObserver
->
-mObservers
-;
 static
 nsAnnotationService
 *
@@ -654,7 +648,7 @@ _result
 )
 ;
 nsresult
-RemoveItemAnnotationsWithoutNotifying
+RemoveItemAnnotations
 (
 int64_t
 aItemId
