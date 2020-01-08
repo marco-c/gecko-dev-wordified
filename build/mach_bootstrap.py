@@ -1495,14 +1495,14 @@ to
 telemetry
         
 if
-'
-BUILD_SYSTEM_TELEMETRY
-'
 not
-in
-os
+context
 .
-environ
+settings
+.
+build
+.
+telemetry
 :
             
 return
@@ -1849,14 +1849,14 @@ to
 telemetry
         
 if
-'
-BUILD_SYSTEM_TELEMETRY
-'
 not
-in
-os
+context
 .
-environ
+settings
+.
+build
+.
+telemetry
 :
             
 return
