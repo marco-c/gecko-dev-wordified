@@ -15392,6 +15392,8 @@ frame
 .
 False
 otherwise
+false
+otherwise
 .
 bool
 hasUsableAbstractFramePtr
