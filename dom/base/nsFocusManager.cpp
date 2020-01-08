@@ -16245,10 +16245,6 @@ false
 /
 /
 aSkipPopupChecks
-false
-/
-/
-aSkipShadow
 )
 ;
 NS_ENSURE_SUCCESS
@@ -20962,10 +20958,6 @@ true
 /
 /
 aSkipPopupChecks
-false
-/
-/
-aSkipShadow
 )
 ;
 if
@@ -22194,7 +22186,6 @@ aForDocumentNavigation
 /
 /
 aSkipPopupChecks
-false
 )
 ;
 NS_ENSURE_SUCCESS
