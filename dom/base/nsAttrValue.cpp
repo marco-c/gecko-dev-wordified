@@ -8407,10 +8407,8 @@ GetInlineStyleSheet
 (
 )
 ;
-nsCOMPtr
-<
 nsIURI
->
+*
 baseURI
 =
 aElement
@@ -8454,13 +8452,10 @@ unexpected
 "
 )
 ;
-nsCOMPtr
-<
 nsIPrincipal
->
+*
 principal
 =
-(
 aMaybeScriptedPrincipal
 ?
 aMaybeScriptedPrincipal
@@ -8470,7 +8465,6 @@ aElement
 >
 NodePrincipal
 (
-)
 )
 ;
 /
@@ -8580,10 +8574,10 @@ in
 the
 rule
 .
+const
 bool
 cachingAllowed
 =
-(
 sheet
 &
 &
@@ -8601,7 +8595,6 @@ aElement
 >
 NodePrincipal
 (
-)
 )
 ;
 if
