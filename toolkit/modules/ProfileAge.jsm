@@ -655,7 +655,7 @@ times
 return
 this
 .
-times
+_times
 =
 times
 |
