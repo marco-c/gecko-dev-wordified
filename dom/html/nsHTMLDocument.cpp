@@ -6625,6 +6625,9 @@ GetInnerWindow
 (
 )
 nullptr
+NodePrincipal
+(
+)
 nullptr
 )
 )
@@ -6915,6 +6918,9 @@ GetInnerWindow
 (
 )
 nullptr
+NodePrincipal
+(
+)
 nullptr
 )
 )
