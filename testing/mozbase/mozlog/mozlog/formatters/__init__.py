@@ -87,6 +87,11 @@ from
 errorsummary
 import
 ErrorSummaryFormatter
+from
+.
+grouping
+import
+GroupingFormatter
 try
 :
     
@@ -146,5 +151,8 @@ ErrorSummaryFormatter
            
 '
 JSONFormatter
+'
+'
+GroupingFormatter
 '
 ]
