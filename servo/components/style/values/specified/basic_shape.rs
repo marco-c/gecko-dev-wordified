@@ -794,9 +794,6 @@ where
 ReferenceBox
 :
 Parse
-ImageOrUrl
-:
-Parse
 {
 /
 /
