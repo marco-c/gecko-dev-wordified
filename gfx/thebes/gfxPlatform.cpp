@@ -337,6 +337,13 @@ h
 #
 include
 "
+VRProcessManager
+.
+h
+"
+#
+include
+"
 VRThread
 .
 h
@@ -6089,6 +6096,13 @@ XRE_IsParentProcess
 )
 {
 GPUProcessManager
+:
+:
+Shutdown
+(
+)
+;
+VRProcessManager
 :
 :
 Shutdown

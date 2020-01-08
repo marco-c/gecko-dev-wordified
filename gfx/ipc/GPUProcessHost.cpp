@@ -858,6 +858,13 @@ if
 mGPUChild
 )
 {
+mGPUChild
+-
+>
+SendShutdownVR
+(
+)
+;
 /
 /
 OnChannelClosed
