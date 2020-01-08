@@ -97,7 +97,7 @@ protocol
 ;
 const
 {
-CallWatcherActor
+CallWatcher
 }
 =
 require
@@ -109,6 +109,8 @@ server
 /
 actors
 /
+utils
+/
 call
 -
 watcher
@@ -117,7 +119,8 @@ watcher
 ;
 const
 {
-CallWatcherFront
+METHOD_FUNCTION
+SETTER_FUNCTION
 }
 =
 require
@@ -129,9 +132,9 @@ shared
 /
 fronts
 /
-call
+function
 -
-watcher
+call
 "
 )
 ;
@@ -974,7 +977,7 @@ this
 _callWatcher
 =
 new
-CallWatcherActor
+CallWatcher
 (
 this
 .
@@ -3446,7 +3449,7 @@ duplicated
 *
 param
 number
-contexType
+contextType
 *
 The
 type
@@ -3457,9 +3460,8 @@ use
 .
 See
 the
-CallWatcherFront
-scope
-types
+FunctionCallFront
+constants
 .
 *
 param
@@ -4155,8 +4157,6 @@ if
 type
 =
 =
-CallWatcherFront
-.
 METHOD_FUNCTION
 )
 {
@@ -4178,8 +4178,6 @@ if
 type
 =
 =
-CallWatcherFront
-.
 SETTER_FUNCTION
 )
 {

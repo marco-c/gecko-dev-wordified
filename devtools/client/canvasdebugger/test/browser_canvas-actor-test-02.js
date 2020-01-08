@@ -218,8 +218,6 @@ functionCalls
 ]
 .
 type
-CallWatcherFront
-.
 METHOD_FUNCTION
 "
 The

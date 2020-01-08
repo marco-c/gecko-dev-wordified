@@ -233,8 +233,6 @@ functionCalls
 ]
 .
 type
-CallWatcherFront
-.
 METHOD_FUNCTION
 "
 The
@@ -385,8 +383,6 @@ functionCalls
 ]
 .
 type
-CallWatcherFront
-.
 METHOD_FUNCTION
 "
 The
@@ -537,8 +533,6 @@ functionCalls
 ]
 .
 type
-CallWatcherFront
-.
 METHOD_FUNCTION
 "
 The
