@@ -363,9 +363,6 @@ bool
 disableCacheIRBinaryArith
 ;
 bool
-disableCacheIRCompare
-;
-bool
 disableSharedStubs
 ;
 bool
