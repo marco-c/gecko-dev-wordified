@@ -1555,7 +1555,7 @@ text
 .
 mType
 =
-nsITreeColumn
+TreeColumnBinding
 :
 :
 TYPE_TEXT
@@ -1605,7 +1605,7 @@ case
 :
 mType
 =
-nsITreeColumn
+TreeColumnBinding
 :
 :
 TYPE_CHECKBOX
@@ -1617,7 +1617,7 @@ case
 :
 mType
 =
-nsITreeColumn
+TreeColumnBinding
 :
 :
 TYPE_PASSWORD
@@ -2276,7 +2276,7 @@ GetType
 )
 !
 =
-nsITreeColumn
+TreeColumnBinding
 :
 :
 TYPE_TEXT
