@@ -795,13 +795,9 @@ opacity
 ;
 }
 .
-reject
--
-trackers
--
 warning
 -
-icon
+description
 {
 background
 :
@@ -826,6 +822,12 @@ no
 repeat
 0
 5px
+;
+opacity
+:
+0
+.
+6
 ;
 -
 moz
