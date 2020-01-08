@@ -2808,7 +2808,9 @@ info
 navigateToAddAddressPage
 :
 check
-were
+we
+'
+re
 on
 the
 expected

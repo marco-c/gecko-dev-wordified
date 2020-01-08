@@ -749,11 +749,11 @@ getFormFormat
 PaymentDialogUtils
 .
 getFormFormat
-supportedCountries
+countries
 :
 PaymentDialogUtils
 .
-supportedCountries
+countries
 }
 )
 ;
