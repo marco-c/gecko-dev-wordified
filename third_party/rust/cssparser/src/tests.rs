@@ -8387,6 +8387,9 @@ Vec
 <
 Json
 >
+_location
+:
+SourceLocation
 )
 -
 >
@@ -8427,6 +8430,9 @@ Vec
 <
 Json
 >
+_location
+:
+SourceLocation
 input
 :
 &
@@ -8576,6 +8582,9 @@ Vec
 <
 Json
 >
+_location
+:
+SourceLocation
 input
 :
 &
