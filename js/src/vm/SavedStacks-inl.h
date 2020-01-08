@@ -288,7 +288,7 @@ js
 SavedFrame
 :
 :
-isSavedFrameOrWrapperAndNotProto
+isSavedFrameOrWrapper
 (
 *
 stack
