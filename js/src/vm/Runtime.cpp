@@ -818,6 +818,16 @@ numActiveHelperThreadZones
 (
 0
 )
+heapState_
+(
+JS
+:
+:
+HeapState
+:
+:
+Idle
+)
 numRealms
 (
 0
