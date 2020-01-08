@@ -2868,7 +2868,8 @@ suite
             
 summary
 =
-None
+{
+}
             
 executed_too_many_tests
 =
