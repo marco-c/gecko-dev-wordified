@@ -179,6 +179,13 @@ nsILabelableRunnable
 .
 h
 "
+#
+include
+"
+nsPrintfCString
+.
+h
+"
 /
 /
 Windows
