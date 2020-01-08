@@ -657,12 +657,12 @@ mFrameOffsetToReferenceFrame
 aOffset
 ;
 }
-nsDisplayMaskGeometry
+nsDisplayMasksAndClipPathsGeometry
 :
 :
-nsDisplayMaskGeometry
+nsDisplayMasksAndClipPathsGeometry
 (
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 *
 aItem
 nsDisplayListBuilder

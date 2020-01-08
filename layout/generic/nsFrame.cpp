@@ -20858,7 +20858,7 @@ AppendToTop
 (
 MakeDisplayItem
 <
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 >
 (
 aBuilder
@@ -20891,7 +20891,7 @@ scrolling
 /
 /
 because
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 items
 can
 '

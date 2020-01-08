@@ -1524,7 +1524,7 @@ str
 (
 static_cast
 <
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 *
 >
 (

@@ -7814,7 +7814,7 @@ maskItem
 =
 static_cast
 <
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 *
 >
 (
@@ -13838,7 +13838,7 @@ y
 ;
 static_cast
 <
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 *
 >
 (
