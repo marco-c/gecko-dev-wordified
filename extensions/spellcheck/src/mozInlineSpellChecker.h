@@ -151,9 +151,6 @@ class
 mozInlineSpellChecker
 ;
 class
-mozISpellI18NUtil
-;
-class
 mozInlineSpellResume
 ;
 class
@@ -798,12 +795,6 @@ mozilla
 EditorSpellCheck
 >
 mPendingSpellCheck
-;
-nsCOMPtr
-<
-mozISpellI18NUtil
->
-mConverter
 ;
 int32_t
 mNumWordsInSpellSelection
