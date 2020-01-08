@@ -2120,7 +2120,7 @@ doc
 content
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
