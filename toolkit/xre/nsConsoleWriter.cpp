@@ -464,10 +464,7 @@ i
 >
 GetMessageMoz
 (
-getter_Copies
-(
 msg
-)
 )
 ;
 if

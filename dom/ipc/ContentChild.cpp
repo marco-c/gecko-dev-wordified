@@ -3049,10 +3049,7 @@ aMessage
 >
 GetMessageMoz
 (
-getter_Copies
-(
 msg
-)
 )
 ;
 NS_ENSURE_SUCCESS
