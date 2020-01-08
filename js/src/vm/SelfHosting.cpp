@@ -20461,10 +20461,7 @@ GetCompressedSize
 (
 )
 ;
-ScopedJSFreePtr
-<
-char
->
+UniqueChars
 src
 (
 selfHostingGlobal_
@@ -20524,6 +20521,10 @@ Evaluate
 cx
 options
 src
+.
+get
+(
+)
 srcLen
 &
 rv
