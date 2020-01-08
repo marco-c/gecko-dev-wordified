@@ -1059,6 +1059,17 @@ mThrottleVersion
 mThrottleReadLimit
 ;
 }
+int32_t
+SendWindowSize
+(
+)
+{
+return
+mSendWindowSize
+*
+1024
+;
+}
 /
 /
 TCP
@@ -2679,6 +2690,9 @@ mThrottleHoldTime
 ;
 uint32_t
 mThrottleMaxTime
+;
+int32_t
+mSendWindowSize
 ;
 bool
 mUrgentStartEnabled
