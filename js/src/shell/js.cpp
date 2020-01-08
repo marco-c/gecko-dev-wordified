@@ -22171,7 +22171,7 @@ geckoProfiler
 (
 )
 .
-installed
+infraInstalled
 (
 )
 )

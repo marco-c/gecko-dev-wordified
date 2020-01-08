@@ -343,7 +343,7 @@ MOZ_LIKELY
 profiler_
 -
 >
-installed
+infraInstalled
 (
 )
 )
@@ -541,7 +541,7 @@ MOZ_LIKELY
 profiler_
 -
 >
-installed
+infraInstalled
 (
 )
 )

@@ -541,7 +541,7 @@ geckoProfiler
 (
 )
 .
-installed
+infraInstalled
 (
 )
 )
