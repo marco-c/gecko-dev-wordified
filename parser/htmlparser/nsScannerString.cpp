@@ -2382,7 +2382,7 @@ inline
 nsAString
 :
 :
-char_iterator
+iterator
 &
 copy_multifragment_string
 (
@@ -2396,7 +2396,7 @@ last
 nsAString
 :
 :
-char_iterator
+iterator
 &
 result
 )
@@ -2414,7 +2414,7 @@ nsCharSinkTraits
 nsAString
 :
 :
-char_iterator
+iterator
 >
 sink_traits
 ;
