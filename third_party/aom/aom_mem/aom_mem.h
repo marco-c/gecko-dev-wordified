@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_MEM_AOM_MEM_H_
+AOM_AOM_MEM_AOM_MEM_H_
 #
 define
-AOM_MEM_AOM_MEM_H_
+AOM_AOM_MEM_AOM_MEM_H_
 #
 include
 "
@@ -416,4 +416,4 @@ endif
 endif
 /
 /
-AOM_MEM_AOM_MEM_H_
+AOM_AOM_MEM_AOM_MEM_H_

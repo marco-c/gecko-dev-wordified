@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-VIDEO_WRITER_H_
+AOM_COMMON_VIDEO_WRITER_H_
 #
 define
-VIDEO_WRITER_H_
+AOM_COMMON_VIDEO_WRITER_H_
 #
 include
 "
@@ -276,4 +276,4 @@ endif
 endif
 /
 /
-VIDEO_WRITER_H_
+AOM_COMMON_VIDEO_WRITER_H_

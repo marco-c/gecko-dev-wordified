@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-_V128_INTRINSICS_H
+AOM_AOM_DSP_SIMD_V128_INTRINSICS_ARM_H_
 #
 define
-_V128_INTRINSICS_H
+AOM_AOM_DSP_SIMD_V128_INTRINSICS_ARM_H_
 #
 include
 <
@@ -2447,7 +2447,7 @@ vdupq_n_u64
 )
 ;
 return
-v64_u64
+v64_low_u32
 (
 v64_ziplo_8
 (
@@ -5981,7 +5981,5 @@ s
 #
 endif
 /
-*
-_V128_INTRINSICS_H
-*
 /
+AOM_AOM_DSP_SIMD_V128_INTRINSICS_ARM_H_

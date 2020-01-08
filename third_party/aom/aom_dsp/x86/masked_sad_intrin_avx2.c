@@ -121,13 +121,6 @@ patent
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 tmmintrin
 .
 h

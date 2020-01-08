@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_PORTS_X86_H_
+AOM_AOM_PORTS_X86_H_
 #
 define
-AOM_PORTS_X86_H_
+AOM_AOM_PORTS_X86_H_
 #
 include
 <
@@ -2294,4 +2294,4 @@ endif
 endif
 /
 /
-AOM_PORTS_X86_H_
+AOM_AOM_PORTS_X86_H_

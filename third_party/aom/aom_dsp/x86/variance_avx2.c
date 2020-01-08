@@ -3447,9 +3447,9 @@ comp
 void
 aom_highbd_comp_mask_pred_avx2
 (
-uint16_t
+uint8_t
 *
-comp_pred
+comp_pred8
 const
 uint8_t
 *
@@ -3495,6 +3495,15 @@ ref
 CONVERT_TO_SHORTPTR
 (
 ref8
+)
+;
+uint16_t
+*
+comp_pred
+=
+CONVERT_TO_SHORTPTR
+(
+comp_pred8
 )
 ;
 const

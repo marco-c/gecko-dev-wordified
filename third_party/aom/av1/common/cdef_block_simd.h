@@ -119,6 +119,12 @@ patent
 *
 /
 #
+ifndef
+AOM_AV1_COMMON_CDEF_BLOCK_SIMD_H_
+#
+define
+AOM_AV1_COMMON_CDEF_BLOCK_SIMD_H_
+#
 include
 "
 config
@@ -9012,3 +9018,8 @@ j
 }
 }
 }
+#
+endif
+/
+/
+AOM_AV1_COMMON_CDEF_BLOCK_SIMD_H_

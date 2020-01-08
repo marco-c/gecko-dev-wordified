@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_COMMON_COMMON_H_
+AOM_AV1_COMMON_COMMON_H_
 #
 define
-AV1_COMMON_COMMON_H_
+AOM_AV1_COMMON_COMMON_H_
 /
 *
 Interface
@@ -424,4 +424,4 @@ endif
 endif
 /
 /
-AV1_COMMON_COMMON_H_
+AOM_AV1_COMMON_COMMON_H_

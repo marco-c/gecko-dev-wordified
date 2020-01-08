@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_COMMON_MV_H_
+AOM_AV1_COMMON_MV_H_
 #
 define
-AV1_COMMON_MV_H_
+AOM_AV1_COMMON_MV_H_
 #
 include
 "
@@ -324,6 +324,7 @@ off
 /
 typedef
 enum
+ATTRIBUTE_PACKED
 {
 IDENTITY
 =
@@ -2062,4 +2063,4 @@ endif
 endif
 /
 /
-AV1_COMMON_MV_H_
+AOM_AV1_COMMON_MV_H_

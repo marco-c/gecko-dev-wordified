@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_QUANTIZE_H_
+AOM_AOM_DSP_QUANTIZE_H_
 #
 define
-AOM_DSP_QUANTIZE_H_
+AOM_AOM_DSP_QUANTIZE_H_
 #
 include
 "
@@ -161,8 +161,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -222,8 +220,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -272,8 +268,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -333,8 +327,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -390,4 +382,4 @@ endif
 endif
 /
 /
-AOM_DSP_QUANTIZE_H_
+AOM_AOM_DSP_QUANTIZE_H_

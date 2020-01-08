@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_COMMON_SCALE_H_
+AOM_AV1_COMMON_SCALE_H_
 #
 define
-AV1_COMMON_SCALE_H_
+AOM_AV1_COMMON_SCALE_H_
 #
 include
 "
@@ -143,15 +143,6 @@ av1
 common
 /
 mv
-.
-h
-"
-#
-include
-"
-aom_dsp
-/
-aom_convolve
 .
 h
 "
@@ -459,4 +450,4 @@ endif
 endif
 /
 /
-AV1_COMMON_SCALE_H_
+AOM_AV1_COMMON_SCALE_H_

@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_ACCOUNTING_H_
+AOM_AV1_DECODER_ACCOUNTING_H_
 #
 define
-AOM_ACCOUNTING_H_
+AOM_AV1_DECODER_ACCOUNTING_H_
 #
 include
 <
@@ -502,4 +502,4 @@ __cplusplus
 endif
 /
 /
-AOM_ACCOUNTING_H_
+AOM_AV1_DECODER_ACCOUNTING_H_

@@ -146,15 +146,6 @@ include
 "
 aom_dsp
 /
-aom_convolve
-.
-h
-"
-#
-include
-"
-aom_dsp
-/
 x86
 /
 convolve_avx2

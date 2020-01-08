@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_ENCODER_HASH_H_
+AOM_AV1_ENCODER_HASH_H_
 #
 define
-AV1_ENCODER_HASH_H_
+AOM_AV1_ENCODER_HASH_H_
 #
 include
 "
@@ -282,6 +282,12 @@ p_crc32c
 )
 ;
 #
+define
+AOM_BUFFER_SIZE_FOR_BLOCK_HASH
+(
+4096
+)
+#
 ifdef
 __cplusplus
 }
@@ -297,4 +303,4 @@ endif
 endif
 /
 /
-AV1_ENCODER_HASH_H_
+AOM_AV1_ENCODER_HASH_H_

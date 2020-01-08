@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOMENC_H_
+AOM_APPS_AOMENC_H_
 #
 define
-AOMENC_H_
+AOM_APPS_AOMENC_H_
 #
 include
 "
@@ -274,9 +274,6 @@ aom_rational
 framerate
 ;
 int
-out_part
-;
-int
 debug
 ;
 int
@@ -312,4 +309,4 @@ endif
 endif
 /
 /
-AOMENC_H_
+AOM_APPS_AOMENC_H_

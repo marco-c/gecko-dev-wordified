@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_BUF_ANS_H_
+AOM_AOM_DSP_BUF_ANS_H_
 #
 define
-AOM_DSP_BUF_ANS_H_
+AOM_AOM_DSP_BUF_ANS_H_
 /
 /
 Buffered
@@ -937,4 +937,4 @@ __cplusplus
 endif
 /
 /
-AOM_DSP_BUF_ANS_H_
+AOM_AOM_DSP_BUF_ANS_H_

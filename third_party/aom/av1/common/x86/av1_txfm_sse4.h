@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_TXFM_SSE4_H_
+AOM_AV1_COMMON_X86_AV1_TXFM_SSE4_H_
 #
 define
-AV1_TXFM_SSE4_H_
+AOM_AV1_COMMON_X86_AV1_TXFM_SSE4_H_
 #
 include
 <
@@ -301,6 +301,9 @@ size
 const
 int
 bit
+const
+int
+val
 )
 {
 const
@@ -309,7 +312,7 @@ sqrt2
 =
 _mm_set1_epi32
 (
-NewSqrt2
+val
 )
 ;
 if
@@ -441,4 +444,4 @@ endif
 endif
 /
 /
-AV1_TXFM_SSE4_H_
+AOM_AV1_COMMON_X86_AV1_TXFM_SSE4_H_

@@ -122,10 +122,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_ENTCODE_H_
+AOM_AOM_DSP_ENTCODE_H_
 #
 define
-AOM_DSP_ENTCODE_H_
+AOM_AOM_DSP_ENTCODE_H_
 #
 include
 <
@@ -295,4 +295,4 @@ rng
 endif
 /
 /
-AOM_DSP_ENTCODE_H_
+AOM_AOM_DSP_ENTCODE_H_

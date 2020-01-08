@@ -2338,7 +2338,6 @@ convolve_params_
 =
 get_conv_params_no_round
 (
-0
 avg_
 !
 =

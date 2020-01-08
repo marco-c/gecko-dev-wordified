@@ -7230,7 +7230,6 @@ get_conv_params
 (
 0
 0
-0
 bd
 )
 ;
@@ -9928,7 +9927,6 @@ conv_params
 =
 get_conv_params
 (
-0
 0
 0
 8

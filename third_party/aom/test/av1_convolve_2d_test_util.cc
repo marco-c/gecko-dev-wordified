@@ -629,7 +629,6 @@ conv_params1
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 NULL
@@ -643,7 +642,6 @@ conv_params2
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 NULL
@@ -1064,7 +1062,6 @@ conv_params2
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 NULL
@@ -1637,7 +1634,6 @@ conv_params1
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 output1
@@ -1651,7 +1647,6 @@ conv_params2
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 output2
@@ -2830,7 +2825,6 @@ conv_params
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 output
@@ -3300,7 +3294,6 @@ conv_params
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 NULL
@@ -3884,7 +3877,6 @@ conv_params1
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 NULL
@@ -3898,7 +3890,6 @@ conv_params2
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 NULL
@@ -4448,7 +4439,6 @@ conv_params
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 output
@@ -4925,7 +4915,6 @@ conv_params1
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 output1
@@ -4939,7 +4928,6 @@ conv_params2
 =
 get_conv_params_no_round
 (
-0
 do_average
 0
 output2

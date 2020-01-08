@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-TEST_MD5_HELPER_H_
+AOM_TEST_MD5_HELPER_H_
 #
 define
-TEST_MD5_HELPER_H_
+AOM_TEST_MD5_HELPER_H_
 #
 include
 "
@@ -578,4 +578,4 @@ libaom_test
 endif
 /
 /
-TEST_MD5_HELPER_H_
+AOM_TEST_MD5_HELPER_H_

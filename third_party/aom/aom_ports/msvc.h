@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_PORTS_MSVC_H_
+AOM_AOM_PORTS_MSVC_H_
 #
 define
-AOM_PORTS_MSVC_H_
+AOM_AOM_PORTS_MSVC_H_
 #
 ifdef
 _MSC_VER
@@ -513,4 +513,4 @@ _MSC_VER
 endif
 /
 /
-AOM_PORTS_MSVC_H_
+AOM_AOM_PORTS_MSVC_H_

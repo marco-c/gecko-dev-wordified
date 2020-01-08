@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_FWD_TXFM1D_H_
+AOM_AV1_ENCODER_AV1_FWD_TXFM1D_H_
 #
 define
-AV1_FWD_TXFM1D_H_
+AOM_AV1_ENCODER_AV1_FWD_TXFM1D_H_
 #
 include
 "
@@ -371,4 +371,4 @@ endif
 endif
 /
 /
-AV1_FWD_TXFM1D_H_
+AOM_AV1_ENCODER_AV1_FWD_TXFM1D_H_

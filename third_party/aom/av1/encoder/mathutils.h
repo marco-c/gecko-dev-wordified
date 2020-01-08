@@ -119,6 +119,12 @@ patent
 *
 /
 #
+ifndef
+AOM_AV1_ENCODER_MATHUTILS_H_
+#
+define
+AOM_AV1_ENCODER_MATHUTILS_H_
+#
 include
 <
 memory
@@ -238,7 +244,7 @@ k
 Bring
 the
 largest
-magitude
+magnitude
 to
 the
 diagonal
@@ -3701,3 +3707,8 @@ return
 0
 ;
 }
+#
+endif
+/
+/
+AOM_AV1_ENCODER_MATHUTILS_H_

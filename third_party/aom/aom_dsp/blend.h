@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_BLEND_H_
+AOM_AOM_DSP_BLEND_H_
 #
 define
-AOM_DSP_BLEND_H_
+AOM_AOM_DSP_BLEND_H_
 #
 include
 "
@@ -354,4 +354,4 @@ DIFF_FACTOR_LOG2
 endif
 /
 /
-AOM_DSP_BLEND_H_
+AOM_AOM_DSP_BLEND_H_

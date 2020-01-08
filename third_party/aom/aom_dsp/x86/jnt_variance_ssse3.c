@@ -955,6 +955,8 @@ const
 JNT_COMP_PARAMS
 *
 jcp_param
+int
+subpel_search
 )
 {
 int
@@ -977,6 +979,7 @@ subpel_x_q3
 subpel_y_q3
 ref
 ref_stride
+subpel_search
 )
 ;
 /

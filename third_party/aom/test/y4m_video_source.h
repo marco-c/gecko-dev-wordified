@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-TEST_Y4M_VIDEO_SOURCE_H_
+AOM_TEST_Y4M_VIDEO_SOURCE_H_
 #
 define
-TEST_Y4M_VIDEO_SOURCE_H_
+AOM_TEST_Y4M_VIDEO_SOURCE_H_
 #
 include
 <
@@ -745,4 +745,4 @@ libaom_test
 endif
 /
 /
-TEST_Y4M_VIDEO_SOURCE_H_
+AOM_TEST_Y4M_VIDEO_SOURCE_H_

@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_BINARY_CODES_WRITER_H_
+AOM_AOM_DSP_BINARY_CODES_WRITER_H_
 #
 define
-AOM_DSP_BINARY_CODES_WRITER_H_
+AOM_AOM_DSP_BINARY_CODES_WRITER_H_
 #
 ifdef
 __cplusplus
@@ -527,17 +527,6 @@ int16_t
 v
 )
 ;
-void
-aom_wb_write_uvlc
-(
-struct
-aom_write_bit_buffer
-*
-wb
-uint32_t
-v
-)
-;
 #
 ifdef
 __cplusplus
@@ -554,4 +543,4 @@ endif
 endif
 /
 /
-AOM_DSP_BINARY_CODES_WRITER_H_
+AOM_AOM_DSP_BINARY_CODES_WRITER_H_

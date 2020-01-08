@@ -119,6 +119,12 @@ patent
 *
 /
 #
+ifndef
+AOM_AV1_COMMON_TOKEN_CDFS_H_
+#
+define
+AOM_AV1_COMMON_TOKEN_CDFS_H_
+#
 include
 "
 config
@@ -27741,3 +27747,8 @@ AOM_CDF3
 }
 }
 ;
+#
+endif
+/
+/
+AOM_AV1_COMMON_TOKEN_CDFS_H_

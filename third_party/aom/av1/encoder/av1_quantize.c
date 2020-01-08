@@ -2316,16 +2316,6 @@ QUANT_PARAM
 qparam
 )
 {
-/
-/
-obsolete
-skip_block
-const
-int
-skip_block
-=
-0
-;
 const
 qm_val_t
 *
@@ -2364,7 +2354,6 @@ quantize_b_helper_c
 (
 coeff_ptr
 n_coeffs
-skip_block
 p
 -
 >
@@ -2422,7 +2411,6 @@ aom_quantize_b
 (
 coeff_ptr
 n_coeffs
-skip_block
 p
 -
 >
@@ -2465,7 +2453,6 @@ aom_quantize_b_32x32
 (
 coeff_ptr
 n_coeffs
-skip_block
 p
 -
 >
@@ -2508,7 +2495,6 @@ aom_quantize_b_64x64
 (
 coeff_ptr
 n_coeffs
-skip_block
 p
 -
 >
@@ -3235,16 +3221,6 @@ QUANT_PARAM
 qparam
 )
 {
-/
-/
-obsolete
-skip_block
-const
-int
-skip_block
-=
-0
-;
 const
 qm_val_t
 *
@@ -3283,7 +3259,6 @@ highbd_quantize_b_helper_c
 (
 coeff_ptr
 n_coeffs
-skip_block
 p
 -
 >
@@ -3352,7 +3327,6 @@ aom_highbd_quantize_b
 (
 coeff_ptr
 n_coeffs
-skip_block
 p
 -
 >
@@ -3416,7 +3390,6 @@ aom_highbd_quantize_b_c
 (
 coeff_ptr
 n_coeffs
-skip_block
 p
 -
 >
@@ -3460,7 +3433,6 @@ aom_highbd_quantize_b_32x32
 (
 coeff_ptr
 n_coeffs
-skip_block
 p
 -
 >
@@ -3503,7 +3475,6 @@ aom_highbd_quantize_b_64x64
 (
 coeff_ptr
 n_coeffs
-skip_block
 p
 -
 >

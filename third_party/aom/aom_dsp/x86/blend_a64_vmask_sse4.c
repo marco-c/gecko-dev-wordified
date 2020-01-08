@@ -443,7 +443,9 @@ blend_4
 (
 src0
 src1
+&
 v_m0_w
+&
 v_m1_w
 )
 ;
@@ -567,7 +569,9 @@ blend_8
 (
 src0
 src1
+&
 v_m0_w
+&
 v_m1_w
 )
 ;
@@ -709,7 +713,9 @@ c
 src1
 +
 c
+&
 v_m0_w
+&
 v_m1_w
 )
 ;
@@ -729,7 +735,9 @@ src1
 c
 +
 8
+&
 v_m0_w
+&
 v_m1_w
 )
 ;

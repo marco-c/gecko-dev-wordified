@@ -130,16 +130,7 @@ include
 "
 config
 /
-aom_dsp_rtcd
-.
-h
-"
-#
-include
-"
-aom_dsp
-/
-aom_convolve
+av1_rtcd
 .
 h
 "
@@ -764,7 +755,6 @@ uint8_t
 src
 int
 src_stride
-const
 uint8_t
 *
 dst
@@ -2114,7 +2104,6 @@ uint8_t
 src
 int
 src_stride
-const
 uint8_t
 *
 dst

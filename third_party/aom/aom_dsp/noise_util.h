@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_NOISE_UTIL_H_
+AOM_AOM_DSP_NOISE_UTIL_H_
 #
 define
-AOM_DSP_NOISE_UTIL_H_
+AOM_AOM_DSP_NOISE_UTIL_H_
 #
 ifdef
 __cplusplus
@@ -568,4 +568,4 @@ __cplusplus
 endif
 /
 /
-AOM_DSP_NOISE_UTIL_H_
+AOM_AOM_DSP_NOISE_UTIL_H_

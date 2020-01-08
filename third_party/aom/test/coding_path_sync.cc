@@ -241,8 +241,9 @@ aom_codec_iface_t
 *
 algo
 =
-&
-aom_codec_av1_cx_algo
+aom_codec_av1_cx
+(
+)
 ;
 aom_codec_enc_cfg_t
 cfg
@@ -908,8 +909,9 @@ aom_codec_iface_t
 *
 algo
 =
-&
-aom_codec_av1_dx_algo
+aom_codec_av1_dx
+(
+)
 ;
 aom_codec_dec_cfg_t
 cfg

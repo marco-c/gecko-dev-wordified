@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOMSTATS_H_
+AOM_STATS_AOMSTATS_H_
 #
 define
-AOMSTATS_H_
+AOM_STATS_AOMSTATS_H_
 #
 include
 <
@@ -264,4 +264,4 @@ endif
 endif
 /
 /
-AOMSTATS_H_
+AOM_STATS_AOMSTATS_H_

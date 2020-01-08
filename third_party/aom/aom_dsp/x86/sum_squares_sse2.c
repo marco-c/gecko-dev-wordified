@@ -153,6 +153,17 @@ h
 #
 include
 "
+aom_dsp
+/
+x86
+/
+sum_squares_sse2
+.
+h
+"
+#
+include
+"
 config
 /
 aom_dsp_rtcd
@@ -336,7 +347,6 @@ v_sq_23_d
 )
 ;
 }
-static
 uint64_t
 aom_sum_squares_2d_i16_4x4_sse2
 (
@@ -393,7 +403,6 @@ v_sum_d
 )
 ;
 }
-static
 uint64_t
 aom_sum_squares_2d_i16_4xn_sse2
 (
@@ -548,7 +557,6 @@ noinline
 )
 #
 endif
-static
 uint64_t
 aom_sum_squares_2d_i16_nxn_sse2
 (

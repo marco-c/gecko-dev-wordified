@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_COMMON_CDEF_H_
+AOM_AV1_COMMON_CDEF_H_
 #
 define
-AV1_COMMON_CDEF_H_
+AOM_AV1_COMMON_CDEF_H_
 #
 define
 CDEF_STRENGTH_BITS
@@ -364,4 +364,4 @@ endif
 endif
 /
 /
-AV1_COMMON_CDEF_H_
+AOM_AV1_COMMON_CDEF_H_

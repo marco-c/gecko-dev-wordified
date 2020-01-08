@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_SCALE_AOM_SCALE_H_
+AOM_AOM_SCALE_AOM_SCALE_H_
 #
 define
-AOM_SCALE_AOM_SCALE_H_
+AOM_AOM_SCALE_AOM_SCALE_H_
 #
 include
 "
@@ -174,4 +174,4 @@ num_planes
 endif
 /
 /
-AOM_SCALE_AOM_SCALE_H_
+AOM_AOM_SCALE_AOM_SCALE_H_

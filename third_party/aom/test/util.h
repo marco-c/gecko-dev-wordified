@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-TEST_UTIL_H_
+AOM_TEST_UTIL_H_
 #
 define
-TEST_UTIL_H_
+AOM_TEST_UTIL_H_
 #
 include
 <
@@ -464,4 +464,4 @@ t
 endif
 /
 /
-TEST_UTIL_H_
+AOM_TEST_UTIL_H_

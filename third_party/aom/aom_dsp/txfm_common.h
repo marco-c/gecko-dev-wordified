@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_TXFM_COMMON_H_
+AOM_AOM_DSP_TXFM_COMMON_H_
 #
 define
-AOM_DSP_TXFM_COMMON_H_
+AOM_AOM_DSP_TXFM_COMMON_H_
 #
 include
 "
@@ -655,4 +655,4 @@ rv
 endif
 /
 /
-AOM_DSP_TXFM_COMMON_H_
+AOM_AOM_DSP_TXFM_COMMON_H_

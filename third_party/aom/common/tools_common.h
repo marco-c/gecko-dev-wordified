@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-TOOLS_COMMON_H_
+AOM_COMMON_TOOLS_COMMON_H_
 #
 define
-TOOLS_COMMON_H_
+AOM_COMMON_TOOLS_COMMON_H_
 #
 include
 <
@@ -880,4 +880,4 @@ endif
 endif
 /
 /
-TOOLS_COMMON_H_
+AOM_COMMON_TOOLS_COMMON_H_

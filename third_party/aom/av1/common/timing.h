@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_TIMING_H_
+AOM_AV1_COMMON_TIMING_H_
 #
 define
-AOM_TIMING_H_
+AOM_AV1_COMMON_TIMING_H_
 #
 include
 "
@@ -266,4 +266,4 @@ seq_tier
 endif
 /
 /
-AOM_TIMING_H_
+AOM_AV1_COMMON_TIMING_H_

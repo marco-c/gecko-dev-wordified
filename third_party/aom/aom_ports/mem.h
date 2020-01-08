@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_PORTS_MEM_H_
+AOM_AOM_PORTS_MEM_H_
 #
 define
-AOM_PORTS_MEM_H_
+AOM_AOM_PORTS_MEM_H_
 #
 include
 "
@@ -723,4 +723,4 @@ x
 endif
 /
 /
-AOM_PORTS_MEM_H_
+AOM_AOM_PORTS_MEM_H_

@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_PORTS_ARM_H_
+AOM_AOM_PORTS_ARM_H_
 #
 define
-AOM_PORTS_ARM_H_
+AOM_AOM_PORTS_ARM_H_
 #
 include
 <
@@ -197,7 +197,7 @@ define
 HAS_NEON
 0x04
 int
-arm_cpu_caps
+aom_arm_cpu_caps
 (
 void
 )
@@ -260,4 +260,4 @@ endif
 endif
 /
 /
-AOM_PORTS_ARM_H_
+AOM_AOM_PORTS_ARM_H_

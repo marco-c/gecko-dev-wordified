@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_ENCODER_RANSAC_H_
+AOM_AV1_ENCODER_RANSAC_H_
 #
 define
-AV1_ENCODER_RANSAC_H_
+AOM_AV1_ENCODER_RANSAC_H_
 #
 include
 <
@@ -267,4 +267,4 @@ num_motions
 endif
 /
 /
-AV1_ENCODER_RANSAC_H_
+AOM_AV1_ENCODER_RANSAC_H_

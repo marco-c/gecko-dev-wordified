@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_COMMON_CFL_H_
+AOM_AV1_COMMON_CFL_H_
 #
 define
-AV1_COMMON_CFL_H_
+AOM_AV1_COMMON_CFL_H_
 #
 include
 "
@@ -2936,4 +2936,4 @@ TX_SIZES_ALL
 endif
 /
 /
-AV1_COMMON_CFL_H_
+AOM_AV1_COMMON_CFL_H_

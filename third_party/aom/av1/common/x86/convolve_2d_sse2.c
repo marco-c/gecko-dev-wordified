@@ -130,16 +130,7 @@ include
 "
 config
 /
-aom_dsp_rtcd
-.
-h
-"
-#
-include
-"
-aom_dsp
-/
-aom_convolve
+av1_rtcd
 .
 h
 "

@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_X86_CONVOLVE_SSE2_H_
+AOM_AOM_DSP_X86_CONVOLVE_SSE2_H_
 #
 define
-AOM_DSP_X86_CONVOLVE_SSE2_H_
+AOM_AOM_DSP_X86_CONVOLVE_SSE2_H_
 /
 /
 Note
@@ -920,3 +920,6 @@ res_round
 }
 #
 endif
+/
+/
+AOM_AOM_DSP_X86_CONVOLVE_SSE2_H_

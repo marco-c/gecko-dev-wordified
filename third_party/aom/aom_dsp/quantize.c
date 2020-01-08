@@ -145,8 +145,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -291,12 +289,6 @@ dqcoeff_ptr
 )
 )
 ;
-if
-(
-!
-skip_block
-)
-{
 /
 /
 Pre
@@ -721,7 +713,6 @@ i
 ;
 }
 }
-}
 *
 eob_ptr
 =
@@ -739,8 +730,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -893,12 +882,6 @@ dqcoeff_ptr
 )
 )
 ;
-if
-(
-!
-skip_block
-)
-{
 /
 /
 Pre
@@ -1327,7 +1310,6 @@ i
 ]
 ;
 }
-}
 *
 eob_ptr
 =
@@ -1362,8 +1344,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -1407,7 +1387,6 @@ quantize_b_helper_c
 (
 coeff_ptr
 n_coeffs
-skip_block
 zbin_ptr
 round_ptr
 quant_ptr
@@ -1433,8 +1412,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -1478,7 +1455,6 @@ quantize_b_helper_c
 (
 coeff_ptr
 n_coeffs
-skip_block
 zbin_ptr
 round_ptr
 quant_ptr
@@ -1504,8 +1480,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -1549,7 +1523,6 @@ quantize_b_helper_c
 (
 coeff_ptr
 n_coeffs
-skip_block
 zbin_ptr
 round_ptr
 quant_ptr
@@ -1575,8 +1548,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -1620,7 +1591,6 @@ highbd_quantize_b_helper_c
 (
 coeff_ptr
 n_coeffs
-skip_block
 zbin_ptr
 round_ptr
 quant_ptr
@@ -1646,8 +1616,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -1691,7 +1659,6 @@ highbd_quantize_b_helper_c
 (
 coeff_ptr
 n_coeffs
-skip_block
 zbin_ptr
 round_ptr
 quant_ptr
@@ -1717,8 +1684,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -1762,7 +1727,6 @@ highbd_quantize_b_helper_c
 (
 coeff_ptr
 n_coeffs
-skip_block
 zbin_ptr
 round_ptr
 quant_ptr

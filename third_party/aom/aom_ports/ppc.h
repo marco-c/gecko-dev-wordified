@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_PORTS_PPC_H_
+AOM_AOM_PORTS_PPC_H_
 #
 define
-AOM_PORTS_PPC_H_
+AOM_AOM_PORTS_PPC_H_
 #
 include
 <
@@ -176,4 +176,4 @@ endif
 endif
 /
 /
-AOM_PORTS_PPC_H_
+AOM_AOM_PORTS_PPC_H_

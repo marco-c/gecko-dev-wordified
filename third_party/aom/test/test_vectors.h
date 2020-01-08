@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-TEST_TEST_VECTORS_H_
+AOM_TEST_TEST_VECTORS_H_
 #
 define
-TEST_TEST_VECTORS_H_
+AOM_TEST_TEST_VECTORS_H_
 #
 include
 "
@@ -164,4 +164,4 @@ libaom_test
 endif
 /
 /
-TEST_TEST_VECTORS_H_
+AOM_TEST_TEST_VECTORS_H_

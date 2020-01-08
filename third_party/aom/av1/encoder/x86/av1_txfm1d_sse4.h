@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_TXMF1D_SSE2_H_
+AOM_AV1_ENCODER_X86_AV1_TXFM1D_SSE4_H_
 #
 define
-AV1_TXMF1D_SSE2_H_
+AOM_AV1_ENCODER_X86_AV1_TXFM1D_SSE4_H_
 #
 include
 <
@@ -248,6 +248,12 @@ __m128i
 output
 int8_t
 cos_bit
+const
+int
+instride
+const
+int
+outstride
 )
 ;
 void
@@ -1163,4 +1169,4 @@ endif
 endif
 /
 /
-AV1_TXMF1D_SSE2_H_
+AOM_AV1_ENCODER_X86_AV1_TXFM1D_SSE4_H_

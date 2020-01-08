@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_ENCODER_PALETTE_H_
+AOM_AV1_ENCODER_PALETTE_H_
 #
 define
-AV1_ENCODER_PALETTE_H_
+AOM_AV1_ENCODER_PALETTE_H_
 #
 include
 "
@@ -801,7 +801,5 @@ endif
 #
 endif
 /
-*
-AV1_ENCODER_PALETTE_H_
-*
 /
+AOM_AV1_ENCODER_PALETTE_H_

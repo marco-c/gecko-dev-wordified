@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_ENCODER_HASH_MOTION_H_
+AOM_AV1_ENCODER_HASH_MOTION_H_
 #
 define
-AV1_ENCODER_HASH_MOTION_H_
+AOM_AV1_ENCODER_HASH_MOTION_H_
 #
 include
 "
@@ -242,6 +242,10 @@ av1_hash_table_init
 hash_table
 *
 p_hash_table
+struct
+macroblock
+*
+x
 )
 ;
 void
@@ -311,6 +315,10 @@ pic_block_same_info
 [
 3
 ]
+struct
+macroblock
+*
+x
 )
 ;
 void
@@ -346,6 +354,10 @@ dst_pic_block_same_info
 [
 3
 ]
+struct
+macroblock
+*
+x
 )
 ;
 void
@@ -475,6 +487,10 @@ uint32_t
 hash_value2
 int
 use_highbitdepth
+struct
+macroblock
+*
+x
 )
 ;
 #
@@ -493,4 +509,4 @@ endif
 endif
 /
 /
-AV1_ENCODER_HASH_MOTION_H_
+AOM_AV1_ENCODER_HASH_MOTION_H_

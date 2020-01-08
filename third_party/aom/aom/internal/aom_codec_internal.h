@@ -288,7 +288,7 @@ initialized
 the
 instance
 is
-manged
+managed
 using
 other
 functions
@@ -303,10 +303,10 @@ family
 /
 #
 ifndef
-AOM_INTERNAL_AOM_CODEC_INTERNAL_H_
+AOM_AOM_INTERNAL_AOM_CODEC_INTERNAL_H_
 #
 define
-AOM_INTERNAL_AOM_CODEC_INTERNAL_H_
+AOM_AOM_INTERNAL_AOM_CODEC_INTERNAL_H_
 #
 include
 "
@@ -2982,4 +2982,4 @@ endif
 endif
 /
 /
-AOM_INTERNAL_AOM_CODEC_INTERNAL_H_
+AOM_AOM_INTERNAL_AOM_CODEC_INTERNAL_H_

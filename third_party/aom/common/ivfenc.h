@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-IVFENC_H_
+AOM_COMMON_IVFENC_H_
 #
 define
-IVFENC_H_
+AOM_COMMON_IVFENC_H_
 #
 include
 "
@@ -206,4 +206,4 @@ endif
 endif
 /
 /
-IVFENC_H_
+AOM_COMMON_IVFENC_H_

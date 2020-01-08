@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_COMMON_AV1_CONVOLVE_H_
+AOM_AV1_COMMON_CONVOLVE_H_
 #
 define
-AV1_COMMON_AV1_CONVOLVE_H_
+AOM_AV1_COMMON_CONVOLVE_H_
 #
 include
 "
@@ -153,9 +153,6 @@ typedef
 struct
 ConvolveParams
 {
-int
-ref
-;
 int
 do_average
 ;
@@ -355,6 +352,8 @@ struct
 scale_factors
 *
 sf
+int
+is_intrabc
 )
 ;
 static
@@ -362,8 +361,6 @@ INLINE
 ConvolveParams
 get_conv_params_no_round
 (
-int
-ref
 int
 do_average
 int
@@ -381,12 +378,6 @@ bd
 {
 ConvolveParams
 conv_params
-;
-conv_params
-.
-ref
-=
-ref
 ;
 conv_params
 .
@@ -539,8 +530,6 @@ ConvolveParams
 get_conv_params
 (
 int
-ref
-int
 do_average
 int
 plane
@@ -551,7 +540,6 @@ bd
 return
 get_conv_params_no_round
 (
-ref
 do_average
 plane
 NULL
@@ -577,12 +565,6 @@ conv_params
 void
 )
 bd
-;
-conv_params
-.
-ref
-=
-0
 ;
 conv_params
 .
@@ -731,6 +713,8 @@ scale_factors
 *
 sf
 int
+is_intrabc
+int
 bd
 )
 ;
@@ -750,4 +734,4 @@ endif
 endif
 /
 /
-AV1_COMMON_AV1_CONVOLVE_H_
+AOM_AV1_COMMON_CONVOLVE_H_

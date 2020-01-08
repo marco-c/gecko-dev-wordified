@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_AOM_DSP_COMMON_H_
+AOM_AOM_DSP_AOM_DSP_COMMON_H_
 #
 define
-AOM_DSP_AOM_DSP_COMMON_H_
+AOM_AOM_DSP_AOM_DSP_COMMON_H_
 #
 include
 "
@@ -791,4 +791,4 @@ endif
 endif
 /
 /
-AOM_DSP_AOM_DSP_COMMON_H_
+AOM_AOM_DSP_AOM_DSP_COMMON_H_

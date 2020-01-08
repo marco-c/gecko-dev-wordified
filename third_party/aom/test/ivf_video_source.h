@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-TEST_IVF_VIDEO_SOURCE_H_
+AOM_TEST_IVF_VIDEO_SOURCE_H_
 #
 define
-TEST_IVF_VIDEO_SOURCE_H_
+AOM_TEST_IVF_VIDEO_SOURCE_H_
 #
 include
 <
@@ -726,4 +726,4 @@ libaom_test
 endif
 /
 /
-TEST_IVF_VIDEO_SOURCE_H_
+AOM_TEST_IVF_VIDEO_SOURCE_H_

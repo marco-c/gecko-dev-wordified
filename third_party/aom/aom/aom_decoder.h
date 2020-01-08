@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_AOM_DECODER_H_
+AOM_AOM_AOM_DECODER_H_
 #
 define
-AOM_AOM_DECODER_H_
+AOM_AOM_AOM_DECODER_H_
 /
 *
 !
@@ -2668,4 +2668,4 @@ endif
 endif
 /
 /
-AOM_AOM_DECODER_H_
+AOM_AOM_AOM_DECODER_H_

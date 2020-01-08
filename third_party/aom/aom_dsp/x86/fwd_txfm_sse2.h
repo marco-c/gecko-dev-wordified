@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_X86_FWD_TXFM_SSE2_H_
+AOM_AOM_DSP_X86_FWD_TXFM_SSE2_H_
 #
 define
-AOM_DSP_X86_FWD_TXFM_SSE2_H_
+AOM_AOM_DSP_X86_FWD_TXFM_SSE2_H_
 #
 ifdef
 __cplusplus
@@ -1155,4 +1155,4 @@ endif
 endif
 /
 /
-AOM_DSP_X86_FWD_TXFM_SSE2_H_
+AOM_AOM_DSP_X86_FWD_TXFM_SSE2_H_

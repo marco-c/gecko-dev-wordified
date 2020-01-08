@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-ENCODETXB_H_
+AOM_AV1_ENCODER_ENCODETXB_H_
 #
 define
-ENCODETXB_H_
+AOM_AV1_ENCODER_ENCODETXB_H_
 #
 include
 "
@@ -543,4 +543,4 @@ endif
 endif
 /
 /
-COEFFS_CODING_H_
+AOM_AV1_ENCODER_ENCODETXB_H_

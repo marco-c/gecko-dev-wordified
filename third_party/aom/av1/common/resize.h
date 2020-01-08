@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_ENCODER_RESIZE_H_
+AOM_AV1_COMMON_RESIZE_H_
 #
 define
-AV1_ENCODER_RESIZE_H_
+AOM_AV1_COMMON_RESIZE_H_
 #
 include
 <
@@ -814,4 +814,4 @@ endif
 endif
 /
 /
-AV1_ENCODER_RESIZE_H_
+AOM_AV1_COMMON_RESIZE_H_

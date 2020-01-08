@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-OBUDEC_H_
+AOM_COMMON_OBUDEC_H_
 #
 define
-OBUDEC_H_
+AOM_COMMON_OBUDEC_H_
 #
 include
 "
@@ -341,4 +341,4 @@ endif
 endif
 /
 /
-OBUDEC_H_
+AOM_COMMON_OBUDEC_H_

@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_ENCODER_EXTEND_H_
+AOM_AV1_ENCODER_EXTEND_H_
 #
 define
-AV1_ENCODER_EXTEND_H_
+AOM_AV1_ENCODER_EXTEND_H_
 #
 include
 "
@@ -200,4 +200,4 @@ endif
 endif
 /
 /
-AV1_ENCODER_EXTEND_H_
+AOM_AV1_ENCODER_EXTEND_H_

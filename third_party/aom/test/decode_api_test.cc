@@ -193,8 +193,9 @@ kCodecs
 #
 if
 CONFIG_AV1_DECODER
-&
-aom_codec_av1_dx_algo
+aom_codec_av1_dx
+(
+)
 #
 endif
 }

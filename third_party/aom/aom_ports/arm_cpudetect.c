@@ -282,7 +282,7 @@ if
 !
 CONFIG_RUNTIME_CPU_DETECT
 int
-arm_cpu_caps
+aom_arm_cpu_caps
 (
 void
 )
@@ -410,7 +410,7 @@ windows
 h
 >
 int
-arm_cpu_caps
+aom_arm_cpu_caps
 (
 void
 )
@@ -562,7 +562,7 @@ features
 h
 >
 int
-arm_cpu_caps
+aom_arm_cpu_caps
 (
 void
 )
@@ -649,7 +649,7 @@ stdio
 h
 >
 int
-arm_cpu_caps
+aom_arm_cpu_caps
 (
 void
 )

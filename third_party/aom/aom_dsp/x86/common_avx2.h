@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_X86_COMMON_AVX2_H
+AOM_AOM_DSP_X86_COMMON_AVX2_H_
 #
 define
-AOM_DSP_X86_COMMON_AVX2_H
+AOM_AOM_DSP_X86_COMMON_AVX2_H_
 #
 include
 <
@@ -1745,3 +1745,6 @@ tr0_f
 }
 #
 endif
+/
+/
+AOM_AOM_DSP_X86_COMMON_AVX2_H_

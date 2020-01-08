@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_DSP_BINARY_CODES_READER_H_
+AOM_AOM_DSP_BINARY_CODES_READER_H_
 #
 define
-AOM_DSP_BINARY_CODES_READER_H_
+AOM_AOM_DSP_BINARY_CODES_READER_H_
 #
 ifdef
 __cplusplus
@@ -291,15 +291,6 @@ int16_t
 ref
 )
 ;
-uint32_t
-aom_rb_read_uvlc
-(
-struct
-aom_read_bit_buffer
-*
-rb
-)
-;
 #
 ifdef
 __cplusplus
@@ -316,4 +307,4 @@ endif
 endif
 /
 /
-AOM_DSP_BINARY_CODES_READER_H_
+AOM_AOM_DSP_BINARY_CODES_READER_H_

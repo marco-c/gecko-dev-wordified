@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_COMMON_SCAN_H_
+AOM_AV1_COMMON_SCAN_H_
 #
 define
-AV1_COMMON_SCAN_H_
+AOM_AV1_COMMON_SCAN_H_
 #
 include
 "
@@ -294,4 +294,4 @@ endif
 endif
 /
 /
-AV1_COMMON_SCAN_H_
+AOM_AV1_COMMON_SCAN_H_

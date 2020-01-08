@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AOM_INSPECTION_H_
+AOM_AV1_DECODER_INSPECTION_H_
 #
 define
-AOM_INSPECTION_H_
+AOM_AV1_DECODER_INSPECTION_H_
 #
 ifdef
 __cplusplus
@@ -406,4 +406,4 @@ __cplusplus
 endif
 /
 /
-AOM_INSPECTION_H_
+AOM_AV1_DECODER_INSPECTION_H_

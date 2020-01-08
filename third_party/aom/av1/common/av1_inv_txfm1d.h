@@ -120,10 +120,10 @@ patent
 /
 #
 ifndef
-AV1_INV_TXFM1D_H_
+AOM_AV1_COMMON_AV1_INV_TXFM1D_H_
 #
 define
-AV1_INV_TXFM1D_H_
+AOM_AV1_COMMON_AV1_INV_TXFM1D_H_
 #
 include
 "
@@ -490,4 +490,4 @@ endif
 endif
 /
 /
-AV1_INV_TXFM1D_H_
+AOM_AV1_COMMON_AV1_INV_TXFM1D_H_
