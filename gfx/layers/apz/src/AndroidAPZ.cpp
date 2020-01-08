@@ -1978,7 +1978,7 @@ SetVelocityVector
 velocity
 )
 ;
-aFrameMetrics
+mApzc
 .
 SetScrollOffset
 (
