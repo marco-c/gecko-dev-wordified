@@ -1524,7 +1524,7 @@ override
 NS_IMETHOD
 CheckVisibility
 (
-nsIDOMNode
+nsINode
 *
 node
 int16_t

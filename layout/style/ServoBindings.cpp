@@ -231,13 +231,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIDocumentInlines
 .
 h

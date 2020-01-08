@@ -452,9 +452,6 @@ class
 nsIReflowCallback
 ;
 class
-nsIDOMNode
-;
-class
 nsCSSFrameConstructor
 ;
 template
