@@ -189,13 +189,6 @@ endif
 #
 include
 "
-nsIDOMXULDescriptionElement
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h
