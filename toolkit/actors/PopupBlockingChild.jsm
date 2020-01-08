@@ -139,12 +139,12 @@ ActorChild
 {
 constructor
 (
-mm
+dispatcher
 )
 {
 super
 (
-mm
+dispatcher
 )
 ;
 this
@@ -159,6 +159,8 @@ popupDataInternal
 =
 null
 ;
+this
+.
 mm
 .
 addEventListener
@@ -170,6 +172,8 @@ this
 true
 )
 ;
+this
+.
 mm
 .
 addEventListener
@@ -181,6 +185,8 @@ this
 true
 )
 ;
+this
+.
 mm
 .
 addMessageListener
@@ -193,6 +199,8 @@ UnblockPopup
 this
 )
 ;
+this
+.
 mm
 .
 addMessageListener

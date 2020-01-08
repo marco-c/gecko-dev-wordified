@@ -244,12 +244,12 @@ ActorChild
 {
 constructor
 (
-mm
+dispatcher
 )
 {
 super
 (
-mm
+dispatcher
 )
 ;
 this
@@ -259,7 +259,7 @@ _finder
 new
 Finder
 (
-mm
+this
 .
 docShell
 )
@@ -281,6 +281,8 @@ of
 MESSAGES
 )
 {
+this
+.
 mm
 .
 addMessageListener
