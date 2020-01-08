@@ -1383,6 +1383,8 @@ getCookiesFromHost
 uri
 .
 host
+{
+}
 )
 ;
 /
@@ -1415,6 +1417,8 @@ getCookiesFromHost
 uri2
 .
 host
+{
+}
 )
 ;
 let
