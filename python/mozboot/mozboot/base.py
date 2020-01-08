@@ -2171,6 +2171,8 @@ which
 (
 self
 name
+*
+extra_search_dirs
 )
 :
         
@@ -2205,9 +2207,8 @@ found
 "
 "
         
-for
-path
-in
+search_dirs
+=
 os
 .
 environ
@@ -2223,6 +2224,18 @@ os
 .
 pathsep
 )
+        
+search_dirs
+.
+extend
+(
+extra_search_dirs
+)
+        
+for
+path
+in
+search_dirs
 :
             
 test
@@ -3962,6 +3975,7 @@ def
 is_rust_modern
 (
 self
+cargo_bin
 )
 :
         
@@ -3974,6 +3988,7 @@ which
 '
 rustc
 '
+cargo_bin
 )
         
 if
@@ -4344,6 +4359,15 @@ self
 )
 :
         
+cargo_home
+cargo_bin
+=
+self
+.
+cargo_home
+(
+)
+        
 modern
 version
 =
@@ -4351,6 +4375,7 @@ self
 .
 is_rust_modern
 (
+cargo_bin
 )
         
 if
@@ -4386,6 +4411,7 @@ which
 '
 rustup
 '
+cargo_bin
 )
             
 if
@@ -4402,119 +4428,7 @@ rustup
 return
         
 if
-not
 version
-:
-            
-#
-Rust
-wasn
-'
-t
-in
-PATH
-.
-Check
-the
-standard
-location
-.
-            
-cargo_home
-cargo_bin
-=
-self
-.
-cargo_home
-(
-)
-            
-try_rustc
-=
-os
-.
-path
-.
-join
-(
-cargo_bin
-'
-rustc
-'
-+
-rust
-.
-exe_suffix
-(
-)
-)
-            
-try_cargo
-=
-os
-.
-path
-.
-join
-(
-cargo_bin
-'
-cargo
-'
-+
-rust
-.
-exe_suffix
-(
-)
-)
-            
-have_rustc
-=
-os
-.
-path
-.
-exists
-(
-try_rustc
-)
-            
-have_cargo
-=
-os
-.
-path
-.
-exists
-(
-try_cargo
-)
-            
-if
-have_rustc
-or
-have_cargo
-:
-                
-self
-.
-print_rust_path_advice
-(
-RUST_NOT_IN_PATH
-                                            
-cargo_home
-cargo_bin
-)
-                
-sys
-.
-exit
-(
-1
-)
-        
-else
 :
             
 print
@@ -4546,6 +4460,7 @@ which
 '
 rustup
 '
+cargo_bin
 )
         
 if
@@ -4606,6 +4521,7 @@ self
 .
 is_rust_modern
 (
+cargo_bin
 )
             
 if
