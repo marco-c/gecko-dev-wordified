@@ -375,11 +375,6 @@ chrome
 :
 true
 client
-isBrowsingContext
-:
-addonForm
-.
-isWebExtension
 }
 ;
 const

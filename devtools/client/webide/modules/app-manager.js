@@ -2225,9 +2225,6 @@ client
 chrome
 :
 true
-isBrowsingContext
-:
-false
 }
 )
 ;

@@ -4665,9 +4665,6 @@ client
 chrome
 :
 true
-isBrowsingContext
-:
-false
 }
 ;
 let

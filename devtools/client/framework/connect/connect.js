@@ -1318,13 +1318,6 @@ function
 (
 )
 {
-const
-isBrowsingContext
-=
-addon
-.
-isWebExtension
-;
 openToolbox
 (
 addon
@@ -1332,7 +1325,6 @@ true
 "
 webconsole
 "
-isBrowsingContext
 )
 ;
 }
@@ -1642,7 +1634,6 @@ tool
 "
 webconsole
 "
-isBrowsingContext
 )
 {
 const
@@ -1658,9 +1649,6 @@ gClient
 chrome
 :
 chrome
-isBrowsingContext
-:
-isBrowsingContext
 }
 ;
 TargetFactory
