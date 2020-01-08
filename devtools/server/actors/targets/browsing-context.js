@@ -100,7 +100,7 @@ by
 FrameTargetActor
 ChromeActor
 and
-WindowActor
+ChromeWindowTargetActor
 .
 *
 *

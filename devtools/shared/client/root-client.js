@@ -1516,7 +1516,7 @@ packet
 *
 Fetch
 the
-WindowActor
+ChromeWindowTargetActor
 for
 a
 specific
