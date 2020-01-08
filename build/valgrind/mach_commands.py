@@ -805,6 +805,16 @@ valgrind
 '
 -
 -
+sym
+-
+offsets
+=
+yes
+'
+                
+'
+-
+-
 smc
 -
 check
