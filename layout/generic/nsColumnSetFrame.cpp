@@ -9346,7 +9346,7 @@ nsContainerFrame
 :
 SetInitialChildList
 (
-kPrincipalList
+aListID
 aChildList
 )
 ;
