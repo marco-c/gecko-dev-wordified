@@ -8889,7 +8889,7 @@ endif
 ifdef
 JS_CRASH_DIAGNOSTICS
 void
-CompartmentChecker
+ContextChecks
 :
 :
 check
@@ -8918,7 +8918,7 @@ argIndex
 ;
 }
 void
-CompartmentChecker
+ContextChecks
 :
 :
 check
