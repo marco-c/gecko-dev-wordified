@@ -34715,10 +34715,10 @@ true
 Is
 support
 for
-CSS
-Scrollbar
+scrollbar
+-
 color
-properties
+property
 enabled
 ?
 pref
@@ -34730,7 +34730,7 @@ css
 .
 scrollbar
 -
-colors
+color
 .
 enabled
 "
