@@ -850,6 +850,19 @@ sauce_connect_binary
         
 self
 .
+sauce_init_timeout
+=
+kwargs
+.
+get
+(
+"
+sauce_init_timeout
+"
+)
+        
+self
+.
 sc_process
 =
 None
@@ -1219,15 +1232,6 @@ domains_set
 ]
 )
         
-#
-Timeout
-config
-vars
-        
-max_wait
-=
-30
-        
 tot_wait
 =
 0
@@ -1262,7 +1266,9 @@ if
 tot_wait
 >
 =
-max_wait
+self
+.
+sauce_init_timeout
 :
                 
 self
