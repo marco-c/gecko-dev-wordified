@@ -1295,10 +1295,8 @@ rev
 )
 )
         
-local_tree
-.
-add_new
-(
+test_prefix
+=
 os
 .
 path
@@ -1308,11 +1306,24 @@ relpath
 state
 .
 tests_path
-                                           
 local_tree
 .
 root
 )
+        
+local_tree
+.
+add_new
+(
+test_prefix
+)
+        
+local_tree
+.
+add_ignored
+(
+sync_tree
+test_prefix
 )
         
 updated
