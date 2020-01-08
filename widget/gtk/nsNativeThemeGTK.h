@@ -481,6 +481,13 @@ nsIntMargin
 aExtra
 )
 ;
+bool
+IsWidgetVisible
+(
+WidgetType
+aWidgetType
+)
+;
 void
 RefreshWidgetWindow
 (
