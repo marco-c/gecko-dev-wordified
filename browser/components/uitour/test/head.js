@@ -2152,6 +2152,10 @@ resolve
 let
 argumentsWithFunctions
 =
+Cu
+.
+cloneInto
+(
 contentArgs
 .
 args
@@ -2235,6 +2239,13 @@ resolveCallbackPromise
 return
 arg
 ;
+}
+)
+content
+{
+cloneFunctions
+:
+true
 }
 )
 ;
