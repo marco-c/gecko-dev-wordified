@@ -280,6 +280,8 @@ getCurrentClient
 getState
 (
 )
+.
+runtimes
 )
 ;
 gDevToolsBrowser
@@ -416,6 +418,8 @@ getCurrentClient
 getState
 (
 )
+.
+runtimes
 )
 ;
 try
@@ -477,6 +481,8 @@ getCurrentClient
 getState
 (
 )
+.
+runtimes
 )
 ;
 try
@@ -584,6 +590,8 @@ getCurrentClient
 getState
 (
 )
+.
+runtimes
 )
 ;
 try
@@ -670,6 +678,8 @@ getCurrentClient
 getState
 (
 )
+.
+runtimes
 )
 ;
 try
@@ -798,6 +808,8 @@ getCurrentClient
 getState
 (
 )
+.
+runtimes
 )
 ;
 try
@@ -883,6 +895,8 @@ getCurrentClient
 getState
 (
 )
+.
+runtimes
 )
 ;
 try
