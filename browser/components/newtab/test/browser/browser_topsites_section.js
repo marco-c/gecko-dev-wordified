@@ -716,8 +716,6 @@ let
 event
 =
 new
-content
-.
 Event
 (
 "
