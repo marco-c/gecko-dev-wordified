@@ -2509,7 +2509,6 @@ document
 explanation
 pingLink
 pingNameSpan
-pingTypeText
 )
 ;
 }
