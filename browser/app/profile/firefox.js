@@ -974,9 +974,6 @@ true
 ;
 #
 endif
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -993,8 +990,6 @@ startup
 true
 )
 ;
-#
-endif
 /
 /
 Extensions
