@@ -4524,7 +4524,10 @@ NS_LITERAL_STRING
 keystatuseschange
 "
 )
-false
+CanBubble
+:
+:
+eNo
 )
 ;
 asyncDispatcher

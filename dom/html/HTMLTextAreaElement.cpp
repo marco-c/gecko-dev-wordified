@@ -2765,8 +2765,14 @@ NS_LITERAL_STRING
 change
 "
 )
-true
-false
+CanBubble
+:
+:
+eYes
+Cancelable
+:
+:
+eNo
 )
 ;
 }

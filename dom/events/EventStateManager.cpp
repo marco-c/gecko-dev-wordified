@@ -14245,8 +14245,14 @@ NS_LITERAL_STRING
 ZoomChangeUsingMouseWheel
 "
 )
-true
-true
+CanBubble
+:
+:
+eYes
+Cancelable
+:
+:
+eYes
 )
 ;
 }

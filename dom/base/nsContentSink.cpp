@@ -9066,8 +9066,14 @@ NS_LITERAL_STRING
 DOMDocElementInserted
 "
 )
-true
-false
+CanBubble
+:
+:
+eYes
+Cancelable
+:
+:
+eNo
 )
 ;
 }

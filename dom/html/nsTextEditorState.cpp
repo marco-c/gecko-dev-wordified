@@ -8977,8 +8977,14 @@ NS_LITERAL_STRING
 select
 "
 )
-true
-false
+CanBubble
+:
+:
+eYes
+ChromeOnlyDispatch
+:
+:
+eNo
 )
 ;
 asyncDispatcher

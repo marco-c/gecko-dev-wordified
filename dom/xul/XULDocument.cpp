@@ -16471,8 +16471,14 @@ NS_LITERAL_STRING
 MozBeforeInitialXULLayout
 "
 )
-true
-false
+CanBubble
+:
+:
+eYes
+Cancelable
+:
+:
+eNo
 )
 ;
 /

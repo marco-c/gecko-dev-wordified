@@ -1292,8 +1292,14 @@ AsyncEventDispatcher
 (
 this
 aEventName
-true
-true
+CanBubble
+:
+:
+eYes
+ChromeOnlyDispatch
+:
+:
+eYes
 )
 ;
 /

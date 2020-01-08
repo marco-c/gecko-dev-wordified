@@ -224,8 +224,14 @@ AsyncEventDispatcher
 (
 target
 aEventType
-true
-false
+CanBubble
+:
+:
+eYes
+ChromeOnlyDispatch
+:
+:
+eNo
 )
 ;
 return

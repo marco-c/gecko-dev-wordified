@@ -10431,7 +10431,10 @@ NS_LITERAL_STRING
 loading
 "
 )
-false
+CanBubble
+:
+:
+eNo
 )
 )
 -

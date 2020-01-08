@@ -2050,8 +2050,14 @@ NS_LITERAL_STRING
 error
 "
 )
-false
-false
+CanBubble
+:
+:
+eNo
+ChromeOnlyDispatch
+:
+:
+eNo
 )
 ;
 loadBlockingAsyncDispatcher

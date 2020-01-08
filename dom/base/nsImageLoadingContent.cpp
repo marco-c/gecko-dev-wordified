@@ -6793,8 +6793,14 @@ LoadBlockingAsyncEventDispatcher
 (
 thisNode
 aEventType
-false
-false
+CanBubble
+:
+:
+eNo
+ChromeOnlyDispatch
+:
+:
+eNo
 )
 ;
 loadBlockingAsyncDispatcher

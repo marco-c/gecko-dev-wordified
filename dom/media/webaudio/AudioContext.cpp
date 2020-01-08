@@ -4425,8 +4425,14 @@ NS_LITERAL_STRING
 statechange
 "
 )
-false
-false
+CanBubble
+:
+:
+eNo
+Cancelable
+:
+:
+eNo
 )
 ;
 }

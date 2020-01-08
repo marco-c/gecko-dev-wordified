@@ -1805,8 +1805,14 @@ NS_LITERAL_STRING
 MozUpdateWindowPos
 "
 )
-false
-false
+CanBubble
+:
+:
+eNo
+Cancelable
+:
+:
+eNo
 nullptr
 )
 ;

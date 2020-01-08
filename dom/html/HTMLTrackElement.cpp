@@ -2524,8 +2524,14 @@ nsIContent
 this
 )
 aName
-false
-false
+CanBubble
+:
+:
+eNo
+Cancelable
+:
+:
+eNo
 )
 ;
 }

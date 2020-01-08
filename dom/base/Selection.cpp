@@ -6303,8 +6303,14 @@ NS_LITERAL_STRING
 selectstart
 "
 )
-true
-true
+CanBubble
+:
+:
+eYes
+Cancelable
+:
+:
+eYes
 &
 defaultAction
 )

@@ -864,9 +864,15 @@ const
 nsAString
 &
 aType
-bool
+mozilla
+:
+:
+CanBubble
 aCanBubble
-bool
+mozilla
+:
+:
+Cancelable
 aCancelable
 JS
 :

@@ -8057,8 +8057,14 @@ message
 -
 >
 mEventName
-false
-false
+CanBubble
+:
+:
+eNo
+Cancelable
+:
+:
+eNo
 jsData
 mOrigin
 message
