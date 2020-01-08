@@ -437,10 +437,7 @@ dragOnCurrentTimeScrubber
 (
 animationInspector
 panel
-0
-.
 5
-2
 30
 )
 ;
