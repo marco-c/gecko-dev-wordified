@@ -9421,7 +9421,7 @@ Refcountable
 <
 UniquePtr
 <
-SourceSet
+MediaDeviceSet
 >
 >
 >
@@ -10035,9 +10035,9 @@ aIsChrome
 MediaManager
 :
 :
-SourceSet
+MediaDeviceSet
 *
-aSourceSet
+aMediaDeviceSet
 bool
 aShouldFocusSource
 )
@@ -10092,9 +10092,9 @@ mDeviceChosen
 (
 false
 )
-mSourceSet
+mMediaDeviceSet
 (
-aSourceSet
+aMediaDeviceSet
 )
 mManager
 (
@@ -11025,9 +11025,9 @@ nsAutoPtr
 MediaManager
 :
 :
-SourceSet
+MediaDeviceSet
 >
-mSourceSet
+mMediaDeviceSet
 ;
 private
 :
@@ -11163,7 +11163,7 @@ already_AddRefed
 MediaManager
 :
 :
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 MediaManager
 :
@@ -11522,12 +11522,12 @@ aAudioInputEnumType
 ;
 RefPtr
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 p
 =
 new
-PledgeSourceSet
+PledgeMediaDeviceSet
 (
 )
 ;
@@ -11848,7 +11848,7 @@ result
 =
 MakeUnique
 <
-SourceSet
+MediaDeviceSet
 >
 (
 )
@@ -11858,7 +11858,7 @@ if
 hasVideo
 )
 {
-SourceSet
+MediaDeviceSet
 videos
 ;
 LOG
@@ -11931,7 +11931,7 @@ if
 hasAudio
 )
 {
-SourceSet
+MediaDeviceSet
 audios
 ;
 LOG
@@ -12004,7 +12004,7 @@ if
 hasAudioOutput
 )
 {
-SourceSet
+MediaDeviceSet
 outputs
 ;
 MOZ_ASSERT
@@ -12082,7 +12082,7 @@ NS_OK
 }
 RefPtr
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 p
 =
@@ -14400,7 +14400,7 @@ PR_MillisecondsToInterval
 ;
 RefPtr
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 p
 =
@@ -14433,7 +14433,7 @@ Then
 self
 ]
 (
-SourceSet
+MediaDeviceSet
 *
 &
 aDevices
@@ -14442,7 +14442,7 @@ mutable
 {
 UniquePtr
 <
-SourceSet
+MediaDeviceSet
 >
 devices
 (
@@ -17791,7 +17791,7 @@ false
 ;
 RefPtr
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 p
 =
@@ -17839,7 +17839,7 @@ isChrome
 resistFingerprinting
 ]
 (
-SourceSet
+MediaDeviceSet
 *
 &
 aDevices
@@ -17875,7 +17875,7 @@ Refcountable
 <
 UniquePtr
 <
-SourceSet
+MediaDeviceSet
 >
 >
 >
@@ -18729,7 +18729,7 @@ MediaManager
 :
 AnonymizeDevices
 (
-SourceSet
+MediaDeviceSet
 &
 aDevices
 const
@@ -19067,7 +19067,7 @@ MediaManager
 :
 ToJSArray
 (
-SourceSet
+MediaDeviceSet
 &
 aDevices
 )
@@ -19228,7 +19228,7 @@ already_AddRefed
 MediaManager
 :
 :
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 MediaManager
 :
@@ -19360,12 +19360,12 @@ future
 result
 RefPtr
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 pledge
 =
 new
-PledgeSourceSet
+PledgeMediaDeviceSet
 (
 )
 ;
@@ -19488,12 +19488,12 @@ rv
 {
 RefPtr
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 p
 =
 new
-PledgeSourceSet
+PledgeMediaDeviceSet
 (
 )
 ;
@@ -19673,7 +19673,7 @@ return
 }
 RefPtr
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 p
 =
@@ -19705,7 +19705,7 @@ aVideoInputType
 aAudioInputType
 ]
 (
-SourceSet
+MediaDeviceSet
 *
 &
 aDevices
@@ -19714,7 +19714,7 @@ mutable
 {
 UniquePtr
 <
-SourceSet
+MediaDeviceSet
 >
 devices
 (
@@ -19898,7 +19898,7 @@ id
 }
 RefPtr
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 p
 =
@@ -20397,7 +20397,7 @@ Speaker
 }
 RefPtr
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 p
 =
@@ -20428,7 +20428,7 @@ windowListener
 sourceListener
 ]
 (
-SourceSet
+MediaDeviceSet
 *
 &
 aDevices
@@ -20437,7 +20437,7 @@ mutable
 {
 UniquePtr
 <
-SourceSet
+MediaDeviceSet
 >
 devices
 (
@@ -20720,7 +20720,7 @@ MediaManager_ToJSArray
 task
 -
 >
-mSourceSet
+mMediaDeviceSet
 )
 ;
 onSuccess
