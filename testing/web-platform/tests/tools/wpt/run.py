@@ -2860,6 +2860,14 @@ browser
 .
 find_webdriver
 (
+channel
+=
+kwargs
+[
+"
+browser_channel
+"
+]
 )
             
 if

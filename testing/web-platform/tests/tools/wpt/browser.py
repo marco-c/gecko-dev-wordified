@@ -210,6 +210,9 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
         
@@ -1486,6 +1489,9 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
         
@@ -3141,6 +3147,9 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
         
@@ -3481,6 +3490,9 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
         
@@ -3845,6 +3857,9 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
         
@@ -4169,6 +4184,9 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
         
@@ -4548,6 +4566,9 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
         
@@ -4667,6 +4688,9 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
         
@@ -4786,8 +4810,41 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
+        
+path
+=
+None
+        
+if
+channel
+=
+=
+"
+preview
+"
+:
+            
+path
+=
+"
+/
+Applications
+/
+Safari
+Technology
+Preview
+.
+app
+/
+Contents
+/
+MacOS
+"
         
 return
 find_executable
@@ -4795,6 +4852,7 @@ find_executable
 "
 safaridriver
 "
+path
 )
     
 def
@@ -5226,6 +5284,9 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
         
@@ -5389,6 +5450,9 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
         
@@ -5490,6 +5554,9 @@ def
 find_webdriver
 (
 self
+channel
+=
+None
 )
 :
         
