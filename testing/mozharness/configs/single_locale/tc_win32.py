@@ -1,14 +1,5 @@
 import
 os
-EN_US_BINARY_URL
-=
-"
-%
-(
-en_us_binary_url
-)
-s
-"
 config
 =
 {
@@ -84,14 +75,11 @@ EN_US_BINARY_URL
 os
 .
 environ
-.
-get
-(
+[
 "
 EN_US_BINARY_URL
 "
-EN_US_BINARY_URL
-)
+]
         
 #
 EN_US_INSTALLER_BINARY_URL
@@ -117,15 +105,11 @@ EN_US_INSTALLER_BINARY_URL
 os
 .
 environ
-.
-get
-(
-                
+[
 "
 EN_US_BINARY_URL
 "
-EN_US_BINARY_URL
-)
+]
 )
         
 "
