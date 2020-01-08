@@ -342,7 +342,7 @@ ClientHandleChild
 aActor
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aActor
 )
@@ -405,7 +405,7 @@ return
 aRejectCallback
 ]
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aRejectCallback
 )

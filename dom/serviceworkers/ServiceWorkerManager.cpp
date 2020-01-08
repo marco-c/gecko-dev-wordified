@@ -2251,7 +2251,7 @@ ServiceWorkerRegistrationInfo
 aRegistrationInfo
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aRegistrationInfo
 -
