@@ -11599,6 +11599,13 @@ ifdef
 XP_WIN
 if
 (
+mOptions
+.
+UseWebRender
+(
+)
+&
+&
 DeviceManagerDx
 :
 :
