@@ -2579,8 +2579,6 @@ AppendElement
 info
 )
 ;
-return
-;
 }
 #
 else
