@@ -404,9 +404,7 @@ SCT
 .
 /
 /
-On
-success
-fills
+Fills
 |
 output
 |
@@ -471,10 +469,7 @@ BuildCertChain
 or
 similar
 .
-pkix
-:
-:
-Result
+void
 GetX509LogEntry
 (
 pkix

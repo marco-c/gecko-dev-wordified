@@ -514,10 +514,7 @@ the
 compliance
 check
 .
-pkix
-:
-:
-Result
+void
 CheckCompliance
 (
 const

@@ -137,15 +137,6 @@ h
 #
 include
 "
-mozilla
-/
-Vector
-.
-h
-"
-#
-include
-"
 pkix
 /
 Result
@@ -187,10 +178,7 @@ of
 verified
 SCTs
 .
-pkix
-:
-:
-Result
+void
 GetCTLogOperatorsFromVerifiedSCTList
 (
 const

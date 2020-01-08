@@ -387,9 +387,6 @@ ExtractOrdinaryX509Cert
 LogEntry
 entry
 ;
-ASSERT_EQ
-(
-Success
 GetX509LogEntry
 (
 InputForBuffer
@@ -397,7 +394,6 @@ InputForBuffer
 mTestCert
 )
 entry
-)
 )
 ;
 EXPECT_EQ
@@ -471,7 +467,7 @@ entry
 .
 leafCertificate
 .
-length
+size
 (
 )
 )
@@ -516,9 +512,6 @@ sct
 LogEntry
 entry
 ;
-ASSERT_EQ
-(
-Success
 GetX509LogEntry
 (
 InputForBuffer
@@ -526,7 +519,6 @@ InputForBuffer
 mTestCert
 )
 entry
-)
 )
 ;
 EXPECT_EQ

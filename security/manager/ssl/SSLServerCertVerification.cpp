@@ -8918,7 +8918,7 @@ verifyResult
 .
 verifiedScts
 .
-length
+size
 (
 )
 )
