@@ -193,6 +193,22 @@ o
 ]
     
 '
+num
+-
+integer
+'
+:
+[
+        
+'
+rust_out
+.
+o
+'
+    
+]
+    
+'
 selectors
 '
 :
