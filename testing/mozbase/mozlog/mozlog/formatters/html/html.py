@@ -85,6 +85,8 @@ from
 collections
 import
 defaultdict
+import
+six
 html
 =
 None
@@ -1480,7 +1482,9 @@ Chinese
                     
 utf_encoded
 =
-unicode
+six
+.
+text_type
 (
 content
 )
@@ -2060,12 +2064,13 @@ seconds
 (
 sum
 (
-self
-.
-test_count
+six
 .
 itervalues
 (
+self
+.
+test_count
 )
 )
                                                               

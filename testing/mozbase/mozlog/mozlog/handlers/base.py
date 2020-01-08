@@ -69,6 +69,8 @@ mozlog
 structuredlog
 import
 log_levels
+import
+six
 class
 BaseHandler
 (
@@ -742,7 +744,9 @@ if
 isinstance
 (
 formatted
-unicode
+six
+.
+text_type
 )
 :
                 

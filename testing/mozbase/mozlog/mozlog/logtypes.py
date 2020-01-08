@@ -59,6 +59,20 @@ import
 absolute_import
 import
 inspect
+import
+six
+from
+six
+.
+moves
+import
+range
+from
+six
+.
+moves
+import
+zip
 convertor_registry
 =
 {
@@ -587,10 +601,11 @@ for
 key
 value
 in
-values
+six
 .
 iteritems
 (
+values
 )
 :
             
@@ -667,10 +682,11 @@ for
 name
 value
 in
-kwargs
+six
 .
 iteritems
 (
+kwargs
 )
                         
 if
@@ -1017,7 +1033,9 @@ if
 isinstance
 (
 data
-unicode
+six
+.
+text_type
 )
 :
             
@@ -1046,7 +1064,9 @@ replace
 )
         
 return
-unicode
+six
+.
+text_type
 (
 data
 )
@@ -1069,7 +1089,9 @@ if
 isinstance
 (
 data
-unicode
+six
+.
+text_type
 )
 :
             
@@ -1322,10 +1344,13 @@ entry
 key_type
 value_type
 =
+list
+(
 item_type
 .
 items
 (
+)
 )
 [
 0
@@ -1434,7 +1459,9 @@ isinstance
 (
 data
 (
-basestring
+six
+.
+string_types
 dict
 )
 )

@@ -83,6 +83,8 @@ structuredlog
 import
 StructuredLogger
 set_default_logger
+import
+six
 log_formatters
 =
 {
@@ -1043,10 +1045,11 @@ cls
 help_str
 )
 in
-log_formatters
+six
 .
 iteritems
 (
+log_formatters
 )
 :
         
@@ -1089,10 +1092,11 @@ formatters_
 action
 )
 in
-fmt_options
+six
 .
 iteritems
 (
+fmt_options
 )
 :
         
@@ -1309,10 +1313,11 @@ for
 fmt
 streams
 in
-formatters
+six
 .
 iteritems
 (
+formatters
 )
 :
         
@@ -1341,13 +1346,14 @@ for
 option
 value
 in
+six
+.
+iteritems
+(
 formatter_options
 [
 fmt
 ]
-.
-iteritems
-(
 )
 :
             
@@ -1846,10 +1852,11 @@ for
 name
 values
 in
-args
+six
 .
 iteritems
 (
+args
 )
 :
         
@@ -1977,7 +1984,9 @@ if
 isinstance
 (
 value
-basestring
+six
+.
+string_types
 )
 :
                         
@@ -2080,10 +2089,11 @@ for
 name
 value
 in
-defaults
+six
 .
 iteritems
 (
+defaults
 )
 :
             
@@ -2105,10 +2115,13 @@ sys
 .
 stdout
 in
+list
+(
 defaults
 .
 values
 (
+)
 )
 :
         
@@ -2116,10 +2129,11 @@ for
 name
 value
 in
-defaults
+six
 .
 iteritems
 (
+defaults
 )
 :
             
