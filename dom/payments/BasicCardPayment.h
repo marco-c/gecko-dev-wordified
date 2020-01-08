@@ -201,6 +201,17 @@ aErrorMsg
 )
 ;
 bool
+IsValidBasicCardErrors
+(
+JSContext
+*
+aCx
+JSObject
+*
+aData
+)
+;
+bool
 IsValidExpiryMonth
 (
 const
