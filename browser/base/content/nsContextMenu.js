@@ -10895,7 +10895,6 @@ bookmarkPage
 this
 .
 browser
-true
 )
 .
 catch

@@ -739,7 +739,6 @@ bookmarkPage
 gBrowser
 .
 selectedBrowser
-true
 )
 ;
 "
