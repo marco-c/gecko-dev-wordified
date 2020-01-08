@@ -524,6 +524,12 @@ onPageHide
 )
 ;
 }
+this
+.
+seenTabIcon
+=
+false
+;
 }
 onLinkEvent
 (
