@@ -7899,7 +7899,6 @@ styleSet
 ResolveStyleFor
 (
 docElement
-nullptr
 LazyComputeBehavior
 :
 :
@@ -8092,7 +8091,6 @@ styleSet
 ResolveStyleFor
 (
 bodyElement
-rootStyle
 LazyComputeBehavior
 :
 :

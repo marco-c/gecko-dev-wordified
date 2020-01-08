@@ -833,17 +833,6 @@ callers
 pass
 Allow
 here
-and
-aParentContext
-isn
-'
-t
-/
-/
-used
-.
-.
-.
 already_AddRefed
 <
 ComputedStyle
@@ -856,9 +845,6 @@ dom
 Element
 *
 aElement
-ComputedStyle
-*
-aParentContext
 LazyComputeBehavior
 aMayCompute
 )
