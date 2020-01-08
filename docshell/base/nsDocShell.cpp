@@ -49725,7 +49725,7 @@ mLSHE
 {
 int32_t
 idx
-;
+=
 mSessionHistory
 -
 >
@@ -49736,8 +49736,6 @@ LegacySHistory
 >
 GetRequestedIndex
 (
-&
-idx
 )
 ;
 if
@@ -67766,8 +67764,6 @@ mLSHE
 int32_t
 index
 =
-0
-;
 mSessionHistory
 -
 >
@@ -67778,8 +67774,6 @@ LegacySHistory
 >
 GetRequestedIndex
 (
-&
-index
 )
 ;
 if
@@ -72402,8 +72396,6 @@ instead
 int32_t
 index
 =
-0
-;
 mSessionHistory
 -
 >
@@ -72414,8 +72406,6 @@ LegacySHistory
 >
 GetRequestedIndex
 (
-&
-index
 )
 ;
 if
