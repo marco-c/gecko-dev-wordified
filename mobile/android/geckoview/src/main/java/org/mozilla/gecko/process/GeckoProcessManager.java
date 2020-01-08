@@ -202,13 +202,6 @@ util
 .
 Log
 ;
-import
-java
-.
-io
-.
-IOException
-;
 public
 final
 class
@@ -1233,7 +1226,7 @@ crashHandler
 =
 GeckoAppShell
 .
-getsCrashHandlerService
+getCrashHandlerService
 (
 )
 !
@@ -1242,11 +1235,11 @@ null
 ?
 GeckoAppShell
 .
-getsCrashHandlerService
+getCrashHandlerService
 (
 )
 .
-getCanonicalName
+getName
 (
 )
 :
