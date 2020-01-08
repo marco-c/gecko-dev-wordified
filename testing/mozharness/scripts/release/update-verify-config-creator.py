@@ -2184,9 +2184,7 @@ self
 config
 [
 '
-branch
--
-prefix
+branch_prefix
 '
 ]
 )
@@ -2225,9 +2223,7 @@ self
 config
 [
 '
-branch
--
-prefix
+branch_prefix
 '
 ]
 version
@@ -2273,9 +2269,7 @@ self
 config
 [
 '
-branch
--
-prefix
+branch_prefix
 '
 ]
 )
