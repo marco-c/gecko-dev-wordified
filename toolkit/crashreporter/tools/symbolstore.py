@@ -5226,9 +5226,8 @@ alertThreshold
             
 }
             
-for
-opt
-in
+perfherder_extra_options
+=
 os
 .
 environ
@@ -5241,6 +5240,11 @@ PERFHERDER_EXTRA_OPTIONS
 '
 '
 )
+            
+for
+opt
+in
+perfherder_extra_options
 .
 split
 (
@@ -5290,6 +5294,19 @@ append
 opt
 )
             
+if
+'
+asan
+'
+not
+in
+perfherder_extra_options
+.
+lower
+(
+)
+:
+                
 print
 (
 '
@@ -5305,7 +5322,7 @@ dumps
 (
 perfherder_data
 )
-                  
+                    
 file
 =
 sys
