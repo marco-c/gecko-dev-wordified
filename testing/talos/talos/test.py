@@ -3722,6 +3722,11 @@ mainthread_writecount
 '
 mainthread_writebytes
 '
+                      
+'
+time_to_session_store_window_restored_ms
+'
+                      
 ]
     
 xperf_providers
