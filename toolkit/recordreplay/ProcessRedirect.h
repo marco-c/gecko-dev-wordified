@@ -4240,7 +4240,7 @@ size_t
 (
 )
 =
-0
+ReturnValue
 ;
 return
 PreambleResult
@@ -4288,7 +4288,7 @@ size_t
 (
 )
 =
-0
+ReturnValue
 ;
 return
 PreambleResult
