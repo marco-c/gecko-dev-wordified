@@ -1895,7 +1895,7 @@ saveButton
 .
 textContent
 "
-Add
+Next
 "
 "
 Save
