@@ -151,6 +151,11 @@ UniquePtr
 .
 h
 "
+#
+include
+<
+functional
+>
 namespace
 mozilla
 {
