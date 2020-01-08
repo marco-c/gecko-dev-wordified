@@ -1715,6 +1715,13 @@ loadFlags
 null
 null
 null
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 }
@@ -4048,6 +4055,13 @@ io
 newURI
 (
 baseURI
+)
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
 )
 )
 ;
