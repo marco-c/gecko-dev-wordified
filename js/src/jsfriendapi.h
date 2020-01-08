@@ -1839,13 +1839,6 @@ FormatStackDump
 JSContext
 *
 cx
-JS
-:
-:
-UniqueChars
-&
-&
-buf
 bool
 showArgs
 bool
