@@ -11309,6 +11309,16 @@ ac
 value
 (
 )
+&
+&
+ac
+.
+count
+(
+)
+!
+=
+0
 )
 {
 methodCalls
