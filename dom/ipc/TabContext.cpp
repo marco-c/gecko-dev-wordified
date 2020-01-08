@@ -163,9 +163,7 @@ include
 "
 mozilla
 /
-dom
-/
-DOMPrefs
+StaticPrefs
 .
 h
 "
@@ -1314,10 +1312,10 @@ privileges
 if
 (
 !
-DOMPrefs
+StaticPrefs
 :
 :
-ServiceWorkersEnabled
+dom_serviceWorkers_enabled
 (
 )
 )
