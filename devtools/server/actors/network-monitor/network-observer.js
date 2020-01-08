@@ -1984,7 +1984,7 @@ requests
 emits
 cached
 -
-response
+reponse
 notification
 on
 non
@@ -2938,14 +2938,6 @@ event
 fromServiceWorker
 =
 fromServiceWorker
-;
-event
-.
-isTrackingResource
-=
-channel
-.
-isTrackingResource
 ;
 httpActivity
 .
