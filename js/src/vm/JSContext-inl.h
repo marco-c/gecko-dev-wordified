@@ -198,9 +198,6 @@ h
 namespace
 js
 {
-#
-ifdef
-JS_CRASH_DIAGNOSTICS
 class
 CompartmentChecker
 {
@@ -1278,11 +1275,6 @@ argIndex
 }
 }
 ;
-#
-endif
-/
-/
-JS_CRASH_DIAGNOSTICS
 /
 *
 *
