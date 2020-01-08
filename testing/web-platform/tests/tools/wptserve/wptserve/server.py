@@ -2701,9 +2701,19 @@ frame
 StreamEnded
 )
 or
+(
+hasattr
+(
+frame
+"
+stream_ended
+"
+)
+and
 frame
 .
 stream_ended
+)
 :
                             
 del
@@ -2731,15 +2741,13 @@ self
 .
 logger
 .
-debug
+error
 (
 '
 (
 %
 s
 )
-ERROR
--
 Closing
 Connection
 -
@@ -2794,6 +2802,43 @@ put
 None
 )
         
+except
+Exception
+as
+e
+:
+            
+self
+.
+logger
+.
+error
+(
+'
+(
+%
+s
+)
+Unexpected
+Error
+-
+\
+n
+%
+s
+'
+%
+(
+self
+.
+uid
+str
+(
+e
+)
+)
+)
+        
 finally
 :
             
@@ -2805,6 +2850,10 @@ queue
 )
 in
 stream_queues
+.
+items
+(
+)
 :
                 
 thread
@@ -3274,6 +3323,13 @@ stream_id
                 
 break
             
+if
+request
+is
+not
+None
+:
+                
 request
 .
 frames
