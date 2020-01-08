@@ -215,15 +215,6 @@ logging
 .
 h
 "
-#
-include
-"
-base
-/
-singleton
-.
-h
-"
 namespace
 {
 /
