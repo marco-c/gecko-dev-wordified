@@ -916,7 +916,8 @@ s
                     
 \
 nTotal
-cost
+Build
+Time
 (
 mm
 :
