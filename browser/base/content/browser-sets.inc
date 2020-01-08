@@ -736,9 +736,6 @@ PlacesCommandHook
 .
 bookmarkPage
 (
-gBrowser
-.
-selectedBrowser
 )
 ;
 "

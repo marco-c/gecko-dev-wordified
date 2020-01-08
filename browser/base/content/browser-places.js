@@ -2601,20 +2601,10 @@ page
 loaded
 in
 the
-given
+current
 browser
 .
 *
-*
-param
-aBrowser
-*
-a
-<
-browser
->
-element
-.
 *
 param
 [
@@ -2667,7 +2657,6 @@ title
 async
 bookmarkPage
 (
-aBrowser
 aUrl
 =
 null
@@ -2676,6 +2665,13 @@ aTitle
 null
 )
 {
+let
+browser
+=
+gBrowser
+.
+selectedBrowser
+;
 /
 /
 If
@@ -2716,7 +2712,7 @@ aUrl
 new
 URL
 (
-aBrowser
+browser
 .
 currentURI
 .
@@ -2806,7 +2802,7 @@ if
 aUrl
 &
 &
-aBrowser
+browser
 .
 documentURI
 )
@@ -2828,7 +2824,7 @@ blocked
 .
 test
 (
-aBrowser
+browser
 .
 documentURI
 .
@@ -2853,7 +2849,7 @@ history
 .
 fetch
 (
-aBrowser
+browser
 .
 currentURI
 )
@@ -2882,7 +2878,7 @@ title
 aTitle
 |
 |
-aBrowser
+browser
 .
 contentTitle
 ;
@@ -2906,7 +2902,7 @@ aUrl
 ?
 null
 :
-aBrowser
+browser
 .
 characterSet
 ;
@@ -3015,7 +3011,7 @@ PrivateBrowsingUtils
 .
 isBrowserPrivate
 (
-aBrowser
+browser
 )
 )
 PlacesUtils
@@ -10713,9 +10709,6 @@ PlacesCommandHook
 .
 bookmarkPage
 (
-gBrowser
-.
-selectedBrowser
 )
 ;
 }
