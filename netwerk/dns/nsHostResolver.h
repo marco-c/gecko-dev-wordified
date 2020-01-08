@@ -2833,12 +2833,9 @@ nsACString
 host
 )
 ;
-static
 void
 ThreadFunc
 (
-void
-*
 )
 ;
 enum
