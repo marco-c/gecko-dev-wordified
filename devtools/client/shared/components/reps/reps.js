@@ -27710,7 +27710,7 @@ return
 }
 const
 {
-relatedTarget
+explicitOriginalTarget
 }
 =
 nativeEvent
@@ -27756,7 +27756,7 @@ elements
 .
 if
 (
-relatedTarget
+explicitOriginalTarget
 !
 =
 =
@@ -27772,7 +27772,7 @@ treeRef
 .
 contains
 (
-relatedTarget
+explicitOriginalTarget
 )
 )
 {
