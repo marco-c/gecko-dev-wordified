@@ -767,6 +767,17 @@ item
 "
 )
 ;
+ContentBlockingLog
+*
+contentBlockingLog
+=
+rootDoc
+-
+>
+GetContentBlockingLog
+(
+)
+;
 /
 /
 Get
@@ -1100,6 +1111,7 @@ eventSink
 OnSecurityChange
 (
 mContext
+state
 (
 state
 |
@@ -1108,6 +1120,7 @@ nsIWebProgressListener
 :
 STATE_LOADED_MIXED_ACTIVE_CONTENT
 )
+contentBlockingLog
 )
 ;
 }
@@ -1140,6 +1153,7 @@ eventSink
 OnSecurityChange
 (
 mContext
+state
 (
 state
 |
@@ -1148,6 +1162,7 @@ nsIWebProgressListener
 :
 STATE_LOADED_MIXED_ACTIVE_CONTENT
 )
+contentBlockingLog
 )
 ;
 }
@@ -1340,6 +1355,7 @@ eventSink
 OnSecurityChange
 (
 mContext
+state
 (
 state
 |
@@ -1348,6 +1364,7 @@ nsIWebProgressListener
 :
 STATE_LOADED_MIXED_DISPLAY_CONTENT
 )
+contentBlockingLog
 )
 ;
 }
@@ -1380,6 +1397,7 @@ eventSink
 OnSecurityChange
 (
 mContext
+state
 (
 state
 |
@@ -1388,6 +1406,7 @@ nsIWebProgressListener
 :
 STATE_LOADED_MIXED_DISPLAY_CONTENT
 )
+contentBlockingLog
 )
 ;
 }
@@ -6328,6 +6347,17 @@ item
 "
 )
 ;
+ContentBlockingLog
+*
+contentBlockingLog
+=
+rootDoc
+-
+>
+GetContentBlockingLog
+(
+)
+;
 /
 /
 Get
@@ -7002,6 +7032,7 @@ eventSink
 OnSecurityChange
 (
 aRequestingContext
+state
 (
 state
 |
@@ -7010,6 +7041,7 @@ nsIWebProgressListener
 :
 STATE_LOADED_MIXED_DISPLAY_CONTENT
 )
+contentBlockingLog
 )
 ;
 }
@@ -7055,6 +7087,7 @@ eventSink
 OnSecurityChange
 (
 aRequestingContext
+state
 (
 state
 |
@@ -7063,6 +7096,7 @@ nsIWebProgressListener
 :
 STATE_LOADED_MIXED_DISPLAY_CONTENT
 )
+contentBlockingLog
 )
 ;
 }
@@ -7117,6 +7151,7 @@ eventSink
 OnSecurityChange
 (
 aRequestingContext
+state
 (
 state
 |
@@ -7125,6 +7160,7 @@ nsIWebProgressListener
 :
 STATE_BLOCKED_MIXED_DISPLAY_CONTENT
 )
+contentBlockingLog
 )
 ;
 }
@@ -7330,6 +7366,7 @@ eventSink
 OnSecurityChange
 (
 aRequestingContext
+state
 (
 state
 |
@@ -7338,6 +7375,7 @@ nsIWebProgressListener
 :
 STATE_LOADED_MIXED_ACTIVE_CONTENT
 )
+contentBlockingLog
 )
 ;
 return
@@ -7387,6 +7425,7 @@ eventSink
 OnSecurityChange
 (
 aRequestingContext
+state
 (
 state
 |
@@ -7395,6 +7434,7 @@ nsIWebProgressListener
 :
 STATE_LOADED_MIXED_ACTIVE_CONTENT
 )
+contentBlockingLog
 )
 ;
 }
@@ -7533,6 +7573,7 @@ eventSink
 OnSecurityChange
 (
 aRequestingContext
+state
 (
 state
 |
@@ -7541,6 +7582,7 @@ nsIWebProgressListener
 :
 STATE_BLOCKED_MIXED_ACTIVE_CONTENT
 )
+contentBlockingLog
 )
 ;
 }
