@@ -527,10 +527,12 @@ if
 !
 result
 )
+{
 errored
 =
 true
 ;
+}
 return
 result
 ;
@@ -957,8 +959,10 @@ vlen
 alen
 )
 )
+{
 return
 ;
+}
 for
 (
 size_t
@@ -974,6 +978,7 @@ alen
 +
 i
 )
+{
 v
 [
 i
@@ -986,6 +991,7 @@ array
 i
 ]
 ;
+}
 }
 template
 <
@@ -1032,8 +1038,10 @@ vlen
 count
 )
 )
+{
 return
 ;
+}
 for
 (
 size_t
@@ -1049,6 +1057,7 @@ count
 +
 i
 )
+{
 v
 [
 i
@@ -1058,6 +1067,7 @@ vlen
 =
 c
 ;
+}
 }
 template
 <
@@ -1120,8 +1130,10 @@ vlen
 alen
 )
 )
+{
 return
 ;
+}
 for
 (
 size_t
@@ -1137,6 +1149,7 @@ alen
 +
 i
 )
+{
 v
 [
 i
@@ -1149,6 +1162,7 @@ array
 i
 ]
 ;
+}
 }
 template
 <
@@ -1206,8 +1220,10 @@ length
 )
 )
 )
+{
 return
 ;
+}
 }
 template
 <
@@ -1254,8 +1270,10 @@ if
 !
 linear
 )
+{
 return
 ;
+}
 JS
 :
 :
@@ -1294,8 +1312,10 @@ length
 )
 )
 )
+{
 return
 ;
+}
 }
 else
 {
@@ -1321,8 +1341,10 @@ length
 )
 )
 )
+{
 return
 ;
+}
 }
 }
 template
@@ -1384,8 +1406,10 @@ vlen
 alen
 )
 )
+{
 return
 ;
+}
 JSLinearString
 *
 linear
@@ -1403,8 +1427,10 @@ if
 !
 linear
 )
+{
 return
 ;
+}
 JS
 :
 :
@@ -1449,6 +1475,7 @@ alen
 +
 i
 )
+{
 v
 [
 i
@@ -1464,6 +1491,7 @@ i
 ]
 )
 ;
+}
 }
 else
 {
@@ -1495,6 +1523,7 @@ alen
 +
 i
 )
+{
 v
 [
 i
@@ -1510,6 +1539,7 @@ i
 ]
 )
 ;
+}
 }
 }
 template
@@ -1586,8 +1616,10 @@ vlen
 alen
 )
 )
+{
 return
 ;
+}
 /
 /
 Move
@@ -1649,6 +1681,7 @@ alen
 +
 i
 )
+{
 v
 [
 i
@@ -1659,6 +1692,7 @@ array
 i
 ]
 ;
+}
 }
 template
 <
@@ -1719,8 +1753,10 @@ vlen
 alen
 )
 )
+{
 return
 ;
+}
 JSLinearString
 *
 linear
@@ -1738,8 +1774,10 @@ if
 !
 linear
 )
+{
 return
 ;
+}
 /
 /
 Move
@@ -1830,6 +1868,7 @@ i
 +
 +
 )
+{
 v
 [
 i
@@ -1840,6 +1879,7 @@ chars
 i
 ]
 ;
+}
 }
 else
 {
@@ -2487,6 +2527,7 @@ n
 -
 -
 )
+{
 hash
 =
 hash
@@ -2496,6 +2537,7 @@ hash
 *
 s
 ;
+}
 return
 hash
 ;
@@ -2580,9 +2622,11 @@ k
 =
 l
 )
+{
 return
 true
 ;
+}
 if
 (
 k
@@ -2600,9 +2644,11 @@ length
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 EqualChars
 (
@@ -3018,11 +3064,13 @@ if
 (
 closure
 )
+{
 ffi_closure_free
 (
 closure
 )
 ;
+}
 js_free
 (
 errResult
