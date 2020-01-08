@@ -12749,9 +12749,10 @@ nullptr
 ;
 }
 return
-EncodeLatin1
+StringToNewUTF8CharsZ
 (
 cx
+*
 str
 )
 ;
@@ -12805,7 +12806,7 @@ rbytes
 )
 return
 ;
-JS_ReportErrorNumberLatin1
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage
