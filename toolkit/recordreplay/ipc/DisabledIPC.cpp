@@ -552,6 +552,15 @@ MOZ_CRASH
 )
 ;
 }
+bool
+IsMiddlemanWithRecordingChild
+(
+)
+{
+return
+false
+;
+}
 }
 /
 /
