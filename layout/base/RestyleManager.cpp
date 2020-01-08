@@ -9133,7 +9133,7 @@ RestyleManager
 :
 ProcessRestyledFrames
 "
-CSS
+LAYOUT
 )
 ;
 nsPresContext
