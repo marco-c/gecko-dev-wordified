@@ -234,6 +234,12 @@ State
 )
 const
 ;
+bool
+Preferred
+(
+)
+const
+;
 private
 :
 virtual
