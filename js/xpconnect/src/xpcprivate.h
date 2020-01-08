@@ -19011,9 +19011,11 @@ like
 /
 browser
 /
-components
+extensions
 /
-newtab
+activity
+-
+stream
 .
 bool
 isAddonCompartment
