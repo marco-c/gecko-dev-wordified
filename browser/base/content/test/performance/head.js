@@ -364,8 +364,13 @@ nsISupportsWeakReference
 )
 }
 ;
+let
+docShell
+=
 win
 .
+docShell
+;
 docShell
 .
 addWeakReflowObserver
@@ -435,8 +440,6 @@ dirtyFrameFn
 true
 )
 ;
-win
-.
 docShell
 .
 removeWeakReflowObserver
