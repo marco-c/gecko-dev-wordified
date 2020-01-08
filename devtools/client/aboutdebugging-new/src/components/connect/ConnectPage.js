@@ -1075,6 +1075,10 @@ className
 :
 "
 separator
+separator
+-
+-
+breathe
 "
 }
 )
@@ -1135,7 +1139,9 @@ h1
 className
 :
 "
-page__title
+alt
+-
+heading
 "
 }
 "

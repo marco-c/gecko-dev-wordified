@@ -365,7 +365,7 @@ input
 className
 :
 "
-std
+default
 -
 input
 js
@@ -451,7 +451,7 @@ button
 className
 :
 "
-std
+default
 -
 button
 js
