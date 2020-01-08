@@ -138,10 +138,10 @@ class
 nsAtom
 ;
 class
-nsINode
+nsComposeTxtSrvFilter
 ;
 class
-nsITextServicesFilter
+nsINode
 ;
 class
 nsRange
@@ -170,7 +170,7 @@ nsFilteredContentIterator
 explicit
 nsFilteredContentIterator
 (
-nsITextServicesFilter
+nsComposeTxtSrvFilter
 *
 aFilter
 )
@@ -466,9 +466,9 @@ nsAtom
 >
 mMapAtom
 ;
-nsCOMPtr
+RefPtr
 <
-nsITextServicesFilter
+nsComposeTxtSrvFilter
 >
 mFilter
 ;

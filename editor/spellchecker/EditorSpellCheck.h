@@ -173,6 +173,9 @@ class
 mozSpellChecker
 ;
 class
+nsComposeTxtSrvFilter
+;
+class
 nsIEditor
 ;
 class
@@ -289,9 +292,9 @@ mozSpellChecker
 >
 mSpellChecker
 ;
-nsCOMPtr
+RefPtr
 <
-nsITextServicesFilter
+nsComposeTxtSrvFilter
 >
 mTxtSrvFilter
 ;

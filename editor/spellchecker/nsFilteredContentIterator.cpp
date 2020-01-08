@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsComposeTxtSrvFilter
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -185,13 +192,6 @@ h
 include
 "
 nsISupportsUtils
-.
-h
-"
-#
-include
-"
-nsITextServicesFilter
 .
 h
 "
@@ -273,7 +273,7 @@ nsFilteredContentIterator
 :
 nsFilteredContentIterator
 (
-nsITextServicesFilter
+nsComposeTxtSrvFilter
 *
 aFilter
 )
