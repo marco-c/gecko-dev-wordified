@@ -6527,7 +6527,9 @@ if
 !
 aColor
 .
-mIsAuto
+IsAuto
+(
+)
 )
 {
 SetToRGBAColor
