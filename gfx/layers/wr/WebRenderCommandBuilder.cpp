@@ -9928,7 +9928,7 @@ canvas
 canvas
 -
 >
-UpdateCompositableClient
+UpdateCompositableClientForEmptyTransaction
 (
 )
 ;
