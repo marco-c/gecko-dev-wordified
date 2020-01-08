@@ -625,9 +625,7 @@ menupopup
 {
 font
 :
-message
--
-box
+inherit
 ;
 }
 menulist
