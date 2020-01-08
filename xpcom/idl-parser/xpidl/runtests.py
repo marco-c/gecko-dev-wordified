@@ -1160,6 +1160,19 @@ IDL
 )
 )
         
+i
+.
+resolve
+(
+[
+]
+self
+.
+p
+{
+}
+)
+        
 class
 FdMock
 :
