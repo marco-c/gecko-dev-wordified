@@ -262,6 +262,13 @@ LOAD_FLAGS_NONE
 null
 null
 null
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 let
