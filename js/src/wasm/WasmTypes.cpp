@@ -5058,9 +5058,6 @@ case
 FarJumpIsland
 :
 case
-UnalignedExit
-:
-case
 TrapExit
 :
 case
