@@ -7860,6 +7860,11 @@ if
 contents
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
