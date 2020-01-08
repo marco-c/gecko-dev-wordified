@@ -5324,6 +5324,13 @@ MallocSizeOf
 PartialEq
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 FontLanguageOverride
