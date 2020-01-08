@@ -773,7 +773,7 @@ doc
 mContent
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
