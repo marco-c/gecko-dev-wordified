@@ -4164,11 +4164,7 @@ usize
 [
 cfg
 (
-feature
-=
-"
-debug
-"
+debug_assertions
 )
 ]
 impl
