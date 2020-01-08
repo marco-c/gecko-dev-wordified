@@ -2377,7 +2377,6 @@ state
 s
 frame
 .
-MOZ_INIT_OUTSIDE_CTOR
 const
 ReflowInput
 *
