@@ -2022,7 +2022,7 @@ browser
 /
 components
 /
-nsSessionStartup
+nsBrowserGlue
 .
 js
 '
@@ -2395,7 +2395,7 @@ omnijar_name
 /
 components
 /
-nsSessionStartup
+nsBrowserGlue
 .
 js
 '
