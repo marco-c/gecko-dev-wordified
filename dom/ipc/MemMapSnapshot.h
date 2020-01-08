@@ -123,8 +123,6 @@ dom_ipc_MemMapSnapshot_h
 #
 include
 "
-mozilla
-/
 AutoMemMap
 .
 h

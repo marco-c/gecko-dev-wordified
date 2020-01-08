@@ -2457,8 +2457,6 @@ jargs
 int
 prefsFd
 int
-prefMapFd
-int
 ipcFd
 int
 crashFd
@@ -2548,13 +2546,10 @@ gBootstrap
 XRE_SetAndroidChildFds
 (
 jenv
-{
 prefsFd
-prefMapFd
 ipcFd
 crashFd
 crashAnnotationFd
-}
 )
 ;
 gBootstrap
