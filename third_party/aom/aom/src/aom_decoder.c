@@ -443,8 +443,7 @@ const
 uint8_t
 *
 data
-unsigned
-int
+size_t
 data_sz
 aom_codec_stream_info_t
 *
@@ -635,14 +634,11 @@ const
 uint8_t
 *
 data
-unsigned
-int
+size_t
 data_sz
 void
 *
 user_priv
-long
-deadline
 )
 {
 aom_codec_err_t
@@ -735,7 +731,6 @@ ctx
 data
 data_sz
 user_priv
-deadline
 )
 ;
 }

@@ -128,7 +128,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_dsp_rtcd
 .
@@ -137,7 +137,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_config
 .

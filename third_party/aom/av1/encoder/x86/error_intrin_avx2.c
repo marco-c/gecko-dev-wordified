@@ -131,7 +131,7 @@ AVX2
 #
 include
 "
-.
+config
 /
 av1_rtcd
 .

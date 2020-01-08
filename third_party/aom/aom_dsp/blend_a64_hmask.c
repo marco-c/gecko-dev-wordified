@@ -164,7 +164,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_dsp_rtcd
 .
@@ -195,9 +195,9 @@ uint8_t
 *
 mask
 int
-h
-int
 w
+int
+h
 )
 {
 int
@@ -332,9 +332,6 @@ j
 }
 }
 }
-#
-if
-CONFIG_HIGHBITDEPTH
 void
 aom_highbd_blend_a64_hmask_c
 (
@@ -360,9 +357,9 @@ uint8_t
 *
 mask
 int
-h
-int
 w
+int
+h
 int
 bd
 )
@@ -553,8 +550,3 @@ j
 }
 }
 }
-#
-endif
-/
-/
-CONFIG_HIGHBITDEPTH

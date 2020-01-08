@@ -127,7 +127,7 @@ AV1_ENCODER_HASH_MOTION_H_
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -473,6 +473,8 @@ hash_value1
 uint32_t
 *
 hash_value2
+int
+use_highbitdepth
 )
 ;
 #

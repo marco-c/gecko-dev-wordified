@@ -128,7 +128,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -137,7 +137,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_dsp_rtcd
 .
@@ -2684,10 +2684,6 @@ r3
 )
 ;
 }
-#
-if
-!
-HAVE_NEON_ASM
 void
 aom_v_predictor_4x4_neon
 (
@@ -3946,9 +3942,3 @@ stride
 }
 }
 }
-#
-endif
-/
-/
-!
-HAVE_NEON_ASM

@@ -135,7 +135,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -144,7 +144,7 @@ h
 #
 include
 "
-.
+config
 /
 av1_rtcd
 .
@@ -444,9 +444,7 @@ p
 Avoid
 modifying
 first
-/
-last
-samples
+sample
 uint8_t
 *
 out
@@ -460,7 +458,7 @@ len
 =
 sz
 -
-2
+1
 ;
 const
 int
@@ -1285,9 +1283,7 @@ p
 Avoid
 modifying
 first
-/
-last
-samples
+sample
 uint16_t
 *
 out
@@ -1301,7 +1297,7 @@ len
 =
 sz
 -
-2
+1
 ;
 const
 int

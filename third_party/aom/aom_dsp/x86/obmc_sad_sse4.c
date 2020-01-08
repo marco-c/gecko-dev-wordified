@@ -135,7 +135,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -355,7 +355,7 @@ bit
 /
 /
 static
-INLINE
+AOM_FORCE_INLINE
 unsigned
 int
 obmc_sad_w4
@@ -578,7 +578,7 @@ v_sad_d
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 unsigned
 int
 obmc_sad_w8n
@@ -996,9 +996,6 @@ h
 }
 \
 }
-#
-if
-CONFIG_EXT_PARTITION
 OBMCSADWXH
 (
 128
@@ -1014,11 +1011,6 @@ OBMCSADWXH
 64
 128
 )
-#
-endif
-/
-/
-CONFIG_EXT_PARTITION
 OBMCSADWXH
 (
 64
@@ -1084,9 +1076,6 @@ OBMCSADWXH
 4
 4
 )
-#
-if
-CONFIG_EXT_PARTITION_TYPES
 OBMCSADWXH
 (
 4
@@ -1117,8 +1106,6 @@ OBMCSADWXH
 64
 16
 )
-#
-endif
 /
 /
 /
@@ -1285,11 +1272,8 @@ depth
 /
 /
 /
-#
-if
-CONFIG_HIGHBITDEPTH
 static
-INLINE
+AOM_FORCE_INLINE
 unsigned
 int
 hbd_obmc_sad_w4
@@ -1522,7 +1506,7 @@ v_sad_d
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 unsigned
 int
 hbd_obmc_sad_w8n
@@ -1950,9 +1934,6 @@ h
 }
 \
 }
-#
-if
-CONFIG_EXT_PARTITION
 HBD_OBMCSADWXH
 (
 128
@@ -1968,11 +1949,6 @@ HBD_OBMCSADWXH
 64
 128
 )
-#
-endif
-/
-/
-CONFIG_EXT_PARTITION
 HBD_OBMCSADWXH
 (
 64
@@ -2038,9 +2014,6 @@ HBD_OBMCSADWXH
 4
 4
 )
-#
-if
-CONFIG_EXT_PARTITION_TYPES
 HBD_OBMCSADWXH
 (
 4
@@ -2071,10 +2044,3 @@ HBD_OBMCSADWXH
 64
 16
 )
-#
-endif
-#
-endif
-/
-/
-CONFIG_HIGHBITDEPTH
