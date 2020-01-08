@@ -5606,6 +5606,16 @@ opt
 '
                                          
 '
+windows10
+-
+64
+-
+asan
+/
+opt
+'
+                                         
+'
 macosx64
 /
 opt
