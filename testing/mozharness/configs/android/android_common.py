@@ -160,6 +160,24 @@ android
 "
     
 "
+log_format
+"
+:
+"
+%
+(
+levelname
+)
+8s
+-
+%
+(
+message
+)
+s
+"
+    
+"
 minidump_stackwalk_path
 "
 :
