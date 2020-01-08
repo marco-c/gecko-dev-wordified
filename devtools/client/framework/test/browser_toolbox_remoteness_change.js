@@ -215,10 +215,11 @@ tab
 linkedBrowser
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 URL_2
 )
 ;
