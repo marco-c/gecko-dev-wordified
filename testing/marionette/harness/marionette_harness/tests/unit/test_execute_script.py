@@ -3029,26 +3029,6 @@ assert_is_web_element
 el
 )
     
-def
-test_comment_in_last_line
-(
-self
-)
-:
-        
-self
-.
-marionette
-.
-execute_script
-(
-"
-/
-/
-comment
-"
-)
-    
 skip_if_mobile
 (
 "
