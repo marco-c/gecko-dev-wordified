@@ -140,10 +140,16 @@ attachThread
 (
 {
 }
+)
+.
+then
+(
 function
 (
+[
 response
 threadClient
+]
 )
 {
 Assert
