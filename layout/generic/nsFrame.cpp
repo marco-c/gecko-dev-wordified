@@ -10370,7 +10370,7 @@ nsIFrame
 *
 parent
 =
-GetInFlowParentIgnoringAnonBoxes
+GetInFlowParent
 (
 )
 ;
@@ -16505,7 +16505,7 @@ frame
 aDescendant
 -
 >
-GetInFlowParentIgnoringAnonBoxes
+GetInFlowParent
 (
 )
 ;
@@ -16522,7 +16522,7 @@ frame
 frame
 -
 >
-GetInFlowParentIgnoringAnonBoxes
+GetInFlowParent
 (
 )
 )
