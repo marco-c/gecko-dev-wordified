@@ -128,7 +128,7 @@ include
 "
 vm
 /
-JSObject
+NativeObject
 .
 h
 "

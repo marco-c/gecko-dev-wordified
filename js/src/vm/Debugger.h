@@ -1554,6 +1554,9 @@ removeFront
 ;
 }
 }
+#
+ifdef
+DEBUG
 Base
 :
 :
@@ -1561,6 +1564,8 @@ assertEntriesNotAboutToBeFinalized
 (
 )
 ;
+#
+endif
 }
 MOZ_MUST_USE
 bool
