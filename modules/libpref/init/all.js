@@ -2537,11 +2537,6 @@ etherpad
 /
 pads
 /
-www
-.
-rememberthemilk
-.
-com
 paper
 .
 dropbox
