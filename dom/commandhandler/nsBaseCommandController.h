@@ -235,6 +235,15 @@ CreateHTMLEditorController
 (
 )
 ;
+static
+already_AddRefed
+<
+nsIController
+>
+CreateHTMLEditorDocStateController
+(
+)
+;
 protected
 :
 virtual
