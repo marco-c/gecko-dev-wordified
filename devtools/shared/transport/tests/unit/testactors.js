@@ -123,6 +123,16 @@ registry
 "
 )
 ;
+const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
 var
 gTestGlobals
 =
