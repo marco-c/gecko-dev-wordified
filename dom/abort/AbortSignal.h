@@ -129,6 +129,13 @@ DOMEventTargetHelper
 .
 h
 "
+#
+include
+"
+nsTObserverArray
+.
+h
+"
 namespace
 mozilla
 {
@@ -301,7 +308,7 @@ in
 the
 DTOR
 .
-nsTArray
+nsTObserverArray
 <
 AbortFollower
 *
