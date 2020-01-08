@@ -1796,6 +1796,9 @@ br
 -
 >
 bit_pos_
+(
+int
+)
 n_bits
 (
 int

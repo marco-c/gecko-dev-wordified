@@ -244,8 +244,11 @@ array
 )
 {
 #
-ifdef
+if
+defined
+(
 BROTLI_LITTLE_ENDIAN
+)
 /
 *
 This

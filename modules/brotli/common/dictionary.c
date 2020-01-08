@@ -122969,8 +122969,11 @@ data
 *
 /
 #
-ifdef
+if
+defined
+(
 BROTLI_EXTERNAL_DICTIONARY_DATA
+)
 NULL
 #
 else

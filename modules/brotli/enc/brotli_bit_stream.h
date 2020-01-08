@@ -566,6 +566,7 @@ is_final_block
 const
 uint8_t
 *
+BROTLI_RESTRICT
 input
 size_t
 position
@@ -575,9 +576,11 @@ size_t
 len
 size_t
 *
+BROTLI_RESTRICT
 storage_ix
 uint8_t
 *
+BROTLI_RESTRICT
 storage
 )
 ;

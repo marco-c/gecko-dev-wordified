@@ -125,8 +125,11 @@ define
 BROTLI_REVERSE_BITS_MAX
 8
 #
-ifdef
+if
+defined
+(
 BROTLI_RBIT
+)
 #
 define
 BROTLI_REVERSE_BITS_BASE
@@ -489,8 +492,11 @@ num
 )
 {
 #
-ifdef
+if
+defined
+(
 BROTLI_RBIT
+)
 return
 BROTLI_RBIT
 (
