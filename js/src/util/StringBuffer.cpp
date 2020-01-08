@@ -1086,7 +1086,7 @@ isBigInt
 )
 )
 {
-JSString
+JSLinearString
 *
 str
 =
@@ -1101,6 +1101,7 @@ v
 toBigInt
 (
 )
+10
 )
 ;
 if
