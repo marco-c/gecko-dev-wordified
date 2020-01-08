@@ -290,7 +290,19 @@ aarch64
 once
 ready
     
-non_aarch64_tasks
+#
+TODO
+Bug
+1490502
+:
+Activate
+x86
+-
+64
+once
+ready
+    
+non_shipping_tasks
 =
 [
         
@@ -318,8 +330,27 @@ build_platform
 '
 '
 )
+and
+           
+'
+x86_64
+'
+not
+in
+task
+.
+attributes
+.
+get
+(
+'
+build_platform
+'
+'
+'
+)
     
 ]
     
 return
-non_aarch64_tasks
+non_shipping_tasks
