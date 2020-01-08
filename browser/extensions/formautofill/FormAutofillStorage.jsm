@@ -1137,7 +1137,7 @@ defineModuleGetter
 (
 this
 "
-MasterPassword
+OSKeyStore
 "
 "
 resource
@@ -1146,7 +1146,7 @@ resource
 /
 formautofill
 /
-MasterPassword
+OSKeyStore
 .
 jsm
 "
@@ -11065,7 +11065,7 @@ encrypted
 ]
 =
 await
-MasterPassword
+OSKeyStore
 .
 encrypt
 (
@@ -11125,7 +11125,7 @@ number
 ]
 =
 await
-MasterPassword
+OSKeyStore
 .
 decrypt
 (
@@ -11721,7 +11721,7 @@ field
 {
 if
 (
-MasterPassword
+OSKeyStore
 .
 isEnabled
 )
@@ -11734,13 +11734,12 @@ masked
 numbers
 instead
 when
-the
-master
+decryption
+requires
+a
 password
-is
 /
 /
-enabled
 because
 we
 don
@@ -11781,7 +11780,7 @@ field
 =
 =
 await
-MasterPassword
+OSKeyStore
 .
 decrypt
 (
