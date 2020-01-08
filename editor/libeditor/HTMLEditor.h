@@ -317,6 +317,9 @@ class
 AutoSelectionSetterAfterTableEdit
 ;
 class
+AutoSetTemporaryAncestorLimiter
+;
+class
 DocumentResizeEventListener
 ;
 class
@@ -14888,6 +14891,10 @@ mDefaultParagraphSeparator
 friend
 class
 AutoSelectionSetterAfterTableEdit
+;
+friend
+class
+AutoSetTemporaryAncestorLimiter
 ;
 friend
 class
