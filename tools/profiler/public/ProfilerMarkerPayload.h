@@ -670,8 +670,6 @@ const
 nsAString
 &
 aEventType
-uint16_t
-aPhase
 const
 mozilla
 :
@@ -700,10 +698,6 @@ mEventType
 (
 aEventType
 )
-mPhase
-(
-aPhase
-)
 {
 }
 DECL_STREAM_PAYLOAD
@@ -717,9 +711,6 @@ mTimeStamp
 ;
 nsString
 mEventType
-;
-uint16_t
-mPhase
 ;
 }
 ;
