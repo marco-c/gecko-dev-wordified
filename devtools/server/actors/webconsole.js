@@ -9288,6 +9288,8 @@ debug
 request
 -
 content
+:
+response
 "
 onMessage
 )
@@ -9325,6 +9327,8 @@ debug
 request
 -
 content
+:
+response
 "
 onMessage
 )
@@ -9339,6 +9343,8 @@ debug
 request
 -
 content
+:
+request
 "
 {
 url
@@ -9747,6 +9753,8 @@ network
 event
 -
 actor
+:
+response
 "
 onMessage
 )
@@ -9779,6 +9787,8 @@ network
 event
 -
 actor
+:
+response
 "
 onMessage
 )
@@ -9797,6 +9807,8 @@ network
 event
 -
 actor
+:
+request
 "
 {
 channelId
