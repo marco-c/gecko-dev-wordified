@@ -4629,6 +4629,8 @@ object
 return
 {
 Object
+|
+null
 }
 representation
 of
@@ -4646,6 +4648,16 @@ flex
 win
 )
 {
+if
+(
+!
+flex
+)
+{
+return
+null
+;
+}
 return
 {
 lines
