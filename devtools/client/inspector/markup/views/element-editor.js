@@ -2961,7 +2961,7 @@ theme
 -
 fg
 -
-color6
+color4
 "
 )
 ;

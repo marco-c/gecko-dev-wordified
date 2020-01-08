@@ -770,7 +770,7 @@ theme
 -
 fg
 -
-color6
+color4
 "
 }
 textContent
@@ -810,7 +810,7 @@ theme
 -
 fg
 -
-color6
+color4
 "
 }
 }
@@ -965,7 +965,7 @@ theme
 -
 fg
 -
-color6
+color4
 "
 }
 textContent
@@ -1005,7 +1005,7 @@ theme
 -
 fg
 -
-color6
+color4
 "
 }
 }
