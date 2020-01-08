@@ -708,6 +708,10 @@ QueryVersion
 )
 SYMBOL
 (
+GetConfig
+)
+SYMBOL
+(
 GetCurrentContext
 )
 SYMBOL
