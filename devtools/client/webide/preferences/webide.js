@@ -91,7 +91,7 @@ devtools
 .
 webide
 .
-autoinstallADBHelper
+autoinstallADBExtension
 "
 true
 )

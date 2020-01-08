@@ -753,7 +753,7 @@ it
 again
 .
 const
-autoinstallADBHelper
+autoinstallADBExtension
 =
 Services
 .
@@ -766,13 +766,13 @@ devtools
 .
 webide
 .
-autoinstallADBHelper
+autoinstallADBExtension
 "
 )
 ;
 if
 (
-autoinstallADBHelper
+autoinstallADBExtension
 )
 {
 const
@@ -802,7 +802,7 @@ devtools
 .
 webide
 .
-autoinstallADBHelper
+autoinstallADBExtension
 "
 false
 )

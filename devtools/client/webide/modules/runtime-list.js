@@ -840,7 +840,7 @@ other
 )
 ;
 const
-noHelperNode
+noADBExtensionNode
 =
 doc
 .
@@ -852,7 +852,7 @@ runtime
 -
 panel
 -
-noadbhelper
+noadbextension
 "
 )
 ;
@@ -877,10 +877,10 @@ if
 (
 Devices
 .
-helperAddonInstalled
+adbExtensionInstalled
 )
 {
-noHelperNode
+noADBExtensionNode
 .
 setAttribute
 (
@@ -895,7 +895,7 @@ true
 }
 else
 {
-noHelperNode
+noADBExtensionNode
 .
 removeAttribute
 (
@@ -936,7 +936,7 @@ length
 &
 Devices
 .
-helperAddonInstalled
+adbExtensionInstalled
 )
 {
 noUSBNode

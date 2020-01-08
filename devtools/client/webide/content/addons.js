@@ -575,7 +575,7 @@ Strings
 GetStringFromName
 (
 "
-addons_adb_label
+addons_adb_label2
 "
 )
 ;

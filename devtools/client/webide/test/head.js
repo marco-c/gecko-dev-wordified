@@ -409,7 +409,7 @@ devtools
 .
 webide
 .
-autoinstallADBHelper
+autoinstallADBExtension
 "
 )
 ;
@@ -489,7 +489,7 @@ devtools
 .
 webide
 .
-autoinstallADBHelper
+autoinstallADBExtension
 "
 !
 !

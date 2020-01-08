@@ -209,7 +209,7 @@ runtime
 -
 panel
 -
-noadbhelper
+noadbextension
 "
 )
 .
