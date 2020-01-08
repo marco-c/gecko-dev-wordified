@@ -1,13 +1,6 @@
 mod
 settings
 ;
-#
-[
-macro_use
-]
-mod
-macros
-;
 pub
 mod
 parser
@@ -7851,7 +7844,7 @@ the
 list
 of
 valid
-possibilties
+possibilities
 /
 /
 /
@@ -9908,7 +9901,7 @@ argument
 /
 Another
 added
-benfit
+benefit
 of
 [
 ArgGroup
@@ -11753,7 +11746,7 @@ settings
 we
 need
 to
-propgate
+propagate
 them
 down
 to
@@ -12117,7 +12110,7 @@ settings
 we
 need
 to
-propgate
+propagate
 them
 down
 to
@@ -12343,7 +12336,7 @@ write_long_help
 ]
 instead
 if
-possibe
+possible
 !
 /
 /
@@ -12574,7 +12567,7 @@ settings
 we
 need
 to
-propgate
+propagate
 them
 down
 to
@@ -13564,7 +13557,6 @@ NOTE
 to
 generate
 the
-this
 file
 at
 compile
@@ -16711,7 +16703,7 @@ settings
 we
 need
 to
-propgate
+propagate
 them
 down
 to

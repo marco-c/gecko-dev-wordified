@@ -4707,6 +4707,7 @@ format
 (
 "
 [
+possible
 values
 :
 {
@@ -4768,6 +4769,7 @@ format
 (
 "
 [
+possible
 values
 :
 {
@@ -7056,7 +7058,7 @@ indicating
 that
 nothing
 was
-caputred
+captured
 but
 the
 reader
@@ -7507,7 +7509,6 @@ copy
 the
 template
 from
-the
 the
 reader
 to

@@ -288,10 +288,6 @@ style
 self
 .
 style
-.
-clone
-(
-)
 string
 :
 self
@@ -1880,7 +1876,8 @@ sequences
 for
 the
 associated
-Styles
+Style
+s
 around
 each
 set
