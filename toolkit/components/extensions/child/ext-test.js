@@ -415,8 +415,6 @@ return
 new
 context
 .
-cloneScope
-.
 Error
 (
 )
