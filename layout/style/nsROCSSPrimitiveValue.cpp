@@ -1419,9 +1419,6 @@ mAppUnits
 *
 CM_PER_INCH_FLOAT
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSInch
 (
 )
@@ -1447,9 +1444,6 @@ mAppUnits
 *
 MM_PER_INCH_FLOAT
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSInch
 (
 )
@@ -1473,9 +1467,6 @@ mValue
 .
 mAppUnits
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSInch
 (
 )
@@ -1501,9 +1492,6 @@ mAppUnits
 *
 POINTS_PER_INCH_FLOAT
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSInch
 (
 )
@@ -1531,9 +1519,6 @@ mAppUnits
 .
 0f
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSInch
 (
 )
