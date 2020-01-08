@@ -6522,7 +6522,7 @@ reportDataCloneError
 JS_SCERR_TRANSFERABLE
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -7253,7 +7253,7 @@ TypedArrayObject
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 context
@@ -7405,7 +7405,7 @@ DataViewObject
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 context
@@ -7517,7 +7517,7 @@ ArrayBufferObject
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 context
@@ -8489,7 +8489,7 @@ MOZ_ASSERT
 unwrapped
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 context
@@ -8708,7 +8708,7 @@ MOZ_ASSERT
 unwrapped
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 context
@@ -10968,7 +10968,7 @@ ArrayBufferObject
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

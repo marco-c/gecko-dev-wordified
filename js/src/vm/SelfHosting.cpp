@@ -20212,7 +20212,7 @@ shg
 return
 false
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

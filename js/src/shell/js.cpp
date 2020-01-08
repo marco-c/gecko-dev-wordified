@@ -4406,7 +4406,7 @@ savedExc
 cx
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -11980,7 +11980,7 @@ false
 }
 }
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -12472,7 +12472,7 @@ cx
 )
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar1
 (
 cx
@@ -18625,7 +18625,7 @@ if
 script
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -20248,7 +20248,7 @@ cx
 {
 Maybe
 <
-JSAutoRealmAllowCCW
+JSAutoRealm
 >
 ar
 ;
@@ -21069,7 +21069,7 @@ return
 nullptr
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -21450,7 +21450,7 @@ lineno
 {
 Maybe
 <
-JSAutoRealmAllowCCW
+JSAutoRealm
 >
 ar
 ;
@@ -22015,7 +22015,7 @@ global
 )
 break
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -31448,7 +31448,7 @@ true
 ;
 }
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -49209,7 +49209,7 @@ false
 ;
 Maybe
 <
-JSAutoRealmAllowCCW
+JSAutoRealm
 >
 ar
 ;
@@ -53406,7 +53406,7 @@ return
 nullptr
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -57888,7 +57888,7 @@ glob
 return
 1
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
