@@ -15673,6 +15673,8 @@ UsedFontFaceTable
 aResult
 uint32_t
 aMaxRanges
+bool
+aSkipCollapsedWhitespace
 )
 ;
 /
@@ -15757,6 +15759,8 @@ UsedFontFaceTable
 aResult
 uint32_t
 aMaxRanges
+bool
+aSkipCollapsedWhitespace
 )
 ;
 /

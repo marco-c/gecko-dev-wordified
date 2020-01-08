@@ -1370,6 +1370,8 @@ record
 for
 each
 face
+bool
+aSkipCollapsedWhitespace
 nsTArray
 <
 nsAutoPtr
