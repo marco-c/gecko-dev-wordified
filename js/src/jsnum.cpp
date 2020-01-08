@@ -580,13 +580,13 @@ end
 -
 start
 ;
-UniqueChars
+auto
 cstr
-(
+=
 cx
 -
 >
-pod_malloc
+make_pod_array
 <
 char
 >
@@ -594,7 +594,6 @@ char
 length
 +
 1
-)
 )
 ;
 if

@@ -24617,10 +24617,7 @@ clearPendingException
 (
 )
 ;
-UniquePtr
-<
-char16_t
->
+UniqueTwoByteChars
 chars
 {
 JS
