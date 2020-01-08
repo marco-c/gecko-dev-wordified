@@ -1379,7 +1379,7 @@ RustAttributeList
 aList
 )
 ;
-nsresult
+void
 sdp_get_groups
 (
 const

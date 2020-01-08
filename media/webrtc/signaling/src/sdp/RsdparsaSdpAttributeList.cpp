@@ -5068,9 +5068,6 @@ RustSdpAttributeGroup
 numGroup
 )
 ;
-nsresult
-nr
-=
 sdp_get_groups
 (
 attributeList
@@ -5082,17 +5079,6 @@ get
 )
 )
 ;
-if
-(
-NS_FAILED
-(
-nr
-)
-)
-{
-return
-;
-}
 auto
 groups
 =
