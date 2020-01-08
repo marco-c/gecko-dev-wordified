@@ -238,6 +238,8 @@ server
 /
 actors
 /
+addon
+/
 webextension
 -
 parent

@@ -452,6 +452,8 @@ server
 /
 actors
 /
+addon
+/
 webextension
 "
 )

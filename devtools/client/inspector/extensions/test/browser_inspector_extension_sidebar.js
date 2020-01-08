@@ -96,6 +96,8 @@ shared
 /
 fronts
 /
+addon
+/
 webextension
 -
 inspected

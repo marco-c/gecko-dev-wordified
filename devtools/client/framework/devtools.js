@@ -277,6 +277,8 @@ shared
 /
 fronts
 /
+addon
+/
 webextension
 -
 inspected
@@ -3058,8 +3060,7 @@ host
 (
 bottom
 window
-left
-right
+side
 )
 *
 param

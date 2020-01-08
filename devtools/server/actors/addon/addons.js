@@ -133,6 +133,8 @@ shared
 /
 specs
 /
+addon
+/
 addons
 "
 )

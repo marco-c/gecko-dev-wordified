@@ -2541,6 +2541,8 @@ server
 /
 actors
 /
+addon
+/
 addons
 "
 {
@@ -3435,6 +3437,8 @@ devtools
 server
 /
 actors
+/
+addon
 /
 webextension
 -

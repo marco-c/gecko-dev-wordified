@@ -1991,7 +1991,7 @@ array
 _webConsoleCommandsCache
 :
 null
-actorPrefix
+typeName
 :
 "
 console
