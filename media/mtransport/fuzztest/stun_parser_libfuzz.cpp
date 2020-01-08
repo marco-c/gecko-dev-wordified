@@ -204,6 +204,9 @@ UCHAR
 )
 data
 ;
+if
+(
+!
 nr_stun_message_create2
 (
 &
@@ -211,7 +214,8 @@ req
 mes
 size
 )
-;
+)
+{
 nr_stun_decode_message
 (
 req
@@ -225,6 +229,7 @@ nr_stun_message_destroy
 req
 )
 ;
+}
 return
 0
 ;
