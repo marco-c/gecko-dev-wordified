@@ -245,7 +245,7 @@ stop
 color
 "
 "
-RGBAColor
+Color
 "
 "
 RGBA
@@ -257,6 +257,10 @@ new
 0
 0
 255
+)
+.
+into
+(
 )
 "
 products
@@ -369,7 +373,7 @@ flood
 color
 "
 "
-RGBAColor
+Color
 "
 "
 RGBA
@@ -382,6 +386,10 @@ new
 0
 255
 )
+.
+into
+(
+)
 "
 products
 =
@@ -391,7 +399,7 @@ gecko
 animation_value_type
 =
 "
-AnimatedRGBA
+AnimatedColor
 "
 spec
 =
@@ -482,7 +490,7 @@ lighting
 color
 "
 "
-RGBAColor
+Color
 "
 "
 RGBA
@@ -495,6 +503,10 @@ new
 255
 255
 )
+.
+into
+(
+)
 "
 products
 =
@@ -504,7 +516,7 @@ gecko
 animation_value_type
 =
 "
-AnimatedRGBA
+AnimatedColor
 "
 spec
 =

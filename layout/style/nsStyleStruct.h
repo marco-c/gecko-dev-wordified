@@ -20899,7 +20899,10 @@ mClipPath
 [
 reset
 ]
-nscolor
+mozilla
+:
+:
+StyleComplexColor
 mStopColor
 ;
 /
@@ -20907,7 +20910,10 @@ mStopColor
 [
 reset
 ]
-nscolor
+mozilla
+:
+:
+StyleComplexColor
 mFloodColor
 ;
 /
@@ -20915,7 +20921,10 @@ mFloodColor
 [
 reset
 ]
-nscolor
+mozilla
+:
+:
+StyleComplexColor
 mLightingColor
 ;
 /
