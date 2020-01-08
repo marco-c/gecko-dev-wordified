@@ -1456,6 +1456,15 @@ Reference
 TypeKind
 :
 :
+Vector
+(
+.
+.
+)
+|
+TypeKind
+:
+:
 BlockPointer
 |
 TypeKind
