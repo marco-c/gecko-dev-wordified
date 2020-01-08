@@ -326,6 +326,12 @@ using
 mozilla
 :
 :
+StaticMutexNotRecorded
+;
+using
+mozilla
+:
+:
 StaticMutexAutoLock
 ;
 using
@@ -14413,7 +14419,7 @@ this
 point
 .
 static
-StaticMutex
+StaticMutexNotRecorded
 gTelemetryScalarsMutex
 ;
 void
