@@ -94,7 +94,9 @@ networkLocations
 locations
 selectedPage
 :
-null
+PAGES
+.
+THIS_FIREFOX
 }
 ;
 }
