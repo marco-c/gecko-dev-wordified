@@ -1171,11 +1171,6 @@ IWeakReference
 >
 existingWeak
 (
-std
-:
-:
-move
-(
 GetLiveSet
 (
 )
@@ -1186,7 +1181,6 @@ aTarget
 .
 get
 (
-)
 )
 )
 )
@@ -4962,11 +4956,6 @@ IWeakReference
 >
 existingWeak
 (
-std
-:
-:
-move
-(
 GetLiveSet
 (
 )
@@ -4974,7 +4963,6 @@ GetLiveSet
 Get
 (
 aTarget
-)
 )
 )
 ;
