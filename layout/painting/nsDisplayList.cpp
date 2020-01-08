@@ -49360,7 +49360,7 @@ parentFrame
 frame
 -
 >
-GetInFlowParent
+GetInFlowParentIgnoringAnonBoxes
 (
 )
 ;
@@ -51118,7 +51118,7 @@ establisher
 establisher
 -
 >
-GetInFlowParent
+GetInFlowParentIgnoringAnonBoxes
 (
 )
 )
