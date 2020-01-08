@@ -812,6 +812,10 @@ actors
 webconsole
 /
 listeners
+/
+content
+-
+process
 "
 true
 )
