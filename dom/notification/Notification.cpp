@@ -4137,10 +4137,10 @@ IsServiceWorker
 )
 {
 return
-DOMPrefs
+StaticPrefs
 :
 :
-NotificationEnabledInServiceWorkers
+dom_webnotifications_serviceworker_enabled
 (
 )
 ;
