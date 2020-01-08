@@ -3481,6 +3481,7 @@ foo
 "
 }
 )
+InvalidArgumentError
 )
 ;
 for
@@ -3541,6 +3542,7 @@ foo
 "
 }
 )
+InvalidArgumentError
 )
 ;
 let
@@ -3699,6 +3701,7 @@ foo
 "
 }
 )
+InvalidArgumentError
 )
 ;
 Assert
@@ -3721,6 +3724,7 @@ accessibilityChecks
 1
 }
 )
+InvalidArgumentError
 )
 ;
 caps
@@ -3805,6 +3809,7 @@ foo
 "
 }
 )
+InvalidArgumentError
 )
 ;
 Assert
@@ -3827,6 +3832,7 @@ useNonSpecCompliantPointerOrigin
 1
 }
 )
+InvalidArgumentError
 )
 ;
 caps
@@ -3911,6 +3917,7 @@ foo
 "
 }
 )
+InvalidArgumentError
 )
 ;
 Assert
@@ -3933,6 +3940,7 @@ webdriverClick
 1
 }
 )
+InvalidArgumentError
 )
 ;
 run_next_test
