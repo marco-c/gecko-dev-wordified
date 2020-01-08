@@ -1805,7 +1805,7 @@ google
 in
 -
 content
-.
+:
 {
 type
 }
