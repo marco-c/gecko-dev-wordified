@@ -1969,10 +1969,7 @@ pinningTelemetryInfo
 >
 certPinningResultHistogram
 =
-Some
-(
 histogram
-)
 ;
 }
 /
