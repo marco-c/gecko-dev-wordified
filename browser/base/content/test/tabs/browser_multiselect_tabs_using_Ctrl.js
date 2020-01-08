@@ -30,7 +30,7 @@ mSelectedTabs
 =
 gBrowser
 .
-_multiSelectedTabsMap
+_multiSelectedTabsSet
 ;
 isnot
 (
@@ -212,7 +212,7 @@ mSelectedTabs
 =
 gBrowser
 .
-_multiSelectedTabsMap
+_multiSelectedTabsSet
 ;
 const
 initialFocusedTab
@@ -461,7 +461,7 @@ multiselected
 &
 gBrowser
 .
-_multiSelectedTabsMap
+_multiSelectedTabsSet
 .
 has
 (
@@ -486,7 +486,7 @@ multiselected
 &
 gBrowser
 .
-_multiSelectedTabsMap
+_multiSelectedTabsSet
 .
 has
 (
