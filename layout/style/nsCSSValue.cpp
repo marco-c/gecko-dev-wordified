@@ -4885,12 +4885,6 @@ this
 )
 ;
 }
-Servo_ReleaseArcStringData
-(
-&
-mString
-)
-;
 }
 bool
 css
@@ -5189,11 +5183,9 @@ chars
 uint32_t
 len
 ;
-Servo_GetArcStringData
+Servo_CssUrlData_GetSerialization
 (
-mString
-.
-mPtr
+mCssUrl
 &
 chars
 &
