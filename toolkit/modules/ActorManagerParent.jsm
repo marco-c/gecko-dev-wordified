@@ -1370,11 +1370,6 @@ ManifestMessagesChild
 .
 jsm
 "
-group
-:
-"
-browsers
-"
 messages
 :
 [
