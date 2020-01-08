@@ -154,6 +154,8 @@ nsString
 &
 aName
 )
+const
+override
 ;
 }
 ;

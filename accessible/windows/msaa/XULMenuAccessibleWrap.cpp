@@ -307,6 +307,7 @@ nsString
 &
 aName
 )
+const
 {
 /
 /
