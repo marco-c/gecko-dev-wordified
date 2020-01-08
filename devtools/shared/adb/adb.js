@@ -377,6 +377,7 @@ to
 |
 true
 |
+async
 start
 (
 )
