@@ -2112,9 +2112,10 @@ i
 1
 ]
 =
-EncodeLatin1
+StringToNewUTF8CharsZ
 (
 cx
+*
 str
 )
 ;
@@ -2150,7 +2151,7 @@ i
 return
 ;
 }
-JS_ReportErrorNumberLatin1
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage

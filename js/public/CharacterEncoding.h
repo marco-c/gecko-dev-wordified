@@ -798,7 +798,7 @@ are
 const
 and
 it
-allows
+disallows
 assignment
 .
 *
