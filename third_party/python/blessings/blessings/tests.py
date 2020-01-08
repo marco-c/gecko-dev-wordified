@@ -105,17 +105,6 @@ exists
 "
 "
 from
-__future__
-import
-with_statement
-#
-Make
-2
-.
-5
--
-compatible
-from
 curses
 import
 tigetstr
@@ -124,10 +113,6 @@ from
 functools
 import
 partial
-from
-StringIO
-import
-StringIO
 import
 sys
 from
@@ -140,6 +125,10 @@ nose
 tools
 import
 eq_
+from
+six
+import
+StringIO
 #
 This
 tests
@@ -1944,6 +1933,7 @@ hey
     
 except
 TypeError
+as
 e
 :
         
@@ -1977,6 +1967,7 @@ unicode
     
 except
 TypeError
+as
 e
 :
         
@@ -2011,6 +2002,7 @@ string
     
 except
 TypeError
+as
 e
 :
         
@@ -2050,6 +2042,7 @@ arg
     
 except
 TypeError
+as
 e
 :
         
