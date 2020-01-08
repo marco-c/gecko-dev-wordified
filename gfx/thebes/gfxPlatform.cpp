@@ -10317,7 +10317,13 @@ result
 empty
 )
 return
+std
+:
+:
+move
+(
 result
+)
 ;
 }
 bool
