@@ -1960,12 +1960,13 @@ URL
 "
 )
 ;
-newTab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+newTab
+.
+linkedBrowser
 URL
 )
 ;
