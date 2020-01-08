@@ -264,6 +264,9 @@ stackLimit
 Bytes
 *
 bytes
+Uint32Vector
+*
+offsets
 UniqueChars
 *
 error
