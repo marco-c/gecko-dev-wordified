@@ -3060,6 +3060,11 @@ idle
 menus
 "
 "
+menus
+.
+overrideContext
+"
+"
 mozillaAddons
 "
 "
