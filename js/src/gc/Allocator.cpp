@@ -2217,6 +2217,12 @@ t
 kind
 )
 ;
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 cx
 -
 >
@@ -2224,6 +2230,8 @@ noteTenuredAlloc
 (
 )
 ;
+#
+endif
 return
 t
 ;
