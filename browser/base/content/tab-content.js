@@ -1534,6 +1534,11 @@ about
 :
 newtab
 "
+"
+about
+:
+welcome
+"
 ]
 )
 init
