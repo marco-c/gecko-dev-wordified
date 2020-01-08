@@ -5788,6 +5788,11 @@ octal
 goto
 parsing_done
 ;
+Iterator
+junk_begin
+=
+current
+;
 +
 +
 current
@@ -5805,6 +5810,10 @@ if
 allow_trailing_junk
 )
 {
+current
+=
+junk_begin
+;
 goto
 parsing_done
 ;
@@ -5871,6 +5880,10 @@ if
 allow_trailing_junk
 )
 {
+current
+=
+junk_begin
+;
 goto
 parsing_done
 ;
@@ -5912,6 +5925,10 @@ if
 allow_trailing_junk
 )
 {
+current
+=
+junk_begin
+;
 goto
 parsing_done
 ;
