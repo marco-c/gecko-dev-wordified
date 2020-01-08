@@ -750,7 +750,7 @@ enabled
 {
 min
 :
-7
+6
 max
 :
 55
