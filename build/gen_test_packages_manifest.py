@@ -131,6 +131,12 @@ awsy
 '
 gtest
 '
+    
+'
+updater
+-
+dep
+'
 ]
 PACKAGE_SPECIFIED_HARNESSES
 =
@@ -168,6 +174,12 @@ raptor
     
 '
 awsy
+'
+    
+'
+updater
+-
+dep
 '
 ]
 #
