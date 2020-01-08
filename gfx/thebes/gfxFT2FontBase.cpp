@@ -4160,7 +4160,10 @@ FT_LOAD_NO_HINTING
 FT_Error
 ftError
 =
-FT_Load_Glyph
+Factory
+:
+:
+LoadFTGlyph
 (
 face
 .

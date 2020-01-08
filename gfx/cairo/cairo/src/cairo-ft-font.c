@@ -810,6 +810,18 @@ aFace
 )
 ;
 extern
+FT_Error
+mozilla_LoadFTGlyph
+(
+FT_Face
+aFace
+uint32_t
+aGlyphIndex
+int32_t
+aFlags
+)
+;
+extern
 void
 mozilla_LockFTLibrary
 (
@@ -12640,7 +12652,7 @@ FT_LOAD_COLOR
 endif
 error
 =
-FT_Load_Glyph
+mozilla_LoadFTGlyph
 (
 scaled_font
 -
@@ -13625,7 +13637,7 @@ CAIRO_SCALED_GLYPH_INFO_SURFACE
 {
 error
 =
-FT_Load_Glyph
+mozilla_LoadFTGlyph
 (
 face
 _cairo_scaled_glyph_index
