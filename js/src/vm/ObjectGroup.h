@@ -2949,9 +2949,6 @@ const
 AutoSweepObjectGroup
 &
 sweep
-AutoClearTypeInferenceStateOnOOM
-*
-oom
 )
 ;
 private

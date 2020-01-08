@@ -10892,12 +10892,6 @@ js
 AutoSweepTypeScript
 &
 sweep
-js
-:
-:
-AutoClearTypeInferenceStateOnOOM
-*
-oom
 )
 ;
 inline

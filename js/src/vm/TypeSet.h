@@ -4518,9 +4518,6 @@ JS
 Zone
 *
 zone
-AutoClearTypeInferenceStateOnOOM
-&
-oom
 )
 ;
 inline
