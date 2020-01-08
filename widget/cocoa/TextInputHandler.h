@@ -1093,6 +1093,11 @@ IsForRTLLanguage
 )
 ;
 bool
+IsForJapaneseLanguage
+(
+)
+;
+bool
 IsInitializedByCurrentInputSource
 (
 )
