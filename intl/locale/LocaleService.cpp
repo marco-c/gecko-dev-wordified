@@ -4075,6 +4075,8 @@ useOSLocales
 {
 if
 (
+NS_SUCCEEDED
+(
 OSPreferences
 :
 :
@@ -4086,6 +4088,7 @@ GetInstance
 GetRegionalPrefsLocales
 (
 aRetVal
+)
 )
 )
 {
@@ -4207,7 +4210,8 @@ appLocale
 ;
 if
 (
-!
+NS_FAILED
+(
 OSPreferences
 :
 :
@@ -4219,6 +4223,7 @@ GetInstance
 GetRegionalPrefsLocales
 (
 regionalPrefsLocales
+)
 )
 )
 {

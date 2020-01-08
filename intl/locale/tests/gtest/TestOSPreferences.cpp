@@ -220,6 +220,8 @@ systemLocales
 ;
 ASSERT_TRUE
 (
+NS_SUCCEEDED
+(
 OSPreferences
 :
 :
@@ -231,6 +233,7 @@ GetInstance
 GetSystemLocales
 (
 systemLocales
+)
 )
 )
 ;
@@ -335,6 +338,8 @@ rgLocales
 ;
 ASSERT_TRUE
 (
+NS_SUCCEEDED
+(
 OSPreferences
 :
 :
@@ -346,6 +351,7 @@ GetInstance
 GetRegionalPrefsLocales
 (
 rgLocales
+)
 )
 )
 ;

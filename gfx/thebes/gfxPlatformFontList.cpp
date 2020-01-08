@@ -7994,6 +7994,8 @@ negLocales
 ;
 if
 (
+NS_SUCCEEDED
+(
 OSPreferences
 :
 :
@@ -8005,6 +8007,7 @@ GetInstance
 GetSystemLocales
 (
 sysLocales
+)
 )
 )
 {
