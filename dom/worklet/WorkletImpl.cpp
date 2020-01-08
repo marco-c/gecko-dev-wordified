@@ -390,6 +390,10 @@ WorkletLoadInfo
 {
 MOZ_ASSERT
 (
+!
+mPrincipal
+|
+|
 NS_IsMainThread
 (
 )
