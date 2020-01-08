@@ -14148,6 +14148,11 @@ nsIContentSecurityPolicy
 :
 :
 VIOLATION_TYPE_EVAL
+nullptr
+/
+/
+triggering
+element
 mFileName
 scriptSample
 mLineNum

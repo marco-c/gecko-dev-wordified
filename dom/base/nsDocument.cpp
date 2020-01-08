@@ -68192,6 +68192,12 @@ aParserCreated
 nullptr
 /
 /
+aTriggeringElement
+EmptyString
+(
+)
+/
+/
 FIXME
 get
 script

@@ -1266,7 +1266,7 @@ nsStyleUtil
 :
 CSPAllowsInlineStyle
 (
-nullptr
+this
 NodePrincipal
 (
 )

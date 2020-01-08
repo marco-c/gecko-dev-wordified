@@ -6378,6 +6378,11 @@ nsIContentSecurityPolicy
 :
 :
 VIOLATION_TYPE_REQUIRE_SRI_FOR_SCRIPT
+nullptr
+/
+/
+triggering
+element
 aLoadInfo
 .
 mURL

@@ -9799,6 +9799,7 @@ csp
 >
 Permits
 (
+this
 actionURL
 nsIContentSecurityPolicy
 :

@@ -1223,6 +1223,11 @@ nsIContentSecurityPolicy
 :
 :
 VIOLATION_TYPE_EVAL
+nullptr
+/
+/
+triggering
+element
 fileNameString
 scriptSample
 lineNum
