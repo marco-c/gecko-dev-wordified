@@ -38,7 +38,6 @@ exported
 Cr
 CC
 NetUtil
-defer
 errorCount
 initTestDebuggerServer
 writeTestTempFile
@@ -99,16 +98,6 @@ modules
 NetUtil
 .
 jsm
-"
-)
-;
-const
-promise
-=
-require
-(
-"
-promise
 "
 )
 ;
@@ -1121,7 +1110,7 @@ local_transport
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
