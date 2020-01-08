@@ -11422,7 +11422,7 @@ unicode_
 return
 ReportError
 (
-JSMSG_RAW_BRACE_IN_REGEP
+JSMSG_RAW_BRACE_IN_REGEXP
 )
 ;
 int
@@ -11551,7 +11551,7 @@ c
 return
 ReportError
 (
-JSMSG_RAW_BRACKET_IN_REGEP
+JSMSG_RAW_BRACKET_IN_REGEXP
 )
 ;
 else
@@ -11567,7 +11567,7 @@ c
 return
 ReportError
 (
-JSMSG_RAW_BRACE_IN_REGEP
+JSMSG_RAW_BRACE_IN_REGEXP
 )
 ;
 else
