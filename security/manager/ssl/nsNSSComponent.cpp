@@ -4050,12 +4050,7 @@ return
 }
 /
 /
-Detect
-but
-don
-'
-t
-import
+Disabled
 by
 default
 .
@@ -4068,7 +4063,7 @@ Preferences
 GetUint
 (
 kFamilySafetyModePref
-1
+0
 )
 ;
 if
