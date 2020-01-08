@@ -1197,6 +1197,7 @@ mozilla
 EnumSet
 <
 AllocKind
+uint32_t
 >
 ;
 /
