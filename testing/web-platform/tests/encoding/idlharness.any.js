@@ -76,10 +76,5 @@ TextDecoder
 )
 ;
 }
-'
-Encoding
-Standard
-IDL
-'
 )
 ;
