@@ -1644,7 +1644,9 @@ n
 aFrame
 aFloatAvailableSpace
 .
-mHasFloats
+HasFloats
+(
+)
 )
 ;
 #
@@ -1938,7 +1940,9 @@ if
 (
 aFloatAvailableSpace
 .
-mHasFloats
+HasFloats
+(
+)
 )
 {
 /
@@ -2311,7 +2315,9 @@ if
 !
 aFloatAvailableSpace
 .
-mHasFloats
+HasFloats
+(
+)
 )
 {
 /
@@ -2747,7 +2753,9 @@ wm
 )
 result
 .
-mHasFloats
+HasFloats
+(
+)
 )
 ;
 }
@@ -2987,7 +2995,9 @@ wm
 )
 result
 .
-mHasFloats
+HasFloats
+(
+)
 )
 ;
 }
@@ -5185,7 +5195,9 @@ return
 !
 aFloatAvailableSpace
 .
-mHasFloats
+HasFloats
+(
+)
 |
 |
 aFloatAvailableSpace
