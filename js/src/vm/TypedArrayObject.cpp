@@ -7177,7 +7177,7 @@ cx
 typedArray
 -
 >
-bufferObject
+bufferEither
 (
 )
 )
@@ -7404,7 +7404,7 @@ set
 typedArray
 -
 >
-bufferObject
+bufferEither
 (
 )
 )
