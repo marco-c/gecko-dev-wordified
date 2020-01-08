@@ -240,15 +240,6 @@ files
 .
 DOM_PREF
 (
-PerformanceObserverEnabled
-"
-dom
-.
-enable_performance_observer
-"
-)
-DOM_PREF
-(
 IndexedDBStorageOptionsEnabled
 "
 dom
@@ -330,9 +321,9 @@ DOM_WEBIDL_PREF2
 (
 dom_fetchObserver_enabled
 )
-DOM_WEBIDL_PREF
+DOM_WEBIDL_PREF2
 (
-PerformanceObserverEnabled
+dom_enable_performance_observer
 )
 DOM_WEBIDL_PREF
 (
