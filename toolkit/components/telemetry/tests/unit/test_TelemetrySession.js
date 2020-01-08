@@ -3059,7 +3059,7 @@ units
 /
 /
 because
-TelemetryController
+MemoryTelemetry
 has
 separate
 logic

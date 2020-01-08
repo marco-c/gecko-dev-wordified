@@ -567,14 +567,14 @@ gre
 /
 modules
 /
-TelemetrySession
+MemoryTelemetry
 .
 jsm
 "
 /
 /
 bug
-1470339
+1481812
 "
 resource
 :
