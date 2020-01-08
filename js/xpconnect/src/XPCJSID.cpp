@@ -4554,7 +4554,7 @@ JSContext
 *
 cx
 HandleObject
-jsobj
+scope
 const
 nsID
 &
@@ -4608,7 +4608,7 @@ xpc
 WrapNative
 (
 cx
-jsobj
+scope
 static_cast
 <
 nsISupports

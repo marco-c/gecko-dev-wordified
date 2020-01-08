@@ -14848,7 +14848,7 @@ JS
 :
 :
 HandleObject
-jsobj
+scope
 const
 nsID
 &
