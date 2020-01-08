@@ -7546,13 +7546,11 @@ YieldHandling
 yieldHandling
 )
 ;
-bool
+Node
 argumentList
 (
 YieldHandling
 yieldHandling
-Node
-listNode
 bool
 *
 isSpread
