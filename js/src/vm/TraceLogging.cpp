@@ -515,9 +515,11 @@ MOZ_LIKELY
 traceLoggerState
 )
 )
+{
 return
 true
 ;
+}
 traceLoggerState
 =
 js_new
@@ -532,9 +534,11 @@ if
 !
 traceLoggerState
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -654,8 +658,10 @@ EnsureTraceLoggerState
 (
 )
 )
+{
 return
 ;
+}
 traceLoggerState
 -
 >
@@ -682,9 +688,11 @@ init
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Minimum
@@ -731,9 +739,11 @@ ensureSpaceBeforeAdd
 3
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -804,8 +814,10 @@ get
 (
 )
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 traceLoggerState
@@ -979,6 +991,7 @@ if
 !
 failed
 )
+{
 graph
 -
 >
@@ -987,6 +1000,7 @@ log
 events
 )
 ;
+}
 graph
 =
 nullptr
@@ -1020,9 +1034,11 @@ if
 (
 failed
 )
+{
 return
 false
 ;
+}
 enabled_
 =
 1
@@ -1153,6 +1169,7 @@ get
 (
 )
 )
+{
 size
 +
 =
@@ -1164,6 +1181,7 @@ sizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 return
 size
 ;
@@ -1219,6 +1237,7 @@ enable
 (
 )
 )
+{
 return
 fail
 (
@@ -1229,6 +1248,7 @@ error
 "
 )
 ;
+}
 if
 (
 enabled_
@@ -1277,6 +1297,7 @@ if
 !
 act
 )
+{
 return
 fail
 (
@@ -1287,6 +1308,7 @@ error
 "
 )
 ;
+}
 JSScript
 *
 script
@@ -1370,8 +1392,10 @@ isScripted
 (
 )
 )
+{
 break
 ;
+}
 +
 +
 frame
@@ -1505,6 +1529,7 @@ compartment
 (
 )
 )
+{
 return
 fail
 (
@@ -1515,6 +1540,7 @@ mismatch
 "
 )
 ;
+}
 TraceLoggerEvent
 event
 (
@@ -1575,9 +1601,11 @@ enabled_
 =
 0
 )
+{
 return
 true
 ;
+}
 if
 (
 enabled_
@@ -1601,6 +1629,7 @@ if
 (
 force
 )
+{
 traceLoggerState
 -
 >
@@ -1609,6 +1638,7 @@ maybeSpewError
 error
 )
 ;
+}
 logTimestamp
 (
 TraceLogger_Disable
@@ -1640,6 +1670,7 @@ id
 <
 TraceLogger_Last
 )
+{
 return
 TLTextIdString
 (
@@ -1652,6 +1683,7 @@ id
 )
 )
 ;
+}
 return
 traceLoggerState
 -
@@ -1701,9 +1733,11 @@ if
 !
 p
 )
+{
 return
 nullptr
 ;
+}
 return
 p
 -
@@ -1808,6 +1842,7 @@ popFront
 (
 )
 )
+{
 r
 .
 front
@@ -1824,6 +1859,7 @@ sizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 return
 size
 ;
@@ -1844,9 +1880,11 @@ id
 <
 TraceLogger_Last
 )
+{
 return
 false
 ;
+}
 /
 /
 Currently
@@ -2215,9 +2253,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 textId
 =
@@ -2247,9 +2287,11 @@ if
 !
 payload
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -2298,9 +2340,11 @@ text
 payload
 )
 )
+{
 return
 nullptr
 ;
+}
 payload
 -
 >
@@ -2338,6 +2382,7 @@ if
 !
 filename
 )
+{
 filename
 =
 "
@@ -2346,6 +2391,7 @@ unknown
 >
 "
 ;
+}
 LockGuard
 <
 Mutex
@@ -2450,9 +2496,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 textId
 =
@@ -2482,9 +2530,11 @@ if
 !
 payload
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -2538,9 +2588,11 @@ ptr
 payload
 )
 )
+{
 return
 nullptr
 ;
+}
 payload
 -
 >
@@ -2900,8 +2952,10 @@ enabled
 (
 )
 )
+{
 return
 ;
+}
 startEvent
 (
 TraceLogger_Error
@@ -2996,8 +3050,10 @@ isTextIdEnabled
 id
 )
 )
+{
 return
 ;
+}
 #
 ifdef
 DEBUG
@@ -3021,6 +3077,7 @@ append
 id
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -3037,6 +3094,7 @@ stack
 "
 )
 ;
+}
 }
 #
 endif
@@ -3078,6 +3136,7 @@ otherId
 +
 +
 )
+{
 graph
 -
 >
@@ -3090,6 +3149,7 @@ id
 )
 )
 ;
+}
 }
 log
 (
@@ -3196,8 +3256,10 @@ isTextIdEnabled
 id
 )
 )
+{
 return
 ;
+}
 #
 ifdef
 DEBUG
@@ -3454,8 +3516,10 @@ enabled_
 =
 0
 )
+{
 return
 ;
+}
 #
 ifdef
 DEBUG
@@ -3466,12 +3530,14 @@ id
 =
 TraceLogger_Disable
 )
+{
 graphStack
 .
 clear
 (
 )
 ;
+}
 #
 endif
 MOZ_ASSERT
@@ -3565,6 +3631,7 @@ get
 (
 )
 )
+{
 graph
 -
 >
@@ -3573,6 +3640,7 @@ log
 events
 )
 ;
+}
 /
 /
 The
@@ -3796,11 +3864,13 @@ popFirst
 (
 )
 )
+{
 js_delete
 (
 logger
 )
 ;
+}
 threadLoggers
 .
 clear
@@ -3834,6 +3904,7 @@ popFront
 (
 )
 )
+{
 js_delete
 (
 r
@@ -3847,6 +3918,7 @@ value
 )
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -3936,9 +4008,11 @@ flaglen
 '
 )
 )
+{
 return
 true
 ;
+}
 index
 =
 strstr
@@ -3979,11 +4053,13 @@ if
 !
 env
 )
+{
 env
 =
 "
 "
 ;
+}
 if
 (
 strstr
@@ -4267,8 +4343,10 @@ TLTextIdIsTogglable
 id
 )
 )
+{
 continue
 ;
+}
 printf
 (
 "
@@ -4334,6 +4412,7 @@ TLTextIdIsTogglable
 id
 )
 )
+{
 enabledTextIds
 [
 i
@@ -4348,7 +4427,9 @@ id
 )
 )
 ;
+}
 else
+{
 enabledTextIds
 [
 i
@@ -4356,6 +4437,7 @@ i
 =
 true
 ;
+}
 }
 if
 (
@@ -4993,10 +5075,12 @@ EnableMainThread
 "
 )
 )
+{
 mainThreadEnabled
 =
 true
 ;
+}
 if
 (
 strstr
@@ -5007,10 +5091,12 @@ EnableOffThread
 "
 )
 )
+{
 helperThreadEnabled
 =
 true
 ;
+}
 if
 (
 strstr
@@ -5021,10 +5107,12 @@ EnableGraphFile
 "
 )
 )
+{
 graphFileEnabled
 =
 true
 ;
+}
 if
 (
 strstr
@@ -5035,10 +5123,12 @@ EnableGraph
 "
 )
 )
+{
 graphEnabled
 =
 true
 ;
+}
 if
 (
 strstr
@@ -5049,10 +5139,12 @@ Errors
 "
 )
 )
+{
 spewErrors
 =
 true
 ;
+}
 }
 startupTime
 =
@@ -5101,8 +5193,10 @@ enabledTextIds
 textId
 ]
 )
+{
 return
 ;
+}
 ReleaseAllJITCode
 (
 cx
@@ -5162,6 +5256,7 @@ textId
 =
 TraceLogger_Scripts
 )
+{
 jit
 :
 :
@@ -5176,6 +5271,7 @@ runtime
 true
 )
 ;
+}
 if
 (
 textId
@@ -5183,6 +5279,7 @@ textId
 =
 TraceLogger_Engine
 )
+{
 jit
 :
 :
@@ -5197,6 +5294,7 @@ runtime
 true
 )
 ;
+}
 }
 void
 TraceLoggerThreadState
@@ -5227,8 +5325,10 @@ enabledTextIds
 textId
 ]
 )
+{
 return
 ;
+}
 ReleaseAllJITCode
 (
 cx
@@ -5288,6 +5388,7 @@ textId
 =
 TraceLogger_Scripts
 )
+{
 jit
 :
 :
@@ -5302,6 +5403,7 @@ runtime
 false
 )
 ;
+}
 if
 (
 textId
@@ -5309,6 +5411,7 @@ textId
 =
 TraceLogger_Engine
 )
+{
 jit
 :
 :
@@ -5323,6 +5426,7 @@ runtime
 false
 )
 ;
+}
 }
 TraceLoggerThread
 *
@@ -5343,9 +5447,11 @@ EnsureTraceLoggerState
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 traceLoggerState
 -
@@ -5405,9 +5511,11 @@ if
 !
 cx
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -5442,9 +5550,11 @@ if
 !
 logger
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -5483,6 +5593,7 @@ if
 (
 graphEnabled
 )
+{
 logger
 -
 >
@@ -5490,6 +5601,7 @@ initGraph
 (
 )
 ;
+}
 if
 (
 CurrentHelperThread
@@ -5500,6 +5612,7 @@ helperThreadEnabled
 :
 mainThreadEnabled
 )
+{
 logger
 -
 >
@@ -5507,6 +5620,7 @@ enable
 (
 )
 ;
+}
 }
 return
 cx
@@ -5575,9 +5689,11 @@ EnsureTraceLoggerState
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 traceLoggerState
 -
@@ -5608,8 +5724,10 @@ EnsureTraceLoggerState
 (
 )
 )
+{
 return
 ;
+}
 traceLoggerState
 -
 >
@@ -5640,8 +5758,10 @@ EnsureTraceLoggerState
 (
 )
 )
+{
 return
 ;
+}
 traceLoggerState
 -
 >
@@ -5740,8 +5860,10 @@ if
 !
 traceLoggerState
 )
+{
 return
 ;
+}
 /
 /
 Only
@@ -5823,6 +5945,7 @@ if
 (
 traceLoggerState
 )
+{
 payload_
 .
 setEventPayload
@@ -5836,6 +5959,7 @@ text
 )
 )
 ;
+}
 }
 TraceLoggerEvent
 :
@@ -5851,6 +5975,7 @@ hasExtPayload
 (
 )
 )
+{
 extPayload
 (
 )
@@ -5860,6 +5985,7 @@ release
 (
 )
 ;
+}
 }
 uint32_t
 TraceLoggerEvent
@@ -5883,6 +6009,7 @@ hasExtPayload
 (
 )
 )
+{
 return
 extPayload
 (
@@ -5893,6 +6020,7 @@ textId
 (
 )
 ;
+}
 return
 payload_
 .
@@ -5923,6 +6051,7 @@ hasExtPayload
 (
 )
 )
+{
 other
 .
 extPayload
@@ -5934,12 +6063,14 @@ use
 (
 )
 ;
+}
 if
 (
 hasExtPayload
 (
 )
 )
+{
 extPayload
 (
 )
@@ -5949,6 +6080,7 @@ release
 (
 )
 ;
+}
 payload_
 =
 other
@@ -5984,6 +6116,7 @@ hasExtPayload
 (
 )
 )
+{
 extPayload
 (
 )
@@ -5993,4 +6126,5 @@ use
 (
 )
 ;
+}
 }

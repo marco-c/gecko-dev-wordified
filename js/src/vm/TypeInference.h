@@ -3737,12 +3737,14 @@ magic_
 TypeConstraintMagic
 )
 )
+{
 ReportMagicWordFailure
 (
 magic_
 TypeConstraintMagic
 )
 ;
+}
 #
 endif
 }
@@ -3761,6 +3763,7 @@ if
 (
 next_
 )
+{
 next_
 -
 >
@@ -3768,6 +3771,7 @@ checkMagic
 (
 )
 ;
+}
 return
 next_
 ;
@@ -3794,6 +3798,7 @@ if
 (
 next
 )
+{
 next
 -
 >
@@ -3801,6 +3806,7 @@ checkMagic
 (
 )
 ;
+}
 next_
 =
 next
@@ -4476,6 +4482,7 @@ magic_
 ConstraintTypeSetMagic
 )
 )
+{
 ReportMagicWordFailure
 (
 magic_
@@ -4490,6 +4497,7 @@ objectSet
 )
 )
 ;
+}
 #
 endif
 }
@@ -4532,6 +4540,7 @@ if
 (
 constraintList_
 )
+{
 constraintList_
 -
 >
@@ -4539,6 +4548,7 @@ checkMagic
 (
 )
 ;
+}
 return
 constraintList_
 ;
@@ -4565,6 +4575,7 @@ if
 (
 constraint
 )
+{
 constraint
 -
 >
@@ -4572,6 +4583,7 @@ checkMagic
 (
 )
 ;
+}
 constraintList_
 =
 constraint
@@ -5175,9 +5187,11 @@ flags
 TYPE_FLAG_BASE_MASK
 )
 )
+{
 return
 false
 ;
+}
 return
 hasAnyFlag
 (
@@ -7656,9 +7670,11 @@ back
 =
 info
 )
+{
 return
 true
 ;
+}
 return
 inlinedCompilations_
 .
@@ -8653,6 +8669,7 @@ if
 (
 maybeTypes_
 )
+{
 maybeTypes_
 -
 >
@@ -8660,6 +8677,7 @@ checkMagic
 (
 )
 ;
+}
 return
 maybeTypes_
 ;

@@ -382,6 +382,7 @@ isObject
 (
 )
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -392,6 +393,7 @@ TaggedProto
 "
 )
 ;
+}
 }
 private
 :
@@ -510,12 +512,14 @@ isDynamic
 (
 )
 )
+{
 return
 uint64_t
 (
 1
 )
 ;
+}
 if
 (
 !
@@ -525,12 +529,14 @@ isObject
 (
 )
 )
+{
 return
 uint64_t
 (
 0
 )
 ;
+}
 return
 MovableCellHasher
 <
@@ -648,9 +654,11 @@ isObject
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 JS
 :
@@ -1026,6 +1034,7 @@ isObject
 (
 )
 )
+{
 return
 f
 (
@@ -1049,6 +1058,7 @@ args
 .
 )
 ;
+}
 return
 F
 :

@@ -2089,9 +2089,11 @@ maxSize
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -2495,12 +2497,14 @@ textId
 <
 TraceLogger_Last
 )
+{
 return
 enabledTextIds
 [
 textId
 ]
 ;
+}
 return
 true
 ;
@@ -2538,6 +2542,7 @@ if
 (
 spewErrors
 )
+{
 fprintf
 (
 stderr
@@ -2550,6 +2555,7 @@ n
 text
 )
 ;
+}
 }
 const
 char
@@ -2776,6 +2782,7 @@ if
 (
 logger
 )
+{
 return
 logger
 -
@@ -2784,6 +2791,7 @@ enable
 (
 )
 ;
+}
 #
 endif
 return
@@ -2809,6 +2817,7 @@ if
 (
 logger
 )
+{
 return
 logger
 -
@@ -2818,6 +2827,7 @@ enable
 cx
 )
 ;
+}
 #
 endif
 return
@@ -2840,6 +2850,7 @@ if
 (
 logger
 )
+{
 return
 logger
 -
@@ -2848,6 +2859,7 @@ disable
 (
 )
 ;
+}
 #
 endif
 return
@@ -2874,6 +2886,7 @@ if
 (
 logger
 )
+{
 logger
 -
 >
@@ -2882,6 +2895,7 @@ silentFail
 error
 )
 ;
+}
 #
 endif
 }
@@ -2973,6 +2987,7 @@ if
 (
 logger
 )
+{
 logger
 -
 >
@@ -2981,6 +2996,7 @@ logTimestamp
 textId
 )
 ;
+}
 #
 endif
 }
@@ -3002,6 +3018,7 @@ if
 (
 logger
 )
+{
 logger
 -
 >
@@ -3010,6 +3027,7 @@ startEvent
 textId
 )
 ;
+}
 #
 endif
 }
@@ -3033,6 +3051,7 @@ if
 (
 logger
 )
+{
 logger
 -
 >
@@ -3041,6 +3060,7 @@ startEvent
 event
 )
 ;
+}
 #
 endif
 }
@@ -3062,6 +3082,7 @@ if
 (
 logger
 )
+{
 logger
 -
 >
@@ -3070,6 +3091,7 @@ stopEvent
 textId
 )
 ;
+}
 #
 endif
 }
@@ -3093,6 +3115,7 @@ if
 (
 logger
 )
+{
 logger
 -
 >
@@ -3101,6 +3124,7 @@ stopEvent
 event
 )
 ;
+}
 #
 endif
 }
@@ -3135,6 +3159,7 @@ if
 (
 logger
 )
+{
 logger
 -
 >
@@ -3143,6 +3168,7 @@ logTimestamp
 id
 )
 ;
+}
 #
 endif
 }
@@ -3164,6 +3190,7 @@ if
 (
 logger
 )
+{
 logger
 -
 >
@@ -3172,6 +3199,7 @@ startEvent
 id
 )
 ;
+}
 #
 endif
 }
@@ -3193,6 +3221,7 @@ if
 (
 logger
 )
+{
 logger
 -
 >
@@ -3201,6 +3230,7 @@ stopEvent
 id
 )
 ;
+}
 #
 endif
 }
@@ -3414,6 +3444,7 @@ logger
 >
 top
 )
+{
 logger
 -
 >
@@ -3424,6 +3455,7 @@ stop
 (
 )
 ;
+}
 stop
 (
 )
@@ -3451,6 +3483,7 @@ if
 (
 isEvent
 )
+{
 logger
 -
 >
@@ -3462,7 +3495,9 @@ payload
 event
 )
 ;
+}
 else
+{
 logger
 -
 >
@@ -3474,6 +3509,7 @@ id
 )
 ;
 }
+}
 if
 (
 logger
@@ -3484,6 +3520,7 @@ top
 =
 this
 )
+{
 logger
 -
 >
@@ -3491,6 +3528,7 @@ top
 =
 prev
 ;
+}
 }
 #
 else
