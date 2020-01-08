@@ -438,6 +438,9 @@ nsIHttpChannel
 class
 nsISerialEventTarget
 ;
+class
+nsWebBrowser
+;
 template
 <
 typename
@@ -4438,6 +4441,12 @@ DelayedDeleteRunnable
 ;
 TextureFactoryIdentifier
 mTextureFactoryIdentifier
+;
+RefPtr
+<
+nsWebBrowser
+>
+mWebBrowser
 ;
 nsCOMPtr
 <
