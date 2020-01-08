@@ -625,6 +625,16 @@ i
 key
 )
 {
+if
+(
+entries
+[
+i
+]
+.
+destroy
+)
+{
 entries
 [
 i
@@ -640,6 +650,7 @@ i
 userData
 )
 ;
+}
 /
 /
 decrement
