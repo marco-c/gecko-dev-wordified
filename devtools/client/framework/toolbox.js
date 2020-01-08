@@ -18252,17 +18252,6 @@ this
 _onNewSelectedNodeFront
 )
 ;
-if
-(
-this
-.
-highlighterUtils
-.
-isRemoteHighlightable
-(
-)
-)
-{
 this
 .
 walker
@@ -18317,7 +18306,6 @@ getHighlighter
 autohide
 )
 ;
-}
 if
 (
 !

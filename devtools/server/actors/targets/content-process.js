@@ -847,9 +847,6 @@ actorID
 traits
 :
 {
-highlightable
-:
-false
 networkMonitor
 :
 false
