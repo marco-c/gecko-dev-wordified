@@ -43220,7 +43220,7 @@ get_Shmem
 )
 ;
 const
-nsDependentCString
+nsDependentCSubstring
 text
 (
 itemData
@@ -44204,8 +44204,6 @@ aInput
 Length
 (
 )
-+
-1
 SharedMemory
 :
 :
@@ -44239,8 +44237,6 @@ aInput
 Length
 (
 )
-+
-1
 )
 ;
 return

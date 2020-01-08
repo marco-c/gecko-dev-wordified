@@ -671,7 +671,7 @@ getter_AddRefs
 (
 stream
 )
-nsDependentCString
+nsDependentCSubstring
 (
 data
 .
@@ -772,7 +772,7 @@ dataWrapper
 >
 SetData
 (
-nsDependentCString
+nsDependentCSubstring
 (
 data
 .
