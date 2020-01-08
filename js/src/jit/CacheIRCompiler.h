@@ -377,6 +377,11 @@ Int32DivResult
 \
 _
 (
+Int32ModResult
+)
+\
+_
+(
 Int32BitOrResult
 )
 \

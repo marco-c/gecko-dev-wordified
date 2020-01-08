@@ -34084,6 +34084,9 @@ JSOP_MUL
 case
 JSOP_DIV
 :
+case
+JSOP_MOD
+:
 break
 ;
 default
