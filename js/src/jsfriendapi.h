@@ -4588,16 +4588,11 @@ JS_FRIEND_API
 (
 bool
 )
-GetOriginalEval
+GetRealmOriginalEval
 (
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-scope
 JS
 :
 :
