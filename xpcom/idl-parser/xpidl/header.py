@@ -2264,6 +2264,10 @@ _to
 "
 "
 "
+#
+NOQA
+:
+E501
 iface_forward_safe
 =
 "
@@ -2308,6 +2312,10 @@ _to
 "
 "
 "
+#
+NOQA
+:
+E501
 attr_builtin_infallible_tmpl
 =
 "
@@ -3765,10 +3773,10 @@ methods
 )
         
 elif
-not
 member
 .
 kind
+not
 in
 (
 '
@@ -4107,10 +4115,10 @@ methods
 )
         
 elif
-not
 member
 .
 kind
+not
 in
 (
 '
@@ -4249,6 +4257,10 @@ s
 ;
 }
 "
+#
+NOQA
+:
+E501
                  
 "
 \
@@ -4409,8 +4421,6 @@ the
 parser
 .
     
-p
-=
 xpidl
 .
 IDLParser

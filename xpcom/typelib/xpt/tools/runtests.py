@@ -541,6 +541,7 @@ out2
 :
                     
 print
+(
 "
 diff
 %
@@ -548,6 +549,7 @@ s
 "
 %
 f
+)
                     
 for
 line
@@ -580,9 +582,15 @@ lineterm
 "
 )
 :
+#
+NOQA
+:
+E501
                         
 print
+(
 line
+)
                 
 self
 .
@@ -3086,6 +3094,7 @@ Method
 "
 StringWithSizeMethod
 "
+                                    
 xpt
 .
 Param
@@ -3207,7 +3216,7 @@ Tags
 int32
 )
 )
-        
+                                    
 ]
 )
 )

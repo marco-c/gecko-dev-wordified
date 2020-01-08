@@ -103,8 +103,6 @@ from
 perfecthash
 import
 PerfectHash
-import
-time
 from
 collections
 import
@@ -2162,6 +2160,7 @@ uuid
 :
         
 return
+(
 "
 {
 0x
@@ -2202,9 +2201,11 @@ s
 }
 "
 %
+                
 split_iid
 (
 uuid
+)
 )
     
 def

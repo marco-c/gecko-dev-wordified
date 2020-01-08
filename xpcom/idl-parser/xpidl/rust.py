@@ -417,8 +417,6 @@ here
 currently
 .
 import
-sys
-import
 os
 .
 path
