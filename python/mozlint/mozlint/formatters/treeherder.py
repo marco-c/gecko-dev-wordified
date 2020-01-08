@@ -63,7 +63,7 @@ from
 .
 result
 import
-ResultContainer
+Issue
 class
 TreeherderFormatter
 (
@@ -156,9 +156,6 @@ __call__
 (
 self
 result
-*
-*
-kwargs
 )
 :
         
@@ -174,6 +171,8 @@ in
 sorted
 (
 result
+.
+issues
 .
 iteritems
 (
@@ -191,7 +190,7 @@ assert
 isinstance
 (
 err
-ResultContainer
+Issue
 )
                 
 d

@@ -219,7 +219,7 @@ class
 ~
 result
 .
-ResultContainer
+Issue
 objects
 .
         
@@ -753,7 +753,7 @@ class
 ~
 result
 .
-ResultContainer
+Issue
 objects
 .
     

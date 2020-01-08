@@ -390,7 +390,8 @@ the
 lineoffset
 property
 of
-ResultContainer
+an
+Issue
 .
 "
 "

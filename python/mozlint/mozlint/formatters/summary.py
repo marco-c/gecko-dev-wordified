@@ -113,9 +113,6 @@ __call__
 (
 self
 result
-*
-*
-kwargs
 )
 :
         
@@ -136,6 +133,8 @@ for
 p
 in
 result
+.
+issues
 ]
 )
         
@@ -170,6 +169,8 @@ path
 errors
 in
 result
+.
+issues
 .
 iteritems
 (
