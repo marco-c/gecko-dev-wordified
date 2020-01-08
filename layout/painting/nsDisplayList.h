@@ -40147,7 +40147,13 @@ StoreList
 mStoredList
 ;
 mutable
+mozilla
+:
+:
+Maybe
+<
 Matrix4x4Flagged
+>
 mTransform
 ;
 /
