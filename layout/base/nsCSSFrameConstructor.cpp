@@ -26425,6 +26425,11 @@ NS_NewMenuFrame
 )
 SIMPLE_XUL_CREATE
 (
+menulist
+NS_NewMenuFrame
+)
+SIMPLE_XUL_CREATE
+(
 menuitem
 NS_NewMenuItemFrame
 )
