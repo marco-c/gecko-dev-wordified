@@ -282,6 +282,16 @@ testing
 "
 true
 ]
+[
+"
+dom
+.
+simpleDB
+.
+enabled
+"
+true
+]
 ]
 }
 nextTestHarnessStep
