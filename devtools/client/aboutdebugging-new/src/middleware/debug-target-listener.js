@@ -271,7 +271,7 @@ action
 .
 runtime
 .
-connection
+runtimeDetails
 ;
 client
 .
@@ -362,7 +362,7 @@ action
 .
 runtime
 .
-connection
+runtimeDetails
 ;
 client
 .

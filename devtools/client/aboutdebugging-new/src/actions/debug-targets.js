@@ -202,7 +202,7 @@ runtimes
 ;
 const
 {
-connection
+runtimeDetails
 type
 :
 runtimeType
@@ -256,7 +256,7 @@ host
 port
 }
 =
-connection
+runtimeDetails
 .
 transportDetails
 ;
@@ -353,7 +353,7 @@ await
 debugRemoteAddon
 (
 id
-connection
+runtimeDetails
 .
 client
 )
@@ -399,7 +399,7 @@ gDevToolsBrowser
 .
 openWorkerToolbox
 (
-connection
+runtimeDetails
 .
 client
 id

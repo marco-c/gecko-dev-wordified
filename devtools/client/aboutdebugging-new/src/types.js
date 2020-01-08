@@ -198,7 +198,7 @@ isRequired
 }
 ;
 const
-runtimeConnection
+runtimeDetails
 =
 {
 /
@@ -410,13 +410,13 @@ the
 runtime
 is
 established
-connection
+runtimeDetails
 :
 PropTypes
 .
 shape
 (
-runtimeConnection
+runtimeDetails
 )
 /
 /

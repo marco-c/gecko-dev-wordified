@@ -611,13 +611,13 @@ runtime
 id
 ;
 const
-runtimeHasConnection
+runtimeHasDetails
 =
 !
 !
 runtime
 .
-connection
+runtimeDetails
 ;
 return
 SidebarRuntimeItem
@@ -637,7 +637,7 @@ dispatch
 icon
 isConnected
 :
-runtimeHasConnection
+runtimeHasDetails
 isSelected
 :
 selectedPage

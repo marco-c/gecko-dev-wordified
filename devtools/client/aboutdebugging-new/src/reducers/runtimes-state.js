@@ -415,7 +415,7 @@ CONNECT_RUNTIME_SUCCESS
 const
 {
 id
-connection
+runtimeDetails
 }
 =
 action
@@ -427,7 +427,7 @@ _updateRuntimeById
 (
 id
 {
-connection
+runtimeDetails
 }
 state
 )
@@ -451,7 +451,7 @@ _updateRuntimeById
 (
 id
 {
-connection
+runtimeDetails
 :
 null
 }
@@ -596,7 +596,7 @@ state
 )
 ;
 const
-connection
+runtimeDetails
 =
 Object
 .
@@ -606,7 +606,7 @@ assign
 }
 runtime
 .
-connection
+runtimeDetails
 {
 connectionPromptEnabled
 }
@@ -617,7 +617,7 @@ _updateRuntimeById
 (
 runtimeId
 {
-connection
+runtimeDetails
 }
 state
 )
