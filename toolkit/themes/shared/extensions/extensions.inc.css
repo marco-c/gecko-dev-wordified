@@ -2184,6 +2184,11 @@ focus
 )
 ;
 }
+richlistbox
+.
+list
+>
+richlistitem
 .
 addon
 {
@@ -3445,6 +3450,9 @@ F2F2F2
 ;
 }
 .
+list
+>
+.
 addon
 [
 selected
@@ -3598,6 +3606,9 @@ uninstalled
 *
 *
 /
+.
+list
+>
 .
 addon
 [
