@@ -49666,7 +49666,7 @@ if
 nsSVGIntegrationUtils
 :
 :
-UsingEffectsForFrame
+UsingOverflowAffectingEffects
 (
 aFrame
 )
