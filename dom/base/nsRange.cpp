@@ -18815,7 +18815,7 @@ if
 aStartContainer
 -
 >
-IsInComposedDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -18861,7 +18861,7 @@ if
 aStartContainer
 -
 >
-IsInComposedDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -19654,7 +19654,7 @@ Container
 )
 -
 >
-IsInComposedDoc
+IsInUncomposedDoc
 (
 )
 NS_ERROR_UNEXPECTED
