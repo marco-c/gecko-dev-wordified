@@ -3491,8 +3491,6 @@ const
 nsAttrName
 &
 aName
-bool
-aCompileEventHandlers
 )
 ;
 void

@@ -1421,7 +1421,6 @@ i
 ]
 .
 mName
-true
 )
 ;
 }
@@ -2415,7 +2414,6 @@ AddListenerFor
 (
 *
 originalName
-true
 )
 ;
 if
@@ -3983,8 +3981,6 @@ const
 nsAttrName
 &
 aName
-bool
-aCompileEventHandlers
 )
 {
 /
@@ -4065,9 +4061,6 @@ attr
 ;
 if
 (
-aCompileEventHandlers
-&
-&
 nsContentUtils
 :
 :
