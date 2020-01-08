@@ -333,13 +333,6 @@ h
 #
 include
 "
-nsIWebShellServices
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h
