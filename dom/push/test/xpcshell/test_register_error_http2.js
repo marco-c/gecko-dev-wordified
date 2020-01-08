@@ -250,6 +250,10 @@ false
 )
 }
 )
+/
+Registration
+error
+/
 '
 Expected
 error
@@ -523,6 +527,10 @@ false
 )
 }
 )
+/
+Registration
+error
+/
 '
 Expected
 error
@@ -689,6 +697,10 @@ false
 )
 }
 )
+/
+Registration
+error
+/
 '
 Expected
 error
@@ -855,6 +867,10 @@ false
 )
 }
 )
+/
+Registration
+error
+/
 '
 Expected
 error
@@ -1021,6 +1037,10 @@ false
 )
 }
 )
+/
+Registration
+error
+/
 '
 Expected
 error
@@ -1184,6 +1204,10 @@ false
 )
 }
 )
+/
+Registration
+error
+/
 '
 Expected
 error

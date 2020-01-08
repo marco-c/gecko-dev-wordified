@@ -504,6 +504,9 @@ reject
 "
 }
 )
+/
+NS_ERROR_ILLEGAL_VALUE
+/
 paddedValue
 +
 "
@@ -533,6 +536,9 @@ require
 "
 }
 )
+/
+NS_ERROR_ILLEGAL_VALUE
+/
 input
 +
 "
@@ -653,6 +659,9 @@ chocolate
 "
 }
 )
+/
+TypeError
+/
 "
 Decoding
 should
