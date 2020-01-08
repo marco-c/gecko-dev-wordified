@@ -7352,6 +7352,9 @@ nullptr
 Value
 ctor
 ;
+bool
+found
+;
 if
 (
 GetOwnPropertyPure
@@ -7371,6 +7374,8 @@ constructor
 )
 &
 ctor
+&
+found
 )
 &
 &
