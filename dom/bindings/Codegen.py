@@ -135050,7 +135050,7 @@ hasInterfaceObject
 =
 True
                                             
-isExposedInSystemGlobals
+isExposedInWindow
 =
 True
                                             
@@ -135362,7 +135362,7 @@ register
 =
 True
                                                             
-isExposedInSystemGlobals
+isExposedInWindow
 =
 True
 )
