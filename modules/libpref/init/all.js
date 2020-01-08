@@ -1921,7 +1921,7 @@ false
 /
 Enable
 exposing
-timeToInteractive
+timeToFirstInteractive
 pref
 (
 "
@@ -1929,7 +1929,7 @@ dom
 .
 performance
 .
-time_to_interactive
+time_to_first_interactive
 .
 enabled
 "
