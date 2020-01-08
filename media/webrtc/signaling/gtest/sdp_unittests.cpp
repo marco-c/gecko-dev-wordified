@@ -32640,13 +32640,6 @@ NewSdpTest
 ParseInvalidSimulcastNoSuchSendRid
 )
 {
-SKIP_TEST_WITH_RUST_PARSER
-;
-/
-/
-See
-Bug
-1432931
 ParseSdp
 (
 "
