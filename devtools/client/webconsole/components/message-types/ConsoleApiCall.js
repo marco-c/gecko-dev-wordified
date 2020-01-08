@@ -339,6 +339,7 @@ const
 id
 :
 messageId
+executionPoint
 indent
 source
 type
@@ -702,6 +703,7 @@ Message
 (
 {
 messageId
+executionPoint
 open
 collapsible
 collapseTitle
