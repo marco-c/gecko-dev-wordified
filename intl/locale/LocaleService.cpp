@@ -3546,7 +3546,7 @@ Locale
 aDefaultLocale
 )
 .
-IsValid
+IsWellFormed
 (
 )
 "
@@ -3557,7 +3557,9 @@ locale
 must
 be
 a
-valid
+well
+-
+formed
 BCP47
 language
 tag

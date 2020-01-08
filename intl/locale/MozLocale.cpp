@@ -206,7 +206,7 @@ aLocale
 )
 )
 {
-mIsValid
+mIsWellFormed
 =
 false
 ;
@@ -558,7 +558,7 @@ slen
 8
 )
 {
-mIsValid
+mIsWellFormed
 =
 false
 ;
@@ -625,7 +625,7 @@ slen
 3
 )
 {
-mIsValid
+mIsWellFormed
 =
 false
 ;
@@ -781,7 +781,7 @@ tag
 if
 (
 !
-mIsValid
+mIsWellFormed
 )
 {
 tag
@@ -1042,7 +1042,7 @@ const
 if
 (
 !
-IsValid
+IsWellFormed
 (
 )
 |
@@ -1050,7 +1050,7 @@ IsValid
 !
 aOther
 .
-IsValid
+IsWellFormed
 (
 )
 )
