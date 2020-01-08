@@ -15049,7 +15049,7 @@ HTMLEditorRef
 (
 )
 .
-DeleteTableCellContents
+DeleteTableCellContentsWithTransaction
 (
 )
 ;
