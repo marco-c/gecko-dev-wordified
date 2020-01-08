@@ -39251,10 +39251,7 @@ std
 :
 max
 (
-nscoord
-(
 half
-)
 mEndCol
 -
 >
@@ -39338,10 +39335,7 @@ std
 :
 max
 (
-nscoord
-(
 half
-)
 mEndRow
 -
 >
@@ -39414,10 +39408,7 @@ std
 :
 max
 (
-nscoord
-(
 half
-)
 mStartRow
 -
 >
@@ -39490,10 +39481,7 @@ std
 :
 max
 (
-nscoord
-(
 half
-)
 mStartCol
 -
 >

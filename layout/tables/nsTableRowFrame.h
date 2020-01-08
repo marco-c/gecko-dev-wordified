@@ -1214,7 +1214,7 @@ nscoord
 aValue
 )
 ;
-nscoord
+BCPixelSize
 GetBStartBCBorderWidth
 (
 )
@@ -1224,7 +1224,7 @@ return
 mBStartBorderWidth
 ;
 }
-nscoord
+BCPixelSize
 GetBEndBCBorderWidth
 (
 )

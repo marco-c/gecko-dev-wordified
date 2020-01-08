@@ -504,7 +504,7 @@ Count
 )
 const
 ;
-nscoord
+BCPixelSize
 GetIStartBorderWidth
 (
 )
@@ -514,7 +514,7 @@ return
 mIStartBorderWidth
 ;
 }
-nscoord
+BCPixelSize
 GetIEndBorderWidth
 (
 )
