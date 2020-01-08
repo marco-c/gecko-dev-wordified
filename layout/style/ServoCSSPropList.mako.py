@@ -473,6 +473,14 @@ Appearance
 "
     
 "
+BackgroundRepeat
+"
+    
+"
+BackgroundSize
+"
+    
+"
 Clear
 "
     
@@ -565,6 +573,10 @@ Integer
 "
     
 "
+ImageLayer
+"
+    
+"
 Length
 "
     
@@ -597,6 +609,17 @@ Resize
 "
     
 "
+TransformStyle
+"
+    
+"
+background
+:
+:
+BackgroundSize
+"
+    
+"
 basic_shape
 :
 :
@@ -608,6 +631,20 @@ basic_shape
 :
 :
 FloatAreaShape
+"
+    
+"
+position
+:
+:
+HorizontalPosition
+"
+    
+"
+position
+:
+:
+VerticalPosition
 "
     
 "
