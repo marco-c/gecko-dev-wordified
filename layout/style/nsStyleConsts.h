@@ -1526,7 +1526,7 @@ AltContent
 /
 /
 See
-nsStyleColor
+nsStyleUserInterface
 #
 define
 NS_STYLE_CURSOR_AUTO
@@ -3103,6 +3103,10 @@ See
 nsStyleDisplay
 .
 mOverflow
+{
+X
+Y
+}
 #
 define
 NS_STYLE_OVERFLOW_VISIBLE
@@ -4858,9 +4862,9 @@ NS_STYLE_TEXT_RENDERING_GEOMETRICPRECISION
 3
 /
 /
-adjust
--
 color
+-
+adjust
 #
 define
 NS_STYLE_COLOR_ADJUST_ECONOMY
