@@ -3109,10 +3109,12 @@ storage
 duration
 .
 Use
+Assign
+or
+/
+/
 AssignASCII
 for
-/
-/
 those
 .
 /
