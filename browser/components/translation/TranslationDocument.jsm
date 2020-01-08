@@ -70,15 +70,6 @@ TranslationDocument
 "
 ]
 ;
-const
-TEXT_NODE
-=
-Ci
-.
-nsIDOMNode
-.
-TEXT_NODE
-;
 ChromeUtils
 .
 import
@@ -970,6 +961,8 @@ child
 nodeType
 =
 =
+child
+.
 TEXT_NODE
 )
 {
@@ -2771,6 +2764,8 @@ child
 nodeType
 =
 =
+child
+.
 TEXT_NODE
 )
 {
@@ -4090,6 +4085,8 @@ curNode
 nodeType
 =
 =
+curNode
+.
 TEXT_NODE
 &
 &
@@ -4519,6 +4516,8 @@ curNode
 nodeType
 !
 =
+curNode
+.
 TEXT_NODE
 |
 |
@@ -4600,6 +4599,8 @@ curNode
 nodeType
 !
 =
+curNode
+.
 TEXT_NODE
 )
 {
@@ -4877,6 +4878,8 @@ item
 nodeType
 =
 =
+item
+.
 TEXT_NODE
 &
 &
@@ -4927,6 +4930,8 @@ item
 nodeType
 =
 =
+item
+.
 TEXT_NODE
 &
 &
