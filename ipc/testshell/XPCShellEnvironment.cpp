@@ -2300,7 +2300,7 @@ GetGlobalObject
 )
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -2625,7 +2625,7 @@ return
 false
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

@@ -2800,7 +2800,7 @@ compartment
 /
 wrappers
 .
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

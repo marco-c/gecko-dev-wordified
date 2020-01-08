@@ -609,8 +609,8 @@ on
 system
 sandbox
 .
-JSAutoRealmAllowCCW
-ac
+JSAutoRealm
+ar
 (
 cx
 autoconfigSystemSb
@@ -1086,8 +1086,8 @@ script
 ;
 }
 {
-JSAutoRealmAllowCCW
-ac
+JSAutoRealm
+ar
 (
 cx
 autoconfigSystemSb
