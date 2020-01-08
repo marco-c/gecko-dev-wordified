@@ -3552,6 +3552,10 @@ RegisterAllocator
 {
 friend
 class
+C1Spewer
+;
+friend
+class
 JSONSpewer
 ;
 /
