@@ -26626,10 +26626,10 @@ GetGlobalJSObject
 ;
 NS_ASSERTION
 (
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 obj
 )
