@@ -5901,16 +5901,10 @@ nullptr
 ;
 MOZ_ASSERT
 (
-js
-:
-:
-GetGlobalForObjectCrossCompartment
+JS_IsGlobalObject
 (
 scope
 )
-=
-=
-scope
 )
 ;
 JS
