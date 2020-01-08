@@ -4786,6 +4786,7 @@ startTime
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -5116,6 +5117,7 @@ startTime
 const
 target
 =
+await
 TargetFactory
 .
 forTab

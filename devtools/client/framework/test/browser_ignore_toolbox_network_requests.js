@@ -177,6 +177,7 @@ html
 let
 target
 =
+await
 TargetFactory
 .
 forTab

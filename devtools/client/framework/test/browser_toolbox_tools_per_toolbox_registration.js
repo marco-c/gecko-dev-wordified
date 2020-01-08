@@ -158,12 +158,16 @@ TEST_URL
 .
 then
 (
+async
+(
 tab
+)
 =
 >
 {
 target
 =
+await
 TargetFactory
 .
 forTab

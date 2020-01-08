@@ -1557,6 +1557,7 @@ testActor
 ;
 }
 ;
+async
 function
 getActiveInspector
 (
@@ -1565,6 +1566,7 @@ getActiveInspector
 const
 target
 =
+await
 TargetFactory
 .
 forTab

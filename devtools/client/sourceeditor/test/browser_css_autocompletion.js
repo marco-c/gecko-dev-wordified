@@ -853,6 +853,7 @@ runTests
 const
 target
 =
+await
 TargetFactory
 .
 forTab

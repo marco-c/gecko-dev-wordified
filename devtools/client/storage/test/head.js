@@ -1085,6 +1085,7 @@ inspector
 const
 target
 =
+await
 TargetFactory
 .
 forTab

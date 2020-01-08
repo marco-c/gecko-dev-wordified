@@ -261,6 +261,7 @@ target
 ;
 openScratchpad
 (
+async
 function
 (
 )
@@ -268,6 +269,7 @@ function
 const
 target
 =
+await
 TargetFactory
 .
 forTab

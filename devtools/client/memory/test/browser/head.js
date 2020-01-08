@@ -274,6 +274,7 @@ panel
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -361,6 +362,7 @@ panel
 const
 target
 =
+await
 TargetFactory
 .
 forTab
