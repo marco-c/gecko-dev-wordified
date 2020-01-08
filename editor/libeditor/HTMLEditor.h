@@ -3412,7 +3412,8 @@ mDoDeleteSelection
 ;
 }
 ;
-NS_IMETHOD
+virtual
+nsresult
 InitRules
 (
 )
@@ -4545,7 +4546,8 @@ drop
 or
 clipboard
 )
-NS_IMETHOD
+virtual
+nsresult
 PrepareTransferable
 (
 nsITransferable

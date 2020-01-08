@@ -366,7 +366,7 @@ using
 namespace
 dom
 ;
-NS_IMETHODIMP
+nsresult
 TextEditor
 :
 :

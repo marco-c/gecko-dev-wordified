@@ -1745,7 +1745,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+nsresult
 TextEditor
 :
 :
