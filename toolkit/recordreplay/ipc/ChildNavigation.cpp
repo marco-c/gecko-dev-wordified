@@ -7669,6 +7669,17 @@ RecordReplayInterface_NewTimeWarpTarget
 (
 )
 {
+if
+(
+AreThreadEventsDisallowed
+(
+)
+)
+{
+return
+0
+;
+}
 /
 /
 NewTimeWarpTarget
@@ -7687,9 +7698,6 @@ recording
 and
 replaying
 .
-recordreplay
-:
-:
 RecordReplayAssert
 (
 "
