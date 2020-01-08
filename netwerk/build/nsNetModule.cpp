@@ -984,13 +984,9 @@ mozilla
 namespace
 net
 {
-NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
+NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsICaptivePortalService
 CaptivePortalService
-:
-:
-GetSingleton
 )
 }
 /
@@ -6016,7 +6012,7 @@ mozilla
 net
 :
 :
-nsICaptivePortalServiceConstructor
+CaptivePortalServiceConstructor
 }
 {
 &
