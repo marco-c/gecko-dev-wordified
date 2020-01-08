@@ -496,7 +496,7 @@ toolbar
 -
 context
 -
-reloadAllTabs
+reloadSelectedTab
 "
 true
 ]
