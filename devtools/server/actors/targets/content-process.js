@@ -449,6 +449,13 @@ Sandbox
 systemPrincipal
 {
 sandboxPrototype
+wantGlobalProperties
+:
+[
+"
+ChromeUtils
+"
+]
 }
 )
 ;
