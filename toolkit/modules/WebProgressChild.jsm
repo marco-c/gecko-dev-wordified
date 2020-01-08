@@ -1528,7 +1528,9 @@ onSecurityChange
 (
 aWebProgress
 aRequest
+aOldState
 aState
+aContentBlockingLogJSON
 )
 {
 let
@@ -1555,6 +1557,12 @@ aRequest
 ;
 json
 .
+oldState
+=
+aOldState
+;
+json
+.
 state
 =
 aState
@@ -1568,6 +1576,12 @@ this
 getSecInfoAsString
 (
 )
+;
+json
+.
+contentBlockingLogJSON
+=
+aContentBlockingLogJSON
 ;
 json
 .
