@@ -1917,9 +1917,6 @@ int32_t
 >
 (
 1
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -2539,9 +2536,6 @@ width
 =
 Float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

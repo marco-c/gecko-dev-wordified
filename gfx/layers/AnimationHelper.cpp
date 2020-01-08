@@ -572,9 +572,6 @@ scale
 /
 double
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

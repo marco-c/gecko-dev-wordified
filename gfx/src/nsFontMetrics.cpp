@@ -952,9 +952,6 @@ mP2A
 /
 gfxFloat
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

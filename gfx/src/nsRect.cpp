@@ -417,9 +417,6 @@ rect
 X
 (
 )
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -445,9 +442,6 @@ rect
 Y
 (
 )
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -473,9 +467,6 @@ rect
 Width
 (
 )
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -501,9 +492,6 @@ rect
 Height
 (
 )
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
