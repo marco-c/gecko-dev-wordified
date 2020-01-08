@@ -420,10 +420,7 @@ false
 }
 NS_IMETHODIMP_
 (
-already_AddRefed
-<
-ImageContainer
->
+ImgDrawResult
 )
 FrozenImage
 :
@@ -437,6 +434,9 @@ LayerManager
 *
 aManager
 const
+gfx
+:
+:
 IntSize
 &
 aSize
@@ -449,6 +449,13 @@ SVGImageContext
 aSVGContext
 uint32_t
 aFlags
+layers
+:
+:
+ImageContainer
+*
+*
+aOutContainer
 )
 {
 /
@@ -519,7 +526,10 @@ performance
 reasons
 .
 return
-nullptr
+ImgDrawResult
+:
+:
+NOT_SUPPORTED
 ;
 }
 NS_IMETHODIMP_
