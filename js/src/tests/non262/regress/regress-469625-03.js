@@ -398,6 +398,16 @@ next
 value
 is
 null
+can
+'
+t
+access
+property
+Symbol
+.
+iterator
+of
+it
 ;
 actual
 =

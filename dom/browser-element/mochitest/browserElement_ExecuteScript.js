@@ -930,7 +930,6 @@ is
 error
 .
 message
-'
 TypeError
 :
 window
@@ -938,7 +937,16 @@ window
 wrappedJSObject
 is
 undefined
+can
 '
+t
+access
+property
+"
+btoa
+"
+of
+it
 scriptId
 :
 {
