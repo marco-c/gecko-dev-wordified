@@ -239,6 +239,13 @@ h
 #
 include
 "
+nsITimer
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -294,7 +301,6 @@ uint8_t
 Parent
 Web
 Extension
-Privileged
 }
 ;
 template
@@ -2529,6 +2535,11 @@ PrepareCacheWriteInternal
 (
 )
 ;
+void
+FinishContentStartup
+(
+)
+;
 /
 /
 Returns
@@ -3055,6 +3066,12 @@ nsCOMPtr
 nsIThread
 >
 mSaveThread
+;
+nsCOMPtr
+<
+nsITimer
+>
+mSaveTimer
 ;
 /
 /
