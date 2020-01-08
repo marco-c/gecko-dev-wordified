@@ -85,7 +85,7 @@ to
 load
 since
 the
-elementsForViewSource
+_elementsForViewSource
 change
 happens
 at
@@ -171,7 +171,7 @@ of
 .
 XULBrowserWindow
 .
-elementsForViewSource
+_elementsForViewSource
 ]
 )
 {
@@ -245,7 +245,7 @@ of
 .
 XULBrowserWindow
 .
-elementsForViewSource
+_elementsForViewSource
 ]
 )
 {
