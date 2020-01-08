@@ -7005,6 +7005,11 @@ const
 VMFunction
 ProxyHasOwnInfo
 ;
+extern
+const
+VMFunction
+NativeGetElementInfo
+;
 /
 /
 TailCall
