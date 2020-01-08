@@ -3450,7 +3450,7 @@ Private
 )
 -
 >
-LoadScriptAsPartOfLoadingServiceWorkerScript
+IsLoadingWorkerScript
 (
 )
 )
