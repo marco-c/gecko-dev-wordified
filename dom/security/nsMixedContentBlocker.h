@@ -439,9 +439,6 @@ const
 nsACString
 &
 aMimeGuess
-nsISupports
-*
-aExtra
 nsIPrincipal
 *
 aRequestPrincipal

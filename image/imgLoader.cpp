@@ -4379,7 +4379,6 @@ EmptyCString
 /
 mime
 guess
-nullptr
 aTriggeringPrincipal
 &
 decision
