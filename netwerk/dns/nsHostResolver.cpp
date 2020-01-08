@@ -1623,10 +1623,6 @@ negative
 (
 false
 )
-mResolverMode
-(
-MODE_NATIVEONLY
-)
 mResolving
 (
 0
@@ -9532,6 +9528,10 @@ rrset1
 -
 >
 mHostName
+.
+get
+(
+)
 )
 )
 ;
@@ -10156,6 +10156,10 @@ newRRSet
 -
 >
 mHostName
+.
+get
+(
+)
 NS_SUCCEEDED
 (
 status
