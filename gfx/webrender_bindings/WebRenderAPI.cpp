@@ -813,12 +813,6 @@ wr_transaction_new
 mUseSceneBuilderThread
 )
 ;
-mResourceUpdates
-=
-wr_resource_updates_new
-(
-)
-;
 }
 TransactionBuilder
 :
@@ -831,11 +825,6 @@ TransactionBuilder
 wr_transaction_delete
 (
 mTxn
-)
-;
-wr_resource_updates_delete
-(
-mResourceUpdates
 )
 ;
 }
@@ -1839,20 +1828,6 @@ TransactionBuilder
 aTxn
 )
 {
-wr_transaction_update_resources
-(
-aTxn
-.
-Raw
-(
-)
-aTxn
-.
-RawUpdates
-(
-)
-)
-;
 wr_api_send_transaction
 (
 mDocHandle
@@ -2834,7 +2809,7 @@ Clear
 {
 wr_resource_updates_clear
 (
-mResourceUpdates
+mTxn
 )
 ;
 }
@@ -2863,7 +2838,7 @@ aBytes
 {
 wr_resource_updates_add_image
 (
-mResourceUpdates
+mTxn
 key
 &
 aDescriptor
@@ -2899,7 +2874,7 @@ aBytes
 {
 wr_resource_updates_add_blob_image
 (
-mResourceUpdates
+mTxn
 key
 &
 aDescriptor
@@ -2935,7 +2910,7 @@ aChannelIndex
 {
 wr_resource_updates_add_external_image
 (
-mResourceUpdates
+mTxn
 key
 &
 aDescriptor
@@ -3007,7 +2982,7 @@ aBytes
 {
 wr_resource_updates_update_image
 (
-mResourceUpdates
+mTxn
 aKey
 &
 aDescriptor
@@ -3050,7 +3025,7 @@ aDirtyRect
 {
 wr_resource_updates_update_blob_image
 (
-mResourceUpdates
+mTxn
 aKey
 &
 aDescriptor
@@ -3087,7 +3062,7 @@ aChannelIndex
 {
 wr_resource_updates_update_external_image
 (
-mResourceUpdates
+mTxn
 aKey
 &
 aDescriptor
@@ -3109,7 +3084,7 @@ aKey
 {
 wr_resource_updates_delete_image
 (
-mResourceUpdates
+mTxn
 aKey
 )
 ;
@@ -3140,7 +3115,7 @@ aIndex
 {
 wr_resource_updates_add_raw_font
 (
-mResourceUpdates
+mTxn
 aKey
 &
 aBytes
@@ -3176,7 +3151,7 @@ aIndex
 {
 wr_resource_updates_add_font_descriptor
 (
-mResourceUpdates
+mTxn
 aKey
 &
 aBytes
@@ -3201,7 +3176,7 @@ aKey
 {
 wr_resource_updates_delete_font
 (
-mResourceUpdates
+mTxn
 aKey
 )
 ;
@@ -3251,7 +3226,7 @@ aVariations
 {
 wr_resource_updates_add_font_instance
 (
-mResourceUpdates
+mTxn
 aKey
 aFontKey
 aGlyphSize
@@ -3279,7 +3254,7 @@ aKey
 {
 wr_resource_updates_delete_font_instance
 (
-mResourceUpdates
+mTxn
 aKey
 )
 ;
