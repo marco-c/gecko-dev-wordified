@@ -463,7 +463,7 @@ resource
 /
 services
 -
-common
+settings
 /
 remote
 -
