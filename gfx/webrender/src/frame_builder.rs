@@ -663,7 +663,7 @@ new
 )
 -
 >
-PictureState
+Self
 {
 PictureState
 {
@@ -714,6 +714,10 @@ pub
 transform
 :
 Transform
+<
+'
+a
+>
 pub
 local_clip_rect
 :
@@ -755,6 +759,10 @@ LayoutRect
 transform
 :
 Transform
+<
+'
+a
+>
 )
 -
 >

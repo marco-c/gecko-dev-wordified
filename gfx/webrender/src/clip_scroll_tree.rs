@@ -165,10 +165,7 @@ use
 util
 :
 :
-{
-LayoutFastTransform
 LayoutToWorldFastTransform
-}
 ;
 pub
 type
@@ -769,7 +766,7 @@ CoordinateSystemId
 /
 /
 /
-Transform
+Offset
 from
 the
 coordinate
@@ -782,9 +779,9 @@ coordinate
 system
 .
 pub
-coordinate_system_relative_transform
+coordinate_system_relative_offset
 :
-LayoutFastTransform
+LayoutVector2D
 /
 /
 /
@@ -1656,12 +1653,12 @@ CoordinateSystemId
 root
 (
 )
-coordinate_system_relative_transform
+coordinate_system_relative_offset
 :
-LayoutFastTransform
+LayoutVector2D
 :
 :
-identity
+zero
 (
 )
 invertible

@@ -9389,14 +9389,13 @@ iter
 let
 info
 =
+&
 clip_store
-.
-get
-(
+[
 work_item
 .
 clip_sources_index
-)
+]
 ;
 let
 instance
