@@ -6391,7 +6391,6 @@ length
 ;
 transactions
 =
-await
 getTransactionsForTransferItems
 (
 items
@@ -7990,7 +7989,6 @@ PlacesTransactions
 .
 *
 /
-async
 function
 getTransactionsForTransferItems
 (
@@ -8386,7 +8384,6 @@ PlacesTransactions
 .
 *
 /
-async
 function
 getTransactionsForCopy
 (
