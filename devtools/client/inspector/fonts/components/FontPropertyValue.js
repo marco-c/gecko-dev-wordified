@@ -739,6 +739,13 @@ input
 .
 .
 defaults
+name
+:
+this
+.
+props
+.
+name
 className
 :
 "
