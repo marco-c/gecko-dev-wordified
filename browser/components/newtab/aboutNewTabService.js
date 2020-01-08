@@ -322,6 +322,7 @@ hy
 AM
 ia
 id
+is
 it
 ja
 ja

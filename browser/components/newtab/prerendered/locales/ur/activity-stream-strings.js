@@ -184,9 +184,6 @@ menu_action_show_file_mac_os
 "
 :
 "
-Show
-in
-Finder
 "
 "
 menu_action_show_file_windows
@@ -199,9 +196,6 @@ menu_action_show_file_linux
 "
 :
 "
-Open
-Containing
-Folder
 "
 "
 menu_action_show_file_default
@@ -226,10 +220,6 @@ menu_action_go_to_download_page
 "
 :
 "
-Go
-to
-Download
-Page
 "
 "
 menu_action_remove_download
@@ -878,9 +868,6 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
 "
 "
 firstrun_extra_legal_links
