@@ -10322,7 +10322,7 @@ vp
 static
 MOZ_ALWAYS_INLINE
 bool
-ValueToAtomOrSymbol
+ValueToAtomOrSymbolPure
 (
 JSContext
 *
@@ -10335,9 +10335,6 @@ jsid
 id
 )
 {
-AutoUnsafeCallWithABI
-unsafe
-;
 if
 (
 MOZ_LIKELY
@@ -10401,6 +10398,13 @@ if
 atom
 )
 {
+cx
+-
+>
+recoverFromOutOfMemory
+(
+)
+;
 return
 false
 ;
@@ -10514,7 +10518,7 @@ bool
 HandleMissing
 >
 bool
-GetNativeDataPropertyByValue
+GetNativeDataPropertyByValuePure
 (
 JSContext
 *
@@ -10580,7 +10584,7 @@ id
 if
 (
 !
-ValueToAtomOrSymbol
+ValueToAtomOrSymbolPure
 (
 cx
 idVal
@@ -10625,7 +10629,7 @@ res
 }
 template
 bool
-GetNativeDataPropertyByValue
+GetNativeDataPropertyByValuePure
 <
 true
 >
@@ -10643,7 +10647,7 @@ vp
 ;
 template
 bool
-GetNativeDataPropertyByValue
+GetNativeDataPropertyByValuePure
 <
 false
 >
@@ -11150,7 +11154,7 @@ bool
 HasOwn
 >
 bool
-HasNativeDataProperty
+HasNativeDataPropertyPure
 (
 JSContext
 *
@@ -11199,7 +11203,7 @@ id
 if
 (
 !
-ValueToAtomOrSymbol
+ValueToAtomOrSymbolPure
 (
 cx
 idVal
@@ -11509,7 +11513,7 @@ true
 }
 template
 bool
-HasNativeDataProperty
+HasNativeDataPropertyPure
 <
 true
 >
@@ -11527,7 +11531,7 @@ vp
 ;
 template
 bool
-HasNativeDataProperty
+HasNativeDataPropertyPure
 <
 false
 >
