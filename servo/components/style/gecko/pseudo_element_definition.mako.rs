@@ -113,11 +113,9 @@ capitalized
 )
 }
 (
-Box
+ThinBoxedSlice
 <
-[
 Atom
-]
 >
 )
 %
@@ -1518,6 +1516,10 @@ capitalized
 }
 (
 args
+.
+into
+(
+)
 )
 )
 ;
@@ -1881,6 +1883,10 @@ pseudo_element_variant
 pseudo
 "
 args
+.
+into
+(
+)
 "
 )
 }
