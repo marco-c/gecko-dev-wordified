@@ -74124,6 +74124,7 @@ static
 bool
 IsFrameScrolledOutOfView
 (
+const
 nsIFrame
 *
 aTarget
@@ -74131,6 +74132,7 @@ const
 nsRect
 &
 aTargetRect
+const
 nsIFrame
 *
 aParent
@@ -74145,7 +74147,14 @@ nsLayoutUtils
 :
 GetNearestScrollableFrame
 (
+const_cast
+<
+nsIFrame
+*
+>
+(
 aParent
+)
 nsLayoutUtils
 :
 :
@@ -74377,6 +74386,7 @@ nsIFrame
 IsScrolledOutOfView
 (
 )
+const
 {
 nsRect
 rect
