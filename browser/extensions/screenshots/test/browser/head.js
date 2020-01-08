@@ -176,7 +176,7 @@ PageActions
 actionForID
 (
 "
-screenshots_mozilla_org
+screenshots
 "
 )
 ;
