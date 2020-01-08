@@ -81,6 +81,7 @@ glyph_rasterizer
 FontInstance
 GlyphFormat
 GlyphKey
+GlyphRasterizer
 }
 ;
 use
@@ -979,6 +980,11 @@ render_task_cache
 :
 &
 RenderTaskCache
+glyph_rasterizer
+:
+&
+mut
+GlyphRasterizer
 )
 {
 self
@@ -988,7 +994,7 @@ glyph_key_caches
 retain
 (
 |
-_
+key
 cache
 |
 {
@@ -1073,6 +1079,18 @@ keep_glyph
 }
 )
 ;
+if
+!
+keep_cache
+{
+glyph_rasterizer
+.
+delete_font_instance
+(
+key
+)
+;
+}
 /
 /
 Only
@@ -1113,6 +1131,11 @@ render_task_cache
 :
 &
 RenderTaskCache
+glyph_rasterizer
+:
+&
+mut
+GlyphRasterizer
 )
 {
 self
@@ -1121,6 +1144,7 @@ clear_evicted
 (
 texture_cache
 render_task_cache
+glyph_rasterizer
 )
 ;
 }
