@@ -134,6 +134,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+RootedDictionary
+.
+h
+"
+#
+include
+"
 mprio
 .
 h
