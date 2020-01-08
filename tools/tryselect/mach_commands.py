@@ -1645,7 +1645,7 @@ try
 installable
 from
 mach
-mercurial
+vcs
 -
 setup
 )
@@ -1659,21 +1659,15 @@ git
 cinnabar
         
 (
-available
-at
-https
-:
-/
-/
-github
-.
-com
-/
-glandium
-/
-git
+installable
+from
+mach
+vcs
 -
-cinnabar
+setup
+-
+-
+git
 )
 .
         
