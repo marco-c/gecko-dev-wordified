@@ -33258,13 +33258,6 @@ NewSdpTest
 ParseInvalidSimulcastNotReceiving
 )
 {
-SKIP_TEST_WITH_RUST_PARSER
-;
-/
-/
-See
-Bug
-1432936
 ParseSdp
 (
 "
