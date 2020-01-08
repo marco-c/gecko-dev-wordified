@@ -3621,7 +3621,7 @@ a
 name
 for
 the
-compartment
+realm
 .
 /
 /
@@ -3655,7 +3655,7 @@ property
 .
 extern
 void
-GetCurrentCompartmentName
+GetCurrentRealmName
 (
 JSContext
 *
