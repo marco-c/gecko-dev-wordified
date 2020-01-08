@@ -144,6 +144,9 @@ h
 namespace
 js
 {
+class
+AutoLockHelperThreadState
+;
 /
 /
 A

@@ -4769,11 +4769,6 @@ GetCPUCount
 )
 {
 }
-/
-*
-virtual
-*
-/
 void
 BackgroundAllocTask
 :
