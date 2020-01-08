@@ -2537,13 +2537,6 @@ etherpad
 /
 pads
 /
-paper
-.
-dropbox
-.
-com
-/
-doc
 "
 )
 ;
