@@ -522,10 +522,10 @@ netmonitor
 storage
 "
 "
-webconsole
-"
-"
 accessibility
+"
+"
+webconsole
 "
 ]
 }
