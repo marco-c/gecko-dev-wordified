@@ -1412,6 +1412,11 @@ JS
 :
 :
 HandleObject
+promise
+JS
+:
+:
+HandleObject
 job
 JS
 :
