@@ -12843,7 +12843,7 @@ JS
 code
 for
 this
-compartment
+realm
 .
 We
 skip
@@ -12853,9 +12853,9 @@ if
 this
 window
 is
-/
-/
 for
+/
+/
 chrome
 JS
 or
@@ -12912,7 +12912,7 @@ AddonPolicy
 js
 :
 :
-SetCompartmentValidAccessPtr
+SetRealmValidAccessPtr
 (
 cx
 newInnerGlobal

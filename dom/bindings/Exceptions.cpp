@@ -1361,7 +1361,7 @@ cx
 js
 :
 :
-GetContextCompartment
+GetContextRealm
 (
 cx
 )
