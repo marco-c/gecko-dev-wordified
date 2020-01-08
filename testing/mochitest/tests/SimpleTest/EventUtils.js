@@ -13216,7 +13216,7 @@ the
 *
 explanation
 of
-syntehszeComposition
+synthesizeComposition
 (
 )
 .
