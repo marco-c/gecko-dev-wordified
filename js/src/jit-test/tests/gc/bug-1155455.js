@@ -12,6 +12,7 @@ TypeError
 skip
 -
 if
+:
 !
 (
 '
