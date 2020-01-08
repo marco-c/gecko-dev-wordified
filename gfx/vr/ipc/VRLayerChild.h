@@ -243,10 +243,8 @@ aRightEyeRect
 void
 SubmitFrame
 (
-const
-VRDisplayInfo
-&
-aDisplayInfo
+uint64_t
+aFrameId
 )
 ;
 bool
