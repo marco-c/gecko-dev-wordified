@@ -844,6 +844,7 @@ if
 (
 i
 )
+{
 out
 .
 AppendLiteral
@@ -852,6 +853,7 @@ AppendLiteral
 "
 )
 ;
+}
 if
 (
 values

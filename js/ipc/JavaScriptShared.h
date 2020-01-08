@@ -266,6 +266,7 @@ isInvalidSerialNumber
 serialNumber
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -275,6 +276,7 @@ Id
 "
 )
 ;
+}
 }
 bool
 operator

@@ -167,8 +167,10 @@ GetStopwatchIsMonitoringCPOW
 cx
 )
 )
+{
 return
 ;
+}
 cx_
 =
 cx

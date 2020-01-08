@@ -335,6 +335,7 @@ if
 !
 sEnvVarInitialized
 )
+{
 sDebugGCs
 =
 !
@@ -346,6 +347,7 @@ MOZ_DEBUG_DEAD_CPOWS
 "
 )
 ;
+}
 if
 (
 sDebugGCs
@@ -498,9 +500,11 @@ HasException
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -512,9 +516,11 @@ StealException
 exn
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 If
@@ -697,9 +703,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -722,9 +730,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -751,6 +761,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -758,6 +769,7 @@ jsapi
 rs
 )
 ;
+}
 ObjectOpResult
 success
 ;
@@ -771,6 +783,7 @@ obj
 success
 )
 )
+{
 return
 fail
 (
@@ -778,6 +791,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -891,9 +905,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -916,9 +932,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -950,6 +968,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -957,6 +976,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -996,6 +1016,7 @@ idVar
 id
 )
 )
+{
 return
 fail
 (
@@ -1003,6 +1024,7 @@ jsapi
 rs
 )
 ;
+}
 Rooted
 <
 PropertyDescriptor
@@ -1024,6 +1046,7 @@ id
 desc
 )
 )
+{
 return
 fail
 (
@@ -1031,6 +1054,7 @@ jsapi
 rs
 )
 ;
+}
 if
 (
 !
@@ -1041,6 +1065,7 @@ desc
 out
 )
 )
+{
 return
 fail
 (
@@ -1048,6 +1073,7 @@ jsapi
 rs
 )
 ;
+}
 return
 ok
 (
@@ -1085,9 +1111,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -1110,9 +1138,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -1139,6 +1169,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -1146,6 +1177,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -1184,6 +1216,7 @@ idVar
 id
 )
 )
+{
 return
 fail
 (
@@ -1191,6 +1224,7 @@ jsapi
 rs
 )
 ;
+}
 Rooted
 <
 PropertyDescriptor
@@ -1211,6 +1245,7 @@ descriptor
 desc
 )
 )
+{
 return
 fail
 (
@@ -1218,6 +1253,7 @@ jsapi
 rs
 )
 ;
+}
 ObjectOpResult
 success
 ;
@@ -1233,6 +1269,7 @@ desc
 success
 )
 )
+{
 return
 fail
 (
@@ -1240,6 +1277,7 @@ jsapi
 rs
 )
 ;
+}
 return
 ok
 (
@@ -1274,9 +1312,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -1299,9 +1339,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -1328,6 +1370,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -1335,6 +1378,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -1373,6 +1417,7 @@ idVar
 id
 )
 )
+{
 return
 fail
 (
@@ -1380,6 +1425,7 @@ jsapi
 rs
 )
 ;
+}
 ObjectOpResult
 success
 ;
@@ -1394,6 +1440,7 @@ id
 success
 )
 )
+{
 return
 fail
 (
@@ -1401,6 +1448,7 @@ jsapi
 rs
 )
 ;
+}
 return
 ok
 (
@@ -1438,9 +1486,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -1463,9 +1513,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -1497,6 +1549,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -1504,6 +1557,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -1543,6 +1597,7 @@ idVar
 id
 )
 )
+{
 return
 fail
 (
@@ -1550,6 +1605,7 @@ jsapi
 rs
 )
 ;
+}
 if
 (
 !
@@ -1561,6 +1617,7 @@ id
 foundp
 )
 )
+{
 return
 fail
 (
@@ -1568,6 +1625,7 @@ jsapi
 rs
 )
 ;
+}
 return
 ok
 (
@@ -1604,9 +1662,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -1629,9 +1689,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -1663,6 +1725,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -1670,6 +1733,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -1709,6 +1773,7 @@ idVar
 id
 )
 )
+{
 return
 fail
 (
@@ -1716,6 +1781,7 @@ jsapi
 rs
 )
 ;
+}
 if
 (
 !
@@ -1727,6 +1793,7 @@ id
 foundp
 )
 )
+{
 return
 fail
 (
@@ -1734,6 +1801,7 @@ jsapi
 rs
 )
 ;
+}
 return
 ok
 (
@@ -1774,9 +1842,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -1867,6 +1937,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -1874,6 +1945,7 @@ aes
 rs
 )
 ;
+}
 RootedValue
 receiver
 (
@@ -1891,6 +1963,7 @@ receiverVar
 receiver
 )
 )
+{
 return
 fail
 (
@@ -1898,6 +1971,7 @@ aes
 rs
 )
 ;
+}
 RootedId
 id
 (
@@ -1915,6 +1989,7 @@ idVar
 id
 )
 )
+{
 return
 fail
 (
@@ -1922,6 +1997,7 @@ aes
 rs
 )
 ;
+}
 JS
 :
 :
@@ -1944,6 +2020,7 @@ receiver
 val
 )
 )
+{
 return
 fail
 (
@@ -1951,6 +2028,7 @@ aes
 rs
 )
 ;
+}
 if
 (
 !
@@ -1961,6 +2039,7 @@ val
 result
 )
 )
+{
 return
 fail
 (
@@ -1968,6 +2047,7 @@ aes
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -2037,9 +2117,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -2096,6 +2178,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -2103,6 +2186,7 @@ aes
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -2148,6 +2232,7 @@ idVar
 id
 )
 )
+{
 return
 fail
 (
@@ -2155,6 +2240,7 @@ aes
 rs
 )
 ;
+}
 RootedValue
 val
 (
@@ -2172,6 +2258,7 @@ value
 val
 )
 )
+{
 return
 fail
 (
@@ -2179,6 +2266,7 @@ aes
 rs
 )
 ;
+}
 RootedValue
 receiver
 (
@@ -2196,6 +2284,7 @@ receiverVar
 receiver
 )
 )
+{
 return
 fail
 (
@@ -2203,6 +2292,7 @@ aes
 rs
 )
 ;
+}
 ObjectOpResult
 result
 ;
@@ -2219,6 +2309,7 @@ receiver
 result
 )
 )
+{
 return
 fail
 (
@@ -2226,6 +2317,7 @@ aes
 rs
 )
 ;
+}
 return
 ok
 (
@@ -2259,9 +2351,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -2284,9 +2378,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -2318,6 +2414,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -2325,6 +2422,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -2355,6 +2453,7 @@ obj
 extensible
 )
 )
+{
 return
 fail
 (
@@ -2362,6 +2461,7 @@ jsapi
 rs
 )
 ;
+}
 *
 result
 =
@@ -2418,9 +2518,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -2503,6 +2605,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -2510,6 +2613,7 @@ aes
 rs
 )
 ;
+}
 MOZ_ASSERT
 (
 argv
@@ -2542,6 +2646,7 @@ argv
 objv
 )
 )
+{
 return
 fail
 (
@@ -2549,6 +2654,7 @@ aes
 rs
 )
 ;
+}
 *
 result
 =
@@ -2634,6 +2740,7 @@ if
 !
 obj
 )
+{
 return
 fail
 (
@@ -2641,6 +2748,7 @@ aes
 rs
 )
 ;
+}
 if
 (
 !
@@ -2655,6 +2763,7 @@ obj
 )
 )
 )
+{
 return
 fail
 (
@@ -2662,6 +2771,7 @@ aes
 rs
 )
 ;
+}
 if
 (
 !
@@ -2676,6 +2786,7 @@ obj
 )
 )
 )
+{
 return
 fail
 (
@@ -2683,6 +2794,7 @@ aes
 rs
 )
 ;
+}
 }
 else
 {
@@ -2710,6 +2822,7 @@ get_JSVariant
 v
 )
 )
+{
 return
 fail
 (
@@ -2717,6 +2830,7 @@ aes
 rs
 )
 ;
+}
 if
 (
 !
@@ -2727,6 +2841,7 @@ append
 v
 )
 )
+{
 return
 fail
 (
@@ -2734,6 +2849,7 @@ aes
 rs
 )
 ;
+}
 }
 }
 RootedValue
@@ -2791,6 +2907,7 @@ args
 obj
 )
 )
+{
 return
 fail
 (
@@ -2798,6 +2915,7 @@ aes
 rs
 )
 ;
+}
 rval
 .
 setObject
@@ -2850,6 +2968,7 @@ rval
 result
 )
 )
+{
 return
 fail
 (
@@ -2857,6 +2976,7 @@ aes
 rs
 )
 ;
+}
 /
 /
 Prefill
@@ -2885,6 +3005,7 @@ i
 +
 +
 )
+{
 outparams
 -
 >
@@ -2898,6 +3019,7 @@ void_t
 )
 )
 ;
+}
 /
 /
 Go
@@ -3018,6 +3140,7 @@ value
 v
 )
 )
+{
 return
 fail
 (
@@ -3025,6 +3148,7 @@ aes
 rs
 )
 ;
+}
 }
 else
 {
@@ -3045,6 +3169,7 @@ append
 v
 )
 )
+{
 return
 fail
 (
@@ -3052,6 +3177,7 @@ aes
 rs
 )
 ;
+}
 }
 /
 /
@@ -3118,6 +3244,7 @@ i
 variant
 )
 )
+{
 return
 fail
 (
@@ -3125,6 +3252,7 @@ aes
 rs
 )
 ;
+}
 outparams
 -
 >
@@ -3201,9 +3329,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -3226,9 +3356,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -3255,6 +3387,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -3262,6 +3395,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -3301,6 +3435,7 @@ vVar
 val
 )
 )
+{
 return
 fail
 (
@@ -3308,6 +3443,7 @@ jsapi
 rs
 )
 ;
+}
 if
 (
 !
@@ -3319,6 +3455,7 @@ val
 bp
 )
 )
+{
 return
 fail
 (
@@ -3326,6 +3463,7 @@ jsapi
 rs
 )
 ;
+}
 return
 ok
 (
@@ -3358,9 +3496,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -3397,9 +3537,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -3426,6 +3568,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -3433,6 +3576,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -3469,6 +3613,7 @@ obj
 cls
 )
 )
+{
 return
 fail
 (
@@ -3476,6 +3621,7 @@ jsapi
 rs
 )
 ;
+}
 *
 classValue
 =
@@ -3516,9 +3662,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -3552,9 +3700,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -3581,6 +3731,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -3588,6 +3739,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -3621,6 +3773,7 @@ obj
 answer
 )
 )
+{
 return
 fail
 (
@@ -3628,6 +3781,7 @@ jsapi
 rs
 )
 ;
+}
 *
 ans
 =
@@ -3665,9 +3819,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -3690,9 +3846,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -3803,9 +3961,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -3835,9 +3995,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -3864,6 +4026,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -3871,6 +4034,7 @@ jsapi
 rs
 )
 ;
+}
 JS
 :
 :
@@ -3891,6 +4055,7 @@ obj
 proto
 )
 )
+{
 return
 fail
 (
@@ -3898,6 +4063,7 @@ jsapi
 rs
 )
 ;
+}
 if
 (
 !
@@ -3908,6 +4074,7 @@ proto
 result
 )
 )
+{
 return
 fail
 (
@@ -3915,6 +4082,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -3965,9 +4133,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -4002,9 +4172,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -4031,6 +4203,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -4038,6 +4211,7 @@ jsapi
 rs
 )
 ;
+}
 JS
 :
 :
@@ -4059,6 +4233,7 @@ isOrdinary
 proto
 )
 )
+{
 return
 fail
 (
@@ -4066,6 +4241,7 @@ jsapi
 rs
 )
 ;
+}
 if
 (
 !
@@ -4076,6 +4252,7 @@ proto
 result
 )
 )
+{
 return
 fail
 (
@@ -4083,6 +4260,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -4133,9 +4311,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -4158,9 +4338,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -4187,6 +4369,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -4194,6 +4377,7 @@ jsapi
 rs
 )
 ;
+}
 RootedString
 sourceJSStr
 (
@@ -4210,6 +4394,7 @@ if
 !
 sourceJSStr
 )
+{
 return
 fail
 (
@@ -4217,6 +4402,7 @@ jsapi
 rs
 )
 ;
+}
 nsAutoJSString
 sourceStr
 ;
@@ -4231,6 +4417,7 @@ cx
 sourceJSStr
 )
 )
+{
 return
 fail
 (
@@ -4238,6 +4425,7 @@ jsapi
 rs
 )
 ;
+}
 source
 -
 >
@@ -4294,9 +4482,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -4319,9 +4509,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -4348,6 +4540,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -4355,6 +4548,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -4392,6 +4586,7 @@ flags
 props
 )
 )
+{
 return
 fail
 (
@@ -4399,6 +4594,7 @@ jsapi
 rs
 )
 ;
+}
 for
 (
 size_t
@@ -4436,6 +4632,7 @@ i
 id
 )
 )
+{
 return
 fail
 (
@@ -4443,6 +4640,7 @@ jsapi
 rs
 )
 ;
+}
 ids
 -
 >
@@ -4488,9 +4686,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -4513,9 +4713,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -4547,6 +4749,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -4554,6 +4757,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -4602,6 +4806,7 @@ rv
 =
 NS_OK
 )
+{
 return
 fail
 (
@@ -4609,6 +4814,7 @@ jsapi
 rs
 )
 ;
+}
 return
 ok
 (
@@ -4649,9 +4855,11 @@ IsInAutomation
 (
 )
 )
+{
 return
 false
 ;
+}
 MaybeForceDebugGC
 (
 )
@@ -4674,9 +4882,11 @@ scopeForTargetObjects
 )
 )
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -4708,6 +4918,7 @@ if
 !
 obj
 )
+{
 return
 deadCPOW
 (
@@ -4715,6 +4926,7 @@ jsapi
 rs
 )
 ;
+}
 LOG
 (
 "
@@ -4753,6 +4965,7 @@ obj
 tmp
 )
 )
+{
 return
 fail
 (
@@ -4760,6 +4973,7 @@ jsapi
 rs
 )
 ;
+}
 *
 instanceof
 =
