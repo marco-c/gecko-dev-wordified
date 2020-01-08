@@ -3058,6 +3058,7 @@ MOZ_CRASH
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractObject
 (
@@ -3070,6 +3071,7 @@ MOZ_CRASH
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractObject
 (
@@ -3082,6 +3084,7 @@ MOZ_CRASH
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractSymbol
 (
@@ -3094,6 +3097,7 @@ MOZ_CRASH
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractInt32
 (
@@ -3106,6 +3110,7 @@ MOZ_CRASH
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractBoolean
 (
@@ -3123,6 +3128,7 @@ template
 typename
 T
 >
+MOZ_MUST_USE
 Register
 extractTag
 (

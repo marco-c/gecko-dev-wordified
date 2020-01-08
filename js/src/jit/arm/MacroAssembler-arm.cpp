@@ -17333,6 +17333,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -17341,7 +17344,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_LOWER_INCL_TAG_OF_GCTHING_SET
@@ -17401,6 +17404,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -17409,7 +17415,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_TAG_MAGIC
@@ -17462,6 +17468,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -17470,7 +17479,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_TAG_INT32
@@ -17520,6 +17529,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -17530,7 +17542,7 @@ return
 testDouble
 (
 cond
-scratch
+tag
 )
 ;
 }
@@ -17573,6 +17585,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -17583,7 +17598,7 @@ return
 testBoolean
 (
 cond
-scratch
+tag
 )
 ;
 }
@@ -17626,6 +17641,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -17636,7 +17654,7 @@ return
 testNull
 (
 cond
-scratch
+tag
 )
 ;
 }
@@ -17679,6 +17697,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -17689,7 +17710,7 @@ return
 testUndefined
 (
 cond
-scratch
+tag
 )
 ;
 }
@@ -17732,6 +17753,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -17742,7 +17766,7 @@ return
 testString
 (
 cond
-scratch
+tag
 )
 ;
 }
@@ -17785,6 +17809,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -17795,7 +17822,7 @@ return
 testSymbol
 (
 cond
-scratch
+tag
 )
 ;
 }
@@ -17838,6 +17865,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -17848,7 +17878,7 @@ return
 testObject
 (
 cond
-scratch
+tag
 )
 ;
 }
@@ -17891,6 +17921,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -17901,7 +17934,7 @@ return
 testNumber
 (
 cond
-scratch
+tag
 )
 ;
 }
@@ -18055,6 +18088,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 src
@@ -18063,7 +18099,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_TAG_UNDEFINED
@@ -18113,6 +18149,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 src
@@ -18121,7 +18160,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_TAG_NULL
@@ -18171,6 +18210,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 src
@@ -18179,7 +18221,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_TAG_BOOLEAN
@@ -18229,6 +18271,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 src
@@ -18237,7 +18282,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_TAG_STRING
@@ -18287,6 +18332,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 src
@@ -18295,7 +18343,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_TAG_SYMBOL
@@ -18345,6 +18393,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 src
@@ -18353,7 +18404,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_TAG_INT32
@@ -18403,6 +18454,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 src
@@ -18411,7 +18465,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_TAG_OBJECT
@@ -18478,6 +18532,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 src
@@ -18486,7 +18543,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_TAG_CLEAR
@@ -18536,6 +18593,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -18544,7 +18604,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_TAG_MAGIC
@@ -18594,6 +18654,9 @@ asMasm
 )
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -18602,7 +18665,7 @@ scratch
 ;
 ma_cmp
 (
-scratch
+tag
 ImmTag
 (
 JSVAL_LOWER_INCL_TAG_OF_GCTHING_SET
@@ -31959,6 +32022,8 @@ tag
 =
 temp
 ;
+tag
+=
 extractTag
 (
 address

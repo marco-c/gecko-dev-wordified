@@ -19358,7 +19358,7 @@ takeAny
 ;
 masm
 .
-extractObject
+unboxObject
 (
 arrayVal
 startReg
@@ -25276,7 +25276,7 @@ array
 .
 masm
 .
-extractObject
+unboxObject
 (
 arrayVal
 argcReg

@@ -12306,7 +12306,7 @@ syncStack
 ;
 masm
 .
-extractObject
+unboxObject
 (
 frame
 .
@@ -14881,7 +14881,7 @@ i
 )
 masm
 .
-extractObject
+unboxObject
 (
 Address
 (
@@ -16596,7 +16596,7 @@ prepareVMCall
 ;
 masm
 .
-extractObject
+unboxObject
 (
 frame
 .
@@ -16619,7 +16619,7 @@ scratchReg
 ;
 masm
 .
-extractObject
+unboxObject
 (
 frame
 .
@@ -16889,7 +16889,7 @@ R0
 ;
 masm
 .
-extractObject
+unboxObject
 (
 frame
 .
@@ -16930,7 +16930,7 @@ R0
 ;
 masm
 .
-extractObject
+unboxObject
 (
 frame
 .

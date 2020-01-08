@@ -11197,7 +11197,7 @@ objOperandId
 ;
 masm
 .
-extractObject
+unboxObject
 (
 Address
 (
