@@ -5236,8 +5236,10 @@ UINT64
 needs
 to
 get
-handle
-seperately
+handled
+/
+/
+separately
 .
 loadPtr
 (
