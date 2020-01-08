@@ -106,6 +106,8 @@ import
 os
 import
 re
+from
+talos
 import
 utils
 KEY_XRE

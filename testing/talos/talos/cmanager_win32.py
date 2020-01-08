@@ -90,10 +90,14 @@ Structure
 pointer
 LONG
 from
+talos
+.
 cmanager_base
 import
 CounterManager
 from
+talos
+.
 utils
 import
 TalosError
