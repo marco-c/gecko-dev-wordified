@@ -17209,10 +17209,6 @@ XMLHttpRequest_Binding
 DONE
 )
 {
-ResetResponse
-(
-)
-;
 aRv
 .
 Throw
