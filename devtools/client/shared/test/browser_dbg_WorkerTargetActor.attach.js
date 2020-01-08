@@ -305,7 +305,7 @@ client
 ;
 const
 [
-tabClient
+targetFront
 ]
 =
 yield
@@ -322,7 +322,7 @@ TAB1_URL
 yield
 listWorkers
 (
-tabClient
+targetFront
 )
 ;
 /
@@ -406,7 +406,7 @@ workers
 yield
 listWorkers
 (
-tabClient
+targetFront
 )
 ;
 let
@@ -417,7 +417,7 @@ workerClient1
 yield
 attachWorker
 (
-tabClient
+targetFront
 findWorker
 (
 workers
@@ -501,7 +501,7 @@ workers
 yield
 listWorkers
 (
-tabClient
+targetFront
 )
 )
 ;
@@ -513,7 +513,7 @@ workerClient2
 yield
 attachWorker
 (
-tabClient
+targetFront
 findWorker
 (
 workers
@@ -588,7 +588,7 @@ workers
 yield
 listWorkers
 (
-tabClient
+targetFront
 )
 )
 ;
@@ -599,7 +599,7 @@ workerClient1
 yield
 attachWorker
 (
-tabClient
+targetFront
 findWorker
 (
 workers

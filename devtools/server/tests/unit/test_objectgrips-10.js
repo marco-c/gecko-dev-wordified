@@ -120,7 +120,7 @@ closures
 function
 (
 response
-tabClient
+targetFront
 threadClient
 )
 {

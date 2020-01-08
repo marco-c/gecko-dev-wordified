@@ -3360,7 +3360,7 @@ prototype
 =
 {
 get
-_tabClient
+_targetFront
 (
 )
 {
@@ -3397,7 +3397,7 @@ _updateWorkerList
 ;
 /
 /
-_tabClient
+_targetFront
 can
 be
 BrowsingContextTargetFront
@@ -3424,7 +3424,7 @@ typeof
 (
 this
 .
-_tabClient
+_targetFront
 .
 on
 )
@@ -3437,7 +3437,7 @@ function
 {
 this
 .
-_tabClient
+_targetFront
 .
 on
 (
@@ -3454,7 +3454,7 @@ else
 {
 this
 .
-_tabClient
+_targetFront
 .
 addListener
 (
@@ -3480,7 +3480,7 @@ typeof
 (
 this
 .
-_tabClient
+_targetFront
 .
 on
 )
@@ -3493,7 +3493,7 @@ function
 {
 this
 .
-_tabClient
+_targetFront
 .
 off
 (
@@ -3510,7 +3510,7 @@ else
 {
 this
 .
-_tabClient
+_targetFront
 .
 removeListener
 (
@@ -3535,7 +3535,7 @@ if
 !
 this
 .
-_tabClient
+_targetFront
 .
 listWorkers
 )
@@ -3545,7 +3545,7 @@ return
 }
 this
 .
-_tabClient
+_targetFront
 .
 listWorkers
 (

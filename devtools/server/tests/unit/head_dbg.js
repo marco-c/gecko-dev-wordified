@@ -1393,7 +1393,7 @@ url
 function
 attachThread
 (
-tabClient
+targetFront
 options
 =
 {
@@ -1413,7 +1413,7 @@ n
 )
 ;
 return
-tabClient
+targetFront
 .
 attachThread
 (
@@ -2424,7 +2424,7 @@ response
 packet
 and
 a
-TabClient
+TargetFront
 instance
 referring
 to
@@ -2462,7 +2462,7 @@ then
 (
 [
 response
-tabClient
+targetFront
 ]
 )
 =
@@ -2471,7 +2471,7 @@ tabClient
 callback
 (
 response
-tabClient
+targetFront
 )
 ;
 }
@@ -2521,7 +2521,7 @@ packet
 a
 /
 /
-TabClient
+TargetFront
 referring
 to
 the
@@ -2551,7 +2551,7 @@ title
 function
 (
 tabResponse
-tabClient
+targetFront
 )
 {
 function
@@ -2566,13 +2566,13 @@ threadClient
 callback
 (
 response
-tabClient
+targetFront
 threadClient
 tabResponse
 )
 ;
 }
-tabClient
+targetFront
 .
 attachThread
 (
@@ -2643,7 +2643,7 @@ resume
 '
 packet
 a
-TabClient
+TargetFront
 for
 the
 tab
@@ -2688,7 +2688,7 @@ title
 function
 (
 response
-tabClient
+targetFront
 threadClient
 )
 {
@@ -2704,7 +2704,7 @@ response
 callback
 (
 response
-tabClient
+targetFront
 threadClient
 )
 ;
@@ -2712,7 +2712,7 @@ resolve
 (
 [
 response
-tabClient
+targetFront
 threadClient
 ]
 )
@@ -5548,7 +5548,7 @@ test
 ;
 const
 [
-tabClient
+targetFront
 ]
 =
 await
@@ -5566,7 +5566,7 @@ threadClient
 await
 attachThread
 (
-tabClient
+targetFront
 )
 ;
 await

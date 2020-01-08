@@ -129,10 +129,10 @@ function
 test_attach
 (
 response
-tabClient
+targetFront
 )
 {
-tabClient
+targetFront
 .
 attachThread
 (

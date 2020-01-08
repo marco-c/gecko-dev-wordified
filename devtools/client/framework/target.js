@@ -3601,7 +3601,7 @@ async
 const
 [
 response
-tabClient
+targetFront
 ]
 =
 await
@@ -3622,7 +3622,7 @@ this
 .
 activeTab
 =
-tabClient
+targetFront
 ;
 this
 .
@@ -6028,7 +6028,7 @@ tabs
 from
 which
 a
-TabClient
+TargetFront
 can
 then
 be
@@ -6054,7 +6054,7 @@ mimic
 the
 interface
 of
-TabClient
+TargetFront
 as
 closely
 as

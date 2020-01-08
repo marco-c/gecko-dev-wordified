@@ -127,7 +127,7 @@ bindings
 function
 (
 response
-tabClient
+targetFront
 threadClient
 )
 {

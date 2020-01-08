@@ -107,7 +107,7 @@ test
 function
 (
 reply
-tabClient
+targetFront
 )
 {
 test_close

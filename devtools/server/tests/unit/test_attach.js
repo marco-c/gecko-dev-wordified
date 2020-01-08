@@ -109,12 +109,12 @@ test
 function
 (
 reply
-tabClient
+targetFront
 )
 {
 test_attach
 (
-tabClient
+targetFront
 )
 ;
 }
@@ -131,10 +131,10 @@ do_test_pending
 function
 test_attach
 (
-tabClient
+targetFront
 )
 {
-tabClient
+targetFront
 .
 attachThread
 (

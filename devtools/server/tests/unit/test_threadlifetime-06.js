@@ -135,7 +135,7 @@ grips
 function
 (
 response
-tabClient
+targetFront
 threadClient
 )
 {

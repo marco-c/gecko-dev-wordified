@@ -115,7 +115,7 @@ grip
 function
 (
 response
-tabClient
+targetFront
 threadClient
 )
 {

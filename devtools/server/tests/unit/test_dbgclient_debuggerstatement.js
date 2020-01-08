@@ -36,7 +36,7 @@ var
 gClient
 ;
 var
-gTabClient
+gTargetFront
 ;
 var
 gDebuggee
@@ -112,12 +112,12 @@ test
 function
 (
 reply
-tabClient
+targetFront
 )
 {
-gTabClient
+gTargetFront
 =
-tabClient
+targetFront
 ;
 test_threadAttach
 (
@@ -156,7 +156,7 @@ thread
 threadActorID
 )
 ;
-gTabClient
+gTargetFront
 .
 attachThread
 (

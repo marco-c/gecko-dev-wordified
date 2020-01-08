@@ -52,7 +52,7 @@ var
 gClient
 gDebuggee
 gThreadClient
-gTabClient
+gTargetFront
 ;
 function
 run_test
@@ -121,14 +121,14 @@ reattach
 "
 (
 reply
-tabClient
+targetFront
 )
 =
 >
 {
-gTabClient
+gTargetFront
 =
-tabClient
+targetFront
 ;
 test_attach
 (
@@ -150,7 +150,7 @@ test_attach
 (
 )
 {
-gTabClient
+gTargetFront
 .
 attachThread
 (
@@ -226,7 +226,7 @@ Assert
 .
 equal
 (
-gTabClient
+gTargetFront
 .
 thread
 null
@@ -245,7 +245,7 @@ test_reattach
 (
 )
 {
-gTabClient
+gTargetFront
 .
 attachThread
 (
@@ -288,7 +288,7 @@ Assert
 .
 equal
 (
-gTabClient
+gTargetFront
 .
 thread
 threadClient

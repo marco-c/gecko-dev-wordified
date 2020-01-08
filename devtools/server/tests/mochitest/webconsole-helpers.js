@@ -239,11 +239,11 @@ attached
 tab
 *
 -
-tabClient
+targetFront
 :
 the
-tab
-client
+target
+front
 *
 -
 consoleClient
@@ -426,7 +426,7 @@ url
 }
 const
 [
-tabClient
+targetFront
 ]
 =
 await
@@ -461,7 +461,7 @@ return
 tab
 :
 attachedTab
-tabClient
+targetFront
 consoleClient
 cleanup
 }

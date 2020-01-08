@@ -61,7 +61,7 @@ var
 gThreadClient
 ;
 var
-gTabClient
+gTargetFront
 ;
 const
 {
@@ -136,7 +136,7 @@ map
 function
 (
 response
-tabClient
+targetFront
 threadClient
 )
 {
@@ -144,9 +144,9 @@ gThreadClient
 =
 threadClient
 ;
-gTabClient
+gTargetFront
 =
-tabClient
+targetFront
 ;
 setup_code
 (
@@ -430,7 +430,7 @@ true
 ;
 reload
 (
-gTabClient
+gTargetFront
 )
 .
 then
