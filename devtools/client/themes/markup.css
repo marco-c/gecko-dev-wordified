@@ -2529,7 +2529,9 @@ badge
 {
 display
 :
-none
+inline
+-
+block
 ;
 font
 -
