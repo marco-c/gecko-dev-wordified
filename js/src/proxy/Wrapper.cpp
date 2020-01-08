@@ -2936,11 +2936,17 @@ around
 .
 if
 (
+JS
+:
+:
+GetCompartmentForRealm
+(
 ar
 -
 >
 origin
 (
+)
 )
 !
 =
