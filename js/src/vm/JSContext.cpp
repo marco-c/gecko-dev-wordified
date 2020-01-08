@@ -7469,14 +7469,6 @@ noExecuteDebuggerTop
 (
 nullptr
 )
-activityCallback
-(
-nullptr
-)
-activityCallbackArg
-(
-nullptr
-)
 requestDepth
 (
 0
