@@ -19100,13 +19100,6 @@ align
 :
 right
 ;
-margin
--
-top
-:
--
-1px
-;
 }
 html
 [
@@ -19253,7 +19246,7 @@ padding
 -
 top
 :
-3px
+2px
 ;
 font
 -

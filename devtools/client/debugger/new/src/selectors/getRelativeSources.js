@@ -286,10 +286,6 @@ root
 return
 sources
 .
-valueSeq
-(
-)
-.
 filter
 (
 source
