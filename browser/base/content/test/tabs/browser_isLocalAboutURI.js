@@ -42,7 +42,7 @@ tests
 for
 tabbrowser
 .
-isLocalAboutURI
+_isLocalAboutURI
 to
 make
 sure
@@ -100,7 +100,7 @@ is
 (
 gBrowser
 .
-isLocalAboutURI
+_isLocalAboutURI
 (
 URI
 )
@@ -118,7 +118,7 @@ ok
 (
 false
 "
-isLocalAboutURI
+_isLocalAboutURI
 should
 not
 throw
@@ -304,7 +304,7 @@ is
 (
 gBrowser
 .
-isLocalAboutURI
+_isLocalAboutURI
 (
 URI
 resolvedURI
