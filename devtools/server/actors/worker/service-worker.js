@@ -310,6 +310,12 @@ destroy
 (
 )
 {
+this
+.
+_subscription
+=
+null
+;
 protocol
 .
 Actor
@@ -322,12 +328,6 @@ call
 (
 this
 )
-;
-this
-.
-_subscription
-=
-null
 ;
 }
 }

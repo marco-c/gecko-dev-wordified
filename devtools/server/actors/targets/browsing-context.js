@@ -3320,6 +3320,12 @@ destroy
 (
 )
 {
+this
+.
+exit
+(
+)
+;
 Actor
 .
 prototype
@@ -3329,12 +3335,6 @@ destroy
 call
 (
 this
-)
-;
-this
-.
-exit
-(
 )
 ;
 }
