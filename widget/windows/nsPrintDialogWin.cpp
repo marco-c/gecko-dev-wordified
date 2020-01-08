@@ -966,14 +966,11 @@ nsIDocShellTreeItem
 >
 treeItem
 =
-do_QueryInterface
-(
 window
 -
 >
 GetDocShell
 (
-)
 )
 ;
 if

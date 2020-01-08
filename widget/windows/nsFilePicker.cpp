@@ -4088,10 +4088,7 @@ dir
 (
 mDisplayDirectory
 =
-do_QueryInterface
-(
 dir
-)
 )
 |
 |

@@ -1406,10 +1406,7 @@ nsIDocument
 >
 doc
 (
-do_QueryInterface
-(
 mSourceDocument
-)
 )
 ;
 if
