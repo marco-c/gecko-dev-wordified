@@ -1006,14 +1006,6 @@ aRv
 )
 ;
 const
-nsACString
-&
-BodyBlobURISpec
-(
-)
-const
-;
-const
 nsAString
 &
 BodyLocalPath
