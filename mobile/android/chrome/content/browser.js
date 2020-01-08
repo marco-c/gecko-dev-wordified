@@ -29476,7 +29476,7 @@ checkPermission
 (
 RuntimePermissions
 .
-WRITE_EXTERNAL_STORAGE
+READ_EXTERNAL_STORAGE
 )
 .
 then
@@ -29499,7 +29499,7 @@ waitForPermissions
 (
 RuntimePermissions
 .
-WRITE_EXTERNAL_STORAGE
+READ_EXTERNAL_STORAGE
 )
 .
 then
