@@ -9491,6 +9491,10 @@ if
 (
 !
 contentParent
+|
+|
+!
+contentParent
 -
 >
 CanCommunicateWith
