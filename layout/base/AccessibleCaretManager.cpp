@@ -4934,6 +4934,13 @@ scrolling
 #
 ifdef
 MOZ_WIDGET_ANDROID
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 nsIDocument
 *
 doc
@@ -4977,6 +4984,7 @@ SetSelectionDragState
 aState
 )
 ;
+}
 #
 endif
 }
