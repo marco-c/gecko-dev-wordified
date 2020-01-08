@@ -1709,7 +1709,8 @@ schema
 try
 :
         
-return
+opts
+=
 {
             
 k
@@ -1737,16 +1738,6 @@ in
 Selected
 substitutions
 .
-                
-(
-'
-compiler
-'
-'
-CC_TYPE
-'
-str
-)
                 
 (
 '
@@ -1825,6 +1816,37 @@ id
 )
         
 }
+        
+compiler
+=
+substs
+.
+get
+(
+'
+CC_TYPE
+'
+None
+)
+        
+if
+compiler
+:
+            
+opts
+[
+'
+compiler
+'
+]
+=
+str
+(
+compiler
+)
+        
+return
+opts
     
 except
 BuildEnvironmentNotFoundException
