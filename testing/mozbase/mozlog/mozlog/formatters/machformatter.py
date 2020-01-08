@@ -2254,7 +2254,7 @@ count
 i
 expected
 %
-i
+s
 assertions
 \
 n
