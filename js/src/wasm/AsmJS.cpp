@@ -7992,6 +7992,7 @@ break
 !
 class
 MOZ_STACK_CLASS
+JS_HAZ_ROOTED
 ModuleValidator
 {
 public

@@ -554,6 +554,15 @@ h
 #
 include
 "
+js
+/
+GCAnnotations
+.
+h
+"
+#
+include
+"
 mozilla
 /
 PeerIdentity
@@ -1089,6 +1098,7 @@ SuppressException
 ;
 }
 }
+JS_HAZ_ROOTED
 ;
 /
 /
@@ -1281,6 +1291,7 @@ bool
 isCopy
 ;
 }
+JS_HAZ_ROOTED
 ;
 }
 static
