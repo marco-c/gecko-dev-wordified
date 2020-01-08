@@ -1371,6 +1371,10 @@ sVectoredExceptionHandler
 )
 )
 ;
+sExceptionHandlerInstalled
+=
+false
+;
 /
 /
 Get
