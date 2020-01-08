@@ -1696,9 +1696,6 @@ char
 aActorDescription
 )
 {
-#
-ifndef
-FUZZING
 MOZ_CRASH_UNSAFE_PRINTF
 (
 "
@@ -1712,8 +1709,6 @@ s
 aActorDescription
 )
 ;
-#
-endif
 }
 void
 BadActorIdError
