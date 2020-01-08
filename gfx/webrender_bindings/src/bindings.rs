@@ -9136,7 +9136,7 @@ is_backface_visible
 bool
 glyph_raster_space
 :
-GlyphRasterSpace
+RasterSpace
 out_is_reference_frame
 :
 &

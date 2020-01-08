@@ -2484,7 +2484,7 @@ here
 wr
 :
 :
-GlyphRasterSpace
+RasterSpace
 :
 :
 Screen
