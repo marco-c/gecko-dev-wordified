@@ -22893,6 +22893,12 @@ ObjectGroupRealm
 makeGroup
 (
 cx
+fun
+-
+>
+realm
+(
+)
 &
 JSFunction
 :
@@ -26594,6 +26600,12 @@ ObjectGroupRealm
 makeGroup
 (
 cx
+group
+-
+>
+realm
+(
+)
 group
 -
 >

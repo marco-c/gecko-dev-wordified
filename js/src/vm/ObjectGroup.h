@@ -3292,9 +3292,9 @@ lazySingletonGroup
 JSContext
 *
 cx
-ObjectGroupRealm
-&
-realm
+ObjectGroup
+*
+oldGroup
 const
 Class
 *
@@ -4256,6 +4256,12 @@ makeGroup
 JSContext
 *
 cx
+JS
+:
+:
+Realm
+*
+realm
 const
 Class
 *
