@@ -208,11 +208,9 @@ WINDOW_READY_TOPIC
 "
 browser
 -
-idle
+delayed
 -
 startup
--
-tasks
 -
 finished
 "
@@ -634,7 +632,7 @@ win
 .
 gBrowserInit
 .
-idleTasksFinished
+delayedStartupFinished
 )
 {
 /
