@@ -31989,11 +31989,8 @@ JS_PUBLIC_API
 (
 void
 )
-SetBuildIdOp
+SetProcessBuildIdOp
 (
-JSContext
-*
-cx
 BuildIdOp
 buildIdOp
 )
