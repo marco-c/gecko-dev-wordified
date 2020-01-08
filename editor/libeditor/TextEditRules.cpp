@@ -2135,7 +2135,7 @@ NS_FAILED
 mTextEditor
 -
 >
-DocumentIsEmpty
+IsEmpty
 (
 &
 retVal
