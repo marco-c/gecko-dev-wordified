@@ -229,15 +229,7 @@ chars
 &
 ArrayEqual
 (
-const_cast
-<
-const
-char16_t
-*
->
-(
 chars
-)
 arr
 arrlen
 )
