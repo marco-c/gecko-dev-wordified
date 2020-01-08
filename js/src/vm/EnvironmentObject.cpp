@@ -10141,11 +10141,11 @@ HandleId
 id
 )
 {
-UniqueChars
-printable
-;
 if
 (
+UniqueChars
+printable
+=
 ValueToPrintableLatin1
 (
 cx
@@ -10153,8 +10153,6 @@ IdToValue
 (
 id
 )
-&
-printable
 )
 )
 {
