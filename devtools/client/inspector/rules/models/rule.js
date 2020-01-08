@@ -2212,6 +2212,11 @@ string
 )
 .
 *
+return
+{
+Promise
+}
+*
 /
 setPropertyValue
 :
@@ -2243,6 +2248,11 @@ priority
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 property
@@ -2269,6 +2279,7 @@ indexOf
 property
 )
 ;
+return
 this
 .
 applyProperties
@@ -2374,6 +2385,12 @@ string
 )
 .
 *
+*
+return
+{
+Promise
+}
+*
 /
 previewPropertyValue
 :
@@ -2417,6 +2434,7 @@ value
 priority
 )
 ;
+return
 modifications
 .
 apply
