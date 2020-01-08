@@ -860,6 +860,14 @@ proto
 ;
 private
 :
+enum
+class
+IfClassIsDisabled
+{
+DoNothing
+Throw
+}
+;
 static
 bool
 resolveConstructor
@@ -875,6 +883,8 @@ GlobalObject
 global
 JSProtoKey
 key
+IfClassIsDisabled
+mode
 )
 ;
 public
@@ -917,6 +927,10 @@ resolveConstructor
 cx
 global
 key
+IfClassIsDisabled
+:
+:
+Throw
 )
 ;
 }
