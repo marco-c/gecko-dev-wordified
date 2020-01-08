@@ -1651,7 +1651,7 @@ template
 =
 yaml
 .
-load
+safe_load
 (
 f
 )

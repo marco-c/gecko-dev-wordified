@@ -261,7 +261,7 @@ f
 return
 yaml
 .
-load
+safe_load
 (
 f
 )

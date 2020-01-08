@@ -559,7 +559,7 @@ config
 =
 yaml
 .
-load
+safe_load
 (
 f
 )
