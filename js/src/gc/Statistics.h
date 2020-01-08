@@ -1721,7 +1721,6 @@ runtime
 /
 *
 File
-pointer
 used
 for
 MOZ_GCTIMER
@@ -1731,7 +1730,7 @@ output
 /
 FILE
 *
-fp
+gcTimerFile
 ;
 ZoneGCStats
 zoneStats
