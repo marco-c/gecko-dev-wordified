@@ -2954,6 +2954,17 @@ nsIURI
 aURI
 )
 ;
+nsresult
+AssociateSourceElementsForModuleTree
+(
+JSContext
+*
+aCx
+ModuleLoadRequest
+*
+aRequest
+)
+;
 nsIDocument
 *
 mDocument
