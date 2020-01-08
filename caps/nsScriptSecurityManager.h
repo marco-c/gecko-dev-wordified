@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h
@@ -300,8 +293,6 @@ final
 :
 public
 nsIScriptSecurityManager
-public
-nsIObserver
 {
 public
 :
@@ -317,7 +308,6 @@ NS_SCRIPTSECURITYMANAGER_CID
 )
 NS_DECL_ISUPPORTS
 NS_DECL_NSISCRIPTSECURITYMANAGER
-NS_DECL_NSIOBSERVER
 static
 nsScriptSecurityManager
 *
@@ -539,10 +529,15 @@ InitPrefs
 (
 )
 ;
-inline
 void
 ScriptSecurityPrefChanged
 (
+const
+char
+*
+aPref
+=
+nullptr
 )
 ;
 inline
