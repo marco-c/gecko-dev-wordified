@@ -10,8 +10,11 @@ test
 no
 -
 ion
+;
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -20,11 +23,6 @@ oomTest
 in
 this
 )
-)
-quit
-(
-)
-;
 var
 g
 =

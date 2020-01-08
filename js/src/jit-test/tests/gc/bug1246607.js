@@ -1,5 +1,14 @@
+/
+/
+|
+jit
+-
+test
+|
+skip
+-
 if
-(
+:
 typeof
 oomTest
 !
@@ -18,11 +27,6 @@ Intl
 '
 object
 '
-)
-quit
-(
-)
-;
 oomTest
 (
 (

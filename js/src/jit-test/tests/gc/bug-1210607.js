@@ -8,8 +8,11 @@ test
 allow
 -
 oom
+;
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -18,11 +21,6 @@ oomAfterAllocations
 in
 this
 )
-)
-quit
-(
-)
-;
 var
 g
 =

@@ -14,8 +14,11 @@ allow
 unhandlable
 -
 oom
+;
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -24,11 +27,6 @@ oomAfterAllocations
 in
 this
 )
-)
-quit
-(
-)
-;
 setGCCallback
 (
 {

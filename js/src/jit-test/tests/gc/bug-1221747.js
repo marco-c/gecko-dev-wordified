@@ -10,8 +10,11 @@ test
 dump
 -
 bytecode
+;
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -20,11 +23,6 @@ oomTest
 in
 this
 )
-)
-quit
-(
-)
-;
 function
 f
 (

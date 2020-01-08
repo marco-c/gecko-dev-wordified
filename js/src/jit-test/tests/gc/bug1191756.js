@@ -1,5 +1,14 @@
+/
+/
+|
+jit
+-
+test
+|
+skip
+-
 if
-(
+:
 typeof
 '
 oomAtAllocation
@@ -10,11 +19,6 @@ oomAtAllocation
 '
 undefined
 '
-)
-quit
-(
-)
-;
 function
 fn
 (

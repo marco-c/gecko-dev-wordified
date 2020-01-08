@@ -1,5 +1,14 @@
+/
+/
+|
+jit
+-
+test
+|
+skip
+-
 if
-(
+:
 helperThreadCount
 (
 )
@@ -7,11 +16,6 @@ helperThreadCount
 =
 =
 0
-)
-quit
-(
-)
-;
 gczeal
 (
 10

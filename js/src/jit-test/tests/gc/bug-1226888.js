@@ -1,5 +1,14 @@
+/
+/
+|
+jit
+-
+test
+|
+skip
+-
 if
-(
+:
 !
 this
 .
@@ -9,11 +18,6 @@ hasOwnProperty
 TypedObject
 "
 )
-)
-quit
-(
-)
-;
 setJitCompilerOption
 (
 '

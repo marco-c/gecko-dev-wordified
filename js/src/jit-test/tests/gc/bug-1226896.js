@@ -12,8 +12,11 @@ ion
 pgo
 =
 on
+;
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -22,11 +25,6 @@ oomTest
 in
 this
 )
-)
-quit
-(
-)
-;
 oomTest
 (
 (

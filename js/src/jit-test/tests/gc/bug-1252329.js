@@ -8,8 +8,11 @@ test
 allow
 -
 oom
+;
+skip
+-
 if
-(
+:
 helperThreadCount
 (
 )
@@ -26,11 +29,6 @@ oomAfterAllocations
 in
 this
 )
-)
-quit
-(
-)
-;
 var
 lfcode
 =

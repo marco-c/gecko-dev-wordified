@@ -8,8 +8,11 @@ test
 allow
 -
 overrecursed
+;
+skip
+-
 if
-(
+:
 helperThreadCount
 (
 )
@@ -17,11 +20,6 @@ helperThreadCount
 =
 =
 0
-)
-quit
-(
-)
-;
 function
 eval
 (
