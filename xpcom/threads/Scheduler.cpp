@@ -3757,7 +3757,7 @@ Shutdown
 static
 *
 /
-nsCString
+nsPrintfCString
 Scheduler
 :
 :

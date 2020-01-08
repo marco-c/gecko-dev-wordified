@@ -567,7 +567,7 @@ preferences
 service
 .
 static
-nsCString
+nsPrintfCString
 GetPrefs
 (
 )

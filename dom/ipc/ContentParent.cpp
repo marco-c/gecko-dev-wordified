@@ -13365,7 +13365,7 @@ normal
 preferences
 service
 .
-nsCString
+nsPrintfCString
 schedulerPrefs
 =
 Scheduler
