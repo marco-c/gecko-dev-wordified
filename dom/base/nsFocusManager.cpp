@@ -4194,12 +4194,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-if
-(
-!
-sTestMode
-)
-{
 baseWindow
 -
 >
@@ -4208,7 +4202,6 @@ SetVisibility
 true
 )
 ;
-}
 }
 /
 /
