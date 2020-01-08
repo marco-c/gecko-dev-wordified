@@ -2478,9 +2478,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 check
 .
@@ -7984,9 +7986,7 @@ global
 /
 skin
 /
-in
--
-content
+icons
 /
 check
 .
@@ -8034,7 +8034,6 @@ context
 properties
 :
 fill
-stroke
 ;
 fill
 :
@@ -8050,10 +8049,6 @@ primary
 -
 color
 )
-;
-stroke
-:
-none
 ;
 z
 -
