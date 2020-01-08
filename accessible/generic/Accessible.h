@@ -3164,6 +3164,7 @@ view
 .
 *
 /
+virtual
 void
 ScrollTo
 (
