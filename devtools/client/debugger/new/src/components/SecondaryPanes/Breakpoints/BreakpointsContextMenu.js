@@ -127,7 +127,7 @@ removeAllBreakpoints
 toggleBreakpoints
 toggleAllBreakpoints
 toggleDisabledBreakpoint
-selectLocation
+selectSpecificLocation
 setBreakpointCondition
 openConditionalPanel
 breakpoints
@@ -1018,7 +1018,7 @@ click
 =
 >
 {
-selectLocation
+selectSpecificLocation
 (
 breakpoint
 .
@@ -1065,7 +1065,7 @@ click
 =
 >
 {
-selectLocation
+selectSpecificLocation
 (
 breakpoint
 .

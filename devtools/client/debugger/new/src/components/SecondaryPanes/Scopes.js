@@ -910,9 +910,15 @@ connect
 )
 (
 mapStateToProps
+{
+openLink
+:
 _actions2
 .
 default
+.
+openLink
+}
 )
 (
 Scopes
