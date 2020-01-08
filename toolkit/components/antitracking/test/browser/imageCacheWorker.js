@@ -246,6 +246,7 @@ runExtraTests
 false
 blockingByCookieBehavior
 blockingByContentBlocking
+blockingByAllowList
 callback
 :
 async
