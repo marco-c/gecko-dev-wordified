@@ -246,9 +246,11 @@ isObject
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 *
 *
@@ -1202,9 +1204,11 @@ iargs
 args
 )
 )
+{
 return
 false
 ;
+}
 return
 js
 :
@@ -1310,9 +1314,11 @@ cargs
 args
 )
 )
+{
 return
 false
 ;
+}
 RootedObject
 obj
 (
@@ -1336,9 +1342,11 @@ newTarget
 obj
 )
 )
+{
 return
 false
 ;
+}
 args
 .
 rval
@@ -2344,6 +2352,7 @@ isMarkedBlack
 (
 )
 )
+{
 MOZ_ASSERT
 (
 JS
@@ -2355,6 +2364,7 @@ target
 )
 )
 ;
+}
 if
 (
 !
@@ -2365,6 +2375,7 @@ isMarkedGray
 (
 )
 )
+{
 JS
 :
 :
@@ -2373,6 +2384,7 @@ ExposeObjectToActiveJS
 target
 )
 ;
+}
 }
 return
 target
@@ -2420,8 +2432,10 @@ wrapped
 )
 )
 )
+{
 break
 ;
+}
 wrapped
 =
 wrapped
@@ -2471,6 +2485,7 @@ if
 (
 wrapped
 )
+{
 wrapped
 =
 MaybeForwarded
@@ -2478,6 +2493,7 @@ MaybeForwarded
 wrapped
 )
 ;
+}
 }
 return
 wrapped
@@ -2597,11 +2613,13 @@ if
 (
 flagsp
 )
+{
 *
 flagsp
 =
 flags
 ;
+}
 return
 wrapped
 ;
@@ -2653,9 +2671,11 @@ obj
 =
 wrapper
 )
+{
 return
 obj
 ;
+}
 }
 }
 JS_FRIEND_API

@@ -286,9 +286,11 @@ id
 bp
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Step
@@ -299,9 +301,11 @@ if
 *
 bp
 )
+{
 return
 true
 ;
+}
 /
 /
 The
@@ -354,9 +358,11 @@ proxy
 proto
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Step
@@ -370,6 +376,7 @@ if
 (
 proto
 )
+{
 return
 HasProperty
 (
@@ -379,6 +386,7 @@ id
 bp
 )
 ;
+}
 /
 /
 Step
@@ -437,9 +445,11 @@ id
 desc
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 desc
@@ -448,9 +458,11 @@ object
 (
 )
 )
+{
 return
 true
 ;
+}
 RootedObject
 proto
 (
@@ -468,9 +480,11 @@ proxy
 proto
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -549,9 +563,11 @@ id
 desc
 )
 )
+{
 return
 false
 ;
+}
 *
 bp
 =
@@ -660,9 +676,11 @@ id
 desc
 )
 )
+{
 return
 false
 ;
+}
 desc
 .
 assertCompleteIfFound
@@ -738,9 +756,11 @@ proxy
 proto
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Step
@@ -994,9 +1014,11 @@ id
 ownDesc
 )
 )
+{
 return
 false
 ;
+}
 ownDesc
 .
 assertCompleteIfFound
@@ -1139,13 +1161,16 @@ obj
 proto
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 proto
 )
+{
 return
 SetProperty
 (
@@ -1157,6 +1182,7 @@ receiver
 result
 )
 ;
+}
 /
 /
 Step
@@ -1205,6 +1231,7 @@ writable
 (
 )
 )
+{
 return
 result
 .
@@ -1213,6 +1240,7 @@ fail
 JSMSG_READ_ONLY
 )
 ;
+}
 if
 (
 !
@@ -1222,6 +1250,7 @@ isObject
 (
 )
 )
+{
 return
 result
 .
@@ -1230,6 +1259,7 @@ fail
 JSMSG_SET_NON_OBJECT_RECEIVER
 )
 ;
+}
 RootedObject
 receiverObj
 (
@@ -1263,6 +1293,7 @@ setter
 (
 )
 )
+{
 return
 CallJSSetterOp
 (
@@ -1274,6 +1305,7 @@ v
 result
 )
 ;
+}
 /
 /
 Steps
@@ -1304,9 +1336,11 @@ id
 existingDescriptor
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Step
@@ -1340,6 +1374,7 @@ isAccessorDescriptor
 (
 )
 )
+{
 return
 result
 .
@@ -1348,6 +1383,7 @@ fail
 JSMSG_OVERWRITING_ACCESSOR
 )
 ;
+}
 /
 /
 Step
@@ -1366,6 +1402,7 @@ writable
 (
 )
 )
+{
 return
 result
 .
@@ -1374,6 +1411,7 @@ fail
 JSMSG_READ_ONLY
 )
 ;
+}
 }
 /
 /
@@ -1450,6 +1488,7 @@ hasSetterObject
 (
 )
 )
+{
 setter
 =
 ownDesc
@@ -1458,11 +1497,13 @@ setterObject
 (
 )
 ;
+}
 if
 (
 !
 setter
 )
+{
 return
 result
 .
@@ -1471,6 +1512,7 @@ fail
 JSMSG_GETTER_ONLY
 )
 ;
+}
 RootedValue
 setterValue
 (
@@ -1493,9 +1535,11 @@ setterValue
 v
 )
 )
+{
 return
 false
 ;
+}
 return
 result
 .
@@ -1551,9 +1595,11 @@ proxy
 props
 )
 )
+{
 return
 false
 ;
+}
 /
 *
 Select
@@ -1625,8 +1671,10 @@ JSID_IS_SYMBOL
 id
 )
 )
+{
 continue
 ;
+}
 AutoWaivePolicy
 policy
 (
@@ -1660,9 +1708,11 @@ id
 desc
 )
 )
+{
 return
 false
 ;
+}
 desc
 .
 assertCompleteIfFound
@@ -1684,6 +1734,7 @@ enumerable
 (
 )
 )
+{
 props
 [
 i
@@ -1696,6 +1747,7 @@ set
 id
 )
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -1719,9 +1771,11 @@ resize
 i
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -1782,9 +1836,11 @@ proxy
 props
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 EnumeratedIdVectorToIterator
 (
@@ -1915,6 +1971,7 @@ isCallable
 (
 )
 )
+{
 return
 JS_NewStringCopyZ
 (
@@ -1936,6 +1993,7 @@ n
 "
 )
 ;
+}
 JS_ReportErrorNumberASCII
 (
 cx

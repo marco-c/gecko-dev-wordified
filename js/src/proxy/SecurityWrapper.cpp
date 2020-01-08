@@ -656,9 +656,11 @@ if
 !
 prop
 )
+{
 return
 false
 ;
+}
 JS_ReportErrorNumberUTF8
 (
 cx
