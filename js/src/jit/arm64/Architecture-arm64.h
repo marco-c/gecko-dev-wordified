@@ -1088,6 +1088,13 @@ AllMask
 static
 const
 SetType
+NoneMask
+=
+0x0
+;
+static
+const
+SetType
 ArgRegMask
 =
 (
@@ -2215,6 +2222,13 @@ SetType
 AllMask
 =
 0xFFFFFFFFFFFFFFFFULL
+;
+static
+const
+SetType
+NoneMask
+=
+0x0ULL
 ;
 static
 const
