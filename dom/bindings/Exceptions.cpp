@@ -1627,6 +1627,17 @@ MOZ_ASSERT
 mStack
 )
 ;
+MOZ_ASSERT
+(
+JS
+:
+:
+IsUnwrappedSavedFrame
+(
+mStack
+)
+)
+;
 mozilla
 :
 :
