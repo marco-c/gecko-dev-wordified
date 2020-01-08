@@ -856,7 +856,7 @@ aDecision
 )
 {
 uint32_t
-aContentType
+contentType
 =
 aLoadInfo
 -
@@ -882,7 +882,7 @@ nsCOMPtr
 <
 nsIURI
 >
-aRequestingLocation
+requestingLocation
 ;
 if
 (
@@ -896,14 +896,14 @@ GetURI
 (
 getter_AddRefs
 (
-aRequestingLocation
+requestingLocation
 )
 )
 ;
 }
 MOZ_ASSERT
 (
-aContentType
+contentType
 =
 =
 nsContentUtils
@@ -911,7 +911,7 @@ nsContentUtils
 :
 InternalContentPolicyTypeToExternal
 (
-aContentType
+contentType
 )
 "
 We
@@ -964,7 +964,7 @@ know
 .
 if
 (
-aContentType
+contentType
 >
 NUMBER_OF_TYPES
 )
@@ -1017,7 +1017,7 @@ decisions
 here
 if
 (
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -1111,8 +1111,8 @@ rv
 TestPermission
 (
 aContentLocation
-aRequestingLocation
-aContentType
+requestingLocation
+contentType
 &
 shouldLoad
 &
@@ -1183,7 +1183,7 @@ aDecision
 )
 {
 uint32_t
-aContentType
+contentType
 =
 aLoadInfo
 -
@@ -1196,7 +1196,7 @@ nsCOMPtr
 <
 nsISupports
 >
-aRequestingContext
+requestingContext
 =
 aLoadInfo
 -
@@ -1222,7 +1222,7 @@ nsCOMPtr
 <
 nsIURI
 >
-aRequestingLocation
+requestingLocation
 ;
 if
 (
@@ -1236,14 +1236,14 @@ GetURI
 (
 getter_AddRefs
 (
-aRequestingLocation
+requestingLocation
 )
 )
 ;
 }
 MOZ_ASSERT
 (
-aContentType
+contentType
 =
 =
 nsContentUtils
@@ -1251,7 +1251,7 @@ nsContentUtils
 :
 InternalContentPolicyTypeToExternal
 (
-aContentType
+contentType
 )
 "
 We
@@ -1272,7 +1272,8 @@ here
 For
 loads
 where
-aRequestingContext
+requesting
+context
 is
 chrome
 we
@@ -1313,7 +1314,7 @@ do_QueryInterface
 (
 NS_CP_GetDocShellFromContext
 (
-aRequestingContext
+requestingContext
 )
 )
 ;
@@ -1432,7 +1433,7 @@ java
 )
 if
 (
-aContentType
+contentType
 =
 =
 nsIContentPolicy
@@ -1459,8 +1460,8 @@ rv
 TestPermission
 (
 aContentLocation
-aRequestingLocation
-aContentType
+requestingLocation
+contentType
 &
 shouldLoad
 &

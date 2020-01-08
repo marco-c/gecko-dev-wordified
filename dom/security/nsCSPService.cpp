@@ -982,7 +982,7 @@ NS_ERROR_FAILURE
 ;
 }
 uint32_t
-aContentType
+contentType
 =
 aLoadInfo
 -
@@ -995,7 +995,7 @@ nsCOMPtr
 <
 nsISupports
 >
-aRequestContext
+requestContext
 =
 aLoadInfo
 -
@@ -1008,7 +1008,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-aRequestPrincipal
+requestPrincipal
 =
 aLoadInfo
 -
@@ -1021,7 +1021,7 @@ nsCOMPtr
 <
 nsIURI
 >
-aRequestOrigin
+requestOrigin
 ;
 nsCOMPtr
 <
@@ -1048,7 +1048,7 @@ GetURI
 (
 getter_AddRefs
 (
-aRequestOrigin
+requestOrigin
 )
 )
 ;
@@ -1194,7 +1194,7 @@ sCSPEnabled
 subjectToCSP
 (
 aContentLocation
-aContentType
+contentType
 )
 )
 {
@@ -1270,7 +1270,7 @@ node
 (
 do_QueryInterface
 (
-aRequestContext
+requestContext
 )
 )
 ;
@@ -1287,7 +1287,7 @@ node
 |
 |
 (
-aRequestPrincipal
+requestPrincipal
 &
 &
 BasePrincipal
@@ -1295,7 +1295,7 @@ BasePrincipal
 :
 Cast
 (
-aRequestPrincipal
+requestPrincipal
 )
 -
 >
@@ -1313,7 +1313,7 @@ NodePrincipal
 {
 principal
 =
-aRequestPrincipal
+requestPrincipal
 ;
 }
 else
@@ -1377,7 +1377,7 @@ nsContentUtils
 :
 IsPreloadType
 (
-aContentType
+contentType
 )
 ;
 if
@@ -1443,10 +1443,10 @@ preloadCsp
 >
 ShouldLoad
 (
-aContentType
+contentType
 aContentLocation
-aRequestOrigin
-aRequestContext
+requestOrigin
+requestContext
 aMimeTypeGuess
 nullptr
 /
@@ -1566,10 +1566,10 @@ csp
 >
 ShouldLoad
 (
-aContentType
+contentType
 aContentLocation
-aRequestOrigin
-aRequestContext
+requestOrigin
+requestContext
 aMimeTypeGuess
 nullptr
 aDecision
@@ -1618,7 +1618,7 @@ NS_ERROR_FAILURE
 ;
 }
 uint32_t
-aContentType
+contentType
 =
 aLoadInfo
 -
@@ -1723,7 +1723,7 @@ contentPolicyType
 /
 /
 (
-aContentType
+contentType
 )
 to
 ShouldLoad
@@ -1738,7 +1738,7 @@ nsContentUtils
 :
 InternalContentPolicyTypeToExternal
 (
-aContentType
+contentType
 )
 ;
 if
