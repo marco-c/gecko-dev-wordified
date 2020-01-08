@@ -5446,12 +5446,6 @@ char
 arg2
 )
 {
-UniqueChars
-bytes
-;
-bool
-ok
-;
 MOZ_ASSERT
 (
 js_ErrorFormatString
@@ -5478,6 +5472,7 @@ argCount
 3
 )
 ;
+UniqueChars
 bytes
 =
 DecompileValueGenerator
@@ -5496,8 +5491,7 @@ bytes
 return
 false
 ;
-ok
-=
+return
 JS_ReportErrorFlagsAndNumberLatin1
 (
 cx
@@ -5513,9 +5507,6 @@ get
 arg1
 arg2
 )
-;
-return
-ok
 ;
 }
 JSObject

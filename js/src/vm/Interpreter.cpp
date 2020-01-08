@@ -6660,7 +6660,7 @@ return
 false
 ;
 }
-ReportValueError2
+ReportValueError
 (
 cx
 JSMSG_BAD_HERITAGE
