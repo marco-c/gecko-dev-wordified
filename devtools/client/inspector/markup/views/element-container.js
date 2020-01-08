@@ -596,7 +596,7 @@ this
 .
 editor
 .
-displayNode
+displayBadge
 .
 classList
 .
