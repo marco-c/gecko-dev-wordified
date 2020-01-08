@@ -1366,13 +1366,16 @@ super
 *
 ;
 use
+proc_macro2
+:
+:
+TokenStream
+;
+use
 quote
 :
 :
-{
 ToTokens
-Tokens
-}
 ;
 impl
 ToTokens
@@ -1388,7 +1391,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 match
@@ -1860,7 +1863,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 match

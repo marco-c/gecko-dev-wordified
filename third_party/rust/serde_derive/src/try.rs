@@ -3,15 +3,10 @@ proc_macro2
 :
 :
 {
-Op
+Punct
 Spacing
+TokenStream
 }
-;
-use
-quote
-:
-:
-Tokens
 ;
 /
 /
@@ -80,7 +75,7 @@ replacement
 )
 -
 >
-Tokens
+TokenStream
 {
 /
 /
@@ -105,7 +100,7 @@ it
 let
 dollar
 =
-Op
+Punct
 :
 :
 new

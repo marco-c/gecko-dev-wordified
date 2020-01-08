@@ -89,13 +89,16 @@ those
 terms
 .
 use
+proc_macro2
+:
+:
+TokenStream
+;
+use
 quote
 :
 :
-{
 ToTokens
-Tokens
-}
 ;
 use
 syn
@@ -121,7 +124,7 @@ expression
 .
 Expr
 (
-Tokens
+TokenStream
 )
 /
 /
@@ -151,7 +154,7 @@ tokens
 .
 Block
 (
-Tokens
+TokenStream
 )
 }
 macro_rules
@@ -274,7 +277,7 @@ out
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 match
@@ -372,7 +375,7 @@ out
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 match
@@ -468,7 +471,7 @@ out
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 match
@@ -554,7 +557,7 @@ out
 impl
 AsRef
 <
-Tokens
+TokenStream
 >
 for
 Fragment
@@ -568,7 +571,7 @@ self
 -
 >
 &
-Tokens
+TokenStream
 {
 match
 *

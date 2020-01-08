@@ -40,7 +40,7 @@ unicode_xid
 UnicodeXID
 ;
 use
-imp
+stable
 :
 :
 LexError

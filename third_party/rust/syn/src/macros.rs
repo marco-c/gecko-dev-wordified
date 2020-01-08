@@ -970,10 +970,10 @@ tokens
 mut
 :
 :
-quote
+proc_macro2
 :
 :
-Tokens
+TokenStream
 )
 {
 match

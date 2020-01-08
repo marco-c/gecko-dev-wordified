@@ -365,6 +365,7 @@ clone
 rest
 )
 )
+;
 }
 parse_error
 (
@@ -468,6 +469,7 @@ clone
 rest
 )
 )
+;
 }
 }
 parse_error
@@ -572,6 +574,7 @@ clone
 rest
 )
 )
+;
 }
 }
 parse_error
@@ -850,7 +853,7 @@ is_none
 TokenTree
 :
 :
-Op
+Punct
 (
 ref
 o1
@@ -859,7 +862,7 @@ o1
 TokenTree
 :
 :
-Op
+Punct
 (
 ref
 o2
@@ -870,14 +873,14 @@ o2
 {
 o1
 .
-op
+as_char
 (
 )
 =
 =
 o2
 .
-op
+as_char
 (
 )
 &
@@ -967,7 +970,7 @@ to_string
 TokenTree
 :
 :
-Term
+Ident
 (
 ref
 s1
@@ -976,7 +979,7 @@ s1
 TokenTree
 :
 :
-Term
+Ident
 (
 ref
 s2
@@ -985,17 +988,9 @@ s2
 =
 >
 s1
-.
-as_str
-(
-)
 =
 =
 s2
-.
-as_str
-(
-)
 _
 =
 >
@@ -1181,7 +1176,7 @@ hash
 TokenTree
 :
 :
-Op
+Punct
 (
 ref
 op
@@ -1198,7 +1193,7 @@ h
 ;
 op
 .
-op
+as_char
 (
 )
 .
@@ -1266,7 +1261,7 @@ h
 TokenTree
 :
 :
-Term
+Ident
 (
 ref
 word
@@ -1276,10 +1271,6 @@ word
 (
 3u8
 word
-.
-as_str
-(
-)
 )
 .
 hash

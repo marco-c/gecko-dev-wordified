@@ -2055,12 +2055,18 @@ super
 *
 ;
 use
+proc_macro2
+:
+:
+TokenStream
+;
+use
 quote
 :
 :
 {
 ToTokens
-Tokens
+TokenStreamExt
 }
 ;
 impl
@@ -2077,7 +2083,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -2155,7 +2161,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 self
@@ -2197,7 +2203,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 self
@@ -2239,7 +2245,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -2319,7 +2325,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 self
@@ -2346,7 +2352,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 self
@@ -2374,7 +2380,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 self
