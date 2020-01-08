@@ -144,6 +144,15 @@ include
 "
 mozilla
 /
+BackgroundHangMonitor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentParent
@@ -3445,7 +3454,7 @@ GetUniqueID
 mozilla
 :
 :
-HangMonitor
+BackgroundHangMonitor
 :
 :
 RegisterAnnotator
@@ -3681,7 +3690,7 @@ endif
 mozilla
 :
 :
-HangMonitor
+BackgroundHangMonitor
 :
 :
 UnregisterAnnotator
@@ -5460,7 +5469,7 @@ always
 called
 by
 the
-HangMonitor
+BackgroundHangMonitor
 thread
 .
 *
@@ -5474,10 +5483,7 @@ AnnotateHang
 mozilla
 :
 :
-HangMonitor
-:
-:
-HangAnnotations
+BackgroundHangAnnotations
 &
 aAnnotations
 )
@@ -5523,7 +5529,7 @@ pretty
 obvious
 from
 the
-ChromeHang
+hang
 stack
 that
 we
