@@ -892,15 +892,13 @@ t
 linux
 -
 talos
--
-tw
 '
 :
 (
 '
-native
+generic
 -
-engine
+worker
 '
 '
 linux
