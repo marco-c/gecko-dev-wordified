@@ -5046,7 +5046,7 @@ nsAString
 &
 aMethodName
 const
-ResponseData
+nsAString
 &
 aDetails
 const
@@ -5531,7 +5531,7 @@ RespondShowPayment
 EmptyString
 (
 )
-ResponseData
+EmptyString
 (
 )
 EmptyString
