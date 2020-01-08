@@ -4343,7 +4343,7 @@ It
 uses
 a
 normal
-WorkerRunnable
+WorkerDebuggeeRunnable
 in
 order
 to
@@ -4355,7 +4355,7 @@ that
 all
 the
 pending
-WorkerRunnables
+WorkerDebuggeeRunnables
 are
 executed
 before
@@ -4366,7 +4366,7 @@ CancelingOnParentRunnable
 final
 :
 public
-WorkerRunnable
+WorkerDebuggeeRunnable
 {
 public
 :
@@ -4378,7 +4378,7 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
-WorkerRunnable
+WorkerDebuggeeRunnable
 (
 aWorkerPrivate
 ParentThreadUnchangedBusyCount

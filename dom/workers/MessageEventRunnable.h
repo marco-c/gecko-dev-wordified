@@ -159,7 +159,7 @@ MessageEventRunnable
 final
 :
 public
-WorkerRunnable
+WorkerDebuggeeRunnable
 public
 StructuredCloneHolder
 {
