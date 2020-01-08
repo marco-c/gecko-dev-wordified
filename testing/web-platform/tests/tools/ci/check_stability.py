@@ -2019,15 +2019,6 @@ install_browser
 "
 ]
 =
-True
-        
-wpt_kwargs
-[
-"
-install
-"
-]
-=
 wpt_kwargs
 [
 "
