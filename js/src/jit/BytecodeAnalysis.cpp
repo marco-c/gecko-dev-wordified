@@ -303,9 +303,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Initialize
@@ -570,8 +572,10 @@ offset
 .
 initialized
 )
+{
 continue
 ;
+}
 unsigned
 stackDepth
 =
@@ -610,6 +614,7 @@ chkpc
 +
 +
 )
+{
 MOZ_ASSERT
 (
 !
@@ -627,6 +632,7 @@ chkpc
 initialized
 )
 ;
+}
 #
 endif
 unsigned
@@ -1122,12 +1128,14 @@ end
 =
 offset
 )
+{
 catchFinallyRanges
 .
 popBack
 (
 )
 ;
+}
 CatchFinallyRange
 range
 (
@@ -1157,9 +1165,11 @@ append
 range
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 }
@@ -1198,6 +1208,7 @@ contains
 offset
 )
 )
+{
 infos_
 [
 offset
@@ -1207,6 +1218,7 @@ loopEntryInCatchOrFinally
 =
 true
 ;
+}
 }
 break
 ;
@@ -1282,10 +1294,12 @@ hasNonSyntacticScope
 (
 )
 )
+{
 usesEnvironmentChain_
 =
 true
 ;
+}
 break
 ;
 default
@@ -1331,10 +1345,12 @@ op
 =
 JSOP_CASE
 )
+{
 newStackDepth
 -
 -
 ;
+}
 unsigned
 targetOffset
 =
@@ -1404,6 +1420,7 @@ if
 (
 jumpBack
 )
+{
 nextpc
 =
 script_
@@ -1414,6 +1431,7 @@ offsetToPC
 targetOffset
 )
 ;
+}
 }
 /
 /
@@ -1489,6 +1507,7 @@ if
 (
 jump
 )
+{
 infos_
 [
 fallthroughOffset
@@ -1498,6 +1517,7 @@ jumpTarget
 =
 true
 ;
+}
 }
 }
 return

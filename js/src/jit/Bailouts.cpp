@@ -660,6 +660,7 @@ invalidated
 (
 )
 )
+{
 frame
 .
 ionScript
@@ -682,6 +683,7 @@ defaultFreeOp
 )
 )
 ;
+}
 /
 /
 NB
@@ -900,6 +902,7 @@ runtime
 )
 )
 )
+{
 cx
 -
 >
@@ -911,6 +914,7 @@ setLastProfilingFrame
 currentFramePtr
 )
 ;
+}
 return
 retval
 ;
@@ -1460,6 +1464,7 @@ runtime
 )
 )
 )
+{
 cx
 -
 >
@@ -1471,6 +1476,7 @@ setLastProfilingFrame
 currentFramePtr
 )
 ;
+}
 return
 retval
 ;
@@ -1805,6 +1811,7 @@ isThrowingOutOfMemory
 (
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -1814,6 +1821,7 @@ ExceptionHandlerBailout
 "
 )
 ;
+}
 }
 if
 (
@@ -1857,6 +1865,7 @@ propagatingIonExceptionForDebugMode
 (
 )
 )
+{
 bailoutInfo
 -
 >
@@ -1864,6 +1873,7 @@ bailoutKind
 =
 Bailout_IonExceptionDebugMode
 ;
+}
 rfe
 -
 >
@@ -1973,6 +1983,7 @@ propagatingIonExceptionForDebugMode
 (
 )
 )
+{
 cx
 -
 >
@@ -1980,6 +1991,7 @@ clearPendingException
 (
 )
 ;
+}
 }
 else
 {
@@ -2053,6 +2065,7 @@ runtime
 )
 )
 )
+{
 cx
 -
 >
@@ -2064,6 +2077,7 @@ setLastProfilingFrame
 currentFramePtr
 )
 ;
+}
 return
 retval
 ;
@@ -2193,9 +2207,11 @@ initFunctionEnvironmentObjects
 cx
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 return
@@ -2355,6 +2371,7 @@ hadFrequentBailouts
 (
 )
 )
+{
 script
 -
 >
@@ -2362,6 +2379,7 @@ setHadFrequentBailouts
 (
 )
 ;
+}
 JitSpew
 (
 JitSpew_IonInvalidate

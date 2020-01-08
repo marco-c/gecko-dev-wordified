@@ -170,9 +170,11 @@ if
 !
 bits_
 )
+{
 return
 false
 ;
+}
 memset
 (
 bits_
@@ -234,9 +236,11 @@ bits
 i
 ]
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -312,6 +316,7 @@ i
 +
 +
 )
+{
 bits
 [
 i
@@ -323,6 +328,7 @@ otherBits
 i
 ]
 ;
+}
 }
 void
 BitSet
@@ -394,6 +400,7 @@ i
 +
 +
 )
+{
 bits
 [
 i
@@ -406,6 +413,7 @@ otherBits
 i
 ]
 ;
+}
 }
 void
 BitSet
@@ -477,6 +485,7 @@ i
 +
 +
 )
+{
 bits
 [
 i
@@ -488,6 +497,7 @@ otherBits
 i
 ]
 ;
+}
 }
 /
 /
@@ -614,10 +624,12 @@ bits
 i
 ]
 )
+{
 changed
 =
 true
 ;
+}
 }
 return
 changed
@@ -663,6 +675,7 @@ i
 +
 +
 )
+{
 bits
 [
 i
@@ -674,6 +687,7 @@ bits
 i
 ]
 ;
+}
 }
 void
 BitSet
@@ -715,6 +729,7 @@ i
 +
 +
 )
+{
 bits
 [
 i
@@ -722,4 +737,5 @@ i
 =
 0
 ;
+}
 }
