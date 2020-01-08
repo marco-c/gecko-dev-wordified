@@ -7090,7 +7090,7 @@ childNodes
 if
 (
 "
-folderId
+folderGuid
 "
 in
 menuitem
@@ -7098,10 +7098,10 @@ menuitem
 &
 menuitem
 .
-folderId
+folderGuid
 =
 =
-aItemId
+aGuid
 )
 {
 menuitem
@@ -7148,10 +7148,10 @@ if
 (
 folder
 .
-folderId
+folderGuid
 =
 =
-aItemId
+aGuid
 )
 {
 folder
