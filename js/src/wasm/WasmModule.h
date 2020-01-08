@@ -1442,6 +1442,7 @@ JS
 API
 implementations
 :
+MOZ_MUST_USE
 bool
 GetOptimizedEncodingBuildId
 (
