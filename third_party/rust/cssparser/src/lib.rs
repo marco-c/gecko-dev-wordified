@@ -761,6 +761,7 @@ serializer
 ToCss
 CssStringWriter
 serialize_identifier
+serialize_name
 serialize_string
 TokenSerializationType
 }
