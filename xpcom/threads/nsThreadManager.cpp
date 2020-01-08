@@ -2024,13 +2024,6 @@ SetObserver
 nullptr
 )
 ;
-mMainThread
--
->
-ClearObservers
-(
-)
-;
 /
 /
 Release
