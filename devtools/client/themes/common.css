@@ -5468,9 +5468,7 @@ var
 -
 animation
 -
-easing
--
-function
+curve
 )
 opacity
 250ms
@@ -5480,9 +5478,7 @@ var
 -
 animation
 -
-easing
--
-function
+curve
 )
 ;
 opacity
