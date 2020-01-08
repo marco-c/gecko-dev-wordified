@@ -5211,7 +5211,9 @@ if
 tuV2
 )
 {
-auto
+const
+CacheResultV2
+*
 result
 =
 CacheResult
@@ -5343,7 +5345,9 @@ if
 tuV4
 )
 {
-auto
+const
+CacheResultV4
+*
 result
 =
 CacheResult
@@ -5692,10 +5696,12 @@ nsUrlClassifierDBServiceWorker
 :
 IsSameAsLastResults
 (
+const
 CacheResultArray
 &
 aResult
 )
+const
 {
 if
 (

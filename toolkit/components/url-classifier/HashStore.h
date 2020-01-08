@@ -282,6 +282,7 @@ const
 =
 0
 ;
+const
 nsCString
 mTable
 ;
@@ -1069,6 +1070,7 @@ const
 Prefix
 &
 aPrefix
+const
 CachedFullHashResponse
 &
 aResponse
@@ -1445,6 +1447,7 @@ nsresult
 SanityCheck
 (
 )
+const
 ;
 nsresult
 CalculateChecksum
@@ -1525,11 +1528,13 @@ bool
 AlreadyReadChunkNumbers
 (
 )
+const
 ;
 bool
 AlreadyReadCompletions
 (
 )
+const
 ;
 /
 /
@@ -1619,6 +1624,7 @@ simple
 for
 unittesting
 .
+const
 nsCString
 mTableName
 ;

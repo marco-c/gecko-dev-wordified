@@ -192,6 +192,7 @@ bool
 IsEmpty
 (
 )
+const
 override
 ;
 nsresult
@@ -321,6 +322,7 @@ size_t
 SizeOfPrefixSet
 (
 )
+const
 override
 ;
 private
@@ -337,17 +339,6 @@ return
 VER
 ;
 }
-nsresult
-InitCrypto
-(
-nsCOMPtr
-<
-nsICryptoHash
->
-&
-aCrypto
-)
-;
 nsresult
 VerifyChecksum
 (

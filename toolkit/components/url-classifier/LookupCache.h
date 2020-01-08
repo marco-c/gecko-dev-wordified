@@ -261,6 +261,7 @@ Completion
 CompleteHash
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -278,6 +279,7 @@ nsCString
 PartialHash
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -297,6 +299,7 @@ nsCString
 (
 reinterpret_cast
 <
+const
 char
 *
 >
@@ -318,6 +321,7 @@ nsCString
 (
 reinterpret_cast
 <
+const
 char
 *
 >
@@ -337,6 +341,7 @@ nsCString
 PartialHashHex
 (
 )
+const
 {
 nsAutoCString
 hex
@@ -1261,6 +1266,7 @@ IsInCache
 uint32_t
 key
 )
+const
 {
 return
 mFullHashCache
@@ -1339,6 +1345,7 @@ bool
 IsEmpty
 (
 )
+const
 =
 0
 ;
@@ -1430,6 +1437,7 @@ size_t
 SizeOfPrefixSet
 (
 )
+const
 =
 0
 ;
@@ -1501,9 +1509,11 @@ loaded
 or
 constructed
 )
+const
 nsCString
 mTableName
 ;
+const
 nsCString
 mProvider
 ;
@@ -1637,6 +1647,7 @@ bool
 IsEmpty
 (
 )
+const
 override
 ;
 nsresult
@@ -1758,6 +1769,7 @@ size_t
 SizeOfPrefixSet
 (
 )
+const
 override
 ;
 private

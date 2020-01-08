@@ -343,6 +343,7 @@ Clear
 )
 ;
 }
+const
 nsTArray
 <
 TableUpdate

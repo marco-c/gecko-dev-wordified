@@ -340,6 +340,7 @@ nsCString
 &
 aTables
 )
+const
 ;
 /
 *
@@ -1018,6 +1019,7 @@ nsACString
 aResult
 )
 ;
+static
 nsCString
 GetProvider
 (

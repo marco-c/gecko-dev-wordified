@@ -1449,10 +1449,12 @@ aUpdate
 bool
 IsSameAsLastResults
 (
+const
 CacheResultArray
 &
 aResult
 )
+const
 ;
 nsAutoPtr
 <
