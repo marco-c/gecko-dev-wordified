@@ -602,6 +602,7 @@ sets
 .
 inc
 command
+async
 toggleToolboxCommand
 (
 gBrowser
@@ -611,6 +612,7 @@ startTime
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -1607,6 +1609,7 @@ to
 add
 menu
 items
+async
 selectToolCommand
 (
 gBrowser
@@ -1617,6 +1620,7 @@ startTime
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -1921,6 +1925,7 @@ timing
 .
 *
 /
+async
 onKeyShortcut
 (
 window
@@ -1950,6 +1955,7 @@ key
 toolId
 )
 {
+await
 gDevToolsBrowser
 .
 selectToolCommand
@@ -1993,6 +1999,7 @@ case
 toggleToolboxF12
 "
 :
+await
 gDevToolsBrowser
 .
 toggleToolboxCommand
@@ -2106,6 +2113,7 @@ case
 inspectorMac
 "
 :
+await
 gDevToolsBrowser
 .
 selectToolCommand
