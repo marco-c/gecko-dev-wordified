@@ -178,7 +178,7 @@ panel
 =
 panel
 .
-previousSibling
+previousElementSibling
 )
 +
 +
@@ -202,7 +202,7 @@ selectedPanel
 return
 this
 .
-childNodes
+children
 [
 this
 .
@@ -247,7 +247,7 @@ if
 !
 this
 .
-firstChild
+firstElementChild
 )
 {
 let

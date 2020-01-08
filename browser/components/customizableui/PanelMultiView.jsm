@@ -4279,7 +4279,7 @@ children
 and
 Node
 .
-childNodes
+children
 is
 live
 to
@@ -4314,7 +4314,7 @@ this
 .
 _viewStack
 .
-childNodes
+children
 )
 ;
 let
@@ -6570,7 +6570,7 @@ header
 =
 viewNode
 .
-firstChild
+firstElementChild
 ;
 if
 (
@@ -9288,7 +9288,7 @@ this
 .
 node
 .
-firstChild
+firstElementChild
 ;
 if
 (

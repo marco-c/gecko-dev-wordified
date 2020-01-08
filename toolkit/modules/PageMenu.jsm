@@ -432,7 +432,7 @@ insertBefore
 fragment
 insertionPoint
 .
-firstChild
+firstElementChild
 )
 ;
 }
@@ -1086,7 +1086,7 @@ child
 =
 element
 .
-firstChild
+firstElementChild
 ;
 while
 (
@@ -1111,7 +1111,7 @@ child
 =
 child
 .
-nextSibling
+nextElementSibling
 ;
 }
 return
@@ -1176,7 +1176,7 @@ element
 =
 aPopup
 .
-firstChild
+firstElementChild
 ;
 while
 (
@@ -1238,7 +1238,7 @@ element
 =
 element
 .
-nextSibling
+nextElementSibling
 ;
 }
 return
@@ -1319,7 +1319,7 @@ i
 =
 element
 .
-childNodes
+children
 .
 length
 ;
@@ -1337,7 +1337,7 @@ child
 =
 element
 .
-childNodes
+children
 [
 i
 ]

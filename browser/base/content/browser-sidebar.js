@@ -1303,7 +1303,7 @@ browser
 .
 browser
 .
-childNodes
+children
 ]
 .
 forEach

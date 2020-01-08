@@ -714,7 +714,7 @@ outsideX
 return
 closest
 .
-nextSibling
+nextElementSibling
 |
 |
 aContainer
@@ -984,7 +984,7 @@ if
 (
 aContainer
 .
-lastChild
+lastElementChild
 &
 &
 aIsFromThisArea
@@ -1003,7 +1003,7 @@ layout
 :
 aContainer
 .
-lastChild
+lastElementChild
 .
 getBoundingClientRect
 (

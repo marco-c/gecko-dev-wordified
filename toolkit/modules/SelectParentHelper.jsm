@@ -976,7 +976,7 @@ firstItem
 =
 menupopup
 .
-firstChild
+firstElementChild
 ;
 while
 (
@@ -992,7 +992,7 @@ firstItem
 =
 firstItem
 .
-nextSibling
+nextElementSibling
 ;
 }
 if
@@ -3381,7 +3381,7 @@ if
 (
 searchbox
 .
-nextSibling
+nextElementSibling
 .
 localName
 =
@@ -3394,7 +3394,7 @@ menuitem
 !
 searchbox
 .
-nextSibling
+nextElementSibling
 .
 hidden
 )
@@ -3407,7 +3407,7 @@ activeChild
 =
 searchbox
 .
-nextSibling
+nextElementSibling
 ;
 }
 else
@@ -3417,7 +3417,7 @@ currentOption
 =
 searchbox
 .
-nextSibling
+nextElementSibling
 ;
 while
 (
@@ -3445,7 +3445,7 @@ currentOption
 =
 currentOption
 .
-nextSibling
+nextElementSibling
 ;
 }
 if
@@ -3496,7 +3496,7 @@ insertBefore
 searchbox
 element
 .
-childNodes
+children
 [
 0
 ]
@@ -3806,7 +3806,7 @@ ingroup
 &
 currentItem
 .
-previousSibling
+previousElementSibling
 .
 classList
 .

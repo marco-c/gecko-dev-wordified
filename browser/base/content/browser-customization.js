@@ -226,7 +226,7 @@ childNode
 of
 menubar
 .
-childNodes
+children
 )
 childNode
 .
@@ -453,7 +453,7 @@ childNode
 of
 menubar
 .
-childNodes
+children
 )
 childNode
 .

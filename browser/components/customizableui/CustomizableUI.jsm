@@ -5638,7 +5638,7 @@ currentNode
 =
 container
 .
-firstChild
+firstElementChild
 ;
 let
 placementsToRemove
@@ -5680,7 +5680,7 @@ currentNode
 =
 currentNode
 .
-nextSibling
+nextElementSibling
 ;
 }
 /
@@ -5750,7 +5750,7 @@ currentNode
 =
 currentNode
 .
-nextSibling
+nextElementSibling
 ;
 continue
 ;
@@ -6067,14 +6067,14 @@ limit
 =
 currentNode
 .
-previousSibling
+previousElementSibling
 ;
 let
 node
 =
 container
 .
-lastChild
+lastElementChild
 ;
 while
 (
@@ -6092,7 +6092,7 @@ previousSibling
 =
 node
 .
-previousSibling
+previousElementSibling
 ;
 /
 /
@@ -28268,12 +28268,12 @@ if
 !
 fragment
 .
-lastChild
+lastElementChild
 |
 |
 fragment
 .
-lastChild
+lastElementChild
 .
 localName
 =
@@ -31923,7 +31923,7 @@ this
 .
 _target
 .
-lastChild
+lastElementChild
 ;
 let
 thisOverflowResponse
@@ -32010,7 +32010,7 @@ prevChild
 =
 child
 .
-previousSibling
+previousElementSibling
 ;
 if
 (
@@ -32106,7 +32106,7 @@ this
 .
 _list
 .
-firstChild
+firstElementChild
 )
 ;
 if
@@ -32481,7 +32481,7 @@ this
 .
 _list
 .
-firstChild
+firstElementChild
 )
 {
 let
@@ -32491,7 +32491,7 @@ this
 .
 _list
 .
-firstChild
+firstElementChild
 ;
 let
 minSize
@@ -33182,7 +33182,7 @@ if
 (
 aNode
 .
-previousSibling
+previousElementSibling
 )
 {
 updatedMinSize
@@ -33195,7 +33195,7 @@ get
 (
 aNode
 .
-previousSibling
+previousElementSibling
 .
 id
 )
@@ -33229,7 +33229,7 @@ nextItem
 =
 aNode
 .
-nextSibling
+nextElementSibling
 ;
 while
 (
@@ -33252,7 +33252,7 @@ nextItem
 =
 nextItem
 .
-nextSibling
+nextElementSibling
 ;
 }
 }
@@ -33403,7 +33403,7 @@ prevId
 =
 aNode
 .
-previousSibling
+previousElementSibling
 .
 id
 ;
@@ -33742,7 +33742,7 @@ if
 (
 aNode
 .
-previousSibling
+previousElementSibling
 )
 {
 /
@@ -33765,7 +33765,7 @@ prevId
 =
 aNode
 .
-previousSibling
+previousElementSibling
 .
 id
 ;
@@ -34401,7 +34401,7 @@ this
 .
 _panel
 .
-firstChild
+firstElementChild
 .
 matches
 (

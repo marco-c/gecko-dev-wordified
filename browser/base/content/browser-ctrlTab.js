@@ -1833,14 +1833,14 @@ aPreview
 .
 _canvas
 .
-firstChild
+firstElementChild
 )
 {
 aPreview
 .
 _canvas
 .
-firstChild
+firstElementChild
 .
 remove
 (

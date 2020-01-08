@@ -513,7 +513,7 @@ insertBefore
 separator
 menu
 .
-firstChild
+firstElementChild
 )
 ;
 this
@@ -597,7 +597,7 @@ length
 {
 element
 .
-firstChild
+firstElementChild
 .
 append
 (
@@ -741,15 +741,15 @@ if
 !
 rootElement
 .
-firstChild
+firstElementChild
 |
 |
 !
 rootElement
 .
-firstChild
+firstElementChild
 .
-childNodes
+children
 .
 length
 )
@@ -1025,7 +1025,7 @@ menuPopup
 =
 element
 .
-firstChild
+firstElementChild
 ;
 if
 (
@@ -1034,7 +1034,7 @@ menuPopup
 &
 menuPopup
 .
-childNodes
+children
 .
 length
 =
@@ -1047,7 +1047,7 @@ onlyChild
 =
 menuPopup
 .
-firstChild
+firstElementChild
 ;
 /
 /

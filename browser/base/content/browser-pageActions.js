@@ -6592,7 +6592,7 @@ node
 of
 bodyNode
 .
-childNodes
+children
 )
 {
 BrowserPageActions
@@ -8090,7 +8090,7 @@ _cached
 &
 bodyNode
 .
-childNodes
+children
 .
 length
 >

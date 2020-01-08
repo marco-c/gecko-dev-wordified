@@ -684,7 +684,7 @@ this
 .
 list
 .
-firstChild
+firstElementChild
 )
 {
 const
@@ -694,7 +694,7 @@ this
 .
 list
 .
-firstChild
+firstElementChild
 .
 querySelector
 (
@@ -3374,7 +3374,7 @@ el
 =
 menu
 .
-firstChild
+firstElementChild
 ;
 while
 (
@@ -3560,7 +3560,7 @@ el
 =
 el
 .
-nextSibling
+nextElementSibling
 ;
 }
 }
@@ -3867,7 +3867,7 @@ call
 (
 parent
 .
-childNodes
+children
 child
 )
 ;
@@ -3937,7 +3937,7 @@ list
 "
 )
 .
-childNodes
+children
 ;
 const
 urls

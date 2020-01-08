@@ -711,7 +711,7 @@ nextTab
 =
 newTab
 .
-nextSibling
+nextElementSibling
 ;
 while
 (
@@ -731,7 +731,7 @@ nextTab
 =
 nextTab
 .
-nextSibling
+nextElementSibling
 ;
 }
 if
@@ -907,7 +907,7 @@ opts
 .
 view
 .
-firstChild
+firstElementChild
 }
 )
 ;
@@ -1490,7 +1490,7 @@ button
 =
 row
 .
-firstChild
+firstElementChild
 ;
 setAttributes
 (
@@ -1598,7 +1598,7 @@ button
 =
 row
 .
-firstChild
+firstElementChild
 ;
 let
 image

@@ -1580,7 +1580,7 @@ this
 .
 panel
 .
-firstChild
+firstElementChild
 ;
 if
 (
@@ -4906,14 +4906,14 @@ this
 .
 panel
 .
-firstChild
+firstElementChild
 &
 &
 this
 .
 panel
 .
-firstChild
+firstElementChild
 .
 notification
 .
@@ -5052,7 +5052,7 @@ this
 .
 panel
 .
-lastChild
+lastElementChild
 )
 )
 {
@@ -5137,7 +5137,7 @@ contentNode
 =
 popupnotification
 .
-lastChild
+lastElementChild
 ;
 while
 (
@@ -5149,7 +5149,7 @@ previousSibling
 =
 contentNode
 .
-previousSibling
+previousElementSibling
 ;
 if
 (
@@ -7446,7 +7446,7 @@ this
 .
 panel
 .
-firstChild
+firstElementChild
 .
 getAttribute
 (
@@ -10175,14 +10175,14 @@ this
 .
 panel
 .
-firstChild
+firstElementChild
 &
 &
 this
 .
 panel
 .
-firstChild
+firstElementChild
 .
 notification
 .
@@ -10223,7 +10223,7 @@ this
 .
 panel
 .
-childNodes
+children
 function
 (
 nEl

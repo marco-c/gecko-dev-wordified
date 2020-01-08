@@ -555,7 +555,7 @@ false
 ;
 clearButton
 .
-previousSibling
+previousElementSibling
 .
 hidden
 =
@@ -831,7 +831,7 @@ this
 .
 container
 .
-firstChild
+firstElementChild
 |
 |
 null
@@ -1316,7 +1316,7 @@ this
 .
 container
 .
-childNodes
+children
 )
 {
 if

@@ -2843,7 +2843,7 @@ tabbrowser
 .
 tabContainer
 .
-childNodes
+children
 .
 length
 -
@@ -2866,7 +2866,7 @@ tabbrowser
 .
 tabContainer
 .
-childNodes
+children
 [
 i
 ]
