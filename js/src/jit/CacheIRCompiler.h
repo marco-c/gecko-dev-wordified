@@ -312,6 +312,11 @@ GuardTagNotEqual
 \
 _
 (
+GuardXrayExpandoShapeAndDefaultProto
+)
+\
+_
+(
 GuardNoAllocationMetadataBuilder
 )
 \
