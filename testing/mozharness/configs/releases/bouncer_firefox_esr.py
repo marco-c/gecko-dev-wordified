@@ -101,6 +101,18 @@ check_uptake
 :
 True
             
+#
+convert
+to
+firefox
+-
+esr
+-
+latest
+when
+ESR52
+stops
+            
 "
 alias
 "
@@ -109,6 +121,8 @@ alias
 firefox
 -
 esr
+-
+next
 -
 latest
 "
@@ -441,6 +455,20 @@ check_uptake
 :
 True
             
+#
+convert
+to
+firefox
+-
+esr
+-
+latest
+-
+ssl
+when
+ESR52
+stops
+            
 "
 alias
 "
@@ -449,6 +477,8 @@ alias
 firefox
 -
 esr
+-
+next
 -
 latest
 -
