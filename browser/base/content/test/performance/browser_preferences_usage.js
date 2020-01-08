@@ -676,7 +676,7 @@ enabled
 {
 min
 :
-10
+9
 max
 :
 55
