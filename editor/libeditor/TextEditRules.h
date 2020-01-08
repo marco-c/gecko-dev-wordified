@@ -3253,7 +3253,7 @@ stripWrappers
 EditSubAction
 :
 :
-removeList
+eRemoveList
 bool
 bOrdered
 ;

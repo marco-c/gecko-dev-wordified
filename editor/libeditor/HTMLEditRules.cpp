@@ -747,7 +747,7 @@ aEditSubAction
 EditSubAction
 :
 :
-removeList
+eRemoveList
 |
 |
 aEditSubAction
@@ -4337,7 +4337,7 @@ case
 EditSubAction
 :
 :
-removeList
+eRemoveList
 :
 {
 nsresult
