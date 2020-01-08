@@ -8238,17 +8238,6 @@ insFunc
 input
 (
 )
-insFunc
--
->
-toMathFunction
-(
-)
--
->
-cache
-(
-)
 )
 ;
 insSinCos

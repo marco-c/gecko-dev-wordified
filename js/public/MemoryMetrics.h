@@ -2828,13 +2828,6 @@ macro
 (
 _
 MallocHeap
-mathCache
-)
-\
-macro
-(
-_
-MallocHeap
 sharedImmutableStringsCache
 )
 \
