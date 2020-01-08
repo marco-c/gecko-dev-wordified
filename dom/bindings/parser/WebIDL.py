@@ -19880,7 +19880,9 @@ isToJSON
 for
 m
 in
-iface
+self
+.
+inner
 .
 members
 )

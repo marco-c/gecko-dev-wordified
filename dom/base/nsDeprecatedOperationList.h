@@ -306,7 +306,3 @@ DEPRECATED_OPERATION
 (
 DOMAttrModifiedEvent
 )
-DEPRECATED_OPERATION
-(
-DOMQuadBoundsAttr
-)
