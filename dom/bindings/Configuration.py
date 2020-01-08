@@ -933,6 +933,26 @@ IsChromeOrXBL
 ]
 or
                         
+iface
+.
+getExtendedAttribute
+(
+"
+Func
+"
+)
+=
+=
+[
+"
+nsContentUtils
+:
+:
+IsCallerChromeOrFuzzingEnabled
+"
+]
+or
+                        
 not
 (
 iface
