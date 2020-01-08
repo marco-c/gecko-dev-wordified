@@ -233,12 +233,13 @@ monitor
 N_EXPECTED_REQUESTS
 )
 ;
-tab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab
+.
+linkedBrowser
 CAUSE_URL
 )
 ;
