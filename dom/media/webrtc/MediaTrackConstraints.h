@@ -2071,6 +2071,16 @@ nsPIDOMWindowInner
 aWindow
 )
 ;
+static
+void
+LogConstraints
+(
+const
+NormalizedConstraintSet
+&
+aConstraints
+)
+;
 }
 ;
 }
