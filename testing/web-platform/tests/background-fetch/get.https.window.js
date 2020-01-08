@@ -336,9 +336,9 @@ assert_equals
 registration
 .
 state
-"
+'
 pending
-"
+'
 )
 ;
 assert_equals
@@ -346,8 +346,8 @@ assert_equals
 registration
 .
 failureReason
-"
-"
+'
+'
 )
 ;
 /
