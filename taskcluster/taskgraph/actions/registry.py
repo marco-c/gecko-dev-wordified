@@ -335,6 +335,9 @@ task
 generic
 =
 True
+cb_name
+=
+None
 )
 :
     
@@ -882,6 +885,70 @@ own
 permissions
 .
     
+cb_name
+:
+string
+        
+The
+name
+under
+which
+this
+function
+should
+be
+registered
+defaulting
+to
+        
+name
+.
+This
+is
+used
+to
+generation
+actionPerm
+for
+non
+-
+generic
+hook
+        
+actions
+and
+thus
+appears
+in
+ci
+-
+configuration
+and
+various
+role
+and
+hook
+        
+names
+.
+Unlike
+name
+which
+can
+appear
+multiple
+times
+cb_name
+must
+be
+        
+unique
+among
+all
+registered
+callbacks
+.
+    
 Returns
     
 -
@@ -975,6 +1042,9 @@ def
 register_callback
 (
 cb
+cb_name
+=
+cb_name
 )
 :
         
@@ -1135,10 +1205,17 @@ as
 decorator
 '
         
+if
+not
+cb_name
+:
+            
+cb_name
+=
+name
+        
 assert
-cb
-.
-__name__
+cb_name
 not
 in
 callbacks
@@ -1154,9 +1231,7 @@ unique
 .
 format
 (
-cb
-.
-__name__
+cb_name
 )
         
 def
@@ -1186,7 +1261,7 @@ generic
 if
 generic
 else
-name
+cb_name
             
 #
 gather
@@ -1445,9 +1520,7 @@ task_group_id
 cb_name
 '
 :
-cb
-.
-__name__
+cb_name
                 
 '
 symbol
@@ -2142,9 +2215,7 @@ True
         
 callbacks
 [
-cb
-.
-__name__
+cb_name
 ]
 =
 cb
