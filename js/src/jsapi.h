@@ -32087,9 +32087,10 @@ buffer
 .
 *
 /
+MOZ_MUST_USE
 JS_PUBLIC_API
 (
-size_t
+bool
 )
 JS_EncodeStringToBuffer
 (

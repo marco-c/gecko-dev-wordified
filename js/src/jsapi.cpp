@@ -34732,7 +34732,7 @@ length
 }
 JS_PUBLIC_API
 (
-size_t
+bool
 )
 JS_EncodeStringToBuffer
 (
@@ -34776,11 +34776,7 @@ if
 linear
 )
 return
-size_t
-(
--
-1
-)
+false
 ;
 JS
 :
@@ -34881,12 +34877,7 @@ i
 ;
 }
 return
-linear
--
->
-length
-(
-)
+true
 ;
 }
 JS_PUBLIC_API
