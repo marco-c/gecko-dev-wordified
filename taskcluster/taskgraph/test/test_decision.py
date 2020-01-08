@@ -80,6 +80,19 @@ mozunit
 import
 main
 MockedOpen
+FAKE_GRAPH_CONFIG
+=
+{
+'
+product
+-
+dir
+'
+:
+'
+browser
+'
+}
 class
 TestDecision
 (
@@ -510,6 +523,7 @@ decision
 .
 get_decision_parameters
 (
+FAKE_GRAPH_CONFIG
 self
 .
 options
@@ -634,6 +648,7 @@ decision
 .
 get_decision_parameters
 (
+FAKE_GRAPH_CONFIG
 self
 .
 options
@@ -718,6 +733,7 @@ decision
 .
 get_decision_parameters
 (
+FAKE_GRAPH_CONFIG
 self
 .
 options
@@ -858,6 +874,7 @@ decision
 .
 get_decision_parameters
 (
+FAKE_GRAPH_CONFIG
 self
 .
 options
