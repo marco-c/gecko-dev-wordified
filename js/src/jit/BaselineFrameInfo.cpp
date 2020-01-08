@@ -263,9 +263,11 @@ alloc
 nstack
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -577,8 +579,10 @@ StackValue
 :
 Stack
 )
+{
 break
 ;
+}
 }
 return
 i
@@ -1079,8 +1083,10 @@ StackValue
 :
 Stack
 )
+{
 break
 ;
+}
 }
 /
 /
@@ -1109,6 +1115,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT
 (
 stack
@@ -1127,6 +1134,7 @@ StackValue
 Stack
 )
 ;
+}
 /
 /
 Assert

@@ -223,11 +223,13 @@ this
 env
 )
 )
+{
 flags_
 |
 =
 HAS_INITIAL_ENV
 ;
+}
 }
 template
 <
@@ -353,9 +355,11 @@ if
 !
 env
 )
+{
 return
 false
 ;
+}
 pushOnEnvironmentChain
 (
 *
@@ -416,9 +420,11 @@ if
 !
 clone
 )
+{
 return
 false
 ;
+}
 replaceInnermostEnvironment
 (
 *
@@ -479,9 +485,11 @@ if
 !
 clone
 )
+{
 return
 false
 ;
+}
 replaceInnermostEnvironment
 (
 *
@@ -543,6 +551,7 @@ CallObject
 (
 )
 )
+{
 obj
 =
 obj
@@ -552,6 +561,7 @@ enclosingEnvironment
 (
 )
 ;
+}
 return
 obj
 -

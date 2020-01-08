@@ -1438,12 +1438,14 @@ isEvalFrame
 (
 )
 )
+{
 return
 *
 evalNewTargetAddress
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 isFunctionFrame
@@ -1462,6 +1464,7 @@ isArrow
 (
 )
 )
+{
 return
 callee
 (
@@ -1476,6 +1479,7 @@ FunctionExtended
 ARROW_NEWTARGET_SLOT
 )
 ;
+}
 if
 (
 isConstructing
@@ -1552,6 +1556,7 @@ hasReturnValue
 (
 )
 )
+{
 addressOfReturnValue
 (
 )
@@ -1561,6 +1566,7 @@ setUndefined
 (
 )
 ;
+}
 return
 MutableHandleValue
 :
@@ -1954,11 +1960,13 @@ flags_
 &
 HAS_DEBUG_MODE_OSR_INFO
 )
+{
 return
 debugModeOSRInfo
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -2044,11 +2052,13 @@ hasOverridePc
 (
 )
 )
+{
 return
 overridePc
 (
 )
 ;
+}
 return
 nullptr
 ;

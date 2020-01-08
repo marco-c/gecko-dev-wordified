@@ -353,6 +353,7 @@ if
 (
 envChain_
 )
+{
 TraceRoot
 (
 trc
@@ -365,6 +366,7 @@ envchain
 "
 )
 ;
+}
 /
 /
 Trace
@@ -377,6 +379,7 @@ hasReturnValue
 (
 )
 )
+{
 TraceRoot
 (
 trc
@@ -394,6 +397,7 @@ rval
 "
 )
 ;
+}
 if
 (
 isEvalFrame
@@ -410,6 +414,7 @@ isDirectEvalInFunction
 (
 )
 )
+{
 TraceRoot
 (
 trc
@@ -423,12 +428,14 @@ evalNewTarget
 "
 )
 ;
+}
 if
 (
 hasArgsObj
 (
 )
 )
+{
 TraceRoot
 (
 trc
@@ -443,6 +450,7 @@ obj
 "
 )
 ;
+}
 /
 /
 Trace
@@ -540,8 +548,10 @@ numValueSlots
 =
 0
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 nfixed
@@ -611,6 +621,7 @@ nfixed
 >
 nlivefixed
 )
+{
 unaliasedLocal
 (
 -
@@ -622,6 +633,7 @@ setUndefined
 (
 )
 ;
+}
 /
 /
 Trace
@@ -655,6 +667,7 @@ debugEnvs
 (
 )
 )
+{
 debugEnvs
 -
 >
@@ -664,6 +677,7 @@ trc
 this
 )
 ;
+}
 }
 bool
 BaselineFrame
@@ -788,6 +802,7 @@ hasInitialEnvironmentUnchecked
 (
 )
 )
+{
 flags_
 |
 =
@@ -796,6 +811,7 @@ BaselineFrame
 :
 HAS_INITIAL_ENV
 ;
+}
 if
 (
 fp
@@ -847,6 +863,7 @@ hasReturnValue
 (
 )
 )
+{
 setReturnValue
 (
 fp
@@ -857,6 +874,7 @@ returnValue
 )
 )
 ;
+}
 frameSize_
 =
 BaselineFrame
@@ -903,6 +921,7 @@ i
 +
 +
 )
+{
 *
 valueSlot
 (
@@ -919,6 +938,7 @@ slots
 i
 ]
 ;
+}
 if
 (
 fp
@@ -1101,9 +1121,11 @@ fp
 this
 )
 )
+{
 return
 false
 ;
+}
 setIsDebuggee
 (
 )

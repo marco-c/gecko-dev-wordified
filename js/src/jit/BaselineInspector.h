@@ -446,9 +446,11 @@ if
 !
 ent
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 ent
