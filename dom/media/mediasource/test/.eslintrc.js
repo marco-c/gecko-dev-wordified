@@ -157,7 +157,7 @@ spacing
 error
 "
 "
-always
+never
 "
 ]
 "
