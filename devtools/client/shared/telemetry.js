@@ -3900,6 +3900,15 @@ id
 ;
 if
 (
+!
+charts
+)
+{
+return
+;
+}
+if
+(
 charts
 .
 timerHist
@@ -4049,6 +4058,9 @@ id
 ;
 if
 (
+charts
+&
+&
 charts
 .
 timerHist

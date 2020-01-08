@@ -321,9 +321,7 @@ toolDefinition
 id
 :
 "
-test
--
-tool
+testTool
 "
 isTargetSupported
 :
@@ -378,9 +376,7 @@ getToolDefinitionMap
 has
 (
 "
-test
--
-tool
+testTool
 "
 )
 "
@@ -410,9 +406,7 @@ getToolDefinitionMap
 has
 (
 "
-test
--
-tool
+testTool
 "
 )
 "
@@ -3371,9 +3365,7 @@ gDevTools
 unregisterTool
 (
 "
-test
--
-tool
+testTool
 "
 )
 ;

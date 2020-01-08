@@ -156,11 +156,7 @@ const
 textboxToolId
 =
 "
-test
--
-tool
--
-1
+testtool1
 "
 ;
 registerCleanupFunction

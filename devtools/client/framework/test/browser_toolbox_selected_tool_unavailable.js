@@ -108,9 +108,7 @@ testToolDefinition
 id
 :
 "
-test
--
-tool
+testTool
 "
 isTargetSupported
 :
@@ -239,9 +237,7 @@ toolbox
 .
 currentToolId
 "
-test
--
-tool
+testTool
 "
 "
 test
