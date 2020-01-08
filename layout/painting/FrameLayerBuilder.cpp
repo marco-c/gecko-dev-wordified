@@ -2656,6 +2656,7 @@ LayerManagerData
 LayerManagerData
 (
 )
+override
 {
 MOZ_COUNT_DTOR
 (
@@ -11232,6 +11233,7 @@ protected
 PaintedDisplayItemLayerUserData
 (
 )
+override
 =
 default
 ;
