@@ -6217,7 +6217,7 @@ for
 const
 ElemSegment
 &
-eseg
+seg
 :
 code_
 -
@@ -6244,7 +6244,7 @@ tier
 .
 MOZ_ASSERT
 (
-eseg
+seg
 .
 elemCodeRangeIndices2_
 .
@@ -6286,7 +6286,7 @@ clone
 .
 tableIndex
 =
-eseg
+seg
 .
 tableIndex
 ;
@@ -6294,7 +6294,7 @@ clone
 .
 offset
 =
-eseg
+seg
 .
 offset
 ;
@@ -6318,7 +6318,7 @@ elemFuncIndices
 .
 appendAll
 (
-eseg
+seg
 .
 elemFuncIndices
 )
@@ -6346,7 +6346,7 @@ elemCodeRangeIndices1_
 .
 appendAll
 (
-eseg
+seg
 .
 elemCodeRangeIndices1_
 )
@@ -6374,7 +6374,7 @@ elemCodeRangeIndices2_
 .
 appendAll
 (
-eseg
+seg
 .
 elemCodeRangeIndices2_
 )
