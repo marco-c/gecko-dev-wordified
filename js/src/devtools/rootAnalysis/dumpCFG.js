@@ -741,8 +741,7 @@ Type
 Name
 +
 "
-:
-:
+.
 "
 +
 name
