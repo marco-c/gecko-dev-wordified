@@ -122,7 +122,7 @@ function
 {
 const
 {
-client
+target
 walker
 animations
 }
@@ -385,9 +385,9 @@ onMutations
 )
 ;
 await
-client
+target
 .
-close
+destroy
 (
 )
 ;
