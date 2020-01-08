@@ -590,6 +590,9 @@ sendCrashReport
 (
 this
 mCrashIntent
+"
+GeckoViewExample
+"
 )
 ;
 }
