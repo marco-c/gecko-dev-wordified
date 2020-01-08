@@ -59,11 +59,7 @@ html
 /
 actions
 /
-display
--
-pixel
--
-ratio
+ui
 "
 )
 ;
@@ -102,6 +98,8 @@ getState
 (
 )
 .
+ui
+.
 displayPixelRatio
 0
 "
@@ -126,6 +124,8 @@ equal
 getState
 (
 )
+.
+ui
 .
 displayPixelRatio
 NEW_PIXEL_RATIO

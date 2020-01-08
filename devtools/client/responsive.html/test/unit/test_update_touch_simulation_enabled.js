@@ -43,7 +43,7 @@ enabled
 property
 const
 {
-changeTouchSimulation
+toggleTouchSimulation
 }
 =
 require
@@ -59,9 +59,7 @@ html
 /
 actions
 /
-touch
--
-simulation
+ui
 "
 )
 ;
@@ -94,9 +92,9 @@ getState
 (
 )
 .
-touchSimulation
+ui
 .
-enabled
+touchSimulationEnabled
 "
 Touch
 simulation
@@ -110,7 +108,7 @@ default
 ;
 dispatch
 (
-changeTouchSimulation
+toggleTouchSimulation
 (
 true
 )
@@ -122,9 +120,9 @@ getState
 (
 )
 .
-touchSimulation
+ui
 .
-enabled
+touchSimulationEnabled
 "
 Touch
 simulation
