@@ -813,6 +813,15 @@ dest
 )
 :
 basestring
+            
+Optional
+(
+'
+extract
+'
+)
+:
+bool
         
 }
 ]
@@ -1581,6 +1590,12 @@ dep
 =
 dep
 )
+                        
+'
+extract
+'
+:
+True
                     
 }
 )
@@ -1656,6 +1671,10 @@ artifact
 dest
 =
 None
+                        
+extract
+=
+True
                     
 else
 :
@@ -1678,6 +1697,18 @@ get
 '
 dest
 '
+)
+                        
+extract
+=
+artifact
+.
+get
+(
+'
+extract
+'
+True
 )
                     
 fetch
@@ -1726,6 +1757,12 @@ dep
 =
 kind
 )
+                        
+'
+extract
+'
+:
+extract
                     
 }
                     

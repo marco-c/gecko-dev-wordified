@@ -485,6 +485,15 @@ parent_dir
 extdir
 )
             
+if
+fetch
+[
+'
+extract
+'
+]
+:
+                
 mozfile
 .
 extract
@@ -492,7 +501,7 @@ extract
 path
 extdir
 )
-            
+                
 os
 .
 remove
