@@ -157,12 +157,6 @@ string
 .
 h
 >
-namespace
-mozilla
-{
-namespace
-gfx
-{
 void
 BufferUnrotate
 (
@@ -496,13 +490,3 @@ smallestSide
 ;
 }
 }
-}
-/
-/
-namespace
-gfx
-}
-/
-/
-namespace
-mozilla

@@ -1907,7 +1907,6 @@ void
 *
 closure
 )
-const
 {
 if
 (
@@ -2168,7 +2167,6 @@ bandFinal
 {
 do
 {
-const
 Band
 &
 topBand
@@ -2262,7 +2260,6 @@ each
 other
 vertically
 .
-const
 Band
 &
 bottomBand
