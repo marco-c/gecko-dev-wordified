@@ -81,6 +81,7 @@ Program
 Texture
 TextureSlot
 VertexDescriptor
+ShaderError
 VAO
 }
 ;
@@ -481,7 +482,11 @@ Device
 )
 -
 >
+Result
+<
 Self
+ShaderError
+>
 {
 let
 font_program
@@ -498,10 +503,7 @@ debug_font
 &
 DESC_FONT
 )
-.
-unwrap
-(
-)
+?
 ;
 device
 .
@@ -538,10 +540,7 @@ debug_color
 &
 DESC_COLOR
 )
-.
-unwrap
-(
-)
+?
 ;
 let
 font_vao
@@ -625,6 +624,8 @@ FONT_BITMAP
 )
 )
 ;
+Ok
+(
 DebugRenderer
 {
 font_vertices
@@ -674,6 +675,7 @@ font_vao
 line_vao
 font_texture
 }
+)
 }
 pub
 fn
