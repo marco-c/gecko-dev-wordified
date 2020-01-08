@@ -24884,6 +24884,14 @@ node
 IsInNativeAnonymousSubtree
 (
 )
+|
+|
+node
+-
+>
+IsInUAWidget
+(
+)
 )
 {
 if
