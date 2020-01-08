@@ -440,10 +440,6 @@ ridealong
 -
 builds
 '
-default
-=
-{
-}
 )
 :
 {
@@ -825,7 +821,6 @@ config
 )
 :
     
-return
 validate_schema
 (
 graph_config_schema
