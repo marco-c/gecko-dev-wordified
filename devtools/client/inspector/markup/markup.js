@@ -6916,6 +6916,15 @@ type
 "
 slotchange
 "
+|
+|
+type
+=
+=
+=
+"
+shadowRootAttached
+"
 )
 {
 container
