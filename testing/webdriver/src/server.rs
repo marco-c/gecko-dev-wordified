@@ -1652,7 +1652,6 @@ msg_send
 )
 ;
 let
-mut
 server
 =
 try
@@ -1665,13 +1664,6 @@ http
 (
 address
 )
-)
-;
-server
-.
-keep_alive
-(
-None
 )
 ;
 let
