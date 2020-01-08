@@ -177,8 +177,6 @@ CacheKind
 kind
 BaselineCacheIRStubKind
 stubKind
-ICStubEngine
-engine
 JSScript
 *
 outerScript

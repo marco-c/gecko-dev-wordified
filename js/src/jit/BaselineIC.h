@@ -2432,8 +2432,6 @@ Compiler
 JSContext
 *
 cx
-Engine
-engine
 bool
 hasReceiver
 =
@@ -2447,7 +2445,10 @@ ICStub
 :
 :
 GetProp_Fallback
-engine
+Engine
+:
+:
+Baseline
 )
 hasReceiver_
 (
@@ -6996,8 +6997,6 @@ Compiler
 JSContext
 *
 cx
-Engine
-engine
 )
 :
 ICStubCompiler
@@ -7007,7 +7006,10 @@ ICStub
 :
 :
 Compare_Fallback
-engine
+Engine
+:
+:
+Baseline
 )
 {
 }
@@ -7190,8 +7192,6 @@ Compiler
 JSContext
 *
 cx
-Engine
-engine
 )
 :
 ICStubCompiler
@@ -7201,7 +7201,10 @@ ICStub
 :
 :
 BinaryArith_Fallback
-engine
+Engine
+:
+:
+Baseline
 )
 {
 }
@@ -7333,8 +7336,6 @@ cx
 ObjectGroup
 *
 templateGroup
-Engine
-engine
 )
 :
 ICStubCompiler
@@ -7344,7 +7345,10 @@ ICStub
 :
 :
 NewArray_Fallback
-engine
+Engine
+:
+:
+Baseline
 )
 templateGroup
 (
@@ -7510,8 +7514,6 @@ Compiler
 JSContext
 *
 cx
-Engine
-engine
 )
 :
 ICStubCompiler
@@ -7521,7 +7523,10 @@ ICStub
 :
 :
 NewObject_Fallback
-engine
+Engine
+:
+:
+Baseline
 )
 {
 }
