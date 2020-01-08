@@ -3024,6 +3024,7 @@ jsbytecode
 *
 pc
 )
+const
 {
 return
 maybeCode
@@ -3040,6 +3041,7 @@ stackDepthAtPC
 uint32_t
 offset
 )
+const
 {
 /
 /
@@ -3097,6 +3099,7 @@ jsbytecode
 *
 pc
 )
+const
 {
 return
 stackDepthAtPC
@@ -3129,6 +3132,7 @@ stackDepthAfterPC
 uint32_t
 offset
 )
+const
 {
 return
 getCode
@@ -3147,6 +3151,7 @@ jsbytecode
 *
 pc
 )
+const
 {
 return
 stackDepthAfterPC
@@ -3173,6 +3178,7 @@ offset
 int
 operand
 )
+const
 {
 Bytecode
 &
@@ -3240,6 +3246,7 @@ uint8_t
 *
 defIndex
 )
+const
 {
 size_t
 offset
@@ -3319,6 +3326,7 @@ offset
 int
 operand
 )
+const
 {
 Bytecode
 &
@@ -3387,6 +3395,7 @@ pc
 Callback
 callback
 )
+const
 {
 Bytecode
 &
@@ -3507,6 +3516,7 @@ uint32_t
 maximumStackDepth
 (
 )
+const
 {
 return
 script_
@@ -3531,6 +3541,7 @@ getCode
 uint32_t
 offset
 )
+const
 {
 MOZ_ASSERT
 (
@@ -3567,6 +3578,7 @@ maybeCode
 uint32_t
 offset
 )
+const
 {
 MOZ_ASSERT
 (
@@ -3608,6 +3620,7 @@ jsbytecode
 *
 pc
 )
+const
 {
 return
 maybeCode
@@ -5995,6 +6008,7 @@ unsigned
 loc
 bool
 lines
+const
 BytecodeParser
 *
 parser
@@ -7688,6 +7702,7 @@ script
 jsbytecode
 *
 pc
+const
 BytecodeParser
 *
 parser
@@ -8019,6 +8034,7 @@ unsigned
 loc
 bool
 lines
+const
 BytecodeParser
 *
 parser
