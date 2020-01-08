@@ -470,6 +470,7 @@ SetDHCPOption
 (
 uint8_t
 option
+const
 char
 *
 value
@@ -500,6 +501,7 @@ mAddressesToReturn
 =
 nullptr
 ;
+const
 char
 *
 mOptions
@@ -565,6 +567,7 @@ Given_DHCP_Option_Is
 (
 uint8_t
 option
+const
 char
 *
 value
@@ -590,6 +593,7 @@ Given_Network_Adapter_Called
 IP_ADAPTER_ADDRESSES
 &
 adapterAddresses
+const
 char
 *
 adapterName
@@ -599,7 +603,14 @@ adapterAddresses
 .
 AdapterName
 =
+const_cast
+<
+char
+*
+>
+(
 adapterName
+)
 ;
 adapterAddresses
 .
@@ -1005,6 +1016,7 @@ TestDHCPUtils
 TestGetOption
 )
 {
+const
 char
 *
 pacURL
