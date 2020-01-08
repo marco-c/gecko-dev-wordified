@@ -2183,6 +2183,10 @@ XML_GetCurrentLineNumber
 (
 mExpatParser
 )
+XML_GetCurrentColumnNumber
+(
+mExpatParser
+)
 )
 ;
 MaybeStopParser

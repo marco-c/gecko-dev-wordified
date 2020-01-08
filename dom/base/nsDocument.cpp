@@ -68193,6 +68193,10 @@ bug
 /
 /
 aLineNumber
+0
+/
+/
+aColumnNumber
 &
 allowsInlineScript
 )

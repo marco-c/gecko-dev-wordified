@@ -1315,6 +1315,9 @@ EmptyString
 GetScriptLineNumber
 (
 )
+GetScriptColumnNumber
+(
+)
 )
 ;
 }
@@ -1370,6 +1373,9 @@ EmptyString
 (
 )
 GetScriptLineNumber
+(
+)
+GetScriptColumnNumber
 (
 )
 )

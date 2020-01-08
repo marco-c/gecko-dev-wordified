@@ -3184,6 +3184,7 @@ GetDocumentURI
 (
 )
 0
+0
 aString
 nullptr
 )
@@ -3430,6 +3431,7 @@ doc
 GetDocumentURI
 (
 )
+0
 0
 kPlaceholderText
 nullptr

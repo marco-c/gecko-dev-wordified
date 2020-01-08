@@ -5251,6 +5251,8 @@ nsIURI
 aSourceURI
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 const
 nsAString
 &
@@ -5488,6 +5490,7 @@ to
 scripts
 styleText
 aLineNumber
+aColumnNumber
 &
 allowInlineStyle
 )

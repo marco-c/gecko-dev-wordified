@@ -456,6 +456,20 @@ available
 )
 *
 param
+aColumnNum
+*
+source
+column
+number
+of
+the
+violation
+(
+if
+available
+)
+*
+param
 aViolationEventInit
 *
 The
@@ -484,6 +498,8 @@ nsAString
 aScriptSample
 uint32_t
 aLineNum
+uint32_t
+aColumnNum
 mozilla
 :
 :
@@ -556,6 +572,8 @@ nsAString
 aScriptSample
 uint32_t
 aLineNum
+uint32_t
+aColumnNum
 )
 ;
 /
@@ -681,6 +699,8 @@ uint32_t
 aViolatedPolicyIndex
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 )
 ;
 static

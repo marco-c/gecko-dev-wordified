@@ -3124,6 +3124,11 @@ lineNum
 =
 0
 ;
+unsigned
+columnNum
+=
+0
+;
 NS_NAMED_LITERAL_STRING
 (
 scriptSample
@@ -3160,6 +3165,8 @@ cx
 scriptFilename
 &
 lineNum
+&
+columnNum
 )
 )
 {
@@ -3212,6 +3219,7 @@ VIOLATION_TYPE_EVAL
 fileName
 scriptSample
 lineNum
+columnNum
 EmptyString
 (
 )

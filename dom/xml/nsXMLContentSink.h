@@ -667,6 +667,8 @@ NodeInfo
 aNodeInfo
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 nsIContent
 *
 *
@@ -991,6 +993,8 @@ uint32_t
 aAttsCount
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 bool
 aInterruptable
 )

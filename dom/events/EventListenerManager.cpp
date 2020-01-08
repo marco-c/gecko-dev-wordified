@@ -4977,6 +4977,10 @@ sampleIString
 /
 /
 aLineNumber
+0
+/
+/
+aColumnNumber
 &
 allowsInlineScript
 )

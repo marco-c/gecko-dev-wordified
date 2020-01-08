@@ -2611,6 +2611,8 @@ NodeInfo
 aNodeInfo
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 nsIContent
 *
 *
@@ -2809,6 +2811,14 @@ sele
 SetScriptLineNumber
 (
 aLineNumber
+)
+;
+sele
+-
+>
+SetScriptColumnNumber
+(
+aColumnNumber
 )
 ;
 sele
@@ -3057,6 +3067,18 @@ SetLineNumber
 aFromParser
 ?
 aLineNumber
+:
+0
+)
+;
+ssle
+-
+>
+SetColumnNumber
+(
+aFromParser
+?
+aColumnNumber
 :
 0
 )
@@ -5355,6 +5377,8 @@ uint32_t
 aAttsCount
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 )
 {
 return
@@ -5364,6 +5388,7 @@ aName
 aAtts
 aAttsCount
 aLineNumber
+aColumnNumber
 true
 )
 ;
@@ -5387,6 +5412,8 @@ uint32_t
 aAttsCount
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 bool
 aInterruptable
 )
@@ -5571,6 +5598,7 @@ aAtts
 aAttsCount
 nodeInfo
 aLineNumber
+aColumnNumber
 getter_AddRefs
 (
 content

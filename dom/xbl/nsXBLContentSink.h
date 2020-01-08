@@ -402,6 +402,8 @@ uint32_t
 aAttsCount
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 )
 override
 ;
@@ -493,6 +495,8 @@ NodeInfo
 aNodeInfo
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 nsIContent
 *
 *

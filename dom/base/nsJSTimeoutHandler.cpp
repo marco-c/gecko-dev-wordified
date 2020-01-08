@@ -1179,6 +1179,11 @@ lineNum
 =
 0
 ;
+uint32_t
+columnNum
+=
+0
+;
 nsAutoString
 fileNameString
 ;
@@ -1194,6 +1199,8 @@ aCx
 fileNameString
 &
 lineNum
+&
+columnNum
 )
 )
 {
@@ -1219,6 +1226,7 @@ VIOLATION_TYPE_EVAL
 fileNameString
 scriptSample
 lineNum
+columnNum
 EmptyString
 (
 )
