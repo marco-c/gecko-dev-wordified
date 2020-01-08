@@ -755,6 +755,13 @@ notifyIMEContext
 .
 final
 int
+IME_STATE_UNKNOWN
+=
+-
+1
+;
+final
+int
 IME_STATE_DISABLED
 =
 0
