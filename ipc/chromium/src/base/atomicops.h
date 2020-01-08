@@ -1178,7 +1178,7 @@ OS_WIN
 &
 defined
 (
-ARCH_CPU_AARCH64_FAMILY
+ARCH_CPU_ARM64
 )
 /
 /
