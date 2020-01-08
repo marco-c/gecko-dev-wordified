@@ -293,7 +293,11 @@ aEnum
 this
 ;
 }
+const
+nsCOMPtr
+<
 T
+>
 &
 operator
 *
@@ -306,7 +310,6 @@ mPtr
 )
 ;
 return
-*
 mPtr
 ;
 }
