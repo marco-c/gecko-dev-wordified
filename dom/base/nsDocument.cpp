@@ -6560,14 +6560,7 @@ Content
 Viewers
 "
 type
-.
-get
-(
-)
-getter_Copies
-(
 contractId
-)
 )
 ;
 NS_ENSURE_SUCCESS
