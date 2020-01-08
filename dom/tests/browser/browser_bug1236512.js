@@ -463,12 +463,13 @@ testPageURL
 }
 )
 ;
-browserTest
-.
-selectedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+browserTest
+.
+selectedBrowser
 testPageURL
 )
 ;
