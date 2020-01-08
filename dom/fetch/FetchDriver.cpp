@@ -3438,7 +3438,7 @@ loadFlags
 nsIRequest
 :
 :
-LOAD_NORMAL
+LOAD_BACKGROUND
 |
 bypassFlag
 |
