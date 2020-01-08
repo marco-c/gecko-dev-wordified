@@ -109,11 +109,9 @@ crashReporter
 .
 annotateCrashReport
 (
-CrashReporter
-.
-annotations
-.
+"
 TestKey
+"
 "
 TestValue
 "

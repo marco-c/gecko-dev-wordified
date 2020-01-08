@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsExceptionHandler
+.
+h
+"
+#
+include
+"
 nsIScreen
 .
 h
@@ -169,6 +176,13 @@ h
 include
 "
 nsICommandLineRunner
+.
+h
+"
+#
+include
+"
+nsICrashReporter
 .
 h
 "
