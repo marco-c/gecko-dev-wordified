@@ -1962,7 +1962,7 @@ easy
 if
 (
 !
-IsTableCell
+IS_TABLE_CELL
 (
 aFrame
 -
@@ -12508,7 +12508,7 @@ Type
 ;
 if
 (
-IsTableCell
+IS_TABLE_CELL
 (
 frameType
 )
@@ -12684,7 +12684,7 @@ aReflowInput
 {
 NS_ASSERTION
 (
-IsTableCell
+IS_TABLE_CELL
 (
 aReflowInput
 .
@@ -12982,7 +12982,7 @@ Type
 ;
 NS_ASSERTION
 (
-IsTableCell
+IS_TABLE_CELL
 (
 frameType
 )
@@ -50823,7 +50823,7 @@ fine
 wr
 :
 :
-BorderWidths
+LayoutSideOffsets
 borderWidths
 =
 wr
@@ -52718,7 +52718,7 @@ fine
 wr
 :
 :
-BorderWidths
+LayoutSideOffsets
 borderWidths
 =
 wr
@@ -54243,7 +54243,7 @@ wrSide
 wr
 :
 :
-BorderWidths
+LayoutSideOffsets
 wrWidths
 ;
 wr
