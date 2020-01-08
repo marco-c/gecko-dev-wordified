@@ -224,9 +224,6 @@ green
 eslint
 -
 disable
-comma
--
-dangle
 indent
 indent
 -
@@ -1842,6 +1839,17 @@ png
 }
 ]
 ;
+/
+*
+eslint
+-
+enable
+indent
+indent
+-
+legacy
+*
+/
 /
 /
 Allow
