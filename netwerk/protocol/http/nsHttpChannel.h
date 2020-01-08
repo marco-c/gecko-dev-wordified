@@ -1761,17 +1761,6 @@ BeginConnect
 (
 )
 ;
-void
-HandleBeginConnectContinue
-(
-)
-;
-MOZ_MUST_USE
-nsresult
-BeginConnectContinue
-(
-)
-;
 MOZ_MUST_USE
 nsresult
 ContinueBeginConnectWithResult
