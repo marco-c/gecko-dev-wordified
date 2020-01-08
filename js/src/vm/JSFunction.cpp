@@ -6819,7 +6819,7 @@ scriptSource
 )
 -
 >
-hasSourceData
+hasSourceText
 (
 )
 &
@@ -11595,7 +11595,7 @@ scriptSource
 )
 -
 >
-hasSourceData
+hasSourceText
 (
 )
 )
