@@ -1637,6 +1637,14 @@ this
 .
 rawNode
 )
+|
+|
+isShadowAnonymous
+(
+this
+.
+rawNode
+)
 )
 {
 numChildren
