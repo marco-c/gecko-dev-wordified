@@ -1205,7 +1205,7 @@ mDocShell
 if
 (
 !
-mDocShell
+docShell
 )
 {
 return
