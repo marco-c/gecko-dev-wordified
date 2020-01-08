@@ -1778,16 +1778,6 @@ BorderStyle
 :
 :
 Ridge
-|
-BorderStyle
-:
-:
-Inset
-|
-BorderStyle
-:
-:
-Outset
 =
 >
 true
