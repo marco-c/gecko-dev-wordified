@@ -124,13 +124,6 @@ h
 #
 include
 "
-HangAnnotations
-.
-h
-"
-#
-include
-"
 mozilla
 /
 HangAnnotations
