@@ -66,6 +66,18 @@ h
 "
 #
 include
+"
+.
+.
+/
+common
+/
+platform
+.
+h
+"
+#
+include
 <
 brotli
 /
@@ -78,7 +90,7 @@ include
 "
 .
 /
-port
+encoder_dict
 .
 h
 "
@@ -110,7 +122,7 @@ const
 uint32_t
 kInvalidMatch
 =
-0xfffffff
+0xFFFFFFF
 ;
 /
 *
@@ -184,7 +196,7 @@ BROTLI_BOOL
 BrotliFindAllStaticDictionaryMatches
 (
 const
-BrotliDictionary
+BrotliEncoderDictionary
 *
 dictionary
 const

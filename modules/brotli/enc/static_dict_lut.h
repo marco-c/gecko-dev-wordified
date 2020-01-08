@@ -123,7 +123,7 @@ const
 uint32_t
 kDictHashMul32
 =
-0x1e35a7bd
+0x1E35A7BD
 ;
 static
 const

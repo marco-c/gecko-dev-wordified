@@ -191,7 +191,7 @@ data
 uint32_t
 h
 =
-BROTLI_UNALIGNED_LOAD32
+BROTLI_UNALIGNED_LOAD32LE
 (
 data
 )
@@ -1243,7 +1243,7 @@ best_len_right
 size_t
 len
 ;
-assert
+BROTLI_DCHECK
 (
 cur_len
 <
@@ -1276,7 +1276,7 @@ max_length
 cur_len
 )
 ;
-assert
+BROTLI_DCHECK
 (
 0
 =
@@ -1566,7 +1566,7 @@ FindAllMatches
 HasherHandle
 handle
 const
-BrotliDictionary
+BrotliEncoderDictionary
 *
 dictionary
 const
@@ -1946,7 +1946,13 @@ if
 (
 distance
 <
-BROTLI_MAX_DISTANCE
+=
+params
+-
+>
+dist
+.
+max_distance
 )
 {
 InitDictionaryBackwardMatch

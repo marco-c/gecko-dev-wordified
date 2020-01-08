@@ -541,7 +541,7 @@ num_blocks
 =
 max_num_blocks
 ;
-assert
+BROTLI_DCHECK
 (
 *
 histograms

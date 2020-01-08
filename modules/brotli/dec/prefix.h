@@ -105,10 +105,6 @@ a
 prefix
 code
 :
-*
-/
-/
-*
 [
 offset
 offset

@@ -145,6 +145,18 @@ h
 "
 #
 include
+"
+.
+.
+/
+common
+/
+platform
+.
+h
+"
+#
+include
 <
 brotli
 /
@@ -194,15 +206,6 @@ include
 .
 /
 memory
-.
-h
-"
-#
-include
-"
-.
-/
-port
 .
 h
 "
@@ -314,7 +317,7 @@ const
 uint32_t
 kHashMul32
 =
-0x1e35a7bd
+0x1E35A7BD
 ;
 static
 BROTLI_INLINE
@@ -370,7 +373,7 @@ size_t
 shift
 )
 {
-assert
+BROTLI_DCHECK
 (
 offset
 >
@@ -378,7 +381,7 @@ offset
 0
 )
 ;
-assert
+BROTLI_DCHECK
 (
 offset
 <
@@ -440,13 +443,13 @@ p2
 return
 TO_BROTLI_BOOL
 (
-BROTLI_UNALIGNED_LOAD32
+BrotliUnalignedRead32
 (
 p1
 )
 =
 =
-BROTLI_UNALIGNED_LOAD32
+BrotliUnalignedRead32
 (
 p2
 )
@@ -4319,7 +4322,7 @@ uint8_t
 *
 candidate
 ;
-assert
+BROTLI_DCHECK
 (
 next_emit
 <
@@ -4345,7 +4348,7 @@ skip
 >
 5
 ;
-assert
+BROTLI_DCHECK
 (
 hash
 =
@@ -4441,7 +4444,7 @@ table
 hash
 ]
 ;
-assert
+BROTLI_DCHECK
 (
 candidate
 >
@@ -4449,7 +4452,7 @@ candidate
 base_ip
 )
 ;
-assert
+BROTLI_DCHECK
 (
 candidate
 <
@@ -4667,7 +4670,7 @@ ip
 =
 matched
 ;
-assert
+BROTLI_DCHECK
 (
 0
 =
@@ -5103,7 +5106,7 @@ candidate
 0
 *
 /
-assert
+BROTLI_DCHECK
 (
 0
 =
@@ -5327,7 +5330,7 @@ shift
 }
 emit_remainder
 :
-assert
+BROTLI_DCHECK
 (
 next_emit
 <
@@ -5406,7 +5409,7 @@ lit_depth
 )
 )
 {
-assert
+BROTLI_DCHECK
 (
 total_block_size
 >
@@ -5975,7 +5978,7 @@ input_size
 0
 )
 {
-assert
+BROTLI_DCHECK
 (
 is_last
 )
@@ -6070,7 +6073,7 @@ undef
 CASE_
 default
 :
-assert
+BROTLI_DCHECK
 (
 0
 )
