@@ -682,6 +682,9 @@ status
 ]
 )
         
+try
+:
+            
 #
 test_timeout
 is
@@ -693,7 +696,7 @@ it
 to
 ms
 .
-        
+            
 test
 [
 "
@@ -714,6 +717,27 @@ test_timeout
 ]
 *
 1000
+        
+except
+KeyError
+:
+            
+#
+If
+a
+test
+is
+skipped
+it
+won
+'
+t
+have
+extra
+info
+.
+            
+pass
 def
 is_inconsistent
 (
@@ -869,6 +893,18 @@ out
 "
 "
 "
+    
+if
+"
+timeout
+"
+not
+in
+test
+:
+        
+return
+None
     
 threshold
 =
