@@ -631,6 +631,9 @@ mVRDisplaysRequested
 bool
 mVRControllersRequested
 ;
+bool
+mVRServiceStarted
+;
 }
 ;
 }

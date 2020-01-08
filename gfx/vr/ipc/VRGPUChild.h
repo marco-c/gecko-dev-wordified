@@ -197,17 +197,6 @@ VRGPUChild
 )
 {
 }
-static
-void
-DeferredDestroy
-(
-RefPtr
-<
-VRGPUChild
->
-aVRManagerChild
-)
-;
 void
 Destroy
 (
