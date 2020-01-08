@@ -7323,25 +7323,6 @@ py
 .
 rs
 '
-            
-'
-new
-'
-#
-'
-new
-'
-is
-an
-output
-from
-make
--
-stl
--
-wrappers
-.
-py
         
 )
         
@@ -7364,6 +7345,13 @@ endswith
 (
 suffixes
 )
+or
+'
+stl_wrappers
+/
+'
+in
+f
 ]
 class
 ChromeManifestEntry
