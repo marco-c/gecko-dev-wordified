@@ -107,7 +107,7 @@ view
 ;
 const
 {
-CATEGORY_MASK
+CATEGORY_INDEX
 }
 =
 require
@@ -821,7 +821,7 @@ platform_JS
 "
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 js
@@ -860,7 +860,7 @@ platform_JS2
 "
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 js
@@ -914,12 +914,11 @@ platform_GC
 "
 category
 :
-CATEGORY_MASK
+CATEGORY_INDEX
 (
 "
 gc
 "
-1
 )
 }
 ]
