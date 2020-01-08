@@ -33033,9 +33033,6 @@ encodeURIComponent
 if
 (
 gURLBar
-&
-&
-gURLBar
 .
 _mayTrimURLs
 /
