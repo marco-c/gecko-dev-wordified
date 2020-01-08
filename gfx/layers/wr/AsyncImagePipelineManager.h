@@ -658,7 +658,13 @@ wr
 :
 TransactionBuilder
 &
-aSceneBuilderTxn
+aTxn
+wr
+:
+:
+TransactionBuilder
+&
+aTxnForImageBridge
 )
 ;
 void
@@ -677,6 +683,12 @@ wr
 TransactionBuilder
 &
 aTxn
+wr
+:
+:
+TransactionBuilder
+&
+aTxnForImageBridge
 )
 ;
 void
