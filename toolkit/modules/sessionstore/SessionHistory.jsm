@@ -597,11 +597,11 @@ entryCount
 )
 {
 let
-txn
+shEntry
 =
 shistory
 .
-GetTransactionAtIndex
+getEntryAtIndex
 (
 entryCount
 )
@@ -628,7 +628,7 @@ this
 .
 serializeEntry
 (
-txn
+shEntry
 )
 ;
 data

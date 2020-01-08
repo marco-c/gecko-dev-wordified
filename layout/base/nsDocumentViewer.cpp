@@ -13032,7 +13032,7 @@ treeItem
 docShell
 -
 >
-GetPreviousTransIndex
+GetPreviousEntryIndex
 (
 &
 prevIndex
@@ -13041,7 +13041,7 @@ prevIndex
 docShell
 -
 >
-GetLoadedTransIndex
+GetLoadedEntryIndex
 (
 &
 loadedIndex

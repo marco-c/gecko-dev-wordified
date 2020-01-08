@@ -909,7 +909,8 @@ endif
 /
 Find
 the
-transaction
+history
+entry
 for
 a
 given
@@ -941,11 +942,11 @@ VIEWER_WINDOW
 )
 .
 nsresult
-FindTransactionForBFCache
+FindEntryForBFCache
 (
 nsIBFCacheEntry
 *
-aEntry
+aBFEntry
 nsISHEntry
 *
 *
@@ -987,11 +988,11 @@ aIndex
 )
 ;
 void
-EvictContentViewerForTransaction
+EvictContentViewerForEntry
 (
 nsISHEntry
 *
-aTrans
+aEntry
 )
 ;
 static
@@ -1051,7 +1052,7 @@ the
 index
 of
 the
-transaction
+entry
 which
 may
 be
@@ -1117,7 +1118,7 @@ nsCOMPtr
 nsISHEntry
 >
 >
-mTransactions
+mEntries
 ;
 /
 /
@@ -1167,7 +1168,7 @@ aOutEndIndex
 /
 Length
 of
-mTransactions
+mEntries
 .
 int32_t
 Length
@@ -1177,7 +1178,7 @@ Length
 return
 int32_t
 (
-mTransactions
+mEntries
 .
 Length
 (

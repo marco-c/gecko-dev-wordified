@@ -1286,7 +1286,7 @@ LOCATION_CHANGE_SAME_DOCUMENT
 ;
 }
 nsresult
-HistoryTransactionRemoved
+HistoryEntryRemoved
 (
 int32_t
 aIndex
@@ -6511,8 +6511,8 @@ mItemType
 Index
 into
 the
-SHTransaction
-list
+nsISHEntry
+array
 indicating
 the
 previous
@@ -6520,7 +6520,7 @@ and
 current
 /
 /
-transaction
+entry
 at
 the
 time
@@ -6547,10 +6547,10 @@ docshells
 '
 .
 int32_t
-mPreviousTransIndex
+mPreviousEntryIndex
 ;
 int32_t
-mLoadedTransIndex
+mLoadedEntryIndex
 ;
 /
 /
