@@ -21633,10 +21633,6 @@ uint32_t
 sCookiesLifetimePolicy
 ;
 static
-uint32_t
-sCookiesBehavior
-;
-static
 bool
 sShortcutsCustomized
 ;
