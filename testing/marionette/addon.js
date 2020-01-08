@@ -270,6 +270,14 @@ AddonManager
 getInstallForFile
 (
 file
+null
+{
+source
+:
+"
+internal
+"
+}
 )
 ;
 if
