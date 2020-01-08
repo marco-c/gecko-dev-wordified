@@ -158,7 +158,7 @@ NSSLOWKEYPrivateKey
 *
 getDefaultRSAPrivateKey
 (
-void
+int
 )
 ;
 extern
@@ -166,7 +166,7 @@ NSSLOWKEYPublicKey
 *
 getDefaultRSAPublicKey
 (
-void
+int
 )
 ;
 secuPWData
@@ -3704,6 +3704,7 @@ pubKey
 =
 getDefaultRSAPublicKey
 (
+keybits
 )
 ;
 }
@@ -3713,6 +3714,7 @@ privKey
 =
 getDefaultRSAPrivateKey
 (
+keybits
 )
 ;
 }
