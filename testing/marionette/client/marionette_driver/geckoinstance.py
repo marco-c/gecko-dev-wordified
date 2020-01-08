@@ -3451,11 +3451,6 @@ logcat_args
 forward
 marionette
 port
-(
-localhost
-:
-2828
-)
         
 self
 .
