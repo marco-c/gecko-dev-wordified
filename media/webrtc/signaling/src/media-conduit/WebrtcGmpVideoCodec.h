@@ -2380,7 +2380,11 @@ uint64_t
 >
 mCachedPluginId
 ;
+Atomic
+<
 GMPErr
+ReleaseAcquire
+>
 mDecoderStatus
 ;
 std
