@@ -243,6 +243,9 @@ open
 temp
 .
 name
+'
+rb
+'
 )
 .
 read
@@ -290,12 +293,15 @@ NamedTemporaryFile
 notes
 =
 [
+b
 '
 doe
 '
+b
 '
 rae
 '
+b
 '
 mi
 '
@@ -348,6 +354,7 @@ line
 .
 rstrip
 (
+b
 '
 \
 n
