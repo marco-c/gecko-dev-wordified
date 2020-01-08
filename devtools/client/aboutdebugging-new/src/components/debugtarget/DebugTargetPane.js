@@ -315,13 +315,6 @@ dom
 h2
 (
 {
-className
-:
-"
-main
--
-subheading
-"
 }
 dom
 .

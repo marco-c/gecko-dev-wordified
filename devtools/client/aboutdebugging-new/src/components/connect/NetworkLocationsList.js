@@ -303,7 +303,7 @@ button
 className
 :
 "
-default
+std
 -
 button
 js
