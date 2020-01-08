@@ -3120,6 +3120,10 @@ OpenVR
 aHand
 aDisplayID
 )
+mTrackedIndex
+(
+0
+)
 mVibrateThread
 (
 nullptr
