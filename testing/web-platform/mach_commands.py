@@ -3604,6 +3604,15 @@ setup
 (
 )
         
+self
+.
+wpt_manifest_download
+(
+*
+*
+params
+)
+        
 wpt_manifest_updater
 =
 self
