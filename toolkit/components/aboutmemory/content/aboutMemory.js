@@ -304,7 +304,7 @@ strict
 -
 -
 -
-var
+let
 CC
 =
 Components
@@ -580,7 +580,7 @@ nsIStreamConverter
 )
 )
 ;
-var
+let
 gMgr
 =
 Cc
@@ -630,7 +630,7 @@ Main
 Process
 "
 ;
-var
+let
 gIsDiff
 =
 false
@@ -1280,7 +1280,7 @@ the
 page
 changes
 .
-var
+let
 gMain
 ;
 /
@@ -1293,7 +1293,7 @@ holding
 the
 footer
 .
-var
+let
 gFooter
 ;
 /
@@ -1304,7 +1304,7 @@ verbose
 "
 checkbox
 .
-var
+let
 gVerbose
 ;
 /
@@ -1315,7 +1315,7 @@ anonymize
 "
 checkbox
 .
-var
+let
 gAnonymize
 ;
 /
@@ -4305,7 +4305,7 @@ changes
 .
 /
 /
-var
+let
 gCurrentFileFormatVersion
 =
 1
@@ -5428,7 +5428,7 @@ a
 process
 name
 .
-var
+let
 kProcessPathSep
 =
 "
@@ -10315,7 +10315,7 @@ each
 new
 process
 .
-var
+let
 gUnsafePathsWithInvalidValuesForThisProcess
 =
 [
@@ -12752,7 +12752,7 @@ original
 /
 state
 .
-var
+let
 gShowSubtreesBySafeTreeId
 =
 {
