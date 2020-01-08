@@ -184,6 +184,9 @@ NS_NewSliderFrame
 nsIPresShell
 *
 aPresShell
+mozilla
+:
+:
 ComputedStyle
 *
 aStyle
