@@ -1994,7 +1994,7 @@ R
 ptr
 :
 *
-mut
+const
 nsAtom
 callback
 :
