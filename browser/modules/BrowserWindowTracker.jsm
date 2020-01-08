@@ -805,7 +805,6 @@ _handleMessage
 onActivate
 (
 window
-hasFocus
 )
 {
 /
