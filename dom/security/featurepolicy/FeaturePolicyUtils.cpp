@@ -224,7 +224,7 @@ FeaturePolicyUtils
 FeaturePolicyValue
 :
 :
-eAll
+eSelf
 }
 {
 "
@@ -274,7 +274,7 @@ FeaturePolicyUtils
 FeaturePolicyValue
 :
 :
-eAll
+eSelf
 }
 {
 "
@@ -320,7 +320,7 @@ FeaturePolicyUtils
 FeaturePolicyValue
 :
 :
-eAll
+eSelf
 }
 {
 "
