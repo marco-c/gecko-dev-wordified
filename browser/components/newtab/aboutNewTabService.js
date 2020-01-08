@@ -321,6 +321,7 @@ nl
 nn
 -
 NO
+oc
 pa
 -
 IN

@@ -90,7 +90,8 @@ type_label_recommended
 "
 :
 "
-Trending
+Sohor
+kini
 "
 "
 type_label_pocket
@@ -106,7 +107,8 @@ type_label_downloaded
 "
 :
 "
-Dimuat
+Telah
+dimuat
 turun
 "
 "

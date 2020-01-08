@@ -286,7 +286,7 @@ topsites
 "
 maxRows
 :
-2
+4
 rowsPref
 :
 "
