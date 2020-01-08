@@ -38091,8 +38091,6 @@ skipBarrier
 )
 ;
 }
-#
-endif
 void
 emitBarrieredStore
 (
@@ -38155,6 +38153,11 @@ otherScratch
 )
 ;
 }
+#
+endif
+/
+/
+ENABLE_WASM_GC
 /
 /
 /
