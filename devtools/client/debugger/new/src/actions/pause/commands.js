@@ -956,11 +956,6 @@ pauseLocation
 ;
 if
 (
-source
-.
-isWasm
-|
-|
 !
 source
 .

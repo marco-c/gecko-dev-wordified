@@ -160,9 +160,7 @@ console
 .
 log
 (
-Expected
-array
-at
+WTF
 :
 {
 node
@@ -260,9 +258,7 @@ console
 .
 log
 (
-Expected
-array
-at
+WTF
 :
 {
 next

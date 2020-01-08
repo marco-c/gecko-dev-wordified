@@ -215,11 +215,6 @@ originalText
 bp
 .
 condition
-|
-|
-bp
-.
-disabled
 )
 )
 .
