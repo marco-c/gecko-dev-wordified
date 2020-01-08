@@ -884,10 +884,6 @@ secrets
 "
                 
 "
-clobber
-"
-                
-"
 clone
 -
 locales
