@@ -282,10 +282,36 @@ kwargs
 )
 :
         
+#
+Create
+the
+objdir
+in
+the
+srcdir
+to
+ensure
+that
+they
+share
+        
+#
+the
+same
+drive
+on
+Windows
+.
+        
 topobjdir
 =
 mkdtemp
 (
+dir
+=
+buildconfig
+.
+topsrcdir
 )
         
 try
