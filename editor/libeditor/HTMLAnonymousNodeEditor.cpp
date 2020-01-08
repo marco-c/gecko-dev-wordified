@@ -2330,6 +2330,7 @@ focusElement
 &
 IsModifiableNode
 (
+*
 focusElement
 )
 &
@@ -2422,6 +2423,7 @@ absPosElement
 &
 IsModifiableNode
 (
+*
 absPosElement
 )
 &
@@ -2498,6 +2500,7 @@ cellElement
 &
 IsModifiableNode
 (
+*
 cellElement
 )
 &

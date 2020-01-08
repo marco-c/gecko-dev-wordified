@@ -308,6 +308,7 @@ mEditorBase
 >
 IsModifiableNode
 (
+*
 mParentNode
 )
 )
