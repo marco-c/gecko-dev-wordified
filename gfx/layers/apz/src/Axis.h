@@ -808,7 +808,9 @@ of
 mAsyncPanZoomController
 -
 >
-mFrameMetrics
+Metrics
+(
+)
 .
 mScrollOffset
 must

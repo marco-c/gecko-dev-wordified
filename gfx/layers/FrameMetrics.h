@@ -2663,6 +2663,7 @@ bool
 IsHorizontalContentRightToLeft
 (
 )
+const
 {
 return
 mScrollableRect
