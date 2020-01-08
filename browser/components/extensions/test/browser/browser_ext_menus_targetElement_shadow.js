@@ -565,7 +565,7 @@ doc
 .
 body
 .
-firstChild
+firstElementChild
 .
 attachShadow
 (
@@ -612,7 +612,7 @@ testTarget
 =
 host
 .
-firstChild
+firstElementChild
 ;
 return
 content
@@ -669,7 +669,7 @@ doc
 .
 body
 .
-firstChild
+firstElementChild
 .
 attachShadow
 (
@@ -716,7 +716,7 @@ testTarget
 =
 host
 .
-firstChild
+firstElementChild
 ;
 return
 content
@@ -797,7 +797,7 @@ host
 =
 container
 .
-firstChild
+firstElementChild
 .
 attachShadow
 (
@@ -849,7 +849,7 @@ testTarget
 =
 host
 .
-firstChild
+firstElementChild
 ;
 return
 content

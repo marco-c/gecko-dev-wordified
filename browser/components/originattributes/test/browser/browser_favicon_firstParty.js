@@ -1932,9 +1932,9 @@ gTabsPanel
 .
 allTabsViewTabs
 .
-lastChild
+lastElementChild
 .
-firstChild
+firstElementChild
 )
 ;
 /
@@ -2103,9 +2103,9 @@ gTabsPanel
 .
 allTabsViewTabs
 .
-lastChild
+lastElementChild
 .
-firstChild
+firstElementChild
 )
 ;
 /

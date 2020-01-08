@@ -1147,7 +1147,7 @@ popup
 .
 richlistbox
 .
-childNodes
+children
 .
 length
 =

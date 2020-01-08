@@ -318,7 +318,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 ;
 let
 iconclass
@@ -986,7 +986,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -1291,7 +1291,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 ;
 let
 iconclass
@@ -2112,7 +2112,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -2384,7 +2384,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 ;
 let
 iconclass
@@ -2929,7 +2929,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -3159,7 +3159,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 getAttribute
 (
@@ -3392,7 +3392,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -3799,7 +3799,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -4262,7 +4262,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -4450,7 +4450,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -4828,7 +4828,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 ;
 ok
 (
@@ -5182,7 +5182,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 ;
 ok
 (

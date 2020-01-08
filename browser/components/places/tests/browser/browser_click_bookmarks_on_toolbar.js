@@ -107,7 +107,7 @@ PlacesToolbarItems
 "
 )
 .
-childNodes
+children
 ;
 for
 (

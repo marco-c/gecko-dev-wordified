@@ -314,9 +314,9 @@ checkItems
 (
 menuitem
 .
-firstChild
+firstElementChild
 .
-firstChild
+firstElementChild
 details
 .
 children
@@ -502,7 +502,7 @@ menuitem
 =
 menuitem
 .
-nextSibling
+nextElementSibling
 ;
 }
 }
@@ -831,7 +831,7 @@ checkItems
 (
 contextMenu
 .
-childNodes
+children
 [
 2
 ]

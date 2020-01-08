@@ -174,7 +174,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -468,7 +468,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -665,7 +665,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -729,7 +729,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .

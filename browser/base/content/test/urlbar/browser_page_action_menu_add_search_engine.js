@@ -1062,7 +1062,7 @@ map
 (
 body
 .
-childNodes
+children
 n
 =
 >
@@ -1132,7 +1132,7 @@ synthesizeMouseAtCenter
 (
 body
 .
-childNodes
+children
 [
 0
 ]
@@ -1238,7 +1238,7 @@ map
 (
 body
 .
-childNodes
+children
 n
 =
 >
@@ -1302,7 +1302,7 @@ synthesizeMouseAtCenter
 (
 body
 .
-childNodes
+children
 [
 0
 ]
@@ -2154,7 +2154,7 @@ map
 (
 body
 .
-childNodes
+children
 n
 =
 >
@@ -2273,7 +2273,7 @@ map
 (
 body
 .
-childNodes
+children
 n
 =
 >
@@ -3015,7 +3015,7 @@ body
 =
 view
 .
-firstChild
+firstElementChild
 ;
 Assert
 .
@@ -3027,7 +3027,7 @@ map
 (
 body
 .
-childNodes
+children
 n
 =
 >
@@ -3100,7 +3100,7 @@ synthesizeMouseAtCenter
 (
 body
 .
-childNodes
+children
 [
 0
 ]
@@ -3187,7 +3187,7 @@ body
 =
 view
 .
-firstChild
+firstElementChild
 ;
 Assert
 .
@@ -3199,7 +3199,7 @@ map
 (
 body
 .
-childNodes
+children
 n
 =
 >
@@ -3266,7 +3266,7 @@ synthesizeMouseAtCenter
 (
 body
 .
-childNodes
+children
 [
 0
 ]
@@ -3686,7 +3686,7 @@ body
 =
 view
 .
-firstChild
+firstElementChild
 ;
 Assert
 .
@@ -3698,7 +3698,7 @@ map
 (
 body
 .
-childNodes
+children
 n
 =
 >
@@ -3815,7 +3815,7 @@ body
 =
 view
 .
-firstChild
+firstElementChild
 ;
 Assert
 .
@@ -3827,7 +3827,7 @@ map
 (
 body
 .
-childNodes
+children
 n
 =
 >

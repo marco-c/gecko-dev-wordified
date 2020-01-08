@@ -431,7 +431,7 @@ doc
 .
 body
 .
-firstChild
+firstElementChild
 )
 ;
 }

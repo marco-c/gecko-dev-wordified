@@ -138,7 +138,7 @@ DownloadsView
 .
 richListBox
 .
-firstChild
+firstElementChild
 ;
 /
 /

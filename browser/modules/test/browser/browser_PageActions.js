@@ -1431,7 +1431,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 [
 indexInPanel
 ]
@@ -1507,7 +1507,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 [
 sepIndex
 ]
@@ -1720,7 +1720,7 @@ notEqual
 (
 urlbarButtonNode
 .
-nextSibling
+nextElementSibling
 null
 "
 Should
@@ -1737,7 +1737,7 @@ equal
 (
 urlbarButtonNode
 .
-nextSibling
+nextElementSibling
 .
 id
 PageActions
@@ -2349,7 +2349,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-lastChild
+lastElementChild
 .
 localName
 .
@@ -3151,7 +3151,7 @@ notEqual
 (
 urlbarButtonNode
 .
-nextSibling
+nextElementSibling
 null
 "
 Should
@@ -3168,7 +3168,7 @@ equal
 (
 urlbarButtonNode
 .
-nextSibling
+nextElementSibling
 .
 id
 PageActions
@@ -3965,7 +3965,7 @@ notEqual
 (
 urlbarButtonNode
 .
-nextSibling
+nextElementSibling
 null
 "
 Should
@@ -3982,7 +3982,7 @@ equal
 (
 urlbarButtonNode
 .
-nextSibling
+nextElementSibling
 .
 id
 PageActions
@@ -4937,12 +4937,12 @@ notEqual
 (
 panelButtonNode
 .
-nextSibling
+nextElementSibling
 null
 "
 panelButtonNode
 .
-nextSibling
+nextElementSibling
 "
 )
 ;
@@ -4952,7 +4952,7 @@ equal
 (
 panelButtonNode
 .
-nextSibling
+nextElementSibling
 .
 id
 BrowserPageActions
@@ -4966,7 +4966,7 @@ ACTION_ID_BOOKMARK_SEPARATOR
 "
 panelButtonNode
 .
-nextSibling
+nextElementSibling
 .
 id
 "
@@ -5424,12 +5424,12 @@ notEqual
 (
 buttonNode
 .
-previousSibling
+previousElementSibling
 null
 "
 buttonNode
 .
-previousSibling
+previousElementSibling
 "
 )
 ;
@@ -5439,7 +5439,7 @@ equal
 (
 buttonNode
 .
-previousSibling
+previousElementSibling
 .
 id
 BrowserPageActions
@@ -5453,7 +5453,7 @@ ACTION_ID_BUILT_IN_SEPARATOR
 "
 buttonNode
 .
-previousSibling
+previousElementSibling
 .
 id
 "
@@ -5524,7 +5524,7 @@ buttonNode
 =
 buttonNode
 .
-nextSibling
+nextElementSibling
 ;
 expectedIndex
 +
@@ -5808,7 +5808,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 .
 length
 0
@@ -6002,7 +6002,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 n
 =
 >
@@ -6297,7 +6297,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 n
 =
 >
@@ -6579,7 +6579,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 n
 =
 >
@@ -7192,7 +7192,7 @@ BrowserPageActions
 .
 mainButtonNode
 .
-nextSibling
+nextElementSibling
 ;
 node
 ;
@@ -7200,7 +7200,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 )
 {
 actualUrlbarNodeIDs
@@ -7664,7 +7664,7 @@ BrowserPageActions
 .
 mainButtonNode
 .
-nextSibling
+nextElementSibling
 ;
 node
 ;
@@ -7672,7 +7672,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 )
 {
 actualUrlbarNodeIDs
@@ -8507,7 +8507,7 @@ BrowserPageActions
 .
 mainButtonNode
 .
-nextSibling
+nextElementSibling
 ;
 node
 ;
@@ -8515,7 +8515,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 )
 {
 actualUrlbarNodeIDs
@@ -8588,7 +8588,7 @@ BrowserPageActions
 .
 mainButtonNode
 .
-nextSibling
+nextElementSibling
 ;
 node
 ;
@@ -8596,7 +8596,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 )
 {
 actualUrlbarNodeIDs
@@ -9017,7 +9017,7 @@ BrowserPageActions
 .
 mainButtonNode
 .
-nextSibling
+nextElementSibling
 ;
 node
 ;
@@ -9025,7 +9025,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 )
 {
 actualUrlbarNodeIDs
@@ -9181,7 +9181,7 @@ BrowserPageActions
 .
 mainButtonNode
 .
-nextSibling
+nextElementSibling
 ;
 node
 ;
@@ -9189,7 +9189,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 )
 {
 actualUrlbarNodeIDs
@@ -9385,7 +9385,7 @@ BrowserPageActions
 .
 mainButtonNode
 .
-nextSibling
+nextElementSibling
 ;
 node
 ;
@@ -9393,7 +9393,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 )
 {
 actualUrlbarNodeIDs
@@ -11410,7 +11410,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 n
 =
 >
@@ -11601,7 +11601,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 n
 =
 >
@@ -11752,7 +11752,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 n
 =
 >
@@ -11983,7 +11983,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 n
 =
 >
@@ -12190,7 +12190,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 n
 =
 >
@@ -12368,7 +12368,7 @@ BrowserPageActions
 .
 mainViewBodyNode
 .
-childNodes
+children
 n
 =
 >
@@ -13041,7 +13041,7 @@ bodyNode
 =
 panelViewNode
 .
-firstChild
+firstElementChild
 ;
 for
 (
@@ -13050,7 +13050,7 @@ childNode
 of
 bodyNode
 .
-childNodes
+children
 )
 {
 let
@@ -13115,7 +13115,7 @@ filter
 (
 contextMenu
 .
-childNodes
+children
 node
 =
 >

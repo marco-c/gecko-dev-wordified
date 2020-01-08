@@ -5407,7 +5407,7 @@ equal
 (
 body
 .
-childNodes
+children
 .
 length
 expectedItems
@@ -5446,7 +5446,7 @@ actual
 =
 body
 .
-childNodes
+children
 [
 i
 ]
@@ -5719,7 +5719,7 @@ filter
 (
 contextMenu
 .
-childNodes
+children
 node
 =
 >

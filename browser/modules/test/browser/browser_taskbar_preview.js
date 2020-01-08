@@ -474,7 +474,7 @@ gBrowser
 .
 tabContainer
 .
-lastChild
+lastElementChild
 )
 ;
 checkPreviews
@@ -509,7 +509,7 @@ gBrowser
 .
 tabContainer
 .
-firstChild
+firstElementChild
 )
 ;
 checkPreviews

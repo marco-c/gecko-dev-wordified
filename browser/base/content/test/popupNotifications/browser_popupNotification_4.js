@@ -838,7 +838,7 @@ PopupNotifications
 .
 panel
 .
-childNodes
+children
 .
 length
 =

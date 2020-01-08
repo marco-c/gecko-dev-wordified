@@ -578,7 +578,7 @@ popup
 .
 richlistbox
 .
-childNodes
+children
 [
 1
 ]
@@ -594,7 +594,7 @@ popup
 .
 richlistbox
 .
-childNodes
+children
 [
 1
 ]
@@ -619,7 +619,7 @@ popup
 .
 richlistbox
 .
-childNodes
+children
 [
 1
 ]

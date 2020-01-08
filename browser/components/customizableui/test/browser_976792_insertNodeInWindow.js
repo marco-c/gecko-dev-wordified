@@ -289,12 +289,12 @@ is
 (
 btn
 .
-previousSibling
+previousElementSibling
 .
 id
 toolbarNode
 .
-firstChild
+firstElementChild
 .
 id
 "
@@ -632,7 +632,7 @@ is
 (
 btn
 .
-previousSibling
+previousElementSibling
 .
 id
 kTestWidgetPrefix
@@ -661,7 +661,7 @@ is
 (
 btn
 .
-nextSibling
+nextElementSibling
 .
 id
 kTestWidgetPrefix
@@ -1051,7 +1051,7 @@ is
 (
 btn
 .
-previousSibling
+previousElementSibling
 .
 id
 kTestWidgetPrefix
@@ -1080,7 +1080,7 @@ is
 (
 btn
 .
-nextSibling
+nextElementSibling
 .
 id
 kTestWidgetPrefix
@@ -1481,7 +1481,7 @@ is
 (
 btn
 .
-previousSibling
+previousElementSibling
 .
 id
 kTestWidgetPrefix
@@ -1510,7 +1510,7 @@ is
 (
 btn
 .
-nextSibling
+nextElementSibling
 null
 "
 insertNodeInWindow
@@ -1942,7 +1942,7 @@ navbar
 .
 customizationTarget
 .
-lastChild
+lastElementChild
 .
 getAttribute
 (
@@ -1977,7 +1977,7 @@ navbar
 .
 customizationTarget
 .
-lastChild
+lastElementChild
 ;
 is
 (
@@ -2094,7 +2094,7 @@ is
 (
 btn
 .
-nextSibling
+nextElementSibling
 .
 id
 kTestWidgetPrefix
@@ -2574,7 +2574,7 @@ is
 (
 btn
 .
-previousSibling
+previousElementSibling
 .
 id
 kTestWidgetPrefix
@@ -2603,7 +2603,7 @@ is
 (
 btn
 .
-nextSibling
+nextElementSibling
 .
 id
 kTestWidgetPrefix
@@ -3442,7 +3442,7 @@ is
 (
 btn
 .
-nextSibling
+nextElementSibling
 null
 "
 insertNodeInWindow

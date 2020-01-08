@@ -181,7 +181,7 @@ ok
 (
 menupopup
 .
-firstChild
+firstElementChild
 "
 We
 have
@@ -198,7 +198,7 @@ firstContext
 =
 menupopup
 .
-firstChild
+firstElementChild
 ;
 is
 (

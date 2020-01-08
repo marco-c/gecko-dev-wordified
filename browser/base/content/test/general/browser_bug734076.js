@@ -387,7 +387,7 @@ doc
 .
 body
 .
-firstChild
+firstElementChild
 )
 ;
 return
@@ -539,7 +539,7 @@ doc
 .
 body
 .
-firstChild
+firstElementChild
 )
 ;
 /

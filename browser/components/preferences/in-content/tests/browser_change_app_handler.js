@@ -296,7 +296,7 @@ chooseItem
 =
 list
 .
-firstChild
+firstElementChild
 .
 querySelector
 (
@@ -413,7 +413,7 @@ selectItem
 (
 dialogList
 .
-firstChild
+firstElementChild
 )
 ;
 let
@@ -421,7 +421,7 @@ selectedApp
 =
 dialogList
 .
-firstChild
+firstElementChild
 .
 handlerApp
 ;
@@ -569,7 +569,7 @@ manageItem
 =
 list
 .
-firstChild
+firstElementChild
 .
 querySelector
 (

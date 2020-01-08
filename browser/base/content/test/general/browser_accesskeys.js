@@ -1124,7 +1124,7 @@ document
 .
 body
 .
-firstChild
+firstElementChild
 .
 addEventListener
 (

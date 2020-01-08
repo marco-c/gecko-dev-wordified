@@ -696,7 +696,7 @@ PlacesToolbarItems
 "
 )
 .
-childNodes
+children
 )
 .
 find

@@ -902,7 +902,7 @@ PlacesToolbarItems
 "
 )
 .
-childNodes
+children
 ;
 for
 (

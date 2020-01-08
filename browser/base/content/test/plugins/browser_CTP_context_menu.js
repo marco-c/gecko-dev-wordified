@@ -591,7 +591,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 )
 ;
 /
@@ -603,7 +603,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .

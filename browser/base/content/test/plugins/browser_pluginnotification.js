@@ -544,7 +544,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -595,7 +595,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 secondaryButton
 .
@@ -1133,7 +1133,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -2413,7 +2413,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 ;
 await
 promiseForCondition
@@ -2425,7 +2425,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -3137,7 +3137,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 ;
 await
 promiseForCondition
@@ -3149,7 +3149,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .

@@ -180,7 +180,7 @@ switchTab
 gBrowser
 tab
 .
-previousSibling
+previousElementSibling
 )
 ;
 await
@@ -445,7 +445,7 @@ switchTab
 gBrowser
 tab
 .
-previousSibling
+previousElementSibling
 )
 ;
 await

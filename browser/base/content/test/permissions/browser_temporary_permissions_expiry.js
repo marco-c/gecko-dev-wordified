@@ -469,7 +469,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 ;
 EventUtils
 .

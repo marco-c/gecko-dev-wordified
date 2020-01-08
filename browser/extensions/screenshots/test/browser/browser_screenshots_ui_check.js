@@ -484,7 +484,7 @@ bodyNode
 =
 panelViewNode
 .
-firstChild
+firstElementChild
 ;
 for
 (
@@ -493,7 +493,7 @@ childNode
 of
 bodyNode
 .
-childNodes
+children
 )
 {
 const

@@ -863,7 +863,7 @@ gBrowser
 .
 tabContainer
 .
-firstChild
+firstElementChild
 ;
 await
 BrowserTestUtils

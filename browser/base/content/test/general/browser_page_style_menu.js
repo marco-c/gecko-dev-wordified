@@ -304,14 +304,14 @@ while
 (
 current
 .
-nextSibling
+nextElementSibling
 )
 {
 current
 =
 current
 .
-nextSibling
+nextElementSibling
 ;
 items
 .

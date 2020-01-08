@@ -914,7 +914,7 @@ gBrowser
 .
 selectedTab
 .
-previousSibling
+previousElementSibling
 ;
 let
 tabLoaded

@@ -1313,7 +1313,7 @@ is
 (
 keyset
 .
-childNodes
+children
 .
 length
 expectedCommandsRegistered
@@ -1359,7 +1359,7 @@ is
 (
 keyset
 .
-childNodes
+children
 .
 length
 expectedCommandsRegistered

@@ -1222,7 +1222,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 getAttribute
 (
@@ -1538,7 +1538,7 @@ PopupNotifications
 .
 panel
 .
-childNodes
+children
 .
 length
 =
@@ -1575,7 +1575,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 getAttribute
 (
@@ -2132,7 +2132,7 @@ notifications
 =
 popup
 .
-childNodes
+children
 ;
 is
 (
@@ -2486,7 +2486,7 @@ notifications
 =
 popup
 .
-childNodes
+children
 ;
 is
 (
@@ -2526,7 +2526,7 @@ notifications
 =
 popup
 .
-childNodes
+children
 ;
 is
 (
@@ -2895,7 +2895,7 @@ document
 activeElement
 popup
 .
-childNodes
+children
 [
 0
 ]

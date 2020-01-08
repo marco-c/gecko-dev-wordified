@@ -269,7 +269,7 @@ notification
 =
 popup
 .
-childNodes
+children
 [
 0
 ]

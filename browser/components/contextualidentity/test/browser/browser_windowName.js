@@ -503,7 +503,7 @@ gBrowser
 .
 tabContainer
 .
-childNodes
+children
 .
 length
 ;
@@ -519,7 +519,7 @@ gBrowser
 .
 tabContainer
 .
-childNodes
+children
 [
 i
 ]
