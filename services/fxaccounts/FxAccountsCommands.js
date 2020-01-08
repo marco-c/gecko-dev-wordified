@@ -1060,6 +1060,8 @@ e
 )
 ;
 }
+break
+;
 default
 :
 log
@@ -1667,9 +1669,9 @@ entries
 current
 ]
 ;
-console
-.
 log
+.
+info
 (
 Tab
 received
