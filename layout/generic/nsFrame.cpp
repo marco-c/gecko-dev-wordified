@@ -893,7 +893,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -14897,7 +14897,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+HasAppearance
+(
+)
 )
 {
 return
@@ -42581,7 +42583,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+HasAppearance
+(
+)
 )
 {
 /
@@ -62995,7 +62999,10 @@ ThemeSupportsWidget
 (
 presContext
 aFrame
-NS_THEME_FOCUS_OUTLINE
+StyleAppearance
+:
+:
+FocusOutline
 )
 )
 {
@@ -63018,7 +63025,10 @@ DeviceContext
 (
 )
 aFrame
-NS_THEME_FOCUS_OUTLINE
+StyleAppearance
+:
+:
+FocusOutline
 &
 outerRect
 )

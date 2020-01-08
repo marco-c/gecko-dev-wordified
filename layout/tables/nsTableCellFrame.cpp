@@ -3010,7 +3010,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+HasAppearance
+(
+)
 )
 {
 nsDisplayBackgroundImage

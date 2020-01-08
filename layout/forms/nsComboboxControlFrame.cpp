@@ -375,7 +375,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -5474,7 +5474,10 @@ disp
 mAppearance
 =
 =
-NS_THEME_MENULIST
+StyleAppearance
+:
+:
+Menulist
 &
 &
 (

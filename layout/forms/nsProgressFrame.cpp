@@ -230,7 +230,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -1758,7 +1758,10 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_PROGRESSBAR
+StyleAppearance
+:
+:
+Progressbar
 &
 &
 !
@@ -1790,7 +1793,10 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_PROGRESSCHUNK
+StyleAppearance
+:
+:
+Progresschunk
 &
 &
 !

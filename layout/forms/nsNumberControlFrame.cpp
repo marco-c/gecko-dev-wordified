@@ -187,7 +187,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -2416,7 +2416,10 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_TEXTFIELD
+StyleAppearance
+:
+:
+Textfield
 )
 {
 /
@@ -3754,7 +3757,10 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_SPINNER_UPBUTTON
+StyleAppearance
+:
+:
+SpinnerUpbutton
 &
 &
 !
@@ -3784,7 +3790,10 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_SPINNER_DOWNBUTTON
+StyleAppearance
+:
+:
+SpinnerDownbutton
 &
 &
 !

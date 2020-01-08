@@ -7045,7 +7045,10 @@ depressed
 ;
 /
 /
-NS_THEME_FOCUS_OUTLINE
+StyleAppearance
+:
+:
+FocusOutline
 if
 (
 draw_focus_outline_only

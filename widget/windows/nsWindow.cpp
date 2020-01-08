@@ -1179,7 +1179,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -1193,7 +1193,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "

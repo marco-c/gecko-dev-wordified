@@ -233,7 +233,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -6433,7 +6433,7 @@ const
 StyleComplexColor
 &
 aColor
-uint8_t
+StyleAppearance
 aWidgetType
 )
 {
@@ -17637,7 +17637,10 @@ StyleUserInterface
 -
 >
 mScrollbarFaceColor
-NS_THEME_SCROLLBARTHUMB_VERTICAL
+StyleAppearance
+:
+:
+ScrollbarthumbVertical
 )
 ;
 return
@@ -17677,7 +17680,10 @@ StyleUserInterface
 -
 >
 mScrollbarTrackColor
-NS_THEME_SCROLLBAR_VERTICAL
+StyleAppearance
+:
+:
+ScrollbarVertical
 )
 ;
 return

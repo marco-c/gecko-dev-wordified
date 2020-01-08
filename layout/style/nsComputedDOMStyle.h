@@ -3016,7 +3016,10 @@ mozilla
 StyleComplexColor
 &
 aColor
-uint8_t
+mozilla
+:
+:
+StyleAppearance
 aWidgetType
 )
 ;

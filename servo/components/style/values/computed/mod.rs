@@ -473,6 +473,7 @@ box_
 :
 :
 {
+Appearance
 Clear
 Float
 }

@@ -7918,7 +7918,10 @@ type
 (
 currently
 only
-NS_THEME_TOOLBAR
+StyleAppearance
+:
+:
+Toolbar
 )
 within
 the
