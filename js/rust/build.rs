@@ -1817,10 +1817,10 @@ js
 GetFunctionNativeReserved
 "
 "
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 "
 "
 js
