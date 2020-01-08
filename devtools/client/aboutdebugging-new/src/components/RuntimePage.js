@@ -486,6 +486,11 @@ className
 :
 "
 page
+js
+-
+runtime
+-
+page
 "
 }
 RuntimeInfo
