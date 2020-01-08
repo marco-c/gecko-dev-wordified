@@ -1230,6 +1230,8 @@ initialize
 ;
 if
 (
+window
+.
 testRunner
 )
 {
@@ -1269,6 +1271,8 @@ entry
 =
 >
 {
+window
+.
 testRunner
 .
 setPermission
