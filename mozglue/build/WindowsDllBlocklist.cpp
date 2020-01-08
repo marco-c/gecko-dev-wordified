@@ -4146,7 +4146,10 @@ handle
 ;
 CallDllLoadHook
 (
-true
+NT_SUCCESS
+(
+ret
+)
 ret
 handle
 ?
