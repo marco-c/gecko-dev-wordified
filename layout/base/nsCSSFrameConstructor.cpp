@@ -33934,7 +33934,7 @@ nsIContent
 aParent
 const
 nsIContent
-*
+&
 aChild
 )
 {
@@ -34010,8 +34010,7 @@ off
 if
 (
 aChild
--
->
+.
 GetParent
 (
 )
@@ -34034,8 +34033,7 @@ fine
 if
 (
 aChild
--
->
+.
 IsHTMLElement
 (
 nsGkAtoms
@@ -34070,8 +34068,7 @@ optgroup
 if
 (
 aChild
--
->
+.
 IsHTMLElement
 (
 nsGkAtoms
@@ -34110,8 +34107,7 @@ what
 if
 (
 aChild
--
->
+.
 IsRootOfAnonymousSubtree
 (
 )
@@ -34135,7 +34131,7 @@ HTMLDetailsElement
 aDetails
 const
 nsIContent
-*
+&
 aChild
 )
 {
@@ -34160,8 +34156,7 @@ false
 if
 (
 aChild
--
->
+.
 GetParent
 (
 )
@@ -34225,8 +34220,7 @@ after
 if
 (
 aChild
--
->
+.
 IsRootOfAnonymousSubtree
 (
 )
@@ -34234,8 +34228,7 @@ IsRootOfAnonymousSubtree
 &
 !
 aChild
--
->
+.
 IsGeneratedContentContainerForBefore
 (
 )
@@ -34243,8 +34236,7 @@ IsGeneratedContentContainerForBefore
 &
 !
 aChild
--
->
+.
 IsGeneratedContentContainerForAfter
 (
 )
@@ -34965,6 +34957,7 @@ if
 ShouldSuppressFrameInSelect
 (
 parent
+*
 aContent
 )
 )
@@ -35063,6 +35056,7 @@ if
 ShouldSuppressFrameInNonOpenDetails
 (
 details
+*
 aContent
 )
 )
