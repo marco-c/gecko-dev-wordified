@@ -5617,6 +5617,7 @@ aCache
 {
 RefPtr
 <
+const
 LookupCache
 >
 lookupCache
@@ -5716,6 +5717,7 @@ i
 ;
 RefPtr
 <
+const
 LookupCache
 >
 lookupCache
@@ -5800,6 +5802,7 @@ LookupCache
 :
 Cast
 <
+const
 LookupCacheV4
 >
 (
