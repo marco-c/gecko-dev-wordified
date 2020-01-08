@@ -336,6 +336,14 @@ nsAString
 aCSSFamilyName
 )
 ;
+void
+GetCSSGeneric
+(
+nsAString
+&
+aGeneric
+)
+;
 ServoFontFaceRule
 *
 GetRule
