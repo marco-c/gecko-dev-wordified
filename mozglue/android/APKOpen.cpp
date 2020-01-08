@@ -2546,10 +2546,12 @@ gBootstrap
 XRE_SetAndroidChildFds
 (
 jenv
+{
 prefsFd
 ipcFd
 crashFd
 crashAnnotationFd
+}
 )
 ;
 gBootstrap
