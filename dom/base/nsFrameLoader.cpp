@@ -15926,6 +15926,16 @@ already
 "
 )
 ;
+if
+(
+!
+mOwnerContent
+)
+{
+return
+false
+;
+}
 /
 /
 XXXsmaug
