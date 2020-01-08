@@ -250,13 +250,6 @@ endif
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsUTF8Utils
 .
 h
