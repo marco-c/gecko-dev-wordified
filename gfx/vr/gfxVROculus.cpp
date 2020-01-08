@@ -9705,6 +9705,9 @@ buttonIdx
 =
 0
 ;
+ovrHandType
+oculusHandType
+;
 switch
 (
 hand
@@ -9719,6 +9722,10 @@ GamepadHand
 :
 Left
 :
+oculusHandType
+=
+ovrHand_Left
+;
 HandleButtonPress
 (
 i
@@ -9831,6 +9838,10 @@ GamepadHand
 :
 Right
 :
+oculusHandType
+=
+ovrHand_Right
+;
 HandleButtonPress
 (
 i
@@ -9985,7 +9996,7 @@ inputState
 .
 Thumbstick
 [
-i
+oculusHandType
 ]
 .
 x
@@ -10013,7 +10024,7 @@ inputState
 .
 Thumbstick
 [
-i
+oculusHandType
 ]
 .
 y
