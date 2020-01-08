@@ -2210,6 +2210,9 @@ CONNECTION
 ICON
 EXTENSION
 ICON
+REMOTE
+CONTROL
+ICON
 *
 /
 #
@@ -2218,6 +2221,12 @@ connection
 icon
 #
 extension
+-
+icon
+#
+remote
+-
+control
 -
 icon
 {
@@ -2603,13 +2612,6 @@ visibility
 visible
 ;
 }
-/
-*
-REMOTE
-CONTROL
-ICON
-*
-/
 #
 main
 -
