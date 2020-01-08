@@ -1812,9 +1812,10 @@ true
 }
 if
 (
+!
 contextData
 .
-tab
+onBookmark
 )
 {
 item
@@ -1823,9 +1824,6 @@ tabManager
 .
 addActiveTabPermission
 (
-contextData
-.
-tab
 )
 ;
 }
