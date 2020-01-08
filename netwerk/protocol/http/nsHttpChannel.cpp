@@ -34095,6 +34095,11 @@ this
 )
 )
 ;
+CloseCacheEntry
+(
+false
+)
+;
 return
 NS_OK
 ;
