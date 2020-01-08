@@ -8214,6 +8214,11 @@ src
 '
 none
 '
+'
+report
+-
+sample
+'
 ;
 script
 -
@@ -8227,6 +8232,11 @@ deadbeef
 unsafe
 -
 eval
+'
+'
+report
+-
+sample
 '
 ;
 report
