@@ -831,6 +831,8 @@ assignedNode
 assignedNodes
 )
 {
+if
+(
 auto
 *
 slot
@@ -841,18 +843,6 @@ HTMLSlotElement
 FromNode
 (
 assignedNode
-)
-;
-if
-(
-slot
-&
-&
-slot
--
->
-GetContainingShadow
-(
 )
 )
 {
