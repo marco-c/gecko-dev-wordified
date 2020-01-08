@@ -629,6 +629,14 @@ None
 if
 data
 and
+len
+(
+data
+)
+=
+=
+3
+and
 data
 [
 0
