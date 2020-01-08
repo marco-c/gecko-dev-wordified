@@ -1582,16 +1582,6 @@ RefPtr
 WebRtcCallWrapper
 >
 aCall
-UniquePtr
-<
-cricket
-:
-:
-VideoAdapter
->
-&
-&
-aVideoAdapter
 nsCOMPtr
 <
 nsIEventTarget
