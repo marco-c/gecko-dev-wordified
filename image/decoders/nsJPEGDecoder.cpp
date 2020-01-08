@@ -2178,13 +2178,6 @@ rv
 =
 AllocateFrame
 (
-/
-*
-aFrameNum
-=
-*
-/
-0
 OutputSize
 (
 )
