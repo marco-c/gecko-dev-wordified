@@ -7549,10 +7549,10 @@ global
 ;
 if
 (
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 existingObj
 )
