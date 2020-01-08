@@ -19,6 +19,10 @@ from
 wptcommandline
 import
 require_arg
+#
+noqa
+:
+F401
 here
 =
 os

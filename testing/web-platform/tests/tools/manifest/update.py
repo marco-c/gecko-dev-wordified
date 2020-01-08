@@ -10,11 +10,7 @@ python
 import
 argparse
 import
-imp
-import
 os
-import
-sys
 import
 manifest
 from
