@@ -185,7 +185,7 @@ selector_parser
 :
 {
 AttrValue
-PseudoClassStringArg
+Lang
 PseudoElement
 SelectorImpl
 }
@@ -6994,7 +6994,7 @@ AttrValue
 value
 :
 &
-PseudoClassStringArg
+Lang
 )
 -
 >

@@ -1995,15 +1995,13 @@ type
 used
 for
 storing
-pseudo
--
-class
-string
+:
+lang
 arguments
 .
 pub
 type
-PseudoClassStringArg
+Lang
 =
 Box
 <
@@ -2092,7 +2090,7 @@ Hover
 Indeterminate
 Lang
 (
-PseudoClassStringArg
+Lang
 )
 Link
 PlaceholderShown
