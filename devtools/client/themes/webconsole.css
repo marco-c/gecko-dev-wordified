@@ -5125,10 +5125,8 @@ message
 body
 {
 overflow
--
-x
 :
-auto
+hidden
 ;
 }
 .
