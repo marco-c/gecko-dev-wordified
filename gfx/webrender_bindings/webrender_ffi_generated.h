@@ -443,6 +443,9 @@ RGBAF32
 RG8
 =
 5
+RGBAI32
+=
+6
 Sentinel
 /
 *
