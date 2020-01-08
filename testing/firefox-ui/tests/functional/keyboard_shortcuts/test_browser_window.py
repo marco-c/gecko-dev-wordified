@@ -415,9 +415,6 @@ as
 class
 =
 "
-autocomplete
--
-textbox
 textbox
 -
 input
