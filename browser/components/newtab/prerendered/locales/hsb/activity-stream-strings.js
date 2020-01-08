@@ -1032,6 +1032,15 @@ p
 ida
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Pytawu
+p
+ida
+"
+"
 section_menu_action_move_up
 "
 :

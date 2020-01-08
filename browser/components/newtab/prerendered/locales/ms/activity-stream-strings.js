@@ -889,6 +889,15 @@ Laman
 Teratas
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Tambah
+Enjin
+Carian
+"
+"
 section_menu_action_move_up
 "
 :

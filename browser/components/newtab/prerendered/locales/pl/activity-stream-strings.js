@@ -948,6 +948,14 @@ do
 popularnych
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Dodaj
+wyszukiwark
+"
+"
 section_menu_action_move_up
 "
 :

@@ -995,6 +995,17 @@ bes
 kta
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+L
+gg
+till
+s
+kmotor
+"
+"
 section_menu_action_move_up
 "
 :

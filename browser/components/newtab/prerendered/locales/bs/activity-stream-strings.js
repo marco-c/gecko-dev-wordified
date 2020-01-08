@@ -961,6 +961,15 @@ omiljenu
 stranicu
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Dodaj
+pretra
+iva
+"
+"
 section_menu_action_move_up
 "
 :

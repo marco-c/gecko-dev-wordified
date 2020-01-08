@@ -978,6 +978,17 @@ Sayt
 Ekle
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Q
+d
+rma
+Motor
+Ekle
+"
+"
 section_menu_action_move_up
 "
 :

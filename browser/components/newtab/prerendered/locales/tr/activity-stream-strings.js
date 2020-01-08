@@ -1011,6 +1011,15 @@ site
 ekle
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Arama
+motoru
+ekle
+"
+"
 section_menu_action_move_up
 "
 :

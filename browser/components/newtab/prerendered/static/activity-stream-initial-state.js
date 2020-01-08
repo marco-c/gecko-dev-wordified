@@ -35,6 +35,17 @@ editForm
 "
 :
 null
+"
+showSearchShortcutsForm
+"
+:
+false
+"
+searchShortcuts
+"
+:
+[
+]
 }
 "
 App

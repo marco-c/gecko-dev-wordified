@@ -1046,6 +1046,17 @@ lloc
 principal
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Afegeix
+un
+motor
+de
+cerca
+"
+"
 section_menu_action_move_up
 "
 :

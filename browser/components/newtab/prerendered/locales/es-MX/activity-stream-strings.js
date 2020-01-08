@@ -969,6 +969,17 @@ sitio
 popular
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Agregar
+motor
+de
+b
+squeda
+"
+"
 section_menu_action_move_up
 "
 :

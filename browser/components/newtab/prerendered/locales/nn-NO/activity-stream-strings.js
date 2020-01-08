@@ -942,6 +942,16 @@ bes
 kte
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Legg
+til
+s
+kemotor
+"
+"
 section_menu_action_move_up
 "
 :

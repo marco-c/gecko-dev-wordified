@@ -1103,6 +1103,15 @@ p
 ida
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Pytnicu
+p
+ida
+"
+"
 section_menu_action_move_up
 "
 :

@@ -984,6 +984,16 @@ Sajt
 Kryesues
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Shtoni
+Motor
+K
+rkimesh
+"
+"
 section_menu_action_move_up
 "
 :

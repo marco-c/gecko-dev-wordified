@@ -964,6 +964,14 @@ s
 visitado
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Agregar
+buscador
+"
+"
 section_menu_action_move_up
 "
 :
