@@ -1594,7 +1594,7 @@ const
 uint32_t
 kTimeoutLengthMS
 =
-50000
+180000
 ;
 mozilla
 :
