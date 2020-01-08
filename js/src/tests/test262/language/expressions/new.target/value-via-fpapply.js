@@ -83,6 +83,13 @@ thisArg
 argList
 )
 .
+features
+:
+[
+new
+.
+target
+]
 -
 -
 -

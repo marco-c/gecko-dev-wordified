@@ -87,6 +87,13 @@ Arguments
 tailCall
 )
 .
+features
+:
+[
+new
+.
+target
+]
 -
 -
 -

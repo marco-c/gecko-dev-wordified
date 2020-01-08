@@ -116,6 +116,7 @@ features
 cross
 -
 realm
+Proxy
 ]
 -
 -

@@ -71,6 +71,11 @@ ReturnIfAbrupt
 handlerProto
 )
 .
+features
+:
+[
+Proxy
+]
 -
 -
 -

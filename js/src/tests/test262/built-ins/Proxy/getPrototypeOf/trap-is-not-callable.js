@@ -52,6 +52,11 @@ is
 not
 callable
 .
+features
+:
+[
+Proxy
+]
 -
 -
 -

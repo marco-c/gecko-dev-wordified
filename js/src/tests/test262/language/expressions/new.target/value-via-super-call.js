@@ -107,6 +107,9 @@ features
 :
 [
 class
+new
+.
+target
 ]
 -
 -

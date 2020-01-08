@@ -140,6 +140,7 @@ features
 cross
 -
 realm
+Proxy
 ]
 -
 -

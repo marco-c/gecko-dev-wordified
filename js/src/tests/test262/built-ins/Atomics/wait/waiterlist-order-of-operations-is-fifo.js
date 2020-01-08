@@ -549,7 +549,7 @@ LOCK_INDEX
 /
 Agents
 must
-wake
+notify
 in
 the
 order
@@ -584,7 +584,7 @@ woken
 =
 Atomics
 .
-wake
+notify
 (
 i32a
 WAIT_INDEX
@@ -606,7 +606,7 @@ woken
 '
 Atomics
 .
-wake
+notify
 (
 i32a
 WAIT_INDEX

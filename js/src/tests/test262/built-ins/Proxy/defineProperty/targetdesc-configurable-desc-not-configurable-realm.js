@@ -151,6 +151,7 @@ features
 cross
 -
 realm
+Proxy
 ]
 -
 -

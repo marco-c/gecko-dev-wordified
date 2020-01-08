@@ -99,6 +99,14 @@ exception
 .
 .
 .
+features
+:
+[
+Reflect
+Reflect
+.
+setPrototypeOf
+]
 -
 -
 -

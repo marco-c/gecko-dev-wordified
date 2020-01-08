@@ -56,6 +56,11 @@ is
 a
 Number
 .
+features
+:
+[
+Proxy
+]
 -
 -
 -
