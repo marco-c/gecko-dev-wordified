@@ -341,7 +341,6 @@ CancelScheduledValues
 (
 aEvent
 .
-template
 Time
 <
 TimeType
