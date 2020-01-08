@@ -160,7 +160,7 @@ theme
 =
 LightweightThemeManager
 .
-currentTheme
+currentThemeForDisplay
 ;
 return
 theme
