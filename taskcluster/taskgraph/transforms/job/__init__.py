@@ -637,6 +637,24 @@ sccache
 '
 ]
     
+Optional
+(
+'
+release
+-
+artifacts
+'
+)
+:
+task_description_schema
+[
+'
+release
+-
+artifacts
+'
+]
+    
 #
 The
 "

@@ -452,6 +452,20 @@ get
 dependencies
 '
 )
+                      
+release_artifacts
+=
+task_dict
+.
+get
+(
+'
+release
+-
+artifacts
+'
+)
+                      
 )
                  
 for
