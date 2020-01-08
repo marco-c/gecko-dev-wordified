@@ -364,6 +364,12 @@ __attribute__
 (
 (
 weak
+visibility
+(
+"
+default
+"
+)
 )
 )
 RETURN_TYPE
