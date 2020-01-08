@@ -413,8 +413,8 @@ aAcceptLangs
 const
 {
 const
-nsDefaultStringComparator
-defaultComparator
+nsCaseInsensitiveStringComparator
+caseInsensitiveComparator
 ;
 if
 (
@@ -499,10 +499,10 @@ nextToken
 bool
 exactMatch
 =
-(
 languageToken
-=
-=
+.
+Equals
+(
 mStringListAttributes
 [
 LANGUAGE
@@ -510,6 +510,7 @@ LANGUAGE
 [
 i
 ]
+caseInsensitiveComparator
 )
 ;
 bool
@@ -536,7 +537,7 @@ languageTokenizer
 nextToken
 (
 )
-defaultComparator
+caseInsensitiveComparator
 )
 ;
 if
@@ -976,8 +977,8 @@ false
 ;
 }
 const
-nsDefaultStringComparator
-defaultComparator
+nsCaseInsensitiveStringComparator
+caseInsensitiveComparator
 ;
 for
 (
@@ -1038,7 +1039,7 @@ languageTokenizer
 nextToken
 (
 )
-defaultComparator
+caseInsensitiveComparator
 )
 )
 {
