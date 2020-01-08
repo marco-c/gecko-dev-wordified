@@ -259,6 +259,12 @@ AllowOverlayScrollbarsOverlap
 (
 )
 ;
+static
+bool
+SystemWantsDarkTheme
+(
+)
+;
 private
 :
 int32_t

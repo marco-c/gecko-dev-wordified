@@ -591,6 +591,16 @@ eIntID_GTKCSDCloseButton
 false
 0
 }
+{
+"
+ui
+.
+systemUsesDarkTheme
+"
+eIntID_SystemUsesDarkTheme
+false
+0
+}
 }
 ;
 nsLookAndFeelFloatPref
