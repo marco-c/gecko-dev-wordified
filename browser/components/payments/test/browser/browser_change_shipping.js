@@ -526,7 +526,6 @@ textContent
 u20AC2
 .
 50
-EUR
 "
 "
 Check
