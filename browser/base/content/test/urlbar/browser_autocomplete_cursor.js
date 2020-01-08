@@ -63,6 +63,12 @@ org
 "
 )
 ;
+await
+waitForAutocompleteResultAt
+(
+0
+)
+;
 gURLBar
 .
 selectTextRange
