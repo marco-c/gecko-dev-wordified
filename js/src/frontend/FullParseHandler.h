@@ -157,6 +157,15 @@ SharedContext
 .
 h
 "
+#
+include
+"
+vm
+/
+JSContext
+.
+h
+"
 namespace
 js
 {

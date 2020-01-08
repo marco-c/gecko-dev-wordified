@@ -200,15 +200,6 @@ BytecodeUtil
 .
 h
 "
-#
-include
-"
-vm
-/
-StringType
-.
-h
-"
 namespace
 js
 {

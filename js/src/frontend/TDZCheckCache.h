@@ -177,6 +177,14 @@ frontend
 struct
 BytecodeEmitter
 ;
+using
+CheckTDZMap
+=
+RecyclableNameMap
+<
+MaybeCheckTDZ
+>
+;
 /
 /
 A

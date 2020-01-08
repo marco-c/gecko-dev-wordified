@@ -131,6 +131,13 @@ h
 #
 include
 "
+jsnum
+.
+h
+"
+#
+include
+"
 frontend
 /
 Parser
