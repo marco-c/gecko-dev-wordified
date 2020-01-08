@@ -900,6 +900,13 @@ node
 )
 ;
 RawGeckoNodeBorrowedOrNull
+Gecko_GetPreviousSibling
+(
+RawGeckoNodeBorrowed
+node
+)
+;
+RawGeckoNodeBorrowedOrNull
 Gecko_GetFlattenedTreeParentNode
 (
 RawGeckoNodeBorrowed
