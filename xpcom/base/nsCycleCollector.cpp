@@ -24965,6 +24965,8 @@ via
 /
 /
 RunInStableState
+or
+DispatchToMicroTask
 during
 the
 final
@@ -24979,6 +24981,17 @@ mContext
 >
 ProcessStableStateQueue
 (
+)
+;
+data
+-
+>
+mContext
+-
+>
+PerformMicroTaskCheckPoint
+(
+true
 )
 ;
 }

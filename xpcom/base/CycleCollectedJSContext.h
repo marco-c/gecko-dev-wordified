@@ -1058,6 +1058,10 @@ aLevel
 bool
 PerformMicroTaskCheckPoint
 (
+bool
+aForce
+=
+false
 )
 ;
 void

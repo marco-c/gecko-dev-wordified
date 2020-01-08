@@ -2631,6 +2631,8 @@ CycleCollectedJSContext
 :
 PerformMicroTaskCheckPoint
 (
+bool
+aForce
 )
 {
 if
@@ -2678,6 +2680,10 @@ mMicroTaskRecursionDepth
 >
 =
 currentDepth
+&
+&
+!
+aForce
 )
 {
 /
@@ -2783,6 +2789,13 @@ mMicroTaskRecursionDepth
 ;
 MOZ_ASSERT
 (
+aForce
+?
+currentDepth
+=
+=
+0
+:
 currentDepth
 >
 0
