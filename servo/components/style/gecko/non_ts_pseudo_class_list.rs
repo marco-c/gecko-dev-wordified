@@ -431,6 +431,15 @@ _
 )
 (
 "
+defined
+"
+Defined
+defined
+IN_DEFINED_STATE
+_
+)
+(
+"
 disabled
 "
 Disabled
