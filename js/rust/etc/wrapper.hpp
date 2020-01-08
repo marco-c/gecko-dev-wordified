@@ -186,6 +186,15 @@ include
 "
 js
 /
+SourceBufferHolder
+.
+h
+"
+#
+include
+"
+js
+/
 StructuredClone
 .
 h
