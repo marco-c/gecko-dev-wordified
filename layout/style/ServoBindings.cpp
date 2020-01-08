@@ -13870,8 +13870,8 @@ aPattern
 css
 :
 :
-URLMatchingFunction
-aURLMatchingFunction
+DocumentMatchingFunction
+aMatchingFunction
 )
 {
 MOZ_ASSERT
@@ -13959,7 +13959,7 @@ docURI
 docURISpec
 *
 aPattern
-aURLMatchingFunction
+aMatchingFunction
 )
 ;
 }

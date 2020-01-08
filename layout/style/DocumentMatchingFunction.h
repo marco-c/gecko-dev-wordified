@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_css_URLMatchingFunction_h
+mozilla_css_DocumentMatchingFunction_h
 #
 define
-mozilla_css_URLMatchingFunction_h
+mozilla_css_DocumentMatchingFunction_h
 namespace
 mozilla
 {
@@ -135,7 +135,6 @@ defining
 the
 type
 of
-URL
 matching
 function
 for
@@ -152,14 +151,14 @@ condition
 /
 enum
 class
-URLMatchingFunction
+DocumentMatchingFunction
 {
-eURL
+URL
 =
 0
-eURLPrefix
-eDomain
-eRegExp
+URLPrefix
+Domain
+RegExp
 }
 ;
 }
@@ -176,4 +175,4 @@ mozilla
 endif
 /
 /
-mozilla_css_URLMatchingFunction_h
+mozilla_css_DocumentMatchingFunction_h
