@@ -149,7 +149,7 @@ flexbox
 *
 *
 *
-Update
+Updates
 the
 color
 used

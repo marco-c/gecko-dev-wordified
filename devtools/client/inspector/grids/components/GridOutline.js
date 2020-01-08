@@ -1339,6 +1339,7 @@ renderCannotShowOutlineText
 )
 {
 return
+(
 dom
 .
 div
@@ -1391,6 +1392,7 @@ layout
 .
 cannotShowGridOutline
 "
+)
 )
 )
 ;
@@ -1967,6 +1969,7 @@ height
 )
 {
 return
+(
 dom
 .
 rect
@@ -2064,6 +2067,7 @@ this
 onHighlightCell
 }
 )
+)
 ;
 }
 renderGridOutline
@@ -2079,6 +2083,7 @@ color
 grid
 ;
 return
+(
 dom
 .
 g
@@ -2115,6 +2120,7 @@ renderGrid
 grid
 )
 )
+)
 ;
 }
 renderGridOutlineBorder
@@ -2125,6 +2131,7 @@ color
 )
 {
 return
+(
 dom
 .
 rect
@@ -2157,6 +2164,7 @@ height
 :
 borderHeight
 }
+)
 )
 ;
 }

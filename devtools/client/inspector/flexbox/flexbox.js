@@ -660,11 +660,6 @@ getComponentProps
 {
 return
 {
-getSwatchColorPickerTooltip
-:
-this
-.
-getSwatchColorPickerTooltip
 onSetFlexboxOverlayColor
 :
 this

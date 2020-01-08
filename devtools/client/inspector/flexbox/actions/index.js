@@ -118,7 +118,7 @@ UPDATE_FLEXBOX
 "
 /
 /
-Update
+Updates
 the
 color
 used
