@@ -732,9 +732,10 @@ BrowserTestUtils
 .
 synthesizeMouseAtCenter
 (
-function
 (
 )
+=
+>
 {
 /
 /
@@ -879,9 +880,10 @@ BrowserTestUtils
 .
 synthesizeMouseAtCenter
 (
-function
 (
 )
+=
+>
 {
 /
 /
@@ -1029,9 +1031,10 @@ BrowserTestUtils
 .
 synthesizeMouseAtCenter
 (
-function
 (
 )
+=
+>
 {
 /
 /

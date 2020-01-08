@@ -14,11 +14,6 @@ frameScript
 (
 )
 {
-function
-getSelectedText
-(
-)
-{
 let
 frame
 =
@@ -260,11 +255,6 @@ toString
 )
 rect
 }
-)
-;
-}
-getSelectedText
-(
 )
 ;
 }
@@ -1644,7 +1634,10 @@ data
 frameScript
 }
 )
+.
+call
 (
+this
 )
 ;
 selectedBrowser
