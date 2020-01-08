@@ -340,7 +340,7 @@ annType
 !
 =
 '
-Tag
+annotate
 '
 )
 continue
