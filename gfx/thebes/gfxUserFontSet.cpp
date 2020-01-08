@@ -4455,6 +4455,17 @@ uint32_t
 aLength
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+gfxUserFontEntry
+:
+:
+LoadPlatformFont
+"
+OTHER
+)
+;
 NS_ASSERTION
 (
 (
