@@ -199,6 +199,7 @@ appearance
 .
 *
 /
+async
 function
 showNotification
 (
@@ -298,6 +299,7 @@ toolboxButton
 const
 target
 =
+await
 TargetFactory
 .
 forTab
