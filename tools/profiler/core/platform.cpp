@@ -2612,7 +2612,7 @@ ActivePS
 PSLockRef
 aLock
 uint32_t
-aEntries
+aCapacity
 double
 aInterval
 uint32_t
@@ -2632,9 +2632,9 @@ sNextGeneration
 +
 +
 )
-mEntries
+mCapacity
 (
-aEntries
+aCapacity
 )
 mInterval
 (
@@ -2655,7 +2655,7 @@ MakeUnique
 ProfileBuffer
 >
 (
-aEntries
+aCapacity
 )
 )
 /
@@ -3227,7 +3227,7 @@ Create
 PSLockRef
 aLock
 uint32_t
-aEntries
+aCapacity
 double
 aInterval
 uint32_t
@@ -3247,7 +3247,7 @@ new
 ActivePS
 (
 aLock
-aEntries
+aCapacity
 aInterval
 aFeatures
 aFilters
@@ -3303,7 +3303,7 @@ Equals
 (
 PSLockRef
 uint32_t
-aEntries
+aCapacity
 double
 aInterval
 uint32_t
@@ -3322,10 +3322,10 @@ if
 sInstance
 -
 >
-mEntries
+mCapacity
 !
 =
-aEntries
+aCapacity
 |
 |
 sInstance
@@ -3560,7 +3560,7 @@ Generation
 PS_GET
 (
 uint32_t
-Entries
+Capacity
 )
 PS_GET
 (
@@ -4610,6 +4610,7 @@ sNextGeneration
 /
 /
 The
+maximum
 number
 of
 entries
@@ -4618,7 +4619,7 @@ mBuffer
 .
 const
 uint32_t
-mEntries
+mCapacity
 ;
 /
 /
@@ -18064,7 +18065,7 @@ NotifyProfilerStarted
 (
 const
 int
-aEntries
+aCapacity
 double
 aInterval
 uint32_t
@@ -18120,7 +18121,7 @@ params
 new
 nsProfilerStartParams
 (
-aEntries
+aCapacity
 aInterval
 aFeatures
 filtersArray
@@ -18152,7 +18153,7 @@ locked_profiler_start
 PSLockRef
 aLock
 uint32_t
-aEntries
+aCapacity
 double
 aInterval
 uint32_t
@@ -18594,7 +18595,7 @@ Worker
 )
 ;
 int
-entries
+capacity
 =
 PROFILER_DEFAULT_ENTRIES
 ;
@@ -18846,7 +18847,7 @@ set
 const
 char
 *
-startupEntries
+startupCapacity
 =
 getenv
 (
@@ -18857,10 +18858,10 @@ MOZ_PROFILER_STARTUP_ENTRIES
 ;
 if
 (
-startupEntries
+startupCapacity
 &
 &
-startupEntries
+startupCapacity
 [
 0
 ]
@@ -18876,11 +18877,11 @@ errno
 =
 0
 ;
-entries
+capacity
 =
 strtol
 (
-startupEntries
+startupCapacity
 nullptr
 10
 )
@@ -18893,7 +18894,7 @@ errno
 0
 &
 &
-entries
+capacity
 >
 0
 )
@@ -18907,7 +18908,7 @@ MOZ_PROFILER_STARTUP_ENTRIES
 %
 d
 "
-entries
+capacity
 )
 ;
 }
@@ -18926,7 +18927,7 @@ integer
 %
 s
 "
-startupEntries
+startupCapacity
 )
 ;
 PrintUsageThenExit
@@ -19284,7 +19285,7 @@ startupFilters
 locked_profiler_start
 (
 lock
-entries
+capacity
 interval
 features
 filters
@@ -19322,7 +19323,7 @@ why
 .
 NotifyProfilerStarted
 (
-entries
+capacity
 interval
 features
 filters
@@ -19807,7 +19808,7 @@ profiler_get_start_params
 (
 int
 *
-aEntries
+aCapacity
 double
 *
 aInterval
@@ -19839,7 +19840,7 @@ if
 NS_WARN_IF
 (
 !
-aEntries
+aCapacity
 )
 |
 |
@@ -19886,7 +19887,7 @@ lock
 )
 {
 *
-aEntries
+aCapacity
 =
 0
 ;
@@ -19911,12 +19912,12 @@ return
 ;
 }
 *
-aEntries
+aCapacity
 =
 ActivePS
 :
 :
-Entries
+Capacity
 (
 lock
 )
@@ -20024,7 +20025,7 @@ AutoSetProfilerEnvVarsForChildProcess
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 )
 :
-mSetEntries
+mSetCapacity
 (
 )
 mSetInterval
@@ -20089,7 +20090,7 @@ MOZ_PROFILER_STARTUP
 ;
 SprintfLiteral
 (
-mSetEntries
+mSetCapacity
 "
 MOZ_PROFILER_STARTUP_ENTRIES
 =
@@ -20099,7 +20100,7 @@ d
 ActivePS
 :
 :
-Entries
+Capacity
 (
 lock
 )
@@ -20107,7 +20108,7 @@ lock
 ;
 PR_SetEnv
 (
-mSetEntries
+mSetCapacity
 )
 ;
 /
@@ -20853,7 +20854,7 @@ mRangeEnd
 ActivePS
 :
 :
-Entries
+Capacity
 (
 lock
 )
@@ -21157,7 +21158,7 @@ locked_profiler_start
 PSLockRef
 aLock
 uint32_t
-aEntries
+aCapacity
 double
 aInterval
 uint32_t
@@ -21187,12 +21188,12 @@ LOG
 (
 "
 -
-entries
+capacity
 =
 %
 d
 "
-aEntries
+aCapacity
 )
 ;
 LOG
@@ -21336,13 +21337,13 @@ are
 unreasonable
 .
 uint32_t
-entries
+capacity
 =
-aEntries
+aCapacity
 >
 0
 ?
-aEntries
+aCapacity
 :
 PROFILER_DEFAULT_ENTRIES
 ;
@@ -21363,7 +21364,7 @@ ActivePS
 Create
 (
 aLock
-entries
+capacity
 interval
 aFeatures
 aFilters
@@ -21757,7 +21758,7 @@ void
 profiler_start
 (
 uint32_t
-aEntries
+aCapacity
 double
 aInterval
 uint32_t
@@ -21848,7 +21849,7 @@ lock
 locked_profiler_start
 (
 lock
-aEntries
+aCapacity
 aInterval
 aFeatures
 aFilters
@@ -21940,7 +21941,7 @@ samplerThread
 }
 NotifyProfilerStarted
 (
-aEntries
+aCapacity
 aInterval
 aFeatures
 aFilters
@@ -21952,7 +21953,7 @@ void
 profiler_ensure_started
 (
 uint32_t
-aEntries
+aCapacity
 double
 aInterval
 uint32_t
@@ -22041,7 +22042,7 @@ ActivePS
 Equals
 (
 lock
-aEntries
+aCapacity
 aInterval
 aFeatures
 aFilters
@@ -22068,7 +22069,7 @@ lock
 locked_profiler_start
 (
 lock
-aEntries
+aCapacity
 aInterval
 aFeatures
 aFilters
@@ -22093,7 +22094,7 @@ stopped
 locked_profiler_start
 (
 lock
-aEntries
+aCapacity
 aInterval
 aFeatures
 aFilters
@@ -22159,7 +22160,7 @@ startedProfiler
 {
 NotifyProfilerStarted
 (
-aEntries
+aCapacity
 aInterval
 aFeatures
 aFilters

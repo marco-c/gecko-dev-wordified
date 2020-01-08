@@ -336,7 +336,7 @@ constructor
 /
 /
 param
-aEntrySize
+aCapacity
 The
 minimum
 capacity
@@ -365,7 +365,7 @@ explicit
 ProfileBuffer
 (
 uint32_t
-aEntrySize
+aCapacity
 )
 ;
 ~
@@ -881,7 +881,7 @@ our
 buffer
 .
 Holds
-mEntrySize
+mCapacity
 entries
 .
 /
@@ -946,7 +946,7 @@ mEntryIndexMask
 =
 pos
 %
-mEntrySize
+mCapacity
 .
 uint32_t
 mEntryIndexMask
@@ -987,7 +987,7 @@ never
 gets
 more
 than
-mEntrySize
+mCapacity
 steps
 ahead
 of
@@ -1072,7 +1072,7 @@ mRangeEnd
 mRangeStart
 <
 =
-mEntrySize
+mCapacity
 /
 /
 /
@@ -1162,7 +1162,7 @@ of
 two
 .
 uint32_t
-mEntrySize
+mCapacity
 ;
 /
 /
