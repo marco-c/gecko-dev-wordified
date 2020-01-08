@@ -6735,10 +6735,10 @@ each
 other
 )
 .
+ScrollbarbuttonUp
 ScrollbarbuttonDown
 ScrollbarbuttonLeft
 ScrollbarbuttonRight
-ScrollbarbuttonUp
 /
 /
 /

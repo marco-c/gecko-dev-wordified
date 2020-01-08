@@ -769,10 +769,10 @@ each
 other
 )
 .
+ScrollbarbuttonUp
 ScrollbarbuttonDown
 ScrollbarbuttonLeft
 ScrollbarbuttonRight
-ScrollbarbuttonUp
 /
 /
 The
@@ -781,6 +781,12 @@ thumb
 .
 ScrollbarthumbHorizontal
 ScrollbarthumbVertical
+/
+/
+The
+scrollbar
+track
+.
 ScrollbartrackHorizontal
 ScrollbartrackVertical
 /
