@@ -1276,7 +1276,9 @@ nothing
 let
 notShowing
 =
-promiseTopicObserved
+TestUtils
+.
+topicObserved
 (
 "
 PopupNotifications
