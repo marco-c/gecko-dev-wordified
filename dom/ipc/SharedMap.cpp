@@ -1223,9 +1223,12 @@ true
 ;
 MOZ_ASSERT
 (
+uint32_t
+(
 ptr
 -
 aDestPtr
+)
 =
 =
 mSize
