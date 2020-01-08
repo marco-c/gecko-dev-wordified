@@ -585,13 +585,6 @@ h
 #
 include
 "
-XULSliderAccessible
-.
-h
-"
-#
-include
-"
 XULTabAccessible
 .
 h
