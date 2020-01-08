@@ -76,7 +76,6 @@ chr
 (
 0x67
 )
-;
     
 return
 headers
