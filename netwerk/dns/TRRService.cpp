@@ -4340,10 +4340,11 @@ newRRSet
 -
 >
 mHostName
-rec
--
->
-originSuffix
+nsCString
+(
+"
+"
+)
 pb
 false
 )
