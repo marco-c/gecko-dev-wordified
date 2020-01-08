@@ -4548,6 +4548,7 @@ Selection
 *
 aSelection
 )
+const
 {
 NS_ENSURE_TRUE
 (

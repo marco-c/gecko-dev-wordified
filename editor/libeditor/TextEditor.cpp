@@ -9635,11 +9635,6 @@ return
 NS_OK
 ;
 }
-/
-/
-Used
-by
-OutputToString
 already_AddRefed
 <
 nsIDocumentEncoder
@@ -9654,12 +9649,13 @@ nsAString
 &
 aFormatType
 uint32_t
-aFlags
+aDocumentEncoderFlags
 const
 nsACString
 &
 aCharset
 )
+const
 {
 nsCOMPtr
 <
@@ -9764,7 +9760,7 @@ NativeInit
 (
 doc
 aFormatType
-aFlags
+aDocumentEncoderFlags
 |
 nsIDocumentEncoder
 :
@@ -9879,7 +9875,7 @@ selection
 .
 if
 (
-aFlags
+aDocumentEncoderFlags
 &
 nsIDocumentEncoder
 :
