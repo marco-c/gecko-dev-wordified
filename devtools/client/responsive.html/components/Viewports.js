@@ -140,7 +140,7 @@ types
 )
 ;
 const
-Viewport
+ResizableViewport
 =
 createFactory
 (
@@ -149,7 +149,7 @@ require
 "
 .
 /
-Viewport
+ResizableViewport
 "
 )
 )
@@ -269,7 +269,7 @@ i
 >
 {
 return
-Viewport
+ResizableViewport
 (
 {
 key
