@@ -699,13 +699,23 @@ cmdargs
 =
 [
 '
-javascript
+data
 :
+text
+/
+html
+<
+script
+>
 Quitter
 .
 quit
 (
 )
+<
+/
+script
+>
 '
 ]
                                
