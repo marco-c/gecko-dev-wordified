@@ -87,7 +87,7 @@ oom_with_hook
 "
 feature
 (
-oom_hook
+alloc_error_hook
 )
 )
 ]
@@ -1596,7 +1596,7 @@ alloc
 :
 {
 Layout
-set_oom_hook
+set_alloc_error_hook
 }
 ;
 extern
@@ -1644,7 +1644,7 @@ install
 (
 )
 {
-set_oom_hook
+set_alloc_error_hook
 (
 hook
 )
