@@ -1067,7 +1067,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 )
 ;
 }

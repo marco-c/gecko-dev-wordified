@@ -1145,7 +1145,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 .
 name
 ;
@@ -2826,7 +2826,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 =
 document
 .

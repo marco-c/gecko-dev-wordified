@@ -410,7 +410,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 alias
 :
 engine
@@ -489,7 +489,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 ;
 }
 let

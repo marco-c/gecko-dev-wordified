@@ -396,7 +396,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 ;
 /
 /
@@ -674,7 +674,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 ;
 if
 (

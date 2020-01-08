@@ -1239,7 +1239,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 =
 val
 ;
@@ -1259,7 +1259,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 ;
 /
 /
