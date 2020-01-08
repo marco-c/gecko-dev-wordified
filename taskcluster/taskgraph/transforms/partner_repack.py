@@ -660,7 +660,7 @@ options
 append
 (
 '
-p
+partner
 =
 {
 }
