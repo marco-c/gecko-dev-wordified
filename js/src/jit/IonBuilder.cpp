@@ -73557,6 +73557,9 @@ fieldOffset
 size_t
 fieldIndex
 ;
+bool
+fieldMutable
+;
 if
 (
 !
@@ -73570,6 +73573,8 @@ fieldOffset
 fieldPrediction
 &
 fieldIndex
+&
+fieldMutable
 )
 )
 return
@@ -81074,6 +81079,9 @@ fieldOffset
 size_t
 fieldIndex
 ;
+bool
+fieldMutable
+;
 if
 (
 !
@@ -81087,7 +81095,19 @@ fieldOffset
 fieldPrediction
 &
 fieldIndex
+&
+fieldMutable
 )
+)
+return
+Ok
+(
+)
+;
+if
+(
+!
+fieldMutable
 )
 return
 Ok
@@ -92900,6 +92920,9 @@ fieldPrediction
 size_t
 *
 fieldIndex
+bool
+*
+fieldMutable
 )
 {
 TypedObjectPrediction
@@ -92994,6 +93017,7 @@ name
 fieldOffset
 fieldPrediction
 fieldIndex
+fieldMutable
 )
 )
 {

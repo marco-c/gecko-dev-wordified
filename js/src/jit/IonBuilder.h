@@ -2880,6 +2880,9 @@ fieldTypeReprs
 size_t
 *
 fieldIndex
+bool
+*
+fieldMutable
 )
 ;
 MDefinition
