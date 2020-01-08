@@ -302,6 +302,11 @@ MOZ_ASSERT
 mBaseURI
 )
 ;
+MOZ_ASSERT
+(
+mPrincipal
+)
+;
 }
 URLExtraData
 (
@@ -380,7 +385,7 @@ mReferrerPolicy
 }
 nsIPrincipal
 *
-GetPrincipal
+Principal
 (
 )
 const

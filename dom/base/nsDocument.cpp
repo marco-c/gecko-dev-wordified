@@ -21790,7 +21790,7 @@ policy
 mCachedURLData
 -
 >
-GetPrincipal
+Principal
 (
 )
 !
