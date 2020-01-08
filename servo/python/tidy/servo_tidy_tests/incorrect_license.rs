@@ -1,7 +1,0 @@
-/
-*
-Incorrect
-license
-here
-*
-/
