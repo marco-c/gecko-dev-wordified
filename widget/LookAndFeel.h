@@ -150,8 +150,15 @@ LookAndFeelInt
 int32_t
 id
 ;
+union
+{
 int32_t
 value
+;
+nscolor
+colorValue
+;
+}
 ;
 }
 ;
