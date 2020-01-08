@@ -1492,6 +1492,7 @@ self
 )
 :
         
+return
 self
 .
 browser
@@ -1508,6 +1509,7 @@ test_id
 )
 :
         
+return
 self
 .
 browser
@@ -4071,28 +4073,6 @@ status
 )
         
 if
-file_result
-.
-status
-in
-(
-"
-TIMEOUT
-"
-"
-EXTERNAL
--
-TIMEOUT
-"
-"
-INTERNAL
--
-ERROR
-"
-)
-:
-            
-if
 self
 .
 browser
@@ -4101,7 +4081,7 @@ check_for_crashes
 (
 )
 :
-                
+            
 status
 =
 "
