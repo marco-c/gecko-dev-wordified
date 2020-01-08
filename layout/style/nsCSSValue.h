@@ -173,7 +173,7 @@ include
 "
 mozilla
 /
-ServoTypes
+ServoBindingTypes
 .
 h
 "

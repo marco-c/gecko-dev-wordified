@@ -659,6 +659,9 @@ in
 a
 struct
 .
+mozilla
+:
+:
 MediumFeaturesChangedResult
 Servo_StyleSet_MediumFeaturesChanged
 (
@@ -2550,6 +2553,9 @@ css
 Loader
 *
 loader
+mozilla
+:
+:
 DeclarationBlockMutationClosure
 )
 ;
@@ -2594,6 +2600,9 @@ css
 Loader
 *
 loader
+mozilla
+:
+:
 DeclarationBlockMutationClosure
 )
 ;
@@ -2606,6 +2615,9 @@ const
 nsACString
 *
 property
+mozilla
+:
+:
 DeclarationBlockMutationClosure
 )
 ;
@@ -2616,6 +2628,9 @@ RawServoDeclarationBlockBorrowed
 declarations
 nsCSSPropertyID
 property
+mozilla
+:
+:
 DeclarationBlockMutationClosure
 )
 ;
