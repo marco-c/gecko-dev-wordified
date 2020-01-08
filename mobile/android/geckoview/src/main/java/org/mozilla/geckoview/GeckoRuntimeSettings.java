@@ -1496,6 +1496,8 @@ blocked
 site
 {
 link
+GeckoSession
+.
 NavigationDelegate
 #
 onLoadError
@@ -1506,6 +1508,8 @@ error
 category
 {
 link
+GeckoSession
+.
 NavigationDelegate
 #
 ERROR_CATEGORY_SAFEBROWSING
@@ -1585,6 +1589,8 @@ blocked
 site
 {
 link
+GeckoSession
+.
 NavigationDelegate
 #
 onLoadError
@@ -1595,6 +1601,8 @@ error
 category
 {
 link
+GeckoSession
+.
 NavigationDelegate
 #
 ERROR_CATEGORY_SAFEBROWSING
@@ -3042,7 +3050,7 @@ mJavaCrashReporting
 Get
 the
 Job
-Id
+ID
 used
 on
 Oreo
@@ -3056,6 +3064,14 @@ reporting
 in
 background
 .
+*
+*
+return
+Crash
+reporting
+service
+Job
+ID
 *
 /
 public
@@ -4066,6 +4082,8 @@ blocked
 site
 {
 link
+GeckoSession
+.
 NavigationDelegate
 #
 onLoadError
@@ -4076,6 +4094,8 @@ error
 category
 {
 link
+GeckoSession
+.
 NavigationDelegate
 #
 ERROR_CATEGORY_SAFEBROWSING
@@ -4193,6 +4213,8 @@ blocked
 site
 {
 link
+GeckoSession
+.
 NavigationDelegate
 #
 onLoadError
@@ -4203,6 +4225,8 @@ error
 category
 {
 link
+GeckoSession
+.
 NavigationDelegate
 #
 ERROR_CATEGORY_SAFEBROWSING
