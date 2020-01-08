@@ -244,7 +244,7 @@ h
 #
 include
 "
-nsISocketProviderService
+nsSocketProviderService
 .
 h
 "
@@ -9848,11 +9848,12 @@ nsCOMPtr
 nsISocketProviderService
 >
 sps
+=
+nsSocketProviderService
+:
+:
+GetOrCreate
 (
-do_GetService
-(
-NS_SOCKETPROVIDERSERVICE_CONTRACTID
-)
 )
 ;
 if
