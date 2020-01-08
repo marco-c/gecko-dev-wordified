@@ -225,8 +225,8 @@ typedef
 gfx
 :
 :
-AttributeMap
-AttributeMap
+ComponentTransferAttributes
+ComponentTransferAttributes
 ;
 /
 /
@@ -258,9 +258,14 @@ GetChannel
 =
 0
 ;
-AttributeMap
+void
 ComputeAttributes
 (
+int32_t
+aChannel
+ComponentTransferAttributes
+&
+aAttributes
 )
 ;
 /
