@@ -2143,7 +2143,7 @@ JS
 :
 Result
 <
-ParseNode
+LexicalScopeNode
 *
 >
 parseCatchClause
@@ -3622,7 +3622,7 @@ JS
 :
 Result
 <
-ParseNode
+LexicalScopeNode
 *
 >
 parseInterfaceCatchClause
@@ -5947,7 +5947,7 @@ JS
 :
 Result
 <
-ParseNode
+LexicalScopeNode
 *
 >
 parseOptionalCatchClause
