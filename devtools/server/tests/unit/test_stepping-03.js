@@ -228,7 +228,7 @@ frame
 where
 .
 line
-8
+6
 )
 ;
 equal
