@@ -2146,7 +2146,7 @@ this
 .
 controller
 .
-handleQuery
+startQuery
 (
 new
 QueryContext
