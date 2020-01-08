@@ -191,6 +191,12 @@ PBackgroundChild
 class
 PBackgroundParent
 ;
+class
+PChildToParentStreamChild
+;
+class
+PParentToChildStreamParent
+;
 /
 /
 The

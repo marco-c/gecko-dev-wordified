@@ -124,6 +124,17 @@ h
 #
 include
 "
+BackgroundParent
+.
+h
+"
+/
+/
+for
+AssertIsOnBackgroundThread
+#
+include
+"
 mozilla
 /
 webrender
