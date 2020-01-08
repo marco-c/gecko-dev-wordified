@@ -3702,7 +3702,7 @@ thirdPartyUtil
 IsThirdPartyChannel
 (
 aChannel
-nullptr
+aURI
 &
 thirdParty
 )
