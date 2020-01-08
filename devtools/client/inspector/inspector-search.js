@@ -2935,7 +2935,6 @@ _showPopup
 function
 (
 list
-firstPart
 popupState
 )
 {
@@ -3442,7 +3441,7 @@ preLabel
 }
 items
 .
-unshift
+push
 (
 item
 )
@@ -4258,7 +4257,6 @@ _showPopup
 result
 .
 suggestions
-firstPart
 state
 )
 ;
