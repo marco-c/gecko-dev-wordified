@@ -1052,6 +1052,7 @@ return
 false
 ;
 }
+return
 mPatchedFns
 .
 append
@@ -1069,9 +1070,6 @@ GetBaseAddress
 )
 )
 )
-;
-return
-true
 ;
 }
 bool
@@ -1210,6 +1208,7 @@ if
 !
 writableFn
 .
+template
 VerifyValuesAreOneOf
 <
 uint8_t
@@ -1346,6 +1345,7 @@ if
 !
 writableFn
 .
+template
 VerifyValuesAreOneOf
 <
 uint16_t
