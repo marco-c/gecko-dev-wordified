@@ -1897,6 +1897,16 @@ uint8_t
 weight
 )
 ;
+void
+IncrementTrrCounter
+(
+)
+{
+mTrrStreams
++
++
+;
+}
 private
 :
 /
@@ -4018,6 +4028,9 @@ nsCStringHashKey
 uint32_t
 >
 mTunnelHash
+;
+uint32_t
+mTrrStreams
 ;
 }
 ;
