@@ -411,7 +411,7 @@ chrome
 stuff
 in
 a
-child
+content
 process
 )
 let
@@ -631,7 +631,7 @@ id
 {
 /
 /
-Child
+Content
 processes
 are
 not

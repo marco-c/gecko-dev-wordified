@@ -52,7 +52,7 @@ the
 ParentProcessTargetActor
 or
 a
-ChildProcessActor
+ContentProcessTargetActor
 .
 const
 {
