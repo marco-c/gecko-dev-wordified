@@ -372,7 +372,7 @@ performance
 /
 components
 /
-waterfall
+Waterfall
 "
 )
 )
@@ -395,9 +395,7 @@ performance
 /
 components
 /
-jit
--
-optimizations
+JITOptimizations
 "
 )
 )
@@ -420,9 +418,7 @@ performance
 /
 components
 /
-recording
--
-controls
+RecordingControls
 "
 )
 )
@@ -445,9 +441,7 @@ performance
 /
 components
 /
-recording
--
-button
+RecordingButton
 "
 )
 )
@@ -470,9 +464,7 @@ performance
 /
 components
 /
-recording
--
-list
+RecordingList
 "
 )
 )
@@ -495,11 +487,7 @@ performance
 /
 components
 /
-recording
--
-list
--
-item
+RecordingListItem
 "
 )
 )
