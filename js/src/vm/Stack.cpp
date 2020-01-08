@@ -599,10 +599,12 @@ isDebuggee
 (
 )
 )
+{
 setIsDebuggee
 (
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -1516,6 +1518,7 @@ hasInitialEnvironment
 (
 )
 )
+{
 AssertScopeMatchesEnvironment
 (
 fp
@@ -1538,6 +1541,7 @@ environmentChain
 )
 )
 ;
+}
 #
 endif
 }
@@ -1704,9 +1708,11 @@ environmentChain
 varObjRoot
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 probes
@@ -1830,6 +1836,7 @@ trackRecordReplayProgress
 (
 )
 )
+{
 mozilla
 :
 :
@@ -1840,6 +1847,7 @@ AdvanceExecutionProgressCounter
 (
 )
 ;
+}
 return
 false
 ;
@@ -1863,6 +1871,7 @@ isModuleFrame
 (
 )
 )
+{
 return
 probes
 :
@@ -1875,6 +1884,7 @@ nullptr
 this
 )
 ;
+}
 /
 /
 At
@@ -1936,9 +1946,11 @@ initFunctionEnvironmentObjects
 cx
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT_IF
 (
 isConstructing
@@ -2221,9 +2233,11 @@ isObject
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -2256,6 +2270,7 @@ isMagic
 JS_UNINITIALIZED_LEXICAL
 )
 )
+{
 return
 ThrowUninitializedThis
 (
@@ -2263,6 +2278,7 @@ cx
 this
 )
 ;
+}
 setReturnValue
 (
 thisv
@@ -2333,9 +2349,11 @@ if
 !
 env
 )
+{
 return
 false
 ;
+}
 pushOnEnvironmentChain
 (
 *
@@ -2395,9 +2413,11 @@ if
 !
 fresh
 )
+{
 return
 false
 ;
+}
 replaceInnermostEnvironment
 (
 *
@@ -2457,9 +2477,11 @@ if
 !
 fresh
 )
+{
 return
 false
 ;
+}
 replaceInnermostEnvironment
 (
 *
@@ -2514,6 +2536,7 @@ flags_
 &
 HAS_ARGS_OBJ
 )
+{
 TraceRoot
 (
 trc
@@ -2524,12 +2547,14 @@ arguments
 "
 )
 ;
+}
 if
 (
 hasReturnValue
 (
 )
 )
+{
 TraceRoot
 (
 trc
@@ -2540,6 +2565,7 @@ rval
 "
 )
 ;
+}
 MOZ_ASSERT
 (
 sp
@@ -2769,6 +2795,7 @@ nfixed
 >
 nlivefixed
 )
+{
 unaliasedLocal
 (
 -
@@ -2780,6 +2807,7 @@ setUndefined
 (
 )
 ;
+}
 /
 /
 Trace
@@ -2812,6 +2840,7 @@ debugEnvs
 (
 )
 )
+{
 debugEnvs
 -
 >
@@ -2821,6 +2850,7 @@ trc
 this
 )
 ;
+}
 }
 void
 InterpreterFrame
@@ -2843,6 +2873,7 @@ start
 <
 end
 )
+{
 TraceRootRange
 (
 trc
@@ -2859,6 +2890,7 @@ vm_stack
 "
 )
 ;
+}
 }
 static
 void
@@ -2975,6 +3007,7 @@ isInterpreter
 (
 )
 )
+{
 TraceInterpreterActivation
 (
 trc
@@ -2986,6 +3019,7 @@ asInterpreter
 )
 )
 ;
+}
 }
 }
 /
@@ -3286,9 +3320,11 @@ if
 !
 fp
 )
+{
 return
 nullptr
 ;
+}
 fp
 -
 >
@@ -3396,9 +3432,11 @@ if
 !
 buffer
 )
+{
 return
 nullptr
 ;
+}
 InterpreterFrame
 *
 fp
@@ -3586,12 +3624,14 @@ isSome
 (
 )
 )
+{
 iter_
 .
 destroy
 (
 )
 ;
+}
 if
 (
 !
@@ -3601,10 +3641,12 @@ isSome
 (
 )
 )
+{
 return
 *
 this
 ;
+}
 if
 (
 another
@@ -3817,10 +3859,12 @@ done
 (
 )
 )
+{
 +
 +
 frames
 ;
+}
 settle
 (
 )
@@ -3850,9 +3894,11 @@ isWasm
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 asJSJit
 (
@@ -3895,6 +3941,7 @@ isWasm
 (
 )
 )
+{
 return
 asWasm
 (
@@ -3909,6 +3956,7 @@ realm
 (
 )
 ;
+}
 return
 asJSJit
 (
@@ -3940,15 +3988,18 @@ isSome
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 isJSJit
 (
 )
 )
+{
 return
 asJSJit
 (
@@ -3958,12 +4009,14 @@ done
 (
 )
 ;
+}
 if
 (
 isWasm
 (
 )
 )
+{
 return
 asWasm
 (
@@ -3973,6 +4026,7 @@ done
 (
 )
 ;
+}
 MOZ_CRASH
 (
 "
@@ -4026,8 +4080,10 @@ FrameType
 :
 WasmToJSJit
 )
+{
 return
 ;
+}
 /
 /
 Transition
@@ -4184,6 +4240,7 @@ if
 (
 mustUnwindActivation_
 )
+{
 act_
 -
 >
@@ -4192,6 +4249,7 @@ setWasmExitFP
 prevFP
 )
 ;
+}
 iter_
 .
 destroy
@@ -4255,8 +4313,10 @@ unwoundIonCallerFP
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 Transition
@@ -4396,6 +4456,7 @@ if
 (
 mustUnwindActivation_
 )
+{
 act_
 -
 >
@@ -4404,6 +4465,7 @@ setJSExitFP
 prevFP
 )
 ;
+}
 iter_
 .
 destroy
@@ -4497,6 +4559,7 @@ isScripted
 (
 )
 )
+{
 prevFrame
 =
 jitFrame
@@ -4505,6 +4568,7 @@ jsFrame
 (
 )
 ;
+}
 +
 +
 asJSJit
@@ -4846,9 +4910,11 @@ data_
 .
 principals_
 )
+{
 return
 true
 ;
+}
 JSSubsumesOp
 subsumes
 =
@@ -4872,9 +4938,11 @@ if
 !
 subsumes
 )
+{
 return
 true
 ;
+}
 return
 subsumes
 (
@@ -4926,11 +4994,14 @@ done
 (
 )
 )
+{
 popActivation
 (
 )
 ;
+}
 else
+{
 data_
 .
 pc_
@@ -4943,6 +5014,7 @@ pc
 (
 )
 ;
+}
 }
 void
 FrameIter
@@ -5520,11 +5592,13 @@ principalsSubsumeFrame
 (
 )
 )
+{
 +
 +
 *
 this
 ;
+}
 }
 FrameIter
 :
@@ -5622,10 +5696,12 @@ data
 .
 ionInlineFrameNo_
 )
+{
 +
 +
 ionInlineFrames_
 ;
+}
 }
 }
 void
@@ -5944,15 +6020,19 @@ state_
 =
 JIT
 )
+{
 popJitFrame
 (
 )
 ;
+}
 else
+{
 popInterpreterFrame
 (
 )
 ;
+}
 }
 break
 ;
@@ -5984,8 +6064,10 @@ principalsSubsumeFrame
 (
 )
 )
+{
 break
 ;
+}
 }
 return
 *
@@ -6027,9 +6109,11 @@ if
 !
 data
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 data
@@ -6039,6 +6123,7 @@ isIonScripted
 (
 )
 )
+{
 data
 -
 >
@@ -6050,6 +6135,7 @@ frameNo
 (
 )
 ;
+}
 return
 data
 ;
@@ -6094,6 +6180,7 @@ isJSJit
 (
 )
 )
+{
 return
 jsJitFrame
 (
@@ -6103,6 +6190,7 @@ fp
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 isWasm
@@ -6198,6 +6286,7 @@ hasScript
 (
 )
 )
+{
 return
 script
 (
@@ -6208,6 +6297,7 @@ realm
 (
 )
 ;
+}
 return
 wasmInstance
 (
@@ -6273,6 +6363,7 @@ isBaselineJS
 (
 )
 )
+{
 return
 jsJitFrame
 (
@@ -6287,6 +6378,7 @@ isEvalFrame
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -6386,6 +6478,7 @@ isBaselineJS
 (
 )
 )
+{
 return
 jsJitFrame
 (
@@ -6400,6 +6493,7 @@ isFunctionFrame
 (
 )
 ;
+}
 return
 script
 (
@@ -6465,6 +6559,7 @@ isWasm
 (
 )
 )
+{
 return
 wasmFrame
 (
@@ -6474,12 +6569,14 @@ functionDisplayAtom
 (
 )
 ;
+}
 if
 (
 isFunctionFrame
 (
 )
 )
+{
 return
 calleeTemplate
 (
@@ -6490,6 +6587,7 @@ displayAtom
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -6586,6 +6684,7 @@ isWasm
 (
 )
 )
+{
 return
 wasmFrame
 (
@@ -6595,6 +6694,7 @@ filename
 (
 )
 ;
+}
 return
 script
 (
@@ -6650,6 +6750,7 @@ isWasm
 (
 )
 )
+{
 return
 wasmFrame
 (
@@ -6659,6 +6760,7 @@ displayURL
 (
 )
 ;
+}
 ScriptSource
 *
 ss
@@ -6735,6 +6837,7 @@ isWasm
 (
 )
 )
+{
 return
 wasmFrame
 (
@@ -6745,6 +6848,7 @@ computeLine
 column
 )
 ;
+}
 return
 PCToLineNumber
 (
@@ -6800,6 +6904,7 @@ isWasm
 (
 )
 )
+{
 return
 wasmFrame
 (
@@ -6809,6 +6914,7 @@ mutedErrors
 (
 )
 ;
+}
 return
 script
 (
@@ -6870,6 +6976,7 @@ isIonScripted
 (
 )
 )
+{
 return
 ionInlineFrames_
 .
@@ -6877,6 +6984,7 @@ isConstructing
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 jsJitFrame
@@ -7002,9 +7110,11 @@ isBaselineJS
 (
 )
 )
+{
 return
 true
 ;
+}
 MOZ_ASSERT
 (
 jsJitFrame
@@ -7127,6 +7237,7 @@ isBaselineJS
 (
 )
 )
+{
 return
 jsJitFrame
 (
@@ -7136,6 +7247,7 @@ baselineFrame
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 isIonScripted
@@ -7302,12 +7414,14 @@ frame
 =
 frame
 )
+{
 +
 +
 data_
 .
 interpFrames_
 ;
+}
 /
 /
 Update
@@ -7430,12 +7544,14 @@ activation
 =
 activation
 )
+{
 +
 +
 data_
 .
 activations_
 ;
+}
 /
 /
 Look
@@ -7622,12 +7738,14 @@ debugFrame
 =
 frame
 )
+{
 +
 +
 data_
 .
 jitFrames_
 ;
+}
 MOZ_ASSERT
 (
 wasmFrame
@@ -7699,6 +7817,7 @@ isBaselineJS
 (
 )
 )
+{
 return
 jsJitFrame
 (
@@ -7708,6 +7827,7 @@ callee
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 jsJitFrame
@@ -8145,6 +8265,7 @@ isIonScripted
 (
 )
 )
+{
 return
 ionInlineFrames_
 .
@@ -8152,6 +8273,7 @@ numActualArgs
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 jsJitFrame
@@ -8410,6 +8532,7 @@ CallObject
 (
 )
 )
+{
 pobj
 =
 pobj
@@ -8419,6 +8542,7 @@ enclosingEnvironment
 (
 )
 ;
+}
 return
 pobj
 -
@@ -8691,6 +8815,7 @@ isBaselineJS
 (
 )
 )
+{
 return
 jsJitFrame
 (
@@ -8705,6 +8830,7 @@ returnValue
 (
 )
 ;
+}
 break
 ;
 case
@@ -9178,6 +9304,7 @@ selfHosted
 (
 )
 )
+{
 FrameIter
 :
 :
@@ -9187,6 +9314,7 @@ operator
 (
 )
 ;
+}
 }
 }
 void
@@ -9222,6 +9350,7 @@ selfHosted
 (
 )
 )
+{
 ScriptFrameIter
 :
 :
@@ -9231,6 +9360,7 @@ operator
 (
 )
 ;
+}
 }
 }
 ActivationEntryMonitor
@@ -9418,6 +9548,7 @@ isFunctionFrame
 (
 )
 )
+{
 entryMonitor_
 -
 >
@@ -9435,7 +9566,9 @@ stack
 asyncCause
 )
 ;
+}
 else
+{
 entryMonitor_
 -
 >
@@ -9452,6 +9585,7 @@ stack
 asyncCause
 )
 ;
+}
 }
 }
 ActivationEntryMonitor
@@ -9554,6 +9688,7 @@ CalleeTokenIsFunction
 entryToken
 )
 )
+{
 entryMonitor_
 -
 >
@@ -9571,7 +9706,9 @@ stack
 asyncCause
 )
 ;
+}
 else
+{
 entryMonitor_
 -
 >
@@ -9589,6 +9726,7 @@ stack
 asyncCause
 )
 ;
+}
 }
 }
 /
@@ -9752,10 +9890,12 @@ isProfiling
 (
 )
 )
+{
 unregisterProfiling
 (
 )
 ;
+}
 cx_
 -
 >
@@ -9893,8 +10033,10 @@ if
 !
 rematerializedFrames_
 )
+{
 return
 ;
+}
 if
 (
 RematerializedFrameTable
@@ -9951,8 +10093,10 @@ if
 !
 rematerializedFrames_
 )
+{
 return
 ;
+}
 for
 (
 RematerializedFrameTable
@@ -10072,9 +10216,11 @@ if
 !
 rematerializedFrames_
 )
+{
 return
 nullptr
 ;
+}
 }
 uint8_t
 *
@@ -10257,9 +10403,11 @@ recover
 frames
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -10351,9 +10499,11 @@ if
 !
 rematerializedFrames_
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 RematerializedFrameTable
@@ -10370,6 +10520,7 @@ lookup
 top
 )
 )
+{
 return
 inlineDepth
 <
@@ -10396,6 +10547,7 @@ inlineDepth
 :
 nullptr
 ;
+}
 return
 nullptr
 ;
@@ -10479,8 +10631,10 @@ isDebuggee
 !
 rematerializedFrames_
 )
+{
 return
 ;
+}
 if
 (
 RematerializedFrameTable
@@ -10522,6 +10676,7 @@ i
 +
 +
 )
+{
 Debugger
 :
 :
@@ -10539,6 +10694,7 @@ i
 ]
 )
 ;
+}
 RematerializedFrame
 :
 :
@@ -10581,8 +10737,10 @@ if
 !
 rematerializedFrames_
 )
+{
 return
 ;
+}
 for
 (
 RematerializedFrameTable
@@ -10608,6 +10766,7 @@ popFront
 (
 )
 )
+{
 e
 .
 front
@@ -10623,6 +10782,7 @@ trace
 trc
 )
 ;
+}
 }
 bool
 jit
@@ -10681,9 +10841,11 @@ results
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -10741,9 +10903,11 @@ frame
 =
 fp
 )
+{
 return
 it
 ;
+}
 }
 return
 nullptr
@@ -10777,8 +10941,10 @@ if
 !
 elem
 )
+{
 return
 ;
+}
 ionRecovery_
 .
 erase
@@ -10826,6 +10992,7 @@ it
 +
 +
 )
+{
 it
 -
 >
@@ -10834,6 +11001,7 @@ trace
 trc
 )
 ;
+}
 }
 void
 jit
@@ -10993,6 +11161,7 @@ if
 (
 unwound
 )
+{
 bytecodeOffset
 =
 code
@@ -11007,6 +11176,7 @@ lineOrBytecode
 (
 )
 ;
+}
 setWasmExitFP
 (
 fp
@@ -11356,6 +11526,7 @@ enabled
 (
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -11371,6 +11542,7 @@ runtime
 "
 )
 ;
+}
 if
 (
 !
@@ -11381,8 +11553,10 @@ profilingActivation
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 If
@@ -11403,8 +11577,10 @@ isProfilerSamplingEnabled
 (
 )
 )
+{
 return
 ;
+}
 activation_
 =
 cx
@@ -11585,19 +11761,23 @@ isWasm
 (
 )
 )
+{
 +
 +
 wasmIter
 (
 )
 ;
+}
 else
+{
 +
 +
 jsJitIter
 (
 )
 ;
+}
 settle
 (
 )
@@ -11899,8 +12079,10 @@ if
 !
 activation_
 )
+{
 return
 ;
+}
 iteratorConstruct
 (
 )
@@ -12394,6 +12576,7 @@ isWasm
 (
 )
 )
+{
 return
 wasmIter
 (
@@ -12403,6 +12586,7 @@ done
 (
 )
 ;
+}
 return
 jsJitIter
 (
@@ -12450,6 +12634,7 @@ isWasm
 (
 )
 )
+{
 return
 wasmIter
 (
@@ -12459,6 +12644,7 @@ stackAddress
 (
 )
 ;
+}
 return
 jsJitIter
 (
@@ -12628,6 +12814,7 @@ if
 (
 samplePositionInProfilerBuffer_
 )
+{
 *
 entry
 =
@@ -12647,7 +12834,9 @@ runtime
 samplePositionInProfilerBuffer_
 )
 ;
+}
 else
+{
 *
 entry
 =
@@ -12659,6 +12848,7 @@ lookupInfallible
 returnAddr
 )
 ;
+}
 MOZ_ASSERT
 (
 entry
@@ -12711,6 +12901,7 @@ isDummy
 (
 )
 )
+{
 return
 mozilla
 :
@@ -12719,6 +12910,7 @@ Nothing
 (
 )
 ;
+}
 Frame
 frame
 ;
@@ -12813,9 +13005,11 @@ offset
 =
 end
 )
+{
 return
 0
 ;
+}
 jit
 :
 :
@@ -12851,9 +13045,11 @@ isNothing
 (
 )
 )
+{
 return
 0
 ;
+}
 if
 (
 isWasm
@@ -12977,9 +13173,11 @@ i
 =
 end
 )
+{
 return
 i
 ;
+}
 frames
 [
 offset

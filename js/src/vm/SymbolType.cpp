@@ -337,9 +337,11 @@ if
 !
 atom
 )
+{
 return
 nullptr
 ;
+}
 }
 Symbol
 *
@@ -367,6 +369,7 @@ if
 (
 sym
 )
+{
 cx
 -
 >
@@ -375,6 +378,7 @@ markAtom
 sym
 )
 ;
+}
 return
 sym
 ;
@@ -408,9 +412,11 @@ if
 !
 atom
 )
+{
 return
 nullptr
 ;
+}
 SymbolRegistry
 &
 registry
@@ -518,9 +524,11 @@ if
 !
 sym
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 p
@@ -716,6 +724,7 @@ if
 (
 description_
 )
+{
 description_
 -
 >
@@ -724,7 +733,9 @@ dumpCharsNoNewline
 out
 )
 ;
+}
 else
+{
 out
 .
 printf
@@ -734,6 +745,7 @@ undefined
 "
 )
 ;
+}
 out
 .
 putChar
@@ -753,6 +765,7 @@ SymbolCode
 :
 UniqueSymbol
 )
+{
 out
 .
 printf
@@ -768,6 +781,7 @@ void
 this
 )
 ;
+}
 }
 else
 {
@@ -848,9 +862,11 @@ Symbol
 "
 )
 )
+{
 return
 false
 ;
+}
 RootedString
 str
 (
@@ -878,9 +894,11 @@ append
 str
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -894,9 +912,11 @@ append
 '
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 step
@@ -914,9 +934,11 @@ if
 !
 str
 )
+{
 return
 false
 ;
+}
 result
 .
 setString

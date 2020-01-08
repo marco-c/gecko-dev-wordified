@@ -458,9 +458,11 @@ isRope
 (
 )
 )
+{
 return
 0
 ;
+}
 MOZ_ASSERT
 (
 isLinear
@@ -493,9 +495,11 @@ isDependent
 (
 )
 )
+{
 return
 0
 ;
+}
 /
 /
 JSExternalString
@@ -670,9 +674,11 @@ isInline
 (
 )
 )
+{
 return
 0
 ;
+}
 /
 /
 JSAtom
@@ -793,6 +799,7 @@ isAtom
 (
 )
 )
+{
 size
 =
 str
@@ -817,7 +824,9 @@ js
 NormalAtom
 )
 ;
+}
 else
+{
 size
 =
 str
@@ -836,6 +845,7 @@ sizeof
 JSString
 )
 ;
+}
 if
 (
 IsInsideNursery
@@ -844,6 +854,7 @@ IsInsideNursery
 str
 )
 )
+{
 size
 +
 =
@@ -854,6 +865,7 @@ stringHeaderSize
 (
 )
 ;
+}
 size
 +
 =
@@ -952,10 +964,12 @@ s
 n
 ]
 )
+{
 n
 +
 +
 ;
+}
 }
 out
 .
@@ -1001,6 +1015,7 @@ c
 n
 '
 )
+{
 out
 .
 put
@@ -1012,6 +1027,7 @@ n
 "
 )
 ;
+}
 else
 if
 (
@@ -1023,6 +1039,7 @@ c
 t
 '
 )
+{
 out
 .
 put
@@ -1034,6 +1051,7 @@ t
 "
 )
 ;
+}
 else
 if
 (
@@ -1047,6 +1065,7 @@ c
 <
 127
 )
+{
 out
 .
 putChar
@@ -1060,6 +1079,7 @@ i
 ]
 )
 ;
+}
 else
 if
 (
@@ -1068,6 +1088,7 @@ c
 =
 255
 )
+{
 out
 .
 printf
@@ -1085,7 +1106,9 @@ c
 )
 )
 ;
+}
 else
+{
 out
 .
 printf
@@ -1103,6 +1126,7 @@ c
 )
 )
 ;
+}
 }
 out
 .
@@ -1191,6 +1215,7 @@ hasLatin1Chars
 (
 )
 )
+{
 dumpChars
 (
 linear
@@ -1206,7 +1231,9 @@ length
 out
 )
 ;
+}
 else
+{
 dumpChars
 (
 linear
@@ -1222,6 +1249,7 @@ length
 out
 )
 ;
+}
 }
 else
 {
@@ -1488,6 +1516,7 @@ isRope
 (
 )
 )
+{
 asRope
 (
 )
@@ -1498,6 +1527,7 @@ out
 indent
 )
 ;
+}
 else
 if
 (
@@ -1505,6 +1535,7 @@ isDependent
 (
 )
 )
+{
 asDependent
 (
 )
@@ -1515,6 +1546,7 @@ out
 indent
 )
 ;
+}
 else
 if
 (
@@ -1522,6 +1554,7 @@ isExternal
 (
 )
 )
+{
 asExternal
 (
 )
@@ -1532,6 +1565,7 @@ out
 indent
 )
 ;
+}
 else
 if
 (
@@ -1539,6 +1573,7 @@ isExtensible
 (
 )
 )
+{
 asExtensible
 (
 )
@@ -1549,6 +1584,7 @@ out
 indent
 )
 ;
+}
 else
 if
 (
@@ -1556,6 +1592,7 @@ isInline
 (
 )
 )
+{
 asInline
 (
 )
@@ -1566,6 +1603,7 @@ out
 indent
 )
 ;
+}
 else
 if
 (
@@ -1573,6 +1611,7 @@ isFlat
 (
 )
 )
+{
 asFlat
 (
 )
@@ -1583,7 +1622,9 @@ out
 indent
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -1593,6 +1634,7 @@ representation
 "
 )
 ;
+}
 }
 void
 JSString
@@ -2424,6 +2466,7 @@ if
 (
 maybecx
 )
+{
 out
 .
 reset
@@ -2442,7 +2485,9 @@ n
 )
 )
 ;
+}
 else
+{
 out
 .
 reset
@@ -2458,14 +2503,17 @@ n
 )
 )
 ;
+}
 if
 (
 !
 out
 )
+{
 return
 nullptr
 ;
+}
 Vector
 <
 const
@@ -2539,11 +2587,13 @@ if
 (
 maybecx
 )
+{
 ReportOutOfMemory
 (
 maybecx
 )
 ;
+}
 return
 nullptr
 ;
@@ -2593,8 +2643,10 @@ empty
 (
 )
 )
+{
 break
 ;
+}
 str
 =
 nodeStack
@@ -2621,6 +2673,7 @@ if
 (
 nullTerminate
 )
+{
 out
 [
 n
@@ -2628,6 +2681,7 @@ n
 =
 0
 ;
+}
 return
 out
 ;
@@ -2790,6 +2844,7 @@ hasLatin1Chars
 (
 )
 )
+{
 AddStringToHash
 (
 hash
@@ -2806,7 +2861,9 @@ length
 )
 )
 ;
+}
 else
+{
 AddStringToHash
 (
 hash
@@ -2823,6 +2880,7 @@ length
 )
 )
 ;
+}
 }
 bool
 JSRope
@@ -2892,9 +2950,11 @@ rightChild
 )
 )
 )
+{
 return
 false
 ;
+}
 str
 =
 str
@@ -2925,8 +2985,10 @@ empty
 (
 )
 )
+{
 break
 ;
+}
 str
 =
 nodeStack
@@ -3067,6 +3129,7 @@ hasTwoByteChars
 (
 )
 )
+{
 PodCopy
 (
 dest
@@ -3083,7 +3146,9 @@ length
 )
 )
 ;
+}
 else
+{
 CopyAndInflateChars
 (
 dest
@@ -3100,6 +3165,7 @@ length
 )
 )
 ;
+}
 }
 template
 <
@@ -3962,6 +4028,7 @@ isRope
 (
 )
 )
+{
 leftMostRope
 =
 &
@@ -3977,6 +4044,7 @@ asRope
 (
 )
 ;
+}
 if
 (
 leftMostRope
@@ -4293,6 +4361,7 @@ char16_t
 :
 value
 )
+{
 left
 .
 setLengthAndFlags
@@ -4301,7 +4370,9 @@ left_len
 DEPENDENT_FLAGS
 )
 ;
+}
 else
+{
 left
 .
 setLengthAndFlags
@@ -4312,6 +4383,7 @@ DEPENDENT_FLAGS
 LATIN1_CHARS_BIT
 )
 ;
+}
 left
 .
 d
@@ -4487,11 +4559,13 @@ if
 (
 maybecx
 )
+{
 ReportOutOfMemory
 (
 maybecx
 )
 ;
+}
 return
 nullptr
 ;
@@ -4539,11 +4613,13 @@ if
 (
 maybecx
 )
+{
 ReportOutOfMemory
 (
 maybecx
 )
 ;
+}
 return
 nullptr
 ;
@@ -4816,6 +4892,7 @@ char16_t
 :
 value
 )
+{
 str
 -
 >
@@ -4825,7 +4902,9 @@ wholeLength
 EXTENSIBLE_FLAGS
 )
 ;
+}
 else
+{
 str
 -
 >
@@ -4837,6 +4916,7 @@ EXTENSIBLE_FLAGS
 LATIN1_CHARS_BIT
 )
 ;
+}
 str
 -
 >
@@ -4897,6 +4977,7 @@ char16_t
 :
 value
 )
+{
 flattenData
 =
 str
@@ -4908,7 +4989,9 @@ len
 DEPENDENT_FLAGS
 )
 ;
+}
 else
+{
 flattenData
 =
 str
@@ -4922,6 +5005,7 @@ DEPENDENT_FLAGS
 LATIN1_CHARS_BIT
 )
 ;
+}
 str
 -
 >
@@ -5077,6 +5161,7 @@ isTenured
 (
 )
 )
+{
 bufferIfNursery
 -
 >
@@ -5085,6 +5170,7 @@ putWholeCell
 str
 )
 ;
+}
 str
 =
 (
@@ -5109,9 +5195,11 @@ Tag_Mask
 =
 Tag_VisitRightChild
 )
+{
 goto
 visit_right_child
 ;
+}
 MOZ_ASSERT
 (
 (
@@ -5155,6 +5243,7 @@ hasTwoByteChars
 (
 )
 )
+{
 return
 flattenInternal
 <
@@ -5165,6 +5254,7 @@ char16_t
 maybecx
 )
 ;
+}
 return
 flattenInternal
 <
@@ -5210,6 +5300,7 @@ helperThread
 (
 )
 )
+{
 entry
 .
 emplace
@@ -5223,6 +5314,7 @@ flatten
 "
 )
 ;
+}
 if
 (
 zone
@@ -5234,6 +5326,7 @@ needsIncrementalBarrier
 (
 )
 )
+{
 return
 flattenInternal
 <
@@ -5243,6 +5336,7 @@ WithIncrementalBarrier
 maybecx
 )
 ;
+}
 return
 flattenInternal
 <
@@ -5317,6 +5411,7 @@ linear
 !
 allowGC
 )
+{
 cx
 -
 >
@@ -5324,6 +5419,7 @@ recoverFromOutOfMemory
 (
 )
 ;
+}
 return
 linear
 ;
@@ -5420,9 +5516,11 @@ leftLen
 =
 0
 )
+{
 return
 right
 ;
+}
 size_t
 rightLen
 =
@@ -5440,9 +5538,11 @@ rightLen
 =
 0
 )
+{
 return
 left
 ;
+}
 size_t
 wholeLength
 =
@@ -5484,6 +5584,7 @@ if
 (
 allowGC
 )
+{
 js
 :
 :
@@ -5492,6 +5593,7 @@ ReportAllocationOverflow
 cx
 )
 ;
+}
 return
 nullptr
 ;
@@ -5605,9 +5707,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 AutoCheckCannotGC
 nogc
 ;
@@ -5629,9 +5733,11 @@ if
 !
 leftLinear
 )
+{
 return
 nullptr
 ;
+}
 JSLinearString
 *
 rightLinear
@@ -5650,9 +5756,11 @@ if
 !
 rightLinear
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 isLatin1
@@ -5705,6 +5813,7 @@ hasTwoByteChars
 (
 )
 )
+{
 PodCopy
 (
 twoByteBuf
@@ -5718,7 +5827,9 @@ nogc
 leftLen
 )
 ;
+}
 else
+{
 CopyAndInflateChars
 (
 twoByteBuf
@@ -5732,6 +5843,7 @@ nogc
 leftLen
 )
 ;
+}
 if
 (
 rightLinear
@@ -5741,6 +5853,7 @@ hasTwoByteChars
 (
 )
 )
+{
 PodCopy
 (
 twoByteBuf
@@ -5756,7 +5869,9 @@ nogc
 rightLen
 )
 ;
+}
 else
+{
 CopyAndInflateChars
 (
 twoByteBuf
@@ -5772,6 +5887,7 @@ nogc
 rightLen
 )
 ;
+}
 twoByteBuf
 [
 wholeLength
@@ -5891,9 +6007,11 @@ if
 !
 s
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -6026,6 +6144,7 @@ Latin1Char
 :
 value
 )
+{
 setLengthAndFlags
 (
 n
@@ -6034,13 +6153,16 @@ UNDEPENDED_FLAGS
 LATIN1_CHARS_BIT
 )
 ;
+}
 else
+{
 setLengthAndFlags
 (
 n
 UNDEPENDED_FLAGS
 )
 ;
+}
 return
 &
 this
@@ -6152,6 +6274,7 @@ baseOffset
 (
 )
 )
+{
 out
 .
 printf
@@ -6173,6 +6296,7 @@ indent
 offset
 )
 ;
+}
 out
 .
 printf
@@ -6266,6 +6390,7 @@ hasTwoByteChars
 (
 )
 )
+{
 return
 ArrayEqual
 (
@@ -6286,6 +6411,7 @@ nogc
 len
 )
 ;
+}
 return
 EqualChars
 (
@@ -6316,6 +6442,7 @@ hasLatin1Chars
 (
 )
 )
+{
 return
 ArrayEqual
 (
@@ -6336,6 +6463,7 @@ nogc
 len
 )
 ;
+}
 return
 EqualChars
 (
@@ -6440,6 +6568,7 @@ hasLatin1Chars
 (
 )
 )
+{
 return
 ArrayEqual
 (
@@ -6454,6 +6583,7 @@ nogc
 patLen
 )
 ;
+}
 return
 EqualChars
 (
@@ -6493,6 +6623,7 @@ hasTwoByteChars
 (
 )
 )
+{
 return
 ArrayEqual
 (
@@ -6507,6 +6638,7 @@ nogc
 patLen
 )
 ;
+}
 return
 EqualChars
 (
@@ -6608,9 +6740,11 @@ if
 !
 linear1
 )
+{
 return
 false
 ;
+}
 JSLinearString
 *
 linear2
@@ -6628,9 +6762,11 @@ if
 !
 linear2
 )
+{
 return
 false
 ;
+}
 *
 result
 =
@@ -6665,9 +6801,11 @@ str1
 =
 str2
 )
+{
 return
 true
 ;
+}
 size_t
 length1
 =
@@ -6690,9 +6828,11 @@ length
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 EqualChars
 (
@@ -6977,9 +7117,11 @@ if
 !
 linear1
 )
+{
 return
 false
 ;
+}
 JSLinearString
 *
 linear2
@@ -6997,9 +7139,11 @@ if
 !
 linear2
 )
+{
 return
 false
 ;
+}
 *
 result
 =
@@ -7077,6 +7221,7 @@ length
 +
 i
 )
+{
 MOZ_ASSERT
 (
 unsigned
@@ -7091,6 +7236,7 @@ i
 127
 )
 ;
+}
 #
 endif
 if
@@ -7105,9 +7251,11 @@ length
 (
 )
 )
+{
 return
 false
 ;
+}
 const
 Latin1Char
 *
@@ -7202,18 +7350,22 @@ IsAsciiDigit
 ch
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 length
 >
 UINT32_CHAR_BUFFER_LENGTH
 )
+{
 return
 false
 ;
+}
 /
 *
 *
@@ -7360,9 +7512,11 @@ cp
 =
 end
 )
+{
 return
 false
 ;
+}
 /
 *
 *
@@ -8130,9 +8284,11 @@ if
 !
 s
 )
+{
 return
 false
 ;
+}
 HashNumber
 hash
 =
@@ -8224,9 +8380,11 @@ if
 !
 s
 )
+{
 return
 false
 ;
+}
 HashNumber
 hash
 =
@@ -8423,9 +8581,11 @@ if
 !
 s
 )
+{
 return
 false
 ;
+}
 HashNumber
 hash
 =
@@ -8558,6 +8718,7 @@ i
 +
 +
 )
+{
 TraceStaticString
 (
 trc
@@ -8574,6 +8735,7 @@ string
 "
 )
 ;
+}
 for
 (
 uint32_t
@@ -8591,6 +8753,7 @@ i
 +
 +
 )
+{
 TraceStaticString
 (
 trc
@@ -8607,6 +8770,7 @@ string
 "
 )
 ;
+}
 /
 *
 This
@@ -8639,6 +8803,7 @@ i
 +
 +
 )
+{
 TraceStaticString
 (
 trc
@@ -8655,6 +8820,7 @@ string
 "
 )
 ;
+}
 }
 template
 <
@@ -8948,9 +9114,11 @@ if
 !
 linearString
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 state_
@@ -8978,9 +9146,11 @@ ensureFlat
 cx
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 If
@@ -9115,9 +9285,11 @@ if
 !
 linearString
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 state_
@@ -9135,6 +9307,7 @@ hasLatin1Chars
 (
 )
 )
+{
 return
 copyAndInflateLatin1Chars
 (
@@ -9142,6 +9315,7 @@ cx
 linearString
 )
 ;
+}
 if
 (
 linearString
@@ -9161,9 +9335,11 @@ ensureFlat
 cx
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 If
@@ -9196,6 +9372,7 @@ baseIsInline
 linearString
 )
 )
+{
 return
 copyTwoByteChars
 (
@@ -9203,6 +9380,7 @@ cx
 linearString
 )
 ;
+}
 state_
 =
 TwoByte
@@ -9249,6 +9427,7 @@ isDependent
 (
 )
 )
+{
 base
 =
 base
@@ -9262,6 +9441,7 @@ base
 (
 )
 ;
+}
 return
 base
 -
@@ -9485,9 +9665,11 @@ if
 !
 chars
 )
+{
 return
 false
 ;
+}
 CopyAndInflateChars
 (
 chars
@@ -9582,9 +9764,11 @@ if
 !
 chars
 )
+{
 return
 false
 ;
+}
 PodCopy
 (
 chars
@@ -9663,9 +9847,11 @@ if
 !
 chars
 )
+{
 return
 false
 ;
+}
 PodCopy
 (
 chars
@@ -9719,18 +9905,21 @@ isFlat
 (
 )
 )
+{
 return
 &
 asFlat
 (
 )
 ;
+}
 if
 (
 isDependent
 (
 )
 )
+{
 return
 asDependent
 (
@@ -9741,12 +9930,14 @@ undepend
 cx
 )
 ;
+}
 if
 (
 isRope
 (
 )
 )
+{
 return
 asRope
 (
@@ -9757,6 +9948,7 @@ flatten
 cx
 )
 ;
+}
 return
 asExternal
 (
@@ -9815,9 +10007,11 @@ if
 !
 s
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -10181,6 +10375,7 @@ length
 =
 0
 )
+{
 return
 cx
 -
@@ -10189,6 +10384,7 @@ emptyString
 (
 )
 ;
+}
 JSLinearString
 *
 base
@@ -10206,9 +10402,11 @@ if
 !
 base
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 start
@@ -10227,9 +10425,11 @@ length
 (
 )
 )
+{
 return
 base
 ;
+}
 if
 (
 base
@@ -10277,9 +10477,11 @@ chars
 length
 )
 )
+{
 return
 staticStr
 ;
+}
 }
 else
 {
@@ -10320,9 +10522,11 @@ chars
 length
 )
 )
+{
 return
 staticStr
 ;
+}
 }
 return
 JSDependentString
@@ -10379,9 +10583,11 @@ JSString
 :
 MAX_LATIN1_CHAR
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -10472,9 +10678,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 for
 (
 size_t
@@ -10619,6 +10827,7 @@ n
 =
 0
 )
+{
 return
 cx
 -
@@ -10627,6 +10836,7 @@ emptyString
 (
 )
 ;
+}
 if
 (
 JSFlatString
@@ -10646,9 +10856,11 @@ chars
 n
 )
 )
+{
 return
 str
 ;
+}
 }
 return
 nullptr
@@ -10688,9 +10900,11 @@ s
 n
 )
 )
+{
 return
 str
 ;
+}
 if
 (
 JSInlineString
@@ -10704,6 +10918,7 @@ Latin1Char
 n
 )
 )
+{
 return
 NewInlineStringDeflated
 <
@@ -10725,6 +10940,7 @@ n
 )
 )
 ;
+}
 auto
 news
 =
@@ -10746,9 +10962,11 @@ if
 !
 news
 )
+{
 return
 nullptr
 ;
+}
 for
 (
 size_t
@@ -10829,9 +11047,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 mozilla
 :
 :
@@ -11003,9 +11223,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 js_free
 (
 chars
@@ -11126,9 +11348,11 @@ if
 !
 s
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Free
@@ -11251,9 +11475,11 @@ get
 length
 )
 )
+{
 return
 str
 ;
+}
 if
 (
 JSInlineString
@@ -11267,6 +11493,7 @@ CharT
 length
 )
 )
+{
 return
 NewInlineString
 <
@@ -11292,6 +11519,7 @@ length
 )
 )
 ;
+}
 JSFlatString
 *
 str
@@ -11318,9 +11546,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 mozilla
 :
 :
@@ -11471,6 +11701,7 @@ get
 length
 )
 )
+{
 return
 NewStringDeflated
 <
@@ -11486,6 +11717,7 @@ get
 length
 )
 ;
+}
 return
 NewStringDontDeflate
 <
@@ -11622,9 +11854,11 @@ s
 n
 )
 )
+{
 return
 str
 ;
+}
 if
 (
 JSInlineString
@@ -11638,6 +11872,7 @@ CharT
 n
 )
 )
+{
 return
 NewInlineString
 <
@@ -11659,6 +11894,7 @@ n
 )
 )
 ;
+}
 auto
 news
 =
@@ -11686,6 +11922,7 @@ if
 !
 allowGC
 )
+{
 cx
 -
 >
@@ -11693,6 +11930,7 @@ recoverFromOutOfMemory
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -11741,9 +11979,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 mozilla
 :
 :
@@ -11934,6 +12174,7 @@ s
 n
 )
 )
+{
 return
 NewStringDeflated
 <
@@ -11945,6 +12186,7 @@ s
 n
 )
 ;
+}
 return
 NewStringCopyNDontDeflate
 <
@@ -12083,6 +12325,7 @@ SmallestEncoding
 :
 ASCII
 )
+{
 return
 NewStringCopyN
 <
@@ -12106,6 +12349,7 @@ length
 )
 )
 ;
+}
 size_t
 length
 ;
@@ -12144,9 +12388,11 @@ if
 !
 latin1
 )
+{
 return
 nullptr
 ;
+}
 return
 NewString
 <
@@ -12200,9 +12446,11 @@ if
 !
 utf16
 )
+{
 return
 nullptr
 ;
+}
 return
 NewString
 <
@@ -12301,8 +12549,10 @@ length
 =
 len
 )
+{
 continue
 ;
+}
 const
 char16_t
 *
@@ -12425,9 +12675,11 @@ strChars
 len
 )
 )
+{
 return
 str
 ;
+}
 }
 return
 nullptr
@@ -12472,6 +12724,7 @@ i
 -
 -
 )
+{
 entries_
 [
 i
@@ -12484,6 +12737,7 @@ i
 1
 ]
 ;
+}
 entries_
 [
 0
@@ -12648,9 +12902,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 *
 allocatedExternal
 =
@@ -13027,9 +13283,11 @@ index
 atom1
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 atom1
@@ -13072,9 +13330,11 @@ index
 atom2
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 atom2
@@ -13128,9 +13388,11 @@ index
 atom3
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 atom3
@@ -13187,9 +13449,11 @@ index
 flat1
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 flat1
@@ -13235,9 +13499,11 @@ index
 flat2
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 flat2
@@ -13294,9 +13560,11 @@ index
 flat3
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 flat3
@@ -13351,9 +13619,11 @@ index
 rope
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 rope
@@ -13398,9 +13668,11 @@ index
 dep
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 dep
@@ -13455,9 +13727,11 @@ index
 undep
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 undep
@@ -13492,9 +13766,11 @@ if
 !
 temp1
 )
+{
 return
 false
 ;
+}
 RootedString
 extensible
 (
@@ -13525,9 +13801,11 @@ ensureLinear
 cx
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -13539,9 +13817,11 @@ index
 extensible
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 extensible
@@ -13619,9 +13899,11 @@ index
 external1
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 external1
@@ -13663,9 +13945,11 @@ index
 external2
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 external2
@@ -14323,9 +14607,11 @@ if
 !
 linear
 )
+{
 return
 nullptr
 ;
+}
 JS
 :
 :
@@ -14403,9 +14689,11 @@ if
 !
 buf
 )
+{
 return
 nullptr
 ;
+}
 mozilla
 :
 :
@@ -14541,6 +14829,7 @@ IdToPrintableBehavior
 :
 IdIsPropertyKey
 )
+{
 str
 =
 ValueToSource
@@ -14549,7 +14838,9 @@ cx
 v
 )
 ;
+}
 else
+{
 str
 =
 ToString
@@ -14561,14 +14852,17 @@ cx
 v
 )
 ;
+}
 if
 (
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 return
 StringToNewUTF8CharsZ
 (
@@ -14666,9 +14960,11 @@ if
 !
 allowGC
 )
+{
 return
 nullptr
 ;
+}
 RootedValue
 v2
 (
@@ -14687,9 +14983,11 @@ JSTYPE_STRING
 v2
 )
 )
+{
 return
 nullptr
 ;
+}
 v
 =
 v2
@@ -14871,9 +15169,11 @@ if
 !
 allowGC
 )
+{
 return
 nullptr
 ;
+}
 str
 =
 BigInt
@@ -15105,9 +15405,11 @@ Symbol
 "
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 desc
@@ -15151,9 +15453,11 @@ get
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 if
 (
@@ -15167,9 +15471,11 @@ append
 '
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 buf
 .
@@ -15200,9 +15506,11 @@ CheckRecursionLimit
 cx
 )
 )
+{
 return
 nullptr
 ;
+}
 cx
 -
 >
@@ -15219,6 +15527,7 @@ isUndefined
 (
 )
 )
+{
 return
 cx
 -
@@ -15229,6 +15538,7 @@ names
 .
 void0
 ;
+}
 if
 (
 v
@@ -15237,6 +15547,7 @@ isString
 (
 )
 )
+{
 return
 StringToSource
 (
@@ -15248,6 +15559,7 @@ toString
 )
 )
 ;
+}
 if
 (
 v
@@ -15256,6 +15568,7 @@ isSymbol
 (
 )
 )
+{
 return
 SymbolToSource
 (
@@ -15267,6 +15580,7 @@ toSymbol
 )
 )
 ;
+}
 if
 (
 v
@@ -15391,9 +15705,11 @@ toSource
 fval
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 IsCallable
@@ -15423,9 +15739,11 @@ obj
 v
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 ToString
 <
@@ -15477,9 +15795,11 @@ if
 !
 chars
 )
+{
 return
 nullptr
 ;
+}
 return
 NewStringCopyZ
 <

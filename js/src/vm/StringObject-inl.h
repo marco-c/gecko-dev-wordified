@@ -201,9 +201,11 @@ cx
 obj
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 obj
@@ -294,9 +296,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -310,9 +314,11 @@ obj
 str
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 obj
 ;
