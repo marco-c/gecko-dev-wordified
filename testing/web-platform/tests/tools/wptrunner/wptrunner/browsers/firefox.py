@@ -988,6 +988,20 @@ gecko_e10s
 ]
             
 "
+wasm
+"
+:
+kwargs
+.
+get
+(
+"
+wasm
+"
+True
+)
+            
+"
 verify
 "
 :

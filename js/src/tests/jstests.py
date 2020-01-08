@@ -2876,6 +2876,7 @@ load_wpt_tests
 requested_paths
 excluded_paths
 debug
+wasm
 )
 :
     
@@ -3266,6 +3267,12 @@ verify
 "
 :
 False
+        
+"
+wasm
+"
+:
+wasm
     
 }
     
