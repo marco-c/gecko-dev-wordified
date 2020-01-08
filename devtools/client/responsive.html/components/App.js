@@ -1255,6 +1255,7 @@ onExit
 onRemoveCustomDevice
 onRemoveDeviceAssociation
 onResizeViewport
+onRotateViewport
 onScreenshot
 onUpdateDeviceDisplayed
 onUpdateDeviceModal
@@ -1358,6 +1359,7 @@ onChangeTouchSimulation
 onExit
 onRemoveDeviceAssociation
 onResizeViewport
+onRotateViewport
 onScreenshot
 onUpdateDeviceModal
 }
