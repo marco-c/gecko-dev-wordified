@@ -8443,6 +8443,14 @@ IOActivityMonitor
 :
 Init
 (
+Preferences
+:
+:
+GetInt
+(
+IO_ACTIVITY_INTERVAL_PREF
+0
+)
 )
 ;
 }
