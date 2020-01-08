@@ -1539,7 +1539,16 @@ relatedInput
 =
 span
 .
-previousElementSibling
+parentNode
+.
+querySelector
+(
+"
+input
+textarea
+select
+"
+)
 ;
 let
 relatedRect
@@ -1557,7 +1566,7 @@ top
 :
 relatedRect
 .
-bottom
+height
 left
 :
 relatedRect
@@ -1609,7 +1618,7 @@ errorSpanData
 {
 /
 /
-Subtract
+Add
 10px
 for
 the
@@ -1633,7 +1642,7 @@ top
 data
 .
 top
--
++
 10
 )
 +
