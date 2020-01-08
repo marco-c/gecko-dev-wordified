@@ -1331,7 +1331,7 @@ GetAsStringSequence
 )
 )
 {
-mIdeal
+mExact
 .
 insert
 (
