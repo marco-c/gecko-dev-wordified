@@ -990,11 +990,7 @@ object
 /
 collect
 (
-{
-document
-:
 doc
-}
 )
 {
 let
