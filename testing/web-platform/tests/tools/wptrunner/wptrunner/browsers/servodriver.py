@@ -234,11 +234,6 @@ server_config
 config
 .
 ssl_config
-[
-"
-ca_cert_path
-"
-]
         
 "
 user_stylesheets
