@@ -5536,10 +5536,14 @@ ext
 Replace
 nullptr
 with
-0x1
+aligned
+bogus
+pointer
 for
 Rust
 slice
+/
+/
 compatibility
 .
 See
@@ -5577,7 +5581,10 @@ reinterpret_cast
 pointer
 >
 (
-0x1
+alignof
+(
+element_type
+)
 )
 )
 {
