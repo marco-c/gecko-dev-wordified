@@ -425,6 +425,16 @@ CanUseNV12
 )
 ;
 bool
+CanUseP010
+(
+)
+;
+bool
+CanUseP016
+(
+)
+;
+bool
 CanUseDComp
 (
 )
