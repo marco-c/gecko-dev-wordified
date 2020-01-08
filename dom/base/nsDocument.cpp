@@ -8929,6 +8929,14 @@ mIgnoreOpensDuringUnloadCounter
 (
 0
 )
+mNumTrackersFound
+(
+0
+)
+mNumTrackersBlocked
+(
+0
+)
 {
 SetIsInDocument
 (
