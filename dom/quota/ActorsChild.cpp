@@ -1746,6 +1746,12 @@ case
 RequestResponse
 :
 :
+TInitTemporaryStorageResponse
+:
+case
+RequestResponse
+:
+:
 TClearOriginResponse
 :
 case
