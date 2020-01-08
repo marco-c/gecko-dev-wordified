@@ -2060,6 +2060,16 @@ Emit
 the
 script
 .
+AutoGeckoProfilerEntry
+pseudoFrame
+(
+cx
+"
+script
+emit
+"
+)
+;
 if
 (
 pn
