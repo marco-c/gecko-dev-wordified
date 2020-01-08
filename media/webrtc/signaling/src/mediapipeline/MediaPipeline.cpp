@@ -11944,6 +11944,14 @@ GenericReceiveListener
 (
 aTrack
 )
+mWidth
+(
+0
+)
+mHeight
+(
+0
+)
 mImageContainer
 (
 LayerManager
