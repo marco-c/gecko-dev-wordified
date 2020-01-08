@@ -7315,15 +7315,15 @@ asciiHost
 return
 ;
 let
-onLookupComplete
+onLookupCompleteListener
 =
+{
+onLookupComplete
 (
 request
 record
 status
 )
-=
->
 {
 let
 browserRef
@@ -7647,6 +7647,7 @@ persistence
 1
 ;
 }
+}
 ;
 try
 {
@@ -7656,7 +7657,7 @@ asyncResolve
 (
 hostName
 0
-onLookupComplete
+onLookupCompleteListener
 Services
 .
 tm

@@ -315,6 +315,9 @@ private
 nsCString
 mHostname
 ;
+bool
+mIsHttps
+;
 mozilla
 :
 :

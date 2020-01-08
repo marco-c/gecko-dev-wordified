@@ -3862,6 +3862,10 @@ nsString
 &
 hostname
 const
+bool
+&
+isHttps
+const
 OriginAttributes
 &
 aOriginAttributes
@@ -3877,6 +3881,7 @@ nsHTMLDNSPrefetch
 Prefetch
 (
 hostname
+isHttps
 aOriginAttributes
 flags
 )
@@ -3904,6 +3909,10 @@ nsString
 &
 hostname
 const
+bool
+&
+isHttps
+const
 OriginAttributes
 &
 aOriginAttributes
@@ -3923,6 +3932,7 @@ nsHTMLDNSPrefetch
 CancelPrefetch
 (
 hostname
+isHttps
 aOriginAttributes
 flags
 reason
