@@ -395,8 +395,15 @@ get
 IsVideo
 (
 )
-mSendTrack
 mConduit
+)
+;
+mTransmitPipeline
+-
+>
+SetTrack
+(
+mSendTrack
 )
 ;
 }
@@ -851,7 +858,7 @@ return
 mTransmitPipeline
 -
 >
-ReplaceTrack
+SetTrack
 (
 mSendTrack
 )

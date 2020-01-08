@@ -1034,6 +1034,10 @@ Disconnect_s
 (
 )
 {
+disconnect_all
+(
+)
+;
 if
 (
 flow_
