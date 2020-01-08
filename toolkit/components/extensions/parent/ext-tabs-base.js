@@ -3383,12 +3383,12 @@ highlighted
 :
 this
 .
-selected
+highlighted
 active
 :
 this
 .
-selected
+active
 pinned
 :
 this
