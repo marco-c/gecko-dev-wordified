@@ -195,6 +195,8 @@ AccessibleOrTrueContainer
 nsINode
 *
 aNode
+int
+aIgnoreARIAHidden
 )
 const
 {
@@ -224,6 +226,7 @@ container
 GetAccessibleOrContainer
 (
 aNode
+aIgnoreARIAHidden
 )
 ;
 if
