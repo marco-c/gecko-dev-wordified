@@ -110,7 +110,16 @@ DebuggerServer
 .
 addGlobalActor
 (
+{
+constructorName
+:
+"
 PreInitGlobalActor
+"
+constructorFun
+:
+PreInitGlobalActor
+}
 "
 preInitGlobalActor
 "
