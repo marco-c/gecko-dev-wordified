@@ -5428,6 +5428,14 @@ doc
 NS_OK
 )
 ;
+doc
+-
+>
+IncrementTrackerCount
+(
+true
+)
+;
 unsigned
 state
 ;
