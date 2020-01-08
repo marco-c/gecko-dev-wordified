@@ -372,6 +372,11 @@ Int32MulResult
 \
 _
 (
+Int32DivResult
+)
+\
+_
+(
 Int32BitOrResult
 )
 \

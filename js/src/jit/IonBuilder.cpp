@@ -24372,6 +24372,9 @@ JSOP_SUB
 case
 JSOP_MUL
 :
+case
+JSOP_DIV
+:
 /
 /
 If
@@ -24410,9 +24413,6 @@ break
 }
 MOZ_FALLTHROUGH
 ;
-case
-JSOP_DIV
-:
 case
 JSOP_MOD
 :
