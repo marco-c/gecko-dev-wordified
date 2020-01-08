@@ -7871,7 +7871,7 @@ _inputCharWidth
 ;
 yOffset
 =
-4
+5
 ;
 }
 else

@@ -1648,16 +1648,6 @@ backgr
 here
 )
 .
-4
-comes
-from
-the
-popup
-'
-s
-left
-padding
-.
 const
 cursorElement
 =
@@ -1694,8 +1684,6 @@ cm
 defaultCharWidth
 (
 )
-+
-4
 ;
 popup
 .
