@@ -13041,6 +13041,7 @@ server
 side
 scripts
 .
+(
 StringBeginsWith
 (
 aURL
@@ -13054,6 +13055,18 @@ resource
 devtools
 /
 "
+)
+)
+&
+&
+recordreplay
+:
+:
+parent
+:
+:
+DebuggerRunsInMiddleman
+(
 )
 )
 /

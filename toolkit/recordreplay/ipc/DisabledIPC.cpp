@@ -561,6 +561,16 @@ return
 false
 ;
 }
+bool
+DebuggerRunsInMiddleman
+(
+)
+{
+MOZ_CRASH
+(
+)
+;
+}
 }
 /
 /
