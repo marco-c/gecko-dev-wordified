@@ -119,7 +119,7 @@ with
 the
 PromiseActor
 await
-attachTab
+attachTarget
 (
 client
 parentProcessActors
@@ -170,8 +170,13 @@ tab
 "
 )
 ;
+const
+[
+tabResponse
+]
+=
 await
-attachTab
+attachTarget
 (
 client
 targetTab
@@ -181,7 +186,7 @@ await
 testAttach
 (
 client
-targetTab
+tabResponse
 )
 ;
 await
