@@ -14,8 +14,11 @@ oom
 allow
 -
 oom
+;
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -24,11 +27,6 @@ oomAfterAllocations
 in
 this
 )
-)
-quit
-(
-)
-;
 oomAfterAllocations
 (
 1

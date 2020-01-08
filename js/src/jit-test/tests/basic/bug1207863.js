@@ -14,8 +14,11 @@ allow
 unhandlable
 -
 oom
+;
+skip
+-
 if
-(
+:
 !
 (
 "
@@ -31,11 +34,6 @@ resetOOMFailure
 in
 this
 )
-)
-quit
-(
-)
-;
 function
 oomTest
 (

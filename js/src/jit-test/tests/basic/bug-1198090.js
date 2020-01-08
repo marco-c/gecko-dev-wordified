@@ -8,8 +8,11 @@ test
 allow
 -
 oom
+;
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -18,11 +21,6 @@ oomAtAllocation
 in
 this
 )
-)
-quit
-(
-)
-;
 for
 (
 let

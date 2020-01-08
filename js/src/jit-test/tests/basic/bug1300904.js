@@ -1,5 +1,14 @@
+/
+/
+|
+jit
+-
+test
+|
+skip
+-
 if
-(
+:
 !
 (
 '
@@ -8,11 +17,6 @@ oomTest
 in
 this
 )
-)
-quit
-(
-)
-;
 Object
 .
 getOwnPropertyNames
