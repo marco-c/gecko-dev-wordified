@@ -134,7 +134,7 @@ iframe
 =
 document
 .
-createElement
+createXULElement
 (
 "
 browser
@@ -226,7 +226,7 @@ toolboxIframe
 =
 document
 .
-createElement
+createXULElement
 (
 "
 iframe

@@ -688,7 +688,7 @@ node
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
