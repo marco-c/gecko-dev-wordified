@@ -1015,6 +1015,10 @@ wr
 :
 WindowId
 aWindowId
+const
+TimeStamp
+&
+aStartTime
 bool
 aReadback
 =
