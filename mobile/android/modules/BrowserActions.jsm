@@ -104,9 +104,6 @@ _browserActionTitles
 _initialized
 :
 false
-_nextMenuId
-:
-0
 /
 *
 *
@@ -317,7 +314,7 @@ browser
 action
 '
 s
-ID
+UUID
 .
 *
 /
@@ -389,7 +386,7 @@ browser
 action
 found
 with
-id
+UUID
 {
 data
 .
@@ -448,13 +445,6 @@ Menu
 :
 AddBrowserAction
 "
-id
-:
-this
-.
-_nextMenuId
-+
-+
 uuid
 :
 browserAction
@@ -807,7 +797,7 @@ action
 with
 the
 specified
-ID
+UUID
 .
 *
 param
