@@ -5665,6 +5665,7 @@ emitFor
 ParseNode
 *
 pn
+const
 EmitterScope
 *
 headLexicalEmitterScope
@@ -5679,6 +5680,7 @@ emitCStyleFor
 ParseNode
 *
 pn
+const
 EmitterScope
 *
 headLexicalEmitterScope
@@ -5691,6 +5693,7 @@ emitForIn
 ParseNode
 *
 pn
+const
 EmitterScope
 *
 headLexicalEmitterScope
@@ -5703,6 +5706,7 @@ emitForOf
 ParseNode
 *
 pn
+const
 EmitterScope
 *
 headLexicalEmitterScope

@@ -664,6 +664,7 @@ slotStart
 uint32_t
 slotEnd
 )
+const
 ;
 public
 :
@@ -801,6 +802,7 @@ BytecodeEmitter
 *
 bce
 )
+const
 ;
 MOZ_MUST_USE
 bool

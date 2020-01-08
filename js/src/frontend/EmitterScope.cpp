@@ -2531,6 +2531,7 @@ slotStart
 uint32_t
 slotEnd
 )
+const
 {
 /
 /
@@ -6691,6 +6692,7 @@ BytecodeEmitter
 *
 bce
 )
+const
 {
 return
 deadZoneFrameSlotRange
