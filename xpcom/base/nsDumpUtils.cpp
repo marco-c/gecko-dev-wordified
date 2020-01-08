@@ -445,12 +445,12 @@ sDumpPipeWriteFd
 ;
 const
 char
-*
-const
 FifoWatcher
 :
 :
 kPrefName
+[
+]
 =
 "
 memory_info_dumper

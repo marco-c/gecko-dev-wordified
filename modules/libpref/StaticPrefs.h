@@ -435,6 +435,7 @@ sVarCache_
 id
 ;
 \
+\
 public
 :
 \
@@ -446,6 +447,7 @@ cpp_type
 id
 (
 )
+\
 {
 \
 MOZ_ASSERT
