@@ -904,13 +904,6 @@ HeapPtr
 JSObject
 *
 >
-MovableCellHasher
-<
-HeapPtr
-<
-UnbarrieredKey
->
->
 >
 {
 private
@@ -968,10 +961,6 @@ WeakMap
 <
 Key
 Value
-MovableCellHasher
-<
-Key
->
 >
 Base
 ;
