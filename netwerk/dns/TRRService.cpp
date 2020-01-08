@@ -2046,6 +2046,12 @@ false
 }
 if
 (
+!
+mCaptiveIsPassed
+)
+{
+if
+(
 mConfirmationState
 !
 =
@@ -2060,6 +2066,7 @@ MaybeConfirm
 (
 )
 ;
+}
 }
 else
 {
