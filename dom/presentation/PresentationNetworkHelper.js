@@ -192,8 +192,6 @@ nsIPresentationNetworkHelper
 ]
 )
 getWifiIPAddress
-:
-function
 (
 aListener
 )

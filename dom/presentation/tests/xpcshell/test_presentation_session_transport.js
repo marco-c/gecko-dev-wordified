@@ -53,10 +53,10 @@ zero
 /
 *
 /
-'
+"
 use
 strict
-'
+"
 ;
 const
 CC
@@ -95,7 +95,7 @@ ChromeUtils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -107,14 +107,14 @@ modules
 XPCOMUtils
 .
 jsm
-'
+"
 )
 ;
 ChromeUtils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -126,7 +126,7 @@ modules
 Services
 .
 jsm
-'
+"
 )
 ;
 var
@@ -300,8 +300,6 @@ nsIPresentationSessionTransportCallback
 ]
 )
 notifyTransportReady
-:
-function
 (
 )
 {
@@ -337,8 +335,6 @@ run_next_test
 }
 }
 notifyTransportClosed
-:
-function
 (
 aReason
 )
@@ -376,8 +372,6 @@ run_next_test
 }
 }
 notifyData
-:
-function
 (
 aData
 )
@@ -421,8 +415,6 @@ nsIPresentationSessionTransportCallback
 ]
 )
 notifyTransportReady
-:
-function
 (
 )
 {
@@ -458,8 +450,6 @@ run_next_test
 }
 }
 notifyTransportClosed
-:
-function
 (
 aReason
 )
@@ -497,8 +487,6 @@ run_next_test
 }
 }
 notifyData
-:
-function
 (
 aData
 )
@@ -582,6 +570,7 @@ run_next_test
 }
 }
 }
+;
 const
 serverListener
 =
@@ -645,6 +634,7 @@ run_next_test
 }
 }
 }
+;
 function
 TestServer
 (
@@ -671,6 +661,7 @@ asyncListen
 (
 this
 )
+;
 }
 TestServer
 .
@@ -678,8 +669,6 @@ prototype
 =
 {
 onSocketAccepted
-:
-function
 (
 aSocket
 aTransport
@@ -732,8 +721,6 @@ serverListener
 ;
 }
 onStopListening
-:
-function
 (
 aSocket
 )
@@ -751,8 +738,6 @@ listening
 ;
 }
 close
-:
-function
 (
 )
 {

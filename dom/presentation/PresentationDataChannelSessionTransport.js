@@ -341,8 +341,6 @@ nsITimerCallback
 ]
 )
 buildDataChannelTransport
-:
-function
 (
 aRole
 aWindow
@@ -620,6 +618,7 @@ e
 )
 ;
 }
+;
 switch
 (
 this
@@ -709,6 +708,7 @@ _setDataChannel
 )
 ;
 }
+;
 break
 ;
 default
@@ -818,8 +818,6 @@ TYPE_ONE_SHOT
 ;
 }
 notify
-:
-function
 (
 )
 {
@@ -843,8 +841,6 @@ NS_ERROR_NET_TIMEOUT
 }
 }
 _reportError
-:
-function
 (
 aError
 )
@@ -880,8 +876,6 @@ NS_ERROR_FAILURE
 ;
 }
 _setDataChannel
-:
-function
 (
 )
 {
@@ -1052,10 +1046,9 @@ NS_ERROR_FAILURE
 )
 ;
 }
+;
 }
 _cleanup
-:
-function
 (
 aReason
 )
@@ -1175,8 +1168,6 @@ null
 /
 nsIPresentationControlChannelListener
 onOffer
-:
-function
 (
 aOffer
 )
@@ -1341,6 +1332,7 @@ _peerConnection
 localDescription
 )
 )
+;
 }
 )
 .
@@ -1359,8 +1351,6 @@ e
 ;
 }
 onAnswer
-:
-function
 (
 aAnswer
 )
@@ -1475,8 +1465,6 @@ false
 ;
 }
 onIceCandidate
-:
-function
 (
 aCandidate
 )
@@ -1570,8 +1558,6 @@ e
 ;
 }
 notifyDisconnected
-:
-function
 (
 aReason
 )
@@ -1671,8 +1657,6 @@ nsIPresentationSessionTransport
 ]
 )
 init
-:
-function
 (
 aPeerConnection
 aDataChannel
@@ -1783,6 +1767,7 @@ _cleanup
 )
 ;
 }
+;
 this
 .
 _dataChannel
@@ -1910,6 +1895,7 @@ _cleanup
 )
 ;
 }
+;
 }
 /
 /
@@ -1950,8 +1936,6 @@ aCallback
 ;
 }
 send
-:
-function
 (
 aData
 )
@@ -1976,8 +1960,6 @@ aData
 ;
 }
 sendBinaryMsg
-:
-function
 (
 aData
 )
@@ -2042,8 +2024,6 @@ array
 ;
 }
 sendBlob
-:
-function
 (
 aBlob
 )
@@ -2066,8 +2046,6 @@ aBlob
 ;
 }
 enableDataNotification
-:
-function
 (
 )
 {
@@ -2134,8 +2112,6 @@ _messageQueue
 ;
 }
 close
-:
-function
 (
 aReason
 )
@@ -2156,8 +2132,6 @@ close
 ;
 }
 _cleanup
-:
-function
 (
 )
 {
@@ -2210,8 +2184,6 @@ null
 ;
 }
 _doNotifyData
-:
-function
 (
 aData
 )

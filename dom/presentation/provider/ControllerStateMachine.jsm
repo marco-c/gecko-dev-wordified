@@ -668,10 +668,6 @@ CommandType
 .
 LAUNCH
 presentationId
-:
-presentationId
-url
-:
 url
 }
 )
@@ -710,8 +706,6 @@ CommandType
 .
 TERMINATE
 presentationId
-:
-presentationId
 }
 )
 ;
@@ -748,8 +742,6 @@ type
 CommandType
 .
 TERMINATE_ACK
-presentationId
-:
 presentationId
 }
 )
@@ -789,10 +781,6 @@ CommandType
 .
 RECONNECT
 presentationId
-:
-presentationId
-url
-:
 url
 }
 )
@@ -830,8 +818,6 @@ type
 CommandType
 .
 OFFER
-offer
-:
 offer
 }
 )
@@ -900,8 +886,6 @@ type
 CommandType
 .
 ICE_CANDIDATE
-candidate
-:
 candidate
 }
 )
@@ -1030,8 +1014,6 @@ type
 CommandType
 .
 DISCONNECT
-reason
-:
 reason
 }
 )

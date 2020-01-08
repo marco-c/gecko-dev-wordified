@@ -372,8 +372,6 @@ nsIPresentationSessionTransportCallback
 ]
 )
 notifyTransportReady
-:
-function
 (
 )
 {
@@ -406,8 +404,6 @@ gResolve
 }
 }
 notifyTransportClosed
-:
-function
 (
 aReason
 )
@@ -442,8 +438,6 @@ gResolve
 }
 }
 notifyData
-:
-function
 (
 aData
 )
@@ -485,8 +479,6 @@ nsIPresentationSessionTransportCallback
 ]
 )
 notifyTransportReady
-:
-function
 (
 )
 {
@@ -519,8 +511,6 @@ gResolve
 }
 }
 notifyTransportClosed
-:
-function
 (
 aReason
 )
@@ -555,8 +545,6 @@ gResolve
 }
 }
 notifyData
-:
-function
 (
 aData
 )
@@ -577,6 +565,7 @@ data
 gResolve
 (
 )
+;
 }
 }
 ;
@@ -597,8 +586,6 @@ nsIPresentationSessionTransportBuilderListener
 ]
 )
 onSessionTransport
-:
-function
 (
 aTransport
 )
@@ -626,8 +613,6 @@ clientCallback
 ;
 }
 onError
-:
-function
 (
 aError
 )
@@ -649,8 +634,6 @@ aError
 ;
 }
 sendOffer
-:
-function
 (
 aOffer
 )
@@ -674,8 +657,6 @@ aOffer
 ;
 }
 sendAnswer
-:
-function
 (
 aAnswer
 )
@@ -699,8 +680,6 @@ aAnswer
 ;
 }
 sendIceCandidate
-:
-function
 (
 aCandidate
 )
@@ -724,8 +703,6 @@ aCandidate
 ;
 }
 disconnect
-:
-function
 (
 aReason
 )
@@ -792,6 +769,7 @@ aLocalBuilder
 ;
 }
 }
+;
 const
 serverListener
 =
@@ -809,8 +787,6 @@ nsIPresentationSessionTransportBuilderListener
 ]
 )
 onSessionTransport
-:
-function
 (
 aTransport
 )
@@ -844,8 +820,6 @@ enableDataNotification
 ;
 }
 onError
-:
-function
 (
 aError
 )
@@ -867,8 +841,6 @@ aError
 ;
 }
 sendOffer
-:
-function
 (
 aOffer
 )
@@ -892,8 +864,6 @@ aOffer
 ;
 }
 sendAnswer
-:
-function
 (
 aAnswer
 )
@@ -917,8 +887,6 @@ aAnswer
 ;
 }
 sendIceCandidate
-:
-function
 (
 aCandidate
 )
@@ -942,8 +910,6 @@ aCandidate
 ;
 }
 disconnect
-:
-function
 (
 aReason
 )
@@ -1010,6 +976,7 @@ aLocalBuilder
 ;
 }
 }
+;
 function
 testBuilder
 (

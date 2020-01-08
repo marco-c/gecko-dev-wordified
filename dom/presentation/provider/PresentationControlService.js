@@ -453,8 +453,6 @@ _controlChannels
 [
 ]
 startServer
-:
-function
 (
 aEncrypted
 aPort
@@ -592,8 +590,6 @@ getOrCreateCert
 kLocalCertName
 {
 handleCert
-:
-function
 (
 aCert
 aRv
@@ -717,8 +713,6 @@ null
 }
 }
 _serverSocketInit
-:
-function
 (
 aPort
 aCert
@@ -945,8 +939,6 @@ _notifyServerReady
 ;
 }
 _notifyServerReady
-:
-function
 (
 )
 {
@@ -988,8 +980,6 @@ certFingerprint
 ;
 }
 _notifyServerStopped
-:
-function
 (
 aRv
 )
@@ -1027,8 +1017,6 @@ aRv
 ;
 }
 isCompatibleServer
-:
-function
 (
 aVersion
 )
@@ -1153,8 +1141,6 @@ _listener
 ;
 }
 _isServiceInit
-:
-function
 (
 )
 {
@@ -1169,8 +1155,6 @@ null
 ;
 }
 connect
-:
-function
 (
 aDeviceInfo
 )
@@ -1258,8 +1242,6 @@ sender
 ;
 }
 _attemptConnect
-:
-function
 (
 aDeviceInfo
 )
@@ -1468,8 +1450,6 @@ socketTransport
 ;
 }
 responseSession
-:
-function
 (
 aDeviceInfo
 aSocketTransport
@@ -1564,8 +1544,6 @@ Triggered
 by
 TCPControlChannel
 onSessionRequest
-:
-function
 (
 aDeviceInfo
 aUrl
@@ -1643,8 +1621,6 @@ aControlChannel
 ;
 }
 onSessionTerminate
-:
-function
 (
 aDeviceInfo
 aPresentationId
@@ -1722,8 +1698,6 @@ aControlChannel
 ;
 }
 onSessionReconnect
-:
-function
 (
 aDeviceInfo
 aUrl
@@ -1811,8 +1785,6 @@ nsIServerSocket
 init
 )
 onSocketAccepted
-:
-function
 (
 aServerSocket
 aClientSocket
@@ -1878,8 +1850,6 @@ aClientSocket
 ;
 }
 holdControlChannel
-:
-function
 (
 aControlChannel
 )
@@ -1895,8 +1865,6 @@ aControlChannel
 ;
 }
 releaseControlChannel
-:
-function
 (
 aControlChannel
 )
@@ -1944,8 +1912,6 @@ nsIServerSocket
 init
 )
 onStopListening
-:
-function
 (
 aServerSocket
 aStatus
@@ -1974,8 +1940,6 @@ ignore
 line
 }
 close
-:
-function
 (
 )
 {
@@ -2079,8 +2043,6 @@ _port
 /
 nsIObserver
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -2167,8 +2129,6 @@ break
 }
 }
 _restartServer
-:
-function
 (
 )
 {
@@ -2953,8 +2913,6 @@ _pendingReconnect
 :
 false
 sendOffer
-:
-function
 (
 aOffer
 )
@@ -2973,8 +2931,6 @@ aOffer
 ;
 }
 sendAnswer
-:
-function
 (
 aAnswer
 )
@@ -2993,8 +2949,6 @@ aAnswer
 ;
 }
 sendIceCandidate
-:
-function
 (
 aCandidate
 )
@@ -3010,8 +2964,6 @@ aCandidate
 ;
 }
 launch
-:
-function
 (
 aPresentationId
 aUrl
@@ -3029,8 +2981,6 @@ aUrl
 ;
 }
 terminate
-:
-function
 (
 aPresentationId
 )
@@ -3158,8 +3108,6 @@ _terminatingId
 }
 }
 _flushOutgoing
-:
-function
 (
 )
 {
@@ -3209,8 +3157,6 @@ throw
 an
 exception
 _send
-:
-function
 (
 aMsg
 )
@@ -3396,8 +3342,6 @@ e
 }
 }
 _setSecurityObserver
-:
-function
 (
 observer
 )
@@ -3466,8 +3410,6 @@ observer
 /
 nsITLSServerSecurityObserver
 onHandshakeDone
-:
-function
 (
 socket
 clientStatus
@@ -3531,8 +3473,6 @@ _createInputStreamPump
 /
 nsIAsyncOutputStream
 onOutputStreamReady
-:
-function
 (
 )
 {
@@ -3665,8 +3605,6 @@ detecting
 connection
 refused
 onInputStreamReady
-:
-function
 (
 aStream
 )
@@ -3752,8 +3690,6 @@ nsISocketTransport
 setEventSink
 )
 onTransportStatus
-:
-function
 (
 aTransport
 aStatus
@@ -3833,8 +3769,6 @@ nsIInputStreamPump
 asyncRead
 )
 onStartRequest
-:
-function
 (
 )
 {
@@ -3881,8 +3815,6 @@ nsIInputStreamPump
 asyncRead
 )
 onStopRequest
-:
-function
 (
 aRequest
 aContext
@@ -3942,8 +3874,6 @@ nsIInputStreamPump
 asyncRead
 )
 onDataAvailable
-:
-function
 (
 aRequest
 aContext
@@ -4085,8 +4015,6 @@ msg
 }
 }
 _createInputStreamPump
-:
-function
 (
 )
 {
@@ -4197,8 +4125,6 @@ from
 remote
 side
 _handleMessage
-:
-function
 (
 aMsg
 )
@@ -4596,8 +4522,6 @@ FUNC
 *
 /
 _onOffer
-:
-function
 (
 aOffer
 )
@@ -4672,8 +4596,6 @@ aOffer
 ;
 }
 _onAnswer
-:
-function
 (
 aAnswer
 )
@@ -4748,8 +4670,6 @@ aAnswer
 ;
 }
 _notifyConnected
-:
-function
 (
 )
 {
@@ -4820,8 +4740,6 @@ notifyConnected
 ;
 }
 _notifyDisconnected
-:
-function
 (
 aReason
 )
@@ -4943,8 +4861,6 @@ aReason
 ;
 }
 _notifyReconnected
-:
-function
 (
 )
 {
@@ -5001,8 +4917,6 @@ notifyReconnected
 ;
 }
 _closeOutgoing
-:
-function
 (
 )
 {
@@ -5030,8 +4944,6 @@ false
 }
 }
 _closeIncoming
-:
-function
 (
 )
 {
@@ -5065,8 +4977,6 @@ false
 }
 }
 _closeTransport
-:
-function
 (
 )
 {
@@ -5148,8 +5058,6 @@ this
 ;
 }
 disconnect
-:
-function
 (
 aReason
 )
@@ -5324,8 +5232,6 @@ kDisconnectTimeout
 }
 }
 reconnect
-:
-function
 (
 aPresentationId
 aUrl
@@ -5392,8 +5298,6 @@ from
 state
 machine
 sendCommand
-:
-function
 (
 command
 )
@@ -5415,8 +5319,6 @@ _flushOutgoing
 ;
 }
 notifyDeviceConnected
-:
-function
 (
 deviceId
 )
@@ -5452,8 +5354,6 @@ _notifyConnected
 ;
 }
 notifyDisconnected
-:
-function
 (
 reason
 )
@@ -5473,8 +5373,6 @@ reason
 ;
 }
 notifyLaunch
-:
-function
 (
 presentationId
 url
@@ -5511,8 +5409,6 @@ break
 }
 }
 notifyTerminate
-:
-function
 (
 presentationId
 )
@@ -5676,8 +5572,6 @@ _pendingDisconnect
 }
 }
 notifyReconnect
-:
-function
 (
 presentationId
 url
@@ -5727,8 +5621,6 @@ break
 }
 }
 notifyOffer
-:
-function
 (
 offer
 )
@@ -5742,8 +5634,6 @@ offer
 ;
 }
 notifyAnswer
-:
-function
 (
 answer
 )
@@ -5757,8 +5647,6 @@ answer
 ;
 }
 notifyIceCandidate
-:
-function
 (
 candidate
 )
