@@ -8011,12 +8011,9 @@ return
 nsEventStatus_eConsumeNoDefault
 ;
 }
-RefPtr
-<
-HitTestingTreeNode
->
+HitTestingTreeNodeAutoLock
 node
-=
+;
 GetApzcTreeManager
 (
 )
@@ -8025,6 +8022,7 @@ GetApzcTreeManager
 FindScrollThumbNode
 (
 aDragMetrics
+node
 )
 ;
 if
