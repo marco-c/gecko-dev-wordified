@@ -4395,7 +4395,7 @@ JSFlatString
 js
 :
 :
-Int32ToStringHelper
+Int32ToStringHelperPure
 (
 JSContext
 *
@@ -9207,7 +9207,7 @@ JSString
 js
 :
 :
-NumberToStringHelper
+NumberToStringHelperPure
 (
 JSContext
 *
@@ -10359,7 +10359,7 @@ bool
 js
 :
 :
-StringToNumberDontReportOOM
+StringToNumberPure
 (
 JSContext
 *

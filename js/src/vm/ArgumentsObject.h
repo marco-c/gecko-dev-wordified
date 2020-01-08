@@ -1469,7 +1469,7 @@ code
 static
 ArgumentsObject
 *
-finishForIon
+finishForIonPure
 (
 JSContext
 *

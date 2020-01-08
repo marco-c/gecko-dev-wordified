@@ -3085,7 +3085,7 @@ bool
 NativeObject
 :
 :
-growSlotsDontReportOOM
+growSlotsPure
 (
 JSContext
 *
@@ -3151,7 +3151,7 @@ bool
 NativeObject
 :
 :
-addDenseElementDontReportOOM
+addDenseElementPure
 (
 JSContext
 *

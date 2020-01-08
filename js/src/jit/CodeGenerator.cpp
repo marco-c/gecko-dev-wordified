@@ -47825,7 +47825,7 @@ in
 ArgumentsObject
 :
 :
-finishForIon
+finishForIonPure
 .
 Label
 failure
@@ -47933,7 +47933,7 @@ void
 ArgumentsObject
 :
 :
-finishForIon
+finishForIonPure
 )
 )
 ;

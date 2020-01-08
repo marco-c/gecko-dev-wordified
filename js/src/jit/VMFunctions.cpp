@@ -9510,7 +9510,7 @@ begin
 ;
 }
 bool
-EqualStringsHelper
+EqualStringsHelperPure
 (
 JSString
 *
@@ -9680,7 +9680,7 @@ HandleMissing
 static
 MOZ_ALWAYS_INLINE
 bool
-GetNativeDataProperty
+GetNativeDataPropertyPure
 (
 JSContext
 *
@@ -9936,7 +9936,7 @@ bool
 HandleMissing
 >
 bool
-GetNativeDataProperty
+GetNativeDataPropertyPure
 (
 JSContext
 *
@@ -9970,7 +9970,7 @@ isNative
 )
 ;
 return
-GetNativeDataProperty
+GetNativeDataPropertyPure
 <
 HandleMissing
 >
@@ -9996,7 +9996,7 @@ vp
 }
 template
 bool
-GetNativeDataProperty
+GetNativeDataPropertyPure
 <
 true
 >
@@ -10017,7 +10017,7 @@ vp
 ;
 template
 bool
-GetNativeDataProperty
+GetNativeDataPropertyPure
 <
 false
 >
@@ -10323,7 +10323,7 @@ vp
 1
 ;
 return
-GetNativeDataProperty
+GetNativeDataPropertyPure
 <
 HandleMissing
 >
@@ -10386,7 +10386,7 @@ bool
 NeedsTypeBarrier
 >
 bool
-SetNativeDataProperty
+SetNativeDataPropertyPure
 (
 JSContext
 *
@@ -10530,7 +10530,7 @@ true
 }
 template
 bool
-SetNativeDataProperty
+SetNativeDataPropertyPure
 <
 true
 >
@@ -10551,7 +10551,7 @@ val
 ;
 template
 bool
-SetNativeDataProperty
+SetNativeDataPropertyPure
 <
 false
 >
@@ -10571,7 +10571,7 @@ val
 )
 ;
 bool
-ObjectHasGetterSetter
+ObjectHasGetterSetterPure
 (
 JSContext
 *
@@ -11265,7 +11265,7 @@ vp
 )
 ;
 bool
-HasNativeElement
+HasNativeElementPure
 (
 JSContext
 *

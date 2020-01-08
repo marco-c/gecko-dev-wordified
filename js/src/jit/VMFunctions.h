@@ -6695,7 +6695,7 @@ rhs
 ;
 MOZ_MUST_USE
 bool
-EqualStringsHelper
+EqualStringsHelperPure
 (
 JSString
 *
@@ -6724,7 +6724,7 @@ bool
 HandleMissing
 >
 bool
-GetNativeDataProperty
+GetNativeDataPropertyPure
 (
 JSContext
 *
@@ -6779,7 +6779,7 @@ vp
 )
 ;
 bool
-HasNativeElement
+HasNativeElementPure
 (
 JSContext
 *
@@ -6800,7 +6800,7 @@ bool
 NeedsTypeBarrier
 >
 bool
-SetNativeDataProperty
+SetNativeDataPropertyPure
 (
 JSContext
 *
@@ -6817,7 +6817,7 @@ val
 )
 ;
 bool
-ObjectHasGetterSetter
+ObjectHasGetterSetterPure
 (
 JSContext
 *

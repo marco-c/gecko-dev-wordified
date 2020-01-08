@@ -2317,7 +2317,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-EqualStringsHelper
+EqualStringsHelperPure
 )
 )
 ;
@@ -2811,7 +2811,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-ObjectHasGetterSetter
+ObjectHasGetterSetterPure
 )
 )
 ;
@@ -5970,7 +5970,7 @@ paths
 .
 Note
 that
-growSlotsDontReportOOM
+growSlotsPure
 is
 fallible
 but
@@ -6085,7 +6085,7 @@ void
 NativeObject
 :
 :
-growSlotsDontReportOOM
+growSlotsPure
 )
 )
 ;
@@ -8288,7 +8288,7 @@ void
 NativeObject
 :
 :
-addDenseElementDontReportOOM
+addDenseElementPure
 )
 )
 ;
@@ -9287,7 +9287,7 @@ void
 NativeObject
 :
 :
-addDenseElementDontReportOOM
+addDenseElementPure
 )
 )
 ;

@@ -5411,7 +5411,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-EqualStringsHelper
+EqualStringsHelperPure
 )
 )
 ;
@@ -5865,7 +5865,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-ObjectHasGetterSetter
+ObjectHasGetterSetterPure
 )
 )
 ;
@@ -10052,7 +10052,7 @@ here
 .
 Note
 that
-growSlotsDontReportOOM
+growSlotsPure
 is
 /
 /
@@ -10167,7 +10167,7 @@ void
 NativeObject
 :
 :
-growSlotsDontReportOOM
+growSlotsPure
 )
 )
 ;
@@ -12346,7 +12346,7 @@ void
 NativeObject
 :
 :
-addDenseElementDontReportOOM
+addDenseElementPure
 )
 )
 ;

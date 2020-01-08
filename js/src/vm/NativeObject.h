@@ -5748,7 +5748,7 @@ context
 /
 static
 bool
-growSlotsDontReportOOM
+growSlotsPure
 (
 JSContext
 *
@@ -5764,7 +5764,7 @@ newCount
 *
 *
 Like
-growSlotsDontReportOOM
+growSlotsPure
 but
 for
 dense
@@ -5805,7 +5805,7 @@ etc
 /
 static
 bool
-addDenseElementDontReportOOM
+addDenseElementPure
 (
 JSContext
 *
