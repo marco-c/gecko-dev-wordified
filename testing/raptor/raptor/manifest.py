@@ -69,10 +69,6 @@ from
 mozlog
 import
 get_proxy_logger
-from
-utils
-import
-transform_platform
 here
 =
 os
@@ -451,7 +447,6 @@ def
 write_test_settings_json
 (
 test_details
-oskey
 )
 :
     
@@ -476,19 +471,6 @@ for
 the
 web
 ext
-    
-test_url
-=
-transform_platform
-(
-test_details
-[
-'
-test_url
-'
-]
-oskey
-)
     
 test_settings
 =
@@ -517,7 +499,12 @@ type
 test_url
 "
 :
+test_details
+[
+'
 test_url
+'
+]
             
 "
 page_cycles
@@ -917,7 +904,6 @@ def
 get_raptor_test_list
 (
 args
-oskey
 )
 :
     
@@ -1406,7 +1392,6 @@ test
 write_test_settings_json
 (
 test
-oskey
 )
             
 else
