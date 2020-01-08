@@ -5877,6 +5877,8 @@ Length
 (
 )
 esc_OnlyNonASCII
+|
+esc_Spaces
 buf
 )
 )
@@ -34832,6 +34834,8 @@ get
 -
 1
 esc_OnlyNonASCII
+|
+esc_Spaces
 locationBuf
 )
 )
