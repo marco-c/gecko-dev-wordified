@@ -569,16 +569,6 @@ nsISupports
 aParent
 )
 ;
-uint64_t
-FrameID
-(
-)
-const
-{
-return
-mFrameId
-;
-}
 virtual
 void
 GetPosition
@@ -737,9 +727,6 @@ protected
 VRPose
 (
 )
-;
-uint64_t
-mFrameId
 ;
 gfx
 :

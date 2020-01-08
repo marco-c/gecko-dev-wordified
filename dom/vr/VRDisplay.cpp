@@ -1360,12 +1360,6 @@ mVRState
 aState
 )
 {
-mFrameId
-=
-aState
-.
-inputFrameID
-;
 mozilla
 :
 :
@@ -1415,10 +1409,6 @@ VRDisplayCapabilityFlags
 :
 :
 Cap_None
-;
-mFrameId
-=
-0
 ;
 mozilla
 :
