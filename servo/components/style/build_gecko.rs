@@ -2634,7 +2634,6 @@ macro_name
 type_name
 )
 |
-{
 (
 macro_name
 .
@@ -2646,7 +2645,6 @@ MUT
 )
 type_name
 )
-}
 )
 .
 collect
