@@ -321,7 +321,7 @@ FormAutofillUtils
 .
 jsm
 "
-MasterPassword
+OSKeyStore
 :
 "
 resource
@@ -330,7 +330,7 @@ resource
 /
 formautofill
 /
-MasterPassword
+OSKeyStore
 .
 jsm
 "
@@ -1456,7 +1456,7 @@ if
 (
 !
 await
-MasterPassword
+OSKeyStore
 .
 ensureLoggedIn
 (
@@ -1470,9 +1470,8 @@ warn
 "
 User
 canceled
-master
-password
-entry
+encryption
+login
 "
 )
 ;
@@ -1644,7 +1643,7 @@ try
 string
 =
 await
-MasterPassword
+OSKeyStore
 .
 decrypt
 (
@@ -1681,9 +1680,8 @@ warn
 "
 User
 canceled
-master
-password
-entry
+encryption
+login
 "
 )
 ;
@@ -1918,7 +1916,7 @@ to
 each
 record
 if
-MasterPassword
+OSKeyStore
 isn
 '
 t
@@ -2093,7 +2091,7 @@ collectionName
 CREDITCARDS_COLLECTION_NAME
 &
 &
-MasterPassword
+OSKeyStore
 .
 isEnabled
 ;
@@ -2110,7 +2108,7 @@ cc
 number
 "
 when
-MasterPassword
+OSKeyStore
 is
 set
 .
@@ -2229,7 +2227,7 @@ preview
 /
 /
 when
-MasterPassword
+OSKeyStore
 isn
 '
 t
@@ -2265,7 +2263,7 @@ decrypted
 ]
 =
 await
-MasterPassword
+OSKeyStore
 .
 decrypt
 (
@@ -3883,7 +3881,7 @@ if
 (
 !
 await
-MasterPassword
+OSKeyStore
 .
 ensureLoggedIn
 (
@@ -3897,9 +3895,8 @@ warn
 "
 User
 canceled
-master
-password
-entry
+encryption
+login
 "
 )
 ;

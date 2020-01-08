@@ -232,7 +232,7 @@ defineModuleGetter
 (
 this
 "
-MasterPassword
+OSKeyStore
 "
 "
 resource
@@ -241,7 +241,7 @@ resource
 /
 formautofill
 /
-MasterPassword
+OSKeyStore
 .
 jsm
 "
@@ -1102,7 +1102,7 @@ try
 cardNumber
 =
 await
-MasterPassword
+OSKeyStore
 .
 decrypt
 (
