@@ -1200,11 +1200,9 @@ if
 (
 NS_FAILED
 (
-mURI
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+mURI
 getter_AddRefs
 (
 mURINoRef

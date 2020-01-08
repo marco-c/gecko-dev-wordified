@@ -8937,11 +8937,9 @@ rv
 {
 rv
 =
-currentURI
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+currentURI
 getter_AddRefs
 (
 uriClone

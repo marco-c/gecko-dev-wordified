@@ -3363,11 +3363,9 @@ an
 embedded
 stylesheet
 .
-docUri
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+docUri
 getter_AddRefs
 (
 uri

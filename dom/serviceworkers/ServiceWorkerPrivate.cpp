@@ -6460,11 +6460,9 @@ uriNoFragment
 ;
 rv
 =
-uri
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+uri
 getter_AddRefs
 (
 uriNoFragment

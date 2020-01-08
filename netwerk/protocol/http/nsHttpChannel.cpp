@@ -53281,11 +53281,9 @@ noRefURI
 ;
 rv
 =
-mCacheURI
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+mCacheURI
 getter_AddRefs
 (
 noRefURI

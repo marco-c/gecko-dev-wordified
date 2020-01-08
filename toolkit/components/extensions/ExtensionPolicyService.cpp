@@ -2415,11 +2415,9 @@ docUri
 |
 NS_FAILED
 (
-docUri
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+docUri
 getter_AddRefs
 (
 uri

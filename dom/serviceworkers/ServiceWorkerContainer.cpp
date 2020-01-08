@@ -1549,11 +1549,9 @@ cloneWithoutRef
 ;
 aRv
 =
-scriptURI
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+scriptURI
 getter_AddRefs
 (
 cloneWithoutRef
@@ -1583,11 +1581,9 @@ forget
 ;
 aRv
 =
-scopeURI
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+scopeURI
 getter_AddRefs
 (
 cloneWithoutRef

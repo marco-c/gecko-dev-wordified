@@ -5100,11 +5100,9 @@ clone
 nsresult
 rv
 =
-aURI
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+aURI
 getter_AddRefs
 (
 clone
