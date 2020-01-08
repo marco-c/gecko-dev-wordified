@@ -3533,9 +3533,11 @@ String
 |
 null
 }
+[
 value
+]
 *
-The
+Optional
 telemetry
 event
 value
@@ -3545,8 +3547,8 @@ user
 defined
 value
 providing
-context
 *
+context
 for
 the
 event
@@ -3563,9 +3565,11 @@ param
 {
 Object
 }
+[
 extra
+]
 *
-The
+Optional
 telemetry
 event
 extra
@@ -3574,8 +3578,8 @@ containing
 the
 properties
 that
-will
 *
+will
 be
 sent
 with
@@ -3609,7 +3613,11 @@ category
 method
 object
 value
+=
+null
 extra
+=
+null
 )
 {
 /
@@ -3626,6 +3634,11 @@ values
 to
 strings
 .
+if
+(
+extra
+)
+{
 for
 (
 let
@@ -3739,6 +3752,7 @@ getCaller
 }
 )
 ;
+}
 }
 }
 Services
