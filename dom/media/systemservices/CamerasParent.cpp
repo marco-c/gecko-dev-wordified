@@ -1011,6 +1011,10 @@ mProperties
 (
 aProperties
 )
+mResult
+(
+0
+)
 {
 /
 /
@@ -1183,6 +1187,10 @@ aBuffer
 mProperties
 (
 aProperties
+)
+mResult
+(
+0
 )
 {
 }
