@@ -8855,6 +8855,17 @@ Run
 (
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+IncrementalFinalizeRunnable
+:
+:
+Run
+"
+GCCC
+)
+;
 if
 (
 mRuntime
