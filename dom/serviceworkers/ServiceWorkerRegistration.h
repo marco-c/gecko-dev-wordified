@@ -530,6 +530,14 @@ ErrorResult
 aRv
 )
 ;
+const
+ServiceWorkerRegistrationDescriptor
+&
+Descriptor
+(
+)
+const
+;
 private
 :
 ServiceWorkerRegistration

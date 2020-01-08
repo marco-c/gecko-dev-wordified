@@ -450,6 +450,16 @@ Newest
 const
 ;
 bool
+HasWorker
+(
+const
+ServiceWorkerDescriptor
+&
+aDescriptor
+)
+const
+;
+bool
 IsValid
 (
 )
