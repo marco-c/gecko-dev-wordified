@@ -1690,11 +1690,11 @@ ccNumber
 )
 ;
 return
+!
+!
 card
 .
-isValidNumber
-(
-)
+number
 ;
 }
 getCategoryFromFieldName

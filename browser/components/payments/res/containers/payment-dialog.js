@@ -532,12 +532,10 @@ contents
 querySelector
 (
 "
-header
->
-.
-page
--
+#
 error
+-
+text
 "
 )
 ;
