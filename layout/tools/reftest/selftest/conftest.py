@@ -377,7 +377,7 @@ bin
         
 if
 '
-MOZ_FETCHES_DIR
+USE_ARTIFACT_PATH
 '
 in
 os
@@ -399,7 +399,7 @@ os
 environ
 [
 '
-MOZ_FETCHES_DIR
+USE_ARTIFACT_PATH
 '
 ]
 )
