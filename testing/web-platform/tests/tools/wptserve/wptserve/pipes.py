@@ -3098,15 +3098,11 @@ popleft
 (
 )
         
-field
-=
-field
-.
-decode
+assert
+isinstance
 (
-"
-ascii
-"
+field
+text_type
 )
         
 if
@@ -3129,6 +3125,13 @@ tokens
 .
 popleft
 (
+)
+            
+assert
+isinstance
+(
+field
+text_type
 )
         
 else
