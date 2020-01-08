@@ -172,7 +172,9 @@ endsWith
 (
 "
 (
-UTC
+Coordinated
+Universal
+Time
 )
 "
 )

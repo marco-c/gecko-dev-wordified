@@ -340,6 +340,11 @@ GMT
 PDT
 )
 "
+"
+Pacific
+Daylight
+Time
+"
 )
 ;
 let
@@ -374,6 +379,11 @@ GMT
 (
 PDT
 )
+"
+"
+Pacific
+Daylight
+Time
 "
 )
 ;
@@ -423,6 +433,11 @@ GMT
 PDT
 )
 "
+"
+Pacific
+Daylight
+Time
+"
 )
 ;
 let
@@ -457,6 +472,11 @@ GMT
 (
 PDT
 )
+"
+"
+Pacific
+Daylight
+Time
 "
 )
 ;

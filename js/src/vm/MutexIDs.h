@@ -306,12 +306,6 @@ DateTimeInfoMutex
 \
 _
 (
-IcuTimeZoneStateMutex
-500
-)
-\
-_
-(
 ProcessExecutableRegion
 500
 )
@@ -382,6 +376,12 @@ WasmRuntimeInstances
 500
 )
 \
+\
+_
+(
+IcuTimeZoneStateMutex
+600
+)
 \
 _
 (

@@ -110,6 +110,11 @@ NOVT
 +
 07
 "
+"
+Novosibirsk
+Standard
+Time
+"
 )
 ;
 let
@@ -148,6 +153,11 @@ NOVST
 "
 +
 08
+"
+"
+Novosibirsk
+Summer
+Time
 "
 )
 ;

@@ -643,7 +643,7 @@ English
 .
         
 '
-LC_TIME
+LC_ALL
 '
 :
 '
