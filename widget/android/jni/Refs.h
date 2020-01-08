@@ -1446,7 +1446,9 @@ mInstance
 =
 other
 .
-mInstance
+Get
+(
+)
 |
 |
 JNI_FALSE
@@ -1463,7 +1465,9 @@ Ref
 mInstance
 other
 .
-mInstance
+Get
+(
+)
 )
 ;
 }
