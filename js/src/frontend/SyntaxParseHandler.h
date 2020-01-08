@@ -1787,7 +1787,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BinaryNodeType
 newCall
 (
 Node
@@ -1800,7 +1800,7 @@ return
 NodeFunctionCall
 ;
 }
-Node
+BinaryNodeType
 newSuperCall
 (
 Node
@@ -1813,11 +1813,11 @@ return
 NodeGeneric
 ;
 }
-Node
+BinaryNodeType
 newTaggedTemplate
 (
 Node
-callee
+tag
 Node
 args
 )
@@ -1848,7 +1848,7 @@ return
 NodeGeneric
 ;
 }
-Node
+ClassNamesType
 newClassNames
 (
 Node
@@ -1884,7 +1884,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BinaryNodeType
 newNewTarget
 (
 Node
@@ -1941,13 +1941,13 @@ return
 true
 ;
 }
-Node
+BinaryNodeType
 newPropertyDefinition
 (
 Node
-name
+key
 Node
-expr
+val
 )
 {
 return
@@ -1959,7 +1959,7 @@ addPropertyDefinition
 (
 ListNodeType
 literal
-Node
+BinaryNodeType
 propdef
 )
 {
@@ -2132,7 +2132,7 @@ addCaseStatementToList
 (
 ListNodeType
 list
-Node
+CaseClauseType
 caseClause
 )
 {
@@ -2179,7 +2179,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BinaryNodeType
 newExportFromDeclaration
 (
 uint32_t
@@ -2194,7 +2194,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BinaryNodeType
 newExportDefaultDeclaration
 (
 Node
@@ -2211,7 +2211,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BinaryNodeType
 newExportSpec
 (
 Node
@@ -2237,7 +2237,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BinaryNodeType
 newImportMeta
 (
 Node
@@ -2250,7 +2250,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BinaryNodeType
 newCallImport
 (
 Node
@@ -2263,7 +2263,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BinaryNodeType
 newSetThis
 (
 Node
@@ -2313,7 +2313,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BinaryNodeType
 newDoWhileStatement
 (
 Node
@@ -2330,7 +2330,7 @@ return
 NodeGeneric
 ;
 }
-Node
+BinaryNodeType
 newWhileStatement
 (
 uint32_t
@@ -2345,7 +2345,7 @@ return
 NodeGeneric
 ;
 }
-Node
+SwitchStatementType
 newSwitchStatement
 (
 uint32_t
@@ -2362,7 +2362,7 @@ return
 NodeGeneric
 ;
 }
-Node
+CaseClauseType
 newCaseOrDefault
 (
 uint32_t
@@ -2435,7 +2435,7 @@ return
 NodeReturn
 ;
 }
-Node
+BinaryNodeType
 newWithStatement
 (
 uint32_t
@@ -2531,7 +2531,7 @@ return
 NodeGeneric
 ;
 }
-Node
+PropertyAccessType
 newPropertyAccess
 (
 Node
@@ -2544,13 +2544,13 @@ return
 NodeDottedProperty
 ;
 }
-Node
+PropertyByValueType
 newPropertyByValue
 (
 Node
-pn
+lhs
 Node
-kid
+index
 uint32_t
 end
 )
@@ -2706,7 +2706,7 @@ argpn
 )
 {
 }
-Node
+ForNodeType
 newForStatement
 (
 uint32_t
@@ -3124,7 +3124,7 @@ NodeFunctionCall
 )
 ;
 }
-Node
+BinaryNodeType
 newNewExpression
 (
 uint32_t
@@ -3139,7 +3139,7 @@ return
 NodeGeneric
 ;
 }
-Node
+AssignmentNodeType
 newAssignment
 (
 ParseNodeKind

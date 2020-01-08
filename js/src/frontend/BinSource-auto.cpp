@@ -27442,7 +27442,11 @@ start
 )
 )
 ;
-BINJS_TRY_DECL
+ParseNode
+*
+result
+;
+BINJS_TRY_VAR
 (
 result
 factory_
@@ -28065,7 +28069,11 @@ start
 )
 )
 ;
-BINJS_TRY_DECL
+ParseNode
+*
+result
+;
+BINJS_TRY_VAR
 (
 result
 factory_
@@ -36001,7 +36009,7 @@ JS
 :
 Result
 <
-ParseNode
+CaseClause
 *
 >
 BinASTParser
@@ -36109,7 +36117,7 @@ JS
 :
 Result
 <
-ParseNode
+CaseClause
 *
 >
 BinASTParser
