@@ -27817,7 +27817,6 @@ function
 SRCH_SVC_addEngine
 (
 aEngineURL
-aDataType
 aIconURL
 aConfirm
 aCallback

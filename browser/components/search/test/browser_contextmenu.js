@@ -411,7 +411,6 @@ testEngine_mozsearch
 .
 xml
 "
-null
 "
 data
 :
