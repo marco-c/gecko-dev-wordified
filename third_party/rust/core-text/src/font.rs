@@ -194,6 +194,15 @@ use
 core_foundation
 :
 :
+number
+:
+:
+CFNumber
+;
+use
+core_foundation
+:
+:
 string
 :
 :
@@ -764,6 +773,10 @@ variations
 :
 &
 CFDictionary
+<
+CFString
+CFNumber
+>
 )
 -
 >
@@ -1624,9 +1637,6 @@ CGRect
 {
 unsafe
 {
-let
-result
-=
 CTFontGetBoundingRectsForGlyphs
 (
 self
@@ -1654,8 +1664,6 @@ len
 as
 CFIndex
 )
-;
-result
 }
 }
 pub

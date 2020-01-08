@@ -155,6 +155,15 @@ use
 core_foundation
 :
 :
+number
+:
+:
+CFNumber
+;
+use
+core_foundation
+:
+:
 string
 :
 :
@@ -439,6 +448,10 @@ vars
 :
 &
 CFDictionary
+<
+CFString
+CFNumber
+>
 )
 -
 >
