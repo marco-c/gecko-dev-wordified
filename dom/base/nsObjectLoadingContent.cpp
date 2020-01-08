@@ -782,8 +782,9 @@ NS_APPSHELL_CID
 static
 const
 char
-*
 kPrefYoutubeRewrite
+[
+]
 =
 "
 plugins
@@ -794,8 +795,9 @@ rewrite_youtube_embeds
 static
 const
 char
-*
 kPrefBlockURIs
+[
+]
 =
 "
 browser
@@ -810,8 +812,9 @@ enabled
 static
 const
 char
-*
 kPrefFavorFallbackMode
+[
+]
 =
 "
 plugins
@@ -824,8 +827,9 @@ mode
 static
 const
 char
-*
 kPrefFavorFallbackRules
+[
+]
 =
 "
 plugins

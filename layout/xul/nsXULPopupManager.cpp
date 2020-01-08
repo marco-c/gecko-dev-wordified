@@ -941,8 +941,9 @@ false
 ;
 const
 char
-*
 kPrefDevtoolsDisableAutoHide
+[
+]
 =
 "
 ui

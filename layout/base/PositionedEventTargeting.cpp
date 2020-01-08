@@ -971,10 +971,6 @@ prefs
 >
 mEnabled
 enabledPref
-.
-get
-(
-)
 false
 )
 ;
@@ -1005,10 +1001,6 @@ prefs
 >
 mVisitedWeight
 visitedWeightPref
-.
-get
-(
-)
 100
 )
 ;
@@ -1089,10 +1081,6 @@ mSideRadii
 i
 ]
 radiusPref
-.
-get
-(
-)
 0
 )
 ;
@@ -1167,10 +1155,6 @@ prefs
 >
 mRepositionEventCoords
 repositionPref
-.
-get
-(
-)
 false
 )
 ;

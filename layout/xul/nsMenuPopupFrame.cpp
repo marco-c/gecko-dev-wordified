@@ -612,8 +612,9 @@ sTimeoutOfIncrementalSearch
 ;
 const
 char
-*
 kPrefIncrementalSearchTimeout
+[
+]
 =
 "
 ui
