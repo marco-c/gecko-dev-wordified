@@ -772,6 +772,9 @@ Active
 Passive
 =
 0x01
+ActiveWithIndex
+=
+0x02
 }
 ;
 enum
