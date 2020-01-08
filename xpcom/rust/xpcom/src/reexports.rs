@@ -157,6 +157,8 @@ nsstring
 {
 nsACString
 nsAString
+nsCString
+nsString
 }
 ;
 pub
