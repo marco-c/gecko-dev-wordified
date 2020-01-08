@@ -226,6 +226,17 @@ void
 src
 )
 ;
+/
+*
+*
+*
+This
+function
+is
+deprecated
+.
+*
+/
 extern
 SECStatus
 DER_Lengths
