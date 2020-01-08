@@ -2204,6 +2204,13 @@ GetPerFrameKey
 )
 )
 {
+aNewItem
+-
+>
+InvalidateCachedChildInfo
+(
+)
+;
 mResultIsModified
 =
 true
@@ -2936,6 +2943,13 @@ GetPerFrameKey
 )
 )
 {
+item
+-
+>
+InvalidateCachedChildInfo
+(
+)
+;
 mResultIsModified
 =
 true
