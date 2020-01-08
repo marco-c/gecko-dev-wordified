@@ -170,11 +170,6 @@ namespace
 mscom
 {
 bool
-IsCOMInitializedOnCurrentThread
-(
-)
-;
-bool
 IsCurrentThreadMTA
 (
 )
