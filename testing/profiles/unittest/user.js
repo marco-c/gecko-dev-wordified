@@ -2003,7 +2003,7 @@ shadowdom
 .
 enabled
 "
-false
+true
 )
 ;
 user_pref
