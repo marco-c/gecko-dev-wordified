@@ -2623,6 +2623,17 @@ mFirstLetterComplete
 true
 ;
 }
+#
+ifdef
+DEBUG
+nsCString
+ToString
+(
+)
+const
+;
+#
+endif
 private
 :
 StyleClear
