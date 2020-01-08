@@ -374,6 +374,8 @@ new
 UrlbarController
 (
 {
+browserWindow
+:
 window
 }
 )
