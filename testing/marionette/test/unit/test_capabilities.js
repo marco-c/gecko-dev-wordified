@@ -125,6 +125,14 @@ js
 }
 )
 ;
+const
+{
+Capabilities
+PageLoadStrategy
+Proxy
+Timeouts
+}
+=
 ChromeUtils
 .
 import
@@ -138,10 +146,12 @@ marionette
 /
 content
 /
-session
+capabilities
 .
 js
 "
+{
+}
 )
 ;
 add_test
@@ -155,8 +165,6 @@ let
 ts
 =
 new
-session
-.
 Timeouts
 (
 )
@@ -202,8 +210,6 @@ test_Timeouts_toString
 equal
 (
 new
-session
-.
 Timeouts
 (
 )
@@ -214,8 +220,6 @@ toString
 "
 [
 object
-session
-.
 Timeouts
 ]
 "
@@ -239,8 +243,6 @@ let
 ts
 =
 new
-session
-.
 Timeouts
 (
 )
@@ -303,8 +305,6 @@ script
 let
 ts
 =
-session
-.
 Timeouts
 .
 fromJSON
@@ -372,8 +372,6 @@ script
 ;
 try
 {
-session
-.
 Timeouts
 .
 fromJSON
@@ -427,8 +425,6 @@ test_Timeouts_fromJSON_invalid_type
 {
 try
 {
-session
-.
 Timeouts
 .
 fromJSON
@@ -509,8 +505,6 @@ test_Timeouts_fromJSON_bounds
 {
 try
 {
-session
-.
 Timeouts
 .
 fromJSON
@@ -587,8 +581,6 @@ test_PageLoadStrategy
 {
 equal
 (
-session
-.
 PageLoadStrategy
 .
 None
@@ -599,8 +591,6 @@ none
 ;
 equal
 (
-session
-.
 PageLoadStrategy
 .
 Eager
@@ -611,8 +601,6 @@ eager
 ;
 equal
 (
-session
-.
 PageLoadStrategy
 .
 Normal
@@ -639,8 +627,6 @@ let
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -727,8 +713,6 @@ let
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -854,8 +838,6 @@ direct
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -900,8 +882,6 @@ autodetect
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -946,8 +926,6 @@ system
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -1013,8 +991,6 @@ socks
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -1210,8 +1186,6 @@ exclustions
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -1275,8 +1249,6 @@ test_Proxy_toString
 equal
 (
 new
-session
-.
 Proxy
 (
 )
@@ -1287,8 +1259,6 @@ toString
 "
 [
 object
-session
-.
 Proxy
 ]
 "
@@ -1312,8 +1282,6 @@ let
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -1336,8 +1304,6 @@ url
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -1386,8 +1352,6 @@ proxy
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -1451,8 +1415,6 @@ manual
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -1681,8 +1643,6 @@ address
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -1761,8 +1721,6 @@ let
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -1770,8 +1728,6 @@ Proxy
 deepEqual
 (
 p
-session
-.
 Proxy
 .
 fromJSON
@@ -1783,8 +1739,6 @@ undefined
 deepEqual
 (
 p
-session
-.
 Proxy
 .
 fromJSON
@@ -1817,8 +1771,6 @@ throws
 )
 =
 >
-session
-.
 Proxy
 .
 fromJSON
@@ -1846,8 +1798,6 @@ throws
 )
 =
 >
-session
-.
 Proxy
 .
 fromJSON
@@ -1868,8 +1818,6 @@ throws
 )
 =
 >
-session
-.
 Proxy
 .
 fromJSON
@@ -1914,8 +1862,6 @@ throws
 )
 =
 >
-session
-.
 Proxy
 .
 fromJSON
@@ -1940,8 +1886,6 @@ InvalidArgumentError
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -1965,8 +1909,6 @@ foo
 deepEqual
 (
 p
-session
-.
 Proxy
 .
 fromJSON
@@ -1993,8 +1935,6 @@ proxy
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -2010,8 +1950,6 @@ manual
 deepEqual
 (
 p
-session
-.
 Proxy
 .
 fromJSON
@@ -2136,8 +2074,6 @@ throws
 )
 =
 >
-session
-.
 Proxy
 .
 fromJSON
@@ -2153,8 +2089,6 @@ InvalidArgumentError
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -2388,8 +2322,6 @@ port
 deepEqual
 (
 p
-session
-.
 Proxy
 .
 fromJSON
@@ -2513,8 +2445,6 @@ proxy
 deepEqual
 (
 p
-session
-.
 Proxy
 .
 fromJSON
@@ -2539,8 +2469,6 @@ throws
 )
 =
 >
-session
-.
 Proxy
 .
 fromJSON
@@ -2609,8 +2537,6 @@ throws
 )
 =
 >
-session
-.
 Proxy
 .
 fromJSON
@@ -2639,8 +2565,6 @@ settings
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -2713,8 +2637,6 @@ noProxy
 deepEqual
 (
 p
-session
-.
 Proxy
 .
 fromJSON
@@ -2735,8 +2657,6 @@ removed
 p
 =
 new
-session
-.
 Proxy
 (
 )
@@ -2794,8 +2714,6 @@ db8
 deepEqual
 (
 p
-session
-.
 Proxy
 .
 fromJSON
@@ -2822,8 +2740,6 @@ let
 caps
 =
 new
-session
-.
 Capabilities
 (
 )
@@ -2878,8 +2794,6 @@ platformVersion
 ;
 equal
 (
-session
-.
 PageLoadStrategy
 .
 Normal
@@ -2917,8 +2831,6 @@ timeouts
 "
 )
 instanceof
-session
-.
 Timeouts
 )
 ;
@@ -2933,8 +2845,6 @@ proxy
 "
 )
 instanceof
-session
-.
 Proxy
 )
 ;
@@ -3042,14 +2952,10 @@ equal
 "
 [
 object
-session
-.
 Capabilities
 ]
 "
 new
-session
-.
 Capabilities
 (
 )
@@ -3077,8 +2983,6 @@ let
 caps
 =
 new
-session
-.
 Capabilities
 (
 )
@@ -3353,8 +3257,6 @@ const
 fromJSON
 }
 =
-session
-.
 Capabilities
 ;
 /
@@ -3430,8 +3332,6 @@ let
 caps
 =
 new
-session
-.
 Capabilities
 (
 )
@@ -3514,8 +3414,6 @@ Object
 .
 values
 (
-session
-.
 PageLoadStrategy
 )
 )
@@ -3974,8 +3872,6 @@ run_next_test
 /
 /
 use
-session
-.
 Proxy
 .
 toJSON
@@ -3993,8 +3889,6 @@ let
 proxy
 =
 new
-session
-.
 Proxy
 (
 )
@@ -4125,8 +4019,6 @@ proxy
 proxyType
 =
 new
-session
-.
 Proxy
 (
 )
@@ -4209,8 +4101,6 @@ proxyType
 foo
 :
 new
-session
-.
 Proxy
 (
 )
