@@ -275,7 +275,7 @@ to
 its
 global
 *
-nsIContentFrameMessageManager
+ContentFrameMessageManager
 with
 an
 appropriate
