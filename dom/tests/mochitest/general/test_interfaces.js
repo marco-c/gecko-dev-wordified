@@ -6445,9 +6445,6 @@ HTMLSlotElement
 insecureContext
 :
 true
-disabled
-:
-true
 }
 /
 /
@@ -11117,9 +11114,6 @@ name
 ShadowRoot
 "
 insecureContext
-:
-true
-disabled
 :
 true
 }
