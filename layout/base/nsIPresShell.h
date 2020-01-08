@@ -10431,8 +10431,8 @@ aPtr
 {
 #
 ifdef
-DEBUG
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mAllocatedPointers
@@ -10463,8 +10463,8 @@ aPtr
 {
 #
 ifdef
-DEBUG
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+MOZ_DIAGNOSTIC_ASSERT
 (
 mAllocatedPointers
 .
@@ -11020,6 +11020,11 @@ nsIFrame
 *
 mDrawEventTargetFrame
 ;
+#
+endif
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 /
 /
 We
