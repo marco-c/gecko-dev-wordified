@@ -211,7 +211,7 @@ prefsSchemaVersion
 .
 0
 .
-3
+4
 "
 ;
 const
@@ -1706,6 +1706,13 @@ pendingBreakpoints
 =
 {
 }
+;
+prefs
+.
+tabs
+=
+[
+]
 ;
 prefs
 .
