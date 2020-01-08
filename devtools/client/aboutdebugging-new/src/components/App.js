@@ -203,6 +203,8 @@ require
 "
 .
 /
+connect
+/
 ConnectPage
 "
 )
