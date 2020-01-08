@@ -2099,13 +2099,11 @@ interceptError
 JSContext
 *
 cx
-const
 JS
 :
 :
-Value
-&
-val
+HandleValue
+exn
 )
 override
 ;
