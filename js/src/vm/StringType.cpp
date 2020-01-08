@@ -2173,7 +2173,7 @@ copyLatin1CharsZ
 (
 JSContext
 *
-cx
+maybecx
 )
 const
 {
@@ -2183,7 +2183,7 @@ copyCharsInternal
 Latin1Char
 >
 (
-cx
+maybecx
 true
 )
 ;
@@ -2196,7 +2196,7 @@ copyTwoByteCharsZ
 (
 JSContext
 *
-cx
+maybecx
 )
 const
 {
@@ -2206,7 +2206,7 @@ copyCharsInternal
 char16_t
 >
 (
-cx
+maybecx
 true
 )
 ;
@@ -2228,7 +2228,7 @@ copyLatin1Chars
 (
 JSContext
 *
-cx
+maybecx
 )
 const
 {
@@ -2238,7 +2238,7 @@ copyCharsInternal
 Latin1Char
 >
 (
-cx
+maybecx
 false
 )
 ;
@@ -2251,7 +2251,7 @@ copyTwoByteChars
 (
 JSContext
 *
-cx
+maybecx
 )
 const
 {
@@ -2261,7 +2261,7 @@ copyCharsInternal
 char16_t
 >
 (
-cx
+maybecx
 false
 )
 ;
@@ -2288,7 +2288,7 @@ copyCharsInternal
 (
 JSContext
 *
-cx
+maybecx
 bool
 nullTerminate
 )
@@ -2358,13 +2358,13 @@ out
 ;
 if
 (
-cx
+maybecx
 )
 out
 .
 reset
 (
-cx
+maybecx
 -
 >
 pod_malloc
@@ -2470,9 +2470,20 @@ leftChild
 )
 )
 )
+{
+if
+(
+maybecx
+)
+ReportOutOfMemory
+(
+maybecx
+)
+;
 return
 nullptr
 ;
+}
 str
 =
 str

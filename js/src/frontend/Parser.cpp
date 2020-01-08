@@ -1273,12 +1273,16 @@ false
 ;
 }
 return
+maybeReportOOM
+(
+pc
 possibleAnnexBFunctionBoxes_
 -
 >
 append
 (
 funbox
+)
 )
 ;
 }
