@@ -170,7 +170,7 @@ include
 "
 builtin
 /
-SIMD
+SIMDConstants
 .
 h
 "
