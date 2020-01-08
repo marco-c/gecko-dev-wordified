@@ -382,27 +382,6 @@ strip
 )
 ]
     
-libname
-ext
-=
-os
-.
-path
-.
-splitext
-(
-os
-.
-path
-.
-basename
-(
-output
-.
-name
-)
-)
-    
 if
 buildconfig
 .
@@ -594,6 +573,27 @@ is
 concerned
 .
         
+libname
+ext
+=
+os
+.
+path
+.
+splitext
+(
+os
+.
+path
+.
+basename
+(
+output
+.
+name
+)
+)
+        
 assert
 ext
 =
@@ -667,9 +667,6 @@ following
 :
         
 #
-liblibrary
-.
-so
 {
         
 #
@@ -706,8 +703,6 @@ output
 write
 (
 '
-%
-s
 {
 \
 nglobal
@@ -731,8 +726,6 @@ n
 '
                      
 %
-(
-libname
 '
 ;
 \
@@ -742,7 +735,6 @@ n
 join
 (
 symbols
-)
 )
 )
     
