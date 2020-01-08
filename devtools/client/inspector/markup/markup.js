@@ -4073,6 +4073,8 @@ _onNewSelection
 :
 function
 (
+nodeFront
+reason
 )
 {
 const
@@ -4205,6 +4207,21 @@ isSlotted
 )
 ;
 const
+smoothScroll
+=
+reason
+=
+=
+=
+"
+reveal
+-
+from
+-
+slot
+"
+;
+const
 onShow
 =
 this
@@ -4216,6 +4233,7 @@ selection
 nodeFront
 {
 slotted
+smoothScroll
 }
 )
 .
@@ -7590,6 +7608,9 @@ centered
 =
 true
 slotted
+smoothScroll
+=
+false
 }
 =
 {
@@ -7709,6 +7730,7 @@ editor
 .
 elt
 centered
+smoothScroll
 )
 ;
 }
