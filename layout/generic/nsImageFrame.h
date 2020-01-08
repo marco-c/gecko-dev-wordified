@@ -1840,9 +1840,9 @@ nsImageMap
 >
 mImageMap
 ;
-nsCOMPtr
+RefPtr
 <
-imgINotificationObserver
+nsImageListener
 >
 mListener
 ;
