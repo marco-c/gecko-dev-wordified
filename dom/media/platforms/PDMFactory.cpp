@@ -1537,6 +1537,14 @@ aParams
 mUseNullDecoder
 .
 mUse
+&
+&
+!
+aParams
+.
+mNoWrapper
+.
+mDontUseWrapper
 )
 {
 RefPtr
