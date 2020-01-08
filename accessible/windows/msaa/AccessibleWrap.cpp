@@ -513,7 +513,11 @@ VARIANT
 kVarChildIdSelf
 =
 {
+{
+{
 VT_I4
+}
+}
 }
 ;
 static
@@ -8249,7 +8253,11 @@ VARIANT
 docId
 =
 {
+{
+{
 VT_I4
+}
+}
 }
 ;
 docId
