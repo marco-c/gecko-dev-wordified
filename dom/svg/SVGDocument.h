@@ -171,6 +171,15 @@ SVGForeignObjectElement
 To
 call
 EnsureNonSVGUserAgentStyleSheetsLoaded
+friend
+class
+nsIDocument
+;
+/
+/
+Same
+reason
+.
 public
 :
 SVGDocument
