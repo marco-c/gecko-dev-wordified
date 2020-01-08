@@ -161,6 +161,10 @@ const
 REGEX_PANEL
 =
 /
+^
+(
+?
+:
 webconsole
 |
 inspector
@@ -172,6 +176,7 @@ styleeditor
 netmonitor
 |
 storage
+)
 /
 ;
 var
