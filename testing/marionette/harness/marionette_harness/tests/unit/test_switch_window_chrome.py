@@ -283,6 +283,15 @@ startswith
 linux
 "
 )
+or
+sys
+.
+platform
+=
+=
+"
+darwin
+"
             
 "
 Bug
@@ -296,6 +305,8 @@ background
 window
 on
 Linux
+/
+MacOS
 "
 )
     
@@ -306,38 +317,6 @@ self
 )
 :
         
-#
-Bug
-1334981
--
-with
-testmode
-enabled
-getMostRecentWindow
-detects
-the
-wrong
-window
-        
-with
-self
-.
-marionette
-.
-using_prefs
-(
-{
-"
-focusmanager
-.
-testmode
-"
-:
-False
-}
-)
-:
-            
 #
 Open
 an
@@ -352,7 +331,7 @@ we
 can
 better
 check
-            
+        
 #
 the
 selected
@@ -365,7 +344,7 @@ to
 be
 opened
 .
-            
+        
 second_tab
 =
 self
@@ -378,7 +357,7 @@ self
 .
 open_tab_in_foreground
 )
-            
+        
 self
 .
 marionette
@@ -390,7 +369,7 @@ focus
 =
 True
 )
-            
+        
 second_tab_index
 =
 self
@@ -398,7 +377,7 @@ self
 get_selected_tab_index
 (
 )
-            
+        
 self
 .
 assertNotEqual
@@ -408,7 +387,7 @@ self
 .
 selected_tab_index
 )
-            
+        
 #
 Opens
 a
@@ -422,7 +401,7 @@ interested
 in
 the
 tab
-            
+        
 tab_in_new_window
 =
 self
@@ -435,7 +414,7 @@ self
 .
 open_window_in_background
 )
-            
+        
 self
 .
 assertEqual
@@ -447,7 +426,7 @@ marionette
 current_window_handle
 second_tab
 )
-            
+        
 self
 .
 assertEqual
@@ -461,7 +440,7 @@ self
 .
 start_window
 )
-            
+        
 self
 .
 assertEqual
@@ -473,7 +452,7 @@ get_selected_tab_index
 )
 second_tab_index
 )
-            
+        
 with
 self
 .
@@ -486,7 +465,7 @@ content
 "
 )
 :
-                
+            
 self
 .
 assertEqual
@@ -502,7 +481,7 @@ self
 .
 empty_page
 )
-            
+        
 #
 Switch
 to
@@ -518,7 +497,7 @@ don
 t
 focus
 it
-            
+        
 self
 .
 marionette
@@ -530,7 +509,7 @@ focus
 =
 False
 )
-            
+        
 self
 .
 assertEqual
@@ -542,7 +521,7 @@ marionette
 current_window_handle
 tab_in_new_window
 )
-            
+        
 self
 .
 assertNotEqual
@@ -556,7 +535,7 @@ self
 .
 start_window
 )
-            
+        
 self
 .
 assertEqual
@@ -568,7 +547,7 @@ get_selected_tab_index
 )
 second_tab_index
 )
-            
+        
 with
 self
 .
@@ -581,7 +560,7 @@ content
 "
 )
 :
-                
+            
 self
 .
 assertEqual
