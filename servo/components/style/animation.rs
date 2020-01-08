@@ -291,10 +291,7 @@ values
 computed
 :
 :
-box_
-:
-:
-TransitionProperty
+TimingFunction
 ;
 use
 values
@@ -303,7 +300,10 @@ values
 computed
 :
 :
-TimingFunction
+box_
+:
+:
+TransitionProperty
 ;
 use
 values
