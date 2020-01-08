@@ -776,12 +776,8 @@ string
 nsresult
 parse_sdp
 (
-const
-char
-*
+StringView
 sdp
-uint32_t
-length
 bool
 fail_on_warning
 RustSdpSession
