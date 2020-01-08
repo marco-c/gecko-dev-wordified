@@ -8121,6 +8121,12 @@ active
 :
 focus
 '
+'
+:
+focus
+-
+within
+'
 *
 param
 options
@@ -8549,6 +8555,12 @@ active
 '
 :
 focus
+'
+'
+:
+focus
+-
+within
 '
 *
 param
