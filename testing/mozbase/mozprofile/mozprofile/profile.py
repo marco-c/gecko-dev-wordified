@@ -3880,20 +3880,19 @@ addon
 :
             
 #
-TODO
-Implement
-this
-properly
+Don
+'
+t
+include
+testing
+/
+profiles
+on
+Google
+Chrome
             
 return
-os
-.
-path
-.
-exists
-(
-addon
-)
+False
     
 def
 __init__
