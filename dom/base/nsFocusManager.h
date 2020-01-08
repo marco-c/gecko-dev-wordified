@@ -318,6 +318,15 @@ Shutdown
 (
 )
 ;
+void
+PrefChanged
+(
+const
+char
+*
+aPref
+)
+;
 /
 *
 *
