@@ -40,6 +40,7 @@ getContainerForCookieStoreId
 isValidCookieStoreId
 isContainerCookieStoreId
 EventManager
+InputEventManager
 URL
 *
 /
@@ -68,6 +69,9 @@ isPrivateCookieStoreId
 :
 false
 EventManager
+:
+false
+InputEventManager
 :
 false
 *
