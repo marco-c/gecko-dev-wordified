@@ -671,6 +671,11 @@ false
 shortExpiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 do_timeout
@@ -726,6 +731,11 @@ false
 futureExpiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 Assert
@@ -850,6 +860,11 @@ false
 aExpiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 }

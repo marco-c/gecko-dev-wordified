@@ -126,6 +126,11 @@ session
 expiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 Assert
@@ -275,6 +280,11 @@ session
 expiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 Assert
@@ -553,6 +563,11 @@ session
 expiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 Assert

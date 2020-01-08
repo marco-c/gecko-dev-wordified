@@ -97,6 +97,11 @@ originAttributes
 /
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 return

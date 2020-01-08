@@ -1202,6 +1202,11 @@ origin
 attributes
 *
 /
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 }

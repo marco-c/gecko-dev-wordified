@@ -5919,6 +5919,9 @@ expires
 cookie
 .
 originAttributes
+cookie
+.
+sameSite
 )
 ;
 }

@@ -164,6 +164,11 @@ now
 60
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 var

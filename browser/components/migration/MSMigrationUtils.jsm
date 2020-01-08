@@ -4242,6 +4242,11 @@ session
 expireTime
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 }
