@@ -1393,6 +1393,15 @@ our
 previous
 allocations
 .
+auto
+protectLast
+=
+[
+&
+]
+(
+)
+{
 if
 (
 !
@@ -1416,6 +1425,8 @@ Loc
 :
 Reserved
 )
+;
+}
 ;
 /
 /
@@ -1476,6 +1487,10 @@ n
 )
 )
 {
+protectLast
+(
+)
+;
 chunks_
 .
 append
@@ -1600,6 +1615,10 @@ i
 get
 (
 )
+)
+;
+protectLast
+(
 )
 ;
 chunks_
@@ -1729,6 +1748,10 @@ as
 RW
 already
 .
+protectLast
+(
+)
+;
 chunks_
 .
 append
