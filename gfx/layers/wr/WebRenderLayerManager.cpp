@@ -2869,10 +2869,10 @@ void
 WebRenderLayerManager
 :
 :
-SetLayerObserverEpoch
+SetLayersObserverEpoch
 (
-uint64_t
-aLayerObserverEpoch
+LayersObserverEpoch
+aEpoch
 )
 {
 if
@@ -2892,9 +2892,9 @@ WrBridge
 )
 -
 >
-SendSetLayerObserverEpoch
+SendSetLayersObserverEpoch
 (
-aLayerObserverEpoch
+aEpoch
 )
 ;
 }

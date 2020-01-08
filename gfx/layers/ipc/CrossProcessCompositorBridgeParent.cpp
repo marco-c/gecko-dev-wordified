@@ -2615,7 +2615,7 @@ state
 mParent
 -
 >
-SendObserveLayerUpdate
+SendObserveLayersUpdate
 (
 id
 aLayerTree
@@ -2947,7 +2947,7 @@ state
 mParent
 -
 >
-SendObserveLayerUpdate
+SendObserveLayersUpdate
 (
 id
 aLayerTree
@@ -4033,11 +4033,11 @@ void
 CrossProcessCompositorBridgeParent
 :
 :
-ObserveLayerUpdate
+ObserveLayersUpdate
 (
 LayersId
 aLayersId
-uint64_t
+LayersObserverEpoch
 aEpoch
 bool
 aActive
@@ -4092,7 +4092,7 @@ state
 mParent
 -
 >
-SendObserveLayerUpdate
+SendObserveLayersUpdate
 (
 aLayersId
 aEpoch

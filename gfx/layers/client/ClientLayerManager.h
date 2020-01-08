@@ -1592,10 +1592,10 @@ override
 ;
 virtual
 void
-SetLayerObserverEpoch
+SetLayersObserverEpoch
 (
-uint64_t
-aLayerObserverEpoch
+LayersObserverEpoch
+aEpoch
 )
 override
 ;

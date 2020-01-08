@@ -1172,9 +1172,9 @@ mActiveSupressDisplayportCount
 #
 endif
 mLayerTreeEpoch
-(
+{
 1
-)
+}
 mPreserveLayers
 (
 false
@@ -15969,7 +15969,7 @@ self
 =
 this
 ;
-uint64_t
+LayersObserverEpoch
 epoch
 =
 mLayerTreeEpoch
@@ -16168,8 +16168,12 @@ are
 ignored
 .
 mLayerTreeEpoch
-+
-+
+=
+mLayerTreeEpoch
+.
+Next
+(
+)
 ;
 Unused
 <
@@ -16585,7 +16589,9 @@ TabParent
 :
 LayerTreeUpdate
 (
-uint64_t
+const
+LayersObserverEpoch
+&
 aEpoch
 bool
 aActive
@@ -16801,9 +16807,9 @@ TabParent
 RecvPaintWhileInterruptingJSNoOp
 (
 const
-uint64_t
+LayersObserverEpoch
 &
-aLayerObserverEpoch
+aEpoch
 )
 {
 /
@@ -16844,7 +16850,7 @@ layers
 .
 LayerTreeUpdate
 (
-aLayerObserverEpoch
+aEpoch
 true
 )
 ;

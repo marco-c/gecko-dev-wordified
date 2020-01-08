@@ -2911,7 +2911,9 @@ aRunInGlobalScope
 void
 LayerTreeUpdate
 (
-uint64_t
+const
+LayersObserverEpoch
+&
 aEpoch
 bool
 aActive
@@ -3243,9 +3245,9 @@ IPCResult
 RecvPaintWhileInterruptingJSNoOp
 (
 const
-uint64_t
+LayersObserverEpoch
 &
-aLayerObserverEpoch
+aEpoch
 )
 override
 ;
@@ -4210,7 +4212,7 @@ LayersId
 aLayersId
 )
 ;
-uint64_t
+LayersObserverEpoch
 mLayerTreeEpoch
 ;
 /

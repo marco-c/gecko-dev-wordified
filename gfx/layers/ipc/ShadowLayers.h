@@ -2507,10 +2507,10 @@ aFocusTarget
 ;
 }
 void
-SetLayerObserverEpoch
+SetLayersObserverEpoch
 (
-uint64_t
-aLayerObserverEpoch
+LayersObserverEpoch
+aEpoch
 )
 ;
 static
