@@ -764,7 +764,7 @@ toEqual
 (
 numUnfilterableMessages
 +
-3
+4
 )
 ;
 }
@@ -3051,6 +3051,11 @@ asdf
 is
 not
 defined
+"
+"
+TypeError
+longString
+message
 "
 "
 console
