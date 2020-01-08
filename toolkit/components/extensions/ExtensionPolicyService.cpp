@@ -3702,6 +3702,14 @@ nsCOMPtr
 nsPIDOMWindowInner
 >
 win
+;
+if
+(
+!
+aIsPreload
+)
+{
+win
 =
 aDocInfo
 .
@@ -3714,6 +3722,7 @@ GetCurrentInnerWindow
 (
 )
 ;
+}
 for
 (
 auto
