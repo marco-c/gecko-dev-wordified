@@ -2904,7 +2904,6 @@ Some
 WebAuthnTransaction
 (
 promise
-signal
 )
 )
 ;
@@ -4050,7 +4049,6 @@ Some
 WebAuthnTransaction
 (
 promise
-signal
 )
 )
 ;
