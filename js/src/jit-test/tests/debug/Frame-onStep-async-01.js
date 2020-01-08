@@ -186,6 +186,12 @@ line
 }
 }
 ;
+dbg
+.
+onEnterFrame
+=
+undefined
+;
 }
 ;
 /
