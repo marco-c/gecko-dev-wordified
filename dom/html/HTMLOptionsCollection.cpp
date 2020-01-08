@@ -238,13 +238,6 @@ h
 #
 include
 "
-nsIComboboxControlFrame
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

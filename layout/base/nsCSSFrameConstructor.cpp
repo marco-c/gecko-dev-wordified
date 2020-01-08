@@ -464,13 +464,6 @@ h
 #
 include
 "
-nsIComboboxControlFrame
-.
-h
-"
-#
-include
-"
 nsComboboxControlFrame
 .
 h

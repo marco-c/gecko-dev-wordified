@@ -190,7 +190,7 @@ h
 #
 include
 "
-nsIComboboxControlFrame
+nsComboboxControlFrame
 .
 h
 "
@@ -2771,7 +2771,7 @@ mStateFlags
 =
 eNoKidsFromDOM
 ;
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboFrame
 =
@@ -3068,7 +3068,7 @@ NativeState
 (
 )
 ;
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboFrame
 =
@@ -3322,7 +3322,7 @@ eAction_Click
 )
 return
 ;
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboFrame
 =
@@ -3513,7 +3513,7 @@ AreItemsOperable
 )
 const
 {
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboboxFrame
 =
@@ -4054,7 +4054,7 @@ GetFrame
 (
 )
 ;
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboBox
 =
@@ -4142,7 +4142,7 @@ NativeState
 (
 )
 ;
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboFrame
 =

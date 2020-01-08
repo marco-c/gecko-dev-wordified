@@ -447,7 +447,7 @@ h
 #
 include
 "
-nsIComboboxControlFrame
+nsComboboxControlFrame
 .
 h
 "
@@ -16542,7 +16542,7 @@ need
 special
 care
 .
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboBox
 =

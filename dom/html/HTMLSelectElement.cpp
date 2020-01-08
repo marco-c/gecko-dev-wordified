@@ -274,7 +274,7 @@ h
 #
 include
 "
-nsIComboboxControlFrame
+nsComboboxControlFrame
 .
 h
 "
@@ -9002,7 +9002,7 @@ IsCombobox
 )
 )
 {
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboFrame
 =
@@ -9786,7 +9786,7 @@ GetFormControlFrame
 false
 )
 ;
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboFrame
 =
@@ -9832,7 +9832,7 @@ GetFormControlFrame
 false
 )
 ;
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboFrame
 =
@@ -9889,7 +9889,7 @@ GetFormControlFrame
 false
 )
 ;
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboFrame
 =
