@@ -1180,6 +1180,7 @@ IsFirstPartyStorageAccessGrantedFor
 (
 httpChannel
 uri
+nullptr
 )
 )
 {
@@ -2256,6 +2257,7 @@ baseDomain
 aOriginAttrs
 )
 aOriginAttrs
+nullptr
 )
 ;
 if
@@ -3489,6 +3491,7 @@ IsFirstPartyStorageAccessGrantedFor
 (
 httpChannel
 aHostURI
+nullptr
 )
 )
 {
@@ -3783,6 +3786,7 @@ IsFirstPartyStorageAccessGrantedFor
 (
 httpChannel
 aHostURI
+nullptr
 )
 )
 {
@@ -3973,6 +3977,7 @@ baseDomain
 attrs
 )
 attrs
+nullptr
 )
 ;
 if

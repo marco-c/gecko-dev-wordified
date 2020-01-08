@@ -3545,16 +3545,6 @@ SetTrrUsed
 mTRR
 )
 ;
-mConnectionInfo
--
->
-SetTrrDisabled
-(
-mCaps
-&
-NS_HTTP_DISABLE_TRR
-)
-;
 /
 /
 notify
@@ -24262,6 +24252,7 @@ IsFirstPartyStorageAccessGrantedFor
 (
 this
 mURI
+nullptr
 )
 )
 {

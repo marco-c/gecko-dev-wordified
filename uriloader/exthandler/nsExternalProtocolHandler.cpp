@@ -2425,6 +2425,8 @@ nsExtProtocolChannel
 :
 NotifyTrackingCookieBlocked
 (
+uint32_t
+aRejectedReason
 )
 {
 /

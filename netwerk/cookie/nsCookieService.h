@@ -1554,6 +1554,9 @@ const
 OriginAttributes
 &
 aOriginAttrs
+uint32_t
+*
+aRejectedReason
 )
 ;
 static
@@ -2128,6 +2131,8 @@ aHostURI
 nsIChannel
 *
 aChannel
+uint32_t
+aRejectedReason
 )
 ;
 void

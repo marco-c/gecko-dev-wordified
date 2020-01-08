@@ -375,6 +375,10 @@ override
 IPCResult
 RecvNotifyTrackingCookieBlocked
 (
+const
+uint32_t
+&
+aRejectedReason
 )
 override
 ;

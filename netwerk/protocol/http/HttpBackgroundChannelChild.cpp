@@ -1783,6 +1783,10 @@ HttpBackgroundChannelChild
 :
 RecvNotifyTrackingCookieBlocked
 (
+const
+uint32_t
+&
+aRejectedReason
 )
 {
 LOG
@@ -1833,6 +1837,7 @@ mChannelChild
 >
 ProcessNotifyTrackingCookieBlocked
 (
+aRejectedReason
 )
 ;
 return
