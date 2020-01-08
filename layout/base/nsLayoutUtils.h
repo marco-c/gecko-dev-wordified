@@ -16184,6 +16184,15 @@ AreRetainedDisplayListsEnabled
 (
 )
 ;
+static
+bool
+DisplayRootHasRetainedDisplayListBuilder
+(
+nsIFrame
+*
+aFrame
+)
+;
 /
 *
 *
