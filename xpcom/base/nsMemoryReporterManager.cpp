@@ -8567,6 +8567,9 @@ the
 thread
 stack
 .
+#
+ifndef
+ANDROID
 MOZ_ASSERT
 (
 mappings
@@ -8599,6 +8602,8 @@ size
 "
 )
 ;
+#
+endif
 #
 else
 auto
