@@ -48,6 +48,8 @@ violatedDirective
 script
 -
 src
+-
+elem
 "
 )
 ;
