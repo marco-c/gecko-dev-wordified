@@ -162,7 +162,7 @@ IndicationBar
 )
 ;
 class
-CurrentTimeScrubberController
+CurrentTimeScrubber
 extends
 PureComponent
 {
@@ -814,7 +814,7 @@ time
 -
 scrubber
 -
-controller
+area
 "
 }
 IndicationBar
@@ -840,5 +840,5 @@ module
 .
 exports
 =
-CurrentTimeScrubberController
+CurrentTimeScrubber
 ;
