@@ -5530,6 +5530,10 @@ IsEmpty
 |
 |
 !
+composition
+|
+|
+!
 mDispatcher
 -
 >
@@ -6563,6 +6567,10 @@ IsEditorHandlingEvent
 ;
 if
 (
+!
+composition
+|
+|
 !
 mDispatcher
 -
