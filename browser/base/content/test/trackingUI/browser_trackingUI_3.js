@@ -287,14 +287,15 @@ let
 privateWin
 =
 await
-promiseOpenAndLoadWindow
+BrowserTestUtils
+.
+openNewBrowserWindow
 (
 {
 private
 :
 true
 }
-true
 )
 ;
 let
