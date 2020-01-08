@@ -399,6 +399,8 @@ browser
 {
 zoomDocument
 (
+content
+.
 document
 2
 .

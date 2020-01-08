@@ -355,7 +355,7 @@ process
 loadFrameScripts
 (
 browser
-let
+var
 accService
 =
 Components

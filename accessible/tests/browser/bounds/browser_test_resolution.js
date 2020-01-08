@@ -172,6 +172,8 @@ _scale
 {
 setResolution
 (
+content
+.
 document
 _scale
 )
@@ -311,6 +313,8 @@ browser
 {
 setResolution
 (
+content
+.
 document
 1
 .
