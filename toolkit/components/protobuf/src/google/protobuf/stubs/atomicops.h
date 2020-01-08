@@ -1561,6 +1561,12 @@ defined
 (
 GOOGLE_PROTOBUF_ARCH_ARM
 )
+|
+|
+defined
+(
+GOOGLE_PROTOBUF_ARCH_AARCH64
+)
 #
 include
 <
