@@ -23463,8 +23463,9 @@ rv
 htmlEditor
 -
 >
-CheckSelectionStateForAnonymousButtons
+RefereshEditingUI
 (
+*
 selection
 )
 ;
@@ -23475,7 +23476,7 @@ NS_SUCCEEDED
 rv
 )
 "
-CheckSelectionStateForAnonymousButtons
+RefereshEditingUI
 (
 )
 failed
