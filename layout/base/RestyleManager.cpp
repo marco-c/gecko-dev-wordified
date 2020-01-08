@@ -14177,6 +14177,8 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
+(
+)
 )
 {
 const
@@ -14657,6 +14659,8 @@ nsCSSAnonBoxes
 :
 :
 cellContent
+(
+)
 "
 Someone
 should
@@ -14685,6 +14689,8 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
+(
+)
 "
 Someone
 should
@@ -15690,6 +15696,8 @@ nsCSSAnonBoxes
 :
 :
 cellContent
+(
+)
 )
 {
 parent
@@ -16846,6 +16854,8 @@ nsCSSAnonBoxes
 :
 :
 mozText
+(
+)
 )
 ;
 if
@@ -16885,6 +16895,8 @@ nsCSSAnonBoxes
 :
 :
 mozText
+(
+)
 )
 ;
 /

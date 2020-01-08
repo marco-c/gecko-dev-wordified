@@ -201,6 +201,10 @@ aOffset
 ;
 DEFINE_STATIC_ATOM_SUBCLASS
 (
+nsICSSAnonBoxPseudo
+)
+DEFINE_STATIC_ATOM_SUBCLASS
+(
 nsICSSPseudoElement
 )
 #
@@ -222,6 +226,7 @@ GK_ATOM
 name_
 value_
 type_
+atom_type_
 )
 NS_STATIC_ATOM_DECL_STRING
 (
@@ -249,6 +254,7 @@ GK_ATOM
 name_
 value_
 type_
+atom_type_
 )
 NS_STATIC_ATOM_ENUM
 (
@@ -378,6 +384,7 @@ GK_ATOM
 name_
 value_
 type_
+atom_type_
 )
 NS_STATIC_ATOM_DECL_PTR
 (

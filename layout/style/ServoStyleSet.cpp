@@ -2717,6 +2717,8 @@ nsCSSAnonBoxes
 :
 :
 mozText
+(
+)
 |
 |
 aAnonBox
@@ -2726,6 +2728,8 @@ nsCSSAnonBoxes
 :
 :
 firstLetterContinuation
+(
+)
 )
 ;
 auto
@@ -2738,6 +2742,8 @@ nsCSSAnonBoxes
 :
 :
 mozText
+(
+)
 ?
 InheritTarget
 :
@@ -2864,6 +2870,8 @@ nsCSSAnonBoxes
 :
 :
 mozText
+(
+)
 )
 ;
 }
@@ -2900,6 +2908,8 @@ nsCSSAnonBoxes
 :
 :
 firstLetterContinuation
+(
+)
 )
 ;
 }
@@ -2970,6 +2980,8 @@ nsCSSAnonBoxes
 :
 :
 oofPlaceholder
+(
+)
 nullptr
 InheritTarget
 :
@@ -3431,12 +3443,16 @@ nsCSSAnonBoxes
 :
 :
 pageContent
+(
+)
 "
 If
 nsCSSAnonBoxes
 :
 :
 pageContent
+(
+)
 ends
 up
 non
@@ -3587,6 +3603,8 @@ nsCSSAnonBoxes
 :
 :
 viewport
+(
+)
 )
 "
 viewport

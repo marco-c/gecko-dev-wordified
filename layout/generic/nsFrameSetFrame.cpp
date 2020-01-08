@@ -2548,6 +2548,8 @@ nsCSSAnonBoxes
 :
 :
 framesetBlank
+(
+)
 )
 ;
 /
@@ -6224,6 +6226,8 @@ nsCSSAnonBoxes
 :
 :
 horizontalFramesetBorder
+(
+)
 )
 ;
 borderFrame
@@ -6420,6 +6424,8 @@ nsCSSAnonBoxes
 :
 :
 verticalFramesetBorder
+(
+)
 )
 ;
 borderFrame

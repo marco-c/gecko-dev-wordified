@@ -50778,6 +50778,8 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
+(
+)
 |
 |
 pseudoType
@@ -50787,6 +50789,8 @@ nsCSSAnonBoxes
 :
 :
 buttonContent
+(
+)
 |
 |
 pseudoType
@@ -50796,6 +50800,8 @@ nsCSSAnonBoxes
 :
 :
 cellContent
+(
+)
 )
 ;
 }
@@ -51147,6 +51153,8 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
+(
+)
 )
 {
 f
@@ -62543,6 +62551,8 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
+(
+)
 )
 break
 ;
@@ -65236,6 +65246,8 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
+(
+)
 )
 {
 /
@@ -65701,6 +65713,8 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
+(
+)
 )
 {
 /
@@ -66085,6 +66099,8 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
+(
+)
 )
 {
 pseudo
@@ -66413,6 +66429,8 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
+(
+)
 "
 Should
 have
@@ -66670,6 +66688,8 @@ nsCSSAnonBoxes
 :
 :
 viewportScroll
+(
+)
 )
 {
 /
@@ -66956,6 +66976,8 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
+(
+)
 )
 {
 if
@@ -67694,6 +67716,8 @@ nsCSSAnonBoxes
 :
 :
 anonymousFlexItem
+(
+)
 &
 &
 Style
@@ -67710,6 +67734,8 @@ nsCSSAnonBoxes
 :
 :
 anonymousGridItem
+(
+)
 )
 {
 const
