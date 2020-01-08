@@ -202,7 +202,7 @@ arrayOf
 (
 PropTypes
 .
-object
+string
 )
 .
 isRequired
@@ -250,6 +250,9 @@ network
 -
 location
 "
+key
+:
+location
 }
 dom
 .

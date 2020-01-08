@@ -330,7 +330,7 @@ runtimes
 :
 PropTypes
 .
-array
+object
 .
 isRequired
 selectedPage
@@ -338,8 +338,6 @@ selectedPage
 PropTypes
 .
 string
-.
-isRequired
 }
 ;
 }

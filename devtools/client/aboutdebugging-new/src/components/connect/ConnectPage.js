@@ -332,7 +332,7 @@ arrayOf
 (
 PropTypes
 .
-object
+string
 )
 .
 isRequired
