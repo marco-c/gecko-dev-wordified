@@ -1061,9 +1061,6 @@ element
 /
 RefPtr
 <
-mozilla
-:
-:
 DeclarationBlock
 >
 mSMILOverrideStyleDeclaration
