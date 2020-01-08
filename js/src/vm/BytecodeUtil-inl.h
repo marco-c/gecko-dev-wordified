@@ -1097,7 +1097,13 @@ size_t
 GetSrcNoteOffset
 (
 sn
-0
+SrcNote
+:
+:
+SetLine
+:
+:
+Line
 )
 )
 ;
