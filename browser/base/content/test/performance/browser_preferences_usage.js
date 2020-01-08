@@ -1086,7 +1086,7 @@ skip_type_assertion
 {
 max
 :
-110
+130
 }
 "
 security
