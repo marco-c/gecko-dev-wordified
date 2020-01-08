@@ -215,11 +215,6 @@ print
 )
 ;
 "
-icon
-=
-"
-print
-"
 /
 >
 <
@@ -1302,11 +1297,6 @@ exitPrintPreview
 (
 )
 ;
-"
-icon
-=
-"
-close
 "
 /
 >
