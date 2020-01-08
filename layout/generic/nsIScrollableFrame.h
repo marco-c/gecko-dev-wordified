@@ -3227,7 +3227,13 @@ nsIFrame
 *
 aContainerReferenceFrame
 const
+mozilla
+:
+:
+Maybe
+<
 ContainerLayerParameters
+>
 &
 aParameters
 const

@@ -19559,7 +19559,13 @@ aClipRect
 bool
 aIsRoot
 const
+mozilla
+:
+:
+Maybe
+<
 ContainerLayerParameters
+>
 &
 aContainerParameters
 )
