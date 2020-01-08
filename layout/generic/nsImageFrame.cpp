@@ -15020,8 +15020,9 @@ nsImageListener
 nsImageListener
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsImageListener
 :
