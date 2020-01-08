@@ -61,7 +61,9 @@ payment
 handler
 '
 '
-ServiceWorker
+service
+-
+workers
 '
 '
 dedicated
