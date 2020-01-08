@@ -292,7 +292,7 @@ x64
 define
 SPOOFED_PLATFORM
 "
-Win64
+Win32
 "
 #
 elif
