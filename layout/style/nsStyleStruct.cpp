@@ -18645,7 +18645,7 @@ Type
 :
 StepStart
 ;
-mStepsOrFrames
+mSteps
 =
 1
 ;
@@ -18675,7 +18675,7 @@ Type
 :
 StepEnd
 ;
-mStepsOrFrames
+mSteps
 =
 1
 ;

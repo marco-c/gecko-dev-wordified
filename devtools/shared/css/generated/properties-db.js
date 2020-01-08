@@ -278,9 +278,6 @@ out
 forwards
 "
 "
-frames
-"
-"
 infinite
 "
 "
@@ -777,9 +774,6 @@ out
 ease
 -
 out
-"
-"
-frames
 "
 "
 inherit
@@ -5244,9 +5238,6 @@ ease
 out
 "
 "
-frames
-"
-"
 inherit
 "
 "
@@ -5492,9 +5483,6 @@ out
 ease
 -
 out
-"
-"
-frames
 "
 "
 inherit
@@ -6318,9 +6306,6 @@ out
 forwards
 "
 "
-frames
-"
-"
 infinite
 "
 "
@@ -6817,9 +6802,6 @@ out
 ease
 -
 out
-"
-"
-frames
 "
 "
 inherit
@@ -11389,9 +11371,6 @@ ease
 out
 "
 "
-frames
-"
-"
 inherit
 "
 "
@@ -11637,9 +11616,6 @@ out
 ease
 -
 out
-"
-"
-frames
 "
 "
 inherit
@@ -14097,9 +14073,6 @@ out
 forwards
 "
 "
-frames
-"
-"
 infinite
 "
 "
@@ -14572,9 +14545,6 @@ out
 ease
 -
 out
-"
-"
-frames
 "
 "
 inherit
@@ -36607,9 +36577,6 @@ ease
 out
 "
 "
-frames
-"
-"
 inherit
 "
 "
@@ -36843,9 +36810,6 @@ out
 ease
 -
 out
-"
-"
-frames
 "
 "
 inherit
