@@ -8942,11 +8942,6 @@ SetIsInDocument
 (
 )
 ;
-SetIsConnected
-(
-true
-)
-;
 }
 nsDocument
 :
