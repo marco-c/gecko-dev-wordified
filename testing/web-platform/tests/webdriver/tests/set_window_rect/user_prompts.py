@@ -10,14 +10,6 @@ import
 assert_dialog_handled
 assert_error
 assert_success
-from
-tests
-.
-support
-.
-fixtures
-import
-create_dialog
 def
 set_window_rect
 (
@@ -94,6 +86,7 @@ def
 test_handle_prompt_accept
 (
 session
+create_dialog
 )
 :
     
@@ -110,9 +103,6 @@ step
 2
     
 create_dialog
-(
-session
-)
 (
 "
 alert
@@ -181,9 +171,6 @@ dismiss
     
 create_dialog
 (
-session
-)
-(
 "
 confirm
 "
@@ -250,9 +237,6 @@ dismiss
 )
     
 create_dialog
-(
-session
-)
 (
 "
 prompt
