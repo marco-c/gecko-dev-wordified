@@ -9,8 +9,6 @@ for
 marionette
 production
 .
-import
-os
 HG_SHARE_BASE_DIR
 =
 "
@@ -112,28 +110,6 @@ com
 "
     
 ]
-    
-"
-blob_uploader_auth_file
-"
-:
-os
-.
-path
-.
-join
-(
-os
-.
-getcwd
-(
-)
-"
-oauth
-.
-txt
-"
-)
     
 "
 download_symbols

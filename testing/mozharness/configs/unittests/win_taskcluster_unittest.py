@@ -2864,21 +2864,6 @@ reftest
 "
 ]
     
-'
-blob_uploader_auth_file
-'
-:
-'
-C
-:
-/
-builds
-/
-oauth
-.
-txt
-'
-    
 "
 download_minidump_stackwalk
 "
