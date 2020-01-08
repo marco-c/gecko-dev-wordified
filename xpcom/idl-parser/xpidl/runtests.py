@@ -915,7 +915,7 @@ params
 realtype
 xpidl
 .
-LegacyArray
+Array
 )
 )
         

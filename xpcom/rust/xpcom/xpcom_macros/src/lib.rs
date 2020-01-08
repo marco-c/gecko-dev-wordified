@@ -4645,8 +4645,6 @@ reexports
 libc
 nsACString
 nsAString
-nsCString
-nsString
 nsresult
 }
 ;
