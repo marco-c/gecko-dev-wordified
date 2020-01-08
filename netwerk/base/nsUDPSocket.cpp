@@ -206,7 +206,7 @@ h
 #
 include
 "
-NetworkActivityMonitor
+IOActivityMonitor
 .
 h
 "
@@ -4325,11 +4325,11 @@ mAddr
 create
 proxy
 via
-NetworkActivityMonitor
-NetworkActivityMonitor
+IOActivityMonitor
+IOActivityMonitor
 :
 :
-AttachIOLayer
+MonitorSocket
 (
 mFD
 )
