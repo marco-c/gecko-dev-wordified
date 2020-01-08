@@ -5506,13 +5506,11 @@ DataViewObject
 )
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Step
 6
+.
 if
 (
 thisView
@@ -5539,8 +5537,6 @@ return
 false
 ;
 }
-#
-endif
 /
 /
 Step
@@ -5646,13 +5642,11 @@ DataViewObject
 )
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Step
 6
+.
 if
 (
 thisView
@@ -5679,8 +5673,6 @@ return
 false
 ;
 }
-#
-endif
 /
 /
 Step
