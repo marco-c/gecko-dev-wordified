@@ -3361,6 +3361,13 @@ ConsoleCommand
 messageText
 :
 executeString
+timeStamp
+:
+Date
+.
+now
+(
+)
 }
 )
 ;

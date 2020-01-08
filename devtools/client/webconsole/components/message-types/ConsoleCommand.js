@@ -244,6 +244,7 @@ source
 type
 level
 messageText
+timeStamp
 }
 =
 message
@@ -308,6 +309,7 @@ topLevelClasses
 messageBody
 serviceContainer
 indent
+timeStamp
 timestampsVisible
 }
 )
