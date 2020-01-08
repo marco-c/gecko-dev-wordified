@@ -182,12 +182,6 @@ string_cache
 Atom
 ;
 use
-thin_slice
-:
-:
-ThinBoxedSlice
-;
-use
 values
 :
 :

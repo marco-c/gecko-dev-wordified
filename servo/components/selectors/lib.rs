@@ -133,10 +133,6 @@ extern
 crate
 smallvec
 ;
-extern
-crate
-thin_slice
-;
 pub
 mod
 attr

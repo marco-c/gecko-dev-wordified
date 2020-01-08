@@ -650,10 +650,6 @@ style_traits
 ;
 extern
 crate
-thin_slice
-;
-extern
-crate
 time
 ;
 extern
