@@ -89,14 +89,7 @@ h
 #
 include
 "
-ssl
-.
-h
-"
-#
-include
-"
-sslproto
+transportlayerdtls
 .
 h
 "
@@ -294,7 +287,7 @@ cipher_suite
 )
 {
 case
-SRTP_AES128_CM_HMAC_SHA1_80
+kDtlsSrtpAes128CmHmacSha1_80
 :
 MOZ_MTLOG
 (
@@ -327,7 +320,7 @@ rtcp
 break
 ;
 case
-SRTP_AES128_CM_HMAC_SHA1_32
+kDtlsSrtpAes128CmHmacSha1_32
 :
 MOZ_MTLOG
 (
