@@ -952,6 +952,7 @@ path
 .
 join
 (
+    
 os
 .
 path
@@ -974,6 +975,7 @@ __file__
 )
 )
 )
+    
 "
 configs
 "
@@ -1208,6 +1210,7 @@ else
 raise
 RuntimeError
 (
+            
 "
 Unknown
 config
@@ -3672,7 +3675,9 @@ append
 cf
 parse_config_file
 (
+                            
 cf
+                            
 search_path
 =
 config_paths
@@ -3680,6 +3685,7 @@ config_paths
 [
 DEFAULT_CONFIG_PATH
 ]
+                        
 )
 )
                     

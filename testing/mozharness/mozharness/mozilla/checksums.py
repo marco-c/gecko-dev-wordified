@@ -8,6 +8,7 @@ checksums
 "
 "
 "
+    
 Parses
 checksums
 files
@@ -19,7 +20,7 @@ generates
 and
 uploads
 :
-        
+    
 https
 :
 /
@@ -43,6 +44,7 @@ build
 checksums
 .
 py
+    
 "
 "
 "
@@ -165,6 +167,7 @@ size
 raise
 ValueError
 (
+                
 "
 Found
 different
@@ -182,6 +185,7 @@ and
 s
 )
 "
+                
 %
 (
 file_
@@ -207,6 +211,8 @@ hash
 .
         
 elif
+(
+            
 type_
 in
 fileInfo
@@ -218,6 +224,7 @@ file_
 hashes
 '
 ]
+            
 and
 fileInfo
 [
@@ -234,11 +241,14 @@ type_
 !
 =
 hash_
+        
+)
 :
             
 raise
 ValueError
 (
+                
 "
 Found
 different
@@ -258,6 +268,7 @@ and
 s
 )
 "
+                
 %
 (
 type_

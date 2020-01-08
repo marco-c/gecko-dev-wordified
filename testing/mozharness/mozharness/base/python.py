@@ -988,6 +988,7 @@ path
 .
 abspath
 (
+                
 os
 .
 path
@@ -1184,6 +1185,7 @@ self
 .
 get_output_from_command
 (
+                
 [
 pip
 "
@@ -1211,6 +1213,7 @@ self
 .
 fatal
 (
+                    
 "
 package_versions
 :
@@ -1220,10 +1223,9 @@ running
 pip
 freeze
 :
-%
-s
 "
-%
+                    
++
 pip_freeze_output
 )
         
@@ -1969,6 +1971,7 @@ self
 .
 fatal
 (
+                
 "
 install_module
 (
@@ -1984,6 +1987,7 @@ of
 s
 !
 "
+                
 %
 install_method
 )
@@ -2125,6 +2129,7 @@ self
 .
 fatal
 (
+                        
 "
 editable
 installs
@@ -2135,6 +2140,7 @@ install_method
 %
 s
 "
+                        
 %
 install_method
 )
@@ -2280,6 +2286,8 @@ FATAL
             
 error_message
 =
+(
+                
 '
 Could
 not
@@ -2288,6 +2296,7 @@ python
 package
 :
 '
+                
 +
 quoted_command
 +
@@ -2302,6 +2311,8 @@ d
 tries
 !
 '
+            
+)
             
 args
 =
@@ -2919,6 +2930,7 @@ self
 .
 info
 (
+                
 "
 Virtualenv
 %
@@ -2928,6 +2940,9 @@ to
 already
 exist
 ;
+"
+                
+"
 skipping
 virtualenv
 creation
@@ -4730,6 +4745,10 @@ the
 issue
 .
             
+if
+cpu_percent
+:
+                
 cpu_percent_str
 =
 str
@@ -4743,9 +4762,12 @@ cpu_percent
 '
 %
 '
-if
-cpu_percent
+            
 else
+:
+                
+cpu_percent_str
+=
 "
 Can
 '

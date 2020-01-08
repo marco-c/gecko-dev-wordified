@@ -184,6 +184,7 @@ path
 .
 join
 (
+                
 os
 .
 environ

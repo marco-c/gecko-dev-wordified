@@ -620,6 +620,7 @@ config
 .
 get
 (
+                
 '
 gittool_base_mirror_urls
 '

@@ -2575,6 +2575,7 @@ self
 .
 get_output_from_command
 (
+                        
 cmd
 cwd
 =

@@ -255,6 +255,7 @@ log_level
 )
         
 except
+BaseException
 :
             
 self
@@ -302,7 +303,7 @@ ERROR
 create_remote_directory
 =
 True
-                            
+                             
 )
 :
         
@@ -593,6 +594,7 @@ self
 .
 log
 (
+                    
 "
 Unable
 to
@@ -606,6 +608,7 @@ s
 s
 !
 "
+                    
 %
 (
 remote_host
@@ -680,6 +683,7 @@ self
 .
 log
 (
+                
 "
 Unable
 to
@@ -694,6 +698,7 @@ s
 s
 !
 "
+                
 %
 (
 local_path
