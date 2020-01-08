@@ -307,9 +307,7 @@ policy
 /
 blob
 /
-gh
--
-pages
+master
 /
 features
 .
