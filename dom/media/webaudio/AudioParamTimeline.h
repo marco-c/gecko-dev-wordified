@@ -128,16 +128,16 @@ h
 #
 include
 "
-mozilla
-/
-ErrorResult
+AudioNodeStream
 .
 h
 "
 #
 include
 "
-MediaStreamGraph
+mozilla
+/
+ErrorResult
 .
 h
 "
@@ -194,7 +194,7 @@ an
 optional
 /
 /
-MediaStream
+AudioNodeStream
 which
 represents
 the
@@ -207,7 +207,7 @@ AudioParam
 /
 /
 This
-MediaStream
+AudioNodeStream
 is
 managed
 by
@@ -260,7 +260,7 @@ aDefaultValue
 )
 {
 }
-MediaStream
+AudioNodeStream
 *
 Stream
 (
@@ -641,7 +641,7 @@ needed
 .
 RefPtr
 <
-MediaStream
+AudioNodeStream
 >
 mStream
 ;

@@ -122,7 +122,7 @@ h
 #
 include
 "
-MediaStreamGraph
+AudioNodeStream
 .
 h
 "
@@ -540,7 +540,7 @@ AudioTimelineEvent
 :
 AudioTimelineEvent
 (
-MediaStream
+AudioNodeStream
 *
 aStream
 )
