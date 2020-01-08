@@ -715,7 +715,7 @@ hud
 .
 ui
 .
-newConsoleOutput
+consoleOutput
 .
 getStore
 (
@@ -1771,7 +1771,7 @@ hud
 .
 ui
 .
-newConsoleOutput
+consoleOutput
 .
 once
 (
@@ -1797,7 +1797,7 @@ hud
 .
 ui
 .
-newConsoleOutput
+consoleOutput
 .
 owner
 .
@@ -1882,7 +1882,7 @@ hud
 .
 ui
 .
-newConsoleOutput
+consoleOutput
 .
 owner
 .
@@ -5137,7 +5137,7 @@ hud
 .
 ui
 .
-newConsoleOutput
+consoleOutput
 .
 getStore
 (

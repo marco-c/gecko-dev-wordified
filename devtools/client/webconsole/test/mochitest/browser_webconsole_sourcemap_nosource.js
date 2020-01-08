@@ -259,7 +259,7 @@ hud
 .
 ui
 .
-newConsoleOutput
+consoleOutput
 .
 toolbox
 ;

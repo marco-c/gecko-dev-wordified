@@ -607,7 +607,7 @@ reloaded
 '
 event
 from
-NewWebConsoleFrame
+WebConsoleFrame
 to
 WebConsolePanel
 .

@@ -1394,7 +1394,7 @@ networkDataProvider
 is
 put
 by
-NewConsoleOutputWrapper
+WebConsoleOutputWrapper
 on
 /
 /
@@ -1612,7 +1612,7 @@ from
 :
 /
 /
-NewConsoleOutputWrapper
+WebConsoleOutputWrapper
 .
 dispatchMessageUpdate
 using

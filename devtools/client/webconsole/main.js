@@ -99,7 +99,7 @@ js
 ;
 this
 .
-NewConsoleOutput
+WebConsoleOutput
 =
 function
 (
@@ -150,7 +150,7 @@ content
 scope
 .
 let
-NewConsoleOutputWrapper
+WebConsoleOutputWrapper
 =
 BrowserLoader
 (
@@ -178,9 +178,7 @@ require
 "
 .
 /
-new
--
-console
+webconsole
 -
 output
 -
@@ -190,7 +188,7 @@ wrapper
 ;
 return
 new
-NewConsoleOutputWrapper
+WebConsoleOutputWrapper
 (
 parentNode
 jsterm

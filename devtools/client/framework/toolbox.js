@@ -13251,9 +13251,7 @@ client
 /
 webconsole
 /
-new
--
-console
+webconsole
 -
 output
 -

@@ -329,7 +329,7 @@ hud
 .
 ui
 .
-newConsoleOutput
+consoleOutput
 .
 getStore
 (

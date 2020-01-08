@@ -2083,9 +2083,9 @@ ok
 (
 ui
 .
-newConsoleOutput
+consoleOutput
 "
-newConsoleOutput
+consoleOutput
 exists
 "
 )

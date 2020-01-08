@@ -1298,7 +1298,7 @@ this
 .
 webConsoleFrame
 .
-newConsoleOutput
+consoleOutput
 .
 dispatchMessageAdd
 (
@@ -1328,7 +1328,7 @@ this
 .
 webConsoleFrame
 .
-newConsoleOutput
+consoleOutput
 .
 dispatchMessagesAdd
 (
@@ -1369,7 +1369,7 @@ this
 .
 webConsoleFrame
 .
-newConsoleOutput
+consoleOutput
 .
 dispatchMessageUpdate
 (
@@ -1390,7 +1390,7 @@ this
 .
 webConsoleFrame
 .
-newConsoleOutput
+consoleOutput
 .
 dispatchRequestUpdate
 (
