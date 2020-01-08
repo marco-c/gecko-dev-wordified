@@ -1215,6 +1215,8 @@ sSupportedSandboxTokens
 void
 RefreshFeaturePolicy
 (
+bool
+aParseAllowAttribute
 )
 ;
 /
