@@ -259,6 +259,14 @@ mRatio
 0
 0
 )
+mWidth
+(
+0
+)
+mHeight
+(
+0
+)
 mHasWidth
 (
 false
