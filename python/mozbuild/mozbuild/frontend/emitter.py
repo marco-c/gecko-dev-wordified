@@ -142,11 +142,15 @@ ExternalSharedLibrary
     
 HostDefines
     
+HostGeneratedSources
+    
 HostLibrary
     
 HostProgram
     
 HostRustProgram
+    
+HostSharedLibrary
     
 HostSimpleProgram
     
@@ -2317,6 +2321,24 @@ be
 final
 .
         
+#
+FIXME
+:
+Theoretically
+HostSharedLibrary
+shouldn
+'
+t
+be
+here
+(
+bug
+        
+#
+1474022
+)
+.
+        
 if
 not
 isinstance
@@ -2325,6 +2347,7 @@ obj
 (
 StaticLibrary
 HostLibrary
+HostSharedLibrary
                                 
 BaseRustProgram
 )
@@ -4852,6 +4875,25 @@ cls
 HostRustLibrary
 )
             
+elif
+context
+.
+get
+(
+'
+FORCE_SHARED_LIB
+'
+)
+:
+                
+lib
+=
+HostSharedLibrary
+(
+context
+host_libname
+)
+            
 else
 :
                 
@@ -6403,32 +6445,21 @@ context
 )
         
 #
-HOST_SOURCES
-and
 UNIFIED_SOURCES
 only
 take
 SourcePaths
 so
-        
-#
 there
 should
 be
 no
+        
+#
 generated
 source
 in
 here
-        
-assert
-not
-gen_sources
-[
-'
-HOST_SOURCES
-'
-]
         
 assert
 not
@@ -6794,7 +6825,7 @@ HOST_SOURCES
 =
 (
 HostSources
-None
+HostGeneratedSources
 [
 '
 .

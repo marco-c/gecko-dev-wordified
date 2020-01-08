@@ -157,6 +157,8 @@ GeneratedSources
     
 HostDefines
     
+HostGeneratedSources
+    
 HostLibrary
     
 HostProgram
@@ -190,6 +192,8 @@ PerSourceFlag
 Program
     
 RustLibrary
+    
+HostSharedLibrary
     
 HostRustLibrary
     
@@ -3017,7 +3021,10 @@ elif
 isinstance
 (
 obj
+(
 HostSources
+HostGeneratedSources
+)
 )
 :
             
@@ -3054,14 +3061,48 @@ HOST_CPPSRCS
             
 }
             
-var
+variables
 =
+[
 suffix_map
 [
 obj
 .
 canonical_suffix
 ]
+]
+            
+if
+isinstance
+(
+obj
+GeneratedSources
+)
+:
+                
+variables
+.
+append
+(
+'
+GARBAGE
+'
+)
+                
+base
+=
+backend_file
+.
+objdir
+            
+else
+:
+                
+base
+=
+backend_file
+.
+srcdir
             
 for
 f
@@ -3074,6 +3115,22 @@ files
 )
 :
                 
+f
+=
+mozpath
+.
+relpath
+(
+f
+base
+)
+                
+for
+var
+in
+variables
+:
+                    
 backend_file
 .
 write
@@ -3090,17 +3147,8 @@ n
 '
 %
 (
-                    
 var
-mozpath
-.
-relpath
-(
 f
-backend_file
-.
-srcdir
-)
 )
 )
         
@@ -4855,6 +4903,30 @@ HostLibrary
 self
 .
 _process_host_library
+(
+obj
+backend_file
+)
+            
+self
+.
+_process_linked_libraries
+(
+obj
+backend_file
+)
+        
+elif
+isinstance
+(
+obj
+HostSharedLibrary
+)
+:
+            
+self
+.
+_process_host_shared_library
 (
 obj
 backend_file
@@ -10258,6 +10330,33 @@ n
 libdef
 .
 basename
+)
+    
+def
+_process_host_shared_library
+(
+self
+libdef
+backend_file
+)
+:
+        
+backend_file
+.
+write
+(
+'
+HOST_SHARED_LIBRARY
+=
+%
+s
+\
+n
+'
+%
+libdef
+.
+lib_name
 )
     
 def

@@ -122,6 +122,8 @@ GnProjectData
     
 HostLibrary
     
+HostGeneratedSources
+    
 HostRustLibrary
     
 IPDLCollection
@@ -962,7 +964,10 @@ elif
 isinstance
 (
 obj
+(
 GeneratedSources
+HostGeneratedSources
+)
 )
 :
             
