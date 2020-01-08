@@ -3860,8 +3860,6 @@ anyCharsAccess
 (
 )
 ;
-if
-(
 bool
 hasLineOfContext
 =
@@ -3873,6 +3871,10 @@ fillExcludingContext
 err
 offset
 )
+;
+if
+(
+hasLineOfContext
 )
 {
 if
