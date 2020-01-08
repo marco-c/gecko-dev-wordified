@@ -173,6 +173,12 @@ id
 RUNTIMES
 .
 THIS_FIREFOX
+name
+:
+"
+This
+Firefox
+"
 type
 :
 RUNTIMES
@@ -502,6 +508,12 @@ connectionParameters
 {
 host
 port
+:
+parseInt
+(
+port
+10
+)
 }
 }
 name
