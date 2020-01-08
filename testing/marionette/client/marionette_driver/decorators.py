@@ -198,6 +198,17 @@ timeout
 )
 :
             
+m
+=
+_find_marionette_in_args
+(
+*
+args
+*
+*
+kwargs
+)
+            
 #
 In
 case
@@ -221,17 +232,28 @@ handle
 those
 correctly
 .
+In
+case
+of
+an
             
+#
+active
+shutdown
+just
+let
+it
+bubble
+up
+.
+            
+if
 m
-=
-_find_marionette_in_args
-(
-*
-args
-*
-*
-kwargs
-)
+.
+is_shutting_down
+:
+                
+raise
             
 m
 .
