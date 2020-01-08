@@ -3230,8 +3230,6 @@ paths
 routes
 bind_address
 config
-              
-ssl_config
 *
 *
 kwargs
@@ -3261,7 +3259,6 @@ routes
 bind_address
                                   
 config
-ssl_config
 )
                             
 kwargs
@@ -3297,7 +3294,6 @@ routes
 bind_address
                       
 config
-ssl_config
 *
 *
 kwargs
@@ -3319,8 +3315,6 @@ paths
 routes
 bind_address
 config
-                                    
-ssl_config
 *
 *
 kwargs
@@ -3518,12 +3512,6 @@ config
 .
 bind_address
     
-ssl_config
-=
-config
-.
-ssl_config
-    
 aliases
 =
 config
@@ -3579,10 +3567,9 @@ build_routes
 (
 aliases
 )
-bind_address
                   
-None
-ssl_config
+bind_address
+config
 )
     
 connected
@@ -4013,8 +4000,6 @@ paths
 routes
 bind_address
 config
-ssl_config
-                  
 *
 *
 kwargs
@@ -4123,7 +4108,6 @@ routes
 bind_address
                               
 config
-ssl_config
 *
 *
 kwargs
@@ -4153,8 +4137,6 @@ paths
 routes
 bind_address
 config
-ssl_config
-                      
 *
 *
 kwargs
@@ -4231,8 +4213,6 @@ paths
 routes
 bind_address
 config
-ssl_config
-                       
 *
 *
 kwargs
@@ -4283,6 +4263,8 @@ True
                                  
 key_file
 =
+config
+.
 ssl_config
 [
 "
@@ -4292,6 +4274,8 @@ key_path
                                  
 certificate
 =
+config
+.
 ssl_config
 [
 "
@@ -4301,6 +4285,8 @@ cert_path
                                  
 encrypt_after_connect
 =
+config
+.
 ssl_config
 [
 "
@@ -4795,8 +4781,6 @@ paths
 routes
 bind_address
 config
-ssl_config
-                    
 *
 *
 kwargs
@@ -4846,6 +4830,8 @@ port
                            
 repo_root
                            
+config
+.
 paths
 [
 "
@@ -4872,8 +4858,6 @@ paths
 routes
 bind_address
 config
-ssl_config
-                     
 *
 *
 kwargs
@@ -4923,6 +4907,8 @@ port
                            
 repo_root
                            
+config
+.
 paths
 [
 "
@@ -4936,13 +4922,14 @@ debug
                            
 bind_address
                            
+config
+.
 ssl_config
 )
 def
 start
 (
 config
-ssl_environment
 routes
 *
 *
@@ -4980,12 +4967,6 @@ bind_address
 "
 ]
     
-ssl_config
-=
-config
-.
-ssl_config
-    
 logger
 .
 debug
@@ -5011,8 +4992,6 @@ paths
 routes
 bind_address
 config
-                            
-ssl_config
 *
 *
 kwargs
@@ -5049,7 +5028,7 @@ server
 .
 proc
 def
-load_config
+build_config
 (
 override_path
 =
@@ -5062,7 +5041,7 @@ kwargs
     
 rv
 =
-Config
+ConfigBuilder
 (
 )
     
@@ -5340,11 +5319,11 @@ nonexistent
 "
 }
 class
-Config
+ConfigBuilder
 (
 config
 .
-Config
+ConfigBuilder
 )
 :
     
@@ -5360,7 +5339,7 @@ wptserve
 .
 config
 .
-Config
+ConfigBuilder
 to
 add
 serve
@@ -5644,6 +5623,20 @@ aliases
     
 }
     
+computed_properties
+=
+[
+"
+ws_doc_root
+"
+]
++
+config
+.
+ConfigBuilder
+.
+computed_properties
+    
 def
 __init__
 (
@@ -5658,7 +5651,7 @@ kwargs
         
 super
 (
-Config
+ConfigBuilder
 self
 )
 .
@@ -5682,28 +5675,33 @@ kwargs
         
 )
     
-property
-    
 def
-ws_doc_root
+_get_ws_doc_root
 (
 self
+data
 )
 :
         
 if
-self
-.
-_ws_doc_root
+data
+[
+"
+ws_doc_root
+"
+]
 is
 not
 None
 :
             
 return
-self
-.
-_ws_doc_root
+data
+[
+"
+ws_doc_root
+"
+]
         
 else
 :
@@ -5715,9 +5713,12 @@ path
 .
 join
 (
-self
-.
+data
+[
+"
 doc_root
+"
+]
 "
 websockets
 "
@@ -5725,10 +5726,6 @@ websockets
 handlers
 "
 )
-    
-ws_doc_root
-.
-setter
     
 def
 ws_doc_root
@@ -5744,12 +5741,19 @@ _ws_doc_root
 =
 v
     
+ws_doc_root
+=
 property
+(
+None
+ws_doc_root
+)
     
 def
-paths
+_get_paths
 (
 self
+data
 )
 :
         
@@ -5757,11 +5761,14 @@ rv
 =
 super
 (
-Config
+ConfigBuilder
 self
 )
 .
-paths
+_get_paths
+(
+data
+)
         
 rv
 [
@@ -5770,9 +5777,12 @@ ws_doc_root
 "
 ]
 =
-self
-.
+data
+[
+"
 ws_doc_root
+"
+]
         
 return
 rv
@@ -5930,9 +5940,8 @@ kwargs
 )
 :
     
-config
-=
-load_config
+with
+build_config
 (
 os
 .
@@ -5947,26 +5956,29 @@ config
 json
 "
 )
-                         
+                      
 *
 *
 kwargs
 )
-    
+as
+config
+:
+        
 global
 logger
-    
+        
 logger
 =
 config
 .
 logger
-    
+        
 set_logger
 (
 logger
 )
-    
+        
 bind_address
 =
 config
@@ -5975,7 +5987,7 @@ config
 bind_address
 "
 ]
-    
+        
 if
 config
 [
@@ -5984,20 +5996,20 @@ check_subdomains
 "
 ]
 :
-        
+            
 check_subdomains
 (
 config
 )
-    
+        
 stash_address
 =
 None
-    
+        
 if
 bind_address
 :
-        
+            
 stash_address
 =
 (
@@ -6006,9 +6018,11 @@ config
 server_host
 get_port
 (
+"
+"
 )
 )
-        
+            
 logger
 .
 debug
@@ -6029,7 +6043,7 @@ stash_address
 1
 ]
 )
-    
+        
 with
 stash
 .
@@ -6048,15 +6062,12 @@ uuid4
 )
 )
 :
-        
+            
 servers
 =
 start
 (
 config
-config
-.
-ssl_env
 build_routes
 (
 config
@@ -6070,10 +6081,10 @@ aliases
 *
 kwargs
 )
-        
+            
 try
 :
-            
+                
 while
 any
 (
@@ -6091,7 +6102,7 @@ servers
 )
 )
 :
-                
+                    
 for
 item
 in
@@ -6100,18 +6111,18 @@ iter_procs
 servers
 )
 :
-                    
+                        
 item
 .
 join
 (
 1
 )
-        
+            
 except
 KeyboardInterrupt
 :
-            
+                
 logger
 .
 info

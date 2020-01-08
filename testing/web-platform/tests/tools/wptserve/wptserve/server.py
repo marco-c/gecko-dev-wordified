@@ -54,7 +54,7 @@ from
 .
 config
 import
-Config
+ConfigBuilder
 from
 .
 logger
@@ -1131,11 +1131,8 @@ configuration
 "
 )
             
-Server
-.
-config
-=
-Config
+with
+ConfigBuilder
 (
 browser_host
 =
@@ -1143,7 +1140,7 @@ server_address
 [
 0
 ]
-                                   
+                               
 ports
 =
 {
@@ -1161,6 +1158,25 @@ server_address
 ]
 }
 )
+as
+config
+:
+                
+assert
+config
+[
+"
+ssl_config
+"
+]
+is
+None
+                
+Server
+.
+config
+=
+config
         
 self
 .

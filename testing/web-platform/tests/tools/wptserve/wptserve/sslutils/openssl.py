@@ -15,6 +15,10 @@ datetime
 import
 datetime
 timedelta
+from
+six
+import
+iteritems
 #
 Amount
 of
@@ -531,12 +535,11 @@ for
 k
 v
 in
+iteritems
+(
 os
 .
 environ
-.
-iteritems
-(
 )
 :
             
@@ -2523,7 +2526,6 @@ key
 lambda
 x
 :
--
 len
 (
 x

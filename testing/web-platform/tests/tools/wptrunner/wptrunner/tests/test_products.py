@@ -58,11 +58,7 @@ localpaths
 #
 noqa
 :
-F401
-from
-wptserve
-import
-sslutils
+flake8
 from
 wptrunner
 import
@@ -301,23 +297,21 @@ TestEnvironment
 (
 test_paths
                                          
-sslutils
-.
-environments
-[
-"
-none
-"
-]
-(
-None
-)
-                                         
 False
                                          
 None
                                          
 env_options
+                                         
+{
+"
+type
+"
+:
+"
+none
+"
+}
                                          
 env_extras
 )
