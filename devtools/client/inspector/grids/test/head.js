@@ -314,13 +314,6 @@ storage
 "
 )
 ;
-const
-HIGHLIGHTER_TYPE
-=
-"
-CssGridHighlighter
-"
-;
 /
 *
 *
