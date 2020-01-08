@@ -84,10 +84,15 @@ locations
 =
 [
 ]
+debugTargetCollapsibilities
+=
+{
+}
 )
 {
 return
 {
+debugTargetCollapsibilities
 networkLocations
 :
 locations
