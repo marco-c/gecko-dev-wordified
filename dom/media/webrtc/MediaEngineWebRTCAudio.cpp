@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-MediaEngineWebRTC
+MediaEngineWebRTCAudio
 .
 h
 "
