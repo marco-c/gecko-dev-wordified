@@ -10026,7 +10026,12 @@ MOZ_RELEASE_ASSERT
 PaintThread
 :
 :
-IsOnPaintThread
+Get
+(
+)
+-
+>
+IsOnPaintWorkerThread
 (
 )
 )
