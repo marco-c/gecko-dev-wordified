@@ -3112,12 +3112,6 @@ lightweightThemes
 selectedThemeID
 "
 "
-default
--
-theme
-mozilla
-.
-org
 "
 )
 ;
