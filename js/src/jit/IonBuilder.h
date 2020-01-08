@@ -5709,6 +5709,17 @@ CallInfo
 callInfo
 )
 ;
+InliningResult
+inlineWasmCall
+(
+CallInfo
+&
+callInfo
+JSFunction
+*
+target
+)
+;
 /
 /
 Testing

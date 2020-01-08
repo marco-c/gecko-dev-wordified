@@ -1041,10 +1041,10 @@ static_assert
 (
 FAKE_EXITFP_FOR_BAILOUT_ADDR
 &
-JitActivation
+wasm
 :
 :
-ExitFpWasmBit
+ExitOrJitEntryFPTag
 )
 "
 FAKE_EXITFP_FOR_BAILOUT

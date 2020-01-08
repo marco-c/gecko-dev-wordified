@@ -4541,6 +4541,14 @@ TrampolinePtr
 code
 )
 ;
+inline
+uint32_t
+callJit
+(
+ImmPtr
+callee
+)
+;
 /
 /
 The
