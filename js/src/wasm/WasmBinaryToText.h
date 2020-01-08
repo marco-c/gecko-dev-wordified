@@ -263,11 +263,6 @@ length
 StringBuffer
 &
 buffer
-GeneratedSourceMap
-*
-sourceMap
-=
-nullptr
 )
 ;
 }
