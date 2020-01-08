@@ -37898,7 +37898,7 @@ tk
 TokenKind
 :
 :
-Rc
+RightCurly
 |
 |
 tk
@@ -38081,7 +38081,7 @@ tk
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 return
 m

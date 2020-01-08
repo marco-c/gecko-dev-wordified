@@ -10823,15 +10823,15 @@ on
 TokenKind
 :
 :
-Rc
+RightCurly
 so
 make
 sure
+/
+/
 we
 '
 ve
-/
-/
 reached
 EOF
 here
@@ -18191,7 +18191,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 {
 /
@@ -19053,7 +19053,7 @@ tt
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 {
 error
@@ -19230,7 +19230,7 @@ matched
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -19499,7 +19499,7 @@ tt
 TokenKind
 :
 :
-Lb
+LeftBracket
 &
 &
 tt
@@ -19508,7 +19508,7 @@ tt
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 {
 error
@@ -19530,13 +19530,13 @@ case
 TokenKind
 :
 :
-Lb
+LeftBracket
 :
 case
 TokenKind
 :
 :
-Lc
+LeftCurly
 :
 {
 disallowDuplicateParams
@@ -20125,7 +20125,7 @@ tt
 TokenKind
 :
 :
-Rp
+RightParen
 )
 break
 ;
@@ -20166,7 +20166,7 @@ tt
 TokenKind
 :
 :
-Rp
+RightParen
 )
 {
 if
@@ -20702,7 +20702,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 {
 error
@@ -23405,7 +23405,7 @@ tt
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 {
 if
@@ -23876,7 +23876,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-Rc
+RightCurly
 TokenStream
 :
 :
@@ -26389,7 +26389,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 {
 TokenPos
@@ -26613,7 +26613,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-Lp
+LeftParen
 JSMSG_PAREN_BEFORE_COND
 )
 ;
@@ -26642,7 +26642,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -27951,7 +27951,7 @@ tt
 TokenKind
 :
 :
-Lb
+LeftBracket
 )
 return
 arrayBindingPattern
@@ -27968,7 +27968,7 @@ tt
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 return
 objectBindingPattern
@@ -28041,7 +28041,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 )
 ;
@@ -28137,7 +28137,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 {
 anyChars
@@ -28738,7 +28738,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-Rc
+RightCurly
 TokenStream
 :
 :
@@ -28803,7 +28803,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Lb
+LeftBracket
 )
 )
 ;
@@ -28912,7 +28912,7 @@ tt
 TokenKind
 :
 :
-Rb
+RightBracket
 )
 {
 anyChars
@@ -29215,7 +29215,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-Rb
+RightBracket
 TokenStream
 :
 :
@@ -29291,7 +29291,7 @@ tt
 TokenKind
 :
 :
-Lb
+LeftBracket
 |
 |
 tt
@@ -29300,7 +29300,7 @@ tt
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 ;
 return
@@ -29310,7 +29310,7 @@ tt
 TokenKind
 :
 :
-Lb
+LeftBracket
 ?
 arrayBindingPattern
 (
@@ -29478,7 +29478,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 )
 ;
@@ -29551,7 +29551,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-Rc
+RightCurly
 TokenStream
 :
 :
@@ -29694,7 +29694,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Lb
+LeftBracket
 )
 |
 |
@@ -29705,7 +29705,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 )
 ;
@@ -30946,7 +30946,7 @@ tt
 TokenKind
 :
 :
-Lb
+LeftBracket
 |
 |
 tt
@@ -30955,7 +30955,7 @@ tt
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 ?
 declarationPattern
@@ -31297,7 +31297,7 @@ tt
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 {
 while
@@ -31379,7 +31379,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 break
 ;
@@ -31682,7 +31682,7 @@ next
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 break
 ;
@@ -32096,7 +32096,7 @@ tt
 TokenKind
 :
 :
-Lc
+LeftCurly
 |
 |
 tt
@@ -32363,7 +32363,7 @@ tt
 TokenKind
 :
 :
-Lc
+LeftCurly
 &
 &
 tt
@@ -34616,7 +34616,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 )
 ;
@@ -34720,7 +34720,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 break
 ;
@@ -34890,7 +34890,7 @@ next
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 break
 ;
@@ -36486,7 +36486,7 @@ case
 TokenKind
 :
 :
-Lc
+LeftCurly
 :
 return
 exportClause
@@ -37978,7 +37978,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 )
 ;
@@ -39188,7 +39188,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-Lp
+LeftParen
 TokenStream
 :
 :
@@ -39810,7 +39810,7 @@ tt
 TokenKind
 :
 :
-Rp
+RightParen
 )
 {
 update
@@ -39847,7 +39847,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -40050,7 +40050,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -40201,7 +40201,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-Lp
+LeftParen
 JSMSG_PAREN_BEFORE_SWITCH
 )
 ;
@@ -40230,7 +40230,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -40243,7 +40243,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-Lc
+LeftCurly
 JSMSG_CURLY_BEFORE_SWITCH
 )
 ;
@@ -40347,7 +40347,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 break
 ;
@@ -40536,7 +40536,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 |
 |
 tt
@@ -41319,7 +41319,7 @@ case
 TokenKind
 :
 :
-Rc
+RightCurly
 :
 exprNode
 =
@@ -41594,19 +41594,19 @@ case
 TokenKind
 :
 :
-Rc
+RightCurly
 :
 case
 TokenKind
 :
 :
-Rb
+RightBracket
 :
 case
 TokenKind
 :
 :
-Rp
+RightParen
 :
 case
 TokenKind
@@ -41897,7 +41897,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-Lp
+LeftParen
 JSMSG_PAREN_BEFORE_WITH
 )
 ;
@@ -41926,7 +41926,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -42506,7 +42506,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 {
 error
@@ -42708,12 +42708,12 @@ identifier
 TokenKind
 :
 :
-Rb
+RightBracket
 or
 TokenKind
 :
 :
-Rc
+RightCurly
 for
 a
 destructuring
@@ -42729,7 +42729,7 @@ are
 TokenKind
 :
 :
-Lc
+LeftCurly
 statement
 lists
 .
@@ -42744,7 +42744,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-Lc
+LeftCurly
 JSMSG_CURLY_BEFORE_TRY
 )
 ;
@@ -42834,7 +42834,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-Rc
+RightCurly
 TokenStream
 :
 :
@@ -42990,7 +42990,7 @@ omittedBinding
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 )
 return
@@ -43020,7 +43020,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-Lp
+LeftParen
 JSMSG_PAREN_BEFORE_CATCH
 )
 ;
@@ -43049,13 +43049,13 @@ case
 TokenKind
 :
 :
-Lb
+LeftBracket
 :
 case
 TokenKind
 :
 :
-Lc
+LeftCurly
 :
 catchName
 =
@@ -43134,7 +43134,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -43147,7 +43147,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-Lc
+LeftCurly
 JSMSG_CURLY_BEFORE_CATCH
 )
 ;
@@ -43262,7 +43262,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-Lc
+LeftCurly
 JSMSG_CURLY_BEFORE_FINALLY
 )
 ;
@@ -43352,7 +43352,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-Rc
+RightCurly
 TokenStream
 :
 :
@@ -43580,7 +43580,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-Rc
+RightCurly
 TokenStream
 :
 :
@@ -44254,7 +44254,7 @@ MUST_MATCH_TOKEN
 TokenKind
 :
 :
-Lc
+LeftCurly
 JSMSG_CURLY_BEFORE_CLASS
 )
 ;
@@ -44325,7 +44325,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 break
 ;
@@ -44381,7 +44381,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 {
 tokenStream
@@ -44418,7 +44418,7 @@ tt
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 isStatic
 =
@@ -44703,7 +44703,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Rb
+RightBracket
 )
 )
 {
@@ -44758,7 +44758,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Rb
+RightBracket
 )
 )
 funName
@@ -45220,7 +45220,7 @@ next
 TokenKind
 :
 :
-Lb
+LeftBracket
 |
 |
 next
@@ -45229,7 +45229,7 @@ next
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 return
 true
@@ -45502,7 +45502,7 @@ case
 TokenKind
 :
 :
-Lc
+LeftCurly
 :
 return
 blockStatement
@@ -45777,7 +45777,7 @@ next
 TokenKind
 :
 :
-Lb
+LeftBracket
 )
 {
 /
@@ -45807,7 +45807,7 @@ next
 TokenKind
 :
 :
-Lc
+LeftCurly
 |
 |
 TokenKindIsPossibleIdentifier
@@ -45930,7 +45930,7 @@ nextSameLine
 TokenKind
 :
 :
-Lc
+LeftCurly
 |
 |
 nextSameLine
@@ -46786,7 +46786,7 @@ case
 TokenKind
 :
 :
-Lc
+LeftCurly
 :
 return
 blockStatement
@@ -48008,7 +48008,7 @@ tt
 TokenKind
 :
 :
-Rp
+RightParen
 )
 {
 tokenStream
@@ -48018,7 +48018,7 @@ consumeKnownToken
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -48063,7 +48063,7 @@ TokenKindToDesc
 TokenKind
 :
 :
-Rp
+RightParen
 )
 )
 ;
@@ -50257,7 +50257,7 @@ nextSameLine
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 asyncKind
 =
@@ -52261,7 +52261,7 @@ matched
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -52476,7 +52476,7 @@ tt
 TokenKind
 :
 :
-Rp
+RightParen
 )
 break
 ;
@@ -52486,7 +52486,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -52767,7 +52767,7 @@ matched
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 )
 return
@@ -53159,7 +53159,7 @@ tt
 TokenKind
 :
 :
-Lb
+LeftBracket
 )
 {
 Node
@@ -53187,7 +53187,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-Rb
+RightBracket
 TokenStream
 :
 :
@@ -53264,7 +53264,7 @@ tt
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 |
 |
@@ -53331,7 +53331,7 @@ tt
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 {
 error
@@ -53620,7 +53620,7 @@ tt
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 {
 if
@@ -53896,7 +53896,7 @@ tt
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 {
 bool
@@ -56235,7 +56235,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Lb
+LeftBracket
 )
 )
 ;
@@ -56299,7 +56299,7 @@ tt
 TokenKind
 :
 :
-Rb
+RightBracket
 )
 {
 /
@@ -56406,7 +56406,7 @@ tt
 TokenKind
 :
 :
-Rb
+RightBracket
 )
 break
 ;
@@ -56744,7 +56744,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-Rb
+RightBracket
 TokenStream
 :
 :
@@ -56840,7 +56840,7 @@ ltok
 TokenKind
 :
 :
-Rc
+RightCurly
 "
 caller
 should
@@ -56849,7 +56849,7 @@ handled
 TokenKind
 :
 :
-Rc
+RightCurly
 "
 )
 ;
@@ -57028,7 +57028,7 @@ tt
 TokenKind
 :
 :
-Lb
+LeftBracket
 |
 |
 TokenKindIsPossibleIdentifierName
@@ -57258,7 +57258,7 @@ case
 TokenKind
 :
 :
-Lb
+LeftBracket
 :
 propName
 =
@@ -57660,7 +57660,7 @@ tt
 TokenKind
 :
 :
-Lb
+LeftBracket
 )
 {
 tokenStream
@@ -57670,7 +57670,7 @@ consumeKnownToken
 TokenKind
 :
 :
-Lb
+LeftBracket
 )
 ;
 return
@@ -57806,7 +57806,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 |
 |
 tt
@@ -57887,7 +57887,7 @@ tt
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 {
 anyChars
@@ -58004,7 +58004,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Lb
+LeftBracket
 )
 )
 ;
@@ -58082,7 +58082,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-Rb
+RightBracket
 TokenStream
 :
 :
@@ -58142,7 +58142,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 )
 ;
@@ -58238,7 +58238,7 @@ tt
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 {
 anyChars
@@ -59273,7 +59273,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Rb
+RightBracket
 )
 )
 {
@@ -59450,7 +59450,7 @@ MUST_MATCH_TOKEN_MOD_WITH_REPORT
 TokenKind
 :
 :
-Rc
+RightCurly
 TokenStream
 :
 :
@@ -60308,7 +60308,7 @@ case
 TokenKind
 :
 :
-Lb
+LeftBracket
 :
 return
 arrayInitializer
@@ -60321,7 +60321,7 @@ case
 TokenKind
 :
 :
-Lc
+LeftCurly
 :
 return
 objectLiteral
@@ -60334,7 +60334,7 @@ case
 TokenKind
 :
 :
-Lp
+LeftParen
 :
 {
 TokenKind
@@ -60368,7 +60368,7 @@ next
 TokenKind
 :
 :
-Rp
+RightParen
 )
 {
 /
@@ -60404,7 +60404,7 @@ consumeKnownToken
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -60449,7 +60449,7 @@ TokenKindToDesc
 TokenKind
 :
 :
-Rp
+RightParen
 )
 )
 ;
@@ -60555,7 +60555,7 @@ MUST_MATCH_TOKEN_MOD
 TokenKind
 :
 :
-Rp
+RightParen
 TokenStream
 :
 :
@@ -61039,7 +61039,7 @@ next
 TokenKind
 :
 :
-Lb
+LeftBracket
 |
 |
 next
@@ -61048,7 +61048,7 @@ next
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 {
 /
@@ -61208,7 +61208,7 @@ next
 TokenKind
 :
 :
-Rp
+RightParen
 )
 {
 error
@@ -61324,7 +61324,7 @@ case
 TokenKind
 :
 :
-Rp
+RightParen
 above
 .
 return
@@ -61387,7 +61387,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 )
 ;
