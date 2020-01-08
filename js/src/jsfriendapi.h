@@ -2924,11 +2924,14 @@ JS
 Zone
 *
 )
-GetCompartmentZone
+GetRealmZone
 (
-JSCompartment
+JS
+:
+:
+Realm
 *
-comp
+realm
 )
 ;
 typedef

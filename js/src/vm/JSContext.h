@@ -1591,13 +1591,10 @@ realm
 js
 :
 :
-GetCompartmentZone
-(
-GetCompartmentForRealm
+GetRealmZone
 (
 realm
 (
-)
 )
 )
 =
