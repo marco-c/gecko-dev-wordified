@@ -5742,6 +5742,16 @@ mozilla
 :
 :
 ReleaseAcquire
+mozilla
+:
+:
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 gcBytes_
 ;
