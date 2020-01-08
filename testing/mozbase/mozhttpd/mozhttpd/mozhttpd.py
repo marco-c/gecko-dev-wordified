@@ -88,6 +88,11 @@ moznetwork
 import
 time
 from
+argparse
+import
+ArgumentParser
+ArgumentDefaultsHelpFormatter
+from
 six
 import
 iteritems
@@ -2357,20 +2362,27 @@ command
 line
 options
     
-from
-optparse
-import
-OptionParser
-    
 parser
 =
-OptionParser
+ArgumentParser
 (
+description
+=
+'
+Basic
+python
+webserver
+.
+'
+                            
+formatter_class
+=
+ArgumentDefaultsHelpFormatter
 )
     
 parser
 .
-add_option
+add_argument
 (
 '
 -
@@ -2386,16 +2398,14 @@ dest
 '
 port
 '
-                      
+                        
 type
 =
-"
 int
-"
 default
 =
 8888
-                      
+                        
 help
 =
 "
@@ -2405,18 +2415,12 @@ run
 the
 server
 on
-[
-DEFAULT
-:
-%
-default
-]
 "
 )
     
 parser
 .
-add_option
+add_argument
 (
 '
 -
@@ -2432,7 +2436,7 @@ dest
 '
 host
 '
-                      
+                        
 default
 =
 '
@@ -2444,23 +2448,18 @@ default
 .
 1
 '
-                      
+                        
 help
 =
 "
 host
-[
-DEFAULT
-:
-%
-default
-]
+address
 "
 )
     
 parser
 .
-add_option
+add_argument
 (
 '
 -
@@ -2478,7 +2477,7 @@ action
 "
 store_true
 "
-                      
+                        
 dest
 =
 '
@@ -2487,7 +2486,7 @@ external_ip
 default
 =
 False
-                      
+                        
 help
 =
 "
@@ -2503,7 +2502,7 @@ host
     
 parser
 .
-add_option
+add_argument
 (
 '
 -
@@ -2519,7 +2518,7 @@ dest
 '
 docroot
 '
-                      
+                        
 default
 =
 os
@@ -2527,7 +2526,7 @@ os
 getcwd
 (
 )
-                      
+                        
 help
 =
 "
@@ -2536,45 +2535,19 @@ to
 serve
 files
 from
-[
-DEFAULT
-:
-%
-default
-]
 "
 )
     
-options
 args
 =
 parser
 .
 parse_args
 (
-args
 )
     
 if
 args
-:
-        
-parser
-.
-error
-(
-"
-mozhttpd
-does
-not
-take
-any
-arguments
-"
-)
-    
-if
-options
 .
 external_ip
 :
@@ -2592,7 +2565,7 @@ else
         
 host
 =
-options
+args
 .
 host
     
@@ -2610,12 +2583,12 @@ host
 host
 port
 =
-options
+args
 .
 port
 docroot
 =
-options
+args
 .
 docroot
 )
