@@ -3516,7 +3516,15 @@ path
 .
 join
 (
+wpt
+os
+.
+path
+.
+dirname
+(
 test_path
+)
 script
 )
     
