@@ -1648,3 +1648,9 @@ isCommand
 =
 isCommand
 ;
+exports
+.
+validCommands
+=
+validCommands
+;
