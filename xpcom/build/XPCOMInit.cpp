@@ -1340,10 +1340,6 @@ aInstancePtr
 )
 ;
 }
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsThreadPool
-)
 nsComponentManagerImpl
 *
 nsComponentManagerImpl

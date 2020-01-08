@@ -167,7 +167,7 @@ h
 #
 include
 "
-nsIThreadPool
+nsThreadPool
 .
 h
 "
@@ -217,9 +217,9 @@ nsIThreadPool
 >
 thing
 =
-do_CreateInstance
+new
+nsThreadPool
 (
-NS_THREADPOOL_CONTRACTID
 )
 ;
 EXPECT_TRUE

@@ -150,7 +150,7 @@ h
 #
 include
 "
-nsIThreadPool
+nsThreadPool
 .
 h
 "
@@ -1202,9 +1202,9 @@ Init
 {
 mPool
 =
-do_CreateInstance
+new
+nsThreadPool
 (
-NS_THREADPOOL_CONTRACTID
 )
 ;
 NS_ENSURE_STATE
