@@ -16909,6 +16909,13 @@ catch
 e
 )
 {
+Cu
+.
+reportError
+(
+e
+)
+;
 }
 }
 /
