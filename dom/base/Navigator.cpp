@@ -8250,15 +8250,12 @@ nsPIDOMWindowInner
 >
 win
 =
-do_QueryInterface
-(
-nsJSUtils
+xpc
 :
 :
-GetStaticScriptGlobal
+WindowOrNull
 (
 aGlobal
-)
 )
 ;
 return

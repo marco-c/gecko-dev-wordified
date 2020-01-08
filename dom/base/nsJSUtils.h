@@ -299,16 +299,6 @@ aColumn
 nullptr
 )
 ;
-static
-nsIScriptGlobalObject
-*
-GetStaticScriptGlobal
-(
-JSObject
-*
-aObj
-)
-;
 /
 *
 *
