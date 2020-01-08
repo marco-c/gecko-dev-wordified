@@ -67231,6 +67231,13 @@ mMallocSizeOf
 )
 ;
 }
+mContentBlockingLog
+.
+AddSizeOfExcludingThis
+(
+aSizes
+)
+;
 /
 /
 Measurement
