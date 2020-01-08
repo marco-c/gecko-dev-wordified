@@ -2206,6 +2206,10 @@ mIsNullDecode
 (
 false
 )
+mHardwareDecodingDisabled
+(
+false
+)
 {
 DecoderDoctorLogger
 :
@@ -3615,6 +3619,9 @@ not
 .
 bool
 mIsNullDecode
+;
+bool
+mHardwareDecodingDisabled
 ;
 class
 {
