@@ -950,7 +950,13 @@ nsIRequest
 *
 aRequest
 uint32_t
-state
+aOldState
+uint32_t
+aState
+const
+nsAString
+&
+aContentBlockingLogJSON
 )
 {
 #
@@ -973,7 +979,9 @@ OnSecurityChange
 (
 aWebProgress
 aRequest
-state
+aOldState
+aState
+aContentBlockingLogJSON
 )
 ;
 }
