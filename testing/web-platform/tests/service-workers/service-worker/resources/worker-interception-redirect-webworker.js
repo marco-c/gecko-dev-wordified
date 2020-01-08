@@ -368,5 +368,16 @@ fetch
 text
 )
 ;
+port
+.
+postMessage
+(
+self
+.
+location
+.
+href
+)
+;
 }
 ;
