@@ -1073,6 +1073,8 @@ const
 DisplayItemClipChain
 *
 aChain
+bool
+aSeparateLeaf
 )
 ;
 /
@@ -1098,6 +1100,9 @@ const
 DisplayItemClipChain
 *
 mChain
+;
+bool
+mSeparateLeaf
 ;
 /
 /
@@ -1149,6 +1154,8 @@ wr
 DisplayListBuilder
 *
 aBuilder
+int32_t
+aAppUnitsPerDevPixel
 )
 ;
 void
