@@ -12868,7 +12868,7 @@ TabChild
 :
 RecvAsyncMessage
 "
-EVENTS
+OTHER
 aMessage
 )
 ;
