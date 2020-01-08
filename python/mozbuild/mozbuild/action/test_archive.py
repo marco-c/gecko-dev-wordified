@@ -3474,47 +3474,6 @@ xpcshell
 '
         
 }
-        
-{
-            
-'
-source
-'
-:
-buildconfig
-.
-topsrcdir
-            
-'
-base
-'
-:
-'
-testing
-/
-profiles
-'
-            
-'
-pattern
-'
-:
-'
-*
-*
-'
-            
-'
-dest
-'
-:
-'
-xpcshell
-/
-profile_data
-'
-        
-}
     
 ]
     
