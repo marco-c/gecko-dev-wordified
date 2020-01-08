@@ -121,17 +121,17 @@ SW_TIMEOUT
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 enableServiceWorkerDebugging
 (
 )
 ;
-yield
+await
 pushPref
 (
 "
@@ -144,7 +144,7 @@ idle_timeout
 SW_TIMEOUT
 )
 ;
-yield
+await
 pushPref
 (
 "
@@ -163,7 +163,7 @@ tab
 document
 }
 =
-yield
+await
 openAboutDebugging
 (
 "
@@ -182,7 +182,7 @@ document
 let
 swTab
 =
-yield
+await
 addTab
 (
 TAB_URL
@@ -204,7 +204,7 @@ debugging
 "
 )
 ;
-yield
+await
 waitUntilServiceWorkerContainer
 (
 SERVICE_WORKER
@@ -225,7 +225,7 @@ connect
 to
 the
 sw
-yield
+await
 waitForServiceWorkerRegistered
 (
 swTab
@@ -380,7 +380,6 @@ ready
 "
 function
 (
-e
 toolbox
 )
 {
@@ -404,7 +403,7 @@ click
 let
 toolbox
 =
-yield
+await
 onToolboxReady
 ;
 /
@@ -439,7 +438,7 @@ removed
 from
 the
 list
-yield
+await
 new
 Promise
 (
@@ -493,7 +492,7 @@ there
 "
 )
 ;
-yield
+await
 toolbox
 .
 destroy
@@ -547,7 +546,7 @@ disappears
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -583,7 +582,7 @@ itself
 .
 try
 {
-yield
+await
 unregisterServiceWorker
 (
 swTab
@@ -633,13 +632,13 @@ workers
 SERVICE_WORKER
 )
 ;
-yield
+await
 removeTab
 (
 swTab
 )
 ;
-yield
+await
 closeAboutDebugging
 (
 tab
