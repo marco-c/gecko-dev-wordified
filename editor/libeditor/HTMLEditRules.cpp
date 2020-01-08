@@ -711,7 +711,7 @@ aEditSubAction
 EditSubAction
 :
 :
-indent
+eIndent
 |
 |
 aEditSubAction
@@ -720,7 +720,7 @@ aEditSubAction
 EditSubAction
 :
 :
-outdent
+eOutdent
 |
 |
 aEditSubAction
@@ -4251,7 +4251,7 @@ case
 EditSubAction
 :
 :
-indent
+eIndent
 :
 return
 WillIndent
@@ -4264,7 +4264,7 @@ case
 EditSubAction
 :
 :
-outdent
+eOutdent
 :
 return
 WillOutdent
@@ -4611,13 +4611,13 @@ case
 EditSubAction
 :
 :
-indent
+eIndent
 :
 case
 EditSubAction
 :
 :
-outdent
+eOutdent
 :
 case
 EditSubAction
@@ -6840,7 +6840,7 @@ GetNodesFromSelection
 EditSubAction
 :
 :
-indent
+eIndent
 arrayOfNodes
 TouchContent
 :
@@ -31220,7 +31220,7 @@ GetNodesFromSelection
 EditSubAction
 :
 :
-indent
+eIndent
 arrayOfNodes
 TouchContent
 :
@@ -33017,7 +33017,7 @@ arrayOfRanges
 EditSubAction
 :
 :
-indent
+eIndent
 )
 ;
 /
@@ -33054,7 +33054,7 @@ arrayOfNodes
 EditSubAction
 :
 :
-indent
+eIndent
 TouchContent
 :
 :
@@ -35576,7 +35576,7 @@ GetNodesFromSelection
 EditSubAction
 :
 :
-outdent
+eOutdent
 arrayOfNodes
 TouchContent
 :
@@ -46366,7 +46366,7 @@ aEditSubAction
 EditSubAction
 :
 :
-outdent
+eOutdent
 &
 &
 point
@@ -46457,7 +46457,7 @@ aEditSubAction
 EditSubAction
 :
 :
-indent
+eIndent
 |
 |
 aEditSubAction
@@ -46466,7 +46466,7 @@ aEditSubAction
 EditSubAction
 :
 :
-outdent
+eOutdent
 |
 |
 aEditSubAction
@@ -48987,7 +48987,7 @@ aEditSubAction
 EditSubAction
 :
 :
-outdent
+eOutdent
 |
 |
 aEditSubAction
@@ -48996,7 +48996,7 @@ aEditSubAction
 EditSubAction
 :
 :
-indent
+eIndent
 |
 |
 aEditSubAction
@@ -49094,7 +49094,7 @@ aEditSubAction
 EditSubAction
 :
 :
-outdent
+eOutdent
 &
 &
 !
@@ -49262,7 +49262,7 @@ aEditSubAction
 EditSubAction
 :
 :
-indent
+eIndent
 |
 |
 aEditSubAction
@@ -49271,7 +49271,7 @@ aEditSubAction
 EditSubAction
 :
 :
-outdent
+eOutdent
 )
 {
 for
