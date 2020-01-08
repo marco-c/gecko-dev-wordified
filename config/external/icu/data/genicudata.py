@@ -102,8 +102,10 @@ write
 '
 '
 AREA
+|
 .
 rdata
+|
 ALIGN
 =
 4
@@ -111,17 +113,19 @@ DATA
 READONLY
     
 EXPORT
-_
+|
 {
 data_symbol
 }
+|
 [
 DATA
 ]
-_
+|
 {
 data_symbol
 }
+|
     
 INCBIN
 {
