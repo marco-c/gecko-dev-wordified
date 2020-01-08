@@ -130,7 +130,7 @@ vector
 include
 "
 mozilla
-\
+/
 Logging
 .
 h
