@@ -1084,11 +1084,7 @@ activeTab
 .
 navigateTo
 (
-{
-url
-:
 aUrl
-}
 )
 )
 ;
