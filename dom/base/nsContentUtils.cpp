@@ -47379,6 +47379,8 @@ aItem
 EventTarget
 *
 aChromeEventHandler
+bool
+aOnlySystemGroup
 )
 {
 nsCOMPtr
@@ -47412,6 +47414,7 @@ OnPageHide
 (
 true
 aChromeEventHandler
+aOnlySystemGroup
 )
 ;
 int32_t
@@ -47512,6 +47515,7 @@ kids
 i
 ]
 aChromeEventHandler
+aOnlySystemGroup
 )
 ;
 }
@@ -47589,6 +47593,8 @@ EventTarget
 aChromeEventHandler
 bool
 aFireIfShowing
+bool
+aOnlySystemGroup
 )
 {
 int32_t
@@ -47690,6 +47696,7 @@ i
 ]
 aChromeEventHandler
 aFireIfShowing
+aOnlySystemGroup
 )
 ;
 }
@@ -47738,6 +47745,7 @@ OnPageShow
 (
 true
 aChromeEventHandler
+aOnlySystemGroup
 )
 ;
 }
