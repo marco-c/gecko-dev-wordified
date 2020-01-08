@@ -229,6 +229,15 @@ jsm
 )
 ;
           
+let
+[
+url
+resolve
+]
+=
+arguments
+;
+          
 PlacesUtils
 .
 bookmarks
@@ -237,11 +246,6 @@ fetch
 (
 {
 url
-:
-arguments
-[
-0
-]
 }
 )
 .
@@ -252,7 +256,7 @@ bm
 >
 {
             
-marionetteScriptFinished
+resolve
 (
 bm
 !
@@ -332,6 +336,15 @@ execute_async_script
 "
 "
           
+let
+[
+url
+resolve
+]
+=
+arguments
+;
+          
 Components
 .
 utils
@@ -359,6 +372,7 @@ folderGuids
 =
 [
 ]
+;
           
 function
 onResult
@@ -387,11 +401,6 @@ fetch
 (
 {
 url
-:
-arguments
-[
-0
-]
 }
 onResult
 )
@@ -404,7 +413,7 @@ then
 >
 {
             
-marionetteScriptFinished
+resolve
 (
 folderGuids
 )
@@ -533,6 +542,14 @@ execute_async_script
 "
 "
           
+let
+[
+resolve
+]
+=
+arguments
+;
+          
 Components
 .
 utils
@@ -626,7 +643,7 @@ then
 )
 =
 >
-marionetteScriptFinished
+resolve
 (
 true
 )
@@ -639,7 +656,7 @@ catch
 )
 =
 >
-marionetteScriptFinished
+resolve
 (
 false
 )
@@ -866,6 +883,14 @@ execute_async_script
 "
 "
             
+let
+[
+resolve
+]
+=
+arguments
+;
+            
 Components
 .
 utils
@@ -903,7 +928,7 @@ then
 )
 =
 >
-marionetteScriptFinished
+resolve
 (
 true
 )
@@ -916,7 +941,7 @@ catch
 )
 =
 >
-marionetteScriptFinished
+resolve
 (
 false
 )

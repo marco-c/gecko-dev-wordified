@@ -173,7 +173,10 @@ function
 )
 {
 {
-marionetteScriptFinished
+arguments
+[
+0
+]
 (
 5
 {
@@ -217,6 +220,14 @@ execute_async_script
 "
 "
         
+let
+[
+resolve
+]
+=
+arguments
+;
+        
 setTimeout
 (
 function
@@ -224,7 +235,7 @@ function
 )
 {
 {
-marionetteScriptFinished
+resolve
 (
 10
 {

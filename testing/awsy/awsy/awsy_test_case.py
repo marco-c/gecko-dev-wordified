@@ -1140,6 +1140,14 @@ gc_script
 "
 "
             
+let
+[
+resolve
+]
+=
+arguments
+;
+            
 Cu
 .
 import
@@ -1214,7 +1222,8 @@ minimizeMemoryUsage
 )
 =
 >
-marionetteScriptFinished
+{
+resolve
 (
 "
 gc
@@ -1222,6 +1231,8 @@ done
 !
 "
 )
+;
+}
 )
 ;
             
@@ -1543,6 +1554,14 @@ r
 "
             
 let
+[
+resolve
+]
+=
+arguments
+;
+            
+let
 dumper
 =
 Cc
@@ -1584,7 +1603,7 @@ s
 )
 =
 >
-marionetteScriptFinished
+resolve
 (
 "
 memory

@@ -2816,6 +2816,19 @@ execute_async_script
 "
 "
           
+let
+resolve
+=
+arguments
+[
+arguments
+.
+length
+-
+1
+]
+;
+          
 Components
 .
 utils
@@ -2895,7 +2908,7 @@ res
 .
 then
 (
-marionetteScriptFinished
+resolve
 )
 ;
           
@@ -2903,7 +2916,7 @@ marionetteScriptFinished
 else
 {
             
-marionetteScriptFinished
+resolve
 (
 res
 )
