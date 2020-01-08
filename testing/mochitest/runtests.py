@@ -751,6 +751,14 @@ __call__
 data
 )
         
+if
+not
+output
+:
+            
+return
+None
+        
 log_level
 =
 data
