@@ -5004,10 +5004,36 @@ close
 (
 )
                 
+retcode
+=
 proc
 .
 wait
 (
+)
+                
+if
+retcode
+!
+=
+0
+:
+                    
+raise
+RuntimeError
+(
+                        
+"
+dump_syms
+failed
+with
+error
+code
+%
+d
+"
+%
+retcode
 )
                 
 #
