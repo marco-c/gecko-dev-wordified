@@ -4087,7 +4087,7 @@ given
 index
 *
 /
-nsresult
+NS_IMETHODIMP
 nsSHistory
 :
 :
