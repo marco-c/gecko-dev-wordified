@@ -42191,6 +42191,9 @@ aBuilder
 nsIFrame
 *
 aFrame
+nsSubDocumentFrame
+*
+aSubDocFrame
 nsDisplayList
 *
 aList
@@ -42202,7 +42205,7 @@ nsDisplaySubDocument
 (
 aBuilder
 aFrame
-nullptr
+aSubDocFrame
 aList
 aFlags
 )
@@ -46082,6 +46085,9 @@ aBuilder
 nsIFrame
 *
 aFrame
+nsSubDocumentFrame
+*
+aSubDocFrame
 nsDisplayList
 *
 aList
@@ -46097,7 +46103,7 @@ nsDisplaySubDocument
 (
 aBuilder
 aFrame
-nullptr
+aSubDocFrame
 aList
 aFlags
 )

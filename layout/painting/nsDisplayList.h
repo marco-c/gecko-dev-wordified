@@ -33898,6 +33898,9 @@ aBuilder
 nsIFrame
 *
 aFrame
+nsSubDocumentFrame
+*
+aSubDocFrame
 nsDisplayList
 *
 aList
@@ -35287,6 +35290,9 @@ aBuilder
 nsIFrame
 *
 aFrame
+nsSubDocumentFrame
+*
+aSubDocFrame
 nsDisplayList
 *
 aList
