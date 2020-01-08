@@ -4911,7 +4911,7 @@ aStream
 {
 MOZ_ASSERT
 (
-OnGraphThreadOrNotRunning
+OnGraphThread
 (
 )
 )
