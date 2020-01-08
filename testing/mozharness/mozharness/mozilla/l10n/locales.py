@@ -102,8 +102,6 @@ import
 os
 import
 pprint
-import
-sys
 from
 mozharness
 .
