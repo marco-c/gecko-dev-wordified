@@ -32093,16 +32093,7 @@ StyleDisplay
 )
 -
 >
-PhysicalFloats
-(
-aState
-.
-mReflowInput
-.
-GetWritingMode
-(
-)
-)
+mFloat
 ;
 if
 (
