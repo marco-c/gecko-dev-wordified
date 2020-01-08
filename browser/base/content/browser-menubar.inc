@@ -188,8 +188,11 @@ menu_FilePopup
 onpopupshowing
 =
 "
-updateUserContextUIVisibility
+updateFileMenuUserContextUIVisibility
 (
+'
+menu_newUserContext
+'
 )
 ;
 "
