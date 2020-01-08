@@ -238,7 +238,7 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 {
 name
@@ -301,10 +301,10 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 )
-studyFactory
+addonStudyFactory
 (
 )
 ]
@@ -360,7 +360,7 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 {
 name
@@ -613,7 +613,7 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 {
 name
@@ -625,7 +625,7 @@ study1
 "
 }
 )
-studyFactory
+addonStudyFactory
 (
 {
 name
@@ -760,7 +760,7 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 {
 active
@@ -783,7 +783,7 @@ studyEndDate
 null
 }
 )
-studyFactory
+addonStudyFactory
 (
 {
 active
@@ -799,7 +799,7 @@ com
 "
 }
 )
-studyFactory
+addonStudyFactory
 (
 {
 active
@@ -1085,7 +1085,7 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 {
 active
