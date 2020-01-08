@@ -3259,6 +3259,9 @@ child
 :
 ReportFatalError
 (
+Nothing
+(
+)
 "
 CountdownThread
 activated
@@ -5461,6 +5464,11 @@ UnrecoverableSnapshotFailure
 (
 )
 {
+if
+(
+gMemoryInfo
+)
+{
 AutoSpinLock
 lock
 (
@@ -5512,6 +5520,7 @@ aIgnoreFailures
 true
 )
 ;
+}
 }
 }
 /
@@ -8196,10 +8205,7 @@ PageSize
 )
 )
 {
-child
-:
-:
-ReportFatalError
+MOZ_CRASH
 (
 "
 Fixed
@@ -8234,10 +8240,7 @@ aSize
 )
 )
 {
-child
-:
-:
-ReportFatalError
+MOZ_CRASH
 (
 "
 Fixed
