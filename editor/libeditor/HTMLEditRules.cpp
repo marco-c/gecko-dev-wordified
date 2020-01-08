@@ -693,7 +693,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertBreak
+eInsertParagraphSeparator
 |
 |
 aEditSubAction
@@ -3346,7 +3346,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertBreak
+eInsertParagraphSeparator
 |
 |
 aEditSubAction
@@ -3608,7 +3608,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertBreak
+eInsertParagraphSeparator
 |
 |
 aEditSubAction
@@ -4193,7 +4193,7 @@ case
 EditSubAction
 :
 :
-insertBreak
+eInsertParagraphSeparator
 :
 UndefineCaretBidiLevel
 (
@@ -4579,7 +4579,7 @@ case
 EditSubAction
 :
 :
-insertBreak
+eInsertParagraphSeparator
 :
 case
 EditSubAction
@@ -45809,7 +45809,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertBreak
+eInsertParagraphSeparator
 |
 |
 aEditSubAction
@@ -47778,7 +47778,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertBreak
+eInsertParagraphSeparator
 |
 |
 aEditSubAction

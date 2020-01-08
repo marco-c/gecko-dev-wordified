@@ -6903,12 +6903,14 @@ like
 EditSubAction
 :
 :
-insertBreak
+eInsertParagraphSeparator
 or
 EditSubAction
 :
 :
 eInsertNode
+/
+/
 is
 better
 .

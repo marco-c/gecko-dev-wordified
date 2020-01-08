@@ -5617,7 +5617,7 @@ this
 EditSubAction
 :
 :
-insertBreak
+eInsertParagraphSeparator
 nsIEditor
 :
 :
@@ -5653,7 +5653,7 @@ subActionInfo
 EditSubAction
 :
 :
-insertBreak
+eInsertParagraphSeparator
 )
 ;
 subActionInfo
