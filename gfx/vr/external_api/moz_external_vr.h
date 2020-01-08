@@ -223,7 +223,7 @@ const
 int32_t
 kVRExternalVersion
 =
-1
+2
 ;
 /
 /
@@ -1706,6 +1706,12 @@ defined
 (
 __ANDROID__
 )
+bool
+presentationActive
+;
+bool
+navigationTransitionActive
+;
 VRLayerState
 layerState
 [

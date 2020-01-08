@@ -1957,6 +1957,11 @@ aError
 )
 ;
 void
+StartVRNavigation
+(
+)
+;
+void
 StartHandlingVRNavigationEvent
 (
 )
