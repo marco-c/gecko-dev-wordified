@@ -69,8 +69,8 @@ strict
 ;
 const
 {
-Component
 createFactory
+PureComponent
 }
 =
 require
@@ -190,7 +190,7 @@ MIN_VIEWPORT_DIMENSION
 class
 ResizableViewport
 extends
-Component
+PureComponent
 {
 static
 get

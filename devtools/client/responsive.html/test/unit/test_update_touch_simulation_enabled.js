@@ -43,7 +43,7 @@ enabled
 property
 const
 {
-changeTouchSimulation
+toggleTouchSimulation
 }
 =
 require
@@ -110,7 +110,7 @@ default
 ;
 dispatch
 (
-changeTouchSimulation
+toggleTouchSimulation
 (
 true
 )
