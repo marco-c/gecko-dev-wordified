@@ -160,11 +160,6 @@ MainThreadUtils
 .
 h
 "
-void
-AssertIsMainThreadOrServoLangFontPrefsCacheLocked
-(
-)
-;
 namespace
 mozilla
 {
