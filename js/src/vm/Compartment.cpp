@@ -1365,7 +1365,7 @@ we
 have
 entered
 a
-compartment
+realm
 .
 MOZ_ASSERT
 (
@@ -1403,7 +1403,7 @@ the
 self
 -
 hosting
-global
+zone
 .
 We
 don
@@ -1432,7 +1432,7 @@ the
 self
 -
 hosting
-global
+zone
 .
 MOZ_ASSERT
 (
@@ -1445,12 +1445,12 @@ runtime
 )
 -
 >
-isSelfHostingGlobal
+isSelfHostingZone
 (
 cx
 -
 >
-global
+zone
 (
 )
 )
@@ -1467,13 +1467,12 @@ runtime
 )
 -
 >
-isSelfHostingGlobal
+isSelfHostingZone
 (
-&
 obj
 -
 >
-global
+zone
 (
 )
 )
