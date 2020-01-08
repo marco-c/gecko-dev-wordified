@@ -4136,7 +4136,7 @@ g
 javascript
 "
 *
-URI_SAFE_TO_LOAD_IN_SECURE_CONTEXT
+URI_IS_POTENTIALLY_TRUSTWORTHY
 -
 e
 .
@@ -4232,7 +4232,7 @@ innerContentLocation
 nsIProtocolHandler
 :
 :
-URI_SAFE_TO_LOAD_IN_SECURE_CONTEXT
+URI_IS_POTENTIALLY_TRUSTWORTHY
 &
 schemeSecure
 )
