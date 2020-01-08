@@ -108,6 +108,7 @@ clip
 :
 :
 {
+ClipDataStore
 ClipStore
 }
 ;
@@ -441,6 +442,13 @@ clip_scroll_tree
 '
 a
 ClipScrollTree
+pub
+clip_data_store
+:
+&
+'
+a
+ClipDataStore
 }
 #
 [
@@ -3676,6 +3684,9 @@ ctx
 .
 clip_scroll_tree
 transforms
+ctx
+.
+clip_data_store
 )
 ;
 }

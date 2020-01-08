@@ -111,6 +111,13 @@ ron
 use
 serde
 ;
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 CaptureConfig
