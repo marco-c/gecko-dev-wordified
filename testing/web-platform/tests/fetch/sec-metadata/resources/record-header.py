@@ -164,6 +164,9 @@ end_headers
 (
 )
     
+try
+:
+      
 header_value
 =
 request
@@ -176,13 +179,6 @@ take
 (
 testId
 )
-    
-if
-header_value
-!
-=
-None
-:
       
 response
 .
@@ -192,6 +188,32 @@ write
 (
 header_value
 )
+    
+except
+(
+KeyError
+ValueError
+)
+as
+e
+:
+      
+response
+.
+writer
+.
+write
+(
+"
+No
+header
+has
+been
+recorded
+"
+)
+      
+pass
     
 response
 .
@@ -212,6 +234,9 @@ value
 else
 :
     
+try
+:
+      
 #
 #
 Return
@@ -223,7 +248,7 @@ default
 value
 #
 #
-    
+      
 header
 =
 request
@@ -240,9 +265,6 @@ Metadata
 "
 "
 )
-    
-try
-:
       
 request
 .
@@ -267,6 +289,12 @@ header
 is
 already
 recorded
+or
+it
+doesn
+'
+t
+exist
       
 pass
     
@@ -528,6 +556,28 @@ font
 "
 )
 :
+      
+response
+.
+headers
+.
+set
+(
+"
+Content
+-
+Type
+"
+"
+application
+/
+x
+-
+font
+-
+ttf
+"
+)
       
 file
 =
