@@ -3636,6 +3636,11 @@ MatchPatternSet
 this
 .
 targetUrlPatterns
+{
+restrictSchemes
+:
+false
+}
 )
 ;
 }
