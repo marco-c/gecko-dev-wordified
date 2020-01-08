@@ -12837,6 +12837,7 @@ response
 .
 *
 /
+static
 public
 class
 WebResponseInfo
@@ -12857,6 +12858,7 @@ null
 .
 *
 /
+NonNull
 public
 final
 String
@@ -12883,6 +12885,7 @@ null
 .
 *
 /
+Nullable
 public
 final
 String
@@ -12907,6 +12910,7 @@ unknokwn
 .
 *
 /
+Nullable
 public
 final
 long
@@ -12933,6 +12937,7 @@ null
 .
 *
 /
+Nullable
 public
 final
 String
