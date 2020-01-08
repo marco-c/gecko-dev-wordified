@@ -1181,6 +1181,7 @@ _setTechDetailsMsgPart1
 (
 hostString
 sslStatus
+securityInfo
 technicalInfo
 doc
 )
@@ -1611,6 +1612,7 @@ _setTechDetailsMsgPart1
 (
 hostString
 sslStatus
+securityInfo
 technicalInfo
 doc
 )
