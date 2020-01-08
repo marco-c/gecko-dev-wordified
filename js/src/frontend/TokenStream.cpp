@@ -7151,7 +7151,7 @@ c
 '
 &
 &
-matchChar
+matchCodeUnit
 (
 '
 /
@@ -11987,7 +11987,7 @@ c
 {
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 .
@@ -12027,7 +12027,7 @@ case
 :
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12036,7 +12036,7 @@ matchChar
 )
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12056,7 +12056,7 @@ Eq
 else
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 >
@@ -12087,7 +12087,7 @@ case
 :
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 +
@@ -12104,7 +12104,7 @@ Inc
 else
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12265,7 +12265,7 @@ case
 :
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 |
@@ -12285,7 +12285,7 @@ ENABLE_PIPELINE_OPERATOR
 else
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 >
@@ -12304,7 +12304,7 @@ endif
 else
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12330,7 +12330,7 @@ case
 :
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12356,7 +12356,7 @@ case
 :
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 &
@@ -12373,7 +12373,7 @@ And
 else
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12399,7 +12399,7 @@ case
 :
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12408,7 +12408,7 @@ matchChar
 )
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12473,7 +12473,7 @@ line
 .
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 !
@@ -12483,7 +12483,7 @@ matchChar
 {
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 -
@@ -12493,7 +12493,7 @@ matchChar
 {
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 -
@@ -12527,7 +12527,7 @@ ungetCodeUnit
 }
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 <
@@ -12536,7 +12536,7 @@ matchChar
 )
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12556,7 +12556,7 @@ Lsh
 else
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12582,7 +12582,7 @@ case
 :
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 >
@@ -12592,7 +12592,7 @@ matchChar
 {
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 >
@@ -12601,7 +12601,7 @@ matchChar
 )
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12621,7 +12621,7 @@ Ursh
 else
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12643,7 +12643,7 @@ else
 {
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12670,7 +12670,7 @@ case
 :
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 *
@@ -12679,7 +12679,7 @@ matchChar
 )
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12699,7 +12699,7 @@ Pow
 else
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -12735,7 +12735,7 @@ comment
 .
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 /
@@ -12815,7 +12815,7 @@ comment
 .
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 *
@@ -12883,7 +12883,7 @@ c
 '
 &
 &
-matchChar
+matchCodeUnit
 (
 '
 /
@@ -13348,7 +13348,7 @@ true
 }
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -13374,7 +13374,7 @@ case
 :
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -13400,7 +13400,7 @@ case
 :
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 -
@@ -13433,7 +13433,7 @@ isDirtyLine
 {
 if
 (
-matchChar
+matchCodeUnit
 (
 '
 >
@@ -13461,7 +13461,7 @@ else
 {
 simpleKind
 =
-matchChar
+matchCodeUnit
 (
 '
 =
@@ -15199,7 +15199,7 @@ c
 '
 &
 &
-matchChar
+matchCodeUnit
 (
 '
 {
