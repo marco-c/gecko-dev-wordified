@@ -739,7 +739,6 @@ frame
 bottom
 )
 ;
-}
 GeckoView
 .
 this
@@ -749,6 +748,7 @@ setActive
 true
 )
 ;
+}
 }
 public
 GeckoDisplay
@@ -852,7 +852,12 @@ width
 height
 )
 ;
-}
+if
+(
+!
+mValid
+)
+{
 GeckoView
 .
 this
@@ -862,6 +867,8 @@ setActive
 true
 )
 ;
+}
+}
 mValid
 =
 true
@@ -896,7 +903,6 @@ surfaceDestroyed
 (
 )
 ;
-}
 GeckoView
 .
 this
@@ -906,6 +912,7 @@ setActive
 false
 )
 ;
+}
 mValid
 =
 false
