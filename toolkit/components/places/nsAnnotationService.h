@@ -480,9 +480,6 @@ aStatement
 nsresult
 StartSetAnnotation
 (
-nsIURI
-*
-aURI
 int64_t
 aItemId
 BookmarkData
@@ -509,9 +506,6 @@ aStatement
 nsresult
 SetAnnotationStringInternal
 (
-nsIURI
-*
-aURI
 int64_t
 aItemId
 BookmarkData
@@ -534,9 +528,6 @@ aExpiration
 nsresult
 SetAnnotationInt32Internal
 (
-nsIURI
-*
-aURI
 int64_t
 aItemId
 BookmarkData
@@ -557,9 +548,6 @@ aExpiration
 nsresult
 SetAnnotationInt64Internal
 (
-nsIURI
-*
-aURI
 int64_t
 aItemId
 BookmarkData
@@ -580,9 +568,6 @@ aExpiration
 nsresult
 SetAnnotationDoubleInternal
 (
-nsIURI
-*
-aURI
 int64_t
 aItemId
 BookmarkData
@@ -603,9 +588,6 @@ aExpiration
 nsresult
 RemoveAnnotationInternal
 (
-nsIURI
-*
-aURI
 int64_t
 aItemId
 BookmarkData
