@@ -800,6 +800,17 @@ descriptor
 define
 JS_DESCR_SLOTS
 13
+#
+define
+JS_DESCR_FLAG_ALLOW_CONSTRUCT
+1
+/
+/
+Allow
+structure
+to
+be
+constructed
 /
 /
 These
