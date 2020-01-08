@@ -689,7 +689,7 @@ enabled
 {
 min
 :
-9
+8
 max
 :
 55
