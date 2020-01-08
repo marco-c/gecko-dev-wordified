@@ -1009,7 +1009,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 if
 (
@@ -1153,7 +1153,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 this
 .
@@ -1274,7 +1274,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 )
 ;
 this
@@ -3296,7 +3296,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 ;
@@ -4211,7 +4211,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 )

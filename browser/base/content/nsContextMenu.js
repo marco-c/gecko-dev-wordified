@@ -11474,7 +11474,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 ;
