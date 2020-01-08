@@ -7275,6 +7275,11 @@ preferences
 version
 =
 1
+indexer
+.
+updatePolicy
+=
+0
 "
 "
 "
