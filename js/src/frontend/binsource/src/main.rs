@@ -9447,9 +9447,12 @@ kind
 }
 )
 ;
+BINJS_TRY
+(
 CheckRecursionLimit
 (
 cx_
+)
 )
 ;
 {
