@@ -61,6 +61,12 @@ default_page_load_timeout
 default_implicit_wait_timeout
 =
 0
+default_window_size
+=
+(
+800
+600
+)
 _current_session
 =
 None
@@ -376,10 +382,7 @@ window
 .
 size
 =
-(
-800
-600
-)
+default_window_size
     
 ignore_exceptions
     
@@ -1323,6 +1326,22 @@ session_id
 :
             
 raise
+    
+#
+Enforce
+a
+fixed
+default
+window
+size
+    
+_current_session
+.
+window
+.
+size
+=
+default_window_size
     
 yield
 _current_session
