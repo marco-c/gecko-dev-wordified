@@ -240,7 +240,7 @@ tests_require
 =
 [
 '
-mozhttpd
+wptserve
 '
 ]
       
