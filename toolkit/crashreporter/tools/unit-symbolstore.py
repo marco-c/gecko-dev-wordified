@@ -4583,6 +4583,8 @@ bin
 '
 '
 firefox
+-
+bin
 '
 )
     
