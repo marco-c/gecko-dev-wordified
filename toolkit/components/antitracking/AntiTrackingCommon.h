@@ -533,6 +533,13 @@ nsIPrincipal
 aPrincipal
 )
 ;
+enum
+StorageAccessGrantedReason
+{
+eStorageAccessAPI
+eHeuristic
+}
+;
 /
 /
 Grant
@@ -779,6 +786,8 @@ aOrigin
 nsPIDOMWindowInner
 *
 aParentWindow
+StorageAccessGrantedReason
+aReason
 )
 ;
 /
