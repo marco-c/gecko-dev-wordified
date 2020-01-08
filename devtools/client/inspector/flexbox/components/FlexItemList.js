@@ -186,6 +186,13 @@ flexItem
 )
 .
 isRequired
+onToggleFlexItemShown
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -196,6 +203,7 @@ render
 const
 {
 flexItems
+onToggleFlexItemShown
 }
 =
 this
@@ -209,7 +217,7 @@ dom
 ol
 (
 {
-id
+className
 :
 "
 flex
@@ -235,6 +243,7 @@ flexItem
 .
 actorID
 flexItem
+onToggleFlexItemShown
 }
 )
 )

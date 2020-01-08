@@ -539,6 +539,13 @@ PropTypes
 func
 .
 isRequired
+onToggleFlexItemShown
+:
+PropTypes
+.
+func
+.
+isRequired
 onToggleGeometryEditor
 :
 PropTypes
