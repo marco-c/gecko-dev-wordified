@@ -1153,7 +1153,10 @@ percent
 coord
 calc
 none
-nscolor
+mozilla
+:
+:
+StyleComplexColor
 mColor
 ;
 bool

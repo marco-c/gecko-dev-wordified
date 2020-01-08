@@ -105,12 +105,6 @@ image
 -
 values
 use
-cssparser
-:
-:
-RGBA
-;
-use
 std
 :
 :
@@ -161,6 +155,7 @@ computed
 :
 {
 Angle
+Color
 Context
 }
 ;
@@ -381,7 +376,7 @@ LineDirection
 Length
 LengthOrPercentage
 Position
-RGBA
+Color
 Angle
 >
 ;
@@ -555,7 +550,7 @@ generic
 :
 GradientItem
 <
-RGBA
+Color
 LengthOrPercentage
 >
 ;
@@ -576,7 +571,7 @@ generic
 :
 ColorStop
 <
-RGBA
+Color
 LengthOrPercentage
 >
 ;

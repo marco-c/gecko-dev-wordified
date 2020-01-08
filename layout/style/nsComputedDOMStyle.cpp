@@ -14625,7 +14625,7 @@ stop
 mIsInterpolationHint
 )
 {
-SetToRGBAColor
+SetValueFromComplexColor
 (
 tmpVal
 stop

@@ -318,6 +318,9 @@ Create
 nsPresContext
 *
 aPresContext
+ComputedStyle
+*
+aComputedStyle
 nsStyleGradient
 *
 aGradient
