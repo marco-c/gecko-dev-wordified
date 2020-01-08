@@ -200,6 +200,10 @@ resources_unittest
 resources
 /
 "
+"
+tools
+/
+"
 ]
     
 "
