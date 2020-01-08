@@ -31302,7 +31302,7 @@ IsShift
 NativeKey
 :
 :
-LastKeyMSG
+LastKeyOrCharMSG
 (
 )
 .
@@ -31315,7 +31315,7 @@ WM_SYSKEYDOWN
 NativeKey
 :
 :
-LastKeyMSG
+LastKeyOrCharMSG
 (
 )
 .
