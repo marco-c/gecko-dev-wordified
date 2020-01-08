@@ -275,7 +275,7 @@ openConsole
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

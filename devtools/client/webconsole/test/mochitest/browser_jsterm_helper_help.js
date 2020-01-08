@@ -140,7 +140,9 @@ openedLinks
 }
 }
 ;
-jsterm
+hud
+.
+ui
 .
 clearOutput
 (

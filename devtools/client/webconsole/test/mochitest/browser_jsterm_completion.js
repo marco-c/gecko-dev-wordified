@@ -119,6 +119,7 @@ function
 const
 {
 jsterm
+ui
 }
 =
 await
@@ -539,7 +540,7 @@ completion
 "
 )
 ;
-jsterm
+ui
 .
 clearOutput
 (

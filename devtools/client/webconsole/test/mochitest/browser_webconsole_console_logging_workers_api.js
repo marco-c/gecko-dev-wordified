@@ -223,7 +223,7 @@ onMessagesCleared
 =
 hud
 .
-jsterm
+ui
 .
 once
 (
@@ -236,7 +236,7 @@ cleared
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

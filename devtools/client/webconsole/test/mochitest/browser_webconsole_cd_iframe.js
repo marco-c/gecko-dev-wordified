@@ -637,7 +637,7 @@ assertions
 .
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

@@ -661,7 +661,7 @@ starts
 ;
 hud2
 .
-jsterm
+ui
 .
 clearOutput
 (

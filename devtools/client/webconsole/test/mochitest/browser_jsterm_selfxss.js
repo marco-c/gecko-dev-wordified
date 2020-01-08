@@ -181,6 +181,7 @@ count
 const
 {
 jsterm
+ui
 }
 =
 await
@@ -189,7 +190,7 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-jsterm
+ui
 .
 clearOutput
 (

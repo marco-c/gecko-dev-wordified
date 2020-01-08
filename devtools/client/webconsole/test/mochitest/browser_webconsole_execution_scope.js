@@ -151,7 +151,9 @@ jsterm
 =
 hud
 ;
-jsterm
+hud
+.
+ui
 .
 clearOutput
 (

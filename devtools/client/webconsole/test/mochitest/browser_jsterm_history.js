@@ -159,6 +159,7 @@ function
 const
 {
 jsterm
+ui
 }
 =
 await
@@ -174,7 +175,7 @@ inputNode
 =
 jsterm
 ;
-jsterm
+ui
 .
 clearOutput
 (

@@ -531,7 +531,7 @@ url
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

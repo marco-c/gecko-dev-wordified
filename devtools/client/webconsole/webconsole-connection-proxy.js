@@ -2160,8 +2160,6 @@ this
 .
 webConsoleFrame
 .
-jsterm
-.
 clearPrivateMessages
 (
 )

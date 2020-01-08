@@ -196,7 +196,9 @@ with
 some
 output
 .
-jsterm
+hud
+.
+ui
 .
 clearOutput
 (
