@@ -5462,7 +5462,7 @@ class
 CanvasFilterChainObserver
 :
 public
-nsSVGFilterChainObserver
+SVGFilterObserverList
 {
 public
 :
@@ -5482,7 +5482,7 @@ CanvasRenderingContext2D
 aContext
 )
 :
-nsSVGFilterChainObserver
+SVGFilterObserverList
 (
 aFilters
 aCanvasElement
@@ -5787,7 +5787,7 @@ FILL
 )
 ;
 auto
-filterChainObserver
+filterObserverList
 =
 static_cast
 <
@@ -5803,7 +5803,7 @@ mStyleStack
 i
 ]
 .
-filterChainObserver
+filterObserverList
 .
 get
 (
@@ -5812,10 +5812,10 @@ get
 ;
 if
 (
-filterChainObserver
+filterObserverList
 )
 {
-filterChainObserver
+filterObserverList
 -
 >
 DetachFromContext
@@ -5833,7 +5833,7 @@ mStyleStack
 i
 ]
 .
-filterChainObserver
+filterObserverList
 )
 ;
 }
@@ -6032,11 +6032,11 @@ mStyleStack
 i
 ]
 .
-filterChainObserver
+filterObserverList
 "
 Filter
-Chain
 Observer
+List
 "
 )
 ;
@@ -15396,7 +15396,7 @@ CurrentState
 (
 )
 .
-filterChainObserver
+filterObserverList
 =
 new
 CanvasFilterChainObserver

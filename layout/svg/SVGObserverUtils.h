@@ -267,7 +267,7 @@ namespace
 mozilla
 {
 class
-nsSVGFilterChainObserver
+SVGFilterObserverList
 ;
 }
 namespace
@@ -1492,7 +1492,7 @@ changes
 *
 *
 The
-nsSVGFilterChainObserver
+SVGFilterObserverList
 class
 manages
 a
@@ -1519,7 +1519,7 @@ aURI
 nsIContent
 *
 aObservingContent
-nsSVGFilterChainObserver
+SVGFilterObserverList
 *
 aFilterChainObserver
 )
@@ -1530,7 +1530,7 @@ aURI
 aObservingContent
 false
 )
-mFilterChainObserver
+mFilterObserverList
 (
 aFilterChainObserver
 )
@@ -1552,7 +1552,7 @@ DetachFromChainObserver
 (
 )
 {
-mFilterChainObserver
+mFilterObserverList
 =
 nullptr
 ;
@@ -1625,9 +1625,9 @@ override
 ;
 private
 :
-nsSVGFilterChainObserver
+SVGFilterObserverList
 *
-mFilterChainObserver
+mFilterObserverList
 ;
 }
 ;
@@ -1705,7 +1705,7 @@ the
 above
 example
 the
-nsSVGFilterChainObserver
+SVGFilterObserverList
 will
 manage
 two
@@ -1760,14 +1760,14 @@ filters
 *
 /
 class
-nsSVGFilterChainObserver
+SVGFilterObserverList
 :
 public
 nsISupports
 {
 public
 :
-nsSVGFilterChainObserver
+SVGFilterObserverList
 (
 const
 nsTArray
@@ -1813,13 +1813,13 @@ nsISupports
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
-nsSVGFilterChainObserver
+SVGFilterObserverList
 )
 protected
 :
 virtual
 ~
-nsSVGFilterChainObserver
+SVGFilterObserverList
 (
 )
 ;
@@ -1885,7 +1885,7 @@ class
 nsSVGFilterProperty
 :
 public
-nsSVGFilterChainObserver
+SVGFilterObserverList
 {
 public
 :
@@ -1903,7 +1903,7 @@ nsIFrame
 aFilteredFrame
 )
 :
-nsSVGFilterChainObserver
+SVGFilterObserverList
 (
 aFilters
 aFilteredFrame
