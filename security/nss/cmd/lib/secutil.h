@@ -100,7 +100,7 @@ h
 #
 include
 "
-key
+keyhi
 .
 h
 "
