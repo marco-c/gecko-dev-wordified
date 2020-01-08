@@ -708,7 +708,9 @@ aScriptGlobalObject
 if
 (
 !
-mPluginContent
+InitialSetupHasBeenDone
+(
+)
 )
 {
 /
@@ -743,11 +745,11 @@ document
 "
 )
 ;
-}
-BecomeInteractive
+InitialSetupDone
 (
 )
 ;
+}
 }
 else
 {
