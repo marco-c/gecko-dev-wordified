@@ -417,6 +417,10 @@ if
 (
 !
 registeredURLs
+|
+|
+!
+registeredURLs
 .
 has
 (
