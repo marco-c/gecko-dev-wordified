@@ -84,8 +84,6 @@ voluptuous
 import
 (
     
-Any
-    
 Optional
     
 Required
@@ -224,8 +222,6 @@ fetch
 '
 )
 :
-Any
-(
 {
         
 '
@@ -438,7 +434,6 @@ hits
 .
     
 }
-)
 }
 )
 transforms
