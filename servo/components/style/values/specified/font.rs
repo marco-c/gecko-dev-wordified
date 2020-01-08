@@ -1509,6 +1509,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 return
 Ok
@@ -1521,6 +1522,7 @@ Weight
 number
 )
 )
+;
 }
 Ok
 (
@@ -2401,6 +2403,7 @@ Ok
 (
 angle
 )
+;
 }
 /
 /
@@ -3408,7 +3411,6 @@ kw
 )
 =
 >
-{
 computed
 :
 :
@@ -3423,7 +3425,6 @@ compute
 )
 )
 )
-}
 FontStretch
 :
 :

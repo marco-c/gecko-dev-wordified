@@ -1235,7 +1235,6 @@ try
 |
 input
 |
-{
 SpecifiedFontStyle
 :
 :
@@ -1244,7 +1243,6 @@ parse_angle
 context
 input
 )
-}
 )
 .
 unwrap_or_else
@@ -1867,7 +1865,6 @@ any
 |
 hint
 |
-{
 hint
 =
 =
@@ -1890,7 +1887,6 @@ hint
 "
 woff
 "
-}
 )
 }
 else

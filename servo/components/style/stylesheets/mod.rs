@@ -2203,7 +2203,6 @@ map_err
 |
 _
 |
-{
 rule_parser
 .
 dom_error
@@ -2215,7 +2214,6 @@ RulesMutateError
 :
 Syntax
 )
-}
 )
 }
 }

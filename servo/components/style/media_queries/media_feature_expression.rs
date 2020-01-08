@@ -936,7 +936,6 @@ op
 )
 =
 >
-{
 match
 op
 {
@@ -972,7 +971,6 @@ Operator
 GreaterThanEqual
 =
 >
-{
 cmp
 =
 =
@@ -989,7 +987,6 @@ Ordering
 :
 :
 Greater
-}
 Operator
 :
 :
@@ -1009,7 +1006,6 @@ Operator
 LessThanEqual
 =
 >
-{
 cmp
 =
 =
@@ -1026,8 +1022,6 @@ Ordering
 :
 :
 Less
-}
-}
 }
 }
 }
@@ -1742,7 +1736,6 @@ parse_nested_block
 |
 input
 |
-{
 Self
 :
 :
@@ -1751,7 +1744,6 @@ parse_in_parenthesis_block
 context
 input
 )
-}
 )
 }
 /
@@ -2447,7 +2439,6 @@ range
 None
 =
 >
-{
 match
 operator
 {
@@ -2496,7 +2487,6 @@ None
 =
 >
 None
-}
 }
 }
 ;
@@ -2614,7 +2604,6 @@ map
 |
 value
 |
-{
 match
 *
 value
@@ -2642,9 +2631,9 @@ MediaExpressionValue
 "
 )
 }
-}
 )
 }
+;
 }
 match
 self
@@ -2748,7 +2737,6 @@ eval
 )
 =
 >
-{
 eval
 (
 device
@@ -2765,7 +2753,6 @@ self
 .
 range_or_operator
 )
-}
 Evaluator
 :
 :
@@ -2890,7 +2877,6 @@ eval
 )
 =
 >
-{
 eval
 (
 device
@@ -2907,7 +2893,6 @@ self
 .
 range_or_operator
 )
-}
 Evaluator
 :
 :
@@ -2917,7 +2902,6 @@ eval
 )
 =
 >
-{
 eval
 (
 device
@@ -2934,7 +2918,6 @@ self
 .
 range_or_operator
 )
-}
 }
 }
 }
@@ -3308,14 +3291,12 @@ ratio
 )
 =
 >
-{
 ratio
 .
 to_css
 (
 dest
 )
-}
 MediaExpressionValue
 :
 :
@@ -3356,7 +3337,6 @@ value
 )
 =
 >
-{
 match
 for_expr
 .
@@ -3375,7 +3355,6 @@ serializer
 }
 =
 >
-{
 dest
 .
 write_str
@@ -3387,7 +3366,6 @@ serializer
 value
 )
 )
-}
 _
 =
 >
@@ -3395,7 +3373,6 @@ unreachable
 !
 (
 )
-}
 }
 }
 }

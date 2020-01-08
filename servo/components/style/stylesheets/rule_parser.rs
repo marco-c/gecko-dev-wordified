@@ -1806,6 +1806,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 AtRuleParser
 :
@@ -2207,6 +2208,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 QualifiedRuleParser
 :

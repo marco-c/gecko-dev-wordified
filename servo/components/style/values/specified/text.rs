@@ -877,6 +877,7 @@ MozBlockHeight
 ident
 =
 >
+{
 Err
 (
 location
@@ -896,6 +897,7 @@ clone
 )
 )
 )
+}
 }
 }
 }

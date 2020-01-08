@@ -8503,6 +8503,7 @@ animation
 ;
 }
 }
+;
 }
 /
 /
@@ -11648,7 +11649,6 @@ true
 |
 pseudo
 |
-{
 !
 pseudo
 .
@@ -11663,7 +11663,6 @@ pseudo
 is_unknown_webkit_pseudo_element
 (
 )
-}
 )
 )
 ;

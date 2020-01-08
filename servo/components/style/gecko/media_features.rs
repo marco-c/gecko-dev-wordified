@@ -235,6 +235,7 @@ area
 height
 )
 )
+;
 }
 device
 .
@@ -2317,6 +2318,7 @@ CHROME_AND_UA_ONLY
 )
 }
 }
+;
 }
 lazy_static
 !
