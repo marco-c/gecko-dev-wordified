@@ -89,7 +89,6 @@ value
 [
 derive
 (
-Animate
 Clone
 Copy
 Debug
