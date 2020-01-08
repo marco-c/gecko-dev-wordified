@@ -304,6 +304,16 @@ cancel
 all
 '
     
+kind
+=
+'
+hook
+'
+    
+generic
+=
+True
+    
 symbol
 =
 '

@@ -105,6 +105,16 @@ new
 jobs
 '
     
+kind
+=
+'
+hook
+'
+    
+generic
+=
+True
+    
 symbol
 =
 '

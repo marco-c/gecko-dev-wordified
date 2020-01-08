@@ -114,6 +114,16 @@ Talos
 Tests
 '
     
+kind
+=
+'
+hook
+'
+    
+generic
+=
+True
+    
 symbol
 =
 '
