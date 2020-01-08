@@ -4967,6 +4967,12 @@ this
 xpcOldPos
 aOldStart
 aOldEnd
+ToXPC
+(
+mPosition
+)
+mStartOffset
+mEndOffset
 aReason
 aIsFromUserInput
 )
