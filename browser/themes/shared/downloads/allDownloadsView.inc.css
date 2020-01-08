@@ -62,9 +62,10 @@ substitution
 %
 define
 item
+#
+downloadsRichListBox
+>
 richlistitem
-.
-download
 %
 define
 itemFocused
@@ -125,12 +126,7 @@ items
 *
 *
 /
-#
-downloadsRichListBox
->
-richlistitem
-.
-download
+item
 {
 height
 :
