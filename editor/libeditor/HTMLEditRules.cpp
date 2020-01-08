@@ -3068,18 +3068,20 @@ along
 the
 way
 for
+/
+/
 EditSubAction
 :
 :
-loadHTML
-/
-/
+eInsertHTMLSource
 EditSubAction
 :
 :
 eInsertText
 etc
 .
+/
+/
 That
 '
 s
@@ -3089,8 +3091,6 @@ is
 here
 rather
 than
-/
-/
 DidDeleteSelection
 (
 )
@@ -3355,7 +3355,7 @@ aEditSubAction
 EditSubAction
 :
 :
-htmlPaste
+ePasteHTMLContent
 |
 |
 aEditSubAction
@@ -3364,7 +3364,7 @@ aEditSubAction
 EditSubAction
 :
 :
-loadHTML
+eInsertHTMLSource
 )
 {
 rv
@@ -3617,7 +3617,7 @@ aEditSubAction
 EditSubAction
 :
 :
-htmlPaste
+ePasteHTMLContent
 |
 |
 aEditSubAction
@@ -3626,7 +3626,7 @@ aEditSubAction
 EditSubAction
 :
 :
-loadHTML
+eInsertHTMLSource
 )
 {
 rv
@@ -4182,7 +4182,7 @@ case
 EditSubAction
 :
 :
-loadHTML
+eInsertHTMLSource
 :
 return
 WillLoadHTML
