@@ -1785,7 +1785,7 @@ formAutofillStorage
 .
 addresses
 .
-_nukeAllRecords
+removeAll
 (
 )
 ;
@@ -1793,7 +1793,7 @@ formAutofillStorage
 .
 creditCards
 .
-_nukeAllRecords
+removeAll
 (
 )
 ;
