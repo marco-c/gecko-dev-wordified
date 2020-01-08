@@ -1148,6 +1148,7 @@ mFlushTimer
 (
 NS_NewTimer
 (
+mEventTarget
 )
 )
 mFlushTimerMutex
@@ -1180,14 +1181,6 @@ Wrong
 thread
 !
 "
-)
-;
-mFlushTimer
--
->
-SetTarget
-(
-mEventTarget
 )
 ;
 #
