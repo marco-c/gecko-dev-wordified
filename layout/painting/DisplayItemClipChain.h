@@ -522,6 +522,9 @@ const
 DisplayItemClipChain
 *
 aParent
+DisplayItemClipChain
+*
+aNextClipChainToDestroy
 )
 :
 mClip
@@ -535,6 +538,10 @@ aASR
 mParent
 (
 aParent
+)
+mNextClipChainToDestroy
+(
+aNextClipChainToDestroy
 )
 #
 ifdef
@@ -552,6 +559,10 @@ DisplayItemClipChain
 )
 :
 mASR
+(
+nullptr
+)
+mNextClipChainToDestroy
 (
 nullptr
 )
@@ -585,6 +596,10 @@ uint32_t
 mRefCount
 =
 0
+;
+DisplayItemClipChain
+*
+mNextClipChainToDestroy
 ;
 #
 ifdef
