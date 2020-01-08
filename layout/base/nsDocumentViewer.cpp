@@ -22212,9 +22212,6 @@ mContainer
 mDocument
 float
 (
-mDeviceContext
--
->
 AppUnitsPerCSSInch
 (
 )
@@ -22802,9 +22799,6 @@ mContainer
 doc
 float
 (
-mDeviceContext
--
->
 AppUnitsPerCSSInch
 (
 )
