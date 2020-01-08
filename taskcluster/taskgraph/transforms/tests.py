@@ -9195,11 +9195,15 @@ test
 suite
 '
 ]
-=
-=
+in
+[
 '
 talos
 '
+'
+raptor
+'
+]
 :
             
 test

@@ -4926,7 +4926,7 @@ extraOptions
         
 if
 '
-geckoProfile
+gecko_profile
 '
 not
 in
@@ -4952,6 +4952,26 @@ self
 .
 summarized_results
 )
+)
+        
+else
+:
+            
+LOG
+.
+info
+(
+"
+gecko
+profiling
+enabled
+-
+not
+posting
+results
+for
+perfherder
+"
 )
         
 json
