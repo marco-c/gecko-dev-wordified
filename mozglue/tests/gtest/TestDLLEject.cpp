@@ -1422,12 +1422,6 @@ hExisting
 return
 ;
 }
-#
-if
-defined
-(
-NIGHTLY_BUILD
-)
 TEST
 (
 TestInjectEject
@@ -1722,11 +1716,3 @@ get
 )
 ;
 }
-#
-endif
-/
-/
-defined
-(
-NIGHTLY_BUILD
-)
