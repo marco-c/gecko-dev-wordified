@@ -396,6 +396,11 @@ compile
 /
 wasm
 .
+bool
+Init
+(
+)
+;
 void
 ShutDown
 (
