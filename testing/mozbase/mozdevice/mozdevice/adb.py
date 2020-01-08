@@ -4909,11 +4909,11 @@ or
 .
 .
         
-system_dir
+ls_dir
 =
 "
 /
-system
+sdcard
 "
         
 if
@@ -4934,7 +4934,7 @@ ls
 .
 format
 (
-system_dir
+ls_dir
 )
 timeout
 =
@@ -4973,7 +4973,7 @@ ls
 .
 format
 (
-system_dir
+ls_dir
 )
 timeout
 =
@@ -5031,7 +5031,7 @@ s
 .
 format
 (
-system_dir
+ls_dir
 )
 %
 self
