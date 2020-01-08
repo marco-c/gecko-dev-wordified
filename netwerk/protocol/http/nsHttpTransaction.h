@@ -1078,6 +1078,12 @@ RemoveDispatchedAsBlocking
 (
 )
 ;
+void
+DisableSpdy
+(
+)
+override
+;
 nsHttpTransaction
 *
 QueryHttpTransaction
@@ -1608,12 +1614,6 @@ ResponseTimeoutEnabled
 )
 const
 final
-;
-void
-DisableSpdy
-(
-)
-override
 ;
 void
 ReuseConnectionOnRestartOK
