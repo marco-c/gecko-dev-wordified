@@ -799,12 +799,12 @@ section
 "
 .
 auto
-compartment
+realm
 =
 js
 :
 :
-GetScriptCompartment
+GetScriptRealm
 (
 aScript
 )
@@ -813,9 +813,9 @@ return
 js
 :
 :
-IsSystemCompartment
+IsSystemRealm
 (
-compartment
+realm
 )
 ;
 }

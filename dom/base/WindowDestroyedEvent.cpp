@@ -661,12 +661,12 @@ obj
 js
 :
 :
-IsSystemCompartment
+IsSystemRealm
 (
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 obj
 )
