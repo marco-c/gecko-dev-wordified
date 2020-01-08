@@ -370,10 +370,6 @@ mRoutedPort
 (
 443
 )
-mLessThanTls13
-(
-false
-)
 {
 Init
 (
@@ -419,11 +415,6 @@ nsACString
 routedHost
 int32_t
 routedPort
-)
-:
-mLessThanTls13
-(
-false
 )
 {
 mEndToEndSSL
