@@ -2540,9 +2540,6 @@ rule_parser
 =
 TopLevelRuleParser
 {
-stylesheet_origin
-:
-origin
 shared_lock
 loader
 :
