@@ -631,7 +631,9 @@ valid_up_to
 old_offset
 }
 )
+;
 }
+;
 }
 macro_rules
 !
@@ -678,6 +680,7 @@ index
 ]
 }
 }
+;
 }
 '
 inner

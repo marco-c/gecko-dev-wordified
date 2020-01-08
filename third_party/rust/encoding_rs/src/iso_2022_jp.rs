@@ -108,7 +108,7 @@ those
 terms
 .
 use
-handles
+super
 :
 :
 *
@@ -120,13 +120,13 @@ data
 *
 ;
 use
-variant
+handles
 :
 :
 *
 ;
 use
-super
+variant
 :
 :
 *
@@ -2554,7 +2554,6 @@ Ascii
 _
 =
 >
-{
 match
 dest
 .
@@ -2611,7 +2610,6 @@ write_three
 0x42u8
 )
 ;
-}
 }
 }
 }

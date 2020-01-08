@@ -426,7 +426,7 @@ ident
 )
 =
 >
-(
+{
 decoder_function
 !
 (
@@ -467,7 +467,7 @@ u16
 Utf16Destination
 )
 ;
-)
+}
 ;
 }
 macro_rules
@@ -1336,7 +1336,7 @@ expr
 )
 =
 >
-(
+{
 ascii_compatible_two_byte_decoder_function
 !
 (
@@ -1379,7 +1379,7 @@ Utf16Destination
 ascii_punctuation
 )
 ;
-)
+}
 ;
 }
 macro_rules
@@ -2851,7 +2851,7 @@ tt
 )
 =
 >
-(
+{
 gb18030_decoder_function
 !
 (
@@ -2906,7 +2906,7 @@ u16
 Utf16Destination
 )
 ;
-)
+}
 ;
 }
 macro_rules
@@ -4187,7 +4187,7 @@ ident
 )
 =
 >
-(
+{
 euc_jp_decoder_function
 !
 (
@@ -4232,7 +4232,7 @@ u16
 Utf16Destination
 )
 ;
-)
+}
 ;
 }
 macro_rules
@@ -4512,7 +4512,7 @@ ident
 )
 =
 >
-(
+{
 encoder_function
 !
 (
@@ -4551,7 +4551,7 @@ u16
 Utf16Source
 )
 ;
-)
+}
 ;
 }
 macro_rules
@@ -5149,7 +5149,7 @@ expr
 )
 =
 >
-(
+{
 ascii_compatible_encoder_function
 !
 (
@@ -5188,7 +5188,7 @@ Utf16Source
 ascii_punctuation
 )
 ;
-)
+}
 ;
 }
 macro_rules
@@ -5232,7 +5232,7 @@ expr
 )
 =
 >
-(
+{
 ascii_compatible_encoder_function
 !
 (
@@ -5273,7 +5273,7 @@ source_struct
 ascii_punctuation
 )
 ;
-)
+}
 ;
 }
 macro_rules
@@ -5308,7 +5308,7 @@ expr
 )
 =
 >
-(
+{
 ascii_compatible_encoder_functions
 !
 (
@@ -5346,7 +5346,7 @@ destination_check
 ascii_punctuation
 )
 ;
-)
+}
 ;
 }
 macro_rules

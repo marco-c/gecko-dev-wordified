@@ -108,13 +108,7 @@ those
 terms
 .
 use
-handles
-:
-:
-*
-;
-use
-variant
+super
 :
 :
 *
@@ -126,7 +120,13 @@ ascii
 *
 ;
 use
-super
+handles
+:
+:
+*
+;
+use
+variant
 :
 :
 *
@@ -347,7 +347,6 @@ handle
 )
 =
 >
-{
 '
 middle
 :
@@ -768,7 +767,6 @@ destination_handle_again
 =
 >
 {
-{
 let
 (
 b_again
@@ -798,7 +796,6 @@ innermost
 }
 }
 }
-}
 /
 /
 We
@@ -813,7 +810,6 @@ continue
 '
 outermost
 ;
-}
 }
 }
 }
