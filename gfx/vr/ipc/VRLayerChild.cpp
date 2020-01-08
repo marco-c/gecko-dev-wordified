@@ -124,6 +124,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 GLScreenBuffer
 .
 h
