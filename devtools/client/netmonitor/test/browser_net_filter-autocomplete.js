@@ -471,7 +471,9 @@ filterinput
 )
 {
 }
-window
+document
+.
+defaultView
 )
 ;
 /
