@@ -127,7 +127,7 @@ str
 #
 define
 WR_MAX_VERTEX_TEXTURE_WIDTH
-1024
+1024U
 \
 n
 "
@@ -309,6 +309,17 @@ name
 :
 "
 cs_border_segment
+"
+features
+:
+CACHE_FEATURES
+}
+Shader
+{
+name
+:
+"
+cs_border_solid
 "
 features
 :
