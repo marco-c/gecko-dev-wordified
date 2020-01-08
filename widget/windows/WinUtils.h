@@ -3244,6 +3244,8 @@ KeyPair
 aArray
 uint32_t
 aModifiers
+UINT
+aMessage
 )
 ;
 /
