@@ -482,9 +482,8 @@ ret
 }
 #
 else
-static
-__inline__
 uint64_t
+inline
 rdtsc
 (
 void
