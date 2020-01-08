@@ -591,7 +591,7 @@ tolerate
 duplicate
 elements
 .
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 cmp
 )
