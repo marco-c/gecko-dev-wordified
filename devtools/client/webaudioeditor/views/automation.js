@@ -620,7 +620,7 @@ button
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton

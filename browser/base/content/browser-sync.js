@@ -2702,7 +2702,7 @@ menuseparator
 return
 document
 .
-createElement
+createXULElement
 (
 eltName
 )

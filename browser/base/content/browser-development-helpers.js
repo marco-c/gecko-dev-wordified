@@ -193,7 +193,7 @@ command
 =
 document
 .
-createElement
+createXULElement
 (
 "
 command
@@ -264,7 +264,7 @@ key
 =
 document
 .
-createElement
+createXULElement
 (
 "
 key
@@ -359,7 +359,7 @@ menuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem

@@ -7058,7 +7058,7 @@ container
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -7112,7 +7112,7 @@ img
 =
 document
 .
-createElement
+createXULElement
 (
 "
 image
@@ -7365,7 +7365,7 @@ nameLabel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -7476,7 +7476,7 @@ menulist
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menulist
@@ -7488,7 +7488,7 @@ menupopup
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menupopup
@@ -7500,7 +7500,7 @@ block
 =
 document
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -7593,7 +7593,7 @@ menuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -7837,7 +7837,7 @@ stateLabel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -8076,7 +8076,7 @@ button
 =
 document
 .
-createElement
+createXULElement
 (
 "
 button
@@ -8446,7 +8446,7 @@ indicator
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -8506,7 +8506,7 @@ icon
 =
 document
 .
-createElement
+createXULElement
 (
 "
 image
@@ -8539,7 +8539,7 @@ text
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
