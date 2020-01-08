@@ -18,7 +18,7 @@ an
 MIT
 license
 :
-http
+https
 :
 /
 /
