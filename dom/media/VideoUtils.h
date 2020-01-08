@@ -2258,6 +2258,15 @@ nsAString
 aCodec
 )
 ;
+bool
+IsAV1CodecString
+(
+const
+nsAString
+&
+aCodec
+)
+;
 /
 /
 Try
