@@ -1888,6 +1888,7 @@ aExtend
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 PageMove
 (
@@ -3284,6 +3285,15 @@ frameSelection
 =
 mFrameSelection
 ;
+nsIFrame
+*
+scrollFrame
+=
+do_QueryFrame
+(
+mScrollFrame
+)
+;
 frameSelection
 -
 >
@@ -3291,7 +3301,7 @@ CommonPageMove
 (
 aForward
 aExtend
-mScrollFrame
+scrollFrame
 )
 ;
 }
