@@ -383,6 +383,7 @@ if
 (
 g_Indent
 )
+{
 PR_LogPrint
 (
 "
@@ -403,7 +404,9 @@ g_Indent
 line
 )
 ;
+}
 else
+{
 PR_LogPrint
 (
 "
@@ -413,6 +416,7 @@ s
 line
 )
 ;
+}
 }
 bool
 XPC_Log_Check
@@ -452,10 +456,12 @@ g_Indent
 >
 SPACE_COUNT
 )
+{
 g_Indent
 -
 -
 ;
+}
 }
 void
 XPC_Log_Outdent
@@ -470,10 +476,12 @@ g_Indent
 <
 0
 )
+{
 g_Indent
 +
 +
 ;
+}
 }
 void
 XPC_Log_Clear_Indent

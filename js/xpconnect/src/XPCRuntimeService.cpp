@@ -247,6 +247,7 @@ if
 (
 mWrapper
 )
+{
 return
 mWrapper
 -
@@ -255,6 +256,7 @@ GetFlatJSObject
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -872,11 +874,13 @@ if
 (
 jsglobal
 )
+{
 *
 parentObj
 =
 jsglobal
 ;
+}
 return
 NS_OK
 ;
