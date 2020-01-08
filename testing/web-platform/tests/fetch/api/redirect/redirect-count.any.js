@@ -24,6 +24,13 @@ common
 utils
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 function
 redirectCount
 (
