@@ -357,6 +357,16 @@ DoubleMulResult
 \
 _
 (
+DoubleDivResult
+)
+\
+_
+(
+DoubleModResult
+)
+\
+_
+(
 Int32AddResult
 )
 \
