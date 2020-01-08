@@ -11933,9 +11933,9 @@ install
 .
 addon
 .
-userDisabled
-=
-false
+enable
+(
+)
 ;
 }
 let
