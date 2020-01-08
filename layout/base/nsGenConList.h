@@ -182,6 +182,14 @@ LinkedListElement
 nsGenConNode
 >
 {
+using
+StyleContentType
+=
+mozilla
+:
+:
+StyleContentType
+;
 /
 /
 The

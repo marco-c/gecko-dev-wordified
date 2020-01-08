@@ -2469,8 +2469,10 @@ Gecko_SetCounterFunction
 nsStyleContentData
 *
 content_data
-nsStyleContentType
-type
+mozilla
+:
+:
+StyleContentType
 )
 ;
 /
