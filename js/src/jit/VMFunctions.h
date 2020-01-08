@@ -6804,6 +6804,16 @@ const
 VMFunction
 SetObjectElementInfo
 ;
+extern
+const
+VMFunction
+StringsEqualInfo
+;
+extern
+const
+VMFunction
+StringsNotEqualInfo
+;
 }
 /
 /
