@@ -852,16 +852,6 @@ nsIURI
 >
 mDefaultIcon
 ;
-uint32_t
-mFailedFaviconSerial
-;
-nsDataHashtable
-<
-nsCStringHashKey
-uint32_t
->
-mFailedFavicons
-;
 /
 /
 This
