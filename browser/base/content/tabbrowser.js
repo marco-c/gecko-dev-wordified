@@ -20938,6 +20938,15 @@ clearTemporaryPermissions
 browser
 )
 ;
+PanelMultiView
+.
+hidePopup
+(
+gIdentityHandler
+.
+_identityPopup
+)
+;
 browser
 .
 reload
