@@ -241,6 +241,12 @@ private
 String
 defaultServerUrl
 ;
+private
+SwitchBoard
+.
+ConfigStatusListener
+listener
+;
 /
 *
 *
@@ -294,6 +300,10 @@ Context
 c
 String
 defaultServerUrl
+SwitchBoard
+.
+ConfigStatusListener
+listener
 )
 {
 this
@@ -307,6 +317,12 @@ this
 defaultServerUrl
 =
 defaultServerUrl
+;
+this
+.
+listener
+=
+listener
 ;
 }
 Override
@@ -327,6 +343,7 @@ loadConfig
 (
 context
 defaultServerUrl
+listener
 )
 ;
 return

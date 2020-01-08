@@ -1319,7 +1319,7 @@ gecko
 fxa
 .
 EnvironmentUtils
-.
+#
 GECKO_PREFS_IS_FIRST_RUN
 }
 .

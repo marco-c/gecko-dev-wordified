@@ -125,7 +125,7 @@ mozilla
 gecko
 .
 GeckoApp
-.
+#
 PREFS_IS_FIRST_RUN
 }
 .
@@ -162,8 +162,10 @@ mozilla
 .
 gecko
 .
-BrowserApp
+firstrun
 .
+OnboardingHelper
+#
 FIRSTRUN_UUID
 }
 .

@@ -157,15 +157,6 @@ mozilla
 .
 gecko
 .
-BrowserApp
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 Driver
 ;
 import
@@ -220,7 +211,7 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+GeckoProfile
 ;
 import
 org
@@ -229,7 +220,9 @@ mozilla
 .
 gecko
 .
-GeckoProfile
+firstrun
+.
+OnboardingHelper
 ;
 import
 org
@@ -832,7 +825,7 @@ intent
 .
 putExtra
 (
-BrowserApp
+OnboardingHelper
 .
 EXTRA_SKIP_STARTPANE
 true
