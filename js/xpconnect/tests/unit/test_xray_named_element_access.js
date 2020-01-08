@@ -110,12 +110,9 @@ window
 =
 webnav
 .
-getInterface
-(
-Ci
+document
 .
-nsIDOMWindow
-)
+defaultView
 ;
 let
 unwrapped
