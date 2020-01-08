@@ -363,7 +363,6 @@ CN
 zh
 -
 TW
-mix
 "
 .
 split

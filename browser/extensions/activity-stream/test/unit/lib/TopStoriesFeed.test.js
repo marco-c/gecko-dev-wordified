@@ -10361,7 +10361,7 @@ assert
 .
 isUndefined
 (
-this
+instance
 .
 affinityProvider
 )

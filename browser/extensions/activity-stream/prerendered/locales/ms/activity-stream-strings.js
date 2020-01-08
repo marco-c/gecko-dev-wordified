@@ -412,7 +412,7 @@ prefs_section_rows_option
 {
 num
 }
-rows
+baris
 "
 "
 prefs_search_header

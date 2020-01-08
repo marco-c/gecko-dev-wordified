@@ -269,8 +269,6 @@ prefs_home_header
 :
 "
 Firefox
-Home
-Content
 "
 "
 prefs_home_description
