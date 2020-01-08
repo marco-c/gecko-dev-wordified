@@ -623,17 +623,6 @@ come
 from
 an
 AutoEntryScript
-that
-has
-had
-/
-/
-TakeOwnershipOfErrorReporting
-(
-)
-called
-on
-it
 .
 ExecutionContext
 (
