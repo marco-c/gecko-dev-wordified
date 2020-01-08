@@ -2426,9 +2426,6 @@ AttemptAsyncScriptCompile
 ScriptLoadRequest
 *
 aRequest
-bool
-*
-aCouldCompileOut
 )
 ;
 nsresult
@@ -2734,12 +2731,12 @@ JS
 SourceBufferHolder
 GetScriptSource
 (
-JSContext
-*
-aCx
 ScriptLoadRequest
 *
 aRequest
+nsAutoString
+&
+inlineData
 )
 ;
 void
