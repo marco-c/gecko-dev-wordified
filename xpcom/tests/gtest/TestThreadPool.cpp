@@ -387,11 +387,6 @@ nsThreadPool
 (
 )
 ;
-EXPECT_TRUE
-(
-pool
-)
-;
 for
 (
 int
@@ -467,11 +462,6 @@ pool
 new
 nsThreadPool
 (
-)
-;
-EXPECT_TRUE
-(
-pool
 )
 ;
 /
