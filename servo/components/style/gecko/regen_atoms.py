@@ -216,6 +216,10 @@ DIRECTLY
 1
 :
 ]
+#
+NOQA
+:
+E501
 def
 gnu_symbolify
 (
@@ -558,6 +562,10 @@ CSS_WRAPPER_ANON_BOX
 \
 )
 '
+#
+NOQA
+:
+E501
                          
 re
 .

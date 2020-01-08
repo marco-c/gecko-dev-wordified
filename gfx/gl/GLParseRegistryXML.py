@@ -845,10 +845,10 @@ self
 write
 (
 [
-                    
+            
 '
 '
-                    
+            
 '
 #
 endif
@@ -856,7 +856,7 @@ endif
 /
 GLCONSTS_H_
 '
-                   
+        
 ]
 )
 #

@@ -635,6 +635,9 @@ of
 gecko_constant_prefix
 and
 gecko_enum_prefix
+"
+                            
+"
 can
 be
 specified
@@ -949,6 +952,7 @@ value
         
 moz_stripped
 =
+(
 value
 .
 replace
@@ -961,6 +965,7 @@ moz
 '
 '
 )
+                        
 if
 self
 .
@@ -979,6 +984,7 @@ moz
 moz
 -
 '
+)
 )
         
 mapped
@@ -1426,6 +1432,7 @@ False
 allow_quirks
 =
 False
+                 
 ignored_when_colors_disabled
 =
 False
