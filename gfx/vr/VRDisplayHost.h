@@ -566,7 +566,7 @@ aRightEyeRect
 elif
 defined
 (
-MOZ_ANDROID_GOOGLE_VR
+MOZ_WIDGET_ANDROID
 )
 virtual
 bool
@@ -579,9 +579,9 @@ mozilla
 layers
 :
 :
-EGLImageDescriptor
-*
-aDescriptor
+SurfaceTextureDescriptor
+&
+aSurface
 const
 gfx
 :
