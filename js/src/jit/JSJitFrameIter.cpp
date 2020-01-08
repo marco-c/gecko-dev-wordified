@@ -633,10 +633,8 @@ isScripted
 )
 &
 &
-(
 isFunctionFrame
 (
-)
 )
 )
 return
