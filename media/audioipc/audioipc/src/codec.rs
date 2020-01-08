@@ -1215,12 +1215,7 @@ usize
 ;
 buf
 .
-put_u16
-:
-:
-<
-LittleEndian
->
+put_u16_le
 (
 encoded_len
 as
