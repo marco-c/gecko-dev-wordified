@@ -195,13 +195,6 @@ mId
 Mutex
 mLock
 ;
-static
-StaticRefPtr
-<
-RedirectChannelRegistrar
->
-gSingleton
-;
 }
 ;
 }
