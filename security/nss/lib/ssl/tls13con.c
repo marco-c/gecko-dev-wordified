@@ -14515,6 +14515,17 @@ ss
 statelessResume
 )
 {
+PORT_Assert
+(
+sid
+-
+>
+version
+>
+=
+SSL_LIBRARY_VERSION_TLS_1_3
+)
+;
 if
 (
 tls13_GetHash
