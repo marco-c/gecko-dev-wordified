@@ -1096,11 +1096,6 @@ tel
 recordEvent
 (
 "
-devtools
-.
-main
-"
-"
 activate
 "
 "
@@ -1502,11 +1497,6 @@ t
 .
 recordEvent
 (
-"
-devtools
-.
-main
-"
 "
 deactivate
 "

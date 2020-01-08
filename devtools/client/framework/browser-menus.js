@@ -608,6 +608,7 @@ now
 ;
 sendEntryPointTelemetry
 (
+window
 )
 ;
 }
@@ -808,6 +809,7 @@ tab
 function
 sendEntryPointTelemetry
 (
+window
 )
 {
 if
@@ -828,11 +830,7 @@ telemetry
 .
 addEventProperty
 (
-"
-devtools
-.
-main
-"
+window
 "
 open
 "
@@ -851,11 +849,7 @@ telemetry
 .
 addEventProperty
 (
-"
-devtools
-.
-main
-"
+window
 "
 open
 "
