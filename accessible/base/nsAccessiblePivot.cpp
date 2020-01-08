@@ -744,10 +744,6 @@ nsIAccessiblePivot
 :
 :
 REASON_NONE
-nsIAccessiblePivot
-:
-:
-NO_BOUNDARY
 false
 )
 ;
@@ -1107,11 +1103,7 @@ oldEnd
 nsIAccessiblePivot
 :
 :
-REASON_NONE
-nsIAccessiblePivot
-:
-:
-NO_BOUNDARY
+REASON_TEXT
 (
 aArgc
 >
@@ -2488,8 +2480,7 @@ oldEnd
 nsIAccessiblePivot
 :
 :
-REASON_NEXT
-aBoundary
+REASON_TEXT
 (
 aArgc
 >
@@ -3387,8 +3378,7 @@ oldEnd
 nsIAccessiblePivot
 :
 :
-REASON_PREV
-aBoundary
+REASON_TEXT
 (
 aArgc
 >
@@ -3886,10 +3876,6 @@ oldPosition
 oldStart
 oldEnd
 aReason
-nsIAccessiblePivot
-:
-:
-NO_BOUNDARY
 aIsFromUserInput
 )
 ;
@@ -4897,8 +4883,6 @@ int32_t
 aOldEnd
 int16_t
 aReason
-int16_t
-aBoundaryType
 bool
 aIsFromUserInput
 )
@@ -4990,7 +4974,6 @@ mPosition
 mStartOffset
 mEndOffset
 aReason
-aBoundaryType
 aIsFromUserInput
 )
 ;

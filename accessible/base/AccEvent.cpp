@@ -2497,8 +2497,6 @@ int32_t
 aNewEnd
 int16_t
 aReason
-int16_t
-aBoundaryType
 EIsFromUserInput
 aIsFromUserInput
 )
@@ -2541,10 +2539,6 @@ aNewEnd
 mReason
 (
 aReason
-)
-mBoundaryType
-(
-aBoundaryType
 )
 {
 }
@@ -3011,12 +3005,6 @@ vcc
 -
 >
 Reason
-(
-)
-vcc
--
->
-BoundaryType
 (
 )
 )

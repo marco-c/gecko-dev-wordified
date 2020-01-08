@@ -278,8 +278,7 @@ ProxyAccessible
 *
 int32_t
 int32_t
-int16_t
-int16_t
+uint16_t
 bool
 )
 {

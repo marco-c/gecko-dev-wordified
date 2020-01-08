@@ -750,10 +750,6 @@ int16_t
 &
 aReason
 const
-int16_t
-&
-aBoundaryType
-const
 bool
 &
 aFromUser
