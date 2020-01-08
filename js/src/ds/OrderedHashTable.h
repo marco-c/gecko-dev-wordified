@@ -1034,7 +1034,10 @@ liveCount
 ;
 hashShift
 =
-HashNumberSizeBits
+js
+:
+:
+kHashNumberBits
 -
 initialBucketsLog2
 (
@@ -4566,7 +4569,10 @@ return
 <
 <
 (
-HashNumberSizeBits
+js
+:
+:
+kHashNumberBits
 -
 hashShift
 )
@@ -5114,7 +5120,10 @@ size_t
 <
 <
 (
-HashNumberSizeBits
+js
+:
+:
+kHashNumberBits
 -
 newHashShift
 )

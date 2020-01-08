@@ -1196,7 +1196,7 @@ hashShift
 value
 .
 return
-kHashBits
+kPLDHashNumberBits
 -
 log2
 ;
@@ -1719,7 +1719,7 @@ const
 uint32_t
 sizeLog2
 =
-kHashBits
+kPLDHashNumberBits
 -
 mHashShift
 ;
@@ -3022,7 +3022,7 @@ store
 int32_t
 oldLog2
 =
-kHashBits
+kPLDHashNumberBits
 -
 mHashShift
 ;
@@ -3115,7 +3115,7 @@ parameters
 .
 mHashShift
 =
-kHashBits
+kPLDHashNumberBits
 -
 newLog2
 ;
@@ -4322,7 +4322,7 @@ deltaLog2
 log2
 -
 (
-kHashBits
+kPLDHashNumberBits
 -
 mHashShift
 )
