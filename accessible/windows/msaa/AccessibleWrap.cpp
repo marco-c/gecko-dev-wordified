@@ -3074,6 +3074,7 @@ macRole
 \
 _msaaRole
 ia2Role
+androidClass
 nameRule
 )
 \
