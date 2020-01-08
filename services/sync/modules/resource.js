@@ -196,6 +196,12 @@ this
 "
 fetch
 "
+"
+Headers
+"
+"
+Request
+"
 ]
 )
 ;
