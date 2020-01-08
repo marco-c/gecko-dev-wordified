@@ -226,6 +226,7 @@ n
 const
 target
 =
+await
 TargetFactory
 .
 forTab

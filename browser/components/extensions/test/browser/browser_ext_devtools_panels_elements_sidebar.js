@@ -886,6 +886,7 @@ startup
 let
 target
 =
+await
 devtools
 .
 TargetFactory

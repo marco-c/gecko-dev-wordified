@@ -215,6 +215,7 @@ TEST_URL
 .
 then
 (
+async
 (
 )
 =
@@ -222,6 +223,7 @@ then
 {
 target
 =
+await
 TargetFactory
 .
 forTab

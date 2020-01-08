@@ -2601,6 +2601,7 @@ url
 const
 target
 =
+await
 TargetFactory
 .
 forTab

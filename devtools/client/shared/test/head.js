@@ -1015,6 +1015,7 @@ i
 const
 target
 =
+await
 TargetFactory
 .
 forTab
