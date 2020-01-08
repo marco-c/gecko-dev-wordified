@@ -1391,6 +1391,13 @@ BlendMethod
 :
 OVER
 )
+mFormat
+(
+SurfaceFormat
+:
+:
+UNKNOWN
+)
 mPalettedImageData
 (
 nullptr
