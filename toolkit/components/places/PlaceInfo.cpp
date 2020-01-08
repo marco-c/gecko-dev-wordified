@@ -682,10 +682,13 @@ nsIXPConnect
 >
 xpc
 =
-nsIXPConnect
+mozilla
 :
 :
-XPConnect
+services
+:
+:
+GetXPConnect
 (
 )
 ;

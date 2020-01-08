@@ -3622,11 +3622,14 @@ nsIXPConnect
 >
 xpc
 (
+do_GetService
+(
 nsIXPConnect
 :
 :
-XPConnect
+GetCID
 (
+)
 )
 )
 ;

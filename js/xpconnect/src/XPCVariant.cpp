@@ -2258,11 +2258,11 @@ more
 interesting
 iface
 .
-nsIXPConnect
+nsXPConnect
 *
 xpc
 =
-nsIXPConnect
+nsXPConnect
 :
 :
 XPConnect

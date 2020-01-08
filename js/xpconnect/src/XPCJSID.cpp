@@ -4549,11 +4549,11 @@ if
 iid
 )
 {
-nsIXPConnect
+nsXPConnect
 *
 xpc
 =
-nsIXPConnect
+nsXPConnect
 :
 :
 XPConnect
