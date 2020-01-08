@@ -5389,6 +5389,13 @@ AnimationAdded
 mAnimation
 )
 ;
+mAnimation
+-
+>
+ReschedulePendingTasks
+(
+)
+;
 }
 }
 }
