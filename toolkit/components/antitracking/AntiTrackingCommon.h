@@ -944,6 +944,15 @@ nsIPrincipal
 aPrincipal
 )
 ;
+static
+bool
+HasUserInteraction
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 /
 /
 For
