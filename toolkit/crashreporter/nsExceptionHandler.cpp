@@ -7405,7 +7405,15 @@ GetMinidumpType
 MINIDUMP_TYPE
 minidump_type
 =
+static_cast
+<
+MINIDUMP_TYPE
+>
+(
 MiniDumpWithFullMemoryInfo
+|
+MiniDumpWithUnloadedModules
+)
 ;
 #
 ifdef
@@ -7439,8 +7447,6 @@ MINIDUMP_TYPE
 >
 (
 minidump_type
-|
-MiniDumpWithUnloadedModules
 |
 MiniDumpWithProcessThreadData
 )
