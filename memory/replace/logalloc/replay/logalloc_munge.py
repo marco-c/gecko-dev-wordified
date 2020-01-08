@@ -380,6 +380,7 @@ Ignored
 Exception
 )
 :
+    
 pass
 def
 split_log_line
@@ -666,7 +667,7 @@ pointers
 IdMapping
 (
 )
-                                      
+                                     
 '
 tids
 '
@@ -955,7 +956,7 @@ join
 (
 args
 )
-                
+                                      
 '
 =
 %

@@ -427,7 +427,7 @@ numBlocks
 0
 and
 \
-               
+            
 self
 .
 reqSize
@@ -436,7 +436,7 @@ reqSize
 0
 and
 \
-               
+            
 self
 .
 slopSize
@@ -445,7 +445,7 @@ slopSize
 0
 and
 \
-               
+            
 self
 .
 usableSize
@@ -454,7 +454,7 @@ usableSize
 0
 and
 \
-               
+            
 len
 (
 self
@@ -789,7 +789,7 @@ usableSize
 )
 or
 \
-               
+            
 Record
 .
 cmpByReqSize
@@ -905,7 +905,7 @@ numBlocks
 )
 or
 \
-               
+            
 Record
 .
 cmpByUsableSize
@@ -1624,11 +1624,13 @@ fix_stack_using_bpsyms
 as
 fixModule
         
+def
 fix
-=
-lambda
+(
 line
+)
 :
+return
 fixModule
 .
 fixSymbols
@@ -1651,11 +1653,13 @@ fix_linux_stack
 as
 fixModule
         
+def
 fix
-=
-lambda
+(
 line
+)
 :
+return
 fixModule
 .
 fixSymbols
@@ -1677,11 +1681,13 @@ fix_macosx_stack
 as
 fixModule
         
+def
 fix
-=
-lambda
+(
 line
+)
 :
+return
 fixModule
 .
 fixSymbols
@@ -3504,11 +3510,13 @@ reportedAtDescs
 ]
 :
                 
+def
 f
-=
-lambda
+(
 k
+)
 :
+return
 buildTraceDescription
 (
 traceTable
@@ -3961,7 +3969,7 @@ d1
 liveOrCumulativeRecords
 '
 ]
-                              
+                        
 d2
 [
 '
@@ -4002,7 +4010,7 @@ d1
 unreportedRecords
 '
 ]
-                                                       
+                                              
 d2
 [
 '
@@ -4027,7 +4035,7 @@ d1
 onceReportedRecords
 '
 ]
-                                                       
+                                                
 d2
 [
 '
@@ -4052,7 +4060,7 @@ d1
 twiceReportedRecords
 '
 ]
-                                                       
+                                                 
 d2
 [
 '
@@ -4630,9 +4638,9 @@ slopSize
 )
 )
             
+def
 abscmp
-=
-lambda
+(
 (
 usableSize1
 _1
@@ -4641,9 +4649,11 @@ _1
 usableSize2
 _2
 )
+)
 :
+return
 \
-                            
+                
 cmp
 (
 abs
@@ -6460,6 +6470,7 @@ stderr
 .
 write
 (
+            
 '
 Number
 of
@@ -6504,6 +6515,7 @@ blocks
 :
 '
 +
+                         
 str
 (
 self
@@ -6540,6 +6552,7 @@ null
 :
 '
 +
+                         
 str
 (
 self
