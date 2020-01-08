@@ -430,7 +430,7 @@ aDescriptor
 ;
 NS_ENSURE_TRUE
 (
-reg
+info
 nullptr
 )
 ;
