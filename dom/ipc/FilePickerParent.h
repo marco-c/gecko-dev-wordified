@@ -207,6 +207,13 @@ mMode
 (
 aMode
 )
+mResult
+(
+nsIFilePicker
+:
+:
+returnOK
+)
 {
 }
 virtual

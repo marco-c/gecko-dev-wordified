@@ -159,6 +159,15 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
+Performance
+(
+aWorkerPrivate
+-
+>
+UsesSystemPrincipal
+(
+)
+)
 mWorkerPrivate
 (
 aWorkerPrivate

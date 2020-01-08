@@ -730,9 +730,6 @@ nsISupports
 mData
 ;
 bool
-mInitialized
-;
-bool
 mHoldingJSVal
 ;
 JS

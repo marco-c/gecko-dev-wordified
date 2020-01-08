@@ -732,6 +732,7 @@ for
 optimization
 purposes
 .
+MOZ_INIT_OUTSIDE_CTOR
 nsString
 :
 :
@@ -749,6 +750,7 @@ for
 optimization
 purposes
 .
+MOZ_INIT_OUTSIDE_CTOR
 nsString
 :
 :

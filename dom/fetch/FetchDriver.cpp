@@ -2148,6 +2148,10 @@ mIsTrackingFetch
 (
 aIsTrackingFetch
 )
+mOnStopRequestCalled
+(
+false
+)
 #
 ifdef
 DEBUG

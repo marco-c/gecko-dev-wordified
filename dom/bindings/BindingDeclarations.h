@@ -2621,6 +2621,7 @@ for
 optimization
 purposes
 .
+MOZ_INIT_OUTSIDE_CTOR
 T
 *
 ptr

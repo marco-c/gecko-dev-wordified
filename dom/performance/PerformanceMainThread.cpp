@@ -367,11 +367,14 @@ aDOMTiming
 nsITimedChannel
 *
 aChannel
+bool
+aPrincipal
 )
 :
 Performance
 (
 aWindow
+aPrincipal
 )
 mDOMTiming
 (

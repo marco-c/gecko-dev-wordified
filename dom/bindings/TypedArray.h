@@ -1387,6 +1387,16 @@ ArrayBufferView_base
 Base
 (
 )
+mType
+(
+js
+:
+:
+Scalar
+:
+:
+MaxTypedArrayViewType
+)
 {
 }
 ArrayBufferView_base

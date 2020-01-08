@@ -1470,6 +1470,10 @@ mLoadTotal
 -
 1
 )
+mLoadTransferred
+(
+0
+)
 mIsSystem
 (
 false

@@ -970,6 +970,16 @@ mUpdateViaCache
 (
 aUpdateViaCache
 )
+mOnFailure
+(
+serviceWorkerScriptCache
+:
+:
+OnFailure
+:
+:
+DoNothing
+)
 {
 }
 ServiceWorkerUpdateJob
