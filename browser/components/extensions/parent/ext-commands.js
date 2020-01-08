@@ -2537,6 +2537,9 @@ commands
 .
 onCommand
 "
+inputHandling
+:
+true
 register
 :
 fire
