@@ -389,11 +389,9 @@ pattern
 va_list
 ap
 ;
-static
 const
 char
 *
-const
 outdir
 =
 getenv
