@@ -21253,7 +21253,7 @@ QueryInterface
 (
 Ci
 .
-nsITransportSecurityInfo
+nsISSLStatusProvider
 )
 .
 SSLStatus
