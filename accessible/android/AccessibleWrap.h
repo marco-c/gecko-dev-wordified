@@ -323,6 +323,14 @@ int32_t
 aID
 )
 ;
+static
+int32_t
+GetAndroidClass
+(
+role
+aRole
+)
+;
 int32_t
 mID
 ;
@@ -338,7 +346,7 @@ aDOMNodeID
 ;
 static
 void
-GetAndroidRoleAndClass
+GetRoleDescription
 (
 role
 aRole
@@ -348,9 +356,6 @@ aGeckoRole
 nsAString
 &
 aRoleDescription
-nsAString
-&
-aClassStr
 )
 ;
 static
