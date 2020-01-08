@@ -1127,9 +1127,12 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Eikotev
+pete
+anduti
+veve
+oik
+va
 "
 "
 firstrun_extra_legal_links

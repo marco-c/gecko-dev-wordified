@@ -623,8 +623,8 @@ q
 s
 hif
 nizi
-z
-ll
+f
+rdil
 dirin
 "
 "
