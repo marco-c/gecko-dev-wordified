@@ -15003,7 +15003,7 @@ nsXPCComponents_Utils
 :
 NukeSandbox
 "
-JS
+OTHER
 )
 ;
 NS_ENSURE_TRUE
