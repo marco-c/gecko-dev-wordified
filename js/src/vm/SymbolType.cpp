@@ -212,9 +212,10 @@ hash
 JSAtom
 *
 description
-AutoLockForExclusiveAccess
+const
+AutoAccessAtomsZone
 &
-lock
+access
 )
 {
 MOZ_ASSERT
@@ -232,7 +233,7 @@ cx
 >
 atomsZone
 (
-lock
+access
 )
 )
 ;

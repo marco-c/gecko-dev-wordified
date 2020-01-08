@@ -18007,9 +18007,9 @@ mozilla
 MallocSizeOf
 mallocSizeOf
 const
-AutoLockForExclusiveAccess
+AutoAccessAtomsZone
 &
-lock
+access
 )
 const
 {

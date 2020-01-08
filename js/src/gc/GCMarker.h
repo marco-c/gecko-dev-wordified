@@ -154,6 +154,9 @@ namespace
 js
 {
 class
+AutoAccessAtomsZone
+;
+class
 WeakMapBase
 ;
 static
@@ -1641,9 +1644,9 @@ mozilla
 MallocSizeOf
 mallocSizeOf
 const
-AutoLockForExclusiveAccess
+AutoAccessAtomsZone
 &
-lock
+access
 )
 const
 ;

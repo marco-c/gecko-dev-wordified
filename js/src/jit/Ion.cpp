@@ -3522,9 +3522,10 @@ Trace
 JSTracer
 *
 trc
-AutoLockForExclusiveAccess
+const
+AutoAccessAtomsZone
 &
-lock
+access
 )
 {
 MOZ_ASSERT
@@ -3597,7 +3598,7 @@ runtime
 >
 atomsZone
 (
-lock
+access
 )
 ;
 for

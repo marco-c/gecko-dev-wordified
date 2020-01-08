@@ -471,7 +471,6 @@ ifdef
 DEBUG
 gcLastSweepGroupIndex
 (
-this
 0
 )
 #
@@ -491,7 +490,6 @@ false
 )
 gcPreserveCode_
 (
-this
 false
 )
 keepShapeTables_

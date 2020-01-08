@@ -253,6 +253,9 @@ namespace
 js
 {
 class
+AutoAccessAtomsZone
+;
+class
 AutoLockGC
 ;
 class
@@ -3608,9 +3611,6 @@ reason
 bool
 *
 isFullOut
-AutoLockForExclusiveAccess
-&
-lock
 )
 ;
 bool
@@ -3653,9 +3653,10 @@ traceRuntimeAtoms
 JSTracer
 *
 trc
-AutoLockForExclusiveAccess
+const
+AutoAccessAtomsZone
 &
-lock
+atomsAccess
 )
 ;
 void
@@ -3674,9 +3675,6 @@ JSTracer
 trc
 TraceOrMarkRuntime
 traceOrMark
-AutoTraceSession
-&
-session
 )
 ;
 void

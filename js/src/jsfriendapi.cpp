@@ -8064,8 +8064,6 @@ dtrc
 prep
 .
 session
-(
-)
 )
 ;
 }

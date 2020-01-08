@@ -1770,15 +1770,6 @@ trace
 JSTracer
 *
 trc
-js
-:
-:
-gc
-:
-:
-AutoTraceSession
-&
-session
 )
 ;
 JSScript

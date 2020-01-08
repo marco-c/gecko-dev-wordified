@@ -412,7 +412,7 @@ cellCallback
 )
 {
 AutoPrepareForTracing
-prop
+prep
 (
 cx
 )
@@ -501,7 +501,7 @@ cellCallback
 )
 {
 AutoPrepareForTracing
-prop
+prep
 (
 cx
 )

@@ -4189,7 +4189,7 @@ DEBUG
 js
 :
 :
-ZoneData
+MainThreadData
 <
 unsigned
 >
@@ -5384,7 +5384,7 @@ private
 js
 :
 :
-ZoneData
+ZoneOrGCTaskData
 <
 js
 :
@@ -5418,7 +5418,7 @@ gcScheduledSaved_
 js
 :
 :
-ZoneData
+MainThreadData
 <
 bool
 >
