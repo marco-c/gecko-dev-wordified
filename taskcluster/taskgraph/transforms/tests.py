@@ -4499,11 +4499,16 @@ test
 suite
 '
 ]
-!
-=
+not
+in
+[
 '
 talos
 '
+'
+raptor
+'
+]
 :
             
 yield
@@ -4511,6 +4516,20 @@ test
             
 continue
         
+if
+test
+[
+'
+suite
+'
+]
+=
+=
+'
+talos
+'
+:
+            
 extra_options
 =
 test
@@ -4534,7 +4553,7 @@ options
 [
 ]
 )
-        
+            
 extra_options
 .
 append
@@ -4638,6 +4657,18 @@ for
 try
         
 if
+test
+[
+'
+suite
+'
+]
+=
+=
+'
+talos
+'
+and
 config
 .
 params
@@ -9743,11 +9774,15 @@ suite
 '
 '
 )
-=
-=
+in
+[
 '
 talos
 '
+'
+raptor
+'
+]
 and
 \
                  
