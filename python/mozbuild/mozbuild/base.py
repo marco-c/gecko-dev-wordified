@@ -5399,12 +5399,12 @@ self
 pipfile
 =
 None
-args
-=
-None
 populate
 =
 False
+python
+=
+None
 )
 :
         
@@ -5454,8 +5454,8 @@ virtualenv_manager
 activate_pipenv
 (
 pipfile
-args
 populate
+python
 )
 class
 MachCommandBase
