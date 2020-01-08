@@ -1329,9 +1329,6 @@ socket
 used
 .
 trackDevices
-:
-function
-adb_trackDevices
 (
 )
 {
@@ -2042,9 +2039,6 @@ device
 names
 .
 listDevices
-:
-function
-adb_listDevices
 (
 )
 {
@@ -2158,9 +2152,6 @@ forward
 localPort
 devicePort
 forwardPort
-:
-function
-adb_forwardPort
 (
 localPort
 devicePort
@@ -2356,9 +2347,6 @@ hex4
 0
 )
 pull
-:
-function
-adb_pull
 (
 from
 dest
@@ -3799,9 +3787,6 @@ before
 sending
 .
 push
-:
-function
-adb_push
 (
 from
 dest
@@ -4858,9 +4843,6 @@ a
 shell
 command
 shell
-:
-function
-adb_shell
 (
 command
 )
@@ -5368,9 +5350,6 @@ promise
 ;
 }
 reboot
-:
-function
-adb_reboot
 (
 )
 {
@@ -5386,9 +5365,6 @@ reboot
 ;
 }
 rebootRecovery
-:
-function
-adb_rebootRecovery
 (
 )
 {
@@ -5405,9 +5381,6 @@ recovery
 ;
 }
 rebootBootloader
-:
-function
-adb_rebootBootloader
 (
 )
 {
@@ -5424,9 +5397,6 @@ bootloader
 ;
 }
 root
-:
-function
-adb_root
 (
 )
 {
@@ -5873,9 +5843,6 @@ SERVICES
 .
 TXT
 runCommand
-:
-function
-adb_runCommand
 (
 command
 )
