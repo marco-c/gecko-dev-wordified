@@ -947,11 +947,6 @@ Reference
 TypeKind
 :
 :
-BlockPointer
-|
-TypeKind
-:
-:
 TypeParam
 |
 TypeKind
@@ -1130,6 +1125,14 @@ TypeKind
 :
 :
 Alias
+(
+t
+)
+|
+TypeKind
+:
+:
+BlockPointer
 (
 t
 )

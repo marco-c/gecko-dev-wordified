@@ -649,11 +649,6 @@ UnresolvedTypeRef
 TypeKind
 :
 :
-BlockPointer
-|
-TypeKind
-:
-:
 Reference
 (
 .
@@ -887,6 +882,14 @@ TypeKind
 :
 :
 Alias
+(
+t
+)
+|
+TypeKind
+:
+:
+BlockPointer
 (
 t
 )

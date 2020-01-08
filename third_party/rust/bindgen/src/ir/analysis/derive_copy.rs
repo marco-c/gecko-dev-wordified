@@ -1190,6 +1190,9 @@ opaque
 .
 can_trivially_derive_copy
 (
+self
+.
+ctx
 )
 }
 )
@@ -1345,11 +1348,6 @@ TypeKind
 :
 :
 TypeParam
-|
-TypeKind
-:
-:
-BlockPointer
 |
 TypeKind
 :
@@ -1532,6 +1530,14 @@ TypeKind
 :
 :
 Alias
+(
+t
+)
+|
+TypeKind
+:
+:
+BlockPointer
 (
 t
 )

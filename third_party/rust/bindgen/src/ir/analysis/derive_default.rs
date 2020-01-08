@@ -1252,6 +1252,9 @@ opaque
 .
 can_trivially_derive_default
 (
+self
+.
+ctx
 )
 }
 )
@@ -1550,11 +1553,6 @@ Pointer
 TypeKind
 :
 :
-BlockPointer
-|
-TypeKind
-:
-:
 ObjCId
 |
 TypeKind
@@ -1721,6 +1719,14 @@ TypeKind
 :
 :
 Alias
+(
+t
+)
+|
+TypeKind
+:
+:
+BlockPointer
 (
 t
 )
@@ -1933,6 +1939,9 @@ opaque
 .
 can_trivially_derive_default
 (
+self
+.
+ctx
 )
 }
 )

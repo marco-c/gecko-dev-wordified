@@ -1816,11 +1816,6 @@ NullPtr
 TypeKind
 :
 :
-BlockPointer
-|
-TypeKind
-:
-:
 ObjCId
 |
 TypeKind
@@ -1927,6 +1922,14 @@ TypeKind
 :
 :
 Alias
+(
+t
+)
+|
+TypeKind
+:
+:
+BlockPointer
 (
 t
 )
