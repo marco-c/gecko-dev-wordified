@@ -293,6 +293,7 @@ true
 )
 ;
 }
+async
 function
 reloadBlocklist
 (
@@ -317,6 +318,11 @@ setBoolPref
 PREF_BLOCKLIST_ENABLED
 true
 )
+;
+await
+Blocklist
+.
+_lastUpdate
 ;
 }
 function
@@ -574,6 +580,7 @@ promiseStartupManager
 (
 )
 ;
+await
 reloadBlocklist
 (
 )
@@ -683,6 +690,7 @@ promiseStartupManager
 (
 )
 ;
+await
 reloadBlocklist
 (
 )
@@ -794,6 +802,7 @@ promiseStartupManager
 (
 )
 ;
+await
 reloadBlocklist
 (
 )
@@ -907,6 +916,7 @@ promiseStartupManager
 (
 )
 ;
+await
 reloadBlocklist
 (
 )
@@ -1054,6 +1064,7 @@ promiseStartupManager
 (
 )
 ;
+await
 reloadBlocklist
 (
 )
