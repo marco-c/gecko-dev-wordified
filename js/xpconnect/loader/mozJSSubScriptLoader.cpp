@@ -1123,7 +1123,7 @@ return
 JS
 :
 :
-Compile
+CompileLatin1
 (
 cx
 options
@@ -1137,7 +1137,7 @@ return
 JS
 :
 :
-CompileForNonSyntacticScope
+CompileLatin1ForNonSyntacticScope
 (
 cx
 options

@@ -472,7 +472,7 @@ true
 ;
 CHECK
 (
-CompileForNonSyntacticScope
+CompileLatin1ForNonSyntacticScope
 (
 cx
 options
