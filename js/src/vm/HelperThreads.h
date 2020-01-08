@@ -3619,8 +3619,10 @@ script
 .
 Vector
 <
+UniquePtr
+<
 CompileError
-*
+>
 0
 SystemAllocPolicy
 >
