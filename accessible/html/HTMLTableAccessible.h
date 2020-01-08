@@ -482,7 +482,7 @@ class
 HTMLTableRowAccessible
 :
 public
-AccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -496,7 +496,7 @@ DocAccessible
 aDoc
 )
 :
-AccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -515,7 +515,7 @@ eTableRow
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLTableRowAccessible
-AccessibleWrap
+HyperTextAccessibleWrap
 )
 /
 /
@@ -611,7 +611,7 @@ class
 HTMLTableAccessible
 :
 public
-AccessibleWrap
+HyperTextAccessibleWrap
 public
 TableAccessible
 {
@@ -627,7 +627,7 @@ DocAccessible
 aDoc
 )
 :
-AccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -646,7 +646,7 @@ eTable
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 HTMLTableAccessible
-AccessibleWrap
+HyperTextAccessibleWrap
 )
 /
 /

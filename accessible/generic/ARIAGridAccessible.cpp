@@ -430,7 +430,7 @@ DocAccessible
 aDoc
 )
 :
-AccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -3377,7 +3377,7 @@ DocAccessible
 aDoc
 )
 :
-AccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
