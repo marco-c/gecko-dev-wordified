@@ -2350,9 +2350,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 ;
 }
 /

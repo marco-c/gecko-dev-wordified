@@ -673,14 +673,13 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 [
 EXPECTED
 .
 locale
 ]
-)
 ;
 /
 /

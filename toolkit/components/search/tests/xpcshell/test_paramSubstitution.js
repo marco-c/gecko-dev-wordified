@@ -281,9 +281,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 )
 ;
 check
@@ -298,9 +296,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 )
 ;
 engine
@@ -677,9 +673,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 )
 ;
 }

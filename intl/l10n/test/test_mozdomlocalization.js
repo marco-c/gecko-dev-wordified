@@ -119,9 +119,7 @@ Services
 .
 locale
 .
-getRequestedLocales
-(
-)
+requestedLocales
 ;
 /
 /
@@ -731,10 +729,9 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 originalRequested
-)
 ;
 }
 )

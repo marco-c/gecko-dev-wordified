@@ -960,9 +960,7 @@ Services
 .
 locale
 .
-getPackagedLocales
-(
-)
+packagedLocales
 ;
 const
 greSource
@@ -1021,14 +1019,13 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 [
 aData
 .
 languageTag
 ]
-)
 "
 GeckoView
 :

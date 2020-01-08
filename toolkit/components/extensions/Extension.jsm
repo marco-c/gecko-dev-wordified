@@ -10380,9 +10380,7 @@ Services
 .
 locale
 .
-getAppLocaleAsLangTag
-(
-)
+appLocaleAsLangTag
 ]
 ;
 }
@@ -11760,9 +11758,7 @@ Services
 .
 locale
 .
-getAppLocalesAsLangTags
-(
-)
+appLocalesAsLangTags
 Array
 .
 from

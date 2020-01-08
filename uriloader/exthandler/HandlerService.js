@@ -591,9 +591,7 @@ Services
 .
 locale
 .
-getAppLocaleAsLangTag
-(
-)
+appLocaleAsLangTag
 ;
 let
 defaultHandlersVersion

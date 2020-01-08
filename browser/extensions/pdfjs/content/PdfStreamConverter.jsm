@@ -1968,9 +1968,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 |
 |
 "

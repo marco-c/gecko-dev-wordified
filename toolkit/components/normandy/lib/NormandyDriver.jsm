@@ -424,8 +424,6 @@ Services
 locale
 .
 getAppLocaleAsLangTag
-(
-)
 ;
 }
 return

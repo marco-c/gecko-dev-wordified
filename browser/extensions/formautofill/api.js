@@ -433,9 +433,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 ;
 let
 region

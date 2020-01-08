@@ -1345,13 +1345,7 @@ Services
 .
 locale
 .
-getAppLocalesAsLangTags
-(
-)
-.
-pop
-(
-)
+appLocaleAsLangTag
 ;
 let
 profileCreationDate

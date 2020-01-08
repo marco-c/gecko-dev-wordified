@@ -3414,10 +3414,9 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 locales
-)
 ;
 await
 promiseRestartManager

@@ -2359,9 +2359,7 @@ Services
 .
 locale
 .
-getRequestedLocales
-(
-)
+requestedLocales
 ;
 /
 *

@@ -502,8 +502,8 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 [
 "
 fr
@@ -511,7 +511,6 @@ fr
 FR
 "
 ]
-)
 ;
 }
 )

@@ -1100,8 +1100,8 @@ Services
 .
 locale
 .
-setAvailableLocales
-(
+availableLocales
+=
 [
 "
 ab
@@ -1109,14 +1109,13 @@ ab
 CD
 "
 ]
-)
 ;
 Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 [
 "
 ab
@@ -1124,7 +1123,6 @@ ab
 CD
 "
 ]
-)
 ;
 Assert
 .

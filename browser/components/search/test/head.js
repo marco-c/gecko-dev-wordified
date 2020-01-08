@@ -212,9 +212,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 |
 |
 undefined

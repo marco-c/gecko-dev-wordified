@@ -2401,9 +2401,7 @@ Services
 .
 locale
 .
-getAppLocaleAsLangTag
-(
-)
+appLocaleAsLangTag
 user_prefs
 :
 this
@@ -2849,9 +2847,7 @@ Services
 .
 locale
 .
-getAppLocaleAsLangTag
-(
-)
+appLocaleAsLangTag
 impression_id
 :
 this

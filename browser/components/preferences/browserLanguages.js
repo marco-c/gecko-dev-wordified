@@ -1345,9 +1345,7 @@ Services
 .
 locale
 .
-getPackagedLocales
-(
-)
+packagedLocales
 )
 ;
 let
@@ -1490,9 +1488,7 @@ Services
 .
 locale
 .
-getRequestedLocales
-(
-)
+requestedLocales
 ;
 let
 requestedSet
@@ -1510,9 +1506,7 @@ Services
 .
 locale
 .
-getAvailableLocales
-(
-)
+availableLocales
 .
 filter
 (

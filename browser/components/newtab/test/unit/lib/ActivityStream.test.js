@@ -2863,7 +2863,7 @@ Services
 .
 locale
 "
-getAppLocaleAsLangTag
+appLocaleAsLangTag
 "
 )
 .
@@ -2972,7 +2972,7 @@ Services
 .
 locale
 "
-getAppLocaleAsLangTag
+appLocaleAsLangTag
 "
 )
 .
@@ -3098,7 +3098,7 @@ Services
 .
 locale
 "
-getAppLocaleAsLangTag
+appLocaleAsLangTag
 "
 )
 .
@@ -3406,7 +3406,7 @@ Services
 .
 locale
 "
-getAppLocaleAsLangTag
+appLocaleAsLangTag
 "
 )
 .

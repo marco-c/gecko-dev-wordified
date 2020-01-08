@@ -6229,9 +6229,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 ;
 }
 /
@@ -24220,9 +24218,7 @@ Services
 .
 locale
 .
-getAppLocaleAsBCP47
-(
-)
+appLocaleAsBCP47
 ;
 if
 (
