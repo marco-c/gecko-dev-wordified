@@ -86,8 +86,6 @@ moves
 urllib
 import
 parse
-import
-six
 __all__
 =
 [
@@ -1956,11 +1954,10 @@ for
 perm
 allow
 in
-six
+permissions
 .
 iteritems
 (
-permissions
 )
 :
                 
