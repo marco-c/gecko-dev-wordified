@@ -2142,7 +2142,6 @@ push_stacking_context
 &
 info
 None
-None
 api
 :
 :
@@ -2150,7 +2149,6 @@ TransformStyle
 :
 :
 Flat
-None
 api
 :
 :

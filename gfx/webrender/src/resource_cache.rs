@@ -4125,6 +4125,16 @@ bother
 requesting
 unchanged
 tiles
+self
+.
+pending_image_requests
+.
+remove
+(
+&
+request
+)
+;
 return
 }
 }

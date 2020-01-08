@@ -386,9 +386,7 @@ set_window_parameters
 (
 framebuffer_size
 bounds
-1
-.
-0
+device_pixel_ratio
 )
 ;
 txn
@@ -596,12 +594,10 @@ doc
 content_rect
 )
 None
-None
 TransformStyle
 :
 :
 Flat
-None
 MixBlendMode
 :
 :
