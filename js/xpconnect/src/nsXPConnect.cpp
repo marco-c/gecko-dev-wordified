@@ -1102,6 +1102,7 @@ InitSelfHostedCode
 cx
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1110,6 +1111,7 @@ failed
 "
 )
 ;
+}
 if
 (
 !
@@ -1124,6 +1126,7 @@ InitializeStrings
 cx
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1132,6 +1135,7 @@ failed
 "
 )
 ;
+}
 /
 /
 Initialize
@@ -1262,6 +1266,7 @@ aReport
 >
 filename
 )
+{
 mFileName
 .
 SetIsVoid
@@ -1269,7 +1274,9 @@ SetIsVoid
 true
 )
 ;
+}
 else
+{
 CopyUTF8toUTF16
 (
 mozilla
@@ -1285,6 +1292,7 @@ filename
 mFileName
 )
 ;
+}
 mLineNumber
 =
 aReport
@@ -1529,8 +1537,10 @@ length
 fallible
 )
 )
+{
 return
 ;
+}
 size_t
 i
 =
@@ -1765,8 +1775,10 @@ DumpEnabled
 (
 )
 )
+{
 return
 ;
+}
 nsAutoCString
 error
 ;
@@ -1829,8 +1841,10 @@ DumpEnabled
 (
 )
 )
+{
 return
 ;
+}
 nsAutoCString
 error
 ;
@@ -1850,6 +1864,7 @@ JSREPORT_IS_STRICT
 mFlags
 )
 )
+{
 error
 .
 AppendLiteral
@@ -1859,6 +1874,7 @@ strict
 "
 )
 ;
+}
 if
 (
 JSREPORT_IS_WARNING
@@ -1866,6 +1882,7 @@ JSREPORT_IS_WARNING
 mFlags
 )
 )
+{
 error
 .
 AppendLiteral
@@ -1876,7 +1893,9 @@ warning
 "
 )
 ;
+}
 else
+{
 error
 .
 AppendLiteral
@@ -1887,6 +1906,7 @@ error
 "
 )
 ;
+}
 AppendErrorDetailsTo
 (
 error
@@ -2036,8 +2056,10 @@ HasDivergedFromRecording
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 aStack
@@ -2418,6 +2440,7 @@ message
 (
 )
 )
+{
 aString
 .
 Append
@@ -2437,6 +2460,7 @@ c_str
 )
 )
 ;
+}
 }
 /
 *
@@ -2899,6 +2923,7 @@ flags
 &
 JSCLASS_DOM_GLOBAL
 )
+{
 mozilla
 :
 :
@@ -2911,6 +2936,7 @@ trc
 obj
 )
 ;
+}
 /
 /
 We
@@ -2982,6 +3008,7 @@ realmPrivate
 >
 scope
 )
+{
 realmPrivate
 -
 >
@@ -2993,6 +3020,7 @@ TraceInside
 trc
 )
 ;
+}
 }
 namespace
 xpc
@@ -3095,9 +3123,11 @@ if
 !
 global
 )
+{
 return
 nullptr
 ;
+}
 JSAutoRealm
 ar
 (
@@ -3452,6 +3482,7 @@ if
 (
 isSystem
 )
+{
 aOptions
 .
 behaviors
@@ -3467,6 +3498,7 @@ set
 true
 )
 ;
+}
 }
 }
 bool
@@ -3625,12 +3657,14 @@ xpc
 DONT_FIRE_ONNEWGLOBALHOOK
 )
 )
+{
 JS_FireOnNewGlobalObject
 (
 aJSContext
 aGlobal
 )
 ;
+}
 return
 true
 ;
@@ -3839,12 +3873,14 @@ global
 aFlags
 )
 )
+{
 return
 UnexpectedFailure
 (
 NS_ERROR_FAILURE
 )
 ;
+}
 aNewGlobal
 .
 set
@@ -3919,9 +3955,11 @@ aAllowWrapping
 rv
 )
 )
+{
 return
 rv
 ;
+}
 MOZ_ASSERT
 (
 aAllowWrapping
@@ -4047,9 +4085,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 if
 (
 !
@@ -4059,9 +4099,11 @@ isObjectOrNull
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 *
 aRetVal
 =
@@ -4560,9 +4602,11 @@ if
 !
 reflector
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Try
@@ -4593,9 +4637,11 @@ if
 !
 wn
 )
+{
 return
 nullptr
 ;
+}
 nsCOMPtr
 <
 nsISupports
@@ -4821,9 +4867,11 @@ if
 !
 sandboxArg
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 RootedObject
 sandbox
 (
@@ -4989,9 +5037,11 @@ if
 !
 depth
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 !
@@ -5368,9 +5418,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 return
 NS_ERROR_FAILURE
 ;
@@ -5444,9 +5496,11 @@ if
 _retval
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 return
 NS_OK
 ;
@@ -5549,9 +5603,11 @@ if
 !
 str
 )
+{
 return
 false
 ;
+}
 out
 .
 setString
@@ -5658,9 +5714,11 @@ if
 !
 str
 )
+{
 return
 false
 ;
+}
 out
 .
 setString
@@ -5846,9 +5904,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 TranscodeBuffer
 buffer
 ;
@@ -5860,6 +5920,7 @@ if
 (
 functionObj
 )
+{
 code
 =
 EncodeInterpretedFunction
@@ -5869,7 +5930,9 @@ buffer
 functionObj
 )
 ;
+}
 else
+{
 code
 =
 EncodeScript
@@ -5879,6 +5942,7 @@ buffer
 script
 )
 ;
+}
 }
 if
 (
@@ -5899,9 +5963,11 @@ TranscodeResult_Failure
 =
 0
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 MOZ_ASSERT
 (
 (
@@ -5938,9 +6004,11 @@ size
 >
 UINT32_MAX
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 rv
 =
 stream
@@ -5958,6 +6026,7 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 rv
 =
 stream
@@ -5980,6 +6049,7 @@ begin
 size
 )
 ;
+}
 return
 rv
 ;
@@ -6047,9 +6117,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 /
 /
 We
@@ -6174,9 +6246,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 char
 *
 data
@@ -6200,9 +6274,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 TranscodeBuffer
 buffer
 ;
@@ -6257,6 +6333,7 @@ code
 =
 TranscodeResult_Ok
 )
+{
 *
 scriptp
 =
@@ -6266,6 +6343,7 @@ get
 (
 )
 ;
+}
 }
 else
 {
@@ -6296,6 +6374,7 @@ code
 =
 TranscodeResult_Ok
 )
+{
 *
 functionObjp
 =
@@ -6308,6 +6387,7 @@ get
 )
 )
 ;
+}
 }
 if
 (
@@ -6328,9 +6408,11 @@ TranscodeResult_Failure
 =
 0
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 MOZ_ASSERT
 (
 (
@@ -6727,9 +6809,11 @@ length
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 xpc
 :
@@ -6780,9 +6864,11 @@ length
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 xpc
 :

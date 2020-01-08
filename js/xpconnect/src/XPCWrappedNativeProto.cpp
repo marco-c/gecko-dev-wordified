@@ -672,9 +672,11 @@ if
 (
 proto
 )
+{
 return
 proto
 ;
+}
 RefPtr
 <
 XPCNativeSet
@@ -694,9 +696,11 @@ if
 !
 set
 )
+{
 return
 nullptr
 ;
+}
 proto
 =
 new
