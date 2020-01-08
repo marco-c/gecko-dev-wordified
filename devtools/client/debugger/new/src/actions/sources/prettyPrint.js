@@ -432,7 +432,7 @@ source
 0
 _selectors
 .
-getSource
+getSourceFromId
 )
 (
 getState
@@ -858,12 +858,7 @@ _sourceId
 =
 prettySource
 .
-get
-(
-"
 id
-"
-)
 ;
 return
 dispatch

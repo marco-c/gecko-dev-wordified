@@ -413,12 +413,7 @@ togglePrettyPrint
 (
 selectedSource
 .
-get
-(
-"
 id
-"
-)
 )
 className
 :
@@ -571,10 +566,6 @@ onClick
 toggleBlackBox
 (
 selectedSource
-.
-toJS
-(
-)
 )
 className
 :
@@ -952,12 +943,7 @@ sourceId
 :
 selectedSource
 .
-get
-(
-"
 id
-"
-)
 line
 :
 1

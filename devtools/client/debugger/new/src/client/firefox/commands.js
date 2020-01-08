@@ -1446,7 +1446,7 @@ actor
 type
 :
 "
-skipPausing
+skipBreakpoints
 "
 }
 )

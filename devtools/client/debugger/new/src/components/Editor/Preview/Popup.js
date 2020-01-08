@@ -422,6 +422,11 @@ relatedTarget
 relatedTarget
 .
 classList
+&
+&
+relatedTarget
+.
+classList
 .
 contains
 (

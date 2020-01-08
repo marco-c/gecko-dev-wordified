@@ -979,12 +979,7 @@ sourceUrl
 :
 selectedSource
 .
-get
-(
-"
 url
-"
-)
 line
 :
 line

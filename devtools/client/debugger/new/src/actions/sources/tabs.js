@@ -385,12 +385,7 @@ removeDocument
 (
 source
 .
-get
-(
-"
 id
-"
-)
 )
 ;
 }
