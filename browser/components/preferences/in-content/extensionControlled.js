@@ -390,7 +390,7 @@ button
 contentBlockingUiEnabled
 ?
 "
-contentBlockingTrackingProtectionExtensionContentButton
+contentBlockingDisableTrackingProtectionExtension
 "
 :
 "

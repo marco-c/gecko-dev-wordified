@@ -4528,7 +4528,7 @@ trackingProtectionExtensionContentButton
 new
 :
 "
-contentBlockingTrackingProtectionExtensionContentButton
+contentBlockingDisableTrackingProtectionExtension
 "
 }
 ;
