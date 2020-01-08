@@ -4966,7 +4966,7 @@ doc
 doc
 -
 >
-LoadsFullXULStyleSheetUpFront
+AllowXULXBL
 (
 )
 &

@@ -3029,6 +3029,8 @@ rv
 rv
 )
 ;
+if
+(
 nsIDocument
 *
 doc
@@ -3036,10 +3038,6 @@ doc
 GetComposedDoc
 (
 )
-;
-if
-(
-doc
 )
 {
 /
@@ -3053,9 +3051,9 @@ binding
 not
 element
 construction
-/
-/
 because
+/
+/
 we
 could
 move
@@ -3066,12 +3064,12 @@ element
 from
 the
 document
-/
-/
 that
 created
 it
 to
+/
+/
 another
 document
 .
