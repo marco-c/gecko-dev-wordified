@@ -598,7 +598,7 @@ that
 is
 guarded
 by
-a
+an
 atomic
 check
 on
@@ -770,7 +770,7 @@ lazy_static
 .
 0
 .
-0
+1
 "
 )
 ]
