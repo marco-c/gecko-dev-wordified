@@ -532,7 +532,7 @@ DEBUG
 static
 *
 /
-bool
+void
 ObjectElements
 :
 :
@@ -550,13 +550,12 @@ elementsPtr
 *
 This
 function
-is
-infallible
-but
 has
-a
-fallible
-interface
+an
+otherwise
+unused
+JSContext
+argument
 so
 that
 it
@@ -725,9 +724,6 @@ header
 setShouldConvertDoubleElements
 (
 )
-;
-return
-true
 ;
 }
 /

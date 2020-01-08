@@ -2735,7 +2735,7 @@ ObjectElements
 ;
 }
 static
-bool
+void
 ConvertElementsToDoubles
 (
 JSContext
