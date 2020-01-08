@@ -17354,6 +17354,15 @@ aWindowSizes
 )
 const
 ;
+void
+ConstructUbiNode
+(
+void
+*
+storage
+)
+override
+;
 bool
 MayHaveDOMMutationObservers
 (
