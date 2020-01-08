@@ -173,6 +173,15 @@ include
 "
 mozilla
 /
+GeckoBindings
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LayerAnimationInfo
 .
 h

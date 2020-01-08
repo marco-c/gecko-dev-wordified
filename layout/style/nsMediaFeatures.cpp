@@ -243,6 +243,15 @@ StyleSheetInlines
 .
 h
 "
+#
+include
+"
+mozilla
+/
+GeckoBindings
+.
+h
+"
 using
 namespace
 mozilla

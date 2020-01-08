@@ -128,7 +128,7 @@ include
 "
 mozilla
 /
-ServoBindings
+GeckoBindings
 .
 h
 "
