@@ -150,9 +150,6 @@ removeStartupChange
 getNewSideloads
 "
 "
-getNewDistroAddons
-"
-"
 recordTimestamp
 "
 "
