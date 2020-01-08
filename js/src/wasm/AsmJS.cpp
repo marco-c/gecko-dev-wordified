@@ -42103,7 +42103,7 @@ haveSource
 source
 -
 >
-hasSourceData
+hasSourceText
 (
 )
 ;
@@ -48061,7 +48061,7 @@ haveSource
 source
 -
 >
-hasSourceData
+hasSourceText
 (
 )
 ;
@@ -48373,7 +48373,7 @@ haveSource
 source
 -
 >
-hasSourceData
+hasSourceText
 (
 )
 ;
