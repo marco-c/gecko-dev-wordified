@@ -6692,6 +6692,11 @@ author
 :
 vendorShortName
 }
+{
+useInDarkMode
+:
+true
+}
 )
 ;
 Normandy
