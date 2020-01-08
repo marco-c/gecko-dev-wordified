@@ -1313,7 +1313,7 @@ Promise
 .
 resolve
 (
-false
+true
 )
 ;
 }
