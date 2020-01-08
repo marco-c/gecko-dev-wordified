@@ -3074,7 +3074,7 @@ bounding
 rectangle
 for
 this
-bob
+blob
 image
 .
 pub
