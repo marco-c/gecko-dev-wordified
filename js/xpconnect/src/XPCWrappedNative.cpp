@@ -7358,6 +7358,18 @@ nsIPropertyBag
 jso
 )
 {
+RootedObject
+jsoGlobal
+(
+cx
+wrappedJS
+-
+>
+GetJSObjectGlobal
+(
+)
+)
+;
 RefPtr
 <
 nsXPCWrappedJSClass
@@ -7390,6 +7402,7 @@ CallQueryInterfaceOnJSObject
 (
 cx
 jso
+jsoGlobal
 *
 iid
 )
@@ -10770,6 +10783,7 @@ XPCConvert
 :
 JSData2Native
 (
+mCallContext
 &
 dp
 -
@@ -11212,6 +11226,7 @@ XPCConvert
 :
 JSData2Native
 (
+mCallContext
 &
 dp
 -

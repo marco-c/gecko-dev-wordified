@@ -2158,6 +2158,7 @@ XPCConvert
 :
 JSData2Native
 (
+cx
 &
 mData
 .

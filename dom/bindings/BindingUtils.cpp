@@ -21175,6 +21175,7 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
+cx
 src
 iid
 getter_AddRefs
