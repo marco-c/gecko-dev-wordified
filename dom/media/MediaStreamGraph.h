@@ -5668,7 +5668,7 @@ access
 *
 to
 a
-LocalMediaStream
+MediaStream
 .
 *
 /

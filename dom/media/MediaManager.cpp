@@ -8727,7 +8727,7 @@ GetUserMediaStreamRunnable
 :
 DOMMediaStreamMainThreadHolder
 "
-DOMLocalMediaStream
+DOMMediaStream
 :
 :
 CreateSourceStreamAsInput
