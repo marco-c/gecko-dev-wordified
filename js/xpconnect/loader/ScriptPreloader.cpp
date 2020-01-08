@@ -2290,12 +2290,14 @@ IterHash
 mScripts
 )
 )
+{
 script
 .
 Remove
 (
 )
 ;
+}
 /
 /
 If
@@ -7004,6 +7006,7 @@ length
 (
 )
 )
+{
 script
 -
 >
@@ -7016,6 +7019,7 @@ i
 +
 ]
 ;
+}
 script
 -
 >

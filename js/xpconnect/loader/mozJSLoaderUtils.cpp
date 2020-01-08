@@ -260,6 +260,7 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
@@ -275,6 +276,7 @@ is
 an
 ok
 error
+}
 JS
 :
 :
@@ -326,9 +328,11 @@ JS
 :
 TranscodeResult_Ok
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 (
@@ -343,9 +347,11 @@ TranscodeResult_Failure
 =
 0
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 MOZ_ASSERT
 (
 (
@@ -452,9 +458,11 @@ TranscodeResult_Failure
 =
 0
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 MOZ_ASSERT
 (
 (
@@ -494,9 +502,11 @@ size
 >
 UINT32_MAX
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 /
 /
 Move
