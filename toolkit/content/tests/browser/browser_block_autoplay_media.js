@@ -715,9 +715,15 @@ media
 .
 autoplay
 .
-enabled
+default
 "
-false
+SpecialPowers
+.
+Ci
+.
+nsIAutoplay
+.
+PROMPT
 ]
 [
 "

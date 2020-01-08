@@ -3133,9 +3133,13 @@ media
 .
 autoplay
 .
-enabled
+default
 "
-true
+Ci
+.
+nsIAutoplay
+.
+ALLOWED
 ]
 )
 ;
