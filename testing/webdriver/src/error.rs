@@ -1376,7 +1376,7 @@ NotFound
 ScriptTimeout
 =
 >
-RequestTimeout
+InternalServerError
 SessionNotCreated
 =
 >
@@ -1388,7 +1388,7 @@ NotFound
 Timeout
 =
 >
-RequestTimeout
+InternalServerError
 UnableToCaptureScreen
 =
 >
