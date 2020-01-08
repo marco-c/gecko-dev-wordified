@@ -8255,10 +8255,15 @@ return
 true
 ;
 }
-static
 const
 char
 *
+js
+:
+:
+gc
+:
+:
 AllocKindName
 (
 AllocKind

@@ -930,6 +930,15 @@ AllocKind
 LAST
 ;
 }
+const
+char
+*
+AllocKindName
+(
+AllocKind
+kind
+)
+;
 inline
 bool
 IsObjectAllocKind
