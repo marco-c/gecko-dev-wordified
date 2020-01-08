@@ -160,6 +160,15 @@ h
 #
 include
 "
+gc
+/
+WeakMap
+.
+h
+"
+#
+include
+"
 js
 /
 GCVector

@@ -84,7 +84,10 @@ a
 "
 )
 ;
+getModuleObject
+(
 a
+)
 .
 __proto__
 =
@@ -94,9 +97,8 @@ __proto__
 1337
 }
 ;
-b
-.
-declarationInstantiation
+instantiateModule
 (
+b
 )
 ;

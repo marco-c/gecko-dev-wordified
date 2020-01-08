@@ -152,10 +152,9 @@ false
 ;
 try
 {
-c
-.
-declarationInstantiation
+instantiateModule
 (
+c
 )
 ;
 }
@@ -201,10 +200,9 @@ e2
 ;
 try
 {
-c
-.
-declarationInstantiation
+instantiateModule
 (
+c
 )
 ;
 }

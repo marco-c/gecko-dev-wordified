@@ -13,9 +13,12 @@ expected
 var
 module
 =
+getModuleObject
+(
 parseModule
 (
 source
+)
 )
 ;
 var

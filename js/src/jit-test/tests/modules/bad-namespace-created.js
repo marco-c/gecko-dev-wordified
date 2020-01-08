@@ -198,10 +198,9 @@ assertThrowsInstanceOf
 )
 =
 >
-m
-.
-declarationInstantiation
+instantiateModule
 (
+m
 )
 SyntaxError
 )
