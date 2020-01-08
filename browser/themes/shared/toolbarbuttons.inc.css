@@ -744,8 +744,6 @@ inline
 end
 :
 0
-!
-important
 ;
 }
 .
@@ -809,8 +807,6 @@ margin
 0
 0
 navbarTabsShadowSize
-!
-important
 ;
 }
 .
@@ -852,8 +848,6 @@ inner
 -
 padding
 )
-!
-important
 ;
 }
 #
@@ -974,8 +968,6 @@ outer
 -
 padding
 )
-!
-important
 ;
 -
 moz
@@ -1352,16 +1344,12 @@ padding
 left
 :
 0
-!
-important
 ;
 padding
 -
 right
 :
 0
-!
-important
 ;
 }
 toolbar
@@ -3127,8 +3115,6 @@ inner
 -
 padding
 )
-!
-important
 ;
 border
 -
