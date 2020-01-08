@@ -6975,11 +6975,12 @@ uintptr_t
 *
 )
 (
+&
 aStackImg
 -
 >
 mContents
-+
+[
 aAddr
 .
 Value
@@ -6990,6 +6991,7 @@ aStackImg
 -
 >
 mStartAvma
+]
 )
 )
 ;
