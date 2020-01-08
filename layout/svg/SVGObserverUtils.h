@@ -1948,7 +1948,7 @@ mFrameReference
 }
 ;
 class
-nsSVGMarkerProperty
+SVGMarkerObserver
 final
 :
 public
@@ -1956,7 +1956,7 @@ nsSVGRenderingObserverProperty
 {
 public
 :
-nsSVGMarkerProperty
+SVGMarkerObserver
 (
 nsIURI
 *
@@ -2685,17 +2685,17 @@ nsSVGPaintingProperty
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
 (
 MarkerBeginProperty
-nsSVGMarkerProperty
+SVGMarkerObserver
 )
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
 (
 MarkerMiddleProperty
-nsSVGMarkerProperty
+SVGMarkerObserver
 )
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
 (
 MarkerEndProperty
-nsSVGMarkerProperty
+SVGMarkerObserver
 )
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
 (
@@ -3580,7 +3580,7 @@ aFlags
 *
 Get
 an
-nsSVGMarkerProperty
+SVGMarkerObserver
 for
 the
 frame
@@ -3593,7 +3593,7 @@ necessary
 *
 /
 static
-nsSVGMarkerProperty
+SVGMarkerObserver
 *
 GetMarkerProperty
 (
@@ -3609,7 +3609,7 @@ mozilla
 :
 FramePropertyDescriptor
 <
-nsSVGMarkerProperty
+SVGMarkerObserver
 >
 *
 aProperty

@@ -1799,7 +1799,7 @@ changeHint
 ;
 }
 void
-nsSVGMarkerProperty
+SVGMarkerObserver
 :
 :
 OnRenderingChange
@@ -2929,7 +2929,7 @@ return
 prop
 ;
 }
-nsSVGMarkerProperty
+SVGMarkerObserver
 *
 SVGObserverUtils
 :
@@ -2948,7 +2948,7 @@ mozilla
 :
 FramePropertyDescriptor
 <
-nsSVGMarkerProperty
+SVGMarkerObserver
 >
 *
 aProperty
