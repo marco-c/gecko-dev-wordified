@@ -1149,6 +1149,7 @@ TypeSet
 :
 ObjectType
 (
+const
 JSObject
 *
 obj
@@ -1206,6 +1207,7 @@ TypeSet
 :
 ObjectType
 (
+const
 ObjectGroup
 *
 group
@@ -1263,6 +1265,7 @@ TypeSet
 :
 ObjectType
 (
+const
 ObjectKey
 *
 obj

@@ -2486,6 +2486,7 @@ inline
 Type
 ObjectType
 (
+const
 JSObject
 *
 obj
@@ -2496,6 +2497,7 @@ inline
 Type
 ObjectType
 (
+const
 ObjectGroup
 *
 group
@@ -2506,6 +2508,7 @@ inline
 Type
 ObjectType
 (
+const
 ObjectKey
 *
 key
@@ -2528,6 +2531,7 @@ JS
 UniqueChars
 TypeString
 (
+const
 Type
 type
 )
@@ -2539,6 +2543,7 @@ JS
 UniqueChars
 ObjectGroupString
 (
+const
 ObjectGroup
 *
 group

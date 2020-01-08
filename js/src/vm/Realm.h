@@ -2263,6 +2263,7 @@ ObjectGroupRealm
 :
 get
 (
+const
 js
 :
 :
