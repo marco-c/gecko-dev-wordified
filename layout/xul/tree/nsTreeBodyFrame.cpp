@@ -5363,7 +5363,7 @@ nsTreeColumn
 *
 col
 ;
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 child
 ;
@@ -8165,7 +8165,7 @@ width
 width
 ;
 }
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 nsTreeBodyFrame
 :
@@ -9234,7 +9234,7 @@ nsTreeColumn
 *
 *
 aCol
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 *
 aChildElt
@@ -14665,7 +14665,7 @@ nsTreeColumn
 *
 col
 ;
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 child
 ;
@@ -25887,7 +25887,7 @@ nsTreeBodyFrame
 :
 GetPseudoComputedStyle
 (
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 aPseudoElement
 )

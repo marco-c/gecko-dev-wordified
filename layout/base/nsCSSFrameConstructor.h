@@ -264,7 +264,7 @@ class
 nsFirstLetterFrame
 ;
 class
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 ;
 class
 nsIDocument
@@ -5046,7 +5046,7 @@ for
 that
 wrapper
 .
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 const
 mAnonBoxPseudo
@@ -5253,7 +5253,7 @@ const
 FrameConstructionData
 mFCData
 ;
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 const
 mPseudoType
@@ -10579,7 +10579,7 @@ ContainerFrameCreationFunc
 aConstructor
 ContainerFrameCreationFunc
 aInnerConstructor
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 aInnerPseudo
 bool

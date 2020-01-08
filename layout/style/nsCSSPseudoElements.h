@@ -841,7 +841,6 @@ foo
 (
 )
 to
-alias
 nsGkAtoms
 :
 :
@@ -857,7 +856,7 @@ flags_
 )
 \
 static
-nsICSSPseudoElement
+nsCSSPseudoElementStaticAtom
 *
 name_
 (
@@ -868,7 +867,7 @@ name_
 return
 const_cast
 <
-nsICSSPseudoElement
+nsCSSPseudoElementStaticAtom
 *
 >
 (
@@ -876,7 +875,7 @@ nsICSSPseudoElement
 static_cast
 <
 const
-nsICSSPseudoElement
+nsCSSPseudoElementStaticAtom
 *
 >
 (

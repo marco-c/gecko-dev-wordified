@@ -329,12 +329,15 @@ type
 nsStaticAtom
 "
 "
-nsICSSPseudoElement
+nsCSSPseudoElementStaticAtom
 "
 or
+        
+#
 "
-nsIAnonBoxPseudo
+nsAnonBoxPseudoStaticAtom
 "
+.
         
 self
 .
@@ -363,6 +366,7 @@ or
 "
 InheritingAnonBox
 "
+.
         
 self
 .
@@ -1594,7 +1598,7 @@ type
 =
 =
 "
-nsICSSPseudoElement
+nsCSSPseudoElementStaticAtom
 "
 or
 atom
@@ -1605,7 +1609,7 @@ type
 =
 =
 "
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 "
 :
             

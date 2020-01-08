@@ -1805,7 +1805,7 @@ when
 hit
 testing
 .
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 GetItemWithinCellAt
 (
@@ -1862,7 +1862,7 @@ nsTreeColumn
 *
 *
 aCol
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 *
 aChildElt
@@ -2134,7 +2134,7 @@ ComputedStyle
 *
 GetPseudoComputedStyle
 (
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 aPseudoElement
 )

@@ -1462,7 +1462,7 @@ dom
 Element
 *
 aParentElement
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 aPseudoTag
 ComputedStyle

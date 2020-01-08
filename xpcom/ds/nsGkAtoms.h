@@ -558,7 +558,7 @@ bb
 bb
 "
 0x12345678
-nsICSSPseudoElement
+nsCSSPseudoElementStaticAtom
 PseudoElementAtom
 )
 /
@@ -570,7 +570,7 @@ ccc
 ccc
 "
 0x23456789
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 InheritingAnonBoxAtom
 )
 /
@@ -661,11 +661,11 @@ aOffset
 ;
 DEFINE_STATIC_ATOM_SUBCLASS
 (
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 )
 DEFINE_STATIC_ATOM_SUBCLASS
 (
-nsICSSPseudoElement
+nsCSSPseudoElementStaticAtom
 )
 #
 undef

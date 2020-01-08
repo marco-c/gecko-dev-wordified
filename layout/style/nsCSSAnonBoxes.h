@@ -710,7 +710,6 @@ foo
 (
 )
 to
-alias
 nsGkAtoms
 :
 :
@@ -725,7 +724,7 @@ value_
 )
 \
 static
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 name_
 (
@@ -736,7 +735,7 @@ name_
 return
 const_cast
 <
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 >
 (
@@ -744,7 +743,7 @@ nsICSSAnonBoxPseudo
 static_cast
 <
 const
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 >
 (
