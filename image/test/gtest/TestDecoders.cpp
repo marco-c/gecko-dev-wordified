@@ -3538,7 +3538,10 @@ Surface
 )
 )
 ;
-RawAccessFrameRef
+RefPtr
+<
+imgFrame
+>
 partialFrame
 =
 result
@@ -3547,7 +3550,7 @@ Surface
 (
 )
 .
-RawAccessRef
+GetFrame
 (
 1
 )
@@ -4169,7 +4172,10 @@ Surface
 )
 )
 ;
-RawAccessFrameRef
+RefPtr
+<
+imgFrame
+>
 partialFrame
 =
 result
@@ -4178,7 +4184,7 @@ Surface
 (
 )
 .
-RawAccessRef
+GetFrame
 (
 1
 )
@@ -4480,7 +4486,10 @@ Surface
 )
 )
 ;
-RawAccessFrameRef
+RefPtr
+<
+imgFrame
+>
 partialFrame
 =
 result
@@ -4489,7 +4498,7 @@ Surface
 (
 )
 .
-RawAccessRef
+GetFrame
 (
 1
 )
@@ -4994,7 +5003,10 @@ Surface
 )
 )
 ;
-RawAccessFrameRef
+RefPtr
+<
+imgFrame
+>
 partialFrame
 =
 result
@@ -5003,7 +5015,7 @@ Surface
 (
 )
 .
-RawAccessRef
+GetFrame
 (
 1
 )

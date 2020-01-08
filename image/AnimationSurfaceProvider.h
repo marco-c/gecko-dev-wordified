@@ -469,8 +469,11 @@ aFrame
 )
 override
 ;
-RawAccessFrameRef
-RawAccessRef
+already_AddRefed
+<
+imgFrame
+>
+GetFrame
 (
 size_t
 aFrame

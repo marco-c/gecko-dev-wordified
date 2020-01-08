@@ -2218,7 +2218,10 @@ aState
 DrawableSurface
 &
 aFrames
-RawAccessFrameRef
+RefPtr
+<
+imgFrame
+>
 &
 aCurrentFrame
 TimeStamp
