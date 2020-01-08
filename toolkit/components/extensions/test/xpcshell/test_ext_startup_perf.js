@@ -376,8 +376,6 @@ loadedModules
 Cu
 .
 loadedModules
-(
-)
 .
 filter
 (

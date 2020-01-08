@@ -921,8 +921,6 @@ of
 Cu
 .
 loadedComponents
-(
-)
 )
 {
 /
@@ -1000,8 +998,6 @@ of
 Cu
 .
 loadedModules
-(
-)
 )
 {
 modules
