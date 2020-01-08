@@ -127,16 +127,6 @@ default
 MAR
     
 "
-application_ini
-"
-:
-"
-application
-.
-ini
-"
-    
-"
 local_mar_tool_dir
 "
 :
