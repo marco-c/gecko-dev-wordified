@@ -2406,9 +2406,7 @@ parser
 parseCssProperty
 (
 "
-image
--
-orientation
+rotate
 "
 "
 90deg
