@@ -500,7 +500,11 @@ if
 (
 aFlags
 &
+(
 eSupportsCSSTransforms
+|
+eSupportsContainLayoutAndPaint
+)
 )
 {
 return

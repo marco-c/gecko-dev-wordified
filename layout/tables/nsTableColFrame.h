@@ -1598,6 +1598,17 @@ aFlags
 const
 override
 {
+if
+(
+aFlags
+&
+eSupportsContainLayoutAndPaint
+)
+{
+return
+false
+;
+}
 return
 nsSplittableFrame
 :
