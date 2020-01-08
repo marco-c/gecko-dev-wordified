@@ -1502,7 +1502,7 @@ conditions
 [
 conditions
 .
-is_firefox
+is_firefox_or_android
 ]
              
 parser
