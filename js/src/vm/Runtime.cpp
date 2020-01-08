@@ -3682,6 +3682,17 @@ if
 promise
 )
 {
+#
+ifdef
+DEBUG
+AssertSameCompartment
+(
+job
+promise
+)
+;
+#
+endif
 RootedObject
 unwrappedPromise
 (
