@@ -433,8 +433,6 @@ be
 called
 from
 the
-remote
--
 browser
 binding
 to
