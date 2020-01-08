@@ -175,7 +175,7 @@ if
 s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 )
@@ -190,10 +190,11 @@ void
 d
 )
 =
+&
 s
 -
 >
-ptr
+val
 ;
 continue
 ;

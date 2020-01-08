@@ -711,7 +711,7 @@ if
 s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 )
@@ -726,10 +726,11 @@ void
 d
 )
 =
+&
 s
 -
 >
-ptr
+val
 ;
 continue
 ;
@@ -2623,7 +2624,7 @@ if
 s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 )
@@ -2636,10 +2637,11 @@ end
 (
 uint32_t
 )
+&
 s
 -
 >
-ptr
+val
 )
 ;
 continue
