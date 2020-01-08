@@ -292,11 +292,10 @@ about
 blank
 history
 entry
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 "
 about
 :
@@ -645,11 +644,10 @@ about
 blank
 history
 entry
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 "
 about
 :

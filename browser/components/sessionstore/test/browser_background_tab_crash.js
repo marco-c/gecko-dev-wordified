@@ -257,11 +257,10 @@ initialTab
 .
 linkedBrowser
 ;
-BrowserTestUtils
+initialBrowser
 .
 loadURI
 (
-initialBrowser
 NON_REMOTE_PAGE
 )
 ;

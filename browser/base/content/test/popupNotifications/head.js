@@ -265,11 +265,10 @@ if
 url
 )
 {
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 url
 )
 ;

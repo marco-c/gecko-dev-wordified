@@ -171,11 +171,10 @@ bug792517
 html
 "
 ;
-BrowserTestUtils
+testBrowser
 .
 loadURI
 (
-testBrowser
 testURI
 )
 ;

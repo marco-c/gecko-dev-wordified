@@ -1013,11 +1013,10 @@ of
 urls
 )
 {
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 url
 )
 ;

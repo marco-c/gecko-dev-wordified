@@ -604,13 +604,12 @@ false
 url
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 url
 )
 ;

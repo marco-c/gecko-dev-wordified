@@ -151,11 +151,10 @@ browserLoaded
 browser
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 "
 http
 :

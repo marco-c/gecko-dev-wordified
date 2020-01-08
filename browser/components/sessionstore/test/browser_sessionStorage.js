@@ -801,11 +801,10 @@ URL
 discards
 data
 .
-BrowserTestUtils
+browser2
 .
 loadURI
 (
-browser2
 "
 http
 :
@@ -916,11 +915,10 @@ URL
 discards
 data
 .
-BrowserTestUtils
+browser2
 .
 loadURI
 (
-browser2
 "
 about
 :

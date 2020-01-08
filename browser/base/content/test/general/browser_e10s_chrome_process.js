@@ -123,11 +123,10 @@ URL
 "
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 startURL
 )
 ;

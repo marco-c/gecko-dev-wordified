@@ -417,13 +417,12 @@ of
 our
 page
 .
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 realUrl
 )
 ;

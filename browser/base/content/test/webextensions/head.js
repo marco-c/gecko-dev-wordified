@@ -2760,13 +2760,12 @@ the
 tests
 below
 .
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 "
 about
 :
