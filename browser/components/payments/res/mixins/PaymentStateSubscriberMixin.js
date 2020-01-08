@@ -137,9 +137,7 @@ preserveFieldValues
 true
 selectedStateKey
 :
-"
-selectedPaymentCard
-"
+null
 }
 "
 address
