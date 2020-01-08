@@ -85,6 +85,15 @@ Bukanov
 #
 include
 "
+js
+/
+CompilationAndEvaluation
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests

@@ -126,6 +126,15 @@ include
 "
 js
 /
+CompilationAndEvaluation
+.
+h
+"
+#
+include
+"
+js
+/
 LocaleSensitive
 .
 h

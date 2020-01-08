@@ -357,6 +357,15 @@ include
 "
 js
 /
+CompilationAndEvaluation
+.
+h
+"
+#
+include
+"
+js
+/
 CompileOptions
 .
 h
