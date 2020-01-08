@@ -7188,11 +7188,11 @@ flatMap
 /
 /
 /
-January
-16
+May
+23
 2018
 function
-ArrayFlatten
+ArrayFlat
 (
 /
 *
