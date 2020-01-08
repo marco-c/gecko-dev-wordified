@@ -1719,6 +1719,17 @@ token
 )
 ;
 void
+destroyParseTask
+(
+JSRuntime
+*
+rt
+ParseTask
+*
+parseTask
+)
+;
+void
 mergeParseTaskRealm
 (
 JSContext
