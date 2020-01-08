@@ -8465,7 +8465,7 @@ JS
 :
 CharsToNewUTF8CharsZ
 (
-cx
+nullptr
 range
 )
 .
