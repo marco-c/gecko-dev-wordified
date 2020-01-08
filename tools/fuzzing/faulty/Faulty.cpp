@@ -1984,6 +1984,12 @@ currentProcessType
 =
 =
 GeckoProcessType_PDFium
+|
+|
+currentProcessType
+=
+=
+GeckoProcessType_VR
 )
 )
 {

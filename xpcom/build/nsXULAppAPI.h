@@ -2353,6 +2353,11 @@ GeckoProcessType_PDFium
 Gecko
 PDFium
 process
+GeckoProcessType_VR
+/
+/
+VR
+process
 GeckoProcessType_End
 GeckoProcessType_Invalid
 =
@@ -2389,6 +2394,9 @@ gpu
 "
 "
 pdfium
+"
+"
+vr
 "
 }
 ;
@@ -2705,6 +2713,13 @@ XRE_API
 (
 bool
 XRE_IsGPUProcess
+(
+)
+)
+XRE_API
+(
+bool
+XRE_IsVRProcess
 (
 )
 )
