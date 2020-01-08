@@ -540,7 +540,7 @@ aSpecHeight
 )
 ;
 bool
-LoadMiscPersistentAttributesFromXUL
+UpdateWindowStateFromMiscXULAttributes
 (
 )
 ;
