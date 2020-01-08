@@ -443,7 +443,6 @@ running
 assertAnimationsRunning
 (
 animationInspector
-panel
 )
 ;
 }
@@ -504,7 +503,6 @@ paused
 assertAnimationsPausing
 (
 animationInspector
-panel
 )
 ;
 }

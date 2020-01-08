@@ -207,7 +207,6 @@ panel
 assertAnimationsPausing
 (
 animationInspector
-panel
 )
 ;
 ok
@@ -254,7 +253,6 @@ panel
 assertAnimationsRunning
 (
 animationInspector
-panel
 )
 ;
 ok
