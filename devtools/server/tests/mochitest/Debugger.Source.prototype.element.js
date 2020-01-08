@@ -4,6 +4,12 @@ exported
 heinrichFun
 *
 /
+/
+*
+global
+franz
+*
+/
 "
 use
 strict
