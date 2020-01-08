@@ -6242,6 +6242,15 @@ nsGkAtoms
 :
 :
 output
+|
+|
+aName
+=
+=
+nsGkAtoms
+:
+:
+head
 )
 {
 if
