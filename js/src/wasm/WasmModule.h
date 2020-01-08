@@ -677,6 +677,12 @@ globalImportValues
 )
 const
 ;
+SharedCode
+getDebugEnabledCode
+(
+)
+const
+;
 class
 Tier2GeneratorTaskImpl
 ;
