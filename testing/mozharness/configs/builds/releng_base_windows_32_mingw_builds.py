@@ -625,21 +625,6 @@ specific
 #
     
 '
-base_name
-'
-:
-'
-WINNT_5
-.
-2_MINGW_
-%
-(
-branch
-)
-s
-'
-    
-'
 platform
 '
 :
