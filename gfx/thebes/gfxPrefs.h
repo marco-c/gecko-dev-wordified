@@ -4079,7 +4079,7 @@ enabled
 "
 VRServiceEnabled
 bool
-false
+true
 )
 ;
 DECL_GFX_PREF
