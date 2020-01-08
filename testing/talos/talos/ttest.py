@@ -802,6 +802,22 @@ browser_path
             
 )
         
+else
+:
+            
+setup
+.
+env
+[
+'
+MOZ_USE_PAGELOADER
+'
+]
+=
+'
+1
+'
+        
 #
 setup
 global
