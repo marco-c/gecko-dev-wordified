@@ -119,7 +119,7 @@ properties
 :
 :
 {
-DeclarationSource
+DeclarationPushMode
 Importance
 PropertyDeclaration
 }
@@ -3701,7 +3701,7 @@ Importance
 :
 :
 Normal
-DeclarationSource
+DeclarationPushMode
 :
 :
 Parsing
