@@ -2108,6 +2108,13 @@ setTimeout
 =
 >
 {
+if
+(
+this
+.
+proc
+)
+{
 this
 .
 proc
@@ -2117,6 +2124,7 @@ kill
 GRACEFUL_SHUTDOWN_TIME
 )
 ;
+}
 }
 GRACEFUL_SHUTDOWN_TIME
 )
