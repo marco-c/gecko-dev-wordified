@@ -378,6 +378,7 @@ protects
 access
 to
 mResolver
+mLocalDomains
 and
 mIPv4OnlyDomains
 mozilla
