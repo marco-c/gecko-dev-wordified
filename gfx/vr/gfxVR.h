@@ -370,9 +370,6 @@ mGroupMask
 uint64_t
 mFrameId
 ;
-uint32_t
-mPresentingGeneration
-;
 VRDisplayState
 mDisplayState
 ;
@@ -670,14 +667,6 @@ mFrameId
 other
 .
 mFrameId
-&
-&
-mPresentingGeneration
-=
-=
-other
-.
-mPresentingGeneration
 ;
 }
 bool
