@@ -1537,6 +1537,13 @@ channelID
 ref
 (
 )
+/
+*
+aMiddlemanRecording
+=
+*
+/
+false
 ChannelMessageHandler
 )
 ;
