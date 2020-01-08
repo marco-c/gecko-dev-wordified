@@ -98,6 +98,12 @@ help
 svg
 )
 ;
+background
+-
+size
+:
+contain
+;
 }
 .
 network
