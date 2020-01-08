@@ -515,9 +515,7 @@ include
 "
 mozilla
 /
-dom
-/
-AutoplayRequest
+AutoplayPermissionManager
 .
 h
 "
@@ -23148,7 +23146,7 @@ return
 }
 RefPtr
 <
-AutoplayRequest
+AutoplayPermissionManager
 >
 request
 =

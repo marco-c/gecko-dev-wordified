@@ -155,9 +155,7 @@ include
 "
 mozilla
 /
-dom
-/
-AutoplayRequest
+AutoplayPermissionManager
 .
 h
 "
@@ -479,7 +477,7 @@ static
 /
 already_AddRefed
 <
-AutoplayRequest
+AutoplayPermissionManager
 >
 AutoplayPolicy
 :
@@ -536,7 +534,7 @@ return
 window
 -
 >
-GetAutoplayRequest
+GetAutoplayPermissionManager
 (
 )
 ;

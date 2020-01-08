@@ -366,9 +366,6 @@ class
 AbstractThread
 ;
 class
-AutoplayRequest
-;
-class
 ChannelMediaDecoder
 ;
 class

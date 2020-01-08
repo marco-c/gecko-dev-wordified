@@ -138,7 +138,7 @@ namespace
 mozilla
 {
 class
-AutoplayRequest
+AutoplayPermissionManager
 ;
 namespace
 dom
@@ -336,7 +336,7 @@ aContext
 /
 Returns
 the
-AutoplayRequest
+AutoplayPermissionManager
 that
 a
 given
@@ -353,7 +353,7 @@ permission
 static
 already_AddRefed
 <
-AutoplayRequest
+AutoplayPermissionManager
 >
 RequestFor
 (
