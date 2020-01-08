@@ -4925,7 +4925,7 @@ fully
 -
 sycnronous
 done
-funtion
+function
 can
 be
 used
