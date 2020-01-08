@@ -168,15 +168,6 @@ SharedArrayObject
 .
 h
 "
-#
-include
-"
-vm
-/
-TypedArrayObject
-.
-h
-"
 namespace
 js
 {
@@ -226,7 +217,7 @@ class
 DataViewObject
 :
 public
-NativeObject
+ArrayBufferViewObject
 {
 private
 :
@@ -489,9 +480,6 @@ view
 >
 getFixedSlot
 (
-TypedArrayObject
-:
-:
 BYTEOFFSET_SLOT
 )
 ;
@@ -529,9 +517,6 @@ view
 >
 getFixedSlot
 (
-TypedArrayObject
-:
-:
 LENGTH_SLOT
 )
 ;
@@ -567,9 +552,6 @@ view
 >
 getFixedSlot
 (
-TypedArrayObject
-:
-:
 BUFFER_SLOT
 )
 ;

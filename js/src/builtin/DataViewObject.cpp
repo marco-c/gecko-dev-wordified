@@ -567,9 +567,6 @@ obj
 >
 setFixedSlot
 (
-TypedArrayObject
-:
-:
 BYTEOFFSET_SLOT
 Int32Value
 (
@@ -582,9 +579,6 @@ obj
 >
 setFixedSlot
 (
-TypedArrayObject
-:
-:
 LENGTH_SLOT
 Int32Value
 (
@@ -597,9 +591,6 @@ obj
 >
 setFixedSlot
 (
-TypedArrayObject
-:
-:
 BUFFER_SLOT
 ObjectValue
 (
@@ -886,9 +877,6 @@ numFixedSlots
 )
 =
 =
-TypedArrayObject
-:
-:
 DATA_SLOT
 )
 ;
@@ -5976,7 +5964,7 @@ JSCLASS_HAS_PRIVATE
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
-TypedArrayObject
+DataViewObject
 :
 :
 RESERVED_SLOTS
@@ -6300,9 +6288,6 @@ newData
 {
 setFixedSlot
 (
-TypedArrayObject
-:
-:
 LENGTH_SLOT
 Int32Value
 (
@@ -6312,9 +6297,6 @@ Int32Value
 ;
 setFixedSlot
 (
-TypedArrayObject
-:
-:
 BYTEOFFSET_SLOT
 Int32Value
 (
