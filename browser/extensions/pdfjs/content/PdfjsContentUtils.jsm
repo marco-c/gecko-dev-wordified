@@ -692,13 +692,13 @@ pdf
 .
 js
 /
-PdfJs
+PdfJsRegistration
 .
 jsm
 "
 ;
 let
-pdfjs
+pdfjsr
 =
 ChromeUtils
 .
@@ -709,7 +709,7 @@ jsm
 }
 )
 .
-PdfJs
+PdfJsRegistration
 ;
 if
 (
@@ -720,7 +720,7 @@ data
 enabled
 )
 {
-pdfjs
+pdfjsr
 .
 ensureRegistered
 (
@@ -729,7 +729,7 @@ ensureRegistered
 }
 else
 {
-pdfjs
+pdfjsr
 .
 ensureUnregistered
 (

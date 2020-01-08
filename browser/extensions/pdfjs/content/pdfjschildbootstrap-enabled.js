@@ -206,7 +206,7 @@ pdf
 .
 js
 /
-PdfJs
+PdfJsRegistration
 .
 jsm
 "
@@ -242,7 +242,7 @@ into
 content
 loading
 .
-PdfJs
+PdfJsRegistration
 .
 ensureRegistered
 (
