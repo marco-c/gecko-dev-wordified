@@ -3050,7 +3050,6 @@ toolbox
 const
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -3061,7 +3060,7 @@ tab
 await
 target
 .
-attach
+makeRemote
 (
 )
 ;
@@ -3370,7 +3369,6 @@ selectedTab
 const
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -4381,7 +4379,6 @@ function
 const
 target
 =
-await
 TargetFactory
 .
 forTab

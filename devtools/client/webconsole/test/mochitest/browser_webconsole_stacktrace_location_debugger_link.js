@@ -280,7 +280,6 @@ TEST_URI
 const
 target
 =
-await
 TargetFactory
 .
 forTab

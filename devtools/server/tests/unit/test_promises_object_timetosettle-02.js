@@ -158,7 +158,7 @@ client
 )
 ;
 await
-attachTarget
+attachTab
 (
 client
 parentProcessActors
@@ -204,7 +204,7 @@ with
 the
 PromiseActor
 await
-attachTarget
+attachTab
 (
 client
 parentProcessActors
@@ -278,7 +278,7 @@ tab
 )
 ;
 await
-attachTarget
+attachTab
 (
 client
 targetTab

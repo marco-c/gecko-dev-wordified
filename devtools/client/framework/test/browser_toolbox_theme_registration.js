@@ -158,7 +158,6 @@ test
 const
 target
 =
-await
 TargetFactory
 .
 forTab

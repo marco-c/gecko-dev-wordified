@@ -187,7 +187,6 @@ again
 const
 target
 =
-await
 TargetFactory
 .
 forTab

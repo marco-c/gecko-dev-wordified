@@ -248,7 +248,7 @@ tabClient
 ]
 =
 yield
-attachTarget
+attachTab
 (
 client
 chrome

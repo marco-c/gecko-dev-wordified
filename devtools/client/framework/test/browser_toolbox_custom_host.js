@@ -252,7 +252,6 @@ TEST_URL
 let
 target
 =
-await
 TargetFactory
 .
 forTab

@@ -215,7 +215,6 @@ TEST_URL
 .
 then
 (
-async
 (
 )
 =
@@ -223,7 +222,6 @@ async
 {
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -235,7 +233,7 @@ selectedTab
 ;
 target
 .
-attach
+makeRemote
 (
 )
 .

@@ -358,7 +358,7 @@ TAB_URL
 )
 ;
 yield
-attachTarget
+attachTab
 (
 client
 targetTab

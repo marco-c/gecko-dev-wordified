@@ -629,7 +629,7 @@ tabConnection
 .
 tabTarget
 .
-attach
+makeRemote
 (
 )
 ;
