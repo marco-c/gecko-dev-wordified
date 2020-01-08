@@ -14540,6 +14540,8 @@ aDocument
 CSSLoader
 (
 )
+{
+}
 )
 ;
 }

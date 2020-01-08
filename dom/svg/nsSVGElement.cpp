@@ -7407,6 +7407,8 @@ GetCompatibilityMode
 (
 )
 mLoader
+{
+}
 )
 ;
 if
