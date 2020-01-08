@@ -144,7 +144,7 @@ mozilla
 :
 :
 LazyLogModule
-gMediaElementLog
+gAutoplayPermissionLog
 ;
 #
 define
@@ -158,7 +158,7 @@ msg
 \
 MOZ_LOG
 (
-gMediaElementLog
+gAutoplayPermissionLog
 LogLevel
 :
 :
