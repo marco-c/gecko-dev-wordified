@@ -563,11 +563,15 @@ CONFIG
 CC_TYPE
 '
 ]
-=
-=
+in
+(
 '
 gcc
 '
+'
+clang
+'
+)
 :
         
 DEFINES
@@ -3929,11 +3933,16 @@ CONFIG
 CC_TYPE
 '
 ]
-!
-=
+not
+in
+(
 '
 gcc
 '
+'
+clang
+'
+)
 :
 \
 n
