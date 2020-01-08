@@ -446,10 +446,6 @@ ap
 ;
 break
 ;
-default
-:
-break
-;
 }
 }
 nsresult
