@@ -7012,7 +7012,7 @@ return
 obj
 -
 >
-global
+deprecatedGlobal
 (
 )
 ;
