@@ -27194,6 +27194,14 @@ aMessage
 final
 )
 ;
+nsContentUtils
+:
+:
+PlatformToDOMLineBreaks
+(
+final
+)
+;
 nsresult
 rv
 ;
