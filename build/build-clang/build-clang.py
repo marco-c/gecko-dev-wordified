@@ -4339,14 +4339,27 @@ lld_repo
 "
 )
     
+#
+On
+some
+packages
+we
+don
+'
+t
+use
+compiler_repo
+    
 compiler_repo
 =
 config
-[
+.
+get
+(
 "
 compiler_repo
 "
-]
+)
     
 libcxx_repo
 =
@@ -4985,6 +4998,13 @@ clang_repo
 clang_source_dir
 )
         
+if
+compiler_repo
+is
+not
+None
+:
+            
 checkout_or_update
 (
 compiler_repo
