@@ -4720,9 +4720,6 @@ nsGkAtoms
 :
 :
 onkeystatuseschange
-EmptyString
-(
-)
 )
 ;
 }
@@ -4743,9 +4740,6 @@ nsGkAtoms
 :
 :
 onkeystatuseschange
-EmptyString
-(
-)
 aCallback
 )
 ;
@@ -4766,9 +4760,6 @@ nsGkAtoms
 :
 :
 onmessage
-EmptyString
-(
-)
 )
 ;
 }
@@ -4789,9 +4780,6 @@ nsGkAtoms
 :
 :
 onmessage
-EmptyString
-(
-)
 aCallback
 )
 ;

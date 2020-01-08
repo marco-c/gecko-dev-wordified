@@ -2758,11 +2758,7 @@ on
 #
 #
 name_
-EmptyString
-(
 )
-)
-\
 :
 nullptr
 ;
@@ -2818,9 +2814,6 @@ on
 #
 #
 name_
-EmptyString
-(
-)
 handler
 )
 ;
