@@ -812,7 +812,7 @@ hideToggleButton
 :
 PropTypes
 .
-boolean
+bool
 }
 ;
 module
