@@ -237,13 +237,6 @@ AssertIsOnWorkletThread
 (
 )
 ;
-static
-JSPrincipals
-*
-GetWorkerPrincipal
-(
-)
-;
 JSContext
 *
 GetJSContext
