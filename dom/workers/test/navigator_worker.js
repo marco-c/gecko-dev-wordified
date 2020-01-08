@@ -79,6 +79,9 @@ language
 languages
 "
 "
+mediaCapabilities
+"
+"
 hardwareConcurrency
 "
 {
