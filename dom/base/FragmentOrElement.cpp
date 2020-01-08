@@ -4219,7 +4219,7 @@ nsIContent
 nsExtendedContentSlots
 :
 :
-Unlink
+UnlinkExtendedSlots
 (
 )
 {
@@ -4247,7 +4247,7 @@ nsIContent
 nsExtendedContentSlots
 :
 :
-Traverse
+TraverseExtendedSlots
 (
 nsCycleCollectionTraversalCallback
 &
@@ -4395,6 +4395,11 @@ mDataset
 nullptr
 )
 {
+MOZ_COUNT_CTOR
+(
+nsDOMSlots
+)
+;
 }
 FragmentOrElement
 :
@@ -4407,6 +4412,11 @@ nsDOMSlots
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsDOMSlots
+)
+;
 if
 (
 mAttributeMap
@@ -4611,7 +4621,9 @@ this
 ;
 if
 (
-mExtendedSlots
+OwnsExtendedSlots
+(
+)
 )
 {
 n
@@ -4619,9 +4631,7 @@ n
 =
 aMallocSizeOf
 (
-mExtendedSlots
-.
-get
+GetExtendedContentSlots
 (
 )
 )
@@ -4790,7 +4800,7 @@ FragmentOrElement
 nsExtendedDOMSlots
 :
 :
-Unlink
+UnlinkExtendedSlots
 (
 )
 {
@@ -4800,7 +4810,7 @@ nsIContent
 nsExtendedContentSlots
 :
 :
-Unlink
+UnlinkExtendedSlots
 (
 )
 ;
@@ -4898,7 +4908,7 @@ FragmentOrElement
 nsExtendedDOMSlots
 :
 :
-Traverse
+TraverseExtendedSlots
 (
 nsCycleCollectionTraversalCallback
 &
@@ -4911,7 +4921,7 @@ nsIContent
 nsExtendedContentSlots
 :
 :
-Traverse
+TraverseExtendedSlots
 (
 aCb
 )
