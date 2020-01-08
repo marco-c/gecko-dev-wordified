@@ -2352,6 +2352,12 @@ mozilla
 TimeStamp
 ;
 using
+mozilla
+:
+:
+TimeDuration
+;
+using
 JS
 :
 :
@@ -9046,9 +9052,6 @@ JSGC_HIGH_FREQUENCY_TIME_LIMIT
 :
 highFrequencyThreshold_
 =
-mozilla
-:
-:
 TimeDuration
 :
 :
@@ -9726,9 +9729,6 @@ DynamicHeapGrowthEnabled
 )
 highFrequencyThreshold_
 (
-mozilla
-:
-:
 TimeDuration
 :
 :
@@ -9989,9 +9989,6 @@ JSGC_HIGH_FREQUENCY_TIME_LIMIT
 :
 highFrequencyThreshold_
 =
-mozilla
-:
-:
 TimeDuration
 :
 :
@@ -12625,9 +12622,6 @@ const
 auto
 oneSecond
 =
-mozilla
-:
-:
 TimeDuration
 :
 :
@@ -12712,9 +12706,6 @@ lastAnimationTime
 +
 oneSecond
 <
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -19366,9 +19357,6 @@ SCRIPT
 )
 ;
 }
-mozilla
-:
-:
 TimeStamp
 SliceBudget
 :
@@ -19406,9 +19394,6 @@ ReallyNow
 (
 )
 +
-mozilla
-:
-:
 TimeDuration
 :
 :
@@ -19497,9 +19482,6 @@ ReallyNow
 (
 )
 +
-mozilla
-:
-:
 TimeDuration
 :
 :
@@ -19552,9 +19534,6 @@ else
 {
 deadline
 =
-mozilla
-:
-:
 TimeStamp
 (
 )
@@ -24308,9 +24287,6 @@ Realm
 *
 realm
 const
-mozilla
-:
-:
 TimeStamp
 &
 currentTime
@@ -24331,9 +24307,6 @@ const
 auto
 oneSecond
 =
-mozilla
-:
-:
 TimeDuration
 :
 :
