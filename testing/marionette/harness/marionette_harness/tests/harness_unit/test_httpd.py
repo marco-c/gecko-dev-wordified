@@ -488,6 +488,15 @@ main
 (
 '
 -
+p
+'
+'
+no
+:
+terminalreporter
+'
+'
+-
 -
 log
 -
