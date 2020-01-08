@@ -2125,6 +2125,9 @@ NotifyRejected
 nsIURI
 *
 aHostURI
+nsIChannel
+*
+aChannel
 )
 ;
 void

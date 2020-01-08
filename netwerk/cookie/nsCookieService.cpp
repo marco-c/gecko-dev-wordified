@@ -15319,6 +15319,7 @@ STATUS_REJECTED
 NotifyRejected
 (
 aHostURI
+aChannel
 )
 ;
 if
@@ -15452,6 +15453,9 @@ NotifyRejected
 nsIURI
 *
 aHostURI
+nsIChannel
+*
+aChannel
 )
 {
 nsCOMPtr
@@ -15490,6 +15494,14 @@ nullptr
 )
 ;
 }
+AntiTrackingCommon
+:
+:
+NotifyRejection
+(
+aChannel
+)
+;
 }
 /
 /
@@ -24714,6 +24726,7 @@ manager
 NotifyRejected
 (
 aHostURI
+aChannel
 )
 ;
 return
