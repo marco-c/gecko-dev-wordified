@@ -809,10 +809,6 @@ const
 bool
 &
 aApplyConversion
-const
-ResourceTimingStruct
-&
-aTiming
 )
 override
 ;
@@ -849,6 +845,10 @@ const
 URIParams
 &
 newURI
+const
+uint32_t
+&
+newLoadFlags
 const
 uint32_t
 &
@@ -2416,10 +2416,6 @@ const
 bool
 &
 aApplyConversion
-const
-ResourceTimingStruct
-&
-aTiming
 )
 ;
 void
@@ -2537,6 +2533,10 @@ const
 URIParams
 &
 newUri
+const
+uint32_t
+&
+newLoadFlags
 const
 uint32_t
 &
