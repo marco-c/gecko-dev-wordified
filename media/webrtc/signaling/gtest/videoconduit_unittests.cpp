@@ -3080,7 +3080,7 @@ VP8
 constraints
 )
 ;
-codecConfig
+codecConfig2
 .
 mSimulcastEncodings
 .
