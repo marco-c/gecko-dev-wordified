@@ -250,6 +250,7 @@ paused
 const
 target
 =
+await
 TargetFactory
 .
 forTab
