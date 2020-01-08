@@ -785,6 +785,7 @@ r
 :
 list
 )
+{
 TraceStackOrPersistentRoot
 (
 trc
@@ -807,6 +808,7 @@ address
 name
 )
 ;
+}
 }
 void
 JSRuntime
@@ -1037,6 +1039,7 @@ isEmpty
 (
 )
 )
+{
 list
 .
 getFirst
@@ -1048,6 +1051,7 @@ reset
 (
 )
 ;
+}
 }
 void
 JSRuntime
@@ -1494,6 +1498,7 @@ p
 +
 +
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -1514,6 +1519,7 @@ vector
 "
 )
 ;
+}
 return
 ;
 }
@@ -1575,6 +1581,7 @@ begin
 (
 )
 )
+{
 TraceRootRange
 (
 trc
@@ -1593,6 +1600,7 @@ AutoArrayRooter
 "
 )
 ;
+}
 return
 ;
 }
@@ -1648,6 +1656,7 @@ gcr
 >
 down
 )
+{
 gcr
 -
 >
@@ -1656,6 +1665,7 @@ trace
 trc
 )
 ;
+}
 }
 /
 *
@@ -1722,6 +1732,7 @@ Tag
 :
 Wrapper
 )
+{
 gcr
 -
 >
@@ -1730,6 +1741,7 @@ trace
 trc
 )
 ;
+}
 }
 }
 void
@@ -1747,6 +1759,7 @@ if
 (
 base
 )
+{
 TraceRoot
 (
 trc
@@ -1758,6 +1771,7 @@ base
 "
 )
 ;
+}
 TraceRoot
 (
 trc
@@ -1784,6 +1798,7 @@ JSPROP_GETTER
 &
 rawGetter
 )
+{
 TraceRoot
 (
 trc
@@ -1800,6 +1815,7 @@ getter
 "
 )
 ;
+}
 if
 (
 (
@@ -1811,6 +1827,7 @@ JSPROP_SETTER
 &
 rawSetter
 )
+{
 TraceRoot
 (
 trc
@@ -1828,6 +1845,7 @@ setter
 )
 ;
 }
+}
 void
 PropertyDescriptor
 :
@@ -1843,6 +1861,7 @@ if
 (
 obj
 )
+{
 TraceRoot
 (
 trc
@@ -1856,6 +1875,7 @@ obj
 "
 )
 ;
+}
 TraceRoot
 (
 trc
@@ -2028,8 +2048,10 @@ isBeingDestroyed
 (
 )
 )
+{
 return
 ;
+}
 gcstats
 :
 :
@@ -2057,6 +2079,7 @@ isCollecting
 (
 )
 )
+{
 traceRuntimeAtoms
 (
 trc
@@ -2067,6 +2090,7 @@ checkAtomsAccess
 )
 )
 ;
+}
 traceKeptAtoms
 (
 trc
@@ -2567,6 +2591,7 @@ hasKeptAtoms
 (
 )
 )
+{
 zone
 -
 >
@@ -2575,6 +2600,7 @@ traceAtomCache
 trc
 )
 ;
+}
 }
 }
 void
@@ -2852,6 +2878,7 @@ next
 (
 )
 )
+{
 r
 -
 >
@@ -2861,6 +2888,7 @@ trc
 traceOrMark
 )
 ;
+}
 /
 /
 Trace
@@ -3081,6 +3109,7 @@ traceOrMark
 =
 TraceRuntime
 )
+{
 (
 *
 op
@@ -3092,6 +3121,7 @@ grayRootTracer
 data
 )
 ;
+}
 }
 }
 }
@@ -3232,6 +3262,7 @@ next
 (
 )
 )
+{
 r
 -
 >
@@ -3239,6 +3270,7 @@ finishRoots
 (
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -3763,6 +3795,7 @@ next
 (
 )
 )
+{
 MOZ_ASSERT
 (
 zone
@@ -3777,6 +3810,7 @@ empty
 )
 )
 ;
+}
 BufferGrayRootsTracer
 grayBufferer
 (
@@ -3792,6 +3826,7 @@ grayRootTracer
 .
 op
 )
+{
 (
 *
 op
@@ -3804,6 +3839,7 @@ grayRootTracer
 data
 )
 ;
+}
 /
 /
 Propagate
@@ -4054,10 +4090,12 @@ append
 tenured
 )
 )
+{
 bufferingGrayRootsFailed
 =
 true
 ;
+}
 }
 }
 void
@@ -4122,8 +4160,10 @@ empty
 (
 )
 )
+{
 return
 ;
+}
 for
 (
 size_t
@@ -4326,6 +4366,7 @@ next
 (
 )
 )
+{
 zone
 -
 >
@@ -4337,6 +4378,7 @@ clearAndFree
 (
 )
 ;
+}
 }
 JS_PUBLIC_API
 (

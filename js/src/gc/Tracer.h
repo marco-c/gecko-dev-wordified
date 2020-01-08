@@ -1142,6 +1142,7 @@ get
 )
 )
 )
+{
 TraceEdge
 (
 trc
@@ -1149,6 +1150,7 @@ thingp
 name
 )
 ;
+}
 }
 template
 <
@@ -1192,6 +1194,7 @@ unbarrieredGet
 )
 )
 )
+{
 TraceEdge
 (
 trc
@@ -1199,6 +1202,7 @@ thingp
 name
 )
 ;
+}
 }
 /
 /
@@ -1390,6 +1394,7 @@ isMarkable
 thingp
 )
 )
+{
 gc
 :
 :
@@ -1406,6 +1411,7 @@ thingp
 name
 )
 ;
+}
 }
 template
 <

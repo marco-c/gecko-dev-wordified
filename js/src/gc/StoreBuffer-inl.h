@@ -480,8 +480,10 @@ if
 !
 cells
 )
+{
 return
 ;
+}
 }
 cells
 -

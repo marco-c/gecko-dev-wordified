@@ -454,9 +454,11 @@ if
 !
 map
 )
+{
 return
 false
 ;
+}
 ptr
 =
 map
@@ -596,6 +598,7 @@ if
 !
 result
 )
+{
 return
 WeakMapDetails
 :
@@ -610,6 +613,7 @@ NullValue
 (
 )
 ;
+}
 return
 result
 -

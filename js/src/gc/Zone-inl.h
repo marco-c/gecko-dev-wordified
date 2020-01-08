@@ -374,9 +374,11 @@ cell
 uid
 )
 )
+{
 return
 false
 ;
+}
 *
 hashp
 =
@@ -457,6 +459,7 @@ if
 (
 p
 )
+{
 *
 uidp
 =
@@ -467,6 +470,7 @@ value
 (
 )
 ;
+}
 return
 p
 .
@@ -618,9 +622,11 @@ cell
 uidp
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 If
@@ -777,6 +783,7 @@ cell
 uid
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -789,6 +796,7 @@ uid
 "
 )
 ;
+}
 return
 uid
 ;
@@ -1091,6 +1099,7 @@ value
 )
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -1108,6 +1117,7 @@ thread
 "
 )
 ;
+}
 }
 source
 -
