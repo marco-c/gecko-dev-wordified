@@ -84,7 +84,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-FindBarChild
+FindBarContent
 "
 ]
 ;
@@ -143,10 +143,6 @@ sync
 with
 toolkit
 /
-this
-.
-mm
-.
 content
 /
 widgets
@@ -172,7 +168,7 @@ FIND_LINKS
 2
 ;
 class
-FindBarChild
+FindBarContent
 {
 constructor
 (
