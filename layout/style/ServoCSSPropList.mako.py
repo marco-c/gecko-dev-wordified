@@ -553,6 +553,18 @@ Color
 "
     
 "
+Content
+"
+    
+"
+CounterIncrement
+"
+    
+"
+CounterReset
+"
+    
+"
 Integer
 "
     
