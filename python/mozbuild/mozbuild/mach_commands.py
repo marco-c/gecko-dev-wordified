@@ -14480,6 +14480,9 @@ run_process
 args
 =
 args
+ensure_exit_code
+=
+False
 line_handler
 =
 output
