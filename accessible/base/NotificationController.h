@@ -1050,9 +1050,6 @@ insertion
 void
 ScheduleContentInsertion
 (
-Accessible
-*
-aContainer
 nsIContent
 *
 aStartChildNode
