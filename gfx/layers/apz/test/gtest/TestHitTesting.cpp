@@ -1003,9 +1003,9 @@ APZHitTestingTester
 HitTesting1
 )
 {
-SCOPED_GFX_PREF
+SCOPED_GFX_VAR
 (
-WebRenderHitTest
+UseWebRender
 bool
 false
 )
@@ -1720,9 +1720,9 @@ APZHitTestingTester
 HitTesting2
 )
 {
-SCOPED_GFX_PREF
+SCOPED_GFX_VAR
 (
-WebRenderHitTest
+UseWebRender
 bool
 false
 )
@@ -3090,9 +3090,9 @@ APZHitTestingTester
 HitTesting3
 )
 {
-SCOPED_GFX_PREF
+SCOPED_GFX_VAR
 (
-WebRenderHitTest
+UseWebRender
 bool
 false
 )
@@ -3285,9 +3285,9 @@ APZHitTestingTester
 ComplexMultiLayerTree
 )
 {
-SCOPED_GFX_PREF
+SCOPED_GFX_VAR
 (
-WebRenderHitTest
+UseWebRender
 bool
 false
 )

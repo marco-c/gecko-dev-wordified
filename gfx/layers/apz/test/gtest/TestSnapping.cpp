@@ -156,9 +156,9 @@ APZCSnappingTester
 Bug1265510
 )
 {
-SCOPED_GFX_PREF
+SCOPED_GFX_VAR
 (
-WebRenderHitTest
+UseWebRender
 bool
 false
 )
@@ -688,9 +688,9 @@ APZCSnappingTester
 Snap_After_Pinch
 )
 {
-SCOPED_GFX_PREF
+SCOPED_GFX_VAR
 (
-WebRenderHitTest
+UseWebRender
 bool
 false
 )
