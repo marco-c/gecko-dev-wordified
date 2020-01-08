@@ -804,6 +804,9 @@ formDataSections
 "
 stacktrace
 "
+"
+isTrackingResource
+"
 ]
 ;
 const
