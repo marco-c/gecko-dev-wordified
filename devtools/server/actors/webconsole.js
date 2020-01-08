@@ -838,6 +838,10 @@ actors
 webconsole
 /
 listeners
+/
+document
+-
+events
 "
 true
 )
