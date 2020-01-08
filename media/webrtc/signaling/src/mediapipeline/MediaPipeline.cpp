@@ -11754,10 +11754,6 @@ EndTrack
 (
 )
 ;
-mListener
-=
-nullptr
-;
 }
 }
 void
@@ -12799,10 +12795,6 @@ mListener
 EndTrack
 (
 )
-;
-mListener
-=
-nullptr
 ;
 }
 }
