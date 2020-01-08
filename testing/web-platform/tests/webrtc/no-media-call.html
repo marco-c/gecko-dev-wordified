@@ -311,6 +311,10 @@ gSecondConnection
 setRemoteDescription
 (
 parsedOffer
+)
+.
+then
+(
 function
 (
 )
@@ -318,6 +322,10 @@ function
 gSecondConnection
 .
 createAnswer
+(
+)
+.
+then
 (
 onAnswerCreated
 failed
@@ -420,6 +428,10 @@ gFirstConnection
 setRemoteDescription
 (
 parsedAnswer
+)
+.
+then
+(
 ignoreSuccess
 failed
 (
@@ -905,6 +917,10 @@ connection
 gFirstConnection
 .
 createOffer
+(
+)
+.
+then
 (
 onOfferCreated
 failed
