@@ -388,11 +388,9 @@ querySelector
 "
 toolbar
 [
-is
-=
 printpreview
--
-toolbar
+=
+true
 ]
 "
 )
