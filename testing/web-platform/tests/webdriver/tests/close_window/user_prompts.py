@@ -114,9 +114,7 @@ create_dialog
 dialog_type
 text
 =
-"
-dialog
-"
+dialog_type
 )
     
 response
@@ -163,14 +161,28 @@ window_handle
 =
 original_handle
     
+#
+retval
+not
+testable
+for
+confirm
+and
+prompt
+because
+window
+is
+gone
+    
 assert_dialog_handled
 (
 session
 expected_text
 =
-"
-dialog
-"
+dialog_type
+expected_retval
+=
+None
 )
 def
 test_handle_prompt_accept_and_notify
@@ -232,17 +244,30 @@ parametrize
 (
 "
 dialog_type
+retval
 "
 [
+    
+(
 "
 alert
 "
+None
+)
+    
+(
 "
 confirm
 "
+False
+)
+    
+(
 "
 prompt
 "
+None
+)
 ]
 )
 def
@@ -252,6 +277,7 @@ session
 create_dialog
 create_window
 dialog_type
+retval
 )
 :
     
@@ -268,9 +294,7 @@ create_dialog
 dialog_type
 text
 =
-"
-dialog
-"
+dialog_type
 )
     
 response
@@ -295,7 +319,8 @@ assert_dialog_handled
 session
 expected_text
 =
-"
-dialog
-"
+dialog_type
+expected_retval
+=
+retval
 )
