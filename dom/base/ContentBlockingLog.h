@@ -555,6 +555,8 @@ nsAutoString
 buffer
 ;
 JSONWriter
+<
+>
 w
 (
 MakeUnique

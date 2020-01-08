@@ -2559,6 +2559,8 @@ HandleReportAndFinishReportingCallbacks
 UniquePtr
 <
 JSONWriter
+<
+>
 >
 aWriter
 nsIFinishDumpingCallback
@@ -3096,6 +3098,8 @@ HandleReportAndFinishReportingCallbacks
 UniquePtr
 <
 JSONWriter
+<
+>
 >
 mWriter
 ;
@@ -3570,6 +3574,8 @@ jsonWriter
 MakeUnique
 <
 JSONWriter
+<
+>
 >
 (
 MakeUnique

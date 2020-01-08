@@ -17175,6 +17175,8 @@ mozilla
 :
 :
 JSONWriter
+<
+>
 &
 aWriter
 )
@@ -18035,6 +18037,8 @@ mozilla
 :
 :
 JSONWriter
+<
+>
 &
 aWriter
 )
@@ -18300,6 +18304,8 @@ mozilla
 :
 :
 JSONWriter
+<
+>
 &
 aWriter
 )

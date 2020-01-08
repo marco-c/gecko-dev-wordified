@@ -275,8 +275,16 @@ nsCString
 aString
 )
 ;
+template
+<
+class
+AllocPolicy
+>
 class
 JSONWriter
+;
+class
+MallocAllocPolicy
 ;
 void
 ToJSON
@@ -286,6 +294,9 @@ DDLogValue
 &
 aValue
 JSONWriter
+<
+MallocAllocPolicy
+>
 &
 aJSONWriter
 const
