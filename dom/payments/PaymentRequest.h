@@ -824,11 +824,6 @@ override
 ;
 IMPL_EVENT_HANDLER
 (
-merchantvalidation
-)
-;
-IMPL_EVENT_HANDLER
-(
 shippingaddresschange
 )
 ;
@@ -884,15 +879,6 @@ UnregisterActivityObserver
 ;
 nsresult
 DispatchUpdateEvent
-(
-const
-nsAString
-&
-aType
-)
-;
-nsresult
-DispatchMerchantValidationEvent
 (
 const
 nsAString

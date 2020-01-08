@@ -8114,16 +8114,6 @@ event
 Atom
 (
 "
-onmerchantvalidation
-"
-"
-onmerchantvalidation
-"
-)
-    
-Atom
-(
-"
 onmessage
 "
 "
