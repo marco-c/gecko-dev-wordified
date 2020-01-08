@@ -171,7 +171,7 @@ h
 #
 include
 "
-nsINamedPipeService
+nsNamedPipeService
 .
 h
 "
@@ -1495,9 +1495,11 @@ NamedPipeInfo
 :
 mNamedPipeService
 (
-do_GetService
+NamedPipeService
+:
+:
+GetOrCreate
 (
-NS_NAMEDPIPESERVICE_CONTRACTID
 )
 )
 mPipe
