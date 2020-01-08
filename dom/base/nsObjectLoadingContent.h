@@ -2187,8 +2187,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandler
 )
 ;
 void

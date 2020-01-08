@@ -3459,8 +3459,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 {
 nsImageLoadingContent
@@ -3471,7 +3469,6 @@ BindToTree
 aDocument
 aParent
 aBindingParent
-aCompileEventHandlers
 )
 ;
 if

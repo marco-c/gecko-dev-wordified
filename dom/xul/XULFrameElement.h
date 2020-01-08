@@ -384,8 +384,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 override
 ;

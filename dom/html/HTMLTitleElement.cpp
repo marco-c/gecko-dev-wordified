@@ -410,8 +410,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 {
 /
@@ -432,7 +430,6 @@ BindToTree
 aDocument
 aParent
 aBindingParent
-aCompileEventHandlers
 )
 ;
 NS_ENSURE_SUCCESS

@@ -770,8 +770,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 override
 ;
@@ -10715,7 +10713,7 @@ aRv
 const
 ;
 void
-UpdateHadAudibleAutoplayState
+ReportAutoplayTelemetry
 (
 )
 const

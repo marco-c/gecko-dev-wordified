@@ -219,8 +219,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 override
 ;
@@ -230,12 +228,8 @@ UnbindFromTree
 (
 bool
 aDeep
-=
-true
 bool
 aNullParent
-=
-true
 )
 override
 ;

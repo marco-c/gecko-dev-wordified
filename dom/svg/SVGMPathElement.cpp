@@ -650,8 +650,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 {
 MOZ_ASSERT
@@ -694,7 +692,6 @@ BindToTree
 aDocument
 aParent
 aBindingParent
-aCompileEventHandlers
 )
 ;
 NS_ENSURE_SUCCESS

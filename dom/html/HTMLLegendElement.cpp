@@ -399,8 +399,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 {
 return
@@ -412,7 +410,6 @@ BindToTree
 aDocument
 aParent
 aBindingParent
-aCompileEventHandlers
 )
 ;
 }

@@ -22446,7 +22446,7 @@ void
 HTMLMediaElement
 :
 :
-UpdateHadAudibleAutoplayState
+ReportAutoplayTelemetry
 (
 )
 const
@@ -23075,7 +23075,7 @@ forget
 )
 ;
 }
-UpdateHadAudibleAutoplayState
+ReportAutoplayTelemetry
 (
 )
 ;
@@ -25592,8 +25592,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 {
 nsresult
@@ -25607,7 +25605,6 @@ BindToTree
 aDocument
 aParent
 aBindingParent
-aCompileEventHandlers
 )
 ;
 mUnboundFromTree
@@ -35034,7 +35031,7 @@ CanActivateAutoplay
 return
 ;
 }
-UpdateHadAudibleAutoplayState
+ReportAutoplayTelemetry
 (
 )
 ;

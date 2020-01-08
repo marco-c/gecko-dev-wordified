@@ -6988,8 +6988,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 {
 ReleaseInheritedAttributes
@@ -7007,7 +7005,6 @@ BindToTree
 aDocument
 aParent
 aBindingParent
-aCompileEventHandlers
 )
 ;
 NS_ENSURE_SUCCESS

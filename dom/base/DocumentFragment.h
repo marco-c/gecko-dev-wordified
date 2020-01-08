@@ -366,7 +366,6 @@ aFlags
 const
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -379,8 +378,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 override
 {

@@ -8172,7 +8172,6 @@ GetBindingParent
 )
 :
 nullptr
-true
 )
 ;
 if
