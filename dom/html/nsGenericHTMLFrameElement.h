@@ -382,8 +382,6 @@ dom
 Element
 *
 aDest
-bool
-aPreallocateChildren
 )
 ;
 virtual

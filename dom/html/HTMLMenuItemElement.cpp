@@ -888,9 +888,6 @@ HTMLMenuItemElement
 :
 Clone
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -901,8 +898,6 @@ nsINode
 *
 *
 aResult
-bool
-aPreallocateArrays
 )
 const
 {
@@ -970,7 +965,6 @@ this
 CopyInnerTo
 (
 it
-aPreallocateArrays
 )
 ;
 if

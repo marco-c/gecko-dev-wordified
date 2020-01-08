@@ -195,13 +195,9 @@ NS_IMPL_FROMNODE_HTML_WITH_TAG
 HTMLDialogElement
 dialog
 )
-virtual
 nsresult
 Clone
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -212,8 +208,6 @@ nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 override

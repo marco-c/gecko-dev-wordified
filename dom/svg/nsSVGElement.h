@@ -432,13 +432,10 @@ dom
 :
 NodeInfo
 *
-aNodeInfo
 nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 MOZ_MUST_OVERRIDE

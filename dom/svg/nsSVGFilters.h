@@ -534,13 +534,10 @@ dom
 :
 NodeInfo
 *
-aNodeInfo
 nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 override
@@ -1041,13 +1038,10 @@ dom
 :
 NodeInfo
 *
-aNodeInfo
 nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 override

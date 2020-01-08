@@ -837,8 +837,6 @@ CopyInnerTo
 FragmentOrElement
 *
 aDest
-bool
-aPreallocateChildren
 )
 ;
 public

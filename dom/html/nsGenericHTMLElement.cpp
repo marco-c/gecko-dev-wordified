@@ -846,8 +846,6 @@ CopyInnerTo
 Element
 *
 aDst
-bool
-aPreallocateChildren
 )
 {
 MOZ_ASSERT
@@ -871,9 +869,6 @@ document
 "
 )
 ;
-nsresult
-rv
-;
 bool
 reparse
 =
@@ -891,6 +886,7 @@ OwnerDoc
 )
 )
 ;
+nsresult
 rv
 =
 static_cast
@@ -908,7 +904,6 @@ mAttrs
 EnsureCapacityToClone
 (
 mAttrs
-aPreallocateChildren
 )
 ;
 NS_ENSURE_SUCCESS

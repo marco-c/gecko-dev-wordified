@@ -13099,8 +13099,6 @@ CopyInnerTo
 FragmentOrElement
 *
 aDst
-bool
-aPreallocateChildren
 )
 {
 nsresult
@@ -13114,7 +13112,6 @@ mAttrs
 EnsureCapacityToClone
 (
 mAttrs
-aPreallocateChildren
 )
 ;
 NS_ENSURE_SUCCESS
