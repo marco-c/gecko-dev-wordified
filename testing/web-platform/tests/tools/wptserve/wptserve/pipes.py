@@ -31,7 +31,6 @@ six
 import
 text_type
 binary_type
-string_types
 def
 resolve_content
 (
@@ -3564,7 +3563,10 @@ isinstance
 value
 (
 int
-string_types
+(
+binary_type
+text_type
+)
 )
 )
 tokens
