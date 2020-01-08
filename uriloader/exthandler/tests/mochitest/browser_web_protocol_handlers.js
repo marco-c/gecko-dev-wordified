@@ -52,10 +52,11 @@ gBrowser
 .
 selectedBrowser
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 testURL
 )
 ;
