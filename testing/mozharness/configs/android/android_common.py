@@ -320,7 +320,7 @@ virtualenv
 '
 verify
 -
-emulator
+device
 '
         
 '
