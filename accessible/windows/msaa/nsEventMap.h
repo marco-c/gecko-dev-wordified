@@ -756,5 +756,12 @@ nsIAccessibleEvent
 :
 :
 EVENT_TEXT_VALUE_CHANGE
+kEVENT_WIN_UNKNOWN
+/
+/
+nsIAccessibleEvent
+:
+:
+EVENT_SCROLLING
 }
 ;

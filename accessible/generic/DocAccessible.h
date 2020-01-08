@@ -3156,6 +3156,13 @@ void
 aClosure
 )
 ;
+void
+DispatchScrollingEvent
+(
+uint32_t
+aEventType
+)
+;
 protected
 :
 /
@@ -3255,6 +3262,9 @@ for
 tracking
 scroll
 events
+TimeStamp
+mLastScrollingDispatch
+;
 /
 *
 *
