@@ -383,6 +383,16 @@ aWaitCondition
 nullptr
 )
 ;
+void
+PostVRTask
+(
+)
+;
+void
+RunVRTask
+(
+)
+;
 #
 else
 bool
