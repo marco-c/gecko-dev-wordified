@@ -180,15 +180,6 @@ leanplum
 .
 internal
 ;
-/
-/
-import
-com
-.
-leanplum
-.
-BuildConfig
-;
 import
 java
 .

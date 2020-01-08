@@ -310,16 +310,6 @@ run
 {
 try
 {
-JSONObject
-registerResponse
-=
-Request
-.
-getLastResponse
-(
-response
-)
-;
 boolean
 isSuccess
 =
@@ -327,7 +317,7 @@ Request
 .
 isResponseSuccess
 (
-registerResponse
+response
 )
 ;
 if
@@ -362,7 +352,7 @@ Request
 .
 getResponseError
 (
-registerResponse
+response
 )
 )
 ;

@@ -309,12 +309,10 @@ getExtras
 ;
 if
 (
-!
 extras
-.
-isEmpty
-(
-)
+!
+=
+null
 &
 &
 extras

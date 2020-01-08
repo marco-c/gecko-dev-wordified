@@ -227,6 +227,7 @@ registrationId
 )
 ;
 }
+Override
 public
 String
 getRegistrationId
@@ -239,6 +240,7 @@ getCurrentRegistrationId
 )
 ;
 }
+Override
 public
 boolean
 isInitialized
@@ -249,9 +251,10 @@ return
 true
 ;
 }
+Override
 public
 boolean
-isManifestSetUp
+isManifestSetup
 (
 )
 {
@@ -259,6 +262,7 @@ return
 true
 ;
 }
+Override
 public
 void
 unregister
