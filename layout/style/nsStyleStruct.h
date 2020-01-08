@@ -17376,6 +17376,12 @@ selection
 -
 style
 )
+mozilla
+:
+:
+StyleScrollbarWidth
+mScrollbarWidth
+;
 uint8_t
 mForceBrokenImageIcon
 ;

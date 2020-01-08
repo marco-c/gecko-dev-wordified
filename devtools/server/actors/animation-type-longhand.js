@@ -840,6 +840,11 @@ stack
 sizing
 "
 "
+scrollbar
+-
+width
+"
+"
 stroke
 -
 linecap
