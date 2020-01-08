@@ -840,6 +840,7 @@ isWasmTrapping
 (
 )
 )
+{
 activation_
 -
 >
@@ -847,6 +848,7 @@ finishWasmTrap
 (
 )
 ;
+}
 activation_
 -
 >
@@ -1818,11 +1820,13 @@ if
 (
 column
 )
+{
 *
 column
 =
 1
 ;
+}
 return
 lineOrBytecode_
 ;
@@ -2033,6 +2037,7 @@ if
 (
 column
 )
+{
 *
 column
 =
@@ -2045,6 +2050,7 @@ funcIndex
 |
 ColumnBit
 ;
+}
 return
 lineOrBytecode_
 ;
@@ -3747,6 +3753,7 @@ if
 (
 framePushed
 )
+{
 masm
 .
 freeStack
@@ -3754,6 +3761,7 @@ freeStack
 framePushed
 )
 ;
+}
 if
 (
 !
@@ -3763,12 +3771,14 @@ isNone
 (
 )
 )
+{
 ClearExitFP
 (
 masm
 ABINonArgReturnVolatileReg
 )
 ;
+}
 DebugOnly
 <
 uint32_t
@@ -7058,11 +7068,14 @@ funcNormalEntry
 (
 )
 )
+{
 offsetFromEntry
 =
 0
 ;
+}
 else
+{
 offsetFromEntry
 =
 offsetInCode
@@ -7074,6 +7087,7 @@ funcNormalEntry
 (
 )
 ;
+}
 }
 else
 {
@@ -8417,9 +8431,11 @@ FailFP
 ExitOrJitEntryFPTag
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -10732,6 +10748,7 @@ isFixed
 (
 )
 )
+{
 return
 ThunkedNativeToDescription
 (
@@ -10742,6 +10759,7 @@ symbolic
 )
 )
 ;
+}
 switch
 (
 exitReason_
@@ -11107,9 +11125,11 @@ if
 !
 codeRange
 )
+{
 return
 nullptr
 ;
+}
 size_t
 offsetInModule
 =
@@ -11308,9 +11328,11 @@ LookupCodeSegment
 pc
 )
 )
+{
 return
 true
 ;
+}
 const
 CodeRange
 *
