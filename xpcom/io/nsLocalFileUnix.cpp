@@ -635,6 +635,12 @@ bool
 aIgnored
 )
 ;
+NS_FORWARD_NSISIMPLEENUMERATORBASE
+(
+nsSimpleEnumerator
+:
+:
+)
 private
 :
 ~
