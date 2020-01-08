@@ -177,6 +177,12 @@ shaderType
 )
 const
 ;
+GLuint
+activeShaderCount
+(
+)
+const
+;
 private
 :
 ShaderBitSet

@@ -75,6 +75,9 @@ debug
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 Input
@@ -826,3 +829,8 @@ nRead
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle

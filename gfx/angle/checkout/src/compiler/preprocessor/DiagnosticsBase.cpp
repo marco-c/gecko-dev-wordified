@@ -65,6 +65,9 @@ debug
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 Diagnostics
@@ -769,3 +772,8 @@ return
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle

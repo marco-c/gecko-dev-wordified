@@ -8477,6 +8477,9 @@ endif
 endif
 #
 define
+YY_NO_INPUT
+#
+define
 YY_USER_ACTION
 \
 yylloc
@@ -19480,6 +19483,9 @@ yyscan_t
 yyscanner
 )
 {
+angle
+:
+:
 pp
 :
 :
@@ -19510,6 +19516,9 @@ token
 type
 =
 =
+angle
+:
+:
 pp
 :
 :
@@ -21101,6 +21110,9 @@ getScanner
 Initialize
 preprocessor
 .
+angle
+:
+:
 pp
 :
 :

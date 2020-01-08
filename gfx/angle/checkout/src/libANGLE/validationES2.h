@@ -72,7 +72,7 @@ include
 "
 libANGLE
 /
-PackedGLEnums
+PackedEnums
 .
 h
 "
@@ -527,7 +527,7 @@ pixels
 )
 ;
 bool
-ValidateTexImage2DRobust
+ValidateTexImage2DRobustANGLE
 (
 Context
 *

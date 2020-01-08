@@ -65,6 +65,9 @@ angleutils
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 class
@@ -325,6 +328,11 @@ mImpl
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle
 #
 endif
 /

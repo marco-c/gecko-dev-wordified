@@ -51,6 +51,9 @@ COMPILER_PREPROCESSOR_SOURCELOCATION_H_
 define
 COMPILER_PREPROCESSOR_SOURCELOCATION_H_
 namespace
+angle
+{
+namespace
 pp
 {
 struct
@@ -183,6 +186,11 @@ rhs
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle
 #
 endif
 /

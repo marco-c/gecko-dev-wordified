@@ -61,6 +61,9 @@ include
 vector
 >
 namespace
+angle
+{
+namespace
 pp
 {
 /
@@ -274,6 +277,11 @@ mReadLoc
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle
 #
 endif
 /

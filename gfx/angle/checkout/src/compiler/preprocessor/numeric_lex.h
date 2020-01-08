@@ -75,6 +75,9 @@ include
 sstream
 >
 namespace
+angle
+{
+namespace
 pp
 {
 inline
@@ -479,7 +482,11 @@ value
 /
 namespace
 pp
-.
+}
+/
+/
+namespace
+angle
 #
 endif
 /

@@ -130,8 +130,13 @@ define
 NOTREACHED
 (
 )
+(
+{
 UNREACHABLE
 (
+)
+;
+}
 )
 #
 endif

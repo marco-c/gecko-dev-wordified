@@ -86,6 +86,15 @@ include
 "
 libANGLE
 /
+PackedEnums
+.
+h
+"
+#
+include
+"
+libANGLE
+/
 RefCountObject
 .
 h
@@ -238,7 +247,7 @@ bool
 available
 )
 ;
-GLenum
+QueryType
 getType
 (
 )

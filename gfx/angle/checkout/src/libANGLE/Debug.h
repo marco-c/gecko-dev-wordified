@@ -235,6 +235,7 @@ string
 &
 message
 )
+const
 ;
 void
 insertMessage
@@ -255,6 +256,7 @@ string
 &
 message
 )
+const
 ;
 void
 setMessageControl
@@ -486,6 +488,7 @@ void
 *
 mCallbackUserParam
 ;
+mutable
 std
 :
 :

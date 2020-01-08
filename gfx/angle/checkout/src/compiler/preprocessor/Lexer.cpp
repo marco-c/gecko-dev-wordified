@@ -56,6 +56,9 @@ Lexer
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 Lexer
@@ -72,3 +75,8 @@ Lexer
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle

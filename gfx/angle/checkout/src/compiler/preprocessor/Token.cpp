@@ -76,6 +76,9 @@ numeric_lex
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 void
@@ -378,3 +381,8 @@ out
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle

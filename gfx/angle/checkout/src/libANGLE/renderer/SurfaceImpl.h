@@ -317,6 +317,13 @@ egl
 Error
 bindTexImage
 (
+const
+gl
+:
+:
+Context
+*
+context
 gl
 :
 :
@@ -336,6 +343,13 @@ egl
 Error
 releaseTexImage
 (
+const
+gl
+:
+:
+Context
+*
+context
 EGLint
 buffer
 )

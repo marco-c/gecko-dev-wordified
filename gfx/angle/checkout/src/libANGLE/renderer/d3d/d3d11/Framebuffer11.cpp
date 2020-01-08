@@ -2331,6 +2331,13 @@ Framebuffer11
 :
 getSamplePosition
 (
+const
+gl
+:
+:
+Context
+*
+context
 size_t
 index
 GLfloat

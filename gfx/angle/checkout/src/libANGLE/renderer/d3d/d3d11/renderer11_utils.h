@@ -296,8 +296,11 @@ featureLevel
 D3D11_QUERY
 ConvertQueryType
 (
-GLenum
-queryType
+gl
+:
+:
+QueryType
+type
 )
 ;
 UINT8

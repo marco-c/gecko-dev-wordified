@@ -535,6 +535,10 @@ const
 void
 onBindingChanged
 (
+const
+Context
+*
+context
 bool
 bound
 )
@@ -566,6 +570,10 @@ mImplementation
 }
 ;
 }
+/
+/
+namespace
+gl
 #
 endif
 /

@@ -72,6 +72,9 @@ SourceLocation
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 struct
@@ -458,8 +461,13 @@ token
 }
 /
 /
-namepsace
+namespace
 pp
+}
+/
+/
+namespace
+angle
 #
 endif
 /

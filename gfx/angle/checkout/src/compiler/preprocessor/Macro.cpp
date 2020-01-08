@@ -76,6 +76,9 @@ Token
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 Macro
@@ -270,3 +273,8 @@ macro
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle

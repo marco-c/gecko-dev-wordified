@@ -56,6 +56,9 @@ include
 string
 >
 namespace
+angle
+{
+namespace
 pp
 {
 struct
@@ -213,6 +216,11 @@ text
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle
 #
 endif
 /

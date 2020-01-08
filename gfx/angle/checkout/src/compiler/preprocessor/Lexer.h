@@ -60,6 +60,9 @@ angleutils
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 struct
@@ -99,6 +102,11 @@ token
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle
 #
 endif
 /

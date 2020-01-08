@@ -162,10 +162,14 @@ map
 namespace
 gl
 {
-struct
+class
 ImageIndex
 ;
 }
+/
+/
+namespace
+gl
 namespace
 rx
 {

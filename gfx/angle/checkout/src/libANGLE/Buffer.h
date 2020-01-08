@@ -144,7 +144,7 @@ include
 "
 libANGLE
 /
-PackedGLEnums
+PackedEnums
 .
 h
 "
@@ -671,6 +671,10 @@ const
 void
 onBindingChanged
 (
+const
+Context
+*
+context
 bool
 bound
 BufferBinding

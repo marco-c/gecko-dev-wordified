@@ -3420,11 +3420,15 @@ color
 )
 ;
 }
+ANGLE_TRY
+(
 t
 -
 >
 syncState
 (
+context
+)
 )
 ;
 mIncompleteTextures

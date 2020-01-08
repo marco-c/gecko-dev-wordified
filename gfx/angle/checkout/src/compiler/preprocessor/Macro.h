@@ -71,6 +71,9 @@ include
 vector
 >
 namespace
+angle
+{
+namespace
 pp
 {
 struct
@@ -195,6 +198,11 @@ value
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle
 #
 endif
 /

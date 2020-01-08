@@ -316,7 +316,7 @@ available
 )
 ;
 }
-GLenum
+QueryType
 Query
 :
 :

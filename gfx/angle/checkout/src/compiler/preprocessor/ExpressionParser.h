@@ -71,6 +71,9 @@ DiagnosticsBase
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 class
@@ -150,6 +153,11 @@ mDiagnostics
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle
 #
 endif
 /

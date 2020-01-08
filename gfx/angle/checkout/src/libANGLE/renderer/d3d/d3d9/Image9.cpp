@@ -2942,10 +2942,14 @@ getSurfaceLevel
 context
 index
 .
-target
+getTarget
+(
+)
 index
 .
-mipIndex
+getLevelIndex
+(
+)
 true
 &
 destSurface

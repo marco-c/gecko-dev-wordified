@@ -4569,7 +4569,6 @@ ValidateFramebufferComplete
 (
 context
 framebuffer
-true
 )
 )
 {
@@ -5678,7 +5677,7 @@ gl
 Context
 *
 context
-GLenum
+QueryType
 target
 GLuint
 id
@@ -5727,7 +5726,7 @@ gl
 Context
 *
 context
-GLenum
+QueryType
 target
 )
 {
@@ -5770,7 +5769,7 @@ ValidateGetQueryiv
 Context
 *
 context
-GLenum
+QueryType
 target
 GLenum
 pname
@@ -6443,7 +6442,6 @@ getGLState
 getDrawFramebuffer
 (
 )
-true
 )
 )
 {

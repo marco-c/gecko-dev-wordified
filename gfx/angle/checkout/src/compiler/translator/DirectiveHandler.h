@@ -111,6 +111,9 @@ class
 TDirectiveHandler
 :
 public
+angle
+:
+:
 pp
 :
 :
@@ -176,6 +179,9 @@ void
 handleError
 (
 const
+angle
+:
+:
 pp
 :
 :
@@ -196,6 +202,9 @@ void
 handlePragma
 (
 const
+angle
+:
+:
 pp
 :
 :
@@ -225,6 +234,9 @@ void
 handleExtension
 (
 const
+angle
+:
+:
 pp
 :
 :
@@ -252,6 +264,9 @@ void
 handleVersion
 (
 const
+angle
+:
+:
 pp
 :
 :

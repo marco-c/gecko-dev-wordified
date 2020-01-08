@@ -1153,6 +1153,9 @@ mPreprocessor
 mDiagnostics
 &
 mDirectiveHandler
+angle
+:
+:
 pp
 :
 :
@@ -10260,6 +10263,9 @@ char
 behavior
 )
 {
+angle
+:
+:
 pp
 :
 :
@@ -10314,6 +10320,9 @@ bool
 stdgl
 )
 {
+angle
+:
+:
 pp
 :
 :
@@ -15547,7 +15556,8 @@ symbolTable
 .
 addInvariantVarying
 (
-identifier
+*
+variable
 )
 ;
 TIntermSymbol

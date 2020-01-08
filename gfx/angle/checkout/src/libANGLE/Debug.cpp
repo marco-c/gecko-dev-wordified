@@ -357,6 +357,7 @@ string
 &
 message
 )
+const
 {
 std
 :
@@ -405,6 +406,7 @@ string
 &
 message
 )
+const
 {
 if
 (

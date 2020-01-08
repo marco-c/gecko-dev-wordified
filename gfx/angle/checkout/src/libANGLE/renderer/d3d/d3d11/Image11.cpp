@@ -251,15 +251,6 @@ nullptr
 )
 mAssociatedImageIndex
 (
-gl
-:
-:
-ImageIndex
-:
-:
-MakeInvalid
-(
-)
 )
 mRecoveredFromStorageCount
 (
@@ -1502,9 +1493,6 @@ gl
 :
 :
 ImageIndex
-:
-:
-MakeInvalid
 (
 )
 ;

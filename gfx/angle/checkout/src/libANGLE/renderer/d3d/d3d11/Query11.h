@@ -120,7 +120,10 @@ Query11
 Renderer11
 *
 renderer
-GLenum
+gl
+:
+:
+QueryType
 type
 )
 ;
@@ -253,6 +256,10 @@ QueryState
 QueryState
 (
 )
+;
+unsigned
+int
+getDataAttemptCount
 ;
 d3d11
 :

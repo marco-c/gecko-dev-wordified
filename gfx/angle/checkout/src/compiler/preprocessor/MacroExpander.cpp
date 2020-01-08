@@ -92,6 +92,9 @@ Token
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 namespace
@@ -2733,3 +2736,8 @@ index
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle

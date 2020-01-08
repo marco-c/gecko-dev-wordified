@@ -182,9 +182,6 @@ gl
 :
 :
 ImageIndex
-:
-:
-MakeInvalid
 (
 )
 ;
@@ -282,7 +279,7 @@ gl
 ImageIndex
 :
 :
-MakeGeneric
+MakeFromTarget
 (
 target
 mip

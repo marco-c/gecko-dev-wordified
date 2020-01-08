@@ -84,6 +84,9 @@ Lexer
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 class
@@ -269,6 +272,11 @@ size
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle
 #
 endif
 /

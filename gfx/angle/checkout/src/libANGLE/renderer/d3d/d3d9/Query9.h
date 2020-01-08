@@ -100,7 +100,10 @@ Query9
 Renderer9
 *
 renderer
-GLenum
+gl
+:
+:
+QueryType
 type
 )
 ;
@@ -222,6 +225,10 @@ T
 *
 params
 )
+;
+unsigned
+int
+mGetDataAttemptCount
 ;
 GLuint64
 mResult

@@ -84,6 +84,9 @@ SourceLocation
 h
 "
 namespace
+angle
+{
+namespace
 pp
 {
 class
@@ -404,6 +407,11 @@ mMaxMacroExpansionDepth
 /
 namespace
 pp
+}
+/
+/
+namespace
+angle
 #
 endif
 /
