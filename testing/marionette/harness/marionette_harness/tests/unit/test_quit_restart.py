@@ -1616,7 +1616,7 @@ self
 .
 marionette
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
         
 #
 Wait
@@ -1638,7 +1638,7 @@ self
 .
 marionette
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
 =
 70
         
@@ -1691,7 +1691,7 @@ self
 .
 marionette
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
 =
 timeout_shutdown
     
@@ -1731,13 +1731,13 @@ self
 .
 marionette
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
             
 self
 .
 marionette
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
 =
 5
             
@@ -1782,7 +1782,7 @@ self
 .
 marionette
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
 =
 timeout_shutdown
     
@@ -2268,13 +2268,13 @@ self
 .
 marionette
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
             
 self
 .
 marionette
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
 =
 5
             
@@ -2315,7 +2315,7 @@ self
 .
 marionette
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
 =
 timeout
     
