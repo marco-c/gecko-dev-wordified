@@ -199,6 +199,14 @@ size
 ;
 grid
 -
+column
+-
+gap
+:
+40px
+;
+grid
+-
 template
 -
 columns
