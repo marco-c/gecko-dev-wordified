@@ -275,6 +275,11 @@ public
 CompositorVsyncSchedulerOwner
 public
 CompositableParentManager
+public
+layers
+:
+:
+FrameRecorder
 {
 public
 :
