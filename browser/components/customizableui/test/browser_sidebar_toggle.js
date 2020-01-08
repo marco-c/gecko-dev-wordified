@@ -375,11 +375,6 @@ BrowserTestUtils
 .
 openNewBrowserWindow
 (
-{
-opener
-:
-window
-}
 )
 ;
 await
