@@ -301,6 +301,10 @@ ImageInfo
 :
 Clear
 (
+const
+char
+*
+funcName
 )
 {
 if
@@ -314,6 +318,7 @@ return
 ;
 OnRespecify
 (
+funcName
 )
 ;
 Mutable
@@ -362,6 +367,10 @@ ImageInfo
 :
 Set
 (
+const
+char
+*
+funcName
 const
 ImageInfo
 &
@@ -443,6 +452,7 @@ empty
 ;
 OnRespecify
 (
+funcName
 )
 ;
 }
@@ -575,6 +585,10 @@ ImageInfo
 :
 OnRespecify
 (
+const
+char
+*
+funcName
 )
 const
 {
@@ -591,6 +605,7 @@ cur
 >
 OnBackingStoreRespecified
 (
+funcName
 )
 ;
 }
@@ -867,6 +882,19 @@ Delete
 (
 )
 {
+const
+char
+funcName
+[
+]
+=
+"
+WebGLTexture
+:
+:
+Delete
+"
+;
 for
 (
 auto
@@ -880,6 +908,7 @@ cur
 .
 Clear
 (
+funcName
 )
 ;
 }
@@ -964,6 +993,10 @@ WebGLTexture
 :
 SetImageInfo
 (
+const
+char
+*
+funcName
 ImageInfo
 *
 target
@@ -978,6 +1011,7 @@ target
 >
 Set
 (
+funcName
 newInfo
 )
 ;
@@ -992,6 +1026,10 @@ WebGLTexture
 :
 SetImageInfosAtLevel
 (
+const
+char
+*
+funcName
 uint32_t
 level
 const
@@ -1024,6 +1062,7 @@ level
 .
 Set
 (
+funcName
 newInfo
 )
 ;
@@ -1039,6 +1078,10 @@ WebGLTexture
 :
 IsMipmapComplete
 (
+const
+char
+*
+funcName
 uint32_t
 texUnit
 bool
@@ -1179,6 +1222,7 @@ if
 !
 EnsureLevelInitialized
 (
+funcName
 level
 )
 )
@@ -1769,6 +1813,10 @@ WebGLTexture
 :
 IsComplete
 (
+const
+char
+*
+funcName
 uint32_t
 texUnit
 const
@@ -2131,6 +2179,7 @@ requiresMipmap
 !
 IsMipmapComplete
 (
+funcName
 texUnit
 out_initFailed
 )
@@ -2995,6 +3044,7 @@ if
 !
 EnsureLevelInitialized
 (
+funcName
 mBaseMipmapLevel
 )
 )
@@ -3165,6 +3215,10 @@ WebGLTexture
 :
 GetFakeBlackType
 (
+const
+char
+*
+funcName
 uint32_t
 texUnit
 FakeBlackType
@@ -3188,6 +3242,7 @@ if
 !
 IsComplete
 (
+funcName
 texUnit
 &
 incompleteReason
@@ -3207,6 +3262,9 @@ mContext
 ErrorOutOfMemory
 (
 "
+%
+s
+:
 Failed
 to
 initialize
@@ -3214,6 +3272,7 @@ texture
 data
 .
 "
+funcName
 )
 ;
 return
@@ -3238,6 +3297,9 @@ mContext
 GenerateWarning
 (
 "
+%
+s
+:
 Active
 texture
 %
@@ -3285,6 +3347,7 @@ GLES
 %
 s
 "
+funcName
 texUnit
 mTarget
 .
@@ -3456,6 +3519,10 @@ WebGLTexture
 :
 ResolveForDraw
 (
+const
+char
+*
+funcName
 uint32_t
 texUnit
 FakeBlackType
@@ -3475,6 +3542,7 @@ if
 !
 GetFakeBlackType
 (
+funcName
 texUnit
 &
 mResolved_FakeBlack
@@ -3646,6 +3714,10 @@ WebGLTexture
 :
 EnsureImageDataInitialized
 (
+const
+char
+*
+funcName
 TexImageTarget
 target
 uint32_t
@@ -3688,6 +3760,7 @@ true
 return
 InitializeImageData
 (
+funcName
 target
 level
 )
@@ -3699,6 +3772,10 @@ WebGLTexture
 :
 EnsureLevelInitialized
 (
+const
+char
+*
+funcName
 uint32_t
 level
 )
@@ -3713,6 +3790,7 @@ LOCAL_GL_TEXTURE_CUBE_MAP
 return
 EnsureImageDataInitialized
 (
+funcName
 mTarget
 .
 get
@@ -3743,6 +3821,7 @@ if
 !
 EnsureImageDataInitialized
 (
+funcName
 texImageTarget
 level
 )
@@ -3966,6 +4045,10 @@ ZeroTextureData
 WebGLContext
 *
 webgl
+const
+char
+*
+funcName
 GLuint
 tex
 TexImageTarget
@@ -4096,6 +4179,9 @@ webgl
 GenerateWarning
 (
 "
+%
+s
+:
 This
 operation
 requires
@@ -4110,6 +4196,7 @@ is
 slow
 .
 "
+funcName
 )
 ;
 gl
@@ -4651,6 +4738,10 @@ WebGLTexture
 :
 InitializeImageData
 (
+const
+char
+*
+funcName
 TexImageTarget
 target
 uint32_t
@@ -4728,6 +4819,7 @@ if
 ZeroTextureData
 (
 mContext
+funcName
 mGLName
 target
 level
@@ -4868,6 +4960,10 @@ WebGLTexture
 :
 PopulateMipChain
 (
+const
+char
+*
+funcName
 uint32_t
 firstLevel
 uint32_t
@@ -5079,6 +5175,7 @@ IsDataInitialized
 ;
 SetImageInfosAtLevel
 (
+funcName
 level
 cur
 )
@@ -5450,7 +5547,16 @@ TexTarget
 texTarget
 )
 {
-\
+const
+char
+funcName
+[
+]
+=
+"
+generateMipmap
+"
+;
 /
 /
 GLES
@@ -5538,6 +5644,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 The
 base
 level
@@ -5551,6 +5660,7 @@ not
 defined
 .
 "
+funcName
 )
 ;
 return
@@ -5575,6 +5685,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Cube
 maps
 must
@@ -5587,6 +5700,7 @@ complete
 "
 .
 "
+funcName
 )
 ;
 return
@@ -5630,6 +5744,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 The
 base
 level
@@ -5649,6 +5766,7 @@ two
 dimensions
 .
 "
+funcName
 )
 ;
 return
@@ -5668,6 +5786,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 EXT_sRGB
 forbids
 GenerateMipmap
@@ -5677,6 +5798,7 @@ with
 sRGB
 .
 "
+funcName
 )
 ;
 return
@@ -5697,6 +5819,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Texture
 data
 at
@@ -5706,6 +5831,7 @@ is
 compressed
 .
 "
+funcName
 )
 ;
 return
@@ -5725,6 +5851,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Depth
 textures
 are
@@ -5732,6 +5861,7 @@ not
 supported
 .
 "
+funcName
 )
 ;
 return
@@ -5902,6 +6032,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Texture
 at
 base
@@ -5927,6 +6060,7 @@ texture
 filterable
 .
 "
+funcName
 )
 ;
 return
@@ -6142,6 +6276,7 @@ PossibleMipmapLevels
 ;
 PopulateMipChain
 (
+funcName
 mBaseMipmapLevel
 maxLevel
 )
@@ -6828,6 +6963,8 @@ mContext
 ErrorInvalidEnum
 (
 "
+texParameteri
+:
 pname
 0x
 %
@@ -6857,6 +6994,8 @@ mContext
 ErrorInvalidEnum
 (
 "
+texParameterf
+:
 pname
 0x
 %
@@ -6897,6 +7036,8 @@ mContext
 ErrorInvalidValue
 (
 "
+texParameteri
+:
 pname
 0x
 %
@@ -6933,6 +7074,8 @@ mContext
 ErrorInvalidValue
 (
 "
+texParameterf
+:
 pname
 0x
 %

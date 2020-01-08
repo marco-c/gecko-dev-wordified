@@ -303,8 +303,22 @@ Unlink
 (
 )
 {
+const
+char
+funcName
+[
+]
+=
+"
+WebGLFramebuffer
+:
+:
+GC
+"
+;
 Clear
 (
+funcName
 )
 ;
 }
@@ -591,6 +605,10 @@ WebGLFBAttachPoint
 :
 Clear
 (
+const
+char
+*
+funcName
 )
 {
 if
@@ -645,6 +663,7 @@ nullptr
 ;
 OnBackingStoreRespecified
 (
+funcName
 )
 ;
 }
@@ -654,6 +673,10 @@ WebGLFBAttachPoint
 :
 SetTexImage
 (
+const
+char
+*
+funcName
 WebGLTexture
 *
 tex
@@ -667,6 +690,7 @@ layer
 {
 Clear
 (
+funcName
 )
 ;
 mTexturePtr
@@ -712,6 +736,10 @@ WebGLFBAttachPoint
 :
 SetRenderbuffer
 (
+const
+char
+*
+funcName
 WebGLRenderbuffer
 *
 rb
@@ -719,6 +747,7 @@ rb
 {
 Clear
 (
+funcName
 )
 ;
 mRenderbufferPtr
@@ -1070,6 +1099,10 @@ WebGLFBAttachPoint
 :
 OnBackingStoreRespecified
 (
+const
+char
+*
+funcName
 )
 const
 {
@@ -1078,6 +1111,7 @@ mFB
 >
 InvalidateFramebufferStatus
 (
+funcName
 )
 ;
 }
@@ -1855,6 +1889,10 @@ WebGLFBAttachPoint
 :
 GetParameter
 (
+const
+char
+*
+funcName
 WebGLContext
 *
 webgl
@@ -2058,6 +2096,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 No
 attachment
 at
@@ -2065,6 +2106,7 @@ at
 s
 .
 "
+funcName
 attachmentName
 .
 BeginReading
@@ -2081,6 +2123,9 @@ webgl
 ErrorInvalidEnum
 (
 "
+%
+s
+:
 No
 attachment
 at
@@ -2088,6 +2133,7 @@ at
 s
 .
 "
+funcName
 attachmentName
 .
 BeginReading
@@ -2387,6 +2433,9 @@ webgl
 ErrorInvalidEnum
 (
 "
+%
+s
+:
 Invalid
 pname
 :
@@ -2394,6 +2443,7 @@ pname
 %
 04x
 "
+funcName
 pname
 )
 ;
@@ -3213,26 +3263,43 @@ Delete
 (
 )
 {
+const
+char
+funcName
+[
+]
+=
+"
+WebGLFramebuffer
+:
+:
+Delete
+"
+;
 InvalidateFramebufferStatus
 (
+funcName
 )
 ;
 mDepthAttachment
 .
 Clear
 (
+funcName
 )
 ;
 mStencilAttachment
 .
 Clear
 (
+funcName
 )
 ;
 mDepthStencilAttachment
 .
 Clear
 (
+funcName
 )
 ;
 for
@@ -3248,6 +3315,7 @@ cur
 .
 Clear
 (
+funcName
 )
 ;
 }
@@ -3488,6 +3556,10 @@ WebGLFramebuffer
 DetachTexture
 (
 const
+char
+*
+funcName
+const
 WebGLTexture
 *
 tex
@@ -3522,6 +3594,7 @@ attach
 .
 Clear
 (
+funcName
 )
 ;
 }
@@ -3538,6 +3611,10 @@ WebGLFramebuffer
 :
 DetachRenderbuffer
 (
+const
+char
+*
+funcName
 const
 WebGLRenderbuffer
 *
@@ -3573,6 +3650,7 @@ attach
 .
 Clear
 (
+funcName
 )
 ;
 }
@@ -4341,6 +4419,10 @@ WebGLFramebuffer
 :
 ValidateAndInitAttachments
 (
+const
+char
+*
+funcName
 )
 const
 {
@@ -4370,6 +4452,7 @@ fbStatus
 =
 CheckFramebufferStatus
 (
+funcName
 )
 ;
 if
@@ -4388,12 +4471,18 @@ mContext
 ErrorInvalidFramebufferOperation
 (
 "
+%
+s
+:
 Framebuffer
 must
 be
+"
+"
 complete
 .
 "
+funcName
 )
 ;
 return
@@ -4406,6 +4495,10 @@ WebGLFramebuffer
 :
 ValidateClearBufferType
 (
+const
+char
+*
+funcName
 GLenum
 buffer
 uint32_t
@@ -4547,6 +4640,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 This
 attachment
 is
@@ -4568,6 +4664,7 @@ type
 04x
 .
 "
+funcName
 attachType
 funcType
 )
@@ -4586,6 +4683,10 @@ WebGLFramebuffer
 :
 ValidateForColorRead
 (
+const
+char
+*
+funcName
 const
 webgl
 :
@@ -4618,6 +4719,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 READ_BUFFER
 must
 not
@@ -4625,6 +4729,7 @@ be
 NONE
 .
 "
+funcName
 )
 ;
 return
@@ -4648,6 +4753,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 The
 READ_BUFFER
 attachment
@@ -4656,6 +4764,7 @@ not
 defined
 .
 "
+funcName
 )
 ;
 return
@@ -4678,6 +4787,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 The
 READ_BUFFER
 attachment
@@ -4685,6 +4797,7 @@ is
 multisampled
 .
 "
+funcName
 )
 ;
 return
@@ -4939,6 +5052,10 @@ WebGLFramebuffer
 :
 ResolveAttachmentData
 (
+const
+char
+*
+funcName
 )
 const
 {
@@ -5223,6 +5340,7 @@ tex
 >
 InitializeImageData
 (
+funcName
 attach
 -
 >
@@ -5711,6 +5829,10 @@ WebGLFramebuffer
 :
 InvalidateFramebufferStatus
 (
+const
+char
+*
+funcName
 )
 {
 if
@@ -5738,6 +5860,9 @@ mContext
 GeneratePerfWarning
 (
 "
+%
+s
+:
 FB
 was
 invalidated
@@ -5751,6 +5876,7 @@ u
 times
 .
 "
+funcName
 uint32_t
 (
 mNumFBStatusInvals
@@ -5880,6 +6006,11 @@ WebGLFramebuffer
 :
 CheckFramebufferStatus
 (
+const
+char
+*
+const
+funcName
 )
 const
 {
@@ -6050,6 +6181,7 @@ if
 !
 ResolveAttachmentData
 (
+funcName
 )
 )
 {
@@ -6111,6 +6243,9 @@ mContext
 GenerateWarning
 (
 "
+%
+s
+:
 Framebuffer
 not
 complete
@@ -6125,6 +6260,7 @@ status
 %
 s
 "
+funcName
 ret
 .
 get
@@ -6442,6 +6578,10 @@ WebGLFramebuffer
 DrawBuffers
 (
 const
+char
+*
+funcName
+const
 dom
 :
 :
@@ -6489,6 +6629,9 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 buffers
 must
 have
@@ -6501,6 +6644,7 @@ length
 MAX_DRAW_BUFFERS
 .
 "
+funcName
 )
 ;
 return
@@ -6751,12 +6895,16 @@ mContext
 ErrorInvalidEnum
 (
 "
+%
+s
+:
 Unexpected
 enum
 in
 buffers
 .
 "
+funcName
 )
 ;
 return
@@ -6768,6 +6916,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 buffers
 [
 i
@@ -6781,6 +6932,7 @@ or
 COLOR_ATTACHMENTi
 .
 "
+funcName
 )
 ;
 return
@@ -6818,6 +6970,10 @@ WebGLFramebuffer
 :
 ReadBuffer
 (
+const
+char
+*
+funcName
 GLenum
 attachPoint
 )
@@ -6845,6 +7001,9 @@ text
 ]
 =
 "
+%
+s
+:
 mode
 must
 be
@@ -6876,6 +7035,7 @@ mContext
 ErrorInvalidOperation
 (
 text
+funcName
 )
 ;
 }
@@ -6887,6 +7047,7 @@ mContext
 ErrorInvalidEnum
 (
 text
+funcName
 )
 ;
 }
@@ -6942,6 +7103,10 @@ WebGLFramebuffer
 :
 FramebufferRenderbuffer
 (
+const
+char
+*
+funcName
 GLenum
 attachEnum
 GLenum
@@ -7003,6 +7168,9 @@ mContext
 ErrorInvalidEnum
 (
 "
+%
+s
+:
 Bad
 attachment
 :
@@ -7011,6 +7179,7 @@ attachment
 x
 .
 "
+funcName
 attachEnum
 )
 ;
@@ -7045,7 +7214,10 @@ mContext
 ErrorInvalidEnumInfo
 (
 "
+framebufferRenderbuffer
+:
 rbtarget
+:
 "
 rbtarget
 )
@@ -7070,6 +7242,8 @@ mContext
 ValidateObject
 (
 "
+framebufferRenderbuffer
+:
 rb
 "
 *
@@ -7093,6 +7267,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 bindRenderbuffer
 must
 be
@@ -7105,6 +7282,7 @@ to
 %
 04x
 "
+funcName
 attachEnum
 )
 ;
@@ -7138,6 +7316,7 @@ mDepthAttachment
 .
 SetRenderbuffer
 (
+funcName
 rb
 )
 ;
@@ -7145,6 +7324,7 @@ mStencilAttachment
 .
 SetRenderbuffer
 (
+funcName
 rb
 )
 ;
@@ -7156,12 +7336,14 @@ attach
 >
 SetRenderbuffer
 (
+funcName
 rb
 )
 ;
 }
 InvalidateFramebufferStatus
 (
+funcName
 )
 ;
 }
@@ -7171,6 +7353,10 @@ WebGLFramebuffer
 :
 FramebufferTexture2D
 (
+const
+char
+*
+funcName
 GLenum
 attachEnum
 GLenum
@@ -7234,6 +7420,9 @@ mContext
 ErrorInvalidEnum
 (
 "
+%
+s
+:
 Bad
 attachment
 :
@@ -7242,6 +7431,7 @@ attachment
 x
 .
 "
+funcName
 attachEnum
 )
 ;
@@ -7288,7 +7478,10 @@ mContext
 ErrorInvalidEnumInfo
 (
 "
+framebufferTexture2D
+:
 texImageTarget
+:
 "
 texImageTarget
 )
@@ -7313,6 +7506,8 @@ mContext
 ValidateObject
 (
 "
+framebufferTexture2D
+:
 texture
 "
 *
@@ -7338,6 +7533,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 texture
 has
 never
@@ -7345,6 +7543,7 @@ been
 bound
 .
 "
+funcName
 )
 ;
 return
@@ -7378,6 +7577,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Mismatched
 texture
 and
@@ -7385,6 +7587,7 @@ texture
 target
 .
 "
+funcName
 )
 ;
 return
@@ -7407,6 +7610,9 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 level
 must
 not
@@ -7414,6 +7620,7 @@ be
 negative
 .
 "
+funcName
 )
 ;
 if
@@ -7543,12 +7750,16 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 level
 is
 too
 large
 .
 "
+funcName
 )
 ;
 }
@@ -7590,12 +7801,16 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 level
 is
 too
 large
 .
 "
+funcName
 )
 ;
 }
@@ -7616,12 +7831,16 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 level
 must
 be
 0
 .
 "
+funcName
 )
 ;
 }
@@ -7651,6 +7870,7 @@ mDepthAttachment
 .
 SetTexImage
 (
+funcName
 tex
 texImageTarget
 level
@@ -7660,6 +7880,7 @@ mStencilAttachment
 .
 SetTexImage
 (
+funcName
 tex
 texImageTarget
 level
@@ -7673,6 +7894,7 @@ attach
 >
 SetTexImage
 (
+funcName
 tex
 texImageTarget
 level
@@ -7681,6 +7903,7 @@ level
 }
 InvalidateFramebufferStatus
 (
+funcName
 )
 ;
 }
@@ -7690,6 +7913,10 @@ WebGLFramebuffer
 :
 FramebufferTextureLayer
 (
+const
+char
+*
+funcName
 GLenum
 attachEnum
 WebGLTexture
@@ -7753,6 +7980,9 @@ mContext
 ErrorInvalidEnum
 (
 "
+%
+s
+:
 Bad
 attachment
 :
@@ -7761,6 +7991,7 @@ attachment
 x
 .
 "
+funcName
 attachEnum
 )
 ;
@@ -7795,6 +8026,9 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 layer
 must
 be
@@ -7803,6 +8037,7 @@ be
 0
 .
 "
+funcName
 )
 ;
 if
@@ -7818,6 +8053,9 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 level
 must
 be
@@ -7826,6 +8064,7 @@ be
 0
 .
 "
+funcName
 )
 ;
 /
@@ -7850,6 +8089,8 @@ mContext
 ValidateObject
 (
 "
+framebufferTextureLayer
+:
 texture
 "
 *
@@ -7875,6 +8116,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 texture
 has
 never
@@ -7882,6 +8126,7 @@ been
 bound
 .
 "
+funcName
 )
 ;
 return
@@ -7928,6 +8173,9 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 layer
 must
 be
@@ -7936,6 +8184,7 @@ be
 s
 .
 "
+funcName
 "
 MAX_3D_TEXTURE_SIZE
 "
@@ -7966,6 +8215,9 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 level
 must
 be
@@ -7978,6 +8230,7 @@ s
 )
 .
 "
+funcName
 "
 MAX_3D_TEXTURE_SIZE
 "
@@ -8011,6 +8264,9 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 layer
 must
 be
@@ -8019,6 +8275,7 @@ be
 s
 .
 "
+funcName
 "
 MAX_ARRAY_TEXTURE_LAYERS
 "
@@ -8049,6 +8306,9 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 level
 must
 be
@@ -8061,6 +8321,7 @@ s
 )
 .
 "
+funcName
 "
 MAX_TEXTURE_SIZE
 "
@@ -8079,6 +8340,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 texture
 must
 be
@@ -8090,6 +8354,7 @@ or
 TEXTURE_2D_ARRAY
 .
 "
+funcName
 )
 ;
 return
@@ -8122,6 +8387,7 @@ mDepthAttachment
 .
 SetTexImage
 (
+funcName
 tex
 texImageTarget
 level
@@ -8132,6 +8398,7 @@ mStencilAttachment
 .
 SetTexImage
 (
+funcName
 tex
 texImageTarget
 level
@@ -8146,6 +8413,7 @@ attach
 >
 SetTexImage
 (
+funcName
 tex
 texImageTarget
 level
@@ -8155,6 +8423,7 @@ layer
 }
 InvalidateFramebufferStatus
 (
+funcName
 )
 ;
 }
@@ -8167,6 +8436,10 @@ WebGLFramebuffer
 :
 GetAttachmentParameter
 (
+const
+char
+*
+funcName
 JSContext
 *
 cx
@@ -8209,6 +8482,9 @@ mContext
 ErrorInvalidEnum
 (
 "
+%
+s
+:
 Can
 only
 query
@@ -8226,6 +8502,7 @@ a
 framebuffer
 .
 "
+funcName
 )
 ;
 return
@@ -8288,6 +8565,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Querying
 "
 "
@@ -8303,6 +8583,7 @@ an
 error
 .
 "
+funcName
 )
 ;
 return
@@ -8350,6 +8631,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 DEPTH_ATTACHMENT
 and
 STENCIL_ATTACHMENT
@@ -8361,6 +8645,7 @@ objects
 bound
 .
 "
+funcName
 )
 ;
 return
@@ -8384,6 +8669,7 @@ attach
 >
 GetParameter
 (
+funcName
 mContext
 cx
 target
@@ -8635,6 +8921,16 @@ GLenum
 filter
 )
 {
+const
+char
+funcName
+[
+]
+=
+"
+blitFramebuffer
+"
+;
 const
 auto
 &
@@ -9439,6 +9735,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 filter
 is
 LINEAR
@@ -9451,6 +9750,7 @@ integer
 data
 .
 "
+funcName
 )
 ;
 return
@@ -9469,6 +9769,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Color
 component
 types
@@ -9487,6 +9790,7 @@ must
 match
 .
 "
+funcName
 )
 ;
 return
@@ -9523,6 +9827,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 DEPTH_BUFFER_BIT
 and
 STENCIL_BUFFER_BIT
@@ -9537,6 +9844,7 @@ NEAREST
 filtering
 .
 "
+funcName
 )
 ;
 return
@@ -9653,6 +9961,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Depth
 buffer
 formats
@@ -9662,6 +9973,7 @@ if
 selected
 .
 "
+funcName
 )
 ;
 return
@@ -9689,6 +10001,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Stencil
 buffer
 formats
@@ -9698,6 +10013,7 @@ if
 selected
 .
 "
+funcName
 )
 ;
 return
@@ -9718,6 +10034,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 DRAW_FRAMEBUFFER
 may
 not
@@ -9728,6 +10047,7 @@ multiple
 samples
 .
 "
+funcName
 )
 ;
 return
@@ -9758,6 +10078,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Color
 buffer
 formats
@@ -9777,6 +10100,7 @@ multisampled
 source
 .
 "
+funcName
 )
 ;
 return
@@ -9814,6 +10138,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 If
 the
 source
@@ -9832,6 +10159,7 @@ match
 exactly
 .
 "
+funcName
 )
 ;
 return
@@ -9974,6 +10302,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Feedback
 detected
 into
@@ -9988,6 +10319,7 @@ s
 attachment
 .
 "
+funcName
 feedback
 -
 >
@@ -10015,12 +10347,16 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Feedback
 with
 default
 framebuffer
 .
 "
+funcName
 )
 ;
 return

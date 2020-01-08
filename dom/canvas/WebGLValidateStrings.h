@@ -290,6 +290,10 @@ WebGLContext
 *
 webgl
 const
+char
+*
+funcName
+const
 nsAString
 &
 string
@@ -305,6 +309,10 @@ name
 WebGLContext
 *
 webgl
+const
+char
+*
+funcName
 )
 ;
 }

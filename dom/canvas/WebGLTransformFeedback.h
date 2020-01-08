@@ -176,6 +176,9 @@ ValidateDraw
 (
 WebGLContext
 *
+const
+char
+*
 GLenum
 uint32_t
 )

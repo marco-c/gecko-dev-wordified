@@ -130,6 +130,10 @@ WebGL2Context
 :
 TexStorage
 (
+const
+char
+*
+funcName
 uint8_t
 funcDims
 GLenum
@@ -146,17 +150,6 @@ GLsizei
 depth
 )
 {
-const
-FuncScope
-funcScope
-(
-*
-this
-"
-texStorage
-"
-)
-;
 TexTarget
 target
 ;
@@ -170,6 +163,7 @@ if
 ValidateTexTarget
 (
 this
+funcName
 funcDims
 rawTarget
 &
@@ -185,6 +179,7 @@ tex
 >
 TexStorage
 (
+funcName
 target
 levels
 internalFormat

@@ -1127,6 +1127,16 @@ nsAString
 source
 )
 {
+const
+char
+funcName
+[
+]
+=
+"
+shaderSource
+"
+;
 nsString
 sourceWithoutComments
 ;
@@ -1147,6 +1157,9 @@ mContext
 ErrorOutOfMemory
 (
 "
+%
+s
+:
 Failed
 to
 alloc
@@ -1156,6 +1169,7 @@ comment
 contents
 .
 "
+funcName
 )
 ;
 return
@@ -1167,6 +1181,7 @@ if
 ValidateGLSLPreprocString
 (
 mContext
+funcName
 sourceWithoutComments
 )
 )

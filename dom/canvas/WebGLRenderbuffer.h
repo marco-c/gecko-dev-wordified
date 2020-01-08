@@ -336,6 +336,10 @@ mContext
 void
 RenderbufferStorage
 (
+const
+char
+*
+funcName
 uint32_t
 samples
 GLenum
