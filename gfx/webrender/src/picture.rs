@@ -1820,6 +1820,9 @@ new
 has_non_root_coord_system
 :
 false
+is_cacheable
+:
+true
 local_rect_changed
 :
 false
@@ -2949,6 +2952,12 @@ if
 pic_state_for_children
 .
 has_non_root_coord_system
+|
+|
+!
+pic_state_for_children
+.
+is_cacheable
 {
 let
 picture_task
