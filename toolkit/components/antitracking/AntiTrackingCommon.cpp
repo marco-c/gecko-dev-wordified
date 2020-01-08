@@ -503,8 +503,9 @@ nsACString
 aTrackingOrigin
 )
 {
-MOZ_ASSERT
+if
 (
+!
 nsContentUtils
 :
 :
@@ -513,7 +514,11 @@ IsTrackingResourceWindow
 a3rdPartyTrackingWindow
 )
 )
+{
+return
+false
 ;
+}
 nsIDocument
 *
 doc
