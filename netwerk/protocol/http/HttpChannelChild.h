@@ -1121,6 +1121,10 @@ const
 nsString
 &
 aMessage
+const
+nsCString
+&
+aCategory
 )
 override
 ;
@@ -1131,6 +1135,10 @@ const
 nsAString
 &
 aMessage
+const
+nsACString
+&
+aCategory
 )
 override
 ;

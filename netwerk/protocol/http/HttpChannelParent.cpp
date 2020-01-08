@@ -14891,6 +14891,10 @@ const
 nsAString
 &
 aMessage
+const
+nsACString
+&
+aCategory
 )
 {
 if
@@ -14906,6 +14910,10 @@ SendLogBlockedCORSRequest
 nsString
 (
 aMessage
+)
+nsCString
+(
+aCategory
 )
 )
 )

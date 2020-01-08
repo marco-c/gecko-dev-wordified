@@ -359,6 +359,10 @@ const
 nsAString
 &
 aMessage
+const
+nsACString
+&
+aCategory
 )
 =
 0
@@ -1210,6 +1214,10 @@ const
 nsAString
 &
 aMessage
+const
+nsACString
+&
+aCategory
 )
 override
 ;
