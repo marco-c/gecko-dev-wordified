@@ -221,9 +221,7 @@ root
 actor
 and
 only
-target
--
-scoped
+tab
 actors
 .
 /
@@ -261,7 +259,7 @@ DebuggerServer
 registerActors
 (
 {
-target
+tab
 :
 true
 }

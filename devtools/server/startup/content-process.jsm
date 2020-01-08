@@ -343,7 +343,7 @@ registerActors
 root
 :
 true
-target
+tab
 :
 true
 }

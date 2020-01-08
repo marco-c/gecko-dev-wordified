@@ -1343,7 +1343,7 @@ promise
 ;
 }
 function
-getTargetActorForUrl
+getTabActorForUrl
 (
 aClient
 aUrl
@@ -1371,7 +1371,7 @@ aResponse
 >
 {
 let
-targetActor
+tabActor
 =
 aResponse
 .
@@ -1398,7 +1398,7 @@ deferred
 .
 resolve
 (
-targetActor
+tabActor
 )
 ;
 }
@@ -1504,7 +1504,7 @@ promise
 }
 async
 function
-attachTargetActorForUrl
+attachTabActorForUrl
 (
 aClient
 aUrl
@@ -1514,7 +1514,7 @@ let
 grip
 =
 await
-getTargetActorForUrl
+getTabActorForUrl
 (
 aClient
 aUrl
@@ -1557,7 +1557,7 @@ response
 ]
 =
 await
-attachTargetActorForUrl
+attachTabActorForUrl
 (
 aClient
 aUrl

@@ -205,7 +205,7 @@ globalActor
 Found
 the
 test
-global
+tab
 actor
 .
 "
@@ -431,9 +431,7 @@ all
 pools
 .
 One
-target
--
-scoped
+tab
 actor
 and
 one

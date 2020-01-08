@@ -156,17 +156,14 @@ server
 .
 This
 client
+*
 is
 a
 front
-*
 to
 the
-target
-actor
-for
-a
 tab
+actor
 created
 in
 the
@@ -175,8 +172,8 @@ side
 hiding
 the
 protocol
-details
 *
+details
 in
 a
 traditional
@@ -462,7 +459,7 @@ the
 client
 from
 the
-target
+tab
 actor
 .
 *
@@ -719,7 +716,7 @@ arg
 *
 Reconfigure
 the
-target
+tab
 actor
 .
 *
@@ -739,7 +736,7 @@ to
 use
 in
 the
-target
+tab
 actor
 .
 *

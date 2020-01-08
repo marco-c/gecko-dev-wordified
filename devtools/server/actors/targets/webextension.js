@@ -451,9 +451,7 @@ A
 WebExtensionTargetActor
 contains
 all
-target
--
-scoped
+tab
 actors
 like
 a

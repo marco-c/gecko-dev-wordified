@@ -363,7 +363,7 @@ destroyed
 )
 ;
 const
-onTabDetached
+onTabActorDetached
 =
 once
 (
@@ -521,7 +521,7 @@ processing
 events
 .
 await
-onTabDetached
+onTabActorDetached
 ;
 iframe
 .

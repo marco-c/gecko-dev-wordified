@@ -79,9 +79,10 @@ zero
 *
 *
 Check
-target
+extension
 -
-scoped
+added
+tab
 actor
 lifetimes
 .
@@ -204,7 +205,7 @@ then
 )
 =
 >
-attachTargetActorForUrl
+attachTabActorForUrl
 (
 gClient
 TAB_URL
@@ -213,7 +214,7 @@ TAB_URL
 .
 then
 (
-testTargetScopedActor
+testTabActor
 )
 .
 then
@@ -277,7 +278,7 @@ stack
 ;
 }
 function
-testTargetScopedActor
+testTabActor
 (
 [
 aGrip
@@ -298,14 +299,12 @@ ok
 (
 aGrip
 .
-testTargetScopedActor1
+testTabActor1
 "
 Found
 the
 test
-target
--
-scoped
+tab
 actor
 .
 "
@@ -315,7 +314,7 @@ ok
 (
 aGrip
 .
-testTargetScopedActor1
+testTabActor1
 .
 includes
 (
@@ -324,7 +323,7 @@ test_one
 "
 )
 "
-testTargetScopedActor1
+testTabActor1
 '
 s
 actorPrefix
@@ -344,7 +343,7 @@ to
 :
 aGrip
 .
-testTargetScopedActor1
+testTabActor1
 type
 :
 "

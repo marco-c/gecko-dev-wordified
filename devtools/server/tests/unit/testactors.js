@@ -314,7 +314,7 @@ addTestGlobal
 .
 this
 .
-_targetActors
+_tabActors
 =
 [
 ]
@@ -334,7 +334,7 @@ actors
 .
 this
 .
-_targetActorPool
+_tabActorPool
 =
 new
 ActorPool
@@ -354,7 +354,7 @@ const
 actor
 =
 new
-TestTargetActor
+TestTabActor
 (
 connection
 global
@@ -368,7 +368,7 @@ false
 ;
 this
 .
-_targetActors
+_tabActors
 .
 push
 (
@@ -377,7 +377,7 @@ actor
 ;
 this
 .
-_targetActorPool
+_tabActorPool
 .
 addActor
 (
@@ -389,7 +389,7 @@ if
 (
 this
 .
-_targetActors
+_tabActors
 .
 length
 >
@@ -398,7 +398,7 @@ length
 {
 this
 .
-_targetActors
+_tabActors
 [
 0
 ]
@@ -414,7 +414,7 @@ addActorPool
 (
 this
 .
-_targetActorPool
+_tabActorPool
 )
 ;
 }
@@ -443,7 +443,7 @@ resolve
 .
 this
 .
-_targetActors
+_tabActors
 ]
 )
 ;
@@ -494,7 +494,7 @@ root
 ;
 }
 function
-TestTargetActor
+TestTabActor
 (
 connection
 global
@@ -615,18 +615,18 @@ _global
 )
 ;
 }
-TestTargetActor
+TestTabActor
 .
 prototype
 =
 {
 constructor
 :
-TestTargetActor
+TestTabActor
 actorPrefix
 :
 "
-TestTargetActor
+TestTabActor
 "
 get
 window
@@ -712,10 +712,11 @@ __name
 /
 Walk
 over
-target
--
-scoped
+tab
 actors
+added
+by
+extensions
 and
 add
 them
@@ -741,7 +742,7 @@ _createExtraActors
 (
 DebuggerServer
 .
-targetScopedActorFactories
+tabActorFactories
 actorPool
 )
 ;
@@ -757,7 +758,7 @@ isEmpty
 {
 this
 .
-_targetActorPool
+_tabActorPool
 =
 actorPool
 ;
@@ -769,7 +770,7 @@ addActorPool
 (
 this
 .
-_targetActorPool
+_tabActorPool
 )
 ;
 }
@@ -927,12 +928,12 @@ if
 (
 this
 .
-_targetActorPool
+_tabActorPool
 )
 {
 this
 .
-_targetActorPool
+_tabActorPool
 .
 removeActor
 (
@@ -955,7 +956,7 @@ Support
 for
 DebuggerServer
 .
-addTargetScopedActor
+addTabActor
 .
 *
 /
@@ -967,7 +968,7 @@ _appendExtraActors
 appendExtraActors
 }
 ;
-TestTargetActor
+TestTabActor
 .
 prototype
 .
@@ -978,7 +979,7 @@ requestTypes
 attach
 "
 :
-TestTargetActor
+TestTabActor
 .
 prototype
 .
@@ -987,7 +988,7 @@ onAttach
 detach
 "
 :
-TestTargetActor
+TestTabActor
 .
 prototype
 .
@@ -996,7 +997,7 @@ onDetach
 reload
 "
 :
-TestTargetActor
+TestTabActor
 .
 prototype
 .

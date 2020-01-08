@@ -355,7 +355,7 @@ aResponse
 >
 {
 let
-targetActor
+tabActor
 =
 aResponse
 .
@@ -380,12 +380,12 @@ pop
 ;
 ok
 (
-targetActor
+tabActor
 "
 Should
 find
 a
-target
+tab
 actor
 for
 the

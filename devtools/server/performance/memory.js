@@ -253,7 +253,7 @@ window
 *
 Using
 a
-target
+tab
 -
 scoped
 actor
