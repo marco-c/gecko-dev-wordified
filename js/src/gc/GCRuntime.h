@@ -5684,10 +5684,10 @@ mozilla
 :
 Maybe
 <
-AtomSet
+AtomsTable
 :
 :
-Enum
+SweepIterator
 >
 >
 maybeAtomsToSweep

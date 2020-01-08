@@ -198,6 +198,12 @@ RuntimeExclusiveAccess
 200
 )
 \
+_
+(
+AtomsTable
+200
+)
+\
 \
 _
 (

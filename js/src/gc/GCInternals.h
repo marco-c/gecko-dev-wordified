@@ -485,7 +485,7 @@ MOZ_RAII
 AutoTraceSession
 :
 public
-AutoLockForExclusiveAccess
+AutoLockAllAtoms
 public
 AutoHeapSession
 {
@@ -499,7 +499,7 @@ JSRuntime
 rt
 )
 :
-AutoLockForExclusiveAccess
+AutoLockAllAtoms
 (
 rt
 )

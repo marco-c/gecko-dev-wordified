@@ -2426,7 +2426,10 @@ PhaseKind
 MARK_RUNTIME_DATA
 )
 ;
-TracePermanentAtoms
+rt
+-
+>
+tracePermanentAtoms
 (
 trc
 )
