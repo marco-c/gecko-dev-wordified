@@ -5876,6 +5876,20 @@ get_references
 test
 )
         
+timeout
+=
+(
+test
+.
+timeout
+*
+1000
+)
+*
+self
+.
+timeout_multiplier
+        
 rv
 =
 self
@@ -5928,11 +5942,7 @@ expected
 timeout
 "
 :
-test
-.
 timeout
-*
-1000
 }
 )
 [
