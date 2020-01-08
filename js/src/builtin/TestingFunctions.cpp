@@ -15476,6 +15476,7 @@ get
 )
 ;
 auto
+*
 label
 =
 reinterpret_cast
@@ -15510,9 +15511,16 @@ if
 !
 frameLabel
 )
+{
+js_free
+(
+label
+)
+;
 return
 false
 ;
+}
 if
 (
 !
