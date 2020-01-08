@@ -4050,7 +4050,12 @@ return
 }
 /
 /
-Disabled
+Detect
+but
+don
+'
+t
+import
 by
 default
 .
@@ -4063,7 +4068,7 @@ Preferences
 GetUint
 (
 kFamilySafetyModePref
-0
+1
 )
 ;
 if
