@@ -3799,11 +3799,16 @@ test
 suite
 '
 ]
-!
-=
+not
+in
+[
 '
 talos
 '
+'
+raptor
+'
+]
 :
             
 test
@@ -5596,16 +5601,6 @@ windows10
 64
 -
 nightly
-/
-opt
-'
-                                         
-'
-windows10
--
-64
--
-asan
 /
 opt
 '

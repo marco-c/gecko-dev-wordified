@@ -540,6 +540,28 @@ process_args
 =
 process_args
 )
+        
+self
+.
+log
+.
+info
+(
+"
+raptor
+config
+:
+%
+s
+"
+%
+str
+(
+self
+.
+config
+)
+)
     
 property
     
