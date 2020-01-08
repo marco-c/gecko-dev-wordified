@@ -4323,7 +4323,7 @@ engine
 )
 ;
 let
-countryCode
+region
 =
 Services
 .
@@ -4336,7 +4336,7 @@ browser
 .
 search
 .
-countryCode
+region
 "
 )
 ;
@@ -4348,7 +4348,7 @@ code
 ;
 switch
 (
-countryCode
+region
 )
 {
 case

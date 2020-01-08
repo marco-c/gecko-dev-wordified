@@ -28,7 +28,7 @@ zero
 *
 /
 function
-getCountryCodePref
+getRegionPref
 (
 )
 {
@@ -46,7 +46,7 @@ browser
 .
 search
 .
-countryCode
+region
 "
 )
 ;
@@ -94,13 +94,13 @@ test_simple
 {
 deepEqual
 (
-getCountryCodePref
+getRegionPref
 (
 )
 undefined
 "
 no
-countryCode
+region
 pref
 "
 )
@@ -229,7 +229,7 @@ resolve
 ;
 deepEqual
 (
-getCountryCodePref
+getRegionPref
 (
 )
 undefined
