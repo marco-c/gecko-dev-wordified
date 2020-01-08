@@ -3349,6 +3349,7 @@ ContentParent
 :
 GetNewOrUsedBrowserProcess
 (
+nullptr
 NS_LITERAL_STRING
 (
 DEFAULT_REMOTE_TYPE
