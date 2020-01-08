@@ -1,13 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-error
-:
-InternalError
 if
 (
 !
@@ -19,8 +9,7 @@ in
 this
 )
 )
-throw
-InternalError
+quit
 (
 )
 ;

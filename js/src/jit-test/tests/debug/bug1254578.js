@@ -5,10 +5,6 @@ jit
 -
 test
 |
-error
-:
-ReferenceError
-;
 slow
 if
 (
@@ -21,10 +17,8 @@ in
 this
 )
 )
-throw
+quit
 (
-new
-ReferenceError
 )
 ;
 var
