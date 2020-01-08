@@ -2578,7 +2578,8 @@ PROFILER_UNREGISTER_THREAD
 profiler_unregister_thread
 (
 )
-void
+ProfilingStack
+*
 profiler_register_thread
 (
 const
