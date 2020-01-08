@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsIStringEnumerator
+nsStringEnumerator
 .
 h
 "
@@ -1340,7 +1340,7 @@ GIOUTF8StringEnumerator
 final
 :
 public
-nsIUTF8StringEnumerator
+nsStringEnumeratorBase
 {
 ~
 GIOUTF8StringEnumerator
@@ -1363,6 +1363,12 @@ mIndex
 }
 NS_DECL_ISUPPORTS
 NS_DECL_NSIUTF8STRINGENUMERATOR
+using
+nsStringEnumeratorBase
+:
+:
+GetNext
+;
 nsTArray
 <
 nsCString
