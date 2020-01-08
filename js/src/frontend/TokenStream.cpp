@@ -3259,7 +3259,7 @@ ungotten
 /
 (
 by
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 )
 )
@@ -3278,10 +3278,10 @@ line
 -
 related
 state
-/
-/
 (
 lineno
+/
+/
 linebase
 )
 is
@@ -3503,7 +3503,7 @@ CharT
 >
 :
 :
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 int32_t
 c
@@ -3608,7 +3608,7 @@ numUnits
 >
 0
 )
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 units
 [
@@ -3764,7 +3764,7 @@ j
 -
 -
 )
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 cp
 [
@@ -6066,7 +6066,7 @@ u
 '
 )
 {
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -6210,12 +6210,12 @@ length
 0
 ;
 }
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
 ;
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 '
 u
@@ -6409,7 +6409,7 @@ length
 0
 ;
 }
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -6420,7 +6420,7 @@ i
 -
 -
 )
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 cp
 [
@@ -6434,7 +6434,7 @@ leadingZeros
 -
 -
 )
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 '
 0
@@ -7141,14 +7141,14 @@ matchChar
 )
 )
 {
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 '
 /
 '
 )
 ;
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 '
 *
@@ -7988,7 +7988,7 @@ maybeTrail
 }
 else
 {
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 maybeTrail
 )
@@ -8367,7 +8367,7 @@ SawUnicodeEscape
 ;
 }
 }
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -9407,7 +9407,7 @@ c
 )
 )
 ;
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -9561,7 +9561,7 @@ E
 '
 )
 {
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -9733,7 +9733,7 @@ c
 )
 )
 {
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -9771,7 +9771,7 @@ c
 )
 ;
 }
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -9983,7 +9983,7 @@ code
 unit
 consumed
 .
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -11128,7 +11128,7 @@ c
 )
 )
 {
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -11223,7 +11223,7 @@ c
 '
 )
 {
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -11326,7 +11326,7 @@ c
 '
 )
 {
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -11609,7 +11609,7 @@ ttp
 )
 ;
 }
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -11758,7 +11758,7 @@ code
 unit
 consumed
 .
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -11988,7 +11988,7 @@ break
 ;
 }
 }
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -12221,7 +12221,7 @@ actually
 invalid
 escape
 .
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 '
 \
@@ -12490,7 +12490,7 @@ consumeRestOfSingleLineComment
 continue
 ;
 }
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 '
 -
@@ -12498,7 +12498,7 @@ ungetCharIgnoreEOL
 )
 ;
 }
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 '
 !
@@ -12772,7 +12772,7 @@ false
 }
 else
 {
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -13311,7 +13311,7 @@ flag
 )
 ;
 }
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -13757,7 +13757,7 @@ c
 EOF
 )
 {
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -14236,7 +14236,7 @@ or
 \
 '
 .
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
@@ -14532,7 +14532,7 @@ skipChars
 }
 else
 {
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c2
 )
@@ -14969,7 +14969,7 @@ ASCII
 line
 breaks
 .
-ungetCharIgnoreEOL
+ungetCodeUnit
 (
 c
 )
