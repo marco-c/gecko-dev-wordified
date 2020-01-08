@@ -7150,6 +7150,9 @@ i
 ;
 }
 }
+#
+ifdef
+ACCESSIBILITY
 AccessibleNode
 *
 anode
@@ -7185,6 +7188,8 @@ anode
 )
 ;
 }
+#
+endif
 }
 if
 (
