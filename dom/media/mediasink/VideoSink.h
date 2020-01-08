@@ -782,7 +782,7 @@ TimeUnit
 mVideoFrameEndTime
 ;
 uint32_t
-mOldDroppedCount
+mOldCompositorDroppedCount
 ;
 /
 /
