@@ -614,7 +614,8 @@ false
 /
 Dictionary
 -
-incompatible
+compatible
+even
 in
 strict
 compatibility
@@ -710,7 +711,7 @@ nonStrict
 true
 strict
 :
-false
+true
 }
 }
 }
