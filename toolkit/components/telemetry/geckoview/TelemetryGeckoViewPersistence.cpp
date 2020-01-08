@@ -2873,8 +2873,6 @@ mozilla
 :
 :
 JSONWriter
-<
->
 w
 (
 std

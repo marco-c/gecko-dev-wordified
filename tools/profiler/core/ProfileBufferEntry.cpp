@@ -578,7 +578,7 @@ ProfileBufferEntry
 class
 JSONSchemaWriter
 {
-ProfilerJSONWriter
+JSONWriter
 &
 mWriter
 ;
@@ -590,7 +590,7 @@ public
 explicit
 JSONSchemaWriter
 (
-ProfilerJSONWriter
+JSONWriter
 &
 aWriter
 )
