@@ -3928,7 +3928,7 @@ mEditSubAction
 EditSubAction
 :
 :
-outputText
+eComputeTextToOutput
 |
 |
 aInfo

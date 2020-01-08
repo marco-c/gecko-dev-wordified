@@ -1883,7 +1883,7 @@ case
 EditSubAction
 :
 :
-outputText
+eComputeTextToOutput
 :
 return
 WillOutputText

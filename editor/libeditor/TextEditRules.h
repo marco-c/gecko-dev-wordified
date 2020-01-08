@@ -3226,7 +3226,7 @@ maxLength
 EditSubAction
 :
 :
-outputText
+eComputeTextToOutput
 uint32_t
 flags
 ;

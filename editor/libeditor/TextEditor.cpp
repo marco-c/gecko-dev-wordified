@@ -9872,7 +9872,7 @@ subActionInfo
 EditSubAction
 :
 :
-outputText
+eComputeTextToOutput
 )
 ;
 subActionInfo
