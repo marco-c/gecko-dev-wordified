@@ -2875,6 +2875,7 @@ node
 =
 PrepareNodeForLayer
 (
+lock
 aLayerMetrics
 aLayerMetrics
 .
@@ -5027,6 +5028,10 @@ APZCTreeManager
 :
 RecycleOrCreateNode
 (
+const
+RecursiveMutexAutoLock
+&
+aProofOfTreeLock
 TreeBuildingState
 &
 aState
@@ -5124,12 +5129,12 @@ i
 ;
 if
 (
-!
 node
 -
 >
-IsPrimaryHolder
+IsRecyclable
 (
+aProofOfTreeLock
 )
 )
 {
@@ -5147,6 +5152,7 @@ node
 >
 RecycleWith
 (
+aProofOfTreeLock
 aApzc
 aLayersId
 )
@@ -5652,6 +5658,10 @@ APZCTreeManager
 PrepareNodeForLayer
 (
 const
+RecursiveMutexAutoLock
+&
+aProofOfTreeLock
+const
 ScrollNode
 &
 aLayer
@@ -5676,12 +5686,6 @@ TreeBuildingState
 aState
 )
 {
-mTreeLock
-.
-AssertCurrentThreadIn
-(
-)
-;
 bool
 needsApzc
 =
@@ -5854,6 +5858,7 @@ node
 =
 RecycleOrCreateNode
 (
+aProofOfTreeLock
 aState
 nullptr
 aLayersId
@@ -7658,6 +7663,7 @@ node
 =
 RecycleOrCreateNode
 (
+aProofOfTreeLock
 aState
 apzc
 aLayersId

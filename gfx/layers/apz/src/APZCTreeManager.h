@@ -5680,6 +5680,10 @@ HitTestingTreeNode
 >
 RecycleOrCreateNode
 (
+const
+RecursiveMutexAutoLock
+&
+aProofOfTreeLock
 TreeBuildingState
 &
 aState
@@ -5699,6 +5703,10 @@ HitTestingTreeNode
 *
 PrepareNodeForLayer
 (
+const
+RecursiveMutexAutoLock
+&
+aProofOfTreeLock
 const
 ScrollNode
 &
