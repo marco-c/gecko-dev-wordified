@@ -2491,6 +2491,18 @@ FontSynthesis
 "
                 
 "
+FontVariantEastAsian
+"
+                
+"
+FontVariantLigatures
+"
+                
+"
+FontVariantNumeric
+"
+                
+"
 FontWeight
 "
                 
@@ -2580,6 +2592,10 @@ TextAlign
                 
 "
 TextDecorationLine
+"
+                
+"
+TextEmphasisPosition
 "
                 
 "
