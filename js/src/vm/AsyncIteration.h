@@ -1661,11 +1661,13 @@ isSingleQueue
 (
 )
 )
+{
 return
 isSingleQueueEmpty
 (
 )
 ;
+}
 return
 queue
 (
@@ -1788,8 +1790,10 @@ hasCachedRequest
 (
 )
 )
+{
 return
 ;
+}
 request
 -
 >

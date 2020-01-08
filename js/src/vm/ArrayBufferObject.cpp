@@ -588,9 +588,11 @@ v
 result
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 result
@@ -609,10 +611,12 @@ result
 <
 0
 )
+{
 result
 =
 0
 ;
+}
 }
 else
 if
@@ -1043,10 +1047,12 @@ if
 (
 OnLargeAllocationFailure
 )
+{
 OnLargeAllocationFailure
 (
 )
 ;
+}
 if
 (
 liveBufferCount
@@ -1289,9 +1295,11 @@ MEM_COMMIT
 PAGE_READWRITE
 )
 )
+{
 return
 false
 ;
+}
 #
 else
 /
@@ -1308,9 +1316,11 @@ PROT_READ
 PROT_WRITE
 )
 )
+{
 return
 false
 ;
+}
 #
 endif
 /
@@ -1435,9 +1445,11 @@ MEM_RESERVE
 PAGE_NOACCESS
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -1473,9 +1485,11 @@ newMappedSize
 0
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -2501,9 +2515,11 @@ ArrayBuffer
 "
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Step
@@ -2528,9 +2544,11 @@ get
 byteLength
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Step
@@ -2585,9 +2603,11 @@ args
 proto
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 24
@@ -2682,9 +2702,11 @@ if
 !
 bufobj
 )
+{
 return
 false
 ;
+}
 args
 .
 rval
@@ -3016,6 +3038,7 @@ global
 )
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -3028,6 +3051,7 @@ detach
 "
 )
 ;
+}
 MarkObjectGroupFlags
 (
 cx
@@ -3138,6 +3162,7 @@ i
 +
 +
 )
+{
 NoteViewBufferWasDetached
 (
 (
@@ -3151,6 +3176,7 @@ newContents
 cx
 )
 ;
+}
 innerViews
 .
 removeViews
@@ -3268,6 +3294,7 @@ dataPointer
 (
 )
 )
+{
 buffer
 -
 >
@@ -3288,6 +3315,7 @@ newContents
 OwnsData
 )
 ;
+}
 buffer
 -
 >
@@ -3685,6 +3713,7 @@ i
 +
 +
 )
+{
 changeViewContents
 (
 cx
@@ -3700,12 +3729,14 @@ newContents
 )
 ;
 }
+}
 if
 (
 firstView
 (
 )
 )
+{
 changeViewContents
 (
 cx
@@ -3716,6 +3747,7 @@ oldDataPointer
 newContents
 )
 ;
+}
 }
 /
 *
@@ -4560,9 +4592,11 @@ dataEnd
 delta
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -4603,9 +4637,11 @@ mappedSize_
 =
 newMappedSize
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -4618,9 +4654,11 @@ mappedSize_
 newMappedSize
 )
 )
+{
 return
 false
 ;
+}
 mappedSize_
 =
 newMappedSize
@@ -4720,8 +4758,10 @@ value
 )
 )
 )
+{
 return
 ;
+}
 maxSize_
 =
 Some
@@ -4910,9 +4950,11 @@ if
 !
 data
 )
+{
 return
 nullptr
 ;
+}
 uint8_t
 *
 base
@@ -5275,8 +5317,10 @@ if
 (
 buffer
 )
+{
 break
 ;
+}
 }
 if
 (
@@ -5327,6 +5371,7 @@ d
 =
 2
 )
+{
 buffer
 -
 >
@@ -5342,6 +5387,7 @@ PageSize
 )
 )
 ;
+}
 #
 endif
 }
@@ -5387,9 +5433,11 @@ if
 !
 object
 )
+{
 return
 false
 ;
+}
 maybeSharedObject
 .
 set
@@ -6003,9 +6051,11 @@ forInlineTypedObject
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 needGuard
@@ -6028,9 +6078,11 @@ isPreparedForAsmJS
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Non
@@ -6092,9 +6144,11 @@ isPreparedForAsmJS
 (
 )
 )
+{
 return
 false
 ;
+}
 uint32_t
 length
 =
@@ -6257,9 +6311,11 @@ isPreparedForAsmJS
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Non
@@ -6289,9 +6345,11 @@ isWasm
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -6322,9 +6380,11 @@ if
 !
 contents
 )
+{
 return
 false
 ;
+}
 memcpy
 (
 contents
@@ -6849,6 +6909,7 @@ isWasm
 (
 )
 )
+{
 return
 contents
 (
@@ -6863,6 +6924,7 @@ mappedSize
 (
 )
 ;
+}
 return
 byteLength
 (
@@ -6893,6 +6955,7 @@ ArrayBufferObject
 (
 )
 )
+{
 return
 buf
 -
@@ -6908,6 +6971,7 @@ wasmMappedSize
 (
 )
 ;
+}
 return
 buf
 -
@@ -6942,6 +7006,7 @@ isWasm
 (
 )
 )
+{
 return
 contents
 (
@@ -6956,7 +7021,9 @@ maxSize
 (
 )
 ;
+}
 else
+{
 return
 Some
 <
@@ -6968,6 +7035,7 @@ byteLength
 )
 )
 ;
+}
 }
 Maybe
 <
@@ -6996,6 +7064,7 @@ ArrayBufferObject
 (
 )
 )
+{
 return
 buf
 -
@@ -7011,6 +7080,7 @@ wasmMaxSize
 (
 )
 ;
+}
 return
 buf
 -
@@ -7109,9 +7179,11 @@ ArrayBufferObject
 :
 MaxBufferByteLength
 )
+{
 return
 false
 ;
+}
 newBuf
 .
 set
@@ -7168,9 +7240,11 @@ byteLength
 newSize
 )
 )
+{
 return
 false
 ;
+}
 bool
 hasStealableContents
 =
@@ -7262,9 +7336,11 @@ ArrayBufferObject
 :
 MaxBufferByteLength
 )
+{
 return
 false
 ;
+}
 if
 (
 newSize
@@ -7356,9 +7432,11 @@ if
 !
 newRawBuf
 )
+{
 return
 false
 ;
+}
 BufferContents
 contents
 =
@@ -7445,6 +7523,7 @@ isWasm
 (
 )
 )
+{
 return
 contents
 (
@@ -7459,6 +7538,7 @@ boundsCheckLimit
 (
 )
 ;
+}
 return
 byteLength
 (
@@ -7483,6 +7563,7 @@ ArrayBufferObject
 (
 )
 )
+{
 return
 as
 <
@@ -7495,6 +7576,7 @@ wasmBoundsCheckLimit
 (
 )
 ;
+}
 return
 as
 <
@@ -7881,6 +7963,7 @@ kind
 =
 MAPPED
 )
+{
 nAllocated
 =
 JS_ROUNDUP
@@ -7897,6 +7980,7 @@ SystemPageSize
 )
 )
 ;
+}
 cx
 -
 >
@@ -8004,9 +8088,11 @@ if
 !
 contents
 )
+{
 return
 nullptr
 ;
+}
 allocated
 =
 true
@@ -8075,6 +8161,7 @@ if
 (
 allocated
 )
+{
 js_free
 (
 contents
@@ -8084,6 +8171,7 @@ data
 )
 )
 ;
+}
 return
 nullptr
 ;
@@ -8249,9 +8337,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 obj
 -
 >
@@ -8562,6 +8652,7 @@ if
 !
 newContents
 )
+{
 return
 BufferContents
 :
@@ -8571,6 +8662,7 @@ createPlain
 nullptr
 )
 ;
+}
 memcpy
 (
 newContents
@@ -8838,6 +8930,7 @@ if
 !
 contentsCopy
 )
+{
 return
 BufferContents
 :
@@ -8847,6 +8940,7 @@ createPlain
 nullptr
 )
 ;
+}
 if
 (
 buffer
@@ -8858,6 +8952,7 @@ byteLength
 >
 0
 )
+{
 memcpy
 (
 contentsCopy
@@ -8878,6 +8973,7 @@ byteLength
 )
 )
 ;
+}
 ArrayBufferObject
 :
 :
@@ -8937,8 +9033,10 @@ ownsData
 (
 )
 )
+{
 return
 ;
+}
 switch
 (
 buffer
@@ -8959,6 +9057,7 @@ isPreparedForAsmJS
 (
 )
 )
+{
 info
 -
 >
@@ -8974,7 +9073,9 @@ dataPointer
 )
 )
 ;
+}
 else
+{
 info
 -
 >
@@ -8990,6 +9091,7 @@ dataPointer
 )
 )
 ;
+}
 break
 ;
 case
@@ -9116,6 +9218,7 @@ ownsData
 (
 )
 )
+{
 buffer
 .
 releaseData
@@ -9123,6 +9226,7 @@ releaseData
 fop
 )
 ;
+}
 }
 /
 *
@@ -9301,8 +9405,10 @@ forInlineTypedObject
 (
 )
 )
+{
 return
 ;
+}
 JSObject
 *
 view
@@ -9436,6 +9542,7 @@ hasInlineData
 (
 )
 )
+{
 dst
 .
 setFixedSlot
@@ -9451,6 +9558,7 @@ inlineDataPointer
 )
 )
 ;
+}
 return
 0
 ;
@@ -9973,10 +10081,12 @@ append
 buffer
 )
 )
+{
 nurseryKeysValid
 =
 false
 ;
+}
 return
 true
 ;
@@ -10013,6 +10123,7 @@ if
 (
 p
 )
+{
 return
 &
 p
@@ -10022,6 +10133,7 @@ value
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -10090,9 +10202,11 @@ IsAboutToBeFinalizedUnbarriered
 pkey
 )
 )
+{
 return
 true
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -10284,8 +10398,10 @@ if
 !
 p
 )
+{
 continue
 ;
+}
 if
 (
 sweepEntry
@@ -10305,6 +10421,7 @@ value
 )
 )
 )
+{
 map
 .
 remove
@@ -10312,6 +10429,7 @@ remove
 buffer
 )
 ;
+}
 }
 nurseryKeys
 .
@@ -10393,6 +10511,7 @@ popFront
 (
 )
 )
+{
 vectorSize
 +
 =
@@ -10411,6 +10530,7 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
+}
 return
 vectorSize
 +
@@ -11056,8 +11176,10 @@ isSharedMemory
 (
 )
 )
+{
 return
 ;
+}
 as
 <
 DataViewObject
@@ -11095,8 +11217,10 @@ isSharedMemory
 (
 )
 )
+{
 return
 ;
+}
 as
 <
 TypedArrayObject
@@ -11267,6 +11391,7 @@ TypedArrayObject
 (
 )
 )
+{
 return
 as
 <
@@ -11279,6 +11404,7 @@ isSharedMemory
 (
 )
 ;
+}
 return
 false
 ;
@@ -11473,9 +11599,11 @@ cx
 typedArray
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 thisObject
 -
@@ -11588,6 +11716,7 @@ CheckedUnwrap
 obj
 )
 )
+{
 return
 unwrapped
 -
@@ -11603,6 +11732,7 @@ unwrapped
 :
 nullptr
 ;
+}
 return
 nullptr
 ;
@@ -11673,9 +11803,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -11684,9 +11816,11 @@ IsArrayBuffer
 obj
 )
 )
+{
 return
 nullptr
 ;
+}
 *
 isSharedMemory
 =
@@ -11879,9 +12013,11 @@ if
 !
 obj
 )
+{
 return
 false
 ;
+}
 return
 obj
 -
@@ -12295,6 +12431,7 @@ CheckedUnwrap
 obj
 )
 )
+{
 return
 unwrapped
 -
@@ -12310,6 +12447,7 @@ unwrapped
 :
 nullptr
 ;
+}
 return
 nullptr
 ;
@@ -12340,6 +12478,7 @@ CheckedUnwrap
 obj
 )
 )
+{
 return
 unwrapped
 -
@@ -12355,6 +12494,7 @@ unwrapped
 :
 nullptr
 ;
+}
 return
 nullptr
 ;
@@ -12614,9 +12754,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -12963,9 +13105,11 @@ if
 !
 obj
 )
+{
 return
 false
 ;
+}
 return
 obj
 -
@@ -13026,9 +13170,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 obj
@@ -13180,9 +13326,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 obj
@@ -13267,9 +13415,11 @@ if
 !
 obj
 )
+{
 return
 0
 ;
+}
 return
 obj
 -
@@ -13333,9 +13483,11 @@ if
 !
 obj
 )
+{
 return
 0
 ;
+}
 return
 obj
 -
@@ -13410,9 +13562,11 @@ obj
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -13428,9 +13582,11 @@ ArrayBufferViewObject
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 js
 :
 :
@@ -13679,9 +13835,11 @@ obj
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -13690,9 +13848,11 @@ IsArrayBuffer
 obj
 )
 )
+{
 return
 nullptr
 ;
+}
 *
 length
 =

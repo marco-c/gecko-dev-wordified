@@ -444,9 +444,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 ArrayObject
 *
 aobj
@@ -496,6 +498,7 @@ if
 !
 nDynamicSlots
 )
+{
 aobj
 -
 >
@@ -504,6 +507,7 @@ initSlots
 nullptr
 )
 ;
+}
 MOZ_ASSERT
 (
 clasp
@@ -569,6 +573,7 @@ if
 (
 span
 )
+{
 obj
 -
 >
@@ -578,6 +583,7 @@ initializeSlotRange
 span
 )
 ;
+}
 gc
 :
 :
@@ -648,9 +654,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 capacity
 =
@@ -858,9 +866,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 obj
 -
 >
