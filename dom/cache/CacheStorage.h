@@ -264,8 +264,6 @@ nsIPrincipal
 *
 aPrincipal
 bool
-aStorageDisabled
-bool
 aForceTrustedOrigin
 ErrorResult
 &
@@ -563,6 +561,12 @@ aEntry
 ;
 OpenMode
 GetOpenMode
+(
+)
+const
+;
+bool
+HasStorageAccess
 (
 )
 const
