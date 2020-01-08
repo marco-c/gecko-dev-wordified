@@ -2803,7 +2803,7 @@ preferences
 #
 privacy
 -
-form
+address
 -
 autofill
 "
