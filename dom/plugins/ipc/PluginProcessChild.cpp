@@ -338,7 +338,7 @@ in
 GeckoChildProcessHost
 :
 :
-PerformAsyncLaunchInternal
+PerformAsyncLaunch
 (
 )
 in
