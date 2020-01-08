@@ -2419,7 +2419,7 @@ accessibility
 .
 enabled
 "
-false
+true
 )
 ;
 /
