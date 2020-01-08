@@ -319,6 +319,7 @@ nsRange
 *
 aEndPoint
 )
+const
 ;
 /
 /
@@ -366,6 +367,7 @@ nsRange
 *
 aEndPoint
 )
+const
 ;
 /
 /
@@ -395,6 +397,7 @@ aEndNode
 int32_t
 aEndOffset
 )
+const
 ;
 }
 ;

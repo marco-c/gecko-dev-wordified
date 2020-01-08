@@ -3738,6 +3738,7 @@ aEndNode
 int32_t
 aEndOffset
 )
+const
 {
 if
 (
@@ -4233,6 +4234,7 @@ nsRange
 *
 aEndPoint
 )
+const
 {
 nsresult
 rv
@@ -5068,6 +5070,7 @@ nsRange
 *
 aEndPoint
 )
+const
 {
 /
 /
