@@ -110,7 +110,7 @@ import
 (
     
 get_beetmover_bucket_scope
-get_beetmover_action_scope
+add_scope_prefix
     
 get_worker_type_for_scope
 )
@@ -624,9 +624,20 @@ config
         
 action_scope
 =
-get_beetmover_action_scope
+add_scope_prefix
 (
 config
+'
+beetmover
+:
+action
+:
+push
+-
+to
+-
+releases
+'
 )
         
 task
