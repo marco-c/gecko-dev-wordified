@@ -1064,11 +1064,13 @@ invalid
 async_result
 (
 )
+/
 Type
 error
 for
 widget
 value
+\
 (
 Property
 "
@@ -1076,7 +1078,9 @@ size
 "
 is
 required
+\
 )
+/
 "
 Should
 throw
