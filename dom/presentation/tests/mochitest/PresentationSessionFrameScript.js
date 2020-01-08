@@ -302,9 +302,9 @@ next
 line
 no
 -
-native
+global
 -
-reassign
+assign
 *
 /
 addMessageListener
@@ -361,9 +361,9 @@ next
 line
 no
 -
-native
+global
 -
-reassign
+assign
 *
 /
 removeMessageListener

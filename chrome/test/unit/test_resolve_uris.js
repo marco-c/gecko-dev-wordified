@@ -679,9 +679,9 @@ next
 line
 no
 -
-native
+global
 -
-reassign
+assign
 run_test
 =
 function

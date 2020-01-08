@@ -216,9 +216,9 @@ next
 line
 no
 -
-native
+global
 -
-reassign
+assign
 Components
 =
 SpecialPowers

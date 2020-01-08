@@ -15254,9 +15254,9 @@ disable
 line
 no
 -
-native
+global
 -
-reassign
+assign
 static
 parseSchema
 (
