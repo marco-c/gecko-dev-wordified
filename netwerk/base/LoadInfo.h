@@ -785,6 +785,8 @@ bool
 aServiceWorkerTaintingSynthesized
 bool
 aDocumentHasUserInteracted
+bool
+aDocumentHasLoaded
 )
 ;
 LoadInfo
@@ -1191,6 +1193,9 @@ mIsTrackerBlocked
 ;
 bool
 mDocumentHasUserInteracted
+;
+bool
+mDocumentHasLoaded
 ;
 }
 ;
