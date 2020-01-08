@@ -4553,8 +4553,6 @@ self
 _process_host_program
 (
 obj
-.
-program
 backend_file
 )
             
@@ -8744,7 +8742,16 @@ s
 n
 '
 %
+                           
+self
+.
+_pretty_path
+(
 program
+.
+output_path
+backend_file
+)
 )
     
 def
