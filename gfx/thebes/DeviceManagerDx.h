@@ -356,6 +356,14 @@ GetContentDevice
 ;
 RefPtr
 <
+ID3D11Device
+>
+GetImageDevice
+(
+)
+;
+RefPtr
+<
 IDCompositionDevice
 >
 GetDirectCompositionDevice
@@ -930,6 +938,12 @@ RefPtr
 ID3D11Device
 >
 mContentDevice
+;
+RefPtr
+<
+ID3D11Device
+>
+mImageDevice
 ;
 RefPtr
 <
