@@ -534,7 +534,7 @@ nr_ice_cand_pair
 pair
 )
 ;
-int
+void
 nr_ice_candidate_pair_set_state
 (
 nr_ice_peer_ctx
@@ -558,7 +558,7 @@ FILE
 out
 )
 ;
-int
+void
 nr_ice_candidate_pair_cancel
 (
 nr_ice_peer_ctx

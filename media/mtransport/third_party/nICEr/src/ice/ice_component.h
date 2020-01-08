@@ -457,6 +457,14 @@ nr_ice_component
 component
 )
 ;
+void
+nr_ice_component_stop_gathering
+(
+nr_ice_component
+*
+component
+)
+;
 int
 nr_ice_component_maybe_prune_candidate
 (
@@ -532,7 +540,7 @@ nr_ice_cand_pair
 pair
 )
 ;
-int
+void
 nr_ice_component_failed_pair
 (
 nr_ice_component
@@ -543,7 +551,7 @@ nr_ice_cand_pair
 pair
 )
 ;
-int
+void
 nr_ice_component_check_if_failed
 (
 nr_ice_component

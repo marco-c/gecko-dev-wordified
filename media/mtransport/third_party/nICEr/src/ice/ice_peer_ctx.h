@@ -317,14 +317,6 @@ controlling_conflict_resolved
 UINT8
 tiebreaker
 ;
-char
-*
-peer_ufrag
-;
-char
-*
-peer_pwd
-;
 int
 peer_lite
 ;
@@ -557,7 +549,7 @@ nr_ice_peer_ctx
 pctx
 )
 ;
-int
+void
 nr_ice_peer_ctx_check_if_connected
 (
 nr_ice_peer_ctx
