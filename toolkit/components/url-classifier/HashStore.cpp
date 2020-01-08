@@ -2045,10 +2045,6 @@ hash
 nsAutoCString
 compareHash
 ;
-char
-*
-data
-;
 uint32_t
 read
 ;
@@ -2070,10 +2066,8 @@ rv
 ;
 compareHash
 .
-GetMutableData
+SetLength
 (
-&
-data
 hash
 .
 Length
@@ -2155,7 +2149,11 @@ mInputStream
 >
 Read
 (
-data
+compareHash
+.
+BeginWriting
+(
+)
 hash
 .
 Length
