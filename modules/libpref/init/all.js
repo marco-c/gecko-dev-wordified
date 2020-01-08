@@ -7746,7 +7746,7 @@ capabilities
 .
 enabled
 "
-false
+true
 )
 ;
 pref
