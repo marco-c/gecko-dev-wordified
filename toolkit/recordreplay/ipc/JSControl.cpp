@@ -5186,7 +5186,7 @@ JS
 UniqueChars
 cstr
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 aCx
 str

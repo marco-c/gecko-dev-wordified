@@ -10068,7 +10068,7 @@ JS
 UniqueChars
 tmp
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 mCx
 value
