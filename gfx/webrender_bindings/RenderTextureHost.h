@@ -217,6 +217,13 @@ Unlock
 =
 0
 ;
+virtual
+void
+ClearCachedResources
+(
+)
+{
+}
 protected
 :
 virtual

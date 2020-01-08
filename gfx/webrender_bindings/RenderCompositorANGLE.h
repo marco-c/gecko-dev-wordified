@@ -322,6 +322,11 @@ IDXGIFactory2
 aDXGIFactory2
 )
 ;
+bool
+SutdownEGLLibraryIfNecessary
+(
+)
+;
 RefPtr
 <
 gl
