@@ -184,6 +184,8 @@ SimpleProgram
     
 HostLibrary
     
+HostRustLibrary
+    
 HostProgram
     
 HostSimpleProgram
@@ -3528,33 +3530,39 @@ objdir
         
 host_libs
 =
-[
-]
-        
+self
+.
+_lib_paths
+(
+backend_file
+.
+objdir
+                                    
+(
+lib
 for
 lib
 in
 prog
 .
 linked_libraries
-:
-            
+                                     
 if
 isinstance
 (
 lib
 HostLibrary
 )
-:
-                
-host_libs
-.
-append
-(
-lib
+)
 )
         
+inputs
+=
+objs
++
 host_libs
+        
+rust_linked
 =
 self
 .
@@ -3563,14 +3571,47 @@ _lib_paths
 backend_file
 .
 objdir
-host_libs
+                                      
+(
+lib
+for
+lib
+in
+prog
+.
+linked_libraries
+                                       
+if
+isinstance
+(
+lib
+HostRustLibrary
+)
+)
 )
         
-inputs
+extra_inputs
 =
-objs
+[
+]
+        
+if
+rust_linked
+:
+            
+extra_inputs
 +
+=
+[
+self
+.
+_rust_libs
+]
+            
 host_libs
++
+=
+rust_linked
         
 use_cxx
 =
@@ -3679,6 +3720,10 @@ cmd
 inputs
 =
 inputs
+            
+extra_inputs
+=
+extra_inputs
             
 outputs
 =
