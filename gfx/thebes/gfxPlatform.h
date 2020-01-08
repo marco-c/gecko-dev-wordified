@@ -2315,7 +2315,7 @@ string
 .
 *
 /
-nsString
+nsAutoString
 GetDefaultFontName
 (
 const
