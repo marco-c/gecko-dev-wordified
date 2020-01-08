@@ -8479,7 +8479,7 @@ netAddrCString
 ;
 netAddrCString
 .
-SetCapacity
+SetLength
 (
 kIPv6CStrBufSize
 )

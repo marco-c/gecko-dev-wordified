@@ -261,7 +261,7 @@ AF_INET
 :
 aAddress
 .
-SetCapacity
+SetLength
 (
 kIPv4CStrBufSize
 )
@@ -299,7 +299,7 @@ AF_INET6
 :
 aAddress
 .
-SetCapacity
+SetLength
 (
 kIPv6CStrBufSize
 )

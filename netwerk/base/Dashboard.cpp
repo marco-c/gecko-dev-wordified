@@ -4632,7 +4632,7 @@ aLogPath
 {
 aLogPath
 .
-SetCapacity
+SetLength
 (
 2048
 )
