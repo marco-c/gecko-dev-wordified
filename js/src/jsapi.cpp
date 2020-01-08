@@ -33190,9 +33190,6 @@ cx
 ;
 return
 NewString
-<
-CanGC
->
 (
 cx
 chars
@@ -33228,9 +33225,6 @@ cx
 ;
 return
 NewString
-<
-CanGC
->
 (
 cx
 chars
@@ -33266,9 +33260,6 @@ cx
 ;
 return
 NewStringDontDeflate
-<
-CanGC
->
 (
 cx
 chars
