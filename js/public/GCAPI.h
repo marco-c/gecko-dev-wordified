@@ -747,7 +747,7 @@ gc_high_frequency_time_limit_ms
 *
 Default
 :
-HighFrequencyThresholdUsec
+HighFrequencyThreshold
 *
 /
 JSGC_HIGH_FREQUENCY_TIME_LIMIT
