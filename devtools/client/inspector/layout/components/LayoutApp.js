@@ -1042,7 +1042,7 @@ flex
 container
 to
 the
-first
+second
 index
 of
 the
@@ -1056,7 +1056,7 @@ items
 .
 splice
 (
-0
+1
 0
 {
 component
@@ -1148,7 +1148,7 @@ dom
 div
 (
 {
-id
+className
 :
 "
 layout
