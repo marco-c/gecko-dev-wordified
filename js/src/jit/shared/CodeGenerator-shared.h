@@ -376,9 +376,6 @@ path
 NonAssertingLabel
 returnLabel_
 ;
-FallbackICStubSpace
-stubSpace_
-;
 js
 :
 :
