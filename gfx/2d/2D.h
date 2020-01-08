@@ -8006,6 +8006,14 @@ padding
 operation
 .
 *
+aRegion
+is
+specified
+in
+device
+space
+.
+*
 /
 virtual
 void

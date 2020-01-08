@@ -1782,6 +1782,12 @@ drawTarget
 PadEdges
 (
 newValidRegion
+.
+MovedBy
+(
+-
+mTilingOrigin
+)
 )
 ;
 }
