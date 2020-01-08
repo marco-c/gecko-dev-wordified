@@ -862,6 +862,12 @@ CheckThread
 (
 )
 ;
+SignalPacketSending
+(
+this
+packet
+)
+;
 nsresult
 res
 =
@@ -1272,6 +1278,12 @@ Copy
 (
 data
 len
+)
+;
+packet
+.
+Categorize
+(
 )
 ;
 SignalPacketReceived

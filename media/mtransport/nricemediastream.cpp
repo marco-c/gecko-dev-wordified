@@ -3006,6 +3006,16 @@ candidate
 )
 const
 {
+if
+(
+!
+stream_
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 nr_ice_candidate
 *
 cand

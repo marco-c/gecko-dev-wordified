@@ -4561,10 +4561,6 @@ NrIceCtx
 (
 )
 {
-Destroy
-(
-)
-;
 }
 void
 NrIceCtx
