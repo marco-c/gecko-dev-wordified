@@ -1200,9 +1200,6 @@ child
 :
 ReportFatalError
 (
-Nothing
-(
-)
 "
 ExecuteTrigger
 Mismatch
