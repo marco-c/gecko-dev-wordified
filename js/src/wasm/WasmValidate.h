@@ -4906,6 +4906,14 @@ ModuleEnvironment
 env
 )
 ;
+void
+ConvertMemoryPagesToBytes
+(
+Limits
+*
+memory
+)
+;
 /
 /
 Validate
