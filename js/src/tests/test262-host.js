@@ -161,6 +161,13 @@ global
 evalInWorker
 ;
 var
+monotonicNow
+=
+global
+.
+monotonicNow
+;
+var
 hasCreateIsHTMLDDA
 =
 "
@@ -1071,6 +1078,7 @@ leaving
 )
 {
 }
+monotonicNow
 }
 ;
 Atomics
@@ -1408,6 +1416,7 @@ s
 )
 ;
 }
+monotonicNow
 }
 ;
 }
