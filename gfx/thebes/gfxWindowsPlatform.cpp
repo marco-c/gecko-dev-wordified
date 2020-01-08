@@ -5066,7 +5066,7 @@ gfxWindowsPlatform
 :
 SchedulePaintIfDeviceReset
 "
-GRAPHICS
+OTHER
 )
 ;
 DeviceResetReason
