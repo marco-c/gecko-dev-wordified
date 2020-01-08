@@ -768,7 +768,7 @@ mHash
 mozilla
 :
 :
-ConstExprHashString
+HashString
 (
 aStr
 )
