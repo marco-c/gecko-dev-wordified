@@ -224,6 +224,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
