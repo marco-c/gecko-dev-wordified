@@ -181,6 +181,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
