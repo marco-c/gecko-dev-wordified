@@ -10633,8 +10633,6 @@ mAtFirstColumn
 ;
 bool
 atFirstColumn
-=
-mAtFirstColumn
 ;
 bool
 outputLineBreak
