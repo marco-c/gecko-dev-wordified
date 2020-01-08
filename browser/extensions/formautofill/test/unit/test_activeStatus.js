@@ -444,6 +444,11 @@ Need
 to
 trigger
 _onStatusChanged
+await
+Promise
+.
+all
+(
 [
 "
 add
@@ -459,8 +464,9 @@ reconcile
 "
 ]
 .
-forEach
+map
 (
+async
 event
 =
 >
@@ -485,6 +491,7 @@ reset
 (
 )
 ;
+await
 formAutofillParent
 .
 observe
@@ -513,6 +520,7 @@ true
 )
 ;
 }
+)
 )
 ;
 /
@@ -547,6 +555,7 @@ reset
 (
 )
 ;
+await
 formAutofillParent
 .
 observe
@@ -663,8 +672,13 @@ getAll
 .
 returns
 (
+Promise
+.
+all
+(
 [
 ]
+)
 )
 ;
 /
@@ -793,6 +807,10 @@ getAll
 .
 returns
 (
+Promise
+.
+all
+(
 [
 {
 "
@@ -807,7 +825,9 @@ John
 }
 ]
 )
+)
 ;
+await
 formAutofillParent
 .
 observe

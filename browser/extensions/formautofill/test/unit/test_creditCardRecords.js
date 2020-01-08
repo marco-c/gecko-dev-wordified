@@ -1209,6 +1209,7 @@ Assert
 .
 ok
 (
+await
 profileStorage
 .
 creditCards
@@ -1226,6 +1227,7 @@ Assert
 .
 ok
 (
+await
 profileStorage
 .
 creditCards
@@ -1573,6 +1575,7 @@ initialize
 let
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -1690,6 +1693,7 @@ set
 .
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -1790,12 +1794,15 @@ test
 ;
 do_check_credit_card_matches
 (
+(
+await
 profileStorage
 .
 creditCards
 .
 getAll
 (
+)
 )
 [
 0
@@ -1849,6 +1856,7 @@ initialize
 let
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -1870,6 +1878,7 @@ guid
 let
 creditCard
 =
+await
 profileStorage
 .
 creditCards
@@ -1914,6 +1923,7 @@ test
 ;
 do_check_credit_card_matches
 (
+await
 profileStorage
 .
 creditCards
@@ -1929,6 +1939,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 creditCards
@@ -1988,6 +1999,7 @@ initialize
 let
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -2117,6 +2129,7 @@ deleted
 before
 saving
 .
+await
 profileStorage
 .
 creditCards
@@ -2201,6 +2214,7 @@ cause
 any
 problem
 .
+await
 profileStorage
 .
 creditCards
@@ -2248,14 +2262,11 @@ number
 )
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 creditCards
@@ -2278,14 +2289,11 @@ field
 /
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 creditCards
@@ -2306,14 +2314,11 @@ field
 /
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 creditCards
@@ -2373,6 +2378,7 @@ initialize
 let
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -2403,6 +2409,7 @@ TEST_CREDIT_CARD_WITH_BILLING_ADDRESS
 ;
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -2569,6 +2576,7 @@ initialize
 let
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -2663,6 +2671,7 @@ name
 undefined
 )
 ;
+await
 profileStorage
 .
 creditCards
@@ -2701,6 +2710,7 @@ initialize
 let
 creditCard
 =
+await
 profileStorage
 .
 creditCards
@@ -2751,6 +2761,7 @@ deleted
 while
 updating
 .
+await
 profileStorage
 .
 creditCards
@@ -2859,6 +2870,7 @@ cause
 any
 problem
 .
+await
 profileStorage
 .
 creditCards
@@ -2917,6 +2929,7 @@ number
 )
 )
 ;
+await
 profileStorage
 .
 creditCards
@@ -2975,14 +2988,11 @@ number
 )
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 creditCards
@@ -3003,14 +3013,11 @@ record
 /
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 creditCards
@@ -3034,14 +3041,11 @@ field
 /
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 creditCards
@@ -3063,14 +3067,11 @@ field
 /
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 creditCards
@@ -3091,6 +3092,7 @@ field
 /
 )
 ;
+await
 profileStorage
 .
 creditCards
@@ -3101,14 +3103,11 @@ guid
 TEST_CREDIT_CARD_1
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 profileStorage
 .
 creditCards
@@ -3166,6 +3165,7 @@ initialize
 (
 )
 ;
+await
 profileStorage
 .
 creditCards
@@ -3175,6 +3175,7 @@ add
 TEST_CREDIT_CARD_WITH_INVALID_EXPIRY_DATE
 )
 ;
+await
 profileStorage
 .
 creditCards
@@ -3184,6 +3185,7 @@ add
 TEST_CREDIT_CARD_WITH_2_DIGITS_YEAR
 )
 ;
+await
 profileStorage
 .
 creditCards
@@ -3193,6 +3195,7 @@ add
 TEST_CREDIT_CARD_WITH_SPACES_BETWEEN_DIGITS
 )
 ;
+await
 profileStorage
 .
 creditCards
@@ -3205,6 +3208,7 @@ TEST_CREDIT_CARD_WITH_INVALID_NETWORK
 let
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -3495,6 +3499,7 @@ initialize
 let
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -3618,6 +3623,7 @@ initialize
 let
 creditCard
 =
+await
 profileStorage
 .
 creditCards
@@ -3722,6 +3728,7 @@ initialize
 let
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -3834,6 +3841,7 @@ initialize
 ;
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -3856,6 +3864,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 creditCards
@@ -3921,6 +3930,7 @@ creditCards
 let
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -4042,6 +4052,7 @@ Assert
 .
 ok
 (
+await
 profileStorage
 .
 creditCards
@@ -4069,6 +4080,7 @@ onMerged
 }
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -4229,6 +4241,7 @@ creditCards
 let
 creditCards
 =
+await
 profileStorage
 .
 creditCards
@@ -4315,6 +4328,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 creditCards
@@ -4386,6 +4400,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 creditCards
@@ -4485,6 +4500,8 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 creditCards
@@ -4492,6 +4509,7 @@ creditCards
 mergeToStorage
 (
 anotherCreditCard
+)
 )
 .
 length
@@ -4502,12 +4520,15 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 creditCards
 .
 getAll
 (
+)
 )
 [
 0
@@ -4529,12 +4550,15 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 creditCards
 .
 getAll
 (
+)
 )
 [
 0
@@ -4557,12 +4581,15 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 creditCards
 .
 getAll
 (
+)
 )
 [
 1
@@ -4584,12 +4611,15 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 creditCards
 .
 getAll
 (
+)
 )
 [
 1
@@ -4624,6 +4654,8 @@ Assert
 .
 equal
 (
+(
+await
 profileStorage
 .
 creditCards
@@ -4631,6 +4663,7 @@ creditCards
 mergeToStorage
 (
 TEST_CREDIT_CARD_WITH_EMPTY_COMPUTED_FIELD
+)
 )
 .
 length
@@ -4687,6 +4720,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 creditCards
@@ -4709,6 +4743,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 creditCards
@@ -4760,6 +4795,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 creditCards
@@ -4812,6 +4848,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 creditCards
@@ -4918,6 +4955,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 creditCards
@@ -5009,6 +5047,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 creditCards
@@ -5085,6 +5124,7 @@ Assert
 .
 equal
 (
+await
 profileStorage
 .
 creditCards
