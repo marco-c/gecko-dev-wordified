@@ -5104,7 +5104,7 @@ None
 ;
 output
 .
-write
+write_all
 (
 data
 .
@@ -6427,7 +6427,7 @@ as_bytes
 ;
 output
 .
-write
+write_all
 (
 func
 )
@@ -6435,7 +6435,7 @@ func
 ;
 output
 .
-write
+write_all
 (
 b
 "
@@ -6447,7 +6447,7 @@ b
 ;
 output
 .
-write
+write_all
 (
 escape_quote
 (
@@ -6462,7 +6462,7 @@ as_bytes
 ;
 output
 .
-write
+write_all
 (
 b
 "
@@ -6474,7 +6474,7 @@ b
 ;
 output
 .
-write
+write_all
 (
 b
 "
@@ -6499,7 +6499,7 @@ x
 {
 output
 .
-write
+write_all
 (
 if
 x
@@ -6532,7 +6532,7 @@ x
 {
 output
 .
-write
+write_all
 (
 x
 .
@@ -6560,7 +6560,7 @@ x
 {
 output
 .
-write
+write_all
 (
 b
 "
@@ -6572,7 +6572,7 @@ b
 ;
 output
 .
-write
+write_all
 (
 escape_quote
 (
@@ -6587,7 +6587,7 @@ as_bytes
 ;
 output
 .
-write
+write_all
 (
 b
 "
@@ -6602,7 +6602,7 @@ b
 ;
 output
 .
-write
+write_all
 (
 b
 "
