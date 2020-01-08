@@ -144,6 +144,7 @@ prim_store
 BrushKind
 BrushPrimitive
 BrushSegment
+BrushSegmentVec
 }
 ;
 use
@@ -4633,10 +4634,7 @@ brush_segments
 :
 &
 mut
-Vec
-<
-BrushSegment
->
+BrushSegmentVec
 )
 -
 >
@@ -6858,10 +6856,7 @@ brush_segments
 :
 &
 mut
-Vec
-<
-BrushSegment
->
+BrushSegmentVec
 )
 {
 if
@@ -7613,10 +7608,7 @@ brush_segments
 :
 &
 mut
-Vec
-<
-BrushSegment
->
+BrushSegmentVec
 )
 {
 if
@@ -7750,10 +7742,7 @@ brush_segments
 :
 &
 mut
-Vec
-<
-BrushSegment
->
+BrushSegmentVec
 )
 {
 if

@@ -898,7 +898,7 @@ UpdateResources
 updates
 :
 TextureUpdateList
-cancel_rendering
+memory_pressure
 :
 bool
 }

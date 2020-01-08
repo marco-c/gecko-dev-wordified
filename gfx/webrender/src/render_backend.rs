@@ -4419,7 +4419,7 @@ UpdateResources
 updates
 :
 pending_update
-cancel_rendering
+memory_pressure
 :
 true
 }
@@ -8404,7 +8404,7 @@ resource_cache
 pending_updates
 (
 )
-cancel_rendering
+memory_pressure
 :
 false
 }
