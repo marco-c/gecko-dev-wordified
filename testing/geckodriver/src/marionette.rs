@@ -628,12 +628,6 @@ let
 mut
 capabilities
 =
-try
-!
-(
-try
-!
-(
 new_session_parameters
 .
 match_browser
@@ -642,7 +636,7 @@ match_browser
 mut
 fx_capabilities
 )
-)
+?
 .
 ok_or
 (
@@ -667,14 +661,11 @@ capabilities
 "
 )
 )
-)
+?
 ;
 let
 options
 =
-try
-!
-(
 FirefoxOptions
 :
 :
@@ -687,7 +678,7 @@ chosen_binary
 mut
 capabilities
 )
-)
+?
 ;
 (
 options
@@ -742,9 +733,6 @@ settings
 .
 connect_existing
 {
-try
-!
-(
 self
 .
 start_browser
@@ -752,7 +740,7 @@ start_browser
 port
 options
 )
-)
+?
 ;
 }
 let
