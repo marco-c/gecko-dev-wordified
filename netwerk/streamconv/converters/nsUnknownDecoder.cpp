@@ -4804,6 +4804,11 @@ request
 nullptr
 )
 ;
+if
+(
+length
+)
+{
 nsCOMPtr
 <
 nsIStringInputStream
@@ -4865,6 +4870,7 @@ rv
 rv
 )
 ;
+}
 listener
 -
 >
