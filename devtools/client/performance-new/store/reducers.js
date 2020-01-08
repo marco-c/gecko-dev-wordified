@@ -724,11 +724,6 @@ INITIALIZE_STORE
 :
 return
 {
-toolbox
-:
-action
-.
-toolbox
 perfFront
 :
 action

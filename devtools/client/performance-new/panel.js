@@ -270,9 +270,6 @@ panelWin
 .
 gInit
 (
-this
-.
-toolbox
 perfFront
 preferenceFront
 )
