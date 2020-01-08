@@ -1795,8 +1795,8 @@ Intent
 getTabSwitchIntent
 (
 final
-int
-tabId
+Tab
+tab
 )
 {
 final
@@ -1847,7 +1847,11 @@ intent
 putExtra
 (
 INTENT_EXTRA_TAB_ID
-tabId
+tab
+.
+getId
+(
+)
 )
 ;
 intent
