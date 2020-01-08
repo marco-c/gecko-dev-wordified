@@ -761,6 +761,7 @@ mozilla
 BaseAutoLock
 <
 SafeMutex
+&
 >
 SafeMutexAutoLock
 ;
@@ -771,6 +772,7 @@ mozilla
 BaseAutoUnlock
 <
 SafeMutex
+&
 >
 SafeMutexAutoUnlock
 ;

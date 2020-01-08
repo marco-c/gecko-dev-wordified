@@ -1363,6 +1363,7 @@ typedef
 BaseAutoLock
 <
 PSMutex
+&
 >
 PSAutoLock
 ;
