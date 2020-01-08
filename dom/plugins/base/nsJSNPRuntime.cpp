@@ -6362,7 +6362,7 @@ p
 sJSObjWrappers
 -
 >
-lookupForAdd
+lookup
 (
 nsJSObjWrapperKey
 (

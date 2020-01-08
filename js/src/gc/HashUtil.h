@@ -360,6 +360,10 @@ table
 key
 )
 ;
+if
+(
+addPtr
+)
 table
 .
 remove
