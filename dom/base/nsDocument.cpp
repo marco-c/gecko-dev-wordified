@@ -2190,6 +2190,13 @@ NodeUbiReporting
 .
 h
 "
+#
+include
+"
+nsICookieService
+.
+h
+"
 using
 namespace
 mozilla
