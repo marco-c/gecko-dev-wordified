@@ -596,7 +596,9 @@ document
 0
 ]
 .
-bounds
+getBounds
+(
+)
 ;
 EventUtils
 .

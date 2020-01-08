@@ -3096,9 +3096,7 @@ global
 document
 .
 const
-{
 bounds
-}
 =
 nodeWin
 .
@@ -3117,6 +3115,10 @@ document
 [
 0
 ]
+.
+getBounds
+(
+)
 ;
 xOffset
 =

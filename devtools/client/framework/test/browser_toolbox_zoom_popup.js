@@ -938,7 +938,9 @@ doc
 0
 ]
 .
-bounds
+getBounds
+(
+)
 ;
 const
 menuRect
@@ -959,7 +961,9 @@ doc
 0
 ]
 .
-bounds
+getBounds
+(
+)
 ;
 info
 (

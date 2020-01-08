@@ -382,7 +382,7 @@ getBoundingClientRect
 )
 ;
 const
-firstQuad
+firstQuadBounds
 =
 prop
 .
@@ -396,6 +396,10 @@ getBoxQuads
 [
 0
 ]
+.
+getBounds
+(
+)
 ;
 /
 /
@@ -446,9 +450,7 @@ offset
 const
 x
 =
-firstQuad
-.
-bounds
+firstQuadBounds
 .
 left
 -
@@ -456,9 +458,7 @@ rect
 .
 left
 +
-firstQuad
-.
-bounds
+firstQuadBounds
 .
 width
 /
@@ -488,9 +488,7 @@ here
 const
 y
 =
-firstQuad
-.
-bounds
+firstQuadBounds
 .
 height
 /

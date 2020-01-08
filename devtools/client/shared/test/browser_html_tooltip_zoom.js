@@ -396,7 +396,9 @@ doc
 0
 ]
 .
-bounds
+getBounds
+(
+)
 ;
 const
 anchorRect
@@ -422,7 +424,9 @@ doc
 0
 ]
 .
-bounds
+getBounds
+(
+)
 ;
 const
 xDelta
