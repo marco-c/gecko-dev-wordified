@@ -4677,12 +4677,12 @@ we
 only
 do
 Linux
+and
+Mac
 debug
 builds
 .
 Windows
-and
-Mac
 builds
     
 #
@@ -4701,6 +4701,16 @@ return
 searchfox
 -
 linux64
+-
+searchfox
+/
+debug
+'
+            
+'
+searchfox
+-
+macosx64
 -
 searchfox
 /
