@@ -74,17 +74,6 @@ jsm
 /
 *
 globals
-TabBase
-WindowBase
-TabTrackerBase
-WindowTrackerBase
-TabManagerBase
-WindowManagerBase
-*
-/
-/
-*
-globals
 EventDispatcher
 *
 /
