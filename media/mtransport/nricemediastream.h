@@ -1364,6 +1364,15 @@ nr_ice_media_stream
 stream
 )
 ;
+void
+DeferredCloseOldStream
+(
+const
+nr_ice_media_stream
+*
+old
+)
+;
 State
 state_
 ;
