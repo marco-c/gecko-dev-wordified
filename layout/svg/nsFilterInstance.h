@@ -1871,6 +1871,12 @@ nsIFrame
 aTargetFrame
 bool
 aInputIsTainted
+nsTArray
+<
+FilterPrimitiveDescription
+>
+&
+aPrimitiveDescriptions
 )
 ;
 /
@@ -2483,12 +2489,6 @@ SourceSurface
 >
 >
 mInputImages
-;
-nsTArray
-<
-FilterPrimitiveDescription
->
-mPrimitiveDescriptions
 ;
 FilterDescription
 mFilterDescription

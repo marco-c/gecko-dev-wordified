@@ -2940,7 +2940,13 @@ aPrimitiveDescrs
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 descr
+)
 )
 ;
 uint32_t

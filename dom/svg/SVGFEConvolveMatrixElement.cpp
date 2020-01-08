@@ -987,7 +987,6 @@ SourceSurface
 aInputImages
 )
 {
-const
 FilterPrimitiveDescription
 failureDescription
 (
