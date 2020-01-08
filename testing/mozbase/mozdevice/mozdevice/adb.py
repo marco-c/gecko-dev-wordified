@@ -4128,6 +4128,24 @@ verbose
         
 self
 .
+_logger
+.
+info
+(
+'
+Using
+adb
+%
+s
+'
+%
+self
+.
+_adb_version
+)
+        
+self
+.
 _device_serial
 =
 self
@@ -15041,6 +15059,13 @@ _adb_version
 .
 36
 '
+and
+self
+.
+is_dir
+(
+remote
+)
 :
                 
 remote
