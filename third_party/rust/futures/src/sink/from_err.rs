@@ -50,6 +50,7 @@ method
 [
 derive
 (
+Clone
 Debug
 )
 ]

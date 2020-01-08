@@ -153,6 +153,14 @@ crate
 "
 )
 ]
+#
+!
+[
+allow
+(
+deprecated
+)
+]
 use
 std
 :
@@ -611,7 +619,7 @@ represents
 I
 /
 O
-object
+objects
 which
 are
 readable

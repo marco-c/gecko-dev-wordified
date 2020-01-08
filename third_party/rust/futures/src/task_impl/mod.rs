@@ -846,10 +846,8 @@ s
 typically
 guaranteed
 that
-for
-each
-call
-to
+after
+calling
 notify
 poll
 will

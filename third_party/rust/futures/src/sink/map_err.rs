@@ -27,6 +27,7 @@ combinator
 [
 derive
 (
+Clone
 Debug
 )
 ]

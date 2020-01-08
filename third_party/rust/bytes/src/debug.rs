@@ -375,13 +375,12 @@ fmt
 /
 ASCII
 printable
-except
-space
 }
 else
 if
 c
 >
+=
 0x20
 &
 &

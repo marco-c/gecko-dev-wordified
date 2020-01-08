@@ -147,7 +147,7 @@ random
 bytes
 .
 use
-std
+core
 :
 :
 default

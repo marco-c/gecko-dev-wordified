@@ -137,11 +137,18 @@ io
 :
 {
 FromRawSocket
+RawSocket
 AsRawSocket
 }
 ;
 use
 winapi
+:
+:
+um
+:
+:
+winsock2
 :
 :
 SOCKET
@@ -174,7 +181,7 @@ from_raw_socket
 (
 fd
 :
-SOCKET
+RawSocket
 )
 -
 >
@@ -192,6 +199,8 @@ Socket
 from_inner
 (
 fd
+as
+SOCKET
 )
 ;
 TcpBuilder
@@ -222,7 +231,7 @@ self
 )
 -
 >
-SOCKET
+RawSocket
 {
 /
 /
@@ -260,6 +269,8 @@ as_inner
 raw
 (
 )
+as
+RawSocket
 }
 }
 impl
@@ -273,7 +284,7 @@ from_raw_socket
 (
 fd
 :
-SOCKET
+RawSocket
 )
 -
 >
@@ -291,6 +302,8 @@ Socket
 from_inner
 (
 fd
+as
+SOCKET
 )
 ;
 UdpBuilder
@@ -321,7 +334,7 @@ self
 )
 -
 >
-SOCKET
+RawSocket
 {
 /
 /
@@ -359,5 +372,7 @@ as_inner
 raw
 (
 )
+as
+RawSocket
 }
 }

@@ -882,7 +882,11 @@ github
 .
 com
 /
-alexcrichton
+rust
+-
+lang
+-
+nursery
 /
 futures
 -
@@ -3417,7 +3421,11 @@ github
 .
 com
 /
-alexcrichton
+rust
+-
+lang
+-
+nursery
 /
 futures
 -

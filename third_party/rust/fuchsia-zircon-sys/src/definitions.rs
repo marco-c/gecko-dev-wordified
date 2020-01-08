@@ -1242,7 +1242,7 @@ packet
 :
 *
 const
-u8
+zx_port_packet_t
 size
 :
 usize
@@ -1265,7 +1265,7 @@ packet
 :
 *
 mut
-u8
+zx_port_packet_t
 size
 :
 usize

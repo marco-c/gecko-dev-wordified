@@ -62,6 +62,16 @@ Unsigned
 machine
 word
 .
+pub
+type
+pthread_t
+=
+*
+mut
+:
+:
+c_void
+;
 s
 !
 {

@@ -1123,9 +1123,9 @@ default
 )
 -
 >
-Entry
+Self
 {
-Entry
+Self
 {
 next
 :
@@ -1284,13 +1284,9 @@ new
 )
 -
 >
-List
-<
-T
-C
->
+Self
 {
-List
+Self
 {
 head
 :
@@ -1800,8 +1796,6 @@ C
 {
 Iter
 {
-guard
-:
 guard
 pred
 :
@@ -2375,7 +2369,6 @@ use
 {
 Collector
 Owned
-Guard
 }
 ;
 use
@@ -2514,7 +2507,7 @@ handle
 =
 collector
 .
-handle
+register
 (
 )
 ;
@@ -2895,7 +2888,7 @@ handle
 =
 collector
 .
-handle
+register
 (
 )
 ;
@@ -3323,7 +3316,7 @@ handle
 =
 collector
 .
-handle
+register
 (
 )
 ;
@@ -3436,7 +3429,7 @@ handle
 =
 collector
 .
-handle
+register
 (
 )
 ;
@@ -3574,7 +3567,7 @@ handle
 =
 collector
 .
-handle
+register
 (
 )
 ;
@@ -3722,7 +3715,7 @@ handle
 =
 collector
 .
-handle
+register
 (
 )
 ;

@@ -70,6 +70,7 @@ sink
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -144,6 +145,7 @@ U
 [
 derive
 (
+Clone
 Debug
 )
 ]

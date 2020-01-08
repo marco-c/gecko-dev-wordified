@@ -682,8 +682,6 @@ data
 AtomicEpoch
 {
 data
-:
-data
 }
 }
 /
@@ -882,8 +880,6 @@ ord
 ;
 Epoch
 {
-data
-:
 data
 }
 }
