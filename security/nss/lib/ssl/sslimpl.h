@@ -10549,6 +10549,9 @@ ssl_PickSignatureScheme
 sslSocket
 *
 ss
+CERTCertificate
+*
+cert
 SECKEYPublicKey
 *
 pubKey
@@ -10580,8 +10583,8 @@ SSLSignatureScheme
 scheme
 )
 ;
-KeyType
-ssl_SignatureSchemeToKeyType
+SSLAuthType
+ssl_SignatureSchemeToAuthType
 (
 SSLSignatureScheme
 scheme
