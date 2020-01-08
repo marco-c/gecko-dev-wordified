@@ -753,6 +753,11 @@ setContent
 this
 .
 _list
+{
+height
+:
+Infinity
+}
 )
 ;
 this
