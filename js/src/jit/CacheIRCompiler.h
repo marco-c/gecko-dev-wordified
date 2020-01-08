@@ -642,6 +642,16 @@ CallObjectHasSparseElementResult
 \
 _
 (
+CallInt32ToString
+)
+\
+_
+(
+CallNumberToString
+)
+\
+_
+(
 WrapResult
 )
 /
