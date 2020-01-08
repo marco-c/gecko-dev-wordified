@@ -186,6 +186,13 @@ narrate
 voice
 "
 "
+browser
+.
+contentblocking
+.
+enabled
+"
+"
 privacy
 .
 trackingprotection
