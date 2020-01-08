@@ -2637,10 +2637,9 @@ synchronously
 .
 *
 /
-nsresult
+void
 Stop
 (
-void
 )
 ;
 /
