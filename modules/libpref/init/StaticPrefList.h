@@ -2661,7 +2661,7 @@ enabled
 "
 layout_css_offset_logical_properties_enabled
 bool
-true
+false
 )
 /
 /
