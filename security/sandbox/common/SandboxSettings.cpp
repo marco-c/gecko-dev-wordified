@@ -338,7 +338,7 @@ const
 int
 maxLevel
 =
-2
+3
 ;
 if
 (
