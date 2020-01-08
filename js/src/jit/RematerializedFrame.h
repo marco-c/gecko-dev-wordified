@@ -719,10 +719,12 @@ this
 env
 )
 )
+{
 hasInitialEnv_
 =
 true
 ;
+}
 }
 template
 <
@@ -1248,6 +1250,7 @@ isArrow
 (
 )
 )
+{
 return
 callee
 (
@@ -1262,6 +1265,7 @@ FunctionExtended
 ARROW_NEWTARGET_SLOT
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 !

@@ -586,6 +586,7 @@ JitOptions
 .
 spectreIndexMasking
 )
+{
 bc
 -
 >
@@ -594,7 +595,9 @@ replaceAllUsesWith
 addr
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 !
@@ -606,6 +609,7 @@ hasUses
 )
 )
 ;
+}
 }
 else
 {
@@ -672,6 +676,7 @@ JitOptions
 .
 spectreIndexMasking
 )
+{
 bc
 -
 >
@@ -680,7 +685,9 @@ replaceAllUsesWith
 prevCheckOrPhi
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 !
@@ -692,6 +699,7 @@ hasUses
 )
 )
 ;
+}
 }
 }
 else
@@ -713,9 +721,11 @@ id
 def
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 break
@@ -894,6 +904,7 @@ isWasmBoundsCheck
 (
 )
 )
+{
 src
 =
 src
@@ -908,6 +919,7 @@ index
 (
 )
 ;
+}
 }
 else
 {
@@ -996,9 +1008,11 @@ id
 def
 )
 )
+{
 return
 false
 ;
+}
 }
 break
 ;

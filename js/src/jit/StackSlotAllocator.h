@@ -274,6 +274,7 @@ height_
 =
 0
 )
+{
 addAvailableSlot
 (
 height_
@@ -282,6 +283,7 @@ height_
 4
 )
 ;
+}
 if
 (
 height_
@@ -291,6 +293,7 @@ height_
 =
 0
 )
+{
 addAvailableDoubleSlot
 (
 height_
@@ -299,6 +302,7 @@ height_
 8
 )
 ;
+}
 return
 height_
 +
@@ -320,6 +324,7 @@ empty
 (
 )
 )
+{
 return
 doubleSlots
 .
@@ -327,6 +332,7 @@ popCopy
 (
 )
 ;
+}
 if
 (
 height_
@@ -336,6 +342,7 @@ height_
 =
 0
 )
+{
 addAvailableSlot
 (
 height_
@@ -344,6 +351,7 @@ height_
 4
 )
 ;
+}
 return
 height_
 +
@@ -365,6 +373,7 @@ empty
 (
 )
 )
+{
 return
 normalSlots
 .
@@ -372,6 +381,7 @@ popCopy
 (
 )
 ;
+}
 if
 (
 !

@@ -1486,9 +1486,11 @@ mode
 =
 TYPED_REG_MAX
 )
+{
 return
 regLayout
 ;
+}
 if
 (
 mode
@@ -1502,9 +1504,11 @@ mode
 =
 TYPED_STACK_MAX
 )
+{
 return
 stackLayout
 ;
+}
 }
 }
 MOZ_CRASH_UNSAFE_PRINTF
@@ -2160,6 +2164,7 @@ length
 %
 ALLOCATION_TABLE_ALIGNMENT
 )
+{
 writer
 .
 writeByte
@@ -2167,6 +2172,7 @@ writeByte
 0x7f
 )
 ;
+}
 }
 void
 RValueAllocation
@@ -2577,6 +2583,7 @@ type1
 =
 PAYLOAD_NONE
 )
+{
 out
 .
 printf
@@ -2586,6 +2593,7 @@ printf
 "
 )
 ;
+}
 dumpPayload
 (
 out
@@ -2604,6 +2612,7 @@ type2
 =
 PAYLOAD_NONE
 )
+{
 out
 .
 printf
@@ -2612,6 +2621,7 @@ printf
 "
 )
 ;
+}
 dumpPayload
 (
 out
@@ -2630,6 +2640,7 @@ type1
 =
 PAYLOAD_NONE
 )
+{
 out
 .
 printf
@@ -2639,6 +2650,7 @@ printf
 "
 )
 ;
+}
 }
 SnapshotReader
 :
@@ -2693,8 +2705,10 @@ if
 !
 snapshots
 )
+{
 return
 ;
+}
 JitSpew
 (
 JitSpew_IonSnapshots
@@ -3281,8 +3295,10 @@ if
 !
 recovers
 )
+{
 return
 ;
+}
 reader_
 =
 CompactBufferReader
@@ -3352,6 +3368,7 @@ currentPosition
 (
 )
 )
+{
 rr
 .
 instruction
@@ -3365,6 +3382,7 @@ cloneInto
 rawData_
 )
 ;
+}
 }
 RecoverReader
 &
@@ -3412,6 +3430,7 @@ currentPosition
 (
 )
 )
+{
 rr
 .
 instruction
@@ -3425,6 +3444,7 @@ cloneInto
 rawData_
 )
 ;
+}
 return
 *
 this
@@ -4044,12 +4064,14 @@ writeRecoverData
 writer_
 )
 )
+{
 writer_
 .
 setOOM
 (
 )
 ;
+}
 instructionsWritten_
 +
 +

@@ -154,9 +154,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -174,9 +176,11 @@ numInstructions
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -196,9 +200,11 @@ numVirtualRegisters
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -213,9 +219,11 @@ numBlocks
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 size_t
@@ -300,9 +308,11 @@ numPhis
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 size_t
@@ -419,9 +429,11 @@ getDef
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 size_t
@@ -465,9 +477,11 @@ k
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 for
@@ -605,9 +619,11 @@ k
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 for
 (
@@ -696,9 +712,11 @@ k
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 for
 (
@@ -739,9 +757,11 @@ append
 alloc
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 }
@@ -779,10 +799,12 @@ JitSpewEnabled
 JitSpew_RegAlloc
 )
 )
+{
 dump
 (
 )
 ;
+}
 #
 endif
 #
@@ -892,6 +914,7 @@ next
 (
 )
 )
+{
 MOZ_ASSERT
 (
 !
@@ -903,6 +926,7 @@ isUse
 )
 )
 ;
+}
 for
 (
 size_t
@@ -1354,8 +1378,10 @@ isBogusTemp
 (
 )
 )
+{
 continue
 ;
+}
 uint32_t
 vreg
 =
@@ -1399,9 +1425,11 @@ alloc
 populateSafepoints
 )
 )
+{
 return
 false
 ;
+}
 }
 MOZ_ASSERT_IF
 (
@@ -1491,8 +1519,10 @@ isUse
 (
 )
 )
+{
 continue
 ;
+}
 uint32_t
 vreg
 =
@@ -1538,9 +1568,11 @@ alloc
 populateSafepoints
 )
 )
+{
 return
 false
 ;
+}
 }
 /
 /
@@ -1594,9 +1626,11 @@ alloc
 populateSafepoints
 )
 )
+{
 return
 false
 ;
+}
 while
 (
 !
@@ -1920,8 +1954,10 @@ isBogusTemp
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 info
@@ -2027,6 +2063,7 @@ isBogusTemp
 (
 )
 )
+{
 MOZ_ASSERT
 (
 *
@@ -2041,6 +2078,7 @@ output
 alloc
 )
 ;
+}
 }
 if
 (
@@ -2063,9 +2101,11 @@ alloc
 populateSafepoints
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 /
@@ -2277,9 +2317,11 @@ newvreg
 alloc
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -2370,9 +2412,11 @@ vreg
 alloc
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -2427,9 +2471,11 @@ isRegister
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 alloc
@@ -2452,6 +2498,7 @@ if
 (
 populateSafepoints
 )
+{
 safepoint
 -
 >
@@ -2460,6 +2507,7 @@ addLiveRegister
 reg
 )
 ;
+}
 MOZ_ASSERT
 (
 safepoint
@@ -2518,9 +2566,11 @@ sizeof
 Value
 )
 )
+{
 return
 true
 ;
+}
 LDefinition
 :
 :
@@ -2607,9 +2657,11 @@ addGcPointer
 alloc
 )
 )
+{
 return
 false
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -2679,9 +2731,11 @@ addSlotsOrElementsPointer
 alloc
 )
 )
+{
 return
 false
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -2811,9 +2865,11 @@ vreg
 alloc
 )
 )
+{
 return
 false
 ;
+}
 }
 break
 ;
@@ -2873,9 +2929,11 @@ vreg
 alloc
 )
 )
+{
 return
 false
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -2948,9 +3006,11 @@ addBoxedValue
 alloc
 )
 )
+{
 return
 false
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -3084,9 +3144,11 @@ if
 (
 p
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -3098,9 +3160,11 @@ p
 item
 )
 )
+{
 return
 false
 ;
+}
 return
 worklist
 .
@@ -3216,6 +3280,7 @@ i
 +
 +
 )
+{
 fprintf
 (
 stderr
@@ -3240,6 +3305,7 @@ id
 )
 )
 ;
+}
 fprintf
 (
 stderr
@@ -3411,6 +3477,7 @@ j
 +
 +
 )
+{
 fprintf
 (
 stderr
@@ -3437,6 +3504,7 @@ get
 )
 )
 ;
+}
 fprintf
 (
 stderr
@@ -3544,6 +3612,7 @@ CodePosition
 :
 MIN
 )
+{
 fprintf
 (
 stderr
@@ -3565,6 +3634,7 @@ bits
 )
 )
 ;
+}
 fprintf
 (
 stderr
@@ -3712,6 +3782,7 @@ i
 +
 +
 )
+{
 fprintf
 (
 stderr
@@ -3740,6 +3811,7 @@ get
 )
 )
 ;
+}
 for
 (
 size_t
@@ -3783,6 +3855,7 @@ isBogusTemp
 (
 )
 )
+{
 fprintf
 (
 stderr
@@ -3818,6 +3891,7 @@ get
 )
 )
 ;
+}
 }
 size_t
 index
@@ -3886,6 +3960,7 @@ isConstant
 (
 )
 )
+{
 fprintf
 (
 stderr
@@ -3905,6 +3980,7 @@ get
 )
 )
 ;
+}
 fprintf
 (
 stderr
@@ -4183,9 +4259,11 @@ numInstructions
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -4213,9 +4291,11 @@ numBlocks
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 size_t
@@ -4273,6 +4353,7 @@ ins
 +
 +
 )
+{
 insData
 [
 ins
@@ -4286,6 +4367,7 @@ id
 *
 ins
 ;
+}
 for
 (
 size_t
@@ -4457,6 +4539,7 @@ inputMoves
 (
 )
 )
+{
 return
 ins
 -
@@ -4465,6 +4548,7 @@ inputMoves
 (
 )
 ;
+}
 LMoveGroup
 *
 moves
@@ -4526,6 +4610,7 @@ fixReuseMoves
 (
 )
 )
+{
 return
 ins
 -
@@ -4534,6 +4619,7 @@ fixReuseMoves
 (
 )
 ;
+}
 LMoveGroup
 *
 moves
@@ -4595,6 +4681,7 @@ movesAfter
 (
 )
 )
+{
 return
 ins
 -
@@ -4603,6 +4690,7 @@ movesAfter
 (
 )
 ;
+}
 LMoveGroup
 *
 moves
@@ -4746,6 +4834,7 @@ i
 +
 +
 )
+{
 fprintf
 (
 stderr
@@ -4770,6 +4859,7 @@ id
 )
 )
 ;
+}
 fprintf
 (
 stderr
@@ -4883,6 +4973,7 @@ j
 +
 +
 )
+{
 fprintf
 (
 stderr
@@ -4911,6 +5002,7 @@ get
 )
 )
 ;
+}
 fprintf
 (
 stderr
@@ -4975,6 +5067,7 @@ id
 =
 0
 )
+{
 fprintf
 (
 stderr
@@ -5002,6 +5095,7 @@ bits
 )
 )
 ;
+}
 fprintf
 (
 stderr
@@ -5170,6 +5264,7 @@ i
 +
 +
 )
+{
 fprintf
 (
 stderr
@@ -5198,6 +5293,7 @@ get
 )
 )
 ;
+}
 for
 (
 size_t
@@ -5241,6 +5337,7 @@ isBogusTemp
 (
 )
 )
+{
 fprintf
 (
 stderr
@@ -5263,6 +5360,7 @@ get
 )
 )
 ;
+}
 }
 for
 (
@@ -5299,6 +5397,7 @@ isBogus
 (
 )
 )
+{
 fprintf
 (
 stderr
@@ -5321,6 +5420,7 @@ get
 )
 )
 ;
+}
 }
 fprintf
 (

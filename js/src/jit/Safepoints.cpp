@@ -316,6 +316,7 @@ PackedRegisterMask
 =
 1
 )
+{
 stream
 .
 writeByte
@@ -323,7 +324,9 @@ writeByte
 bits
 )
 ;
+}
 else
+{
 stream
 .
 writeUnsigned
@@ -331,6 +334,7 @@ writeUnsigned
 bits
 )
 ;
+}
 }
 static
 int32_t
@@ -351,6 +355,7 @@ PackedRegisterMask
 =
 1
 )
+{
 return
 stream
 .
@@ -358,6 +363,7 @@ readByte
 (
 )
 ;
+}
 return
 stream
 .
@@ -481,6 +487,7 @@ SetType
 =
 1
 )
+{
 return
 stream
 .
@@ -488,6 +495,7 @@ readByte
 (
 )
 ;
+}
 if
 (
 sizeof
@@ -501,6 +509,7 @@ SetType
 =
 4
 )
+{
 return
 stream
 .
@@ -508,6 +517,7 @@ readUnsigned
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 sizeof
@@ -861,6 +871,7 @@ more
 +
 iter
 )
+{
 JitSpew
 (
 JitSpew_Safepoints
@@ -881,6 +892,7 @@ name
 )
 )
 ;
+}
 }
 #
 endif
@@ -933,6 +945,7 @@ i
 +
 +
 )
+{
 stream
 .
 writeUnsigned
@@ -943,6 +956,7 @@ i
 ]
 )
 ;
+}
 }
 static
 void
@@ -1146,6 +1160,7 @@ i
 +
 +
 )
+{
 JitSpew
 (
 JitSpew_Safepoints
@@ -1164,6 +1179,7 @@ i
 slot
 )
 ;
+}
 #
 endif
 MapSlotsToBitset
@@ -1241,10 +1257,12 @@ i
 .
 stack
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 #
 ifdef
 JS_JITSPEW
@@ -1331,6 +1349,7 @@ i
 +
 +
 )
+{
 JitSpew
 (
 JitSpew_Safepoints
@@ -1349,6 +1368,7 @@ i
 slot
 )
 ;
+}
 #
 endif
 MapSlotsToBitset
@@ -1727,9 +1747,11 @@ isRegister
 (
 )
 )
+{
 return
 Part_Reg
 ;
+}
 if
 (
 a
@@ -1738,9 +1760,11 @@ isStackSlot
 (
 )
 )
+{
 return
 Part_Stack
 ;
+}
 MOZ_ASSERT
 (
 a
@@ -1854,6 +1878,7 @@ isStackSlot
 (
 )
 )
+{
 *
 out
 =
@@ -1868,7 +1893,9 @@ slot
 (
 )
 ;
+}
 else
+{
 *
 out
 =
@@ -1883,6 +1910,7 @@ index
 (
 )
 ;
+}
 return
 *
 out
@@ -1974,8 +2002,10 @@ isUse
 (
 )
 )
+{
 continue
 ;
+}
 JitSpewHeader
 (
 JitSpew_Safepoints
@@ -2211,8 +2241,10 @@ isUse
 (
 )
 )
+{
 continue
 ;
+}
 }
 count
 +
@@ -2274,6 +2306,7 @@ if
 !
 typeExtra
 )
+{
 header
 |
 =
@@ -2284,7 +2317,9 @@ typeVal
 TYPE_INFO_SHIFT
 )
 ;
+}
 else
+{
 header
 |
 =
@@ -2295,6 +2330,7 @@ MAX_INFO_VALUE
 TYPE_INFO_SHIFT
 )
 ;
+}
 uint32_t
 payloadVal
 ;
@@ -2316,6 +2352,7 @@ if
 !
 payloadExtra
 )
+{
 header
 |
 =
@@ -2326,7 +2363,9 @@ payloadVal
 PAYLOAD_INFO_SHIFT
 )
 ;
+}
 else
+{
 header
 |
 =
@@ -2337,6 +2376,7 @@ MAX_INFO_VALUE
 PAYLOAD_INFO_SHIFT
 )
 ;
+}
 stream_
 .
 writeFixedUint16_t
@@ -2348,6 +2388,7 @@ if
 (
 typeExtra
 )
+{
 stream_
 .
 writeUnsigned
@@ -2355,10 +2396,12 @@ writeUnsigned
 typeVal
 )
 ;
+}
 if
 (
 payloadExtra
 )
+{
 stream_
 .
 writeUnsigned
@@ -2366,6 +2409,7 @@ writeUnsigned
 payloadVal
 )
 ;
+}
 }
 /
 /
@@ -3009,9 +3053,11 @@ getSlotFromBitmap
 entry
 )
 )
+{
 return
 true
 ;
+}
 advanceFromGcSlots
 (
 )
@@ -3066,9 +3112,11 @@ getSlotFromBitmap
 entry
 )
 )
+{
 return
 true
 ;
+}
 advanceFromValueSlots
 (
 )
@@ -3130,6 +3178,7 @@ kind
 =
 Part_Reg
 )
+{
 return
 LGeneralReg
 (
@@ -3142,6 +3191,7 @@ info
 )
 )
 ;
+}
 if
 (
 info
@@ -3149,6 +3199,7 @@ info
 =
 MAX_INFO_VALUE
 )
+{
 info
 =
 stream
@@ -3157,6 +3208,7 @@ readUnsigned
 (
 )
 ;
+}
 if
 (
 kind
@@ -3164,12 +3216,14 @@ kind
 =
 Part_Stack
 )
+{
 return
 LStackSlot
 (
 info
 )
 ;
+}
 MOZ_ASSERT
 (
 kind
@@ -3341,9 +3395,11 @@ slotsOrElementsSlotsRemaining_
 -
 -
 )
+{
 return
 false
 ;
+}
 entry
 -
 >

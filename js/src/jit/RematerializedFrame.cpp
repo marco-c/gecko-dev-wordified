@@ -335,6 +335,7 @@ isFunctionFrame
 (
 )
 )
+{
 callee_
 =
 iter
@@ -344,11 +345,14 @@ callee
 fallback
 )
 ;
+}
 else
+{
 callee_
 =
 nullptr
 ;
+}
 CopyValueToRematerializedFrame
 op
 (
@@ -519,11 +523,13 @@ extraSlots
 >
 0
 )
+{
 extraSlots
 -
 =
 1
 ;
+}
 RematerializedFrame
 *
 buf
@@ -545,9 +551,11 @@ if
 !
 buf
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -634,9 +642,11 @@ frameCount
 )
 )
 )
+{
 return
 false
 ;
+}
 while
 (
 true
@@ -678,9 +688,11 @@ tempFrames
 frameNo
 ]
 )
+{
 return
 false
 ;
+}
 if
 (
 tempFrames
@@ -710,9 +722,11 @@ get
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -723,8 +737,10 @@ more
 (
 )
 )
+{
 break
 ;
+}
 +
 +
 iter
@@ -871,6 +887,7 @@ CallObject
 (
 )
 )
+{
 env
 =
 env
@@ -880,6 +897,7 @@ enclosingEnvironment
 (
 )
 ;
+}
 return
 env
 -
@@ -981,6 +999,7 @@ if
 (
 callee_
 )
+{
 TraceRoot
 (
 trc
@@ -994,10 +1013,12 @@ callee
 "
 )
 ;
+}
 if
 (
 argsObj_
 )
+{
 TraceRoot
 (
 trc
@@ -1011,6 +1032,7 @@ argsobj
 "
 )
 ;
+}
 TraceRoot
 (
 trc
@@ -1384,6 +1406,7 @@ numFormalArgs
 (
 )
 )
+{
 fprintf
 (
 stderr
@@ -1399,7 +1422,9 @@ d
 i
 )
 ;
+}
 else
+{
 fprintf
 (
 stderr
@@ -1415,6 +1440,7 @@ d
 i
 )
 ;
+}
 #
 ifdef
 DEBUG

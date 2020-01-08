@@ -3065,9 +3065,11 @@ IsNaN
 h
 )
 )
+{
 return
 nullptr
 ;
+}
 Range
 *
 r
@@ -3165,9 +3167,11 @@ IsNaN
 d
 )
 )
+{
 return
 nullptr
 ;
+}
 Range
 *
 r
