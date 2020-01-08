@@ -12095,7 +12095,7 @@ IntProperty
 "
 version
 "
-11
+12
 )
 ;
 /
@@ -13536,8 +13536,12 @@ frameNameString
 get
 (
 )
--
-1
+Nothing
+(
+)
+Nothing
+(
+)
 category
 )
 ;
