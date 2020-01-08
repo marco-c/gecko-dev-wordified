@@ -510,6 +510,11 @@ ContentSecurityPolicyPermitsJSAction
 JSContext
 *
 cx
+JS
+:
+:
+HandleValue
+aValue
 )
 ;
 static

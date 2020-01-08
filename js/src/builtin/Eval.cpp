@@ -1671,6 +1671,7 @@ GlobalObject
 isRuntimeCodeGenEnabled
 (
 cx
+v
 cx
 -
 >
@@ -2350,6 +2351,16 @@ cx
 env
 )
 ;
+RootedValue
+v
+(
+cx
+StringValue
+(
+str
+)
+)
+;
 if
 (
 !
@@ -2359,6 +2370,7 @@ GlobalObject
 isRuntimeCodeGenEnabled
 (
 cx
+v
 cx
 -
 >
