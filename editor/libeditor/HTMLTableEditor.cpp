@@ -15275,13 +15275,7 @@ lastColInRow
 =
 cellData
 .
-mCurrent
-.
-mColumn
-+
-cellData
-.
-NumberOfFollowingColumns
+LastColumnIndex
 (
 )
 ;
