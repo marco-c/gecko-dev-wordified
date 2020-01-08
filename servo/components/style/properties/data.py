@@ -1948,19 +1948,6 @@ servo_restyle_damage
 =
 servo_restyle_damage
     
-staticmethod
-    
-def
-type
-(
-)
-:
-        
-return
-"
-longhand
-"
-    
 def
 experimental
 (
@@ -2868,19 +2855,6 @@ property
 get_transitionable
 )
     
-staticmethod
-    
-def
-type
-(
-)
-:
-        
-return
-"
-shorthand
-"
-    
 def
 experimental
 (
@@ -3092,19 +3066,6 @@ allowed_in_keyframe_block
 original
 .
 allowed_in_keyframe_block
-    
-staticmethod
-    
-def
-type
-(
-)
-:
-        
-return
-"
-alias
-"
     
 def
 experimental
