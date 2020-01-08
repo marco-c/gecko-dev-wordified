@@ -137,7 +137,7 @@ GeckoViewUtils
 initLogging
 (
 "
-GeckoViewConsole
+Console
 "
 this
 )

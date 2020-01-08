@@ -115,8 +115,6 @@ GeckoViewUtils
 initLogging
 (
 "
-GeckoView
-.
 ExternalAppService
 "
 this
