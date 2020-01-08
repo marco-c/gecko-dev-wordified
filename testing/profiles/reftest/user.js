@@ -1526,6 +1526,16 @@ caretWidth
 1
 )
 ;
+user_pref
+(
+"
+ui
+.
+prefersReducedMotion
+"
+0
+)
+;
 /
 /
 Turn

@@ -1233,6 +1233,13 @@ CSS_KEY
 (
 no
 -
+preference
+no_preference
+)
+CSS_KEY
+(
+no
+-
 repeat
 no_repeat
 )
@@ -1371,6 +1378,11 @@ CSS_KEY
 (
 proximity
 proximity
+)
+CSS_KEY
+(
+reduce
+reduce
 )
 CSS_KEY
 (

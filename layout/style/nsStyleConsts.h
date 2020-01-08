@@ -1441,6 +1441,16 @@ Space
 Round
 }
 ;
+enum
+class
+StylePrefersReducedMotion
+:
+uint8_t
+{
+NoPreference
+Reduce
+}
+;
 /
 /
 See
