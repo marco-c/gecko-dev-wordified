@@ -130,7 +130,7 @@ h
 #
 include
 "
-xpcAccessibleHyperText
+xpcAccessibleGeneric
 .
 h
 "
@@ -156,7 +156,7 @@ class
 xpcAccessibleTable
 :
 public
-xpcAccessibleHyperText
+xpcAccessibleGeneric
 public
 nsIAccessibleTable
 {
@@ -170,7 +170,7 @@ Accessible
 aIntl
 )
 :
-xpcAccessibleHyperText
+xpcAccessibleGeneric
 (
 aIntl
 )
@@ -185,7 +185,7 @@ uint32_t
 aInterfaces
 )
 :
-xpcAccessibleHyperText
+xpcAccessibleGeneric
 (
 aProxy
 aInterfaces

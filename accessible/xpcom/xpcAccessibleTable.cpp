@@ -253,7 +253,7 @@ nsISupports
 NS_IMPL_ISUPPORTS_INHERITED
 (
 xpcAccessibleTable
-xpcAccessibleHyperText
+xpcAccessibleGeneric
 nsIAccessibleTable
 )
 /
