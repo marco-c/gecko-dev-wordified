@@ -22717,6 +22717,16 @@ sys
 .
 maxsize
         
+utilityPath
+=
+options
+.
+utilityPath
+or
+options
+.
+xrePath
+        
 mozleak
 .
 process_leak_log
@@ -22744,8 +22754,6 @@ stack_fixer
 =
 get_stack_fixer_function
 (
-options
-.
 utilityPath
                                                  
 options
