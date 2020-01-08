@@ -9408,7 +9408,7 @@ ps
 SVGObserverUtils
 :
 :
-GetPaintServer
+GetAndObservePaintServer
 (
 aFrame
 &
@@ -9852,7 +9852,7 @@ ps
 SVGObserverUtils
 :
 :
-GetPaintServer
+GetAndObservePaintServer
 (
 aFrame
 &

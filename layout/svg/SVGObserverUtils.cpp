@@ -6051,7 +6051,7 @@ bool
 SVGObserverUtils
 :
 :
-GetMarkerFrames
+GetAndObserveMarkers
 (
 nsIFrame
 *
@@ -7299,7 +7299,7 @@ SVGGeometryElement
 SVGObserverUtils
 :
 :
-GetTextPathsReferencedPath
+GetAndObserveTextPathsPath
 (
 nsIFrame
 *
@@ -7622,7 +7622,7 @@ nsIFrame
 SVGObserverUtils
 :
 :
-GetTemplateFrame
+GetAndObserveTemplate
 (
 nsIFrame
 *
@@ -8096,7 +8096,7 @@ nsSVGPaintServerFrame
 SVGObserverUtils
 :
 :
-GetPaintServer
+GetAndObservePaintServer
 (
 nsIFrame
 *
