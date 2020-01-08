@@ -517,8 +517,8 @@ JSString
 >
 s_
 ;
-union
 MOZ_INIT_OUTSIDE_CTOR
+union
 {
 const
 char16_t
