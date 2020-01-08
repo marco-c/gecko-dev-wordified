@@ -4962,6 +4962,10 @@ nullptr
 /
 triggering
 element
+nullptr
+/
+/
+nsICSPEventListener
 NS_ConvertUTF8toUTF16
 (
 spec

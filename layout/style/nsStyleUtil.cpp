@@ -3361,6 +3361,10 @@ applies
 to
 scripts
 aElement
+nullptr
+/
+/
+nsICSPEventListener
 aStyleText
 aLineNumber
 aColumnNumber

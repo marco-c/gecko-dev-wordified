@@ -219,6 +219,9 @@ class
 nsIConsoleReportCollector
 ;
 class
+nsICSPEventListener
+;
+class
 nsIDocument
 ;
 class
@@ -561,6 +564,14 @@ aDocument
 )
 ;
 void
+SetCSPEventListener
+(
+nsICSPEventListener
+*
+aCSPEventListener
+)
+;
+void
 SetClientInfo
 (
 const
@@ -657,6 +668,12 @@ nsCOMPtr
 nsIDocument
 >
 mDocument
+;
+nsCOMPtr
+<
+nsICSPEventListener
+>
+mCSPEventListener
 ;
 Maybe
 <

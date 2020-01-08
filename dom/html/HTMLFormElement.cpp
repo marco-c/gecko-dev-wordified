@@ -9590,6 +9590,12 @@ csp
 Permits
 (
 this
+nullptr
+/
+*
+nsICSPEventListener
+*
+/
 actionURL
 nsIContentSecurityPolicy
 :

@@ -557,6 +557,9 @@ dom
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 const
 mozilla
 :
@@ -590,6 +593,9 @@ dom
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 nsIURI
 *
 aBlockedURI
@@ -724,6 +730,9 @@ dom
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 nsIURI
 *
 aContentLocation
@@ -770,6 +779,9 @@ dom
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 const
 nsAString
 &
@@ -869,12 +881,6 @@ null
 nsIPrincipal
 *
 mLoadingPrincipal
-;
-nsCOMPtr
-<
-nsICSPEventListener
->
-mEventListener
 ;
 /
 /

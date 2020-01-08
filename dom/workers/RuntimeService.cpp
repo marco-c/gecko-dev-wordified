@@ -14325,6 +14325,12 @@ nullptr
 /
 triggering
 element
+mWorkerPrivate
+-
+>
+CSPEventListener
+(
+)
 mFileName
 mScriptSample
 mLineNum

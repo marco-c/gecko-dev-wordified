@@ -203,6 +203,9 @@ CheckInternal
 nsIContentSecurityPolicy
 *
 aCSP
+nsICSPEventListener
+*
+aCSPEventListener
 const
 nsAString
 &
@@ -329,6 +332,7 @@ nullptr
 /
 triggering
 element
+aCSPEventListener
 aFileNameString
 aExpression
 aLineNum
@@ -422,6 +426,12 @@ mWorkerPrivate
 -
 >
 GetCSP
+(
+)
+mWorkerPrivate
+-
+>
+CSPEventListener
 (
 )
 mExpression
@@ -722,6 +732,15 @@ rv
 CheckInternal
 (
 csp
+nullptr
+/
+*
+no
+CSPEventListener
+for
+window
+*
+/
 aExpression
 fileNameString
 lineNum

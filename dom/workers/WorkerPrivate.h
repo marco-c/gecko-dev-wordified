@@ -1423,6 +1423,13 @@ return
 mDebuggerScope
 ;
 }
+nsICSPEventListener
+*
+CSPEventListener
+(
+)
+const
+;
 void
 SetThread
 (

@@ -8092,6 +8092,12 @@ TYPE_SCRIPT
 nonce
 parserCreated
 scriptContent
+nullptr
+/
+*
+nsICSPEventListener
+*
+/
 EmptyString
 (
 )
@@ -19180,6 +19186,10 @@ nullptr
 /
 triggering
 element
+nullptr
+/
+/
+nsICSPEventListener
 NS_ConvertUTF8toUTF16
 (
 violationURISpec

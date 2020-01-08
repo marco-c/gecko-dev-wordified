@@ -1131,6 +1131,12 @@ child
 AsElement
 (
 )
+nullptr
+/
+*
+nsICSPEventListener
+*
+/
 newBaseURI
 nsIContentSecurityPolicy
 :

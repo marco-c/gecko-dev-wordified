@@ -4781,6 +4781,10 @@ event
 handler
 )
 aElement
+nullptr
+/
+/
+nsICSPEventListener
 aBody
 lineNum
 columnNum
