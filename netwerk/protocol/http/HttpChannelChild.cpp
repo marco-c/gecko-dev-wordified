@@ -15885,6 +15885,14 @@ mChannelId
 ;
 openArgs
 .
+integrityMetadata
+(
+)
+=
+mIntegrityMetadata
+;
+openArgs
+.
 contentWindowId
 (
 )
