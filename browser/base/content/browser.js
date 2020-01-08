@@ -11246,6 +11246,10 @@ on
 if
 (
 !
+Services
+.
+prefs
+.
 getBoolPref
 (
 "
@@ -15352,6 +15356,10 @@ split
 var
 loadInBackground
 =
+Services
+.
+prefs
+.
 getBoolPref
 (
 "
