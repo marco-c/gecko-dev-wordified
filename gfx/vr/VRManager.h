@@ -647,6 +647,9 @@ bool
 mVRDisplaysRequested
 ;
 bool
+mVRDisplaysRequestedNonFocus
+;
+bool
 mVRControllersRequested
 ;
 bool

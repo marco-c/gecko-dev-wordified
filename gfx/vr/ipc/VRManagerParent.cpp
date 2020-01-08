@@ -1159,16 +1159,6 @@ HaveEventListener
 (
 )
 {
-if
-(
-!
-mVRActiveStatus
-)
-{
-return
-false
-;
-}
 return
 mHaveEventListener
 ;
