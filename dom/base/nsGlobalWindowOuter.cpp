@@ -10847,8 +10847,6 @@ GetCurrentInnerWindowInternal
 ;
 nsresult
 rv
-=
-NS_OK
 ;
 /
 /
