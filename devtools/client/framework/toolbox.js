@@ -18907,9 +18907,6 @@ selectTool
 "
 inspector
 "
-"
-inspect_dom
-"
 )
 ;
 }
