@@ -1346,8 +1346,8 @@ TableUpdate
 nsresult
 ApplyUpdate
 (
-TableUpdate
-&
+TableUpdateV2
+*
 aUpdate
 )
 ;

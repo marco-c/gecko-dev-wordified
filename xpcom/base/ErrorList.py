@@ -14701,6 +14701,18 @@ FAILURE
 10
 )
     
+errors
+[
+"
+NS_ERROR_UC_UPDATE_UNEXPECTED_VERSION
+"
+]
+=
+FAILURE
+(
+11
+)
+    
 #
 Specific
 errors
