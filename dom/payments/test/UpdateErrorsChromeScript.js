@@ -1221,6 +1221,14 @@ completeRequest
 updatePayment
 :
 updateRequest
+closePayment
+:
+function
+(
+requestId
+)
+{
+}
 QueryInterface
 :
 ChromeUtils
