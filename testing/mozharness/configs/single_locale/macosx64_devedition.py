@@ -16,14 +16,6 @@ platform
 names
     
 "
-platform
-"
-:
-"
-macosx64
-"
-    
-"
 app_name
 "
 :

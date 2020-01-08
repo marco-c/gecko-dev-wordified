@@ -254,14 +254,6 @@ maple
     
 }
     
-"
-platform
-"
-:
-"
-android
-"
-    
 #
 Balrog
     
