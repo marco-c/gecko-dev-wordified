@@ -9365,12 +9365,6 @@ nsStyleSVG
 :
 :
 mFill
-SVGObserverUtils
-:
-:
-FillProperty
-(
-)
 )
 ;
 if
@@ -9815,12 +9809,6 @@ nsStyleSVG
 :
 :
 mStroke
-SVGObserverUtils
-:
-:
-StrokeProperty
-(
-)
 )
 ;
 if
