@@ -743,6 +743,13 @@ AllocPTrackingDummyChannelChild
 nsIURI
 *
 aURI
+nsIURI
+*
+aTopWindowURI
+const
+nsresult
+&
+aTopWindowURIResult
 const
 OptionalLoadInfoArgs
 &
