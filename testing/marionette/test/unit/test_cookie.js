@@ -269,10 +269,10 @@ cookies
 .
 filter
 (
-cookie
+c
 =
 >
-cookie
+c
 .
 host
 =
@@ -281,7 +281,7 @@ host
 host
 |
 |
-cookie
+c
 .
 host
 =
