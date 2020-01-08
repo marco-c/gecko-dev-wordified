@@ -1390,9 +1390,6 @@ in
 reference
 -
 counted
-std
-:
-:
 string
 implementations
 (
@@ -1459,9 +1456,6 @@ set
 /
 /
 Because
-std
-:
-:
 string
 uses
 reference

@@ -450,6 +450,11 @@ FUNC
                     
 #
 FUNC
+[
+<
+multiple
+>
+]
 <
 address
 >
@@ -462,6 +467,26 @@ stack_param_size
 <
 name
 >
+                    
+line
+=
+line
+.
+replace
+(
+"
+FUNC
+m
+"
+"
+FUNC
+"
+)
+#
+Ignore
+the
+multiple
+marker
                     
 bits
 =
@@ -540,6 +565,11 @@ PUBLIC
                     
 #
 PUBLIC
+[
+<
+multiple
+>
+]
 <
 address
 >
@@ -549,6 +579,26 @@ stack_param_size
 <
 name
 >
+                    
+line
+=
+line
+.
+replace
+(
+"
+PUBLIC
+m
+"
+"
+PUBLIC
+"
+)
+#
+Ignore
+the
+multiple
+marker
                     
 (
 junk
