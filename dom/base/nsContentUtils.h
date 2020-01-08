@@ -21512,6 +21512,9 @@ sStringBundles
 PropertiesFile_COUNT
 ]
 ;
+class
+nsContentUtilsReporter
+;
 static
 nsIContentPolicy
 *
