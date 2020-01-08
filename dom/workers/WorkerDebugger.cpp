@@ -2283,6 +2283,11 @@ count
 =
 0
 ;
+uint64_t
+perfId
+=
+0
+;
 RefPtr
 <
 PerformanceCounter
@@ -2301,6 +2306,15 @@ if
 perf
 )
 {
+perfId
+=
+perf
+-
+>
+GetID
+(
+)
+;
 count
 =
 perf
@@ -2365,6 +2379,7 @@ url
 pid
 windowID
 duration
+perfId
 true
 isTopLevel
 items
@@ -2379,6 +2394,7 @@ url
 pid
 windowID
 duration
+perfId
 true
 isTopLevel
 items
