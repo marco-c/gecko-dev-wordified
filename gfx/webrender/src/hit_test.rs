@@ -378,14 +378,6 @@ Clip
 ClipItem
 :
 :
-LineDecoration
-(
-_
-)
-|
-ClipItem
-:
-:
 BoxShadow
 (
 _
