@@ -598,10 +598,6 @@ popup
 getItems
 (
 )
-.
-reverse
-(
-)
 ;
 is
 (
