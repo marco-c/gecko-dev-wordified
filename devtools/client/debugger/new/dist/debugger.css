@@ -19387,7 +19387,7 @@ close
 -
 btn
 {
-offset
+inset
 -
 inline
 -
@@ -19395,7 +19395,7 @@ end
 :
 15px
 ;
-offset
+inset
 -
 inline
 -
@@ -20188,7 +20188,7 @@ position
 :
 absolute
 ;
-offset
+inset
 -
 inline
 -
@@ -24471,7 +24471,7 @@ top
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -24479,7 +24479,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -

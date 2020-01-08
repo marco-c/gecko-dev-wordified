@@ -3779,7 +3779,7 @@ primary
 color
 )
 ;
-offset
+inset
 -
 inline
 -
@@ -4071,7 +4071,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -4079,7 +4079,7 @@ end
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -4123,7 +4123,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -4131,7 +4131,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -4211,7 +4211,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -4219,7 +4219,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -4280,7 +4280,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -4288,7 +4288,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -4351,7 +4351,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -4359,7 +4359,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -4420,7 +4420,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -4428,7 +4428,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -4491,7 +4491,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -4499,7 +4499,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -4560,7 +4560,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -4568,7 +4568,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -4631,7 +4631,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -4639,7 +4639,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -5107,7 +5107,7 @@ height
 :
 27px
 ;
-offset
+inset
 -
 inline
 -
@@ -5531,7 +5531,7 @@ height
 100
 %
 ;
-offset
+inset
 -
 inline
 -
@@ -5575,7 +5575,7 @@ height
 :
 42px
 ;
-offset
+inset
 -
 inline
 -
@@ -5721,7 +5721,7 @@ tertiary
 color
 )
 ;
-offset
+inset
 -
 inline
 -
@@ -6273,7 +6273,7 @@ top
 50
 %
 ;
-offset
+inset
 -
 inline
 -
@@ -6507,7 +6507,7 @@ top
 50
 %
 ;
-offset
+inset
 -
 inline
 -
@@ -6945,7 +6945,7 @@ color
 #
 FFF
 ;
-offset
+inset
 -
 inline
 -
@@ -7009,7 +7009,7 @@ height
 :
 16px
 ;
-offset
+inset
 -
 inline
 -
@@ -7267,7 +7267,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -7275,7 +7275,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -7338,7 +7338,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -7346,7 +7346,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -7409,7 +7409,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -7417,7 +7417,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -7480,7 +7480,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -7488,7 +7488,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -10093,7 +10093,7 @@ height
 100
 %
 ;
-offset
+inset
 -
 inline
 -
@@ -10769,7 +10769,7 @@ start
 :
 5px
 ;
-offset
+inset
 -
 inline
 -
@@ -11520,7 +11520,7 @@ height
 :
 27px
 ;
-offset
+inset
 -
 inline
 -
@@ -12579,7 +12579,7 @@ size
 :
 11px
 ;
-offset
+inset
 -
 inline
 -
@@ -13142,7 +13142,7 @@ top
 :
 92px
 ;
-offset
+inset
 -
 inline
 -
@@ -13150,7 +13150,7 @@ end
 :
 12px
 ;
-offset
+inset
 -
 inline
 -
@@ -13983,7 +13983,7 @@ height
 100
 %
 ;
-offset
+inset
 -
 inline
 -
@@ -14120,7 +14120,7 @@ start
 :
 auto
 ;
-offset
+inset
 -
 inline
 -
@@ -14128,7 +14128,7 @@ end
 :
 0
 ;
-offset
+inset
 -
 inline
 -
@@ -14453,7 +14453,7 @@ height
 :
 26px
 ;
-offset
+inset
 -
 inline
 -
@@ -15450,7 +15450,7 @@ top
 50
 %
 ;
-offset
+inset
 -
 inline
 -
@@ -15557,7 +15557,7 @@ SnippetBaseContainer
 .
 blockButton
 {
-offset
+inset
 -
 inline
 -

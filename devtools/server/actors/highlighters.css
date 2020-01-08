@@ -4384,7 +4384,7 @@ position
 :
 absolute
 ;
-offset
+inset
 -
 inline
 -
@@ -4392,7 +4392,7 @@ start
 :
 3px
 ;
-offset
+inset
 -
 block
 -

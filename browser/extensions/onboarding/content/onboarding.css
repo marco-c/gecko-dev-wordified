@@ -203,7 +203,7 @@ top
 :
 4px
 ;
-offset
+inset
 -
 inline
 -
@@ -841,7 +841,7 @@ top
 :
 15px
 ;
-offset
+inset
 -
 inline
 -
@@ -1597,7 +1597,7 @@ position
 :
 relative
 ;
-offset
+inset
 -
 inline
 -
@@ -1680,7 +1680,7 @@ position
 :
 absolute
 ;
-offset
+inset
 -
 inline
 -
@@ -3640,7 +3640,7 @@ position
 :
 absolute
 ;
-offset
+inset
 -
 block
 -
@@ -3649,7 +3649,7 @@ start
 50
 %
 ;
-offset
+inset
 -
 inline
 -
