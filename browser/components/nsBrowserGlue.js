@@ -425,6 +425,11 @@ ClickHandlerChild
 .
 jsm
 "
+group
+:
+"
+browsers
+"
 events
 :
 {
