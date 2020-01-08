@@ -2262,14 +2262,6 @@ addListener
 removeListener
 "
 ]
-[
-"
-addMessageListener
-"
-"
-removeMessageListener
-"
-]
 ]
 )
 {
