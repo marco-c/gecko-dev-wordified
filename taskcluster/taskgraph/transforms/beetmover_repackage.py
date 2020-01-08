@@ -268,6 +268,12 @@ _DESKTOP_UPSTREAM_ARTIFACTS_UNSIGNED_EN_US
 [
     
 "
+buildhub
+.
+json
+"
+    
+"
 target
 .
 common

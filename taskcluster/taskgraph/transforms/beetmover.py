@@ -201,6 +201,12 @@ _DESKTOP_UPSTREAM_ARTIFACTS_UNSIGNED_EN_US
 =
 [
     
+'
+buildhub
+.
+json
+'
+    
 "
 target
 .
@@ -634,6 +640,16 @@ en
 -
 US
 /
+buildhub
+.
+json
+"
+    
+"
+en
+-
+US
+/
 target
 .
 common
@@ -907,6 +923,12 @@ bug
 _MOBILE_UPSTREAM_ARTIFACTS_UNSIGNED_MULTI
 =
 [
+    
+"
+buildhub
+.
+json
+"
     
 "
 target
