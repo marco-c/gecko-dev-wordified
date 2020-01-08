@@ -411,6 +411,13 @@ function
 )
 {
 }
+onVisits
+:
+function
+(
+)
+{
+}
 onTitleChanged
 :
 function
