@@ -340,7 +340,7 @@ if
 mHyperText
 )
 {
-NS_ERROR
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Text
