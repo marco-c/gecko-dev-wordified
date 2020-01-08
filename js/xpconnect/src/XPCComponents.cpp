@@ -16677,7 +16677,7 @@ result
 xpc
 :
 :
-CompartmentPrivate
+RealmPrivate
 :
 :
 Get

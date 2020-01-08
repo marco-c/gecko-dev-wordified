@@ -5781,7 +5781,7 @@ MOZ_ASSERT
 global
 )
 ;
-CompartmentPrivate
+RealmPrivate
 :
 :
 Get
@@ -5812,7 +5812,7 @@ MOZ_ASSERT
 global
 )
 ;
-CompartmentPrivate
+RealmPrivate
 :
 :
 Get
