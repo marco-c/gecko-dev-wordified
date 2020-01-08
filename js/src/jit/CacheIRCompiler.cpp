@@ -168,6 +168,15 @@ h
 #
 include
 "
+jit
+/
+SharedICRegisters
+.
+h
+"
+#
+include
+"
 builtin
 /
 Boolean
