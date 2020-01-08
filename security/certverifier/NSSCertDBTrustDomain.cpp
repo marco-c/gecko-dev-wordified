@@ -283,7 +283,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 Result
 .
@@ -292,7 +292,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 pkix
 .
@@ -301,7 +301,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 pkixnss
 .

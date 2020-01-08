@@ -174,7 +174,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 pkixtypes
 .
@@ -183,6 +183,10 @@ h
 #
 include
 "
+mozpkix
+/
+test
+/
 pkixtestutil
 .
 h

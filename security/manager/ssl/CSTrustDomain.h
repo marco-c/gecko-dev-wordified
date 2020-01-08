@@ -120,7 +120,7 @@ CSTrustDomain_h
 #
 include
 "
-pkix
+mozpkix
 /
 pkixtypes
 .

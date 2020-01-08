@@ -141,7 +141,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 pkixnss
 .
@@ -150,6 +150,8 @@ h
 #
 include
 "
+mozpkix
+/
 pkixutil
 .
 h

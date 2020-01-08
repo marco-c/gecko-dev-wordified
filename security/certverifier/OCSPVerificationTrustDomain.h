@@ -123,7 +123,7 @@ mozilla_psm__OCSPVerificationTrustDomain_h
 #
 include
 "
-pkix
+mozpkix
 /
 pkixtypes
 .

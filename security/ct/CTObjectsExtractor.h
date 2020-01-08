@@ -123,7 +123,7 @@ CTObjectsExtractor_h
 #
 include
 "
-pkix
+mozpkix
 /
 Input
 .
@@ -132,7 +132,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 Result
 .

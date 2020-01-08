@@ -73,6 +73,10 @@ h
 #
 include
 "
+mozpkix
+/
+test
+/
 pkixtestutil
 .
 h
@@ -80,6 +84,10 @@ h
 #
 include
 "
+mozpkix
+/
+test
+/
 pkixtestnss
 .
 h

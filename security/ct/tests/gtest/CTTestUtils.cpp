@@ -159,7 +159,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 Input
 .
@@ -168,7 +168,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 pkix
 .
@@ -177,7 +177,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 pkixnss
 .
@@ -186,7 +186,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 pkixtypes
 .
@@ -195,7 +195,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 Result
 .
@@ -204,6 +204,8 @@ h
 #
 include
 "
+mozpkix
+/
 pkixcheck
 .
 h
@@ -211,6 +213,8 @@ h
 #
 include
 "
+mozpkix
+/
 pkixutil
 .
 h
