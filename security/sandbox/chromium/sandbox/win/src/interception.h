@@ -2091,10 +2091,6 @@ sandbox
 :
 INTERCEPTION_SERVICE_CALL
 \
-(
-void
-*
-)
 MAKE_SERVICE_NAME
 (
 service
@@ -2201,10 +2197,6 @@ sandbox
 :
 INTERCEPTION_EAT
 \
-(
-void
-*
-)
 MAKE_SERVICE_NAME
 (
 function
