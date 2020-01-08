@@ -309,17 +309,12 @@ VariableLengthPrefixSet
 mLock
 "
 )
-mMemoryReportPath
-(
-)
-{
 mFixedPrefixSet
-=
+(
 new
 nsUrlClassifierPrefixSet
-(
 )
-;
+{
 }
 nsresult
 VariableLengthPrefixSet
@@ -1147,6 +1142,7 @@ uint32_t
 *
 aLength
 )
+const
 {
 MutexAutoLock
 lock
@@ -1351,6 +1347,7 @@ bool
 *
 aEmpty
 )
+const
 {
 MutexAutoLock
 lock
@@ -1616,6 +1613,7 @@ nsIFile
 *
 aFile
 )
+const
 {
 NS_ENSURE_ARG_POINTER
 (
@@ -2136,6 +2134,7 @@ VariableLengthPrefixSet
 CalculatePreallocateSize
 (
 )
+const
 {
 uint32_t
 fileSize
@@ -2240,6 +2239,7 @@ nsIOutputStream
 *
 out
 )
+const
 {
 uint32_t
 written
@@ -2553,6 +2553,7 @@ aPrefixes
 uint32_t
 aPrefixSize
 )
+const
 {
 const
 char
@@ -2744,6 +2745,7 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
+const
 {
 MutexAutoLock
 lock
