@@ -851,6 +851,14 @@ AbstractFramePtr
 frame
 )
 {
+cx
+-
+>
+check
+(
+frame
+)
+;
 MOZ_ASSERT
 (
 frame
