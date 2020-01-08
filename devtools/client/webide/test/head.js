@@ -288,7 +288,7 @@ devtools
 .
 webide
 .
-adbAddonURL
+adbExtensionURL
 "
 TEST_BASE
 +
