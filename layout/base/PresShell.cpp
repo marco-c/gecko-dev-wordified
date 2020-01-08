@@ -49427,9 +49427,6 @@ startIndexOfNextLevel
 )
 ;
 }
-return
-false
-;
 }
 #
 endif
