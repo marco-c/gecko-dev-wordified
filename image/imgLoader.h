@@ -243,9 +243,6 @@ mozilla
 namespace
 image
 {
-class
-ImageURL
-;
 }
 /
 /
@@ -944,16 +941,6 @@ image
 :
 ImageCacheKey
 ImageCacheKey
-;
-typedef
-mozilla
-:
-:
-image
-:
-:
-ImageURL
-ImageURL
 ;
 typedef
 nsRefPtrHashtable

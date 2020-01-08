@@ -231,9 +231,6 @@ class
 Image
 ;
 class
-ImageURL
-;
-class
 ProgressTracker
 ;
 }
@@ -283,16 +280,6 @@ image
 :
 ImageCacheKey
 ImageCacheKey
-;
-typedef
-mozilla
-:
-:
-image
-:
-:
-ImageURL
-ImageURL
 ;
 typedef
 mozilla
@@ -931,7 +918,7 @@ thread
 nsresult
 GetURI
 (
-ImageURL
+nsIURI
 *
 *
 aURI
@@ -1511,9 +1498,9 @@ issues
 with
 nsStandardURL
 .
-RefPtr
+nsCOMPtr
 <
-ImageURL
+nsIURI
 >
 mURI
 ;
