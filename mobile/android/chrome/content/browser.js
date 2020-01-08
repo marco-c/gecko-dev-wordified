@@ -4048,7 +4048,7 @@ if
 (
 aData
 .
-enabled
+touchEnabled
 )
 {
 AccessFu
