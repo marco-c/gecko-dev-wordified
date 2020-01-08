@@ -150,8 +150,6 @@ SOFTWARE
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -161,8 +159,6 @@ include
 hb
 -
 unicode
--
-private
 .
 hh
 "
@@ -172,8 +168,6 @@ include
 hb
 -
 machinery
--
-private
 .
 hh
 "

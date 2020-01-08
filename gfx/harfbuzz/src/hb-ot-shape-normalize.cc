@@ -203,8 +203,6 @@ ot
 shape
 -
 normalize
--
-private
 .
 hh
 "
@@ -218,8 +216,6 @@ ot
 shape
 -
 complex
--
-private
 .
 hh
 "
@@ -231,8 +227,6 @@ hb
 ot
 -
 shape
--
-private
 .
 hh
 "

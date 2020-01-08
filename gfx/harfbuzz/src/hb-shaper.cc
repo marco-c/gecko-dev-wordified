@@ -196,8 +196,6 @@ Esfahbod
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -207,8 +205,6 @@ include
 hb
 -
 shaper
--
-private
 .
 hh
 "
@@ -218,8 +214,6 @@ include
 hb
 -
 machinery
--
-private
 .
 hh
 "
@@ -264,6 +258,9 @@ undef
 HB_SHAPER_IMPLEMENT
 }
 ;
+#
+ifdef
+HB_USE_ATEXIT
 static
 void
 free_static_shapers
@@ -271,6 +268,8 @@ free_static_shapers
 void
 )
 ;
+#
+endif
 static
 struct
 hb_shapers_lazy_loader_t

@@ -196,8 +196,6 @@ Esfahbod
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -234,8 +232,6 @@ Check
 hb
 -
 atomic
--
-private
 .
 hh
 for
@@ -278,8 +274,6 @@ Check
 hb
 -
 mutex
--
-private
 .
 hh
 for

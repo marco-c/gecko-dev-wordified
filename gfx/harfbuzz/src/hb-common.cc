@@ -215,8 +215,6 @@ Esfahbod
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -226,8 +224,6 @@ include
 hb
 -
 machinery
--
-private
 .
 hh
 "
@@ -3928,6 +3924,9 @@ endif
 #
 ifdef
 USE_XLOCALE
+#
+ifdef
+HB_USE_ATEXIT
 static
 void
 free_static_C_locale
@@ -3935,6 +3934,8 @@ free_static_C_locale
 void
 )
 ;
+#
+endif
 static
 struct
 hb_C_locale_lazy_loader_t

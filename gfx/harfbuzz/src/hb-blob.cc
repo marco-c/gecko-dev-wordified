@@ -241,8 +241,6 @@ endif
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -252,8 +250,6 @@ include
 hb
 -
 blob
--
-private
 .
 hh
 "

@@ -204,8 +204,6 @@ hb
 open
 -
 type
--
-private
 .
 hh
 "
@@ -216,9 +214,7 @@ hb
 -
 ot
 -
-layout
--
-private
+face
 .
 hh
 "
@@ -270,11 +266,11 @@ OT
 MATH
 )
 ;
-hb_ot_layout_t
+hb_ot_face_data_t
 *
-layout
+data
 =
-hb_ot_layout_from_face
+hb_ot_face_data
 (
 face
 )
@@ -282,11 +278,9 @@ face
 return
 *
 (
-layout
+data
 -
 >
-table
-.
 MATH
 .
 get

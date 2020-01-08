@@ -204,8 +204,6 @@ shape
 complex
 -
 myanmar
--
-private
 .
 hh
 "

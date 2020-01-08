@@ -166,8 +166,6 @@ shape
 complex
 -
 use
--
-private
 .
 hh
 "

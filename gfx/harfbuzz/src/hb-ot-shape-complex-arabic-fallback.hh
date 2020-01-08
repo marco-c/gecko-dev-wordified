@@ -202,8 +202,6 @@ HB_OT_SHAPE_COMPLEX_ARABIC_FALLBACK_HH
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -215,8 +213,6 @@ hb
 ot
 -
 shape
--
-private
 .
 hh
 "

@@ -198,8 +198,6 @@ Esfahbod
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -215,8 +213,6 @@ hb
 shaper
 -
 impl
--
-private
 .
 hh
 "
@@ -258,8 +254,6 @@ hb
 open
 -
 file
--
-private
 .
 hh
 "

@@ -204,8 +204,6 @@ hb
 shaper
 -
 impl
--
-private
 .
 hh
 "

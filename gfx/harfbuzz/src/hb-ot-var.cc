@@ -200,8 +200,6 @@ hb
 open
 -
 type
--
-private
 .
 hh
 "
@@ -212,9 +210,7 @@ hb
 -
 ot
 -
-layout
--
-private
+face
 .
 hh
 "
@@ -317,11 +313,11 @@ OT
 fvar
 )
 ;
-hb_ot_layout_t
+hb_ot_face_data_t
 *
 layout
 =
-hb_ot_layout_from_face
+hb_ot_face_data
 (
 face
 )
@@ -332,8 +328,6 @@ return
 layout
 -
 >
-table
-.
 fvar
 .
 get
@@ -377,11 +371,11 @@ OT
 avar
 )
 ;
-hb_ot_layout_t
+hb_ot_face_data_t
 *
 layout
 =
-hb_ot_layout_from_face
+hb_ot_face_data
 (
 face
 )
@@ -392,8 +386,6 @@ return
 layout
 -
 >
-table
-.
 avar
 .
 get

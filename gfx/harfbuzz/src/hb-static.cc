@@ -196,8 +196,6 @@ Esfahbod
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -209,8 +207,6 @@ hb
 open
 -
 type
--
-private
 .
 hh
 "
@@ -224,8 +220,6 @@ ot
 layout
 -
 common
--
-private
 .
 hh
 "
@@ -235,8 +229,6 @@ include
 hb
 -
 face
--
-private
 .
 hh
 "

@@ -202,8 +202,6 @@ HB_DEBUG_HH
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -213,8 +211,6 @@ include
 hb
 -
 atomic
--
-private
 .
 hh
 "

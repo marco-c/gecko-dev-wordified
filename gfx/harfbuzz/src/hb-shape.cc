@@ -213,8 +213,6 @@ Esfahbod
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -224,8 +222,6 @@ include
 hb
 -
 shaper
--
-private
 .
 hh
 "
@@ -237,8 +233,6 @@ hb
 shape
 -
 plan
--
-private
 .
 hh
 "
@@ -248,8 +242,6 @@ include
 hb
 -
 buffer
--
-private
 .
 hh
 "
@@ -259,8 +251,6 @@ include
 hb
 -
 font
--
-private
 .
 hh
 "
@@ -270,8 +260,6 @@ include
 hb
 -
 machinery
--
-private
 .
 hh
 "
@@ -357,6 +345,9 @@ positions
 *
 *
 /
+#
+ifdef
+HB_USE_ATEXIT
 static
 void
 free_static_shaper_list
@@ -364,6 +355,8 @@ free_static_shaper_list
 void
 )
 ;
+#
+endif
 static
 const
 char

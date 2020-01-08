@@ -197,8 +197,6 @@ Esfahbod
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -214,8 +212,6 @@ shape
 complex
 -
 arabic
--
-private
 .
 hh
 "
@@ -227,8 +223,6 @@ hb
 ot
 -
 shape
--
-private
 .
 hh
 "

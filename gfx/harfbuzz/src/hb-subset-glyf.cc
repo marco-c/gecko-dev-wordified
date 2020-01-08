@@ -202,8 +202,6 @@ hb
 open
 -
 type
--
-private
 .
 hh
 "
@@ -237,17 +235,6 @@ hb
 subset
 -
 glyf
-.
-hh
-"
-#
-include
-"
-hb
--
-subset
--
-plan
 .
 hh
 "

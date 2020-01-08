@@ -206,8 +206,6 @@ hb
 open
 -
 type
--
-private
 .
 hh
 "
@@ -2314,6 +2312,16 @@ DEFINE_SIZE_UNION
 major
 )
 ;
+}
+;
+struct
+kern_accelerator_t
+:
+kern
+:
+:
+accelerator_t
+{
 }
 ;
 }

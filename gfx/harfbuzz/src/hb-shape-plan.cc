@@ -196,8 +196,6 @@ Esfahbod
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -209,8 +207,6 @@ hb
 shape
 -
 plan
--
-private
 .
 hh
 "
@@ -220,8 +216,6 @@ include
 hb
 -
 shaper
--
-private
 .
 hh
 "
@@ -231,8 +225,6 @@ include
 hb
 -
 font
--
-private
 .
 hh
 "
@@ -242,8 +234,6 @@ include
 hb
 -
 buffer
--
-private
 .
 hh
 "

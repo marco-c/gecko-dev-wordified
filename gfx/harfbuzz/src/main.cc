@@ -213,8 +213,6 @@ hb
 open
 -
 file
--
-private
 .
 hh
 "
@@ -243,8 +241,6 @@ ot
 layout
 -
 gsubgpos
--
-private
 .
 hh
 "

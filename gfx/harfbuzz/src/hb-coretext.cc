@@ -217,8 +217,6 @@ coretext
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -230,8 +228,6 @@ hb
 shaper
 -
 impl
--
-private
 .
 hh
 "

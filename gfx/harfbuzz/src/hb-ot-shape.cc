@@ -218,10 +218,6 @@ HB_SHAPER
 ot
 #
 define
-hb_ot_face_data_t
-hb_ot_layout_t
-#
-define
 hb_ot_shape_plan_data_t
 hb_ot_shape_plan_t
 #
@@ -232,8 +228,6 @@ hb
 shaper
 -
 impl
--
-private
 .
 hh
 "
@@ -245,8 +239,6 @@ hb
 ot
 -
 shape
--
-private
 .
 hh
 "
@@ -260,8 +252,6 @@ ot
 shape
 -
 complex
--
-private
 .
 hh
 "
@@ -275,8 +265,6 @@ ot
 shape
 -
 fallback
--
-private
 .
 hh
 "
@@ -290,8 +278,17 @@ ot
 shape
 -
 normalize
+.
+hh
+"
+#
+include
+"
+hb
 -
-private
+ot
+-
+face
 .
 hh
 "
@@ -303,8 +300,6 @@ hb
 ot
 -
 layout
--
-private
 .
 hh
 "
@@ -314,8 +309,6 @@ include
 hb
 -
 unicode
--
-private
 .
 hh
 "
@@ -325,8 +318,6 @@ include
 hb
 -
 set
--
-private
 .
 hh
 "
@@ -340,8 +331,6 @@ ot
 layout
 -
 gsubgpos
--
-private
 .
 hh
 "
@@ -353,8 +342,6 @@ hb
 aat
 -
 layout
--
-private
 .
 hh
 "
@@ -1122,7 +1109,7 @@ face
 )
 {
 return
-_hb_ot_layout_create
+_hb_ot_face_data_create
 (
 face
 )
@@ -1136,7 +1123,7 @@ hb_ot_face_data_t
 data
 )
 {
-_hb_ot_layout_destroy
+_hb_ot_face_data_destroy
 (
 data
 )

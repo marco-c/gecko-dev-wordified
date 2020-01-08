@@ -207,8 +207,6 @@ hb
 open
 -
 type
--
-private
 .
 hh
 "

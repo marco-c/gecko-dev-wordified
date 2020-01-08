@@ -235,8 +235,6 @@ HB_OT_SHAPE_COMPLEX_USE_MACHINE_HH
 include
 "
 hb
--
-private
 .
 hh
 "

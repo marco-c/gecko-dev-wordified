@@ -229,8 +229,6 @@ Esfahbod
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -240,8 +238,6 @@ include
 hb
 -
 unicode
--
-private
 .
 hh
 "
@@ -1774,8 +1770,6 @@ See
 hb
 -
 unicode
--
-private
 .
 hh
 for
