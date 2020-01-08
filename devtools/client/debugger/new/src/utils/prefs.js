@@ -111,7 +111,6 @@ environment
 ;
 const
 {
-Services
 PrefsHelper
 }
 =
@@ -140,6 +139,16 @@ devtools
 modules
 "
 ]
+;
+const
+Services
+=
+require
+(
+"
+Services
+"
+)
 ;
 const
 prefsSchemaVersion
