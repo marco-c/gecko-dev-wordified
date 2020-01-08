@@ -142,7 +142,7 @@ io
 h
 >
 typedef
-int
+intptr_t
 ssize_t
 ;
 #
