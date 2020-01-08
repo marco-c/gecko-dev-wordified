@@ -179,12 +179,6 @@ valgrind
 '
     
 '
-static
--
-analysis
-'
-    
-'
 spidermonkey
 '
 ]
