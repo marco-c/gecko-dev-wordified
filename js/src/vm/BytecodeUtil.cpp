@@ -7251,10 +7251,7 @@ bi
 {
 UniqueChars
 nameBytes
-;
-if
-(
-!
+=
 AtomToPrintableString
 (
 cx
@@ -7263,9 +7260,12 @@ bi
 name
 (
 )
-&
-nameBytes
 )
+;
+if
+(
+!
+nameBytes
 )
 return
 false
