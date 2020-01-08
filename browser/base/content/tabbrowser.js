@@ -21702,9 +21702,7 @@ else
 tabs
 =
 [
-gBrowser
-.
-selectedTab
+contextTab
 ]
 ;
 }
