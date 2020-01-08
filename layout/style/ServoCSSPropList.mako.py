@@ -593,6 +593,20 @@ Resize
 "
     
 "
+basic_shape
+:
+:
+ClippingShape
+"
+    
+"
+basic_shape
+:
+:
+FloatAreaShape
+"
+    
+"
 url
 :
 :
