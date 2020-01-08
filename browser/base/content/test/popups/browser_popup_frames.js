@@ -289,12 +289,6 @@ iframe
 "
 )
 ;
-iframe
-.
-src
-=
-uri
-;
 let
 pageHideHappened
 =
@@ -319,6 +313,12 @@ appendChild
 (
 iframe
 )
+;
+iframe
+.
+src
+=
+uri
 ;
 await
 pageHideHappened
