@@ -133,6 +133,9 @@ false
 jstermCodeMirror
 :
 false
+historyCount
+:
+50
 }
 overrides
 )

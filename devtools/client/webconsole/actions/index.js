@@ -143,6 +143,14 @@ require
 notifications
 "
 )
+require
+(
+"
+.
+/
+history
+"
+)
 ]
 ;
 const
