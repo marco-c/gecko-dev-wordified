@@ -326,16 +326,6 @@ nsClientAuthRememberEntry
 aToMove
 )
 :
-PLDHashEntryHdr
-(
-std
-:
-:
-move
-(
-aToMove
-)
-)
 mSettings
 (
 std

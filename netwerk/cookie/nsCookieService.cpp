@@ -19575,13 +19575,7 @@ tuple
 >
 key
 =
-std
-:
-:
-move
-(
 key
-)
 ;
 tuple
 -

@@ -200,11 +200,13 @@ aKey
 )
 {
 }
+explicit
 DisplayItemHashEntry
 (
+const
 DisplayItemHashEntry
 &
-&
+aCopy
 )
 =
 default
