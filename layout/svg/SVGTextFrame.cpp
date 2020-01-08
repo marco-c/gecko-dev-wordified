@@ -10547,6 +10547,7 @@ TextFrameIterator
 SVGTextFrame
 *
 aRoot
+const
 nsIFrame
 *
 aSubtree
@@ -11137,6 +11138,7 @@ tracking
 .
 *
 /
+const
 nsIFrame
 *
 mSubtree
@@ -12182,6 +12184,7 @@ RenderedRunFilter
 aFilter
 =
 eAllFrames
+const
 nsIFrame
 *
 aSubtree
@@ -36742,6 +36745,7 @@ const
 nsRect
 &
 aRect
+const
 nsIFrame
 *
 aChildFrame

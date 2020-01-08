@@ -45915,6 +45915,7 @@ aOutAncestor
 uint32_t
 aFlags
 )
+const
 {
 MOZ_ASSERT
 (
@@ -46585,6 +46586,7 @@ transformed
 .
 *
 /
+const
 nsIFrame
 *
 current

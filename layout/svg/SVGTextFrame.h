@@ -2092,6 +2092,7 @@ const
 nsRect
 &
 aRect
+const
 nsIFrame
 *
 aChildFrame
