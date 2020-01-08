@@ -128,10 +128,10 @@ left
 raise
 RuntimeError
 (
-'
+"
 its
 over
-'
+"
 )
             
 self
@@ -176,6 +176,7 @@ mark
 .
 skipif
 (
+    
 sys
 .
 version_info
@@ -184,10 +185,9 @@ version_info
 3
 4
 )
-                    
 reason
 =
-'
+"
 asyncio
 available
 in
@@ -196,7 +196,7 @@ Python
 .
 4
 +
-'
+"
 )
 def
 test_is_generator_asyncio
@@ -209,6 +209,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -257,6 +258,7 @@ baz
 "
 "
 "
+    
 )
     
 #
@@ -296,12 +298,12 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 1
 passed
 *
-'
+"
 ]
 )
 pytest
@@ -310,6 +312,7 @@ mark
 .
 skipif
 (
+    
 sys
 .
 version_info
@@ -318,10 +321,9 @@ version_info
 3
 5
 )
-                    
 reason
 =
-'
+"
 async
 syntax
 available
@@ -331,7 +333,7 @@ Python
 .
 5
 +
-'
+"
 )
 def
 test_is_generator_async_syntax
@@ -344,6 +346,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -399,6 +402,7 @@ bar
 "
 "
 "
+    
 )
     
 result
@@ -416,12 +420,12 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 1
 passed
 *
-'
+"
 ]
 )
 class
@@ -443,12 +447,12 @@ self
 raise
 Exception
 (
-'
+"
 exception
 should
 be
 catched
-'
+"
 )
     
 property
@@ -464,12 +468,12 @@ pytest
 .
 fail
 (
-'
+"
 fail
 should
 be
 catched
-'
+"
 )
 def
 test_helper_failures
@@ -524,32 +528,32 @@ assert
 safe_getattr
 (
 helper
-'
+"
 raise_exception
-'
-'
+"
+"
 default
-'
+"
 )
 =
 =
-'
+"
 default
-'
+"
     
 assert
 safe_getattr
 (
 helper
-'
+"
 raise_fail
-'
-'
+"
+"
 default
-'
+"
 )
 =
 =
-'
+"
 default
-'
+"

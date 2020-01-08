@@ -27,6 +27,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -71,6 +72,7 @@ pass
 "
 "
 "
+    
 )
     
 from
@@ -229,9 +231,9 @@ pytest
 .
 ensuretemp
 (
-'
+"
 hello
-'
+"
 )
     
 d2
@@ -240,9 +242,9 @@ pytest
 .
 ensuretemp
 (
-'
+"
 hello
-'
+"
 )
     
 assert
@@ -439,6 +441,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -455,6 +458,7 @@ pass
 "
 "
 "
+        
 )
         
 testdir
@@ -462,14 +466,14 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 -
 basetemp
 =
 %
 s
-'
+"
 %
 mytemp
 )
@@ -494,14 +498,14 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 -
 basetemp
 =
 %
 s
-'
+"
 %
 mytemp
 )
@@ -552,6 +556,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -577,6 +582,7 @@ hello
 "
 "
 "
+    
 )
     
 result
@@ -586,14 +592,14 @@ testdir
 runpytest
 (
 p
-'
+"
 -
 -
 basetemp
 =
 %
 s
-'
+"
 %
 mytemp
 )
@@ -611,9 +617,9 @@ mytemp
 .
 join
 (
-'
+"
 hello
-'
+"
 )
 .
 check
@@ -625,6 +631,7 @@ mark
 .
 skipif
 (
+    
 not
 hasattr
 (
@@ -633,11 +640,11 @@ py
 path
 .
 local
-'
+"
 mksymlinkto
-'
+"
 )
-                    
+    
 reason
 =
 "
@@ -768,6 +775,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -804,6 +812,7 @@ tmpdir
 "
 "
 "
+    
 )
     
 result
@@ -817,7 +826,7 @@ runpytest
 s
 "
 p
-'
+"
 -
 -
 basetemp
@@ -826,7 +835,7 @@ basetemp
 s
 /
 bt
-'
+"
 %
 linktemp
 )
@@ -847,6 +856,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -892,6 +902,7 @@ hello
 "
 "
 "
+    
 )
     
 reprec
@@ -921,6 +932,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -975,6 +987,7 @@ isdir
 "
 "
 "
+    
 )
     
 reprec
@@ -1033,9 +1046,9 @@ monkeypatch
 .
 delenv
 (
-'
+"
 USER
-'
+"
 raising
 =
 False
@@ -1045,9 +1058,9 @@ monkeypatch
 .
 delenv
 (
-'
+"
 USERNAME
-'
+"
 raising
 =
 False
@@ -1057,6 +1070,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1081,6 +1095,7 @@ isdir
 "
 "
 "
+    
 )
     
 reprec
@@ -1113,11 +1128,11 @@ monkeypatch
 .
 setattr
 (
-'
+"
 os
 .
 getuid
-'
+"
 lambda
 :
 -
@@ -1140,18 +1155,18 @@ for
 envvar
 in
 (
-'
+"
 LOGNAME
-'
-'
+"
+"
 USER
-'
-'
+"
+"
 LNAME
-'
-'
+"
+"
 USERNAME
-'
+"
 )
 :
         
@@ -1186,20 +1201,20 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 reason
 =
-'
+"
 no
 os
 .
 getuid
 on
 windows
-'
+"
 )
 def
 test_tmpdir_fallback_uid_not_found
@@ -1242,6 +1257,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -1266,6 +1282,7 @@ isdir
 "
 "
 "
+    
 )
     
 reprec
@@ -1306,20 +1323,20 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 reason
 =
-'
+"
 no
 os
 .
 getuid
 on
 windows
-'
+"
 )
 def
 test_get_user_uid_not_found
@@ -1405,16 +1422,16 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 reason
 =
-'
+"
 win
 only
-'
+"
 )
 def
 test_get_user
@@ -1471,9 +1488,9 @@ monkeypatch
 .
 delenv
 (
-'
+"
 USER
-'
+"
 raising
 =
 False
@@ -1483,9 +1500,9 @@ monkeypatch
 .
 delenv
 (
-'
+"
 USERNAME
-'
+"
 raising
 =
 False

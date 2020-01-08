@@ -31,6 +31,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -93,6 +94,7 @@ xyz
 "
 "
 "
+        
 )
         
 modcol
@@ -101,6 +103,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -134,6 +137,7 @@ pass
 "
 "
 "
+        
 )
         
 #
@@ -191,9 +195,9 @@ clscol
 .
 funcargs
 [
-'
+"
 arg1
-'
+"
 ]
 =
 =
@@ -215,6 +219,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -277,6 +282,7 @@ xyz
 "
 "
 "
+        
 )
         
 modcol
@@ -285,6 +291,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -335,6 +342,7 @@ pass
 "
 "
 "
+        
 )
         
 #
@@ -546,6 +554,29 @@ x
 "
 )
     
+pytest
+.
+mark
+.
+xfail
+(
+        
+strict
+=
+False
+reason
+=
+"
+getfuncargnames
+breaks
+if
+mock
+is
+imported
+"
+    
+)
+    
 def
 test_wrapped_getfuncargnames_patching
 (
@@ -650,6 +681,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -717,6 +749,7 @@ hello
 "
 "
 "
+        
 )
         
 reprec
@@ -759,6 +792,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -836,6 +870,7 @@ hello
 "
 "
 "
+        
 )
         
 reprec
@@ -853,6 +888,178 @@ assertoutcome
 passed
 =
 1
+)
+    
+def
+test_unittest_mock_and_pypi_mock
+(
+self
+testdir
+)
+:
+        
+pytest
+.
+importorskip
+(
+"
+unittest
+.
+mock
+"
+)
+        
+pytest
+.
+importorskip
+(
+"
+mock
+"
+"
+1
+.
+0
+.
+1
+"
+)
+        
+testdir
+.
+makepyfile
+(
+            
+"
+"
+"
+            
+import
+mock
+            
+import
+unittest
+.
+mock
+            
+class
+TestBoth
+(
+object
+)
+:
+                
+unittest
+.
+mock
+.
+patch
+(
+"
+os
+.
+path
+.
+abspath
+"
+)
+                
+def
+test_hello
+(
+self
+abspath
+)
+:
+                    
+import
+os
+                    
+os
+.
+path
+.
+abspath
+(
+"
+hello
+"
+)
+                    
+abspath
+.
+assert_any_call
+(
+"
+hello
+"
+)
+                
+mock
+.
+patch
+(
+"
+os
+.
+path
+.
+abspath
+"
+)
+                
+def
+test_hello_mock
+(
+self
+abspath
+)
+:
+                    
+import
+os
+                    
+os
+.
+path
+.
+abspath
+(
+"
+hello
+"
+)
+                    
+abspath
+.
+assert_any_call
+(
+"
+hello
+"
+)
+        
+"
+"
+"
+        
+)
+        
+reprec
+=
+testdir
+.
+inline_run
+(
+)
+        
+reprec
+.
+assertoutcome
+(
+passed
+=
+2
 )
     
 def
@@ -883,6 +1090,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1064,6 +1272,7 @@ mock_basename
 "
 "
 "
+        
 )
         
 reprec
@@ -1097,6 +1306,7 @@ pytest_runtest_logreport
 funcnames
 =
 [
+            
 call
 .
 report
@@ -1109,7 +1319,6 @@ for
 call
 in
 calls
-                     
 if
 call
 .
@@ -1121,6 +1330,7 @@ when
 "
 call
 "
+        
 ]
         
 assert
@@ -1166,6 +1376,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1245,6 +1456,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -1353,6 +1565,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1410,6 +1623,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -1447,6 +1661,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -1491,12 +1706,14 @@ nextitem
 "
 "
 "
+        
 )
         
 testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1566,6 +1783,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -1586,6 +1804,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -1605,6 +1824,7 @@ count
 "
 "
 "
+        
 )
         
 result
@@ -1613,6 +1833,7 @@ stdout
 .
 fnmatch_lines
 (
+            
 "
 "
 "
@@ -1625,6 +1846,7 @@ passed
 "
 "
 "
+        
 )
 def
 test_pytestconfig_is_session_scoped
@@ -1669,6 +1891,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1688,6 +1911,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -1733,6 +1957,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1778,6 +2003,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -1823,6 +2049,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1873,6 +2100,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -2018,6 +2246,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2078,6 +2307,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -2139,6 +2369,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2221,6 +2452,7 @@ pass
 "
 "
 "
+        
 )
         
 res
@@ -2229,13 +2461,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 collect
 -
 only
-'
+"
 )
         
 res
@@ -2245,7 +2477,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 spam
@@ -2253,7 +2484,6 @@ spam
 2
 *
 "
-            
 "
 *
 ham
@@ -2261,7 +2491,6 @@ ham
 2
 *
 "
-        
 ]
 )
     
@@ -2277,6 +2506,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2388,6 +2618,7 @@ pass
 "
 "
 "
+        
 )
         
 res
@@ -2396,13 +2627,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 collect
 -
 only
-'
+"
 )
         
 res
@@ -2412,7 +2643,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 spam
@@ -2420,7 +2650,6 @@ spam
 2
 *
 "
-            
 "
 *
 ham
@@ -2428,6 +2657,5 @@ ham
 2
 *
 "
-        
 ]
 )

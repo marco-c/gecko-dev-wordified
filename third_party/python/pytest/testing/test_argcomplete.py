@@ -5,7 +5,9 @@ absolute_import
 division
 print_function
 import
-py
+subprocess
+import
+sys
 import
 pytest
 #
@@ -65,7 +67,7 @@ out
 .
 write
 (
-'
+"
 equal_with_bash
 %
 s
@@ -73,7 +75,7 @@ s
 s
 \
 n
-'
+"
 %
 (
 retval
@@ -90,7 +92,7 @@ out
 .
 write
 (
-'
+"
 python
 -
 bash
@@ -99,7 +101,7 @@ bash
 s
 \
 n
-'
+"
 %
 (
 set
@@ -115,7 +117,7 @@ out
 .
 write
 (
-'
+"
 bash
 -
 python
@@ -124,7 +126,7 @@ python
 s
 \
 n
-'
+"
 %
 (
 res_bash
@@ -184,10 +186,6 @@ try
 :
         
 if
-py
-.
-std
-.
 sys
 .
 version_info
@@ -199,10 +197,6 @@ version_info
 :
             
 return
-py
-.
-std
-.
 subprocess
 .
 check_output
@@ -223,9 +217,9 @@ splitlines
 )
         
 if
-'
+"
 stdout
-'
+"
 in
 kargs
 :
@@ -233,7 +227,7 @@ kargs
 raise
 ValueError
 (
-'
+"
 stdout
 argument
 not
@@ -243,26 +237,17 @@ will
 be
 overridden
 .
-'
+"
 )
         
 process
 =
-py
-.
-std
-.
 subprocess
 .
 Popen
 (
-            
 stdout
 =
-py
-.
-std
-.
 subprocess
 .
 PIPE
@@ -319,10 +304,6 @@ args
 ]
             
 raise
-py
-.
-std
-.
 subprocess
 .
 CalledProcessError
@@ -343,10 +324,6 @@ splitlines
 )
     
 except
-py
-.
-std
-.
 subprocess
 .
 CalledProcessError
@@ -362,7 +339,7 @@ object
 )
 :
     
-'
+"
 File
 completer
 class
@@ -373,7 +350,7 @@ list
 of
 allowed
 extensions
-'
+"
     
 def
 __init__
@@ -426,16 +403,16 @@ x
 .
 lstrip
 (
-'
+"
 *
-'
+"
 )
 .
 lstrip
 (
-'
+"
 .
-'
+"
 )
 for
 x
@@ -481,15 +458,15 @@ files
 =
 _wrapcall
 (
+                    
 [
-'
+"
 bash
-'
-'
+"
+"
 -
 c
-'
-                                   
+"
 "
 compgen
 -
@@ -511,6 +488,7 @@ p
 prefix
 )
 ]
+                
 )
                 
 completion
@@ -519,9 +497,9 @@ completion
 [
 f
 +
-'
+"
 /
-'
+"
 for
 f
 in
@@ -541,15 +519,18 @@ completion
 =
 _wrapcall
 (
+                    
 [
-'
+                        
+"
 bash
-'
-'
+"
+                        
+"
 -
 c
-'
-                                         
+"
+                        
 "
 compgen
 -
@@ -581,7 +562,9 @@ p
 =
 prefix
 )
+                    
 ]
+                
 )
         
 else
@@ -592,15 +575,15 @@ completion
 =
 _wrapcall
 (
+                
 [
-'
+"
 bash
-'
-'
+"
+"
 -
 c
-'
-                                     
+"
 "
 compgen
 -
@@ -622,21 +605,22 @@ p
 prefix
 )
 ]
+            
 )
             
 anticomp
 =
 _wrapcall
 (
+                
 [
-'
+"
 bash
-'
-'
+"
+"
 -
 c
-'
-                                  
+"
 "
 compgen
 -
@@ -658,6 +642,7 @@ p
 prefix
 )
 ]
+            
 )
             
 completion
@@ -687,9 +672,9 @@ completion
 [
 f
 +
-'
+"
 /
-'
+"
 for
 f
 in
@@ -757,22 +742,22 @@ for
 x
 in
 [
-'
+"
 /
-'
-'
+"
+"
 /
 d
-'
-'
+"
+"
 /
 data
-'
-'
+"
+"
 qqq
-'
-'
-'
+"
+"
+"
 ]
 :
             
@@ -784,10 +769,6 @@ ffc
 fc
 out
 =
-py
-.
-std
-.
 sys
 .
 stdout
@@ -873,11 +854,11 @@ FilesCompleter
 for
 x
 in
-'
+"
 /
 usr
 /
-'
+"
 .
 split
 (
@@ -893,10 +874,6 @@ ffc
 fc
 out
 =
-py
-.
-std
-.
 sys
 .
 stdout

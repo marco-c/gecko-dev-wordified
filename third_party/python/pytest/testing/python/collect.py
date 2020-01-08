@@ -23,20 +23,19 @@ _pytest
 .
 _code
 import
-py
-import
 pytest
 from
 _pytest
 .
 main
 import
-(
-    
-Collector
-    
 EXIT_NOTESTSCOLLECTED
-)
+from
+_pytest
+.
+nodes
+import
+Collector
 ignore_parametrized_marks
 =
 pytest
@@ -45,7 +44,8 @@ mark
 .
 filterwarnings
 (
-'
+    
+"
 ignore
 :
 Applying
@@ -53,7 +53,7 @@ marks
 directly
 to
 parameters
-'
+"
 )
 class
 TestModule
@@ -144,17 +144,13 @@ pyimport
 )
         
 del
-py
-.
-std
-.
 sys
 .
 modules
 [
-'
+"
 test_whatever
-'
+"
 ]
         
 b
@@ -182,8 +178,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 import
@@ -191,7 +188,7 @@ import
 mismatch
 *
 "
-            
+                
 "
 *
 imported
@@ -199,7 +196,7 @@ imported
 test_whatever
 *
 "
-            
+                
 "
 *
 %
@@ -217,7 +214,7 @@ test_whatever
 py
 "
 )
-            
+                
 "
 *
 not
@@ -225,7 +222,7 @@ the
 same
 *
 "
-            
+                
 "
 *
 %
@@ -243,14 +240,15 @@ test_whatever
 py
 "
 )
-            
+                
 "
 *
 HINT
 *
 "
-        
+            
 ]
+        
 )
     
 def
@@ -353,8 +351,10 @@ p
 .
 write
 (
+            
 dedent
 (
+                
 "
 "
 "
@@ -383,12 +383,15 @@ r
 "
 "
 "
+                
 %
 str
 (
 root2
 )
+            
 )
+        
 )
         
 with
@@ -541,22 +544,22 @@ testdir
 .
 mkdir
 (
-'
+"
 a
-'
+"
 )
         
 a
 .
 ensure
 (
-'
+"
 test_one
 .
 part1
 .
 py
-'
+"
 )
         
 result
@@ -577,8 +580,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 ImportError
 while
@@ -591,7 +595,7 @@ test_one
 part1
 *
 "
-            
+                
 "
 Hint
 :
@@ -608,8 +612,9 @@ Python
 names
 .
 "
-        
+            
 ]
+        
 )
     
 pytest
@@ -618,9 +623,9 @@ mark
 .
 parametrize
 (
-'
+"
 verbose
-'
+"
 [
 0
 1
@@ -706,6 +711,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -716,15 +722,16 @@ foo_traceback_import_error
 "
 "
 "
+        
 )
         
 args
 =
 (
-'
+"
 -
 v
-'
+"
 )
 *
 verbose
@@ -745,8 +752,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 ImportError
 while
@@ -755,12 +763,12 @@ test
 module
 *
 "
-            
+                
 "
 Traceback
 :
 "
-            
+                
 "
 *
 from
@@ -768,7 +776,7 @@ bar_traceback_import_error
 import
 NOT_AVAILABLE
 "
-            
+                
 "
 *
 cannot
@@ -778,8 +786,9 @@ name
 NOT_AVAILABLE
 *
 "
-        
+            
 ]
+        
 )
         
 assert
@@ -804,21 +813,21 @@ for
 name
 in
 (
-'
+"
 _pytest
-'
+"
 os
 .
 path
 .
 join
 (
-'
+"
 py
-'
-'
+"
+"
 _path
-'
+"
 )
 )
 :
@@ -883,6 +892,7 @@ testdir
 .
 makepyfile
 (
+            
 u
 "
 "
@@ -915,6 +925,7 @@ happened
 "
 "
 "
+        
 )
         
 result
@@ -931,8 +942,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 ImportError
 while
@@ -941,12 +953,12 @@ test
 module
 *
 "
-            
+                
 "
 Traceback
 :
 "
-            
+                
 "
 *
 raise
@@ -957,8 +969,9 @@ bad
 happened
 *
 "
-        
+            
 ]
+        
 )
         
 assert
@@ -987,6 +1000,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1010,6 +1024,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -1030,8 +1045,9 @@ stdout
 .
 fnmatch_lines
 (
-[
             
+[
+                
 "
 *
 cannot
@@ -1048,8 +1064,9 @@ a
 __init__
 constructor
 "
-        
+            
 ]
+        
 )
     
 def
@@ -1064,6 +1081,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -1080,6 +1098,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -1097,14 +1116,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 collected
 0
 *
 "
-        
 ]
 )
     
@@ -1138,6 +1155,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -1194,6 +1212,7 @@ fix
 "
 "
 "
+        
 )
         
 result
@@ -1204,33 +1223,6 @@ runpytest
 (
 )
         
-if
-sys
-.
-version_info
-<
-(
-2
-7
-)
-:
-            
-#
-in
-2
-.
-6
-the
-code
-to
-handle
-static
-methods
-doesn
-'
-t
-work
-            
 result
 .
 stdout
@@ -1238,38 +1230,6 @@ stdout
 fnmatch_lines
 (
 [
-                
-"
-*
-collected
-0
-items
-*
-"
-                
-"
-*
-cannot
-collect
-static
-method
-*
-"
-            
-]
-)
-        
-else
-:
-            
-result
-.
-stdout
-.
-fnmatch_lines
-(
-[
-                
 "
 *
 collected
@@ -1277,7 +1237,6 @@ collected
 items
 *
 "
-                
 "
 *
 2
@@ -1285,7 +1244,6 @@ passed
 in
 *
 "
-            
 ]
 )
     
@@ -1301,6 +1259,7 @@ testdir
 .
 makepyfile
 (
+            
 test_mod1
 =
 "
@@ -1348,6 +1307,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -1365,14 +1325,12 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 1
 passed
 *
 "
-        
 ]
 )
     
@@ -1390,6 +1348,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -1421,6 +1380,7 @@ Chameleon
 "
 "
 "
+        
 )
         
 colitems
@@ -1452,6 +1412,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1478,6 +1439,7 @@ a
 "
 "
 "
+        
 )
         
 result
@@ -1486,10 +1448,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 rw
-'
+"
 )
         
 result
@@ -1534,6 +1496,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -1562,6 +1525,7 @@ NotImplementedError
 "
 "
 "
+        
 )
         
 result
@@ -1600,6 +1564,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -1641,6 +1606,7 @@ func1
 "
 "
 "
+        
 )
         
 colitems
@@ -1726,11 +1692,11 @@ gencolitems
 name
 =
 =
-'
+"
 [
 0
 ]
-'
+"
         
 assert
 gencolitems
@@ -1743,9 +1709,9 @@ obj
 __name__
 =
 =
-'
+"
 func1
-'
+"
     
 def
 test_generative_methods
@@ -1761,6 +1727,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -1810,6 +1777,7 @@ func1
 "
 "
 "
+        
 )
         
 gencol
@@ -1896,11 +1864,11 @@ gencolitems
 name
 =
 =
-'
+"
 [
 0
 ]
-'
+"
         
 assert
 gencolitems
@@ -1913,9 +1881,9 @@ obj
 __name__
 =
 =
-'
+"
 func1
-'
+"
     
 def
 test_generative_functions_with_explicit_names
@@ -1931,6 +1899,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -1978,6 +1947,7 @@ func1
 "
 "
 "
+        
 )
         
 colitems
@@ -2082,9 +2052,9 @@ obj
 __name__
 =
 =
-'
+"
 func1
-'
+"
         
 assert
 gencolitems
@@ -2114,9 +2084,9 @@ obj
 __name__
 =
 =
-'
+"
 func1
-'
+"
     
 def
 test_generative_functions_unique_explicit_names
@@ -2135,6 +2105,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -2167,6 +2138,7 @@ func
 "
 "
 "
+        
 )
         
 colitems
@@ -2230,6 +2202,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -2285,6 +2258,7 @@ func1
 "
 "
 "
+        
 )
         
 gencol
@@ -2390,9 +2364,9 @@ obj
 __name__
 =
 =
-'
+"
 func1
-'
+"
         
 assert
 gencolitems
@@ -2422,9 +2396,9 @@ obj
 __name__
 =
 =
-'
+"
 func1
-'
+"
     
 def
 test_order_of_execution_generator_same_codeline
@@ -2441,6 +2415,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2535,6 +2510,7 @@ assert_order_of_execution
 "
 "
 "
+        
 )
         
 reprec
@@ -2583,6 +2559,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2701,6 +2678,7 @@ assert_order_of_execution
 "
 "
 "
+        
 )
         
 reprec
@@ -2824,6 +2802,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -2996,6 +2975,7 @@ setuplist
 "
 "
 "
+        
 )
         
 reprec
@@ -3005,10 +2985,10 @@ testdir
 inline_run
 (
 o
-'
+"
 -
 v
-'
+"
 )
         
 passed
@@ -3090,9 +3070,9 @@ hasattr
 modcol
 .
 obj
-'
+"
 test_func
-'
+"
 )
     
 def
@@ -3107,6 +3087,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3139,6 +3120,7 @@ A
 "
 "
 "
+        
 )
         
 reprec
@@ -3219,6 +3201,7 @@ pytest
 .
 Function
 (
+            
 name
 =
 "
@@ -3230,7 +3213,6 @@ session
 config
 =
 config
-                             
 args
 =
 (
@@ -3239,6 +3221,7 @@ args
 callobj
 =
 func1
+        
 )
         
 assert
@@ -3261,7 +3244,6 @@ name
 config
 =
 config
-                             
 callobj
 =
 func2
@@ -3288,6 +3270,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3320,6 +3303,7 @@ pass
 "
 "
 "
+        
 )
         
 reprec
@@ -3351,6 +3335,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3392,6 +3377,7 @@ arg
 "
 "
 "
+        
 )
         
 reprec
@@ -3423,6 +3409,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3492,6 +3479,7 @@ A
 "
 "
 "
+        
 )
         
 reprec
@@ -3543,6 +3531,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3645,6 +3634,7 @@ key
 "
 "
 "
+        
 )
         
 rec
@@ -3694,6 +3684,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -3831,6 +3822,7 @@ key
 "
 "
 "
+        
 )
         
 rec
@@ -3880,6 +3872,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4023,6 +4016,7 @@ overridden
 "
 "
 "
+        
 )
         
 rec
@@ -4073,6 +4067,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4139,6 +4134,7 @@ overridden
 "
 "
 "
+        
 )
         
 rec
@@ -4174,6 +4170,7 @@ testdir
 .
 getitems
 (
+            
 "
 "
 "
@@ -4231,6 +4228,7 @@ pass
 "
 "
 "
+        
 )
         
 keywords
@@ -4246,28 +4244,32 @@ items
 ]
         
 assert
-'
+(
+            
+"
 foo
-'
+"
 in
 keywords
 [
 0
 ]
+            
 and
-'
+"
 bar
-'
+"
 not
 in
 keywords
 [
 0
 ]
+            
 and
-'
+"
 baz
-'
+"
 not
 in
 keywords
@@ -4275,28 +4277,30 @@ keywords
 0
 ]
         
+)
+        
 assert
-'
+"
 foo
-'
+"
 in
 keywords
 [
 1
 ]
 and
-'
+"
 bar
-'
+"
 in
 keywords
 [
 1
 ]
 and
-'
+"
 baz
-'
+"
 in
 keywords
 [
@@ -4318,6 +4322,7 @@ testdir
 .
 getitems
 (
+            
 "
 "
 "
@@ -4352,6 +4357,7 @@ pass
 "
 "
 "
+        
 )
         
 assert
@@ -4506,6 +4512,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -4556,6 +4563,7 @@ pass
 "
 "
 "
+        
 )
         
 colitems
@@ -4575,14 +4583,14 @@ colitems
 name
 =
 =
-'
+"
 test1
 [
 2
 -
 0
 ]
-'
+"
         
 assert
 colitems
@@ -4593,14 +4601,14 @@ colitems
 name
 =
 =
-'
+"
 test1
 [
 2
 -
 1
 ]
-'
+"
         
 assert
 colitems
@@ -4611,14 +4619,14 @@ colitems
 name
 =
 =
-'
+"
 test1
 [
 3
 -
 0
 ]
-'
+"
         
 assert
 colitems
@@ -4629,14 +4637,14 @@ colitems
 name
 =
 =
-'
+"
 test1
 [
 3
 -
 1
 ]
-'
+"
     
 def
 test_issue751_multiple_parametrize_with_ids
@@ -4652,6 +4660,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -4737,6 +4746,7 @@ pass
 "
 "
 "
+        
 )
         
 colitems
@@ -4770,14 +4780,14 @@ colitems
 name
 =
 =
-'
+"
 test1
 [
 a
 -
 c
 ]
-'
+"
         
 assert
 colitems
@@ -4788,14 +4798,14 @@ colitems
 name
 =
 =
-'
+"
 test1
 [
 b
 -
 c
 ]
-'
+"
         
 assert
 colitems
@@ -4806,14 +4816,14 @@ colitems
 name
 =
 =
-'
+"
 test2
 [
 a
 -
 c
 ]
-'
+"
         
 assert
 colitems
@@ -4824,14 +4834,14 @@ colitems
 name
 =
 =
-'
+"
 test2
 [
 b
 -
 c
 ]
-'
+"
     
 ignore_parametrized_marks
     
@@ -4847,6 +4857,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4901,6 +4912,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -4917,7 +4929,7 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 2
 passed
@@ -4925,7 +4937,7 @@ passed
 skipped
 in
 *
-'
+"
 )
     
 ignore_parametrized_marks
@@ -4942,6 +4954,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -4995,6 +5008,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -5011,7 +5025,7 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 2
 passed
@@ -5019,7 +5033,7 @@ passed
 skipped
 in
 *
-'
+"
 )
     
 ignore_parametrized_marks
@@ -5036,6 +5050,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5090,6 +5105,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -5106,7 +5122,7 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 1
 failed
@@ -5114,7 +5130,7 @@ failed
 passed
 in
 *
-'
+"
 )
     
 ignore_parametrized_marks
@@ -5131,6 +5147,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5185,6 +5202,7 @@ x
 "
 "
 "
+        
 )
         
 result
@@ -5201,7 +5219,7 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 2
 passed
@@ -5209,7 +5227,7 @@ passed
 xfailed
 in
 *
-'
+"
 )
     
 ignore_parametrized_marks
@@ -5226,6 +5244,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5277,6 +5296,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -5293,7 +5313,7 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 2
 passed
@@ -5301,7 +5321,7 @@ passed
 xpassed
 in
 *
-'
+"
 )
     
 ignore_parametrized_marks
@@ -5318,6 +5338,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -5369,6 +5390,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -5385,13 +5407,13 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 3
 passed
 in
 *
-'
+"
 )
     
 def
@@ -5408,6 +5430,7 @@ testdir
 .
 getitems
 (
+            
 "
 "
 "
@@ -5442,6 +5465,7 @@ pass
 "
 "
 "
+        
 )
         
 assert
@@ -5457,12 +5481,12 @@ items
 =
 =
 [
-'
+"
 test_func
-'
-'
+"
+"
 test_func
-'
+"
 ]
 class
 TestSorting
@@ -5485,6 +5509,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -5507,6 +5532,7 @@ assert
 "
 "
 "
+        
 )
         
 fn1
@@ -5564,10 +5590,6 @@ fn1
 modcol
         
 if
-py
-.
-std
-.
 sys
 .
 version_info
@@ -5587,6 +5609,8 @@ fn2
 =
 =
 0
+#
+NOQA
         
 assert
 hash
@@ -5696,6 +5720,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -5760,6 +5785,7 @@ test_a
 "
 "
 "
+        
 )
         
 colitems
@@ -5792,12 +5818,12 @@ colitems
 =
 =
 [
-'
+"
 test_b
-'
-'
+"
+"
 test_a
-'
+"
 ]
 class
 TestConftestCustomization
@@ -5818,6 +5844,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -5867,6 +5894,7 @@ parent
 "
 "
 "
+        
 )
         
 testdir
@@ -5921,7 +5949,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 <
@@ -5930,7 +5957,6 @@ Module
 test_pytest
 *
 "
-            
 "
 *
 <
@@ -5939,7 +5965,6 @@ MyModule
 xyz
 *
 "
-        
 ]
 )
     
@@ -5982,28 +6007,45 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
             
+import
+pytest
+            
+pytest
+.
+hookimpl
+(
+hookwrapper
+=
+True
+)
+            
 def
 pytest_pycollect_makemodule
 (
-__multicall__
 )
 :
                 
+outcome
+=
+yield
+                
 mod
 =
-__multicall__
+outcome
 .
-execute
+get_result
 (
 )
                 
@@ -6016,14 +6058,13 @@ hello
 "
 world
 "
-                
-return
-mod
         
 "
 "
 "
+            
 )
+        
 )
         
 b
@@ -6039,12 +6080,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -6066,7 +6109,9 @@ world
 "
 "
 "
+            
 )
+        
 )
         
 reprec
@@ -6125,12 +6170,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -6169,7 +6216,9 @@ result
 =
 outcome
 .
-result
+get_result
+(
+)
                     
 if
 result
@@ -6192,7 +6241,9 @@ world
 "
 "
 "
+            
 )
+        
 )
         
 b
@@ -6208,12 +6259,14 @@ py
 .
 write
 (
+            
 _pytest
 .
 _code
 .
 Source
 (
+                
 "
 "
 "
@@ -6259,7 +6312,9 @@ world
 "
 "
 "
+            
 )
+        
 )
         
 reprec
@@ -6291,6 +6346,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -6337,6 +6393,7 @@ collector
 "
 "
 "
+        
 )
         
 testdir
@@ -6375,7 +6432,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 MyFunction
@@ -6383,7 +6439,6 @@ MyFunction
 some
 *
 "
-        
 ]
 )
     
@@ -6421,13 +6476,13 @@ monkeypatch
 .
 setattr
 (
+            
 pytest
 .
 Module
-'
+"
 makeitem
-'
-                            
+"
 lambda
 self
 name
@@ -6439,6 +6494,7 @@ append
 (
 name
 )
+        
 )
         
 values
@@ -6450,9 +6506,9 @@ collect
 )
         
 assert
-'
+"
 _hello
-'
+"
 not
 in
 values
@@ -6522,6 +6578,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -6540,6 +6597,9 @@ Module
             
 class
 Loader
+(
+object
+)
 :
                 
 def
@@ -6566,6 +6626,9 @@ narf
             
 class
 Finder
+(
+object
+)
 :
                 
 def
@@ -6640,16 +6703,19 @@ parent
 "
 "
 "
+        
 )
         
 testdir
 .
 makefile
 (
+            
 "
 .
 narf
 "
+            
 "
 "
 "
@@ -6670,6 +6736,7 @@ assert
 "
 "
 "
+        
 )
         
 #
@@ -6700,12 +6767,12 @@ stdout
 .
 fnmatch_lines
 (
-'
+"
 *
 1
 passed
 *
-'
+"
 )
 def
 test_setup_only_available_in_subdir
@@ -6749,12 +6816,14 @@ py
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -6822,7 +6891,9 @@ test_in_sub1
 "
 "
 "
+        
 )
+    
 )
     
 sub2
@@ -6838,12 +6909,14 @@ py
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -6911,7 +6984,9 @@ test_in_sub2
 "
 "
 "
+        
 )
+    
 )
     
 sub1
@@ -7121,6 +7196,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -7150,6 +7226,7 @@ xyz
 "
 "
 "
+        
 )
         
 p
@@ -7313,6 +7390,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7334,6 +7412,7 @@ asd
 "
 "
 "
+        
 )
         
 result
@@ -7389,20 +7468,17 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 asd
 *
 "
-            
 "
 E
 *
 NameError
 *
 "
-        
 ]
 )
         
@@ -7454,21 +7530,18 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 >
 *
 asd
 *
 "
-            
 "
 E
 *
 NameError
 *
 "
-        
 ]
 )
     
@@ -7499,6 +7572,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -7579,6 +7653,7 @@ pass
 "
 "
 "
+        
 )
         
 result
@@ -7623,7 +7698,6 @@ stdout
 fnmatch_lines
 (
 [
-            
 "
 *
 ValueError
@@ -7632,7 +7706,6 @@ fail
 me
 *
 "
-            
 "
 *
 1
@@ -7640,7 +7713,6 @@ error
 in
 *
 "
-        
 ]
 )
     
@@ -7746,7 +7818,7 @@ ns
             
 exec
 (
-'
+"
 def
 foo
 (
@@ -7754,15 +7826,15 @@ foo
 :
 raise
 ValueError
-'
+"
 ns
 )
             
 ns
 [
-'
+"
 foo
-'
+"
 ]
 (
 )
@@ -7895,11 +7967,12 @@ testdir
 .
 makepyfile
 (
+            
 filter_traceback_entry_as_str
 =
-'
-'
-'
+"
+"
+"
             
 def
 foo
@@ -7910,9 +7983,10 @@ foo
 raise
 ValueError
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 try
@@ -7947,11 +8021,11 @@ tmpdir
 .
 join
 (
-'
+"
 filter_traceback_entry_as_str
 .
 py
-'
+"
 )
 .
 remove
@@ -8011,6 +8085,7 @@ testdir
 .
 makeconftest
 (
+            
 "
 "
 "
@@ -8073,6 +8148,7 @@ collector
 "
 "
 "
+        
 )
         
 item
@@ -8190,6 +8266,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -8216,6 +8293,7 @@ pass
 "
 "
 "
+        
 )
         
 classcol
@@ -8276,6 +8354,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -8307,6 +8386,7 @@ check
 "
 "
 "
+        
 )
         
 gencol
@@ -8483,6 +8563,7 @@ testdir
 .
 getmodulecol
 (
+            
 "
 "
 "
@@ -8527,6 +8608,7 @@ pass
 "
 "
 "
+        
 )
         
 classcol
@@ -8572,6 +8654,7 @@ testdir
 .
 makeini
 (
+        
 "
 "
 "
@@ -8598,6 +8681,7 @@ check
 "
 "
 "
+    
 )
     
 p
@@ -8606,6 +8690,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -8637,6 +8722,7 @@ pass
 "
 "
 "
+    
 )
     
 p2
@@ -8694,33 +8780,30 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
 "
 *
 check_customized
 *
 "
-        
 "
 *
 check_simple
 *
 "
-        
 "
 *
 CheckMyApp
 *
 "
-        
 "
 *
 check_meth
 *
 "
-    
 ]
+    
 )
     
 result
@@ -8746,14 +8829,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 2
 passed
 *
 "
-    
 ]
 )
 def
@@ -8767,6 +8848,7 @@ testdir
 .
 makeini
 (
+        
 "
 "
 "
@@ -8782,12 +8864,14 @@ _test
 "
 "
 "
+    
 )
     
 testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -8803,6 +8887,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -8831,13 +8916,11 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 _test_underscore
 *
 "
-    
 ]
 )
     
@@ -8864,14 +8947,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 1
 passed
 *
 "
-    
 ]
 )
 def
@@ -8885,6 +8966,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -8942,12 +9024,14 @@ Module
 "
 "
 "
+    
 )
     
 testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -8963,6 +9047,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -8980,14 +9065,12 @@ stdout
 fnmatch_lines
 (
 [
-        
 "
 *
 1
 passed
 *
 "
-    
 ]
 )
 def
@@ -9001,6 +9084,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -9077,12 +9161,14 @@ collector
 "
 "
 "
+    
 )
     
 testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -9106,6 +9192,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -9129,20 +9216,18 @@ stdout
 .
 fnmatch_lines
 (
-[
         
+[
 "
 *
 MyClass
 *
 "
-        
 "
 *
 MyInstance
 *
 "
-        
 "
 *
 MyFunction
@@ -9150,8 +9235,8 @@ MyFunction
 test_hello
 *
 "
-    
 ]
+    
 )
 def
 test_unorderable_types
@@ -9164,6 +9249,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -9212,6 +9298,7 @@ make_test
 "
 "
 "
+    
 )
     
 result
@@ -9288,6 +9375,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -9506,6 +9594,7 @@ check3
 "
 "
 "
+    
 )
     
 result
@@ -9595,6 +9684,7 @@ testdir
 .
 makepyfile
 (
+        
 "
 "
 "
@@ -9632,6 +9722,7 @@ pass
 "
 "
 "
+    
 )
     
 result
@@ -9640,10 +9731,10 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 rw
-'
+"
 )
     
 result
@@ -9652,16 +9743,17 @@ stdout
 .
 fnmatch_lines
 (
-[
         
-'
+[
+            
+"
 *
 collected
 1
 item
 *
-'
-        
+"
+            
 "
 *
 cannot
@@ -9677,8 +9769,8 @@ a
 function
 *
 "
-        
-'
+            
+"
 *
 1
 passed
@@ -9686,9 +9778,10 @@ passed
 warnings
 in
 *
-'
-    
+"
+        
 ]
+    
 )
 def
 test_class_injection_does_not_break_collection
@@ -9750,6 +9843,7 @@ testdir
 .
 makeconftest
 (
+        
 "
 "
 "
@@ -9776,12 +9870,14 @@ changed_var
 "
 "
 "
+    
 )
     
 testdir
 .
 makepyfile
 (
+        
 test_inject
 =
 '
@@ -9818,6 +9914,7 @@ pass
 '
 '
 '
+    
 )
     
 result
@@ -9855,12 +9952,12 @@ stdout
 fnmatch_lines
 (
 [
-'
+"
 *
 1
 passed
 *
-'
+"
 ]
 )
 def
@@ -9894,6 +9991,7 @@ testdir
 .
 makepyfile
 (
+        
 u
 "
 "
@@ -9916,6 +10014,7 @@ UTF
 "
 "
 "
+    
 )
     
 result
@@ -9933,28 +10032,24 @@ stdout
 fnmatch_lines
 (
 [
-        
-'
+"
 *
 ERROR
 collecting
 *
-'
-        
-'
+"
+"
 *
 SyntaxError
 *
-'
-        
-'
+"
+"
 *
 1
 error
 in
 *
-'
-    
+"
 ]
 )
 def
@@ -10029,12 +10124,14 @@ fh
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -10053,7 +10150,9 @@ pass
 "
 "
 "
+        
 )
+    
 )
     
 result
@@ -10077,15 +10176,13 @@ stdout
 fnmatch_lines
 (
 [
-        
-'
+"
 *
 collected
 1
 item
 *
-'
-    
+"
 ]
 )
 def
@@ -10169,12 +10266,14 @@ fh
 .
 write
 (
+        
 _pytest
 .
 _code
 .
 Source
 (
+            
 "
 "
 "
@@ -10193,7 +10292,9 @@ pass
 "
 "
 "
+        
 )
+    
 )
     
 result
@@ -10224,14 +10325,12 @@ stdout
 fnmatch_lines
 (
 [
-        
-'
+"
 *
 collected
 2
 item
 *
-'
-    
+"
 ]
 )

@@ -19,7 +19,6 @@ contextmanager
 import
 sys
 os
-re
 atexit
 io
 uuid
@@ -52,7 +51,6 @@ os
 path
 import
 abspath
-normcase
 normpath
 isabs
 exists
@@ -6365,9 +6363,10 @@ get_temproot
         
 nprefix
 =
-normcase
-(
 prefix
+.
+lower
+(
 )
         
 def
@@ -6400,11 +6399,12 @@ prefix
             
 nbasename
 =
-normcase
-(
 path
 .
 basename
+.
+lower
+(
 )
             
 if

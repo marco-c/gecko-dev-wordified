@@ -149,6 +149,11 @@ frame
 .
 statement
     
+#
+fmt
+:
+off
+    
 x
 =
 A
@@ -166,6 +171,11 @@ y
 z
 '
 )
+    
+#
+fmt
+:
+on
     
 values
 =

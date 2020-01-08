@@ -49,9 +49,9 @@ pluginmanager
 .
 getplugin
 (
-'
+"
 pastebin
-'
+"
 )
         
 monkeypatch
@@ -59,9 +59,9 @@ monkeypatch
 setattr
 (
 plugin
-'
+"
 create_new_paste
-'
+"
 pastebinlist
 .
 append
@@ -85,6 +85,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -126,6 +127,7 @@ skip
 "
 "
 "
+        
 )
         
 reprec
@@ -211,6 +213,7 @@ testdir
 .
 makepyfile
 (
+            
 "
 "
 "
@@ -252,6 +255,7 @@ skip
 "
 "
 "
+        
 )
         
 reprec
@@ -268,10 +272,10 @@ pastebin
 =
 all
 "
-'
+"
 -
 v
-'
+"
 )
         
 assert
@@ -306,11 +310,11 @@ pastebinlist
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
         
 matcher
@@ -328,30 +332,31 @@ matcher
 .
 fnmatch_lines
 (
-[
             
-'
+[
+                
+"
 *
 test_pass
 PASSED
 *
-'
-            
-'
+"
+                
+"
 *
 test_fail
 FAILED
 *
-'
-            
-'
+"
+                
+"
 *
 test_skip
 SKIPPED
 *
-'
-            
-'
+"
+                
+"
 *
 =
 =
@@ -363,9 +368,10 @@ passed
 skipped
 in
 *
-'
-        
+"
+            
 ]
+        
 )
     
 def
@@ -407,6 +413,7 @@ testdir
 .
 makepyfile
 (
+            
 test_unicode
 =
 "
@@ -436,6 +443,7 @@ assert
 "
 "
 "
+        
 )
         
 result
@@ -444,13 +452,13 @@ testdir
 .
 runpytest
 (
-'
+"
 -
 -
 pastebin
 =
 all
-'
+"
 )
         
 if
@@ -509,10 +517,11 @@ stdout
 .
 fnmatch_lines
 (
+            
 [
-            
+                
 expected_msg
-            
+                
 "
 *
 =
@@ -522,8 +531,8 @@ failed
 in
 *
 "
-            
-'
+                
+"
 *
 Sending
 information
@@ -531,9 +540,10 @@ to
 Paste
 Service
 *
-'
-        
+"
+            
 ]
+        
 )
 class
 TestPaste
@@ -563,9 +573,9 @@ pluginmanager
 .
 getplugin
 (
-'
+"
 pastebin
-'
+"
 )
     
 pytest
@@ -700,9 +710,9 @@ monkeypatch
 setattr
 (
 urllib
-'
+"
 urlopen
-'
+"
 mocked
 )
         
@@ -721,9 +731,9 @@ setattr
 urllib
 .
 request
-'
+"
 urlopen
-'
+"
 mocked
 )
         
@@ -746,20 +756,20 @@ pastebin
 create_new_paste
 (
 b
-'
+"
 full
 -
 paste
 -
 contents
-'
+"
 )
         
 assert
 result
 =
 =
-'
+"
 https
 :
 /
@@ -771,7 +781,7 @@ net
 show
 /
 3c0c6750bd
-'
+"
         
 assert
 len
@@ -800,9 +810,9 @@ bytes
         
 lexer
 =
-'
+"
 python3
-'
+"
 if
 sys
 .
@@ -814,15 +824,15 @@ version_info
 =
 3
 else
-'
+"
 python
-'
+"
         
 assert
 url
 =
 =
-'
+"
 https
 :
 /
@@ -830,15 +840,15 @@ https
 bpaste
 .
 net
-'
+"
         
 assert
-'
+"
 lexer
 =
 %
 s
-'
+"
 %
 lexer
 in
@@ -849,7 +859,7 @@ decode
 )
         
 assert
-'
+"
 code
 =
 full
@@ -857,7 +867,7 @@ full
 paste
 -
 contents
-'
+"
 in
 data
 .
@@ -866,11 +876,11 @@ decode
 )
         
 assert
-'
+"
 expiry
 =
 1week
-'
+"
 in
 data
 .
