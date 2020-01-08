@@ -2722,7 +2722,7 @@ param
 {
 Object
 }
-workerActor
+workerTargetActor
 *
 worker
 actor
@@ -2734,14 +2734,14 @@ debug
 openWorkerToolbox
 (
 client
-workerActor
+workerTargetActor
 )
 {
 client
 .
 attachWorker
 (
-workerActor
+workerTargetActor
 (
 response
 workerClient

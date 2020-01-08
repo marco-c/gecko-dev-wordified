@@ -84,7 +84,7 @@ TAB_URL
 EXAMPLE_URL
 +
 "
-doc_WorkerActor
+doc_WorkerTargetActor
 .
 attachThread
 -
@@ -97,7 +97,7 @@ const
 WORKER_URL
 =
 "
-code_WorkerActor
+code_WorkerTargetActor
 .
 attachThread
 -

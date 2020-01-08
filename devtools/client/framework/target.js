@@ -5392,7 +5392,7 @@ one
 actor
 implemented
 by
-WorkerActor
+WorkerTargetActor
 if
 (
 name

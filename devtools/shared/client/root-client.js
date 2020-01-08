@@ -654,7 +654,7 @@ shared
 *
 Array
 of
-WorkerActor
+WorkerTargetActor
 forms
 containing
 shared
@@ -669,7 +669,7 @@ other
 *
 Array
 of
-WorkerActor
+WorkerTargetActor
 forms
 containing
 other
@@ -953,7 +953,7 @@ url
 form
 .
 url
-workerActor
+workerTargetActor
 :
 form
 .
@@ -1047,7 +1047,7 @@ url
 }
 registration
 .
-workerActor
+workerTargetActor
 =
 form
 .
