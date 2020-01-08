@@ -226,7 +226,7 @@ get
 url
 timeout
 =
-5
+30
 )
         
 return
