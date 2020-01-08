@@ -6767,7 +6767,7 @@ aObserver
 )
 ;
 }
-bool
+void
 nsRefreshDriver
 :
 :
@@ -6789,19 +6789,15 @@ aObserver
 )
 )
 ;
-return
 mTimerAdjustmentObservers
 .
 AppendElement
 (
 aObserver
 )
-!
-=
-nullptr
 ;
 }
-bool
+void
 nsRefreshDriver
 :
 :
@@ -6822,7 +6818,6 @@ aObserver
 )
 )
 ;
-return
 mTimerAdjustmentObservers
 .
 RemoveElement

@@ -942,7 +942,7 @@ changes
 .
 *
 /
-bool
+void
 AddTimerAdjustmentObserver
 (
 nsATimerAdjustmentObserver
@@ -950,7 +950,7 @@ nsATimerAdjustmentObserver
 aObserver
 )
 ;
-bool
+void
 RemoveTimerAdjustmentObserver
 (
 nsATimerAdjustmentObserver
