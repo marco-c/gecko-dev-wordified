@@ -1265,7 +1265,8 @@ char
 const
 mLogName
 ;
-CorruptionCanary
+const
+CorruptionCanaryForStatics
 mCanary
 ;
 Atomic
