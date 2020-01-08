@@ -809,6 +809,11 @@ textLabel
 span
 (
 {
+key
+:
+"
+label
+"
 className
 :
 "
@@ -856,6 +861,11 @@ acceleratorLabel
 span
 (
 {
+key
+:
+"
+accelerator
+"
 className
 :
 "
