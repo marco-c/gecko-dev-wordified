@@ -215,7 +215,11 @@ require
 "
 .
 /
-JITOptimizationsItem
+jit
+-
+optimizations
+-
+item
 "
 )
 )
