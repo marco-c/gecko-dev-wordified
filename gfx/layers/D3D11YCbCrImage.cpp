@@ -1760,6 +1760,7 @@ AutoCheckLockD3D11Texture
 {
 public
 :
+explicit
 AutoCheckLockD3D11Texture
 (
 ID3D11Texture2D
