@@ -2522,12 +2522,9 @@ State
 :
 :
 Start
-dom_error
+had_hierarchy_error
 :
-None
-insert_rule_context
-:
-None
+false
 namespaces
 }
 ;
