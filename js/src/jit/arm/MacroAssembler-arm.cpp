@@ -25455,7 +25455,7 @@ raw
 (
 )
 )
-Relocation
+RelocationKind
 :
 :
 JITCODE
@@ -29455,7 +29455,7 @@ addPendingJump
 (
 bo
 imm
-Relocation
+RelocationKind
 :
 :
 HARDCODED
@@ -29548,7 +29548,7 @@ raw
 (
 )
 )
-Relocation
+RelocationKind
 :
 :
 JITCODE

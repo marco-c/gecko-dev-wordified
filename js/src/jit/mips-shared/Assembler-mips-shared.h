@@ -4775,10 +4775,7 @@ void
 *
 target
 ;
-Relocation
-:
-:
-Kind
+RelocationKind
 kind
 ;
 RelativePatch
@@ -4788,10 +4785,7 @@ offset
 void
 *
 target
-Relocation
-:
-:
-Kind
+RelocationKind
 kind
 )
 :
@@ -5007,7 +5001,7 @@ j
 kind
 =
 =
-Relocation
+RelocationKind
 :
 :
 HARDCODED
@@ -7921,10 +7915,7 @@ BufferOffset
 src
 ImmPtr
 target
-Relocation
-:
-:
-Kind
+RelocationKind
 kind
 )
 {
@@ -7950,7 +7941,7 @@ if
 kind
 =
 =
-Relocation
+RelocationKind
 :
 :
 JITCODE

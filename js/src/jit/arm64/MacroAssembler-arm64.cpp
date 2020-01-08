@@ -4399,7 +4399,7 @@ raw
 (
 )
 )
-Relocation
+RelocationKind
 :
 :
 JITCODE

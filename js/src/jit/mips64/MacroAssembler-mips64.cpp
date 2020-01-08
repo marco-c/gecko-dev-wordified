@@ -10812,7 +10812,7 @@ raw
 (
 )
 )
-Relocation
+RelocationKind
 :
 :
 JITCODE

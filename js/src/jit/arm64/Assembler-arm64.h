@@ -2113,10 +2113,7 @@ addJumpRelocation
 (
 BufferOffset
 src
-Relocation
-:
-:
-Kind
+RelocationKind
 reloc
 )
 ;
@@ -2152,10 +2149,7 @@ BufferOffset
 src
 ImmPtr
 target
-Relocation
-:
-:
-Kind
+RelocationKind
 kind
 )
 ;
@@ -2189,10 +2183,7 @@ addPatchableJump
 (
 BufferOffset
 src
-Relocation
-:
-:
-Kind
+RelocationKind
 kind
 )
 ;
@@ -2543,7 +2534,7 @@ j
 kind
 =
 =
-Relocation
+RelocationKind
 :
 :
 HARDCODED
@@ -2743,7 +2734,7 @@ targets
 are
 of
 type
-Relocation
+RelocationKind
 :
 :
 JITCODE
@@ -2840,10 +2831,7 @@ void
 *
 target
 ;
-Relocation
-:
-:
-Kind
+RelocationKind
 kind
 ;
 RelativePatch
@@ -2853,10 +2841,7 @@ offset
 void
 *
 target
-Relocation
-:
-:
-Kind
+RelocationKind
 kind
 )
 :

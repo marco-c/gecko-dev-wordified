@@ -12020,7 +12020,7 @@ raw
 (
 )
 )
-Relocation
+RelocationKind
 :
 :
 JITCODE

@@ -4060,7 +4060,7 @@ size
 addPatchableJump
 (
 src
-Relocation
+RelocationKind
 :
 :
 HARDCODED

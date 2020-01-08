@@ -3571,7 +3571,7 @@ ImmPtr
 (
 code
 )
-Relocation
+RelocationKind
 :
 :
 HARDCODED
@@ -3654,7 +3654,7 @@ ImmPtr
 (
 code
 )
-Relocation
+RelocationKind
 :
 :
 HARDCODED

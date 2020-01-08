@@ -781,10 +781,7 @@ writeRelocation
 (
 JmpSrc
 src
-Relocation
-:
-:
-Kind
+RelocationKind
 reloc
 )
 {
@@ -864,7 +861,7 @@ if
 reloc
 =
 =
-Relocation
+RelocationKind
 :
 :
 JITCODE
@@ -904,10 +901,7 @@ JmpSrc
 src
 ImmPtr
 target
-Relocation
-:
-:
-Kind
+RelocationKind
 reloc
 )
 {
@@ -954,7 +948,7 @@ if
 reloc
 =
 =
-Relocation
+RelocationKind
 :
 :
 JITCODE
@@ -995,10 +989,7 @@ addPatchableJump
 (
 JmpSrc
 src
-Relocation
-:
-:
-Kind
+RelocationKind
 reloc
 )
 {

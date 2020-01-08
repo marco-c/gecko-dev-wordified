@@ -4748,7 +4748,7 @@ code
 .
 value
 )
-Relocation
+RelocationKind
 :
 :
 HARDCODED
@@ -9188,7 +9188,7 @@ raw
 (
 )
 )
-Relocation
+RelocationKind
 :
 :
 JITCODE
@@ -14189,7 +14189,7 @@ raw
 (
 )
 )
-Relocation
+RelocationKind
 :
 :
 JITCODE

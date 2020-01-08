@@ -2439,13 +2439,9 @@ slotsSizeMustNotOverflow
 endif
 }
 ;
-class
-Relocation
-{
-public
-:
 enum
-Kind
+class
+RelocationKind
 {
 /
 /
@@ -2502,8 +2498,6 @@ be
 needed
 .
 JITCODE
-}
-;
 }
 ;
 class
