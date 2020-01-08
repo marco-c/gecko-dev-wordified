@@ -399,6 +399,8 @@ static
 Intent
 getFileCleanupIntent
 (
+Context
+context
 ArrayList
 <
 String
@@ -412,6 +414,10 @@ intent
 new
 Intent
 (
+context
+FileCleanupService
+.
+class
 )
 ;
 intent

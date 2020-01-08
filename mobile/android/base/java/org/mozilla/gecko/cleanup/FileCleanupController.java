@@ -445,6 +445,7 @@ FileCleanupService
 .
 getFileCleanupIntent
 (
+context
 getFilesToCleanup
 (
 profilePath
