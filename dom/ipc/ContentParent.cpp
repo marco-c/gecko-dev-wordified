@@ -9131,6 +9131,9 @@ aCode
 return
 ;
 }
+#
+ifndef
+FUZZING
 /
 /
 Other
@@ -9144,6 +9147,8 @@ KillHard
 aReason
 )
 ;
+#
+endif
 }
 /
 *
