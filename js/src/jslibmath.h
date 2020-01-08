@@ -188,6 +188,7 @@ IsNaN
 a
 )
 )
+{
 return
 JS
 :
@@ -196,6 +197,7 @@ GenericNaN
 (
 )
 ;
+}
 if
 (
 mozilla
@@ -215,6 +217,7 @@ IsNegative
 b
 )
 )
+{
 return
 mozilla
 :
@@ -226,6 +229,7 @@ double
 (
 )
 ;
+}
 return
 mozilla
 :
@@ -264,6 +268,7 @@ b
 =
 0
 )
+{
 return
 JS
 :
@@ -272,6 +277,7 @@ GenericNaN
 (
 )
 ;
+}
 return
 fmod
 (
