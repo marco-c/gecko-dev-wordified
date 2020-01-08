@@ -6597,7 +6597,7 @@ value
 in
 the
 owning
-XULElement
+element
 but
 our
 /
@@ -9373,7 +9373,7 @@ value
 in
 the
 owning
-XULElement
+element
 but
 our
 /
@@ -13692,8 +13692,6 @@ the
 userContextId
 from
 owner
-if
-XUL
 nsresult
 rv
 =
@@ -20059,6 +20057,9 @@ from
 owner
 if
 XUL
+or
+mozbrowser
+frame
 nsAutoString
 userContextIdStr
 ;
@@ -20079,6 +20080,11 @@ namespaceID
 =
 =
 kNameSpaceID_XUL
+|
+|
+OwnerIsMozBrowserFrame
+(
+)
 )
 &
 &
