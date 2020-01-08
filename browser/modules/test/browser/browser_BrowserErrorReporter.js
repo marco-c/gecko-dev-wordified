@@ -1140,9 +1140,10 @@ PREF_SAMPLE_RATE
 }
 )
 ;
+await
 reporter
 .
-observe
+handleMessage
 (
 {
 message
@@ -1188,7 +1189,7 @@ warnings
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -1238,7 +1239,7 @@ warnings
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -1293,7 +1294,7 @@ warnings
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -1388,7 +1389,7 @@ PREF_SAMPLE_RATE
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -1435,7 +1436,7 @@ errors
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -1498,7 +1499,7 @@ PREF_SAMPLE_RATE
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -1550,7 +1551,7 @@ errors
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -1615,7 +1616,7 @@ is
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -1700,7 +1701,7 @@ fasdf
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -1810,7 +1811,7 @@ PREF_SAMPLE_RATE
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -1918,7 +1919,7 @@ value
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -2022,7 +2023,7 @@ parameter
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -3325,7 +3326,7 @@ uninit
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -3706,7 +3707,7 @@ messages
 await
 reporter
 .
-observe
+handleMessage
 (
 message
 )
@@ -3736,7 +3737,7 @@ PREF_SAMPLE_RATE
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -3791,7 +3792,7 @@ report
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
@@ -4274,7 +4275,7 @@ counts
 await
 reporter
 .
-observe
+handleMessage
 (
 createScriptError
 (
