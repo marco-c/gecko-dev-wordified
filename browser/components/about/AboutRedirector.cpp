@@ -1294,7 +1294,9 @@ certerror
 {
 url
 .
-AssignASCII
+Assign
+(
+NS_LITERAL_CSTRING
 (
 "
 chrome
@@ -1311,6 +1313,7 @@ new
 .
 xhtml
 "
+)
 )
 ;
 }
