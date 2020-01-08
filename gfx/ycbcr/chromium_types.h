@@ -339,6 +339,12 @@ defined
 (
 __aarch64__
 )
+|
+|
+defined
+(
+_M_ARM64
+)
 #
 define
 ARCH_CPU_AARCH64_FAMILY
