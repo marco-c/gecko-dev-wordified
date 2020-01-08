@@ -7763,6 +7763,12 @@ DoGetContainingSVGUseShadowHost
 )
 ;
 }
+bool
+IsInUAWidget
+(
+)
+const
+;
 /
 /
 True
