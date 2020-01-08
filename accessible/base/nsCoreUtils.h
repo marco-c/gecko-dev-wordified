@@ -183,9 +183,6 @@ class
 nsIDocShell
 ;
 class
-nsITreeColumn
-;
-class
 nsITreeBoxObject
 ;
 class
@@ -1661,7 +1658,7 @@ nsTreeColumn
 >
 GetNextSensibleColumn
 (
-nsITreeColumn
+nsTreeColumn
 *
 aColumn
 )
@@ -1688,7 +1685,7 @@ nsTreeColumn
 >
 GetPreviousSensibleColumn
 (
-nsITreeColumn
+nsTreeColumn
 *
 aColumn
 )
@@ -1720,7 +1717,7 @@ static
 bool
 IsColumnHidden
 (
-nsITreeColumn
+nsTreeColumn
 *
 aColumn
 )
