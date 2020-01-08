@@ -519,6 +519,7 @@ onHideBoxModelHighlighter
 onSetFlexboxOverlayColor
 onShowBoxModelHighlighterForNode
 onToggleFlexboxHighlighter
+onToggleFlexItemShown
 setSelectedNode
 }
 =
@@ -591,6 +592,7 @@ onHideBoxModelHighlighter
 onSetFlexboxOverlayColor
 onShowBoxModelHighlighterForNode
 onToggleFlexboxHighlighter
+onToggleFlexItemShown
 setSelectedNode
 }
 )
