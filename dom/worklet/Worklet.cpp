@@ -330,10 +330,6 @@ UniqueTwoByteChars
 aScriptBuffer
 size_t
 aScriptLength
-const
-WorkletLoadInfo
-&
-aWorkletLoadInfo
 )
 :
 Runnable
@@ -1360,12 +1356,6 @@ move
 scriptTextBuf
 )
 scriptTextLength
-mWorklet
--
->
-LoadInfo
-(
-)
 )
 ;
 RefPtr
