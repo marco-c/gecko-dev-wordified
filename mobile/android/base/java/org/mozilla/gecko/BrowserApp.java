@@ -21378,7 +21378,7 @@ dispatch
 "
 Menu
 :
-BrowserActionClicked
+Clicked
 "
 data
 )
