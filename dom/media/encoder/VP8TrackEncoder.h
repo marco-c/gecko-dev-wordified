@@ -431,6 +431,8 @@ timestamp
 .
 StreamTime
 mEncodedTimestamp
+=
+0
 ;
 /
 /
@@ -521,6 +523,8 @@ milliseconds
 /
 StreamTime
 mDurationSinceLastKeyframe
+=
+0
 ;
 /
 *
