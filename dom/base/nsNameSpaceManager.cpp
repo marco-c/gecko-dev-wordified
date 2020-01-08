@@ -1126,7 +1126,7 @@ isAtom
 =
 aIs
 ?
-NS_Atomize
+NS_AtomizeMainThread
 (
 *
 aIs
