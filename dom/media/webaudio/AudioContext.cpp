@@ -1089,7 +1089,7 @@ the
 window
 .
 bool
-allowToStart
+allowedToStart
 =
 AutoplayPolicy
 :
@@ -1109,10 +1109,10 @@ AudioDestinationNode
 (
 this
 aIsOffline
+allowedToStart
 aNumberOfChannels
 aLength
 aSampleRate
-allowToStart
 )
 ;
 /
@@ -1180,7 +1180,7 @@ start
 if
 (
 !
-allowToStart
+allowedToStart
 )
 {
 ErrorResult
