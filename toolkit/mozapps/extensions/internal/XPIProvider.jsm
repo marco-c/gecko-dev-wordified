@@ -3713,6 +3713,14 @@ aDBAddon
 .
 signedState
 ;
+this
+.
+file
+=
+aDBAddon
+.
+_sourceBundle
+;
 if
 (
 aUpdated
