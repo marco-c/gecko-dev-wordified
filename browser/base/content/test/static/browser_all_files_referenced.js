@@ -2153,6 +2153,8 @@ Bug
 (
 on
 Mac
+and
+Windows
 this
 is
 only
@@ -2184,6 +2186,9 @@ platforms
 [
 "
 macosx
+"
+"
+win
 "
 ]
 }
