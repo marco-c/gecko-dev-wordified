@@ -2830,9 +2830,6 @@ moz
 action
 :
 "
-observers
-:
-PlacesObservers
 /
 *
 *

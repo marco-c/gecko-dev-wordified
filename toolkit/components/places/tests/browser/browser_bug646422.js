@@ -208,6 +208,11 @@ onEndUpdateBatch
 )
 {
 }
+onVisits
+(
+)
+{
+}
 onDeleteURI
 (
 )
