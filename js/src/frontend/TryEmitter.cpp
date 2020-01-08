@@ -569,7 +569,13 @@ bce_
 setSrcNoteOffset
 (
 noteIndex_
-0
+SrcNote
+:
+:
+Try
+:
+:
+EndOfTryJumpOffset
 bce_
 -
 >
@@ -582,9 +588,11 @@ tryStart_
 JSOP_TRY_LENGTH
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Emit
