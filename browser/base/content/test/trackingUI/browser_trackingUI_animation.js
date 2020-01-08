@@ -179,11 +179,10 @@ gBrowser
 .
 selectedTab
 =
-BrowserTestUtils
+gBrowser
 .
 addTab
 (
-gBrowser
 )
 ;
 let

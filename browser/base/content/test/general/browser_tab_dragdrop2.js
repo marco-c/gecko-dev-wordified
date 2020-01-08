@@ -165,13 +165,12 @@ original
 one
 out
 .
-BrowserTestUtils
-.
-addTab
-(
 win
 .
 gBrowser
+.
+addTab
+(
 "
 about
 :

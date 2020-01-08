@@ -173,11 +173,10 @@ false
 let
 pinnedTab
 =
-BrowserTestUtils
+gBrowser
 .
 addTab
 (
-gBrowser
 )
 ;
 gBrowser
@@ -305,11 +304,10 @@ tab
 let
 pinnedTab2
 =
-BrowserTestUtils
+gBrowser
 .
 addTab
 (
-gBrowser
 )
 ;
 gBrowser

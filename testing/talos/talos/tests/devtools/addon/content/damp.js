@@ -1262,7 +1262,7 @@ _win
 .
 gBrowser
 .
-addTrustedTab
+addTab
 (
 url
 )

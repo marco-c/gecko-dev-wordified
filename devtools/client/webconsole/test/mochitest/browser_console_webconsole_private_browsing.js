@@ -293,11 +293,10 @@ privateBrowser
 .
 selectedTab
 =
-BrowserTestUtils
+privateBrowser
 .
 addTab
 (
-privateBrowser
 PRIVATE_TEST_URI
 )
 ;

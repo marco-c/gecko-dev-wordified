@@ -1067,7 +1067,7 @@ win
 .
 gBrowser
 .
-addTrustedTab
+addTab
 (
 "
 chrome
