@@ -153,10 +153,5 @@ self
 ;
 }
 }
-'
-Fetch
-Standard
-IDL
-'
 )
 ;

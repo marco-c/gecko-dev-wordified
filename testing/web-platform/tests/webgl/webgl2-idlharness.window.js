@@ -76,9 +76,5 @@ TODO
 :
 objects
 }
-'
-webgl2
-interfaces
-'
 )
 ;

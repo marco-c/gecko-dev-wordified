@@ -84,10 +84,5 @@ pointer
 }
 )
 }
-'
-pointerevents
-extension
-interfaces
-'
 )
 ;

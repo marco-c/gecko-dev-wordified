@@ -311,16 +311,6 @@ entryList
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-performance
--
-timeline
-API
-'
 )
 ;
 }

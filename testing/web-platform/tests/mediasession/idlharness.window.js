@@ -92,13 +92,5 @@ navigator
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Media
-Session
-'
 )
 ;

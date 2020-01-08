@@ -77,9 +77,5 @@ navigator
 )
 ;
 }
-'
-Test
-driver
-'
 )
 ;

@@ -178,9 +178,5 @@ storage
 )
 ;
 }
-'
-webstorage
-interfaces
-'
 )
 ;

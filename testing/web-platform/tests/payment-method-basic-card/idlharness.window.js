@@ -71,16 +71,5 @@ null
 /
 No
 objects
-'
-payment
--
-method
--
-basic
--
-card
-interfaces
-.
-'
 )
 ;

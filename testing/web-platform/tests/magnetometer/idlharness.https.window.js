@@ -93,13 +93,5 @@ UncalibratedMagnetometer
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Magnetometer
-Sensor
-'
 )
 ;

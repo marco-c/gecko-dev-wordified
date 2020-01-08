@@ -133,13 +133,5 @@ resource
 )
 ;
 }
-'
-Test
-server
--
-timing
-IDL
-implementation
-'
 )
 ;

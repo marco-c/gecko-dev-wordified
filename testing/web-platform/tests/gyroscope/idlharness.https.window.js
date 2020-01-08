@@ -82,13 +82,5 @@ Gyroscope
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Gyroscope
-Sensor
-'
 )
 ;

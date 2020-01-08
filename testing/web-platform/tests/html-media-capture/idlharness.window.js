@@ -97,14 +97,5 @@ input
 )
 ;
 }
-'
-html
--
-media
--
-capture
-interfaces
-.
-'
 )
 ;

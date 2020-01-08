@@ -202,12 +202,5 @@ start
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-ResizeObserver
-'
 )
 ;

@@ -159,11 +159,5 @@ type
 ;
 }
 }
-'
-background
--
-fetch
-interfaces
-'
 )
 ;

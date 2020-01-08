@@ -265,11 +265,5 @@ error
 )
 ;
 }
-'
-mediastream
--
-recording
-interfaces
-'
 )
 ;

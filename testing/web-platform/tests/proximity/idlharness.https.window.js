@@ -82,13 +82,5 @@ ProximitySensor
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Proximity
-Sensor
-'
 )
 ;

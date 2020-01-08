@@ -104,13 +104,5 @@ GravitySensor
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Accelerometer
-Sensor
-'
 )
 ;

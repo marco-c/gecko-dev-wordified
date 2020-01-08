@@ -377,10 +377,5 @@ setup
 )
 ;
 }
-'
-WebUSB
-IDL
-test
-'
 )
 ;

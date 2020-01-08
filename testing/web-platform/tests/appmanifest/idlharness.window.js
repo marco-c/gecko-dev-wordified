@@ -89,9 +89,5 @@ type
 )
 ;
 }
-'
-appmanifest
-interfaces
-'
 )
 ;

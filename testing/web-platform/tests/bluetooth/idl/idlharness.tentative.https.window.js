@@ -131,12 +131,5 @@ event
 )
 ;
 }
-'
-web
--
-bluetooth
-interfaces
-.
-'
 )
 ;

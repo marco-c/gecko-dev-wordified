@@ -1725,9 +1725,5 @@ feTurbulence
 )
 ;
 }
-'
-SVG
-interfaces
-'
 )
 ;

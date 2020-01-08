@@ -154,12 +154,6 @@ FileReaderSync
 )
 ;
 }
-'
-Test
-FileAPI
-IDL
-implementation
-'
 )
 ;
 done

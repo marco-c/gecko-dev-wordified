@@ -167,11 +167,5 @@ remote
 )
 ;
 }
-'
-remote
--
-playback
-interfaces
-'
 )
 ;

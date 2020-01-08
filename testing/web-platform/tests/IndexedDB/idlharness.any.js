@@ -124,9 +124,5 @@ DOMStringList
 )
 ;
 }
-'
-IndexedDB
-interfaces
-'
 )
 ;

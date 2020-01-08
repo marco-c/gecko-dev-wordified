@@ -96,11 +96,5 @@ getSelection
 )
 ;
 }
-'
-selection
--
-api
-interfaces
-'
 )
 ;

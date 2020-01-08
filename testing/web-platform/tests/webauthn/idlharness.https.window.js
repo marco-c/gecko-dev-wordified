@@ -135,11 +135,6 @@ assertionResponse
 )
 ;
 }
-'
-WebAuthn
-interfaces
-.
-'
 )
 ;
 let

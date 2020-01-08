@@ -73,9 +73,5 @@ TODO
 :
 objects
 }
-'
-webgl1
-interfaces
-'
 )
 ;

@@ -86,11 +86,5 @@ keyboard
 )
 ;
 }
-'
-keyboard
--
-lock
-interfaces
-'
 )
 ;

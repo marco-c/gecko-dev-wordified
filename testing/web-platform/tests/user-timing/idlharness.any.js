@@ -191,15 +191,5 @@ measure
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-user
--
-timing
-API
-'
 )
 ;

@@ -201,15 +201,5 @@ paymentrequestupdate
 )
 ;
 }
-'
-Setup
-for
-Payment
-Request
-API
-IDL
-tests
-.
-'
 )
 ;

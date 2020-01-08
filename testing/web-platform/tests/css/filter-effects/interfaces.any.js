@@ -73,11 +73,5 @@ TODO
 :
 objects
 }
-'
-Filter
-effects
-interfaces
-.
-'
 )
 ;

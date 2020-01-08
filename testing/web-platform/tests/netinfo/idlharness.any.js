@@ -119,10 +119,5 @@ navigator
 ;
 }
 }
-'
-netinfo
-interfaces
-.
-'
 )
 ;

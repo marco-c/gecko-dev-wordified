@@ -106,9 +106,5 @@ type
 )
 ;
 }
-'
-pointerevents
-interfaces
-'
 )
 ;

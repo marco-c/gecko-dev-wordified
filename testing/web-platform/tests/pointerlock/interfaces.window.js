@@ -105,10 +105,5 @@ foo
 )
 ;
 }
-'
-pointerlock
-interfaces
-.
-'
 )
 ;

@@ -129,13 +129,5 @@ requestSession
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-WebXR
-API
-'
 )
 ;

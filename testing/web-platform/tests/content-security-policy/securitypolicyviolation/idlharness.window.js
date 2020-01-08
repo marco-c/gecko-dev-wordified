@@ -80,13 +80,5 @@ securitypolicyviolation
 }
 )
 }
-'
-Test
-Content
-Security
-Policy
-IDL
-implementation
-'
 )
 ;

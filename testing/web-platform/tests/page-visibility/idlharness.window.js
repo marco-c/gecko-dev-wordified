@@ -80,11 +80,5 @@ document
 )
 ;
 }
-'
-page
--
-visibility
-interfaces
-'
 )
 ;
