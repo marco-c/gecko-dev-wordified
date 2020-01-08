@@ -12109,8 +12109,6 @@ be
 the
 document
 .
-NS_ENSURE_TRUE
-(
 slots
 -
 >
@@ -12126,8 +12124,6 @@ nsIMutationObserver
 (
 this
 )
-)
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 mOnloadBlocker
