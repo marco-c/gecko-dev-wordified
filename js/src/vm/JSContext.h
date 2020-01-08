@@ -4807,12 +4807,10 @@ isClosingGenerator
 void
 setPendingException
 (
-const
-js
+JS
 :
 :
-Value
-&
+HandleValue
 v
 )
 ;
