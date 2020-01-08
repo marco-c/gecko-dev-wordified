@@ -192,7 +192,7 @@ svg
 "
 ;
 const
-NETWORK_ICON_SRC
+GLOBE_ICON_SRC
 =
 "
 chrome
@@ -207,9 +207,7 @@ images
 /
 aboutdebugging
 -
-connect
--
-network
+globe
 -
 icon
 .
@@ -550,7 +548,7 @@ page__section__icon
 "
 src
 :
-NETWORK_ICON_SRC
+GLOBE_ICON_SRC
 }
 )
 "
