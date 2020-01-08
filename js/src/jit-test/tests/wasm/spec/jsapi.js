@@ -1817,7 +1817,7 @@ assert_equals
 moduleImportsDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -2180,7 +2180,7 @@ assert_equals
 moduleExportsDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -2491,7 +2491,7 @@ assert_equals
 customSectionsDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -3202,7 +3202,7 @@ assert_equals
 exportsDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -4121,7 +4121,7 @@ assert_equals
 bufferDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -4282,7 +4282,7 @@ assert_equals
 memGrowDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -5374,7 +5374,7 @@ assert_equals
 lengthDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -5543,7 +5543,7 @@ assert_equals
 getDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -5827,7 +5827,7 @@ assert_equals
 setDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -6175,7 +6175,7 @@ assert_equals
 tblGrowDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -8324,7 +8324,7 @@ assert_equals
 valueOfDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -9614,7 +9614,7 @@ assert_equals
 compileDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -9948,7 +9948,7 @@ assert_equals
 instantiateDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals

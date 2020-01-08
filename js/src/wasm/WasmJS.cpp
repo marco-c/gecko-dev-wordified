@@ -3761,7 +3761,7 @@ WasmModuleObject
 :
 imports
 1
-0
+JSPROP_ENUMERATE
 )
 JS_FN
 (
@@ -3773,7 +3773,7 @@ WasmModuleObject
 :
 exports
 1
-0
+JSPROP_ENUMERATE
 )
 JS_FN
 (
@@ -3785,7 +3785,7 @@ WasmModuleObject
 :
 customSections
 2
-0
+JSPROP_ENUMERATE
 )
 JS_FS_END
 }
@@ -6894,7 +6894,7 @@ WasmInstanceObject
 :
 :
 exportsGetter
-0
+JSPROP_ENUMERATE
 )
 JS_PS_END
 }
@@ -10658,7 +10658,7 @@ WasmMemoryObject
 :
 :
 bufferGetter
-0
+JSPROP_ENUMERATE
 )
 JS_PS_END
 }
@@ -10852,7 +10852,7 @@ WasmMemoryObject
 :
 grow
 1
-0
+JSPROP_ENUMERATE
 )
 JS_FS_END
 }
@@ -12803,7 +12803,7 @@ WasmTableObject
 :
 :
 lengthGetter
-0
+JSPROP_ENUMERATE
 )
 JS_PS_END
 }
@@ -13676,7 +13676,7 @@ WasmTableObject
 :
 get
 1
-0
+JSPROP_ENUMERATE
 )
 JS_FN
 (
@@ -13688,7 +13688,7 @@ WasmTableObject
 :
 set
 2
-0
+JSPROP_ENUMERATE
 )
 JS_FN
 (
@@ -13700,7 +13700,7 @@ WasmTableObject
 :
 grow
 1
-0
+JSPROP_ENUMERATE
 )
 JS_FS_END
 }
@@ -15824,7 +15824,7 @@ WasmGlobalObject
 :
 valueGetter
 0
-0
+JSPROP_ENUMERATE
 )
 JS_FS_END
 }
@@ -20776,7 +20776,7 @@ compile
 "
 WebAssembly_compile
 1
-0
+JSPROP_ENUMERATE
 )
 JS_FN
 (
@@ -20785,7 +20785,7 @@ instantiate
 "
 WebAssembly_instantiate
 1
-0
+JSPROP_ENUMERATE
 )
 JS_FN
 (
@@ -20794,7 +20794,7 @@ validate
 "
 WebAssembly_validate
 1
-0
+JSPROP_ENUMERATE
 )
 JS_FN
 (
@@ -20803,7 +20803,7 @@ compileStreaming
 "
 WebAssembly_compileStreaming
 1
-0
+JSPROP_ENUMERATE
 )
 JS_FN
 (
@@ -20812,7 +20812,7 @@ instantiateStreaming
 "
 WebAssembly_instantiateStreaming
 1
-0
+JSPROP_ENUMERATE
 )
 JS_FS_END
 }
