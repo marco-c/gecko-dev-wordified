@@ -172,14 +172,18 @@ h
 #
 include
 "
-nsGeoPosition
+mozilla
+/
+dom
+/
+PositionErrorBinding
 .
 h
 "
 #
 include
 "
-nsIDOMGeoPositionError
+nsGeoPosition
 .
 h
 "
@@ -737,7 +741,7 @@ default
 :
 err
 =
-nsIDOMGeoPositionError
+PositionErrorBinding
 :
 :
 POSITION_UNAVAILABLE
@@ -1325,7 +1329,7 @@ err
 #
 else
 return
-nsIDOMGeoPositionError
+PositionErrorBinding
 :
 :
 POSITION_UNAVAILABLE
@@ -1363,7 +1367,7 @@ case
 EROFS
 :
 return
-nsIDOMGeoPositionError
+PositionErrorBinding
 :
 :
 PERMISSION_DENIED
@@ -1377,7 +1381,7 @@ case
 ETIMEDOUT
 :
 return
-nsIDOMGeoPositionError
+PositionErrorBinding
 :
 :
 TIMEOUT
@@ -1385,7 +1389,7 @@ TIMEOUT
 default
 :
 return
-nsIDOMGeoPositionError
+PositionErrorBinding
 :
 :
 POSITION_UNAVAILABLE
