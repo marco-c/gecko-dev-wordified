@@ -3640,11 +3640,6 @@ performAutoFill
 +
 id
 +
-"
-"
-+
-values
-+
 '
 )
 '

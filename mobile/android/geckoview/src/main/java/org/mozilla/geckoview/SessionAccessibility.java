@@ -5011,11 +5011,6 @@ performAutoFill
 +
 id
 +
-"
-"
-+
-value
-+
 '
 )
 '
