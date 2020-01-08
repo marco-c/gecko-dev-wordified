@@ -83,6 +83,10 @@ import
 get_repository_object
 InvalidRepoPath
 from
+subprocess
+import
+CalledProcessError
+from
 taskgraph
 import
 files_changed
@@ -431,6 +435,13 @@ InvalidRepoPath
 vcs
 =
 None
+    
+except
+CalledProcessError
+:
+        
+return
+0
     
 if
 not
