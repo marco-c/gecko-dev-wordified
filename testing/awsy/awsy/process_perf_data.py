@@ -918,6 +918,20 @@ bytes
     
 }
     
+extra_opts
+=
+[
+]
+    
+#
+The
+stylo
+attributes
+override
+each
+other
+.
+    
 if
 '
 STYLO_FORCE_ENABLED
@@ -937,12 +951,7 @@ STYLO_FORCE_ENABLED
 ]
 :
         
-suite
-[
-'
-extraOptions
-'
-]
+extra_opts
 =
 [
 "
@@ -974,12 +983,7 @@ STYLO_THREADS
 '
 :
         
-suite
-[
-'
-extraOptions
-'
-]
+extra_opts
 =
 [
 "
@@ -988,6 +992,47 @@ stylo
 sequential
 "
 ]
+    
+if
+'
+DMD
+'
+in
+os
+.
+environ
+and
+os
+.
+environ
+[
+'
+DMD
+'
+]
+:
+        
+extra_opts
+.
+append
+(
+"
+dmd
+"
+)
+    
+if
+extra_opts
+:
+        
+suite
+[
+'
+extraOptions
+'
+]
+=
+extra_opts
     
 update_checkpoint_paths
 (
