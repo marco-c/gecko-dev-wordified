@@ -55200,10 +55200,6 @@ i
 if
 (
 !
-getobj
-|
-|
-!
 NativeDefineAccessorProperty
 (
 cx
