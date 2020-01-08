@@ -9599,14 +9599,14 @@ as
 .
 static
 const
-unsigned
+uint32_t
 sMinCapacity
 =
 4
 ;
 static
 const
-unsigned
+uint32_t
 sMaxInit
 =
 JS_BIT
@@ -9618,7 +9618,7 @@ CAP_BITS
 ;
 static
 const
-unsigned
+uint32_t
 sMaxCapacity
 =
 JS_BIT
@@ -9628,7 +9628,7 @@ CAP_BITS
 ;
 static
 const
-unsigned
+uint32_t
 sHashBits
 =
 mozilla
@@ -9743,7 +9743,7 @@ sCollisionBit
 void
 setTableSizeLog2
 (
-unsigned
+uint32_t
 sizeLog2
 )
 {
@@ -10427,7 +10427,7 @@ curKeyHash
 )
 const
 {
-unsigned
+uint32_t
 sizeLog2
 =
 sHashBits
@@ -10719,7 +10719,7 @@ Lookup
 l
 HashNumber
 keyHash
-unsigned
+uint32_t
 collisionBit
 )
 const
