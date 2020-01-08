@@ -1487,15 +1487,6 @@ mKeep
 ;
 }
 ;
-NS_IMETHOD
-GetResponseSynthesized
-(
-bool
-*
-aSynthesized
-)
-override
-;
 bool
 AwaitingCacheCallbacks
 (
