@@ -1610,6 +1610,7 @@ custom
 function
 (
 newText
+modifications
 )
 {
 this
@@ -1626,6 +1627,7 @@ this
 _setRuleText
 (
 newText
+modifications
 )
 ;
 }
@@ -1960,14 +1962,9 @@ type
 "
 set
 "
-name
-:
+index
 name
 value
-:
-value
-priority
-:
 priority
 }
 )
@@ -2067,8 +2064,7 @@ type
 "
 remove
 "
-name
-:
+index
 name
 }
 )
