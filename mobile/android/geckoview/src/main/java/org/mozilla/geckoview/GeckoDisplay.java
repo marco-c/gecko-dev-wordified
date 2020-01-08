@@ -202,11 +202,7 @@ final
 GeckoSession
 session
 ;
-/
-*
-package
-*
-/
+protected
 GeckoDisplay
 (
 final
