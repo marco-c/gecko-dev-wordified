@@ -638,12 +638,6 @@ using
 JS
 :
 :
-SourceBufferHolder
-;
-using
-JS
-:
-:
 TransitiveCompileOptions
 ;
 using

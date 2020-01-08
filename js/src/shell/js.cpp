@@ -687,6 +687,15 @@ include
 "
 js
 /
+SourceBufferHolder
+.
+h
+"
+#
+include
+"
+js
+/
 StableStringChars
 .
 h
@@ -26614,6 +26623,9 @@ get
 (
 )
 ;
+JS
+:
+:
 SourceBufferHolder
 srcBuf
 (
@@ -26624,6 +26636,9 @@ scriptContents
 length
 (
 )
+JS
+:
+:
 SourceBufferHolder
 :
 :

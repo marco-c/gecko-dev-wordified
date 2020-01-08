@@ -250,6 +250,15 @@ h
 #
 include
 "
+js
+/
+SourceBufferHolder
+.
+h
+"
+#
+include
+"
 nsError
 .
 h

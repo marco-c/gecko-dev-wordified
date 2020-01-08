@@ -293,6 +293,15 @@ h
 #
 include
 "
+js
+/
+SourceBufferHolder
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ClearOnShutdown

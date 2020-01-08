@@ -188,6 +188,15 @@ h
 #
 include
 "
+js
+/
+SourceBufferHolder
+.
+h
+"
+#
+include
+"
 nsIScriptContext
 .
 h

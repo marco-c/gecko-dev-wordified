@@ -211,6 +211,15 @@ h
 #
 include
 "
+js
+/
+SourceBufferHolder
+.
+h
+"
+#
+include
+"
 nsFocusManager
 .
 h

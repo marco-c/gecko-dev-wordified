@@ -66,6 +66,15 @@ h
 #
 include
 "
+js
+/
+SourceBufferHolder
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests

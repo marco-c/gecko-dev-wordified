@@ -193,6 +193,15 @@ h
 #
 include
 "
+js
+/
+SourceBufferHolder
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h
