@@ -832,8 +832,10 @@ const
 nsCString
 mTable
 ;
+nsCOMPtr
+<
 nsIUrlClassifierCacheInfo
-*
+>
 mCache
 ;
 const
@@ -896,8 +898,10 @@ aCallback
 NS_DECL_NSIRUNNABLE
 private
 :
+nsCOMPtr
+<
 nsIUrlClassifierCacheInfo
-*
+>
 mCache
 ;
 const
