@@ -214,6 +214,15 @@ include
 "
 js
 /
+ErrorReport
+.
+h
+"
+#
+include
+"
+js
+/
 HeapAPI
 .
 h
@@ -328,9 +337,6 @@ JSErrorFormatString
 ;
 struct
 JSJitInfo
-;
-class
-JSErrorReport
 ;
 namespace
 JS
