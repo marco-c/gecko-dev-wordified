@@ -152,10 +152,10 @@ License
 fluent
 -
 dom
-cab517f
+fa25466f
 (
-July
-31
+October
+12
 2018
 )
 *
@@ -1407,7 +1407,7 @@ by
 /
 Localization
 .
-messageFromContext
+messageFromBundle
 .
 In
 which
@@ -2870,7 +2870,7 @@ param
 {
 Function
 }
-generateMessages
+generateBundles
 -
 Function
 that
@@ -2879,7 +2879,7 @@ a
 *
 generator
 over
-MessageContexts
+FluentBundles
 *
 returns
 {
@@ -2890,13 +2890,13 @@ DOMLocalization
 constructor
 (
 resourceIds
-generateMessages
+generateBundles
 )
 {
 super
 (
 resourceIds
-generateMessages
+generateBundles
 )
 ;
 /

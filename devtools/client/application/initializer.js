@@ -527,12 +527,12 @@ updateWorkers
 )
 ;
 const
-messageContexts
+fluentBundles
 =
 await
 this
 .
-createMessageContexts
+createFluentBundles
 (
 )
 ;
@@ -555,7 +555,7 @@ client
 this
 .
 client
-messageContexts
+fluentBundles
 serviceContainer
 }
 )
@@ -598,13 +598,13 @@ an
 array
 of
 *
-MessageContext
+FluentBundles
 elements
 .
 *
 /
 async
-createMessageContexts
+createFluentBundles
 (
 )
 {
@@ -622,7 +622,7 @@ generator
 =
 L10nRegistry
 .
-generateContexts
+generateBundles
 (
 locales
 [
@@ -641,7 +641,7 @@ ftl
 Return
 value
 of
-generateContexts
+generateBundles
 is
 a
 generator

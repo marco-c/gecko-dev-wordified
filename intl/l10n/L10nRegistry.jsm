@@ -52,7 +52,7 @@ jsm
 ;
 const
 {
-MessageContext
+FluentBundle
 FluentResource
 }
 =
@@ -69,7 +69,7 @@ gre
 /
 modules
 /
-MessageContext
+Fluent
 .
 jsm
 "
@@ -162,7 +162,7 @@ building
 an
 iterator
 over
-MessageContext
+FluentBundle
 objects
 *
 that
@@ -292,7 +292,7 @@ request
 *
 L10nRegistry
 .
-generateContexts
+generateBundles
 (
 [
 '
@@ -532,7 +532,7 @@ API
 to
 consume
 the
-MessageContext
+FluentBundle
 and
 lazily
 fallback
@@ -650,14 +650,14 @@ returns
 {
 AsyncIterator
 <
-MessageContext
+FluentBundle
 >
 }
 *
 /
 async
 *
-generateContexts
+generateBundles
 (
 requestedLangs
 resourceIds
@@ -743,10 +743,10 @@ resourceIds
 )
 {
 const
-ctx
+bundle
 =
 new
-MessageContext
+FluentBundle
 (
 locale
 {
@@ -783,7 +783,7 @@ null
 return
 ;
 }
-ctx
+bundle
 .
 addResource
 (
@@ -792,7 +792,7 @@ data
 ;
 }
 yield
-ctx
+bundle
 ;
 }
 }
@@ -1140,7 +1140,7 @@ generates
 an
 iterator
 over
-MessageContexts
+FluentBundles
 for
 a
 single
@@ -1219,7 +1219,7 @@ returns
 {
 AsyncIterator
 <
-MessageContext
+FluentBundle
 >
 }
 *
@@ -2532,7 +2532,7 @@ u202c
 Generates
 a
 single
-MessageContext
+FluentBundle
 by
 loading
 all
@@ -2607,7 +2607,7 @@ returns
 {
 Promise
 <
-MessageContext
+FluentBundle
 >
 }
 *

@@ -1829,7 +1829,7 @@ lastFallbackLocale
 )
 ;
 function
-generateContexts
+generateBundles
 (
 resourceIds
 )
@@ -1837,7 +1837,7 @@ resourceIds
 return
 L10nRegistry
 .
-generateContexts
+generateBundles
 (
 locales
 resourceIds
@@ -1866,7 +1866,7 @@ brand
 ftl
 "
 ]
-generateContexts
+generateBundles
 )
 ;
 }

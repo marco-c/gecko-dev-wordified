@@ -320,7 +320,7 @@ PropTypes
 func
 .
 isRequired
-messageContexts
+fluentBundles
 :
 PropTypes
 .
@@ -461,7 +461,7 @@ const
 {
 adbAddonStatus
 dispatch
-messageContexts
+fluentBundles
 networkRuntimes
 selectedPage
 usbRuntimes
@@ -477,7 +477,7 @@ LocalizationProvider
 {
 messages
 :
-messageContexts
+fluentBundles
 }
 dom
 .

@@ -235,7 +235,7 @@ yield
 await
 L10nRegistry
 .
-generateContexts
+generateBundles
 (
 [
 "
