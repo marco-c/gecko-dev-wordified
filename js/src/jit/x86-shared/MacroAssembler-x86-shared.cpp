@@ -907,9 +907,11 @@ if
 !
 enoughMemory_
 )
+{
 return
 nullptr
 ;
+}
 enoughMemory_
 &
 =
@@ -927,9 +929,11 @@ if
 !
 enoughMemory_
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 &
@@ -1138,6 +1142,7 @@ if
 (
 canBeNaN
 )
+{
 j
 (
 Assembler
@@ -1148,6 +1153,7 @@ Parity
 nan
 )
 ;
+}
 /
 /
 Ordered
@@ -1192,6 +1198,7 @@ if
 (
 isMax
 )
+{
 vandpd
 (
 second
@@ -1199,7 +1206,9 @@ first
 first
 )
 ;
+}
 else
+{
 vorpd
 (
 second
@@ -1207,6 +1216,7 @@ first
 first
 )
 ;
+}
 jump
 (
 &
@@ -1333,6 +1343,7 @@ if
 (
 isMax
 )
+{
 vmaxsd
 (
 second
@@ -1340,7 +1351,9 @@ first
 first
 )
 ;
+}
 else
+{
 vminsd
 (
 second
@@ -1348,6 +1361,7 @@ first
 first
 )
 ;
+}
 bind
 (
 &
@@ -1471,6 +1485,7 @@ if
 (
 canBeNaN
 )
+{
 j
 (
 Assembler
@@ -1481,6 +1496,7 @@ Parity
 nan
 )
 ;
+}
 /
 /
 Ordered
@@ -1525,6 +1541,7 @@ if
 (
 isMax
 )
+{
 vandps
 (
 second
@@ -1532,7 +1549,9 @@ first
 first
 )
 ;
+}
 else
+{
 vorps
 (
 second
@@ -1540,6 +1559,7 @@ first
 first
 )
 ;
+}
 jump
 (
 &
@@ -1666,6 +1686,7 @@ if
 (
 isMax
 )
+{
 vmaxss
 (
 second
@@ -1673,7 +1694,9 @@ first
 first
 )
 ;
+}
 else
+{
 vminss
 (
 second
@@ -1681,6 +1704,7 @@ first
 first
 )
 ;
+}
 bind
 (
 &
@@ -1848,6 +1872,7 @@ src
 =
 dest
 )
+{
 masm_
 .
 propagateOOM
@@ -1871,6 +1896,7 @@ GENERAL
 )
 )
 ;
+}
 }
 ~
 ScopedMoveResolution
@@ -1896,8 +1922,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 resolver_
 .
 sortMemoryToMemoryMoves
@@ -2253,8 +2281,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 Sign
@@ -2341,8 +2371,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 PopRegsInMask
 (
 preserve
@@ -2824,12 +2856,14 @@ isDouble
 (
 )
 )
+{
 storeDouble
 (
 reg
 spillAddress
 )
 ;
+}
 else
 if
 (
@@ -2839,12 +2873,14 @@ isSingle
 (
 )
 )
+{
 storeFloat32
 (
 reg
 spillAddress
 )
 ;
+}
 else
 if
 (
@@ -2854,13 +2890,16 @@ isSimd128
 (
 )
 )
+{
 storeUnalignedSimd128Float
 (
 reg
 spillAddress
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -2871,6 +2910,7 @@ type
 "
 )
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -3109,12 +3149,14 @@ isDouble
 (
 )
 )
+{
 storeDouble
 (
 reg
 dest
 )
 ;
+}
 else
 if
 (
@@ -3124,12 +3166,14 @@ isSingle
 (
 )
 )
+{
 storeFloat32
 (
 reg
 dest
 )
 ;
+}
 else
 if
 (
@@ -3139,13 +3183,16 @@ isSimd128
 (
 )
 )
+{
 storeUnalignedSimd128Float
 (
 reg
 dest
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -3156,6 +3203,7 @@ type
 "
 )
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -3326,8 +3374,10 @@ has
 reg
 )
 )
+{
 continue
 ;
+}
 Address
 spillAddress
 (
@@ -3343,12 +3393,14 @@ isDouble
 (
 )
 )
+{
 loadDouble
 (
 spillAddress
 reg
 )
 ;
+}
 else
 if
 (
@@ -3358,12 +3410,14 @@ isSingle
 (
 )
 )
+{
 loadFloat32
 (
 spillAddress
 reg
 )
 ;
+}
 else
 if
 (
@@ -3373,13 +3427,16 @@ isSimd128
 (
 )
 )
+{
 loadUnalignedSimd128Float
 (
 spillAddress
 reg
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -3390,6 +3447,7 @@ type
 "
 )
 ;
+}
 }
 freeStack
 (
@@ -3575,6 +3633,7 @@ has
 iter
 )
 )
+{
 loadPtr
 (
 Address
@@ -3586,6 +3645,7 @@ diffG
 iter
 )
 ;
+}
 }
 freeStack
 (
@@ -5147,8 +5207,10 @@ if
 (
 isUnsigned
 )
+{
 return
 ;
+}
 /
 /
 Handle
@@ -5508,8 +5570,10 @@ if
 (
 isUnsigned
 )
+{
 return
 ;
+}
 /
 /
 Handle
@@ -6475,6 +6539,7 @@ isSignedIntType
 type
 )
 )
+{
 masm
 .
 movsbl
@@ -6483,7 +6548,9 @@ r
 r
 )
 ;
+}
 else
+{
 masm
 .
 movzbl
@@ -6492,6 +6559,7 @@ r
 r
 )
 ;
+}
 break
 ;
 case
@@ -6507,6 +6575,7 @@ isSignedIntType
 type
 )
 )
+{
 masm
 .
 movswl
@@ -6515,7 +6584,9 @@ r
 r
 )
 ;
+}
 else
+{
 masm
 .
 movzwl
@@ -6524,6 +6595,7 @@ r
 r
 )
 ;
+}
 break
 ;
 default
@@ -6630,6 +6702,7 @@ oldval
 =
 output
 )
+{
 masm
 .
 movl
@@ -6638,10 +6711,12 @@ oldval
 output
 )
 ;
+}
 if
 (
 access
 )
+{
 masm
 .
 append
@@ -6655,6 +6730,7 @@ size
 )
 )
 ;
+}
 switch
 (
 Scalar
@@ -6933,6 +7009,7 @@ value
 =
 output
 )
+{
 masm
 .
 movl
@@ -6941,10 +7018,12 @@ value
 output
 )
 ;
+}
 if
 (
 access
 )
+{
 masm
 .
 append
@@ -6958,6 +7037,7 @@ size
 )
 )
 ;
+}
 switch
 (
 Scalar
@@ -7214,6 +7294,7 @@ op
 =
 AtomicFetchSubOp
 )
+{
 masm
 .
 movl
@@ -7228,7 +7309,9 @@ value
 output
 )
 ;
+}
 else
+{
 masm
 .
 movl
@@ -7237,6 +7320,7 @@ src
 output
 )
 ;
+}
 }
 static
 void
@@ -7260,6 +7344,7 @@ src
 =
 output
 )
+{
 masm
 .
 movl
@@ -7268,6 +7353,7 @@ src
 output
 )
 ;
+}
 if
 (
 op
@@ -7275,6 +7361,7 @@ op
 =
 AtomicFetchSubOp
 )
+{
 masm
 .
 negl
@@ -7282,6 +7369,7 @@ negl
 output
 )
 ;
+}
 }
 template
 <
@@ -8205,6 +8293,7 @@ if
 (
 access
 )
+{
 masm
 .
 append
@@ -8218,6 +8307,7 @@ size
 )
 )
 ;
+}
 switch
 (
 Scalar

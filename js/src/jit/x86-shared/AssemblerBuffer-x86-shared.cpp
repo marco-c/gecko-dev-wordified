@@ -326,6 +326,7 @@ if
 !
 newBuffer
 )
+{
 return
 bytes
 .
@@ -343,6 +344,7 @@ end
 )
 )
 ;
+}
 bytes
 .
 replaceRawBuffer
@@ -441,6 +443,7 @@ if
 (
 printer
 )
+{
 printer
 -
 >
@@ -455,6 +458,7 @@ n
 buf
 )
 ;
+}
 js
 :
 :

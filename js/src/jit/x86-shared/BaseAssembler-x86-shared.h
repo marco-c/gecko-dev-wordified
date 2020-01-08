@@ -1083,6 +1083,7 @@ i
 +
 i
 )
+{
 m_formatter
 .
 oneByteOp
@@ -1090,6 +1091,7 @@ oneByteOp
 OP_NOP_00
 )
 ;
+}
 }
 void
 nop_eight
@@ -1132,6 +1134,7 @@ i
 +
 i
 )
+{
 m_formatter
 .
 oneByteOp
@@ -1139,6 +1142,7 @@ oneByteOp
 OP_NOP_00
 )
 ;
+}
 }
 void
 nop_nine
@@ -1934,6 +1938,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -1941,7 +1946,9 @@ oneByteOp
 OP_ADD_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -1951,6 +1958,7 @@ dst
 GROUP1_OP_ADD
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -2055,6 +2063,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -2062,7 +2071,9 @@ oneByteOp
 OP_ADD_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -2072,6 +2083,7 @@ dst
 GROUP1_OP_ADD
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -5943,6 +5955,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -5950,7 +5963,9 @@ oneByteOp
 OP_AND_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -5960,6 +5975,7 @@ dst
 GROUP1_OP_AND
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -6039,6 +6055,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -6046,7 +6063,9 @@ oneByteOp
 OP_AND_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -6056,6 +6075,7 @@ dst
 GROUP1_OP_AND
 )
 ;
+}
 m_formatter
 .
 immediate16
@@ -7233,6 +7253,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -7240,7 +7261,9 @@ oneByteOp
 OP_OR_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -7250,6 +7273,7 @@ dst
 GROUP1_OP_OR
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -7329,6 +7353,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -7336,7 +7361,9 @@ oneByteOp
 OP_OR_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -7346,6 +7373,7 @@ dst
 GROUP1_OP_OR
 )
 ;
+}
 m_formatter
 .
 immediate16
@@ -8110,6 +8138,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -8117,7 +8146,9 @@ oneByteOp
 OP_SUB_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -8127,6 +8158,7 @@ dst
 GROUP1_OP_SUB
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -8205,6 +8237,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -8212,7 +8245,9 @@ oneByteOp
 OP_SUB_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -8222,6 +8257,7 @@ dst
 GROUP1_OP_SUB
 )
 ;
+}
 m_formatter
 .
 immediate16
@@ -9284,6 +9320,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -9291,7 +9328,9 @@ oneByteOp
 OP_XOR_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -9301,6 +9340,7 @@ dst
 GROUP1_OP_XOR
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -9379,6 +9419,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -9386,7 +9427,9 @@ oneByteOp
 OP_XOR_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -9396,6 +9439,7 @@ dst
 GROUP1_OP_XOR
 )
 ;
+}
 m_formatter
 .
 immediate16
@@ -9444,6 +9488,7 @@ imm
 =
 1
 )
+{
 m_formatter
 .
 oneByteOp
@@ -9453,6 +9498,7 @@ dst
 GROUP2_OP_SAR
 )
 ;
+}
 else
 {
 m_formatter
@@ -9545,6 +9591,7 @@ imm
 =
 1
 )
+{
 m_formatter
 .
 oneByteOp
@@ -9554,6 +9601,7 @@ dst
 GROUP2_OP_SHR
 )
 ;
+}
 else
 {
 m_formatter
@@ -9728,6 +9776,7 @@ imm
 =
 1
 )
+{
 m_formatter
 .
 oneByteOp
@@ -9737,6 +9786,7 @@ dst
 GROUP2_OP_SHL
 )
 ;
+}
 else
 {
 m_formatter
@@ -9829,6 +9879,7 @@ imm
 =
 1
 )
+{
 m_formatter
 .
 oneByteOp
@@ -9838,6 +9889,7 @@ dst
 GROUP2_OP_ROL
 )
 ;
+}
 else
 {
 m_formatter
@@ -9930,6 +9982,7 @@ imm
 =
 1
 )
+{
 m_formatter
 .
 oneByteOp
@@ -9939,6 +9992,7 @@ dst
 GROUP2_OP_ROR
 )
 ;
+}
 else
 {
 m_formatter
@@ -11299,6 +11353,7 @@ lhs
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -11306,7 +11361,9 @@ oneByteOp
 OP_CMP_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -11316,6 +11373,7 @@ lhs
 GROUP1_OP_CMP
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -11358,6 +11416,7 @@ lhs
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -11365,7 +11424,9 @@ oneByteOp
 OP_CMP_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -11375,6 +11436,7 @@ lhs
 GROUP1_OP_CMP
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -12490,6 +12552,7 @@ lhs
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp
@@ -12497,7 +12560,9 @@ oneByteOp
 OP_TEST_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp
@@ -12507,6 +12572,7 @@ lhs
 GROUP3_OP_TEST
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -12835,6 +12901,7 @@ lhs
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp8
@@ -12842,7 +12909,9 @@ oneByteOp8
 OP_TEST_EAXIb
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp8
@@ -12852,6 +12921,7 @@ lhs
 GROUP3_OP_TEST
 )
 ;
+}
 m_formatter
 .
 immediate8
@@ -23324,6 +23394,7 @@ isAligned
 alignment
 )
 )
+{
 m_formatter
 .
 oneByteOp
@@ -23331,6 +23402,7 @@ oneByteOp
 OP_HLT
 )
 ;
+}
 }
 void
 nopAlign
@@ -23367,6 +23439,7 @@ remainder
 >
 0
 )
+{
 insert_nop
 (
 alignment
@@ -23374,6 +23447,7 @@ alignment
 remainder
 )
 ;
+}
 }
 void
 jumpTablePointer
@@ -23716,9 +23790,11 @@ oom
 (
 )
 )
+{
 return
 false
 ;
+}
 assertValidJmpSrc
 (
 from
@@ -23758,9 +23834,11 @@ offset
 -
 1
 )
+{
 return
 false
 ;
+}
 if
 (
 MOZ_UNLIKELY
@@ -23828,10 +23906,12 @@ startOffset
 =
 0xe5
 )
+{
 startOffset
 -
 -
 ;
+}
 int32_t
 endOffset
 =
@@ -23863,10 +23943,12 @@ endOffset
 =
 0xe5
 )
+{
 endOffset
 +
 +
 ;
+}
 volatile
 uintptr_t
 dump
@@ -24083,8 +24165,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 assertValidJmpSrc
 (
 from
@@ -24216,8 +24300,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 assertValidJmpSrc
 (
 from
@@ -24811,6 +24897,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -24836,7 +24923,9 @@ rm
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -24862,6 +24951,7 @@ dst
 )
 )
 ;
+}
 m_formatter
 .
 legacySSEPrefix
@@ -24899,6 +24989,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -24921,7 +25012,9 @@ rm
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -24944,6 +25037,7 @@ dst
 )
 )
 ;
+}
 }
 else
 {
@@ -25086,6 +25180,7 @@ src0
 =
 invalid_xmm
 )
+{
 spew
 (
 "
@@ -25112,7 +25207,9 @@ dst
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -25145,6 +25242,7 @@ dst
 )
 )
 ;
+}
 m_formatter
 .
 twoByteOpVex
@@ -25296,6 +25394,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -25318,7 +25417,9 @@ base
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -25343,6 +25444,7 @@ dst
 )
 )
 ;
+}
 }
 else
 {
@@ -25427,6 +25529,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -25452,7 +25555,9 @@ base
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -25480,6 +25585,7 @@ dst
 )
 )
 ;
+}
 m_formatter
 .
 legacySSEPrefix
@@ -25515,6 +25621,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -25537,7 +25644,9 @@ base
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -25562,6 +25671,7 @@ dst
 )
 )
 ;
+}
 }
 else
 {
@@ -26035,6 +26145,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -26057,7 +26168,9 @@ dst
 address
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -26080,6 +26193,7 @@ dst
 )
 )
 ;
+}
 m_formatter
 .
 legacySSEPrefix
@@ -26114,6 +26228,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -26133,7 +26248,9 @@ dst
 address
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -26153,6 +26270,7 @@ dst
 )
 )
 ;
+}
 }
 else
 {
@@ -26361,6 +26479,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -26386,7 +26505,9 @@ rm
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -26412,6 +26533,7 @@ dst
 )
 )
 ;
+}
 m_formatter
 .
 legacySSEPrefix
@@ -26446,6 +26568,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -26468,7 +26591,9 @@ rm
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -26491,6 +26616,7 @@ dst
 )
 )
 ;
+}
 }
 else
 {
@@ -26566,6 +26692,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -26591,6 +26718,7 @@ rm
 )
 )
 ;
+}
 else
 if
 (
@@ -26599,6 +26727,7 @@ opcode
 =
 OP2_MOVD_EdVd
 )
+{
 spew
 (
 "
@@ -26630,7 +26759,9 @@ rm
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -26656,6 +26787,7 @@ dst
 )
 )
 ;
+}
 m_formatter
 .
 legacySSEPrefix
@@ -26685,6 +26817,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -26707,6 +26840,7 @@ rm
 )
 )
 ;
+}
 else
 if
 (
@@ -26715,6 +26849,7 @@ opcode
 =
 OP2_MOVD_EdVd
 )
+{
 spew
 (
 "
@@ -26743,7 +26878,9 @@ rm
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -26766,6 +26903,7 @@ dst
 )
 )
 ;
+}
 m_formatter
 .
 twoByteOpVex
@@ -28299,6 +28437,7 @@ opcode
 =
 OP3_PEXTRD_EdVdqIb
 )
+{
 spew
 (
 "
@@ -28331,7 +28470,9 @@ src
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -28358,6 +28499,7 @@ dst
 )
 )
 ;
+}
 m_formatter
 .
 threeByteOpVex
@@ -33203,6 +33345,7 @@ i
 +
 i
 )
+{
 m_buffer
 .
 putByteUnchecked
@@ -33213,6 +33356,7 @@ i
 ]
 )
 ;
+}
 }
 void
 int64Constant
@@ -34046,6 +34190,7 @@ base
 hasSib2
 )
 )
+{
 #
 else
 if
@@ -34055,14 +34200,15 @@ base
 =
 hasSib
 )
+{
 #
 endif
-{
 if
 (
 !
 offset
 )
+{
 /
 /
 No
@@ -34090,6 +34236,7 @@ noIndex
 reg
 )
 ;
+}
 else
 if
 (
@@ -34162,6 +34309,7 @@ base
 noBase2
 )
 )
+{
 #
 else
 if
@@ -34177,6 +34325,7 @@ base
 noBase
 )
 )
+{
 #
 endif
 putModRm
@@ -34186,6 +34335,7 @@ base
 reg
 )
 ;
+}
 else
 if
 (
@@ -34290,6 +34440,7 @@ base
 hasSib2
 )
 )
+{
 #
 else
 if
@@ -34299,9 +34450,9 @@ base
 =
 hasSib
 )
+{
 #
 endif
-{
 putModRmSib
 (
 ModRmMemoryDisp32
@@ -34384,6 +34535,7 @@ base
 noBase2
 )
 )
+{
 #
 else
 if
@@ -34399,6 +34551,7 @@ base
 noBase
 )
 )
+{
 #
 endif
 putModRmSib
@@ -34410,6 +34563,7 @@ scale
 reg
 )
 ;
+}
 else
 if
 (
@@ -34767,6 +34921,7 @@ v
 =
 invalid_xmm
 )
+{
 v
 =
 XMMRegisterID
@@ -34774,6 +34929,7 @@ XMMRegisterID
 0
 )
 ;
+}
 if
 (
 x

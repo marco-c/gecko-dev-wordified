@@ -266,6 +266,7 @@ length
 (
 )
 )
+{
 memcpy
 (
 dest
@@ -281,6 +282,7 @@ length
 )
 )
 ;
+}
 }
 void
 AssemblerX86Shared
@@ -301,6 +303,7 @@ length
 (
 )
 )
+{
 memcpy
 (
 dest
@@ -316,6 +319,7 @@ length
 )
 )
 ;
+}
 }
 /
 *
@@ -607,6 +611,7 @@ cell
 =
 data
 )
+{
 X86Encoding
 :
 :
@@ -616,6 +621,7 @@ src
 cell
 )
 ;
+}
 }
 }
 void
@@ -711,8 +717,10 @@ i
 =
 0xE5
 )
+{
 continue
 ;
+}
 size_t
 startOffset
 =
@@ -735,10 +743,12 @@ startOffset
 =
 0xE5
 )
+{
 startOffset
 -
 -
 ;
+}
 size_t
 endOffset
 =
@@ -763,10 +773,12 @@ endOffset
 =
 0xE5
 )
+{
 endOffset
 +
 +
 ;
+}
 if
 (
 endOffset
@@ -775,8 +787,10 @@ startOffset
 <
 MinPoisoned
 )
+{
 continue
 ;
+}
 volatile
 uintptr_t
 dump
@@ -1241,8 +1255,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 unsigned
 char
 *
@@ -1880,6 +1896,7 @@ maxEnabledSSEVersion
 =
 UnknownSSE
 )
+{
 maxSSEVersion
 =
 Min
@@ -1888,6 +1905,7 @@ maxSSEVersion
 maxEnabledSSEVersion
 )
 ;
+}
 static
 const
 int

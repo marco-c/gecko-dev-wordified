@@ -323,11 +323,13 @@ isGeneralReg
 (
 )
 )
+{
 *
 allGeneralRegs
 =
 false
 ;
+}
 if
 (
 !
@@ -341,11 +343,13 @@ isFloatReg
 (
 )
 )
+{
 *
 allFloatRegs
 =
 false
 ;
+}
 if
 (
 !
@@ -357,10 +361,12 @@ allGeneralRegs
 *
 allFloatRegs
 )
+{
 return
 -
 1
 ;
+}
 /
 /
 Stop
@@ -386,8 +392,10 @@ isCycleEnd
 (
 )
 )
+{
 break
 ;
+}
 /
 /
 Check
@@ -651,6 +659,7 @@ k
 +
 +
 )
+{
 masm
 .
 xchg
@@ -691,6 +700,7 @@ reg
 )
 )
 ;
+}
 return
 true
 ;
@@ -856,6 +866,7 @@ isSome
 (
 )
 )
+{
 masm
 .
 mov
@@ -871,6 +882,7 @@ value
 )
 )
 ;
+}
 #
 endif
 for
@@ -935,6 +947,7 @@ isSome
 (
 )
 )
+{
 masm
 .
 mov
@@ -950,6 +963,7 @@ value
 )
 )
 ;
+}
 }
 #
 endif
@@ -1329,6 +1343,7 @@ base
 =
 StackPointer
 )
+{
 return
 Address
 (
@@ -1344,6 +1359,7 @@ disp
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 operand
@@ -1451,6 +1467,7 @@ isMemoryOrEffectiveAddress
 (
 )
 )
+{
 return
 Operand
 (
@@ -1460,6 +1477,7 @@ operand
 )
 )
 ;
+}
 if
 (
 operand
@@ -1468,6 +1486,7 @@ isGeneralReg
 (
 )
 )
+{
 return
 Operand
 (
@@ -1478,6 +1497,7 @@ reg
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 operand
@@ -1554,6 +1574,7 @@ base
 =
 StackPointer
 )
+{
 return
 Operand
 (
@@ -1569,6 +1590,7 @@ disp
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 operand
@@ -1658,6 +1680,7 @@ isGeneralReg
 (
 )
 )
+{
 return
 Operand
 (
@@ -1668,6 +1691,7 @@ reg
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 operand
@@ -2941,6 +2965,7 @@ isMemory
 (
 )
 )
+{
 masm
 .
 loadPtr
@@ -2956,7 +2981,9 @@ reg
 )
 )
 ;
+}
 else
+{
 masm
 .
 lea
@@ -2972,6 +2999,7 @@ reg
 )
 )
 ;
+}
 }
 else
 if
@@ -3315,6 +3343,7 @@ isFloatReg
 (
 )
 )
+{
 masm
 .
 moveFloat32
@@ -3331,7 +3360,9 @@ floatReg
 )
 )
 ;
+}
 else
+{
 masm
 .
 storeFloat32
@@ -3347,6 +3378,7 @@ to
 )
 )
 ;
+}
 }
 else
 if
@@ -3491,6 +3523,7 @@ isFloatReg
 (
 )
 )
+{
 masm
 .
 moveDouble
@@ -3507,7 +3540,9 @@ floatReg
 )
 )
 ;
+}
 else
+{
 masm
 .
 storeDouble
@@ -3523,6 +3558,7 @@ to
 )
 )
 ;
+}
 }
 else
 if
@@ -3667,6 +3703,7 @@ isFloatReg
 (
 )
 )
+{
 masm
 .
 moveSimd128Int
@@ -3683,7 +3720,9 @@ floatReg
 )
 )
 ;
+}
 else
+{
 masm
 .
 storeAlignedSimd128Int
@@ -3699,6 +3738,7 @@ to
 )
 )
 ;
+}
 }
 else
 if
@@ -3843,6 +3883,7 @@ isFloatReg
 (
 )
 )
+{
 masm
 .
 moveSimd128Float
@@ -3859,7 +3900,9 @@ floatReg
 )
 )
 ;
+}
 else
+{
 masm
 .
 storeAlignedSimd128Float
@@ -3875,6 +3918,7 @@ to
 )
 )
 ;
+}
 }
 else
 if
@@ -4019,9 +4063,11 @@ isSome
 (
 )
 )
+{
 return
 scratchRegister_
 ;
+}
 /
 /
 All
@@ -4121,6 +4167,7 @@ isGeneralReg
 (
 )
 )
+{
 regs
 .
 takeUnchecked
@@ -4136,6 +4183,7 @@ reg
 )
 )
 ;
+}
 else
 if
 (
@@ -4149,6 +4197,7 @@ isMemoryOrEffectiveAddress
 (
 )
 )
+{
 regs
 .
 takeUnchecked
@@ -4164,6 +4213,7 @@ base
 )
 )
 ;
+}
 if
 (
 move
@@ -4208,6 +4258,7 @@ reg
 )
 )
 )
+{
 return
 mozilla
 :
@@ -4225,6 +4276,7 @@ reg
 )
 )
 ;
+}
 regs
 .
 takeUnchecked
