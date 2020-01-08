@@ -2682,6 +2682,10 @@ height
 =
 0
 ;
+type
+=
+NPWindowTypeWindow
+;
 mPrevWinProc
 =
 nullptr
