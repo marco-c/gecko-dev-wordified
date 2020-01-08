@@ -56,8 +56,8 @@ markers
 .
 *
 /
+async
 function
-*
 spawnTest
 (
 )
@@ -67,7 +67,7 @@ let
 panel
 }
 =
-yield
+await
 initPerformance
 (
 WORKER_URL
@@ -86,7 +86,7 @@ loadFrameScripts
 (
 )
 ;
-yield
+await
 startRecording
 (
 panel
@@ -112,7 +112,7 @@ performWork
 "
 )
 ;
-yield
+await
 waitUntil
 (
 (
@@ -270,7 +270,7 @@ true
 }
 )
 ;
-yield
+await
 stopRecording
 (
 panel
@@ -318,7 +318,7 @@ parentNode
 )
 ;
 }
-yield
+await
 teardown
 (
 panel
@@ -570,13 +570,6 @@ Ci
 nsIUUIDGenerator
 )
 ;
-let
-deferred
-=
-defer
-(
-)
-;
 if
 (
 !
@@ -602,6 +595,14 @@ MessageManager
 )
 ;
 }
+return
+new
+Promise
+(
+resolve
+=
+>
+{
 let
 id
 =
@@ -688,8 +689,6 @@ response
 handler
 )
 ;
-deferred
-.
 resolve
 (
 data
@@ -698,10 +697,8 @@ value
 )
 ;
 }
-return
-deferred
-.
-promise
+}
+)
 ;
 }
 /

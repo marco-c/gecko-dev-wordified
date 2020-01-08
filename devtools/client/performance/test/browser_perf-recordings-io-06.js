@@ -490,12 +490,8 @@ data
 var
 test
 =
-Task
-.
 async
-(
 function
-*
 (
 )
 {
@@ -506,7 +502,7 @@ panel
 toolbox
 }
 =
-yield
+await
 initPerformance
 (
 SIMPLE_URL
@@ -587,7 +583,7 @@ parseInt
 )
 )
 ;
-yield
+await
 asyncCopy
 (
 profilerData
@@ -621,7 +617,7 @@ EVENTS
 RECORDING_IMPORTED
 )
 ;
-yield
+await
 PerformanceController
 .
 importRecording
@@ -631,7 +627,7 @@ importRecording
 file
 )
 ;
-yield
+await
 imported
 ;
 ok
@@ -651,7 +647,7 @@ imported
 "
 )
 ;
-yield
+await
 calltreeRendered
 ;
 ok
@@ -669,7 +665,7 @@ rendered
 "
 )
 ;
-yield
+await
 teardown
 (
 panel
@@ -680,7 +676,6 @@ finish
 )
 ;
 }
-)
 ;
 function
 getUnicodeConverter
@@ -737,13 +732,6 @@ file
 )
 {
 let
-deferred
-=
-defer
-(
-)
-;
-let
 string
 =
 JSON
@@ -775,6 +763,17 @@ openSafeFileOutputStream
 file
 )
 ;
+return
+new
+Promise
+(
+(
+resolve
+reject
+)
+=
+>
+{
 NetUtil
 .
 asyncCopy
@@ -796,8 +795,6 @@ status
 )
 )
 {
-deferred
-.
 reject
 (
 new
@@ -816,8 +813,6 @@ file
 )
 ;
 }
-deferred
-.
 resolve
 (
 )
@@ -825,10 +820,8 @@ resolve
 }
 )
 ;
-return
-deferred
-.
-promise
+}
+)
 ;
 }
 /
