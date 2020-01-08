@@ -298,6 +298,17 @@ dom
 section
 (
 {
+className
+:
+"
+js
+-
+debug
+-
+target
+-
+pane
+"
 }
 dom
 .
