@@ -143,6 +143,14 @@ cookieSvc
 .
 BEHAVIOR_LIMIT_FOREIGN
 ]
+[
+"
+reject_trackers
+"
+cookieSvc
+.
+BEHAVIOR_REJECT_TRACKER
+]
 ]
 )
 ;
