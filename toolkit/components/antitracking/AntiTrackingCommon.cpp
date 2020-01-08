@@ -6960,6 +6960,7 @@ NotifyContentBlockingState
 (
 aRejectedReason
 aChannel
+uri
 )
 ;
 ReportBlockingToConsole
@@ -7151,6 +7152,7 @@ NotifyContentBlockingState
 (
 aRejectedReason
 channel
+uri
 )
 ;
 ReportBlockingToConsole
