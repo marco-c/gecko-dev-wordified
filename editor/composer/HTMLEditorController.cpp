@@ -98,6 +98,15 @@ include
 "
 mozilla
 /
+HTMLEditorController
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h
@@ -119,13 +128,6 @@ h
 for
 nsStyleUpdatingCommand
 etc
-#
-include
-"
-nsComposerController
-.
-h
-"
 #
 include
 "
@@ -167,6 +169,9 @@ nsIControllerCommandTable
 class
 nsIControllerCommand
 ;
+namespace
+mozilla
+{
 #
 define
 NS_REGISTER_ONE_COMMAND
@@ -381,7 +386,7 @@ theCmd
 /
 static
 nsresult
-nsComposerController
+HTMLEditorController
 :
 :
 RegisterEditorDocStateCommands
@@ -492,7 +497,7 @@ NS_OK
 /
 static
 nsresult
-nsComposerController
+HTMLEditorController
 :
 :
 RegisterHTMLEditorCommands
@@ -961,3 +966,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla
