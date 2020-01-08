@@ -1034,6 +1034,9 @@ False
 hg_configure
 =
 False
+no_system_changes
+=
+False
 )
 :
         
@@ -1061,6 +1064,12 @@ hg_configure
 =
 hg_configure
         
+self
+.
+no_system_changes
+=
+no_system_changes
+        
 cls
 =
 None
@@ -1073,6 +1082,12 @@ no_interactive
 '
 :
 no_interactive
+                
+'
+no_system_changes
+'
+:
+no_system_changes
 }
         
 if
