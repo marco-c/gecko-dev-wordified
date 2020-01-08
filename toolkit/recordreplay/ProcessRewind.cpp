@@ -582,6 +582,7 @@ CurrentTime
 (
 )
 ;
+{
 /
 /
 Rewind
@@ -597,6 +598,9 @@ have
 been
 saved
 .
+AutoDisallowMemoryChanges
+disallow
+;
 CheckpointId
 newCheckpoint
 =
@@ -672,6 +676,7 @@ newCheckpoint
 aCheckpoint
 )
 ;
+}
 FixupFreeRegionsAfterRewind
 (
 )
@@ -728,13 +733,13 @@ mTemporary
 (
 int
 )
-newCheckpoint
+aCheckpoint
 .
 mNormal
 (
 int
 )
-newCheckpoint
+aCheckpoint
 .
 mTemporary
 (
