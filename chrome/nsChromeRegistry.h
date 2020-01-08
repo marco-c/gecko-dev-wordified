@@ -271,12 +271,6 @@ nsIXULChromeRegistry
 methods
 :
 NS_IMETHOD
-ReloadChrome
-(
-)
-override
-;
-NS_IMETHOD
 RefreshSkins
 (
 )
