@@ -551,7 +551,7 @@ URL
 is
 about
 :
-newtab
+home
 and
 extensions
 cannot
@@ -1213,7 +1213,7 @@ url
 "
 about
 :
-newtab
+home
 "
 ;
 await
