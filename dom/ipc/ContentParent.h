@@ -6613,11 +6613,11 @@ RecvFirstPartyStorageAccessGrantedForOrigin
 const
 Principal
 &
-aPrincipal
+aParentPrincipal
 const
 nsCString
 &
-aParentOrigin
+aTrackingOrigin
 const
 nsCString
 &
