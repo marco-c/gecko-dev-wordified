@@ -429,6 +429,12 @@ target
 )
 const
 ;
+bool
+IsEmptyInternal
+(
+)
+const
+;
 uint32_t
 CalculatePreallocateSize
 (
