@@ -512,6 +512,15 @@ aResult
 override
 ;
 NS_IMETHOD
+GetIsAddonOrExpandedAddonPrincipal
+(
+bool
+*
+aResult
+)
+override
+;
+NS_IMETHOD
 GetOriginAttributes
 (
 JSContext
