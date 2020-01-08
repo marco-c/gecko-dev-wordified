@@ -1775,6 +1775,10 @@ SelectorParseErrorKind
 UnexpectedIdent
 (
 name
+.
+clone
+(
+)
 )
 )
 )
