@@ -167,6 +167,17 @@ sys
 executable
 )
 )
+    
+(
+'
+MOZ_UI_LOCALE
+'
+'
+en
+-
+US
+'
+)
 ]
 class
 TestBuild
