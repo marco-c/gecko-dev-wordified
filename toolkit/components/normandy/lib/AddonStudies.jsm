@@ -1663,6 +1663,7 @@ onUnenroll
 study
 .
 addonId
+reason
 )
 ;
 }
@@ -1824,6 +1825,7 @@ tasks
 onUnenroll
 (
 id
+reason
 )
 {
 let
@@ -1863,6 +1865,7 @@ push
 (
 callback
 (
+reason
 )
 )
 ;
