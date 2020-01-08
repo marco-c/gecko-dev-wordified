@@ -168,13 +168,6 @@ forTab
 tab
 )
 ;
-await
-target
-.
-attach
-(
-)
-;
 const
 toolIDs
 =

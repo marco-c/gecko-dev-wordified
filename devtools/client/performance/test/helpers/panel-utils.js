@@ -234,13 +234,6 @@ forTab
 tab
 )
 ;
-await
-target
-.
-attach
-(
-)
-;
 /
 /
 Open
