@@ -1617,6 +1617,13 @@ bookmarkProperties
 /
 description
 "
+LAST_USED_FOLDERS_META_KEY
+:
+"
+bookmarks
+/
+lastusedfolders
+"
 /
 *
 *
