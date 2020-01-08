@@ -8720,11 +8720,6 @@ kValidXULTagNames
 nsGkAtoms
 :
 :
-autorepeatbutton
-&
-nsGkAtoms
-:
-:
 box
 &
 nsGkAtoms

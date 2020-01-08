@@ -1341,13 +1341,6 @@ autoplay
 )
 GK_ATOM
 (
-autorepeatbutton
-"
-autorepeatbutton
-"
-)
-GK_ATOM
-(
 axis
 "
 axis

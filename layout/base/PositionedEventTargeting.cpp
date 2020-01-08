@@ -1811,10 +1811,6 @@ radio
 nsGkAtoms
 :
 :
-autorepeatbutton
-nsGkAtoms
-:
-:
 menu
 nsGkAtoms
 :
