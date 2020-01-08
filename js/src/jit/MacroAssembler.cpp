@@ -6675,12 +6675,7 @@ movePtr
 (
 ImmPtr
 (
-zone
--
->
-addressOfNurseryPosition
-(
-)
+nurseryPosAddr
 )
 temp
 )
