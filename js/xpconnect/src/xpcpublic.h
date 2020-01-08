@@ -635,6 +635,17 @@ JSObject
 obj
 )
 ;
+void
+SetCompartmentChangedDocumentDomain
+(
+JS
+:
+:
+Compartment
+*
+compartment
+)
+;
 /
 /
 Return
