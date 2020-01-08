@@ -5,28 +5,6 @@ config
 {
     
 '
-default_actions
-'
-:
-[
-        
-'
-clobber
-'
-        
-'
-build
-'
-        
-'
-check
--
-test
-'
-    
-]
-    
-'
 stage_platform
 '
 :
@@ -199,18 +177,6 @@ sbin
 '
     
 }
-    
-'
-mozconfig_variant
-'
-:
-'
-code
--
-coverage
--
-debug
-'
     
 #
 #

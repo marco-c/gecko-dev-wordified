@@ -5,18 +5,6 @@ config
 {
     
 '
-default_actions
-'
-:
-[
-        
-'
-build
-'
-    
-]
-    
-'
 stage_platform
 '
 :
@@ -217,14 +205,6 @@ bin
 #
     
 }
-    
-'
-mozconfig_variant
-'
-:
-'
-debug
-'
     
 '
 artifact_flag_build_variant_in_try

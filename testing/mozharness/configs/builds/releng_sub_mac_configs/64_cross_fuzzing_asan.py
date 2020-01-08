@@ -5,18 +5,6 @@ config
 {
     
 '
-default_actions
-'
-:
-[
-        
-'
-build
-'
-    
-]
-    
-'
 stage_platform
 '
 :
@@ -213,18 +201,6 @@ sbin
 '
     
 }
-    
-'
-mozconfig_variant
-'
-:
-'
-nightly
--
-fuzzing
--
-asan
-'
     
 '
 artifact_flag_build_variant_in_try
