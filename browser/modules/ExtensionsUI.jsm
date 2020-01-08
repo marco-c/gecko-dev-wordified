@@ -2463,14 +2463,6 @@ topic
 "
 removed
 "
-|
-|
-topic
-=
-=
-"
-dismissed
-"
 )
 {
 Services
@@ -2519,6 +2511,9 @@ name
 strings
 .
 addonName
+removeOnDismissal
+:
+true
 }
 ;
 let
