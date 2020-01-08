@@ -391,7 +391,7 @@ do_QueryInterface
 aTouch
 -
 >
-mTarget
+mOriginalTarget
 )
 )
 ;
@@ -407,7 +407,7 @@ doc
 node
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
@@ -974,7 +974,7 @@ GetParent
 touch
 -
 >
-SetTarget
+SetTouchTarget
 (
 targetContent
 )
@@ -1053,12 +1053,12 @@ oldTouch
 touch
 -
 >
-SetTarget
+SetTouchTarget
 (
 oldTouch
 -
 >
-mTarget
+mOriginalTarget
 )
 ;
 }
@@ -1253,7 +1253,7 @@ MOZ_ASSERT
 touch
 -
 >
-mTarget
+mOriginalTarget
 )
 ;
 nsCOMPtr
@@ -1517,7 +1517,7 @@ GetParent
 touch
 -
 >
-SetTarget
+SetTouchTarget
 (
 targetContent
 )
@@ -1799,7 +1799,7 @@ GetNonAnonymousAncestor
 touch
 -
 >
-mTarget
+mOriginalTarget
 )
 true
 }
@@ -2029,7 +2029,7 @@ targetPtr
 oldTouch
 -
 >
-mTarget
+mOriginalTarget
 ;
 if
 (
@@ -2083,7 +2083,7 @@ mNonAnonymousTarget
 touch
 -
 >
-SetTarget
+SetTouchTarget
 (
 targetPtr
 )
@@ -2493,7 +2493,7 @@ info
 mTouch
 -
 >
-mTarget
+mOriginalTarget
 ;
 nsCOMPtr
 <
@@ -2541,7 +2541,7 @@ targetPtr
 touch
 -
 >
-SetTarget
+SetTouchTarget
 (
 targetPtr
 )
