@@ -45911,18 +45911,10 @@ are
 no
 nullable
 dictionary
--
-typed
 arguments
 or
 dictionary
--
-typed
-        
-#
-dictionary
 members
-.
         
 assert
 (
@@ -45951,37 +45943,28 @@ Dictionary
 #
 All
 optional
-dictionary
--
-typed
-arguments
+dictionaries
 always
 have
 default
 values
+so
+we
         
 #
-but
-dictionary
--
-typed
-dictionary
-members
-can
+should
 be
-optional
+able
+to
+assume
+not
+isOptional
+here
 .
         
 assert
 not
 isOptional
-or
-isMember
-=
-=
-"
-Dictionary
-"
         
 #
 In
@@ -46601,10 +46584,6 @@ declType
 declArgs
 =
 declArgs
-                                        
-dealWithOptional
-=
-isOptional
 )
     
 if
