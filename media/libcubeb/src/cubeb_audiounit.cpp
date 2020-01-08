@@ -4742,6 +4742,11 @@ default
 input
 device
 .
+audiounit_close_stream
+(
+stm
+)
+;
 if
 (
 audiounit_set_device_info
