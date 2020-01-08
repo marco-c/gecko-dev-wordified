@@ -240,7 +240,6 @@ mozilla
 :
 dom
 ;
-static
 mozilla
 :
 :
