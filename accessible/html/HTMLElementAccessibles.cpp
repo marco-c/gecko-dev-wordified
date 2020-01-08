@@ -2324,7 +2324,7 @@ SECTION
 roles
 :
 :
-LANDMARK
+REGION
 ;
 }
 nsAtom
