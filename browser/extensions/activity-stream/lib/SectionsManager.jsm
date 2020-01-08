@@ -429,6 +429,9 @@ relevant
 -
 content
 "
+compactCards
+:
+false
 maxRows
 :
 1
@@ -626,9 +629,12 @@ id
 header_highlights
 "
 }
+compactCards
+:
+true
 maxRows
 :
-3
+2
 emptyState
 :
 {
