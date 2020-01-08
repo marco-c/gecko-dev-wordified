@@ -478,6 +478,12 @@ init
 this
 )
 ;
+AddonTestUtils
+.
+overrideCertDB
+(
+)
+;
 async
 function
 loadExtension
