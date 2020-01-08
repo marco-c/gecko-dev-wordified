@@ -337,7 +337,6 @@ WorkerList
 {
 workers
 client
-serviceContainer
 }
 )
 )
