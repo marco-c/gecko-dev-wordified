@@ -508,7 +508,7 @@ getString
 "
 editBookmarkPanel
 .
-pageBookmarkedTitle
+newBookmarkTitle
 "
 )
 :
