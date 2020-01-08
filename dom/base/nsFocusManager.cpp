@@ -10309,14 +10309,14 @@ GetWindow
 )
 {
 const
-nsStyleUserInterface
+nsStyleUI
 *
 ui
 =
 frame
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 ;

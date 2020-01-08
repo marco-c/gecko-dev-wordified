@@ -2074,7 +2074,7 @@ background
 bool
 pointerEventsNone
 =
-StyleUserInterface
+StyleUI
 (
 )
 -

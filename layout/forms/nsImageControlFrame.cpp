@@ -948,7 +948,7 @@ cursor
 .
 FillCursorInformationFromStyle
 (
-StyleUserInterface
+StyleUI
 (
 )
 aCursor

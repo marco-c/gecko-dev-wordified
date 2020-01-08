@@ -9401,7 +9401,7 @@ if
 style
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 -
@@ -20234,14 +20234,14 @@ aState
 DFCS_PUSHED
 ;
 const
-nsStyleUserInterface
+nsStyleUI
 *
 uiData
 =
 aFrame
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 ;
@@ -26975,7 +26975,7 @@ MOZ_ASSERT
 aStyle
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 -
@@ -26991,7 +26991,7 @@ IsAuto
 aStyle
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 -

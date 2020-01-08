@@ -1655,7 +1655,7 @@ AltContent
 /
 /
 See
-nsStyleUserInterface
+nsStyleUI
 #
 define
 NS_STYLE_CURSOR_AUTO

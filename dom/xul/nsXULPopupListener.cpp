@@ -1420,14 +1420,14 @@ return
 NS_ERROR_FAILURE
 ;
 const
-nsStyleUserInterface
+nsStyleUI
 *
 ui
 =
 targetFrame
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 ;

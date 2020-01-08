@@ -3218,6 +3218,11 @@ nsLayoutUtils
 RoundGfxRectToAppRect
 (
 extent
+PresContext
+(
+)
+-
+>
 AppUnitsPerCSSPixel
 (
 )
@@ -3581,7 +3586,7 @@ flags
 ;
 switch
 (
-StyleUserInterface
+StyleUI
 (
 )
 -

@@ -5042,6 +5042,14 @@ nsLayoutUtils
 RoundGfxRectToAppRect
 (
 dirtyBounds
+aFrame
+-
+>
+PresContext
+(
+)
+-
+>
 AppUnitsPerCSSPixel
 (
 )
@@ -5854,6 +5862,9 @@ Scale
 .
 0
 /
+nsPresContext
+:
+:
 AppUnitsPerCSSPixel
 (
 )
@@ -7581,6 +7592,9 @@ aFrame
 GetRect
 (
 )
+nsPresContext
+:
+:
 AppUnitsPerCSSPixel
 (
 )
@@ -10533,7 +10547,7 @@ switch
 aFrame
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 -

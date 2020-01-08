@@ -5162,7 +5162,7 @@ complexColor
 aStyle
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 -
@@ -5245,7 +5245,7 @@ complexColor
 aStyle
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 -
