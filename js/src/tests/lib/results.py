@@ -82,6 +82,9 @@ err
 rc
 dt
 timed_out
+extra
+=
+None
 )
 :
         
@@ -161,6 +164,19 @@ the
 test
 time
 out
+        
+self
+.
+extra
+=
+extra
+#
+includes
+the
+pid
+on
+some
+platforms
     
 def
 describe_failure
@@ -1739,6 +1755,16 @@ time
 output
 .
 dt
+extra
+=
+getattr
+(
+output
+'
+extra
+'
+None
+)
 )
                 
 return
@@ -2545,6 +2571,9 @@ False
 time
 =
 None
+extra
+=
+None
 )
 :
         
@@ -2698,6 +2727,14 @@ details
 extra
 '
 :
+extra
+.
+copy
+(
+)
+if
+extra
+else
 {
 }
 }

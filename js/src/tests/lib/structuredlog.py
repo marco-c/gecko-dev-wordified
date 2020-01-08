@@ -296,6 +296,18 @@ test_start
 test
 =
 testname
+*
+*
+details
+.
+get
+(
+'
+extra
+'
+{
+}
+)
 )
         
 end_time
