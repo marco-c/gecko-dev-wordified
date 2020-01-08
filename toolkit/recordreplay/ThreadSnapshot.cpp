@@ -501,7 +501,7 @@ sizeof
 (
 ThreadState
 )
-UntrackedMemoryKind
+MemoryKind
 :
 :
 ThreadSnapshot
@@ -560,7 +560,7 @@ aInfo
 -
 >
 mStackBytes
-UntrackedMemoryKind
+MemoryKind
 :
 :
 ThreadSnapshot
@@ -1579,7 +1579,7 @@ uint8_t
 AllocateMemory
 (
 stackBytes
-UntrackedMemoryKind
+MemoryKind
 :
 :
 ThreadSnapshot
@@ -1698,7 +1698,7 @@ AllocateMemory
 info
 .
 mStackBytes
-UntrackedMemoryKind
+MemoryKind
 :
 :
 ThreadSnapshot
