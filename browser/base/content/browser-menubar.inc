@@ -1571,6 +1571,15 @@ observes
 "
 viewBookmarksSidebar
 "
+label
+=
+"
+&
+bookmarksButton
+.
+label
+;
+"
 /
 >
 <
