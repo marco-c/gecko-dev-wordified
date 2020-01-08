@@ -916,6 +916,14 @@ headless
 "
 :
 False
+            
+"
+sw
+-
+e10s
+"
+:
+False
 }
 def
 env_options
