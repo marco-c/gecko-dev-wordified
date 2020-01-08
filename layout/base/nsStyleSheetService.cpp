@@ -1755,15 +1755,9 @@ global
 xpc
 :
 :
-NativeGlobal
-(
-JS
-:
-:
-CurrentGlobalOrNull
+CurrentNativeGlobal
 (
 aCx
-)
 )
 ;
 NS_ENSURE_TRUE

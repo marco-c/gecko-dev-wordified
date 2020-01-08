@@ -4631,15 +4631,9 @@ parent
 xpc
 :
 :
-NativeGlobal
-(
-JS
-:
-:
-CurrentGlobalOrNull
+CurrentNativeGlobal
 (
 aCx
-)
 )
 ;
 }
