@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+/
+*
+eslint
+semi
+:
+error
+*
+/
 "
 use
 strict
