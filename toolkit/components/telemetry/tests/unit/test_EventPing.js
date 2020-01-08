@@ -169,7 +169,7 @@ gre
 /
 modules
 /
-TelemetryEventPing
+EventPing
 .
 jsm
 "
@@ -343,7 +343,7 @@ gre
 /
 modules
 /
-TelemetryEventPing
+EventPing
 .
 jsm
 "
