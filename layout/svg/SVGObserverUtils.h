@@ -372,7 +372,7 @@ respectively
 *
 /
 class
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 public
 nsStubMutationObserver
@@ -381,11 +381,12 @@ protected
 :
 virtual
 ~
-nsSVGRenderingObserver
+SVGRenderingObserver
 (
 )
-{
-}
+=
+default
+;
 public
 :
 typedef
@@ -398,7 +399,7 @@ dom
 Element
 Element
 ;
-nsSVGRenderingObserver
+SVGRenderingObserver
 (
 )
 :
@@ -508,7 +509,7 @@ OnNonDOMMutationRenderingChange
 /
 When
 a
-nsSVGRenderingObserver
+SVGRenderingObserver
 list
 gets
 forcibly
@@ -874,7 +875,7 @@ class
 nsSVGIDRenderingObserver
 :
 public
-nsSVGRenderingObserver
+SVGRenderingObserver
 {
 public
 :
@@ -2159,7 +2160,7 @@ for
 one
 -
 shot
-nsSVGRenderingObserver
+SVGRenderingObserver
 tracking
 .
 *
@@ -2345,7 +2346,7 @@ nsSVGRenderingObserverList
 void
 Add
 (
-nsSVGRenderingObserver
+SVGRenderingObserver
 *
 aObserver
 )
@@ -2361,7 +2362,7 @@ aObserver
 void
 Remove
 (
-nsSVGRenderingObserver
+SVGRenderingObserver
 *
 aObserver
 )
@@ -2380,7 +2381,7 @@ DEBUG
 bool
 Contains
 (
-nsSVGRenderingObserver
+SVGRenderingObserver
 *
 aObserver
 )
@@ -2513,7 +2514,7 @@ nsTHashtable
 <
 nsPtrHashKey
 <
-nsSVGRenderingObserver
+SVGRenderingObserver
 >
 >
 mObservers
@@ -3243,7 +3244,7 @@ AddRenderingObserver
 Element
 *
 aElement
-nsSVGRenderingObserver
+SVGRenderingObserver
 *
 aObserver
 )
@@ -3270,7 +3271,7 @@ RemoveRenderingObserver
 Element
 *
 aElement
-nsSVGRenderingObserver
+SVGRenderingObserver
 *
 aObserver
 )

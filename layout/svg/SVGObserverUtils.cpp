@@ -236,7 +236,7 @@ namespace
 mozilla
 {
 void
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 :
 StartObserving
@@ -267,7 +267,7 @@ this
 }
 }
 void
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 :
 StopObserving
@@ -362,7 +362,7 @@ renderingobserverlist
 }
 Element
 *
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 :
 GetReferencedElement
@@ -485,7 +485,7 @@ target
 }
 nsIFrame
 *
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 :
 GetReferencedFrame
@@ -515,7 +515,7 @@ nullptr
 }
 nsIFrame
 *
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 :
 GetReferencedFrame
@@ -572,7 +572,7 @@ nullptr
 ;
 }
 void
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 :
 OnNonDOMMutationRenderingChange
@@ -589,7 +589,7 @@ OnRenderingChange
 ;
 }
 void
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 :
 NotifyEvictedFromRenderingObserverList
@@ -631,7 +631,7 @@ list
 .
 }
 void
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 :
 AttributeChanged
@@ -801,7 +801,7 @@ OnRenderingChange
 ;
 }
 void
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 :
 ContentAppended
@@ -817,7 +817,7 @@ OnRenderingChange
 ;
 }
 void
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 :
 ContentInserted
@@ -833,7 +833,7 @@ OnRenderingChange
 ;
 }
 void
-nsSVGRenderingObserver
+SVGRenderingObserver
 :
 :
 ContentRemoved
@@ -4412,7 +4412,7 @@ return
 ;
 AutoTArray
 <
-nsSVGRenderingObserver
+SVGRenderingObserver
 *
 10
 >
@@ -4521,7 +4521,7 @@ return
 ;
 AutoTArray
 <
-nsSVGRenderingObserver
+SVGRenderingObserver
 *
 10
 >
@@ -4552,7 +4552,7 @@ Next
 )
 )
 {
-nsSVGRenderingObserver
+SVGRenderingObserver
 *
 obs
 =
@@ -4634,7 +4634,7 @@ RemoveAll
 {
 AutoTArray
 <
-nsSVGRenderingObserver
+SVGRenderingObserver
 *
 10
 >
@@ -4763,7 +4763,7 @@ AddRenderingObserver
 Element
 *
 aElement
-nsSVGRenderingObserver
+SVGRenderingObserver
 *
 aObserver
 )
@@ -4843,7 +4843,7 @@ RemoveRenderingObserver
 Element
 *
 aElement
-nsSVGRenderingObserver
+SVGRenderingObserver
 *
 aObserver
 )
