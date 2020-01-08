@@ -145,6 +145,19 @@ FAST_ENTRY_STACK
 '
 ]
 ;
+const
+INLINED_CALL_STACK
+=
+[
+'
+'
+'
+0
+'
+'
+'
+]
+;
 function
 main
 (
@@ -247,6 +260,7 @@ assertEqPreciseStacks
 (
 stack
 [
+INLINED_CALL_STACK
 FAST_ENTRY_STACK
 SLOW_ENTRY_STACK
 ]
