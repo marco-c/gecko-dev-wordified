@@ -28235,6 +28235,13 @@ expect
 them
 to
 .
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 RendererStats
