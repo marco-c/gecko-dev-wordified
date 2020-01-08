@@ -6753,7 +6753,9 @@ codePoint
 )
 )
 {
-skipChars
+sourceUnits
+.
+skipCodeUnits
 (
 length
 )
@@ -6813,7 +6815,9 @@ codePoint
 )
 )
 {
-skipChars
+sourceUnits
+.
+skipCodeUnits
 (
 length
 )
@@ -7290,7 +7294,9 @@ return
 false
 ;
 }
-skipChars
+sourceUnits
+.
+skipCodeUnits
 (
 directiveLength
 )
@@ -15664,7 +15670,9 @@ cp
 ]
 )
 ;
-skipChars
+sourceUnits
+.
+skipCodeUnits
 (
 3
 )
@@ -15823,7 +15831,9 @@ cp
 ]
 )
 ;
-skipChars
+sourceUnits
+.
+skipCodeUnits
 (
 2
 )
