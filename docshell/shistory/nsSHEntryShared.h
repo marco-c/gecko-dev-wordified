@@ -360,7 +360,7 @@ RemoveFromExpirationTracker
 (
 )
 ;
-nsresult
+void
 SyncPresentationState
 (
 )

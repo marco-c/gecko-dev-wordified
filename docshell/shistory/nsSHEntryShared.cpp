@@ -627,7 +627,7 @@ this
 ;
 }
 }
-nsresult
+void
 nsSHEntryShared
 :
 :
@@ -661,15 +661,11 @@ be
 ok
 .
 return
-NS_OK
 ;
 }
 DropPresentationState
 (
 )
-;
-return
-NS_OK
 ;
 }
 void

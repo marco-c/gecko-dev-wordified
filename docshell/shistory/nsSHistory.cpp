@@ -6988,15 +6988,11 @@ child
 bool
 dynAdded
 =
-false
-;
 child
 -
 >
 IsDynamicallyAdded
 (
-&
-dynAdded
 )
 ;
 if
