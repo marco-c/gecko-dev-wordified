@@ -4623,6 +4623,14 @@ MS
 PowerPoint
 "
 .
+slk
+"
+/
+/
+MS
+Excel
+"
+.
 slp
 "
 /
