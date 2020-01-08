@@ -203,6 +203,7 @@ symbolIteratorSpec
 initialize
 (
 objectActor
+conn
 )
 {
 protocol
@@ -216,6 +217,7 @@ initialize
 call
 (
 this
+conn
 )
 ;
 let
