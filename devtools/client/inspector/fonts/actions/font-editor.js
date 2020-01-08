@@ -161,6 +161,10 @@ properties
 =
 {
 }
+id
+=
+"
+"
 )
 {
 return
@@ -171,6 +175,7 @@ UPDATE_EDITOR_STATE
 fonts
 families
 properties
+id
 }
 ;
 }

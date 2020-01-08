@@ -7075,6 +7075,9 @@ updateFontEditor
 fontsUsed
 families
 properties
+node
+.
+actorID
 )
 )
 ;

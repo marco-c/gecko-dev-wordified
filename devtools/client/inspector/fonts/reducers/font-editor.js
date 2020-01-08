@@ -263,6 +263,19 @@ properties
 }
 /
 /
+Unique
+identifier
+for
+the
+selected
+element
+.
+id
+:
+"
+"
+/
+/
 Warning
 message
 with
@@ -544,6 +557,7 @@ state
 fonts
 families
 properties
+id
 }
 )
 {
@@ -806,6 +820,7 @@ axes
 fonts
 families
 properties
+id
 }
 ;
 }
