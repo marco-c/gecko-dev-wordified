@@ -1464,7 +1464,13 @@ nsIRequest
 *
 aRequest
 uint32_t
-state
+aOldState
+uint32_t
+aState
+const
+nsAString
+&
+aContentBlockingLogJSON
 )
 {
 MOZ_ASSERT_UNREACHABLE
