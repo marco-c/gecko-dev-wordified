@@ -140,12 +140,13 @@ promise
 }
 )
 ;
-tab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab
+.
+linkedBrowser
 uri
 )
 ;
