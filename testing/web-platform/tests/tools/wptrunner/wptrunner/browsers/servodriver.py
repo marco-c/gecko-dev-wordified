@@ -218,6 +218,17 @@ debug_info
 ]
         
 "
+server_config
+"
+:
+kwargs
+[
+"
+config
+"
+]
+        
+"
 user_stylesheets
 "
 :
@@ -422,6 +433,9 @@ webdriver_host
 1
 "
                  
+server_config
+=
+None
 user_stylesheets
 =
 None
@@ -472,6 +486,7 @@ hosts_path
 =
 write_hosts_file
 (
+server_config
 )
         
 self
@@ -919,20 +934,13 @@ stop
 (
 )
         
-shutil
-.
-rmtree
-(
 os
 .
-path
-.
-dirname
+remove
 (
 self
 .
-hosts_file
-)
+hosts_path
 )
     
 def
