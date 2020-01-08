@@ -119,7 +119,9 @@ include
 "
 mozilla
 /
-ServoCounterStyleRule
+dom
+/
+CSSCounterStyleRule
 .
 h
 "
@@ -160,8 +162,11 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
 bool
-ServoCounterStyleRule
+CSSCounterStyleRule
 :
 :
 IsCCLeaf
@@ -182,7 +187,7 @@ IsCCLeaf
 ifdef
 DEBUG
 void
-ServoCounterStyleRule
+CSSCounterStyleRule
 :
 :
 List
@@ -250,7 +255,7 @@ get
 #
 endif
 uint16_t
-ServoCounterStyleRule
+CSSCounterStyleRule
 :
 :
 Type
@@ -266,7 +271,7 @@ COUNTER_STYLE_RULE
 ;
 }
 void
-ServoCounterStyleRule
+CSSCounterStyleRule
 :
 :
 GetCssText
@@ -286,7 +291,7 @@ aCssText
 ;
 }
 void
-ServoCounterStyleRule
+CSSCounterStyleRule
 :
 :
 GetName
@@ -328,7 +333,7 @@ aName
 ;
 }
 void
-ServoCounterStyleRule
+CSSCounterStyleRule
 :
 :
 SetName
@@ -387,7 +392,7 @@ method_
 \
 void
 \
-ServoCounterStyleRule
+CSSCounterStyleRule
 :
 :
 Get
@@ -426,7 +431,7 @@ aValue
 \
 void
 \
-ServoCounterStyleRule
+CSSCounterStyleRule
 :
 :
 Set
@@ -507,7 +512,7 @@ virtual
 *
 /
 size_t
-ServoCounterStyleRule
+CSSCounterStyleRule
 :
 :
 SizeOfIncludingThis
@@ -531,7 +536,7 @@ virtual
 /
 JSObject
 *
-ServoCounterStyleRule
+CSSCounterStyleRule
 :
 :
 WrapObject
@@ -562,6 +567,11 @@ aGivenProto
 )
 ;
 }
+}
+/
+/
+namespace
+dom
 }
 /
 /
