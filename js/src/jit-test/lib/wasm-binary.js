@@ -1256,6 +1256,9 @@ function
 funcBody
 (
 func
+withEndCode
+=
+true
 )
 {
 var
@@ -1306,6 +1309,10 @@ func
 body
 )
 ;
+if
+(
+withEndCode
+)
 body
 .
 push
