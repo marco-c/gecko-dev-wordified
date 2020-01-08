@@ -3306,9 +3306,6 @@ value
 nsPoint
 mDestination
 ;
-nsPoint
-mScrollPosAtLastPaint
-;
 /
 /
 A
