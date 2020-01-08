@@ -869,12 +869,6 @@ aNode
 override
 ;
 NS_IMETHOD
-SelectAll
-(
-)
-override
-;
-NS_IMETHOD
 DebugUnitTests
 (
 int32_t
@@ -4463,6 +4457,13 @@ virtual
 HTMLEditor
 (
 )
+;
+virtual
+nsresult
+SelectAllInternal
+(
+)
+override
 ;
 /
 *
