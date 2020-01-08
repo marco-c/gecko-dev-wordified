@@ -389,6 +389,9 @@ RendererProfileTimers
 }
 ;
 use
+device
+:
+:
 query
 :
 :
@@ -694,6 +697,9 @@ ChangeIndicator
 }
 ;
 use
+device
+:
+:
 query
 :
 :
