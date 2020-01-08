@@ -2335,6 +2335,10 @@ atoms
 .
 Contains
 (
+(
+nsStaticAtom
+*
+)
 nsGkAtoms
 :
 :
@@ -2350,6 +2354,10 @@ atoms
 .
 Contains
 (
+(
+nsStaticAtom
+*
+)
 nsGkAtoms
 :
 :
