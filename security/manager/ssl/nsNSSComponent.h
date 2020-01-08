@@ -415,6 +415,11 @@ MaybeImportEnterpriseRoots
 )
 ;
 void
+ImportEnterpriseRoots
+(
+)
+;
+void
 UnloadEnterpriseRoots
 (
 )
@@ -426,6 +431,11 @@ MaybeEnableFamilySafetyCompatibility
 ;
 void
 UnloadFamilySafetyRoot
+(
+)
+;
+nsresult
+TrustLoaded3rdPartyRoots
 (
 )
 ;
