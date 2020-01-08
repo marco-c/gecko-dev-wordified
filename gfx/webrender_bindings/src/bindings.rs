@@ -12037,7 +12037,7 @@ is_backface_visible
 bool
 widths
 :
-LayoutSideOffsets
+BorderWidths
 top
 :
 BorderSide
@@ -12188,7 +12188,7 @@ is_backface_visible
 bool
 widths
 :
-LayoutSideOffsets
+BorderWidths
 image
 :
 WrImageKey
@@ -12356,7 +12356,7 @@ is_backface_visible
 bool
 widths
 :
-LayoutSideOffsets
+BorderWidths
 width
 :
 u32
@@ -12577,7 +12577,7 @@ is_backface_visible
 bool
 widths
 :
-LayoutSideOffsets
+BorderWidths
 center
 :
 LayoutPoint

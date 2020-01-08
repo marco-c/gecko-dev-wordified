@@ -50823,7 +50823,7 @@ fine
 wr
 :
 :
-LayoutSideOffsets
+BorderWidths
 borderWidths
 =
 wr
@@ -52718,7 +52718,7 @@ fine
 wr
 :
 :
-LayoutSideOffsets
+BorderWidths
 borderWidths
 =
 wr
@@ -54243,7 +54243,7 @@ wrSide
 wr
 :
 :
-LayoutSideOffsets
+BorderWidths
 wrWidths
 ;
 wr
