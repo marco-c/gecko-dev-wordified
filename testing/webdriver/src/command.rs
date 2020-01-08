@@ -6468,7 +6468,7 @@ as_object
 ErrorStatus
 :
 :
-UnableToSetCookie
+InvalidArgument
 "
 Cookie
 parameter
