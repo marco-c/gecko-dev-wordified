@@ -3599,10 +3599,7 @@ emitStoreTypedObjectReferenceProp
 (
 ValueOperand
 val
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 const
 Address

@@ -10944,10 +10944,7 @@ typedThingLayout
 (
 )
 ;
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 =
 reader
@@ -11011,7 +11008,7 @@ if
 type
 !
 =
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING
@@ -11095,7 +11092,7 @@ needsPostBarrier
 type
 !
 =
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING

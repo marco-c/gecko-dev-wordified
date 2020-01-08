@@ -55911,10 +55911,7 @@ ofArrayKind
 )
 )
 ;
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 elemType
 =
 elemPrediction
@@ -56298,10 +56295,7 @@ const
 LinearSum
 &
 byteOffset
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 PropertyName
 *
@@ -56400,7 +56394,7 @@ type
 )
 {
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -56477,7 +56471,7 @@ break
 ;
 }
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_OBJECT
@@ -56596,7 +56590,7 @@ break
 ;
 }
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING
@@ -62632,10 +62626,7 @@ TypedObjectPrediction
 elemPrediction
 )
 {
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 elemType
 =
 elemPrediction
@@ -73504,10 +73495,7 @@ PropertyName
 name
 )
 {
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 fieldType
 =
 fieldPrediction
@@ -80882,10 +80870,7 @@ PropertyName
 name
 )
 {
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 fieldType
 =
 fieldPrediction
@@ -93161,10 +93146,7 @@ const
 LinearSum
 &
 byteOffset
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 MDefinition
 *
@@ -93208,7 +93190,7 @@ if
 type
 !
 =
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING
@@ -93219,7 +93201,7 @@ MOZ_ASSERT
 type
 =
 =
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -93228,7 +93210,7 @@ TYPE_ANY
 type
 =
 =
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_OBJECT
@@ -93241,7 +93223,7 @@ implicitType
 type
 =
 =
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -93365,7 +93347,7 @@ type
 )
 {
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -93427,7 +93409,7 @@ setNeedsBarrier
 break
 ;
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_OBJECT
@@ -93504,7 +93486,7 @@ adjustment
 break
 ;
 case
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_STRING

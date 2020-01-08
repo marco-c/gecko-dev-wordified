@@ -2534,10 +2534,7 @@ fieldDescr
 fieldIndex
 )
 ;
-ReferenceTypeDescr
-:
-:
-Type
+ReferenceType
 type
 =
 fieldDescr
@@ -2559,7 +2556,7 @@ if
 type
 =
 =
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_ANY
@@ -2603,7 +2600,7 @@ MOZ_ASSERT
 type
 =
 =
-ReferenceTypeDescr
+ReferenceType
 :
 :
 TYPE_OBJECT
