@@ -2196,9 +2196,6 @@ collectFrom
 kLastIndex
 )
 ;
-return
-true
-;
 }
 OnHistoryPurge
 (
@@ -2210,9 +2207,6 @@ this
 collect
 (
 )
-;
-return
-true
 ;
 }
 OnHistoryReload

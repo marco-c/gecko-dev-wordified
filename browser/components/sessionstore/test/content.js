@@ -143,9 +143,6 @@ OnHistoryGotoIndex
 "
 )
 ;
-return
-true
-;
 }
 OnHistoryPurge
 (
@@ -161,9 +158,6 @@ test
 OnHistoryPurge
 "
 )
-;
-return
-true
 ;
 }
 OnHistoryReload
