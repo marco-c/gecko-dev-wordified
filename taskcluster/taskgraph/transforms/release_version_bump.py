@@ -142,6 +142,12 @@ bump
 -
 files
 '
+        
+'
+worker
+-
+type
+'
     
 ]
     
