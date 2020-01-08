@@ -15239,10 +15239,6 @@ const
 nsCString
 &
 vendor
-const
-nsCString
-&
-sourceURL
 )
 {
 mAppInfo
@@ -15297,15 +15293,6 @@ vendor
 Assign
 (
 vendor
-)
-;
-mAppInfo
-.
-sourceURL
-.
-Assign
-(
-sourceURL
 )
 ;
 return

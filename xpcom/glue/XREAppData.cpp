@@ -225,12 +225,6 @@ aOther
 .
 UAName
 ;
-sourceURL
-=
-aOther
-.
-sourceURL
-;
 return
 *
 this
@@ -339,12 +333,6 @@ UAName
 aOther
 .
 UAName
-;
-sourceURL
-=
-aOther
-.
-sourceURL
 ;
 #
 if

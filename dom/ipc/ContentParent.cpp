@@ -14143,15 +14143,6 @@ gAppData
 vendor
 )
 ;
-nsCString
-sourceURL
-(
-gAppData
--
->
-sourceURL
-)
-;
 /
 /
 Sending
@@ -14172,7 +14163,6 @@ name
 UAName
 ID
 vendor
-sourceURL
 )
 ;
 }
