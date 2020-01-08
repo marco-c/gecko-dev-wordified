@@ -1120,7 +1120,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 targetValue
 |
 |
@@ -1163,7 +1163,7 @@ is
 (
 gURLBar
 .
-textValue
+value
 originalValue
 "
 url
