@@ -609,6 +609,14 @@ guint32
 aTime
 )
 ;
+void
+SourceBeginDrag
+(
+GdkDragContext
+*
+aContext
+)
+;
 /
 /
 set
