@@ -974,12 +974,8 @@ NS_LITERAL_CSTRING
 "
 video
 /
+av1
 "
-)
-+
-NS_ConvertUTF16toUTF8
-(
-codec
 )
 aType
 )
