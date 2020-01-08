@@ -272,7 +272,7 @@ h
 >
 #
 if
-HAVE_MACH_MACH_TIME_H
+HAVE_MACH_ABSOLUTE_TIME
 #
 include
 <
