@@ -4351,6 +4351,17 @@ browser
 loadURI
 (
 uri
+{
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+}
 )
 ;
 /
