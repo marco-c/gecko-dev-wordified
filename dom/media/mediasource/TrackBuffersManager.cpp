@@ -18809,7 +18809,7 @@ GetTracksData
 aTrack
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 trackData
 .
