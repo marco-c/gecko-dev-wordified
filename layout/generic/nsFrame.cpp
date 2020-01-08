@@ -1599,9 +1599,6 @@ Formerly
 the
 nsIFrameDebug
 interface
-#
-ifdef
-DEBUG
 std
 :
 :
@@ -1822,6 +1819,9 @@ return
 aStream
 ;
 }
+#
+ifdef
+DEBUG
 static
 bool
 gShowFrameBorders
