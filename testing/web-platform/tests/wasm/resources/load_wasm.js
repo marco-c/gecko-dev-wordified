@@ -45,6 +45,9 @@ return
 fetch
 (
 '
+/
+wasm
+/
 incrementer
 .
 wasm
