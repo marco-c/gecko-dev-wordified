@@ -824,6 +824,13 @@ reason
 )
 ;
 void
+DoStopSession
+(
+nsresult
+reason
+)
+;
+void
 AbortSession
 (
 nsresult
@@ -1475,6 +1482,12 @@ nsCOMPtr
 nsIDashboardEventNotifier
 >
 mConnectionLogService
+;
+mozilla
+:
+:
+Mutex
+mMutex
 ;
 }
 ;
