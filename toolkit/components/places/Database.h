@@ -1695,6 +1695,8 @@ EnsureBookmarkRoots
 const
 int32_t
 startPosition
+bool
+shouldReparentRoots
 )
 ;
 /
