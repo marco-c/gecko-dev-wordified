@@ -192,6 +192,9 @@ WorkletFetchHandler
 class
 WorkletGlobalScope
 ;
+struct
+WorkletOptions
+;
 class
 WorkletThread
 ;
@@ -381,12 +384,16 @@ already_AddRefed
 <
 Promise
 >
-Import
+AddModule
 (
 const
 nsAString
 &
 aModuleURL
+const
+WorkletOptions
+&
+aOptions
 CallerType
 aCallerType
 ErrorResult
