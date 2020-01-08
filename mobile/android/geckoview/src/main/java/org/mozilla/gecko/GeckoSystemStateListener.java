@@ -161,7 +161,7 @@ ThreadUtils
 ;
 public
 class
-GeckoInputDeviceListener
+GeckoSystemStateListener
 implements
 InputManager
 .
@@ -174,17 +174,17 @@ String
 LOGTAG
 =
 "
-GeckoInputDeviceListener
+GeckoSystemStateListener
 "
 ;
 private
 static
 final
-GeckoInputDeviceListener
+GeckoSystemStateListener
 listenerInstance
 =
 new
-GeckoInputDeviceListener
+GeckoSystemStateListener
 (
 )
 ;
@@ -198,7 +198,7 @@ mInputManager
 ;
 public
 static
-GeckoInputDeviceListener
+GeckoSystemStateListener
 getInstance
 (
 )
@@ -208,7 +208,7 @@ listenerInstance
 ;
 }
 private
-GeckoInputDeviceListener
+GeckoSystemStateListener
 (
 )
 {
