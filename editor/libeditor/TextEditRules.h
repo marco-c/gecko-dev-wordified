@@ -1039,9 +1039,9 @@ be
 EditSubAction
 :
 :
-insertIMEText
-or
+eInsertTextComingFromIME
 *
+or
 EditSubAction
 :
 :
@@ -3203,7 +3203,7 @@ eInsertText
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 const
 nsAString
 *

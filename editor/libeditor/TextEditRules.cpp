@@ -1763,7 +1763,7 @@ case
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 :
 UndefineCaretBidiLevel
 (
@@ -3733,7 +3733,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 )
 {
 /
@@ -3913,7 +3913,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 )
 {
 *
@@ -4103,7 +4103,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 )
 {
 RemoveIMETextFromPWBuf
@@ -4533,7 +4533,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 )
 {
 /

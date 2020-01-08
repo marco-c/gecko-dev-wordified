@@ -1058,9 +1058,9 @@ be
 EditSubAction
 :
 :
-insertIMEText
-or
+eInsertTextComingFromIME
 *
+or
 EditSubAction
 :
 :

@@ -2324,7 +2324,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 |
 |
 aEditSubAction
@@ -3218,7 +3218,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 )
 {
 nsresult
@@ -3328,7 +3328,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 |
 |
 aEditSubAction
@@ -3590,7 +3590,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 |
 |
 aEditSubAction
@@ -3679,7 +3679,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 |
 |
 aEditSubAction
@@ -4153,7 +4153,7 @@ case
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 :
 UndefineCaretBidiLevel
 (
@@ -4585,7 +4585,7 @@ case
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 :
 return
 NS_OK
@@ -8713,7 +8713,7 @@ mTopLevelEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 |
 |
 mTopLevelEditSubAction
@@ -9203,7 +9203,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 )
 {
 /
@@ -45800,7 +45800,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 |
 |
 aEditSubAction
@@ -47769,7 +47769,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertIMEText
+eInsertTextComingFromIME
 |
 |
 aEditSubAction
