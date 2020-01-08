@@ -1017,7 +1017,7 @@ test
 finishes
 .
 var
-gAppUpdateDisabled
+gAppUpdateEnabled
 ;
 /
 /
@@ -1025,7 +1025,7 @@ app
 .
 update
 .
-disabledForTesting
+enabled
 var
 gAppUpdateServiceEnabled
 ;
@@ -5391,11 +5391,11 @@ prefs
 .
 prefHasUserValue
 (
-PREF_APP_UPDATE_DISABLEDFORTESTING
+PREF_APP_UPDATE_ENABLED
 )
 )
 {
-gAppUpdateDisabled
+gAppUpdateEnabled
 =
 Services
 .
@@ -5403,7 +5403,7 @@ prefs
 .
 getBoolPref
 (
-PREF_APP_UPDATE_DISABLEDFORTESTING
+PREF_APP_UPDATE_ENABLED
 )
 ;
 }
@@ -5413,8 +5413,8 @@ prefs
 .
 setBoolPref
 (
-PREF_APP_UPDATE_DISABLEDFORTESTING
-false
+PREF_APP_UPDATE_ENABLED
+true
 )
 ;
 if
@@ -5427,8 +5427,8 @@ prefs
 getBoolPref
 (
 PREF_APP_UPDATE_AUTO
-false
 )
+false
 )
 {
 Services
@@ -5809,7 +5809,7 @@ gAppUpdateURLDefault
 }
 if
 (
-gAppUpdateDisabled
+gAppUpdateEnabled
 !
 =
 =
@@ -5822,8 +5822,8 @@ prefs
 .
 setBoolPref
 (
-PREF_APP_UPDATE_DISABLEDFORTESTING
-gAppUpdateDisabled
+PREF_APP_UPDATE_ENABLED
+gAppUpdateEnabled
 )
 ;
 }
@@ -5836,7 +5836,7 @@ prefs
 .
 prefHasUserValue
 (
-PREF_APP_UPDATE_DISABLEDFORTESTING
+PREF_APP_UPDATE_ENABLED
 )
 )
 {
@@ -5846,7 +5846,7 @@ prefs
 .
 clearUserPref
 (
-PREF_APP_UPDATE_DISABLEDFORTESTING
+PREF_APP_UPDATE_ENABLED
 )
 ;
 }

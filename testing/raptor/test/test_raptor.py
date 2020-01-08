@@ -95,17 +95,15 @@ firefox
 return
     
 #
-These
-prefs
-are
+This
+pref
+is
 set
 in
 mozprofile
     
-firefox_prefs
+firefox_pref
 =
-[
-        
 '
 user_pref
 (
@@ -114,30 +112,12 @@ app
 .
 update
 .
-disabledForTesting
+enabled
 "
-true
+false
 )
 ;
 '
-        
-'
-user_pref
-(
-"
-'
-        
-'
-security
-.
-turn_off_all_security_so_that_viruses_can_take_over_this_computer
-"
-true
-)
-;
-'
-    
-]
     
 #
 This
@@ -202,12 +182,6 @@ read
 (
 )
         
-for
-firefox_pref
-in
-firefox_prefs
-:
-            
 assert
 firefox_pref
 in

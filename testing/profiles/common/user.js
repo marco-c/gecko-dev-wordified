@@ -24,9 +24,9 @@ app
 .
 update
 .
-disabledForTesting
+enabled
 "
-true
+false
 )
 ;
 user_pref
