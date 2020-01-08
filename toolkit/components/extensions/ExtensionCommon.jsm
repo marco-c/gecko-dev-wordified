@@ -2223,16 +2223,10 @@ contentWindow
 let
 {
 document
-}
-=
-contentWindow
-;
-let
-{
 docShell
 }
 =
-document
+contentWindow
 ;
 this
 .

@@ -5044,8 +5044,6 @@ bwin
 =
 navWin
 .
-document
-.
 docShell
 .
 rootTreeItem

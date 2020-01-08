@@ -124,8 +124,6 @@ aEvent
 return
 content
 .
-document
-.
 docShell
 .
 isActive
