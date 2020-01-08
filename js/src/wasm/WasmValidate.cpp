@@ -2027,14 +2027,6 @@ numLocalEntries
 ;
 ValType
 prev
-=
-ValType
-(
-TypeCode
-:
-:
-Limit
-)
 ;
 for
 (
@@ -2274,6 +2266,9 @@ I64
 type
 =
 ValType
+:
+:
+fromTypeCode
 (
 unchecked
 )
@@ -2306,6 +2301,9 @@ break
 type
 =
 ValType
+:
+:
+fromTypeCode
 (
 unchecked
 )
@@ -2401,6 +2399,9 @@ type
 type
 =
 ValType
+:
+:
+fromTypeCode
 (
 unchecked
 )
@@ -8815,6 +8816,10 @@ isMutable
 switch
 (
 type
+.
+code
+(
+)
 )
 {
 case

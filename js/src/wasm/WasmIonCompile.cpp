@@ -1288,6 +1288,10 @@ locals_
 [
 i
 ]
+.
+code
+(
+)
 )
 {
 case
@@ -14185,6 +14189,10 @@ value
 type
 (
 )
+.
+code
+(
+)
 )
 {
 case
@@ -18043,6 +18051,10 @@ type
 switch
 (
 type
+.
+code
+(
+)
 )
 {
 case
@@ -18720,6 +18732,10 @@ defaultNumElems
 switch
 (
 type
+.
+code
+(
+)
 )
 {
 case
@@ -19597,6 +19613,10 @@ type
 switch
 (
 type
+.
+code
+(
+)
 )
 {
 case

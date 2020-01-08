@@ -3712,6 +3712,10 @@ value
 type
 (
 )
+.
+code
+(
+)
 )
 {
 case
@@ -3898,6 +3902,10 @@ switch
 global
 .
 type
+(
+)
+.
+code
 (
 )
 )

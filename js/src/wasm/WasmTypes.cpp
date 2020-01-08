@@ -380,6 +380,10 @@ const
 switch
 (
 type_
+.
+code
+(
+)
 )
 {
 case
@@ -1162,6 +1166,10 @@ vt
 switch
 (
 vt
+.
+code
+(
+)
 )
 {
 case
@@ -1278,6 +1286,10 @@ fits
 switch
 (
 vt
+.
+code
+(
+)
 )
 {
 case
