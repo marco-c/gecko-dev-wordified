@@ -544,9 +544,6 @@ should
 uninitialize
 the
 ASRouter
-and
-restore
-onboarding
 "
 async
 (

@@ -2534,9 +2534,6 @@ OnboardingMessageProvider
 enabled
 :
 false
-cohort
-:
-0
 }
 {
 id
