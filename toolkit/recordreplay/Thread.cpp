@@ -1478,13 +1478,8 @@ CanAccessEvents
 )
 )
 {
-EnsureNotDivergedFromRecording
-(
-)
-;
-Unreachable
-(
-)
+return
+0
 ;
 }
 MonitorAutoLock
