@@ -688,11 +688,11 @@ children
 let
 rootName
 =
-mapItemIdToInternalRootName
+mapItemGuidToInternalRootName
 (
 aItem
 .
-id
+guid
 )
 ;
 if
