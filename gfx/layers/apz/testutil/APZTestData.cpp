@@ -640,6 +640,9 @@ static_assert
 (
 MaxEnumValue
 <
+gfx
+:
+:
 CompositorHitTestInfo
 :
 :
