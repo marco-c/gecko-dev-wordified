@@ -197,9 +197,7 @@ MMPolicyT
 >
 ResolveRedirectedAddress
 (
-const
-void
-*
+FARPROC
 aOriginalFunction
 )
 {

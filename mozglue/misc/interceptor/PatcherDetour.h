@@ -2274,6 +2274,9 @@ MMPolicyT
 >
 tramp
 (
+this
+-
+>
 mVMPolicy
 .
 GetNextTrampoline
