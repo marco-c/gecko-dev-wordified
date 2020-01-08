@@ -6898,12 +6898,28 @@ process
         
 if
 not
+hasattr
+(
 self
-.
+"
 proc
+"
+)
 :
             
-return
+raise
+RuntimeError
+(
+"
+Process
+hasn
+'
+t
+been
+started
+yet
+"
+)
         
 if
 isPosix
