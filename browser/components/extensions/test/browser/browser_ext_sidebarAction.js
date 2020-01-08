@@ -451,6 +451,16 @@ startup
 (
 )
 ;
+await
+extension
+.
+awaitMessage
+(
+"
+sidebar
+"
+)
+;
 /
 /
 Test
