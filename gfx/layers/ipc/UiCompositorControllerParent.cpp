@@ -280,13 +280,7 @@ mUiControllerParent
 )
 ;
 return
-std
-:
-:
-move
-(
 controller
-)
 ;
 }
 /

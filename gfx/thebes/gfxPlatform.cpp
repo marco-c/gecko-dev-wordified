@@ -10903,13 +10903,7 @@ BackendType
 CAIRO
 ;
 return
-std
-:
-:
-move
-(
 data
-)
 ;
 }
 void

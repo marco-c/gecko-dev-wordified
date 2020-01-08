@@ -3616,16 +3616,10 @@ previousItemIndex
 *
 aOutList
 =
-std
-:
-:
-move
-(
 merge
 .
 Finalize
 (
-)
 )
 ;
 aOutContainerASR

@@ -2820,13 +2820,7 @@ aAdoptedCallbackArgs
 ;
 }
 return
-std
-:
-:
-move
-(
 callback
-)
 ;
 }
 /

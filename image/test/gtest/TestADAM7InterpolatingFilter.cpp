@@ -1716,11 +1716,6 @@ BGRAColor
 >
 pixels
 =
-std
-:
-:
-move
-(
 ADAM7HorizontallyInterpolatedRow
 (
 aPass
@@ -1733,7 +1728,6 @@ ShouldInterpolate
 :
 eNo
 aColors
-)
 )
 ;
 /
@@ -1922,11 +1916,6 @@ BGRAColor
 >
 expectedPixels
 =
-std
-:
-:
-move
-(
 ADAM7HorizontallyInterpolatedRow
 (
 aPass
@@ -1939,7 +1928,6 @@ ShouldInterpolate
 :
 eYes
 aColors
-)
 )
 ;
 if

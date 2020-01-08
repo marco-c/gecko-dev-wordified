@@ -3804,11 +3804,6 @@ mPropertyValues
 .
 AppendElement
 (
-std
-:
-:
-move
-(
 PropertyValuePair
 (
 aProperty
@@ -3818,7 +3813,6 @@ std
 move
 (
 decl
-)
 )
 )
 )

@@ -208,13 +208,7 @@ SurfacePipe
 pipe
 ;
 return
-std
-:
-:
-move
-(
 pipe
-)
 ;
 }
 template
