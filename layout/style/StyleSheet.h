@@ -2562,6 +2562,15 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
+URLExtraData
+>
+CreateURLExtraData
+(
+)
+const
+;
 protected
 :
 /

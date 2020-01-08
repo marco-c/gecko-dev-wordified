@@ -482,6 +482,12 @@ aDocument
 NodePrincipal
 (
 )
+aDocument
+-
+>
+GetReferrerPolicy
+(
+)
 )
 ;
 return

@@ -7364,6 +7364,17 @@ mElement
 NodePrincipal
 (
 )
+mElement
+-
+>
+OwnerDoc
+(
+)
+-
+>
+GetReferrerPolicy
+(
+)
 )
 ;
 changed

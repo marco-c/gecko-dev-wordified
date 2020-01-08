@@ -14411,6 +14411,12 @@ aDocument
 NodePrincipal
 (
 )
+aDocument
+-
+>
+GetReferrerPolicy
+(
+)
 )
 ;
 ServoCSSParser
