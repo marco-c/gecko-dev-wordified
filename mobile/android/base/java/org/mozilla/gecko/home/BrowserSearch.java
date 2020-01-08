@@ -7560,6 +7560,10 @@ mSearchTerm
 Pattern
 .
 CASE_INSENSITIVE
+|
+Pattern
+.
+LITERAL
 )
 ;
 Matcher
