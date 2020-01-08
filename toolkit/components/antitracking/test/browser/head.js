@@ -211,6 +211,11 @@ jsm
 }
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 this
 .
 AntiTracking
@@ -1245,11 +1250,6 @@ window
 "
 )
 ;
-requestLongerTimeout
-(
-2
-)
-;
 let
 win
 =
@@ -1867,11 +1867,6 @@ test
 name
 )
 ;
-requestLongerTimeout
-(
-2
-)
-;
 let
 win
 =
@@ -2294,11 +2289,6 @@ test
 "
 +
 name
-)
-;
-requestLongerTimeout
-(
-2
 )
 ;
 let
