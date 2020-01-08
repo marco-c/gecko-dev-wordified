@@ -5039,6 +5039,7 @@ up
 .
 handleDevToolsFlag
 :
+async
 function
 (
 window
@@ -5095,6 +5096,7 @@ target
 const
 target
 =
+await
 TargetFactory
 .
 forTab
