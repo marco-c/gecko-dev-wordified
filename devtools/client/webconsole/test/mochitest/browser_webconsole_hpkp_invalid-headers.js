@@ -780,7 +780,7 @@ text
 .
 message
 .
-warning
+warn
 "
 )
 ;

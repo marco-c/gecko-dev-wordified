@@ -523,7 +523,7 @@ text
 .
 message
 .
-warning
+warn
 "
 )
 ;
