@@ -246,6 +246,12 @@ Assert
 throws
 (
 load
+/
+Error
+opening
+input
+stream
+/
 )
 ;
 }
