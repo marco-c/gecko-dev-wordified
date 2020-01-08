@@ -93,6 +93,12 @@ delay
 .
 long
 "
+"
+.
+negative
+-
+delay
+"
 ]
 )
 ;
@@ -178,6 +184,9 @@ animations
 [
 "
 running
+"
+"
+finished
 "
 "
 finished
@@ -290,6 +299,9 @@ state
 .
 animations
 [
+"
+running
+"
 "
 running
 "

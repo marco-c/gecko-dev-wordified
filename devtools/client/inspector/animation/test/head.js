@@ -1394,7 +1394,6 @@ function
 animationInspector
 panel
 mouseDownPosition
-mouseMovePosition
 )
 {
 const
