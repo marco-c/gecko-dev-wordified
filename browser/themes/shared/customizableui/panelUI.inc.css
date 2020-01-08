@@ -4659,7 +4659,15 @@ width
 ;
 color
 :
-GrayText
+rgba
+(
+12
+12
+13
+0
+.
+5
+)
 ;
 }
 /
@@ -11082,7 +11090,7 @@ font
 -
 weight
 :
-500
+600
 ;
 margin
 :
