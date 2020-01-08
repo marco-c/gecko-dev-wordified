@@ -8254,7 +8254,7 @@ badToken
 )
 ;
 int32_t
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -8446,7 +8446,7 @@ using
 GeneralCharsBase
 :
 :
-getCharIgnoreEOL
+getCodeUnit
 ;
 using
 GeneralCharsBase
@@ -9789,7 +9789,7 @@ using
 GeneralCharsBase
 :
 :
-getCharIgnoreEOL
+getCodeUnit
 ;
 using
 CharsBase
@@ -10909,7 +10909,7 @@ case
 the
 next
 |
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 |
@@ -10918,8 +10918,8 @@ return
 the
 code
 unit
-*
 after
+*
 |
 c
 |
@@ -11001,7 +11001,7 @@ case
 the
 next
 |
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 |
@@ -11111,7 +11111,7 @@ case
 the
 next
 |
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 |
@@ -11119,8 +11119,8 @@ returns
 the
 code
 unit
-*
 after
+*
 |
 c
 |
@@ -11224,7 +11224,7 @@ case
 the
 next
 |
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 |
@@ -11232,8 +11232,8 @@ returns
 the
 code
 unit
-*
 after
+*
 |
 c
 |
@@ -12700,7 +12700,7 @@ c
 =
 #
 endif
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
@@ -12777,7 +12777,7 @@ int32_t
 >
 c
 =
-getCharIgnoreEOL
+getCodeUnit
 (
 )
 ;
