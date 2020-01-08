@@ -11504,6 +11504,14 @@ nsIApplicationReputationService
 :
 VERDICT_SAFE
 ;
+if
+(
+aResult
+!
+=
+NS_ERROR_NET_TIMEOUT
+)
+{
 Accumulate
 (
 mozilla
@@ -11516,6 +11524,7 @@ APPLICATION_REPUTATION_REMOTE_LOOKUP_TIMEOUT
 false
 )
 ;
+}
 nsresult
 rv
 =
