@@ -2422,6 +2422,13 @@ atty
 :
 is
 (
+atty
+:
+:
+Stream
+:
+:
+Stdout
 )
 }
 ;
