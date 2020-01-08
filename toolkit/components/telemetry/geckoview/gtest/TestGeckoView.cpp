@@ -137,6 +137,8 @@ h
 #
 include
 "
+mozilla
+/
 Telemetry
 .
 h
@@ -158,6 +160,8 @@ h
 #
 include
 "
+core
+/
 TelemetryScalar
 .
 h

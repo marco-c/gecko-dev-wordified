@@ -84,6 +84,8 @@ __future__
 import
 print_function
 from
+parsers
+.
 shared_telemetry_utils
 import
 ParserError
