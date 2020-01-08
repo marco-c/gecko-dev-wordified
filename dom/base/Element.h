@@ -11923,12 +11923,6 @@ nullptr
 )
 const
 ;
-nsIFrame
-*
-GetStyledFrame
-(
-)
-;
 virtual
 Element
 *
