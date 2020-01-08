@@ -271,7 +271,9 @@ h
 #
 include
 "
-NullPrincipal
+mozilla
+/
+BrowserElementParent
 .
 h
 "
@@ -280,7 +282,7 @@ include
 "
 mozilla
 /
-BrowserElementParent
+NullPrincipal
 .
 h
 "

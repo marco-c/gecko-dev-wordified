@@ -500,9 +500,6 @@ NullPrincipal
 :
 Create
 (
-mozilla
-:
-:
 OriginAttributes
 (
 )

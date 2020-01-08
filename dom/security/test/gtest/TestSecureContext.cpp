@@ -168,10 +168,16 @@ h
 #
 include
 "
+mozilla
+/
 NullPrincipal
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 const
 uint32_t
