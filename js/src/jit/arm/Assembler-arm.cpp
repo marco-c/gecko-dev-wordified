@@ -1190,12 +1190,14 @@ if
 (
 useHardFp_
 )
+{
 return
 hardNext
 (
 type
 )
 ;
+}
 return
 softNext
 (
@@ -1230,9 +1232,11 @@ align
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 access
@@ -1257,9 +1261,11 @@ align
 =
 4
 )
+{
 return
 false
 ;
+}
 return
 access
 .
@@ -1529,9 +1535,11 @@ r
 =
 InvalidReg
 )
+{
 return
 0
 ;
+}
 MOZ_ASSERT
 (
 (
@@ -1580,9 +1588,11 @@ r
 =
 InvalidReg
 )
+{
 return
 0
 ;
+}
 MOZ_ASSERT
 (
 (
@@ -1631,9 +1641,11 @@ r
 =
 InvalidReg
 )
+{
 return
 0
 ;
+}
 MOZ_ASSERT
 (
 (
@@ -1814,9 +1826,11 @@ isMissing
 (
 )
 )
+{
 return
 0
 ;
+}
 /
 /
 Bits
@@ -1875,9 +1889,11 @@ isMissing
 (
 )
 )
+{
 return
 0
 ;
+}
 /
 /
 Bits
@@ -1936,9 +1952,11 @@ isMissing
 (
 )
 )
+{
 return
 0
 ;
+}
 /
 /
 Bits
@@ -2106,6 +2124,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstDTR
@@ -2114,6 +2133,7 @@ InstDTR
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2168,6 +2188,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstLDR
@@ -2176,6 +2197,7 @@ InstLDR
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2199,6 +2221,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstNOP
@@ -2207,6 +2230,7 @@ InstNOP
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2289,6 +2313,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstBranchReg
@@ -2297,6 +2322,7 @@ InstBranchReg
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2394,6 +2420,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstBranchImm
@@ -2402,6 +2429,7 @@ InstBranchImm
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2474,6 +2502,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstBXReg
@@ -2482,6 +2511,7 @@ InstBXReg
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2533,6 +2563,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstBLXReg
@@ -2541,6 +2572,7 @@ InstBLXReg
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2592,6 +2624,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstBImm
@@ -2600,6 +2633,7 @@ InstBImm
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2651,6 +2685,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstBLImm
@@ -2659,6 +2694,7 @@ InstBLImm
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2712,6 +2748,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstMovWT
@@ -2720,6 +2757,7 @@ InstMovWT
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2863,6 +2901,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstMovW
@@ -2871,6 +2910,7 @@ InstMovW
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2895,6 +2935,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstMovT
@@ -2903,6 +2944,7 @@ InstMovT
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -2954,6 +2996,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstALU
@@ -2962,6 +3005,7 @@ InstALU
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -3169,6 +3213,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstCMP
@@ -3177,6 +3222,7 @@ InstCMP
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -3253,6 +3299,7 @@ IsTHIS
 i
 )
 )
+{
 return
 (
 InstMOV
@@ -3261,6 +3308,7 @@ InstMOV
 &
 i
 ;
+}
 return
 nullptr
 ;
@@ -3837,9 +3885,11 @@ bytesNeeded
 )
 )
 )
+{
 return
 false
 ;
+}
 m_buffer
 .
 executableCopy
@@ -3884,6 +3934,7 @@ if
 (
 flushICache
 )
+{
 AutoFlushICache
 :
 :
@@ -3900,6 +3951,7 @@ size
 )
 )
 ;
+}
 }
 uint32_t
 Assembler
@@ -4000,9 +4052,11 @@ more
 (
 )
 )
+{
 return
 false
 ;
+}
 offset_
 =
 reader_
@@ -4510,6 +4564,7 @@ InstLDR
 (
 )
 )
+{
 return
 *
 (
@@ -4532,6 +4587,7 @@ dest
 (
 )
 ;
+}
 MOZ_CRASH
 (
 "
@@ -4646,11 +4702,13 @@ if
 (
 style
 )
+{
 *
 style
 =
 L_MOVWT
 ;
+}
 /
 /
 See
@@ -4787,11 +4845,13 @@ if
 (
 dest
 )
+{
 *
 dest
 =
 temp
 ;
+}
 uint32_t
 *
 value
@@ -4840,15 +4900,18 @@ if
 (
 style
 )
+{
 *
 style
 =
 L_LDR
 ;
+}
 if
 (
 dest
 )
+{
 *
 dest
 =
@@ -4858,6 +4921,7 @@ toRD
 load1
 )
 ;
+}
 return
 *
 (
@@ -5262,6 +5326,7 @@ length
 (
 )
 )
+{
 memcpy
 (
 dest
@@ -5277,6 +5342,7 @@ length
 )
 )
 ;
+}
 }
 void
 Assembler
@@ -5297,6 +5363,7 @@ length
 (
 )
 )
+{
 memcpy
 (
 dest
@@ -5312,6 +5379,7 @@ length
 )
 )
 ;
+}
 }
 void
 Assembler
@@ -5887,11 +5955,13 @@ no_n1
 =
 0
 )
+{
 return
 TwoImm8mData
 (
 )
 ;
+}
 int
 mid
 =
@@ -6192,11 +6262,13 @@ left
 =
 8
 )
+{
 return
 TwoImm8mData
 (
 )
 ;
+}
 int
 right
 =
@@ -6249,11 +6321,13 @@ right
 >
 8
 )
+{
 return
 TwoImm8mData
 (
 )
 ;
+}
 /
 /
 Make
@@ -6459,11 +6533,13 @@ no_n2
 =
 0
 )
+{
 return
 TwoImm8mData
 (
 )
 ;
+}
 }
 /
 /
@@ -7713,6 +7789,7 @@ top
 tmp
 )
 )
+{
 data_
 =
 tmp
@@ -7721,6 +7798,7 @@ encode
 (
 )
 ;
+}
 }
 BOffImm
 :
@@ -7905,6 +7983,7 @@ kind
 =
 Double
 )
+{
 return
 VFPRegister
 (
@@ -7915,6 +7994,7 @@ code_
 Double
 )
 ;
+}
 return
 *
 this
@@ -10764,12 +10844,14 @@ ONES
 =
 ExpectedOnes
 )
+{
 return
 PoolHintData
 :
 :
 PoolBranch
 ;
+}
 return
 static_cast
 <
@@ -11232,6 +11314,7 @@ if
 (
 instruction
 )
+{
 spewLiteralLoad
 (
 php
@@ -11240,6 +11323,7 @@ instruction
 doc
 )
 ;
+}
 #
 endif
 return
@@ -13296,6 +13380,7 @@ isInvalid
 (
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -13304,6 +13389,7 @@ invalid
 "
 )
 ;
+}
 *
 dest
 =
@@ -13432,11 +13518,13 @@ oom
 (
 )
 )
+{
 return
 BufferOffset
 (
 )
 ;
+}
 as_b
 (
 BufferOffset
@@ -13484,11 +13572,13 @@ oom
 (
 )
 )
+{
 return
 BufferOffset
 (
 )
 ;
+}
 BufferOffset
 ret
 ;
@@ -13591,11 +13681,13 @@ oom
 (
 )
 )
+{
 return
 BufferOffset
 (
 )
 ;
+}
 l
 -
 >
@@ -13873,11 +13965,13 @@ oom
 (
 )
 )
+{
 return
 BufferOffset
 (
 )
 ;
+}
 BOffImm
 offset
 =
@@ -13951,11 +14045,13 @@ oom
 (
 )
 )
+{
 return
 BufferOffset
 (
 )
 ;
+}
 BufferOffset
 ret
 ;
@@ -14067,11 +14163,13 @@ oom
 (
 )
 )
+{
 return
 BufferOffset
 (
 )
 ;
+}
 l
 -
 >
@@ -15118,6 +15216,7 @@ vt2
 =
 InvalidReg
 )
+{
 return
 writeVFPInst
 (
@@ -15146,6 +15245,7 @@ vm
 idx
 )
 ;
+}
 /
 /
 We
@@ -15381,10 +15481,12 @@ isSingle
 (
 )
 )
+{
 sz
 =
 IsSingle
 ;
+}
 return
 writeVFPInst
 (
@@ -15460,10 +15562,12 @@ isSingle
 (
 )
 )
+{
 sz
 =
 IsSingle
 ;
+}
 if
 (
 vd
@@ -15904,11 +16008,13 @@ isDouble
 (
 )
 )
+{
 length
 *
 =
 2
 ;
+}
 return
 writeVFPInst
 (
@@ -16105,9 +16211,11 @@ isInvalid
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Propagate
@@ -16358,6 +16466,7 @@ InstBImm
 (
 )
 )
+{
 as_b
 (
 offset
@@ -16365,6 +16474,7 @@ c
 b
 )
 ;
+}
 else
 if
 (
@@ -16377,6 +16487,7 @@ InstBLImm
 (
 )
 )
+{
 as_bl
 (
 offset
@@ -16384,7 +16495,9 @@ c
 b
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -16394,6 +16507,7 @@ fixup
 "
 )
 ;
+}
 b
 =
 next
@@ -16597,6 +16711,7 @@ isValidPoolHint
 (
 )
 )
+{
 cond
 =
 p
@@ -16607,7 +16722,9 @@ getCond
 (
 )
 ;
+}
 else
+{
 cond
 =
 branch
@@ -16617,6 +16734,7 @@ extractCond
 (
 )
 ;
+}
 BOffImm
 offset
 =
@@ -16796,10 +16914,12 @@ labelBranchOffset
 next
 )
 )
+{
 labelBranchOffset
 =
 next
 ;
+}
 /
 /
 Then
@@ -16883,6 +17003,7 @@ InstBImm
 (
 )
 )
+{
 as_b
 (
 BOffImm
@@ -16893,6 +17014,7 @@ c
 labelBranchOffset
 )
 ;
+}
 else
 if
 (
@@ -16905,6 +17027,7 @@ InstBLImm
 (
 )
 )
+{
 as_bl
 (
 BOffImm
@@ -16915,7 +17038,9 @@ c
 labelBranchOffset
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -16925,6 +17050,7 @@ fixup
 "
 )
 ;
+}
 }
 else
 {
@@ -17173,10 +17299,12 @@ stopBKPT
 =
 hit
 )
+{
 dbg_break
 (
 )
 ;
+}
 writeInst
 (
 0xe1200070
@@ -17484,6 +17612,7 @@ InstBLImm
 (
 )
 )
+{
 new
 (
 i
@@ -17497,7 +17626,9 @@ offset
 cond
 )
 ;
+}
 else
+{
 new
 (
 i
@@ -17511,6 +17642,7 @@ offset
 cond
 )
 ;
+}
 /
 /
 Flush
@@ -17526,6 +17658,7 @@ if
 (
 final
 )
+{
 AutoFlushICache
 :
 :
@@ -17538,6 +17671,7 @@ i
 4
 )
 ;
+}
 }
 void
 Assembler
@@ -17894,9 +18028,11 @@ IsTHIS
 i
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 static_cast
 <
@@ -18595,6 +18731,7 @@ count
 =
 nullptr
 )
+{
 *
 count
 +
@@ -18604,6 +18741,7 @@ sizeof
 Instruction
 )
 ;
+}
 InstructionIterator
 iter
 (
@@ -18669,9 +18807,11 @@ Assembler
 :
 Always
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -18698,9 +18838,11 @@ InstBImm
 )
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 See
@@ -18786,9 +18928,11 @@ Assembler
 :
 Always
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -18815,9 +18959,11 @@ InstBImm
 )
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 See
@@ -18969,9 +19115,11 @@ Assembler
 :
 Always
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -18985,9 +19133,11 @@ InstBImm
 (
 )
 )
+{
 return
 false
 ;
+}
 InstBImm
 *
 b
@@ -19101,11 +19251,13 @@ isNatural
 (
 )
 )
+{
 return
 cur
 (
 )
 ;
+}
 advanceRaw
 (
 1
@@ -19226,11 +19378,13 @@ isNatural
 (
 )
 )
+{
 return
 cur
 (
 )
 ;
+}
 advance
 (
 sizeof
@@ -19263,11 +19417,13 @@ BufferInstructionIterator
 this
 )
 )
+{
 return
 next
 (
 )
 ;
+}
 return
 cur
 (
@@ -20240,6 +20396,7 @@ if
 (
 enabled
 )
+{
 *
 inst
 =
@@ -20249,7 +20406,9 @@ ScratchRegister
 Always
 )
 ;
+}
 else
+{
 *
 inst
 =
@@ -20257,6 +20416,7 @@ InstNOP
 (
 )
 ;
+}
 AutoFlushICache
 :
 :
@@ -20588,16 +20748,19 @@ fill
 =
 1
 )
+{
 NopFill
 =
 fill
 ;
+}
 if
 (
 NopFill
 >
 8
 )
+{
 MOZ_CRASH
 (
 "
@@ -20611,6 +20774,7 @@ supported
 "
 )
 ;
+}
 isSet
 =
 true
@@ -20681,10 +20845,12 @@ poolMaxOffset
 =
 1
 )
+{
 AsmPoolMaxOffset
 =
 poolMaxOffset
 ;
+}
 isSet
 =
 true
@@ -21125,8 +21291,10 @@ isDisabled
 !
 i
 )
+{
 return
 ;
+}
 DisasmBuffer
 buffer
 ;
@@ -21227,8 +21395,10 @@ isDisabled
 !
 i
 )
+{
 return
 ;
+}
 DisasmBuffer
 buffer
 ;
@@ -21263,6 +21433,7 @@ if
 !
 haveTarget
 )
+{
 SprintfLiteral
 (
 labelBuf
@@ -21278,6 +21449,7 @@ target
 "
 )
 ;
+}
 if
 (
 InstBranchImm
@@ -21449,7 +21621,8 @@ i
 +
 +
 )
-;
+{
+}
 for
 (
 ;
@@ -21475,7 +21648,8 @@ i
 +
 +
 )
-;
+{
+}
 buffer
 [
 i
@@ -21544,6 +21718,7 @@ if
 (
 haveTarget
 )
+{
 spew_
 .
 spewRef
@@ -21551,6 +21726,7 @@ spewRef
 target
 )
 ;
+}
 }
 void
 Assembler
@@ -21581,8 +21757,10 @@ isDisabled
 (
 )
 )
+{
 return
 ;
+}
 char
 litbuf
 [

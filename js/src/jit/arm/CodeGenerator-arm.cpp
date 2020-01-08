@@ -970,9 +970,11 @@ generateOutOfLineCode
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 deoptLabel_
@@ -1370,8 +1372,10 @@ bailed
 (
 )
 )
+{
 return
 ;
+}
 MOZ_ASSERT_IF
 (
 !
@@ -1767,6 +1771,7 @@ isMax
 (
 )
 )
+{
 masm
 .
 maxDouble
@@ -1776,7 +1781,9 @@ first
 true
 )
 ;
+}
 else
+{
 masm
 .
 minDouble
@@ -1786,6 +1793,7 @@ first
 true
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -1854,6 +1862,7 @@ isMax
 (
 )
 )
+{
 masm
 .
 maxFloat32
@@ -1863,7 +1872,9 @@ first
 true
 )
 ;
+}
 else
+{
 masm
 .
 minFloat32
@@ -1873,6 +1884,7 @@ first
 true
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -2129,6 +2141,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 ma_add
@@ -2152,6 +2165,7 @@ scratch
 SetCC
 )
 ;
+}
 else
 if
 (
@@ -2162,6 +2176,7 @@ isRegister
 (
 )
 )
+{
 masm
 .
 ma_add
@@ -2181,7 +2196,9 @@ dest
 SetCC
 )
 ;
+}
 else
+{
 masm
 .
 ma_add
@@ -2204,6 +2221,7 @@ dest
 SetCC
 )
 ;
+}
 if
 (
 ins
@@ -2213,6 +2231,7 @@ snapshot
 (
 )
 )
+{
 bailoutIf
 (
 Assembler
@@ -2227,6 +2246,7 @@ snapshot
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -2391,6 +2411,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 ma_sub
@@ -2414,6 +2435,7 @@ scratch
 SetCC
 )
 ;
+}
 else
 if
 (
@@ -2424,6 +2446,7 @@ isRegister
 (
 )
 )
+{
 masm
 .
 ma_sub
@@ -2443,7 +2466,9 @@ dest
 SetCC
 )
 ;
+}
 else
+{
 masm
 .
 ma_sub
@@ -2466,6 +2491,7 @@ dest
 SetCC
 )
 ;
+}
 if
 (
 ins
@@ -2475,6 +2501,7 @@ snapshot
 (
 )
 )
+{
 bailoutIf
 (
 Assembler
@@ -2489,6 +2516,7 @@ snapshot
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -3146,6 +3174,7 @@ shift_rest
 =
 0
 )
+{
 masm
 .
 ma_lsl
@@ -3164,6 +3193,7 @@ dest
 )
 )
 ;
+}
 handled
 =
 true
@@ -3349,6 +3379,7 @@ canOverflow
 (
 )
 )
+{
 c
 =
 masm
@@ -3374,7 +3405,9 @@ scratch
 c
 )
 ;
+}
 else
+{
 masm
 .
 ma_mul
@@ -3400,6 +3433,7 @@ scratch
 }
 }
 }
+}
 /
 /
 Bailout
@@ -3415,6 +3449,7 @@ canOverflow
 (
 )
 )
+{
 bailoutIf
 (
 c
@@ -3426,6 +3461,7 @@ snapshot
 )
 )
 ;
+}
 }
 else
 {
@@ -3515,6 +3551,7 @@ canOverflow
 (
 )
 )
+{
 bailoutIf
 (
 c
@@ -3526,6 +3563,7 @@ snapshot
 )
 )
 ;
+}
 if
 (
 mul
@@ -7116,6 +7154,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 ma_orr
@@ -7138,7 +7177,9 @@ dest
 scratch
 )
 ;
+}
 else
+{
 masm
 .
 ma_orr
@@ -7157,6 +7198,7 @@ dest
 )
 )
 ;
+}
 break
 ;
 case
@@ -7171,6 +7213,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 ma_eor
@@ -7193,7 +7236,9 @@ dest
 scratch
 )
 ;
+}
 else
+{
 masm
 .
 ma_eor
@@ -7212,6 +7257,7 @@ dest
 )
 )
 ;
+}
 break
 ;
 case
@@ -7226,6 +7272,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 ma_and
@@ -7248,7 +7295,9 @@ dest
 scratch
 )
 ;
+}
 else
+{
 masm
 .
 ma_and
@@ -7267,6 +7316,7 @@ dest
 )
 )
 ;
+}
 break
 ;
 default
@@ -7368,6 +7418,7 @@ if
 (
 shift
 )
+{
 masm
 .
 ma_lsl
@@ -7380,7 +7431,9 @@ lhs
 dest
 )
 ;
+}
 else
+{
 masm
 .
 ma_mov
@@ -7389,6 +7442,7 @@ lhs
 dest
 )
 ;
+}
 break
 ;
 case
@@ -7398,6 +7452,7 @@ if
 (
 shift
 )
+{
 masm
 .
 ma_asr
@@ -7410,7 +7465,9 @@ lhs
 dest
 )
 ;
+}
 else
+{
 masm
 .
 ma_mov
@@ -7419,6 +7476,7 @@ lhs
 dest
 )
 ;
+}
 break
 ;
 case
@@ -7794,6 +7852,7 @@ if
 (
 shift
 )
+{
 masm
 .
 ma_lsr
@@ -7806,7 +7865,9 @@ lhs
 temp
 )
 ;
+}
 else
+{
 masm
 .
 ma_mov
@@ -7815,6 +7876,7 @@ lhs
 temp
 )
 ;
+}
 }
 else
 {
@@ -8218,6 +8280,7 @@ isGeneralReg
 (
 )
 )
+{
 return
 MoveOperand
 (
@@ -8227,6 +8290,7 @@ a
 )
 )
 ;
+}
 if
 (
 a
@@ -8235,6 +8299,7 @@ isFloatReg
 (
 )
 )
+{
 return
 MoveOperand
 (
@@ -8244,6 +8309,7 @@ a
 )
 )
 ;
+}
 int32_t
 offset
 =
@@ -10217,12 +10283,14 @@ FrameSizes
 i
 ]
 )
+{
 return
 FrameSizeClass
 (
 i
 )
 ;
+}
 }
 return
 FrameSizeClass
@@ -11679,6 +11747,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 cmp32
@@ -11704,7 +11773,9 @@ toBoolean
 )
 )
 ;
+}
 else
+{
 masm
 .
 cmp32
@@ -11720,6 +11791,7 @@ rhs
 )
 )
 ;
+}
 masm
 .
 emitSet
@@ -11916,6 +11988,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 cmp32
@@ -11941,7 +12014,9 @@ toBoolean
 )
 )
 ;
+}
 else
+{
 masm
 .
 cmp32
@@ -11957,6 +12032,7 @@ rhs
 )
 )
 ;
+}
 emitBranch
 (
 JSOpToCondition
@@ -12455,6 +12531,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 ma_tst
@@ -12483,7 +12560,9 @@ right
 scratch
 )
 ;
+}
 else
+{
 masm
 .
 ma_tst
@@ -12508,6 +12587,7 @@ right
 )
 )
 ;
+}
 emitBranch
 (
 baab
@@ -13313,12 +13393,14 @@ NopSize
 (
 )
 )
+{
 masm
 .
 nop
 (
 )
 ;
+}
 masm
 .
 bind
@@ -14509,6 +14591,7 @@ MIRType
 :
 Double
 )
+{
 masm
 .
 moveDouble
@@ -14521,6 +14604,7 @@ Assembler
 Zero
 )
 ;
+}
 else
 if
 (
@@ -14532,6 +14616,7 @@ MIRType
 :
 Float32
 )
+{
 masm
 .
 moveFloat32
@@ -14544,7 +14629,9 @@ Assembler
 Zero
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -14556,6 +14643,7 @@ visitWasmSelect
 "
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -15043,6 +15131,7 @@ size
 =
 32
 )
+{
 masm
 .
 ma_vldr
@@ -15064,7 +15153,9 @@ Assembler
 Always
 )
 ;
+}
 else
+{
 masm
 .
 ma_vldr
@@ -15082,6 +15173,7 @@ Assembler
 Always
 )
 ;
+}
 }
 else
 {
@@ -15157,6 +15249,7 @@ size
 =
 32
 )
+{
 output
 =
 output
@@ -15165,6 +15258,7 @@ singleOverlay
 (
 )
 ;
+}
 Assembler
 :
 :
@@ -15212,6 +15306,7 @@ size
 =
 32
 )
+{
 masm
 .
 ma_vimm_f32
@@ -15226,7 +15321,9 @@ Assembler
 AboveOrEqual
 )
 ;
+}
 else
+{
 masm
 .
 ma_vimm
@@ -15241,6 +15338,7 @@ Assembler
 AboveOrEqual
 )
 ;
+}
 cond
 =
 Assembler
@@ -15496,6 +15594,7 @@ MIRType
 :
 Int64
 )
+{
 masm
 .
 wasmLoadI64
@@ -15515,7 +15614,9 @@ lir
 )
 )
 ;
+}
 else
+{
 masm
 .
 wasmLoad
@@ -15540,6 +15641,7 @@ output
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -15723,6 +15825,7 @@ byteSize
 =
 8
 )
+{
 tmp3
 =
 ToRegister
@@ -15736,6 +15839,7 @@ getTemp
 )
 )
 ;
+}
 masm
 .
 wasmUnalignedLoadFP
@@ -16074,6 +16178,7 @@ Scalar
 :
 Int64
 )
+{
 masm
 .
 wasmStoreI64
@@ -16102,7 +16207,9 @@ ptr
 ptr
 )
 ;
+}
 else
+{
 masm
 .
 wasmStore
@@ -16131,6 +16238,7 @@ ptr
 ptr
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -16662,6 +16770,7 @@ size
 =
 32
 )
+{
 masm
 .
 storeFloat32
@@ -16670,7 +16779,9 @@ vd
 addr
 )
 ;
+}
 else
+{
 masm
 .
 storeDouble
@@ -16679,6 +16790,7 @@ vd
 addr
 )
 ;
+}
 }
 else
 {
@@ -16808,6 +16920,7 @@ size
 =
 32
 )
+{
 value
 =
 value
@@ -16816,6 +16929,7 @@ singleOverlay
 (
 )
 ;
+}
 masm
 .
 ma_vstr
@@ -17500,6 +17614,7 @@ isGeneralReg
 (
 )
 )
+{
 masm
 .
 ma_str
@@ -17517,7 +17632,9 @@ dst
 scratch
 )
 ;
+}
 else
+{
 masm
 .
 ma_vstr
@@ -17535,6 +17652,7 @@ dst
 scratch
 )
 ;
+}
 }
 }
 void
@@ -17781,6 +17899,7 @@ used
 (
 )
 )
+{
 masm
 .
 bind
@@ -17789,6 +17908,7 @@ bind
 done
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -17958,6 +18078,7 @@ used
 (
 )
 )
+{
 masm
 .
 bind
@@ -17966,6 +18087,7 @@ bind
 done
 )
 ;
+}
 }
 template
 <
@@ -17998,8 +18120,10 @@ if
 !
 mir
 )
+{
 return
 ;
+}
 if
 (
 mir
@@ -19266,6 +19390,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 callWithABI
@@ -19285,7 +19410,9 @@ SymbolicAddress
 SaturatingTruncateDoubleToUint64
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -19306,6 +19433,7 @@ SaturatingTruncateDoubleToInt64
 )
 ;
 }
+}
 else
 {
 if
@@ -19322,6 +19450,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 callWithABI
@@ -19341,7 +19470,9 @@ SymbolicAddress
 TruncateDoubleToUint64
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -19361,6 +19492,7 @@ SymbolicAddress
 TruncateDoubleToInt64
 )
 ;
+}
 }
 masm
 .
@@ -19547,8 +19679,10 @@ isSaturating
 (
 )
 )
+{
 return
 ;
+}
 masm
 .
 outOfLineWasmTruncateToIntCheck
@@ -20255,6 +20389,7 @@ bottomHalf
 (
 )
 )
+{
 masm
 .
 move32
@@ -20270,7 +20405,9 @@ low
 output
 )
 ;
+}
 else
+{
 masm
 .
 move32
@@ -20286,6 +20423,7 @@ high
 output
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -20338,6 +20476,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 ma_mov
@@ -20351,7 +20490,9 @@ output
 high
 )
 ;
+}
 else
+{
 masm
 .
 ma_asr
@@ -20368,6 +20509,7 @@ output
 high
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -20836,6 +20978,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 xor64
@@ -20844,7 +20987,9 @@ output
 output
 )
 ;
+}
 else
+{
 masm
 .
 wasmTrap
@@ -20864,6 +21009,7 @@ bytecodeOffset
 )
 )
 ;
+}
 masm
 .
 jump
@@ -20932,6 +21078,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 callWithABI
@@ -20951,7 +21098,9 @@ SymbolicAddress
 ModI64
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -20971,6 +21120,7 @@ SymbolicAddress
 DivI64
 )
 ;
+}
 MOZ_ASSERT
 (
 ReturnReg64
@@ -21188,6 +21338,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 callWithABI
@@ -21207,7 +21358,9 @@ SymbolicAddress
 UModI64
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -21227,6 +21380,7 @@ SymbolicAddress
 UDivI64
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -21819,6 +21973,7 @@ if
 (
 shift
 )
+{
 masm
 .
 lshift64
@@ -21833,6 +21988,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 case
@@ -21842,6 +21998,7 @@ if
 (
 shift
 )
+{
 masm
 .
 rshift64Arithmetic
@@ -21856,6 +22013,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 case
@@ -21865,6 +22023,7 @@ if
 (
 shift
 )
+{
 masm
 .
 rshift64
@@ -21879,6 +22038,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 default
@@ -22051,6 +22211,7 @@ IsConstant
 rhs
 )
 )
+{
 masm
 .
 or64
@@ -22068,7 +22229,9 @@ lhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 or64
@@ -22083,6 +22246,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 case
@@ -22095,6 +22259,7 @@ IsConstant
 rhs
 )
 )
+{
 masm
 .
 xor64
@@ -22112,7 +22277,9 @@ lhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 xor64
@@ -22127,6 +22294,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 case
@@ -22139,6 +22307,7 @@ IsConstant
 rhs
 )
 )
+{
 masm
 .
 and64
@@ -22156,7 +22325,9 @@ lhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 and64
@@ -22171,6 +22342,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 default
@@ -22309,6 +22481,7 @@ isLeftRotate
 (
 )
 )
+{
 masm
 .
 rotateLeft64
@@ -22322,7 +22495,9 @@ output
 temp
 )
 ;
+}
 else
+{
 masm
 .
 rotateRight64
@@ -22337,6 +22512,7 @@ temp
 )
 ;
 }
+}
 else
 {
 if
@@ -22348,6 +22524,7 @@ isLeftRotate
 (
 )
 )
+{
 masm
 .
 rotateLeft64
@@ -22361,7 +22538,9 @@ output
 temp
 )
 ;
+}
 else
+{
 masm
 .
 rotateRight64
@@ -22375,6 +22554,7 @@ output
 temp
 )
 ;
+}
 }
 }
 void
@@ -22424,6 +22604,7 @@ arg
 )
 )
 )
+{
 masm
 .
 store64
@@ -22443,7 +22624,9 @@ arg
 dst
 )
 ;
+}
 else
+{
 masm
 .
 store64
@@ -22460,6 +22643,7 @@ arg
 dst
 )
 ;
+}
 }
 void
 CodeGenerator

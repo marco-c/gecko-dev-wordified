@@ -330,9 +330,11 @@ None
 (
 )
 )
+{
 return
 frameSize_
 ;
+}
 return
 frameClass
 (
@@ -405,6 +407,7 @@ None
 (
 )
 )
+{
 return
 (
 uint8_t
@@ -417,6 +420,7 @@ sizeof
 BailoutStack
 )
 ;
+}
 return
 (
 uint8_t

@@ -3180,6 +3180,7 @@ i
 +
 +
 )
+{
 masm
 .
 transferReg
@@ -3193,6 +3194,7 @@ i
 )
 )
 ;
+}
 masm
 .
 finishDataTransfer
@@ -3322,6 +3324,7 @@ i
 +
 +
 )
+{
 masm
 .
 transferFloatReg
@@ -3336,6 +3339,7 @@ Double
 )
 )
 ;
+}
 masm
 .
 finishFloatTransfer
@@ -4463,6 +4467,7 @@ i
 +
 +
 )
+{
 masm
 .
 transferReg
@@ -4476,6 +4481,7 @@ i
 )
 )
 ;
+}
 masm
 .
 finishDataTransfer
@@ -4605,6 +4611,7 @@ i
 +
 +
 )
+{
 masm
 .
 transferFloatReg
@@ -4619,6 +4626,7 @@ Double
 )
 )
 ;
+}
 masm
 .
 finishFloatTransfer
@@ -5436,6 +5444,7 @@ i
 +
 +
 )
+{
 masm
 .
 ma_bl
@@ -5444,6 +5453,7 @@ ma_bl
 bailout
 )
 ;
+}
 masm
 .
 bind
@@ -5685,12 +5695,14 @@ expectTailCall
 =
 NonTailCall
 )
+{
 masm
 .
 pushReturnAddress
 (
 )
 ;
+}
 masm
 .
 loadJSContext
@@ -5959,9 +5971,11 @@ masm
 f
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 setupUnalignedABICall
@@ -6210,6 +6224,7 @@ outReg
 =
 InvalidReg
 )
+{
 masm
 .
 passABIArg
@@ -6217,6 +6232,7 @@ passABIArg
 outReg
 )
 ;
+}
 masm
 .
 callWithABI
@@ -6243,9 +6259,11 @@ masm
 f
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Test
@@ -6450,6 +6468,7 @@ runtime
 >
 jitSupportsFloatingPoint
 )
+{
 masm
 .
 loadDouble
@@ -6462,7 +6481,9 @@ sp
 ReturnDoubleReg
 )
 ;
+}
 else
+{
 masm
 .
 assumeUnreachable
@@ -6482,6 +6503,7 @@ support
 "
 )
 ;
+}
 masm
 .
 freeStack
@@ -6544,12 +6566,14 @@ JitOptions
 .
 spectreJitToCxxCalls
 )
+{
 masm
 .
 speculationBarrier
 (
 )
 ;
+}
 masm
 .
 leaveExitFrame
