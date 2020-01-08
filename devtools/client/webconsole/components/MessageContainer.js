@@ -312,7 +312,7 @@ executionPoint
 &
 pausedExecutionPoint
 .
-checkpoint
+progress
 =
 =
 =
@@ -320,7 +320,7 @@ message
 .
 executionPoint
 .
-checkpoint
+progress
 ;
 }
 class
