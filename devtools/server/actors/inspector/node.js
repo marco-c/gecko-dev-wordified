@@ -1624,14 +1624,10 @@ this
 .
 walker
 .
-children
+countChildren
 (
 this
 )
-.
-nodes
-.
-length
 ;
 }
 return
