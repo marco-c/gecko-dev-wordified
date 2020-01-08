@@ -1688,7 +1688,7 @@ file
 /
 shorthands
 /
-mask
+svg
 .
 mako
 .
