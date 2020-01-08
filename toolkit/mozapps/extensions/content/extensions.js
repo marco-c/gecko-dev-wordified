@@ -6636,12 +6636,6 @@ resolve
 {
 aAddon
 .
-markAsSeen
-(
-)
-;
-aAddon
-.
 enable
 (
 )
