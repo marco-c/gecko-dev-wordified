@@ -374,11 +374,6 @@ history
 bookmark
 "
 "
-history
-.
-onlyTyped
-"
-"
 openpage
 "
 "
