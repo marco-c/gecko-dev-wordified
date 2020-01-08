@@ -7524,6 +7524,15 @@ hosting
 initialization
 .
 case
+JSOP_DYNAMIC_IMPORT
+:
+/
+/
+Dynamic
+module
+import
+.
+case
 JSOP_UNUSED126
 :
 case

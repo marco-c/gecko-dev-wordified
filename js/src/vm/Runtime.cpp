@@ -1047,6 +1047,9 @@ moduleResolveHook
 moduleMetadataHook
 (
 )
+moduleDynamicImportHook
+(
+)
 {
 JS_COUNT_CTOR
 (
