@@ -836,7 +836,7 @@ fonthighlighter
 .
 enabled
 "
-false
+true
 )
 ;
 /
