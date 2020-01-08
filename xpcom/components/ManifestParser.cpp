@@ -426,6 +426,12 @@ kParsingTable
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 {
 "
 manifest
@@ -584,6 +590,12 @@ nsChromeRegistry
 :
 ManifestResource
 }
+/
+/
+clang
+-
+format
+on
 }
 ;
 static

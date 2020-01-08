@@ -6099,6 +6099,12 @@ kUnsupportedServices
 {
 /
 /
+clang
+-
+format
+off
+/
+/
 Unknown
 queried
 by
@@ -6250,6 +6256,12 @@ JAWS
 0x0B
 }
 }
+/
+/
+clang
+-
+format
+on
 }
 ;
 /

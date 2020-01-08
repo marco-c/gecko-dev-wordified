@@ -7181,6 +7181,12 @@ prepared
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 StatementSql
 (
 mStatement_CacheSize
@@ -7763,6 +7769,12 @@ ActivateTimeStamp
 ;
 "
 )
+/
+/
+clang
+-
+format
+on
 }
 ;
 for

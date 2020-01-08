@@ -137,6 +137,12 @@ gWinEventMap
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 kEVENT_WIN_UNKNOWN
 /
 /
@@ -763,5 +769,11 @@ nsIAccessibleEvent
 :
 :
 EVENT_SCROLLING
+/
+/
+clang
+-
+format
+on
 }
 ;

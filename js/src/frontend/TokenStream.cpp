@@ -12866,6 +12866,12 @@ firstCharKinds
 =
 {
 /
+/
+clang
+-
+format
+off
+/
 *
 0
 1
@@ -13085,6 +13091,12 @@ _______
 T_RC
 T_BITNOT
 _______
+/
+/
+clang
+-
+format
+on
 }
 ;
 #

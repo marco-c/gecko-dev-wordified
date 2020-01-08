@@ -210,6 +210,12 @@ sLibs
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 #
 if
 defined
@@ -331,6 +337,12 @@ so
 "
 #
 endif
+/
+/
+clang
+-
+format
+on
 }
 ;
 /

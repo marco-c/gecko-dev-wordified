@@ -16686,6 +16686,12 @@ intrinsic_functions
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 JS_INLINABLE_FN
 (
 "
@@ -19262,6 +19268,12 @@ intrinsic_PromiseResolve
 0
 )
 JS_FS_END
+/
+/
+clang
+-
+format
+on
 }
 ;
 void

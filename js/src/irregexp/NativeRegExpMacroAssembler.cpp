@@ -10048,6 +10048,12 @@ word_character_map
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 0x00u
 0x00u
 0x00u
@@ -10403,5 +10409,11 @@ range
 0x00u
 0x00u
 0x00u
+/
+/
+clang
+-
+format
+on
 }
 ;

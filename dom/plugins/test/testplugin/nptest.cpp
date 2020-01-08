@@ -2302,6 +2302,12 @@ timerEvents
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 {
 -
 1
@@ -2360,6 +2366,12 @@ false
 false
 1
 }
+/
+/
+clang
+-
+format
+on
 }
 ;
 static

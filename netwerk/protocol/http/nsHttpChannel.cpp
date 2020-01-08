@@ -1219,6 +1219,12 @@ gFastBlockAnalyticsProviders
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 {
 LABELS_DOCUMENT_ANALYTICS_TRACKER_FASTBLOCKED
 :
@@ -1335,6 +1341,12 @@ v12group
 com
 "
 }
+/
+/
+clang
+-
+format
+on
 }
 ;
 void

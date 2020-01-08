@@ -218,6 +218,12 @@ sNetworkIDNBlacklistChars
 =
 {
 /
+/
+clang
+-
+format
+off
+/
 *
 0x0020
 *
@@ -343,6 +349,12 @@ sNetworkIDNBlacklistChars
 0xFFFB
 0xFFFC
 0xFFFD
+/
+/
+clang
+-
+format
+on
 }
 ;
 nsTextToSubURI

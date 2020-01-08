@@ -602,6 +602,12 @@ gAtkStateMap
 Cross
 Platform
 States
+/
+/
+clang
+-
+format
+off
 {
 kNone
 kMapOpposite
@@ -1337,6 +1343,12 @@ CURRENT
 <
 <
 48
+/
+/
+clang
+-
+format
+on
 }
 ;
 static

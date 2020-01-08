@@ -1956,6 +1956,12 @@ gParamsList
 {
 /
 /
+clang
+-
+format
+off
+/
+/
 Successful
 Failing
 Remove
@@ -2006,6 +2012,12 @@ iterate
 5000
 false
 }
+/
+/
+clang
+-
+format
+on
 }
 ;
 class

@@ -287,6 +287,12 @@ LogLevel
 :
 Debug
 )
+/
+/
+clang
+-
+format
+off
 static
 const
 char16_t
@@ -466,6 +472,12 @@ ATSYMBOL
 '
 '
 ;
+/
+/
+clang
+-
+format
+on
 static
 const
 uint32_t

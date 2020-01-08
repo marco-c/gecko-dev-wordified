@@ -1862,6 +1862,12 @@ gFlags
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 {
 "
 verify
@@ -1912,6 +1918,12 @@ resize
 "
 VERIFY_REFLOW_DURING_RESIZE_REFLOW
 }
+/
+/
+clang
+-
+format
+on
 }
 ;
 #

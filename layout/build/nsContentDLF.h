@@ -372,6 +372,12 @@ nsIDocumentLoaderFactory
 aResult
 )
 ;
+/
+/
+clang
+-
+format
+off
 #
 ifdef
 MOZ_WEBM
@@ -1040,5 +1046,11 @@ factory
 }
 \
 CONTENTDLF_WEBM_CATEGORIES
+/
+/
+clang
+-
+format
+on
 #
 endif

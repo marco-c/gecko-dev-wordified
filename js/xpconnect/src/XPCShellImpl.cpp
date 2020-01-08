@@ -4020,6 +4020,12 @@ glob_functions
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 JS_FN
 (
 "
@@ -4181,6 +4187,12 @@ RegisterXPCTestComponents
 #
 endif
 JS_FS_END
+/
+/
+clang
+-
+format
+on
 }
 ;
 /

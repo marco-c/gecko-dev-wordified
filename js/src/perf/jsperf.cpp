@@ -643,6 +643,12 @@ pm_fns
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 JS_FN
 (
 "
@@ -680,6 +686,12 @@ pm_canMeasureSomething
 PM_FATTRS
 )
 JS_FS_END
+/
+/
+clang
+-
+format
+on
 }
 ;
 static

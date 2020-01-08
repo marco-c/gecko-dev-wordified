@@ -1241,6 +1241,12 @@ js_EscapeMap
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 '
 \
 b
@@ -1309,6 +1315,12 @@ v
 \
 0
 '
+/
+/
+clang
+-
+format
+on
 }
 ;
 template

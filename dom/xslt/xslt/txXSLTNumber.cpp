@@ -2430,6 +2430,12 @@ alphanumericRanges
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 {
 0x0030
 0x0039
@@ -3590,6 +3596,12 @@ alphanumericRanges
 0xFFD2
 0xFFD7
 }
+/
+/
+clang
+-
+format
+on
 }
 ;
 CharRange

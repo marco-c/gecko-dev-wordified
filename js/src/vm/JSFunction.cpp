@@ -12665,6 +12665,12 @@ function_methods
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 JS_FN
 (
 js_toSource_str
@@ -12714,6 +12720,12 @@ JSPROP_READONLY
 JSPROP_PERMANENT
 )
 JS_FS_END
+/
+/
+clang
+-
+format
+on
 }
 ;
 /

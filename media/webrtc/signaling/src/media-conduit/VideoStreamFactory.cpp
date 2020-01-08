@@ -292,6 +292,12 @@ kResolutionAndBitrateLimits
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 {
 MB_OF
 (
@@ -471,6 +477,12 @@ KBPS
 QCIF
 and
 below
+/
+/
+clang
+-
+format
+on
 }
 ;
 static

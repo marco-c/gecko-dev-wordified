@@ -1602,6 +1602,12 @@ kPairs
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 {
 MODIFIER_ALT
 NS_DOM_KEYNAME_ALT
@@ -1654,6 +1660,12 @@ NS_DOM_KEYNAME_SYMBOLLOCK
 MODIFIER_OS
 NS_DOM_KEYNAME_OS
 }
+/
+/
+clang
+-
+format
+on
 }
 ;
 /

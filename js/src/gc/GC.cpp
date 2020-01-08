@@ -2989,6 +2989,12 @@ slotsToThingKind
 =
 {
 /
+/
+clang
+-
+format
+off
+/
 *
 0
 *
@@ -3081,6 +3087,12 @@ AllocKind
 :
 :
 OBJECT16
+/
+/
+clang
+-
+format
+on
 }
 ;
 /

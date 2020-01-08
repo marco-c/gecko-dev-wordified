@@ -17195,6 +17195,12 @@ executableExts
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 "
 ad
 "
@@ -17572,6 +17578,12 @@ wsf
 "
 wsh
 "
+/
+/
+clang
+-
+format
+on
 }
 ;
 nsDependentSubstring

@@ -687,6 +687,12 @@ identityMatrix
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 1
 0
 0
@@ -707,6 +713,12 @@ identityMatrix
 0
 1
 0
+/
+/
+clang
+-
+format
+on
 }
 ;
 atts

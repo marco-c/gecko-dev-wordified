@@ -38100,6 +38100,12 @@ d2deffect
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 68
 88
 66
@@ -108742,5 +108748,11 @@ d2deffect
 7
 1
 0
+/
+/
+clang
+-
+format
+on
 }
 ;
