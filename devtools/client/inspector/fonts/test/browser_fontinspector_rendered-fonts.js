@@ -104,7 +104,7 @@ TEST_URI
 URL_ROOT
 +
 "
-browser_fontinspector
+doc_browser_fontinspector
 .
 html
 "
