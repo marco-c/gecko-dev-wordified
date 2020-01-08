@@ -1330,7 +1330,7 @@ resolved
 options
 for
 a
-PluralRules
+RelativeTimeFormat
 object
 .
 *
