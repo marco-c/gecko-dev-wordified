@@ -250,6 +250,16 @@ effectTiming
 false
 )
 ;
+if
+(
+!
+simulatedAnimation
+)
+{
+return
+null
+;
+}
 const
 endTime
 =
