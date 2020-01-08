@@ -1853,16 +1853,6 @@ CHECK
 weakMap
 )
 ;
-CHECK
-(
-weakMap
--
->
-init
-(
-)
-)
-;
 /
 /
 Make

@@ -691,11 +691,6 @@ IdToObjectMap
 (
 )
 ;
-bool
-init
-(
-)
-;
 void
 trace
 (
@@ -837,8 +832,7 @@ SystemAllocPolicy
 ;
 public
 :
-bool
-init
+ObjectToIdMap
 (
 )
 ;
@@ -914,11 +908,6 @@ JavaScriptShared
 virtual
 ~
 JavaScriptShared
-(
-)
-;
-bool
-init
 (
 )
 ;

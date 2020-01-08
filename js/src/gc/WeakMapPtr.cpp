@@ -465,15 +465,6 @@ if
 (
 !
 map
-|
-|
-!
-map
--
->
-init
-(
-)
 )
 return
 false

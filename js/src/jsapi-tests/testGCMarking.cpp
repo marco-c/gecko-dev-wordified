@@ -922,15 +922,6 @@ CHECK
 (
 compartments
 .
-init
-(
-)
-)
-;
-CHECK
-(
-compartments
-.
 put
 (
 global2

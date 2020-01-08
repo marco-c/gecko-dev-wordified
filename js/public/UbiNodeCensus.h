@@ -1532,15 +1532,6 @@ cx
 )
 {
 }
-MOZ_MUST_USE
-JS_PUBLIC_API
-(
-bool
-)
-init
-(
-)
-;
 }
 ;
 /

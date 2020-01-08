@@ -18970,15 +18970,6 @@ isEnabled
 )
 )
 ;
-MOZ_ASSERT
-(
-stores_
-.
-initialized
-(
-)
-)
-;
 if
 (
 last_

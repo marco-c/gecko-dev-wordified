@@ -1554,15 +1554,6 @@ MallocAllocPolicy
 >
 hs
 ;
-MOZ_RELEASE_ASSERT
-(
-hs
-.
-init
-(
-)
-)
-;
 for
 (
 size_t

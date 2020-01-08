@@ -746,11 +746,7 @@ false
 }
 }
 return
-seen
-.
-init
-(
-)
+true
 ;
 }
 bool

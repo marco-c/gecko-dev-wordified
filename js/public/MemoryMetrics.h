@@ -2869,15 +2869,6 @@ if
 (
 !
 allScriptSources
-|
-|
-!
-allScriptSources
--
->
-init
-(
-)
 )
 MOZ_CRASH
 (

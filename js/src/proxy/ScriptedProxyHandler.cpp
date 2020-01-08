@@ -4445,16 +4445,6 @@ jsid
 >
 (
 cx
-)
-)
-;
-if
-(
-!
-uncheckedResultKeys
-.
-init
-(
 trapResult
 .
 length
@@ -4462,8 +4452,6 @@ length
 )
 )
 )
-return
-false
 ;
 for
 (

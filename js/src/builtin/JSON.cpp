@@ -4762,16 +4762,6 @@ jsid
 >
 (
 cx
-)
-)
-;
-if
-(
-!
-idSet
-.
-init
-(
 Min
 (
 len
@@ -4779,8 +4769,6 @@ MaxInitialSize
 )
 )
 )
-return
-false
 ;
 /
 *

@@ -1208,11 +1208,6 @@ JSRuntime
 rt
 )
 ;
-bool
-init
-(
-)
-;
 /
 *
 management

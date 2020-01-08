@@ -191,11 +191,6 @@ WrapperOwner
 (
 )
 ;
-bool
-init
-(
-)
-;
 /
 /
 Standard

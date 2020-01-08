@@ -237,15 +237,6 @@ ASSERT_TRUE
 (
 targetCompartments
 .
-init
-(
-)
-)
-;
-ASSERT_TRUE
-(
-targetCompartments
-.
 put
 (
 compartment

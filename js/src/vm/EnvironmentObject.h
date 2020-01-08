@@ -6601,11 +6601,6 @@ zone_
 }
 private
 :
-bool
-init
-(
-)
-;
 static
 DebugEnvironments
 *
