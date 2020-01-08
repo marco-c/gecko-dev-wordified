@@ -227,8 +227,11 @@ unpackUnmultiplyAlpha
 bool
 redefine
 (
-GLenum
-target
+gl
+:
+:
+TextureType
+type
 GLenum
 internalformat
 const

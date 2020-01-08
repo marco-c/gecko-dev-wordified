@@ -456,6 +456,12 @@ texture2DRect
 texture
 "
 "
+texture2DRectProj
+"
+"
+textureProj
+"
+"
 textureCube
 "
 "

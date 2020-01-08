@@ -111,8 +111,6 @@ ValidateSwitchStatementList
 (
 TBasicType
 switchType
-int
-shaderVersion
 TDiagnostics
 *
 diagnostics
