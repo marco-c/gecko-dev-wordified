@@ -1131,7 +1131,7 @@ MOZ_DIAGNOSTIC_ASSERT
 root
 -
 >
-IsComposedDocParticipant
+IsInComposedDoc
 (
 )
 )
