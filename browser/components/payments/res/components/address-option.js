@@ -404,6 +404,7 @@ static
 formatSingleLineLabel
 (
 address
+addressFields
 )
 {
 return
@@ -412,6 +413,7 @@ PaymentDialogUtils
 getAddressLabel
 (
 address
+addressFields
 )
 ;
 }
