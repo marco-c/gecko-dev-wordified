@@ -1818,7 +1818,8 @@ multiprocessing
 .
 Process
 (
-None
+target
+=
 _collect
                                                 
 args
