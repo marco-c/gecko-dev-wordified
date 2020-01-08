@@ -1536,7 +1536,7 @@ eventType
 :
 AndroidEvents
 .
-WINDOW_STATE_CHANGED
+WINDOW_CONTENT_CHANGED
 bounds
 :
 Utils
