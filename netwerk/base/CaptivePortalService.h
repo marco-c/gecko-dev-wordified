@@ -150,10 +150,6 @@ NS_DECL_NSIOBSERVER
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSICAPTIVEPORTALCALLBACK
 NS_DECL_NSINAMED
-CaptivePortalService
-(
-)
-;
 nsresult
 Initialize
 (
@@ -166,6 +162,15 @@ Start
 ;
 nsresult
 Stop
+(
+)
+;
+static
+already_AddRefed
+<
+nsICaptivePortalService
+>
+GetSingleton
 (
 )
 ;
@@ -204,6 +209,10 @@ aState
 ;
 private
 :
+CaptivePortalService
+(
+)
+;
 virtual
 ~
 CaptivePortalService
