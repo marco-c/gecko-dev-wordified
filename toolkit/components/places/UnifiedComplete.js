@@ -1827,6 +1827,9 @@ h
 .
 frecency
 DESC
+LIMIT
+:
+maxResults
 ;
 /
 /
@@ -16268,6 +16271,16 @@ userContextId
 this
 .
 _userContextId
+maxResults
+:
+Prefs
+.
+get
+(
+"
+maxRichResults
+"
+)
 }
 ]
 ;
