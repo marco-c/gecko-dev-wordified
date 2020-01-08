@@ -3022,13 +3022,11 @@ Capabilities
 match
 self
 {
-&
 NewSessionParameters
 :
 :
 Spec
 (
-ref
 x
 )
 =
@@ -3039,13 +3037,11 @@ match_browser
 (
 browser_capabilities
 )
-&
 NewSessionParameters
 :
 :
 Legacy
 (
-ref
 x
 )
 =
