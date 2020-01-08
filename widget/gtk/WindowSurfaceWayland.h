@@ -115,6 +115,10 @@ Types
 .
 h
 "
+#
+define
+BACK_BUFFER_NUM
+2
 namespace
 mozilla
 {
@@ -715,6 +719,9 @@ mWaylandBufferDamage
 WindowBackBuffer
 *
 mBackupBuffer
+[
+BACK_BUFFER_NUM
+]
 ;
 RefPtr
 <
