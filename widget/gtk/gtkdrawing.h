@@ -244,6 +244,9 @@ menu
 guint8
 depressed
 ;
+guint8
+backdrop
+;
 gint32
 curpos
 ;

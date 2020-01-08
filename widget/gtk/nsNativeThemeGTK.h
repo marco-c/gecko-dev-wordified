@@ -410,6 +410,15 @@ aWidgetType
 )
 override
 ;
+virtual
+bool
+WidgetAppearanceDependsOnWindowFocus
+(
+WidgetType
+aWidgetType
+)
+override
+;
 nsNativeThemeGTK
 (
 )
