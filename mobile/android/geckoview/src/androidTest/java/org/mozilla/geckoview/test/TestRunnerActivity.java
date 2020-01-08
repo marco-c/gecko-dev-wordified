@@ -436,6 +436,16 @@ request
 )
 {
 }
+Override
+public
+void
+onCrash
+(
+GeckoSession
+session
+)
+{
+}
 }
 ;
 private
