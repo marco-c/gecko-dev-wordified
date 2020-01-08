@@ -4200,7 +4200,6 @@ IsContentPolicyTypeWhitelistedForFastBlock
 (
 mLoadInfo
 )
-)
 |
 |
 /
