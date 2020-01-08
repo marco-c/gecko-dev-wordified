@@ -864,10 +864,7 @@ emplace
 (
 VariantType
 <
-Vector
-<
-char16_t
->
+ScriptTextBuffer
 >
 (
 )
@@ -905,10 +902,7 @@ emplace
 (
 VariantType
 <
-Vector
-<
-uint8_t
->
+BinASTSourceBuffer
 >
 (
 )
