@@ -697,13 +697,6 @@ nsContentPolicyType
 aContentPolicyType
 LoadTainting
 aTainting
-const
-nsTArray
-<
-nsString
->
-&
-aFirstPartyStorageAccessGrantedOrigins
 bool
 aUpgradeInsecureRequests
 bool
@@ -1056,12 +1049,6 @@ mInternalContentPolicyType
 ;
 LoadTainting
 mTainting
-;
-nsTArray
-<
-nsString
->
-mFirstPartyStorageAccessGrantedOrigins
 ;
 bool
 mUpgradeInsecureRequests

@@ -286,10 +286,6 @@ aIsTrackingResource
 const
 bool
 &
-aFirstPartyStorageAccessGranted
-const
-bool
-&
 aIsSafeTopLevelNav
 const
 bool
@@ -332,10 +328,6 @@ bool
 &
 aIsTrackingResource
 const
-bool
-&
-aFirstPartyStorageAccessGranted
-const
 nsCString
 &
 aCookieString
@@ -376,10 +368,6 @@ const
 bool
 &
 aIsTackingResource
-const
-bool
-&
-aFirstPartyStorageAccessGranted
 const
 bool
 &

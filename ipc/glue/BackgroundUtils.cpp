@@ -2246,12 +2246,6 @@ GetTainting
 aLoadInfo
 -
 >
-GetFirstPartyStorageAccessGrantedOrigins
-(
-)
-aLoadInfo
--
->
 GetUpgradeInsecureRequests
 (
 )
@@ -3101,11 +3095,6 @@ loadInfoArgs
 tainting
 (
 )
-)
-loadInfoArgs
-.
-firstPartyStorageAccessGrantedOrigins
-(
 )
 loadInfoArgs
 .
