@@ -290,7 +290,7 @@ while
 (
 browser
 .
-ownerGlobal
+ownerDocument
 .
 docShell
 .
@@ -309,7 +309,7 @@ browser
 =
 browser
 .
-ownerGlobal
+ownerDocument
 .
 docShell
 .
@@ -785,6 +785,8 @@ let
 aomBrowser
 =
 aomWin
+.
+document
 .
 docShell
 .

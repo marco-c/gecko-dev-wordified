@@ -5939,7 +5939,7 @@ IterSimpleEnumerator
 enum_
 Ci
 .
-nsIDocShell
+nsIInterfaceRequestor
 )
 )
 {
@@ -5948,7 +5948,12 @@ try
 yield
 docShell
 .
-domWindow
+getInterface
+(
+Ci
+.
+nsIDOMWindow
+)
 ;
 }
 catch

@@ -260,6 +260,8 @@ waitUntilActive
 {
 if
 (
+doc
+.
 docShell
 .
 isActive

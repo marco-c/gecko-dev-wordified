@@ -1913,7 +1913,12 @@ docShell
 &
 docShell
 .
-domWindow
+getInterface
+(
+Ci
+.
+nsIDOMWindow
+)
 ;
 }
 /

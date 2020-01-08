@@ -699,6 +699,8 @@ millis
 {
 window
 .
+document
+.
 docShell
 .
 displayLoadError

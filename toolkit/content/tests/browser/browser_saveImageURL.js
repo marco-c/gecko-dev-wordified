@@ -254,7 +254,7 @@ channel
 =
 gBrowser
 .
-contentWindowAsCPOW
+contentDocumentAsCPOW
 .
 docShell
 .
@@ -495,7 +495,7 @@ channel
 =
 gBrowser
 .
-contentWindowAsCPOW
+contentDocumentAsCPOW
 .
 docShell
 .

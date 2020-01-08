@@ -676,8 +676,6 @@ docshell
 =
 ownerDoc
 .
-defaultView
-.
 docShell
 ;
 if
