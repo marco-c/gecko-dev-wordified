@@ -90,6 +90,11 @@ topsrcdir
 package
 mar
 output
+mar_format
+=
+'
+lzma
+'
 )
 :
     
@@ -424,6 +429,26 @@ normpath
 (
 mar
 )
+        
+if
+mar_format
+=
+=
+'
+bz2
+'
+:
+            
+env
+[
+'
+MAR_OLD_FORMAT
+'
+]
+=
+'
+1
+'
         
 #
 The
