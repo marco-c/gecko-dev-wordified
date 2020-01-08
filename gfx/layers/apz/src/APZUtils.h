@@ -670,6 +670,7 @@ AsyncPanZoomController
 *
 /
 class
+MOZ_RAII
 AutoApplyAsyncTestAttributes
 {
 public
