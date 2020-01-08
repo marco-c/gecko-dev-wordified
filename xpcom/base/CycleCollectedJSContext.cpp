@@ -2303,6 +2303,15 @@ Runtime
 IsIdleGCTaskNeeded
 (
 )
+&
+&
+!
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
 )
 {
 nsCOMPtr
