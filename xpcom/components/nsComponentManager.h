@@ -956,7 +956,7 @@ aClass
 ;
 nsDataHashtable
 <
-nsIDHashKey
+nsIDPointerHashKey
 nsFactoryEntry
 *
 >
