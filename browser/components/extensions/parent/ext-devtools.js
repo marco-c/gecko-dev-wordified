@@ -254,7 +254,7 @@ context
 .
 devToolsTarget
 .
-makeRemote
+attach
 (
 )
 ;
@@ -362,7 +362,7 @@ context
 .
 devToolsTarget
 .
-makeRemote
+attach
 (
 )
 ;
