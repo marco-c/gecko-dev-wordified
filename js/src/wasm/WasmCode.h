@@ -1171,7 +1171,7 @@ uint32_t
 funcIndex_
 ;
 uint32_t
-interpCodeRangeIndex_
+funcCodeRangeIndex_
 ;
 uint32_t
 eagerInterpEntryOffset_
@@ -1227,7 +1227,7 @@ funcIndex
 ;
 pod
 .
-interpCodeRangeIndex_
+funcCodeRangeIndex_
 =
 UINT32_MAX
 ;
@@ -1276,7 +1276,7 @@ entryOffset
 ;
 }
 void
-initInterpCodeRangeIndex
+initFuncCodeRangeIndex
 (
 uint32_t
 codeRangeIndex
@@ -1286,7 +1286,7 @@ MOZ_ASSERT
 (
 pod
 .
-interpCodeRangeIndex_
+funcCodeRangeIndex_
 =
 =
 UINT32_MAX
@@ -1294,7 +1294,7 @@ UINT32_MAX
 ;
 pod
 .
-interpCodeRangeIndex_
+funcCodeRangeIndex_
 =
 codeRangeIndex
 ;
@@ -1336,7 +1336,7 @@ funcIndex_
 ;
 }
 uint32_t
-interpCodeRangeIndex
+funcCodeRangeIndex
 (
 )
 const
@@ -1345,7 +1345,7 @@ MOZ_ASSERT
 (
 pod
 .
-interpCodeRangeIndex_
+funcCodeRangeIndex_
 !
 =
 UINT32_MAX
@@ -1354,7 +1354,7 @@ UINT32_MAX
 return
 pod
 .
-interpCodeRangeIndex_
+funcCodeRangeIndex_
 ;
 }
 uint32_t
@@ -2976,7 +2976,7 @@ size_t
 lazyStubSegmentIndex
 ;
 size_t
-interpCodeRangeIndex
+funcCodeRangeIndex
 ;
 LazyFuncExport
 (
@@ -2985,7 +2985,7 @@ funcIndex
 size_t
 lazyStubSegmentIndex
 size_t
-interpCodeRangeIndex
+funcCodeRangeIndex
 )
 :
 funcIndex
@@ -2996,9 +2996,9 @@ lazyStubSegmentIndex
 (
 lazyStubSegmentIndex
 )
-interpCodeRangeIndex
+funcCodeRangeIndex
 (
-interpCodeRangeIndex
+funcCodeRangeIndex
 )
 {
 }

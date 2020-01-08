@@ -5763,7 +5763,7 @@ funcExports
 )
 fe
 .
-initInterpCodeRangeIndex
+initFuncCodeRangeIndex
 (
 funcToCodeRange_
 [
