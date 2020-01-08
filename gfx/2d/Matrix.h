@@ -13107,7 +13107,7 @@ return
 }
 vector
 .
-Normalize
+RobustNormalize
 (
 )
 ;
