@@ -2169,9 +2169,9 @@ v
 length
 <
 =
-Ci
+PlacesUtils
 .
-nsITaggingService
+bookmarks
 .
 MAX_TAG_LENGTH
 )
@@ -2245,9 +2245,9 @@ tag
 .
 length
 >
-Ci
+PlacesUtils
 .
-nsITaggingService
+bookmarks
 .
 MAX_TAG_LENGTH
 )

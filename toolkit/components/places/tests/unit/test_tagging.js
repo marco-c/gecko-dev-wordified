@@ -1439,7 +1439,9 @@ should
 be
 limited
 to
-nsITaggingService
+PlacesUtils
+.
+bookmarks
 .
 MAX_TAG_LENGTH
 (
@@ -1467,9 +1469,9 @@ oong_tag
 var
 n
 =
-Ci
+PlacesUtils
 .
-nsITaggingService
+bookmarks
 .
 MAX_TAG_LENGTH
 ;
