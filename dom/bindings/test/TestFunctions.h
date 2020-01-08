@@ -171,6 +171,9 @@ class
 PromiseReturner
 ;
 class
+WrapperCachedNonISupportsTestInterface
+;
+class
 TestFunctions
 :
 public
@@ -331,6 +334,12 @@ JSObject
 aObj
 )
 ;
+WrapperCachedNonISupportsTestInterface
+*
+WrapperCachedNonISupportsObject
+(
+)
+;
 bool
 WrapObject
 (
@@ -361,6 +370,12 @@ private
 :
 nsString
 mStringData
+;
+RefPtr
+<
+WrapperCachedNonISupportsTestInterface
+>
+mWrapperCachedNonISupportsTestInterface
 ;
 }
 ;
