@@ -1239,6 +1239,10 @@ enable
 it
 .
         
+dmd_enabled
+=
+False
+        
 dmd_py_lib_dir
 =
 os
@@ -1350,6 +1354,10 @@ isfile
 dmd_path
 )
 :
+            
+dmd_enabled
+=
+True
             
 runtime_testvars
 [
@@ -1882,6 +1890,31 @@ conf
 "
 prefs_file
 )
+)
+        
+if
+dmd_enabled
+:
+            
+cmd
+.
+append
+(
+"
+-
+-
+pref
+=
+security
+.
+sandbox
+.
+content
+.
+level
+:
+0
+"
 )
         
 cmd
