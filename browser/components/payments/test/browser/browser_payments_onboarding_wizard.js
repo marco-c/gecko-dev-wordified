@@ -787,7 +787,6 @@ DialogContentUtils
 .
 waitForState
 (
-content
 (
 state
 )
@@ -3140,7 +3139,6 @@ DialogContentUtils
 .
 waitForState
 (
-content
 (
 state
 )
