@@ -171,6 +171,9 @@ ConnectionProxy
 final
 :
 public
+hal
+:
+:
 NetworkObserver
 {
 public
