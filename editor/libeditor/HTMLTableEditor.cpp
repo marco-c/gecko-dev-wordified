@@ -20431,7 +20431,8 @@ CellIndexes
 cellIndexes
 (
 *
-firstSelectedCellElement
+*
+aCell
 error
 )
 ;
