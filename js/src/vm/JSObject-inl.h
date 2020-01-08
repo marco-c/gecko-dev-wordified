@@ -2725,7 +2725,7 @@ const
 {
 return
 *
-realm
+deprecatedRealm
 (
 )
 -
@@ -2749,18 +2749,6 @@ nonCCWGlobal
 )
 const
 {
-MOZ_ASSERT
-(
-!
-js
-:
-:
-IsCrossCompartmentWrapper
-(
-this
-)
-)
-;
 /
 *
 *
@@ -2820,7 +2808,7 @@ barriered
 /
 return
 *
-realm
+nonCCWRealm
 (
 )
 -
