@@ -46,13 +46,6 @@ ProcessedStack
 .
 h
 "
-#
-include
-"
-nsPrintfCString
-.
-h
-"
 using
 namespace
 mozilla
