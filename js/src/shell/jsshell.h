@@ -455,6 +455,7 @@ f_
 =
 stderr
 )
+{
 success
 =
 !
@@ -463,6 +464,7 @@ fclose
 f_
 )
 ;
+}
 f_
 =
 nullptr
@@ -765,6 +767,7 @@ i
 ]
 )
 )
+{
 (
 *
 this
@@ -775,6 +778,7 @@ i
 =
 nullptr
 ;
+}
 }
 }
 }
