@@ -5576,10 +5576,6 @@ PrefReaderError
 new
 (
 msg
-.
-into
-(
-)
 position
 None
 )
@@ -5704,10 +5700,6 @@ Expected
 pref
 function
 "
-.
-into
-(
-)
 token
 .
 position
@@ -5766,10 +5758,6 @@ Expected
 open
 paren
 "
-.
-into
-(
-)
 next
 .
 map
