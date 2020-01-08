@@ -201,8 +201,7 @@ tergi
 fiecare
 instan
 a
-acestei
-pagini
+paginii
 din
 istoric
 ?
@@ -212,9 +211,8 @@ confirm_history_delete_notice_p2
 "
 :
 "
-Aceast
-ac
-iune
+Ac
+iunea
 este
 ireversibil
 .

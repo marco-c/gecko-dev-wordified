@@ -816,9 +816,11 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Nas
+l
+al
+yor
+?
 "
 "
 pocket_cta_button

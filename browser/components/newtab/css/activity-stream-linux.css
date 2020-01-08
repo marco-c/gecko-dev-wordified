@@ -8563,6 +8563,25 @@ child
 context
 -
 menu
+.
+sections
+-
+list
+.
+section
+-
+list
+:
+nth
+-
+child
+(
+4n
+)
+.
+context
+-
+menu
 {
 margin
 -
@@ -18454,7 +18473,7 @@ pointer
 ;
 }
 .
-NewsletterSnippet
+SubmitFormSnippet
 {
 flex
 -
@@ -18476,7 +18495,7 @@ width
 ;
 }
 .
-NewsletterSnippet
+SubmitFormSnippet
 .
 ASRouterButton
 .
@@ -18496,7 +18515,7 @@ flex
 ;
 }
 .
-NewsletterSnippet
+SubmitFormSnippet
 form
 {
 display
@@ -18516,7 +18535,7 @@ width
 ;
 }
 .
-NewsletterSnippet
+SubmitFormSnippet
 .
 message
 {
@@ -18541,7 +18560,7 @@ flex
 ;
 }
 .
-NewsletterSnippet
+SubmitFormSnippet
 .
 privacy
 -
@@ -18571,7 +18590,7 @@ flex
 ;
 }
 .
-NewsletterSnippet
+SubmitFormSnippet
 .
 innerWrapper
 {
@@ -18595,7 +18614,7 @@ center
 ;
 }
 .
-NewsletterSnippet
+SubmitFormSnippet
 .
 footer
 {
@@ -18627,7 +18646,7 @@ padding
 ;
 }
 .
-NewsletterSnippet
+SubmitFormSnippet
 .
 footer
 .
@@ -18659,7 +18678,7 @@ right
 ;
 }
 .
-NewsletterSnippet
+SubmitFormSnippet
 input
 [
 type
@@ -18723,7 +18742,7 @@ width
 ;
 }
 .
-NewsletterSnippet
+SubmitFormSnippet
 input
 [
 type

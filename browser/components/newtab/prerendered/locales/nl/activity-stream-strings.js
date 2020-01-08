@@ -749,9 +749,9 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Hoe
+het
+werkt
 "
 "
 pocket_cta_button

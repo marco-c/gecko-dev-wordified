@@ -774,11 +774,11 @@ nsINavBookmarkObserver
 ;
 this
 .
-handlePlacesEvents
+handlePlacesEvent
 =
 this
 .
-handlePlacesEvents
+handlePlacesEvent
 .
 bind
 (
@@ -786,7 +786,7 @@ this
 )
 ;
 }
-handlePlacesEvents
+handlePlacesEvent
 (
 events
 )
@@ -1148,7 +1148,7 @@ this
 .
 placesObserver
 .
-handlePlacesEvents
+handlePlacesEvent
 )
 ;
 Services
@@ -1445,7 +1445,7 @@ this
 .
 placesObserver
 .
-handlePlacesEvents
+handlePlacesEvent
 )
 ;
 Services
@@ -2193,6 +2193,12 @@ PlacesFeed
 BookmarksObserver
 =
 BookmarksObserver
+;
+PlacesFeed
+.
+PlacesObserver
+=
+PlacesObserver
 ;
 const
 EXPORTED_SYMBOLS
