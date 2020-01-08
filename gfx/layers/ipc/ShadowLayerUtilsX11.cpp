@@ -721,6 +721,16 @@ DefaultXDisplay
 (
 )
 ;
+if
+(
+!
+display
+)
+{
+return
+nullptr
+;
+}
 Screen
 *
 screen
