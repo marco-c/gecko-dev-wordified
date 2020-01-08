@@ -461,8 +461,6 @@ aDirtyArea
 imgDrawingParams
 &
 aImgParams
-float
-aOpacity
 )
 {
 auto
@@ -696,7 +694,6 @@ Render
 (
 aCtx
 aImgParams
-aOpacity
 )
 ;
 }
@@ -2826,8 +2823,6 @@ aCtx
 imgDrawingParams
 &
 aImgParams
-float
-aOpacity
 )
 {
 MOZ_ASSERT
@@ -2993,10 +2988,6 @@ Point
 (
 0
 0
-)
-DrawOptions
-(
-aOpacity
 )
 )
 ;
