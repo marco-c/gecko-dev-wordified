@@ -41283,6 +41283,13 @@ group
 if
 (
 !
+HasDifferentFrame
+(
+aItem
+)
+|
+|
+!
 HasSameTypeAndClip
 (
 aItem
@@ -58489,6 +58496,13 @@ group
 .
 if
 (
+!
+HasDifferentFrame
+(
+aItem
+)
+|
+|
 !
 HasSameTypeAndClip
 (
