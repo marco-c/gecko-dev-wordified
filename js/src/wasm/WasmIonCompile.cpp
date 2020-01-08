@@ -22971,6 +22971,15 @@ MiscOp
 StructSet
 )
 :
+case
+uint16_t
+(
+MiscOp
+:
+:
+StructNarrow
+)
+:
 /
 /
 Not

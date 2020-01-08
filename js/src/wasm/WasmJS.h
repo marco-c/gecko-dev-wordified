@@ -1528,7 +1528,7 @@ SystemAllocPolicy
 >
 &
 &
-structs
+structTypeDescrs
 Handle
 <
 FunctionVector
