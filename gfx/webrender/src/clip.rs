@@ -3007,6 +3007,10 @@ has_non_root_coord_system
 :
 bool
 pub
+has_non_local_clips
+:
+bool
+pub
 world_clip_rect
 :
 WorldRect
@@ -4168,6 +4172,12 @@ has_non_root_coord_system
 =
 false
 ;
+let
+mut
+has_non_local_clips
+=
+false
+;
 /
 /
 For
@@ -4252,6 +4262,10 @@ offset
 =
 >
 {
+has_non_local_clips
+=
+true
+;
 node
 .
 item
@@ -4280,6 +4294,10 @@ transform
 =
 >
 {
+has_non_local_clips
+=
+true
+;
 node
 .
 item
@@ -4554,6 +4572,7 @@ ClipChainInstance
 {
 clips_range
 has_non_root_coord_system
+has_non_local_clips
 local_clip_rect
 world_clip_rect
 }

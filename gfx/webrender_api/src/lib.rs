@@ -227,6 +227,9 @@ mod
 font
 ;
 mod
+gradient_builder
+;
+mod
 image
 ;
 mod
@@ -263,6 +266,13 @@ display_list
 pub
 use
 font
+:
+:
+*
+;
+pub
+use
+gradient_builder
 :
 :
 *
