@@ -3698,7 +3698,7 @@ translationEngine
 =
 =
 "
-bing
+Bing
 "
 )
 {

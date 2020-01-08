@@ -1196,7 +1196,7 @@ translation
 engine
 "
 "
-bing
+Bing
 "
 )
 ;
