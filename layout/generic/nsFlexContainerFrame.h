@@ -428,6 +428,15 @@ mCrossMinSize
 nscoord
 mCrossMaxSize
 ;
+mozilla
+:
+:
+dom
+:
+:
+FlexItemClampState
+mClampState
+;
 }
 ;
 struct

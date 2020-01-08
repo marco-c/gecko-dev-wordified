@@ -440,10 +440,10 @@ mCrossMaxSize
 ;
 mClampState
 =
-FlexItemClampState
-:
-:
-Unclamped
+aItem
+-
+>
+mClampState
 ;
 }
 JSObject
