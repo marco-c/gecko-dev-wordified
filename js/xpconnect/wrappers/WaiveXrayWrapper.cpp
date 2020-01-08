@@ -203,9 +203,11 @@ cx
 v
 )
 )
+{
 return
 false
 ;
+}
 desc
 .
 setGetterObject
@@ -266,9 +268,11 @@ cx
 v
 )
 )
+{
 return
 false
 ;
+}
 desc
 .
 setSetterObject
@@ -474,9 +478,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -490,9 +496,11 @@ cx
 obj
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 obj
 ;
