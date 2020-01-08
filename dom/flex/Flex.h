@@ -155,7 +155,7 @@ namespace
 dom
 {
 class
-FlexLine
+FlexLineValues
 ;
 class
 Flex
@@ -232,7 +232,7 @@ nsTArray
 <
 RefPtr
 <
-FlexLine
+FlexLineValues
 >
 >
 &
@@ -251,7 +251,7 @@ nsTArray
 <
 RefPtr
 <
-FlexLine
+FlexLineValues
 >
 >
 mLines
