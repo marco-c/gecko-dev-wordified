@@ -2936,6 +2936,7 @@ of
 the
 channel
 .
+typedef
 InfallibleVector
 <
 char
@@ -2948,6 +2949,10 @@ MemoryKind
 Generic
 >
 >
+MessageBuffer
+;
+MessageBuffer
+*
 mMessageBuffer
 ;
 /
