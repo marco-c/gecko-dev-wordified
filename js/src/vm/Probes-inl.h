@@ -196,9 +196,11 @@ JAVASCRIPT_FUNCTION_RETURN_ENABLED
 (
 )
 )
+{
 return
 true
 ;
+}
 #
 endif
 return
@@ -235,6 +237,7 @@ JAVASCRIPT_FUNCTION_ENTRY_ENABLED
 (
 )
 )
+{
 DTraceEnterJSFun
 (
 cx
@@ -242,6 +245,7 @@ maybeFun
 script
 )
 ;
+}
 #
 endif
 JSRuntime
@@ -286,9 +290,11 @@ script
 maybeFun
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT_IF
 (
 !
@@ -343,6 +349,7 @@ trackRecordReplayProgress
 (
 )
 )
+{
 mozilla
 :
 :
@@ -353,6 +360,7 @@ AdvanceExecutionProgressCounter
 (
 )
 ;
+}
 return
 true
 ;
@@ -386,6 +394,7 @@ JAVASCRIPT_FUNCTION_RETURN_ENABLED
 (
 )
 )
+{
 DTraceExitJSFun
 (
 cx
@@ -393,12 +402,14 @@ maybeFun
 script
 )
 ;
+}
 #
 endif
 if
 (
 popProfilerFrame
 )
+{
 cx
 -
 >
@@ -412,6 +423,7 @@ script
 maybeFun
 )
 ;
+}
 }
 inline
 bool
@@ -439,6 +451,7 @@ JAVASCRIPT_EXECUTE_START_ENABLED
 (
 )
 )
+{
 JAVASCRIPT_EXECUTE_START
 (
 (
@@ -470,6 +483,7 @@ lineno
 )
 )
 ;
+}
 #
 endif
 return
@@ -502,6 +516,7 @@ JAVASCRIPT_EXECUTE_DONE_ENABLED
 (
 )
 )
+{
 JAVASCRIPT_EXECUTE_DONE
 (
 (
@@ -533,6 +548,7 @@ lineno
 )
 )
 ;
+}
 #
 endif
 return

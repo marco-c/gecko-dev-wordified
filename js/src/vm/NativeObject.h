@@ -342,6 +342,7 @@ end
 +
 v
 )
+{
 *
 v
 =
@@ -353,6 +354,7 @@ PoisonedObjectValue
 0x48
 )
 ;
+}
 #
 endif
 }
@@ -2820,6 +2822,7 @@ isFrozen
 (
 )
 )
+{
 return
 JSPROP_ENUMERATE
 |
@@ -2827,17 +2830,20 @@ JSPROP_PERMANENT
 |
 JSPROP_READONLY
 ;
+}
 if
 (
 isSealed
 (
 )
 )
+{
 return
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
 ;
+}
 return
 JSPROP_ENUMERATE
 ;
@@ -5326,6 +5332,7 @@ inDictionaryMode
 (
 )
 )
+{
 return
 lastProperty
 (
@@ -5341,6 +5348,7 @@ slotSpan
 (
 )
 ;
+}
 return
 lastProperty
 (
@@ -5994,9 +6002,11 @@ id
 )
 )
 )
+{
 return
 true
 ;
+}
 return
 contains
 (
@@ -6733,6 +6743,7 @@ slot
 <
 fixed
 )
+{
 return
 fixedSlots
 (
@@ -6741,6 +6752,7 @@ fixedSlots
 slot
 ]
 ;
+}
 return
 slots_
 [
@@ -6773,6 +6785,7 @@ slot
 <
 fixed
 )
+{
 return
 fixedSlots
 (
@@ -6780,6 +6793,7 @@ fixedSlots
 +
 slot
 ;
+}
 return
 slots_
 +
@@ -6811,6 +6825,7 @@ slot
 <
 fixed
 )
+{
 return
 fixedSlots
 (
@@ -6818,6 +6833,7 @@ fixedSlots
 +
 slot
 ;
+}
 return
 slots_
 +
@@ -7273,6 +7289,7 @@ i
 +
 +
 )
+{
 elements_
 [
 i
@@ -7282,6 +7299,7 @@ destroy
 (
 )
 ;
+}
 }
 /
 *
@@ -7329,6 +7347,7 @@ i
 +
 +
 )
+{
 getSlotAddressUnchecked
 (
 i
@@ -7339,6 +7358,7 @@ destroy
 (
 )
 ;
+}
 }
 inline
 void
@@ -8115,6 +8135,7 @@ getDenseCapacity
 (
 )
 )
+{
 return
 growElements
 (
@@ -8122,6 +8143,7 @@ cx
 capacity
 )
 ;
+}
 return
 true
 ;
@@ -8322,6 +8344,7 @@ denseElementsAreCopyOnWrite
 (
 )
 )
+{
 return
 CopyElementsForWrite
 (
@@ -8329,6 +8352,7 @@ cx
 this
 )
 ;
+}
 return
 true
 ;
@@ -8509,10 +8533,12 @@ numShiftedElements
 >
 0
 )
+{
 moveShiftedElements
 (
 )
 ;
+}
 ObjectElements
 *
 header
@@ -8660,11 +8686,13 @@ isExtensible
 (
 )
 )
+{
 shrinkCapacityToInitializedLength
 (
 cx
 )
 ;
+}
 }
 inline
 void
@@ -8824,6 +8852,7 @@ shouldConvertDoubleElements
 (
 )
 )
+{
 setDenseElement
 (
 index
@@ -8837,13 +8866,16 @@ toInt32
 )
 )
 ;
+}
 else
+{
 setDenseElement
 (
 index
 val
 )
 ;
+}
 }
 private
 :
@@ -9703,6 +9735,7 @@ if
 (
 storeBuffer
 )
+{
 storeBuffer
 -
 >
@@ -9711,6 +9744,7 @@ putCell
 cellp
 )
 ;
+}
 }
 /
 *
@@ -10393,6 +10427,7 @@ hasTrace
 (
 )
 )
+{
 getClass
 (
 )
@@ -10409,6 +10444,7 @@ barrierTracer
 this
 )
 ;
+}
 }
 /
 *
@@ -11425,6 +11461,7 @@ getOpsHasProperty
 (
 )
 )
+{
 return
 op
 (
@@ -11434,6 +11471,7 @@ id
 foundp
 )
 ;
+}
 return
 NativeHasProperty
 (
@@ -11483,6 +11521,7 @@ getOpsGetProperty
 (
 )
 )
+{
 return
 op
 (
@@ -11493,6 +11532,7 @@ id
 vp
 )
 ;
+}
 return
 NativeGetProperty
 (
@@ -11544,9 +11584,11 @@ getOpsGetProperty
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 NativeGetPropertyNoGC
 (
@@ -11599,6 +11641,7 @@ getOpsSetProperty
 (
 )
 )
+{
 return
 JSObject
 :
@@ -11613,6 +11656,7 @@ receiver
 result
 )
 ;
+}
 return
 NativeSetProperty
 <
@@ -11667,6 +11711,7 @@ getOpsSetProperty
 (
 )
 )
+{
 return
 JSObject
 :
@@ -11681,6 +11726,7 @@ receiver
 result
 )
 ;
+}
 return
 NativeSetElement
 (

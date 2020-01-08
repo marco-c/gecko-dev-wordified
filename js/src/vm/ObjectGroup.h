@@ -1830,6 +1830,7 @@ addendumKind
 =
 Addendum_NewScript
 )
+{
 return
 reinterpret_cast
 <
@@ -1840,6 +1841,7 @@ TypeNewScript
 addendum_
 )
 ;
+}
 return
 nullptr
 ;
@@ -1976,6 +1978,7 @@ addendumKind
 =
 Addendum_PreliminaryObjects
 )
+{
 return
 reinterpret_cast
 <
@@ -1986,6 +1989,7 @@ PreliminaryObjectArrayWithTemplate
 addendum_
 )
 ;
+}
 return
 nullptr
 ;
@@ -2091,12 +2095,14 @@ addendumKind
 =
 Addendum_UnboxedLayout
 )
+{
 return
 &
 unboxedLayoutDontCheckGeneration
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -2161,6 +2167,7 @@ addendumKind
 =
 Addendum_OriginalUnboxedGroup
 )
+{
 return
 reinterpret_cast
 <
@@ -2171,6 +2178,7 @@ ObjectGroup
 addendum_
 )
 ;
+}
 return
 nullptr
 ;
@@ -2233,12 +2241,14 @@ addendumKind
 =
 Addendum_TypeDescr
 )
+{
 return
 &
 typeDescr
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -2327,6 +2337,7 @@ addendumKind
 =
 Addendum_InterpretedFunction
 )
+{
 return
 reinterpret_cast
 <
@@ -2337,6 +2348,7 @@ JSFunction
 addendum_
 )
 ;
+}
 return
 nullptr
 ;

@@ -745,6 +745,7 @@ if
 !
 obj
 )
+{
 return
 "
 (
@@ -753,6 +754,7 @@ object
 )
 "
 ;
+}
 const
 Class
 *
@@ -770,6 +772,7 @@ if
 !
 clasp
 )
+{
 return
 "
 (
@@ -777,6 +780,7 @@ null
 )
 "
 ;
+}
 const
 char
 *
@@ -792,6 +796,7 @@ if
 !
 class_name
 )
+{
 return
 "
 (
@@ -801,6 +806,7 @@ name
 )
 "
 ;
+}
 return
 class_name
 ;
@@ -836,6 +842,7 @@ JAVASCRIPT_OBJECT_CREATE_ENABLED
 (
 )
 )
+{
 JAVASCRIPT_OBJECT_CREATE
 (
 ObjectClassname
@@ -848,6 +855,7 @@ uintptr_t
 obj
 )
 ;
+}
 #
 endif
 return

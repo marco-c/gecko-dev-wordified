@@ -178,9 +178,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 obj
 -
 >

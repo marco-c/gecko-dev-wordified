@@ -461,6 +461,7 @@ hash
 hash
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -468,6 +469,7 @@ oom
 "
 )
 ;
+}
 }
 return
 hash
@@ -551,9 +553,11 @@ length
 (
 )
 )
+{
 return
 false
 ;
+}
 const
 Char1
 *
@@ -634,6 +638,7 @@ if
 !
 ownedChars1
 )
+{
 MOZ_CRASH
 (
 "
@@ -641,6 +646,7 @@ oom
 "
 )
 ;
+}
 c1
 =
 ownedChars1
@@ -724,6 +730,7 @@ if
 !
 ownedChars2
 )
+{
 MOZ_CRASH
 (
 "
@@ -731,6 +738,7 @@ oom
 "
 )
 ;
+}
 c2
 =
 ownedChars2
@@ -1002,6 +1010,7 @@ if
 !
 ownedChars
 )
+{
 MOZ_CRASH
 (
 "
@@ -1009,6 +1018,7 @@ oom
 "
 )
 ;
+}
 chars
 =
 ownedChars
@@ -1162,6 +1172,7 @@ hasLatin1Chars
 (
 )
 )
+{
 StoreStringChars
 <
 Latin1Char
@@ -1172,7 +1183,9 @@ bufferSize
 str
 )
 ;
+}
 else
+{
 StoreStringChars
 <
 char16_t
@@ -1183,6 +1196,7 @@ bufferSize
 str
 )
 ;
+}
 }
 NotableStringInfo
 :
@@ -1345,6 +1359,7 @@ if
 !
 className_
 )
+{
 MOZ_CRASH
 (
 "
@@ -1352,6 +1367,7 @@ oom
 "
 )
 ;
+}
 PodCopy
 (
 className_
@@ -1515,6 +1531,7 @@ if
 !
 filename_
 )
+{
 MOZ_CRASH
 (
 "
@@ -1522,6 +1539,7 @@ oom
 "
 )
 ;
+}
 PodCopy
 (
 filename_
@@ -1768,8 +1786,10 @@ isAllClear
 (
 )
 )
+{
 return
 ;
+}
 size_t
 n
 =
@@ -1806,6 +1826,7 @@ get
 i
 )
 )
+{
 n
 +
 =
@@ -1814,6 +1835,7 @@ gc
 :
 ArenaSize
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -1919,6 +1941,7 @@ initStrings
 (
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1926,6 +1949,7 @@ oom
 "
 )
 ;
+}
 rtStats
 -
 >
@@ -2089,6 +2113,7 @@ initClasses
 (
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -2096,6 +2121,7 @@ oom
 "
 )
 ;
+}
 rtStats
 -
 >
@@ -2463,6 +2489,7 @@ if
 !
 className
 )
+{
 className
 =
 "
@@ -2473,6 +2500,7 @@ name
 >
 "
 ;
+}
 RealmStats
 :
 :
@@ -2607,8 +2635,10 @@ if
 (
 entry
 )
+{
 return
 ;
+}
 bool
 ok
 =
@@ -2702,6 +2732,7 @@ if
 !
 filename
 )
+{
 filename
 =
 "
@@ -2711,6 +2742,7 @@ filename
 >
 "
 ;
+}
 JS
 :
 :
@@ -3052,6 +3084,7 @@ maybeScriptSource
 (
 )
 )
+{
 CollectScriptSourceStats
 <
 granularity
@@ -3061,6 +3094,7 @@ closure
 ss
 )
 ;
+}
 module
 .
 addSizeOfMisc
@@ -3146,6 +3180,7 @@ maybeScriptSource
 (
 )
 )
+{
 CollectScriptSourceStats
 <
 granularity
@@ -3155,6 +3190,7 @@ closure
 ss
 )
 ;
+}
 instance
 .
 addSizeOfMisc
@@ -3264,6 +3300,7 @@ iface
 &
 iface
 )
+{
 realmStats
 .
 objectsPrivate
@@ -3277,6 +3314,7 @@ sizeOfIncludingThis
 iface
 )
 ;
+}
 }
 break
 ;
@@ -3451,6 +3489,7 @@ isTenured
 (
 )
 )
+{
 size
 +
 =
@@ -3461,6 +3500,7 @@ stringHeaderSize
 (
 )
 ;
+}
 JS
 :
 :
@@ -3947,6 +3987,7 @@ inDictionary
 (
 )
 )
+{
 info
 .
 shapesGCHeapDict
@@ -3954,7 +3995,9 @@ shapesGCHeapDict
 =
 thingSize
 ;
+}
 else
+{
 info
 .
 shapesGCHeapTree
@@ -3962,6 +4005,7 @@ shapesGCHeapTree
 =
 thingSize
 ;
+}
 shape
 -
 >
@@ -4376,8 +4420,10 @@ isNotable
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -4390,9 +4436,11 @@ growBy
 1
 )
 )
+{
 return
 false
 ;
+}
 zStats
 .
 notableStrings
@@ -4622,8 +4670,10 @@ isNotable
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -4636,9 +4686,11 @@ growBy
 1
 )
 )
+{
 return
 false
 ;
+}
 realmStats
 .
 notableClasses
@@ -4845,8 +4897,10 @@ isNotable
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -4859,9 +4913,11 @@ growBy
 1
 )
 )
+{
 return
 false
 ;
+}
 runtime
 .
 notableScriptSources
@@ -5005,9 +5061,11 @@ rt
 numRealms
 )
 )
+{
 return
 false
 ;
+}
 size_t
 totalZones
 =
@@ -5048,9 +5106,11 @@ reserve
 totalZones
 )
 )
+{
 return
 false
 ;
+}
 rtStats
 -
 >
@@ -5169,9 +5229,11 @@ rtStats
 runtime
 )
 )
+{
 return
 false
 ;
+}
 JS
 :
 :
@@ -5253,6 +5315,7 @@ i
 +
 +
 )
+{
 zTotals
 .
 addSizes
@@ -5263,6 +5326,7 @@ i
 ]
 )
 ;
+}
 for
 (
 size_t
@@ -5282,6 +5346,7 @@ i
 +
 +
 )
+{
 if
 (
 !
@@ -5293,9 +5358,12 @@ i
 ]
 )
 )
+{
 return
 false
 ;
+}
+}
 MOZ_ASSERT
 (
 !
@@ -5367,6 +5435,7 @@ i
 +
 +
 )
+{
 realmTotals
 .
 addSizes
@@ -5377,6 +5446,7 @@ i
 ]
 )
 ;
+}
 for
 (
 size_t
@@ -5408,9 +5478,11 @@ i
 ]
 )
 )
+{
 return
 false
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -5520,6 +5592,7 @@ next
 (
 )
 )
+{
 realm
 -
 >
@@ -5527,6 +5600,7 @@ nullRealmStats
 (
 )
 ;
+}
 size_t
 numDirtyChunks
 =
@@ -5855,10 +5929,12 @@ isSystem
 (
 )
 )
+{
 +
 +
 n
 ;
+}
 }
 return
 n
@@ -5920,10 +5996,12 @@ isSystem
 (
 )
 )
+{
 +
 +
 n
 ;
+}
 }
 return
 n
@@ -6089,9 +6167,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -6104,9 +6184,11 @@ reserve
 1
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Take
@@ -6208,6 +6290,7 @@ i
 +
 +
 )
+{
 rtStats
 .
 realmTotals
@@ -6222,6 +6305,7 @@ i
 ]
 )
 ;
+}
 for
 (
 RealmsInZoneIter
@@ -6243,6 +6327,7 @@ next
 (
 )
 )
+{
 realm
 -
 >
@@ -6250,6 +6335,7 @@ nullRealmStats
 (
 )
 ;
+}
 rtStats
 .
 zTotals

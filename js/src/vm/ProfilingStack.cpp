@@ -292,9 +292,11 @@ MOZ_UNLIKELY
 newFrames
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 It
@@ -329,6 +331,7 @@ IntegerRange
 capacity
 )
 )
+{
 newFrames
 [
 i
@@ -339,6 +342,7 @@ frames
 i
 ]
 ;
+}
 js
 :
 :
