@@ -1184,14 +1184,6 @@ mSuspendParentAfterSynthesizeResponse
 (
 false
 )
-mCacheNeedToReportBytesReadInitialized
-(
-false
-)
-mNeedToReportBytesRead
-(
-true
-)
 {
 LOG
 (
