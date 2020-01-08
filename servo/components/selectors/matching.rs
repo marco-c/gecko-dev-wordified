@@ -3729,13 +3729,6 @@ element
 is_link
 (
 )
-|
-|
-combinator
-.
-is_sibling
-(
-)
 {
 visited_handling
 =
