@@ -26399,7 +26399,7 @@ min
 -
 size
 -
-contributions
+contribution
 static
 nscoord
 MinSize
@@ -26508,6 +26508,14 @@ GetUnit
 !
 =
 eStyleUnit_Auto
+&
+&
+!
+sizeStyle
+.
+HasPercent
+(
+)
 )
 {
 nscoord
