@@ -2528,7 +2528,11 @@ COOKIE_ACCEPT_NONE
 COOKIE_ACCEPT_VISITED
 }
 )
-public
+/
+*
+package
+*
+/
 interface
 CookieBehavior
 {
@@ -2794,7 +2798,11 @@ COOKIE_LIFETIME_RUNTIME
 COOKIE_LIFETIME_DAYS
 }
 )
-public
+/
+*
+package
+*
+/
 interface
 CookieLifetime
 {
