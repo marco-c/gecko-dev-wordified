@@ -5371,9 +5371,6 @@ new
 )
 )
 )
-enable_render_on_scroll
-:
-false
 resource_override_path
 :
 unsafe
