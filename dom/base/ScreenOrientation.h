@@ -392,7 +392,7 @@ leave
 fullscreen
 .
 class
-FullScreenEventListener
+FullscreenEventListener
 ;
 /
 /
@@ -612,9 +612,9 @@ mScreen
 ;
 RefPtr
 <
-FullScreenEventListener
+FullscreenEventListener
 >
-mFullScreenListener
+mFullscreenListener
 ;
 RefPtr
 <

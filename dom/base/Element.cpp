@@ -11556,7 +11556,7 @@ mState
 .
 HasState
 (
-NS_EVENT_STATE_FULL_SCREEN
+NS_EVENT_STATE_FULLSCREEN
 )
 )
 {
@@ -11571,16 +11571,12 @@ an
 ancestor
 of
 the
-full
--
-screen
+fullscreen
 element
 /
 /
 exit
-full
--
-screen
+fullscreen
 state
 .
 nsContentUtils
@@ -11614,9 +11610,7 @@ RemovedFullscreenElement
 /
 Fully
 exit
-full
--
-screen
+fullscreen
 .
 nsIDocument
 :
@@ -20712,7 +20706,7 @@ static
 const
 char
 *
-GetFullScreenError
+GetFullscreenError
 (
 CallerType
 aCallerType
@@ -20724,7 +20718,7 @@ if
 nsContentUtils
 :
 :
-IsRequestFullScreenAllowed
+IsRequestFullscreenAllowed
 (
 aCallerType
 )
@@ -20757,9 +20751,7 @@ aError
 /
 Only
 grant
-full
--
-screen
+fullscreen
 requests
 if
 this
@@ -20794,9 +20786,7 @@ event
 This
 stops
 the
-full
--
-screen
+fullscreen
 from
 being
 abused
@@ -20821,9 +20811,7 @@ guys
 script
 to
 go
-full
--
-screen
+fullscreen
 and
 /
 /
@@ -20867,7 +20855,7 @@ char
 *
 error
 =
-GetFullScreenError
+GetFullscreenError
 (
 aCallerType
 )
@@ -20917,7 +20905,7 @@ OwnerDoc
 )
 -
 >
-AsyncRequestFullScreen
+AsyncRequestFullscreen
 (
 std
 :

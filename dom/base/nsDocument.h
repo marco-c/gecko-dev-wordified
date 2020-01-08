@@ -723,7 +723,7 @@ we
 '
 re
 calling
-RequestFullScreen
+RequestFullscreen
 (
 )
 as
@@ -1777,7 +1777,7 @@ mRadioGroups
 ;
 friend
 class
-nsCallRequestFullScreen
+nsCallRequestFullscreen
 ;
 /
 /

@@ -2204,7 +2204,7 @@ For
 accessing
 protected
 field
-mFullScreen
+mFullscreen
 friend
 class
 FullscreenTransitionTask
@@ -5928,7 +5928,7 @@ void
 SetFullScreen
 (
 bool
-aFullScreen
+aFullscreen
 mozilla
 :
 :

@@ -19891,7 +19891,7 @@ nsGlobalWindowInner
 SetFullScreen
 (
 bool
-aFullScreen
+aFullscreen
 mozilla
 :
 :
@@ -19902,9 +19902,9 @@ aError
 {
 FORWARD_TO_OUTER_OR_THROW
 (
-SetFullScreenOuter
+SetFullscreenOuter
 (
-aFullScreen
+aFullscreen
 aError
 )
 aError
@@ -19929,7 +19929,7 @@ aError
 {
 FORWARD_TO_OUTER_OR_THROW
 (
-GetFullScreenOuter
+GetFullscreenOuter
 (
 )
 aError

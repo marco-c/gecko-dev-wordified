@@ -6566,7 +6566,7 @@ nsresult
 SetFullScreen
 (
 bool
-aFullScreen
+aFullscreen
 )
 =
 0

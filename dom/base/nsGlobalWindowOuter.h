@@ -1932,7 +1932,7 @@ For
 accessing
 protected
 field
-mFullScreen
+mFullscreen
 friend
 class
 FullscreenTransitionTask
@@ -1985,7 +1985,7 @@ aScreen
 )
 ;
 bool
-FullScreen
+Fullscreen
 (
 )
 const
@@ -3701,7 +3701,7 @@ aCallerType
 )
 ;
 bool
-GetFullScreenOuter
+GetFullscreenOuter
 (
 )
 ;
@@ -3712,10 +3712,10 @@ GetFullScreen
 override
 ;
 void
-SetFullScreenOuter
+SetFullscreenOuter
 (
 bool
-aFullScreen
+aFullscreen
 mozilla
 :
 :
@@ -3728,7 +3728,7 @@ nsresult
 SetFullScreen
 (
 bool
-aFullScreen
+aFullscreen
 )
 override
 ;
@@ -6231,7 +6231,7 @@ override
 protected
 :
 bool
-mFullScreen
+mFullscreen
 :
 1
 ;

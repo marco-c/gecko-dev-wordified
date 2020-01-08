@@ -14723,9 +14723,7 @@ true
 if
 the
 DOM
-full
--
-screen
+fullscreen
 API
 is
 enabled
@@ -14734,7 +14732,7 @@ enabled
 /
 static
 bool
-IsFullScreenApiEnabled
+IsFullscreenApiEnabled
 (
 )
 ;
@@ -14773,9 +14771,7 @@ true
 if
 requests
 for
-full
--
-screen
+fullscreen
 are
 allowed
 in
@@ -14838,7 +14834,7 @@ false
 /
 static
 bool
-IsRequestFullScreenAllowed
+IsRequestFullscreenAllowed
 (
 mozilla
 :
@@ -21902,7 +21898,7 @@ sDisablePopups
 ;
 static
 bool
-sIsFullScreenApiEnabled
+sIsFullscreenApiEnabled
 ;
 static
 bool
@@ -21910,7 +21906,7 @@ sIsUnprefixedFullscreenApiEnabled
 ;
 static
 bool
-sTrustedFullScreenOnly
+sTrustedFullscreenOnly
 ;
 static
 bool
