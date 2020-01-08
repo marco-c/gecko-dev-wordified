@@ -1512,7 +1512,7 @@ TD_INTERFACE_TYPE
 TD_INTERFACE_IS_TYPE
 =
 18
-TD_ARRAY
+TD_LEGACY_ARRAY
 =
 19
 TD_PSTRING_SIZE_IS
@@ -1746,7 +1746,7 @@ Tag
 )
 =
 =
-TD_ARRAY
+TD_LEGACY_ARRAY
 )
 ;
 return
@@ -1854,7 +1854,7 @@ Tag
 )
 =
 =
-TD_ARRAY
+TD_LEGACY_ARRAY
 )
 {
 return
@@ -2136,7 +2136,7 @@ Tag
 )
 =
 =
-TD_ARRAY
+TD_LEGACY_ARRAY
 |
 |
 Tag
@@ -2189,7 +2189,7 @@ Tag
 )
 =
 =
-TD_ARRAY
+TD_LEGACY_ARRAY
 |
 |
 Tag
@@ -2410,7 +2410,7 @@ INTERFACE_IS_TYPE
 ;
 return
 {
-TD_ARRAY
+TD_LEGACY_ARRAY
 false
 false
 false
@@ -2709,8 +2709,8 @@ TD_INTERFACE_IS_TYPE
 ;
 TD_ALIAS_
 (
-T_ARRAY
-TD_ARRAY
+T_LEGACY_ARRAY
+TD_LEGACY_ARRAY
 )
 ;
 TD_ALIAS_
@@ -5490,7 +5490,7 @@ nsISupports
 )
 ;
 case
-TD_ARRAY
+TD_LEGACY_ARRAY
 :
 return
 sizeof

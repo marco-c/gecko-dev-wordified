@@ -9718,7 +9718,7 @@ nsIDataType
 :
 :
 VTYPE_ARRAY
-TD_ARRAY
+TD_LEGACY_ARRAY
 }
 {
 nsIDataType

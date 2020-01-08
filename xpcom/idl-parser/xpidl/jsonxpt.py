@@ -550,7 +550,7 @@ isinstance
 type
 xpidl
 .
-Array
+LegacyArray
 )
 :
         
@@ -558,15 +558,15 @@ Array
 NB
 :
 For
-an
-Array
-<
+a
+Legacy
+[
+array
+]
 T
->
 we
 pass
 down
-the
 iid_is
 to
 get
@@ -579,7 +579,9 @@ T
 #
 This
 allows
-Arrays
+[
+array
+]
 of
 InterfaceIs
 types
@@ -595,7 +597,7 @@ tag
 '
 :
 '
-TD_ARRAY
+TD_LEGACY_ARRAY
 '
             
 '

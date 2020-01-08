@@ -8586,7 +8586,7 @@ Tag
 nsXPTType
 :
 :
-T_ARRAY
+T_LEGACY_ARRAY
 &
 &
 type
@@ -11435,7 +11435,7 @@ Tag
 nsXPTType
 :
 :
-T_ARRAY
+T_LEGACY_ARRAY
 &
 &
 *
