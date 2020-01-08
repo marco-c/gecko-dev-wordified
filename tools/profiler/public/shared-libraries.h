@@ -201,10 +201,7 @@ aEnd
 uintptr_t
 aOffset
 const
-std
-:
-:
-string
+nsCString
 &
 aBreakpadId
 const
@@ -583,10 +580,7 @@ mOffset
 ;
 }
 const
-std
-:
-:
-string
+nsCString
 &
 GetBreakpadId
 (
@@ -728,10 +722,7 @@ mEnd
 uintptr_t
 mOffset
 ;
-std
-:
-:
-string
+nsCString
 mBreakpadId
 ;
 nsString

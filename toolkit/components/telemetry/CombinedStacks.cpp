@@ -1171,7 +1171,7 @@ module
 .
 mBreakpadId
 .
-c_str
+get
 (
 )
 )

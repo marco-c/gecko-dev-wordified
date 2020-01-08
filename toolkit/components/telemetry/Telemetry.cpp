@@ -4288,7 +4288,7 @@ GetBreakpadId
 (
 )
 .
-empty
+IsEmpty
 (
 )
 )
@@ -4309,7 +4309,7 @@ GetBreakpadId
 (
 )
 .
-c_str
+get
 (
 )
 )
@@ -5392,7 +5392,19 @@ c_str
 (
 )
 )
+nsCString
+(
 breakpadId
+.
+c_str
+(
+)
+breakpadId
+.
+size
+(
+)
+)
 }
 ;
 stack

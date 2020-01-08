@@ -273,10 +273,7 @@ characters
 nsString
 mName
 ;
-std
-:
-:
-string
+nsCString
 mBreakpadId
 ;
 bool
