@@ -753,7 +753,7 @@ hostName
 ;
 key
 .
-AppendASCII
+AppendLiteral
 (
 "
 :

@@ -3232,7 +3232,7 @@ mScheme
 ;
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 :
@@ -4892,7 +4892,7 @@ mGeneratedFromSelfKeyword
 {
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 '
@@ -4974,7 +4974,7 @@ append
 host
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 :
@@ -5006,7 +5006,7 @@ IsEmpty
 {
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 :
@@ -5804,7 +5804,7 @@ mNonce
 ;
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 '
@@ -6138,7 +6138,7 @@ const
 {
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 '
@@ -6154,7 +6154,7 @@ mAlgorithm
 ;
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 -
@@ -6170,7 +6170,7 @@ mHash
 ;
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 '
@@ -6710,7 +6710,7 @@ mDirective
 ;
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 "
@@ -6770,7 +6770,7 @@ length
 {
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 "
@@ -8431,7 +8431,7 @@ TYPE_SCRIPT
 {
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 script
@@ -8456,7 +8456,7 @@ TYPE_STYLESHEET
 {
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 style
@@ -9505,7 +9505,7 @@ length
 {
 outStr
 .
-AppendASCII
+AppendLiteral
 (
 "
 ;
@@ -9867,7 +9867,7 @@ contentType
 ;
 outDirective
 .
-AppendASCII
+AppendLiteral
 (
 "
 couldNotQueryViolatedDirective

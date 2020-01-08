@@ -4938,7 +4938,7 @@ key
 }
 text
 .
-AppendASCII
+AppendLiteral
 (
 "
 \

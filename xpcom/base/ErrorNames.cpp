@@ -283,7 +283,7 @@ isSecurityError
 {
 name
 .
-AppendASCII
+AppendLiteral
 (
 "
 NS_ERROR_MODULE_SECURITY
@@ -335,7 +335,7 @@ rv
 }
 name
 .
-AppendASCII
+AppendLiteral
 (
 "
 "
@@ -438,7 +438,7 @@ rv
 }
 name
 .
-AppendASCII
+AppendLiteral
 (
 "
 )

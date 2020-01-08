@@ -12584,7 +12584,7 @@ i
 {
 aName
 .
-AppendASCII
+AppendLiteral
 (
 "
 "
