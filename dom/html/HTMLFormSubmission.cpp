@@ -4432,9 +4432,10 @@ SetData
 bodyStream
 )
 ;
-CallQueryInterface
-(
 mimeStream
+.
+forget
+(
 aPostDataStream
 )
 ;
