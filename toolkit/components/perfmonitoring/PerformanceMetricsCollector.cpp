@@ -557,7 +557,7 @@ mDuration
 =
 result
 .
-pid
+duration
 (
 )
 ;
