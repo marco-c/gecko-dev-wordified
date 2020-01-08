@@ -1013,12 +1013,6 @@ SystemAllocPolicy
 >
 offThreadJobs
 ;
-JS
-:
-:
-PersistentRootedFunction
-moduleResolveHook
-;
 }
 ;
 extern
