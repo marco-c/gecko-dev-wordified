@@ -1267,7 +1267,10 @@ static
 bool
 RegisterAnnotator
 (
-BackgroundHangAnnotator
+HangMonitor
+:
+:
+Annotator
 &
 aAnnotator
 )
@@ -1309,7 +1312,10 @@ static
 bool
 UnregisterAnnotator
 (
-BackgroundHangAnnotator
+HangMonitor
+:
+:
+Annotator
 &
 aAnnotator
 )

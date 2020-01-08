@@ -2073,7 +2073,10 @@ public
 mozilla
 :
 :
-BackgroundHangAnnotator
+HangMonitor
+:
+:
+Annotator
 {
 friend
 class
@@ -2871,7 +2874,10 @@ AnnotateHang
 mozilla
 :
 :
-BackgroundHangAnnotations
+HangMonitor
+:
+:
+HangAnnotations
 &
 aAnnotations
 )
