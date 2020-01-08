@@ -178,7 +178,7 @@ dispatch
 (
 Actions
 .
-connectRuntime
+watchRuntime
 (
 )
 )
@@ -191,7 +191,7 @@ dispatch
 (
 Actions
 .
-disconnectRuntime
+unwatchRuntime
 (
 )
 )

@@ -705,7 +705,7 @@ aboutdebugging
 Call
 removeNetworkLocationsObserver
 before
-disconnectRuntime
+unwatchRuntime
 /
 /
 follow
@@ -726,7 +726,7 @@ this
 .
 actions
 .
-disconnectRuntime
+unwatchRuntime
 (
 )
 ;
