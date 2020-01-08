@@ -1,5 +1,14 @@
+/
+/
+|
+jit
+-
+test
+|
+skip
+-
 if
-(
+:
 !
 this
 .
@@ -10,11 +19,6 @@ SharedArrayBuffer
 isAsmJSCompilationAvailable
 (
 )
-)
-quit
-(
-)
-;
 Random
 =
 {
