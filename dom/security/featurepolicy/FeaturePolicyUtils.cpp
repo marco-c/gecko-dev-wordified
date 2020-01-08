@@ -204,16 +204,6 @@ sSupportedFeatures
 ]
 =
 {
-/
-/
-TODO
-:
-not
-supported
-yet
-!
-!
-!
 {
 "
 autoplay
