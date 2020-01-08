@@ -809,7 +809,7 @@ getStr
 "
 fontinspector
 .
-usedFontsLabel
+fontsUsedLabel
 "
 )
 )
