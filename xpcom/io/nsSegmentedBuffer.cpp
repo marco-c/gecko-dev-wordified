@@ -243,16 +243,6 @@ moz_xmalloc
 bytes
 )
 ;
-if
-(
-!
-mSegmentArray
-)
-{
-return
-nullptr
-;
-}
 memset
 (
 mSegmentArray

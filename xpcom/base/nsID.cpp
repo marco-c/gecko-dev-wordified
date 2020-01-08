@@ -782,11 +782,6 @@ moz_xmalloc
 NSID_LENGTH
 )
 ;
-if
-(
-res
-)
-{
 snprintf
 (
 res
@@ -859,7 +854,6 @@ m3
 ]
 )
 ;
-}
 return
 res
 ;

@@ -760,13 +760,6 @@ moz_xmalloc
 aDataLen
 )
 ;
-if
-(
-!
-utf8
-)
-return
-;
 memcpy
 (
 utf8

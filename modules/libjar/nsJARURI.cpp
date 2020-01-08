@@ -1147,15 +1147,6 @@ nsCID
 )
 )
 ;
-if
-(
-!
-*
-aClassID
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 return
 GetClassIDNoAlloc
 (

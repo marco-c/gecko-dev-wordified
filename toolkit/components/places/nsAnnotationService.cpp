@@ -2101,13 +2101,6 @@ Length
 )
 )
 ;
-NS_ENSURE_TRUE
-(
-*
-_result
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 for
 (
 uint32_t

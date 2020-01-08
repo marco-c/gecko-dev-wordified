@@ -3643,12 +3643,6 @@ char16_t
 )
 )
 ;
-if
-(
-*
-unicodeData
-)
-{
 memcpy
 (
 *
@@ -3680,7 +3674,6 @@ outUnicodeLen
 0
 '
 ;
-}
 }
 else
 if
@@ -3855,12 +3848,6 @@ char16_t
 )
 )
 ;
-if
-(
-*
-unicodeData
-)
-{
 uint32_t
 result
 ;
@@ -3992,7 +3979,6 @@ outUnicodeLen
 0
 '
 ;
-}
 }
 /
 /

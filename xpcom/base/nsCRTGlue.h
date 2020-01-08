@@ -469,6 +469,7 @@ char16_t
 strings
 uses
 the
+infallible
 moz_xmalloc
 allocator
 .
@@ -494,6 +495,7 @@ strdup
 but
 using
 the
+infallible
 moz_xmalloc
 allocator
 .
@@ -546,6 +548,7 @@ terminated
 .
 Uses
 the
+infallible
 moz_xmalloc
 allocator
 .

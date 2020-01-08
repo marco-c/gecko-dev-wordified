@@ -325,11 +325,6 @@ moz_xmalloc
 aSize
 )
 ;
-if
-(
-newPtr
-)
-{
 memcpy
 (
 newPtr
@@ -337,7 +332,6 @@ aPtr
 aSize
 )
 ;
-}
 return
 newPtr
 ;

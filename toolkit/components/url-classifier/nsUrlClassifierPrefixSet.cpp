@@ -1392,12 +1392,6 @@ uint32_t
 )
 )
 ;
-NS_ENSURE_TRUE
-(
-prefixArray
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 memcpy
 (
 prefixArray

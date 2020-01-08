@@ -2748,16 +2748,6 @@ txXPathNode
 )
 )
 ;
-if
-(
-!
-newArr
-)
-{
-return
-false
-;
-}
 txXPathNode
 *
 dest

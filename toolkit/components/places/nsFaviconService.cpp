@@ -3781,14 +3781,6 @@ available
 )
 )
 ;
-if
-(
-!
-buffer
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 uint32_t
 numRead
 ;

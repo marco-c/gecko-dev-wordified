@@ -1249,16 +1249,6 @@ moz_xmalloc
 dstSize
 )
 ;
-if
-(
-!
-result
-)
-{
-return
-nullptr
-;
-}
 unsigned
 char
 *

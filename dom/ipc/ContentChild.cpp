@@ -22886,16 +22886,6 @@ maxLength
 if
 (
 !
-valueBuffer
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
-if
-(
-!
 CFStringGetCString
 (
 value
