@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIMemory
-.
-h
-"
-#
-include
-"
 nsPluginsDir
 .
 h
