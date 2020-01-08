@@ -53,8 +53,6 @@ MPL
 0
 /
 .
-import
-sys
 def
 main
 (
@@ -62,12 +60,12 @@ header
 propFile
 )
 :
-  
+    
 mappings
 =
 {
 }
-  
+    
 with
 open
 (
@@ -79,13 +77,13 @@ r
 as
 f
 :
-    
+        
 for
 line
 in
 f
 :
-      
+            
 line
 =
 line
@@ -93,7 +91,7 @@ line
 strip
 (
 )
-      
+            
 if
 not
 line
@@ -105,7 +103,7 @@ startswith
 '
 )
 :
-        
+                
 parts
 =
 line
@@ -117,7 +115,7 @@ split
 "
 1
 )
-        
+                
 if
 len
 (
@@ -137,7 +135,7 @@ parts
 >
 0
 :
-          
+                    
 mappings
 [
 parts
@@ -158,7 +156,7 @@ parts
 strip
 (
 )
-  
+    
 keys
 =
 mappings
@@ -166,13 +164,13 @@ mappings
 keys
 (
 )
-  
+    
 keys
 .
 sort
 (
 )
-  
+    
 header
 .
 write
@@ -195,7 +193,7 @@ edit
 n
 "
 )
-  
+    
 header
 .
 write
@@ -216,7 +214,7 @@ instead
 n
 "
 )
-  
+    
 entries
 =
 [
@@ -234,7 +232,7 @@ s
 d
 }
 '
-             
+               
 %
 (
 key
@@ -255,7 +253,7 @@ key
 in
 keys
 ]
-  
+    
 header
 .
 write
