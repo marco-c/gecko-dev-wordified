@@ -39,6 +39,18 @@ SeleniumRefTestExecutor
 noqa
 :
 F401
+from
+.
+.
+executors
+.
+executorsafari
+import
+SafariDriverWdspecExecutor
+#
+noqa
+:
+F401
 __wptrunner__
 =
 {
@@ -85,6 +97,14 @@ reftest
 :
 "
 SeleniumRefTestExecutor
+"
+                              
+"
+wdspec
+"
+:
+"
+SafariDriverWdspecExecutor
 "
 }
                  
@@ -187,13 +207,6 @@ kwargs
 )
 :
     
-from
-selenium
-.
-webdriver
-import
-DesiredCapabilities
-    
 executor_kwargs
 =
 base_executor_kwargs
@@ -224,16 +237,8 @@ capabilities
 "
 ]
 =
-dict
-(
-DesiredCapabilities
-.
-SAFARI
-.
-items
-(
-)
-)
+{
+}
     
 if
 kwargs
