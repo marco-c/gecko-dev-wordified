@@ -4309,6 +4309,7 @@ nullptr
 }
 protected
 :
+virtual
 void
 ReadUnlock
 (
@@ -4836,6 +4837,13 @@ ImageKey
 >
 &
 aImageKeys
+)
+override
+;
+virtual
+void
+ReadUnlock
+(
 )
 override
 ;
