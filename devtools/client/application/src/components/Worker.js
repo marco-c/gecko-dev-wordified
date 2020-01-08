@@ -1136,6 +1136,9 @@ scope
 className
 :
 "
+worker__source
+-
+url
 js
 -
 source
