@@ -165,12 +165,6 @@ use
 std
 :
 :
-mem
-;
-use
-std
-:
-:
 os
 :
 :
