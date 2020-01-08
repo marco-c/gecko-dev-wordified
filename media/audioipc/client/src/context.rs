@@ -1788,8 +1788,12 @@ assert_not_in_callback
 (
 )
 ;
-Ok
+Err
 (
+Error
+:
+:
+not_supported
 (
 )
 )
