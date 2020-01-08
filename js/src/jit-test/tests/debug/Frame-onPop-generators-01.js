@@ -12,10 +12,10 @@ handler
 when
 yielding
 works
-and
+.
 /
 /
-does
+It
 closes
 the
 generator
