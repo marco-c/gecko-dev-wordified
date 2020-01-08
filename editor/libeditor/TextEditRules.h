@@ -3276,7 +3276,7 @@ bulletType
 EditSubAction
 :
 :
-align
+eSetOrClearAlignment
 const
 nsAString
 *
