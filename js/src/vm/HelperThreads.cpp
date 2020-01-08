@@ -1919,7 +1919,7 @@ script
 )
 -
 >
-zone
+zoneFromAnyThread
 (
 )
 ;
