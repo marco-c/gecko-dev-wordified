@@ -608,6 +608,14 @@ this
 }
 this
 .
+startup
+.
+updatePanelPromoteCount
+(
+)
+;
+this
+.
 updateA11YServiceDurationTimer
 (
 )
