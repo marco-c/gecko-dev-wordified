@@ -1506,6 +1506,7 @@ TCFType
 :
 wrap_under_get_rule
 (
+*
 tag_ptr
 as
 CFNumberRef
@@ -1629,6 +1630,7 @@ TCFType
 :
 wrap_under_get_rule
 (
+*
 name_ptr
 as
 CFStringRef
@@ -1689,6 +1691,7 @@ TCFType
 :
 wrap_under_get_rule
 (
+*
 min_ptr
 as
 CFNumberRef
@@ -1771,6 +1774,7 @@ TCFType
 :
 wrap_under_get_rule
 (
+*
 max_ptr
 as
 CFNumberRef
@@ -1853,6 +1857,7 @@ TCFType
 :
 wrap_under_get_rule
 (
+*
 def_ptr
 as
 CFNumberRef

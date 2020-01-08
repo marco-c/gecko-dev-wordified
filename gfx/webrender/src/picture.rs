@@ -100,16 +100,10 @@ BLUR_SAMPLE_SCALE
 }
 ;
 use
-clip_scroll_node
-:
-:
-ClipScrollNode
-;
-use
 clip_scroll_tree
 :
 :
-ClipScrollNodeIndex
+SpatialNodeIndex
 ;
 use
 frame_builder
@@ -153,6 +147,7 @@ prim_store
 {
 PrimitiveMetadata
 ScrollNodeAndClipChain
+Transform
 }
 ;
 use
@@ -1270,7 +1265,7 @@ context
 pub
 reference_frame_index
 :
-ClipScrollNodeIndex
+SpatialNodeIndex
 pub
 real_local_rect
 :
@@ -1424,7 +1419,7 @@ pipeline_id
 PipelineId
 reference_frame_index
 :
-ClipScrollNodeIndex
+SpatialNodeIndex
 frame_output_pipeline_id
 :
 Option
@@ -2247,7 +2242,7 @@ local_rect
 &
 prim_run_context
 .
-scroll_node
+transform
 &
 device_rect
 frame_context
@@ -2916,7 +2911,7 @@ local_rect
 &
 prim_run_context
 .
-scroll_node
+transform
 &
 device_rect
 frame_context
@@ -3364,7 +3359,7 @@ local_rect
 &
 prim_run_context
 .
-scroll_node
+transform
 &
 prim_screen_rect
 .
@@ -3591,7 +3586,7 @@ local_rect
 &
 prim_run_context
 .
-scroll_node
+transform
 &
 prim_screen_rect
 .
@@ -3697,7 +3692,7 @@ local_rect
 &
 prim_run_context
 .
-scroll_node
+transform
 &
 prim_screen_rect
 .
@@ -3802,10 +3797,10 @@ local_pos
 :
 &
 LayoutPoint
-clip_scroll_node
+transform
 :
 &
-ClipScrollNode
+Transform
 rendered_rect
 :
 &
@@ -3821,9 +3816,9 @@ DevicePoint
 let
 world_pos
 =
-clip_scroll_node
+transform
 .
-world_content_transform
+m
 .
 transform_point2d
 (
@@ -3855,7 +3850,7 @@ prim_shared
 glsl
 .
 if
-clip_scroll_node
+transform
 .
 transform_kind
 =
@@ -3972,10 +3967,10 @@ local_rect
 :
 &
 LayoutRect
-clip_scroll_node
+transform
 :
 &
-ClipScrollNode
+Transform
 rendered_rect
 :
 &
@@ -4006,7 +4001,7 @@ calculate_screen_uv
 local_rect
 .
 origin
-clip_scroll_node
+transform
 &
 rendered_rect
 device_pixel_scale
@@ -4023,7 +4018,7 @@ local_rect
 top_right
 (
 )
-clip_scroll_node
+transform
 &
 rendered_rect
 device_pixel_scale
@@ -4040,7 +4035,7 @@ local_rect
 bottom_left
 (
 )
-clip_scroll_node
+transform
 &
 rendered_rect
 device_pixel_scale
@@ -4057,7 +4052,7 @@ local_rect
 bottom_right
 (
 )
-clip_scroll_node
+transform
 &
 rendered_rect
 device_pixel_scale
