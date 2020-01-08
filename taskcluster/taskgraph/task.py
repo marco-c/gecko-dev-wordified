@@ -230,7 +230,7 @@ is
 just
 a
 convenience
-wraper
+wrapper
 for
 the
 data
