@@ -145,9 +145,11 @@ getCharPref
 "
 devtools
 .
-webide
+remote
 .
-adbExtensionURL
+adb
+.
+extensionURL
 "
 )
 ;
@@ -163,9 +165,11 @@ getCharPref
 "
 devtools
 .
-webide
+remote
 .
-adbExtensionID
+adb
+.
+extensionID
 "
 )
 ;
