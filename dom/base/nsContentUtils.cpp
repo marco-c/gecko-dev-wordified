@@ -57730,6 +57730,9 @@ NS_OK
 }
 CustomElementRegistry
 *
+nsContentUtils
+:
+:
 GetCustomElementRegistry
 (
 nsIDocument
@@ -57835,11 +57838,10 @@ RefPtr
 CustomElementRegistry
 >
 registry
-(
+=
 GetCustomElementRegistry
 (
 aDoc
-)
 )
 ;
 if
