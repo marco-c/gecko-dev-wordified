@@ -446,19 +446,15 @@ commandline
 [
 ]
     
-_prefs
-=
-_prefs
-.
-items
-(
-)
-    
 for
 pref
 value
 in
 _prefs
+.
+items
+(
+)
 :
         
 commandline
@@ -700,6 +696,9 @@ suffix
 .
 ini
 '
+text
+=
+True
 )
         
 os
@@ -708,6 +707,10 @@ write
 (
 fd
 _ini
+.
+encode
+(
+)
 )
         
 os
@@ -914,6 +917,9 @@ suffix
 .
 ini
 '
+text
+=
+True
 )
         
 os
@@ -922,6 +928,10 @@ write
 (
 fd
 _ini
+.
+encode
+(
+)
 )
         
 os
@@ -2291,6 +2301,10 @@ true
 "
 "
 "
+.
+encode
+(
+)
 )
         
 assert
@@ -2440,6 +2454,10 @@ f
 write
 (
 json
+.
+encode
+(
+)
 )
         
 f
@@ -2538,6 +2556,10 @@ f
 write
 (
 json
+.
+encode
+(
+)
 )
         
 f
@@ -2678,6 +2700,13 @@ js
 delete
 =
 False
+mode
+=
+'
+w
++
+t
+'
 )
 as
 f
