@@ -361,6 +361,17 @@ this
 .
 tooltip
 ;
+this
+.
+tooltip
+.
+panel
+.
+innerHTML
+=
+"
+"
+;
 const
 container
 =
