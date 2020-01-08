@@ -359,6 +359,10 @@ sourceClient
 .
 source
 (
+)
+.
+then
+(
 function
 (
 response
@@ -371,16 +375,6 @@ ok
 !
 !
 response
-)
-;
-Assert
-.
-ok
-(
-!
-response
-.
-error
 )
 ;
 Assert

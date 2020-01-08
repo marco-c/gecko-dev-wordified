@@ -344,6 +344,10 @@ gSource
 prettyPrint
 (
 2
+)
+.
+then
+(
 runCode
 )
 ;
@@ -443,6 +447,10 @@ gSource
 )
 .
 disablePrettyPrint
+(
+)
+.
+then
 (
 testUgly
 )
