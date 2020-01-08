@@ -473,7 +473,7 @@ name
 '
 :
 '
-jsshell
+js
 -
 bench
 '
