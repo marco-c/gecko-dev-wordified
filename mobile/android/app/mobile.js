@@ -8224,7 +8224,9 @@ VE
 ;
 /
 /
-Enable
+Support
+but
+deprecate
 hardware
 -
 accelerated
@@ -8257,7 +8259,7 @@ azure
 .
 accelerated
 "
-true
+false
 )
 ;
 pref
