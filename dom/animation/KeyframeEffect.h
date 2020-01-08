@@ -2966,9 +2966,11 @@ return
 mCumulativeChangeHint
 &
 (
-nsChangeHint_UpdatePostTransformOverflow
-|
 nsChangeHint_AddOrRemoveTransform
+|
+nsChangeHint_UpdateOverflow
+|
+nsChangeHint_UpdatePostTransformOverflow
 |
 nsChangeHint_UpdateTransformLayer
 )
