@@ -1488,10 +1488,6 @@ isContentXBLCompartment
 (
 false
 )
-isAddonCompartment
-(
-false
-)
 universalXPConnectEnabled
 (
 false
