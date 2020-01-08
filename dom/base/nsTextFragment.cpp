@@ -287,10 +287,8 @@ sSingleCharSharedString
 ]
 ;
 using
+namespace
 mozilla
-:
-:
-CheckedUint32
 ;
 /
 /

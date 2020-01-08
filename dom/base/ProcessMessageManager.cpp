@@ -121,6 +121,17 @@ mozilla
 /
 dom
 /
+ParentProcessMessageManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ProcessMessageManager
 .
 h

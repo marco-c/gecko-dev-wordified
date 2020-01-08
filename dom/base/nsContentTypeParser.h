@@ -123,7 +123,7 @@ nsContentTypeParser_h
 #
 include
 "
-nsAString
+nsString
 .
 h
 "
