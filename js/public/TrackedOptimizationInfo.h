@@ -406,6 +406,11 @@ _
 Compare_Call
 )
 \
+_
+(
+Compare_Character
+)
+\
 \
 _
 (
