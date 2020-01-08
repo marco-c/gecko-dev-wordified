@@ -60,6 +60,12 @@ use
 cg
 ;
 use
+parse
+:
+:
+ParseVariantAttrs
+;
+use
 quote
 :
 :
@@ -86,12 +92,6 @@ CssFieldAttrs
 CssInputAttrs
 CssVariantAttrs
 }
-;
-use
-parse
-:
-:
-ParseVariantAttrs
 ;
 pub
 fn
