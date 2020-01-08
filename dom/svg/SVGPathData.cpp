@@ -1966,7 +1966,7 @@ PATHSEG_CLOSEPATH
 \
 ApproximateZeroLengthSubpathSquareCaps
 (
-builder
+aBuilder
 segStart
 aStrokeWidth
 )
@@ -1990,7 +1990,7 @@ BuildPath
 (
 PathBuilder
 *
-builder
+aBuilder
 uint8_t
 aStrokeLineCap
 Float
@@ -2250,7 +2250,7 @@ segEnd
 =
 pathStart
 ;
-builder
+aBuilder
 -
 >
 Close
@@ -2282,7 +2282,7 @@ i
 ]
 )
 ;
-builder
+aBuilder
 -
 >
 MoveTo
@@ -2321,7 +2321,7 @@ i
 ]
 )
 ;
-builder
+aBuilder
 -
 >
 MoveTo
@@ -2366,7 +2366,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 LineTo
@@ -2410,7 +2410,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 LineTo
@@ -2500,7 +2500,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 BezierTo
@@ -2598,7 +2598,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 BezierTo
@@ -2708,7 +2708,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 BezierTo
@@ -2822,7 +2822,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 BezierTo
@@ -2923,7 +2923,7 @@ y
 0f
 )
 {
-builder
+aBuilder
 -
 >
 LineTo
@@ -2981,7 +2981,7 @@ segEnd
 )
 )
 {
-builder
+aBuilder
 -
 >
 BezierTo
@@ -3025,7 +3025,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 LineTo
@@ -3066,7 +3066,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 LineTo
@@ -3105,7 +3105,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 LineTo
@@ -3146,7 +3146,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 LineTo
@@ -3236,7 +3236,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 BezierTo
@@ -3332,7 +3332,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 BezierTo
@@ -3442,7 +3442,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 BezierTo
@@ -3554,7 +3554,7 @@ subpathHasLength
 =
 true
 ;
-builder
+aBuilder
 -
 >
 BezierTo
@@ -3667,7 +3667,7 @@ segType
 MAYBE_APPROXIMATE_ZERO_LENGTH_SUBPATH_SQUARE_CAPS_TO_DT
 ;
 return
-builder
+aBuilder
 -
 >
 Finish
