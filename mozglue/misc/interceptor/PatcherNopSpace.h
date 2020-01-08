@@ -319,6 +319,9 @@ MMPolicyT
 >
 fn
 (
+this
+-
+>
 mVMPolicy
 reinterpret_cast
 <
@@ -1025,6 +1028,9 @@ MMPolicyT
 >
 readOnlyTargetFn
 (
+this
+-
+>
 ResolveRedirectedAddress
 (
 aTargetFn
