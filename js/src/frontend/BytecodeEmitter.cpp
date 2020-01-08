@@ -753,7 +753,7 @@ false
 )
 #
 endif
-numberList
+constList
 (
 cx
 )
@@ -13881,11 +13881,14 @@ true
 if
 (
 !
-numberList
+constList
 .
 append
 (
+DoubleValue
+(
 dval
+)
 )
 )
 return
@@ -13895,7 +13898,7 @@ return
 emitIndex32
 (
 JSOP_DOUBLE
-numberList
+constList
 .
 length
 (
@@ -53861,7 +53864,7 @@ mainCount
 ;
 }
 void
-CGNumberList
+CGConstList
 :
 :
 finish
@@ -53909,13 +53912,10 @@ vector
 i
 ]
 =
-DoubleValue
-(
 list
 [
 i
 ]
-)
 ;
 }
 /

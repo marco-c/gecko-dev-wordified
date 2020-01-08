@@ -357,7 +357,7 @@ so
 far
 .
 typedef
-GCVector
+Vector
 <
 Value
 20
@@ -394,7 +394,7 @@ so
 far
 .
 typedef
-GCVector
+Vector
 <
 IdValuePair
 10

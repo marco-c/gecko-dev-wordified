@@ -6641,7 +6641,10 @@ cx
 HandleNativeObject
 obj
 const
-AutoValueVector
+Vector
+<
+Value
+>
 &
 values
 void
