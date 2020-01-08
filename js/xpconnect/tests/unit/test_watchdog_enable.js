@@ -56,7 +56,6 @@ MPL
 .
 *
 /
-async
 function
 testBody
 (
@@ -67,7 +66,7 @@ setWatchdogEnabled
 true
 )
 ;
-await
+return
 checkWatchdog
 (
 true
