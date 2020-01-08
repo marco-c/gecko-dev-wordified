@@ -265,6 +265,12 @@ nullptr
 }
 virtual
 bool
+MakeCurrent
+(
+)
+;
+virtual
+bool
 UseANGLE
 (
 )
