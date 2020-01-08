@@ -1678,14 +1678,12 @@ InflateUTF8Action
 Action
 typename
 CharT
-class
-ContextT
 >
 static
 bool
 InflateUTF8StringToBuffer
 (
-ContextT
+JSContext
 *
 cx
 const
@@ -2713,14 +2711,12 @@ InflateUTF8Action
 Action
 typename
 CharsT
-class
-ContextT
 >
 static
 CharsT
 InflateUTF8StringHelper
 (
-ContextT
+JSContext
 *
 cx
 const
@@ -3119,7 +3115,6 @@ InflateUTF8StringToBuffer
 <
 FindEncoding
 char16_t
-JSContext
 >
 (
 /
@@ -3246,7 +3241,6 @@ InflateUTF8StringToBuffer
 <
 AssertNoInvalids
 char16_t
-JSContext
 >
 (
 /
