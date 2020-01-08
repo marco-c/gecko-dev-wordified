@@ -342,7 +342,7 @@ getStr
 "
 welcome
 .
-search
+search2
 "
 )
 .
@@ -361,7 +361,7 @@ getStr
 "
 welcome
 .
-findInFiles
+findInFiles2
 "
 )
 .

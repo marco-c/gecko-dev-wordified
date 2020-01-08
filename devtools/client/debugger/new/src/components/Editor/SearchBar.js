@@ -1800,7 +1800,7 @@ sourceSearch
 .
 search
 .
-placeholder
+placeholder2
 "
 )
 summaryMsg

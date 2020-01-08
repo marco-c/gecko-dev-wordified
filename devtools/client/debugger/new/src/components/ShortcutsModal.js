@@ -560,7 +560,7 @@ getStr
 "
 shortcuts
 .
-fileSearch
+fileSearch2
 "
 )
 (
@@ -595,7 +595,7 @@ getStr
 "
 shortcuts
 .
-searchAgain
+searchAgain2
 "
 )
 (
@@ -632,7 +632,7 @@ getStr
 "
 shortcuts
 .
-projectSearch
+projectSearch2
 "
 )
 (
@@ -665,7 +665,7 @@ getStr
 "
 shortcuts
 .
-functionSearch
+functionSearch2
 "
 )
 (

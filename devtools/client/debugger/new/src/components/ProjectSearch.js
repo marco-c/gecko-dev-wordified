@@ -1058,17 +1058,6 @@ key
 file
 .
 sourceId
-onClick
-:
-e
-=
->
-setExpanded
-(
-file
-!
-expanded
-)
 }
 _react2
 .
