@@ -17144,7 +17144,7 @@ use
 the
 new
 FxA
-messages
+commands
 backend
 .
 pref
@@ -17154,7 +17154,7 @@ identity
 .
 fxaccounts
 .
-messages
+commands
 .
 enabled
 "
