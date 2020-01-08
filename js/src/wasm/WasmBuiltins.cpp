@@ -686,6 +686,10 @@ if
 instance
 -
 >
+debug
+(
+)
+.
 enterFrameTrapsEnabled
 (
 )

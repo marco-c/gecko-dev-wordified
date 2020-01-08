@@ -3047,6 +3047,7 @@ WasmModuleObject
 )
 )
 {
+const
 wasm
 :
 :
