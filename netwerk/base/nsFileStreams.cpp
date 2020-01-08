@@ -1554,9 +1554,10 @@ mOpenParams
 .
 localFile
 =
-do_QueryInterface
-(
 file
+.
+forget
+(
 )
 ;
 NS_ENSURE_TRUE
