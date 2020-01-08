@@ -6600,6 +6600,13 @@ mQuirkSheetAdded
 =
 needsQuirkSheet
 ;
+mShell
+-
+>
+ApplicableStylesChanged
+(
+)
+;
 }
 /
 /
