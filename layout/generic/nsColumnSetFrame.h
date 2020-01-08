@@ -1514,6 +1514,16 @@ nsPoint
 aPt
 )
 ;
+static
+nscoord
+ClampUsedColumnWidth
+(
+const
+nsStyleCoord
+&
+aColumnWidth
+)
+;
 }
 ;
 #
