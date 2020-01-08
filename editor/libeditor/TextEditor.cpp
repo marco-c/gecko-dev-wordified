@@ -10896,6 +10896,7 @@ operation
 }
 MOZ_ASSERT
 (
+!
 handled
 "
 WillDoAction
