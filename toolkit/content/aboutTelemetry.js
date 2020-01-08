@@ -1140,8 +1140,6 @@ getMainWindow
 return
 window
 .
-document
-.
 docShell
 .
 rootTreeItem

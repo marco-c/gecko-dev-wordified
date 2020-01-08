@@ -2823,7 +2823,7 @@ frame
 )
 {
 let
-doc
+win
 =
 frame
 ?
@@ -2838,9 +2838,14 @@ iframe
 "
 )
 .
-contentDocument
+contentWindow
 :
 content
+;
+let
+doc
+=
+win
 .
 document
 ;
@@ -2916,7 +2921,7 @@ nsISerializationHelper
 let
 serializable
 =
-doc
+win
 .
 docShell
 .
@@ -3576,7 +3581,7 @@ frame
 )
 {
 let
-doc
+win
 =
 frame
 ?
@@ -3591,9 +3596,14 @@ iframe
 "
 )
 .
-contentDocument
+contentWindow
 :
 content
+;
+let
+doc
+=
+win
 .
 document
 ;
@@ -3669,7 +3679,7 @@ nsISerializationHelper
 let
 serializable
 =
-doc
+win
 .
 docShell
 .

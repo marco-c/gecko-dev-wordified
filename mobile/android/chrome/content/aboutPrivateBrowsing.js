@@ -132,8 +132,6 @@ gChromeWin
 >
 window
 .
-document
-.
 docShell
 .
 rootTreeItem

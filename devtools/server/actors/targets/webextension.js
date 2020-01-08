@@ -2231,8 +2231,6 @@ rootWin
 =
 window
 .
-document
-.
 docShell
 .
 sameTypeRootTreeItem

@@ -205,8 +205,6 @@ function
 return
 window
 .
-document
-.
 docShell
 .
 rootTreeItem

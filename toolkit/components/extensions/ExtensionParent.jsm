@@ -4536,8 +4536,6 @@ ownerGlobal
 return
 win
 .
-document
-.
 docShell
 .
 rootTreeItem

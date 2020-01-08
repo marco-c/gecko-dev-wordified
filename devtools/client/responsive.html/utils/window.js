@@ -97,8 +97,6 @@ window
 return
 window
 .
-document
-.
 docShell
 .
 rootTreeItem

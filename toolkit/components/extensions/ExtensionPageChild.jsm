@@ -2558,8 +2558,6 @@ mm
 =
 contentWindow
 .
-document
-.
 docShell
 .
 QueryInterface
