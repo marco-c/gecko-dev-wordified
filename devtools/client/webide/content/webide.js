@@ -5018,9 +5018,6 @@ client
 .
 checkRuntimeVersion
 (
-AppManager
-.
-listTabsForm
 )
 ;
 if
