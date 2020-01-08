@@ -1024,10 +1024,6 @@ input
 if
 (
 mapResult
-!
-=
-=
-null
 )
 {
 input
