@@ -136,17 +136,6 @@ updateInfo
 )
 ;
 }
-manifest
-:
-{
-permissions
-:
-[
-"
-theme
-"
-]
-}
 }
 )
 ;
