@@ -343,7 +343,9 @@ scope
 optionally_keyed_by
 (
 '
-project
+release
+-
+level
 '
 basestring
 )
@@ -746,16 +748,23 @@ label
 '
 ]
             
-project
-=
+*
+*
+{
+'
+release
+-
+level
+'
+:
 config
 .
 params
-[
-'
-project
-'
-]
+.
+release_level
+(
+)
+}
         
 )
         
