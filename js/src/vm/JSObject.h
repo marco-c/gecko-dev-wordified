@@ -9101,9 +9101,7 @@ ReportNotObject
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 )
 ;
@@ -9115,9 +9113,7 @@ NonNullObject
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -9368,7 +9364,7 @@ Throw
 JSContext
 *
 cx
-jsid
+HandleId
 id
 unsigned
 errorNumber
