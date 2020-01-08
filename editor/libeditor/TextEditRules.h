@@ -3161,10 +3161,6 @@ nsIEditor
 :
 eStrip
 )
-bOrdered
-(
-false
-)
 entireList
 (
 false
@@ -3240,15 +3236,6 @@ nsIEditor
 :
 EStripWrappers
 stripWrappers
-;
-/
-/
-EditSubAction
-:
-:
-eRemoveList
-bool
-bOrdered
 ;
 /
 /
