@@ -6978,7 +6978,7 @@ PrefChangedCallback
 const
 char
 *
-void
+nsPresContext
 *
 )
 ;

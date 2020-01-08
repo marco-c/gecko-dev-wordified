@@ -1000,7 +1000,7 @@ const
 char
 *
 aPref
-void
+PluginModuleParent
 *
 aModule
 )
@@ -3123,7 +3123,7 @@ const
 char
 *
 aPref
-void
+PluginModuleChromeParent
 *
 aModule
 )

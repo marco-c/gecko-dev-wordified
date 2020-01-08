@@ -27057,9 +27057,9 @@ const
 char
 *
 prefName
-void
+nsNavHistoryResult
 *
-closure
+self
 )
 {
 MOZ_ASSERT
@@ -27082,14 +27082,7 @@ change
 "
 )
 ;
-static_cast
-<
-nsNavHistoryResult
-*
->
-(
-closure
-)
+self
 -
 >
 OnMobilePrefChanged
