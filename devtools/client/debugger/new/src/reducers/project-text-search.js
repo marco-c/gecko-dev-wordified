@@ -559,6 +559,11 @@ case
 CLOSE_PROJECT_SEARCH
 "
 :
+case
+"
+NAVIGATE
+"
+:
 return
 state
 .
