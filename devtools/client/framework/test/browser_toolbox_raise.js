@@ -127,10 +127,7 @@ TEST_URL
 .
 then
 (
-async
-(
 tab
-)
 =
 >
 {
@@ -146,7 +143,6 @@ gBrowser
 const
 target
 =
-await
 TargetFactory
 .
 forTab

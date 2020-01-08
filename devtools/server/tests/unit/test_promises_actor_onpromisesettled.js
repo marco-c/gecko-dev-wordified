@@ -183,7 +183,7 @@ with
 the
 PromiseActor
 await
-attachTarget
+attachTab
 (
 client
 parentProcessActors

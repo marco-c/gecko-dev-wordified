@@ -170,7 +170,7 @@ tab
 await
 client
 .
-attachTarget
+attachTab
 (
 form
 .
