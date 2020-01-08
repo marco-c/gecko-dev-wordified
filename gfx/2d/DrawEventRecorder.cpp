@@ -600,7 +600,9 @@ aFn
 {
 mExternalFonts
 =
-true
+!
+!
+mSerializeCallback
 ;
 WriteHeader
 (
