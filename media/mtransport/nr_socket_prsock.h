@@ -494,7 +494,7 @@ h
 #
 include
 "
-databuffer
+mediapacket
 .
 h
 "
@@ -1260,7 +1260,7 @@ PRNetAddr
 from
 nsAutoPtr
 <
-DataBuffer
+MediaPacket
 >
 &
 data
@@ -1286,7 +1286,7 @@ from
 ;
 nsAutoPtr
 <
-DataBuffer
+MediaPacket
 >
 data
 ;
@@ -1667,7 +1667,7 @@ NetAddr
 addr
 nsAutoPtr
 <
-DataBuffer
+MediaPacket
 >
 buf
 )
@@ -1845,7 +1845,7 @@ nr_tcp_message
 (
 nsAutoPtr
 <
-DataBuffer
+MediaPacket
 >
 &
 data
@@ -1920,7 +1920,7 @@ nr_tcp_message
 ;
 nsAutoPtr
 <
-DataBuffer
+MediaPacket
 >
 data
 ;
