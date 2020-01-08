@@ -1946,8 +1946,11 @@ modify
 "
 onclick
 }
+(
 )
-;
+=
+>
+{
 browser
 .
 test
@@ -1957,6 +1960,9 @@ sendMessage
 "
 ready
 "
+)
+;
+}
 )
 ;
 }
