@@ -1812,10 +1812,6 @@ GeckoViewNavigation
 .
 jsm
 "
-}
-onEnable
-:
-{
 frameScript
 :
 "
