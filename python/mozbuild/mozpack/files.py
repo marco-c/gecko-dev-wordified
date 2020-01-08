@@ -109,6 +109,8 @@ strip
 may_elfhack
     
 elfhack
+    
+xz_compress
 )
 from
 mozpack
@@ -1927,6 +1929,31 @@ documentation
 '
     
 def
+__init__
+(
+self
+path
+xz_compress
+=
+False
+)
+:
+        
+File
+.
+__init__
+(
+self
+path
+)
+        
+self
+.
+xz_compress
+=
+xz_compress
+    
+def
 copy
 (
 self
@@ -2013,6 +2040,8 @@ and
         
 #
 elfhacked
+and
+xz_compressed
 so
 we
 can
@@ -2079,6 +2108,17 @@ dest
 :
                 
 elfhack
+(
+dest
+)
+            
+if
+self
+.
+xz_compress
+:
+                
+xz_compress
 (
 dest
 )
