@@ -716,6 +716,7 @@ const
 InlineFrameIterator
 &
 frame
+const
 JSTryNote
 *
 tn
@@ -1520,6 +1521,7 @@ done
 tni
 )
 {
+const
 JSTryNote
 *
 tn
@@ -1991,6 +1993,7 @@ inline
 void
 BaselineFrameAndStackPointersFromTryNote
 (
+const
 JSTryNote
 *
 tn
@@ -2077,6 +2080,7 @@ SettleOnTryNote
 JSContext
 *
 cx
+const
 JSTryNote
 *
 tn
@@ -2453,6 +2457,7 @@ done
 tni
 )
 {
+const
 JSTryNote
 *
 tn
@@ -2633,6 +2638,7 @@ done
 tni
 )
 {
+const
 JSTryNote
 *
 tn
