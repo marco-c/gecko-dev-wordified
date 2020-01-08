@@ -64101,7 +64101,7 @@ remote
 .
 timeout_ms
 "
-10000
+15000
 )
 ;
 pref
