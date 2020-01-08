@@ -5380,6 +5380,8 @@ WrState
 aState
 LayoutRect
 aRect
+LayoutRect
+aClip
 )
 WR_FUNC
 ;
@@ -5420,6 +5422,8 @@ WrState
 aState
 LayoutRect
 aRect
+LayoutRect
+aClip
 bool
 aIsBackfaceVisible
 WrPipelineId
