@@ -386,13 +386,6 @@ h
 #
 include
 "
-nsIDOMWindowCollection
-.
-h
-"
-#
-include
-"
 nsDOMWindowList
 .
 h
