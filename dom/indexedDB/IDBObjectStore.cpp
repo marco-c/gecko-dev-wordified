@@ -3137,6 +3137,10 @@ StreamBlobImpl
 Create
 (
 stream
+.
+forget
+(
+)
 EmptyString
 (
 )
