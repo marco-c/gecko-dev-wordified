@@ -10209,9 +10209,6 @@ return
 initialized_
 ;
 }
-#
-ifdef
-DEBUG
 size_t
 RInstructionResults
 :
@@ -10230,8 +10227,6 @@ length
 )
 ;
 }
-#
-endif
 JitFrameLayout
 *
 RInstructionResults
@@ -12882,7 +12877,7 @@ isInitialized
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 results
 -
