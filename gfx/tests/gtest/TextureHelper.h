@@ -496,7 +496,7 @@ mPicX
 Create
 YCbCrTexture
 for
-basice
+basic
 backend
 .
 if
@@ -533,11 +533,17 @@ StereoMode
 :
 :
 MONO
+gfx
+:
+:
+ColorDepth
+:
+:
+COLOR_8
 YUVColorSpace
 :
 :
 BT601
-8
 TextureFlags
 :
 :

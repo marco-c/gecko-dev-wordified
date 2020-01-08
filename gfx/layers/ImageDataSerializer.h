@@ -452,9 +452,12 @@ aDescriptor
 ;
 Maybe
 <
-uint32_t
+gfx
+:
+:
+ColorDepth
 >
-BitDepthFromBufferDescriptor
+ColorDepthFromBufferDescriptor
 (
 const
 BufferDescriptor

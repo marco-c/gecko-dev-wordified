@@ -543,7 +543,7 @@ yuvColorMatrix
 }
 ;
 struct
-YCbCrBitDepthConstants
+YCbCrColorDepthConstants
 {
 float
 coefficient

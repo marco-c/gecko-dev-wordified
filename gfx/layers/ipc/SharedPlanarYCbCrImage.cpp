@@ -914,10 +914,10 @@ aData
 mStereoMode
 aData
 .
-mYUVColorSpace
+mColorDepth
 aData
 .
-mBitDepth
+mYUVColorSpace
 hasIntermediateBuffer
 )
 )
@@ -1293,11 +1293,11 @@ mYUVColorSpace
 ;
 mData
 .
-mBitDepth
+mColorDepth
 =
 aData
 .
-mBitDepth
+mColorDepth
 ;
 /
 /

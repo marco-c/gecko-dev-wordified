@@ -2004,10 +2004,13 @@ RefPtr
 <
 MLGBuffer
 >
-GetBufferForBitDepthCoefficient
+GetBufferForColorDepthCoefficient
 (
-uint8_t
-aBitDepth
+gfx
+:
+:
+ColorDepth
+aColorDepth
 )
 ;
 /
@@ -2807,7 +2810,7 @@ gfx
 ColorDepth
 :
 :
-MAX
+UNKNOWN
 RefPtr
 <
 MLGBuffer

@@ -5328,12 +5328,12 @@ vCoefficient
 0
 ]
 =
-RescalingFactorForAlphaBitDepth
+RescalingFactorForColorDepth
 (
 ycbcrEffect
 -
 >
-mBitDepth
+mColorDepth
 )
 ;
 TextureSourceD3D11

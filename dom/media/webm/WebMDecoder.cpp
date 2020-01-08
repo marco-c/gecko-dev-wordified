@@ -486,9 +486,15 @@ GetAsVideoInfo
 )
 -
 >
-mBitDepth
+mColorDepth
 =
+gfx
+:
+:
+ColorDepthForBitDepth
+(
 bitDepth
+)
 ;
 }
 tracks
@@ -688,7 +694,8 @@ types
 include
 /
 /
-bitdepth
+color
+depth
 RefPtr
 <
 PDMFactory
