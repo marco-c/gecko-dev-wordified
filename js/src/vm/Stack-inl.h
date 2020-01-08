@@ -3026,12 +3026,15 @@ this
 ;
 }
 inline
-JSCompartment
+JS
+:
+:
+Realm
 *
 AbstractFramePtr
 :
 :
-compartment
+realm
 (
 )
 const
@@ -3042,7 +3045,7 @@ environmentChain
 )
 -
 >
-compartment
+realm
 (
 )
 ;

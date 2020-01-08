@@ -1486,9 +1486,12 @@ popOffEnvironmentChain
 )
 ;
 inline
-JSCompartment
+JS
+:
+:
+Realm
 *
-compartment
+realm
 (
 )
 const

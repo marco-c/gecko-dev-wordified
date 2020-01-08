@@ -2995,7 +2995,7 @@ MOZ_ASSERT
 (
 caller
 .
-compartment
+realm
 (
 )
 =
@@ -3007,7 +3007,7 @@ script
 )
 -
 >
-compartment
+realm
 (
 )
 )
