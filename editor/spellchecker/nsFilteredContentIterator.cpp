@@ -273,8 +273,10 @@ nsFilteredContentIterator
 :
 nsFilteredContentIterator
 (
+UniquePtr
+<
 nsComposeTxtSrvFilter
-*
+>
 aFilter
 )
 :
@@ -292,7 +294,13 @@ NS_NewPreContentIterator
 )
 mFilter
 (
+std
+:
+:
+move
+(
 aFilter
+)
 )
 mDidSkip
 (
@@ -473,7 +481,6 @@ nsFilteredContentIterator
 mCurrentIterator
 mIterator
 mPreIterator
-mFilter
 mRange
 )
 /

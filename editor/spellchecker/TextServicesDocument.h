@@ -149,9 +149,6 @@ nscore
 h
 "
 class
-nsComposeTxtSrvFilter
-;
-class
 nsIContent
 ;
 class
@@ -354,11 +351,8 @@ nsRange
 >
 mExtent
 ;
-RefPtr
-<
-nsComposeTxtSrvFilter
->
-mTxtSvcFilter
+uint32_t
+mTxtSvcFilterType
 ;
 int32_t
 mSelStartIndex

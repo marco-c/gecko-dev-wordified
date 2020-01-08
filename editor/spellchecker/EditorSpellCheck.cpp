@@ -285,13 +285,6 @@ do_CreateInstance
 #
 include
 "
-nsComposeTxtSrvFilter
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
