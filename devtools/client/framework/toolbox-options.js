@@ -1574,13 +1574,6 @@ atleastOneToolNotSupported
 =
 false
 ;
-const
-toolbox
-=
-this
-.
-toolbox
-;
 /
 /
 Signal
@@ -1633,6 +1626,7 @@ onCheckboxClick
 =
 function
 (
+telemetry
 tool
 )
 {
@@ -1701,8 +1695,6 @@ were
 registered
 and
 unregistered
-.
-this
 .
 telemetry
 .
@@ -1924,6 +1916,9 @@ onCheckboxClick
 bind
 (
 checkboxInput
+this
+.
+telemetry
 tool
 )
 )
@@ -2131,6 +2126,8 @@ name
 pref
 }
 of
+this
+.
 toolbox
 .
 listWebExtensions
