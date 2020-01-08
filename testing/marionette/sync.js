@@ -1873,7 +1873,7 @@ param
 {
 ChromeWindow
 }
-window
+win
 *
 Window
 to
@@ -1892,7 +1892,7 @@ Promise
 function
 IdlePromise
 (
-window
+win
 )
 {
 return
@@ -1914,7 +1914,7 @@ idleDispatchToMainThread
 =
 >
 {
-window
+win
 .
 requestAnimationFrame
 (

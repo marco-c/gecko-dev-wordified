@@ -6635,7 +6635,7 @@ param
 {
 WindowProxy
 }
-window
+win
 *
 Current
 window
@@ -6734,7 +6734,7 @@ dispatch
 function
 (
 chain
-window
+win
 specCompatPointerOrigin
 =
 true
@@ -6776,7 +6776,7 @@ computeTickDuration
 (
 tickActions
 )
-window
+win
 )
 ;
 }
@@ -6921,7 +6921,7 @@ param
 {
 WindowProxy
 }
-window
+win
 *
 Current
 window
@@ -6956,7 +6956,7 @@ function
 (
 tickActions
 tickDuration
-window
+win
 )
 {
 let
@@ -6969,7 +6969,7 @@ map
 toEvents
 (
 tickDuration
-window
+win
 )
 )
 ;
@@ -7414,7 +7414,7 @@ param
 {
 WindowProxy
 }
-window
+win
 *
 Current
 window
@@ -7460,7 +7460,7 @@ function
 toEvents
 (
 tickDuration
-window
+win
 )
 {
 return
@@ -7499,7 +7499,7 @@ dispatchKeyUp
 (
 a
 inputState
-window
+win
 )
 ;
 case
@@ -7512,7 +7512,7 @@ dispatchKeyDown
 (
 a
 inputState
-window
+win
 )
 ;
 case
@@ -7525,7 +7525,7 @@ dispatchPointerDown
 (
 a
 inputState
-window
+win
 )
 ;
 case
@@ -7538,7 +7538,7 @@ dispatchPointerUp
 (
 a
 inputState
-window
+win
 )
 ;
 case
@@ -7552,7 +7552,7 @@ dispatchPointerMove
 a
 inputState
 tickDuration
-window
+win
 )
 ;
 case
@@ -7640,7 +7640,7 @@ param
 {
 WindowProxy
 }
-window
+win
 *
 Current
 window
@@ -7674,7 +7674,7 @@ dispatchKeyDown
 (
 a
 inputState
-window
+win
 )
 {
 return
@@ -7790,7 +7790,7 @@ a
 .
 value
 keyEvent
-window
+win
 )
 ;
 resolve
@@ -7856,7 +7856,7 @@ param
 {
 WindowProxy
 }
-window
+win
 *
 Current
 window
@@ -7883,7 +7883,7 @@ dispatchKeyUp
 (
 a
 inputState
-window
+win
 )
 {
 return
@@ -7971,7 +7971,7 @@ a
 .
 value
 keyEvent
-window
+win
 )
 ;
 resolve
@@ -8038,7 +8038,7 @@ param
 {
 WindowProxy
 }
-window
+win
 *
 Current
 window
@@ -8067,7 +8067,7 @@ dispatchPointerDown
 (
 a
 inputState
-window
+win
 )
 {
 return
@@ -8261,7 +8261,7 @@ inputState
 .
 y
 mouseEvent
-window
+win
 )
 ;
 if
@@ -8326,7 +8326,7 @@ inputState
 .
 y
 contextMenuEvent
-window
+win
 )
 ;
 }
@@ -8444,7 +8444,7 @@ param
 {
 WindowProxy
 }
-window
+win
 *
 Current
 window
@@ -8473,7 +8473,7 @@ dispatchPointerUp
 (
 a
 inputState
-window
+win
 )
 {
 return
@@ -8589,7 +8589,7 @@ inputState
 .
 y
 mouseEvent
-window
+win
 )
 ;
 break
@@ -8753,7 +8753,7 @@ param
 {
 WindowProxy
 }
-window
+win
 *
 Current
 window
@@ -8791,7 +8791,7 @@ dispatchPointerMove
 a
 inputState
 tickDuration
-window
+win
 )
 {
 const
@@ -8877,7 +8877,7 @@ getElementCenter
 a
 .
 origin
-window
+win
 )
 ;
 let
@@ -8914,7 +8914,7 @@ inViewPort
 (
 targetX
 targetY
-window
+win
 )
 )
 {
@@ -8940,7 +8940,7 @@ viewport
 width
 (
 {
-window
+win
 .
 innerWidth
 }
@@ -8950,7 +8950,7 @@ and
 height
 (
 {
-window
+win
 .
 innerHeight
 }
@@ -9000,7 +9000,7 @@ performOnePointerMove
 inputState
 targetX
 targetY
-window
+win
 )
 ;
 resolve
@@ -9144,7 +9144,7 @@ performOnePointerMove
 inputState
 x
 y
-window
+win
 )
 ;
 /
@@ -9234,7 +9234,7 @@ performOnePointerMove
 inputState
 targetX
 targetY
-window
+win
 )
 ;
 resolve
@@ -9624,7 +9624,7 @@ function
 getElementCenter
 (
 el
-window
+win
 )
 {
 if
@@ -9657,7 +9657,7 @@ getClientRects
 [
 0
 ]
-window
+win
 )
 ;
 }

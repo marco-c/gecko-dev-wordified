@@ -1266,7 +1266,7 @@ param
 {
 WindowProxy
 }
-window
+win
 *
 Current
 browsing
@@ -1395,7 +1395,7 @@ document
 get
 (
 webEl
-window
+win
 )
 {
 if
@@ -1504,7 +1504,7 @@ element
 isStale
 (
 el
-window
+win
 )
 )
 {
@@ -4595,7 +4595,7 @@ param
 WindowProxy
 =
 }
-window
+win
 *
 Current
 browsing
@@ -4659,7 +4659,7 @@ isStale
 function
 (
 el
-window
+win
 =
 undefined
 )
@@ -4667,7 +4667,7 @@ undefined
 if
 (
 typeof
-window
+win
 =
 =
 "
@@ -4675,7 +4675,7 @@ undefined
 "
 )
 {
-window
+win
 =
 el
 .
@@ -4703,7 +4703,7 @@ ownerDocument
 !
 =
 =
-window
+win
 .
 document
 )
@@ -7563,7 +7563,7 @@ param
 {
 WindowProxy
 }
-window
+win
 *
 Current
 window
@@ -7613,7 +7613,7 @@ getInViewCentrePoint
 function
 (
 rect
-window
+win
 )
 {
 const
@@ -7651,7 +7651,7 @@ right
 :
 min
 (
-window
+win
 .
 innerWidth
 max
@@ -7697,7 +7697,7 @@ bottom
 :
 min
 (
-window
+win
 .
 innerHeight
 max

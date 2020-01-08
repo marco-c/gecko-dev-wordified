@@ -1145,7 +1145,7 @@ param
 WindowProxy
 =
 }
-window
+win
 *
 Current
 browsing
@@ -1251,7 +1251,7 @@ obj
 seenEls
 =
 undefined
-window
+win
 =
 undefined
 )
@@ -1328,7 +1328,7 @@ fromJSON
 (
 e
 seenEls
-window
+win
 )
 )
 ;
@@ -1369,7 +1369,7 @@ seenEls
 get
 (
 webEl
-window
+win
 )
 ;
 }
@@ -1409,7 +1409,7 @@ obj
 prop
 ]
 seenEls
-window
+win
 )
 ;
 }
@@ -2737,7 +2737,7 @@ param
 {
 Window
 }
-window
+win
 *
 The
 DOM
@@ -2790,7 +2790,7 @@ create
 =
 function
 (
-window
+win
 principal
 =
 null
@@ -2806,7 +2806,7 @@ p
 principal
 |
 |
-window
+win
 ;
 opts
 =
@@ -2817,10 +2817,10 @@ assign
 {
 sameZoneAs
 :
-window
+win
 sandboxPrototype
 :
-window
+win
 wantComponents
 :
 true
@@ -2871,7 +2871,7 @@ param
 {
 Window
 }
-window
+win
 *
 The
 DOM
@@ -2897,7 +2897,7 @@ createMutable
 =
 function
 (
-window
+win
 )
 {
 let
@@ -2937,7 +2937,7 @@ sandbox
 .
 create
 (
-window
+win
 null
 opts
 )
@@ -2951,7 +2951,7 @@ createSystemPrincipal
 =
 function
 (
-window
+win
 )
 {
 let
@@ -2982,7 +2982,7 @@ sandbox
 .
 create
 (
-window
+win
 principal
 )
 ;
@@ -2994,7 +2994,7 @@ createSimpleTest
 =
 function
 (
-window
+win
 harness
 )
 {
@@ -3005,7 +3005,7 @@ sandbox
 .
 create
 (
-window
+win
 )
 ;
 sb
