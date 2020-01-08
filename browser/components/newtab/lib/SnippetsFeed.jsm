@@ -476,11 +476,9 @@ getProfileInfo
 const
 profileAge
 =
-new
+await
 ProfileAge
 (
-null
-null
 )
 ;
 const
