@@ -2823,6 +2823,10 @@ const
 bool
 &
 aAllowPersistentState
+InitResolver
+&
+&
+aResolver
 )
 {
 MOZ_ASSERT
@@ -2900,6 +2904,16 @@ false
 )
 ;
 }
+aResolver
+(
+true
+/
+*
+unused
+*
+/
+)
+;
 return
 IPC_OK
 (
