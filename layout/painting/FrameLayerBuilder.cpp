@@ -13069,7 +13069,7 @@ endif
 }
 static
 void
-InvalidatePostTransformRegion
+InvalidatePostTransformRect
 (
 PaintedLayer
 *
@@ -14056,7 +14056,7 @@ t
 }
 #
 endif
-InvalidatePostTransformRegion
+InvalidatePostTransformRect
 (
 t
 did
@@ -32512,7 +32512,7 @@ aNewLayer
 }
 #
 endif
-InvalidatePostTransformRegion
+InvalidatePostTransformRect
 (
 t
 aData
