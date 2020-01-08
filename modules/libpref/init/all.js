@@ -4190,7 +4190,7 @@ vp9
 .
 enabled
 "
-true
+false
 )
 ;
 pref
