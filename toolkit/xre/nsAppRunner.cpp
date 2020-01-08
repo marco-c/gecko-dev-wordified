@@ -27208,14 +27208,6 @@ XRE_START_OFFLINE
 SaveToEnv
 (
 "
-NO_EM_RESTART
-=
-"
-)
-;
-SaveToEnv
-(
-"
 XUL_APP_FILE
 =
 "

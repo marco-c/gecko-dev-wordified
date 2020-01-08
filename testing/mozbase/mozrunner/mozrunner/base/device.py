@@ -196,14 +196,6 @@ R_LOG_VERBOSE
 '
 1
 '
-           
-'
-NO_EM_RESTART
-'
-:
-'
-1
-'
 }
     
 def
