@@ -783,18 +783,6 @@ return
 ;
 nsCOMPtr
 <
-nsIContent
->
-tcXULElm
-(
-do_QueryInterface
-(
-tcElm
-)
-)
-;
-nsCOMPtr
-<
 nsIBoxObject
 >
 tcBoxObj
@@ -804,7 +792,7 @@ nsXULElement
 :
 FromNode
 (
-tcXULElm
+tcElm
 )
 -
 >

@@ -4328,10 +4328,7 @@ else
 {
 nodeToSerialize
 =
-do_QueryInterface
-(
 draggedNode
-)
 ;
 }
 dragNode
@@ -4370,10 +4367,7 @@ handle
 this
 linkNode
 =
-do_QueryInterface
-(
 draggedNode
-)
 ;
 /
 /

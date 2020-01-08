@@ -955,10 +955,7 @@ mainThread
 {
 mTargetThread
 =
-do_QueryInterface
-(
 mainThread
-)
 ;
 }
 }

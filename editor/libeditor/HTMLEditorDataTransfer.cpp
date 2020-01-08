@@ -6748,10 +6748,7 @@ nsINode
 >
 node
 =
-do_QueryInterface
-(
 aDestinationNode
-)
 ;
 MOZ_ASSERT
 (

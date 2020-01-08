@@ -25748,14 +25748,11 @@ Next
 {
 node
 =
-do_QueryInterface
-(
 iter
 -
 >
 GetCurrentNode
 (
-)
 )
 ;
 NS_ENSURE_TRUE
