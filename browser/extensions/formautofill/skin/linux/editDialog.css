@@ -63,6 +63,11 @@ specific
 rules
 *
 /
+:
+root
+[
+subdialog
+]
 body
 {
 font

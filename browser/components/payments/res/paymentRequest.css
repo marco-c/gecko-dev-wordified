@@ -56,7 +56,8 @@ MPL
 .
 *
 /
-html
+:
+root
 {
 height
 :
@@ -851,7 +852,9 @@ cancel
 {
 margin
 -
-left
+inline
+-
+start
 :
 auto
 ;
