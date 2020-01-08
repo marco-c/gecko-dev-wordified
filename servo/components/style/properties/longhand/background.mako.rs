@@ -576,6 +576,9 @@ gecko_enum_prefix
 "
 StyleGeometryBox
 "
+gecko_inexhaustive
+=
+True
 spec
 =
 "
@@ -648,6 +651,9 @@ gecko_enum_prefix
 "
 StyleGeometryBox
 "
+gecko_inexhaustive
+=
+True
 spec
 =
 "
