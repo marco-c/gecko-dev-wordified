@@ -2763,6 +2763,14 @@ aShapeType
 )
 const
 ;
+bool
+MayNarrowInBlockDirection
+(
+ShapeType
+aShapeType
+)
+const
+;
 #
 ifdef
 NS_BUILD_REFCNT_LOGGING
