@@ -9517,16 +9517,6 @@ GetTableFrame
 IsBorderCollapse
 (
 )
-&
-&
-StyleBorder
-(
-)
--
->
-HasBorder
-(
-)
 )
 {
 GetParent
