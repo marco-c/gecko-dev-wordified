@@ -2749,10 +2749,7 @@ false
 ;
 mNextListener
 =
-do_QueryInterface
-(
 redirectChannel
-)
 ;
 MOZ_ASSERT
 (

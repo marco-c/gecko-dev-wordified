@@ -49583,10 +49583,7 @@ targetContent
 {
 eventTarget
 =
-do_QueryInterface
-(
 targetContent
-)
 ;
 }
 else
@@ -49597,10 +49594,7 @@ mDocument
 {
 eventTarget
 =
-do_QueryInterface
-(
 mDocument
-)
 ;
 /
 /

@@ -2452,11 +2452,8 @@ editor
 .
 content
 =
-do_QueryInterface
-(
 GetRoot
 (
-)
 )
 ;
 return

@@ -2974,14 +2974,11 @@ NS_ERROR_NOT_AVAILABLE
 ;
 mEventTarget
 =
-do_QueryInterface
-(
 rootContent
 -
 >
 GetParent
 (
-)
 )
 ;
 NS_ENSURE_TRUE

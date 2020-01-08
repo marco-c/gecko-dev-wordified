@@ -142,10 +142,7 @@ nsIURI
 >
 soundURI
 (
-do_QueryInterface
-(
 aURL
-)
 )
 ;
 bool

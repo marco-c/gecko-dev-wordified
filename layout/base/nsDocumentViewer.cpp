@@ -24403,10 +24403,7 @@ nsIDocShellTreeItem
 >
 parentItem
 (
-do_QueryInterface
-(
 aParentNode
-)
 )
 ;
 /
@@ -24462,10 +24459,7 @@ break
 }
 parentItem
 =
-do_QueryInterface
-(
 parent
-)
 ;
 }
 mTopContainerWhilePrinting
@@ -26355,14 +26349,11 @@ nsPIDOMWindowOuter
 >
 win
 =
-do_QueryInterface
-(
 mContainer
 -
 >
 GetWindow
 (
-)
 )
 )
 {

@@ -15760,10 +15760,7 @@ return
 ;
 mCacheDirectory
 =
-do_QueryInterface
-(
 dir
-)
 ;
 }
 void

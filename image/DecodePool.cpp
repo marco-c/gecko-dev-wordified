@@ -2684,10 +2684,7 @@ nsIEventTarget
 >
 target
 =
-do_QueryInterface
-(
 mIOThread
-)
 ;
 return
 target

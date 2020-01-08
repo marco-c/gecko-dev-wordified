@@ -4575,11 +4575,8 @@ nsIGlobalObject
 >
 global
 =
-do_QueryInterface
-(
 GetParentObject
 (
-)
 )
 ;
 if

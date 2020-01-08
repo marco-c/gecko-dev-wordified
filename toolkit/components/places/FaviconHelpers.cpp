@@ -9619,10 +9619,7 @@ nsIInputStream
 >
 iconStream
 =
-do_QueryInterface
-(
 encoder
-)
 ;
 NS_ENSURE_STATE
 (

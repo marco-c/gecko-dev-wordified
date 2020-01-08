@@ -593,10 +593,7 @@ nsIProxiedChannel
 >
 proxied
 (
-do_QueryInterface
-(
 channel
-)
 )
 ;
 if

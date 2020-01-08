@@ -1161,10 +1161,7 @@ nsIDocShellTreeItem
 >
 docShellAsItem
 (
-do_QueryInterface
-(
 mDocShell
-)
 )
 ;
 NS_ENSURE_TRUE

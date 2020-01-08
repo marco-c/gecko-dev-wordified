@@ -1310,12 +1310,9 @@ nsIDocShellTreeItem
 >
 item
 =
-do_QueryInterface
-(
 NS_CP_GetDocShellFromContext
 (
 requestingContext
-)
 )
 ;
 if

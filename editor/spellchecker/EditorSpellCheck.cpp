@@ -3755,14 +3755,11 @@ parentDoc
 {
 rootContent
 =
-do_QueryInterface
-(
 parentDoc
 -
 >
 GetDocumentElement
 (
-)
 )
 ;
 }

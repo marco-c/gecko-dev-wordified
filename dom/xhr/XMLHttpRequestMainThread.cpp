@@ -12328,10 +12328,7 @@ EventTarget
 >
 eventTarget
 =
-do_QueryInterface
-(
 mResponseXML
-)
 ;
 EventListenerManager
 *

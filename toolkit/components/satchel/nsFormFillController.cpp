@@ -7727,10 +7727,7 @@ nsIDocShellTreeItem
 >
 treeItem
 =
-do_QueryInterface
-(
 aDocShell
-)
 ;
 nsCOMPtr
 <

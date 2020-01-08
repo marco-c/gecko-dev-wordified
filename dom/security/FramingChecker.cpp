@@ -589,17 +589,7 @@ nsIDocShellTreeItem
 >
 thisDocShellItem
 (
-do_QueryInterface
-(
-static_cast
-<
-nsIDocShell
-*
->
-(
 aDocShell
-)
-)
 )
 ;
 nsCOMPtr

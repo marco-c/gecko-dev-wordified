@@ -241,14 +241,11 @@ nsIGlobalObject
 >
 parent
 =
-do_QueryInterface
-(
 aTarget
 -
 >
 GetParentObject
 (
-)
 )
 ;
 /

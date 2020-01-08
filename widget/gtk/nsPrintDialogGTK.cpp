@@ -6570,17 +6570,6 @@ GTK_PRINT_OPERATION_RESULT_APPLY
 {
 nsCOMPtr
 <
-nsIObserver
->
-observer
-=
-do_QueryInterface
-(
-fpPrintPortal
-)
-;
-nsCOMPtr
-<
 nsIObserverService
 >
 os
@@ -6627,7 +6616,7 @@ os
 >
 AddObserver
 (
-observer
+fpPrintPortal
 "
 print
 -

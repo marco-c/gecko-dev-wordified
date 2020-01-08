@@ -4634,17 +4634,6 @@ if
 renderFlags
 )
 {
-nsCOMPtr
-<
-nsINode
->
-dragINode
-=
-do_QueryInterface
-(
-dragNode
-)
-;
 /
 /
 check
@@ -4659,7 +4648,7 @@ img
 element
 if
 (
-dragINode
+dragNode
 -
 >
 NodeName
@@ -4690,7 +4679,7 @@ nsINodeList
 *
 childList
 =
-dragINode
+dragNode
 -
 >
 ChildNodes

@@ -4046,10 +4046,7 @@ image
 {
 imageToReturn
 =
-do_QueryInterface
-(
 image
-)
 ;
 }
 if

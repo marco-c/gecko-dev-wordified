@@ -8636,10 +8636,7 @@ nsIRequest
 >
 request
 (
-do_QueryInterface
-(
 aOldChannel
-)
 )
 ;
 NS_ASSERTION

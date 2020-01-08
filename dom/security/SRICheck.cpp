@@ -2347,13 +2347,8 @@ nsCOMPtr
 nsIRequest
 >
 request
-;
-request
 =
-do_QueryInterface
-(
 aChannel
-)
 ;
 request
 -

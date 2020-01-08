@@ -1328,10 +1328,7 @@ EventTarget
 >
 target
 =
-do_QueryInterface
-(
 mImageContent
-)
 ;
 target
 -
@@ -1602,10 +1599,7 @@ document
 ;
 target
 =
-do_QueryInterface
-(
 mImageContent
-)
 ;
 target
 -

@@ -352,10 +352,7 @@ aEditor
 ;
 mEditor
 =
-do_QueryInterface
-(
 aEditor
-)
 ;
 RunUnitTest
 (

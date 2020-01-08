@@ -2299,10 +2299,7 @@ rv
 {
 imgStream
 =
-do_QueryInterface
-(
 aEncoder
-)
 ;
 }
 }
@@ -2543,10 +2540,7 @@ rv
 {
 imgStream
 =
-do_QueryInterface
-(
 aEncoder
-)
 ;
 }
 }

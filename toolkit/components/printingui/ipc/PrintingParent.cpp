@@ -366,10 +366,7 @@ nsIObserver
 >
 observer
 =
-do_QueryInterface
-(
 dialogParent
-)
 ;
 nsCOMPtr
 <
@@ -1722,10 +1719,7 @@ nsIContent
 >
 frame
 (
-do_QueryInterface
-(
 frameElement
-)
 )
 ;
 if

@@ -28221,14 +28221,11 @@ thisTabParent
 {
 frame
 =
-do_QueryInterface
-(
 thisTabParent
 -
 >
 GetOwnerElement
 (
-)
 )
 ;
 if

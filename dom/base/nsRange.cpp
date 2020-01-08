@@ -15956,10 +15956,7 @@ nsINode
 >
 cloneNode
 =
-do_QueryInterface
-(
 clone
-)
 ;
 if
 (
@@ -16546,10 +16543,7 @@ return
 }
 referenceNode
 =
-do_QueryInterface
-(
 secondPart
-)
 ;
 }
 else

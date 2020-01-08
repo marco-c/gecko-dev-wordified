@@ -4591,10 +4591,7 @@ nsIRequest
 >
 aOldRequest
 =
-do_QueryInterface
-(
 aOldChannel
-)
 ;
 MOZ_ASSERT
 (

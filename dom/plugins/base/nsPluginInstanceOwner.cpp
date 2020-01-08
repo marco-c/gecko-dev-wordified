@@ -2403,10 +2403,7 @@ rv
 ;
 headersDataStream
 =
-do_QueryInterface
-(
 sis
-)
 ;
 }
 int32_t

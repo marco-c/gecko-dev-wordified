@@ -357,10 +357,7 @@ return
 ;
 localFile
 =
-do_QueryInterface
-(
 parent
-)
 ;
 NS_ENSURE_TRUE_VOID
 (

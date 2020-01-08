@@ -2072,12 +2072,9 @@ IsInComposedDoc
 {
 targetPtr
 =
-do_QueryInterface
-(
 info
 .
 mNonAnonymousTarget
-)
 ;
 }
 touch
@@ -2523,12 +2520,9 @@ IsInComposedDoc
 {
 targetPtr
 =
-do_QueryInterface
-(
 info
 .
 mNonAnonymousTarget
-)
 ;
 }
 aCurrentEventContent
