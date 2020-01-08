@@ -416,6 +416,12 @@ mOuter
 ServiceWorkerRegistrationDescriptor
 mDescriptor
 ;
+RefPtr
+<
+ServiceWorkerRegistrationInfo
+>
+mInfo
+;
 const
 nsString
 mScope

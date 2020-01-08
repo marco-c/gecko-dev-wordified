@@ -600,9 +600,6 @@ algorithm
 void
 Install
 (
-ServiceWorkerManager
-*
-aSWM
 )
 ;
 /
