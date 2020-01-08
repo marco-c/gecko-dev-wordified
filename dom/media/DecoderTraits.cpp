@@ -700,9 +700,9 @@ particular
 codec
 was
 requested
+wave
 /
 /
-ogg
 is
 supported
 and
@@ -713,6 +713,9 @@ codec
 must
 be
 invalid
+or
+not
+supported
 .
 return
 CANPLAY_NO
