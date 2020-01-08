@@ -1189,6 +1189,8 @@ JS_DefineElement
 cx
 moduleInfoArray
 index
++
++
 id
 JSPROP_ENUMERATE
 )
