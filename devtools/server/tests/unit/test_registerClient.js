@@ -246,7 +246,7 @@ run_test
 (
 )
 {
-ActorRegistry
+DebuggerServer
 .
 addGlobalActor
 (

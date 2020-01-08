@@ -164,7 +164,7 @@ add_test_bulk_actor
 (
 )
 {
-ActorRegistry
+DebuggerServer
 .
 addGlobalActor
 (
