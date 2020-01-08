@@ -298,6 +298,9 @@ indexInParent
 states
 "
 "
+relations
+"
+"
 attributes
 "
 ]
