@@ -5243,6 +5243,10 @@ if
 (
 !
 obj
+&
+&
+!
+guardProto
 )
 return
 ;
@@ -5266,6 +5270,13 @@ guardSpecificObject
 objId
 obj
 )
+;
+if
+(
+!
+obj
+)
+return
 ;
 writer
 .
