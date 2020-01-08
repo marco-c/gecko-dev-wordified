@@ -217,8 +217,10 @@ d
 dest
 )
 )
+{
 return
 ;
+}
 Double
 *
 dbl
@@ -233,8 +235,10 @@ if
 !
 dbl
 )
+{
 return
 ;
+}
 /
 /
 The
@@ -365,8 +369,10 @@ f
 dest
 )
 )
+{
 return
 ;
+}
 Float
 *
 flt
@@ -381,8 +387,10 @@ if
 !
 flt
 )
+{
 return
 ;
+}
 /
 /
 See
@@ -446,8 +454,10 @@ v
 dest
 )
 )
+{
 return
 ;
+}
 SimdData
 *
 val
@@ -462,8 +472,10 @@ if
 !
 val
 )
+{
 return
 ;
+}
 JmpSrc
 j
 =
@@ -521,8 +533,10 @@ v
 dest
 )
 )
+{
 return
 ;
+}
 SimdData
 *
 val
@@ -537,8 +551,10 @@ if
 !
 val
 )
+{
 return
 ;
+}
 JmpSrc
 j
 =
@@ -659,6 +675,7 @@ empty
 (
 )
 )
+{
 masm
 .
 haltingAlign
@@ -669,6 +686,7 @@ double
 )
 )
 ;
+}
 for
 (
 const
@@ -705,6 +723,7 @@ empty
 (
 )
 )
+{
 masm
 .
 haltingAlign
@@ -715,6 +734,7 @@ float
 )
 )
 ;
+}
 for
 (
 const
@@ -761,6 +781,7 @@ empty
 (
 )
 )
+{
 masm
 .
 haltingAlign
@@ -768,6 +789,7 @@ haltingAlign
 SimdMemoryAlignment
 )
 ;
+}
 for
 (
 const
@@ -2177,6 +2199,7 @@ if
 (
 amountLeft
 )
+{
 subq
 (
 Imm32
@@ -2186,6 +2209,7 @@ amountLeft
 StackPointer
 )
 ;
+}
 }
 }
 }
@@ -2456,8 +2480,10 @@ if
 !
 enoughMemory_
 )
+{
 return
 ;
+}
 MoveEmitter
 emitter
 (
@@ -2511,11 +2537,13 @@ if
 (
 dynamicAlignment_
 )
+{
 pop
 (
 rsp
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -2565,9 +2593,11 @@ i
 =
 reg
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -3023,8 +3053,10 @@ src
 =
 dest
 )
+{
 return
 ;
+}
 movq
 (
 src
@@ -3167,12 +3199,14 @@ ptr
 =
 buffer
 )
+{
 movePtr
 (
 ptr
 buffer
 )
 ;
+}
 orPtr
 (
 Imm32
@@ -3953,6 +3987,7 @@ MIRType
 :
 Int32
 )
+{
 store32
 (
 Imm32
@@ -3966,7 +4001,9 @@ toInt32
 dest
 )
 ;
+}
 else
+{
 store32
 (
 Imm32
@@ -3984,6 +4021,7 @@ toBoolean
 dest
 )
 ;
+}
 }
 else
 {
@@ -4017,6 +4055,7 @@ constant
 (
 )
 )
+{
 storeValue
 (
 value
@@ -4027,7 +4066,9 @@ value
 dest
 )
 ;
+}
 else
+{
 storeValue
 (
 ValueTypeFromMIRType
@@ -4050,6 +4091,7 @@ gpr
 dest
 )
 ;
+}
 }
 template
 void
@@ -6075,6 +6117,7 @@ expected
 =
 output
 )
+{
 movq
 (
 expected
@@ -6085,6 +6128,7 @@ output
 reg
 )
 ;
+}
 append
 (
 access
@@ -6147,6 +6191,7 @@ expected
 =
 output
 )
+{
 movq
 (
 expected
@@ -6157,6 +6202,7 @@ output
 reg
 )
 ;
+}
 append
 (
 access
@@ -6207,6 +6253,7 @@ value
 =
 output
 )
+{
 movq
 (
 value
@@ -6217,6 +6264,7 @@ output
 reg
 )
 ;
+}
 append
 (
 access
@@ -6269,6 +6317,7 @@ value
 =
 output
 )
+{
 movq
 (
 value
@@ -6279,6 +6328,7 @@ output
 reg
 )
 ;
+}
 append
 (
 access
@@ -6348,6 +6398,7 @@ value
 =
 output
 )
+{
 masm
 .
 movq
@@ -6356,6 +6407,7 @@ value
 output
 )
 ;
+}
 masm
 .
 append
@@ -6396,6 +6448,7 @@ value
 =
 output
 )
+{
 masm
 .
 movq
@@ -6404,6 +6457,7 @@ value
 output
 )
 ;
+}
 masm
 .
 negq

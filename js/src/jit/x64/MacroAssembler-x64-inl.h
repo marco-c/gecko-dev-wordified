@@ -2970,12 +2970,14 @@ src
 =
 dest
 )
+{
 movq
 (
 src
 dest
 )
 ;
+}
 MOZ_ASSERT
 (
 tmp
@@ -3614,11 +3616,13 @@ if
 (
 fail
 )
+{
 jump
 (
 fail
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -3755,11 +3759,13 @@ if
 (
 fail
 )
+{
 jump
 (
 fail
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -4157,12 +4163,14 @@ rhs
 =
 scratch
 )
+{
 movePtr
 (
 rhs
 scratch
 )
 ;
+}
 /
 /
 Instead
@@ -4930,6 +4938,7 @@ JitOptions
 .
 spectreIndexMasking
 )
+{
 move32
 (
 Imm32
@@ -4939,6 +4948,7 @@ Imm32
 scratch
 )
 ;
+}
 cmp32
 (
 index
@@ -4960,6 +4970,7 @@ JitOptions
 .
 spectreIndexMasking
 )
+{
 cmovCCl
 (
 Assembler
@@ -4970,6 +4981,7 @@ scratch
 index
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -5049,6 +5061,7 @@ JitOptions
 .
 spectreIndexMasking
 )
+{
 move32
 (
 Imm32
@@ -5058,6 +5071,7 @@ Imm32
 scratch
 )
 ;
+}
 cmp32
 (
 index
@@ -5082,6 +5096,7 @@ JitOptions
 .
 spectreIndexMasking
 )
+{
 cmovCCl
 (
 Assembler
@@ -5092,6 +5107,7 @@ scratch
 index
 )
 ;
+}
 }
 /
 /

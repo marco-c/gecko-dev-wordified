@@ -633,6 +633,7 @@ MIRType
 :
 Float32
 )
+{
 current_
 =
 ABIArg
@@ -649,7 +650,9 @@ asSingle
 )
 )
 ;
+}
 else
+{
 current_
 =
 ABIArg
@@ -662,6 +665,7 @@ floatRegIndex_
 ]
 )
 ;
+}
 break
 ;
 case
@@ -953,12 +957,14 @@ RelocationKind
 :
 JITCODE
 )
+{
 writeRelocation
 (
 src
 reloc
 )
 ;
+}
 enoughMemory_
 &
 =
@@ -1209,8 +1215,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -1352,6 +1360,7 @@ length
 (
 )
 )
+{
 *
 (
 uint32_t
@@ -1365,6 +1374,7 @@ buffer
 =
 extendedJumpTable_
 ;
+}
 /
 /
 Zero
@@ -1863,9 +1873,11 @@ more
 (
 )
 )
+{
 return
 false
 ;
+}
 offset_
 =
 reader_

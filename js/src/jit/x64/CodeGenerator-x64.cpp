@@ -325,6 +325,7 @@ isGeneralReg
 (
 )
 )
+{
 return
 Operand
 (
@@ -340,6 +341,7 @@ reg
 )
 )
 ;
+}
 return
 Operand
 (
@@ -1021,6 +1023,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 moveValue
@@ -1042,7 +1045,9 @@ scratch
 )
 )
 ;
+}
 else
+{
 masm
 .
 boxValue
@@ -1055,6 +1060,7 @@ rhs
 scratch
 )
 ;
+}
 /
 /
 Perform
@@ -1190,6 +1196,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 moveValue
@@ -1211,7 +1218,9 @@ scratch
 )
 )
 ;
+}
 else
+{
 masm
 .
 boxValue
@@ -1224,6 +1233,7 @@ rhs
 scratch
 )
 ;
+}
 /
 /
 Perform
@@ -1642,6 +1652,7 @@ IsConstant
 rhs
 )
 )
+{
 masm
 .
 cmpPtr
@@ -1656,7 +1667,9 @@ rhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 cmpPtr
@@ -1668,6 +1681,7 @@ rhs
 )
 )
 ;
+}
 bool
 isSigned
 =
@@ -1799,6 +1813,7 @@ IsConstant
 rhs
 )
 )
+{
 masm
 .
 cmpPtr
@@ -1813,7 +1828,9 @@ rhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 cmpPtr
@@ -1825,6 +1842,7 @@ rhs
 )
 )
 ;
+}
 bool
 isSigned
 =
@@ -1996,6 +2014,7 @@ lhs
 =
 rax
 )
+{
 masm
 .
 mov
@@ -2004,6 +2023,7 @@ lhs
 rax
 )
 ;
+}
 /
 /
 Handle
@@ -2141,6 +2161,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 xorl
@@ -2149,7 +2170,9 @@ output
 output
 )
 ;
+}
 else
+{
 masm
 .
 wasmTrap
@@ -2169,6 +2192,7 @@ bytecodeOffset
 )
 )
 ;
+}
 masm
 .
 jump
@@ -2354,6 +2378,7 @@ lhs
 =
 rax
 )
+{
 masm
 .
 mov
@@ -2362,6 +2387,7 @@ lhs
 rax
 )
 ;
+}
 Label
 done
 ;
@@ -3162,6 +3188,7 @@ MIRType
 :
 Int64
 )
+{
 masm
 .
 wasmLoadI64
@@ -3179,7 +3206,9 @@ ins
 )
 )
 ;
+}
 else
+{
 masm
 .
 wasmLoad
@@ -3202,6 +3231,7 @@ output
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -4199,6 +4229,7 @@ Scalar
 :
 Uint32
 )
+{
 accessType
 =
 Scalar
@@ -4206,6 +4237,7 @@ Scalar
 :
 Int32
 ;
+}
 AtomicOp
 op
 =
@@ -4542,6 +4574,7 @@ MIRType
 :
 Int64
 )
+{
 c
 =
 Imm32
@@ -4552,7 +4585,9 @@ value
 )
 )
 ;
+}
 else
+{
 c
 =
 Imm32
@@ -4563,6 +4598,7 @@ value
 )
 )
 ;
+}
 masm
 .
 wasmAtomicEffectOp
@@ -4818,6 +4854,7 @@ bottomHalf
 (
 )
 )
+{
 masm
 .
 movl
@@ -4829,7 +4866,9 @@ input
 output
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -4839,6 +4878,7 @@ implemented
 "
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -4891,6 +4931,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 movl
@@ -4902,7 +4943,9 @@ input
 output
 )
 ;
+}
 else
+{
 masm
 .
 movslq
@@ -4914,6 +4957,7 @@ input
 output
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -5204,6 +5248,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 wasmTruncateDoubleToUInt64
@@ -5216,7 +5261,9 @@ oolRejoin
 temp
 )
 ;
+}
 else
+{
 masm
 .
 wasmTruncateDoubleToInt64
@@ -5230,6 +5277,7 @@ temp
 )
 ;
 }
+}
 else
 {
 if
@@ -5241,6 +5289,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 wasmTruncateFloat32ToUInt64
@@ -5253,7 +5302,9 @@ oolRejoin
 temp
 )
 ;
+}
 else
+{
 masm
 .
 wasmTruncateFloat32ToInt64
@@ -5266,6 +5317,7 @@ oolRejoin
 temp
 )
 ;
+}
 }
 }
 void
@@ -5392,6 +5444,7 @@ if
 (
 isUnsigned
 )
+{
 masm
 .
 convertUInt64ToDouble
@@ -5410,7 +5463,9 @@ getTemp
 )
 )
 ;
+}
 else
+{
 masm
 .
 convertInt64ToDouble
@@ -5420,12 +5475,14 @@ output
 )
 ;
 }
+}
 else
 {
 if
 (
 isUnsigned
 )
+{
 masm
 .
 convertUInt64ToFloat32
@@ -5444,7 +5501,9 @@ getTemp
 )
 )
 ;
+}
 else
+{
 masm
 .
 convertInt64ToFloat32
@@ -5453,6 +5512,7 @@ input
 output
 )
 ;
+}
 }
 }
 void

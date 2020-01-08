@@ -420,6 +420,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -427,7 +428,9 @@ oneByteOp64
 OP_ADD_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp64
@@ -437,6 +440,7 @@ dst
 GROUP1_OP_ADD
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -489,6 +493,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -496,7 +501,9 @@ oneByteOp64
 OP_ADD_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp64
@@ -506,6 +513,7 @@ dst
 GROUP1_OP_ADD
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -1493,6 +1501,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -1500,7 +1509,9 @@ oneByteOp64
 OP_AND_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp64
@@ -1510,6 +1521,7 @@ dst
 GROUP1_OP_AND
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -1652,6 +1664,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -1659,7 +1672,9 @@ oneByteOp64
 OP_OR_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp64
@@ -1669,6 +1684,7 @@ dst
 GROUP1_OP_OR
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -1975,6 +1991,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -1982,7 +1999,9 @@ oneByteOp64
 OP_SUB_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp64
@@ -1992,6 +2011,7 @@ dst
 GROUP1_OP_SUB
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -2104,6 +2124,7 @@ dst
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -2111,7 +2132,9 @@ oneByteOp64
 OP_XOR_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp64
@@ -2121,6 +2144,7 @@ dst
 GROUP1_OP_XOR
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -2268,6 +2292,7 @@ imm
 =
 1
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -2277,6 +2302,7 @@ dst
 GROUP2_OP_SAR
 )
 ;
+}
 else
 {
 m_formatter
@@ -2336,6 +2362,7 @@ imm
 =
 1
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -2345,6 +2372,7 @@ dst
 GROUP2_OP_SHL
 )
 ;
+}
 else
 {
 m_formatter
@@ -2404,6 +2432,7 @@ imm
 =
 1
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -2413,6 +2442,7 @@ dst
 GROUP2_OP_SHR
 )
 ;
+}
 else
 {
 m_formatter
@@ -2472,6 +2502,7 @@ imm
 =
 1
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -2481,6 +2512,7 @@ dst
 GROUP2_OP_ROL
 )
 ;
+}
 else
 {
 m_formatter
@@ -2573,6 +2605,7 @@ imm
 =
 1
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -2582,6 +2615,7 @@ dst
 GROUP2_OP_ROR
 )
 ;
+}
 else
 {
 m_formatter
@@ -3004,6 +3038,7 @@ lhs
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -3011,7 +3046,9 @@ oneByteOp64
 OP_CMP_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp64
@@ -3021,6 +3058,7 @@ lhs
 GROUP1_OP_CMP
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -3425,6 +3463,7 @@ lhs
 =
 rax
 )
+{
 m_formatter
 .
 oneByteOp64
@@ -3432,7 +3471,9 @@ oneByteOp64
 OP_TEST_EAXIv
 )
 ;
+}
 else
+{
 m_formatter
 .
 oneByteOp64
@@ -3442,6 +3483,7 @@ lhs
 GROUP3_OP_TEST
 )
 ;
+}
 m_formatter
 .
 immediate32
@@ -6207,6 +6249,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -6237,7 +6280,9 @@ offset
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -6268,6 +6313,7 @@ dst
 )
 )
 ;
+}
 return
 label
 ;
@@ -6308,6 +6354,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -6335,7 +6382,9 @@ offset
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -6363,6 +6412,7 @@ dst
 )
 )
 ;
+}
 }
 else
 {
@@ -6439,6 +6489,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -6464,7 +6515,9 @@ rm
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -6490,6 +6543,7 @@ dst
 )
 )
 ;
+}
 m_formatter
 .
 legacySSEPrefix
@@ -6524,6 +6578,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -6546,7 +6601,9 @@ rm
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -6569,6 +6626,7 @@ dst
 )
 )
 ;
+}
 }
 else
 {
@@ -6644,6 +6702,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -6669,6 +6728,7 @@ rm
 )
 )
 ;
+}
 else
 if
 (
@@ -6677,6 +6737,7 @@ opcode
 =
 OP2_MOVD_EdVd
 )
+{
 spew
 (
 "
@@ -6708,7 +6769,9 @@ rm
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -6734,6 +6797,7 @@ dst
 )
 )
 ;
+}
 m_formatter
 .
 legacySSEPrefix
@@ -6763,6 +6827,7 @@ IsXMMReversedOperands
 opcode
 )
 )
+{
 spew
 (
 "
@@ -6785,6 +6850,7 @@ rm
 )
 )
 ;
+}
 else
 if
 (
@@ -6793,6 +6859,7 @@ opcode
 =
 OP2_MOVD_EdVd
 )
+{
 spew
 (
 "
@@ -6821,7 +6888,9 @@ rm
 )
 )
 ;
+}
 else
+{
 spew
 (
 "
@@ -6844,6 +6913,7 @@ dst
 )
 )
 ;
+}
 m_formatter
 .
 twoByteOpVex64

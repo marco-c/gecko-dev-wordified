@@ -670,6 +670,7 @@ fallible
 (
 )
 )
+{
 assignSnapshot
 (
 lir
@@ -681,6 +682,7 @@ bailoutKind
 )
 )
 ;
+}
 defineReuseInput
 (
 lir
@@ -824,6 +826,7 @@ fallible
 (
 )
 )
+{
 assignSnapshot
 (
 lir
@@ -835,6 +838,7 @@ bailoutKind
 )
 )
 ;
+}
 define
 (
 lir
@@ -1464,6 +1468,7 @@ MIRType
 :
 Int64
 )
+{
 valueAlloc
 =
 useOrConstantAtStart
@@ -1471,7 +1476,9 @@ useOrConstantAtStart
 value
 )
 ;
+}
 else
+{
 valueAlloc
 =
 useRegisterAtStart
@@ -1479,6 +1486,7 @@ useRegisterAtStart
 value
 )
 ;
+}
 break
 ;
 case
@@ -2572,6 +2580,7 @@ if
 (
 reuseInput
 )
+{
 defineReuseInput
 (
 lir
@@ -2582,11 +2591,13 @@ LWasmAtomicBinopHeap
 valueOp
 )
 ;
+}
 else
 if
 (
 bitOp
 )
+{
 defineFixed
 (
 lir
@@ -2600,13 +2611,16 @@ rax
 )
 )
 ;
+}
 else
+{
 define
 (
 lir
 ins
 )
 ;
+}
 }
 void
 LIRGenerator
