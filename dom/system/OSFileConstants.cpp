@@ -5354,7 +5354,7 @@ libxul
 .
 AppendLiteral
 (
-DLL_PREFIX
+MOZ_DLL_PREFIX
 )
 ;
 libxul
@@ -5370,7 +5370,7 @@ libxul
 .
 AppendLiteral
 (
-DLL_SUFFIX
+MOZ_DLL_SUFFIX
 )
 ;
 #
@@ -5642,7 +5642,7 @@ libsqlite3
 .
 AppendLiteral
 (
-DLL_PREFIX
+MOZ_DLL_PREFIX
 )
 ;
 libsqlite3
@@ -5658,7 +5658,7 @@ libsqlite3
 .
 AppendLiteral
 (
-DLL_SUFFIX
+MOZ_DLL_SUFFIX
 )
 ;
 #
@@ -5685,7 +5685,7 @@ libsqlite3
 .
 AppendLiteral
 (
-DLL_PREFIX
+MOZ_DLL_PREFIX
 )
 ;
 libsqlite3
@@ -5701,7 +5701,7 @@ libsqlite3
 .
 AppendLiteral
 (
-DLL_SUFFIX
+MOZ_DLL_SUFFIX
 )
 ;
 #

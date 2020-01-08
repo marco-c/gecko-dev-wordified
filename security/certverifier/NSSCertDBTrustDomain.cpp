@@ -7615,11 +7615,11 @@ happens
 to
 be
 a
-DLL_PREFIX
+MOZ_DLL_PREFIX
 "
 nssckbi
 "
-DLL_SUFFIX
+MOZ_DLL_SUFFIX
 /
 /
 file
@@ -7716,11 +7716,11 @@ fullLibraryPath
 .
 Append
 (
-DLL_PREFIX
+MOZ_DLL_PREFIX
 "
 nssckbi
 "
-DLL_SUFFIX
+MOZ_DLL_SUFFIX
 )
 ;
 /
