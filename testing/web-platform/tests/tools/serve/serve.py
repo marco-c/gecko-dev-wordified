@@ -3487,8 +3487,6 @@ port
         
 except
 Exception
-as
-e
 :
             
 logger

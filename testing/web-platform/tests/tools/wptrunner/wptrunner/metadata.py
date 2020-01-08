@@ -799,11 +799,6 @@ return
 [
 ]
     
-rv
-=
-[
-]
-    
 return
 [
 fn

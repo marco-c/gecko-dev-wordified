@@ -322,27 +322,6 @@ prefs
 "
 )
         
-if
-type
-(
-node_prefs
-)
-in
-(
-str
-unicode
-)
-:
-            
-prefs
-=
-{
-value
-(
-node_prefs
-)
-}
-        
 rv
 =
 dict

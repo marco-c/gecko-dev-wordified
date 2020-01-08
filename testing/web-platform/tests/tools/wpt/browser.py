@@ -650,8 +650,6 @@ mozinstall
 mozinstall
 .
 InstallError
-as
-e
 :
             
 if

@@ -5347,18 +5347,6 @@ test
 )
 :
         
-viewport_size
-=
-test
-.
-viewport_size
-        
-dpi
-=
-test
-.
-dpi
-        
 references
 =
 self
