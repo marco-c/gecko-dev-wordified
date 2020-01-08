@@ -1815,6 +1815,17 @@ get
 )
 ;
 }
+~
+WeakPtr
+(
+)
+{
+MOZ_WEAKPTR_ASSERT_THREAD_SAFETY_DELEGATED
+(
+mRef
+)
+;
+}
 private
 :
 friend
