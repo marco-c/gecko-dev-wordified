@@ -3186,7 +3186,7 @@ endif
 /
 How
 many
-compartments
+realms
 there
 are
 across
@@ -3199,9 +3199,10 @@ includes
 /
 /
 off
+-
 thread
 context
-compartments
+realms
 so
 it
 isn
@@ -3215,10 +3216,10 @@ the
 /
 number
 of
-compartments
+realms
 visited
 by
-CompartmentsIter
+RealmsIter
 .
 js
 :
@@ -3227,7 +3228,7 @@ MainThreadData
 <
 size_t
 >
-numCompartments
+numRealms
 ;
 /
 *

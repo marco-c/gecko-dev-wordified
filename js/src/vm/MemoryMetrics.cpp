@@ -5079,7 +5079,7 @@ reserve
 rt
 -
 >
-numCompartments
+numRealms
 )
 )
 return
