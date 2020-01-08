@@ -105,6 +105,15 @@ mozilla
 .
 geckoview
 .
+AllowOrDeny
+;
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoDisplay
 ;
 import
@@ -319,7 +328,7 @@ Override
 public
 GeckoResult
 <
-Boolean
+AllowOrDeny
 >
 onLoadRequest
 (
@@ -346,7 +355,9 @@ GeckoResult
 .
 fromValue
 (
-false
+AllowOrDeny
+.
+ALLOW
 )
 ;
 }
