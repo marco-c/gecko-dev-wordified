@@ -829,14 +829,6 @@ aFlags
 override
 ;
 NS_IMETHOD
-Paste
-(
-int32_t
-aSelectionType
-)
-override
-;
-NS_IMETHOD
 CanPaste
 (
 int32_t
@@ -8914,6 +8906,10 @@ EmptyEditableFunctor
 friend
 class
 HTMLEditRules
+;
+friend
+class
+TextEditor
 ;
 friend
 class

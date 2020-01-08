@@ -4429,7 +4429,7 @@ else
 textEditor
 -
 >
-Paste
+PasteAsAction
 (
 clipboard
 )

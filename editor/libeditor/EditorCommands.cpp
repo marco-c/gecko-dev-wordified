@@ -4074,7 +4074,7 @@ return
 textEditor
 -
 >
-Paste
+PasteAsAction
 (
 nsIClipboard
 :

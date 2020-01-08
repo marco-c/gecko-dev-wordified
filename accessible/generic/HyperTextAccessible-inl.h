@@ -755,7 +755,7 @@ aPosition
 textEditor
 -
 >
-Paste
+PasteAsAction
 (
 nsIClipboard
 :
