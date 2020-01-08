@@ -316,9 +316,6 @@ argc
 bool
 ischrome
 ;
-bool
-allowbootstrap
-;
 /
 /
 The
@@ -435,7 +432,6 @@ manifest
 "
 1
 true
-true
 false
 &
 nsComponentManagerImpl
@@ -449,7 +445,6 @@ nullptr
 component
 "
 2
-false
 false
 false
 &
@@ -466,7 +461,6 @@ contract
 2
 false
 false
-false
 &
 nsComponentManagerImpl
 :
@@ -479,7 +473,6 @@ nullptr
 category
 "
 3
-false
 false
 false
 &
@@ -496,7 +489,6 @@ content
 2
 true
 true
-true
 nullptr
 &
 nsChromeRegistry
@@ -509,7 +501,6 @@ ManifestContent
 locale
 "
 3
-true
 true
 false
 nullptr
@@ -524,7 +515,6 @@ ManifestLocale
 skin
 "
 3
-true
 true
 false
 nullptr
@@ -572,7 +562,6 @@ override
 "
 2
 true
-true
 false
 nullptr
 &
@@ -586,7 +575,6 @@ ManifestOverride
 resource
 "
 2
-true
 false
 true
 nullptr
@@ -3145,7 +3133,7 @@ if
 directive
 -
 >
-allowbootstrap
+ischrome
 &
 &
 NS_BOOTSTRAPPED_LOCATION
