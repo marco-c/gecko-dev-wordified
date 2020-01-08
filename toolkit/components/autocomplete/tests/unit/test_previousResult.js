@@ -356,7 +356,7 @@ Ci
 .
 nsIAutoCompleteResult
 .
-NOMATCH
+RESULT_NOMATCH
 ;
 }
 }
