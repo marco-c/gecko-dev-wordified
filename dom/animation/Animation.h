@@ -1209,7 +1209,7 @@ to
 start
 by
 calling
-StartOnNextTick
+TriggerOnNextTick
 .
 *
 The
@@ -1723,7 +1723,7 @@ TriggerNow
 *
 *
 When
-StartOnNextTick
+TriggerOnNextTick
 is
 called
 we
@@ -1736,8 +1736,8 @@ we
 don
 '
 t
-apply
 *
+apply
 it
 until
 the
@@ -1752,6 +1752,7 @@ GetStartTime
 )
 will
 return
+*
 null
 .
 *
