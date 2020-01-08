@@ -3208,6 +3208,9 @@ self
 manifest_download
 )
         
+try
+:
+            
 manifest_file
 =
 manifest
@@ -3226,6 +3229,21 @@ meta_filters
 self
 .
 meta_filters
+)
+        
+except
+manifest
+.
+ManifestVersionMismatch
+:
+            
+manifest_file
+=
+manifest
+.
+Manifest
+(
+url_base
 )
         
 if
