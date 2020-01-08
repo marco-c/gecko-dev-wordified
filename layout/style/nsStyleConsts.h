@@ -979,6 +979,12 @@ outside
 only
 Shape
 Box
+Path
+/
+/
+SVG
+path
+function
 }
 ;
 /

@@ -581,6 +581,10 @@ ListStyleType
 "
     
 "
+OffsetPath
+"
+    
+"
 Opacity
 "
     

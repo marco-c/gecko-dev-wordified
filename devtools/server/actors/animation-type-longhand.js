@@ -1360,6 +1360,11 @@ inline
 size
 "
 "
+offset
+-
+path
+"
+"
 padding
 -
 block
