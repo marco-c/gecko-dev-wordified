@@ -3644,6 +3644,9 @@ aNewTabParent
 bool
 *
 aWindowIsNew
+int32_t
+&
+aOpenLocation
 nsIPrincipal
 *
 aTriggeringPrincipal
