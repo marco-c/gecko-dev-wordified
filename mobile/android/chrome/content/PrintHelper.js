@@ -376,13 +376,6 @@ aBrowser
 .
 contentWindow
 .
-QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-.
 getInterface
 (
 Ci
