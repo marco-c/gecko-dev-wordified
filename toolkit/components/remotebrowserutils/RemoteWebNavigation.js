@@ -421,6 +421,7 @@ aLoadFlags
 aReferrer
 aPostData
 aHeaders
+aTriggeringPrincipal
 )
 {
 this
@@ -438,6 +439,7 @@ REFERRER_POLICY_UNSET
 aPostData
 aHeaders
 null
+aTriggeringPrincipal
 )
 ;
 }
