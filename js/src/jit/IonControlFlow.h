@@ -4154,16 +4154,6 @@ op
 )
 ;
 ControlStatus
-maybeLoop
-(
-JSOp
-op
-jssrcnote
-*
-sn
-)
-;
-ControlStatus
 snoopControlFlow
 (
 JSOp
