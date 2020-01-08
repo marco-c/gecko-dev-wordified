@@ -88,7 +88,7 @@ globals
 set
 (
 "
-sendAsyncMessage
+RPMSendAsyncMessage
 "
 globals
 .
@@ -104,7 +104,7 @@ globals
 set
 (
 "
-addMessageListener
+RPMAddMessageListener
 "
 globals
 .
@@ -205,7 +205,7 @@ calledWith
 (
 global
 .
-addMessageListener
+RPMAddMessageListener
 INCOMING_MESSAGE_NAME
 )
 ;
@@ -216,7 +216,7 @@ listener
 =
 global
 .
-addMessageListener
+RPMAddMessageListener
 .
 firstCall
 .
@@ -279,7 +279,7 @@ should
 not
 throw
 if
-addMessageListener
+RPMAddMessageListener
 is
 not
 defined
@@ -304,7 +304,7 @@ GlobalOverrider
 delete
 global
 .
-addMessageListener
+RPMAddMessageListener
 ;
 assert
 .
@@ -403,7 +403,7 @@ callback
 =
 global
 .
-addMessageListener
+RPMAddMessageListener
 .
 firstCall
 .
@@ -604,7 +604,7 @@ calledWith
 (
 global
 .
-sendAsyncMessage
+RPMSendAsyncMessage
 OUTGOING_MESSAGE_NAME
 action
 )
@@ -689,7 +689,7 @@ calledWith
 (
 global
 .
-sendAsyncMessage
+RPMSendAsyncMessage
 OUTGOING_MESSAGE_NAME
 action
 )
@@ -740,7 +740,7 @@ notCalled
 (
 global
 .
-sendAsyncMessage
+RPMSendAsyncMessage
 )
 ;
 }

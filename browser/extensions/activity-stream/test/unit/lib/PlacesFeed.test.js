@@ -3130,12 +3130,6 @@ onEndUpdateBatch
 ;
 observer
 .
-onVisits
-(
-)
-;
-observer
-.
 onTitleChanged
 (
 )
