@@ -601,6 +601,9 @@ focus
 getCursor
 "
 "
+getLine
+"
+"
 getScrollInfo
 "
 "

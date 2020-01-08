@@ -2255,20 +2255,6 @@ from
 .
 *
 param
-function
-onResponse
-*
-The
-function
-invoked
-when
-the
-response
-is
-received
-.
-*
-param
 string
 frameActor
 *
@@ -2304,7 +2290,6 @@ function
 (
 string
 cursor
-onResponse
 frameActor
 )
 {
@@ -2341,7 +2326,6 @@ _client
 request
 (
 packet
-onResponse
 )
 ;
 }
