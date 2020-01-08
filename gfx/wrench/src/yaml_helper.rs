@@ -391,7 +391,7 @@ TransformStyle
 >
 ;
 fn
-as_glyph_raster_space
+as_raster_space
 (
 &
 self
@@ -400,7 +400,7 @@ self
 >
 Option
 <
-GlyphRasterSpace
+RasterSpace
 >
 ;
 fn
@@ -4089,7 +4089,7 @@ x
 )
 }
 fn
-as_glyph_raster_space
+as_raster_space
 (
 &
 self
@@ -4098,7 +4098,7 @@ self
 >
 Option
 <
-GlyphRasterSpace
+RasterSpace
 >
 {
 self
@@ -4131,7 +4131,7 @@ _
 {
 Some
 (
-GlyphRasterSpace
+RasterSpace
 :
 :
 Screen
@@ -4159,7 +4159,7 @@ len
 {
 Some
 (
-GlyphRasterSpace
+RasterSpace
 :
 :
 Local
@@ -4189,7 +4189,6 @@ panic
 "
 error
 parsing
-glyph
 raster
 space
 {

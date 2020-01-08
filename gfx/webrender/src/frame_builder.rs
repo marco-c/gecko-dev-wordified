@@ -91,6 +91,7 @@ LayoutPoint
 LayoutRect
 LayoutSize
 PipelineId
+RasterSpace
 WorldPoint
 WorldRect
 WorldPixel
@@ -619,6 +620,10 @@ pub
 establishes_raster_root
 :
 bool
+pub
+raster_space
+:
+RasterSpace
 }
 #
 [

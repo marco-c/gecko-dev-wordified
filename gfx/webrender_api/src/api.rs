@@ -8171,6 +8171,13 @@ self
 }
 #
 [
+repr
+(
+u32
+)
+]
+#
+[
 derive
 (
 Copy
