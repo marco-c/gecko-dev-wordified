@@ -831,11 +831,7 @@ new
 TVariable
 (
 mSymbolTable
-ImmutableString
-(
-"
-"
-)
+kEmptyImmutableString
 type
 SymbolType
 :

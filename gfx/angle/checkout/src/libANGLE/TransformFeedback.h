@@ -64,6 +64,15 @@ include
 "
 common
 /
+PackedEnums
+.
+h
+"
+#
+include
+"
+common
+/
 angleutils
 .
 h
@@ -176,7 +185,7 @@ mLabel
 bool
 mActive
 ;
-GLenum
+PrimitiveMode
 mPrimitiveMode
 ;
 bool
@@ -281,7 +290,7 @@ const
 Context
 *
 context
-GLenum
+PrimitiveMode
 primitiveMode
 Program
 *
@@ -319,7 +328,7 @@ isPaused
 )
 const
 ;
-GLenum
+PrimitiveMode
 getPrimitiveMode
 (
 )

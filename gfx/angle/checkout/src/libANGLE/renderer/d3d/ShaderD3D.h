@@ -186,13 +186,6 @@ override
 bool
 postTranslateCompile
 (
-const
-gl
-:
-:
-Context
-*
-context
 gl
 :
 :
@@ -214,13 +207,6 @@ std
 string
 getDebugInfo
 (
-const
-gl
-:
-:
-Context
-*
-context
 )
 const
 override

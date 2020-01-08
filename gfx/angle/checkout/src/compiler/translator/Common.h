@@ -969,7 +969,7 @@ char
 *
 buffer
 =
-reinterpret_cast
+static_cast
 <
 char
 *

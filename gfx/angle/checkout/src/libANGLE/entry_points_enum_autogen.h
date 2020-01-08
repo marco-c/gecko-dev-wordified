@@ -253,6 +253,7 @@ FramebufferRenderbuffer
 FramebufferRenderbufferOES
 FramebufferTexture2D
 FramebufferTexture2DOES
+FramebufferTextureEXT
 FramebufferTextureLayer
 FramebufferTextureMultiviewLayeredANGLE
 FramebufferTextureMultiviewSideBySideANGLE
@@ -468,6 +469,7 @@ MatrixIndexPointerOES
 MatrixLoadIdentityCHROMIUM
 MatrixLoadfCHROMIUM
 MatrixMode
+MaxShaderCompilerThreadsKHR
 MemoryBarrier
 MemoryBarrierByRegion
 MultMatrixf
@@ -621,6 +623,7 @@ TexStorage2DEXT
 TexStorage2DMultisample
 TexStorage3D
 TexStorage3DEXT
+TexStorage3DMultisampleANGLE
 TexSubImage2D
 TexSubImage2DRobustANGLE
 TexSubImage3D

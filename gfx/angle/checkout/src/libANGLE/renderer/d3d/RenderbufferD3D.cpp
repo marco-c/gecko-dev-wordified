@@ -461,6 +461,7 @@ mRenderer
 >
 createRenderTarget
 (
+context
 static_cast
 <
 int
@@ -754,6 +755,7 @@ mRenderer
 >
 initRenderTarget
 (
+context
 renderTarget
 )
 ;

@@ -89,10 +89,7 @@ GetLoadFunctionsMap
 (
 GLenum
 internalFormat
-Format
-:
-:
-ID
+FormatID
 angleFormat
 )
 ;

@@ -359,15 +359,6 @@ value
 )
 const
 ;
-bool
-fValue
-(
-float
-*
-value
-)
-const
-;
 int
 type
 ;

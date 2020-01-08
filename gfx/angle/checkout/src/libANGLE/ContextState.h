@@ -106,6 +106,15 @@ include
 "
 libANGLE
 /
+WorkerThread
+.
+h
+"
+#
+include
+"
+libANGLE
+/
 params
 .
 h

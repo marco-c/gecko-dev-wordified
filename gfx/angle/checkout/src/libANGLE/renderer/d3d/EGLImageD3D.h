@@ -156,6 +156,13 @@ egl
 Error
 initialize
 (
+const
+egl
+:
+:
+Display
+*
+display
 )
 override
 ;
@@ -181,10 +188,10 @@ sibling
 )
 override
 ;
-gl
+angle
 :
 :
-Error
+Result
 getRenderTarget
 (
 const

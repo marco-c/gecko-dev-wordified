@@ -1884,7 +1884,7 @@ n
 )
 {
 return
-reinterpret_cast
+static_cast
 <
 pointer
 >
@@ -1916,7 +1916,7 @@ void
 )
 {
 return
-reinterpret_cast
+static_cast
 <
 pointer
 >

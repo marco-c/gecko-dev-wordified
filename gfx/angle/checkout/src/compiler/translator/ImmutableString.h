@@ -929,6 +929,14 @@ mLength
 ;
 }
 ;
+constexpr
+ImmutableString
+kEmptyImmutableString
+(
+"
+"
+)
+;
 }
 /
 /

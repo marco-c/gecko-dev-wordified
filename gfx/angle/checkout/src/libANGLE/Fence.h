@@ -162,6 +162,10 @@ FenceNV
 Error
 set
 (
+const
+Context
+*
+context
 GLenum
 condition
 )
@@ -169,6 +173,10 @@ condition
 Error
 test
 (
+const
+Context
+*
+context
 GLboolean
 *
 outResult
@@ -177,6 +185,10 @@ outResult
 Error
 finish
 (
+const
+Context
+*
+context
 )
 ;
 bool
@@ -296,6 +308,10 @@ override
 Error
 set
 (
+const
+Context
+*
+context
 GLenum
 condition
 GLbitfield
@@ -305,6 +321,10 @@ flags
 Error
 clientWait
 (
+const
+Context
+*
+context
 GLbitfield
 flags
 GLuint64
@@ -317,6 +337,10 @@ outResult
 Error
 serverWait
 (
+const
+Context
+*
+context
 GLbitfield
 flags
 GLuint64
@@ -326,6 +350,10 @@ timeout
 Error
 getStatus
 (
+const
+Context
+*
+context
 GLint
 *
 outResult

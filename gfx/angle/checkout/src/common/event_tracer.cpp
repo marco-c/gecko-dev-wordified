@@ -225,14 +225,6 @@ argValues
 flags
 )
 ;
-ASSERT
-(
-handle
-!
-=
-0
-)
-;
 return
 handle
 ;

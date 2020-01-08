@@ -2085,7 +2085,8 @@ PlatformMethods
 PlatformMethods
 (
 )
-;
+{
+}
 /
 /
 User

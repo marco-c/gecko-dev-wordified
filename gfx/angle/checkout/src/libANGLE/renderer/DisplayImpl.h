@@ -379,7 +379,6 @@ Context
 *
 context
 )
-const
 =
 0
 ;
@@ -400,7 +399,6 @@ context
 EGLint
 engine
 )
-const
 =
 0
 ;

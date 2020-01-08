@@ -68,6 +68,11 @@ COMPILER_TRANSLATOR_TREEUTIL_FINDMAIN_H_
 #
 define
 COMPILER_TRANSLATOR_TREEUTIL_FINDMAIN_H_
+#
+include
+<
+cstddef
+>
 namespace
 sh
 {
@@ -76,6 +81,14 @@ TIntermBlock
 ;
 class
 TIntermFunctionDefinition
+;
+size_t
+FindMainIndex
+(
+TIntermBlock
+*
+root
+)
 ;
 TIntermFunctionDefinition
 *

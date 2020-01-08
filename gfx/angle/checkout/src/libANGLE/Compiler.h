@@ -87,9 +87,9 @@ h
 #
 include
 "
-libANGLE
+common
 /
-Error
+PackedEnums
 .
 h
 "
@@ -98,7 +98,7 @@ include
 "
 libANGLE
 /
-PackedEnums
+Error
 .
 h
 "

@@ -357,10 +357,7 @@ GLuint
 id
 )
 :
-egl
-:
-:
-ImageSibling
+RefCountObject
 (
 id
 )
@@ -1033,9 +1030,7 @@ mHeight
 )
 ;
 }
-const
 Format
-&
 Renderbuffer
 :
 :

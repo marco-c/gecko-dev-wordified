@@ -121,7 +121,10 @@ virtual
 void
 begin
 (
-GLenum
+gl
+:
+:
+PrimitiveMode
 primitiveMode
 )
 =
