@@ -487,13 +487,13 @@ runtime
 id
 ;
 const
-runtimeHasClient
+runtimeHasConnection
 =
 !
 !
 runtime
 .
-client
+connection
 ;
 const
 connectComponent
@@ -503,7 +503,7 @@ DeviceSidebarItemAction
 {
 connected
 :
-runtimeHasClient
+runtimeHasConnection
 dispatch
 runtimeId
 :
@@ -545,7 +545,7 @@ runtime
 id
 selectable
 :
-runtimeHasClient
+runtimeHasConnection
 }
 )
 ;
