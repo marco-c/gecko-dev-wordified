@@ -32,8 +32,7 @@ folder
 icon
 appears
 on
-smart
-bookmarks
+queries
 .
 *
 /

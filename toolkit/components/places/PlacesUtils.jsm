@@ -2081,12 +2081,10 @@ which
 distinguish
 between
 livemarks
+and
 /
 /
 queries
-and
-smart
-bookmarks
 .
 kind
 :

@@ -2346,11 +2346,6 @@ history
 /
 /
 menu
-and
-most
-visited
-smart
-bookmark
 .
 let
 sorting_options

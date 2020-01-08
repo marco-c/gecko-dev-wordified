@@ -803,11 +803,6 @@ LMANNO_FEEDURI
 PlacesUtils
 .
 LMANNO_SITEURI
-"
-Places
-/
-SmartBookmark
-"
 ]
 ;
 var

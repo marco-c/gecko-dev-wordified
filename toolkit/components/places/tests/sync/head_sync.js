@@ -1077,11 +1077,6 @@ anno
 =
 >
 [
-PlacesSyncUtils
-.
-bookmarks
-.
-SMART_BOOKMARKS_ANNO
 PlacesUtils
 .
 LMANNO_FEEDURI
