@@ -330,7 +330,7 @@ inLayoutUtils
 :
 GetSubDocumentFor
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
