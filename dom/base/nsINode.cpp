@@ -2740,6 +2740,7 @@ nsINode
 GetUncomposedDocOrConnectedShadowRoot
 (
 )
+const
 {
 if
 (

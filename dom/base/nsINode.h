@@ -4743,6 +4743,7 @@ DocumentOrShadowRoot
 GetUncomposedDocOrConnectedShadowRoot
 (
 )
+const
 ;
 /
 *
