@@ -3896,6 +3896,9 @@ resource
 "
 about
 "
+"
+data
+"
 ]
 )
 onLinkIconAvailable
