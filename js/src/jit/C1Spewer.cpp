@@ -413,6 +413,7 @@ block
 +
 +
 )
+{
 spewPass
 (
 out_
@@ -420,6 +421,7 @@ out_
 block
 )
 ;
+}
 out_
 .
 printf
@@ -503,6 +505,7 @@ block
 +
 +
 )
+{
 spewRanges
 (
 out_
@@ -511,6 +514,7 @@ block
 regalloc
 )
 ;
+}
 out_
 .
 printf
@@ -918,6 +922,7 @@ usePos
 +
 +
 )
+{
 out
 .
 printf
@@ -937,6 +942,7 @@ bits
 )
 )
 ;
+}
 out
 .
 printf
@@ -987,8 +993,10 @@ if
 !
 lir
 )
+{
 return
 ;
+}
 for
 (
 size_t
@@ -1009,6 +1017,7 @@ i
 +
 +
 )
+{
 spewRanges
 (
 out
@@ -1022,6 +1031,7 @@ i
 )
 )
 ;
+}
 for
 (
 LInstructionIterator
@@ -1048,6 +1058,7 @@ ins
 +
 +
 )
+{
 spewRanges
 (
 out
@@ -1056,6 +1067,7 @@ regalloc
 ins
 )
 ;
+}
 }
 void
 C1Spewer
@@ -1529,6 +1541,7 @@ isUnused
 (
 )
 )
+{
 out
 .
 printf
@@ -1538,7 +1551,9 @@ unused
 "
 )
 ;
+}
 else
+{
 ins
 -
 >
@@ -1547,6 +1562,7 @@ printName
 out
 )
 ;
+}
 out
 .
 printf
@@ -1619,6 +1635,7 @@ phi
 +
 +
 )
+{
 DumpDefinition
 (
 out
@@ -1626,6 +1643,7 @@ out
 phi
 )
 ;
+}
 for
 (
 MInstructionIterator
@@ -1653,6 +1671,7 @@ i
 +
 +
 )
+{
 DumpDefinition
 (
 out
@@ -1660,6 +1679,7 @@ out
 i
 )
 ;
+}
 out
 .
 printf
@@ -1717,6 +1737,7 @@ i
 +
 +
 )
+{
 DumpLIR
 (
 out
@@ -1734,6 +1755,7 @@ i
 )
 )
 ;
+}
 for
 (
 LInstructionIterator
@@ -1771,6 +1793,7 @@ i
 +
 +
 )
+{
 DumpLIR
 (
 out
@@ -1778,6 +1801,7 @@ out
 i
 )
 ;
+}
 out
 .
 printf

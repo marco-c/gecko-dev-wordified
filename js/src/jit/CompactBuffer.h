@@ -324,9 +324,11 @@ byte
 1
 )
 )
+{
 return
 val
 ;
+}
 }
 }
 public
@@ -580,6 +582,7 @@ if
 (
 more
 )
+{
 result
 |
 =
@@ -590,14 +593,17 @@ readUnsigned
 <
 6
 ;
+}
 if
 (
 isNegative
 )
+{
 return
 -
 result
 ;
+}
 return
 result
 ;
@@ -839,6 +845,7 @@ oom
 (
 )
 )
+{
 buffer_
 [
 pos
@@ -846,6 +853,7 @@ pos
 =
 byte
 ;
+}
 }
 void
 writeUnsigned
@@ -1046,8 +1054,10 @@ value
 =
 0
 )
+{
 return
 ;
+}
 writeUnsigned
 (
 value
@@ -1174,8 +1184,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 uint8_t
 *
 endPtr

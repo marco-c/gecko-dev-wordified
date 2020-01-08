@@ -272,9 +272,11 @@ if
 !
 treeMem
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Initialize
@@ -342,9 +344,11 @@ if
 !
 calleeTree
 )
+{
 return
 nullptr
 ;
+}
 calleeTree
 -
 >
