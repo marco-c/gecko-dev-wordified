@@ -7246,7 +7246,7 @@ key
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 key
@@ -7420,7 +7420,7 @@ key
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 key
@@ -10106,7 +10106,7 @@ this
 .
 doc
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -11309,7 +11309,7 @@ this
 .
 doc
 .
-createElement
+createXULElement
 (
 "
 iframe

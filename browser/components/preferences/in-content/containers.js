@@ -234,7 +234,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -246,7 +246,7 @@ outer
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -287,7 +287,7 @@ userContextIcon
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -368,7 +368,7 @@ label
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -422,7 +422,7 @@ containerButtons
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -473,7 +473,7 @@ prefsButton
 =
 document
 .
-createElement
+createXULElement
 (
 "
 button
@@ -539,7 +539,7 @@ removeButton
 =
 document
 .
-createElement
+createXULElement
 (
 "
 button

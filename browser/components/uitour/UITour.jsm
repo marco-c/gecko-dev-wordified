@@ -8075,7 +8075,7 @@ el
 =
 document
 .
-createElement
+createXULElement
 (
 isButton
 ?

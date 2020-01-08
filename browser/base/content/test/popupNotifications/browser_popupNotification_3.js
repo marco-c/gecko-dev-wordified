@@ -1417,7 +1417,7 @@ anchor
 =
 document
 .
-createElement
+createXULElement
 (
 "
 box

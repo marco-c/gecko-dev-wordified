@@ -140,7 +140,7 @@ view
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 panelview

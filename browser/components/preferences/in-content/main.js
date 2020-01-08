@@ -6483,7 +6483,7 @@ menuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -11785,7 +11785,7 @@ internalMenuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -11869,7 +11869,7 @@ askMenuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -12063,7 +12063,7 @@ saveMenuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -12164,7 +12164,7 @@ internalMenuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -12267,7 +12267,7 @@ menuseparator
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -12307,7 +12307,7 @@ defaultMenuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -12442,7 +12442,7 @@ menuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -12797,7 +12797,7 @@ menuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -12948,7 +12948,7 @@ pluginMenuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -13126,7 +13126,7 @@ menuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -13231,7 +13231,7 @@ menuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -13249,7 +13249,7 @@ menuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem

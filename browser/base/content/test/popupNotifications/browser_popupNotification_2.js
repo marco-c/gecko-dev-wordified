@@ -1125,7 +1125,7 @@ box
 =
 document
 .
-createElement
+createXULElement
 (
 "
 box
@@ -1148,7 +1148,7 @@ button
 =
 document
 .
-createElement
+createXULElement
 (
 "
 button

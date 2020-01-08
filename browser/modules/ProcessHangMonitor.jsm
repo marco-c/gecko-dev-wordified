@@ -2809,7 +2809,7 @@ link
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label

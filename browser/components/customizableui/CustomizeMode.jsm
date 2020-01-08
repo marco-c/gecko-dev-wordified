@@ -5672,7 +5672,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarpaletteitem
@@ -9273,7 +9273,7 @@ tbb
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -18872,7 +18872,7 @@ el
 =
 document
 .
-createElement
+createXULElement
 (
 "
 box

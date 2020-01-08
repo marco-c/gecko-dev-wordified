@@ -1558,7 +1558,7 @@ label
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -1663,7 +1663,7 @@ dismissButton
 =
 document
 .
-createElement
+createXULElement
 (
 "
 image

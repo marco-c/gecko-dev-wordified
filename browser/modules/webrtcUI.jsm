@@ -4027,7 +4027,7 @@ appendChild
 (
 doc
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -4563,7 +4563,7 @@ chromeWin
 .
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -4928,7 +4928,7 @@ menuitem
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -6501,7 +6501,7 @@ this
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -6583,7 +6583,7 @@ this
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -6661,7 +6661,7 @@ this
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -6761,7 +6761,7 @@ this
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -6898,7 +6898,7 @@ this
 .
 _hiddenDoc
 .
-createElement
+createXULElement
 (
 "
 menu
@@ -6971,7 +6971,7 @@ this
 .
 _hiddenDoc
 .
-createElement
+createXULElement
 (
 "
 menupopup
@@ -7285,7 +7285,7 @@ menuitem
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -7418,7 +7418,7 @@ menu
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menu
@@ -7506,7 +7506,7 @@ separator
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -7588,7 +7588,7 @@ popup
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menupopup

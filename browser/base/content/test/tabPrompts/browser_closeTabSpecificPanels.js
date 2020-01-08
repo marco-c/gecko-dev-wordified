@@ -118,7 +118,7 @@ specificPanel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 panel
@@ -142,7 +142,7 @@ generalPanel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 panel

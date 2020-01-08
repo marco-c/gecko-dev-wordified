@@ -351,7 +351,7 @@ fragment
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 menuitem

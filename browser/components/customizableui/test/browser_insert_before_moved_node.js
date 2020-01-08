@@ -156,7 +156,7 @@ otherButton
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton

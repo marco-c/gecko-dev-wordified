@@ -11,7 +11,7 @@ keyset
 =
 document
 .
-createElement
+createXULElement
 (
 "
 keyset
@@ -23,7 +23,7 @@ key1
 =
 document
 .
-createElement
+createXULElement
 (
 "
 key
@@ -169,7 +169,7 @@ key2
 =
 document
 .
-createElement
+createXULElement
 (
 "
 key
@@ -315,7 +315,7 @@ key3
 =
 document
 .
-createElement
+createXULElement
 (
 "
 key
@@ -470,7 +470,7 @@ container
 =
 document
 .
-createElement
+createXULElement
 (
 "
 box

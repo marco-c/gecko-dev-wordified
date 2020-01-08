@@ -2140,7 +2140,7 @@ image
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 image
@@ -2306,7 +2306,7 @@ link
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label

@@ -2697,7 +2697,7 @@ folderMenuItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -5732,7 +5732,7 @@ elt
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -5745,7 +5745,7 @@ appendChild
 (
 document
 .
-createElement
+createXULElement
 (
 "
 image
@@ -5758,7 +5758,7 @@ label
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label

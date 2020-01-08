@@ -1112,7 +1112,7 @@ i
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -1159,7 +1159,7 @@ i
 =
 document
 .
-createElement
+createXULElement
 (
 "
 panel
@@ -1225,7 +1225,7 @@ i
 =
 document
 .
-createElement
+createXULElement
 (
 "
 panelmultiview
@@ -1283,7 +1283,7 @@ i
 =
 document
 .
-createElement
+createXULElement
 (
 "
 panelview
@@ -1321,7 +1321,7 @@ i
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label

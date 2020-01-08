@@ -8244,7 +8244,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton

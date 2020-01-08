@@ -35,7 +35,7 @@ ifr
 =
 document
 .
-createElement
+createXULElement
 (
 '
 iframe

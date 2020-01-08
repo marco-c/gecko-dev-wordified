@@ -1598,7 +1598,7 @@ privacyLinkElement
 =
 chromeDoc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -1738,7 +1738,7 @@ descriptionLabelElement
 =
 chromeDoc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -1767,7 +1767,7 @@ descriptionWrapper
 =
 chromeDoc
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -1796,7 +1796,7 @@ descriptionIconElement
 =
 chromeDoc
 .
-createElement
+createXULElement
 (
 "
 image
@@ -1816,7 +1816,7 @@ descriptionElement
 =
 chromeDoc
 .
-createElement
+createXULElement
 (
 "
 description
@@ -2026,7 +2026,7 @@ anchorElement
 =
 chromeDoc
 .
-createElement
+createXULElement
 (
 "
 image
@@ -2517,7 +2517,7 @@ popupnotificationcontent
 |
 chromeDoc
 .
-createElement
+createXULElement
 (
 "
 popupnotificationcontent

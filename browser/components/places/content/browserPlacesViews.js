@@ -1840,7 +1840,7 @@ _emptyMenuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -2052,7 +2052,7 @@ element
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -2099,7 +2099,7 @@ element
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -2159,7 +2159,7 @@ element
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menu
@@ -2403,7 +2403,7 @@ popup
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menupopup
@@ -2782,7 +2782,7 @@ _siteURIMenuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -3023,7 +3023,7 @@ _siteURIMenuseparator
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -3114,7 +3114,7 @@ statusMenuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -5615,7 +5615,7 @@ _endOptSeparator
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -5663,7 +5663,7 @@ _endOptOpenAllInTabs
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -5917,7 +5917,7 @@ _startMarker
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -6014,7 +6014,7 @@ _endMarker
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -7554,7 +7554,7 @@ button
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarseparator
@@ -7568,7 +7568,7 @@ button
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -7749,7 +7749,7 @@ popup
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menupopup
@@ -13725,7 +13725,7 @@ button
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarseparator
@@ -13753,7 +13753,7 @@ button
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -15161,7 +15161,7 @@ element
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarseparator
@@ -15192,7 +15192,7 @@ element
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -15340,7 +15340,7 @@ _emptyMenuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton

@@ -499,7 +499,7 @@ menu
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -909,7 +909,7 @@ xulMenu
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -1203,7 +1203,7 @@ element
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -1217,7 +1217,7 @@ element
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -1247,7 +1247,7 @@ element
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menu
@@ -1274,7 +1274,7 @@ menupopup
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menupopup

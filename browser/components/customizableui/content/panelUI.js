@@ -2531,7 +2531,7 @@ tempPanel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 panel
@@ -2719,7 +2719,7 @@ multiView
 =
 document
 .
-createElement
+createXULElement
 (
 "
 panelmultiview
@@ -3474,7 +3474,7 @@ button
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton

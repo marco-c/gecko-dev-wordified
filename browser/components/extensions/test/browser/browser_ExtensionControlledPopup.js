@@ -168,7 +168,7 @@ popupnotification
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 popupnotification
@@ -287,7 +287,7 @@ content
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 popupnotificationcontent
@@ -311,7 +311,7 @@ description
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 description

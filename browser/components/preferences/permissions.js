@@ -1866,7 +1866,7 @@ richlistitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -1890,7 +1890,7 @@ row
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -1914,7 +1914,7 @@ hbox
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -1926,7 +1926,7 @@ website
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -2009,7 +2009,7 @@ hbox
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -2021,7 +2021,7 @@ capability
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label

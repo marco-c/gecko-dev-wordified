@@ -1390,7 +1390,7 @@ richlistitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -1414,7 +1414,7 @@ row
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -1438,7 +1438,7 @@ hbox
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -1450,7 +1450,7 @@ website
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -1519,7 +1519,7 @@ menulist
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menulist
@@ -1531,7 +1531,7 @@ menupopup
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menupopup
@@ -1686,7 +1686,7 @@ m
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
