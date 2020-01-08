@@ -118,12 +118,6 @@ balanced
 listeners
 *
 /
-/
-*
-exported
-SubprocessImpl
-*
-/
 var
 EXPORTED_SYMBOLS
 =
