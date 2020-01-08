@@ -159,7 +159,7 @@ enum
 class
 RecordedProcessType
 :
-uint32_t
+uint8_t
 {
 Main
 =
@@ -196,7 +196,7 @@ GeckoProcessType_GPU
 )
 AllChildren
 =
-0xFFFFFFFF
+0xFF
 -
 1
 /
@@ -218,7 +218,7 @@ gpu
 )
 All
 =
-0xFFFFFFFF
+0xFF
 /
 /
 All
@@ -235,7 +235,7 @@ enum
 class
 SupportedProduct
 :
-uint32_t
+uint8_t
 {
 Firefox
 =
@@ -263,7 +263,7 @@ Geckoview
 )
 All
 =
-0xFFFFFFFF
+0xFF
 /
 /
 All
