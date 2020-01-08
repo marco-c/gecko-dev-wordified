@@ -1677,6 +1677,13 @@ FlushFramePresentation
 (
 )
 ;
+void
+MaybeGenerateFrame
+(
+bool
+aForceGenerateFrame
+)
+;
 private
 :
 struct
@@ -2012,9 +2019,6 @@ mPaused
 ;
 bool
 mDestroyed
-;
-bool
-mForceRendering
 ;
 bool
 mReceivedDisplayList
