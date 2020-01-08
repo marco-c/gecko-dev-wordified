@@ -246,7 +246,7 @@ mozilla
 :
 gfx
 ;
-nsIFrame
+nsPlaceholderFrame
 *
 NS_NewPlaceholderFrame
 (

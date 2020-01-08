@@ -398,7 +398,10 @@ nsGkAtoms
 .
 h
 "
-nsIFrame
+class
+nsPlaceholderFrame
+;
+nsPlaceholderFrame
 *
 NS_NewPlaceholderFrame
 (
@@ -507,7 +510,7 @@ above
 *
 /
 friend
-nsIFrame
+nsPlaceholderFrame
 *
 NS_NewPlaceholderFrame
 (
