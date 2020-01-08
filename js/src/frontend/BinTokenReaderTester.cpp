@@ -500,6 +500,7 @@ asInt
 =
 NULL_FLOAT_REPRESENTATION
 )
+{
 return
 raiseError
 (
@@ -513,6 +514,7 @@ value
 "
 )
 ;
+}
 /
 /
 Canonicalize
@@ -791,6 +793,7 @@ byteLen
 <
 current_
 )
+{
 /
 /
 Check
@@ -810,6 +813,7 @@ long
 "
 )
 ;
+}
 if
 (
 current_
@@ -818,6 +822,7 @@ byteLen
 >
 stop_
 )
+{
 return
 raiseError
 (
@@ -831,6 +836,7 @@ chars
 "
 )
 ;
+}
 if
 (
 byteLen
@@ -1081,6 +1087,7 @@ byteLen
 <
 current_
 )
+{
 /
 /
 Check
@@ -1100,6 +1107,7 @@ long
 "
 )
 ;
+}
 if
 (
 current_
@@ -1108,6 +1116,7 @@ byteLen
 >
 stop_
 )
+{
 return
 raiseError
 (
@@ -1121,6 +1130,7 @@ chars
 "
 )
 ;
+}
 if
 (
 byteLen
@@ -1188,11 +1198,13 @@ resize
 byteLen
 )
 )
+{
 return
 raiseOOM
 (
 )
 ;
+}
 mozilla
 :
 :
@@ -1265,6 +1277,7 @@ if
 !
 atom
 )
+{
 return
 raiseError
 (
@@ -1274,6 +1287,7 @@ string
 "
 )
 ;
+}
 return
 atom
 .
@@ -1335,6 +1349,7 @@ byteLen
 <
 current_
 )
+{
 /
 /
 Check
@@ -1354,6 +1369,7 @@ long
 "
 )
 ;
+}
 if
 (
 current_
@@ -1362,6 +1378,7 @@ byteLen
 >
 stop_
 )
+{
 return
 raiseError
 (
@@ -1375,6 +1392,7 @@ chars
 "
 )
 ;
+}
 if
 (
 byteLen
@@ -1468,6 +1486,7 @@ if
 !
 variant
 )
+{
 return
 raiseError
 (
@@ -1478,6 +1497,7 @@ variant
 "
 )
 ;
+}
 MOZ_TRY
 (
 readConst
@@ -1540,6 +1560,7 @@ byteLen
 <
 current_
 )
+{
 return
 raiseError
 (
@@ -1552,6 +1573,7 @@ readSkippableSubTree
 "
 )
 ;
+}
 const
 auto
 start
@@ -1924,11 +1946,13 @@ reserve
 fieldNum
 )
 )
+{
 return
 raiseOOM
 (
 )
 ;
+}
 for
 (
 uint32_t
@@ -2434,6 +2458,7 @@ current_
 =
 expectedEnd
 )
+{
 return
 reader_
 .
@@ -2452,6 +2477,7 @@ bytes
 "
 )
 ;
+}
 return
 Ok
 (

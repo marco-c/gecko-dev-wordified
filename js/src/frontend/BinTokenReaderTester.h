@@ -2076,9 +2076,11 @@ NUL
 =
 N
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -2100,9 +2102,11 @@ end
 right
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -2166,6 +2170,7 @@ length
 =
 N
 )
+{
 return
 raiseInvalidNumberOfFields
 (
@@ -2178,6 +2183,7 @@ length
 )
 )
 ;
+}
 for
 (
 size_t
@@ -2207,6 +2213,7 @@ expected
 i
 ]
 )
+{
 return
 raiseInvalidField
 (
@@ -2220,6 +2227,7 @@ i
 ]
 )
 ;
+}
 }
 return
 Ok
@@ -2279,6 +2287,7 @@ length
 =
 0
 )
+{
 return
 raiseInvalidNumberOfFields
 (
@@ -2291,6 +2300,7 @@ length
 )
 )
 ;
+}
 return
 Ok
 (

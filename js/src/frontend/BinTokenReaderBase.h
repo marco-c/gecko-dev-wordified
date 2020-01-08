@@ -635,6 +635,7 @@ value
 false
 )
 )
+{
 return
 raiseError
 (
@@ -647,6 +648,7 @@ literal
 "
 )
 ;
+}
 return
 Ok
 (
@@ -800,9 +802,11 @@ N
 >
 stop_
 )
+{
 return
 false
 ;
+}
 /
 /
 Perform
@@ -842,9 +846,11 @@ NUL
 value
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Looks

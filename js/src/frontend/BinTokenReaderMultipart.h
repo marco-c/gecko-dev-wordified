@@ -1991,9 +1991,11 @@ NUL
 =
 N
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -2015,9 +2017,11 @@ byteLen_
 right
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
