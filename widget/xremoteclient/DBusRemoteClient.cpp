@@ -917,6 +917,7 @@ sDBusValidateBusName
 {
 return
 false
+;
 }
 if
 (
