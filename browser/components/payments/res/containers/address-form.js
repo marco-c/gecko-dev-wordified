@@ -906,9 +906,6 @@ state
 {
 let
 record
-=
-{
-}
 ;
 let
 {
