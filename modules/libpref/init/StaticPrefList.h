@@ -5438,7 +5438,7 @@ enabled
 "
 MediaAv1Enabled
 RelaxedAtomicBool
-true
+false
 )
 VARCACHE_PREF
 (
