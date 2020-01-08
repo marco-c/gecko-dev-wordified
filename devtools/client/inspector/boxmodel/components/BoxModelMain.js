@@ -1793,6 +1793,12 @@ true
 }
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 }
 /
 *
