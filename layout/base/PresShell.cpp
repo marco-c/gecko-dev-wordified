@@ -49449,9 +49449,6 @@ startIndexOfNextLevel
 )
 ;
 }
-return
-false
-;
 }
 #
 endif
