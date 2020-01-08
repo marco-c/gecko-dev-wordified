@@ -126,7 +126,7 @@ h
 namespace
 JS
 {
-struct
+class
 Zone
 ;
 }

@@ -212,13 +212,6 @@ Shape
 .
 h
 "
-namespace
-JS
-{
-struct
-Zone
-;
-}
 /
 *
 *

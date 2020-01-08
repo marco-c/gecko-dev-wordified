@@ -4056,14 +4056,12 @@ WeakMapBase
 /
 namespace
 js
-struct
+class
 JS
 :
 :
 Compartment
 {
-private
-:
 JS
 :
 :

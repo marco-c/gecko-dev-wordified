@@ -1045,7 +1045,7 @@ a
 live
 zone
 .
-struct
+class
 Zone
 :
 public
@@ -1082,6 +1082,8 @@ JS
 Zone
 >
 {
+public
+:
 explicit
 Zone
 (
