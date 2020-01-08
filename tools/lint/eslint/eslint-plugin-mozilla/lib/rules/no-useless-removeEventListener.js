@@ -491,6 +491,10 @@ arguments
 ;
 if
 (
+!
+listener
+|
+|
 listener
 .
 type
