@@ -4369,12 +4369,12 @@ the
 targetActor
 is
 a
-ContentActor
+FrameTargetActor
 and
 we
 use
-the
 *
+the
 chromeEventHandler
 which
 gives

@@ -5049,7 +5049,7 @@ BrowserTabList
 *
 Creates
 a
-tab
+target
 actor
 for
 handling
@@ -5085,7 +5085,7 @@ that
 connects
 to
 a
-ContentActor
+FrameTargetActor
 in
 a
 remote
@@ -5579,14 +5579,8 @@ may
 be
 more
 than
-just
 one
-content
-.
-js
-(
-ContentActor
-)
+FrameTargetActor
 up
 and
 running

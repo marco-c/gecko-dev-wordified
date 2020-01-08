@@ -984,7 +984,7 @@ an
 instance
 *
 of
-ContentActor
+FrameTargetActor
 but
 that
 isn
@@ -7396,7 +7396,7 @@ actor
 /
 /
 The
-ContentActor
+FrameTargetActor
 within
 the
 child

@@ -232,7 +232,7 @@ going
 to
 spawn
 a
-ContentActor
+FrameTargetActor
 instance
 in
 the
@@ -472,7 +472,7 @@ else
 {
 const
 {
-ContentActor
+FrameTargetActor
 }
 =
 require
@@ -484,14 +484,16 @@ server
 /
 actors
 /
-content
+targets
+/
+frame
 "
 )
 ;
 actor
 =
 new
-ContentActor
+FrameTargetActor
 (
 conn
 chromeGlobal

@@ -97,7 +97,7 @@ class
 is
 extended
 by
-ContentActor
+FrameTargetActor
 ChromeActor
 and
 WindowActor
@@ -1738,7 +1738,7 @@ class
 is
 subclassed
 by
-ContentActor
+FrameTargetActor
 and
 others
 .
