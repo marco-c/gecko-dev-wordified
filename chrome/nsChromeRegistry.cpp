@@ -740,15 +740,6 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIToolkitChromeRegistry
 )
-#
-ifdef
-MOZ_XUL
-NS_INTERFACE_MAP_ENTRY
-(
-nsIXULOverlayProvider
-)
-#
-endif
 NS_INTERFACE_MAP_ENTRY
 (
 nsIObserver

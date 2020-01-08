@@ -3374,12 +3374,6 @@ uri
 {
 }
 ;
-Document
-.
-prototype
-.
-loadOverlay
-;
 /
 *
 *
