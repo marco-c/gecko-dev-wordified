@@ -15269,6 +15269,15 @@ cx
 )
 const
 ;
+bool
+hasInitialEnvironment
+(
+JSContext
+*
+cx
+)
+const
+;
 CallObject
 &
 callObj

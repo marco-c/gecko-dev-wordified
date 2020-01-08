@@ -4940,6 +4940,11 @@ environmentChain
 MaybeReadFallback
 &
 fallback
+bool
+*
+hasInitialEnvironment
+=
+nullptr
 )
 const
 {
@@ -4967,6 +4972,7 @@ computeEnvironmentChain
 (
 v
 fallback
+hasInitialEnvironment
 )
 ;
 }
