@@ -688,7 +688,7 @@ totalBindings
 <
 0
 .
-1
+25
 ;
 }
 function

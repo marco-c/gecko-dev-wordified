@@ -997,7 +997,7 @@ selectedSource
 conditionalPanelLine
 closeConditionalPanel
 addOrToggleDisabledBreakpoint
-toggleBreakpoint
+toggleBreakpointsAtLine
 continueToHere
 }
 =
@@ -1125,7 +1125,7 @@ sourceLine
 ;
 }
 return
-toggleBreakpoint
+toggleBreakpointsAtLine
 (
 sourceLine
 )
@@ -3636,6 +3636,13 @@ _actions2
 default
 .
 toggleBreakpoint
+toggleBreakpointsAtLine
+:
+_actions2
+.
+default
+.
+toggleBreakpointsAtLine
 addOrToggleDisabledBreakpoint
 :
 _actions2

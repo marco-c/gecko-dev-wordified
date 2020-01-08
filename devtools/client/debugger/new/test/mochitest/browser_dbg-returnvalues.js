@@ -96,12 +96,6 @@ stepIn
 dbg
 )
 ;
-await
-stepIn
-(
-dbg
-)
-;
 is
 (
 getLabel
