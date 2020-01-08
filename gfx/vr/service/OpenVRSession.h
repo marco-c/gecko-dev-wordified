@@ -493,6 +493,14 @@ VRSystemState
 aState
 )
 ;
+void
+UpdateTelemetry
+(
+VRSystemState
+&
+aSystemState
+)
+;
 bool
 SubmitFrame
 (
