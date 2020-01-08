@@ -3523,9 +3523,11 @@ while
 false
 )
 ;
-assertSameCompartmentDebugOnly
-(
 cx
+-
+>
+debugOnlyCheck
+(
 res
 )
 ;
@@ -3800,9 +3802,11 @@ while
 false
 )
 ;
-assertSameCompartmentDebugOnly
-(
 cx
+-
+>
+debugOnlyCheck
+(
 res
 )
 ;
