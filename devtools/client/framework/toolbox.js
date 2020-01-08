@@ -12827,6 +12827,17 @@ unknown
 "
 )
 {
+this
+.
+emit
+(
+"
+panel
+-
+changed
+"
+)
+;
 if
 (
 this
