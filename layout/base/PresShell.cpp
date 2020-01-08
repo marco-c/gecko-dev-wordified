@@ -25421,6 +25421,13 @@ FlushType
 ContentAndNotify
 )
 ;
+mDocument
+-
+>
+UpdateSVGUseElementShadowTrees
+(
+)
+;
 /
 /
 Process
