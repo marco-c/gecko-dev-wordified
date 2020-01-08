@@ -1053,7 +1053,7 @@ node
 =
 node
 .
-parentNode
+parentOrHost
 (
 )
 ;

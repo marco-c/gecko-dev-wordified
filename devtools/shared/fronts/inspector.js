@@ -559,6 +559,8 @@ to
 its
 *
 parent
+or
+host
 front
 .
 The
@@ -568,9 +570,9 @@ that
 the
 parent
 will
+*
 be
 seen
-*
 by
 the
 client
@@ -629,7 +631,7 @@ deserialization
 .
 *
 /
-ensureParentFront
+ensureDOMNodeFront
 :
 function
 (

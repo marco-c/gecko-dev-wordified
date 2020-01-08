@@ -5031,7 +5031,7 @@ node
 =
 node
 .
-parentNode
+parentOrHost
 (
 )
 ;
