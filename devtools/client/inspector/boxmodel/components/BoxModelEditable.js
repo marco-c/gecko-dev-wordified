@@ -187,6 +187,13 @@ level
 PropTypes
 .
 string
+onShowBoxModelEditor
+:
+PropTypes
+.
+func
+.
+isRequired
 property
 :
 PropTypes
@@ -209,13 +216,6 @@ PropTypes
 number
 ]
 )
-.
-isRequired
-onShowBoxModelEditor
-:
-PropTypes
-.
-func
 .
 isRequired
 }
@@ -324,6 +324,7 @@ length
 LONG_TEXT_ROTATE_LIMIT
 ;
 return
+(
 dom
 .
 p
@@ -418,6 +419,7 @@ span
 }
 }
 textContent
+)
 )
 )
 ;

@@ -84,7 +84,7 @@ createEnum
 [
 /
 /
-Update
+Updates
 the
 geometry
 editor
@@ -98,7 +98,7 @@ UPDATE_GEOMETRY_EDITOR_ENABLED
 "
 /
 /
-Update
+Updates
 the
 layout
 state
@@ -113,7 +113,7 @@ UPDATE_LAYOUT
 "
 /
 /
-Update
+Updates
 the
 offset
 parent

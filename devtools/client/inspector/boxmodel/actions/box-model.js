@@ -86,7 +86,7 @@ exports
 *
 *
 *
-Update
+Updates
 the
 geometry
 editor
@@ -134,7 +134,7 @@ enabled
 *
 *
 *
-Update
+Updates
 the
 layout
 state
@@ -164,7 +164,7 @@ layout
 *
 *
 *
-Update
+Updates
 the
 offset
 parent

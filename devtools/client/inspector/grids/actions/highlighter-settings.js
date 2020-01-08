@@ -86,7 +86,7 @@ exports
 *
 *
 *
-Update
+Updates
 the
 grid
 highlighter
@@ -137,7 +137,7 @@ enabled
 *
 *
 *
-Update
+Updates
 the
 grid
 highlighter
@@ -190,7 +190,7 @@ enabled
 *
 *
 *
-Update
+Updates
 the
 grid
 highlighter

@@ -84,7 +84,7 @@ createEnum
 [
 /
 /
-Update
+Updates
 the
 color
 used
@@ -100,7 +100,7 @@ UPDATE_GRID_COLOR
 "
 /
 /
-Update
+Updates
 the
 grid
 highlighted
@@ -111,7 +111,7 @@ UPDATE_GRID_HIGHLIGHTED
 "
 /
 /
-Update
+Updates
 the
 entire
 grids
@@ -128,7 +128,7 @@ UPDATE_GRIDS
 "
 /
 /
-Update
+Updates
 the
 grid
 highlighter
@@ -144,7 +144,7 @@ UPDATE_SHOW_GRID_AREAS
 "
 /
 /
-Update
+Updates
 the
 grid
 highlighter
@@ -161,7 +161,7 @@ UPDATE_SHOW_GRID_LINE_NUMBERS
 "
 /
 /
-Update
+Updates
 the
 grid
 highlighter

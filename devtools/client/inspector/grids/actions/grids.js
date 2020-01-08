@@ -86,7 +86,7 @@ exports
 *
 *
 *
-Update
+Updates
 the
 color
 used
@@ -158,7 +158,7 @@ nodeFront
 *
 *
 *
-Update
+Updates
 the
 grid
 highlighted
@@ -224,7 +224,7 @@ nodeFront
 *
 *
 *
-Update
+Updates
 the
 grid
 state
