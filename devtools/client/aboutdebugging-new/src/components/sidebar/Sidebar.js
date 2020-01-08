@@ -398,13 +398,6 @@ sidebar__devices__no
 devices
 -
 message
-js
--
-sidebar
--
-no
--
-devices
 "
 }
 "
