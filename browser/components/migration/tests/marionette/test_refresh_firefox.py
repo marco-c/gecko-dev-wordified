@@ -1935,33 +1935,9 @@ xul
 "
 ;
           
-let
-xulStore
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-xul
-/
-xulstore
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIXULStore
-)
-;
-          
 return
+Services
+.
 xulStore
 .
 getValue
@@ -1974,6 +1950,7 @@ PersonalToolbar
 collapsed
 "
 )
+;
         
 "
 "
