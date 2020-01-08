@@ -180,7 +180,7 @@ NetworkThrottlingSelector
 )
 ;
 const
-ReloadConditions
+SettingsMenu
 =
 createFactory
 (
@@ -189,7 +189,7 @@ require
 "
 .
 /
-ReloadConditions
+SettingsMenu
 "
 )
 )
@@ -761,7 +761,7 @@ screenshot
 isCapturing
 }
 )
-ReloadConditions
+SettingsMenu
 (
 {
 reloadConditions

@@ -645,13 +645,13 @@ devtools
 /
 client
 /
-netmonitor
+shared
 /
-src
-/
-utils
+components
 /
 menu
+/
+utils
 "
 true
 )

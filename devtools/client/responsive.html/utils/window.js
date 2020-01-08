@@ -89,7 +89,7 @@ window
 *
 /
 function
-getToplevelWindow
+getTopLevelWindow
 (
 window
 )
@@ -106,9 +106,9 @@ domWindow
 }
 exports
 .
-getToplevelWindow
+getTopLevelWindow
 =
-getToplevelWindow
+getTopLevelWindow
 ;
 function
 getDOMWindowUtils
