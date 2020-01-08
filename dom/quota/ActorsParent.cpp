@@ -6964,7 +6964,7 @@ gTestingEnabled
 false
 ;
 class
-StorageDirectoryHelper
+StorageOperationBase
 :
 public
 Runnable
@@ -7010,7 +7010,7 @@ mPersistent
 ;
 public
 :
-StorageDirectoryHelper
+StorageOperationBase
 (
 nsIFile
 *
@@ -7028,13 +7028,13 @@ dom
 quota
 :
 :
-StorageDirectoryHelper
+StorageOperationBase
 "
 )
 mMutex
 (
 "
-StorageDirectoryHelper
+StorageOperationBase
 :
 :
 mMutex
@@ -7044,7 +7044,7 @@ mCondVar
 (
 mMutex
 "
-StorageDirectoryHelper
+StorageOperationBase
 :
 :
 mCondVar
@@ -7074,8 +7074,9 @@ AssertIsOnIOThread
 }
 protected
 :
+virtual
 ~
-StorageDirectoryHelper
+StorageOperationBase
 (
 )
 {
@@ -7259,7 +7260,7 @@ override
 }
 ;
 struct
-StorageDirectoryHelper
+StorageOperationBase
 :
 :
 OriginProps
@@ -7587,14 +7588,14 @@ HandleTrailingSeparator
 }
 ;
 class
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 :
 public
-StorageDirectoryHelper
+StorageOperationBase
 {
 public
 :
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 (
 nsIFile
 *
@@ -7603,7 +7604,7 @@ bool
 aPersistent
 )
 :
-StorageDirectoryHelper
+StorageOperationBase
 (
 aDirectory
 aPersistent
@@ -7611,7 +7612,7 @@ aPersistent
 {
 }
 nsresult
-DoUpgrade
+ProcessRepository
 (
 )
 ;
@@ -7619,7 +7620,7 @@ protected
 :
 virtual
 ~
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 (
 )
 {
@@ -7647,7 +7648,7 @@ CreateOrUpgradeDirectoryMetadataHelper
 final
 :
 public
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 {
 nsCOMPtr
 <
@@ -7666,7 +7667,7 @@ bool
 aPersistent
 )
 :
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 (
 aDirectory
 aPersistent
@@ -7712,7 +7713,7 @@ UpgradeStorageFrom0_0To1_0Helper
 final
 :
 public
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 {
 public
 :
@@ -7725,7 +7726,7 @@ bool
 aPersistent
 )
 :
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 (
 aDirectory
 aPersistent
@@ -7763,7 +7764,7 @@ UpgradeStorageFrom1_0To2_0Helper
 final
 :
 public
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 {
 public
 :
@@ -7776,7 +7777,7 @@ bool
 aPersistent
 )
 :
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 (
 aDirectory
 aPersistent
@@ -7847,7 +7848,7 @@ UpgradeStorageFrom2_0To2_1Helper
 final
 :
 public
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 {
 public
 :
@@ -7860,7 +7861,7 @@ bool
 aPersistent
 )
 :
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 (
 aDirectory
 aPersistent
@@ -7907,7 +7908,7 @@ RestoreDirectoryMetadata2Helper
 final
 :
 public
-StorageDirectoryHelper
+StorageOperationBase
 {
 public
 :
@@ -7920,7 +7921,7 @@ bool
 aPersistent
 )
 :
-StorageDirectoryHelper
+StorageOperationBase
 (
 aDirectory
 aPersistent
@@ -20582,7 +20583,7 @@ rv
 helper
 -
 >
-DoUpgrade
+ProcessRepository
 (
 )
 ;
@@ -20745,7 +20746,7 @@ rv
 helper
 -
 >
-DoUpgrade
+ProcessRepository
 (
 )
 ;
@@ -21270,7 +21271,7 @@ rv
 helper
 -
 >
-DoUpgrade
+ProcessRepository
 (
 )
 ;
@@ -22076,7 +22077,7 @@ rv
 helper
 -
 >
-DoUpgrade
+ProcessRepository
 (
 )
 ;
@@ -22337,7 +22338,7 @@ rv
 helper
 -
 >
-DoUpgrade
+ProcessRepository
 (
 )
 ;
@@ -37539,7 +37540,7 @@ PersistResponse
 ;
 }
 nsresult
-StorageDirectoryHelper
+StorageOperationBase
 :
 :
 GetDirectoryMetadata
@@ -37754,7 +37755,7 @@ NS_OK
 ;
 }
 nsresult
-StorageDirectoryHelper
+StorageOperationBase
 :
 :
 GetDirectoryMetadata2
@@ -38079,7 +38080,7 @@ NS_OK
 ;
 }
 nsresult
-StorageDirectoryHelper
+StorageOperationBase
 :
 :
 RemoveObsoleteOrigin
@@ -38170,7 +38171,7 @@ NS_OK
 ;
 }
 nsresult
-StorageDirectoryHelper
+StorageOperationBase
 :
 :
 ProcessOriginDirectories
@@ -38415,7 +38416,7 @@ NS_OK
 ;
 }
 nsresult
-StorageDirectoryHelper
+StorageOperationBase
 :
 :
 RunOnMainThread
@@ -38663,7 +38664,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-StorageDirectoryHelper
+StorageOperationBase
 :
 :
 Run
@@ -38726,7 +38727,7 @@ NS_OK
 ;
 }
 nsresult
-StorageDirectoryHelper
+StorageOperationBase
 :
 :
 OriginProps
@@ -40601,10 +40602,10 @@ eHandledTrailingSeparator
 ;
 }
 nsresult
-UpgradeOriginDirectoriesHelper
+RepositoryOperationBase
 :
 :
-DoUpgrade
+ProcessRepository
 (
 )
 {
