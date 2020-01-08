@@ -445,6 +445,13 @@ aNextDriver
 {
 MOZ_ASSERT
 (
+OnThread
+(
+)
+)
+;
+MOZ_ASSERT
+(
 aNextDriver
 )
 ;
