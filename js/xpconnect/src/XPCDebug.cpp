@@ -384,6 +384,7 @@ if
 !
 buf
 )
+{
 DebugDump
 (
 "
@@ -403,6 +404,7 @@ n
 "
 )
 ;
+}
 state
 .
 restore
