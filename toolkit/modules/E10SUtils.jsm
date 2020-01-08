@@ -1623,13 +1623,6 @@ if
 (
 aDocShell
 .
-QueryInterface
-(
-Ci
-.
-nsIDocShellTreeItem
-)
-.
 sameTypeParent
 )
 return
