@@ -525,7 +525,7 @@ composition
 if
 (
 !
-EnsureCommitCompoisition
+EnsureCommitComposition
 (
 )
 )
