@@ -61328,9 +61328,6 @@ DoubleGreaterThanOrEqual
 /
 Sign
 extensions
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 case
 uint16_t
 (
@@ -61456,8 +61453,6 @@ I64
 )
 )
 ;
-#
-endif
 /
 /
 Memory

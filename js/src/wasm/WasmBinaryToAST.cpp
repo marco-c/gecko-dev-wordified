@@ -9598,9 +9598,6 @@ false
 ;
 break
 ;
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 case
 uint16_t
 (
@@ -9700,8 +9697,6 @@ false
 ;
 break
 ;
-#
-endif
 case
 uint16_t
 (

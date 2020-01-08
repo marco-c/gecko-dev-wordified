@@ -3867,13 +3867,6 @@ infinity
 )
 ;
 }
-if
-(
-wasmSignExtensionSupported
-(
-)
-)
-{
 testSignExtension
 (
 '
@@ -4032,7 +4025,6 @@ i64
 "
 )
 ;
-}
 /
 /
 i32

@@ -5769,9 +5769,6 @@ f32
 ;
 break
 ;
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 case
 Op
 :
@@ -5852,8 +5849,6 @@ extend32_s
 ;
 break
 ;
-#
-endif
 case
 Op
 :

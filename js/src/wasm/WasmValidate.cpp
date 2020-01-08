@@ -4774,9 +4774,6 @@ nothing
 )
 )
 ;
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 case
 uint16_t
 (
@@ -4860,8 +4857,6 @@ nothing
 )
 )
 ;
-#
-endif
 case
 uint16_t
 (
@@ -11181,7 +11176,13 @@ return
 nullptr
 ;
 return
+std
+:
+:
+move
+(
 exportName
+)
 ;
 }
 static

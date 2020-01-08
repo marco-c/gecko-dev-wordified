@@ -1059,9 +1059,6 @@ F32ReinterpretI32
 F64ReinterpretI64
 =
 0xbf
-#
-ifdef
-ENABLE_WASM_SIGNEXTEND_OPS
 /
 /
 Sign
@@ -1081,8 +1078,6 @@ I64Extend16S
 I64Extend32S
 =
 0xc4
-#
-endif
 /
 /
 GC
