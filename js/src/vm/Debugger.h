@@ -10770,6 +10770,12 @@ FrameIter
 iter
 )
 ;
+bool
+hasAnyLiveHooks
+(
+)
+const
+;
 private
 :
 static
