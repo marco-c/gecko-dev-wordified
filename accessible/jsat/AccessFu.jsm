@@ -2529,6 +2529,9 @@ function
 activateCurrent
 (
 aData
+aActivateIfKey
+=
+false
 )
 {
 let
@@ -2539,6 +2542,11 @@ Utils
 getMessageManager
 (
 )
+;
+let
+offset
+=
+0
 ;
 mm
 .
@@ -2551,8 +2559,9 @@ Activate
 "
 {
 offset
+activateIfKey
 :
-0
+aActivateIfKey
 }
 )
 ;
