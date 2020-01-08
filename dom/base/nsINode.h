@@ -11811,6 +11811,7 @@ StealNSResult
 /
 ChildNode
 methods
+inline
 mozilla
 :
 :
@@ -11824,6 +11825,7 @@ GetPreviousElementSibling
 )
 const
 ;
+inline
 mozilla
 :
 :
