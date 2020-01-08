@@ -1120,16 +1120,6 @@ jsid
 >
 {
 static
-jsid
-initial
-(
-)
-{
-return
-JSID_VOID
-;
-}
-static
 void
 trace
 (

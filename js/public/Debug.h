@@ -1397,13 +1397,10 @@ owner_
 T
 value_
 =
-GCPolicy
+SafelyInitialized
 <
 T
 >
-:
-:
-initial
 (
 )
 )

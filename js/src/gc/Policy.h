@@ -836,16 +836,6 @@ T
 Type
 ;
 static
-T
-initial
-(
-)
-{
-return
-nullptr
-;
-}
-static
 void
 preBarrier
 (
