@@ -76,12 +76,6 @@ NsAtom
 }
 ;
 use
-media_queries
-:
-:
-CSSErrorReporterTest
-;
-use
 parking_lot
 :
 :
@@ -677,8 +671,7 @@ UserAgent
 media
 lock
 None
-&
-CSSErrorReporterTest
+None
 QuirksMode
 :
 :
@@ -2829,8 +2822,11 @@ UserAgent
 media
 lock
 None
+Some
+(
 &
 error_reporter
+)
 QuirksMode
 :
 :
@@ -3208,8 +3204,11 @@ UserAgent
 media
 lock
 None
+Some
+(
 &
 error_reporter
+)
 QuirksMode
 :
 :
@@ -3371,8 +3370,7 @@ UserAgent
 media
 lock
 None
-&
-CSSErrorReporterTest
+None
 QuirksMode
 :
 :
@@ -3528,8 +3526,7 @@ UserAgent
 media
 lock
 None
-&
-CSSErrorReporterTest
+None
 QuirksMode
 :
 :

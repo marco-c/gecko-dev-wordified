@@ -322,6 +322,7 @@ QuirksMode
 :
 :
 NoQuirks
+None
 )
 ;
 let
@@ -1076,9 +1077,6 @@ mod
 inherited_text
 ;
 mod
-length
-;
-mod
 outline
 ;
 mod
@@ -1098,7 +1096,4 @@ transition_duration
 ;
 mod
 transition_timing_function
-;
-mod
-value
 ;
