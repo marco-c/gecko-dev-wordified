@@ -46,7 +46,9 @@ browser
 /
 toolkit
 /
-modules
+components
+/
+remotepagemanager
 /
 tests
 /
