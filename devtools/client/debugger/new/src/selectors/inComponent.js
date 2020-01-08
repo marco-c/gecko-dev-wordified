@@ -145,6 +145,15 @@ getSelectedFrame
 state
 )
 ;
+if
+(
+!
+selectedFrame
+)
+{
+return
+;
+}
 const
 source
 =

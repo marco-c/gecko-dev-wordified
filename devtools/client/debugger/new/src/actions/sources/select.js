@@ -1531,6 +1531,15 @@ getState
 )
 )
 ;
+if
+(
+!
+location
+)
+{
+return
+;
+}
 await
 dispatch
 (

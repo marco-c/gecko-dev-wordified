@@ -577,6 +577,9 @@ getState
 const
 location
 =
+visibleFrame
+&
+&
 (
 0
 _devtoolsSourceMap
