@@ -227,13 +227,6 @@ label
 override
 ;
 virtual
-bool
-IsNSSKeyStore
-(
-)
-override
-;
-virtual
 ~
 NSSKeyStore
 (
