@@ -78964,8 +78964,10 @@ BitNotFn
 (
 JSContext
 *
-MutableHandleValue
-MutableHandleValue
+HandleValue
+int
+*
+p
 )
 ;
 static
@@ -79023,9 +79025,11 @@ BitopFn
 (
 JSContext
 *
-MutableHandleValue
-MutableHandleValue
-MutableHandleValue
+HandleValue
+HandleValue
+int
+*
+p
 )
 ;
 static
