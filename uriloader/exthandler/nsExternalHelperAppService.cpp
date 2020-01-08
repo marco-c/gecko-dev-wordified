@@ -3682,6 +3682,16 @@ Graphics
 "
 }
 {
+IMAGE_WEBP
+"
+webp
+"
+"
+WebP
+Image
+"
+}
+{
 MESSAGE_RFC822
 "
 eml
