@@ -102,7 +102,9 @@ nsReadConfig_h
 #
 include
 "
-nsCOMPtr
+mozilla
+/
+RefPtr
 .
 h
 "
@@ -116,7 +118,7 @@ h
 #
 include
 "
-nsIAutoConfig
+nsAutoConfig
 .
 h
 "
@@ -129,6 +131,7 @@ h
 "
 class
 nsReadConfig
+final
 :
 public
 nsIReadConfig
@@ -182,9 +185,9 @@ mRead
 ;
 private
 :
-nsCOMPtr
+RefPtr
 <
-nsIAutoConfig
+nsAutoConfig
 >
 mAutoConfig
 ;
