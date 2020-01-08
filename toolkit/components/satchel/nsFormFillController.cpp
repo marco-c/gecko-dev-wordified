@@ -2975,6 +2975,13 @@ mFocusedInput
 SetUserInput
 (
 aTextValue
+*
+nsContentUtils
+:
+:
+GetSystemPrincipal
+(
+)
 )
 ;
 mSuppressOnInput
