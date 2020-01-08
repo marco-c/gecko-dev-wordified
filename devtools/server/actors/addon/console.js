@@ -78,6 +78,10 @@ actors
 webconsole
 /
 listeners
+/
+console
+-
+api
 "
 )
 ;
