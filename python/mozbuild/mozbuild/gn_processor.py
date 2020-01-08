@@ -2762,13 +2762,6 @@ COMPILE_FLAGS
 {
             
 '
-STL
-'
-:
-[
-]
-            
-'
 OS_INCLUDES
 '
 :
