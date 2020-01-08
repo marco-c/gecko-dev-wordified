@@ -125,6 +125,13 @@ nsIAccessibleRole
 ROLE_AUTOCOMPLETE
 ;
 const
+ROLE_BLOCKQUOTE
+=
+nsIAccessibleRole
+.
+ROLE_BLOCKQUOTE
+;
+const
 ROLE_BUTTONDROPDOWNGRID
 =
 nsIAccessibleRole
