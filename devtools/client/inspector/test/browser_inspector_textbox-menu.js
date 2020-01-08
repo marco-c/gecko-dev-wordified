@@ -505,13 +505,11 @@ ruleView
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 cssRuleEditor
 .
 selectorText
-0
-0
 {
 }
 inspector
