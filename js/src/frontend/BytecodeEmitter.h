@@ -1216,6 +1216,9 @@ IgnoreValue
 }
 ;
 class
+EmitterScope
+;
+class
 TDZCheckCache
 ;
 struct
@@ -1224,9 +1227,6 @@ BytecodeEmitter
 {
 class
 NestableControl
-;
-class
-EmitterScope
 ;
 SharedContext
 *
