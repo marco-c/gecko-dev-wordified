@@ -3391,10 +3391,8 @@ is
 wrong
 if
 (
-treeFile
 !
-=
-nullptr
+treeFile
 )
 return
 false
