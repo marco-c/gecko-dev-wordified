@@ -137,6 +137,17 @@ include
 "
 mozilla
 /
+dom
+/
+AudioDeviceInfo
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SharedThreadPool
 .
 h
