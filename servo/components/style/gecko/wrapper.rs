@@ -10978,6 +10978,15 @@ transition_property
 TransitionProperty
 :
 :
+Custom
+(
+.
+.
+)
+|
+TransitionProperty
+:
+:
 Unsupported
 (
 .
