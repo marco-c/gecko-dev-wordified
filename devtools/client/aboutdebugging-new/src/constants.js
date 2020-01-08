@@ -181,11 +181,9 @@ assign
 {
 }
 {
+DEBUG_TARGETS
 PAGES
 }
 actionTypes
-{
-DEBUG_TARGETS
-}
 )
 ;
