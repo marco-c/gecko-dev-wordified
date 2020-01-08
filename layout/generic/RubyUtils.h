@@ -620,8 +620,6 @@ nsCSSAnonBoxes
 :
 :
 ruby
-(
-)
 |
 |
 aPseudo
@@ -631,8 +629,6 @@ nsCSSAnonBoxes
 :
 :
 rubyBase
-(
-)
 |
 |
 aPseudo
@@ -642,8 +638,6 @@ nsCSSAnonBoxes
 :
 :
 rubyText
-(
-)
 |
 |
 aPseudo
@@ -653,8 +647,6 @@ nsCSSAnonBoxes
 :
 :
 rubyBaseContainer
-(
-)
 |
 |
 aPseudo
@@ -664,8 +656,6 @@ nsCSSAnonBoxes
 :
 :
 rubyTextContainer
-(
-)
 ;
 }
 static

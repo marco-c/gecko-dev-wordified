@@ -461,8 +461,6 @@ nsCSSAnonBoxes
 :
 :
 fieldsetContent
-(
-)
 )
 {
 return

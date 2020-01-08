@@ -587,8 +587,6 @@ nsCSSPseudoElements
 :
 :
 before
-(
-)
 |
 |
 mPseudoFrame
@@ -608,8 +606,6 @@ nsCSSPseudoElements
 :
 :
 after
-(
-)
 "
 not
 :

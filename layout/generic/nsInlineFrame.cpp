@@ -6804,8 +6804,6 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
-(
-)
 ourStyle
 )
 ;
@@ -6919,8 +6917,6 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
-(
-)
 "
 Unexpected
 kind
@@ -7257,8 +7253,6 @@ nsCSSPseudoElements
 :
 :
 firstLine
-(
-)
 )
 ;
 return
@@ -7320,8 +7314,6 @@ nsCSSPseudoElements
 :
 :
 firstLine
-(
-)
 )
 {
 MOZ_ASSERT
@@ -7417,8 +7409,6 @@ nsCSSAnonBoxes
 :
 :
 mozLineFrame
-(
-)
 parentContext
 )
 ;
@@ -7459,8 +7449,6 @@ nsCSSAnonBoxes
 :
 :
 mozLineFrame
-(
-)
 )
 ;
 }

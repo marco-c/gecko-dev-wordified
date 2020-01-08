@@ -396,8 +396,6 @@ nsCSSPseudoElements
 :
 :
 firstLetter
-(
-)
 )
 ;
 ComputedStyle
@@ -1577,8 +1575,6 @@ nsCSSPseudoElements
 :
 :
 firstLetter
-(
-)
 )
 ;
 ll
@@ -2670,8 +2666,6 @@ nsCSSPseudoElements
 :
 :
 firstLetter
-(
-)
 )
 ;
 parentSC

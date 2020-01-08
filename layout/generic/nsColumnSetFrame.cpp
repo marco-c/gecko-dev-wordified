@@ -9362,8 +9362,6 @@ nsCSSAnonBoxes
 :
 :
 columnContent
-(
-)
 "
 What
 sort

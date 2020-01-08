@@ -552,8 +552,6 @@ nsCSSAnonBoxes
 :
 :
 fieldsetContent
-(
-)
 -
 -
 this

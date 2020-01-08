@@ -18760,8 +18760,6 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
-(
-)
 )
 |
 |

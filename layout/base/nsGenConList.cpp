@@ -485,8 +485,6 @@ nsCSSPseudoElements
 :
 :
 before
-(
-)
 )
 {
 *
@@ -518,8 +516,6 @@ nsCSSPseudoElements
 :
 :
 after
-(
-)
 )
 {
 *

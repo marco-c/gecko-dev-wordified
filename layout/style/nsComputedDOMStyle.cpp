@@ -972,8 +972,6 @@ nsCSSPseudoElements
 :
 :
 before
-(
-)
 )
 {
 if
@@ -1006,8 +1004,6 @@ nsCSSPseudoElements
 :
 :
 after
-(
-)
 )
 {
 if
@@ -3291,8 +3287,6 @@ nsCSSPseudoElements
 :
 :
 before
-(
-)
 )
 {
 frame
@@ -3316,8 +3310,6 @@ nsCSSPseudoElements
 :
 :
 after
-(
-)
 )
 {
 frame
@@ -5394,8 +5386,6 @@ nsCSSPseudoElements
 :
 :
 before
-(
-)
 |
 |
 mPseudo
@@ -5405,8 +5395,6 @@ nsCSSPseudoElements
 :
 :
 after
-(
-)
 )
 {
 nsAtom
@@ -5420,8 +5408,6 @@ nsCSSPseudoElements
 :
 :
 before
-(
-)
 ?
 nsGkAtoms
 :

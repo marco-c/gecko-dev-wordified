@@ -34544,8 +34544,6 @@ nsCSSPseudoElements
 :
 :
 before
-(
-)
 )
 {
 *

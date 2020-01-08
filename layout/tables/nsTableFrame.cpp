@@ -4840,8 +4840,6 @@ nsCSSAnonBoxes
 :
 :
 tableColGroup
-(
-)
 )
 ;
 /
@@ -5202,8 +5200,6 @@ nsCSSAnonBoxes
 :
 :
 tableCol
-(
-)
 )
 ;
 /
@@ -55027,8 +55023,6 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-(
-)
 "
 What
 happened
@@ -55093,8 +55087,6 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-(
-)
 "
 What
 happened
@@ -55123,8 +55115,6 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-(
-)
 aOwningFrame
 -
 >

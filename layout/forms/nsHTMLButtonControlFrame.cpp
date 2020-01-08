@@ -1095,8 +1095,6 @@ nsCSSAnonBoxes
 :
 :
 buttonContent
-(
-)
 "
 Button
 '

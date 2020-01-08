@@ -2050,8 +2050,6 @@ nsCSSAnonBoxes
 :
 :
 anonymousFlexItem
-(
-)
 |
 |
 pseudoType
@@ -2061,8 +2059,6 @@ nsCSSAnonBoxes
 :
 :
 anonymousGridItem
-(
-)
 ;
 }
 /
@@ -2256,8 +2252,6 @@ nsCSSAnonBoxes
 :
 :
 anonymousFlexItem
-(
-)
 )
 {
 MOZ_ASSERT
@@ -3990,8 +3984,6 @@ nsCSSAnonBoxes
 :
 :
 cellContent
-(
-)
 )
 {
 /
@@ -12705,8 +12697,6 @@ nsCSSAnonBoxes
 :
 :
 table
-(
-)
 |
 |
 pseudoType
@@ -12716,8 +12706,6 @@ nsCSSAnonBoxes
 :
 :
 inlineTable
-(
-)
 |
 |
 pseudoType
@@ -12727,8 +12715,6 @@ nsCSSAnonBoxes
 :
 :
 tableColGroup
-(
-)
 |
 |
 pseudoType
@@ -12738,8 +12724,6 @@ nsCSSAnonBoxes
 :
 :
 tableRowGroup
-(
-)
 |
 |
 pseudoType
@@ -12749,8 +12733,6 @@ nsCSSAnonBoxes
 :
 :
 tableRow
-(
-)
 |
 |
 pseudoType
@@ -12760,8 +12742,6 @@ nsCSSAnonBoxes
 :
 :
 tableCell
-(
-)
 |
 |
 (
@@ -12772,8 +12752,6 @@ nsCSSAnonBoxes
 :
 :
 cellContent
-(
-)
 &
 &
 aFrame
@@ -12798,8 +12776,6 @@ nsCSSAnonBoxes
 :
 :
 tableCell
-(
-)
 )
 |
 |
@@ -12811,8 +12787,6 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-(
-)
 &
 &
 (
@@ -12842,8 +12816,6 @@ nsCSSAnonBoxes
 :
 :
 table
-(
-)
 |
 |
 aFrame
@@ -12872,8 +12844,6 @@ nsCSSAnonBoxes
 :
 :
 inlineTable
-(
-)
 )
 )
 )
@@ -13568,8 +13538,6 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-(
-)
 computedStyle
 )
 ;
@@ -14912,8 +14880,6 @@ nsCSSAnonBoxes
 :
 :
 cellContent
-(
-)
 computedStyle
 )
 ;
@@ -15667,8 +15633,6 @@ nsCSSAnonBoxes
 :
 :
 viewport
-(
-)
 nullptr
 )
 ;
@@ -17561,8 +17525,6 @@ nsCSSAnonBoxes
 :
 :
 viewport
-(
-)
 nullptr
 )
 ;
@@ -18248,8 +18210,6 @@ nsCSSAnonBoxes
 :
 :
 canvas
-(
-)
 ;
 mDocElementContainingBlock
 =
@@ -18283,8 +18243,6 @@ nsCSSAnonBoxes
 :
 :
 pageSequence
-(
-)
 ;
 rootFrame
 -
@@ -18614,8 +18572,6 @@ nsCSSAnonBoxes
 :
 :
 canvas
-(
-)
 )
 {
 rootPseudo
@@ -18624,8 +18580,6 @@ nsCSSAnonBoxes
 :
 :
 scrolledCanvas
-(
-)
 ;
 }
 else
@@ -18639,8 +18593,6 @@ nsCSSAnonBoxes
 :
 :
 pageSequence
-(
-)
 "
 Unknown
 root
@@ -18654,8 +18606,6 @@ nsCSSAnonBoxes
 :
 :
 scrolledPageSequence
-(
-)
 ;
 }
 /
@@ -18731,8 +18681,6 @@ nsCSSAnonBoxes
 :
 :
 viewportScroll
-(
-)
 viewportPseudoStyle
 )
 ;
@@ -19179,8 +19127,6 @@ nsCSSAnonBoxes
 :
 :
 page
-(
-)
 parentComputedStyle
 )
 ;
@@ -19247,8 +19193,6 @@ nsCSSAnonBoxes
 :
 :
 pageContent
-(
-)
 pagePseudoStyle
 )
 ;
@@ -19406,8 +19350,6 @@ nsCSSAnonBoxes
 :
 :
 canvas
-(
-)
 pageContentPseudoStyle
 )
 ;
@@ -20054,8 +19996,6 @@ nsCSSAnonBoxes
 :
 :
 dropDownList
-(
-)
 computedStyle
 )
 ;
@@ -21070,8 +21010,6 @@ nsCSSAnonBoxes
 :
 :
 fieldsetContent
-(
-)
 computedStyle
 )
 ;
@@ -21120,8 +21058,6 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
-(
-)
 false
 scrollFrame
 )
@@ -21795,8 +21731,6 @@ nsCSSPseudoElements
 :
 :
 before
-(
-)
 |
 |
 pseudo
@@ -21806,8 +21740,6 @@ nsCSSPseudoElements
 :
 :
 after
-(
-)
 )
 return
 f
@@ -22589,8 +22521,6 @@ nsCSSAnonBoxes
 :
 :
 fieldsetContent
-(
-)
 |
 |
 pseudo
@@ -22600,8 +22530,6 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
-(
-)
 |
 |
 pseudo
@@ -22611,8 +22539,6 @@ nsCSSAnonBoxes
 :
 :
 columnContent
-(
-)
 )
 {
 return
@@ -22711,8 +22637,6 @@ nsCSSAnonBoxes
 :
 :
 fieldsetContent
-(
-)
 |
 |
 aParentFrame
@@ -22986,8 +22910,6 @@ nsCSSAnonBoxes
 :
 :
 buttonContent
-(
-)
 )
 }
 SIMPLE_TAG_CHAIN
@@ -23311,8 +23233,6 @@ nsCSSAnonBoxes
 :
 :
 buttonContent
-(
-)
 )
 }
 /
@@ -23416,8 +23336,6 @@ nsCSSAnonBoxes
 :
 :
 buttonContent
-(
-)
 )
 }
 {
@@ -23430,8 +23348,6 @@ nsCSSAnonBoxes
 :
 :
 buttonContent
-(
-)
 )
 }
 {
@@ -23444,8 +23360,6 @@ nsCSSAnonBoxes
 :
 :
 buttonContent
-(
-)
 )
 }
 /
@@ -23961,8 +23875,6 @@ nsCSSAnonBoxes
 :
 :
 htmlCanvasContent
-(
-)
 )
 ;
 return
@@ -28223,8 +28135,6 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
-(
-)
 false
 aNewFrame
 )
@@ -29908,8 +29818,6 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
-(
-)
 false
 newFrame
 )
@@ -30729,8 +30637,6 @@ nsCSSAnonBoxes
 :
 :
 mozMathMLAnonymousBlock
-(
-)
 ;
 ComputedStyle
 *
@@ -31669,8 +31575,6 @@ nsCSSAnonBoxes
 :
 :
 mozSVGOuterSVGAnonChild
-(
-)
 true
 )
 ;
@@ -31713,8 +31617,6 @@ nsCSSAnonBoxes
 :
 :
 mozSVGMarkerAnonChild
-(
-)
 false
 )
 ;
@@ -33210,8 +33112,6 @@ nsCSSAnonBoxes
 :
 :
 mozSVGText
-(
-)
 )
 }
 {
@@ -33228,8 +33128,6 @@ nsCSSAnonBoxes
 :
 :
 mozSVGForeignContent
-(
-)
 )
 }
 SIMPLE_SVG_CREATE
@@ -33481,8 +33379,6 @@ nsCSSAnonBoxes
 :
 :
 pageBreak
-(
-)
 )
 ;
 MOZ_ASSERT
@@ -60394,8 +60290,6 @@ nsCSSAnonBoxes
 :
 :
 tableCell
-(
-)
 }
 {
 /
@@ -60426,8 +60320,6 @@ nsCSSAnonBoxes
 :
 :
 tableRow
-(
-)
 }
 {
 /
@@ -60459,8 +60351,6 @@ nsCSSAnonBoxes
 :
 :
 tableRowGroup
-(
-)
 }
 {
 /
@@ -60513,8 +60403,6 @@ nsCSSAnonBoxes
 :
 :
 tableColGroup
-(
-)
 }
 {
 /
@@ -60538,8 +60426,6 @@ nsCSSAnonBoxes
 :
 :
 table
-(
-)
 }
 {
 /
@@ -60561,8 +60447,6 @@ nsCSSAnonBoxes
 :
 :
 ruby
-(
-)
 }
 {
 /
@@ -60590,8 +60474,6 @@ nsCSSAnonBoxes
 :
 :
 rubyBase
-(
-)
 }
 {
 /
@@ -60620,8 +60502,6 @@ nsCSSAnonBoxes
 :
 :
 rubyBaseContainer
-(
-)
 }
 {
 /
@@ -60649,8 +60529,6 @@ nsCSSAnonBoxes
 :
 :
 rubyText
-(
-)
 }
 {
 /
@@ -60677,8 +60555,6 @@ nsCSSAnonBoxes
 :
 :
 rubyTextContainer
-(
-)
 }
 }
 ;
@@ -61297,15 +61173,11 @@ nsCSSAnonBoxes
 :
 :
 anonymousFlexItem
-(
-)
 :
 nsCSSAnonBoxes
 :
 :
 anonymousGridItem
-(
-)
 ;
 ComputedStyle
 *
@@ -64777,8 +64649,6 @@ nsCSSAnonBoxes
 :
 :
 table
-(
-)
 &
 &
 (
@@ -64816,8 +64686,6 @@ nsCSSAnonBoxes
 :
 :
 inlineTable
-(
-)
 ;
 }
 already_AddRefed
@@ -67458,8 +67326,6 @@ nsCSSAnonBoxes
 :
 :
 mozXULAnonymousBlock
-(
-)
 frameComputedStyle
 )
 ;
@@ -67958,8 +67824,6 @@ nsCSSPseudoElements
 :
 :
 firstLine
-(
-)
 )
 -
 >
@@ -69659,8 +69523,6 @@ nsCSSPseudoElements
 :
 :
 firstLetter
-(
-)
 )
 ;
 ComputedStyle
@@ -69754,8 +69616,6 @@ nsCSSPseudoElements
 :
 :
 firstLetter
-(
-)
 )
 ;
 sc
@@ -72327,8 +72187,6 @@ nsCSSAnonBoxes
 :
 :
 columnContent
-(
-)
 aComputedStyle
 )
 ;
@@ -73778,8 +73636,6 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
-(
-)
 computedStyle
 )
 ;
