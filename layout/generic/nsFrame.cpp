@@ -20775,7 +20775,7 @@ That
 s
 not
 entirely
-crrect
+correct
 but
 it
 satisfies
