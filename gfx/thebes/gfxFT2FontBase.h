@@ -291,8 +291,9 @@ static
 void
 SetupVarCoords
 (
-FT_Face
-aFace
+FT_MM_Var
+*
+aMMVar
 const
 nsTArray
 <
