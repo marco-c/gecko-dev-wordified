@@ -1071,6 +1071,11 @@ aBufferSize
 )
 ;
 void
+ClearAllCaches
+(
+)
+;
+void
 Pause
 (
 )
