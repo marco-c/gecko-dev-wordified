@@ -1243,8 +1243,10 @@ Services
 .
 scriptSecurityManager
 .
-getSystemPrincipal
+createNullPrincipal
 (
+{
+}
 )
 )
 ;
