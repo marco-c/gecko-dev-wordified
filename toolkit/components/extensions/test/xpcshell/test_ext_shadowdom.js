@@ -227,7 +227,7 @@ contentScript
 (
 )
 {
-var
+let
 host
 =
 document
@@ -260,7 +260,7 @@ Element
 "
 )
 ;
-var
+let
 shadowRoot
 =
 host
