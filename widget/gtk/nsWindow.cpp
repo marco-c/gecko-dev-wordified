@@ -16341,13 +16341,9 @@ nsEventStatus
 status
 ;
 WidgetCommandEvent
-event
+appCommandEvent
 (
 true
-nsGkAtoms
-:
-:
-onAppCommand
 aCommand
 this
 )
@@ -16355,7 +16351,7 @@ this
 DispatchEvent
 (
 &
-event
+appCommandEvent
 status
 )
 ;
