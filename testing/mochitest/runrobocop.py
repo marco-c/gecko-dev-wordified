@@ -2171,6 +2171,23 @@ org
 ]
 )
         
+self
+.
+options
+.
+extraPrefs
+=
+self
+.
+parseExtraPrefs
+(
+self
+.
+options
+.
+extraPrefs
+)
+        
 manifest
 =
 MochitestDesktop
