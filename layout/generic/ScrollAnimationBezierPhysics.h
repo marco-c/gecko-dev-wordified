@@ -234,6 +234,7 @@ rate
 .
 class
 ScrollAnimationBezierPhysics
+final
 :
 public
 ScrollAnimationPhysics

@@ -175,6 +175,7 @@ aResult
 ;
 class
 nsFrameTraversal
+final
 :
 public
 nsIFrameTraversal

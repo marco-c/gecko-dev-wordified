@@ -196,6 +196,7 @@ namespace
 mozilla
 class
 nsSVGFilterFrame
+final
 :
 public
 nsSVGContainerFrame

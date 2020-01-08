@@ -159,6 +159,7 @@ h
 "
 class
 nsMeterFrame
+final
 :
 public
 nsContainerFrame

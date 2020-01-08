@@ -500,6 +500,7 @@ height
 }
 class
 nsDisplayCanvas
+final
 :
 public
 nsDisplayItem

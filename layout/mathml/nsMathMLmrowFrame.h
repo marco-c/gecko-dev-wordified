@@ -186,6 +186,7 @@ contents
 /
 class
 nsMathMLmrowFrame
+final
 :
 public
 nsMathMLContainerFrame

@@ -723,6 +723,7 @@ Programmatically
 /
 class
 nsComboButtonListener
+final
 :
 public
 nsIDOMEventListener
@@ -9059,6 +9060,7 @@ this
 .
 class
 nsComboboxDisplayFrame
+final
 :
 public
 nsBlockFrame

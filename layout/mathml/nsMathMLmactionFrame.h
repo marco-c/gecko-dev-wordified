@@ -168,6 +168,7 @@ subexpression
 /
 class
 nsMathMLmactionFrame
+final
 :
 public
 nsMathMLSelectedFrame

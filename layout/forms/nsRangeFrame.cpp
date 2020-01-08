@@ -990,6 +990,7 @@ mThumbDiv
 }
 class
 nsDisplayRangeFocusRing
+final
 :
 public
 nsDisplayItem

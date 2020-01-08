@@ -16696,6 +16696,7 @@ object
 /
 class
 SVGCharClipDisplayItem
+final
 :
 public
 nsCharClipDisplayItem
@@ -16900,6 +16901,7 @@ etc
 /
 class
 SVGTextDrawPathCallbacks
+final
 :
 public
 nsTextFrame
@@ -18622,6 +18624,7 @@ list
 item
 class
 nsDisplaySVGText
+final
 :
 public
 nsDisplayItem

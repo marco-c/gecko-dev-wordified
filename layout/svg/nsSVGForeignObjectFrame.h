@@ -176,6 +176,7 @@ gfxContext
 ;
 class
 nsSVGForeignObjectFrame
+final
 :
 public
 nsContainerFrame

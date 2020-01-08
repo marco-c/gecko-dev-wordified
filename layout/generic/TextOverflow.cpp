@@ -1055,6 +1055,7 @@ false
 }
 class
 nsDisplayTextOverflowMarker
+final
 :
 public
 nsDisplayItem

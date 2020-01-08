@@ -217,6 +217,7 @@ nsIPrincipal
 ;
 class
 nsFontFaceLoader
+final
 :
 public
 nsIStreamLoaderObserver

@@ -843,6 +843,7 @@ background
 /
 class
 nsDisplayCanvasBackgroundColor
+final
 :
 public
 nsDisplaySolidColorBase

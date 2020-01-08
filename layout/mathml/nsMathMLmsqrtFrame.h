@@ -291,6 +291,7 @@ Section
 /
 class
 nsMathMLmsqrtFrame
+final
 :
 public
 nsMathMLmencloseFrame

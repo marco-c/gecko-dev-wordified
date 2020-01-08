@@ -1277,6 +1277,7 @@ TextRunUserData
 /
 class
 GlyphObserver
+final
 :
 public
 gfxFont

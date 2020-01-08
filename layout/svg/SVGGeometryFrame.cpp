@@ -592,6 +592,7 @@ item
 :
 class
 nsDisplaySVGGeometry
+final
 :
 public
 nsDisplayItem

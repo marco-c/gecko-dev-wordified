@@ -1099,6 +1099,7 @@ circular
 references
 class
 nsDocViewerSelectionListener
+final
 :
 public
 nsISelectionListener
@@ -1181,6 +1182,7 @@ interface
 /
 class
 nsDocViewerFocusListener
+final
 :
 public
 nsIDOMEventListener

@@ -449,6 +449,7 @@ element
 /
 class
 nsMathMLmfracFrame
+final
 :
 public
 nsMathMLContainerFrame

@@ -163,6 +163,7 @@ radical
 /
 class
 nsMathMLmrootFrame
+final
 :
 public
 nsMathMLContainerFrame

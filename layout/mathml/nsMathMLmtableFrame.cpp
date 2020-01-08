@@ -1751,6 +1751,7 @@ frame
 /
 class
 nsDisplaymtdBorder
+final
 :
 public
 nsDisplayBorder

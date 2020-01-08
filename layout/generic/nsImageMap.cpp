@@ -1383,6 +1383,7 @@ aHasFocus
 -
 class
 DefaultArea
+final
 :
 public
 Area
@@ -1688,6 +1689,7 @@ MoveTo
 -
 class
 RectArea
+final
 :
 public
 Area
@@ -2453,6 +2455,7 @@ y2
 -
 class
 PolyArea
+final
 :
 public
 Area
@@ -3670,6 +3673,7 @@ y2
 -
 class
 CircleArea
+final
 :
 public
 Area

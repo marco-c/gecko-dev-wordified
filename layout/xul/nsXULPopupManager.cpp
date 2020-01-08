@@ -6913,6 +6913,7 @@ finishes
 .
 class
 TransitionEnder
+final
 :
 public
 nsIDOMEventListener

@@ -129,6 +129,7 @@ h
 "
 class
 nsSVGSymbolFrame
+final
 :
 public
 nsSVGViewportFrame

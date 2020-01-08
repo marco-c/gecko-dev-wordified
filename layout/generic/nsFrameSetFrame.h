@@ -507,6 +507,7 @@ nsHTMLFramesetFrame
 /
 class
 nsHTMLFramesetFrame
+final
 :
 public
 nsContainerFrame

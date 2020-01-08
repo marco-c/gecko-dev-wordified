@@ -191,6 +191,7 @@ namespace
 mozilla
 class
 nsFileControlFrame
+final
 :
 public
 nsBlockFrame

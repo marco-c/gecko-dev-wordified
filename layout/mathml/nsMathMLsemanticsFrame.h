@@ -155,6 +155,7 @@ expression
 /
 class
 nsMathMLsemanticsFrame
+final
 :
 public
 nsMathMLSelectedFrame

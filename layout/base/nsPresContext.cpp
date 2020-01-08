@@ -12354,6 +12354,7 @@ aUpdatedFont
 }
 class
 CounterStyleCleaner
+final
 :
 public
 nsAPostRefreshObserver

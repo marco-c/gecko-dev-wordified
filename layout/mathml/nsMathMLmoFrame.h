@@ -160,6 +160,7 @@ separator
 /
 class
 nsMathMLmoFrame
+final
 :
 public
 nsMathMLTokenFrame

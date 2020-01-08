@@ -150,6 +150,7 @@ space
 /
 class
 nsMathMLmspaceFrame
+final
 :
 public
 nsMathMLContainerFrame

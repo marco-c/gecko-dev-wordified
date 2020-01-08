@@ -199,6 +199,7 @@ base
 /
 class
 nsMathMLmmultiscriptsFrame
+final
 :
 public
 nsMathMLContainerFrame

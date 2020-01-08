@@ -162,6 +162,7 @@ h
 "
 class
 SVGFEUnstyledLeafFrame
+final
 :
 public
 nsFrame

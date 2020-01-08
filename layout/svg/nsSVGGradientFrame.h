@@ -874,6 +874,7 @@ Gradients
 -
 class
 nsSVGLinearGradientFrame
+final
 :
 public
 nsSVGGradientFrame
@@ -1195,6 +1196,7 @@ Gradients
 -
 class
 nsSVGRadialGradientFrame
+final
 :
 public
 nsSVGGradientFrame

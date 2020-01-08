@@ -240,6 +240,7 @@ one
 /
 class
 SVGViewFrame
+final
 :
 public
 nsFrame

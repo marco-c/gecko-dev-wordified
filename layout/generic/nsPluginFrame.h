@@ -2114,6 +2114,7 @@ true
 ;
 class
 nsDisplayPlugin
+final
 :
 public
 nsDisplayItem

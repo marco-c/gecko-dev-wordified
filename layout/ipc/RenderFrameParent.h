@@ -222,6 +222,7 @@ layout
 {
 class
 RenderFrameParent
+final
 :
 public
 PRenderFrameParent
@@ -949,6 +950,7 @@ tree
 /
 class
 nsDisplayRemote
+final
 :
 public
 nsDisplayItem

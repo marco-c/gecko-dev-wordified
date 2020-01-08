@@ -196,6 +196,7 @@ parameters
 /
 class
 SVGFEContainerFrame
+final
 :
 public
 nsContainerFrame

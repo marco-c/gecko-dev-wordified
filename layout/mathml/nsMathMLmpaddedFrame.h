@@ -153,6 +153,7 @@ content
 /
 class
 nsMathMLmpaddedFrame
+final
 :
 public
 nsMathMLContainerFrame

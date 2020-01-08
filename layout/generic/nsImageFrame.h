@@ -272,6 +272,7 @@ namespace
 mozilla
 class
 nsImageListener
+final
 :
 public
 imgINotificationObserver
@@ -2407,6 +2408,7 @@ events
 /
 class
 nsDisplayImage
+final
 :
 public
 nsDisplayImageContainer

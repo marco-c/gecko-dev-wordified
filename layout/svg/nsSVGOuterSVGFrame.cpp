@@ -4386,6 +4386,7 @@ disabled
 /
 class
 nsDisplayOuterSVG
+final
 :
 public
 nsDisplayItem

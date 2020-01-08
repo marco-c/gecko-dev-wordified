@@ -4589,6 +4589,7 @@ aComputedStyle
 }
 class
 nsDisplayNotation
+final
 :
 public
 nsDisplayItem

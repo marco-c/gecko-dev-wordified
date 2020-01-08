@@ -983,6 +983,7 @@ asynchronously
 .
 class
 nsXULPopupShownEvent
+final
 :
 public
 mozilla

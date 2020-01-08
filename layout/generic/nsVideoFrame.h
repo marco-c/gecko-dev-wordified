@@ -207,6 +207,7 @@ nsDisplayItem
 ;
 class
 nsVideoFrame
+final
 :
 public
 nsContainerFrame
