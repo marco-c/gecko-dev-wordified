@@ -2090,19 +2090,6 @@ headless
 False
         
 wpt_kwargs
-[
-"
-log_tbpl
-"
-]
-=
-[
-sys
-.
-stdout
-]
-        
-wpt_kwargs
 =
 setup_wptrunner
 (
