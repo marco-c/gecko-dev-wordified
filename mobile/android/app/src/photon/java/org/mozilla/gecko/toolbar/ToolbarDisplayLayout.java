@@ -2094,6 +2094,17 @@ index
 =
 -
 1
+|
+|
+url
+.
+startsWith
+(
+"
+javascript
+:
+"
+)
 )
 {
 setTitle
