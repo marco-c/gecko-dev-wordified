@@ -101,6 +101,7 @@ title
 =
 '
 Purge
+Worker
 Caches
 '
     
@@ -109,7 +110,15 @@ name
 '
 purge
 -
-caches
+cache
+'
+    
+symbol
+=
+'
+purge
+-
+cache
 '
     
 kind
@@ -121,14 +130,6 @@ hook
 generic
 =
 True
-    
-symbol
-=
-'
-purge
--
-caches
-'
     
 description
 =
