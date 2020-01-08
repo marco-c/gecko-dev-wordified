@@ -2728,6 +2728,15 @@ mContext
 mFramebuffers
 )
 ;
+#
+ifdef
+ANDROID
+mIsFB
+=
+false
+;
+#
+endif
 }
 /
 /
@@ -6880,7 +6889,7 @@ if
 tex
 -
 >
-Target
+HasEverBeenBound
 (
 )
 )
@@ -7439,7 +7448,7 @@ if
 tex
 -
 >
-Target
+HasEverBeenBound
 (
 )
 )

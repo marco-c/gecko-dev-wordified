@@ -186,11 +186,6 @@ const
 GLuint
 mGLName
 ;
-bool
-mHasBeenBound
-=
-false
-;
 private
 :
 /

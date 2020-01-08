@@ -176,6 +176,10 @@ CacheInvalidator
 {
 friend
 class
+WebGLContext
+;
+friend
+class
 WebGLFramebuffer
 ;
 friend
@@ -188,11 +192,6 @@ const
 GLuint
 mPrimaryRB
 ;
-bool
-mHasBeenBound
-=
-false
-;
 protected
 :
 const
@@ -201,6 +200,9 @@ mEmulatePackedDepthStencil
 ;
 GLuint
 mSecondaryRB
+;
+bool
+mHasBeenBound
 ;
 webgl
 :
