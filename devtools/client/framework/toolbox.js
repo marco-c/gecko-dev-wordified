@@ -5240,7 +5240,7 @@ which
 themes
 ?
 "
-let
+const
 currentTheme
 =
 Services
@@ -5294,6 +5294,9 @@ first_panel
 "
 "
 host
+"
+"
+shortcut
 "
 "
 splitconsole
