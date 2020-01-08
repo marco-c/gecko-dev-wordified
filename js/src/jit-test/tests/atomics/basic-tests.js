@@ -4267,17 +4267,6 @@ Atomics
 )
 ;
 }
-if
-(
-this
-.
-Atomics
-&
-&
-this
-.
-SharedArrayBuffer
-)
 runTests
 (
 )
