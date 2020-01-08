@@ -384,6 +384,14 @@ gint
 result
 ;
 {
+AUTO_PROFILER_LABEL
+(
+"
+PollWrapper
+"
+IDLE
+)
+;
 AUTO_PROFILER_THREAD_SLEEP
 ;
 result
