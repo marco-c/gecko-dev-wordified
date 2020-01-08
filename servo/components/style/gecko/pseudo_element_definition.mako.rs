@@ -75,6 +75,7 @@ Clone
 Debug
 Eq
 Hash
+MallocSizeOf
 PartialEq
 )
 ]
