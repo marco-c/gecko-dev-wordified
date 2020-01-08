@@ -714,7 +714,8 @@ other
 /
 /
 A
-JitFrameIter
+frame
+iterator
 that
 updates
 internal

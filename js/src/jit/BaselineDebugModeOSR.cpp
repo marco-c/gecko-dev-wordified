@@ -7984,6 +7984,18 @@ iter
 >
 prev
 )
+{
+if
+(
+iter
+-
+>
+isWasm
+(
+)
+)
+continue
+;
 iter
 -
 >
@@ -7997,4 +8009,5 @@ oldAddr
 newAddr
 )
 ;
+}
 }
