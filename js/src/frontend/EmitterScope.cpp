@@ -2812,10 +2812,7 @@ value
 ;
 UniqueChars
 bytes
-;
-if
-(
-!
+=
 AtomToPrintableString
 (
 bce
@@ -2831,9 +2828,12 @@ front
 key
 (
 )
-&
-bytes
 )
+;
+if
+(
+!
+bytes
 )
 return
 ;
