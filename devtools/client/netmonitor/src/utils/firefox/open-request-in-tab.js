@@ -382,9 +382,9 @@ gBrowser
 addTab
 (
 url
-null
-null
+{
 postData
+}
 )
 ;
 }
