@@ -756,7 +756,6 @@ channel
 ;
 }
 ;
-explicit
 DataChannelConnection
 (
 DataConnectionListener
@@ -2029,6 +2028,14 @@ mPendingType
 nsCString
 mRecvBuffer
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+bool
+mShutdown
+;
+#
+endif
 }
 ;
 #
