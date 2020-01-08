@@ -1625,6 +1625,9 @@ kinds
 kind_name
 ]
             
+try
+:
+                
 new_tasks
 =
 kind
@@ -1641,6 +1644,33 @@ values
 )
 )
 )
+            
+except
+Exception
+:
+                
+logger
+.
+exception
+(
+"
+Error
+loading
+tasks
+for
+kind
+{
+}
+:
+"
+.
+format
+(
+kind_name
+)
+)
+                
+raise
             
 for
 task
