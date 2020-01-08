@@ -1335,10 +1335,7 @@ loadInfo
 >
 SetLoadType
 (
-nsDocShellLoadInfo
-:
-:
-loadStopContent
+LOAD_STOP_CONTENT
 )
 ;
 loadInfo
