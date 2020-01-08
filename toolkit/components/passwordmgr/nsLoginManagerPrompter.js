@@ -7430,9 +7430,9 @@ for
 L10N
 .
 See
-commonDialog
+CommonDialog
 .
-js
+jsm
 '
 s
 setLabelForNode
