@@ -763,6 +763,12 @@ guid
 reason
 )
 {
+if
+(
+!
+partialRemoval
+)
+{
 this
 .
 emit
@@ -784,6 +790,7 @@ spec
 }
 )
 ;
+}
 }
 }
 (
