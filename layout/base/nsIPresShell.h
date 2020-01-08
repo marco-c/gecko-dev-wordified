@@ -6013,7 +6013,7 @@ PresShell
 virtual
 nsIFrame
 *
-GetEventTargetFrame
+GetCurrentEventFrame
 (
 )
 =
