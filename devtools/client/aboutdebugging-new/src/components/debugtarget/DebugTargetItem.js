@@ -136,8 +136,6 @@ require
 "
 .
 /
-debugtarget
-/
 ExtensionDetail
 "
 )
@@ -153,8 +151,6 @@ require
 "
 .
 /
-debugtarget
-/
 TabDetail
 "
 )
@@ -170,8 +166,6 @@ require
 "
 .
 /
-debugtarget
-/
 TemporaryExtensionAction
 "
 )
@@ -183,6 +177,9 @@ Actions
 require
 (
 "
+.
+.
+/
 .
 .
 /
@@ -200,6 +197,9 @@ DEBUG_TARGETS
 require
 (
 "
+.
+.
+/
 .
 .
 /

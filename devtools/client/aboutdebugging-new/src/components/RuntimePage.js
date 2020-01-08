@@ -158,6 +158,8 @@ require
 "
 .
 /
+debugtarget
+/
 DebugTargetPane
 "
 )
