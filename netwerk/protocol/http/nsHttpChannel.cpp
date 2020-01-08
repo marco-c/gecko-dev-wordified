@@ -38551,6 +38551,12 @@ the
 /
 timing
 .
+if
+(
+!
+mAsyncOpenTimeOverriden
+)
+{
 mAsyncOpenTime
 =
 TimeStamp
@@ -38560,6 +38566,7 @@ Now
 (
 )
 ;
+}
 /
 /
 Remember
