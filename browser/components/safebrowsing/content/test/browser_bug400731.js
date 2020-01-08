@@ -273,10 +273,11 @@ onDOMContentLoaded
 testUnwanted
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 http
 :
@@ -364,10 +365,11 @@ onDOMContentLoaded
 testPhishing
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 http
 :

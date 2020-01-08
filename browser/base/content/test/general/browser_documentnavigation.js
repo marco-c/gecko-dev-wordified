@@ -736,12 +736,13 @@ gBrowser
 selectedBrowser
 )
 ;
-gBrowser
-.
-selectedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
+.
+selectedBrowser
 testPage1
 )
 ;
