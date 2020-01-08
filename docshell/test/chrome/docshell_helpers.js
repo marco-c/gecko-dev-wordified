@@ -1449,6 +1449,17 @@ getBrowser
 loadURI
 (
 uri
+{
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+}
 )
 ;
 }

@@ -165,6 +165,15 @@ loadURI
 url
 {
 flags
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 }
 )
 ;
