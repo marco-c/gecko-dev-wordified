@@ -2857,7 +2857,10 @@ aCx
 JSString
 *
 aCommand
-void
+JS
+:
+:
+Value
 *
 aCallback
 )
