@@ -441,6 +441,13 @@ sinon
 stub
 (
 )
+openPreferences
+:
+sinon
+.
+stub
+(
+)
 }
 }
 ;
