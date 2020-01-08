@@ -7346,6 +7346,10 @@ start
 .
 if
 (
+!
+force
+&
+&
 relhackcode
 -
 >
