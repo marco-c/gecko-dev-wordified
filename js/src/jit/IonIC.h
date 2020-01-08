@@ -2534,7 +2534,7 @@ lhs_
 TypedOrValueRegister
 rhs_
 ;
-ValueOperand
+Register
 output_
 ;
 public
@@ -2547,7 +2547,7 @@ TypedOrValueRegister
 lhs
 TypedOrValueRegister
 rhs
-ValueOperand
+Register
 output
 )
 :
@@ -2606,7 +2606,7 @@ return
 rhs_
 ;
 }
-ValueOperand
+Register
 output
 (
 )
@@ -2633,7 +2633,8 @@ HandleValue
 lhs
 HandleValue
 rhs
-MutableHandleValue
+bool
+*
 res
 )
 ;

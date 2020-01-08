@@ -36275,6 +36275,8 @@ left
 MDefinition
 *
 right
+MIRType
+resType
 )
 :
 MBinaryInstruction
@@ -36286,10 +36288,7 @@ right
 {
 setResultType
 (
-MIRType
-:
-:
-Value
+resType
 )
 ;
 }
