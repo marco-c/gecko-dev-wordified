@@ -556,7 +556,10 @@ target
 }
 inline
 bool
-JSCompartment
+JS
+:
+:
+Compartment
 :
 :
 wrap

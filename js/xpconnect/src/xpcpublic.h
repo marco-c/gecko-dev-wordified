@@ -544,7 +544,10 @@ target
 bool
 IsContentXBLCompartment
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 )
@@ -2255,7 +2258,10 @@ nsIPrincipal
 *
 GetCompartmentPrincipal
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 )
@@ -2278,7 +2284,10 @@ NukeAllWrappersForCompartment
 JSContext
 *
 cx
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 js

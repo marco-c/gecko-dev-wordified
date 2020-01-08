@@ -17569,7 +17569,10 @@ for
 historical
 reasons
 .
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 =

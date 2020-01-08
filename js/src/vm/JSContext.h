@@ -1483,7 +1483,10 @@ compartment
 and
 zone
 .
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 (

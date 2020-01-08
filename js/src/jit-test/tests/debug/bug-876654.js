@@ -17,7 +17,7 @@ wrapper
 in
 /
 /
-JSCompartment
+Compartment
 :
 :
 findOutgoingEdges

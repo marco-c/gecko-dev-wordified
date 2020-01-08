@@ -464,7 +464,10 @@ cx
 )
 ;
 inline
-JSCompartment
+JS
+:
+:
+Compartment
 *
 GetContextCompartment
 (

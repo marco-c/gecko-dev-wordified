@@ -190,12 +190,6 @@ gCx
 =
 nullptr
 ;
-JSCompartment
-*
-gOldCompartment
-=
-nullptr
-;
 static
 const
 JSClass

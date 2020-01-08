@@ -916,7 +916,10 @@ CountMap
 CountMap
 zoneCounts
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 ;
@@ -7333,7 +7336,7 @@ is
 the
 same
 as
-JSCompartment
+Compartment
 :
 :
 wrap
@@ -11859,12 +11862,6 @@ class
 Breakpoint
 ;
 friend
-struct
-:
-:
-JSCompartment
-;
-friend
 class
 :
 :
@@ -12244,12 +12241,6 @@ sweepBreakpoints
 class
 Breakpoint
 {
-friend
-struct
-:
-:
-JSCompartment
-;
 friend
 class
 Debugger

@@ -4967,7 +4967,7 @@ compartment
 /
 From
 :
-JSCompartment
+Compartment
 :
 :
 getNonWrapperObjectForCurrentCompartment

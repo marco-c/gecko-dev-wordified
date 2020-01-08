@@ -1006,7 +1006,10 @@ static
 size_t
 countWrappers
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 )
@@ -1018,7 +1021,10 @@ count
 ;
 for
 (
-JSCompartment
+JS
+:
+:
+Compartment
 :
 :
 WrapperEnum

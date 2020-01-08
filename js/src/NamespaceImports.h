@@ -929,6 +929,12 @@ using
 JS
 :
 :
+Compartment
+;
+using
+JS
+:
+:
 Realm
 ;
 using

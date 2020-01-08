@@ -4150,7 +4150,10 @@ ObjectGroup
 )
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartmentStubField
 (
@@ -4171,7 +4174,10 @@ Constant
 ;
 return
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 )
 readStubWord

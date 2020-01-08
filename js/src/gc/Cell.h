@@ -415,7 +415,10 @@ compartment
 pointer
 .
 inline
-JSCompartment
+JS
+:
+:
+Compartment
 *
 maybeCompartment
 (

@@ -6835,7 +6835,7 @@ has
 an
 entry
 in
-JSCompartment
+Realm
 :
 :
 scriptCountsMap
@@ -6852,7 +6852,7 @@ has
 an
 entry
 in
-JSCompartment
+Realm
 :
 :
 debugScriptMap
@@ -7653,7 +7653,10 @@ principals
 (
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 (
@@ -7670,7 +7673,10 @@ realm_
 )
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 maybeCompartment
 (

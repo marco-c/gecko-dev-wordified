@@ -6353,7 +6353,10 @@ extern
 bool
 CanReuseScriptForClone
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 HandleFunction

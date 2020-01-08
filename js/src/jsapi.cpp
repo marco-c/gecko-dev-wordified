@@ -3773,7 +3773,10 @@ void
 )
 JS_SetCompartmentPrivate
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 void
@@ -3796,7 +3799,10 @@ void
 )
 JS_GetCompartmentPrivate
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 )
@@ -4775,7 +4781,10 @@ cx
 AutoDisableProxyCheck
 adpc
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 destination
 =

@@ -1276,7 +1276,7 @@ continue
 ;
 for
 (
-JSCompartment
+Compartment
 :
 :
 WrapperEnum

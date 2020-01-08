@@ -14276,7 +14276,10 @@ object
 if
 any
 .
-JSCompartment
+JS
+:
+:
+Compartment
 *
 c
 =
@@ -14477,7 +14480,10 @@ global
 "
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 =

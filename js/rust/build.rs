@@ -1251,9 +1251,6 @@ JSClass
 JSClassOps
 "
 "
-JSCompartment
-"
-"
 JSContext
 "
 "
@@ -1360,6 +1357,12 @@ JSWrapObjectCallbacks
 "
 "
 jsid
+"
+"
+JS
+:
+:
+Compartment
 "
 "
 JS

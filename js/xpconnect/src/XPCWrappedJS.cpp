@@ -2929,7 +2929,10 @@ different
 interface
 in
 multiple
-JSCompartments
+JS
+:
+:
+Compartments
 .
 In
 this
@@ -3105,7 +3108,10 @@ cx
 void
 *
 data
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 )
@@ -3582,7 +3588,10 @@ IsRootWrapper
 )
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 =

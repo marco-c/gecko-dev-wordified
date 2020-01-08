@@ -7751,7 +7751,10 @@ realm_
 ;
 }
 inline
-JSCompartment
+JS
+:
+:
+Compartment
 *
 GetContextCompartment
 (

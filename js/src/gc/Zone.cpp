@@ -2486,7 +2486,10 @@ Zone
 :
 deleteEmptyCompartment
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 )

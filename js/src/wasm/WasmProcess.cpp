@@ -320,7 +320,10 @@ to
 any
 JSContext
 /
-JSCompartment
+JS
+:
+:
+Compartment
 /
 etc
 lying

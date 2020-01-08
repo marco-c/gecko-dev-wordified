@@ -493,7 +493,10 @@ a
 single
 JSContext
 and
-JSCompartment
+JS
+:
+:
+Compartment
 .
 This
 means
@@ -10352,7 +10355,7 @@ Activation
 because
 it
 calls
-JSCompartment
+Compartment
 :
 :
 wrap
@@ -10504,7 +10507,10 @@ JSContext
 *
 cx_
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment_
 ;
@@ -10761,7 +10767,10 @@ return
 cx_
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 (
@@ -14394,7 +14403,10 @@ realm
 )
 const
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 (

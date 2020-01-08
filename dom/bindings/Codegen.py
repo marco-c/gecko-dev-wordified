@@ -118495,7 +118495,10 @@ isConstructor
 #
 Skip
 the
-JSCompartment
+JS
+:
+:
+Compartment
 bits
 for
 constructors

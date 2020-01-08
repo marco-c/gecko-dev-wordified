@@ -3579,10 +3579,10 @@ inline
 bool
 CompartmentsMatch
 (
-JSCompartment
+Compartment
 *
 a
-JSCompartment
+Compartment
 *
 b
 )
@@ -3779,7 +3779,7 @@ objectSet
 nullptr
 ;
 }
-JSCompartment
+Compartment
 *
 TypeSet
 :
@@ -3836,7 +3836,7 @@ key
 )
 continue
 ;
-JSCompartment
+Compartment
 *
 comp
 =
@@ -8162,7 +8162,7 @@ return
 true
 ;
 }
-JSCompartment
+Compartment
 *
 maybeCompartment
 (
@@ -9420,7 +9420,7 @@ return
 true
 ;
 }
-JSCompartment
+Compartment
 *
 maybeCompartment
 (
@@ -10805,7 +10805,7 @@ return
 false
 ;
 }
-JSCompartment
+Compartment
 *
 maybeCompartment
 (
@@ -12001,7 +12001,7 @@ return
 false
 ;
 }
-JSCompartment
+Compartment
 *
 maybeCompartment
 (
@@ -12654,7 +12654,7 @@ obj
 )
 ;
 }
-JSCompartment
+Compartment
 *
 maybeCompartment
 (
@@ -12817,7 +12817,7 @@ return
 false
 ;
 }
-JSCompartment
+Compartment
 *
 maybeCompartment
 (
@@ -13289,7 +13289,7 @@ return
 false
 ;
 }
-JSCompartment
+Compartment
 *
 maybeCompartment
 (
@@ -13577,7 +13577,7 @@ return
 false
 ;
 }
-JSCompartment
+Compartment
 *
 maybeCompartment
 (
@@ -13998,7 +13998,7 @@ return
 false
 ;
 }
-JSCompartment
+Compartment
 *
 maybeCompartment
 (
@@ -16353,7 +16353,7 @@ PrintTypes
 JSContext
 *
 cx
-JSCompartment
+Compartment
 *
 comp
 bool
@@ -20753,7 +20753,7 @@ return
 true
 ;
 }
-JSCompartment
+Compartment
 *
 maybeCompartment
 (
@@ -21131,7 +21131,7 @@ return
 true
 ;
 }
-JSCompartment
+Compartment
 *
 maybeCompartment
 (
@@ -28306,7 +28306,7 @@ singletonNoBarrier
 )
 )
 ;
-JSCompartment
+Compartment
 *
 compartment
 =
@@ -28382,7 +28382,7 @@ singletonNoBarrier
 )
 )
 ;
-JSCompartment
+Compartment
 *
 compartment
 =

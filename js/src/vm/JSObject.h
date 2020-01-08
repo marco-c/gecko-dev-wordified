@@ -1256,7 +1256,10 @@ lazy
 )
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 (
@@ -1272,7 +1275,10 @@ compartment
 )
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 maybeCompartment
 (
@@ -9581,7 +9587,10 @@ const
 Value
 &
 v
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 )

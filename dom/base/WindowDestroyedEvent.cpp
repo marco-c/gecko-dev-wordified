@@ -127,7 +127,10 @@ CompartmentFilter
 bool
 match
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 aC
 )
@@ -673,7 +676,10 @@ obj
 )
 )
 {
-JSCompartment
+JS
+:
+:
+Compartment
 *
 cpt
 =

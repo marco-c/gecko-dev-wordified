@@ -13793,7 +13793,7 @@ them
 /
 appendAllocationSite
 calls
-JSCompartment
+Compartment
 :
 :
 wrap
@@ -21255,7 +21255,7 @@ already
 added
 by
 *
-JSCompartment
+Compartment
 :
 :
 findOutgoingEdges
@@ -32472,7 +32472,10 @@ node
 .
 *
 /
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 =

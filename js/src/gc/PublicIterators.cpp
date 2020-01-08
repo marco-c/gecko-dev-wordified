@@ -1159,7 +1159,10 @@ IterateRealmsInCompartment
 JSContext
 *
 cx
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 void

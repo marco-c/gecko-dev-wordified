@@ -685,9 +685,9 @@ hadError
 *
 *
 Initialize
-a
+an
 |
-JSCompartment
+ObjectRealm
 :
 :
 enumerators

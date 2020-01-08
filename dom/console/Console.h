@@ -1039,7 +1039,10 @@ aArguments
 in
 the
 same
-JSCompartment
+JS
+:
+:
+Compartment
 .
 void
 ProcessCallData

@@ -1129,7 +1129,10 @@ PerformanceGroup
 )
 by
 the
-JSCompartment
+JS
+:
+:
+Compartment
 to
 which
 it

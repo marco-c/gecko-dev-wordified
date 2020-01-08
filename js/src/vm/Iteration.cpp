@@ -4325,7 +4325,7 @@ of
 NativeIterators
 in
 *
-JSCompartment
+ObjectRealm
 :
 :
 enumerators
@@ -4403,7 +4403,7 @@ are
 /
 examined
 in
-JSCompartment
+ObjectRealm
 :
 :
 sweepNativeIterators

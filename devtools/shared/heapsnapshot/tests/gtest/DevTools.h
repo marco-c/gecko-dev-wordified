@@ -268,7 +268,10 @@ JSContext
 *
 cx
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 ;
@@ -706,7 +709,10 @@ ubi
 EdgeVector
 edges
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 ;
@@ -852,7 +858,10 @@ get
 zone
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 (

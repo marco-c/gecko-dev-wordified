@@ -1035,7 +1035,10 @@ res
 ;
 }
 inline
-JSCompartment
+JS
+:
+:
+Compartment
 *
 TypeSet
 :
@@ -6641,7 +6644,10 @@ group
 }
 }
 inline
-JSCompartment
+JS
+:
+:
+Compartment
 *
 TypeSet
 :

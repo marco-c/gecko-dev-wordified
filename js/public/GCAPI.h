@@ -1570,7 +1570,10 @@ JSWeakPointerCompartmentCallback
 JSContext
 *
 cx
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 void

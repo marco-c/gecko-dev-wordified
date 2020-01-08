@@ -230,9 +230,6 @@ class
 JSAtom
 ;
 struct
-JSCompartment
-;
-struct
 JSContext
 ;
 class
@@ -277,6 +274,9 @@ BigInt
 endif
 union
 Value
+;
+struct
+Compartment
 ;
 class
 Realm
