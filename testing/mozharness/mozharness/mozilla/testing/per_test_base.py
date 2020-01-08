@@ -148,8 +148,24 @@ def
 __init__
 (
 self
+*
+*
+kwargs
 )
 :
+        
+super
+(
+SingleTestMixin
+self
+)
+.
+__init__
+(
+*
+*
+kwargs
+)
         
 self
 .

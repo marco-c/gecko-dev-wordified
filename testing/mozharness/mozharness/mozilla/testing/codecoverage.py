@@ -440,6 +440,9 @@ def
 __init__
 (
 self
+*
+*
+kwargs
 )
 :
         
@@ -451,6 +454,9 @@ self
 .
 __init__
 (
+*
+*
+kwargs
 )
     
 property
