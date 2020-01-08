@@ -147,6 +147,13 @@ MessageManagerBinding
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 mozilla
 {
