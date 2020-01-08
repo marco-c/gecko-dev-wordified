@@ -1348,7 +1348,11 @@ h
 #
 include
 "
-nsHostObjectProtocolHandler
+mozilla
+/
+dom
+/
+BlobURLProtocolHandler
 .
 h
 "
@@ -13459,7 +13463,7 @@ gFirstIdleTask
 nullptr
 ;
 }
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 RemoveDataEntries
@@ -15669,7 +15673,7 @@ MOZ_ASSERT
 blobImpl
 )
 ;
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 AddDataEntry
@@ -15711,7 +15715,7 @@ a
 while
 (
 see
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 )
 in
 order
@@ -15738,7 +15742,7 @@ revoked
 )
 )
 {
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 RemoveDataEntry
@@ -19313,7 +19317,7 @@ MOZ_ASSERT
 blobImpl
 )
 ;
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 AddDataEntry
@@ -19347,7 +19351,7 @@ nsCString
 aURI
 )
 {
-nsHostObjectProtocolHandler
+BlobURLProtocolHandler
 :
 :
 RemoveDataEntry
