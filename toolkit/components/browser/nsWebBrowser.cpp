@@ -3689,6 +3689,9 @@ JS
 Value
 >
 aOriginAttributes
+JSContext
+*
+aCx
 )
 {
 return
@@ -3698,6 +3701,7 @@ mDocShellAsNav
 SetOriginAttributesBeforeLoading
 (
 aOriginAttributes
+aCx
 )
 ;
 }
