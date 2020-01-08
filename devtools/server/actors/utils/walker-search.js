@@ -1674,7 +1674,7 @@ this
 .
 walker
 .
-tabActor
+targetActor
 .
 windows
 .

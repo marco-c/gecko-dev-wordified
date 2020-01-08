@@ -1877,7 +1877,7 @@ accessibleWalkerSpec
 initialize
 (
 conn
-tabActor
+targetActor
 )
 {
 Actor
@@ -1894,9 +1894,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -2040,12 +2040,12 @@ rootWin
 return
 this
 .
-tabActor
+targetActor
 &
 &
 this
 .
-tabActor
+targetActor
 .
 window
 ;
@@ -2058,12 +2058,12 @@ rootDoc
 return
 this
 .
-tabActor
+targetActor
 &
 &
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -2245,7 +2245,7 @@ null
 ;
 this
 .
-tabActor
+targetActor
 =
 null
 ;
@@ -4961,7 +4961,7 @@ target
 =
 this
 .
-tabActor
+targetActor
 .
 chromeEventHandler
 ;
@@ -5084,7 +5084,7 @@ target
 =
 this
 .
-tabActor
+targetActor
 .
 chromeEventHandler
 ;
@@ -5296,7 +5296,7 @@ accessibilitySpec
 initialize
 (
 conn
-tabActor
+targetActor
 )
 {
 Actor
@@ -5471,9 +5471,9 @@ shutdown
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 }
 bootstrap
@@ -6806,7 +6806,7 @@ this
 conn
 this
 .
-tabActor
+targetActor
 )
 ;
 }
@@ -6986,7 +6986,7 @@ null
 ;
 this
 .
-tabActor
+targetActor
 =
 null
 ;

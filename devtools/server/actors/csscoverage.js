@@ -548,7 +548,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -567,9 +567,9 @@ conn
 ;
 this
 .
-_tabActor
+_targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -622,7 +622,7 @@ function
 {
 this
 .
-_tabActor
+_targetActor
 =
 undefined
 ;
@@ -873,7 +873,7 @@ _progress
 =
 this
 .
-_tabActor
+_targetActor
 .
 docShell
 .
@@ -938,7 +938,7 @@ _onTabLoad
 (
 this
 .
-_tabActor
+_targetActor
 .
 window
 .
@@ -950,7 +950,7 @@ else
 {
 this
 .
-_tabActor
+_targetActor
 .
 window
 .
@@ -1192,7 +1192,7 @@ _populateKnownRules
 (
 this
 .
-_tabActor
+_targetActor
 .
 window
 .
@@ -1205,7 +1205,7 @@ _updateUsage
 (
 this
 .
-_tabActor
+_targetActor
 .
 window
 .

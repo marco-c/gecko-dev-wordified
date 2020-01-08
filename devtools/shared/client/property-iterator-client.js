@@ -157,7 +157,7 @@ the
 protocol
 via
 *
-TabActor
+BrowsingContextTargetActor
 .
 enumProperties
 request

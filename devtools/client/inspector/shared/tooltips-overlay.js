@@ -618,7 +618,7 @@ tooltip
 has
 to
 be
-instanciated
+instantiated
 on
 startup
 in

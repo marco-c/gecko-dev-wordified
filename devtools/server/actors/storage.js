@@ -16347,7 +16347,7 @@ childWindowPool
 initialize
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -16368,7 +16368,7 @@ this
 .
 parentActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -16513,7 +16513,7 @@ this
 const
 handler
 =
-tabActor
+targetActor
 .
 chromeEventHandler
 ;

@@ -379,7 +379,7 @@ docshells
 function
 Timeline
 (
-tabActor
+targetActor
 )
 {
 EventEmitter
@@ -391,9 +391,9 @@ this
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -461,7 +461,7 @@ this
 ;
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -508,7 +508,7 @@ stop
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -524,7 +524,7 @@ _onWindowReady
 ;
 this
 .
-tabActor
+targetActor
 =
 null
 ;
@@ -542,12 +542,12 @@ in
 the
 currently
 attached
-tabActor
+targetActor
 .
 Note
 that
-we
 *
+we
 always
 list
 the
@@ -560,9 +560,9 @@ root
 docShell
 even
 if
-the
 *
-tabActor
+the
+targetActor
 was
 switched
 to
@@ -575,8 +575,8 @@ is
 because
 for
 now
-paint
 *
+paint
 markers
 are
 only
@@ -588,8 +588,8 @@ level
 so
 switching
 the
-timeline
 *
+timeline
 to
 a
 child
@@ -646,7 +646,7 @@ if
 (
 this
 .
-tabActor
+targetActor
 .
 isRootActor
 )
@@ -655,7 +655,7 @@ originalDocShell
 =
 this
 .
-tabActor
+targetActor
 .
 docShell
 ;
@@ -666,7 +666,7 @@ originalDocShell
 =
 this
 .
-tabActor
+targetActor
 .
 originalDocShell
 ;
@@ -1578,7 +1578,7 @@ Framerate
 (
 this
 .
-tabActor
+targetActor
 )
 ;
 this
@@ -1611,7 +1611,7 @@ Memory
 (
 this
 .
-tabActor
+targetActor
 this
 .
 _stackFrames
@@ -1949,7 +1949,7 @@ becomes
 available
 in
 the
-tabActor
+targetActor
 start
 recording
 its

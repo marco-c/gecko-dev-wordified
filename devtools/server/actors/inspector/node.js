@@ -2230,7 +2230,7 @@ parent
 (
 )
 .
-tabActor
+targetActor
 .
 makeDebugger
 (

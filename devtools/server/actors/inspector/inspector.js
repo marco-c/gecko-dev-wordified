@@ -835,7 +835,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -854,9 +854,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -949,7 +949,7 @@ null
 ;
 this
 .
-tabActor
+targetActor
 =
 null
 ;
@@ -962,7 +962,7 @@ window
 return
 this
 .
-tabActor
+targetActor
 .
 window
 ;
@@ -1021,11 +1021,11 @@ domReady
 >
 {
 const
-tabActor
+targetActor
 =
 this
 .
-tabActor
+targetActor
 ;
 window
 .
@@ -1047,7 +1047,7 @@ WalkerActor
 this
 .
 conn
-tabActor
+targetActor
 options
 )
 ;
@@ -1913,11 +1913,11 @@ this
 .
 _highlighterEnv
 .
-initFromTabActor
+initFromTargetActor
 (
 this
 .
-tabActor
+targetActor
 )
 ;
 this
@@ -2112,7 +2112,7 @@ _onColorPickCanceled
 ;
 this
 .
-tabActor
+targetActor
 .
 once
 (
@@ -2231,7 +2231,7 @@ _onColorPickCanceled
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -2313,7 +2313,7 @@ doc
 =
 this
 .
-tabActor
+targetActor
 .
 window
 .

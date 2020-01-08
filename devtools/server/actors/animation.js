@@ -4102,7 +4102,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 Actor
@@ -4119,9 +4119,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -4170,7 +4170,7 @@ false
 ;
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -4186,7 +4186,7 @@ onWillNavigate
 ;
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -4227,7 +4227,7 @@ this
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -4243,7 +4243,7 @@ onWillNavigate
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -4263,7 +4263,7 @@ stopAnimationPlayerUpdates
 ;
 this
 .
-tabActor
+targetActor
 =
 this
 .
@@ -5491,7 +5491,7 @@ document
 of
 this
 .
-tabActor
+targetActor
 .
 windows
 )
@@ -5577,7 +5577,7 @@ animations
 in
 the
 current
-tabActor
+targetActor
 '
 s
 frames
@@ -5633,7 +5633,7 @@ getAllAnimations
 (
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -5667,7 +5667,7 @@ animations
 in
 the
 current
-tabActor
+targetActor
 '
 s
 frames
@@ -5736,7 +5736,7 @@ getAllAnimations
 (
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -6555,7 +6555,7 @@ getAllAnimations
 (
 this
 .
-tabActor
+targetActor
 .
 window
 .

@@ -819,7 +819,7 @@ if
 (
 target
 .
-isTabActor
+isBrowsingContext
 )
 {
 /

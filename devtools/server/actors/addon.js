@@ -813,7 +813,7 @@ BrowserAddonActor
 is
 not
 a
-TabActor
+BrowsingContextTargetActor
 and
 it
 has

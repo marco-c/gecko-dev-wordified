@@ -2094,7 +2094,7 @@ this
 .
 _target
 .
-isTabActor
+isBrowsingContext
 )
 {
 this
@@ -2469,7 +2469,7 @@ this
 .
 _target
 .
-isTabActor
+isBrowsingContext
 )
 {
 this

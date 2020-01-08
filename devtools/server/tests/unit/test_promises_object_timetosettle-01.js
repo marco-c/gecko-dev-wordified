@@ -154,7 +154,8 @@ to
 attach
 the
 chrome
-TabActor
+target
+actor
 before
 playing
 with

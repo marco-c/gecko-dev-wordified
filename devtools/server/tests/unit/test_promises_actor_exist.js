@@ -126,7 +126,7 @@ tab
 Attach
 to
 the
-TabActor
+BrowsingContextTargetActor
 and
 check
 the
@@ -195,7 +195,7 @@ actor
 Expect
 the
 target
-TabActor
+BrowsingContextTargetActor
 in
 response
 form

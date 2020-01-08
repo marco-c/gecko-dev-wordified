@@ -227,7 +227,7 @@ DebuggerServerConnection
 *
 param
 parentActor
-TabActor
+BrowsingContextTargetActor
 |
 RootActor
 *

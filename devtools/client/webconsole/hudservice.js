@@ -1218,7 +1218,7 @@ client
 chrome
 :
 true
-isTabActor
+isBrowsingContext
 :
 true
 }

@@ -229,7 +229,7 @@ is
 (
 target
 .
-isTabActor
+isBrowsingContext
 true
 )
 ;
@@ -422,7 +422,7 @@ is
 (
 target
 .
-isTabActor
+isBrowsingContext
 true
 )
 ;

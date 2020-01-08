@@ -1039,7 +1039,7 @@ the
 BrowserTabActor
 instance
 const
-tabActor
+targetActor
 =
 DebuggerServer
 .
@@ -1066,7 +1066,7 @@ EventEmitter
 .
 on
 (
-tabActor
+targetActor
 "
 will
 -
@@ -1113,7 +1113,7 @@ EventEmitter
 .
 on
 (
-tabActor
+targetActor
 "
 navigate
 "

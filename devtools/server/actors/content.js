@@ -75,8 +75,8 @@ chrome
 ;
 var
 {
-TabActor
-tabPrototype
+BrowsingContextTargetActor
+browsingContextTargetPrototype
 }
 =
 require
@@ -88,7 +88,11 @@ server
 /
 actors
 /
-tab
+targets
+/
+browsing
+-
+context
 "
 )
 ;
@@ -126,7 +130,7 @@ protocol
 ;
 const
 {
-tabSpec
+browsingContextTargetSpec
 }
 =
 require
@@ -138,7 +142,11 @@ shared
 /
 specs
 /
-tab
+targets
+/
+browsing
+-
+context
 "
 )
 ;
@@ -146,7 +154,7 @@ tab
 *
 *
 *
-Tab
+Target
 actor
 for
 documents
@@ -160,10 +168,12 @@ process
 *
 Depends
 on
-TabActor
+BrowsingContextTargetActor
 defined
 in
-tab
+browsing
+-
+context
 .
 js
 .
@@ -175,7 +185,7 @@ js
 *
 Creates
 a
-tab
+target
 actor
 for
 handling
@@ -258,7 +268,8 @@ ID
 identifying
 this
 particular
-TabActor
+target
+actor
 from
 the
 parent
@@ -305,10 +316,9 @@ maintain
 the
 properties
 of
-TabActor
+BrowsingContextTargetActor
 .
 prototype
-*
 *
 /
 const
@@ -318,7 +328,7 @@ extend
 (
 {
 }
-tabPrototype
+browsingContextTargetPrototype
 )
 ;
 contentPrototype
@@ -337,7 +347,7 @@ _chromeGlobal
 =
 chromeGlobal
 ;
-TabActor
+BrowsingContextTargetActor
 .
 prototype
 .
@@ -553,7 +563,7 @@ _sendForm
 null
 ;
 }
-TabActor
+BrowsingContextTargetActor
 .
 prototype
 .
@@ -640,7 +650,7 @@ ContentActor
 =
 ActorClassWithSpec
 (
-tabSpec
+browsingContextTargetSpec
 contentPrototype
 )
 ;

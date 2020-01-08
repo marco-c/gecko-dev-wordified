@@ -1007,7 +1007,8 @@ If
 Fx
 <
 39
-tab
+chrome
+target
 actors
 were
 used
@@ -1319,7 +1320,7 @@ function
 )
 {
 const
-isTabActor
+isBrowsingContext
 =
 addon
 .
@@ -1332,7 +1333,7 @@ true
 "
 webconsole
 "
-isTabActor
+isBrowsingContext
 )
 ;
 }
@@ -1643,7 +1644,7 @@ tool
 "
 webconsole
 "
-isTabActor
+isBrowsingContext
 )
 {
 const
@@ -1659,9 +1660,9 @@ gClient
 chrome
 :
 chrome
-isTabActor
+isBrowsingContext
 :
-isTabActor
+isBrowsingContext
 }
 ;
 TargetFactory

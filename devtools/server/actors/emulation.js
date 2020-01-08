@@ -279,7 +279,7 @@ emulationSpec
 initialize
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -298,15 +298,15 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
 docShell
 =
-tabActor
+targetActor
 .
 docShell
 ;
@@ -317,7 +317,7 @@ touchSimulator
 new
 TouchSimulator
 (
-tabActor
+targetActor
 .
 chromeEventHandler
 )
@@ -353,7 +353,7 @@ clearUserAgentOverride
 ;
 this
 .
-tabActor
+targetActor
 =
 null
 ;
@@ -442,7 +442,7 @@ if
 (
 this
 .
-tabActor
+targetActor
 .
 exited
 )
@@ -456,7 +456,7 @@ form
 =
 this
 .
-tabActor
+targetActor
 .
 form
 (

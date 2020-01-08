@@ -2679,7 +2679,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -2698,9 +2698,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -2852,7 +2852,7 @@ waiting
 for
 the
 current
-tab
+target
 actor
 '
 s
@@ -2983,7 +2983,7 @@ reload
 {
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -3015,7 +3015,7 @@ this
 conn
 this
 .
-tabActor
+targetActor
 )
 ;
 this
@@ -3073,7 +3073,7 @@ call
 watcher
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -3118,7 +3118,7 @@ actor
 .
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -3747,7 +3747,7 @@ catch
 }
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -3763,7 +3763,7 @@ _onGlobalDestroyed
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -3779,7 +3779,7 @@ _onGlobalCreated
 ;
 this
 .
-tabActor
+targetActor
 =
 null
 ;

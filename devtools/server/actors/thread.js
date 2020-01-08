@@ -711,7 +711,7 @@ null
 ;
 this
 .
-_tabClosed
+_parentClosed
 =
 false
 ;
@@ -2786,8 +2786,8 @@ TA__pauseAndRespond
 /
 If
 the
-browser
-tab
+parent
+actor
 has
 been
 closed
@@ -2819,7 +2819,7 @@ idea
 return
 this
 .
-_tabClosed
+_parentClosed
 ?
 null
 :
@@ -10597,7 +10597,7 @@ Emits
 newSource
 on
 the
-tab
+target
 actor
 .
 *
@@ -10724,7 +10724,7 @@ Emits
 updatedSource
 on
 the
-tab
+target
 actor
 .
 *

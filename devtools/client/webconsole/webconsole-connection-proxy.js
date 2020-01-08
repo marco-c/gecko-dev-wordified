@@ -836,7 +836,7 @@ this
 .
 target
 .
-isTabActor
+isBrowsingContext
 )
 {
 const

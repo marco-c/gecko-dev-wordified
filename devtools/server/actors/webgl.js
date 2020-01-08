@@ -1181,7 +1181,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -1200,9 +1200,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -1281,7 +1281,7 @@ waiting
 for
 the
 current
-tab
+target
 actor
 '
 s
@@ -1366,7 +1366,7 @@ WebGLObserver
 ;
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -1382,7 +1382,7 @@ _onGlobalCreated
 ;
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -1420,7 +1420,7 @@ reload
 {
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -1490,7 +1490,7 @@ false
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -1506,7 +1506,7 @@ _onGlobalCreated
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -1570,7 +1570,7 @@ actors
 for
 the
 current
-tab
+target
 actor
 '
 s
@@ -1608,7 +1608,7 @@ GetInnerWindowID
 (
 this
 .
-tabActor
+targetActor
 .
 window
 )
@@ -1644,7 +1644,7 @@ via
 requestAnimationFrame
 on
 the
-tab
+target
 actor
 '
 s
@@ -1672,7 +1672,7 @@ defer
 ;
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -1806,7 +1806,7 @@ canvas
 =
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -1861,7 +1861,7 @@ buffer
 new
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -1977,7 +1977,7 @@ Invoked
 whenever
 the
 current
-tab
+target
 actor
 '
 s
@@ -2036,7 +2036,7 @@ Invoked
 whenever
 the
 current
-tab
+target
 actor
 '
 s

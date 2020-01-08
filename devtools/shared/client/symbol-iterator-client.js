@@ -129,7 +129,7 @@ the
 protocol
 via
 *
-TabActor
+BrowsingContextTargetActor
 .
 enumSymbols
 request

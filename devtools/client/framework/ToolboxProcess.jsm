@@ -1231,7 +1231,7 @@ a
 root
 actor
 and
-tab
+target
 actors
 for
 opening

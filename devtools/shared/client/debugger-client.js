@@ -2392,15 +2392,19 @@ Attach
 to
 a
 tab
+'
+s
+target
 actor
 .
 *
 *
 param
 string
-tabActor
+targetActor
 *
 The
+target
 actor
 ID
 for
@@ -2438,7 +2442,7 @@ attachTab
 :
 function
 (
-tabActor
+targetActor
 onResponse
 =
 noop
@@ -2452,7 +2456,7 @@ _clients
 .
 has
 (
-tabActor
+targetActor
 )
 )
 {
@@ -2465,7 +2469,7 @@ _clients
 .
 get
 (
-tabActor
+targetActor
 )
 ;
 const
@@ -2522,7 +2526,7 @@ packet
 {
 to
 :
-tabActor
+targetActor
 type
 :
 "

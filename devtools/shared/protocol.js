@@ -2256,7 +2256,7 @@ front
 isn
 '
 t
-instanciated
+instantiated
 yet
 create
 one
@@ -7842,7 +7842,7 @@ convert
 the
 root
 and
-tab
+target
 actors
 to
 /

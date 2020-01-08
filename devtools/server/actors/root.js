@@ -1323,7 +1323,8 @@ Whether
 root
 actor
 exposes
-tab
+chrome
+target
 actors
 and
 access
@@ -1402,7 +1403,8 @@ actor
 no
 longer
 expose
-tab
+chrome
+target
 actors
 but
 also
@@ -1536,7 +1538,7 @@ the
 extension
 child
 process
-tab
+target
 actors
 .
 webExtensionAddonConnect
@@ -4193,7 +4195,7 @@ _tabActorPool
 /
 Iterate
 over
-TabActor
+BrowsingContextTargetActor
 instances
 to
 also

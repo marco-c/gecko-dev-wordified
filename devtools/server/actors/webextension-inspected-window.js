@@ -735,7 +735,7 @@ docShell
 =
 params
 .
-tabActor
+targetActor
 .
 window
 .
@@ -1693,7 +1693,7 @@ actor
 initialize
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -1712,9 +1712,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 }
 destroy
@@ -1811,7 +1811,7 @@ _dbg
 =
 this
 .
-tabActor
+targetActor
 .
 makeDebugger
 (
@@ -1831,7 +1831,7 @@ window
 return
 this
 .
-tabActor
+targetActor
 .
 window
 ;
@@ -1844,7 +1844,7 @@ webNavigation
 return
 this
 .
-tabActor
+targetActor
 .
 webNavigation
 ;
@@ -2482,11 +2482,11 @@ new
 CustomizedReload
 (
 {
-tabActor
+targetActor
 :
 this
 .
-tabActor
+targetActor
 inspectedWindowEval
 :
 this
@@ -2725,7 +2725,7 @@ is
 always
 the
 *
-tabActor
+targetActor
 window
 when
 called
@@ -2735,8 +2735,8 @@ protocol
 or
 the
 passed
-customTargetWindow
 *
+customTargetWindow
 when
 called
 directly
@@ -2978,7 +2978,7 @@ window
 is
 always
 *
-tabActor
+targetActor
 .
 window
 .

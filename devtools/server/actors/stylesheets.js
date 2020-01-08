@@ -2263,7 +2263,7 @@ so
 default
 back
 to
-tab
+target
 actor
 /
 /
@@ -3130,7 +3130,7 @@ in
 sync
 with
 the
-TabActor
+BrowsingContextTargetActor
 version
 .
 *
@@ -3858,7 +3858,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -3879,7 +3879,7 @@ this
 .
 parentActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -4206,7 +4206,7 @@ called
 when
 a
 the
-tab
+target
 actor
 emits
 window
@@ -4256,7 +4256,7 @@ called
 when
 a
 the
-tab
+target
 actor
 emits
 stylesheet

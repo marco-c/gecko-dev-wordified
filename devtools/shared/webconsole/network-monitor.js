@@ -10492,7 +10492,8 @@ The
 outerWindowID
 of
 the
-TabActor
+target
+actor
 '
 s
 main

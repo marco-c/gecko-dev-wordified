@@ -738,7 +738,7 @@ pop
 )
 ;
 const
-isTabActor
+isBrowsingContext
 =
 addonActor
 .
@@ -754,7 +754,7 @@ addonActor
 chrome
 :
 true
-isTabActor
+isBrowsingContext
 }
 )
 ;
@@ -1173,7 +1173,7 @@ openToolbox
 {
 form
 chrome
-isTabActor
+isBrowsingContext
 }
 )
 {
@@ -1190,9 +1190,9 @@ gClient
 chrome
 :
 chrome
-isTabActor
+isBrowsingContext
 :
-isTabActor
+isBrowsingContext
 }
 ;
 appendStatusMessage

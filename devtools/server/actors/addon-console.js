@@ -207,10 +207,9 @@ maintain
 the
 properties
 of
-TabActor
+BrowsingContextTargetActor
 .
 prototype
-*
 *
 /
 const

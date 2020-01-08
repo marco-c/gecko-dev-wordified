@@ -650,7 +650,7 @@ this
 .
 inspector
 .
-tabActor
+targetActor
 .
 on
 (
@@ -668,7 +668,7 @@ this
 .
 inspector
 .
-tabActor
+targetActor
 .
 on
 (
@@ -739,7 +739,7 @@ this
 .
 inspector
 .
-tabActor
+targetActor
 .
 off
 (
@@ -757,7 +757,7 @@ this
 .
 inspector
 .
-tabActor
+targetActor
 .
 off
 (
@@ -910,7 +910,7 @@ this
 .
 inspector
 .
-tabActor
+targetActor
 .
 window
 .
@@ -1489,18 +1489,18 @@ sheet
 )
 {
 const
-tabActor
+targetActor
 =
 this
 .
 inspector
 .
-tabActor
+targetActor
 ;
 const
 actor
 =
-tabActor
+targetActor
 .
 createStyleSheetActor
 (
@@ -1987,7 +1987,7 @@ this
 .
 inspector
 .
-tabActor
+targetActor
 .
 windows
 ;
@@ -7978,7 +7978,7 @@ pageStyle
 .
 inspector
 .
-tabActor
+targetActor
 .
 window
 .

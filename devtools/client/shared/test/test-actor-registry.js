@@ -392,12 +392,9 @@ Ensure
 fetching
 a
 live
-TabActor
+target
+actor
 form
-for
-the
-targeted
-app
 /
 /
 (

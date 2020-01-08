@@ -2082,7 +2082,8 @@ Fx
 <
 39
 exposes
-tab
+chrome
+target
 actors
 on
 the
@@ -2109,7 +2110,7 @@ client
 chrome
 :
 true
-isTabActor
+isBrowsingContext
 :
 false
 }
@@ -2226,7 +2227,7 @@ trying
 to
 get
 app
-tab
+target
 actors
 required
 to
@@ -3634,7 +3635,7 @@ Fx
 39
 exposes
 chrome
-tab
+target
 actors
 on
 RootActor

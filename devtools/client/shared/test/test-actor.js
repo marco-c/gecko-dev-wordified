@@ -1386,7 +1386,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 options
 )
 {
@@ -1398,9 +1398,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 }
 get
@@ -1411,7 +1411,7 @@ content
 return
 this
 .
-tabActor
+targetActor
 .
 window
 ;
@@ -3137,7 +3137,7 @@ done
 .
 this
 .
-tabActor
+targetActor
 .
 chromeEventHandler
 .

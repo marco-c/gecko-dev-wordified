@@ -6293,10 +6293,10 @@ the
 child
 process
 closes
-*
 or
 the
 connection
+*
 shuts
 down
 .
@@ -6306,9 +6306,10 @@ to
 forget
 about
 the
-*
 related
-TabActor
+target
+actor
+.
 )
 *
 return
@@ -6324,7 +6325,6 @@ once
 the
 connection
 is
-*
 established
 .
 *

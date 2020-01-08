@@ -288,7 +288,7 @@ the
 provided
 connection
 and
-tab
+target
 actor
 .
 *
@@ -298,7 +298,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -317,9 +317,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -328,7 +328,7 @@ bridge
 new
 Timeline
 (
-tabActor
+targetActor
 )
 ;
 this
@@ -576,7 +576,7 @@ null
 ;
 this
 .
-tabActor
+targetActor
 =
 null
 ;

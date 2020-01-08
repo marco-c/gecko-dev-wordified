@@ -2857,7 +2857,7 @@ to
 it
 and
 fetch
-tab
+target
 actors
 for
 the
@@ -2874,7 +2874,7 @@ the
 debugger
 client
 and
-tab
+target
 actor
 form
 with

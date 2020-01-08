@@ -116,7 +116,7 @@ draws
 .
 Takes
 a
-tabActor
+targetActor
 *
 and
 monitors
@@ -150,14 +150,14 @@ WebGLPrimitiveCounter
 {
 constructor
 (
-tabActor
+targetActor
 )
 {
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 }
 destroy
@@ -216,7 +216,7 @@ _startTime
 =
 this
 .
-tabActor
+targetActor
 .
 docShell
 .

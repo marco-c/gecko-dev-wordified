@@ -385,7 +385,7 @@ chrome
 :
 true
 client
-isTabActor
+isBrowsingContext
 :
 addonForm
 .
