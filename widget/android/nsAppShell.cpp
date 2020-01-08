@@ -4488,7 +4488,7 @@ nsAppShell
 :
 ProcessNextNativeEvent
 "
-OTHER
+EVENTS
 )
 ;
 mozilla
@@ -4627,7 +4627,7 @@ ProcessNextNativeEvent
 :
 Wait
 "
-IDLE
+EVENTS
 )
 ;
 mozilla

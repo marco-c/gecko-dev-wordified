@@ -41998,7 +41998,7 @@ ProfilingStackFrame
 Category
 :
 :
-GCCC
+GC
 )
 {
 MOZ_ASSERT

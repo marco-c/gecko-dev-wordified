@@ -5693,7 +5693,7 @@ nsFrameLoader
 :
 ShowRemoteFrame
 "
-OTHER
+GRAPHICS
 )
 ;
 NS_ASSERTION

@@ -1655,7 +1655,7 @@ nsIContentParent
 :
 RecvSyncMessage
 "
-OTHER
+EVENTS
 aMsg
 )
 ;
@@ -1774,7 +1774,7 @@ nsIContentParent
 :
 RecvRpcMessage
 "
-OTHER
+EVENTS
 aMsg
 )
 ;
@@ -2010,7 +2010,7 @@ nsIContentParent
 :
 RecvAsyncMessage
 "
-OTHER
+EVENTS
 aMsg
 )
 ;

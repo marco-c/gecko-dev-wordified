@@ -4559,7 +4559,7 @@ EventDispatcher
 :
 Dispatch
 "
-OTHER
+EVENTS
 )
 ;
 NS_ASSERTION

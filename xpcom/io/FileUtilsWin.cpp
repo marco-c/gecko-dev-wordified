@@ -251,7 +251,7 @@ AUTO_PROFILER_LABEL
 "
 HandletoFilename
 "
-OTHER
+NETWORK
 )
 ;
 aFilename

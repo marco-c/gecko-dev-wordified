@@ -8028,7 +8028,7 @@ nsWindow
 :
 UpdateClientOffset
 "
-OTHER
+GRAPHICS
 )
 ;
 if
