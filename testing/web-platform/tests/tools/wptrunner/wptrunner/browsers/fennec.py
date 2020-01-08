@@ -1776,6 +1776,25 @@ device
 connected
 :
                     
+if
+len
+(
+self
+.
+runner
+.
+device
+.
+device
+.
+list_forwards
+(
+)
+)
+>
+0
+:
+                        
 self
 .
 runner
@@ -1786,7 +1805,7 @@ device
 .
 remove_forwards
 (
-                        
+                            
 "
 tcp
 :
