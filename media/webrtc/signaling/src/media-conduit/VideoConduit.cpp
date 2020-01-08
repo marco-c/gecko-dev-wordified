@@ -10629,7 +10629,7 @@ MB_OF
 )
 KBPS
 (
-300
+150
 )
 KBPS
 (
@@ -10640,6 +10640,9 @@ KBPS
 2000
 )
 }
+/
+/
+WVGA
 {
 tl
 :
@@ -10662,7 +10665,7 @@ MB_OF
 value
 KBPS
 (
-200
+125
 )
 KBPS
 (
@@ -10676,7 +10679,6 @@ KBPS
 /
 /
 VGA
-WVGA
 {
 MB_OF
 (
