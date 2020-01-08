@@ -150,6 +150,15 @@ h
 #
 include
 "
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
+"
 prtime
 .
 h
@@ -1204,7 +1213,7 @@ Length
 3
 &
 &
-isdigit
+IsAsciiDigit
 (
 line
 [
@@ -1213,7 +1222,7 @@ line
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 line
 [
@@ -1222,7 +1231,7 @@ line
 )
 &
 &
-isdigit
+IsAsciiDigit
 (
 line
 [
