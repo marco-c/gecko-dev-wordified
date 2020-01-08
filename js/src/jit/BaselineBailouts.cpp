@@ -16401,9 +16401,6 @@ case
 Bailout_NonSymbolInput
 :
 case
-Bailout_UnexpectedSimdInput
-:
-case
 Bailout_NonSharedTypedArrayInput
 :
 case

@@ -758,17 +758,6 @@ Class
 clasp
 )
 ;
-JSObject
-*
-getTemplateObjectForSimdCtor
-(
-jsbytecode
-*
-pc
-SimdType
-simdType
-)
-;
 /
 /
 Sometimes
