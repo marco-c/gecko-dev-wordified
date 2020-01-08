@@ -441,6 +441,10 @@ CompileRealm
 *
 realm
 ;
+CompileZone
+*
+zone
+;
 int
 getNextAssemblerId
 (

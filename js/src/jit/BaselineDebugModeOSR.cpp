@@ -7088,8 +7088,8 @@ lock
 cx
 )
 ;
-AutoAtomsRealm
-ar
+AutoAtomsZone
+az
 (
 cx
 lock

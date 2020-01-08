@@ -824,7 +824,7 @@ JitContext
 with
 a
 null
-Realm
+Zone
 .
 return
 GetJitContext
@@ -832,7 +832,7 @@ GetJitContext
 )
 -
 >
-realm
+zone
 =
 =
 nullptr

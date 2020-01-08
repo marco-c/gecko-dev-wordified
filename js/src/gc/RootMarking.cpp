@@ -2740,7 +2740,6 @@ RealmsIter
 r
 (
 rt
-SkipAtoms
 )
 ;
 !
@@ -3115,7 +3114,6 @@ RealmsIter
 r
 (
 rt
-SkipAtoms
 )
 ;
 !

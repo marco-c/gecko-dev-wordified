@@ -3120,8 +3120,8 @@ JSAtom
 atom
 ;
 {
-AutoAtomsRealm
-ar
+AutoAtomsZone
+az
 (
 cx
 lock

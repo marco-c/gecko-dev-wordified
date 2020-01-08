@@ -1247,7 +1247,6 @@ trc
 runtime
 (
 )
-SkipAtoms
 )
 ;
 !
