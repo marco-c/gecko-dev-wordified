@@ -1673,7 +1673,7 @@ initialized
 elementId
 :
 "
-formAutofillGroup
+formAutofillGroupBox
 "
 }
 ]
@@ -1728,7 +1728,7 @@ true
 elementId
 :
 "
-formAutofillGroup
+formAutofillGroupBox
 "
 }
 .

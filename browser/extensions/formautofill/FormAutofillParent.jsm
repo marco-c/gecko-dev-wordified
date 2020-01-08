@@ -911,7 +911,7 @@ subject
 document
 ;
 let
-prefGroup
+prefGroupBox
 =
 formAutofillPreferences
 .
@@ -928,7 +928,7 @@ document
 getElementById
 (
 "
-passwordsGroup
+mainPrefPane
 "
 )
 ;
@@ -940,7 +940,7 @@ document
 getElementById
 (
 "
-masterPasswordRow
+historyGroup
 "
 )
 ;
@@ -948,7 +948,7 @@ parentNode
 .
 insertBefore
 (
-prefGroup
+prefGroupBox
 insertBeforeNode
 )
 ;
