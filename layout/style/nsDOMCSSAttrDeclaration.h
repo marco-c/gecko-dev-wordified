@@ -321,9 +321,6 @@ GetPropertyChangeClosure
 DeclarationBlockMutationClosure
 *
 aClosure
-mozilla
-:
-:
 MutationClosureData
 *
 aClosureData
@@ -376,9 +373,6 @@ mozilla
 DeclarationBlock
 *
 aDecl
-mozilla
-:
-:
 MutationClosureData
 *
 aClosureData

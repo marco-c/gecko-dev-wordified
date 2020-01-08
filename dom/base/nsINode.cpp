@@ -768,13 +768,6 @@ h
 #
 include
 "
-nsWindowSizes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences

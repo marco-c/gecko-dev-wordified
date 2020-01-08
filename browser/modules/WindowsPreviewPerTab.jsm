@@ -5138,6 +5138,11 @@ onEndUpdateBatch
 )
 {
 }
+onVisits
+(
+)
+{
+}
 onTitleChanged
 (
 )
