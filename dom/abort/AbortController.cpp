@@ -342,7 +342,7 @@ mSignal
 new
 AbortSignal
 (
-this
+mGlobal
 mAborted
 )
 ;
