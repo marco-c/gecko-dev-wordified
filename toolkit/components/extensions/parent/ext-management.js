@@ -632,7 +632,7 @@ type
 class
 AddonListener
 extends
-ExtensionUtils
+ExtensionCommon
 .
 EventEmitter
 {

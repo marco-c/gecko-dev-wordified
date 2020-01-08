@@ -368,7 +368,6 @@ jsm
 ;
 const
 {
-defineLazyGetter
 getInnerWindowID
 promiseEvent
 }
@@ -380,6 +379,7 @@ const
 BaseContext
 CanOfAPIs
 SchemaAPIManager
+defineLazyGetter
 }
 =
 ExtensionCommon

@@ -144,10 +144,16 @@ jsm
 var
 {
 ExtensionError
-defineLazyGetter
 }
 =
 ExtensionUtils
+;
+var
+{
+defineLazyGetter
+}
+=
+ExtensionCommon
 ;
 const
 READER_MODE_PREFIX
@@ -274,7 +280,7 @@ tabId
 else
 if
 (
-ExtensionUtils
+ExtensionCommon
 .
 instanceOf
 (
@@ -285,7 +291,7 @@ XULElement
 )
 |
 |
-ExtensionUtils
+ExtensionCommon
 .
 instanceOf
 (

@@ -382,7 +382,6 @@ PROXY_TIMEOUT_SEC
 const
 {
 ExtensionError
-defineLazyGetter
 }
 =
 ExtensionUtils
@@ -393,6 +392,7 @@ BaseContext
 CanOfAPIs
 LocalAPIImplementation
 SchemaAPIManager
+defineLazyGetter
 }
 =
 ExtensionCommon

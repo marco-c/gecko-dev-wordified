@@ -121,13 +121,6 @@ jsm
 var
 {
 EventEmitter
-normalizeTime
-}
-=
-ExtensionUtils
-;
-var
-{
 ignoreEvent
 }
 =
@@ -1849,6 +1842,8 @@ MAX_VALUE
 ;
 }
 return
+ExtensionCommon
+.
 normalizeTime
 (
 arg

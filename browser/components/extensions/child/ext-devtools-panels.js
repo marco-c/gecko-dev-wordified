@@ -142,7 +142,7 @@ process
 class
 ChildDevToolsPanel
 extends
-ExtensionUtils
+ExtensionCommon
 .
 EventEmitter
 {
@@ -817,7 +817,7 @@ process
 class
 ChildDevToolsInspectorSidebar
 extends
-ExtensionUtils
+ExtensionCommon
 .
 EventEmitter
 {

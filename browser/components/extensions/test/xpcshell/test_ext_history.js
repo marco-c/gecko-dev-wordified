@@ -100,7 +100,7 @@ defineModuleGetter
 (
 this
 "
-ExtensionUtils
+ExtensionCommon
 "
 "
 resource
@@ -111,7 +111,7 @@ gre
 /
 modules
 /
-ExtensionUtils
+ExtensionCommon
 .
 jsm
 "
@@ -2927,7 +2927,7 @@ result
 lastVisitTime
 Number
 (
-ExtensionUtils
+ExtensionCommon
 .
 normalizeTime
 (
