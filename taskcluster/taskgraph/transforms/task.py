@@ -196,6 +196,8 @@ import
 BALROG_ACTIONS
     
 get_release_config
+    
+add_scope_prefix
 )
 from
 voluptuous
@@ -9829,17 +9831,17 @@ scopes
 .
 append
 (
+add_scope_prefix
+(
+config
 '
-project
-:
-releng
-:
 treescript
 :
 action
 :
 tagging
 '
+)
 )
     
 if
@@ -9935,17 +9937,17 @@ scopes
 .
 append
 (
+add_scope_prefix
+(
+config
 '
-project
-:
-releng
-:
 treescript
 :
 action
 :
 version_bump
 '
+)
 )
     
 if
@@ -9966,17 +9968,17 @@ scopes
 .
 append
 (
+add_scope_prefix
+(
+config
 '
-project
-:
-releng
-:
 treescript
 :
 action
 :
 push
 '
+)
 )
     
 if
