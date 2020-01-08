@@ -135,11 +135,6 @@ b6ba
 -
 e579c2d3230a
 "
-LEGACY_ELEMENT_KEY
-=
-"
-ELEMENT
-"
 WEB_ELEMENT_KEY
 =
 "
@@ -191,8 +186,6 @@ identifiers
 CHROME_ELEMENT_KEY
 FRAME_KEY
 WINDOW_KEY
-                   
-LEGACY_ELEMENT_KEY
 WEB_ELEMENT_KEY
 )
     
@@ -1431,22 +1424,6 @@ marionette
 json
 [
 WEB_ELEMENT_KEY
-]
-)
-            
-elif
-LEGACY_ELEMENT_KEY
-in
-json
-:
-                
-return
-cls
-(
-marionette
-json
-[
-LEGACY_ELEMENT_KEY
 ]
 )
             
@@ -12340,7 +12317,7 @@ args
 .
 id
                        
-LEGACY_ELEMENT_KEY
+CHROME_ELEMENT_KEY
 :
 args
 .
