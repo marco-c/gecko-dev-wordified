@@ -248,8 +248,6 @@ runExtraTests
 false
 cookieBehavior
 blockingByContentBlocking
-blockingByContentBlockingUI
-blockingByContentBlockingRTUI
 blockingByAllowList
 callback
 :
