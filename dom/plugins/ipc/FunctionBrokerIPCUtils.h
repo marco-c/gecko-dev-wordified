@@ -133,6 +133,7 @@ ID_QueryCredentialsAttributesA
 ID_FreeCredentialsHandle
 ID_PrintDlgW
 ID_CreateMutexW
+ID_GetFileAttributesW
 ID_FunctionHookCount
 #
 else
