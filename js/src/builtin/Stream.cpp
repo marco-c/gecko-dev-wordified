@@ -3013,6 +3013,9 @@ FUNCTION
 >
 \
 GenericCreatePrototype
+<
+cls
+>
 \
 nullptr
 \
