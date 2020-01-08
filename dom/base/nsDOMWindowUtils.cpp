@@ -5808,7 +5808,7 @@ nsDOMWindowUtils
 :
 GarbageCollect
 "
-GC
+GCCC
 )
 ;
 nsJSContext
