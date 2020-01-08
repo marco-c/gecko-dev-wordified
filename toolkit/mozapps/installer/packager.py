@@ -2512,17 +2512,32 @@ libname
 )
     
 #
-Include
+If
+a
 pdb
-files
-for
-llvm
--
-symbolizer
+file
+is
+present
+and
+we
+were
+instructed
 to
-resolve
-symbols
+copy
+it
+include
+it
 .
+    
+#
+Run
+on
+all
+OSes
+to
+capture
+MinGW
+builds
     
 if
 buildconfig
@@ -2532,13 +2547,9 @@ substs
 get
 (
 '
-LLVM_SYMBOLIZER
+MOZ_COPY_PDBS
 '
 )
-and
-mozinfo
-.
-isWin
 :
         
 for
