@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsIPersistentProperties2
 .
 h
@@ -708,6 +701,7 @@ nsIClipboard
 :
 :
 kGlobalClipboard
+true
 )
 ;
 }

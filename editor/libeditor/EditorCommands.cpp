@@ -4080,6 +4080,7 @@ nsIClipboard
 :
 :
 kGlobalClipboard
+true
 )
 ;
 }
@@ -9372,6 +9373,7 @@ nsIClipboard
 :
 :
 kGlobalClipboard
+true
 )
 ;
 }
@@ -9440,6 +9442,7 @@ nsIClipboard
 :
 :
 kGlobalClipboard
+true
 )
 ;
 }

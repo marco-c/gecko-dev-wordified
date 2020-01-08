@@ -4199,6 +4199,7 @@ change
 the
 cursor
 position
+.
 if
 (
 !

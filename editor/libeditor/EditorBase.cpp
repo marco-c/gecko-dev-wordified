@@ -7032,6 +7032,7 @@ AsTextEditor
 PasteAsAction
 (
 aClipboardType
+true
 )
 ;
 if
