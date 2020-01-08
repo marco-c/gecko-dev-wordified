@@ -164,7 +164,7 @@ h
 #
 include
 "
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 .
 h
 "
@@ -5910,7 +5910,7 @@ LoadEntry
 mIndex
 -
 1
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadHistory
@@ -5953,7 +5953,7 @@ LoadEntry
 mIndex
 +
 1
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadHistory
@@ -5971,6 +5971,9 @@ uint32_t
 aReloadFlags
 )
 {
+nsDocShellLoadInfo
+:
+:
 nsDocShellInfoLoadType
 loadType
 ;
@@ -5994,7 +5997,7 @@ LOAD_FLAGS_BYPASS_CACHE
 {
 loadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadBypassProxyAndCache
@@ -6013,7 +6016,7 @@ LOAD_FLAGS_BYPASS_PROXY
 {
 loadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadBypassProxy
@@ -6032,7 +6035,7 @@ LOAD_FLAGS_BYPASS_CACHE
 {
 loadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadBypassCache
@@ -6051,7 +6054,7 @@ LOAD_FLAGS_CHARSET_CHANGE
 {
 loadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadCharsetChange
@@ -6070,7 +6073,7 @@ LOAD_FLAGS_ALLOW_MIXED_CONTENT
 {
 loadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadMixedContent
@@ -6080,7 +6083,7 @@ else
 {
 loadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadNormal
@@ -6229,7 +6232,7 @@ return
 LoadEntry
 (
 mIndex
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadHistory
@@ -6302,7 +6305,7 @@ InitiateLoad
 (
 nextEntry
 mRootDocShell
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadHistory
@@ -10180,7 +10183,7 @@ return
 LoadEntry
 (
 aIndex
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadHistory
@@ -11319,11 +11322,16 @@ aFrameDS
 aFrameEntry
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 >
 loadInfo
+=
+new
+nsDocShellLoadInfo
+(
+)
 ;
 /
 *
@@ -11371,17 +11379,6 @@ aFrameEntry
 SetLoadType
 (
 aLoadType
-)
-;
-aFrameDS
--
->
-CreateLoadInfo
-(
-getter_AddRefs
-(
-loadInfo
-)
 )
 ;
 loadInfo

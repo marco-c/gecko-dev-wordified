@@ -287,7 +287,7 @@ h
 #
 include
 "
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 .
 h
 "
@@ -5546,7 +5546,7 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 *
 aLoadInfo
 bool

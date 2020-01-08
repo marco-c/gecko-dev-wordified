@@ -203,13 +203,6 @@ h
 #
 include
 "
-nsIDocShellLoadInfo
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

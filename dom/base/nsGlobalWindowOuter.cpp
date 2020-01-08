@@ -537,6 +537,13 @@ WindowDestroyedEvent
 .
 h
 "
+#
+include
+"
+nsDocShellLoadInfo
+.
+h
+"
 /
 /
 Helper
@@ -32004,7 +32011,7 @@ const
 nsAString
 &
 aOptions
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 *
 aLoadInfo
 bool
@@ -40102,7 +40109,7 @@ argv
 nsISupports
 *
 aExtraArgument
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 *
 aLoadInfo
 bool

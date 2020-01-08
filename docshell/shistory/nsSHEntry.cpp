@@ -143,7 +143,7 @@ h
 #
 include
 "
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 .
 h
 "
@@ -1812,7 +1812,7 @@ mLoadType
 (
 uint32_t
 )
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadHistory

@@ -177,9 +177,6 @@ class
 nsIDocShell
 ;
 class
-nsIDocShellLoadInfo
-;
-class
 nsIURI
 ;
 namespace
@@ -1023,7 +1020,7 @@ CheckURL
 nsIURI
 *
 url
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 *
 *
 aLoadInfo
