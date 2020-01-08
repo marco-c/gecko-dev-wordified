@@ -114,6 +114,13 @@ nsPerformanceMetrics
 .
 h
 >
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 /
 *
 -
