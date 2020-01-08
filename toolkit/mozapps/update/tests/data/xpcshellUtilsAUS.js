@@ -7106,8 +7106,8 @@ prefs
 .
 setBoolPref
 (
-PREF_APP_UPDATE_ENABLED
-true
+PREF_APP_UPDATE_DISABLEDFORTESTING
+false
 )
 ;
 if
