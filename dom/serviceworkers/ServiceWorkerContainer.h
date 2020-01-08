@@ -322,6 +322,10 @@ IMPL_EVENT_HANDLER
 (
 error
 )
+IMPL_EVENT_HANDLER
+(
+messageerror
+)
 /
 /
 Almost
@@ -803,6 +807,9 @@ aMessage
 MessageEventInit
 &
 aInit
+ErrorResult
+&
+aRv
 )
 ;
 RefPtr
