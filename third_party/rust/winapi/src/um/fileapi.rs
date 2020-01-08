@@ -458,7 +458,7 @@ FileName
 [
 WCHAR
 ;
-0
+1
 ]
 }
 }
@@ -482,7 +482,7 @@ FileName
 [
 WCHAR
 ;
-0
+1
 ]
 }
 }
@@ -494,7 +494,7 @@ FILE_DISPOSITION_INFO
 {
 DeleteFile
 :
-BOOL
+BOOLEAN
 }
 }
 STRUCT
@@ -533,16 +533,16 @@ StreamNameLength
 DWORD
 StreamSize
 :
-DWORD
+LARGE_INTEGER
 StreamAllocationSize
 :
-DWORD
+LARGE_INTEGER
 StreamName
 :
 [
 WCHAR
 ;
-0
+1
 ]
 }
 }
@@ -647,7 +647,7 @@ FileName
 [
 WCHAR
 ;
-0
+1
 ]
 }
 }
@@ -706,7 +706,7 @@ FileName
 [
 WCHAR
 ;
-0
+1
 ]
 }
 }

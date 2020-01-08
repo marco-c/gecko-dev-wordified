@@ -114,9 +114,7 @@ use
 ctypes
 :
 :
-{
 c_long
-}
 ;
 use
 shared

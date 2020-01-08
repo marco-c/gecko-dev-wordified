@@ -127,9 +127,7 @@ shared
 basetsd
 :
 :
-{
 ULONG_PTR
-}
 ;
 use
 shared
@@ -182,6 +180,7 @@ winnt
 :
 :
 {
+ANYSIZE_ARRAY
 BOOLEAN
 CHAR
 HANDLE
@@ -1001,7 +1000,7 @@ ProtocolLists
 [
 SEC_APPLICATION_PROTOCOL_LIST
 ;
-0
+ANYSIZE_ARRAY
 ]
 }
 }
@@ -3154,9 +3153,13 @@ SecPkgContext_NativeNamesW
 {
 sClientName
 :
+*
+mut
 SEC_WCHAR
 sServerName
 :
+*
+mut
 SEC_WCHAR
 }
 }
@@ -3176,9 +3179,13 @@ SecPkgContext_NativeNamesA
 {
 sClientName
 :
+*
+mut
 SEC_CHAR
 sServerName
 :
+*
+mut
 SEC_CHAR
 }
 }
@@ -5115,7 +5122,7 @@ SEC_WINNT_AUTH_PACKED_CREDENTIALS
 ;
 DEFINE_GUID
 !
-(
+{
 SEC_WINNT_AUTH_DATA_TYPE_PASSWORD
 0x28bfc32f
 0x10f6
@@ -5128,11 +5135,10 @@ SEC_WINNT_AUTH_DATA_TYPE_PASSWORD
 0xdf
 0x71
 0x6a
-)
-;
+}
 DEFINE_GUID
 !
-(
+{
 SEC_WINNT_AUTH_DATA_TYPE_CERT
 0x235f69ad
 0x73fb
@@ -5145,8 +5151,7 @@ SEC_WINNT_AUTH_DATA_TYPE_CERT
 0x39
 0x33
 0x9b
-)
-;
+}
 STRUCT
 !
 {
@@ -5168,7 +5173,7 @@ SEC_WINNT_AUTH_DATA_PASSWORD
 ;
 DEFINE_GUID
 !
-(
+{
 SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA
 0x68fd9879
 0x79c
@@ -5181,8 +5186,7 @@ SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA
 0xc1
 0xc1
 0x0
-)
-;
+}
 /
 /
 GUID

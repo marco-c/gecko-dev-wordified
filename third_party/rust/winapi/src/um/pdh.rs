@@ -648,7 +648,7 @@ LPSTR
 }
 BITFIELD
 !
-(
+{
 PDH_BROWSE_DLG_CONFIG_A
 flags
 :
@@ -735,8 +735,7 @@ set_ShowObjectBrowser
 10
 ]
 ]
-)
-;
+}
 STRUCT
 !
 {
@@ -777,7 +776,7 @@ LPWSTR
 }
 BITFIELD
 !
-(
+{
 PDH_BROWSE_DLG_CONFIG_W
 flags
 :
@@ -864,8 +863,7 @@ set_ShowObjectBrowser
 10
 ]
 ]
-)
-;
+}
 STRUCT
 !
 {
@@ -1206,7 +1204,7 @@ LPSTR
 }
 BITFIELD
 !
-(
+{
 PDH_BROWSE_DLG_CONFIG_HA
 flags
 :
@@ -1293,8 +1291,7 @@ set_ShowObjectBrowser
 10
 ]
 ]
-)
-;
+}
 STRUCT
 !
 {
@@ -1335,7 +1332,7 @@ LPWSTR
 }
 BITFIELD
 !
-(
+{
 PDH_BROWSE_DLG_CONFIG_HW
 flags
 :
@@ -1422,8 +1419,7 @@ set_ShowObjectBrowser
 10
 ]
 ]
-)
-;
+}
 extern
 "
 system

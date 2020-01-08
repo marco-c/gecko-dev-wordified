@@ -167,7 +167,7 @@ IUnknown
 TODO
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -259,8 +259,7 @@ Commit
 >
 HRESULT
 }
-)
-;
+}
 ENUM
 !
 {

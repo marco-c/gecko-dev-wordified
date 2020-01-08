@@ -879,7 +879,7 @@ SPCT_SUB_DICTATION
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -921,11 +921,10 @@ SPCATEGORYTYPE
 >
 HRESULT
 }
-)
-;
+}
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -998,8 +997,7 @@ ISpRecoCategory
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um

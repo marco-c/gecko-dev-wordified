@@ -248,7 +248,7 @@ ULONG
 }
 BITFIELD
 !
-(
+{
 HTTP_PROPERTY_FLAGS
 BitFields
 :
@@ -263,8 +263,7 @@ set_Present
 1
 ]
 ]
-)
-;
+}
 pub
 type
 PHTTP_PROPERTY_FLAGS

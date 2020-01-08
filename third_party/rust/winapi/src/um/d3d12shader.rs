@@ -813,7 +813,7 @@ ID3D12FunctionParameterReflection
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -867,8 +867,7 @@ INT
 mut
 ID3D12FunctionReflection
 }
-)
-;
+}
 DEFINE_GUID
 !
 {
@@ -1214,7 +1213,7 @@ IID_ID3D12ShaderReflection
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -1457,8 +1456,7 @@ GetRequiresFlags
 >
 UINT64
 }
-)
-;
+}
 DEFINE_GUID
 !
 {

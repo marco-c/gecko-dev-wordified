@@ -101,9 +101,7 @@ um
 winnt
 :
 :
-{
 HRESULT
-}
 ;
 use
 winrt

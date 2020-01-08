@@ -1060,7 +1060,7 @@ VSS_OBJECT_PROP
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -1141,11 +1141,10 @@ IVssEnumObject
 >
 HRESULT
 }
-)
-;
+}
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -1209,5 +1208,4 @@ INT
 >
 HRESULT
 }
-)
-;
+}

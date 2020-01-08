@@ -140,7 +140,7 @@ IUnknownVtbl
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -257,5 +257,4 @@ c_float
 >
 HRESULT
 }
-)
-;
+}

@@ -126,7 +126,7 @@ HRESULT
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -195,5 +195,4 @@ BSTR
 >
 HRESULT
 }
-)
-;
+}

@@ -1,7 +1,7 @@
 /
 /
 Copyright
-202017
+2017
 winapi
 -
 rs
@@ -327,6 +327,18 @@ LPWSTR
 ClientComputerNameLength
 :
 ULONG
+)
+-
+>
+BOOL
+;
+pub
+fn
+ImpersonateNamedPipeClient
+(
+hNamedPipe
+:
+HANDLE
 )
 -
 >

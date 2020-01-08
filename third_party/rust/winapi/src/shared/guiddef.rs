@@ -114,6 +114,10 @@ c_ushort
 STRUCT
 !
 {
+#
+[
+debug
+]
 struct
 GUID
 {

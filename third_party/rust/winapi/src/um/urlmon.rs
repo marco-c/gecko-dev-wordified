@@ -135,7 +135,7 @@ LPCWSTR
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -203,8 +203,7 @@ TODO
 the
 rest
 }
-)
-;
+}
 /
 /
 TODO

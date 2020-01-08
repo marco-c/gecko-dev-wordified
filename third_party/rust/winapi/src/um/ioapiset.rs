@@ -143,9 +143,7 @@ um
 winnt
 :
 :
-{
 HANDLE
-}
 ;
 extern
 "

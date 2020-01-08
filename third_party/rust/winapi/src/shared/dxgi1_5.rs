@@ -207,7 +207,7 @@ HRESULT
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -267,8 +267,7 @@ IDXGIOutputDuplication
 >
 HRESULT
 }
-)
-;
+}
 ENUM
 !
 {
@@ -333,7 +332,7 @@ UINT16
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -381,8 +380,7 @@ c_void
 >
 HRESULT
 }
-)
-;
+}
 ENUM
 !
 {
@@ -413,7 +411,7 @@ DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -488,8 +486,7 @@ DXGI_RECLAIM_RESOURCE_RESULTS
 >
 HRESULT
 }
-)
-;
+}
 ENUM
 !
 {
@@ -503,7 +500,7 @@ DXGI_FEATURE_PRESENT_ALLOW_TEARING
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -551,8 +548,7 @@ UINT
 >
 HRESULT
 }
-)
-;
+}
 DEFINE_GUID
 !
 {

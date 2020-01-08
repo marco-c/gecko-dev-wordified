@@ -364,6 +364,8 @@ cSupportedAlgs
 DWORD
 palgSupportedAlgs
 :
+*
+mut
 ALG_ID
 }
 }

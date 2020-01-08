@@ -37044,7 +37044,7 @@ CTL_FIND_NO_SIGNER_PTR
 PCERT_INFO
 =
 -
-1i32
+1isize
 as
 PCERT_INFO
 ;
@@ -41132,6 +41132,14 @@ DWORD
 dwInnerContentType
 :
 DWORD
+HashEncryptionAlgorithm
+:
+CRYPT_ALGORITHM_IDENTIFIER
+pvHashEncryptionAuxInfo
+:
+*
+mut
+c_void
 }
 }
 pub
