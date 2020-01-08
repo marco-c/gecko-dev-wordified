@@ -12844,6 +12844,7 @@ currentInner
 >
 FreeInnerObjects
 (
+handleDocumentOpen
 )
 ;
 }

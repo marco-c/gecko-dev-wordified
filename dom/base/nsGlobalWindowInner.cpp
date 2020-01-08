@@ -6376,6 +6376,8 @@ nsGlobalWindowInner
 :
 FreeInnerObjects
 (
+bool
+aForDocumentOpen
 )
 {
 if
@@ -6615,6 +6617,12 @@ GetDocBaseURI
 (
 )
 ;
+if
+(
+!
+aForDocumentOpen
+)
+{
 while
 (
 mDoc
@@ -6633,6 +6641,7 @@ UnsuppressEventHandlingAndFireEvents
 false
 )
 ;
+}
 }
 if
 (
