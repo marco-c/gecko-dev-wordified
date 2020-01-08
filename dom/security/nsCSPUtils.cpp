@@ -791,8 +791,6 @@ return
 }
 nsString
 msg
-=
-PromiseFlatString
 (
 aMsg
 )
@@ -1999,14 +1997,10 @@ aKey
 {
 nsString
 lowerKey
-=
-PromiseFlatString
-(
-aKey
-)
 ;
 ToLowerCase
 (
+aKey
 lowerKey
 )
 ;

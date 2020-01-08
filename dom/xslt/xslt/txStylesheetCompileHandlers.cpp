@@ -370,10 +370,7 @@ XMLUtils
 :
 isWhitespace
 (
-PromiseFlatString
-(
 _str
-)
 )
 )
 {
