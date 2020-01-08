@@ -23095,10 +23095,10 @@ builder
 .
 SetAncestorHasApzAwareEventHandler
 (
-nsDisplayListBuilder
+gfxPlatform
 :
 :
-LayerEventRegionsEnabled
+AsyncPanZoomEnabled
 (
 )
 &

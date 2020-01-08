@@ -4916,12 +4916,6 @@ IsBuildingLayerEventRegions
 (
 )
 ;
-static
-bool
-LayerEventRegionsEnabled
-(
-)
-;
 bool
 IsInsidePointerEventsNoneDoc
 (

@@ -3102,10 +3102,10 @@ GetCurrentScrollParentId
 bool
 hasDocumentLevelListenersForApzAwareEvents
 =
-nsDisplayListBuilder
+gfxPlatform
 :
 :
-LayerEventRegionsEnabled
+AsyncPanZoomEnabled
 (
 )
 &
