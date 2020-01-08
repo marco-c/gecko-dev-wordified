@@ -604,6 +604,9 @@ AutoRefreshHighlighter
 prototype
 =
 {
+_ignoreZoom
+:
+false
 /
 *
 *
@@ -1110,6 +1113,13 @@ this
 .
 currentNode
 region
+{
+ignoreZoom
+:
+this
+.
+_ignoreZoom
+}
 )
 ;
 }
