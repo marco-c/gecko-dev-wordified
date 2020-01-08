@@ -8760,11 +8760,6 @@ AssertIsOnParentThread
 (
 )
 ;
-MOZ_ASSERT
-(
-mParentFrozen
-)
-;
 /
 /
 Shared
