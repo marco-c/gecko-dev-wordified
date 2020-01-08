@@ -2888,6 +2888,10 @@ gfxPlatform
 (
 )
 :
+mHasVariationFontSupport
+(
+false
+)
 mAzureCanvasBackendCollector
 (
 this

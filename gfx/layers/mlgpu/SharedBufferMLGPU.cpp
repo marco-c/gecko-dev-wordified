@@ -183,6 +183,9 @@ mMaxSize
 (
 0
 )
+mMap
+(
+)
 mMapped
 (
 false
@@ -1000,6 +1003,14 @@ mOffset
 (
 -
 1
+)
+mNumBytes
+(
+0
+)
+mNumItems
+(
+0
 )
 {
 }

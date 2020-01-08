@@ -189,6 +189,10 @@ mOwnsData
 (
 false
 )
+mData
+(
+nullptr
+)
 mFormat
 (
 SurfaceFormat

@@ -497,6 +497,10 @@ mSpaceGlyphIsInvisibleInitialized
 (
 false
 )
+mHasGraphiteTables
+(
+false
+)
 mCheckedForGraphiteTables
 (
 false
@@ -627,6 +631,10 @@ mSpaceGlyphIsInvisible
 false
 )
 mSpaceGlyphIsInvisibleInitialized
+(
+false
+)
+mHasGraphiteTables
 (
 false
 )

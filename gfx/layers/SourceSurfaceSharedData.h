@@ -357,6 +357,10 @@ SurfaceFormat
 :
 UNKNOWN
 )
+mCreatorPid
+(
+0
+)
 {
 }
 bool

@@ -639,6 +639,10 @@ mIPCOpen
 (
 false
 )
+mUpdateHitTestingTree
+(
+false
+)
 {
 MOZ_ASSERT
 (

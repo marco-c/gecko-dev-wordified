@@ -1448,6 +1448,10 @@ aNames
 )
 )
 )
+mDefaultFontType
+(
+eFamily_none
+)
 {
 }
 FontFamilyList

@@ -2237,6 +2237,10 @@ mResumeCompositionMonitor
 ResumeCompositionMonitor
 "
 )
+mCompositorBridgeID
+(
+0
+)
 mRootLayerTreeID
 {
 0

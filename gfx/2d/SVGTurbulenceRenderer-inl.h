@@ -727,6 +727,17 @@ mNumOctaves
 (
 aNumOctaves
 )
+mStitchInfo
+(
+)
+mStitchable
+(
+false
+)
+mType
+(
+TURBULENCE_TYPE_TURBULENCE
+)
 {
 InitFromSeed
 (

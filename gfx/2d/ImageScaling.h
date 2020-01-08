@@ -179,6 +179,14 @@ mDataStorage
 (
 nullptr
 )
+mData
+(
+nullptr
+)
+mStride
+(
+0
+)
 {
 }
 ~

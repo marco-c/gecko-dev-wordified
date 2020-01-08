@@ -188,6 +188,17 @@ SourceSurfaceSkia
 (
 )
 :
+mFormat
+(
+SurfaceFormat
+:
+:
+UNKNOWN
+)
+mStride
+(
+0
+)
 mDrawTarget
 (
 nullptr

@@ -613,6 +613,13 @@ mTargetRotation
 (
 ROTATION_0
 )
+mTargetOrientation
+(
+dom
+:
+:
+eScreenOrientation_None
+)
 mOpen
 (
 false

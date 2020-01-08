@@ -222,6 +222,10 @@ mSurfaceCopyNeeded
 (
 false
 )
+mView
+(
+nullptr
+)
 {
 }
 ContainerLayerMLGPU

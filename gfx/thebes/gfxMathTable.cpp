@@ -133,6 +133,12 @@ gfxFloat
 aSize
 )
 {
+mMathVariantCache
+.
+vertical
+=
+false
+;
 mHBFont
 =
 hb_font_create
