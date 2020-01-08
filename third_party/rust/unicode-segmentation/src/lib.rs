@@ -728,6 +728,16 @@ GraphemeIndices
 ;
 pub
 use
+grapheme
+:
+:
+{
+GraphemeCursor
+GraphemeIncomplete
+}
+;
+pub
+use
 tables
 :
 :
