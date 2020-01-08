@@ -161,13 +161,6 @@ h
 #
 include
 "
-nsEditorCID
-.
-h
-"
-#
-include
-"
 nsLayoutCID
 .
 h
