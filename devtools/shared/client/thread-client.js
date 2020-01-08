@@ -326,12 +326,12 @@ thread
 (
 tab
 for
-tab
+target
 -
 scoped
 debuggers
-DebuggerClient
 *
+DebuggerClient
 for
 chrome
 debuggers

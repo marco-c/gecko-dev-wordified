@@ -931,7 +931,7 @@ specified
 with
 DebuggerServer
 .
-addTabActor
+addTargetScopedActor
 and
 *
 DebuggerServer
@@ -989,7 +989,7 @@ as
 *
 documented
 for
-addTabActor
+addTargetScopedActor
 and
 addGlobalActor
 .

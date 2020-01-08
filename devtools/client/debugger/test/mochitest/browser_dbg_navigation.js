@@ -200,7 +200,7 @@ then
 )
 =
 >
-attachTabActorForUrl
+attachTargetActorForUrl
 (
 gClient
 TAB1_URL

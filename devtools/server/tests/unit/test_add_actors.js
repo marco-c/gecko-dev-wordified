@@ -175,7 +175,7 @@ resource
 /
 test
 /
-pre_init_tab_actors
+pre_init_target_scoped_actors
 .
 js
 "
@@ -221,7 +221,7 @@ resource
 /
 test
 /
-post_init_tab_actors
+post_init_target_scoped_actors
 .
 js
 "
@@ -300,7 +300,7 @@ tabs
 0
 ]
 .
-preInitTabActor
+preInitTargetScopedActor
 type
 :
 "
@@ -371,7 +371,7 @@ tabs
 0
 ]
 .
-postInitTabActor
+postInitTargetScopedActor
 type
 :
 "

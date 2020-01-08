@@ -172,7 +172,7 @@ window
 .
 *
 A
-tab
+target
 -
 scoped
 instance
@@ -185,9 +185,12 @@ the
 memory
 footprint
 of
-its
 *
-parent
+the
+target
+such
+as
+a
 tab
 .
 A
