@@ -218,6 +218,12 @@ blendConfig
 ]
 ;
 float
+vCoefficient
+[
+4
+]
+;
+float
 yuvColorMatrix
 [
 3
