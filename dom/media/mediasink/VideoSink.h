@@ -362,7 +362,7 @@ aInfo
 )
 override
 ;
-void
+nsresult
 Start
 (
 const

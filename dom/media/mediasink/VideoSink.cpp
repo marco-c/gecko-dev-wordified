@@ -1114,7 +1114,7 @@ EnsureHighResTimersOnOnlyIfPlaying
 )
 ;
 }
-void
+nsresult
 VideoSink
 :
 :
@@ -1145,6 +1145,9 @@ s
 __func__
 )
 ;
+nsresult
+rv
+=
 mAudioSink
 -
 >
@@ -1418,6 +1421,9 @@ UpdateRenderedVideoFrames
 )
 ;
 }
+return
+rv
+;
 }
 void
 VideoSink

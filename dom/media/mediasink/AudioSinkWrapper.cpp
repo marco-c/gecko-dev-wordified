@@ -970,7 +970,7 @@ TimeStamp
 ;
 }
 }
-void
+nsresult
 AudioSinkWrapper
 :
 :
@@ -1041,6 +1041,11 @@ HasAudio
 (
 )
 ;
+nsresult
+rv
+=
+NS_OK
+;
 if
 (
 aInfo
@@ -1062,7 +1067,7 @@ Create
 )
 )
 ;
-mEndPromise
+rv
 =
 mAudioSink
 -
@@ -1070,6 +1075,7 @@ mAudioSink
 Init
 (
 mParams
+mEndPromise
 )
 ;
 mEndPromise
@@ -1103,6 +1109,9 @@ mAudioSinkPromise
 )
 ;
 }
+return
+rv
+;
 }
 void
 AudioSinkWrapper
