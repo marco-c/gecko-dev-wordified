@@ -2317,6 +2317,14 @@ MOZ_ASSERT
 XRE_IsParentProcess
 (
 )
+|
+|
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
 )
 ;
 MOZ_ASSERT
