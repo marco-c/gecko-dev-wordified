@@ -1589,7 +1589,7 @@ NotificationHelper
 .
 Channel
 .
-DEFAULT
+UPDATER
 )
 .
 getId
@@ -1959,7 +1959,7 @@ NotificationHelper
 .
 Channel
 .
-DEFAULT
+UPDATER
 )
 .
 getId
@@ -2228,7 +2228,7 @@ NotificationHelper
 .
 Channel
 .
-DEFAULT
+UPDATER
 )
 .
 getId
@@ -3194,6 +3194,11 @@ setDeleteIntent
 (
 deleteIntent
 )
+.
+setOnlyAlertOnce
+(
+true
+)
 ;
 if
 (
@@ -3222,7 +3227,7 @@ NotificationHelper
 .
 Channel
 .
-DEFAULT
+UPDATER
 )
 .
 getId
@@ -3411,7 +3416,7 @@ NotificationHelper
 .
 Channel
 .
-DEFAULT
+UPDATER
 )
 .
 getId
