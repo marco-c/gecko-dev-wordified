@@ -2110,9 +2110,6 @@ mChildPluginsParentHWND
 WNDPROC
 mPluginWndProc
 ;
-bool
-mNestedEventState
-;
 #
 endif
 /

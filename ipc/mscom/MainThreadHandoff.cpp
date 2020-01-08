@@ -226,6 +226,15 @@ h
 #
 include
 "
+mozilla
+/
+Unused
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -851,6 +860,11 @@ set
 (
 this
 )
+;
+Unused
+<
+<
+sIsInit
 ;
 }
 ~

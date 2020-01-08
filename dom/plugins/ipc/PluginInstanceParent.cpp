@@ -809,10 +809,6 @@ mPluginWndProc
 (
 nullptr
 )
-mNestedEventState
-(
-false
-)
 #
 endif
 /
