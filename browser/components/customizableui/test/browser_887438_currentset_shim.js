@@ -282,9 +282,7 @@ home
 button
 "
 "
-new
--
-window
+feed
 -
 button
 sync
@@ -328,9 +326,7 @@ document
 getElementById
 (
 "
-new
--
-window
+feed
 -
 button
 "
@@ -562,9 +558,7 @@ home
 button
 "
 "
-new
--
-window
+feed
 -
 button
 "
@@ -602,9 +596,7 @@ document
 getElementById
 (
 "
-new
--
-window
+feed
 -
 button
 "

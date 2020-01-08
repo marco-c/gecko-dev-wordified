@@ -88,9 +88,7 @@ const
 kAPIWidgetId
 =
 "
-save
--
-page
+feed
 -
 button
 "
