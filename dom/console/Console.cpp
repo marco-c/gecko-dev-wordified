@@ -5852,7 +5852,7 @@ return
 }
 if
 (
-mGlobal
+mInnerID
 )
 {
 aRv
@@ -8855,7 +8855,7 @@ NS_IsMainThread
 {
 if
 (
-mGlobal
+mInnerID
 )
 {
 callData
