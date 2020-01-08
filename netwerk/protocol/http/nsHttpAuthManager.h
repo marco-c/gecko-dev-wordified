@@ -126,8 +126,6 @@ NS_DECL_NSIHTTPAUTHMANAGER
 nsHttpAuthManager
 (
 )
-=
-default
 ;
 MOZ_MUST_USE
 nsresult

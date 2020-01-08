@@ -500,6 +500,10 @@ mOpenRedirectChannel
 (
 false
 )
+mRedirectFlags
+{
+0
+}
 mStatus
 (
 NS_OK

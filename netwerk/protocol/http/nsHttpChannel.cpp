@@ -1909,6 +1909,10 @@ mSuspendTotalTime
 (
 0
 )
+mRedirectType
+(
+0
+)
 mCacheOpenWithPriority
 (
 false
@@ -2024,6 +2028,10 @@ mAuthConnectionRestartable
 mPushedStream
 (
 nullptr
+)
+mLocalBlocklist
+(
+false
 )
 mOnTailUnblock
 (

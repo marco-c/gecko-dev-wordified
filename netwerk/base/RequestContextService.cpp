@@ -2483,6 +2483,10 @@ RequestContextService
 (
 )
 :
+mRCIDNamespace
+(
+0
+)
 mNextRCID
 (
 1
