@@ -6971,17 +6971,6 @@ char
 aPrefName
 )
 ;
-static
-void
-PrefChangedCallback
-(
-const
-char
-*
-nsPresContext
-*
-)
-;
 void
 UpdateAfterPreferencesChanged
 (
