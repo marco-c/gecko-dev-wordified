@@ -310,3 +310,7 @@ DEPRECATED_OPERATION
 (
 MozBoxOrInlineBoxDisplay
 )
+DEPRECATED_OPERATION
+(
+DOMQuadBoundsAttr
+)
