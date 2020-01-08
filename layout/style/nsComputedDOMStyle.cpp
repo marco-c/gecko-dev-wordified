@@ -6669,7 +6669,10 @@ column
 mColumnCount
 =
 =
-NS_STYLE_COLUMN_COUNT_AUTO
+nsStyleColumn
+:
+:
+kColumnCountAuto
 )
 {
 val
