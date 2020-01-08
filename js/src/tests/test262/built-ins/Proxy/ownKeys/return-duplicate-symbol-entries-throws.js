@@ -96,6 +96,7 @@ exception
 features
 :
 [
+Proxy
 Symbol
 ]
 -
@@ -120,6 +121,8 @@ Proxy
 }
 {
 ownKeys
+:
+function
 (
 )
 {

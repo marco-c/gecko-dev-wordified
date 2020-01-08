@@ -87,6 +87,7 @@ exception
 features
 :
 [
+Proxy
 Symbol
 ]
 -

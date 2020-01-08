@@ -119,6 +119,8 @@ newTarget
 features
 :
 [
+Proxy
+Reflect
 Reflect
 .
 construct

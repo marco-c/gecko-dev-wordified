@@ -85,6 +85,11 @@ GetPrototypeOf
 (
 )
 .
+features
+:
+[
+Reflect
+]
 -
 -
 -

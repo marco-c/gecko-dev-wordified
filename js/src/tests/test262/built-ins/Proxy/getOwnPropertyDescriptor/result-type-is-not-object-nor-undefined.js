@@ -94,6 +94,7 @@ exception
 features
 :
 [
+Proxy
 Symbol
 ]
 -

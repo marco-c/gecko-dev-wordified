@@ -113,6 +113,13 @@ of
 an
 ArrowFunction
 .
+features
+:
+[
+new
+.
+target
+]
 -
 -
 -

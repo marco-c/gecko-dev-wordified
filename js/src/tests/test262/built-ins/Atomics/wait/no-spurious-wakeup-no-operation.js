@@ -436,7 +436,7 @@ sameValue
 (
 Atomics
 .
-wake
+nofity
 (
 i32a
 0
@@ -445,7 +445,7 @@ i32a
 '
 Atomics
 .
-wake
+nofity
 (
 i32a
 0

@@ -85,6 +85,7 @@ onlyStrict
 features
 :
 [
+Proxy
 Reflect
 ]
 -

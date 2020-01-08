@@ -68,6 +68,11 @@ the
 global
 object
 .
+features
+:
+[
+Proxy
+]
 -
 -
 -

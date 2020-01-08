@@ -91,6 +91,9 @@ tailCall
 features
 :
 [
+new
+.
+target
 template
 ]
 -

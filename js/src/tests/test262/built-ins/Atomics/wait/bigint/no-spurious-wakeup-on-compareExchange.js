@@ -97,7 +97,7 @@ Waiter
 does
 not
 spuriously
-wake
+notify
 on
 index
 which
@@ -392,7 +392,7 @@ sameValue
 (
 Atomics
 .
-wake
+notify
 (
 i64a
 0
@@ -401,7 +401,7 @@ i64a
 '
 Atomics
 .
-wake
+notify
 (
 i64a
 0
