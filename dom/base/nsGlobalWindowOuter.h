@@ -2567,6 +2567,9 @@ aState
 nsIChannel
 *
 aChannel
+nsIURI
+*
+aURIHint
 )
 override
 ;
