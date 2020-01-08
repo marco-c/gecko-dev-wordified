@@ -35992,7 +35992,7 @@ aReflowInput
 mStyleDisplay
 -
 >
-IsContainSize
+IsContainLayout
 (
 )
 )
@@ -36008,7 +36008,7 @@ or
 if
 we
 are
-size
+layout
 contained
 and
 /

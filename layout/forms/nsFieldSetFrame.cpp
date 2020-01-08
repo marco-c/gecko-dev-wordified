@@ -4772,7 +4772,7 @@ StyleDisplay
 )
 -
 >
-IsContainSize
+IsContainLayout
 (
 )
 )
@@ -4782,7 +4782,7 @@ IsContainSize
 If
 we
 are
-size
+layout
 -
 contained
 our
@@ -4893,7 +4893,7 @@ StyleDisplay
 )
 -
 >
-IsContainSize
+IsContainLayout
 (
 )
 )
@@ -4903,7 +4903,7 @@ IsContainSize
 If
 we
 are
-size
+layout
 -
 contained
 our
