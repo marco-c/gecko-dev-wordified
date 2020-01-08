@@ -393,7 +393,7 @@ nsIAnonymousContentCreator
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIRootBox
+nsIPopupContainer
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
