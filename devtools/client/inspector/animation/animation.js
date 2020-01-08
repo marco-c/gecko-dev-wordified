@@ -2402,13 +2402,6 @@ panel
 }
 )
 ;
-await
-nodeFront
-.
-scrollIntoView
-(
-)
-;
 }
 async
 setAnimationsCurrentTime
