@@ -704,10 +704,8 @@ skin
 icons
 /
 warning
--
-16
 .
-png
+svg
 "
 )
 ;
