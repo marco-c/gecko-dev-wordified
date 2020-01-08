@@ -373,6 +373,14 @@ aDeferredShow
 )
 ;
 nsresult
+CleanupPayment
+(
+PaymentRequest
+*
+aRequest
+)
+;
+nsresult
 RespondPayment
 (
 PaymentRequest
