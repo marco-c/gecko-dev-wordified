@@ -862,6 +862,12 @@ nsIPrincipal
 *
 mLoadingPrincipal
 ;
+nsCOMPtr
+<
+nsICSPEventListener
+>
+mEventListener
+;
 /
 /
 helper
