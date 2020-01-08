@@ -2320,6 +2320,7 @@ segments
 )
 ;
 }
+virtual
 void
 insertBefore
 (
