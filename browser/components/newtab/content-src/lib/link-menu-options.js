@@ -1024,8 +1024,6 @@ icon
 :
 "
 pocket
--
-save
 "
 action
 :

@@ -256,7 +256,7 @@ menu_action_show_file_windows
 "
 Aperir
 le
-dossier
+plica
 que
 lo
 contine
@@ -268,7 +268,7 @@ menu_action_show_file_linux
 "
 Aperir
 le
-dossier
+plica
 que
 lo
 contine
@@ -1011,9 +1011,9 @@ firstrun_learn_more_link
 "
 :
 "
-Saper
+Apprende
 plus
-super
+re
 Firefox
 Accounts
 "

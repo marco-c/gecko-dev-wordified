@@ -22598,8 +22598,6 @@ icon
 :
 "
 pocket
--
-save
 "
 action
 :
