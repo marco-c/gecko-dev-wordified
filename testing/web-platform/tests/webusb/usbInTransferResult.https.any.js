@@ -30,13 +30,6 @@ usb
 helpers
 .
 js
-/
-/
-META
-:
-global
-=
-sharedworker
 '
 use
 strict

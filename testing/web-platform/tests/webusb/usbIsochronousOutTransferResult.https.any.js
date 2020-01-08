@@ -1,10 +1,3 @@
-/
-/
-META
-:
-global
-=
-sharedworker
 '
 use
 strict
