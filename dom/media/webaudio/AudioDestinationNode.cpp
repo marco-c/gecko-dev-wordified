@@ -1494,6 +1494,14 @@ aInput
 IsMuted
 (
 )
+|
+|
+!
+aInput
+.
+IsAudible
+(
+)
 ;
 if
 (
