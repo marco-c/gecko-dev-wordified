@@ -4922,6 +4922,15 @@ from
 the
 current
 bytecode
+unless
+the
+offset
+is
+zero
+(
+missing
+case
+)
 *
 jumps
 to
@@ -4938,9 +4947,7 @@ from
 the
 current
 bytecode
-if
-not
-.
+otherwise
 *
 *
 This
