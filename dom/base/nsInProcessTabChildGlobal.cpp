@@ -1550,7 +1550,7 @@ this
 fl
 -
 >
-GetTabChildGlobalAsEventTarget
+GetTabChildGlobal
 (
 )
 "
