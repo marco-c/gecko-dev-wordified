@@ -2057,9 +2057,9 @@ F
 \
 F
 (
-Offset
+Skip
 "
-_offset
+_skip
 "
 )
 \
