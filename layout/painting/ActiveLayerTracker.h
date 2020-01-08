@@ -215,6 +215,7 @@ eCSSProperty_opacity
 *
 eCSSProperty_left
 eCSSProperty_top
+*
 eCSSProperty_right
 eCSSProperty_bottom
 *
@@ -627,8 +628,8 @@ be
 considered
 as
 being
-animated
 *
+animated
 for
 pre
 -
@@ -664,8 +665,8 @@ be
 considered
 as
 being
-animated
 *
+animated
 for
 constructing
 active
@@ -945,9 +946,9 @@ i
 e
 .
 canvas
+*
 frames
 )
-*
 and
 use
 that
