@@ -298,6 +298,7 @@ ProcessType
 :
 uint8_t
 {
+Uninitialized
 Parent
 Web
 Extension
@@ -648,6 +649,17 @@ CurrentProcessType
 (
 )
 {
+MOZ_ASSERT
+(
+sProcessType
+!
+=
+ProcessType
+:
+:
+Uninitialized
+)
+;
 return
 sProcessType
 ;
