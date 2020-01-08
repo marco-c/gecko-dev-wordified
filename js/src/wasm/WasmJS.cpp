@@ -11907,6 +11907,17 @@ external
 =
 true
 ;
+#
+ifdef
+WASM_PRIVATE_REFTYPES
+td
+.
+importedOrExported
+=
+true
+;
+#
+endif
 SharedTable
 table
 =
