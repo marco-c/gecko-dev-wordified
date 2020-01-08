@@ -92,6 +92,7 @@ util
 import
 find_decision_task
 create_tasks
+combine_task_graph_files
 from
 taskgraph
 .
@@ -662,6 +663,11 @@ pushes
 -
 depth
 :
+]
+    
+backfill_pushes
+=
+[
 ]
     
 for
@@ -1646,6 +1652,13 @@ modifier
 =
 modifier
 )
+            
+backfill_pushes
+.
+append
+(
+push
+)
         
 else
 :
@@ -1673,6 +1686,11 @@ format
 label
 push
 )
+)
+    
+combine_task_graph_files
+(
+backfill_pushes
 )
 def
 remove_args_from_command
