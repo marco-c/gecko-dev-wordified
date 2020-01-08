@@ -1288,6 +1288,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIMutationObserver
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsIEditorMailSupport
+)
 NS_INTERFACE_MAP_END_INHERITING
 (
 TextEditor
