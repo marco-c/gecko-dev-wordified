@@ -859,8 +859,8 @@ of
 finish
 (
 )
-UniqueLinkDataTier
-linkDataTier_
+UniqueLinkData
+linkData_
 ;
 UniqueMetadataTier
 metadataTier_
@@ -1292,6 +1292,11 @@ const
 ShareableBytes
 &
 bytecode
+UniqueLinkData
+*
+linkData
+=
+nullptr
 )
 ;
 MOZ_MUST_USE
