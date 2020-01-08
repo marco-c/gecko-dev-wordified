@@ -929,6 +929,14 @@ flags
 "
 APPLIES_TO_FIRST_LETTER
 "
+boxed
+=
+product
+=
+=
+"
+servo
+"
 )
 }
 {
