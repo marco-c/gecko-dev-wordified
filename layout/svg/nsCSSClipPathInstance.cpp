@@ -259,7 +259,7 @@ void
 nsCSSClipPathInstance
 :
 :
-ApplyBasicShapeClip
+ApplyBasicShapeOrPathClip
 (
 gfxContext
 &
@@ -396,7 +396,7 @@ bool
 nsCSSClipPathInstance
 :
 :
-HitTestBasicShapeClip
+HitTestBasicShapeOrPathClip
 (
 nsIFrame
 *
@@ -572,7 +572,7 @@ Rect
 nsCSSClipPathInstance
 :
 :
-GetBoundingRectForBasicShapeClip
+GetBoundingRectForBasicShapeOrPathClip
 (
 nsIFrame
 *

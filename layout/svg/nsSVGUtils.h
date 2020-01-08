@@ -4147,7 +4147,7 @@ bool
 shouldApplyClipPath
 ;
 bool
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 ;
 float
 opacity
@@ -4168,7 +4168,7 @@ shouldApplyClipPath
 (
 false
 )
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 (
 false
 )
@@ -4195,7 +4195,7 @@ shouldGenerateClipMaskLayer
 shouldApplyClipPath
 |
 |
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 |
 |
 opacity

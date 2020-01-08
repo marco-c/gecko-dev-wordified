@@ -3081,7 +3081,7 @@ Path
 :
 aUsage
 .
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 =
 true
 ;
@@ -3110,7 +3110,7 @@ shouldApplyClipPath
 !
 aUsage
 .
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 )
 ;
 break
@@ -4896,7 +4896,7 @@ shouldApplyClipPath
 |
 maskUsage
 .
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 )
 {
 if
@@ -4922,7 +4922,7 @@ else
 nsCSSClipPathInstance
 :
 :
-ApplyBasicShapeClip
+ApplyBasicShapeOrPathClip
 (
 aContext
 aFrame
@@ -5211,7 +5211,7 @@ shouldApplyClipPath
 |
 maskUsage
 .
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 )
 {
 aContext
@@ -5323,7 +5323,7 @@ return
 nsCSSClipPathInstance
 :
 :
-HitTestBasicShapeClip
+HitTestBasicShapeOrPathClip
 (
 aFrame
 aPoint
