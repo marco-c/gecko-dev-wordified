@@ -73,7 +73,10 @@ values
 computed
 :
 :
+{
+Integer
 Number
+}
 ;
 use
 values
@@ -103,7 +106,7 @@ TimingFunction
 =
 GenericTimingFunction
 <
-u32
+Integer
 Number
 >
 ;

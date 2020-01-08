@@ -152,7 +152,7 @@ function_type
 nsTimingFunction_Type
 steps
 :
-u32
+i32
 )
 {
 debug_assert
@@ -209,6 +209,8 @@ as_mut
 mSteps
 =
 steps
+as
+u32
 ;
 }
 }
@@ -396,8 +398,6 @@ steps
 value
 (
 )
-as
-u32
 )
 ;
 }
@@ -441,8 +441,6 @@ steps
 value
 (
 )
-as
-u32
 )
 ;
 }
@@ -582,6 +580,8 @@ as_ref
 )
 .
 mSteps
+as
+i32
 }
 StepPosition
 :
@@ -612,6 +612,8 @@ as_ref
 )
 .
 mSteps
+as
+i32
 }
 StepPosition
 :
