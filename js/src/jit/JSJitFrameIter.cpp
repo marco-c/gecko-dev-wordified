@@ -2526,7 +2526,7 @@ if
 JS
 :
 :
-CurrentThreadIsHeapMinorCollecting
+RuntimeHeapIsMinorCollecting
 (
 )
 )

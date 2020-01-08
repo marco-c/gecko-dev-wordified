@@ -2407,7 +2407,7 @@ if
 JS
 :
 :
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 )

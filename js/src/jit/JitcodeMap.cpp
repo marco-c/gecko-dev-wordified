@@ -4770,7 +4770,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapMinorCollecting
+RuntimeHeapIsMinorCollecting
 (
 )
 )
@@ -5182,7 +5182,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapMinorCollecting
+RuntimeHeapIsMinorCollecting
 (
 )
 )

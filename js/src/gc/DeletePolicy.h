@@ -591,7 +591,7 @@ if
 JS
 :
 :
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 )

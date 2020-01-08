@@ -10541,7 +10541,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -19830,7 +19830,7 @@ if
 JS
 :
 :
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 )
@@ -19925,7 +19925,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 )
@@ -20242,7 +20242,7 @@ if
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -20582,7 +20582,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 )
@@ -22045,7 +22045,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -22084,7 +22084,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -36527,7 +36527,7 @@ of
 lock
 but
 with
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 *
@@ -42562,7 +42562,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -42585,7 +42585,7 @@ HeapState
 JS
 :
 :
-CurrentThreadHeapState
+RuntimeHeapState
 (
 )
 {
@@ -47033,7 +47033,7 @@ MOZ_RELEASE_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -48527,7 +48527,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -51532,7 +51532,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapMajorCollecting
+RuntimeHeapIsMajorCollecting
 (
 )
 )
@@ -51607,7 +51607,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapMajorCollecting
+RuntimeHeapIsMajorCollecting
 (
 )
 )
@@ -51660,7 +51660,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapMajorCollecting
+RuntimeHeapIsMajorCollecting
 (
 )
 )
@@ -52626,7 +52626,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -52658,7 +52658,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapCycleCollecting
+RuntimeHeapIsCycleCollecting
 (
 )
 )
@@ -52693,7 +52693,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 )
@@ -54661,7 +54661,7 @@ if
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -54737,7 +54737,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapMajorCollecting
+RuntimeHeapIsMajorCollecting
 (
 )
 )
@@ -54806,7 +54806,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapMajorCollecting
+RuntimeHeapIsMajorCollecting
 (
 )
 )
@@ -57001,7 +57001,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapCycleCollecting
+RuntimeHeapIsCycleCollecting
 (
 )
 )

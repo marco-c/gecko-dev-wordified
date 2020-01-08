@@ -1586,7 +1586,7 @@ scheduleGC
 MOZ_ASSERT
 (
 !
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -1678,7 +1678,7 @@ next
 {
 MOZ_ASSERT
 (
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -1742,7 +1742,7 @@ const
 {
 if
 (
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 )
@@ -1794,7 +1794,7 @@ runtimeFromAnyThread
 )
 ;
 return
-CurrentThreadIsHeapMajorCollecting
+RuntimeHeapIsMajorCollecting
 (
 )
 &

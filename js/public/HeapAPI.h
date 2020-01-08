@@ -3954,7 +3954,7 @@ like
 to
 assert
 !
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 here
@@ -3991,7 +3991,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 )
@@ -4276,7 +4276,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapMinorCollecting
+RuntimeHeapIsMinorCollecting
 (
 )
 )

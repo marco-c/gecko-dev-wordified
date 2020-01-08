@@ -4266,7 +4266,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 )

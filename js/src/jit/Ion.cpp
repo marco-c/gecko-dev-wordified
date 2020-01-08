@@ -3533,7 +3533,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapMinorCollecting
+RuntimeHeapIsMinorCollecting
 (
 )
 )
@@ -4731,7 +4731,7 @@ movingObjects
 JS
 :
 :
-CurrentThreadIsHeapMinorCollecting
+RuntimeHeapIsMinorCollecting
 (
 )
 |

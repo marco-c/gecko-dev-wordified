@@ -824,7 +824,7 @@ since
 .
 During
 TraceRuntime
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 is
@@ -856,7 +856,7 @@ true
 but
 /
 /
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 will
@@ -867,7 +867,7 @@ return
 JS
 :
 :
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 &

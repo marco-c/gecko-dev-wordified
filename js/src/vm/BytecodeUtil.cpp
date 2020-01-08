@@ -6933,7 +6933,7 @@ if
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 |

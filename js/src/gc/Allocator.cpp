@@ -2360,7 +2360,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 )
@@ -2989,7 +2989,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapBusy
+RuntimeHeapIsBusy
 (
 )
 "
@@ -3177,7 +3177,7 @@ MOZ_ASSERT
 JS
 :
 :
-CurrentThreadIsHeapCollecting
+RuntimeHeapIsCollecting
 (
 )
 )
@@ -3188,7 +3188,7 @@ MOZ_ASSERT_IF
 JS
 :
 :
-CurrentThreadIsHeapMinorCollecting
+RuntimeHeapIsMinorCollecting
 (
 )
 !

@@ -250,7 +250,7 @@ return
 JS
 :
 :
-CurrentThreadIsHeapMajorCollecting
+RuntimeHeapIsMajorCollecting
 (
 )
 ;
