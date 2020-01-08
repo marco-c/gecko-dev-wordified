@@ -573,7 +573,7 @@ level
 .
 BrowserSearch
 .
-loadSearch
+_loadSearch
 (
 "
 foo
@@ -582,6 +582,13 @@ false
 "
 contextmenu
 "
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 }

@@ -2988,6 +2988,14 @@ getTabForBrowser
 aBrowser
 )
 0
+null
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 let

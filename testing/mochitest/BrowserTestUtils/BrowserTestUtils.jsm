@@ -1376,10 +1376,11 @@ selectedTab
 =
 tab
 =
-tabbrowser
+BrowserTestUtils
 .
 addTab
 (
+tabbrowser
 opening
 )
 ;

@@ -1390,7 +1390,7 @@ _win
 .
 gBrowser
 .
-addTab
+addTrustedTab
 (
 "
 chrome
