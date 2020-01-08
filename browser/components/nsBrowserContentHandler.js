@@ -5044,11 +5044,7 @@ bwin
 =
 navWin
 .
-docShell
-.
-rootTreeItem
-.
-domWindow
+browserDOMWindow
 ;
 bwin
 .
