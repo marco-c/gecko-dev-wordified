@@ -606,7 +606,7 @@ include
 "
 mozilla
 /
-FullscreenRequest
+FullscreenChange
 .
 h
 "

@@ -788,7 +788,7 @@ EventStates
 class
 EventListenerManager
 ;
-struct
+class
 FullscreenRequest
 ;
 class
