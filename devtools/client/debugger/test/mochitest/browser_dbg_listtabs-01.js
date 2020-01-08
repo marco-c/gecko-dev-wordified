@@ -300,7 +300,7 @@ gTab1
 aTab
 ;
 return
-getTabActorForUrl
+getTargetActorForUrl
 (
 gClient
 TAB1_URL
@@ -319,7 +319,7 @@ aGrip
 Should
 find
 a
-tab
+target
 actor
 for
 the
@@ -364,7 +364,7 @@ gTab2
 aTab
 ;
 return
-getTabActorForUrl
+getTargetActorForUrl
 (
 gClient
 TAB1_URL
@@ -377,7 +377,7 @@ aFirstGrip
 >
 {
 return
-getTabActorForUrl
+getTargetActorForUrl
 (
 gClient
 TAB2_URL
@@ -417,7 +417,7 @@ aSecondGrip
 Should
 find
 a
-tab
+target
 actor
 for
 the
@@ -462,7 +462,7 @@ then
 >
 {
 return
-getTabActorForUrl
+getTargetActorForUrl
 (
 gClient
 TAB1_URL
@@ -484,7 +484,7 @@ Shouldn
 t
 find
 a
-tab
+target
 actor
 for
 the
@@ -551,7 +551,7 @@ Attaching
 to
 an
 exited
-tab
+target
 actor
 shouldn
 '

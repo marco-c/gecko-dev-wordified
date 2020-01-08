@@ -249,7 +249,7 @@ options
 type
 :
 {
-tab
+target
 :
 true
 }

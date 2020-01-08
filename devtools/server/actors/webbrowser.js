@@ -614,8 +614,10 @@ a
 BrowserTabList
 to
 supply
-tab
+target
 actors
+for
+tabs
 *
 -
 sends
@@ -797,7 +799,7 @@ this
 list
 '
 s
-tab
+target
 actors
 may
 participate
@@ -1034,7 +1036,7 @@ live
 tabs
 and
 mark
-tab
+target
 actors
 as
 closed
@@ -1077,9 +1079,9 @@ make
 each
 individual
 attached
-tab
-actor
+target
 *
+actor
 responsible
 for
 noticing
@@ -1093,8 +1095,8 @@ we
 watch
 for
 that
-and
 *
+and
 promise
 to
 call
@@ -1112,8 +1114,8 @@ it
 s
 closed
 regardless
-of
 *
+of
 how
 we
 learn
@@ -1505,7 +1507,7 @@ element
 *
 to
 the
-tab
+target
 actor
 we
 '
@@ -1562,6 +1564,7 @@ the
 tab
 '
 s
+target
 actor
 and
 exit

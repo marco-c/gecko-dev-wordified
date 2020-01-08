@@ -2804,7 +2804,7 @@ DebuggerServer
 registerActors
 (
 {
-tab
+target
 :
 true
 }

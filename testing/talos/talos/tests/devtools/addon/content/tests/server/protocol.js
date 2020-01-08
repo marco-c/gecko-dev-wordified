@@ -317,7 +317,7 @@ DampTestActor
 type
 :
 {
-tab
+target
 :
 true
 }

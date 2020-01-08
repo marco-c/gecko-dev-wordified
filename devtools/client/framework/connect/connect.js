@@ -874,7 +874,7 @@ document
 getElementById
 (
 "
-tabActors
+tabTargetActors
 "
 )
 ;
@@ -1287,7 +1287,6 @@ an
 add
 -
 on
-actor
 .
 *
 /
@@ -1380,7 +1379,6 @@ button
 for
 a
 tab
-actor
 .
 *
 /

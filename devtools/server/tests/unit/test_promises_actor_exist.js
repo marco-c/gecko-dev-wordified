@@ -53,8 +53,9 @@ PromisesActor
 exists
 in
 the
-TabActors
+BrowsingContextTargetActors
 and
+*
 ParentProcessTargetActors
 .
 *

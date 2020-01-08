@@ -197,7 +197,7 @@ gTab
 aTab
 ;
 return
-attachTabActorForUrl
+attachTargetActorForUrl
 (
 gClient
 TAB_URL

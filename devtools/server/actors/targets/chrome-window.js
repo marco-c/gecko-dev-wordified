@@ -385,7 +385,9 @@ BrowsingContextTargetActor
 ChromeWindowTargetActor
 exposes
 all
-tab
+target
+-
+scoped
 actors
 via
 its
