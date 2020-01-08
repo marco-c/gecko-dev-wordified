@@ -238,10 +238,11 @@ addTab
 gBrowser
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 TESTROOT
 +
 "
