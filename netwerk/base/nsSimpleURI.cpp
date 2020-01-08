@@ -2717,8 +2717,6 @@ NS_EscapeURL
 (
 aRef
 esc_OnlyNonASCII
-|
-esc_Spaces
 ref
 fallible
 )
