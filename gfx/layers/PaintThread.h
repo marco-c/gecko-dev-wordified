@@ -971,7 +971,7 @@ CapturedTiledPaintState
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-CapturedTiledPaintState
+CapturedPaintState
 )
 public
 :
