@@ -3450,6 +3450,25 @@ RunnerManagerState
 initializing
 )
         
+if
+self
+.
+browser
+.
+check_for_crashes
+(
+)
+:
+            
+self
+.
+browser
+.
+log_crash
+(
+None
+)
+        
 self
 .
 browser

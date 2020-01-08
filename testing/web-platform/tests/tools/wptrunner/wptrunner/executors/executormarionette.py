@@ -3,8 +3,6 @@ json
 import
 os
 import
-socket
-import
 threading
 import
 traceback
@@ -383,12 +381,7 @@ socket_timeout
 2
             
 except
-(
-socket
-.
-error
 IOError
-)
 :
                 
 self
@@ -457,12 +450,7 @@ out
 pass
             
 except
-(
-socket
-.
-timeout
 IOError
-)
 :
                 
 self
@@ -2239,9 +2227,7 @@ except
 errors
 .
 MarionetteException
-socket
-.
-error
+IOError
 )
 :
                 
@@ -2805,9 +2791,7 @@ except
 errors
 .
 MarionetteException
-socket
-.
-error
+IOError
 )
 :
                 
@@ -2978,9 +2962,7 @@ except
 errors
 .
 MarionetteException
-socket
-.
-error
+IOError
 )
 :
                 
@@ -3994,12 +3976,7 @@ None
 )
         
 except
-(
-socket
-.
-timeout
 IOError
-)
 :
             
 #
