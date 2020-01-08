@@ -6856,6 +6856,10 @@ executed_tests
 =
 0
         
+executed_too_many_tests
+=
+False
+        
 if
 suites
 :
@@ -6883,6 +6887,18 @@ suite
 in
 suites
 :
+                
+if
+executed_too_many_tests
+and
+not
+self
+.
+per_test_coverage
+:
+                    
+return
+False
                 
 abs_base_cmd
 =
@@ -7444,10 +7460,6 @@ summary
 =
 {
 }
-                
-executed_too_many_tests
-=
-False
                 
 for
 per_test_args
@@ -8046,11 +8058,11 @@ level
 =
 log_level
 )
-                
+            
 if
 executed_too_many_tests
 :
-                    
+                
 return
 False
         

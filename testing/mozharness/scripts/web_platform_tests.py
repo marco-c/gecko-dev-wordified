@@ -2739,6 +2739,10 @@ executed_tests
 =
 0
         
+executed_too_many_tests
+=
+False
+        
 if
 self
 .
@@ -2857,6 +2861,17 @@ suites
 :
             
 if
+executed_too_many_tests
+and
+not
+self
+.
+per_test_coverage
+:
+                
+continue
+            
+if
 suite
 :
                 
@@ -2870,10 +2885,6 @@ summary
 =
 {
 }
-            
-executed_too_many_tests
-=
-False
             
 for
 per_test_args
