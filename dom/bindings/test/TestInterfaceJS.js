@@ -275,8 +275,9 @@ this
 _objectArg
 ;
 }
-get
-dictionaryArg
+getDictionaryArg
+:
+function
 (
 )
 {
@@ -334,8 +335,9 @@ _objectAttr
 val
 ;
 }
-get
-dictionaryAttr
+getDictionaryAttr
+:
+function
 (
 )
 {
@@ -345,8 +347,9 @@ this
 _dictionaryAttr
 ;
 }
-set
-dictionaryAttr
+setDictionaryAttr
+:
+function
 (
 val
 )
