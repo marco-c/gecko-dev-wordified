@@ -142,7 +142,7 @@ charset
 "
 UTF
 -
-8
+16
 "
 tags
 :
@@ -196,7 +196,7 @@ charset
 "
 UTF
 -
-8
+16
 "
 tags
 :
@@ -264,7 +264,7 @@ charset
 "
 UTF
 -
-8
+16
 "
 tags
 :
@@ -413,7 +413,7 @@ charset
 "
 UTF
 -
-8
+16
 "
 )
 ;
