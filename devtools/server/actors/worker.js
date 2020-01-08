@@ -1706,6 +1706,11 @@ true
 !
 !
 activeWorker
+lastUpdateTime
+:
+registration
+.
+lastUpdateTime
 }
 ;
 }
