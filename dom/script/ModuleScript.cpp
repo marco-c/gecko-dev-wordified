@@ -332,7 +332,7 @@ MOZ_ASSERT
 JS
 :
 :
-GetModuleHostDefinedField
+GetModulePrivate
 (
 mModuleRecord
 )
@@ -348,7 +348,7 @@ this
 JS
 :
 :
-SetModuleHostDefinedField
+SetModulePrivate
 (
 mModuleRecord
 JS
@@ -468,7 +468,7 @@ UnlinkModuleRecord
 JS
 :
 :
-SetModuleHostDefinedField
+SetModulePrivate
 (
 mModuleRecord
 JS

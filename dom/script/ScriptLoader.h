@@ -2831,10 +2831,12 @@ JS
 :
 Handle
 <
-JSObject
-*
+JS
+:
+:
+Value
 >
-aModule
+aReferencingPrivate
 JS
 :
 :
