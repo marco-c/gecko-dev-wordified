@@ -3745,8 +3745,15 @@ typename
 T
 >
 void
-atomicStore64
+wasmAtomicStore64
 (
+const
+wasm
+:
+:
+MemoryAccessDesc
+&
+access
 const
 T
 &
