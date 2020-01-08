@@ -1571,6 +1571,13 @@ Builder
 (
 )
 .
+crashHandler
+(
+CrashHandlerService
+.
+class
+)
+.
 arguments
 (
 getDefaultGeckoArgs
@@ -1783,6 +1790,9 @@ GeckoAppShell
 .
 ensureCrashHandling
 (
+CrashHandlerService
+.
+class
 )
 ;
 GeckoAppShell
