@@ -20910,7 +20910,7 @@ aggregated
 information
 on
 the
-compartment
+realm
 .
 MOZ_ASSERT_IF
 (
@@ -20958,7 +20958,7 @@ hasScriptName
 )
 )
 {
-compartment
+realm
 (
 )
 -
@@ -20967,7 +20967,7 @@ lcovOutput
 .
 collectCodeCoverageInfo
 (
-compartment
+realm
 (
 )
 this
