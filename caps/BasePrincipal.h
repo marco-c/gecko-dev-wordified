@@ -585,15 +585,6 @@ aPrivateBrowsingId
 )
 final
 ;
-NS_IMETHOD
-GetSiteOrigin
-(
-nsACString
-&
-aOrigin
-)
-override
-;
 virtual
 bool
 AddonHasPermission
