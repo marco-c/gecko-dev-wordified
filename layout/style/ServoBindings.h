@@ -4610,8 +4610,10 @@ len
 void
 Gecko_AnnotateCrashReport
 (
-uint32_t
-key
+const
+char
+*
+key_str
 const
 char
 *

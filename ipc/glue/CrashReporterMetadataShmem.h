@@ -211,10 +211,9 @@ processes
 void
 AnnotateCrashReport
 (
-CrashReporter
-:
-:
-Annotation
+const
+nsCString
+&
 aKey
 const
 nsCString
@@ -243,7 +242,7 @@ CrashReporter
 :
 :
 AnnotationTable
-&
+*
 aNotes
 )
 ;
@@ -260,7 +259,7 @@ Shmem
 mShmem
 ;
 AnnotationTable
-mAnnotations
+mNotes
 ;
 nsCString
 mAppNotes
