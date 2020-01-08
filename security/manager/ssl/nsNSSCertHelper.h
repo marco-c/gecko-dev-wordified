@@ -96,14 +96,6 @@ const
 size_t
 kRootModuleNameLen
 ;
-uint32_t
-getCertType
-(
-CERTCertificate
-*
-cert
-)
-;
 nsresult
 GetCertFingerprintByOidTag
 (
