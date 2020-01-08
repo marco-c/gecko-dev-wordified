@@ -61,21 +61,17 @@ MULTIPLE_CONTEXTS_URL
 ;
 const
 {
-gFront
+front
 EVENTS
-ShadersListView
-ShadersEditorsView
+shadersListView
+shadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SHADER_COMPILED
@@ -129,14 +125,12 @@ all
 [
 getPrograms
 (
-gFront
+front
 2
 )
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -148,7 +142,7 @@ const
 vsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -161,7 +155,7 @@ const
 fsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -233,8 +227,6 @@ changed
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -270,7 +262,7 @@ onward
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -303,7 +295,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -336,7 +328,7 @@ canvas2
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -369,7 +361,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -399,7 +391,7 @@ canvas2
 "
 )
 ;
-ShadersListView
+shadersListView
 .
 _onProgramMouseOver
 (
@@ -417,7 +409,7 @@ panel
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -450,7 +442,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -483,7 +475,7 @@ canvas2
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -516,7 +508,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -560,7 +552,7 @@ highlighted
 "
 )
 ;
-ShadersListView
+shadersListView
 .
 _onProgramMouseOut
 (
@@ -575,7 +567,7 @@ panel
 }
 )
 ;
-ShadersListView
+shadersListView
 .
 _onProgramMouseOver
 (
@@ -593,7 +585,7 @@ panel
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -626,7 +618,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -659,7 +651,7 @@ canvas2
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -692,7 +684,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -736,7 +728,7 @@ highlighted
 "
 )
 ;
-ShadersListView
+shadersListView
 .
 _onProgramMouseOut
 (
@@ -754,7 +746,7 @@ panel
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -787,7 +779,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -820,7 +812,7 @@ canvas2
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -853,7 +845,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -897,7 +889,7 @@ unhighlighted
 "
 )
 ;
-ShadersListView
+shadersListView
 .
 _onProgramMouseOver
 (
@@ -915,7 +907,7 @@ panel
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -948,7 +940,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -981,7 +973,7 @@ canvas2
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -1014,7 +1006,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -1063,7 +1055,7 @@ checkbox
 "
 )
 ;
-ShadersListView
+shadersListView
 .
 _onProgramMouseOut
 (
@@ -1081,7 +1073,7 @@ panel
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -1114,7 +1106,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -1147,7 +1139,7 @@ canvas2
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :
@@ -1180,7 +1172,7 @@ canvas1
 await
 ensurePixelIs
 (
-gFront
+front
 {
 x
 :

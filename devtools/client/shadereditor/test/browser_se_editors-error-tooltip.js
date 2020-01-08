@@ -76,14 +76,12 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-gFront
+front
 EVENTS
-ShadersEditorsView
+shadersEditorsView
 }
 =
 panel
-.
-panelWin
 ;
 reload
 (
@@ -98,7 +96,7 @@ all
 [
 once
 (
-gFront
+front
 "
 program
 -
@@ -108,8 +106,6 @@ linked
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -121,7 +117,7 @@ const
 vsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -134,7 +130,7 @@ const
 fsEditor
 =
 await
-ShadersEditorsView
+shadersEditorsView
 .
 _getEditor
 (
@@ -172,8 +168,6 @@ await
 once
 (
 panel
-.
-panelWin
 EVENTS
 .
 SHADER_COMPILED
@@ -231,7 +225,7 @@ error
 const
 parsed
 =
-ShadersEditorsView
+shadersEditorsView
 .
 _errors
 .
@@ -242,7 +236,7 @@ vs
 .
 messages
 ;
-ShadersEditorsView
+shadersEditorsView
 .
 _onMarkerMouseOver
 (
