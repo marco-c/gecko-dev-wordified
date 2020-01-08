@@ -573,6 +573,8 @@ innerWindowId
 window
 .
 windowUtils
+.
+currentInnerWindowID
 ;
 const
 errorFlag
