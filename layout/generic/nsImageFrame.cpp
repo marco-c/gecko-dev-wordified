@@ -8023,10 +8023,10 @@ NS_FOR_CSS_SIDES
 side
 )
 {
-mBorderColor
-[
+BorderColorFor
+(
 side
-]
+)
 =
 StyleComplexColor
 :
