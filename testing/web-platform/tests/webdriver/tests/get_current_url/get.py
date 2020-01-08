@@ -141,16 +141,6 @@ session
 )
 )
 )
-#
-TODO
-(
-ato
-)
-:
-7
-.
-1
-Get
 def
 test_get_current_url_no_browsing_context
 (
@@ -158,13 +148,6 @@ session
 create_window
 )
 :
-    
-#
-7
-.
-2
-step
-1
     
 session
 .
@@ -203,13 +186,6 @@ session
 )
 :
     
-#
-7
-.
-2
-step
-3
-    
 url
 =
 session
@@ -244,15 +220,6 @@ test_get_current_url_payload
 session
 )
 :
-    
-#
-7
-.
-2
-step
-4
--
-5
     
 session
 .

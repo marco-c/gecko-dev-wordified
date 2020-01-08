@@ -115,13 +115,6 @@ create_window
 )
 :
     
-#
-18
-.
-2
-step
-1
-    
 session
 .
 window_handle
@@ -159,13 +152,6 @@ session
 )
 :
     
-#
-18
-.
-2
-step
-2
-    
 response
 =
 accept_alert
@@ -188,13 +174,6 @@ test_accept_alert
 session
 )
 :
-    
-#
-18
-.
-2
-step
-3
     
 session
 .
@@ -239,13 +218,6 @@ test_accept_confirm
 session
 )
 :
-    
-#
-18
-.
-2
-step
-3
     
 session
 .
@@ -309,13 +281,6 @@ test_accept_prompt
 session
 )
 :
-    
-#
-18
-.
-2
-step
-3
     
 session
 .

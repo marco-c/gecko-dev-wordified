@@ -115,13 +115,6 @@ create_window
 )
 :
     
-#
-18
-.
-1
-step
-1
-    
 session
 .
 window_handle
@@ -159,13 +152,6 @@ session
 )
 :
     
-#
-18
-.
-1
-step
-2
-    
 response
 =
 dismiss_alert
@@ -188,13 +174,6 @@ test_dismiss_alert
 session
 )
 :
-    
-#
-18
-.
-1
-step
-3
     
 session
 .
@@ -239,13 +218,6 @@ test_dismiss_confirm
 session
 )
 :
-    
-#
-18
-.
-1
-step
-3
     
 session
 .
@@ -310,13 +282,6 @@ test_dismiss_prompt
 session
 )
 :
-    
-#
-18
-.
-1
-step
-3
     
 session
 .

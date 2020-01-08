@@ -72,13 +72,6 @@ create_window
 )
 :
     
-#
-13
-.
-6
-step
-1
-    
 session
 .
 window_handle
@@ -119,13 +112,6 @@ session
 )
 :
     
-#
-13
-.
-6
-Step
-3
-    
 result
 =
 get_element_tag_name
@@ -151,13 +137,6 @@ test_element_stale
 session
 )
 :
-    
-#
-13
-.
-6
-step
-4
     
 session
 .
@@ -222,13 +201,6 @@ test_get_element_tag_name
 session
 )
 :
-    
-#
-13
-.
-6
-step
-6
     
 session
 .

@@ -160,13 +160,6 @@ text
 )
 :
     
-#
-18
-.
-4
-step
-2
-    
 session
 .
 url
@@ -227,13 +220,6 @@ create_window
 )
 :
     
-#
-18
-.
-4
-step
-3
-    
 session
 .
 window_handle
@@ -274,13 +260,6 @@ session
 )
 :
     
-#
-18
-.
-4
-step
-4
-    
 response
 =
 send_alert_text
@@ -306,13 +285,6 @@ test_alert_element_not_interactable
 session
 )
 :
-    
-#
-18
-.
-4
-step
-5
     
 session
 .
@@ -366,13 +338,6 @@ session
 )
 :
     
-#
-18
-.
-4
-step
-5
-    
 session
 .
 url
@@ -424,13 +389,6 @@ test_send_alert_text
 session
 )
 :
-    
-#
-18
-.
-4
-step
-6
     
 session
 .
@@ -545,13 +503,6 @@ test_send_alert_text_with_whitespace
 session
 )
 :
-    
-#
-18
-.
-4
-step
-6
     
 session
 .

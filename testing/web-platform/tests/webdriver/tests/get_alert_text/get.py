@@ -55,13 +55,6 @@ session
 )
 )
 )
-#
-18
-.
-3
-Get
-Alert
-Text
 def
 test_no_browsing_context
 (
@@ -69,13 +62,6 @@ session
 create_window
 )
 :
-    
-#
-18
-.
-3
-step
-1
     
 session
 .
@@ -114,13 +100,6 @@ session
 )
 :
     
-#
-18
-.
-3
-step
-2
-    
 response
 =
 get_alert_text
@@ -143,13 +122,6 @@ test_get_alert_text
 session
 )
 :
-    
-#
-18
-.
-3
-step
-3
     
 session
 .
@@ -239,13 +211,6 @@ session
 )
 :
     
-#
-18
-.
-3
-step
-3
-    
 session
 .
 url
@@ -333,13 +298,6 @@ test_get_prompt_text
 session
 )
 :
-    
-#
-18
-.
-3
-step
-3
     
 session
 .

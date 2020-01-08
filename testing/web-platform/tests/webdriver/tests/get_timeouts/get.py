@@ -51,13 +51,6 @@ session
 )
 :
     
-#
-8
-.
-4
-step
-1
-    
 response
 =
 get_timeouts

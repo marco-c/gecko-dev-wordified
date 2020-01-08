@@ -20,6 +20,9 @@ check_doc
 inline
 (
 "
+"
+"
+    
 <
 input
 id
@@ -29,8 +32,8 @@ type
 =
 checkbox
 checked
-/
 >
+    
 <
 input
 id
@@ -39,8 +42,10 @@ notChecked
 type
 =
 checkbox
-/
 >
+    
+"
+"
 "
 )
 option_doc
@@ -50,10 +55,11 @@ inline
 "
 "
 "
+    
 <
 select
 >
-                        
+      
 <
 option
 id
@@ -62,11 +68,7 @@ notSelected
 >
 r
 -
-<
-/
-option
->
-                        
+      
 <
 option
 id
@@ -76,16 +78,12 @@ selected
 >
 r
 +
-<
-/
-option
->
-                       
+    
 <
 /
 select
 >
-                    
+    
 "
 "
 "
@@ -147,13 +145,6 @@ create_window
 )
 :
     
-#
-13
-.
-1
-step
-1
-    
 session
 .
 window_handle
@@ -193,13 +184,6 @@ test_element_stale
 session
 )
 :
-    
-#
-13
-.
-1
-step
-4
     
 session
 .
@@ -256,13 +240,6 @@ session
 )
 :
     
-#
-13
-.
-1
-step
-5
-    
 session
 .
 url
@@ -307,13 +284,6 @@ test_checkbox_not_selected
 session
 )
 :
-    
-#
-13
-.
-1
-step
-5
     
 session
 .
@@ -360,13 +330,6 @@ session
 )
 :
     
-#
-13
-.
-1
-step
-5
-    
 session
 .
 url
@@ -411,13 +374,6 @@ test_element_not_selected
 session
 )
 :
-    
-#
-13
-.
-1
-step
-5
     
 session
 .
