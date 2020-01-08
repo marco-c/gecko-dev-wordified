@@ -457,6 +457,21 @@ subst
 {
             
 '
+package
+-
+name
+'
+:
+config
+[
+'
+package
+-
+name
+'
+]
+            
+'
 sfx
 -
 stub

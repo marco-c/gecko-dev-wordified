@@ -644,6 +644,11 @@ by
 mozharness
 (
 {
+package
+-
+name
+}
+{
 installer
 -
 tag
@@ -929,7 +934,11 @@ package
 name
 "
 "
-firefox
+{
+package
+-
+name
+}
 "
             
 "
