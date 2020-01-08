@@ -377,10 +377,10 @@ use
 this
 .
 void
-SetDesciptor
+SetDescriptor
 (
-const
 BufferDescriptor
+&
 &
 aDesc
 )
