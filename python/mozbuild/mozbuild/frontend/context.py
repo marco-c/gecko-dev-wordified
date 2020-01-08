@@ -14235,11 +14235,7 @@ XPIDL_SOURCES
 '
 :
 (
-ContextDerivedTypedList
-(
-SourcePath
 StrictOrderingOnAppendList
-)
 list
         
 "
