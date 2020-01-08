@@ -1877,11 +1877,6 @@ uri
 )
 ;
 }
-onPageAnnotationSet
-(
-)
-{
-}
 onItemAnnotationSet
 (
 itemId
@@ -1913,11 +1908,6 @@ dontUpdateLastModified
 }
 )
 ;
-}
-onPageAnnotationRemoved
-(
-)
-{
 }
 onItemAnnotationRemoved
 (

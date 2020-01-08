@@ -69,16 +69,6 @@ onItemAnnotationRemoved
 )
 {
 }
-onPageAnnotationSet
-(
-)
-{
-}
-onPageAnnotationRemoved
-(
-)
-{
-}
 QueryInterface
 :
 ChromeUtils
