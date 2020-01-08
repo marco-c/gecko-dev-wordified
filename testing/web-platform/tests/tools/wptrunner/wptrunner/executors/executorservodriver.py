@@ -323,7 +323,7 @@ WebDriver
 "
         
 #
-Largish
+Large
 timeout
 for
 the
@@ -350,7 +350,7 @@ port
 )
 timeout
 =
-120
+300
 )
         
 self
