@@ -150,7 +150,9 @@ include
 "
 mozilla
 /
-IntegerRange
+dom
+/
+CSSStyleRule
 .
 h
 "
@@ -159,7 +161,7 @@ include
 "
 mozilla
 /
-ServoStyleRule
+IntegerRange
 .
 h
 "
@@ -574,7 +576,7 @@ rule
 =
 static_cast
 <
-ServoStyleRule
+CSSStyleRule
 &
 >
 (
@@ -762,7 +764,7 @@ rule
 =
 static_cast
 <
-ServoStyleRule
+CSSStyleRule
 &
 >
 (
