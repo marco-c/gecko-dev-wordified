@@ -390,8 +390,9 @@ recordreplay
 IsRecordingOrReplaying
 (
 )
-)
-{
+&
+&
+!
 recordreplay
 :
 :
@@ -399,6 +400,12 @@ child
 :
 :
 OnVsync
+(
+)
+)
+{
+return
+IPC_OK
 (
 )
 ;
