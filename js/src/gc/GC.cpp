@@ -48755,15 +48755,12 @@ up
 the
 principals
 .
-JS_SetCompartmentPrincipals
-(
 JS
 :
 :
-GetCompartmentForRealm
+SetRealmPrincipals
 (
 realm
-)
 principals
 )
 ;

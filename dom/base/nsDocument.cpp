@@ -13627,7 +13627,7 @@ the
 principal
 on
 the
-compartment
+realm
 .
 if
 (
@@ -13649,7 +13649,7 @@ win
 )
 -
 >
-RefreshCompartmentPrincipal
+RefreshRealmPrincipal
 (
 )
 ;

@@ -2024,7 +2024,7 @@ windows
 only
 .
 void
-RefreshCompartmentPrincipal
+RefreshRealmPrincipal
 (
 )
 ;

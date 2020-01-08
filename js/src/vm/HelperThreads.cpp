@@ -4855,12 +4855,15 @@ GlobalObject
 )
 )
 ;
-JS_SetCompartmentPrincipals
+JS
+:
+:
+SetRealmPrincipals
 (
 global
 -
 >
-compartment
+realm
 (
 )
 currentRealm
