@@ -244,7 +244,7 @@ defineModuleGetter
 (
 this
 "
-AppConstants
+UpdateUtils
 "
 "
 resource
@@ -255,7 +255,7 @@ gre
 /
 modules
 /
-AppConstants
+UpdateUtils
 .
 jsm
 "
@@ -3006,9 +3006,12 @@ ping
 {
 if
 (
-AppConstants
+UpdateUtils
 .
-MOZ_UPDATE_CHANNEL
+getUpdateChannel
+(
+true
+)
 =
 =
 =
