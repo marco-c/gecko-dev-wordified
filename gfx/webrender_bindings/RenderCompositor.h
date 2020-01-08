@@ -275,6 +275,17 @@ false
 ;
 }
 virtual
+bool
+UseDComp
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 LayoutDeviceIntSize
 GetBufferSize
 (

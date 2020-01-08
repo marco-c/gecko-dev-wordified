@@ -1104,6 +1104,16 @@ return
 mUseANGLE
 ;
 }
+bool
+GetUseDComp
+(
+)
+const
+{
+return
+mUseDComp
+;
+}
 layers
 :
 :
@@ -1141,6 +1151,8 @@ uint32_t
 aMaxTextureSize
 bool
 aUseANGLE
+bool
+aUseDComp
 layers
 :
 :
@@ -1163,6 +1175,10 @@ aMaxTextureSize
 mUseANGLE
 (
 aUseANGLE
+)
+mUseDComp
+(
+aUseDComp
 )
 mSyncHandle
 (
@@ -1207,6 +1223,9 @@ mMaxTextureSize
 ;
 bool
 mUseANGLE
+;
+bool
+mUseDComp
 ;
 layers
 :

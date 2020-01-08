@@ -11156,6 +11156,12 @@ mApi
 GetUseANGLE
 (
 )
+mApi
+-
+>
+GetUseDComp
+(
+)
 false
 false
 false
