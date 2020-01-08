@@ -133,7 +133,7 @@ function
 {
 const
 {
-client
+target
 walker
 animations
 }
@@ -495,9 +495,9 @@ correct
 )
 ;
 await
-client
+target
 .
-close
+destroy
 (
 )
 ;

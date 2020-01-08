@@ -96,7 +96,7 @@ function
 {
 const
 {
-client
+target
 walker
 animations
 }
@@ -276,9 +276,9 @@ API
 unmodified
 .
 await
-client
+target
 .
-close
+destroy
 (
 )
 ;
