@@ -12,6 +12,8 @@ __future__
 import
 absolute_import
 import
+io
+import
 os
 import
 mozunit
@@ -21,8 +23,6 @@ from
 mozprocess
 import
 processhandler
-import
-six
 here
 =
 os
@@ -277,10 +277,19 @@ range
         
 stream
 =
-six
+io
 .
-StringIO
+BytesIO
 (
+)
+        
+buf
+=
+io
+.
+BufferedRandom
+(
+stream
 )
         
 p
@@ -317,7 +326,7 @@ here
                                           
 stream
 =
-stream
+buf
 )
         
 p
@@ -355,6 +364,12 @@ i
 \
 n
 '
+)
+        
+buf
+.
+flush
+(
 )
         
 self
@@ -397,12 +412,12 @@ self
 .
 assertFalse
 (
-stream
+buf
 .
 closed
 )
         
-stream
+buf
 .
 close
 (
