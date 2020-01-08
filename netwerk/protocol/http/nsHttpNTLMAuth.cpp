@@ -273,13 +273,6 @@ nsISSLStatus
 h
 "
 #
-include
-"
-nsISSLStatusProvider
-.
-h
-"
-#
 endif
 #
 include
@@ -2473,9 +2466,9 @@ rv
 ;
 nsCOMPtr
 <
-nsISSLStatusProvider
+nsITransportSecurityInfo
 >
-statusProvider
+secInfo
 =
 do_QueryInterface
 (
@@ -2487,7 +2480,7 @@ if
 mUseNative
 &
 &
-statusProvider
+secInfo
 )
 {
 nsCOMPtr
@@ -2498,7 +2491,7 @@ status
 ;
 rv
 =
-statusProvider
+secInfo
 -
 >
 GetSSLStatus
