@@ -1789,7 +1789,7 @@ cx
 static
 MOZ_ALWAYS_INLINE
 bool
-IsLineTerminator
+IsRegExpLineTerminator
 (
 const
 JS
@@ -1821,7 +1821,7 @@ r
 static
 MOZ_ALWAYS_INLINE
 bool
-IsLineTerminator
+IsRegExpLineTerminator
 (
 const
 char16_t
@@ -2345,7 +2345,7 @@ true
 }
 if
 (
-IsLineTerminator
+IsRegExpLineTerminator
 (
 ch
 )

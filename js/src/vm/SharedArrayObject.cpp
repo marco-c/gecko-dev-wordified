@@ -2163,7 +2163,7 @@ trace
 static
 const
 JSFunctionSpec
-static_functions
+sharedarrray_functions
 [
 ]
 =
@@ -2174,7 +2174,7 @@ JS_FS_END
 static
 const
 JSPropertySpec
-static_properties
+sharedarrray_properties
 [
 ]
 =
@@ -2193,7 +2193,7 @@ JS_PS_END
 static
 const
 JSFunctionSpec
-prototype_functions
+sharedarray_proto_functions
 [
 ]
 =
@@ -2215,7 +2215,7 @@ JS_FS_END
 static
 const
 JSPropertySpec
-prototype_properties
+sharedarray_proto_properties
 [
 ]
 =
@@ -2264,10 +2264,10 @@ AllocKind
 FUNCTION
 >
 CreateSharedArrayBufferPrototype
-static_functions
-static_properties
-prototype_functions
-prototype_properties
+sharedarrray_functions
+sharedarrray_properties
+sharedarray_proto_functions
+sharedarray_proto_properties
 }
 ;
 const

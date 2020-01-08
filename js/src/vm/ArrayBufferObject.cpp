@@ -1797,7 +1797,7 @@ trace
 static
 const
 JSFunctionSpec
-static_functions
+arraybuffer_functions
 [
 ]
 =
@@ -1820,7 +1820,7 @@ JS_FS_END
 static
 const
 JSPropertySpec
-static_properties
+arraybuffer_properties
 [
 ]
 =
@@ -1839,7 +1839,7 @@ JS_PS_END
 static
 const
 JSFunctionSpec
-prototype_functions
+arraybuffer_proto_functions
 [
 ]
 =
@@ -1861,7 +1861,7 @@ JS_FS_END
 static
 const
 JSPropertySpec
-prototype_properties
+arraybuffer_proto_properties
 [
 ]
 =
@@ -1910,10 +1910,10 @@ AllocKind
 FUNCTION
 >
 CreateArrayBufferPrototype
-static_functions
-static_properties
-prototype_functions
-prototype_properties
+arraybuffer_functions
+arraybuffer_properties
+arraybuffer_proto_functions
+arraybuffer_proto_properties
 }
 ;
 static
