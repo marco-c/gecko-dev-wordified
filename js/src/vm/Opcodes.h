@@ -10832,7 +10832,7 @@ is
 used
 with
 the
-JSOP_INITLET
+JSOP_INITLEXICAL
 opcode
 .
 *
@@ -15173,7 +15173,7 @@ the
 bindings
 in
 the
-bock
+block
 .
 This
 operation
