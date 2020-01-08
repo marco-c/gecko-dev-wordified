@@ -934,6 +934,10 @@ nsString
 &
 hostname
 const
+bool
+&
+isHttps
+const
 OriginAttributes
 &
 aOriginAttributes
@@ -958,6 +962,10 @@ const
 nsString
 &
 hostname
+const
+bool
+&
+isHttps
 const
 OriginAttributes
 &
