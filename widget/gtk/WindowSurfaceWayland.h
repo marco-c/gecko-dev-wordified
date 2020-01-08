@@ -635,11 +635,6 @@ int
 aHeight
 )
 ;
-void
-UpdateScaleFactor
-(
-)
-;
 already_AddRefed
 <
 gfx
@@ -733,7 +728,7 @@ mFrameCallback
 ;
 wl_surface
 *
-mFrameCallbackSurface
+mLastCommittedSurface
 ;
 MessageLoop
 *
@@ -755,6 +750,9 @@ mWaylandBufferFullScreenDamage
 ;
 bool
 mIsMainThread
+;
+bool
+mNeedScaleFactorUpdate
 ;
 }
 ;
