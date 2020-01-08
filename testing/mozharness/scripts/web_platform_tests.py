@@ -128,6 +128,8 @@ path
 ]
 )
 )
+import
+mozinfo
 from
 mozharness
 .
@@ -1456,6 +1458,18 @@ directory
 #
 Exit
         
+mozinfo
+.
+find_and_update_from_json
+(
+dirs
+[
+'
+abs_test_install_dir
+'
+]
+)
+        
 cmd
 +
 =
@@ -1647,8 +1661,25 @@ by
 -
 dir
 =
-3
+%
+i
 "
+%
+(
+3
+if
+not
+mozinfo
+.
+info
+[
+"
+asan
+"
+]
+else
+0
+)
                 
 "
 -
