@@ -1812,6 +1812,8 @@ aRegion
 const
 SurfaceFormat
 aFormat
+bool
+aUseOptimalFillOp
 )
 {
 AUTO_PROFILER_LABEL
@@ -2059,6 +2061,11 @@ checked
 the
 target
 above
+if
+(
+aUseOptimalFillOp
+)
+{
 tmpCtx
 -
 >
@@ -2069,6 +2076,7 @@ OptimalFillOp
 )
 )
 ;
+}
 aDrawable
 -
 >
@@ -3444,6 +3452,8 @@ uint32_t
 aImageFlags
 gfxFloat
 aOpacity
+bool
+aUseOptimalFillOp
 )
 {
 AUTO_PROFILER_LABEL
@@ -3752,6 +3762,7 @@ aDrawable
 aContext
 aRegion
 aFormat
+aUseOptimalFillOp
 )
 ;
 if

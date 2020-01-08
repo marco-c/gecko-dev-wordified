@@ -8038,6 +8038,7 @@ flags
 aParams
 .
 opacity
+false
 )
 ;
 #
