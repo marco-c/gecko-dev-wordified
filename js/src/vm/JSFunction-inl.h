@@ -207,10 +207,9 @@ explicitName
 *
 bytes
 =
-StringToNewUTF8CharsZ
+EncodeLatin1
 (
 cx
-*
 name
 )
 ;
