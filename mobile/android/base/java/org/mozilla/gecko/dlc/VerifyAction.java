@@ -152,6 +152,7 @@ File
 Verify
 :
 Validate
+already
 downloaded
 content
 .
@@ -436,9 +437,9 @@ Context
 context
 )
 {
-DownloadContentService
+DlcDownloadService
 .
-startDownloads
+enqueueServiceWork
 (
 context
 )
