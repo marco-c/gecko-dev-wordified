@@ -254,7 +254,7 @@ from
 *
 browser
 /
-extensions
+components
 /
 pocket
 /

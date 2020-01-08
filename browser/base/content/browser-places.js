@@ -188,7 +188,7 @@ uses
 in
 browser
 /
-extensions
+components
 /
 pocket
 /
