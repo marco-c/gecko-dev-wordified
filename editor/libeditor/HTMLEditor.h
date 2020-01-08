@@ -11507,7 +11507,7 @@ mBottomHandle
 ManualNACPtr
 mBottomRightHandle
 ;
-nsCOMPtr
+RefPtr
 <
 Element
 >
