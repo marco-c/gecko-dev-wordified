@@ -1469,10 +1469,6 @@ JS
 ZoneSet
 targetZones
 ;
-Zone
-*
-atomsZone
-;
 explicit
 Census
 (
@@ -1484,10 +1480,6 @@ cx
 cx
 (
 cx
-)
-atomsZone
-(
-nullptr
 )
 {
 }
