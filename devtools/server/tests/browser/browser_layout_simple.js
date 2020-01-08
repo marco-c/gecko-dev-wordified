@@ -71,7 +71,7 @@ function
 {
 const
 {
-target
+client
 walker
 layout
 }
@@ -241,9 +241,9 @@ node
 )
 ;
 await
-target
+client
 .
-destroy
+close
 (
 )
 ;

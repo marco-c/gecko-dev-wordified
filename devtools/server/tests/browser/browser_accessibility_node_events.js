@@ -77,7 +77,7 @@ function
 {
 const
 {
-target
+client
 walker
 accessibility
 }
@@ -1169,9 +1169,9 @@ waitForA11yShutdown
 )
 ;
 await
-target
+client
 .
-destroy
+close
 (
 )
 ;

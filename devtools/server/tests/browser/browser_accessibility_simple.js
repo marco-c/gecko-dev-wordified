@@ -153,7 +153,7 @@ const
 walker
 :
 domWalker
-target
+client
 accessibility
 }
 =
@@ -519,9 +519,9 @@ true
 )
 ;
 await
-target
+client
 .
-destroy
+close
 (
 )
 ;
