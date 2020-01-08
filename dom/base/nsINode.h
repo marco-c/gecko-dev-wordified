@@ -6346,6 +6346,13 @@ GetFlattenedTreeParentNode
 )
 const
 ;
+nsINode
+*
+GetFlattenedTreeParentNodeNonInline
+(
+)
+const
+;
 /
 *
 *
