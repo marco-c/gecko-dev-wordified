@@ -1606,7 +1606,7 @@ href
 "
 sectionData
 .
-disclaimer
+learnMore
 .
 link
 .
@@ -1619,9 +1619,13 @@ textContent
 =
 formatString
 (
-"
-prefs_topstories_sponsored_learn_more
-"
+sectionData
+.
+learnMore
+.
+link
+.
+id
 )
 ;
 }

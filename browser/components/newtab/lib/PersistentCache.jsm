@@ -312,6 +312,7 @@ key
 =
 value
 ;
+await
 this
 .
 _persist
@@ -588,6 +589,7 @@ this
 _filename
 )
 ;
+return
 OS
 .
 File

@@ -1886,7 +1886,7 @@ prefStructure
 =
 [
 {
-disclaimer
+learnMore
 :
 {
 link
