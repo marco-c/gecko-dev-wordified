@@ -124,6 +124,13 @@ frontend_Parser_h
 /
 *
 *
+[
+SMDOC
+]
+JS
+Parser
+*
+*
 JS
 parsers
 capable

@@ -132,6 +132,13 @@ h
 /
 *
 *
+[
+SMDOC
+]
+Bytecode
+Definitions
+*
+*
 JavaScript
 operation
 bytecodes

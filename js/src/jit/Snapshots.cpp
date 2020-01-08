@@ -198,6 +198,16 @@ jit
 ;
 /
 /
+[
+SMDOC
+]
+IonMonkey
+Snapshot
+encoding
+/
+/
+/
+/
 Encodings
 :
 /

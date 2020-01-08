@@ -404,6 +404,9 @@ Instance
 }
 /
 /
+[
+SMDOC
+]
 VM
 stack
 layout

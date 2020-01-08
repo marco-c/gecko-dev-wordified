@@ -194,6 +194,9 @@ h
 -
 -
 *
+[
+SMDOC
+]
 Typed
 Objects
 *

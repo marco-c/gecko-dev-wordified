@@ -3736,6 +3736,15 @@ newContents
 /
 *
 *
+[
+SMDOC
+]
+WASM
+Linear
+Memory
+structure
+*
+*
 Wasm
 Raw
 Buf

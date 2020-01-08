@@ -322,8 +322,11 @@ js
 /
 *
 *
+[
+SMDOC
+]
 JavaScript
-strings
+Strings
 *
 *
 Conceptually

@@ -166,6 +166,13 @@ js
 *
 *
 *
+[
+SMDOC
+]
+ExclusiveData
+API
+*
+*
 A
 mutual
 exclusion

@@ -111,6 +111,15 @@ MPL
 /
 *
 *
+[
+SMDOC
+]
+JS
+:
+:
+Result
+*
+*
 Result
 is
 used

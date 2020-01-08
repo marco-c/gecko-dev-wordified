@@ -4009,6 +4009,9 @@ property
 /
 /
 /
+[
+SMDOC
+]
 Shape
 Teleporting
 Optimization

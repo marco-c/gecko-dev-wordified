@@ -193,6 +193,14 @@ frontend_TokenStream_h
 /
 *
 *
+[
+SMDOC
+]
+Parser
+Token
+Stream
+*
+*
 A
 token
 stream

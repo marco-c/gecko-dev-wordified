@@ -641,6 +641,9 @@ namespace
 jit
 /
 /
+[
+SMDOC
+]
 JS
 Engine
 Threading

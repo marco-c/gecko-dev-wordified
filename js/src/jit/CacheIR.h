@@ -178,6 +178,14 @@ BaselineCacheIRStubKind
 ;
 /
 /
+[
+SMDOC
+]
+CacheIR
+/
+/
+/
+/
 CacheIR
 is
 an

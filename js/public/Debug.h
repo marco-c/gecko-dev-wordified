@@ -215,6 +215,16 @@ dbg
 {
 /
 /
+[
+SMDOC
+]
+Debugger
+builder
+API
+/
+/
+/
+/
 Helping
 embedding
 code

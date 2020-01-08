@@ -1177,6 +1177,15 @@ TemporaryTypeSet
 /
 *
 *
+[
+SMDOC
+]
+Type
+-
+Inference
+TypeSet
+*
+*
 Information
 about
 the

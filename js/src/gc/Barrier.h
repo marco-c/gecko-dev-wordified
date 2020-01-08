@@ -178,6 +178,13 @@ h
 /
 *
 *
+[
+SMDOC
+]
+GC
+Barriers
+*
+*
 A
 write
 barrier

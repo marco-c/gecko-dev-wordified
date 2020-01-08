@@ -141,6 +141,13 @@ jit
 /
 *
 *
+[
+SMDOC
+]
+Atomic
+Operations
+*
+*
 The
 atomic
 operations

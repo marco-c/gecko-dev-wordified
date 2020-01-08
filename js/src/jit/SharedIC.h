@@ -221,6 +221,17 @@ jit
 {
 /
 /
+[
+SMDOC
+]
+JIT
+Inline
+Caches
+(
+ICs
+)
+/
+/
 /
 /
 Baseline

@@ -179,13 +179,15 @@ License
 /
 /
 *
+*
+[
+SMDOC
+]
 WebAssembly
 baseline
 compiler
 (
-"
 RabaldrMonkey
-"
 )
 *
 *

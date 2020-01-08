@@ -111,6 +111,13 @@ MPL
 /
 *
 *
+[
+SMDOC
+]
+Garbage
+Collector
+*
+*
 This
 code
 implements
