@@ -1024,6 +1024,8 @@ icon
 :
 "
 pocket
+-
+save
 "
 action
 :
