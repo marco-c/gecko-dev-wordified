@@ -2796,9 +2796,16 @@ EDIT_CREDIT_CARD_DIALOG_URL
 &
 &
 arg
+&
+&
+arg
+.
+record
 )
 {
 arg
+.
+record
 =
 Object
 .
@@ -2807,6 +2814,8 @@ assign
 {
 }
 arg
+.
+record
 {
 "
 cc
@@ -2820,6 +2829,8 @@ MasterPassword
 decrypt
 (
 arg
+.
+record
 [
 "
 cc
