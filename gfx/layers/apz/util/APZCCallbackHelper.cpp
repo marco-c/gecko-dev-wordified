@@ -2474,7 +2474,9 @@ op
 but
 setting
 the
-SPCSPS
+visual
+viewport
+size
 is
 bad
 because
@@ -2482,10 +2484,10 @@ it
 can
 cause
 a
+/
+/
 stale
 value
-/
-/
 to
 be
 returned
