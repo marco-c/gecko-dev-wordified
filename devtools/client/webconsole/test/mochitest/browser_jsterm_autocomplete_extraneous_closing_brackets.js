@@ -212,7 +212,7 @@ TEST_URI
 try
 {
 await
-setInputValueForAutocompletion
+jstermSetValueAndComplete
 (
 jsterm
 "

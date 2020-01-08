@@ -299,7 +299,7 @@ jstermComplete
 value
 =
 >
-setInputValueForAutocompletion
+jstermSetValueAndComplete
 (
 jsterm
 value
@@ -493,18 +493,6 @@ jstermComplete
 "
 foo1Obj
 .
-"
-)
-;
-checkJsTermCompletionValue
-(
-jsterm
-"
-prop1
-"
-"
-foo1Obj
-completion
 "
 )
 ;
