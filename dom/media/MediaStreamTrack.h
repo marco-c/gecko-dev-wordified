@@ -2111,7 +2111,6 @@ GetParentObject
 )
 const
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -2130,8 +2129,6 @@ JSObject
 aGivenProto
 )
 override
-=
-0
 ;
 virtual
 AudioStreamTrack

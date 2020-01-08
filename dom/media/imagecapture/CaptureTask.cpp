@@ -493,7 +493,7 @@ NS_IsMainThread
 dom
 :
 :
-VideoStreamTrack
+MediaStreamTrack
 *
 track
 =
@@ -551,7 +551,7 @@ NS_IsMainThread
 dom
 :
 :
-VideoStreamTrack
+MediaStreamTrack
 *
 track
 =
