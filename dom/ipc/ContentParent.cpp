@@ -11320,6 +11320,16 @@ ChildID
 ;
 #
 endif
+BrowsingContext
+:
+:
+CleanupContexts
+(
+ChildID
+(
+)
+)
+;
 }
 bool
 ContentParent
