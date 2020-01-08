@@ -528,6 +528,7 @@ doc
 &
 &
 (
+(
 doc
 -
 >
@@ -536,6 +537,19 @@ GetSandboxFlags
 )
 &
 SANDBOXED_STORAGE_ACCESS
+)
+!
+=
+0
+|
+|
+nsContentUtils
+:
+:
+IsInPrivateBrowsing
+(
+doc
+)
 )
 )
 {
