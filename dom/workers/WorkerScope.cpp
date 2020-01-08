@@ -1096,12 +1096,15 @@ const
 bool
 globalSecure
 =
-JS_GetIsSecureContext
+JS
+:
+:
+GetIsSecureContext
 (
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 GetWrapperPreserveColor
 (
