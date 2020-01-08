@@ -7115,9 +7115,6 @@ scaleFactor
 =
 double
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

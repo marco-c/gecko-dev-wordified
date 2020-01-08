@@ -3701,9 +3701,6 @@ delta
 y
 )
 >
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

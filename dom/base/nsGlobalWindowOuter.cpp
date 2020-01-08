@@ -20589,9 +20589,6 @@ overrideDPPX
 return
 double
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

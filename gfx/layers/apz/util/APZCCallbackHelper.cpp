@@ -2260,9 +2260,6 @@ baseSize
 .
 width
 *
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -2270,9 +2267,6 @@ baseSize
 .
 height
 *
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

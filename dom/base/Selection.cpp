@@ -12299,9 +12299,6 @@ TopLeft
 nscoord
 onePx
 =
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

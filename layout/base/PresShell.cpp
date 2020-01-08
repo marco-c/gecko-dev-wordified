@@ -27858,9 +27858,6 @@ AppUnitsPerDevPixel
 )
 )
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -30867,9 +30864,6 @@ aRegion
 >
 ToAppUnits
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -31530,9 +31524,6 @@ rrect
 ToAppUnits
 (
 rrectPixels
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

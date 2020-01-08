@@ -4610,14 +4610,6 @@ pointRelativeToContentBox
 y
 )
 /
-outerSVGFrame
--
->
-PresContext
-(
-)
--
->
 AppUnitsPerCSSPixel
 (
 )

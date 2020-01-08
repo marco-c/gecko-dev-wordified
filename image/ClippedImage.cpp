@@ -766,9 +766,6 @@ aSVGViewportSize
 >
 ToNearestPixels
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

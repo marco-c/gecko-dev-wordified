@@ -30224,9 +30224,6 @@ subArea
 .
 ToOutsidePixels
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

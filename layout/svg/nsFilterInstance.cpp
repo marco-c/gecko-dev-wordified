@@ -3217,9 +3217,6 @@ RectToGfxRect
 (
 *
 aRect
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -3337,9 +3334,6 @@ nsLayoutUtils
 RoundGfxRectToAppRect
 (
 r
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

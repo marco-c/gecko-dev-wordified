@@ -894,11 +894,6 @@ y
 .
 0
 )
-PresContext
-(
-)
--
->
 AppUnitsPerCSSPixel
 (
 )

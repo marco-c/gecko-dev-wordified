@@ -15484,9 +15484,6 @@ NSAppUnitsToFloatPixels
 mFont
 .
 size
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -15565,9 +15562,6 @@ fontMetrics
 XHeight
 (
 )
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -20689,9 +20683,6 @@ AppUnitsPerDevPixel
 )
 )
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

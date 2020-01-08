@@ -1388,9 +1388,6 @@ translation
 NSAppUnitsToFloatPixels
 (
 offset
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -1462,9 +1459,6 @@ aDimensionGetter
 )
 (
 )
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -3402,9 +3396,6 @@ matrix
 float
 appUnitPerCSSPixel
 =
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -6032,9 +6023,6 @@ scale
 =
 float
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

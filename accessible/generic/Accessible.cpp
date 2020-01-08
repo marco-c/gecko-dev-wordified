@@ -4845,14 +4845,6 @@ BoundsInAppUnits
 .
 ToNearestPixels
 (
-mDoc
--
->
-PresContext
-(
-)
--
->
 AppUnitsPerCSSPixel
 (
 )

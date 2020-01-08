@@ -4303,9 +4303,6 @@ dragRectDev
 ToAppUnits
 (
 dragRect
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

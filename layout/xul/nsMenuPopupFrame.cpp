@@ -8855,9 +8855,6 @@ anchorRect
 ToAppUnits
 (
 mScreenRect
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
