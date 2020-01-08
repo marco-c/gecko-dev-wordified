@@ -674,7 +674,7 @@ Safety
 check
 *
 /
-silk_assert
+celt_assert
 (
 buf_len
 >

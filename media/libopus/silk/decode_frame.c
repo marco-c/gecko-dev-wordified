@@ -610,7 +610,7 @@ Safety
 checks
 *
 /
-silk_assert
+celt_assert
 (
 L
 >
@@ -1312,7 +1312,7 @@ indices
 .
 signalType
 ;
-silk_assert
+celt_assert
 (
 psDec
 -
@@ -1446,7 +1446,7 @@ buffer
 *
 *
 /
-silk_assert
+celt_assert
 (
 psDec
 -

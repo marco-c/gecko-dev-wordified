@@ -562,7 +562,7 @@ SILK_FIX_CONST
 )
 )
 ;
-silk_assert
+celt_assert
 (
 psEncC
 -
@@ -724,7 +724,7 @@ NLSF_mu_Q20
 )
 ;
 }
-silk_assert
+celt_assert
 (
 NLSF_mu_Q20
 >
@@ -1081,7 +1081,7 @@ second
 half
 *
 /
-silk_assert
+celt_assert
 (
 psEncC
 -

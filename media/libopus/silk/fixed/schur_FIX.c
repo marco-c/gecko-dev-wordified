@@ -510,7 +510,7 @@ Ctmp1
 Ctmp2
 rc_tmp_Q15
 ;
-silk_assert
+celt_assert
 (
 order
 >

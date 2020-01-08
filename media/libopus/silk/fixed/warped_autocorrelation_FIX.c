@@ -557,7 +557,7 @@ be
 even
 *
 /
-silk_assert
+celt_assert
 (
 (
 order

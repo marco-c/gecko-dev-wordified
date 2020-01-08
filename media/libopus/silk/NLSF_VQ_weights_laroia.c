@@ -531,14 +531,14 @@ opus_int32
 tmp1_int
 tmp2_int
 ;
-silk_assert
+celt_assert
 (
 D
 >
 0
 )
 ;
-silk_assert
+celt_assert
 (
 (
 D

@@ -672,7 +672,7 @@ must
 be
 at
 least
-one
+2
 and
 no
 more

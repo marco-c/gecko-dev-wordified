@@ -2314,7 +2314,7 @@ LTP_ORDER
 /
 2
 ;
-silk_assert
+celt_assert
 (
 start_idx
 >
@@ -3337,7 +3337,7 @@ psSS
 ;
 SAVE_STACK
 ;
-silk_assert
+celt_assert
 (
 nStatesDelayedDecision
 >
@@ -3799,7 +3799,7 @@ shape
 feedback
 *
 /
-silk_assert
+celt_assert
 (
 (
 shapingLPCOrder

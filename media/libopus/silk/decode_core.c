@@ -1410,7 +1410,7 @@ LTP_ORDER
 /
 2
 ;
-silk_assert
+celt_assert
 (
 start_idx
 >
@@ -1900,7 +1900,7 @@ term
 prediction
 *
 /
-silk_assert
+celt_assert
 (
 psDec
 -

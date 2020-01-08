@@ -535,7 +535,7 @@ Safety
 checks
 *
 /
-silk_assert
+celt_assert
 (
 D
 >

@@ -703,7 +703,7 @@ SHELL_CODEC_FRAME_LENGTH
 frame_length
 )
 {
-silk_assert
+celt_assert
 (
 frame_length
 =

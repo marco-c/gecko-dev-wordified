@@ -614,7 +614,7 @@ Af
 SILK_MAX_ORDER_LPC
 ]
 ;
-silk_assert
+celt_assert
 (
 subfr_length
 *

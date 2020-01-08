@@ -719,7 +719,7 @@ in_ptr
 ;
 #
 endif
-silk_assert
+celt_assert
 (
 d
 >
@@ -727,7 +727,7 @@ d
 6
 )
 ;
-silk_assert
+celt_assert
 (
 (
 d
@@ -739,7 +739,7 @@ d
 0
 )
 ;
-silk_assert
+celt_assert
 (
 d
 <
@@ -756,7 +756,7 @@ FIXED_POINT
 &
 &
 USE_CELT_FIR
-silk_assert
+celt_assert
 (
 d
 <

@@ -818,7 +818,7 @@ VOICED
 *
 *
 /
-silk_assert
+celt_assert
 (
 psEnc
 -

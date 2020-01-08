@@ -643,7 +643,7 @@ PE_NB_CBKS_STAGE2_EXT
 }
 else
 {
-silk_assert
+celt_assert
 (
 nb_subfr
 =
@@ -699,7 +699,7 @@ PE_NB_CBKS_STAGE3_MAX
 }
 else
 {
-silk_assert
+celt_assert
 (
 nb_subfr
 =

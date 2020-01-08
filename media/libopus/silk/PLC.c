@@ -2633,7 +2633,7 @@ LTP_ORDER
 /
 2
 ;
-silk_assert
+celt_assert
 (
 idx
 >
@@ -3258,7 +3258,7 @@ opus_int32
 )
 )
 ;
-silk_assert
+celt_assert
 (
 psDec
 -

@@ -678,6 +678,14 @@ rnum
 ;
 SAVE_STACK
 ;
+celt_assert
+(
+x
+!
+=
+y
+)
+;
 ALLOC
 (
 rnum
@@ -772,6 +780,7 @@ i
 )
 SIG_SHIFT
 )
+;
 sum
 [
 2

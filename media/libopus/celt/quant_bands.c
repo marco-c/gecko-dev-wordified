@@ -3455,7 +3455,7 @@ happy
 .
 *
 /
-celt_assert
+celt_sig_assert
 (
 c
 <

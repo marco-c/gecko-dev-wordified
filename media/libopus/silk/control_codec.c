@@ -2302,7 +2302,7 @@ sampling
 frequency
 *
 /
-silk_assert
+celt_assert
 (
 fs_kHz
 =
@@ -2322,7 +2322,7 @@ fs_kHz
 16
 )
 ;
-silk_assert
+celt_assert
 (
 psEnc
 -
@@ -2900,7 +2900,7 @@ are
 valid
 *
 /
-silk_assert
+celt_assert
 (
 (
 psEnc
@@ -2966,7 +2966,7 @@ encoding
 complexity
 *
 /
-silk_assert
+celt_assert
 (
 Complexity
 >
@@ -3640,7 +3640,7 @@ Complexity
 =
 Complexity
 ;
-silk_assert
+celt_assert
 (
 psEncC
 -
@@ -3651,7 +3651,7 @@ pitchEstimationLPCOrder
 MAX_FIND_PITCH_LPC_ORDER
 )
 ;
-silk_assert
+celt_assert
 (
 psEncC
 -
@@ -3662,7 +3662,7 @@ shapingLPCOrder
 MAX_SHAPE_LPC_ORDER
 )
 ;
-silk_assert
+celt_assert
 (
 psEncC
 -
@@ -3673,7 +3673,7 @@ nStatesDelayedDecision
 MAX_DEL_DEC_STATES
 )
 ;
-silk_assert
+celt_assert
 (
 psEncC
 -
@@ -3684,7 +3684,7 @@ warping_Q16
 32767
 )
 ;
-silk_assert
+celt_assert
 (
 psEncC
 -
@@ -3695,7 +3695,7 @@ la_shape
 LA_SHAPE_MAX
 )
 ;
-silk_assert
+celt_assert
 (
 psEncC
 -

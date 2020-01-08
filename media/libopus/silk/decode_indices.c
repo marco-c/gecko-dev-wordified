@@ -1000,7 +1000,7 @@ NLSFIndices
 ]
 )
 ;
-silk_assert
+celt_assert
 (
 psDec
 -

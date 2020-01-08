@@ -467,7 +467,7 @@ ret
 =
 0
 ;
-silk_assert
+celt_assert
 (
 fs_kHz
 =
@@ -487,7 +487,7 @@ fs_kHz
 16
 )
 ;
-silk_assert
+celt_assert
 (
 psDec
 -
@@ -840,7 +840,7 @@ sampling
 rate
 *
 /
-silk_assert
+celt_assert
 (
 0
 )
@@ -931,7 +931,7 @@ are
 valid
 *
 /
-silk_assert
+celt_assert
 (
 psDec
 -

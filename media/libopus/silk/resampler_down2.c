@@ -505,14 +505,14 @@ out32
 Y
 X
 ;
-silk_assert
+celt_assert
 (
 silk_resampler_down2_0
 >
 0
 )
 ;
-silk_assert
+celt_assert
 (
 silk_resampler_down2_1
 <

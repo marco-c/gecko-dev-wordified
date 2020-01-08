@@ -1683,7 +1683,7 @@ break
 ;
 default
 :
-silk_assert
+celt_assert
 (
 0
 )

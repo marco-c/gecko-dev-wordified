@@ -924,7 +924,7 @@ Fs_Hz_out
 )
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -1010,7 +1010,7 @@ Fs_Hz_out
 )
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -1485,7 +1485,7 @@ None
 available
 *
 /
-silk_assert
+celt_assert
 (
 0
 )
@@ -1684,7 +1684,7 @@ input
 data
 *
 /
-silk_assert
+celt_assert
 (
 inLen
 >
@@ -1709,7 +1709,7 @@ of
 buffering
 *
 /
-silk_assert
+celt_assert
 (
 S
 -

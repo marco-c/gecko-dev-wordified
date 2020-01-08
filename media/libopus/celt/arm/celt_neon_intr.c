@@ -1621,7 +1621,7 @@ max_pitch
 0
 )
 ;
-celt_assert
+celt_sig_assert
 (
 (
 (

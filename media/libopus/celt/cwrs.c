@@ -4922,7 +4922,7 @@ q
 _i
 )
 {
-celt_assert
+celt_sig_assert
 (
 p
 >

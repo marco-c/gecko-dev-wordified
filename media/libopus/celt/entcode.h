@@ -971,7 +971,7 @@ opus_uint32
 d
 )
 {
-celt_assert
+celt_sig_assert
 (
 d
 >
@@ -1071,7 +1071,7 @@ opus_int32
 d
 )
 {
-celt_assert
+celt_sig_assert
 (
 d
 >

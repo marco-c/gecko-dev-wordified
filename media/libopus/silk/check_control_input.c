@@ -447,7 +447,7 @@ structure
 /
 )
 {
-silk_assert
+celt_assert
 (
 encControl
 !
@@ -680,7 +680,7 @@ maxInternalSampleRate
 )
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -727,7 +727,7 @@ payloadSize_ms
 60
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -754,7 +754,7 @@ packetLossPercentage
 100
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -781,7 +781,7 @@ useDTX
 1
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -808,7 +808,7 @@ useCBR
 1
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -835,7 +835,7 @@ useInBandFEC
 1
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -862,7 +862,7 @@ nChannelsAPI
 ENCODER_NUM_CHANNELS
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -889,7 +889,7 @@ nChannelsInternal
 ENCODER_NUM_CHANNELS
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -911,7 +911,7 @@ encControl
 nChannelsAPI
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -938,7 +938,7 @@ complexity
 10
 )
 {
-silk_assert
+celt_assert
 (
 0
 )

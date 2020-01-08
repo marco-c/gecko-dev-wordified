@@ -673,7 +673,7 @@ pCB_Wght_Q9
 ;
 SAVE_STACK
 ;
-silk_assert
+celt_assert
 (
 signalType
 >

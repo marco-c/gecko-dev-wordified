@@ -523,7 +523,7 @@ c
 S0
 S1
 ;
-silk_assert
+celt_assert
 (
 win_type
 =
@@ -547,7 +547,7 @@ of
 4
 *
 /
-silk_assert
+celt_assert
 (
 (
 length
