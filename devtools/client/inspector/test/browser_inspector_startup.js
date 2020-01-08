@@ -369,7 +369,11 @@ activeTab
 .
 navigateTo
 (
+{
+url
+:
 TEST_URL
+}
 )
 ;
 info

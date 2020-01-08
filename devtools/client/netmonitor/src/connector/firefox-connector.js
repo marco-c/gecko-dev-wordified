@@ -2169,7 +2169,9 @@ activeTab
 .
 reconfigure
 (
+{
 options
+}
 )
 ;
 }
