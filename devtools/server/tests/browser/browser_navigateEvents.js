@@ -829,7 +829,7 @@ actor
 await
 client
 .
-attachTab
+attachTarget
 (
 actorID
 )
