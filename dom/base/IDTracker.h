@@ -654,8 +654,8 @@ ID
 void
 ResetWithID
 (
-nsIContent
-*
+Element
+&
 aFrom
 nsAtom
 *

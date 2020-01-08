@@ -6101,8 +6101,8 @@ nsAttrValue
 &
 aResult
 Element
-*
-aContextNode
+&
+aContextElement
 nsresult
 *
 aParseResult
@@ -6134,7 +6134,7 @@ parseResult
 SetBeginSpec
 (
 aValue
-aContextNode
+aContextElement
 RemoveNonDOM
 )
 ;
@@ -6176,7 +6176,7 @@ parseResult
 SetEndSpec
 (
 aValue
-aContextNode
+aContextElement
 RemoveNonDOM
 )
 ;
@@ -6605,8 +6605,8 @@ nsAString
 &
 aBeginSpec
 Element
-*
-aContextNode
+&
+aContextElement
 RemovalTestFunction
 aRemove
 )
@@ -6615,7 +6615,7 @@ return
 SetBeginOrEndSpec
 (
 aBeginSpec
-aContextNode
+aContextElement
 true
 /
 *
@@ -6659,8 +6659,8 @@ nsAString
 &
 aEndSpec
 Element
-*
-aContextNode
+&
+aContextElement
 RemovalTestFunction
 aRemove
 )
@@ -6669,7 +6669,7 @@ return
 SetBeginOrEndSpec
 (
 aEndSpec
-aContextNode
+aContextElement
 false
 /
 *
@@ -7852,9 +7852,9 @@ nsSMILTimedElement
 :
 BindToTree
 (
-nsIContent
-*
-aContextNode
+Element
+&
+aContextElement
 )
 {
 /
@@ -7979,7 +7979,7 @@ i
 >
 ResolveReferences
 (
-aContextNode
+aContextElement
 )
 ;
 }
@@ -8015,7 +8015,7 @@ j
 >
 ResolveReferences
 (
-aContextNode
+aContextElement
 )
 ;
 }
@@ -8503,8 +8503,8 @@ nsAString
 &
 aSpec
 Element
-*
-aContextNode
+&
+aContextElement
 bool
 aIsBegin
 RemovalTestFunction
@@ -8612,7 +8612,7 @@ tokenizer
 nextToken
 (
 )
-aContextNode
+aContextElement
 )
 ;
 if
@@ -9499,6 +9499,7 @@ attValue
 SetBeginSpec
 (
 attValue
+*
 mAnimationElement
 aRemove
 )
@@ -9536,6 +9537,7 @@ attValue
 SetEndSpec
 (
 attValue
+*
 mAnimationElement
 aRemove
 )
