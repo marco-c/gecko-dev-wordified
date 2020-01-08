@@ -46080,11 +46080,6 @@ aFlags
 IN_CSS_UNITS
 )
 ?
-PresContext
-(
-)
--
->
 AppUnitsPerCSSPixel
 (
 )
@@ -46827,11 +46822,6 @@ aFlags
 IN_CSS_UNITS
 )
 ?
-PresContext
-(
-)
--
->
 AppUnitsPerCSSPixel
 (
 )

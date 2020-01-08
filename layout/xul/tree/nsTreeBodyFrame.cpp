@@ -3093,9 +3093,6 @@ mRect
 .
 ToOutsidePixels
 (
-presContext
--
->
 AppUnitsPerCSSPixel
 (
 )
