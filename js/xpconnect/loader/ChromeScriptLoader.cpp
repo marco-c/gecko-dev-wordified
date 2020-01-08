@@ -1559,7 +1559,7 @@ aGlobal
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx

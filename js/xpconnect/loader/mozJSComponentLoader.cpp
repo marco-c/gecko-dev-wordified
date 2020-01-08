@@ -2500,7 +2500,7 @@ AnnotateCrashReport
 (
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -2640,7 +2640,7 @@ rv
 return
 nullptr
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -3426,7 +3426,7 @@ SetGlobalObject
 global
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
@@ -3960,7 +3960,7 @@ thisObj
 nullptr
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
@@ -4584,7 +4584,7 @@ obj
 reuseGlobal
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -5711,7 +5711,7 @@ cx
 mLoaderGlobal
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -6961,7 +6961,7 @@ cx
 (
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

@@ -6821,7 +6821,7 @@ cx
 (
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -7363,7 +7363,7 @@ cx
 (
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -7699,7 +7699,7 @@ MaybeDropScript
 }
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
