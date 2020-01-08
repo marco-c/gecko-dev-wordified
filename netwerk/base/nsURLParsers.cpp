@@ -3467,8 +3467,6 @@ auth
 p
 )
 {
-continue
-;
 }
 if
 (
