@@ -68,9 +68,9 @@ BaseTryParser
 from
 .
 .
-push
+vcs
 import
-push_to_try
+VCSHelper
 class
 EmptyParser
 (
@@ -110,6 +110,14 @@ kwargs
 )
 :
     
+vcs
+=
+VCSHelper
+.
+create
+(
+)
+    
 msg
 =
 '
@@ -130,6 +138,8 @@ tasks
 '
     
 return
+vcs
+.
 push_to_try
 (
 '
@@ -148,7 +158,7 @@ msg
 push
 =
 push
-                       
+                           
 closed_tree
 =
 kwargs
