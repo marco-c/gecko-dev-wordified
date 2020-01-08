@@ -6822,6 +6822,10 @@ reindent
 "
 "
 )
+.
+newline_if_not_empty
+(
+)
 )
 ;
 }
@@ -6890,6 +6894,10 @@ reindent
 (
 "
 "
+)
+.
+newline_if_not_empty
+(
 )
 )
 ;
