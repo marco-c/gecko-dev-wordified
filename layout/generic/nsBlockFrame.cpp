@@ -33977,7 +33977,7 @@ aState
 mReflowInput
 )
 ;
-nsIFrame
+nsBulletFrame
 *
 bullet
 =
