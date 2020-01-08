@@ -1176,6 +1176,7 @@ PaymentsStore
 setState
 *
 /
+async
 setStateFromParent
 (
 state
