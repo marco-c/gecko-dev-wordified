@@ -12785,12 +12785,6 @@ to
 /
 PlacesUtils
 .
-livemarks
-.
-addLivemark
-or
-PlacesUtils
-.
 bookmarks
 .
 {
