@@ -125,7 +125,7 @@ h
 #
 include
 "
-CacheMap
+CacheInvalidator
 .
 h
 "
@@ -179,7 +179,7 @@ LinkedListElement
 WebGLVertexArray
 >
 public
-CacheMapInvalidator
+CacheInvalidator
 {
 public
 :
