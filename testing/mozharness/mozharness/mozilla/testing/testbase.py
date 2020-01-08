@@ -148,9 +148,9 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
-BuildbotMixin
+AutomationMixin
 TBPL_WARNING
 from
 mozharness
@@ -828,7 +828,7 @@ class
 TestingMixin
 (
 VirtualenvMixin
-BuildbotMixin
+AutomationMixin
 ResourceMonitoringMixin
                    
 TooltoolMixin
@@ -3357,7 +3357,7 @@ source
         
 self
 .
-set_buildbot_property
+set_property
 (
 "
 build_url
@@ -3559,7 +3559,7 @@ symbols
             
 self
 .
-set_buildbot_property
+set_property
 (
 "
 symbols_url
@@ -3567,7 +3567,7 @@ symbols_url
 self
 .
 symbols_url
-                                       
+                              
 write_to_file
 =
 True
@@ -5186,7 +5186,7 @@ abs_nodejs_path
             
 self
 .
-buildbot_status
+record_status
 (
 TBPL_WARNING
 WARNING
@@ -5492,7 +5492,7 @@ caught
                 
 self
 .
-buildbot_status
+record_status
 (
 TBPL_WARNING
 WARNING

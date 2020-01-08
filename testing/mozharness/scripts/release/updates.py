@@ -225,9 +225,9 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
-BuildbotMixin
+AutomationMixin
 from
 mozharness
 .
@@ -254,7 +254,7 @@ class
 UpdatesBumper
 (
 MercurialScript
-BuildbotMixin
+AutomationMixin
                     
 MercurialRepoManipulationMixin
 )
@@ -570,16 +570,6 @@ balrog
 config
 =
 {
-                
-'
-buildbot_json_path
-'
-:
-'
-buildprops
-.
-json
-'
                 
 '
 credentials_file

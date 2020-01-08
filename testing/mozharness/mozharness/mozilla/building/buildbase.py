@@ -185,11 +185,11 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
 (
     
-BuildbotMixin
+AutomationMixin
     
 EXIT_STATUS_DICT
     
@@ -6137,7 +6137,6 @@ made
 the
 created
 the
-buildbot
 change
 .
 "
@@ -6197,7 +6196,7 @@ hex
 class
 BuildScript
 (
-BuildbotMixin
+AutomationMixin
 BalrogMixin
                   
 VirtualenvMixin
@@ -6274,7 +6273,6 @@ the
 start
 of
 the
-buildbot
 build
         
 #
@@ -7709,14 +7707,12 @@ TASK_ID
             
 self
 .
-set_buildbot_property
+set_property
 (
 '
 buildid
 '
-                                       
 buildid
-                                       
 write_to_file
 =
 True
@@ -7851,7 +7847,6 @@ it
 in
         
 #
-buildbot
 props
 )
         
@@ -10067,7 +10062,7 @@ UNKNOWN
                     
 self
 .
-set_buildbot_property
+set_property
 (
 key
 prop
@@ -10520,7 +10515,7 @@ env
             
 self
 .
-set_buildbot_property
+set_property
 (
 prop
 [
@@ -10566,7 +10561,7 @@ buildid
                       
 "
 from
-buildbot
+automation
 "
 )
             
@@ -10612,7 +10607,7 @@ it
 to
 None
             
-buildbot_buildid
+automation_buildid
 =
 self
 .
@@ -10641,7 +10636,7 @@ s
 .
 buildid
 from
-buildbot
+automation
 '
                 
 '
@@ -10655,7 +10650,7 @@ s
 %
 (
 app_ini_buildid
-buildbot_buildid
+automation_buildid
 )
             
 )
@@ -10664,9 +10659,9 @@ if
 app_ini_buildid
 =
 =
-buildbot_buildid
-!
-=
+automation_buildid
+is
+not
 None
 :
                 
@@ -11136,136 +11131,12 @@ query_mach_build_env
 )
 )
         
-#
-XXX
-Bug
-1037883
--
-mozconfigs
-can
-not
-find
-buildprops
-.
-json
-when
-builds
-        
-#
-are
-through
-mozharness
-.
-This
-is
-not
-pretty
-but
-it
-is
-a
-stopgap
-        
-#
-until
-an
-alternative
-solution
-is
-made
-or
-all
-builds
-that
-touch
-        
-#
-mozconfig
-.
-cache
-are
-converted
-to
-mozharness
-.
-        
 dirs
 =
 self
 .
 query_abs_dirs
 (
-)
-        
-buildprops
-=
-os
-.
-path
-.
-join
-(
-dirs
-[
-'
-base_work_dir
-'
-]
-'
-buildprops
-.
-json
-'
-)
-        
-#
-not
-finding
-buildprops
-is
-not
-an
-error
-outside
-of
-buildbot
-        
-if
-os
-.
-path
-.
-exists
-(
-buildprops
-)
-:
-            
-self
-.
-copyfile
-(
-                
-buildprops
-                
-os
-.
-path
-.
-join
-(
-dirs
-[
-'
-abs_work_dir
-'
-]
-'
-buildprops
-.
-json
-'
-)
 )
         
 if
@@ -11625,34 +11496,8 @@ android
 '
 )
         
-#
-The
-l10n
-script
-location
-differs
-on
-buildbot
-and
-taskcluster
-        
-if
-self
-.
-config
-.
-get
-(
-'
-taskcluster_nightly
-'
-)
-:
-            
 multil10n_path
 =
-\
-                
 '
 build
 /
@@ -11668,7 +11513,7 @@ multil10n
 .
 py
 '
-            
+        
 base_work_dir
 =
 os
@@ -11682,26 +11527,6 @@ base_work_dir
 workspace
 '
 )
-        
-else
-:
-            
-multil10n_path
-=
-'
-%
-s
-/
-scripts
-/
-scripts
-/
-multil10n
-.
-py
-'
-%
-base_work_dir
         
 cmd
 =
@@ -11996,17 +11821,15 @@ matches
             
 self
 .
-set_buildbot_property
+set_property
 (
 prop
-                                       
 parser
 .
 matches
 [
 prop
 ]
-                                       
 write_to_file
 =
 True
@@ -15213,8 +15036,6 @@ ignore
 all
 mention
 of
-buildbot
-/
 tbpl
 status
 until
@@ -15319,7 +15140,7 @@ return_code
                     
 self
 .
-buildbot_status
+record_status
 (
 status
 TBPL_STATUS_DICT

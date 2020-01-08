@@ -184,9 +184,9 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
-BuildbotMixin
+AutomationMixin
 from
 mozharness
 .
@@ -416,13 +416,13 @@ DesktopSingleLocale
 (
 LocalesMixin
 ReleaseMixin
-BuildbotMixin
+AutomationMixin
                           
 VCSMixin
 BaseScript
-                          
 BalrogMixin
 MarMixin
+                          
 VirtualenvMixin
 TransferMixin
 )
@@ -1972,29 +1972,6 @@ looks
 ok
 '
 )
-        
-#
-Set
-an
-empty
-dict
-for
-buildbot_config
-for
-now
-        
-self
-.
-buildbot_config
-=
-{
-"
-properties
-"
-:
-{
-}
-}
         
 return
     
@@ -3729,7 +3706,7 @@ prop_value
 =
 self
 .
-query_buildbot_property
+query_property
 (
 prop_key
 )
@@ -3761,7 +3738,7 @@ message
         
 self
 .
-set_buildbot_property
+set_property
 (
 prop_key
 prop_value
@@ -3876,12 +3853,12 @@ SUCCESS_STR
         
 self
 .
-set_buildbot_property
+set_property
 (
 "
 locales
 "
-                                   
+                          
 json
 .
 dumps
@@ -3890,7 +3867,7 @@ self
 .
 locales_property
 )
-                                   
+                          
 write_to_file
 =
 True
@@ -6335,7 +6312,6 @@ info
 (
 "
 Reading
-buildbot
 build
 properties
 .
@@ -6400,7 +6376,7 @@ configuration
         
 self
 .
-set_buildbot_property
+set_property
 (
 "
 branch
@@ -6410,7 +6386,7 @@ branch
         
 self
 .
-set_buildbot_property
+set_property
 (
 "
 appName
@@ -6432,7 +6408,7 @@ py
         
 self
 .
-set_buildbot_property
+set_property
 (
 "
 platform
@@ -6450,7 +6426,7 @@ repacks
         
 self
 .
-set_buildbot_property
+set_property
 (
 "
 buildid
@@ -6464,7 +6440,7 @@ _query_buildid
         
 self
 .
-set_buildbot_property
+set_property
 (
 "
 appVersion
