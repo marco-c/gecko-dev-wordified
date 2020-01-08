@@ -27427,6 +27427,17 @@ parseListOfDirective
 )
 )
 ;
+forceStrictIfNecessary
+(
+parseContext_
+-
+>
+sc
+(
+)
+directives
+)
+;
 BINJS_MOZ_TRY_DECL
 (
 statements

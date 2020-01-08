@@ -1524,9 +1524,9 @@ directive
 void
 forceStrictIfNecessary
 (
-FunctionBox
+SharedContext
 *
-funbox
+sc
 ListNode
 *
 directives

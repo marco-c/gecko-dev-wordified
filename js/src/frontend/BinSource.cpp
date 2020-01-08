@@ -1649,9 +1649,9 @@ Tok
 :
 forceStrictIfNecessary
 (
-FunctionBox
+SharedContext
 *
-funbox
+sc
 ListNode
 *
 directives
@@ -1705,7 +1705,7 @@ atom
 useStrict
 )
 {
-funbox
+sc
 -
 >
 strictScript
