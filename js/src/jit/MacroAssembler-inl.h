@@ -1409,7 +1409,10 @@ headerSize
 FRAME_HEADER_SIZE_SHIFT
 )
 |
+uint32_t
+(
 type
+)
 )
 frameSizeReg
 )
@@ -1646,7 +1649,10 @@ framePushed
 ;
 pushStaticFrameDescriptor
 (
-JitFrame_IonJS
+FrameType
+:
+:
+IonJS
 ExitFrameLayout
 :
 :

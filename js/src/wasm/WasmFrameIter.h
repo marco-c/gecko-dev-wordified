@@ -186,15 +186,6 @@ wasm_frame_iter_h
 #
 include
 "
-jit
-/
-JSJitFrameIter
-.
-h
-"
-#
-include
-"
 js
 /
 ProfilingFrameIterator
@@ -233,6 +224,10 @@ Register
 ;
 class
 Label
+;
+enum
+class
+FrameType
 ;
 }
 /

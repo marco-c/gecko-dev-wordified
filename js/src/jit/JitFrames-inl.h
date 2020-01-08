@@ -218,7 +218,10 @@ type
 )
 =
 =
-JitFrame_Exit
+FrameType
+:
+:
+Exit
 )
 ;
 +

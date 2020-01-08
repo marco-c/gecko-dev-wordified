@@ -221,7 +221,10 @@ function
 "
 <
 <
-JitFrame_Exit
+FrameType
+:
+:
+Exit
 >
 >
 "
@@ -242,7 +245,10 @@ function
 "
 <
 <
-JitFrame_CppToJSJit
+FrameType
+:
+:
+CppToJSJit
 >
 >
 "

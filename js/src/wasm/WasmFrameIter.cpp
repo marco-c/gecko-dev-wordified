@@ -1122,7 +1122,10 @@ ExitOrJitEntryFPTag
 ;
 unwoundIonFrameType_
 =
-JitFrame_Exit
+FrameType
+:
+:
+Exit
 ;
 fp_
 =
@@ -1440,7 +1443,10 @@ fp_
 ;
 unwoundIonFrameType_
 =
-JitFrame_JSJitToWasm
+FrameType
+:
+:
+JSJitToWasm
 ;
 fp_
 =

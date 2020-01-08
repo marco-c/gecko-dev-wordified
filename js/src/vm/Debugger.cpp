@@ -17169,7 +17169,10 @@ type
 )
 {
 case
-JitFrame_BaselineJS
+FrameType
+:
+:
+BaselineJS
 :
 MarkBaselineScriptActiveIfObservable
 (
@@ -17184,7 +17187,10 @@ obs
 break
 ;
 case
-JitFrame_IonJS
+FrameType
+:
+:
+IonJS
 :
 MarkBaselineScriptActiveIfObservable
 (

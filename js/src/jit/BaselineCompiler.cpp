@@ -26094,7 +26094,10 @@ masm
 makeFrameDescriptor
 (
 scratch2
-JitFrame_BaselineJS
+FrameType
+:
+:
+BaselineJS
 JitFrameLayout
 :
 :
@@ -27120,7 +27123,10 @@ masm
 makeFrameDescriptor
 (
 scratch1
-JitFrame_BaselineJS
+FrameType
+:
+:
+BaselineJS
 ExitFrameLayout
 :
 :

@@ -1776,7 +1776,7 @@ headerSize
 {
 MOZ_ASSERT
 (
-headerSize
+frameSize
 <
 FRAMESIZE_MASK
 )
@@ -1805,7 +1805,10 @@ headerSize
 FRAME_HEADER_SIZE_SHIFT
 )
 |
+uint32_t
+(
 type
+)
 ;
 }
 /
@@ -1855,7 +1858,10 @@ type
 )
 =
 =
-JitFrame_Exit
+FrameType
+:
+:
+Exit
 )
 ;
 +
@@ -2062,7 +2068,10 @@ FRAMETYPE_MASK
 descriptor_
 |
 =
+uintptr_t
+(
 type
+)
 ;
 }
 size_t
@@ -4681,7 +4690,10 @@ Descriptor
 Marks
 end
 of
-JitFrame_IonJS
+FrameType
+:
+:
+IonJS
 /
 /
 |
@@ -4929,7 +4941,10 @@ Descriptor
 Marks
 end
 of
-JitFrame_BaselineJS
+FrameType
+:
+:
+BaselineJS
 /
 /
 |

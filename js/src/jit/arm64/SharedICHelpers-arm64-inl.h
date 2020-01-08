@@ -322,7 +322,10 @@ masm
 makeFrameDescriptor
 (
 r0
-JitFrame_BaselineJS
+FrameType
+:
+:
+BaselineJS
 ExitFrameLayout
 :
 :
@@ -463,7 +466,10 @@ masm
 makeFrameDescriptor
 (
 reg
-JitFrame_BaselineStub
+FrameType
+:
+:
+BaselineStub
 headerSize
 )
 ;
@@ -663,7 +669,10 @@ masm
 makeFrameDescriptor
 (
 scratch
-JitFrame_BaselineJS
+FrameType
+:
+:
+BaselineJS
 BaselineStubFrameLayout
 :
 :

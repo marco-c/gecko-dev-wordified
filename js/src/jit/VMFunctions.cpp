@@ -2631,7 +2631,10 @@ type
 )
 =
 =
-JitFrame_Exit
+FrameType
+:
+:
+Exit
 )
 ;
 +
@@ -8071,7 +8074,10 @@ type
 )
 =
 =
-JitFrame_Exit
+FrameType
+:
+:
+Exit
 )
 ;
 +
