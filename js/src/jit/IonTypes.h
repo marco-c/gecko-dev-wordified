@@ -5203,6 +5203,13 @@ TruncFlags
 <
 1
 ;
+enum
+BranchDirection
+{
+FALSE_BRANCH
+TRUE_BRANCH
+}
+;
 }
 /
 /

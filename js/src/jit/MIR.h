@@ -18428,13 +18428,6 @@ None
 }
 }
 ;
-enum
-BranchDirection
-{
-FALSE_BRANCH
-TRUE_BRANCH
-}
-;
 static
 inline
 BranchDirection
