@@ -734,6 +734,10 @@ fileMap
 if
 (
 addr
+&
+&
+!
+persistent_
 )
 {
 Unused
