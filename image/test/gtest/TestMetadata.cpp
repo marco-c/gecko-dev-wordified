@@ -1731,6 +1731,13 @@ PlaybackType
 :
 eAnimated
 )
+/
+*
+aMarkUsed
+=
+*
+/
+true
 )
 ;
 ASSERT_EQ

@@ -1583,8 +1583,6 @@ SurfaceKey
 aSurfaceKey
 bool
 aMarkUsed
-=
-true
 )
 ;
 /
@@ -1718,8 +1716,6 @@ SurfaceKey
 aSurfaceKey
 bool
 aMarkUsed
-=
-true
 )
 ;
 /

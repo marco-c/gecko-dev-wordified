@@ -7510,6 +7510,13 @@ ImageKey
 this
 )
 surfaceKey
+/
+*
+aMarkUsed
+=
+*
+/
+true
 )
 ;
 }
@@ -7527,6 +7534,13 @@ ImageKey
 this
 )
 surfaceKey
+/
+*
+aMarkUsed
+=
+*
+/
+true
 )
 ;
 }

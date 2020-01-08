@@ -6984,8 +6984,6 @@ StaticMutexAutoLock
 aAutoLock
 bool
 aMarkUsed
-=
-true
 )
 {
 RefPtr
@@ -7249,12 +7247,6 @@ StaticMutexAutoLock
 aAutoLock
 bool
 aMarkUsed
-/
-*
-=
-true
-*
-/
 )
 {
 RefPtr
@@ -10869,12 +10861,6 @@ SurfaceKey
 aSurfaceKey
 bool
 aMarkUsed
-/
-*
-=
-true
-*
-/
 )
 {
 nsTArray
@@ -10959,12 +10945,6 @@ SurfaceKey
 aSurfaceKey
 bool
 aMarkUsed
-/
-*
-=
-true
-*
-/
 )
 {
 nsTArray
