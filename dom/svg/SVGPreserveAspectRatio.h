@@ -211,7 +211,7 @@ SVG_ALIGN_MIN_VALID
 dom
 :
 :
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 :
 :
 SVG_PRESERVEASPECTRATIO_NONE
@@ -223,7 +223,7 @@ SVG_ALIGN_MAX_VALID
 dom
 :
 :
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 :
 :
 SVG_PRESERVEASPECTRATIO_XMAXYMAX
@@ -262,7 +262,7 @@ SVG_MEETORSLICE_MIN_VALID
 dom
 :
 :
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 :
 :
 SVG_MEETORSLICE_MEET
@@ -274,7 +274,7 @@ SVG_MEETORSLICE_MAX_VALID
 dom
 :
 :
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 :
 :
 SVG_MEETORSLICE_SLICE
@@ -302,7 +302,7 @@ mAlign
 dom
 :
 :
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 :
 :
 SVG_PRESERVEASPECTRATIO_UNKNOWN
@@ -312,7 +312,7 @@ mMeetOrSlice
 dom
 :
 :
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 :
 :
 SVG_MEETORSLICE_UNKNOWN

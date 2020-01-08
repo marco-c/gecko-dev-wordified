@@ -223,7 +223,7 @@ aGivenProto
 )
 {
 return
-HTMLTimeElementBinding
+HTMLTimeElement_Binding
 :
 :
 Wrap

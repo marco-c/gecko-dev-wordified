@@ -182,7 +182,7 @@ aGivenProto
 )
 {
 return
-SVGFETileElementBinding
+SVGFETileElement_Binding
 :
 :
 Wrap

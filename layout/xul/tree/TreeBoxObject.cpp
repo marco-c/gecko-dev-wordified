@@ -3078,7 +3078,7 @@ aGivenProto
 )
 {
 return
-TreeBoxObjectBinding
+TreeBoxObject_Binding
 :
 :
 Wrap

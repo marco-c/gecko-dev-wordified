@@ -321,7 +321,7 @@ aGivenProto
 )
 {
 return
-DOMQuadBinding
+DOMQuad_Binding
 :
 :
 Wrap

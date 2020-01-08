@@ -237,7 +237,7 @@ aGivenProto
 )
 {
 return
-SVGAElementBinding
+SVGAElement_Binding
 :
 :
 Wrap

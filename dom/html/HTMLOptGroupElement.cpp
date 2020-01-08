@@ -779,7 +779,7 @@ aGivenProto
 )
 {
 return
-HTMLOptGroupElementBinding
+HTMLOptGroupElement_Binding
 :
 :
 Wrap

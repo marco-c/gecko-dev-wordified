@@ -1239,7 +1239,7 @@ sHideCaretsForMouseInput
 mLastInputSource
 =
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -1287,7 +1287,7 @@ sHideCaretsForMouseInput
 mLastInputSource
 =
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_KEYBOARD
@@ -3889,7 +3889,7 @@ sHideCaretsForMouseInput
 mLastInputSource
 =
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -5930,7 +5930,7 @@ startNode
 dom
 :
 :
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 SHOW_ALL

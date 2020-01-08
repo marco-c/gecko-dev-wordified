@@ -1194,7 +1194,7 @@ mDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 ROTATION_COUNTERCLOCKWISE
@@ -1217,7 +1217,7 @@ mDirection
 dom
 :
 :
-SimpleGestureEventBinding
+SimpleGestureEvent_Binding
 :
 :
 ROTATION_CLOCKWISE
@@ -2208,7 +2208,7 @@ mDeltaMode
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL

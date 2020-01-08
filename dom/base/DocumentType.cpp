@@ -335,7 +335,7 @@ aGivenProto
 )
 {
 return
-DocumentTypeBinding
+DocumentType_Binding
 :
 :
 Wrap

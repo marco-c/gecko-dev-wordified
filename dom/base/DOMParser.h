@@ -395,7 +395,7 @@ mozilla
 dom
 :
 :
-DOMParserBinding
+DOMParser_Binding
 :
 :
 Wrap

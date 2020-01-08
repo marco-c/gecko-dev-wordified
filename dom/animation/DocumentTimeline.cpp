@@ -291,7 +291,7 @@ aGivenProto
 )
 {
 return
-DocumentTimelineBinding
+DocumentTimeline_Binding
 :
 :
 Wrap

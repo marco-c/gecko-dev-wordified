@@ -289,7 +289,7 @@ aGivenProto
 override
 {
 return
-UIEventBinding
+UIEvent_Binding
 :
 :
 Wrap

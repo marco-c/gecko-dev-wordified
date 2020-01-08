@@ -297,7 +297,7 @@ aGivenProto
 )
 {
 return
-AbortControllerBinding
+AbortController_Binding
 :
 :
 Wrap

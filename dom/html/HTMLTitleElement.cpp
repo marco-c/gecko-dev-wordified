@@ -247,7 +247,7 @@ aGivenProto
 )
 {
 return
-HTMLTitleElementBinding
+HTMLTitleElement_Binding
 :
 :
 Wrap

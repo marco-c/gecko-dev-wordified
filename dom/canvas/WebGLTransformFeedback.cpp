@@ -1153,7 +1153,7 @@ return
 dom
 :
 :
-WebGLTransformFeedbackBinding
+WebGLTransformFeedback_Binding
 :
 :
 Wrap

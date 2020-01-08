@@ -231,7 +231,7 @@ aGivenProto
 )
 {
 return
-MediaListBinding
+MediaList_Binding
 :
 :
 Wrap

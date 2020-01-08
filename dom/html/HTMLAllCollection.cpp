@@ -1129,7 +1129,7 @@ aGivenProto
 )
 {
 return
-HTMLAllCollectionBinding
+HTMLAllCollection_Binding
 :
 :
 Wrap

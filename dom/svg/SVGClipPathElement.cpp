@@ -175,7 +175,7 @@ dom
 {
 using
 namespace
-SVGUnitTypesBinding
+SVGUnitTypes_Binding
 ;
 JSObject
 *
@@ -199,7 +199,7 @@ aGivenProto
 )
 {
 return
-SVGClipPathElementBinding
+SVGClipPathElement_Binding
 :
 :
 Wrap

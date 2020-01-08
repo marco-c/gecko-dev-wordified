@@ -365,7 +365,7 @@ const
 final
 {
 return
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 PAGE_RULE

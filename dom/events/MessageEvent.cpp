@@ -375,7 +375,7 @@ mozilla
 dom
 :
 :
-MessageEventBinding
+MessageEvent_Binding
 :
 :
 Wrap
@@ -1059,7 +1059,7 @@ AppendElements
 aPorts
 )
 ;
-MessageEventBinding
+MessageEvent_Binding
 :
 :
 ClearCachedPortsValue

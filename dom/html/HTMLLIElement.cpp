@@ -583,7 +583,7 @@ aGivenProto
 )
 {
 return
-HTMLLIElementBinding
+HTMLLIElement_Binding
 :
 :
 Wrap

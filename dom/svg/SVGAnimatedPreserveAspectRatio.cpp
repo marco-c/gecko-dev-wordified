@@ -301,7 +301,7 @@ aGivenProto
 )
 {
 return
-SVGAnimatedPreserveAspectRatioBinding
+SVGAnimatedPreserveAspectRatio_Binding
 :
 :
 Wrap

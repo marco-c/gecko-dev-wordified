@@ -798,7 +798,7 @@ we
 have
 to
 hardcode
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -807,7 +807,7 @@ inputSource
 (
 /
 *
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -873,7 +873,7 @@ we
 have
 to
 hardcode
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -882,7 +882,7 @@ inputSource
 (
 /
 *
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -3255,7 +3255,7 @@ we
 have
 to
 hardcode
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -3264,7 +3264,7 @@ mDeltaMode
 (
 /
 *
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -3400,7 +3400,7 @@ we
 have
 to
 hardcode
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -3409,7 +3409,7 @@ mDeltaMode
 (
 /
 *
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -3800,7 +3800,7 @@ Should
 be
 one
 of
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_

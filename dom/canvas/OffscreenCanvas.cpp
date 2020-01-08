@@ -401,7 +401,7 @@ aGivenProto
 )
 {
 return
-OffscreenCanvasBinding
+OffscreenCanvas_Binding
 :
 :
 Wrap

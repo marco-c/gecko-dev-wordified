@@ -912,7 +912,7 @@ return
 dom
 :
 :
-SVGPointBinding
+SVGPoint_Binding
 :
 :
 Wrap

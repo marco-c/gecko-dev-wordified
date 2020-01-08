@@ -3424,7 +3424,7 @@ aGivenProto
 )
 {
 return
-NodeListBinding
+NodeList_Binding
 :
 :
 Wrap

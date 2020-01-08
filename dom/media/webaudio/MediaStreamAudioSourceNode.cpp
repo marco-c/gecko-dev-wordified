@@ -1419,7 +1419,7 @@ aGivenProto
 )
 {
 return
-MediaStreamAudioSourceNodeBinding
+MediaStreamAudioSourceNode_Binding
 :
 :
 Wrap

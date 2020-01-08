@@ -532,7 +532,7 @@ aAxis
 =
 aValue
 ;
-GamepadBinding
+Gamepad_Binding
 :
 :
 ClearCachedAxesValue
@@ -810,7 +810,7 @@ if
 changed
 )
 {
-GamepadBinding
+Gamepad_Binding
 :
 :
 ClearCachedAxesValue
@@ -1001,7 +1001,7 @@ aGivenProto
 )
 {
 return
-GamepadBinding
+Gamepad_Binding
 :
 :
 Wrap

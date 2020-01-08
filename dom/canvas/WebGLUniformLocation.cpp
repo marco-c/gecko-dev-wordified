@@ -1709,7 +1709,7 @@ return
 dom
 :
 :
-WebGLUniformLocationBinding
+WebGLUniformLocation_Binding
 :
 :
 Wrap

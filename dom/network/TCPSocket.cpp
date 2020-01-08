@@ -599,7 +599,7 @@ aReflector
 )
 {
 return
-LegacyMozTCPSocketBinding
+LegacyMozTCPSocket_Binding
 :
 :
 Wrap
@@ -2966,7 +2966,7 @@ aGivenProto
 )
 {
 return
-TCPSocketBinding
+TCPSocket_Binding
 :
 :
 Wrap

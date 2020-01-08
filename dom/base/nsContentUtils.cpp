@@ -14905,12 +14905,12 @@ aNode1
 )
 &
 (
-NodeBinding
+Node_Binding
 :
 :
 DOCUMENT_POSITION_PRECEDING
 |
-NodeBinding
+Node_Binding
 :
 :
 DOCUMENT_POSITION_DISCONNECTED
@@ -14918,7 +14918,7 @@ DOCUMENT_POSITION_DISCONNECTED
 )
 =
 =
-NodeBinding
+Node_Binding
 :
 :
 DOCUMENT_POSITION_PRECEDING
@@ -47297,7 +47297,7 @@ if
 aInputSourceArg
 =
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -47305,7 +47305,7 @@ MOZ_SOURCE_UNKNOWN
 {
 aInputSourceArg
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -61543,7 +61543,7 @@ T
 T
 #
 #
-Binding
+_Binding
 :
 :
 NativeType

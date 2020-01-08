@@ -1014,7 +1014,7 @@ aReflector
 bool
 ok
 =
-ContentFrameMessageManagerBinding
+ContentFrameMessageManager_Binding
 :
 :
 Wrap

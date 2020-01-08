@@ -8527,7 +8527,7 @@ aButton
 aClickCount
 aModifiers
 aIgnoreRootScrollFrame
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -19708,7 +19708,7 @@ aReflector
 bool
 ok
 =
-ContentFrameMessageManagerBinding
+ContentFrameMessageManager_Binding
 :
 :
 Wrap

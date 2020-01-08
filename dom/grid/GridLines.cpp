@@ -245,7 +245,7 @@ aGivenProto
 )
 {
 return
-GridLinesBinding
+GridLines_Binding
 :
 :
 Wrap

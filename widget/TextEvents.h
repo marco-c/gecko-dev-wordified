@@ -451,7 +451,7 @@ eKeyLocationStandard
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_KEY_LOCATION_STANDARD
@@ -460,7 +460,7 @@ eKeyLocationLeft
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_KEY_LOCATION_LEFT
@@ -469,7 +469,7 @@ eKeyLocationRight
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_KEY_LOCATION_RIGHT
@@ -478,7 +478,7 @@ eKeyLocationNumpad
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_KEY_LOCATION_NUMPAD

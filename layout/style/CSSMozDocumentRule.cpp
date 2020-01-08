@@ -183,7 +183,7 @@ aGivenProto
 )
 {
 return
-CSSMozDocumentRuleBinding
+CSSMozDocumentRule_Binding
 :
 :
 Wrap

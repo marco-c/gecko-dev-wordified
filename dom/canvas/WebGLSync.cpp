@@ -380,7 +380,7 @@ return
 dom
 :
 :
-WebGLSyncBinding
+WebGLSync_Binding
 :
 :
 Wrap

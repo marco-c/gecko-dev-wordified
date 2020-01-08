@@ -10501,7 +10501,7 @@ return
 dom
 :
 :
-WebGLFramebufferBinding
+WebGLFramebuffer_Binding
 :
 :
 Wrap

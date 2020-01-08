@@ -333,7 +333,7 @@ aGivenProto
 )
 {
 return
-ParentSHistoryBinding
+ParentSHistory_Binding
 :
 :
 Wrap

@@ -237,11 +237,11 @@ dom
 {
 using
 namespace
-SVGGradientElementBinding
+SVGGradientElement_Binding
 ;
 using
 namespace
-SVGUnitTypesBinding
+SVGUnitTypes_Binding
 ;
 /
 /
@@ -954,7 +954,7 @@ aGivenProto
 )
 {
 return
-SVGLinearGradientElementBinding
+SVGLinearGradientElement_Binding
 :
 :
 Wrap
@@ -985,7 +985,7 @@ nsGkAtoms
 :
 x1
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1001,7 +1001,7 @@ nsGkAtoms
 :
 y1
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1017,7 +1017,7 @@ nsGkAtoms
 :
 x2
 100
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1033,7 +1033,7 @@ nsGkAtoms
 :
 y2
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1603,7 +1603,7 @@ aGivenProto
 )
 {
 return
-SVGRadialGradientElementBinding
+SVGRadialGradientElement_Binding
 :
 :
 Wrap
@@ -1634,7 +1634,7 @@ nsGkAtoms
 :
 cx
 50
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1650,7 +1650,7 @@ nsGkAtoms
 :
 cy
 50
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1666,7 +1666,7 @@ nsGkAtoms
 :
 r
 50
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1682,7 +1682,7 @@ nsGkAtoms
 :
 fx
 50
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1698,7 +1698,7 @@ nsGkAtoms
 :
 fy
 50
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1714,7 +1714,7 @@ nsGkAtoms
 :
 fr
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE

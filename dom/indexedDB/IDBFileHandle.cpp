@@ -3404,7 +3404,7 @@ AssertIsOnOwningThread
 )
 ;
 return
-IDBFileHandleBinding
+IDBFileHandle_Binding
 :
 :
 Wrap

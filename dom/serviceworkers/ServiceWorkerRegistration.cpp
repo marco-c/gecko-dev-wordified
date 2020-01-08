@@ -365,7 +365,7 @@ aGivenProto
 )
 {
 return
-ServiceWorkerRegistrationBinding
+ServiceWorkerRegistration_Binding
 :
 :
 Wrap

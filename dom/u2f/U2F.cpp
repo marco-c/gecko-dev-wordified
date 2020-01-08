@@ -1299,7 +1299,7 @@ aGivenProto
 )
 {
 return
-U2FBinding
+U2F_Binding
 :
 :
 Wrap

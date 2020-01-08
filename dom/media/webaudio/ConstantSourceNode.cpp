@@ -889,7 +889,7 @@ aGivenProto
 )
 {
 return
-ConstantSourceNodeBinding
+ConstantSourceNode_Binding
 :
 :
 Wrap

@@ -333,7 +333,7 @@ aGivenProto
 )
 {
 return
-PushSubscriptionOptionsBinding
+PushSubscriptionOptions_Binding
 :
 :
 Wrap

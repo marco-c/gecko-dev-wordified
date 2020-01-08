@@ -2437,7 +2437,7 @@ aGivenProto
 )
 {
 return
-PannerNodeBinding
+PannerNode_Binding
 :
 :
 Wrap

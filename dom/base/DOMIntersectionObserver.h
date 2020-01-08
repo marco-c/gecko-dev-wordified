@@ -297,7 +297,7 @@ mozilla
 dom
 :
 :
-IntersectionObserverEntryBinding
+IntersectionObserverEntry_Binding
 :
 :
 Wrap
@@ -618,7 +618,7 @@ mozilla
 dom
 :
 :
-IntersectionObserverBinding
+IntersectionObserver_Binding
 :
 :
 Wrap

@@ -438,7 +438,7 @@ mozilla
 dom
 :
 :
-ExtendableEventBinding
+ExtendableEvent_Binding
 :
 :
 Wrap
@@ -704,7 +704,7 @@ aGivenProto
 override
 {
 return
-FetchEventBinding
+FetchEvent_Binding
 :
 :
 Wrap
@@ -1307,7 +1307,7 @@ mozilla
 dom
 :
 :
-ExtendableMessageEventBinding
+ExtendableMessageEvent_Binding
 :
 :
 Wrap

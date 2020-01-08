@@ -272,7 +272,7 @@ aGivenProto
 )
 {
 return
-SpeechGrammarListBinding
+SpeechGrammarList_Binding
 :
 :
 Wrap

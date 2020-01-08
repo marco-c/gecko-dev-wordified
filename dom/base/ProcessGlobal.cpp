@@ -628,7 +628,7 @@ aReflector
 bool
 ok
 =
-ContentProcessMessageManagerBinding
+ContentProcessMessageManager_Binding
 :
 :
 Wrap

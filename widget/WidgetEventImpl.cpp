@@ -3714,7 +3714,7 @@ case
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_META
@@ -3729,7 +3729,7 @@ case
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_WIN
@@ -3744,7 +3744,7 @@ case
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ALT
@@ -3759,7 +3759,7 @@ case
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CONTROL
@@ -7088,7 +7088,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_SEMICOLON
@@ -7105,7 +7105,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_EQUALS
@@ -7122,7 +7122,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_COMMA
@@ -7139,7 +7139,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_HYPHEN_MINUS
@@ -7156,7 +7156,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PERIOD
@@ -7173,7 +7173,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_SLASH
@@ -7190,7 +7190,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_BACK_QUOTE
@@ -7207,7 +7207,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_OPEN_BRACKET
@@ -7224,7 +7224,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_BACK_SLASH
@@ -7241,7 +7241,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CLOSE_BRACKET
@@ -7258,7 +7258,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_QUOTE
@@ -7298,7 +7298,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_BACK_SLASH
@@ -7613,7 +7613,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CANCEL
@@ -7625,7 +7625,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_HELP
@@ -7637,7 +7637,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_BACK_SPACE
@@ -7649,7 +7649,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_TAB
@@ -7661,7 +7661,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CLEAR
@@ -7673,7 +7673,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_RETURN
@@ -7685,7 +7685,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_SHIFT
@@ -7697,7 +7697,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CONTROL
@@ -7709,7 +7709,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ALT
@@ -7721,7 +7721,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PAUSE
@@ -7733,7 +7733,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CAPS_LOCK
@@ -7754,7 +7754,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_KANA
@@ -7766,7 +7766,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_HANGUL
@@ -7778,7 +7778,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_EISU
@@ -7790,7 +7790,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_JUNJA
@@ -7802,7 +7802,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_FINAL
@@ -7814,7 +7814,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_HANJA
@@ -7826,7 +7826,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_KANJI
@@ -7838,7 +7838,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ESCAPE
@@ -7850,7 +7850,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CONVERT
@@ -7862,7 +7862,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_NONCONVERT
@@ -7874,7 +7874,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ACCEPT
@@ -7886,7 +7886,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_MODECHANGE
@@ -7898,7 +7898,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PAGE_UP
@@ -7910,7 +7910,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PAGE_DOWN
@@ -7922,7 +7922,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_END
@@ -7934,7 +7934,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_HOME
@@ -7946,7 +7946,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_LEFT
@@ -7958,7 +7958,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_UP
@@ -7970,7 +7970,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_RIGHT
@@ -7982,7 +7982,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_DOWN
@@ -7994,7 +7994,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_SELECT
@@ -8006,7 +8006,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PRINT
@@ -8018,7 +8018,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_EXECUTE
@@ -8030,7 +8030,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PRINTSCREEN
@@ -8042,7 +8042,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_INSERT
@@ -8054,7 +8054,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_DELETE
@@ -8076,7 +8076,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_WIN
@@ -8088,7 +8088,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CONTEXT_MENU
@@ -8100,7 +8100,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_SLEEP
@@ -8112,7 +8112,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F1
@@ -8124,7 +8124,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F2
@@ -8136,7 +8136,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F3
@@ -8148,7 +8148,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F4
@@ -8160,7 +8160,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F5
@@ -8172,7 +8172,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F6
@@ -8184,7 +8184,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F7
@@ -8196,7 +8196,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F8
@@ -8208,7 +8208,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F9
@@ -8220,7 +8220,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F10
@@ -8232,7 +8232,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F11
@@ -8244,7 +8244,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F12
@@ -8256,7 +8256,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F13
@@ -8268,7 +8268,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F14
@@ -8280,7 +8280,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F15
@@ -8292,7 +8292,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F16
@@ -8304,7 +8304,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F17
@@ -8316,7 +8316,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F18
@@ -8328,7 +8328,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F19
@@ -8340,7 +8340,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F20
@@ -8352,7 +8352,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F21
@@ -8364,7 +8364,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F22
@@ -8376,7 +8376,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F23
@@ -8388,7 +8388,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_F24
@@ -8400,7 +8400,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_NUM_LOCK
@@ -8412,7 +8412,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_SCROLL_LOCK
@@ -8424,7 +8424,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_VOLUME_MUTE
@@ -8436,7 +8436,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_VOLUME_DOWN
@@ -8448,7 +8448,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_VOLUME_UP
@@ -8460,7 +8460,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_META
@@ -8472,7 +8472,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ALTGR
@@ -8484,7 +8484,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PROCESSKEY
@@ -8496,7 +8496,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ATTN
@@ -8508,7 +8508,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CRSEL
@@ -8520,7 +8520,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_EXSEL
@@ -8532,7 +8532,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_EREOF
@@ -8544,7 +8544,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_PLAY
@@ -8562,7 +8562,7 @@ return
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ZOOM

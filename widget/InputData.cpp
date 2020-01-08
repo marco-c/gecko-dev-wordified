@@ -1455,7 +1455,7 @@ event
 .
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -2584,7 +2584,7 @@ wheelEvent
 .
 mDeltaMode
 =
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -3438,7 +3438,7 @@ aDeltaMode
 )
 {
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -3447,7 +3447,7 @@ return
 SCROLLDELTA_LINE
 ;
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PAGE
@@ -3456,7 +3456,7 @@ return
 SCROLLDELTA_PAGE
 ;
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -3497,7 +3497,7 @@ ScrollWheelInput
 SCROLLDELTA_LINE
 :
 return
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -3509,7 +3509,7 @@ ScrollWheelInput
 SCROLLDELTA_PAGE
 :
 return
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PAGE
@@ -3523,7 +3523,7 @@ SCROLLDELTA_PIXEL
 default
 :
 return
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL

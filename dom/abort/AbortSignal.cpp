@@ -266,7 +266,7 @@ aGivenProto
 )
 {
 return
-AbortSignalBinding
+AbortSignal_Binding
 :
 :
 Wrap

@@ -444,7 +444,7 @@ mozilla
 dom
 :
 :
-SVGLengthListBinding
+SVGLengthList_Binding
 :
 :
 Wrap

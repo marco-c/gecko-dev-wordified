@@ -213,7 +213,7 @@ aGivenProto
 )
 {
 return
-SpeechRecognitionResultBinding
+SpeechRecognitionResult_Binding
 :
 :
 Wrap

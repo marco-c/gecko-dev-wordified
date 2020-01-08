@@ -234,7 +234,7 @@ aGivenProto
 override
 {
 return
-DeviceRotationRateBinding
+DeviceRotationRate_Binding
 :
 :
 Wrap
@@ -386,7 +386,7 @@ aGivenProto
 override
 {
 return
-DeviceAccelerationBinding
+DeviceAcceleration_Binding
 :
 :
 Wrap
@@ -518,7 +518,7 @@ aGivenProto
 override
 {
 return
-DeviceMotionEventBinding
+DeviceMotionEvent_Binding
 :
 :
 Wrap

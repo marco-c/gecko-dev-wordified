@@ -5050,7 +5050,7 @@ AssertIsOnOwningThread
 )
 ;
 return
-IDBTransactionBinding
+IDBTransaction_Binding
 :
 :
 Wrap

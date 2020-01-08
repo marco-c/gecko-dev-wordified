@@ -559,7 +559,7 @@ aGivenProto
 )
 {
 return
-OfflineResourceListBinding
+OfflineResourceList_Binding
 :
 :
 Wrap

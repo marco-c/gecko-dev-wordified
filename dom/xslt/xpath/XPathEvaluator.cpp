@@ -679,7 +679,7 @@ return
 dom
 :
 :
-XPathEvaluatorBinding
+XPathEvaluator_Binding
 :
 :
 Wrap

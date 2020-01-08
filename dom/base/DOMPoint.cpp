@@ -304,7 +304,7 @@ aGivenProto
 )
 {
 return
-DOMPointReadOnlyBinding
+DOMPointReadOnly_Binding
 :
 :
 Wrap
@@ -446,7 +446,7 @@ aGivenProto
 )
 {
 return
-DOMPointBinding
+DOMPoint_Binding
 :
 :
 Wrap

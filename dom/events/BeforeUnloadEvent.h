@@ -210,7 +210,7 @@ aGivenProto
 override
 {
 return
-BeforeUnloadEventBinding
+BeforeUnloadEvent_Binding
 :
 :
 Wrap

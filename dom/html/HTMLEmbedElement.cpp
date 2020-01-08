@@ -1574,7 +1574,7 @@ obj
 ;
 obj
 =
-HTMLEmbedElementBinding
+HTMLEmbedElement_Binding
 :
 :
 Wrap

@@ -3626,7 +3626,7 @@ input
 (
 mouseType
 buttonType
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -11226,7 +11226,7 @@ hittest
 .
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH

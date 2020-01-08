@@ -6477,7 +6477,7 @@ mDocument
 dom
 :
 :
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 SHOW_ELEMENT
@@ -6485,7 +6485,7 @@ SHOW_ELEMENT
 dom
 :
 :
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 SHOW_DOCUMENT
@@ -6493,7 +6493,7 @@ SHOW_DOCUMENT
 dom
 :
 :
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 SHOW_PROCESSING_INSTRUCTION

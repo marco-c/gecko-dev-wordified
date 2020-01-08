@@ -182,7 +182,7 @@ aGivenProto
 )
 {
 return
-CDATASectionBinding
+CDATASection_Binding
 :
 :
 Wrap

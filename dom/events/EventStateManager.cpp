@@ -11800,7 +11800,7 @@ startEvent
 .
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -14580,7 +14580,7 @@ mDeltaMode
 )
 {
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PAGE
@@ -14603,12 +14603,12 @@ mLineOrPageDeltaX
 >
 0
 ?
-UIEventBinding
+UIEvent_Binding
 :
 :
 SCROLL_PAGE_DOWN
 :
-UIEventBinding
+UIEvent_Binding
 :
 :
 SCROLL_PAGE_UP
@@ -14632,12 +14632,12 @@ mLineOrPageDeltaY
 >
 0
 ?
-UIEventBinding
+UIEvent_Binding
 :
 :
 SCROLL_PAGE_DOWN
 :
-UIEventBinding
+UIEvent_Binding
 :
 :
 SCROLL_PAGE_UP
@@ -14674,7 +14674,7 @@ height
 break
 ;
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -14724,7 +14724,7 @@ height
 break
 ;
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -16917,7 +16917,7 @@ aEvent
 mDeltaMode
 =
 =
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PAGE
@@ -17293,7 +17293,7 @@ mDeltaMode
 )
 {
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -17315,7 +17315,7 @@ ENABLE_SNAP
 break
 ;
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PAGE
@@ -17337,7 +17337,7 @@ ENABLE_SNAP
 break
 ;
 case
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -17537,7 +17537,7 @@ aEvent
 mDeltaMode
 =
 =
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -20818,7 +20818,7 @@ mouseEvent
 inputSource
 =
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -21371,7 +21371,7 @@ pointerEvent
 inputSource
 =
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -35770,7 +35770,7 @@ if
 mHandlingDeltaMode
 =
 =
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -36136,7 +36136,7 @@ aEvent
 mDeltaMode
 =
 =
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -36169,7 +36169,7 @@ aEvent
 mDeltaMode
 =
 =
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL

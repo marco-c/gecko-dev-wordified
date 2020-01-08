@@ -212,7 +212,7 @@ aGivenProto
 override
 {
 return
-ChildProcessMessageManagerBinding
+ChildProcessMessageManager_Binding
 :
 :
 Wrap

@@ -288,7 +288,7 @@ aGivenProto
 )
 {
 return
-TextClauseBinding
+TextClause_Binding
 :
 :
 Wrap

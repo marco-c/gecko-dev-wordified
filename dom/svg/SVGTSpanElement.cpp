@@ -168,7 +168,7 @@ aGivenProto
 )
 {
 return
-SVGTSpanElementBinding
+SVGTSpanElement_Binding
 :
 :
 Wrap

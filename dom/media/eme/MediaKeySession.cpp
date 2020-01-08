@@ -668,7 +668,7 @@ aGivenProto
 )
 {
 return
-MediaKeySessionBinding
+MediaKeySession_Binding
 :
 :
 Wrap

@@ -13583,7 +13583,7 @@ keyCode
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_BACK_SPACE

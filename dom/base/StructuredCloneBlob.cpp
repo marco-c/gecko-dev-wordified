@@ -1059,7 +1059,7 @@ aResult
 )
 {
 return
-StructuredCloneHolderBinding
+StructuredCloneHolder_Binding
 :
 :
 Wrap

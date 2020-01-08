@@ -5307,7 +5307,7 @@ ChildListChanged
 dom
 :
 :
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -5352,7 +5352,7 @@ ChildListChanged
 dom
 :
 :
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -5392,7 +5392,7 @@ ChildListChanged
 dom
 :
 :
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 REMOVAL

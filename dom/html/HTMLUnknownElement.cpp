@@ -188,7 +188,7 @@ aGivenProto
 )
 {
 return
-HTMLUnknownElementBinding
+HTMLUnknownElement_Binding
 :
 :
 Wrap

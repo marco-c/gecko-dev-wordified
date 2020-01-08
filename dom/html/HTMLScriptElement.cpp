@@ -293,7 +293,7 @@ aGivenProto
 )
 {
 return
-HTMLScriptElementBinding
+HTMLScriptElement_Binding
 :
 :
 Wrap

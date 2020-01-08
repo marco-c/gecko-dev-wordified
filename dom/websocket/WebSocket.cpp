@@ -5168,7 +5168,7 @@ aGivenProto
 )
 {
 return
-WebSocketBinding
+WebSocket_Binding
 :
 :
 Wrap

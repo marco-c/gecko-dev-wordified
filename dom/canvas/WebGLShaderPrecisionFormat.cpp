@@ -154,7 +154,7 @@ return
 dom
 :
 :
-WebGLShaderPrecisionFormatBinding
+WebGLShaderPrecisionFormat_Binding
 :
 :
 Wrap

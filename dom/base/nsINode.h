@@ -2129,7 +2129,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 ELEMENT_NODE
@@ -2145,7 +2145,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 ATTRIBUTE_NODE
@@ -2161,7 +2161,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 TEXT_NODE
@@ -2177,7 +2177,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 CDATA_SECTION_NODE
@@ -2193,7 +2193,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 ENTITY_REFERENCE_NODE
@@ -2209,7 +2209,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 ENTITY_NODE
@@ -2225,7 +2225,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 PROCESSING_INSTRUCTION_NODE
@@ -2241,7 +2241,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 COMMENT_NODE
@@ -2257,7 +2257,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 DOCUMENT_NODE
@@ -2273,7 +2273,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 DOCUMENT_TYPE_NODE
@@ -2289,7 +2289,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 DOCUMENT_FRAGMENT_NODE
@@ -2305,7 +2305,7 @@ mozilla
 dom
 :
 :
-NodeBinding
+Node_Binding
 :
 :
 NOTATION_NODE

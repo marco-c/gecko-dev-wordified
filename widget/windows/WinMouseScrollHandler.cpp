@@ -4495,7 +4495,7 @@ mDeltaMode
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PAGE
@@ -4527,7 +4527,7 @@ mDeltaMode
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -5711,7 +5711,7 @@ mIsPage
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PAGE
@@ -5719,7 +5719,7 @@ DOM_DELTA_PAGE
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE
@@ -5829,7 +5829,7 @@ mDeltaMode
 dom
 :
 :
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_LINE

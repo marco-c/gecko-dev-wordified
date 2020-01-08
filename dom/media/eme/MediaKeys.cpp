@@ -775,7 +775,7 @@ aGivenProto
 )
 {
 return
-MediaKeysBinding
+MediaKeys_Binding
 :
 :
 Wrap

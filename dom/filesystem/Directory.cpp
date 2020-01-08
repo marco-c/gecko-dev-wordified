@@ -598,7 +598,7 @@ aGivenProto
 )
 {
 return
-DirectoryBinding
+Directory_Binding
 :
 :
 Wrap

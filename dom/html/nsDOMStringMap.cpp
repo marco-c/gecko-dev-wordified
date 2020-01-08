@@ -443,7 +443,7 @@ aGivenProto
 )
 {
 return
-DOMStringMapBinding
+DOMStringMap_Binding
 :
 :
 Wrap
@@ -1675,7 +1675,7 @@ if
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -1684,7 +1684,7 @@ ADDITION
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 REMOVAL

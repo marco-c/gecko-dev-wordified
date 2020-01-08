@@ -154,7 +154,7 @@ aGivenProto
 )
 {
 return
-AudioTrackListBinding
+AudioTrackList_Binding
 :
 :
 Wrap

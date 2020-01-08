@@ -234,7 +234,7 @@ aGivenProto
 )
 {
 return
-HTMLTableSectionElementBinding
+HTMLTableSectionElement_Binding
 :
 :
 Wrap

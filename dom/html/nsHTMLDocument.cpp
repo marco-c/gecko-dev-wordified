@@ -1363,7 +1363,7 @@ aGivenProto
 )
 {
 return
-HTMLDocumentBinding
+HTMLDocument_Binding
 :
 :
 Wrap

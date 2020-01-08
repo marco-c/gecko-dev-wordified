@@ -207,7 +207,7 @@ aGivenProto
 override
 {
 return
-DragEventBinding
+DragEvent_Binding
 :
 :
 Wrap

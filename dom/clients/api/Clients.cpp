@@ -312,7 +312,7 @@ aGivenProto
 )
 {
 return
-ClientsBinding
+Clients_Binding
 :
 :
 Wrap

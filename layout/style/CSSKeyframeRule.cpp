@@ -1025,7 +1025,7 @@ aGivenProto
 )
 {
 return
-CSSKeyframeRuleBinding
+CSSKeyframeRule_Binding
 :
 :
 Wrap

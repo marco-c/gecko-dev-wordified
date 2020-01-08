@@ -222,7 +222,7 @@ aGivenProto
 )
 {
 return
-IntlUtilsBinding
+IntlUtils_Binding
 :
 :
 Wrap

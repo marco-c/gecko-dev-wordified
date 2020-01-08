@@ -262,7 +262,7 @@ aGivenProto
 )
 {
 return
-SpeechGrammarBinding
+SpeechGrammar_Binding
 :
 :
 Wrap

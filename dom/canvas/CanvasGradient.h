@@ -285,7 +285,7 @@ aGivenProto
 override
 {
 return
-CanvasGradientBinding
+CanvasGradient_Binding
 :
 :
 Wrap

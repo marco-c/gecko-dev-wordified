@@ -905,7 +905,7 @@ if
 filtered
 =
 =
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 FILTER_ACCEPT
@@ -1042,7 +1042,7 @@ aReflector
 )
 {
 return
-NodeIteratorBinding
+NodeIterator_Binding
 :
 :
 Wrap

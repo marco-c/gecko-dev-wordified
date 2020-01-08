@@ -205,7 +205,7 @@ aGivenProto
 override
 {
 return
-TimeEventBinding
+TimeEvent_Binding
 :
 :
 Wrap

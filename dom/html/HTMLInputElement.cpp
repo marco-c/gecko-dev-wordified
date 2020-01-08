@@ -13955,7 +13955,7 @@ IsWebkitFileSystemEnabled
 )
 )
 {
-HTMLInputElementBinding
+HTMLInputElement_Binding
 :
 :
 ClearCachedWebkitEntriesValue
@@ -14039,7 +14039,7 @@ IsWebkitFileSystemEnabled
 )
 )
 {
-HTMLInputElementBinding
+HTMLInputElement_Binding
 :
 :
 ClearCachedWebkitEntriesValue
@@ -25407,7 +25407,7 @@ wheelEvent
 mDeltaMode
 !
 =
-WheelEventBinding
+WheelEvent_Binding
 :
 :
 DOM_DELTA_PIXEL
@@ -42464,7 +42464,7 @@ aGivenProto
 )
 {
 return
-HTMLInputElementBinding
+HTMLInputElement_Binding
 :
 :
 Wrap

@@ -779,7 +779,7 @@ aGivenProto
 )
 {
 return
-PresentationRequestBinding
+PresentationRequest_Binding
 :
 :
 Wrap

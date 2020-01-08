@@ -252,7 +252,7 @@ aGivenProto
 )
 {
 return
-StorageEventBinding
+StorageEvent_Binding
 :
 :
 Wrap

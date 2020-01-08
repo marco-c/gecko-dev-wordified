@@ -11467,7 +11467,7 @@ GetType
 )
 =
 =
-TreeColumnBinding
+TreeColumn_Binding
 :
 :
 TYPE_CHECKBOX
@@ -20554,13 +20554,13 @@ GetType
 )
 {
 case
-TreeColumnBinding
+TreeColumn_Binding
 :
 :
 TYPE_TEXT
 :
 case
-TreeColumnBinding
+TreeColumn_Binding
 :
 :
 TYPE_PASSWORD
@@ -20582,7 +20582,7 @@ currX
 break
 ;
 case
-TreeColumnBinding
+TreeColumn_Binding
 :
 :
 TYPE_CHECKBOX
@@ -22771,7 +22771,7 @@ Type
 )
 =
 =
-TreeColumnBinding
+TreeColumn_Binding
 :
 :
 TYPE_PASSWORD

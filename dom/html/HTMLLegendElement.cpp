@@ -686,7 +686,7 @@ aGivenProto
 )
 {
 return
-HTMLLegendElementBinding
+HTMLLegendElement_Binding
 :
 :
 Wrap

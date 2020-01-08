@@ -191,7 +191,7 @@ aGivenProto
 override
 {
 return
-FocusEventBinding
+FocusEvent_Binding
 :
 :
 Wrap

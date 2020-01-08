@@ -4106,7 +4106,7 @@ elm
 >
 ClickWithInputSource
 (
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_KEYBOARD
@@ -7918,7 +7918,7 @@ mDOMEvent
 uint16_t
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -8537,7 +8537,7 @@ value
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 REMOVAL
@@ -8546,7 +8546,7 @@ REMOVAL
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -9679,7 +9679,7 @@ aCallerType
 {
 ClickWithInputSource
 (
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -11550,7 +11550,7 @@ return
 dom
 :
 :
-XULElementBinding
+XULElement_Binding
 :
 :
 Wrap

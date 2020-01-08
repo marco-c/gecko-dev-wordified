@@ -1294,7 +1294,7 @@ aGivenProto
 )
 {
 return
-ConvolverNodeBinding
+ConvolverNode_Binding
 :
 :
 Wrap

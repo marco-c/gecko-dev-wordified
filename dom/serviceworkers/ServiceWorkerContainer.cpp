@@ -688,7 +688,7 @@ aGivenProto
 )
 {
 return
-ServiceWorkerContainerBinding
+ServiceWorkerContainer_Binding
 :
 :
 Wrap

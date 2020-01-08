@@ -1753,7 +1753,7 @@ param
 )
 {
 return
-HTMLParamElementBinding
+HTMLParamElement_Binding
 :
 :
 Wrap
@@ -1779,7 +1779,7 @@ base
 )
 {
 return
-HTMLBaseElementBinding
+HTMLBaseElement_Binding
 :
 :
 Wrap
@@ -1805,7 +1805,7 @@ dir
 )
 {
 return
-HTMLDirectoryElementBinding
+HTMLDirectoryElement_Binding
 :
 :
 Wrap
@@ -1843,7 +1843,7 @@ blockquote
 )
 {
 return
-HTMLQuoteElementBinding
+HTMLQuoteElement_Binding
 :
 :
 Wrap
@@ -1869,7 +1869,7 @@ head
 )
 {
 return
-HTMLHeadElementBinding
+HTMLHeadElement_Binding
 :
 :
 Wrap
@@ -1895,7 +1895,7 @@ html
 )
 ;
 return
-HTMLHtmlElementBinding
+HTMLHtmlElement_Binding
 :
 :
 Wrap

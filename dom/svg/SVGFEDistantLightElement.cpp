@@ -182,7 +182,7 @@ aGivenProto
 )
 {
 return
-SVGFEDistantLightElementBinding
+SVGFEDistantLightElement_Binding
 :
 :
 Wrap

@@ -793,7 +793,7 @@ aGivenProto
 )
 {
 return
-VTTCueBinding
+VTTCue_Binding
 :
 :
 Wrap

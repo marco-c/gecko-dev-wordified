@@ -9686,7 +9686,7 @@ return
 dom
 :
 :
-WebGLProgramBinding
+WebGLProgram_Binding
 :
 :
 Wrap

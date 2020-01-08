@@ -6558,7 +6558,7 @@ aGivenProto
 )
 {
 return
-CanvasRenderingContext2DBinding
+CanvasRenderingContext2D_Binding
 :
 :
 Wrap
@@ -30295,7 +30295,7 @@ if
 (
 aFlags
 &
-CanvasRenderingContext2DBinding
+CanvasRenderingContext2D_Binding
 :
 :
 DRAWWINDOW_DO_NOT_FLUSH
@@ -30530,7 +30530,7 @@ if
 (
 aFlags
 &
-CanvasRenderingContext2DBinding
+CanvasRenderingContext2D_Binding
 :
 :
 DRAWWINDOW_DRAW_CARET
@@ -30549,7 +30549,7 @@ if
 (
 aFlags
 &
-CanvasRenderingContext2DBinding
+CanvasRenderingContext2D_Binding
 :
 :
 DRAWWINDOW_DRAW_VIEW
@@ -30576,7 +30576,7 @@ if
 (
 aFlags
 &
-CanvasRenderingContext2DBinding
+CanvasRenderingContext2D_Binding
 :
 :
 DRAWWINDOW_USE_WIDGET_LAYERS
@@ -30595,7 +30595,7 @@ if
 (
 aFlags
 &
-CanvasRenderingContext2DBinding
+CanvasRenderingContext2D_Binding
 :
 :
 DRAWWINDOW_ASYNC_DECODE_IMAGES
@@ -30614,7 +30614,7 @@ if
 (
 aFlags
 &
-CanvasRenderingContext2DBinding
+CanvasRenderingContext2D_Binding
 :
 :
 DRAWWINDOW_DO_NOT_FLUSH
@@ -35385,7 +35385,7 @@ aGivenProto
 )
 {
 return
-Path2DBinding
+Path2D_Binding
 :
 :
 Wrap

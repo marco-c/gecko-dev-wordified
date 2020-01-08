@@ -862,7 +862,7 @@ aGivenProto
 )
 {
 return
-HTMLElementBinding
+HTMLElement_Binding
 :
 :
 Wrap

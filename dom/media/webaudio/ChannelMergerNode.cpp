@@ -607,7 +607,7 @@ aGivenProto
 )
 {
 return
-ChannelMergerNodeBinding
+ChannelMergerNode_Binding
 :
 :
 Wrap

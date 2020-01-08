@@ -204,7 +204,7 @@ aGivenProto
 override
 {
 return
-CommandEventBinding
+CommandEvent_Binding
 :
 :
 Wrap

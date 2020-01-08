@@ -452,7 +452,7 @@ aGivenProto
 )
 {
 return
-NetworkInformationBinding
+NetworkInformation_Binding
 :
 :
 Wrap

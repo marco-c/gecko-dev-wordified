@@ -864,7 +864,7 @@ calling
 :
 /
 /
-NavigatorBinding
+Navigator_Binding
 :
 :
 ClearCachedUserAgentValue

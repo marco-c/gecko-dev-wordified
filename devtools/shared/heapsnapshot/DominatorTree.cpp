@@ -1039,7 +1039,7 @@ return
 dom
 :
 :
-DominatorTreeBinding
+DominatorTree_Binding
 :
 :
 Wrap

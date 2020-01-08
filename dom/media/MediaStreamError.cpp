@@ -478,7 +478,7 @@ aGivenProto
 )
 {
 return
-MediaStreamErrorBinding
+MediaStreamError_Binding
 :
 :
 Wrap

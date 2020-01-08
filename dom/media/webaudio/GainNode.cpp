@@ -987,7 +987,7 @@ aGivenProto
 )
 {
 return
-GainNodeBinding
+GainNode_Binding
 :
 :
 Wrap

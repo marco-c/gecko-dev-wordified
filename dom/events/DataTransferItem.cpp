@@ -357,7 +357,7 @@ aGivenProto
 )
 {
 return
-DataTransferItemBinding
+DataTransferItem_Binding
 :
 :
 Wrap

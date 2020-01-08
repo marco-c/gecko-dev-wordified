@@ -5377,7 +5377,7 @@ aGivenProto
 )
 {
 return
-LocationBinding
+Location_Binding
 :
 :
 Wrap

@@ -1466,7 +1466,7 @@ aGivenProto
 )
 {
 return
-HTMLCollectionBinding
+HTMLCollection_Binding
 :
 :
 Wrap
@@ -3826,7 +3826,7 @@ aGivenProto
 )
 {
 return
-HTMLTableElementBinding
+HTMLTableElement_Binding
 :
 :
 Wrap

@@ -436,7 +436,7 @@ aGivenProto
 )
 {
 return
-CSSSupportsRuleBinding
+CSSSupportsRule_Binding
 :
 :
 Wrap

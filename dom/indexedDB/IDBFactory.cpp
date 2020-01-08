@@ -4780,7 +4780,7 @@ aGivenProto
 )
 {
 return
-IDBFactoryBinding
+IDBFactory_Binding
 :
 :
 Wrap

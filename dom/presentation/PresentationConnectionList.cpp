@@ -268,7 +268,7 @@ aGivenProto
 )
 {
 return
-PresentationConnectionListBinding
+PresentationConnectionList_Binding
 :
 :
 Wrap
@@ -546,7 +546,7 @@ true
 :
 false
 ;
-PresentationConnectionListBinding
+PresentationConnectionList_Binding
 :
 :
 ClearCachedConnectionsValue

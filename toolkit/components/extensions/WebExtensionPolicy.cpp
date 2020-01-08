@@ -1487,7 +1487,7 @@ NS_ERROR_OUT_OF_MEMORY
 return
 ;
 }
-WebExtensionPolicyBinding
+WebExtensionPolicy_Binding
 :
 :
 ClearCachedContentScriptsValue
@@ -1541,7 +1541,7 @@ NS_ERROR_INVALID_ARG
 return
 ;
 }
-WebExtensionPolicyBinding
+WebExtensionPolicy_Binding
 :
 :
 ClearCachedContentScriptsValue
@@ -2192,7 +2192,7 @@ aGivenProto
 )
 {
 return
-WebExtensionPolicyBinding
+WebExtensionPolicy_Binding
 :
 :
 Wrap
@@ -3027,7 +3027,7 @@ aGivenProto
 )
 {
 return
-WebExtensionContentScriptBinding
+WebExtensionContentScript_Binding
 :
 :
 Wrap

@@ -762,7 +762,7 @@ ol
 )
 {
 return
-HTMLOListElementBinding
+HTMLOListElement_Binding
 :
 :
 Wrap
@@ -788,7 +788,7 @@ dl
 )
 {
 return
-HTMLDListElementBinding
+HTMLDListElement_Binding
 :
 :
 Wrap
@@ -814,7 +814,7 @@ ul
 )
 ;
 return
-HTMLUListElementBinding
+HTMLUListElement_Binding
 :
 :
 Wrap

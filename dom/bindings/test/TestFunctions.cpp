@@ -802,7 +802,7 @@ aWrapper
 )
 {
 return
-TestFunctionsBinding
+TestFunctions_Binding
 :
 :
 Wrap

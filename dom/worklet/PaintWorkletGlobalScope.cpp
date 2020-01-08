@@ -192,7 +192,7 @@ RealmOptions
 options
 ;
 return
-PaintWorkletGlobalScopeBinding
+PaintWorkletGlobalScope_Binding
 :
 :
 Wrap

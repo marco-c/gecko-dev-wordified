@@ -236,7 +236,7 @@ aGivenProto
 )
 {
 return
-HTMLTableRowElementBinding
+HTMLTableRowElement_Binding
 :
 :
 Wrap

@@ -228,7 +228,7 @@ aGivenProto
 override
 {
 return
-NotificationEventBinding
+NotificationEvent_Binding
 :
 :
 Wrap

@@ -352,7 +352,7 @@ aGivenProto
 )
 {
 return
-HTMLParagraphElementBinding
+HTMLParagraphElement_Binding
 :
 :
 Wrap

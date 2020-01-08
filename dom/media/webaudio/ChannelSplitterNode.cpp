@@ -684,7 +684,7 @@ aGivenProto
 )
 {
 return
-ChannelSplitterNodeBinding
+ChannelSplitterNode_Binding
 :
 :
 Wrap

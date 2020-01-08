@@ -322,7 +322,7 @@ aGivenProto
 )
 {
 return
-CSSPseudoElementBinding
+CSSPseudoElement_Binding
 :
 :
 Wrap

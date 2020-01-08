@@ -167,7 +167,7 @@ return
 dom
 :
 :
-CSSStyleRuleBinding
+CSSStyleRule_Binding
 :
 :
 Wrap

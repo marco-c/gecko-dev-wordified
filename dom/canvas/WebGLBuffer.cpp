@@ -2308,7 +2308,7 @@ return
 dom
 :
 :
-WebGLBufferBinding
+WebGLBuffer_Binding
 :
 :
 Wrap

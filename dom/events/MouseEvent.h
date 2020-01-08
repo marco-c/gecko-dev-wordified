@@ -215,7 +215,7 @@ aGivenProto
 override
 {
 return
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 Wrap

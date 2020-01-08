@@ -204,7 +204,7 @@ aGivenProto
 )
 {
 return
-SVGCircleElementBinding
+SVGCircleElement_Binding
 :
 :
 Wrap
@@ -235,7 +235,7 @@ nsGkAtoms
 :
 cx
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -251,7 +251,7 @@ nsGkAtoms
 :
 cy
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -267,7 +267,7 @@ nsGkAtoms
 :
 r
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER

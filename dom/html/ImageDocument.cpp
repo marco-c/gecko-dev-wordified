@@ -1146,7 +1146,7 @@ aGivenProto
 )
 {
 return
-ImageDocumentBinding
+ImageDocument_Binding
 :
 :
 Wrap

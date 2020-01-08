@@ -196,7 +196,7 @@ aGivenProto
 )
 {
 return
-RadioNodeListBinding
+RadioNodeList_Binding
 :
 :
 Wrap

@@ -4494,7 +4494,7 @@ EventPhase
 )
 =
 =
-EventBinding
+Event_Binding
 :
 :
 NONE
@@ -6007,7 +6007,7 @@ mozilla
 dom
 :
 :
-PushMessageDataBinding
+PushMessageData_Binding
 :
 :
 Wrap
@@ -6610,7 +6610,7 @@ mozilla
 dom
 :
 :
-PushEventBinding
+PushEvent_Binding
 :
 :
 Wrap

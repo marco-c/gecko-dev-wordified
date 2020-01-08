@@ -191,7 +191,7 @@ aCx
 )
 ;
 return
-ChromeMessageBroadcasterBinding
+ChromeMessageBroadcaster_Binding
 :
 :
 Wrap

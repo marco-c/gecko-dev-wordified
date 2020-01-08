@@ -468,7 +468,7 @@ mozilla
 dom
 :
 :
-SVGTextContentElementBinding
+SVGTextContentElement_Binding
 ;
 using
 namespace

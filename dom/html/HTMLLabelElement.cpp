@@ -252,7 +252,7 @@ aGivenProto
 )
 {
 return
-HTMLLabelElementBinding
+HTMLLabelElement_Binding
 :
 :
 Wrap
@@ -1088,7 +1088,7 @@ mouseEvent
 inputSource
 !
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_KEYBOARD
@@ -1104,7 +1104,7 @@ mouseEvent
 inputSource
 =
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -1427,7 +1427,7 @@ event
 .
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_KEYBOARD

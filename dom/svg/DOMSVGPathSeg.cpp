@@ -168,7 +168,7 @@ namespace
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 ;
 /
 /

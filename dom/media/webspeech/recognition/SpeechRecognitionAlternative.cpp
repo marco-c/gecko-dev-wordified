@@ -217,7 +217,7 @@ aGivenProto
 )
 {
 return
-SpeechRecognitionAlternativeBinding
+SpeechRecognitionAlternative_Binding
 :
 :
 Wrap

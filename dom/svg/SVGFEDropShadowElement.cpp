@@ -189,7 +189,7 @@ aGivenProto
 )
 {
 return
-SVGFEDropShadowElementBinding
+SVGFEDropShadowElement_Binding
 :
 :
 Wrap

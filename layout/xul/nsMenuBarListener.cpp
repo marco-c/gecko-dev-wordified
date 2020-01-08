@@ -1126,7 +1126,7 @@ mAccessKey
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ALT
@@ -1177,7 +1177,7 @@ case
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_SHIFT
@@ -1192,7 +1192,7 @@ case
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_CONTROL
@@ -1207,7 +1207,7 @@ case
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_ALT
@@ -1222,7 +1222,7 @@ case
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_META
@@ -1237,7 +1237,7 @@ case
 dom
 :
 :
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 DOM_VK_WIN
@@ -2996,7 +2996,7 @@ eventPhase
 dom
 :
 :
-EventBinding
+Event_Binding
 :
 :
 CAPTURING_PHASE
@@ -3742,7 +3742,7 @@ EventPhase
 dom
 :
 :
-EventBinding
+Event_Binding
 :
 :
 CAPTURING_PHASE

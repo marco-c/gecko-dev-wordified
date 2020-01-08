@@ -247,7 +247,7 @@ return
 dom
 :
 :
-SVGAnimatedLengthListBinding
+SVGAnimatedLengthList_Binding
 :
 :
 Wrap

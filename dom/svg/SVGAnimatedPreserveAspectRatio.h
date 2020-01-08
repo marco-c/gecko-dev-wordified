@@ -211,7 +211,7 @@ mAlign
 dom
 :
 :
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 :
 :
 SVG_PRESERVEASPECTRATIO_XMIDYMID
@@ -223,7 +223,7 @@ mMeetOrSlice
 dom
 :
 :
-SVGPreserveAspectRatioBinding
+SVGPreserveAspectRatio_Binding
 :
 :
 SVG_MEETORSLICE_MEET

@@ -421,7 +421,7 @@ return
 dom
 :
 :
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 STYLE_RULE

@@ -189,7 +189,7 @@ aGivenProto
 )
 {
 return
-SVGFESpecularLightingElementBinding
+SVGFESpecularLightingElement_Binding
 :
 :
 Wrap

@@ -473,7 +473,7 @@ aGivenProto
 )
 {
 return
-AudioWorkletNodeBinding
+AudioWorkletNode_Binding
 :
 :
 Wrap

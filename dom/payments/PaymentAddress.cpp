@@ -493,7 +493,7 @@ aGivenProto
 )
 {
 return
-PaymentAddressBinding
+PaymentAddress_Binding
 :
 :
 Wrap

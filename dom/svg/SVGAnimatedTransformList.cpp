@@ -208,7 +208,7 @@ aGivenProto
 )
 {
 return
-SVGAnimatedTransformListBinding
+SVGAnimatedTransformList_Binding
 :
 :
 Wrap

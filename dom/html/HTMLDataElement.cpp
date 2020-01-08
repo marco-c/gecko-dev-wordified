@@ -209,7 +209,7 @@ aGivenProto
 )
 {
 return
-HTMLDataElementBinding
+HTMLDataElement_Binding
 :
 :
 Wrap

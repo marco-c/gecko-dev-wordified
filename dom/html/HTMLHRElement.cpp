@@ -1238,7 +1238,7 @@ aGivenProto
 )
 {
 return
-HTMLHRElementBinding
+HTMLHRElement_Binding
 :
 :
 Wrap

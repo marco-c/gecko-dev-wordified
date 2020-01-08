@@ -556,7 +556,7 @@ aGivenProto
 )
 {
 return
-PerformanceObserverBinding
+PerformanceObserver_Binding
 :
 :
 Wrap

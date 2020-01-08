@@ -2215,7 +2215,7 @@ aGivenProto
 )
 {
 return
-PushManagerBinding
+PushManager_Binding
 :
 :
 Wrap

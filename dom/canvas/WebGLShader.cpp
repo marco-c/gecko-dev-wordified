@@ -2533,7 +2533,7 @@ return
 dom
 :
 :
-WebGLShaderBinding
+WebGLShader_Binding
 :
 :
 Wrap

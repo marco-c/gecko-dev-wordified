@@ -210,7 +210,7 @@ aGivenProto
 )
 {
 return
-PerformanceMarkBinding
+PerformanceMark_Binding
 :
 :
 Wrap

@@ -497,7 +497,7 @@ type
 dom
 :
 :
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 MEDIA_RULE
@@ -509,7 +509,7 @@ type
 dom
 :
 :
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 DOCUMENT_RULE
@@ -521,7 +521,7 @@ type
 dom
 :
 :
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 SUPPORTS_RULE
@@ -534,7 +534,7 @@ type
 dom
 :
 :
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 KEYFRAMES_RULE
@@ -548,7 +548,7 @@ Type
 dom
 :
 :
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 KEYFRAME_RULE

@@ -13422,7 +13422,7 @@ true
 ;
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_KEYBOARD
@@ -14420,7 +14420,7 @@ static_cast
 uint8_t
 >
 (
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION
@@ -14431,7 +14431,7 @@ static_cast
 uint8_t
 >
 (
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -14639,7 +14639,7 @@ static_cast
 uint8_t
 >
 (
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -15738,7 +15738,7 @@ aName
 aModType
 =
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -16928,7 +16928,7 @@ AttributeWillChange
 this
 aNameSpaceID
 aName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 REMOVAL
@@ -17408,7 +17408,7 @@ AttributeChanged
 this
 aNameSpaceID
 aName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 REMOVAL
@@ -17500,7 +17500,7 @@ mutation
 .
 mAttrChange
 =
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 REMOVAL

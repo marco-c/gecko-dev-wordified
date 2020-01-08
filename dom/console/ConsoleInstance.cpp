@@ -652,7 +652,7 @@ aGivenProto
 )
 {
 return
-ConsoleInstanceBinding
+ConsoleInstance_Binding
 :
 :
 Wrap

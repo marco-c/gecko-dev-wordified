@@ -530,7 +530,7 @@ mozilla
 dom
 :
 :
-SVGUnitTypesBinding
+SVGUnitTypes_Binding
 ;
 using
 namespace

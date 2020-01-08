@@ -7589,7 +7589,7 @@ NotifyActiveVRDisplaysChanged
 (
 )
 {
-NavigatorBinding
+Navigator_Binding
 :
 :
 ClearCachedActiveVRDisplaysValue
@@ -8124,7 +8124,7 @@ aGivenProto
 )
 {
 return
-NavigatorBinding
+Navigator_Binding
 :
 :
 Wrap
@@ -8926,7 +8926,7 @@ ClearUserAgentCache
 (
 )
 {
-NavigatorBinding
+Navigator_Binding
 :
 :
 ClearCachedUserAgentValue

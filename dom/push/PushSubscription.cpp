@@ -1069,7 +1069,7 @@ aGivenProto
 )
 {
 return
-PushSubscriptionBinding
+PushSubscription_Binding
 :
 :
 Wrap

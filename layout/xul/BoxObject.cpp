@@ -2402,7 +2402,7 @@ aGivenProto
 )
 {
 return
-BoxObjectBinding
+BoxObject_Binding
 :
 :
 Wrap

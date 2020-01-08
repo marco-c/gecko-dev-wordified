@@ -1184,7 +1184,7 @@ aGivenProto
 )
 {
 return
-IDBMutableFileBinding
+IDBMutableFile_Binding
 :
 :
 Wrap

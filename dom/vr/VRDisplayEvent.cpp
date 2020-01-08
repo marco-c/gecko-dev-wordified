@@ -264,7 +264,7 @@ aGivenProto
 )
 {
 return
-VRDisplayEventBinding
+VRDisplayEvent_Binding
 :
 :
 Wrap

@@ -1529,7 +1529,7 @@ aGivenProto
 )
 {
 return
-HTMLMeterElementBinding
+HTMLMeterElement_Binding
 :
 :
 Wrap

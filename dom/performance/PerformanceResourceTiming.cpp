@@ -458,7 +458,7 @@ aGivenProto
 )
 {
 return
-PerformanceResourceTimingBinding
+PerformanceResourceTiming_Binding
 :
 :
 Wrap

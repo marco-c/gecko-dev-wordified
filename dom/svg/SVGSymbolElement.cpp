@@ -168,7 +168,7 @@ aGivenProto
 )
 {
 return
-SVGSymbolElementBinding
+SVGSymbolElement_Binding
 :
 :
 Wrap

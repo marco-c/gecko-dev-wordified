@@ -298,7 +298,7 @@ aGivenProto
 )
 {
 return
-MediaEncryptedEventBinding
+MediaEncryptedEvent_Binding
 :
 :
 Wrap

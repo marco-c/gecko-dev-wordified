@@ -472,7 +472,7 @@ aReflector
 )
 {
 return
-InspectorFontFaceBinding
+InspectorFontFace_Binding
 :
 :
 Wrap

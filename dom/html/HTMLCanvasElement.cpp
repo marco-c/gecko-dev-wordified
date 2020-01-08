@@ -1361,7 +1361,7 @@ aGivenProto
 )
 {
 return
-MozCanvasPrintStateBinding
+MozCanvasPrintState_Binding
 :
 :
 Wrap
@@ -2202,7 +2202,7 @@ aGivenProto
 )
 {
 return
-HTMLCanvasElementBinding
+HTMLCanvasElement_Binding
 :
 :
 Wrap

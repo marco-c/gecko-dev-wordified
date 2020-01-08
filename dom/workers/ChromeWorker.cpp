@@ -454,7 +454,7 @@ JSObject
 wrapper
 (
 aCx
-ChromeWorkerBinding
+ChromeWorker_Binding
 :
 :
 Wrap

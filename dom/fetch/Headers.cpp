@@ -608,7 +608,7 @@ mozilla
 dom
 :
 :
-HeadersBinding
+Headers_Binding
 :
 :
 Wrap

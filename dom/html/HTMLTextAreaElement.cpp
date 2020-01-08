@@ -6189,7 +6189,7 @@ aGivenProto
 )
 {
 return
-HTMLTextAreaElementBinding
+HTMLTextAreaElement_Binding
 :
 :
 Wrap

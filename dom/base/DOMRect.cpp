@@ -215,7 +215,7 @@ mParent
 )
 ;
 return
-DOMRectReadOnlyBinding
+DOMRectReadOnly_Binding
 :
 :
 Wrap
@@ -386,7 +386,7 @@ mParent
 )
 ;
 return
-DOMRectBinding
+DOMRect_Binding
 :
 :
 Wrap
@@ -586,7 +586,7 @@ mozilla
 dom
 :
 :
-DOMRectListBinding
+DOMRectList_Binding
 :
 :
 Wrap

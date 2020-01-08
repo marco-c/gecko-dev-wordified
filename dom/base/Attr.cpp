@@ -1535,7 +1535,7 @@ aGivenProto
 )
 {
 return
-AttrBinding
+Attr_Binding
 :
 :
 Wrap

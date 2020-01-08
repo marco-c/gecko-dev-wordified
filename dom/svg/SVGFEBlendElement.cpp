@@ -182,7 +182,7 @@ aGivenProto
 )
 {
 return
-SVGFEBlendElementBinding
+SVGFEBlendElement_Binding
 :
 :
 Wrap

@@ -379,7 +379,7 @@ aGivenProto
 )
 {
 return
-PaintRequestBinding
+PaintRequest_Binding
 :
 :
 Wrap
@@ -639,7 +639,7 @@ aGivenProto
 )
 {
 return
-PaintRequestListBinding
+PaintRequestList_Binding
 :
 :
 Wrap

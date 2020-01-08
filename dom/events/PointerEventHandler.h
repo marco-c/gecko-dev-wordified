@@ -1084,7 +1084,7 @@ one
 of
 /
 /
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_

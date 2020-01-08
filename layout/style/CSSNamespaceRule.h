@@ -284,7 +284,7 @@ const
 final
 {
 return
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 NAMESPACE_RULE
@@ -355,7 +355,7 @@ aGivenProto
 final
 {
 return
-CSSNamespaceRuleBinding
+CSSNamespaceRule_Binding
 :
 :
 Wrap

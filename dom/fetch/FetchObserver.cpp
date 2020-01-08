@@ -231,7 +231,7 @@ aGivenProto
 )
 {
 return
-FetchObserverBinding
+FetchObserver_Binding
 :
 :
 Wrap

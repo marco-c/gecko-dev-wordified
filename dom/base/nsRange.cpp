@@ -399,7 +399,7 @@ aGivenProto
 )
 {
 return
-RangeBinding
+Range_Binding
 :
 :
 Wrap
@@ -14550,7 +14550,7 @@ aHow
 )
 {
 case
-RangeBinding
+Range_Binding
 :
 :
 START_TO_START
@@ -14590,7 +14590,7 @@ StartOffset
 break
 ;
 case
-RangeBinding
+Range_Binding
 :
 :
 START_TO_END
@@ -14630,7 +14630,7 @@ StartOffset
 break
 ;
 case
-RangeBinding
+Range_Binding
 :
 :
 END_TO_START
@@ -14670,7 +14670,7 @@ EndOffset
 break
 ;
 case
-RangeBinding
+Range_Binding
 :
 :
 END_TO_END

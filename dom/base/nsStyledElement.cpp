@@ -685,7 +685,7 @@ static_cast
 uint8_t
 >
 (
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION
@@ -696,7 +696,7 @@ static_cast
 uint8_t
 >
 (
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION

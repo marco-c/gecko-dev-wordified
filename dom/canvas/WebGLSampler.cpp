@@ -279,7 +279,7 @@ return
 dom
 :
 :
-WebGLSamplerBinding
+WebGLSampler_Binding
 :
 :
 Wrap

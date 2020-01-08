@@ -485,7 +485,7 @@ if
 (
 aType
 >
-XPathResultBinding
+XPathResult_Binding
 :
 :
 FIRST_ORDERED_NODE_TYPE

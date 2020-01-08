@@ -1024,7 +1024,7 @@ aReflector
 )
 {
 return
-AnonymousContentBinding
+AnonymousContent_Binding
 :
 :
 Wrap

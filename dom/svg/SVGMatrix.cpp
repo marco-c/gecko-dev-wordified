@@ -230,7 +230,7 @@ aGivenProto
 )
 {
 return
-SVGMatrixBinding
+SVGMatrix_Binding
 :
 :
 Wrap

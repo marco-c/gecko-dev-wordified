@@ -13580,7 +13580,7 @@ inputSource
 0
 /
 *
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN

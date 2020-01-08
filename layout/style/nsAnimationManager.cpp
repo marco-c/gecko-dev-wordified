@@ -469,7 +469,7 @@ return
 dom
 :
 :
-CSSAnimationBinding
+CSSAnimation_Binding
 :
 :
 Wrap

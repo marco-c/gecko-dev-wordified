@@ -540,7 +540,7 @@ return
 dom
 :
 :
-WebGLActiveInfoBinding
+WebGLActiveInfo_Binding
 :
 :
 Wrap

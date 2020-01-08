@@ -235,7 +235,7 @@ aGivenProto
 override
 {
 return
-AnimationEventBinding
+AnimationEvent_Binding
 :
 :
 Wrap

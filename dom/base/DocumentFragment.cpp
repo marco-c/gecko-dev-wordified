@@ -265,7 +265,7 @@ aGivenProto
 )
 {
 return
-DocumentFragmentBinding
+DocumentFragment_Binding
 :
 :
 Wrap

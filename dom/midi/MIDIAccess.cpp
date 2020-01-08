@@ -599,7 +599,7 @@ MIDIPortType
 Input
 &
 &
-MIDIInputMapBinding
+MIDIInputMap_Binding
 :
 :
 MaplikeHelpers
@@ -613,7 +613,7 @@ rv
 )
 )
 {
-MIDIInputMapBinding
+MIDIInputMap_Binding
 :
 :
 MaplikeHelpers
@@ -644,7 +644,7 @@ MIDIPortType
 Output
 &
 &
-MIDIOutputMapBinding
+MIDIOutputMap_Binding
 :
 :
 MaplikeHelpers
@@ -658,7 +658,7 @@ rv
 )
 )
 {
-MIDIOutputMapBinding
+MIDIOutputMap_Binding
 :
 :
 MaplikeHelpers
@@ -783,7 +783,7 @@ Input
 &
 &
 !
-MIDIInputMapBinding
+MIDIInputMap_Binding
 :
 :
 MaplikeHelpers
@@ -812,7 +812,7 @@ Failed
 return
 ;
 }
-MIDIInputMapBinding
+MIDIInputMap_Binding
 :
 :
 MaplikeHelpers
@@ -870,7 +870,7 @@ Output
 &
 &
 !
-MIDIOutputMapBinding
+MIDIOutputMap_Binding
 :
 :
 MaplikeHelpers
@@ -899,7 +899,7 @@ Failed
 return
 ;
 }
-MIDIOutputMapBinding
+MIDIOutputMap_Binding
 :
 :
 MaplikeHelpers
@@ -1027,7 +1027,7 @@ Input
 bool
 hasPort
 =
-MIDIInputMapBinding
+MIDIInputMap_Binding
 :
 :
 MaplikeHelpers
@@ -1103,7 +1103,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-MIDIInputMapBinding
+MIDIInputMap_Binding
 :
 :
 MaplikeHelpers
@@ -1162,7 +1162,7 @@ Output
 bool
 hasPort
 =
-MIDIOutputMapBinding
+MIDIOutputMap_Binding
 :
 :
 MaplikeHelpers
@@ -1238,7 +1238,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-MIDIOutputMapBinding
+MIDIOutputMap_Binding
 :
 :
 MaplikeHelpers
@@ -1573,7 +1573,7 @@ aGivenProto
 )
 {
 return
-MIDIAccessBinding
+MIDIAccess_Binding
 :
 :
 Wrap

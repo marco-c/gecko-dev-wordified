@@ -1079,7 +1079,7 @@ aGivenProto
 )
 {
 return
-TouchBinding
+Touch_Binding
 :
 :
 Wrap

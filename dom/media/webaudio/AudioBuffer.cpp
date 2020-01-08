@@ -1418,7 +1418,7 @@ aGivenProto
 )
 {
 return
-AudioBufferBinding
+AudioBuffer_Binding
 :
 :
 Wrap

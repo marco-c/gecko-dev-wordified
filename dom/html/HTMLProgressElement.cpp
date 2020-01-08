@@ -592,7 +592,7 @@ aGivenProto
 )
 {
 return
-HTMLProgressElementBinding
+HTMLProgressElement_Binding
 :
 :
 Wrap

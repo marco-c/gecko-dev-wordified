@@ -742,7 +742,7 @@ aGivenProto
 )
 {
 return
-PerformanceBinding
+Performance_Binding
 :
 :
 Wrap

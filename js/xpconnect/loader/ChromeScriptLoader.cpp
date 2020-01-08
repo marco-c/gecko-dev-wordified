@@ -1648,7 +1648,7 @@ aGivenProto
 )
 {
 return
-PrecompiledScriptBinding
+PrecompiledScript_Binding
 :
 :
 Wrap

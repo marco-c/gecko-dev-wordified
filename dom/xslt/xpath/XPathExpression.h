@@ -244,7 +244,7 @@ aReflector
 )
 {
 return
-XPathExpressionBinding
+XPathExpression_Binding
 :
 :
 Wrap

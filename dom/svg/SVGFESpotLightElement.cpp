@@ -182,7 +182,7 @@ aGivenProto
 )
 {
 return
-SVGFESpotLightElementBinding
+SVGFESpotLightElement_Binding
 :
 :
 Wrap

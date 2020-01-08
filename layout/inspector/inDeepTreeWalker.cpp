@@ -466,7 +466,7 @@ mozilla
 dom
 :
 :
-NodeFilterBinding
+NodeFilter_Binding
 :
 :
 SHOW_ALL

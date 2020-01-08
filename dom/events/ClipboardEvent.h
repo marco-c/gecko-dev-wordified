@@ -207,7 +207,7 @@ aGivenProto
 override
 {
 return
-ClipboardEventBinding
+ClipboardEvent_Binding
 :
 :
 Wrap

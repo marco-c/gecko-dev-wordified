@@ -945,7 +945,7 @@ return
 dom
 :
 :
-HTMLElementBinding
+HTMLElement_Binding
 :
 :
 Wrap

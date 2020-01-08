@@ -298,7 +298,7 @@ mUnit
 dom
 :
 :
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_UNKNOWN
@@ -804,7 +804,7 @@ mUnit
 dom
 :
 :
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -824,7 +824,7 @@ unit
 dom
 :
 :
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_UNKNOWN
@@ -836,7 +836,7 @@ unit
 dom
 :
 :
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PC

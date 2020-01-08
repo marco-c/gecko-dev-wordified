@@ -168,7 +168,7 @@ aGivenProto
 )
 {
 return
-SVGDescElementBinding
+SVGDescElement_Binding
 :
 :
 Wrap

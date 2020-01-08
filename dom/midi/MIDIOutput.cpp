@@ -327,7 +327,7 @@ aGivenProto
 )
 {
 return
-MIDIOutputBinding
+MIDIOutput_Binding
 :
 :
 Wrap

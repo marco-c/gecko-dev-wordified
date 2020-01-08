@@ -1302,7 +1302,7 @@ aGivenProto
 )
 {
 return
-IDBRequestBinding
+IDBRequest_Binding
 :
 :
 Wrap
@@ -2740,7 +2740,7 @@ AssertIsOnOwningThread
 )
 ;
 return
-IDBOpenDBRequestBinding
+IDBOpenDBRequest_Binding
 :
 :
 Wrap

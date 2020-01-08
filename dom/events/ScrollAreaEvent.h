@@ -255,7 +255,7 @@ aGivenProto
 override
 {
 return
-ScrollAreaEventBinding
+ScrollAreaEvent_Binding
 :
 :
 Wrap

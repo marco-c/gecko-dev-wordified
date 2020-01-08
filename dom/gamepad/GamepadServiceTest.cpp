@@ -1649,7 +1649,7 @@ aGivenProto
 )
 {
 return
-GamepadServiceTestBinding
+GamepadServiceTest_Binding
 :
 :
 Wrap

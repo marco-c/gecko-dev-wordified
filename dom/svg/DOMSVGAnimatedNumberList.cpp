@@ -258,7 +258,7 @@ mozilla
 dom
 :
 :
-SVGAnimatedNumberListBinding
+SVGAnimatedNumberList_Binding
 :
 :
 Wrap

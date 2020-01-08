@@ -1262,7 +1262,7 @@ if
 unit
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1271,7 +1271,7 @@ SVG_LENGTHTYPE_PERCENTAGE
 unit
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_EMS
@@ -1280,7 +1280,7 @@ SVG_LENGTHTYPE_EMS
 unit
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_EXS

@@ -182,7 +182,7 @@ aGivenProto
 )
 {
 return
-SVGFEPointLightElementBinding
+SVGFEPointLightElement_Binding
 :
 :
 Wrap

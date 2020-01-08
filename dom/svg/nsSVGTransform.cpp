@@ -174,7 +174,7 @@ namespace
 dom
 :
 :
-SVGTransformBinding
+SVGTransform_Binding
 ;
 void
 nsSVGTransform

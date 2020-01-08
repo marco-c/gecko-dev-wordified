@@ -299,7 +299,7 @@ aGivenProto
 )
 {
 return
-MIDIInputBinding
+MIDIInput_Binding
 :
 :
 Wrap

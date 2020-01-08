@@ -168,7 +168,7 @@ aGivenProto
 )
 {
 return
-SVGTitleElementBinding
+SVGTitleElement_Binding
 :
 :
 Wrap

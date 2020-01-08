@@ -207,7 +207,7 @@ segType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CLOSEPATH
@@ -451,7 +451,7 @@ SVGPathSeg
 segName
 #
 #
-Binding
+_Binding
 :
 :
 Wrap
@@ -1514,7 +1514,7 @@ ClosePath
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CLOSEPATH
@@ -1610,7 +1610,7 @@ MovetoAbs
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_MOVETO_ABS
@@ -1696,7 +1696,7 @@ MovetoRel
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_MOVETO_REL
@@ -1782,7 +1782,7 @@ LinetoAbs
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_LINETO_ABS
@@ -1868,7 +1868,7 @@ LinetoRel
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_LINETO_REL
@@ -2080,7 +2080,7 @@ CurvetoCubicAbs
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_CUBIC_ABS
@@ -2172,7 +2172,7 @@ CurvetoCubicRel
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_CUBIC_REL
@@ -2336,7 +2336,7 @@ CurvetoQuadraticAbs
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_ABS
@@ -2470,7 +2470,7 @@ CurvetoQuadraticRel
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_REL
@@ -2631,7 +2631,7 @@ ArcAbs
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_ARC_ABS
@@ -2837,7 +2837,7 @@ ArcRel
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_ARC_REL
@@ -2990,7 +2990,7 @@ LinetoHorizontalAbs
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_LINETO_HORIZONTAL_ABS
@@ -3053,7 +3053,7 @@ LinetoHorizontalRel
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_LINETO_HORIZONTAL_REL
@@ -3116,7 +3116,7 @@ LinetoVerticalAbs
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_LINETO_VERTICAL_ABS
@@ -3179,7 +3179,7 @@ LinetoVerticalRel
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_LINETO_VERTICAL_REL
@@ -3268,7 +3268,7 @@ CurvetoCubicSmoothAbs
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_CUBIC_SMOOTH_ABS
@@ -3402,7 +3402,7 @@ CurvetoCubicSmoothRel
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_CUBIC_SMOOTH_REL
@@ -3518,7 +3518,7 @@ CurvetoQuadraticSmoothAbs
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_SMOOTH_ABS
@@ -3604,7 +3604,7 @@ CurvetoQuadraticSmoothRel
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_SMOOTH_REL

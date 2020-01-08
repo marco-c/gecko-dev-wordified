@@ -209,7 +209,7 @@ aGivenProto
 override
 {
 return
-SVGRectBinding
+SVGRect_Binding
 :
 :
 Wrap

@@ -228,7 +228,7 @@ aGivenProto
 override
 {
 return
-InputEventBinding
+InputEvent_Binding
 :
 :
 Wrap

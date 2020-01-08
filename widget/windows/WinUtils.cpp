@@ -5227,7 +5227,7 @@ inputSource
 dom
 :
 :
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -5264,7 +5264,7 @@ TABLET_INK_TOUCH
 dom
 :
 :
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -5272,7 +5272,7 @@ MOZ_SOURCE_TOUCH
 dom
 :
 :
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_PEN

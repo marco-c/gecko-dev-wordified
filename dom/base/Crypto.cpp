@@ -276,7 +276,7 @@ aGivenProto
 )
 {
 return
-CryptoBinding
+Crypto_Binding
 :
 :
 Wrap

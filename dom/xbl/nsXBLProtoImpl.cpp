@@ -1797,7 +1797,7 @@ defineOnGlobal
 dom
 :
 :
-XULElementBinding
+XULElement_Binding
 :
 :
 ConstructorEnabled
@@ -1809,7 +1809,7 @@ global
 dom
 :
 :
-XULElementBinding
+XULElement_Binding
 :
 :
 GetConstructorObjectHandle

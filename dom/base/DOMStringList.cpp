@@ -202,7 +202,7 @@ aGivenProto
 )
 {
 return
-DOMStringListBinding
+DOMStringList_Binding
 :
 :
 Wrap

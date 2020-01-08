@@ -8360,7 +8360,7 @@ aGivenProto
 )
 {
 return
-MediaRecorderBinding
+MediaRecorder_Binding
 :
 :
 Wrap

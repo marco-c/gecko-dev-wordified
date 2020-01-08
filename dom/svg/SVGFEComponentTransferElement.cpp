@@ -205,7 +205,7 @@ aGivenProto
 )
 {
 return
-SVGFEComponentTransferElementBinding
+SVGFEComponentTransferElement_Binding
 :
 :
 Wrap

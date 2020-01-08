@@ -193,7 +193,7 @@ aGivenProto
 )
 {
 return
-SVGAnimatedLengthBinding
+SVGAnimatedLength_Binding
 :
 :
 Wrap

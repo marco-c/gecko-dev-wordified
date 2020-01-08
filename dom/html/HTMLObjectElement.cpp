@@ -2687,7 +2687,7 @@ JSObject
 obj
 (
 aCx
-HTMLObjectElementBinding
+HTMLObjectElement_Binding
 :
 :
 Wrap

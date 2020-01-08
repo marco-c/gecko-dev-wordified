@@ -354,7 +354,7 @@ return
 dom
 :
 :
-MozStorageStatementParamsBinding
+MozStorageStatementParams_Binding
 :
 :
 Wrap

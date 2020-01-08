@@ -246,7 +246,7 @@ aGivenProto
 )
 {
 return
-MediaKeyStatusMapBinding
+MediaKeyStatusMap_Binding
 :
 :
 Wrap

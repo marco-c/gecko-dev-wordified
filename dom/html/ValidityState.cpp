@@ -210,7 +210,7 @@ aGivenProto
 )
 {
 return
-ValidityStateBinding
+ValidityState_Binding
 :
 :
 Wrap

@@ -431,7 +431,7 @@ aGivenProto
 )
 {
 return
-FlexLineBinding
+FlexLine_Binding
 :
 :
 Wrap

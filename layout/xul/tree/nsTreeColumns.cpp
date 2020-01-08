@@ -1217,7 +1217,7 @@ text
 .
 mType
 =
-TreeColumnBinding
+TreeColumn_Binding
 :
 :
 TYPE_TEXT
@@ -1267,7 +1267,7 @@ case
 :
 mType
 =
-TreeColumnBinding
+TreeColumn_Binding
 :
 :
 TYPE_CHECKBOX
@@ -1279,7 +1279,7 @@ case
 :
 mType
 =
-TreeColumnBinding
+TreeColumn_Binding
 :
 :
 TYPE_PASSWORD
@@ -1410,7 +1410,7 @@ return
 dom
 :
 :
-TreeColumnBinding
+TreeColumn_Binding
 :
 :
 Wrap
@@ -1665,7 +1665,7 @@ return
 dom
 :
 :
-TreeColumnsBinding
+TreeColumns_Binding
 :
 :
 Wrap
@@ -1974,7 +1974,7 @@ GetType
 )
 !
 =
-TreeColumnBinding
+TreeColumn_Binding
 :
 :
 TYPE_TEXT

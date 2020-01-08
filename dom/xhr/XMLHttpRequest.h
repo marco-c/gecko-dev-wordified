@@ -762,7 +762,7 @@ mozilla
 dom
 :
 :
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 Wrap

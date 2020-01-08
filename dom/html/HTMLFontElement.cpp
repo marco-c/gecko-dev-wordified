@@ -203,7 +203,7 @@ aGivenProto
 )
 {
 return
-HTMLFontElementBinding
+HTMLFontElement_Binding
 :
 :
 Wrap

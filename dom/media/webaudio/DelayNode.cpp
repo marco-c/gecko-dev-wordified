@@ -1383,7 +1383,7 @@ aGivenProto
 )
 {
 return
-DelayNodeBinding
+DelayNode_Binding
 :
 :
 Wrap

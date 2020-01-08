@@ -239,7 +239,7 @@ mEvent
 >
 inputSource
 =
-MouseEventBinding
+MouseEvent_Binding
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -349,7 +349,7 @@ mIsHorizontal
 aAxis
 =
 =
-MouseScrollEventBinding
+MouseScrollEvent_Binding
 :
 :
 HORIZONTAL_AXIS
@@ -375,12 +375,12 @@ AsMouseScrollEvent
 >
 mIsHorizontal
 ?
-MouseScrollEventBinding
+MouseScrollEvent_Binding
 :
 :
 HORIZONTAL_AXIS
 :
-MouseScrollEventBinding
+MouseScrollEvent_Binding
 :
 :
 VERTICAL_AXIS

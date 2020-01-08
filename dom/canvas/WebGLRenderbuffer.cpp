@@ -236,7 +236,7 @@ return
 dom
 :
 :
-WebGLRenderbufferBinding
+WebGLRenderbuffer_Binding
 :
 :
 Wrap

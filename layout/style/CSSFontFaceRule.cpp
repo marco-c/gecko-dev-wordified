@@ -761,7 +761,7 @@ aGivenProto
 )
 {
 return
-CSSStyleDeclarationBinding
+CSSStyleDeclaration_Binding
 :
 :
 Wrap
@@ -1116,7 +1116,7 @@ Type
 const
 {
 return
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 FONT_FACE_RULE
@@ -1214,7 +1214,7 @@ aGivenProto
 )
 {
 return
-CSSFontFaceRuleBinding
+CSSFontFaceRule_Binding
 :
 :
 Wrap

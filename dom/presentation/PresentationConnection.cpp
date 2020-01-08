@@ -850,7 +850,7 @@ aGivenProto
 )
 {
 return
-PresentationConnectionBinding
+PresentationConnection_Binding
 :
 :
 Wrap

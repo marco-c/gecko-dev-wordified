@@ -221,7 +221,7 @@ aReflector
 )
 {
 return
-FontFaceSetIteratorBinding
+FontFaceSetIterator_Binding
 :
 :
 Wrap

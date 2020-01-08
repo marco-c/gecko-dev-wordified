@@ -187,7 +187,7 @@ aGivenProto
 )
 {
 return
-SVGAnimatedIntegerBinding
+SVGAnimatedInteger_Binding
 :
 :
 Wrap

@@ -379,7 +379,7 @@ aGivenProto
 )
 {
 return
-PluginArrayBinding
+PluginArray_Binding
 :
 :
 Wrap
@@ -2409,7 +2409,7 @@ aGivenProto
 )
 {
 return
-PluginBinding
+Plugin_Binding
 :
 :
 Wrap

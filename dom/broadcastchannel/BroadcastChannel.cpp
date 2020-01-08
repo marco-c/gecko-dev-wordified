@@ -1082,7 +1082,7 @@ aGivenProto
 )
 {
 return
-BroadcastChannelBinding
+BroadcastChannel_Binding
 :
 :
 Wrap

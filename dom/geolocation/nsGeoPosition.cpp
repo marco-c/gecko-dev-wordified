@@ -1156,7 +1156,7 @@ aGivenProto
 )
 {
 return
-PositionBinding
+Position_Binding
 :
 :
 Wrap
@@ -1341,7 +1341,7 @@ aGivenProto
 )
 {
 return
-CoordinatesBinding
+Coordinates_Binding
 :
 :
 Wrap

@@ -3088,7 +3088,7 @@ sharedMemoryEnabled
 )
 ;
 return
-DedicatedWorkerGlobalScopeBinding
+DedicatedWorkerGlobalScope_Binding
 :
 :
 Wrap
@@ -3256,7 +3256,7 @@ options
 )
 ;
 return
-SharedWorkerGlobalScopeBinding
+SharedWorkerGlobalScope_Binding
 :
 :
 Wrap
@@ -3457,7 +3457,7 @@ options
 )
 ;
 return
-ServiceWorkerGlobalScopeBinding
+ServiceWorkerGlobalScope_Binding
 :
 :
 Wrap
@@ -4510,7 +4510,7 @@ options
 )
 ;
 return
-WorkerDebuggerGlobalScopeBinding
+WorkerDebuggerGlobalScope_Binding
 :
 :
 Wrap

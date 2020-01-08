@@ -276,7 +276,7 @@ mozilla
 dom
 :
 :
-SVGUnitTypesBinding
+SVGUnitTypes_Binding
 ;
 using
 namespace
@@ -1202,7 +1202,7 @@ Init
 aCtxType
 0xff
 aValue
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1338,7 +1338,7 @@ X
 aPoint
 .
 x
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1359,7 +1359,7 @@ Y
 aPoint
 .
 y
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1385,7 +1385,7 @@ SVGContentUtils
 X
 0xff
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1404,7 +1404,7 @@ SVGContentUtils
 Y
 0xff
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER

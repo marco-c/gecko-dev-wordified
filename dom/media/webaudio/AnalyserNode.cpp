@@ -946,7 +946,7 @@ aGivenProto
 )
 {
 return
-AnalyserNodeBinding
+AnalyserNode_Binding
 :
 :
 Wrap

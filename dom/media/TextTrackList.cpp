@@ -415,7 +415,7 @@ aGivenProto
 )
 {
 return
-TextTrackListBinding
+TextTrackList_Binding
 :
 :
 Wrap

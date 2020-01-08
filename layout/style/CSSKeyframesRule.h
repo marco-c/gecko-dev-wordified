@@ -234,7 +234,7 @@ const
 final
 {
 return
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 KEYFRAMES_RULE

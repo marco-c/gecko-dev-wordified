@@ -247,7 +247,7 @@ aGivenProto
 override
 {
 return
-KeyboardEventBinding
+KeyboardEvent_Binding
 :
 :
 Wrap

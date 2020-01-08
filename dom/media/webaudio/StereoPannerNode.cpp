@@ -1337,7 +1337,7 @@ aGivenProto
 )
 {
 return
-StereoPannerNodeBinding
+StereoPannerNode_Binding
 :
 :
 Wrap

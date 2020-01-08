@@ -297,7 +297,7 @@ return
 dom
 :
 :
-CSS2PropertiesBinding
+CSS2Properties_Binding
 :
 :
 Wrap

@@ -148,7 +148,7 @@ dom
 {
 using
 namespace
-SVGViewElementBinding
+SVGViewElement_Binding
 ;
 JSObject
 *
@@ -172,7 +172,7 @@ aGivenProto
 )
 {
 return
-SVGViewElementBinding
+SVGViewElement_Binding
 :
 :
 Wrap

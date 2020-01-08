@@ -1812,7 +1812,7 @@ aGivenProto
 )
 {
 return
-WaveShaperNodeBinding
+WaveShaperNode_Binding
 :
 :
 Wrap
@@ -1855,7 +1855,7 @@ the
 curve
 attribute
 .
-WaveShaperNodeBinding
+WaveShaperNode_Binding
 :
 :
 ClearCachedCurveValue

@@ -1341,7 +1341,7 @@ aGivenProto
 )
 {
 return
-CheckerboardReportServiceBinding
+CheckerboardReportService_Binding
 :
 :
 Wrap

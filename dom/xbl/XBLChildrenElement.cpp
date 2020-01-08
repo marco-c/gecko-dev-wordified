@@ -1084,7 +1084,7 @@ mozilla
 dom
 :
 :
-NodeListBinding
+NodeList_Binding
 :
 :
 Wrap

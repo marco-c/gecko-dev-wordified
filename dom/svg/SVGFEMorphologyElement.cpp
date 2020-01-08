@@ -182,7 +182,7 @@ aGivenProto
 )
 {
 return
-SVGFEMorphologyElementBinding
+SVGFEMorphologyElement_Binding
 :
 :
 Wrap

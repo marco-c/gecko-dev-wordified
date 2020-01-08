@@ -530,7 +530,7 @@ mozilla
 dom
 :
 :
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -773,7 +773,7 @@ mozilla
 dom
 :
 :
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE

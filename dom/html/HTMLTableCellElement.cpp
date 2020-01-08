@@ -229,7 +229,7 @@ aGivenProto
 )
 {
 return
-HTMLTableCellElementBinding
+HTMLTableCellElement_Binding
 :
 :
 Wrap

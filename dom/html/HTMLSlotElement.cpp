@@ -1378,7 +1378,7 @@ aGivenProto
 )
 {
 return
-HTMLSlotElementBinding
+HTMLSlotElement_Binding
 :
 :
 Wrap

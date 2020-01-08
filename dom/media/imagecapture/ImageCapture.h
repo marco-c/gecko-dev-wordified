@@ -390,7 +390,7 @@ aGivenProto
 override
 {
 return
-ImageCaptureBinding
+ImageCapture_Binding
 :
 :
 Wrap

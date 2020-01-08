@@ -520,7 +520,7 @@ mozilla
 dom
 :
 :
-SVGUnitTypesBinding
+SVGUnitTypes_Binding
 ;
 /
 /
@@ -756,7 +756,7 @@ aGivenProto
 )
 {
 return
-SVGElementBinding
+SVGElement_Binding
 :
 :
 Wrap
@@ -8831,7 +8831,7 @@ static_cast
 uint8_t
 >
 (
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION
@@ -8842,7 +8842,7 @@ static_cast
 uint8_t
 >
 (
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -9166,7 +9166,7 @@ static_cast
 uint8_t
 >
 (
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 MODIFICATION
@@ -9177,7 +9177,7 @@ static_cast
 uint8_t
 >
 (
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 ADDITION
@@ -9856,7 +9856,7 @@ aAttrEnum
 ]
 .
 mName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -10046,7 +10046,7 @@ if
 type
 !
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -10055,7 +10055,7 @@ SVG_LENGTHTYPE_NUMBER
 type
 !
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -10072,7 +10072,7 @@ if
 type
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_EMS
@@ -10081,7 +10081,7 @@ SVG_LENGTHTYPE_EMS
 type
 =
 =
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_EXS
@@ -10348,7 +10348,7 @@ aAttrEnum
 ]
 .
 mName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -10766,7 +10766,7 @@ aAttrEnum
 ]
 .
 mName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -11042,7 +11042,7 @@ kNameSpaceID_None
 GetPointListAttrName
 (
 )
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -11191,7 +11191,7 @@ kNameSpaceID_None
 GetPathDataAttrName
 (
 )
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -11382,7 +11382,7 @@ aAttrEnum
 ]
 .
 mName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -11708,7 +11708,7 @@ aAttrEnum
 ]
 .
 mName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -11899,7 +11899,7 @@ aAttrEnum
 ]
 .
 mName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -12225,7 +12225,7 @@ aAttrEnum
 ]
 .
 mName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -12447,7 +12447,7 @@ aAttrEnum
 ]
 .
 mName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -12633,7 +12633,7 @@ aAttrEnum
 ]
 .
 mName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -12858,7 +12858,7 @@ aAttrEnum
 ]
 .
 mName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -12985,7 +12985,7 @@ nsGkAtoms
 :
 :
 viewBox
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -13114,7 +13114,7 @@ nsGkAtoms
 :
 :
 preserveAspectRatio
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL
@@ -13674,7 +13674,7 @@ aAttrEnum
 ]
 .
 mName
-MutationEventBinding
+MutationEvent_Binding
 :
 :
 SMIL

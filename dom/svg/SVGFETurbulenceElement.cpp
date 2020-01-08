@@ -216,7 +216,7 @@ aGivenProto
 )
 {
 return
-SVGFETurbulenceElementBinding
+SVGFETurbulenceElement_Binding
 :
 :
 Wrap

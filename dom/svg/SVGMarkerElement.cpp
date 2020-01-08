@@ -246,7 +246,7 @@ mozilla
 dom
 :
 :
-SVGMarkerElementBinding
+SVGMarkerElement_Binding
 ;
 NS_IMPL_NS_NEW_NAMESPACED_SVG_ELEMENT
 (
@@ -260,7 +260,7 @@ dom
 {
 using
 namespace
-SVGAngleBinding
+SVGAngle_Binding
 ;
 JSObject
 *
@@ -284,7 +284,7 @@ aGivenProto
 )
 {
 return
-SVGMarkerElementBinding
+SVGMarkerElement_Binding
 :
 :
 Wrap
@@ -315,7 +315,7 @@ nsGkAtoms
 :
 refX
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -331,7 +331,7 @@ nsGkAtoms
 :
 refY
 0
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -347,7 +347,7 @@ nsGkAtoms
 :
 markerWidth
 3
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -363,7 +363,7 @@ nsGkAtoms
 :
 markerHeight
 3
-SVGLengthBinding
+SVGLength_Binding
 :
 :
 SVG_LENGTHTYPE_NUMBER

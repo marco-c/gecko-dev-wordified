@@ -1900,7 +1900,7 @@ object
 WindowProperties
 ]
 "
-EventTargetBinding
+EventTarget_Binding
 :
 :
 GetProtoObject

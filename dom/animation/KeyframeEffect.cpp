@@ -565,7 +565,7 @@ aGivenProto
 )
 {
 return
-KeyframeEffectBinding
+KeyframeEffect_Binding
 :
 :
 Wrap

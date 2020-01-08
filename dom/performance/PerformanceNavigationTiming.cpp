@@ -183,7 +183,7 @@ aGivenProto
 )
 {
 return
-PerformanceNavigationTimingBinding
+PerformanceNavigationTiming_Binding
 :
 :
 Wrap

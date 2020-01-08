@@ -987,7 +987,7 @@ aGivenProto
 )
 {
 return
-TCPServerSocketBinding
+TCPServerSocket_Binding
 :
 :
 Wrap

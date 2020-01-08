@@ -576,7 +576,7 @@ name_
 )
 \
 case
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 const_
@@ -721,7 +721,7 @@ CounterStyle
 undef
 CASE_RULE
 case
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 KEYFRAME_RULE

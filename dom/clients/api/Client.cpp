@@ -534,7 +534,7 @@ Window
 )
 {
 return
-WindowClientBinding
+WindowClient_Binding
 :
 :
 Wrap
@@ -546,7 +546,7 @@ aGivenProto
 ;
 }
 return
-ClientBinding
+Client_Binding
 :
 :
 Wrap

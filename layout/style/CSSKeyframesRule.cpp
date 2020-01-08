@@ -1773,7 +1773,7 @@ aGivenProto
 )
 {
 return
-CSSKeyframesRuleBinding
+CSSKeyframesRule_Binding
 :
 :
 Wrap

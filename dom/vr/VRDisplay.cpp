@@ -792,7 +792,7 @@ aGivenProto
 )
 {
 return
-VRFieldOfViewBinding
+VRFieldOfView_Binding
 :
 :
 Wrap
@@ -1047,7 +1047,7 @@ aGivenProto
 )
 {
 return
-VREyeParametersBinding
+VREyeParameters_Binding
 :
 :
 Wrap
@@ -1147,7 +1147,7 @@ aGivenProto
 )
 {
 return
-VRStageParametersBinding
+VRStageParameters_Binding
 :
 :
 Wrap
@@ -1323,7 +1323,7 @@ aGivenProto
 )
 {
 return
-VRDisplayCapabilitiesBinding
+VRDisplayCapabilities_Binding
 :
 :
 Wrap
@@ -1782,7 +1782,7 @@ aGivenProto
 )
 {
 return
-VRPoseBinding
+VRPose_Binding
 :
 :
 Wrap
@@ -1820,7 +1820,7 @@ aGivenProto
 )
 {
 return
-VRDisplayBinding
+VRDisplay_Binding
 :
 :
 Wrap
@@ -4200,7 +4200,7 @@ aGivenProto
 )
 {
 return
-VRFrameDataBinding
+VRFrameData_Binding
 :
 :
 Wrap
@@ -5082,7 +5082,7 @@ aGivenProto
 )
 {
 return
-VRSubmitFrameResultBinding
+VRSubmitFrameResult_Binding
 :
 :
 Wrap

@@ -305,7 +305,7 @@ aGivenProto
 )
 {
 return
-StreamFilterDataEventBinding
+StreamFilterDataEvent_Binding
 :
 :
 Wrap

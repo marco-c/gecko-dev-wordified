@@ -2702,7 +2702,7 @@ aGivenProto
 )
 {
 return
-NamedNodeMapBinding
+NamedNodeMap_Binding
 :
 :
 Wrap

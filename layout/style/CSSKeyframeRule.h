@@ -240,7 +240,7 @@ const
 final
 {
 return
-CSSRuleBinding
+CSSRule_Binding
 :
 :
 KEYFRAME_RULE

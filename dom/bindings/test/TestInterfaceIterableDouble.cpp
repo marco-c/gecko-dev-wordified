@@ -378,7 +378,7 @@ aGivenProto
 )
 {
 return
-TestInterfaceIterableDoubleBinding
+TestInterfaceIterableDouble_Binding
 :
 :
 Wrap

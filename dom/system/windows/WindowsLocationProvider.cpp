@@ -708,7 +708,7 @@ REPORT_ACCESS_DENIED
 :
 err
 =
-PositionErrorBinding
+PositionError_Binding
 :
 :
 PERMISSION_DENIED
@@ -723,7 +723,7 @@ REPORT_ERROR
 :
 err
 =
-PositionErrorBinding
+PositionError_Binding
 :
 :
 POSITION_UNAVAILABLE

@@ -20202,7 +20202,7 @@ result
 cx
 )
 ;
-FrameLoaderBinding
+FrameLoader_Binding
 :
 :
 Wrap

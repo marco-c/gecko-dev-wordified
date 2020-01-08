@@ -298,7 +298,7 @@ aGivenProto
 )
 {
 return
-TestInterfaceSetlikeNodeBinding
+TestInterfaceSetlikeNode_Binding
 :
 :
 Wrap

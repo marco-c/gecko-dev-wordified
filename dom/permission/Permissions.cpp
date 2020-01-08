@@ -257,7 +257,7 @@ aGivenProto
 )
 {
 return
-PermissionsBinding
+Permissions_Binding
 :
 :
 Wrap

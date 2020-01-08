@@ -10282,7 +10282,7 @@ mStateData
 mReadyState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 OPENED
@@ -10299,7 +10299,7 @@ mStateData
 mReadyState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 HEADERS_RECEIVED
@@ -10310,7 +10310,7 @@ mStateData
 mReadyState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 LOADING
@@ -10321,7 +10321,7 @@ mStateData
 mReadyState
 =
 =
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 DONE
@@ -11299,7 +11299,7 @@ mStateData
 aStateData
 ;
 }
-XMLHttpRequestBinding
+XMLHttpRequest_Binding
 :
 :
 ClearCachedResponseTextValue

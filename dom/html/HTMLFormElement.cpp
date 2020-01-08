@@ -14687,7 +14687,7 @@ aGivenProto
 )
 {
 return
-HTMLFormElementBinding
+HTMLFormElement_Binding
 :
 :
 Wrap

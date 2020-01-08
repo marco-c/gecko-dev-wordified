@@ -2253,7 +2253,7 @@ aGivenProto
 )
 {
 return
-DOMTokenListBinding
+DOMTokenList_Binding
 :
 :
 Wrap

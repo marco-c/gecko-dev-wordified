@@ -297,7 +297,7 @@ aGivenProto
 )
 {
 return
-GetUserMediaRequestBinding
+GetUserMediaRequest_Binding
 :
 :
 Wrap

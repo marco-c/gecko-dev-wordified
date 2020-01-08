@@ -246,7 +246,7 @@ aGivenProto
 )
 {
 return
-ListBoxObjectBinding
+ListBoxObject_Binding
 :
 :
 Wrap

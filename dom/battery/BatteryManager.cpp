@@ -374,7 +374,7 @@ aGivenProto
 )
 {
 return
-BatteryManagerBinding
+BatteryManager_Binding
 :
 :
 Wrap

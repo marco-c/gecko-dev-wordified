@@ -168,7 +168,7 @@ aGivenProto
 )
 {
 return
-SVGTextElementBinding
+SVGTextElement_Binding
 :
 :
 Wrap

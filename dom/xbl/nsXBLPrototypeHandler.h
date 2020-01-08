@@ -330,7 +330,7 @@ NS_HANDLER_TYPE_PREVENTDEFAULT
 /
 XXX
 Use
-EventBinding
+Event_Binding
 :
 :
 codes

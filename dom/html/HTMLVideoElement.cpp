@@ -1349,7 +1349,7 @@ aGivenProto
 )
 {
 return
-HTMLVideoElementBinding
+HTMLVideoElement_Binding
 :
 :
 Wrap

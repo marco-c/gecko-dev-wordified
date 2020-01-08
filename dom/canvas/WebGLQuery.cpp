@@ -1099,7 +1099,7 @@ return
 dom
 :
 :
-WebGLQueryBinding
+WebGLQuery_Binding
 :
 :
 Wrap

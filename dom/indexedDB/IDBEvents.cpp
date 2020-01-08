@@ -540,7 +540,7 @@ aGivenProto
 )
 {
 return
-IDBVersionChangeEventBinding
+IDBVersionChangeEvent_Binding
 :
 :
 Wrap

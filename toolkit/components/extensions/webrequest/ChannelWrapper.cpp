@@ -807,7 +807,7 @@ ClearCachedAttributes
 (
 )
 ;
-ChannelWrapperBinding
+ChannelWrapper_Binding
 :
 :
 ClearCachedFinalURIValue
@@ -815,7 +815,7 @@ ClearCachedFinalURIValue
 this
 )
 ;
-ChannelWrapperBinding
+ChannelWrapper_Binding
 :
 :
 ClearCachedFinalURLValue
@@ -829,7 +829,7 @@ reset
 (
 )
 ;
-ChannelWrapperBinding
+ChannelWrapper_Binding
 :
 :
 ClearCachedProxyInfoValue
@@ -846,7 +846,7 @@ ClearCachedAttributes
 (
 )
 {
-ChannelWrapperBinding
+ChannelWrapper_Binding
 :
 :
 ClearCachedRemoteAddressValue
@@ -854,7 +854,7 @@ ClearCachedRemoteAddressValue
 this
 )
 ;
-ChannelWrapperBinding
+ChannelWrapper_Binding
 :
 :
 ClearCachedStatusCodeValue
@@ -862,7 +862,7 @@ ClearCachedStatusCodeValue
 this
 )
 ;
-ChannelWrapperBinding
+ChannelWrapper_Binding
 :
 :
 ClearCachedStatusLineValue
@@ -876,7 +876,7 @@ if
 mFiredErrorEvent
 )
 {
-ChannelWrapperBinding
+ChannelWrapper_Binding
 :
 :
 ClearCachedErrorStringValue
@@ -6324,7 +6324,7 @@ mFiredErrorEvent
 =
 true
 ;
-ChannelWrapperBinding
+ChannelWrapper_Binding
 :
 :
 ClearCachedErrorStringValue
@@ -7336,7 +7336,7 @@ aGivenProto
 )
 {
 return
-ChannelWrapperBinding
+ChannelWrapper_Binding
 :
 :
 Wrap

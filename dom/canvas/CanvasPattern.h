@@ -245,7 +245,7 @@ aGivenProto
 override
 {
 return
-CanvasPatternBinding
+CanvasPattern_Binding
 :
 :
 Wrap

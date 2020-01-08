@@ -655,7 +655,7 @@ aGivenProto
 )
 {
 return
-TextBinding
+Text_Binding
 :
 :
 Wrap

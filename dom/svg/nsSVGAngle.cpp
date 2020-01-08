@@ -221,7 +221,7 @@ mozilla
 dom
 :
 :
-SVGAngleBinding
+SVGAngle_Binding
 ;
 using
 namespace
@@ -231,7 +231,7 @@ mozilla
 dom
 :
 :
-SVGMarkerElementBinding
+SVGMarkerElement_Binding
 ;
 static
 nsStaticAtom

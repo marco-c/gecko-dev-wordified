@@ -1266,7 +1266,7 @@ dom
 Interface
 #
 #
-Binding
+_Binding
 :
 :
 NativeType
@@ -1329,7 +1329,7 @@ dom
 Interface
 #
 #
-Binding
+_Binding
 :
 :
 NativeType
@@ -1419,7 +1419,7 @@ dom
 Interface
 #
 #
-Binding
+_Binding
 :
 :
 NativeType

@@ -168,7 +168,7 @@ aGivenProto
 )
 {
 return
-SVGMetadataElementBinding
+SVGMetadataElement_Binding
 :
 :
 Wrap

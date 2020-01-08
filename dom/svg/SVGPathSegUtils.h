@@ -171,7 +171,7 @@ NS_SVG_PATH_SEG_FIRST_VALID_TYPE
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CLOSEPATH
@@ -181,7 +181,7 @@ NS_SVG_PATH_SEG_LAST_VALID_TYPE
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_SMOOTH_REL
@@ -1409,7 +1409,7 @@ aType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_CUBIC_REL
@@ -1421,7 +1421,7 @@ aType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_CUBIC_ABS
@@ -1433,7 +1433,7 @@ aType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_CUBIC_SMOOTH_REL
@@ -1445,7 +1445,7 @@ aType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_CUBIC_SMOOTH_ABS
@@ -1466,7 +1466,7 @@ aType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_REL
@@ -1478,7 +1478,7 @@ aType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_ABS
@@ -1490,7 +1490,7 @@ aType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_SMOOTH_REL
@@ -1502,7 +1502,7 @@ aType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_SMOOTH_ABS
@@ -1523,7 +1523,7 @@ aType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_ARC_ABS
@@ -1535,7 +1535,7 @@ aType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_ARC_REL
@@ -1592,7 +1592,7 @@ NS_SVG_PATH_SEG_LAST_VALID_TYPE
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_SMOOTH_REL
@@ -1609,7 +1609,7 @@ aType
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_MOVETO_ABS
@@ -1676,7 +1676,7 @@ NS_SVG_PATH_SEG_LAST_VALID_TYPE
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_SMOOTH_REL
@@ -1753,7 +1753,7 @@ NS_SVG_PATH_SEG_LAST_VALID_TYPE
 dom
 :
 :
-SVGPathSegBinding
+SVGPathSeg_Binding
 :
 :
 PATHSEG_CURVETO_QUADRATIC_SMOOTH_REL

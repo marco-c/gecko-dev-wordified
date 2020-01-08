@@ -289,7 +289,7 @@ aGivenProto
 )
 {
 return
-XULPopupElementBinding
+XULPopupElement_Binding
 :
 :
 Wrap

@@ -281,7 +281,7 @@ mozilla
 dom
 :
 :
-XMLSerializerBinding
+XMLSerializer_Binding
 :
 :
 Wrap
