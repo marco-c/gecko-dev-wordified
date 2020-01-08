@@ -204,6 +204,15 @@ include
 "
 js
 /
+CharacterEncoding
+.
+h
+"
+#
+include
+"
+js
+/
 Utility
 .
 h
@@ -970,8 +979,6 @@ nullptr
 ;
 }
 return
-UniqueChars
-(
 JS_EncodeString
 (
 cx
@@ -982,7 +989,6 @@ argi
 .
 toString
 (
-)
 )
 )
 ;

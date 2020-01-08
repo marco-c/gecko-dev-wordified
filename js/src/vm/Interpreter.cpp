@@ -289,7 +289,7 @@ include
 "
 js
 /
-AutoByteString
+CharacterEncoding
 .
 h
 "
@@ -12749,13 +12749,10 @@ nullptr
 ;
 }
 return
-UniqueChars
-(
 JS_EncodeString
 (
 cx
 str
-)
 )
 ;
 }
@@ -33955,7 +33952,7 @@ errorNumber
 JSMSG_BAD_CONST_ASSIGN
 )
 ;
-JSAutoByteString
+UniqueChars
 printable
 ;
 if
@@ -33979,7 +33976,7 @@ nullptr
 errorNumber
 printable
 .
-ptr
+get
 (
 )
 )
@@ -34212,7 +34209,7 @@ char
 redeclKind
 )
 {
-JSAutoByteString
+UniqueChars
 printable
 ;
 if
@@ -34235,7 +34232,7 @@ JSMSG_REDECLARED_VAR
 redeclKind
 printable
 .
-ptr
+get
 (
 )
 )
@@ -34634,7 +34631,7 @@ name
 anonymous
 "
 ;
-JSAutoByteString
+UniqueChars
 str
 ;
 if
@@ -34670,7 +34667,7 @@ name
 =
 str
 .
-ptr
+get
 (
 )
 ;

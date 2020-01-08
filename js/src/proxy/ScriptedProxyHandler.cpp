@@ -129,7 +129,7 @@ include
 "
 js
 /
-AutoByteString
+CharacterEncoding
 .
 h
 "
@@ -1384,8 +1384,10 @@ func
 )
 )
 {
-JSAutoByteString
+UniqueChars
 bytes
+=
+JS_EncodeString
 (
 cx
 name
@@ -1407,7 +1409,7 @@ nullptr
 JSMSG_BAD_TRAP
 bytes
 .
-ptr
+get
 (
 )
 )

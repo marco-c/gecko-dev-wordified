@@ -196,7 +196,7 @@ include
 "
 js
 /
-AutoByteString
+CharacterEncoding
 .
 h
 "
@@ -1368,8 +1368,10 @@ value
 return
 nullptr
 ;
-JSAutoByteString
+UniqueChars
 locale
+=
+JS_EncodeString
 (
 cx
 value
@@ -1505,7 +1507,7 @@ IcuLocale
 (
 locale
 .
-ptr
+get
 (
 )
 )

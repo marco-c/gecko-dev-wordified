@@ -241,6 +241,15 @@ include
 "
 js
 /
+CharacterEncoding
+.
+h
+"
+#
+include
+"
+js
+/
 Conversions
 .
 h
@@ -4972,8 +4981,10 @@ seperators
 .
 *
 /
-JSAutoByteString
+UniqueChars
 numBytes
+=
+JS_EncodeString
 (
 cx
 str
@@ -4994,7 +5005,7 @@ num
 =
 numBytes
 .
-ptr
+get
 (
 )
 ;

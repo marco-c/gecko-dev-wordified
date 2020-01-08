@@ -346,15 +346,6 @@ h
 #
 include
 "
-js
-/
-AutoByteString
-.
-h
-"
-#
-include
-"
 vm
 /
 BytecodeUtil
@@ -1165,7 +1156,7 @@ popFront
 )
 )
 {
-JSAutoByteString
+UniqueChars
 bytes
 ;
 if
@@ -1228,7 +1219,7 @@ kind
 )
 bytes
 .
-ptr
+get
 (
 )
 info
@@ -6877,7 +6868,7 @@ uint32_t
 prevPos
 )
 {
-JSAutoByteString
+UniqueChars
 bytes
 ;
 if
@@ -6916,7 +6907,7 @@ prevKind
 )
 bytes
 .
-ptr
+get
 (
 )
 )
@@ -7068,7 +7059,7 @@ prevKind
 )
 bytes
 .
-ptr
+get
 (
 )
 )
@@ -7300,7 +7291,7 @@ needStrictChecks
 )
 )
 {
-JSAutoByteString
+UniqueChars
 bytes
 ;
 if
@@ -7325,7 +7316,7 @@ strictModeError
 JSMSG_DUPLICATE_FORMAL
 bytes
 .
-ptr
+get
 (
 )
 )
@@ -14712,7 +14703,7 @@ if
 p
 )
 {
-JSAutoByteString
+UniqueChars
 str
 ;
 if
@@ -14740,7 +14731,7 @@ NoOffset
 JSMSG_MISSING_EXPORT
 str
 .
-ptr
+get
 (
 )
 )
@@ -32900,7 +32891,7 @@ exportName
 return
 true
 ;
-JSAutoByteString
+UniqueChars
 str
 ;
 if
@@ -32922,7 +32913,7 @@ error
 JSMSG_DUPLICATE_EXPORT_NAME
 str
 .
-ptr
+get
 (
 )
 )
