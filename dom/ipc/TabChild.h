@@ -3533,6 +3533,16 @@ bool
 aForceRepaint
 )
 ;
+uint64_t
+LayerObserverEpoch
+(
+)
+const
+{
+return
+mLayerObserverEpoch
+;
+}
 #
 if
 defined
