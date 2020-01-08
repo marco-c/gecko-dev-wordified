@@ -4504,7 +4504,7 @@ AUTO_PROFILER_LABEL
 "
 MakeCompressedIndexDataValues
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -5009,7 +5009,7 @@ AUTO_PROFILER_LABEL
 "
 ReadCompressedIndexDataValuesFromBlob
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -5605,7 +5605,7 @@ AUTO_PROFILER_LABEL
 "
 CreateFileTables
 "
-STORAGE
+DOM
 )
 ;
 /
@@ -5975,7 +5975,7 @@ AUTO_PROFILER_LABEL
 "
 CreateTables
 "
-STORAGE
+DOM
 )
 ;
 /
@@ -6801,7 +6801,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom4To5
 "
-STORAGE
+DOM
 )
 ;
 nsresult
@@ -7352,7 +7352,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom5To6
 "
-STORAGE
+DOM
 )
 ;
 /
@@ -9712,7 +9712,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom6To7
 "
-STORAGE
+DOM
 )
 ;
 nsresult
@@ -10043,7 +10043,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom7To8
 "
-STORAGE
+DOM
 )
 ;
 nsresult
@@ -10453,7 +10453,7 @@ CompressDataBlobsFunction
 :
 OnFunctionCall
 "
-STORAGE
+DOM
 )
 ;
 uint32_t
@@ -10765,7 +10765,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom8To9_0
 "
-STORAGE
+DOM
 )
 ;
 /
@@ -11032,7 +11032,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom9_0To10_0
 "
-STORAGE
+DOM
 )
 ;
 nsresult
@@ -11187,7 +11187,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom10_0To11_0
 "
-STORAGE
+DOM
 )
 ;
 nsresult
@@ -12089,7 +12089,7 @@ EncodeKeysFunction
 :
 OnFunctionCall
 "
-STORAGE
+DOM
 )
 ;
 uint32_t
@@ -12372,7 +12372,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom11_0To12_0
 "
-STORAGE
+DOM
 )
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -13743,7 +13743,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom12_0To13_0
 "
-STORAGE
+DOM
 )
 ;
 nsresult
@@ -18868,7 +18868,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom17_0To18_0
 "
-STORAGE
+DOM
 )
 ;
 return
@@ -18907,7 +18907,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom18_0To19_0
 "
-STORAGE
+DOM
 )
 ;
 rv
@@ -19300,7 +19300,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom19_0To20_0
 "
-STORAGE
+DOM
 )
 ;
 nsCOMPtr
@@ -20279,7 +20279,7 @@ UpgradeIndexDataValuesFunction
 :
 OnFunctionCall
 "
-STORAGE
+DOM
 )
 ;
 uint32_t
@@ -20598,7 +20598,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom20_0To21_0
 "
-STORAGE
+DOM
 )
 ;
 RefPtr
@@ -20857,7 +20857,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom22_0To23_0
 "
-STORAGE
+DOM
 )
 ;
 nsCOMPtr
@@ -21191,7 +21191,7 @@ StripObsoleteOriginAttributesFunction
 :
 OnFunctionCall
 "
-STORAGE
+DOM
 )
 ;
 #
@@ -21393,7 +21393,7 @@ AUTO_PROFILER_LABEL
 "
 UpgradeSchemaFrom25_0To26_0
 "
-STORAGE
+DOM
 )
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -22996,7 +22996,7 @@ AUTO_PROFILER_LABEL
 "
 CreateStorageConnection
 "
-STORAGE
+DOM
 )
 ;
 nsresult
@@ -25614,7 +25614,7 @@ AUTO_PROFILER_LABEL
 "
 GetStorageConnection
 "
-STORAGE
+DOM
 )
 ;
 bool
@@ -35356,10 +35356,7 @@ aParams
 FactoryOp
 (
 aFactory
-std
-:
-:
-move
+Move
 (
 aContentParent
 )
@@ -37481,10 +37478,7 @@ override
 {
 aResponse
 =
-std
-:
-:
-move
+Move
 (
 mResponse
 )
@@ -37562,10 +37556,7 @@ override
 {
 aResponse
 =
-std
-:
-:
-move
+Move
 (
 mResponse
 )
@@ -37650,10 +37641,7 @@ override
 {
 aResponse
 =
-std
-:
-:
-move
+Move
 (
 mResponse
 )
@@ -37999,10 +37987,7 @@ override
 {
 aResponse
 =
-std
-:
-:
-move
+Move
 (
 mResponse
 )
@@ -40869,10 +40854,7 @@ aOrigin
 )
 mDatabasePaths
 (
-std
-:
-:
-move
+Move
 (
 aDatabasePaths
 )
@@ -40965,10 +40947,7 @@ aOther
 :
 mGroup
 (
-std
-:
-:
-move
+Move
 (
 aOther
 .
@@ -40977,10 +40956,7 @@ mGroup
 )
 mOrigin
 (
-std
-:
-:
-move
+Move
 (
 aOther
 .
@@ -40989,10 +40965,7 @@ mOrigin
 )
 mDatabasePaths
 (
-std
-:
-:
-move
+Move
 (
 aOther
 .
@@ -41001,10 +40974,7 @@ mDatabasePaths
 )
 mPersistenceType
 (
-std
-:
-:
-move
+Move
 (
 aOther
 .
@@ -42827,10 +42797,7 @@ JS
 CompiledWasmModuleAssumptionsMatch
 (
 compiledFileDesc
-std
-:
-:
-move
+Move
 (
 buildId
 )
@@ -43035,10 +43002,7 @@ DeserializeWasmModule
 (
 bytecodeFileDesc
 nullptr
-std
-:
-:
-move
+Move
 (
 buildId
 )
@@ -46833,7 +46797,7 @@ DatabaseConnection
 :
 GetCachedStatement
 "
-STORAGE
+DOM
 )
 ;
 nsCOMPtr
@@ -47013,7 +46977,7 @@ DatabaseConnection
 :
 BeginWriteTransaction
 "
-STORAGE
+DOM
 )
 ;
 /
@@ -47371,7 +47335,7 @@ DatabaseConnection
 :
 CommitWriteTransaction
 "
-STORAGE
+DOM
 )
 ;
 CachedStatement
@@ -47471,7 +47435,7 @@ DatabaseConnection
 :
 RollbackWriteTransaction
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -47590,7 +47554,7 @@ DatabaseConnection
 :
 FinishWriteTransaction
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -47702,7 +47666,7 @@ DatabaseConnection
 :
 StartSavepoint
 "
-STORAGE
+DOM
 )
 ;
 CachedStatement
@@ -47822,7 +47786,7 @@ DatabaseConnection
 :
 ReleaseSavepoint
 "
-STORAGE
+DOM
 )
 ;
 CachedStatement
@@ -47931,7 +47895,7 @@ DatabaseConnection
 :
 RollbackSavepoint
 "
-STORAGE
+DOM
 )
 ;
 #
@@ -48057,7 +48021,7 @@ DatabaseConnection
 :
 CheckpointInternal
 "
-STORAGE
+DOM
 )
 ;
 nsAutoCString
@@ -48297,7 +48261,7 @@ DatabaseConnection
 :
 DoIdleProcessing
 "
-STORAGE
+DOM
 )
 ;
 DatabaseConnection
@@ -48691,7 +48655,7 @@ DatabaseConnection
 :
 ReclaimFreePagesWhileIdle
 "
-STORAGE
+DOM
 )
 ;
 /
@@ -49291,7 +49255,7 @@ DatabaseConnection
 :
 GetFreelistCount
 "
-STORAGE
+DOM
 )
 ;
 nsresult
@@ -49491,7 +49455,7 @@ DatabaseConnection
 :
 Close
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -50641,7 +50605,7 @@ UpdateRefcountFunction
 :
 WillCommit
 "
-STORAGE
+DOM
 )
 ;
 DatabaseUpdateFunction
@@ -50807,7 +50771,7 @@ UpdateRefcountFunction
 :
 DidCommit
 "
-STORAGE
+DOM
 )
 ;
 for
@@ -50930,7 +50894,7 @@ UpdateRefcountFunction
 :
 DidAbort
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -51654,7 +51618,7 @@ UpdateRefcountFunction
 :
 ProcessValue
 "
-STORAGE
+DOM
 )
 ;
 int32_t
@@ -51976,7 +51940,7 @@ UpdateRefcountFunction
 :
 CreateJournals
 "
-STORAGE
+DOM
 )
 ;
 nsCOMPtr
@@ -52144,7 +52108,7 @@ UpdateRefcountFunction
 :
 RemoveJournals
 "
-STORAGE
+DOM
 )
 ;
 nsCOMPtr
@@ -52302,7 +52266,7 @@ UpdateRefcountFunction
 :
 OnFunctionCall
 "
-STORAGE
+DOM
 )
 ;
 uint32_t
@@ -52565,7 +52529,7 @@ DatabaseUpdateFunction
 :
 UpdateInternal
 "
-STORAGE
+DOM
 )
 ;
 DatabaseConnection
@@ -53456,7 +53420,7 @@ ConnectionPool
 :
 IdleTimerCallback
 "
-STORAGE
+DOM
 )
 ;
 auto
@@ -53847,7 +53811,7 @@ ConnectionPool
 :
 GetOrCreateConnection
 "
-STORAGE
+DOM
 )
 ;
 DatabaseInfo
@@ -54152,7 +54116,7 @@ ConnectionPool
 :
 Start
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -54600,7 +54564,7 @@ ConnectionPool
 :
 Dispatch
 "
-STORAGE
+DOM
 )
 ;
 TransactionInfo
@@ -54781,7 +54745,7 @@ ConnectionPool
 :
 Finish
 "
-STORAGE
+DOM
 )
 ;
 RefPtr
@@ -54871,7 +54835,7 @@ ConnectionPool
 :
 WaitForDatabasesToComplete
 "
-STORAGE
+DOM
 )
 ;
 bool
@@ -54963,10 +54927,7 @@ callback
 new
 DatabasesCompleteCallback
 (
-std
-:
-:
-move
+Move
 (
 aDatabaseIds
 )
@@ -55018,7 +54979,7 @@ ConnectionPool
 :
 Shutdown
 "
-STORAGE
+DOM
 )
 ;
 mShutdownRequested
@@ -55160,7 +55121,7 @@ ConnectionPool
 :
 Cleanup
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -55314,7 +55275,7 @@ ConnectionPool
 :
 AdjustIdleTimer
 "
-STORAGE
+DOM
 )
 ;
 /
@@ -55839,7 +55800,7 @@ ConnectionPool
 :
 CloseIdleDatabases
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -55939,7 +55900,7 @@ ConnectionPool
 :
 ShutdownIdleThreads
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -56024,7 +55985,7 @@ ConnectionPool
 :
 ScheduleTransaction
 "
-STORAGE
+DOM
 )
 ;
 DatabaseInfo
@@ -56730,7 +56691,7 @@ ConnectionPool
 :
 NoteFinishedTransaction
 "
-STORAGE
+DOM
 )
 ;
 TransactionInfo
@@ -57185,7 +57146,7 @@ ConnectionPool
 :
 ScheduleQueuedTransactions
 "
-STORAGE
+DOM
 )
 ;
 mIdleThreads
@@ -57343,7 +57304,7 @@ ConnectionPool
 :
 NoteIdleDatabase
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -57533,7 +57494,7 @@ ConnectionPool
 :
 NoteClosedDatabase
 "
-STORAGE
+DOM
 )
 ;
 aDatabaseInfo
@@ -58210,7 +58171,7 @@ ConnectionPool
 :
 MaybeFireCallback
 "
-STORAGE
+DOM
 )
 ;
 for
@@ -58600,7 +58561,7 @@ ConnectionPool
 :
 CloseDatabaseWhenIdleInternal
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -58952,7 +58913,7 @@ CloseConnectionRunnable
 :
 Run
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -59310,10 +59271,7 @@ aCallback
 :
 mDatabaseIds
 (
-std
-:
-:
-move
+Move
 (
 aDatabaseIds
 )
@@ -59512,7 +59470,7 @@ FinishCallbackWrapper
 :
 Run
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -59577,10 +59535,7 @@ ConnectionPool
 >
 connectionPool
 =
-std
-:
-:
-move
+Move
 (
 mConnectionPool
 )
@@ -59591,10 +59546,7 @@ FinishCallback
 >
 callback
 =
-std
-:
-:
-move
+Move
 (
 mCallback
 )
@@ -59767,7 +59719,7 @@ ThreadRunnable
 :
 Run
 "
-STORAGE
+DOM
 )
 ;
 DebugOnly
@@ -61545,10 +61497,7 @@ aLoggingInfo
 :
 mLoggingInfo
 (
-std
-:
-:
-move
+Move
 (
 aLoggingInfo
 )
@@ -62817,10 +62766,7 @@ connectionPool
 >
 WaitForDatabasesToComplete
 (
-std
-:
-:
-move
+Move
 (
 ids
 )
@@ -62912,10 +62858,7 @@ fileHandleThreadPool
 >
 WaitForDirectoriesToComplete
 (
-std
-:
-:
-move
+Move
 (
 ids
 )
@@ -63303,10 +63246,7 @@ aFileManager
 )
 mDirectoryLock
 (
-std
-:
-:
-move
+Move
 (
 aDirectoryLock
 )
@@ -63929,7 +63869,7 @@ Database
 :
 EnsureConnection
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -81025,10 +80965,7 @@ Mnt
 ;
 mMaintenanceThreadPool
 =
-std
-:
-:
-move
+Move
 (
 threadPool
 )
@@ -86038,10 +85975,7 @@ DirectoryInfo
 persistenceType
 group
 origin
-std
-:
-:
-move
+Move
 (
 databasePaths
 )
@@ -90381,7 +90315,7 @@ UpgradeFileIdsFunction
 :
 OnFunctionCall
 "
-STORAGE
+DOM
 )
 ;
 uint32_t
@@ -91187,7 +91121,7 @@ DatabaseOperationBase
 :
 GetStructuredCloneReadInfoFromBlob
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -91422,7 +91356,7 @@ DatabaseOperationBase
 :
 GetStructuredCloneReadInfoFromExternalBlob
 "
-STORAGE
+DOM
 )
 ;
 nsresult
@@ -92524,7 +92458,7 @@ DatabaseOperationBase
 :
 IndexDataValuesFromUpdateInfos
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -92729,7 +92663,7 @@ DatabaseOperationBase
 :
 InsertIndexTableRows
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -93352,7 +93286,7 @@ DatabaseOperationBase
 :
 DeleteIndexDataTableRows
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -93794,7 +93728,7 @@ DatabaseOperationBase
 :
 DeleteObjectStoreDataTableRowsWithIndexes
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -94464,7 +94398,7 @@ DatabaseOperationBase
 :
 UpdateIndexValues
 "
-STORAGE
+DOM
 )
 ;
 UniqueFreePtr
@@ -95929,10 +95863,7 @@ aFactory
 )
 mContentParent
 (
-std
-:
-:
-move
+Move
 (
 aContentParent
 )
@@ -99681,10 +99612,7 @@ aParams
 FactoryOp
 (
 aFactory
-std
-:
-:
-move
+Move
 (
 aContentParent
 )
@@ -99887,7 +99815,7 @@ OpenDatabaseOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -106243,7 +106171,7 @@ VersionChangeOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 IDB_LOG_MARK
@@ -106723,7 +106651,7 @@ DeleteDatabaseOp
 :
 LoadPreviousVersion
 "
-STORAGE
+DOM
 )
 ;
 nsresult
@@ -107104,7 +107032,7 @@ DeleteDatabaseOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -108251,7 +108179,7 @@ VersionChangeOp
 :
 DeleteFile
 "
-STORAGE
+DOM
 )
 ;
 nsCOMPtr
@@ -108508,7 +108436,7 @@ VersionChangeOp
 :
 RunOnIOThread
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -110135,7 +110063,7 @@ TransactionDatabaseOperationBase
 :
 RunOnConnectionThread
 "
-STORAGE
+DOM
 )
 ;
 /
@@ -112091,7 +112019,7 @@ CommitOp
 :
 Run
 "
-STORAGE
+DOM
 )
 ;
 IDB_LOG_MARK
@@ -112596,7 +112524,7 @@ CommitOp
 :
 TransactionFinishedBeforeUnblock
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -113339,7 +113267,7 @@ CreateFileOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -114015,7 +113943,7 @@ CreateObjectStoreOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -114563,7 +114491,7 @@ DeleteObjectStoreOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -115623,7 +115551,7 @@ RenameObjectStoreOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -116124,7 +116052,7 @@ CreateIndexOp
 :
 InsertDataFromObjectStore
 "
-STORAGE
+DOM
 )
 ;
 nsCOMPtr
@@ -116490,7 +116418,7 @@ CreateIndexOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -117279,7 +117207,7 @@ UpdateIndexDataValuesFunction
 :
 OnFunctionCall
 "
-STORAGE
+DOM
 )
 ;
 #
@@ -118451,7 +118379,7 @@ DeleteIndexOp
 :
 RemoveReferencesToIndex
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -119130,7 +119058,7 @@ DeleteIndexOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 DatabaseConnection
@@ -120515,7 +120443,7 @@ RenameIndexOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -122946,7 +122874,7 @@ ObjectStoreAddOrPutRequestOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 if
@@ -125489,10 +125417,7 @@ data
 .
 data
 =
-std
-:
-:
-move
+Move
 (
 aInfo
 .
@@ -125676,7 +125601,7 @@ ObjectStoreGetRequestOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -126683,7 +126608,7 @@ ObjectStoreGetKeyRequestOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -127161,10 +127086,7 @@ key
 (
 )
 =
-std
-:
-:
-move
+Move
 (
 mResponse
 [
@@ -127274,7 +127196,7 @@ ObjectStoreDeleteRequestOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 DatabaseConnection
@@ -127677,7 +127599,7 @@ ObjectStoreClearRequestOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 DatabaseConnection
@@ -127951,7 +127873,7 @@ ObjectStoreCountRequestOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -128809,7 +128731,7 @@ IndexGetRequestOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -129369,10 +129291,7 @@ data
 .
 data
 =
-std
-:
-:
-move
+Move
 (
 info
 .
@@ -129537,10 +129456,7 @@ data
 .
 data
 =
-std
-:
-:
-move
+Move
 (
 info
 .
@@ -129789,7 +129705,7 @@ IndexGetKeyRequestOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -130298,10 +130214,7 @@ key
 (
 )
 =
-std
-:
-:
-move
+Move
 (
 mResponse
 [
@@ -130342,7 +130255,7 @@ IndexCountRequestOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -131161,10 +131074,7 @@ data
 .
 data
 =
-std
-:
-:
-move
+Move
 (
 cloneInfo
 .
@@ -131186,10 +131096,7 @@ mFiles
 .
 AppendElement
 (
-std
-:
-:
-move
+Move
 (
 cloneInfo
 .
@@ -131387,10 +131294,7 @@ data
 .
 data
 =
-std
-:
-:
-move
+Move
 (
 cloneInfo
 .
@@ -131434,10 +131338,7 @@ mFiles
 .
 AppendElement
 (
-std
-:
-:
-move
+Move
 (
 cloneInfo
 .
@@ -131846,7 +131747,7 @@ OpenOp
 :
 DoObjectStoreDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -132566,7 +132467,7 @@ OpenOp
 :
 DoObjectStoreKeyDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -133290,7 +133191,7 @@ OpenOp
 :
 DoIndexDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -134500,7 +134401,7 @@ OpenOp
 :
 DoIndexKeyDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 const
@@ -135672,7 +135573,7 @@ OpenOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 nsresult
@@ -136129,7 +136030,7 @@ ContinueOp
 :
 DoDatabaseWork
 "
-STORAGE
+DOM
 )
 ;
 /
@@ -138173,20 +138074,14 @@ isDirectory
 ;
 mFileDirectory
 =
-std
-:
-:
-move
+Move
 (
 fileDirectory
 )
 ;
 mJournalDirectory
 =
-std
-:
-:
-move
+Move
 (
 journalDirectory
 )
@@ -139909,7 +139804,7 @@ FileHelper
 :
 SyncCopy
 "
-STORAGE
+DOM
 )
 ;
 nsresult
