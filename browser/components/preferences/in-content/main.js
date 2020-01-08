@@ -6590,6 +6590,14 @@ menuitem
 ;
 menuitem
 .
+id
+=
+"
+defaultBrowserLanguageSearch
+"
+;
+menuitem
+.
 setAttribute
 (
 "
