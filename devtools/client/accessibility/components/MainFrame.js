@@ -787,9 +787,6 @@ endPanel
 :
 RightSidebar
 (
-{
-walker
-}
 )
 vert
 :
