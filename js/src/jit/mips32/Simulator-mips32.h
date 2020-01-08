@@ -2597,14 +2597,6 @@ SimulatorProcess
 ;
 return
 singleton_
-&
-&
-singleton_
--
->
-init
-(
-)
 ;
 }
 static
@@ -2634,11 +2626,6 @@ SimulatorProcess
 ;
 private
 :
-bool
-init
-(
-)
-;
 static
 SimulatorProcess
 *
