@@ -2284,8 +2284,6 @@ toString
 (
 )
 function
-bound
-unbound
 (
 )
 {
