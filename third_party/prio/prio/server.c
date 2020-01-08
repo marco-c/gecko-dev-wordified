@@ -106,7 +106,7 @@ h
 #
 include
 "
-prg
+mparray
 .
 h
 "
@@ -120,7 +120,7 @@ h
 #
 include
 "
-mparray
+prg
 .
 h
 "

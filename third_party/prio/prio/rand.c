@@ -86,16 +86,12 @@ h
 include
 <
 nss
-/
-nss
 .
 h
 >
 #
 include
 <
-nss
-/
 pk11pub
 .
 h
@@ -103,8 +99,6 @@ h
 #
 include
 <
-nspr
-/
 prinit
 .
 h
