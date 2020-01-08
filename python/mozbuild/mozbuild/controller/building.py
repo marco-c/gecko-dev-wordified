@@ -4980,12 +4980,31 @@ descriptions
         
 (
 '
-stats_zero_time
+stats_zeroed
 '
 '
 stats
 zero
 time
+'
+)
+#
+Old
+name
+prior
+to
+ccache
+3
+.
+4
+        
+(
+'
+stats_zeroed
+'
+'
+stats
+zeroed
 '
 )
         
