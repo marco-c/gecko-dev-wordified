@@ -83,7 +83,7 @@ use
 clip
 :
 :
-ClipSource
+ClipItem
 ;
 use
 display_list_flattener
@@ -794,7 +794,7 @@ clips
 .
 push
 (
-ClipSource
+ClipItem
 :
 :
 new_rounded_rect
@@ -833,7 +833,7 @@ clips
 .
 push
 (
-ClipSource
+ClipItem
 :
 :
 new_rounded_rect
@@ -861,7 +861,7 @@ clips
 .
 push
 (
-ClipSource
+ClipItem
 :
 :
 new_rounded_rect
@@ -971,7 +971,7 @@ extra_clips
 .
 push
 (
-ClipSource
+ClipItem
 :
 :
 new_rounded_rect
@@ -1039,7 +1039,7 @@ shadow
 /
 clip
 mask
-source
+item
 .
 let
 prim
@@ -1068,12 +1068,12 @@ box
 -
 shadow
 clip
-source
+item
 .
 let
 shadow_clip_source
 =
-ClipSource
+ClipItem
 :
 :
 new_box_shadow

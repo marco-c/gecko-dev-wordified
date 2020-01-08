@@ -509,9 +509,6 @@ mod
 clip
 ;
 mod
-clip_node
-;
-mod
 clip_scroll_tree
 ;
 mod
