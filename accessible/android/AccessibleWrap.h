@@ -331,6 +331,16 @@ role
 aRole
 )
 ;
+static
+int32_t
+GetInputType
+(
+const
+nsString
+&
+aInputTypeAttr
+)
+;
 int32_t
 mID
 ;
