@@ -165,7 +165,10 @@ BLOCKQUOTE
 MARKUPMAP
 (
 dd
-New_HTMLDefinition
+New_HTMLDtOrDd
+<
+HyperTextAccessibleWrap
+>
 roles
 :
 :
@@ -201,7 +204,10 @@ DEFINITION_LIST
 MARKUPMAP
 (
 dt
-New_HTMLListitem
+New_HTMLDtOrDd
+<
+HTMLLIAccessible
+>
 roles
 :
 :
