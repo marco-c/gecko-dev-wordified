@@ -12614,9 +12614,6 @@ enabled
 true
 )
 ;
-#
-ifdef
-XP_WIN
 nsCOMPtr
 <
 nsINSSComponent
@@ -12656,11 +12653,6 @@ TrustLoaded3rdPartyRoots
 )
 )
 ;
-#
-endif
-/
-/
-XP_WIN
 /
 /
 TLSServerSocket
