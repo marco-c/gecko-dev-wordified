@@ -11424,7 +11424,7 @@ CSS
 preference
 is
 checked
-nsresult
+NS_IMETHODIMP
 HTMLEditor
 :
 :
