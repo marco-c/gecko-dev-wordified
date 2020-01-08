@@ -4019,6 +4019,9 @@ uint32_t
 >
 mTunnelHash
 ;
+uint32_t
+mTrrStreams
+;
 }
 ;
 }
