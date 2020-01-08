@@ -123,6 +123,13 @@ mozilla_dom_DOMJSClass_h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h

@@ -255,6 +255,9 @@ Printer
 h
 "
 class
+JSAutoByteString
+;
+class
 JSDependentString
 ;
 class

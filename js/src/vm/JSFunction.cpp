@@ -289,6 +289,15 @@ include
 "
 js
 /
+AutoByteString
+.
+h
+"
+#
+include
+"
+js
+/
 CallNonGenericMethod
 .
 h
