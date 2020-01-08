@@ -4120,9 +4120,9 @@ DEFAULT_CHARSET
 AutoDC
 hdc
 ;
-int
-result
-=
+(
+void
+)
 EnumFontFamiliesExW
 (
 hdc

@@ -455,14 +455,6 @@ InstanceData
 instanceData
 )
 {
-NPP
-npp
-=
-instanceData
--
->
-npp
-;
 instanceData
 -
 >

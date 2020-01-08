@@ -7198,6 +7198,8 @@ return
 knowIsOptimus
 ;
 }
+/
+*
 static
 inline
 bool
@@ -7247,6 +7249,8 @@ return
 true
 ;
 }
+*
+/
 static
 void
 InitializeANGLEConfig
