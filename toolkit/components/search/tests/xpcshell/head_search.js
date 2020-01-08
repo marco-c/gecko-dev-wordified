@@ -1691,12 +1691,12 @@ engine
 "
 ;
 const
-TOPIC_LOCALES_CHANGE
+REQ_LOCALES_CHANGED_TOPIC
 =
 "
 intl
 :
-app
+requested
 -
 locales
 -
@@ -3270,7 +3270,7 @@ nsIObserver
 observe
 (
 null
-TOPIC_LOCALES_CHANGE
+REQ_LOCALES_CHANGED_TOPIC
 null
 )
 ;
