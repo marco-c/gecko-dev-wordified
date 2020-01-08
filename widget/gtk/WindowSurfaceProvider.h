@@ -304,6 +304,8 @@ Visual
 aVisual
 int
 aDepth
+bool
+aIsShaped
 )
 ;
 #
@@ -440,6 +442,9 @@ mWidget
 ;
 #
 endif
+bool
+mIsShaped
+;
 }
 ;
 }
