@@ -609,6 +609,12 @@ FinalizeCallback
 )
 ;
 }
+aRv
+.
+MightThrowJSException
+(
+)
+;
 JS
 :
 :

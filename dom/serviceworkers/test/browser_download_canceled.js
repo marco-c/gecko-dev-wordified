@@ -1021,16 +1021,6 @@ streams
 "
 true
 ]
-[
-"
-dom
-.
-streams
-.
-enabled
-"
-true
-]
 ]
 }
 )

@@ -21632,6 +21632,11 @@ setSharedMemoryAndAtomicsEnabled
 (
 enableSharedMemory
 )
+.
+setStreamsEnabled
+(
+enableStreams
+)
 ;
 }
 static
@@ -61859,11 +61864,6 @@ setAsyncStack
 (
 enableAsyncStacks
 )
-.
-setStreams
-(
-enableStreams
-)
 ;
 if
 (
@@ -64428,11 +64428,6 @@ enableTestWasmAwaitTier2
 setNativeRegExp
 (
 enableNativeRegExp
-)
-.
-setStreams
-(
-enableStreams
 )
 ;
 cx

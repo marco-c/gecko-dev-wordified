@@ -273,6 +273,17 @@ JS
 RealmOptions
 options
 ;
+options
+.
+creationOptions
+(
+)
+.
+setStreamsEnabled
+(
+true
+)
+;
 newGlobal
 =
 JS_NewGlobalObject
