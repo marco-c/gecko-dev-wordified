@@ -7355,6 +7355,14 @@ aFrame
 )
 ;
 }
+ActiveLayerTracker
+:
+:
+NotifyNeedsRepaint
+(
+aFrame
+)
+;
 }
 if
 (
