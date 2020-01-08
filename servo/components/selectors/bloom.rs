@@ -80,10 +80,10 @@ selector
 matching
 .
 use
-fnv
+fxhash
 :
 :
-FnvHasher
+FxHasher
 ;
 use
 std
@@ -2021,7 +2021,7 @@ let
 mut
 hasher
 =
-FnvHasher
+FxHasher
 :
 :
 default

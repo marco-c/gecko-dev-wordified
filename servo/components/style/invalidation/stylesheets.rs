@@ -106,10 +106,10 @@ TNode
 }
 ;
 use
-fnv
+fxhash
 :
 :
-FnvHashSet
+FxHashSet
 ;
 use
 invalidation
@@ -687,7 +687,7 @@ far
 .
 invalid_scopes
 :
-FnvHashSet
+FxHashSet
 <
 Invalidation
 >
@@ -707,7 +707,7 @@ far
 .
 invalid_elements
 :
-FnvHashSet
+FxHashSet
 <
 Invalidation
 >
@@ -750,7 +750,7 @@ Self
 {
 invalid_scopes
 :
-FnvHashSet
+FxHashSet
 :
 :
 default
@@ -758,7 +758,7 @@ default
 )
 invalid_elements
 :
-FnvHashSet
+FxHashSet
 :
 :
 default
