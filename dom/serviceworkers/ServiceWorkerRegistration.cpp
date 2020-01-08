@@ -2813,6 +2813,9 @@ isSome
 )
 )
 {
+if
+(
+(
 mActiveWorker
 =
 global
@@ -2826,7 +2829,9 @@ ref
 (
 )
 )
-;
+)
+)
+{
 mActiveWorker
 -
 >
@@ -2843,6 +2848,7 @@ State
 )
 )
 ;
+}
 }
 else
 {
@@ -2860,6 +2866,9 @@ isSome
 )
 )
 {
+if
+(
+(
 mWaitingWorker
 =
 global
@@ -2873,7 +2882,9 @@ ref
 (
 )
 )
-;
+)
+)
+{
 mWaitingWorker
 -
 >
@@ -2890,6 +2901,7 @@ State
 )
 )
 ;
+}
 }
 else
 {
@@ -2907,6 +2919,9 @@ isSome
 )
 )
 {
+if
+(
+(
 mInstallingWorker
 =
 global
@@ -2920,7 +2935,9 @@ ref
 (
 )
 )
-;
+)
+)
+{
 mInstallingWorker
 -
 >
@@ -2937,6 +2954,7 @@ State
 )
 )
 ;
+}
 }
 else
 {
