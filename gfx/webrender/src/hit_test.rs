@@ -2117,14 +2117,6 @@ Clip
 ClipSource
 :
 :
-BorderCorner
-(
-_
-)
-|
-ClipSource
-:
-:
 LineDecoration
 (
 _

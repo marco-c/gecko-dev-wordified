@@ -210,7 +210,6 @@ prim_store
 :
 :
 {
-CachedGradient
 PrimitiveIndex
 PrimitiveKind
 PrimitiveStore
@@ -424,15 +423,6 @@ node_data
 a
 [
 ClipScrollNodeData
-]
-pub
-cached_gradients
-:
-&
-'
-a
-[
-CachedGradient
 ]
 }
 #

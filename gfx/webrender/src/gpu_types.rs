@@ -540,6 +540,7 @@ derive
 Debug
 Copy
 Clone
+PartialEq
 )
 ]
 #
@@ -669,6 +670,14 @@ pub
 radius
 :
 DeviceSize
+pub
+clip_params
+:
+[
+f32
+;
+8
+]
 }
 /
 /
