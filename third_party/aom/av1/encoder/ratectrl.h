@@ -823,7 +823,7 @@ rf_level_maxq
 RATE_FACTOR_LEVELS
 ]
 ;
-float_t
+float
 arf_boost_factor
 ;
 /
