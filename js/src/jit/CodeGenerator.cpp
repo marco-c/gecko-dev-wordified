@@ -81620,7 +81620,7 @@ readType
 (
 )
 ;
-int
+size_t
 width
 =
 Scalar
@@ -81922,7 +81922,7 @@ arrayType
 (
 )
 ;
-int
+size_t
 width
 =
 Scalar
@@ -84035,7 +84035,7 @@ writeType
 (
 )
 ;
-int
+size_t
 width
 =
 Scalar
@@ -84190,7 +84190,7 @@ arrayType
 (
 )
 ;
-int
+size_t
 width
 =
 Scalar

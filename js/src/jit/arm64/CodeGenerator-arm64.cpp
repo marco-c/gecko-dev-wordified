@@ -3935,7 +3935,7 @@ arrayType
 (
 )
 ;
-int
+size_t
 width
 =
 Scalar
@@ -4133,7 +4133,7 @@ arrayType
 (
 )
 ;
-int
+size_t
 width
 =
 Scalar
