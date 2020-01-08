@@ -4440,6 +4440,18 @@ restart
 case
 below
 .
+/
+/
+Use
+SendMessageRaw
+to
+avoid
+problems
+if
+we
+are
+recovering
+.
 CrashReporter
 :
 :
@@ -4455,7 +4467,7 @@ RecordReplayHang
 true
 )
 ;
-SendMessage
+SendMessageRaw
 (
 TerminateMessage
 (
