@@ -576,8 +576,6 @@ cc
 preferAlternativeDataType
 (
 altContentType
-"
-"
 )
 ;
 chan
@@ -767,8 +765,6 @@ cc
 preferAlternativeDataType
 (
 altContentType
-"
-"
 )
 ;
 chan

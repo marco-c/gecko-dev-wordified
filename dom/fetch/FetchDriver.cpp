@@ -4881,9 +4881,6 @@ cic
 PreferAlternativeDataType
 (
 aPreferredAlternativeDataType
-EmptyCString
-(
-)
 )
 ;
 MOZ_ASSERT

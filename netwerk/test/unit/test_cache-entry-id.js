@@ -484,8 +484,6 @@ cc
 preferAlternativeDataType
 (
 altContentType
-"
-"
 )
 ;
 }

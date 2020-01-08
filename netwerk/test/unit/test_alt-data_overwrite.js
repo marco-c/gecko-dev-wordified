@@ -314,8 +314,6 @@ cc
 preferAlternativeDataType
 (
 altContentType
-"
-"
 )
 ;
 }
