@@ -9243,8 +9243,6 @@ UniquePtr
 <
 FullscreenRequest
 >
-&
-&
 )
 ;
 /
@@ -9323,8 +9321,6 @@ UniquePtr
 <
 FullscreenRequest
 >
-&
-&
 aRequest
 )
 ;
