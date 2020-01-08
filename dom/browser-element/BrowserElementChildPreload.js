@@ -1050,7 +1050,7 @@ securityUI
 .
 init
 (
-content
+docShell
 )
 ;
 /

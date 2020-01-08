@@ -217,6 +217,13 @@ h
 #
 include
 "
+nsISecureBrowserUI
+.
+h
+"
+#
+include
+"
 nsIForcePendingChannel
 .
 h
