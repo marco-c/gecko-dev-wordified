@@ -116,8 +116,6 @@ common
 import
 (
     
-docker_worker_add_gecko_vcs_env_vars
-    
 docker_worker_add_artifacts
     
 docker_worker_add_tooltool
@@ -1016,13 +1014,6 @@ job
 taskdesc
 )
     
-docker_worker_add_gecko_vcs_env_vars
-(
-config
-job
-taskdesc
-)
-    
 support_vcs_checkout
 (
 config
@@ -1582,7 +1573,7 @@ trust
 =
 True
     
-docker_worker_add_gecko_vcs_env_vars
+support_vcs_checkout
 (
 config
 job
