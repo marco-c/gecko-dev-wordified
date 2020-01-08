@@ -287,6 +287,8 @@ uint64_t
 aId
 uint64_t
 aRegistrationId
+uint64_t
+aRegistrationVersion
 nsIPrincipal
 *
 aPrincipal
@@ -308,6 +310,8 @@ uint64_t
 aId
 uint64_t
 aRegistrationId
+uint64_t
+aRegistrationVersion
 const
 mozilla
 :
@@ -406,6 +410,12 @@ RegistrationId
 )
 const
 ;
+uint64_t
+RegistrationVersion
+(
+)
+const
+;
 const
 mozilla
 :
@@ -456,6 +466,13 @@ SetState
 (
 ServiceWorkerState
 aState
+)
+;
+void
+SetRegistrationVersion
+(
+uint64_t
+aVersion
 )
 ;
 /

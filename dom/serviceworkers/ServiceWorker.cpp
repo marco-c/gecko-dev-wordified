@@ -605,6 +605,11 @@ RegistrationId
 )
 mDescriptor
 .
+RegistrationVersion
+(
+)
+mDescriptor
+.
 PrincipalInfo
 (
 )

@@ -2386,6 +2386,12 @@ mRegistration
 Id
 (
 )
+mRegistration
+-
+>
+Version
+(
+)
 mScriptSpec
 aNewCacheName
 flags
