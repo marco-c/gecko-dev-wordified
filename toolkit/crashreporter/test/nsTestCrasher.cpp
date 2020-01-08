@@ -970,14 +970,7 @@ ReserveStack
 pfnLauncher
 (
 0
-reinterpret_cast
-<
-void
-*
->
-(
 pfnTest
-)
 )
 ;
 break
