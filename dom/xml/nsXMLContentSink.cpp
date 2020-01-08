@@ -1855,10 +1855,8 @@ CSSLoader
 HasPendingLoads
 (
 )
-&
-&
-NS_SUCCEEDED
-(
+)
+{
 mDocument
 -
 >
@@ -1871,9 +1869,7 @@ AddObserver
 (
 this
 )
-)
-)
-{
+;
 /
 /
 wait

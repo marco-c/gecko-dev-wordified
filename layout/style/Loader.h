@@ -3017,7 +3017,7 @@ null
 .
 *
 /
-nsresult
+void
 AddObserver
 (
 nsICSSLoaderObserver
