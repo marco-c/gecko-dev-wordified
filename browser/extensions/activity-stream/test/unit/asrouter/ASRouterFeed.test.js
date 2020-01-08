@@ -607,6 +607,13 @@ type
 at
 .
 INIT
+data
+:
+{
+name
+:
+EXPERIMENT_PREF
+}
 }
 )
 ;
