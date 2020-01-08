@@ -202,13 +202,11 @@ MapNoAttributesInto
 const
 nsMappedAttributes
 *
-aAttributes
 mozilla
 :
 :
-GenericSpecifiedValues
-*
-aGenericData
+MappedDeclarations
+&
 )
 {
 }

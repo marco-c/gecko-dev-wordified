@@ -195,7 +195,7 @@ include
 "
 mozilla
 /
-GenericSpecifiedValuesInlines
+MappedDeclarations
 .
 h
 "
@@ -2111,9 +2111,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
-*
-aData
+MappedDeclarations
+&
+aDecls
 )
 {
 /
@@ -2124,9 +2124,8 @@ off
 if
 (
 !
-aData
--
->
+aDecls
+.
 PropertyIsSet
 (
 eCSSProperty_white_space
@@ -2181,9 +2180,8 @@ eIgnoreCase
 )
 )
 {
-aData
--
->
+aDecls
+.
 SetKeywordValue
 (
 eCSSProperty_white_space
@@ -2201,7 +2199,7 @@ nsGenericHTMLFormElementWithState
 MapDivAlignAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLFormElementWithState
@@ -2210,7 +2208,7 @@ nsGenericHTMLFormElementWithState
 MapCommonAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 }

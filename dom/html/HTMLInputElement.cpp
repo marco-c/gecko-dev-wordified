@@ -574,7 +574,7 @@ include
 "
 mozilla
 /
-GenericSpecifiedValuesInlines
+MappedDeclarations
 .
 h
 "
@@ -32537,9 +32537,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
-*
-aData
+MappedDeclarations
+&
+aDecls
 )
 {
 const
@@ -32594,7 +32594,7 @@ nsGenericHTMLFormElementWithState
 MapImageBorderAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLFormElementWithState
@@ -32603,7 +32603,7 @@ nsGenericHTMLFormElementWithState
 MapImageMarginAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLFormElementWithState
@@ -32612,7 +32612,7 @@ nsGenericHTMLFormElementWithState
 MapImageSizeAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 /
@@ -32630,7 +32630,7 @@ nsGenericHTMLFormElementWithState
 MapImageAlignAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 }
@@ -32640,7 +32640,7 @@ nsGenericHTMLFormElementWithState
 MapCommonAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 }

@@ -166,7 +166,7 @@ include
 "
 mozilla
 /
-GenericSpecifiedValuesInlines
+MappedDeclarations
 .
 h
 "

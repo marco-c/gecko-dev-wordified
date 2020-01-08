@@ -130,7 +130,7 @@ include
 "
 mozilla
 /
-GenericSpecifiedValuesInlines
+MappedDeclarations
 .
 h
 "
@@ -827,9 +827,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
-*
-aData
+MappedDeclarations
+&
+aDecls
 )
 {
 /
@@ -840,9 +840,8 @@ value
 if
 (
 !
-aData
--
->
+aDecls
+.
 PropertyIsSet
 (
 eCSSProperty_height
@@ -883,9 +882,8 @@ nsAttrValue
 :
 eInteger
 )
-aData
--
->
+aDecls
+.
 SetPixelValue
 (
 eCSSProperty_height
@@ -907,7 +905,7 @@ nsGenericHTMLElement
 MapDivAlignAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -916,7 +914,7 @@ nsGenericHTMLElement
 MapVAlignAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -925,7 +923,7 @@ nsGenericHTMLElement
 MapBackgroundAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -934,7 +932,7 @@ nsGenericHTMLElement
 MapCommonAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 }

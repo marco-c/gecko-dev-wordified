@@ -401,9 +401,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
-*
-aData
+MappedDeclarations
+&
+aDecls
 )
 {
 nsGenericHTMLElement
@@ -412,7 +412,7 @@ nsGenericHTMLElement
 MapDivAlignAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -421,7 +421,7 @@ nsGenericHTMLElement
 MapCommonAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 }
@@ -433,9 +433,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
-*
-aData
+MappedDeclarations
+&
+aDecls
 )
 {
 nsGenericHTMLElement
@@ -444,7 +444,7 @@ nsGenericHTMLElement
 MapImageMarginAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -453,7 +453,7 @@ nsGenericHTMLElement
 MapImageSizeAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -462,7 +462,7 @@ nsGenericHTMLElement
 MapCommonAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -471,7 +471,7 @@ nsGenericHTMLElement
 MapBGColorInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 }

@@ -612,9 +612,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
-*
-aData
+MappedDeclarations
+&
+aDecls
 )
 {
 nsGenericHTMLElement
@@ -623,7 +623,7 @@ nsGenericHTMLElement
 MapImageSizeAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -632,7 +632,7 @@ nsGenericHTMLElement
 MapCommonAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 }

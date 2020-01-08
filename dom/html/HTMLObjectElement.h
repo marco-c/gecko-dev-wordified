@@ -1442,9 +1442,8 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
-*
-aGenericData
+MappedDeclarations
+&
 )
 ;
 /

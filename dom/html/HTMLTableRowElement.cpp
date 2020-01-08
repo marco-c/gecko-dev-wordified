@@ -141,7 +141,7 @@ include
 "
 mozilla
 /
-GenericSpecifiedValuesInlines
+MappedDeclarations
 .
 h
 "
@@ -1269,9 +1269,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
-*
-aData
+MappedDeclarations
+&
+aDecls
 )
 {
 nsGenericHTMLElement
@@ -1280,7 +1280,7 @@ nsGenericHTMLElement
 MapHeightAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -1289,7 +1289,7 @@ nsGenericHTMLElement
 MapDivAlignAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -1298,7 +1298,7 @@ nsGenericHTMLElement
 MapVAlignAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -1307,7 +1307,7 @@ nsGenericHTMLElement
 MapBackgroundAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -1316,7 +1316,7 @@ nsGenericHTMLElement
 MapCommonAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 }

@@ -399,7 +399,7 @@ include
 "
 mozilla
 /
-GenericSpecifiedValuesInlines
+MappedDeclarations
 .
 h
 "
@@ -1257,9 +1257,9 @@ const
 nsMappedAttributes
 *
 aAttributes
-GenericSpecifiedValues
-*
-aData
+MappedDeclarations
+&
+aDecls
 )
 {
 nsGenericHTMLElement
@@ -1268,7 +1268,7 @@ nsGenericHTMLElement
 MapImageAlignAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -1277,7 +1277,7 @@ nsGenericHTMLElement
 MapImageBorderAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -1286,7 +1286,7 @@ nsGenericHTMLElement
 MapImageMarginAttributeInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -1295,7 +1295,7 @@ nsGenericHTMLElement
 MapImageSizeAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 nsGenericHTMLElement
@@ -1304,7 +1304,7 @@ nsGenericHTMLElement
 MapCommonAttributesInto
 (
 aAttributes
-aData
+aDecls
 )
 ;
 }
