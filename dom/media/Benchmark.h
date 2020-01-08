@@ -196,7 +196,7 @@ BenchmarkPlayback
 (
 Benchmark
 *
-aMainThreadState
+aGlobalState
 MediaDataDemuxer
 *
 aDemuxer
@@ -213,7 +213,7 @@ DemuxNextSample
 )
 ;
 void
-MainThreadShutdown
+GlobalShutdown
 (
 )
 ;
@@ -276,7 +276,7 @@ Atomic
 Benchmark
 *
 >
-mMainThreadState
+mGlobalState
 ;
 RefPtr
 <
