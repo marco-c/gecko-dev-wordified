@@ -3789,15 +3789,15 @@ let
 options
 =
 {
-js
+jsPaths
 :
 [
 ]
-css
+cssPaths
 :
 [
 ]
-remove_css
+removeCSS
 :
 method
 =
@@ -4052,7 +4052,7 @@ allFrames
 {
 options
 .
-all_frames
+allFrames
 =
 details
 .
@@ -4072,7 +4072,7 @@ null
 {
 options
 .
-frame_id
+frameID
 =
 details
 .
@@ -4088,7 +4088,7 @@ matchAboutBlank
 {
 options
 .
-match_about_blank
+matchAboutBlank
 =
 details
 .
@@ -4108,7 +4108,7 @@ null
 {
 options
 .
-run_at
+runAt
 =
 details
 .
@@ -4119,7 +4119,7 @@ else
 {
 options
 .
-run_at
+runAt
 =
 "
 document_idle
@@ -4139,7 +4139,7 @@ null
 {
 options
 .
-css_origin
+cssOrigin
 =
 details
 .
@@ -4150,7 +4150,7 @@ else
 {
 options
 .
-css_origin
+cssOrigin
 =
 "
 author
@@ -4306,7 +4306,7 @@ _execute
 context
 details
 "
-js
+jsPaths
 "
 "
 executeScript
@@ -4405,7 +4405,7 @@ _execute
 context
 details
 "
-css
+cssPaths
 "
 "
 insertCSS
