@@ -201,6 +201,13 @@ propTypes
 {
 return
 {
+dispatch
+:
+PropTypes
+.
+func
+.
+isRequired
 tabs
 :
 PropTypes
@@ -222,6 +229,7 @@ render
 {
 const
 {
+dispatch
 tabs
 }
 =
@@ -278,6 +286,7 @@ version
 DebugTargetPane
 (
 {
+dispatch
 name
 :
 "

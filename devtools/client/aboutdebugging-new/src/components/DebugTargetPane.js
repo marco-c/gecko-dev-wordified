@@ -171,6 +171,13 @@ propTypes
 {
 return
 {
+dispatch
+:
+PropTypes
+.
+func
+.
+isRequired
 name
 :
 PropTypes
@@ -199,6 +206,7 @@ render
 {
 const
 {
+dispatch
 name
 targets
 }
@@ -225,6 +233,7 @@ name
 DebugTargetList
 (
 {
+dispatch
 targets
 }
 )
