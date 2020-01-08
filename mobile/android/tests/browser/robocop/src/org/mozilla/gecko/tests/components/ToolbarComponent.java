@@ -245,13 +245,6 @@ android
 .
 widget
 .
-TextSwitcher
-;
-import
-android
-.
-widget
-.
 TextView
 ;
 import

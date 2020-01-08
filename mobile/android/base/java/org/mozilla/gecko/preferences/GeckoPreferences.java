@@ -2043,7 +2043,7 @@ R
 .
 drawable
 .
-abc_ic_ab_back_mtrl_am_alpha
+abc_ic_ab_back_material
 )
 ;
 }

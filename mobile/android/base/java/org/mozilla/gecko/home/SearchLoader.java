@@ -536,6 +536,13 @@ FilterFlags
 flags
 )
 {
+manager
+.
+destroyLoader
+(
+loaderId
+)
+;
 final
 Bundle
 args
