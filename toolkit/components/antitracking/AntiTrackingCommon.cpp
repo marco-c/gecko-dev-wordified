@@ -698,6 +698,17 @@ pm
 return
 ;
 }
+/
+/
+Remember
+that
+this
+pref
+is
+stored
+in
+seconds
+!
 uint32_t
 expirationTime
 =
@@ -707,6 +718,8 @@ StaticPrefs
 privacy_restrict3rdpartystorage_expiration
 (
 )
+*
+1000
 ;
 int64_t
 when
