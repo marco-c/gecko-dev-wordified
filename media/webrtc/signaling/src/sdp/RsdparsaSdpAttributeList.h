@@ -942,6 +942,14 @@ attributeList
 )
 ;
 void
+LoadSimulcast
+(
+RustAttributeList
+*
+attributeList
+)
+;
+void
 LoadImageattr
 (
 RustAttributeList
