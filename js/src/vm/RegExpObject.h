@@ -659,9 +659,11 @@ isDataProperty
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 shape
@@ -674,9 +676,11 @@ maybeSlot
 =
 LAST_INDEX_SLOT
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -1329,6 +1333,7 @@ RegExpObject
 (
 )
 )
+{
 return
 RegExpObject
 :
@@ -1346,6 +1351,7 @@ RegExpObject
 )
 )
 ;
+}
 return
 Proxy
 :

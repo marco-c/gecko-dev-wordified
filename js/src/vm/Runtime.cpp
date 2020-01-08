@@ -1173,9 +1173,11 @@ EnsureHelperThreadsInitialized
 (
 )
 )
+{
 return
 false
 ;
+}
 mainContext_
 =
 cx
@@ -1198,9 +1200,11 @@ if
 !
 defaultFreeOp_
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1212,9 +1216,11 @@ maxbytes
 maxNurseryBytes
 )
 )
+{
 return
 false
 ;
+}
 UniquePtr
 <
 Zone
@@ -1244,9 +1250,11 @@ init
 true
 )
 )
+{
 return
 false
 ;
+}
 gc
 .
 atomsZone
@@ -1285,9 +1293,11 @@ InitRuntimeNumberState
 this
 )
 )
+{
 return
 false
 ;
+}
 js
 :
 :
@@ -1358,9 +1368,11 @@ if
 !
 sharedImmutableStrings_
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -1455,6 +1467,7 @@ IsIncrementalGCInProgress
 cx
 )
 )
+{
 gc
 :
 :
@@ -1463,6 +1476,7 @@ FinishGC
 cx
 )
 ;
+}
 /
 *
 Free
@@ -1746,6 +1760,7 @@ if
 (
 telemetryCallback
 )
+{
 (
 *
 telemetryCallback
@@ -1756,6 +1771,7 @@ sample
 key
 )
 ;
+}
 }
 void
 JSRuntime
@@ -1795,6 +1811,7 @@ if
 (
 useCounterCallback
 )
+{
 (
 *
 useCounterCallback
@@ -1804,6 +1821,7 @@ obj
 counter
 )
 ;
+}
 }
 void
 JSRuntime
@@ -2012,6 +2030,7 @@ cx
 >
 traceLogger
 )
+{
 rtSizes
 -
 >
@@ -2029,6 +2048,7 @@ sizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 #
 endif
 rtSizes
@@ -2191,6 +2211,7 @@ popFront
 (
 )
 )
+{
 rtSizes
 -
 >
@@ -2206,6 +2227,7 @@ front
 )
 )
 ;
+}
 }
 if
 (
@@ -2253,6 +2275,7 @@ ionLazyLinkList
 this
 )
 )
+{
 rtSizes
 -
 >
@@ -2267,6 +2290,7 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
+}
 }
 rtSizes
 -
@@ -2440,9 +2464,11 @@ if
 !
 invokeCallback
 )
+{
 return
 true
 ;
+}
 /
 /
 Important
@@ -2491,9 +2517,11 @@ cx
 >
 interruptCallbackDisabled
 )
+{
 return
 true
 ;
+}
 bool
 stop
 =
@@ -2520,10 +2548,12 @@ cb
 cx
 )
 )
+{
 stop
 =
 true
 ;
+}
 }
 if
 (
@@ -2831,6 +2861,7 @@ cx
 flat
 )
 )
+{
 chars
 =
 stableChars
@@ -2847,7 +2878,9 @@ get
 (
 )
 ;
+}
 else
+{
 chars
 =
 u
@@ -2859,6 +2892,7 @@ available
 )
 "
 ;
+}
 JS_ReportErrorFlagsAndNumberUC
 (
 cx
@@ -2971,6 +3005,7 @@ isWaiting
 (
 )
 )
+{
 fx
 .
 notify
@@ -2981,6 +3016,7 @@ FutexThread
 NotifyForJSInterrupt
 )
 ;
+}
 fx
 .
 unlock
@@ -3085,9 +3121,11 @@ if
 !
 locale
 )
+{
 return
 false
 ;
+}
 UniqueChars
 newLocale
 =
@@ -3104,9 +3142,11 @@ if
 !
 newLocale
 )
+{
 return
 false
 ;
+}
 defaultLocale
 .
 ref
@@ -3156,6 +3196,7 @@ ref
 (
 )
 )
+{
 return
 defaultLocale
 .
@@ -3167,6 +3208,7 @@ get
 (
 )
 ;
+}
 const
 char
 *
@@ -3205,12 +3247,14 @@ C
 "
 )
 )
+{
 locale
 =
 "
 und
 "
 ;
+}
 UniqueChars
 lang
 =
@@ -3227,9 +3271,11 @@ if
 !
 lang
 )
+{
 return
 nullptr
 ;
+}
 char
 *
 p
@@ -3252,6 +3298,7 @@ get
 )
 )
 )
+{
 *
 p
 =
@@ -3260,6 +3307,7 @@ p
 0
 '
 ;
+}
 while
 (
 (
@@ -3278,6 +3326,7 @@ _
 )
 )
 )
+{
 *
 p
 =
@@ -3285,6 +3334,7 @@ p
 -
 '
 ;
+}
 defaultLocale
 .
 ref
@@ -3386,6 +3436,7 @@ i
 +
 +
 )
+{
 free_
 (
 freeLaterList
@@ -3394,6 +3445,7 @@ i
 ]
 )
 ;
+}
 if
 (
 !
@@ -3403,6 +3455,7 @@ empty
 (
 )
 )
+{
 jit
 :
 :
@@ -3417,6 +3470,7 @@ runtime
 jitPoisonRanges
 )
 ;
+}
 }
 bool
 FreeOp
@@ -3498,9 +3552,11 @@ compartment
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 cx
 -
@@ -3675,6 +3731,7 @@ IsWrapper
 promise
 )
 )
+{
 unwrappedPromise
 =
 UncheckedUnwrap
@@ -3682,6 +3739,7 @@ UncheckedUnwrap
 promise
 )
 ;
+}
 if
 (
 unwrappedPromise
@@ -3694,6 +3752,7 @@ PromiseObject
 (
 )
 )
+{
 allocationSite
 =
 JS
@@ -3704,6 +3763,7 @@ GetPromiseAllocationSite
 unwrappedPromise
 )
 ;
+}
 }
 return
 cx
@@ -3756,8 +3816,10 @@ cx
 >
 promiseRejectionTrackerCallback
 )
+{
 return
 ;
+}
 void
 *
 data
@@ -3822,8 +3884,10 @@ cx
 >
 promiseRejectionTrackerCallback
 )
+{
 return
 ;
+}
 void
 *
 data
@@ -4135,9 +4199,11 @@ RuntimeHeapIsBusy
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -4249,19 +4315,23 @@ if
 (
 p
 )
+{
 return
 p
 ;
+}
 }
 if
 (
 maybecx
 )
+{
 ReportOutOfMemory
 (
 maybecx
 )
 ;
+}
 return
 nullptr
 ;
@@ -4292,10 +4362,12 @@ bytes
 =
 LARGE_ALLOCATION
 )
+{
 OnLargeAllocationFailure
 (
 )
 ;
+}
 return
 onOutOfMemory
 (
@@ -4405,6 +4477,7 @@ numActiveHelperThreadZones
 =
 0
 )
+{
 gc
 .
 setParallelAtomsAllocEnabled
@@ -4412,6 +4485,7 @@ setParallelAtomsAllocEnabled
 true
 )
 ;
+}
 }
 void
 JSRuntime
@@ -4450,6 +4524,7 @@ numActiveHelperThreadZones
 =
 0
 )
+{
 gc
 .
 setParallelAtomsAllocEnabled
@@ -4457,6 +4532,7 @@ setParallelAtomsAllocEnabled
 false
 )
 ;
+}
 JSContext
 *
 cx
@@ -4481,6 +4557,7 @@ canCollectAtoms
 (
 )
 )
+{
 gc
 .
 triggerFullGCForAtoms
@@ -4488,6 +4565,7 @@ triggerFullGCForAtoms
 cx
 )
 ;
+}
 }
 bool
 js
@@ -4551,6 +4629,7 @@ usedByHelperThread
 (
 )
 )
+{
 return
 zone
 -
@@ -4559,6 +4638,7 @@ ownedByCurrentHelperThread
 (
 )
 ;
+}
 /
 /
 Other

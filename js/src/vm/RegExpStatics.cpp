@@ -305,6 +305,7 @@ if
 (
 pdata
 )
+{
 static_cast
 <
 RegExpStatics
@@ -320,6 +321,7 @@ trace
 trc
 )
 ;
+}
 }
 static
 const
@@ -433,9 +435,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 RegExpStatics
 *
 res
@@ -455,9 +459,11 @@ if
 !
 res
 )
+{
 return
 nullptr
 ;
+}
 obj
 -
 >
@@ -493,9 +499,11 @@ if
 !
 pendingLazyEvaluation
 )
+{
 return
 true
 ;
+}
 MOZ_ASSERT
 (
 lazySource
@@ -567,9 +575,11 @@ if
 !
 shared
 )
+{
 return
 false
 ;
+}
 /
 *
 *
@@ -638,9 +648,11 @@ status
 =
 RegExpRunStatus_Error
 )
+{
 return
 false
 ;
+}
 /
 *
 *

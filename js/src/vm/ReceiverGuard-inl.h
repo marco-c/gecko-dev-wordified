@@ -235,6 +235,7 @@ maybeExpando
 (
 )
 )
+{
 shape
 =
 expando
@@ -244,6 +245,7 @@ lastProperty
 (
 )
 ;
+}
 return
 ;
 }

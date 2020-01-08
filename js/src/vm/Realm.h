@@ -650,9 +650,11 @@ if
 !
 entries_
 )
+{
 return
 false
 ;
+}
 for
 (
 size_t
@@ -778,8 +780,10 @@ if
 !
 entries_
 )
+{
 return
 ;
+}
 }
 else
 {
@@ -800,6 +804,7 @@ i
 -
 -
 )
+{
 entries_
 [
 i
@@ -812,6 +817,7 @@ i
 1
 ]
 ;
+}
 }
 entries_
 [
@@ -4324,8 +4330,10 @@ principals_
 =
 principals
 )
+{
 return
 ;
+}
 /
 /
 If

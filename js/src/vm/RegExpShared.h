@@ -1909,9 +1909,11 @@ if
 (
 matchResultTemplateObject_
 )
+{
 return
 matchResultTemplateObject_
 ;
+}
 return
 createMatchResultTemplateObject
 (

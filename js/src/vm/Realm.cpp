@@ -557,6 +557,7 @@ isEnabled
 (
 )
 )
+{
 rt
 -
 >
@@ -569,6 +570,7 @@ writeLCovResult
 lcovOutput
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -602,6 +604,7 @@ shutdownCollectedEverything
 (
 )
 )
+{
 objectGroups_
 .
 unboxedLayouts
@@ -610,6 +613,7 @@ clear
 (
 )
 ;
+}
 #
 endif
 MOZ_ASSERT
@@ -658,9 +662,11 @@ if
 !
 sentinel
 )
+{
 return
 false
 ;
+}
 iteratorSentinel_
 =
 std
@@ -777,9 +783,11 @@ init
 cx
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 principals
@@ -924,9 +932,11 @@ if
 !
 jrt
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Unfortunately
@@ -1043,9 +1053,11 @@ if
 (
 jitRealm_
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -1059,9 +1071,11 @@ getJitZone
 cx
 )
 )
+{
 return
 false
 ;
+}
 UniquePtr
 <
 JitRealm
@@ -1083,9 +1097,11 @@ if
 !
 jitRealm
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1097,9 +1113,11 @@ initialize
 cx
 )
 )
+{
 return
 false
 ;
+}
 jitRealm_
 =
 std
@@ -1241,9 +1259,11 @@ if
 !
 map
 )
+{
 return
 nullptr
 ;
+}
 nonSyntacticLexicalEnvironments_
 =
 std
@@ -1316,9 +1336,11 @@ if
 !
 lexicalEnv
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -1332,9 +1354,11 @@ key
 lexicalEnv
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 &
@@ -1606,9 +1630,11 @@ if
 !
 nonSyntacticLexicalEnvironments_
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 If
@@ -1692,9 +1718,11 @@ if
 !
 lexicalEnv
 )
+{
 return
 nullptr
 ;
+}
 return
 &
 lexicalEnv
@@ -1742,9 +1770,11 @@ put
 name
 )
 )
+{
 return
 true
 ;
+}
 ReportOutOfMemory
 (
 cx
@@ -1823,6 +1853,7 @@ RuntimeHeapIsMinorCollecting
 (
 )
 )
+{
 varNames_
 .
 trace
@@ -1830,6 +1861,7 @@ trace
 trc
 )
 ;
+}
 }
 void
 ObjectRealm
@@ -1846,6 +1878,7 @@ if
 (
 lazyArrayBuffers
 )
+{
 lazyArrayBuffers
 -
 >
@@ -1854,10 +1887,12 @@ trace
 trc
 )
 ;
+}
 if
 (
 objectMetadataTable
 )
+{
 objectMetadataTable
 -
 >
@@ -1866,10 +1901,12 @@ trace
 trc
 )
 ;
+}
 if
 (
 nonSyntacticLexicalEnvironments_
 )
+{
 nonSyntacticLexicalEnvironments_
 -
 >
@@ -1878,6 +1915,7 @@ trace
 trc
 )
 ;
+}
 }
 void
 Realm
@@ -2013,6 +2051,7 @@ unbarrieredGet
 (
 )
 )
+{
 TraceRoot
 (
 trc
@@ -2030,6 +2069,7 @@ global
 "
 )
 ;
+}
 }
 /
 /
@@ -2084,8 +2124,10 @@ isCollectingFromAnyThread
 (
 )
 )
+{
 return
 ;
+}
 /
 *
 Mark
@@ -2099,6 +2141,7 @@ if
 (
 debugEnvs_
 )
+{
 debugEnvs_
 -
 >
@@ -2107,6 +2150,7 @@ trace
 trc
 )
 ;
+}
 objects_
 .
 trace
@@ -2404,6 +2448,7 @@ if
 (
 lazyArrayBuffers
 )
+{
 lazyArrayBuffers
 -
 >
@@ -2411,10 +2456,12 @@ clear
 (
 )
 ;
+}
 if
 (
 objectMetadataTable
 )
+{
 objectMetadataTable
 -
 >
@@ -2422,10 +2469,12 @@ clear
 (
 )
 ;
+}
 if
 (
 nonSyntacticLexicalEnvironments_
 )
+{
 nonSyntacticLexicalEnvironments_
 -
 >
@@ -2433,6 +2482,7 @@ clear
 (
 )
 ;
+}
 }
 void
 Realm
@@ -2446,6 +2496,7 @@ if
 (
 debugEnvs_
 )
+{
 debugEnvs_
 -
 >
@@ -2453,6 +2504,7 @@ finish
 (
 )
 ;
+}
 objects_
 .
 finishRoots
@@ -2494,12 +2546,14 @@ needsSweepAfterMinorGC
 (
 )
 )
+{
 table
 .
 sweepAfterMinorGC
 (
 )
 ;
+}
 }
 void
 Realm
@@ -2560,6 +2614,7 @@ IsAboutToBeFinalized
 global_
 )
 )
+{
 global_
 .
 set
@@ -2567,6 +2622,7 @@ set
 nullptr
 )
 ;
+}
 }
 void
 Realm
@@ -2613,6 +2669,7 @@ if
 (
 jitRealm_
 )
+{
 jitRealm_
 -
 >
@@ -2621,6 +2678,7 @@ sweep
 this
 )
 ;
+}
 }
 void
 Realm
@@ -2685,6 +2743,7 @@ if
 (
 debugEnvs_
 )
+{
 debugEnvs_
 -
 >
@@ -2692,6 +2751,7 @@ sweep
 (
 )
 ;
+}
 }
 void
 ObjectRealm
@@ -2763,6 +2823,7 @@ IsAboutToBeFinalizedUnbarriered
 iterObj
 )
 )
+{
 ni
 -
 >
@@ -2770,6 +2831,7 @@ unlink
 (
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 ni
@@ -2947,6 +3009,7 @@ IsAboutToBeFinalized
 mappedArgumentsTemplate_
 )
 )
+{
 mappedArgumentsTemplate_
 .
 set
@@ -2954,6 +3017,7 @@ set
 nullptr
 )
 ;
+}
 if
 (
 unmappedArgumentsTemplate_
@@ -2965,6 +3029,7 @@ IsAboutToBeFinalized
 unmappedArgumentsTemplate_
 )
 )
+{
 unmappedArgumentsTemplate_
 .
 set
@@ -2972,6 +3037,7 @@ set
 nullptr
 )
 ;
+}
 if
 (
 iterResultTemplate_
@@ -2983,6 +3049,7 @@ IsAboutToBeFinalized
 iterResultTemplate_
 )
 )
+{
 iterResultTemplate_
 .
 set
@@ -2990,6 +3057,7 @@ set
 nullptr
 )
 ;
+}
 }
 void
 Realm
@@ -3041,6 +3109,7 @@ if
 (
 global
 )
+{
 global_
 .
 set
@@ -3051,6 +3120,7 @@ global
 )
 )
 ;
+}
 }
 void
 Realm
@@ -3159,6 +3229,7 @@ key
 (
 )
 )
+{
 e
 .
 rekeyFront
@@ -3166,6 +3237,7 @@ rekeyFront
 script
 )
 ;
+}
 }
 }
 if
@@ -3236,6 +3308,7 @@ key
 (
 )
 )
+{
 e
 .
 rekeyFront
@@ -3243,6 +3316,7 @@ rekeyFront
 script
 )
 ;
+}
 }
 }
 if
@@ -3313,6 +3387,7 @@ key
 (
 )
 )
+{
 e
 .
 rekeyFront
@@ -3320,6 +3395,7 @@ rekeyFront
 script
 )
 ;
+}
 }
 }
 }
@@ -3663,6 +3739,7 @@ Type
 :
 JS
 )
+{
 CheckGCThingAfterMovingGC
 (
 site
@@ -3676,6 +3753,7 @@ asJS
 script
 )
 ;
+}
 }
 auto
 ptr
@@ -4116,6 +4194,7 @@ if
 !
 table
 )
+{
 oomUnsafe
 .
 crash
@@ -4125,6 +4204,7 @@ setNewObjectMetadata
 "
 )
 ;
+}
 objects_
 .
 objectMetadataTable
@@ -4153,6 +4233,7 @@ obj
 metadata
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -4162,6 +4243,7 @@ setNewObjectMetadata
 "
 )
 ;
+}
 }
 }
 static
@@ -4186,9 +4268,11 @@ hasObjects
 (
 )
 )
+{
 return
 true
 ;
+}
 ObjectArray
 *
 objects
@@ -4269,9 +4353,11 @@ append
 obj
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 return
@@ -4582,9 +4668,11 @@ append
 fun
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 }
@@ -4623,9 +4711,11 @@ AllocKind
 FUNCTION
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Methods
@@ -4673,9 +4763,11 @@ AllocKind
 FUNCTION_EXTENDED
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Create
@@ -4785,8 +4877,10 @@ isInterpretedLazy
 (
 )
 )
+{
 continue
 ;
+}
 bool
 lazyScriptHadNoScript
 =
@@ -4821,9 +4915,11 @@ if
 !
 script
 )
+{
 return
 false
 ;
+}
 if
 (
 lazyScriptHadNoScript
@@ -4836,9 +4932,11 @@ script
 lazyFunctions
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -4875,9 +4973,11 @@ CreateLazyScriptsForRealm
 cx
 )
 )
+{
 return
 false
 ;
+}
 debugModeBits_
 &
 =
@@ -5130,8 +5230,10 @@ debuggerObservesCoverage
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 debuggerObservesCoverage
@@ -5201,6 +5303,7 @@ isInterpreter
 (
 )
 )
+{
 iter
 -
 >
@@ -5213,6 +5316,7 @@ enableInterruptsUnconditionally
 (
 )
 ;
+}
 }
 return
 ;
@@ -5237,8 +5341,10 @@ collectCoverage
 (
 )
 )
+{
 return
 ;
+}
 clearScriptCounts
 (
 )
@@ -5337,8 +5443,10 @@ if
 !
 scriptCountsMap
 )
+{
 return
 ;
+}
 /
 /
 Clear
@@ -5389,6 +5497,7 @@ popFront
 (
 )
 )
+{
 r
 .
 front
@@ -5404,6 +5513,7 @@ clearHasScriptCounts
 (
 )
 ;
+}
 scriptCountsMap
 .
 reset
@@ -5496,6 +5606,7 @@ hasAnyBreakpointsOrStepMode
 (
 )
 )
+{
 script
 -
 >
@@ -5506,6 +5617,7 @@ dbg
 handler
 )
 ;
+}
 }
 }
 void
@@ -5548,6 +5660,7 @@ if
 (
 lazyArrayBuffers
 )
+{
 *
 lazyArrayBuffersArg
 +
@@ -5560,10 +5673,12 @@ sizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 if
 (
 objectMetadataTable
 )
+{
 *
 objectMetadataTablesArg
 +
@@ -5576,6 +5691,7 @@ sizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 if
 (
 auto
@@ -5584,6 +5700,7 @@ map
 =
 nonSyntacticLexicalEnvironments_
 )
+{
 *
 nonSyntacticLexicalEnvironmentsArg
 +
@@ -5596,6 +5713,7 @@ sizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 }
 void
 Realm
@@ -5714,6 +5832,7 @@ if
 (
 jitRealm_
 )
+{
 *
 jitRealm
 +
@@ -5726,6 +5845,7 @@ sizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 if
 (
 scriptCountsMap
@@ -5768,6 +5888,7 @@ popFront
 (
 )
 )
+{
 *
 scriptCountsMapArg
 +
@@ -5788,6 +5909,7 @@ sizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 }
 }
 mozilla
@@ -5867,6 +5989,7 @@ if
 (
 cx_
 )
+{
 cx_
 -
 >
@@ -5884,6 +6007,7 @@ DelayMetadata
 )
 )
 ;
+}
 }
 AutoSetNewObjectMetadata
 :
@@ -5926,8 +6050,10 @@ if
 !
 cx_
 )
+{
 return
 ;
+}
 if
 (
 !
