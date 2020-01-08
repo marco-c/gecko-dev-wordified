@@ -155,7 +155,7 @@ rootingHazards
 as
 rootingHazards
 \
-        
+            
 open
 (
 args
@@ -168,7 +168,7 @@ w
 as
 hazards
 \
-        
+            
 open
 (
 args
@@ -181,7 +181,7 @@ w
 as
 extra
 \
-        
+            
 open
 (
 args
@@ -394,6 +394,7 @@ re
 .
 match
 (
+                
 r
 "
 ^
@@ -485,6 +486,7 @@ append
 current_gcFunction
 len
 (
+                    
 hazardousGCFunctions
 [
 current_gcFunction

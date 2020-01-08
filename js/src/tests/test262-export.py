@@ -148,7 +148,7 @@ user
 .
 js
 "
-    
+                     
 "
 js
 -
@@ -1473,8 +1473,7 @@ set
 n
 "
 +
-\
-                
+                  
 "
 Ref
 https
@@ -1542,8 +1541,7 @@ set
 n
 "
 +
-\
-                
+                  
 "
 Ref
 https
@@ -1929,8 +1927,7 @@ the
 existing
 "
 +
-\
-                
+                  
 "
 frontmatter
 error
@@ -1945,7 +1942,7 @@ s
 %
 (
 error
-                
+                                                   
 frontmatter
 [
 "
@@ -2236,7 +2233,7 @@ encoding
 "
 utf8
 "
-                
+                                          
 )
 .
 strip
@@ -2278,7 +2275,7 @@ encoding
 "
 utf8
 "
-                
+                                   
 default_flow_style
 =
 False
@@ -3338,7 +3335,7 @@ action
 "
 store_true
 "
-                         
+                        
 help
 =
 "

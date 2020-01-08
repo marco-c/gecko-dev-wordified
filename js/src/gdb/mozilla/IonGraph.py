@@ -631,6 +631,7 @@ self
 .
 __init__
 (
+            
 "
 iongraph
 -
@@ -940,6 +941,7 @@ self
 .
 __init__
 (
+            
 "
 pngviewer
 -
@@ -1062,6 +1064,7 @@ self
 .
 __init__
 (
+            
 "
 iongraph
 "
@@ -1352,6 +1355,7 @@ JSScript
 )
 '
 %
+                           
 (
 jsonSpewer
 .
@@ -1388,6 +1392,7 @@ gdb
 )
 '
 %
+                           
 (
 jsonSpewer
 .
@@ -1427,6 +1432,7 @@ s
 )
 '
 %
+                           
 (
 jsonSpewer
 .
@@ -1470,6 +1476,7 @@ s
 )
 '
 %
+                           
 (
 jsonSpewer
 .
@@ -1782,6 +1789,7 @@ passnum
 '
 0
 '
+                              
 '
 -
 -

@@ -81,8 +81,11 @@ import
 print_function
 import
 os
+import
 posixpath
+import
 sys
+import
 traceback
 import
 subprocess
@@ -941,7 +944,7 @@ False
 True
 means
 CrashAtUnhandlableOOM
-                                           
+        
 #
 is
 not
@@ -961,7 +964,7 @@ that
 hitting
 recursion
 the
-                                        
+        
 #
 limits
 is
@@ -1013,7 +1016,7 @@ without
 asm
 .
 js
-                                       
+        
 #
 enabled
 .
@@ -1031,7 +1034,7 @@ with
 and
 and
 without
-                                       
+        
 #
 wasm
 baseline
@@ -1454,7 +1457,6 @@ opts
 in
 variants
 ]
-;
         
 #
 For
@@ -2725,7 +2727,6 @@ scriptdir_var
 )
 )
 ]
-;
         
 #
 We

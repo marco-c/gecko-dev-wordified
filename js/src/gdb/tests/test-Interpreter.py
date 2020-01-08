@@ -113,6 +113,7 @@ ptr_
 )
 assert_pretty
 (
+    
 '
 rfptr
 '

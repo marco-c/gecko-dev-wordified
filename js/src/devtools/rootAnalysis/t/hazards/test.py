@@ -318,6 +318,7 @@ cell3
 GCFunction
 in
 (
+    
 '
 void
 halfSuppressedFunction
@@ -422,7 +423,6 @@ not
 in
 hazmap
 )
-;
 assert
 (
 '
@@ -432,7 +432,6 @@ not
 in
 hazmap
 )
-;
 assert
 (
 '
@@ -441,7 +440,6 @@ haz3
 in
 hazmap
 )
-;
 assert
 (
 '
@@ -450,7 +448,6 @@ haz4
 in
 hazmap
 )
-;
 assert
 (
 '
@@ -459,7 +456,6 @@ haz5
 in
 hazmap
 )
-;
 assert
 (
 '
@@ -469,7 +465,6 @@ not
 in
 hazmap
 )
-;
 assert
 (
 '
@@ -479,7 +474,6 @@ not
 in
 hazmap
 )
-;
 assert
 (
 '
@@ -488,4 +482,3 @@ haz8
 in
 hazmap
 )
-;

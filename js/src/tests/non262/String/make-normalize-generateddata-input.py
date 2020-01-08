@@ -79,6 +79,7 @@ import
 print_function
 import
 re
+import
 sys
 sep_pat
 =
@@ -195,6 +196,7 @@ re
 .
 compile
 (
+        
 '
 ^
 (

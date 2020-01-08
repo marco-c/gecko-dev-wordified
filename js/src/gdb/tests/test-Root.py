@@ -191,7 +191,6 @@ Root
 barriers
 '
 )
-;
 assert_pretty
 (
 '
@@ -208,7 +207,6 @@ Object
 ]
 '
 )
-;
 assert_pretty
 (
 '
@@ -225,7 +223,6 @@ Object
 ]
 '
 )
-;
 assert_pretty
 (
 '
@@ -242,7 +239,6 @@ Object
 ]
 '
 )
-;
 assert_pretty
 (
 '
@@ -265,7 +261,6 @@ Object
 )
 '
 )
-;
 assert_pretty
 (
 '
@@ -288,7 +283,6 @@ Object
 )
 '
 )
-;
 assert_pretty
 (
 '
@@ -311,7 +305,6 @@ Object
 )
 '
 )
-;
 assert_pretty
 (
 '
@@ -334,4 +327,3 @@ Object
 )
 '
 )
-;

@@ -65,7 +65,9 @@ scp
 .
 import
 sys
+import
 datetime
+import
 time
 class
 ProgressBar

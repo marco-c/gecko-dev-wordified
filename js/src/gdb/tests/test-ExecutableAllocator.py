@@ -111,6 +111,7 @@ twopools
 )
 assert_regexp_pretty
 (
+    
 '
 execAlloc
 '

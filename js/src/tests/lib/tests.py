@@ -30,8 +30,11 @@ failures
 .
 import
 datetime
+import
 os
+import
 sys
+import
 time
 from
 contextlib
@@ -1231,7 +1234,7 @@ None
 :
 path
 to
-                                            
+        
 #
 reflect
 -
@@ -1241,7 +1244,7 @@ js
 file
 to
 test
-                                            
+        
 #
 instead
 of
@@ -1535,7 +1538,7 @@ self
 .
 options
 \
-              
+            
 +
 RefTestCase
 .

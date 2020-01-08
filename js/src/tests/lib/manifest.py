@@ -22,7 +22,9 @@ import
 print_function
 import
 os
+import
 re
+import
 sys
 from
 subprocess
@@ -1970,7 +1972,7 @@ test_list
                 
 import
 pdb
-;
+                
 pdb
 .
 set_trace
