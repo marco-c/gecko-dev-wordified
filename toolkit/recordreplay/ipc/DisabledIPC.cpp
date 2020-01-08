@@ -237,7 +237,7 @@ MOZ_CRASH
 ;
 }
 void
-MaybeCreateInitialCheckpoint
+CreateCheckpoint
 (
 )
 {

@@ -849,6 +849,14 @@ AreThreadEventsPassedThrough
 ;
 MOZ_RELEASE_ASSERT
 (
+!
+HasDivergedFromRecording
+(
+)
+)
+;
+MOZ_RELEASE_ASSERT
+(
 IsReplaying
 (
 )
