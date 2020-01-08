@@ -628,8 +628,8 @@ toObject
 )
 )
 ;
-JSAutoRealmAllowCCW
-ac
+JSAutoRealm
+ar
 (
 cx
 *
@@ -800,8 +800,8 @@ InitGraphicsSandbox
 AutoSafeJSContext
 cx
 ;
-JSAutoRealmAllowCCW
-ac
+JSAutoRealm
+ar
 (
 cx
 *

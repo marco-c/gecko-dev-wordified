@@ -2288,8 +2288,8 @@ toObject
 )
 )
 ;
-JSAutoRealmAllowCCW
-ac
+JSAutoRealm
+ar
 (
 cx
 *
@@ -2408,8 +2408,8 @@ disallow
 AutoSafeJSContext
 cx
 ;
-JSAutoRealmAllowCCW
-ac
+JSAutoRealm
+ar
 (
 cx
 *
@@ -2603,8 +2603,8 @@ disallow
 AutoSafeJSContext
 cx
 ;
-JSAutoRealmAllowCCW
-ac
+JSAutoRealm
+ar
 (
 cx
 *
@@ -2694,8 +2694,8 @@ disallow
 AutoSafeJSContext
 cx
 ;
-JSAutoRealmAllowCCW
-ac
+JSAutoRealm
+ar
 (
 cx
 *
@@ -2750,8 +2750,8 @@ disallow
 AutoSafeJSContext
 cx
 ;
-JSAutoRealmAllowCCW
-ac
+JSAutoRealm
+ar
 (
 cx
 *
@@ -2813,8 +2813,8 @@ disallow
 AutoSafeJSContext
 cx
 ;
-JSAutoRealmAllowCCW
-ac
+JSAutoRealm
+ar
 (
 cx
 *
