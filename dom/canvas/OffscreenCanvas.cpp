@@ -1802,7 +1802,7 @@ return
 DOMPrefs
 :
 :
-OffscreenCanvasEnabled
+gfx_offscreencanvas_enabled
 (
 aCx
 aObj
