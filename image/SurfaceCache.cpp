@@ -1005,11 +1005,17 @@ aOther
 mCost
 &
 &
+recordreplay
+:
+:
+RecordReplayValue
+(
 mSurface
 <
 aOther
 .
 mSurface
+)
 )
 ;
 }
