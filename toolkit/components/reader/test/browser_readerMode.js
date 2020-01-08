@@ -455,7 +455,9 @@ url
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -583,7 +585,9 @@ image
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -861,7 +865,9 @@ nonReadableUrl
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -918,7 +924,9 @@ removeCurrentTab
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -1016,7 +1024,9 @@ await
 promiseAboutReaderError
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -1112,7 +1122,9 @@ button
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
