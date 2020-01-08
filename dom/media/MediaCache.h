@@ -2816,10 +2816,6 @@ uint32_t
 aLoadID
 nsresult
 aStatus
-bool
-aReopenOnError
-=
-false
 )
 ;
 /
@@ -4396,8 +4392,6 @@ uint32_t
 aLoadID
 nsresult
 aStatus
-bool
-aReopenOnError
 )
 ;
 void

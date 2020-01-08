@@ -15303,8 +15303,6 @@ uint32_t
 aLoadID
 nsresult
 aStatus
-bool
-aReopenOnError
 )
 {
 MOZ_ASSERT
@@ -15583,8 +15581,6 @@ uint32_t
 aLoadID
 nsresult
 aStatus
-bool
-aReopenOnError
 )
 {
 MOZ_ASSERT
@@ -15628,7 +15624,6 @@ client
 this
 aLoadID
 aStatus
-aReopenOnError
 ]
 (
 )
@@ -15637,7 +15632,6 @@ NotifyDataEndedInternal
 (
 aLoadID
 aStatus
-aReopenOnError
 )
 ;
 }
