@@ -2004,6 +2004,13 @@ btn
 gManagerWindow
 )
 ;
+await
+new
+Promise
+(
+executeSoon
+)
+;
 is_element_visible
 (
 get_class_node
@@ -4162,6 +4169,13 @@ btn
 {
 }
 gManagerWindow
+)
+;
+await
+new
+Promise
+(
+executeSoon
 )
 ;
 is_element_hidden
