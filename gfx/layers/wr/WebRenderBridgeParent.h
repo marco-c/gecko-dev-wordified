@@ -1532,7 +1532,7 @@ GetLayersId
 )
 const
 ;
-void
+bool
 ProcessWebRenderParentCommands
 (
 const
