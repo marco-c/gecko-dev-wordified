@@ -12042,7 +12042,7 @@ AsXULDocument
 ;
 nsCOMPtr
 <
-nsINodeList
+nsIHTMLCollection
 >
 possibleDefaultButtons
 =
