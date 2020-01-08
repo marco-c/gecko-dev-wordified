@@ -590,6 +590,8 @@ AutoIdVector
 &
 properties
 bool
+enumerableOnly
+bool
 *
 _retval
 )
