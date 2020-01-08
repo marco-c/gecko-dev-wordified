@@ -306,9 +306,11 @@ instance
 &
 target
 )
+{
 return
 0
 ;
+}
 /
 /
 Instances
@@ -409,6 +411,7 @@ codeBase
 targetTier
 )
 )
+{
 return
 instance
 <
@@ -420,6 +423,7 @@ target
 :
 1
 ;
+}
 return
 target
 .
@@ -541,6 +545,7 @@ debuggerObservesAllExecution
 (
 )
 )
+{
 instance
 .
 ensureEnterFrameTrapsState
@@ -549,6 +554,7 @@ cx
 true
 )
 ;
+}
 {
 if
 (
@@ -566,9 +572,11 @@ length
 1
 )
 )
+{
 return
 false
 ;
+}
 auto
 runtimeInstances
 =
@@ -604,9 +612,11 @@ length
 1
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 To
@@ -769,6 +779,7 @@ cmp
 index
 )
 )
+{
 instances_
 .
 erase
@@ -782,6 +793,7 @@ begin
 index
 )
 ;
+}
 auto
 runtimeInstances
 =
@@ -815,6 +827,7 @@ cmp
 index
 )
 )
+{
 runtimeInstances
 -
 >
@@ -830,6 +843,7 @@ begin
 index
 )
 ;
+}
 }
 void
 wasm
@@ -852,6 +866,7 @@ instance
 :
 instances_
 )
+{
 instance
 -
 >
@@ -860,6 +875,7 @@ ensureProfilingLabels
 profilingEnabled
 )
 ;
+}
 }
 void
 wasm
@@ -929,6 +945,7 @@ get
 (
 )
 )
+{
 instance
 -
 >
@@ -941,6 +958,7 @@ setInterrupt
 (
 )
 ;
+}
 }
 void
 wasm
@@ -982,6 +1000,7 @@ get
 (
 )
 )
+{
 instance
 -
 >
@@ -995,4 +1014,5 @@ resetInterrupt
 cx
 )
 ;
+}
 }
