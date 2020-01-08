@@ -195,6 +195,15 @@ include
 "
 js
 /
+SavedFrameAPI
+.
+h
+"
+#
+include
+"
+js
+/
 StructuredClone
 .
 h

@@ -124,6 +124,15 @@ h
 #
 include
 "
+js
+/
+SavedFrameAPI
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h

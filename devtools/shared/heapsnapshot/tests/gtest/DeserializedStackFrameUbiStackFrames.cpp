@@ -142,6 +142,15 @@ include
 "
 js
 /
+SavedFrameAPI
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h

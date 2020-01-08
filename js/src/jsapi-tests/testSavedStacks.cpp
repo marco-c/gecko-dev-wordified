@@ -136,6 +136,15 @@ h
 #
 include
 "
+js
+/
+SavedFrameAPI
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
