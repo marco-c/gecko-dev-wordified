@@ -85,9 +85,6 @@ COUNT
 other
 :
 COUNT
-domNode
-:
-COUNT
 }
 ;
 const
