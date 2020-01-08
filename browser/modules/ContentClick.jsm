@@ -568,12 +568,6 @@ originAttributes
 userContextId
 ;
 }
-params
-.
-allowInheritPrincipal
-=
-true
-;
 window
 .
 openLinkIn

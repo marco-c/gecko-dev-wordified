@@ -25211,9 +25211,6 @@ createLazyBrowser
 skipAnimation
 :
 true
-allowInheritPrincipal
-:
-true
 noInitialLabel
 :
 true
