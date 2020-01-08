@@ -11521,7 +11521,7 @@ if
 JS
 :
 :
-IsSavedFrame
+IsMaybeWrappedSavedFrame
 (
 &
 stack

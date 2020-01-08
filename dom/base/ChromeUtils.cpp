@@ -4093,7 +4093,7 @@ aStack
 JS
 :
 :
-IsSavedFrame
+IsMaybeWrappedSavedFrame
 (
 aStack
 )
