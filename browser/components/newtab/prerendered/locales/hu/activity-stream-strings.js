@@ -882,9 +882,10 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Hogyan
+m
+k
+dik
 "
 "
 pocket_cta_button

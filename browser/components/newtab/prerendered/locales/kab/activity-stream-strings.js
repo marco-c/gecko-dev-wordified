@@ -778,9 +778,8 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Amek
+iteddu
 "
 "
 pocket_cta_button

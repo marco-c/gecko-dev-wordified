@@ -766,9 +766,9 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Korleis
+det
+fungerar
 "
 "
 pocket_cta_button
