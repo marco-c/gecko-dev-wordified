@@ -13206,13 +13206,13 @@ EndArray
 )
 ;
 }
-}
 aWriter
 .
 EndObject
 (
 )
 ;
+}
 }
 #
 if
