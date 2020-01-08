@@ -167,7 +167,7 @@ simd_test_ssse3
 #
 include
 "
-test
+.
 /
 simd_impl
 .

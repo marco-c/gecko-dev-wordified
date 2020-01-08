@@ -186,7 +186,7 @@ h
 namespace
 {
 class
-BordersTestLarge
+BordersTest
 :
 public
 :
@@ -211,7 +211,7 @@ EncoderTest
 {
 protected
 :
-BordersTestLarge
+BordersTest
 (
 )
 :
@@ -226,7 +226,7 @@ GET_PARAM
 }
 virtual
 ~
-BordersTestLarge
+BordersTest
 (
 )
 {
@@ -353,7 +353,7 @@ AOM_FRAME_IS_KEY
 ;
 TEST_P
 (
-BordersTestLarge
+BordersTest
 TestEncodeHighBitrate
 )
 {
@@ -475,7 +475,7 @@ video
 }
 TEST_P
 (
-BordersTestLarge
+BordersTest
 TestLowBitrate
 )
 {
@@ -585,7 +585,7 @@ video
 }
 AV1_INSTANTIATE_TEST_CASE
 (
-BordersTestLarge
+BordersTest
 :
 :
 testing

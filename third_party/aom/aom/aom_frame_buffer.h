@@ -155,7 +155,7 @@ endif
 #
 include
 "
-aom
+.
 /
 aom_integer
 .

@@ -131,7 +131,7 @@ AVX2
 #
 include
 "
-config
+.
 /
 aom_dsp_rtcd
 .

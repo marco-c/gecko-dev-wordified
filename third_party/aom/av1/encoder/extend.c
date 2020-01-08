@@ -437,6 +437,9 @@ dst_pitch
 ;
 }
 }
+#
+if
+CONFIG_HIGHBITDEPTH
 static
 void
 highbd_copy_and_extend_plane
@@ -749,6 +752,11 @@ dst_pitch
 ;
 }
 }
+#
+endif
+/
+/
+CONFIG_HIGHBITDEPTH
 void
 av1_copy_and_extend_frame
 (
@@ -952,6 +960,9 @@ er_y
 >
 uv_width_subsampling
 ;
+#
+if
+CONFIG_HIGHBITDEPTH
 if
 (
 src
@@ -1061,6 +1072,11 @@ er_uv
 return
 ;
 }
+#
+endif
+/
+/
+CONFIG_HIGHBITDEPTH
 copy_and_extend_plane
 (
 src

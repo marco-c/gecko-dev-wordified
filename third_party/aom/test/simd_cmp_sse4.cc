@@ -167,7 +167,7 @@ simd_test_sse4_1
 #
 include
 "
-test
+.
 /
 simd_cmp_impl
 .

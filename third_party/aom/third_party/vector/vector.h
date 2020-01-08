@@ -327,7 +327,7 @@ Constructor
 *
 /
 int
-aom_vector_setup
+vector_setup
 (
 Vector
 *
@@ -345,7 +345,7 @@ Constructor
 *
 /
 int
-aom_vector_copy
+vector_copy
 (
 Vector
 *
@@ -362,7 +362,7 @@ Assignment
 *
 /
 int
-aom_vector_copy_assign
+vector_copy_assign
 (
 Vector
 *
@@ -379,7 +379,7 @@ Constructor
 *
 /
 int
-aom_vector_move
+vector_move
 (
 Vector
 *
@@ -396,7 +396,7 @@ Assignment
 *
 /
 int
-aom_vector_move_assign
+vector_move_assign
 (
 Vector
 *
@@ -407,7 +407,7 @@ source
 )
 ;
 int
-aom_vector_swap
+vector_swap
 (
 Vector
 *
@@ -423,7 +423,7 @@ Destructor
 *
 /
 int
-aom_vector_destroy
+vector_destroy
 (
 Vector
 *
@@ -436,7 +436,7 @@ Insertion
 *
 /
 int
-aom_vector_push_back
+vector_push_back
 (
 Vector
 *
@@ -447,7 +447,7 @@ element
 )
 ;
 int
-aom_vector_push_front
+vector_push_front
 (
 Vector
 *
@@ -458,7 +458,7 @@ element
 )
 ;
 int
-aom_vector_insert
+vector_insert
 (
 Vector
 *
@@ -471,7 +471,7 @@ element
 )
 ;
 int
-aom_vector_assign
+vector_assign
 (
 Vector
 *
@@ -489,7 +489,7 @@ Deletion
 *
 /
 int
-aom_vector_pop_back
+vector_pop_back
 (
 Vector
 *
@@ -497,7 +497,7 @@ vector
 )
 ;
 int
-aom_vector_pop_front
+vector_pop_front
 (
 Vector
 *
@@ -505,7 +505,7 @@ vector
 )
 ;
 int
-aom_vector_erase
+vector_erase
 (
 Vector
 *
@@ -515,7 +515,7 @@ index
 )
 ;
 int
-aom_vector_clear
+vector_clear
 (
 Vector
 *
@@ -529,7 +529,7 @@ Lookup
 /
 void
 *
-aom_vector_get
+vector_get
 (
 Vector
 *
@@ -541,7 +541,7 @@ index
 const
 void
 *
-aom_vector_const_get
+vector_const_get
 (
 const
 Vector
@@ -553,7 +553,7 @@ index
 ;
 void
 *
-aom_vector_front
+vector_front
 (
 Vector
 *
@@ -562,7 +562,7 @@ vector
 ;
 void
 *
-aom_vector_back
+vector_back
 (
 Vector
 *
@@ -574,7 +574,7 @@ define
 VECTOR_GET_AS
 (
 type
-aom_vector_pointer
+vector_pointer
 index
 )
 \
@@ -584,10 +584,10 @@ index
 type
 *
 )
-aom_vector_get
+vector_get
 (
 (
-aom_vector_pointer
+vector_pointer
 )
 (
 index
@@ -600,7 +600,7 @@ Information
 *
 /
 bool
-aom_vector_is_initialized
+vector_is_initialized
 (
 const
 Vector
@@ -609,7 +609,7 @@ vector
 )
 ;
 size_t
-aom_vector_byte_size
+vector_byte_size
 (
 const
 Vector
@@ -618,7 +618,7 @@ vector
 )
 ;
 size_t
-aom_vector_free_space
+vector_free_space
 (
 const
 Vector
@@ -627,7 +627,7 @@ vector
 )
 ;
 bool
-aom_vector_is_empty
+vector_is_empty
 (
 const
 Vector
@@ -642,7 +642,7 @@ management
 *
 /
 int
-aom_vector_resize
+vector_resize
 (
 Vector
 *
@@ -652,7 +652,7 @@ new_size
 )
 ;
 int
-aom_vector_reserve
+vector_reserve
 (
 Vector
 *
@@ -662,7 +662,7 @@ minimum_capacity
 )
 ;
 int
-aom_vector_shrink_to_fit
+vector_shrink_to_fit
 (
 Vector
 *
@@ -675,7 +675,7 @@ Iterators
 *
 /
 Iterator
-aom_vector_begin
+vector_begin
 (
 Vector
 *
@@ -683,7 +683,7 @@ vector
 )
 ;
 Iterator
-aom_vector_end
+vector_end
 (
 Vector
 *
@@ -691,7 +691,7 @@ vector
 )
 ;
 Iterator
-aom_vector_iterator
+vector_iterator
 (
 Vector
 *
@@ -822,7 +822,7 @@ iterator
 define
 VECTOR_FOR_EACH
 (
-aom_vector_pointer
+vector_pointer
 iterator_name
 )
 \
@@ -833,19 +833,19 @@ Iterator
 iterator_name
 )
 =
-aom_vector_begin
+vector_begin
 (
 (
-aom_vector_pointer
+vector_pointer
 )
 )
 \
 end
 =
-aom_vector_end
+vector_end
 (
 (
-aom_vector_pointer
+vector_pointer
 )
 )
 ;

@@ -127,11 +127,11 @@ AV1_COMMON_CDEF_H_
 #
 define
 CDEF_STRENGTH_BITS
-6
+7
 #
 define
 CDEF_PRI_STRENGTHS
-16
+32
 #
 define
 CDEF_SEC_STRENGTHS
@@ -139,7 +139,7 @@ CDEF_SEC_STRENGTHS
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -310,8 +310,8 @@ mi_col
 cdef_list
 *
 dlist
-BLOCK_SIZE
-bsize
+int
+filter_skip
 )
 ;
 void

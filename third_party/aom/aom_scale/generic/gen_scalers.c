@@ -121,7 +121,7 @@ patent
 #
 include
 "
-config
+.
 /
 aom_scale_rtcd
 .

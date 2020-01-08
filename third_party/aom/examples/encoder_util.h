@@ -136,6 +136,15 @@ EXAMPLES_ENCODER_UTIL_H_
 #
 include
 "
+.
+/
+aom_config
+.
+h
+"
+#
+include
+"
 aom
 /
 aom_image
@@ -186,6 +195,9 @@ loc
 ]
 )
 .
+#
+if
+CONFIG_HIGHBITDEPTH
 void
 aom_find_mismatch_high
 (
@@ -216,6 +228,11 @@ vloc
 ]
 )
 ;
+#
+endif
+/
+/
+CONFIG_HIGHBITDEPTH
 void
 aom_find_mismatch
 (

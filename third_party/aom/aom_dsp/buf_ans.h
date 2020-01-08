@@ -169,7 +169,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -340,9 +340,6 @@ output
 buffer
 after
 closing
-uint8_t
-allow_update_cdf
-;
 }
 ;
 /

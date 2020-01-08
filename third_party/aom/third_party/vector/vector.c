@@ -226,7 +226,7 @@ vector
 h
 "
 int
-aom_vector_setup
+vector_setup
 (
 Vector
 *
@@ -310,7 +310,7 @@ VECTOR_SUCCESS
 ;
 }
 int
-aom_vector_copy
+vector_copy
 (
 Vector
 *
@@ -338,7 +338,7 @@ NULL
 ;
 assert
 (
-aom_vector_is_initialized
+vector_is_initialized
 (
 source
 )
@@ -347,7 +347,7 @@ source
 assert
 (
 !
-aom_vector_is_initialized
+vector_is_initialized
 (
 destination
 )
@@ -375,7 +375,7 @@ VECTOR_ERROR
 ;
 if
 (
-aom_vector_is_initialized
+vector_is_initialized
 (
 destination
 )
@@ -386,7 +386,7 @@ VECTOR_ERROR
 if
 (
 !
-aom_vector_is_initialized
+vector_is_initialized
 (
 source
 )
@@ -489,7 +489,7 @@ source
 -
 >
 data
-aom_vector_byte_size
+vector_byte_size
 (
 source
 )
@@ -500,7 +500,7 @@ VECTOR_SUCCESS
 ;
 }
 int
-aom_vector_copy_assign
+vector_copy_assign
 (
 Vector
 *
@@ -528,7 +528,7 @@ NULL
 ;
 assert
 (
-aom_vector_is_initialized
+vector_is_initialized
 (
 source
 )
@@ -536,7 +536,7 @@ source
 ;
 assert
 (
-aom_vector_is_initialized
+vector_is_initialized
 (
 destination
 )
@@ -565,7 +565,7 @@ VECTOR_ERROR
 if
 (
 !
-aom_vector_is_initialized
+vector_is_initialized
 (
 destination
 )
@@ -576,7 +576,7 @@ VECTOR_ERROR
 if
 (
 !
-aom_vector_is_initialized
+vector_is_initialized
 (
 source
 )
@@ -584,13 +584,13 @@ source
 return
 VECTOR_ERROR
 ;
-aom_vector_destroy
+vector_destroy
 (
 destination
 )
 ;
 return
-aom_vector_copy
+vector_copy
 (
 destination
 source
@@ -598,7 +598,7 @@ source
 ;
 }
 int
-aom_vector_move
+vector_move
 (
 Vector
 *
@@ -662,7 +662,7 @@ VECTOR_SUCCESS
 ;
 }
 int
-aom_vector_move_assign
+vector_move_assign
 (
 Vector
 *
@@ -672,21 +672,21 @@ Vector
 source
 )
 {
-aom_vector_swap
+vector_swap
 (
 destination
 source
 )
 ;
 return
-aom_vector_destroy
+vector_destroy
 (
 source
 )
 ;
 }
 int
-aom_vector_swap
+vector_swap
 (
 Vector
 *
@@ -718,7 +718,7 @@ NULL
 ;
 assert
 (
-aom_vector_is_initialized
+vector_is_initialized
 (
 source
 )
@@ -726,7 +726,7 @@ source
 ;
 assert
 (
-aom_vector_is_initialized
+vector_is_initialized
 (
 destination
 )
@@ -755,7 +755,7 @@ VECTOR_ERROR
 if
 (
 !
-aom_vector_is_initialized
+vector_is_initialized
 (
 destination
 )
@@ -766,7 +766,7 @@ VECTOR_ERROR
 if
 (
 !
-aom_vector_is_initialized
+vector_is_initialized
 (
 source
 )
@@ -845,7 +845,7 @@ VECTOR_SUCCESS
 ;
 }
 int
-aom_vector_destroy
+vector_destroy
 (
 Vector
 *
@@ -895,7 +895,7 @@ Insertion
 *
 /
 int
-aom_vector_push_back
+vector_push_back
 (
 Vector
 *
@@ -967,7 +967,7 @@ VECTOR_SUCCESS
 ;
 }
 int
-aom_vector_push_front
+vector_push_front
 (
 Vector
 *
@@ -978,7 +978,7 @@ element
 )
 {
 return
-aom_vector_insert
+vector_insert
 (
 vector
 0
@@ -987,7 +987,7 @@ element
 ;
 }
 int
-aom_vector_insert
+vector_insert
 (
 Vector
 *
@@ -1162,7 +1162,7 @@ VECTOR_SUCCESS
 ;
 }
 int
-aom_vector_assign
+vector_assign
 (
 Vector
 *
@@ -1263,7 +1263,7 @@ Deletion
 *
 /
 int
-aom_vector_pop_back
+vector_pop_back
 (
 Vector
 *
@@ -1342,7 +1342,7 @@ VECTOR_SUCCESS
 ;
 }
 int
-aom_vector_pop_front
+vector_pop_front
 (
 Vector
 *
@@ -1350,7 +1350,7 @@ vector
 )
 {
 return
-aom_vector_erase
+vector_erase
 (
 vector
 0
@@ -1358,7 +1358,7 @@ vector
 ;
 }
 int
-aom_vector_erase
+vector_erase
 (
 Vector
 *
@@ -1467,7 +1467,7 @@ VECTOR_SUCCESS
 ;
 }
 int
-aom_vector_clear
+vector_clear
 (
 Vector
 *
@@ -1475,7 +1475,7 @@ vector
 )
 {
 return
-aom_vector_resize
+vector_resize
 (
 vector
 0
@@ -1489,7 +1489,7 @@ Lookup
 /
 void
 *
-aom_vector_get
+vector_get
 (
 Vector
 *
@@ -1563,7 +1563,7 @@ index
 const
 void
 *
-aom_vector_const_get
+vector_const_get
 (
 const
 Vector
@@ -1637,7 +1637,7 @@ index
 }
 void
 *
-aom_vector_front
+vector_front
 (
 Vector
 *
@@ -1645,7 +1645,7 @@ vector
 )
 {
 return
-aom_vector_get
+vector_get
 (
 vector
 0
@@ -1654,7 +1654,7 @@ vector
 }
 void
 *
-aom_vector_back
+vector_back
 (
 Vector
 *
@@ -1662,7 +1662,7 @@ vector
 )
 {
 return
-aom_vector_get
+vector_get
 (
 vector
 vector
@@ -1680,7 +1680,7 @@ Information
 *
 /
 bool
-aom_vector_is_initialized
+vector_is_initialized
 (
 const
 Vector
@@ -1699,7 +1699,7 @@ NULL
 ;
 }
 size_t
-aom_vector_byte_size
+vector_byte_size
 (
 const
 Vector
@@ -1720,7 +1720,7 @@ element_size
 ;
 }
 size_t
-aom_vector_free_space
+vector_free_space
 (
 const
 Vector
@@ -1741,7 +1741,7 @@ size
 ;
 }
 bool
-aom_vector_is_empty
+vector_is_empty
 (
 const
 Vector
@@ -1766,7 +1766,7 @@ management
 *
 /
 int
-aom_vector_resize
+vector_resize
 (
 Vector
 *
@@ -1858,7 +1858,7 @@ VECTOR_SUCCESS
 ;
 }
 int
-aom_vector_reserve
+vector_reserve
 (
 Vector
 *
@@ -1899,7 +1899,7 @@ VECTOR_SUCCESS
 ;
 }
 int
-aom_vector_shrink_to_fit
+vector_shrink_to_fit
 (
 Vector
 *
@@ -1923,7 +1923,7 @@ Iterators
 *
 /
 Iterator
-aom_vector_begin
+vector_begin
 (
 Vector
 *
@@ -1931,7 +1931,7 @@ vector
 )
 {
 return
-aom_vector_iterator
+vector_iterator
 (
 vector
 0
@@ -1939,7 +1939,7 @@ vector
 ;
 }
 Iterator
-aom_vector_end
+vector_end
 (
 Vector
 *
@@ -1947,7 +1947,7 @@ vector
 )
 {
 return
-aom_vector_iterator
+vector_iterator
 (
 vector
 vector
@@ -1958,7 +1958,7 @@ size
 ;
 }
 Iterator
-aom_vector_iterator
+vector_iterator
 (
 Vector
 *
@@ -2090,7 +2090,7 @@ iterator
 ;
 if
 (
-aom_vector_erase
+vector_erase
 (
 vector
 index
@@ -2107,7 +2107,7 @@ VECTOR_ERROR
 *
 iterator
 =
-aom_vector_iterator
+vector_iterator
 (
 vector
 index
@@ -2554,7 +2554,7 @@ vector
 )
 {
 return
-aom_vector_free_space
+vector_free_space
 (
 vector
 )
@@ -3126,7 +3126,7 @@ vector
 data
 new_capacity_in_bytes
 old
-aom_vector_byte_size
+vector_byte_size
 (
 vector
 )
@@ -3157,7 +3157,7 @@ vector
 >
 data
 old
-aom_vector_byte_size
+vector_byte_size
 (
 vector
 )

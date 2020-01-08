@@ -149,7 +149,7 @@ endif
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -158,7 +158,7 @@ h
 #
 include
 "
-aom_dsp
+.
 /
 aom_simd_inline
 .

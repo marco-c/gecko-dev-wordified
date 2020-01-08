@@ -818,8 +818,6 @@ raw
 #
 include
 "
-config
-/
 aom_config
 .
 h

@@ -142,7 +142,7 @@ h
 #
 include
 "
-config
+.
 /
 av1_rtcd
 .

@@ -127,8 +127,6 @@ AOM_PORTS_AOM_ONCE_H_
 #
 include
 "
-config
-/
 aom_config
 .
 h

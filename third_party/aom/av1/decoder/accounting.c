@@ -158,9 +158,7 @@ h
 #
 include
 "
-av1
-/
-decoder
+.
 /
 accounting
 .
@@ -269,7 +267,7 @@ str
 int
 hash
 ;
-size_t
+int
 len
 ;
 AccountingDictionary

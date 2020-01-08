@@ -139,7 +139,7 @@ simd_test_avx2
 #
 include
 "
-test
+.
 /
 simd_impl
 .

@@ -2789,9 +2789,8 @@ src
 ;
 }
 }
-static
 void
-mb_lpf_horizontal_edge_dual
+aom_lpf_horizontal_16_dual_msa
 (
 uint8_t
 *
@@ -4600,7 +4599,7 @@ src
 }
 else
 {
-mb_lpf_horizontal_edge_dual
+aom_lpf_horizontal_16_dual_msa
 (
 src
 pitch
@@ -4613,7 +4612,7 @@ count
 }
 }
 void
-aom_lpf_horizontal_16_msa
+aom_lpf_horizontal_edge_8_msa
 (
 uint8_t
 *
@@ -4646,7 +4645,7 @@ thresh_ptr
 ;
 }
 void
-aom_lpf_horizontal_16_dual_msa
+aom_lpf_horizontal_edge_16_msa
 (
 uint8_t
 *

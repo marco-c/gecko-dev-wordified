@@ -182,15 +182,6 @@ bitops
 h
 "
 #
-include
-"
-config
-/
-aom_config
-.
-h
-"
-#
 ifdef
 __cplusplus
 extern
@@ -404,10 +395,6 @@ expr
 define
 AOM_FRAME_MARKER
 0x2
-#
-define
-AV1_MIN_TILE_SIZE_BYTES
-1
 #
 ifdef
 __cplusplus

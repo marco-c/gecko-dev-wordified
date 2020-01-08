@@ -140,9 +140,7 @@ _sse2
 #
 include
 "
-av1
-/
-common
+.
 /
 cdef_block_simd
 .

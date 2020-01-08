@@ -611,6 +611,8 @@ bw_buffer
 bw
 .
 pos
+NULL
+NULL
 )
 ;
 bit_rnd
@@ -730,7 +732,7 @@ define
 FRAC_DIFF_TOTAL_ERROR
 0
 .
-18
+16
 TEST
 (
 AV1
@@ -847,6 +849,8 @@ bw_buffer
 bw
 .
 pos
+NULL
+NULL
 )
 ;
 uint32_t
