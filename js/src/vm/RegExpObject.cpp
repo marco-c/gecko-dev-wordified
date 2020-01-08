@@ -7637,7 +7637,7 @@ slot
 )
 =
 =
-0
+MatchResultObjectIndexSlot
 &
 &
 shape
@@ -7676,7 +7676,7 @@ slot
 )
 =
 =
-1
+MatchResultObjectInputSlot
 &
 &
 shape
