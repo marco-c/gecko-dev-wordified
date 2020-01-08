@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-mozillla
+mozilla
 /
 MappedDeclarations
 .
