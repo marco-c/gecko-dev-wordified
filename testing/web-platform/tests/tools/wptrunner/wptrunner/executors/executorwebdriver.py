@@ -46,6 +46,8 @@ ClickProtocolPart
                        
 SendKeysProtocolPart
                        
+ActionSequenceProtocolPart
+                       
 TestDriverProtocolPart
 )
 from
@@ -975,6 +977,48 @@ keys
 }
 )
 class
+WebDriverActionSequenceProtocolPart
+(
+ActionSequenceProtocolPart
+)
+:
+    
+def
+setup
+(
+self
+)
+:
+        
+self
+.
+webdriver
+=
+self
+.
+parent
+.
+webdriver
+    
+def
+send_actions
+(
+self
+actions
+)
+:
+        
+self
+.
+webdriver
+.
+actions
+.
+perform
+(
+actions
+)
+class
 WebDriverTestDriverProtocolPart
 (
 TestDriverProtocolPart
@@ -1102,6 +1146,8 @@ WebDriverSelectorProtocolPart
 WebDriverClickProtocolPart
                   
 WebDriverSendKeysProtocolPart
+                  
+WebDriverActionSequenceProtocolPart
                   
 WebDriverTestDriverProtocolPart
 ]
