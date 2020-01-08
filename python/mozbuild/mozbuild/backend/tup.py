@@ -5540,28 +5540,6 @@ PYTHONDONTWRITEBYTECODE
         
 }
         
-cargo_incremental
-=
-self
-.
-environment
-.
-substs
-.
-get
-(
-'
-CARGO_INCREMENTAL
-'
-)
-        
-if
-cargo_incremental
-is
-not
-None
-:
-            
 #
 TODO
 (
@@ -5574,7 +5552,7 @@ produces
 outputs
 that
 Tup
-            
+        
 #
 doesn
 '
@@ -5587,9 +5565,7 @@ unconditionally
 for
 now
 .
-            
-pass
-#
+        
 env
 [
 '
@@ -5597,7 +5573,9 @@ CARGO_INCREMENTAL
 '
 ]
 =
-cargo_incremental
+'
+0
+'
         
 rust_simd
 =
