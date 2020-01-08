@@ -1369,6 +1369,17 @@ this
 fallbackWebNav
 )
 {
+const
+systemPrincipal
+=
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
 /
 /
 Explicitly
@@ -1411,6 +1422,7 @@ blank
 null
 null
 null
+systemPrincipal
 )
 ;
 this

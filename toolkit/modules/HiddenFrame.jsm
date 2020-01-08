@@ -650,10 +650,9 @@ _browser
 .
 docShell
 ;
-docShell
-.
-createAboutBlankContentViewer
-(
+let
+systemPrincipal
+=
 Services
 .
 scriptSecurityManager
@@ -661,6 +660,12 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
+;
+docShell
+.
+createAboutBlankContentViewer
+(
+systemPrincipal
 )
 ;
 docShell
@@ -680,6 +685,7 @@ XUL_PAGE
 null
 null
 null
+systemPrincipal
 )
 ;
 }
