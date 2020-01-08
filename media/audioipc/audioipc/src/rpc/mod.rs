@@ -46,10 +46,10 @@ std
 io
 ;
 mod
-driver
+client
 ;
 mod
-client
+driver
 ;
 mod
 server
