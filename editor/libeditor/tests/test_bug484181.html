@@ -260,13 +260,6 @@ getEditor
 )
 {
 var
-Ci
-=
-SpecialPowers
-.
-Ci
-;
-var
 win
 =
 window
@@ -379,6 +372,11 @@ focus
 (
 )
 ;
+const
+{
+onSpellCheck
+}
+=
 SpecialPowers
 .
 Cu
@@ -398,7 +396,7 @@ AsyncSpellCheckTestHelper
 .
 jsm
 "
-window
+null
 )
 ;
 onSpellCheck

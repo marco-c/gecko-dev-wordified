@@ -274,7 +274,9 @@ KEY_ArrowLeft
 "
 )
 ;
-setTimeout
+SimpleTest
+.
+executeSoon
 (
 function
 (
@@ -287,7 +289,9 @@ KEY_Backspace
 "
 )
 ;
-setTimeout
+SimpleTest
+.
+executeSoon
 (
 function
 (
@@ -381,11 +385,9 @@ finish
 )
 ;
 }
-0
 )
 ;
 }
-0
 )
 ;
 }
@@ -399,13 +401,6 @@ getEditor
 (
 )
 {
-var
-Ci
-=
-SpecialPowers
-.
-Ci
-;
 var
 editingSession
 =
