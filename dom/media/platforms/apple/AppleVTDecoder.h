@@ -201,6 +201,11 @@ layers
 ImageContainer
 *
 aImageContainer
+CreateDecoderParams
+:
+:
+OptionSet
+aOptions
 )
 ;
 class

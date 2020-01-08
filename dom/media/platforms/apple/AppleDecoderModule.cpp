@@ -455,6 +455,9 @@ mTaskQueue
 aParams
 .
 mImageContainer
+aParams
+.
+mOptions
 )
 ;
 return
