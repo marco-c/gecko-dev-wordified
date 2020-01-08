@@ -15,7 +15,7 @@ ena
 unify
 :
 :
-InPlaceUnificationTable
+UnificationTable
 ;
 use
 lr1
@@ -318,7 +318,7 @@ unify
 '
 m
 mut
-InPlaceUnificationTable
+UnificationTable
 <
 StateSet
 >
@@ -1532,7 +1532,7 @@ unify
 '
 m
 mut
-InPlaceUnificationTable
+UnificationTable
 <
 StateSet
 >

@@ -124,10 +124,6 @@ extern
 crate
 unicode_xid
 ;
-extern
-crate
-sha2
-;
 #
 [
 cfg

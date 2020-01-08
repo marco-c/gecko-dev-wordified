@@ -269,14 +269,6 @@ UnifyValue
 for
 ContextSet
 {
-type
-Error
-=
-(
-Self
-Self
-)
-;
 fn
 unify_values
 (
