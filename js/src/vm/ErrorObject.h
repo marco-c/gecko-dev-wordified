@@ -630,9 +630,11 @@ isUndefined
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 static_cast
 <

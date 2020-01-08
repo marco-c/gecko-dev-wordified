@@ -5072,6 +5072,7 @@ hasAnyEnvironmentObject
 (
 )
 )
+{
 env_
 =
 &
@@ -5089,6 +5090,7 @@ enclosingEnvironment
 (
 )
 ;
+}
 incrementScopeIter
 (
 )
@@ -5230,6 +5232,7 @@ if
 (
 si_
 )
+{
 return
 si_
 .
@@ -5237,6 +5240,7 @@ scope
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -7209,9 +7213,11 @@ EnvironmentObject
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 env
@@ -7224,6 +7230,7 @@ WithEnvironmentObject
 (
 )
 )
+{
 return
 env
 -
@@ -7239,6 +7246,7 @@ isSyntactic
 (
 )
 ;
+}
 if
 (
 env
@@ -7251,6 +7259,7 @@ LexicalEnvironmentObject
 (
 )
 )
+{
 return
 env
 -
@@ -7266,6 +7275,7 @@ isSyntactic
 (
 )
 ;
+}
 if
 (
 env
@@ -7278,9 +7288,11 @@ NonSyntacticVariablesObject
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -7422,6 +7434,7 @@ WithEnvironmentObject
 (
 )
 )
+{
 return
 &
 env
@@ -7438,6 +7451,7 @@ object
 (
 )
 ;
+}
 return
 env
 ;
@@ -7601,9 +7615,11 @@ CallObject
 :
 value
 )
+{
 return
 true
 ;
+}
 /
 /
 For

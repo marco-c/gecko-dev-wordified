@@ -436,6 +436,7 @@ isSingleton
 (
 )
 )
+{
 AddTypePropertyId
 (
 cx
@@ -444,6 +445,7 @@ id
 v
 )
 ;
+}
 }
 }
 /
@@ -475,6 +477,7 @@ EnvironmentObject
 (
 )
 )
+{
 return
 &
 as
@@ -491,6 +494,7 @@ enclosingEnvironment
 (
 )
 ;
+}
 if
 (
 is
@@ -503,6 +507,7 @@ DebugEnvironmentProxy
 (
 )
 )
+{
 return
 &
 as
@@ -519,6 +524,7 @@ enclosingEnvironment
 (
 )
 ;
+}
 if
 (
 is
@@ -531,9 +537,11 @@ GlobalObject
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT_IF
 (
 is
