@@ -9528,6 +9528,10 @@ rrset1
 -
 >
 mHostName
+.
+get
+(
+)
 )
 )
 ;
@@ -10152,6 +10156,10 @@ newRRSet
 -
 >
 mHostName
+.
+get
+(
+)
 NS_SUCCEEDED
 (
 status
