@@ -11656,6 +11656,7 @@ void
 *
 closure
 )
+const
 ;
 nsCString
 ToString
@@ -15279,6 +15280,7 @@ void
 *
 closure
 )
+const
 {
 mImpl
 .

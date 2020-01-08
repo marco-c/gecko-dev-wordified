@@ -163,17 +163,6 @@ mozilla
 /
 layers
 /
-BufferEdgePad
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 CompositorBridgeChild
 .
 h
