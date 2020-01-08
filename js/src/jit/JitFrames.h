@@ -133,15 +133,6 @@ h
 #
 include
 "
-jit
-/
-Safepoints
-.
-h
-"
-#
-include
-"
 vm
 /
 JSContext
@@ -179,6 +170,9 @@ CalleeToken_Script
 =
 0x2
 }
+;
+struct
+SafepointSlotEntry
 ;
 static
 const
