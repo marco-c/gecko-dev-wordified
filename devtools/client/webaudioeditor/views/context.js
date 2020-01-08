@@ -1651,7 +1651,7 @@ attr
 markerUnits
 "
 "
-strokewidth
+strokeWidth
 "
 )
 .
