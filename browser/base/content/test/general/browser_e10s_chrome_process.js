@@ -137,6 +137,8 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+startURL
 )
 ;
 is
@@ -182,6 +184,8 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+endURL
 )
 ;
 let
