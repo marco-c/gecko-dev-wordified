@@ -18023,10 +18023,6 @@ mozilla
 :
 MallocSizeOf
 mallocSizeOf
-const
-AutoAccessAtomsZone
-&
-access
 )
 const
 {

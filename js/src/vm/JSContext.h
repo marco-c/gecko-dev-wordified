@@ -1853,13 +1853,6 @@ SymbolRegistry
 &
 symbolRegistry
 (
-const
-js
-:
-:
-AutoAccessAtomsZone
-&
-access
 )
 {
 return
@@ -1868,7 +1861,6 @@ runtime_
 >
 symbolRegistry
 (
-access
 )
 ;
 }

@@ -1909,6 +1909,7 @@ sizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 rtSizes
 -
 >
@@ -1924,10 +1925,8 @@ marker
 sizeOfExcludingThis
 (
 mallocSizeOf
-lock
 )
 ;
-}
 if
 (
 !

@@ -33549,7 +33549,7 @@ table
 runtime
 -
 >
-unsafeSymbolRegistry
+symbolRegistry
 (
 )
 .
