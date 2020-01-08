@@ -155,6 +155,13 @@ class
 MediaEngineSource
 ;
 enum
+MediaSinkEnum
+{
+Speaker
+Other
+}
+;
+enum
 {
 kVideoTrack
 =
