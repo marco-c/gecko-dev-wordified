@@ -247,6 +247,15 @@ eYes
 eNo
 }
 ;
+enum
+class
+Composed
+{
+eYes
+eNo
+eDefault
+}
+;
 /
 *
 *
