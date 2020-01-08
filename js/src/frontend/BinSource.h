@@ -526,6 +526,9 @@ TraceBinParser
 JSTracer
 *
 trc
+JS
+:
+:
 AutoGCRooter
 *
 parser
@@ -1858,6 +1861,9 @@ private
 /
 Implement
 ErrorReporter
+mozilla
+:
+:
 Maybe
 <
 Tokenizer

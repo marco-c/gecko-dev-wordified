@@ -155,10 +155,6 @@ js
 :
 jit
 ;
-using
-namespace
-mozilla
-;
 typedef
 js
 :

@@ -221,6 +221,15 @@ h
 #
 include
 "
+js
+/
+Result
+.
+h
+"
+#
+include
+"
 vm
 /
 RegExpObject
@@ -623,10 +632,6 @@ subscope
 like
 bindings
 .
-using
-namespace
-mozilla
-;
 namespace
 js
 {
@@ -921,6 +926,9 @@ parseProgram
 )
 )
 ;
+mozilla
+:
+:
 Maybe
 <
 GlobalScope
@@ -3576,6 +3584,9 @@ TraceBinParser
 JSTracer
 *
 trc
+JS
+:
+:
 AutoGCRooter
 *
 parser
