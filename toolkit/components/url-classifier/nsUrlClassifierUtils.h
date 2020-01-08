@@ -65,13 +65,6 @@ nsUrlClassifierUtils_h_
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIUrlClassifierUtils
 .
 h

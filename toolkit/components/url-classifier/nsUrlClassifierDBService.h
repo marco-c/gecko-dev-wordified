@@ -1490,7 +1490,10 @@ the
 update
 chunks
 .
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 ProtocolParser
 >
