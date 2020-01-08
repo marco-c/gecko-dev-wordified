@@ -167,14 +167,7 @@ include
 "
 mozilla
 /
-Observer
-.
-h
-"
-#
-include
-"
-Types
+HalWakeLockInformation
 .
 h
 "
@@ -216,6 +209,9 @@ PowerManagerService
 public
 nsIPowerManagerService
 public
+hal
+:
+:
 WakeLockObserver
 {
 public
