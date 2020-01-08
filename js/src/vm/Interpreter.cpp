@@ -573,6 +573,17 @@ include
 "
 vm
 /
+ObjectOperations
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Probes
 -
 inl
