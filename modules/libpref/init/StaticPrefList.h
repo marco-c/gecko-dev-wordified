@@ -6715,13 +6715,11 @@ VARCACHE_PREF
 "
 privacy
 .
-trackingprotection
-.
-storagerestriction
+restrict3rdpartystorage
 .
 enabled
 "
-privacy_trackingprotection_storagerestriction_enabled
+privacy_restrict3rdpartystorage_enabled
 RelaxedAtomicBool
 false
 )
