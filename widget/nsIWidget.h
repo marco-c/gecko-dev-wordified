@@ -11540,6 +11540,8 @@ NativeIMEContext
 GetNativeIMEContext
 (
 )
+=
+0
 ;
 /
 *

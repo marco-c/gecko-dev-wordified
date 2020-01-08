@@ -2001,6 +2001,13 @@ aListener
 )
 override
 ;
+virtual
+NativeIMEContext
+GetNativeIMEContext
+(
+)
+override
+;
 TextEventDispatcher
 *
 GetTextEventDispatcher
