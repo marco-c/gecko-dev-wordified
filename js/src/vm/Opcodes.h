@@ -4099,7 +4099,7 @@ val
 '
 pushes
 '
-obj
+val
 '
 onto
 the
@@ -4189,7 +4189,7 @@ val
 '
 pushes
 '
-obj
+val
 '
 onto
 the
@@ -9555,8 +9555,8 @@ Operands
 *
 Stack
 :
-propval
 receiver
+propval
 obj
 =
 >
@@ -12257,8 +12257,8 @@ Operands
 *
 Stack
 :
-propval
 receiver
+propval
 obj
 val
 =
@@ -12326,8 +12326,8 @@ Operands
 *
 Stack
 :
-propval
 receiver
+propval
 obj
 val
 =

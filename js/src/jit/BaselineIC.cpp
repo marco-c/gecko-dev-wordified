@@ -4612,9 +4612,9 @@ stub_
 HandleValue
 lhs
 HandleValue
-receiver
-HandleValue
 rhs
+HandleValue
+receiver
 MutableHandleValue
 res
 )
@@ -5271,10 +5271,10 @@ hasReceiver_
 /
 State
 :
-index
+receiver
 in
 R0
-receiver
+index
 in
 R1
 obj
@@ -5298,8 +5298,8 @@ decompiler
 We
 need
 :
-index
 receiver
+index
 obj
 masm
 .
@@ -5349,7 +5349,7 @@ R0
 ;
 /
 /
-Index
+Receiver
 masm
 .
 pushValue
@@ -5359,7 +5359,7 @@ R1
 ;
 /
 /
-Reciver
+Index
 masm
 .
 pushValue

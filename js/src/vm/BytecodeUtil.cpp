@@ -11154,7 +11154,7 @@ decompilePCForStackOperand
 (
 pc
 -
-3
+2
 )
 &
 &
