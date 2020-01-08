@@ -976,6 +976,12 @@ theme
 *
 /
 .
+devtools
+-
+autocomplete
+-
+popup
+.
 tooltip
 -
 panel
@@ -3734,6 +3740,10 @@ popup
 position
 :
 absolute
+;
+left
+:
+0
 ;
 top
 :
