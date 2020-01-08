@@ -1808,6 +1808,13 @@ return
 mUseH2Deps
 ;
 }
+void
+SetCleanShutdown
+(
+bool
+)
+override
+;
 /
 /
 overload

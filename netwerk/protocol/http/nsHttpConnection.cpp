@@ -11842,6 +11842,14 @@ for
 canreuse
 (
 )
+mSpdySession
+-
+>
+SetCleanShutdown
+(
+aIsShutdown
+)
+;
 mUsingSpdyVersion
 =
 SpdyVersion
