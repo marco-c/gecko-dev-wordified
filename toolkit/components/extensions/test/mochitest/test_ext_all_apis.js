@@ -594,11 +594,6 @@ types
 .
 SettingScope
 "
-"
-userScripts
-.
-register
-"
 ]
 ;
 function
