@@ -474,9 +474,9 @@ correct
 level
 '
 :
-"
-warning
-"
+'
+error
+'
                
 '
 lineno
