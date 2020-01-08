@@ -1839,6 +1839,12 @@ Height
 )
 ;
 }
+result
+.
+mAsyncTask
+=
+nullptr
+;
 Clear
 (
 )
@@ -1871,6 +1877,12 @@ back
 buffer
 .
 "
+;
+result
+.
+mAsyncTask
+=
+nullptr
 ;
 Clear
 (
@@ -2181,9 +2193,6 @@ if
 aPaintState
 .
 mAsyncTask
-&
-&
-mBuffer
 )
 {
 aPaintState
