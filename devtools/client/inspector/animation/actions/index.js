@@ -128,6 +128,15 @@ UPDATE_HIGHLIGHTED_NODE
 /
 /
 Update
+playback
+rate
+.
+"
+UPDATE_PLAYBACK_RATES
+"
+/
+/
+Update
 selected
 animation
 .
