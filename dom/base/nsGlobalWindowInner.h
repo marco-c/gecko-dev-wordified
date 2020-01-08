@@ -7409,12 +7409,6 @@ FreeInnerObjects
 (
 )
 ;
-nsGlobalWindowInner
-*
-CallerInnerWindow
-(
-)
-;
 /
 /
 Only
