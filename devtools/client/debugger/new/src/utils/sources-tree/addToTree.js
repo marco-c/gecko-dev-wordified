@@ -615,7 +615,13 @@ throw
 new
 Error
 (
-wtf
+Unexpected
+type
+"
+source
+"
+at
+:
 {
 node
 .
