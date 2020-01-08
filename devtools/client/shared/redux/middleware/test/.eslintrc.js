@@ -73,6 +73,11 @@ do_print
 "
 :
 true
+"
+waitUntilState
+"
+:
+true
 }
 "
 rules
