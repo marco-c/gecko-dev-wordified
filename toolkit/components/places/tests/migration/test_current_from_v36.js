@@ -340,6 +340,13 @@ url
 FROM
 moz_favicons
 )
+/
+no
+such
+table
+:
+moz_favicons
+/
 "
 The
 moz_favicons

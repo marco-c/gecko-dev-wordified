@@ -238,6 +238,9 @@ throws
 getInterval
 (
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 /
