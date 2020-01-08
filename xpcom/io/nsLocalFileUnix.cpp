@@ -916,6 +916,16 @@ return
 rv
 ;
 }
+if
+(
+!
+file
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 file
 .
 forget

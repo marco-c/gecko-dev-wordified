@@ -4641,6 +4641,16 @@ return
 rv
 ;
 }
+if
+(
+!
+hasMore
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 mNext
 .
 forget
@@ -20617,7 +20627,7 @@ aNext
 nullptr
 ;
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
 }
 nsAString

@@ -1414,9 +1414,12 @@ FindNext
 (
 )
 ;
-}
 return
 NS_OK
+;
+}
+return
+NS_ERROR_FAILURE
 ;
 }
 nsWatcherWindowEntry
