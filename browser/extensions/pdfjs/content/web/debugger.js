@@ -1949,7 +1949,7 @@ args
 :
 args
 .
-substr
+substring
 (
 0
 MAX_STRING_LENGTH
