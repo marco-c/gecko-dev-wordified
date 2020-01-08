@@ -1581,6 +1581,15 @@ nativeCrashReportingEnabled
 true
 )
 .
+crashReportingJobId
+(
+JobIdsConstants
+.
+getIdForCrashReporter
+(
+)
+)
+.
 arguments
 (
 getDefaultGeckoArgs

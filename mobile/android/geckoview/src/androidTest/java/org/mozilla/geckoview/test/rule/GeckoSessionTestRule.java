@@ -8420,6 +8420,11 @@ javaCrashReportingEnabled
 (
 true
 )
+.
+crashReportingJobId
+(
+1024
+)
 ;
 }
 sRuntime
