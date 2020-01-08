@@ -121,10 +121,6 @@ ini
 '
     
 '
-searchplugins
-'
-    
-'
 dictionaries
 '
     
@@ -177,19 +173,6 @@ langpack
 -
 *
 *
-'
-    
-'
-chrome
-/
-*
-*
-/
-searchplugins
-/
-*
-.
-xml
 '
     
 '
