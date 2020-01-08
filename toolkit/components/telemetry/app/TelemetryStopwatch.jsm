@@ -2393,13 +2393,15 @@ tests
 setTestModeEnabled
 (
 testing
+=
+true
 )
 {
 TelemetryStopwatchImpl
 .
 suppressErrors
 (
-true
+testing
 )
 ;
 }
