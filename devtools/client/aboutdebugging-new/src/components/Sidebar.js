@@ -159,7 +159,7 @@ runtime
 )
 ;
 const
-RuntimeItem
+SidebarItem
 =
 createFactory
 (
@@ -168,9 +168,7 @@ require
 "
 .
 /
-runtime
-/
-RuntimeItem
+SidebarItem
 "
 )
 )
@@ -241,7 +239,7 @@ ul
 (
 {
 }
-RuntimeItem
+SidebarItem
 (
 {
 icon

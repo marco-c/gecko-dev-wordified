@@ -57,7 +57,7 @@ MPL
 *
 /
 .
-runtime
+sidebar
 -
 item
 {
@@ -87,7 +87,7 @@ start
 ;
 }
 .
-runtime
+sidebar
 -
 item__icon
 {
@@ -97,7 +97,7 @@ var
 (
 -
 -
-runtime
+sidebar
 -
 item
 -
@@ -133,7 +133,7 @@ fill
 ;
 }
 .
-runtime
+sidebar
 -
 item
 -
@@ -146,7 +146,7 @@ var
 (
 -
 -
-runtime
+sidebar
 -
 item
 -
@@ -157,7 +157,7 @@ color
 ;
 }
 .
-runtime
+sidebar
 -
 item__icon
 -
@@ -170,7 +170,7 @@ var
 (
 -
 -
-runtime
+sidebar
 -
 item
 -
