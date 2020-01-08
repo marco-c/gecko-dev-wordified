@@ -297,13 +297,6 @@ wbp
 =
 win
 .
-QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-.
 getInterface
 (
 Ci
@@ -2506,13 +2499,6 @@ let
 print
 =
 contentWindow
-.
-QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
 .
 getInterface
 (

@@ -17238,13 +17238,6 @@ _webBrowserPrint
 =
 win
 .
-QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-.
 getInterface
 (
 Ci
