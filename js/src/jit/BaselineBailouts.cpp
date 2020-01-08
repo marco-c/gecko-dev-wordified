@@ -10252,7 +10252,7 @@ opReturnAddr
 baselineScript
 -
 >
-prologueEntryAddr
+bailoutPrologueEntryAddr
 (
 )
 ;
