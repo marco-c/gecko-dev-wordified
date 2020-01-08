@@ -1179,7 +1179,7 @@ h
 #
 include
 "
-nsStyleConsts
+nsThemeConstants
 .
 h
 "
@@ -1193,7 +1193,7 @@ h
 #
 include
 "
-nsStyleConsts
+nsThemeConstants
 .
 h
 "
@@ -36172,9 +36172,9 @@ if
 wParam
 =
 =
-SPI_SETKEYBOARDDELAY
-)
-{
+SPI_SETCLIENTAREAANIMATION
+|
+|
 /
 /
 CaretBlinkTime
@@ -36182,6 +36182,12 @@ is
 cached
 in
 nsLookAndFeel
+wParam
+=
+=
+SPI_SETKEYBOARDDELAY
+)
+{
 NotifyThemeChanged
 (
 )
