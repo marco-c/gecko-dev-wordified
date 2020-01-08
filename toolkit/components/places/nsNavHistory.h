@@ -508,9 +508,6 @@ PlacesDecayFrecencyCallback
 class
 PlacesSQLQueryBuilder
 ;
-class
-QueryKeyValuePair
-;
 /
 /
 nsNavHistory
@@ -3229,6 +3226,12 @@ TokensToQuery
 const
 nsTArray
 <
+mozilla
+:
+:
+places
+:
+:
 QueryKeyValuePair
 >
 &
