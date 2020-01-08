@@ -204,10 +204,6 @@ CSPService
 (
 )
 ;
-static
-bool
-sCSPEnabled
-;
 protected
 :
 virtual

@@ -294,14 +294,6 @@ bool
 aDeliveredViaMetaTag
 )
 ;
-static
-bool
-sCSPExperimentalEnabled
-;
-static
-bool
-sStrictDynamicEnabled
-;
 ~
 nsCSPParser
 (

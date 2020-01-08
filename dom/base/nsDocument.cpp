@@ -16544,10 +16544,12 @@ set
 if
 (
 !
-CSPService
+StaticPrefs
 :
 :
-sCSPEnabled
+security_csp_enable
+(
+)
 )
 {
 MOZ_LOG
