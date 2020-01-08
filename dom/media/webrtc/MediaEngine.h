@@ -239,7 +239,7 @@ nsTArray
 <
 RefPtr
 <
-MediaEngineSource
+MediaDevice
 >
 >
 *

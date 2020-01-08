@@ -3458,7 +3458,7 @@ nsTArray
 <
 RefPtr
 <
-MediaEngineSource
+MediaDevice
 >
 >
 *
@@ -3495,7 +3495,7 @@ nsTArray
 <
 RefPtr
 <
-MediaEngineSource
+MediaDevice
 >
 >
 *
@@ -3510,7 +3510,7 @@ nsTArray
 <
 RefPtr
 <
-MediaEngineSource
+MediaDevice
 >
 >
 *
