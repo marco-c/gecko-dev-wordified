@@ -109,6 +109,11 @@ ftl
 const
 ONBOARDING_MESSAGES
 =
+(
+)
+=
+>
+(
 [
 {
 id
@@ -540,6 +545,7 @@ firstRun
 }
 }
 ]
+)
 ;
 const
 OnboardingMessageProvider
@@ -620,6 +626,8 @@ this
 translateMessages
 (
 ONBOARDING_MESSAGES
+(
+)
 )
 ;
 return
