@@ -150,7 +150,15 @@ createFactory
 require
 (
 "
-.
+devtools
+/
+client
+/
+inspector
+/
+layout
+/
+components
 /
 ComputedProperty
 "
@@ -577,10 +585,10 @@ return
 ComputedProperty
 (
 {
-name
+key
 :
 info
-key
+name
 :
 info
 onHideBoxModelHighlighter
@@ -609,7 +617,7 @@ div
 className
 :
 "
-boxmodel
+layout
 -
 properties
 "
@@ -622,7 +630,7 @@ div
 className
 :
 "
-boxmodel
+layout
 -
 properties
 -
@@ -642,7 +650,7 @@ span
 className
 :
 "
-boxmodel
+layout
 -
 properties
 -
@@ -684,7 +692,7 @@ div
 className
 :
 "
-boxmodel
+layout
 -
 properties
 -
