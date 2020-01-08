@@ -114,15 +114,6 @@ MPL
 #
 include
 "
-gc
-/
-Zone
-.
-h
-"
-#
-include
-"
 jsapi
 -
 tests

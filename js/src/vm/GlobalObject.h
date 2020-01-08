@@ -196,15 +196,6 @@ include
 "
 vm
 /
-RegExpStatics
-.
-h
-"
-#
-include
-"
-vm
-/
 Runtime
 .
 h
@@ -220,6 +211,9 @@ TypedObjectModuleObject
 ;
 class
 LexicalEnvironmentObject
+;
+class
+RegExpStatics
 ;
 /
 *

@@ -126,15 +126,6 @@ h
 #
 include
 "
-gc
-/
-Zone
-.
-h
-"
-#
-include
-"
 vm
 /
 JSObject
@@ -361,6 +352,9 @@ SystemAllocPolicy
 PropertyVector
 ;
 private
+:
+JS
+:
 :
 Zone
 *
@@ -654,6 +648,9 @@ public
 explicit
 UnboxedLayout
 (
+JS
+:
+:
 Zone
 *
 zone
@@ -701,6 +698,9 @@ nullptr
 )
 {
 }
+JS
+:
+:
 Zone
 *
 zone
