@@ -172,7 +172,7 @@ space
     
 #
 space
-seperated
+separated
 list
 of
 origin
@@ -217,7 +217,7 @@ than
 one
 TAO
 values
-seperated
+separated
 by
 comma
 pass
@@ -268,7 +268,7 @@ multi_wildcard
 #
 multiple
 wildcards
-seperated
+separated
 by
 comma
 pass
@@ -324,7 +324,7 @@ a
 match
 of
 origin
-seperated
+separated
 by
 comma
 pass
@@ -376,7 +376,7 @@ match_wildcard
 contains
 a
 wildcard
-seperated
+separated
 by
 comma
 pass
