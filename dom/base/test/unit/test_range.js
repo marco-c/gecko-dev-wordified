@@ -359,7 +359,7 @@ use
 *
 *
 return
-nsIDOMNode
+Node
 The
 target
 node
@@ -1616,7 +1616,7 @@ is
 done
 we
 use
-nsIDOMNode
+Node
 .
 isEqualNode
 (
