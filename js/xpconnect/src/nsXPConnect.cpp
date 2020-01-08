@@ -690,6 +690,9 @@ InitTLS
 (
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 JS
 :
 :
@@ -699,6 +702,8 @@ profiler_register_thread
 profiler_unregister_thread
 )
 ;
+#
+endif
 XPCJSContext
 *
 xpccx
