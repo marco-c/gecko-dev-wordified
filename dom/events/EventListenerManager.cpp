@@ -5822,7 +5822,7 @@ cx
 )
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -5885,7 +5885,7 @@ toObject
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

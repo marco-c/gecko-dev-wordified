@@ -626,7 +626,7 @@ ErrorResult
 aRv
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
@@ -718,7 +718,7 @@ ErrorResult
 aRv
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx

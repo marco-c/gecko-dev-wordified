@@ -2176,7 +2176,7 @@ UncheckedUnwrap
 exnObj
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
@@ -3355,7 +3355,7 @@ errorGlobal
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -4844,7 +4844,7 @@ in
 a
 realm
 .
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

@@ -9424,7 +9424,7 @@ oldScope
 wrapper
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

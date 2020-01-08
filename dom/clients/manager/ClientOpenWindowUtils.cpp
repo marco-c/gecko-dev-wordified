@@ -1031,7 +1031,7 @@ return
 NS_ERROR_TYPE_ERR
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

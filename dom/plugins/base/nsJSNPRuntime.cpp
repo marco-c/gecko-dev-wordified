@@ -6584,7 +6584,7 @@ return
 obj
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

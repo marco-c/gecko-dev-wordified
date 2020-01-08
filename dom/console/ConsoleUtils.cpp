@@ -427,7 +427,7 @@ UncheckedUnwrap
 global
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
