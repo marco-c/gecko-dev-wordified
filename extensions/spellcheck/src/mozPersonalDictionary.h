@@ -308,13 +308,13 @@ mMonitorSave
 ;
 nsTHashtable
 <
-nsUnicharPtrHashKey
+nsStringHashKey
 >
 mDictionaryTable
 ;
 nsTHashtable
 <
-nsUnicharPtrHashKey
+nsStringHashKey
 >
 mIgnoreTable
 ;

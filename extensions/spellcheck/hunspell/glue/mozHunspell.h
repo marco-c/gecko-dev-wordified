@@ -723,14 +723,14 @@ nsresult
 ConvertCharset
 (
 const
-char16_t
-*
+nsAString
+&
 aStr
 std
 :
 :
 string
-*
+&
 aDst
 )
 ;
@@ -799,9 +799,6 @@ mDictionaries
 ;
 nsString
 mDictionary
-;
-nsString
-mLanguage
 ;
 nsCString
 mAffixFileName

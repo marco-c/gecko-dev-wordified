@@ -3371,8 +3371,6 @@ this
 _spellInfo
 .
 misspelling
-"
-"
 )
 ;
 this
@@ -3428,8 +3426,6 @@ dictionary
 removeWord
 (
 word
-"
-"
 )
 ;
 this
