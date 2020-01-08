@@ -8978,6 +8978,7 @@ paint
 .
 GetFallbackColor
 (
+aComputedStyle
 )
 :
 NS_RGBA
@@ -9008,6 +9009,7 @@ paint
 .
 GetFallbackColor
 (
+aComputedStyle
 )
 :
 NS_RGB
@@ -9027,6 +9029,7 @@ paint
 .
 GetColor
 (
+aComputedStyle
 )
 ;
 break
@@ -9176,6 +9179,7 @@ paintIfVisited
 .
 GetColor
 (
+aComputedStyle
 )
 }
 ;
