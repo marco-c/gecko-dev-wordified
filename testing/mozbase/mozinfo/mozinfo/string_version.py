@@ -98,12 +98,14 @@ vstring
 )
 :
         
-str
+super
+(
+StringVersion
+self
+)
 .
 __init__
 (
-self
-vstring
 )
         
 self
