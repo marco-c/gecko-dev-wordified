@@ -236,14 +236,6 @@ mozilla
 secrets
 import
 SecretsMixin
-from
-mozharness
-.
-base
-.
-python
-import
-VirtualenvMixin
 #
 MobileSingleLocale
 {
@@ -260,7 +252,6 @@ TooltoolMixin
 AutomationMixin
                          
 MercurialScript
-VirtualenvMixin
 SecretsMixin
 )
 :
@@ -724,12 +715,6 @@ repacks
 "
                 
 "
-create
--
-virtualenv
-"
-                
-"
 summary
 "
             
@@ -740,33 +725,6 @@ config
 '
 :
 {
-                
-'
-virtualenv_modules
-'
-:
-[
-                    
-'
-requests
-=
-=
-2
-.
-8
-.
-1
-'
-                
-]
-                
-'
-virtualenv_path
-'
-:
-'
-venv
-'
             
 }
         
