@@ -1097,6 +1097,8 @@ const
 nsACString
 &
 aScope
+uint64_t
+aRegistrationId
 const
 nsACString
 &
@@ -1118,6 +1120,7 @@ mDescriptor
 GetNextID
 (
 )
+aRegistrationId
 aPrincipal
 aScope
 aScriptSpec

@@ -285,6 +285,8 @@ ServiceWorkerDescriptor
 (
 uint64_t
 aId
+uint64_t
+aRegistrationId
 nsIPrincipal
 *
 aPrincipal
@@ -304,6 +306,8 @@ ServiceWorkerDescriptor
 (
 uint64_t
 aId
+uint64_t
+aRegistrationId
 const
 mozilla
 :
@@ -392,6 +396,12 @@ const
 ;
 uint64_t
 Id
+(
+)
+const
+;
+uint64_t
+RegistrationId
 (
 )
 const
