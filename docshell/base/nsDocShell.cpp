@@ -34397,14 +34397,6 @@ SetReferrer
 mCurrentURI
 )
 ;
-loadInfo
--
->
-SetOriginalURI
-(
-mCurrentURI
-)
-;
 /
 /
 Set
