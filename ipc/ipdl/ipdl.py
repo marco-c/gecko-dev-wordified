@@ -55,8 +55,11 @@ MPL
 .
 import
 optparse
+import
 os
+import
 re
+import
 sys
 from
 cStringIO

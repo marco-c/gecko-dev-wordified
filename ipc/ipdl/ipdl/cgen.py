@@ -55,6 +55,7 @@ MPL
 .
 import
 os
+import
 sys
 from
 ipdl
@@ -224,7 +225,6 @@ col
 self
 .
 indentCols
-#
 #
 -
 -
@@ -560,6 +560,7 @@ p
 .
 namespaces
 :
+            
 namespace
 .
 accept
@@ -624,6 +625,7 @@ p
 managesStmts
 )
 :
+            
 self
 .
 println
@@ -637,6 +639,7 @@ p
 .
 messageDecls
 :
+            
 msgDecl
 .
 accept
@@ -808,6 +811,7 @@ inParams
 1
 )
 :
+                
 self
 .
 write
@@ -904,6 +908,7 @@ outParams
 1
 )
 :
+                
 self
 .
 write

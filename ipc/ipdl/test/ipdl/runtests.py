@@ -1,5 +1,6 @@
 import
 os
+import
 unittest
 from
 IPDLCompile
@@ -646,10 +647,11 @@ ERRORTESTS
 =
 arg
 :
+                
 errortests
 =
 1
-;
+                
 continue
             
 oksuite
@@ -683,10 +685,11 @@ OKTESTS
 =
 arg
 :
+                
 oktests
 =
 1
-;
+                
 continue
             
 ipdlargv

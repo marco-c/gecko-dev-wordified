@@ -55,6 +55,7 @@ MPL
 .
 import
 copy
+import
 sys
 class
 Visitor
@@ -1273,7 +1274,6 @@ accept
 self
 )
 #
-#
 -
 -
 -
@@ -1531,6 +1531,7 @@ t
 in
 things
 :
+            
 self
 .
 addthing
@@ -1609,6 +1610,7 @@ s
 in
 stmts
 :
+            
 self
 .
 addstmt
@@ -1747,13 +1749,13 @@ s
 in
 stmts
 :
+            
 self
 .
 addstmt
 (
 s
 )
-#
 #
 -
 -
@@ -2904,7 +2906,6 @@ memo
 )
 )
 #
-#
 -
 -
 -
@@ -3305,6 +3306,7 @@ decl
 in
 params
 :
+            
 assert
 not
 isinstance
@@ -3901,7 +3903,6 @@ __init__
 self
 decl
 )
-#
 #
 -
 -
@@ -4672,6 +4673,7 @@ arg
 in
 args
 :
+            
 assert
 arg
 and
@@ -4950,7 +4952,6 @@ self
 ret
 =
 ret
-#
 #
 -
 -
@@ -5295,6 +5296,7 @@ elseb
 is
 None
 :
+            
 self
 .
 elseb
@@ -5327,6 +5329,7 @@ elseb
 is
 None
 :
+            
 self
 .
 elseb

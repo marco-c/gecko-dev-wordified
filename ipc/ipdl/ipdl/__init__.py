@@ -71,7 +71,7 @@ typecheck
 '
 writeifmodified
 '
-            
+           
 '
 checkSyncMessage
 '
@@ -81,6 +81,7 @@ checkFixedSyncMessages
 ]
 import
 os
+import
 sys
 from
 cStringIO

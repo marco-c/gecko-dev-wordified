@@ -70,6 +70,7 @@ MPL
 .
 import
 os
+import
 sys
 from
 ipdl
@@ -806,7 +807,6 @@ VoidType
 (
 )
 #
-#
 -
 -
 -
@@ -930,7 +930,6 @@ self
 .
 qname
 )
-#
 #
 -
 -
@@ -1165,7 +1164,7 @@ nestedRange
 0
 ]
 or
-            
+                
 lesser
 .
 nestedRange
@@ -1210,7 +1209,7 @@ isInterrupt
 (
 )
 and
-            
+                
 lesser
 .
 nestedRange
@@ -1906,6 +1905,7 @@ self
 .
 managers
 :
+            
 return
 mgr
 class
@@ -2178,6 +2178,7 @@ exploring
 if
 isrec
 :
+                
 self
 .
 mutualRec
@@ -2914,6 +2915,7 @@ within
 class
 found
 :
+        
 pass
     
 class
@@ -2956,7 +2958,6 @@ True
     
 return
 False
-#
 #
 -
 -
@@ -3094,6 +3095,7 @@ loc
 is
 None
 :
+            
 loc
 =
 Loc
@@ -3102,6 +3104,7 @@ NONE
         
 else
 :
+            
 loc
 =
 loc
@@ -3128,7 +3131,6 @@ fmt
 %
 args
 )
-#
 #
 -
 -
@@ -3371,6 +3373,7 @@ is
 not
 None
 :
+                
 return
 decl
         
@@ -3439,11 +3442,11 @@ append
 (
 errormsg
 (
-                        
+                    
 decl
 .
 loc
-                        
+                    
 "
 redeclaration
 of
@@ -3457,7 +3460,7 @@ at
 %
 s
 "
-                        
+                    
 name
 olddecl
 .
@@ -3489,6 +3492,7 @@ decl
 .
 progname
 :
+            
 tryadd
 (
 decl
@@ -3501,6 +3505,7 @@ decl
 .
 shortname
 :
+            
 tryadd
 (
 decl
@@ -3513,6 +3518,7 @@ decl
 .
 fullname
 :
+            
 tryadd
 (
 decl
@@ -4306,6 +4312,7 @@ Endpoint
 <
 '
 +
+                                              
 fullname
 +
 '
@@ -4369,6 +4376,7 @@ Endpoint
 <
 '
 +
+                                              
 fullname
 +
 '
@@ -4695,6 +4703,7 @@ qname
         
 else
 :
+            
 assert
 0
 and
@@ -5766,6 +5775,7 @@ symtab
 .
 lookup
 (
+            
 _DELETE_MSG
 )
 .
@@ -6812,7 +6822,6 @@ itype
 return
 itype
 #
-#
 -
 -
 -
@@ -7268,6 +7277,7 @@ isStruct
 (
 )
 :
+            
 t
 .
 defined
@@ -7281,6 +7291,7 @@ isUnion
 (
 )
 :
+            
 t
 .
 defined
@@ -8282,7 +8293,6 @@ values
                        
 mname
 )
-;
         
 if
 (
@@ -8290,7 +8300,7 @@ mtype
 .
 compress
 and
-            
+                
 (
 not
 mtype
