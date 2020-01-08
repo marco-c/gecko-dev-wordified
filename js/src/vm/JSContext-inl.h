@@ -345,8 +345,6 @@ at
 argument
 %
 d
-\
-n
 "
 r1
 r2
@@ -392,8 +390,6 @@ at
 argument
 %
 d
-\
-n
 "
 c1
 c2
@@ -439,8 +435,6 @@ at
 argument
 %
 d
-\
-n
 "
 z1
 z2
@@ -750,8 +744,6 @@ at
 argument
 %
 d
-\
-n
 "
 zone
 (
