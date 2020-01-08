@@ -439,9 +439,9 @@ LegacySHistory
 (
 )
 ;
-nsIWebNavigation
+nsSHistory
 *
-LegacySHistoryWebNav
+LegacySHistoryImpl
 (
 )
 ;

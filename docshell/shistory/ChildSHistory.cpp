@@ -465,12 +465,12 @@ return
 mHistory
 ;
 }
-nsIWebNavigation
+nsSHistory
 *
 ChildSHistory
 :
 :
-LegacySHistoryWebNav
+LegacySHistoryImpl
 (
 )
 {
