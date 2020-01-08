@@ -246,7 +246,9 @@ require
 "
 .
 /
-app
+components
+/
+App
 "
 )
 )
