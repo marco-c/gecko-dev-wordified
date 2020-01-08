@@ -253,16 +253,6 @@ FeatureMap
 :
 eAll
 }
-/
-/
-TODO
-:
-not
-supported
-yet
-!
-!
-!
 {
 "
 fullscreen
