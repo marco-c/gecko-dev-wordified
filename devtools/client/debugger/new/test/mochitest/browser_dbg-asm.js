@@ -83,13 +83,6 @@ js
 "
 )
 ;
-/
-/
-Make
-sure
-sources
-appear
-.
 is
 (
 findAllElements

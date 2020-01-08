@@ -324,7 +324,6 @@ source
 )
 {
 return
-null
 ;
 }
 if

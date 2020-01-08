@@ -972,6 +972,8 @@ addTab
 )
 (
 source
+.
+url
 )
 )
 ;
@@ -1116,6 +1118,8 @@ closeTab
 )
 (
 loadedSource
+.
+url
 )
 )
 ;
