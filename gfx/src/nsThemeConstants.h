@@ -659,6 +659,12 @@ scrollbar
 NS_THEME_SCROLLBAR_NON_DISAPPEARING
 /
 /
+The
+scroll
+corner
+NS_THEME_SCROLLCORNER
+/
+/
 A
 textfield
 or

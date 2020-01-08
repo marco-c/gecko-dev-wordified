@@ -3357,6 +3357,11 @@ scrollbar_vertical
 )
 CSS_KEY
 (
+scrollcorner
+scrollcorner
+)
+CSS_KEY
+(
 se
 -
 resize
