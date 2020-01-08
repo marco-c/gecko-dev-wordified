@@ -1855,6 +1855,7 @@ rv
 }
 class
 IdleRunnableWrapper
+final
 :
 public
 IdleRunnable
