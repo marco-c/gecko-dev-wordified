@@ -25402,6 +25402,11 @@ function
 (
 )
 {
+if
+(
+idl_setup_func
+)
+{
 return
 idl_setup_func
 (
@@ -25409,6 +25414,7 @@ idl_array
 t
 )
 ;
+}
 }
 )
 .
