@@ -3277,12 +3277,6 @@ false
 if
 (
 !
-DomainIsWildcard
-(
-)
-&
-&
-!
 MatchesDomain
 (
 aURL
