@@ -328,6 +328,7 @@ already_AddRefed
 nsIStringBundle
 >
 aBundle
+const
 nsCString
 &
 aHashKey
@@ -349,6 +350,15 @@ LinkedList
 bundleCacheEntry_t
 >
 mBundleCache
+;
+mozilla
+:
+:
+AutoCleanLinkedList
+<
+bundleCacheEntry_t
+>
+mSharedBundles
 ;
 nsCOMPtr
 <
