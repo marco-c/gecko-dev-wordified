@@ -2454,33 +2454,6 @@ error
 )
 )
         
-self
-.
-info
-(
-"
-Using
-the
-following
-test
-package
-requirements
-:
-\
-n
-%
-s
-"
-%
-                  
-pprint
-.
-pformat
-(
-package_requirements
-)
-)
-        
 return
 package_requirements
     
