@@ -254,7 +254,7 @@ PropTypes
 func
 .
 isRequired
-onPreviewTextChange
+onPreviewFonts
 :
 PropTypes
 .
@@ -289,7 +289,7 @@ fontEditor
 fontEditorEnabled
 fontOptions
 onInstanceChange
-onPreviewTextChange
+onPreviewFonts
 onPropertyChange
 onToggleFontHighlight
 }
@@ -341,7 +341,7 @@ FontOverview
 {
 fontData
 fontOptions
-onPreviewTextChange
+onPreviewFonts
 onToggleFontHighlight
 }
 )
