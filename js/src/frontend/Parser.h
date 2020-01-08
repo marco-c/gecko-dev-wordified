@@ -5156,6 +5156,7 @@ checkForExpressionError
 (
 )
 )
+{
 *
 return
 false
@@ -5170,6 +5171,8 @@ with
 a
 pending
 exception
+*
+}
 *
 *
 PossibleError
@@ -5208,6 +5211,7 @@ checkForDestructuringError
 (
 )
 )
+{
 *
 return
 false
@@ -5219,6 +5223,8 @@ reached
 no
 pending
 exception
+*
+}
 *
 *
 PossibleError
@@ -5248,6 +5254,7 @@ checkForExpressionError
 (
 )
 )
+{
 *
 return
 false
@@ -5259,6 +5266,8 @@ reached
 no
 pending
 exception
+*
+}
 *
 /
 class

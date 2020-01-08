@@ -463,11 +463,15 @@ isObject
 (
 )
 )
+{
 /
 /
 return
 false
 ;
+/
+/
+}
 /
 /
 return

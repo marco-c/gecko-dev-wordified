@@ -978,10 +978,13 @@ unum_getAvailable
 v
 )
 )
+{
 *
 return
 false
 ;
+*
+}
 *
 /
 extern

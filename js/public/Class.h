@@ -811,16 +811,20 @@ id
 result
 )
 )
+{
 *
 return
 false
 ;
+*
+}
 *
 if
 (
 !
 result
 )
+{
 *
 return
 result
@@ -832,6 +836,8 @@ obj
 id
 )
 ;
+*
+}
 *
 *
 Users
@@ -1171,6 +1177,7 @@ if
 funny
 condition
 )
+{
 *
 return
 result
@@ -1180,6 +1187,8 @@ fail
 JSMSG_CANT_DO_THE_THINGS
 )
 ;
+*
+}
 *
 *
 The

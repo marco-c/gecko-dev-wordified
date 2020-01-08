@@ -18221,6 +18221,7 @@ JitStackAlignment
 =
 0
 )
+{
 /
 /
 sp
@@ -18231,6 +18232,9 @@ sizeof
 Value
 )
 ;
+/
+/
+}
 /
 /
 MOZ_ASSERT

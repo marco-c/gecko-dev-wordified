@@ -1020,11 +1020,15 @@ if
 !
 eventObject
 )
+{
 /
 /
 return
 false
 ;
+/
+/
+}
 /
 /
 result
