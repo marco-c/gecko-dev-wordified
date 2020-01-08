@@ -510,6 +510,15 @@ return
 Localized
 (
 {
+id
+:
+ftlId
+}
+dom
+.
+div
+(
+{
 className
 :
 worker
@@ -524,10 +533,6 @@ detail__status
 status
 }
 }
-dom
-.
-div
-(
 status
 )
 )
