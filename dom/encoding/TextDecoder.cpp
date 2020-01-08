@@ -185,8 +185,9 @@ nsAString
 &
 aLabel
 const
-bool
-aFatal
+TextDecoderOptions
+&
+aOptions
 ErrorResult
 &
 aRv
@@ -298,7 +299,7 @@ WrapNotNull
 (
 encoding
 )
-aFatal
+aOptions
 )
 ;
 }
@@ -316,8 +317,9 @@ Encoding
 >
 aEncoding
 const
-bool
-aFatal
+TextDecoderOptions
+&
+aOptions
 )
 {
 aEncoding
@@ -364,7 +366,9 @@ object
 .
 mFatal
 =
-aFatal
+aOptions
+.
+mFatal
 ;
 /
 /
