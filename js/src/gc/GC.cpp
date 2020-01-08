@@ -15649,7 +15649,7 @@ sweepJitRealm
 r
 -
 >
-sweepNativeIterators
+sweepObjectRealm
 (
 )
 ;
@@ -33557,7 +33557,7 @@ sweepSelfHostingScriptSource
 r
 -
 >
-sweepNativeIterators
+sweepObjectRealm
 (
 )
 ;
