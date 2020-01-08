@@ -25336,9 +25336,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 LiveRegisterSet
 volatileRegs
 (
@@ -25532,9 +25534,11 @@ addFailurePath
 failure
 )
 )
+{
 return
 false
 ;
+}
 LiveRegisterSet
 volatileRegs
 (

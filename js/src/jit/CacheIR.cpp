@@ -34745,9 +34745,11 @@ tryAttachStringNumberConcat
 (
 )
 )
+{
 return
 true
 ;
+}
 trackAttached
 (
 IRGenerator
@@ -35864,9 +35866,11 @@ op_
 =
 JSOP_ADD
 )
+{
 return
 false
 ;
+}
 if
 (
 !

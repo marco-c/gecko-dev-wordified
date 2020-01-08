@@ -30324,6 +30324,7 @@ isSweepingTypes
 (
 )
 )
+{
 clearStateOnOOM
 .
 emplace
@@ -30333,6 +30334,7 @@ zone
 )
 )
 ;
+}
 AutoTouchingGrayThings
 tgt
 ;
@@ -31130,6 +31132,7 @@ isSweepingTypes
 (
 )
 )
+{
 clearStateOnOOM
 .
 emplace
@@ -31139,6 +31142,7 @@ zone
 )
 )
 ;
+}
 TypeZone
 &
 types

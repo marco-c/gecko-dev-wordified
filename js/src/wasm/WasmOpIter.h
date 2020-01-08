@@ -11668,6 +11668,7 @@ usesMemory
 (
 )
 )
+{
 return
 fail
 (
@@ -11682,6 +11683,7 @@ memory
 "
 )
 ;
+}
 }
 else
 {
@@ -11698,6 +11700,7 @@ length
 =
 0
 )
+{
 return
 fail
 (
@@ -11715,6 +11718,7 @@ table
 )
 ;
 }
+}
 if
 (
 !
@@ -11723,9 +11727,11 @@ readVarU32
 segIndex
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 isMem
@@ -11811,6 +11817,7 @@ length
 (
 )
 )
+{
 return
 fail
 (
@@ -11825,6 +11832,7 @@ range
 "
 )
 ;
+}
 }
 return
 true
@@ -12009,6 +12017,7 @@ usesMemory
 (
 )
 )
+{
 return
 fail
 (
@@ -12023,6 +12032,7 @@ memory
 "
 )
 ;
+}
 }
 else
 {
@@ -12039,6 +12049,7 @@ length
 =
 0
 )
+{
 return
 fail
 (
@@ -12056,6 +12067,7 @@ table
 )
 ;
 }
+}
 if
 (
 !
@@ -12068,9 +12080,11 @@ I32
 len
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -12083,9 +12097,11 @@ I32
 src
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -12098,9 +12114,11 @@ I32
 dst
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -12109,9 +12127,11 @@ readVarU32
 segIndex
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 isMem
@@ -12160,6 +12180,7 @@ length
 (
 )
 )
+{
 return
 fail
 (
@@ -12174,6 +12195,7 @@ range
 "
 )
 ;
+}
 }
 return
 true

@@ -534,9 +534,11 @@ UndefinedHandleValue
 policy
 )
 )
+{
 return
 0
 ;
+}
 return
 0
 ;

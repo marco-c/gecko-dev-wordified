@@ -3454,9 +3454,11 @@ bytecode
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 #
 endif
