@@ -40,7 +40,7 @@ linux64
 -
 fuzzing
 -
-cov
+ccov
 '
     
 #
@@ -234,7 +234,7 @@ nightly
 -
 fuzzing
 -
-cov
+ccov
 '
     
 #
