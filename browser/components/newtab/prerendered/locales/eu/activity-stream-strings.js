@@ -992,11 +992,9 @@ firstrun_invalid_input
 "
 :
 "
-Baliozko
-helbide
-elektronikoa
-behar
-da
+Valid
+email
+required
 "
 "
 firstrun_extra_legal_links
