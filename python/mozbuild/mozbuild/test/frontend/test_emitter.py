@@ -3942,6 +3942,15 @@ AS_DASH_C_FLAG
 :
 '
 '
+                          
+'
+ASOUTOPTION
+'
+:
+'
+-
+o
+'
 }
 )
         

@@ -10675,6 +10675,20 @@ AS_DASH_C_FLAG
 '
 '
             
+passthru
+.
+variables
+[
+'
+ASOUTOPTION
+'
+]
+=
+'
+-
+o
+'
+            
 computed_as_flags
 .
 resolve_flags
