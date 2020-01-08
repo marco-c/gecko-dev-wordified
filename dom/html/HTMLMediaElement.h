@@ -10714,6 +10714,12 @@ aRv
 )
 const
 ;
+void
+ReportAutoplayTelemetry
+(
+)
+const
+;
 /
 *
 *
