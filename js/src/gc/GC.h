@@ -271,6 +271,7 @@ type
 sizedType
 bgFinal
 nursery
+compact
 )
 \
 template

@@ -1676,6 +1676,7 @@ type
 sizedType
 bgfinal
 nursery
+compact
 )
 \
 template
@@ -1896,6 +1897,7 @@ type
 sizedType
 bgFinal
 nursery
+compact
 )
 \
 template
