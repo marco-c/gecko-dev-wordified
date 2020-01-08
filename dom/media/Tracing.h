@@ -677,6 +677,8 @@ uint64_t
 aThread
 uint64_t
 aFrames
+uint64_t
+aSampleRate
 )
 ;
 /

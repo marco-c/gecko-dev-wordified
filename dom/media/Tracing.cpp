@@ -356,6 +356,8 @@ uint64_t
 aThread
 uint64_t
 aFrames
+uint64_t
+aSampleRate
 )
 {
 mLogger
@@ -456,9 +458,18 @@ comment
 \
 "
 :
+\
+"
 %
 "
 PRIu64
+"
+/
+%
+"
+PRIu64
+"
+\
 "
 }
 }
@@ -472,6 +483,7 @@ aDuration
 aPID
 aThread
 aFrames
+aSampleRate
 )
 ;
 }
