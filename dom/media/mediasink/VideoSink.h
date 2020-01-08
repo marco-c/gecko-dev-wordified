@@ -781,6 +781,9 @@ displayed
 TimeUnit
 mVideoFrameEndTime
 ;
+uint32_t
+mOldDroppedCount
+;
 /
 /
 Event
