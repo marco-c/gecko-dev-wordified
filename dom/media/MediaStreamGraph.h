@@ -5677,11 +5677,6 @@ EndAllTrackAndFinish
 (
 )
 ;
-void
-RegisterForAudioMixing
-(
-)
-;
 /
 *
 *
@@ -6257,9 +6252,6 @@ mPullEnabled
 ;
 bool
 mFinishPending
-;
-bool
-mNeedsMixing
 ;
 }
 ;
