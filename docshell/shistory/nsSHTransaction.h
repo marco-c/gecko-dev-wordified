@@ -149,6 +149,11 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSISHTRANSACTION
 nsSHTransaction
 (
+nsISHEntry
+*
+aSHEntry
+bool
+aPersist
 )
 ;
 protected
@@ -167,6 +172,10 @@ nsISHEntry
 >
 mSHEntry
 ;
+/
+/
+never
+null
 bool
 mPersist
 ;
