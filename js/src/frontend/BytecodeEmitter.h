@@ -3949,10 +3949,6 @@ const
 NameLocation
 &
 loc
-bool
-callContext
-=
-false
 )
 ;
 MOZ_MUST_USE
@@ -3975,10 +3971,6 @@ emitGetName
 JSAtom
 *
 name
-bool
-callContext
-=
-false
 )
 {
 return
@@ -3989,7 +3981,6 @@ lookupName
 (
 name
 )
-callContext
 )
 ;
 }
@@ -4000,10 +3991,6 @@ emitGetName
 ParseNode
 *
 pn
-bool
-callContext
-=
-false
 )
 ;
 template
