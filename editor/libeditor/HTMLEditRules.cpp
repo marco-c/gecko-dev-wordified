@@ -738,7 +738,7 @@ aEditSubAction
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 |
 |
 aEditSubAction
@@ -4320,7 +4320,7 @@ case
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 :
 return
 WillMakeBasicBlock
@@ -4605,7 +4605,7 @@ case
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 :
 case
 EditSubAction
@@ -29577,7 +29577,7 @@ GetNodesFromSelection
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 arrayOfNodes
 TouchContent
 :
@@ -46484,7 +46484,7 @@ aEditSubAction
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 ;
 if
 (
@@ -46747,7 +46747,7 @@ for
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 because
 it
 might
@@ -48789,7 +48789,7 @@ aEditSubAction
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 )
 {
 for
@@ -49226,7 +49226,7 @@ aEditSubAction
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 |
 |
 aEditSubAction
@@ -50457,7 +50457,7 @@ GetNodesFromSelection
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 outArrayOfNodes
 TouchContent
 :

@@ -3287,7 +3287,7 @@ alignType
 EditSubAction
 :
 :
-makeBasicBlock
+eCreateOrRemoveBlock
 const
 nsAString
 *
