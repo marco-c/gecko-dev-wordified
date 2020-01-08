@@ -480,6 +480,9 @@ scopes
 "
 addon_child
 "
+"
+content_child
+"
 ]
 paths
 :
