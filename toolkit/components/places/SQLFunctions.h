@@ -422,10 +422,10 @@ open
 (
 See
 *
-mozIPlacesAutoComplete
+UrlbarProviderOpenTabs
 :
 :
-registerOpenPage
+registerOpenTab
 .
 )
 *
