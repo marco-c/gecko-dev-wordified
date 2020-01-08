@@ -149,6 +149,7 @@ RUNTIMES
 UNWATCH_RUNTIME_FAILURE
 UNWATCH_RUNTIME_START
 UNWATCH_RUNTIME_SUCCESS
+USB_RUNTIMES_UPDATED
 WATCH_RUNTIME_FAILURE
 WATCH_RUNTIME_START
 WATCH_RUNTIME_SUCCESS
@@ -770,6 +771,21 @@ message
 }
 ;
 }
+function
+updateUSBRuntimes
+(
+runtimes
+)
+{
+return
+{
+type
+:
+USB_RUNTIMES_UPDATED
+runtimes
+}
+;
+}
 module
 .
 exports
@@ -778,6 +794,7 @@ exports
 connectRuntime
 disconnectRuntime
 unwatchRuntime
+updateUSBRuntimes
 watchRuntime
 }
 ;
