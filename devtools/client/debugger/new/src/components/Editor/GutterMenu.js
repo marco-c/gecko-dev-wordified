@@ -1118,7 +1118,12 @@ props
 .
 selectedSource
 .
+get
+(
+"
 id
+"
+)
 :
 "
 "

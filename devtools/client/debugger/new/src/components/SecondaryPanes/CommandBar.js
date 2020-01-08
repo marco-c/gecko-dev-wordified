@@ -1934,15 +1934,6 @@ bar
 -
 button
 "
-"
-command
--
-bar
--
-skip
--
-pausing
-"
 {
 active
 :

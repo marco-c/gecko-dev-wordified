@@ -291,10 +291,16 @@ map
 id
 =
 >
+(
+0
+_selectors
+.
+getSourceInSources
+)
+(
 sources
-[
 id
-]
+)
 )
 .
 filter
@@ -342,6 +348,7 @@ _getBreakpointSources
 (
 breakpoints
 sources
+selectedSource
 )
 {
 const

@@ -182,7 +182,12 @@ sourceId
 =
 selectedSource
 .
+get
+(
+"
 id
+"
+)
 ;
 const
 isGeneratedSource
@@ -225,7 +230,12 @@ sourceId
 =
 selectedSource
 .
+get
+(
+"
 id
+"
+)
 ;
 const
 isGeneratedSource
@@ -272,6 +282,9 @@ the
 selected
 source
 .
+*
+*
+This
 *
 /
 function

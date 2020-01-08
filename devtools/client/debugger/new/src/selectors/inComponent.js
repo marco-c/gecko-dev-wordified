@@ -172,15 +172,6 @@ location
 sourceId
 )
 ;
-if
-(
-!
-source
-)
-{
-return
-;
-}
 const
 symbols
 =

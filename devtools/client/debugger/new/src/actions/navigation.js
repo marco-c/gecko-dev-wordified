@@ -487,10 +487,6 @@ waitForMs
 ;
 if
 (
-Object
-.
-keys
-(
 (
 0
 _sources
@@ -502,9 +498,8 @@ getState
 (
 )
 )
-)
 .
-length
+size
 =
 =
 0

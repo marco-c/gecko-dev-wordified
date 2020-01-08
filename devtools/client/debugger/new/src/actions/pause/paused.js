@@ -279,13 +279,15 @@ getSources
 (
 state
 )
-[
+.
+get
+(
 frame
 .
 location
 .
 sourceId
-]
+)
 ;
 }
 /

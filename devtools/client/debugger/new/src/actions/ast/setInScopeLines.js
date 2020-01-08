@@ -211,7 +211,7 @@ getState
 >
 {
 const
-source
+sourceRecord
 =
 (
 0
@@ -243,11 +243,11 @@ getState
 if
 (
 !
-source
+sourceRecord
 |
 |
 !
-source
+sourceRecord
 .
 text
 )
@@ -273,7 +273,7 @@ _source
 getSourceLineCount
 )
 (
-source
+sourceRecord
 )
 ;
 const

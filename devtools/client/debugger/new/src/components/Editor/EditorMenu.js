@@ -472,7 +472,12 @@ hasSourceMap
 !
 selectedSource
 .
+get
+(
+"
 sourceMapURL
+"
+)
 ;
 const
 isOriginal
@@ -1025,7 +1030,12 @@ sourceId
 =
 selectedSource
 .
+get
+(
+"
 id
+"
+)
 ;
 const
 sourceLine
@@ -1243,6 +1253,10 @@ click
 toggleBlackBox
 (
 selectedSource
+.
+toJS
+(
+)
 )
 }
 ;

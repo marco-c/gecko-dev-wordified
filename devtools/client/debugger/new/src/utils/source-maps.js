@@ -140,6 +140,10 @@ getGeneratedLocation
 (
 location
 source
+.
+toJS
+(
+)
 )
 ;
 const
