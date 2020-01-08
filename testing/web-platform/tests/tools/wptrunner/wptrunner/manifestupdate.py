@@ -2316,6 +2316,7 @@ self
 add_new
 (
 unconditional_value
+stability
 )
         
 #
@@ -2581,6 +2582,9 @@ add_new
 (
 self
 unconditional_value
+stability
+=
+False
 )
 :
         
@@ -2816,6 +2820,9 @@ add_new
 (
 self
 unconditional_value
+stability
+=
+False
 )
 :
         
