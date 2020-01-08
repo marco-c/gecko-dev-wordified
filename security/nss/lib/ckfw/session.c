@@ -3200,6 +3200,7 @@ nssCKFWSession_SetPIN
 NSSCKFWSession
 *
 fwSession
+const
 NSSItem
 *
 oldPin
@@ -3362,6 +3363,10 @@ fwSession
 -
 >
 fwInstance
+(
+NSSItem
+*
+)
 oldPin
 newPin
 )
