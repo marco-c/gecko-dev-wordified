@@ -132,6 +132,13 @@ WorkerCommon
 .
 h
 "
+#
+include
+"
+ServiceWorkerManager
+.
+h
+"
 namespace
 mozilla
 {

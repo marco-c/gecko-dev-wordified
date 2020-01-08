@@ -157,6 +157,9 @@ serviceWorkerScriptCache
 class
 ServiceWorkerManager
 ;
+class
+ServiceWorkerRegistrationInfo
+;
 /
 /
 A
