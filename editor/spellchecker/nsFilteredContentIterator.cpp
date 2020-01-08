@@ -2538,11 +2538,6 @@ mFilter
 Skip
 (
 aNode
--
->
-AsDOMNode
-(
-)
 &
 skipIt
 )

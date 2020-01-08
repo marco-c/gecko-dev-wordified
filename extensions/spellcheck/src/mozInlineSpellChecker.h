@@ -1442,7 +1442,7 @@ dom
 Selection
 &
 aSelection
-nsIDOMNode
+nsINode
 *
 aNode
 int32_t
