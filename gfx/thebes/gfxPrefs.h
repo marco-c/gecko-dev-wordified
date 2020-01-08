@@ -8543,7 +8543,7 @@ stable
 .
 DECL_GFX_PREF
 (
-Once
+Live
 "
 layout
 .
