@@ -6516,6 +6516,11 @@ if
 aParams
 .
 layerManager
+&
+&
+aParams
+.
+layerManager
 -
 >
 GetRoot
