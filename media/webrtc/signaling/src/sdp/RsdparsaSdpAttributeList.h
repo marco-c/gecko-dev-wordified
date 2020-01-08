@@ -1005,6 +1005,14 @@ attributeList
 )
 ;
 void
+LoadMaxPtime
+(
+RustAttributeList
+*
+attributeList
+)
+;
+void
 WarnAboutMisplacedAttribute
 (
 SdpAttribute
