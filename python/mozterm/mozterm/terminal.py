@@ -62,6 +62,8 @@ import
 os
 import
 sys
+import
+six
 class
 NullTerminal
 (
@@ -156,7 +158,9 @@ False
 class
 NullCallableString
 (
-unicode
+six
+.
+text_type
 )
 :
         
@@ -183,7 +187,9 @@ cls
             
 new
 =
-unicode
+six
+.
+text_type
 .
 __new__
 (
