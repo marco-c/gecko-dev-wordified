@@ -1009,7 +1009,7 @@ gPipNSSBundle
 formatStringFromName
 (
 "
-certErrorTrust_UnknownIssuer6
+certErrorTrust_UnknownIssuer5
 "
 [
 brandName
@@ -1364,7 +1364,7 @@ gPipNSSBundle
 formatStringFromName
 (
 "
-certErrorMismatchSinglePrefix2
+certErrorMismatchSinglePrefix1
 "
 [
 brandName
@@ -1998,7 +1998,7 @@ gPipNSSBundle
 formatStringFromName
 (
 "
-certErrorMismatchMultiple2
+certErrorMismatchMultiple1
 "
 [
 brandName
@@ -2127,7 +2127,7 @@ gPipNSSBundle
 formatStringFromName
 (
 "
-certErrorMismatch2
+certErrorMismatch1
 "
 [
 brandName
@@ -2298,7 +2298,7 @@ gPipNSSBundle
 formatStringFromName
 (
 "
-certErrorExpiredNow2
+certErrorExpiredNow1
 "
 [
 hostString
@@ -2386,7 +2386,7 @@ gPipNSSBundle
 formatStringFromName
 (
 "
-certErrorNotYetValidNow2
+certErrorNotYetValidNow1
 "
 [
 hostString
@@ -2487,7 +2487,7 @@ gPipNSSBundle
 formatStringFromName
 (
 "
-certErrorExpiredNow2
+certErrorExpiredNow1
 "
 [
 hostString
