@@ -1220,9 +1220,7 @@ shared
 /
 css
 /
-properties
--
-db
+constants
 .
 js
 '
