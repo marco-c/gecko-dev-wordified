@@ -808,6 +808,8 @@ XXXXXX
 XXX
 .
 fxsnapshot
+.
+gz
 core
 dump
 file

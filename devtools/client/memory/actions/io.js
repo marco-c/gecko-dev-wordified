@@ -236,6 +236,12 @@ filter
 *
 .
 fxsnapshot
+;
+*
+.
+fxsnapshot
+.
+gz
 "
 ]
 ]
@@ -449,6 +455,12 @@ filter
 *
 .
 fxsnapshot
+;
+*
+.
+fxsnapshot
+.
+gz
 "
 ]
 ]
