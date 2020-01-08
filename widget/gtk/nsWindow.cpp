@@ -8028,7 +8028,7 @@ nsWindow
 :
 UpdateClientOffset
 "
-GRAPHICS
+OTHER
 )
 ;
 if
@@ -12927,10 +12927,7 @@ already
 been
 set
 in
-std
-:
-:
-move
+Move
 (
 )
 or

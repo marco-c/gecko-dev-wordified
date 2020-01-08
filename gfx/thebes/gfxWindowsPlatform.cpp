@@ -2458,10 +2458,10 @@ DIRECT2D1_1
 }
 }
 return
-std
+mozilla
 :
 :
-move
+Move
 (
 data
 )
@@ -2581,10 +2581,10 @@ SKIA
 }
 InitBackendPrefs
 (
-std
+mozilla
 :
 :
-move
+Move
 (
 data
 )
@@ -5066,7 +5066,7 @@ gfxWindowsPlatform
 :
 SchedulePaintIfDeviceReset
 "
-GRAPHICS
+OTHER
 )
 ;
 DeviceResetReason
