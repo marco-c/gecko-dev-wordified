@@ -10000,7 +10000,7 @@ editing
 UI
 *
 /
-nsresult
+void
 HideInlineTableEditingUI
 (
 )
