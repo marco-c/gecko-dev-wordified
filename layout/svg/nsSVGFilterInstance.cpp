@@ -2448,9 +2448,15 @@ if
 !
 inputExists
 )
-return
-NS_ERROR_FAILURE
+{
+sourceIndex
+=
+GetLastResultIndex
+(
+aPrimitiveDescrs
+)
 ;
+}
 }
 aSourceIndices
 .
