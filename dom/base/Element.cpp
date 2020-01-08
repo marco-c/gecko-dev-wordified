@@ -12386,7 +12386,7 @@ nsDOMCSSAttributeDeclaration
 Element
 :
 :
-GetSMILOverrideStyle
+SMILOverrideStyle
 (
 )
 {

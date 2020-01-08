@@ -2026,7 +2026,7 @@ nsStyledElement
 /
 nsDOMCSSAttributeDeclaration
 *
-GetSMILOverrideStyle
+SMILOverrideStyle
 (
 )
 ;
