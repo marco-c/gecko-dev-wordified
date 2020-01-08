@@ -1275,7 +1275,7 @@ if
 !
 this
 .
-_inOverflow
+_overflowing
 )
 {
 this
@@ -1331,7 +1331,7 @@ input
 &
 this
 .
-_inOverflow
+_overflowing
 )
 {
 let
@@ -1388,7 +1388,7 @@ focused
 !
 this
 .
-_inOverflow
+_overflowing
 )
 {
 this
@@ -2519,7 +2519,7 @@ return
 }
 this
 .
-_inOverflow
+_overflowing
 =
 true
 ;
@@ -2588,7 +2588,7 @@ return
 }
 this
 .
-_inOverflow
+_overflowing
 =
 false
 ;
