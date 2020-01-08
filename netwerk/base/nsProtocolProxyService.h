@@ -2086,9 +2086,6 @@ mSOCKSProxyRemoteDNS
 bool
 mProxyOverTLS
 ;
-bool
-mWPADOverDHCPEnabled
-;
 RefPtr
 <
 nsPACMan
