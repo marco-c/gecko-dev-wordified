@@ -1004,9 +1004,12 @@ float
 &
 aFramerate
 const
-bool
+CreateDecoderParams
+:
+:
+OptionSet
 &
-aDisallowHWDecoder
+aOptions
 const
 layers
 :
@@ -1062,7 +1065,7 @@ VideoDecoderParent
 this
 aVideoInfo
 aFramerate
-aDisallowHWDecoder
+aOptions
 aIdentifier
 sManagerTaskQueue
 decodeTaskQueue

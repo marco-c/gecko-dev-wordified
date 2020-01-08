@@ -672,9 +672,12 @@ float
 &
 aFramerate
 const
-bool
+CreateDecoderParams
+:
+:
+OptionSet
 &
-aDisallowHWDecoder
+aOptions
 const
 layers
 :
