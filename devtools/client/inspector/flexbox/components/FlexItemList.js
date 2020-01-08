@@ -186,7 +186,7 @@ flexItem
 )
 .
 isRequired
-onToggleFlexItemShown
+setSelectedNode
 :
 PropTypes
 .
@@ -203,7 +203,7 @@ render
 const
 {
 flexItems
-onToggleFlexItemShown
+setSelectedNode
 }
 =
 this
@@ -243,7 +243,7 @@ flexItem
 .
 actorID
 flexItem
-onToggleFlexItemShown
+setSelectedNode
 }
 )
 )
