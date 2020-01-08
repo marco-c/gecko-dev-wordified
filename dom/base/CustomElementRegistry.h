@@ -1287,7 +1287,7 @@ queue
 The
 choice
 of
-1
+3
 for
 the
 auto
@@ -1296,8 +1296,13 @@ here
 is
 based
 on
-gut
-feeling
+running
+Custom
+Elements
+/
+/
+wpt
+tests
 .
 typedef
 AutoTArray
@@ -1306,7 +1311,7 @@ RefPtr
 <
 Element
 >
-1
+3
 >
 ElementQueue
 ;
