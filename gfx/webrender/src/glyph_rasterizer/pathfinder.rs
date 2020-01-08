@@ -2019,6 +2019,10 @@ RenderTask
 new_glyph
 (
 location
+.
+clone
+(
+)
 mesh
 &
 glyph_origin
@@ -2087,6 +2091,8 @@ RenderTargetKind
 :
 :
 Color
+&
+location
 )
 ;
 Ok
