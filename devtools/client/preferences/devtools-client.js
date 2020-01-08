@@ -2811,7 +2811,7 @@ webconsole
 .
 inputHistoryCount
 "
-50
+300
 )
 ;
 /
