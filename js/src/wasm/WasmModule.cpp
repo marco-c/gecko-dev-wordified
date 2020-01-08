@@ -605,7 +605,7 @@ tier
 Tier
 :
 :
-Ion
+Optimized
 )
 ;
 /
@@ -797,7 +797,7 @@ codeTier
 Tier
 :
 :
-Ion
+Optimized
 )
 .
 lazyStubs
@@ -929,7 +929,7 @@ codeTier
 Tier
 :
 :
-Ion
+Optimized
 )
 ;
 Maybe
@@ -1029,7 +1029,7 @@ segment
 Tier
 :
 :
-Ion
+Optimized
 )
 .
 base
@@ -1048,7 +1048,7 @@ metadata
 Tier
 :
 :
-Ion
+Optimized
 )
 .
 codeRanges

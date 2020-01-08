@@ -15978,8 +15978,8 @@ fail
 (
 "
 expected
-function
-bodies
+code
+section
 "
 )
 ;
@@ -17590,6 +17590,10 @@ CompileMode
 :
 Once
 Tier
+:
+:
+Optimized
+OptimizedBackend
 :
 :
 Ion

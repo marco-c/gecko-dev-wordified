@@ -320,6 +320,9 @@ bool
 baselineEnabled
 ;
 bool
+forceCranelift
+;
+bool
 debugEnabled
 ;
 bool
@@ -354,6 +357,10 @@ scriptedCaller
 )
 )
 baselineEnabled
+(
+false
+)
+forceCranelift
 (
 false
 )
