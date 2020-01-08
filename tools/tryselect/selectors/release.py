@@ -522,12 +522,6 @@ optimize_target_tasks
 True
             
 '
-include_nightly
-'
-:
-True
-            
-'
 release_type
 '
 :

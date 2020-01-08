@@ -188,86 +188,6 @@ target_tasks_method
 '
 try_tasks
 '
-        
-#
-By
-default
-the
-try_option_syntax
-target_task_method
-ignores
-this
-        
-#
-parameter
-and
-enables
-/
-disables
-nightlies
-depending
-whether
-        
-#
--
--
-include
--
-nightly
-is
-specified
-in
-the
-commit
-message
-.
-        
-#
-We
-'
-re
-setting
-the
-include_nightly
-parameter
-to
-True
-here
-for
-when
-        
-#
-we
-submit
-decision
-tasks
-against
-Try
-that
-use
-other
-        
-#
-target_task_method
-s
-like
-nightly_fennec
-or
-mozilla_beta_tasks
-        
-#
-which
-reference
-the
-include_nightly
-parameter
-.
-        
-'
-include_nightly
-'
-:
-True
     
 }
     
@@ -288,12 +208,6 @@ target_tasks_method
 '
 try_tasks
 '
-        
-'
-include_nightly
-'
-:
-True
     
 }
     
@@ -316,12 +230,6 @@ optimize_target_tasks
 '
 :
 True
-        
-'
-include_nightly
-'
-:
-False
     
 }
     
@@ -344,12 +252,6 @@ optimize_target_tasks
 '
 :
 True
-        
-'
-include_nightly
-'
-:
-False
     
 }
     
@@ -372,12 +274,6 @@ optimize_target_tasks
 '
 :
 True
-        
-'
-include_nightly
-'
-:
-False
     
 }
     
@@ -402,12 +298,6 @@ optimize_target_tasks
 '
 :
 True
-        
-'
-include_nightly
-'
-:
-False
         
 '
 release_type
@@ -437,12 +327,6 @@ mozilla_beta_tasks
         
 '
 optimize_target_tasks
-'
-:
-True
-        
-'
-include_nightly
 '
 :
 True
@@ -480,12 +364,6 @@ optimize_target_tasks
 True
         
 '
-include_nightly
-'
-:
-True
-        
-'
 release_type
 '
 :
@@ -513,12 +391,6 @@ mozilla_esr60_tasks
         
 '
 optimize_target_tasks
-'
-:
-True
-        
-'
-include_nightly
 '
 :
 True
@@ -556,12 +428,6 @@ optimize_target_tasks
 True
         
 '
-include_nightly
-'
-:
-True
-        
-'
 release_type
 '
 :
@@ -589,12 +455,6 @@ mozilla_esr60_tasks
         
 '
 optimize_target_tasks
-'
-:
-True
-        
-'
-include_nightly
 '
 :
 True
@@ -628,12 +488,6 @@ optimize_target_tasks
 '
 :
 True
-        
-'
-include_nightly
-'
-:
-False
     
 }
     
@@ -671,12 +525,6 @@ optimize_target_tasks
 '
 :
 True
-        
-'
-include_nightly
-'
-:
-False
     
 }
 }
