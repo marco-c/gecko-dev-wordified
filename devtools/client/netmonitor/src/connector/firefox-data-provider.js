@@ -468,6 +468,7 @@ cause
 startedDateTime
 fromCache
 fromServiceWorker
+isTrackingResource
 }
 =
 data
@@ -563,6 +564,7 @@ cause
 stacktrace
 fromCache
 fromServiceWorker
+isTrackingResource
 }
 true
 )
@@ -1696,6 +1698,7 @@ method
 url
 }
 startedDateTime
+isTrackingResource
 }
 =
 networkInfo
@@ -1714,6 +1717,7 @@ isXHR
 method
 startedDateTime
 url
+isTrackingResource
 }
 )
 ;
