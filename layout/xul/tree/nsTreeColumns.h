@@ -399,14 +399,8 @@ dom
 :
 Element
 *
-GetElement
+Element
 (
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 nsTreeColumns
