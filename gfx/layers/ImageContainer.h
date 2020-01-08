@@ -4289,12 +4289,6 @@ mIsAsync
 CompositableHandle
 mAsyncContainerHandle
 ;
-nsTArray
-<
-FrameID
->
-mFrameIDsNotYetComposited
-;
 /
 /
 ProducerID
@@ -4305,13 +4299,6 @@ image
 (
 s
 )
-including
-the
-frames
-in
-/
-/
-mFrameIDsNotYetComposited
 ProducerID
 mCurrentProducerID
 ;
