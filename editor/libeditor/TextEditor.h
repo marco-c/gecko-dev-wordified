@@ -1999,6 +1999,16 @@ TextEditor
 (
 )
 ;
+int32_t
+WrapWidth
+(
+)
+const
+{
+return
+mWrapColumn
+;
+}
 /
 *
 *
