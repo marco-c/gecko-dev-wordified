@@ -1047,6 +1047,15 @@ DW_AT_call_line
 0x59
 /
 /
+DWARF
+4
+values
+.
+DW_AT_linkage_name
+=
+0x6e
+/
+/
 SGI
 /
 MIPS

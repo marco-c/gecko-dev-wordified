@@ -2516,6 +2516,12 @@ case
 dwarf2reader
 :
 :
+DW_AT_linkage_name
+:
+case
+dwarf2reader
+:
+:
 DW_AT_MIPS_linkage_name
 :
 {
