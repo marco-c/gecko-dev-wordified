@@ -11205,9 +11205,6 @@ SpeechSynthesisErrorEvent
 insecureContext
 :
 true
-android
-:
-false
 }
 /
 /
@@ -11234,9 +11231,6 @@ SpeechSynthesisEvent
 insecureContext
 :
 true
-android
-:
-false
 }
 /
 /
@@ -11263,9 +11257,6 @@ SpeechSynthesis
 insecureContext
 :
 true
-android
-:
-false
 }
 /
 /
@@ -11292,9 +11283,6 @@ SpeechSynthesisUtterance
 insecureContext
 :
 true
-android
-:
-false
 }
 /
 /
@@ -11321,9 +11309,6 @@ SpeechSynthesisVoice
 insecureContext
 :
 true
-android
-:
-false
 }
 /
 /
