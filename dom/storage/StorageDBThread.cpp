@@ -1748,7 +1748,7 @@ StorageDBThread
 :
 SyncPreload
 "
-STORAGE
+OTHER
 )
 ;
 if
