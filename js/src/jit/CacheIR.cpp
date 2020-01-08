@@ -10566,7 +10566,7 @@ jitSupportsFloatingPoint
 cx_
 -
 >
-compartment
+zone
 (
 )
 -
@@ -13404,7 +13404,7 @@ obj
 cx_
 -
 >
-compartment
+zone
 (
 )
 -
@@ -20625,7 +20625,7 @@ jitSupportsFloatingPoint
 cx_
 -
 >
-compartment
+zone
 (
 )
 -
@@ -23117,7 +23117,7 @@ objects
 /
 in
 the
-compartment
+zone
 could
 be
 detached
@@ -23126,8 +23126,6 @@ the
 stub
 will
 always
-/
-/
 bail
 out
 .
@@ -23136,7 +23134,7 @@ if
 cx_
 -
 >
-compartment
+zone
 (
 )
 -
