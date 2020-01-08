@@ -773,10 +773,10 @@ Xrays
 involved
 .
 return
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 fun
 )
