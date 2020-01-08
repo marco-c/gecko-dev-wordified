@@ -17195,6 +17195,7 @@ new
 AudioSinkWrapper
 (
 mTaskQueue
+mAudioQueue
 audioSinkCreator
 )
 ;
