@@ -923,9 +923,11 @@ if
 !
 tableAlloc
 )
+{
 return
 false
 ;
+}
 for
 (
 uint32_t
@@ -941,6 +943,7 @@ i
 +
 +
 )
+{
 tableAlloc
 [
 i
@@ -948,6 +951,7 @@ i
 =
 nullptr
 ;
+}
 uint32_t
 capacity
 =
@@ -1456,9 +1460,11 @@ rehash
 newHashShift
 )
 )
+{
 return
 false
 ;
+}
 }
 h
 >
@@ -1774,9 +1780,11 @@ hashShift
 1
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -2611,6 +2619,7 @@ if
 (
 next
 )
+{
 next
 -
 >
@@ -2619,6 +2628,7 @@ prevp
 &
 next
 ;
+}
 seek
 (
 )
@@ -2677,6 +2687,7 @@ if
 (
 next
 )
+{
 next
 -
 >
@@ -2685,6 +2696,7 @@ prevp
 &
 next
 ;
+}
 }
 ~
 Range
@@ -2700,6 +2712,7 @@ if
 (
 next
 )
+{
 next
 -
 >
@@ -2707,6 +2720,7 @@ prevp
 =
 prevp
 ;
+}
 }
 private
 :
@@ -2766,10 +2780,12 @@ element
 )
 )
 )
+{
 i
 +
 +
 ;
+}
 }
 /
 *
@@ -2817,10 +2833,12 @@ j
 <
 i
 )
+{
 count
 -
 -
 ;
+}
 if
 (
 j
@@ -2828,10 +2846,12 @@ j
 =
 i
 )
+{
 seek
 (
 )
 ;
+}
 }
 /
 *
@@ -3468,6 +3488,7 @@ ep
 &
 entry
 )
+{
 ep
 =
 &
@@ -3479,6 +3500,7 @@ ep
 >
 chain
 ;
+}
 *
 ep
 =
@@ -3585,6 +3607,7 @@ ep
 &
 entry
 )
+{
 ep
 =
 &
@@ -3596,6 +3619,7 @@ ep
 >
 chain
 ;
+}
 entry
 .
 chain
@@ -3955,8 +3979,10 @@ current
 =
 newKey
 )
+{
 return
 ;
+}
 Data
 *
 entry
@@ -3975,8 +4001,10 @@ if
 !
 entry
 )
+{
 return
 ;
+}
 HashNumber
 oldHash
 =
@@ -4089,6 +4117,7 @@ ep
 =
 entry
 )
+{
 ep
 =
 &
@@ -4100,6 +4129,7 @@ ep
 >
 chain
 ;
+}
 *
 ep
 =
@@ -4203,6 +4233,7 @@ ep
 >
 entry
 )
+{
 ep
 =
 &
@@ -4214,6 +4245,7 @@ ep
 >
 chain
 ;
+}
 entry
 -
 >
@@ -4617,6 +4649,7 @@ p
 data
 ;
 )
+{
 (
 -
 -
@@ -4629,6 +4662,7 @@ Data
 (
 )
 ;
+}
 }
 void
 freeData
@@ -4713,9 +4747,11 @@ element
 l
 )
 )
+{
 return
 e
 ;
+}
 }
 return
 nullptr
@@ -4855,6 +4891,7 @@ i
 +
 +
 )
+{
 hashTable
 [
 i
@@ -4862,6 +4899,7 @@ i
 =
 nullptr
 ;
+}
 Data
 *
 wp
@@ -4942,6 +4980,7 @@ rp
 =
 wp
 )
+{
 wp
 -
 >
@@ -4958,6 +4997,7 @@ rp
 element
 )
 ;
+}
 wp
 -
 >
@@ -4998,6 +5038,7 @@ wp
 =
 end
 )
+{
 (
 -
 -
@@ -5010,6 +5051,7 @@ Data
 (
 )
 ;
+}
 dataLength
 =
 liveCount
@@ -5162,9 +5204,11 @@ if
 !
 newHashTable
 )
+{
 return
 false
 ;
+}
 for
 (
 uint32_t
@@ -5180,6 +5224,7 @@ i
 +
 +
 )
+{
 newHashTable
 [
 i
@@ -5187,6 +5232,7 @@ i
 =
 nullptr
 ;
+}
 uint32_t
 newCapacity
 =
@@ -6064,8 +6110,10 @@ if
 !
 e
 )
+{
 return
 ;
+}
 return
 impl
 .

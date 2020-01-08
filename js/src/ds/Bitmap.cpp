@@ -162,6 +162,7 @@ popFront
 (
 )
 )
+{
 js_delete
 (
 r
@@ -175,6 +176,7 @@ value
 )
 )
 ;
+}
 }
 size_t
 SparseBitmap
@@ -227,6 +229,7 @@ popFront
 (
 )
 )
+{
 size
 +
 =
@@ -243,6 +246,7 @@ value
 )
 )
 ;
+}
 return
 size
 ;
@@ -302,6 +306,7 @@ blockId
 block
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -312,6 +317,7 @@ OOM
 "
 )
 ;
+}
 std
 :
 :
@@ -378,6 +384,7 @@ if
 (
 block
 )
+{
 return
 (
 *
@@ -403,6 +410,7 @@ JS_BITS_PER_WORD
 )
 )
 ;
+}
 return
 false
 ;
@@ -642,6 +650,7 @@ i
 +
 +
 )
+{
 block
 [
 i
@@ -653,6 +662,7 @@ otherBlock
 i
 ]
 ;
+}
 }
 }
 void
@@ -769,6 +779,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT
 (
 !
@@ -778,6 +789,7 @@ i
 ]
 )
 ;
+}
 #
 endif
 for
@@ -795,6 +807,7 @@ i
 +
 +
 )
+{
 other
 .
 word
@@ -810,6 +823,7 @@ block
 i
 ]
 ;
+}
 }
 }
 void
@@ -901,6 +915,7 @@ i
 +
 +
 )
+{
 target
 [
 i
@@ -919,5 +934,6 @@ blockWord
 i
 ]
 ;
+}
 }
 }

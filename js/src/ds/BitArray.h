@@ -301,6 +301,7 @@ if
 (
 value
 )
+{
 map
 [
 numSlots
@@ -311,6 +312,7 @@ numSlots
 =
 paddingMask
 ;
+}
 }
 inline
 bool
@@ -437,9 +439,11 @@ map
 i
 ]
 )
+{
 return
 false
 ;
+}
 }
 return
 true

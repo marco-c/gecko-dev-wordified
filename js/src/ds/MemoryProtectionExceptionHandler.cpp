@@ -456,10 +456,12 @@ B
 .
 first
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 A
@@ -470,9 +472,11 @@ B
 .
 last
 )
+{
 return
 1
 ;
+}
 return
 0
 ;
@@ -600,6 +604,7 @@ size
 )
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -614,6 +619,7 @@ ID
 "
 )
 ;
+}
 }
 void
 remove
@@ -660,9 +666,11 @@ if
 !
 addr
 )
+{
 return
 false
 ;
+}
 LockGuard
 <
 Mutex
@@ -851,6 +859,7 @@ sExceptionHandlerInstalled
 &
 sProtectedRegionsInit
 )
+{
 sProtectedRegions
 .
 insert
@@ -862,6 +871,7 @@ addr
 size
 )
 ;
+}
 }
 void
 MemoryProtectionExceptionHandler
@@ -881,6 +891,7 @@ sExceptionHandlerInstalled
 &
 sProtectedRegionsInit
 )
+{
 sProtectedRegions
 .
 remove
@@ -891,6 +902,7 @@ addr
 )
 )
 ;
+}
 }
 /
 *
@@ -1526,9 +1538,11 @@ isDisabled
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Install
@@ -1919,6 +1933,7 @@ sa_flags
 &
 SA_SIGINFO
 )
+{
 sPrevSEGVHandler
 .
 sa_sigaction
@@ -1928,6 +1943,7 @@ info
 context
 )
 ;
+}
 else
 if
 (
@@ -1946,6 +1962,7 @@ sa_handler
 =
 SIG_IGN
 )
+{
 sigaction
 (
 SIGSEGV
@@ -1954,7 +1971,9 @@ sPrevSEGVHandler
 nullptr
 )
 ;
+}
 else
+{
 sPrevSEGVHandler
 .
 sa_handler
@@ -1962,6 +1981,7 @@ sa_handler
 signum
 )
 ;
+}
 /
 /
 If
@@ -2043,9 +2063,11 @@ isDisabled
 (
 )
 )
+{
 return
 true
 ;
+}
 /
 /
 Install
@@ -3779,6 +3801,7 @@ ret
 =
 MACH_MSG_SUCCESS
 )
+{
 MOZ_CRASH
 (
 "
@@ -3794,6 +3817,7 @@ message
 "
 )
 ;
+}
 /
 /
 Terminate
@@ -3817,8 +3841,10 @@ msgh_id
 =
 sIDQuit
 )
+{
 return
 ;
+}
 /
 /
 The
@@ -3853,6 +3879,7 @@ msgh_id
 =
 sIDRequest64
 )
+{
 MOZ_CRASH
 (
 "
@@ -3865,6 +3892,7 @@ ID
 "
 )
 ;
+}
 /
 /
 Make
@@ -3894,6 +3922,7 @@ code_count
 =
 2
 )
+{
 MOZ_CRASH
 (
 "
@@ -3906,6 +3935,7 @@ type
 "
 )
 ;
+}
 /
 /
 Get
@@ -4112,6 +4142,7 @@ ret
 =
 KERN_SUCCESS
 )
+{
 MOZ_CRASH
 (
 "
@@ -4129,6 +4160,7 @@ forward
 "
 )
 ;
+}
 }
 /
 /
@@ -4450,6 +4482,7 @@ ret
 =
 MACH_MSG_SUCCESS
 )
+{
 MOZ_CRASH
 (
 "
@@ -4466,6 +4499,7 @@ handler
 "
 )
 ;
+}
 }
 else
 {
@@ -4641,6 +4675,7 @@ ret
 =
 MACH_MSG_SUCCESS
 )
+{
 MOZ_CRASH
 (
 "
@@ -4657,6 +4692,7 @@ level
 "
 )
 ;
+}
 }
 }
 static
@@ -4760,6 +4796,7 @@ ret
 =
 MACH_MSG_SUCCESS
 )
+{
 sMachExceptionState
 -
 >
@@ -4769,7 +4806,9 @@ join
 (
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -4784,6 +4823,7 @@ terminate
 "
 )
 ;
+}
 }
 bool
 MemoryProtectionExceptionHandler
@@ -4826,9 +4866,11 @@ isDisabled
 (
 )
 )
+{
 return
 true
 ;
+}
 sMachExceptionState
 =
 js_new
@@ -4843,9 +4885,11 @@ if
 !
 sMachExceptionState
 )
+{
 return
 false
 ;
+}
 kern_return_t
 ret
 ;
@@ -4903,9 +4947,11 @@ ret
 =
 KERN_SUCCESS
 )
+{
 return
 false
 ;
+}
 /
 /
 Give

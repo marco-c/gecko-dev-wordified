@@ -271,6 +271,7 @@ predicate
 it
 )
 )
+{
 it
 =
 it
@@ -280,6 +281,7 @@ enclosing
 (
 )
 ;
+}
 return
 it
 ;
@@ -316,6 +318,7 @@ T
 (
 )
 )
+{
 it
 =
 it
@@ -325,6 +328,7 @@ enclosing
 (
 )
 ;
+}
 return
 it
 ?
@@ -409,6 +413,7 @@ T
 )
 )
 )
+{
 it
 =
 it
@@ -418,6 +423,7 @@ enclosing
 (
 )
 ;
+}
 return
 it
 ?

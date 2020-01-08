@@ -404,9 +404,11 @@ if
 !
 root
 )
+{
 return
 nullptr
 ;
+}
 Node
 *
 last
@@ -462,9 +464,11 @@ if
 !
 root
 )
+{
 return
 false
 ;
+}
 Node
 *
 last
@@ -541,9 +545,11 @@ if
 !
 element
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -768,6 +774,7 @@ swap
 >
 right
 )
+{
 swap
 =
 swap
@@ -775,6 +782,7 @@ swap
 >
 right
 ;
+}
 swapChild
 =
 swap
@@ -806,6 +814,7 @@ swap
 >
 left
 )
+{
 swap
 =
 swap
@@ -813,6 +822,7 @@ swap
 >
 left
 ;
+}
 swapChild
 =
 swap
@@ -875,6 +885,7 @@ parent
 >
 left
 )
+{
 swap
 -
 >
@@ -885,7 +896,9 @@ left
 =
 swapChild
 ;
+}
 else
+{
 swap
 -
 >
@@ -896,10 +909,12 @@ right
 =
 swapChild
 ;
+}
 if
 (
 swapChild
 )
+{
 swapChild
 -
 >
@@ -910,6 +925,7 @@ swap
 >
 parent
 ;
+}
 root
 -
 >
@@ -1007,9 +1023,11 @@ c
 =
 0
 )
+{
 return
 node
 ;
+}
 else
 if
 (
@@ -1017,6 +1035,7 @@ c
 <
 0
 )
+{
 node
 =
 node
@@ -1024,7 +1043,9 @@ node
 >
 left
 ;
+}
 else
+{
 node
 =
 node
@@ -1032,6 +1053,7 @@ node
 >
 right
 ;
+}
 }
 while
 (
@@ -1369,6 +1391,7 @@ node
 >
 right
 )
+{
 node
 -
 >
@@ -1379,6 +1402,7 @@ parent
 =
 parent
 ;
+}
 node
 -
 >
@@ -1436,6 +1460,7 @@ node
 >
 left
 )
+{
 node
 -
 >
@@ -1446,6 +1471,7 @@ parent
 =
 parent
 ;
+}
 node
 -
 >
@@ -1493,6 +1519,7 @@ left
 =
 parent
 )
+{
 grandparent
 -
 >
@@ -1500,7 +1527,9 @@ left
 =
 node
 ;
+}
 else
+{
 grandparent
 -
 >
@@ -1508,6 +1537,7 @@ right
 =
 node
 ;
+}
 }
 else
 {
@@ -1537,8 +1567,10 @@ if
 !
 node
 )
+{
 return
 ;
+}
 forEachInner
 <
 Op
@@ -1586,15 +1618,19 @@ if
 !
 enableCheckCoherency
 )
+{
 return
 ;
+}
 if
 (
 !
 root
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 root
@@ -2022,8 +2058,10 @@ right
 =
 nullptr
 )
+{
 break
 ;
+}
 }
 if
 (
@@ -2092,8 +2130,10 @@ right
 =
 nullptr
 )
+{
 return
 ;
+}
 }
 /
 /
