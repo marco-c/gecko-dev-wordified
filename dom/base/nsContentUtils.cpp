@@ -26972,8 +26972,6 @@ nsAString
 aFragment
 bool
 aPreventScriptExecution
-SanitizeFragments
-aSanitize
 ErrorResult
 &
 aRv
@@ -27221,7 +27219,6 @@ GetCompatibilityMode
 eCompatibility_NavQuirks
 )
 aPreventScriptExecution
-aSanitize
 )
 ;
 }
@@ -27250,7 +27247,6 @@ GetCompatibilityMode
 eCompatibility_NavQuirks
 )
 aPreventScriptExecution
-aSanitize
 )
 ;
 }
@@ -27706,7 +27702,6 @@ getter_AddRefs
 (
 frag
 )
-aSanitize
 )
 ;
 return
@@ -27794,8 +27789,6 @@ bool
 aQuirks
 bool
 aPreventScriptExecution
-SanitizeFragments
-aSanitize
 )
 {
 AutoTimelineMarker
@@ -27925,12 +27918,6 @@ fragment
 ;
 if
 (
-aSanitize
-!
-=
-NeverSanitize
-&
-&
 IsSystemPrincipal
 (
 aTargetNode
@@ -28222,8 +28209,6 @@ DocumentFragment
 *
 *
 aReturn
-SanitizeFragments
-aSanitize
 )
 {
 AutoTimelineMarker
@@ -28483,12 +28468,6 @@ returning
 .
 if
 (
-aSanitize
-!
-=
-NeverSanitize
-&
-&
 IsSystemPrincipal
 (
 aDocument
