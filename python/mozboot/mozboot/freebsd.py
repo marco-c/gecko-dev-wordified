@@ -435,9 +435,11 @@ package
         
 self
 .
-ensure_rust_package
+pkg_install
 (
 '
+rust
+-
 cbindgen
 '
 )
