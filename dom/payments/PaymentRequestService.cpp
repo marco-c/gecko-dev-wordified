@@ -144,6 +144,13 @@ BasicCardPayment
 .
 h
 "
+#
+include
+"
+nsSimpleEnumerator
+.
+h
+"
 namespace
 mozilla
 {
@@ -163,11 +170,10 @@ PaymentRequestEnumerator
 final
 :
 public
-nsISimpleEnumerator
+nsSimpleEnumerator
 {
 public
 :
-NS_DECL_ISUPPORTS
 NS_DECL_NSISIMPLEENUMERATOR
 PaymentRequestEnumerator
 (
@@ -185,6 +191,7 @@ private
 PaymentRequestEnumerator
 (
 )
+override
 =
 default
 ;
@@ -193,11 +200,6 @@ mIndex
 ;
 }
 ;
-NS_IMPL_ISUPPORTS
-(
-PaymentRequestEnumerator
-nsISimpleEnumerator
-)
 NS_IMETHODIMP
 PaymentRequestEnumerator
 :

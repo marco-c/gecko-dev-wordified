@@ -79010,7 +79010,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 >
 entries
 ;

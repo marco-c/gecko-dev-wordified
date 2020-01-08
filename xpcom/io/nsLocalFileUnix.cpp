@@ -390,7 +390,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsSimpleEnumerator
 .
 h
 "
@@ -600,6 +600,8 @@ nsDirEnumeratorUnix
 final
 :
 public
+nsSimpleEnumerator
+public
 nsIDirectoryEnumerator
 {
 public
@@ -612,7 +614,7 @@ nsDirEnumeratorUnix
 /
 nsISupports
 interface
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 /
 /
 nsISimpleEnumerator
@@ -639,6 +641,7 @@ private
 nsDirEnumeratorUnix
 (
 )
+override
 ;
 protected
 :
@@ -691,10 +694,10 @@ Close
 )
 ;
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsDirEnumeratorUnix
-nsISimpleEnumerator
+nsSimpleEnumerator
 nsIDirectoryEnumerator
 )
 NS_IMETHODIMP
@@ -5692,9 +5695,9 @@ nsDirEnumeratorUnix
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsISimpleEnumerator
+nsSimpleEnumerator
 >
 dirRef
 (

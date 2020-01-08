@@ -284,7 +284,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsSimpleEnumerator
 .
 h
 "
@@ -396,13 +396,13 @@ class
 BaseStringEnumerator
 :
 public
-nsISimpleEnumerator
+nsSimpleEnumerator
 private
 nsIUTF8StringEnumerator
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSISIMPLEENUMERATOR
 NS_DECL_NSIUTF8STRINGENUMERATOR
 protected
@@ -510,10 +510,10 @@ mStringCurItem
 ;
 }
 ;
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 BaseStringEnumerator
-nsISimpleEnumerator
+nsSimpleEnumerator
 nsIUTF8StringEnumerator
 )
 NS_IMETHODIMP

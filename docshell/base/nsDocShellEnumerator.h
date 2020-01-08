@@ -123,7 +123,7 @@ nsDocShellEnumerator_h___
 #
 include
 "
-nsISimpleEnumerator
+nsSimpleEnumerator
 .
 h
 "
@@ -250,7 +250,7 @@ class
 nsDocShellEnumerator
 :
 public
-nsISimpleEnumerator
+nsSimpleEnumerator
 {
 protected
 :
@@ -275,10 +275,6 @@ int32_t
 aEnumerationDirection
 )
 ;
-/
-/
-nsISupports
-NS_DECL_ISUPPORTS
 /
 /
 nsISimpleEnumerator

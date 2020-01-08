@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsSimpleEnumerator
 .
 h
 "
@@ -362,7 +362,7 @@ WorkerDebuggerEnumerator
 final
 :
 public
-nsISimpleEnumerator
+nsSimpleEnumerator
 {
 nsTArray
 <
@@ -403,7 +403,6 @@ mIndex
 )
 {
 }
-NS_DECL_ISUPPORTS
 NS_DECL_NSISIMPLEENUMERATOR
 private
 :
@@ -411,15 +410,11 @@ private
 WorkerDebuggerEnumerator
 (
 )
-{
-}
-}
+override
+=
+default
 ;
-NS_IMPL_ISUPPORTS
-(
-WorkerDebuggerEnumerator
-nsISimpleEnumerator
-)
+}
 ;
 NS_IMETHODIMP
 WorkerDebuggerEnumerator

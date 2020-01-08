@@ -116,7 +116,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsSimpleEnumerator
 .
 h
 "
@@ -257,7 +257,7 @@ class
 nsAppShellWindowEnumerator
 :
 public
-nsISimpleEnumerator
+nsSimpleEnumerator
 {
 friend
 class
@@ -297,14 +297,13 @@ retval
 )
 override
 ;
-NS_DECL_ISUPPORTS
 protected
 :
-virtual
 ~
 nsAppShellWindowEnumerator
 (
 )
+override
 ;
 void
 AdjustInitialPosition

@@ -88,14 +88,14 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsIWritablePropertyBag2
 .
 h
 "
 #
 include
 "
-nsIWritablePropertyBag2
+nsSimpleEnumerator
 .
 h
 "
@@ -104,11 +104,10 @@ nsIEHistoryEnumerator
 final
 :
 public
-nsISimpleEnumerator
+nsSimpleEnumerator
 {
 public
 :
-NS_DECL_ISUPPORTS
 NS_DECL_NSISIMPLEENUMERATOR
 nsIEHistoryEnumerator
 (
@@ -120,6 +119,7 @@ private
 nsIEHistoryEnumerator
 (
 )
+override
 ;
 /
 *

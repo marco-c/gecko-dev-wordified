@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h
@@ -655,11 +648,6 @@ someData
 ;
 }
 }
-NS_IMPL_ISUPPORTS
-(
-nsObserverEnumerator
-nsISimpleEnumerator
-)
 nsObserverEnumerator
 :
 :
