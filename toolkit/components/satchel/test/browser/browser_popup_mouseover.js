@@ -369,7 +369,7 @@ be
 navigate
 to
 the
-firt
+first
 item
 await
 BrowserTestUtils
