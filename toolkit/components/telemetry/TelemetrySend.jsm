@@ -6760,7 +6760,7 @@ sendPersistedPings
 ;
 if
 (
-TelemetryStorage
+this
 .
 pendingPingCount
 <

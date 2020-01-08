@@ -5499,14 +5499,6 @@ _startupIO
 ioCounter
 ]
 ;
-ret
-.
-savedPings
-=
-TelemetryStorage
-.
-pendingPingCount
-;
 let
 activeTicks
 =
