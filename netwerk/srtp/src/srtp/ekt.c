@@ -1043,7 +1043,7 @@ key_len
 {
 #
 ifndef
-OPENSSL
+GCM
 /
 /
 FIXME

@@ -557,8 +557,6 @@ i
 +
 )
 {
-delta
-=
 srtp_index_guess
 (
 &

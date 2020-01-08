@@ -440,7 +440,7 @@ void
 ;
 #
 ifdef
-OPENSSL
+GCM
 srtp_err_status_t
 srtp_validate_gcm
 (
@@ -457,7 +457,7 @@ void
 ;
 #
 ifdef
-OPENSSL
+GCM
 srtp_err_status_t
 srtp_validate_encrypted_extensions_headers_gcm
 (
@@ -497,7 +497,7 @@ void
 ;
 #
 ifdef
-OPENSSL
+GCM
 srtp_err_status_t
 srtp_test_empty_payload_gcm
 (
@@ -2435,7 +2435,7 @@ exit
 }
 #
 ifdef
-OPENSSL
+GCM
 printf
 (
 "
@@ -2556,7 +2556,7 @@ exit
 }
 #
 ifdef
-OPENSSL
+GCM
 printf
 (
 "
@@ -2768,7 +2768,7 @@ exit
 }
 #
 ifdef
-OPENSSL
+GCM
 printf
 (
 "
@@ -6421,6 +6421,8 @@ packet
 .
 *
 /
+err_check
+(
 srtp_get_protect_trailer_length
 (
 srtp_sender
@@ -6428,6 +6430,7 @@ use_mki
 mki_index
 &
 tag_length
+)
 )
 ;
 pkt_end
@@ -8110,6 +8113,16 @@ rcvr_policy
 NULL
 )
 {
+free
+(
+hdr
+)
+;
+free
+(
+hdr2
+)
+;
 return
 srtp_err_status_alloc_fail
 ;
@@ -9870,6 +9883,18 @@ clock
 -
 t
 ;
+if
+(
+t
+<
+1
+)
+{
+t
+=
+1
+;
+}
 /
 *
 printf
@@ -10733,7 +10758,7 @@ srtp_err_status_ok
 }
 #
 ifdef
-OPENSSL
+GCM
 /
 *
 *
@@ -12311,7 +12336,7 @@ srtp_err_status_ok
 }
 #
 ifdef
-OPENSSL
+GCM
 /
 *
 *
@@ -14185,7 +14210,7 @@ srtp_err_status_ok
 }
 #
 ifdef
-OPENSSL
+GCM
 srtp_err_status_t
 srtp_test_empty_payload_gcm
 (
@@ -14524,7 +14549,7 @@ srtp_err_status_ok
 endif
 /
 /
-OPENSSL
+GCM
 srtp_err_status_t
 srtp_test_remove_stream
 (
@@ -15913,7 +15938,7 @@ policy_mki
 ;
 #
 ifdef
-OPENSSL
+GCM
 srtp_policy_t
 policy_aes_gcm
 ;
@@ -15924,7 +15949,7 @@ policy_aes_gcm_mki
 endif
 /
 /
-OPENSSL
+GCM
 memset
 (
 &
@@ -16069,7 +16094,7 @@ num_master_keys
 ;
 #
 ifdef
-OPENSSL
+GCM
 memset
 (
 &
@@ -16214,6 +16239,9 @@ num_master_keys
 ;
 #
 endif
+/
+/
+GCM
 /
 *
 create
@@ -16261,7 +16289,7 @@ status
 ;
 #
 ifdef
-OPENSSL
+GCM
 status
 =
 srtp_create
@@ -16298,7 +16326,7 @@ status
 endif
 /
 /
-OPENSSL
+GCM
 return
 srtp_err_status_ok
 ;
@@ -16422,7 +16450,7 @@ srtp_err_status_fail
 ;
 #
 ifdef
-OPENSSL
+GCM
 status
 =
 srtp_get_protect_trailer_length
@@ -16507,7 +16535,7 @@ srtp_err_status_fail
 endif
 /
 /
-OPENSSL
+GCM
 srtp_dealloc
 (
 srtp_send
@@ -16520,7 +16548,7 @@ srtp_send_mki
 ;
 #
 ifdef
-OPENSSL
+GCM
 srtp_dealloc
 (
 srtp_send_aes_gcm
@@ -16664,7 +16692,7 @@ srtp_err_status_fail
 ;
 #
 ifdef
-OPENSSL
+GCM
 status
 =
 srtp_get_protect_rtcp_trailer_length
@@ -16757,7 +16785,7 @@ srtp_err_status_fail
 endif
 /
 /
-OPENSSL
+GCM
 srtp_dealloc
 (
 srtp_send
@@ -16770,7 +16798,7 @@ srtp_send_mki
 ;
 #
 ifdef
-OPENSSL
+GCM
 srtp_dealloc
 (
 srtp_send_aes_gcm
@@ -19240,7 +19268,7 @@ NULL
 ;
 #
 ifdef
-OPENSSL
+GCM
 const
 srtp_policy_t
 aes128_gcm_8_policy
@@ -20990,7 +21018,7 @@ aes_only_policy
 default_policy
 #
 ifdef
-OPENSSL
+GCM
 &
 aes128_gcm_8_policy
 &

@@ -1869,6 +1869,18 @@ exit
 )
 ;
 }
+memset
+(
+&
+name
+0
+sizeof
+(
+struct
+sockaddr_in
+)
+)
+;
 name
 .
 sin_addr
@@ -2175,7 +2187,7 @@ gcm_on
 {
 #
 ifdef
-OPENSSL
+GCM
 switch
 (
 key_size
@@ -2241,6 +2253,8 @@ the
 OpenSSL
 "
 "
+or
+NSS
 crypto
 engine
 .
@@ -2403,7 +2417,7 @@ gcm_on
 {
 #
 ifdef
-OPENSSL
+GCM
 switch
 (
 key_size
