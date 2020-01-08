@@ -12272,10 +12272,10 @@ ShouldResistFingerprinting
 )
 {
 return
-DOMPrefs
+StaticPrefs
 :
 :
-ResistFingerprintingEnabled
+privacy_resistFingerprinting
 (
 )
 ;
