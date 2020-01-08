@@ -319,6 +319,12 @@ scheme
 {
 this
 .
+seenTabIcon
+=
+true
+;
+this
+.
 iconLoader
 .
 addDefaultIcon
