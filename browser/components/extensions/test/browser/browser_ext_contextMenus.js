@@ -2869,7 +2869,8 @@ of
 text
 excercise
 the
-nsIDOMNSEditableElement
+editable
+element
 code
 path
 in
