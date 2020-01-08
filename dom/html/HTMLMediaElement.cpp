@@ -42475,7 +42475,7 @@ VIDEO_AS_CONTENT_SOURCE
 ;
 if
 (
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
@@ -42575,7 +42575,7 @@ VIDEO_AS_CONTENT_SOURCE
 ;
 if
 (
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
@@ -42673,7 +42673,7 @@ VIDEO_AS_CONTENT_SOURCE
 ;
 if
 (
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
@@ -42771,7 +42771,7 @@ VIDEO_AS_CONTENT_SOURCE
 ;
 if
 (
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
@@ -42869,7 +42869,7 @@ VIDEO_AS_CONTENT_SOURCE
 ;
 if
 (
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
@@ -42994,7 +42994,7 @@ All
 '
 "
 this
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 static_cast
@@ -43545,7 +43545,7 @@ IsHidden
 (
 )
 mVisibilityState
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
