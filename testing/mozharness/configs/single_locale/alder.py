@@ -353,9 +353,9 @@ MAR_TOOLS_URL
 "
         
 #
-Buildbot
-l10n
-fetches
+Default
+to
+fetching
 from
 ftp
 rather
@@ -366,7 +366,7 @@ environ
 var
         
 "
-http
+https
 :
 /
 /

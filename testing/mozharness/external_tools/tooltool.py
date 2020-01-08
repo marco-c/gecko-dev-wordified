@@ -3485,26 +3485,6 @@ while
 k
 :
                     
-#
-TODO
-:
-print
-statistics
-as
-file
-transfers
-happen
-both
-for
-info
-and
-to
-stop
-                    
-#
-buildbot
-timeouts
-                    
 indata
 =
 f

@@ -1999,9 +1999,6 @@ part
 of
         
 #
-buildbot
-evaluation
-or
 result
 status
 IIUC

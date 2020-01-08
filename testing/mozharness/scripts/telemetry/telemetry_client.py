@@ -684,12 +684,9 @@ kwargs
 #
 Code
 which
-doesn
-'
-t
-run
-on
-buildbot
+runs
+in
+automation
 has
 to
 include

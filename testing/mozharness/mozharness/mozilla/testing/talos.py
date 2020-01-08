@@ -829,7 +829,7 @@ let
 s
 check
 if
-buildbot
+we
 should
 retry
         
@@ -913,21 +913,6 @@ and
 run
 Talos
 tests
-:
-    
-https
-:
-/
-/
-wiki
-.
-mozilla
-.
-org
-/
-Buildbot
-/
-Talos
     
 "
 "

@@ -728,15 +728,6 @@ pass
 -
 -
 branch
-or
--
--
-skip
--
-buildbot
--
-actions
-to
 mozharness
 script
     
@@ -2471,22 +2462,6 @@ params
 project
 '
 ]
-)
-        
-mh_command
-.
-append
-(
-r
-'
--
--
-skip
--
-buildbot
--
-actions
-'
 )
     
 mh_command
