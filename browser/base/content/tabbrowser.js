@@ -15760,7 +15760,7 @@ contextTab
 .
 multiselected
 ?
-this
+gBrowser
 .
 selectedTabs
 :
@@ -15845,7 +15845,7 @@ contextTab
 .
 multiselected
 ?
-this
+gBrowser
 .
 selectedTabs
 :
