@@ -8188,9 +8188,8 @@ mallocSizeOf
 +
 jumpTables_
 .
-sizeOfMiscIncludingThis
+sizeOfMiscExcludingThis
 (
-mallocSizeOf
 )
 ;
 for

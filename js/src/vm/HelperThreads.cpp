@@ -7613,7 +7613,7 @@ wasmCompile
 task
 -
 >
-sizeOfIncludingThis
+sizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -7633,7 +7633,7 @@ wasmCompile
 task
 -
 >
-sizeOfIncludingThis
+sizeOfExcludingThis
 (
 mallocSizeOf
 )
