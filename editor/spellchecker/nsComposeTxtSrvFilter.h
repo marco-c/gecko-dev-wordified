@@ -110,13 +110,6 @@ h
 /
 for
 NS_DECL_ISUPPORTS
-#
-include
-"
-nsITextServicesFilter
-.
-h
-"
 /
 *
 *
@@ -168,7 +161,7 @@ nsComposeTxtSrvFilter
 final
 :
 public
-nsITextServicesFilter
+nsISupports
 {
 public
 :
@@ -184,10 +177,6 @@ interface
 .
 .
 NS_DECL_ISUPPORTS
-/
-/
-nsITextServicesFilter
-NS_DECL_NSITEXTSERVICESFILTER
 /
 /
 Helper
