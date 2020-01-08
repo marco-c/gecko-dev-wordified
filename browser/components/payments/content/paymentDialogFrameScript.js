@@ -602,7 +602,13 @@ waivedContent
 )
 ;
 return
+Cu
+.
+cloneInto
+(
 prefValues
+waivedContent
+)
 ;
 }
 }
