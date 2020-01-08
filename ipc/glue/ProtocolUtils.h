@@ -297,6 +297,15 @@ include
 "
 mozilla
 /
+Scoped
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
