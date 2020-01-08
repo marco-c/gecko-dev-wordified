@@ -5302,7 +5302,7 @@ d
 "
 SPOOFED_UA_OS
 spoofedVersion
-LEGACY_BUILD_ID
+LEGACY_UA_GECKO_TRAIL
 spoofedVersion
 )
 )

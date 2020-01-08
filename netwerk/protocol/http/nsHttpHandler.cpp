@@ -3292,7 +3292,7 @@ mProductSub
 .
 AssignLiteral
 (
-LEGACY_BUILD_ID
+LEGACY_UA_GECKO_TRAIL
 )
 ;
 #

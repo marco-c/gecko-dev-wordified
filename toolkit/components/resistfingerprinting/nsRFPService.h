@@ -456,6 +456,12 @@ Netscape
 define
 LEGACY_BUILD_ID
 "
+20181001000000
+"
+#
+define
+LEGACY_UA_GECKO_TRAIL
+"
 20100101
 "
 /

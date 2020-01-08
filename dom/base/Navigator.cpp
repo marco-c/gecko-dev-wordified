@@ -2582,7 +2582,7 @@ aProductSub
 /
 Legacy
 build
-ID
+date
 hardcoded
 for
 backward
@@ -2595,7 +2595,7 @@ aProductSub
 .
 AssignLiteral
 (
-LEGACY_BUILD_ID
+LEGACY_UA_GECKO_TRAIL
 )
 ;
 }
