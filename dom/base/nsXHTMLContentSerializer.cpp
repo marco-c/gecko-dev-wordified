@@ -935,6 +935,12 @@ GetNameSpaceID
 (
 )
 ;
+MaybeSerializeIsValue
+(
+aElement
+aStr
+)
+;
 /
 /
 this
