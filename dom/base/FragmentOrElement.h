@@ -185,7 +185,7 @@ h
 #
 include
 "
-nsAttrAndChildArray
+AttrArray
 .
 h
 "
@@ -1606,15 +1606,13 @@ Array
 containing
 all
 attributes
-and
-children
 for
 this
 element
 *
 /
-nsAttrAndChildArray
-mAttrsAndChildren
+AttrArray
+mAttrs
 ;
 }
 ;

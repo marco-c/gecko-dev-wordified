@@ -2178,11 +2178,11 @@ rv
 element
 -
 >
-mAttrsAndChildren
+mAttrs
 .
 EnsureCapacityToClone
 (
-mAttrsAndChildren
+mAttrs
 aPreallocateChildren
 )
 ;
@@ -2206,7 +2206,7 @@ mControllers
 uint32_t
 count
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrCount
 (
@@ -2237,7 +2237,7 @@ nsAttrName
 *
 originalName
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrNameAt
 (
@@ -2249,7 +2249,7 @@ nsAttrValue
 *
 originalValue
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrAt
 (
@@ -2362,7 +2362,7 @@ rv
 element
 -
 >
-mAttrsAndChildren
+mAttrs
 .
 SetAndSwapAttr
 (
@@ -2385,7 +2385,7 @@ rv
 element
 -
 >
-mAttrsAndChildren
+mAttrs
 .
 SetAndSwapAttr
 (
@@ -8656,7 +8656,7 @@ IsAtom
 {
 rv
 =
-mAttrsAndChildren
+mAttrs
 .
 SetAndSwapAttr
 (
@@ -8678,7 +8678,7 @@ else
 {
 rv
 =
-mAttrsAndChildren
+mAttrs
 .
 SetAndSwapAttr
 (
@@ -9583,7 +9583,7 @@ int32_t
 i
 count
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrCount
 (
@@ -9609,7 +9609,7 @@ nsAttrName
 *
 name
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrNameAt
 (

@@ -144,7 +144,7 @@ footprint
 #
 include
 "
-nsAttrAndChildArray
+AttrArray
 .
 h
 "
@@ -293,7 +293,7 @@ smallest
 distance
 between
 two
-nsAttrAndChildArray
+AttrArray
 .
 20
 /
@@ -312,7 +312,7 @@ means
 that
 two
 adjacent
-nsAttrAndChildArrays
+AttrArrays
 will
 overlap
 one
@@ -417,7 +417,7 @@ struct
 IndexCacheSlot
 {
 const
-nsAttrAndChildArray
+AttrArray
 *
 array
 ;
@@ -485,7 +485,7 @@ void
 AddIndexToCache
 (
 const
-nsAttrAndChildArray
+AttrArray
 *
 aArray
 int32_t
@@ -525,7 +525,7 @@ int32_t
 GetIndexFromCache
 (
 const
-nsAttrAndChildArray
+AttrArray
 *
 aArray
 )
@@ -661,10 +661,10 @@ void
 *
 )
 )
-nsAttrAndChildArray
+AttrArray
 :
 :
-nsAttrAndChildArray
+AttrArray
 (
 )
 :
@@ -674,11 +674,11 @@ nullptr
 )
 {
 }
-nsAttrAndChildArray
+AttrArray
 :
 :
 ~
-nsAttrAndChildArray
+AttrArray
 (
 )
 {
@@ -702,7 +702,7 @@ mImpl
 ;
 }
 uint32_t
-nsAttrAndChildArray
+AttrArray
 :
 :
 AttrCount
@@ -723,7 +723,7 @@ MappedAttrCount
 const
 nsAttrValue
 *
-nsAttrAndChildArray
+AttrArray
 :
 :
 GetAttr
@@ -908,7 +908,7 @@ nullptr
 const
 nsAttrValue
 *
-nsAttrAndChildArray
+AttrArray
 :
 :
 GetAttr
@@ -1012,7 +1012,7 @@ nullptr
 const
 nsAttrValue
 *
-nsAttrAndChildArray
+AttrArray
 :
 :
 GetAttr
@@ -1212,7 +1212,7 @@ nullptr
 const
 nsAttrValue
 *
-nsAttrAndChildArray
+AttrArray
 :
 :
 AttrAt
@@ -1237,7 +1237,7 @@ of
 bounds
 access
 in
-nsAttrAndChildArray
+AttrArray
 "
 )
 ;
@@ -1284,7 +1284,7 @@ nonmapped
 ;
 }
 nsresult
-nsAttrAndChildArray
+AttrArray
 :
 :
 SetAndSwapAttr
@@ -1458,7 +1458,7 @@ NS_OK
 ;
 }
 nsresult
-nsAttrAndChildArray
+AttrArray
 :
 :
 SetAndSwapAttr
@@ -1692,7 +1692,7 @@ NS_OK
 ;
 }
 nsresult
-nsAttrAndChildArray
+AttrArray
 :
 :
 RemoveAttrAt
@@ -1928,7 +1928,7 @@ dom
 :
 :
 BorrowedAttrInfo
-nsAttrAndChildArray
+AttrArray
 :
 :
 AttrInfoAt
@@ -1953,7 +1953,7 @@ of
 bounds
 access
 in
-nsAttrAndChildArray
+AttrArray
 "
 )
 ;
@@ -2030,7 +2030,7 @@ nonmapped
 const
 nsAttrName
 *
-nsAttrAndChildArray
+AttrArray
 :
 :
 AttrNameAt
@@ -2055,7 +2055,7 @@ of
 bounds
 access
 in
-nsAttrAndChildArray
+AttrArray
 "
 )
 ;
@@ -2104,7 +2104,7 @@ nonmapped
 const
 nsAttrName
 *
-nsAttrAndChildArray
+AttrArray
 :
 :
 GetSafeAttrNameAt
@@ -2200,7 +2200,7 @@ nonmapped
 const
 nsAttrName
 *
-nsAttrAndChildArray
+AttrArray
 :
 :
 GetExistingAttrNameFromQName
@@ -2302,7 +2302,7 @@ nullptr
 ;
 }
 int32_t
-nsAttrAndChildArray
+AttrArray
 :
 :
 IndexOfAttr
@@ -2566,7 +2566,7 @@ return
 ;
 }
 nsresult
-nsAttrAndChildArray
+AttrArray
 :
 :
 SetAndSwapMappedAttr
@@ -2650,7 +2650,7 @@ mapped
 ;
 }
 nsresult
-nsAttrAndChildArray
+AttrArray
 :
 :
 DoSetMappedAttrStyleSheet
@@ -2728,7 +2728,7 @@ mapped
 ;
 }
 nsresult
-nsAttrAndChildArray
+AttrArray
 :
 :
 DoUpdateMappedAttrRuleMapper
@@ -2804,7 +2804,7 @@ mapped
 ;
 }
 void
-nsAttrAndChildArray
+AttrArray
 :
 :
 Compact
@@ -2950,7 +2950,7 @@ newSize
 }
 }
 void
-nsAttrAndChildArray
+AttrArray
 :
 :
 Clear
@@ -3034,7 +3034,7 @@ SetAttrSlotAndChildCount
 ;
 }
 uint32_t
-nsAttrAndChildArray
+AttrArray
 :
 :
 NonMappedAttrCount
@@ -3092,7 +3092,7 @@ count
 ;
 }
 uint32_t
-nsAttrAndChildArray
+AttrArray
 :
 :
 MappedAttrCount
@@ -3126,7 +3126,7 @@ Count
 ;
 }
 nsresult
-nsAttrAndChildArray
+AttrArray
 :
 :
 ForceMapped
@@ -3172,7 +3172,7 @@ mapped
 ;
 }
 void
-nsAttrAndChildArray
+AttrArray
 :
 :
 ClearMappedServoStyle
@@ -3204,7 +3204,7 @@ ClearServoStyle
 }
 nsMappedAttributes
 *
-nsAttrAndChildArray
+AttrArray
 :
 :
 GetModifiableMapped
@@ -3281,7 +3281,7 @@ mapRuleFunc
 ;
 }
 nsresult
-nsAttrAndChildArray
+AttrArray
 :
 :
 MakeMappedUnique
@@ -3493,7 +3493,7 @@ NS_OK
 const
 nsMappedAttributes
 *
-nsAttrAndChildArray
+AttrArray
 :
 :
 GetMapped
@@ -3513,13 +3513,13 @@ nullptr
 ;
 }
 nsresult
-nsAttrAndChildArray
+AttrArray
 :
 :
 EnsureCapacityToClone
 (
 const
-nsAttrAndChildArray
+AttrArray
 &
 aOther
 bool
@@ -3531,7 +3531,7 @@ MOZ_ASSERT
 !
 mImpl
 "
-nsAttrAndChildArray
+AttrArray
 :
 :
 EnsureCapacityToClone
@@ -3589,7 +3589,7 @@ have
 already
 allocated
 an
-nsAttrAndChildArray
+AttrArray
 of
 this
 size
@@ -3736,7 +3736,7 @@ NS_OK
 ;
 }
 bool
-nsAttrAndChildArray
+AttrArray
 :
 :
 GrowBy
@@ -4014,7 +4014,7 @@ true
 ;
 }
 bool
-nsAttrAndChildArray
+AttrArray
 :
 :
 AddAttrSlot
@@ -4138,7 +4138,7 @@ true
 ;
 }
 size_t
-nsAttrAndChildArray
+AttrArray
 :
 :
 SizeOfExcludingThis

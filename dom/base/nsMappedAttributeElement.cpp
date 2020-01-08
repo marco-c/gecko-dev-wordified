@@ -164,7 +164,7 @@ GetAttributeStyleSheet
 *
 aRetval
 =
-mAttrsAndChildren
+mAttrs
 .
 SetAndSwapMappedAttr
 (
@@ -234,7 +234,7 @@ GetAttributeStyleSheet
 (
 )
 ;
-mAttrsAndChildren
+mAttrs
 .
 SetMappedAttrStyleSheet
 (

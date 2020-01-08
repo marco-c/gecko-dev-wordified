@@ -28083,7 +28083,7 @@ attribute
 mapping
 function
 .
-mAttrsAndChildren
+mAttrs
 .
 UpdateMappedAttrRuleMapper
 (
@@ -28203,7 +28203,7 @@ attribute
 mapping
 function
 .
-mAttrsAndChildren
+mAttrs
 .
 UpdateMappedAttrRuleMapper
 (

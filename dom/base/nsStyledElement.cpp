@@ -1050,7 +1050,7 @@ nsAttrValue
 *
 oldVal
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -1138,7 +1138,7 @@ oldValueSet
 nsresult
 rv
 =
-mAttrsAndChildren
+mAttrs
 .
 SetAndSwapAttr
 (

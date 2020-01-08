@@ -903,11 +903,11 @@ aDst
 )
 -
 >
-mAttrsAndChildren
+mAttrs
 .
 EnsureCapacityToClone
 (
-mAttrsAndChildren
+mAttrs
 aPreallocateChildren
 )
 ;
@@ -945,7 +945,7 @@ nsAttrName
 *
 name
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrNameAt
 (
@@ -957,7 +957,7 @@ nsAttrValue
 *
 value
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrAt
 (
@@ -9396,7 +9396,7 @@ nsAttrValue
 *
 attrVal
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -9487,7 +9487,7 @@ nsAttrValue
 *
 attrVal
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -9649,7 +9649,7 @@ nsAttrValue
 *
 attr
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -15187,7 +15187,7 @@ int32_t
 i
 count
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrCount
 (
@@ -15213,7 +15213,7 @@ nsAttrName
 *
 name
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrNameAt
 (

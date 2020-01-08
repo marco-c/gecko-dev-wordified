@@ -615,7 +615,7 @@ some
 callers
 such
 as
-nsAttrAndChildArray
+AttrArray
 :
 :
 IndexOfAttr

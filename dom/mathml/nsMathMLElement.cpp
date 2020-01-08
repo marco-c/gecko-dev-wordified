@@ -6554,7 +6554,7 @@ nsAttrValue
 *
 href
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -6818,7 +6818,7 @@ early
 return
 href
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -6984,7 +6984,7 @@ nsAttrValue
 *
 target
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (

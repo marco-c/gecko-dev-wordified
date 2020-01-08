@@ -1789,7 +1789,7 @@ Compact
 (
 )
 {
-mAttrsAndChildren
+mAttrs
 .
 Compact
 (

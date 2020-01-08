@@ -185,7 +185,7 @@ h
 #
 include
 "
-nsAttrAndChildArray
+AttrArray
 .
 h
 "
