@@ -158,7 +158,9 @@ add
 '
 accumulate
 '
-null
+'
+auto
+'
 ]
 ;
 const
@@ -174,6 +176,7 @@ replace
 '
 Replace
 '
+null
 ]
 ;
 const
@@ -390,7 +393,9 @@ composite
 composite
 |
 |
-null
+'
+auto
+'
 ;
 return
 result
