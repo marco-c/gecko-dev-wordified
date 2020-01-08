@@ -4085,7 +4085,7 @@ uint32_t
 begin
 Node
 discriminant
-Node
+LexicalScopeNodeType
 lexicalForCaseList
 bool
 hasDefault
@@ -4497,14 +4497,11 @@ end
 bool
 setupCatchScope
 (
-ParseNode
-*
+LexicalScopeNodeType
 lexicalScope
-ParseNode
-*
+Node
 catchName
-ParseNode
-*
+Node
 catchBody
 )
 {
@@ -4838,7 +4835,7 @@ setFunctionBody
 (
 CodeNodeType
 funNode
-Node
+LexicalScopeNodeType
 body
 )
 {
@@ -4909,8 +4906,7 @@ pos
 )
 ;
 }
-ParseNode
-*
+LexicalScopeNodeType
 newLexicalScope
 (
 LexicalScope
@@ -4919,8 +4915,7 @@ LexicalScope
 Data
 *
 bindings
-ParseNode
-*
+Node
 body
 )
 {

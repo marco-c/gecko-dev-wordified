@@ -1884,6 +1884,17 @@ return
 NodeGeneric
 ;
 }
+LexicalScopeNodeType
+newLexicalScope
+(
+Node
+body
+)
+{
+return
+NodeLexicalDeclaration
+;
+}
 BinaryNodeType
 newNewTarget
 (
@@ -2352,7 +2363,7 @@ uint32_t
 begin
 Node
 discriminant
-Node
+LexicalScopeNodeType
 lexicalForCaseList
 bool
 hasDefault
@@ -2563,8 +2574,8 @@ MOZ_MUST_USE
 bool
 setupCatchScope
 (
-Node
-letBlock
+LexicalScopeNodeType
+lexicalScope
 Node
 catchName
 Node
@@ -2680,7 +2691,7 @@ setFunctionBody
 (
 CodeNodeType
 funNode
-Node
+LexicalScopeNodeType
 body
 )
 {

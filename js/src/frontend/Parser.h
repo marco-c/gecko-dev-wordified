@@ -3628,7 +3628,7 @@ bool
 isStandaloneFunction
 )
 ;
-Node
+LexicalScopeNodeType
 finishLexicalScope
 (
 ParseContext
@@ -6530,7 +6530,7 @@ bool
 cont
 )
 ;
-Node
+LexicalScopeNodeType
 blockStatement
 (
 YieldHandling
@@ -6648,7 +6648,7 @@ YieldHandling
 yieldHandling
 )
 ;
-Node
+LexicalScopeNodeType
 catchBlockStatement
 (
 YieldHandling
@@ -7643,7 +7643,7 @@ StatementListBody
 ExpressionBody
 }
 ;
-Node
+LexicalScopeNodeType
 functionBody
 (
 InHandling
@@ -9686,7 +9686,7 @@ fresh
 lexical
 scope
 .
-Node
+LexicalScopeNodeType
 evalBody
 (
 EvalSharedContext

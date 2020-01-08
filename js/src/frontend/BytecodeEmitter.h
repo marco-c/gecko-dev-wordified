@@ -4625,9 +4625,9 @@ MOZ_MUST_USE
 bool
 emitLexicalScope
 (
-ParseNode
+LexicalScopeNode
 *
-pn
+lexicalScope
 )
 ;
 MOZ_MUST_USE

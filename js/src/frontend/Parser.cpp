@@ -13899,7 +13899,7 @@ template
 SyntaxParseHandler
 :
 :
-Node
+LexicalScopeNodeType
 PerHandlerParser
 <
 SyntaxParseHandler
@@ -13934,13 +13934,18 @@ null
 ;
 }
 return
+handler
+.
+newLexicalScope
+(
 body
+)
 ;
 }
 template
 <
 >
-ParseNode
+LexicalScopeNode
 *
 PerHandlerParser
 <
@@ -14015,7 +14020,7 @@ template
 typename
 CharT
 >
-ParseNode
+LexicalScopeNode
 *
 Parser
 <
@@ -14083,7 +14088,7 @@ return
 nullptr
 ;
 }
-ParseNode
+LexicalScopeNode
 *
 body
 ;
@@ -14125,7 +14130,9 @@ return
 nullptr
 ;
 }
-body
+ParseNode
+*
+list
 =
 statementList
 (
@@ -14135,7 +14142,7 @@ YieldIsName
 if
 (
 !
-body
+list
 )
 {
 return
@@ -14159,7 +14166,7 @@ body
 finishLexicalScope
 (
 lexicalScope
-body
+list
 )
 ;
 if
@@ -14369,6 +14376,12 @@ property
 }
 #
 endif
+ParseNode
+*
+node
+=
+body
+;
 if
 (
 !
@@ -14376,7 +14389,7 @@ FoldConstants
 (
 context
 &
-body
+node
 this
 )
 )
@@ -14385,6 +14398,15 @@ return
 nullptr
 ;
 }
+body
+=
+handler
+.
+asLexicalScope
+(
+node
+)
+;
 if
 (
 !
@@ -17696,7 +17718,7 @@ typename
 ParseHandler
 :
 :
-Node
+LexicalScopeNodeType
 GeneralParser
 <
 ParseHandler
@@ -24450,7 +24472,7 @@ strict
 (
 )
 ;
-Node
+LexicalScopeNodeType
 body
 ;
 {
@@ -30492,7 +30514,7 @@ typename
 ParseHandler
 :
 :
-Node
+LexicalScopeNodeType
 GeneralParser
 <
 ParseHandler
@@ -42208,7 +42230,7 @@ caseClause
 )
 ;
 }
-Node
+LexicalScopeNodeType
 lexicalForCaseList
 =
 finishLexicalScope
@@ -44404,7 +44426,7 @@ openedPos
 )
 ;
 }
-Node
+LexicalScopeNodeType
 catchScope
 =
 null
@@ -44720,7 +44742,7 @@ JSMSG_CURLY_BEFORE_CATCH
 )
 ;
 }
-Node
+LexicalScopeNodeType
 catchBody
 =
 catchBlockStatement
@@ -45001,7 +45023,7 @@ typename
 ParseHandler
 :
 :
-Node
+LexicalScopeNodeType
 GeneralParser
 <
 ParseHandler
