@@ -19232,7 +19232,7 @@ inTransform
 nsDisplayListBuilder
 :
 :
-AutoEnterFilter
+AutoFilterASRSetter
 filterASRSetter
 (
 aBuilder
