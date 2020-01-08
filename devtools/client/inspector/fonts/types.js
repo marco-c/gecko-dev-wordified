@@ -293,6 +293,16 @@ font
 {
 /
 /
+Font
+family
+name
+CSSFamilyName
+:
+PropTypes
+.
+string
+/
+/
 The
 format
 of
