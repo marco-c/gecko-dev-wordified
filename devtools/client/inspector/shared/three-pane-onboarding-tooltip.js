@@ -345,10 +345,6 @@ container
 className
 =
 "
-three
--
-pane
--
 onboarding
 -
 container
@@ -372,10 +368,6 @@ icon
 className
 =
 "
-three
--
-pane
--
 onboarding
 -
 icon
@@ -406,10 +398,6 @@ content
 className
 =
 "
-three
--
-pane
--
 onboarding
 -
 content
@@ -512,10 +500,6 @@ learnMoreLink
 className
 =
 "
-three
--
-pane
--
 onboarding
 -
 link
@@ -592,10 +576,6 @@ closeButton
 className
 =
 "
-three
--
-pane
--
 onboarding
 -
 close
