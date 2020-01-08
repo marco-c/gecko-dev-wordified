@@ -419,7 +419,7 @@ inspector
 activeSidebar
 "
 "
-ruleview
+layoutview
 "
 )
 ;
