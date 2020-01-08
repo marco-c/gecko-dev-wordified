@@ -170,6 +170,13 @@ h
 #
 include
 "
+XrayWrapper
+.
+h
+"
+#
+include
+"
 WrapperFactory
 .
 h
