@@ -186,6 +186,16 @@ alert_threshold
 .
 0
     
+perfherder_framework
+=
+'
+talos
+'
+    
+subtest_alerts
+=
+False
+    
 classmethod
     
 def
@@ -1737,6 +1747,13 @@ webextensions
 '
 profile
 '
+            
+'
+subtest_alerts
+'
+'
+perfherder_framework
+'
 ]
 class
 QuantumPageloadTest
@@ -3181,6 +3198,16 @@ unit
 =
 '
 ms
+'
+    
+subtest_alerts
+=
+True
+    
+perfherder_framework
+=
+'
+devtools
 '
 register_test
 (
