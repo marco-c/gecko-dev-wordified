@@ -73,8 +73,6 @@ fetch
 /
 interfaces
 /
-webappsec
--
 referrer
 -
 policy
