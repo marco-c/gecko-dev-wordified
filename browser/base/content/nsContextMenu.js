@@ -1836,13 +1836,6 @@ this
 .
 target
 .
-QueryInterface
-(
-Ci
-.
-nsIDOMNSEditableElement
-)
-.
 editor
 )
 ;
