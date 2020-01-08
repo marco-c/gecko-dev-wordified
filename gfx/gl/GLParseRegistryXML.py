@@ -273,6 +273,10 @@ Enjoy
 #
 #
 includes
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -1172,6 +1176,7 @@ xmlPath
 :
             
 print
+(
 '
 missing
 file
@@ -1183,6 +1188,7 @@ xmlPath
 '
 "
 '
+)
             
 return
 False
