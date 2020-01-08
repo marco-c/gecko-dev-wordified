@@ -1557,14 +1557,6 @@ mDecoder
 >
 FindDecoderOutputType
 (
-false
-/
-*
-check
-all
-attribute
-*
-/
 )
 ;
 NS_ENSURE_TRUE
