@@ -848,6 +848,14 @@ WaitForBufferOwnership
 )
 override
 ;
+virtual
+bool
+IsBufferAvailable
+(
+)
+const
+override
+;
 }
 ;
 class
