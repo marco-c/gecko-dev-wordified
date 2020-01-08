@@ -188,10 +188,11 @@ waitForExplicitFinish
 (
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 http
 :

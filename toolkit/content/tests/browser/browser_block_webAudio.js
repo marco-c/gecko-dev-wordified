@@ -177,12 +177,13 @@ blank
 "
 )
 ;
-tab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab
+.
+linkedBrowser
 PAGE
 )
 ;
