@@ -893,6 +893,15 @@ doCommand
 (
 )
 ;
+await
+new
+Promise
+(
+SimpleTest
+.
+executeSoon
+)
+;
 is
 (
 Services
