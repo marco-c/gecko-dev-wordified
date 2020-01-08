@@ -20149,7 +20149,6 @@ bool
 ShouldFlattenNextItem
 (
 )
-const
 {
 return
 mNext
