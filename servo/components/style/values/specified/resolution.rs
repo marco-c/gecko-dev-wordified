@@ -130,8 +130,8 @@ derive
 (
 Clone
 Debug
-PartialEq
 MallocSizeOf
+PartialEq
 ToCss
 )
 ]
