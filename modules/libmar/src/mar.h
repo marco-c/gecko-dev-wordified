@@ -360,6 +360,9 @@ item_table
 TABLESIZE
 ]
 ;
+int
+item_table_is_valid
+;
 }
 ;
 typedef
