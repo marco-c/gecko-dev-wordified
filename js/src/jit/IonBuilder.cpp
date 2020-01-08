@@ -81055,6 +81055,8 @@ fieldIndex
 ;
 bool
 fieldMutable
+=
+false
 ;
 if
 (
