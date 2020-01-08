@@ -984,6 +984,7 @@ template
 typename
 CharT
 >
+MOZ_ALWAYS_INLINE
 JSAtom
 *
 atomizeAndCopyChars
@@ -1127,6 +1128,7 @@ on
 its
 hash
 .
+MOZ_ALWAYS_INLINE
 size_t
 getPartitionIndex
 (
