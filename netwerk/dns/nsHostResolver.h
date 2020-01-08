@@ -1880,8 +1880,8 @@ nsresult
 GetHostRecord
 (
 const
-char
-*
+nsACString
+&
 host
 uint16_t
 flags
@@ -2159,8 +2159,8 @@ nsresult
 ResolveHost
 (
 const
-char
-*
+nsACString
+&
 hostname
 const
 mozilla
@@ -2235,8 +2235,8 @@ void
 DetachCallback
 (
 const
-char
-*
+nsACString
+&
 hostname
 const
 mozilla
@@ -2328,8 +2328,8 @@ void
 CancelAsyncRequest
 (
 const
-char
-*
+nsACString
+&
 host
 const
 mozilla
@@ -2528,8 +2528,8 @@ nsresult
 GetHostRecord
 (
 const
-char
-*
+nsACString
+&
 host
 uint16_t
 flags
@@ -2828,8 +2828,8 @@ nsHostRecord
 *
 rec
 const
-char
-*
+nsACString
+&
 host
 )
 ;
