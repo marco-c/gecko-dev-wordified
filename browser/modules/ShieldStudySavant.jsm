@@ -735,8 +735,6 @@ collection
 "
 )
 ;
-/
-/
 Services
 .
 telemetry
@@ -772,8 +770,6 @@ collection
 "
 )
 ;
-/
-/
 Services
 .
 telemetry
