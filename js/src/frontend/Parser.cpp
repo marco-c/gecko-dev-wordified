@@ -10679,10 +10679,14 @@ Data
 size_t
 allocSize
 =
+SizeOfData
+<
+typename
 Scope
 :
 :
-sizeOfData
+Data
+>
 (
 numBindings
 )
