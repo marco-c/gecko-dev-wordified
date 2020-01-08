@@ -2521,12 +2521,12 @@ mMimeType
 )
 config
 .
-mDisplay
+mImage
 .
 width
 config
 .
-mDisplay
+mImage
 .
 height
 &
