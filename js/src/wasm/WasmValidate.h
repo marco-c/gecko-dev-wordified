@@ -495,6 +495,9 @@ uint32_t
 >
 startFuncIndex
 ;
+ElemSegmentVector
+elemSegments
+;
 MaybeSectionRange
 codeSection
 ;
@@ -510,9 +513,6 @@ wasm
 module
 tail
 :
-ElemSegmentVector
-elemSegments
-;
 DataSegmentVector
 dataSegments
 ;
