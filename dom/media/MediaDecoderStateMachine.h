@@ -1259,6 +1259,8 @@ AddOutputStream
 ProcessedMediaStream
 *
 aStream
+TrackID
+aNextAvailableTrackID
 bool
 aFinishWhenEnded
 )
@@ -1280,6 +1282,15 @@ MediaStream
 *
 aStream
 )
+;
+TrackID
+NextAvailableTrackIDFor
+(
+MediaStream
+*
+aOutputStream
+)
+const
 ;
 /
 /
