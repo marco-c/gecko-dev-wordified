@@ -17530,7 +17530,6 @@ eConnected
 eDisconnected
 eAdopted
 eAttributeChanged
-eGetCustomInterface
 }
 ;
 nsIDocument
