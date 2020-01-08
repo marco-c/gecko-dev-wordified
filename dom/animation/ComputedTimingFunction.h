@@ -344,7 +344,7 @@ org
 /
 css
 -
-timing
+easing
 /
 #
 before
