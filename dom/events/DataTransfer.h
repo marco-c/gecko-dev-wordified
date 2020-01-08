@@ -2759,6 +2759,10 @@ friend
 class
 ContentParent
 ;
+friend
+class
+Clipboard
+;
 void
 FillAllExternalData
 (
