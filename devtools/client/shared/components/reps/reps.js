@@ -13169,6 +13169,9 @@ onViewSourceInDebugger
 location
 &
 &
+locationParts
+&
+&
 !
 IGNORED_SOURCE_URLS
 .
@@ -13179,9 +13182,6 @@ locationParts
 1
 ]
 )
-&
-&
-locationParts
 )
 {
 const
