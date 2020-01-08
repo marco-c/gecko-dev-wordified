@@ -597,6 +597,11 @@ MOZ_ASSERT
 mLiveSet
 )
 ;
+if
+(
+mLiveSet
+)
+{
 mLiveSet
 -
 >
@@ -608,6 +613,7 @@ mLiveSet
 =
 nullptr
 ;
+}
 }
 LiveSetAutoLock
 (
