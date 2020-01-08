@@ -32,6 +32,7 @@ from
 six
 import
 text_type
+binary_type
 def
 resolve_content
 (
@@ -1947,6 +1948,13 @@ token
 -
 1
 ]
+.
+decode
+(
+'
+utf8
+'
+)
         
 return
 (
@@ -1963,13 +1971,7 @@ r
 s
 *
 "
-token
-[
-1
-:
--
-1
-]
+unwrapped
 )
 if
 unwrapped
@@ -1992,6 +1994,13 @@ return
 ident
 "
 token
+.
+decode
+(
+'
+utf8
+'
+)
 )
     
 def
@@ -2011,11 +2020,18 @@ token
 -
 1
 ]
+.
+decode
+(
+'
+utf8
+'
+)
         
 try
 :
             
-token
+index
 =
 int
 (
@@ -2026,23 +2042,16 @@ except
 ValueError
 :
             
-token
+index
 =
 token
-.
-decode
-(
-'
-utf8
-'
-)
         
 return
 (
 "
 index
 "
-token
+index
 )
     
 def
@@ -2061,6 +2070,13 @@ token
 -
 1
 ]
+.
+decode
+(
+'
+utf8
+'
+)
         
 return
 (
@@ -2077,6 +2093,13 @@ self
 string
 )
 :
+        
+assert
+isinstance
+(
+string
+binary_type
+)
         
 return
 self
@@ -2099,7 +2122,7 @@ Scanner
 (
 [
 (
-r
+br
 "
 \
 \
@@ -2111,7 +2134,7 @@ var
 )
                           
 (
-r
+br
 "
 \
 ?
@@ -2123,7 +2146,7 @@ ident
 )
                           
 (
-r
+br
 "
 \
 [
@@ -2140,7 +2163,7 @@ index
 )
                           
 (
-r
+br
 "
 \
 (
