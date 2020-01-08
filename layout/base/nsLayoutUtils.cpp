@@ -615,6 +615,17 @@ mozilla
 /
 dom
 /
+HTMLBodyElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLMediaElementBinding
 .
 h
