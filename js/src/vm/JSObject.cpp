@@ -19517,16 +19517,6 @@ ObjectOpResult
 result
 )
 {
-MOZ_ASSERT
-(
-!
-(
-attrs
-&
-JSPROP_PROPOP_ACCESSORS
-)
-)
-;
 Rooted
 <
 PropertyDescriptor

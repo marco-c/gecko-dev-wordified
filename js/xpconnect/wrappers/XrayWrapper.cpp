@@ -3013,14 +3013,6 @@ set
 it
 up
 .
-Do
-NOT
-pass
-/
-/
-JSPROP_PROPOP_ACCESSORS
-here
-!
 desc
 .
 attributes
