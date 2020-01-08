@@ -528,7 +528,6 @@ dom
 .
 div
 (
-}
 status
 )
 )
