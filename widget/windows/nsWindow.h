@@ -3780,7 +3780,7 @@ re
 created
 as
 a
-NS_CHILD_CID
+child
 window
 (
 aka
