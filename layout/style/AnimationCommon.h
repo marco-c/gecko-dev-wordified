@@ -725,10 +725,16 @@ mTarget
 bool
 LessThan
 (
+int32_t
+&
+aChildIndex
 const
 OwningElementRef
 &
 aOther
+int32_t
+&
+aOtherChildIndex
 )
 const
 {
@@ -783,6 +789,10 @@ aOther
 mTarget
 .
 mElement
+&
+aChildIndex
+&
+aOtherChildIndex
 )
 ;
 }
