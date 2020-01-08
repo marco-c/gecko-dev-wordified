@@ -162,6 +162,17 @@ aTimedChannel
 =
 0
 ;
+virtual
+void
+CreateDocumentEntry
+(
+nsITimedChannel
+*
+aChannel
+)
+=
+0
+;
 protected
 :
 virtual
