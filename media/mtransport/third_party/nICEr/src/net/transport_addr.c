@@ -726,7 +726,10 @@ buffer
 error
 ]
 "
-len
+sizeof
+(
+buffer
+)
 )
 ;
 }
@@ -766,7 +769,10 @@ buffer
 error
 ]
 "
-len
+sizeof
+(
+buffer
+)
 )
 ;
 }
