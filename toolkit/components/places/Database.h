@@ -174,7 +174,7 @@ below
 #
 define
 DATABASE_SCHEMA_VERSION
-51
+52
 /
 /
 Fired
@@ -1855,8 +1855,13 @@ MigrateV51Up
 (
 )
 ;
+nsresult
+MigrateV52Up
+(
+)
+;
 void
-MigrateV48Frecencies
+MigrateV52OriginFrecencies
 (
 )
 ;

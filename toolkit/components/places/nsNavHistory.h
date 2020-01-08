@@ -3210,7 +3210,7 @@ uint32_t
 mDecayFrecencyPendingCount
 ;
 nsresult
-RecalculateFrecencyStatsInternal
+RecalculateOriginFrecencyStatsInternal
 (
 )
 ;
