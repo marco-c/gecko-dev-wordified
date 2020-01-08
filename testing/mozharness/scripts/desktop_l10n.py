@@ -882,22 +882,6 @@ locales
 "
                 
 "
-buildid_section
-"
-:
-"
-App
-"
-                
-"
-buildid_option
-"
-:
-"
-BuildID
-"
-                
-"
 log_name
 "
 :
