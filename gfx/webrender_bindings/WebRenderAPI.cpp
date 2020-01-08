@@ -2148,6 +2148,12 @@ aWindowId
 mStartTime
 /
 *
+aRender
+*
+/
+true
+/
+*
 aReadback
 *
 /
