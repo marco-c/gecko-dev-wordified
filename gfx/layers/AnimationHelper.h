@@ -968,6 +968,16 @@ aId
 )
 const
 ;
+OMTAValue
+GetOMTAValue
+(
+const
+uint64_t
+&
+aId
+)
+const
+;
 /
 *
 *
