@@ -392,14 +392,6 @@ head_rev
 get_head_ref
     
 '
-hg_branch
-'
-:
-'
-default
-'
-    
-'
 level
 '
 :
