@@ -4155,20 +4155,6 @@ dialog
 "
 "
         
-#
-TODO
-:
-Switch
-to
-"
-WebDriver
-:
-AcceptAlert
-"
-in
-Firefox
-62
-        
 self
 .
 marionette
@@ -4178,7 +4164,7 @@ _send_message
 "
 WebDriver
 :
-AcceptDialog
+AcceptAlert
 "
 )
     
