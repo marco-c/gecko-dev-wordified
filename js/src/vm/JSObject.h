@@ -3576,7 +3576,7 @@ MOZ_ASSERT
 js
 :
 :
-IsCrossCompartmentWrapper
+UninlinedIsCrossCompartmentWrapper
 (
 this
 )

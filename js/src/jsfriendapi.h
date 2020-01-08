@@ -4215,7 +4215,7 @@ JS_FRIEND_API
 (
 bool
 )
-IsCrossCompartmentWrapper
+UninlinedIsCrossCompartmentWrapper
 (
 const
 JSObject
@@ -4319,7 +4319,7 @@ MOZ_ASSERT
 js
 :
 :
-IsCrossCompartmentWrapper
+UninlinedIsCrossCompartmentWrapper
 (
 obj
 )
