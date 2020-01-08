@@ -162,6 +162,15 @@ h
 #
 include
 "
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -2248,7 +2257,10 @@ else
 {
 if
 (
-isdigit
+mozilla
+:
+:
+IsAsciiDigit
 (
 aString
 [
