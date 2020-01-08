@@ -2742,7 +2742,7 @@ tag
 =
 =
 '
-TD_ARRAY
+TD_LEGACY_ARRAY
 '
 :
             
@@ -2788,9 +2788,9 @@ of
 type
 index
 while
-TD_ARRAY
             
 #
+TD_LEGACY_ARRAY
 can
 only
 hold
