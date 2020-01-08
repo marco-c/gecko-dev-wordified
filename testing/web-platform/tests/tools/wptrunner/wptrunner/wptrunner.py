@@ -2160,6 +2160,7 @@ stability
 ]
 :
         
+return
 check_stability
 (
 *
