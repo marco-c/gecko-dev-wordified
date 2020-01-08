@@ -3306,10 +3306,12 @@ aTopic
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
 )
 )
+{
 Shutdown
 (
 )
 ;
+}
 return
 NS_OK
 ;
