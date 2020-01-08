@@ -4070,7 +4070,7 @@ this
 EditSubAction
 :
 :
-deleteNode
+eDeleteNode
 nsIEditor
 :
 :
@@ -5105,7 +5105,7 @@ this
 EditSubAction
 :
 :
-deleteNode
+eDeleteNode
 nsIEditor
 :
 :
@@ -5277,7 +5277,7 @@ this
 EditSubAction
 :
 :
-deleteNode
+eDeleteNode
 nsIEditor
 :
 :
@@ -5507,7 +5507,7 @@ this
 EditSubAction
 :
 :
-deleteNode
+eDeleteNode
 nsIEditor
 :
 :
@@ -6474,7 +6474,7 @@ this
 EditSubAction
 :
 :
-deleteNode
+eDeleteNode
 nsIEditor
 :
 :
@@ -6941,7 +6941,7 @@ this
 EditSubAction
 :
 :
-deleteNode
+eDeleteNode
 nsIEditor
 :
 :
@@ -12560,7 +12560,7 @@ this
 EditSubAction
 :
 :
-deleteNode
+eDeleteNode
 nsIEditor
 :
 :
@@ -13309,7 +13309,7 @@ this
 EditSubAction
 :
 :
-deleteNode
+eDeleteNode
 nsIEditor
 :
 :
