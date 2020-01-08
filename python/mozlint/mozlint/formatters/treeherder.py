@@ -297,6 +297,24 @@ d
 )
 )
         
+if
+not
+message
+:
+            
+message
+.
+append
+(
+"
+No
+lint
+issues
+found
+.
+"
+)
+        
 return
 "
 \
