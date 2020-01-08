@@ -6388,7 +6388,7 @@ const
 Maintains
 per
 -
-compartment
+realm
 debug
 environment
 bookkeeping
@@ -6593,7 +6593,7 @@ init
 static
 DebugEnvironments
 *
-ensureCompartmentData
+ensureRealmData
 (
 JSContext
 *
@@ -6999,11 +6999,11 @@ frame
 ;
 static
 void
-onCompartmentUnsetIsDebuggee
+onRealmUnsetIsDebuggee
 (
-JSCompartment
+Realm
 *
-c
+realm
 )
 ;
 }
