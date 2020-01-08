@@ -326,6 +326,13 @@ string
 )
 .
 isRequired
+runtimes
+:
+PropTypes
+.
+array
+.
+isRequired
 selectedPage
 :
 PropTypes
@@ -404,7 +411,7 @@ const
 {
 dispatch
 messageContexts
-networkLocations
+runtimes
 selectedPage
 }
 =
@@ -435,7 +442,7 @@ Sidebar
 (
 {
 dispatch
-networkLocations
+runtimes
 selectedPage
 }
 )
@@ -458,6 +465,11 @@ state
 {
 return
 {
+runtimes
+:
+state
+.
+runtimes
 networkLocations
 :
 state
