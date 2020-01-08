@@ -198,6 +198,9 @@ guint8
 focused
 ;
 guint8
+selected
+;
+guint8
 inHover
 ;
 guint8
