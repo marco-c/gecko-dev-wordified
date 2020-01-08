@@ -842,12 +842,13 @@ then
 onPageLoad
 )
 ;
-gBrowser
-.
-selectedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
+.
+selectedBrowser
 pageurl
 )
 ;
