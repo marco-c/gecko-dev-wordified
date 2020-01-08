@@ -68,10 +68,12 @@ mozboot
 .
 linux_common
 import
+NodeInstall
 StyloInstall
 class
 GentooBootstrapper
 (
+NodeInstall
 StyloInstall
 BaseBootstrapper
 )

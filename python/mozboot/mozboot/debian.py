@@ -69,6 +69,7 @@ mozboot
 .
 linux_common
 import
+NodeInstall
 StyloInstall
 MERCURIAL_INSTALL_PROMPT
 =
@@ -210,6 +211,7 @@ strip
 class
 DebianBootstrapper
 (
+NodeInstall
 StyloInstall
 BaseBootstrapper
 )
