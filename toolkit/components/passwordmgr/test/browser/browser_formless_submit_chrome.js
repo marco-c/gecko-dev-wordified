@@ -501,7 +501,7 @@ if
 (
 forwardButton
 .
-nextSibling
+nextElementSibling
 =
 =
 gURLBar

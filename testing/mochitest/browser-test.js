@@ -4150,7 +4150,7 @@ gBrowser
 .
 tabContainer
 .
-lastChild
+lastElementChild
 ;
 if
 (

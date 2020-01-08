@@ -1262,7 +1262,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 secondaryButton
 .

@@ -2858,7 +2858,7 @@ submenu
 =
 submenuItem
 .
-firstChild
+firstElementChild
 ;
 const
 shown

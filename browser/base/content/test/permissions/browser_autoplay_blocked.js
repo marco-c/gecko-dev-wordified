@@ -214,9 +214,9 @@ emptyLabel
 =
 permissionsList
 .
-nextSibling
+nextElementSibling
 .
-nextSibling
+nextElementSibling
 ;
 ok
 (
@@ -321,9 +321,9 @@ emptyLabel
 =
 permissionsList
 .
-nextSibling
+nextElementSibling
 .
-nextSibling
+nextElementSibling
 ;
 ok
 (

@@ -2057,9 +2057,9 @@ promiseNodeVisible
 (
 panelViewNode
 .
-firstChild
+firstElementChild
 .
-firstChild
+firstElementChild
 )
 ;
 }

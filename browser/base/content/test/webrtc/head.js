@@ -2066,7 +2066,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 "
 notification
 panel
@@ -2270,7 +2270,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 ;
 switch
 (
