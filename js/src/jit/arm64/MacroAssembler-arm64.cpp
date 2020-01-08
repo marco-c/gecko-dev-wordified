@@ -2951,6 +2951,12 @@ intptr_t
 }
 /
 /
+clang
+-
+format
+off
+/
+/
 {
 {
 {
@@ -13567,6 +13573,12 @@ csdb
 }
 }
 check_macroassembler_style
+/
+/
+clang
+-
+format
+off
 }
 /
 /

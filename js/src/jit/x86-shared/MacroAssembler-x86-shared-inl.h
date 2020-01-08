@@ -139,6 +139,12 @@ jit
 {
 /
 /
+clang
+-
+format
+off
+/
+/
 {
 {
 {
@@ -6699,6 +6705,12 @@ inRange
 }
 }
 check_macroassembler_style
+/
+/
+clang
+-
+format
+on
 /
 /
 =

@@ -154,6 +154,12 @@ jit
 {
 /
 /
+clang
+-
+format
+off
+/
+/
 {
 {
 {
@@ -5507,6 +5513,12 @@ done
 }
 }
 check_macroassembler_style
+/
+/
+clang
+-
+format
+on
 /
 /
 =
