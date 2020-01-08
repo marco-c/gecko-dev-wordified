@@ -145,7 +145,7 @@ Timer
 will
 print
 a
-mesage
+message
 /
 /
 /

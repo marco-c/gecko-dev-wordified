@@ -262,9 +262,7 @@ should
 return
 whether
 given
-the
-a
-given
+an
 enum
 variant
 /

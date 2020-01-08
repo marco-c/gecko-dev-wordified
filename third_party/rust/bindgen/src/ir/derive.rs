@@ -393,7 +393,7 @@ point
 /
 /
 /
-analsyses
+analyses
 .
 This
 is

@@ -298,7 +298,7 @@ collect
 /
 /
 Preprocesses
-mulitple
+multiple
 single
 line
 comments
