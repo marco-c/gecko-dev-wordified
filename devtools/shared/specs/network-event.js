@@ -460,9 +460,7 @@ cert
 certificateTransparency
 :
 "
-nullable
-:
-string
+number
 "
 hsts
 :
