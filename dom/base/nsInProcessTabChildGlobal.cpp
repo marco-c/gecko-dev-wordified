@@ -953,6 +953,10 @@ nsIMessageSender
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsIContentFrameMessageManager
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIInProcessContentFrameMessageManager
 )
 NS_INTERFACE_MAP_ENTRY
@@ -1546,7 +1550,7 @@ this
 fl
 -
 >
-GetTabChildGlobal
+GetTabChildGlobalAsEventTarget
 (
 )
 "

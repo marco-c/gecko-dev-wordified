@@ -532,7 +532,7 @@ TabChildGlobal
 public
 ContentFrameMessageManager
 public
-nsIMessageSender
+nsIContentFrameMessageManager
 public
 nsIScriptObjectPrincipal
 public
@@ -664,6 +664,7 @@ NS_FORWARD_SAFE_NSIMESSAGESENDER
 (
 mMessageManager
 )
+NS_DECL_NSICONTENTFRAMEMESSAGEMANAGER
 void
 GetEventTargetParent
 (
