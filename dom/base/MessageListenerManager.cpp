@@ -142,7 +142,7 @@ ipc
 MessageManagerCallback
 *
 aCallback
-MessageBroadcaster
+ChromeMessageBroadcaster
 *
 aParentManager
 ipc

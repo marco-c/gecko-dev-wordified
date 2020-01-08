@@ -678,6 +678,9 @@ HTMLEditor
 namespace
 dom
 {
+class
+ChromeMessageBroadcaster
+;
 struct
 CustomElementDefinition
 ;
@@ -707,9 +710,6 @@ LifecycleCallbackArgs
 ;
 struct
 LifecycleAdoptedCallbackArgs
-;
-class
-MessageBroadcaster
 ;
 class
 NodeInfo
@@ -21210,7 +21210,7 @@ mozilla
 dom
 :
 :
-MessageBroadcaster
+ChromeMessageBroadcaster
 *
 aManager
 CallOnRemoteChildFunction
