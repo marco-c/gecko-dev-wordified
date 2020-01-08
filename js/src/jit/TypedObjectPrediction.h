@@ -1297,8 +1297,13 @@ kind
 |
 is
 Scalar
-or
 Reference
+or
+Simd
+(
+as
+appropriate
+)
 .
 Scalar
 :
@@ -1311,6 +1316,12 @@ const
 ;
 ReferenceType
 referenceType
+(
+)
+const
+;
+SimdType
+simdType
 (
 )
 const

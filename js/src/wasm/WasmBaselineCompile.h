@@ -226,6 +226,8 @@ supported
 due
 to
 Atomics
+and
+SIMD
 .
 bool
 BaselineCanCompile

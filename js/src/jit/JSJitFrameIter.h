@@ -2295,6 +2295,9 @@ NoGC_UndefinedValue
 class
 RResumePoint
 ;
+class
+RSimdBox
+;
 /
 /
 Reads
@@ -2602,6 +2605,10 @@ warnUnreadableAllocation
 ;
 private
 :
+friend
+class
+RSimdBox
+;
 const
 FloatRegisters
 :
