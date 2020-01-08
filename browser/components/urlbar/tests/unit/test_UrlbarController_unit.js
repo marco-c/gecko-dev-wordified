@@ -247,6 +247,10 @@ UrlbarController
 manager
 :
 fPM
+window
+:
+{
+}
 }
 )
 ;

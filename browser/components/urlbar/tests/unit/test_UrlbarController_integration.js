@@ -214,6 +214,12 @@ controller
 new
 UrlbarController
 (
+{
+window
+:
+{
+}
+}
 )
 ;
 }
