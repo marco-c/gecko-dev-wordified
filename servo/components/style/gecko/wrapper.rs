@@ -4447,6 +4447,10 @@ of
 a
 pain
 .
+#
+[
+inline
+]
 fn
 set_flags
 (
@@ -4472,6 +4476,10 @@ flags
 )
 }
 }
+#
+[
+inline
+]
 unsafe
 fn
 unset_flags
@@ -4510,6 +4518,10 @@ lazy
 frame
 construction
 .
+#
+[
+inline
+]
 pub
 fn
 descendants_need_frames
@@ -4549,6 +4561,10 @@ lazy
 frame
 construction
 .
+#
+[
+inline
+]
 pub
 fn
 needs_frame
@@ -4592,6 +4608,10 @@ if
 they
 exist
 .
+#
+[
+inline
+]
 fn
 dom_slots
 (
@@ -4653,6 +4673,10 @@ for
 this
 Element
 .
+#
+[
+inline
+]
 fn
 extended_slots
 (
@@ -5066,6 +5090,10 @@ GeckoElement
 binding_parent
 }
 }
+#
+[
+inline
+]
 fn
 non_xul_xbl_binding_parent_raw_content
 (
