@@ -696,6 +696,8 @@ hasSeenDoubleResult
 jsbytecode
 *
 pc
+bool
+defaultIfEmpty
 )
 ;
 bool

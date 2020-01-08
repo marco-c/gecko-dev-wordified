@@ -40083,6 +40083,16 @@ op
 ;
 }
 }
+else
+{
+stub
+-
+>
+noteUnoptimizableOperands
+(
+)
+;
+}
 }
 return
 true
