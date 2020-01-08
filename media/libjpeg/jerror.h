@@ -53,6 +53,7 @@ Copyright
 C
 )
 2014
+2017
 D
 .
 R
@@ -2127,6 +2128,19 @@ code
 endif
 #
 endif
+JMESSAGE
+(
+JWRN_BOGUS_ICC
+"
+Corrupt
+JPEG
+data
+:
+bad
+ICC
+marker
+"
+)
 #
 ifdef
 JMAKE_ENUM_LIST

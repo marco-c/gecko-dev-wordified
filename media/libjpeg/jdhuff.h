@@ -1252,8 +1252,8 @@ state
 nbits
 action
 )
-\
 {
+\
 if
 (
 bits_left
@@ -1300,7 +1300,9 @@ state
 .
 bits_left
 ;
+\
 }
+\
 }
 #
 define
@@ -1603,8 +1605,8 @@ htbl
 failaction
 slowlabel
 )
-\
 {
+\
 register
 int
 nb
@@ -1631,6 +1633,7 @@ bits_left
 0
 )
 )
+\
 {
 failaction
 ;
@@ -1741,6 +1744,7 @@ if
 (
 result
 =
+\
 jpeg_huff_decode
 (
 &

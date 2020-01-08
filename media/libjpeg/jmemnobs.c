@@ -44,6 +44,8 @@ Copyright
 C
 )
 2017
+-
+2018
 D
 .
 R
@@ -409,6 +411,9 @@ max_memory_to_use
 {
 if
 (
+(
+size_t
+)
 cinfo
 -
 >
