@@ -1719,7 +1719,7 @@ assert_equals
 moduleImportsDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -2082,7 +2082,7 @@ assert_equals
 moduleExportsDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -2393,7 +2393,7 @@ assert_equals
 customSectionsDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -2498,6 +2498,8 @@ arr
 moduleCustomSections
 (
 emptyModule
+"
+"
 )
 ;
 assert_equals
@@ -3104,7 +3106,7 @@ assert_equals
 exportsDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -3607,7 +3609,7 @@ initial
 1
 }
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -3631,7 +3633,7 @@ pow
 )
 }
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -3706,7 +3708,7 @@ maximum
 1
 }
 )
-RangeError
+TypeError
 )
 ;
 assert_equals
@@ -4013,7 +4015,7 @@ assert_equals
 bufferDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -4174,7 +4176,7 @@ assert_equals
 memGrowDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -4280,7 +4282,7 @@ mem1
 -
 1
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -4302,7 +4304,7 @@ pow
 32
 )
 )
-RangeError
+TypeError
 )
 ;
 var
@@ -4744,7 +4746,7 @@ anyfunc
 "
 }
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -4773,7 +4775,7 @@ anyfunc
 "
 }
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -4831,7 +4833,7 @@ anyfunc
 "
 }
 )
-RangeError
+TypeError
 )
 ;
 assert_equals
@@ -5211,7 +5213,7 @@ assert_equals
 lengthDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -5380,7 +5382,7 @@ assert_equals
 getDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -5558,7 +5560,7 @@ tbl1
 -
 1
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -5580,7 +5582,7 @@ pow
 33
 )
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -5664,7 +5666,7 @@ assert_equals
 setDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -5804,7 +5806,7 @@ tbl1
 1
 null
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -5827,7 +5829,7 @@ pow
 )
 null
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -6012,7 +6014,7 @@ assert_equals
 tblGrowDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -6118,7 +6120,7 @@ tbl1
 -
 1
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -6140,7 +6142,7 @@ pow
 32
 )
 )
-RangeError
+TypeError
 )
 ;
 var
@@ -6372,7 +6374,7 @@ assert_equals
 compileDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
@@ -6726,7 +6728,7 @@ assert_equals
 instantiateDesc
 .
 enumerable
-false
+true
 )
 ;
 assert_equals
