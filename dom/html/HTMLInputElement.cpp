@@ -17179,8 +17179,10 @@ if
 numberControlFrame
 )
 {
+RefPtr
+<
 HTMLInputElement
-*
+>
 textControl
 =
 numberControlFrame
