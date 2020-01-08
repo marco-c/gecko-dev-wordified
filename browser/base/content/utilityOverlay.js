@@ -2190,6 +2190,7 @@ null
 params
 .
 isContentWindowPrivate
+aPrincipal
 )
 ;
 }

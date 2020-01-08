@@ -5452,6 +5452,9 @@ SaveURI
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aPrincipal
 uint32_t
 aCacheKey
 nsIURI
@@ -5478,6 +5481,7 @@ return
 SavePrivacyAwareURI
 (
 aURI
+aPrincipal
 aCacheKey
 aReferrer
 aReferrerPolicy
@@ -5505,6 +5509,9 @@ SavePrivacyAwareURI
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aPrincipal
 uint32_t
 aCacheKey
 nsIURI
@@ -5681,6 +5688,7 @@ mPersist
 SavePrivacyAwareURI
 (
 uri
+aPrincipal
 aCacheKey
 aReferrer
 aReferrerPolicy
