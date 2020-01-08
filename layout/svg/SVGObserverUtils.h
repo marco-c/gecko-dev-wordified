@@ -852,7 +852,7 @@ property
 object
 derived
 from
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 to
 manage
 the
@@ -872,7 +872,7 @@ frame
 *
 /
 class
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 public
 SVGRenderingObserver
@@ -899,7 +899,7 @@ dom
 IDTracker
 IDTracker
 ;
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 (
 nsIURI
 *
@@ -913,7 +913,7 @@ aReferenceImage
 ;
 virtual
 ~
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 (
 )
 ;
@@ -1000,7 +1000,7 @@ public
 explicit
 ElementTracker
 (
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 *
 aOwningObserver
 )
@@ -1109,7 +1109,7 @@ true
 }
 private
 :
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 *
 mOwningObserver
 ;
@@ -1312,7 +1312,7 @@ class
 nsSVGRenderingObserverProperty
 :
 public
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 {
 public
 :
@@ -1329,7 +1329,7 @@ bool
 aReferenceImage
 )
 :
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 (
 aURI
 aFrame
@@ -1487,7 +1487,7 @@ nsSVGFilterReference
 final
 :
 public
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 public
 nsISVGFilterReference
 {
@@ -1506,7 +1506,7 @@ nsSVGFilterChainObserver
 aFilterChainObserver
 )
 :
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 (
 aURI
 aObservingContent
@@ -1570,7 +1570,7 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsSVGFilterReference
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 )
 /
 /
@@ -1599,7 +1599,7 @@ nsSVGFilterReference
 }
 /
 /
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 virtual
 void
 OnRenderingChange

@@ -871,7 +871,7 @@ lists
 *
 *
 In
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 '
 s
 ctor
@@ -897,7 +897,7 @@ this
 way
 the
 *
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 is
 notified
 if
@@ -924,7 +924,7 @@ descendants
 *
 *
 In
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 :
 GetReferencedElement
@@ -932,7 +932,7 @@ GetReferencedElement
 )
 the
 *
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 object
 also
 adds
@@ -980,10 +980,10 @@ list
 .
 *
 /
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 :
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 (
 nsIURI
 *
@@ -1022,11 +1022,11 @@ StartObserving
 )
 ;
 }
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 :
 ~
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 (
 )
 {
@@ -1036,7 +1036,7 @@ StopObserving
 ;
 }
 void
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 :
 OnRenderingChange
@@ -1143,7 +1143,7 @@ OnRenderingChange
 (
 )
 {
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 :
 OnRenderingChange
@@ -1265,7 +1265,7 @@ nsSVGFilterReference
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -1311,7 +1311,7 @@ OnRenderingChange
 (
 )
 {
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 :
 OnRenderingChange
