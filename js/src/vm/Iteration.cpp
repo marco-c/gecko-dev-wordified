@@ -4564,7 +4564,7 @@ propertiesEnd_
 (
 propertyCursor_
 )
-guard_key
+guardKey_
 (
 guardKey
 )
@@ -4976,7 +4976,7 @@ while
 pobj
 )
 ;
-guard_key
+guardKey_
 =
 key
 ;
@@ -5178,7 +5178,9 @@ if
 ni
 -
 >
-guard_key
+guardKey
+(
+)
 !
 =
 lookup
@@ -5775,7 +5777,9 @@ guardCount
 ni
 -
 >
-guard_key
+guardKey
+(
+)
 )
 ;
 ObjectRealm
