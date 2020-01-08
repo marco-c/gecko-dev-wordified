@@ -317,6 +317,14 @@ CreateThreadHookType
 aHook
 )
 ;
+MFBT_API
+const
+char
+*
+DllBlocklist_TestBlocklistIntegrity
+(
+)
+;
 #
 endif
 /
