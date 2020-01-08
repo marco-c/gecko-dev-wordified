@@ -472,6 +472,7 @@ i
 +
 +
 )
+{
 hash
 =
 mozilla
@@ -489,6 +490,7 @@ i
 )
 )
 ;
+}
 return
 hash
 ;
@@ -533,6 +535,7 @@ if
 (
 isLatin1
 )
+{
 hash
 =
 HashStringIgnoreCaseASCII
@@ -541,7 +544,9 @@ latin1Chars
 length
 )
 ;
+}
 else
+{
 hash
 =
 HashStringIgnoreCaseASCII
@@ -550,6 +555,7 @@ twoByteChars
 length
 )
 ;
+}
 }
 template
 <
@@ -612,9 +618,11 @@ ToUpperASCII
 s2
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -657,9 +665,11 @@ lookup
 .
 length
 )
+{
 return
 false
 ;
+}
 /
 /
 Compare
@@ -702,6 +712,7 @@ lookup
 .
 isLatin1
 )
+{
 return
 EqualCharsIgnoreCaseASCII
 (
@@ -714,6 +725,7 @@ lookup
 length
 )
 ;
+}
 return
 EqualCharsIgnoreCaseASCII
 (
@@ -748,6 +760,7 @@ lookup
 .
 isLatin1
 )
+{
 return
 EqualCharsIgnoreCaseASCII
 (
@@ -760,6 +773,7 @@ lookup
 length
 )
 ;
+}
 return
 EqualCharsIgnoreCaseASCII
 (
@@ -807,9 +821,11 @@ timeZone
 legacyTimeZone
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -836,9 +852,11 @@ if
 (
 timeZoneDataInitialized
 )
+{
 return
 true
 ;
+}
 /
 /
 If
@@ -968,8 +986,10 @@ rawTimeZone
 =
 nullptr
 )
+{
 break
 ;
+}
 /
 /
 Skip
@@ -986,8 +1006,10 @@ IsLegacyICUTimeZone
 rawTimeZone
 )
 )
+{
 continue
 ;
+}
 MOZ_ASSERT
 (
 size
@@ -1013,9 +1035,11 @@ if
 !
 timeZone
 )
+{
 return
 false
 ;
+}
 TimeZoneHasher
 :
 :
@@ -1132,9 +1156,11 @@ if
 !
 timeZone
 )
+{
 return
 false
 ;
+}
 TimeZoneHasher
 :
 :
@@ -1268,9 +1294,11 @@ if
 !
 linkName
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 rawTarget
@@ -1296,9 +1324,11 @@ if
 !
 target
 )
+{
 return
 false
 ;
+}
 TimeZoneHasher
 :
 :
@@ -1412,9 +1442,11 @@ ensureTimeZones
 cx
 )
 )
+{
 return
 false
 ;
+}
 RootedLinearString
 timeZoneLinear
 (
@@ -1433,9 +1465,11 @@ if
 !
 timeZoneLinear
 )
+{
 return
 false
 ;
+}
 TimeZoneHasher
 :
 :
@@ -1460,6 +1494,7 @@ lookup
 lookup
 )
 )
+{
 result
 .
 set
@@ -1468,6 +1503,7 @@ set
 p
 )
 ;
+}
 return
 true
 ;
@@ -1501,9 +1537,11 @@ ensureTimeZones
 cx
 )
 )
+{
 return
 false
 ;
+}
 RootedLinearString
 timeZoneLinear
 (
@@ -1522,9 +1560,11 @@ if
 !
 timeZoneLinear
 )
+{
 return
 false
 ;
+}
 TimeZoneHasher
 :
 :
@@ -1679,6 +1719,7 @@ has
 targetLookup
 )
 )
+{
 result
 .
 set
@@ -1686,6 +1727,7 @@ set
 targetTimeZone
 )
 ;
+}
 }
 else
 if
@@ -1757,6 +1799,7 @@ if
 (
 isLatin1
 )
+{
 hash
 =
 mozilla
@@ -1768,7 +1811,9 @@ latin1Chars
 length
 )
 ;
+}
 else
+{
 hash
 =
 mozilla
@@ -1780,6 +1825,7 @@ twoByteChars
 length
 )
 ;
+}
 }
 bool
 js
@@ -1818,9 +1864,11 @@ lookup
 .
 length
 )
+{
 return
 false
 ;
+}
 if
 (
 key
@@ -1852,6 +1900,7 @@ lookup
 .
 isLatin1
 )
+{
 return
 EqualChars
 (
@@ -1864,6 +1913,7 @@ lookup
 length
 )
 ;
+}
 return
 EqualChars
 (
@@ -1898,6 +1948,7 @@ lookup
 .
 isLatin1
 )
+{
 return
 EqualChars
 (
@@ -1910,6 +1961,7 @@ lookup
 length
 )
 ;
+}
 return
 EqualChars
 (
@@ -1944,9 +1996,11 @@ if
 (
 upperCaseFirstInitialized
 )
+{
 return
 true
 ;
+}
 /
 /
 If
@@ -2074,8 +2128,10 @@ rawLocale
 =
 nullptr
 )
+{
 break
 ;
+}
 UCollator
 *
 collator
@@ -2149,8 +2205,10 @@ caseFirst
 =
 UCOL_UPPER_FIRST
 )
+{
 continue
 ;
+}
 MOZ_ASSERT
 (
 size
@@ -2176,9 +2234,11 @@ if
 !
 locale
 )
+{
 return
 false
 ;
+}
 LocaleHasher
 :
 :
@@ -2303,9 +2363,11 @@ ensureUpperCaseFirstLocales
 cx
 )
 )
+{
 return
 false
 ;
+}
 RootedLinearString
 localeLinear
 (
@@ -2324,9 +2386,11 @@ if
 !
 localeLinear
 )
+{
 return
 false
 ;
+}
 LocaleHasher
 :
 :

@@ -508,6 +508,7 @@ und
 "
 )
 )
+{
 return
 "
 "
@@ -517,6 +518,7 @@ return
 ICU
 root
 locale
+}
 return
 locale
 ;
@@ -721,10 +723,12 @@ size
 )
 )
 )
+{
 return
 -
 1
 ;
+}
 status
 =
 U_ZERO_ERROR
@@ -827,9 +831,11 @@ size
 <
 0
 )
+{
 return
 nullptr
 ;
+}
 return
 NewStringCopyN
 <

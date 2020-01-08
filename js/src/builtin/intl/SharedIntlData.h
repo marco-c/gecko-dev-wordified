@@ -310,6 +310,7 @@ if
 (
 isLatin1
 )
+{
 latin1Chars
 =
 string
@@ -320,7 +321,9 @@ latin1Chars
 nogc
 )
 ;
+}
 else
+{
 twoByteChars
 =
 string
@@ -331,6 +334,7 @@ twoByteChars
 nogc
 )
 ;
+}
 }
 }
 ;
