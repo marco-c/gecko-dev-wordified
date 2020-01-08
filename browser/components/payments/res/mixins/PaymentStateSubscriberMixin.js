@@ -245,6 +245,13 @@ displayItems
 :
 [
 ]
+payer
+:
+{
+}
+paymentMethod
+:
+null
 shippingAddressErrors
 :
 {
