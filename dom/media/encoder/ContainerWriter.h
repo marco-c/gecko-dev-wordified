@@ -170,7 +170,7 @@ ContainerWriter
 /
 Mapping
 to
-DOMMediaStream
+DOMLocalMediaStream
 :
 :
 TrackTypeHints

@@ -249,12 +249,12 @@ e
 {
 }
 let
-stream
 track
 trackEvent
 ;
 try
 {
+const
 stream
 =
 await
@@ -349,7 +349,6 @@ add_objects
 MediaStream
 :
 [
-stream
 '
 new
 MediaStream
