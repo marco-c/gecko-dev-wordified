@@ -11093,6 +11093,8 @@ HttpChannelChild
 :
 ProcessNotifyTrackingCookieBlocked
 (
+uint32_t
+aRejectedReason
 )
 {
 LOG
@@ -11156,6 +11158,7 @@ NotifyTrackingCookieBlocked
 "
 [
 self
+aRejectedReason
 ]
 (
 )
@@ -11166,6 +11169,7 @@ AntiTrackingCommon
 NotifyRejection
 (
 self
+aRejectedReason
 )
 ;
 }
