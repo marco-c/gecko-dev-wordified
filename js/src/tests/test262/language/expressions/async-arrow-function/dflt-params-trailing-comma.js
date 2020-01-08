@@ -82,6 +82,13 @@ arrow
 function
 -
 definitions
+features
+:
+[
+async
+-
+functions
+]
 flags
 :
 [

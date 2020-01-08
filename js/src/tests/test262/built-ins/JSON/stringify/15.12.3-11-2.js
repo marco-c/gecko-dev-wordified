@@ -53,7 +53,6 @@ JSON
 stringify
 replacer
 function
-works
 is
 applied
 to

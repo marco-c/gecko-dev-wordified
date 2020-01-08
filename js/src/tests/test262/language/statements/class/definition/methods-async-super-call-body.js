@@ -61,6 +61,13 @@ flags
 [
 async
 ]
+features
+:
+[
+async
+-
+functions
+]
 -
 -
 -

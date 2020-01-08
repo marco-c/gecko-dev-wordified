@@ -84,7 +84,7 @@ strict
 mode
 .
 (
-Geenerator
+Generator
 method
 as
 a

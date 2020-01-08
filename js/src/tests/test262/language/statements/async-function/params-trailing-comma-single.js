@@ -80,6 +80,13 @@ async
 function
 -
 definitions
+features
+:
+[
+async
+-
+functions
+]
 flags
 :
 [

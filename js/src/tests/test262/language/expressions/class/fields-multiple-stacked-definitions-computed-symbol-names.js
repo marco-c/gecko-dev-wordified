@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 computed
 -
@@ -49,7 +49,7 @@ src
 /
 class
 -
-fields
+elements
 /
 productions
 /
@@ -91,6 +91,11 @@ FieldDefinition
 features
 :
 [
+class
+-
+fields
+-
+public
 Symbol
 computed
 -
@@ -98,11 +103,6 @@ property
 -
 names
 class
-class
--
-fields
--
-public
 ]
 flags
 :

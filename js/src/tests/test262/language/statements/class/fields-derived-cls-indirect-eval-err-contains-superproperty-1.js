@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 eval
 -
@@ -53,7 +53,7 @@ src
 /
 class
 -
-fields
+elements
 /
 initializer
 -
@@ -217,15 +217,15 @@ SuperProperty
 -
 *
 /
-class
-A
-{
-}
 var
 executed
 =
 false
 ;
+class
+A
+{
+}
 class
 C
 extends

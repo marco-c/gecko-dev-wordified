@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 eval
 -
@@ -53,7 +53,7 @@ src
 /
 class
 -
-fields
+elements
 /
 initializer
 -
@@ -229,15 +229,15 @@ SuperCall
 -
 *
 /
-class
-A
-{
-}
 var
 executed
 =
 false
 ;
+class
+A
+{
+}
 class
 C
 extends

@@ -69,13 +69,6 @@ result
 in
 a
 ReferenceError
-includes
-:
-[
-sta
-.
-js
-]
 -
 -
 -

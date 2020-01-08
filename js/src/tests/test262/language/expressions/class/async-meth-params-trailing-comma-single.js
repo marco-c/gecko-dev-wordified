@@ -87,6 +87,13 @@ runtime
 semantics
 -
 evaluation
+features
+:
+[
+async
+-
+functions
+]
 flags
 :
 [

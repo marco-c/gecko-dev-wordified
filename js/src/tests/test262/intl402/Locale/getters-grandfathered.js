@@ -145,7 +145,7 @@ the
 grandfathered
 production
 return
-undefined
+locale
 .
 get
 Intl
@@ -251,7 +251,11 @@ sameValue
 loc
 .
 language
-undefined
+"
+i
+-
+default
+"
 )
 ;
 assert
@@ -322,7 +326,11 @@ sameValue
 loc
 .
 language
-undefined
+"
+cel
+-
+gaulish
+"
 )
 ;
 assert
@@ -393,7 +401,11 @@ sameValue
 loc
 .
 language
-undefined
+"
+zh
+-
+min
+"
 )
 ;
 assert

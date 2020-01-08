@@ -259,7 +259,7 @@ Locale
 *
 /
 const
-propdesc
+getter
 =
 Object
 .
@@ -274,20 +274,6 @@ prototype
 numeric
 "
 )
-;
-if
-(
-propdesc
-!
-=
-=
-undefined
-)
-{
-const
-getter
-=
-propdesc
 .
 get
 ;
@@ -316,7 +302,6 @@ true
 }
 )
 ;
-}
 reportCompare
 (
 0

@@ -49,12 +49,13 @@ description
 JSON
 .
 stringify
+of
 a
 circular
 object
 throws
 a
-error
+TypeError
 -
 -
 -

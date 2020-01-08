@@ -87,6 +87,9 @@ features
 default
 -
 parameters
+async
+-
+functions
 ]
 flags
 :

@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 init
 -
@@ -49,7 +49,7 @@ src
 /
 class
 -
-fields
+elements
 /
 default
 /
@@ -89,11 +89,11 @@ features
 :
 [
 class
-class
 -
 fields
 -
 public
+class
 ]
 flags
 :

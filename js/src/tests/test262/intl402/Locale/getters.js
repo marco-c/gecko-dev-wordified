@@ -449,8 +449,6 @@ h23
 -
 kf
 -
-true
--
 kn
 -
 false
@@ -587,9 +585,7 @@ sameValue
 loc
 .
 numeric
-"
 false
-"
 )
 ;
 }
@@ -719,8 +715,6 @@ false
 -
 kn
 -
-true
--
 nu
 -
 jpanfin
@@ -853,9 +847,7 @@ sameValue
 loc
 .
 numeric
-"
 true
-"
 )
 ;
 }
@@ -955,8 +947,6 @@ hc
 h11
 -
 kf
--
-true
 -
 kn
 -
@@ -1094,9 +1084,7 @@ sameValue
 loc
 .
 numeric
-"
 false
-"
 )
 ;
 }

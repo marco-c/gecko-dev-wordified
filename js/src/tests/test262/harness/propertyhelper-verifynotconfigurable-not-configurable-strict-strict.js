@@ -63,9 +63,6 @@ includes
 propertyHelper
 .
 js
-sta
-.
-js
 ]
 flags
 :

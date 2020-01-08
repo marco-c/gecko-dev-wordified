@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 computed
 -
@@ -51,7 +51,7 @@ src
 /
 class
 -
-fields
+elements
 /
 class
 -
@@ -98,6 +98,11 @@ classdefinitionevaluation
 features
 :
 [
+class
+-
+fields
+-
+public
 computed
 -
 property
@@ -107,11 +112,6 @@ Symbol
 .
 toPrimitive
 class
-class
--
-fields
--
-public
 ]
 flags
 :

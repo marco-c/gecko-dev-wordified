@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 computed
 -
@@ -51,7 +51,7 @@ src
 /
 class
 -
-fields
+elements
 /
 default
 /
@@ -88,6 +88,11 @@ FieldDefinition
 features
 :
 [
+class
+-
+fields
+-
+public
 computed
 -
 property
@@ -98,11 +103,6 @@ Symbol
 toPrimitive
 Symbol
 class
-class
--
-fields
--
-public
 ]
 flags
 :

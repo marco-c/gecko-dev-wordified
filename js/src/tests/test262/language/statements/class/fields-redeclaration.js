@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 redeclaration
 .
@@ -45,7 +45,7 @@ src
 /
 class
 -
-fields
+elements
 /
 default
 /
@@ -86,11 +86,16 @@ features
 :
 [
 class
-class
 -
 fields
 -
 public
+computed
+-
+property
+-
+names
+class
 ]
 flags
 :

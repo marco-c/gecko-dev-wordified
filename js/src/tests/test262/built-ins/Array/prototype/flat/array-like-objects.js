@@ -126,7 +126,6 @@ objects
 '
 )
 ;
-var
 a
 =
 {
@@ -140,7 +139,6 @@ length
 ]
 }
 ;
-var
 actual
 =
 [
@@ -169,7 +167,6 @@ objects
 '
 )
 ;
-var
 a
 =
 {
@@ -183,7 +180,6 @@ undefined
 ]
 }
 ;
-var
 actual
 =
 [

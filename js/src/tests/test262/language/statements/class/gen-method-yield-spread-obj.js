@@ -56,7 +56,7 @@ object
 spread
 position
 (
-Geenerator
+Generator
 method
 as
 a

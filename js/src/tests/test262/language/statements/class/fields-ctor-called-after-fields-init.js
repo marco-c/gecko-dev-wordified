@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 ctor
 -
@@ -53,7 +53,7 @@ src
 /
 class
 -
-fields
+elements
 /
 default
 /
@@ -96,11 +96,11 @@ features
 :
 [
 class
-class
 -
 fields
 -
 public
+class
 ]
 flags
 :

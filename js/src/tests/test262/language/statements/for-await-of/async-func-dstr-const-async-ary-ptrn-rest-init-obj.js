@@ -79,7 +79,7 @@ template
 -
 description
 :
-Reset
+Rest
 element
 (
 nested

@@ -63,7 +63,7 @@ template
 -
 description
 :
-Reset
+Rest
 element
 (
 identifier

@@ -46,9 +46,6 @@ includes
 propertyHelper
 .
 js
-sta
-.
-js
 ]
 -
 -

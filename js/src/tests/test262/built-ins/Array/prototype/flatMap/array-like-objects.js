@@ -137,7 +137,6 @@ objects
 '
 )
 ;
-var
 a
 =
 {
@@ -149,7 +148,6 @@ length
 1
 }
 ;
-var
 actual
 =
 [
@@ -179,7 +177,6 @@ objects
 '
 )
 ;
-var
 a
 =
 {
@@ -192,7 +189,6 @@ void
 1
 }
 ;
-var
 actual
 =
 [

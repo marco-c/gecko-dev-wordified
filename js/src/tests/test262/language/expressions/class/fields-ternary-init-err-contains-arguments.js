@@ -36,7 +36,7 @@ src
 /
 class
 -
-fields
+elements
 /
 init
 -
@@ -54,7 +54,7 @@ src
 /
 class
 -
-fields
+elements
 /
 initializer
 -

@@ -86,6 +86,13 @@ runtime
 semantics
 -
 bindingclassdeclarationevaluation
+features
+:
+[
+async
+-
+functions
+]
 flags
 :
 [

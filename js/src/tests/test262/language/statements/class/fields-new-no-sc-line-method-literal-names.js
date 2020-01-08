@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 literal
 -
@@ -47,7 +47,7 @@ src
 /
 class
 -
-fields
+elements
 /
 productions
 /
@@ -100,11 +100,11 @@ features
 :
 [
 class
-class
 -
 fields
 -
 public
+class
 ]
 flags
 :

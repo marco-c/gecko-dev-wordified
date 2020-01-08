@@ -80,9 +80,6 @@ includes
 promiseHelper
 .
 js
-sta
-.
-js
 ]
 -
 -

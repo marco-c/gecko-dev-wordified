@@ -61,9 +61,6 @@ includes
 assertRelativeDateMs
 .
 js
-sta
-.
-js
 ]
 -
 -

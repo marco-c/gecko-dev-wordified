@@ -72,8 +72,6 @@ prototype
 .
 resolvedOptions
 (
-value
-unit
 )
 2
 .

@@ -214,11 +214,6 @@ numeric
 "
 )
 ;
-if
-(
-propdesc
-)
-{
 assert
 .
 sameValue
@@ -262,7 +257,6 @@ true
 }
 )
 ;
-}
 reportCompare
 (
 0

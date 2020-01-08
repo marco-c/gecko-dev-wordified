@@ -158,7 +158,6 @@ stringify
 must
 exist
 as
-be
 a
 function
 taking

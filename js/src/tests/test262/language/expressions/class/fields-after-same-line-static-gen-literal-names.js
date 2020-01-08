@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 literal
 -
@@ -47,7 +47,7 @@ src
 /
 class
 -
-fields
+elements
 /
 productions
 /
@@ -96,13 +96,13 @@ FieldDefinition
 features
 :
 [
-generators
-class
 class
 -
 fields
 -
 public
+generators
+class
 ]
 flags
 :

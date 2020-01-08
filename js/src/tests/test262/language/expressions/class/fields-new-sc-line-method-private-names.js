@@ -38,7 +38,7 @@ src
 /
 class
 -
-fields
+elements
 /
 private
 -
@@ -52,7 +52,7 @@ src
 /
 class
 -
-fields
+elements
 /
 productions
 /
@@ -76,8 +76,6 @@ template
 -
 description
 :
-static
-literal
 private
 names
 (

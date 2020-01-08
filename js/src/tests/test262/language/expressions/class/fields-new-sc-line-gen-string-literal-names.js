@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 string
 -
@@ -49,7 +49,7 @@ src
 /
 class
 -
-fields
+elements
 /
 productions
 /
@@ -100,11 +100,11 @@ features
 :
 [
 class
-class
 -
 fields
 -
 public
+class
 generators
 ]
 flags

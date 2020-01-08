@@ -65,9 +65,6 @@ includes
 detachArrayBuffer
 .
 js
-sta
-.
-js
 ]
 -
 -

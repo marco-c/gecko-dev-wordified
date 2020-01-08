@@ -47,13 +47,6 @@ functions
 :
 Test262Error
 ERROR
-includes
-:
-[
-sta
-.
-js
-]
 -
 -
 -

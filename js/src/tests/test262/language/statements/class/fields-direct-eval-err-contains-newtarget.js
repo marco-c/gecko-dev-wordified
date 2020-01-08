@@ -33,7 +33,7 @@ src
 /
 class
 -
-fields
+elements
 /
 eval
 -
@@ -51,7 +51,7 @@ src
 /
 class
 -
-fields
+elements
 /
 initializer
 -
@@ -103,14 +103,14 @@ features
 :
 [
 class
+new
+.
+target
 class
 -
 fields
 -
 public
-new
-.
-target
 ]
 flags
 :
