@@ -1258,8 +1258,6 @@ waitForCondition
 )
 =
 >
-!
-!
 doc
 .
 querySelector
@@ -1348,5 +1346,9 @@ checkPrefs
 ;
 }
 }
+)
+.
+only
+(
 )
 ;
