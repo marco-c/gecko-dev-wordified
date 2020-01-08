@@ -164,6 +164,9 @@ eDllBlocklistInitFlagDefault
 eDllBlocklistInitFlagIsChildProcess
 =
 1
+eDllBlocklistInitFlagWasBootstrapped
+=
+2
 }
 ;
 MFBT_API
