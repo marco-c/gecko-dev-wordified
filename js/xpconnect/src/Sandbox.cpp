@@ -3665,10 +3665,10 @@ RootedObject
 sandboxGlobal
 (
 cx
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 sandboxProxy
 )
