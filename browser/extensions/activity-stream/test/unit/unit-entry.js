@@ -1069,6 +1069,11 @@ f
 )
 ;
 }
+defineLazyGlobalGetters
+(
+)
+{
+}
 defineLazyModuleGetter
 (
 )
