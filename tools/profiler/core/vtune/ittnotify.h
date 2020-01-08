@@ -38,7 +38,7 @@ c
 )
 2005
 -
-2017
+2014
 Intel
 Corporation
 .
@@ -216,7 +216,7 @@ c
 )
 2005
 -
-2017
+2014
 Intel
 Corporation
 .
@@ -12650,7 +12650,6 @@ pop
 endcond
 *
 /
-static
 const
 __itt_id
 __itt_null

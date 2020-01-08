@@ -38,7 +38,7 @@ c
 )
 2005
 -
-2017
+2014
 Intel
 Corporation
 .
@@ -216,7 +216,7 @@ c
 )
 2005
 -
-2017
+2014
 Intel
 Corporation
 .
@@ -549,7 +549,7 @@ n
 )
 Revision
 :
-523557
+471937
 \
 n
 "
@@ -1531,11 +1531,6 @@ PATH
 .
 *
 /
-if
-(
-DL_SYMBOLS
-)
-{
 m_libHandle
 =
 dlopen
@@ -1544,7 +1539,6 @@ dllName
 RTLD_LAZY
 )
 ;
-}
 }
 #
 endif
@@ -1585,11 +1579,6 @@ ITT_PLATFORM
 ITT_PLATFORM_WIN
 *
 /
-if
-(
-DL_SYMBOLS
-)
-{
 m_libHandle
 =
 dlopen
@@ -1598,7 +1587,6 @@ DEFAULT_DLLNAME
 RTLD_LAZY
 )
 ;
-}
 #
 endif
 /
