@@ -3021,11 +3021,7 @@ HybridEventTarget
 (
 )
 ;
-RefPtr
-<
-StrongWorkerRef
->
-strongWorkerRef
+workerRef
 =
 StrongWorkerRef
 :
