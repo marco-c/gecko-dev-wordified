@@ -2572,6 +2572,10 @@ aProcessId
 size_t
 internal_HistogramStorageIndex
 (
+const
+StaticMutexAutoLock
+&
+aLock
 HistogramID
 aHistogramId
 ProcessID
@@ -2639,6 +2643,10 @@ Histogram
 *
 internal_GetHistogramFromStorage
 (
+const
+StaticMutexAutoLock
+&
+aLock
 HistogramID
 aHistogramId
 ProcessID
@@ -2650,6 +2658,7 @@ index
 =
 internal_HistogramStorageIndex
 (
+aLock
 aHistogramId
 aProcessId
 )
@@ -2664,6 +2673,10 @@ index
 void
 internal_SetHistogramInStorage
 (
+const
+StaticMutexAutoLock
+&
+aLock
 HistogramID
 aHistogramId
 ProcessID
@@ -2696,6 +2709,7 @@ index
 =
 internal_HistogramStorageIndex
 (
+aLock
 aHistogramId
 aProcessId
 )
@@ -2890,6 +2904,10 @@ Histogram
 *
 internal_GetHistogramById
 (
+const
+StaticMutexAutoLock
+&
+aLock
 HistogramID
 histogramId
 ProcessID
@@ -2935,6 +2953,7 @@ h
 =
 internal_GetHistogramFromStorage
 (
+aLock
 histogramId
 processId
 )
@@ -2986,6 +3005,7 @@ h
 ;
 internal_SetHistogramInStorage
 (
+aLock
 histogramId
 processId
 h
@@ -3116,6 +3136,10 @@ nsresult
 internal_GetHistogramIdByName
 (
 const
+StaticMutexAutoLock
+&
+aLock
+const
 nsACString
 &
 name
@@ -3161,6 +3185,10 @@ storage
 void
 internal_ClearHistogramById
 (
+const
+StaticMutexAutoLock
+&
+aLock
 HistogramID
 histogramId
 ProcessID
@@ -3172,6 +3200,7 @@ index
 =
 internal_HistogramStorageIndex
 (
+aLock
 histogramId
 processId
 )
@@ -3461,6 +3490,10 @@ bool
 internal_IsEmpty
 (
 const
+StaticMutexAutoLock
+&
+aLock
+const
 Histogram
 *
 h
@@ -3478,6 +3511,10 @@ is_empty
 bool
 internal_IsExpired
 (
+const
+StaticMutexAutoLock
+&
+aLock
 Histogram
 *
 h
@@ -3493,6 +3530,10 @@ gExpiredHistogram
 void
 internal_SetHistogramRecordingEnabled
 (
+const
+StaticMutexAutoLock
+&
+aLock
 HistogramID
 id
 bool
@@ -4523,6 +4564,10 @@ h
 nsresult
 internal_HistogramAdd
 (
+const
+StaticMutexAutoLock
+&
+aLock
 Histogram
 &
 histogram
@@ -5544,6 +5589,10 @@ NS_OK
 bool
 internal_ShouldReflectHistogram
 (
+const
+StaticMutexAutoLock
+&
+aLock
 Histogram
 *
 h
@@ -5609,6 +5658,7 @@ if
 (
 internal_IsEmpty
 (
+aLock
 h
 )
 &
@@ -5971,6 +6021,7 @@ h
 =
 internal_GetHistogramById
 (
+aLock
 id
 ProcessID
 (
@@ -5987,6 +6038,7 @@ h
 |
 internal_IsExpired
 (
+aLock
 h
 )
 |
@@ -5994,6 +6046,7 @@ h
 !
 internal_ShouldReflectHistogram
 (
+aLock
 h
 id
 )
@@ -7957,6 +8010,10 @@ namespace
 bool
 internal_RemoteAccumulate
 (
+const
+StaticMutexAutoLock
+&
+aLock
 HistogramID
 aId
 uint32_t
@@ -8003,6 +8060,10 @@ true
 bool
 internal_RemoteAccumulate
 (
+const
+StaticMutexAutoLock
+&
+aLock
 HistogramID
 aId
 const
@@ -8054,6 +8115,10 @@ true
 void
 internal_Accumulate
 (
+const
+StaticMutexAutoLock
+&
+aLock
 HistogramID
 aId
 uint32_t
@@ -8070,6 +8135,7 @@ internal_CanRecordBase
 |
 internal_RemoteAccumulate
 (
+aLock
 aId
 aSample
 )
@@ -8084,6 +8150,7 @@ h
 =
 internal_GetHistogramById
 (
+aLock
 aId
 ProcessID
 :
@@ -8098,6 +8165,7 @@ h
 ;
 internal_HistogramAdd
 (
+aLock
 *
 h
 aId
@@ -8112,6 +8180,10 @@ Parent
 void
 internal_Accumulate
 (
+const
+StaticMutexAutoLock
+&
+aLock
 HistogramID
 aId
 const
@@ -8136,6 +8208,7 @@ internal_CanRecordBase
 |
 internal_RemoteAccumulate
 (
+aLock
 aId
 aKey
 aSample
@@ -8180,6 +8253,10 @@ Parent
 void
 internal_AccumulateChild
 (
+const
+StaticMutexAutoLock
+&
+aLock
 ProcessID
 aProcessType
 HistogramID
@@ -8207,6 +8284,7 @@ h
 =
 internal_GetHistogramById
 (
+aLock
 aId
 aProcessType
 )
@@ -8214,6 +8292,7 @@ aProcessType
 {
 internal_HistogramAdd
 (
+aLock
 *
 h
 aId
@@ -8239,6 +8318,10 @@ CHILD
 void
 internal_AccumulateChildKeyed
 (
+const
+StaticMutexAutoLock
+&
+aLock
 ProcessID
 aProcessType
 HistogramID
@@ -8295,6 +8378,10 @@ aProcessType
 void
 internal_ClearHistogram
 (
+const
+StaticMutexAutoLock
+&
+aLock
 HistogramID
 id
 )
@@ -8434,6 +8521,7 @@ process
 {
 internal_ClearHistogramById
 (
+aLock
 id
 static_cast
 <
@@ -9879,6 +9967,7 @@ values
 {
 internal_Accumulate
 (
+locker
 id
 aValue
 )
@@ -10070,6 +10159,7 @@ h
 =
 internal_GetHistogramById
 (
+locker
 id
 ProcessID
 :
@@ -10362,6 +10452,7 @@ id
 ;
 internal_ClearHistogram
 (
+locker
 id
 )
 ;
@@ -11932,6 +12023,7 @@ values
 {
 internal_Accumulate
 (
+locker
 id
 NS_ConvertUTF16toUTF8
 (
@@ -13794,6 +13886,7 @@ products
 ;
 internal_SetHistogramRecordingEnabled
 (
+locker
 id
 canRecordInProcess
 &
@@ -13812,6 +13905,7 @@ kRecordingInitiallyDisabledIDs
 {
 internal_SetHistogramRecordingEnabled
 (
+locker
 recordingInitiallyDisabledID
 false
 )
@@ -13938,6 +14032,7 @@ gTelemetryHistogramMutex
 ;
 internal_SetHistogramRecordingEnabled
 (
+locker
 aID
 aEnabled
 )
@@ -13972,6 +14067,7 @@ NS_FAILED
 (
 internal_GetHistogramIdByName
 (
+locker
 name
 &
 id
@@ -14008,6 +14104,7 @@ XRE_GetProcessType
 {
 internal_SetHistogramRecordingEnabled
 (
+locker
 id
 aEnabled
 )
@@ -14064,6 +14161,7 @@ gTelemetryHistogramMutex
 ;
 internal_Accumulate
 (
+locker
 aID
 aSample
 )
@@ -14153,6 +14251,7 @@ aSamples
 {
 internal_Accumulate
 (
+locker
 aID
 sample
 )
@@ -14320,6 +14419,7 @@ gTelemetryHistogramMutex
 ;
 internal_Accumulate
 (
+locker
 aID
 aKey
 aSample
@@ -14531,6 +14631,7 @@ aSamples
 {
 internal_Accumulate
 (
+locker
 aID
 aKey
 sample
@@ -14577,6 +14678,7 @@ rv
 =
 internal_GetHistogramIdByName
 (
+locker
 nsDependentCString
 (
 name
@@ -14598,6 +14700,7 @@ return
 }
 internal_Accumulate
 (
+locker
 id
 sample
 )
@@ -14652,6 +14755,7 @@ rv
 =
 internal_GetHistogramIdByName
 (
+locker
 nsDependentCString
 (
 name
@@ -14701,6 +14805,7 @@ key
 {
 internal_Accumulate
 (
+locker
 id
 key
 sample
@@ -14875,6 +14980,7 @@ return
 }
 internal_Accumulate
 (
+locker
 aId
 labelId
 )
@@ -15078,6 +15184,7 @@ intSamples
 {
 internal_Accumulate
 (
+locker
 aId
 sample
 )
@@ -15179,6 +15286,7 @@ continue
 }
 internal_AccumulateChild
 (
+locker
 aProcessType
 aAccumulations
 [
@@ -15291,6 +15399,7 @@ continue
 }
 internal_AccumulateChildKeyed
 (
+locker
 aProcessType
 aAccumulations
 [
@@ -15355,6 +15464,7 @@ rv
 =
 internal_GetHistogramIdByName
 (
+locker
 name
 &
 id
@@ -15446,6 +15556,7 @@ rv
 =
 internal_GetHistogramIdByName
 (
+locker
 name
 &
 id
@@ -18973,6 +19084,7 @@ NS_FAILED
 (
 internal_GetHistogramIdByName
 (
+locker
 mozilla
 :
 :
@@ -19059,6 +19171,7 @@ h
 =
 internal_GetHistogramById
 (
+locker
 id
 procID
 )
@@ -19076,6 +19189,7 @@ h
 |
 internal_IsExpired
 (
+locker
 h
 )
 )
@@ -20264,6 +20378,7 @@ NS_FAILED
 (
 internal_GetHistogramIdByName
 (
+locker
 mozilla
 :
 :
@@ -20426,6 +20541,7 @@ h
 |
 internal_IsExpired
 (
+locker
 h
 )
 )
