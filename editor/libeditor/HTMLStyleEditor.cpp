@@ -572,7 +572,7 @@ this
 EditSubAction
 :
 :
-insertElement
+eInsertElement
 nsIEditor
 :
 :

@@ -9477,7 +9477,7 @@ this
 EditSubAction
 :
 :
-insertElement
+eInsertElement
 nsIEditor
 :
 :
@@ -9531,7 +9531,7 @@ subActionInfo
 EditSubAction
 :
 :
-insertElement
+eInsertElement
 )
 ;
 nsresult
@@ -25684,7 +25684,7 @@ this
 EditSubAction
 :
 :
-insertElement
+eInsertElement
 nsIEditor
 :
 :

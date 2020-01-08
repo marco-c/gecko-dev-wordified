@@ -765,7 +765,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertElement
+eInsertElement
 |
 |
 aEditSubAction
@@ -4415,7 +4415,7 @@ case
 EditSubAction
 :
 :
-insertElement
+eInsertElement
 :
 {
 nsresult

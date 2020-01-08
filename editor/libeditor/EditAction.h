@@ -541,7 +541,16 @@ definition
 list
 .
 eCreateOrChangeDefinitionList
-insertElement
+/
+/
+eInsertElement
+indicates
+to
+insert
+an
+element
+.
+eInsertElement
 insertQuotation
 htmlPaste
 =
