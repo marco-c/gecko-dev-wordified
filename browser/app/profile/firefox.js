@@ -5859,9 +5859,9 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+previews
 "
-true
+false
 )
 ;
 /
@@ -14043,7 +14043,7 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+previews
 "
 true
 )
