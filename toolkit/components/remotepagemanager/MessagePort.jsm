@@ -258,6 +258,15 @@ contentblocking
 enabled
 "
 "
+browser
+.
+contentblocking
+.
+ui
+.
+enabled
+"
+"
 privacy
 .
 trackingprotection
