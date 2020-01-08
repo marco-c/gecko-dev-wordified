@@ -18147,7 +18147,7 @@ aMatrixCache
 =
 nullptr
 bool
-aStopAtStackingContextAndDisplayPort
+aStopAtStackingContextAndDisplayPortAndOOFFrame
 =
 false
 nsIFrame
@@ -18206,7 +18206,7 @@ flags
 ;
 if
 (
-aStopAtStackingContextAndDisplayPort
+aStopAtStackingContextAndDisplayPortAndOOFFrame
 )
 {
 flags
@@ -18610,7 +18610,7 @@ nullptr
 *
 /
 bool
-aStopAtStackingContextAndDisplayPort
+aStopAtStackingContextAndDisplayPortAndOOFFrame
 /
 *
 =
@@ -18684,7 +18684,7 @@ result
 aAncestor
 nullptr
 aMatrixCache
-aStopAtStackingContextAndDisplayPort
+aStopAtStackingContextAndDisplayPortAndOOFFrame
 aOutAncestor
 )
 ;
@@ -18774,7 +18774,7 @@ result
 aAncestor
 aPreservesAxisAlignedRectangles
 aMatrixCache
-aStopAtStackingContextAndDisplayPort
+aStopAtStackingContextAndDisplayPortAndOOFFrame
 aOutAncestor
 )
 ;

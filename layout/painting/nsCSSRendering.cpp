@@ -650,8 +650,9 @@ false
 InlineBackgroundData
 (
 )
-{
-}
+=
+default
+;
 void
 Reset
 (
@@ -9398,8 +9399,6 @@ return
 true
 ;
 }
-else
-{
 *
 aBackgroundFrame
 =
@@ -9412,7 +9411,6 @@ aForFrame
 rootElementFrame
 )
 ;
-}
 }
 bool
 nsCSSRendering
@@ -9685,6 +9683,7 @@ GetShadowRect
 (
 const
 nsRect
+&
 aFrameArea
 bool
 aNativeTheme
@@ -11614,9 +11613,6 @@ GetUsedBorder
 (
 )
 ;
-bool
-hasBorderRadius
-=
 aFrame
 -
 >
@@ -11650,6 +11646,8 @@ DevPixelsToAppUnits
 RectCornerRadii
 borderRadii
 ;
+const
+bool
 hasBorderRadius
 =
 GetBorderRadii
@@ -21016,8 +21014,6 @@ return
 aImageDimension
 ;
 }
-else
-{
 aRepeat
 =
 true
@@ -21038,7 +21034,6 @@ ratio
 1
 )
 ;
-}
 }
 /
 *

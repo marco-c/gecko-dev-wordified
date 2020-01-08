@@ -400,6 +400,12 @@ PixelRoundedRect
 {
 PixelRoundedRect
 (
+)
+=
+delete
+;
+PixelRoundedRect
+(
 const
 DisplayItemClip
 :
@@ -830,14 +836,6 @@ mRadii
 [
 8
 ]
-;
-private
-:
-PixelRoundedRect
-(
-)
-=
-delete
 ;
 }
 ;

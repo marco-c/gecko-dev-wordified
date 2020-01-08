@@ -18989,7 +18989,6 @@ aVisibleRect
 break
 ;
 }
-else
 if
 (
 gfxPrefs
@@ -38806,8 +38805,6 @@ AppUnitsPerDevPixel
 )
 ;
 }
-else
-{
 return
 presContext
 -
@@ -38820,7 +38817,6 @@ Size
 (
 )
 ;
-}
 }
 static
 bool

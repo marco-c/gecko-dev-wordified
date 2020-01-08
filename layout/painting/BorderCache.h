@@ -393,8 +393,9 @@ mValue
 FourFloatsHashKey
 (
 )
-{
-}
+=
+default
+;
 KeyType
 GetKey
 (

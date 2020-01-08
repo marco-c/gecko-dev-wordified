@@ -678,6 +678,8 @@ aFlags
 nsImageRenderer
 (
 )
+=
+default
 ;
 /
 *

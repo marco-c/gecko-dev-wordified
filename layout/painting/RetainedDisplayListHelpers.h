@@ -449,8 +449,9 @@ public
 DirectedAcyclicGraph
 (
 )
-{
-}
+=
+default
+;
 DirectedAcyclicGraph
 (
 DirectedAcyclicGraph
