@@ -146,9 +146,9 @@ window
 .
 openDialog
 (
-getBrowserURL
-(
-)
+AppConstants
+.
+BROWSER_CHROME_URL
 "
 _blank
 "

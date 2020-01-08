@@ -3296,9 +3296,9 @@ location
 href
 !
 =
-getBrowserURL
-(
-)
+AppConstants
+.
+BROWSER_CHROME_URL
 )
 return
 ;

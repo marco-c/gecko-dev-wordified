@@ -545,9 +545,9 @@ win
 =
 openDialog
 (
-getBrowserURL
-(
-)
+AppConstants
+.
+BROWSER_CHROME_URL
 "
 "
 aFeatures
@@ -2872,9 +2872,9 @@ win
 =
 openDialog
 (
-getBrowserURL
-(
-)
+AppConstants
+.
+BROWSER_CHROME_URL
 "
 "
 "
