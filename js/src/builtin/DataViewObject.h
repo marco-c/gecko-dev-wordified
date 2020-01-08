@@ -155,6 +155,15 @@ include
 "
 vm
 /
+ArrayBufferViewObject
+.
+h
+"
+#
+include
+"
+vm
+/
 JSObject
 .
 h
