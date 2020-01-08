@@ -163,14 +163,6 @@ mozharness
 .
 mozilla
 .
-release
-import
-ReleaseMixin
-from
-mozharness
-.
-mozilla
-.
 secrets
 import
 SecretsMixin
@@ -199,9 +191,7 @@ DesktopPartnerRepacks
 class
 DesktopPartnerRepacks
 (
-ReleaseMixin
 AutomationMixin
-                            
 BaseScript
 VirtualenvMixin
 SecretsMixin
