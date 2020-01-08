@@ -1458,7 +1458,7 @@ DEBUG
 |
 defined
 (
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+MOZ_ASAN
 )
 #
 define
