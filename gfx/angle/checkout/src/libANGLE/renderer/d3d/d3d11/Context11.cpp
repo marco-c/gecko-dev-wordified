@@ -3363,6 +3363,7 @@ programD3D
 >
 hasGeometryExecutableForPrimitiveType
 (
+context
 drawMode
 )
 ;
@@ -3551,6 +3552,7 @@ programD3D
 >
 hasGeometryExecutableForPrimitiveType
 (
+context
 drawMode
 )
 )

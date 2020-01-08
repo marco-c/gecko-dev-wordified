@@ -8536,6 +8536,7 @@ programD3D
 >
 usesGeometryShader
 (
+context
 params
 .
 mode

@@ -2829,6 +2829,12 @@ createContextExtensionsEnabled
 ;
 /
 /
+EGL_MOZ_create_context_provoking_vertex_dont_care
+bool
+provokingVertexDontCare
+;
+/
+/
 EGL_ANDROID_presentation_time
 bool
 presentationTime
