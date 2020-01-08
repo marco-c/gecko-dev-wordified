@@ -6257,10 +6257,6 @@ NS_ConvertUTF8toUTF16
 (
 aURI
 )
-.
-get
-(
-)
 nsIWebNavigation
 :
 :
