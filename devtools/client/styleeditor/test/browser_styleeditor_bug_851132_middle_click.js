@@ -45,7 +45,7 @@ doesn
 '
 t
 open
-styleeditor
+index
 .
 xul
 in

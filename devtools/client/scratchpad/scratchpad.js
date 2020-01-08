@@ -134,7 +134,7 @@ id
 /
 /
 Via
-scratchpad
+index
 .
 xul
 /
