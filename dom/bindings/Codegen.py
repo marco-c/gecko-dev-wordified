@@ -58609,17 +58609,25 @@ argsPost
 append
 (
 "
-js
-:
-:
-GetObjectCompartment
 (
 unwrappedObj
 ?
+js
+:
+:
+GetNonCCWObjectRealm
+(
 *
 unwrappedObj
+)
 :
-obj
+js
+:
+:
+GetContextRealm
+(
+cx
+)
 )
 "
 )
@@ -118242,11 +118250,14 @@ append
 Argument
 (
 "
-JSCompartment
+JS
+:
+:
+Realm
 *
 "
 "
-aCompartment
+aRealm
 "
 "
 nullptr
@@ -118737,7 +118748,7 @@ append
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 scopeObj
 )
@@ -122219,11 +122230,11 @@ t
 need
 aExceptionHandling
 or
-aCompartment
+aRealm
 arguments
+because
         
 #
-because
 those
 would
 make
@@ -122237,9 +122248,9 @@ sane
 thing
 to
 do
+with
         
 #
-with
 exceptions
 in
 the
@@ -122346,7 +122357,7 @@ t
 get
 rethrown
 if
-aCompartment
+aRealm
 is
 provided
         
@@ -122375,11 +122386,14 @@ append
 Argument
 (
 "
-JSCompartment
+JS
+:
+:
+Realm
 *
 "
 "
-aCompartment
+aRealm
 "
 "
 nullptr
@@ -122520,7 +122534,7 @@ the
 #
 aExceptionHandling
 and
-aCompartment
+aRealm
 values
 we
 need
@@ -122528,9 +122542,9 @@ to
 end
 up
 matching
+the
         
 #
-the
 signature
 of
 our
@@ -122676,7 +122690,7 @@ this
 aRv
 aExecutionReason
 aExceptionHandling
-aCompartment
+aRealm
 )
 ;
             
@@ -125742,11 +125756,14 @@ append
 Argument
 (
 "
-JSCompartment
+JS
+:
+:
+Realm
 *
 "
 "
-aCompartment
+aRealm
 "
 "
 nullptr
@@ -125873,7 +125890,7 @@ does
 add
             
 #
-aCompartment
+aRealm
 for
 us
 .
@@ -125887,7 +125904,7 @@ callSetup
 s
 "
 eRethrowContentExceptions
-aCompartment
+aRealm
 /
 *
 aIsJSImplementedWebIDL
@@ -125927,7 +125944,7 @@ callSetup
 s
 "
 aExceptionHandling
-aCompartment
+aRealm
 '
 %
 self
