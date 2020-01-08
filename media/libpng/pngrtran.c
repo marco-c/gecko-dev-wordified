@@ -23,11 +23,11 @@ libpng
 .
 6
 .
-33
+35
 [
-September
-28
-2017
+July
+15
+2018
 ]
 *
 Copyright
@@ -40,7 +40,7 @@ c
 2004
 2006
 -
-2017
+2018
 Glenn
 Randers
 -
@@ -1646,7 +1646,7 @@ to
 100
 (
 to
-accomodate
+accommodate
 the
 optimal
 16
@@ -4328,12 +4328,12 @@ num_blue
 PNG_QUANTIZE_BLUE_BITS
 )
 ;
-png_size_t
+size_t
 num_entries
 =
 (
 (
-png_size_t
+size_t
 )
 1
 <
@@ -7985,7 +7985,7 @@ that
 this
 *
 perhaps
-undesireable
+undesirable
 default
 can
 (
@@ -12233,7 +12233,7 @@ to
 7
 for
 a
-meaninful
+meaningful
 result
 if
 *
@@ -13903,7 +13903,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 (
 (
@@ -13922,7 +13922,7 @@ dp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -14016,7 +14016,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 (
 (
@@ -14035,7 +14035,7 @@ dp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -14137,7 +14137,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 (
 (
@@ -14156,7 +14156,7 @@ dp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -15662,6 +15662,14 @@ png_bytep
 row
 )
 {
+png_uint_32
+row_width
+=
+row_info
+-
+>
+width
+;
 png_debug
 (
 1
@@ -15670,15 +15678,6 @@ in
 png_do_read_swap_alpha
 "
 )
-;
-{
-png_uint_32
-row_width
-=
-row_info
--
->
-width
 ;
 if
 (
@@ -16238,7 +16237,6 @@ save
 }
 #
 endif
-}
 }
 }
 #
@@ -17003,7 +17001,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 ;
@@ -17013,7 +17011,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 ;
@@ -17109,7 +17107,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 ;
@@ -17119,7 +17117,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 ;
@@ -17232,7 +17230,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -17244,7 +17242,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -17374,7 +17372,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -17386,7 +17384,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -17543,7 +17541,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -17555,7 +17553,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 ;
@@ -17679,7 +17677,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -17691,7 +17689,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 ;
@@ -17832,7 +17830,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -17844,7 +17842,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -18030,7 +18028,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -18042,7 +18040,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -18312,7 +18310,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -18324,7 +18322,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -18398,7 +18396,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -18412,7 +18410,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -18550,7 +18548,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -18564,7 +18562,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -18652,7 +18650,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -18666,7 +18664,7 @@ dp
 sp
 +
 (
-png_size_t
+size_t
 )
 row_width
 *
@@ -19358,7 +19356,7 @@ linear
 *
 Other
 integer
-coefficents
+coefficients
 can
 be
 used
@@ -21002,7 +21000,6 @@ png_do_compose
 "
 )
 ;
-{
 switch
 (
 row_info
@@ -25903,7 +25900,6 @@ break
 ;
 }
 }
-}
 #
 endif
 /
@@ -27777,7 +27773,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 (
 (
@@ -27795,7 +27791,7 @@ dp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -27895,7 +27891,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 (
 (
@@ -27913,7 +27909,7 @@ dp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -28018,7 +28014,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 (
 (
@@ -28036,7 +28032,7 @@ dp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -28175,7 +28171,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -28187,7 +28183,7 @@ row
 +
 (
 (
-png_size_t
+size_t
 )
 row_width
 <
@@ -28333,7 +28329,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -28344,7 +28340,7 @@ dp
 row
 +
 (
-png_size_t
+size_t
 )
 (
 row_width
@@ -28527,7 +28523,6 @@ png_do_expand
 "
 )
 ;
-{
 if
 (
 row_info
@@ -28592,7 +28587,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 (
 (
@@ -28610,7 +28605,7 @@ dp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -28720,7 +28715,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 (
 (
@@ -28738,7 +28733,7 @@ dp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -28876,7 +28871,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 (
 (
@@ -28894,7 +28889,7 @@ dp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -29055,7 +29050,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_width
 -
@@ -29067,7 +29062,7 @@ row
 +
 (
 (
-png_size_t
+size_t
 )
 row_width
 <
@@ -29417,7 +29412,7 @@ sp
 row
 +
 (
-png_size_t
+size_t
 )
 row_info
 -
@@ -29432,7 +29427,7 @@ row
 +
 (
 (
-png_size_t
+size_t
 )
 row_width
 <
@@ -29670,7 +29665,7 @@ row
 +
 (
 (
-png_size_t
+size_t
 )
 row_width
 <
@@ -29901,7 +29896,6 @@ pixel_depth
 row_width
 )
 ;
-}
 }
 }
 #
@@ -32760,7 +32754,7 @@ row
 /
 /
 *
-png_size_t
+size_t
 rowbytes
 ;
 number

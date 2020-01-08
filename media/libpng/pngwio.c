@@ -18,11 +18,11 @@ libpng
 .
 6
 .
-24
+35
 [
-August
-4
-2016
+July
+15
+2018
 ]
 *
 Copyright
@@ -37,6 +37,7 @@ c
 -
 2014
 2016
+2018
 Glenn
 Randers
 -
@@ -273,7 +274,7 @@ png_structrp
 png_ptr
 png_const_bytep
 data
-png_size_t
+size_t
 length
 )
 {
@@ -396,11 +397,11 @@ png_structp
 png_ptr
 png_bytep
 data
-png_size_t
+size_t
 length
 )
 {
-png_size_t
+size_t
 check
 ;
 if

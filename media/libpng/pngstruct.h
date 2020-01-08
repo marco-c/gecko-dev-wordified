@@ -20,11 +20,11 @@ libpng
 .
 6
 .
-32
+35
 [
-August
-24
-2017
+July
+15
+2018
 ]
 *
 Copyright
@@ -37,7 +37,7 @@ c
 2004
 2006
 -
-2017
+2018
 Glenn
 Randers
 -
@@ -395,15 +395,15 @@ limited
 by
 the
 *
-maximuum
+maximum
 for
-png_size_t
+size_t
 .
 The
 value
 can
 be
-overriden
+overridden
 in
 a
 library
@@ -1614,7 +1614,7 @@ of
 write
 *
 /
-png_size_t
+size_t
 rowbytes
 ;
 /
@@ -1772,7 +1772,7 @@ filtering
 /
 #
 endif
-png_size_t
+size_t
 info_rowbytes
 ;
 /
@@ -2451,7 +2451,7 @@ shift
 for
 significant
 bit
-tranformation
+transformation
 *
 /
 #
@@ -2649,7 +2649,7 @@ input
 data
 *
 /
-png_size_t
+size_t
 save_buffer_size
 ;
 /
@@ -2662,7 +2662,7 @@ in
 save_buffer
 *
 /
-png_size_t
+size_t
 save_buffer_max
 ;
 /
@@ -2673,7 +2673,7 @@ of
 save_buffer
 *
 /
-png_size_t
+size_t
 buffer_size
 ;
 /
@@ -2686,7 +2686,7 @@ input
 data
 *
 /
-png_size_t
+size_t
 current_buffer_size
 ;
 /
@@ -3606,7 +3606,7 @@ libpng
 26
 *
 /
-png_size_t
+size_t
 old_big_row_buf_size
 ;
 #

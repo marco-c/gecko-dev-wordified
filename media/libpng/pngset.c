@@ -21,11 +21,11 @@ libpng
 .
 6
 .
-32
+35
 [
-August
-24
-2017
+July
+15
+2018
 ]
 *
 Copyright
@@ -34,7 +34,7 @@ c
 )
 1998
 -
-2017
+2018
 Glenn
 Randers
 -
@@ -1733,7 +1733,7 @@ png_charpp
 params
 )
 {
-png_size_t
+size_t
 length
 ;
 int
@@ -2167,7 +2167,7 @@ png_malloc_warn
 (
 png_ptr
 (
-png_size_t
+size_t
 )
 (
 (
@@ -2393,7 +2393,7 @@ png_const_charp
 sheight
 )
 {
-png_size_t
+size_t
 lengthw
 =
 0
@@ -3811,7 +3811,7 @@ new_iccp_name
 png_bytep
 new_iccp_profile
 ;
-png_size_t
+size_t
 length
 ;
 png_debug1
@@ -5646,7 +5646,7 @@ info_ptr
 trans_alpha
 trans_alpha
 (
-png_size_t
+size_t
 )
 num_trans
 )
@@ -6042,7 +6042,7 @@ splt_palettes_num
 ;
 do
 {
-png_size_t
+size_t
 length
 ;
 /
@@ -9525,7 +9525,7 @@ png_set_compression_buffer_size
 (
 png_structrp
 png_ptr
-png_size_t
+size_t
 size
 )
 {

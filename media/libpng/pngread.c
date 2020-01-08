@@ -18,11 +18,11 @@ libpng
 .
 6
 .
-33
+35
 [
-September
-28
-2017
+July
+15
+2018
 ]
 *
 Copyright
@@ -35,7 +35,7 @@ c
 2004
 2006
 -
-2017
+2018
 Glenn
 Randers
 -
@@ -9382,7 +9382,7 @@ png_structp
 png_ptr
 png_bytep
 out
-png_size_t
+size_t
 need
 )
 {
@@ -9438,7 +9438,7 @@ cp
 >
 memory
 ;
-png_size_t
+size_t
 size
 =
 cp
@@ -9522,7 +9522,7 @@ png_imagep
 image
 png_const_voidp
 memory
-png_size_t
+size_t
 size
 )
 {
@@ -24791,7 +24791,7 @@ images
 can
 be
 *
-accomodated
+accommodated
 on
 64
 -

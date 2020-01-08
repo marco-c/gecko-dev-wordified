@@ -20,11 +20,11 @@ libpng
 .
 6
 .
-33
+35
 [
-September
-28
-2017
+July
+15
+2018
 ]
 *
 Copyright
@@ -37,7 +37,7 @@ c
 2004
 2006
 -
-2017
+2018
 Glenn
 Randers
 -
@@ -136,8 +136,8 @@ path
 *
 /
 typedef
-png_libpng_version_1_6_34
-Your_png_h_is_not_version_1_6_34
+png_libpng_version_1_6_35
+Your_png_h_is_not_version_1_6_35
 ;
 #
 ifdef
@@ -580,9 +580,9 @@ png_sig_cmp
 (
 png_const_bytep
 sig
-png_size_t
+size_t
 start
-png_size_t
+size_t
 num_to_check
 )
 {
@@ -974,7 +974,7 @@ png_structrp
 png_ptr
 png_const_bytep
 ptr
-png_size_t
+size_t
 length
 )
 {
@@ -2673,7 +2673,7 @@ png_info_init_3
 (
 png_infopp
 ptr_ptr
-png_size_t
+size_t
 png_info_struct_size
 )
 PNG_DEPRECATED
@@ -5047,13 +5047,13 @@ version
 .
 6
 .
-34
+35
 +
 apng
 -
-September
-29
-2017
+July
+15
+2018
 "
 PNG_STRING_NEWLINE
 \
@@ -5068,7 +5068,7 @@ c
 2004
 2006
 -
-2017
+2018
 Glenn
 Randers
 -
@@ -5131,7 +5131,7 @@ c
 )
 2008
 -
-2017
+2018
 Max
 Stepin
 "
@@ -5147,13 +5147,13 @@ version
 .
 6
 .
-34
+35
 +
 apng
 -
-September
-29
-2017
+July
+15
+2018
 \
 Copyright
 (
@@ -5165,7 +5165,7 @@ c
 2004
 2006
 -
-2017
+2018
 Glenn
 Randers
 -
@@ -5214,7 +5214,7 @@ c
 )
 2008
 -
-2017
+2018
 Max
 Stepin
 "
@@ -5831,7 +5831,7 @@ routine
 handles
 duplicate
 entries
-correcty
+correctly
 .
 *
 /
@@ -15045,7 +15045,7 @@ number
 doesn
 '
 t
-accomodate
+accommodate
 changes
 in
 *
@@ -19603,7 +19603,7 @@ functions
 Check
 an
 ASCII
-formated
+formatted
 floating
 point
 value
@@ -19684,7 +19684,7 @@ png_check_fp_number
 (
 png_const_charp
 string
-png_size_t
+size_t
 size
 int
 *
@@ -19699,7 +19699,7 @@ state
 *
 statep
 ;
-png_size_t
+size_t
 i
 =
 *
@@ -20335,7 +20335,7 @@ png_check_fp_string
 (
 png_const_charp
 string
-png_size_t
+size_t
 size
 )
 {
@@ -20344,7 +20344,7 @@ state
 =
 0
 ;
-png_size_t
+size_t
 char_index
 =
 0
@@ -20704,7 +20704,7 @@ png_const_structrp
 png_ptr
 png_charp
 ascii
-png_size_t
+size_t
 size
 double
 fp
@@ -22681,7 +22681,7 @@ png_const_structrp
 png_ptr
 png_charp
 ascii
-png_size_t
+size_t
 size
 png_fixed_point
 fp
@@ -30770,7 +30770,6 @@ png_uint_32
 )
 (
 (
-(
 current
 &
 ~
@@ -30778,9 +30777,6 @@ mask
 )
 |
 setting
-)
-&
-0xff
 )
 ;
 return

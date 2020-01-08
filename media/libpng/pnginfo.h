@@ -20,11 +20,11 @@ libpng
 .
 6
 .
-1
+35
 [
-March
-28
-2013
+July
+15
+2018
 ]
 *
 Copyright
@@ -38,6 +38,7 @@ c
 2006
 -
 2013
+2018
 Glenn
 Randers
 -
@@ -592,7 +593,7 @@ below
 )
 *
 /
-png_size_t
+size_t
 rowbytes
 ;
 /
@@ -2303,7 +2304,7 @@ are
 width
 and
 height
-corresponsing
+corresponding
 to
 one
 pixel

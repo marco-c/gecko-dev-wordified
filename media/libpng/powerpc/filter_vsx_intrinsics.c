@@ -326,7 +326,7 @@ pp
 prev_row
 ;
 \
-png_size_t
+size_t
 unaligned_top
 =
 16
@@ -334,7 +334,7 @@ unaligned_top
 (
 (
 (
-png_size_t
+size_t
 )
 rp
 %
@@ -343,7 +343,7 @@ rp
 )
 ;
 \
-png_size_t
+size_t
 istop
 ;
 \

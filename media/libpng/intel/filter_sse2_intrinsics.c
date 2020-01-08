@@ -492,7 +492,7 @@ zero
 .
 *
 /
-png_size_t
+size_t
 rb
 ;
 __m128i
@@ -674,7 +674,7 @@ zero
 .
 *
 /
-png_size_t
+size_t
 rb
 ;
 __m128i
@@ -830,7 +830,7 @@ zero
 .
 *
 /
-png_size_t
+size_t
 rb
 ;
 const
@@ -1195,7 +1195,7 @@ zero
 .
 *
 /
-png_size_t
+size_t
 rb
 ;
 const
@@ -1684,7 +1684,7 @@ loop
 .
 *
 /
-png_size_t
+size_t
 rb
 ;
 const
@@ -2540,7 +2540,7 @@ loop
 .
 *
 /
-png_size_t
+size_t
 rb
 ;
 const
