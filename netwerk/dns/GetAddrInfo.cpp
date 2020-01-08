@@ -1894,11 +1894,17 @@ ai
 new
 AddrInfo
 (
+nsCString
+(
 aCanonHost
+)
 prai
 disableIPv4
 filterNameCollision
+nsCString
+(
 canonName
+)
 )
 )
 ;
@@ -2252,6 +2258,7 @@ aAddrInfo
 nullptr
 &
 &
+!
 (
 *
 aAddrInfo
@@ -2259,6 +2266,10 @@ aAddrInfo
 -
 >
 mCanonicalName
+.
+IsEmpty
+(
+)
 )
 {
 name
@@ -2270,6 +2281,10 @@ aAddrInfo
 -
 >
 mCanonicalName
+.
+get
+(
+)
 ;
 }
 else
