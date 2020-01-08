@@ -10207,8 +10207,6 @@ t
 linux
 -
 talos
--
-tw
 '
             
 else
