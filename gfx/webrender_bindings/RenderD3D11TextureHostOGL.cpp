@@ -1119,7 +1119,7 @@ mKeyedMutex
 AcquireSync
 (
 0
-100
+10000
 )
 ;
 if
@@ -2362,7 +2362,7 @@ mutex
 AcquireSync
 (
 0
-100
+10000
 )
 ;
 if
