@@ -3783,6 +3783,11 @@ purgeAtomCacheOrDefer
 (
 )
 ;
+void
+purgeAtomCache
+(
+)
+;
 js
 :
 :
