@@ -588,7 +588,7 @@ h
 #
 include
 "
-nsDocShellLoadInfo
+nsDocShellLoadState
 .
 h
 "
@@ -32483,9 +32483,9 @@ const
 nsAString
 &
 aOptions
-nsDocShellLoadInfo
+nsDocShellLoadState
 *
-aLoadInfo
+aLoadState
 bool
 aForceNoOpener
 nsPIDOMWindowOuter
@@ -32526,7 +32526,7 @@ nullptr
 /
 No
 args
-aLoadInfo
+aLoadState
 aForceNoOpener
 _retval
 )
@@ -32591,7 +32591,7 @@ args
 nullptr
 /
 /
-aLoadInfo
+aLoadState
 false
 /
 /
@@ -32688,7 +32688,7 @@ Arguments
 nullptr
 /
 /
-aLoadInfo
+aLoadState
 false
 /
 /
@@ -32771,7 +32771,7 @@ args
 nullptr
 /
 /
-aLoadInfo
+aLoadState
 false
 /
 /
@@ -32900,7 +32900,7 @@ Arguments
 nullptr
 /
 /
-aLoadInfo
+aLoadState
 false
 /
 /
@@ -40934,9 +40934,9 @@ argv
 nsISupports
 *
 aExtraArgument
-nsDocShellLoadInfo
+nsDocShellLoadState
 *
-aLoadInfo
+aLoadState
 bool
 aForceNoOpener
 nsPIDOMWindowOuter
@@ -42042,7 +42042,7 @@ aNavigate
 argv
 isPopupSpamWindow
 forceNoOpener
-aLoadInfo
+aLoadState
 getter_AddRefs
 (
 domReturn
@@ -42223,7 +42223,7 @@ aNavigate
 aExtraArgument
 isPopupSpamWindow
 forceNoOpener
-aLoadInfo
+aLoadState
 getter_AddRefs
 (
 domReturn

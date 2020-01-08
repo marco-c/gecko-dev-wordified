@@ -289,7 +289,7 @@ h
 #
 include
 "
-nsDocShellLoadInfo
+nsDocShellLoadState
 .
 h
 "
@@ -5400,9 +5400,9 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
-nsDocShellLoadInfo
+nsDocShellLoadState
 *
-aLoadInfo
+aLoadState
 bool
 *
 aWindowIsNew
