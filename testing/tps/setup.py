@@ -101,7 +101,7 @@ mozhttpd
         
 '
 mozinfo
-=
+>
 =
 0
 .
