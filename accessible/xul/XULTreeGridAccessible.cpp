@@ -4149,9 +4149,9 @@ NativeAttributes
 (
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIPersistentProperties
+nsPersistentProperties
 >
 attributes
 =

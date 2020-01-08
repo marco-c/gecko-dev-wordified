@@ -9629,9 +9629,9 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPersistentProperties
+nsPersistentProperties
 >
 properties
 =
