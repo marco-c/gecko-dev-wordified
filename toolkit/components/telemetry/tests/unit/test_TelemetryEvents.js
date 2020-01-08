@@ -679,7 +679,7 @@ failures
 )
 ;
 let
-counts
+values
 =
 snapshot
 .
@@ -687,7 +687,7 @@ parent
 .
 TELEMETRY_EVENT_REGISTRATION_ERROR
 .
-counts
+values
 ;
 Assert
 .
@@ -695,12 +695,12 @@ ok
 (
 !
 !
-counts
+values
 "
 TELEMETRY_EVENT_REGISTRATION_ERROR
 '
 s
-counts
+values
 should
 exist
 when
@@ -716,7 +716,7 @@ Assert
 .
 equal
 (
-counts
+values
 [
 failureType
 ]
@@ -805,7 +805,7 @@ failures
 )
 ;
 let
-counts
+values
 =
 snapshot
 .
@@ -813,7 +813,7 @@ parent
 .
 TELEMETRY_EVENT_RECORDING_ERROR
 .
-counts
+values
 ;
 Assert
 .
@@ -821,12 +821,12 @@ ok
 (
 !
 !
-counts
+values
 "
 TELEMETRY_EVENT_RECORDING_ERROR
 '
 s
-counts
+values
 should
 exist
 when
@@ -842,7 +842,7 @@ Assert
 .
 equal
 (
-counts
+values
 [
 failureType
 ]
