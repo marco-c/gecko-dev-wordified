@@ -125,11 +125,11 @@ https
 :
 /
 /
-ssl
+mozilla
 -
-dv
+intermediate
 .
-mozqa
+badssl
 .
 com
 '
@@ -309,7 +309,7 @@ certificate
         
 self
 .
-assertEqual
+assertRegexpMatches
 (
 self
 .
@@ -327,13 +327,35 @@ get_property
 textContent
 '
 )
-                         
+                                 
+'
+.
+*
+badssl
+\
+.
+com
+'
+)
+        
+self
+.
+assertRegexpMatches
+(
 cert
 [
 '
 commonName
 '
 ]
+'
+.
+*
+badssl
+\
+.
+com
+'
 )
         
 #
@@ -636,7 +658,7 @@ security
         
 self
 .
-assertEqual
+assertRegexpMatches
 (
 deck
 .
@@ -650,13 +672,15 @@ get_property
 value
 '
 )
-                         
-cert
-[
+                                 
 '
-commonName
+.
+*
+badssl
+\
+.
+com
 '
-]
 )
         
 self
