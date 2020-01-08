@@ -3698,6 +3698,13 @@ jitInfo
 ignoresReturnValueMethod
 ;
 }
+AutoRealm
+ar
+(
+cx
+fun
+)
+;
 return
 CallJSNative
 (
@@ -4412,6 +4419,14 @@ isNative
 (
 )
 )
+{
+AutoRealm
+ar
+(
+cx
+fun
+)
+;
 return
 CallJSNativeConstructor
 (
@@ -4425,6 +4440,7 @@ native
 args
 )
 ;
+}
 if
 (
 !
