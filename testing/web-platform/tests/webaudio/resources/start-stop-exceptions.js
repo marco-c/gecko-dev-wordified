@@ -148,9 +148,7 @@ start
 .
 throw
 (
-'
 RangeError
-'
 )
 ;
 if
@@ -273,9 +271,7 @@ stop
 .
 throw
 (
-'
 RangeError
-'
 )
 ;
 /
