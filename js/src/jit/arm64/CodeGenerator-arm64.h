@@ -814,6 +814,7 @@ snapshot_
 ;
 public
 :
+explicit
 OutOfLineBailout
 (
 LSnapshot
