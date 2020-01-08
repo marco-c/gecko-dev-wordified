@@ -2388,12 +2388,13 @@ self
 .
 build_obj
 .
-distdir
+topobjdir
+"
+_tests
+"
                                                     
 "
-xpi
--
-stage
+reftest
 "
 "
 reftest
@@ -2475,12 +2476,13 @@ self
 .
 build_obj
 .
-distdir
+topobjdir
+"
+_tests
+"
                                                           
 "
-xpi
--
-stage
+reftest
 "
 "
 specialpowers
