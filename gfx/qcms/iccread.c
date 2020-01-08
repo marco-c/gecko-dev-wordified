@@ -6307,6 +6307,13 @@ color_space
 =
 RGB_SIGNATURE
 ;
+profile
+-
+>
+pcs
+=
+XYZ_SIGNATURE
+;
 return
 profile
 ;
@@ -6455,6 +6462,13 @@ profile
 color_space
 =
 RGB_SIGNATURE
+;
+profile
+-
+>
+pcs
+=
+XYZ_SIGNATURE
 ;
 return
 profile
