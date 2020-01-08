@@ -2234,7 +2234,10 @@ as
 above
 but
 taking
-a
+UTF
+-
+8
+encoded
 const
 char
 *
@@ -2250,7 +2253,7 @@ JS_PUBLIC_API
 (
 bool
 )
-CompileFunction
+CompileFunctionUtf8
 (
 JSContext
 *
@@ -2281,7 +2284,7 @@ argnames
 const
 char
 *
-bytes
+utf8
 size_t
 length
 MutableHandle

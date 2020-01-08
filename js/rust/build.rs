@@ -1745,7 +1745,7 @@ CallOriginalPromiseReject
 JS
 :
 :
-CompileFunction
+CompileFunctionUtf8
 "
 "
 JS

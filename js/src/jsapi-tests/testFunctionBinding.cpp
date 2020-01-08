@@ -177,6 +177,13 @@ __FILE__
 __LINE__
 )
 ;
+options
+.
+setUTF8
+(
+true
+)
+;
 /
 /
 Named
@@ -224,7 +231,7 @@ CHECK
 JS
 :
 :
-CompileFunction
+CompileFunctionUtf8
 (
 cx
 emptyScopeChain
@@ -334,7 +341,7 @@ CHECK
 JS
 :
 :
-CompileFunction
+CompileFunctionUtf8
 (
 cx
 emptyScopeChain
@@ -429,7 +436,7 @@ CHECK
 JS
 :
 :
-CompileFunction
+CompileFunctionUtf8
 (
 cx
 emptyScopeChain

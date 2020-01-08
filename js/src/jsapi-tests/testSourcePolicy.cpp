@@ -289,7 +289,7 @@ CHECK
 JS
 :
 :
-CompileFunction
+CompileFunctionUtf8
 (
 cx
 emptyScopeChain
