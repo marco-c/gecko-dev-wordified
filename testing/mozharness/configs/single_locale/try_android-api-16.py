@@ -257,17 +257,6 @@ Invalid
     
 }
     
-"
-platform
-"
-:
-"
-android
-"
-#
-XXX
-Validate
-    
 #
 Balrog
     

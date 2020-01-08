@@ -257,14 +257,6 @@ MOZ_UPDATE_CHANNEL
     
 }
     
-"
-platform
-"
-:
-"
-android
-"
-    
 #
 Balrog
     
