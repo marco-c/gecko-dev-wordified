@@ -489,12 +489,7 @@ initial
 0
 maximum
 :
-2
-*
-*
-32
--
-1
+10000000
 element
 :
 "
@@ -518,10 +513,7 @@ initial
 0
 maximum
 :
-2
-*
-*
-32
+10000001
 element
 :
 "
