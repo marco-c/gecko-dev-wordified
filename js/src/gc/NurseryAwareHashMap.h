@@ -918,7 +918,7 @@ const
 return
 map
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -945,7 +945,7 @@ const
 return
 map
 .
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 mallocSizeOf
 )

@@ -1749,7 +1749,7 @@ size
 =
 pointerMap
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -1768,7 +1768,7 @@ size
 =
 textIdPayloads
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

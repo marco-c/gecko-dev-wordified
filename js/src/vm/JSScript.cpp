@@ -10623,7 +10623,7 @@ n
 map_
 -
 >
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 mallocSizeOf
 )

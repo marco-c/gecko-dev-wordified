@@ -30980,7 +30980,7 @@ uniqueIds
 (
 )
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

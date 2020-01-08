@@ -4267,7 +4267,7 @@ this
 +
 map
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -5543,7 +5543,7 @@ const
 return
 set
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -5568,7 +5568,7 @@ this
 +
 set
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

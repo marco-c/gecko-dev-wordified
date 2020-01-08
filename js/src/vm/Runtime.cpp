@@ -2184,7 +2184,7 @@ scriptDataTable
 lock
 )
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

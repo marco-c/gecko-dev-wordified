@@ -1259,7 +1259,7 @@ initialized
 return
 map
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

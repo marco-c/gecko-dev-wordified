@@ -702,7 +702,7 @@ return
 mSet
 -
 >
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 mallocSizeOf
 )
