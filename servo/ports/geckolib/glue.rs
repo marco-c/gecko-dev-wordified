@@ -20046,7 +20046,7 @@ ComputedStyleBorrowed
 )
 -
 >
-u64
+u8
 {
 use
 style
@@ -20109,9 +20109,7 @@ result
 structs
 :
 :
-NS_STYLE_RELEVANT_LINK_VISITED
-as
-u64
+ComputedStyleBit_RelevantLinkVisited
 ;
 }
 if
@@ -20131,9 +20129,7 @@ result
 structs
 :
 :
-NS_STYLE_HAS_TEXT_DECORATION_LINES
-as
-u64
+ComputedStyleBit_HasTextDecorationLines
 ;
 }
 if
@@ -20153,9 +20149,7 @@ result
 structs
 :
 :
-NS_STYLE_SUPPRESS_LINEBREAK
-as
-u64
+ComputedStyleBit_SuppressLineBreak
 ;
 }
 if
@@ -20175,9 +20169,7 @@ result
 structs
 :
 :
-NS_STYLE_IS_TEXT_COMBINED
-as
-u64
+ComputedStyleBit_IsTextCombined
 ;
 }
 if
@@ -20197,9 +20189,7 @@ result
 structs
 :
 :
-NS_STYLE_HAS_PSEUDO_ELEMENT_DATA
-as
-u64
+ComputedStyleBit_HasPseudoElementData
 ;
 }
 result
