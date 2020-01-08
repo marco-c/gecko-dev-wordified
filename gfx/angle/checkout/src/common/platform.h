@@ -69,12 +69,6 @@ defined
 (
 _WIN32
 )
-|
-|
-defined
-(
-_WIN64
-)
 #
 define
 ANGLE_PLATFORM_WINDOWS
