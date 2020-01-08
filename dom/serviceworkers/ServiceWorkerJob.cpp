@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsIPrincipal
+.
+h
+"
+#
+include
+"
 nsProxyRelease
 .
 h
@@ -143,6 +150,13 @@ h
 include
 "
 nsThreadUtils
+.
+h
+"
+#
+include
+"
+ServiceWorkerManager
 .
 h
 "
