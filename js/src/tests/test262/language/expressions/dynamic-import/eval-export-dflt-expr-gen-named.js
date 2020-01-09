@@ -3,16 +3,7 @@
 |
 reftest
 |
-skip
 module
--
--
-dynamic
--
-import
-is
-not
-supported
 /
 /
 Copyright

@@ -17,9 +17,6 @@ namespace
 from
 -
 module
-dynamic
--
-import
 is
 not
 supported

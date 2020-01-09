@@ -1,17 +1,3 @@
-/
-/
-|
-reftest
-|
-skip
--
--
-dynamic
--
-import
-is
-not
-supported
 '
 use
 strict
