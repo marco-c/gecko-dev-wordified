@@ -909,7 +909,7 @@ if
 !
 queryContext
 .
-enableAutofill
+allowAutofill
 )
 {
 params

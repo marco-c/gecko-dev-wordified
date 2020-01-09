@@ -2757,11 +2757,14 @@ boolean
 }
 options
 .
-enableAutofill
+allowAutofill
 *
 Whether
 or
 not
+to
+allow
+providers
 to
 include
 autofill
@@ -2784,7 +2787,7 @@ _checkRequiredOptions
 options
 [
 "
-enableAutofill
+allowAutofill
 "
 "
 isPrivate

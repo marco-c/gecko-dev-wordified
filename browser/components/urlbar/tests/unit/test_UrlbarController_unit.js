@@ -969,7 +969,7 @@ resetHistory
 add_task
 (
 function
-test_handle_query_starts_search_sets_enableAutofill
+test_handle_query_starts_search_sets_allowAutofill
 (
 )
 {
@@ -1076,7 +1076,7 @@ args
 0
 ]
 {
-enableAutofill
+allowAutofill
 :
 !
 originalValue
