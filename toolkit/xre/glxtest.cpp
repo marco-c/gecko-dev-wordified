@@ -522,6 +522,12 @@ GL_VERSION
 /
 /
 GLX_MESA_query_renderer
+/
+/
+clang
+-
+format
+off
 #
 define
 GLX_RENDERER_VENDOR_ID_MESA
@@ -570,6 +576,12 @@ GLX_RENDERER_OPENGL_ES2_PROFILE_VERSION_MESA
 define
 GLX_RENDERER_ID_MESA
 0x818E
+/
+/
+clang
+-
+format
+on
 namespace
 mozilla
 {

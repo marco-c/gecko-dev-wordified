@@ -823,6 +823,8 @@ given
 element
 is
 not
+/
+/
 pseudo
 )
 .
@@ -1677,9 +1679,9 @@ marker
 returns
 the
 generated
+/
+/
 content
-/
-/
 element
 of
 which
@@ -1696,9 +1698,9 @@ aPseudoType
 |
 is
 any
+/
+/
 other
-/
-/
 pseudo
 type
 (
