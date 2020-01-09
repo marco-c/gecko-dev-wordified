@@ -92,7 +92,7 @@ js
 *
 /
 const
-remoteClientsFixture
+targetsFixture
 =
 [
 {
@@ -338,9 +338,9 @@ true
 clientsSynced
 :
 true
-remoteClients
+targets
 :
-remoteClientsFixture
+targetsFixture
 state
 :
 UIState
@@ -522,9 +522,9 @@ true
 clientsSynced
 :
 true
-remoteClients
+targets
 :
-remoteClientsFixture
+targetsFixture
 state
 :
 UIState
@@ -616,7 +616,7 @@ true
 clientsSynced
 :
 true
-remoteClients
+targets
 :
 [
 {
@@ -721,7 +721,7 @@ true
 clientsSynced
 :
 false
-remoteClients
+targets
 :
 [
 ]
@@ -816,7 +816,7 @@ false
 clientsSynced
 :
 false
-remoteClients
+targets
 :
 null
 state
@@ -910,7 +910,7 @@ false
 clientsSynced
 :
 false
-remoteClients
+targets
 :
 null
 state

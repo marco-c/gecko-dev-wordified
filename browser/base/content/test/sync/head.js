@@ -111,7 +111,7 @@ setupSendTabMocks
 {
 syncReady
 clientsSynced
-remoteClients
+targets
 state
 isSendableURI
 }
@@ -177,7 +177,7 @@ stub
 (
 gSync
 "
-remoteClients
+sendTabTargets
 "
 )
 .
@@ -187,7 +187,7 @@ get
 )
 =
 >
-remoteClients
+targets
 )
 ;
 sandbox
