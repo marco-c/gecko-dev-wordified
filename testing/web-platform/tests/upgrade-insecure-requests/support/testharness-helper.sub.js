@@ -2,13 +2,6 @@
 /
 Used
 by
-/
-mixed
--
-content
-/
-generic
-/
 common
 .
 js
