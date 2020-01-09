@@ -21107,7 +21107,7 @@ discovery
 .
 enabled
 "
-false
+true
 )
 ;
 pref
