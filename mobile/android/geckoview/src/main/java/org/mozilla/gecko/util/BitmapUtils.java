@@ -255,7 +255,6 @@ static
 Bitmap
 decodeByteArray
 (
-final
 byte
 [
 ]
@@ -275,12 +274,10 @@ static
 Bitmap
 decodeByteArray
 (
-final
 byte
 [
 ]
 bytes
-final
 BitmapFactory
 .
 Options
@@ -304,15 +301,12 @@ static
 Bitmap
 decodeByteArray
 (
-final
 byte
 [
 ]
 bytes
-final
 int
 offset
-final
 int
 length
 )
@@ -332,18 +326,14 @@ static
 Bitmap
 decodeByteArray
 (
-final
 byte
 [
 ]
 bytes
-final
 int
 offset
-final
 int
 length
-final
 BitmapFactory
 .
 Options
@@ -552,7 +542,6 @@ static
 Bitmap
 decodeStream
 (
-final
 InputStream
 inputStream
 )
@@ -599,7 +588,6 @@ static
 Bitmap
 decodeUrl
 (
-final
 Uri
 uri
 )
@@ -620,7 +608,6 @@ static
 Bitmap
 decodeUrl
 (
-final
 String
 urlString
 )
@@ -676,7 +663,6 @@ static
 Bitmap
 decodeUrl
 (
-final
 URL
 url
 )
@@ -801,10 +787,8 @@ static
 Bitmap
 decodeResource
 (
-final
 Context
 context
-final
 int
 id
 )
@@ -823,13 +807,10 @@ static
 Bitmap
 decodeResource
 (
-final
 Context
 context
-final
 int
 id
-final
 BitmapFactory
 .
 Options
@@ -895,10 +876,8 @@ ColorInt
 int
 getDominantColor
 (
-final
 Bitmap
 source
-final
 ColorInt
 int
 defaultColor
@@ -1109,7 +1088,6 @@ ColorInt
 int
 getDominantColorCustomImplementation
 (
-final
 Bitmap
 source
 )
@@ -1131,13 +1109,10 @@ ColorInt
 int
 getDominantColorCustomImplementation
 (
-final
 Bitmap
 source
-final
 boolean
 applyThreshold
-final
 ColorInt
 int
 defaultColor
@@ -1782,7 +1757,6 @@ static
 Bitmap
 getBitmapFromDataURI
 (
-final
 String
 dataURI
 )
@@ -1874,7 +1848,6 @@ byte
 ]
 getBytesFromBase64
 (
-final
 String
 base64
 )
@@ -1930,7 +1903,6 @@ byte
 ]
 getBytesFromDataURI
 (
-final
 String
 dataURI
 )
@@ -1966,7 +1938,6 @@ static
 Bitmap
 getBitmapFromDrawable
 (
-final
 Drawable
 drawable
 )

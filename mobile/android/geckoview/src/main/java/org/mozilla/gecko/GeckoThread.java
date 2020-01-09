@@ -581,17 +581,18 @@ available
 private
 final
 int
-mRank
+rank
 ;
 private
 State
 (
-final
 int
 rank
 )
 {
-mRank
+this
+.
+rank
 =
 rank
 ;
@@ -635,7 +636,9 @@ State
 )
 {
 return
-mRank
+this
+.
+rank
 >
 =
 (
@@ -645,7 +648,7 @@ State
 other
 )
 .
-mRank
+rank
 ;
 }
 return
@@ -3759,7 +3762,6 @@ static
 boolean
 waitOnGecko
 (
-final
 long
 timeoutMillis
 )
@@ -4029,7 +4031,6 @@ static
 void
 requestUiThreadCallback
 (
-final
 long
 delay
 )

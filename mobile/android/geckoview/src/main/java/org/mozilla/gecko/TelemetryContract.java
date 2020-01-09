@@ -824,7 +824,7 @@ _test_event_4
 private
 final
 String
-mString
+string
 ;
 Event
 (
@@ -833,7 +833,9 @@ String
 string
 )
 {
-mString
+this
+.
+string
 =
 string
 ;
@@ -846,7 +848,7 @@ toString
 )
 {
 return
-mString
+string
 ;
 }
 }
@@ -1347,7 +1349,7 @@ _test_method_2
 private
 final
 String
-mString
+string
 ;
 Method
 (
@@ -1356,7 +1358,9 @@ String
 string
 )
 {
-mString
+this
+.
+string
 =
 string
 ;
@@ -1369,7 +1373,7 @@ toString
 )
 {
 return
-mString
+string
 ;
 }
 }
@@ -1655,7 +1659,7 @@ _test_session_stopped_twice
 private
 final
 String
-mString
+string
 ;
 Session
 (
@@ -1664,7 +1668,9 @@ String
 string
 )
 {
-mString
+this
+.
+string
 =
 string
 ;
@@ -1677,7 +1683,7 @@ toString
 )
 {
 return
-mString
+string
 ;
 }
 }
@@ -1779,7 +1785,7 @@ _test_reason_ignored
 private
 final
 String
-mString
+string
 ;
 Reason
 (
@@ -1788,7 +1794,9 @@ String
 string
 )
 {
-mString
+this
+.
+string
 =
 string
 ;
@@ -1801,7 +1809,7 @@ toString
 )
 {
 return
-mString
+string
 ;
 }
 }

@@ -181,7 +181,6 @@ static
 ByteBuffer
 allocate
 (
-final
 int
 size
 )
@@ -274,7 +273,6 @@ static
 ByteBuffer
 free
 (
-final
 ByteBuffer
 buffer
 )

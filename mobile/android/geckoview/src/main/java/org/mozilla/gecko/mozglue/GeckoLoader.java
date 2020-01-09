@@ -141,6 +141,15 @@ util
 HardwareUtils
 ;
 import
+org
+.
+mozilla
+.
+geckoview
+.
+BuildConfig
+;
+import
 android
 .
 content
@@ -293,7 +302,6 @@ static
 File
 getCacheDir
 (
-final
 Context
 context
 )
@@ -324,7 +332,6 @@ static
 File
 getGREDir
 (
-final
 Context
 context
 )
@@ -490,7 +497,6 @@ static
 void
 delTree
 (
-final
 File
 file
 )
@@ -542,7 +548,6 @@ static
 File
 getTmpDir
 (
-final
 Context
 context
 )
@@ -1323,7 +1328,6 @@ static
 void
 loadLibsSetupLocked
 (
-final
 Context
 context
 )
@@ -1726,16 +1730,12 @@ static
 boolean
 tryLoadWithABI
 (
-final
 String
 lib
-final
 String
 outDir
-final
 String
 apkPath
-final
 String
 abi
 )
@@ -3401,7 +3401,6 @@ Exception
 public
 AbortException
 (
-final
 String
 msg
 )

@@ -179,13 +179,10 @@ public
 GeckoSurface
 acquireSurface
 (
-final
 int
 width
-final
 int
 height
-final
 boolean
 singleBufferMode
 )
@@ -246,7 +243,6 @@ public
 void
 releaseSurface
 (
-final
 int
 handle
 )
@@ -282,7 +278,6 @@ public
 void
 configureSync
 (
-final
 SyncConfig
 config
 )
@@ -329,7 +324,6 @@ public
 void
 sync
 (
-final
 int
 handle
 )
@@ -380,7 +374,6 @@ public
 boolean
 onUnbind
 (
-final
 Intent
 intent
 )

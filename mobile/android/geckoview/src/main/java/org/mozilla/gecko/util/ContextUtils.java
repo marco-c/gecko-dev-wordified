@@ -217,7 +217,6 @@ isPackageInstalled
 final
 Context
 context
-final
 String
 packageName
 )

@@ -379,10 +379,8 @@ static
 void
 addToHistogram
 (
-final
 String
 name
-final
 int
 value
 )
@@ -429,13 +427,10 @@ static
 void
 addToKeyedHistogram
 (
-final
 String
 name
-final
 String
 key
-final
 int
 value
 )
@@ -521,7 +516,6 @@ now
 public
 Timer
 (
-final
 String
 name
 )
@@ -688,7 +682,6 @@ Timer
 public
 RealtimeTimer
 (
-final
 String
 name
 )
@@ -725,7 +718,6 @@ Timer
 public
 UptimeTimer
 (
-final
 String
 name
 )

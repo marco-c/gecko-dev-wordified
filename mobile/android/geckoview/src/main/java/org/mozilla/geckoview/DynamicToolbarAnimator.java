@@ -360,7 +360,6 @@ void
 setToolbarChromeProxy
 (
 Nullable
-final
 ToolbarChromeProxy
 aToolbarChromeProxy
 )
@@ -380,7 +379,6 @@ public
 void
 setMaxToolbarHeight
 (
-final
 int
 maxToolbarHeight
 )
@@ -536,7 +534,6 @@ boolean
 isPinnedBy
 (
 NonNull
-final
 PinReason
 reason
 )
@@ -634,7 +631,6 @@ public
 void
 showToolbar
 (
-final
 boolean
 immediately
 )
@@ -675,7 +671,6 @@ public
 void
 hideToolbar
 (
-final
 boolean
 immediately
 )

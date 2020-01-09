@@ -316,7 +316,6 @@ value
 private
 ScreenOrientation
 (
-final
 int
 value
 )
@@ -350,7 +349,6 @@ static
 ScreenOrientation
 get
 (
-final
 int
 value
 )
@@ -534,7 +532,6 @@ public
 void
 addListener
 (
-final
 OrientationChangeListener
 aListener
 )
@@ -568,7 +565,6 @@ public
 void
 removeListener
 (
-final
 OrientationChangeListener
 aListener
 )
@@ -762,7 +758,6 @@ public
 boolean
 update
 (
-final
 int
 aAndroidOrientation
 )
@@ -843,7 +838,6 @@ synchronized
 boolean
 update
 (
-final
 ScreenOrientation
 aScreenOrientation
 )
@@ -907,11 +901,6 @@ the
 primary
 orientations
 .
-ScreenOrientation
-primaryOrientation
-=
-aScreenOrientation
-;
 if
 (
 aScreenOrientation
@@ -922,7 +911,7 @@ ScreenOrientation
 PORTRAIT
 )
 {
-primaryOrientation
+aScreenOrientation
 =
 ScreenOrientation
 .
@@ -940,7 +929,7 @@ ScreenOrientation
 LANDSCAPE
 )
 {
-primaryOrientation
+aScreenOrientation
 =
 ScreenOrientation
 .
@@ -958,7 +947,7 @@ ScreenOrientation
 DEFAULT
 )
 {
-primaryOrientation
+aScreenOrientation
 =
 ScreenOrientation
 .
@@ -991,7 +980,7 @@ isRunning
 {
 onOrientationChange
 (
-primaryOrientation
+aScreenOrientation
 .
 value
 getAngle
@@ -1012,7 +1001,7 @@ class
 "
 onOrientationChange
 "
-primaryOrientation
+aScreenOrientation
 .
 value
 getAngle
@@ -1190,7 +1179,6 @@ public
 void
 lock
 (
-final
 int
 aGeckoOrientation
 )
@@ -1250,7 +1238,6 @@ public
 boolean
 lock
 (
-final
 ScreenOrientation
 aScreenOrientation
 )
@@ -1460,10 +1447,8 @@ private
 ScreenOrientation
 getScreenOrientation
 (
-final
 int
 aAndroidOrientation
-final
 int
 aRotation
 )
@@ -1772,7 +1757,6 @@ static
 ScreenOrientation
 screenOrientationFromArrayString
 (
-final
 String
 aArray
 )
@@ -1925,7 +1909,6 @@ static
 ScreenOrientation
 screenOrientationFromString
 (
-final
 String
 aStr
 )
@@ -2077,7 +2060,6 @@ static
 int
 screenOrientationToAndroidOrientation
 (
-final
 ScreenOrientation
 aScreenOrientation
 )
@@ -2196,7 +2178,6 @@ static
 int
 screenOrientationToActivityInfoOrientation
 (
-final
 ScreenOrientation
 aScreenOrientation
 )

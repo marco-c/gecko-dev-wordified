@@ -641,7 +641,6 @@ mRank
 private
 State
 (
-final
 int
 rank
 )
@@ -1650,7 +1649,6 @@ private
 void
 recvToolbarAnimatorMessage
 (
-final
 int
 message
 )
@@ -1840,13 +1838,10 @@ private
 void
 updateRootFrameMetrics
 (
-final
 float
 scrollX
-final
 float
 scrollY
-final
 float
 zoom
 )
@@ -2014,7 +2009,6 @@ public
 void
 sendError
 (
-final
 Object
 response
 )
@@ -2194,7 +2188,6 @@ Void
 >
 onValue
 (
-final
 Boolean
 visited
 )
@@ -2235,7 +2228,6 @@ Void
 >
 onException
 (
-final
 Throwable
 exception
 )
@@ -2388,7 +2380,6 @@ Void
 >
 onException
 (
-final
 Throwable
 exception
 )
@@ -2864,7 +2855,6 @@ private
 int
 convertGeckoTarget
 (
-final
 int
 geckoTarget
 )
@@ -3171,7 +3161,6 @@ Void
 >
 onValue
 (
-final
 AllowOrDeny
 value
 )
@@ -3257,7 +3246,6 @@ Void
 >
 onException
 (
-final
 Throwable
 exception
 )
@@ -3444,7 +3432,6 @@ Void
 >
 onValue
 (
-final
 Nullable
 String
 url
@@ -3523,7 +3510,6 @@ Void
 >
 onException
 (
-final
 NonNull
 Throwable
 exception
@@ -3636,7 +3622,6 @@ Void
 >
 onValue
 (
-final
 GeckoSession
 session
 )
@@ -3770,7 +3755,6 @@ Void
 >
 onException
 (
-final
 Throwable
 exception
 )
@@ -7572,10 +7556,8 @@ public
 void
 writeToParcel
 (
-final
 Parcel
 out
-final
 int
 flags
 )
@@ -7812,7 +7794,6 @@ public
 boolean
 equals
 (
-final
 Object
 obj
 )
@@ -8457,10 +8438,8 @@ private
 void
 onWindowChanged
 (
-final
 int
 change
-final
 boolean
 inProgress
 )
@@ -8967,7 +8946,6 @@ public
 void
 loadUri
 (
-final
 NonNull
 String
 uri
@@ -9033,11 +9011,9 @@ public
 void
 loadUri
 (
-final
 NonNull
 String
 uri
-final
 LoadFlags
 int
 flags
@@ -9111,15 +9087,12 @@ public
 void
 loadUri
 (
-final
 NonNull
 String
 uri
-final
 Nullable
 String
 referrer
-final
 LoadFlags
 int
 flags
@@ -9213,7 +9186,6 @@ public
 void
 loadUri
 (
-final
 NonNull
 Uri
 uri
@@ -9278,11 +9250,9 @@ public
 void
 loadUri
 (
-final
 NonNull
 Uri
 uri
-final
 LoadFlags
 int
 flags
@@ -9361,15 +9331,12 @@ public
 void
 loadUri
 (
-final
 NonNull
 Uri
 uri
-final
 Nullable
 Uri
 referrer
-final
 LoadFlags
 int
 flags
@@ -10794,7 +10761,6 @@ public
 void
 setActive
 (
-final
 boolean
 active
 )
@@ -10909,7 +10875,6 @@ public
 void
 setFocused
 (
-final
 boolean
 focused
 )
@@ -11729,7 +11694,6 @@ public
 void
 setContentDelegate
 (
-final
 Nullable
 ContentDelegate
 delegate
@@ -11825,7 +11789,6 @@ public
 void
 setProgressDelegate
 (
-final
 Nullable
 ProgressDelegate
 delegate
@@ -11921,7 +11884,6 @@ public
 void
 setNavigationDelegate
 (
-final
 Nullable
 NavigationDelegate
 delegate
@@ -12018,7 +11980,6 @@ public
 void
 setScrollDelegate
 (
-final
 Nullable
 ScrollDelegate
 delegate
@@ -12106,7 +12067,6 @@ public
 void
 setHistoryDelegate
 (
-final
 Nullable
 HistoryDelegate
 delegate
@@ -12190,7 +12150,6 @@ public
 void
 setContentBlockingDelegate
 (
-final
 Nullable
 ContentBlocking
 .
@@ -12282,7 +12241,6 @@ public
 void
 setPromptDelegate
 (
-final
 Nullable
 PromptDelegate
 delegate
@@ -12365,7 +12323,6 @@ public
 void
 setSelectionActionDelegate
 (
-final
 Nullable
 SelectionActionDelegate
 delegate
@@ -13272,7 +13229,6 @@ public
 void
 confirm
 (
-final
 PromptDelegate
 .
 Choice
@@ -13326,7 +13282,6 @@ public
 void
 confirm
 (
-final
 PromptDelegate
 .
 Choice
@@ -14915,7 +14870,6 @@ Void
 >
 onValue
 (
-final
 AllowOrDeny
 value
 )
@@ -14995,7 +14949,6 @@ Void
 >
 onException
 (
-final
 Throwable
 exception
 )
@@ -15512,7 +15465,6 @@ package
 /
 SecurityInformation
 (
-final
 GeckoBundle
 identityData
 )
@@ -16037,7 +15989,6 @@ package
 /
 WebResponseInfo
 (
-final
 GeckoBundle
 message
 )
@@ -18574,10 +18525,8 @@ Nullable
 final
 String
 triggerUri
-final
 int
 geckoTarget
-final
 int
 flags
 )
@@ -18665,7 +18614,6 @@ TargetWindow
 int
 convertGeckoTarget
 (
-final
 int
 geckoTarget
 )
@@ -20490,7 +20438,6 @@ package
 /
 AuthOptions
 (
-final
 GeckoBundle
 options
 )
@@ -20651,23 +20598,18 @@ default
 void
 onAuthPrompt
 (
-final
 NonNull
 GeckoSession
 session
-final
 Nullable
 String
 title
-final
 Nullable
 String
 msg
-final
 NonNull
 AuthOptions
 options
-final
 NonNull
 AuthCallback
 callback
@@ -20986,7 +20928,6 @@ package
 /
 Choice
 (
-final
 GeckoBundle
 choice
 )
@@ -24188,7 +24129,6 @@ Source
 int
 getSourceFromString
 (
-final
 String
 src
 )
@@ -24374,7 +24314,6 @@ Type
 int
 getTypeFromString
 (
-final
 String
 type
 )
@@ -24464,7 +24403,6 @@ package
 /
 MediaSource
 (
-final
 GeckoBundle
 media
 )

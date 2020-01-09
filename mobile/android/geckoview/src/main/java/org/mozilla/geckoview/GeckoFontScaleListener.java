@@ -606,7 +606,6 @@ public
 void
 setEnabled
 (
-final
 boolean
 enabled
 )
@@ -823,7 +822,6 @@ onSystemFontScaleChange
 final
 ContentResolver
 contentResolver
-final
 boolean
 stopping
 )
@@ -920,7 +918,6 @@ public
 void
 onChange
 (
-final
 boolean
 selfChange
 )

@@ -531,6 +531,9 @@ docPath
 null
 ;
 }
+/
+/
+DownloadsProvider
 else
 if
 (
@@ -540,9 +543,6 @@ uri
 )
 )
 {
-/
-/
-DownloadsProvider
 final
 String
 id
@@ -694,6 +694,9 @@ null
 }
 }
 }
+/
+/
+MediaProvider
 else
 if
 (
@@ -703,9 +706,6 @@ uri
 )
 )
 {
-/
-/
-MediaProvider
 final
 String
 docId
@@ -855,6 +855,13 @@ selectionArgs
 ;
 }
 }
+/
+/
+MediaStore
+(
+and
+general
+)
 else
 if
 (
@@ -872,13 +879,6 @@ getScheme
 )
 )
 {
-/
-/
-MediaStore
-(
-and
-general
-)
 /
 /
 Return
@@ -909,6 +909,9 @@ null
 )
 ;
 }
+/
+/
+File
 else
 if
 (
@@ -926,9 +929,6 @@ getScheme
 )
 )
 {
-/
-/
-File
 return
 uri
 .
@@ -1001,10 +1001,8 @@ Nullable
 String
 getTempFilePathFromContentUri
 (
-final
 Context
 context
-final
 Uri
 contentUri
 )
@@ -1214,16 +1212,12 @@ static
 String
 getDataColumn
 (
-final
 Context
 context
-final
 Uri
 uri
-final
 String
 selection
-final
 String
 [
 ]
@@ -1346,7 +1340,6 @@ static
 boolean
 isExternalStorageDocument
 (
-final
 Uri
 uri
 )
@@ -1402,7 +1395,6 @@ static
 boolean
 isDownloadsDocument
 (
-final
 Uri
 uri
 )
@@ -1460,7 +1452,6 @@ static
 boolean
 isMediaDocument
 (
-final
 Uri
 uri
 )
@@ -1516,7 +1507,6 @@ static
 boolean
 isGooglePhotosUri
 (
-final
 Uri
 uri
 )

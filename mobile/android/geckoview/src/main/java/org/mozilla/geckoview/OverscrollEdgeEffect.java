@@ -186,6 +186,13 @@ UiThread
 import
 android
 .
+view
+.
+View
+;
+import
+android
+.
 widget
 .
 EdgeEffect

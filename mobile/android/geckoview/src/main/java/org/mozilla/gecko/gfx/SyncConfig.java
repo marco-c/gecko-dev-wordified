@@ -55,16 +55,12 @@ package
 /
 SyncConfig
 (
-final
 int
 sourceTextureHandle
-final
 GeckoSurface
 targetSurface
-final
 int
 width
-final
 int
 height
 )
@@ -116,7 +112,6 @@ public
 SyncConfig
 createFromParcel
 (
-final
 Parcel
 parcel
 )
@@ -136,7 +131,6 @@ SyncConfig
 ]
 newArray
 (
-final
 int
 i
 )
@@ -154,7 +148,6 @@ i
 private
 SyncConfig
 (
-final
 Parcel
 parcel
 )
@@ -211,10 +204,8 @@ public
 void
 writeToParcel
 (
-final
 Parcel
 parcel
-final
 int
 flags
 )

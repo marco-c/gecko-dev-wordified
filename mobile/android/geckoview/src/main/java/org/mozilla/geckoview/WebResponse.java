@@ -152,6 +152,13 @@ io
 .
 InputStream
 ;
+import
+java
+.
+nio
+.
+ByteBuffer
+;
 /
 *
 *
@@ -574,7 +581,6 @@ NonNull
 Builder
 statusCode
 (
-final
 int
 code
 )

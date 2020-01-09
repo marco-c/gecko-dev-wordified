@@ -249,7 +249,7 @@ GeckoDisplay
 private
 final
 GeckoSession
-mSession
+session
 ;
 protected
 GeckoDisplay
@@ -259,7 +259,9 @@ GeckoSession
 session
 )
 {
-mSession
+this
+.
+session
 =
 session
 ;
@@ -364,13 +366,10 @@ void
 surfaceChanged
 (
 NonNull
-final
 Surface
 surface
-final
 int
 width
-final
 int
 height
 )
@@ -549,19 +548,14 @@ void
 surfaceChanged
 (
 NonNull
-final
 Surface
 surface
-final
 int
 left
-final
 int
 top
-final
 int
 width
-final
 int
 height
 )
@@ -605,7 +599,7 @@ negative
 }
 if
 (
-mSession
+session
 .
 getDisplay
 (
@@ -615,7 +609,7 @@ getDisplay
 this
 )
 {
-mSession
+session
 .
 onSurfaceChanged
 (
@@ -698,7 +692,7 @@ assertOnUiThread
 ;
 if
 (
-mSession
+session
 .
 getDisplay
 (
@@ -708,7 +702,7 @@ getDisplay
 this
 )
 {
-mSession
+session
 .
 onSurfaceDestroyed
 (
@@ -812,7 +806,7 @@ assertOnUiThread
 ;
 if
 (
-mSession
+session
 .
 getDisplay
 (
@@ -822,7 +816,7 @@ getDisplay
 this
 )
 {
-mSession
+session
 .
 onScreenOriginChanged
 (
@@ -936,7 +930,7 @@ assertOnUiThread
 )
 ;
 return
-mSession
+session
 .
 getDisplay
 (
@@ -946,7 +940,7 @@ getDisplay
 this
 &
 &
-mSession
+session
 .
 shouldPinOnScreen
 (
@@ -1096,7 +1090,7 @@ assertOnUiThread
 if
 (
 !
-mSession
+session
 .
 isCompositorReady
 (
@@ -1139,7 +1133,7 @@ GeckoResult
 (
 )
 ;
-mSession
+session
 .
 mCompositor
 .

@@ -317,7 +317,6 @@ static
 void
 init
 (
-final
 Context
 context
 )
@@ -964,7 +963,6 @@ static
 String
 machineTypeToString
 (
-final
 int
 machineType
 )

@@ -527,7 +527,6 @@ static
 boolean
 findDecoderCodecInfoForMimeType
 (
-final
 String
 aMimeType
 )
@@ -651,10 +650,8 @@ static
 boolean
 checkSupportsAdaptivePlayback
 (
-final
 MediaCodec
 aCodec
-final
 String
 aMimeType
 )
@@ -788,7 +785,6 @@ static
 boolean
 isAdaptivePlaybackBlacklisted
 (
-final
 String
 aMimeType
 )
@@ -1252,7 +1248,6 @@ static
 boolean
 getHWDecoderCapability
 (
-final
 String
 aMimeType
 )

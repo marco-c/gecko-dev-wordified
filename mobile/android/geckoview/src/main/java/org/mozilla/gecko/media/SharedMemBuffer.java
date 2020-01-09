@@ -129,7 +129,6 @@ package
 public
 SharedMemBuffer
 (
-final
 SharedMemory
 sharedMem
 )
@@ -142,7 +141,6 @@ sharedMem
 protected
 SharedMemBuffer
 (
-final
 Parcel
 in
 )
@@ -168,10 +166,8 @@ public
 void
 writeToParcel
 (
-final
 Parcel
 dest
-final
 int
 flags
 )
@@ -218,7 +214,6 @@ public
 SharedMemBuffer
 createFromParcel
 (
-final
 Parcel
 in
 )
@@ -238,7 +233,6 @@ SharedMemBuffer
 ]
 newArray
 (
-final
 int
 size
 )
@@ -280,13 +274,10 @@ public
 void
 readFromByteBuffer
 (
-final
 ByteBuffer
 src
-final
 int
 offset
-final
 int
 size
 )
@@ -372,13 +363,10 @@ public
 void
 writeToByteBuffer
 (
-final
 ByteBuffer
 dest
-final
 int
 offset
-final
 int
 size
 )

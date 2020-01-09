@@ -230,7 +230,6 @@ static
 String
 bytesToHex
 (
-final
 byte
 [
 ]

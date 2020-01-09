@@ -248,7 +248,7 @@ GeckoSystemStateListener
 ;
 private
 boolean
-mInitialized
+initialized
 ;
 private
 ContentObserver
@@ -292,7 +292,7 @@ context
 {
 if
 (
-mInitialized
+initialized
 )
 {
 Log
@@ -386,7 +386,6 @@ public
 void
 onChange
 (
-final
 boolean
 selfChange
 )
@@ -407,7 +406,7 @@ false
 mContentObserver
 )
 ;
-mInitialized
+initialized
 =
 true
 ;
@@ -422,7 +421,7 @@ shutdown
 if
 (
 !
-mInitialized
+initialized
 )
 {
 Log
@@ -489,7 +488,7 @@ unregisterContentObserver
 mContentObserver
 )
 ;
-mInitialized
+initialized
 =
 false
 ;
@@ -733,7 +732,6 @@ private
 void
 notifyDeviceChanged
 (
-final
 int
 deviceId
 )
@@ -778,7 +776,6 @@ public
 void
 onInputDeviceAdded
 (
-final
 int
 deviceId
 )
@@ -794,7 +791,6 @@ public
 void
 onInputDeviceRemoved
 (
-final
 int
 deviceId
 )
@@ -839,7 +835,6 @@ public
 void
 onInputDeviceChanged
 (
-final
 int
 deviceId
 )

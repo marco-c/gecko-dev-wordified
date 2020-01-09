@@ -96,6 +96,13 @@ mozilla
 .
 gecko
 ;
+import
+android
+.
+view
+.
+HapticFeedbackConstants
+;
 /
 *
 *

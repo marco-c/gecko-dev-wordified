@@ -134,7 +134,6 @@ Service
 {
 private
 static
-final
 String
 LOGTAG
 =
@@ -179,10 +178,8 @@ public
 IMediaDrmBridge
 createRemoteMediaDrmBridge
 (
-final
 String
 keySystem
-final
 String
 stubId
 )
@@ -241,7 +238,6 @@ public
 IBinder
 onBind
 (
-final
 Intent
 intent
 )
@@ -255,7 +251,6 @@ public
 boolean
 onUnbind
 (
-final
 Intent
 intent
 )

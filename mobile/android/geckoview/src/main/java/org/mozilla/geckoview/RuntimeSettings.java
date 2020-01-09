@@ -492,7 +492,6 @@ public
 void
 set
 (
-final
 T
 newValue
 )
@@ -1424,10 +1423,8 @@ public
 void
 writeToParcel
 (
-final
 Parcel
 out
-final
 int
 flags
 )

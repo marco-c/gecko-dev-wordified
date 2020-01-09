@@ -153,6 +153,13 @@ annotation
 UiThread
 ;
 import
+android
+.
+util
+.
+Log
+;
+import
 org
 .
 mozilla
@@ -1349,10 +1356,8 @@ TimeRange
 protected
 TimeRange
 (
-final
 double
 start
-final
 double
 end
 )
