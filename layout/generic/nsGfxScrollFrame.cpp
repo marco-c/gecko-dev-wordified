@@ -1853,8 +1853,6 @@ aMin
 nsSize
 *
 aPref
-bool
-aVertical
 )
 {
 NS_ASSERTION
@@ -2404,7 +2402,6 @@ aAssumeVScroll
 vScrollbarPrefSize
 :
 nullptr
-true
 )
 ;
 nsScrollbarFrame
@@ -2487,7 +2484,6 @@ aAssumeHScroll
 hScrollbarPrefSize
 :
 nullptr
-false
 )
 ;
 nsScrollbarFrame
@@ -3500,7 +3496,6 @@ mVScrollbarBox
 nullptr
 &
 vScrollbarPrefSize
-false
 )
 ;
 if
@@ -3587,7 +3582,6 @@ mHScrollbarBox
 nullptr
 &
 hScrollbarPrefSize
-true
 )
 ;
 availISize
@@ -3629,7 +3623,6 @@ mHScrollbarBox
 nullptr
 &
 hScrollbarPrefSize
-false
 )
 ;
 if
@@ -3716,7 +3709,6 @@ mVScrollbarBox
 nullptr
 &
 vScrollbarPrefSize
-true
 )
 ;
 availISize
@@ -6066,7 +6058,6 @@ mVScrollbarBox
 nullptr
 &
 vScrollbarPrefSize
-true
 )
 ;
 return
@@ -37259,7 +37250,6 @@ mHScrollbarBox
 &
 hMinSize
 nullptr
-false
 )
 ;
 }
@@ -37291,7 +37281,6 @@ mVScrollbarBox
 &
 vMinSize
 nullptr
-true
 )
 ;
 }
