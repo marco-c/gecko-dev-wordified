@@ -302,11 +302,6 @@ builder
 push_reference_frame
 (
 &
-LayoutPrimitiveInfo
-:
-:
-new
-(
 LayoutRect
 :
 :
@@ -320,7 +315,6 @@ LayoutSize
 :
 zero
 (
-)
 )
 )
 TransformStyle

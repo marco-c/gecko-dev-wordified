@@ -9990,9 +9990,6 @@ handle_reference_frame
 dl
 wrench
 item
-&
-mut
-info
 )
 "
 shadow
@@ -11184,11 +11181,6 @@ yaml
 :
 &
 Yaml
-info
-:
-&
-mut
-LayoutPrimitiveInfo
 )
 -
 >
@@ -11273,12 +11265,6 @@ height
 .
 5
 )
-;
-info
-.
-rect
-=
-bounds
 ;
 let
 transform_style
@@ -11443,7 +11429,8 @@ dl
 .
 push_reference_frame
 (
-info
+&
+bounds
 transform_style
 transform
 .
@@ -11510,11 +11497,6 @@ yaml
 :
 &
 Yaml
-info
-:
-&
-mut
-LayoutPrimitiveInfo
 )
 {
 let
@@ -11527,7 +11509,6 @@ push_reference_frame
 dl
 wrench
 yaml
-info
 )
 ;
 if
@@ -11701,7 +11682,6 @@ push_reference_frame
 dl
 wrench
 yaml
-info
 )
 ;
 info
