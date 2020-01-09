@@ -1244,7 +1244,7 @@ extend
 '
 -
 -
-firefox
+gecko
 -
 checkout
 '

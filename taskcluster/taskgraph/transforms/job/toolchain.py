@@ -1219,7 +1219,7 @@ sparse_profile
 '
 -
 -
-firefox
+gecko
 -
 sparse
 -
@@ -1280,7 +1280,7 @@ run
 '
 -
 -
-firefox
+gecko
 -
 checkout
 =

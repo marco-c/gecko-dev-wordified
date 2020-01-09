@@ -616,7 +616,7 @@ run
 '
 -
 -
-firefox
+gecko
 -
 checkout
 '
