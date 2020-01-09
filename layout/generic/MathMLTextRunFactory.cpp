@@ -3753,10 +3753,7 @@ is
 actually
 available
 .
-gfxTextRange
-:
-:
-MatchType
+FontMatchType
 matchType
 ;
 RefPtr
