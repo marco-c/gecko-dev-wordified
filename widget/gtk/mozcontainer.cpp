@@ -1262,13 +1262,6 @@ ready_to_draw
 =
 false
 ;
-container
--
->
-inital_draw_cb
-=
-nullptr
-;
 }
 static
 gint
