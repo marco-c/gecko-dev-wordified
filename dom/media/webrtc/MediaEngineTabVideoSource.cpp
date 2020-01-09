@@ -2078,6 +2078,7 @@ TextureClient
 return
 ;
 }
+{
 layers
 :
 :
@@ -2343,6 +2344,7 @@ height
 )
 )
 ;
+}
 }
 MutexAutoLock
 lock
