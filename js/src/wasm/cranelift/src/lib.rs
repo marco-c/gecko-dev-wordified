@@ -379,6 +379,7 @@ h
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -421,8 +422,6 @@ b
 let
 env
 =
-unsafe
-{
 env
 .
 as_ref
@@ -432,13 +431,10 @@ as_ref
 unwrap
 (
 )
-}
 ;
 let
 static_env
 =
-unsafe
-{
 static_env
 .
 as_ref
@@ -448,7 +444,6 @@ as_ref
 unwrap
 (
 )
-}
 ;
 match
 BatchCompiler
@@ -542,6 +537,7 @@ h
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -594,8 +590,6 @@ it
 let
 _box
 =
-unsafe
-{
 Box
 :
 :
@@ -603,7 +597,6 @@ from_raw
 (
 compiler
 )
-}
 ;
 }
 /
@@ -633,6 +626,7 @@ h
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -663,8 +657,6 @@ bool
 let
 compiler
 =
-unsafe
-{
 compiler
 .
 as_mut
@@ -674,13 +666,10 @@ as_mut
 unwrap
 (
 )
-}
 ;
 let
 data
 =
-unsafe
-{
 data
 .
 as_ref
@@ -690,7 +679,6 @@ as_ref
 unwrap
 (
 )
-}
 ;
 if
 let
@@ -812,8 +800,6 @@ somehow
 let
 result
 =
-unsafe
-{
 result
 .
 as_mut
@@ -823,7 +809,6 @@ as_mut
 unwrap
 (
 )
-}
 ;
 result
 .

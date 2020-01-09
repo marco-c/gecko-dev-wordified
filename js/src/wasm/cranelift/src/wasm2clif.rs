@@ -6257,11 +6257,15 @@ VM
 context
 pointer
 .
+i64
+:
+:
+from
+(
 native_pointer_size
 (
 )
-as
-i64
+)
 *
 2
 }
