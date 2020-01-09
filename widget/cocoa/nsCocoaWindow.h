@@ -141,6 +141,13 @@ nsCocoaUtils
 .
 h
 "
+#
+include
+"
+nsTouchBar
+.
+h
+"
 class
 nsCocoaWindow
 ;
@@ -322,6 +329,10 @@ mBrightTitlebarForeground
 ;
 BOOL
 mUseMenuStyle
+;
+nsTouchBar
+*
+mTouchBar
 ;
 }
 -
