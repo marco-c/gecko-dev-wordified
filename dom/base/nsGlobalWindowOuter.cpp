@@ -6010,13 +6010,13 @@ mHasStorageAccess
 (
 false
 )
+#
+ifdef
+DEBUG
 mSerial
 (
 0
 )
-#
-ifdef
-DEBUG
 mSetOpenerWindowCalled
 (
 false
@@ -6135,6 +6135,9 @@ until
 we
 succeed
 .
+#
+ifdef
+DEBUG
 mSerial
 =
 nsContentUtils
@@ -6144,9 +6147,6 @@ InnerOrOuterWindowCreated
 (
 )
 ;
-#
-ifdef
-DEBUG
 if
 (
 !
