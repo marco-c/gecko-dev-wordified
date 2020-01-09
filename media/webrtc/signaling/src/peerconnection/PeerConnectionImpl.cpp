@@ -1022,8 +1022,7 @@ our
 linking
 is
 completely
-fucked
-up
+broken
 .
 Use
 /
