@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+nsLayoutModule
+.
+h
+"
+#
+include
+"
 base
 /
 basictypes
