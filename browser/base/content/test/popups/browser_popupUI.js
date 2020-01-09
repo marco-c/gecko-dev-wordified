@@ -265,6 +265,8 @@ getAnonymousElementByAttribute
 win
 .
 gURLBar
+.
+textbox
 "
 anonid
 "
