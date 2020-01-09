@@ -922,7 +922,7 @@ if
 blockFrame
 -
 >
-HasBullet
+HasMarker
 (
 )
 )

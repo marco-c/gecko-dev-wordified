@@ -2444,7 +2444,7 @@ false
 }
 if
 (
-HasBullet
+HasMarker
 (
 )
 )
@@ -2573,7 +2573,7 @@ break
 }
 if
 (
-HasBullet
+HasMarker
 (
 )
 )
