@@ -290,7 +290,7 @@ usbRuntimeSidebarItem
 .
 textContent
 .
-startsWith
+includes
 (
 RUNTIME_NAME
 )
