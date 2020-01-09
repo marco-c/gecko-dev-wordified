@@ -1244,6 +1244,11 @@ introductionUrl
 ?
 string
 +
+introductionType
+:
+?
+string
++
 isExtension
 :
 boolean

@@ -328,6 +328,11 @@ introductionUrl
 source
 .
 introductionUrl
+introductionType
+:
+source
+.
+introductionType
 isBlackBoxed
 :
 false
