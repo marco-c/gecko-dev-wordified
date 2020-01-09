@@ -288,7 +288,7 @@ endif
 define
 __CLASS__
 "
-GMPService
+GMPServiceChild
 "
 namespace
 gmp

@@ -445,7 +445,7 @@ endif
 define
 __CLASS__
 "
-GMPService
+GMPServiceParent
 "
 #
 define
