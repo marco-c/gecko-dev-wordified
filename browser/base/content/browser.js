@@ -56946,10 +56946,8 @@ we
 show
 for
 4s
-and
-there
-is
-no
+after
+the
 text
 transition
 .
@@ -56963,8 +56961,6 @@ showDescription
 4000
 :
 1500
-+
-120
 ;
 this
 .
@@ -57012,6 +57008,8 @@ true
 ;
 }
 DURATION
++
+120
 )
 ;
 }
