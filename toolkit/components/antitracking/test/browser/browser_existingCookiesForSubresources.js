@@ -765,16 +765,6 @@ true
 ]
 [
 "
-browser
-.
-contentblocking
-.
-enabled
-"
-true
-]
-[
-"
 network
 .
 cookie
