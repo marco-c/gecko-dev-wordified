@@ -658,7 +658,7 @@ text
 -
 align
 :
-left
+start
 ;
 color
 :
@@ -741,12 +741,6 @@ display
 inline
 -
 block
-;
-text
--
-align
-:
-left
 ;
 vertical
 -
