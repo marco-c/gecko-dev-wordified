@@ -53,13 +53,6 @@ MPL
 0
 /
 .
-#
-abstract
-class
-for
-all
-playback
-tools
 from
 __future__
 import
@@ -69,6 +62,13 @@ abc
 import
 ABCMeta
 abstractmethod
+#
+abstract
+class
+for
+all
+playback
+tools
 class
 Playback
 (

@@ -274,6 +274,9 @@ mozprofile
 mozprocess
 '
 '
+mozproxy
+'
+'
 mozrunner
 '
 )

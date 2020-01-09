@@ -163,9 +163,6 @@ playback_settings
 =
 [
 '
-playback_binary_manifest
-'
-'
 playback_pageset_manifest
 '
                      
