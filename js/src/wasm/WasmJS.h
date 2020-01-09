@@ -2463,6 +2463,11 @@ wasm
 Limits
 &
 limits
+wasm
+:
+:
+TableKind
+tableKind
 )
 ;
 wasm
