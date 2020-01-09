@@ -2198,10 +2198,6 @@ mTreeOwner
 (
 nullptr
 )
-mChromeEventHandler
-(
-nullptr
-)
 mDefaultScrollbarPref
 (
 Scrollbar_Auto
@@ -3549,6 +3545,7 @@ mScriptGlobal
 mInitialClientSource
 mSessionHistory
 mBrowsingContext
+mChromeEventHandler
 )
 NS_IMPL_ADDREF_INHERITED
 (
@@ -7600,16 +7597,6 @@ EventTarget
 aChromeEventHandler
 )
 {
-/
-/
-Weak
-reference
-.
-Don
-'
-t
-addref
-.
 mChromeEventHandler
 =
 aChromeEventHandler
@@ -7649,7 +7636,7 @@ NS_ENSURE_ARG_POINTER
 aChromeEventHandler
 )
 ;
-nsCOMPtr
+RefPtr
 <
 EventTarget
 >
@@ -24500,7 +24487,7 @@ error
 tabcrashed
 "
 ;
-nsCOMPtr
+RefPtr
 <
 EventTarget
 >
@@ -29458,6 +29445,10 @@ nullptr
 )
 ;
 mTabChild
+=
+nullptr
+;
+mChromeEventHandler
 =
 nullptr
 ;

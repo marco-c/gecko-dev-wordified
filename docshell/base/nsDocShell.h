@@ -7062,6 +7062,8 @@ mTreeOwner
 /
 Weak
 Reference
+RefPtr
+<
 mozilla
 :
 :
@@ -7069,13 +7071,9 @@ dom
 :
 :
 EventTarget
-*
+>
 mChromeEventHandler
 ;
-/
-/
-Weak
-Reference
 nsIntPoint
 mDefaultScrollbarPref
 ;
