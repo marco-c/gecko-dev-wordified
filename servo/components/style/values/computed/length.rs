@@ -3537,7 +3537,7 @@ NonNegativeLengthPercentageOrAuto
 generics
 :
 :
-LengthPercentageOrAuto
+GenericLengthPercentageOrAuto
 <
 NonNegativeLengthPercentage
 >

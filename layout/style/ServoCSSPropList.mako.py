@@ -641,6 +641,10 @@ NonNegativeLengthPercentage
 "
     
 "
+NonNegativeLengthPercentageOrAuto
+"
+    
+"
 ListStyleType
 "
     
