@@ -3824,6 +3824,12 @@ aIsAudio
 *
 /
 false
+/
+*
+aIsMultitrackParser
+*
+/
+true
 )
 ;
 DDLINKCHILD
