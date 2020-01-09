@@ -263,10 +263,12 @@ nsTreeBodyFrame
 *
 GetTreeBodyFrame
 (
-bool
-aFlushLayout
+FlushType
 =
-false
+FlushType
+:
+:
+Frames
 )
 ;
 nsTreeBodyFrame
