@@ -166,6 +166,15 @@ h
 #
 include
 "
+mozilla
+/
+AlreadyAddRefed
+.
+h
+"
+#
+include
+"
 ARefBase
 .
 h
@@ -704,8 +713,10 @@ as
 an
 infalible
 allocation
+already_AddRefed
+<
 nsHttpConnectionInfo
-*
+>
 Clone
 (
 )
