@@ -11456,8 +11456,7 @@ byte
 length
 of
 an
-array
-buffer
+ArrayBuffer
 .
 *
 *
@@ -11914,8 +11913,7 @@ the
 start
 of
 an
-array
-buffer
+ArrayBuffer
 to
 the
 start
