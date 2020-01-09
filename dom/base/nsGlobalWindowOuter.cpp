@@ -27879,6 +27879,14 @@ fixedMessage
 nsContentUtils
 :
 :
+PlatformToDOMLineBreaks
+(
+fixedMessage
+)
+;
+nsContentUtils
+:
+:
 StripNullChars
 (
 aInitial
