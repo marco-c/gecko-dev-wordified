@@ -14,14 +14,6 @@ mozilla
 release
 "
     
-"
-update_channel
-"
-:
-"
-release
-"
-    
 #
 l10n
     

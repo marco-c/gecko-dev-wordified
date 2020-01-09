@@ -14,14 +14,6 @@ mozilla
 central
 "
     
-"
-update_channel
-"
-:
-"
-nightly
-"
-    
 #
 l10n
     

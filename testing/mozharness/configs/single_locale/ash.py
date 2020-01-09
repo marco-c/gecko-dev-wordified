@@ -12,14 +12,6 @@ branch
 ash
 "
     
-"
-update_channel
-"
-:
-"
-nightly
-"
-    
 #
 l10n
     

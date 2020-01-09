@@ -12,20 +12,6 @@ mozilla
 beta
 "
     
-"
-update_channel
-"
-:
-"
-aurora
-"
-#
-devedition
-uses
-aurora
-based
-branding
-    
 #
 l10n
     

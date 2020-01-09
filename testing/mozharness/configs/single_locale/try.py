@@ -12,16 +12,6 @@ branch
 try
 "
     
-"
-update_channel
-"
-:
-"
-nightly
--
-try
-"
-    
 #
 l10n
     

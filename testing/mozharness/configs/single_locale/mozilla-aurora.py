@@ -14,14 +14,6 @@ mozilla
 aurora
 "
     
-"
-update_channel
-"
-:
-"
-aurora
-"
-    
 #
 l10n
     

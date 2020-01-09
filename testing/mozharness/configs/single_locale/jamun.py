@@ -12,16 +12,6 @@ branch
 jamun
 "
     
-"
-update_channel
-"
-:
-"
-nightly
--
-jamun
-"
-    
 #
 l10n
     

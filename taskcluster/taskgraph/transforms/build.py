@@ -551,6 +551,22 @@ update_channel
 ]
 =
 update_channel
+            
+job
+[
+'
+attributes
+'
+]
+[
+'
+update
+-
+channel
+'
+]
+=
+update_channel
         
 yield
 job

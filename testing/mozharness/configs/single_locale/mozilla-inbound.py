@@ -14,14 +14,6 @@ mozilla
 inbound
 "
     
-"
-update_channel
-"
-:
-"
-nightly
-"
-    
 #
 l10n
     

@@ -47,14 +47,6 @@ esr60
 /
 "
     
-"
-update_channel
-"
-:
-"
-esr
-"
-    
 #
 l10n
     

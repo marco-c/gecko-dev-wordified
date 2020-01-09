@@ -14,14 +14,6 @@ mozilla
 beta
 "
     
-"
-update_channel
-"
-:
-"
-beta
-"
-    
 #
 l10n
     

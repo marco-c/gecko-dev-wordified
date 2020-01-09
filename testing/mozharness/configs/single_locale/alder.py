@@ -12,14 +12,6 @@ branch
 alder
 "
     
-"
-update_channel
-"
-:
-"
-nightly
-"
-    
 #
 l10n
     
