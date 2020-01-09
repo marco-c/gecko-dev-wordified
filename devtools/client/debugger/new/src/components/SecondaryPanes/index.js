@@ -121,6 +121,7 @@ getIsWaitingOnBreak
 getShouldPauseOnExceptions
 getShouldPauseOnCaughtExceptions
 getWorkers
+getCurrentThread
 }
 from
 "
@@ -1948,7 +1949,16 @@ mapStateToProps
 state
 =
 >
+{
+const
+thread
+=
+getCurrentThread
 (
+state
+)
+;
+return
 {
 expressions
 :
@@ -1963,6 +1973,7 @@ hasFrames
 getTopFrame
 (
 state
+thread
 )
 breakpoints
 :
@@ -1987,6 +1998,7 @@ isWaitingOnBreak
 getIsWaitingOnBreak
 (
 state
+thread
 )
 shouldPauseOnExceptions
 :
@@ -2007,7 +2019,8 @@ getWorkers
 state
 )
 }
-)
+;
+}
 ;
 export
 default

@@ -79,7 +79,7 @@ sources
 ;
 import
 {
-getFrames
+getCurrentThreadFrames
 }
 from
 "
@@ -402,7 +402,7 @@ createSelector
 any
 )
 (
-getFrames
+getCurrentThreadFrames
 getSources
 getSelectedSource
 formatCallStackFrames

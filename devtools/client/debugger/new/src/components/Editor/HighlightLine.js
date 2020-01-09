@@ -151,6 +151,7 @@ getVisibleSelectedFrame
 getSelectedLocation
 getSelectedSource
 getPauseCommand
+getCurrentThread
 }
 from
 "
@@ -816,6 +817,10 @@ pauseCommand
 getPauseCommand
 (
 state
+getCurrentThread
+(
+state
+)
 )
 selectedFrame
 :

@@ -181,6 +181,13 @@ ThunkArgs
 >
 {
 const
+thread
+=
+packet
+.
+from
+;
+const
 why
 =
 getPauseReason
@@ -188,6 +195,7 @@ getPauseReason
 getState
 (
 )
+thread
 )
 ;
 const
@@ -206,6 +214,7 @@ isStepping
 getState
 (
 )
+thread
 )
 ;
 dispatch
@@ -217,10 +226,6 @@ type
 RESUME
 "
 thread
-:
-packet
-.
-from
 wasStepping
 }
 )
