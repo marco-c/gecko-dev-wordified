@@ -1359,6 +1359,9 @@ this
 state
 .
 isSourceMapped
+selectable
+:
+true
 }
 )
 ;
