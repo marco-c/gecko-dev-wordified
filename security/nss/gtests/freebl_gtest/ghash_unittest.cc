@@ -59,6 +59,8 @@ MPL
 #
 include
 "
+testvectors
+/
 gcm
 -
 vectors

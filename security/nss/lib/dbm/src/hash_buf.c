@@ -810,7 +810,7 @@ seeking
 extern
 BUFHEAD
 *
-__get_buf
+dbm_get_buf
 (
 HTAB
 *
@@ -938,7 +938,7 @@ valid
 segment
 ensured
 by
-__call_hash
+dbm_call_hash
 (
 )
 *
@@ -1031,7 +1031,7 @@ NULL
 ;
 if
 (
-__get_page
+dbm_get_page
 (
 hashp
 bp
@@ -1727,7 +1727,7 @@ BUF_MOD
 )
 &
 &
-__put_page
+dbm_put_page
 (
 hashp
 bp
@@ -2139,7 +2139,7 @@ BUF_MOD
 )
 &
 &
-__put_page
+dbm_put_page
 (
 hashp
 xbp
@@ -2386,7 +2386,7 @@ bp
 }
 extern
 void
-__buf_init
+dbm_buf_init
 (
 HTAB
 *
@@ -2513,7 +2513,7 @@ addr
 }
 extern
 int
-__buf_free
+dbm_buf_free
 (
 HTAB
 *
@@ -2620,7 +2620,7 @@ BUF_MOD
 (
 status
 =
-__put_page
+dbm_put_page
 (
 hashp
 bp
@@ -2743,7 +2743,7 @@ return
 }
 extern
 void
-__reclaim_buf
+dbm_reclaim_buf
 (
 HTAB
 *

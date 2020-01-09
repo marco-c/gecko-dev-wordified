@@ -482,7 +482,7 @@ function
 uint32
 (
 *
-__default_hash
+dbm_default_hash
 )
 (
 const

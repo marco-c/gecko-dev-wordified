@@ -1826,7 +1826,7 @@ structure
 /
 typedef
 struct
-__db
+dbm_db
 {
 DBTYPE
 type
@@ -1846,7 +1846,7 @@ close
 )
 (
 struct
-__db
+dbm_db
 *
 )
 ;
@@ -1858,7 +1858,7 @@ del
 (
 const
 struct
-__db
+dbm_db
 *
 const
 DBT
@@ -1874,7 +1874,7 @@ get
 (
 const
 struct
-__db
+dbm_db
 *
 const
 DBT
@@ -1892,7 +1892,7 @@ put
 (
 const
 struct
-__db
+dbm_db
 *
 DBT
 *
@@ -1910,7 +1910,7 @@ seq
 (
 const
 struct
-__db
+dbm_db
 *
 DBT
 *
@@ -1927,7 +1927,7 @@ sync
 (
 const
 struct
-__db
+dbm_db
 *
 uint
 )
@@ -1952,7 +1952,7 @@ fd
 (
 const
 struct
-__db
+dbm_db
 *
 )
 ;
@@ -3006,7 +3006,7 @@ ifdef
 __DBINTERFACE_PRIVATE
 DB
 *
-__bt_open
+dbm_bt_open
 (
 const
 char
@@ -3021,7 +3021,7 @@ int
 ;
 DB
 *
-__hash_open
+dbm_hash_open
 (
 const
 char
@@ -3036,7 +3036,7 @@ int
 ;
 DB
 *
-__rec_open
+dbm_rec_open
 (
 const
 char
@@ -3050,7 +3050,7 @@ int
 )
 ;
 void
-__dbpanic
+dbm_dbpanic
 (
 DB
 *

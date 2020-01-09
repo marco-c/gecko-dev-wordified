@@ -410,7 +410,7 @@ mcom_db
 h
 "
 uint32
-__log2
+dbm_log2
 (
 uint32
 num

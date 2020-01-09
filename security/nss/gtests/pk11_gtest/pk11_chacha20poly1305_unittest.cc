@@ -154,6 +154,8 @@ h
 #
 include
 "
+testvectors
+/
 chachapoly
 -
 vectors
