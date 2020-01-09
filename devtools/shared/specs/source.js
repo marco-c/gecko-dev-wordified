@@ -363,7 +363,7 @@ number
 "
 )
 }
-condition
+options
 :
 Arg
 (
@@ -371,7 +371,7 @@ Arg
 "
 nullable
 :
-string
+json
 "
 )
 noSliding

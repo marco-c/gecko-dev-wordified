@@ -198,6 +198,9 @@ setBreakpoint
 line
 :
 3
+options
+:
+{
 condition
 :
 "
@@ -207,6 +210,7 @@ Error
 (
 )
 "
+}
 }
 )
 .
