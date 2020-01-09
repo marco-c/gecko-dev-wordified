@@ -297,9 +297,9 @@ let
 configValueRead
 =
 await
-gAUS
+UpdateUtils
 .
-getAutoUpdateIsEnabled
+getAppUpdateAutoEnabled
 (
 )
 ;

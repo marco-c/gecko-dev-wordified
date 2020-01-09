@@ -339,6 +339,8 @@ updateDeck
 this
 .
 promiseAutoUpdateSetting
+=
+null
 ;
 /
 /
@@ -632,11 +634,9 @@ this
 .
 promiseAutoUpdateSetting
 =
-this
+UpdateUtils
 .
-aus
-.
-getAutoUpdateIsEnabled
+getAppUpdateAutoEnabled
 (
 )
 ;
@@ -1857,11 +1857,9 @@ gAppUpdater
 .
 promiseAutoUpdateSetting
 =
-gAppUpdater
+UpdateUtils
 .
-aus
-.
-getAutoUpdateIsEnabled
+getAppUpdateAutoEnabled
 (
 )
 ;

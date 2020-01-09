@@ -26888,6 +26888,9 @@ Ci
 nsIXULAppInfo
 Ci
 .
+nsIPlatformInfo
+Ci
+.
 nsIXULRuntime
 ]
 ;
