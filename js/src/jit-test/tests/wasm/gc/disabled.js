@@ -70,7 +70,7 @@ simpleTests
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -80,7 +80,6 @@ drop
 ref
 .
 null
-anyref
 )
 )
 )
@@ -91,7 +90,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -108,7 +107,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -125,7 +124,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -138,7 +137,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 )
@@ -148,7 +146,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -169,7 +167,7 @@ unreachable
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -198,7 +196,7 @@ get_local
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -218,7 +216,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -238,7 +236,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type

@@ -65,7 +65,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -77,7 +77,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 (
@@ -93,7 +92,6 @@ get_global
 ref
 .
 null
-anyref
 set_global
 0
 set_global
@@ -122,7 +120,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -145,7 +143,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 (
@@ -194,7 +191,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -213,7 +210,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 (

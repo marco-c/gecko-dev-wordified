@@ -81,7 +81,7 @@ moduleWithSections
 [
 gcFeatureOptInSection
 (
-1
+2
 )
 v2vSigSection
 declSection
@@ -139,7 +139,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -232,10 +232,6 @@ wabbit
 ref
 .
 null
-(
-ref
-wabbit
-)
 )
 )
 (
@@ -359,19 +355,11 @@ tmp
 ref
 .
 null
-(
-ref
-wabbit
-)
 )
 (
 ref
 .
 null
-(
-ref
-wabbit
-)
 )
 )
 (
@@ -1160,7 +1148,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1261,7 +1249,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1344,10 +1332,6 @@ f
 ref
 .
 null
-(
-ref
-node
-)
 )
 )
 )
@@ -1385,7 +1369,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1536,7 +1520,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1788,7 +1772,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1911,10 +1895,6 @@ const
 ref
 .
 null
-(
-ref
-node
-)
 )
 )
 )
@@ -1955,7 +1935,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -2089,10 +2069,6 @@ const
 ref
 .
 null
-(
-ref
-node
-)
 )
 )
 )
@@ -2165,7 +2141,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -2346,7 +2322,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -2505,7 +2481,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -2639,7 +2615,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -2725,7 +2701,7 @@ txt
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -2902,7 +2878,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -2983,7 +2959,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3068,7 +3044,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3146,7 +3122,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3232,7 +3208,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3328,7 +3304,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3433,7 +3409,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3549,7 +3525,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3640,7 +3616,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3744,7 +3720,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3809,7 +3785,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3888,7 +3864,6 @@ body
 :
 [
 RefNull
-AnyrefCode
 MiscPrefix
 StructNarrow
 I32Code
@@ -3921,7 +3896,6 @@ body
 :
 [
 RefNull
-AnyrefCode
 MiscPrefix
 StructNarrow
 AnyrefCode
@@ -3971,7 +3945,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -4056,7 +4030,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -4153,7 +4127,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -4183,10 +4157,6 @@ f
 ref
 .
 null
-(
-ref
-node
-)
 )
 )
 )
@@ -4264,7 +4234,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -4295,10 +4265,6 @@ f
 ref
 .
 null
-(
-ref
-node
-)
 )
 )
 )
