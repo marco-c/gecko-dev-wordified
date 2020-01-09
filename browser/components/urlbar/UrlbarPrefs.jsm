@@ -1197,6 +1197,16 @@ enabled
 "
 true
 ]
+[
+"
+ui
+.
+popup
+.
+disable_autohide
+"
+false
+]
 ]
 )
 ;
