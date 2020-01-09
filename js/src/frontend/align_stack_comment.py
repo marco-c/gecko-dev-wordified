@@ -79,7 +79,7 @@ stack
 '
 ALIGNMENT_COLUMN
 =
-30
+20
 #
 The
 maximum
