@@ -217,10 +217,12 @@ the
 observation
 that
 the
+'
 true
+'
 ordering
-of
 *
+of
 display
 items
 is
@@ -235,8 +237,8 @@ that
 intersect
 in
 2d
-space
 *
+space
 have
 a
 defined
@@ -252,8 +254,8 @@ one
 of
 a
 many
-possible
 *
+possible
 linear
 representations
 of
