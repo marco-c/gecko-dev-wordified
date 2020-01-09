@@ -3241,6 +3241,9 @@ InvalidateImages
 nsIFrame
 *
 aFrame
+imgIRequest
+*
+aRequest
 )
 {
 bool
@@ -3563,6 +3566,12 @@ get
 >
 UsingSharedSurface
 (
+aRequest
+-
+>
+GetProducerId
+(
+)
 )
 )
 {
@@ -3605,6 +3614,9 @@ RequestPaintIfNeeded
 FrameSet
 *
 aFrameSet
+imgIRequest
+*
+aRequest
 bool
 aForcePaint
 )
@@ -3726,6 +3738,7 @@ else
 InvalidateImages
 (
 frame
+aRequest
 )
 ;
 /
@@ -4679,6 +4692,7 @@ for
 RequestPaintIfNeeded
 (
 frameSet
+aRequest
 /
 *
 aForcePaint
@@ -4740,6 +4754,7 @@ NS_OK
 RequestPaintIfNeeded
 (
 frameSet
+aRequest
 /
 *
 aForcePaint

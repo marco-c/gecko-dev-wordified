@@ -334,6 +334,8 @@ nsIFrame
 aFrame
 DisplayItemType
 aType
+ContainerProducerID
+aProducerId
 )
 {
 MOZ_ASSERT
@@ -437,6 +439,7 @@ image
 >
 UsingSharedSurface
 (
+aProducerId
 )
 )
 {
@@ -680,6 +683,8 @@ WebRenderImageData
 :
 UsingSharedSurface
 (
+ContainerProducerID
+aProducerId
 )
 const
 {
@@ -763,6 +768,7 @@ AsyncResourceUpdates
 (
 )
 key
+aProducerId
 )
 ;
 return
@@ -946,6 +952,7 @@ aContainer
 mManager
 aResources
 key
+kContainerProducerID_Invalid
 )
 ;
 if

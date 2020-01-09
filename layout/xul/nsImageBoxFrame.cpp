@@ -5133,6 +5133,17 @@ DisplayItemType
 :
 TYPE_XUL_IMAGE
 ;
+const
+auto
+producerId
+=
+aRequest
+-
+>
+GetProducerId
+(
+)
+;
 if
 (
 WebRenderUserData
@@ -5142,6 +5153,7 @@ ProcessInvalidateForImage
 (
 this
 type
+producerId
 )
 )
 {

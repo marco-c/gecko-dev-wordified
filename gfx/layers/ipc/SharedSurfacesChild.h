@@ -228,6 +228,17 @@ h
 /
 for
 AutoTArray
+#
+include
+"
+ImageTypes
+.
+h
+"
+/
+/
+for
+ContainerProducerID
 namespace
 mozilla
 {
@@ -707,6 +718,8 @@ wr
 ImageKey
 &
 aKey
+ContainerProducerID
+aProducerId
 )
 ;
 /
