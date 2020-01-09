@@ -1146,16 +1146,6 @@ true
 /
 /
 Whether
-conditional
-breakpoints
-are
-supported
-conditionalBreakpoints
-:
-true
-/
-/
-Whether
 the
 server
 supports
