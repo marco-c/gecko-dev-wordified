@@ -1419,6 +1419,10 @@ currentStringEnd_
 =
 0
 ;
+position_
+=
+0
+;
 runtime
 (
 )
