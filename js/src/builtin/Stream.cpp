@@ -16222,7 +16222,7 @@ ReadableStreamController
 CLASS_SPEC
 (
 ReadableStreamDefaultController
-4
+0
 SlotCount
 ClassSpec
 :
@@ -22344,7 +22344,7 @@ trace
 CLASS_SPEC
 (
 ReadableByteStreamController
-3
+0
 SlotCount
 ClassSpec
 :
