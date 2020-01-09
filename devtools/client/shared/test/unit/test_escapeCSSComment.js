@@ -59,7 +59,7 @@ jsm
 const
 {
 escapeCSSComment
-unescapeCSSComment
+_unescapeCSSComment
 }
 =
 require
@@ -256,7 +256,7 @@ expected
 const
 unescaped
 =
-unescapeCSSComment
+_unescapeCSSComment
 (
 escaped
 )
