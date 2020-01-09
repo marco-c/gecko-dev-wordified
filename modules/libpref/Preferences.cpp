@@ -34055,6 +34055,10 @@ kPrefServiceCID
 true
 nullptr
 PreferencesConstructor
+Module
+:
+:
+ALLOW_IN_SOCKET_PROCESS
 }
 {
 &
@@ -34085,6 +34089,10 @@ kPrefContracts
 NS_PREFSERVICE_CONTRACTID
 &
 kPrefServiceCID
+Module
+:
+:
+ALLOW_IN_SOCKET_PROCESS
 }
 {
 NS_PREFLOCALIZEDSTRING_CONTRACTID
@@ -34132,6 +34140,10 @@ nullptr
 nullptr
 nullptr
 UnloadPrefsModule
+Module
+:
+:
+ALLOW_IN_SOCKET_PROCESS
 }
 ;
 NSMODULE_DEFN

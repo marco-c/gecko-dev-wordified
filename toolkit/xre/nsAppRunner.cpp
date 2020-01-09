@@ -28252,6 +28252,11 @@ if
 XRE_IsRDDProcess
 (
 )
+|
+|
+XRE_IsSocketProcess
+(
+)
 )
 {
 return
