@@ -123,6 +123,15 @@ NS_SMILANIMATIONFUNCTION_H_
 #
 include
 "
+mozilla
+/
+SMILTargetIdentifier
+.
+h
+"
+#
+include
+"
 nsISMILAttr
 .
 h
@@ -138,13 +147,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsSMILTargetIdentifier
 .
 h
 "
@@ -1575,7 +1577,7 @@ anything
 param
 aNewTarget
 A
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 representing
 the
 animation
@@ -1613,7 +1615,7 @@ bool
 UpdateCachedTarget
 (
 const
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 &
 aNewTarget
 )

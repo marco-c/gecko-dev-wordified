@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+SMILTimeContainer
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SMILTimedElement
 .
 h
@@ -176,13 +185,6 @@ h
 include
 "
 nsSMILInterval
-.
-h
-"
-#
-include
-"
-nsSMILTimeContainer
 .
 h
 "
@@ -908,7 +910,7 @@ nsSMILInterval
 &
 aInterval
 const
-nsSMILTimeContainer
+SMILTimeContainer
 *
 aSrcContainer
 )
@@ -1061,7 +1063,7 @@ nsSMILInstanceTime
 &
 aBaseTime
 const
-nsSMILTimeContainer
+SMILTimeContainer
 *
 aSrcContainer
 nsSMILInstanceTime
@@ -2050,7 +2052,7 @@ our
 /
 time
 container
-nsSMILTimeContainer
+SMILTimeContainer
 *
 container
 =
@@ -2244,7 +2246,7 @@ nsSMILTimeValue
 &
 aSrcTime
 const
-nsSMILTimeContainer
+SMILTimeContainer
 *
 aSrcContainer
 )
@@ -2295,7 +2297,7 @@ parent
 time
 container
 const
-nsSMILTimeContainer
+SMILTimeContainer
 *
 dstContainer
 =

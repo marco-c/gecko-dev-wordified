@@ -168,7 +168,9 @@ h
 #
 include
 "
-nsSMILTimeContainer
+mozilla
+/
+SMILTimeContainer
 .
 h
 "
@@ -941,7 +943,7 @@ FlushAnimations
 )
 for
 this
-nsSMILTimeContainer
+SMILTimeContainer
 *
 root
 =
@@ -2176,7 +2178,7 @@ IsDefinite
 )
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 timeContainer
 =
@@ -2352,7 +2354,7 @@ IgnoreErrors
 /
 Implementation
 helpers
-nsSMILTimeContainer
+SMILTimeContainer
 *
 SVGAnimationElement
 :

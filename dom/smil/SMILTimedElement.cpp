@@ -171,6 +171,15 @@ include
 "
 mozilla
 /
+SMILTimeContainer
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TaskCategory
 .
 h
@@ -218,13 +227,6 @@ h
 include
 "
 nsSMILParserUtils
-.
-h
-"
-#
-include
-"
-nsSMILTimeContainer
 .
 h
 "
@@ -1846,7 +1848,7 @@ nullptr
 }
 ;
 const
-nsSMILMilestone
+SMILMilestone
 SMILTimedElement
 :
 :
@@ -2362,7 +2364,7 @@ mAnimationElement
 aElement
 ;
 }
-nsSMILTimeContainer
+SMILTimeContainer
 *
 SMILTimedElement
 :
@@ -2647,7 +2649,7 @@ double
 aOffsetSeconds
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 container
 =
@@ -2692,7 +2694,7 @@ double
 aOffsetSeconds
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 container
 =
@@ -4268,7 +4270,7 @@ GetTimeContainer
 >
 IsPausedByType
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_BEGIN
@@ -14561,7 +14563,7 @@ RegisterMilestone
 (
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 container
 =
@@ -14592,7 +14594,7 @@ element
 "
 )
 ;
-nsSMILMilestone
+SMILMilestone
 nextMilestone
 ;
 if
@@ -14625,7 +14627,7 @@ current
 interval
 but
 since
-nsSMILTimeContainer
+SMILTimeContainer
 makes
 no
 attempt
@@ -14687,7 +14689,7 @@ SMILTimedElement
 :
 GetNextMilestone
 (
-nsSMILMilestone
+SMILMilestone
 &
 aNextMilestone
 )
@@ -15189,7 +15191,7 @@ set
 "
 )
 ;
-nsSMILTimeContainer
+SMILTimeContainer
 *
 container
 =
@@ -15358,7 +15360,7 @@ notification
 "
 )
 ;
-nsSMILTimeContainer
+SMILTimeContainer
 *
 container
 =

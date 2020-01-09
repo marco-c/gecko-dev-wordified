@@ -165,9 +165,6 @@ class
 nsSMILTimeValue
 ;
 class
-nsSMILTimeContainer
-;
-class
 nsSMILInstanceTime
 ;
 class
@@ -176,6 +173,9 @@ nsSMILInterval
 namespace
 mozilla
 {
+class
+SMILTimeContainer
+;
 class
 SMILTimedElement
 ;
@@ -375,6 +375,13 @@ typedef
 mozilla
 :
 :
+SMILTimeContainer
+SMILTimeContainer
+;
+typedef
+mozilla
+:
+:
 SMILTimedElement
 SMILTimedElement
 ;
@@ -455,7 +462,7 @@ nsSMILInterval
 &
 aInterval
 const
-nsSMILTimeContainer
+SMILTimeContainer
 *
 aSrcContainer
 )
@@ -488,7 +495,7 @@ nsSMILInstanceTime
 &
 aBaseTime
 const
-nsSMILTimeContainer
+SMILTimeContainer
 *
 aSrcContainer
 nsSMILInstanceTime
@@ -600,7 +607,7 @@ nsSMILTimeValue
 &
 aSrcTime
 const
-nsSMILTimeContainer
+SMILTimeContainer
 *
 aSrcContainer
 )

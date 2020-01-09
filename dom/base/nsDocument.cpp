@@ -27078,12 +27078,12 @@ mAnimationController
 >
 IsPausedByType
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_PAGEHIDE
 |
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_BEGIN
@@ -37983,7 +37983,7 @@ mAnimationController
 >
 Pause
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_USERPREF

@@ -157,14 +157,14 @@ FromParser
 aFromParser
 )
 ;
-class
-nsSMILTimeContainer
-;
 namespace
 mozilla
 {
 class
 AutoSVGViewHandler
+;
+class
+SMILTimeContainer
 ;
 class
 SVGFragmentIdentifier
@@ -970,7 +970,7 @@ aViewID
 )
 ;
 }
-nsSMILTimeContainer
+SMILTimeContainer
 *
 GetTimedDocumentRoot
 (
@@ -1468,7 +1468,7 @@ elements
 .
 nsAutoPtr
 <
-nsSMILTimeContainer
+SMILTimeContainer
 >
 mTimedDocumentRoot
 ;

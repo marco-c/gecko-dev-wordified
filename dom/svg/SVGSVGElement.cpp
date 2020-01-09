@@ -199,6 +199,15 @@ h
 #
 include
 "
+mozilla
+/
+SMILTimeContainer
+.
+h
+"
+#
+include
+"
 DOMSVGAngle
 .
 h
@@ -249,13 +258,6 @@ h
 include
 "
 nsISVGSVGFrame
-.
-h
-"
-#
-include
-"
-nsSMILTimeContainer
 .
 h
 "
@@ -1429,7 +1431,7 @@ mTimedDocumentRoot
 >
 Pause
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_SCRIPT
@@ -1476,7 +1478,7 @@ mTimedDocumentRoot
 >
 Resume
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_SCRIPT
@@ -1513,7 +1515,7 @@ AnimationsPaused
 (
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 root
 =
@@ -1530,7 +1532,7 @@ root
 >
 IsPausedByType
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_SCRIPT
@@ -1545,7 +1547,7 @@ GetCurrentTimeAsFloat
 (
 )
 {
-nsSMILTimeContainer
+SMILTimeContainer
 *
 root
 =
@@ -2682,7 +2684,7 @@ MSG_INVALID_ZOOMANDPAN_VALUE_ERROR
 -
 -
 -
-nsSMILTimeContainer
+SMILTimeContainer
 *
 SVGSVGElement
 :
@@ -2914,7 +2916,7 @@ mTimedDocumentRoot
 mTimedDocumentRoot
 =
 new
-nsSMILTimeContainer
+SMILTimeContainer
 (
 )
 ;

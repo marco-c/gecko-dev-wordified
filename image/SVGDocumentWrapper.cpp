@@ -848,7 +848,7 @@ controller
 >
 Resume
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_IMAGE
@@ -955,7 +955,7 @@ controller
 >
 Pause
 (
-nsSMILTimeContainer
+SMILTimeContainer
 :
 :
 PAUSE_IMAGE

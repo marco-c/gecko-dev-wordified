@@ -120,6 +120,16 @@ NS_SMILMILESTONE_H_
 #
 define
 NS_SMILMILESTONE_H_
+#
+include
+"
+nsSMILTypes
+.
+h
+"
+namespace
+mozilla
+{
 /
 *
 *
@@ -393,11 +403,11 @@ fixed
 *
 /
 class
-nsSMILMilestone
+SMILMilestone
 {
 public
 :
-nsSMILMilestone
+SMILMilestone
 (
 nsSMILTime
 aTime
@@ -415,7 +425,7 @@ aIsEnd
 )
 {
 }
-nsSMILMilestone
+SMILMilestone
 (
 )
 :
@@ -435,7 +445,7 @@ operator
 =
 (
 const
-nsSMILMilestone
+SMILMilestone
 &
 aOther
 )
@@ -464,7 +474,7 @@ operator
 =
 (
 const
-nsSMILMilestone
+SMILMilestone
 &
 aOther
 )
@@ -486,7 +496,7 @@ operator
 <
 (
 const
-nsSMILMilestone
+SMILMilestone
 &
 aOther
 )
@@ -539,7 +549,7 @@ operator
 =
 (
 const
-nsSMILMilestone
+SMILMilestone
 &
 aOther
 )
@@ -565,7 +575,7 @@ operator
 =
 (
 const
-nsSMILMilestone
+SMILMilestone
 &
 aOther
 )
@@ -630,6 +640,11 @@ otherwise
 .
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

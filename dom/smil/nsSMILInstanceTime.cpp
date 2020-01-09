@@ -439,7 +439,7 @@ nsSMILInstanceTime
 HandleChangedInterval
 (
 const
-nsSMILTimeContainer
+SMILTimeContainer
 *
 aSrcContainer
 bool
