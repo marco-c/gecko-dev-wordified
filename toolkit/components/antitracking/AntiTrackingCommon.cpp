@@ -971,6 +971,12 @@ aTrackingOrigin
 Length
 (
 )
++
+aGrantedOrigin
+.
+Length
+(
+)
 )
 ;
 aPermissionKey
