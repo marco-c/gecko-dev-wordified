@@ -153,7 +153,7 @@ Status
 200
 "
 +
-STATUS_CODES_GA_PARAMS
+GA_PARAMS
 ;
 pushPref
 (
