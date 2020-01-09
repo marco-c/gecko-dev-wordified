@@ -10093,11 +10093,9 @@ mWindow
 /
 /
 "
-id
+icon
 "
 attribute
-for
-icon
 windowElement
 -
 >
@@ -10106,7 +10104,7 @@ GetAttribute
 NS_LITERAL_STRING
 (
 "
-id
+icon
 "
 )
 attr
@@ -10114,6 +10112,7 @@ attr
 ;
 if
 (
+!
 attr
 .
 IsEmpty
@@ -10121,16 +10120,6 @@ IsEmpty
 )
 )
 {
-attr
-.
-AssignLiteral
-(
-"
-default
-"
-)
-;
-}
 mWindow
 -
 >
@@ -10144,6 +10133,7 @@ NS_ENSURE_TRUE_VOID
 mWindow
 )
 ;
+}
 /
 /
 "
