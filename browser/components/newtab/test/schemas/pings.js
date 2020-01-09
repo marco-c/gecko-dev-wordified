@@ -549,6 +549,9 @@ CLICK
 SEARCH
 "
 "
+SEARCH_HANDOFF
+"
+"
 BLOCK
 "
 "
