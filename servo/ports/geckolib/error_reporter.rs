@@ -1793,6 +1793,7 @@ Action
 :
 Drop
 )
+;
 }
 StyleParseErrorKind
 :
@@ -1829,6 +1830,7 @@ Action
 :
 Drop
 )
+;
 }
 StyleParseErrorKind
 :

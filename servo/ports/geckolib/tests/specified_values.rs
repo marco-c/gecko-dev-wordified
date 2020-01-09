@@ -81,9 +81,6 @@ size_of_specified_values
 )
 {
 use
-style
-;
-use
 std
 :
 :
@@ -91,6 +88,9 @@ mem
 :
 :
 size_of
+;
+use
+style
 ;
 let
 threshold
