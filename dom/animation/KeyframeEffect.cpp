@@ -357,6 +357,17 @@ CSSPseudoElementType
 #
 include
 "
+nsDOMMutationObserver
+.
+h
+"
+/
+/
+For
+nsAutoAnimationMutationBatch
+#
+include
+"
 nsIFrame
 .
 h
