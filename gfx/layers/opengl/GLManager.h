@@ -135,13 +135,6 @@ h
 /
 for
 SurfaceFormat
-#
-include
-"
-OGLShaderProgram
-.
-h
-"
 namespace
 mozilla
 {
@@ -161,6 +154,9 @@ layers
 {
 class
 LayerManagerComposite
+;
+class
+ShaderProgramOGL
 ;
 /
 *
