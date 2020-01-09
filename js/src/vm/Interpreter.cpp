@@ -23756,7 +23756,7 @@ JSFunction
 if
 (
 !
-SetFunctionNameIfNoOwnName
+SetFunctionName
 (
 cx
 fun
