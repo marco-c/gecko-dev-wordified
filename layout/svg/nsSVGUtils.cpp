@@ -8170,10 +8170,15 @@ if
 nsLayoutUtils
 :
 :
-HasAnimationOfProperty
+HasAnimationOfPropertySet
 (
 aFrame
-eCSSProperty_opacity
+nsCSSPropertyIDSet
+:
+:
+OpacityProperties
+(
+)
 )
 )
 {
