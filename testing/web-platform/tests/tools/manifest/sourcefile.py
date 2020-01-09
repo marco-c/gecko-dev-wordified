@@ -2595,16 +2595,6 @@ self
 .
 url
 or
-"
-/
-reftest
-/
-"
-in
-self
-.
-url
-or
 bool
 (
 reference_file_re
