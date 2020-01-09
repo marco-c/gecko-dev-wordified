@@ -39193,6 +39193,11 @@ break
 all
 "
 "
+break
+-
+word
+"
+"
 inherit
 "
 "

@@ -23763,17 +23763,6 @@ StyleWhiteSpace
 :
 Normal
 )
-mWordBreak
-(
-NS_STYLE_WORDBREAK_NORMAL
-)
-mOverflowWrap
-(
-StyleOverflowWrap
-:
-:
-Normal
-)
 mHyphens
 (
 StyleHyphens

@@ -941,6 +941,7 @@ text
 OverflowWrap
 TextOverflow
 WordSpacing
+WordBreak
 }
 ;
 pub

@@ -10894,6 +10894,11 @@ UrlOrNone
 :
 impl_css_url
 "
+WordBreak
+"
+:
+impl_simple
+"
 ZIndex
 "
 :
