@@ -5954,6 +5954,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 AUTO_PROFILER_LABEL
@@ -6101,6 +6104,7 @@ mFinalListener
 OnStartRequest
 (
 aRequest
+nullptr
 )
 ;
 }
@@ -6457,6 +6461,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -6633,6 +6640,7 @@ listenerGrip
 OnStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -6661,6 +6669,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -6716,6 +6727,7 @@ listenerGrip
 OnDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -14862,6 +14874,7 @@ mFinalListener
 OnStartRequest
 (
 mChannel
+nullptr
 )
 ;
 if
@@ -14950,6 +14963,7 @@ finalListener
 OnStartRequest
 (
 mChannel
+nullptr
 )
 ;
 }
@@ -15151,6 +15165,7 @@ listenerGrip
 OnStopRequest
 (
 channelGrip
+nullptr
 NS_BINDING_ABORTED
 )
 ;

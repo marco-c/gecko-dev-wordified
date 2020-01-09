@@ -3006,6 +3006,7 @@ mProcessObserver
 OnStartRequest
 (
 nullptr
+mProcessContext
 )
 ;
 BeginProcessingNextItem
@@ -3465,6 +3466,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 return
@@ -3480,6 +3484,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -5758,6 +5765,14 @@ observer
 =
 mProcessObserver
 ;
+nsCOMPtr
+<
+nsISupports
+>
+context
+=
+mProcessContext
+;
 /
 /
 Clean
@@ -5797,6 +5812,7 @@ observer
 OnStopRequest
 (
 nullptr
+context
 aStatus
 )
 ;

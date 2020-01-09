@@ -115,6 +115,7 @@ onStartRequest
 function
 (
 req
+ctx
 )
 {
 }
@@ -123,6 +124,7 @@ onDataAvailable
 function
 (
 req
+ctx
 stream
 off
 count
@@ -168,6 +170,7 @@ onStopRequest
 function
 (
 req
+ctx
 stat
 )
 {

@@ -425,6 +425,7 @@ function
 onStartRequest
 (
 aRequest
+aContext
 )
 {
 if
@@ -440,6 +441,7 @@ outputListener
 onStartRequest
 (
 aRequest
+aContext
 )
 ;
 this
@@ -458,6 +460,7 @@ function
 onDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -476,6 +479,7 @@ outputListener
 onDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -497,6 +501,7 @@ function
 onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -513,6 +518,7 @@ outputListener
 onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;

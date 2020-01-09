@@ -6408,6 +6408,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 /
@@ -6441,6 +6444,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -6458,6 +6464,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+ctxt
 nsIInputStream
 *
 inStr

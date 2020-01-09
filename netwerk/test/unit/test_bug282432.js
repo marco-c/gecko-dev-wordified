@@ -94,6 +94,7 @@ onStartRequest
 function
 (
 aRequest
+aContext
 )
 {
 }
@@ -102,6 +103,7 @@ onStopRequest
 function
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -137,6 +139,7 @@ onDataAvailable
 function
 (
 aRequest
+aContext
 aStream
 aOffset
 aCount

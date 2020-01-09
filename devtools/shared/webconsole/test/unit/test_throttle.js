@@ -165,6 +165,7 @@ onDataAvailable
 function
 (
 request
+context
 inputStream
 offset
 count
@@ -531,6 +532,7 @@ listener
 onStartRequest
 (
 null
+null
 )
 ;
 equal
@@ -700,6 +702,7 @@ listener
 onDataAvailable
 (
 null
+null
 testInputStream
 0
 6
@@ -819,6 +822,7 @@ listener
 .
 onStopRequest
 (
+null
 null
 null
 )

@@ -2229,6 +2229,7 @@ mListener
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 if
@@ -2816,6 +2817,7 @@ mListener
 OnDataAvailable
 (
 this
+nullptr
 stringStream
 offset
 count
@@ -3251,6 +3253,7 @@ mListener
 OnStopRequest
 (
 this
+nullptr
 aChannelStatus
 )
 ;
@@ -3516,6 +3519,7 @@ mListener
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 mIsPending
@@ -3528,6 +3532,7 @@ mListener
 OnStopRequest
 (
 this
+nullptr
 statusCode
 )
 ;

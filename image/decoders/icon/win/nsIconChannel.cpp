@@ -4185,6 +4185,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 if
@@ -4199,6 +4202,7 @@ mListener
 OnStartRequest
 (
 this
+aContext
 )
 ;
 }
@@ -4215,6 +4219,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -4230,6 +4237,7 @@ mListener
 OnStopRequest
 (
 this
+aContext
 aStatus
 )
 ;
@@ -4290,6 +4298,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aStream
@@ -4311,6 +4322,7 @@ mListener
 OnDataAvailable
 (
 this
+aContext
 aStream
 aOffset
 aCount

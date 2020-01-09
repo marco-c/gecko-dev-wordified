@@ -349,6 +349,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -409,7 +412,7 @@ return
 ProcessData
 (
 aRequest
-nullptr
+aContext
 buffer
 .
 get
@@ -429,6 +432,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 if
@@ -446,6 +452,7 @@ mOutput
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -458,6 +465,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -479,6 +489,7 @@ mOutput
 OnStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -707,6 +718,7 @@ mOutput
 OnDataAvailable
 (
 aRequest
+aContext
 stream
 aOffset
 aCount
@@ -748,6 +760,7 @@ rv
 =
 OnStartRequest
 (
+nullptr
 nullptr
 )
 ;
@@ -816,6 +829,7 @@ rv
 OnStopRequest
 (
 nullptr
+nullptr
 rv
 )
 ;
@@ -856,6 +870,7 @@ rv
 OnStopRequest
 (
 nullptr
+nullptr
 rv
 )
 ;
@@ -880,6 +895,7 @@ read
 return
 OnStopRequest
 (
+nullptr
 nullptr
 NS_OK
 )

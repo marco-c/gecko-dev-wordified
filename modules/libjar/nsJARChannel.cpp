@@ -3413,10 +3413,12 @@ aError
 OnStartRequest
 (
 nullptr
+nullptr
 )
 ;
 OnStopRequest
 (
+nullptr
 nullptr
 aError
 )
@@ -6096,6 +6098,9 @@ OnStartRequest
 nsIRequest
 *
 req
+nsISupports
+*
+ctx
 )
 {
 LOG
@@ -6139,6 +6144,7 @@ mListener
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 mRequest
@@ -6273,6 +6279,9 @@ OnStopRequest
 nsIRequest
 *
 req
+nsISupports
+*
+ctx
 nsresult
 status
 )
@@ -6340,6 +6349,7 @@ mListener
 OnStopRequest
 (
 this
+nullptr
 status
 )
 ;
@@ -6430,6 +6440,9 @@ OnDataAvailable
 nsIRequest
 *
 req
+nsISupports
+*
+ctx
 nsIInputStream
 *
 stream
@@ -6478,6 +6491,7 @@ mListener
 OnDataAvailable
 (
 this
+nullptr
 stream
 offset
 count

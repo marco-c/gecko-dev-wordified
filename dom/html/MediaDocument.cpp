@@ -364,6 +364,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 )
 {
 NS_ENSURE_TRUE
@@ -391,6 +394,7 @@ mNextStream
 OnStartRequest
 (
 request
+ctxt
 )
 ;
 }
@@ -407,6 +411,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsresult
 status
 )
@@ -429,6 +436,7 @@ mNextStream
 OnStopRequest
 (
 request
+ctxt
 status
 )
 ;
@@ -510,6 +518,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsIInputStream
 *
 inStr
@@ -531,6 +542,7 @@ mNextStream
 OnDataAvailable
 (
 request
+ctxt
 inStr
 sourceOffset
 count

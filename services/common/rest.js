@@ -2564,6 +2564,7 @@ delayTimeout
 onStopRequest
 (
 channel
+context
 statusCode
 )
 {
@@ -3126,6 +3127,7 @@ response
 onDataAvailable
 (
 channel
+cb
 stream
 off
 count

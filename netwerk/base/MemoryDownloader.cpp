@@ -151,6 +151,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 )
 {
 MOZ_ASSERT
@@ -189,6 +192,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 nsresult
 aStatus
 )
@@ -247,7 +253,7 @@ OnDownloadComplete
 (
 this
 aRequest
-nullptr
+aCtxt
 aStatus
 std
 :
@@ -373,6 +379,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 nsIInputStream
 *
 aInStr

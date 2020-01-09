@@ -2452,6 +2452,7 @@ null
 onStartRequest
 (
 aRequest
+aContext
 )
 {
 let
@@ -2489,12 +2490,14 @@ contentListener
 onStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
 onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -2505,6 +2508,7 @@ contentListener
 onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -2512,6 +2516,7 @@ aStatusCode
 onDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -2524,6 +2529,7 @@ contentListener
 onDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount

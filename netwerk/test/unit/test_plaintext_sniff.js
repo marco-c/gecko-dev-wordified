@@ -834,6 +834,7 @@ function
 test_onStartR
 (
 request
+ctx
 )
 {
 try
@@ -1076,6 +1077,7 @@ function
 test_onStopR
 (
 request
+ctx
 status
 )
 {

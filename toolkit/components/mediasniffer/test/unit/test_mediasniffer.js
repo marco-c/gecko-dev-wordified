@@ -434,6 +434,7 @@ listener
 onStartRequest
 (
 request
+context
 )
 {
 Assert
@@ -462,6 +463,7 @@ expectedContentType
 onDataAvailable
 (
 request
+context
 stream
 offset
 count
@@ -533,6 +535,7 @@ ex
 onStopRequest
 (
 request
+context
 status
 )
 {

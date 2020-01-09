@@ -311,12 +311,14 @@ prototype
 onStartRequest
 (
 request
+context
 )
 {
 }
 onDataAvailable
 (
 request
+context
 stream
 offset
 count
@@ -338,6 +340,7 @@ data
 onStopRequest
 (
 request
+context
 status
 )
 {

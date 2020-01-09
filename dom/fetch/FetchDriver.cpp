@@ -1382,6 +1382,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 AssertIsOnMainThread
@@ -1709,6 +1712,7 @@ mFetchDriver
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -1725,6 +1729,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -1790,6 +1797,7 @@ mFetchDriver
 OnDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -1809,6 +1817,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -1896,6 +1907,7 @@ fetchDriver
 OnStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -5380,6 +5392,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 AssertIsOnMainThread
@@ -7773,6 +7788,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -8148,6 +8166,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )

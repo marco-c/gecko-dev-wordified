@@ -7247,6 +7247,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 )
 {
 MOZ_ASSERT
@@ -7287,6 +7290,7 @@ mObserver
 OnStartRequest
 (
 request
+aContext
 )
 ;
 }
@@ -8631,6 +8635,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsIInputStream
 *
 pIStream
@@ -9015,6 +9022,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsresult
 status
 )
@@ -9178,6 +9188,7 @@ mObserver
 OnStopRequest
 (
 request
+aContext
 status
 )
 ;

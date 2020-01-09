@@ -2349,6 +2349,7 @@ onStartRequest
 function
 (
 request
+context
 )
 {
 switch
@@ -2427,6 +2428,7 @@ onStopRequest
 function
 (
 request
+context
 statusCode
 )
 {
@@ -2436,6 +2438,7 @@ onDataAvailable
 function
 (
 request
+context
 stream
 offset
 count

@@ -241,6 +241,7 @@ nsIRequestObserver
 onDataAvailable
 (
 request
+ctx
 stream
 offset
 count
@@ -304,6 +305,7 @@ ex
 onStartRequest
 (
 request
+ctx
 )
 {
 this
@@ -316,6 +318,7 @@ true
 onStopRequest
 (
 request
+ctx
 status
 )
 {

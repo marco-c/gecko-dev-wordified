@@ -3794,6 +3794,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+ctxt
 )
 {
 LOG_SCOPE
@@ -4400,6 +4403,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+ctxt
 nsresult
 status
 )
@@ -4463,6 +4469,7 @@ mNewPartPending
 OnDataAvailable
 (
 aRequest
+ctxt
 nullptr
 0
 0
@@ -4707,7 +4714,7 @@ image
 OnImageDataComplete
 (
 aRequest
-nullptr
+ctxt
 status
 lastPart
 )
@@ -5951,6 +5958,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInStr
@@ -6374,7 +6384,7 @@ image
 OnImageDataAvailable
 (
 aRequest
-nullptr
+aContext
 aInStr
 aOffset
 aCount

@@ -1821,6 +1821,7 @@ null
 onStartRequest
 (
 aRequest
+aContext
 )
 {
 var
@@ -1878,12 +1879,14 @@ extListener
 onStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
 onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -1901,6 +1904,7 @@ extListener
 onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -1932,6 +1936,7 @@ false
 onDataAvailable
 (
 aRequest
+aContext
 aDataInputStream
 aOffset
 aCount
@@ -1944,6 +1949,7 @@ extListener
 onDataAvailable
 (
 aRequest
+aContext
 aDataInputStream
 aOffset
 aCount
@@ -5132,6 +5138,7 @@ onDataAvailable
 onDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -5202,6 +5209,7 @@ onStartRequest
 onStartRequest
 (
 aRequest
+aContext
 )
 {
 /
@@ -5771,6 +5779,7 @@ proxy
 onStartRequest
 (
 request
+context
 )
 {
 listener
@@ -5778,12 +5787,14 @@ listener
 onStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
 onDataAvailable
 (
 request
+context
 inputStream
 offset
 count
@@ -5794,6 +5805,7 @@ listener
 onDataAvailable
 (
 aRequest
+aContext
 inputStream
 offset
 count
@@ -5803,6 +5815,7 @@ count
 onStopRequest
 (
 request
+context
 statusCode
 )
 {
@@ -5863,6 +5876,7 @@ listener
 onStopRequest
 (
 aRequest
+context
 statusCode
 )
 ;
@@ -5971,6 +5985,7 @@ listener
 onStopRequest
 (
 aRequest
+aContext
 statusCode
 )
 ;
@@ -6158,6 +6173,7 @@ onStopRequest
 onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 {

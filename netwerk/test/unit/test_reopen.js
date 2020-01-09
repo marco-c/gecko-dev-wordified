@@ -380,6 +380,7 @@ function
 test_onStartR
 (
 request
+ctx
 )
 {
 check_async_open_throws
@@ -394,6 +395,7 @@ function
 test_ODA
 (
 request
+cx
 inputStream
 offset
 count
@@ -427,6 +429,7 @@ function
 test_onStopR
 (
 request
+ctx
 status
 )
 {

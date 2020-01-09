@@ -8853,6 +8853,7 @@ function
 saveLinkAs_onStartRequest
 (
 aRequest
+aContext
 )
 {
 /
@@ -9084,6 +9085,7 @@ extListener
 onStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -9093,6 +9095,7 @@ function
 saveLinkAs_onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -9151,6 +9154,7 @@ extListener
 onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -9161,6 +9165,7 @@ function
 saveLinkAs_onDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -9173,6 +9178,7 @@ extListener
 onDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount

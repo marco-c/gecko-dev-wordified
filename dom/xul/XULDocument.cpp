@@ -9522,6 +9522,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+acontext
 )
 {
 return
@@ -9540,6 +9543,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -9574,6 +9580,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInStr

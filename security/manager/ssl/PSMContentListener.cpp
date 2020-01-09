@@ -636,6 +636,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 )
 {
 MOZ_LOG
@@ -696,6 +699,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsIInputStream
 *
 aIStream
@@ -769,6 +775,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsresult
 aStatus
 )
@@ -1304,6 +1313,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsresult
 code
 )
@@ -1317,6 +1329,7 @@ PSMContentStreamListener
 OnStopRequest
 (
 request
+context
 code
 )
 ;
@@ -1522,6 +1535,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 )
 {
 nsCOMPtr
@@ -1635,6 +1651,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsIInputStream
 *
 aIStream
@@ -1695,6 +1714,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsresult
 aStatus
 )

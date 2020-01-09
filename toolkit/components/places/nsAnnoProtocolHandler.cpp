@@ -1369,6 +1369,7 @@ mListener
 OnStartRequest
 (
 mChannel
+nullptr
 )
 ;
 mListener
@@ -1377,6 +1378,7 @@ mListener
 OnStopRequest
 (
 mChannel
+nullptr
 rv
 )
 ;

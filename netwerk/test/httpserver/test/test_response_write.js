@@ -248,6 +248,7 @@ function
 succeeded
 (
 ch
+cx
 status
 data
 )
@@ -298,6 +299,7 @@ function
 check_1234
 (
 ch
+cx
 )
 {
 Assert

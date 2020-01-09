@@ -10466,6 +10466,7 @@ deleteProtector
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 }
@@ -10955,6 +10956,7 @@ deleteProtector
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 mOnStartRequestCalled
@@ -48645,6 +48647,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 )
 {
 nsresult
@@ -50143,6 +50148,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsresult
 status
 )
@@ -51645,6 +51653,7 @@ mListener
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 mOnStartRequestCalled
@@ -53011,6 +53020,7 @@ mListener
 OnStopRequest
 (
 this
+nullptr
 aStatus
 )
 ;
@@ -53470,6 +53480,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsIInputStream
 *
 input
@@ -54053,6 +54066,7 @@ mListener
 OnDataAvailable
 (
 this
+nullptr
 input
 mLogicalOffset
 count

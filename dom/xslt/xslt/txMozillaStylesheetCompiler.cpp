@@ -1045,6 +1045,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -1148,6 +1151,7 @@ mListener
 OnDataAvailable
 (
 aRequest
+mParser
 aInputStream
 aOffset
 aCount
@@ -1163,6 +1167,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 int32_t
@@ -1421,6 +1428,7 @@ mListener
 OnStartRequest
 (
 aRequest
+mParser
 )
 ;
 }
@@ -1433,6 +1441,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -1616,6 +1627,7 @@ mListener
 OnStopRequest
 (
 aRequest
+mParser
 aStatusCode
 )
 ;

@@ -567,6 +567,7 @@ onStartRequest
 function
 (
 aRequest
+aContext
 )
 {
 }
@@ -575,6 +576,7 @@ onDataAvailable
 function
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -656,6 +658,7 @@ onStopRequest
 function
 (
 aRequest
+aContext
 aStatusCode
 )
 {

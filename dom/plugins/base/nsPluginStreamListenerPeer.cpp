@@ -630,6 +630,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 )
 {
 nsresult
@@ -1619,6 +1622,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aIStream
@@ -1644,6 +1650,7 @@ mListener
 OnDataAvailable
 (
 aRequest
+mContext
 aIStream
 aSourceOffset
 aLength
@@ -1656,6 +1663,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 override
 {
@@ -1674,6 +1684,7 @@ mListener
 OnStartRequest
 (
 aRequest
+mContext
 )
 ;
 }
@@ -1683,6 +1694,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -1703,6 +1717,7 @@ mListener
 OnStopRequest
 (
 aRequest
+mContext
 aStatusCode
 )
 ;
@@ -1781,6 +1796,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aIStream
@@ -1978,6 +1996,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )

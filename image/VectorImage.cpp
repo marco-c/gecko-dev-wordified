@@ -2684,6 +2684,7 @@ finalStatus
 OnStopRequest
 (
 aRequest
+aContext
 aStatus
 )
 ;
@@ -2812,6 +2813,7 @@ return
 OnDataAvailable
 (
 aRequest
+aContext
 aInStr
 aSourceOffset
 aCount
@@ -10056,6 +10058,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 )
 {
 MOZ_ASSERT
@@ -10092,6 +10097,7 @@ mSVGDocumentWrapper
 OnStartRequest
 (
 aRequest
+aCtxt
 )
 ;
 if
@@ -10313,6 +10319,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 nsresult
 aStatus
 )
@@ -10333,6 +10342,7 @@ mSVGDocumentWrapper
 OnStopRequest
 (
 aRequest
+aCtxt
 aStatus
 )
 ;
@@ -10985,6 +10995,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 nsIInputStream
 *
 aInStr
@@ -11010,6 +11023,7 @@ mSVGDocumentWrapper
 OnDataAvailable
 (
 aRequest
+aCtxt
 aInStr
 aSourceOffset
 aCount

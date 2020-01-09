@@ -1129,6 +1129,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 nsIInputStream
 *
 aInStr
@@ -1149,6 +1152,7 @@ mInner
 OnDataAvailable
 (
 request
+aCtxt
 aInStr
 aSourceOffset
 aCount
@@ -1167,6 +1171,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 )
 {
 /
@@ -1322,6 +1329,7 @@ mInner
 OnStartRequest
 (
 request
+aCtxt
 )
 ;
 }
@@ -1334,6 +1342,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 nsresult
 aStatus
 )
@@ -1356,6 +1367,7 @@ mInner
 OnStopRequest
 (
 request
+aCtxt
 aStatus
 )
 ;

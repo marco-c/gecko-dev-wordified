@@ -250,6 +250,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 )
 {
 nsresult
@@ -443,6 +446,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsresult
 status
 )
@@ -471,7 +477,7 @@ OnDownloadComplete
 (
 this
 request
-nullptr
+ctxt
 status
 mLocation
 )
@@ -558,6 +564,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsIInputStream
 *
 inStr

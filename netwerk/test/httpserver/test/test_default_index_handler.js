@@ -1732,6 +1732,7 @@ function
 stopRootDirectory
 (
 ch
+cx
 status
 data
 )
@@ -1763,6 +1764,7 @@ function
 stopFooDirectory
 (
 ch
+cx
 status
 data
 )
@@ -1801,6 +1803,7 @@ function
 stopTrailingCaretDirectory
 (
 ch
+cx
 status
 data
 )

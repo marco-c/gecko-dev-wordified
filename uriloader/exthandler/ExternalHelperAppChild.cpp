@@ -386,6 +386,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 nsIInputStream
 *
 input
@@ -677,6 +680,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 )
 {
 nsresult
@@ -688,6 +694,7 @@ mHandler
 OnStartRequest
 (
 request
+ctx
 )
 ;
 NS_ENSURE_SUCCESS
@@ -870,6 +877,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 nsresult
 status
 )
@@ -902,6 +912,7 @@ mHandler
 OnStopRequest
 (
 request
+ctx
 status
 )
 ;

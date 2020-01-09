@@ -10761,6 +10761,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 )
 {
 MOZ_ASSERT
@@ -13393,6 +13396,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 nsIInputStream
 *
 inStr
@@ -13499,6 +13505,7 @@ saver
 OnDataAvailable
 (
 request
+aCtxt
 inStr
 sourceOffset
 count
@@ -13599,6 +13606,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 nsresult
 aStatus
 )

@@ -588,6 +588,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 )
 {
 nsCString
@@ -599,7 +602,7 @@ rv
 DoOnStartRequest
 (
 request
-nullptr
+aContext
 buffer
 )
 ;
@@ -628,6 +631,7 @@ mListener
 OnStartRequest
 (
 request
+aContext
 )
 ;
 if
@@ -695,7 +699,7 @@ rv
 SendToListener
 (
 request
-nullptr
+aContext
 buffer
 )
 ;
@@ -921,6 +925,7 @@ mParser
 OnStartRequest
 (
 request
+aContext
 )
 ;
 if
@@ -5498,6 +5503,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -5544,7 +5552,7 @@ aStatus
 SendToListener
 (
 request
-nullptr
+aContext
 buffer
 )
 ;
@@ -5555,6 +5563,7 @@ mParser
 OnStopRequest
 (
 request
+aContext
 aStatus
 )
 ;
@@ -5569,6 +5578,7 @@ mListener
 OnStopRequest
 (
 request
+aContext
 aStatus
 )
 ;
@@ -5622,6 +5632,7 @@ mListener
 OnDataAvailable
 (
 aRequest
+aContext
 inputData
 0
 aBuffer
@@ -5641,6 +5652,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 nsIInputStream
 *
 aInput
@@ -5657,6 +5671,7 @@ mParser
 OnDataAvailable
 (
 aRequest
+aCtxt
 aInput
 aOffset
 aCount

@@ -4422,6 +4422,7 @@ mListener
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 mListener
@@ -4430,6 +4431,7 @@ mListener
 OnStopRequest
 (
 this
+nullptr
 mStatus
 )
 ;
@@ -5421,6 +5423,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 NS_ENSURE_TRUE
@@ -5439,6 +5444,7 @@ mListener
 OnStartRequest
 (
 this
+aContext
 )
 ;
 }
@@ -5451,6 +5457,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -5476,6 +5485,7 @@ mListener
 OnDataAvailable
 (
 this
+aContext
 aInputStream
 aOffset
 aCount
@@ -5491,6 +5501,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -5549,6 +5562,7 @@ listener
 OnStopRequest
 (
 this
+aContext
 aStatus
 )
 ;

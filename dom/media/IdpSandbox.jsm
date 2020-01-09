@@ -383,6 +383,7 @@ prototype
 onDataAvailable
 (
 request
+context
 input
 offset
 count
@@ -434,12 +435,14 @@ count
 onStartRequest
 (
 request
+context
 )
 {
 }
 onStopRequest
 (
 request
+context
 status
 )
 {

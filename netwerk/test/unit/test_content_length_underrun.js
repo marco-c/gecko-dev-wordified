@@ -519,6 +519,7 @@ onStartRequest
 function
 (
 aRequest
+aContext
 )
 {
 }
@@ -527,6 +528,7 @@ onStopRequest
 function
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -567,6 +569,7 @@ onDataAvailable
 function
 (
 request
+context
 stream
 offset
 count

@@ -301,6 +301,7 @@ function
 start_testBoth
 (
 ch
+cx
 )
 {
 Assert
@@ -351,6 +352,7 @@ function
 start_test_ctype_override_txt
 (
 ch
+cx
 )
 {
 Assert
@@ -379,6 +381,7 @@ function
 start_test_status_override_html
 (
 ch
+cx
 )
 {
 Assert
@@ -412,6 +415,7 @@ function
 start_test_status_override_nodesc_txt
 (
 ch
+cx
 )
 {
 Assert
@@ -440,6 +444,7 @@ function
 start_caret_test_txt_
 (
 ch
+cx
 )
 {
 Assert

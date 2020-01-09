@@ -635,6 +635,7 @@ nextListener
 OnStopRequest
 (
 mContentRequest
+mContentContext
 NS_ERROR_INVALID_SIGNATURE
 )
 ;
@@ -760,6 +761,7 @@ nextListener
 OnDataAvailable
 (
 mContentRequest
+mContentContext
 oInStr
 offset
 mContent
@@ -808,6 +810,7 @@ nextListener
 OnStopRequest
 (
 mContentRequest
+mContentContext
 rv
 )
 ;
@@ -821,6 +824,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 MOZ_CRASH
@@ -851,6 +857,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -934,6 +943,7 @@ nextListener
 OnStopRequest
 (
 aRequest
+aContext
 aStatus
 )
 ;
@@ -979,6 +989,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -1231,6 +1244,7 @@ nextListener
 OnStopRequest
 (
 mContentRequest
+mContentContext
 NS_ERROR_INVALID_SIGNATURE
 )
 ;

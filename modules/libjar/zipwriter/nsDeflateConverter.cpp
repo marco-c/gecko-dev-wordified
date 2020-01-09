@@ -441,6 +441,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -589,7 +592,7 @@ rv
 PushAvailableData
 (
 aRequest
-nullptr
+aContext
 )
 ;
 NS_ENSURE_SUCCESS
@@ -622,6 +625,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 if
@@ -639,6 +645,7 @@ mListener
 OnStartRequest
 (
 aRequest
+mContext
 )
 ;
 }
@@ -651,6 +658,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -685,7 +695,7 @@ rv
 PushAvailableData
 (
 aRequest
-nullptr
+aContext
 )
 ;
 NS_ENSURE_SUCCESS
@@ -716,6 +726,7 @@ mListener
 OnStopRequest
 (
 aRequest
+mContext
 aStatusCode
 )
 ;
@@ -818,6 +829,7 @@ mListener
 OnDataAvailable
 (
 aRequest
+mContext
 stream
 mOffset
 bytesToWrite

@@ -2606,6 +2606,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 MOZ_ASSERT
@@ -2820,6 +2823,7 @@ listener
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 /
@@ -2862,6 +2866,7 @@ listener
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -3607,6 +3612,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -3655,6 +3663,7 @@ listener
 OnStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -3679,6 +3688,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -3787,6 +3799,7 @@ listener
 OnDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -7460,6 +7473,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 #
@@ -7580,6 +7596,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -7609,6 +7628,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+ctxt
 nsIInputStream
 *
 inStr

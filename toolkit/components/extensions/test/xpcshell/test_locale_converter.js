@@ -420,6 +420,7 @@ nsIStreamListener
 onDataAvailable
 (
 request
+context
 inputStream
 offset
 count
@@ -563,6 +564,7 @@ converter
 .
 onDataAvailable
 (
+null
 null
 StringStream
 (

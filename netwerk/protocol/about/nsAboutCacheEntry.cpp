@@ -3949,6 +3949,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 )
 {
 mHexDumpState
@@ -4007,6 +4010,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 nsIInputStream
 *
 aInputStream
@@ -4153,6 +4159,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 nsresult
 result
 )

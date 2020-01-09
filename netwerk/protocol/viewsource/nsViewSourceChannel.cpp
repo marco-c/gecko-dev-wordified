@@ -3201,6 +3201,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 NS_ENSURE_TRUE
@@ -3295,6 +3298,7 @@ nsIViewSourceChannel
 (
 this
 )
+aContext
 )
 ;
 }
@@ -3307,6 +3311,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -3377,6 +3384,7 @@ nsIViewSourceChannel
 (
 this
 )
+aContext
 aStatus
 )
 ;
@@ -3394,6 +3402,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -3423,6 +3434,7 @@ nsIViewSourceChannel
 (
 this
 )
+aContext
 aInputStream
 aSourceOffset
 aLength

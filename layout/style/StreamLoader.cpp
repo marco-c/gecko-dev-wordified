@@ -222,6 +222,8 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
 )
 {
 /
@@ -389,6 +391,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -816,6 +821,8 @@ StreamLoader
 OnDataAvailable
 (
 nsIRequest
+*
+nsISupports
 *
 nsIInputStream
 *

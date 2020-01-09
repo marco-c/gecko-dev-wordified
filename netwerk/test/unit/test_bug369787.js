@@ -136,6 +136,7 @@ onStartRequest
 function
 (
 request
+context
 )
 {
 try
@@ -188,6 +189,7 @@ onStopRequest
 function
 (
 request
+context
 status
 )
 {

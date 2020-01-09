@@ -3017,6 +3017,7 @@ observer
 OnStartRequest
 (
 request
+ctxt
 )
 ;
 if
@@ -3740,6 +3741,7 @@ observer
 OnStopRequest
 (
 request
+ctxt
 aStatus
 )
 ;

@@ -189,6 +189,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 if
@@ -211,6 +214,7 @@ mDelegate
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -223,6 +227,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -247,6 +254,7 @@ mDelegate
 OnStopRequest
 (
 aRequest
+aContext
 aStatus
 )
 ;
@@ -260,6 +268,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInStream
@@ -289,6 +300,7 @@ mDelegate
 OnDataAvailable
 (
 aRequest
+aContext
 aInStream
 aSourceOffset
 aLength

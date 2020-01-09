@@ -913,6 +913,7 @@ onStartRequest
 function
 (
 request
+ctx
 )
 {
 try
@@ -1034,6 +1035,7 @@ onDataAvailable
 function
 (
 request
+context
 stream
 offset
 count
@@ -1057,6 +1059,7 @@ onStopRequest
 function
 (
 request
+ctx
 status
 )
 {

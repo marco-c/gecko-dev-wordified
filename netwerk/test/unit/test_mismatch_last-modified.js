@@ -283,6 +283,7 @@ function
 test_onStartR
 (
 request
+ctx
 )
 {
 }
@@ -292,6 +293,7 @@ function
 test_ODA
 (
 request
+cx
 inputStream
 offset
 count
@@ -336,6 +338,7 @@ function
 test_onStopR
 (
 request
+ctx
 status
 )
 {
@@ -441,6 +444,7 @@ function
 test_onStartR
 (
 request
+ctx
 )
 {
 }
@@ -450,6 +454,7 @@ function
 test_ODA
 (
 request
+cx
 inputStream
 offset
 count
@@ -522,6 +527,7 @@ function
 test_onStopR
 (
 request
+ctx
 status
 )
 {
@@ -679,6 +685,7 @@ function
 test_onStartR
 (
 request
+ctx
 )
 {
 }
@@ -688,6 +695,7 @@ function
 test_ODA
 (
 request
+cx
 inputStream
 offset
 count
@@ -732,6 +740,7 @@ function
 test_onStopR
 (
 request
+ctx
 status
 )
 {

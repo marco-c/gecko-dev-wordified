@@ -2129,6 +2129,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 )
 {
 /
@@ -2753,6 +2756,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 nsresult
 aStatus
 )

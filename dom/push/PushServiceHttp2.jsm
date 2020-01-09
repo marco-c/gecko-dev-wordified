@@ -518,6 +518,7 @@ onStartRequest
 function
 (
 aRequest
+aContext
 )
 {
 console
@@ -548,6 +549,7 @@ onDataAvailable
 function
 (
 aRequest
+aContext
 aStream
 aOffset
 aCount
@@ -642,6 +644,7 @@ onStopRequest
 function
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -819,6 +822,7 @@ onStartRequest
 function
 (
 aRequest
+aContext
 )
 {
 this
@@ -837,6 +841,7 @@ onDataAvailable
 function
 (
 aRequest
+aContext
 aStream
 aOffset
 aCount
@@ -929,6 +934,7 @@ onStopRequest
 function
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -1121,6 +1127,7 @@ onStartRequest
 function
 (
 aRequest
+aContext
 )
 {
 }
@@ -1129,6 +1136,7 @@ onDataAvailable
 function
 (
 aRequest
+aContext
 aStream
 aOffset
 aCount
@@ -1210,6 +1218,7 @@ onStopRequest
 function
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -1342,6 +1351,7 @@ onStartRequest
 function
 (
 aRequest
+aContext
 )
 {
 }
@@ -1350,6 +1360,7 @@ onDataAvailable
 function
 (
 aRequest
+aContext
 aStream
 aOffset
 aCount
@@ -1451,6 +1462,7 @@ onStopRequest
 function
 (
 aRequest
+aContext
 aStatus
 )
 {

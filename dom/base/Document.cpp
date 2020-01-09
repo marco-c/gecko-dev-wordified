@@ -5857,6 +5857,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 ExternalResourceMap
@@ -5969,6 +5972,7 @@ mTargetListener
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -6441,6 +6445,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aStream
@@ -6493,6 +6500,7 @@ mTargetListener
 OnDataAvailable
 (
 aRequest
+aContext
 aStream
 aOffset
 aCount
@@ -6511,6 +6519,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -6551,6 +6562,7 @@ listener
 OnStopRequest
 (
 aRequest
+aContext
 aStatus
 )
 ;

@@ -17629,6 +17629,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+ctxt
 )
 {
 if
@@ -17901,6 +17904,7 @@ mDestListener
 OnStartRequest
 (
 aRequest
+ctxt
 )
 ;
 }
@@ -17913,6 +17917,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+ctxt
 nsresult
 status
 )
@@ -17934,6 +17941,7 @@ mDestListener
 OnStopRequest
 (
 aRequest
+ctxt
 status
 )
 ;
@@ -17955,6 +17963,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+ctxt
 nsIInputStream
 *
 inStr
@@ -17981,6 +17992,7 @@ mDestListener
 OnDataAvailable
 (
 aRequest
+ctxt
 inStr
 sourceOffset
 count
@@ -18774,6 +18786,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+ctxt
 )
 {
 /
@@ -19397,6 +19412,7 @@ mDestListener
 OnStartRequest
 (
 aRequest
+ctxt
 )
 ;
 }
@@ -19409,6 +19425,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+ctxt
 nsresult
 status
 )
@@ -19453,6 +19472,7 @@ mDestListener
 OnStopRequest
 (
 aRequest
+ctxt
 status
 )
 ;
@@ -19474,6 +19494,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+ctxt
 nsIInputStream
 *
 inStr
@@ -19521,6 +19544,7 @@ mDestListener
 OnDataAvailable
 (
 aRequest
+ctxt
 inStr
 sourceOffset
 count

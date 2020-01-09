@@ -712,6 +712,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 )
 {
 LOG
@@ -754,6 +757,7 @@ listener
 OnStartRequest
 (
 request
+aContext
 )
 ;
 }
@@ -766,6 +770,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -1069,6 +1076,7 @@ listener
 OnStopRequest
 (
 request
+aContext
 status
 )
 ;
@@ -1684,6 +1692,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsIInputStream
 *
 iStr
@@ -2183,7 +2194,7 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
+aContext
 aSourceOffset
 (
 char
@@ -2238,7 +2249,7 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
+aContext
 aSourceOffset
 (
 char
@@ -2281,7 +2292,7 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
+aContext
 aSourceOffset
 (
 char
@@ -2624,7 +2635,7 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
+aContext
 aSourceOffset
 (
 char
@@ -2679,7 +2690,7 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
+aContext
 aSourceOffset
 (
 char
@@ -2722,7 +2733,7 @@ rv
 do_OnDataAvailable
 (
 request
-nullptr
+aContext
 aSourceOffset
 (
 char
@@ -2798,7 +2809,7 @@ mBrotli
 >
 mContext
 =
-nullptr
+aContext
 ;
 mBrotli
 -
@@ -2883,6 +2894,7 @@ listener
 OnDataAvailable
 (
 request
+aContext
 iStr
 aSourceOffset
 aCount
@@ -3033,6 +3045,7 @@ listener
 OnDataAvailable
 (
 request
+context
 mStream
 offset
 count

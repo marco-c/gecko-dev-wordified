@@ -1149,6 +1149,7 @@ mObserver
 OnStartRequest
 (
 this
+mObserverContext
 )
 ;
 }
@@ -1207,6 +1208,7 @@ mObserver
 OnStopRequest
 (
 this
+mObserverContext
 mStatus
 )
 ;
@@ -2614,6 +2616,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 )
 {
 nsresult
@@ -3944,6 +3949,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsresult
 status
 )
@@ -4116,6 +4124,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsIInputStream
 *
 input

@@ -1208,6 +1208,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 )
 {
 LOG
@@ -1801,7 +1804,7 @@ rv
 DispatchContent
 (
 request
-nullptr
+aCtxt
 )
 ;
 LOG
@@ -1879,6 +1882,7 @@ m_targetStreamListener
 OnStartRequest
 (
 request
+aCtxt
 )
 ;
 LOG
@@ -2031,6 +2035,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 nsIInputStream
 *
 inStr
@@ -2084,6 +2091,7 @@ m_targetStreamListener
 OnDataAvailable
 (
 request
+aCtxt
 inStr
 sourceOffset
 count
@@ -2102,6 +2110,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 nsresult
 aStatus
 )
@@ -2177,6 +2188,7 @@ listener
 OnStopRequest
 (
 request
+aCtxt
 aStatus
 )
 ;
