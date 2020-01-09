@@ -4508,6 +4508,15 @@ aWhen
 )
 ;
 }
+Context
+(
+)
+-
+>
+NotifyScheduledSourceNodeStarted
+(
+)
+;
 }
 void
 AudioBufferSourceNode

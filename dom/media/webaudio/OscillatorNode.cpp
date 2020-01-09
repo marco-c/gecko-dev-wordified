@@ -2772,6 +2772,15 @@ MarkActive
 (
 )
 ;
+Context
+(
+)
+-
+>
+NotifyScheduledSourceNodeStarted
+(
+)
+;
 }
 void
 OscillatorNode
