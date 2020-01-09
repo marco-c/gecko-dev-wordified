@@ -1068,6 +1068,12 @@ NSString
 )
 aImageName
 ;
+-
+(
+void
+)
+releaseJSObjects
+;
 end
 /
 /

@@ -520,6 +520,12 @@ BOOL
 )
 aValue
 ;
+-
+(
+void
+)
+releaseJSObjects
+;
 end
 interface
 NSWindow
