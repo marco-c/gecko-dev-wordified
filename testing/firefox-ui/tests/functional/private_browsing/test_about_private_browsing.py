@@ -288,6 +288,24 @@ privatebrowsing
 '
 )
             
+#
+Disabled
+awaiting
+support
+for
+Fluent
+strings
+in
+firefox
+-
+ui
+tests
+(
+bug
+1534310
+)
+            
+#
 status_node
 =
 self
@@ -306,6 +324,7 @@ showNormal
 '
 )
             
+#
 self
 .
 assertEqual
@@ -313,7 +332,8 @@ assertEqual
 status_node
 .
 text
-                             
+            
+#
 self
 .
 browser
@@ -326,7 +346,8 @@ aboutPrivateBrowsing
 notPrivate
 '
 )
-                             
+            
+#
 '
 Status
 text
@@ -721,6 +742,24 @@ privatebrowsing
 '
 )
             
+#
+Disabled
+awaiting
+support
+for
+Fluent
+strings
+in
+firefox
+-
+ui
+tests
+(
+bug
+1534310
+)
+            
+#
 status_node
 =
 self
@@ -739,6 +778,7 @@ showNormal
 '
 )
             
+#
 self
 .
 assertEqual
@@ -746,7 +786,8 @@ assertEqual
 status_node
 .
 text
-                             
+            
+#
 self
 .
 browser
@@ -759,7 +800,8 @@ aboutPrivateBrowsing
 notPrivate
 '
 )
-                             
+            
+#
 '
 Status
 text
