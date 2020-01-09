@@ -160,9 +160,6 @@ nsString
 h
 "
 class
-SVGAngle
-;
-class
 nsSVGIntegerPair
 ;
 class
@@ -177,6 +174,9 @@ nsSVGViewBox
 namespace
 mozilla
 {
+class
+SVGAngle
+;
 class
 SVGLengthList
 ;

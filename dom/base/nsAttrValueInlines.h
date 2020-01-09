@@ -375,6 +375,9 @@ nsIntMargin
 mIntMargin
 ;
 const
+mozilla
+:
+:
 SVGAngle
 *
 mSVGAngle

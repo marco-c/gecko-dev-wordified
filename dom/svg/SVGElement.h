@@ -265,9 +265,6 @@ gfxMatrix
 h
 "
 class
-SVGAngle
-;
-class
 nsSVGBoolean
 ;
 class
@@ -330,6 +327,9 @@ mozilla
 {
 class
 DeclarationBlock
+;
+class
+SVGAngle
 ;
 class
 SVGAnimatedNumberList

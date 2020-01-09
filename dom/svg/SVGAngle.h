@@ -202,11 +202,6 @@ SVGElement
 /
 namespace
 dom
-}
-/
-/
-namespace
-mozilla
 class
 SVGAngle
 {
@@ -803,6 +798,11 @@ override
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
