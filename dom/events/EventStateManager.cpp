@@ -8158,6 +8158,16 @@ process
 .
 }
 else
+if
+(
+aEvent
+-
+>
+mClass
+=
+=
+eKeyboardEventClass
+)
 {
 /
 /
