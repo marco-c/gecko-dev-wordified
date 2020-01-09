@@ -936,7 +936,6 @@ Profile
 :
 new
 (
-None
 )
 ?
 }
@@ -10604,7 +10603,6 @@ Profile
 :
 new
 (
-None
 )
 .
 unwrap
