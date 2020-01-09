@@ -2252,7 +2252,6 @@ UpdateGpuCache
 (
 GpuCacheUpdateList
 )
-ClearGpuCache
 UpdateResources
 {
 updates
