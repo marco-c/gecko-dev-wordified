@@ -1046,7 +1046,7 @@ pc_
 (
 nullptr
 )
-usedNames
+usedNames_
 (
 usedNames
 )
@@ -4957,7 +4957,7 @@ true
 ;
 }
 return
-usedNames
+usedNames_
 .
 noteUse
 (
@@ -4993,7 +4993,7 @@ if
 UsedNamePtr
 p
 =
-usedNames
+usedNames_
 .
 lookup
 (
@@ -5204,7 +5204,7 @@ if
 UsedNamePtr
 p
 =
-usedNames
+usedNames_
 .
 lookup
 (
@@ -16818,7 +16818,7 @@ UsedNameTracker
 RewindToken
 token
 =
-usedNames
+usedNames_
 .
 getRewindToken
 (
@@ -17013,7 +17013,7 @@ clearAbortedSyntaxParse
 (
 )
 ;
-usedNames
+usedNames_
 .
 rewind
 (
