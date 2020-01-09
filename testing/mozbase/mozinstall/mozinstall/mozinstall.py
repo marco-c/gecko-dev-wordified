@@ -662,8 +662,10 @@ exc_info
 (
 )
                 
-msg
+error
 =
+InvalidSource
+(
 "
 {
 }
@@ -678,11 +680,12 @@ format
 msg
 val
 )
+)
                 
 reraise
 (
 InvalidSource
-msg
+error
 tb
 )
         
@@ -2019,6 +2022,13 @@ True
 .
 strip
 (
+)
+.
+decode
+(
+'
+ascii
+'
 )
         
 for
