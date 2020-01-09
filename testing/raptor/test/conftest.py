@@ -125,7 +125,7 @@ raptor
 .
 raptor
 import
-Raptor
+RaptorDesktopFirefox
 pytest
 .
 fixture
@@ -214,7 +214,7 @@ options
 :
     
 return
-Raptor
+RaptorDesktopFirefox
 (
 *
 *
