@@ -2304,7 +2304,7 @@ const
 wr
 :
 :
-WrImageMask
+ImageMask
 *
 aMask
 =

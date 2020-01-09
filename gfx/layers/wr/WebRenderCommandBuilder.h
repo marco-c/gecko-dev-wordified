@@ -481,7 +481,7 @@ Maybe
 wr
 :
 :
-WrImageMask
+ImageMask
 >
 BuildWrMaskImage
 (

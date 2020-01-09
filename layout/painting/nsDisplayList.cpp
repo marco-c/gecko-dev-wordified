@@ -61389,7 +61389,7 @@ Maybe
 wr
 :
 :
-WrImageMask
+ImageMask
 >
 mask
 =
