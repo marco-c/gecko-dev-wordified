@@ -188,6 +188,8 @@ require
 .
 /
 types
+/
+index
 "
 )
 ;
