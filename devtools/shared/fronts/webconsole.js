@@ -2699,6 +2699,18 @@ destroy
 (
 )
 {
+if
+(
+!
+this
+.
+_client
+)
+{
+return
+null
+;
+}
 this
 .
 off
@@ -2775,6 +2787,7 @@ _networkRequests
 =
 null
 ;
+return
 super
 .
 destroy
