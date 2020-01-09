@@ -3752,6 +3752,19 @@ dist
 bin
 '
 )
+            
+os
+.
+environ
+[
+'
+LD_LIBRARY_PATH
+'
+]
+=
+self
+.
+certutil
         
 else
 :
