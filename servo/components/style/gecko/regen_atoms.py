@@ -385,13 +385,19 @@ atom_type
 if
 self
 .
-is_pseudo
+is_pseudo_element
 (
 )
 or
 self
 .
 is_anon_box
+(
+)
+or
+self
+.
+is_tree_pseudo_element
 (
 )
 :
@@ -476,7 +482,7 @@ pseudo_ident
 ]
     
 def
-is_pseudo
+is_pseudo_element
 (
 self
 )
@@ -499,6 +505,17 @@ self
 )
 :
         
+if
+self
+.
+is_tree_pseudo_element
+(
+)
+:
+            
+return
+False
+        
 return
 self
 .
@@ -519,6 +536,14 @@ self
 )
 :
         
+assert
+not
+self
+.
+is_tree_pseudo_element
+(
+)
+        
 return
 self
 .
@@ -535,6 +560,17 @@ is_inheriting_anon_box
 self
 )
 :
+        
+if
+self
+.
+is_tree_pseudo_element
+(
+)
+:
+            
+return
+False
         
 return
 self

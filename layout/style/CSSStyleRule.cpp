@@ -1247,10 +1247,10 @@ bool
 aMatches
 )
 {
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -1295,7 +1295,7 @@ if
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo

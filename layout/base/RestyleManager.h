@@ -1832,7 +1832,7 @@ MOZ_ASSERT
 aContent
 )
 ;
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 aComputedStyle
@@ -1847,7 +1847,7 @@ if
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -1867,7 +1867,7 @@ if
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -1913,7 +1913,7 @@ if
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -1973,7 +1973,7 @@ nsIContent
 >
 &
 aArray
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;
@@ -2374,7 +2374,7 @@ dom
 :
 Element
 *
-CSSPseudoElementType
+PseudoStyleType
 nsRestyleHint
 )
 ;

@@ -246,7 +246,7 @@ StyleSheet
 ;
 enum
 class
-CSSPseudoElementType
+PseudoStyleType
 :
 uint8_t
 ;
@@ -539,11 +539,8 @@ values
 mozilla
 :
 :
-CSSPseudoElementType
+PseudoStyleType
 pseudo_type
-nsAtom
-*
-pseudo_tag
 )
 ;
 void
@@ -2097,7 +2094,7 @@ restyle
 mozilla
 :
 :
-CSSPseudoElementType
+PseudoStyleType
 Gecko_GetImplementedPseudo
 (
 RawGeckoElementBorrowed

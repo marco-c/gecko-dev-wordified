@@ -593,7 +593,7 @@ aContent
 AsElement
 (
 )
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozFocusOuter
@@ -749,7 +749,7 @@ Element
 *
 *
 aResult
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 nsTArray
 <
@@ -864,7 +864,7 @@ moz
 range
 -
 track
-pseuto
+pseudo
 -
 element
 (
@@ -880,7 +880,7 @@ getter_AddRefs
 (
 mTrackDiv
 )
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozRangeTrack
@@ -921,7 +921,7 @@ getter_AddRefs
 (
 mProgressDiv
 )
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozRangeProgress
@@ -962,7 +962,7 @@ getter_AddRefs
 (
 mThumbDiv
 )
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozRangeThumb

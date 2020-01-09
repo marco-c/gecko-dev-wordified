@@ -353,7 +353,7 @@ h
 /
 /
 For
-CSSPseudoElementType
+PseudoStyleType
 #
 include
 "

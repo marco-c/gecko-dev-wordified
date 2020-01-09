@@ -155,7 +155,7 @@ mozilla
 {
 enum
 class
-CSSPseudoElementType
+PseudoStyleType
 :
 uint8_t
 ;
@@ -177,8 +177,8 @@ typedef
 mozilla
 :
 :
-CSSPseudoElementType
-CSSPseudoElementType
+PseudoStyleType
+PseudoStyleType
 ;
 typedef
 mozilla

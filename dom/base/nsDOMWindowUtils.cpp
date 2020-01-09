@@ -851,7 +851,7 @@ h
 /
 /
 for
-CSSPseudoElementType
+PseudoStyleType
 #
 include
 "

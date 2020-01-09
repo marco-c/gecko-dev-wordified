@@ -147,6 +147,12 @@ nsWindowSizes
 namespace
 mozilla
 {
+enum
+class
+PseudoStyleType
+:
+uint8_t
+;
 class
 ComputedStyle
 ;
@@ -257,9 +263,7 @@ ComputedStyle
 *
 Lookup
 (
-nsAtom
-*
-aPseudoTag
+PseudoStyleType
 )
 const
 ;

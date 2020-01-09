@@ -2641,7 +2641,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 const
 ComputedStyle
@@ -2724,7 +2724,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 CSSTransitionCollection
 *
@@ -3974,7 +3974,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 CSSTransitionCollection
 *

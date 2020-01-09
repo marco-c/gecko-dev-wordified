@@ -187,7 +187,7 @@ AnimationProperty
 ;
 enum
 class
-CSSPseudoElementType
+PseudoStyleType
 :
 uint8_t
 ;

@@ -332,7 +332,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -514,7 +514,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 bool
 *
@@ -721,7 +721,7 @@ AnimationType
 :
 GetPropertyAtomForPseudoType
 (
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -736,7 +736,7 @@ if
 aPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -758,7 +758,7 @@ if
 aPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -780,7 +780,7 @@ if
 aPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after

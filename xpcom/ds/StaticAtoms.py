@@ -21699,7 +21699,7 @@ PseudoProperty
 "
 )
 #
-CSSPseudoElementType
+PseudoStyleType
     
 Atom
 (

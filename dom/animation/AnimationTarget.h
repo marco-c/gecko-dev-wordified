@@ -183,7 +183,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aType
 )
 :
@@ -272,10 +272,10 @@ Element
 >
 mElement
 ;
-CSSPseudoElementType
+PseudoStyleType
 mPseudoType
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -299,7 +299,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aType
 )
 :
@@ -395,10 +395,10 @@ mElement
 =
 nullptr
 ;
-CSSPseudoElementType
+PseudoStyleType
 mPseudoType
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo

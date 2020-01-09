@@ -492,7 +492,7 @@ mBarDiv
 >
 SetPseudoElementType
 (
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozMeterBar

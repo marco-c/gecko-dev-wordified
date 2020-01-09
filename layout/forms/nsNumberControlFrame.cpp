@@ -1866,7 +1866,7 @@ aParent
 nsAtom
 *
 aTagName
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -1922,7 +1922,7 @@ if
 aPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozNumberSpinDown
@@ -1931,7 +1931,7 @@ mozNumberSpinDown
 aPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozNumberSpinUp
@@ -2113,7 +2113,7 @@ nsGkAtoms
 :
 :
 div
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozNumberWrapper
@@ -2151,7 +2151,7 @@ nsGkAtoms
 :
 :
 input
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozNumberText
@@ -2504,7 +2504,7 @@ nsGkAtoms
 :
 :
 div
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozNumberSpinBox
@@ -2537,7 +2537,7 @@ nsGkAtoms
 :
 :
 div
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozNumberSpinUp
@@ -2570,7 +2570,7 @@ nsGkAtoms
 :
 :
 div
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozNumberSpinDown

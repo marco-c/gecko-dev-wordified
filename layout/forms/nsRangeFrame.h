@@ -244,8 +244,8 @@ typedef
 mozilla
 :
 :
-CSSPseudoElementType
-CSSPseudoElementType
+PseudoStyleType
+PseudoStyleType
 ;
 typedef
 mozilla
@@ -938,7 +938,7 @@ Element
 *
 *
 aResult
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 nsTArray
 <

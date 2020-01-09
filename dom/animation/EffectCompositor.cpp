@@ -1531,7 +1531,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 RestyleType
 aRestyleType
@@ -1829,7 +1829,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 CascadeLevel
 aCascadeLevel
@@ -2213,7 +2213,7 @@ CascadeLevel
 Animations
 ]
 ;
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 aElement
@@ -2228,7 +2228,7 @@ if
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -2242,7 +2242,7 @@ notPseudoKey
 =
 {
 aElement
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -2256,7 +2256,7 @@ beforePseudoKey
 =
 {
 aElement
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -2270,7 +2270,7 @@ afterPseudoKey
 =
 {
 aElement
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -2304,7 +2304,7 @@ if
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -2313,7 +2313,7 @@ before
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -2368,7 +2368,7 @@ aStyle
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -2607,7 +2607,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 CascadeLevel
 aCascadeLevel
@@ -2898,7 +2898,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -2907,7 +2907,7 @@ if
 aPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -2922,7 +2922,7 @@ if
 aPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -2943,7 +2943,7 @@ if
 aPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -3217,7 +3217,7 @@ MaybeUpdateCascadeResults
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -3320,7 +3320,7 @@ NonOwningAnimationTarget
 >
 result
 ;
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 aFrame
@@ -3340,7 +3340,7 @@ if
 pseudoType
 !
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -3349,7 +3349,7 @@ NotPseudo
 pseudoType
 !
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -3358,7 +3358,7 @@ before
 pseudoType
 !
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -3394,7 +3394,7 @@ if
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -3403,7 +3403,7 @@ before
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -3478,7 +3478,7 @@ aEffectSet
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -3701,7 +3701,7 @@ aEffectSet
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -5409,7 +5409,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -5492,7 +5492,7 @@ if
 aPseudoType
 !
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -5501,7 +5501,7 @@ NotPseudo
 aPseudoType
 !
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -5510,7 +5510,7 @@ before
 aPseudoType
 !
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after

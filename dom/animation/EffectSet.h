@@ -208,7 +208,7 @@ namespace
 dom
 enum
 class
-CSSPseudoElementType
+PseudoStyleType
 :
 uint8_t
 ;
@@ -375,7 +375,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;
@@ -401,7 +401,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;
@@ -415,7 +415,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;
@@ -1101,7 +1101,7 @@ nsAtom
 *
 GetEffectSetPropertyAtom
 (
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;

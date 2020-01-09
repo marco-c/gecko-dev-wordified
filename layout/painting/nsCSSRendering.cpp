@@ -6822,7 +6822,7 @@ GetPseudoType
 )
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 XULTree
@@ -9159,10 +9159,17 @@ Style
 )
 -
 >
-GetPseudo
+GetPseudoType
 (
 )
+!
+=
+PseudoStyleType
+:
+:
+NotPseudo
 )
+{
 return
 true
 ;
@@ -9174,6 +9181,7 @@ pseudo
 element
 frame
 .
+}
 /
 /
 We

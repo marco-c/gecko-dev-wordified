@@ -32045,7 +32045,7 @@ this
 function
 .
 static
-CSSPseudoElementType
+PseudoStyleType
 GetPseudoElementType
 (
 const
@@ -32118,7 +32118,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
 return
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -32238,10 +32238,10 @@ is
 =
 nullptr
 ;
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -32348,7 +32348,7 @@ Failed
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -32400,7 +32400,7 @@ if
 pseudoType
 !
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo

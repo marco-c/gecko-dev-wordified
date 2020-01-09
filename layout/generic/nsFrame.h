@@ -3888,8 +3888,10 @@ CorrectStyleParentFrame
 nsIFrame
 *
 aProspectiveParent
-nsAtom
-*
+mozilla
+:
+:
+PseudoStyleType
 aChildPseudo
 )
 ;
