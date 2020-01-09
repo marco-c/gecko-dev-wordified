@@ -10905,6 +10905,13 @@ class
 BlobReader
 final
 {
+typedef
+EditorBase
+:
+:
+AutoEditActionDataSetter
+AutoEditActionDataSetter
+;
 public
 :
 BlobReader
@@ -10981,9 +10988,6 @@ HTMLEditor
 >
 mHTMLEditor
 ;
-bool
-mIsSafe
-;
 nsCOMPtr
 <
 nsIDocument
@@ -10998,6 +11002,12 @@ mDestinationNode
 ;
 int32_t
 mDestOffset
+;
+EditAction
+mEditAction
+;
+bool
+mIsSafe
 ;
 bool
 mDoDeleteSelection
