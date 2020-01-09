@@ -115,14 +115,14 @@ MPL
 #
 include
 "
-GeckoTaskTracerImpl
+TracedTaskCommon
 .
 h
 "
 #
 include
 "
-TracedTaskCommon
+GeckoTaskTracerImpl
 .
 h
 "

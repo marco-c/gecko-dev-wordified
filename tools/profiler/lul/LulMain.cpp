@@ -2931,11 +2931,9 @@ mUsable
 =
 true
 ;
+#
 if
-(
 0
-)
-{
 mLog
 (
 "
@@ -2995,7 +2993,8 @@ n
 "
 )
 ;
-}
+#
+endif
 }
 bool
 SecMap

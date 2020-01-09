@@ -121,6 +121,13 @@ PageInformation
 .
 h
 "
+#
+include
+"
+ProfileJSONWriter
+.
+h
+"
 PageInformation
 :
 :

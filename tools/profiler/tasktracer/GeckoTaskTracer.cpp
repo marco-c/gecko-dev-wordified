@@ -129,6 +129,13 @@ h
 #
 include
 "
+platform
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -200,13 +207,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-platform
 .
 h
 "

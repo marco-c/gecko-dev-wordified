@@ -124,14 +124,14 @@ h
 #
 include
 "
-nsThreadUtils
+ProfilerChild
 .
 h
 "
 #
 include
 "
-ProfilerChild
+nsThreadUtils
 .
 h
 "

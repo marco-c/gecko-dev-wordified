@@ -432,6 +432,9 @@ SecMap
 namespace
 lul
 {
+class
+UniqueStringUniverse
+;
 /
 /
 Find
@@ -486,6 +489,9 @@ void
 rx_avma
 size_t
 rx_size
+UniqueStringUniverse
+*
+usu
 void
 (
 *
@@ -557,6 +563,9 @@ void
 rx_avma
 size_t
 rx_size
+UniqueStringUniverse
+*
+usu
 void
 (
 *
