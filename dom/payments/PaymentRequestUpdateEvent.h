@@ -171,6 +171,13 @@ PromiseNativeHandler
 .
 h
 "
+#
+include
+"
+nsITimer
+.
+h
+"
 namespace
 mozilla
 {
@@ -190,6 +197,8 @@ public
 Event
 public
 PromiseNativeHandler
+public
+nsITimerCallback
 {
 public
 :
@@ -199,6 +208,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 PaymentRequestUpdateEvent
 Event
 )
+NS_DECL_NSITIMERCALLBACK
 explicit
 PaymentRequestUpdateEvent
 (
@@ -371,6 +381,12 @@ RefPtr
 PaymentRequest
 >
 mRequest
+;
+nsCOMPtr
+<
+nsITimer
+>
+mTimer
 ;
 }
 ;

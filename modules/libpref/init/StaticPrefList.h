@@ -2438,7 +2438,7 @@ timeout
 "
 dom_payments_response_timeout
 uint32_t
-5000
+20000
 )
 /
 /

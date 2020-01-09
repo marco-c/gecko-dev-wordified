@@ -288,8 +288,10 @@ const
 nsAString
 &
 aRequestId
-bool
-aIsUpdating
+const
+nsAString
+&
+aInternalCompletreStatus
 )
 ;
 bool
