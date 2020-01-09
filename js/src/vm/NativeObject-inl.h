@@ -3098,7 +3098,9 @@ shape
 )
 )
 {
-shape_
+shapeRef
+(
+)
 .
 unsafeSet
 (

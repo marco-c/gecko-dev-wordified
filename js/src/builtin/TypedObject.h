@@ -168,6 +168,15 @@ JSObject
 .
 h
 "
+#
+include
+"
+vm
+/
+ShapedObject
+.
+h
+"
 /
 *
 *
@@ -3672,7 +3681,7 @@ class
 TypedObject
 :
 public
-JSObject
+ShapedObject
 {
 static
 const
@@ -4302,7 +4311,9 @@ addressOfShapeFromGC
 )
 {
 return
-shape_
+shapeRef
+(
+)
 .
 unsafeUnbarrieredForTracing
 (

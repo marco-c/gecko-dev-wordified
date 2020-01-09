@@ -16400,7 +16400,7 @@ lastObjId
 env
 -
 >
-shape
+maybeShape
 (
 )
 )
@@ -17383,7 +17383,7 @@ lastObjId
 env
 -
 >
-shape
+maybeShape
 (
 )
 )
@@ -26864,7 +26864,7 @@ may
 also
 /
 /
-imply
+implay
 maybeInterpretedFunction
 (
 )
@@ -26881,6 +26881,19 @@ prototype
 property
 set
 .
+MOZ_ASSERT
+(
+obj
+-
+>
+is
+<
+ShapedObject
+>
+(
+)
+)
+;
 writer
 .
 guardGroup

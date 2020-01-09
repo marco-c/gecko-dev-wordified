@@ -123,6 +123,15 @@ Proxy
 .
 h
 "
+#
+include
+"
+vm
+/
+ShapedObject
+.
+h
+"
 namespace
 js
 {
@@ -155,8 +164,10 @@ instantiated
 Proxy
 objects
 use
-their
-shape
+ShapedObject
+:
+:
+shape_
 primarily
 to
 record
@@ -222,7 +233,7 @@ class
 ProxyObject
 :
 public
-JSObject
+ShapedObject
 {
 /
 /

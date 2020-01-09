@@ -10911,7 +10911,7 @@ Address
 shape
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
