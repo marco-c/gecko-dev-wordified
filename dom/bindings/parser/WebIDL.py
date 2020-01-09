@@ -32899,13 +32899,6 @@ attr
 noArguments
 (
 )
-and
-identifier
-=
-=
-"
-CrossOriginReadable
-"
 :
                 
 raise
