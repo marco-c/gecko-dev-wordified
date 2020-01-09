@@ -2671,6 +2671,10 @@ shell
 SetResolutionAndScaleTo
 (
 presShellResolution
+nsGkAtoms
+:
+:
+apz
 )
 ;
 }

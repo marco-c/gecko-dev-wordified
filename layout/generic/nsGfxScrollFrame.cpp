@@ -42931,6 +42931,10 @@ aState
 resolution
 (
 )
+nsGkAtoms
+:
+:
+restore
 )
 ;
 }

@@ -2368,6 +2368,10 @@ SetResolutionAndScaleTo
 resolution
 .
 scale
+nsGkAtoms
+:
+:
+other
 )
 ;
 MVM_LOG
