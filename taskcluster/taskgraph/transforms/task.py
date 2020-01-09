@@ -13391,7 +13391,7 @@ compat
 index
 :
     
-#
+if
 '
 nightly
 '
@@ -13404,6 +13404,13 @@ params
 target_tasks_method
 '
 ]
+:
+        
+add_nightly_index_routes
+(
+config
+task
+)
     
 return
 task
@@ -14376,6 +14383,36 @@ locale
 *
 subs
 )
+)
+    
+#
+For
+nightly
+-
+compat
+index
+:
+    
+if
+'
+nightly
+'
+in
+config
+.
+params
+[
+'
+target_tasks_method
+'
+]
+:
+        
+add_nightly_l10n_index_routes
+(
+config
+task
+force_locale
 )
     
 return
