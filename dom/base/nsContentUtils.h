@@ -19510,6 +19510,11 @@ StorageAllowedForWindow
 nsPIDOMWindowInner
 *
 aWindow
+uint32_t
+*
+aRejectedReason
+=
+nullptr
 )
 ;
 /
@@ -19781,6 +19786,11 @@ nsIURI
 aURI
 )
 {
+uint32_t
+rejectedReason
+=
+0
+;
 /
 /
 Note
@@ -19852,6 +19862,7 @@ NodePrincipal
 (
 )
 aURI
+rejectedReason
 )
 ;
 }
@@ -19940,6 +19951,9 @@ aPrincipal
 nsIURI
 *
 aURI
+uint32_t
+&
+aRejectedReason
 )
 ;
 public
@@ -22469,6 +22483,9 @@ aURI
 nsIChannel
 *
 aChannel
+uint32_t
+&
+aRejectedReason
 )
 ;
 static
