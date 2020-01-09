@@ -67,9 +67,7 @@ service
 workers
 '
 '
-dedicated
--
-workers
+html
 '
 '
 dom
