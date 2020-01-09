@@ -1333,11 +1333,14 @@ resolve
 =
 >
 {
+window
+.
+requestAnimationFrame
 (
-function
-handleFrame
 (
 )
+=
+>
 {
 if
 (
@@ -1356,7 +1359,7 @@ window
 .
 requestAnimationFrame
 (
-handleFrame
+resolve
 )
 ;
 }
@@ -1368,8 +1371,6 @@ resolve
 ;
 }
 }
-(
-)
 )
 ;
 }

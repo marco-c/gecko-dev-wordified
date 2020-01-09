@@ -97,10 +97,6 @@ software
 -
 20021231
 #
-from
-__future__
-import
-print_function
 import
 sys
 import
@@ -140,7 +136,6 @@ testFileSearch
 :
         
 print
-(
 '
 Running
 tests
@@ -149,7 +144,6 @@ from
 '
 +
 testFilePath
-)
         
 with
 open
@@ -181,13 +175,11 @@ testData
 :
                 
 print
-(
 testSetName
 +
 '
 :
 '
-)
                 
 testSet
 =
@@ -251,7 +243,6 @@ expectedResult
 :
                             
 print
-(
 '
 *
 FAIL
@@ -278,13 +269,11 @@ expectedResult
 '
 "
 '
-)
                         
 else
 :
                             
 print
-(
 '
 PASS
 :
@@ -302,7 +291,6 @@ test
 =
 None
 '
-)
                         
 continue
                     
@@ -337,7 +325,6 @@ result
 :
                             
 print
-(
 '
 *
 FAIL
@@ -373,7 +360,6 @@ expectedResult
 '
 "
 '
-)
                             
 continue
                     
@@ -408,7 +394,6 @@ else
 :
                             
 print
-(
 '
 *
 FAIL
@@ -438,10 +423,8 @@ result
 expected
 :
 '
-)
                             
 print
-(
 "
 or
 \
@@ -466,7 +449,6 @@ in
 expectedResult
 ]
 )
-)
                             
 continue
                     
@@ -484,7 +466,6 @@ result
 :
                             
 print
-(
 '
 *
 FAIL
@@ -513,7 +494,6 @@ result
 expected
 None
 '
-)
                             
 continue
                     
@@ -521,7 +501,6 @@ else
 :
                         
 print
-(
 '
 *
 *
@@ -536,10 +515,8 @@ repr
 (
 expectedResult
 )
-)
                     
 print
-(
 '
 PASS
 :
@@ -563,7 +540,6 @@ result
 '
 "
 '
-)
 def
 debugHook
 (
@@ -658,8 +634,6 @@ tb
 )
         
 print
-(
-)
         
 #
 .
@@ -815,7 +789,6 @@ beta
 )
     
 print
-(
 github
 .
 get
@@ -831,7 +804,6 @@ plinss
 )
 .
 data
-)
 #
 shepherd
 =
@@ -901,11 +873,9 @@ v1
 )
     
 print
-(
 shepherd
 .
 resourceNames
-)
     
 specs
 =
@@ -919,11 +889,9 @@ specifications
 )
     
 print
-(
 specs
 .
 variables
-)
 #
 print
 specs
@@ -933,7 +901,6 @@ hints
 docs
     
 print
-(
 shepherd
 .
 get
@@ -954,7 +921,6 @@ False
 )
 .
 data
-)
     
 suites
 =
@@ -968,14 +934,11 @@ test_suites
 )
     
 print
-(
 suites
 .
 variables
-)
     
 print
-(
 shepherd
 .
 get
@@ -995,4 +958,3 @@ shapes
 )
 .
 data
-)

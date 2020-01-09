@@ -403,10 +403,6 @@ hybi00
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 base64
 import
@@ -7164,7 +7160,6 @@ verbose
 :
                     
 print
-(
 '
 Send
 :
@@ -7173,7 +7168,6 @@ s
 '
 %
 line
-)
                 
 try
 :
@@ -7197,7 +7191,6 @@ verbose
 :
                         
 print
-(
 '
 Recv
 :
@@ -7206,7 +7199,6 @@ s
 '
 %
 received
-)
                 
 except
 Exception
@@ -7222,7 +7214,6 @@ verbose
 :
                         
 print
-(
 '
 Error
 :
@@ -7231,7 +7222,6 @@ s
 '
 %
 e
-)
                     
 raise
             
@@ -7347,20 +7337,16 @@ None
 :
                 
 print
-(
 '
 Recv
 close
 '
-)
                 
 print
-(
 '
 Send
 ack
 '
-)
                 
 self
 .
@@ -7382,12 +7368,10 @@ ack
 return
         
 print
-(
 '
 Send
 close
 '
-)
         
 self
 .
@@ -7411,12 +7395,10 @@ handshake
 )
         
 print
-(
 '
 Recv
 ack
 '
-)
         
 self
 .
