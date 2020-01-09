@@ -696,6 +696,8 @@ Slot_CachedRequest
 Slots
 }
 ;
+public
+:
 enum
 State
 {
@@ -883,6 +885,8 @@ state_
 )
 ;
 }
+private
+:
 /
 /
 Queue
