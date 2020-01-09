@@ -1257,6 +1257,13 @@ navigated
 url
 ]
 )
+timeStamp
+:
+Date
+.
+now
+(
+)
 }
 )
 ;
