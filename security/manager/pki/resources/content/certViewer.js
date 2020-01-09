@@ -1634,13 +1634,9 @@ return
 }
 node
 .
-setAttribute
-(
-"
 value
-"
+=
 value
-)
 ;
 }
 /

@@ -3025,6 +3025,11 @@ radiogroup
 :
 case
 "
+textarea
+"
+:
+case
+"
 textbox
 "
 :

@@ -6111,12 +6111,6 @@ querySelectorAll
 (
 "
 textbox
-:
-not
-(
-#
-networkProxyNone
-)
 "
 )
 .
