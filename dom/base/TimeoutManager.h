@@ -349,6 +349,7 @@ timeout
 implementation
 functions
 .
+MOZ_CAN_RUN_SCRIPT
 void
 RunTimeout
 (

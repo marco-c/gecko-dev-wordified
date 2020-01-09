@@ -7651,6 +7651,7 @@ its
 handler
 ran
 .
+MOZ_CAN_RUN_SCRIPT
 bool
 RunTimeoutHandler
 (

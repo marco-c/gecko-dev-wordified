@@ -1240,6 +1240,7 @@ int32_t
 aId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 RunExpiredTimeouts
 (
