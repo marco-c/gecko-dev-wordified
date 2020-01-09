@@ -41362,7 +41362,7 @@ BytecodeEmitter
 :
 emitSelfHostedCallFunction
 (
-BinaryNode
+CallNode
 *
 callNode
 )
@@ -41549,7 +41549,7 @@ callOp
 callNode
 -
 >
-getOp
+callOp
 (
 )
 ;
@@ -43869,7 +43869,7 @@ BytecodeEmitter
 :
 emitCallOrNew
 (
-BinaryNode
+CallNode
 *
 callNode
 ValueUsage
@@ -44083,7 +44083,7 @@ JOF_OPTYPE
 callNode
 -
 >
-getOp
+callOp
 (
 )
 )
@@ -44367,7 +44367,7 @@ op
 callNode
 -
 >
-getOp
+callOp
 (
 )
 ;
@@ -54358,7 +54358,7 @@ pn
 >
 as
 <
-BinaryNode
+CallNode
 >
 (
 )

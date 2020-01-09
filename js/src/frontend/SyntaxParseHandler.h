@@ -3300,9 +3300,9 @@ NodeSuperBase
 ;
 }
 void
-setOp
+setCallOp
 (
-Node
+CallNodeType
 pn
 JSOp
 op
