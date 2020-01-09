@@ -182,7 +182,7 @@ target
 )
 ;
 const
-workerTargetFront
+workerTarget
 =
 findWorker
 (
@@ -198,12 +198,7 @@ gDevTools
 .
 showToolbox
 (
-TargetFactory
-.
-forWorker
-(
-workerTargetFront
-)
+workerTarget
 "
 jsdebugger
 "
@@ -399,7 +394,7 @@ WORKER_URL
 await
 waitForWorkerClose
 (
-workerTargetFront
+workerTarget
 )
 ;
 await
