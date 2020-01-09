@@ -144,13 +144,6 @@ utils
 "
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 class
 RequestListColumnType
 extends
@@ -230,7 +223,9 @@ mimeType
 }
 return
 (
-div
+dom
+.
+td
 (
 {
 className

@@ -105,13 +105,6 @@ factories
 )
 ;
 const
-{
-div
-}
-=
-dom
-;
-const
 PropTypes
 =
 require
@@ -1209,7 +1202,9 @@ fromCache
 ;
 return
 (
-div
+dom
+.
+tr
 (
 {
 ref

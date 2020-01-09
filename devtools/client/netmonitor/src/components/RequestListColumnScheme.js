@@ -125,13 +125,6 @@ types
 "
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 class
 RequestListColumnScheme
 extends
@@ -199,7 +192,9 @@ item
 ;
 return
 (
-div
+dom
+.
+td
 (
 {
 className

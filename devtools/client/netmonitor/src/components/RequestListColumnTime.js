@@ -166,13 +166,6 @@ utils
 "
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 /
 *
 *
@@ -484,7 +477,9 @@ props
 ;
 return
 (
-div
+dom
+.
+td
 (
 {
 className

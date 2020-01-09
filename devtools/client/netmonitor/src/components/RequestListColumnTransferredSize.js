@@ -181,13 +181,6 @@ utils
 )
 ;
 const
-{
-div
-}
-=
-dom
-;
-const
 SIZE_CACHED
 =
 L10N
@@ -404,7 +397,9 @@ text
 ;
 return
 (
-div
+dom
+.
+td
 (
 {
 className

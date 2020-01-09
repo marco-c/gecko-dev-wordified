@@ -145,13 +145,6 @@ utils
 "
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 /
 *
 *
@@ -338,7 +331,9 @@ header
 ;
 return
 (
-div
+dom
+.
+td
 (
 {
 className

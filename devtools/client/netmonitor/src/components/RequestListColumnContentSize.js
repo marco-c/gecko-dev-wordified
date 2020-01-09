@@ -144,13 +144,6 @@ utils
 "
 )
 ;
-const
-{
-div
-}
-=
-dom
-;
 class
 RequestListColumnContentSize
 extends
@@ -233,7 +226,9 @@ null
 ;
 return
 (
-div
+dom
+.
+td
 (
 {
 className
