@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-ModuleScript
+LoadedScript
 .
 h
 "
