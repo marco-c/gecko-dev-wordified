@@ -72,6 +72,13 @@ scanners
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 BroadcastReceiver
@@ -1245,6 +1252,12 @@ return
 true
 ;
 }
+SuppressLint
+(
+"
+WifiManagerPotentialLeak
+"
+)
 private
 WifiManager
 getWifiManager
