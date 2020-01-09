@@ -523,6 +523,11 @@ latestKnownGoodPos_
 0
 )
 {
+MOZ_ASSERT
+(
+errorReporter_
+)
+;
 }
 /
 *
