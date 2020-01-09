@@ -11611,14 +11611,6 @@ mDefaultVariableFont
 .
 size
 ;
-mDefaultFixedSize
-=
-prefs
-.
-mDefaultFixedFont
-.
-size
-;
 mDefaultSerifSize
 =
 prefs
