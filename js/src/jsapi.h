@@ -14107,7 +14107,7 @@ pass
 these
 contents
 to
-free
+JS_free
 (
 )
 .
@@ -14462,7 +14462,7 @@ take
 ownership
 of
 contents
-and
+.
 JS_DetachArrayBuffer
 must
 be
@@ -14474,6 +14474,15 @@ contents
 are
 disposed
 of
+by
+the
+user
+;
+this
+call
+will
+always
+succeed
 .
 *
 /
