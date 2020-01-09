@@ -731,6 +731,9 @@ operating_point_idc
 int
 all_layers
 ;
+int
+drain
+;
 }
 ;
 struct
@@ -1059,6 +1062,9 @@ jnt_weights
 [
 7
 ]
+;
+int
+bitdepth_max
 ;
 struct
 {
@@ -1814,7 +1820,7 @@ interintra
 *
 lap
 ;
-coef
+int16_t
 *
 compinter
 ;

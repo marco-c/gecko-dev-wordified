@@ -637,6 +637,7 @@ lim_lut
 endy4
 -
 starty4
+HIGHBD_CALL_SUFFIX
 )
 ;
 }
@@ -912,6 +913,7 @@ lf
 .
 lim_lut
 w
+HIGHBD_CALL_SUFFIX
 )
 ;
 }
@@ -1239,6 +1241,7 @@ lim_lut
 endy4
 -
 starty4
+HIGHBD_CALL_SUFFIX
 )
 ;
 dsp
@@ -1292,6 +1295,7 @@ lim_lut
 endy4
 -
 starty4
+HIGHBD_CALL_SUFFIX
 )
 ;
 }
@@ -1565,6 +1569,7 @@ lf
 .
 lim_lut
 w
+HIGHBD_CALL_SUFFIX
 )
 ;
 dsp
@@ -1614,6 +1619,7 @@ lf
 .
 lim_lut
 w
+HIGHBD_CALL_SUFFIX
 )
 ;
 }

@@ -373,6 +373,7 @@ first_1d_fn
 const
 itx_1d_fn
 second_1d_fn
+HIGHBD_DECL_SUFFIX
 )
 {
 int
@@ -488,6 +489,15 @@ w
 ;
 const
 int
+bitdepth
+=
+bitdepth_from_max
+(
+bitdepth_max
+)
+;
+const
+int
 row_clip_max
 =
 (
@@ -495,7 +505,7 @@ row_clip_max
 <
 <
 (
-BITDEPTH
+bitdepth
 +
 8
 -
@@ -516,7 +526,7 @@ col_clip_max
 (
 imax
 (
-BITDEPTH
+bitdepth
 +
 6
 16
@@ -948,6 +958,8 @@ coeff
 const
 int
 eob
+\
+HIGHBD_DECL_SUFFIX
 )
 \
 {
@@ -983,6 +995,8 @@ h
 #
 #
 _1d
+\
+HIGHBD_TAIL_SUFFIX
 )
 ;
 \
@@ -1359,8 +1373,18 @@ coeff
 const
 int
 eob
+HIGHBD_DECL_SUFFIX
 )
 {
+const
+int
+bitdepth
+=
+bitdepth_from_max
+(
+bitdepth_max
+)
+;
 const
 int
 col_clip_max
@@ -1372,7 +1396,7 @@ col_clip_max
 (
 imax
 (
-BITDEPTH
+bitdepth
 +
 6
 16

@@ -703,6 +703,7 @@ resize_start
 [
 ss_hor
 ]
+HIGHBD_CALL_SUFFIX
 )
 ;
 row
@@ -1849,6 +1850,7 @@ stripe_h
 filterh
 filterv
 edges
+HIGHBD_CALL_SUFFIX
 )
 ;
 }
@@ -1888,6 +1890,7 @@ lr
 >
 sgr_weights
 edges
+HIGHBD_CALL_SUFFIX
 )
 ;
 }

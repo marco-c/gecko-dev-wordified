@@ -1015,7 +1015,7 @@ time_scale
 int
 equal_picture_interval
 ;
-int
+unsigned
 num_ticks_per_picture
 ;
 int

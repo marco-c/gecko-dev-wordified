@@ -1044,6 +1044,11 @@ p_allocator
 cookie
 )
 ;
+free
+(
+pic_ctx
+)
+;
 fprintf
 (
 stderr
