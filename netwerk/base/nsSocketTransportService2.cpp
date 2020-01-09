@@ -5660,9 +5660,10 @@ mPollList
 .
 in_flags
 =
-PR_POLL_READ
-|
-PR_POLL_EXCEPT
+PollableEvent
+:
+:
+sPollFlags
 ;
 mPollList
 [
@@ -10599,9 +10600,10 @@ mPollList
 .
 in_flags
 =
-PR_POLL_READ
-|
-PR_POLL_EXCEPT
+PollableEvent
+:
+:
+sPollFlags
 ;
 mPollList
 [
