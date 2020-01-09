@@ -320,9 +320,6 @@ class
 AutoSetTemporaryAncestorLimiter
 ;
 class
-DocumentResizeEventListener
-;
-class
 EmptyEditableFunctor
 ;
 class
@@ -16130,10 +16127,6 @@ AutoSetTemporaryAncestorLimiter
 friend
 class
 CSSEditUtils
-;
-friend
-class
-DocumentResizeEventListener
 ;
 friend
 class
