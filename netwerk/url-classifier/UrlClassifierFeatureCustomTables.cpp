@@ -416,7 +416,10 @@ nsIChannel
 *
 aChannel
 const
-nsACString
+nsTArray
+<
+nsCString
+>
 &
 aList
 bool
