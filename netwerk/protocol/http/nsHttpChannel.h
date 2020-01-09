@@ -2813,6 +2813,12 @@ rv
 =
 =
 NS_ERROR_MALFORMED_URI
+|
+|
+rv
+=
+=
+NS_ERROR_PORT_ACCESS_NOT_ALLOWED
 ;
 }
 /
