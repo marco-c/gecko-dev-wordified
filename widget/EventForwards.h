@@ -850,6 +850,12 @@ EditorInputType
 :
 eFormatSetInlineTextDirection
 :
+case
+EditorInputType
+:
+:
+eInsertLink
+:
 return
 true
 ;
