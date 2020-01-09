@@ -3855,10 +3855,6 @@ node
 /
 Pseudo
 elements
-and
-native
-anonymous
-elements
 are
 always
 part
@@ -3876,12 +3872,6 @@ node
 |
 |
 isAfterPseudoElement
-(
-node
-)
-|
-|
-isNativeAnonymous
 (
 node
 )
