@@ -48,7 +48,7 @@ PointerSource
 ]
 [
 "
-general
+none
 "
 GeneralSource
 ]
@@ -138,7 +138,7 @@ this
 createSource
 (
 "
-general
+none
 "
 )
 ;
@@ -384,7 +384,7 @@ Source
 type
 (
 '
-general
+none
 '
 '
 key
@@ -1218,7 +1218,7 @@ this
 getSource
 (
 "
-general
+none
 "
 )
 .
