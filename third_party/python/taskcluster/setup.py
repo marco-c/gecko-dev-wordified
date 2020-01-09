@@ -54,11 +54,11 @@ this
 VERSION
 =
 '
-4
+6
 .
 0
 .
-1
+0
 '
 tests_require
 =
@@ -276,6 +276,21 @@ slugid
 7
 <
 2
+'
+    
+'
+taskcluster
+-
+urls
+>
+=
+10
+.
+1
+.
+0
+<
+12
 '
     
 '
