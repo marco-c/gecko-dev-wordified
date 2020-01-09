@@ -1609,7 +1609,7 @@ tab
 -
 throbber
 -
-fallback
+tabslist
 "
 )
 ;
@@ -1667,7 +1667,7 @@ tab
 -
 throbber
 -
-fallback
+tabslist
 "
 )
 ;
@@ -1685,7 +1685,7 @@ tab
 -
 throbber
 -
-fallback
+tabslist
 "
 )
 ;
