@@ -624,6 +624,17 @@ mozilla
 /
 dom
 /
+WindowProxyHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 XULScrollElementBinding
 .
 h

@@ -207,6 +207,17 @@ include
 "
 mozilla
 /
+dom
+/
+WindowProxyHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Assertions
 .
 h
