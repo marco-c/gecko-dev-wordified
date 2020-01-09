@@ -4003,6 +4003,8 @@ ListNode
 >
 parseListOfVariableDeclarator
 (
+ParseNodeKind
+declarationListKind
 )
 ;
 /
