@@ -68619,9 +68619,6 @@ AnyRegister
 >
 argRegs_
 ;
-uint32_t
-spIncrement_
-;
 ABIArg
 instanceArg_
 ;
@@ -68641,8 +68638,6 @@ wasm
 CalleeDesc
 &
 callee
-uint32_t
-spIncrement
 )
 :
 MVariadicInstruction
@@ -68656,10 +68651,6 @@ desc
 callee_
 (
 callee
-)
-spIncrement_
-(
-spIncrement
 )
 {
 }
@@ -68737,8 +68728,6 @@ Args
 args
 MIRType
 resultType
-uint32_t
-spIncrement
 MDefinition
 *
 tableIndex
@@ -68777,8 +68766,6 @@ Args
 args
 MIRType
 resultType
-uint32_t
-spIncrement
 )
 ;
 size_t
@@ -68847,16 +68834,6 @@ const
 {
 return
 callee_
-;
-}
-uint32_t
-spIncrement
-(
-)
-const
-{
-return
-spIncrement_
 ;
 }
 bool
