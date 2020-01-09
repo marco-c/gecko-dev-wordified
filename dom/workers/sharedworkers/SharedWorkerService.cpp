@@ -950,6 +950,7 @@ manager
 new
 SharedWorkerManager
 (
+aBackgroundEventTarget
 aInfo
 principal
 loadingPrincipal

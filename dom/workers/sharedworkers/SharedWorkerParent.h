@@ -291,6 +291,16 @@ return
 mSuspended
 ;
 }
+uint64_t
+WindowID
+(
+)
+const
+{
+return
+mWindowID
+;
+}
 private
 :
 ~
@@ -335,6 +345,9 @@ eActive
 eClosed
 }
 mStatus
+;
+uint64_t
+mWindowID
 ;
 bool
 mSuspended

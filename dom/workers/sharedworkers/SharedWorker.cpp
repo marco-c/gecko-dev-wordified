@@ -1054,6 +1054,9 @@ loadInfo
 .
 mDomain
 isSecureContext
+loadInfo
+.
+mWindowID
 ipcClientInfo
 portIdentifier
 )
