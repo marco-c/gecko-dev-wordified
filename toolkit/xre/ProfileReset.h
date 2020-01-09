@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIToolkitProfileService
+nsToolkitProfileService
 .
 h
 "
@@ -144,6 +144,9 @@ xul
 nsresult
 ProfileResetCleanup
 (
+nsToolkitProfileService
+*
+aService
 nsIToolkitProfile
 *
 aOldProfile
