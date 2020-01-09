@@ -925,6 +925,13 @@ GetXPCOMSingleton
 (
 )
 ;
+static
+nsPermissionManager
+*
+GetInstance
+(
+)
+;
 nsresult
 Init
 (
