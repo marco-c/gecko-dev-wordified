@@ -65,7 +65,6 @@ ColorF
 ColorU
 LayoutPrimitiveInfo
 LayoutSizeAu
-LayoutVector2D
 LineOrientation
 LineStyle
 PremultipliedColorF
@@ -408,9 +407,6 @@ _
 &
 mut
 PrimitiveStore
-_reference_frame_relative_offset
-:
-LayoutVector2D
 )
 -
 >
