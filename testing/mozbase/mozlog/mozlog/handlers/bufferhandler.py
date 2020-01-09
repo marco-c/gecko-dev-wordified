@@ -260,6 +260,8 @@ _buffer
         
 self
 .
+message_handler
+.
 register_message_handlers
 (
 "
