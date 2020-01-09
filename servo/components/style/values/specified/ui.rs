@@ -1123,11 +1123,7 @@ none
 )
 ]
 None
-Element
-Elements
 All
-Toggle
-TriState
 /
 /
 /
