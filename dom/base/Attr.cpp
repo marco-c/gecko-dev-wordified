@@ -1214,17 +1214,6 @@ aNodeInfo
 value
 )
 ;
-if
-(
-!
-*
-aResult
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 NS_ADDREF
 (
 *
