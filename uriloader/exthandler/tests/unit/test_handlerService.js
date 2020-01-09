@@ -3623,6 +3623,7 @@ getParameter
 (
 0
 )
+;
 Assert
 .
 equal
@@ -3642,6 +3643,7 @@ getParameter
 (
 1
 )
+;
 Assert
 .
 equal
@@ -3661,6 +3663,7 @@ getParameter
 (
 2
 )
+;
 Assert
 .
 equal
@@ -3988,14 +3991,14 @@ env
 .
 set
 (
-'
+"
 PERSONAL_MAILCAP
-'
+"
 do_get_file
 (
-'
+"
 mailcap
-'
+"
 )
 .
 path
