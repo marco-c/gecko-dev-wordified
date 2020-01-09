@@ -543,7 +543,8 @@ formatDisplayNameParams
 }
 l10n
 :
-Object
+typeof
+L10N
 )
 :
 string
@@ -606,7 +607,8 @@ frame
 LocalFrame
 l10n
 :
-Object
+typeof
+L10N
 )
 :
 string
