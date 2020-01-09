@@ -5109,11 +5109,6 @@ ignore_case_
 const
 nsCaseInsensitiveStringComparator
 c_
-\
-=
-nsCaseInsensitiveStringComparator
-(
-)
 ;
 \
 return
