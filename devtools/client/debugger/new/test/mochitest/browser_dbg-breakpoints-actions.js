@@ -314,7 +314,7 @@ dispatch
 for
 /
 /
-DISABLE_BREAKPOINT
+SET_BREAKPOINT
 even
 though
 three
@@ -376,7 +376,7 @@ waitForDispatch
 (
 dbg
 "
-DISABLE_BREAKPOINT
+SET_BREAKPOINT
 "
 /
 *
@@ -472,7 +472,7 @@ waitForDispatch
 (
 dbg
 "
-DISABLE_ALL_BREAKPOINTS
+SET_BREAKPOINT
 "
 )
 ;
@@ -544,7 +544,7 @@ waitForDispatch
 (
 dbg
 "
-ENABLE_BREAKPOINT
+SET_BREAKPOINT
 "
 2
 )
