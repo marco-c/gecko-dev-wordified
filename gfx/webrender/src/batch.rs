@@ -64,6 +64,7 @@ api
 AlphaType
 ClipMode
 DeviceIntRect
+DeviceIntPoint
 DeviceIntSize
 }
 ;
@@ -72,8 +73,6 @@ api
 :
 :
 {
-DeviceUintRect
-DeviceUintPoint
 ExternalImageType
 FilterOp
 ImageRendering
@@ -86,8 +85,8 @@ api
 {
 YuvColorSpace
 YuvFormat
-ColorDepth
 PictureRect
+ColorDepth
 }
 ;
 use
@@ -9868,12 +9867,12 @@ uv_rect_handle
 cache_handle
 uv_rect
 :
-DeviceUintRect
+DeviceIntRect
 :
 :
 new
 (
-DeviceUintPoint
+DeviceIntPoint
 :
 :
 zero

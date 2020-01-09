@@ -61,9 +61,9 @@ api
 :
 :
 {
-DeviceUintPoint
-DeviceUintRect
-DeviceUintSize
+DeviceIntPoint
+DeviceIntRect
+DeviceIntSize
 }
 ;
 use
@@ -211,7 +211,7 @@ arrays
 const
 TEXTURE_REGION_DIMENSIONS
 :
-u32
+i32
 =
 512
 ;
@@ -298,7 +298,7 @@ exists
 .
 origin
 :
-DeviceUintPoint
+DeviceIntPoint
 /
 /
 The
@@ -502,7 +502,7 @@ pixels
 .
 size
 :
-DeviceUintSize
+DeviceIntSize
 /
 /
 /
@@ -845,7 +845,7 @@ Standalone
 =
 >
 (
-DeviceUintPoint
+DeviceIntPoint
 :
 :
 zero
@@ -2346,7 +2346,7 @@ hardware
 .
 max_texture_size
 :
-u32
+i32
 /
 /
 /
@@ -2523,7 +2523,7 @@ new
 (
 max_texture_size
 :
-u32
+i32
 mut
 max_texture_layers
 :
@@ -3375,7 +3375,7 @@ self
 )
 -
 >
-u32
+i32
 {
 self
 .
@@ -3482,7 +3482,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 gpu_cache
 :
@@ -3848,7 +3848,7 @@ Standalone
 >
 (
 0
-DeviceUintPoint
+DeviceIntPoint
 :
 :
 zero
@@ -4156,7 +4156,7 @@ Standalone
 {
 (
 0
-DeviceUintPoint
+DeviceIntPoint
 :
 :
 zero
@@ -4202,7 +4202,7 @@ texture_id
 )
 uv_rect
 :
-DeviceUintRect
+DeviceIntRect
 :
 :
 new
@@ -4281,7 +4281,7 @@ TextureCacheHandle
 (
 CacheTextureId
 LayerIndex
-DeviceUintRect
+DeviceIntRect
 )
 {
 let
@@ -4347,7 +4347,7 @@ Standalone
 {
 (
 0
-DeviceUintPoint
+DeviceIntPoint
 :
 :
 zero
@@ -4380,7 +4380,7 @@ texture_id
 layer_index
 as
 usize
-DeviceUintRect
+DeviceIntRect
 :
 :
 new
@@ -6627,10 +6627,10 @@ SlabSize
 {
 width
 :
-u32
+i32
 height
 :
-u32
+i32
 }
 impl
 SlabSize
@@ -6640,7 +6640,7 @@ new
 (
 size
 :
-DeviceUintSize
+DeviceIntSize
 )
 -
 >
@@ -6898,10 +6898,10 @@ new
 (
 x
 :
-u32
+i32
 y
 :
-u32
+i32
 )
 -
 >
@@ -6910,6 +6910,18 @@ Self
 debug_assert
 !
 (
+x
+>
+=
+0
+&
+&
+y
+>
+=
+0
+&
+&
 x
 <
 0x100
@@ -7287,7 +7299,7 @@ self
 >
 Option
 <
-DeviceUintPoint
+DeviceIntPoint
 >
 {
 debug_assert
@@ -7320,7 +7332,7 @@ map
 location
 |
 {
-DeviceUintPoint
+DeviceIntPoint
 :
 :
 new
@@ -7335,7 +7347,7 @@ location
 .
 0
 as
-u32
+i32
 self
 .
 slab_size
@@ -7346,7 +7358,7 @@ location
 .
 1
 as
-u32
+i32
 )
 }
 )
@@ -7368,7 +7380,7 @@ mut
 self
 point
 :
-DeviceUintPoint
+DeviceIntPoint
 )
 {
 let
@@ -7656,7 +7668,7 @@ size
 =
 layer_count
 as
-u32
+i32
 *
 TEXTURE_REGION_DIMENSIONS
 *
@@ -8158,10 +8170,10 @@ descriptor
 ImageDescriptor
 origin
 :
-DeviceUintPoint
+DeviceIntPoint
 size
 :
-DeviceUintSize
+DeviceIntSize
 texture_id
 :
 CacheTextureId
@@ -8172,7 +8184,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 )
 -
@@ -8429,12 +8441,12 @@ id
 texture_id
 rect
 :
-DeviceUintRect
+DeviceIntRect
 :
 :
 new
 (
-DeviceUintPoint
+DeviceIntPoint
 :
 :
 new
@@ -8458,7 +8470,7 @@ origin
 .
 y
 )
-DeviceUintSize
+DeviceIntSize
 :
 :
 new
@@ -8523,7 +8535,7 @@ id
 texture_id
 rect
 :
-DeviceUintRect
+DeviceIntRect
 :
 :
 new
@@ -8555,11 +8567,11 @@ quantize_dimension
 (
 size
 :
-u32
+i32
 )
 -
 >
-u32
+i32
 {
 match
 size

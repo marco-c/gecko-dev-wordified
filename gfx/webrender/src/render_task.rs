@@ -7414,13 +7414,9 @@ new
 size
 .
 width
-as
-u32
 size
 .
 height
-as
-u32
 image_format
 entry
 .

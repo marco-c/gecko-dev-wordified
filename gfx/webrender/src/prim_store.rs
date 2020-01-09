@@ -17845,7 +17845,7 @@ visible_rect
 device_image_size
 tile_size
 as
-u32
+i32
 )
 ;
 for

@@ -91,9 +91,9 @@ Arc
 use
 {
 DevicePoint
-DeviceUintPoint
-DeviceUintRect
-DeviceUintSize
+DeviceIntPoint
+DeviceIntRect
+DeviceIntSize
 }
 ;
 use
@@ -932,7 +932,7 @@ self
 )
 -
 >
-u32
+i32
 {
 match
 self
@@ -1262,7 +1262,7 @@ pixels
 pub
 size
 :
-DeviceUintSize
+DeviceIntSize
 /
 /
 /
@@ -1333,7 +1333,7 @@ stride
 :
 Option
 <
-u32
+i32
 >
 /
 /
@@ -1418,7 +1418,7 @@ zero
 pub
 offset
 :
-u32
+i32
 /
 /
 /
@@ -1536,10 +1536,10 @@ new
 (
 width
 :
-u32
+i32
 height
 :
-u32
+i32
 format
 :
 ImageFormat
@@ -1607,7 +1607,7 @@ self
 )
 -
 >
-u32
+i32
 {
 self
 .
@@ -1652,7 +1652,7 @@ self
 )
 -
 >
-u32
+i32
 {
 self
 .
@@ -1692,14 +1692,14 @@ self
 )
 -
 >
-DeviceUintRect
+DeviceIntRect
 {
-DeviceUintRect
+DeviceIntRect
 :
 :
 new
 (
-DeviceUintPoint
+DeviceIntPoint
 :
 :
 zero
@@ -2605,7 +2605,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 )
 ;
@@ -2955,7 +2955,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 }
 /
@@ -3049,7 +3049,7 @@ image
 pub
 size
 :
-DeviceUintSize
+DeviceIntSize
 /
 /
 /
@@ -3146,7 +3146,7 @@ image
 pub
 rasterized_rect
 :
-DeviceUintRect
+DeviceIntRect
 /
 /
 /

@@ -336,7 +336,7 @@ pub
 const
 GPU_CACHE_INITIAL_HEIGHT
 :
-u32
+i32
 =
 512
 ;
@@ -350,7 +350,7 @@ usize
 const
 NEW_ROWS_PER_RESIZE
 :
-u32
+i32
 =
 512
 ;
@@ -1594,7 +1594,7 @@ required
 pub
 height
 :
-u32
+i32
 /
 /
 /
@@ -2085,7 +2085,7 @@ texture
 height
 height
 :
-u32
+i32
 /
 /
 All
@@ -2525,7 +2525,7 @@ len
 (
 )
 as
-u32
+i32
 =
 =
 self

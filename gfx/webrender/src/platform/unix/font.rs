@@ -3588,12 +3588,16 @@ slot
 )
 .
 bitmap_left
+as
+i32
 (
 *
 slot
 )
 .
 bitmap_top
+as
+i32
 (
 *
 slot
@@ -3602,6 +3606,8 @@ slot
 bitmap
 .
 width
+as
+i32
 (
 *
 slot
@@ -3610,6 +3616,8 @@ slot
 bitmap
 .
 rows
+as
+i32
 )
 }
 }
@@ -3668,7 +3676,7 @@ xMin
 6
 )
 as
-u32
+i32
 (
 (
 cbox
@@ -3684,7 +3692,7 @@ yMin
 6
 )
 as
-u32
+i32
 )
 }
 _
@@ -3809,7 +3817,7 @@ floor
 )
 )
 as
-u32
+i32
 ;
 height
 =
@@ -3827,7 +3835,7 @@ floor
 )
 )
 as
-u32
+i32
 ;
 advance
 *
@@ -3921,7 +3929,7 @@ skew_max
 skew_min
 )
 as
-u32
+i32
 ;
 }
 if
@@ -6327,12 +6335,12 @@ width
 :
 actual_width
 as
-u32
+i32
 height
 :
 actual_height
 as
-u32
+i32
 scale
 format
 :

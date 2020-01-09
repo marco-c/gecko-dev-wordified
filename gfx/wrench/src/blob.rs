@@ -405,7 +405,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 )
 -
@@ -565,7 +565,7 @@ dirty_rect
 .
 unwrap_or
 (
-DeviceUintRect
+DeviceIntRect
 :
 :
 new
@@ -574,7 +574,7 @@ descriptor
 .
 offset
 .
-to_u32
+to_i32
 (
 )
 descriptor
@@ -604,10 +604,10 @@ size2
 (
 tile_size
 as
-u32
+i32
 tile_size
 as
-u32
+i32
 )
 tile_size
 tile
@@ -703,7 +703,7 @@ offset
 .
 x
 as
-u32
+i32
 ;
 let
 y2
@@ -716,7 +716,7 @@ offset
 .
 y
 as
-u32
+i32
 ;
 /
 /
@@ -1242,7 +1242,7 @@ _dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 )
 {
@@ -1467,7 +1467,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 }
 struct

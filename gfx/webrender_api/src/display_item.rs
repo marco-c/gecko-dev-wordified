@@ -2205,7 +2205,7 @@ image
 pub
 width
 :
-u32
+i32
 /
 /
 /
@@ -2221,7 +2221,7 @@ image
 pub
 height
 :
-u32
+i32
 /
 /
 /
@@ -2336,7 +2336,7 @@ slice
 :
 SideOffsets2D
 <
-u32
+i32
 >
 /
 /

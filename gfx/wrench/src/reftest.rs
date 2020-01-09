@@ -591,7 +591,7 @@ u8
 >
 size
 :
-DeviceUintSize
+DeviceIntSize
 }
 enum
 ReftestImageComparison
@@ -986,7 +986,11 @@ data
 .
 ]
 width
+as
+u32
 height
+as
+u32
 ColorType
 :
 :
@@ -3013,7 +3017,7 @@ into_raw
 )
 size
 :
-DeviceUintSize
+DeviceIntSize
 :
 :
 new
@@ -3021,9 +3025,13 @@ new
 size
 .
 0
+as
+i32
 size
 .
 1
+as
+i32
 )
 }
 }
@@ -3039,7 +3047,7 @@ filename
 Path
 size
 :
-DeviceUintSize
+DeviceIntSize
 font_render_mode
 :
 Option
@@ -3197,12 +3205,12 @@ rectangle
 let
 rect
 =
-DeviceUintRect
+DeviceIntRect
 :
 :
 new
 (
-DeviceUintPoint
+DeviceIntPoint
 :
 :
 new

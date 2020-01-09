@@ -135,12 +135,12 @@ BuiltDisplayList
 BuiltDisplayListDescriptor
 ColorF
 DeviceIntPoint
-DeviceUintRect
+DeviceIntRect
 }
 ;
 use
 {
-DeviceUintSize
+DeviceIntSize
 ExternalScrollId
 FontInstanceKey
 FontInstanceOptions
@@ -229,7 +229,7 @@ ImageKey
 SetImageVisibleArea
 (
 ImageKey
-DeviceUintRect
+DeviceIntRect
 )
 AddFont
 (
@@ -819,7 +819,7 @@ webrender_api
 :
 :
 {
-DeviceUintSize
+DeviceIntSize
 PipelineId
 RenderApiSender
 Transaction
@@ -1447,10 +1447,10 @@ mut
 self
 window_size
 :
-DeviceUintSize
+DeviceIntSize
 inner_rect
 :
-DeviceUintRect
+DeviceIntRect
 device_pixel_ratio
 :
 f32
@@ -2233,7 +2233,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 )
 {
@@ -2299,7 +2299,7 @@ key
 ImageKey
 area
 :
-DeviceUintRect
+DeviceIntRect
 )
 {
 self
@@ -2992,7 +2992,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 }
 #
@@ -3342,10 +3342,10 @@ SetWindowParameters
 {
 window_size
 :
-DeviceUintSize
+DeviceIntSize
 inner_rect
 :
-DeviceUintRect
+DeviceIntRect
 device_pixel_ratio
 :
 f32
@@ -3942,7 +3942,7 @@ PipelineId
 pub
 window_size
 :
-DeviceUintSize
+DeviceIntSize
 }
 #
 [
@@ -4412,7 +4412,7 @@ size
 AddDocument
 (
 DocumentId
-DeviceUintSize
+DeviceIntSize
 DocumentLayer
 )
 /
@@ -6207,7 +6207,7 @@ add_document
 self
 initial_size
 :
-DeviceUintSize
+DeviceIntSize
 layer
 :
 DocumentLayer
@@ -7453,10 +7453,10 @@ document_id
 DocumentId
 window_size
 :
-DeviceUintSize
+DeviceIntSize
 inner_rect
 :
-DeviceUintRect
+DeviceIntRect
 device_pixel_ratio
 :
 f32

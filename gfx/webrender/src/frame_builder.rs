@@ -74,9 +74,8 @@ api
 :
 :
 {
-DeviceUintPoint
-DeviceUintRect
-DeviceUintSize
+DeviceIntRect
+DeviceIntSize
 DocumentLayer
 FontRenderMode
 }
@@ -423,7 +422,7 @@ FrameBuilder
 {
 screen_rect
 :
-DeviceUintRect
+DeviceIntRect
 background_color
 :
 Option
@@ -432,7 +431,7 @@ ColorF
 >
 window_size
 :
-DeviceUintSize
+DeviceIntSize
 root_pic_index
 :
 PictureIndex
@@ -868,7 +867,7 @@ new
 )
 screen_rect
 :
-DeviceUintRect
+DeviceIntRect
 :
 :
 zero
@@ -876,7 +875,7 @@ zero
 )
 window_size
 :
-DeviceUintSize
+DeviceIntSize
 :
 :
 zero
@@ -922,7 +921,7 @@ with_display_list_flattener
 (
 screen_rect
 :
-DeviceUintRect
+DeviceIntRect
 background_color
 :
 Option
@@ -931,7 +930,7 @@ ColorF
 >
 window_size
 :
-DeviceUintSize
+DeviceIntSize
 flattener
 :
 DisplayListFlattener
@@ -1660,12 +1659,12 @@ build
 debug_assert
 !
 (
-DeviceUintRect
+DeviceIntRect
 :
 :
 new
 (
-DeviceUintPoint
+DeviceIntPoint
 :
 :
 zero

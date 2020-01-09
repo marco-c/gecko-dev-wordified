@@ -2342,7 +2342,7 @@ bounds
 left
 )
 as
-u32
+i32
 ;
 let
 height
@@ -2357,7 +2357,7 @@ bounds
 top
 )
 as
-u32
+i32
 ;
 /
 /
@@ -3367,7 +3367,7 @@ bounds
 left
 )
 as
-u32
+i32
 ;
 let
 height
@@ -3382,7 +3382,7 @@ bounds
 top
 )
 as
-u32
+i32
 ;
 /
 /

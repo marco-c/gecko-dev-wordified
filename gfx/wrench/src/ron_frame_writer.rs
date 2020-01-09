@@ -156,10 +156,10 @@ CachedImage
 {
 width
 :
-u32
+i32
 height
 :
-u32
+i32
 format
 :
 ImageFormat

@@ -72,7 +72,7 @@ api
 {
 DeviceIntPoint
 DeviceIntRect
-DeviceUintSize
+DeviceIntSize
 FontRenderMode
 }
 ;
@@ -449,7 +449,11 @@ ImageFormat
 :
 R8
 area_lut_width
+as
+i32
 area_lut_height
+as
+i32
 TextureFilter
 :
 :
@@ -632,7 +636,7 @@ f32
 target_size
 :
 &
-DeviceUintSize
+DeviceIntSize
 stats
 :
 &
@@ -1211,7 +1215,7 @@ len
 (
 )
 as
-u32
+i32
 TextureFilter
 :
 :
