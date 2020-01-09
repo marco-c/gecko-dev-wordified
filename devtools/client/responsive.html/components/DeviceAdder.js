@@ -872,7 +872,7 @@ viewport
 width
 height
 }
-onResizeViewport
+doResizeViewport
 :
 this
 .
