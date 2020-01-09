@@ -982,7 +982,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -2260,7 +2264,7 @@ err_rval
 \
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 kungFuDeathGrip
 =
@@ -9061,7 +9065,7 @@ nsGlobalWindowOuter
 :
 WouldReuseInnerWindow
 (
-nsIDocument
+Document
 *
 aNewDocument
 )
@@ -9934,7 +9938,7 @@ nsGlobalWindowOuter
 :
 ComputeIsSecureContext
 (
-nsIDocument
+Document
 *
 aDocument
 SecureContextFlags
@@ -10147,7 +10151,7 @@ is
 embedding
 us
 .
-nsIDocument
+Document
 *
 creatorDoc
 =
@@ -11274,7 +11278,7 @@ nsGlobalWindowOuter
 :
 SetNewDocument
 (
-nsIDocument
+Document
 *
 aDocument
 nsISupports
@@ -11417,9 +11421,9 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 oldDoc
 =
@@ -19005,7 +19009,7 @@ mDoc
 >
 WarnOnceAbout
 (
-nsIDocument
+Document
 :
 :
 eWindowContentUntrusted
@@ -24065,7 +24069,7 @@ static
 void
 FinishDOMFullscreenChange
 (
-nsIDocument
+Document
 *
 aDoc
 bool
@@ -24093,7 +24097,7 @@ change
 if
 (
 !
-nsIDocument
+Document
 :
 :
 HandlePendingFullscreenRequests
@@ -24122,7 +24126,7 @@ request
 exiting
 fullscreen
 .
-nsIDocument
+Document
 :
 :
 AsyncExitFullscreen
@@ -24155,7 +24159,7 @@ from
 DOM
 Fullscreen
 .
-nsIDocument
+Document
 :
 :
 ExitFullscreenInDocTree
@@ -29707,7 +29711,7 @@ parent
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 parentdoc
 =
@@ -32173,7 +32177,7 @@ nsGlobalWindowOuter
 :
 FirePopupBlockedEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsIURI
@@ -32358,7 +32362,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -32840,7 +32844,7 @@ other
 branches
 since
 the
-nsIDocument
+Document
 API
 we
 have
@@ -33055,7 +33059,7 @@ nsGlobalWindowOuter
 :
 SameLoadingURI
 (
-nsIDocument
+Document
 *
 aDoc
 nsIChannel
@@ -33779,7 +33783,7 @@ return
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 topDoc
 =
@@ -33837,7 +33841,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -34959,9 +34963,9 @@ if
 callerInnerWin
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -38325,7 +38329,7 @@ for
 different
 document
 .
-nsIDocument
+Document
 *
 topDoc
 =
@@ -38586,7 +38590,7 @@ mSuspendedDoc
 {
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 currentDoc
 =
@@ -39341,7 +39345,7 @@ rootWindow
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -40344,7 +40348,7 @@ a
 null
 parent
 .
-nsIDocument
+Document
 *
 doc
 =
@@ -40423,7 +40427,7 @@ if
 chromeElement
 )
 {
-nsIDocument
+Document
 *
 doc
 =
@@ -40824,7 +40828,7 @@ static
 bool
 NotifyDocumentTree
 (
-nsIDocument
+Document
 *
 aDocument
 void
@@ -44620,7 +44624,7 @@ creation
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -44702,7 +44706,7 @@ aURI
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -45296,7 +45300,7 @@ cpp
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -48456,7 +48460,7 @@ SetNewDocument
 .
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 document
 =
@@ -48563,7 +48567,7 @@ GetDocGroup
 )
 const
 {
-nsIDocument
+Document
 *
 doc
 =

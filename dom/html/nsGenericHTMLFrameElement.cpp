@@ -412,7 +412,7 @@ Destroy
 ;
 }
 }
-nsIDocument
+Document
 *
 nsGenericHTMLFrameElement
 :
@@ -444,6 +444,15 @@ return
 nullptr
 ;
 }
+<
+<
+<
+<
+<
+<
+<
+working
+copy
 nsPIDOMWindowOuter
 *
 window
@@ -527,7 +536,7 @@ return
 nullptr
 ;
 }
-nsIDocument
+Document
 *
 doc
 =
@@ -1176,7 +1185,7 @@ nsGenericHTMLFrameElement
 :
 BindToTree
 (
-nsIDocument
+Document
 *
 aDocument
 nsIContent
@@ -2148,7 +2157,7 @@ rv
 rv
 )
 ;
-nsIDocument
+Document
 *
 doc
 =

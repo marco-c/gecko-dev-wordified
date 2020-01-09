@@ -220,9 +220,6 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
 nsIPresShell
 ;
 struct
@@ -752,7 +749,10 @@ virtual
 nsresult
 OnSelectionChanged
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDoc
 dom

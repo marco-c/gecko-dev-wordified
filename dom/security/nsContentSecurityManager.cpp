@@ -845,7 +845,7 @@ context
 ;
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -1171,7 +1171,7 @@ AppendLiteral
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -1578,7 +1578,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDocument
+Document
 >
 doc
 ;
@@ -1950,7 +1950,7 @@ return
 false
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

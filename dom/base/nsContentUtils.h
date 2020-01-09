@@ -416,7 +416,11 @@ h
 #
 include
 "
-nsIDocument
+mozilla
+/
+dom
+/
+Document
 .
 h
 "
@@ -993,6 +997,16 @@ dom
 :
 Element
 Element
+;
+typedef
+mozilla
+:
+:
+dom
+:
+:
+Document
+Document
 ;
 typedef
 mozilla
@@ -1870,7 +1884,7 @@ static
 bool
 ShouldResistFingerprinting
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -3348,7 +3362,7 @@ than
 .
 *
 return
-nsIDocument
+Document
 *
 *
 A
@@ -3356,7 +3370,7 @@ pointer
 to
 the
 found
-nsIDocument
+Document
 .
 nullptr
 if
@@ -3397,11 +3411,11 @@ aDocument
 *
 /
 static
-nsIDocument
+Document
 *
 GetSubdocumentWithOuterWindowId
 (
-nsIDocument
+Document
 *
 aDocument
 uint64_t
@@ -4590,7 +4604,7 @@ GenerateStateKey
 nsIContent
 *
 aContent
-nsIDocument
+Document
 *
 aDocument
 nsACString
@@ -4645,7 +4659,7 @@ const
 nsAString
 &
 aSpec
-nsIDocument
+Document
 *
 aDocument
 nsIURI
@@ -5141,10 +5155,10 @@ static
 bool
 HaveEqualPrincipals
 (
-nsIDocument
+Document
 *
 aDoc1
-nsIDocument
+Document
 *
 aDoc2
 )
@@ -5574,7 +5588,7 @@ aURI
 nsINode
 *
 aNode
-nsIDocument
+Document
 *
 aLoadingDocument
 nsIPrincipal
@@ -5605,7 +5619,7 @@ static
 bool
 DocumentInactiveForImageLoads
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -5852,7 +5866,7 @@ aURI
 nsINode
 *
 aContext
-nsIDocument
+Document
 *
 aLoadingDocument
 nsIPrincipal
@@ -5936,7 +5950,7 @@ imgLoader
 *
 GetImgLoaderForDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -5949,7 +5963,7 @@ GetImgLoaderForChannel
 nsIChannel
 *
 aChannel
-nsIDocument
+Document
 *
 aContext
 )
@@ -5978,7 +5992,7 @@ IsImageInCache
 nsIURI
 *
 aURI
-nsIDocument
+Document
 *
 aDocument
 )
@@ -6074,7 +6088,7 @@ imgRequestProxy
 >
 GetStaticRequest
 (
-nsIDocument
+Document
 *
 aLoadingDocument
 imgRequestProxy
@@ -6383,7 +6397,7 @@ mozilla
 OriginAttributes
 GetOriginAttributes
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -6437,7 +6451,7 @@ static
 bool
 IsInPrivateBrowsing
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -6879,7 +6893,7 @@ nsACString
 &
 aCategory
 const
-nsIDocument
+Document
 *
 aDocument
 nsIURI
@@ -7335,7 +7349,7 @@ nsACString
 &
 aCategory
 const
-nsIDocument
+Document
 *
 aDocument
 PropertiesFile
@@ -7383,7 +7397,7 @@ void
 ReportEmptyGetElementByIdArg
 (
 const
-nsIDocument
+Document
 *
 aDoc
 )
@@ -8101,7 +8115,7 @@ static
 bool
 IsChromeDoc
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -8130,7 +8144,7 @@ static
 bool
 IsChildOfSameType
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -8245,7 +8259,7 @@ static
 bool
 IsInChromeDocshell
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -8683,7 +8697,7 @@ static
 bool
 HasMutationListeners
 (
-nsIDocument
+Document
 *
 aDocument
 uint32_t
@@ -8829,7 +8843,7 @@ created
 by
 calling
 *
-nsIDocument
+Document
 :
 :
 CreateEvent
@@ -8952,7 +8966,7 @@ static
 nsresult
 DispatchTrustedEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -8982,7 +8996,7 @@ static
 nsresult
 DispatchTrustedEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -9117,7 +9131,7 @@ static
 nsresult
 DispatchTrustedEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -9349,7 +9363,7 @@ created
 by
 calling
 *
-nsIDocument
+Document
 :
 :
 CreateEvent
@@ -9441,7 +9455,7 @@ static
 nsresult
 DispatchUntrustedEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -9561,7 +9575,7 @@ static
 nsresult
 DispatchUntrustedEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -9704,7 +9718,7 @@ created
 by
 calling
 *
-nsIDocument
+Document
 :
 :
 CreateEvent
@@ -9813,7 +9827,7 @@ static
 nsresult
 DispatchChromeEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -9973,7 +9987,7 @@ created
 by
 calling
 *
-nsIDocument
+Document
 :
 :
 CreateEvent
@@ -10065,7 +10079,7 @@ static
 nsresult
 DispatchEventOnlyToChrome
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -11204,7 +11218,7 @@ const
 nsAString
 &
 aSourceBuffer
-nsIDocument
+Document
 *
 aDocument
 nsTArray
@@ -11329,7 +11343,7 @@ const
 nsAString
 &
 aSourceBuffer
-nsIDocument
+Document
 *
 aTargetDocument
 bool
@@ -12564,7 +12578,7 @@ static
 void
 HidePopupsInDocument
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -12794,7 +12808,7 @@ static
 void
 GetOfflineAppManifest
 (
-nsIDocument
+Document
 *
 aDocument
 nsIURI
@@ -13298,7 +13312,7 @@ static
 void
 WarnScriptWasIgnored
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -13607,7 +13621,7 @@ static
 nsresult
 ProcessViewportInfo
 (
-nsIDocument
+Document
 *
 aDocument
 const
@@ -14798,7 +14812,7 @@ nsIPresShell
 FindPresShellForDocument
 (
 const
-nsIDocument
+Document
 *
 aDoc
 )
@@ -14883,7 +14897,7 @@ nsIWidget
 WidgetForDocument
 (
 const
-nsIDocument
+Document
 *
 aDoc
 )
@@ -15063,7 +15077,7 @@ LayerManager
 LayerManagerForDocument
 (
 const
-nsIDocument
+Document
 *
 aDoc
 )
@@ -15287,7 +15301,7 @@ LayerManager
 >
 PersistentLayerManagerForDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -16000,7 +16014,7 @@ static
 void
 FireMutationEventsForDirectParsing
 (
-nsIDocument
+Document
 *
 aDoc
 nsIContent
@@ -16101,11 +16115,11 @@ document
 *
 /
 static
-nsIDocument
+Document
 *
 GetRootDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -16684,7 +16698,7 @@ aValue
 nsAString
 &
 aPattern
-nsIDocument
+Document
 *
 aDocument
 )
@@ -18914,7 +18928,7 @@ nsPIWindowRoot
 >
 GetWindowRoot
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -19039,7 +19053,7 @@ SetFetchReferrerURIWithPolicy
 nsIPrincipal
 *
 aPrincipal
-nsIDocument
+Document
 *
 aDoc
 nsIHttpChannel
@@ -19548,7 +19562,7 @@ static
 StorageAccess
 StorageAllowedForDocument
 (
-nsIDocument
+Document
 *
 aDoc
 )
@@ -19724,7 +19738,7 @@ static
 bool
 StorageDisabledByAntiTracking
 (
-nsIDocument
+Document
 *
 aDocument
 nsIURI
@@ -20248,7 +20262,7 @@ static
 bool
 HttpsStateIsModern
 (
-nsIDocument
+Document
 *
 aDocument
 )
@@ -20371,7 +20385,7 @@ CustomElementRegistry
 *
 GetCustomElementRegistry
 (
-nsIDocument
+Document
 *
 )
 ;
@@ -20424,7 +20438,7 @@ CustomElementDefinition
 *
 LookupCustomElementDefinition
 (
-nsIDocument
+Document
 *
 aDoc
 nsAtom
@@ -20492,7 +20506,7 @@ static
 void
 EnqueueLifecycleCallback
 (
-nsIDocument
+Document
 :
 :
 ElementCallbackType
@@ -20603,7 +20617,7 @@ static
 void
 AppendDocumentLevelNativeAnonymousContentTo
 (
-nsIDocument
+Document
 *
 aDocument
 nsTArray
@@ -22010,7 +22024,7 @@ static
 nsresult
 DispatchEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports
@@ -22041,7 +22055,7 @@ static
 nsresult
 DispatchEvent
 (
-nsIDocument
+Document
 *
 aDoc
 nsISupports

@@ -638,7 +638,7 @@ AccessibleCaretManager
 :
 OnSelectionChanged
 (
-nsIDocument
+Document
 *
 aDoc
 Selection
@@ -4759,7 +4759,7 @@ const
 {
 RefPtr
 <
-nsIDocument
+Document
 >
 doc
 =
@@ -5399,7 +5399,7 @@ true
 ;
 if
 (
-nsIDocument
+Document
 *
 doc
 =
@@ -7596,7 +7596,7 @@ sel
 return
 ;
 }
-nsIDocument
+Document
 *
 doc
 =

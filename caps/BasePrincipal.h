@@ -167,6 +167,13 @@ namespace
 mozilla
 {
 namespace
+dom
+{
+class
+Document
+;
+}
+namespace
 extensions
 {
 class
@@ -598,7 +605,10 @@ override
 NS_IMETHOD
 EnsureCSP
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIContentSecurityPolicy
@@ -621,7 +631,10 @@ override
 NS_IMETHOD
 EnsurePreloadCSP
 (
-nsIDocument
+dom
+:
+:
+Document
 *
 aDocument
 nsIContentSecurityPolicy
