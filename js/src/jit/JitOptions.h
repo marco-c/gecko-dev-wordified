@@ -412,6 +412,12 @@ enableWasmJitEntry
 bool
 enableWasmIonFastCalls
 ;
+bool
+enableWasmImportCallSpew
+;
+bool
+enableWasmFuncCallSpew
+;
 #
 endif
 uint32_t
