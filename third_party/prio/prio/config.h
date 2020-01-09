@@ -118,11 +118,8 @@ inv2
 int
 n_roots
 ;
-MPArray
-roots
-;
-MPArray
-rootsInv
+mp_int
+generator
 ;
 }
 ;

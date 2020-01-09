@@ -240,8 +240,7 @@ object
 SECStatus
 poly_fft_get_roots
 (
-mp_int
-*
+MPArray
 roots_out
 int
 n_points
