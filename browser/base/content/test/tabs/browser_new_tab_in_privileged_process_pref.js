@@ -272,6 +272,7 @@ parameters
 .
 *
 /
+async
 function
 checkBrowserRemoteType
 (
@@ -514,6 +515,7 @@ function
 browser1
 )
 {
+await
 checkBrowserRemoteType
 (
 browser1
@@ -709,6 +711,7 @@ function
 browser
 )
 {
+await
 checkBrowserRemoteType
 (
 browser
@@ -897,6 +900,7 @@ false
 url
 )
 ;
+await
 checkBrowserRemoteType
 (
 browser
@@ -985,6 +989,7 @@ function
 browser
 )
 {
+await
 checkBrowserRemoteType
 (
 browser
@@ -1212,6 +1217,7 @@ false
 TEST_HTTP
 )
 ;
+await
 checkBrowserRemoteType
 (
 browser
@@ -1412,6 +1418,7 @@ SSTabRestored
 "
 )
 ;
+await
 checkBrowserRemoteType
 (
 browser
@@ -1515,6 +1522,7 @@ false
 TEST_HTTP
 )
 ;
+await
 checkBrowserRemoteType
 (
 browser
