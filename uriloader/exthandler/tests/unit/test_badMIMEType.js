@@ -193,9 +193,6 @@ length
 ;
 try
 {
-var
-type
-=
 Cc
 [
 "
@@ -272,9 +269,6 @@ can
 t
 be
 determined
-}
-finally
-{
 }
 /
 /
