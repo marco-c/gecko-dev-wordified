@@ -1073,6 +1073,14 @@ getExternalFilesDir
 null
 )
 ;
+if
+(
+f
+!
+=
+null
+)
+{
 putenv
 (
 "
@@ -1087,6 +1095,7 @@ getPath
 )
 )
 ;
+}
 if
 (
 Build
