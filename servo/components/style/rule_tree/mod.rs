@@ -3678,6 +3678,11 @@ clone_arc
 level
 )
 ;
+*
+important_rules_changed
+=
+true
+;
 }
 }
 else
