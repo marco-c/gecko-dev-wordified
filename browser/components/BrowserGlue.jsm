@@ -3833,6 +3833,17 @@ insecureLoginFormPresent
 LoginManagerParent
 "
 ]
+"
+PasswordManager
+:
+OpenPreferences
+"
+:
+[
+"
+LoginManagerParent
+"
+]
 /
 /
 PLEASE

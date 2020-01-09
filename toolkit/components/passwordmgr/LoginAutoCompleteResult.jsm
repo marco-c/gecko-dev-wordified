@@ -352,9 +352,16 @@ this
 .
 _showAutoCompleteFooter
 =
+(
 LoginHelper
 .
 showAutoCompleteFooter
+&
+&
+LoginHelper
+.
+enabled
+)
 ?
 1
 :
