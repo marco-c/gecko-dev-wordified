@@ -323,7 +323,7 @@ describeContents
 )
 {
 return
-0
+CONTENTS_FILE_DESCRIPTOR
 ;
 }
 Override
