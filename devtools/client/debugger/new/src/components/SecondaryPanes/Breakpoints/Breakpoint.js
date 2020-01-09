@@ -349,6 +349,12 @@ typeof
 actions
 .
 disableBreakpoint
+setBreakpointCondition
+:
+typeof
+actions
+.
+setBreakpointCondition
 toggleAllBreakpoints
 :
 typeof
@@ -1125,6 +1131,11 @@ selectLocation
 actions
 .
 selectLocation
+setBreakpointCondition
+:
+actions
+.
+setBreakpointCondition
 toggleAllBreakpoints
 :
 actions
