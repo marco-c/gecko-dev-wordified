@@ -433,6 +433,14 @@ findSidebarItemByText
 sidebarName
 document
 )
+&
+&
+!
+findSidebarItemByText
+(
+runtimeName
+document
+)
 )
 ;
 info
