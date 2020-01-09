@@ -626,7 +626,7 @@ tabonly
 title
 :
 "
-sidebaronly
+tabonly
 "
 viewTypes
 :
