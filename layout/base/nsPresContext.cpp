@@ -10967,17 +10967,6 @@ aRestyleHint
 )
 ;
 }
-struct
-MediaFeatureHints
-{
-nsRestyleHint
-restyleHint
-;
-nsChangeHint
-changeHint
-;
-}
-;
 static
 bool
 MediaFeatureValuesChangedAllDocumentsCallback
