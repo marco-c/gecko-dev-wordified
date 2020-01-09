@@ -13424,10 +13424,10 @@ if
 self
 .
 requested_frame
++
+1
 <
 max_frame_count
--
-1
 {
 self
 .
