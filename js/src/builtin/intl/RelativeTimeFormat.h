@@ -370,7 +370,9 @@ RelativeTimeFormat
 .
 *
 *
+|
 t
+|
 should
 be
 a
@@ -383,7 +385,9 @@ be
 formatted
 .
 *
+|
 unit
+|
 should
 be
 "
@@ -404,6 +408,7 @@ week
 "
 month
 "
+*
 "
 quarter
 "
@@ -413,7 +418,9 @@ year
 "
 .
 *
+|
 numeric
+|
 should
 be
 "
@@ -434,6 +441,7 @@ intl_FormatRelativeTime
 (
 relativeTimeFormat
 t
+*
 unit
 numeric
 )

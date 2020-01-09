@@ -708,8 +708,7 @@ payload_
 -
 -
 -
--
-=
+*
 TraceLoggerEventPayload
 *
 (
@@ -718,6 +717,7 @@ incl
 last
 bit
 )
+*
 *
 payload_
 =
@@ -745,7 +745,7 @@ payload_
 -
 -
 -
-=
+*
 TraceLoggerTextId
 (
 excl

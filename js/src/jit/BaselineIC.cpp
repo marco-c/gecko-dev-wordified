@@ -28374,6 +28374,8 @@ necessary
 Stack
 Layout
 :
+/
+/
 [
 .
 .
@@ -28388,6 +28390,8 @@ ArgNVal
 [
 newTarget
 ]
+/
+/
 +
 ICStackValueOffset
 +
@@ -28868,6 +28872,8 @@ Arg0V
 .
 ArgNV
 NewTarget
+/
+/
 StubFrameHeader
 ArgC
 ]
@@ -29216,6 +29222,8 @@ ArgNV
 [
 NewTarget
 ]
+/
+/
 StubFrameHeader
 ]
 if
@@ -29914,6 +29922,8 @@ ARGVALS
 ThisVal
 ActualArgc
 Callee
+/
+/
 Descriptor
 ]
 /
@@ -29934,13 +29944,13 @@ t
 been
 traced
 .
+/
+/
 We
 need
 to
 use
-/
-/
-The
+the
 ThisVal
 higher
 up
@@ -29966,10 +29976,10 @@ FRAME
 .
 .
 .
-/
-/
 Padding
 ?
+/
+/
 ARGVALS
 .
 .
@@ -30004,11 +30014,15 @@ sizeof
 (
 Descriptor
 )
+/
+/
 +
 sizeof
 (
 Callee
 )
+/
+/
 +
 sizeof
 (
@@ -30028,6 +30042,8 @@ sizeof
 (
 ICStubReg
 )
+/
+/
 -
 sizeof
 (
@@ -30169,6 +30185,8 @@ argcReg
 Current
 stack
 :
+/
+/
 [
 ThisVal
 ARGVALS
@@ -30419,6 +30437,8 @@ masm
 Stack
 Layout
 :
+/
+/
 [
 .
 .
@@ -34066,6 +34086,8 @@ R1
 Stack
 Layout
 :
+/
+/
 [
 .
 .
@@ -34077,6 +34099,8 @@ Arg0Val
 .
 .
 ArgNVal
+/
+/
 +
 ICStackValueOffset
 +

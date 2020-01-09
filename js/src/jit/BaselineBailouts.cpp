@@ -2518,6 +2518,8 @@ pointer
 /
 /
 STACK_START_ADDR
+/
+/
 +
 JitFrameLayout
 :
@@ -2525,6 +2527,8 @@ JitFrameLayout
 Size
 (
 )
+/
+/
 +
 PREV_FRAME_SIZE
 /

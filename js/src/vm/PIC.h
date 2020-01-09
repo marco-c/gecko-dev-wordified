@@ -778,9 +778,6 @@ modified
 ArrayIterator
 .
 prototype
-(
-arrayIteratorProto_
-)
 *
 ArrayIterator
 .
@@ -788,7 +785,9 @@ prototype
 '
 s
 shape
+*
 (
+arrayIteratorProto_
 arrayIteratorProtoShape_
 )
 *
@@ -815,9 +814,6 @@ slot
 number
 for
 iterator
-(
-arrayProtoIteratorSlot_
-)
 *
 Array
 .
@@ -828,7 +824,9 @@ canonical
 value
 for
 iterator
+*
 (
+arrayProtoIteratorSlot_
 canonicalIteratorFunc_
 )
 *
@@ -863,9 +861,6 @@ for
 '
 next
 '
-(
-arrayIteratorProtoNextSlot_
-)
 *
 ArrayIterator
 .
@@ -878,7 +873,9 @@ for
 '
 next
 '
+*
 (
+arrayIteratorProtoNextSlot_
 canonicalNextFunc_
 )
 *
@@ -894,8 +891,8 @@ next
 '
 method
 for
-ArrayIterator
 *
+ArrayIterator
 objects
 has
 not
