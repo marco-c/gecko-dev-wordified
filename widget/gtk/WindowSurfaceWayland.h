@@ -278,6 +278,9 @@ aSurface
 void
 Detach
 (
+wl_buffer
+*
+aBuffer
 )
 ;
 bool
