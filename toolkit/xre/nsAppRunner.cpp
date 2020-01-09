@@ -1937,6 +1937,7 @@ variable
 .
 static
 void
+MOZ_NEVER_INLINE
 SaveWordToEnv
 (
 const

@@ -2109,6 +2109,7 @@ to
 environment
 variable
 .
+MOZ_NEVER_INLINE
 inline
 void
 SaveToEnv
