@@ -207,6 +207,10 @@ mApplyingAnchorAdjustment
 (
 false
 )
+mSuppressAnchorAdjustment
+(
+false
+)
 {
 }
 ScrollAnchorContainer

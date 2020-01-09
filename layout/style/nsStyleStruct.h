@@ -12557,6 +12557,16 @@ aNewData
 )
 const
 ;
+bool
+TransformChanged
+(
+const
+nsStyleDisplay
+&
+aNewData
+)
+const
+;
 /
 /
 We
