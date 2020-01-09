@@ -2869,6 +2869,9 @@ const
 listener
 =
 prop
+&
+&
+prop
 .
 __reactBoundMethod
 |
@@ -3025,6 +3028,14 @@ React
 16
 }
 return
+value
+&
+&
+value
+.
+_currentElement
+&
+&
 value
 .
 _currentElement
