@@ -819,8 +819,10 @@ t
 package
 about
 :
-or
 data
+:
+or
+chrome
 :
 URIs
 .
