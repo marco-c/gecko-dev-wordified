@@ -639,10 +639,7 @@ execute_script
 "
         
 let
-{
-width
-height
-}
+rect
 =
 document
 .
@@ -655,7 +652,11 @@ getBoundingClientRect
         
 return
 [
+rect
+.
 width
+rect
+.
 height
 ]
 ;
@@ -1030,12 +1031,7 @@ arguments
 ;
         
 let
-{
-height
-left
-top
-width
-}
+rect
 =
 element
 .
@@ -1049,6 +1045,8 @@ return
             
 x
 :
+rect
+.
 left
 +
 window
@@ -1057,6 +1055,8 @@ pageXOffset
             
 y
 :
+rect
+.
 top
 +
 window
@@ -1065,10 +1065,14 @@ pageYOffset
             
 width
 :
+rect
+.
 width
             
 height
 :
+rect
+.
 height
         
 }
