@@ -1485,8 +1485,21 @@ kwargs
 binary
 '
 ]
+                                         
+xre
+=
+True
 )
 :
+#
+Equivalent
+to
+'
+run_local
+'
+=
+True
+.
                 
 return
 1
