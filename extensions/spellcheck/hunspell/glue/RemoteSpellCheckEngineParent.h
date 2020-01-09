@@ -86,7 +86,7 @@ nsTArray
 h
 "
 class
-nsISpellChecker
+mozSpellChecker
 ;
 namespace
 mozilla
@@ -210,9 +210,9 @@ override
 ;
 private
 :
-nsCOMPtr
+RefPtr
 <
-nsISpellChecker
+mozSpellChecker
 >
 mSpellChecker
 ;
