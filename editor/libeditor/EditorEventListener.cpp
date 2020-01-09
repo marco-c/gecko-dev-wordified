@@ -1547,6 +1547,10 @@ UninstallFromEditor
 (
 )
 {
+CleanupDragDropCaret
+(
+)
+;
 nsCOMPtr
 <
 EventTarget
