@@ -2857,6 +2857,7 @@ if
 (
 count
 )
+{
 count
 .
 value
@@ -2865,6 +2866,7 @@ disabledHosts
 .
 length
 ;
+}
 /
 /
 needed

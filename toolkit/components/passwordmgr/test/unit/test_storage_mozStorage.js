@@ -248,6 +248,7 @@ exists
 (
 )
 )
+{
 file
 .
 remove
@@ -255,6 +256,7 @@ remove
 false
 )
 ;
+}
 }
 catch
 (
@@ -2244,6 +2246,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -2261,6 +2264,7 @@ i
 )
 )
 ;
+}
 dbConnection
 .
 close
@@ -2480,6 +2484,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -2497,6 +2502,7 @@ i
 )
 )
 ;
+}
 /
 /
 Reload
@@ -2564,6 +2570,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -2581,6 +2588,7 @@ i
 )
 )
 ;
+}
 /
 /
 Sanity
@@ -2676,6 +2684,7 @@ i
 +
 +
 )
+{
 Assert
 .
 equal
@@ -2693,6 +2702,7 @@ i
 )
 )
 ;
+}
 dbConnection
 .
 close

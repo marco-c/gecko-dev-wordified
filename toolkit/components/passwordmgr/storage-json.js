@@ -307,6 +307,7 @@ this
 .
 __crypto
 )
+{
 this
 .
 __crypto
@@ -337,6 +338,7 @@ Ci
 nsILoginManagerCrypto
 )
 ;
+}
 return
 this
 .
@@ -1143,12 +1145,14 @@ loginClone
 .
 timeCreated
 )
+{
 loginClone
 .
 timeCreated
 =
 currentTime
 ;
+}
 if
 (
 !
@@ -1156,12 +1160,14 @@ loginClone
 .
 timeLastUsed
 )
+{
 loginClone
 .
 timeLastUsed
 =
 currentTime
 ;
+}
 if
 (
 !
@@ -1169,12 +1175,14 @@ loginClone
 .
 timePasswordChanged
 )
+{
 loginClone
 .
 timePasswordChanged
 =
 currentTime
 ;
+}
 if
 (
 !
@@ -1182,12 +1190,14 @@ loginClone
 .
 timesUsed
 )
+{
 loginClone
 .
 timesUsed
 =
 1
 ;
+}
 this
 .
 _store
@@ -1334,6 +1344,7 @@ if
 !
 idToDelete
 )
+{
 throw
 new
 Error
@@ -1345,6 +1356,7 @@ logins
 "
 )
 ;
+}
 let
 foundIndex
 =
@@ -1444,6 +1456,7 @@ if
 !
 idToModify
 )
+{
 throw
 new
 Error
@@ -1455,6 +1468,7 @@ logins
 "
 )
 ;
+}
 let
 newLogin
 =
@@ -1575,6 +1589,7 @@ true
 )
 )
 )
+{
 throw
 new
 Error
@@ -1588,6 +1603,7 @@ exists
 "
 )
 ;
+}
 }
 /
 /
@@ -1832,6 +1848,7 @@ if
 (
 count
 )
+{
 count
 .
 value
@@ -1840,6 +1857,7 @@ logins
 .
 length
 ;
+}
 /
 /
 needed
@@ -2686,6 +2704,7 @@ httpRealm
 "
 ]
 )
+{
 if
 (
 loginData
@@ -2697,6 +2716,7 @@ field
 "
 "
 )
+{
 matchData
 [
 field
@@ -2707,6 +2727,8 @@ loginData
 field
 ]
 ;
+}
+}
 let
 [
 logins
@@ -2811,6 +2833,7 @@ httpRealm
 "
 ]
 )
+{
 if
 (
 loginData
@@ -2822,6 +2845,7 @@ field
 "
 "
 )
+{
 matchData
 [
 field
@@ -2832,6 +2856,8 @@ loginData
 field
 ]
 ;
+}
+}
 let
 [
 logins
@@ -2972,6 +2998,7 @@ httpRealm
 "
 ]
 )
+{
 if
 (
 login
@@ -2983,6 +3010,7 @@ field
 "
 "
 )
+{
 matchData
 [
 field
@@ -2993,6 +3021,8 @@ login
 field
 ]
 ;
+}
+}
 let
 [
 logins
@@ -3115,8 +3145,10 @@ equals
 login
 )
 )
+{
 continue
 ;
+}
 /
 /
 We
@@ -3471,8 +3503,10 @@ Cr
 .
 NS_ERROR_FAILURE
 )
+{
 continue
 ;
+}
 throw
 e
 ;

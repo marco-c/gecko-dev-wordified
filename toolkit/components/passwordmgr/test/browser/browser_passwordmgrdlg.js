@@ -980,6 +980,7 @@ aTopic
 domwindowclosed
 "
 )
+{
 Services
 .
 ww
@@ -989,6 +990,7 @@ unregisterNotification
 notification
 )
 ;
+}
 else
 if
 (
@@ -1311,15 +1313,19 @@ tests
 .
 length
 )
+{
 runNextTest
 (
 )
 ;
+}
 else
+{
 endFunction
 (
 )
 ;
+}
 }
 function
 runNextTest

@@ -329,6 +329,7 @@ i
 +
 +
 )
+{
 Services
 .
 logins
@@ -376,6 +377,7 @@ i
 )
 )
 ;
+}
 /
 /
 Open
@@ -589,6 +591,7 @@ aTopic
 domwindowclosed
 "
 )
+{
 Services
 .
 ww
@@ -598,6 +601,7 @@ unregisterNotification
 notification
 )
 ;
+}
 else
 if
 (
@@ -829,8 +833,10 @@ nodeName
 treecol
 "
 )
+{
 continue
 ;
+}
 hasAttr
 =
 col
@@ -976,6 +982,7 @@ i
 +
 +
 )
+{
 is
 (
 actualValues
@@ -996,6 +1003,7 @@ entry
 i
 )
 ;
+}
 }
 function
 getColumnEntries
@@ -1043,6 +1051,7 @@ i
 +
 +
 )
+{
 entries
 .
 push
@@ -1058,6 +1067,7 @@ column
 )
 )
 ;
+}
 return
 entries
 ;

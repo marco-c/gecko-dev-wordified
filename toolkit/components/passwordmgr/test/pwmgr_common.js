@@ -318,8 +318,10 @@ numToCheck
 -
 -
 )
+{
 return
 ;
+}
 e
 =
 form
@@ -336,6 +338,7 @@ val1
 =
 null
 )
+{
 is
 (
 e
@@ -364,7 +367,9 @@ form
 formNum
 )
 ;
+}
 else
+{
 is
 (
 e
@@ -390,6 +395,7 @@ form
 formNum
 )
 ;
+}
 if
 (
 !
@@ -397,8 +403,10 @@ numToCheck
 -
 -
 )
+{
 return
 ;
+}
 e
 =
 form
@@ -415,6 +423,7 @@ val2
 =
 null
 )
+{
 is
 (
 e
@@ -443,7 +452,9 @@ form
 formNum
 )
 ;
+}
 else
+{
 is
 (
 e
@@ -469,6 +480,7 @@ form
 formNum
 )
 ;
+}
 if
 (
 !
@@ -476,8 +488,10 @@ numToCheck
 -
 -
 )
+{
 return
 ;
+}
 e
 =
 form
@@ -494,6 +508,7 @@ val3
 =
 null
 )
+{
 is
 (
 e
@@ -522,7 +537,9 @@ form
 formNum
 )
 ;
+}
 else
+{
 is
 (
 e
@@ -548,6 +565,7 @@ form
 formNum
 )
 ;
+}
 }
 /
 *
@@ -678,8 +696,10 @@ type
 reset
 "
 )
+{
 continue
 ;
+}
 is
 (
 ele
@@ -899,6 +919,7 @@ host
 of
 disabledHosts
 )
+{
 pwmgr
 .
 setLoginSavingEnabled
@@ -907,6 +928,7 @@ host
 true
 )
 ;
+}
 }
 /
 /
@@ -1054,8 +1076,10 @@ if
 (
 selfFilling
 )
+{
 return
 ;
+}
 if
 (
 this
@@ -1278,8 +1302,10 @@ id
 observerforcer
 "
 )
+{
 return
 ;
+}
 SpecialPowers
 .
 removeObserver
@@ -1637,6 +1663,7 @@ i
 +
 +
 )
+{
 dumpLogin
 (
 "
@@ -1657,6 +1684,7 @@ i
 ]
 )
 ;
+}
 }
 function
 dumpLogin

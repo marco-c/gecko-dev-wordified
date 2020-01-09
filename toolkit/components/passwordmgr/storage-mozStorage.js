@@ -241,6 +241,7 @@ this
 .
 _hasTransaction
 )
+{
 this
 .
 _db
@@ -249,6 +250,7 @@ commitTransaction
 (
 )
 ;
+}
 }
 rollback
 (
@@ -260,6 +262,7 @@ this
 .
 _hasTransaction
 )
+{
 this
 .
 _db
@@ -268,6 +271,7 @@ rollbackTransaction
 (
 )
 ;
+}
 }
 }
 ;
@@ -413,6 +417,7 @@ this
 .
 __crypto
 )
+{
 this
 .
 __crypto
@@ -443,6 +448,7 @@ Ci
 nsILoginManagerCrypto
 )
 ;
+}
 return
 this
 .
@@ -474,6 +480,7 @@ this
 .
 __profileDir
 )
+{
 this
 .
 __profileDir
@@ -492,6 +499,7 @@ Ci
 nsIFile
 )
 ;
+}
 return
 this
 .
@@ -513,6 +521,7 @@ this
 .
 __uuidService
 )
+{
 this
 .
 __uuidService
@@ -539,6 +548,7 @@ Ci
 nsIUUIDGenerator
 )
 ;
+}
 return
 this
 .
@@ -853,12 +863,14 @@ if
 (
 aDBFile
 )
+{
 this
 .
 _signonsFile
 =
 aDBFile
 ;
+}
 this
 .
 initialize
@@ -1052,6 +1064,7 @@ Import
 failed
 "
 )
+{
 this
 .
 _dbCleanup
@@ -1059,6 +1072,7 @@ _dbCleanup
 false
 )
 ;
+}
 throw
 new
 Error
@@ -1231,6 +1245,7 @@ loginClone
 guid
 )
 )
+{
 throw
 new
 Error
@@ -1243,6 +1258,7 @@ exists
 "
 )
 ;
+}
 }
 else
 {
@@ -1283,12 +1299,14 @@ loginClone
 .
 timeCreated
 )
+{
 loginClone
 .
 timeCreated
 =
 currentTime
 ;
+}
 if
 (
 !
@@ -1296,12 +1314,14 @@ loginClone
 .
 timeLastUsed
 )
+{
 loginClone
 .
 timeLastUsed
 =
 currentTime
 ;
+}
 if
 (
 !
@@ -1309,12 +1329,14 @@ loginClone
 .
 timePasswordChanged
 )
+{
 loginClone
 .
 timePasswordChanged
 =
 currentTime
 ;
+}
 if
 (
 !
@@ -1322,12 +1344,14 @@ loginClone
 .
 timesUsed
 )
+{
 loginClone
 .
 timesUsed
 =
 1
 ;
+}
 let
 query
 =
@@ -1600,6 +1624,7 @@ if
 !
 idToDelete
 )
+{
 throw
 new
 Error
@@ -1611,6 +1636,7 @@ logins
 "
 )
 ;
+}
 /
 /
 Execute
@@ -1792,6 +1818,7 @@ if
 !
 idToModify
 )
+{
 throw
 new
 Error
@@ -1803,6 +1830,7 @@ logins
 "
 )
 ;
+}
 let
 newLogin
 =
@@ -1923,6 +1951,7 @@ true
 )
 )
 )
+{
 throw
 new
 Error
@@ -1936,6 +1965,7 @@ exists
 "
 )
 ;
+}
 }
 /
 /
@@ -2306,6 +2336,7 @@ if
 (
 count
 )
+{
 count
 .
 value
@@ -2314,6 +2345,7 @@ logins
 .
 length
 ;
+}
 /
 /
 needed
@@ -3405,12 +3437,14 @@ if
 (
 stmt
 )
+{
 stmt
 .
 reset
 (
 )
 ;
+}
 }
 }
 /
@@ -3645,6 +3679,7 @@ httpRealm
 "
 ]
 )
+{
 if
 (
 loginData
@@ -3656,6 +3691,7 @@ field
 "
 "
 )
+{
 matchData
 [
 field
@@ -3666,6 +3702,8 @@ loginData
 field
 ]
 ;
+}
+}
 let
 [
 logins
@@ -4052,6 +4090,7 @@ httpRealm
 "
 ]
 )
+{
 if
 (
 login
@@ -4063,6 +4102,7 @@ field
 "
 "
 )
+{
 matchData
 [
 field
@@ -4073,6 +4113,8 @@ login
 field
 ]
 ;
+}
+}
 let
 [
 logins
@@ -4195,8 +4237,10 @@ equals
 login
 )
 )
+{
 continue
 ;
+}
 /
 /
 We
@@ -4846,8 +4890,10 @@ Cr
 .
 NS_ERROR_FAILURE
 )
+{
 continue
 ;
+}
 throw
 e
 ;
@@ -4984,6 +5030,7 @@ if
 (
 params
 )
+{
 for
 (
 let
@@ -4991,6 +5038,7 @@ i
 in
 params
 )
+{
 wrappedStmt
 .
 params
@@ -5003,6 +5051,8 @@ params
 i
 ]
 ;
+}
+}
 return
 wrappedStmt
 ;
@@ -5346,6 +5396,7 @@ _dbSchema
 .
 tables
 )
+{
 this
 .
 _dbConnection
@@ -5363,6 +5414,7 @@ name
 ]
 )
 ;
+}
 }
 _dbCreateIndices
 (
@@ -5570,6 +5622,7 @@ _dbAreExpectedColumnsPresent
 (
 )
 )
+{
 throw
 Components
 .
@@ -5587,6 +5640,7 @@ Cr
 NS_ERROR_FILE_CORRUPTED
 )
 ;
+}
 /
 /
 Change
@@ -5927,6 +5981,7 @@ executeStep
 (
 )
 )
+{
 ids
 .
 push
@@ -5938,6 +5993,7 @@ row
 id
 )
 ;
+}
 }
 catch
 (
@@ -6307,6 +6363,7 @@ charAt
 ~
 "
 )
+{
 params
 .
 encType
@@ -6317,7 +6374,9 @@ nsILoginManagerCrypto
 .
 ENCTYPE_BASE64
 ;
+}
 else
+{
 params
 .
 encType
@@ -6328,6 +6387,7 @@ nsILoginManagerCrypto
 .
 ENCTYPE_SDR
 ;
+}
 logins
 .
 push
@@ -6626,6 +6686,7 @@ executeStep
 (
 )
 )
+{
 ids
 .
 push
@@ -6637,6 +6698,7 @@ row
 id
 )
 ;
+}
 }
 catch
 (

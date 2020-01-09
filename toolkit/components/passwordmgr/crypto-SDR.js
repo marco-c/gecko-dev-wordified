@@ -185,6 +185,7 @@ this
 .
 __decoderRing
 )
+{
 this
 .
 __decoderRing
@@ -211,6 +212,7 @@ Ci
 nsISecretDecoderRing
 )
 ;
+}
 return
 this
 .
@@ -628,6 +630,7 @@ this
 .
 isLoggedIn
 )
+{
 this
 .
 _notifyObservers
@@ -641,11 +644,13 @@ login
 "
 )
 ;
+}
 else
 if
 (
 canceledMP
 )
+{
 this
 .
 _notifyObservers
@@ -659,6 +664,7 @@ loginCanceled
 "
 )
 ;
+}
 }
 return
 cipherText
@@ -1227,6 +1233,7 @@ this
 .
 isLoggedIn
 )
+{
 this
 .
 _notifyObservers
@@ -1240,11 +1247,13 @@ login
 "
 )
 ;
+}
 else
 if
 (
 canceledMP
 )
+{
 this
 .
 _notifyObservers
@@ -1258,6 +1267,7 @@ loginCanceled
 "
 )
 ;
+}
 }
 return
 plainText

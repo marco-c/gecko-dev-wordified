@@ -585,8 +585,10 @@ this
 .
 _asyncPrompts
 )
+{
 break
 ;
+}
 if
 (
 !
@@ -1123,6 +1125,7 @@ consumer
 .
 callback
 )
+{
 /
 /
 Not
@@ -1145,6 +1148,7 @@ the
 notification
 continue
 ;
+}
 self
 .
 log
@@ -1486,8 +1490,10 @@ consumer
 .
 callback
 )
+{
 continue
 ;
+}
 this
 .
 log
@@ -1825,6 +1831,7 @@ this
 .
 __strBundle
 )
+{
 throw
 new
 Error
@@ -1841,6 +1848,7 @@ present
 "
 )
 ;
+}
 }
 return
 this
@@ -2117,6 +2125,7 @@ nsIAuthPrompt
 .
 SAVE_PASSWORD_NEVER
 )
+{
 throw
 new
 Components
@@ -2134,6 +2143,7 @@ Cr
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
+}
 this
 .
 log
@@ -2263,6 +2273,7 @@ nsIAuthPrompt
 .
 SAVE_PASSWORD_FOR_SESSION
 )
+{
 throw
 new
 Components
@@ -2282,6 +2293,7 @@ Cr
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
+}
 var
 selectedLogin
 =
@@ -2343,11 +2355,14 @@ this
 .
 _inPrivateBrowsing
 )
+{
 canRememberLogin
 =
 false
 ;
+}
 else
+{
 canRememberLogin
 =
 (
@@ -2371,6 +2386,7 @@ getLoginSavingEnabled
 hostname
 )
 ;
+}
 /
 /
 if
@@ -2391,6 +2407,7 @@ if
 (
 canRememberLogin
 )
+{
 checkBoxLabel
 =
 this
@@ -2402,6 +2419,7 @@ rememberPassword
 "
 )
 ;
+}
 /
 /
 Look
@@ -2512,6 +2530,7 @@ aUsername
 .
 value
 )
+{
 selectedLogin
 =
 this
@@ -2524,6 +2543,7 @@ aUsername
 value
 )
 ;
+}
 if
 (
 selectedLogin
@@ -2561,6 +2581,7 @@ aPassword
 .
 value
 )
+{
 aPassword
 .
 value
@@ -2569,6 +2590,7 @@ selectedLogin
 .
 password
 ;
+}
 }
 }
 }
@@ -2607,9 +2629,11 @@ value
 !
 hostname
 )
+{
 return
 ok
 ;
+}
 if
 (
 !
@@ -2981,6 +3005,7 @@ nsIAuthPrompt
 .
 SAVE_PASSWORD_FOR_SESSION
 )
+{
 throw
 new
 Components
@@ -3000,6 +3025,7 @@ Cr
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
+}
 var
 checkBox
 =
@@ -3104,6 +3130,7 @@ if
 (
 canRememberLogin
 )
+{
 checkBoxLabel
 =
 this
@@ -3115,6 +3142,7 @@ rememberPassword
 "
 )
 ;
+}
 if
 (
 !
@@ -3536,6 +3564,7 @@ test
 aRealmString
 )
 )
+{
 return
 [
 null
@@ -3543,6 +3572,7 @@ null
 null
 ]
 ;
+}
 var
 uri
 =
@@ -3572,12 +3602,14 @@ pathQueryRef
 /
 "
 )
+{
 pathname
 =
 uri
 .
 pathQueryRef
 ;
+}
 var
 formattedHostname
 =
@@ -4013,10 +4045,12 @@ this
 .
 _inPrivateBrowsing
 )
+{
 canRememberLogin
 =
 false
 ;
+}
 /
 /
 if
@@ -4056,6 +4090,7 @@ canRememberLogin
 !
 notifyObj
 )
+{
 checkboxLabel
 =
 this
@@ -4067,6 +4102,7 @@ rememberPassword
 "
 )
 ;
+}
 }
 catch
 (
@@ -4131,6 +4167,7 @@ this
 .
 _chromeWindow
 )
+{
 PromptUtils
 .
 fireDialogEvent
@@ -4146,6 +4183,7 @@ this
 _browser
 )
 ;
+}
 ok
 =
 Services
@@ -4240,9 +4278,11 @@ rememberLogin
 |
 epicfail
 )
+{
 return
 ok
 ;
+}
 try
 {
 var
@@ -4440,6 +4480,7 @@ if
 (
 notifyObj
 )
+{
 this
 .
 _showSaveLoginNotification
@@ -4448,7 +4489,9 @@ notifyObj
 newLogin
 )
 ;
+}
 else
+{
 Services
 .
 logins
@@ -4458,6 +4501,7 @@ addLogin
 newLogin
 )
 ;
+}
 }
 else
 if
@@ -4502,6 +4546,7 @@ if
 (
 notifyObj
 )
+{
 this
 .
 _showChangeLoginNotification
@@ -4511,7 +4556,9 @@ selectedLogin
 newLogin
 )
 ;
+}
 else
+{
 this
 .
 _updateLogin
@@ -4520,6 +4567,7 @@ selectedLogin
 newLogin
 )
 ;
+}
 }
 else
 {
@@ -7760,6 +7808,7 @@ if
 (
 popupNote
 )
+{
 popupNote
 =
 popupNote
@@ -7771,16 +7820,19 @@ password
 "
 )
 ;
+}
 if
 (
 popupNote
 )
+{
 popupNote
 .
 remove
 (
 )
 ;
+}
 var
 notifyBox
 =
@@ -8769,6 +8821,7 @@ aOldLogin
 .
 username
 )
+{
 dialogText
 =
 this
@@ -8785,7 +8838,9 @@ username
 ]
 )
 ;
+}
 else
+{
 dialogText
 =
 this
@@ -8797,6 +8852,7 @@ updatePasswordMsgNoUser
 "
 )
 ;
+}
 var
 dialogTitle
 =
@@ -9976,6 +10032,7 @@ i
 +
 +
 )
+{
 if
 (
 foundLogins
@@ -9988,12 +10045,15 @@ username
 =
 username
 )
+{
 return
 foundLogins
 [
 i
 ]
 ;
+}
+}
 return
 null
 ;
@@ -10076,6 +10136,7 @@ if
 (
 formatArgs
 )
+{
 return
 this
 .
@@ -10090,6 +10151,7 @@ formatArgs
 length
 )
 ;
+}
 return
 this
 .
@@ -10460,10 +10522,12 @@ if
 !
 displayHost
 )
+{
 displayHost
 =
 aURIString
 ;
+}
 return
 displayHost
 ;
@@ -10564,6 +10628,7 @@ Ci
 nsIProxiedChannel
 )
 )
+{
 throw
 new
 Error
@@ -10576,6 +10641,7 @@ nsIProxiedChannel
 "
 )
 ;
+}
 var
 info
 =
@@ -10588,6 +10654,7 @@ if
 !
 info
 )
+{
 throw
 new
 Error
@@ -10600,6 +10667,7 @@ nsIProxyInfo
 "
 )
 ;
+}
 /
 /
 Proxies
@@ -10703,10 +10771,12 @@ if
 !
 realm
 )
+{
 realm
 =
 hostname
 ;
+}
 return
 [
 hostname
@@ -10779,10 +10849,12 @@ if
 !
 realm
 )
+{
 realm
 =
 hostname
 ;
+}
 return
 [
 hostname
@@ -10879,6 +10951,7 @@ aAuthInfo
 .
 domain
 )
+{
 username
 =
 aAuthInfo
@@ -10894,13 +10967,16 @@ aAuthInfo
 .
 username
 ;
+}
 else
+{
 username
 =
 aAuthInfo
 .
 username
 ;
+}
 password
 =
 aAuthInfo
