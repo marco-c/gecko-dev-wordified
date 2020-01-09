@@ -5757,7 +5757,7 @@ for
 nsIIOService
 :
 :
-newChannel2
+newChannel
 .
 *
 param

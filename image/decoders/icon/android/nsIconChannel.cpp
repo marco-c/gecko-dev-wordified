@@ -753,7 +753,7 @@ rv
 nsIconProtocolHandler
 :
 :
-NewChannel2
+NewChannel
 will
 provide
 the
