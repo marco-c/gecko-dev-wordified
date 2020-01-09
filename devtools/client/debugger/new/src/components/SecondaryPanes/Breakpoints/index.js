@@ -155,7 +155,7 @@ source
 import
 {
 makeLocationId
-sortBreakpoints
+sortFormattedBreakpoints
 }
 from
 "
@@ -487,7 +487,7 @@ sources
 const
 sortedBreakpoints
 =
-sortBreakpoints
+sortFormattedBreakpoints
 (
 breakpoints
 )
