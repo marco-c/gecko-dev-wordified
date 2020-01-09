@@ -209,12 +209,6 @@ RenderTaskCache
 }
 ;
 use
-tiling
-:
-:
-SpecialRenderPasses
-;
-use
 profiler
 :
 :
@@ -351,11 +345,6 @@ _
 &
 mut
 RenderTaskTree
-_
-:
-&
-mut
-SpecialRenderPasses
 )
 {
 assert

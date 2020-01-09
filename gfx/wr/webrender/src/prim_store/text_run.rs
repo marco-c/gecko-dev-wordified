@@ -171,12 +171,6 @@ ResourceCache
 }
 ;
 use
-tiling
-:
-:
-SpecialRenderPasses
-;
-use
 util
 :
 :
@@ -1788,11 +1782,6 @@ render_tasks
 &
 mut
 RenderTaskTree
-special_render_passes
-:
-&
-mut
-SpecialRenderPasses
 scratch
 :
 &
@@ -1936,7 +1925,6 @@ glyph_keys_range
 ]
 gpu_cache
 render_tasks
-special_render_passes
 )
 ;
 }
