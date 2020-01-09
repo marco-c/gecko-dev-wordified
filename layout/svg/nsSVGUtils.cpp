@@ -10463,6 +10463,7 @@ style
 -
 >
 mStrokeWidth
+true
 )
 ;
 }
