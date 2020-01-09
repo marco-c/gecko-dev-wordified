@@ -173,6 +173,19 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+/
+/
+for
+MOZ_CAN_RUN_SCRIPT
+#
+include
+"
+mozilla
+/
 DefineEnum
 .
 h
@@ -619,6 +632,7 @@ offset
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 HandleTap

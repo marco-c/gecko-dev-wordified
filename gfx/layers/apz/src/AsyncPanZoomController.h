@@ -4670,6 +4670,7 @@ gestures
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsEventStatus
 OnLongPress
 (
@@ -4745,6 +4746,7 @@ taps
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsEventStatus
 OnDoubleTap
 (
