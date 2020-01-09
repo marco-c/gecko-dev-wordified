@@ -117,6 +117,15 @@ builtin_Stream_h
 #
 include
 "
+js
+/
+Stream
+.
+h
+"
+#
+include
+"
 builtin
 /
 Promise

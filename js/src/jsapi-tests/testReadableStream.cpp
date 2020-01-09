@@ -128,6 +128,15 @@ h
 #
 include
 "
+js
+/
+Stream
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
