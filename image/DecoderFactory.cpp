@@ -1594,6 +1594,15 @@ DecoderType
 :
 :
 PNG
+|
+|
+type
+=
+=
+DecoderType
+:
+:
+WEBP
 "
 Calling
 CloneAnimationDecoder

@@ -423,6 +423,12 @@ WrapNotNull
 (
 decoder
 )
+/
+*
+aResumable
+*
+/
+false
 )
 ;
 if
@@ -798,6 +804,12 @@ WrapNotNull
 (
 decoder
 )
+/
+*
+aResumable
+*
+/
+false
 )
 ;
 if

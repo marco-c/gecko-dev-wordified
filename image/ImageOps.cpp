@@ -1094,6 +1094,12 @@ WrapNotNull
 (
 decoder
 )
+/
+*
+aResumable
+*
+/
+false
 )
 ;
 task
@@ -1415,6 +1421,12 @@ WrapNotNull
 (
 decoder
 )
+/
+*
+aResumable
+*
+/
+false
 )
 ;
 task
