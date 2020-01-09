@@ -584,12 +584,6 @@ Leaf
 )
 FRAME_ID
 (
-nsProgressMeterFrame
-Box
-NotLeaf
-)
-FRAME_ID
-(
 nsRangeFrame
 Range
 Leaf
