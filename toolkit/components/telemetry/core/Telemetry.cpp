@@ -3571,6 +3571,7 @@ aCx
 1
 aResult
 aFilterTest
+aStoreName
 )
 ;
 }
@@ -3626,6 +3627,7 @@ aCx
 1
 aResult
 aFilterTest
+aStoreName
 )
 ;
 }
@@ -9572,6 +9574,13 @@ aClearScalars
 aCx
 optional_argc
 aResult
+false
+NS_LITERAL_CSTRING
+(
+"
+main
+"
+)
 )
 ;
 }
@@ -9720,6 +9729,13 @@ aClearScalars
 aCx
 optional_argc
 aResult
+false
+NS_LITERAL_CSTRING
+(
+"
+main
+"
+)
 )
 ;
 }
