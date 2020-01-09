@@ -1044,7 +1044,6 @@ failRetVal
 }
 \
 {
-\
 return
 owner
 -
@@ -1052,7 +1051,6 @@ owner
 call
 args
 ;
-\
 }
 bool
 CPOWProxyHandler

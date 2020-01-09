@@ -5215,7 +5215,6 @@ PROFILER_ADD_MARKER
 Shutdown
 xpcom
 "
-OTHER
 )
 ;
 /
