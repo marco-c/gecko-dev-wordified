@@ -1874,7 +1874,7 @@ aStream
 dom
 :
 :
-nsIContentChild
+ContentChild
 *
 aManager
 )

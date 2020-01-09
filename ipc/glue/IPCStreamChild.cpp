@@ -144,7 +144,7 @@ mozilla
 /
 dom
 /
-nsIContentChild
+ContentChild
 .
 h
 "
@@ -479,7 +479,7 @@ aInputStream
 dom
 :
 :
-nsIContentChild
+ContentChild
 *
 aManager
 )

@@ -150,7 +150,7 @@ namespace
 dom
 {
 class
-nsIContentChild
+ContentChild
 ;
 class
 ContentParent
@@ -532,7 +532,7 @@ aInputStream
 dom
 :
 :
-nsIContentChild
+ContentChild
 *
 aManager
 )
