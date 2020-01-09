@@ -244,7 +244,7 @@ PTU
 .
 ContentTasks
 .
-awaitPaymentEventPromise
+awaitPaymentRequestEventPromise
 )
 ;
 let
@@ -747,7 +747,7 @@ PTU
 .
 ContentTasks
 .
-awaitPaymentEventPromise
+awaitPaymentRequestEventPromise
 )
 ;
 await
@@ -1588,6 +1588,11 @@ Timothy
 -
 edit
 Jo
+\
+u
+{
+00E3
+}
 o
 Berners
 -
@@ -2447,6 +2452,11 @@ Timothy
 -
 edit
 Jo
+\
+u
+{
+00E3
+}
 o
 Berners
 -

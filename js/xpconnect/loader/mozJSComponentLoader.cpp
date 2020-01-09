@@ -5157,7 +5157,7 @@ if
 reuseGlobal
 )
 {
-CompileLatin1ForNonSyntacticScope
+CompileUtf8ForNonSyntacticScope
 (
 cx
 options
@@ -5178,7 +5178,7 @@ script
 }
 else
 {
-CompileLatin1
+CompileUtf8
 (
 cx
 options
@@ -5217,7 +5217,7 @@ if
 reuseGlobal
 )
 {
-CompileLatin1ForNonSyntacticScope
+CompileUtf8ForNonSyntacticScope
 (
 cx
 options
@@ -5238,7 +5238,7 @@ script
 }
 else
 {
-CompileLatin1
+CompileUtf8
 (
 cx
 options
