@@ -21273,15 +21273,6 @@ focused_window_transaction_ratio
 ;
 /
 /
-XXX
-Disable
-for
-intranet
-downloading
-issue
-.
-/
-/
 This
 is
 the
@@ -21337,7 +21328,7 @@ http
 .
 send_window_size
 "
-0
+1024
 )
 ;
 /
