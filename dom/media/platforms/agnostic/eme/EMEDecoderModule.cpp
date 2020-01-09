@@ -1794,6 +1794,13 @@ mIsShutdown
 true
 ;
 mSamplesWaitingForKey
+-
+>
+BreakCycles
+(
+)
+;
+mSamplesWaitingForKey
 =
 nullptr
 ;
@@ -2350,6 +2357,13 @@ this
 (
 )
 {
+mSamplesWaitingForKey
+-
+>
+BreakCycles
+(
+)
+;
 mSamplesWaitingForKey
 =
 nullptr
