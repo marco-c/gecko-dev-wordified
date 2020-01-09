@@ -2483,9 +2483,9 @@ getStr
 "
 markupView
 .
-scrollable
+scrollableBadge
 .
-badge
+label
 "
 )
 ;
@@ -2502,7 +2502,7 @@ getStr
 "
 markupView
 .
-scrollable
+scrollableBadge
 .
 tooltip
 "
