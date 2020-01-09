@@ -456,10 +456,6 @@ dev
 '
         
 '
-nasm
-'
-        
-'
 python
 -
 dbus
@@ -923,6 +919,28 @@ apt_install
 self
 .
 browser_packages
+)
+        
+modern
+=
+self
+.
+is_nasm_modern
+(
+)
+        
+if
+not
+modern
+:
+            
+self
+.
+apt_install
+(
+'
+nasm
+'
 )
     
 def
