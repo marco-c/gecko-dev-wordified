@@ -2815,6 +2815,13 @@ this
 has
 happened
 .
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 Texture
