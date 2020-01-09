@@ -23889,6 +23889,7 @@ HomePage
 .
 get
 (
+aWindow
 )
 .
 split
