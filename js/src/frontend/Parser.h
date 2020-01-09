@@ -1936,7 +1936,7 @@ ScriptSource
 ss
 ;
 RootedScriptSourceObject
-sourceObject
+sourceObject_
 ;
 /
 *
