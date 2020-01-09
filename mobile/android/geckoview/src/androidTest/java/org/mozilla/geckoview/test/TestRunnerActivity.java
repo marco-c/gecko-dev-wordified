@@ -902,6 +902,11 @@ displayDensityOverride
 0f
 )
 .
+remoteDebuggingEnabled
+(
+true
+)
+.
 autoplayDefault
 (
 GeckoRuntimeSettings
