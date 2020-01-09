@@ -9283,6 +9283,7 @@ aShape
 >
 SetURL
 (
+*
 aURL
 )
 ;

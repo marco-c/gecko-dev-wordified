@@ -4149,6 +4149,7 @@ i
 +
 )
 {
+const
 css
 :
 :
@@ -6726,11 +6727,12 @@ return
 nullptr
 ;
 }
+const
 css
 :
 :
 URLValue
-*
+&
 url
 =
 svgStyleReset
@@ -6738,7 +6740,7 @@ svgStyleReset
 >
 mClipPath
 .
-GetURL
+URL
 (
 )
 ;
@@ -6751,6 +6753,7 @@ pathURI
 ResolveURLUsingLocalRef
 (
 aClippedFrame
+&
 url
 )
 ;

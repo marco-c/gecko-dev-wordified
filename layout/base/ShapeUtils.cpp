@@ -270,10 +270,7 @@ ShapeUtils
 ComputeCircleOrEllipseCenter
 (
 const
-UniquePtr
-<
 StyleBasicShape
->
 &
 aBasicShape
 const
@@ -285,8 +282,7 @@ aRefBox
 MOZ_ASSERT
 (
 aBasicShape
--
->
+.
 GetShapeType
 (
 )
@@ -299,8 +295,7 @@ Circle
 |
 |
 aBasicShape
--
->
+.
 GetShapeType
 (
 )
@@ -345,8 +340,7 @@ nsImageRenderer
 ComputeObjectAnchorPoint
 (
 aBasicShape
--
->
+.
 GetPosition
 (
 )
@@ -375,10 +369,7 @@ ShapeUtils
 ComputeCircleRadius
 (
 const
-UniquePtr
-<
 StyleBasicShape
->
 &
 aBasicShape
 const
@@ -394,8 +385,7 @@ aRefBox
 MOZ_ASSERT
 (
 aBasicShape
--
->
+.
 GetShapeType
 (
 )
@@ -427,8 +417,7 @@ nsStyleCoord
 coords
 =
 aBasicShape
--
->
+.
 Coordinates
 (
 )
@@ -638,10 +627,7 @@ ShapeUtils
 ComputeEllipseRadii
 (
 const
-UniquePtr
-<
 StyleBasicShape
->
 &
 aBasicShape
 const
@@ -657,8 +643,7 @@ aRefBox
 MOZ_ASSERT
 (
 aBasicShape
--
->
+.
 GetShapeType
 (
 )
@@ -690,8 +675,7 @@ nsStyleCoord
 coords
 =
 aBasicShape
--
->
+.
 Coordinates
 (
 )
@@ -875,10 +859,7 @@ ShapeUtils
 ComputeInsetRect
 (
 const
-UniquePtr
-<
 StyleBasicShape
->
 &
 aBasicShape
 const
@@ -890,8 +871,7 @@ aRefBox
 MOZ_ASSERT
 (
 aBasicShape
--
->
+.
 GetShapeType
 (
 )
@@ -923,8 +903,7 @@ nsStyleCoord
 coords
 =
 aBasicShape
--
->
+.
 Coordinates
 (
 )
@@ -1138,10 +1117,7 @@ ShapeUtils
 ComputeInsetRadii
 (
 const
-UniquePtr
-<
 StyleBasicShape
->
 &
 aBasicShape
 const
@@ -1165,8 +1141,7 @@ nsStyleCorners
 radius
 =
 aBasicShape
--
->
+.
 GetRadius
 (
 )
@@ -1210,10 +1185,7 @@ ShapeUtils
 ComputePolygonVertices
 (
 const
-UniquePtr
-<
 StyleBasicShape
->
 &
 aBasicShape
 const
@@ -1225,8 +1197,7 @@ aRefBox
 MOZ_ASSERT
 (
 aBasicShape
--
->
+.
 GetShapeType
 (
 )
@@ -1258,8 +1229,7 @@ nsStyleCoord
 coords
 =
 aBasicShape
--
->
+.
 Coordinates
 (
 )
