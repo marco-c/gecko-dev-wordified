@@ -1033,7 +1033,10 @@ GetScrollStyles
 mVertical
 =
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 &
 &
 targetScrollPosition
@@ -1096,7 +1099,10 @@ GetScrollStyles
 mHorizontal
 =
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 &
 &
 targetScrollPosition

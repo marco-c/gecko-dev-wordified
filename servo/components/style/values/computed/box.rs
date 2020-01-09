@@ -225,6 +225,7 @@ box_
 {
 Contain
 Display
+Overflow
 OverflowClipBox
 }
 ;

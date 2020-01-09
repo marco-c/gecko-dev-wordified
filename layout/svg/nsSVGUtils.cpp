@@ -6303,7 +6303,10 @@ disp
 mOverflowX
 =
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 |
 |
 disp
@@ -6312,7 +6315,10 @@ disp
 mOverflowY
 =
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 )
 {
 nsIntRect
@@ -6411,7 +6417,10 @@ disp
 mOverflowX
 !
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 )
 {
 clipRect
@@ -6435,7 +6444,10 @@ disp
 mOverflowY
 !
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 )
 {
 clipRect

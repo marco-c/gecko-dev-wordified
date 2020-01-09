@@ -441,6 +441,7 @@ BreakBetween
 BreakWithin
 Clear
 Float
+Overflow
 }
 ;
 pub

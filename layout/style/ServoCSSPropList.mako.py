@@ -733,6 +733,10 @@ ScrollSnapType
 "
 Float
 "
+    
+"
+Overflow
+"
 ]
 def
 serialized_by_servo

@@ -2828,11 +2828,6 @@ hidden
 -
 unscrollable
 overflow
-(
-NS_STYLE_OVERFLOW_CLIP
-)
-/
-/
 doesn
 '
 t
@@ -2840,6 +2835,8 @@ paint
 the
 caret
 for
+/
+/
 some
 reason
 .
@@ -2860,7 +2857,10 @@ disp
 mOverflowX
 !
 =
-NS_STYLE_OVERFLOW_VISIBLE
+StyleOverflow
+:
+:
+Visible
 &
 &
 disp
@@ -2869,7 +2869,10 @@ disp
 mOverflowX
 !
 =
-NS_STYLE_OVERFLOW_CLIP
+StyleOverflow
+:
+:
+MozHiddenUnscrollable
 )
 {
 classValue

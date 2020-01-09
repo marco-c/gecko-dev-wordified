@@ -483,7 +483,10 @@ StyleDisplay
 mOverflowX
 !
 =
-NS_STYLE_OVERFLOW_VISIBLE
+StyleOverflow
+:
+:
+Visible
 ;
 }
 void
