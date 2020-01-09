@@ -734,6 +734,16 @@ selectedNode
 )
 )
 {
+let
+concreteGuid
+=
+PlacesUtils
+.
+getConcreteItemGuid
+(
+selectedNode
+)
+;
 var
 contents
 =
@@ -741,9 +751,7 @@ PlacesUtils
 .
 getFolderContents
 (
-selectedNode
-.
-bookmarkGuid
+concreteGuid
 )
 .
 root
