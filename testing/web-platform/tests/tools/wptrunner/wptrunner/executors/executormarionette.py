@@ -3602,9 +3602,21 @@ self
 )
 :
         
-try
+if
+self
+.
+marionette
+and
+self
+.
+marionette
+.
+session_id
 :
             
+try
+:
+                
 self
 .
 marionette
@@ -3612,7 +3624,7 @@ marionette
 _request_in_app_shutdown
 (
 )
-            
+                
 self
 .
 marionette
@@ -3623,11 +3635,11 @@ send_request
 =
 False
 )
-        
+            
 except
 Exception
 :
-            
+                
 #
 This
 is
@@ -3637,7 +3649,7 @@ the
 session
 never
 started
-            
+                
 pass
         
 if
@@ -5558,6 +5570,22 @@ teardown
 (
 )
             
+if
+self
+.
+protocol
+.
+marionette
+and
+self
+.
+protocol
+.
+marionette
+.
+session_id
+:
+                
 handles
 =
 self
@@ -5567,11 +5595,11 @@ protocol
 marionette
 .
 window_handles
-            
+                
 if
 handles
 :
-                
+                    
 self
 .
 protocol
@@ -6407,6 +6435,26 @@ self
 try
 :
             
+if
+self
+.
+executor
+.
+protocol
+.
+marionette
+and
+self
+.
+executor
+.
+protocol
+.
+marionette
+.
+session_id
+:
+                
 self
 .
 executor
@@ -6425,7 +6473,7 @@ teardown
 {
 }
 )
-            
+                
 self
 .
 executor
