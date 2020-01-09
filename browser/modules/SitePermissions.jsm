@@ -1208,6 +1208,7 @@ remove
 (
 browser
 id
+prePath
 )
 ;
 browser
@@ -1241,6 +1242,9 @@ remove
 (
 browser
 id
+prePath
+=
+null
 )
 {
 let
@@ -1255,7 +1259,12 @@ get
 browser
 )
 ;
-let
+if
+(
+!
+prePath
+)
+{
 prePath
 =
 browser
@@ -1264,6 +1273,7 @@ currentURI
 .
 prePath
 ;
+}
 if
 (
 entry
