@@ -144,6 +144,9 @@ class
 IRemoteDecoderChild
 ;
 class
+RemoteDecoderModule
+;
+class
 RemoteMediaDataDecoder
 ;
 DDLoggedTypeCustomNameAndBase
@@ -218,6 +221,10 @@ public
 friend
 class
 GpuDecoderModule
+;
+friend
+class
+RemoteDecoderModule
 ;
 /
 /
