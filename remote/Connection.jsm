@@ -138,7 +138,6 @@ constructor
 (
 connID
 transport
-socketListener
 )
 {
 this
@@ -152,12 +151,6 @@ this
 transport
 =
 transport
-;
-this
-.
-socketListener
-=
-socketListener
 ;
 this
 .
