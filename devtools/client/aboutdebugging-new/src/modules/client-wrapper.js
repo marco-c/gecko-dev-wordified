@@ -128,6 +128,9 @@ MAIN_ROOT_EVENTS
 =
 [
 "
+addonListChanged
+"
+"
 processListChanged
 "
 "
