@@ -12395,12 +12395,6 @@ visibility
 record
 .
 visibility
-                    
-setup
-=
-record
-.
-setup
 )
         
 if
@@ -13586,9 +13580,6 @@ no_unpack
 unpack_file
 (
 local
-record
-.
-setup
 )
                 
 os
