@@ -849,11 +849,11 @@ gecko
 profile
 archive
 in
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
     
 LOG
 =
@@ -984,11 +984,11 @@ found
 so
 not
 launching
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 "
 )
         

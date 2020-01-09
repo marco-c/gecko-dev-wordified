@@ -6698,11 +6698,11 @@ latest
 gecko
 profile
 in
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
     
 if
 args
@@ -6742,11 +6742,11 @@ info
 "
 Not
 launching
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 because
 DISABLE_PROFILE_LAUNCH
 =

@@ -80,11 +80,11 @@ script
 injects
 itself
 into
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 and
 injects
 the

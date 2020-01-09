@@ -2961,11 +2961,11 @@ latest
 gecko
 profile
 in
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
     
 if
 config
@@ -3011,11 +3011,11 @@ info
 "
 Not
 launching
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 because
 DISABLE_PROFILE_LAUNCH
 =
@@ -3076,11 +3076,11 @@ gecko
 profile
 archive
 in
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
     
 if
 sys
@@ -3194,11 +3194,11 @@ found
 so
 not
 launching
-perf
--
-html
+profiler
 .
-io
+firefox
+.
+com
 "
 )
         
