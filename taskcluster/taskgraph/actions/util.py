@@ -1136,6 +1136,7 @@ task
 def
 create_tasks
 (
+graph_config
 to_run
 full_task_graph
 label_to_taskid
@@ -1547,10 +1548,17 @@ create
 .
 create_tasks
 (
+        
+graph_config
+        
 optimized_task_graph
+        
 label_to_taskid
+        
 params
+        
 decision_task_id
+    
 )
     
 return

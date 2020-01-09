@@ -1214,6 +1214,9 @@ create_tasks
 (
 tgg
 .
+graph_config
+tgg
+.
 morphed_task_graph
 tgg
 .

@@ -1226,6 +1226,7 @@ label_to_taskid
 =
 create_tasks
 (
+graph_config
 [
 label
 ]
