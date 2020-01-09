@@ -4118,7 +4118,13 @@ openBlocked
 )
 {
 return
-false
+!
+nsContentUtils
+:
+:
+TryUsePopupOpeningToken
+(
+)
 ;
 }
 return
@@ -4126,7 +4132,7 @@ return
 nsContentUtils
 :
 :
-CanShowPopup
+CanShowPopupByPermission
 (
 OwnerDoc
 (
