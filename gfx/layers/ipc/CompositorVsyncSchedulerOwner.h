@@ -120,6 +120,15 @@ mozilla_layers_CompositorVsyncSchedulerOwner_h
 #
 define
 mozilla_layers_CompositorVsyncSchedulerOwner_h
+#
+include
+"
+mozilla
+/
+VsyncDispatcher
+.
+h
+"
 namespace
 mozilla
 {
@@ -162,6 +171,8 @@ virtual
 void
 CompositeToTarget
 (
+VsyncId
+aId
 gfx
 :
 :

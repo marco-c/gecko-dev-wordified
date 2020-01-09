@@ -1920,6 +1920,13 @@ const
 mozilla
 :
 :
+VsyncId
+&
+aVsyncId
+const
+mozilla
+:
+:
 TimeStamp
 &
 aRefreshStart

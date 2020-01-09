@@ -431,6 +431,13 @@ const
 mozilla
 :
 :
+VsyncId
+&
+aVsyncId
+const
+mozilla
+:
+:
 TimeStamp
 &
 aRefreshStartTime
@@ -471,6 +478,13 @@ uint32_t
 aPaintSequenceNumber
 TransactionId
 aTransactionId
+const
+mozilla
+:
+:
+VsyncId
+&
+aVsyncId
 const
 mozilla
 :
