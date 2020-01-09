@@ -45198,11 +45198,6 @@ GetScrollSnapInfo
 (
 )
 aUnit
-mScrollPort
-.
-Size
-(
-)
 GetScrollRangeForClamping
 (
 )
