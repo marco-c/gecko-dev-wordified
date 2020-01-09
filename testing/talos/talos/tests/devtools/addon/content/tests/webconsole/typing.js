@@ -354,7 +354,9 @@ popup
 .
 jsterm
 .
-fetchAutocompletionProperties
+props
+.
+autocompleteUpdate
 (
 )
 ;
