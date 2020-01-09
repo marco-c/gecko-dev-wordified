@@ -240,6 +240,13 @@ jsm
 )
 ;
 }
+AddonTestUtils
+.
+init
+(
+this
+)
+;
 /
 /
 Tests

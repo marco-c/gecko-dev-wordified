@@ -119,6 +119,13 @@ no
 unused
 -
 expressions
+AddonTestUtils
+.
+init
+(
+this
+)
+;
 add_task
 (
 async

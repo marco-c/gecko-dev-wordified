@@ -276,6 +276,13 @@ _response
 }
 }
 ;
+AddonTestUtils
+.
+init
+(
+this
+)
+;
 add_task
 (
 async

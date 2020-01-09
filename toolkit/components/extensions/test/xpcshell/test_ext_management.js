@@ -48,6 +48,13 @@ use
 strict
 "
 ;
+AddonTestUtils
+.
+init
+(
+this
+)
+;
 add_task
 (
 async
