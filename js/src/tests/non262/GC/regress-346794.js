@@ -3,7 +3,7 @@
 |
 reftest
 |
-skip
+slow
 -
 -
 slow

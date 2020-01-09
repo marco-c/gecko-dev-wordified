@@ -10,13 +10,7 @@ if
 Android
 )
 silentfail
-skip
--
--
-disabled
-pending
-bug
-657444
+slow
 /
 *
 -

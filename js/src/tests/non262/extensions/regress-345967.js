@@ -3,9 +3,6 @@
 |
 reftest
 |
-skip
--
--
 slow
 /
 *

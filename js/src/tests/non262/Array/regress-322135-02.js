@@ -3,10 +3,9 @@
 |
 reftest
 |
-skip
--
--
 slow
+-
+-
 (
 bug
 1234947
