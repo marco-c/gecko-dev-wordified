@@ -556,6 +556,7 @@ kRtpExtensionVideoTiming
 kRtpExtensionRtpStreamId
 kRtpExtensionRepairedRtpStreamId
 kRtpExtensionMid
+kRtpExtensionCsrcAudioLevel
 kRtpExtensionNumberOfExtensions
 /
 /

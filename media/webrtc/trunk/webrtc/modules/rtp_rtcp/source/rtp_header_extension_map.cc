@@ -253,6 +253,12 @@ RtpMid
 >
 (
 )
+CreateExtensionInfo
+<
+CsrcAudioLevel
+>
+(
+)
 }
 ;
 /
