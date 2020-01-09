@@ -1018,17 +1018,10 @@ else
 pass_index
 }
 ;
-let
-pass
-=
-&
-mut
 passes
 [
 pass_index
 ]
-;
-pass
 .
 add_render_task
 (
