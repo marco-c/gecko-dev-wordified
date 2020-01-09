@@ -674,7 +674,7 @@ following
 format
 :
 #
-macro
+MACRO
 (
 {
 name
@@ -919,7 +919,7 @@ comment
 /
         
 #
-macro
+MACRO
 (
 JSOP_SUB
 .
@@ -928,7 +928,7 @@ JSOP_SUB
 )
         
 #
-macro
+MACRO
 (
 JSOP_MUL
 .
@@ -937,7 +937,7 @@ JSOP_MUL
 )
         
 #
-macro
+MACRO
 (
 JSOP_DIV
 .
@@ -1333,14 +1333,14 @@ r
                           
 r
 "
-macro
+MACRO
 \
 (
 "
 #
 or
 a
-macro
+MACRO
 (
 .
 .

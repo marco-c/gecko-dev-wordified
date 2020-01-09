@@ -460,7 +460,7 @@ Other
 define
 FOR_EACH_OPCODE
 (
-macro
+MACRO
 )
 \
 /
@@ -487,7 +487,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_NOP
 0
@@ -533,7 +533,7 @@ undefined
 *
 /
 \
-macro
+MACRO
 (
 JSOP_UNDEFINED
 1
@@ -582,7 +582,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETRVAL
 2
@@ -678,7 +678,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_ENTERWITH
 3
@@ -725,7 +725,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_LEAVEWITH
 4
@@ -785,7 +785,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_RETURN
 5
@@ -836,7 +836,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GOTO
 6
@@ -940,7 +940,7 @@ cond
 *
 /
 \
-macro
+MACRO
 (
 JSOP_IFEQ
 7
@@ -1015,7 +1015,7 @@ cond
 *
 /
 \
-macro
+MACRO
 (
 JSOP_IFNE
 8
@@ -1115,7 +1115,7 @@ arguments
 *
 /
 \
-macro
+MACRO
 (
 JSOP_ARGUMENTS
 9
@@ -1179,7 +1179,7 @@ v1
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SWAP
 10
@@ -1251,7 +1251,7 @@ n
 *
 /
 \
-macro
+MACRO
 (
 JSOP_POPN
 11
@@ -1304,7 +1304,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DUP
 12
@@ -1357,7 +1357,7 @@ v2
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DUP2
 13
@@ -1433,7 +1433,7 @@ result
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CHECKISOBJ
 14
@@ -1519,7 +1519,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_BITOR
 15
@@ -1537,7 +1537,7 @@ JOF_BYTE
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_BITXOR
 16
@@ -1555,7 +1555,7 @@ JOF_BYTE
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_BITAND
 17
@@ -1621,7 +1621,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_EQ
 18
@@ -1642,7 +1642,7 @@ JOF_DETECTING
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_NE
 19
@@ -1663,7 +1663,7 @@ JOF_DETECTING
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_LT
 20
@@ -1681,7 +1681,7 @@ JOF_BYTE
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_LE
 21
@@ -1700,7 +1700,7 @@ JOF_BYTE
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_GT
 22
@@ -1718,7 +1718,7 @@ JOF_BYTE
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_GE
 23
@@ -1797,7 +1797,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_LSH
 24
@@ -1816,7 +1816,7 @@ JOF_BYTE
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_RSH
 25
@@ -1895,7 +1895,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_URSH
 26
@@ -1973,7 +1973,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_ADD
 27
@@ -2050,7 +2050,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SUB
 28
@@ -2068,7 +2068,7 @@ JOF_BYTE
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_MUL
 29
@@ -2086,7 +2086,7 @@ JOF_BYTE
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_DIV
 30
@@ -2104,7 +2104,7 @@ JOF_BYTE
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_MOD
 31
@@ -2167,7 +2167,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_NOT
 32
@@ -2233,7 +2233,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_BITNOT
 33
@@ -2296,7 +2296,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_NEG
 34
@@ -2374,7 +2374,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_POS
 35
@@ -2479,7 +2479,7 @@ succeeded
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DELNAME
 36
@@ -2551,7 +2551,7 @@ succeeded
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DELPROP
 37
@@ -2638,7 +2638,7 @@ succeeded
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DELELEM
 38
@@ -2701,7 +2701,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_TYPEOF
 39
@@ -2756,7 +2756,7 @@ undefined
 *
 /
 \
-macro
+MACRO
 (
 JSOP_VOID
 40
@@ -2837,7 +2837,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SPREADCALL
 41
@@ -2915,7 +2915,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SPREADNEW
 42
@@ -3018,7 +3018,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SPREADEVAL
 43
@@ -3124,7 +3124,7 @@ n
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DUPAT
 44
@@ -3187,7 +3187,7 @@ symbol
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SYMBOL
 45
@@ -3265,7 +3265,7 @@ succeeded
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRICTDELPROP
 46
@@ -3363,7 +3363,7 @@ succeeded
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRICTDELELEM
 47
@@ -3463,7 +3463,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRICTSETPROP
 48
@@ -3558,7 +3558,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRICTSETNAME
 49
@@ -3667,7 +3667,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRICTSPREADEVAL
 50
@@ -3734,7 +3734,7 @@ heritage
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CHECKCLASSHERITAGE
 51
@@ -3793,7 +3793,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_FUNWITHPROTO
 52
@@ -3851,7 +3851,7 @@ name
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETPROP
 53
@@ -3934,7 +3934,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETPROP
 54
@@ -4017,7 +4017,7 @@ propval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETELEM
 55
@@ -4105,7 +4105,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETELEM
 56
@@ -4210,7 +4210,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRICTSETELEM
 57
@@ -4305,7 +4305,7 @@ argc
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CALL
 58
@@ -4370,7 +4370,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETNAME
 59
@@ -4423,7 +4423,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DOUBLE
 60
@@ -4470,7 +4470,7 @@ atom
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRING
 61
@@ -4516,7 +4516,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_ZERO
 62
@@ -4564,7 +4564,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_ONE
 63
@@ -4612,7 +4612,7 @@ null
 *
 /
 \
-macro
+MACRO
 (
 JSOP_NULL
 64
@@ -4652,7 +4652,7 @@ JS_IS_CONSTRUCTING
 *
 /
 \
-macro
+MACRO
 (
 JSOP_IS_CONSTRUCTING
 65
@@ -4701,7 +4701,7 @@ false
 *
 /
 \
-macro
+MACRO
 (
 JSOP_FALSE
 66
@@ -4713,7 +4713,7 @@ js_false_str
 JOF_BYTE
 )
 \
-macro
+MACRO
 (
 JSOP_TRUE
 67
@@ -4781,7 +4781,7 @@ cond
 *
 /
 \
-macro
+MACRO
 (
 JSOP_OR
 68
@@ -4855,7 +4855,7 @@ cond
 *
 /
 \
-macro
+MACRO
 (
 JSOP_AND
 69
@@ -4979,7 +4979,7 @@ len
 *
 /
 \
-macro
+MACRO
 (
 JSOP_TABLESWITCH
 70
@@ -5036,7 +5036,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_RUNONCE
 71
@@ -5103,7 +5103,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRICTEQ
 72
@@ -5125,7 +5125,7 @@ JOF_DETECTING
 JOF_IC
 )
 \
-macro
+MACRO
 (
 JSOP_STRICTNE
 73
@@ -5192,7 +5192,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_THROWMSG
 74
@@ -5268,7 +5268,7 @@ iter
 *
 /
 \
-macro
+MACRO
 (
 JSOP_ITER
 75
@@ -5335,7 +5335,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_MOREITER
 76
@@ -5399,7 +5399,7 @@ res
 *
 /
 \
-macro
+MACRO
 (
 JSOP_ISNOITER
 77
@@ -5459,7 +5459,7 @@ iter
 *
 /
 \
-macro
+MACRO
 (
 JSOP_ENDITER
 78
@@ -5555,7 +5555,7 @@ argc
 *
 /
 \
-macro
+MACRO
 (
 JSOP_FUNAPPLY
 79
@@ -5614,7 +5614,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_OBJECT
 80
@@ -5661,7 +5661,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_POP
 81
@@ -5748,7 +5748,7 @@ argc
 *
 /
 \
-macro
+MACRO
 (
 JSOP_NEW
 82
@@ -5811,7 +5811,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_OBJWITHPROTO
 83
@@ -5879,7 +5879,7 @@ argno
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETARG
 84
@@ -5950,7 +5950,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETARG
 85
@@ -6005,7 +6005,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETLOCAL
 86
@@ -6061,7 +6061,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETLOCAL
 87
@@ -6118,7 +6118,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_UINT16
 88
@@ -6187,7 +6187,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_NEWINIT
 89
@@ -6249,7 +6249,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_NEWARRAY
 90
@@ -6325,7 +6325,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_NEWOBJECT
 91
@@ -6418,7 +6418,7 @@ fun
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITHOMEOBJECT
 92
@@ -6517,7 +6517,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITPROP
 93
@@ -6626,7 +6626,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITELEM
 94
@@ -6744,7 +6744,7 @@ index
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITELEM_INC
 95
@@ -6837,7 +6837,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITELEM_ARRAY
 96
@@ -6932,7 +6932,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITPROP_GETTER
 97
@@ -7025,7 +7025,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITPROP_SETTER
 98
@@ -7136,7 +7136,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITELEM_GETTER
 99
@@ -7248,7 +7248,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITELEM_SETTER
 100
@@ -7337,7 +7337,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CALLSITEOBJ
 101
@@ -7404,7 +7404,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_NEWARRAY_COPYONWRITE
 102
@@ -7459,7 +7459,7 @@ homeObjectProto
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SUPERBASE
 103
@@ -7523,7 +7523,7 @@ name
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETPROP_SUPER
 104
@@ -7631,7 +7631,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRICTSETPROP_SUPER
 105
@@ -7726,7 +7726,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_LABEL
 106
@@ -7807,7 +7807,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETPROP_SUPER
 107
@@ -7976,7 +7976,7 @@ argc
 *
 /
 \
-macro
+MACRO
 (
 JSOP_FUNCALL
 108
@@ -8040,7 +8040,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_LOOPHEAD
 109
@@ -8114,7 +8114,7 @@ env
 *
 /
 \
-macro
+MACRO
 (
 JSOP_BINDNAME
 110
@@ -8185,7 +8185,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETNAME
 111
@@ -8256,7 +8256,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_THROW
 112
@@ -8351,7 +8351,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_IN
 113
@@ -8437,7 +8437,7 @@ ctor
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INSTANCEOF
 114
@@ -8477,7 +8477,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DEBUGGER
 115
@@ -8632,7 +8632,7 @@ resumeIndex
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GOSUB
 116
@@ -8737,7 +8737,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_RETSUB
 117
@@ -8831,7 +8831,7 @@ exception
 *
 /
 \
-macro
+MACRO
 (
 JSOP_EXCEPTION
 118
@@ -8878,7 +8878,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_LINENO
 119
@@ -9055,7 +9055,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CONDSWITCH
 120
@@ -9155,7 +9155,7 @@ cond
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CASE
 121
@@ -9249,7 +9249,7 @@ lval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DEFAULT
 122
@@ -9361,7 +9361,7 @@ argc
 *
 /
 \
-macro
+MACRO
 (
 JSOP_EVAL
 123
@@ -9482,7 +9482,7 @@ argc
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRICTEVAL
 124
@@ -9554,7 +9554,7 @@ propval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETELEM_SUPER
 125
@@ -9655,7 +9655,7 @@ resumeIndex
 *
 /
 \
-macro
+MACRO
 (
 JSOP_RESUMEINDEX
 126
@@ -9731,7 +9731,7 @@ fun
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DEFFUN
 127
@@ -9813,7 +9813,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DEFCONST
 128
@@ -9936,7 +9936,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DEFVAR
 129
@@ -9991,7 +9991,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_LAMBDA
 130
@@ -10062,7 +10062,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_LAMBDA_ARROW
 131
@@ -10122,7 +10122,7 @@ callee
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CALLEE
 132
@@ -10222,7 +10222,7 @@ n
 *
 /
 \
-macro
+MACRO
 (
 JSOP_PICK
 133
@@ -10302,7 +10302,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_TRY
 134
@@ -10368,7 +10368,7 @@ resumeIndex
 *
 /
 \
-macro
+MACRO
 (
 JSOP_FINALLY
 135
@@ -10542,7 +10542,7 @@ aliasedVar
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETALIASEDVAR
 136
@@ -10604,7 +10604,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETALIASEDVAR
 137
@@ -10673,7 +10673,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CHECKLEXICAL
 138
@@ -10733,7 +10733,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITLEXICAL
 139
@@ -10800,7 +10800,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CHECKALIASEDLEXICAL
 140
@@ -10862,7 +10862,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITALIASEDLEXICAL
 141
@@ -10933,7 +10933,7 @@ uninitialized
 *
 /
 \
-macro
+MACRO
 (
 JSOP_UNINITIALIZED
 142
@@ -11046,7 +11046,7 @@ name
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETINTRINSIC
 143
@@ -11105,7 +11105,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETINTRINSIC
 144
@@ -11180,7 +11180,7 @@ nuses
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CALLITER
 145
@@ -11288,7 +11288,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITLOCKEDPROP
 146
@@ -11390,7 +11390,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITHIDDENPROP
 147
@@ -11446,7 +11446,7 @@ target
 *
 /
 \
-macro
+MACRO
 (
 JSOP_NEWTARGET
 148
@@ -11514,7 +11514,7 @@ wrapped
 *
 /
 \
-macro
+MACRO
 (
 JSOP_TOASYNC
 149
@@ -11591,7 +11591,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_POW
 150
@@ -11615,7 +11615,7 @@ JOF_IC
 *
 /
 \
-macro
+MACRO
 (
 JSOP_UNUSED151
 151
@@ -11676,7 +11676,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETRVAL
 152
@@ -11756,7 +11756,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_RETRVAL
 153
@@ -11851,7 +11851,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETGNAME
 154
@@ -11970,7 +11970,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETGNAME
 155
@@ -12106,7 +12106,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRICTSETGNAME
 156
@@ -12257,7 +12257,7 @@ this
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GIMPLICITTHIS
 157
@@ -12318,7 +12318,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETELEM_SUPER
 158
@@ -12388,7 +12388,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_STRICTSETELEM_SUPER
 159
@@ -12460,7 +12460,7 @@ regexp
 *
 /
 \
-macro
+MACRO
 (
 JSOP_REGEXP
 160
@@ -12518,7 +12518,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITGLEXICAL
 161
@@ -12608,7 +12608,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DEFLET
 162
@@ -12672,7 +12672,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CHECKOBJCOERCIBLE
 163
@@ -12728,7 +12728,7 @@ superFun
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SUPERFUN
 164
@@ -12806,7 +12806,7 @@ argc
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SUPERCALL
 165
@@ -12867,7 +12867,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SPREADSUPERCALL
 166
@@ -12923,7 +12923,7 @@ constructor
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CLASSCONSTRUCTOR
 167
@@ -12974,7 +12974,7 @@ constructor
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DERIVEDCONSTRUCTOR
 168
@@ -13040,7 +13040,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_THROWSETCONST
 169
@@ -13113,7 +13113,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_THROWSETALIASEDCONST
 170
@@ -13207,7 +13207,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITHIDDENPROP_GETTER
 171
@@ -13303,7 +13303,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITHIDDENPROP_SETTER
 172
@@ -13417,7 +13417,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITHIDDENELEM_GETTER
 173
@@ -13532,7 +13532,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITHIDDENELEM_SETTER
 174
@@ -13643,7 +13643,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITHIDDENELEM
 175
@@ -13709,7 +13709,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETIMPORT
 176
@@ -13786,7 +13786,7 @@ checkVal
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DEBUGCHECKSELFHOSTED
 177
@@ -13858,7 +13858,7 @@ optimized
 *
 /
 \
-macro
+MACRO
 (
 JSOP_OPTIMIZE_SPREADCALL
 178
@@ -13962,7 +13962,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_THROWSETCALLEE
 179
@@ -14013,7 +14013,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_PUSHVARENV
 180
@@ -14062,7 +14062,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_POPVARENV
 181
@@ -14147,7 +14147,7 @@ fun
 *
 /
 \
-macro
+MACRO
 (
 JSOP_SETFUNNAME
 182
@@ -14244,7 +14244,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_UNPICK
 183
@@ -14311,7 +14311,7 @@ name
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CALLPROP
 184
@@ -14388,7 +14388,7 @@ this
 *
 /
 \
-macro
+MACRO
 (
 JSOP_FUNCTIONTHIS
 185
@@ -14455,7 +14455,7 @@ this
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GLOBALTHIS
 186
@@ -14515,7 +14515,7 @@ res
 *
 /
 \
-macro
+MACRO
 (
 JSOP_ISGENCLOSING
 187
@@ -14568,7 +14568,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_UINT24
 188
@@ -14630,7 +14630,7 @@ this
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CHECKTHIS
 189
@@ -14712,7 +14712,7 @@ this
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CHECKRETURN
 190
@@ -14777,7 +14777,7 @@ this
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CHECKTHISREINIT
 191
@@ -14845,7 +14845,7 @@ wrapped
 *
 /
 \
-macro
+MACRO
 (
 JSOP_TOASYNCGEN
 192
@@ -14927,7 +14927,7 @@ propval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CALLELEM
 193
@@ -15028,7 +15028,7 @@ succeeded
 *
 /
 \
-macro
+MACRO
 (
 JSOP_MUTATEPROTO
 194
@@ -15103,7 +15103,7 @@ v
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GETBOUNDNAME
 195
@@ -15216,7 +15216,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_TYPEOFEXPR
 196
@@ -15333,7 +15333,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_FRESHENLEXICALENV
 197
@@ -15428,7 +15428,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_RECREATELEXICALENV
 198
@@ -15480,7 +15480,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_PUSHLEXICALENV
 199
@@ -15530,7 +15530,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_POPLEXICALENV
 200
@@ -15574,7 +15574,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DEBUGLEAVELEXICALENV
 201
@@ -15631,7 +15631,7 @@ generator
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INITIALYIELD
 202
@@ -15705,7 +15705,7 @@ rval2
 *
 /
 \
-macro
+MACRO
 (
 JSOP_YIELD
 203
@@ -15765,7 +15765,7 @@ gen
 *
 /
 \
-macro
+MACRO
 (
 JSOP_FINALYIELDRVAL
 204
@@ -15843,7 +15843,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_RESUME
 205
@@ -15864,7 +15864,7 @@ JOF_INVOKE
 *
 /
 \
-macro
+MACRO
 (
 JSOP_UNUSED206
 206
@@ -15925,7 +15925,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_FORCEINTERPRETER
 207
@@ -15989,7 +15989,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DEBUGAFTERYIELD
 208
@@ -16057,7 +16057,7 @@ resolved
 *
 /
 \
-macro
+MACRO
 (
 JSOP_AWAIT
 209
@@ -16128,7 +16128,7 @@ asynciter
 *
 /
 \
-macro
+MACRO
 (
 JSOP_TOASYNCITER
 210
@@ -16210,7 +16210,7 @@ id
 *
 /
 \
-macro
+MACRO
 (
 JSOP_HASOWN
 211
@@ -16264,7 +16264,7 @@ generator
 *
 /
 \
-macro
+MACRO
 (
 JSOP_GENERATOR
 212
@@ -16313,7 +16313,7 @@ env
 *
 /
 \
-macro
+MACRO
 (
 JSOP_BINDVAR
 213
@@ -16397,7 +16397,7 @@ global
 *
 /
 \
-macro
+MACRO
 (
 JSOP_BINDGNAME
 214
@@ -16455,7 +16455,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INT8
 215
@@ -16507,7 +16507,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_INT32
 216
@@ -16572,7 +16572,7 @@ length
 *
 /
 \
-macro
+MACRO
 (
 JSOP_LENGTH
 217
@@ -16660,7 +16660,7 @@ hole
 *
 /
 \
-macro
+MACRO
 (
 JSOP_HOLE
 218
@@ -16735,7 +16735,7 @@ obj
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CHECKISCALLABLE
 219
@@ -16793,7 +16793,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_TRY_DESTRUCTURING_ITERCLOSE
 220
@@ -16853,7 +16853,7 @@ BuiltinPrototype
 *
 /
 \
-macro
+MACRO
 (
 JSOP_BUILTINPROTO
 221
@@ -16917,7 +16917,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_ITERNEXT
 222
@@ -17026,7 +17026,7 @@ canskip
 *
 /
 \
-macro
+MACRO
 (
 JSOP_TRYSKIPAWAIT
 223
@@ -17082,7 +17082,7 @@ rest
 *
 /
 \
-macro
+MACRO
 (
 JSOP_REST
 224
@@ -17141,7 +17141,7 @@ propertyKey
 *
 /
 \
-macro
+MACRO
 (
 JSOP_TOID
 225
@@ -17201,7 +17201,7 @@ this
 *
 /
 \
-macro
+MACRO
 (
 JSOP_IMPLICITTHIS
 226
@@ -17327,7 +17327,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_LOOPENTRY
 227
@@ -17380,7 +17380,7 @@ val
 *
 /
 \
-macro
+MACRO
 (
 JSOP_TOSTRING
 228
@@ -17430,7 +17430,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_NOP_DESTRUCTURING
 229
@@ -17507,7 +17507,7 @@ Stack
 *
 /
 \
-macro
+MACRO
 (
 JSOP_JUMPTARGET
 230
@@ -17586,7 +17586,7 @@ argc
 *
 /
 \
-macro
+MACRO
 (
 JSOP_CALL_IGNORES_RV
 231
@@ -17645,7 +17645,7 @@ meta
 *
 /
 \
-macro
+MACRO
 (
 JSOP_IMPORTMETA
 232
@@ -17704,7 +17704,7 @@ rval
 *
 /
 \
-macro
+MACRO
 (
 JSOP_DYNAMIC_IMPORT
 233
@@ -17755,7 +17755,7 @@ val
 \
 IF_BIGINT
 (
-macro
+MACRO
 (
 JSOP_BIGINT
 234
@@ -17807,118 +17807,118 @@ so
 define
 FOR_EACH_TRAILING_UNUSED_OPCODE
 (
-macro
+MACRO
 )
 \
 IF_BIGINT
 (
-macro
+MACRO
 (
 234
 )
 )
 \
-macro
+MACRO
 (
 235
 )
 \
-macro
+MACRO
 (
 236
 )
 \
-macro
+MACRO
 (
 237
 )
 \
-macro
+MACRO
 (
 238
 )
 \
-macro
+MACRO
 (
 239
 )
 \
-macro
+MACRO
 (
 240
 )
 \
-macro
+MACRO
 (
 241
 )
 \
-macro
+MACRO
 (
 242
 )
 \
-macro
+MACRO
 (
 243
 )
 \
-macro
+MACRO
 (
 244
 )
 \
-macro
+MACRO
 (
 245
 )
 \
-macro
+MACRO
 (
 246
 )
 \
-macro
+MACRO
 (
 247
 )
 \
-macro
+MACRO
 (
 248
 )
 \
-macro
+MACRO
 (
 249
 )
 \
-macro
+MACRO
 (
 250
 )
 \
-macro
+MACRO
 (
 251
 )
 \
-macro
+MACRO
 (
 252
 )
 \
-macro
+MACRO
 (
 253
 )
 \
-macro
+MACRO
 (
 254
 )
 \
-macro
+MACRO
 (
 255
 )

@@ -76,7 +76,7 @@ r
 \
 s
 *
-macro
+MACRO
 \
 (
 (

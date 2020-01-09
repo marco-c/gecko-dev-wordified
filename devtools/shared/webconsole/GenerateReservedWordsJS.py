@@ -80,7 +80,7 @@ r
 \
 s
 *
-macro
+MACRO
 \
 (
 (
