@@ -214,7 +214,8 @@ default
 :
 mContentIterator
 =
-NS_NewContentIterator
+new
+PostContentIterator
 (
 )
 ;
