@@ -1272,7 +1272,7 @@ opened
 .
 *
 /
-_addListener
+addSocketListener
 (
 listener
 )
@@ -1376,7 +1376,7 @@ closed
 .
 *
 /
-_removeListener
+removeSocketListener
 (
 listener
 )

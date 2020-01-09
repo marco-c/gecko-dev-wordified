@@ -98,7 +98,7 @@ throws
 >
 DebuggerServer
 .
-_addListener
+addSocketListener
 (
 socketListener
 )
@@ -110,7 +110,7 @@ been
 initialized
 /
 "
-_addListener
+addSocketListener
 should
 throw
 before
@@ -284,7 +284,7 @@ work
 .
 DebuggerServer
 .
-_addListener
+addSocketListener
 (
 socketListener
 )
