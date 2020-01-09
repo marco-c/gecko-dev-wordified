@@ -363,7 +363,7 @@ bool
 disableCacheIR
 ;
 bool
-disableCacheIRBinaryArith
+disableCacheIRCalls
 ;
 bool
 disableSincos
