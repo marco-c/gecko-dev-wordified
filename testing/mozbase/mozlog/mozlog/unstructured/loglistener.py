@@ -228,10 +228,6 @@ self
 process_message
 (
 data
-.
-decode
-(
-)
 )
             
 except
