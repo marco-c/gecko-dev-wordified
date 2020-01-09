@@ -157,15 +157,6 @@ wrap
 iframe
 )
 .
-QueryInterface
-(
-SpecialPowers
-.
-Ci
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 .
 tabParent

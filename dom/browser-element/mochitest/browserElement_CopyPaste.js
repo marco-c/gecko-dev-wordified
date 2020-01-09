@@ -468,15 +468,6 @@ wrap
 iframeOuter
 )
 .
-QueryInterface
-(
-SpecialPowers
-.
-Ci
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 .
 docShell

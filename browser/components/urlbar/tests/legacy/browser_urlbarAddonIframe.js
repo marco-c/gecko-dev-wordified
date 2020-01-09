@@ -542,13 +542,6 @@ gMsgMan
 =
 iframe
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
-.
 frameLoader
 .
 messageManager
