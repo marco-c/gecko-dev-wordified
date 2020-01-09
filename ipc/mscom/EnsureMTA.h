@@ -161,6 +161,17 @@ mozilla
 /
 mscom
 /
+COMApartmentRegion
+.
+h
+"
+#
+include
+"
+mozilla
+/
+mscom
+/
 Utils
 .
 h

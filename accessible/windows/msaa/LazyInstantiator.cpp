@@ -177,7 +177,7 @@ mozilla
 /
 mscom
 /
-ProcessRuntime
+MainThreadRuntime
 .
 h
 "
@@ -2187,7 +2187,7 @@ ShouldInstantiate
 mscom
 :
 :
-ProcessRuntime
+MainThreadRuntime
 :
 :
 GetClientThreadId

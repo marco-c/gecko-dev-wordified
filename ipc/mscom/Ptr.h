@@ -188,13 +188,6 @@ nsXULAppAPI
 .
 h
 "
-#
-include
-<
-objidl
-.
-h
->
 /
 *
 *
