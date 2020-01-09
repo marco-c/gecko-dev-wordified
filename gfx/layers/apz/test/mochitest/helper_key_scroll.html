@@ -1019,6 +1019,11 @@ waitUntilApzStable
 .
 then
 (
+forceLayerTreeToCompositor
+)
+.
+then
+(
 runTests
 )
 ;
