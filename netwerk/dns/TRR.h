@@ -507,9 +507,15 @@ UINT32_MAX
 mOriginSuffix
 (
 aRec
+?
+aRec
 -
 >
 originSuffix
+:
+EmptyCString
+(
+)
 )
 {
 }
