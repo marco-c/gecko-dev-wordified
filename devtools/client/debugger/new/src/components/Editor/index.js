@@ -3226,7 +3226,6 @@ editorWrapper
 }
 /
 >
-;
 <
 Footer
 editor
