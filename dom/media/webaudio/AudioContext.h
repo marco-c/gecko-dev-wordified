@@ -1774,6 +1774,11 @@ GetBasicWaveFormCache
 (
 )
 ;
+void
+ShutdownWorklet
+(
+)
+;
 /
 /
 Steals

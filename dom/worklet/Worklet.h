@@ -307,6 +307,17 @@ ErrorResult
 aRv
 )
 ;
+WorkletImpl
+*
+Impl
+(
+)
+const
+{
+return
+mImpl
+;
+}
 private
 :
 ~
