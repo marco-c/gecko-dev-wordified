@@ -428,7 +428,7 @@ append
 '
 -
 -
-gecko
+vcs
 -
 checkout
 =
@@ -474,8 +474,6 @@ append
 (
 '
 -
--
-gecko
 -
 sparse
 -
