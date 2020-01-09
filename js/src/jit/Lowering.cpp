@@ -16664,6 +16664,7 @@ default
 /
 Float32
 symbols
+bigint
 and
 objects
 are
@@ -24291,6 +24292,12 @@ MIRType
 :
 :
 Symbol
+:
+case
+MIRType
+:
+:
+BigInt
 :
 lir
 -
