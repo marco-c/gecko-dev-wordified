@@ -279,6 +279,14 @@ mTaskQueue
 .
 RefPtr
 <
+FlushPromise
+>
+ProcessFlush
+(
+)
+;
+RefPtr
+<
 ShutdownPromise
 >
 ProcessShutdown
