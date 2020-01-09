@@ -32776,7 +32776,7 @@ alloc
 )
 LGuardToClass
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -32796,10 +32796,11 @@ lir
 Bailout_TypeBarrierO
 )
 ;
-define
+defineReuseInput
 (
 lir
 ins
+0
 )
 ;
 }
