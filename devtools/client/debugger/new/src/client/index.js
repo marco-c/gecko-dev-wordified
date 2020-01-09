@@ -87,6 +87,7 @@ import
 {
 prefs
 asyncStore
+verifyPrefSchema
 }
 from
 "
@@ -433,6 +434,10 @@ connection
 return
 ;
 }
+verifyPrefSchema
+(
+)
+;
 const
 client
 =
