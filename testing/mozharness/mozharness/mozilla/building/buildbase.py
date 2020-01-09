@@ -160,6 +160,14 @@ mozharness
 .
 base
 .
+errors
+import
+MakefileErrorList
+from
+mozharness
+.
+base
+.
 log
 import
 ERROR
@@ -9879,6 +9887,10 @@ abs_src_dir
 env
 =
 env
+                
+error_list
+=
+MakefileErrorList
                 
 output_timeout
 =
