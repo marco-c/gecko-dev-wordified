@@ -437,11 +437,6 @@ f
 0
 )
 ;
-setCachingEnabled
-(
-true
-)
-;
 /
 /
 In
@@ -888,11 +883,6 @@ buf
 )
 ;
 }
-setCachingEnabled
-(
-false
-)
-;
 var
 code
 =

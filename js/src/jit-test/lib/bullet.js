@@ -578030,17 +578030,5 @@ asm
 .
 _main
 )
-loadedFromCache
-:
-isAsmJSModule
-(
-asmModule
-)
-&
-&
-isAsmJSModuleLoadedFromCache
-(
-asmModule
-)
 }
 }
