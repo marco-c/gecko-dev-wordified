@@ -1139,9 +1139,9 @@ PointerOrigin
 Element
 (
 WebElement
-{
+(
 id
-}
+)
 )
 )
 .
@@ -1269,7 +1269,9 @@ Serializer
 {
 element
 .
-id
+to_string
+(
+)
 .
 serialize
 (
@@ -5691,9 +5693,7 @@ PointerOrigin
 Element
 (
 WebElement
-{
-id
-:
+(
 "
 elem
 "
@@ -5701,7 +5701,7 @@ elem
 into
 (
 )
-}
+)
 )
 x
 :
@@ -5814,9 +5814,7 @@ PointerOrigin
 Element
 (
 WebElement
-{
-id
-:
+(
 "
 elem
 "
@@ -5824,7 +5822,7 @@ elem
 into
 (
 )
-}
+)
 )
 x
 :
@@ -6797,9 +6795,7 @@ PointerOrigin
 Element
 (
 WebElement
-{
-id
-:
+(
 "
 elem
 "
@@ -6807,7 +6803,7 @@ elem
 into
 (
 )
-}
+)
 )
 ;
 check_serialize_deserialize
