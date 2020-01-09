@@ -3732,6 +3732,7 @@ if
 !
 length
 )
+{
 metaGroup
 .
 style
@@ -3742,6 +3743,7 @@ visibility
 hidden
 "
 ;
+}
 else
 {
 document
@@ -7199,6 +7201,7 @@ imagePref
 =
 2
 )
+{
 /
 /
 We
@@ -7238,6 +7241,7 @@ hidden
 =
 true
 ;
+}
 else
 {
 var
@@ -7316,12 +7320,14 @@ DENY_ACTION
 ;
 }
 else
+{
 checkbox
 .
 hidden
 =
 true
 ;
+}
 }
 }
 var
@@ -7559,6 +7565,7 @@ value
 ;
 }
 else
+{
 item
 .
 parentNode
@@ -7567,6 +7574,7 @@ collapsed
 =
 true
 ;
+}
 }
 function
 formatNumber

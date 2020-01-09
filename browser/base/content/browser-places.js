@@ -5284,12 +5284,14 @@ tooltipNode
 .
 _placesNode
 )
+{
 node
 =
 tooltipNode
 .
 _placesNode
 ;
+}
 else
 {
 /

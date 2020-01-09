@@ -1548,6 +1548,7 @@ expectedEnabled
 =
 null
 )
+{
 is
 (
 actualEnabled
@@ -1575,6 +1576,7 @@ state
 "
 )
 ;
+}
 }
 /
 *

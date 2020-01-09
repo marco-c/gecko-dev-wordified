@@ -3019,9 +3019,11 @@ childURI
 =
 placeURI
 )
+{
 return
 child
 ;
+}
 else
 if
 (
@@ -3117,6 +3119,7 @@ if
 (
 child
 )
+{
 this
 .
 selectNode
@@ -3124,6 +3127,7 @@ selectNode
 child
 )
 ;
+}
 else
 {
 /

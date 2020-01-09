@@ -2336,12 +2336,14 @@ popup
 ;
 }
 else
+{
 throw
 "
 Unexpected
 node
 "
 ;
+}
 element
 .
 setAttribute
@@ -10623,6 +10625,7 @@ beforeIndex
 -
 1
 )
+{
 translateX
 +
 =
@@ -10638,6 +10641,7 @@ getBoundingClientRect
 .
 left
 ;
+}
 else
 {
 translateX
@@ -10709,6 +10713,7 @@ beforeIndex
 -
 1
 )
+{
 translateX
 +
 =
@@ -10724,6 +10729,7 @@ getBoundingClientRect
 .
 right
 ;
+}
 else
 {
 translateX

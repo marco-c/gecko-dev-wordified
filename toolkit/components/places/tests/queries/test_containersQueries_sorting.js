@@ -1143,8 +1143,10 @@ true
 ;
 }
 else
+{
 break
 ;
+}
 }
 }
 return
@@ -1548,6 +1550,7 @@ SORT_BY_DATE_DESCENDING
 ;
 }
 else
+{
 check_children_sorting
 (
 root
@@ -1556,6 +1559,7 @@ sortingMode
 value
 )
 ;
+}
 /
 /
 Now
@@ -1774,6 +1778,7 @@ SORT_BY_NONE
 ;
 }
 else
+{
 check_children_sorting
 (
 container
@@ -1782,6 +1787,7 @@ sortingMode
 value
 )
 ;
+}
 container
 .
 containerOpen
@@ -2095,6 +2101,7 @@ SORT_BY_NONE
 ;
 }
 else
+{
 check_children_sorting
 (
 root
@@ -2103,6 +2110,7 @@ aOriginalSortingMode
 value
 )
 ;
+}
 /
 /
 Now
@@ -2387,6 +2395,7 @@ SORT_BY_NONE
 ;
 }
 else
+{
 check_children_sorting
 (
 root
@@ -2395,6 +2404,7 @@ aOriginalSortingMode
 value
 )
 ;
+}
 /
 /
 Children

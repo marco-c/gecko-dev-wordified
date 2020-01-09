@@ -2025,7 +2025,6 @@ addToDictionary
 )
 ;
 else
-{
 this
 .
 mInlineSpellChecker
@@ -2037,7 +2036,6 @@ this
 mMisspelling
 )
 ;
-}
 }
 /
 /

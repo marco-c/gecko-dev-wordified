@@ -942,6 +942,7 @@ data
 ;
 }
 else
+{
 /
 /
 typeof
@@ -967,6 +968,7 @@ topic
 data
 )
 ;
+}
 }
 }
 ;

@@ -1394,8 +1394,10 @@ true
 ;
 }
 else
+{
 break
 ;
+}
 }
 }
 return

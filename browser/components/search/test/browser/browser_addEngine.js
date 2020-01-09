@@ -679,11 +679,13 @@ run
 ;
 }
 else
+{
 executeSoon
 (
 finish
 )
 ;
+}
 }
 function
 test

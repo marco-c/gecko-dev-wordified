@@ -3609,12 +3609,14 @@ nopreventnavboxhide
 true
 "
 )
+{
 FullScreen
 .
 _isPopupOpen
 =
 true
 ;
+}
 else
 if
 (

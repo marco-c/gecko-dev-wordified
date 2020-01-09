@@ -7155,6 +7155,7 @@ TYPE_ONE_SHOT
 ;
 }
 else
+{
 this
 .
 mLauncher
@@ -7165,6 +7166,7 @@ null
 false
 )
 ;
+}
 /
 /
 Update

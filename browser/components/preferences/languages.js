@@ -1432,12 +1432,14 @@ value
 "
 "
 )
+{
 preference
 .
 value
 =
 selectedID
 ;
+}
 else
 {
 arrayOfPrefs

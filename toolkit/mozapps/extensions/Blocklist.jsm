@@ -9873,6 +9873,7 @@ Ci
 .
 nsIPluginTag
 )
+{
 addon
 .
 item
@@ -9885,6 +9886,7 @@ nsIPluginTag
 .
 STATE_DISABLED
 ;
+}
 else
 {
 /

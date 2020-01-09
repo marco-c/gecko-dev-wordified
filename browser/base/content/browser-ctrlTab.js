@@ -613,6 +613,7 @@ null
 ;
 }
 else
+{
 gBrowser
 .
 selectedBrowser
@@ -621,6 +622,7 @@ focus
 (
 )
 ;
+}
 if
 (
 host

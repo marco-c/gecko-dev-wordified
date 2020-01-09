@@ -7769,6 +7769,7 @@ this
 .
 _addonToInstall
 )
+{
 this
 .
 addon
@@ -7777,6 +7778,7 @@ this
 .
 _addonToInstall
 ;
+}
 else
 {
 this

@@ -234,12 +234,14 @@ if
 (
 args
 )
+{
 this
 .
 _branchStr
 =
 args
 ;
+}
 }
 /
 *
@@ -3050,6 +3052,7 @@ prefValue
 ;
 }
 else
+{
 /
 /
 typeof
@@ -3075,6 +3078,7 @@ topic
 data
 )
 ;
+}
 }
 }
 ;

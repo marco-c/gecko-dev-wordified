@@ -2974,6 +2974,7 @@ Translation
 .
 STATE_OFFER
 )
+{
 lang
 =
 this
@@ -2987,6 +2988,7 @@ detectedLanguage
 .
 value
 ;
+}
 else
 {
 lang

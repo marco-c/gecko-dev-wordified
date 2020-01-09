@@ -222,6 +222,7 @@ length
 >
 0
 )
+{
 defaultFont
 =
 this
@@ -234,6 +235,7 @@ aLanguage
 aFontType
 )
 ;
+}
 else
 {
 fonts

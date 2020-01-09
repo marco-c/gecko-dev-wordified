@@ -2960,6 +2960,7 @@ true
 ;
 }
 else
+{
 try
 {
 let
@@ -3209,6 +3210,7 @@ reportError
 e
 )
 ;
+}
 }
 }
 if

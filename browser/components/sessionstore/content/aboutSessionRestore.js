@@ -1666,6 +1666,7 @@ id
 restore
 "
 )
+{
 toggleRowChecked
 (
 cell
@@ -1673,6 +1674,7 @@ cell
 row
 )
 ;
+}
 }
 }
 function

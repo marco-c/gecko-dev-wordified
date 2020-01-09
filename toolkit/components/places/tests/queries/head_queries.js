@@ -845,6 +845,7 @@ qdata
 .
 removeAnnotation
 )
+{
 PlacesUtils
 .
 annotations
@@ -859,6 +860,7 @@ qdata
 annoName
 )
 ;
+}
 else
 {
 PlacesUtils

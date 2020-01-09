@@ -1121,6 +1121,7 @@ if
 !
 value
 )
+{
 prefBranch
 .
 clearUserPref
@@ -1128,6 +1129,7 @@ clearUserPref
 key
 )
 ;
+}
 else
 {
 /
