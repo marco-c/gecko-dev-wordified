@@ -3377,7 +3377,9 @@ i
 audio
 -
 >
-mFrames
+Frames
+(
+)
 )
 ;
 }
@@ -3395,7 +3397,9 @@ channels
 audio
 -
 >
-mFrames
+Frames
+(
+)
 aPrincipalHandle
 )
 ;
@@ -3408,7 +3412,9 @@ mAudioFramesWritten
 audio
 -
 >
-mFrames
+Frames
+(
+)
 ;
 aStream
 -

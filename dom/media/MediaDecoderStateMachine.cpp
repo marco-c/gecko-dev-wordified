@@ -8650,7 +8650,9 @@ FramesToTimeUnit
 aAudio
 -
 >
-mFrames
+Frames
+(
+)
 Info
 (
 )
@@ -9017,7 +9019,9 @@ value
 aAudio
 -
 >
-mFrames
+Frames
+(
+)
 )
 {
 /
@@ -9073,7 +9077,9 @@ frames
 aAudio
 -
 >
-mFrames
+Frames
+(
+)
 -
 uint32_t
 (
