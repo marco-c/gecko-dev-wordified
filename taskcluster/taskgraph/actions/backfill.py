@@ -109,6 +109,12 @@ taskgraph
 taskgraph
 import
 TaskGraph
+from
+taskgraph
+.
+util
+import
+taskcluster
 PUSHLOG_TMPL
 =
 '
@@ -507,9 +513,17 @@ graph_config
 input
 task_group_id
 task_id
-task
 )
 :
+    
+task
+=
+taskcluster
+.
+get_task_definition
+(
+task_id
+)
     
 label
 =
