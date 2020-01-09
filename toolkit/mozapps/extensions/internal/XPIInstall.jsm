@@ -3053,6 +3053,14 @@ manifest
 .
 hidden
 ;
+addon
+.
+incognito
+=
+manifest
+.
+incognito
+;
 if
 (
 addon

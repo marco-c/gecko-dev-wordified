@@ -70,8 +70,6 @@ ExtensionPermissions
 .
 jsm
 "
-{
-}
 )
 ;
 var
