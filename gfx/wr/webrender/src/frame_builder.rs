@@ -244,6 +244,7 @@ RenderTask
 RenderTaskId
 RenderTaskLocation
 RenderTaskTree
+RenderTaskTreeCounters
 }
 ;
 use
@@ -2693,6 +2694,11 @@ scratch
 &
 mut
 PrimitiveScratchBuffer
+render_task_counters
+:
+&
+mut
+RenderTaskTreeCounters
 debug_flags
 :
 DebugFlags
@@ -2841,6 +2847,7 @@ stamp
 frame_id
 (
 )
+render_task_counters
 )
 ;
 let
@@ -3292,6 +3299,15 @@ render_tasks
 write_task_data
 (
 device_pixel_scale
+)
+;
+*
+render_task_counters
+=
+render_tasks
+.
+counters
+(
 )
 ;
 resource_cache

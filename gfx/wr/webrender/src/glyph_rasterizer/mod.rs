@@ -4838,6 +4838,7 @@ render_task
 {
 RenderTaskCache
 RenderTaskTree
+RenderTaskTreeCounters
 }
 ;
 use
@@ -5046,6 +5047,13 @@ FrameId
 :
 :
 INVALID
+&
+RenderTaskTreeCounters
+:
+:
+new
+(
+)
 )
 ;
 let
