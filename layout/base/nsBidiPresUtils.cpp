@@ -2185,12 +2185,11 @@ parent
 &
 &
 !
-nsLayoutUtils
-:
-:
-GetAsBlock
-(
 parent
+-
+>
+IsBlockFrameOrSubclass
+(
 )
 )
 {

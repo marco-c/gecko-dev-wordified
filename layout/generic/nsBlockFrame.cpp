@@ -54260,12 +54260,11 @@ frame
 ;
 NS_ASSERTION
 (
-nsLayoutUtils
-:
-:
-GetAsBlock
-(
 aBlock
+-
+>
+IsBlockFrameOrSubclass
+(
 )
 "
 aBlock
