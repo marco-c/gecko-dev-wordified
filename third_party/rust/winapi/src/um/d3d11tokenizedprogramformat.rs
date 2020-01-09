@@ -1,15 +1,5 @@
 /
 /
-Copyright
-2015
--
-2017
-winapi
--
-rs
-developers
-/
-/
 Licensed
 under
 the
@@ -292,7 +282,6 @@ D3D10_SB_TOKENIZED_PROGRAM_TYPE_MASK
 |
 (
 (
-(
 MajorVer
 <
 <
@@ -300,7 +289,6 @@ D3D10_SB_TOKENIZED_PROGRAM_MAJOR_VERSION_SHIFT
 )
 &
 D3D10_SB_TOKENIZED_PROGRAM_MAJOR_VERSION_MASK
-)
 )
 |
 (

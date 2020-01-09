@@ -1,15 +1,5 @@
 /
 /
-Copyright
-2015
--
-2018
-winapi
--
-rs
-developers
-/
-/
 Licensed
 under
 the

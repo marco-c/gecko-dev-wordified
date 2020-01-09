@@ -1,15 +1,5 @@
 /
 /
-Copyright
-2015
--
-2017
-winapi
--
-rs
-developers
-/
-/
 Licensed
 under
 the
@@ -3918,7 +3908,7 @@ CopyPalette
 pIPalette
 :
 *
-const
+mut
 IWICPalette
 )
 -
