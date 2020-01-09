@@ -14257,7 +14257,7 @@ if
 (
 lCand
 .
-mozLocalTransport
+relayProtocol
 =
 =
 =
@@ -14273,7 +14273,7 @@ candidateType
 =
 =
 "
-relayed
+relay
 "
 )
 )
@@ -14281,7 +14281,7 @@ relayed
 candidateType
 =
 "
-relayed
+relay
 -
 tcp
 "
@@ -14295,7 +14295,7 @@ expectedLocalCandidateType
 =
 =
 "
-serverreflexive
+srflx
 "
 )
 &
@@ -14306,7 +14306,7 @@ candidateType
 =
 =
 "
-peerreflexive
+prflx
 "
 )
 )
@@ -14333,7 +14333,7 @@ timing
 candidateType
 =
 "
-serverreflexive
+srflx
 "
 ;
 }

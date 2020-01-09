@@ -574,6 +574,9 @@ label
 bool
 trickled
 ;
+uint32_t
+priority
+;
 }
 ;
 struct

@@ -987,6 +987,15 @@ candc
 .
 trickled
 ;
+out
+-
+>
+priority
+=
+candc
+.
+priority
+;
 return
 true
 ;
