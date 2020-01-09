@@ -7371,6 +7371,27 @@ id
 1461714
 #
 c55
+            
+'
+android_apks
+'
+#
+We
+need
+to
+compile
+Java
+to
+generate
+JNI
+wrappers
+for
+native
+code
+compilation
+to
+consume
+.
         
 )
         
