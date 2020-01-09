@@ -54,10 +54,10 @@ CONFIG_8BPC
 #
 define
 HAVE_ASM
-1
+0
 #
 define
-HAVE_ALIGNED_MALLOC
+HAVE_POSIX_MEMALIGN
 1
 #
 define
