@@ -2747,10 +2747,6 @@ mResizedObject
 aResizedElement
 )
 ;
-mHasShownResizers
-=
-true
-;
 /
 /
 XXX
@@ -4121,10 +4117,6 @@ PreventDefault
 (
 )
 ;
-mResizerUsedCount
-+
-+
-;
 mOriginalX
 =
 aClientX
@@ -4204,10 +4196,6 @@ moving
 the
 element
 !
-mGrabberUsedCount
-+
-+
-;
 mOriginalX
 =
 aClientX

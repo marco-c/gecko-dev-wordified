@@ -1934,10 +1934,6 @@ MOZ_ASSERT
 mAbsolutelyPositionedObject
 )
 ;
-mHasShownGrabber
-=
-true
-;
 /
 /
 Finally
