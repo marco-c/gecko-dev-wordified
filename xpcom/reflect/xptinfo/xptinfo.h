@@ -4295,6 +4295,9 @@ void
 *
 *
 aObj
+JSContext
+*
+aCx
 )
 const
 {
@@ -4303,6 +4306,7 @@ mUnwrap
 (
 aHandle
 aObj
+aCx
 )
 ;
 }
@@ -4507,6 +4511,9 @@ void
 *
 *
 aObj
+JSContext
+*
+aCx
 )
 ;
 bool
