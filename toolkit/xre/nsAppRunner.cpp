@@ -852,7 +852,7 @@ mozilla
 /
 mscom
 /
-ProcessRuntime
+MainThreadRuntime
 .
 h
 "
@@ -6584,7 +6584,9 @@ const
 nsXULAppInfo
 kAppInfo
 ;
-static
+namespace
+mozilla
+{
 nsresult
 AppInfoConstructor
 (
@@ -6623,6 +6625,11 @@ aResult
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
 bool
 gLogConsoleErrors
 =
@@ -29231,7 +29238,7 @@ mozilla
 mscom
 :
 :
-ProcessRuntime
+MainThreadRuntime
 msCOMRuntime
 ;
 #
