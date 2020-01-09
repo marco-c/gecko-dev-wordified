@@ -3759,6 +3759,9 @@ WebGLFramebuffer
 :
 ValidateAndInitAttachments
 (
+const
+GLenum
+incompleteFbError
 )
 const
 {
@@ -3803,8 +3806,9 @@ true
 mContext
 -
 >
-ErrorInvalidFramebufferOperation
+GenerateError
 (
+incompleteFbError
 "
 Framebuffer
 must

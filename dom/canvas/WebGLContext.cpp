@@ -10431,6 +10431,9 @@ WebGLFramebuffer
 *
 const
 fb
+const
+GLenum
+incompleteFbError
 )
 {
 if
@@ -10443,6 +10446,7 @@ fb
 >
 ValidateAndInitAttachments
 (
+incompleteFbError
 )
 ;
 if
@@ -10636,6 +10640,9 @@ uint32_t
 *
 const
 out_height
+const
+GLenum
+incompleteFbError
 )
 {
 const
@@ -10656,6 +10663,7 @@ if
 ValidateAndInitFB
 (
 fb
+incompleteFbError
 )
 )
 return

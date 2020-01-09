@@ -2116,7 +2116,7 @@ err
 const
 ;
 void
-SynthesizeGLError
+GenerateError
 (
 GLenum
 err
@@ -11821,6 +11821,10 @@ const
 WebGLFramebuffer
 *
 fb
+GLenum
+incompleteFbError
+=
+LOCAL_GL_INVALID_FRAMEBUFFER_OPERATION
 )
 ;
 void
@@ -11859,6 +11863,10 @@ out_width
 uint32_t
 *
 out_height
+GLenum
+incompleteFbError
+=
+LOCAL_GL_INVALID_FRAMEBUFFER_OPERATION
 )
 ;
 void
