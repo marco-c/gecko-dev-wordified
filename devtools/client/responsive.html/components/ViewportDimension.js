@@ -183,7 +183,7 @@ propTypes
 {
 return
 {
-doResizeViewport
+onResizeViewport
 :
 PropTypes
 .
@@ -705,7 +705,7 @@ const
 {
 viewport
 onRemoveDeviceAssociation
-doResizeViewport
+onResizeViewport
 }
 =
 this
@@ -800,7 +800,7 @@ id
 )
 ;
 }
-doResizeViewport
+onResizeViewport
 (
 viewport
 .

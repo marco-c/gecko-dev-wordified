@@ -441,8 +441,6 @@ presShell
 void
 RequestReflow
 (
-bool
-aForceAdjustResolution
 )
 ;
 /
