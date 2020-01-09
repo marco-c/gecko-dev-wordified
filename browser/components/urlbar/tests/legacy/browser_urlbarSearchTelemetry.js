@@ -758,6 +758,9 @@ counts
 *
 *
 param
+{
+function
+}
 clickCallback
 Use
 this
@@ -768,10 +771,10 @@ urlbar
 popup
 and
 choose
+*
 and
 click
 a
-*
 result
 .
 *
@@ -1093,6 +1096,9 @@ params
 *
 *
 param
+{
+number
+}
 index
 The
 index
@@ -1102,7 +1108,12 @@ urlbar
 results
 .
 *
-return
+returns
+{
+object
+|
+null
+}
 An
 action
 object
@@ -1271,7 +1282,10 @@ results
 .
 *
 *
-return
+returns
+{
+number
+}
 An
 index
 or

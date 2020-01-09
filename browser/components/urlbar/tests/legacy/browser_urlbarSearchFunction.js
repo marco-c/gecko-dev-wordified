@@ -531,7 +531,10 @@ opens
 .
 *
 *
-return
+returns
+{
+function
+}
 A
 function
 that
@@ -544,9 +547,10 @@ you
 re
 done
 that
+*
 resets
 the
-*
+state
 state
 of
 the
@@ -656,6 +660,9 @@ visible
 *
 *
 param
+{
+boolean
+}
 visible
 *
 True
@@ -748,6 +755,9 @@ visible
 *
 *
 param
+{
+boolean
+}
 visible
 *
 True
@@ -859,6 +869,9 @@ value
 *
 *
 param
+{
+string
+}
 value
 *
 The
