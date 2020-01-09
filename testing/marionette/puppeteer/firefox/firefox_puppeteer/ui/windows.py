@@ -1991,10 +1991,14 @@ parameter
          
 Defaults
 to
-window
-.
-open
+OpenBrowserWindow
 (
+)
+(
+from
+browser
+.
+js
 )
 .
         
@@ -2396,10 +2400,14 @@ parameter
          
 Defaults
 to
-window
-.
-open
+OpenBrowserWindow
 (
+)
+(
+from
+browser
+.
+js
 )
 .
         
@@ -2504,9 +2512,7 @@ execute_script
 "
 "
 "
-window
-.
-open
+OpenBrowserWindow
 (
 )
 ;

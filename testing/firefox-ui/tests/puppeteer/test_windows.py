@@ -189,9 +189,7 @@ execute_script
 "
 "
 "
-window
-.
-open
+OpenBrowserWindow
 (
 )
 ;
@@ -1011,9 +1009,7 @@ execute_script
 "
 "
 "
-window
-.
-open
+OpenBrowserWindow
 (
 )
 ;
