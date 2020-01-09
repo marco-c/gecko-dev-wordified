@@ -1572,7 +1572,6 @@ getHost
 (
 )
 ;
-final
 String
 uid
 =
@@ -1588,6 +1587,18 @@ getQueryParameter
 uid
 "
 )
+;
+if
+(
+uid
+!
+=
+null
+)
+{
+uid
+=
+uid
 .
 replaceAll
 (
@@ -1600,6 +1611,7 @@ n
 "
 )
 ;
+}
 final
 String
 localUid
