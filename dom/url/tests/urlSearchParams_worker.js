@@ -1,3 +1,11 @@
+/
+*
+eslint
+-
+env
+worker
+*
+/
 importScripts
 (
 "
@@ -211,6 +219,7 @@ function
 (
 )
 {
+let
 status
 =
 false
