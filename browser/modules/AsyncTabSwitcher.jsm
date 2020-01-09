@@ -5656,6 +5656,12 @@ compositing
 time
 )
 ;
+this
+.
+_tabSwitchStopWatchRunning
+=
+false
+;
 }
 }
 this
