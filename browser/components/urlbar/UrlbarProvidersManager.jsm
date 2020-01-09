@@ -254,7 +254,7 @@ var
 localProviderModules
 =
 {
-UrlbarProviderOpenTabs
+UrlbarProviderUnifiedComplete
 :
 "
 resource
@@ -264,7 +264,7 @@ resource
 /
 modules
 /
-UrlbarProviderOpenTabs
+UrlbarProviderUnifiedComplete
 .
 jsm
 "
@@ -1349,6 +1349,11 @@ context
 this
 .
 add
+.
+bind
+(
+this
+)
 )
 )
 ;
@@ -1854,6 +1859,15 @@ out
 if
 (
 match
+.
+payload
+.
+url
+&
+&
+match
+.
+payload
 .
 url
 .
@@ -2796,7 +2810,7 @@ UrlbarUtils
 .
 MATCH_SOURCE
 .
-SEARCHENGINE
+SEARCH
 :
 if
 (
