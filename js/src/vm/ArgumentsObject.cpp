@@ -3316,6 +3316,15 @@ callee
 isAsync
 (
 )
+&
+&
+!
+callee
+-
+>
+isGenerator
+(
+)
 )
 {
 vp

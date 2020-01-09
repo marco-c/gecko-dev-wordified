@@ -25449,6 +25449,15 @@ callee
 isAsync
 (
 )
+&
+&
+!
+callee
+-
+>
+isGenerator
+(
+)
 )
 {
 /

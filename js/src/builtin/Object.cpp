@@ -2592,6 +2592,14 @@ IsWrappedAsyncFunction
 (
 fun
 )
+|
+|
+fun
+-
+>
+isAsync
+(
+)
 )
 {
 if
