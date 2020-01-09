@@ -9257,10 +9257,6 @@ updateTimingInformation
 false
 )
 ;
-mDidDocumentOpen
-=
-true
-;
 /
 /
 Step
