@@ -1530,6 +1530,10 @@ itemSizing
 minSizeSectionHeader
 "
 )
+minDimensionValue
+.
+length
+?
 this
 .
 renderCssProperty
@@ -1541,6 +1545,8 @@ dimension
 }
 minDimensionValue
 )
+:
+null
 )
 this
 .
@@ -1691,6 +1697,10 @@ itemSizing
 maxSizeSectionHeader
 "
 )
+maxDimensionValue
+.
+length
+?
 this
 .
 renderCssProperty
@@ -1702,6 +1712,8 @@ dimension
 }
 maxDimensionValue
 )
+:
+null
 )
 this
 .
