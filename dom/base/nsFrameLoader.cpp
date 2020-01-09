@@ -1287,7 +1287,7 @@ mRemoteBrowserShown
 (
 false
 )
-mRemoteFrame
+mIsRemoteFrame
 (
 false
 )
@@ -1296,7 +1296,7 @@ mObservingOwnerContent
 false
 )
 {
-mRemoteFrame
+mIsRemoteFrame
 =
 ShouldUseRemoteProcess
 (
@@ -1305,7 +1305,7 @@ ShouldUseRemoteProcess
 MOZ_ASSERT
 (
 !
-mRemoteFrame
+mIsRemoteFrame
 |
 |
 !
@@ -16922,7 +16922,7 @@ IsRemoteFrame
 {
 if
 (
-mRemoteFrame
+mIsRemoteFrame
 )
 {
 MOZ_ASSERT
@@ -17005,7 +17005,7 @@ const
 {
 MOZ_ASSERT
 (
-mRemoteFrame
+mIsRemoteFrame
 )
 ;
 if
@@ -18259,7 +18259,7 @@ MOZ_ASSERT
 mRemoteBrowser
 )
 ;
-mRemoteFrame
+mIsRemoteFrame
 =
 true
 ;

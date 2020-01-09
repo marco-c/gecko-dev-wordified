@@ -2867,7 +2867,7 @@ mRemoteBrowserShown
 1
 ;
 bool
-mRemoteFrame
+mIsRemoteFrame
 :
 1
 ;
