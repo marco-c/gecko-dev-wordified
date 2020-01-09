@@ -152,6 +152,13 @@ PropTypes
 func
 .
 isRequired
+onToggleSelectorHighlighter
+:
+PropTypes
+.
+func
+.
+isRequired
 rules
 :
 PropTypes
@@ -179,6 +186,7 @@ render
 const
 {
 onToggleDeclaration
+onToggleSelectorHighlighter
 rules
 }
 =
@@ -205,6 +213,7 @@ rule
 .
 id
 onToggleDeclaration
+onToggleSelectorHighlighter
 rule
 }
 )

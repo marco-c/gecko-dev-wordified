@@ -153,6 +153,16 @@ TOGGLE_PSEUDO_CLASS
 /
 Updates
 the
+highlighted
+selector
+.
+"
+UPDATE_HIGHLIGHTED_SELECTOR
+"
+/
+/
+Updates
+the
 rules
 state
 with
