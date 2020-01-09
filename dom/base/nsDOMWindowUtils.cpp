@@ -19547,7 +19547,7 @@ nsLayoutUtils
 PostRestyleEvent
 (
 aElement
-eRestyle_Self
+StyleRestyleHint_RESTYLE_SELF
 nsChangeHint
 (
 0

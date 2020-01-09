@@ -17900,9 +17900,10 @@ dom
 :
 Element
 *
-aElement
-nsRestyleHint
-aRestyleHint
+mozilla
+:
+:
+RestyleHint
 nsChangeHint
 aMinChangeHint
 )

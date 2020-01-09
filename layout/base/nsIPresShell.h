@@ -3164,7 +3164,6 @@ dom
 :
 Element
 *
-aElement
 )
 ;
 void
@@ -3178,9 +3177,10 @@ dom
 :
 Element
 *
-aElement
-nsRestyleHint
-aHint
+mozilla
+:
+:
+RestyleHint
 )
 ;
 /

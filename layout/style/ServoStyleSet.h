@@ -721,7 +721,7 @@ StylistNeedsUpdate
 )
 ;
 }
-nsRestyleHint
+RestyleHint
 MediumFeaturesChanged
 (
 MediaFeatureChangeReason

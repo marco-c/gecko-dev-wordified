@@ -388,7 +388,7 @@ MediaFeatureChangeReason
 struct
 MediaFeatureChange
 {
-nsRestyleHint
+RestyleHint
 mRestyleHint
 ;
 nsChangeHint
@@ -406,10 +406,10 @@ aReason
 :
 MediaFeatureChange
 (
-nsRestyleHint
-(
+RestyleHint
+{
 0
-)
+}
 nsChangeHint
 (
 0
@@ -420,7 +420,7 @@ aReason
 }
 MediaFeatureChange
 (
-nsRestyleHint
+RestyleHint
 aRestyleHint
 nsChangeHint
 aChangeHint

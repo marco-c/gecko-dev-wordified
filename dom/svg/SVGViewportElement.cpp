@@ -1548,10 +1548,10 @@ nsLayoutUtils
 PostRestyleEvent
 (
 this
-nsRestyleHint
-(
+RestyleHint
+{
 0
-)
+}
 changeHint
 )
 ;

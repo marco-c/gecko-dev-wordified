@@ -5685,7 +5685,7 @@ PseudoStyleType
 :
 :
 NotPseudo
-eRestyle_StyleAttribute_Animations
+StyleRestyleHint_RESTYLE_SMIL
 )
 ;
 foundElementsNeedingRestyle

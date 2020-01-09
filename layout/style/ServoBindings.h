@@ -3304,11 +3304,11 @@ void
 Servo_NoteExplicitHints
 (
 RawGeckoElementBorrowed
-element
-nsRestyleHint
-restyle_hint
+mozilla
+:
+:
+RestyleHint
 nsChangeHint
-change_hint
 )
 ;
 /
