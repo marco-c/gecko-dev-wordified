@@ -1460,9 +1460,6 @@ geckomediaplugin
 "
 gpu
 "
-"
-rdd
-"
 ]
     
 for

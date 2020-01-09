@@ -17062,11 +17062,6 @@ StaticPrefs
 MediaRddProcessEnabled
 (
 )
-&
-&
-BrowserTabsRemoteAutostart
-(
-)
 )
 {
 RDDProcessManager
