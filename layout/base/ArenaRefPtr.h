@@ -163,6 +163,11 @@ mozilla_ArenaRefPtr_h
 #
 define
 mozilla_ArenaRefPtr_h
+template
+<
+size_t
+ArenaSize
+>
 class
 nsPresArena
 ;
@@ -386,6 +391,11 @@ T
 class
 ArenaRefPtr
 {
+template
+<
+size_t
+ArenaSize
+>
 friend
 class
 :

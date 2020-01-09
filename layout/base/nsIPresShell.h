@@ -11257,6 +11257,9 @@ t
 have
 to
 nsPresArena
+<
+8192
+>
 mFrameArena
 ;
 RefPtr

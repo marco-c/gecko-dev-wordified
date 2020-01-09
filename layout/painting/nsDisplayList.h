@@ -11100,6 +11100,9 @@ nsIFrame
 mIgnoreScrollFrame
 ;
 nsPresArena
+<
+32768
+>
 mPool
 ;
 AutoTArray
