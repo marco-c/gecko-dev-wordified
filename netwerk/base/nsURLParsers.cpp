@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsCRTGlue
+.
+h
+"
+#
+include
+"
 nsURLParsers
 .
 h
