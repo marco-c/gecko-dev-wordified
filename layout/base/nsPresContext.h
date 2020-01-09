@@ -1522,6 +1522,11 @@ nsRestyleHint
 aRestyleHint
 )
 ;
+void
+ContentLanguageChanged
+(
+)
+;
 /
 *
 *
