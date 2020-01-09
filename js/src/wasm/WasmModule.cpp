@@ -7789,15 +7789,6 @@ const
 {
 MOZ_RELEASE_ASSERT
 (
-metadata
-(
-)
-.
-isAsmJS
-(
-)
-|
-|
 cx
 -
 >
