@@ -128,6 +128,15 @@ Nullable
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 util
 .
 Log
@@ -1765,6 +1774,7 @@ flags
 .
 *
 /
+UiThread
 void
 onPlaybackStateChange
 (
@@ -1827,6 +1837,7 @@ flags
 .
 *
 /
+UiThread
 void
 onReadyStateChange
 (
@@ -1875,6 +1886,7 @@ media
 .
 *
 /
+UiThread
 void
 onMetadataChange
 (
@@ -1928,6 +1940,7 @@ ranges
 .
 *
 /
+UiThread
 void
 onLoadProgress
 (
@@ -1983,6 +1996,7 @@ muted
 .
 *
 /
+UiThread
 void
 onVolumeChange
 (
@@ -2039,6 +2053,7 @@ seconds
 .
 *
 /
+UiThread
 void
 onTimeChange
 (
@@ -2093,6 +2108,7 @@ speed
 .
 *
 /
+UiThread
 void
 onPlaybackRateChange
 (
@@ -2145,6 +2161,7 @@ mode
 .
 *
 /
+UiThread
 void
 onFullscreenChange
 (
@@ -2199,6 +2216,7 @@ flags
 .
 *
 /
+UiThread
 void
 onError
 (

@@ -15725,6 +15725,7 @@ loaded
 .
 *
 /
+UiThread
 void
 onPageStart
 (
@@ -15772,6 +15773,7 @@ occurred
 .
 *
 /
+UiThread
 void
 onPageStop
 (
@@ -15814,6 +15816,7 @@ value
 .
 *
 /
+UiThread
 void
 onProgressChange
 (
@@ -15853,6 +15856,7 @@ information
 .
 *
 /
+UiThread
 void
 onSecurityChange
 (
@@ -16144,6 +16148,7 @@ content
 .
 *
 /
+UiThread
 void
 onTitleChange
 (
@@ -16193,6 +16198,7 @@ callback
 .
 *
 /
+UiThread
 void
 onFocusRequest
 (
@@ -16222,6 +16228,7 @@ callback
 .
 *
 /
+UiThread
 void
 onCloseRequest
 (
@@ -16293,6 +16300,7 @@ mode
 .
 *
 /
+UiThread
 void
 onFullScreen
 (
@@ -16701,6 +16709,7 @@ element
 .
 *
 /
+UiThread
 void
 onContextMenu
 (
@@ -16767,6 +16776,7 @@ external
 response
 *
 /
+UiThread
 void
 onExternalResponse
 (
@@ -16860,6 +16870,7 @@ crashed
 .
 *
 /
+UiThread
 void
 onCrash
 (
@@ -16916,6 +16927,7 @@ event
 .
 *
 /
+UiThread
 void
 onFirstComposite
 (
@@ -17885,6 +17897,7 @@ once
 .
 *
 /
+UiThread
 void
 onShowActionRequest
 (
@@ -18180,6 +18193,7 @@ constants
 .
 *
 /
+UiThread
 void
 onHideAction
 (
@@ -18229,6 +18243,7 @@ loaded
 .
 *
 /
+UiThread
 void
 onLocationChange
 (
@@ -18275,6 +18290,7 @@ ability
 .
 *
 /
+UiThread
 void
 onCanGoBack
 (
@@ -18321,6 +18337,7 @@ ability
 .
 *
 /
+UiThread
 void
 onCanGoForward
 (
@@ -18812,6 +18829,7 @@ unhandled
 .
 *
 /
+UiThread
 Nullable
 GeckoResult
 <
@@ -18951,6 +18969,7 @@ null
 .
 *
 /
+UiThread
 Nullable
 GeckoResult
 <
@@ -19019,6 +19038,7 @@ entirely
 .
 *
 /
+UiThread
 GeckoResult
 <
 String
@@ -19159,6 +19179,7 @@ dismissed
 .
 *
 /
+UiThread
 void
 dismiss
 (
@@ -19248,6 +19269,7 @@ checkbox
 .
 *
 /
+UiThread
 boolean
 hasCheckbox
 (
@@ -19278,6 +19300,7 @@ none
 .
 *
 /
+UiThread
 String
 getCheckboxMessage
 (
@@ -19305,6 +19328,7 @@ value
 .
 *
 /
+UiThread
 boolean
 getCheckboxValue
 (
@@ -19333,6 +19357,7 @@ value
 .
 *
 /
+UiThread
 void
 setCheckboxValue
 (
@@ -19386,6 +19411,7 @@ interface
 .
 *
 /
+UiThread
 void
 onAlert
 (
@@ -19461,6 +19487,7 @@ constants
 .
 *
 /
+UiThread
 void
 confirm
 (
@@ -19609,6 +19636,7 @@ interface
 .
 *
 /
+UiThread
 void
 onButtonPrompt
 (
@@ -19696,6 +19724,7 @@ result
 .
 *
 /
+UiThread
 void
 confirm
 (
@@ -19760,6 +19789,7 @@ interface
 .
 *
 /
+UiThread
 void
 onTextPrompt
 (
@@ -19827,6 +19857,7 @@ password
 .
 *
 /
+UiThread
 void
 confirm
 (
@@ -19871,6 +19902,7 @@ password
 .
 *
 /
+UiThread
 void
 confirm
 (
@@ -20400,6 +20432,7 @@ interface
 .
 *
 /
+UiThread
 void
 onAuthPrompt
 (
@@ -20973,6 +21006,7 @@ item
 .
 *
 /
+UiThread
 void
 confirm
 (
@@ -21014,6 +21048,7 @@ items
 .
 *
 /
+UiThread
 void
 confirm
 (
@@ -21073,6 +21108,7 @@ implementation
 .
 *
 /
+UiThread
 void
 confirm
 (
@@ -21128,6 +21164,7 @@ implementation
 .
 *
 /
+UiThread
 void
 confirm
 (
@@ -21221,6 +21258,7 @@ interface
 .
 *
 /
+UiThread
 void
 onChoicePrompt
 (
@@ -21304,6 +21342,7 @@ format
 .
 *
 /
+UiThread
 void
 onColorPrompt
 (
@@ -21559,6 +21598,7 @@ format
 .
 *
 /
+UiThread
 void
 onDateTimePrompt
 (
@@ -21646,6 +21686,7 @@ file
 .
 *
 /
+UiThread
 void
 confirm
 (
@@ -21702,6 +21743,7 @@ files
 .
 *
 /
+UiThread
 void
 confirm
 (
@@ -21839,6 +21881,7 @@ interface
 .
 *
 /
+UiThread
 void
 onFilePrompt
 (
@@ -21940,6 +21983,7 @@ open
 .
 *
 /
+UiThread
 GeckoResult
 <
 AllowOrDeny
@@ -22023,6 +22067,7 @@ pixels
 .
 *
 /
+UiThread
 public
 void
 onScrollChanged
@@ -23154,6 +23199,7 @@ flags
 .
 *
 /
+UiThread
 void
 onTrackerBlocked
 (
@@ -23444,6 +23490,7 @@ request
 .
 *
 /
+UiThread
 void
 grant
 (
@@ -23482,6 +23529,7 @@ request
 .
 *
 /
+UiThread
 void
 reject
 (
@@ -23559,6 +23607,7 @@ interface
 .
 *
 /
+UiThread
 void
 onAndroidPermissionsRequest
 (
@@ -23629,6 +23678,7 @@ interface
 .
 *
 /
+UiThread
 void
 onContentPermissionRequest
 (
@@ -24574,6 +24624,7 @@ requested
 .
 *
 /
+UiThread
 void
 grant
 (
@@ -24689,6 +24740,7 @@ requested
 .
 *
 /
+UiThread
 void
 grant
 (
@@ -24734,6 +24786,7 @@ request
 .
 *
 /
+UiThread
 void
 reject
 (
@@ -24820,6 +24873,7 @@ interface
 .
 *
 /
+UiThread
 void
 onMediaPermissionRequest
 (
@@ -27012,6 +27066,7 @@ created
 .
 *
 /
+UiThread
 void
 onMediaAdd
 (
@@ -27051,6 +27106,7 @@ unloaded
 .
 *
 /
+UiThread
 void
 onMediaRemove
 (
@@ -27427,6 +27483,7 @@ false
 .
 *
 /
+UiThread
 default
 Nullable
 GeckoResult
@@ -27555,6 +27612,7 @@ false
 .
 *
 /
+UiThread
 default
 Nullable
 GeckoResult

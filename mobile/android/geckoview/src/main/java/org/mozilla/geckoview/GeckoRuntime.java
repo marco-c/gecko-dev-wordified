@@ -2191,6 +2191,7 @@ closed
 *
 *
 /
+UiThread
 void
 onShutdown
 (
