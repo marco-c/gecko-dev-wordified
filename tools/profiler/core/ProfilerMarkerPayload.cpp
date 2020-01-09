@@ -498,7 +498,7 @@ StringProperty
 "
 operation
 "
-mFilename
+mOperation
 .
 get
 (
