@@ -503,7 +503,7 @@ if
 (
 tabbrowser
 .
-preloadedBrowser
+_preloadedBrowser
 )
 {
 let
@@ -511,7 +511,7 @@ browser
 =
 tabbrowser
 .
-preloadedBrowser
+_preloadedBrowser
 ;
 if
 (

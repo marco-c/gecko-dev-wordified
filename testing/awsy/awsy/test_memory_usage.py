@@ -690,25 +690,6 @@ script
             
 if
 (
-window
-.
-NewTabPagePreloading
-)
-{
-                
-return
-NewTabPagePreloading
-.
-removePreloadedBrowser
-(
-window
-)
-;
-            
-}
-            
-if
-(
 "
 removePreloadedBrowser
 "
@@ -726,7 +707,9 @@ removePreloadedBrowser
 ;
             
 }
-            
+else
+{
+                
 return
 "
 gBrowser
@@ -736,6 +719,8 @@ not
 available
 "
 ;
+            
+}
             
 "
 "
@@ -771,6 +756,8 @@ logger
 error
 (
 "
+gBrowser
+.
 removePreloadedBrowser
 (
 )
@@ -795,6 +782,8 @@ logger
 error
 (
 "
+gBrowser
+.
 removePreloadedBrowser
 (
 )
@@ -815,6 +804,8 @@ error
 (
                 
 "
+gBrowser
+.
 removePreloadedBrowser
 (
 )
