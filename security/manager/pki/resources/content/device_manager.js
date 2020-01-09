@@ -832,7 +832,7 @@ item
 =
 tree
 .
-contentView
+view
 .
 getItemAtIndex
 (

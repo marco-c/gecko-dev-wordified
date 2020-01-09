@@ -1783,7 +1783,7 @@ item
 =
 tree
 .
-contentView
+view
 .
 getItemAtIndex
 (
@@ -1989,7 +1989,7 @@ item
 =
 tree
 .
-contentView
+view
 .
 getItemAtIndex
 (
