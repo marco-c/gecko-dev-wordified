@@ -1998,6 +1998,9 @@ options
 =
 {
 breakpoints
+observeAsmJS
+:
+true
 }
 ;
 const
