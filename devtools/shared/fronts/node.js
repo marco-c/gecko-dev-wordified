@@ -1702,6 +1702,11 @@ isBeforePseudoElement
 this
 .
 isAfterPseudoElement
+|
+|
+this
+.
+isMarkerPseudoElement
 ;
 }
 get
