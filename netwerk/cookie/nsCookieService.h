@@ -2125,14 +2125,6 @@ oldestCookieTime
 )
 ;
 void
-NotifyAccepted
-(
-nsIChannel
-*
-aChannel
-)
-;
-void
 NotifyRejected
 (
 nsIURI

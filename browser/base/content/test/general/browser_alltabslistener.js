@@ -1167,9 +1167,6 @@ gAllNotifications
 onStateChange
 "
 "
-onSecurityChange
-"
-"
 onLocationChange
 "
 "
@@ -1221,9 +1218,6 @@ gAllNotifications
 [
 "
 onStateChange
-"
-"
-onSecurityChange
 "
 "
 onLocationChange
@@ -1279,9 +1273,6 @@ gAllNotifications
 onStateChange
 "
 "
-onSecurityChange
-"
-"
 onLocationChange
 "
 "
@@ -1334,9 +1325,6 @@ gAllNotifications
 [
 "
 onStateChange
-"
-"
-onSecurityChange
 "
 "
 onLocationChange
@@ -1447,9 +1435,6 @@ gAllNotifications
 onStateChange
 "
 "
-onSecurityChange
-"
-"
 onLocationChange
 "
 "
@@ -1501,9 +1486,6 @@ gAllNotifications
 [
 "
 onStateChange
-"
-"
-onSecurityChange
 "
 "
 onLocationChange
