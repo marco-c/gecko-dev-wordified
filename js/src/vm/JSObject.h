@@ -6748,7 +6748,7 @@ cx
 js
 :
 :
-HandleObject
+HandleFunction
 callee
 HandleObject
 newTarget
@@ -6786,7 +6786,7 @@ cx
 js
 :
 :
-HandleObject
+HandleFunction
 callee
 js
 :

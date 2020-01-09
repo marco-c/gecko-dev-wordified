@@ -8399,7 +8399,7 @@ JSObject
 *
 resultObject
 =
-NewObjectOperationWithTemplate
+CreateThisWithTemplate
 (
 cx
 templateObject
