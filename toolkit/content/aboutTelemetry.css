@@ -1608,3 +1608,11 @@ size
 15px
 ;
 }
+.
+clearfix
+{
+clear
+:
+both
+;
+}
