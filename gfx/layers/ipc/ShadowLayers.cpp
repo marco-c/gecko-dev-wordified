@@ -6254,7 +6254,13 @@ false
 }
 bufferDesc
 =
+std
+:
+:
+move
+(
 shmem
+)
 ;
 }
 /

@@ -423,7 +423,13 @@ if
 !
 SendTestSendReference
 (
+std
+:
+:
+move
+(
 b
+)
 )
 )
 {

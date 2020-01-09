@@ -685,6 +685,11 @@ Length
 {
 Dealloc
 (
+std
+:
+:
+move
+(
 GetGmpFreelist
 (
 aClass
@@ -692,6 +697,7 @@ aClass
 [
 0
 ]
+)
 )
 ;
 GetGmpFreelist

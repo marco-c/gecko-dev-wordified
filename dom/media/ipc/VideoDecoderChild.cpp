@@ -1647,7 +1647,13 @@ aSample
 >
 mKeyframe
 )
+std
+:
+:
+move
+(
 buffer
+)
 )
 ;
 SendInput

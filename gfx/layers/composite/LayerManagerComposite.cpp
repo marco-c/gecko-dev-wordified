@@ -8137,7 +8137,13 @@ mScreenPixelsTarget
 >
 SendScreenPixels
 (
+std
+:
+:
+move
+(
 mem
+)
 ScreenIntSize
 (
 bufferWidth

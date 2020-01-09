@@ -3849,7 +3849,13 @@ callback
 }
 SendReleaseFrame
 (
+std
+:
+:
+move
+(
 shmem
+)
 )
 ;
 return

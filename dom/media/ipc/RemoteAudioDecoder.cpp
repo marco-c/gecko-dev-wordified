@@ -873,7 +873,13 @@ audio
 -
 >
 mChannelMap
+std
+:
+:
+move
+(
 buffer
+)
 )
 ;
 Unused

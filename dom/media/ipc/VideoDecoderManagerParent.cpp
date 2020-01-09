@@ -1451,7 +1451,13 @@ true
 )
 MemoryOrShmem
 (
+std
+:
+:
+move
+(
 buffer
+)
 )
 )
 ;
