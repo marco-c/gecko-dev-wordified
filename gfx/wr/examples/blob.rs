@@ -1649,7 +1649,7 @@ _framebuffer_size
 api
 :
 :
-FramebufferIntSize
+DeviceIntSize
 pipeline_id
 :
 PipelineId

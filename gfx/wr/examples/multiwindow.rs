@@ -621,7 +621,7 @@ as
 f64
 )
 ;
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -1095,7 +1095,7 @@ as
 f64
 )
 ;
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new

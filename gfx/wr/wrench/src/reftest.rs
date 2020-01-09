@@ -815,7 +815,7 @@ u8
 >
 size
 :
-FramebufferIntSize
+DeviceIntSize
 }
 enum
 ReftestImageComparison
@@ -3476,7 +3476,7 @@ into_raw
 )
 size
 :
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -3506,7 +3506,7 @@ filename
 Path
 size
 :
-FramebufferIntSize
+DeviceIntSize
 font_render_mode
 :
 Option
@@ -3661,12 +3661,12 @@ rectangle
 let
 rect
 =
-FramebufferIntRect
+DeviceIntRect
 :
 :
 new
 (
-FramebufferIntPoint
+DeviceIntPoint
 :
 :
 new
