@@ -198,10 +198,6 @@ checks
 May
 update
 mState
-and
-/
-/
-mOldState
 .
 void
 CheckForBlockedContent
@@ -224,7 +220,6 @@ event
 /
 update
 mState
-mOldState
 and
 mTopLevelSecurityInfo
 .
@@ -238,9 +233,6 @@ nsIURI
 *
 uri
 )
-;
-uint32_t
-mOldState
 ;
 uint32_t
 mState
