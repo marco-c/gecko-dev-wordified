@@ -72,6 +72,9 @@ extern
 crate
 xpcom
 ;
+mod
+bag
+;
 use
 libc
 :
@@ -114,6 +117,16 @@ interfaces
 nsIVariant
 RefPtr
 }
+;
+pub
+use
+crate
+:
+:
+bag
+:
+:
+HashPropertyBag
 ;
 extern
 "
