@@ -7349,11 +7349,10 @@ push
 type
 :
 "
-remove
+disable
 "
 index
 name
-priority
 }
 )
 ;
