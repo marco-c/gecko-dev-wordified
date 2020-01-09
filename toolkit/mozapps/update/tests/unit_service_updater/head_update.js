@@ -53,11 +53,6 @@ js
 load
 (
 "
-.
-.
-/
-data
-/
 xpcshellUtilsAUS
 .
 js
