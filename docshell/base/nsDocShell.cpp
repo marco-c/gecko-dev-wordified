@@ -13474,11 +13474,6 @@ uint32_t
 aTouchEventsOverride
 )
 {
-NS_ENSURE_ARG_POINTER
-(
-aTouchEventsOverride
-)
-;
 *
 aTouchEventsOverride
 =
@@ -82436,11 +82431,6 @@ uint32_t
 aDisplayMode
 )
 {
-NS_ENSURE_ARG_POINTER
-(
-aDisplayMode
-)
-;
 *
 aDisplayMode
 =
