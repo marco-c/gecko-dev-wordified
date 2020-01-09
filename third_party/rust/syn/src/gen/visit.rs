@@ -23,7 +23,7 @@ clippy
 "
 allow
 (
-match_same_arms
+trivially_copy_pass_by_ref
 )
 )
 ]
