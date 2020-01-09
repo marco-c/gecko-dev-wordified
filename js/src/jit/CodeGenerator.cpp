@@ -17182,7 +17182,7 @@ return
 js
 :
 :
-AllocateString
+Allocate
 <
 JSString
 NoGC
@@ -17216,7 +17216,7 @@ return
 js
 :
 :
-AllocateString
+Allocate
 <
 JSFatInlineString
 NoGC
@@ -17457,8 +17457,9 @@ return
 js
 :
 :
-AllocateObject
+Allocate
 <
+JSObject
 NoGC
 >
 (
@@ -45545,6 +45546,15 @@ iter
 safepoint
 (
 )
+&
+&
+!
+gen
+-
+>
+compilingWasm
+(
+)
 )
 {
 resetOsiPointRegs
@@ -46904,10 +46914,6 @@ NewArrayCopyOnWriteFn
 JSContext
 *
 HandleArrayObject
-gc
-:
-:
-InitialHeap
 )
 ;
 static
@@ -47028,10 +47034,6 @@ ArgList
 ImmGCPtr
 (
 templateObject
-)
-Imm32
-(
-initialHeap
 )
 )
 StoreRegisterTo
