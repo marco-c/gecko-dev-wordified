@@ -8363,6 +8363,10 @@ aRejectedReason
 ;
 }
 else
+if
+(
+sendCookieLoadedNotification
+)
 {
 /
 /
