@@ -1322,6 +1322,13 @@ mStartOffset
 uint32_t
 mEndOffset
 ;
+nsContentUtils
+:
+:
+ComparePointsCache
+*
+mCache
+;
 int
 operator
 (
@@ -1369,6 +1376,8 @@ StartOffset
 (
 )
 )
+nullptr
+mCache
 )
 ;
 if
@@ -1412,6 +1421,8 @@ EndOffset
 (
 )
 )
+nullptr
+mCache
 )
 ;
 if
@@ -1669,6 +1680,12 @@ RangeCount
 }
 }
 }
+nsContentUtils
+:
+:
+ComparePointsCache
+cache
+;
 IsItemInRangeComparator
 comparator
 =
@@ -1676,6 +1693,8 @@ comparator
 aNode
 aStartOffset
 aEndOffset
+&
+cache
 }
 ;
 if
@@ -1910,6 +1929,9 @@ StartOffset
 (
 )
 )
+nullptr
+&
+cache
 )
 >
 0
@@ -1990,6 +2012,9 @@ EndOffset
 (
 )
 )
+nullptr
+&
+cache
 )
 <
 0
