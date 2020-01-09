@@ -4435,13 +4435,9 @@ push
 prim_header
 z_id
 [
-run
-.
-should_snap
-as
-i32
 0
-0
+;
+3
 ]
 )
 ;
