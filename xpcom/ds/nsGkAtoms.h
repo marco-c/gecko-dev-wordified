@@ -645,6 +645,9 @@ uint32_t
 aHash
 uint32_t
 aOffset
+\
+bool
+aIsAsciiLowercase
 )
 \
 :
@@ -653,6 +656,7 @@ nsStaticAtom
 aLength
 aHash
 aOffset
+aIsAsciiLowercase
 )
 {
 }
@@ -827,6 +831,7 @@ GK_ATOM
 name_
 value_
 hash_
+is_ascii_lower_
 type_
 atom_type_
 )
@@ -897,6 +902,7 @@ GK_ATOM
 name_
 value_
 hash_
+is_ascii_lower_
 type_
 atom_type_
 )
@@ -1397,6 +1403,7 @@ GK_ATOM
 name_
 value_
 hash_
+is_ascii_lower_
 type_
 atom_type_
 )

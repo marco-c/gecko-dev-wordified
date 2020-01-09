@@ -132,6 +132,7 @@ foo
 foo
 "
 0x12345678
+true
 nsStaticAtom
 PseudoElementAtom
 )
@@ -181,6 +182,13 @@ f
 ]
 +
 )
+\
+s
+*
+[
+^
+]
+*
 \
 s
 *
