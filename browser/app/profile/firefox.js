@@ -18629,7 +18629,7 @@ ui
 .
 showBlockedLabels
 "
-false
+true
 )
 ;
 pref
