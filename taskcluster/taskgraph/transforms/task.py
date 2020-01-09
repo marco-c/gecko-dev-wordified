@@ -16621,8 +16621,7 @@ s
 '
                     
 '
-(
-have
+Have
 you
 added
 them
@@ -16632,7 +16631,6 @@ in
 the
 Dockerfile
 ?
-)
 '
                     
 %
