@@ -8872,7 +8872,9 @@ GetCurrentInfo
 >
 mCrypto
 .
-mValid
+IsEncrypted
+(
+)
 )
 |
 |
@@ -8891,7 +8893,9 @@ GetCurrentInfo
 >
 mCrypto
 .
-mValid
+IsEncrypted
+(
+)
 )
 ;
 }
@@ -13448,7 +13452,7 @@ info
 >
 mCrypto
 .
-mValid
+mCryptoScheme
 =
 =
 decoder
@@ -13460,7 +13464,7 @@ GetCurrentInfo
 >
 mCrypto
 .
-mValid
+mCryptoScheme
 &
 &
 (
