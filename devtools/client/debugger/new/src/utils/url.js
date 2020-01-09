@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 {
 memoize
@@ -149,6 +152,8 @@ url
 :
 string
 )
+:
+any
 {
 try
 {
@@ -161,7 +166,11 @@ URL
 url
 )
 ;
+(
 urlObj
+:
+any
+)
 .
 path
 =

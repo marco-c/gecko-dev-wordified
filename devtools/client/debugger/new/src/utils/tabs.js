@@ -85,6 +85,8 @@ from
 .
 /
 reducers
+/
+tabs
 "
 ;
 type
@@ -300,8 +302,6 @@ getFramework
 tabs
 :
 TabList
-[
-]
 url
 :
 string
