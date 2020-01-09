@@ -1469,9 +1469,8 @@ rv
 }
 else
 {
-NS_WARNING
-(
-"
+/
+/
 Found
 a
 principal
@@ -1483,9 +1482,6 @@ third
 -
 party
 request
-"
-)
-;
 parentIsThird
 =
 true
