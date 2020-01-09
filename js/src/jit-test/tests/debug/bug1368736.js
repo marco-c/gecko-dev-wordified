@@ -41,7 +41,7 @@ script
 .
 setBreakpoint
 (
-75
+71
 {
 hit
 :
