@@ -1588,7 +1588,7 @@ layers
 AllowedTouchBehavior
 :
 :
-VERTICAL_PAN
+NONE
 )
 ;
 behaviors
