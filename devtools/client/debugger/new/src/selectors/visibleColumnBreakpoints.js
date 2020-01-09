@@ -754,6 +754,12 @@ enabled
 !
 !
 foundBreakpoint
+&
+&
+!
+foundBreakpoint
+.
+disabled
 condition
 :
 foundBreakpoint
