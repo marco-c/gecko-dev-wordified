@@ -964,6 +964,12 @@ holder
 AddPipeline
 (
 aPipelineId
+/
+*
+aWrBridge
+*
+/
+nullptr
 )
 ;
 }

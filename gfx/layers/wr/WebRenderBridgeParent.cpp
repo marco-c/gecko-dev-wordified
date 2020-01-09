@@ -9311,6 +9311,7 @@ mAsyncImageManager
 AddPipeline
 (
 mPipelineId
+this
 )
 ;
 return
