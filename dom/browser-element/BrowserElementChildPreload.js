@@ -7779,9 +7779,7 @@ function
 (
 webProgress
 request
-oldState
 state
-contentBlockingLogJSON
 )
 {
 if

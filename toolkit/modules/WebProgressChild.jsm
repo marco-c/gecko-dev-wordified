@@ -1367,9 +1367,7 @@ onSecurityChange
 (
 aWebProgress
 aRequest
-aOldState
 aState
-aContentBlockingLogJSON
 )
 {
 let
@@ -1382,12 +1380,6 @@ _setupJSON
 aWebProgress
 aRequest
 )
-;
-json
-.
-oldState
-=
-aOldState
 ;
 json
 .
@@ -1404,12 +1396,6 @@ this
 getSecInfoAsString
 (
 )
-;
-json
-.
-contentBlockingLogJSON
-=
-aContentBlockingLogJSON
 ;
 json
 .

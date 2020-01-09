@@ -500,9 +500,7 @@ onSecurityChange
 (
 aWebProgress
 aRequest
-aOldState
-aState
-aContentBlockingLogJSON
+state
 )
 {
 }
