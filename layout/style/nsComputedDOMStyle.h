@@ -147,7 +147,7 @@ include
 "
 mozilla
 /
-StyleComplexColor
+StyleColorInlines
 .
 h
 "
@@ -2291,7 +2291,7 @@ const
 mozilla
 :
 :
-StyleComplexColor
+StyleColor
 &
 aColor
 )

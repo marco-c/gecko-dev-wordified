@@ -1469,7 +1469,7 @@ border
 .
 mBorderTopColor
 =
-StyleComplexColor
+StyleColor
 :
 :
 FromColor
@@ -1516,7 +1516,7 @@ border
 .
 mBorderLeftColor
 =
-StyleComplexColor
+StyleColor
 :
 :
 FromColor

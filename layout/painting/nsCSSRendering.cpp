@@ -4615,7 +4615,7 @@ BorderColorFor
 side
 )
 =
-StyleComplexColor
+StyleColor
 :
 :
 FromColor
@@ -4784,7 +4784,7 @@ BorderColorFor
 side
 )
 =
-StyleComplexColor
+StyleColor
 :
 :
 FromColor
@@ -13638,7 +13638,7 @@ eStyleImageType_Null
 return
 false
 ;
-StyleComplexColor
+StyleColor
 color
 =
 aBorder
