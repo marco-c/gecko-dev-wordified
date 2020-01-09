@@ -11153,16 +11153,6 @@ aColumn
 )
 {
 }
-isSelectable
-(
-aRow
-aColumn
-)
-{
-return
-false
-;
-}
 performAction
 (
 aAction

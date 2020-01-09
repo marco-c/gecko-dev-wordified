@@ -314,12 +314,6 @@ one
 clicked
 etc
 .
-RefPtr
-<
-nsTreeColumn
->
-mCurrentColumn
-;
 int32_t
 mShiftSelectPivot
 ;

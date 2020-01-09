@@ -11352,16 +11352,6 @@ select
 Atom
 (
 "
-selectable
-"
-"
-selectable
-"
-)
-    
-Atom
-(
-"
 selected
 "
 "

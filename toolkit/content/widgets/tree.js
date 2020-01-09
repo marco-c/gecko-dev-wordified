@@ -1003,16 +1003,6 @@ twisty
 "
 )
 {
-view
-.
-selection
-.
-currentColumn
-=
-cell
-.
-col
-;
 this
 .
 parentNode
