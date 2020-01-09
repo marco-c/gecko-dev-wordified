@@ -3278,6 +3278,11 @@ return
 this
 .
 activeTab
+&
+&
+this
+.
+activeTab
 .
 traits
 .
