@@ -500,6 +500,10 @@ thread
 .
 if
 (
+!
+mIsParentProcess
+&
+&
 IsWin32kLockedDown
 (
 )
@@ -707,6 +711,10 @@ a
 previous
 ProcessRuntime
 instance
+mInitResult
+=
+S_OK
+;
 return
 ;
 }
