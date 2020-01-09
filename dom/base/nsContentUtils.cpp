@@ -49358,6 +49358,15 @@ aType
 nsIContentPolicy
 :
 :
+TYPE_INTERNAL_MODULE_PRELOAD
+|
+|
+aType
+=
+=
+nsIContentPolicy
+:
+:
 TYPE_INTERNAL_IMAGE_PRELOAD
 |
 |

@@ -368,6 +368,16 @@ saveas_download
 "
 speculative
 "
+"
+"
+/
+/
+TYPE_INTERNAL_MODULE
+"
+"
+/
+/
+TYPE_INTERNAL_MODULE_PRELOAD
 }
 ;
 #
