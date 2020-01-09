@@ -11579,10 +11579,8 @@ aLanguage
 LangGroupFontPrefs
 prefs
 ;
-RefPtr
-<
-nsAtom
->
+nsStaticAtom
+*
 langGroupAtom
 =
 StaticPresData
