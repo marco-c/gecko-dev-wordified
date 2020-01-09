@@ -823,6 +823,9 @@ initialUrl
 =
 >
 initialUrl
+truncate
+=
+true
 )
 {
 url
@@ -844,6 +847,16 @@ transformUrl
 url
 )
 ;
+if
+(
+!
+truncate
+)
+{
+return
+name
+;
+}
 return
 (
 0
@@ -1421,6 +1434,9 @@ function
 getFileURL
 (
 source
+truncate
+=
+true
 )
 {
 const
@@ -1451,6 +1467,7 @@ url
 _devtoolsModules
 .
 getUnicodeUrl
+truncate
 )
 ;
 }

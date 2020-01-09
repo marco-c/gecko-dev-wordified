@@ -504,6 +504,9 @@ frame
 shouldMapDisplayName
 =
 true
+maxLength
+=
+25
 }
 =
 {
@@ -551,6 +554,13 @@ displayName
 )
 ;
 return
+Number
+.
+isInteger
+(
+maxLength
+)
+?
 (
 0
 _utils
@@ -559,8 +569,10 @@ endTruncateStr
 )
 (
 displayName
-25
+maxLength
 )
+:
+displayName
 ;
 }
 function

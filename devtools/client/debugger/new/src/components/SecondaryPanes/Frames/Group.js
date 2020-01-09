@@ -500,6 +500,8 @@ toggleFrameworkGrouping
 frameworkGroupingOn
 toggleBlackBox
 copyStackTrace
+displayFullUrl
+getFrameTitle
 }
 =
 this
@@ -593,6 +595,12 @@ toggleBlackBox
 toggleFrameworkGrouping
 :
 toggleFrameworkGrouping
+displayFullUrl
+:
+displayFullUrl
+getFrameTitle
+:
+getFrameTitle
 }
 )
 )
