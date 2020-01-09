@@ -538,6 +538,11 @@ error
 UniqueCharsVector
 *
 warnings
+UniqueLinkData
+*
+maybeLinkData
+=
+nullptr
 )
 ;
 /
