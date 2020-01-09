@@ -356,9 +356,25 @@ path
 try
 :
             
-return
-cls
-(
+#
+this
+needs
+to
+be
+a
+command
+that
+fails
+if
+we
+aren
+'
+t
+in
+a
+git
+repo
+            
 git
 (
 "
@@ -374,20 +390,6 @@ show
 toplevel
 "
 )
-.
-rstrip
-(
-)
-url_base
-cache_path
-                       
-manifest_path
-=
-manifest_path
-rebuild
-=
-rebuild
-)
         
 except
 (
@@ -400,6 +402,24 @@ OSError
             
 return
 None
+        
+else
+:
+            
+return
+cls
+(
+path
+url_base
+cache_path
+                       
+manifest_path
+=
+manifest_path
+rebuild
+=
+rebuild
+)
     
 def
 _local_changes
