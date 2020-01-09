@@ -6405,6 +6405,16 @@ WorldPixel
 >
 ;
 pub
+type
+WorldToLayoutFastTransform
+=
+FastTransform
+<
+WorldPixel
+LayoutPixel
+>
+;
+pub
 fn
 project_rect
 <
