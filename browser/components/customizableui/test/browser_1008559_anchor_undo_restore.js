@@ -149,6 +149,10 @@ anchor
 let
 navbar
 =
+CustomizableUI
+.
+getCustomizationTarget
+(
 document
 .
 getElementById
@@ -159,8 +163,7 @@ nav
 bar
 "
 )
-.
-customizationTarget
+)
 ;
 let
 onMouseUp

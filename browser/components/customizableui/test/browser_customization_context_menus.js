@@ -3372,6 +3372,10 @@ panel
 simulateItemDrag
 (
 widget
+CustomizableUI
+.
+getCustomizationTarget
+(
 document
 .
 getElementById
@@ -3382,8 +3386,7 @@ nav
 bar
 "
 )
-.
-customizationTarget
+)
 )
 ;
 is

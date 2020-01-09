@@ -767,9 +767,12 @@ edit
 controls
 "
 )
-navbar
+CustomizableUI
 .
-customizationTarget
+getCustomizationTarget
+(
+navbar
+)
 "
 end
 "

@@ -157,9 +157,12 @@ true
 "
 )
 ;
-navbar
+CustomizableUI
 .
-customizationTarget
+getCustomizationTarget
+(
+navbar
+)
 .
 appendChild
 (
