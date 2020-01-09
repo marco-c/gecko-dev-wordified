@@ -1507,6 +1507,12 @@ GetScrollOffset
 (
 )
 )
+shell
+-
+>
+GetVisualViewportOffsetRelativeToLayoutViewport
+(
+)
 )
 ;
 }
