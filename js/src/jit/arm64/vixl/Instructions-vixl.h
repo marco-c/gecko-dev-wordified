@@ -2069,6 +2069,7 @@ const
 bool
 IsTargetReachable
 (
+const
 Instruction
 *
 target

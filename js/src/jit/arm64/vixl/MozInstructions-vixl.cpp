@@ -745,6 +745,7 @@ Instruction
 :
 IsTargetReachable
 (
+const
 Instruction
 *
 target
