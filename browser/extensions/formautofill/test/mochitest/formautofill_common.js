@@ -983,7 +983,7 @@ tagName
 }
 else
 {
-todo
+ok
 (
 event
 instanceof
