@@ -158,6 +158,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 TypedArray
@@ -294,6 +303,7 @@ ResultFn
 ErrorCode
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 OnSuccess
 (
@@ -305,6 +315,7 @@ ignored
 /
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 OnFailure
 (
