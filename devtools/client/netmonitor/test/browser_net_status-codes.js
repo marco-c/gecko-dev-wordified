@@ -279,8 +279,6 @@ STATUS_CODES_SJS
 sts
 =
 200
-#
-doh
 "
 correctUri
 :
