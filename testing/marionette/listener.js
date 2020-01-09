@@ -10400,6 +10400,16 @@ reftestWait
 =
 false
 ;
+url
+=
+new
+URL
+(
+url
+)
+.
+href
+;
 if
 (
 document
