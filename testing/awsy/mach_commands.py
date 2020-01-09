@@ -973,6 +973,10 @@ root
 to
 specify
 a
+'
+\
+                                   
+'
 directory
 closer
 to
@@ -992,6 +996,7 @@ ERROR
 '
 awsy
 '
+                         
 {
 '
 directory
@@ -1004,7 +1009,7 @@ exception
 :
 exc
 }
-                    
+                         
 '
 Failed
 to
@@ -1013,6 +1018,9 @@ tp5n
 .
 zip
 into
+'
+                         
+'
 {
 directory
 }
@@ -1187,7 +1195,7 @@ awsy
 '
 {
 }
-                    
+                         
 '
 Forcing
 \
@@ -1417,7 +1425,7 @@ category
 '
 testing
 '
-        
+             
 description
 =
 '
@@ -1436,11 +1444,11 @@ using
 marionette
 .
 '
-        
+             
 parser
 =
 setup_awsy_argument_parser
-    
+             
 )
     
 CommandArgumentGroup

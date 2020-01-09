@@ -229,6 +229,7 @@ forced
 GC
 ]
 "
+        
 '
 path
 '
@@ -259,6 +260,7 @@ closed
 extra
 processes
 "
+     
 '
 path
 '
@@ -353,6 +355,7 @@ forced
 GC
 ]
 "
+     
 '
 path
 '
@@ -607,7 +610,7 @@ Start
 '
 0
 ]
-                      
+                   
 [
 '
 StartSettled
@@ -615,7 +618,7 @@ StartSettled
 '
 0
 ]
-                      
+                   
 [
 '
 TabsOpen
@@ -624,7 +627,7 @@ TabsOpen
 -
 1
 ]
-                      
+                   
 [
 '
 TabsOpenSettled
@@ -633,7 +636,7 @@ TabsOpenSettled
 -
 1
 ]
-                      
+                   
 [
 '
 TabsOpenForceGC
@@ -642,7 +645,7 @@ TabsOpenForceGC
 -
 1
 ]
-                      
+                   
 [
 '
 TabsClosedExtraProcesses
@@ -651,7 +654,7 @@ TabsClosedExtraProcesses
 -
 1
 ]
-                      
+                   
 [
 '
 TabsClosed
@@ -660,7 +663,7 @@ TabsClosed
 -
 1
 ]
-                      
+                   
 [
 '
 TabsClosedSettled
@@ -669,7 +672,7 @@ TabsClosedSettled
 -
 1
 ]
-                      
+                   
 [
 '
 TabsClosedForceGC
@@ -1259,7 +1262,7 @@ values
 ]
 +
 \
-                    
+                
 sum
 (
 [
@@ -1274,10 +1277,10 @@ iteritems
 (
 )
 if
-not
 '
 Main
 '
+not
 in
 k
 ]
@@ -1331,7 +1334,6 @@ append
 (
 subtest
 )
-;
         
 total
 +
@@ -1521,6 +1523,7 @@ append
 (
 create_suite
 (
+            
 suite
 [
 '

@@ -488,6 +488,9 @@ by
 %
 d
 pages
+"
+                         
+"
 %
 d
 iterations
@@ -497,6 +500,9 @@ perTabPause
 %
 d
 settleWaitTime
+"
+                         
+"
 %
 d
 content
@@ -511,12 +517,14 @@ _pages_to_load
 self
 .
 _iterations
+                            
 self
 .
 _perTabPause
 self
 .
 _settleWaitTime
+                            
 process_count
 )
 )

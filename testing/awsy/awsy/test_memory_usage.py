@@ -521,6 +521,9 @@ pages
 %
 d
 iterations
+"
+                         
+"
 %
 d
 perTabPause
@@ -537,6 +540,7 @@ _pages_to_load
 self
 .
 _iterations
+                            
 self
 .
 _perTabPause
@@ -789,6 +793,7 @@ out
 )
         
 except
+Exception
 :
             
 self
@@ -797,6 +802,7 @@ logger
 .
 error
 (
+                
 "
 gBrowser
 .
@@ -826,7 +832,7 @@ else
 if
 result
 :
-              
+                
 self
 .
 logger

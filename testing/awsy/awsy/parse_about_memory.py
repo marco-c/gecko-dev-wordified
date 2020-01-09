@@ -546,7 +546,7 @@ reports
 if
 needs_bookkeeping
 :
-          
+            
 update_bookkeeping
 (
 report
@@ -846,7 +846,6 @@ f
     
 except
 ValueError
-e
 :
         
 #
@@ -922,8 +921,8 @@ keys
 :
             
 if
-not
 process_name
+not
 in
 k
 :
@@ -1015,6 +1014,9 @@ point
 to
 measure
 .
+'
+                        
+'
 If
 the
 prefix
@@ -1027,6 +1029,9 @@ a
 '
 /
 \
+'
+'
+                        
 '
 then
 an
@@ -1065,6 +1070,9 @@ Process
 name
 filter
 .
+'
+                             
+'
 If
 not
 provided
@@ -1104,6 +1112,9 @@ instead
 of
 bytes
 )
+'
+                        
+'
 to
 match
 about

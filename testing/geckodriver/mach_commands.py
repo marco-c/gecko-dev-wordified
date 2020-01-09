@@ -60,9 +60,9 @@ absolute_import
 print_function
 unicode_literals
 import
-argparse
-import
 os
+import
+logging
 from
 mach
 .
@@ -77,25 +77,16 @@ CommandArgument
 CommandArgumentGroup
     
 CommandProvider
-    
-SubCommand
 )
 from
 mozbuild
 .
 base
 import
-(
-    
 MachCommandBase
-    
-MachCommandConditions
-as
-conditions
-)
 CommandProvider
 class
-GeckoDriover
+GeckoDriver
 (
 MachCommandBase
 )
@@ -106,7 +97,7 @@ Command
 "
 geckodriver
 "
-        
+             
 category
 =
 "
@@ -114,7 +105,7 @@ post
 -
 build
 "
-        
+             
 description
 =
 "
@@ -138,7 +129,7 @@ binary
 type
 =
 str
-        
+                     
 help
 =
 "
@@ -167,7 +158,7 @@ nargs
 .
 .
 "
-        
+                     
 help
 =
 "
@@ -206,7 +197,7 @@ group
 "
 debugging
 "
-        
+                     
 help
 =
 "
@@ -220,6 +211,9 @@ a
 -
 -
 debugger
+"
+                          
+"
 option
 will
 result
@@ -227,6 +221,9 @@ in
 the
 default
 debugger
+"
+                          
+"
 being
 used
 .
@@ -251,7 +248,7 @@ group
 "
 debugging
 "
-        
+                     
 help
 =
 "
@@ -281,16 +278,16 @@ metavar
 "
 params
 "
+                     
 type
 =
 str
-        
 group
 =
 "
 debugging
 "
-        
+                     
 help
 =
 "
@@ -302,6 +299,9 @@ the
 debugger
 itself
 ;
+"
+                          
+"
 split
 as
 the
@@ -368,6 +368,9 @@ enable
 geckodriver
 to
 your
+"
+                      
+"
 mozconfig
 "
                       
@@ -685,7 +688,7 @@ args
 ensure_exit_code
 =
 False
-            
+                                
 pass_thru
 =
 True
@@ -705,7 +708,7 @@ geckodriver
 -
 test
 "
-        
+             
 category
 =
 "
@@ -713,7 +716,7 @@ post
 -
 build
 "
-        
+             
 description
 =
 "
@@ -741,7 +744,7 @@ action
 "
 store_true
 "
-        
+                     
 help
 =
 "
@@ -749,6 +752,9 @@ Verbose
 output
 for
 what
+"
+                          
+"
 commands
 the
 build
