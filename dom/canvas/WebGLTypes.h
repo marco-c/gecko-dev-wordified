@@ -196,6 +196,8 @@ malloc
 (
 mozilla
 namespace
+/
+/
 only
 !
 )
