@@ -14473,9 +14473,6 @@ mode
 .
 if
 (
-isForeign
-&
-&
 AntiTrackingCommon
 :
 :
@@ -15079,9 +15076,6 @@ mode
 .
 if
 (
-isForeign
-&
-&
 AntiTrackingCommon
 :
 :
