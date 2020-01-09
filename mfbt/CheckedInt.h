@@ -3650,7 +3650,7 @@ value
 )
 const
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mIsValid
 "
