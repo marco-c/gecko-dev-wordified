@@ -674,11 +674,6 @@ net
 struct
 TimingStruct
 ;
-enum
-CacheDisposition
-:
-uint8_t
-;
 }
 }
 class
@@ -5661,7 +5656,6 @@ type
 start
 end
 count
-cache
 timings
 redirect
 )
@@ -5675,7 +5669,6 @@ type
 start
 end
 count
-cache
 timings
 redirect
 )
@@ -5703,14 +5696,6 @@ TimeStamp
 aEnd
 int64_t
 aCount
-mozilla
-:
-:
-net
-:
-:
-CacheDisposition
-aCacheDisposition
 const
 mozilla
 :
