@@ -3640,7 +3640,6 @@ async
 {
 const
 [
-response
 targetFront
 ]
 =
@@ -3663,14 +3662,6 @@ this
 activeTab
 =
 targetFront
-;
-this
-.
-threadActor
-=
-response
-.
-threadActor
 ;
 this
 .
@@ -5864,12 +5855,6 @@ null
 this
 .
 _url
-=
-null
-;
-this
-.
-threadActor
 =
 null
 ;
