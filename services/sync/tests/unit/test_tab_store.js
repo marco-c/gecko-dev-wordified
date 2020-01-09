@@ -1173,10 +1173,6 @@ Service
 "
 getMemcacheMaxRecordPayloadSize
 "
-)
-.
-callsFake
-(
 (
 )
 =

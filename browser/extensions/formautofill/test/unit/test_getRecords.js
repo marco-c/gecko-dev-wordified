@@ -1187,10 +1187,6 @@ collection
 "
 getAll
 "
-)
-.
-callsFake
-(
 (
 )
 =
