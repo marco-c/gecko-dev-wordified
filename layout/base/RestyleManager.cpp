@@ -13883,7 +13883,7 @@ AddLayerChangesForAnimation
 (
 nsIFrame
 *
-aFrame
+aStyleFrame
 nsIContent
 *
 aContent
@@ -13897,7 +13897,7 @@ aChangeListToProcess
 if
 (
 !
-aFrame
+aStyleFrame
 |
 |
 !
@@ -13915,7 +13915,7 @@ RestyleManager
 :
 GetAnimationGenerationForFrame
 (
-aFrame
+aStyleFrame
 )
 ;
 Maybe
@@ -14209,7 +14209,7 @@ TYPE_TRANSFORM
 &
 &
 !
-aFrame
+aStyleFrame
 -
 >
 StyleDisplay
@@ -14527,7 +14527,7 @@ nsLayoutUtils
 :
 GetAnimationPropertiesForCompositor
 (
-aFrame
+aStyleFrame
 )
 )
 ;
@@ -14573,7 +14573,7 @@ AnimationInfo
 :
 EnumerateGenerationOnFrame
 (
-aFrame
+aStyleFrame
 aContent
 LayerAnimationInfo
 :
@@ -14591,7 +14591,7 @@ aChangeListToProcess
 .
 AppendChange
 (
-aFrame
+aStyleFrame
 aContent
 hint
 )
