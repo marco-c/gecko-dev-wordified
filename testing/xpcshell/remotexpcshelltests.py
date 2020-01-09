@@ -3066,6 +3066,7 @@ def
 buildPrefsFile
 (
 self
+extraPrefs
 )
 :
         
@@ -3077,6 +3078,7 @@ self
 .
 buildPrefsFile
 (
+extraPrefs
 )
         
 remotePrefsFile

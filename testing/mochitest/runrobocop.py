@@ -142,6 +142,7 @@ mozprofile
 cli
 import
 parse_key_value
+parse_preferences
 import
 mozfile
 import
@@ -2197,9 +2198,7 @@ self
 .
 extraPrefs
 =
-self
-.
-parseExtraPrefs
+parse_preferences
 (
 self
 .

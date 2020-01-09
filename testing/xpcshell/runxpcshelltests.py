@@ -436,6 +436,12 @@ mozprofile
 import
 Profile
 from
+mozprofile
+.
+cli
+import
+parse_preferences
+from
 mozrunner
 .
 utils
@@ -7800,6 +7806,7 @@ def
 buildPrefsFile
 (
 self
+extraPrefs
 )
 :
         
@@ -8001,6 +8008,26 @@ path
 interpolation
 =
 interpolation
+)
+        
+#
+add
+command
+line
+prefs
+        
+prefs
+=
+parse_preferences
+(
+extraPrefs
+)
+        
+profile
+.
+set_preferences
+(
+prefs
 )
         
 self
@@ -10921,6 +10948,17 @@ self
 .
 buildPrefsFile
 (
+options
+.
+get
+(
+'
+extraPrefs
+'
+)
+or
+[
+]
 )
         
 self
