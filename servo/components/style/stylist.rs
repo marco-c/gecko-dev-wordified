@@ -229,8 +229,8 @@ rule_collector
 :
 :
 {
-RuleCollector
 containing_shadow_ignoring_svg_use
+RuleCollector
 }
 ;
 use

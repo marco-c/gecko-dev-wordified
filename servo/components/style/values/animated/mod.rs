@@ -181,7 +181,10 @@ crate
 values
 :
 :
-CSSFloat
+specified
+:
+:
+SVGPathData
 ;
 use
 crate
@@ -190,10 +193,7 @@ crate
 values
 :
 :
-specified
-:
-:
-SVGPathData
+CSSFloat
 ;
 use
 app_units

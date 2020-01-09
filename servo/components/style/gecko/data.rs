@@ -111,10 +111,8 @@ structs
 :
 :
 {
-StyleSheet
-as
-DomStyleSheet
-StyleSheetInfo
+RawGeckoPresContextBorrowed
+ServoStyleSetSizes
 }
 ;
 use
@@ -128,8 +126,10 @@ structs
 :
 :
 {
-RawGeckoPresContextBorrowed
-ServoStyleSetSizes
+StyleSheet
+as
+DomStyleSheet
+StyleSheetInfo
 }
 ;
 use

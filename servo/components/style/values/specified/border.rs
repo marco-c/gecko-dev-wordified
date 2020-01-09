@@ -225,8 +225,8 @@ length
 :
 :
 {
-NonNegativeLengthOrPercentage
 NonNegativeLength
+NonNegativeLengthOrPercentage
 }
 ;
 use

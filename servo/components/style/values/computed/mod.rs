@@ -3961,6 +3961,7 @@ p
 )
 =
 >
+{
 NumberOrPercentage
 :
 :
@@ -3972,6 +3973,7 @@ clamp_to_non_negative
 (
 )
 )
+}
 NumberOrPercentage
 :
 :
