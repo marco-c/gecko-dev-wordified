@@ -912,6 +912,8 @@ actor
 =
 workerTargetFront
 .
+targetForm
+.
 consoleActor
 ;
 state
@@ -921,6 +923,8 @@ dbgClient
 attachConsole
 (
 workerTargetFront
+.
+targetForm
 .
 consoleActor
 listeners
