@@ -6500,7 +6500,7 @@ aColor
 WR_FUNC
 ;
 WR_INLINE
-WrClipId
+uintptr_t
 wr_dp_push_reference_frame
 (
 WrState
