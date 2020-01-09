@@ -130,8 +130,6 @@ h
 #
 include
 "
-mozilla
-/
 LauncherResult
 .
 h
