@@ -7991,6 +7991,16 @@ onCheckboxStateChange
 Atom
 (
 "
+onCheckKeyPressEventModel
+"
+"
+onCheckKeyPressEventModel
+"
+)
+    
+Atom
+(
+"
 onclick
 "
 "
