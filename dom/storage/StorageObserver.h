@@ -337,7 +337,7 @@ StorageObserver
 {
 }
 nsresult
-ClearMatchingOrigin
+GetOriginScope
 (
 const
 char16_t

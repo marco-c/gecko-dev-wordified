@@ -1331,7 +1331,7 @@ database
 /
 for
 the
-gived
+given
 domain
 and
 subdomains
@@ -1343,11 +1343,11 @@ strcmp
 (
 aTopic
 "
-domain
+browser
+:
+purge
 -
-data
--
-cleared
+sessionStorage
 "
 )
 )
