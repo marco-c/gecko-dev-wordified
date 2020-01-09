@@ -4677,7 +4677,6 @@ SendPacket
 (
 MediaPacket
 &
-&
 packet
 )
 {
@@ -8250,13 +8249,7 @@ mPipeline
 >
 SendPacket
 (
-std
-:
-:
-move
-(
 packet
-)
 )
 ;
 }
