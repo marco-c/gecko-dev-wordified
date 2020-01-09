@@ -760,9 +760,6 @@ label
 class
 =
 "
-text
--
-link
 popup
 -
 notification
@@ -780,6 +777,13 @@ learnmoreclick
 href
 =
 learnmoreurl
+"
+is
+=
+"
+text
+-
+link
 "
 >
 &
