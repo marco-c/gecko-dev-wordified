@@ -144,15 +144,6 @@ rev
 revision
 }
 '
-         
-'
--
--
-variant
-'
-'
-withGeckoBinariesRelease
-'
         
 ]
     
