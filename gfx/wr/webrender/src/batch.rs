@@ -5534,7 +5534,10 @@ BatchKey
 new
 (
 kind
-non_segmented_blend_mode
+BlendMode
+:
+:
+None
 BatchTextures
 :
 :
