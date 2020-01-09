@@ -26435,6 +26435,11 @@ edges
 auto
 "
 "
+crisp
+-
+edges
+"
+"
 inherit
 "
 "
