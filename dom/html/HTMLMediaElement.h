@@ -1874,6 +1874,7 @@ the
 size
 changes
 .
+virtual
 void
 UpdateMediaSize
 (
@@ -11096,6 +11097,14 @@ void
 UpdateHadAudibleAutoplayState
 (
 )
+;
+virtual
+void
+MaybeBeginCloningVisually
+(
+)
+{
+}
 ;
 /
 *

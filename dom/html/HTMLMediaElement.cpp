@@ -12162,6 +12162,10 @@ SelectResource
 (
 )
 ;
+MaybeBeginCloningVisually
+(
+)
+;
 mIsRunningSelectResource
 =
 false
@@ -12997,6 +13001,10 @@ mSelectedVideoStreamTrack
 AddVideoOutput
 (
 container
+)
+;
+MaybeBeginCloningVisually
+(
 )
 ;
 }
@@ -28648,6 +28656,10 @@ Play
 ;
 }
 }
+MaybeBeginCloningVisually
+(
+)
+;
 return
 NS_OK
 ;
@@ -29145,6 +29157,10 @@ mSelectedVideoStreamTrack
 AddVideoOutput
 (
 container
+)
+;
+MaybeBeginCloningVisually
+(
 )
 ;
 }
