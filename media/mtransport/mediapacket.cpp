@@ -254,7 +254,7 @@ const
 aMsg
 -
 >
-WriteSize
+WriteUInt32
 (
 len_
 )
@@ -262,7 +262,7 @@ len_
 aMsg
 -
 >
-WriteSize
+WriteUInt32
 (
 capacity_
 )
@@ -289,7 +289,7 @@ len_
 aMsg
 -
 >
-WriteSize
+WriteUInt32
 (
 encrypted_len_
 )
@@ -362,7 +362,7 @@ Reset
 (
 )
 ;
-size_t
+uint32_t
 len
 ;
 if
@@ -371,7 +371,7 @@ if
 aMsg
 -
 >
-ReadSize
+ReadUInt32
 (
 aIter
 &
@@ -383,7 +383,7 @@ return
 false
 ;
 }
-size_t
+uint32_t
 capacity
 ;
 if
@@ -392,7 +392,7 @@ if
 aMsg
 -
 >
-ReadSize
+ReadUInt32
 (
 aIter
 &
@@ -479,7 +479,7 @@ if
 aMsg
 -
 >
-ReadSize
+ReadUInt32
 (
 aIter
 &
