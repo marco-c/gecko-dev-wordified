@@ -2416,6 +2416,13 @@ nsDOMNavigationTiming
 :
 NotifyContentfulPaintForRootContentDocument
 (
+const
+mozilla
+:
+:
+TimeStamp
+&
+aCompositeEndTime
 )
 {
 MOZ_ASSERT
@@ -2450,12 +2457,7 @@ return
 }
 mContentfulPaint
 =
-TimeStamp
-:
-:
-Now
-(
-)
+aCompositeEndTime
 ;
 #
 ifdef

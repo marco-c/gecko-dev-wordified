@@ -760,6 +760,13 @@ NotifyNonBlankPaintForRootContentDocument
 void
 NotifyContentfulPaintForRootContentDocument
 (
+const
+mozilla
+:
+:
+TimeStamp
+&
+aCompositeEndTime
 )
 ;
 void
