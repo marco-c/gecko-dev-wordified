@@ -312,9 +312,9 @@ access
 nsContentUtils
 :
 :
-StorageAllowedForPrincipal
+StorageAllowedForWindow
 (
-Principal
+GetParentObject
 (
 )
 )
