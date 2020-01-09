@@ -356,8 +356,6 @@ abv
 ;
 }
 clone
-:
-function
 (
 obj
 )
@@ -423,8 +421,6 @@ obj
 ;
 }
 cloneExportCompareKeys
-:
-function
 (
 key
 )

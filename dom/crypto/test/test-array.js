@@ -430,6 +430,7 @@ run
 )
 ;
 }
+;
 }
 else
 {
@@ -881,8 +882,6 @@ js
 "
 )
 addTest
-:
-function
 (
 name
 testFn
@@ -957,8 +956,6 @@ testFn
 ;
 }
 updateSummary
-:
-function
 (
 )
 {
@@ -1089,8 +1086,6 @@ pending
 ;
 }
 load
-:
-function
 (
 )
 {
@@ -1287,8 +1282,6 @@ draw
 }
 }
 run
-:
-function
 (
 )
 {
@@ -1306,8 +1299,6 @@ runNextTest
 ;
 }
 runNextTest
-:
-function
 (
 )
 {
@@ -1378,6 +1369,7 @@ runNextTest
 )
 ;
 }
+;
 this
 .
 tests
@@ -1391,6 +1383,7 @@ run
 ;
 }
 }
+;
 if
 (
 window
@@ -1540,6 +1533,7 @@ throw
 x
 ;
 }
+;
 }
 function
 complete
@@ -1562,6 +1556,7 @@ log
 COMPLETE
 "
 )
+;
 console
 .
 log
@@ -1596,6 +1591,7 @@ true
 ;
 }
 }
+;
 }
 function
 memcmp_complete
@@ -1618,6 +1614,7 @@ log
 COMPLETE
 "
 )
+;
 console
 .
 log
@@ -1634,4 +1631,5 @@ x
 )
 ;
 }
+;
 }
