@@ -2048,14 +2048,6 @@ aIdleObserver
 =
 0
 ;
-virtual
-bool
-IsTopLevelWindowActive
-(
-)
-=
-0
-;
 mozilla
 :
 :

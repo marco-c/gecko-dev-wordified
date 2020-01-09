@@ -1291,8 +1291,9 @@ return
 true
 ;
 }
-bool
-disabled
+nsPIDOMWindowOuter
+*
+windowOuter
 =
 aWindow
 -
@@ -1300,6 +1301,11 @@ aWindow
 GetOuterWindow
 (
 )
+;
+bool
+disabled
+=
+windowOuter
 -
 >
 IsBackground
@@ -1308,7 +1314,7 @@ IsBackground
 |
 |
 !
-aWindow
+windowOuter
 -
 >
 IsTopLevelWindowActive
