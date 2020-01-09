@@ -275,7 +275,6 @@ atomic
 :
 {
 AtomicUsize
-ATOMIC_USIZE_INIT
 Ordering
 }
 ;
@@ -458,7 +457,13 @@ GPU_BYTES_ALLOCATED
 :
 AtomicUsize
 =
-ATOMIC_USIZE_INIT
+AtomicUsize
+:
+:
+new
+(
+0
+)
 ;
 /
 /
