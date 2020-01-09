@@ -90,6 +90,17 @@ verb
 )
 =
 >
+{
+engine
+.
+QueryInterface
+(
+Ci
+.
+nsISearchEngine
+)
+;
+return
 verb
 =
 =
@@ -113,6 +124,8 @@ BigIcon
 engine
 .
 iconURI
+;
+}
 )
 ;
 let
