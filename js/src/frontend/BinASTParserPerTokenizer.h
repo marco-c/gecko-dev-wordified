@@ -375,13 +375,13 @@ Tokenizer
 AutoTaggedTuple
 ;
 using
-BinFields
+BinASTFields
 =
 typename
 Tokenizer
 :
 :
-BinFields
+BinASTFields
 ;
 using
 Chars
@@ -729,7 +729,7 @@ char
 *
 superKind
 const
-BinKind
+BinASTKind
 kind
 )
 ;
@@ -752,7 +752,7 @@ char
 *
 kind
 const
-BinVariant
+BinASTVariant
 value
 )
 ;
@@ -775,7 +775,7 @@ char
 *
 kind
 const
-BinField
+BinASTField
 field
 )
 ;
@@ -849,7 +849,7 @@ Error
 >
 raiseError
 (
-BinKind
+BinASTKind
 kind
 const
 char
@@ -940,7 +940,7 @@ const
 size_t
 start
 const
-BinKind
+BinASTKind
 kind
 FunctionBox
 *
@@ -961,7 +961,7 @@ const
 size_t
 start
 const
-BinKind
+BinASTKind
 kind
 ParseNode
 *
