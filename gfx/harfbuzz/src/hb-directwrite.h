@@ -3,6 +3,8 @@
 *
 Copyright
 2015
+-
+2019
 Ebrahim
 Byagowi
 *
@@ -214,6 +216,16 @@ int
 num_features
 float
 width
+)
+;
+HB_EXTERN
+hb_face_t
+*
+hb_directwrite_face_create
+(
+IDWriteFontFace
+*
+font_face
 )
 ;
 HB_END_DECLS

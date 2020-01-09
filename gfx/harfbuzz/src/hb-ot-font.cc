@@ -456,7 +456,7 @@ hb_shape
 (
 )
 .
-Not
+Note
 that
 fonts
 returned

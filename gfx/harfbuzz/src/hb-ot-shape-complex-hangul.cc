@@ -1539,6 +1539,17 @@ circle
 /
 if
 (
+!
+(
+buffer
+-
+>
+flags
+&
+HB_BUFFER_FLAG_DO_NOT_INSERT_DOTTED_CIRCLE
+)
+&
+&
 font
 -
 >

@@ -2582,6 +2582,11 @@ base
 bool
 ok
 =
+!
+len
+|
+|
+(
 this
 -
 >
@@ -2625,6 +2630,7 @@ max_ops
 -
 >
 0
+)
 ;
 DEBUG_MSG_LEVEL
 (
@@ -2647,6 +2653,8 @@ p
 %
 p
 ]
+"
+"
 (
 %
 d

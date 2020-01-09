@@ -790,6 +790,8 @@ plan
 -
 >
 glyphset
+(
+)
 ;
 const
 hb_map_t
@@ -1578,6 +1580,8 @@ plan
 -
 >
 glyphset
+(
+)
 ;
 const
 hb_map_t
