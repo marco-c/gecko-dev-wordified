@@ -72,6 +72,13 @@ h
 #
 include
 "
+MediaResult
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr
@@ -327,7 +334,7 @@ MP4AudioInfo
 =
 default
 ;
-void
+MediaResult
 Update
 (
 const
@@ -367,7 +374,7 @@ MP4VideoInfo
 =
 default
 ;
-void
+MediaResult
 Update
 (
 const
