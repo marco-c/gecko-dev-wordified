@@ -426,7 +426,7 @@ rv
 )
 ;
 float
-GetCurrentTime
+GetCurrentTimeAsFloat
 (
 )
 ;

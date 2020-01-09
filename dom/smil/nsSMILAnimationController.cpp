@@ -4127,7 +4127,7 @@ sample
 nsSMILMilestone
 nextMilestone
 (
-GetCurrentTime
+GetCurrentTimeAsSMILTime
 (
 )
 +
@@ -4228,7 +4228,7 @@ nextMilestone
 .
 mTime
 >
-GetCurrentTime
+GetCurrentTimeAsSMILTime
 (
 )
 )
@@ -4806,7 +4806,7 @@ containerTime
 timeContainer
 -
 >
-GetCurrentTime
+GetCurrentTimeAsSMILTime
 (
 )
 ;

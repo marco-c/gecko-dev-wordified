@@ -2668,7 +2668,7 @@ currentTime
 container
 -
 >
-GetCurrentTime
+GetCurrentTimeAsSMILTime
 (
 )
 ;
@@ -2713,7 +2713,7 @@ currentTime
 container
 -
 >
-GetCurrentTime
+GetCurrentTimeAsSMILTime
 (
 )
 ;

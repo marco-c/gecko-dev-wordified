@@ -669,7 +669,7 @@ pausing
 *
 /
 nsSMILTime
-GetCurrentTime
+GetCurrentTimeAsSMILTime
 (
 )
 const
