@@ -3,13 +3,7 @@
 |
 reftest
 |
-skip
--
--
 slow
-killed
-on
-x86_64
 /
 *
 -
