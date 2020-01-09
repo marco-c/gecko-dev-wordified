@@ -149,6 +149,13 @@ nsWrapperCache
 .
 h
 "
+#
+include
+"
+WebGLTypes
+.
+h
+"
 namespace
 mozilla
 {
