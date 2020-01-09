@@ -371,6 +371,8 @@ MacroAssembler
 const
 VMFunctionData
 &
+void
+*
 uint32_t
 *
 )
