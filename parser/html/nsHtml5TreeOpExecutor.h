@@ -941,6 +941,8 @@ const
 nsAString
 &
 aIntegrity
+ReferrerPolicy
+aReferrerPolicy
 bool
 aScriptFromHead
 bool
@@ -1177,6 +1179,15 @@ ShouldPreloadURI
 nsIURI
 *
 aURI
+)
+;
+ReferrerPolicy
+GetPreloadReferrerPolicy
+(
+const
+nsAString
+&
+aReferrerPolicy
 )
 ;
 }
