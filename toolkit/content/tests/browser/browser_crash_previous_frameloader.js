@@ -745,7 +745,13 @@ gBrowser
 updateBrowserRemoteness
 (
 browser
-false
+{
+remoteType
+:
+E10SUtils
+.
+NOT_REMOTE
+}
 )
 ;
 info

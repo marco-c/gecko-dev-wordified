@@ -1146,7 +1146,13 @@ updateBrowserRemoteness
 gBrowser
 .
 selectedBrowser
-true
+{
+remoteType
+:
+E10SUtils
+.
+DEFAULT_REMOTE_TYPE
+}
 )
 ;
 BrowserTestUtils

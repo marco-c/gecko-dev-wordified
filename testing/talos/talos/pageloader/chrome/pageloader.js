@@ -1449,7 +1449,6 @@ updateBrowserRemoteness
 tabbrowser
 .
 initialBrowser
-true
 {
 remoteType
 }
@@ -1465,7 +1464,13 @@ updateBrowserRemoteness
 tabbrowser
 .
 initialBrowser
-false
+{
+remoteType
+:
+E10SUtils
+.
+NOT_REMOTE
+}
 )
 ;
 }
