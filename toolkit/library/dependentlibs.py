@@ -435,7 +435,7 @@ wait
 return
 deps
 def
-dependentlibs_otool
+dependentlibs_mac_objdump
 (
 lib
 )
@@ -471,12 +471,15 @@ Popen
 substs
 [
 '
-OTOOL
+LLVM_OBJDUMP
 '
 ]
 '
 -
-l
+-
+private
+-
+headers
 '
 lib
 ]
@@ -505,13 +508,20 @@ stdout
 :
         
 #
-otool
+llvm
 -
-l
+objdump
+-
+-
+private
+-
+headers
 output
 contains
 many
 different
+        
+#
 things
 .
 The
@@ -876,7 +886,7 @@ MACHO
         
 func
 =
-dependentlibs_otool
+dependentlibs_mac_objdump
     
 else
 :
