@@ -418,6 +418,12 @@ MIRType
 :
 Pointer
 :
+case
+MIRType
+:
+:
+RefOrNull
+:
 if
 (
 intRegIndex_
@@ -806,6 +812,12 @@ MIRType
 :
 :
 Pointer
+:
+case
+MIRType
+:
+:
+RefOrNull
 :
 if
 (

@@ -24159,6 +24159,12 @@ MIRType
 :
 Int64
 :
+case
+MIRType
+:
+:
+RefOrNull
+:
 return
 false
 ;

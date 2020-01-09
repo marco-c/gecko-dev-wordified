@@ -190,6 +190,12 @@ MIRType
 :
 Pointer
 :
+case
+MIRType
+:
+:
+RefOrNull
+:
 current_
 =
 ABIArg

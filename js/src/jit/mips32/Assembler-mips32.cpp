@@ -201,6 +201,12 @@ MIRType
 :
 Pointer
 :
+case
+MIRType
+:
+:
+RefOrNull
+:
 if
 (
 GetIntArgReg
