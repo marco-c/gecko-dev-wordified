@@ -177,6 +177,10 @@ sDisplayItemTypes
 DisplayItemType
 :
 :
+TYPE_BACKGROUND_COLOR
+DisplayItemType
+:
+:
 TYPE_OPACITY
 DisplayItemType
 :
@@ -204,6 +208,15 @@ switch
 aProperty
 )
 {
+case
+eCSSProperty_background_color
+:
+return
+DisplayItemType
+:
+:
+TYPE_BACKGROUND_COLOR
+;
 case
 eCSSProperty_opacity
 :
