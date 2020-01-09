@@ -3808,9 +3808,12 @@ URIParams
 &
 aUri
 const
-nsCString
+nsTArray
+<
+IPCURLClassifierFeature
+>
 &
-aTables
+aFeatures
 )
 override
 ;

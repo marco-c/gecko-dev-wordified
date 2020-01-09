@@ -365,7 +365,10 @@ nsACString
 &
 aSpec
 const
-nsACString
+nsTArray
+<
+nsCString
+>
 &
 tables
 LookupResultArray
