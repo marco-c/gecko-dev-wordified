@@ -1240,8 +1240,10 @@ needToDropLF
 bool
 fragment
 ;
+RefPtr
+<
 nsAtom
-*
+>
 contextName
 ;
 int32_t

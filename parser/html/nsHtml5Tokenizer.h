@@ -1241,8 +1241,10 @@ nsHtml5AttributeName
 *
 nonInternedAttributeName
 ;
+RefPtr
+<
 nsAtom
-*
+>
 doctypeName
 ;
 nsHtml5String
