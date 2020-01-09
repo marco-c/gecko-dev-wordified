@@ -361,7 +361,7 @@ text
 {
 urlBar
 .
-hiddenFocus
+setHiddenFocus
 (
 )
 ;
