@@ -1411,11 +1411,6 @@ nsISupports
 >
 tmp
 ;
-uint32_t
-dataSize
-=
-0
-;
 aTransferable
 -
 >
@@ -1426,8 +1421,6 @@ getter_AddRefs
 (
 tmp
 )
-&
-dataSize
 )
 ;
 nsCOMPtr
@@ -1504,8 +1497,6 @@ getter_AddRefs
 (
 tmp
 )
-&
-dataSize
 )
 ;
 supportsString
@@ -1644,8 +1635,6 @@ getter_AddRefs
 (
 tmp
 )
-&
-dataSize
 )
 ;
 supportsString
@@ -1898,10 +1887,6 @@ nsISupports
 >
 dirPrimitive
 ;
-dataSize
-=
-0
-;
 aTransferable
 -
 >
@@ -1912,8 +1897,6 @@ getter_AddRefs
 (
 dirPrimitive
 )
-&
-dataSize
 )
 ;
 nsCOMPtr
@@ -4579,9 +4562,6 @@ nsISupportsString
 >
 data
 ;
-uint32_t
-dataSize
-;
 rv
 =
 transferable
@@ -4594,8 +4574,6 @@ getter_AddRefs
 (
 supports
 )
-&
-dataSize
 )
 ;
 data
@@ -4634,8 +4612,6 @@ getter_AddRefs
 (
 supports
 )
-&
-dataSize
 )
 ;
 data
@@ -4674,8 +4650,6 @@ getter_AddRefs
 (
 supports
 )
-&
-dataSize
 )
 ;
 data
@@ -4714,8 +4688,6 @@ getter_AddRefs
 (
 supports
 )
-&
-dataSize
 )
 ;
 data

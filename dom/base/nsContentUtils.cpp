@@ -44608,11 +44608,6 @@ nsISupports
 >
 data
 ;
-uint32_t
-dataLen
-=
-0
-;
 aTransferable
 -
 >
@@ -44627,8 +44622,6 @@ getter_AddRefs
 (
 data
 )
-&
-dataLen
 )
 ;
 nsCOMPtr
