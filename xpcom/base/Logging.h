@@ -1492,6 +1492,7 @@ MOZ_LOG_TEST
 _module
 _level
 )
+\
 mozilla
 :
 :
@@ -2057,6 +2058,7 @@ log_print
 (
 _module
 _level
+\
 MOZ_LOG_EXPAND_ARGS
 _args
 )

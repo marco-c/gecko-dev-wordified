@@ -806,6 +806,7 @@ rdata
 #
 define
 NSMODULE_SECTION
+\
 __declspec
 (
 allocate
@@ -863,6 +864,7 @@ NSMODULE_SECTION
 \
 __attribute__
 (
+\
 (
 section
 (
@@ -889,6 +891,7 @@ _WIN32
 #
 define
 NSMODULE_SECTION
+\
 __attribute__
 (
 (

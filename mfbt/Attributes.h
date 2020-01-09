@@ -1485,6 +1485,7 @@ MOZ_HAVE_ASAN_BLACKLIST
 #
 define
 MOZ_ASAN_BLACKLIST
+\
 MOZ_NEVER_INLINE
 __attribute__
 (
@@ -1571,6 +1572,7 @@ thread_sanitizer
 #
 define
 MOZ_TSAN_BLACKLIST
+\
 MOZ_NEVER_INLINE
 __attribute__
 (
@@ -6453,6 +6455,7 @@ moz_temporary_class
 #
 define
 MOZ_TRIVIAL_CTOR_DTOR
+\
 __attribute__
 (
 (
@@ -6701,6 +6704,7 @@ MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 \
 __attribute__
 (
+\
 (
 annotate
 (

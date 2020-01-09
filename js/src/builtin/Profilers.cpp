@@ -2248,8 +2248,8 @@ these
 _Pragmas
 cause
 warnings
-for
 \
+for
 you
 try
 disabling
@@ -2332,6 +2332,7 @@ variable
 "
 "
 )
+\
 expr
 ;
 \

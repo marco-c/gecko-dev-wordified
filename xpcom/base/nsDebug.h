@@ -1228,6 +1228,7 @@ STATIC_INVARIANT_ASSUME
 (
 COND
 )
+\
 __attribute__
 (
 (
@@ -1331,14 +1332,15 @@ assert_static_runtime
 #
 COND
 )
+\
 unused
 )
 )
 int
 STATIC_PASTE1
 (
-\
 assert_static_runtime_
+\
 __COUNTER__
 )
 ;

@@ -27326,6 +27326,7 @@ value
 \
 MOZ_ASSERT
 (
+\
 GetPref
 <
 StripAtomic

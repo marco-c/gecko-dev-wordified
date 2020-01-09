@@ -1119,7 +1119,6 @@ VR
 "
 GetSensorState
 "
-OTHER
 )
 ;
 TimeStamp
@@ -1932,7 +1931,6 @@ VR
 "
 SubmitFrameAtVRDisplayHost
 "
-OTHER
 )
 ;
 if

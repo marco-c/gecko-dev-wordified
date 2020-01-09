@@ -1837,7 +1837,6 @@ test
 ToString
 (
 )
-GRAPHICS
 )
 ;
 for

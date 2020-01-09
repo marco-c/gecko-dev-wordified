@@ -482,6 +482,7 @@ do_GetMainThread
 \
 NS_WARNING_ASSERTION
 (
+\
 threadOpenedOn
 =
 =

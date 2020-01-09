@@ -473,6 +473,7 @@ fmt
 \
 __android_log_print
 (
+\
 ANDROID_LOG_INFO
 "
 Gecko
@@ -498,7 +499,6 @@ d
 ]
 "
 fmt
-\
 NameWithComma
 (
 )
@@ -506,6 +506,7 @@ NameWithComma
 get
 (
 )
+\
 static_cast
 <
 uint64_t
@@ -515,7 +516,6 @@ ChildID
 (
 )
 )
-\
 Pid
 (
 )
@@ -586,6 +586,7 @@ d
 -
 "
 fmt
+\
 "
 \
 n

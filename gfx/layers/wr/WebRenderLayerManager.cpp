@@ -1561,7 +1561,6 @@ Paint
 "
 RenderLayers
 "
-GRAPHICS
 )
 ;
 /
@@ -2315,7 +2314,6 @@ Paint
 "
 ForwardDPTransaction
 "
-GRAPHICS
 )
 ;
 WrBridge

@@ -167,6 +167,7 @@ IC_LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 GetICLog

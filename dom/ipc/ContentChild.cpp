@@ -3495,6 +3495,7 @@ push
 pragma
 warning
 (
+\
 disable
 :
 4722
@@ -20505,6 +20506,10 @@ const
 Principal
 &
 aPrincipal
+const
+bool
+&
+aUseTrackingProtection
 bool
 *
 aSuccess

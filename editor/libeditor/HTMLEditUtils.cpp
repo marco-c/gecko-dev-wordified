@@ -2328,6 +2328,7 @@ _canContainGroups
 )
 \
 {
+\
 eHTMLTag_
 #
 #
@@ -2335,7 +2336,9 @@ _tag
 _group
 _canContainGroups
 _isContainer
+\
 _canContainSelf
+\
 }
 #
 else

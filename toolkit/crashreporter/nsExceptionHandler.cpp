@@ -1180,6 +1180,7 @@ time
 buffer
 base
 )
+\
 my_inttostring
 (
 time
@@ -1197,6 +1198,7 @@ size
 buffer
 base
 )
+\
 my_inttostring
 (
 size

@@ -579,6 +579,7 @@ _sym
 \
 _sym
 =
+\
 reinterpret_cast
 <
 _sym

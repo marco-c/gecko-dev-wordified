@@ -6857,7 +6857,6 @@ PROFILER_ADD_MARKER
 Shutdown
 early
 "
-OTHER
 )
 ;
 WriteConsoleLog
@@ -14634,6 +14633,7 @@ ifdef
 cairo_debug_reset_static_data
 #
 error
+\
 "
 Looks
 like

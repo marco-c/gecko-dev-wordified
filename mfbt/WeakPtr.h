@@ -1120,6 +1120,7 @@ weakReferenceTypeName
 (
 )
 {
+\
 return
 "
 WeakReference
@@ -1131,6 +1132,7 @@ T
 >
 "
 ;
+\
 }
 #
 else

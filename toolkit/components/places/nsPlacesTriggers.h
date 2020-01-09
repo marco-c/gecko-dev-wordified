@@ -956,6 +956,9 @@ INTO
 moz_updateoriginsinsert_temp
 (
 place_id
+"
+\
+"
 prefix
 "
 \

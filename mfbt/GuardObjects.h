@@ -912,6 +912,7 @@ detail
 :
 :
 GuardObjectNotificationReceiver
+\
 _mCheckNotUsedAsTemporary
 ;
 #
@@ -1019,6 +1020,7 @@ _notifier
 #
 define
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_TO_PARENT
+\
 :
 :
 std

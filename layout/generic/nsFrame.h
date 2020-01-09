@@ -5592,8 +5592,8 @@ DISPLAY_REFLOW
 dr_pres_context
 dr_frame
 dr_rf_state
-dr_rf_metrics
 \
+dr_rf_metrics
 dr_rf_status
 )
 \
@@ -5760,8 +5760,8 @@ dr_frame
 dr_state
 dr_pb
 dr_cbwm
-dr_bdr
 \
+dr_bdr
 dr_pad
 )
 #
@@ -5787,8 +5787,8 @@ DISPLAY_REFLOW
 dr_pres_context
 dr_frame
 dr_rf_state
-dr_rf_metrics
 \
+dr_rf_metrics
 dr_rf_status
 )
 #
@@ -5811,6 +5811,7 @@ DISPLAY_MIN_INLINE_SIZE
 dr_frame
 dr_result
 )
+\
 PR_BEGIN_MACRO
 PR_END_MACRO
 #

@@ -34183,6 +34183,10 @@ const
 Principal
 &
 aPrincipal
+const
+bool
+&
+aUseTrackingProtection
 bool
 *
 aSuccess
@@ -34242,6 +34246,10 @@ const
 Principal
 &
 aPrincipal
+const
+bool
+&
+aUseTrackingProtection
 bool
 *
 aSuccess
@@ -34312,6 +34320,7 @@ actor
 StartClassify
 (
 principal
+aUseTrackingProtection
 aSuccess
 )
 ;

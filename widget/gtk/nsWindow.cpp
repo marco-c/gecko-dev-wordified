@@ -32644,13 +32644,11 @@ define
 NS_GDKEVENT_MATCH_MASK
 0x1FFF
 /
-*
+/
 GDK_SHIFT_MASK
 .
 .
 GDK_BUTTON5_MASK
-*
-/
 GdkDisplay
 *
 gdkDisplay

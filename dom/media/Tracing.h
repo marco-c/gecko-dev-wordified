@@ -461,6 +461,7 @@ TRACE
 AutoTracer
 trace
 (
+\
 gMSGTraceLogger
 FUNCTION_SIGNATURE
 getpid

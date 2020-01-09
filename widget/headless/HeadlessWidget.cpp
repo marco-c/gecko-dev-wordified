@@ -281,6 +281,7 @@ LOGFOCUS
 (
 args
 )
+\
 MOZ_LOG
 (
 sWidgetFocusLog
