@@ -978,7 +978,7 @@ false
 }
 capacity_
 =
-NurseryChunkUsableSize
+SubChunkLimit
 ;
 /
 *
