@@ -678,6 +678,12 @@ isValidCSSColor
 calculateContrastRatio
 :
 calculateContrastRatio
+calculateLuminance
+:
+calculateLuminance
+blendColors
+:
+blendColors
 }
 ;
 /
@@ -2698,7 +2704,7 @@ a
 .
 toFixed
 (
-1
+2
 )
 )
 ;
@@ -2781,7 +2787,7 @@ a
 .
 toFixed
 (
-1
+2
 )
 )
 }
