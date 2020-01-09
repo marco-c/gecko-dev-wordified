@@ -2820,6 +2820,8 @@ if
 (
 /
 (
+IndexedDB
+|
 AbortError
 |
 ConstraintError

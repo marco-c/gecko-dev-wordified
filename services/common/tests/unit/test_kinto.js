@@ -1506,7 +1506,7 @@ add_task
 (
 async
 function
-test_loadDump_ignores_already_imported_records
+test_importBulk_ignores_already_imported_records
 (
 )
 {
@@ -1560,7 +1560,7 @@ last_modified
 await
 collection
 .
-loadDump
+importBulk
 (
 [
 record
@@ -1573,7 +1573,7 @@ impactedRecords
 await
 collection
 .
-loadDump
+importBulk
 (
 [
 record
