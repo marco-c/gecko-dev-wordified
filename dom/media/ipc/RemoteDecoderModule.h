@@ -187,12 +187,6 @@ RemoteDecoderModule
 =
 default
 ;
-nsresult
-Startup
-(
-)
-override
-;
 bool
 SupportsMimeType
 (
