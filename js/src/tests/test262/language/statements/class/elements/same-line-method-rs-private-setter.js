@@ -15,6 +15,11 @@ class
 -
 fields
 -
+private
+class
+-
+fields
+-
 public
 is
 not
@@ -104,6 +109,11 @@ features
 class
 -
 methods
+-
+private
+class
+-
+fields
 -
 private
 class

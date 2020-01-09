@@ -328,6 +328,13 @@ compareArray
 callOrder
 [
 "
+localeMatcher
+"
+"
+localeMatcher
+toString
+"
+"
 type
 "
 "
@@ -339,13 +346,6 @@ style
 "
 "
 style
-toString
-"
-"
-localeMatcher
-"
-"
-localeMatcher
 toString
 "
 ]
