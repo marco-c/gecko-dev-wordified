@@ -88,6 +88,8 @@ remote
 /
 content
 /
+domains
+/
 Domain
 .
 jsm
