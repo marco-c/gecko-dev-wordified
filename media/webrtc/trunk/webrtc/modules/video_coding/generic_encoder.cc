@@ -313,6 +313,14 @@ Release
 "
 )
 ;
+encoder_
+-
+>
+RegisterEncodeCompleteCallback
+(
+nullptr
+)
+;
 return
 encoder_
 -
