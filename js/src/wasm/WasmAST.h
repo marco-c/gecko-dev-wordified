@@ -2564,7 +2564,7 @@ StructNarrow
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 TableGet
 TableGrow
 TableSet
@@ -5305,7 +5305,7 @@ len_
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 class
 AstTableGet
 :
@@ -5639,7 +5639,7 @@ targetTable_
 endif
 /
 /
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 #
 ifdef
 ENABLE_WASM_GC

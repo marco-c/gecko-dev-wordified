@@ -10,7 +10,7 @@ skip
 if
 :
 !
-wasmGeneralizedTables
+wasmReftypesEnabled
 (
 )
 for

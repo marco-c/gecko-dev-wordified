@@ -9,7 +9,7 @@ skip
 -
 if
 :
-wasmGeneralizedTables
+wasmReftypesEnabled
 (
 )
 assertErrorMessage

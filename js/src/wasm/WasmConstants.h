@@ -884,9 +884,7 @@ TableGet
 0x25
 /
 /
-Generalized
-table
-ops
+Reftypes
 TableSet
 =
 0x26
@@ -1538,9 +1536,7 @@ TableCopy
 0x0e
 /
 /
-Generalized
-table
-operations
+Reftypes
 per
 proposal
 as
