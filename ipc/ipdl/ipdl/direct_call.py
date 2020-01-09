@@ -5849,19 +5849,6 @@ parent
 )
     
 #
-bug
-1513911
-    
-(
-"
-PIndexedDBPermissionRequest
-"
-"
-child
-"
-)
-    
-#
 Recv
 *
 methods
