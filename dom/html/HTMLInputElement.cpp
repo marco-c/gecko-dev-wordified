@@ -5761,6 +5761,10 @@ mIsPreviewEnabled
 (
 false
 )
+mHasBeenTypePassword
+(
+false
+)
 mHasPatternAttribute
 (
 false
@@ -27369,6 +27373,16 @@ oldType
 =
 aNewType
 )
+;
+mHasBeenTypePassword
+=
+mHasBeenTypePassword
+|
+|
+aNewType
+=
+=
+NS_FORM_INPUT_PASSWORD
 ;
 nsFocusManager
 *
