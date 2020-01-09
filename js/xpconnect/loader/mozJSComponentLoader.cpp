@@ -1458,6 +1458,10 @@ TYPE_SCRIPT
 nullptr
 /
 /
+nsICookieSettings
+nullptr
+/
+/
 aPerformanceStorage
 nullptr
 /
