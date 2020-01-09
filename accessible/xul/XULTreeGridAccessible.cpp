@@ -1621,7 +1621,10 @@ aDoc
 Accessible
 *
 aTreeAcc
-nsITreeBoxObject
+dom
+:
+:
+XULTreeElement
 *
 aTree
 nsITreeView
@@ -2769,7 +2772,10 @@ aDoc
 XULTreeGridRowAccessible
 *
 aRowAcc
-nsITreeBoxObject
+dom
+:
+:
+XULTreeElement
 *
 aTree
 nsITreeView

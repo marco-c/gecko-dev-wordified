@@ -1165,9 +1165,5 @@ nsITextControlFrame
 )
 ABSTRACT_FRAME_ID
 (
-nsITreeBoxObject
-)
-ABSTRACT_FRAME_ID
-(
 nsSVGDisplayableFrame
 )
