@@ -799,6 +799,22 @@ parent
 ]
 )
         
+args
+[
+'
+TASKCLUSTER_ROOT_URL
+'
+]
+=
+os
+.
+environ
+[
+'
+TASKCLUSTER_ROOT_URL
+'
+]
+        
 if
 not
 taskgraph
