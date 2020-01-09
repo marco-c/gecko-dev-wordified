@@ -386,11 +386,14 @@ the
 default
 behavior
 of
-NSToCoordRoundWithClamp
 /
 /
+NSToCoordRound
+{
+WithClamp
+}
 which
-is
+do
 floor
 (
 x
@@ -486,7 +489,7 @@ nscoord_MIN
 ;
 }
 return
-roundf
+NSToIntRound
 (
 length
 )
