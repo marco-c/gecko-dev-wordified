@@ -11062,9 +11062,9 @@ js
 HandleObject
 sourceObject
 uint32_t
-bufStart
+sourceStart
 uint32_t
-bufEnd
+sourceEnd
 uint32_t
 toStringStart
 uint32_t
@@ -11092,9 +11092,9 @@ js
 HandleObject
 sourceObject
 uint32_t
-bufStart
+sourceStart
 uint32_t
-bufEnd
+sourceEnd
 uint32_t
 toStringStart
 uint32_t
