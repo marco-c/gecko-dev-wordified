@@ -14420,7 +14420,6 @@ kind
 name
 params
 bodyScope
-funbox
 )
 )
 ;
@@ -14853,7 +14852,6 @@ kind
 name
 params
 bodyScope
-funbox
 )
 )
 ;
@@ -15200,7 +15198,6 @@ kind
 name
 params
 body
-funbox
 )
 )
 ;
@@ -15630,7 +15627,6 @@ kind
 name
 params
 body
-funbox
 )
 )
 ;
@@ -15999,7 +15995,6 @@ kind
 name
 params
 body
-funbox
 )
 )
 ;
