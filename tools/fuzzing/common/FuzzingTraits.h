@@ -238,7 +238,10 @@ std
 :
 :
 mt19937_64
-rng
+&
+Rng
+(
+)
 ;
 }
 ;
@@ -555,7 +558,9 @@ d
 FuzzingTraits
 :
 :
-rng
+Rng
+(
+)
 )
 ;
 }
@@ -629,7 +634,9 @@ d
 FuzzingTraits
 :
 :
-rng
+Rng
+(
+)
 )
 )
 ;
@@ -678,7 +685,9 @@ d
 FuzzingTraits
 :
 :
-rng
+Rng
+(
+)
 )
 )
 ;
@@ -790,7 +799,9 @@ d
 FuzzingTraits
 :
 :
-rng
+Rng
+(
+)
 )
 ;
 }
