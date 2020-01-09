@@ -169,16 +169,21 @@ uintptr_t
 '
     
 #
-stddef
-types
-    
-'
+You
+may
+be
+tempted
+to
+add
 size_t
-'
-    
-'
-ssize_t
-'
+.
+Do
+not
+!
+See
+bug
+1525199
+.
     
 #
 Mozilla
