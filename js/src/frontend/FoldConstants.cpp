@@ -9268,7 +9268,7 @@ class
 FoldVisitor
 :
 public
-ParseNodeVisitor
+RewritingParseNodeVisitor
 <
 FoldVisitor
 >
@@ -9276,7 +9276,7 @@ FoldVisitor
 using
 Base
 =
-ParseNodeVisitor
+RewritingParseNodeVisitor
 ;
 FullParseHandler
 *
@@ -9295,7 +9295,7 @@ FullParseHandler
 handler
 )
 :
-ParseNodeVisitor
+RewritingParseNodeVisitor
 (
 cx
 )
