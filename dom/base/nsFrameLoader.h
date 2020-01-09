@@ -2850,8 +2850,10 @@ nsPIDOMWindowOuter
 >
 mOpener
 ;
+RefPtr
+<
 TabParent
-*
+>
 mRemoteBrowser
 ;
 uint64_t
