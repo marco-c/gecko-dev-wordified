@@ -4146,14 +4146,6 @@ createWithTemplate
 JSContext
 *
 cx
-js
-:
-:
-gc
-:
-:
-InitialHeap
-heap
 HandleObject
 templateObject
 )
