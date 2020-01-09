@@ -745,6 +745,7 @@ ValidateArrayBufferView
 dstData
 dstElemOffset
 dstElemCountOverride
+LOCAL_GL_INVALID_VALUE
 &
 bytes
 &

@@ -1156,6 +1156,9 @@ GLuint
 viewElemOffset
 GLuint
 viewElemLengthOverride
+const
+GLenum
+errorVal
 )
 {
 const
@@ -1193,6 +1196,7 @@ ValidateArrayBufferView
 view
 viewElemOffset
 viewElemLengthOverride
+errorVal
 const_cast
 <
 uint8_t
@@ -2934,6 +2938,7 @@ mViewElemOffset
 src
 .
 mViewElemLengthOverride
+LOCAL_GL_INVALID_OPERATION
 )
 ;
 }
@@ -9433,6 +9438,7 @@ mViewElemOffset
 src
 .
 mViewElemLengthOverride
+LOCAL_GL_INVALID_VALUE
 )
 ;
 }

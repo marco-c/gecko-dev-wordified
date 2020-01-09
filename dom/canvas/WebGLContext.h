@@ -10552,6 +10552,8 @@ GLuint
 elemOffset
 GLuint
 elemCountOverride
+GLenum
+errorVal
 uint8_t
 *
 *
@@ -10562,6 +10564,7 @@ size_t
 const
 out_byteLen
 )
+const
 ;
 protected
 :

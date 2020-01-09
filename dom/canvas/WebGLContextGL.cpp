@@ -6820,6 +6820,7 @@ ValidateArrayBufferView
 dstView
 dstElemOffset
 0
+LOCAL_GL_INVALID_VALUE
 &
 bytes
 &
