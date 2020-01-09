@@ -1498,6 +1498,8 @@ aContent
 )
 )
 {
+if
+(
 shell
 -
 >
@@ -1521,7 +1523,16 @@ GetLayoutViewportOffset
 (
 )
 )
+)
+{
+sf
+-
+>
+MarkEverScrolled
+(
+)
 ;
+}
 }
 }
 }
