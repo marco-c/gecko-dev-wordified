@@ -26,8 +26,7 @@ from
 mozlog
 import
 structuredlog
-import
-wptlogging
+capture
 #
 Special
 value
@@ -829,7 +828,7 @@ send_message
 )
     
 with
-wptlogging
+capture
 .
 CaptureIO
 (
