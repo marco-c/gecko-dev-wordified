@@ -814,6 +814,8 @@ cellrect
 =
 tree
 .
+treeBoxObject
+.
 getCoordsForCellItem
 (
 tree

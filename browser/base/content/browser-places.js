@@ -5193,9 +5193,16 @@ tooltipNode
 parentNode
 ;
 var
-cell
+tbo
 =
 tree
+.
+treeBoxObject
+;
+var
+cell
+=
+tbo
 .
 getCellAt
 (
@@ -5235,7 +5242,7 @@ row
 ;
 cropped
 =
-tree
+tbo
 .
 isCellCropped
 (

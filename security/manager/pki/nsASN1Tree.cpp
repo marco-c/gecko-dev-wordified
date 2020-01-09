@@ -1335,13 +1335,7 @@ nsNSSASN1Tree
 :
 SetTree
 (
-mozilla
-:
-:
-dom
-:
-:
-XULTreeElement
+nsITreeBoxObject
 *
 tree
 )

@@ -6584,9 +6584,16 @@ target
 parentNode
 ;
 let
-cell
+tbo
 =
 tree
+.
+treeBoxObject
+;
+let
+cell
+=
+tbo
 .
 getCellAt
 (
@@ -6705,7 +6712,7 @@ ownerGlobal
 let
 rect
 =
-tree
+tbo
 .
 getCoordsForCellItem
 (
@@ -6792,7 +6799,7 @@ shiftKey
 let
 isContainer
 =
-tree
+tbo
 .
 view
 .
@@ -6865,7 +6872,7 @@ isContainer
 openInTabs
 )
 {
-tree
+tbo
 .
 view
 .
@@ -6899,7 +6906,7 @@ treechildren
 "
 )
 {
-tree
+tbo
 .
 view
 .
@@ -6991,7 +6998,7 @@ link
 to
 load
 .
-tree
+tbo
 .
 view
 .
@@ -7114,6 +7121,8 @@ let
 cell
 =
 tree
+.
+treeBoxObject
 .
 getCellAt
 (

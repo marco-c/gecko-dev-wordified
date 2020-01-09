@@ -185,6 +185,8 @@ i
 ;
 tree
 .
+treeBoxObject
+.
 ensureRowIsVisible
 (
 i

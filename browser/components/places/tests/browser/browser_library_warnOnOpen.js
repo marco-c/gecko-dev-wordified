@@ -895,6 +895,8 @@ aRowIndex
 ;
 aTree
 .
+treeBoxObject
+.
 ensureRowIsVisible
 (
 aRowIndex
@@ -919,6 +921,8 @@ var
 rect
 =
 aTree
+.
+treeBoxObject
 .
 getCoordsForCellItem
 (

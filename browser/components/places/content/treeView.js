@@ -6312,6 +6312,8 @@ this
 .
 _tree
 .
+element
+.
 getAttribute
 (
 "
@@ -6417,6 +6419,8 @@ observe
 this
 .
 _tree
+.
+element
 {
 attributes
 :
@@ -9235,6 +9239,8 @@ aDataTransfer
 this
 .
 _tree
+.
+element
 )
 .
 catch
