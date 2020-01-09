@@ -6305,7 +6305,7 @@ RootedObject
 unwrappedObj
 (
 cx
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 tObj
 )
@@ -18310,7 +18310,7 @@ toObject
 ;
 obj
 =
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 obj
 )

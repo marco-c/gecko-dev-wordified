@@ -1705,9 +1705,10 @@ JSObject
 *
 unwrapped
 =
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 obj
+cx
 )
 ;
 if
@@ -1804,7 +1805,7 @@ JSObject
 *
 obj
 =
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 &
 args
@@ -1815,6 +1816,7 @@ args
 toObject
 (
 )
+cx
 )
 ;
 if

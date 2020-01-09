@@ -7216,9 +7216,10 @@ WrapperObject
 {
 obj
 =
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 obj
+cx
 )
 ;
 if

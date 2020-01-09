@@ -912,7 +912,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 obj
 )
@@ -1715,9 +1715,14 @@ anyway
 .
 obj
 =
-CheckedUnwrap
-(
 obj
+-
+>
+maybeUnwrapAs
+<
+T
+>
+(
 )
 ;
 if

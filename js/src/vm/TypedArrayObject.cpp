@@ -5347,7 +5347,7 @@ JSObject
 *
 unwrapped
 =
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 bufobj
 )
@@ -9426,7 +9426,7 @@ JSObject
 *
 obj
 =
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 &
 args
@@ -10130,7 +10130,7 @@ JSObject
 *
 obj
 =
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 src
 )

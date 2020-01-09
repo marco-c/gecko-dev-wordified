@@ -9106,7 +9106,7 @@ toObject
 ;
 obj
 =
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 obj
 )
@@ -20869,7 +20869,7 @@ RootedObject
 obj
 (
 cx
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 &
 args
@@ -24827,9 +24827,10 @@ global
 {
 global
 =
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 global
+cx
 )
 ;
 if
@@ -25404,9 +25405,10 @@ false
 }
 global
 =
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 global
+cx
 )
 ;
 if
@@ -27693,9 +27695,10 @@ false
 }
 global
 =
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 global
+cx
 )
 ;
 if
