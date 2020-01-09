@@ -1078,6 +1078,12 @@ AudibleAutoplayMediaOccurred
 :
 {
 }
+"
+GloballyAutoplayBlocked
+"
+:
+{
+}
 }
 }
 }
