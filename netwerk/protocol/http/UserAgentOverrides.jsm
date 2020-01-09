@@ -590,9 +590,9 @@ searchHost
 .
 indexOf
 (
-'
+"
 .
-'
+"
 )
 ;
 if

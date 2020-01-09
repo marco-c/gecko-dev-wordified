@@ -624,8 +624,6 @@ UserAgentUpdates
 =
 {
 init
-:
-function
 (
 callback
 )
@@ -672,8 +670,6 @@ this
 ;
 }
 uninit
-:
-function
 (
 )
 {
@@ -702,8 +698,6 @@ this
 ;
 }
 _applyUpdate
-:
-function
 (
 update
 )
@@ -752,8 +746,6 @@ null
 }
 }
 _applySavedUpdate
-:
-function
 (
 )
 {
@@ -1073,8 +1065,6 @@ _scheduleUpdate
 ;
 }
 _saveToFile
-:
-function
 (
 update
 )
@@ -1176,8 +1166,6 @@ reportError
 ;
 }
 _getPref
-:
-function
 (
 name
 def
@@ -1413,8 +1401,6 @@ PREF_APP_DISTRIBUTION_VERSION
 ;
 }
 _getUpdateURL
-:
-function
 (
 )
 {
@@ -1510,8 +1496,6 @@ match
 ;
 }
 _fetchUpdate
-:
-function
 (
 url
 success
@@ -1624,8 +1608,6 @@ send
 ;
 }
 _update
-:
-function
 (
 )
 {
@@ -1712,8 +1694,6 @@ retry
 ;
 }
 _scheduleUpdate
-:
-function
 (
 retry
 )
@@ -1795,8 +1775,6 @@ interval
 ;
 }
 notify
-:
-function
 (
 timer
 )
@@ -1825,8 +1803,6 @@ _update
 }
 }
 observe
-:
-function
 (
 subject
 topic

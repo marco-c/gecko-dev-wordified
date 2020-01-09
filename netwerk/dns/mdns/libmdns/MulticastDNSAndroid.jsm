@@ -237,8 +237,6 @@ msg
 =
 {
 type
-:
-type
 }
 ;
 for
@@ -339,8 +337,6 @@ numListeners
 :
 0
 onEvent
-:
-function
 (
 event
 data
@@ -390,8 +386,6 @@ onServiceLost
 }
 }
 registerEvent
-:
-function
 (
 )
 {
@@ -425,8 +419,6 @@ ServiceLost
 ;
 }
 unregisterEvent
-:
-function
 (
 )
 {
@@ -460,8 +452,6 @@ ServiceLost
 ;
 }
 addListener
-:
-function
 (
 aServiceType
 aListener
@@ -580,8 +570,6 @@ this
 ;
 }
 removeListener
-:
-function
 (
 aServiceType
 aListener
@@ -712,8 +700,6 @@ this
 ;
 }
 onServiceFound
-:
-function
 (
 aServiceInfo
 )
@@ -769,8 +755,6 @@ return
 ;
 }
 onServiceLost
-:
-function
 (
 aServiceInfo
 )
@@ -941,8 +925,6 @@ prototype
 =
 {
 startDiscovery
-:
-function
 (
 aServiceType
 aListener
@@ -1046,8 +1028,6 @@ result
 ;
 }
 stopDiscovery
-:
-function
 (
 aServiceType
 aListener
@@ -1138,8 +1118,6 @@ aServiceType
 ;
 }
 registerService
-:
-function
 (
 aServiceInfo
 aListener
@@ -1291,8 +1269,6 @@ result
 ;
 }
 unregisterService
-:
-function
 (
 aServiceInfo
 aListener
@@ -1368,8 +1344,6 @@ aServiceInfo
 ;
 }
 resolveService
-:
-function
 (
 aServiceInfo
 aListener
