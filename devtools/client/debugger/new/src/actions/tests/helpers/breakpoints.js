@@ -265,8 +265,6 @@ sourceId
 {
 filename
 }
-/
-originalSource
 line
 column
 }
