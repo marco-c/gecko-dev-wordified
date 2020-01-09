@@ -206,6 +206,10 @@ onPickerStopped
 =
 toolbox
 .
+inspector
+.
+nodePicker
+.
 once
 (
 "
