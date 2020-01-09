@@ -1892,7 +1892,7 @@ out
 {
 #
 ifdef
-DEBUG
+DEBUG_FRAME_DUMP
 fprintf
 (
 out
