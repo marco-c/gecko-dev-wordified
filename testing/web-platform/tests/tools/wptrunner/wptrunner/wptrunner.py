@@ -1883,6 +1883,12 @@ results
 unexpected_count
 )
                 
+logger
+.
+suite_end
+(
+)
+                
 if
 repeat_until_unexpected
 and
@@ -1892,12 +1898,6 @@ unexpected_total
 :
                     
 break
-                
-logger
-.
-suite_end
-(
-)
     
 if
 test_total
