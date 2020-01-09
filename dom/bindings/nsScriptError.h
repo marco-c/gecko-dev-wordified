@@ -232,6 +232,9 @@ nsString
 mSourceName
 ;
 nsString
+mCssSelectors
+;
+nsString
 mSourceLine
 ;
 uint32_t
@@ -335,6 +338,9 @@ mMessageName
 ;
 nsString
 mSourceName
+;
+nsString
+mCssSelectors
 ;
 uint32_t
 mSourceId

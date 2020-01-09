@@ -5026,6 +5026,12 @@ char
 source
 uint32_t
 sourceLen
+const
+char
+*
+selectors
+uint32_t
+selectorsLen
 uint32_t
 lineNumber
 uint32_t
