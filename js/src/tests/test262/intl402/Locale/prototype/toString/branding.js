@@ -130,7 +130,7 @@ Locale
 *
 /
 const
-fn
+toString
 =
 Intl
 .
@@ -139,6 +139,17 @@ Locale
 prototype
 .
 toString
+;
+assert
+.
+sameValue
+(
+typeof
+toString
+"
+function
+"
+)
 ;
 const
 invalidValues
@@ -179,7 +190,7 @@ TypeError
 )
 =
 >
-fn
+toString
 .
 call
 (

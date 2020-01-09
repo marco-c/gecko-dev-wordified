@@ -341,11 +341,9 @@ BUFFER_SIZE
 .
 agent
 .
-broadcast
+safeBroadcast
 (
 i32a
-.
-buffer
 )
 ;
 262

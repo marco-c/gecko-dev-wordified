@@ -109,6 +109,17 @@ BigInt
 /
 assert
 .
+sameValue
+(
+typeof
+BigInt
+'
+function
+'
+)
+;
+assert
+.
 throws
 (
 TypeError

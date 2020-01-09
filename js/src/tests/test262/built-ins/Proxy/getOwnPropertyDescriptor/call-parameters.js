@@ -141,6 +141,7 @@ Object
 getOwnPropertyDescriptor
 (
 t
+prop
 )
 ;
 }

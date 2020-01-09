@@ -130,7 +130,7 @@ Locale
 *
 /
 const
-fn
+minimize
 =
 Intl
 .
@@ -139,6 +139,17 @@ Locale
 prototype
 .
 minimize
+;
+assert
+.
+sameValue
+(
+typeof
+minimize
+"
+function
+"
+)
 ;
 const
 invalidValues
@@ -179,7 +190,7 @@ TypeError
 )
 =
 >
-fn
+minimize
 .
 call
 (

@@ -148,6 +148,17 @@ BigInt
 /
 assert
 .
+sameValue
+(
+typeof
+BigUint64Array
+'
+function
+'
+)
+;
+assert
+.
 throws
 (
 TypeError

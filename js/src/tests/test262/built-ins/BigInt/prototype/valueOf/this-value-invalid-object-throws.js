@@ -184,6 +184,17 @@ valueOf
 ;
 assert
 .
+sameValue
+(
+typeof
+valueOf
+'
+function
+'
+)
+;
+assert
+.
 throws
 (
 TypeError

@@ -118,7 +118,7 @@ RelativeTimeFormat
 *
 /
 const
-fn
+resolvedOptions
 =
 Intl
 .
@@ -130,6 +130,17 @@ resolvedOptions
 ;
 assert
 .
+sameValue
+(
+typeof
+resolvedOptions
+"
+function
+"
+)
+;
+assert
+.
 throws
 (
 TypeError
@@ -137,7 +148,7 @@ TypeError
 )
 =
 >
-fn
+resolvedOptions
 .
 call
 (
@@ -157,7 +168,7 @@ TypeError
 )
 =
 >
-fn
+resolvedOptions
 .
 call
 (
@@ -177,7 +188,7 @@ TypeError
 )
 =
 >
-fn
+resolvedOptions
 .
 call
 (
@@ -197,7 +208,7 @@ TypeError
 )
 =
 >
-fn
+resolvedOptions
 .
 call
 (
@@ -219,7 +230,7 @@ TypeError
 )
 =
 >
-fn
+resolvedOptions
 .
 call
 (
@@ -241,7 +252,7 @@ TypeError
 )
 =
 >
-fn
+resolvedOptions
 .
 call
 (
@@ -261,7 +272,7 @@ TypeError
 )
 =
 >
-fn
+resolvedOptions
 .
 call
 (
@@ -283,7 +294,7 @@ TypeError
 )
 =
 >
-fn
+resolvedOptions
 .
 call
 (
@@ -307,7 +318,7 @@ TypeError
 )
 =
 >
-fn
+resolvedOptions
 .
 call
 (

@@ -317,11 +317,9 @@ leaving
 .
 agent
 .
-broadcast
+safeBroadcast
 (
 i32a
-.
-buffer
 )
 ;
 262

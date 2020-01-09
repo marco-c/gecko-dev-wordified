@@ -130,7 +130,7 @@ Locale
 *
 /
 const
-fn
+maximize
 =
 Intl
 .
@@ -139,6 +139,17 @@ Locale
 prototype
 .
 maximize
+;
+assert
+.
+sameValue
+(
+typeof
+maximize
+"
+function
+"
+)
 ;
 const
 invalidValues
@@ -179,7 +190,7 @@ TypeError
 )
 =
 >
-fn
+maximize
 .
 call
 (
