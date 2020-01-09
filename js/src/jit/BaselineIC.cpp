@@ -6989,7 +6989,7 @@ addressOfFirstStub
 }
 }
 void
-ICUpdatedStub
+ICCacheIR_Updated
 :
 :
 resetUpdateStubChain
@@ -7324,7 +7324,7 @@ val
 ;
 }
 bool
-ICUpdatedStub
+ICCacheIR_Updated
 :
 :
 initUpdatingChain
@@ -10650,7 +10650,7 @@ true
 ;
 }
 bool
-ICUpdatedStub
+ICCacheIR_Updated
 :
 :
 addUpdateStubForValue
@@ -11588,7 +11588,7 @@ cx
 BaselineFrame
 *
 frame
-ICUpdatedStub
+ICCacheIR_Updated
 *
 stub
 HandleValue
