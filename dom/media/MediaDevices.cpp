@@ -680,7 +680,6 @@ auto
 device
 :
 *
-*
 aDevices
 )
 {

@@ -1178,10 +1178,7 @@ media
 :
 Refcountable
 <
-UniquePtr
-<
 MediaDeviceSet
->
 >
 MediaDeviceSetRefCnt
 ;
