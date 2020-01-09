@@ -1897,6 +1897,12 @@ args
 page_cycles
 )
         
+for
+next_test
+in
+tests_to_run
+:
+            
 next_test
 [
 '
@@ -1976,6 +1982,12 @@ args
 page_timeout
 )
         
+for
+next_test
+in
+tests_to_run
+:
+            
 next_test
 [
 '
