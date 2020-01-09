@@ -410,6 +410,7 @@ NodeInfo
 :
 QualifiedNameEquals
 (
+const
 nsAtom
 *
 aNameAtom
@@ -468,11 +469,13 @@ CheckValidNodeInfo
 (
 uint16_t
 aNodeType
+const
 nsAtom
 *
 aName
 int32_t
 aNamespaceID
+const
 nsAtom
 *
 aExtraName

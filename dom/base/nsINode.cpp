@@ -1240,6 +1240,7 @@ nsINode
 :
 GetProperty
 (
+const
 nsAtom
 *
 aPropertyName
@@ -1362,6 +1363,7 @@ nsINode
 :
 DeleteProperty
 (
+const
 nsAtom
 *
 aPropertyName
@@ -1390,6 +1392,7 @@ nsINode
 :
 UnsetProperty
 (
+const
 nsAtom
 *
 aPropertyName
@@ -15721,11 +15724,11 @@ mPreviousOrLastSibling
 mFirstChild
 :
 because
-/
-/
 they
 '
 re
+/
+/
 non
 -
 owning

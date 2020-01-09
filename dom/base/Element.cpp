@@ -14203,9 +14203,11 @@ MaybeCheckSameAttrVal
 (
 int32_t
 aNamespaceID
+const
 nsAtom
 *
 aName
+const
 nsAtom
 *
 aPrefix
@@ -16799,6 +16801,7 @@ GetAttr
 (
 int32_t
 aNameSpaceID
+const
 nsAtom
 *
 aName
@@ -16840,6 +16843,7 @@ FindAttrValueIn
 (
 int32_t
 aNameSpaceID
+const
 nsAtom
 *
 aName

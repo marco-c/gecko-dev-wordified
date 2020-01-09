@@ -1128,6 +1128,7 @@ nsMappedAttributes
 :
 GetAttr
 (
+const
 nsAtom
 *
 aAttrName
@@ -1707,6 +1708,7 @@ nsMappedAttributes
 :
 IndexOfAttr
 (
+const
 nsAtom
 *
 aLocalName

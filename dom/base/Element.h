@@ -3937,9 +3937,11 @@ MaybeCheckSameAttrVal
 (
 int32_t
 aNamespaceID
+const
 nsAtom
 *
 aName
+const
 nsAtom
 *
 aPrefix
@@ -4413,6 +4415,7 @@ GetAttr
 (
 int32_t
 aNameSpaceID
+const
 nsAtom
 *
 aName
@@ -4425,6 +4428,7 @@ const
 bool
 GetAttr
 (
+const
 nsAtom
 *
 aName
@@ -4503,6 +4507,7 @@ HasAttr
 (
 int32_t
 aNameSpaceID
+const
 nsAtom
 *
 aName
@@ -4512,6 +4517,7 @@ const
 bool
 HasAttr
 (
+const
 nsAtom
 *
 aAttr
@@ -4621,6 +4627,7 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
+const
 nsAtom
 *
 aName
@@ -4732,9 +4739,11 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
+const
 nsAtom
 *
 aName
+const
 nsAtom
 *
 aValue
@@ -4932,6 +4941,7 @@ FindAttrValueIn
 (
 int32_t
 aNameSpaceID
+const
 nsAtom
 *
 aName
@@ -5974,6 +5984,7 @@ GetAttr
 (
 int32_t
 aNameSpaceID
+const
 nsAtom
 *
 aName
@@ -8627,6 +8638,7 @@ nsAttrValue
 *
 GetParsedAttr
 (
+const
 nsAtom
 *
 aAttr
@@ -8647,6 +8659,7 @@ nsAttrValue
 *
 GetParsedAttr
 (
+const
 nsAtom
 *
 aAttr
@@ -8815,6 +8828,7 @@ GetAttrInfo
 (
 int32_t
 aNamespaceID
+const
 nsAtom
 *
 aName
@@ -12503,6 +12517,7 @@ HasAttr
 (
 int32_t
 aNameSpaceID
+const
 nsAtom
 *
 aName
@@ -12562,6 +12577,7 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
+const
 nsAtom
 *
 aName
@@ -12634,9 +12650,11 @@ AttrValueIs
 (
 int32_t
 aNameSpaceID
+const
 nsAtom
 *
 aName
+const
 nsAtom
 *
 aValue

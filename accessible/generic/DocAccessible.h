@@ -3472,6 +3472,7 @@ union
 ARIA
 attribute
 value
+const
 nsAtom
 *
 mARIAAttrOldValue
