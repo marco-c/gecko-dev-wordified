@@ -367,8 +367,12 @@ RecvOnStartRequestSent
 override
 ;
 IPCResult
-RecvNotifyTrackingProtectionDisabled
+RecvNotifyChannelClassifierProtectionDisabled
 (
+const
+uint32_t
+&
+aAcceptedReason
 )
 override
 ;

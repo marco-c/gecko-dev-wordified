@@ -1237,9 +1237,13 @@ disabled
 UrlClassifierCommon
 :
 :
-NotifyTrackingProtectionDisabled
+NotifyChannelClassifierProtectionDisabled
 (
 aChannel
+nsIWebProgressListener
+:
+:
+STATE_LOADED_TRACKING_CONTENT
 )
 ;
 if
