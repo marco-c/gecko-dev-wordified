@@ -1115,7 +1115,7 @@ if
 nameCount
 )
 {
-Poison
+AlwaysPoison
 (
 &
 data_
