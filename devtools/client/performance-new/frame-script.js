@@ -497,9 +497,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 Gecko
 -

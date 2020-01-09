@@ -609,9 +609,9 @@ github
 .
 com
 /
-devtools
+firefox
 -
-html
+devtools
 /
 reps
 /
