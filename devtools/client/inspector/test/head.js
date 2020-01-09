@@ -1104,7 +1104,9 @@ onHovered
 =
 inspector
 .
-toolbox
+inspector
+.
+nodePicker
 .
 once
 (
