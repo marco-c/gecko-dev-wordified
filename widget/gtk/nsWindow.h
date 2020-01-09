@@ -2279,6 +2279,12 @@ nsIFrame
 aFrame
 )
 ;
+static
+bool
+TitlebarCanUseShapeMask
+(
+)
+;
 protected
 :
 virtual
