@@ -10382,16 +10382,6 @@ progress
 Atom
 (
 "
-progressmeter
-"
-"
-progressmeter
-"
-)
-    
-Atom
-(
-"
 prompt
 "
 "
@@ -12840,16 +12830,6 @@ ul
 "
 "
 ul
-"
-)
-    
-Atom
-(
-"
-undetermined
-"
-"
-undetermined
 "
 )
     
