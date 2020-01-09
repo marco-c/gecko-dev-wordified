@@ -884,6 +884,9 @@ PictureCompositeMode
 :
 :
 Blit
+(
+_
+)
 )
 |
 Some
