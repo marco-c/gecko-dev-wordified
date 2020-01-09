@@ -271,11 +271,11 @@ StatsPhasesGenerated
 h
 "
 enum
-Stat
+Count
 {
-STAT_NEW_CHUNK
-STAT_DESTROY_CHUNK
-STAT_MINOR_GC
+COUNT_NEW_CHUNK
+COUNT_DESTROY_CHUNK
+COUNT_MINOR_GC
 /
 /
 Number
@@ -294,7 +294,7 @@ a
 /
 /
 compaction
-STAT_STOREBUFFER_OVERFLOW
+COUNT_STOREBUFFER_OVERFLOW
 /
 /
 Number
@@ -305,8 +305,8 @@ by
 compacting
 GC
 .
-STAT_ARENA_RELOCATED
-STAT_LIMIT
+COUNT_ARENA_RELOCATED
+COUNT_LIMIT
 }
 ;
 struct
@@ -1263,7 +1263,7 @@ nonincrementalReason_
 void
 count
 (
-Stat
+Count
 s
 )
 {
@@ -1278,7 +1278,7 @@ s
 uint32_t
 getCount
 (
-Stat
+Count
 s
 )
 const
@@ -2002,8 +2002,8 @@ GC
 /
 EnumeratedArray
 <
-Stat
-STAT_LIMIT
+Count
+COUNT_LIMIT
 mozilla
 :
 :
