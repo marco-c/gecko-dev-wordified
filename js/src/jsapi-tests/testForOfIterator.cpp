@@ -114,6 +114,15 @@ MPL
 #
 include
 "
+js
+/
+ForOfIterator
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
