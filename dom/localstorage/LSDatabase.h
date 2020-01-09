@@ -219,7 +219,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mActor
 )
