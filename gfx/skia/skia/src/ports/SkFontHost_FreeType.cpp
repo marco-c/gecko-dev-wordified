@@ -14728,10 +14728,10 @@ multiple
 values
 for
 a
+/
+/
 given
 axis
-/
-/
 use
 the
 last
