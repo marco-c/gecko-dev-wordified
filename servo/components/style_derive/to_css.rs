@@ -153,8 +153,6 @@ parse_quote
 #
 param
 :
-:
-:
 style_traits
 :
 :
@@ -318,8 +316,6 @@ quote
 impl
 #
 impl_generics
-:
-:
 style_traits
 :
 :
@@ -355,8 +351,6 @@ dest
 :
 &
 mut
-:
-:
 style_traits
 :
 :
@@ -367,8 +361,6 @@ W
 )
 -
 >
-:
-:
 std
 :
 :
@@ -378,8 +370,6 @@ fmt
 Result
 where
 W
-:
-:
 :
 std
 :
@@ -415,8 +405,6 @@ quote
 impl
 #
 impl_generics
-:
-:
 std
 :
 :
@@ -441,8 +429,6 @@ f
 :
 &
 mut
-:
-:
 std
 :
 :
@@ -453,8 +439,6 @@ Formatter
 )
 -
 >
-:
-:
 std
 :
 :
@@ -463,8 +447,6 @@ fmt
 :
 Result
 {
-:
-:
 style_traits
 :
 :
@@ -476,8 +458,6 @@ to_css
 self
 &
 mut
-:
-:
 style_traits
 :
 :
@@ -679,8 +659,6 @@ is_empty
 quote
 !
 {
-:
-:
 std
 :
 :
@@ -719,8 +697,6 @@ else
 quote
 !
 {
-:
-:
 std
 :
 :
@@ -753,8 +729,6 @@ quote
 expr
 ?
 ;
-:
-:
 std
 :
 :
@@ -817,8 +791,6 @@ expr
 quote
 !
 {
-:
-:
 std
 :
 :
@@ -840,8 +812,6 @@ identifier
 expr
 ?
 ;
-:
-:
 std
 :
 :
@@ -1029,8 +999,6 @@ parse_quote
 #
 ty
 :
-:
-:
 style_traits
 :
 :
@@ -1046,8 +1014,6 @@ expr
 quote
 !
 {
-:
-:
 style_traits
 :
 :
@@ -1137,8 +1103,6 @@ let
 mut
 writer
 =
-:
-:
 style_traits
 :
 :
@@ -1393,8 +1357,6 @@ parse_quote
 (
 #
 ty
-:
-:
 :
 style_traits
 :

@@ -176,6 +176,7 @@ parse_quote
 #
 param
 :
+crate
 :
 :
 values
@@ -344,8 +345,6 @@ let
 #
 mapped_binding
 =
-:
-:
 std
 :
 :
@@ -372,6 +371,7 @@ let
 #
 mapped_binding
 =
+crate
 :
 :
 values
@@ -455,6 +455,7 @@ quote
 impl
 #
 impl_generics
+crate
 :
 :
 values
