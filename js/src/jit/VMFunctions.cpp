@@ -12123,9 +12123,9 @@ SetObjectElementFn
 js
 :
 :
-SetObjectElement
+SetObjectElementWithReceiver
 "
-SetObjectElement
+SetObjectElementWithReceiver
 "
 )
 ;
@@ -12876,7 +12876,6 @@ getSparseElementHelper
 "
 )
 ;
-static
 bool
 DoToNumber
 (
@@ -12904,7 +12903,6 @@ ret
 )
 ;
 }
-static
 bool
 DoToNumeric
 (

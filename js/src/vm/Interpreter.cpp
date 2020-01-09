@@ -19365,7 +19365,7 @@ JSOP_STRICTSETELEM_SUPER
 if
 (
 !
-SetObjectElement
+SetObjectElementWithReceiver
 (
 cx
 obj
@@ -30928,7 +30928,7 @@ bool
 js
 :
 :
-SetObjectElement
+SetObjectElementWithReceiver
 (
 JSContext
 *

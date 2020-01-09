@@ -3293,7 +3293,7 @@ pc
 )
 ;
 bool
-SetObjectElement
+SetObjectElementWithReceiver
 (
 JSContext
 *
