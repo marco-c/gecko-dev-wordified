@@ -88,6 +88,18 @@ runtimes
 )
 ;
 const
+telemetry
+=
+require
+(
+"
+.
+/
+telemetry
+"
+)
+;
+const
 ui
 =
 require
@@ -106,6 +118,7 @@ assign
 exports
 ui
 runtimes
+telemetry
 debugTargets
 )
 ;
