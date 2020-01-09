@@ -184,6 +184,15 @@ json
 "
 )
 }
+workerListChanged
+:
+{
+type
+:
+"
+workerListChanged
+"
+}
 }
 }
 )
