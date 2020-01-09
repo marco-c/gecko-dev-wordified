@@ -155,6 +155,7 @@ source
 import
 {
 makeLocationId
+sortBreakpoints
 }
 from
 "
@@ -483,6 +484,14 @@ source
 sources
 )
 ;
+const
+sortedBreakpoints
+=
+sortBreakpoints
+(
+breakpoints
+)
+;
 return
 [
 <
@@ -514,7 +523,7 @@ url
 .
 .
 .
-breakpoints
+sortedBreakpoints
 .
 map
 (
