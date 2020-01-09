@@ -863,8 +863,9 @@ promise_rejects
 t
 check_error_types
 ?
-new
-TypeError
+'
+SecurityError
+'
 :
 null
 register_method
@@ -895,7 +896,7 @@ URL
 should
 fail
 with
-TypeError
+SecurityError
 .
 '
 )

@@ -851,8 +851,6 @@ found
 {
 assert_true
 (
-!
-!
 expected_final_client_tag
 {
 worker_name
@@ -1021,7 +1019,10 @@ expected_id
 {
 assert_equals
 (
-actual_id
+requestInfos
+[
+0
+]
 expected_id
 resultingClientId
 for
@@ -1040,7 +1041,7 @@ else
 {
 actual_ids
 [
-tag
+key
 ]
 =
 actual_id
@@ -3477,7 +3478,9 @@ a
 [
 ]
 ]
-null
+'
+x
+'
 '
 SW
 -
@@ -3721,7 +3724,7 @@ url1
 resultingClientIdTag
 :
 '
-x
+a
 '
 }
 ]
@@ -3730,9 +3733,7 @@ x
 [
 ]
 ]
-'
-x
-'
+null
 '
 SW
 -
