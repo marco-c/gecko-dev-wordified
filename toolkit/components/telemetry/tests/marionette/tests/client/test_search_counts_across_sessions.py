@@ -93,7 +93,7 @@ sessions
 "
     
 def
-get_current_search_engine
+get_default_search_engine
 (
 self
 )
@@ -107,7 +107,7 @@ the
 identifier
 of
 the
-current
+default
 search
 engine
 .
@@ -159,7 +159,7 @@ nsIBrowserSearchService
 return
 searchService
 .
-currentEngine
+defaultEngine
 .
 identifier
 ;
@@ -204,7 +204,7 @@ the
 identifier
 of
 the
-current
+default
         
 search
 engine
@@ -242,7 +242,7 @@ search_engine
 =
 self
 .
-get_current_search_engine
+get_default_search_engine
 (
 )
     
