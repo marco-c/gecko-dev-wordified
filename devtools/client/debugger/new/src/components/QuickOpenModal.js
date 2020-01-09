@@ -120,7 +120,7 @@ actions
 ;
 import
 {
-getRelativeSources
+getRelativeSourcesList
 getQuickOpenEnabled
 getQuickOpenQuery
 getQuickOpenType
@@ -2569,7 +2569,7 @@ sources
 :
 formatSources
 (
-getRelativeSources
+getRelativeSourcesList
 (
 state
 )

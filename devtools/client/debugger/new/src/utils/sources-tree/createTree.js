@@ -233,9 +233,6 @@ createParentMap
 (
 sourceTree
 )
-focusedItem
-:
-null
 }
 ;
 }

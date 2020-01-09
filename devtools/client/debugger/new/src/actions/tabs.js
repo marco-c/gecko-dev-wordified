@@ -178,6 +178,7 @@ url
 id
 :
 sourceId
+thread
 }
 =
 source
@@ -203,6 +204,7 @@ url
 framework
 isOriginal
 sourceId
+thread
 }
 ;
 }
@@ -223,6 +225,7 @@ url
 id
 :
 sourceId
+thread
 }
 =
 source
@@ -247,6 +250,7 @@ ADD_TAB
 url
 isOriginal
 sourceId
+thread
 }
 ;
 }
