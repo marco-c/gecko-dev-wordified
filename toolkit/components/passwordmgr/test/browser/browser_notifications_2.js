@@ -102,9 +102,6 @@ toolkit
 /
 components
 /
-"
-+
-"
 passwordmgr
 /
 test
@@ -422,9 +419,6 @@ toolkit
 /
 components
 /
-"
-+
-"
 passwordmgr
 /
 test
@@ -762,9 +756,6 @@ toolkit
 /
 components
 /
-"
-+
-"
 passwordmgr
 /
 test
