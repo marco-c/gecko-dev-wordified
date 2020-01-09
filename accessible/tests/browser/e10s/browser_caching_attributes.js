@@ -346,10 +346,8 @@ textbox
 is
 focused
 "
-action
-:
 async
-function
+action
 (
 browser
 )

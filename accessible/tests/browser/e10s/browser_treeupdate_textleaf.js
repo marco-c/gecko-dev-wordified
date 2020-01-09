@@ -112,8 +112,6 @@ tree
 =
 {
 role
-:
-role
 children
 :
 [
@@ -181,8 +179,6 @@ onReorder
 tree
 =
 {
-role
-:
 role
 children
 :

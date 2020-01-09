@@ -232,10 +232,8 @@ id
 "
 select
 "
-action
-:
 async
-function
+action
 (
 browser
 )
@@ -686,10 +684,8 @@ id
 "
 range
 "
-action
-:
 async
-function
+action
 (
 browser
 )
