@@ -1938,9 +1938,10 @@ return
 }
 if
 (
-mLoadFlags
-&
-LOAD_CLASSIFY_URI
+NS_ShouldClassifyChannel
+(
+this
+)
 )
 {
 RefPtr
