@@ -4269,6 +4269,14 @@ aMsg
 override
 ;
 #
+else
+using
+PContentChild
+:
+:
+OnMessageReceived
+;
+#
 endif
 virtual
 PContentChild
