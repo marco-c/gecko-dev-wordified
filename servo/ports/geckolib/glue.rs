@@ -27165,7 +27165,7 @@ generics
 length
 :
 :
-MozLength
+Size
 ;
 use
 style
@@ -27315,7 +27315,7 @@ long
 Height
 =
 >
-MozLength
+Size
 :
 :
 LengthPercentage
@@ -27328,7 +27328,7 @@ lp
 Width
 =
 >
-MozLength
+Size
 :
 :
 LengthPercentage
@@ -27718,7 +27718,7 @@ generics
 length
 :
 :
-MozLength
+Size
 ;
 use
 style
@@ -28015,7 +28015,7 @@ long
 Width
 =
 >
-MozLength
+Size
 :
 :
 LengthPercentage
@@ -28295,7 +28295,7 @@ length
 :
 :
 {
-MozLength
+Size
 LengthPercentageOrAuto
 }
 ;
@@ -28367,7 +28367,7 @@ long
 Height
 =
 >
-MozLength
+Size
 :
 :
 LengthPercentage
@@ -28380,7 +28380,7 @@ lp
 Width
 =
 >
-MozLength
+Size
 :
 :
 LengthPercentage
@@ -28494,7 +28494,7 @@ length
 :
 {
 LengthPercentageOrAuto
-MozLength
+Size
 }
 ;
 let
@@ -28524,7 +28524,7 @@ long
 Height
 =
 >
-MozLength
+Size
 :
 :
 auto
@@ -28533,7 +28533,7 @@ auto
 Width
 =
 >
-MozLength
+Size
 :
 :
 auto
