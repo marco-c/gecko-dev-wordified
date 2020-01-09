@@ -1673,6 +1673,7 @@ fix
 line
 )
 :
+            
 return
 fixModule
 .
@@ -1680,6 +1681,9 @@ fixSymbols
 (
 line
 bpsyms
+jsonEscape
+=
+True
 )
     
 elif
@@ -1708,6 +1712,9 @@ fixModule
 fixSymbols
 (
 line
+jsonEscape
+=
+True
 )
     
 elif
@@ -1736,6 +1743,9 @@ fixModule
 fixSymbols
 (
 line
+jsonEscape
+=
+True
 )
     
 else
