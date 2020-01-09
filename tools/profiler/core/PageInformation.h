@@ -284,6 +284,14 @@ PageInformation
 aOtherDocShellInfo
 )
 ;
+void
+StreamJSON
+(
+SpliceableJSONWriter
+&
+aWriter
+)
+;
 uint32_t
 DocShellHistoryId
 (
