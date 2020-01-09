@@ -30241,6 +30241,11 @@ uint32_t
 aKey
 )
 ;
+void
+DiscardItems
+(
+)
+;
 bool
 ForceDescendIntoIfVisible
 (
