@@ -139,6 +139,16 @@ aDiagnostics
 const
 override
 ;
+static
+bool
+SupportsMimeType
+(
+const
+nsACString
+&
+aMimeType
+)
+;
 private
 :
 virtual
