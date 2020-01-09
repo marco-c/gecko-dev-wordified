@@ -1239,17 +1239,6 @@ aFrame
 -
 mPending
 ;
-if
-(
-!
-mSizeKnown
-)
-{
-+
-+
-mSize
-;
-}
 bool
 retain
 =
