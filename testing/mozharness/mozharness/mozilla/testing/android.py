@@ -2844,6 +2844,36 @@ ADBTimeoutError
             
 self
 .
+info
+(
+'
+Failed
+to
+install
+%
+s
+on
+%
+s
+'
+%
+                      
+(
+self
+.
+installer_path
+self
+.
+device_name
+)
+                      
+exc_info
+=
+1
+)
+            
+self
+.
 fatal
 (
 '
@@ -2856,20 +2886,12 @@ to
 install
 %
 s
-on
-%
-s
 '
 %
                        
-(
 self
 .
 installer_path
-self
-.
-device_name
-)
                        
 EXIT_STATUS_DICT
 [
