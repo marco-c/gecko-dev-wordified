@@ -8459,8 +8459,6 @@ sortB
 )
 ;
 result
-=
-result
 .
 slice
 (

@@ -3061,8 +3061,6 @@ stream
 }
 }
 data
-=
-data
 .
 join
 (

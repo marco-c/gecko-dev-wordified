@@ -755,8 +755,6 @@ the
 frames
 .
 frameList
-=
-frameList
 .
 concat
 (
