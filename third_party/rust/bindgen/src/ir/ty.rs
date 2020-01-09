@@ -4849,6 +4849,7 @@ ty
 .
 fallible_layout
 (
+ctx
 )
 .
 ok
@@ -5169,6 +5170,7 @@ from_clang_ty
 (
 &
 canonical_ty
+ctx
 )
 None
 )
@@ -6090,6 +6092,7 @@ Opaque
 from_clang_ty
 (
 ty
+ctx
 )
 ;
 return
