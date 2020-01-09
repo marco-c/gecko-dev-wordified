@@ -7701,6 +7701,7 @@ let
 texture_id
 texture_layer
 uv_rect
+_
 )
 =
 texture_cache
