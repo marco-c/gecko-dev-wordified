@@ -4260,6 +4260,9 @@ EqualsLiteral
 (
 EXTENSION_REMOTE_TYPE
 )
+|
+|
+mHoldsPlayingAudioWakeLock
 )
 {
 return
@@ -4272,9 +4275,6 @@ mHoldsCPUWakeLock
 |
 |
 mHoldsHighPriorityWakeLock
-|
-|
-mHoldsPlayingAudioWakeLock
 |
 |
 mHoldsPlayingVideoWakeLock
