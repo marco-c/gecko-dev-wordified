@@ -3544,8 +3544,10 @@ i
 +
 )
 {
+RefPtr
+<
 FontFace
-*
+>
 face
 =
 GetFontFaceAt
