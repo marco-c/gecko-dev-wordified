@@ -119,6 +119,7 @@ js
 /
 *
 exported
+EVENT_ANNOUNCEMENT
 EVENT_REORDER
 EVENT_SCROLLING
 EVENT_SCROLLING_END
@@ -143,6 +144,13 @@ waitForEvents
 waitForOrderedEvents
 *
 /
+const
+EVENT_ANNOUNCEMENT
+=
+nsIAccessibleEvent
+.
+EVENT_ANNOUNCEMENT
+;
 const
 EVENT_DOCUMENT_LOAD_COMPLETE
 =
