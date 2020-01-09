@@ -390,10 +390,11 @@ CrashReporter
 AnnotationToString
 ;
 static
-SRWLOCK
+glue
+:
+:
+Win32SRWLock
 gDllServicesLock
-=
-SRWLOCK_INIT
 ;
 static
 glue
