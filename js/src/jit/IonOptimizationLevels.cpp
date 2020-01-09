@@ -539,7 +539,9 @@ pc
 |
 JitOptions
 .
-eagerCompilation
+eagerIonCompilation
+(
+)
 )
 {
 return

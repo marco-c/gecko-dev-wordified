@@ -66533,7 +66533,7 @@ jit
 :
 JitOptions
 .
-setEagerCompilation
+setEagerIonCompilation
 (
 )
 ;

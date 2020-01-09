@@ -14593,7 +14593,9 @@ if
 (
 JitOptions
 .
-eagerCompilation
+eagerIonCompilation
+(
+)
 &
 &
 !

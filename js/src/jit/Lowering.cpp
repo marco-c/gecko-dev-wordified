@@ -4131,7 +4131,9 @@ Value
 !
 JitOptions
 .
-eagerCompilation
+eagerIonCompilation
+(
+)
 )
 {
 MOZ_ASSERT_IF
