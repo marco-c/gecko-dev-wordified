@@ -1171,7 +1171,7 @@ is
 given
 the
 last
-whitelist
+allowlist
 principal
 )
 .

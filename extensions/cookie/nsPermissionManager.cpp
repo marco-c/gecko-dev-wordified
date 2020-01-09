@@ -14922,7 +14922,7 @@ to
 iterate
 over
 the
-whitelist
+allowlist
 and
 see
 /
@@ -14987,7 +14987,7 @@ prin
 ep
 -
 >
-WhiteList
+AllowList
 (
 )
 )

@@ -164,7 +164,7 @@ nsIPrincipal
 >
 >
 &
-aWhiteList
+aAllowList
 const
 mozilla
 :
@@ -410,7 +410,7 @@ nsIPrincipal
 >
 >
 &
-aWhiteList
+aAllowList
 )
 ;
 virtual

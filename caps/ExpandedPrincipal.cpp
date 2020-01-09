@@ -300,7 +300,7 @@ nsIPrincipal
 >
 >
 &
-aWhiteList
+aAllowList
 )
 :
 BasePrincipal
@@ -343,7 +343,7 @@ i
 ;
 i
 <
-aWhiteList
+aAllowList
 .
 Length
 (
@@ -358,7 +358,7 @@ mPrincipals
 .
 InsertElementSorted
 (
-aWhiteList
+aAllowList
 [
 i
 ]
@@ -406,7 +406,7 @@ nsIPrincipal
 >
 >
 &
-aWhiteList
+aAllowList
 const
 OriginAttributes
 &
@@ -422,7 +422,7 @@ ep
 new
 ExpandedPrincipal
 (
-aWhiteList
+aAllowList
 )
 ;
 nsAutoCString
@@ -667,7 +667,7 @@ other
 expanded
 -
 >
-WhiteList
+AllowList
 (
 )
 )
@@ -921,7 +921,7 @@ nsIPrincipal
 ExpandedPrincipal
 :
 :
-WhiteList
+AllowList
 (
 )
 {
@@ -1173,7 +1173,7 @@ in
 the
 /
 /
-whitelist
+allowlist
 .
 for
 (
@@ -1789,7 +1789,7 @@ nsCOMPtr
 nsIPrincipal
 >
 >
-whitelist
+allowlist
 ;
 for
 (
@@ -1824,7 +1824,7 @@ rv
 rv
 )
 ;
-whitelist
+allowlist
 .
 AppendElement
 (
@@ -1847,7 +1847,7 @@ ExpandedPrincipal
 :
 Create
 (
-whitelist
+allowlist
 OriginAttributesRef
 (
 )

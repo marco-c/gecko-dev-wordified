@@ -544,7 +544,7 @@ nullptr
 ;
 inline
 void
-AddSitesToFileURIWhitelist
+AddSitesToFileURIAllowlist
 (
 const
 nsCString
@@ -593,7 +593,7 @@ Returns
 the
 file
 URI
-whitelist
+allowlist
 initializing
 it
 if
@@ -614,7 +614,7 @@ nsIURI
 >
 >
 &
-EnsureFileURIWhitelist
+EnsureFileURIAllowlist
 (
 )
 ;
@@ -642,7 +642,7 @@ sub
 -
 domains
 are
-whitelisted
+allowlisted
 to
 allow
 /
@@ -679,7 +679,7 @@ nsIURI
 >
 >
 >
-mFileURIWhitelist
+mFileURIAllowlist
 ;
 /
 /
