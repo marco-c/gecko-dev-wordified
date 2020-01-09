@@ -23598,6 +23598,8 @@ presContext
 AppUnitsPerDevPixel
 (
 )
+/
+mLastContextScale
 )
 ;
 }
