@@ -23540,7 +23540,7 @@ detailed
 comments
 under
 the
-VERTICAL
+eVertical
 case
 .
 const

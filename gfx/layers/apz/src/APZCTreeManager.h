@@ -4409,10 +4409,9 @@ metrics
 .
 *
 param
-aThumbData
+aScrollbarData
 The
-scroll
-thumb
+scrollbar
 data
 for
 the
