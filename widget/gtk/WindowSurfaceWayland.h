@@ -663,6 +663,9 @@ mIsMainThread
 bool
 mNeedScaleFactorUpdate
 ;
+bool
+mWaitToFullScreenUpdate
+;
 }
 ;
 }
