@@ -272,16 +272,6 @@ mProcessId
 aProcessId
 ;
 }
-uint64_t
-OwnerProcessId
-(
-)
-const
-{
-return
-mProcessId
-;
-}
 void
 GetWindowGlobals
 (

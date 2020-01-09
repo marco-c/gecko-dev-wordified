@@ -6624,7 +6624,7 @@ override
 virtual
 nsPIDOMWindowOuter
 *
-GetOwnerGlobalForBindingsInternal
+GetOwnerGlobalForBindings
 (
 )
 override

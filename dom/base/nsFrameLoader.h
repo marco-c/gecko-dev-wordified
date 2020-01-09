@@ -151,7 +151,7 @@ nsFrameLoader_h_
 #
 include
 "
-nsDocShell
+nsIDocShell
 .
 h
 "
@@ -607,7 +607,7 @@ aIFrame
 /
 WebIDL
 methods
-nsDocShell
+nsIDocShell
 *
 GetDocShell
 (
@@ -2549,9 +2549,9 @@ OriginAttributes
 aAttr
 )
 ;
-RefPtr
+nsCOMPtr
 <
-nsDocShell
+nsIDocShell
 >
 mDocShell
 ;

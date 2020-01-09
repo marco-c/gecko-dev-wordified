@@ -2099,7 +2099,7 @@ pwin
 outer
 -
 >
-GetScriptableTop
+GetTopOuter
 (
 )
 ;

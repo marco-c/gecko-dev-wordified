@@ -13176,11 +13176,6 @@ From
 (
 aOpener
 )
--
->
-GetBrowsingContext
-(
-)
 )
 ;
 }

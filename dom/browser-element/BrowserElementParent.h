@@ -180,9 +180,6 @@ namespace
 dom
 {
 class
-BrowsingContext
-;
-class
 TabParent
 ;
 }
@@ -824,13 +821,7 @@ static
 OpenWindowResult
 OpenWindowInProcess
 (
-mozilla
-:
-:
-dom
-:
-:
-BrowsingContext
+nsPIDOMWindowOuter
 *
 aOpenerWindow
 nsIURI

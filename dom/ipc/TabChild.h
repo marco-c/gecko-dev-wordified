@@ -564,9 +564,9 @@ aGivenProto
 override
 ;
 virtual
-Nullable
+already_AddRefed
 <
-WindowProxyHolder
+nsPIDOMWindowOuter
 >
 GetContent
 (

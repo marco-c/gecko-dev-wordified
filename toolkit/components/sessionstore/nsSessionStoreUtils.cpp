@@ -271,7 +271,7 @@ outer
 target
 -
 >
-GetOwnerGlobalForBindingsInternal
+GetOwnerGlobalForBindings
 (
 )
 ;

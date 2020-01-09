@@ -6732,7 +6732,7 @@ nsPIDOMWindowOuter
 nsINode
 :
 :
-GetOwnerGlobalForBindingsInternal
+GetOwnerGlobalForBindings
 (
 )
 {
