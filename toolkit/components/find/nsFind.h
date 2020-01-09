@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsIContentIterator
-.
-h
-"
-#
-include
-"
 mozilla
 /
 intl
