@@ -1497,8 +1497,10 @@ that
 animate
 /
 /
+properties
+in
 |
-aProperty
+aPropertySet
 |
 .
 static
@@ -1509,8 +1511,10 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
-aProperty
+const
+nsCSSPropertyIDSet
+&
+aPropertySet
 const
 AnimationPerformanceWarning
 &
