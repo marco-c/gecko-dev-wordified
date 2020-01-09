@@ -2562,6 +2562,14 @@ doc
 hidden
 )
 ]
+/
+/
+Exposed
+for
+use
+in
+docopt_macros
+.
 pub
 fn
 parser

@@ -807,6 +807,10 @@ warn
 missing_docs
 )
 ]
+extern
+crate
+unreachable
+;
 #
 [
 macro_use
@@ -817,9 +821,6 @@ lazy_static
 ;
 mod
 thread_id
-;
-mod
-unreachable
 ;
 use
 std
@@ -1432,7 +1433,7 @@ id
 .
 wrapping_mul
 (
-0x9E37_79B9_7F4A_7C15
+0x9E3779B97F4A7C15
 )
 >
 >
