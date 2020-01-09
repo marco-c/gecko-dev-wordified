@@ -3821,8 +3821,7 @@ with
 the
 associated
 Android
-or
-B2G
+-
 based
     
 device
@@ -3832,22 +3831,15 @@ must
 be
 used
 via
-one
-of
 the
 concrete
-implementations
+implementation
 in
     
 :
 class
 :
 ADBAndroid
-or
-:
-class
-:
-ADBB2G
 .
     
 "

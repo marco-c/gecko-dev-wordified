@@ -78,11 +78,6 @@ from
 adb_android
 import
 ADBAndroid
-from
-.
-adb_b2g
-import
-ADBB2G
 __all__
 =
 [
@@ -113,8 +108,5 @@ ADBDevice
 '
 '
 ADBAndroid
-'
-'
-ADBB2G
 '
 ]
