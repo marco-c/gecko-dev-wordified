@@ -4157,14 +4157,14 @@ reason
 void
 growAllocableSpace
 (
-unsigned
+size_t
 newCapacity
 )
 ;
 void
 shrinkAllocableSpace
 (
-unsigned
+size_t
 newCapacity
 )
 ;
