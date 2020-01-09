@@ -15428,9 +15428,7 @@ time
 expected
 :
 '
-0
-1
-0
+y
 45deg
 '
 }
@@ -15511,9 +15509,7 @@ time
 expected
 :
 '
-0
-1
-0
+y
 180deg
 '
 }
@@ -15806,9 +15802,7 @@ idlName
 ]
 =
 '
-0
-1
-0
+y
 -
 45deg
 '
@@ -15869,9 +15863,7 @@ time
 expected
 :
 '
-0
-1
-0
+y
 45deg
 '
 }
@@ -15882,9 +15874,7 @@ time
 expected
 :
 '
-0
-1
-0
+y
 135deg
 '
 }
@@ -16231,9 +16221,7 @@ time
 expected
 :
 '
-1
-0
-0
+x
 45deg
 '
 }
@@ -16244,9 +16232,7 @@ time
 expected
 :
 '
-1
-0
-0
+x
 135deg
 '
 }
