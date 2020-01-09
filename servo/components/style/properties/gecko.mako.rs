@@ -10310,6 +10310,11 @@ LengthPercentageOrAuto
 :
 impl_style_coord
 "
+MozListReversed
+"
+:
+impl_simple
+"
 MozScriptMinSize
 "
 :

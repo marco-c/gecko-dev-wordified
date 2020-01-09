@@ -317,7 +317,7 @@ return
 XSync
 (
 aDisplay
-False
+X11False
 )
 ;
 }

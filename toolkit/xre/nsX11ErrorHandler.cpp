@@ -783,14 +783,14 @@ if
 XSynchronize
 (
 display
-True
+X11True
 )
 =
 =
 XSynchronize
 (
 display
-False
+X11False
 )
 )
 {
@@ -1077,7 +1077,7 @@ MOZ_X_SYNC
 XSynchronize
 (
 display
-True
+X11True
 )
 ;
 }

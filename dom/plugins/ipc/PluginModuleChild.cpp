@@ -2481,7 +2481,7 @@ xbutton
 .
 same_screen
 =
-True
+X11True
 ;
 gdk_error_trap_push
 (
@@ -2495,7 +2495,7 @@ xevent
 xbutton
 .
 window
-True
+X11True
 ButtonPressMask
 &
 xevent
@@ -2526,7 +2526,7 @@ xevent
 xbutton
 .
 window
-True
+X11True
 ButtonReleaseMask
 &
 xevent

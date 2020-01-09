@@ -711,7 +711,7 @@ long
 long_length
 *
 /
-True
+X11True
 /
 *
 atomic
@@ -980,7 +980,7 @@ ArrayLength
 (
 XAtomNames
 )
-False
+X11False
 XAtoms
 )
 ;

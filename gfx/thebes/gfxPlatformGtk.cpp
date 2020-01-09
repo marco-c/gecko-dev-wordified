@@ -2247,7 +2247,7 @@ INT_MAX
 length
 *
 /
-False
+X11False
 AnyPropertyType
 &
 retAtom
@@ -2365,7 +2365,7 @@ root
 edidAtom
 0
 32
-False
+X11False
 AnyPropertyType
 &
 retAtom

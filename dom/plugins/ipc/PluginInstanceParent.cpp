@@ -6297,7 +6297,7 @@ XSync
 DefaultXDisplay
 (
 )
-False
+X11False
 )
 ;
 #
@@ -8709,7 +8709,7 @@ complete
 XSync
 (
 dpy
-False
+X11False
 )
 ;
 break

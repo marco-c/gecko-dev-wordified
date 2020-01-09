@@ -13805,7 +13805,7 @@ event
 .
 same_screen
 =
-True
+X11True
 ;
 event
 .
@@ -13909,7 +13909,7 @@ event
 .
 same_screen
 =
-True
+X11True
 ;
 }
 break
@@ -14067,7 +14067,7 @@ event
 .
 same_screen
 =
-True
+X11True
 ;
 }
 break
@@ -14289,7 +14289,7 @@ event
 .
 same_screen
 =
-False
+X11False
 ;
 }
 else
@@ -14493,7 +14493,7 @@ event
 .
 send_event
 =
-False
+X11False
 ;
 int16_t
 response
@@ -16615,7 +16615,7 @@ exposeEvent
 .
 send_event
 =
-False
+X11False
 ;
 exposeEvent
 .
