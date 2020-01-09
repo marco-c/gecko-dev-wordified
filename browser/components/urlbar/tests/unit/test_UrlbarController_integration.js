@@ -125,7 +125,7 @@ values
 *
 param
 {
-QueryContext
+UrlbarQueryContext
 }
 context
 *
@@ -139,7 +139,7 @@ expected
 values
 for
 the
-QueryContext
+UrlbarQueryContext
 .
 *
 /
@@ -156,12 +156,12 @@ ok
 (
 context
 instanceof
-QueryContext
+UrlbarQueryContext
 "
 Should
 be
 a
-QueryContext
+UrlbarQueryContext
 "
 )
 ;
@@ -201,7 +201,7 @@ key
 }
 in
 the
-QueryContext
+UrlbarQueryContext
 )
 ;
 }

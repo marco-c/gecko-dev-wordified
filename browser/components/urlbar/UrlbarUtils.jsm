@@ -95,13 +95,13 @@ EXPORTED_SYMBOLS
 =
 [
 "
-QueryContext
-"
-"
 UrlbarMuxer
 "
 "
 UrlbarProvider
+"
+"
+UrlbarQueryContext
 "
 "
 UrlbarUtils
@@ -1605,7 +1605,7 @@ matches
 *
 *
 *
-QueryContext
+UrlbarQueryContext
 defines
 a
 user
@@ -1616,8 +1616,7 @@ input
 from
 within
 the
-Address
-Bar
+urlbar
 .
 *
 It
@@ -1643,7 +1642,7 @@ of
 *
 /
 class
-QueryContext
+UrlbarQueryContext
 {
 /
 *
@@ -1651,7 +1650,7 @@ QueryContext
 *
 Constructs
 the
-QueryContext
+UrlbarQueryContext
 instance
 .
 *
@@ -1666,7 +1665,7 @@ The
 initial
 options
 for
-QueryContext
+UrlbarQueryContext
 .
 *
 param
@@ -1857,7 +1856,7 @@ maxResults
 property
 provided
 to
-QueryContext
+UrlbarQueryContext
 )
 ;
 }
@@ -2031,7 +2030,7 @@ optionName
 }
 provided
 to
-QueryContext
+UrlbarQueryContext
 )
 ;
 }
@@ -2136,7 +2135,7 @@ place
 *
 param
 {
-object
+UrlbarQueryContext
 }
 queryContext
 the
@@ -2351,7 +2350,7 @@ querying
 *
 param
 {
-object
+UrlbarQueryContext
 }
 queryContext
 The
@@ -2443,14 +2442,16 @@ query
 *
 param
 {
-object
+UrlbarQueryContext
 }
 queryContext
 the
-QueryContext
+query
+context
 object
 to
 cancel
+*
 query
 for
 .

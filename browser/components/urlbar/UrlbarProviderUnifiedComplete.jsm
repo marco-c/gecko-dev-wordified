@@ -1146,11 +1146,13 @@ first
 *
 param
 {
-object
+UrlbarQueryContext
 }
 context
 the
-QueryContext
+query
+context
+.
 *
 param
 {

@@ -562,7 +562,7 @@ values
 *
 returns
 {
-QueryContext
+UrlbarQueryContext
 }
 Creates
 a
@@ -573,6 +573,7 @@ with
 pre
 -
 filled
+*
 required
 options
 .
@@ -596,7 +597,7 @@ let
 context
 =
 new
-QueryContext
+UrlbarQueryContext
 (
 {
 enableAutofill

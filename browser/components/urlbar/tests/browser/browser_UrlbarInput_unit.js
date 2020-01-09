@@ -89,7 +89,7 @@ values
 *
 param
 {
-QueryContext
+UrlbarQueryContext
 }
 context
 *
@@ -103,7 +103,7 @@ expected
 values
 for
 the
-QueryContext
+UrlbarQueryContext
 .
 *
 /
@@ -120,12 +120,12 @@ ok
 (
 context
 instanceof
-QueryContext
+UrlbarQueryContext
 "
 Should
 be
 a
-QueryContext
+UrlbarQueryContext
 "
 )
 ;
@@ -165,7 +165,7 @@ key
 }
 in
 the
-QueryContext
+UrlbarQueryContext
 )
 ;
 }
@@ -203,7 +203,7 @@ called
 with
 the
 *
-QueryContext
+UrlbarQueryContext
 .
 *
 param
@@ -225,7 +225,7 @@ check
 against
 the
 *
-QueryContext
+UrlbarQueryContext
 properties
 .
 *
@@ -299,14 +299,14 @@ ok
 (
 queryContext
 instanceof
-QueryContext
+UrlbarQueryContext
 "
 Should
 have
 been
 passed
 a
-QueryContext
+UrlbarQueryContext
 "
 )
 ;

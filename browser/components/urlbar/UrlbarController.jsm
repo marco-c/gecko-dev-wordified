@@ -66,9 +66,6 @@ EXPORTED_SYMBOLS
 =
 [
 "
-QueryContext
-"
-"
 UrlbarController
 "
 ]
@@ -573,7 +570,7 @@ input
 *
 param
 {
-QueryContext
+UrlbarQueryContext
 }
 queryContext
 The
@@ -701,7 +698,7 @@ canceled
 *
 param
 {
-QueryContext
+UrlbarQueryContext
 }
 queryContext
 The
@@ -782,7 +779,7 @@ query
 *
 param
 {
-QueryContext
+UrlbarQueryContext
 }
 queryContext
 The
