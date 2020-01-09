@@ -291,7 +291,7 @@ GetMarkPoints
 (
 nsTArray
 <
-nsSVGMark
+SVGMark
 >
 *
 aMarks

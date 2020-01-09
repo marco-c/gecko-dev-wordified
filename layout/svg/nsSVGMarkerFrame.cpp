@@ -731,7 +731,7 @@ SVGGeometryFrame
 *
 aMarkedFrame
 const
-nsSVGMark
+SVGMark
 &
 aMark
 float
@@ -1049,7 +1049,7 @@ SVGGeometryFrame
 *
 aMarkedFrame
 const
-nsSVGMark
+SVGMark
 &
 aMark
 float
