@@ -605,6 +605,12 @@ prerequisites
 .
 testScope
 .
+SpecialPowers
+=
+SpecialPowers
+;
+testScope
+.
 Components
 =
 SpecialPowers
