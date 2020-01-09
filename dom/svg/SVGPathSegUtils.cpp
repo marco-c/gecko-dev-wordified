@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+SVGPathSegUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
@@ -126,13 +133,6 @@ h
 /
 /
 MOZ_ARRAY_LENGTH
-#
-include
-"
-SVGPathSegUtils
-.
-h
-"
 #
 include
 "

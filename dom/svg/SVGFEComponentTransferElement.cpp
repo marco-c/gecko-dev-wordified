@@ -121,7 +121,7 @@ mozilla
 /
 dom
 /
-SVGComponentTransferFunctionElement
+SVGFEComponentTransferElement
 .
 h
 "
@@ -132,7 +132,7 @@ mozilla
 /
 dom
 /
-SVGFEComponentTransferElement
+SVGComponentTransferFunctionElement
 .
 h
 "

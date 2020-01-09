@@ -166,6 +166,9 @@ aNodeInfo
 namespace
 mozilla
 {
+class
+DOMSVGAnimatedNumberList
+;
 namespace
 dom
 {

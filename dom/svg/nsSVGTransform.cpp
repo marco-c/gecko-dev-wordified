@@ -117,14 +117,14 @@ MPL
 #
 include
 "
-nsError
+nsSVGTransform
 .
 h
 "
 #
 include
 "
-nsSVGTransform
+nsError
 .
 h
 "

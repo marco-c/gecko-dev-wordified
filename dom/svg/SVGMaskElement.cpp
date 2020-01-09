@@ -119,7 +119,9 @@ include
 "
 mozilla
 /
-ArrayUtils
+dom
+/
+SVGMaskElement
 .
 h
 "
@@ -142,9 +144,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGLengthBinding
+ArrayUtils
 .
 h
 "
@@ -155,7 +155,7 @@ mozilla
 /
 dom
 /
-SVGMaskElement
+SVGLengthBinding
 .
 h
 "

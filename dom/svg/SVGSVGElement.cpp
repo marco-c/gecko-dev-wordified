@@ -119,7 +119,9 @@ include
 "
 mozilla
 /
-ContentEvents
+dom
+/
+SVGSVGElement
 .
 h
 "
@@ -128,9 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGSVGElement
+ContentEvents
 .
 h
 "
