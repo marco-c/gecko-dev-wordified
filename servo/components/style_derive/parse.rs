@@ -288,8 +288,10 @@ css_variant_attrs
 .
 keyword
 .
-unwrap_or
+unwrap_or_else
 (
+|
+|
 variant
 .
 ast
@@ -416,8 +418,8 @@ aliases
 .
 split
 (
-"
-"
+'
+'
 )
 {
 body

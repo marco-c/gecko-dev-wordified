@@ -291,7 +291,7 @@ bindings
 (
 )
 .
-into_iter
+iter
 (
 )
 .
