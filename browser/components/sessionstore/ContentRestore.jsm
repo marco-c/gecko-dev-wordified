@@ -1660,10 +1660,6 @@ null
 let
 triggeringPrincipal
 =
-loadArguments
-.
-triggeringPrincipal
-?
 E10SUtils
 .
 deserializePrincipal
@@ -1671,8 +1667,10 @@ deserializePrincipal
 loadArguments
 .
 triggeringPrincipal
+(
 )
-:
+=
+>
 Services
 .
 scriptSecurityManager
@@ -1681,6 +1679,7 @@ createNullPrincipal
 (
 {
 }
+)
 )
 ;
 if
