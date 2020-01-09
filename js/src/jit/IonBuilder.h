@@ -5184,6 +5184,14 @@ Type
 type
 )
 ;
+InliningResult
+inlineArrayIteratorPrototypeOptimizable
+(
+CallInfo
+&
+callInfo
+)
+;
 /
 /
 Math
