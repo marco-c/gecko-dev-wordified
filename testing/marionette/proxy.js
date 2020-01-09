@@ -1119,7 +1119,7 @@ target
 {
 log
 .
-debug
+trace
 (
 Received
 DOM
@@ -1249,7 +1249,7 @@ topic
 {
 log
 .
-debug
+trace
 (
 Received
 observer

@@ -2446,7 +2446,7 @@ Client
 ;
 logger
 .
-trace
+debug
 (
 {
 this
