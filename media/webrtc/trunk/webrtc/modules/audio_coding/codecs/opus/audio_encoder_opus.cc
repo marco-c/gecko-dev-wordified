@@ -1961,14 +1961,6 @@ clockrate_hz
 !
 =
 48000
-|
-|
-format
-.
-num_channels
-!
-=
-2
 )
 {
 return
