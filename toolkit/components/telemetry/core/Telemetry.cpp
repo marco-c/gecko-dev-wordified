@@ -9154,7 +9154,7 @@ nsITelemetryConstructor
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_VR_PROCESS
 }
 {
 nullptr
@@ -9188,7 +9188,7 @@ kNS_TELEMETRY_CID
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_VR_PROCESS
 }
 {
 nullptr
@@ -9216,7 +9216,7 @@ ShutdownTelemetry
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_VR_PROCESS
 }
 ;
 NS_IMETHODIMP

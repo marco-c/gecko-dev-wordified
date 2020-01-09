@@ -4086,6 +4086,9 @@ GeckoProcessType_Content
 case
 GeckoProcessType_GPU
 :
+case
+GeckoProcessType_VR
+:
 /
 /
 Content
@@ -4110,9 +4113,6 @@ GeckoProcessType_GMPlugin
 :
 case
 GeckoProcessType_PDFium
-:
-case
-GeckoProcessType_VR
 :
 uiLoopType
 =
