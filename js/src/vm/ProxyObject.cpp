@@ -1461,7 +1461,7 @@ heap
 GetInitialHeap
 (
 newKind
-clasp
+group
 )
 ;
 debugCheckNewObject
