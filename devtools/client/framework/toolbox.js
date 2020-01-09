@@ -20854,15 +20854,6 @@ performance
 "
 )
 ;
-await
-this
-.
-performance
-.
-connect
-(
-)
-;
 /
 /
 Emit
