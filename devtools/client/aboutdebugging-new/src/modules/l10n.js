@@ -140,6 +140,13 @@ generateBundles
 locales
 [
 "
+branding
+/
+brand
+.
+ftl
+"
+"
 devtools
 /
 aboutdebugging
