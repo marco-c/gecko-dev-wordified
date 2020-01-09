@@ -8,7 +8,7 @@ skip
 -
 class
 -
-methods
+fields
 -
 private
 class
@@ -100,7 +100,7 @@ features
 [
 class
 -
-methods
+fields
 -
 private
 class
