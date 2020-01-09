@@ -103,7 +103,7 @@ promise
 import
 {
 getSymbols
-getFirstVisibleBreakpointPosition
+getFirstBreakpointPosition
 getBreakpointPositionsForSource
 getSourceFromId
 }
@@ -544,7 +544,7 @@ undefined
 {
 position
 =
-getFirstVisibleBreakpointPosition
+getFirstBreakpointPosition
 (
 getState
 (
