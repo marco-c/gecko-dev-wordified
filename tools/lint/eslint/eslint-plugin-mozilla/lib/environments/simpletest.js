@@ -343,6 +343,11 @@ WindowSnapshot
 .
 js
 "
+"
+paint_listener
+.
+js
+"
 ]
 ;
 const
