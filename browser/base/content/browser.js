@@ -12557,16 +12557,6 @@ if
 (
 !
 uriToLoad
-|
-|
-uriToLoad
-=
-=
-"
-about
-:
-blank
-"
 )
 {
 /

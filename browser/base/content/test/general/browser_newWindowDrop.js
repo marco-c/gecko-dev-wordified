@@ -344,9 +344,11 @@ bad
 "
 [
 "
-about
+javascript
 :
-blank
+'
+bad
+'
 "
 ]
 )
@@ -374,9 +376,11 @@ bad
 "
 [
 "
-about
+javascript
 :
-blank
+'
+bad
+'
 "
 ]
 )
