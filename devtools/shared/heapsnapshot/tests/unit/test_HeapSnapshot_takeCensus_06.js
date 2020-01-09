@@ -594,15 +594,6 @@ Pattern
 .
 NATURAL
 }
-JSScript
-:
-{
-count
-:
-Pattern
-.
-NATURAL
-}
 }
 )
 .
@@ -687,9 +678,6 @@ Shape
 :
 coarseTypePattern
 JSObject
-:
-coarseTypePattern
-JSScript
 :
 coarseTypePattern
 }
