@@ -98,6 +98,11 @@ UrlbarProvidersManager
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
