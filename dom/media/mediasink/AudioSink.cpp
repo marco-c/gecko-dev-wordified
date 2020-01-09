@@ -604,7 +604,7 @@ mProcessedQueueListener
 =
 mProcessedQueue
 .
-PopEvent
+PopFrontEvent
 (
 )
 .

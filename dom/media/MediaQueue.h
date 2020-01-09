@@ -401,7 +401,7 @@ if
 rv
 )
 {
-mPopEvent
+mPopFrontEvent
 .
 Notify
 (
@@ -1191,12 +1191,12 @@ T
 >
 >
 &
-PopEvent
+PopFrontEvent
 (
 )
 {
 return
-mPopEvent
+mPopFrontEvent
 ;
 }
 MediaEventSource
@@ -1241,7 +1241,7 @@ RefPtr
 T
 >
 >
-mPopEvent
+mPopFrontEvent
 ;
 MediaEventProducer
 <
