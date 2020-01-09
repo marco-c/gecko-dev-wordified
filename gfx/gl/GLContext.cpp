@@ -1751,6 +1751,15 @@ char
 desc
 )
 {
+const
+auto
+warnOnFailure
+=
+bool
+(
+desc
+)
+;
 if
 (
 gl
@@ -1761,6 +1770,7 @@ LoadSymbols
 list
 trygl
 prefix
+warnOnFailure
 )
 )
 return
