@@ -2422,8 +2422,6 @@ getAnyTransferData
 (
 type
 data
-{
-}
 )
 ;
 data
@@ -8045,8 +8043,6 @@ getAnyTransferData
 (
 type
 data
-{
-}
 )
 ;
 data

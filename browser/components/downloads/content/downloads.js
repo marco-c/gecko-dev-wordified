@@ -3149,8 +3149,6 @@ getAnyTransferData
 {
 }
 data
-{
-}
 )
 ;
 let

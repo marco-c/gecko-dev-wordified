@@ -2372,9 +2372,6 @@ nsISupports
 *
 *
 aData
-uint32_t
-*
-aDataLen
 )
 {
 MOZ_ASSERT
@@ -2433,12 +2430,16 @@ GetFlavor
 )
 )
 ;
+uint32_t
+dataLen
+;
 data
 .
 GetData
 (
 aData
-aDataLen
+&
+dataLen
 )
 ;
 return
