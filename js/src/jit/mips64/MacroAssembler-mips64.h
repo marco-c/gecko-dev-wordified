@@ -2687,9 +2687,6 @@ Register
 dest
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 void
 unboxBigInt
 (
@@ -2721,8 +2718,6 @@ Register
 dest
 )
 ;
-#
-endif
 void
 unboxObject
 (

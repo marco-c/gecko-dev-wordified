@@ -170,9 +170,6 @@ StringBuffer
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -181,8 +178,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1113,9 +1108,6 @@ length
 0
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 v
@@ -1139,8 +1131,6 @@ isZero
 )
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 v

@@ -177,9 +177,6 @@ Text
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -188,8 +185,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2634,9 +2629,6 @@ symbol
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JS
 :
@@ -2654,8 +2646,6 @@ BigInt
 ;
 break
 ;
-#
-endif
 default
 :
 name

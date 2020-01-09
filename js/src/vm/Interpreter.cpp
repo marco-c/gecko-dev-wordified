@@ -321,9 +321,6 @@ AsyncIteration
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -332,8 +329,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -6170,9 +6165,6 @@ return
 JSTYPE_BOOLEAN
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 v
@@ -6186,8 +6178,6 @@ return
 JSTYPE_BIGINT
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 v
@@ -9867,9 +9857,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -9899,8 +9886,6 @@ res
 )
 ;
 }
-#
-endif
 res
 .
 setNumber
@@ -9960,9 +9945,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -9992,8 +9974,6 @@ res
 )
 ;
 }
-#
-endif
 res
 .
 setNumber
@@ -10053,9 +10033,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -10085,8 +10062,6 @@ res
 )
 ;
 }
-#
-endif
 res
 .
 setNumber
@@ -10146,9 +10121,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -10178,8 +10150,6 @@ res
 )
 ;
 }
-#
-endif
 res
 .
 setNumber
@@ -10306,9 +10276,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -10338,8 +10305,6 @@ res
 )
 ;
 }
-#
-endif
 res
 .
 setNumber
@@ -10401,9 +10366,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -10433,8 +10395,6 @@ res
 )
 ;
 }
-#
-endif
 res
 .
 setNumber
@@ -27900,9 +27860,6 @@ END_CASE
 (
 JSOP_TONUMERIC
 )
-#
-ifdef
-ENABLE_BIGINT
 CASE
 (
 JSOP_BIGINT
@@ -27944,8 +27901,6 @@ END_CASE
 (
 JSOP_BIGINT
 )
-#
-endif
 DEFAULT
 (
 )
@@ -28399,15 +28354,11 @@ isNullOrUndefined
 )
 &
 &
-IF_BIGINT
-(
 !
 v
 .
 isBigInt
 (
-)
-true
 )
 )
 {

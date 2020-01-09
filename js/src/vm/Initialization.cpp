@@ -249,9 +249,6 @@ endif
 /
 ENABLE_INTL_API
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -260,8 +257,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "

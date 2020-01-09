@@ -142,9 +142,6 @@ RelocationOverlay
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -153,8 +150,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -298,9 +293,6 @@ sym
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 static
 JS
 :
@@ -326,8 +318,6 @@ bi
 )
 ;
 }
-#
-endif
 template
 <
 typename

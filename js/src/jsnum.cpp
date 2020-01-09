@@ -297,9 +297,6 @@ StringBuffer
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -308,8 +305,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -3607,9 +3602,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 args
@@ -3646,8 +3638,6 @@ toBigInt
 )
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 args
@@ -10772,14 +10762,10 @@ isSymbol
 )
 |
 |
-IF_BIGINT
-(
 v
 .
 isBigInt
 (
-)
-false
 )
 )
 ;
@@ -10799,9 +10785,6 @@ errnum
 =
 JSMSG_SYMBOL_TO_NUMBER
 ;
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 v
@@ -10816,8 +10799,6 @@ errnum
 JSMSG_BIGINT_TO_NUMBER
 ;
 }
-#
-endif
 JS_ReportErrorNumberASCII
 (
 cx
@@ -10864,9 +10845,6 @@ isNumber
 )
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 MOZ_ASSERT
 (
 !
@@ -10877,8 +10855,6 @@ isBigInt
 )
 )
 ;
-#
-endif
 /
 /
 Step
@@ -10929,9 +10905,6 @@ false
 Step
 2
 .
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 vp
@@ -10945,8 +10918,6 @@ return
 true
 ;
 }
-#
-endif
 /
 /
 Step
@@ -11683,9 +11654,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 vp
@@ -11699,8 +11667,6 @@ return
 true
 ;
 }
-#
-endif
 vp
 .
 setInt32

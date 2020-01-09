@@ -4741,9 +4741,6 @@ sStreamsEnabled
 false
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 static
 mozilla
 :
@@ -4757,8 +4754,6 @@ sBigIntEnabled
 false
 )
 ;
-#
-endif
 void
 xpc
 :
@@ -4783,16 +4778,11 @@ setSharedMemoryAndAtomicsEnabled
 (
 sSharedMemoryEnabled
 )
-#
-ifdef
-ENABLE_BIGINT
 .
 setBigIntEnabled
 (
 sBigIntEnabled
 )
-#
-endif
 .
 setStreamsEnabled
 (
@@ -5152,9 +5142,6 @@ asyncstack
 "
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 sBigIntEnabled
 =
 Preferences
@@ -5168,8 +5155,6 @@ bigint
 "
 )
 ;
-#
-endif
 bool
 throwOnDebuggeeWouldRun
 =

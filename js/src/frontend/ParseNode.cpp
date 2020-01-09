@@ -1195,9 +1195,6 @@ indent
 ;
 return
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 PN_BIGINT
 :
@@ -1216,8 +1213,6 @@ indent
 ;
 return
 ;
-#
-endif
 case
 PN_REGEXP
 :
@@ -1505,9 +1500,6 @@ value
 ;
 }
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 BigIntLiteral
 :
@@ -1543,8 +1535,6 @@ getKind
 )
 ;
 }
-#
-endif
 void
 RegExpLiteral
 :
@@ -3141,9 +3131,6 @@ isTenured
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 BigIntBox
 *
 TraceListNode
@@ -3171,8 +3158,6 @@ this
 )
 ;
 }
-#
-endif
 ObjectBox
 *
 TraceListNode
@@ -3200,9 +3185,6 @@ this
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 BigIntBox
 :
 :
@@ -3223,8 +3205,6 @@ traceLink
 )
 {
 }
-#
-endif
 ObjectBox
 :
 :

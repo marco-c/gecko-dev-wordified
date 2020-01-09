@@ -2746,17 +2746,12 @@ ParseNodeKind
 :
 NumberExpr
 :
-#
-ifdef
-ENABLE_BIGINT
 case
 ParseNodeKind
 :
 :
 BigIntExpr
 :
-#
-endif
 case
 ParseNodeKind
 :
@@ -3257,9 +3252,6 @@ NumberExpr
 )
 |
 |
-#
-ifdef
-ENABLE_BIGINT
 node
 -
 >
@@ -3272,8 +3264,6 @@ BigIntExpr
 )
 |
 |
-#
-endif
 node
 -
 >
@@ -3386,9 +3376,6 @@ Truthy
 :
 Falsy
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 ParseNodeKind
 :
@@ -3426,8 +3413,6 @@ Falsy
 :
 Truthy
 ;
-#
-endif
 case
 ParseNodeKind
 :
@@ -3982,9 +3967,6 @@ names
 number
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 else
 if
 (
@@ -4012,8 +3994,6 @@ names
 bigint
 ;
 }
-#
-endif
 else
 if
 (

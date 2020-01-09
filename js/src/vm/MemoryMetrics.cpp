@@ -181,9 +181,6 @@ ArrayObject
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -192,8 +189,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -3740,9 +3735,6 @@ thingSize
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JS
 :
@@ -3797,8 +3789,6 @@ mallocSizeOf_
 break
 ;
 }
-#
-endif
 case
 JS
 :

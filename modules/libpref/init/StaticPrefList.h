@@ -6424,9 +6424,6 @@ javascript_options_streams
 RelaxedAtomicBool
 false
 )
-#
-ifdef
-ENABLE_BIGINT
 /
 /
 BigInt
@@ -6444,8 +6441,6 @@ javascript_options_bigint
 RelaxedAtomicBool
 false
 )
-#
-endif
 /
 /
 -

@@ -1458,9 +1458,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 vp
@@ -1474,8 +1471,6 @@ return
 true
 ;
 }
-#
-endif
 return
 ToNumericSlow
 (

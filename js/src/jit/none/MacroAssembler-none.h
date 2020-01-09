@@ -2625,9 +2625,6 @@ MOZ_CRASH
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 template
 <
 typename
@@ -2645,8 +2642,6 @@ MOZ_CRASH
 )
 ;
 }
-#
-endif
 template
 <
 typename
@@ -3048,9 +3043,6 @@ MOZ_CRASH
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigIntTruthy
 (
@@ -3063,8 +3055,6 @@ MOZ_CRASH
 )
 ;
 }
-#
-endif
 template
 <
 typename

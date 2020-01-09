@@ -3331,9 +3331,6 @@ NumericLiteral
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 ParseNodeKind
 :
@@ -3355,8 +3352,6 @@ BigIntLiteral
 ;
 break
 ;
-#
-endif
 case
 ParseNodeKind
 :

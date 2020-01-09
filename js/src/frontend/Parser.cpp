@@ -1717,9 +1717,6 @@ obj
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 BigIntBox
 *
 ParserBase
@@ -1743,8 +1740,6 @@ val
 )
 ;
 }
-#
-endif
 template
 <
 class
@@ -52622,9 +52617,6 @@ newRegExp
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 template
 <
 typename
@@ -52879,13 +52871,6 @@ newBigInt
 )
 ;
 }
-#
-endif
-/
-*
-ENABLE_BIGINT
-*
-/
 /
 /
 |
@@ -58552,9 +58537,6 @@ currentToken
 )
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 TokenKind
 :
@@ -58566,8 +58548,6 @@ newBigInt
 (
 )
 ;
-#
-endif
 case
 TokenKind
 :

@@ -9774,9 +9774,6 @@ concreteTypeName
 ;
 }
 ;
-#
-ifdef
-ENABLE_BIGINT
 template
 <
 >
@@ -9878,8 +9875,6 @@ concreteTypeName
 ;
 }
 ;
-#
-endif
 template
 <
 >

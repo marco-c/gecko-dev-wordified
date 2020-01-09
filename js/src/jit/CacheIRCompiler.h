@@ -210,12 +210,9 @@ _
 GuardIsSymbol
 )
 \
-IF_BIGINT
-(
 _
 (
 GuardIsBigInt
-)
 )
 \
 _

@@ -254,9 +254,6 @@ JS
 :
 Value
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -271,11 +268,6 @@ JS
 :
 :
 BigInt
-#
-endif
-/
-/
-ENABLE_BIGINT
 #
 include
 "
@@ -459,9 +451,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lval
@@ -498,8 +487,6 @@ return
 true
 ;
 }
-#
-endif
 if
 (
 lval
@@ -1359,9 +1346,6 @@ result
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lval
@@ -1482,8 +1466,6 @@ return
 true
 ;
 }
-#
-endif
 /
 /
 Step

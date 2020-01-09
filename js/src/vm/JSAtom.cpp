@@ -6952,9 +6952,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 v
@@ -7010,8 +7007,6 @@ return
 atom
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 v

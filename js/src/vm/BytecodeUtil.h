@@ -487,9 +487,6 @@ and
 JOF_UINT8
 *
 /
-#
-ifdef
-ENABLE_BIGINT
 JOF_BIGINT
 =
 22
@@ -502,8 +499,6 @@ BigInt
 value
 *
 /
-#
-endif
 JOF_TYPEMASK
 =
 0x001f

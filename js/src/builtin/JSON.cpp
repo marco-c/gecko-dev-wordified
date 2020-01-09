@@ -184,9 +184,6 @@ Array
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 builtin
@@ -195,8 +192,6 @@ BigInt
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2063,14 +2058,10 @@ isObject
 )
 |
 |
-IF_BIGINT
-(
 vp
 .
 isBigInt
 (
-)
-false
 )
 )
 {
@@ -2479,9 +2470,6 @@ false
 ;
 }
 }
-#
-ifdef
-ENABLE_BIGINT
 else
 if
 (
@@ -2510,8 +2498,6 @@ false
 ;
 }
 }
-#
-endif
 }
 return
 true
@@ -4661,9 +4647,6 @@ sb
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 /
 *
 Step
@@ -4696,8 +4679,6 @@ return
 false
 ;
 }
-#
-endif
 /
 *
 Step

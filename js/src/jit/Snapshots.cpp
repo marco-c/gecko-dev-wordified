@@ -2369,9 +2369,6 @@ return
 symbol
 "
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JSVAL_TYPE_BIGINT
 :
@@ -2380,8 +2377,6 @@ return
 BigInt
 "
 ;
-#
-endif
 case
 JSVAL_TYPE_BOOLEAN
 :

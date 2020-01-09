@@ -1245,9 +1245,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 bool
 Compartment
 :
@@ -1330,8 +1327,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 Compartment
 :

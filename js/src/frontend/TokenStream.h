@@ -13866,9 +13866,6 @@ decimalPoint
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 newBigIntToken
 (
@@ -13896,8 +13893,6 @@ out
 )
 ;
 }
-#
-endif
 void
 newAtomToken
 (
@@ -17485,17 +17480,12 @@ TokenStreamCharsShared
 :
 isAsciiCodePoint
 ;
-#
-ifdef
-ENABLE_BIGINT
 using
 GeneralCharsBase
 :
 :
 newBigIntToken
 ;
-#
-endif
 using
 CharsBase
 :

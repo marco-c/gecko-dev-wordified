@@ -3370,9 +3370,6 @@ MutableHandleString
 strp
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 MOZ_MUST_USE
 bool
 wrap
@@ -3394,8 +3391,6 @@ BigInt
 bi
 )
 ;
-#
-endif
 MOZ_MUST_USE
 bool
 wrap

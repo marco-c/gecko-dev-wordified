@@ -9731,9 +9731,6 @@ success
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 flags_
@@ -9758,8 +9755,6 @@ success
 )
 ;
 }
-#
-endif
 if
 (
 flags_
@@ -12013,9 +12008,6 @@ success
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 flags_
@@ -12040,8 +12032,6 @@ success
 )
 ;
 }
-#
-endif
 if
 (
 flags_

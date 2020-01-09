@@ -992,9 +992,6 @@ symp
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 virtual
 void
 onBigIntEdge
@@ -1021,8 +1018,6 @@ bip
 )
 ;
 }
-#
-endif
 virtual
 void
 onScriptEdge
@@ -1957,9 +1952,6 @@ symp
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 dispatchToOnEdge
 (
@@ -1978,8 +1970,6 @@ bip
 )
 ;
 }
-#
-endif
 void
 dispatchToOnEdge
 (

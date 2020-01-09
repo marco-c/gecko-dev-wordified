@@ -209,9 +209,6 @@ symp
 )
 override
 ;
-#
-ifdef
-ENABLE_BIGINT
 void
 onBigIntEdge
 (
@@ -225,8 +222,6 @@ bip
 )
 override
 ;
-#
-endif
 void
 onScriptEdge
 (

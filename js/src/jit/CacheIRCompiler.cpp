@@ -9707,9 +9707,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 bool
 CacheIRCompiler
 :
@@ -9800,8 +9797,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 CacheIRCompiler
 :
@@ -10400,9 +10395,6 @@ label
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JSVAL_TYPE_BIGINT
 :
@@ -10425,8 +10417,6 @@ label
 ;
 break
 ;
-#
-endif
 case
 JSVAL_TYPE_INT32
 :

@@ -5726,9 +5726,6 @@ ValueOperand
 value
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigInt
 (
@@ -5740,8 +5737,6 @@ ValueOperand
 value
 )
 ;
-#
-endif
 Condition
 testObject
 (
@@ -5847,9 +5842,6 @@ Register
 tag
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigInt
 (
@@ -5859,8 +5851,6 @@ Register
 tag
 )
 ;
-#
-endif
 Condition
 testObject
 (
@@ -6005,9 +5995,6 @@ Address
 address
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigInt
 (
@@ -6019,8 +6006,6 @@ Address
 address
 )
 ;
-#
-endif
 Condition
 testObject
 (
@@ -6098,9 +6083,6 @@ BaseIndex
 src
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigInt
 (
@@ -6112,8 +6094,6 @@ BaseIndex
 src
 )
 ;
-#
-endif
 Condition
 testInt32
 (
@@ -6365,9 +6345,6 @@ JSVAL_TYPE_SYMBOL
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 unboxBigInt
 (
@@ -6406,8 +6383,6 @@ JSVAL_TYPE_BIGINT
 )
 ;
 }
-#
-endif
 void
 unboxObject
 (
@@ -6907,9 +6882,6 @@ ValueOperand
 value
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigIntTruthy
 (
@@ -6921,8 +6893,6 @@ ValueOperand
 value
 )
 ;
-#
-endif
 void
 boolValueToFloat32
 (

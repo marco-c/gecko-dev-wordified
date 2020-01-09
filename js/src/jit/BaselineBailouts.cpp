@@ -17070,14 +17070,9 @@ Bailout_NonStringInput
 case
 Bailout_NonSymbolInput
 :
-#
-ifdef
-ENABLE_BIGINT
 case
 Bailout_NonBigIntInput
 :
-#
-endif
 case
 Bailout_NonSharedTypedArrayInput
 :

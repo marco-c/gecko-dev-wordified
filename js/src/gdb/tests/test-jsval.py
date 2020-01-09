@@ -210,10 +210,6 @@ Hello
 )
 '
 )
-if
-enable_bigint
-:
-    
 assert_pretty
 (
 '

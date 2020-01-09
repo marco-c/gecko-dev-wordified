@@ -2583,9 +2583,6 @@ return
 cond
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigInt
 (
@@ -2622,8 +2619,6 @@ return
 cond
 ;
 }
-#
-endif
 Condition
 testObject
 (
@@ -3548,9 +3543,6 @@ typeReg
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigInt
 (
@@ -3574,8 +3566,6 @@ typeReg
 )
 ;
 }
-#
-endif
 Condition
 testObject
 (
@@ -3956,9 +3946,6 @@ return
 cond
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigInt
 (
@@ -4000,8 +3987,6 @@ return
 cond
 ;
 }
-#
-endif
 Condition
 testInt32
 (
@@ -6251,9 +6236,6 @@ JSVAL_TYPE_SYMBOL
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 unboxBigInt
 (
@@ -6292,8 +6274,6 @@ JSVAL_TYPE_BIGINT
 )
 ;
 }
-#
-endif
 void
 unboxObject
 (
@@ -7075,9 +7055,6 @@ Assembler
 Equal
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigIntTruthy
 (
@@ -7130,8 +7107,6 @@ Assembler
 Equal
 ;
 }
-#
-endif
 template
 <
 typename

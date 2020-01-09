@@ -934,9 +934,6 @@ pos
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 /
 /
 The
@@ -1032,8 +1029,6 @@ pos
 )
 ;
 }
-#
-endif
 BooleanLiteralType
 newBooleanLiteral
 (

@@ -20633,17 +20633,12 @@ rhs
 .
 hideScriptFromDebugger
 ;
-#
-ifdef
-ENABLE_BIGINT
 bigIntEnabledOption
 =
 rhs
 .
 bigIntEnabledOption
 ;
-#
-endif
 }
 ;
 void
@@ -21380,9 +21375,6 @@ throwOnAsmJSValidationFailure
 (
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 bigIntEnabledOption
 =
 cx
@@ -21401,8 +21393,6 @@ getBigIntEnabled
 (
 )
 ;
-#
-endif
 }
 CompileOptions
 &

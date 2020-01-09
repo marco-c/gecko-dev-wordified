@@ -11578,9 +11578,6 @@ label
 )
 PER_SHARED_ARCH
 ;
-#
-ifdef
-ENABLE_BIGINT
 inline
 void
 branchTestBigInt
@@ -11595,8 +11592,6 @@ label
 )
 PER_SHARED_ARCH
 ;
-#
-endif
 inline
 void
 branchTestNull
@@ -12034,9 +12029,6 @@ mips64
 x86_shared
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 inline
 void
 branchTestBigInt
@@ -12076,8 +12068,6 @@ mips64
 x86_shared
 )
 ;
-#
-endif
 inline
 void
 branchTestNull
@@ -12471,9 +12461,6 @@ mips64
 x86_shared
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 inline
 void
 branchTestBigIntTruthy
@@ -12497,8 +12484,6 @@ mips64
 x86_shared
 )
 ;
-#
-endif
 /
 /
 Create
@@ -12780,9 +12765,6 @@ arm64
 x86_shared
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 template
 <
 typename
@@ -12809,8 +12791,6 @@ arm64
 x86_shared
 )
 ;
-#
-endif
 template
 <
 typename

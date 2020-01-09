@@ -4936,9 +4936,6 @@ last
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JSOP_BIGINT
 :
@@ -4951,8 +4948,6 @@ BigInt
 ;
 break
 ;
-#
-endif
 default
 :
 break
@@ -9737,17 +9732,12 @@ MIRType
 :
 Symbol
 :
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
 :
 BigInt
 :
-#
-endif
 case
 MIRType
 :
@@ -13680,14 +13670,9 @@ op
 case
 JSOP_DOUBLE
 :
-#
-ifdef
-ENABLE_BIGINT
 case
 JSOP_BIGINT
 :
-#
-endif
 pushConstant
 (
 info
@@ -18575,9 +18560,6 @@ lifoAlloc
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 else
 if
 (
@@ -18615,8 +18597,6 @@ lifoAlloc
 )
 ;
 }
-#
-endif
 else
 if
 (
@@ -20423,9 +20403,6 @@ ToBoolean
 =
 =
 false
-#
-ifdef
-ENABLE_BIGINT
 base
 .
 addType
@@ -20453,8 +20430,6 @@ ToBoolean
 =
 =
 false
-#
-endif
 /
 /
 If
@@ -22787,8 +22762,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 input
 -
 >
@@ -22798,8 +22771,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {
@@ -25636,9 +25607,6 @@ DoubleType
 lifoAlloc
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 types
 -
 >
@@ -25653,8 +25621,6 @@ BigIntType
 lifoAlloc
 )
 ;
-#
-endif
 if
 (
 peeked
@@ -42908,8 +42874,6 @@ String
 )
 &
 &
-IF_BIGINT
-(
 !
 op
 -
@@ -42920,8 +42884,6 @@ MIRType
 :
 :
 BigInt
-)
-true
 )
 &
 &
@@ -51812,9 +51774,6 @@ JSProto_Symbol
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
@@ -51827,8 +51786,6 @@ JSProto_BigInt
 ;
 break
 ;
-#
-endif
 case
 MIRType
 :

@@ -666,9 +666,6 @@ value
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
@@ -690,8 +687,6 @@ value
 ;
 break
 ;
-#
-endif
 default
 :
 MOZ_CRASH
@@ -925,9 +920,6 @@ result
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
@@ -944,8 +936,6 @@ result
 ;
 break
 ;
-#
-endif
 default
 :
 MOZ_CRASH

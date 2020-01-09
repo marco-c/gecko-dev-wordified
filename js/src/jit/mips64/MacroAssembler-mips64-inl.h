@@ -4024,9 +4024,6 @@ label
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 MacroAssembler
 :
@@ -4126,8 +4123,6 @@ Equal
 )
 ;
 }
-#
-endif
 void
 MacroAssembler
 :

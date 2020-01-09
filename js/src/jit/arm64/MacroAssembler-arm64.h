@@ -10406,9 +10406,6 @@ JSVAL_TYPE_SYMBOL
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 unboxBigInt
 (
@@ -10447,8 +10444,6 @@ JSVAL_TYPE_BIGINT
 )
 ;
 }
-#
-endif
 /
 /
 These
@@ -11141,9 +11136,6 @@ return
 cond
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigInt
 (
@@ -11180,8 +11172,6 @@ return
 cond
 ;
 }
-#
-endif
 Condition
 testObject
 (
@@ -11928,9 +11918,6 @@ scratch
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigInt
 (
@@ -11991,8 +11978,6 @@ scratch
 )
 ;
 }
-#
-endif
 Condition
 testObject
 (
@@ -12781,9 +12766,6 @@ scratch
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigInt
 (
@@ -12842,8 +12824,6 @@ scratch
 )
 ;
 }
-#
-endif
 Condition
 testObject
 (
@@ -13307,9 +13287,6 @@ scratch
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Condition
 testBigInt
 (
@@ -13476,8 +13453,6 @@ Condition
 Zero
 ;
 }
-#
-endif
 Condition
 testInt32
 (

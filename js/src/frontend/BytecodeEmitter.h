@@ -3506,9 +3506,6 @@ double
 dval
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 MOZ_MUST_USE
 bool
 emitBigIntOp
@@ -3518,8 +3515,6 @@ BigInt
 bigint
 )
 ;
-#
-endif
 MOZ_MUST_USE
 bool
 emitThisLiteral

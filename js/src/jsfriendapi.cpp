@@ -159,9 +159,6 @@ stdint
 h
 >
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 builtin
@@ -170,8 +167,6 @@ BigInt
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2210,9 +2205,6 @@ ESClass
 :
 Error
 ;
-#
-ifdef
-ENABLE_BIGINT
 }
 else
 if
@@ -2236,8 +2228,6 @@ ESClass
 :
 BigInt
 ;
-#
-endif
 }
 else
 {

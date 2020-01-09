@@ -293,17 +293,12 @@ JSTYPE_SYMBOL
 symbol
 *
 /
-#
-ifdef
-ENABLE_BIGINT
 JSTYPE_BIGINT
 /
 *
 BigInt
 *
 /
-#
-endif
 JSTYPE_LIMIT
 }
 ;

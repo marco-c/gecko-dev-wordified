@@ -2087,9 +2087,6 @@ Windows
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -2098,8 +2095,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -3862,15 +3857,10 @@ AllocKind
 :
 :
 SYMBOL
-#
-ifdef
-ENABLE_BIGINT
 AllocKind
 :
 :
 BIGINT
-#
-endif
 }
 }
 {
@@ -54212,9 +54202,6 @@ TraceKind
 Symbol
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 }
 else
 if
@@ -54244,8 +54231,6 @@ TraceKind
 BigInt
 )
 ;
-#
-endif
 }
 else
 if
@@ -58700,9 +58685,6 @@ symp
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 js
 :
@@ -58730,8 +58712,6 @@ bip
 )
 ;
 }
-#
-endif
 void
 js
 :

@@ -751,12 +751,7 @@ SCRIPT_NULL
 SCRIPT_OBJECT
 SCRIPT_VOID
 SCRIPT_HOLE
-#
-ifdef
-ENABLE_BIGINT
 SCRIPT_BIGINT
-#
-endif
 }
 ;
 ConstTag
@@ -890,9 +885,6 @@ tag
 SCRIPT_HOLE
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 else
 if
 (
@@ -908,8 +900,6 @@ tag
 SCRIPT_BIGINT
 ;
 }
-#
-endif
 else
 {
 MOZ_ASSERT
@@ -1304,9 +1294,6 @@ JS_ELEMENTS_HOLE
 }
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 SCRIPT_BIGINT
 :
@@ -1363,8 +1350,6 @@ bi
 break
 ;
 }
-#
-endif
 default
 :
 /
@@ -26793,9 +26778,6 @@ clone
 val
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 else
 if
 (
@@ -26885,8 +26867,6 @@ copy
 ;
 }
 }
-#
-endif
 else
 {
 MOZ_ASSERT_UNREACHABLE

@@ -639,8 +639,6 @@ false
 false
 )
 \
-IF_BIGINT
-(
 D
 (
 BIGINT
@@ -656,7 +654,6 @@ BigInt
 true
 false
 false
-)
 )
 \
 D

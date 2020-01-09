@@ -17986,8 +17986,6 @@ val
 *
 /
 \
-IF_BIGINT
-(
 MACRO
 (
 JSOP_BIGINT
@@ -18000,7 +17998,6 @@ NULL
 0
 1
 JOF_BIGINT
-)
 )
 /
 /
@@ -18047,14 +18044,6 @@ define
 FOR_EACH_TRAILING_UNUSED_OPCODE
 (
 MACRO
-)
-\
-IF_BIGINT
-(
-MACRO
-(
-237
-)
 )
 \
 MACRO

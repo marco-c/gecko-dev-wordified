@@ -6199,9 +6199,6 @@ false
 return
 true
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 ParseNodeKind
 :
@@ -6229,8 +6226,6 @@ false
 return
 true
 ;
-#
-endif
 /
 /
 |
@@ -27259,9 +27254,6 @@ value
 return
 true
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 ParseNodeKind
 :
@@ -27292,8 +27284,6 @@ value
 return
 true
 ;
-#
-endif
 case
 ParseNodeKind
 :
@@ -30517,9 +30507,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 bool
 BytecodeEmitter
 :
@@ -30563,8 +30550,6 @@ length
 )
 ;
 }
-#
-endif
 bool
 BytecodeEmitter
 :
@@ -56147,9 +56132,6 @@ false
 }
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 ParseNodeKind
 :
@@ -56188,8 +56170,6 @@ false
 }
 break
 ;
-#
-endif
 case
 ParseNodeKind
 :

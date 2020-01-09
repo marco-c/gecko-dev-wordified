@@ -640,9 +640,6 @@ result
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
@@ -657,8 +654,6 @@ inputReg
 result
 )
 ;
-#
-endif
 default
 :
 MOZ_CRASH
@@ -775,9 +770,6 @@ result
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
@@ -792,8 +784,6 @@ inputAddr
 result
 )
 ;
-#
-endif
 default
 :
 MOZ_CRASH
