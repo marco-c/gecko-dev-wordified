@@ -234,9 +234,6 @@ static
 *
 /
 WrClipId
-WrClipId
-:
-:
 RootScrollNode
 (
 )
