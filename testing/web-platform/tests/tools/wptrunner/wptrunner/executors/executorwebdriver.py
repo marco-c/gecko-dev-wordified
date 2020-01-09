@@ -3004,6 +3004,9 @@ innerHeight
         
 )
         
+try
+:
+            
 self
 .
 protocol
@@ -3017,6 +3020,44 @@ position
 (
 0
 0
+)
+        
+except
+client
+.
+InvalidArgumentException
+:
+            
+#
+Safari
+12
+throws
+with
+0
+or
+1
+treating
+them
+as
+bools
+;
+fixed
+in
+STP
+            
+self
+.
+protocol
+.
+webdriver
+.
+window
+.
+position
+=
+(
+2
+2
 )
         
 self
