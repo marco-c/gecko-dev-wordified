@@ -351,9 +351,6 @@ animation_value_type
 "
 discrete
 "
-needs_context
-=
-False
 spec
 =
 "

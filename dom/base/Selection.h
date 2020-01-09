@@ -1221,7 +1221,6 @@ nsDirection
 GetDirection
 (
 )
-const
 {
 return
 mDirection
@@ -1375,7 +1374,6 @@ nsINode
 GetAnchorNode
 (
 )
-const
 {
 const
 RangeBoundary
@@ -1406,7 +1404,6 @@ uint32_t
 AnchorOffset
 (
 )
-const
 {
 const
 RangeBoundary
@@ -1438,7 +1435,6 @@ nsINode
 GetFocusNode
 (
 )
-const
 {
 const
 RangeBoundary
@@ -1469,7 +1465,6 @@ uint32_t
 FocusOffset
 (
 )
-const
 {
 const
 RangeBoundary
@@ -1564,7 +1559,6 @@ RangeBoundary
 AnchorRef
 (
 )
-const
 ;
 const
 RangeBoundary
@@ -1572,7 +1566,6 @@ RangeBoundary
 FocusRef
 (
 )
-const
 ;
 /
 *
@@ -2955,24 +2948,6 @@ RemoveSelectionChangeBlocker
 ;
 bool
 IsBlockingSelectionChangeEvents
-(
-)
-const
-;
-/
-/
-Whether
-this
-selection
-is
-focused
-in
-an
-editable
-element
-.
-bool
-IsEditorSelection
 (
 )
 const

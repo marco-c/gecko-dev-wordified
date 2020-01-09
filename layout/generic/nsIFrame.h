@@ -24035,8 +24035,6 @@ bool
 aJumpLines
 bool
 aScrollViewStop
-bool
-aForceEditableRegion
 nsIFrame
 *
 *
