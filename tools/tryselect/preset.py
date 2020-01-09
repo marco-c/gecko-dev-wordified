@@ -84,30 +84,19 @@ object
 )
 :
     
-config_path
-=
-os
-.
-path
-.
-join
-(
-get_state_dir
-(
-)
-"
-try_presets
-.
-yml
-"
-)
-    
 def
 __init__
 (
 self
+path
 )
 :
+        
+self
+.
+path
+=
+path
         
 self
 .
@@ -139,7 +128,7 @@ isfile
 (
 self
 .
-config_path
+path
 )
 :
             
@@ -148,7 +137,7 @@ open
 (
 self
 .
-config_path
+path
 '
 r
 '
@@ -314,7 +303,7 @@ EDITOR
 ]
 self
 .
-config_path
+path
 ]
 )
     
@@ -343,7 +332,7 @@ open
 (
 self
 .
-config_path
+path
 "
 w
 "
@@ -365,6 +354,21 @@ presets
 =
 PresetHandler
 (
+os
+.
+path
+.
+join
+(
+get_state_dir
+(
+)
+"
+try_presets
+.
+yml
+"
+)
 )
 def
 migrate_old_presets
@@ -434,7 +438,7 @@ isfile
 (
 presets
 .
-config_path
+path
 )
 or
 not
@@ -473,7 +477,7 @@ format
 old_preset_path
 presets
 .
-config_path
+path
 )
 )
     
