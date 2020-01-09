@@ -488,6 +488,14 @@ RecvResumeAndResize
 const
 int32_t
 &
+aX
+const
+int32_t
+&
+aY
+const
+int32_t
+&
 aWidth
 const
 int32_t
@@ -539,6 +547,8 @@ parent
 >
 ResumeCompositionAndResize
 (
+aX
+aY
 aWidth
 aHeight
 )
