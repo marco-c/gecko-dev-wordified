@@ -40098,7 +40098,7 @@ nsTArray
 wr
 :
 :
-FilterOp
+WrFilterOp
 >
 wrFilters
 ;
