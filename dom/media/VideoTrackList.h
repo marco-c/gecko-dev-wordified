@@ -150,9 +150,9 @@ public
 :
 VideoTrackList
 (
-nsPIDOMWindowInner
+nsIGlobalObject
 *
-aOwnerWindow
+aOwnerObject
 HTMLMediaElement
 *
 aMediaElement
@@ -160,7 +160,7 @@ aMediaElement
 :
 MediaTrackList
 (
-aOwnerWindow
+aOwnerObject
 aMediaElement
 )
 mSelectedIndex

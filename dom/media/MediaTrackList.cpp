@@ -207,9 +207,9 @@ MediaTrackList
 :
 MediaTrackList
 (
-nsPIDOMWindowInner
+nsIGlobalObject
 *
-aOwnerWindow
+aOwnerObject
 HTMLMediaElement
 *
 aMediaElement
@@ -217,7 +217,7 @@ aMediaElement
 :
 DOMEventTargetHelper
 (
-aOwnerWindow
+aOwnerObject
 )
 mMediaElement
 (
