@@ -3323,7 +3323,6 @@ _templates
 :
             
 value
-_
 =
 self
 .
@@ -5149,7 +5148,6 @@ depends
 )
             
 func
-glob
 =
 self
 .
@@ -5401,21 +5399,18 @@ somesuch
 '
 '
         
-template
-glob
-=
-self
-.
-_prepare_function
+def
+update_globals
 (
-func
+glob
 )
-        
+:
+            
 glob
 .
 update
 (
-            
+                
 (
 k
 [
@@ -5434,7 +5429,7 @@ self
 k
 )
 )
-            
+                
 for
 k
 in
@@ -5458,9 +5453,9 @@ k
 '
 template_impl
 '
-        
+            
 )
-        
+            
 glob
 .
 update
@@ -5483,6 +5478,16 @@ k
 not
 in
 glob
+)
+        
+template
+=
+self
+.
+_prepare_function
+(
+func
+update_globals
 )
         
 #
@@ -5563,18 +5568,13 @@ obj
 )
 :
                     
-func
-_
-=
+return
 self
 .
 _prepare_function
 (
 obj
 )
-                    
-return
-func
                 
 return
 obj
@@ -8007,6 +8007,9 @@ _prepare_function
 (
 self
 func
+update_globals
+=
+None
 )
 :
         
@@ -8075,9 +8078,6 @@ _prepared_functions
             
 return
 func
-func
-.
-func_globals
         
 glob
 =
@@ -8192,6 +8192,15 @@ self
 .
 log_impl
         
+)
+        
+if
+update_globals
+:
+            
+update_globals
+(
+glob
 )
         
 #
@@ -8454,4 +8463,3 @@ wrapped
         
 return
 wrapped
-glob
