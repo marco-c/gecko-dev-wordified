@@ -8248,6 +8248,9 @@ createNullPrincipal
 {
 }
 )
+csp
+:
+null
 }
 )
 ;
@@ -8475,6 +8478,9 @@ createNullPrincipal
 {
 }
 )
+csp
+:
+null
 }
 )
 ;
