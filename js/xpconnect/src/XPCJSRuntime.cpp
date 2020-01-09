@@ -1388,10 +1388,6 @@ universalXPConnectEnabled
 (
 false
 )
-forcePermissiveCOWs
-(
-false
-)
 wasShutdown
 (
 false
