@@ -22679,7 +22679,7 @@ cx
 cx
 -
 >
-check
+releaseCheck
 (
 moduleArg
 )
@@ -22731,7 +22731,7 @@ cx
 cx
 -
 >
-check
+releaseCheck
 (
 moduleArg
 )
@@ -30543,7 +30543,7 @@ cx
 cx
 -
 >
-check
+releaseCheck
 (
 value
 )
