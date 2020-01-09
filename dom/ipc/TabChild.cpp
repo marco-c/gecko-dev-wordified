@@ -16972,9 +16972,6 @@ IsRecordingOrReplaying
 )
 )
 {
-mRemoteFrame
--
->
 SendNotifyCompositorTransaction
 (
 )
@@ -18983,7 +18980,7 @@ to
 our
 /
 /
-RenderFrameParent
+TabParent
 .
 compositor
 -
