@@ -1701,6 +1701,9 @@ return
 mCrossProcessRedirectIdentifier
 ;
 }
+CacheDisposition
+mCacheDisposition
+;
 protected
 :
 virtual
