@@ -1,16 +1,4 @@
 /
-/
-|
-reftest
-|
-skip
--
--
-hashbang
-is
-not
-supported
-/
 *
 -
 -
