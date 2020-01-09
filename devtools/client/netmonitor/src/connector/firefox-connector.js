@@ -1793,8 +1793,6 @@ this
 .
 tabTarget
 .
-activeTab
-.
 reconfigure
 (
 {

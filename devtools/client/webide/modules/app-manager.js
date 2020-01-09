@@ -2084,8 +2084,6 @@ target
 {
 target
 .
-activeTab
-.
 reload
 (
 )
