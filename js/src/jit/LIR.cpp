@@ -3964,9 +3964,6 @@ printf
 )
 ;
 }
-#
-ifdef
-JS_JITSPEW
 size_t
 numSuccessors
 =
@@ -4066,8 +4063,6 @@ printf
 )
 ;
 }
-#
-endif
 }
 }
 void
