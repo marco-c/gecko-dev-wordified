@@ -1,9 +1,9 @@
+from
+tests
+.
+support
 import
-json
-import
-pytest
-import
-types
+platform_name
 from
 tests
 .
@@ -188,7 +188,7 @@ href
 "
 )
     
-result
+response
 =
 get_current_url
 (
@@ -197,7 +197,7 @@ session
     
 assert_success
 (
-result
+response
 url
 )
 def
@@ -213,7 +213,7 @@ start
 (
 )
     
-result
+response
 =
 get_current_url
 (
@@ -221,7 +221,7 @@ session
 )
     
 assert
-result
+response
 .
 status
 =
@@ -231,7 +231,7 @@ status
 assert
 isinstance
 (
-result
+response
 .
 body
 [
@@ -258,7 +258,7 @@ about
 blank
 "
     
-result
+response
 =
 get_current_url
 (
@@ -267,31 +267,18 @@ session
     
 assert_success
 (
-result
+response
 "
 about
 :
 blank
 "
 )
-#
-TODO
-(
-ato
-)
-:
-This
-test
-requires
-modification
-to
-pass
-on
-Windows
 def
 test_get_current_url_file_protocol
 (
 session
+server_config
 )
 :
     
@@ -311,19 +298,64 @@ navigated
 privileged
 documents
     
-session
+path
+=
+server_config
+[
+"
+doc_root
+"
+]
+    
+if
+platform_name
+=
+=
+"
+windows
+"
+:
+        
+path
+=
+path
 .
+replace
+(
+"
+\
+\
+"
+"
+/
+"
+)
+    
 url
 =
+u
 "
 file
 :
 /
 /
 /
+{
+}
 "
+.
+format
+(
+path
+)
     
-result
+session
+.
+url
+=
+url
+    
+response
 =
 get_current_url
 (
@@ -332,14 +364,8 @@ session
     
 assert_success
 (
-result
-"
-file
-:
-/
-/
-/
-"
+response
+url
 )
 #
 TODO
@@ -387,7 +413,7 @@ session
 )
 :
     
-result
+response
 =
 session
 .
@@ -395,10 +421,11 @@ transport
 .
 send
 (
+        
 "
 POST
 "
-                                    
+        
 "
 session
 /
@@ -411,7 +438,6 @@ url
 session
 .
 session_id
-                                    
 {
 "
 url
@@ -425,7 +451,7 @@ foo
     
 assert_error
 (
-result
+response
 "
 invalid
 argument
@@ -481,7 +507,7 @@ change
 .
 until
 (
-         
+        
 lambda
 s
 :
@@ -508,7 +534,7 @@ value
 ]
 )
     
-result
+response
 =
 get_current_url
 (
@@ -517,7 +543,7 @@ session
     
 assert_success
 (
-result
+response
 "
 about
 :
@@ -555,7 +581,7 @@ create_frame
 )
 )
     
-result
+response
 =
 get_current_url
 (
@@ -564,7 +590,7 @@ session
     
 assert_success
 (
-result
+response
 "
 about
 :
@@ -638,7 +664,7 @@ switch_frame
 inner_frame
 )
     
-result
+response
 =
 get_current_url
 (
@@ -647,6 +673,6 @@ session
     
 assert_success
 (
-result
+response
 top_level_url
 )
