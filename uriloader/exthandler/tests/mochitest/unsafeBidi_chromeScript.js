@@ -79,18 +79,6 @@ generateUUID
 (
 )
 ;
-/
-*
-eslint
--
-env
-mozilla
-/
-frame
--
-script
-*
-/
 function
 HelperAppLauncherDialog
 (
@@ -103,6 +91,8 @@ prototype
 =
 {
 show
+:
+function
 (
 aLauncher
 aWindowContext

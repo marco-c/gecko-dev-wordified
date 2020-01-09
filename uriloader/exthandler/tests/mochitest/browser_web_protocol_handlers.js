@@ -324,7 +324,6 @@ url
 template
 "
 )
-;
 protoInfo
 .
 preferredApplicationHandler
