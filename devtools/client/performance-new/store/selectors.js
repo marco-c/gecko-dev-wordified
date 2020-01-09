@@ -149,6 +149,16 @@ join
 )
 ;
 const
+getObjdirs
+=
+state
+=
+>
+state
+.
+objdirs
+;
+const
 getRecordingSettings
 =
 state
@@ -178,6 +188,12 @@ state
 threads
 :
 getThreads
+(
+state
+)
+objdirs
+:
+getObjdirs
 (
 state
 )
@@ -282,6 +298,7 @@ getEntries
 getFeatures
 getThreads
 getThreadsString
+getObjdirs
 getRecordingSettings
 getInitializedValues
 getPerfFront
