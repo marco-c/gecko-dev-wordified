@@ -810,7 +810,6 @@ parser
 stream
 0
 false
-true
 )
 ;
 EXPECT_EQ
@@ -3543,7 +3542,6 @@ parser
 stream
 0
 false
-true
 )
 ;
 EXPECT_EQ
