@@ -12141,13 +12141,6 @@ return
 rv
 ;
 }
-Unused
-<
-<
-NextGenLocalStorageEnabled
-(
-)
-;
 return
 NS_OK
 ;
@@ -17483,7 +17476,7 @@ CreateQuotaClient
 ;
 if
 (
-CachedNextGenLocalStorageEnabled
+NextGenLocalStorageEnabled
 (
 )
 )
