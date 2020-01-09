@@ -485,6 +485,10 @@ BorderImageRepeat
 "
     
 "
+BreakBetween
+"
+    
+"
 Clear
 "
     

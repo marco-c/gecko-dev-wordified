@@ -11459,7 +11459,9 @@ StyleDisplay
 )
 -
 >
-mBreakBefore
+BreakBefore
+(
+)
 ;
 }
 /
@@ -11511,7 +11513,9 @@ StyleDisplay
 )
 -
 >
-mBreakAfter
+BreakAfter
+(
+)
 ;
 }
 /

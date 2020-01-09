@@ -30993,7 +30993,9 @@ StyleDisplay
 )
 -
 >
-mBreakBefore
+BreakBefore
+(
+)
 )
 {
 curLine
@@ -31510,7 +31512,9 @@ StyleDisplay
 )
 -
 >
-mBreakAfter
+BreakAfter
+(
+)
 )
 {
 curLine

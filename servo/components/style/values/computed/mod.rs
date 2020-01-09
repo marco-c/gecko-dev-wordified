@@ -468,6 +468,7 @@ box_
 :
 {
 Appearance
+BreakBetween
 Clear
 Float
 }
