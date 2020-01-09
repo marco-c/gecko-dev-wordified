@@ -1306,10 +1306,12 @@ aExternalImageId
 /
 /
 Can
+only
 be
 called
 from
-any
+the
+render
 thread
 .
 void

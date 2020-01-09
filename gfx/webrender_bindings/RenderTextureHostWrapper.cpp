@@ -331,10 +331,6 @@ aTextureHost
 {
 MOZ_ASSERT
 (
-!
-mInited
-|
-|
 RenderThread
 :
 :

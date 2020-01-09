@@ -3459,6 +3459,13 @@ is_empty
 (
 )
 ;
+let
+invalidate_rendered_frame
+=
+txn
+.
+invalidate_rendered_frame
+;
 self
 .
 tx
@@ -3609,6 +3616,9 @@ _
 else
 if
 has_resources_updates
+|
+|
+invalidate_rendered_frame
 {
 if
 let
