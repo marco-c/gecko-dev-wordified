@@ -5633,8 +5633,8 @@ scroll
 anchoring
 .
 #
-ifdef
-NIGHTLY_BUILD
+ifndef
+ANDROID
 #
 define
 PREF_VALUE
