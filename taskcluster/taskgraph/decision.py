@@ -1251,19 +1251,6 @@ dir
 '
 ]
     
-root
-=
-options
-.
-get
-(
-'
-root
-'
-)
-or
-GECKO
-    
 parameters
 =
 {
@@ -1472,7 +1459,7 @@ hg_branch
 =
 get_hg_revision_branch
 (
-root
+GECKO
 revision
 =
 parameters
