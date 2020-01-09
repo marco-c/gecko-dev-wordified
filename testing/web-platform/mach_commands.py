@@ -3021,6 +3021,18 @@ conditions
 is_firefox_or_android
 ]
              
+description
+=
+"
+Run
+web
+-
+platform
+-
+tests
+.
+"
+             
 parser
 =
 create_parser_wpt
@@ -3208,6 +3220,18 @@ conditions
 is_firefox_or_android
 ]
              
+description
+=
+"
+Run
+web
+-
+platform
+-
+tests
+.
+"
+             
 parser
 =
 create_parser_wpt
@@ -3249,6 +3273,19 @@ category
 =
 "
 testing
+"
+             
+description
+=
+"
+Update
+web
+-
+platform
+-
+test
+metadata
+.
 "
              
 parser
@@ -3357,6 +3394,19 @@ category
 testing
 "
              
+description
+=
+"
+Update
+web
+-
+platform
+-
+test
+metadata
+.
+"
+             
 parser
 =
 create_parser_update
@@ -3398,6 +3448,19 @@ category
 =
 "
 testing
+"
+             
+description
+=
+"
+Create
+a
+new
+web
+-
+platform
+test
+.
 "
              
 parser
@@ -3456,6 +3519,19 @@ category
 testing
 "
              
+description
+=
+"
+Create
+a
+new
+web
+-
+platform
+test
+.
+"
+             
 parser
 =
 create_parser_create
@@ -3495,6 +3571,19 @@ category
 =
 "
 testing
+"
+             
+description
+=
+"
+Update
+web
+-
+platform
+-
+test
+manifests
+.
 "
              
 parser
