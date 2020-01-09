@@ -6002,7 +6002,7 @@ widgets
 eg
 titlebar
 -
-placeholder
+spacer
 elements
 )
 .
