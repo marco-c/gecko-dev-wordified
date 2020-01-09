@@ -4476,6 +4476,13 @@ this
 win
 .
 devicePixelRatio
+{
+zoomWindow
+:
+this
+.
+win
+}
 )
 ;
 /
