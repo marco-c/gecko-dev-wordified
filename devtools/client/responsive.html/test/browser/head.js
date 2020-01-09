@@ -3987,7 +3987,7 @@ querySelector
 #
 device
 -
-adder
+form
 -
 name
 input
@@ -4008,7 +4008,7 @@ querySelectorAll
 #
 device
 -
-adder
+form
 -
 size
 input
@@ -4026,7 +4026,7 @@ querySelector
 #
 device
 -
-adder
+form
 -
 pixel
 -
@@ -4046,7 +4046,7 @@ querySelector
 #
 device
 -
-adder
+form
 -
 user
 -
@@ -4066,7 +4066,7 @@ querySelector
 #
 device
 -
-adder
+form
 -
 touch
 input
@@ -4203,7 +4203,7 @@ querySelector
 #
 device
 -
-adder
+form
 -
 save
 "

@@ -300,9 +300,9 @@ getElementById
 "
 device
 -
-adder
+add
 -
-show
+button
 "
 )
 ;
@@ -677,9 +677,9 @@ getElementById
 "
 device
 -
-adder
+add
 -
-show
+button
 "
 )
 ;
@@ -1087,9 +1087,9 @@ querySelector
 #
 device
 -
-adder
+add
 -
-show
+button
 "
 )
 ;
@@ -1535,7 +1535,7 @@ querySelector
 #
 device
 -
-adder
+form
 -
 name
 input
@@ -1556,7 +1556,7 @@ querySelectorAll
 #
 device
 -
-adder
+form
 -
 size
 input
@@ -1574,7 +1574,7 @@ querySelector
 #
 device
 -
-adder
+form
 -
 pixel
 -
@@ -1594,7 +1594,7 @@ querySelector
 #
 device
 -
-adder
+form
 -
 user
 -
@@ -1614,7 +1614,7 @@ querySelector
 #
 device
 -
-adder
+form
 -
 touch
 input
