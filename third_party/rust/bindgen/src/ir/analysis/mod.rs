@@ -703,12 +703,6 @@ Trace
 }
 ;
 use
-std
-:
-:
-collections
-:
-:
 HashMap
 ;
 use
@@ -1657,7 +1651,7 @@ dependencies
 HashMap
 :
 :
-new
+default
 (
 )
 ;
@@ -1785,12 +1779,6 @@ super
 *
 ;
 use
-std
-:
-:
-collections
-:
-:
 {
 HashMap
 HashSet
@@ -2825,7 +2813,7 @@ or_insert
 HashSet
 :
 :
-new
+default
 (
 )
 )
@@ -2889,7 +2877,7 @@ or_insert
 HashSet
 :
 :
-new
+default
 (
 )
 )
@@ -3155,7 +3143,7 @@ expected
 HashMap
 :
 :
-new
+default
 (
 )
 ;
