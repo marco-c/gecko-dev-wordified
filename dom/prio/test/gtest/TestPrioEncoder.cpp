@@ -157,6 +157,13 @@ ScriptSettings
 .
 h
 "
+#
+include
+"
+mprio
+.
+h
+"
 TEST
 (
 PrioEncoder
