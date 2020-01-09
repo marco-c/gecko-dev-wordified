@@ -470,9 +470,14 @@ popup
 let
 openedExpectedPage
 =
+BrowserTestUtils
+.
 waitForDocLoadAndStopIt
 (
 expectedURL
+gBrowser
+.
+selectedBrowser
 )
 ;
 EventUtils

@@ -335,6 +335,8 @@ spec
 let
 promise
 =
+BrowserTestUtils
+.
 waitForDocLoadAndStopIt
 (
 expectedURL

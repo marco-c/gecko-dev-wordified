@@ -612,9 +612,14 @@ spec
 let
 loadPromise
 =
+BrowserTestUtils
+.
 waitForDocLoadAndStopIt
 (
 expectedURL
+gBrowser
+.
+selectedBrowser
 )
 ;
 await

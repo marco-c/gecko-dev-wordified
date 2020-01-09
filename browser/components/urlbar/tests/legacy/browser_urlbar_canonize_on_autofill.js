@@ -106,9 +106,14 @@ expected
 let
 promiseLoad
 =
+BrowserTestUtils
+.
 waitForDocLoadAndStopIt
 (
 waitForUrl
+gBrowser
+.
+selectedBrowser
 )
 ;
 keys
