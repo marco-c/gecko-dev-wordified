@@ -1493,7 +1493,11 @@ menulist
 .
 getItemAtIndex
 (
-2
+menulist
+.
+itemCount
+-
+1
 )
 .
 doCommand
