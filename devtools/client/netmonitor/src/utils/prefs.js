@@ -148,6 +148,16 @@ Json
 visibleColumns
 "
 ]
+columnsData
+:
+[
+"
+Json
+"
+"
+columnsData
+"
+]
 filters
 :
 [
