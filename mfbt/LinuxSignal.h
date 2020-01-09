@@ -71,6 +71,12 @@ defined
 (
 __arm__
 )
+&
+&
+defined
+(
+__ANDROID__
+)
 /
 /
 Some
