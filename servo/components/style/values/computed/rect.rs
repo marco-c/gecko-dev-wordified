@@ -78,7 +78,7 @@ computed
 length
 :
 :
-LengthOrNumber
+NonNegativeLengthOrNumber
 ;
 use
 crate
@@ -115,10 +115,10 @@ values
 .
 pub
 type
-LengthOrNumberRect
+NonNegativeLengthOrNumberRect
 =
 Rect
 <
-LengthOrNumber
+NonNegativeLengthOrNumber
 >
 ;

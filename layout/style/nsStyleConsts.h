@@ -1266,14 +1266,6 @@ Round
 Space
 }
 ;
-#
-define
-NS_STYLE_BORDER_IMAGE_SLICE_NOFILL
-0
-#
-define
-NS_STYLE_BORDER_IMAGE_SLICE_FILL
-1
 /
 /
 See
