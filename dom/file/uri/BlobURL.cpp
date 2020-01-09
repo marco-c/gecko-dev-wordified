@@ -962,7 +962,6 @@ Mutator
 nsIURISetters
 nsIURIMutator
 nsISerializable
-nsIBlobURLMutator
 )
 NS_IMETHODIMP
 BlobURL
