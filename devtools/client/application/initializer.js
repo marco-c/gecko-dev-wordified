@@ -457,7 +457,9 @@ this
 .
 client
 .
-addListener
+mainRoot
+.
+on
 (
 "
 serviceWorkerRegistrationListChanged
@@ -767,7 +769,9 @@ this
 .
 client
 .
-removeListener
+mainRoot
+.
+off
 (
 "
 serviceWorkerRegistrationListChanged

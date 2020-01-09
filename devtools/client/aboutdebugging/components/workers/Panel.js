@@ -586,7 +586,9 @@ updateWorkers
 ;
 client
 .
-addListener
+mainRoot
+.
+on
 (
 "
 serviceWorkerRegistrationListChanged
@@ -842,7 +844,9 @@ updateWorkers
 ;
 client
 .
-removeListener
+mainRoot
+.
+off
 (
 "
 serviceWorkerRegistrationListChanged

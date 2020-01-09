@@ -372,7 +372,9 @@ onWorkersUpdated
 ;
 client
 .
-addListener
+mainRoot
+.
+on
 (
 "
 serviceWorkerRegistrationListChanged
@@ -514,7 +516,9 @@ onWorkersUpdated
 ;
 client
 .
-removeListener
+mainRoot
+.
+off
 (
 "
 serviceWorkerRegistrationListChanged
