@@ -217,6 +217,9 @@ if
 aURI
 )
 throw
+new
+Error
+(
 "
 Can
 '
@@ -226,6 +229,7 @@ an
 empty
 uri
 "
+)
 ;
 if
 (
@@ -1208,6 +1212,9 @@ _messages
 )
 {
 throw
+new
+Error
+(
 "
 Home
 .
@@ -1229,6 +1236,7 @@ id
 "
 +
 id
+)
 ;
 }
 delete
@@ -1534,6 +1542,9 @@ auth
 )
 {
 throw
+new
+Error
+(
 "
 Home
 .
@@ -1549,6 +1560,7 @@ id
 "
 +
 id
+)
 ;
 }
 if
@@ -1576,6 +1588,9 @@ function
 )
 {
 throw
+new
+Error
+(
 "
 Home
 .
@@ -1595,6 +1610,7 @@ id
 this
 .
 id
+)
 ;
 }
 options
@@ -1797,6 +1813,9 @@ function
 )
 {
 throw
+new
+Error
+(
 "
 Home
 .
@@ -1815,6 +1834,7 @@ id
 this
 .
 id
+)
 ;
 }
 options
@@ -1884,6 +1904,9 @@ function
 )
 {
 throw
+new
+Error
+(
 "
 Home
 .
@@ -1902,6 +1925,7 @@ id
 this
 .
 id
+)
 ;
 }
 options
@@ -2167,6 +2191,9 @@ title
 )
 {
 throw
+new
+Error
+(
 "
 Home
 .
@@ -2186,6 +2213,7 @@ and
 title
 !
 "
+)
 ;
 }
 if
@@ -2576,6 +2604,9 @@ messageText
 )
 {
 throw
+new
+Error
+(
 "
 Home
 .
@@ -2594,6 +2625,7 @@ id
 this
 .
 id
+)
 ;
 }
 if
@@ -2607,6 +2639,9 @@ buttonText
 )
 {
 throw
+new
+Error
+(
 "
 Home
 .
@@ -2625,6 +2660,7 @@ id
 this
 .
 id
+)
 ;
 }
 this
@@ -2802,6 +2838,9 @@ _registeredPanels
 )
 {
 throw
+new
+Error
+(
 "
 Home
 .
@@ -2818,6 +2857,7 @@ id
 "
 +
 id
+)
 ;
 }
 }
@@ -2864,6 +2904,9 @@ _registeredPanels
 )
 {
 throw
+new
+Error
+(
 "
 Home
 .
@@ -2878,6 +2921,7 @@ id
 "
 +
 id
+)
 ;
 }
 if
@@ -2897,6 +2941,9 @@ function
 )
 {
 throw
+new
+Error
+(
 "
 Home
 .
@@ -2914,6 +2961,7 @@ id
 "
 +
 id
+)
 ;
 }
 _registeredPanels

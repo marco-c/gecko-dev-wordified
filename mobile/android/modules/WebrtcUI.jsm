@@ -950,6 +950,9 @@ wrong
 lets
 throw
 throw
+new
+Error
+(
 "
 Couldn
 '
@@ -962,6 +965,7 @@ microphones
 being
 used
 "
+)
 ;
 }
 if
