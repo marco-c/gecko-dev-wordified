@@ -3,19 +3,7 @@ os
 import
 shutil
 import
-subprocess
-import
-sys
-import
 unittest
-import
-mozharness
-.
-base
-.
-log
-as
-log
 import
 mozharness
 .
@@ -611,7 +599,9 @@ self
 .
 assertEqual
 (
+            
 ALL_LOCALES
+            
 l
 .
 parse_locales_file
@@ -925,6 +915,7 @@ self
 BASE_ABS_DIRS
 +
 [
+            
 '
 abs_mozilla_dir
 '
@@ -1042,6 +1033,7 @@ self
 BASE_ABS_DIRS
 +
 [
+            
 '
 abs_mozilla_dir
 '
@@ -1051,6 +1043,7 @@ abs_locales_src_dir
 '
 abs_l10n_dir
 '
+            
 '
 abs_objdir
 '

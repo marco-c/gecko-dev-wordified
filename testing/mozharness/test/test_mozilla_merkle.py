@@ -371,7 +371,6 @@ known_proof5
 020000
 '
 +
-\
                 
 '
 0000000000000007
@@ -381,13 +380,11 @@ known_proof5
 0000000000000005
 '
 +
-\
                 
 '
 0063
 '
 +
-\
                 
 '
 20
@@ -405,7 +402,6 @@ hex
 '
 )
 +
-\
                 
 '
 20
@@ -423,7 +419,6 @@ hex
 '
 )
 +
-\
                 
 '
 20
@@ -725,6 +720,7 @@ ELEM_SIZE_BYTES
 data
 =
 [
+            
 bytearray
 (
 random
@@ -741,6 +737,7 @@ xrange
 ELEM_SIZE_BYTES
 )
 )
+            
 for
 _
 in
@@ -748,6 +745,7 @@ xrange
 (
 TEST_SIZE
 )
+        
 ]
         
 tree

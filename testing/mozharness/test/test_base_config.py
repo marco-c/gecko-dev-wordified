@@ -338,7 +338,9 @@ self
 .
 assertRaises
 (
+            
 IOError
+            
 config
 .
 parse_config_file
@@ -398,11 +400,13 @@ self
 .
 assertRaises
 (
+                
 json
 .
 decoder
 .
 JSONDecodeError
+                
 config
 .
 parse_config_file
@@ -1025,7 +1029,7 @@ d
 }
         
 '
-e
+h
 '
 :
 [
@@ -1548,6 +1552,7 @@ e
 2
         
 except
+AssertionError
 :
             
 pass
@@ -1604,6 +1609,7 @@ e
 ]
         
 except
+AssertionError
 :
             
 pass
@@ -2212,6 +2218,7 @@ not_a_real_action
 )
         
 except
+SystemExit
 :
             
 pass
