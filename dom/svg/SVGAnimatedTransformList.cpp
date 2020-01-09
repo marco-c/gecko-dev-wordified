@@ -1306,7 +1306,7 @@ mAnimVal
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGAnimatedTransformList
 :

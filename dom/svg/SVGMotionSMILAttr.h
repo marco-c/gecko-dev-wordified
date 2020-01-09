@@ -147,7 +147,9 @@ h
 #
 include
 "
-nsISMILAttr
+mozilla
+/
+SMILAttr
 .
 h
 "
@@ -182,7 +184,7 @@ SVGMotionSMILAttr
 :
 Implements
 the
-nsISMILAttr
+SMILAttr
 interface
 for
 SMIL
@@ -227,7 +229,7 @@ class
 SVGMotionSMILAttr
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :
@@ -250,7 +252,7 @@ aSVGElement
 }
 /
 /
-nsISMILAttr
+SMILAttr
 methods
 virtual
 nsresult

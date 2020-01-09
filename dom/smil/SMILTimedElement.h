@@ -1373,7 +1373,7 @@ sample
 void
 SampleAt
 (
-nsSMILTime
+SMILTime
 aContainerTime
 )
 ;
@@ -1493,7 +1493,7 @@ sample
 void
 SampleEndAt
 (
-nsSMILTime
+SMILTime
 aContainerTime
 )
 ;
@@ -2674,7 +2674,7 @@ ClearIntervals
 void
 DoSampleAt
 (
-nsSMILTime
+SMILTime
 aContainerTime
 bool
 aEndOnly
@@ -3123,7 +3123,7 @@ specifically
 old
 SMILIntervals
 and
-nsSMILTimeInstanceTimes
+SMILTimeInstanceTimes
 )
 *
 and
@@ -3470,10 +3470,10 @@ aDuration
 )
 const
 ;
-nsSMILTime
+SMILTime
 ActiveTimeToSimpleTime
 (
-nsSMILTime
+SMILTime
 aActiveTime
 uint32_t
 &
@@ -3503,7 +3503,7 @@ false
 void
 SampleSimpleTime
 (
-nsSMILTime
+SMILTime
 aActiveTime
 )
 ;
@@ -3515,7 +3515,7 @@ SampleFillValue
 nsresult
 AddInstanceTimeFromCurrentTime
 (
-nsSMILTime
+SMILTime
 aCurrentTime
 double
 aOffsetSeconds
@@ -3836,7 +3836,7 @@ SMILTimeValue
 mMax
 ;
 enum
-nsSMILFillMode
+SMILFillMode
 :
 uint8_t
 {
@@ -3844,7 +3844,7 @@ FILL_REMOVE
 FILL_FREEZE
 }
 ;
-nsSMILFillMode
+SMILFillMode
 mFillMode
 ;
 static
@@ -3858,7 +3858,7 @@ sFillModeTable
 ]
 ;
 enum
-nsSMILRestartMode
+SMILRestartMode
 :
 uint8_t
 {
@@ -3867,7 +3867,7 @@ RESTART_WHENNOTACTIVE
 RESTART_NEVER
 }
 ;
-nsSMILRestartMode
+SMILRestartMode
 mRestartMode
 ;
 static
@@ -4024,7 +4024,7 @@ SMILANIM
 *
 /
 enum
-nsSMILElementState
+SMILElementState
 {
 STATE_STARTUP
 STATE_WAITING
@@ -4032,11 +4032,11 @@ STATE_ACTIVE
 STATE_POSTACTIVE
 }
 ;
-nsSMILElementState
+SMILElementState
 mElementState
 ;
 enum
-nsSMILSeekState
+SMILSeekState
 {
 SEEK_NOT_SEEKING
 SEEK_FORWARD_FROM_ACTIVE
@@ -4045,7 +4045,7 @@ SEEK_BACKWARD_FROM_ACTIVE
 SEEK_BACKWARD_FROM_INACTIVE
 }
 ;
-nsSMILSeekState
+SMILSeekState
 mSeekState
 ;
 /

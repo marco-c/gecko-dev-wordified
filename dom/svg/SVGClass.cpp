@@ -580,7 +580,7 @@ mSVGElement
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGClass
 :

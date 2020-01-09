@@ -382,7 +382,7 @@ mozilla
 :
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 ToSMILAttr
 (
@@ -551,7 +551,7 @@ struct
 SMILString
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :
@@ -583,7 +583,7 @@ stay
 alive
 because
 a
-nsISMILAttr
+SMILAttr
 only
 lives
 as
@@ -620,7 +620,7 @@ mSVGElement
 ;
 /
 /
-nsISMILAttr
+SMILAttr
 methods
 virtual
 nsresult

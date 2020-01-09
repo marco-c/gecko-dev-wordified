@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+SMILAttr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -142,13 +151,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-nsISMILAttr
 .
 h
 "
@@ -474,7 +476,7 @@ mAnimVal
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 ToSMILAttr
 (
@@ -579,7 +581,7 @@ struct
 SMILAnimatedLengthList
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :
@@ -632,7 +634,7 @@ stay
 alive
 because
 a
-nsISMILAttr
+SMILAttr
 only
 lives
 as
@@ -688,7 +690,7 @@ SVGLengthListAndInfo
 CanZeroPadList
 /
 /
-nsISMILAttr
+SMILAttr
 methods
 virtual
 nsresult

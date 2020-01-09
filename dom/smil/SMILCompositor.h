@@ -634,7 +634,7 @@ private
 /
 Create
 a
-nsISMILAttr
+SMILAttr
 for
 my
 target
@@ -667,7 +667,7 @@ style
 .
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 CreateSMILAttr
 (

@@ -192,13 +192,6 @@ h
 #
 include
 "
-nsISMILAttr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

@@ -1649,7 +1649,7 @@ precision
 /
 /
 errors
-nsSMILTime
+SMILTime
 lMilliseconds
 =
 int64_t

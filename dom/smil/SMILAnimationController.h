@@ -468,7 +468,7 @@ Disconnect
 ;
 /
 /
-nsSMILContainer
+SMILContainer
 virtual
 void
 Pause
@@ -488,7 +488,7 @@ aType
 override
 ;
 virtual
-nsSMILTime
+SMILTime
 GetParentTime
 (
 )
@@ -1262,7 +1262,7 @@ dispatching
 events
 )
 .
-nsSMILTime
+SMILTime
 mAvgTimeBetweenSamples
 ;
 bool

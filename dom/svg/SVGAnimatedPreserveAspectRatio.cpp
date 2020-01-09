@@ -930,7 +930,7 @@ mVal
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGAnimatedPreserveAspectRatio
 :

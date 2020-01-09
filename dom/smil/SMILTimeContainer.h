@@ -675,7 +675,7 @@ pausing
 .
 *
 /
-nsSMILTime
+SMILTime
 GetCurrentTimeAsSMILTime
 (
 )
@@ -729,7 +729,7 @@ GetCurrentTime
 void
 SetCurrentTime
 (
-nsSMILTime
+SMILTime
 aSeekTo
 )
 ;
@@ -751,7 +751,7 @@ any
 *
 /
 virtual
-nsSMILTime
+SMILTime
 GetParentTime
 (
 )
@@ -804,7 +804,7 @@ future
 SMILTimeValue
 ContainerToParentTime
 (
-nsSMILTime
+SMILTime
 aContainerTime
 )
 const
@@ -860,7 +860,7 @@ began
 SMILTimeValue
 ParentToContainerTime
 (
-nsSMILTime
+SMILTime
 aParentTime
 )
 const
@@ -1596,7 +1596,7 @@ to
 Sample
 (
 )
-nsSMILTime
+SMILTime
 mCurrentTime
 ;
 /
@@ -1643,7 +1643,7 @@ time
 mParentOffset
 /
 /
-nsSMILTime
+SMILTime
 mParentOffset
 ;
 /
@@ -1658,7 +1658,7 @@ the
 container
 was
 paused
-nsSMILTime
+SMILTime
 mPauseStart
 ;
 /

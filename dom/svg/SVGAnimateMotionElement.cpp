@@ -508,7 +508,7 @@ that
 our
 /
 /
-nsSMILTargetIdentifier
+SMILTargetIdentifier
 logic
 (
 which

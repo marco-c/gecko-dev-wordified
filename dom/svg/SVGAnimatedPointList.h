@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+SMILAttr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -142,13 +151,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-nsISMILAttr
 .
 h
 "
@@ -578,7 +580,7 @@ mAnimVal
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 ToSMILAttr
 (
@@ -677,7 +679,7 @@ struct
 SMILAnimatedPointList
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :
@@ -712,7 +714,7 @@ stay
 alive
 because
 a
-nsISMILAttr
+SMILAttr
 only
 lives
 as
@@ -752,7 +754,7 @@ mElement
 ;
 /
 /
-nsISMILAttr
+SMILAttr
 methods
 virtual
 nsresult

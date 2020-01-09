@@ -147,7 +147,9 @@ h
 #
 include
 "
-nsISMILAttr
+mozilla
+/
+SMILAttr
 .
 h
 "
@@ -197,7 +199,7 @@ SMILCSSProperty
 :
 Implements
 the
-nsISMILAttr
+SMILAttr
 interface
 for
 SMIL
@@ -228,7 +230,7 @@ class
 SMILCSSProperty
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :
@@ -320,7 +322,7 @@ aBaseComputedStyle
 ;
 /
 /
-nsISMILAttr
+SMILAttr
 methods
 virtual
 nsresult
@@ -492,7 +494,7 @@ my
 lifetime
 because
 a
-nsISMILAttr
+SMILAttr
 (
 like
 me
@@ -550,8 +552,8 @@ As
 with
 mElement
 since
-an
-nsISMILAttr
+a
+SMILAttr
 only
 lives
 as

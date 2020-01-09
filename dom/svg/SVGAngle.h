@@ -123,14 +123,14 @@ __NS_SVGANGLE_H__
 #
 include
 "
-nsError
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsISMILAttr
+nsError
 .
 h
 "
@@ -139,7 +139,7 @@ include
 "
 mozilla
 /
-AlreadyAddRefed
+SMILAttr
 .
 h
 "
@@ -446,7 +446,7 @@ mozilla
 :
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 ToSMILAttr
 (
@@ -648,7 +648,7 @@ SMILOrient
 final
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :
@@ -693,7 +693,7 @@ stay
 alive
 because
 a
-nsISMILAttr
+SMILAttr
 only
 lives
 as
@@ -740,7 +740,7 @@ mSVGElement
 ;
 /
 /
-nsISMILAttr
+SMILAttr
 methods
 virtual
 nsresult

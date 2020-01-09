@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+SMILAttr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -142,13 +151,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-nsISMILAttr
 .
 h
 "
@@ -743,7 +745,7 @@ mozilla
 :
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 ToSMILAttr
 (
@@ -858,7 +860,7 @@ struct
 SMILAnimatedTransformList
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :
@@ -887,7 +889,7 @@ aSVGElement
 }
 /
 /
-nsISMILAttr
+SMILAttr
 methods
 virtual
 nsresult
@@ -982,7 +984,7 @@ stay
 alive
 because
 a
-nsISMILAttr
+SMILAttr
 only
 lives
 as

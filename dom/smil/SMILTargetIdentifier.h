@@ -306,7 +306,7 @@ mAttributeNamespaceID
 *
 Class
 :
-nsSMILWeakTargetIdentifier
+SMILWeakTargetIdentifier
 *
 *
 Version
@@ -373,7 +373,7 @@ next
 *
 /
 class
-nsSMILWeakTargetIdentifier
+SMILWeakTargetIdentifier
 {
 public
 :
@@ -381,7 +381,7 @@ public
 /
 Trivial
 constructor
-nsSMILWeakTargetIdentifier
+SMILWeakTargetIdentifier
 (
 )
 :
@@ -412,7 +412,7 @@ non
 -
 weak
 identifier
-nsSMILWeakTargetIdentifier
+SMILWeakTargetIdentifier
 &
 operator
 =

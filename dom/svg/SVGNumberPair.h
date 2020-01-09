@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsISMILAttr
-.
-h
-"
-#
-include
-"
 nsMathUtils
 .
 h
@@ -174,6 +167,15 @@ include
 mozilla
 /
 FloatingPoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SMILAttr
 .
 h
 "
@@ -494,7 +496,7 @@ mozilla
 :
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 ToSMILAttr
 (
@@ -716,7 +718,7 @@ struct
 SMILNumberPair
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :
@@ -748,7 +750,7 @@ stay
 alive
 because
 a
-nsISMILAttr
+SMILAttr
 only
 lives
 as
@@ -785,7 +787,7 @@ mSVGElement
 ;
 /
 /
-nsISMILAttr
+SMILAttr
 methods
 virtual
 nsresult

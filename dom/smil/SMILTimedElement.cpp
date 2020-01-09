@@ -1867,7 +1867,7 @@ std
 :
 numeric_limits
 <
-nsSMILTime
+SMILTime
 >
 :
 :
@@ -2673,7 +2673,7 @@ container
 return
 NS_ERROR_FAILURE
 ;
-nsSMILTime
+SMILTime
 currentTime
 =
 container
@@ -2718,7 +2718,7 @@ container
 return
 NS_ERROR_FAILURE
 ;
-nsSMILTime
+SMILTime
 currentTime
 =
 container
@@ -3916,7 +3916,7 @@ SMILTimedElement
 :
 SampleAt
 (
-nsSMILTime
+SMILTime
 aContainerTime
 )
 {
@@ -3951,7 +3951,7 @@ SMILTimedElement
 :
 SampleEndAt
 (
-nsSMILTime
+SMILTime
 aContainerTime
 )
 {
@@ -4164,7 +4164,7 @@ SMILTimedElement
 :
 DoSampleAt
 (
-nsSMILTime
+SMILTime
 aContainerTime
 bool
 aEndOnly
@@ -5122,7 +5122,7 @@ end
 "
 )
 ;
-nsSMILTime
+SMILTime
 beginTime
 =
 mCurrentInterval
@@ -5141,7 +5141,7 @@ GetMillis
 (
 )
 ;
-nsSMILTime
+SMILTime
 activeTime
 =
 aContainerTime
@@ -7244,7 +7244,7 @@ mRestartMode
 =
 parseResult
 ?
-nsSMILRestartMode
+SMILRestartMode
 (
 temp
 .
@@ -7515,7 +7515,7 @@ mFillMode
 =
 parseResult
 ?
-nsSMILFillMode
+SMILFillMode
 (
 temp
 .
@@ -12526,7 +12526,7 @@ IsDefinite
 )
 )
 {
-nsSMILTime
+SMILTime
 activeDur
 =
 aEnd
@@ -12596,7 +12596,7 @@ IsDefinite
 )
 )
 {
-nsSMILTime
+SMILTime
 activeEnd
 =
 result
@@ -12670,7 +12670,7 @@ std
 :
 numeric_limits
 <
-nsSMILTime
+SMILTime
 >
 :
 :
@@ -12683,7 +12683,7 @@ multipliedDuration
 .
 SetMillis
 (
-nsSMILTime
+SMILTime
 (
 mRepeatCount
 *
@@ -12833,20 +12833,20 @@ return
 result
 ;
 }
-nsSMILTime
+SMILTime
 SMILTimedElement
 :
 :
 ActiveTimeToSimpleTime
 (
-nsSMILTime
+SMILTime
 aActiveTime
 uint32_t
 &
 aRepeatIteration
 )
 {
-nsSMILTime
+SMILTime
 result
 ;
 MOZ_ASSERT
@@ -14061,7 +14061,7 @@ SMILTimedElement
 :
 SampleSimpleTime
 (
-nsSMILTime
+SMILTime
 aActiveTime
 )
 {
@@ -14073,7 +14073,7 @@ mClient
 uint32_t
 repeatIteration
 ;
-nsSMILTime
+SMILTime
 simpleTime
 =
 ActiveTimeToSimpleTime
@@ -14115,7 +14115,7 @@ mClient
 )
 return
 ;
-nsSMILTime
+SMILTime
 activeTime
 ;
 if
@@ -14423,7 +14423,7 @@ GetMillis
 uint32_t
 repeatIteration
 ;
-nsSMILTime
+SMILTime
 simpleTime
 =
 ActiveTimeToSimpleTime
@@ -14474,7 +14474,7 @@ SMILTimedElement
 :
 AddInstanceTimeFromCurrentTime
 (
-nsSMILTime
+SMILTime
 aCurrentTime
 double
 aOffsetSeconds
@@ -14503,7 +14503,7 @@ overflow
 the
 range
 of
-nsSMILTime
+SMILTime
 if
 (
 aCurrentTime
@@ -14515,7 +14515,7 @@ std
 :
 numeric_limits
 <
-nsSMILTime
+SMILTime
 >
 :
 :
@@ -14974,7 +14974,7 @@ IsDefinite
 )
 )
 {
-nsSMILTime
+SMILTime
 nextRepeatActiveTime
 =
 (

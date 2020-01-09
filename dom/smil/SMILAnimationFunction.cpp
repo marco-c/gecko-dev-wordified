@@ -146,6 +146,15 @@ include
 "
 mozilla
 /
+SMILAttr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SMILCSSValueType
 .
 h
@@ -174,13 +183,6 @@ include
 mozilla
 /
 SMILTimedElement
-.
-h
-"
-#
-include
-"
-nsISMILAttr
 .
 h
 "
@@ -1083,7 +1085,7 @@ SMILAnimationFunction
 :
 SampleAt
 (
-nsSMILTime
+SMILTime
 aSampleTime
 const
 SMILTimeValue
@@ -1294,7 +1296,7 @@ SMILAnimationFunction
 :
 Activate
 (
-nsSMILTime
+SMILTime
 aBeginTime
 )
 {
@@ -1345,7 +1347,7 @@ SMILAnimationFunction
 ComposeResult
 (
 const
-nsISMILAttr
+SMILAttr
 &
 aSMILAttr
 SMILValue
@@ -2415,7 +2417,7 @@ IsDefinite
 )
 )
 {
-nsSMILTime
+SMILTime
 dur
 =
 mSimpleDuration
@@ -2529,7 +2531,7 @@ rv
 =
 NS_OK
 ;
-nsSMILCalcMode
+SMILCalcMode
 calcMode
 =
 GetCalcMode
@@ -4710,7 +4712,7 @@ ScaleSimpleProgress
 (
 double
 aProgress
-nsSMILCalcMode
+SMILCalcMode
 aCalcMode
 )
 {
@@ -5210,7 +5212,7 @@ as
 reported
 *
 by
-nsISMILAttr
+SMILAttr
 :
 :
 ValueFromString
@@ -5256,7 +5258,7 @@ nsAtom
 *
 aAttName
 const
-nsISMILAttr
+SMILAttr
 &
 aSMILAttr
 SMILValue
@@ -5484,7 +5486,7 @@ SMILAnimationFunction
 GetValues
 (
 const
-nsISMILAttr
+SMILAttr
 &
 aSMILAttr
 SMILValueArray
@@ -5976,7 +5978,7 @@ keyTimes
 )
 return
 ;
-nsSMILCalcMode
+SMILCalcMode
 calcMode
 =
 GetCalcMode
@@ -6563,7 +6565,7 @@ GetEnumValue
 SMILAnimationFunction
 :
 :
-nsSMILCalcMode
+SMILCalcMode
 SMILAnimationFunction
 :
 :
@@ -6594,7 +6596,7 @@ return
 CALC_LINEAR
 ;
 return
-nsSMILCalcMode
+SMILCalcMode
 (
 value
 -

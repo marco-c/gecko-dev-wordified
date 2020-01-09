@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsISMILAttr
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -161,6 +154,15 @@ include
 mozilla
 /
 Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SMILAttr
 .
 h
 "
@@ -299,7 +301,7 @@ mozilla
 :
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 ToSMILAttr
 (
@@ -322,7 +324,7 @@ struct
 SMILString
 :
 public
-nsISMILAttr
+SMILAttr
 {
 public
 :
@@ -354,7 +356,7 @@ stay
 alive
 because
 a
-nsISMILAttr
+SMILAttr
 only
 lives
 as
@@ -391,7 +393,7 @@ mSVGElement
 ;
 /
 /
-nsISMILAttr
+SMILAttr
 methods
 virtual
 nsresult

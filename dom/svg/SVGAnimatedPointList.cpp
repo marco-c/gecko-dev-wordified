@@ -1095,7 +1095,7 @@ DidAnimatePointList
 }
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SVGAnimatedPointList
 :

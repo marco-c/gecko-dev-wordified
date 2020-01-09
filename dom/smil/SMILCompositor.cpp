@@ -408,7 +408,7 @@ ComputedStyle
 for
 initializing
 our
-nsISMILAttr
+SMILAttr
 with
 .
 RefPtr
@@ -444,7 +444,7 @@ FIRST
 :
 Get
 the
-nsISMILAttr
+SMILAttr
 (
 to
 grab
@@ -463,7 +463,7 @@ to
 )
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 smilAttr
 =
@@ -766,7 +766,7 @@ rv
 NS_WARNING
 (
 "
-nsISMILAttr
+SMILAttr
 :
 :
 SetAnimValue
@@ -801,7 +801,7 @@ return
 ;
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 smilAttr
 =
@@ -874,7 +874,7 @@ Functions
 -
 UniquePtr
 <
-nsISMILAttr
+SMILAttr
 >
 SMILCompositor
 :

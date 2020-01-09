@@ -1063,7 +1063,7 @@ aIndex
 /
 Used
 by
-nsSMILCompositor
+SMILCompositor
 to
 check
 if
