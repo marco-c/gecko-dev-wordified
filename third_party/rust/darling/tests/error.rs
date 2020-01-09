@@ -43,7 +43,7 @@ FromDeriveInput
 derive
 (
 Debug
-FromMeta
+FromMetaItem
 )
 ]
 struct

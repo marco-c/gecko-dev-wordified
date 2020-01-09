@@ -39,7 +39,7 @@ can
 obtain
 one
 at
-https
+http
 :
 /
 /
@@ -8475,7 +8475,6 @@ Err
 )
 =
 >
-{
 return
 Err
 (
@@ -8496,7 +8495,6 @@ clone
 )
 )
 )
-}
 }
 ;
 match
@@ -8536,12 +8534,10 @@ BreakBetween
 Right
 =
 >
-{
 Ok
 (
 break_value
 )
-}
 BreakBetween
 :
 :
@@ -8670,14 +8666,12 @@ BreakBetween
 Right
 =
 >
-{
 self
 .
 to_css
 (
 dest
 )
-}
 BreakBetween
 :
 :

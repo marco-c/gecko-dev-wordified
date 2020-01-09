@@ -2926,7 +2926,7 @@ options
 push
 (
 "
-functions
+function
 "
 .
 into
@@ -14136,7 +14136,7 @@ default
 generate
 "
 "
-functions
+function
 types
 vars
 methods
@@ -14272,7 +14272,7 @@ default
 generate
 "
 "
-functions
+function
 types
 vars
 methods

@@ -47,7 +47,7 @@ can
 obtain
 one
 at
-https
+http
 :
 /
 /
@@ -959,7 +959,7 @@ can
 obtain
 one
 at
-https
+http
 :
 /
 /

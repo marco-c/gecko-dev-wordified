@@ -39,7 +39,7 @@ can
 obtain
 one
 at
-https
+http
 :
 /
 /
@@ -76,10 +76,6 @@ darling
 extern
 crate
 proc_macro
-;
-extern
-crate
-proc_macro2
 ;
 #
 [

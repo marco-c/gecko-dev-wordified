@@ -39,7 +39,7 @@ can
 obtain
 one
 at
-https
+http
 :
 /
 /
@@ -72,10 +72,10 @@ to_css
 CssVariantAttrs
 ;
 use
-proc_macro2
+quote
 :
 :
-TokenStream
+Tokens
 ;
 use
 syn
@@ -137,7 +137,7 @@ DeriveInput
 )
 -
 >
-TokenStream
+Tokens
 {
 let
 name
@@ -298,7 +298,11 @@ ast
 .
 ident
 .
-to_string
+as_ref
+(
+)
+.
+into
 (
 )
 )

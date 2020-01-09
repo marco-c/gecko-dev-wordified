@@ -39,7 +39,7 @@ can
 obtain
 one
 at
-https
+http
 :
 /
 /
@@ -72,18 +72,12 @@ util
 Override
 ;
 use
-proc_macro2
-:
-:
-TokenStream
-;
-use
 quote
 :
 :
 {
 ToTokens
-TokenStreamExt
+Tokens
 }
 ;
 use
@@ -121,7 +115,7 @@ DeriveInput
 )
 -
 >
-TokenStream
+Tokens
 {
 let
 mut
@@ -504,7 +498,7 @@ WhereClause
 )
 -
 >
-TokenStream
+Tokens
 {
 let
 bindings
@@ -523,7 +517,6 @@ cg
 :
 to_css_identifier
 (
-&
 variant
 .
 ast
@@ -532,7 +525,7 @@ ast
 .
 ident
 .
-to_string
+as_ref
 (
 )
 )
@@ -866,7 +859,7 @@ str
 )
 -
 >
-TokenStream
+Tokens
 {
 let
 mut
@@ -1160,7 +1153,7 @@ WhereClause
 )
 -
 >
-TokenStream
+Tokens
 {
 let
 mut
@@ -1310,10 +1303,9 @@ cg
 :
 to_css_identifier
 (
-&
 ident
 .
-to_string
+as_ref
 (
 )
 )

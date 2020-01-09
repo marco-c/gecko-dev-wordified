@@ -9,7 +9,7 @@ be
 able
 to
 derive
-FromMeta
+FromMetaItem
 if
 its
 member
@@ -39,7 +39,7 @@ FromDeriveInput
 derive
 (
 Debug
-FromMeta
+FromMetaItem
 PartialEq
 Eq
 )

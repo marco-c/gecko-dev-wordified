@@ -39,7 +39,7 @@ can
 obtain
 one
 at
-https
+http
 :
 /
 /
@@ -76,16 +76,7 @@ crate
 cg
 ;
 use
-proc_macro2
-:
-:
-TokenStream
-;
-use
 quote
-:
-:
-TokenStreamExt
 ;
 use
 syn
@@ -107,7 +98,10 @@ DeriveInput
 )
 -
 >
-TokenStream
+quote
+:
+:
+Tokens
 {
 let
 animation_input_attrs

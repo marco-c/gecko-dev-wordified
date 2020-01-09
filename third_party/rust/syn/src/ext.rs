@@ -175,11 +175,7 @@ use
 syn
 :
 :
-{
-Error
 Ident
-Result
-}
 ;
 /
 /
@@ -203,7 +199,11 @@ syn
 parse
 :
 :
+{
+Error
 ParseStream
+Result
+}
 ;
 /
 /

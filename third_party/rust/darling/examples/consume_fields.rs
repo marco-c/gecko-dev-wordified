@@ -22,10 +22,6 @@ extern
 crate
 darling
 ;
-extern
-crate
-proc_macro2
-;
 #
 [
 macro_use
@@ -51,16 +47,13 @@ darling
 FromDeriveInput
 ;
 use
-proc_macro2
-:
-:
-TokenStream
-;
-use
 quote
 :
 :
+{
+Tokens
 ToTokens
+}
 ;
 use
 syn
@@ -104,7 +97,7 @@ derive
 Debug
 Clone
 Copy
-FromMeta
+FromMetaItem
 )
 ]
 #
@@ -152,7 +145,7 @@ derive
 input
 .
 Unlike
-FromMeta
+FromMetaItem
 this
 isn
 '
@@ -384,7 +377,7 @@ tokens
 :
 &
 mut
-TokenStream
+Tokens
 )
 {
 let
@@ -552,6 +545,7 @@ unwrap_or_else
 (
 |
 |
+{
 format
 !
 (
@@ -561,6 +555,7 @@ format
 "
 i
 )
+}
 )
 )
 }
@@ -804,7 +799,7 @@ _
 ;
 tokens
 .
-extend
+append_all
 (
 quote
 !

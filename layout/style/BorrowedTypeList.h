@@ -421,6 +421,14 @@ GECKO_BORROWED_TYPE_MUT
 mozilla
 :
 :
+ServoElementSnapshot
+ServoElementSnapshot
+)
+GECKO_BORROWED_TYPE_MUT
+(
+mozilla
+:
+:
 URLExtraData
 RawGeckoURLExtraData
 )

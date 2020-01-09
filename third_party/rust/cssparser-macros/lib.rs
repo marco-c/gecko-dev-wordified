@@ -105,12 +105,6 @@ ascii
 AsciiExt
 ;
 use
-quote
-:
-:
-TokenStreamExt
-;
-use
 std
 :
 :
