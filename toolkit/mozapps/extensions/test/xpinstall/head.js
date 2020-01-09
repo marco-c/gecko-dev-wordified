@@ -1874,6 +1874,8 @@ event
 .
 target
 .
+firstElementChild
+.
 getAttribute
 (
 "

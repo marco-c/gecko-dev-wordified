@@ -493,7 +493,7 @@ notifyp1
 clickDoorhangerButton
 (
 notif
-NEVER_BUTTON
+NEVER_MENUITEM
 )
 ;
 }

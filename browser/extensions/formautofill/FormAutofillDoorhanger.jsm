@@ -2591,7 +2591,7 @@ spotlightURL
 ;
 notification
 .
-append
+appendNotificationContent
 (
 notificationContent
 )

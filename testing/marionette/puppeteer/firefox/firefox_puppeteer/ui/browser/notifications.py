@@ -141,17 +141,15 @@ find_element
 (
 By
 .
-ANON_ATTRIBUTE
-                                         
-{
-'
-anonid
-'
-:
-'
+CSS_SELECTOR
+"
+.
+popup
+-
+notification
+-
 closebutton
-'
-}
+"
 )
     
 property
