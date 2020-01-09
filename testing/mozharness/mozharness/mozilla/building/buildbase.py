@@ -917,6 +917,7 @@ output
 .
         
 if
+(
 self
 .
 pass_count
@@ -930,6 +931,24 @@ fail_count
 =
 =
 0
+and
+           
+os
+.
+environ
+.
+get
+(
+'
+TRY_SELECTOR
+'
+)
+!
+=
+'
+coverage
+'
+)
 :
             
 self

@@ -92,6 +92,8 @@ BLOCK
 *
 import
 re
+import
+os
 from
 mozharness
 .
@@ -1801,6 +1803,7 @@ output
 .
         
 if
+(
 self
 .
 pass_count
@@ -1815,8 +1818,7 @@ fail_count
 =
 0
 and
-\
-                
+           
 (
 self
 .
@@ -1830,6 +1832,24 @@ known_fail_count
 <
 =
 0
+)
+and
+           
+os
+.
+environ
+.
+get
+(
+'
+TRY_SELECTOR
+'
+)
+!
+=
+'
+coverage
+'
 )
 :
             
