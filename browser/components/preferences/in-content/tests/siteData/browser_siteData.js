@@ -377,6 +377,7 @@ clearStoragesForPrincipal
 (
 principal
 null
+null
 true
 )
 ;

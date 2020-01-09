@@ -1483,8 +1483,6 @@ quotaManagerService
 clearStoragesForPrincipal
 (
 principal
-null
-false
 )
 ;
 req

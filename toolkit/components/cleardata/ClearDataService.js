@@ -1942,8 +1942,6 @@ qms
 clearStoragesForPrincipal
 (
 aPrincipal
-null
-false
 )
 ;
 req
@@ -2195,6 +2193,7 @@ clearStoragesForPrincipal
 (
 httpPrincipal
 null
+null
 true
 )
 ;
@@ -2232,6 +2231,7 @@ qms
 clearStoragesForPrincipal
 (
 httpsPrincipal
+null
 null
 true
 )
@@ -2625,8 +2625,6 @@ qms
 clearStoragesForPrincipal
 (
 principal
-null
-false
 )
 ;
 req
