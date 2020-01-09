@@ -259,11 +259,15 @@ do_get_profile
 )
 ;
 throw
+new
+Error
+(
 "
 registerFile
 succeeded
 !
 "
+)
 ;
 }
 catch

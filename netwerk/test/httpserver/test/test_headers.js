@@ -887,6 +887,9 @@ getHeader
 )
 ;
 throw
+new
+Error
+(
 "
 Failed
 to
@@ -895,6 +898,7 @@ for
 invalid
 header
 "
+)
 ;
 }
 catch
@@ -945,6 +949,9 @@ valid
 )
 ;
 throw
+new
+Error
+(
 "
 header
 doesn
@@ -952,6 +959,7 @@ doesn
 t
 exist
 "
+)
 ;
 }
 catch
@@ -1281,11 +1289,15 @@ hasHeader
 )
 ;
 throw
+new
+Error
+(
 "
 failed
 to
 throw
 "
+)
 ;
 }
 catch
