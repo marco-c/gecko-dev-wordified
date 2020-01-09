@@ -203,6 +203,9 @@ null
 privateBrowsingCaptureEnabled
 :
 null
+showAutoCompleteFooter
+:
+null
 init
 (
 )
@@ -378,7 +381,7 @@ schemeUpgrades
 ;
 this
 .
-storeWhenAutocompleteOff
+showAutoCompleteFooter
 =
 Services
 .
@@ -389,13 +392,13 @@ getBoolPref
 "
 signon
 .
-storeWhenAutocompleteOff
+showAutoCompleteFooter
 "
 )
 ;
 this
 .
-showAutoCompleteFooter
+storeWhenAutocompleteOff
 =
 Services
 .
@@ -406,7 +409,7 @@ getBoolPref
 "
 signon
 .
-showAutoCompleteFooter
+storeWhenAutocompleteOff
 "
 )
 ;
