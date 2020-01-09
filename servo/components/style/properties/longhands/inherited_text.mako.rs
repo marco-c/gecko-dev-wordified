@@ -2466,6 +2466,11 @@ optimizespeed
 optimizelegibility
 geometricprecision
 "
+gecko_enum_prefix
+=
+"
+StyleTextRendering
+"
 animation_value_type
 =
 "

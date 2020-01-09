@@ -17730,7 +17730,10 @@ mTextRendering
 )
 {
 case
-NS_STYLE_TEXT_RENDERING_OPTIMIZESPEED
+StyleTextRendering
+:
+:
+Optimizespeed
 :
 mContext
 .
@@ -35388,7 +35391,10 @@ StyleText
 mTextRendering
 =
 =
-NS_STYLE_TEXT_RENDERING_GEOMETRICPRECISION
+StyleTextRendering
+:
+:
+Geometricprecision
 ;
 }
 nscoord

@@ -10359,13 +10359,12 @@ mTextEmphasisStyle
 /
 NS_STYLE_TEXT_EMPHASIS_STYLE_
 *
-uint8_t
+mozilla
+:
+:
+StyleTextRendering
 mTextRendering
 ;
-/
-/
-NS_STYLE_TEXT_RENDERING_
-*
 mozilla
 :
 :
