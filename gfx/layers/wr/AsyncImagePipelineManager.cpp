@@ -2649,7 +2649,15 @@ aPipeline
 >
 mScBounds
 )
-nullptr
+wr
+:
+:
+WrStackingContextClip
+:
+:
+None
+(
+)
 nullptr
 &
 opacity

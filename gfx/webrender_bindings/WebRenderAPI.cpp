@@ -264,6 +264,8 @@ p
 )
 :
 "
+/
+/
 __VA_ARGS__
 )
 namespace
@@ -4053,9 +4055,9 @@ const
 wr
 :
 :
-WrClipId
-*
-aClipNodeId
+WrStackingContextClip
+&
+aClip
 const
 WrAnimationProperty
 *
@@ -4257,7 +4259,8 @@ aBounds
 mCurrentSpaceAndClipChain
 .
 space
-aClipNodeId
+&
+aClip
 aAnimation
 aOpacity
 maybeTransform
