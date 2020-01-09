@@ -65,7 +65,7 @@ import
 {
 getSource
 getSourceFromId
-hasSymbols
+getSymbols
 getSelectedLocation
 isPaused
 }
@@ -147,13 +147,9 @@ setPausePoints
 }
 ;
 import
-{
-getSymbols
-findOutOfScopeLocations
-getFramework
-type
-AstPosition
-}
+*
+as
+parser
 from
 "
 .
@@ -262,6 +258,8 @@ const
 framework
 =
 await
+parser
+.
 getFramework
 (
 source
@@ -353,7 +351,7 @@ source
 isWasm
 |
 |
-hasSymbols
+getSymbols
 (
 getState
 (
@@ -386,6 +384,8 @@ sourceId
 PROMISE
 ]
 :
+parser
+.
 getSymbols
 (
 sourceId
@@ -524,6 +524,8 @@ getState
 locations
 =
 await
+parser
+.
 findOutOfScopeLocations
 (
 source
@@ -536,6 +538,8 @@ location
 any
 )
 :
+parser
+.
 AstPosition
 )
 )
