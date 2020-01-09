@@ -3726,13 +3726,6 @@ during
 a
 stream
 !
-/
-/
-Accessed
-only
-on
-mStsThread
-.
 RtpPacketQueue
 mRtpPacketQueue
 ;
