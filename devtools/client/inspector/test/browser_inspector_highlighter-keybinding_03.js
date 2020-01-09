@@ -441,9 +441,7 @@ updated
 )
 inspector
 .
-inspector
-.
-nodePicker
+toolbox
 .
 once
 (
@@ -488,9 +486,7 @@ args
 return
 inspector
 .
-inspector
-.
-nodePicker
+toolbox
 .
 once
 (
@@ -544,9 +540,7 @@ onPickerNodeHovered
 =
 inspector
 .
-inspector
-.
-nodePicker
+toolbox
 .
 once
 (

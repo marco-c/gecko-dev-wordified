@@ -374,11 +374,9 @@ picker
 await
 toolbox
 .
-inspector
+highlighterUtils
 .
-nodePicker
-.
-stop
+stopPicker
 (
 )
 ;

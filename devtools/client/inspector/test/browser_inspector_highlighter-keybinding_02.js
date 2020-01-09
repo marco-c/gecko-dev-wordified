@@ -91,6 +91,7 @@ function
 {
 const
 {
+inspector
 toolbox
 testActor
 }
@@ -383,11 +384,9 @@ picker
 await
 toolbox
 .
-inspector
+highlighterUtils
 .
-nodePicker
-.
-stop
+stopPicker
 (
 )
 ;
@@ -431,11 +430,9 @@ ready
 const
 onPickerNodeHovered
 =
-toolbox
-.
 inspector
 .
-nodePicker
+toolbox
 .
 once
 (
@@ -507,11 +504,9 @@ ready
 const
 onPickerNodeHovered
 =
-toolbox
-.
 inspector
 .
-nodePicker
+toolbox
 .
 once
 (

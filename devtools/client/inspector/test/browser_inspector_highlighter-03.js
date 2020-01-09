@@ -495,11 +495,11 @@ deactivate
 await
 inspector
 .
-inspector
+toolbox
 .
-nodePicker
+highlighterUtils
 .
-stop
+stopPicker
 (
 )
 ;
@@ -551,9 +551,7 @@ mousemove
 return
 inspector
 .
-inspector
-.
-nodePicker
+toolbox
 .
 once
 (

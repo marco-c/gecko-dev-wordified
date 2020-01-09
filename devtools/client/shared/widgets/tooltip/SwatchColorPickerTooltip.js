@@ -1231,11 +1231,11 @@ opening
 eye
 -
 dropper
-inspector
+toolbox
 .
-nodePicker
+highlighterUtils
 .
-cancel
+cancelPicker
 (
 )
 ;

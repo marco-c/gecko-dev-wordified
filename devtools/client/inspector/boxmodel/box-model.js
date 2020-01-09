@@ -1347,7 +1347,7 @@ const
 {
 markup
 selection
-inspector
+toolbox
 }
 =
 this
@@ -1374,9 +1374,7 @@ false
 )
 )
 ;
-inspector
-.
-nodePicker
+toolbox
 .
 off
 (
@@ -2276,7 +2274,7 @@ const
 {
 markup
 selection
-inspector
+toolbox
 }
 =
 this
@@ -2358,9 +2356,7 @@ a
 new
 node
 front
-inspector
-.
-nodePicker
+toolbox
 .
 on
 (
@@ -2426,9 +2422,7 @@ onMarkupViewNodeHover
 }
 else
 {
-inspector
-.
-nodePicker
+toolbox
 .
 off
 (

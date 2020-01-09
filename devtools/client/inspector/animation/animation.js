@@ -765,9 +765,7 @@ this
 .
 inspector
 .
-inspector
-.
-nodePicker
+toolbox
 .
 on
 (
@@ -785,9 +783,7 @@ this
 .
 inspector
 .
-inspector
-.
-nodePicker
+toolbox
 .
 on
 (
@@ -981,9 +977,7 @@ this
 .
 inspector
 .
-inspector
-.
-nodePicker
+toolbox
 .
 off
 (
@@ -1001,9 +995,7 @@ this
 .
 inspector
 .
-inspector
-.
-nodePicker
+toolbox
 .
 off
 (
@@ -3871,9 +3863,9 @@ this
 .
 inspector
 .
-inspector
+toolbox
 .
-nodePicker
+highlighterUtils
 .
 togglePicker
 (
