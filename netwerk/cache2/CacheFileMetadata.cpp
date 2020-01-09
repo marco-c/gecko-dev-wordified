@@ -3868,18 +3868,6 @@ NETWORK_CACHE_METADATA_FIRST_READ_TIME_MS
 mReadStart
 )
 ;
-Telemetry
-:
-:
-Accumulate
-(
-Telemetry
-:
-:
-NETWORK_CACHE_METADATA_FIRST_READ_SIZE
-mBufSize
-)
-;
 }
 else
 {
@@ -4428,7 +4416,7 @@ Accumulate
 Telemetry
 :
 :
-NETWORK_CACHE_METADATA_SIZE
+NETWORK_CACHE_METADATA_SIZE_2
 size
 -
 realOffset
