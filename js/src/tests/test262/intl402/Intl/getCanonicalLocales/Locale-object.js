@@ -151,7 +151,7 @@ en
 -
 gb
 -
-oed
+oxendict
 "
 )
 "
