@@ -915,6 +915,12 @@ Navigator
 GetUserAgent
 (
 window
+mWorkerPrivate
+-
+>
+GetPrincipal
+(
+)
 isCallerChrome
 mUA
 )

@@ -823,6 +823,9 @@ AppName
 nsAString
 &
 aAppName
+nsIPrincipal
+*
+aCallerPrincipal
 bool
 aUsePrefOverriddenValue
 )
@@ -834,6 +837,9 @@ GetPlatform
 nsAString
 &
 aPlatform
+nsIPrincipal
+*
+aCallerPrincipal
 bool
 aUsePrefOverriddenValue
 )
@@ -845,6 +851,9 @@ GetAppVersion
 nsAString
 &
 aAppVersion
+nsIPrincipal
+*
+aCallerPrincipal
 bool
 aUsePrefOverriddenValue
 )
@@ -856,6 +865,9 @@ GetUserAgent
 nsPIDOMWindowInner
 *
 aWindow
+nsIPrincipal
+*
+aCallerPrincipal
 bool
 aIsCallerChrome
 nsAString
