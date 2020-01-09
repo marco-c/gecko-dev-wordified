@@ -824,7 +824,6 @@ GetParentObject
 )
 const
 ;
-virtual
 JSObject
 *
 WrapObject
