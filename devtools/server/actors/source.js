@@ -3876,10 +3876,15 @@ line
 column
 condition
 noSliding
+inNestedLoop
 )
 {
 if
 (
+!
+inNestedLoop
+&
+&
 this
 .
 threadActor
