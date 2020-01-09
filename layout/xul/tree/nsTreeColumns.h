@@ -123,13 +123,6 @@ nsTreeColumns_h__
 #
 include
 "
-nsITreeBoxObject
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -211,7 +204,7 @@ class
 Element
 ;
 class
-TreeBoxObject
+XULTreeElement
 ;
 }
 /
@@ -918,7 +911,7 @@ mozilla
 dom
 :
 :
-TreeBoxObject
+XULTreeElement
 *
 GetTree
 (

@@ -143,8 +143,6 @@ _rowCount
 ;
 aTree
 .
-treeBoxObject
-.
 rowCountChanged
 (
 0
@@ -354,8 +352,6 @@ i
 ;
 aTree
 .
-treeBoxObject
-.
 rowCountChanged
 (
 i
@@ -381,8 +377,6 @@ nextSelection
 )
 ;
 aTree
-.
-treeBoxObject
 .
 ensureRowIsVisible
 (
@@ -516,15 +510,11 @@ select
 ;
 aTree
 .
-treeBoxObject
-.
 invalidate
 (
 )
 ;
 aTree
-.
-treeBoxObject
 .
 ensureRowIsVisible
 (
