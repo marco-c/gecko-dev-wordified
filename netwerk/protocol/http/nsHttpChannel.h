@@ -1028,15 +1028,6 @@ aIdentifier
 )
 override
 ;
-NS_IMETHOD
-HasCrossOriginOpenerPolicyMismatch
-(
-bool
-*
-aMismatch
-)
-override
-;
 /
 /
 nsIHttpChannelInternal
