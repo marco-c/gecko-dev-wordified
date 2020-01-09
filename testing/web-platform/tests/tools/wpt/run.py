@@ -1619,7 +1619,9 @@ directly
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Using
@@ -1693,7 +1695,9 @@ if
 install
 :
                     
-print
+logger
+.
+info
 (
 "
 Downloading
@@ -1721,7 +1725,9 @@ bin_path
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Using
@@ -1750,7 +1756,9 @@ webdriver_binary
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Unable
@@ -1997,7 +2005,9 @@ if
 install
 :
                     
-print
+logger
+.
+info
 (
 "
 Downloading
@@ -2025,7 +2035,9 @@ bin_path
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Using
@@ -2312,7 +2324,9 @@ if
 install
 :
                     
-print
+logger
+.
+info
 (
 "
 Downloading
@@ -2340,7 +2354,9 @@ bin_path
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Using
@@ -2451,7 +2467,9 @@ if
 install
 :
                     
-print
+logger
+.
+info
 (
 "
 Downloading
@@ -2479,7 +2497,9 @@ bin_path
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Using
@@ -3302,81 +3322,22 @@ webkit
 WebKit
 }
 def
-setup_wptrunner
+setup_logging
 (
-venv
-prompt
-=
-True
-install_browser
-=
-False
-*
-*
 kwargs
 )
 :
+    
+import
+mozlog
     
 from
 wptrunner
 import
 wptrunner
-wptcommandline
-    
-import
-mozlog
     
 global
 logger
-    
-kwargs
-=
-utils
-.
-Kwargs
-(
-kwargs
-.
-iteritems
-(
-)
-)
-    
-product_parts
-=
-kwargs
-[
-"
-product
-"
-]
-.
-split
-(
-"
-:
-"
-)
-    
-kwargs
-[
-"
-product
-"
-]
-=
-product_parts
-[
-0
-]
-    
-sub_product
-=
-product_parts
-[
-1
-:
-]
     
 #
 Use
@@ -3440,6 +3401,75 @@ logger
 wptrunner
 .
 logger
+def
+setup_wptrunner
+(
+venv
+prompt
+=
+True
+install_browser
+=
+False
+*
+*
+kwargs
+)
+:
+    
+from
+wptrunner
+import
+wptcommandline
+    
+kwargs
+=
+utils
+.
+Kwargs
+(
+kwargs
+.
+iteritems
+(
+)
+)
+    
+product_parts
+=
+kwargs
+[
+"
+product
+"
+]
+.
+split
+(
+"
+:
+"
+)
+    
+kwargs
+[
+"
+product
+"
+]
+=
+product_parts
+[
+0
+]
+    
+sub_product
+=
+product_parts
+[
+1
+:
+]
     
 check_environ
 (
@@ -3810,6 +3840,11 @@ venv
 kwargs
 )
 :
+    
+setup_logging
+(
+kwargs
+)
     
 #
 Remove
