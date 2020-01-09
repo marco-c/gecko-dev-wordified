@@ -625,17 +625,6 @@ MozContainer
 container
 )
 ;
-void
-moz_container_scale_changed
-(
-MozContainer
-*
-container
-GtkAllocation
-*
-aAllocation
-)
-;
 #
 endif
 #
