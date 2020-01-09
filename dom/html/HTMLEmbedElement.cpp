@@ -366,7 +366,7 @@ HTMLEmbedElement
 nsGenericHTMLElement
 nsIRequestObserver
 nsIStreamListener
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 nsIObjectLoadingContent
 imgINotificationObserver
 nsIImageLoadingContent

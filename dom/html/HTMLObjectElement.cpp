@@ -553,7 +553,7 @@ nsGenericHTMLFormElement
 imgINotificationObserver
 nsIRequestObserver
 nsIStreamListener
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 nsIObjectLoadingContent
 nsIImageLoadingContent
 nsIChannelEventSink

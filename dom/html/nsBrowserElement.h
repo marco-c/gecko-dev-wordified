@@ -282,13 +282,11 @@ aRv
 ;
 protected
 :
-NS_IMETHOD_
-(
+virtual
 already_AddRefed
 <
 nsFrameLoader
 >
-)
 GetFrameLoader
 (
 )

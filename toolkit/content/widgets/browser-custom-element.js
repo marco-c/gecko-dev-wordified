@@ -11164,9 +11164,6 @@ MozBrowser
 Ci
 .
 nsIBrowser
-Ci
-.
-nsIFrameLoaderOwner
 ]
 )
 ;

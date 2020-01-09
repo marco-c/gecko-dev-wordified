@@ -319,6 +319,13 @@ h
 #
 include
 "
+nsFrameLoaderOwner
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -5897,10 +5904,10 @@ SwapWithOtherRemoteLoader
 nsFrameLoader
 *
 aOther
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 *
 aThisOwner
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 *
 aOtherOwner
 )
@@ -7072,7 +7079,7 @@ this
 aThisOwner
 -
 >
-InternalSetFrameLoader
+SetFrameLoader
 (
 aOther
 )
@@ -7080,7 +7087,7 @@ aOther
 aOtherOwner
 -
 >
-InternalSetFrameLoader
+SetFrameLoader
 (
 kungFuDeathGrip
 )
@@ -7521,10 +7528,10 @@ SwapWithOtherLoader
 nsFrameLoader
 *
 aOther
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 *
 aThisOwner
-nsIFrameLoaderOwner
+nsFrameLoaderOwner
 *
 aOtherOwner
 )
@@ -9752,7 +9759,7 @@ this
 aThisOwner
 -
 >
-InternalSetFrameLoader
+SetFrameLoader
 (
 aOther
 )
@@ -9760,7 +9767,7 @@ aOther
 aOtherOwner
 -
 >
-InternalSetFrameLoader
+SetFrameLoader
 (
 kungFuDeathGrip
 )
