@@ -222,11 +222,6 @@ SVGAnimationElement
 /
 namespace
 dom
-}
-/
-/
-namespace
-mozilla
 /
 /
 -
@@ -301,7 +296,7 @@ mozilla
 -
 /
 /
-nsSMILAnimationController
+SMILAnimationController
 /
 /
 /
@@ -413,7 +408,7 @@ level
 /
 /
 class
-nsSMILAnimationController
+SMILAnimationController
 final
 :
 public
@@ -424,7 +419,7 @@ nsARefreshObserver
 public
 :
 explicit
-nsSMILAnimationController
+SMILAnimationController
 (
 nsIDocument
 *
@@ -797,7 +792,7 @@ aRoot
 protected
 :
 ~
-nsSMILAnimationController
+SMILAnimationController
 (
 )
 ;
@@ -1438,6 +1433,11 @@ mLastCompositorTable
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

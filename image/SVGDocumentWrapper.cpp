@@ -227,7 +227,9 @@ h
 #
 include
 "
-nsSMILAnimationController
+mozilla
+/
+SMILAnimationController
 .
 h
 "
@@ -825,7 +827,7 @@ if
 doc
 )
 {
-nsSMILAnimationController
+SMILAnimationController
 *
 controller
 =
@@ -932,7 +934,7 @@ if
 doc
 )
 {
-nsSMILAnimationController
+SMILAnimationController
 *
 controller
 =

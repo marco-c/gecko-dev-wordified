@@ -1068,7 +1068,7 @@ the
 next
 .
 (
-nsSMILAnimationController
+SMILAnimationController
 moves
 this
 /

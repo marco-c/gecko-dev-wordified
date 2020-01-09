@@ -117,7 +117,9 @@ MPL
 #
 include
 "
-nsSMILAnimationController
+mozilla
+/
+SMILAnimationController
 .
 h
 "
@@ -232,14 +234,13 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
+namespace
+mozilla
+{
 /
 /
 -
@@ -314,7 +315,7 @@ dom
 -
 /
 /
-nsSMILAnimationController
+SMILAnimationController
 implementation
 /
 /
@@ -394,10 +395,10 @@ ctors
 dtors
 factory
 methods
-nsSMILAnimationController
+SMILAnimationController
 :
 :
-nsSMILAnimationController
+SMILAnimationController
 (
 nsIDocument
 *
@@ -493,11 +494,11 @@ Begin
 )
 ;
 }
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 ~
-nsSMILAnimationController
+SMILAnimationController
 (
 )
 {
@@ -550,7 +551,7 @@ list
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 Disconnect
@@ -714,7 +715,7 @@ nsSMILTimeContainer
 methods
 :
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 Pause
@@ -750,7 +751,7 @@ GetRefreshDriver
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 Resume
@@ -848,7 +849,7 @@ manually
 }
 }
 nsSMILTime
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 GetParentTime
@@ -950,11 +951,11 @@ methods
 :
 NS_IMPL_ADDREF
 (
-nsSMILAnimationController
+SMILAnimationController
 )
 NS_IMPL_RELEASE
 (
-nsSMILAnimationController
+SMILAnimationController
 )
 /
 /
@@ -962,7 +963,7 @@ nsRefreshDriver
 Callback
 function
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 WillRefresh
@@ -1454,7 +1455,7 @@ registration
 methods
 :
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 RegisterAnimationElement
@@ -1571,7 +1572,7 @@ AddChild
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 UnregisterAnimationElement
@@ -1668,7 +1669,7 @@ show
 /
 hide
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 OnPageShow
@@ -1685,7 +1686,7 @@ PAUSE_PAGEHIDE
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 OnPageHide
@@ -1780,7 +1781,7 @@ Cycle
 collection
 support
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 Traverse
@@ -1849,7 +1850,7 @@ aCallback
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 Unlink
@@ -1941,7 +1942,7 @@ lifecycle
 related
 methods
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 NotifyRefreshDriverCreated
@@ -1965,7 +1966,7 @@ aRefreshDriver
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 NotifyRefreshDriverDestroying
@@ -2072,7 +2073,7 @@ related
 implementation
 helpers
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 StartSampling
@@ -2221,7 +2222,7 @@ true
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 StopSampling
@@ -2311,7 +2312,7 @@ false
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 MaybeStartSampling
@@ -2458,7 +2459,7 @@ methods
 and
 callbacks
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 DoSample
@@ -2478,7 +2479,7 @@ time
 containers
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 DoSample
@@ -3651,7 +3652,7 @@ sample
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 RewindElements
@@ -3849,7 +3850,7 @@ ClearNeedsRewind
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 DoMilestoneSamples
@@ -4635,7 +4636,7 @@ static
 *
 /
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 SampleTimedElement
@@ -4853,7 +4854,7 @@ static
 *
 /
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 AddAnimationToCompositorTable
@@ -5279,7 +5280,7 @@ static
 *
 /
 bool
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 GetTargetIdentifierForAnimation
@@ -5472,7 +5473,7 @@ true
 ;
 }
 bool
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 PreTraverse
@@ -5487,7 +5488,7 @@ nullptr
 ;
 }
 bool
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 PreTraverseInSubtree
@@ -5790,7 +5791,7 @@ child
 time
 containers
 nsresult
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 AddChild
@@ -5858,7 +5859,7 @@ NS_OK
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 RemoveChild
@@ -5907,7 +5908,7 @@ Helper
 method
 nsRefreshDriver
 *
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 GetRefreshDriver
@@ -5963,7 +5964,7 @@ nullptr
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 FlagDocumentNeedsFlush
@@ -5993,3 +5994,8 @@ SetNeedStyleFlush
 ;
 }
 }
+}
+/
+/
+namespace
+mozilla

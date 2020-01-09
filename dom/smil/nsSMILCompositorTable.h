@@ -225,7 +225,7 @@ included
 in
 /
 /
-nsSMILAnimationController
+SMILAnimationController
 which
 is
 used

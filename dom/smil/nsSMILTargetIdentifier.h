@@ -153,7 +153,7 @@ Name
 *
 Used
 in
-nsSMILAnimationController
+SMILAnimationController
 as
 hash
 key
@@ -185,7 +185,7 @@ attribute
 name
 because
 *
-nsSMILAnimationController
+SMILAnimationController
 retain
 its
 hash

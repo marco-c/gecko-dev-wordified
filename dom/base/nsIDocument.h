@@ -774,9 +774,6 @@ class
 nsSimpleContentList
 ;
 class
-nsSMILAnimationController
-;
-class
 nsTextNode
 ;
 class
@@ -829,6 +826,9 @@ PendingAnimationTracker
 ;
 class
 ServoStyleSet
+;
+class
+SMILAnimationController
 ;
 template
 <
@@ -15023,7 +15023,10 @@ non
 -
 null
 .
-nsSMILAnimationController
+mozilla
+:
+:
+SMILAnimationController
 *
 GetAnimationController
 (
@@ -22897,7 +22900,10 @@ in
 GetAnimationController
 RefPtr
 <
-nsSMILAnimationController
+mozilla
+:
+:
+SMILAnimationController
 >
 mAnimationController
 ;
