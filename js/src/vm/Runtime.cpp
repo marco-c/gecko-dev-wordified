@@ -988,9 +988,6 @@ debuggerMallocSizeOf
 (
 ReturnZeroSize
 )
-performanceMonitoring_
-(
-)
 stackFormat_
 (
 parentRuntime

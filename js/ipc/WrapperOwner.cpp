@@ -166,13 +166,6 @@ h
 #
 include
 "
-CPOWTimer
-.
-h
-"
-#
-include
-"
 WrapperFactory
 .
 h
@@ -1051,13 +1044,6 @@ failRetVal
 }
 \
 {
-\
-CPOWTimer
-timer
-(
-cx
-)
-;
 \
 return
 owner

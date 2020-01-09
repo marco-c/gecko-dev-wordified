@@ -482,10 +482,6 @@ wasm
 (
 runtime_
 )
-performanceMonitoring
-(
-runtime_
-)
 {
 MOZ_ASSERT_IF
 (
