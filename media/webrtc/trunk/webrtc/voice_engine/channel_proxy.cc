@@ -622,8 +622,6 @@ int
 id
 )
 {
-/
-/
 RTC_DCHECK
 (
 worker_thread_checker_
