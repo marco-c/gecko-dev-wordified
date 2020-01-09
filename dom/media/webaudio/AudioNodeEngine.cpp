@@ -130,7 +130,7 @@ h
 "
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 #
 include
 "
@@ -452,7 +452,7 @@ aSize
 {
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla
@@ -794,7 +794,7 @@ else
 {
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla
@@ -1098,7 +1098,7 @@ WEBAUDIO_BLOCK_SIZE
 {
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla
@@ -1249,7 +1249,7 @@ return
 }
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla
@@ -1338,7 +1338,7 @@ aSize
 {
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla
@@ -1536,7 +1536,7 @@ WEBAUDIO_BLOCK_SIZE
 {
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla
@@ -1739,7 +1739,7 @@ WEBAUDIO_BLOCK_SIZE
 {
 #
 ifdef
-BUILD_ARM_NEON
+USE_NEON
 if
 (
 mozilla
