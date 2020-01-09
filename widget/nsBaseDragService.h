@@ -909,9 +909,6 @@ mDragAction
 uint32_t
 mDragActionFromChildProcess
 ;
-nsSize
-mTargetSize
-;
 nsCOMPtr
 <
 nsINode
