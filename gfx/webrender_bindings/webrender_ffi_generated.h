@@ -2440,6 +2440,9 @@ uintptr_t
 depth_target_textures
 ;
 uintptr_t
+swap_chain
+;
+uintptr_t
 total_gpu_bytes_allocated
 ;
 bool
@@ -2565,6 +2568,14 @@ depth_target_textures
 aOther
 .
 depth_target_textures
+&
+&
+swap_chain
+=
+=
+aOther
+.
+swap_chain
 &
 &
 total_gpu_bytes_allocated
