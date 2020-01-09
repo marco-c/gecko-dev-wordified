@@ -4709,6 +4709,12 @@ mCapturingDecoder
 bool
 mCapturingMediaStream
 ;
+RefPtr
+<
+CaptureStreamTrackSourceGetter
+>
+mTrackSourceGetter
+;
 /
 /
 The
