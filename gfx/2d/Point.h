@@ -1195,6 +1195,7 @@ aPoint
 F
 aEpsilon
 )
+const
 {
 return
 fabs
