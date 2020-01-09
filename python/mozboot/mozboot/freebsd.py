@@ -222,6 +222,10 @@ llvm
 *
             
 '
+nasm
+'
+            
+'
 pulseaudio
 '
             

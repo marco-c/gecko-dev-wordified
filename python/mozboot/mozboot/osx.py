@@ -2839,6 +2839,10 @@ packages
 [
             
 '
+nasm
+'
+            
+'
 yasm
 '
         
@@ -3291,6 +3295,10 @@ mode
 packages
 =
 [
+            
+'
+nasm
+'
             
 '
 yasm

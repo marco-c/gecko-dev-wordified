@@ -453,6 +453,10 @@ dev
 '
         
 '
+nasm
+'
+        
+'
 python
 -
 dbus
