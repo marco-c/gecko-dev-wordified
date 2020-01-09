@@ -2256,7 +2256,6 @@ UvRectKind
 :
 Rect
 root_spatial_node_index
-None
 )
 ;
 let

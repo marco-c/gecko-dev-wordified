@@ -17651,7 +17651,6 @@ uv_rect_kind
 pic_context
 .
 raster_spatial_node_index
-None
 )
 ;
 let
@@ -17943,7 +17942,6 @@ uv_rect_kind
 pic_context
 .
 raster_spatial_node_index
-None
 )
 ;
 picture_task
@@ -18319,7 +18317,6 @@ uv_rect_kind
 pic_context
 .
 raster_spatial_node_index
-None
 )
 ;
 let
@@ -18536,7 +18533,6 @@ uv_rect_kind
 pic_context
 .
 raster_spatial_node_index
-None
 )
 ;
 let
@@ -18680,7 +18676,6 @@ uv_rect_kind
 pic_context
 .
 raster_spatial_node_index
-None
 )
 ;
 let
