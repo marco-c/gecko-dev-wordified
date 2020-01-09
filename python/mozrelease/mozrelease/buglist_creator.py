@@ -1625,21 +1625,6 @@ os
 environ
 :
         
-#
-Until
-bug
-1460015
-is
-finished
-use
-the
-old
-baseUrl
-style
-of
-proxy
-URL
-        
 base_url
 =
 os
