@@ -456,6 +456,12 @@ nsIPrincipal
 >
 mPrincipalToInherit
 ;
+nsCOMPtr
+<
+nsIContentSecurityPolicy
+>
+mCsp
+;
 nsCString
 mContentType
 ;

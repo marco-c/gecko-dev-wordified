@@ -2828,6 +2828,9 @@ IPC
 Principal
 &
 aTriggeringPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 const
 uint32_t
 &
@@ -2893,6 +2896,9 @@ IPC
 Principal
 &
 aTriggeringPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 const
 uint32_t
 &
@@ -3933,6 +3939,9 @@ uint32_t
 aReferrerPolicy
 bool
 aLoadUri
+nsIContentSecurityPolicy
+*
+aCsp
 )
 ;
 FORWARD_SHMEM_ALLOCATOR_TO

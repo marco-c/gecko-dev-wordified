@@ -3040,6 +3040,9 @@ aHasPostData
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 bool
 *
 _retval
@@ -3082,6 +3085,7 @@ aURI
 aReferrer
 aHasPostData
 aTriggeringPrincipal
+aCsp
 _retval
 )
 ;
@@ -3151,6 +3155,9 @@ nsIPrincipal
 aTriggeringPrincipal
 uint32_t
 aLoadFlags
+nsIContentSecurityPolicy
+*
+aCsp
 bool
 *
 aRetVal

@@ -1302,6 +1302,13 @@ h
 #
 include
 "
+nsIContentSecurityPolicy
+.
+h
+"
+#
+include
+"
 nsIContentProcess
 .
 h
@@ -29571,6 +29578,9 @@ uint32_t
 aReferrerPolicy
 bool
 aLoadURI
+nsIContentSecurityPolicy
+*
+aCsp
 )
 {
 /
@@ -30082,6 +30092,14 @@ params
 SetReferrerPolicy
 (
 aReferrerPolicy
+)
+;
+params
+-
+>
+SetCsp
+(
+aCsp
 )
 ;
 RefPtr
@@ -30934,6 +30952,9 @@ IPC
 Principal
 &
 aTriggeringPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 const
 uint32_t
 &
@@ -31275,6 +31296,7 @@ aLoadUri
 *
 /
 false
+aCsp
 )
 ;
 if
@@ -31490,6 +31512,9 @@ IPC
 Principal
 &
 aTriggeringPrincipal
+nsIContentSecurityPolicy
+*
+aCsp
 const
 uint32_t
 &
@@ -31576,6 +31601,7 @@ aLoadUri
 *
 /
 true
+aCsp
 )
 ;
 if

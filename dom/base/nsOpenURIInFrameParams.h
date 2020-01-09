@@ -219,5 +219,11 @@ nsIPrincipal
 >
 mTriggeringPrincipal
 ;
+nsCOMPtr
+<
+nsIContentSecurityPolicy
+>
+mCsp
+;
 }
 ;
