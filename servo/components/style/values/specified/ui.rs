@@ -1123,7 +1123,6 @@ none
 )
 ]
 None
-All
 /
 /
 /
@@ -1139,17 +1138,7 @@ has
 none
 set
 .
-/
-/
-/
-/
-/
-/
-See
-bug
-48096
-.
-MozAll
+All
 /
 /
 /
