@@ -2968,6 +2968,10 @@ to
 0
 0
 )
+sized
+0
+x
+0
 in
 that
 case
@@ -2983,8 +2987,10 @@ IsEmpty
 {
 mFrameRect
 .
-MoveTo
+SetRect
 (
+0
+0
 0
 0
 )
