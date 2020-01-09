@@ -1143,6 +1143,12 @@ sessionAcc
 SendSelectedEvent
 (
 accessible
+event
+-
+>
+IsStateEnabled
+(
+)
 )
 ;
 }

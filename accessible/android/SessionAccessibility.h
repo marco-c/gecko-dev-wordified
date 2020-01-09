@@ -775,6 +775,8 @@ SendSelectedEvent
 AccessibleWrap
 *
 aAccessible
+bool
+aSelected
 )
 ;
 void
