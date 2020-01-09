@@ -1819,9 +1819,6 @@ beforeShown
 =
 true
 ;
-return
-true
-;
 }
 }
 ;
@@ -2076,9 +2073,6 @@ onBeforeShow
 {
 beforeShown
 =
-true
-;
-return
 true
 ;
 }
