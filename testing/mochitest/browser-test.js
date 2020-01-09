@@ -725,17 +725,6 @@ Ci
 nsIWebNavigation
 )
 ;
-var
-systemPrincipal
-=
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-;
 webNav
 .
 loadURI
@@ -745,7 +734,6 @@ null
 null
 null
 null
-systemPrincipal
 )
 ;
 }
