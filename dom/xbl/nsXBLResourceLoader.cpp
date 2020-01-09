@@ -117,13 +117,6 @@ MPL
 #
 include
 "
-nsCSSFrameConstructor
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
