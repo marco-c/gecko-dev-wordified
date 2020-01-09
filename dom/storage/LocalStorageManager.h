@@ -688,11 +688,7 @@ LocalStorageManager
 Self
 (
 )
-{
-return
-sSelf
 ;
-}
 /
 /
 Like
