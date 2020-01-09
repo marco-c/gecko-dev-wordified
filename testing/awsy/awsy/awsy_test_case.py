@@ -250,6 +250,16 @@ NotImplementedError
 )
     
 def
+perf_extra_opts
+(
+self
+)
+:
+        
+return
+None
+    
+def
 iterations
 (
 self
@@ -677,6 +687,12 @@ perf_suites
 self
 .
 perf_checkpoints
+(
+)
+                            
+self
+.
+perf_extra_opts
 (
 )
 )
