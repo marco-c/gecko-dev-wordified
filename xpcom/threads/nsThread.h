@@ -1085,6 +1085,9 @@ to
 shut
 down
 .
+using
+ShutdownContexts
+=
 nsTArray
 <
 nsAutoPtr
@@ -1093,6 +1096,8 @@ struct
 nsThreadShutdownContext
 >
 >
+;
+ShutdownContexts
 mRequestedShutdownContexts
 ;
 /
