@@ -1523,6 +1523,12 @@ aAnonymize
 )
 override
 {
+/
+/
+clang
+-
+format
+off
 MOZ_COLLECT_REPORT
 (
 "
@@ -1799,6 +1805,12 @@ crash
 "
 )
 ;
+/
+/
+clang
+-
+format
+on
 return
 NS_OK
 ;

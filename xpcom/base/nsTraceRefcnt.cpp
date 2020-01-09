@@ -1951,6 +1951,12 @@ return
 false
 ;
 }
+/
+/
+clang
+-
+format
+off
 fprintf
 (
 aOut
@@ -2043,6 +2049,12 @@ n
 "
 )
 ;
+/
+/
+clang
+-
+format
+on
 this
 -
 >

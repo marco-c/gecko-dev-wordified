@@ -782,6 +782,12 @@ str
 }
 /
 /
+clang
+-
+format
+off
+/
+/
 This
 table
 maps
@@ -1383,6 +1389,12 @@ Z
 255
 }
 ;
+/
+/
+clang
+-
+format
+on
 bool
 NS_IsUpper
 (
