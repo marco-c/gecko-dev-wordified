@@ -469,6 +469,14 @@ dbg
 true
 )
 ;
+/
+/
+Edit
+the
+conditional
+breakpoint
+set
+above
 await
 setConditionalBreakpoint
 (
@@ -505,7 +513,7 @@ bp
 .
 condition
 "
-2
+12
 "
 "
 breakpoint
