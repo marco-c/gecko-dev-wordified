@@ -3831,9 +3831,6 @@ proxy
 -
 server
 =
-"
-http
-=
 127
 .
 0
@@ -3843,25 +3840,19 @@ http
 1
 :
 8080
-;
 '
-+
                     
 '
-https
+-
+-
+proxy
+-
+bypass
+-
+list
 =
-127
-.
-0
-.
-0
-.
-1
-:
-8080
+localhost
 ;
-ssl
-=
 127
 .
 0
@@ -3869,9 +3860,6 @@ ssl
 0
 .
 1
-:
-8080
-"
 '
                     
 '
@@ -3894,12 +3882,6 @@ default
 browser
 -
 check
-'
-                    
-'
-disable
--
-sync
 '
                 
 ]
