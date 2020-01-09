@@ -516,6 +516,14 @@ expiration_offset
 (
 aExpirationOffset
 )
+store_count
+(
+aStoreCount
+)
+store_offset
+(
+aStoreOffset
+)
 {
 }
 const
