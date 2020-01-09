@@ -763,9 +763,11 @@ THE
 DESKTOP
 LIST
 IN
-nsBrowserGlue
+/
+/
+BrowserGlue
 .
-js
+jsm
 "
 RemoteLogins
 :
@@ -809,9 +811,11 @@ THE
 DESKTOP
 LIST
 IN
-nsBrowserGlue
+/
+/
+BrowserGlue
 .
-js
+jsm
 ]
 }
 )

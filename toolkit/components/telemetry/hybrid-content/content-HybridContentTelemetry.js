@@ -1028,9 +1028,9 @@ the
 related
 listener
 in
-nsBrowserGlue
+BrowserGlue
 .
-js
+jsm
 .
 sendAsyncMessage
 (

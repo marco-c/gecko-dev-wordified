@@ -495,9 +495,9 @@ Listeners
 are
 added
 in
-nsBrowserGlue
+BrowserGlue
 .
-js
+jsm
 on
 desktop
 /

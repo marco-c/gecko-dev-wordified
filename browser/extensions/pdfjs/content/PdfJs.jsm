@@ -745,9 +745,9 @@ logic
 in
 /
 /
-nsBrowserGlue
+BrowserGlue
 .
-js
+jsm
 .
 Services
 .

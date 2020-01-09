@@ -364,9 +364,10 @@ by
 the
 listener
 in
-nsBrowserGlue
+*
+BrowserGlue
 .
-js
+jsm
 .
 *
 /

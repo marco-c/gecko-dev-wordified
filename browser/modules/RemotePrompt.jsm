@@ -144,9 +144,9 @@ Listeners
 are
 added
 in
-nsBrowserGlue
+BrowserGlue
 .
-js
+jsm
 receiveMessage
 (
 message
