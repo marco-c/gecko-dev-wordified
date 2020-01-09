@@ -425,13 +425,6 @@ DirectoryLockImpl
 >
 DirectoryLockTable
 ;
-public
-:
-class
-CreateRunnable
-;
-private
-:
 class
 Observer
 ;
