@@ -861,6 +861,13 @@ terminate
 passphrase
 *
 /
+if
+(
+i
+<
+nb
+)
+{
 phrases
 [
 i
@@ -873,6 +880,7 @@ i
 0
 '
 ;
+}
 /
 *
 clean
