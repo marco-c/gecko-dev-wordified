@@ -950,7 +950,7 @@ FRAME_ID
 (
 nsVideoFrame
 HTMLVideo
-DynamicLeaf
+NotLeaf
 )
 FRAME_ID
 (
