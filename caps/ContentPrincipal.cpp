@@ -1116,14 +1116,15 @@ innermost
 URI
 .
 !
+StringBeginsWith
+(
 origin
 -
 >
 GetSpecOrDefault
 (
 )
-.
-EqualsLiteral
+NS_LITERAL_CSTRING
 (
 "
 moz
@@ -1134,6 +1135,7 @@ about
 :
 blank
 "
+)
 )
 )
 )
