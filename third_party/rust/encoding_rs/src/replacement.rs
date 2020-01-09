@@ -310,11 +310,9 @@ else
 if
 dst
 .
-len
+is_empty
 (
 )
-<
-1
 {
 /
 /
