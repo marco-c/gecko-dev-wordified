@@ -3918,6 +3918,24 @@ certificate
 -
 errors
 '
+                    
+'
+-
+-
+no
+-
+default
+-
+browser
+-
+check
+'
+                    
+'
+disable
+-
+sync
+'
                 
 ]
                 
