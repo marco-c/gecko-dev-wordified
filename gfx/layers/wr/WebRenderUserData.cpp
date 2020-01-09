@@ -1767,6 +1767,10 @@ WebRenderFallbackData
 (
 )
 {
+ClearImageKey
+(
+)
+;
 }
 nsDisplayItemGeometry
 *
