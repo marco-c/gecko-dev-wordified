@@ -23477,18 +23477,6 @@ aState
 mWrBridge
 )
 {
-IntPoint
-point
-=
-RoundedToInt
-(
-aPoint
-)
-.
-ToUnknownPoint
-(
-)
-;
 api
 =
 aState
@@ -23498,7 +23486,7 @@ mWrBridge
 >
 GetWebRenderAPIAtPoint
 (
-point
+aPoint
 )
 ;
 }
