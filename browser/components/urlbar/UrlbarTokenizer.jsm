@@ -1647,12 +1647,12 @@ searchString
 ;
 if
 (
+!
 searchString
 .
-length
-=
-=
-0
+trim
+(
+)
 )
 {
 queryContext
