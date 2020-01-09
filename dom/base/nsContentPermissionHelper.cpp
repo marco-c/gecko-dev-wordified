@@ -4017,10 +4017,6 @@ false
 emptyChoices
 )
 ;
-mParent
-=
-nullptr
-;
 return
 NS_OK
 ;
@@ -4362,10 +4358,6 @@ SendNotifyResult
 true
 choices
 )
-;
-mParent
-=
-nullptr
 ;
 return
 NS_OK
