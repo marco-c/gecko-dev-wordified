@@ -24934,6 +24934,13 @@ CalculateCompositedSizeInCssPixels
 (
 )
 )
+Metrics
+(
+)
+.
+GetScrollableRect
+(
+)
 mCompositedLayoutViewport
 )
 ;
