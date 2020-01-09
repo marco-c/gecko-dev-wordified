@@ -2564,6 +2564,10 @@ taskgraph
 .
 actions
         
+from
+taskgraph
+.
+util
 import
 yaml
         
@@ -2598,7 +2602,7 @@ yml
 return
 yaml
 .
-safe_load
+load_stream
 (
 f
 )

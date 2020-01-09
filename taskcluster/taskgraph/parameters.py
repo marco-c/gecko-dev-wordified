@@ -79,8 +79,6 @@ import
 json
 import
 time
-import
-yaml
 from
 datetime
 import
@@ -1408,6 +1406,13 @@ import
 get_artifact_url
 find_task_id
     
+from
+taskgraph
+.
+util
+import
+yaml
+    
 if
 overrides
 is
@@ -1606,7 +1611,7 @@ kwargs
 =
 yaml
 .
-safe_load
+load_stream
 (
 f
 )
