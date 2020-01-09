@@ -597,9 +597,6 @@ aboutURL
 iconURL
 "
 "
-icon64URL
-"
-"
 bootstrap
 "
 "

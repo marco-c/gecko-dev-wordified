@@ -1340,9 +1340,6 @@ aboutURL
 "
 iconURL
 "
-"
-icon64URL
-"
 ]
 ;
 const
@@ -3405,12 +3402,6 @@ iconURLs
 addon
 .
 iconURL
-=
-null
-;
-addon
-.
-icon64URL
 =
 null
 ;
