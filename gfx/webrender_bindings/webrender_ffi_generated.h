@@ -4698,7 +4698,7 @@ TileOffset
 =
 TypedPoint2D
 <
-uint16_t
+uint32_t
 Tiles
 >
 ;
