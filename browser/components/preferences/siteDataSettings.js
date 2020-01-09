@@ -81,6 +81,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 ChromeUtils
 .
 import
@@ -182,11 +187,6 @@ DownloadUtils
 jsm
 "
 )
-;
-"
-use
-strict
-"
 ;
 let
 gSiteDataSettings
