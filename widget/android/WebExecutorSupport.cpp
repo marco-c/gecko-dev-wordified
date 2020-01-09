@@ -354,6 +354,7 @@ nsIInputStream
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
+explicit
 ByteBufferStream
 (
 jni
@@ -612,6 +613,7 @@ nsIHttpHeaderVisitor
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
+explicit
 HeaderVisitor
 (
 java
@@ -701,6 +703,7 @@ nsIRequestObserver
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
+explicit
 LoaderListener
 (
 java
