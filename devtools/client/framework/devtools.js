@@ -4124,7 +4124,7 @@ target
 *
 return
 {
-TabTarget
+Target
 }
 A
 target
@@ -4185,7 +4185,7 @@ use
 dedicated
 instances
 of
-TabTarget
+Target
 and
 cannot
 reuse

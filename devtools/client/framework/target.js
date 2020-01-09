@@ -385,7 +385,7 @@ form
 -
 instantiate
 a
-TabTarget
+Target
 instance
 .
 *
@@ -622,7 +622,7 @@ tab
 ;
 return
 new
-TabTarget
+Target
 (
 {
 client
@@ -635,7 +635,7 @@ tab
 /
 A
 local
-TabTarget
+Target
 will
 never
 perform
@@ -763,7 +763,7 @@ const
 target
 =
 new
-TabTarget
+Target
 (
 options
 )
@@ -850,7 +850,7 @@ null
 target
 =
 new
-TabTarget
+Target
 (
 {
 client
@@ -866,7 +866,7 @@ form
 attribute
 until
 all
-TabTarget
+Target
 is
 merged
 with
@@ -1357,7 +1357,7 @@ t2
 *
 *
 A
-TabTarget
+Target
 represents
 a
 debuggable
@@ -1410,7 +1410,7 @@ process
 .
 *
 A
-TabTarget
+Target
 is
 related
 to
@@ -1558,7 +1558,7 @@ object
 *
 /
 function
-TabTarget
+Target
 (
 {
 form
@@ -2012,11 +2012,11 @@ null
 }
 exports
 .
-TabTarget
+Target
 =
-TabTarget
+Target
 ;
-TabTarget
+Target
 .
 prototype
 =
@@ -5847,7 +5847,7 @@ actor
 )
 ;
 return
-TabTarget
+Target
 :
 {
 id

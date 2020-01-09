@@ -192,7 +192,7 @@ connection
 )
 ;
 function
-assertIsTabTarget
+assertTarget
 (
 target
 url
@@ -447,7 +447,7 @@ windowId
 )
 )
 ;
-assertIsTabTarget
+assertTarget
 (
 target
 TEST_URI
@@ -496,7 +496,7 @@ chrome
 )
 )
 ;
-assertIsTabTarget
+assertTarget
 (
 target
 TEST_URI
@@ -624,7 +624,7 @@ browser
 "
 )
 ;
-assertIsTabTarget
+assertTarget
 (
 target
 topWindow
@@ -955,7 +955,7 @@ browser
 "
 )
 ;
-assertIsTabTarget
+assertTarget
 (
 target
 topWindow
@@ -1121,7 +1121,7 @@ browser
 "
 )
 ;
-assertIsTabTarget
+assertTarget
 (
 target
 topWindow

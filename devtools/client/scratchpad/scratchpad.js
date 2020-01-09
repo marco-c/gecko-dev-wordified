@@ -13086,7 +13086,7 @@ The
 promise
 for
 the
-TabTarget
+Target
 for
 this
 tab
