@@ -184,6 +184,13 @@ declaration
 )
 .
 isRequired
+onToggleDeclaration
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -194,6 +201,7 @@ render
 const
 {
 declarations
+onToggleDeclaration
 }
 =
 this
@@ -245,6 +253,7 @@ declaration
 .
 id
 declaration
+onToggleDeclaration
 }
 )
 ;
