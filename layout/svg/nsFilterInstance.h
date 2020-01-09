@@ -989,7 +989,7 @@ mozilla
 wr
 :
 :
-WrFilterOp
+FilterOp
 >
 &
 aWrFilters
