@@ -167,6 +167,14 @@ async
 {
 }
 )
+detachWorkers
+:
+(
+)
+=
+>
+{
+}
 }
 ;
 describe
@@ -493,6 +501,7 @@ getState
 =
 createStore
 (
+threadClient
 )
 ;
 dispatch
@@ -582,6 +591,7 @@ getState
 =
 createStore
 (
+threadClient
 )
 ;
 dispatch
@@ -672,6 +682,7 @@ getState
 =
 createStore
 (
+threadClient
 )
 ;
 const
@@ -810,6 +821,7 @@ getState
 =
 createStore
 (
+threadClient
 )
 ;
 dispatch
