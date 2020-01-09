@@ -123,7 +123,7 @@ mozilla_dom_SVGFEBlendElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "
@@ -317,7 +317,7 @@ GetSourceImageNames
 (
 nsTArray
 <
-nsSVGStringInfo
+SVGStringInfo
 >
 &
 aSources

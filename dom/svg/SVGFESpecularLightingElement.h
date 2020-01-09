@@ -123,7 +123,7 @@ mozilla_dom_SVGFESpecularLightingElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "

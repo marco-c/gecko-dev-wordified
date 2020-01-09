@@ -163,7 +163,7 @@ h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "

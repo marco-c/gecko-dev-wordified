@@ -123,7 +123,7 @@ mozilla_dom_SVGFEComponentTransferElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "
@@ -310,7 +310,7 @@ GetSourceImageNames
 (
 nsTArray
 <
-nsSVGStringInfo
+SVGStringInfo
 >
 &
 aSources

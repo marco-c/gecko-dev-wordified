@@ -123,7 +123,7 @@ mozilla_dom_SVGFEDiffuseLightingElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "

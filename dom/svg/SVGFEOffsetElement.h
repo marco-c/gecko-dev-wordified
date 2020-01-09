@@ -123,7 +123,7 @@ mozilla_dom_SVGFEOffsetElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "
@@ -324,7 +324,7 @@ GetSourceImageNames
 (
 nsTArray
 <
-nsSVGStringInfo
+SVGStringInfo
 >
 &
 aSources

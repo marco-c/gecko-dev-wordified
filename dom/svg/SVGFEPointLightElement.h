@@ -123,7 +123,7 @@ mozilla_dom_SVGFEPointLightElement_h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "

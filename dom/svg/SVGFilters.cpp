@@ -217,7 +217,7 @@ h
 #
 include
 "
-nsSVGFilters
+SVGFilters
 .
 h
 "
@@ -733,7 +733,7 @@ GetSourceImageNames
 (
 nsTArray
 <
-nsSVGStringInfo
+SVGStringInfo
 >
 &
 aSources
@@ -2979,7 +2979,7 @@ GetSourceImageNames
 (
 nsTArray
 <
-nsSVGStringInfo
+SVGStringInfo
 >
 &
 aSources
@@ -2989,7 +2989,7 @@ aSources
 .
 AppendElement
 (
-nsSVGStringInfo
+SVGStringInfo
 (
 &
 mStringAttributes
