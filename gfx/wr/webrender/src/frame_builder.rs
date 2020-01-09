@@ -1223,6 +1223,10 @@ is_passthrough
 :
 bool
 pub
+is_composite
+:
+bool
+pub
 raster_space
 :
 RasterSpace
