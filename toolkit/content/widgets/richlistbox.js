@@ -2451,6 +2451,11 @@ if
 (
 !
 aItem
+|
+|
+aItem
+.
+disabled
 )
 {
 return
