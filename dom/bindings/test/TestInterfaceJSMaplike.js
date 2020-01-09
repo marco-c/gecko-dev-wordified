@@ -183,8 +183,6 @@ nsIDOMGlobalPropertyInitializer
 ]
 )
 init
-:
-function
 (
 win
 )
@@ -197,15 +195,11 @@ win
 ;
 }
 __init
-:
-function
 (
 )
 {
 }
 setInternal
-:
-function
 (
 aKey
 aValue
@@ -224,8 +218,6 @@ aValue
 ;
 }
 deleteInternal
-:
-function
 (
 aKey
 )
@@ -242,8 +234,6 @@ aKey
 ;
 }
 clearInternal
-:
-function
 (
 )
 {
@@ -258,8 +248,6 @@ __clear
 ;
 }
 __onget
-:
-function
 (
 key
 value
@@ -287,3 +275,4 @@ generateNSGetFactory
 TestInterfaceJSMaplike
 ]
 )
+;

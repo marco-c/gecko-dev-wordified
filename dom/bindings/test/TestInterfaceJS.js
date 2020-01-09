@@ -210,8 +210,6 @@ mozITestInterfaceJS
 ]
 )
 init
-:
-function
 (
 win
 )
@@ -224,8 +222,6 @@ win
 ;
 }
 __init
-:
-function
 (
 anyArg
 objectArg
@@ -286,8 +282,6 @@ _objectArg
 ;
 }
 getDictionaryArg
-:
-function
 (
 )
 {
@@ -346,8 +340,6 @@ val
 ;
 }
 getDictionaryAttr
-:
-function
 (
 )
 {
@@ -358,8 +350,6 @@ _dictionaryAttr
 ;
 }
 setDictionaryAttr
-:
-function
 (
 val
 )
@@ -372,8 +362,6 @@ val
 ;
 }
 pingPongAny
-:
-function
 (
 any
 )
@@ -383,8 +371,6 @@ any
 ;
 }
 pingPongObject
-:
-function
 (
 obj
 )
@@ -394,8 +380,6 @@ obj
 ;
 }
 pingPongObjectOrString
-:
-function
 (
 objectOrString
 )
@@ -405,8 +389,6 @@ objectOrString
 ;
 }
 pingPongDictionary
-:
-function
 (
 dict
 )
@@ -416,8 +398,6 @@ dict
 ;
 }
 pingPongDictionaryOrLong
-:
-function
 (
 dictOrLong
 )
@@ -432,8 +412,6 @@ dictOrLong
 ;
 }
 pingPongRecord
-:
-function
 (
 rec
 )
@@ -448,8 +426,6 @@ rec
 ;
 }
 objectSequenceLength
-:
-function
 (
 seq
 )
@@ -461,8 +437,6 @@ length
 ;
 }
 anySequenceLength
-:
-function
 (
 seq
 )
@@ -474,8 +448,6 @@ length
 ;
 }
 getCallerPrincipal
-:
-function
 (
 )
 {
@@ -490,8 +462,6 @@ origin
 ;
 }
 convertSVS
-:
-function
 (
 svs
 )
@@ -501,8 +471,6 @@ svs
 ;
 }
 pingPongUnion
-:
-function
 (
 x
 )
@@ -512,8 +480,6 @@ x
 ;
 }
 pingPongUnionContainingNull
-:
-function
 (
 x
 )
@@ -523,8 +489,6 @@ x
 ;
 }
 pingPongNullableUnion
-:
-function
 (
 x
 )
@@ -534,8 +498,6 @@ x
 ;
 }
 returnBadUnion
-:
-function
 (
 x
 )
@@ -545,24 +507,18 @@ return
 ;
 }
 testSequenceOverload
-:
-function
 (
 arg
 )
 {
 }
 testSequenceUnion
-:
-function
 (
 arg
 )
 {
 }
 testThrowError
-:
-function
 (
 )
 {
@@ -584,8 +540,6 @@ Error
 ;
 }
 testThrowDOMException
-:
-function
 (
 )
 {
@@ -610,8 +564,6 @@ NotSupportedError
 ;
 }
 testThrowTypeError
-:
-function
 (
 )
 {
@@ -633,8 +585,6 @@ TypeError
 ;
 }
 testThrowNsresult
-:
-function
 (
 )
 {
@@ -645,8 +595,6 @@ NS_BINDING_ABORTED
 ;
 }
 testThrowNsresultFromNative
-:
-function
 (
 x
 )
@@ -685,8 +633,6 @@ notImplemented
 ;
 }
 testThrowCallbackError
-:
-function
 (
 callback
 )
@@ -697,8 +643,6 @@ callback
 ;
 }
 testThrowXraySelfHosted
-:
-function
 (
 )
 {
@@ -714,8 +658,6 @@ indexOf
 ;
 }
 testThrowSelfHosted
-:
-function
 (
 )
 {
@@ -727,8 +669,6 @@ indexOf
 ;
 }
 testPromiseWithThrowingChromePromiseInit
-:
-function
 (
 )
 {
@@ -750,10 +690,9 @@ noSuchMethodExistsYo1
 ;
 }
 )
+;
 }
 testPromiseWithThrowingContentPromiseInit
-:
-function
 (
 func
 )
@@ -771,8 +710,6 @@ func
 ;
 }
 testPromiseWithDOMExceptionThrowingPromiseInit
-:
-function
 (
 )
 {
@@ -811,10 +748,9 @@ NotFoundError
 ;
 }
 )
+;
 }
 testPromiseWithThrowingChromeThenFunction
-:
-function
 (
 )
 {
@@ -845,8 +781,6 @@ noSuchMethodExistsYo2
 ;
 }
 testPromiseWithThrowingContentThenFunction
-:
-function
 (
 func
 )
@@ -870,8 +804,6 @@ func
 ;
 }
 testPromiseWithDOMExceptionThrowingThenFunction
-:
-function
 (
 )
 {
@@ -919,8 +851,6 @@ NetworkError
 ;
 }
 testPromiseWithThrowingChromeThenable
-:
-function
 (
 )
 {
@@ -929,14 +859,13 @@ thenable
 =
 {
 then
-:
-function
 (
 )
 {
 noSuchMethodExistsYo3
 (
 )
+;
 }
 }
 ;
@@ -957,13 +886,12 @@ resolve
 (
 thenable
 )
+;
 }
 )
 ;
 }
 testPromiseWithThrowingContentThenable
-:
-function
 (
 thenable
 )
@@ -1047,8 +975,6 @@ thenable
 ;
 }
 testPromiseWithDOMExceptionThrowingThenable
-:
-function
 (
 )
 {
@@ -1103,6 +1029,7 @@ resolve
 (
 thenable
 )
+;
 }
 )
 ;
@@ -1158,3 +1085,4 @@ generateNSGetFactory
 TestInterfaceJS
 ]
 )
+;
