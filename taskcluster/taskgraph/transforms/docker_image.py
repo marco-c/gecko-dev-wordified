@@ -431,7 +431,7 @@ Exception
 (
 '
 Missing
-parant
+parent
 image
 for
 {
