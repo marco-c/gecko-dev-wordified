@@ -1676,11 +1676,7 @@ style
 paddingInlineStart
 :
 depthPadding
-"
-inline
--
-size
-"
+inlineSize
 :
 calc
 (

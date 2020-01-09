@@ -514,9 +514,9 @@ appModel
 diffing
 dispatch
 :
-appModel
+PropTypes
 .
-dispatch
+func
 filter
 :
 appModel
@@ -544,9 +544,9 @@ appModel
 labelDisplay
 sizes
 :
-appModel
+PropTypes
 .
-sizes
+object
 snapshots
 :
 appModel
@@ -554,9 +554,9 @@ appModel
 snapshots
 toolbox
 :
-appModel
+PropTypes
 .
-toolbox
+object
 view
 :
 appModel

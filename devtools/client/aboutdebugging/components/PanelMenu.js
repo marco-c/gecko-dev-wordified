@@ -257,6 +257,9 @@ return
 PanelMenuEntry
 (
 {
+key
+:
+id
 id
 name
 icon

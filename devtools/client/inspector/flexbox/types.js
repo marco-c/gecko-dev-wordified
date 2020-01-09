@@ -235,7 +235,7 @@ height
 :
 PropTypes
 .
-number
+string
 /
 /
 The
@@ -253,7 +253,7 @@ width
 :
 PropTypes
 .
-number
+string
 }
 ;
 /

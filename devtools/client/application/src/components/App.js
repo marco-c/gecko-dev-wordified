@@ -250,7 +250,7 @@ workers
 :
 PropTypes
 .
-object
+array
 .
 isRequired
 serviceContainer
