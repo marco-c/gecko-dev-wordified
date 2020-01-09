@@ -35509,9 +35509,9 @@ nsCString
 &
 aGrantedOrigin
 const
-bool
+int
 &
-aAnySite
+aAllowMode
 FirstPartyStorageAccessGrantedForOriginResolver
 &
 &
@@ -35527,7 +35527,7 @@ aParentPrincipal
 aTrackingPrincipal
 aTrackingOrigin
 aGrantedOrigin
-aAnySite
+aAllowMode
 )
 -
 >

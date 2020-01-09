@@ -6912,9 +6912,9 @@ nsCString
 &
 aGrantedOrigin
 const
-bool
+int
 &
-aAnySite
+aAllowMode
 FirstPartyStorageAccessGrantedForOriginResolver
 &
 &
