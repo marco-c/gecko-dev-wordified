@@ -460,7 +460,7 @@ fromJSON
 (
 {
 "
-script
+implicit
 "
 :
 value
