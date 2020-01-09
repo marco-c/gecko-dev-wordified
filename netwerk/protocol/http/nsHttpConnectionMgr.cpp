@@ -307,7 +307,7 @@ h
 #
 include
 "
-nsIPropertyBag
+nsIXPConnect
 .
 h
 "
@@ -3442,15 +3442,9 @@ is
 a
 wrapped
 JsObject
-/
-/
-bit
-of
-a
-HACK
 nsCOMPtr
 <
-nsIPropertyBag
+nsIXPConnectWrappedJS
 >
 wrapper
 =

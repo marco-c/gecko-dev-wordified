@@ -7528,7 +7528,7 @@ g
 .
 /
 /
-nsIPropertyBag
+nsISimpleEnumerator
 .
 We
 must
