@@ -11467,6 +11467,7 @@ denseElementsAreCopyOnWrite
 )
 )
 ;
+{
 AutoSweepObjectGroup
 sweepObjGroup
 (
@@ -11514,6 +11515,7 @@ OBJECT_FLAG_COPY_ON_WRITE
 return
 obj
 ;
+}
 }
 RootedObjectGroup
 group
