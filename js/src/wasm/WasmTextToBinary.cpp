@@ -5226,6 +5226,9 @@ data
 )
 )
 {
+#
+ifdef
+ENABLE_WASM_BULKMEM_OPS
 if
 (
 consume
@@ -5273,6 +5276,8 @@ cur_
 )
 ;
 }
+#
+endif
 return
 WasmToken
 (
@@ -5326,6 +5331,9 @@ elem
 )
 )
 {
+#
+ifdef
+ENABLE_WASM_BULKMEM_OPS
 if
 (
 consume
@@ -5350,6 +5358,8 @@ cur_
 )
 ;
 }
+#
+endif
 return
 WasmToken
 (
