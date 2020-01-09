@@ -1635,7 +1635,7 @@ tab
 .
 *
 /
-getTabModalUI
+getTabModal
 (
 )
 {
@@ -1715,8 +1715,6 @@ modalElements
 0
 ]
 )
-.
-ui
 ;
 }
 /
