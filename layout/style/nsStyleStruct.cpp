@@ -19016,6 +19016,13 @@ StyleOverscrollBehavior
 :
 Auto
 )
+mOverflowAnchor
+(
+StyleOverflowAnchor
+:
+:
+Auto
+)
 mScrollSnapTypeX
 (
 StyleScrollSnapType
