@@ -2546,10 +2546,6 @@ self
 _tabs
 )
         
-is_new_tab
-=
-False
-        
 open_tab_script
 =
 r
@@ -2711,10 +2707,6 @@ tabs_loaded
 +
 =
 1
-            
-is_new_tab
-=
-True
         
 tab_idx
 =
@@ -2864,9 +2856,7 @@ loaded
 )
         
 #
-On
-e10s
-the
+The
 tab
 handle
 can
@@ -2876,10 +2866,6 @@ actually
 loading
 content
         
-if
-is_new_tab
-:
-            
 #
 First
 build
@@ -2892,7 +2878,7 @@ o
 the
 current
 tab
-            
+        
 old_tabs
 =
 set
@@ -2901,14 +2887,14 @@ self
 .
 _tabs
 )
-            
+        
 old_tabs
 .
 remove
 (
 tab
 )
-            
+        
 #
 Perform
 a
@@ -2922,10 +2908,8 @@ possibly
 )
 new
 handle
-            
-[
-new_tab
-]
+        
+new_tabs
 =
 set
 (
@@ -2937,7 +2921,7 @@ window_handles
 )
 -
 old_tabs
-            
+        
 #
 Update
 the
@@ -2951,9 +2935,13 @@ to
 preserve
 the
 tab
-            
+        
 #
 ordering
+        
+if
+new_tabs
+:
             
 self
 .
@@ -2962,7 +2950,13 @@ _tabs
 tab_idx
 ]
 =
-new_tab
+list
+(
+new_tabs
+)
+[
+0
+]
         
 #
 give
