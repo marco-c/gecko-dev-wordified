@@ -9375,6 +9375,17 @@ ExprType
 :
 Ref
 :
+MOZ_CRASH
+(
+"
+No
+Ref
+support
+here
+yet
+"
+)
+;
 case
 ExprType
 :
@@ -9388,7 +9399,7 @@ call
 SymbolicAddress
 :
 :
-CallImport_Ref
+CallImport_AnyRef
 )
 ;
 masm

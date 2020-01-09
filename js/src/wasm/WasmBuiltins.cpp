@@ -3624,7 +3624,7 @@ case
 SymbolicAddress
 :
 :
-CallImport_Ref
+CallImport_AnyRef
 :
 *
 abiType
@@ -3637,7 +3637,7 @@ FuncCast
 Instance
 :
 :
-callImport_ref
+callImport_anyref
 *
 abiType
 )
@@ -5057,7 +5057,7 @@ case
 SymbolicAddress
 :
 :
-CallImport_Ref
+CallImport_AnyRef
 :
 case
 SymbolicAddress
