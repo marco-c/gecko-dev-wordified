@@ -807,6 +807,9 @@ stacktrace
 "
 isThirdPartyTrackingResource
 "
+"
+referrerPolicy
+"
 ]
 ;
 const

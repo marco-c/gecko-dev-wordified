@@ -469,6 +469,7 @@ startedDateTime
 fromCache
 fromServiceWorker
 isThirdPartyTrackingResource
+referrerPolicy
 }
 =
 data
@@ -565,6 +566,7 @@ stacktrace
 fromCache
 fromServiceWorker
 isThirdPartyTrackingResource
+referrerPolicy
 }
 true
 )
@@ -1699,6 +1701,7 @@ url
 }
 startedDateTime
 isThirdPartyTrackingResource
+referrerPolicy
 }
 =
 networkInfo
@@ -1718,6 +1721,7 @@ method
 startedDateTime
 url
 isThirdPartyTrackingResource
+referrerPolicy
 }
 )
 ;
