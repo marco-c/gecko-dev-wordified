@@ -3076,6 +3076,24 @@ binary
 =
 binary
 class
+ServoWebDriver
+(
+Servo
+)
+:
+    
+name
+=
+"
+servodriver
+"
+    
+browser_cls
+=
+browser
+.
+ServoWebDriver
+class
 WebKit
 (
 BrowserSetup
@@ -3185,7 +3203,7 @@ Servo
 servodriver
 "
 :
-Servo
+ServoWebDriver
     
 "
 sauce
