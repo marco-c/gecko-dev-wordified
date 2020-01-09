@@ -180,7 +180,10 @@ use
 malloc_size_of
 :
 :
+{
+MallocSizeOf
 MallocSizeOfOps
+}
 ;
 use
 prim_store

@@ -8530,6 +8530,7 @@ Clone
 Copy
 Debug
 Deserialize
+MallocSizeOf
 PartialEq
 Serialize
 Eq
