@@ -239,22 +239,62 @@ kwargs
 )
 :
     
-if
+port_name
+=
 kwargs
 [
 "
 webkit_port
 "
 ]
+    
+if
+port_name
+in
+[
+"
+gtk
+"
+"
+wpe
+"
+]
+:
+        
+port_key_map
 =
-=
+{
 "
 gtk
 "
 :
+"
+webkitgtk
+"
+}
         
-capabilities
+browser_options_port
 =
+port_key_map
+.
+get
+(
+port_name
+port_name
+)
+        
+browser_options_key
+=
+"
+%
+s
+:
+browserOptions
+"
+%
+browser_options_port
+        
+return
 {
             
 "
@@ -283,11 +323,7 @@ platformName
 ANY
 "
             
-"
-webkitgtk
-:
-browserOptions
-"
+browser_options_key
 :
 {
                 
@@ -346,15 +382,9 @@ host_cert_path
 "
 ]
 }
-                
 ]
-            
 }
-        
 }
-        
-return
-capabilities
     
 return
 {
