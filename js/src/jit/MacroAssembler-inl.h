@@ -4103,6 +4103,8 @@ GetJitContext
 -
 >
 realm
+(
+)
 -
 >
 zone
@@ -4172,7 +4174,9 @@ GetJitContext
 )
 -
 >
-realm
+maybeRealm
+(
+)
 )
 {
 branchTestNeedsIncrementalBarrier
