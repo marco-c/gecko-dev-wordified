@@ -2365,7 +2365,7 @@ to
 break
 in
 Firefox
-65
+66
 .
 /
 /
@@ -4114,9 +4114,8 @@ will
 be
 removed
 in
-the
-near
-future
+Firefox
+66
 !
 "
 +
@@ -4176,9 +4175,8 @@ will
 be
 removed
 in
-the
-near
-future
+Firefox
+66
 !
 Use
 promise
@@ -4256,7 +4254,7 @@ goes
 away
 in
 Firefox
-65
+66
 but
 won
 '
@@ -4283,7 +4281,7 @@ getstats
 -
 isremote
 -
-65
+66
 /
 )
 }
