@@ -2560,10 +2560,6 @@ OnLinkClick
 content
 uri
 unitarget
-.
-get
-(
-)
 VoidString
 (
 )

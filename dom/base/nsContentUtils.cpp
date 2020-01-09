@@ -30672,10 +30672,6 @@ OnOverLink
 aContent
 aLinkURI
 aTargetSpec
-.
-get
-(
-)
 )
 ;
 return
@@ -30958,16 +30954,8 @@ IsVoid
 )
 ?
 aTargetSpec
-.
-get
-(
-)
 :
 EmptyString
-(
-)
-.
-get
 (
 )
 fileName

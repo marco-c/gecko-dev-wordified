@@ -907,8 +907,8 @@ nsIURI
 *
 aURI
 const
-char16_t
-*
+nsAString
+&
 aTargetSpec
 const
 nsAString
@@ -940,8 +940,8 @@ nsIURI
 *
 aURI
 const
-char16_t
-*
+nsAString
+&
 aTargetSpec
 const
 nsAString
@@ -995,8 +995,8 @@ nsIURI
 *
 aURI
 const
-char16_t
-*
+nsAString
+&
 aTargetSpec
 )
 override
