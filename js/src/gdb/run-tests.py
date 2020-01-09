@@ -997,6 +997,9 @@ open
 OPTIONS
 .
 write_failures
+"
+w
+"
 )
 as
 out
