@@ -634,7 +634,7 @@ queryContext
 ;
 queryContext
 .
-autoFill
+autofill
 =
 UrlbarPrefs
 .
@@ -1267,7 +1267,7 @@ We
 may
 have
 an
-autoFill
+autofill
 entry
 so
 we

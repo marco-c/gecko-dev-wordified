@@ -880,7 +880,7 @@ args
 0
 ]
 {
-autoFill
+autofill
 :
 true
 }
@@ -974,7 +974,7 @@ resetHistory
 add_task
 (
 function
-test_handle_query_starts_search_sets_autoFill
+test_handle_query_starts_search_sets_autofill
 (
 )
 {
@@ -1062,7 +1062,7 @@ args
 0
 ]
 {
-autoFill
+autofill
 :
 false
 }
