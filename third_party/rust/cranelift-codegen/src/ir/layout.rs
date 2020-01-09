@@ -46,7 +46,7 @@ use
 entity
 :
 :
-SecondaryMap
+EntityMap
 ;
 use
 ir
@@ -267,7 +267,7 @@ None
 .
 ebbs
 :
-SecondaryMap
+EntityMap
 <
 Ebb
 EbbNode
@@ -304,7 +304,7 @@ None
 .
 insts
 :
-SecondaryMap
+EntityMap
 <
 Inst
 InstNode
@@ -385,7 +385,7 @@ Self
 {
 ebbs
 :
-SecondaryMap
+EntityMap
 :
 :
 new
@@ -393,7 +393,7 @@ new
 )
 insts
 :
-SecondaryMap
+EntityMap
 :
 :
 new
@@ -5759,9 +5759,13 @@ Layout
 )
 -
 >
-Self
+LayoutCursor
+<
+'
+f
+>
 {
-Self
+LayoutCursor
 {
 layout
 pos

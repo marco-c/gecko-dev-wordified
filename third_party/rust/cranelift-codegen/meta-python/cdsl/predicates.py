@@ -1752,8 +1752,6 @@ args
         
 return
 '
-:
-:
 predicates
 :
 :

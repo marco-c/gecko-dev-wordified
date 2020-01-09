@@ -277,7 +277,7 @@ with
 multiple
 results
 pass
-INVALID
+VOID
 for
 the
 ctrl_typevar
@@ -732,9 +732,14 @@ IIB
 )
 -
 >
-Self
+InsertBuilder
+<
+'
+f
+IIB
+>
 {
-Self
+InsertBuilder
 {
 inserter
 unused
@@ -1553,9 +1558,9 @@ Inst
 )
 -
 >
-Self
+ReplaceBuilder
 {
-Self
+ReplaceBuilder
 {
 dfg
 inst

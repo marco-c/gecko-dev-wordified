@@ -75,7 +75,7 @@ references
 /
 /
 The
-SecondaryMap
+EntityMap
 data
 structure
 uses
@@ -97,7 +97,7 @@ vector
 Unlike
 PrimaryMap
 an
-SecondaryMap
+EntityMap
 can
 '
 t
@@ -172,7 +172,7 @@ Clone
 ]
 pub
 struct
-SecondaryMap
+EntityMap
 <
 K
 V
@@ -205,7 +205,7 @@ K
 /
 /
 Shared
-SecondaryMap
+EntityMap
 implementation
 for
 all
@@ -217,7 +217,7 @@ impl
 K
 V
 >
-SecondaryMap
+EntityMap
 <
 K
 V
@@ -567,7 +567,7 @@ Iterate
 over
 all
 the
-values
+keys
 in
 this
 map
@@ -604,7 +604,7 @@ Iterate
 over
 all
 the
-values
+keys
 in
 this
 map
@@ -691,7 +691,7 @@ Immutable
 indexing
 into
 an
-SecondaryMap
+EntityMap
 .
 /
 /
@@ -721,7 +721,7 @@ Index
 K
 >
 for
-SecondaryMap
+EntityMap
 <
 K
 V
@@ -776,7 +776,7 @@ Mutable
 indexing
 into
 an
-SecondaryMap
+EntityMap
 .
 /
 /
@@ -804,7 +804,7 @@ IndexMut
 K
 >
 for
-SecondaryMap
+EntityMap
 <
 K
 V
@@ -990,7 +990,7 @@ let
 mut
 m
 =
-SecondaryMap
+EntityMap
 :
 :
 new
