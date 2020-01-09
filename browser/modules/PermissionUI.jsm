@@ -4977,6 +4977,11 @@ topLevelPrincipal
 .
 URI
 )
+escAction
+:
+"
+buttoncommand
+"
 }
 ;
 }
