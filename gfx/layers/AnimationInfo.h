@@ -312,10 +312,16 @@ aCount
 {
 mAnimationGeneration
 =
+Some
+(
 aCount
+)
 ;
 }
+Maybe
+<
 uint64_t
+>
 GetAnimationGeneration
 (
 )
@@ -512,7 +518,10 @@ with
 the
 animation
 manager
+Maybe
+<
 uint64_t
+>
 mAnimationGeneration
 ;
 RefPtr
