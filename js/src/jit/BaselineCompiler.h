@@ -357,6 +357,14 @@ _
 JSOP_DOUBLE
 )
 \
+IF_BIGINT
+(
+_
+(
+JSOP_BIGINT
+)
+)
+\
 _
 (
 JSOP_STRING

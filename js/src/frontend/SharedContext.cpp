@@ -817,7 +817,7 @@ FunctionBox
 JSContext
 *
 cx
-ObjectBox
+TraceListNode
 *
 traceListHead
 JSFunction
