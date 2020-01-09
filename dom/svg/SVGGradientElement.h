@@ -144,14 +144,14 @@ h
 #
 include
 "
-nsSVGLength2
+nsSVGEnum
 .
 h
 "
 #
 include
 "
-nsSVGEnum
+nsSVGLength2
 .
 h
 "

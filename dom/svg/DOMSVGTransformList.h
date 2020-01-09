@@ -144,14 +144,14 @@ h
 #
 include
 "
-nsTArray
+SVGTransformList
 .
 h
 "
 #
 include
 "
-SVGTransformList
+nsTArray
 .
 h
 "

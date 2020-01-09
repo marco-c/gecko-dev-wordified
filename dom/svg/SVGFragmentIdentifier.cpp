@@ -146,6 +146,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -158,13 +165,6 @@ nsCharSeparatedTokenizerTemplate
 include
 "
 SVGAnimatedTransformList
-.
-h
-"
-#
-include
-"
-nsCharSeparatedTokenizer
 .
 h
 "
