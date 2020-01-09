@@ -1104,6 +1104,9 @@ CopyTo
 arguments
 )
 ;
+bool
+skipCall
+;
 {
 MiddlemanCallContext
 cx
@@ -1124,7 +1127,19 @@ mMiddlemanCall
 cx
 )
 ;
+skipCall
+=
+cx
+.
+mSkipCallInMiddleman
+;
 }
+if
+(
+!
+skipCall
+)
+{
 RecordReplayInvokeCall
 (
 redirection
@@ -1134,6 +1149,7 @@ mBaseFunction
 arguments
 )
 ;
+}
 {
 MiddlemanCallContext
 cx
