@@ -934,6 +934,11 @@ hideScriptFromDebugger
 =
 false
 ;
+bool
+bigIntEnabledOption
+=
+false
+;
 /
 *
 *
