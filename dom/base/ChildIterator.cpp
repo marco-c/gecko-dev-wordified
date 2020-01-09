@@ -334,6 +334,17 @@ AsContent
 :
 nullptr
 ;
+if
+(
+!
+mChild
+)
+{
+mIndexInInserted
+=
+0
+;
+}
 return
 mChild
 ;
