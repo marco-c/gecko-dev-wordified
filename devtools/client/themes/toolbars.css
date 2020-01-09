@@ -1415,6 +1415,8 @@ theme
 -
 toolbar
 -
+icon
+-
 color
 )
 ;
@@ -1609,8 +1611,6 @@ var
 theme
 -
 toolbar
--
-photon
 -
 icon
 -

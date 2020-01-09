@@ -1596,7 +1596,13 @@ devtools
 button
 "
 +
+(
 buttonClass
+|
+|
+"
+"
+)
 +
 (
 isChecked
