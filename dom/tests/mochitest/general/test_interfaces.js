@@ -10358,6 +10358,9 @@ PushManager
 insecureContext
 :
 true
+android
+:
+false
 }
 /
 /
@@ -10384,6 +10387,9 @@ PushSubscription
 insecureContext
 :
 true
+android
+:
+false
 }
 /
 /
@@ -10410,6 +10416,9 @@ PushSubscriptionOptions
 insecureContext
 :
 true
+android
+:
+false
 }
 /
 /
