@@ -902,8 +902,9 @@ HTMLButtonElement
 :
 IsDisabledForEvents
 (
-EventMessage
-aMessage
+WidgetEvent
+*
+aEvent
 )
 {
 nsIFormControlFrame
@@ -927,7 +928,7 @@ formControlFrame
 return
 IsElementDisabledForEvents
 (
-aMessage
+aEvent
 formFrame
 )
 ;
@@ -956,9 +957,6 @@ IsDisabledForEvents
 aVisitor
 .
 mEvent
--
->
-mMessage
 )
 )
 {

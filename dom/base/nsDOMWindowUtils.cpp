@@ -17645,6 +17645,13 @@ do_QueryInterface
 node
 )
 ;
+WidgetEvent
+event
+(
+true
+eVoidEvent
+)
+;
 if
 (
 fc
@@ -17655,7 +17662,8 @@ fc
 >
 IsDisabledForEvents
 (
-eVoidEvent
+&
+event
 )
 )
 {

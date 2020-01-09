@@ -271,8 +271,9 @@ virtual
 bool
 IsDisabledForEvents
 (
-EventMessage
-aMessage
+WidgetEvent
+*
+aEvent
 )
 override
 ;

@@ -6682,8 +6682,9 @@ IsElementDisabledForEvents
 mozilla
 :
 :
-EventMessage
-aMessage
+WidgetEvent
+*
+aEvent
 nsIFrame
 *
 aFrame
