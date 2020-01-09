@@ -409,6 +409,13 @@ SpecifiedValueInfo
 ToCss
 )
 ]
+#
+[
+repr
+(
+u8
+)
+]
 /
 /
 /
@@ -1034,6 +1041,13 @@ MallocSizeOf
 Parse
 PartialEq
 ToCss
+)
+]
+#
+[
+repr
+(
+u8
 )
 ]
 pub

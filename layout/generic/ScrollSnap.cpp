@@ -1763,7 +1763,10 @@ aSnapInfo
 mScrollSnapTypeY
 =
 =
-NS_STYLE_SCROLL_SNAP_TYPE_NONE
+StyleScrollSnapType
+:
+:
+None
 &
 &
 aSnapInfo
@@ -1771,7 +1774,10 @@ aSnapInfo
 mScrollSnapTypeX
 =
 =
-NS_STYLE_SCROLL_SNAP_TYPE_NONE
+StyleScrollSnapType
+:
+:
+None
 )
 {
 return
@@ -1913,7 +1919,10 @@ aSnapInfo
 mScrollSnapTypeY
 =
 =
-NS_STYLE_SCROLL_SNAP_TYPE_PROXIMITY
+StyleScrollSnapType
+:
+:
+Proximity
 &
 &
 std
@@ -1956,7 +1965,10 @@ aSnapInfo
 mScrollSnapTypeX
 =
 =
-NS_STYLE_SCROLL_SNAP_TYPE_PROXIMITY
+StyleScrollSnapType
+:
+:
+Proximity
 &
 &
 std
