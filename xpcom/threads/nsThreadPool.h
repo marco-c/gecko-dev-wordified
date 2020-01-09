@@ -309,6 +309,9 @@ mListener
 bool
 mShutdown
 ;
+bool
+mRegressiveMaxIdleTime
+;
 nsCString
 mName
 ;
