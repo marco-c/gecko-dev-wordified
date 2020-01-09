@@ -146,13 +146,13 @@ length
 :
 :
 {
+GenericLengthOrNumber
 MaxSize
 as
 GenericMaxSize
 Size
 as
 GenericSize
-GenericLengthOrNumber
 }
 ;
 use

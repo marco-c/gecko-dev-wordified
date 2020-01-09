@@ -283,8 +283,8 @@ specified
 :
 {
 NoCalcLength
-Number
 NonNegativeNumber
+Number
 Percentage
 }
 ;

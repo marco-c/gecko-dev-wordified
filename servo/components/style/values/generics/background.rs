@@ -82,8 +82,8 @@ length
 :
 :
 {
-LengthPercentageOrAuto
 GenericLengthPercentageOrAuto
+LengthPercentageOrAuto
 }
 ;
 use

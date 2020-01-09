@@ -615,6 +615,7 @@ Values
 values
 )
 )
+;
 }
 try_match_ident_ignore_ascii_case
 !
