@@ -14,11 +14,6 @@ class
 fields
 -
 private
-class
--
-fields
--
-public
 is
 not
 supported
