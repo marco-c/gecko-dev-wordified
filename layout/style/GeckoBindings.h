@@ -3967,6 +3967,15 @@ GeckoFontMetrics
 nscoord
 mChSize
 ;
+/
+/
+-
+1
+.
+0
+indicates
+not
+found
 nscoord
 mXSize
 ;
