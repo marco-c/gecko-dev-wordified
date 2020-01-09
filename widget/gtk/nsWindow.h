@@ -3465,6 +3465,11 @@ RoundsWidgetCoordinatesTo
 )
 override
 ;
+void
+ForceTitlebarRedraw
+(
+)
+;
 /
 *
 *
