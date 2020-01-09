@@ -3407,6 +3407,10 @@ const
 nsCString
 &
 aFirstPartyURI
+const
+bool
+&
+aHideDoorHanger
 )
 override
 ;
