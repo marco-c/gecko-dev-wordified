@@ -100,13 +100,6 @@ h
 #
 include
 "
-GLLibraryLoader
-.
-h
-"
-#
-include
-"
 mozilla
 /
 UniquePtr
@@ -679,12 +672,6 @@ return
 mRootDc
 ;
 }
-SymbolLoader
-GetSymbolLoader
-(
-)
-const
-;
 private
 :
 bool

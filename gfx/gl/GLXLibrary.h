@@ -213,7 +213,6 @@ GLContextGLX
 ;
 class
 GLXLibrary
-final
 {
 public
 :
@@ -990,13 +989,16 @@ return
 mClientIsMesa
 ;
 }
-auto
+PRFuncPtr
 GetGetProcAddress
 (
 )
 const
 {
 return
+(
+PRFuncPtr
+)
 mSymbols
 .
 fGetProcAddress
