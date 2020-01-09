@@ -1000,11 +1000,6 @@ TriggerDecoderShutdown
 (
 )
 ;
-void
-Reset
-(
-)
-;
 protected
 :
 int32_t

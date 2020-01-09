@@ -1146,12 +1146,6 @@ IsRunning
 )
 return
 ;
-video_receiver_
-.
-Reset
-(
-)
-;
 bool
 protected_by_fec
 =
