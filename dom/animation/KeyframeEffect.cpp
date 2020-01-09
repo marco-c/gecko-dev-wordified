@@ -4785,6 +4785,7 @@ KeyframeEffect
 GetTargetComputedStyle
 (
 )
+const
 {
 if
 (
@@ -6259,6 +6260,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 MOZ_ASSERT
 (
