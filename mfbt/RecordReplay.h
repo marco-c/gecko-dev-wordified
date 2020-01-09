@@ -3543,7 +3543,7 @@ NIGHTLY_BUILD
 )
 #
 define
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 aName
 aFormals
@@ -3587,7 +3587,7 @@ aActuals
 }
 #
 define
-MOZ_MakeRecordReplayWrapper
+MOZ_MAKE_RECORD_REPLAY_WRAPPER
 (
 aName
 aReturnType
@@ -3679,7 +3679,7 @@ MFBT
 else
 #
 define
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 aName
 aFormals
@@ -3695,7 +3695,7 @@ aFormals
 }
 #
 define
-MOZ_MakeRecordReplayWrapper
+MOZ_MAKE_RECORD_REPLAY_WRAPPER
 (
 aName
 aReturnType
@@ -3716,7 +3716,7 @@ aDefaultValue
 }
 #
 endif
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 BeginOrderedAtomicAccess
 (
@@ -3729,7 +3729,7 @@ aValue
 aValue
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 EndOrderedAtomicAccess
 (
@@ -3737,7 +3737,7 @@ EndOrderedAtomicAccess
 (
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 BeginPassThroughThreadEvents
 (
@@ -3745,7 +3745,7 @@ BeginPassThroughThreadEvents
 (
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 EndPassThroughThreadEvents
 (
@@ -3753,7 +3753,7 @@ EndPassThroughThreadEvents
 (
 )
 )
-MOZ_MakeRecordReplayWrapper
+MOZ_MAKE_RECORD_REPLAY_WRAPPER
 (
 AreThreadEventsPassedThrough
 bool
@@ -3763,7 +3763,7 @@ false
 (
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 BeginDisallowThreadEvents
 (
@@ -3771,7 +3771,7 @@ BeginDisallowThreadEvents
 (
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 EndDisallowThreadEvents
 (
@@ -3779,7 +3779,7 @@ EndDisallowThreadEvents
 (
 )
 )
-MOZ_MakeRecordReplayWrapper
+MOZ_MAKE_RECORD_REPLAY_WRAPPER
 (
 AreThreadEventsDisallowed
 bool
@@ -3789,7 +3789,7 @@ false
 (
 )
 )
-MOZ_MakeRecordReplayWrapper
+MOZ_MAKE_RECORD_REPLAY_WRAPPER
 (
 RecordReplayValue
 size_t
@@ -3802,7 +3802,7 @@ aValue
 aValue
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 RecordReplayBytes
 (
@@ -3817,7 +3817,7 @@ aData
 aSize
 )
 )
-MOZ_MakeRecordReplayWrapper
+MOZ_MAKE_RECORD_REPLAY_WRAPPER
 (
 HasDivergedFromRecording
 bool
@@ -3827,7 +3827,7 @@ false
 (
 )
 )
-MOZ_MakeRecordReplayWrapper
+MOZ_MAKE_RECORD_REPLAY_WRAPPER
 (
 GeneratePLDHashTableCallbacks
 const
@@ -3844,7 +3844,7 @@ aOps
 aOps
 )
 )
-MOZ_MakeRecordReplayWrapper
+MOZ_MAKE_RECORD_REPLAY_WRAPPER
 (
 UnwrapPLDHashTableCallbacks
 const
@@ -3861,7 +3861,7 @@ aOps
 aOps
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 DestroyPLDHashTableCallbacks
 (
@@ -3874,7 +3874,7 @@ aOps
 aOps
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 MovePLDHashTableContents
 (
@@ -3892,7 +3892,7 @@ aFirstOps
 aSecondOps
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 InvalidateRecording
 (
@@ -3905,7 +3905,7 @@ aWhy
 aWhy
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 RegisterWeakPointer
 (
@@ -3932,7 +3932,7 @@ aPtr
 aCallback
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 UnregisterWeakPointer
 (
@@ -3945,7 +3945,7 @@ aPtr
 aPtr
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 WeakPointerAccess
 (
@@ -3961,7 +3961,7 @@ aPtr
 aSuccess
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 RecordReplayAssertBytes
 (
@@ -3977,7 +3977,7 @@ aData
 aSize
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 RegisterThing
 (
@@ -3989,7 +3989,7 @@ aThing
 aThing
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 UnregisterThing
 (
@@ -4001,7 +4001,7 @@ aThing
 aThing
 )
 )
-MOZ_MakeRecordReplayWrapper
+MOZ_MAKE_RECORD_REPLAY_WRAPPER
 (
 ThingIndex
 size_t
@@ -4015,7 +4015,7 @@ aThing
 aThing
 )
 )
-MOZ_MakeRecordReplayWrapper
+MOZ_MAKE_RECORD_REPLAY_WRAPPER
 (
 VirtualThingName
 const
@@ -4031,7 +4031,7 @@ aThing
 aThing
 )
 )
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 (
 RecordReplayDirective
 (
@@ -4044,10 +4044,10 @@ aDirective
 )
 #
 undef
-MOZ_MakeRecordReplayWrapperVoid
+MOZ_MAKE_RECORD_REPLAY_WRAPPER_VOID
 #
 undef
-MOZ_MakeRecordReplayWrapper
+MOZ_MAKERECORDREPLAYWRAPPER
 MFBT_API
 void
 InternalRecordReplayAssert
