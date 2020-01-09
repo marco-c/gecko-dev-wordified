@@ -197,6 +197,7 @@ PromiseNativeHandler
 }
 public
 :
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 ResolvedCallback
@@ -219,6 +220,7 @@ aValue
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 RejectedCallback
