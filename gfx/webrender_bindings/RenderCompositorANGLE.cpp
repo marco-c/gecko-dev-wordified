@@ -2192,6 +2192,15 @@ Commit
 )
 ;
 }
+}
+void
+RenderCompositorANGLE
+:
+:
+WaitForGPU
+(
+)
+{
 /
 /
 Note

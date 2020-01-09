@@ -234,6 +234,14 @@ EndFrame
 ;
 virtual
 void
+WaitForGPU
+(
+)
+=
+0
+;
+virtual
+void
 Pause
 (
 )

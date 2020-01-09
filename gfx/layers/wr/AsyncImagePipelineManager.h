@@ -415,10 +415,12 @@ mUpdatesQueue
 void
 NotifyPipelinesUpdated
 (
+const
 wr
 :
 :
 WrPipelineInfo
+&
 aInfo
 bool
 aRender

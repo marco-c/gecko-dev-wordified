@@ -259,6 +259,12 @@ EndFrame
 override
 ;
 void
+WaitForGPU
+(
+)
+override
+;
+void
 Pause
 (
 )
