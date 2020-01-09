@@ -284,7 +284,9 @@ zoomed
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
