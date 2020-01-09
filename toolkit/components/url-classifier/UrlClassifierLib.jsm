@@ -335,7 +335,11 @@ concat
 (
 Array
 .
+prototype
+.
 slice
+.
+call
 (
 arguments
 2
@@ -399,7 +403,11 @@ concat
 (
 Array
 .
+prototype
+.
 slice
+.
+call
 (
 arguments
 )
