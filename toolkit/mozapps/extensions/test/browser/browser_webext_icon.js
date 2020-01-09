@@ -260,6 +260,10 @@ size
 icon
 .
 clientWidth
+*
+window
+.
+devicePixelRatio
 The
 correct
 icon
