@@ -3829,9 +3829,6 @@ argc
 vp
 )
 ;
-#
-ifdef
-ENABLE_WASM_THREAD_OPS
 bool
 isSupported
 =
@@ -3865,15 +3862,6 @@ isSupported
 false
 ;
 }
-#
-endif
-#
-else
-bool
-isSupported
-=
-false
-;
 #
 endif
 args
