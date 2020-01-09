@@ -430,12 +430,6 @@ mozpath
 .
 join
 (
-'
-toolkit
-/
-library
-'
-                        
 buildconfig
 .
 substs
