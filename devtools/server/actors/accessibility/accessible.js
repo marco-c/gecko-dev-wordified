@@ -1286,6 +1286,8 @@ attachAccessible
 (
 target
 doc
+.
+rawAccessible
 )
 ;
 }
