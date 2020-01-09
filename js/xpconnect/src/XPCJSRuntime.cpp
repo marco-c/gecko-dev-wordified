@@ -375,6 +375,15 @@ include
 "
 js
 /
+MemoryFunctions
+.
+h
+"
+#
+include
+"
+js
+/
 MemoryMetrics
 .
 h

@@ -68,6 +68,15 @@ h
 #
 include
 "
+js
+/
+MemoryFunctions
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests

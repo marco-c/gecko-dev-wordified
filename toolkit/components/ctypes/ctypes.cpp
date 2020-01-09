@@ -111,6 +111,15 @@ h
 #
 include
 "
+js
+/
+MemoryFunctions
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ModuleUtils

@@ -131,6 +131,15 @@ h
 #
 include
 "
+js
+/
+MemoryFunctions
+.
+h
+"
+#
+include
+"
 nsXPCOM
 .
 h
