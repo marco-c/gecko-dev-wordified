@@ -117,6 +117,8 @@ MPL
 #
 include
 "
+mozilla
+/
 NativeNt
 .
 h
@@ -402,16 +404,12 @@ mozilla
 :
 nt
 ;
-extern
-"
-C
-"
 int
-wmain
+main
 (
 int
 argc
-wchar_t
+char
 *
 argv
 [
