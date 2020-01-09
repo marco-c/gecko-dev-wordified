@@ -247,6 +247,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
