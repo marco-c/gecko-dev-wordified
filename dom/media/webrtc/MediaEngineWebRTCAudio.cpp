@@ -3534,9 +3534,6 @@ that
 stream
 =
 mStream
-track
-=
-mTrackID
 ]
 (
 )
@@ -3555,15 +3552,6 @@ return
 NS_OK
 ;
 }
-stream
--
->
-SetPullingEnabled
-(
-track
-false
-)
-;
 stream
 -
 >
