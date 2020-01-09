@@ -3196,6 +3196,10 @@ the
 input
 buffer
 .
+mPendingInputBuffer
+=
+nullptr
+;
 mInputBuffer
 =
 nullptr
