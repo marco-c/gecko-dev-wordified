@@ -3587,9 +3587,7 @@ frame_id
 FrameId
 :
 :
-invalid
-(
-)
+INVALID
 texture
 :
 Texture
