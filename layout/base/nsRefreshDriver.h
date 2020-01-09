@@ -3376,6 +3376,12 @@ mozilla
 TimeStamp
 mNextRecomputeVisibilityTick
 ;
+mozilla
+:
+:
+TimeStamp
+mInitialTimerRunningLimit
+;
 /
 /
 separate
