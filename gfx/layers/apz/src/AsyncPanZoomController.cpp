@@ -31480,6 +31480,18 @@ them
 .
 if
 (
+relativeDelta
+!
+=
+Some
+(
+CSSPoint
+(
+)
+)
+&
+&
+(
 (
 !
 mAnimation
@@ -31504,6 +31516,7 @@ mAnimation
 HandleScrollOffsetUpdate
 (
 relativeDelta
+)
 )
 )
 )
