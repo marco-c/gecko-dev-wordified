@@ -531,6 +531,14 @@ aFilePath
 ;
 #
 endif
+MOZ_EXPORT
+void
+SetRemoteDataDecoderSandbox
+(
+int
+aBroker
+)
+;
 }
 /
 /
