@@ -201,10 +201,4 @@ sbin
 '
     
 }
-    
-'
-artifact_flag_build_variant_in_try
-'
-:
-None
 }
