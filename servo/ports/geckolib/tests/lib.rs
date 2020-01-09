@@ -230,6 +230,10 @@ extern
 crate
 style_traits
 ;
+extern
+crate
+to_shmem
+;
 #
 [
 cfg
