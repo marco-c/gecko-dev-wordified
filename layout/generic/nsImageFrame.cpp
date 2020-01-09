@@ -4707,10 +4707,6 @@ MaybeDecodeForPredictedSize
 )
 ;
 }
-mPrevImage
-=
-nullptr
-;
 }
 return
 NS_OK
@@ -5330,10 +5326,6 @@ MaybeDecodeForPredictedSize
 )
 ;
 }
-mPrevImage
-=
-nullptr
-;
 }
 /
 /
