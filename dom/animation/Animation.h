@@ -2451,6 +2451,11 @@ AnimationPerformanceWarning
 Type
 &
 aPerformanceWarning
+/
+*
+out
+*
+/
 )
 const
 ;
