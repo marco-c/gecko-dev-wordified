@@ -1224,7 +1224,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mLastSubmittedFrameId
+lastSubmittedFrameId
 <
 mLastStartedFrame
 &
@@ -2263,7 +2263,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mLastSubmittedFrameId
+lastSubmittedFrameId
 )
 {
 mLastStartedFrame

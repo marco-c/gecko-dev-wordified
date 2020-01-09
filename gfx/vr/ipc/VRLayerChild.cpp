@@ -538,7 +538,7 @@ aDisplayInfo
 .
 mDisplayState
 .
-mLastSubmittedFrameId
+lastSubmittedFrameId
 =
 =
 mLastSubmittedFrameId
