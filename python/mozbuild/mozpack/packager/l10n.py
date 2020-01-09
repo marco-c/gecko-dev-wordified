@@ -2337,12 +2337,6 @@ JarFormatter
 (
 copier
                                  
-optimize
-=
-app_finder
-.
-optimizedjars
-                                 
 compress
 =
 compress
@@ -2367,12 +2361,6 @@ copier
 app_finder
 .
 omnijar
-                                     
-optimize
-=
-app_finder
-.
-optimizedjars
                                      
 compress
 =

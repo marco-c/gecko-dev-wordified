@@ -1446,9 +1446,6 @@ copier
 compress
 =
 True
-optimize
-=
-True
 )
 :
         
@@ -1465,12 +1462,6 @@ self
 _compress
 =
 compress
-        
-self
-.
-_optimize
-=
-optimize
     
 def
 _add_base
@@ -1496,9 +1487,6 @@ Jarrer
 self
 .
 _compress
-self
-.
-_optimize
 )
             
 self
@@ -1552,9 +1540,6 @@ copier
 self
 .
 _compress
-self
-.
-_optimize
 )
 class
 JarSubFormatter
@@ -1625,9 +1610,6 @@ copier
 compress
 =
 True
-optimize
-=
-True
 )
 :
         
@@ -1650,12 +1632,6 @@ self
 _compress
 =
 compress
-        
-self
-.
-_optimize
-=
-optimize
         
 self
 .
@@ -1847,9 +1823,6 @@ Jarrer
 self
 .
 _compress
-self
-.
-_optimize
 )
                 
 self
@@ -1963,10 +1936,6 @@ omnijar_name
 compress
 =
 True
-optimize
-=
-True
-                 
 non_resources
 =
 (
@@ -1981,7 +1950,6 @@ __init__
 self
 copier
 compress
-optimize
 )
         
 self
@@ -2124,9 +2092,6 @@ self
 _compress
 self
 .
-_optimize
-self
-.
 _non_resources
 )
 class
@@ -2186,10 +2151,6 @@ omnijar_name
 compress
 =
 True
-optimize
-=
-True
-                 
 non_resources
 =
 (
@@ -2219,12 +2180,6 @@ compress
         
 self
 .
-_optimize
-=
-optimize
-        
-self
-.
 _non_resources
 =
 non_resources
@@ -2249,9 +2204,6 @@ Jarrer
 self
 .
 _compress
-self
-.
-_optimize
 )
         
 self

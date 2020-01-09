@@ -1734,9 +1734,6 @@ JarWriter
 file
 =
 processed_filename
-optimize
-=
-False
 compress_level
 =
 5
@@ -2078,9 +2075,6 @@ JarWriter
 file
 =
 processed_filename
-optimize
-=
-False
 compress_level
 =
 5
@@ -2401,9 +2395,6 @@ JarWriter
 file
 =
 processed_filename
-optimize
-=
-False
 compress_level
 =
 5
@@ -2506,9 +2497,6 @@ JarWriter
 file
 =
 processed_filename
-optimize
-=
-False
 compress_level
 =
 5
@@ -2711,9 +2699,6 @@ JarWriter
 file
 =
 processed_filename
-optimize
-=
-False
 compress_level
 =
 5
@@ -3010,9 +2995,6 @@ JarWriter
 file
 =
 processed_filename
-optimize
-=
-False
 compress_level
 =
 5
@@ -3818,9 +3800,6 @@ JarWriter
 file
 =
 processed_filename
-optimize
-=
-False
 compress_level
 =
 5
@@ -4498,9 +4477,6 @@ JarWriter
 file
 =
 processed_filename
-optimize
-=
-False
 compress_level
 =
 5

@@ -3510,10 +3510,6 @@ None
 compress
 =
 True
-optimize
-=
-True
-                 
 compress_level
 =
 9
@@ -3682,12 +3678,6 @@ self
 _last_preloaded
 =
 None
-        
-self
-.
-_optimize
-=
-optimize
     
 def
 __enter__
@@ -4207,9 +4197,7 @@ directory
 .
         
 if
-self
-.
-_optimize
+preload_size
 :
             
 end
@@ -4241,10 +4229,6 @@ end
 .
 size
             
-if
-preload_size
-:
-                
 preload_size
 +
 =
@@ -4379,9 +4363,7 @@ entries
         
 if
 not
-self
-.
-_optimize
+preload_size
 :
             
 end

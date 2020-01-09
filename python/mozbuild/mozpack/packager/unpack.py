@@ -332,12 +332,6 @@ jarlogs
         
 self
 .
-optimizedjars
-=
-False
-        
-self
-.
 compressed
 =
 False
@@ -1191,18 +1185,6 @@ open
 (
 )
 )
-        
-if
-jar
-.
-is_optimized
-:
-            
-self
-.
-optimizedjars
-=
-True
         
 self
 .

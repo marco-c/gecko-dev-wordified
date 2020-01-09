@@ -159,9 +159,6 @@ jarrer
 =
 Jarrer
 (
-optimize
-=
-False
 )
     
 #

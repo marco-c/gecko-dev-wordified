@@ -267,9 +267,6 @@ jarrer
 =
 Jarrer
 (
-optimize
-=
-False
 )
     
 for

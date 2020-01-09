@@ -281,9 +281,6 @@ jarrer
 =
 Jarrer
 (
-optimize
-=
-False
 )
     
 with
