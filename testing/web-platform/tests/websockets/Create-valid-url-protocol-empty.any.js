@@ -48,10 +48,6 @@ close
 ;
 }
 "
-W3C
-WebSocket
-API
--
 Create
 WebSocket
 -

@@ -15,10 +15,6 @@ testOpen
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 data
 on
@@ -39,10 +35,6 @@ testMessage
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 data
 on
@@ -63,10 +55,6 @@ testClose
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 data
 on

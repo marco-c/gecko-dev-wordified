@@ -15,10 +15,6 @@ testOpen
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 (
 paired
@@ -42,10 +38,6 @@ testMessage
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 (
 paired
@@ -69,10 +61,6 @@ testClose
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 (
 paired

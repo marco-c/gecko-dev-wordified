@@ -49,10 +49,6 @@ send
 ;
 }
 "
-W3C
-WebSocket
-API
--
 Send
 data
 on

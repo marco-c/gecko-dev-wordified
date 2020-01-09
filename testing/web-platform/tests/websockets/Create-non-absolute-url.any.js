@@ -37,10 +37,6 @@ CreateWebSocketNonAbsolute
 ;
 }
 "
-W3C
-WebSocket
-API
--
 Create
 WebSocket
 -

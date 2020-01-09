@@ -15,10 +15,6 @@ testOpen
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 unpaired
 surrogates
@@ -40,10 +36,6 @@ testMessage
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 unpaired
 surrogates
@@ -65,10 +57,6 @@ testClose
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 unpaired
 surrogates
