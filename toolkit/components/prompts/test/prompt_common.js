@@ -444,10 +444,6 @@ is
 promptState
 .
 iconClass
-"
-spaced
-"
-+
 expectedState
 .
 iconClass
