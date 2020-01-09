@@ -1101,7 +1101,7 @@ str
 js
 :
 :
-Allocate
+AllocateString
 <
 JSRope
 allowGC
@@ -1562,7 +1562,7 @@ str
 js
 :
 :
-Allocate
+AllocateString
 <
 JSDependentString
 js
@@ -1616,7 +1616,7 @@ str
 js
 :
 :
-Allocate
+AllocateString
 <
 JSDependentString
 >
@@ -1826,7 +1826,7 @@ str
 js
 :
 :
-Allocate
+AllocateString
 <
 JSFlatString
 allowGC
@@ -2150,7 +2150,7 @@ return
 js
 :
 :
-Allocate
+AllocateString
 <
 JSThinInlineString
 allowGC
@@ -2230,7 +2230,7 @@ return
 js
 :
 :
-Allocate
+AllocateString
 <
 JSFatInlineString
 allowGC
