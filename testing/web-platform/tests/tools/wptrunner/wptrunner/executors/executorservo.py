@@ -1341,7 +1341,7 @@ resolution
 viewport_size
 or
 "
-600x600
+800x600
 "
 ]
             
