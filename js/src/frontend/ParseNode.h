@@ -5190,6 +5190,8 @@ dump
 GenericPrinter
 &
 out
+int
+indent
 )
 ;
 #
