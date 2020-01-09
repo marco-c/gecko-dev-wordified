@@ -12380,15 +12380,9 @@ nresumeoffsets
 ;
 private
 :
-static
 void
 initFromFunctionBox
 (
-js
-:
-:
-HandleScript
-script
 js
 :
 :
