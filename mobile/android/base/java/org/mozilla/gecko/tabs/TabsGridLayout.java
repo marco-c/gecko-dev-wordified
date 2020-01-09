@@ -244,9 +244,7 @@ swipe
 to
 close
 .
-final
-TabsTouchHelperCallback
-callback
+tabTouchCallback
 =
 new
 TabsTouchHelperCallback
@@ -291,7 +289,7 @@ touchHelper
 new
 ItemTouchHelper
 (
-callback
+tabTouchCallback
 )
 ;
 touchHelper
