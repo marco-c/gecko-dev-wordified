@@ -1633,10 +1633,11 @@ any
 existing
 preloaded
 browser
-gBrowser
+NewTabPagePreloading
 .
 removePreloadedBrowser
 (
+window
 )
 ;
 /
@@ -1646,10 +1647,11 @@ a
 fresh
 preloaded
 browser
-gBrowser
+NewTabPagePreloading
 .
-_createPreloadBrowser
+maybeCreatePreloadedBrowser
 (
+window
 )
 ;
 await
@@ -1659,7 +1661,7 @@ crashBrowser
 (
 gBrowser
 .
-_preloadedBrowser
+preloadedBrowser
 false
 )
 ;
@@ -1670,7 +1672,7 @@ ok
 !
 gBrowser
 .
-_preloadedBrowser
+preloadedBrowser
 )
 ;
 }
