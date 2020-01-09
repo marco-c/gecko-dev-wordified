@@ -6595,17 +6595,6 @@ nsIReferrerInfo
 >
 mReferrerInfo
 ;
-#
-ifdef
-DEBUG
-nsCOMPtr
-<
-nsIURI
->
-mLastOpenedURI
-;
-#
-endif
 /
 /
 Reference
