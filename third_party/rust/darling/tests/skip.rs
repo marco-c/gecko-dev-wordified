@@ -94,7 +94,7 @@ enums
 derive
 (
 Debug
-FromMetaItem
+FromMeta
 )
 ]
 pub
