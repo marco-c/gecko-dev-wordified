@@ -18192,8 +18192,6 @@ aDynamicString
 void
 *
 aSp
-uint32_t
-aLine
 )
 {
 ProfilingStack
@@ -18222,7 +18220,6 @@ pushLabelFrame
 aLabel
 aDynamicString
 aSp
-aLine
 js
 :
 :
