@@ -127,6 +127,13 @@ nsIWebBrowserPersistDocument
 .
 h
 "
+#
+include
+"
+nsIContentPolicy
+.
+h
+"
 namespace
 mozilla
 {
@@ -165,6 +172,10 @@ const
 nsCString
 &
 aURI
+const
+nsContentPolicyType
+&
+aContentPolicyType
 )
 override
 ;

@@ -155,6 +155,8 @@ const
 nsACString
 &
 aURI
+nsContentPolicyType
+aContentPolicyType
 )
 {
 nsCString
@@ -174,6 +176,7 @@ mismatch
 SendVisitResource
 (
 copiedURI
+aContentPolicyType
 )
 ;
 return
