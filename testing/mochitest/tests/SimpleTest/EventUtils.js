@@ -1926,7 +1926,6 @@ dispatchDOMEventViaPresShell
 (
 aTarget
 event
-true
 )
 ;
 }
