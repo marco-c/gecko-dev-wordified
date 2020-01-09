@@ -1175,15 +1175,6 @@ nsCString
 >
 mCorsUnsafeHeaders
 ;
-mozilla
-:
-:
-Telemetry
-:
-:
-LABELS_DOCUMENT_ANALYTICS_TRACKER_FASTBLOCKED
-mTrackerBlockedReason
-;
 bool
 mForcePreflight
 ;
