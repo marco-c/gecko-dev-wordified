@@ -10178,6 +10178,10 @@ false
 ;
 if
 (
+!
+mProxyTransparent
+&
+&
 mFastOpenCallback
 &
 &
