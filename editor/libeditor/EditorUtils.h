@@ -104,6 +104,15 @@ include
 "
 mozilla
 /
+ContentIterator
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Selection
@@ -176,9 +185,6 @@ h
 "
 class
 nsAtom
-;
-class
-nsIContentIterator
 ;
 class
 nsISimpleEnumerator
@@ -3562,9 +3568,9 @@ const
 ;
 protected
 :
-nsCOMPtr
+RefPtr
 <
-nsIContentIterator
+ContentIteratorBase
 >
 mIter
 ;
