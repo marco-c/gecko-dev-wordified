@@ -14,7 +14,7 @@ assert_not_equals
 (
 document
 .
-policy
+featurePolicy
 undefined
 '
 Feature
@@ -2218,14 +2218,16 @@ Either
 a
 document
 .
-policy
+featurePolicy
 or
-a
+an
 iframe
 .
-policy
+featurePolicy
 to
 be
+/
+/
 tested
 .
 /
@@ -3497,7 +3499,7 @@ frame_policy
 =
 frame
 .
-policy
+featurePolicy
 ;
 if
 (
