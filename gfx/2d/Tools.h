@@ -974,9 +974,6 @@ uint8_t
 (
 calloc
 (
-(
-size_t
-)
 1
 storageByteCount
 .
