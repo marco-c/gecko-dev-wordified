@@ -1759,8 +1759,6 @@ permResult
 GetCommonUpdateDirectory
 (
 nullptr
-nullptr
-nullptr
 SetPermissionsOf
 :
 :
