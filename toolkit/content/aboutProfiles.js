@@ -2097,7 +2097,7 @@ Ci
 .
 nsIAppStartup
 .
-eRestartNotSameProfile
+eRestart
 ;
 if
 (
