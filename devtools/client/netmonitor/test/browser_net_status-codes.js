@@ -1152,7 +1152,7 @@ summaryValues
 0
 ]
 .
-value
+textContent
 correctUri
 "
 The
@@ -1172,7 +1172,7 @@ summaryValues
 1
 ]
 .
-value
+textContent
 method
 "
 The
