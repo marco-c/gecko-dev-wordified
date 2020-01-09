@@ -1173,8 +1173,7 @@ message
 /
 Skip
 a
-few
-beats
+beat
 so
 we
 can
@@ -1189,13 +1188,6 @@ in
 the
 queue
 .
-await
-Promise
-.
-resolve
-(
-)
-;
 await
 Promise
 .
