@@ -2299,6 +2299,13 @@ audio
 !
 window
 .
+AudioContext
+&
+&
+!
+!
+window
+.
 MediaStreamAudioDestinationNode
 video
 :
