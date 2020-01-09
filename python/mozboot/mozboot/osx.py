@@ -3991,15 +3991,10 @@ checkout_root
 )
 :
         
-cbindgen_min_version
-=
-'
-0
-.
-6
-.
-7
-'
+from
+mozboot
+import
+stylo
         
 #
 We
@@ -4012,12 +4007,13 @@ earlier
         
 self
 .
-ensure_rust_package
+install_toolchain_artifact
 (
-'
-cbindgen
-'
-cbindgen_min_version
+state_dir
+checkout_root
+stylo
+.
+MACOS_CBINDGEN
 )
     
 def
