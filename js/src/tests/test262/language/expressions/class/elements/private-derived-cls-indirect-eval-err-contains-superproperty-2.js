@@ -10,11 +10,6 @@ class
 -
 fields
 -
-public
-class
--
-fields
--
 private
 is
 not

@@ -11,11 +11,6 @@ SyntaxError
 -
 class
 -
-fields
--
-public
-class
--
 static
 -
 fields
