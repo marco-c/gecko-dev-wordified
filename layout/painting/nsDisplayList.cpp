@@ -52571,7 +52571,7 @@ if
 mFrame
 -
 >
-HasPerspective
+ChildrenHavePerspective
 (
 )
 )
@@ -52773,7 +52773,7 @@ if
 mFrame
 -
 >
-HasPerspective
+ChildrenHavePerspective
 (
 )
 )
