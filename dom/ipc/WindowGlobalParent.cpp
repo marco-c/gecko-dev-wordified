@@ -268,6 +268,13 @@ h
 #
 include
 "
+nsFrameLoader
+.
+h
+"
+#
+include
+"
 nsFrameLoaderOwner
 .
 h
