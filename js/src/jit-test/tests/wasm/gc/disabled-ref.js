@@ -43,6 +43,9 @@ T
 types
 not
 enabled
+|
+bad
+type
 /
 )
 ;
