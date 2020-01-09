@@ -271,9 +271,6 @@ MCD
 .
 cfg
 files
-#
-ifndef
-MOZ_BUILD_APP_IS_BROWSER
 pref
 (
 "
@@ -284,8 +281,6 @@ warnOnAboutConfig
 true
 )
 ;
-#
-endif
 /
 /
 maximum
