@@ -14955,10 +14955,6 @@ stackDepth
 1
 )
 ;
-COUNT_COVERAGE
-(
-)
-;
 CloseIterator
 (
 &
