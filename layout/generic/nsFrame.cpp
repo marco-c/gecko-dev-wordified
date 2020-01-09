@@ -24188,7 +24188,11 @@ aLists
 BorderBackground
 (
 )
-false
+buildingForChild
+.
+IsAnimatedGeometryRoot
+(
+)
 )
 ;
 aChild
