@@ -15947,11 +15947,15 @@ args
 file
 :
 true
-selector
+nodeActorID
 :
 this
 .
-selectionCssSelector
+selection
+.
+nodeFront
+.
+actorID
 clipboard
 :
 clipboardEnabled
