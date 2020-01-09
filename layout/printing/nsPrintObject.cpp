@@ -624,6 +624,17 @@ BrowsingContext
 :
 Create
 (
+/
+*
+aParent
+*
+/
+nullptr
+/
+*
+aOpener
+*
+/
 nullptr
 EmptyString
 (
