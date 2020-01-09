@@ -1412,10 +1412,15 @@ bug
 1436977
         
 if
+int
+(
 level
+)
 =
 =
 3
+\
+                
 and
 any
 (
