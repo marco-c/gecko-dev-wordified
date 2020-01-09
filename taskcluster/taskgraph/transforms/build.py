@@ -1128,6 +1128,25 @@ MOZ_DISABLE_FULL_SYMBOLS
 '
 1
 '
+            
+job
+[
+'
+attributes
+'
+]
+.
+pop
+(
+'
+enable
+-
+full
+-
+crashsymbols
+'
+None
+)
         
 yield
 job
