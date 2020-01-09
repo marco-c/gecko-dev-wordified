@@ -18556,7 +18556,7 @@ Inline
 )
 mContain
 (
-NS_STYLE_CONTAIN_NONE
+StyleContain_NONE
 )
 mAppearance
 (
