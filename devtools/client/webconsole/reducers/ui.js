@@ -200,6 +200,9 @@ reverseSearchInitialValue
 :
 "
 "
+editor
+:
+false
 }
 overrides
 )
