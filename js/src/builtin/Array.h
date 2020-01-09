@@ -971,7 +971,7 @@ vp
 extern
 JSObject
 *
-array_slice_dense
+ArraySliceDense
 (
 JSContext
 *

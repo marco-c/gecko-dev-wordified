@@ -22850,7 +22850,7 @@ JSObject
 js
 :
 :
-array_slice_dense
+ArraySliceDense
 (
 JSContext
 *
