@@ -1070,7 +1070,7 @@ section_menu_action_add_search_engine
 Adicionar
 mecanismo
 de
-busca
+pesquisa
 "
 "
 section_menu_action_move_up

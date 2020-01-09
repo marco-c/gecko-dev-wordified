@@ -1146,7 +1146,7 @@ section_menu_action_add_search_engine
 :
 "
 Ajouter
-ce
+un
 moteur
 de
 recherche

@@ -286,6 +286,8 @@ feed
 |
 !
 feeds
+.
+data
 [
 component
 .
@@ -310,6 +312,8 @@ data
 maybeInjectSpocs
 (
 feeds
+.
+data
 [
 component
 .
