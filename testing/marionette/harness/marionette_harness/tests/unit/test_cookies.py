@@ -247,6 +247,29 @@ copy
 (
 )
         
+#
+for
+android
+the
+browser
+is
+running
+on
+a
+remote
+system
+;
+allow
+for
+        
+#
+differences
+between
+local
+and
+remote
+clocks
+        
 cookie
 [
 "
@@ -265,7 +288,7 @@ gmtime
 )
 )
 -
-1
+60
         
 self
 .
