@@ -363,6 +363,7 @@ Clone
 Copy
 Debug
 Eq
+FromPrimitive
 MallocSizeOf
 Ord
 Parse
