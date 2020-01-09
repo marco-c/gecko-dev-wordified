@@ -179,7 +179,6 @@ FUZZING_LOG
 (
 args
 )
-\
 fuzzing_log
 (
 MOZ_LOG_EXPAND_ARGS

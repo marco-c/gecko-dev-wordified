@@ -1196,13 +1196,13 @@ using
 Base
 :
 :
-has
+clear
 ;
 using
 Base
 :
 :
-clear
+has
 ;
 using
 Base

@@ -787,9 +787,9 @@ directly
 represented
 in
 the
-graph
 \
 *
+graph
 and
 need
 to
@@ -804,10 +804,10 @@ this
 is
 used
 to
-keep
-the
 \
 *
+keep
+the
 flagged
 instruction
 in
@@ -831,9 +831,9 @@ inlining
 when
 a
 function
-argument
 \
 *
+argument
 is
 not
 used

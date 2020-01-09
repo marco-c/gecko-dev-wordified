@@ -59,6 +59,10 @@ class
 LookupCacheV4
 ;
 }
+/
+/
+namespace
+safebrowsing
 }
 /
 /

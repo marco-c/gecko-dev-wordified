@@ -6652,6 +6652,8 @@ we
 do
 for
 2D
+/
+/
 textures
 mMaxRenderbufferSize
 =
