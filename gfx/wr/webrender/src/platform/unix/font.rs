@@ -5339,6 +5339,7 @@ self
 get_glyph_dimensions_impl
 (
 slot
+&
 font
 key
 scale

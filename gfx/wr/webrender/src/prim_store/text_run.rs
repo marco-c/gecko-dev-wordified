@@ -2184,7 +2184,7 @@ TextRun
 >
 (
 )
-88
+56
 "
 TextRun
 size
@@ -2206,7 +2206,7 @@ TextRunTemplate
 >
 (
 )
-104
+72
 "
 TextRunTemplate
 size
@@ -2228,7 +2228,7 @@ TextRunKey
 >
 (
 )
-96
+64
 "
 TextRunKey
 size
@@ -2250,7 +2250,7 @@ TextRunPrimitive
 >
 (
 )
-104
+72
 "
 TextRunPrimitive
 size
