@@ -3103,14 +3103,9 @@ this
 .
 _isChrome
 =
-Services
-.
-scriptSecurityManager
+principal
 .
 isSystemPrincipal
-(
-principal
-)
 ;
 if
 (

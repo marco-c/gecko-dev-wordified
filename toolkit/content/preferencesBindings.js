@@ -2062,12 +2062,6 @@ opener
 Preferences
 &
 &
-Services
-.
-scriptSecurityManager
-.
-isSystemPrincipal
-(
 window
 .
 opener
@@ -2075,7 +2069,8 @@ opener
 document
 .
 nodePrincipal
-)
+.
+isSystemPrincipal
 )
 {
 /

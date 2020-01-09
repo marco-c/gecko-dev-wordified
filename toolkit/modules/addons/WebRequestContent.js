@@ -613,14 +613,9 @@ if
 requestPrincipal
 &
 &
-Services
-.
-scriptSecurityManager
+requestPrincipal
 .
 isSystemPrincipal
-(
-requestPrincipal
-)
 )
 {
 return

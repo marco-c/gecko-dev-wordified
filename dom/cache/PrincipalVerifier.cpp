@@ -805,12 +805,11 @@ NS_WARN_IF
 actor
 &
 &
-ssm
+principal
 -
 >
 IsSystemPrincipal
 (
-principal
 )
 )
 )
@@ -877,12 +876,11 @@ string
 if
 (
 !
-ssm
+principal
 -
 >
 IsSystemPrincipal
 (
-principal
 )
 )
 {

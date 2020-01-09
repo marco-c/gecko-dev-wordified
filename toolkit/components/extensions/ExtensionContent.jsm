@@ -4014,12 +4014,9 @@ principal
 ;
 if
 (
-ssm
+contentPrincipal
 .
 isSystemPrincipal
-(
-contentPrincipal
-)
 )
 {
 principal
@@ -4454,12 +4451,9 @@ principal
 ;
 if
 (
-ssm
+contentPrincipal
 .
 isSystemPrincipal
-(
-contentPrincipal
-)
 )
 {
 /
