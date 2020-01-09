@@ -4125,8 +4125,10 @@ endif
 #
 ifdef
 MOZ_REFLOW_PERF
+UniquePtr
+<
 ReflowCountMgr
-*
+>
 mReflowCountMgr
 ;
 #
