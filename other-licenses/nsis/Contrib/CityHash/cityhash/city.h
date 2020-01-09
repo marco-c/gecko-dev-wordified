@@ -503,6 +503,9 @@ typedef
 uint64_t
 uint64
 ;
+#
+ifdef
+__cplusplus
 /
 /
 The
@@ -668,6 +671,13 @@ second
 }
 #
 endif
+extern
+"
+C
+"
+{
+#
+endif
 /
 /
 Hash
@@ -763,6 +773,10 @@ uint64
 seed1
 )
 ;
+#
+ifdef
+__cplusplus
+}
 /
 /
 Hash
@@ -930,6 +944,8 @@ return
 b
 ;
 }
+#
+endif
 #
 endif
 /
