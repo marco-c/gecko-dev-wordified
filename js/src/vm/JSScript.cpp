@@ -22982,12 +22982,8 @@ getTableSwitchCaseByIndex
 i
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-switchCase
-!
-=
-loc
 mainLoc
 <
 =
@@ -22999,12 +22995,8 @@ switchCase
 endLoc
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-switchCase
-!
-=
-loc
 switchCase
 .
 isJumpTarget

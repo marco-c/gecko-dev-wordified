@@ -4918,16 +4918,6 @@ the
 current
 bytecode
 *
-unless
-the
-offset
-is
-zero
-(
-missing
-case
-)
-*
 jumps
 to
 a
