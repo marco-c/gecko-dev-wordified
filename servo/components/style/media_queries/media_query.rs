@@ -190,6 +190,7 @@ MallocSizeOf
 Parse
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -290,6 +291,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -557,6 +559,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -1223,6 +1226,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub

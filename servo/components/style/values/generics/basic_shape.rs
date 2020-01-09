@@ -291,6 +291,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -396,6 +397,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -448,6 +450,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -530,6 +533,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -551,6 +555,13 @@ css
 field_bound
 )
 ]
+#
+[
+shmem
+(
+field_bound
+)
+]
 InsetRect
 <
 LengthPercentage
@@ -562,6 +573,13 @@ Circle
 #
 [
 css
+(
+field_bound
+)
+]
+#
+[
+shmem
 (
 field_bound
 )
@@ -578,6 +596,13 @@ Ellipse
 #
 [
 css
+(
+field_bound
+)
+]
+#
+[
+shmem
 (
 field_bound
 )
@@ -651,6 +676,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -668,6 +694,13 @@ Rect
 <
 LengthPercentage
 >
+#
+[
+shmem
+(
+field_bound
+)
+]
 pub
 round
 :
@@ -727,6 +760,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -805,6 +839,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -886,6 +921,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -975,6 +1011,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1062,6 +1099,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1183,6 +1221,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -1259,6 +1298,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub

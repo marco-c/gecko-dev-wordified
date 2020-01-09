@@ -215,6 +215,7 @@ MallocSizeOf
 PartialEq
 PartialOrd
 ToCss
+ToShmem
 )
 ]
 pub
@@ -552,6 +553,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub

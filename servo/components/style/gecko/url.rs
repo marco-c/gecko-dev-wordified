@@ -320,6 +320,7 @@ Debug
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -350,6 +351,7 @@ Debug
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1159,6 +1161,7 @@ Clone
 Debug
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -2064,6 +2067,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub

@@ -1573,6 +1573,7 @@ derive
 (
 Clone
 Debug
+ToShmem
 )
 ]
 #

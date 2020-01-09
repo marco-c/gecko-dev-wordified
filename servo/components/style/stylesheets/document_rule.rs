@@ -260,6 +260,7 @@ ToCss
 derive
 (
 Debug
+ToShmem
 )
 ]
 /
@@ -627,6 +628,7 @@ Debug
 Parse
 PartialEq
 ToCss
+ToShmem
 )
 ]
 #
@@ -666,6 +668,7 @@ derive
 Clone
 Debug
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1731,6 +1734,7 @@ derive
 Clone
 Debug
 ToCss
+ToShmem
 )
 ]
 pub

@@ -159,6 +159,7 @@ SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub

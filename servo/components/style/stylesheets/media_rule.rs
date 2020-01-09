@@ -251,6 +251,7 @@ media
 derive
 (
 Debug
+ToShmem
 )
 ]
 pub

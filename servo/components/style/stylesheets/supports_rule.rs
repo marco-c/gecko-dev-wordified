@@ -321,6 +321,7 @@ supports
 derive
 (
 Debug
+ToShmem
 )
 ]
 pub
@@ -661,6 +662,7 @@ derive
 (
 Clone
 Debug
+ToShmem
 )
 ]
 pub
@@ -2535,6 +2537,7 @@ derive
 (
 Clone
 Debug
+ToShmem
 )
 ]
 /
@@ -2887,6 +2890,7 @@ derive
 (
 Clone
 Debug
+ToShmem
 )
 ]
 /

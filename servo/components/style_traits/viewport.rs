@@ -715,6 +715,7 @@ Clone
 Copy
 Debug
 PartialEq
+ToShmem
 )
 ]
 #

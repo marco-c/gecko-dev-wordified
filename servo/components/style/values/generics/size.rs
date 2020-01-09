@@ -151,6 +151,7 @@ SpecifiedValueInfo
 ToAnimatedZero
 ToAnimatedValue
 ToComputedValue
+ToShmem
 )
 ]
 #

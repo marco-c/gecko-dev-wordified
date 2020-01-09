@@ -1566,6 +1566,7 @@ Debug
 MallocSizeOf
 PartialEq
 PartialOrd
+ToShmem
 )
 ]
 pub
@@ -2680,6 +2681,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -3055,6 +3057,7 @@ PartialEq
 PartialOrd
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -3287,6 +3290,7 @@ Eq
 MallocSizeOf
 PartialEq
 PartialOrd
+ToShmem
 )
 ]
 pub
@@ -4959,6 +4963,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 #

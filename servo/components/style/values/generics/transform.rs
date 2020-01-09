@@ -238,6 +238,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -319,6 +320,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -712,6 +714,7 @@ SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #
@@ -857,6 +860,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 /
@@ -1713,6 +1717,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 /
@@ -4586,6 +4591,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
+ToShmem
 )
 ]
 /
@@ -5109,6 +5115,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
+ToShmem
 )
 ]
 /
@@ -5383,6 +5390,7 @@ SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 /
@@ -5670,6 +5678,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub

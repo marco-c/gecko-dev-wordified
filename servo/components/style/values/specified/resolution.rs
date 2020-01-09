@@ -139,6 +139,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub

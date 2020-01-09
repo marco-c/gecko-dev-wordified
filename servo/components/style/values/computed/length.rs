@@ -4127,6 +4127,7 @@ PartialEq
 PartialOrd
 ToAnimatedValue
 ToAnimatedZero
+ToShmem
 )
 ]
 #
@@ -5227,6 +5228,7 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #

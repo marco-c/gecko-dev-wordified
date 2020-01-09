@@ -758,6 +758,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub

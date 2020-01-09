@@ -329,6 +329,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -492,6 +493,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -542,6 +544,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -717,6 +720,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -1122,6 +1126,7 @@ derive
 Clone
 Debug
 MallocSizeOf
+ToShmem
 )
 ]
 pub
@@ -3078,6 +3083,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub

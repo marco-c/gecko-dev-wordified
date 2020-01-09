@@ -143,6 +143,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
+ToShmem
 )
 ]
 #
@@ -266,6 +267,7 @@ SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 #

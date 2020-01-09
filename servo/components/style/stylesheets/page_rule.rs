@@ -305,6 +305,7 @@ selectors
 derive
 (
 Debug
+ToShmem
 )
 ]
 pub

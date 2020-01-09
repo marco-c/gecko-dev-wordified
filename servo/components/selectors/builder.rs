@@ -1693,6 +1693,7 @@ Copy
 Debug
 Eq
 PartialEq
+ToShmem
 )
 ]
 pub

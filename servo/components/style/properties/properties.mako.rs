@@ -2135,6 +2135,13 @@ declaration
 .
 #
 [
+derive
+(
+ToShmem
+)
+]
+#
+[
 repr
 (
 u16
@@ -6478,6 +6485,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -7190,6 +7198,7 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 #
@@ -9488,6 +9497,7 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 #
@@ -10836,6 +10846,7 @@ derive
 Debug
 Eq
 PartialEq
+ToShmem
 )
 ]
 pub
@@ -13791,6 +13802,7 @@ derive
 Clone
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -13846,6 +13858,7 @@ derive
 Clone
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -13921,6 +13934,7 @@ derive
 Clone
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub
@@ -13996,6 +14010,7 @@ derive
 Clone
 PartialEq
 ToCss
+ToShmem
 )
 ]
 pub

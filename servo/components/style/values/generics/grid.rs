@@ -245,6 +245,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -1227,6 +1228,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1308,6 +1310,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1559,6 +1562,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToShmem
 )
 ]
 pub
@@ -2848,6 +2852,7 @@ MallocSizeOf
 PartialEq
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -3152,6 +3157,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 #
@@ -3844,6 +3850,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -3961,6 +3968,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -4266,6 +4274,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToShmem
 )
 ]
 pub
@@ -4919,6 +4928,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToShmem
 )
 ]
 pub
@@ -5632,6 +5642,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -5671,6 +5682,13 @@ field_bound
 #
 [
 compute
+(
+field_bound
+)
+]
+#
+[
+shmem
 (
 field_bound
 )

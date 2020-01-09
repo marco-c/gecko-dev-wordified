@@ -163,6 +163,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -286,6 +287,7 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -865,6 +867,7 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -930,6 +933,7 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -1031,6 +1035,7 @@ SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub

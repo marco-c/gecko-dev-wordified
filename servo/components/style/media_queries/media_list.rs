@@ -172,6 +172,7 @@ derive
 Clone
 MallocSizeOf
 ToCss
+ToShmem
 )
 ]
 pub

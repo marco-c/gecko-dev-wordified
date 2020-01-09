@@ -709,6 +709,7 @@ MallocSizeOf
 derive
 (
 Clone
+ToShmem
 )
 ]
 pub

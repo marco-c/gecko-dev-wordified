@@ -123,6 +123,7 @@ PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -222,6 +223,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToShmem
 )
 ]
 pub
@@ -480,6 +482,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedValue
 ToCss
+ToShmem
 Parse
 )
 ]

@@ -1217,6 +1217,7 @@ derive
 (
 Clone
 Debug
+ToShmem
 )
 ]
 pub
@@ -2559,6 +2560,7 @@ derive
 (
 Clone
 Debug
+ToShmem
 )
 ]
 pub
@@ -3060,6 +3062,7 @@ Eq
 PartialEq
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -3338,6 +3341,7 @@ derive
 Clone
 Debug
 ToCss
+ToShmem
 )
 ]
 pub
@@ -3477,6 +3481,7 @@ derive
 (
 Clone
 Debug
+ToShmem
 )
 ]
 pub
@@ -3510,6 +3515,7 @@ Clone
 Copy
 Debug
 ToCss
+ToShmem
 )
 ]
 pub
@@ -3998,6 +4004,7 @@ derive
 Clone
 Debug
 ToCss
+ToShmem
 )
 ]
 pub
@@ -4150,6 +4157,7 @@ derive
 Clone
 Debug
 ToCss
+ToShmem
 )
 ]
 pub
@@ -4267,6 +4275,7 @@ Eq
 PartialEq
 ToComputedValue
 ToCss
+ToShmem
 )
 ]
 pub
@@ -4451,6 +4460,7 @@ derive
 Clone
 Debug
 ToCss
+ToShmem
 )
 ]
 pub
@@ -4617,6 +4627,7 @@ derive
 Clone
 Debug
 ToCss
+ToShmem
 )
 ]
 pub
@@ -4801,6 +4812,7 @@ derive
 Clone
 Debug
 ToCss
+ToShmem
 )
 ]
 pub

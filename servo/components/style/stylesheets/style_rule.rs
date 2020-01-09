@@ -199,6 +199,7 @@ declarations
 derive
 (
 Debug
+ToShmem
 )
 ]
 pub

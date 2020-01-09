@@ -1489,6 +1489,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+ToShmem
 )
 ]
 pub

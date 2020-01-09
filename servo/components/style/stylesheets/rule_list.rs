@@ -206,6 +206,7 @@ rules
 derive
 (
 Debug
+ToShmem
 )
 ]
 pub
