@@ -387,9 +387,6 @@ runtime
 >
 {
 return
-{
-clientWrapper
-:
 this
 .
 _clients
@@ -398,7 +395,6 @@ runtime
 .
 id
 ]
-}
 ;
 }
 ;

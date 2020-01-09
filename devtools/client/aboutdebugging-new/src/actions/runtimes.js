@@ -413,10 +413,7 @@ runtimes
 )
 ;
 const
-{
 clientWrapper
-transportDetails
-}
 =
 await
 createClientForRuntime
@@ -459,7 +456,6 @@ runtimeDetails
 clientWrapper
 connectionPromptEnabled
 info
-transportDetails
 }
 ;
 if
