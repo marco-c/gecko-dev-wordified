@@ -563,6 +563,25 @@ self
 images
 )
         
+#
+only
+dump
+out
+supporting
+data
+(
+i
+.
+e
+.
+power
+)
+if
+actual
+Raptor
+test
+completed
+        
 if
 self
 .
@@ -570,6 +589,16 @@ supporting_data
 is
 not
 None
+and
+len
+(
+self
+.
+results
+)
+!
+=
+0
 :
             
 output
