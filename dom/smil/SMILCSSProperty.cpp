@@ -179,6 +179,15 @@ include
 "
 mozilla
 /
+SMILValue
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleAnimationValue
 .
 h
@@ -187,13 +196,6 @@ h
 include
 "
 nsDOMCSSAttrDeclaration
-.
-h
-"
-#
-include
-"
-nsSMILValue
 .
 h
 "
@@ -265,7 +267,7 @@ animation
 )
 ;
 }
-nsSMILValue
+SMILValue
 SMILCSSProperty
 :
 :
@@ -321,7 +323,7 @@ return
 THIS
 variable
 :
-nsSMILValue
+SMILValue
 baseValue
 ;
 /
@@ -507,7 +509,7 @@ indicate
 failure
 )
 .
-nsSMILValue
+SMILValue
 tmpVal
 (
 &
@@ -586,7 +588,7 @@ const
 SVGAnimationElement
 *
 aSrcElement
-nsSMILValue
+SMILValue
 &
 aValue
 bool
@@ -709,7 +711,7 @@ SMILCSSProperty
 SetAnimValue
 (
 const
-nsSMILValue
+SMILValue
 &
 aValue
 )

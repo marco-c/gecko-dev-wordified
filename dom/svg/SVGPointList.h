@@ -1014,7 +1014,7 @@ of
 this
 class
 in
-nsSMILValue
+SMILValue
 objects
 some
 of
@@ -1399,7 +1399,7 @@ a
 /
 cached
 baseVal
-nsSMILValue
+SMILValue
 .
 See
 the

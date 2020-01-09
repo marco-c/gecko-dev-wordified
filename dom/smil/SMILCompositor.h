@@ -898,7 +898,7 @@ void
 UpdateCachedBaseValue
 (
 const
-nsSMILValue
+SMILValue
 &
 aBaseValue
 )
@@ -1089,7 +1089,7 @@ calling
 StealCachedBaseValue
 .
 )
-nsSMILValue
+SMILValue
 mCachedBaseValue
 ;
 }

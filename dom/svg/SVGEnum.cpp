@@ -135,6 +135,15 @@ h
 #
 include
 "
+mozilla
+/
+SMILValue
+.
+h
+"
+#
+include
+"
 nsAtom
 .
 h
@@ -149,13 +158,6 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
-.
-h
-"
-#
-include
-"
 SMILEnumType
 .
 h
@@ -163,7 +165,7 @@ h
 #
 include
 "
-nsSMILValue
+nsSVGAttrTearoffTable
 .
 h
 "
@@ -743,7 +745,7 @@ SVGAnimationElement
 aSrcElement
 *
 /
-nsSMILValue
+SMILValue
 &
 aValue
 bool
@@ -801,7 +803,7 @@ mapping
 mKey
 )
 {
-nsSMILValue
+SMILValue
 val
 (
 SMILEnumType
@@ -865,7 +867,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsSMILValue
+SMILValue
 SVGEnum
 :
 :
@@ -877,7 +879,7 @@ GetBaseValue
 )
 const
 {
-nsSMILValue
+SMILValue
 val
 (
 SMILEnumType
@@ -962,7 +964,7 @@ SMILEnum
 SetAnimValue
 (
 const
-nsSMILValue
+SMILValue
 &
 aValue
 )

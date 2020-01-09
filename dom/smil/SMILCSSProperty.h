@@ -291,7 +291,7 @@ is
 called
 an
 empty
-nsSMILValue
+SMILValue
 initialized
 with
 *
@@ -337,7 +337,7 @@ dom
 SVGAnimationElement
 *
 aSrcElement
-nsSMILValue
+SMILValue
 &
 aValue
 bool
@@ -348,7 +348,7 @@ const
 override
 ;
 virtual
-nsSMILValue
+SMILValue
 GetBaseValue
 (
 )
@@ -360,7 +360,7 @@ nsresult
 SetAnimValue
 (
 const
-nsSMILValue
+SMILValue
 &
 aValue
 )

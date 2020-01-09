@@ -162,12 +162,12 @@ h
 class
 nsAtom
 ;
-class
-nsSMILValue
-;
 namespace
 mozilla
 {
+class
+SMILValue
+;
 namespace
 dom
 {
@@ -434,7 +434,7 @@ dom
 SVGAnimationElement
 *
 aSrcElement
-nsSMILValue
+SMILValue
 &
 aValue
 bool
@@ -445,7 +445,7 @@ const
 override
 ;
 virtual
-nsSMILValue
+SMILValue
 GetBaseValue
 (
 )
@@ -464,7 +464,7 @@ nsresult
 SetAnimValue
 (
 const
-nsSMILValue
+SMILValue
 &
 aValue
 )

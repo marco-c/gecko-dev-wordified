@@ -127,6 +127,9 @@ stdint
 .
 h
 >
+namespace
+mozilla
+{
 /
 /
 A
@@ -226,6 +229,11 @@ typedef
 int64_t
 nsSMILTime
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

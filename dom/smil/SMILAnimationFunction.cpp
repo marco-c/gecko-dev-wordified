@@ -1348,7 +1348,7 @@ const
 nsISMILAttr
 &
 aSMILAttr
-nsSMILValue
+SMILValue
 &
 aResult
 )
@@ -1396,7 +1396,7 @@ Get
 the
 animation
 values
-nsSMILValueArray
+SMILValueArray
 values
 ;
 nsresult
@@ -1581,7 +1581,7 @@ IsNull
 )
 return
 ;
-nsSMILValue
+SMILValue
 result
 ;
 if
@@ -1632,7 +1632,7 @@ Sampling
 last
 value
 const
-nsSMILValue
+SMILValue
 &
 last
 =
@@ -2264,13 +2264,13 @@ SMILAnimationFunction
 InterpolateResult
 (
 const
-nsSMILValueArray
+SMILValueArray
 &
 aValues
-nsSMILValue
+SMILValue
 &
 aResult
-nsSMILValue
+SMILValue
 &
 aBaseValue
 )
@@ -2603,14 +2603,14 @@ between
 adjacent
 values
 const
-nsSMILValue
+SMILValue
 *
 from
 =
 nullptr
 ;
 const
-nsSMILValue
+SMILValue
 *
 to
 =
@@ -3444,7 +3444,7 @@ method
 for
 this
 on
-nsSMILValue
+SMILValue
 but
 its
 faster
@@ -3622,10 +3622,10 @@ SMILAnimationFunction
 AccumulateResult
 (
 const
-nsSMILValueArray
+SMILValueArray
 &
 aValues
-nsSMILValue
+SMILValue
 &
 aResult
 )
@@ -3647,7 +3647,7 @@ mRepeatIteration
 )
 {
 const
-nsSMILValue
+SMILValue
 &
 lastValue
 =
@@ -3775,7 +3775,7 @@ SMILAnimationFunction
 ComputePacedPosition
 (
 const
-nsSMILValueArray
+SMILValueArray
 &
 aValues
 double
@@ -3784,12 +3784,12 @@ double
 &
 aIntervalProgress
 const
-nsSMILValue
+SMILValue
 *
 &
 aFrom
 const
-nsSMILValue
+SMILValue
 *
 &
 aTo
@@ -4550,7 +4550,7 @@ SMILAnimationFunction
 ComputePacedTotalDistance
 (
 const
-nsSMILValueArray
+SMILValueArray
 &
 aValues
 )
@@ -5130,7 +5130,7 @@ corresponds
 to
 an
 *
-nsSMILValue
+SMILValue
 a
 little
 neater
@@ -5168,7 +5168,7 @@ out
 aResult
 The
 resulting
-nsSMILValue
+SMILValue
 .
 *
 param
@@ -5259,7 +5259,7 @@ const
 nsISMILAttr
 &
 aSMILAttr
-nsSMILValue
+SMILValue
 &
 aResult
 bool
@@ -5487,7 +5487,7 @@ const
 nsISMILAttr
 &
 aSMILAttr
-nsSMILValueArray
+SMILValueArray
 &
 aResult
 )
@@ -5504,7 +5504,7 @@ mValueNeedsReparsingEverySample
 =
 false
 ;
-nsSMILValueArray
+SMILValueArray
 result
 ;
 /
@@ -5597,7 +5597,7 @@ parseOk
 =
 true
 ;
-nsSMILValue
+SMILValue
 to
 from
 by
@@ -5757,7 +5757,7 @@ IsNull
 )
 )
 {
-nsSMILValue
+SMILValue
 effectiveFrom
 (
 by
@@ -5801,7 +5801,7 @@ fallible
 )
 )
 ;
-nsSMILValue
+SMILValue
 effectiveTo
 (
 effectiveFrom

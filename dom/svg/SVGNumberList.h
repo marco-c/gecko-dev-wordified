@@ -891,12 +891,12 @@ to
 be
 stored
 in
-an
-nsISMILValue
+a
+SMILValue
 instance
 .
 Since
-nsISMILValue
+SMILValue
 objects
 may
 *
@@ -1262,7 +1262,7 @@ a
 /
 cached
 baseVal
-nsSMILValue
+SMILValue
 .
 See
 the

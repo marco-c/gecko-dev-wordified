@@ -620,7 +620,7 @@ Get
 cache
 base
 value
-nsSMILValue
+SMILValue
 sandwichResultValue
 ;
 if
@@ -1702,7 +1702,7 @@ SMILCompositor
 UpdateCachedBaseValue
 (
 const
-nsSMILValue
+SMILValue
 &
 aBaseValue
 )

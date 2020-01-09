@@ -2144,7 +2144,7 @@ a
 /
 cached
 baseVal
-nsSMILValue
+SMILValue
 .
 See
 the

@@ -179,12 +179,12 @@ nsIContent
 class
 nsISMILAttr
 ;
-class
-nsSMILValue
-;
 namespace
 mozilla
 {
+class
+SMILValue
+;
 namespace
 dom
 {
@@ -514,7 +514,7 @@ const
 nsISMILAttr
 &
 aSMILAttr
-nsSMILValueArray
+SMILValueArray
 &
 aResult
 )
@@ -637,7 +637,7 @@ double
 >
 &
 aPointDistances
-nsSMILValueArray
+SMILValueArray
 &
 aResult
 )

@@ -123,7 +123,9 @@ NS_SMILMILESTONE_H_
 #
 include
 "
-nsSMILTypes
+mozilla
+/
+SMILTypes
 .
 h
 "

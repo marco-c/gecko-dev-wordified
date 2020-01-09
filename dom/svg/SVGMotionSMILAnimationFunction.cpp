@@ -143,10 +143,6 @@ SVGPathElement
 .
 h
 "
-/
-/
-for
-nsSVGPathList
 #
 include
 "
@@ -202,7 +198,7 @@ h
 #
 include
 "
-SVGPathDataParser
+SVGMotionSMILPathUtils
 .
 h
 "
@@ -216,7 +212,7 @@ h
 #
 include
 "
-SVGMotionSMILPathUtils
+SVGPathDataParser
 .
 h
 "
@@ -2025,7 +2021,7 @@ double
 >
 &
 aPointDistances
-nsSMILValueArray
+SMILValueArray
 &
 aResult
 )
@@ -2178,7 +2174,7 @@ const
 nsISMILAttr
 &
 aSMILAttr
-nsSMILValueArray
+SMILValueArray
 &
 aResult
 )
@@ -2283,7 +2279,7 @@ the
 actual
 list
 of
-nsSMILValues
+SMILValues
 (
 using
 keyPoints

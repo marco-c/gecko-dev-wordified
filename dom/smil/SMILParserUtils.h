@@ -137,9 +137,6 @@ h
 class
 nsISMILAttr
 ;
-class
-nsSMILValue
-;
 namespace
 mozilla
 {
@@ -154,6 +151,9 @@ SMILTimeValue
 ;
 class
 SMILTimeValueSpecParams
+;
+class
+SMILValue
 ;
 namespace
 dom
@@ -330,7 +330,7 @@ nsISMILAttr
 aAttribute
 FallibleTArray
 <
-nsSMILValue
+SMILValue
 >
 &
 aValuesArray
