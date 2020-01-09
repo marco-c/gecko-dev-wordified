@@ -31217,7 +31217,6 @@ plugins
 policies
 profiles
 restartrequired
-searchreset
 serviceworkers
 sessionrestore
 support
