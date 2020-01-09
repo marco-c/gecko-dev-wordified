@@ -18184,15 +18184,12 @@ nsDisplayList
 (
 )
 {
-if
+MOZ_RELEASE_ASSERT
 (
+!
 mSentinel
 .
 mAbove
-)
-{
-NS_WARNING
-(
 "
 Nonempty
 list
@@ -18202,7 +18199,6 @@ over
 "
 )
 ;
-}
 }
 nsDisplayList
 (
