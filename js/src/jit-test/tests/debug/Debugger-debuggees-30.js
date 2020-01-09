@@ -164,6 +164,9 @@ g4
 newGlobal
 (
 {
+newCompartment
+:
+true
 sameZoneAs
 :
 this

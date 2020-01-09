@@ -24,6 +24,9 @@ js
 newGlobal
 (
 {
+newCompartment
+:
+true
 invisibleToDebugger
 :
 true

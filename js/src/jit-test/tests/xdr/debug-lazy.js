@@ -152,6 +152,9 @@ true
 checkAfter
 :
 checkAfter
+newCompartment
+:
+true
 }
 )
 ;

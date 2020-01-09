@@ -17,11 +17,11 @@ g
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
+{
+newCompartment
+:
+true
+}
 )
 ;
 var

@@ -97,6 +97,11 @@ cloneSingletons
 :
 !
 incremental
+newCompartment
+:
+ctx
+.
+newCompartment
 }
 )
 ;
