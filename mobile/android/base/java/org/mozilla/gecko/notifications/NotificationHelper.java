@@ -789,11 +789,8 @@ MLS
 *
 *
 *
-Mozilla
-Location
-Services
-notification
-channel
+File
+downloads
 .
 *
 /
