@@ -288,6 +288,11 @@ aSandboxLevel
 )
 ;
 bool
+SetSecurityLevelForRDDProcess
+(
+)
+;
+bool
 SetSecurityLevelForPluginProcess
 (
 int32_t
