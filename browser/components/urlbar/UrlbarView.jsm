@@ -817,6 +817,16 @@ _openPanel
 (
 )
 {
+if
+(
+this
+.
+isOpen
+)
+{
+return
+;
+}
 this
 .
 panel
