@@ -3936,8 +3936,6 @@ JSContext
 cx
 BufferContents
 newContents
-OwnsState
-ownsState
 )
 {
 MOZ_RELEASE_ASSERT
@@ -3976,7 +3974,7 @@ defaultFreeOp
 (
 )
 newContents
-ownsState
+OwnsData
 )
 ;
 /
@@ -6995,7 +6993,6 @@ createMalloced
 (
 data
 )
-OwnsData
 )
 ;
 }
