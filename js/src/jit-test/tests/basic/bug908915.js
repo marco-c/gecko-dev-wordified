@@ -76,11 +76,6 @@ terminate
 :
 true
 '
-nestedShell
-'
-:
-true
-'
 nukeAllCCWs
 '
 :
