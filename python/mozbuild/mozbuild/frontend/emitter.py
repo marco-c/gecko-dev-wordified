@@ -208,6 +208,8 @@ UnifiedSources
     
 VariablePassthru
     
+XPCOMComponentManifests
+    
 XPIDLModule
 )
 from
@@ -1159,6 +1161,24 @@ preprocessed_sources
         
 ]
         
+xpcom_attrs
+=
+[
+            
+(
+'
+XPCOM_MANIFESTS
+'
+lambda
+c
+:
+c
+.
+manifests
+)
+        
+]
+        
 idl_sources
 =
 {
@@ -1204,6 +1224,24 @@ IPDL_ROOT
                                   
 IPDLCollection
 ipdl_attrs
+)
+                                 
+(
+self
+.
+config
+.
+substs
+.
+get
+(
+'
+XPCOM_ROOT
+'
+)
+                                  
+XPCOMComponentManifests
+xpcom_attrs
 )
 )
 :
@@ -9094,6 +9132,10 @@ IPDL_SOURCES
             
 '
 PREPROCESSED_IPDL_SOURCES
+'
+            
+'
+XPCOM_MANIFESTS
 '
         
 )
