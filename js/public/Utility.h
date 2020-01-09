@@ -2191,6 +2191,9 @@ new
 /
 *
 *
+[
+SMDOC
+]
 Low
 -
 level
@@ -2198,7 +2201,6 @@ memory
 management
 in
 SpiderMonkey
-:
 *
 *
 *
