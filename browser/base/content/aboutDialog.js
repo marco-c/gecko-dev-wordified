@@ -87,7 +87,7 @@ for
 common
 XPCOM
 services
-const
+var
 {
 Services
 }
