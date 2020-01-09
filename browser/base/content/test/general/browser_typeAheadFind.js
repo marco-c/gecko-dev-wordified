@@ -140,7 +140,9 @@ initialized
 let
 findBarOpenPromise
 =
-promiseWaitForEvent
+BrowserTestUtils
+.
+waitForEvent
 (
 testWindow
 .
