@@ -82,12 +82,12 @@ iframe
 .
 setAttribute
 (
-'
+"
 mozbrowser
-'
-'
+"
+"
 true
-'
+"
 )
 ;
 if

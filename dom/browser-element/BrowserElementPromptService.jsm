@@ -199,8 +199,6 @@ nsIPrompt
 ]
 )
 alert
-:
-function
 (
 title
 text
@@ -222,8 +220,6 @@ promptType
 alert
 "
 title
-:
-title
 message
 :
 text
@@ -235,8 +231,6 @@ undefined
 ;
 }
 alertCheck
-:
-function
 (
 title
 text
@@ -289,8 +283,6 @@ text
 ;
 }
 confirm
-:
-function
 (
 title
 text
@@ -313,8 +305,6 @@ promptType
 confirm
 "
 title
-:
-title
 message
 :
 text
@@ -326,8 +316,6 @@ undefined
 ;
 }
 confirmCheck
-:
-function
 (
 title
 text
@@ -464,8 +452,6 @@ checked
 /
 }
 confirmEx
-:
-function
 (
 title
 text
@@ -536,8 +522,6 @@ custom
 prompt
 "
 title
-:
-title
 message
 :
 text
@@ -598,8 +582,6 @@ selectedButton
 ;
 }
 prompt
-:
-function
 (
 title
 text
@@ -626,8 +608,6 @@ promptType
 "
 prompt
 "
-title
-:
 title
 message
 :
@@ -710,8 +690,6 @@ null
 ;
 }
 promptUsernameAndPassword
-:
-function
 (
 title
 text
@@ -728,8 +706,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 promptPassword
-:
-function
 (
 title
 text
@@ -745,8 +721,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 select
-:
-function
 (
 title
 text
@@ -762,8 +736,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 _buildConfirmExButtonProperties
-:
-function
 (
 buttonFlags
 button0Title
@@ -940,9 +912,9 @@ ret
 .
 messageType
 =
-'
+"
 builtin
-'
+"
 ;
 switch
 (
@@ -960,9 +932,9 @@ ret
 .
 message
 =
-'
+"
 ok
-'
+"
 ;
 break
 ;
@@ -977,9 +949,9 @@ ret
 .
 message
 =
-'
+"
 cancel
-'
+"
 ;
 break
 ;
@@ -994,9 +966,9 @@ ret
 .
 message
 =
-'
+"
 yes
-'
+"
 ;
 break
 ;
@@ -1011,9 +983,9 @@ ret
 .
 message
 =
-'
+"
 no
-'
+"
 ;
 break
 ;
@@ -1028,9 +1000,9 @@ ret
 .
 message
 =
-'
+"
 save
-'
+"
 ;
 break
 ;
@@ -1045,9 +1017,9 @@ ret
 .
 message
 =
-'
+"
 dontsave
-'
+"
 ;
 break
 ;
@@ -1062,9 +1034,9 @@ ret
 .
 message
 =
-'
+"
 revert
-'
+"
 ;
 break
 ;
@@ -1085,9 +1057,9 @@ ret
 .
 messageType
 =
-'
+"
 custom
-'
+"
 ;
 break
 ;
@@ -1448,14 +1420,8 @@ nsICancelable
 ]
 )
 callback
-:
-callback
-context
-:
 context
 cancel
-:
-function
 (
 )
 {
@@ -1554,19 +1520,11 @@ consumers
 consumer
 ]
 channel
-:
-channel
 authInfo
-:
-authInfo
-level
-:
 level
 inProgress
 :
 false
-browserElementParent
-:
 browserElementParent
 }
 ;
@@ -1621,8 +1579,6 @@ WeakMap
 (
 )
 _doAsyncPrompt
-:
-function
 (
 )
 {
@@ -2136,8 +2092,6 @@ runnable
 =
 {
 run
-:
-function
 (
 )
 {
@@ -2174,6 +2128,7 @@ callback
 ;
 }
 }
+;
 Services
 .
 tm
@@ -2185,8 +2140,6 @@ runnable
 ;
 }
 _getFrameFromChannel
-:
-function
 (
 channel
 )
@@ -2212,8 +2165,6 @@ topFrameElement
 ;
 }
 _createAuthDetail
-:
-function
 (
 channel
 authInfo
@@ -2308,8 +2259,6 @@ consistency
 here
 .
 _getAuthTarget
-:
-function
 (
 channel
 authInfo
@@ -2607,8 +2556,6 @@ display
 *
 /
 _getFormattedHostname
-:
-function
 (
 uri
 )
@@ -2669,8 +2616,6 @@ nsIAuthPrompt2
 ]
 )
 promptAuth
-:
-function
 (
 channel
 level
@@ -2700,8 +2645,6 @@ authInfo
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -2715,10 +2658,7 @@ authInfo
 )
 ;
 }
-}
 asyncPromptAuth
-:
-function
 (
 channel
 callback
@@ -2752,8 +2692,6 @@ authInfo
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -2769,10 +2707,7 @@ authInfo
 )
 ;
 }
-}
 _canGetParentElement
-:
-function
 (
 channel
 )
@@ -2902,8 +2837,6 @@ nsIPromptFactory
 ]
 )
 _mayUseNativePrompt
-:
-function
 (
 )
 {
@@ -2946,8 +2879,6 @@ true
 }
 }
 _getNativePromptIfAllowed
-:
-function
 (
 win
 iid
@@ -2973,8 +2904,6 @@ win
 iid
 )
 ;
-else
-{
 /
 /
 Not
@@ -2987,10 +2916,7 @@ throw
 err
 ;
 }
-}
 getPrompt
-:
-function
 (
 win
 iid
@@ -3336,8 +3262,6 @@ iid
 )
 ;
 }
-else
-{
 /
 /
 Falling
@@ -3368,7 +3292,6 @@ QueryInterface
 iid
 )
 ;
-}
 }
 if
 (
@@ -3463,8 +3386,6 @@ _initialized
 :
 false
 _init
-:
-function
 (
 )
 {
@@ -3724,8 +3645,6 @@ newFactory
 =
 {
 createInstance
-:
-function
 (
 outer
 iid
@@ -3788,8 +3707,6 @@ factory
 ;
 }
 _getOuterWindowID
-:
-function
 (
 win
 )
@@ -3807,8 +3724,6 @@ _browserElementChildMap
 {
 }
 mapWindowToBrowserElementChild
-:
-function
 (
 win
 browserElementChild
@@ -3830,8 +3745,6 @@ browserElementChild
 ;
 }
 unmapWindowToBrowserElementChild
-:
-function
 (
 win
 )
@@ -3851,8 +3764,6 @@ win
 ;
 }
 getBrowserElementChildForWindow
-:
-function
 (
 win
 )
@@ -3922,8 +3833,6 @@ top
 ;
 }
 mapFrameToBrowserElementParent
-:
-function
 (
 frame
 browserElementParent
@@ -3941,8 +3850,6 @@ browserElementParent
 ;
 }
 getBrowserElementParentForFrame
-:
-function
 (
 frame
 )
@@ -3959,8 +3866,6 @@ frame
 ;
 }
 _observeOuterWindowDestroyed
-:
-function
 (
 outerWindowID
 )
@@ -4000,8 +3905,6 @@ data
 ;
 }
 _browserFramesPrefEnabled
-:
-function
 (
 )
 {
@@ -4052,8 +3955,6 @@ false
 }
 }
 observe
-:
-function
 (
 subject
 topic
