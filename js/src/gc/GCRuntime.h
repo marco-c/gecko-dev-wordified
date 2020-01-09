@@ -3817,7 +3817,7 @@ reason
 ;
 MOZ_MUST_USE
 bool
-findInterZoneEdges
+findSweepGroupEdges
 (
 )
 ;

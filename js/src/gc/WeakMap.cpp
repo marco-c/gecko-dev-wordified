@@ -548,7 +548,7 @@ bool
 WeakMapBase
 :
 :
-findInterZoneEdges
+findSweepGroupEdges
 (
 JS
 :
@@ -1102,11 +1102,7 @@ if
 delegateZone
 -
 >
-gcSweepGroupEdges
-(
-)
-.
-put
+addSweepGroupEdgeTo
 (
 key
 -
