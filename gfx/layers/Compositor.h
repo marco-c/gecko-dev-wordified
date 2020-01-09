@@ -3341,17 +3341,6 @@ const
 0
 ;
 virtual
-CompositorOGL
-*
-AsCompositorOGL
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
 CompositorD3D11
 *
 AsCompositorD3D11
