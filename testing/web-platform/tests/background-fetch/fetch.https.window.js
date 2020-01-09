@@ -2734,15 +2734,11 @@ txt
 '
 '
 /
-serviceworker
-/
-resources
+common
 /
 slow
--
-response
 .
-php
+py
 '
 ]
 )
