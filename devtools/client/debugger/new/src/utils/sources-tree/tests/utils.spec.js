@@ -473,7 +473,7 @@ a
 .
 js
 "
-actor
+id
 :
 "
 actor1
@@ -502,7 +502,7 @@ d
 .
 js
 "
-actor
+id
 :
 "
 actor2

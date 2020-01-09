@@ -119,7 +119,7 @@ c
 .
 js
 "
-actor
+id
 :
 "
 actor1
@@ -156,7 +156,7 @@ e
 .
 js
 "
-actor
+id
 :
 "
 actor2
@@ -189,7 +189,7 @@ x
 .
 js
 "
-actor
+id
 :
 "
 actor3

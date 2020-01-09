@@ -58,6 +58,15 @@ MPL
 .
 *
 /
+import
+{
+memoize
+}
+from
+"
+lodash
+"
+;
 const
 defaultUrl
 =
@@ -128,6 +137,11 @@ username
 }
 ;
 export
+const
+parse
+=
+memoize
+(
 function
 parse
 (
@@ -135,10 +149,6 @@ url
 :
 string
 )
-:
-URL
-|
-object
 {
 try
 {
@@ -210,3 +220,5 @@ defaultUrl
 ;
 }
 }
+)
+;
