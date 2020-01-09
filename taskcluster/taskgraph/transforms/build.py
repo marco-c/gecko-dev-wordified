@@ -205,6 +205,9 @@ worker_os
 =
 worker_type_implementation
 (
+config
+.
+graph_config
 job
 [
 '

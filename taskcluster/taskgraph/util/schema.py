@@ -67,6 +67,10 @@ import
 collections
 import
 voluptuous
+from
+six
+import
+text_type
 import
 taskgraph
 from
@@ -925,6 +929,7 @@ k
 in
 (
 basestring
+text_type
 voluptuous
 .
 Extra

@@ -1382,6 +1382,9 @@ _generate_task_output_files
 dep_job
 worker_type_implementation
 (
+config
+.
+graph_config
 worker_type
 )
             
