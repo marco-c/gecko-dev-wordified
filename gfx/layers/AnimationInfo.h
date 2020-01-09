@@ -519,7 +519,7 @@ DisplayItemType
 nsCSSPropertyIDSet
 :
 :
-CompositorAnimatableCount
+CompositorAnimatableDisplayItemCount
 (
 )
 >
