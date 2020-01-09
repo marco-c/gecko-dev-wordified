@@ -288,13 +288,21 @@ unicode
 return
 tuple
 (
+pref_piece
+.
+strip
+(
+)
+for
+pref_piece
+in
 ini_value
 .
 split
 (
-"
+'
 :
-"
+'
 1
 )
 )
@@ -305,6 +313,10 @@ else
 return
 (
 ini_value
+.
+strip
+(
+)
 None
 )
     
