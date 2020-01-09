@@ -553,6 +553,9 @@ BorderRadius
 clip_mode
 :
 BoxShadowClipMode
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 {
 if
@@ -968,6 +971,7 @@ into
 (
 )
 }
+reference_frame_relative_offset
 )
 ;
 }
@@ -1401,6 +1405,7 @@ clip_and_scroll
 prim_info
 extra_clips
 prim
+reference_frame_relative_offset
 )
 ;
 }
