@@ -334,6 +334,17 @@ include
 "
 mozilla
 /
+net
+/
+NeckoChannelParams
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventStateManager
 .
 h
@@ -4943,6 +4954,7 @@ aPreferredAlternativeDataType
 EmptyCString
 (
 )
+true
 )
 ;
 MOZ_ASSERT
@@ -5044,6 +5056,7 @@ NS_LITERAL_CSTRING
 (
 WASM_CONTENT_TYPE
 )
+false
 )
 ;
 }
@@ -6509,11 +6522,6 @@ Length
 ;
 MOZ_ASSERT
 (
-Get
-<
-0
->
-(
 cic
 -
 >
@@ -6523,6 +6531,9 @@ PreferredAlternativeDataTypes
 [
 0
 ]
+.
+type
+(
 )
 .
 EqualsLiteral
@@ -6533,11 +6544,6 @@ WASM_ALT_DATA_TYPE_V1
 ;
 MOZ_ASSERT
 (
-Get
-<
-1
->
-(
 cic
 -
 >
@@ -6547,6 +6553,9 @@ PreferredAlternativeDataTypes
 [
 0
 ]
+.
+contentType
+(
 )
 .
 EqualsLiteral
