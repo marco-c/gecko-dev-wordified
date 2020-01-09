@@ -1190,10 +1190,6 @@ pic_index
 :
 PictureIndex
 pub
-pipeline_id
-:
-PipelineId
-pub
 apply_local_clip_rect
 :
 bool
@@ -1262,10 +1258,6 @@ pub
 struct
 PictureState
 {
-pub
-is_cacheable
-:
-bool
 pub
 map_local_to_pic
 :
