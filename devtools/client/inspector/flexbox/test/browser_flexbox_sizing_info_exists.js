@@ -73,7 +73,7 @@ TEST_URI
 URL_ROOT
 +
 "
-doc_flexbox_simple
+doc_flexbox_specific_cases
 .
 html
 "
