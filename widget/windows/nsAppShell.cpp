@@ -2014,6 +2014,13 @@ InitUIThread
 (
 )
 ;
+if
+(
+XRE_Win32kCallsAllowed
+(
+)
+)
+{
 sTaskbarButtonCreatedMsg
 =
 :
@@ -2037,6 +2044,7 @@ message
 "
 )
 ;
+}
 /
 /
 The
@@ -2230,6 +2238,12 @@ mEventWnd
 ;
 }
 else
+if
+(
+XRE_IsContentProcess
+(
+)
+)
 {
 /
 /
