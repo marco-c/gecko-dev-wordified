@@ -804,8 +804,6 @@ gHistoryGrouping
 lastvisited
 "
 )
-this
-.
 TelemetryStopwatch
 .
 start
@@ -866,8 +864,6 @@ gHistoryGrouping
 lastvisited
 "
 )
-this
-.
 TelemetryStopwatch
 .
 finish
