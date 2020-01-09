@@ -11529,8 +11529,7 @@ FT_Library
 mFTLibrary
 ;
 static
-Mutex
-*
+StaticMutex
 mFTLock
 ;
 public
