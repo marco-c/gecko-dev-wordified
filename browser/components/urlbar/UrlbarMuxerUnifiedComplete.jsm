@@ -198,11 +198,11 @@ repository
 getLogger
 (
 "
-Places
-.
 Urlbar
 .
-UrlbarMuxerUnifiedComplete
+Muxer
+.
+UnifiedComplete
 "
 )
 )

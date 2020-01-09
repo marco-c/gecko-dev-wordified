@@ -248,8 +248,6 @@ repository
 getLogger
 (
 "
-Places
-.
 Urlbar
 .
 ProvidersManager
