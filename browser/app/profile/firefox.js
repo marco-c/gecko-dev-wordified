@@ -11260,7 +11260,7 @@ stats
 .
 mozilla
 .
-com
+org
 /
 report
 /
