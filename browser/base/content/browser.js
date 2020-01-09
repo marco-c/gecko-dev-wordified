@@ -17628,6 +17628,12 @@ data
 {
 }
 ;
+var
+dataLen
+=
+{
+}
+;
 trans
 .
 getTransferData
@@ -17638,6 +17644,7 @@ text
 unicode
 "
 data
+dataLen
 )
 ;
 if
@@ -17663,6 +17670,16 @@ url
 data
 .
 data
+.
+substring
+(
+0
+dataLen
+.
+value
+/
+2
+)
 ;
 }
 }

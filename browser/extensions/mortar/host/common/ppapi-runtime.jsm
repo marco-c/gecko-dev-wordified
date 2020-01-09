@@ -16591,6 +16591,12 @@ str
 {
 }
 ;
+let
+strLength
+=
+{
+}
+;
 trans
 .
 getTransferData
@@ -16601,6 +16607,7 @@ text
 unicode
 "
 str
+strLength
 )
 ;
 let

@@ -6902,6 +6902,8 @@ PlacesUtils
 .
 TYPE_X_MOZ_PLACE_ACTION
 action
+{
+}
 )
 ;
 [

@@ -214,6 +214,9 @@ nsISupports
 >
 tmp
 ;
+uint32_t
+len
+;
 nsresult
 rv
 =
@@ -227,6 +230,8 @@ getter_AddRefs
 (
 tmp
 )
+&
+len
 )
 ;
 NS_ENSURE_SUCCESS
@@ -440,6 +445,16 @@ SetTransferData
 (
 kUnicodeMime
 nsisupportsDataWrapper
+buffer
+.
+Length
+(
+)
+*
+sizeof
+(
+char16_t
+)
 )
 ;
 NS_ENSURE_SUCCESS

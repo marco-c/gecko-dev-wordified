@@ -12241,6 +12241,8 @@ getTransferData
 (
 flavor
 data
+{
+}
 )
 ;
 }

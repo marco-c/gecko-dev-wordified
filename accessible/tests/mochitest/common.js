@@ -4587,6 +4587,12 @@ str
 {
 }
 ;
+var
+strLength
+=
+{
+}
+;
 trans
 .
 getTransferData
@@ -4597,6 +4603,7 @@ text
 unicode
 "
 str
+strLength
 )
 ;
 if
@@ -4624,6 +4631,16 @@ return
 str
 .
 data
+.
+substring
+(
+0
+strLength
+.
+value
+/
+2
+)
 ;
 return
 "
