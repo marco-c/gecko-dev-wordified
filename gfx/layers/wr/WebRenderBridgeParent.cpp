@@ -1648,6 +1648,7 @@ mAsyncImageManager
 AddPipeline
 (
 mPipelineId
+this
 )
 ;
 if
@@ -2300,7 +2301,7 @@ bytes
 wr
 :
 :
-ToDeviceIntRect
+ToDeviceUintRect
 (
 op
 .
@@ -2334,7 +2335,7 @@ get_OpSetImageVisibleArea
 wr
 :
 :
-DeviceIntRect
+DeviceUintRect
 area
 ;
 area
@@ -4117,7 +4118,7 @@ ExternalBuffer
 wr
 :
 :
-ToDeviceIntRect
+ToDeviceUintRect
 (
 aDirtyRect
 )
