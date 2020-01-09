@@ -151,7 +151,7 @@ h
 #
 include
 "
-SVGAngle
+SVGOrient
 .
 h
 "
@@ -642,7 +642,7 @@ mOrient
 .
 mAngle
 *
-SVGAngle
+SVGOrient
 :
 :
 GetDegreesPerUnit
@@ -667,7 +667,7 @@ mOrient
 .
 mAngle
 *
-SVGAngle
+SVGOrient
 :
 :
 GetDegreesPerUnit
@@ -734,7 +734,7 @@ currentAngle
 angleToAdd
 )
 /
-SVGAngle
+SVGOrient
 :
 :
 GetDegreesPerUnit
@@ -895,7 +895,7 @@ mOrient
 .
 mAngle
 *
-SVGAngle
+SVGOrient
 :
 :
 GetDegreesPerUnit
@@ -920,7 +920,7 @@ mOrient
 .
 mAngle
 *
-SVGAngle
+SVGOrient
 :
 :
 GetDegreesPerUnit
@@ -1079,7 +1079,7 @@ mOrient
 .
 mAngle
 *
-SVGAngle
+SVGOrient
 :
 :
 GetDegreesPerUnit
@@ -1104,7 +1104,7 @@ mOrient
 .
 mAngle
 *
-SVGAngle
+SVGOrient
 :
 :
 GetDegreesPerUnit
@@ -1160,7 +1160,7 @@ mAngle
 =
 result
 /
-SVGAngle
+SVGOrient
 :
 :
 GetDegreesPerUnit
