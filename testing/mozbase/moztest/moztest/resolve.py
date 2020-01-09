@@ -3504,7 +3504,15 @@ defaults_manifests
 .
 append
 (
+(
 ancestor_manifest
+metadata
+[
+'
+manifest
+'
+]
+)
 )
                     
 for
