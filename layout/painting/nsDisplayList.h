@@ -32246,6 +32246,16 @@ return
 mOpacity
 ;
 }
+bool
+ForEventsAndPluginsOnly
+(
+)
+const
+{
+return
+mForEventsAndPluginsOnly
+;
+}
 private
 :
 bool
