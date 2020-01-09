@@ -251,9 +251,6 @@ party
 "
 [
 "
-siteDataGroup
-"
-"
 trackingGroup
 "
 ]
