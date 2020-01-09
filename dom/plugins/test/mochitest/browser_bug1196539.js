@@ -236,13 +236,6 @@ in
 )
 ;
 let
-testTab
-=
-gBrowser
-.
-selectedTab
-;
-let
 pluginTab
 =
 await

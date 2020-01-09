@@ -1,5 +1,17 @@
 /
 *
+eslint
+-
+env
+mozilla
+/
+frame
+-
+script
+*
+/
+/
+*
 Any
 copyright
 is
@@ -152,9 +164,6 @@ getTestPlugin
 (
 )
 ;
-var
-results
-=
 sendAsyncMessage
 (
 "

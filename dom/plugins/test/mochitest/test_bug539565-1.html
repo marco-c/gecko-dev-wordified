@@ -255,9 +255,6 @@ moveBy
 px
 "
 ;
-var
-x
-=
 document
 .
 documentElement
@@ -312,12 +309,14 @@ func
 ;
 }
 else
+{
 setTimeout
 (
 waitForPaintCountIncrement
 50
 )
 ;
+}
 }
 waitForPaintCountIncrement
 (
