@@ -246,7 +246,7 @@ nsDeque
 h
 "
 class
-nsPIDOMWindowInner
+nsIGlobalObject
 ;
 class
 nsICookieSettings
@@ -427,9 +427,9 @@ private
 :
 EventSource
 (
-nsPIDOMWindowInner
+nsIGlobalObject
 *
-aOwnerWindow
+aGlobal
 nsICookieSettings
 *
 aCookieSettings
