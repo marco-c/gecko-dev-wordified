@@ -186,13 +186,13 @@ h
 "
 #
 include
-<
-gdk
+"
+mozwayland
 /
-gdkwayland
+mozwayland
 .
 h
->
+"
 #
 include
 <
