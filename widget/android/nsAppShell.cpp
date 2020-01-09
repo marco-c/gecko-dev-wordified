@@ -940,9 +940,11 @@ nullptr
 ;
 }
 static
-void
+bool
 WaitOnGecko
 (
+int64_t
+timeoutMillis
 )
 {
 struct
@@ -1042,6 +1044,7 @@ NS_DISPATCH_SYNC
 }
 }
 ;
+return
 nsAppShell
 :
 :
@@ -1049,6 +1052,14 @@ SyncRunEvent
 (
 NoOpEvent
 (
+)
+nullptr
+TimeDuration
+:
+:
+FromMilliseconds
+(
+timeoutMillis
 )
 )
 ;
@@ -4572,7 +4583,7 @@ return
 true
 ;
 }
-void
+bool
 nsAppShell
 :
 :
@@ -4598,6 +4609,9 @@ Event
 &
 &
 )
+const
+TimeDuration
+timeout
 )
 {
 /
@@ -4693,6 +4707,7 @@ Post
 shutdown
 .
 return
+false
 ;
 }
 bool
@@ -4738,6 +4753,7 @@ mSyncRunQuit
 )
 {
 return
+false
 ;
 }
 event
@@ -4768,6 +4784,9 @@ mSyncRunFinished
 NotifyAll
 (
 )
+;
+return
+finished
 ;
 }
 ;
@@ -4864,9 +4883,13 @@ mSyncRunFinished
 .
 Wait
 (
+timeout
 )
 ;
 }
+return
+finished
+;
 }
 already_AddRefed
 <
