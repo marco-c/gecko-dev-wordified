@@ -1496,7 +1496,7 @@ about
 :
 pages
 const
-hostName
+hostname
 =
 parseURL
 (
@@ -1519,12 +1519,12 @@ _overlayColor
 =
 customColors
 [
-hostName
+hostname
 ]
 ?
 customColors
 [
-hostName
+hostname
 ]
 :
 FLEXBOX_COLOR
