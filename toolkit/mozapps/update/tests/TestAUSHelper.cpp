@@ -497,7 +497,7 @@ else
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 exePath
 sizeof
@@ -541,7 +541,7 @@ MAXPATHLEN
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 runFilePath
 sizeof
@@ -622,7 +622,7 @@ MAXPATHLEN
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 runFilePathBak
 sizeof
@@ -721,7 +721,7 @@ MAXPATHLEN
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 logFilePath
 sizeof
@@ -1224,7 +1224,7 @@ MAXPATHLEN
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 path
 sizeof
@@ -1283,7 +1283,7 @@ return
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 path
 sizeof
@@ -1349,7 +1349,7 @@ return
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 path
 sizeof
@@ -1465,7 +1465,7 @@ return
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 path
 sizeof
@@ -1654,7 +1654,7 @@ MAXPATHLEN
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 path
 sizeof
@@ -1719,7 +1719,7 @@ return
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 path
 sizeof
@@ -1797,7 +1797,7 @@ return
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 path
 sizeof
@@ -1868,7 +1868,7 @@ return
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 path
 sizeof
@@ -2586,7 +2586,7 @@ MAXPATHLEN
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 inFilePath
 sizeof
@@ -2632,7 +2632,7 @@ MAXPATHLEN
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 outFilePath
 sizeof
@@ -2870,7 +2870,7 @@ MAXPATHLEN
 if
 (
 !
-NS_tsnprintf
+NS_tvsnprintf
 (
 logFilePath
 sizeof
