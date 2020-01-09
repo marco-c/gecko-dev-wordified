@@ -529,6 +529,12 @@ defined
 (
 __aarch64__
 )
+|
+|
+defined
+(
+_M_ARM64
+)
 #
 define
 WEBRTC_ARCH_AARCH64
@@ -542,6 +548,12 @@ if
 defined
 (
 __AARCH64EL__
+)
+|
+|
+defined
+(
+_M_ARM64
 )
 #
 define
