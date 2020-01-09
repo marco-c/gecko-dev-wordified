@@ -197,6 +197,14 @@ ReportBody
 aBody
 )
 ;
+already_AddRefed
+<
+Report
+>
+Clone
+(
+)
+;
 JSObject
 *
 WrapObject
