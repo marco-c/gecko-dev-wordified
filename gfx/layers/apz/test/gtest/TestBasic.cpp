@@ -575,13 +575,6 @@ LayersId
 }
 mcc
 tm
-wr
-:
-:
-RenderRoot
-:
-:
-Default
 )
 ;
 const

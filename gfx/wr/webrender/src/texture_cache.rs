@@ -4409,9 +4409,6 @@ FrameStamp
 first
 (
 DocumentId
-:
-:
-new
 (
 IdNamespace
 (

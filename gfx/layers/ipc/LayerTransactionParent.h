@@ -848,7 +848,7 @@ uint64_t
 aBlockId
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 &

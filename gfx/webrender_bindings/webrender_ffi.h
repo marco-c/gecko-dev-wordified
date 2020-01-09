@@ -471,9 +471,6 @@ struct
 WrWindowId
 ;
 struct
-DocumentId
-;
-struct
 WrPipelineInfo
 ;
 const
@@ -599,14 +596,6 @@ wr
 Transaction
 *
 aTransaction
-mozilla
-:
-:
-wr
-:
-:
-DocumentId
-aRenderRootId
 )
 ;
 void

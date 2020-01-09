@@ -4418,13 +4418,13 @@ len
 }
 pub
 trait
-AsyncForEach
+ForEach
 <
 T
 >
 {
 fn
-async_for_each
+for_each
 <
 F
 :
@@ -4451,7 +4451,7 @@ F
 ;
 }
 impl
-AsyncForEach
+ForEach
 <
 FontContext
 >
@@ -4462,7 +4462,7 @@ FontContexts
 >
 {
 fn
-async_for_each
+for_each
 <
 F
 :
@@ -5228,7 +5228,7 @@ self
 .
 font_contexts
 .
-async_for_each
+for_each
 (
 move
 |
@@ -5567,7 +5567,7 @@ self
 .
 font_contexts
 .
-async_for_each
+for_each
 (
 move
 |

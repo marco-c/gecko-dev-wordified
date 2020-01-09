@@ -998,11 +998,6 @@ ShareableCanvasRenderer
 :
 UpdateCompositableClient
 (
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 {
 if
@@ -1104,7 +1099,6 @@ mBufferProvider
 GetTextureClient
 (
 )
-aRenderRoot
 )
 ;
 }
@@ -1128,7 +1122,6 @@ mSize
 height
 )
 this
-aRenderRoot
 )
 ;
 }
@@ -1141,7 +1134,6 @@ mCanvasClient
 >
 Updated
 (
-aRenderRoot
 )
 ;
 }

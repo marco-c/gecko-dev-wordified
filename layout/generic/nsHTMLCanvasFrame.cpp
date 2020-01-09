@@ -989,11 +989,6 @@ WebRenderCanvasData
 >
 (
 this
-aBuilder
-.
-GetRenderRoot
-(
-)
 &
 isRecycled
 )
@@ -1056,11 +1051,6 @@ data
 >
 UpdateCompositableClient
 (
-aBuilder
-.
-GetRenderRoot
-(
-)
 )
 ;
 /
@@ -1459,11 +1449,6 @@ scTransform
 scaleToSize
 filter
 mixBlendMode
-)
-aBuilder
-.
-GetRenderRoot
-(
 )
 )
 ;
