@@ -1093,7 +1093,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 getSubmission
 (

@@ -200,7 +200,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 defaultEngineName
@@ -322,7 +322,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 defaultEngineName
@@ -498,7 +498,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 "

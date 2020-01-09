@@ -1940,7 +1940,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 identifier
 "
@@ -1978,7 +1978,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 identifier
 }

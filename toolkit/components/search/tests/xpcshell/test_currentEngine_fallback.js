@@ -76,7 +76,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 Services
 .
@@ -110,7 +110,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 currentEngine
@@ -195,7 +195,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 currentEngine

@@ -3841,7 +3841,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 /
 /
@@ -4008,7 +4008,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 ok
 (
@@ -4129,7 +4129,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 "
 default
 search
@@ -4188,7 +4188,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 "
 default
 search
@@ -4375,7 +4375,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 "
 default
 search

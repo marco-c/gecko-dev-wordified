@@ -391,7 +391,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 ;
@@ -466,7 +466,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 "
@@ -584,7 +584,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 defaultEngineName
