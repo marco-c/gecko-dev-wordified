@@ -345,6 +345,13 @@ addressOfInterruptBits
 (
 )
 ;
+const
+void
+*
+addressOfZone
+(
+)
+;
 #
 ifdef
 DEBUG
