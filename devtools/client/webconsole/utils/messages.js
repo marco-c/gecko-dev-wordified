@@ -1820,6 +1820,11 @@ private
 message
 .
 private
+stacktrace
+:
+message
+.
+stacktrace
 }
 )
 ;

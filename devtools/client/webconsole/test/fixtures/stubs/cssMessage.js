@@ -342,6 +342,13 @@ private
 "
 :
 false
+\
+"
+stacktrace
+\
+"
+:
+null
 }
 "
 "
@@ -682,6 +689,13 @@ private
 "
 :
 false
+\
+"
+stacktrace
+\
+"
+:
+null
 }
 "
 "
