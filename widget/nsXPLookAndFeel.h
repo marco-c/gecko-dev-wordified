@@ -785,10 +785,6 @@ sUseNativeColors
 ;
 static
 bool
-sUseStandinsForNativeColors
-;
-static
-bool
 sFindbarModalHighlight
 ;
 static
