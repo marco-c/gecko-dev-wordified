@@ -1888,14 +1888,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetTextDecorationLine
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetTextDecorationStyle
 (
 )

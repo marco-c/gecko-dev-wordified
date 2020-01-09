@@ -23307,7 +23307,7 @@ mTextOverflow
 )
 mTextDecorationLine
 (
-NS_STYLE_TEXT_DECORATION_LINE_NONE
+StyleTextDecorationLine_NONE
 )
 mTextDecorationStyle
 (

@@ -594,7 +594,7 @@ quirks
 mode
 .
 The
-NS_STYLE_TEXT_DECORATION_LINE_OVERRIDE_ALL
+StyleTextDecorationLine_COLOR_OVERRIDE
 flag
 only
 /

@@ -5608,9 +5608,9 @@ textReset
 mTextDecorationLine
 &
 (
-NS_STYLE_TEXT_DECORATION_LINE_UNDERLINE
+StyleTextDecorationLine_UNDERLINE
 |
-NS_STYLE_TEXT_DECORATION_LINE_LINE_THROUGH
+StyleTextDecorationLine_LINE_THROUGH
 )
 ;
 }

@@ -5127,7 +5127,10 @@ DrawPathCallbacks
 aCallbacks
 bool
 aVertical
-uint8_t
+mozilla
+:
+:
+StyleTextDecorationLine
 aDecoration
 )
 ;
