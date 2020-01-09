@@ -1980,6 +1980,14 @@ aCompositeStart
 TimeStamp
 &
 aCompositeEnd
+wr
+:
+:
+RendererStats
+*
+aStats
+=
+nullptr
 )
 ;
 RefPtr

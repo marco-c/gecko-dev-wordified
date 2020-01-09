@@ -676,6 +676,9 @@ uint8_t
 aReadbackBuffer
 bool
 aHadSlowFrame
+RendererStats
+*
+aOutStats
 )
 {
 uint32_t
@@ -893,6 +896,7 @@ size
 .
 height
 aHadSlowFrame
+aOutStats
 )
 )
 {

@@ -12447,6 +12447,12 @@ aCompositeStart
 TimeStamp
 &
 aCompositeEnd
+wr
+:
+:
+RendererStats
+*
+aStats
 )
 {
 if
@@ -12660,6 +12666,7 @@ FlushTransactionIdsForEpoch
 aEpoch
 aCompositeEnd
 uiController
+aStats
 )
 ;
 Unused

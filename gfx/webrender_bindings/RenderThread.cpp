@@ -1832,6 +1832,8 @@ TimeStamp
 aEnd
 bool
 aRender
+RendererStats
+aStats
 )
 {
 if
@@ -1954,6 +1956,8 @@ i
 epoch
 aStart
 aEnd
+&
+aStats
 )
 ;
 }
@@ -2079,6 +2083,13 @@ rendered
 =
 false
 ;
+RendererStats
+stats
+=
+{
+0
+}
+;
 if
 (
 aRender
@@ -2094,6 +2105,8 @@ UpdateAndRender
 aReadbackSize
 aReadbackBuffer
 aHadSlowFrame
+&
+stats
 )
 ;
 }
@@ -2176,6 +2189,7 @@ info
 aStartTime
 end
 aRender
+stats
 )
 )
 ;
