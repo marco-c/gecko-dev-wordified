@@ -143,14 +143,6 @@ browser
 locales
 "
     
-"
-hg_l10n_tag
-"
-:
-"
-default
-"
-    
 #
 MAR
     
