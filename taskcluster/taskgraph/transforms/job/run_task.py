@@ -84,6 +84,14 @@ taskgraph
 .
 transforms
 .
+task
+import
+taskref_or_string
+from
+taskgraph
+.
+transforms
+.
 job
 import
 run_job_using
@@ -340,9 +348,9 @@ command
 Any
 (
 [
-basestring
+taskref_or_string
 ]
-basestring
+taskref_or_string
 )
     
 #
@@ -789,11 +797,32 @@ command
 '
 ]
     
+#
+dict
+is
+for
+the
+case
+of
+{
+'
+task
+-
+reference
+'
+:
+basestring
+}
+.
+    
 if
 isinstance
 (
 run_command
+(
 basestring
+dict
+)
 )
 :
         
