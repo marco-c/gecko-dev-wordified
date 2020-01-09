@@ -14605,6 +14605,10 @@ LifecycleState
 :
 LAUNCHING
 )
+mShuttingDown
+(
+false
+)
 mIsForBrowser
 (
 !
