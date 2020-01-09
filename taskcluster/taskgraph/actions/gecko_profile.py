@@ -90,7 +90,6 @@ from
 .
 util
 import
-find_decision_task
 create_tasks
 combine_task_graph_files
 from
@@ -101,6 +100,14 @@ util
 taskcluster
 import
 get_artifact_from_index
+from
+taskgraph
+.
+util
+.
+taskgraph
+import
+find_decision_task
 from
 taskgraph
 .
