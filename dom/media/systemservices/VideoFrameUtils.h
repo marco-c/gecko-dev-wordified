@@ -201,7 +201,7 @@ all
 planes
 .
 static
-size_t
+uint32_t
 TotalRequiredBufferSize
 (
 const
