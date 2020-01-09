@@ -737,6 +737,7 @@ astLocation
 id
 text
 originalText
+log
 }
 =
 overrides
@@ -767,6 +768,12 @@ condition
 |
 |
 null
+log
+:
+log
+|
+|
+false
 disabled
 :
 disabled
@@ -924,6 +931,11 @@ condition
 bp
 .
 condition
+log
+:
+bp
+.
+log
 disabled
 :
 bp

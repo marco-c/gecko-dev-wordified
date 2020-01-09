@@ -853,6 +853,11 @@ conditional
 breakpoint
 .
 condition
+log
+:
+breakpoint
+.
+log
 }
 )
 }

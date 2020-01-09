@@ -414,6 +414,7 @@ setBreakpointCondition
 location
 {
 condition
+log
 }
 )
 ;

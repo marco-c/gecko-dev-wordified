@@ -270,6 +270,10 @@ hidden
 ?
 :
 boolean
+log
+?
+:
+boolean
 }
 ;
 /
@@ -1353,6 +1357,9 @@ location
 SourceLocation
 {
 condition
+log
+=
+false
 }
 :
 addBreakpointOptions
@@ -1401,6 +1408,7 @@ addBreakpoint
 location
 {
 condition
+log
 }
 )
 )
@@ -1465,6 +1473,7 @@ disabled
 :
 false
 condition
+log
 }
 ;
 assertBreakpoint
