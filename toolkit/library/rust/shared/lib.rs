@@ -1141,7 +1141,7 @@ handle
 that
 .
 fn
-GeckoCrashOOL
+GeckoCrash
 (
 filename
 :
@@ -1747,7 +1747,7 @@ one
 /
 /
 and
-GeckoCrashOOL
+GeckoCrash
 wants
 one
 )
@@ -1794,7 +1794,7 @@ filename
 ;
 unsafe
 {
-GeckoCrashOOL
+GeckoCrash
 (
 filename
 .
