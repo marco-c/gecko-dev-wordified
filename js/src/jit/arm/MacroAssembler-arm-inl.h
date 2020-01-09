@@ -135,12 +135,6 @@ jit
 {
 /
 /
-clang
--
-format
-off
-/
-/
 {
 {
 {
@@ -13318,12 +13312,6 @@ Signed
 }
 }
 check_macroassembler_style
-/
-/
-clang
--
-format
-on
 /
 /
 =

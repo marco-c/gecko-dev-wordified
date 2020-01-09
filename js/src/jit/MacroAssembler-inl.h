@@ -300,12 +300,6 @@ jit
 {
 /
 /
-clang
--
-format
-off
-/
-/
 {
 {
 {
@@ -5123,12 +5117,6 @@ dest
 }
 }
 check_macroassembler_style
-/
-/
-clang
--
-format
-on
 /
 /
 =

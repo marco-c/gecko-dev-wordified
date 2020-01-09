@@ -12455,12 +12455,6 @@ StackPointer
 }
 /
 /
-clang
--
-format
-on
-/
-/
 {
 {
 {
@@ -18217,9 +18211,3 @@ dest
 }
 }
 check_macroassembler_style
-/
-/
-clang
--
-format
-on

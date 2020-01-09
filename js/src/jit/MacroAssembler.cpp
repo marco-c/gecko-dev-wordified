@@ -19004,12 +19004,6 @@ endif
 JS_CODEGEN_ARM64
 /
 /
-clang
--
-format
-off
-/
-/
 {
 {
 {
@@ -24529,12 +24523,6 @@ index
 }
 }
 check_macroassembler_style
-/
-/
-clang
--
-format
-on
 void
 MacroAssembler
 :

@@ -154,12 +154,6 @@ jit
 {
 /
 /
-clang
--
-format
-off
-/
-/
 {
 {
 {
@@ -7016,12 +7010,6 @@ NotEqual
 }
 }
 check_macroassembler_style
-/
-/
-clang
--
-format
-on
 /
 /
 =

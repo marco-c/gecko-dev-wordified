@@ -139,12 +139,6 @@ jit
 {
 /
 /
-clang
--
-format
-off
-/
-/
 {
 {
 {
@@ -5448,12 +5442,6 @@ ScratchRegister
 }
 }
 check_macroassembler_style
-/
-/
-clang
--
-format
-on
 /
 /
 =
