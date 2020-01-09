@@ -2738,6 +2738,7 @@ DispatchAnimationEvents
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RunFrameRequestCallbacks
 (

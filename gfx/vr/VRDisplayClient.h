@@ -139,6 +139,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -191,6 +200,7 @@ VRDisplayInfo
 aDisplayInfo
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateDisplayInfo
 (
@@ -320,6 +330,7 @@ VRDisplayClient
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireEvents
 (
