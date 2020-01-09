@@ -81,6 +81,16 @@ features
 async
 -
 functions
+async
+-
+iteration
+]
+includes
+:
+[
+compareArray
+.
+js
 ]
 -
 -

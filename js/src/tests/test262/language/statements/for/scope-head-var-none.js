@@ -298,7 +298,7 @@ probeBefore
 2
 '
 reference
-preceeding
+preceding
 statement
 '
 )

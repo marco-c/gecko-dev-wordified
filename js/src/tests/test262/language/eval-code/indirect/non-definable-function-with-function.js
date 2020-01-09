@@ -338,7 +338,7 @@ shouldNotBeDefined1
 undefined
 "
 declaration
-preceeding
+preceding
 "
 )
 ;

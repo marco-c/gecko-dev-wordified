@@ -66,7 +66,7 @@ and
 body
 (
 as
-disinct
+distinct
 from
 that
 for

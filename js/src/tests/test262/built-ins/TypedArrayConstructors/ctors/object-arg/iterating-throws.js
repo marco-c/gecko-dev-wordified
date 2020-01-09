@@ -139,6 +139,7 @@ js
 features
 :
 [
+generators
 TypedArray
 ]
 -

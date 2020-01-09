@@ -341,7 +341,7 @@ callCount
 0
 '
 validation
-preceeds
+precedes
 input
 coercion
 '

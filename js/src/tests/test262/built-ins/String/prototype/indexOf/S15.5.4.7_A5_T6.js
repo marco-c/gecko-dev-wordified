@@ -54,8 +54,7 @@ description
 Search
 substring
 from
-it
-s
+its
 position
 +
 1

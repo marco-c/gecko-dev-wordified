@@ -56,6 +56,7 @@ js
 features
 :
 [
+generators
 Reflect
 .
 construct

@@ -57,8 +57,7 @@ true
 /
 false
 and
-it
-s
+its
 equality
 -
 -

@@ -66,8 +66,7 @@ String
 )
 and
 check
-it
-s
+its
 valueOf
 (
 )

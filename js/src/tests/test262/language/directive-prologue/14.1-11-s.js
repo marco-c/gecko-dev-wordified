@@ -46,7 +46,7 @@ description
 :
 comments
 may
-preceed
+precede
 '
 use
 strict

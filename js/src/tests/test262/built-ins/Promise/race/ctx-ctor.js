@@ -191,6 +191,8 @@ race
 call
 (
 SubPromise
+[
+]
 )
 ;
 assert

@@ -73,8 +73,7 @@ function
 )
 and
 check
-it
-s
+its
 valueOf
 (
 )

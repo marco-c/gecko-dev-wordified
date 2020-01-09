@@ -166,7 +166,7 @@ probeBefore
 4
 '
 reference
-preceeding
+preceding
 statement
 '
 )

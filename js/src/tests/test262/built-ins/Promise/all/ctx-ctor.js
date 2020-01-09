@@ -191,6 +191,8 @@ all
 call
 (
 SubPromise
+[
+]
 )
 ;
 assert

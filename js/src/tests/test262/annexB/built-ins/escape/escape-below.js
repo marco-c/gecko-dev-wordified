@@ -236,7 +236,7 @@ escape
 '
 '
 characters
-preceeding
+preceding
 "
 *
 "

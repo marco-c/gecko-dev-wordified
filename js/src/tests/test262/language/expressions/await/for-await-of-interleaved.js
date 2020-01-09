@@ -90,6 +90,14 @@ functions
 async
 -
 iteration
+generators
+]
+includes
+:
+[
+compareArray
+.
+js
 ]
 -
 -

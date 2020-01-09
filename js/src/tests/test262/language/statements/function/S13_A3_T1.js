@@ -77,8 +77,7 @@ Function
 call
 itself
 by
-it
-s
+its
 name
 -
 -

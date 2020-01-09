@@ -63,8 +63,7 @@ boolean
 )
 and
 check
-it
-s
+its
 method
 toString
 (

@@ -126,7 +126,6 @@ features
 async
 -
 functions
-generators
 Proxy
 ]
 includes

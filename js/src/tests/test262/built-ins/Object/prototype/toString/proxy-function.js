@@ -126,6 +126,7 @@ in
 features
 :
 [
+generators
 Proxy
 Symbol
 .

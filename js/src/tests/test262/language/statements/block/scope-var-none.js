@@ -191,7 +191,7 @@ inside
 '
 '
 reference
-preceeding
+preceding
 statement
 '
 )

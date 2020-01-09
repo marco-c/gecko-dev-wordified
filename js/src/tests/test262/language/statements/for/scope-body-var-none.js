@@ -349,7 +349,7 @@ probeBefore
 2
 '
 reference
-preceeding
+preceding
 statement
 (
 redeclared
@@ -375,7 +375,7 @@ probeBefore
 2
 '
 reference
-preceeding
+preceding
 statement
 (
 redeclared
@@ -399,7 +399,7 @@ probeBefore
 2
 '
 reference
-preceeding
+preceding
 statement
 (
 redeclared

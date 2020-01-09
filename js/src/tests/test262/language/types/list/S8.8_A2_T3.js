@@ -56,8 +56,7 @@ function
 that
 concatenate
 all
-it
-s
+its
 arguments
 -
 -

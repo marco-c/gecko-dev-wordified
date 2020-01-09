@@ -78,7 +78,7 @@ are
 defined
 by
 the
-preceeding
+preceding
 arguments
 .
 features

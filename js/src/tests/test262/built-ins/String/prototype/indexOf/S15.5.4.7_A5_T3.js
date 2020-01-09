@@ -55,8 +55,7 @@ Search
 one
 symbol
 from
-it
-s
+its
 position
 +
 1

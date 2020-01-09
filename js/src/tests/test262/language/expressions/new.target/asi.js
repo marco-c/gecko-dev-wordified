@@ -66,6 +66,13 @@ of
 three
 distinct
 tokens
+features
+:
+[
+new
+.
+target
+]
 -
 -
 -

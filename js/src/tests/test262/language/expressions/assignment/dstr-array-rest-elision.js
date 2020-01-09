@@ -56,7 +56,7 @@ elisions
 at
 any
 position
-preceeding
+preceding
 a
 AssignmentRestElement
 in

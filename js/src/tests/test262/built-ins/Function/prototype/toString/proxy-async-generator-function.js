@@ -126,8 +126,7 @@ features
 [
 async
 -
-functions
-generators
+iteration
 Proxy
 ]
 includes

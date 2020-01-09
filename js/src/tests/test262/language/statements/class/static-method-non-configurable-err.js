@@ -121,11 +121,6 @@ propKey
 desc
 )
 .
-features
-:
-[
-generators
-]
 -
 -
 -
