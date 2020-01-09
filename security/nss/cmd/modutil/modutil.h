@@ -289,6 +289,12 @@ char
 mechanisms
 )
 ;
+PRBool
+IsP11KitEnabled
+(
+void
+)
+;
 void
 out_of_memory
 (
