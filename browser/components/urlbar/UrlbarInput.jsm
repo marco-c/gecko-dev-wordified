@@ -2540,6 +2540,16 @@ allowInheritPrincipal
 false
 }
 ;
+if
+(
+!
+result
+.
+payload
+.
+isKeywordOffer
+)
+{
 this
 .
 view
@@ -2548,6 +2558,7 @@ close
 (
 )
 ;
+}
 this
 .
 controller
