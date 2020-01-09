@@ -404,6 +404,12 @@ harness_error
 retry_regex
 '
 ]
+        
+self
+.
+prev_was_unstructured
+=
+False
     
 def
 _get_mozlog_module
@@ -611,6 +617,13 @@ self
 strict
 :
                 
+if
+not
+self
+.
+prev_was_unstructured
+:
+                    
 self
 .
 critical
@@ -629,7 +642,7 @@ log
 message
 :
 "
-                              
+                                   
 "
 \
 n
@@ -638,6 +651,16 @@ s
 "
 )
 %
+line
+)
+                
+else
+:
+                    
+self
+.
+critical
+(
 line
 )
                 
@@ -650,6 +673,12 @@ log
 .
 CRITICAL
 )
+                
+self
+.
+prev_was_unstructured
+=
+True
             
 else
 :
@@ -662,6 +691,12 @@ line
 )
             
 return
+        
+self
+.
+prev_was_unstructured
+=
+False
         
 self
 .
