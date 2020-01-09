@@ -438,6 +438,7 @@ LoginManagerContent
 onDOMFormHasPassword
 (
 event
+content
 )
 ;
 let
@@ -488,6 +489,7 @@ LoginManagerContent
 onDOMInputPasswordAdded
 (
 event
+content
 )
 ;
 let
