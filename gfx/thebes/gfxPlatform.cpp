@@ -17424,6 +17424,8 @@ all
 enabled
 }
 or
+/
+/
 envvar
 /
 /
@@ -17453,6 +17455,8 @@ all
 .
 qualified
 on
+/
+/
 qualified
 hardware
 /
@@ -17472,6 +17476,8 @@ envvar
 possibly
 on
 unqualified
+/
+/
 hardware
 .
 /
@@ -19262,6 +19268,7 @@ vsync
 hz
 if
 hw
+*
 vsync
 fails
 .

@@ -533,6 +533,7 @@ or
 Hindi
 forms
 and
+*
 returning
 them
 *
@@ -554,6 +555,7 @@ in
 the
 string
 is
+*
 an
 Arabic
 char
@@ -582,6 +584,7 @@ convert
 to
 Hindi
 forms
+*
 (
 Unicode
 0660
@@ -595,6 +598,7 @@ convert
 to
 Arabic
 forms
+*
 (
 Unicode
 0030
@@ -610,6 +614,7 @@ in
 Arabic
 text
 to
+*
 Hindi
 otherwise
 to
@@ -648,6 +653,7 @@ or
 Hindi
 forms
 in
+*
 place
 *
 param
@@ -688,6 +694,7 @@ convert
 to
 Hindi
 forms
+*
 (
 Unicode
 0660
@@ -701,6 +708,7 @@ convert
 to
 Arabic
 forms
+*
 (
 Unicode
 0030
@@ -716,6 +724,7 @@ in
 Arabic
 text
 to
+*
 Hindi
 otherwise
 to

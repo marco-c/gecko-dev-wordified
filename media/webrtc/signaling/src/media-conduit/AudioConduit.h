@@ -658,6 +658,7 @@ sample
 for
 encoding
 and
+*
 transport
 *
 param
@@ -690,6 +691,7 @@ samples
 in
 multiple
 of
+*
 10
 milliseconds
 *
@@ -704,12 +706,14 @@ is
 for
 16
 32
+*
 44
 kHz
 sampling
 rates
 respectively
 .
+*
 audioData
 [
 ]
@@ -718,12 +722,14 @@ be
 of
 lengthSamples
 in
+*
 size
 say
 for
 16kz
 sampling
 rate
+*
 audioData
 [
 ]
@@ -732,6 +738,7 @@ contain
 160
 samples
 of
+*
 16
 -
 bits
@@ -757,6 +764,7 @@ the
 sampling
 in
 Hz
+*
 (
 16000
 32000
@@ -778,6 +786,7 @@ recording
 until
 it
 is
+*
 delivered
 to
 VoiceEngine
@@ -797,9 +806,10 @@ before
 this
 function
 can
+*
 be
 invoked
-*
+.
 This
 ensures
 the
@@ -811,9 +821,9 @@ can
 be
 transmitted
 by
+*
 the
 conduit
-*
 *
 /
 MediaConduitErrorCode
@@ -852,8 +862,8 @@ the
 media
 engine
 for
-rendering
 *
+rendering
 /
 playoutof
 length
@@ -879,6 +889,7 @@ a
 frame
 of
 audio
+*
 will
 be
 copied
@@ -896,6 +907,7 @@ sampling
 for
 playback
 in
+*
 Hertz
 (
 16000
@@ -917,6 +929,7 @@ reading
 of
 the
 samples
+*
 to
 rendering
 /
@@ -950,10 +963,12 @@ the
 audio
 frame
 in
+*
 samples
 at
 return
 .
+*
 Ex
 :
 A
@@ -965,6 +980,7 @@ implies
 samples
 each
 of
+*
 16
 -
 bits
@@ -1001,6 +1017,7 @@ before
 this
 function
 can
+*
 be
 invoked
 *
@@ -1016,9 +1033,9 @@ reading
 and
 playout
 is
+*
 enabled
 .
-*
 *
 /
 MediaConduitErrorCode

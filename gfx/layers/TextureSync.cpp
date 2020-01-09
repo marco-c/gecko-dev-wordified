@@ -600,10 +600,10 @@ times
 each
 less
 than
+/
+/
 kTextureLockTimeout
 .
-/
-/
 This
 ensures
 that
@@ -613,6 +613,8 @@ time
 we
 wait
 is
+/
+/
 <
 2
 *

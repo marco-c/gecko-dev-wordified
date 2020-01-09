@@ -1817,6 +1817,8 @@ clipped
 by
 composition
 bounds
+/
+/
 (
 0
 0
@@ -1848,6 +1850,8 @@ clipped
 by
 composition
 bounds
+/
+/
 (
 10
 10
@@ -1884,6 +1888,8 @@ it
 s
 not
 a
+/
+/
 scrollable
 layer
 /
@@ -1907,6 +1913,8 @@ from
 clipped
 by
 composition
+/
+/
 bounds
 (
 20

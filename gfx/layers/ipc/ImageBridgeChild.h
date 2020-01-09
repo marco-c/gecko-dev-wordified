@@ -609,8 +609,8 @@ a
 global
 table
 that
-associates
 *
+associates
 the
 image
 with
@@ -622,9 +622,9 @@ the
 ImageContainer
 and
 a
+*
 composition
 is
-*
 triggered
 .
 *
@@ -659,8 +659,8 @@ during
 the
 next
 layer
-transaction
 *
+transaction
 (
 on
 the
@@ -691,9 +691,9 @@ image
 is
 already
 available
+*
 to
 the
-*
 compositor
 process
 because
@@ -704,9 +704,9 @@ sent
 with
 SetCurrentImage
 .
+*
 Yet
 the
-*
 CompositableHost
 on
 the
@@ -716,10 +716,10 @@ will
 needs
 the
 ID
+*
 referring
 to
 the
-*
 ImageContainer
 to
 access
@@ -730,10 +730,10 @@ So
 during
 the
 Swap
+*
 operation
 that
 happens
-*
 in
 the
 transaction
@@ -743,6 +743,7 @@ the
 container
 ID
 rather
+*
 than
 the
 image
@@ -764,6 +765,7 @@ the
 image
 data
 is
+*
 swaped
 .
 *
@@ -807,6 +809,7 @@ no
 image
 nothing
 is
+*
 rendered
 .
 *
@@ -827,8 +830,8 @@ ID
 meaning
 it
 is
-not
 *
+not
 using
 ImageBridge
 )

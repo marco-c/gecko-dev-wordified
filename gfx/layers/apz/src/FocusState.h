@@ -209,8 +209,8 @@ content
 focus
 targets
 and
-calculating
 *
+calculating
 global
 focus
 information
@@ -220,10 +220,10 @@ for
 use
 by
 APZCTreeManager
+*
 for
 async
 keyboard
-*
 scrolling
 .
 *
@@ -247,8 +247,8 @@ elements
 .
 This
 makes
-it
 *
+it
 difficult
 to
 calculate
@@ -259,9 +259,9 @@ element
 and
 its
 scrollable
+*
 frame
 from
-*
 the
 chrome
 or
@@ -275,9 +275,9 @@ send
 the
 local
 focus
+*
 information
 from
-*
 each
 process
 to
@@ -288,10 +288,10 @@ calculate
 the
 global
 focus
+*
 information
 .
 This
-*
 local
 information
 resides
@@ -550,8 +550,8 @@ stream
 of
 user
 inputs
-we
 *
+we
 invalidate
 our
 focus
@@ -564,8 +564,8 @@ user
 input
 that
 may
-trigger
 *
+trigger
 event
 listeners
 .
@@ -578,9 +578,9 @@ sequence
 number
 to
 these
+*
 events
 and
-*
 dispatch
 them
 to
@@ -592,9 +592,9 @@ then
 include
 the
 latest
+*
 sequence
 number
-*
 it
 has
 processed
@@ -607,9 +607,9 @@ Using
 this
 we
 can
+*
 determine
 whether
-*
 any
 potentially
 focus
@@ -619,6 +619,7 @@ have
 yet
 to
 be
+*
 handled
 by
 content

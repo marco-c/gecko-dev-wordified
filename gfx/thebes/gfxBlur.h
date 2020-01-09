@@ -1198,6 +1198,7 @@ if
 it
 is
 a
+*
 rounded
 rect
 .
@@ -1215,6 +1216,7 @@ don
 t
 have
 to
+*
 paint
 in
 .

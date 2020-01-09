@@ -2690,8 +2690,8 @@ the
 allowed
 touch
 behaviors
-for
 *
+for
 the
 first
 touch
@@ -2703,6 +2703,7 @@ panning
 in
 the
 specified
+*
 direction
 (
 s

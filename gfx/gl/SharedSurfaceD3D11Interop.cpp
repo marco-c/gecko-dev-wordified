@@ -29,7 +29,7 @@ tab
 -
 width
 :
-40
+4
 ;
 -
 *
@@ -235,6 +235,8 @@ Flags
 Do
 not
 set
+/
+/
 D3D11_CREATE_DEVICE_SINGLETHREADED
 )
 NULL

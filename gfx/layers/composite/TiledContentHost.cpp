@@ -205,6 +205,12 @@ for
 Compositor
 /
 /
+clang
+-
+format
+off
+/
+/
 #
 include
 "
@@ -220,6 +226,12 @@ h
 /
 for
 CompositorBridgeParent
+/
+/
+clang
+-
+format
+on
 #
 include
 "

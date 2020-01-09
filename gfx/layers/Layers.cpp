@@ -8809,8 +8809,8 @@ mNextIndex
 When
 StopFrameTimeRecording
 is
-called
 *
+called
 the
 required
 start
@@ -8826,10 +8826,10 @@ we
 re
 able
 to
+*
 calculate
 the
 required
-*
 length
 .
 If
@@ -8840,12 +8840,12 @@ bigger
 than
 bufferSize
 it
+*
 means
 data
 was
 overwritten
 .
-*
 otherwise
 we
 can
@@ -8867,8 +8867,8 @@ mLatestStartIndex
 is
 updated
 to
-mNextIndex
 *
+mNextIndex
 on
 each
 call
@@ -8879,8 +8879,8 @@ If
 this
 index
 gets
-overwritten
 *
+overwritten
 it
 means
 that
@@ -8890,8 +8890,8 @@ start
 indices
 obtained
 via
-StartFrameTimeRecording
 *
+StartFrameTimeRecording
 were
 also
 overwritten
@@ -8899,6 +8899,7 @@ hence
 no
 point
 in
+*
 recording
 so
 pause
@@ -8914,8 +8915,8 @@ of
 the
 recording
 after
-which
 *
+which
 the
 recording
 was
@@ -8926,11 +8927,11 @@ If
 StopFrameTimeRecording
 is
 invoked
+*
 with
 a
 start
 index
-*
 older
 than
 this
@@ -8941,6 +8942,7 @@ some
 frames
 were
 not
+*
 recorded
 so
 data

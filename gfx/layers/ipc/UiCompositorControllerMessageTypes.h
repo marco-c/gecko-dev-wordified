@@ -138,6 +138,8 @@ are
 also
 defined
 in
+/
+/
 mobile
 /
 android
@@ -179,6 +181,8 @@ must
 also
 be
 added
+/
+/
 there
 to
 the
@@ -187,6 +191,12 @@ enum
 .
 /
 /
+/
+/
+clang
+-
+format
+off
 enum
 UiCompositorControllerMessageTypes
 {
@@ -413,6 +423,12 @@ is
 open
 }
 ;
+/
+/
+clang
+-
+format
+on
 }
 /
 /

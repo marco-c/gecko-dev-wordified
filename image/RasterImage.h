@@ -1380,8 +1380,8 @@ decoding
 so
 far
 .
-This
 *
+This
 is
 a
 lower
@@ -1391,8 +1391,8 @@ the
 total
 number
 of
-animation
 *
+animation
 frames
 this
 image

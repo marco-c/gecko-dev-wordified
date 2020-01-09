@@ -29,7 +29,7 @@ tab
 -
 width
 :
-40
+4
 ;
 -
 *
@@ -1551,7 +1551,7 @@ SurfaceTextureDescriptor
 mSurface
 -
 >
-GetHandle
+GetImageHandle
 (
 )
 mSize

@@ -1162,6 +1162,7 @@ number
 of
 preferences
 shown
+*
 \
 ref
 APZCPrefs
@@ -1624,8 +1625,8 @@ the
 subtree
 to
 which
-aIsFirstPaint
 *
+aIsFirstPaint
 applies
 .
 *
@@ -1641,8 +1642,8 @@ this
 is
 called
 in
-response
 *
+response
 to
 included
 a
@@ -1654,10 +1655,10 @@ If
 this
 is
 true
+*
 the
 part
 of
-*
 the
 tree
 that
@@ -1665,15 +1666,16 @@ is
 affected
 by
 the
+*
 first
 -
 paint
 flag
 is
-*
 indicated
 by
 the
+*
 aFirstPaintLayersId
 parameter
 .
@@ -3645,6 +3647,7 @@ at
 index
 0
 in
+*
 the
 chain
 )
@@ -3665,6 +3668,7 @@ is
 overscroll
 it
 calls
+*
 TM
 .
 DispatchScroll
@@ -3696,6 +3700,7 @@ at
 index
 1
 in
+*
 the
 chain
 )
@@ -3715,6 +3720,7 @@ is
 overscroll
 it
 calls
+*
 TM
 .
 DispatchScroll
@@ -3746,6 +3752,7 @@ at
 index
 2
 in
+*
 the
 chain
 )
@@ -3765,6 +3772,7 @@ is
 overscroll
 it
 calls
+*
 TM
 .
 DispatchScroll
@@ -3792,6 +3800,7 @@ as
 there
 are
 no
+*
 more
 elements
 in

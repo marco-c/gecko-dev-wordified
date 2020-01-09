@@ -958,6 +958,7 @@ so
 if
 Stop
 is
+*
 called
 too
 late
@@ -973,10 +974,12 @@ result
 is
 considered
 invalid
+*
 and
 hence
 empty
 .
+)
 *
 -
 Buffer
@@ -993,6 +996,7 @@ more
 if
 frames
 were
+*
 less
 frequent
 )
@@ -1010,6 +1014,7 @@ hour
 via
 pref
 :
+*
 toolkit
 .
 framesRecording
@@ -1032,6 +1037,7 @@ than
 expected
 because
 last
+*
 frame
 *
 might
@@ -1042,6 +1048,7 @@ some
 time
 before
 calling
+*
 StartFrameTimeRecording
 .
 *

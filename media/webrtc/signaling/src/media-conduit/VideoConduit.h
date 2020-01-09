@@ -810,6 +810,7 @@ with
 passed
 in
 codec
+*
 for
 send
 *
@@ -838,8 +839,8 @@ this
 API
 may
 involve
-restarting
 *
+restarting
 transmission
 sub
 -
@@ -894,6 +895,7 @@ with
 passed
 in
 codec
+*
 for
 send
 *
@@ -929,8 +931,8 @@ this
 API
 may
 involve
-restarting
 *
+restarting
 transmission
 sub
 -

@@ -400,6 +400,9 @@ are
 cleared
 after
 all
+"
+*
+"
 strong
 references
 are

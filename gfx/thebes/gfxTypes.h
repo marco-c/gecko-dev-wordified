@@ -208,10 +208,10 @@ will
 break
 at
 this
+*
 point
 only
 if
-*
 there
 are
 no
@@ -220,6 +220,7 @@ break
 opportunities
 in
 the
+*
 line
 .
 *

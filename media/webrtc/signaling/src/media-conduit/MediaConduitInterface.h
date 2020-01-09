@@ -1424,6 +1424,7 @@ immediately
 return
 an
 error
+*
 code
 *
 TODO
@@ -2779,9 +2780,10 @@ with
 passed
 in
 codec
+*
 for
 send
-*
+.
 On
 failure
 video
@@ -2789,6 +2791,7 @@ engine
 transmit
 functionality
 is
+*
 disabled
 .
 *
@@ -2807,8 +2810,8 @@ this
 API
 may
 involve
-restarting
 *
+restarting
 transmission
 sub
 -
@@ -2866,8 +2869,8 @@ this
 API
 may
 involve
-restarting
 *
+restarting
 reception
 sub
 -
@@ -3130,6 +3133,7 @@ sample
 for
 encoding
 and
+*
 transport
 *
 param
@@ -3162,6 +3166,7 @@ samples
 in
 multiple
 of
+*
 10
 milliseconds
 *
@@ -3176,12 +3181,14 @@ is
 for
 16
 32
+*
 44
 kHz
 sampling
 rates
 respectively
 .
+*
 audioData
 [
 ]
@@ -3189,6 +3196,7 @@ is
 lengthSamples
 in
 size
+*
 say
 for
 16kz
@@ -3197,6 +3205,7 @@ rate
 audioData
 [
 ]
+*
 should
 contain
 160
@@ -3206,6 +3215,7 @@ of
 -
 bits
 each
+*
 for
 a
 10m
@@ -3229,6 +3239,7 @@ in
 Hz
 (
 16000
+*
 32000
 .
 .
@@ -3248,6 +3259,7 @@ recording
 until
 it
 is
+*
 delivered
 to
 VoiceEngine
@@ -3267,9 +3279,10 @@ before
 this
 function
 can
+*
 be
 invoked
-*
+.
 This
 ensures
 the
@@ -3281,8 +3294,10 @@ can
 be
 transmitted
 by
+*
 the
 conduit
+.
 *
 *
 /
@@ -3351,6 +3366,7 @@ a
 frame
 of
 audio
+*
 will
 be
 copied
@@ -3368,6 +3384,7 @@ sampling
 for
 playback
 in
+*
 Hertz
 (
 16000
@@ -3389,6 +3406,7 @@ reading
 of
 the
 samples
+*
 to
 rendering
 /
@@ -3408,10 +3426,12 @@ the
 audio
 frame
 in
+*
 samples
 at
 return
 .
+*
 Ex
 :
 A
@@ -3423,6 +3443,7 @@ implies
 samples
 each
 of
+*
 16
 -
 bits
@@ -3459,9 +3480,10 @@ before
 this
 function
 can
+*
 be
 invoked
-*
+.
 This
 ensures
 the

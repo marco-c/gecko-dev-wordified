@@ -2029,8 +2029,8 @@ the
 shadow
 visible
 region
-*
 of
+*
 layers
 that
 are
@@ -2039,12 +2039,12 @@ with
 opaque
 content
 .
-*
 |
 aOpaqueRegion
 |
 is
 the
+*
 region
 already
 known
@@ -2053,10 +2053,10 @@ be
 covered
 with
 opaque
-*
 content
 in
 the
+*
 post
 -
 transform
@@ -2111,8 +2111,8 @@ for
 aLayer
 in
 the
-coordinates
 *
+coordinates
 of
 the
 nearest
@@ -2122,6 +2122,7 @@ target
 the
 same
 as
+*
 GetEffectiveTransform
 )
 .
@@ -2136,9 +2137,9 @@ combined
 clip
 from
 all
+*
 ancestors
 in
-*
 the
 coordinate
 space
@@ -2149,10 +2150,10 @@ but
 maybe
 be
 an
+*
 overestimate
 in
 the
-*
 presence
 of
 complex

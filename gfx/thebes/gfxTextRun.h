@@ -2667,6 +2667,7 @@ at
 N
 &
 &
+*
 GetAdvanceWidth
 (
 Range
@@ -2692,6 +2693,7 @@ at
 N
 &
 &
+*
 GetAdvanceWidth
 (
 Range
@@ -2702,6 +2704,7 @@ N
 aProvider
 )
 +
+*
 GetHyphenWidth
 (
 )
@@ -2716,6 +2719,7 @@ N
 aMaxLength
 &
 &
+*
 GetAdvanceWidth
 (
 Range
@@ -2743,6 +2747,7 @@ Range
 aStart
 N
 )
+*
 aLineBreakBefore
 N
 <
@@ -2809,6 +2814,7 @@ aStart
 result
 )
 aLineBreakBefore
+*
 result
 <
 aMaxLength
@@ -3090,6 +3096,7 @@ at
 N
 &
 &
+*
 GetAdvanceWidth
 (
 Range
@@ -3115,6 +3122,7 @@ at
 N
 &
 &
+*
 GetAdvanceWidth
 (
 Range
@@ -3125,6 +3133,7 @@ N
 aProvider
 )
 +
+*
 GetHyphenWidth
 (
 )
@@ -3155,6 +3164,7 @@ aStart
 N
 )
 aLineBreakBefore
+*
 N
 <
 aMaxLength

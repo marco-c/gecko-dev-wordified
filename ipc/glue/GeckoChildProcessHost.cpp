@@ -5008,7 +5008,7 @@ defined
 MOZ_WIDGET_COCOA
 )
 /
-/
+*
 defined
 (
 OS_LINUX
@@ -5021,10 +5021,13 @@ OS_BSD
 )
 |
 |
+\
 defined
 (
 OS_SOLARIS
 )
+*
+/
 childArgv
 .
 push_back

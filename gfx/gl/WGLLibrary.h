@@ -423,12 +423,16 @@ fGetPixelFormatAttribiv
 (
 HDC
 hdc
+/
+/
 int
 iPixelFormat
 /
 /
 int
 iLayerPlane
+/
+/
 UINT
 nAttributes
 /
@@ -436,6 +440,8 @@ nAttributes
 int
 *
 piAttributes
+/
+/
 int
 *
 piValues

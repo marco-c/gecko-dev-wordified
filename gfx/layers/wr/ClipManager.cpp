@@ -209,7 +209,7 @@ CLIP_LOG
 .
 )
 /
-/
+*
 #
 define
 CLIP_LOG
@@ -226,8 +226,6 @@ CLIP
 "
 __VA_ARGS__
 )
-/
-/
 #
 define
 CLIP_LOG
@@ -242,6 +240,8 @@ XRE_IsContentProcess
 (
 )
 )
+{
+\
 printf_stderr
 (
 "
@@ -250,6 +250,10 @@ CLIP
 "
 __VA_ARGS__
 )
+\
+}
+*
+/
 namespace
 mozilla
 {

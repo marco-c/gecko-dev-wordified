@@ -5039,9 +5039,9 @@ those
 cases
 we
 forward
+/
+/
 property
-/
-/
 definitions
 to
 the
@@ -5050,6 +5050,8 @@ object
 if
 the
 following
+/
+/
 conditions
 are
 met
@@ -5082,6 +5084,8 @@ or
 subsumed
 by
 the
+/
+/
 target
 .
 /
@@ -5099,10 +5103,10 @@ that
 we
 would
 overwrite
+/
+/
 is
 an
-/
-/
 |
 own
 |

@@ -143,6 +143,8 @@ moz
 .
 log
 |
+\
+*
 text2pcap
 -
 D

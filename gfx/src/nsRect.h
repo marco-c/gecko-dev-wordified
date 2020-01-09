@@ -1167,6 +1167,8 @@ result
 x
 +
 width
+/
+/
 aRect
 .
 x
@@ -1201,6 +1203,8 @@ result
 y
 +
 height
+/
+/
 aRect
 .
 y
@@ -1602,6 +1606,8 @@ result
 x
 +
 width
+/
+/
 aRect
 .
 x
@@ -1636,6 +1642,8 @@ result
 y
 +
 height
+/
+/
 aRect
 .
 y
@@ -3241,6 +3249,8 @@ ymost
 aAppUnitsPerPixel
 )
 *
+/
+/
 [
 aXScale
 aYScale
@@ -3405,6 +3415,12 @@ _mm_set_epi32
 ;
 /
 /
+clang
+-
+format
+off
+/
+/
 Mask
 will
 now
@@ -3433,6 +3449,12 @@ height
 0xFFFFFFFF
 )
 ]
+/
+/
+clang
+-
+format
+on
 rectPacked
 =
 _mm_and_si128

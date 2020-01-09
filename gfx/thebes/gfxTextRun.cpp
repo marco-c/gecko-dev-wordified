@@ -7657,6 +7657,8 @@ width
 aWidth
 &
 &
+/
+/
 lastBreak
 >
 =
@@ -7681,6 +7683,8 @@ width
 aWidth
 &
 &
+/
+/
 lastBreak
 <
 0
@@ -20500,6 +20504,8 @@ font
 used
 for
 the
+/
+/
 previous
 character
 if

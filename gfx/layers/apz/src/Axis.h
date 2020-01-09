@@ -1776,8 +1776,8 @@ as
 to
 whether
 the
-ParentLayer
 *
+ParentLayer
 coordinates
 it
 operates
@@ -1788,6 +1788,7 @@ or
 after
 the
 scale
+*
 is
 applied
 .
