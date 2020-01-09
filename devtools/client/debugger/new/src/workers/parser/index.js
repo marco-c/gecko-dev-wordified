@@ -634,6 +634,7 @@ type
 ClassDeclaration
 SymbolDeclaration
 SymbolDeclarations
+IdentifierDeclaration
 FunctionDeclaration
 }
 from
