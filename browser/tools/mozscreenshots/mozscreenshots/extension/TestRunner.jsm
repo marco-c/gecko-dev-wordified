@@ -3466,6 +3466,9 @@ msg
 >
 {
 throw
+new
+Error
+(
 Cropping
 combo
 [
@@ -3496,6 +3499,7 @@ failed
 {
 msg
 }
+)
 ;
 }
 )
