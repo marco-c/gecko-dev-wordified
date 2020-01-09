@@ -15352,7 +15352,7 @@ GetIsAddonOrExpandedAddonPrincipal
 ;
 }
 nsresult
-nsDocument
+nsIDocument
 :
 :
 StartDocumentLoad
@@ -18034,7 +18034,7 @@ NS_OK
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 StopDocumentLoad
@@ -22379,7 +22379,7 @@ true
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 TryChannelCharset
@@ -29030,7 +29030,7 @@ this
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 EndUpdate
@@ -29103,7 +29103,7 @@ MaybeBroadcast
 }
 }
 void
-nsDocument
+nsIDocument
 :
 :
 BeginLoad
@@ -30770,7 +30770,7 @@ src
 #
 endif
 void
-nsDocument
+nsIDocument
 :
 :
 EndLoad
@@ -44740,7 +44740,7 @@ Allowed
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 RetrieveRelevantHeaders
