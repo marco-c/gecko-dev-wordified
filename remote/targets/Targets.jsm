@@ -136,6 +136,8 @@ remote
 /
 content
 /
+targets
+/
 Target
 .
 jsm
