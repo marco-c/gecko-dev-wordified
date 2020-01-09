@@ -9265,6 +9265,11 @@ get
 return
 ;
 }
+if
+(
+mBoundFrame
+)
+{
 rv
 =
 mBoundFrame
@@ -9274,6 +9279,7 @@ ScrollSelectionIntoView
 (
 )
 ;
+}
 /
 /
 Press
