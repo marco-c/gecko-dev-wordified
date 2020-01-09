@@ -770,7 +770,6 @@ jit
 JitCode
 *
 code
-const
 JSScript
 *
 script
