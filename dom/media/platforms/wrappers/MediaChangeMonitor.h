@@ -522,6 +522,8 @@ aConversion
 MediaRawData
 *
 aSample
+bool
+aNeedKeyFrame
 )
 =
 0
