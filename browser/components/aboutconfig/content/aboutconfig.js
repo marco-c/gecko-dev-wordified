@@ -223,7 +223,8 @@ null
 *
 *
 *
-Substring
+Lowercase
+substring
 that
 should
 be
@@ -602,6 +603,10 @@ gFilterString
 this
 .
 name
+.
+toLowerCase
+(
+)
 .
 includes
 (
@@ -2465,6 +2470,10 @@ trim
 gFilterString
 =
 searchName
+.
+toLowerCase
+(
+)
 ;
 let
 prefArray
