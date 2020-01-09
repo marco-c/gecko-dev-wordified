@@ -9632,7 +9632,7 @@ chrome
 :
 /
 /
-mozapps
+global
 /
 skin
 /
