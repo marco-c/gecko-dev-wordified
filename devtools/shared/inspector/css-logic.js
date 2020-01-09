@@ -3294,7 +3294,9 @@ getBindingElementAndPseudo
 node
 )
 ;
-return
+const
+rules
+=
 InspectorUtils
 .
 getCSSStyleRules
@@ -3302,6 +3304,9 @@ getCSSStyleRules
 bindingElement
 pseudo
 )
+;
+return
+rules
 ;
 }
 exports
