@@ -1121,6 +1121,10 @@ CloseHandle
 mMutex
 )
 ;
+mMutex
+=
+NULL
+;
 }
 #
 endif
