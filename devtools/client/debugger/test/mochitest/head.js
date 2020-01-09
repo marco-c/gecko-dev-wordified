@@ -5560,8 +5560,6 @@ aClient
 attachAddon
 (
 aGrip
-.
-actor
 )
 .
 then
