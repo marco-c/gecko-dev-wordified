@@ -630,6 +630,9 @@ aURL
 aRemoteType
 =
 DEFAULT_REMOTE_TYPE
+aPreferredRemoteType
+=
+undefined
 )
 {
 /
@@ -659,10 +662,9 @@ undefined
 is
 passed
 as
-the
+an
 /
 /
-second
 argument
 which
 might
@@ -674,8 +676,16 @@ the
 parent
 process
 .
-let
-preferredRemoteType
+if
+(
+aPreferredRemoteType
+=
+=
+=
+undefined
+)
+{
+aPreferredRemoteType
 =
 aRemoteType
 =
@@ -687,6 +697,7 @@ NOT_REMOTE
 :
 DEFAULT_REMOTE_TYPE
 ;
+}
 return
 aRemoteType
 =
@@ -697,7 +708,7 @@ getRemoteTypeForURI
 (
 aURL
 true
-preferredRemoteType
+aPreferredRemoteType
 )
 ;
 }
