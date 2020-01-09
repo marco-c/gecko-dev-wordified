@@ -319,7 +319,7 @@ Principal
 if
 (
 access
-=
+<
 =
 nsContentUtils
 :

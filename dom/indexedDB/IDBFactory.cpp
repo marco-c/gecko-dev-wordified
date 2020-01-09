@@ -1745,7 +1745,7 @@ it
 if
 (
 access
-=
+<
 =
 nsContentUtils
 :
