@@ -221,6 +221,17 @@ include
 "
 vm
 /
+EnvironmentObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 JSObject
 -
 inl
