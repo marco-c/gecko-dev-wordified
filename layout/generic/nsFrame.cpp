@@ -58614,6 +58614,10 @@ mIsKeyboardSelect
 offset
 &
 state
+aPos
+-
+>
+mTrimSpaces
 )
 =
 =
@@ -60338,6 +60342,8 @@ aOffset
 PeekWordState
 *
 aState
+bool
+aTrimSpaces
 )
 {
 NS_ASSERTION
