@@ -302,8 +302,6 @@ firefox
 devtools
 /
 debugger
-.
-html
 /
 pull
 /

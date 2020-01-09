@@ -751,8 +751,6 @@ firefox
 devtools
 /
 debugger
-.
-html
 /
 blob
 /
