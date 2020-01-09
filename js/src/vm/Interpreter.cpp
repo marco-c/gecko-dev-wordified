@@ -25234,7 +25234,7 @@ v
 ;
 MOZ_ALWAYS_FALSE
 (
-Throw
+ThrowOperation
 (
 cx
 v
@@ -28366,7 +28366,7 @@ bool
 js
 :
 :
-Throw
+ThrowOperation
 (
 JSContext
 *
