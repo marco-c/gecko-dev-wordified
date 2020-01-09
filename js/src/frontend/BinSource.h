@@ -1268,6 +1268,8 @@ DeclarationKind
 declKind
 bool
 isCaptured
+bool
+allowDuplicateName
 )
 ;
 void

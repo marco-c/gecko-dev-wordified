@@ -3017,6 +3017,8 @@ DeclarationKind
 declKind
 bool
 isCaptured
+bool
+allowDuplicateName
 )
 {
 auto
@@ -3035,6 +3037,17 @@ if
 ptr
 )
 {
+if
+(
+allowDuplicateName
+)
+{
+return
+Ok
+(
+)
+;
+}
 return
 raiseError
 (
