@@ -3581,9 +3581,10 @@ builder
 cx
 module
 parser
--
->
-anyChars
+.
+ptr
+(
+)
 )
 ;
 RootedScope

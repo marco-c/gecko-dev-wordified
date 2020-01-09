@@ -22270,9 +22270,8 @@ builder
 (
 cx
 module
+&
 parser
-.
-anyChars
 )
 ;
 ModuleSharedContext
