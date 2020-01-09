@@ -201,10 +201,6 @@ SVGInteger
 {
 public
 :
-friend
-class
-AutoChangeIntegerNotifier
-;
 typedef
 mozilla
 :
