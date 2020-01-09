@@ -3892,7 +3892,7 @@ wr
 WrExternalImageBufferType
 :
 :
-TextureRectHandle
+TextureExternalHandle
 ;
 switch
 (
