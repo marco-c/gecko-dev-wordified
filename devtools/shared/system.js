@@ -357,7 +357,6 @@ CACHED_INFO
 =
 null
 ;
-async
 function
 getSystemInfo
 (
