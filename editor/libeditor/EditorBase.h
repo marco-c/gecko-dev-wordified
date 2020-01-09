@@ -1295,6 +1295,7 @@ editor
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 Init
@@ -5678,6 +5679,7 @@ code
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InsertTextWithTransaction
@@ -5923,6 +5925,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertNodeWithTransaction
 (
@@ -6000,6 +6003,7 @@ node
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Element
@@ -6102,6 +6106,7 @@ node
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Element
@@ -6227,6 +6232,7 @@ aAttribute
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Element
@@ -6284,6 +6290,7 @@ aDestElement
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 CloneAttributesWithTransaction
 (
@@ -6332,6 +6339,7 @@ removed
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveContainerWithTransaction
 (
@@ -6443,6 +6451,7 @@ element
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Element
@@ -6605,6 +6614,7 @@ element
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Element
@@ -6882,6 +6892,7 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MoveNodeWithTransaction
 (
@@ -6940,6 +6951,7 @@ child
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MoveNodeToEndWithTransaction
 (
@@ -7513,6 +7525,7 @@ nsAtom
 aAttribute
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 RemoveAttributeOrEquivalent
@@ -7590,6 +7603,7 @@ nsAString
 aValue
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SetAttributeOrEquivalent
@@ -8247,6 +8261,7 @@ element
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Element
@@ -8411,6 +8426,7 @@ element
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Element
@@ -11129,6 +11145,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnEndHandlingTopLevelEditSubAction
@@ -13199,6 +13216,7 @@ up
 here
 }
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ~
 AutoTopLevelEditSubActionNotifier
 (
@@ -13210,7 +13228,10 @@ if
 mDoNothing
 )
 {
+MOZ_KnownLive
+(
 mEditorBase
+)
 .
 OnEndHandlingTopLevelEditSubAction
 (

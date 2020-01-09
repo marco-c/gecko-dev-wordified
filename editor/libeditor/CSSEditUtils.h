@@ -521,6 +521,7 @@ int32_t
 aIntValue
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveCSSProperty
 (
@@ -733,6 +734,7 @@ value
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveCSSInlineStyle
 (
@@ -1628,6 +1630,7 @@ recorded
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveCSSEquivalentToHTMLStyle
 (

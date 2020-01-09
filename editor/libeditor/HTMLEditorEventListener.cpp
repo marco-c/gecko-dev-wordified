@@ -1297,8 +1297,10 @@ release
 grabbing
 resizer
 .
+RefPtr
+<
 HTMLEditor
-*
+>
 htmlEditor
 =
 mEditorBase
