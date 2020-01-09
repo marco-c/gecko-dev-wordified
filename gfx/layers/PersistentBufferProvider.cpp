@@ -511,9 +511,9 @@ initialized
 and
 will
 detect
+/
+/
 a
-/
-/
 device
 reset
 even
@@ -2094,9 +2094,9 @@ initialized
 and
 will
 detect
+/
+/
 a
-/
-/
 device
 reset
 even

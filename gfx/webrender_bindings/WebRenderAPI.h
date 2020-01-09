@@ -1989,9 +1989,9 @@ animated
 This
 alters
 how
+/
+/
 coordinates
-/
-/
 are
 transformed
 /
@@ -2001,6 +2001,8 @@ invalidate
 less
 when
 transforms
+/
+/
 change
 frequently
 .
@@ -2025,9 +2027,9 @@ is
 (
 mostly
 )
+/
+/
 invariant
-/
-/
 to
 transforms
 i
@@ -2041,10 +2043,10 @@ and
 screen
 space
 pixel
+/
+/
 snapping
 on
-/
-/
 text
 runs
 that

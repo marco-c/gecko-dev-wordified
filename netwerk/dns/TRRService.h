@@ -617,12 +617,12 @@ we
 query
 whether
 it
+/
+/
 is
 initialized
 or
 not
-/
-/
 off
 the
 main
@@ -634,6 +634,8 @@ Therefore
 we
 need
 to
+/
+/
 lock
 while
 creating
@@ -642,8 +644,6 @@ and
 while
 accessing
 it
-/
-/
 off
 the
 main

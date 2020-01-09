@@ -870,9 +870,9 @@ with
 a
 main
 window
+/
+/
 as
-/
-/
 parent
 window
 so
@@ -883,10 +883,10 @@ with
 a
 temporary
 placeholder
+/
+/
 parent
 .
-/
-/
 Its
 parent
 is
