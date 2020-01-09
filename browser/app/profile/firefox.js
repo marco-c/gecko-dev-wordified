@@ -6055,10 +6055,12 @@ low
 memory
 on
 nightly
+and
+beta
 .
 #
 ifdef
-RELEASE_OR_BETA
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
@@ -6068,7 +6070,7 @@ tabs
 .
 unloadOnLowMemory
 "
-false
+true
 )
 ;
 #
@@ -6082,7 +6084,7 @@ tabs
 .
 unloadOnLowMemory
 "
-true
+false
 )
 ;
 #
