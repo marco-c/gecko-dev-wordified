@@ -2659,6 +2659,17 @@ sysroot_dir
 -
 DRUNTIMES_
 %
+s_ANDROID
+=
+1
+"
+%
+target
+                
+"
+-
+DRUNTIMES_
+%
 s_CMAKE_ASM_FLAGS
 =
 %
