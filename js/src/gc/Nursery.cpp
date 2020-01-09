@@ -1594,7 +1594,7 @@ chunkCountLimit
 (
 )
 *
-NurseryChunkUsableSize
+ChunkSize
 ;
 setCurrentEnd
 (
@@ -7346,7 +7346,7 @@ lastChunk
 currentStartChunk_
 )
 *
-NurseryChunkUsableSize
+ChunkSize
 )
 ;
 }
@@ -7401,7 +7401,7 @@ maxChunkCount
 (
 )
 *
-NurseryChunkUsableSize
+ChunkSize
 )
 ;
 return
@@ -8120,7 +8120,7 @@ chunkCountLimit
 )
 )
 *
-NurseryChunkUsableSize
+ChunkSize
 )
 .
 value
@@ -8440,7 +8440,7 @@ shrinkAllocableSpace
 (
 newMaxNurseryChunks
 *
-NurseryChunkUsableSize
+ChunkSize
 )
 ;
 return
@@ -8475,7 +8475,7 @@ newCapacity
 >
 currentChunk_
 *
-NurseryChunkUsableSize
+ChunkSize
 )
 ;
 if
@@ -8484,6 +8484,21 @@ isSubChunkMode
 (
 )
 )
+{
+if
+(
+newCapacity
+>
+=
+NurseryChunkUsableSize
+)
+{
+capacity_
+=
+ChunkSize
+;
+}
+else
 {
 capacity_
 =
@@ -8498,6 +8513,7 @@ NurseryChunkUsableSize
 )
 ;
 }
+}
 else
 {
 capacity_
@@ -8505,7 +8521,7 @@ capacity_
 JS_ROUNDUP
 (
 newCapacity
-NurseryChunkUsableSize
+ChunkSize
 )
 ;
 }
@@ -8516,7 +8532,7 @@ capacity_
 =
 chunkCountLimit_
 *
-NurseryChunkUsableSize
+ChunkSize
 )
 ;
 setCurrentEnd
@@ -8761,12 +8777,12 @@ newCount
 (
 newCapacity
 +
-NurseryChunkUsableSize
+ChunkSize
 -
 1
 )
 /
-NurseryChunkUsableSize
+ChunkSize
 ;
 if
 (
@@ -8889,6 +8905,7 @@ isSubChunkMode
 )
 currentEnd_
 <
+=
 chunk
 (
 currentChunk_
@@ -9015,6 +9032,7 @@ capacity
 (
 )
 <
+=
 NurseryChunkUsableSize
 ;
 }
