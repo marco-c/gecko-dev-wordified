@@ -36,6 +36,13 @@ file
 #
 include
 "
+SkFlattenablePriv
+.
+h
+"
+#
+include
+"
 .
 .
 /

@@ -2461,7 +2461,7 @@ src
 /
 ports
 /
-SkGlobalInitialization_none
+SkGlobalInitialization_default
 .
 cpp
 '
@@ -2473,7 +2473,7 @@ src
 /
 ports
 /
-SkGlobalInitialization_none_imagefilters
+SkGlobalInitialization_default_imagefilters
 .
 cpp
 '
