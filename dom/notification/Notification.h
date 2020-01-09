@@ -1771,11 +1771,6 @@ DispatchClickEvent
 (
 )
 ;
-bool
-DispatchNotificationClickEvent
-(
-)
-;
 static
 nsresult
 RemovePermission
