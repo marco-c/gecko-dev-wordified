@@ -32624,7 +32624,7 @@ gcGrayRoots
 (
 )
 .
-clearAndFree
+Clear
 (
 )
 ;
