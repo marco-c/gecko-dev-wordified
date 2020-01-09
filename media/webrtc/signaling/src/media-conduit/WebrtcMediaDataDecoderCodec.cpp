@@ -374,6 +374,13 @@ Option
 :
 :
 LowLatency
+CreateDecoderParams
+:
+:
+Option
+:
+:
+FullH264Parsing
 )
 mTrackType
 mImageContainer
