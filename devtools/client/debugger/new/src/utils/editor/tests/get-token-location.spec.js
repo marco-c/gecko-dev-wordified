@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 {
 getTokenLocation
@@ -115,6 +118,8 @@ C
 ;
 const
 token
+:
+any
 =
 {
 getBoundingClientRect

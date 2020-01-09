@@ -59,6 +59,9 @@ MPL
 *
 /
 /
+/
+flow
+/
 *
 eslint
 max
@@ -502,6 +505,8 @@ example
 com
 /
 "
+"
+"
 )
 ;
 expect
@@ -753,6 +758,8 @@ example
 com
 /
 "
+"
+"
 )
 ;
 const
@@ -878,6 +885,8 @@ example
 com
 /
 "
+"
+"
 )
 ;
 expect
@@ -994,7 +1003,11 @@ createTree
 sources
 :
 sourceMap
-debugeeURL
+debuggeeUrl
+:
+"
+"
+projectRoot
 :
 "
 "
@@ -1124,7 +1137,11 @@ createTree
 sources
 :
 sourceMap
-debugeeURL
+debuggeeUrl
+:
+"
+"
+projectRoot
 :
 "
 "
@@ -1240,7 +1257,11 @@ createTree
 sources
 :
 sourceMap
-debugeeURL
+debuggeeUrl
+:
+"
+"
+projectRoot
 :
 "
 "
@@ -1440,6 +1461,8 @@ example
 com
 /
 "
+"
+"
 )
 ;
 addToTree
@@ -1456,6 +1479,8 @@ example
 com
 /
 "
+"
+"
 )
 ;
 addToTree
@@ -1471,6 +1496,8 @@ example
 .
 com
 /
+"
+"
 "
 )
 ;
@@ -1607,6 +1634,8 @@ a
 index
 .
 html
+"
+"
 "
 )
 ;
@@ -1870,6 +1899,8 @@ unpkg
 com
 /
 "
+"
+"
 )
 )
 ;
@@ -2017,6 +2048,8 @@ unpkg
 .
 com
 /
+"
+"
 "
 )
 )
@@ -2197,6 +2230,8 @@ addToTree
 tree
 source
 domain
+"
+"
 )
 )
 ;

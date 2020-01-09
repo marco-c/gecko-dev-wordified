@@ -75,6 +75,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 {
 createSource
@@ -263,6 +266,8 @@ example
 com
 /
 "
+"
+"
 )
 ;
 addToTree
@@ -279,6 +284,8 @@ example
 com
 /
 "
+"
+"
 )
 ;
 addToTree
@@ -294,6 +301,8 @@ example
 .
 com
 /
+"
+"
 "
 )
 ;
@@ -655,6 +664,8 @@ example
 com
 /
 "
+"
+"
 )
 )
 ;
@@ -1015,6 +1026,8 @@ example
 com
 /
 "
+"
+"
 )
 )
 ;
@@ -1355,6 +1368,8 @@ addToTree
 _treeA
 source
 rootA
+"
+"
 )
 ;
 addToTree
@@ -1362,6 +1377,8 @@ addToTree
 _treeB
 source
 rootB
+"
+"
 )
 ;
 }

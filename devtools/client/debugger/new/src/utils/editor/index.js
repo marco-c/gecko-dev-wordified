@@ -1048,7 +1048,7 @@ codeMirror
 Object
 className
 :
-String
+string
 {
 start
 end
