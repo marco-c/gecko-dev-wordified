@@ -5089,7 +5089,7 @@ conn
 aTrans
 -
 >
-GetConnectionReference
+Connection
 (
 )
 ;
