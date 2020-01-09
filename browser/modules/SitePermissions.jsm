@@ -4945,6 +4945,16 @@ autoplay
 -
 media
 "
+states
+:
+[
+SitePermissions
+.
+ALLOW
+SitePermissions
+.
+BLOCK
+]
 }
 "
 image

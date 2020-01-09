@@ -7622,6 +7622,7 @@ scope
 ;
 if
 (
+(
 aPermission
 .
 id
@@ -7634,6 +7635,19 @@ popup
 &
 !
 isPolicyPermission
+)
+|
+|
+aPermission
+.
+id
+=
+=
+"
+autoplay
+-
+media
+"
 )
 {
 let
