@@ -1214,7 +1214,6 @@ PaintFrameIntoMask
 kid
 aClippedFrame
 aMaskContext
-aMatrix
 )
 ;
 }
@@ -1306,10 +1305,6 @@ aClippedFrame
 gfxContext
 &
 aTarget
-const
-gfxMatrix
-&
-aMatrix
 )
 {
 nsSVGDisplayableFrame
@@ -1428,7 +1423,7 @@ ApplyClipPath
 (
 aTarget
 aClippedFrame
-aMatrix
+mMatrixForChildren
 )
 ;
 }
@@ -1456,7 +1451,7 @@ GetClipMask
 (
 aTarget
 aClippedFrame
-aMatrix
+mMatrixForChildren
 &
 maskTransform
 )

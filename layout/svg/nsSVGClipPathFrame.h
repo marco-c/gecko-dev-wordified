@@ -993,10 +993,6 @@ aClippedFrame
 gfxContext
 &
 aTarget
-const
-gfxMatrix
-&
-aMatrix
 )
 ;
 /
