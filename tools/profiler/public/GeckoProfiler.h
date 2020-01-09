@@ -969,7 +969,7 @@ list
 in
 /
 /
-browser
+toolkit
 /
 components
 /
