@@ -537,7 +537,6 @@ Reporting
 #
 ifdef
 MOZ_DMD
-static
 mozilla
 :
 :
