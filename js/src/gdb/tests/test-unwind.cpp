@@ -194,6 +194,12 @@ return
 true
 ;
 }
+/
+/
+clang
+-
+format
+off
 static
 const
 JSFunctionSpecWithHelp
@@ -228,6 +234,12 @@ unwind
 JS_FS_HELP_END
 }
 ;
+/
+/
+clang
+-
+format
+on
 FRAGMENT
 (
 unwind
