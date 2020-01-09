@@ -3573,10 +3573,6 @@ js
 Printing
 :
 "
-"
-PageMetadata
-:
-"
 /
 /
 Messages
@@ -3685,10 +3681,6 @@ printUtils
 js
 "
 Printing
-:
-"
-"
-PageMetadata
 :
 "
 /
