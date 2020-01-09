@@ -359,7 +359,10 @@ IPCResult
 RecvStreamReady
 (
 const
-OptionalIPCStream
+Maybe
+<
+IPCStream
+>
 &
 aStream
 )

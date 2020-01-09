@@ -1047,7 +1047,7 @@ UDPData
 (
 autoStream
 .
-TakeOptionalValue
+TakeValue
 (
 )
 )

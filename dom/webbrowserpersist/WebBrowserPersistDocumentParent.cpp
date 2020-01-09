@@ -386,7 +386,10 @@ Attrs
 &
 aAttrs
 const
-OptionalIPCStream
+Maybe
+<
+IPCStream
+>
 &
 aPostStream
 )

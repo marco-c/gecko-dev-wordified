@@ -421,7 +421,10 @@ nsCString
 &
 aEntityID
 const
-OptionalIPCStream
+Maybe
+<
+IPCStream
+>
 &
 aUploadStream
 const

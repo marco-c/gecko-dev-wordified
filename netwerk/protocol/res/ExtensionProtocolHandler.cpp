@@ -435,17 +435,6 @@ ipc
 :
 FileDescriptor
 ;
-using
-OptionalIPCStream
-=
-mozilla
-:
-:
-ipc
-:
-:
-OptionalIPCStream
-;
 namespace
 mozilla
 {
