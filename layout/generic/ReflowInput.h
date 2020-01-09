@@ -6909,7 +6909,7 @@ block
 /
 /
 (
-aReflowInput
+aCBReflowInput
 -
 >
 frame
@@ -6934,7 +6934,7 @@ aPlaceholderFrame
 const
 ReflowInput
 *
-aReflowInput
+aCBReflowInput
 nsHypotheticalPosition
 &
 aHypotheticalPos
@@ -6955,7 +6955,7 @@ aPresContext
 const
 ReflowInput
 *
-aReflowInput
+aCBReflowInput
 const
 mozilla
 :
