@@ -11033,6 +11033,9 @@ IsValid
 )
 )
 {
+return
+nullptr
+;
 }
 return
 dt
