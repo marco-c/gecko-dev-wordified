@@ -1,3 +1,11 @@
+/
+*
+eslint
+-
+env
+worker
+*
+/
 onconnect
 =
 function
@@ -16,7 +24,7 @@ onmessage
 =
 function
 (
-evt
+evt1
 )
 {
 var
@@ -81,7 +89,7 @@ close
 }
 )
 ;
-evt
+evt1
 .
 target
 .
