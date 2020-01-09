@@ -302,7 +302,6 @@ do
 here
 .
 }
-virtual
 RefPtr
 <
 GetGMPContentParentPromise
