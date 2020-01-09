@@ -197,6 +197,10 @@ SVGIntegerPair
 {
 public
 :
+friend
+class
+AutoChangeIntegerPairNotifier
+;
 typedef
 mozilla
 :

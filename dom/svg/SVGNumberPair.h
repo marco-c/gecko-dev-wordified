@@ -213,6 +213,10 @@ SVGNumberPair
 {
 public
 :
+friend
+class
+AutoChangeNumberPairNotifier
+;
 typedef
 mozilla
 :

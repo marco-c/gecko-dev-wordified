@@ -226,6 +226,10 @@ nsSVGNumber2
 {
 public
 :
+friend
+class
+AutoChangeNumberNotifier
+;
 typedef
 mozilla
 :
