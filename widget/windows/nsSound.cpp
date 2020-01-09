@@ -669,6 +669,7 @@ NS_IMPL_ISUPPORTS
 nsSound
 nsISound
 nsIStreamLoaderObserver
+nsIObserver
 )
 nsSound
 :
