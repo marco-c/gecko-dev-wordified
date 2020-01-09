@@ -979,9 +979,6 @@ Document
 *
 Open
 (
-JSContext
-*
-cx
 const
 mozilla
 :
@@ -1033,9 +1030,6 @@ WindowProxyHolder
 >
 Open
 (
-JSContext
-*
-cx
 const
 nsAString
 &
@@ -1072,9 +1066,6 @@ rv
 void
 Write
 (
-JSContext
-*
-cx
 const
 mozilla
 :
@@ -1099,9 +1090,6 @@ rv
 void
 Writeln
 (
-JSContext
-*
-cx
 const
 mozilla
 :
@@ -1541,9 +1529,6 @@ aOrigHost
 void
 WriteCommon
 (
-JSContext
-*
-cx
 const
 nsAString
 &
@@ -1571,9 +1556,6 @@ bindings
 void
 WriteCommon
 (
-JSContext
-*
-cx
 const
 mozilla
 :
