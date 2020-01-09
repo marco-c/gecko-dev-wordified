@@ -350,7 +350,7 @@ ProgressCounter
 \
 Macro
 (
-IsInternalScript
+ShouldUpdateProgressCounter
 bool
 (
 const
