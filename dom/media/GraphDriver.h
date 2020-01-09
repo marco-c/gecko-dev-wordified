@@ -867,10 +867,7 @@ GraphDriver
 /
 *
 For
-real
--
-time
-graphs
+SystemClockDriver
 this
 waits
 until
@@ -883,10 +880,10 @@ process
 more
 data
 .
-For
 *
-offline
-graphs
+For
+other
+drivers
 this
 is
 a
