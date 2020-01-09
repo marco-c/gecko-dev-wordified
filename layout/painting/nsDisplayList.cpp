@@ -59828,9 +59828,7 @@ params
 *
 aMaskContext
 mFrame
-GetBuildingRect
-(
-)
+mBounds
 borderArea
 aBuilder
 nullptr
