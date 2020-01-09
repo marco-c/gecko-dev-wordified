@@ -1413,6 +1413,7 @@ renderer
 :
 :
 {
+RenderResults
 RendererStats
 SceneBuilderHooks
 ThreadListener

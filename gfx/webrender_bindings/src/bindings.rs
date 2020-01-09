@@ -3657,7 +3657,7 @@ height
 {
 Ok
 (
-stats
+results
 )
 =
 >
@@ -3665,6 +3665,8 @@ stats
 *
 out_stats
 =
+results
+.
 stats
 ;
 true

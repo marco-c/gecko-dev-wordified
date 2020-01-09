@@ -171,7 +171,7 @@ use
 webrender
 :
 :
-RendererStats
+RenderResults
 ;
 use
 webrender
@@ -2447,7 +2447,7 @@ intersection
 let
 (
 test
-stats
+results
 )
 =
 self
@@ -2521,6 +2521,8 @@ if
 expected_draw_calls
 !
 =
+results
+.
 stats
 .
 total_draw_calls
@@ -2548,6 +2550,8 @@ FAIL
 expected_draw_calls
 "
 t
+results
+.
 stats
 .
 total_draw_calls
@@ -2589,6 +2593,8 @@ if
 expected_alpha_targets
 !
 =
+results
+.
 stats
 .
 alpha_target_count
@@ -2616,6 +2622,8 @@ FAIL
 alpha_target_count
 "
 t
+results
+.
 stats
 .
 alpha_target_count
@@ -2657,6 +2665,8 @@ if
 expected_color_targets
 !
 =
+results
+.
 stats
 .
 color_target_count
@@ -2684,6 +2694,8 @@ FAIL
 color_target_count
 "
 t
+results
+.
 stats
 .
 color_target_count
@@ -3074,7 +3086,7 @@ bool
 >
 (
 ReftestImage
-RendererStats
+RenderResults
 )
 {
 let
@@ -3141,7 +3153,7 @@ unwrap
 )
 ;
 let
-stats
+results
 =
 self
 .
@@ -3312,7 +3324,7 @@ data
 pixels
 size
 }
-stats
+results
 )
 }
 }
