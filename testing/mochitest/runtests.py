@@ -15271,21 +15271,6 @@ options
 .
 nested_oop
             
-"
-idle
-.
-lastDailyNotification
-"
-:
-int
-(
-time
-.
-time
-(
-)
-)
-            
 #
 Enable
 tracing
