@@ -438,7 +438,19 @@ pop
 '
 cache
 '
+None
 )
+        
+if
+cache
+is
+None
+:
+            
+yield
+task
+            
+continue
         
 dependency_digests
 =
