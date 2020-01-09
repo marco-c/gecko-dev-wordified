@@ -1027,6 +1027,14 @@ closePopup
 {
 this
 .
+controller
+.
+cancelQuery
+(
+)
+;
+this
+.
 view
 .
 close
@@ -5852,6 +5860,12 @@ event
 this
 .
 formatValue
+(
+)
+;
+this
+.
+closePopup
 (
 )
 ;
