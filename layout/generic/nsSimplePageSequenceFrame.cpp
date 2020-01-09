@@ -406,14 +406,6 @@ halfInch
 halfInch
 )
 ;
-/
-/
-XXX
-Unsafe
-to
-assume
-successful
-allocation
 mPageData
 =
 new
@@ -453,7 +445,10 @@ mLanguage
 >
 GetDefaultFont
 (
-kGenericFont_serif
+StyleGenericFontFamily
+:
+:
+Serif
 )
 ;
 mPageData

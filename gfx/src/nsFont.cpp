@@ -254,7 +254,7 @@ nsFont
 :
 nsFont
 (
-FontFamilyType
+StyleGenericFontFamily
 aGenericType
 nscoord
 aSize

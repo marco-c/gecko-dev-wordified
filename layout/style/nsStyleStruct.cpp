@@ -820,7 +820,10 @@ nullptr
 >
 GetDefaultFont
 (
-kPresContext_DefaultVariableFont_ID
+StyleGenericFontFamily
+:
+:
+None
 )
 )
 mSize
@@ -849,7 +852,10 @@ NS_STYLE_FONT_SIZE_MEDIUM
 )
 mGenericID
 (
-kGenericFont_NONE
+StyleGenericFontFamily
+:
+:
+None
 )
 mScriptLevel
 (
