@@ -497,10 +497,11 @@ EnumerateVideoDevices
 (
 uint64_t
 aWindowId
-dom
+camera
 :
 :
-MediaSourceEnum
+CaptureEngine
+aCapEngine
 nsTArray
 <
 RefPtr
