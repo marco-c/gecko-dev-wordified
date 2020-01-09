@@ -1664,9 +1664,6 @@ virtual
 bool
 GetRTCPReceiverReport
 (
-DOMHighResTimeStamp
-*
-timestamp
 uint32_t
 *
 jitterMs
@@ -1690,9 +1687,6 @@ virtual
 bool
 GetRTCPSenderReport
 (
-DOMHighResTimeStamp
-*
-timestamp
 unsigned
 int
 *
