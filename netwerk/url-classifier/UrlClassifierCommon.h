@@ -245,7 +245,7 @@ aBlockedReason
 ;
 static
 bool
-ShouldEnableClassifier
+ShouldEnableTrackingProtectionOrAnnotation
 (
 nsIChannel
 *

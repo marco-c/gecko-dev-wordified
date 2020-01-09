@@ -618,7 +618,7 @@ if
 UrlClassifierCommon
 :
 :
-ShouldEnableClassifier
+ShouldEnableTrackingProtectionOrAnnotation
 (
 aChannel
 AntiTrackingCommon
