@@ -3559,7 +3559,7 @@ heap
 static
 LexicalEnvironmentObject
 *
-create
+createForFrame
 (
 JSContext
 *

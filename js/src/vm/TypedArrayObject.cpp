@@ -6256,7 +6256,7 @@ TypedArrayObject
 js
 :
 :
-TypedArrayCreateWithTemplate
+NewTypedArrayWithTemplateAndLength
 (
 JSContext
 *
@@ -6360,7 +6360,7 @@ TypedArrayObject
 js
 :
 :
-TypedArrayCreateWithTemplate
+NewTypedArrayWithTemplateAndArray
 (
 JSContext
 *
@@ -6464,7 +6464,7 @@ TypedArrayObject
 js
 :
 :
-TypedArrayCreateWithTemplate
+NewTypedArrayWithTemplateAndBuffer
 (
 JSContext
 *

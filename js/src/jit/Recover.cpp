@@ -7600,7 +7600,7 @@ JSObject
 *
 resultObject
 =
-TypedArrayCreateWithTemplate
+NewTypedArrayWithTemplateAndLength
 (
 cx
 templateObject
@@ -10040,7 +10040,7 @@ isFlatReplacement_
 js
 :
 :
-str_flat_replace_string
+StringFlatReplaceString
 (
 cx
 string

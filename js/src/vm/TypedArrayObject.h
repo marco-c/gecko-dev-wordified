@@ -1319,7 +1319,7 @@ vp
 extern
 TypedArrayObject
 *
-TypedArrayCreateWithTemplate
+NewTypedArrayWithTemplateAndLength
 (
 JSContext
 *
@@ -1333,7 +1333,7 @@ len
 extern
 TypedArrayObject
 *
-TypedArrayCreateWithTemplate
+NewTypedArrayWithTemplateAndArray
 (
 JSContext
 *
@@ -1347,7 +1347,7 @@ array
 extern
 TypedArrayObject
 *
-TypedArrayCreateWithTemplate
+NewTypedArrayWithTemplateAndBuffer
 (
 JSContext
 *

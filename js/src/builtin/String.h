@@ -938,7 +938,7 @@ limit
 ;
 JSString
 *
-str_flat_replace_string
+StringFlatReplaceString
 (
 JSContext
 *
