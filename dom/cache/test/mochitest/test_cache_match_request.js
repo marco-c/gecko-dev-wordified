@@ -510,8 +510,6 @@ Request
 request
 {
 method
-:
-method
 }
 )
 ;
@@ -756,8 +754,6 @@ Request
 (
 request
 {
-method
-:
 method
 }
 )
@@ -1022,7 +1018,7 @@ r
 "
 undefined
 "
-'
+"
 Searching
 in
 the
@@ -1032,7 +1028,7 @@ should
 resolve
 to
 undefined
-'
+"
 )
 ;
 return
@@ -1061,7 +1057,7 @@ ok
 (
 !
 hasCache
-'
+"
 The
 wrong
 cache
@@ -1069,7 +1065,7 @@ should
 still
 not
 exist
-'
+"
 )
 ;
 }

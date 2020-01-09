@@ -506,8 +506,6 @@ tests
 ]
 {
 method
-:
-method
 }
 )
 ;

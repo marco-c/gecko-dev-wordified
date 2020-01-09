@@ -585,11 +585,11 @@ v2
 )
 create_test_profile
 (
-'
+"
 bug1425146_profile
 .
 zip
-'
+"
 )
 ;
 try

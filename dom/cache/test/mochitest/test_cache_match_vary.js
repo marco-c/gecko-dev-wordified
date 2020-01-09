@@ -541,13 +541,7 @@ resolve
 (
 {
 response
-:
-response
 responseText
-:
-responseText
-cache
-:
 cache
 }
 )

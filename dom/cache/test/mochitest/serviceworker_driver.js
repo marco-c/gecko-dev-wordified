@@ -108,9 +108,9 @@ data
 type
 =
 =
-'
+"
 finish
-'
+"
 )
 {
 window
@@ -156,9 +156,9 @@ data
 type
 =
 =
-'
+"
 status
-'
+"
 )
 {
 ok
