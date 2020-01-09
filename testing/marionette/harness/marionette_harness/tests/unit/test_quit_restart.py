@@ -189,7 +189,9 @@ marionette
 _send_message
 (
 "
-quit
+Marionette
+:
+Quit
 "
 body
 )
@@ -334,7 +336,9 @@ marionette
 _send_message
 (
 "
-quit
+Marionette
+:
+Quit
 "
 typ
 )
