@@ -9242,7 +9242,7 @@ paintIfVisited
 .
 GetColor
 (
-aComputedStyle
+styleIfVisited
 )
 }
 ;
