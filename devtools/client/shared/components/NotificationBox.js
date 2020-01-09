@@ -644,7 +644,7 @@ wrapping
 :
 PropTypes
 .
-boolean
+bool
 }
 ;
 }
