@@ -71,6 +71,8 @@ import
 globals
 -
 from
+mocks
+/
 head
 -
 client
@@ -111,6 +113,8 @@ import
 globals
 -
 from
+mocks
+/
 head
 -
 runtime
@@ -155,6 +159,8 @@ import
 globals
 -
 from
+mocks
+/
 head
 -
 usb
@@ -220,7 +226,7 @@ tests
 *
 /
 class
-UsbMocks
+Mocks
 {
 constructor
 (
@@ -484,7 +490,7 @@ disableRuntimeClientFactoryMock
 )
 ;
 }
-emitUpdate
+emitUSBUpdate
 (
 )
 {
@@ -659,7 +665,7 @@ it
 .
 *
 /
-createRuntime
+createUSBRuntime
 (
 id
 runtimeInfo
@@ -811,7 +817,7 @@ return
 mockUsbClient
 ;
 }
-removeRuntime
+removeUSBRuntime
 (
 id
 )
