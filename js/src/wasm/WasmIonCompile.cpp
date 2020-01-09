@@ -23782,7 +23782,7 @@ b1
 )
 {
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -23791,7 +23791,7 @@ I32TruncSSatF32
 )
 :
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -23829,7 +23829,7 @@ true
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -23838,7 +23838,7 @@ I32TruncSSatF64
 )
 :
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -23876,7 +23876,7 @@ true
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -23885,7 +23885,7 @@ I64TruncSSatF32
 )
 :
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -23923,7 +23923,7 @@ true
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -23932,7 +23932,7 @@ I64TruncSSatF64
 )
 :
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -23973,7 +23973,7 @@ true
 ifdef
 ENABLE_WASM_BULKMEM_OPS
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -23997,7 +23997,7 @@ true
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24021,7 +24021,7 @@ true
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24038,7 +24038,7 @@ f
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24062,7 +24062,7 @@ true
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24086,7 +24086,7 @@ false
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24110,7 +24110,7 @@ false
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24139,7 +24139,7 @@ endif
 ifdef
 ENABLE_WASM_REFTYPES
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24156,7 +24156,7 @@ f
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24178,7 +24178,7 @@ endif
 ifdef
 ENABLE_WASM_GC
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24187,7 +24187,7 @@ StructNew
 )
 :
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24196,7 +24196,7 @@ StructGet
 )
 :
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24205,7 +24205,7 @@ StructSet
 )
 :
 case
-uint16_t
+uint32_t
 (
 MiscOp
 :
@@ -24274,7 +24274,7 @@ b1
 )
 {
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24291,7 +24291,7 @@ f
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24313,7 +24313,7 @@ I32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24335,7 +24335,7 @@ I64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24360,7 +24360,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24385,7 +24385,7 @@ Int64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24410,7 +24410,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24435,7 +24435,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24460,7 +24460,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24485,7 +24485,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24510,7 +24510,7 @@ Uint32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24535,7 +24535,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24560,7 +24560,7 @@ Int64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24585,7 +24585,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24610,7 +24610,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24635,7 +24635,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24660,7 +24660,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24685,7 +24685,7 @@ Uint32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24711,7 +24711,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24737,7 +24737,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24763,7 +24763,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24789,7 +24789,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24815,7 +24815,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24841,7 +24841,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24867,7 +24867,7 @@ AtomicFetchAddOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24893,7 +24893,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24919,7 +24919,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24945,7 +24945,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24971,7 +24971,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -24997,7 +24997,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25023,7 +25023,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25049,7 +25049,7 @@ AtomicFetchSubOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25075,7 +25075,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25101,7 +25101,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25127,7 +25127,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25153,7 +25153,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25179,7 +25179,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25205,7 +25205,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25231,7 +25231,7 @@ AtomicFetchAndOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25257,7 +25257,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25283,7 +25283,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25309,7 +25309,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25335,7 +25335,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25361,7 +25361,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25387,7 +25387,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25413,7 +25413,7 @@ AtomicFetchOrOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25439,7 +25439,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25465,7 +25465,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25491,7 +25491,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25517,7 +25517,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25543,7 +25543,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25569,7 +25569,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25595,7 +25595,7 @@ AtomicFetchXorOp
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25620,7 +25620,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25645,7 +25645,7 @@ Int64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25670,7 +25670,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25695,7 +25695,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25720,7 +25720,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25745,7 +25745,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25770,7 +25770,7 @@ Uint32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25795,7 +25795,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25820,7 +25820,7 @@ Int64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25845,7 +25845,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25870,7 +25870,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25895,7 +25895,7 @@ Uint8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -25920,7 +25920,7 @@ Uint16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 ThreadOp
 :
@@ -26017,7 +26017,7 @@ b1
 )
 {
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26034,7 +26034,7 @@ f
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26043,7 +26043,7 @@ I32Min
 )
 :
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26080,7 +26080,7 @@ I32Max
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26108,7 +26108,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26129,7 +26129,7 @@ I32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26157,7 +26157,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26182,7 +26182,7 @@ Float64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26207,7 +26207,7 @@ Float32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26232,7 +26232,7 @@ Int8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26257,7 +26257,7 @@ Int16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26282,7 +26282,7 @@ Int8
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26307,7 +26307,7 @@ Int16
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26332,7 +26332,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26357,7 +26357,7 @@ Int32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26382,7 +26382,7 @@ Int64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26407,7 +26407,7 @@ Float32
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26432,7 +26432,7 @@ Float64
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26464,7 +26464,7 @@ false
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26482,7 +26482,7 @@ SASigSinD
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26500,7 +26500,7 @@ SASigCosD
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26518,7 +26518,7 @@ SASigTanD
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26536,7 +26536,7 @@ SASigASinD
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26554,7 +26554,7 @@ SASigACosD
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26572,7 +26572,7 @@ SASigATanD
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26590,7 +26590,7 @@ SASigExpD
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26608,7 +26608,7 @@ SASigLogD
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26626,7 +26626,7 @@ SASigPowD
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26644,7 +26644,7 @@ SASigATan2D
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :
@@ -26668,7 +26668,7 @@ true
 )
 ;
 case
-uint16_t
+uint32_t
 (
 MozOp
 :

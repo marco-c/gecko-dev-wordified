@@ -3754,7 +3754,13 @@ body
 :
 [
 prefix
+.
+.
+.
+varU32
+(
 opcode
+)
 ]
 }
 )
