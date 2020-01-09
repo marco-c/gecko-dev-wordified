@@ -8523,13 +8523,6 @@ PlacesTransactions
 Copy
 (
 {
-excludingAnnotation
-:
-"
-Places
-/
-SmartBookmark
-"
 guid
 newIndex
 :
