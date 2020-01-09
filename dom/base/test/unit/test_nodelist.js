@@ -119,6 +119,7 @@ getElementsByTagName
 HTMLCollection
 "
 )
+;
 Assert
 .
 ok

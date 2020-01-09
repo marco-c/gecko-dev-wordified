@@ -140,7 +140,7 @@ xhtml
 XHTMLDocString
 +
 =
-'
+"
 <
 body
 >
@@ -157,7 +157,7 @@ body
 /
 html
 >
-'
+"
 ;
 var
 doc

@@ -117,10 +117,10 @@ xhr
 .
 open
 (
-'
+"
 GET
-'
-'
+"
+"
 data
 :
 text
@@ -130,7 +130,7 @@ xml
 charset
 =
 abc
-'
+"
 +
 body
 false
