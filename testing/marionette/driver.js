@@ -10282,6 +10282,11 @@ break
 case
 WindowState
 .
+Maximized
+:
+case
+WindowState
+.
 Minimized
 :
 await
