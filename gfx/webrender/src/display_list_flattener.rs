@@ -1197,9 +1197,6 @@ new_scene
 &
 mut
 Scene
-scene_id
-:
-u64
 picture_id_generator
 :
 &
@@ -1458,7 +1455,6 @@ background_color
 view
 .
 window_size
-scene_id
 flattener
 )
 }
@@ -5429,6 +5425,10 @@ self
 resources
 .
 prim_interner
+&
+self
+.
+clip_store
 )
 ;
 (
@@ -6176,6 +6176,10 @@ stacking_context
 .
 spatial_node_index
 max_clip
+&
+self
+.
+clip_store
 )
 ;
 let
@@ -6431,6 +6435,10 @@ stacking_context
 .
 spatial_node_index
 max_clip
+&
+self
+.
+clip_store
 )
 ;
 current_pic_index
@@ -6559,6 +6567,10 @@ stacking_context
 .
 spatial_node_index
 max_clip
+&
+self
+.
+clip_store
 )
 ;
 let
@@ -6749,6 +6761,10 @@ stacking_context
 .
 spatial_node_index
 max_clip
+&
+self
+.
+clip_store
 )
 ;
 let
@@ -8692,6 +8708,10 @@ clip_and_scroll
 .
 spatial_node_index
 max_clip
+&
+self
+.
+clip_store
 )
 ;
 /
@@ -12429,6 +12449,10 @@ prim_interner
 :
 &
 PrimitiveDataInterner
+clip_store
+:
+&
+ClipStore
 )
 -
 >
@@ -12572,6 +12596,7 @@ LayoutRect
 max_rect
 (
 )
+clip_store
 )
 ;
 let

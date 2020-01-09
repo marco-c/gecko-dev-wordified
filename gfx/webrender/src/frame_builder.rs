@@ -433,9 +433,6 @@ ColorF
 window_size
 :
 DeviceUintSize
-scene_id
-:
-u64
 root_pic_index
 :
 PictureIndex
@@ -467,10 +464,6 @@ FrameBuildingContext
 a
 >
 {
-pub
-scene_id
-:
-u64
 pub
 device_pixel_scale
 :
@@ -701,10 +694,6 @@ struct
 PictureState
 {
 pub
-has_non_root_coord_system
-:
-bool
-pub
 is_cacheable
 :
 bool
@@ -900,9 +889,6 @@ zero
 background_color
 :
 None
-scene_id
-:
-0
 root_pic_index
 :
 PictureIndex
@@ -950,9 +936,6 @@ ColorF
 window_size
 :
 DeviceUintSize
-scene_id
-:
-u64
 flattener
 :
 DisplayListFlattener
@@ -986,7 +969,6 @@ root_pic_index
 screen_rect
 background_color
 window_size
-scene_id
 config
 :
 flattener
@@ -1161,11 +1143,6 @@ frame_context
 =
 FrameBuildingContext
 {
-scene_id
-:
-self
-.
-scene_id
 device_pixel_scale
 scene_properties
 pipelines
