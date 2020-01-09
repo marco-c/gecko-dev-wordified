@@ -1387,26 +1387,6 @@ v1
 ;
 /
 /
-Set
-up
-some
-data
-we
-need
-for
-our
-test
-let
-startTime
-=
-Date
-.
-now
-(
-)
-;
-/
-/
 These
 are
 records
@@ -2384,7 +2364,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 1000
-startTime
 {
 loadDump
 :
@@ -2647,7 +2626,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 3000
-startTime
 )
 ;
 /
@@ -2849,7 +2827,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 4000
-startTime
 )
 ;
 /
@@ -3011,7 +2988,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 4100
-startTime
 )
 ;
 /
@@ -3498,7 +3474,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 5000
-startTime
 )
 ;
 endHistogram
@@ -3850,7 +3825,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 5000
-startTime
 )
 ;
 /
@@ -4217,7 +4191,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 5000
-startTime
 {
 loadDump
 :
@@ -4539,7 +4512,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 6000
-startTime
 )
 ;
 do_throw
@@ -4685,7 +4657,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 6000
-startTime
 )
 ;
 do_throw
