@@ -430,11 +430,15 @@ listWorkerThreadClients
 )
 {
 return
+(
 Object
 .
 values
 (
 workerClients
+)
+:
+any
 )
 .
 map
@@ -942,6 +946,8 @@ function
 waitForWorkers
 (
 shouldWait
+:
+boolean
 )
 {
 shouldWaitForWorkers
