@@ -63141,7 +63141,7 @@ MacroAssembler
 &
 masm
 const
-VMFunction
+VMFunctionData
 &
 f
 bool

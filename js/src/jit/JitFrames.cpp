@@ -7249,7 +7249,7 @@ JSTracer
 *
 trc
 const
-VMFunction
+VMFunctionData
 *
 f
 ExitFooterFrame
@@ -7443,7 +7443,7 @@ JSTracer
 *
 trc
 const
-VMFunction
+VMFunctionData
 *
 f
 ExitFooterFrame
@@ -8158,7 +8158,7 @@ isWrapperExit
 )
 ;
 const
-VMFunction
+VMFunctionData
 *
 f
 =

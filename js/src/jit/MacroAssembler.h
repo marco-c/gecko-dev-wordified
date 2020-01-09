@@ -5829,7 +5829,7 @@ stub
 code
 and
 the
-VMFunction
+VMFunctionData
 pointer
 .
 inline
@@ -5841,7 +5841,7 @@ cxreg
 Register
 scratch
 const
-VMFunction
+VMFunctionData
 *
 f
 )
