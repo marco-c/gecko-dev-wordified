@@ -2610,6 +2610,7 @@ nullptr
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT
 void
 WillRefresh
 (
@@ -2652,6 +2653,7 @@ mFromScroll
 ;
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessSynthMouseMoveEvent
 (

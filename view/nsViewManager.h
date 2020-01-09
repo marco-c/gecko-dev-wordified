@@ -153,6 +153,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventForwards
 .
 h
@@ -828,6 +837,7 @@ handling
 status
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchEvent
 (
