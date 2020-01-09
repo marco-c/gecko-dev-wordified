@@ -38068,8 +38068,12 @@ parser
 .
 handler
 .
-newFunctionStatement
+newFunction
 (
+FunctionSyntaxKind
+:
+:
+Statement
 m
 .
 parser
