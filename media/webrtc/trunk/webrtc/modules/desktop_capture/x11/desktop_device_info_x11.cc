@@ -59,8 +59,6 @@ MPL
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -68,19 +66,6 @@ desktop_capture
 x11
 /
 desktop_device_info_x11
-.
-h
-"
-#
-include
-"
-webrtc
-/
-system_wrappers
-/
-include
-/
-logging
 .
 h
 "
@@ -108,8 +93,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -123,8 +106,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -138,8 +119,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -459,7 +438,7 @@ status
 0
 )
 {
-LOG
+RTC_LOG
 (
 LS_ERROR
 )

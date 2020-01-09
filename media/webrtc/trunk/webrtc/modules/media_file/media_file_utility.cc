@@ -2070,13 +2070,13 @@ codec_info_
 .
 pacsize
 =
-440
+441
 ;
 codec_info_
 .
 plfreq
 =
-44000
+44100
 ;
 }
 else

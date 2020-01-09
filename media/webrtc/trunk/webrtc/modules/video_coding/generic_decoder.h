@@ -181,7 +181,7 @@ enum
 {
 kDecoderFrameMemoryLength
 =
-10
+30
 }
 ;
 struct

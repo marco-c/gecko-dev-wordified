@@ -483,7 +483,7 @@ get
 capturer
 -
 >
-Start
+Init
 (
 this
 MouseCursorMonitor
@@ -785,7 +785,7 @@ get
 capturer
 -
 >
-Start
+Init
 (
 this
 MouseCursorMonitor
@@ -881,7 +881,7 @@ get
 capturer
 -
 >
-Start
+Init
 (
 this
 MouseCursorMonitor

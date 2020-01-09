@@ -124,6 +124,8 @@ class
 H264SpropParameterSetsTest
 :
 public
+:
+:
 testing
 :
 :

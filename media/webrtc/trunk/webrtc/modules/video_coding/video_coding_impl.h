@@ -983,6 +983,13 @@ bool
 enable
 )
 ;
+void
+SetCPULoadState
+(
+CPULoadState
+state
+)
+;
 int64_t
 TimeUntilNextProcess
 (
@@ -997,6 +1004,11 @@ override
 ;
 void
 TriggerDecoderShutdown
+(
+)
+;
+void
+Reset
 (
 )
 ;

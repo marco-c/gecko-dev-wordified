@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -364,7 +362,7 @@ num_children
 )
 )
 {
-LOG
+RTC_LOG
 (
 LS_ERROR
 )
@@ -894,7 +892,7 @@ cnt
 1
 )
 {
-LOG
+RTC_LOG
 (
 LS_INFO
 )
@@ -1045,7 +1043,7 @@ status
 0
 )
 {
-LOG
+RTC_LOG
 (
 LS_ERROR
 )

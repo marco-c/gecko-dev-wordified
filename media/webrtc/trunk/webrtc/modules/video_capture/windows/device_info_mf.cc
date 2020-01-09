@@ -110,6 +110,10 @@ DeviceInfoMF
 DeviceInfoMF
 (
 )
+:
+DeviceInfoImpl
+(
+)
 {
 }
 DeviceInfoMF

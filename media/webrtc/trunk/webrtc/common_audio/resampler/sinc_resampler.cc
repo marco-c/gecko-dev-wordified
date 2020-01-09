@@ -1210,9 +1210,6 @@ sinc_scale_factor
 /
 /
 namespace
-namespace
-webrtc
-{
 const
 size_t
 SincResampler
