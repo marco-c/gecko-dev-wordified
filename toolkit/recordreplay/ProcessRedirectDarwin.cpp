@@ -20092,6 +20092,12 @@ gDiagnosticRedirections
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 FOR_EACH_DIAGNOSTIC_REDIRECTION
 (
 MAKE_DIAGNOSTIC_ENTRY
@@ -20104,6 +20110,12 @@ FOR_EACH_DIAGNOSTIC_MEMBER_PTR_REDIRECTION
 (
 MAKE_DIAGNOSTIC_ENTRY
 )
+/
+/
+clang
+-
+format
+on
 }
 ;
 #
@@ -20719,6 +20731,7 @@ diagnosticIndex
 .
 mBaseFunction
 =
+\
 BitwiseCast
 <
 uint8_t
@@ -20753,6 +20766,7 @@ diagnosticIndex
 .
 mBaseFunction
 =
+\
 ConvertMemberPtrToAddress
 <
 aType
@@ -20785,6 +20799,7 @@ diagnosticIndex
 .
 mBaseFunction
 =
+\
 ConvertMemberPtrToAddress
 (
 aAddress
