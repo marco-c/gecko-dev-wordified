@@ -35585,6 +35585,9 @@ props
 onCollapse
 (
 item
+e
+.
+altKey
 )
 ;
 }
