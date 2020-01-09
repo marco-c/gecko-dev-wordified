@@ -11975,10 +11975,12 @@ if
 (
 sum
 )
+{
 haveRadius
 =
 true
 ;
+}
 /
 /
 avoid
@@ -11995,6 +11997,7 @@ length
 <
 sum
 )
+{
 ratio
 =
 std
@@ -12011,6 +12014,7 @@ length
 sum
 )
 ;
+}
 }
 if
 (
