@@ -230,7 +230,7 @@ popup
 .
 richlistbox
 .
-children
+itemChildren
 .
 some
 (

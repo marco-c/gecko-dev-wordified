@@ -456,7 +456,7 @@ popup
 .
 richlistbox
 .
-children
+itemChildren
 item
 =
 >

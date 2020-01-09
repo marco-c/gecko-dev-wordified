@@ -427,7 +427,7 @@ getElementById
 listId
 )
 .
-children
+itemChildren
 )
 {
 if

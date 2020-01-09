@@ -304,7 +304,7 @@ child
 =
 categoriesList
 .
-children
+itemChildren
 [
 i
 ]
@@ -412,7 +412,7 @@ child
 =
 categoriesList
 .
-children
+itemChildren
 [
 i
 ]
@@ -1812,7 +1812,7 @@ child
 =
 categoriesList
 .
-children
+itemChildren
 [
 i
 ]

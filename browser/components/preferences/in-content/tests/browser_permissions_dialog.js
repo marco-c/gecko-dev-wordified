@@ -3065,7 +3065,7 @@ permissionsBox
 "
 )
 .
-children
+itemChildren
 [
 1
 ]

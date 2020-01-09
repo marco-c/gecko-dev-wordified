@@ -2232,7 +2232,7 @@ popup
 .
 richlistbox
 .
-children
+itemChildren
 .
 length
 >
@@ -2245,7 +2245,7 @@ popup
 .
 richlistbox
 .
-children
+itemChildren
 [
 index
 ]
@@ -2328,7 +2328,7 @@ popup
 .
 richlistbox
 .
-children
+itemChildren
 [
 index
 ]

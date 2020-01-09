@@ -326,7 +326,7 @@ is
 (
 richlistbox
 .
-children
+itemChildren
 .
 length
 DownloadData
@@ -350,7 +350,7 @@ itemCount
 =
 richlistbox
 .
-children
+itemChildren
 .
 length
 ;
@@ -375,7 +375,7 @@ element
 =
 richlistbox
 .
-children
+itemChildren
 [
 itemCount
 -

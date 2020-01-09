@@ -645,7 +645,7 @@ popup
 .
 richlistbox
 .
-children
+itemChildren
 ;
 let
 numActualResults
@@ -736,7 +736,7 @@ popup
 .
 richlistbox
 .
-children
+itemChildren
 [
 i
 +

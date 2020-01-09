@@ -411,7 +411,7 @@ popup
 .
 richlistbox
 .
-children
+itemChildren
 ;
 is
 (

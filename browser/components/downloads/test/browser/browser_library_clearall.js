@@ -547,7 +547,7 @@ downloads
 .
 listbox
 .
-children
+itemChildren
 [
 0
 ]
@@ -589,7 +589,7 @@ synthesizeMouseAtCenter
 (
 listbox
 .
-children
+itemChildren
 [
 0
 ]

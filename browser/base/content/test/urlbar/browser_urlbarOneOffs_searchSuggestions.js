@@ -730,7 +730,7 @@ popup
 .
 richlistbox
 .
-children
+itemChildren
 [
 gURLBar
 .
@@ -788,7 +788,7 @@ popup
 .
 richlistbox
 .
-children
+itemChildren
 [
 1
 ]
