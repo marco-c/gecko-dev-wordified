@@ -806,6 +806,9 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+Mutex
+mMutex
+;
 bool
 mSameProcess
 ;
