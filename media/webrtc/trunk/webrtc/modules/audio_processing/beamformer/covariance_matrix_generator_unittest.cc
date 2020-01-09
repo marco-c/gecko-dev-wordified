@@ -91,6 +91,8 @@ _USE_MATH_DEFINES
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -109,6 +111,8 @@ cmath
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -122,6 +126,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

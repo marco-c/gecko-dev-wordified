@@ -1101,7 +1101,6 @@ gn_result
 config
 sandbox_vars
 input_vars
-gn_target
 )
 :
     
@@ -1213,7 +1212,12 @@ gn_result
 targets
 '
 ]
-gn_target
+"
+/
+/
+:
+default
+"
 )
     
 for
@@ -4180,7 +4184,6 @@ gn_binary
                        
 input_variables
 sandbox_variables
-gn_target
 )
 :
     
@@ -4421,7 +4424,6 @@ config
 sandbox_variables
                                   
 input_variables
-gn_target
 )
     
 os
@@ -4595,10 +4597,6 @@ gn_input_variables
 obj
 .
 gn_sandbox_variables
-                               
-obj
-.
-gn_target
 )
         
 return

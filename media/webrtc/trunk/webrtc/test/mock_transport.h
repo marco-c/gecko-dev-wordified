@@ -87,13 +87,15 @@ tree
 /
 #
 ifndef
-TEST_MOCK_TRANSPORT_H_
+WEBRTC_TEST_MOCK_TRANSPORT_H_
 #
 define
-TEST_MOCK_TRANSPORT_H_
+WEBRTC_TEST_MOCK_TRANSPORT_H_
 #
 include
 "
+webrtc
+/
 api
 /
 call
@@ -105,6 +107,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gmock
@@ -165,4 +169,4 @@ webrtc
 endif
 /
 /
-TEST_MOCK_TRANSPORT_H_
+WEBRTC_TEST_MOCK_TRANSPORT_H_

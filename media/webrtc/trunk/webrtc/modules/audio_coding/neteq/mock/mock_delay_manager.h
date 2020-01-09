@@ -87,13 +87,15 @@ tree
 /
 #
 ifndef
-MODULES_AUDIO_CODING_NETEQ_MOCK_MOCK_DELAY_MANAGER_H_
+WEBRTC_MODULES_AUDIO_CODING_NETEQ_MOCK_MOCK_DELAY_MANAGER_H_
 #
 define
-MODULES_AUDIO_CODING_NETEQ_MOCK_MOCK_DELAY_MANAGER_H_
+WEBRTC_MODULES_AUDIO_CODING_NETEQ_MOCK_MOCK_DELAY_MANAGER_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -107,6 +109,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gmock
@@ -264,14 +268,6 @@ int
 )
 )
 ;
-MOCK_METHOD0
-(
-RegisterEmptyPacket
-void
-(
-)
-)
-;
 MOCK_METHOD1
 (
 set_extra_delay_ms
@@ -329,4 +325,4 @@ webrtc
 endif
 /
 /
-MODULES_AUDIO_CODING_NETEQ_MOCK_MOCK_DELAY_MANAGER_H_
+WEBRTC_MODULES_AUDIO_CODING_NETEQ_MOCK_MOCK_DELAY_MANAGER_H_

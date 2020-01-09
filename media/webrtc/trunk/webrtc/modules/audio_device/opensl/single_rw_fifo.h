@@ -94,6 +94,8 @@ WEBRTC_MODULES_AUDIO_DEVICE_ANDROID_SINGLE_RW_FIFO_H_
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -105,6 +107,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

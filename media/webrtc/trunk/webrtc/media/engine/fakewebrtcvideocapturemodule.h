@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MEDIA_ENGINE_FAKEWEBRTCVIDEOCAPTUREMODULE_H_
+WEBRTC_MEDIA_ENGINE_FAKEWEBRTCVIDEOCAPTUREMODULE_H_
 #
 define
-MEDIA_ENGINE_FAKEWEBRTCVIDEOCAPTUREMODULE_H_
+WEBRTC_MEDIA_ENGINE_FAKEWEBRTCVIDEOCAPTUREMODULE_H_
 #
 include
 <
@@ -99,6 +99,8 @@ vector
 #
 include
 "
+webrtc
+/
 api
 /
 video
@@ -110,6 +112,8 @@ h
 #
 include
 "
+webrtc
+/
 media
 /
 base
@@ -121,6 +125,8 @@ h
 #
 include
 "
+webrtc
+/
 media
 /
 engine
@@ -155,7 +161,6 @@ VideoCaptureModule
 {
 public
 :
-explicit
 FakeWebRtcVideoCaptureModule
 (
 FakeWebRtcVcmFactory
@@ -528,4 +533,4 @@ cap_
 endif
 /
 /
-MEDIA_ENGINE_FAKEWEBRTCVIDEOCAPTUREMODULE_H_
+WEBRTC_MEDIA_ENGINE_FAKEWEBRTCVIDEOCAPTUREMODULE_H_

@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 common_audio
 /
 ring_buffer
@@ -121,6 +123,8 @@ memory
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -325,7 +329,7 @@ seed
 =
 time
 (
-nullptr
+NULL
 )
 ;
 printf
@@ -362,20 +366,6 @@ i
 +
 )
 {
-/
-/
-rand_r
-is
-not
-supported
-on
-many
-platforms
-so
-rand
-is
-used
-.
 const
 int
 buffer_size
@@ -393,9 +383,6 @@ kMaxBufferSize
 1
 )
 ;
-/
-/
-NOLINT
 std
 :
 :
@@ -454,7 +441,7 @@ get
 )
 !
 =
-nullptr
+NULL
 )
 ;
 WebRtc_InitBuffer
@@ -514,9 +501,6 @@ true
 :
 false
 ;
-/
-/
-NOLINT
 const
 int
 num_elements
@@ -527,9 +511,6 @@ rand
 %
 buffer_size
 ;
-/
-/
-NOLINT
 if
 (
 write
@@ -752,7 +733,7 @@ int
 *
 data_ptr
 =
-nullptr
+NULL
 ;
 RandomStressTest
 (
@@ -769,7 +750,7 @@ RandomStressTestWithNullPtr
 {
 RandomStressTest
 (
-nullptr
+NULL
 )
 ;
 }
@@ -823,7 +804,7 @@ get
 )
 !
 =
-nullptr
+NULL
 )
 ;
 WebRtc_InitBuffer
@@ -943,7 +924,7 @@ buffer
 get
 (
 )
-nullptr
+NULL
 read_data
 kDataSize
 )
@@ -952,7 +933,7 @@ kDataSize
 /
 /
 Passing
-null
+NULL
 forces
 a
 memcpy
@@ -987,7 +968,7 @@ WebRtc_CreateBuffer
 )
 =
 =
-nullptr
+NULL
 )
 ;
 EXPECT_TRUE
@@ -999,7 +980,7 @@ WebRtc_CreateBuffer
 )
 =
 =
-nullptr
+NULL
 )
 ;
 RingBuffer
@@ -1017,7 +998,7 @@ EXPECT_TRUE
 buffer
 !
 =
-nullptr
+NULL
 )
 ;
 WebRtc_FreeBuffer

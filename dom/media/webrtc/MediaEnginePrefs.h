@@ -198,10 +198,6 @@ mAecOn
 (
 false
 )
-mUseAecMobile
-(
-false
-)
 mAgcOn
 (
 false
@@ -268,9 +264,6 @@ true
 )
 bool
 mAecOn
-;
-bool
-mUseAecMobile
 ;
 bool
 mAgcOn

@@ -88,10 +88,10 @@ tree
 /
 #
 ifndef
-MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_DLRR_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_DLRR_H_
 #
 define
-MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_DLRR_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_DLRR_H_
 #
 include
 <
@@ -100,7 +100,9 @@ vector
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 basictypes
 .
@@ -207,7 +209,8 @@ kBlockType
 Dlrr
 (
 )
-;
+{
+}
 Dlrr
 (
 const
@@ -215,12 +218,15 @@ Dlrr
 &
 other
 )
+=
+default
 ;
 ~
 Dlrr
 (
 )
-;
+{
+}
 Dlrr
 &
 operator
@@ -418,4 +424,4 @@ webrtc
 endif
 /
 /
-MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_DLRR_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_DLRR_H_

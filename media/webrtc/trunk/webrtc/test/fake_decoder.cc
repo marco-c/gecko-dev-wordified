@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 test
 /
 fake_decoder
@@ -97,6 +99,8 @@ h
 #
 include
 "
+webrtc
+/
 api
 /
 video
@@ -108,7 +112,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 timeutils
 .
@@ -117,6 +123,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

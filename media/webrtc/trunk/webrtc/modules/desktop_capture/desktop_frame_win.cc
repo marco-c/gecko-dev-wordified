@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -104,7 +106,11 @@ utility
 #
 include
 "
-rtc_base
+webrtc
+/
+system_wrappers
+/
+include
 /
 logging
 .
@@ -387,7 +393,7 @@ if
 bitmap
 )
 {
-RTC_LOG
+LOG
 (
 LS_WARNING
 )

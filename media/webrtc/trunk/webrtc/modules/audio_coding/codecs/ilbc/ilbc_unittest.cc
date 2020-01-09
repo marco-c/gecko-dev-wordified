@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -103,6 +105,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -118,6 +122,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -131,6 +137,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -153,7 +161,10 @@ a
 good
 packet
 .
-AudioEncoderIlbcConfig
+AudioEncoderIlbc
+:
+:
+Config
 config
 ;
 config
@@ -191,11 +202,10 @@ cb_index
 are
 valid
 .
-AudioEncoderIlbcImpl
+AudioEncoderIlbc
 encoder
 (
 config
-102
 )
 ;
 std
@@ -373,7 +383,7 @@ returning
 -
 1
 .
-AudioDecoderIlbcImpl
+AudioDecoderIlbc
 decoder
 ;
 std
@@ -610,7 +620,7 @@ SplitIlbcTest
 NumFrames
 )
 {
-AudioDecoderIlbcImpl
+AudioDecoderIlbc
 decoder
 ;
 const
@@ -1100,7 +1110,7 @@ IlbcTest
 SplitTooLargePayload
 )
 {
-AudioDecoderIlbcImpl
+AudioDecoderIlbc
 decoder
 ;
 constexpr
@@ -1153,7 +1163,7 @@ IlbcTest
 SplitUnevenPayload
 )
 {
-AudioDecoderIlbcImpl
+AudioDecoderIlbc
 decoder
 ;
 constexpr

@@ -87,14 +87,16 @@ tree
 /
 #
 ifndef
-TEST_GTEST_H_
+WEBRTC_TEST_GTEST_H_
 #
 define
-TEST_GTEST_H_
+WEBRTC_TEST_GTEST_H_
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 ignore_wundef
 .
@@ -176,4 +178,4 @@ endif
 endif
 /
 /
-TEST_GTEST_H_
+WEBRTC_TEST_GTEST_H_

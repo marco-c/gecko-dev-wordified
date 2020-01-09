@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-COMMON_AUDIO_SPARSE_FIR_FILTER_H_
+WEBRTC_COMMON_AUDIO_SPARSE_FIR_FILTER_H_
 #
 define
-COMMON_AUDIO_SPARSE_FIR_FILTER_H_
+WEBRTC_COMMON_AUDIO_SPARSE_FIR_FILTER_H_
 #
 include
 <
@@ -104,7 +104,9 @@ vector
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .
@@ -360,4 +362,4 @@ webrtc
 endif
 /
 /
-COMMON_AUDIO_SPARSE_FIR_FILTER_H_
+WEBRTC_COMMON_AUDIO_SPARSE_FIR_FILTER_H_

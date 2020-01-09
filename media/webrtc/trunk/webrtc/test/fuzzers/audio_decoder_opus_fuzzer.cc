@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -103,6 +105,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 fuzzers
@@ -144,7 +148,7 @@ or
 2
 channels
 .
-AudioDecoderOpusImpl
+AudioDecoderOpus
 dec
 (
 channels

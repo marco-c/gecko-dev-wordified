@@ -109,7 +109,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -118,6 +120,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 fft4g
@@ -127,6 +131,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -140,6 +146,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -153,6 +161,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -166,6 +176,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -1452,21 +1464,6 @@ featureData
 0
 .
 f
-;
-memset
-(
-self
--
->
-parametricNoise
-0
-sizeof
-(
-float
-)
-*
-HALF_ANAL_BLOCKL
-)
 ;
 /
 /

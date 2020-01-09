@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 common_video
 /
 h264
@@ -99,6 +101,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

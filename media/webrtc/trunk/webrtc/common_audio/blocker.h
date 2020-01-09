@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-COMMON_AUDIO_BLOCKER_H_
+WEBRTC_INTERNAL_BEAMFORMER_BLOCKER_H_
 #
 define
-COMMON_AUDIO_BLOCKER_H_
+WEBRTC_INTERNAL_BEAMFORMER_BLOCKER_H_
 #
 include
 <
@@ -99,6 +99,8 @@ memory
 #
 include
 "
+webrtc
+/
 common_audio
 /
 audio_ring_buffer
@@ -108,6 +110,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 channel_buffer
@@ -943,4 +947,4 @@ webrtc
 endif
 /
 /
-COMMON_AUDIO_BLOCKER_H_
+WEBRTC_INTERNAL_BEAMFORMER_BLOCKER_H_

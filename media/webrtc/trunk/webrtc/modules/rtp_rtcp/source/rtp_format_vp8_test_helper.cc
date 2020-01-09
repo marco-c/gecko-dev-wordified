@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -101,6 +103,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -409,6 +413,11 @@ ASSERT_TRUE
 inited_
 )
 ;
+bool
+last
+=
+false
+;
 for
 (
 size_t
@@ -460,6 +469,8 @@ NextPacket
 (
 &
 packet_
+&
+last
 )
 )
 ;
@@ -469,12 +480,7 @@ expected_sizes
 [
 i
 ]
-i
-+
-1
-=
-=
-expected_num_packets
+last
 expected_frag_start
 [
 i
@@ -482,6 +488,11 @@ i
 )
 ;
 }
+EXPECT_TRUE
+(
+last
+)
+;
 }
 /
 /

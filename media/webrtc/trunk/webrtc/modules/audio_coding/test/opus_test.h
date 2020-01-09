@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MODULES_AUDIO_CODING_TEST_OPUS_TEST_H_
+WEBRTC_MODULES_AUDIO_CODING_TEST_OPUS_TEST_H_
 #
 define
-MODULES_AUDIO_CODING_TEST_OPUS_TEST_H_
+WEBRTC_MODULES_AUDIO_CODING_TEST_OPUS_TEST_H_
 #
 include
 <
@@ -106,6 +106,8 @@ memory
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -121,6 +123,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -134,6 +138,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -147,6 +153,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -160,6 +168,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -173,6 +183,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -302,4 +314,4 @@ webrtc
 endif
 /
 /
-MODULES_AUDIO_CODING_TEST_OPUS_TEST_H_
+WEBRTC_MODULES_AUDIO_CODING_TEST_OPUS_TEST_H_

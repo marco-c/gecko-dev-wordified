@@ -93,6 +93,8 @@ algorithm
 #
 include
 "
+webrtc
+/
 modules
 /
 remote_bitrate_estimator
@@ -108,6 +110,19 @@ h
 #
 include
 "
+webrtc
+/
+base
+/
+common
+.
+h
+"
+#
+include
+"
+webrtc
+/
 modules
 /
 bitrate_controller
@@ -121,6 +136,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 remote_bitrate_estimator
@@ -134,6 +151,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -147,6 +166,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

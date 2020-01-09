@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -120,6 +122,8 @@ memory
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -133,6 +137,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -142,6 +148,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 testsupport

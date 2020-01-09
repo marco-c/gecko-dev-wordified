@@ -114,6 +114,8 @@ cmath
 #
 include
 "
+webrtc
+/
 common_audio
 /
 channel_buffer
@@ -123,6 +125,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -134,6 +138,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

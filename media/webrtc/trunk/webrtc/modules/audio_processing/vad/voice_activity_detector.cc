@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -106,7 +108,9 @@ algorithm
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -117,6 +121,12 @@ webrtc
 {
 namespace
 {
+const
+size_t
+kMaxLength
+=
+320
+;
 const
 size_t
 kNumChannels
@@ -238,6 +248,12 @@ length
 sample_rate_hz
 /
 100
+)
+;
+RTC_DCHECK_LE
+(
+length
+kMaxLength
 )
 ;
 /

@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -108,7 +110,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .

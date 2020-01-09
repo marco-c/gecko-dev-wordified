@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -107,6 +109,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -118,6 +122,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -127,18 +133,12 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
 "
-/
-/
-NOLINT
-(
-build
-/
-include
-)
 class
 FiltersTest
 :

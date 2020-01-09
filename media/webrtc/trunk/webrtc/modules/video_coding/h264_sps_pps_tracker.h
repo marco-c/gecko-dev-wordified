@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MODULES_VIDEO_CODING_H264_SPS_PPS_TRACKER_H_
+WEBRTC_MODULES_VIDEO_CODING_H264_SPS_PPS_TRACKER_H_
 #
 define
-MODULES_VIDEO_CODING_H264_SPS_PPS_TRACKER_H_
+WEBRTC_MODULES_VIDEO_CODING_H264_SPS_PPS_TRACKER_H_
 #
 include
 <
@@ -114,6 +114,8 @@ vector
 #
 include
 "
+webrtc
+/
 modules
 /
 include
@@ -153,7 +155,7 @@ packet
 )
 ;
 void
-InsertSpsPpsNalus
+InsertSpsPps
 (
 const
 std
@@ -214,18 +216,6 @@ size
 =
 0
 ;
-int
-width
-=
--
-1
-;
-int
-height
-=
--
-1
-;
 std
 :
 :
@@ -275,4 +265,4 @@ webrtc
 endif
 /
 /
-MODULES_VIDEO_CODING_H264_SPS_PPS_TRACKER_H_
+WEBRTC_MODULES_VIDEO_CODING_H264_SPS_PPS_TRACKER_H_

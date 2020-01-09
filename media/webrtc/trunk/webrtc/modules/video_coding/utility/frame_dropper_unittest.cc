@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -101,7 +103,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 logging
 .
@@ -110,6 +114,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

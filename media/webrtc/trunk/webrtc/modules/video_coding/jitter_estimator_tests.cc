@@ -87,6 +87,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -98,6 +100,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -109,6 +113,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -254,7 +260,6 @@ ValueGenerator
 {
 public
 :
-explicit
 ValueGenerator
 (
 int32_t
@@ -1044,7 +1049,3 @@ regular_iterations
 ;
 }
 }
-/
-/
-namespace
-webrtc

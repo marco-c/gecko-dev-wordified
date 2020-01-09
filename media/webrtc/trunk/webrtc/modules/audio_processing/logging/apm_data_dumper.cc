@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -106,7 +108,9 @@ sstream
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 stringutils
 .
@@ -227,10 +231,10 @@ std
 string
 base
 =
-rtc
+webrtc
 :
 :
-LogMessage
+Trace
 :
 :
 aec_debug_filename

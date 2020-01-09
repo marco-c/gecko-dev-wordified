@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -104,9 +106,11 @@ algorithm
 #
 include
 "
-rtc_base
+webrtc
 /
-numerics
+modules
+/
+video_coding
 /
 sequence_number_util
 .

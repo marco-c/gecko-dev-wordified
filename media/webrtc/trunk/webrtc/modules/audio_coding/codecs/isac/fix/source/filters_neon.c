@@ -95,7 +95,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -104,6 +106,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding

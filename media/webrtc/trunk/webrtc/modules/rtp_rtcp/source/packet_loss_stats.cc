@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -106,7 +108,9 @@ vector
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .

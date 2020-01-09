@@ -87,14 +87,16 @@ tree
 /
 #
 ifndef
-TEST_MAC_VIDEO_RENDERER_MAC_H_
+WEBRTC_TEST_MAC_VIDEO_RENDERER_MAC_H_
 #
 define
-TEST_MAC_VIDEO_RENDERER_MAC_H_
+WEBRTC_TEST_MAC_VIDEO_RENDERER_MAC_H_
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .
@@ -103,6 +105,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gl
@@ -191,4 +195,4 @@ webrtc
 endif
 /
 /
-TEST_MAC_VIDEO_RENDERER_MAC_H_
+WEBRTC_TEST_MAC_VIDEO_RENDERER_MAC_H_

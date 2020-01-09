@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 common_video
 /
 include
@@ -99,7 +101,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .

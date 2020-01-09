@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_H_
 #
 define
-MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_H_
 #
 include
 <
@@ -114,7 +114,9 @@ vector
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -123,7 +125,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .
@@ -2408,4 +2412,4 @@ webrtc
 endif
 /
 /
-MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_H_

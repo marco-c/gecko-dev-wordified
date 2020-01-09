@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -103,7 +105,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 format_macros
 .
@@ -112,6 +116,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -121,6 +127,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 testsupport
@@ -133,6 +141,9 @@ using
 :
 :
 std
+:
+:
+tr1
 :
 :
 get

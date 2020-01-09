@@ -129,7 +129,7 @@ for
 C
 +
 +
-RTC_LOG
+LOG
 (
 sev
 )

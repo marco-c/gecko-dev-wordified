@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MODULES_AUDIO_PROCESSING_AGC_LEGACY_ANALOG_AGC_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_AGC_LEGACY_ANALOG_AGC_H_
 #
 define
-MODULES_AUDIO_PROCESSING_AGC_LEGACY_ANALOG_AGC_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_AGC_LEGACY_ANALOG_AGC_H_
 /
 /
 #
@@ -111,6 +111,8 @@ endif
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -126,6 +128,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -141,18 +145,12 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
 "
-/
-/
-NOLINT
-(
-build
-/
-include
-)
 /
 *
 Analog
@@ -1124,4 +1122,4 @@ LegacyAgc
 endif
 /
 /
-MODULES_AUDIO_PROCESSING_AGC_LEGACY_ANALOG_AGC_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_AGC_LEGACY_ANALOG_AGC_H_

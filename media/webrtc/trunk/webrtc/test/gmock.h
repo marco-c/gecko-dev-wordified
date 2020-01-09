@@ -87,14 +87,16 @@ tree
 /
 #
 ifndef
-TEST_GMOCK_H_
+WEBRTC_TEST_GMOCK_H_
 #
 define
-TEST_GMOCK_H_
+WEBRTC_TEST_GMOCK_H_
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 ignore_wundef
 .
@@ -125,4 +127,4 @@ RTC_POP_IGNORING_WUNDEF
 endif
 /
 /
-TEST_GMOCK_H_
+WEBRTC_TEST_GMOCK_H_

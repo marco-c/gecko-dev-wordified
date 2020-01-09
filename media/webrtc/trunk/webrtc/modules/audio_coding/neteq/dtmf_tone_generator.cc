@@ -365,6 +365,8 @@ Hz
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -378,7 +380,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 arraysize
 .
@@ -387,7 +391,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .

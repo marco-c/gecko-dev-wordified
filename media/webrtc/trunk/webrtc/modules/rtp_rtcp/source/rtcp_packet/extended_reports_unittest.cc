@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -103,7 +105,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 random
 .
@@ -112,6 +116,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gmock
@@ -121,6 +127,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -130,6 +138,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 rtcp_packet_parser

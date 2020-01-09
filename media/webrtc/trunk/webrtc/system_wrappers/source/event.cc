@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -112,6 +114,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 source
@@ -152,6 +156,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 source
@@ -172,6 +178,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 source
@@ -185,7 +193,9 @@ endif
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 event
 .

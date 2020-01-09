@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MODULES_UTILITY_INCLUDE_MOCK_MOCK_PROCESS_THREAD_H_
+WEBRTC_MODULES_UTILITY_INCLUDE_MOCK_MOCK_PROCESS_THREAD_H_
 #
 define
-MODULES_UTILITY_INCLUDE_MOCK_MOCK_PROCESS_THREAD_H_
+WEBRTC_MODULES_UTILITY_INCLUDE_MOCK_MOCK_PROCESS_THREAD_H_
 #
 include
 <
@@ -99,6 +99,8 @@ memory
 #
 include
 "
+webrtc
+/
 modules
 /
 utility
@@ -112,15 +114,8 @@ h
 #
 include
 "
-rtc_base
+webrtc
 /
-location
-.
-h
-"
-#
-include
-"
 test
 /
 gmock
@@ -232,7 +227,7 @@ task
 )
 )
 ;
-MOCK_METHOD2
+MOCK_METHOD1
 (
 RegisterModule
 void
@@ -240,12 +235,6 @@ void
 Module
 *
 module
-const
-rtc
-:
-:
-Location
-&
 )
 )
 ;
@@ -337,4 +326,4 @@ webrtc
 endif
 /
 /
-MODULES_UTILITY_INCLUDE_MOCK_MOCK_PROCESS_THREAD_H_
+WEBRTC_MODULES_UTILITY_INCLUDE_MOCK_MOCK_PROCESS_THREAD_H_

@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -115,6 +117,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 resampler
@@ -128,7 +132,11 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+system_wrappers
+/
+include
 /
 logging
 .
@@ -253,7 +261,7 @@ num_audio_channels
 0
 )
 {
-RTC_LOG
+LOG
 (
 LS_ERROR
 )
@@ -315,7 +323,7 @@ out_length
 1
 )
 {
-RTC_LOG
+LOG
 (
 LS_ERROR
 )

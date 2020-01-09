@@ -123,6 +123,8 @@ WEBRTC_MODULES_DESKTOP_CAPTURE_X11_DEVICE_INFO_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -130,6 +132,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture

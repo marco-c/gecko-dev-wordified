@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 common_audio
 /
 channel_buffer
@@ -97,6 +99,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

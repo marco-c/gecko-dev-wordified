@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -106,6 +108,8 @@ utility
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -119,6 +123,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -132,6 +138,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -145,6 +153,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -169,8 +179,6 @@ RtpVideoCodecTypes
 type
 size_t
 max_payload_len
-size_t
-last_packet_reduction_len
 const
 RTPVideoTypeHeader
 *
@@ -197,7 +205,6 @@ new
 RtpPacketizerH264
 (
 max_payload_len
-last_packet_reduction_len
 rtp_type_header
 -
 >
@@ -223,7 +230,6 @@ rtp_type_header
 >
 VP8
 max_payload_len
-last_packet_reduction_len
 )
 ;
 case
@@ -243,7 +249,6 @@ rtp_type_header
 >
 VP9
 max_payload_len
-last_packet_reduction_len
 )
 ;
 case
@@ -255,7 +260,6 @@ RtpPacketizerGeneric
 (
 frame_type
 max_payload_len
-last_packet_reduction_len
 )
 ;
 case
@@ -267,7 +271,7 @@ RTC_NOTREACHED
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 RtpDepacketizer
@@ -332,7 +336,7 @@ false
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 }

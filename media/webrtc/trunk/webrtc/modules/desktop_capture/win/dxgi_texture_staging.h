@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MODULES_DESKTOP_CAPTURE_WIN_DXGI_TEXTURE_STAGING_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_WIN_DXGI_TEXTURE_STAGING_H_
 #
 define
-MODULES_DESKTOP_CAPTURE_WIN_DXGI_TEXTURE_STAGING_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_WIN_DXGI_TEXTURE_STAGING_H_
 #
 include
 <
@@ -117,6 +117,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -128,6 +130,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -139,6 +143,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -152,6 +158,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -272,9 +280,12 @@ outlives
 this
 instance
 .
-explicit
 DxgiTextureStaging
 (
+const
+DesktopSize
+&
+desktop_size
 const
 D3dDevice
 &
@@ -287,8 +298,6 @@ DxgiTextureStaging
 )
 override
 ;
-protected
-:
 /
 /
 Copies
@@ -301,7 +310,7 @@ represented
 by
 frame_info
 and
-texture
+resource
 .
 /
 /
@@ -312,15 +321,15 @@ anything
 wrong
 .
 bool
-CopyFromTexture
+CopyFrom
 (
 const
 DXGI_OUTDUPL_FRAME_INFO
 &
 frame_info
-ID3D11Texture2D
+IDXGIResource
 *
-texture
+resource
 )
 override
 ;
@@ -463,4 +472,4 @@ webrtc
 endif
 /
 /
-MODULES_DESKTOP_CAPTURE_WIN_DXGI_TEXTURE_STAGING_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_WIN_DXGI_TEXTURE_STAGING_H_

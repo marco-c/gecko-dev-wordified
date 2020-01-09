@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -116,7 +118,9 @@ max
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -125,7 +129,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 logging
 .
@@ -774,7 +780,7 @@ payload_length_bytes
 4
 )
 {
-RTC_LOG
+LOG
 (
 LS_WARNING
 )
@@ -1091,7 +1097,7 @@ duration
 65535
 )
 {
-RTC_LOG
+LOG
 (
 LS_WARNING
 )

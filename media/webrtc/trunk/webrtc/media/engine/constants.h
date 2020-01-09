@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MEDIA_ENGINE_CONSTANTS_H_
+WEBRTC_MEDIA_ENGINE_CONSTANTS_H_
 #
 define
-MEDIA_ENGINE_CONSTANTS_H_
+WEBRTC_MEDIA_ENGINE_CONSTANTS_H_
 namespace
 cricket
 {
@@ -114,7 +114,7 @@ kH264CodecName
 extern
 const
 int
-kMinVideoBitrateBps
+kMinVideoBitrateKbps
 ;
 }
 /
@@ -125,4 +125,4 @@ cricket
 endif
 /
 /
-MEDIA_ENGINE_CONSTANTS_H_
+WEBRTC_MEDIA_ENGINE_CONSTANTS_H_

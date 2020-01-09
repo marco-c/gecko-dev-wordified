@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MODULES_AUDIO_PROCESSING_TEST_AUDIO_BUFFER_TOOLS_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_TEST_AUDIO_BUFFER_TOOLS_H_
 #
 define
-MODULES_AUDIO_PROCESSING_TEST_AUDIO_BUFFER_TOOLS_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_TEST_AUDIO_BUFFER_TOOLS_H_
 #
 include
 <
@@ -99,7 +99,9 @@ vector
 #
 include
 "
-api
+webrtc
+/
+base
 /
 array_view
 .
@@ -108,6 +110,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -119,6 +123,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -209,4 +215,4 @@ webrtc
 endif
 /
 /
-MODULES_AUDIO_PROCESSING_TEST_AUDIO_BUFFER_TOOLS_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_TEST_AUDIO_BUFFER_TOOLS_H_

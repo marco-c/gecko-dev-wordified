@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-TEST_FIELD_TRIAL_H_
+WEBRTC_TEST_FIELD_TRIAL_H_
 #
 define
-TEST_FIELD_TRIAL_H_
+WEBRTC_TEST_FIELD_TRIAL_H_
 #
 include
 <
@@ -358,4 +358,4 @@ webrtc
 endif
 /
 /
-TEST_FIELD_TRIAL_H_
+WEBRTC_TEST_FIELD_TRIAL_H_

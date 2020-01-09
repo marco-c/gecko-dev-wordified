@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -106,6 +108,8 @@ memory
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -115,6 +119,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 testsupport
@@ -677,6 +683,7 @@ AudioCodingModule
 :
 Create
 (
+0
 )
 )
 ;

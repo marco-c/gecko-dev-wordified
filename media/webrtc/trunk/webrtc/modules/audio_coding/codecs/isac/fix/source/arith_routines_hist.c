@@ -267,7 +267,6 @@ data
 const
 uint16_t
 *
-const
 *
 cdf
 const
@@ -994,7 +993,6 @@ streamData
 const
 uint16_t
 *
-const
 *
 cdf
 const
@@ -1804,7 +1802,6 @@ streamData
 const
 uint16_t
 *
-const
 *
 cdf
 const

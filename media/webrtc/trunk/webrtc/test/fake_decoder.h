@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-TEST_FAKE_DECODER_H_
+WEBRTC_TEST_FAKE_DECODER_H_
 #
 define
-TEST_FAKE_DECODER_H_
+WEBRTC_TEST_FAKE_DECODER_H_
 #
 include
 <
@@ -99,6 +99,8 @@ vector
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -112,6 +114,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -316,4 +320,4 @@ webrtc
 endif
 /
 /
-TEST_FAKE_DECODER_H_
+WEBRTC_TEST_FAKE_DECODER_H_

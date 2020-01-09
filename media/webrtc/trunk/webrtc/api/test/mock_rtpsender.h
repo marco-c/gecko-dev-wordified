@@ -84,10 +84,10 @@ tree
 /
 #
 ifndef
-API_TEST_MOCK_RTPSENDER_H_
+WEBRTC_API_TEST_MOCK_RTPSENDER_H_
 #
 define
-API_TEST_MOCK_RTPSENDER_H_
+WEBRTC_API_TEST_MOCK_RTPSENDER_H_
 #
 include
 <
@@ -101,6 +101,8 @@ vector
 #
 include
 "
+webrtc
+/
 api
 /
 rtpsenderinterface
@@ -110,6 +112,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gmock
@@ -223,20 +227,6 @@ RtpParameters
 )
 )
 ;
-MOCK_CONST_METHOD0
-(
-GetDtmfSender
-rtc
-:
-:
-scoped_refptr
-<
-DtmfSenderInterface
->
-(
-)
-)
-;
 }
 ;
 }
@@ -248,4 +238,4 @@ webrtc
 endif
 /
 /
-API_TEST_MOCK_RTPSENDER_H_
+WEBRTC_API_TEST_MOCK_RTPSENDER_H_

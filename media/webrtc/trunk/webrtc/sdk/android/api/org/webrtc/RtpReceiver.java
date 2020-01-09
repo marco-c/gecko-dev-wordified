@@ -286,9 +286,7 @@ nativeObserver
 0
 ;
 }
-JniCommon
-.
-nativeReleaseRef
+free
 (
 nativeRtpReceiver
 )
@@ -397,6 +395,16 @@ static
 native
 String
 nativeId
+(
+long
+nativeRtpReceiver
+)
+;
+private
+static
+native
+void
+free
 (
 long
 nativeRtpReceiver

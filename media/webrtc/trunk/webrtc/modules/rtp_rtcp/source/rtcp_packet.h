@@ -88,14 +88,16 @@ tree
 /
 #
 ifndef
-MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_H_
 #
 define
-MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_H_
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 basictypes
 .
@@ -104,7 +106,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 buffer
 .
@@ -618,7 +622,7 @@ static
 void
 CreateHeader
 (
-size_t
+uint8_t
 count_or_format
 uint8_t
 packet_type
@@ -689,4 +693,4 @@ webrtc
 endif
 /
 /
-MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_H_

@@ -95,6 +95,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 include
@@ -106,6 +108,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -117,6 +121,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -128,6 +134,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -139,6 +147,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -150,6 +160,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

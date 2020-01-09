@@ -285,7 +285,6 @@ static
 const
 uint16_t
 *
-const
 kOneBitEqualProbCdf_ptr
 [
 1
@@ -12503,7 +12502,6 @@ static
 const
 uint16_t
 *
-const
 kBwCdfPtr
 [
 1

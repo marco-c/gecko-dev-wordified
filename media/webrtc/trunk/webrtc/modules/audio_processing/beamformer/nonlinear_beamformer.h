@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MODULES_AUDIO_PROCESSING_BEAMFORMER_NONLINEAR_BEAMFORMER_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_NONLINEAR_BEAMFORMER_H_
 #
 define
-MODULES_AUDIO_PROCESSING_BEAMFORMER_NONLINEAR_BEAMFORMER_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_NONLINEAR_BEAMFORMER_H_
 /
 /
 MSVC
@@ -110,8 +110,13 @@ get
 M_PI
 .
 #
+ifndef
+_USE_MATH_DEFINES
+#
 define
 _USE_MATH_DEFINES
+#
+endif
 #
 include
 <
@@ -132,6 +137,8 @@ vector
 #
 include
 "
+webrtc
+/
 common_audio
 /
 lapped_transform
@@ -141,6 +148,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 channel_buffer
@@ -150,6 +159,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -163,6 +174,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -1466,4 +1479,4 @@ webrtc
 endif
 /
 /
-MODULES_AUDIO_PROCESSING_BEAMFORMER_NONLINEAR_BEAMFORMER_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_NONLINEAR_BEAMFORMER_H_

@@ -260,6 +260,8 @@ DAMAGE
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_device
@@ -271,10 +273,7 @@ alsasymboltable_linux
 h
 "
 namespace
-webrtc
-{
-namespace
-adm_linux_alsa
+webrtc_adm_linux_alsa
 {
 LATE_BINDING_SYMBOL_TABLE_DEFINE_BEGIN
 (
@@ -311,9 +310,4 @@ AlsaSymbolTable
 /
 /
 namespace
-adm_linux_alsa
-}
-/
-/
-namespace
-webrtc
+webrtc_adm_linux_alsa

@@ -101,6 +101,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_capture
@@ -114,6 +116,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_capture

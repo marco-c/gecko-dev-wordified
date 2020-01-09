@@ -100,6 +100,8 @@ algorithm
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -109,6 +111,8 @@ h
 #
 include
 "
+webrtc
+/
 video
 /
 stream_synchronization

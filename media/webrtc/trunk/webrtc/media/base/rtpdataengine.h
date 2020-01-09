@@ -87,15 +87,10 @@ tree
 /
 #
 ifndef
-MEDIA_BASE_RTPDATAENGINE_H_
+WEBRTC_MEDIA_BASE_RTPDATAENGINE_H_
 #
 define
-MEDIA_BASE_RTPDATAENGINE_H_
-#
-include
-<
-map
->
+WEBRTC_MEDIA_BASE_RTPDATAENGINE_H_
 #
 include
 <
@@ -114,6 +109,8 @@ vector
 #
 include
 "
+webrtc
+/
 media
 /
 base
@@ -125,6 +122,8 @@ h
 #
 include
 "
+webrtc
+/
 media
 /
 base
@@ -136,6 +135,8 @@ h
 #
 include
 "
+webrtc
+/
 media
 /
 base
@@ -346,7 +347,6 @@ DataMediaChannel
 {
 public
 :
-explicit
 RtpDataMediaChannel
 (
 const
@@ -494,6 +494,15 @@ OnReadyToSend
 (
 bool
 ready
+)
+{
+}
+virtual
+void
+OnTransportOverheadChanged
+(
+int
+transport_overhead_per_packet
 )
 {
 }
@@ -647,4 +656,4 @@ cricket
 endif
 /
 /
-MEDIA_BASE_RTPDATAENGINE_H_
+WEBRTC_MEDIA_BASE_RTPDATAENGINE_H_

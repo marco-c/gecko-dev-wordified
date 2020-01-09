@@ -106,7 +106,6 @@ fft
 .
 h
 "
-static
 const
 int16_t
 kSortTabFft
@@ -365,7 +364,6 @@ in
 Q14
 *
 /
-static
 const
 int16_t
 kCosTabFfftQ14

@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -99,6 +101,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -110,6 +114,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -191,6 +197,8 @@ algorithm
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -202,6 +210,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -213,6 +223,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -226,6 +238,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -239,6 +253,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -252,7 +268,11 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+system_wrappers
+/
+include
 /
 logging
 .
@@ -1378,7 +1398,7 @@ status
 0
 )
 {
-RTC_LOG
+LOG
 (
 LS_ERROR
 )

@@ -85,6 +85,8 @@ tree
 #
 include
 "
+webrtc
+/
 common_video
 /
 include
@@ -96,6 +98,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -107,6 +111,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

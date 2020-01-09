@@ -98,10 +98,13 @@ VideoFormat
 .
 #
 ifndef
-MEDIA_BASE_VIDEOCOMMON_H_
+WEBRTC_MEDIA_BASE_VIDEOCOMMON_H_
+/
+/
+NOLINT
 #
 define
-MEDIA_BASE_VIDEOCOMMON_H_
+WEBRTC_MEDIA_BASE_VIDEOCOMMON_H_
 #
 include
 <
@@ -117,7 +120,9 @@ string
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 timeutils
 .
@@ -2512,4 +2517,7 @@ cricket
 endif
 /
 /
-MEDIA_BASE_VIDEOCOMMON_H_
+WEBRTC_MEDIA_BASE_VIDEOCOMMON_H_
+/
+/
+NOLINT

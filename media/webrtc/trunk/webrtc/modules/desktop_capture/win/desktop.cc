@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -106,7 +108,11 @@ vector
 #
 include
 "
-rtc_base
+webrtc
+/
+system_wrappers
+/
+include
 /
 logging
 .
@@ -166,7 +172,7 @@ desktop_
 )
 )
 {
-RTC_LOG
+LOG
 (
 LS_ERROR
 )
@@ -293,7 +299,7 @@ length
 )
 )
 {
-RTC_LOG
+LOG
 (
 LS_ERROR
 )
@@ -418,7 +424,7 @@ desktop_
 )
 )
 {
-RTC_LOG
+LOG
 (
 LS_ERROR
 )
@@ -501,7 +507,7 @@ desktop
 NULL
 )
 {
-RTC_LOG
+LOG
 (
 LS_ERROR
 )
@@ -614,7 +620,7 @@ desktop
 NULL
 )
 {
-RTC_LOG
+LOG
 (
 LS_ERROR
 )

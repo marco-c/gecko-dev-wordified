@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-COMMON_AUDIO_WINDOW_GENERATOR_H_
+WEBRTC_COMMON_AUDIO_WINDOW_GENERATOR_H_
 #
 define
-COMMON_AUDIO_WINDOW_GENERATOR_H_
+WEBRTC_COMMON_AUDIO_WINDOW_GENERATOR_H_
 #
 include
 <
@@ -101,7 +101,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .
@@ -169,4 +171,4 @@ webrtc
 endif
 /
 /
-COMMON_AUDIO_WINDOW_GENERATOR_H_
+WEBRTC_COMMON_AUDIO_WINDOW_GENERATOR_H_

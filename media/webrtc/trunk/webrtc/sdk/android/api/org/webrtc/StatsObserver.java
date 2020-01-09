@@ -121,7 +121,6 @@ ready
 .
 *
 /
-CalledByNative
 public
 void
 onComplete

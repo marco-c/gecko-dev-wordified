@@ -88,6 +88,8 @@ tree
 #
 include
 "
+webrtc
+/
 common_audio
 /
 real_fourier_openmax
@@ -115,7 +117,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .

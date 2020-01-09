@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-MODULES_VIDEO_CODING_UTILITY_MOCK_MOCK_FRAME_DROPPER_H_
+WEBRTC_MODULES_VIDEO_CODING_UTILITY_MOCK_MOCK_FRAME_DROPPER_H_
 #
 define
-MODULES_VIDEO_CODING_UTILITY_MOCK_MOCK_FRAME_DROPPER_H_
+WEBRTC_MODULES_VIDEO_CODING_UTILITY_MOCK_MOCK_FRAME_DROPPER_H_
 #
 include
 <
@@ -99,6 +99,8 @@ string
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -112,6 +114,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gmock
@@ -121,18 +125,12 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
 "
-/
-/
-NOLINT
-(
-build
-/
-include
-)
 namespace
 webrtc
 {
@@ -225,4 +223,4 @@ webrtc
 endif
 /
 /
-MODULES_VIDEO_CODING_UTILITY_MOCK_MOCK_FRAME_DROPPER_H_
+WEBRTC_MODULES_VIDEO_CODING_UTILITY_MOCK_MOCK_FRAME_DROPPER_H_

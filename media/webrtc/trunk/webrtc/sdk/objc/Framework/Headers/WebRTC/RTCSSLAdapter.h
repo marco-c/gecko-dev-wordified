@@ -125,7 +125,7 @@ functions
 in
 webrtc
 /
-rtc_base
+base
 /
 ssladapter
 .

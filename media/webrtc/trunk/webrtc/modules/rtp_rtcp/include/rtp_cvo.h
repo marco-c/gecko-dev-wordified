@@ -87,13 +87,15 @@ tree
 /
 #
 ifndef
-MODULES_RTP_RTCP_INCLUDE_RTP_CVO_H_
+WEBRTC_MODULES_RTP_RTCP_INCLUDE_RTP_CVO_H_
 #
 define
-MODULES_RTP_RTCP_INCLUDE_RTP_CVO_H_
+WEBRTC_MODULES_RTP_RTCP_INCLUDE_RTP_CVO_H_
 #
 include
 "
+webrtc
+/
 api
 /
 video
@@ -105,7 +107,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -317,4 +321,4 @@ webrtc
 endif
 /
 /
-MODULES_RTP_RTCP_INCLUDE_RTP_CVO_H_
+WEBRTC_MODULES_RTP_RTCP_INCLUDE_RTP_CVO_H_
