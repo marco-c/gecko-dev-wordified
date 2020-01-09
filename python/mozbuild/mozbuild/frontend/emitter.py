@@ -10354,22 +10354,6 @@ c
 )
 )
         
-if
-self
-.
-config
-.
-substs
-.
-get
-(
-'
-MOZ_RUST_TESTS
-'
-None
-)
-:
-            
 rust_tests
 =
 context
@@ -10382,11 +10366,11 @@ RUST_TESTS
 [
 ]
 )
-            
+        
 if
 rust_tests
 :
-                
+            
 #
 TODO
 :
@@ -10399,7 +10383,7 @@ declared
 name
 vs
 .
-                
+            
 #
 contents
 of
@@ -10409,7 +10393,7 @@ Cargo
 toml
 file
 .
-                
+            
 features
 =
 context
@@ -10422,7 +10406,7 @@ RUST_TEST_FEATURES
 [
 ]
 )
-                
+            
 yield
 RustTests
 (
