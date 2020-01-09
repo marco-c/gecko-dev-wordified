@@ -202,6 +202,14 @@ onmessage
 {
 }
 ;
+this
+.
+transport
+.
+ready
+(
+)
+;
 }
 send
 (
