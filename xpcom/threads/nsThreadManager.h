@@ -546,6 +546,12 @@ ResumeInputEventPrioritization
 (
 )
 ;
+static
+bool
+MainThreadHasPendingHighPriorityEvents
+(
+)
+;
 private
 :
 nsThreadManager

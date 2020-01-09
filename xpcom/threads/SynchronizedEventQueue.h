@@ -439,6 +439,14 @@ HasPendingEvent
 =
 0
 ;
+virtual
+bool
+HasPendingHighPriorityEvents
+(
+)
+=
+0
+;
 /
 /
 This

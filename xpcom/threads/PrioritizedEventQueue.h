@@ -490,6 +490,16 @@ aProofOfLock
 )
 final
 ;
+bool
+HasPendingHighPriorityEvents
+(
+const
+MutexAutoLock
+&
+aProofOfLock
+)
+final
+;
 /
 /
 When
