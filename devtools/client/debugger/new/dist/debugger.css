@@ -19015,6 +19015,16 @@ none
 ;
 }
 .
+debugger
+:
+not
+(
+.
+can
+-
+rewind
+)
+.
 highlight
 -
 line
