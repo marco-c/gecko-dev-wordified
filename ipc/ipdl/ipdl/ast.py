@@ -1835,6 +1835,14 @@ bool
         
 self
 .
+maybe
+=
+False
+#
+bool
+        
+self
+.
 nullable
 =
 False

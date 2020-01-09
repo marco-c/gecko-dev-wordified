@@ -1094,6 +1094,7 @@ literals
 >
 ;
 :
+?
 '
 t_ignore
 =
@@ -4775,6 +4776,12 @@ CxxID
 '
                  
 |
+CxxID
+'
+?
+'
+                 
+|
 CxxUniquePtrInst
 "
 "
@@ -4928,6 +4935,25 @@ p
 ]
 .
 array
+=
+True
+    
+if
+3
+=
+=
+len
+(
+p
+)
+:
+        
+p
+[
+1
+]
+.
+maybe
 =
 True
     
