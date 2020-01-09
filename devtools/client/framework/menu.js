@@ -748,7 +748,7 @@ setAttribute
 consumeoutsideclicks
 "
 "
-true
+false
 "
 )
 ;
