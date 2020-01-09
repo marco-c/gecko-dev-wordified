@@ -506,14 +506,14 @@ void
 context
 const
 ClientInfo
-*
+&
 client_info
 const
 std
 :
 :
 wstring
-*
+&
 file_path
 )
 ;
@@ -529,7 +529,7 @@ void
 context
 const
 ClientInfo
-*
+&
 client_info
 )
 ;
