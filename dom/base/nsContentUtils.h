@@ -686,9 +686,6 @@ class
 HTMLEditor
 ;
 class
-PresShell
-;
-class
 TextEditor
 ;
 namespace
@@ -5391,10 +5388,7 @@ nullptr
 *
 /
 static
-mozilla
-:
-:
-PresShell
+nsIPresShell
 *
 GetPresShellForContent
 (

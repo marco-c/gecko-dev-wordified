@@ -258,15 +258,6 @@ include
 "
 mozilla
 /
-PresShell
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoStyleSetInlines
 .
 h
@@ -318,13 +309,6 @@ h
 include
 "
 nsPresContext
-.
-h
-"
-#
-include
-"
-nsPresContextInlines
 .
 h
 "
@@ -3922,7 +3906,7 @@ OwnerDoc
 )
 -
 >
-GetPresShell
+GetShell
 (
 )
 ;
@@ -64962,7 +64946,7 @@ result
 doc
 -
 >
-GetPresShell
+GetShell
 (
 )
 ;

@@ -178,13 +178,6 @@ h
 #
 include
 "
-nsPresContextInlines
-.
-h
-"
-#
-include
-"
 nsCSSAnonBoxes
 .
 h

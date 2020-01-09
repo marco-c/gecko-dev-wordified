@@ -428,14 +428,14 @@ doc
 )
 )
 {
-PresShell
+nsIPresShell
 *
 presShell
 =
 doc
 -
 >
-GetPresShell
+GetShell
 (
 )
 ;

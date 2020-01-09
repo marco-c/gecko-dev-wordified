@@ -279,15 +279,6 @@ include
 "
 mozilla
 /
-PresShell
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ResultExtensions
 .
 h
@@ -47306,7 +47297,7 @@ sibling
 sibling
 -
 >
-GetPresShell
+GetShell
 (
 )
 &
@@ -47314,7 +47305,7 @@ GetPresShell
 sibling
 -
 >
-GetPresShell
+GetShell
 (
 )
 -
@@ -47329,7 +47320,7 @@ rootViewSibling
 sibling
 -
 >
-GetPresShell
+GetShell
 (
 )
 -

@@ -174,15 +174,6 @@ include
 "
 mozilla
 /
-PresShell
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Document
@@ -192,11 +183,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-DocumentInlines
+nsIPresShell
 .
 h
 "
@@ -757,7 +744,7 @@ mDocument
 mDocument
 -
 >
-GetPresShell
+GetShell
 (
 )
 )

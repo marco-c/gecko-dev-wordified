@@ -218,17 +218,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-DocumentInlines
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

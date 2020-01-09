@@ -1366,8 +1366,6 @@ as_ref
 )
 ?
 .
-_base
-.
 mPresContext
 .
 mRawPtr
