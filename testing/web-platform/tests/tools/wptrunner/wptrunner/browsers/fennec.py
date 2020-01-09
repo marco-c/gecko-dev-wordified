@@ -230,10 +230,14 @@ content_response_timeout
 #
 Enable
 output
-of
+for
 dump
 (
 )
+and
+chrome
+console
+API
         
 "
 browser
@@ -245,6 +249,18 @@ window
 dump
 .
 enabled
+"
+:
+True
+        
+"
+devtools
+.
+console
+.
+stdout
+.
+chrome
 "
 :
 True
