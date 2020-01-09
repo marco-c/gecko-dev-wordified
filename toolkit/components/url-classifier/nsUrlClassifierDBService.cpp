@@ -10531,9 +10531,14 @@ nsIUrlClassifierUtils
 >
 utilsService
 =
-do_GetService
+components
+:
+:
+UrlClassifierUtils
+:
+:
+Service
 (
-NS_URLCLASSIFIERUTILS_CONTRACTID
 )
 ;
 rv
