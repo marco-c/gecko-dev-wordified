@@ -1376,6 +1376,10 @@ mHasBeenEditable
 (
 false
 )
+mIsPlainText
+(
+false
+)
 {
 mType
 =
@@ -3143,8 +3147,7 @@ APPLICATION_WAPXHTML_XML
 )
 )
 ;
-bool
-plainText
+mIsPlainText
 =
 !
 html
@@ -3172,7 +3175,7 @@ html
 xhtml
 |
 |
-plainText
+mIsPlainText
 |
 |
 viewSource
@@ -3199,7 +3202,7 @@ NS_ERROR_INVALID_ARG
 bool
 forceUtf8
 =
-plainText
+mIsPlainText
 &
 &
 nsContentUtils
@@ -3512,7 +3515,7 @@ NewHtml5Parser
 ;
 if
 (
-plainText
+mIsPlainText
 )
 {
 if
@@ -4557,7 +4560,7 @@ htmlsink
 }
 if
 (
-plainText
+mIsPlainText
 &
 &
 !
