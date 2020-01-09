@@ -803,13 +803,17 @@ return
 mContext
 =
 context
+.
+getApplicationContext
+(
+)
 ;
 initialize
 (
 )
 ;
 }
-private
+public
 boolean
 isAttachedToContext
 (
@@ -1877,7 +1881,7 @@ d
 (
 LOGTAG
 "
-HandleAction
+handleAction
 action
 =
 "
