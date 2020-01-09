@@ -126,10 +126,9 @@ false
 }
 position
 =
-{
 "
+start
 "
-}
 /
 >
 )
@@ -366,7 +365,7 @@ const
 position
 =
 "
-testPosition
+end
 "
 ;
 const
