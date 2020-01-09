@@ -481,13 +481,6 @@ nsIntMargin
 aExtra
 )
 ;
-bool
-IsWidgetVisible
-(
-StyleAppearance
-aAppearance
-)
-;
 void
 RefreshWidgetWindow
 (
