@@ -1094,9 +1094,14 @@ INVALID_HANDLE_VALUE
 return
 ;
 }
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 BOOL
 activated
 =
+#
+endif
 :
 :
 ActivateActCtx
