@@ -315,6 +315,10 @@ column
 -
 gap
 :
+calc
+(
+4
+*
 var
 (
 -
@@ -322,6 +326,7 @@ var
 base
 -
 distance
+)
 )
 ;
 }
