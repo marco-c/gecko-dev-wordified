@@ -2717,13 +2717,6 @@ const
 packet
 =
 await
-new
-Promise
-(
-resolve
-=
->
-{
 toolbox
 .
 target
@@ -2733,10 +2726,6 @@ activeConsole
 evaluateJS
 (
 code
-resolve
-)
-;
-}
 )
 ;
 stubs

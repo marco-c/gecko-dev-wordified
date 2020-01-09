@@ -3882,7 +3882,6 @@ webConsoleClient
 evaluateJSAsync
 (
 str
-null
 {
 frameActor
 :
@@ -3997,7 +3996,6 @@ copy
 evalString
 }
 )
-null
 evalOptions
 )
 ;
