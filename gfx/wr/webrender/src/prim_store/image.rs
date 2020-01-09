@@ -109,7 +109,6 @@ gpu_cache
 :
 :
 {
-GpuCacheHandle
 GpuDataRequest
 }
 ;
@@ -213,10 +212,6 @@ pub
 tile_offset
 :
 TileOffset
-pub
-handle
-:
-GpuCacheHandle
 pub
 edge_flags
 :
