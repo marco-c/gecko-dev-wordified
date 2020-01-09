@@ -1163,6 +1163,8 @@ AddToOffer
 SsrcGenerator
 &
 ssrcGenerator
+bool
+encodeTrackId
 SdpMediaSection
 *
 offer
@@ -1179,6 +1181,8 @@ offer
 SsrcGenerator
 &
 ssrcGenerator
+bool
+encodeTrackId
 SdpMediaSection
 *
 answer
@@ -1521,6 +1525,8 @@ JsepCodecDescription
 >
 &
 codecs
+bool
+encodeTrackId
 SdpMediaSection
 *
 msection

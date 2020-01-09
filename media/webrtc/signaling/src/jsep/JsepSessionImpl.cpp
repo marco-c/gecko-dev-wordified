@@ -625,6 +625,25 @@ compare
 false
 )
 ;
+mEncodeTrackId
+=
+Preferences
+:
+:
+GetBool
+(
+"
+media
+.
+peerconnection
+.
+sdp
+.
+encode_track_id
+"
+true
+)
+;
 mIceUfrag
 =
 GetRandomHex
@@ -1677,6 +1696,7 @@ mSendTrack
 AddToOffer
 (
 mSsrcGenerator
+mEncodeTrackId
 msection
 )
 ;
@@ -1687,6 +1707,7 @@ mRecvTrack
 AddToOffer
 (
 mSsrcGenerator
+mEncodeTrackId
 msection
 )
 ;
@@ -3935,6 +3956,7 @@ AddToAnswer
 (
 remoteMsection
 mSsrcGenerator
+mEncodeTrackId
 &
 msection
 )
@@ -3947,6 +3969,7 @@ AddToAnswer
 (
 remoteMsection
 mSsrcGenerator
+mEncodeTrackId
 &
 msection
 )
