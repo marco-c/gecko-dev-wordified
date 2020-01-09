@@ -855,6 +855,25 @@ windows
 )
     
 '
+test
+-
+provisioner
+/
+bitbar
+'
+:
+(
+'
+generic
+-
+worker
+'
+'
+windows
+'
+)
+    
+'
 aws
 -
 provisioner
