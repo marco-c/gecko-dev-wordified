@@ -745,7 +745,7 @@ lazy_static
 {
 static
 ref
-func
+FUNC
 :
 unsafe
 extern
@@ -824,7 +824,7 @@ unimpl_func
 }
 (
 *
-func
+FUNC
 )
 (
 (
