@@ -3252,14 +3252,6 @@ uri
 "
 )
 type
-message
-.
-getString
-(
-"
-access
-"
-)
 new
 PermissionCallback
 (
@@ -20423,12 +20415,6 @@ PERMISSION_DESKTOP_NOTIFICATION
 PERMISSION_AUTOPLAY_MEDIA
 *
 param
-access
-Not
-used
-.
-*
-param
 callback
 Callback
 interface
@@ -20445,8 +20431,6 @@ uri
 Permission
 int
 type
-String
-access
 Callback
 callback
 )

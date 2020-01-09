@@ -3161,12 +3161,6 @@ desktop
 notification
 "
 )
-NS_LITERAL_CSTRING
-(
-"
-unused
-"
-)
 emptyOptions
 aTypes
 )

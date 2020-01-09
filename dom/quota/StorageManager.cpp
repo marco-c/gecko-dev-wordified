@@ -3706,12 +3706,6 @@ persistent
 storage
 "
 )
-NS_LITERAL_CSTRING
-(
-"
-unused
-"
-)
 emptyOptions
 aTypes
 )
