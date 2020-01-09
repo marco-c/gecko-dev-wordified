@@ -196,7 +196,11 @@ options
 resolveAtNextTick
 )
 {
-setTimeout
+Services
+.
+tm
+.
+dispatchToMainThread
 (
 (
 )
@@ -206,7 +210,6 @@ resolve
 (
 event
 )
-0
 )
 ;
 }
