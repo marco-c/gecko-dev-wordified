@@ -2879,6 +2879,12 @@ self
 )
 :
         
+import
+mozdevice
+        
+try
+:
+            
 out
 =
 self
@@ -2896,7 +2902,7 @@ timeout
 =
 30
 )
-        
+            
 if
 out
 .
@@ -2909,9 +2915,23 @@ strip
 1
 '
 :
-            
+                
 return
 True
+        
+except
+ValueError
+:
+            
+pass
+        
+except
+mozdevice
+.
+ADBError
+:
+            
+pass
         
 return
 False
