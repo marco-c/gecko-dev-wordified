@@ -102,6 +102,7 @@ AuHelpers
 LayoutPoint
 RepeatMode
 TexelRect
+LayoutVector2D
 }
 ;
 use
@@ -1389,6 +1390,9 @@ LayoutSideOffsets
 clip_and_scroll
 :
 ScrollNodeAndClipChain
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 {
 let
@@ -1441,6 +1445,7 @@ to_au
 (
 )
 }
+reference_frame_relative_offset
 )
 ;
 }
