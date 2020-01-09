@@ -1497,7 +1497,7 @@ case
 ParseNodeKind
 :
 :
-Colon
+PropertyDefinition
 :
 case
 ParseNodeKind
@@ -1512,7 +1512,7 @@ the
 ParseNodeKind
 :
 :
-Colon
+PropertyDefinition
 /
 Shorthand
 but
@@ -1532,8 +1532,6 @@ not
 flagged
 as
 a
-/
-/
 contributor
 .
 pos
@@ -2033,7 +2031,7 @@ isKind
 ParseNodeKind
 :
 :
-Colon
+PropertyDefinition
 )
 |
 |

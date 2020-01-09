@@ -27978,7 +27978,7 @@ isKind
 ParseNodeKind
 :
 :
-Colon
+PropertyDefinition
 )
 |
 |
