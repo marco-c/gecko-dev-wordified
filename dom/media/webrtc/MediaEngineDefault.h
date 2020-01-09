@@ -233,6 +233,13 @@ GetUUID
 const
 override
 ;
+nsString
+GetGroupId
+(
+)
+const
+override
+;
 nsresult
 Allocate
 (
@@ -601,6 +608,13 @@ override
 ;
 nsCString
 GetUUID
+(
+)
+const
+override
+;
+nsString
+GetGroupId
 (
 )
 const
