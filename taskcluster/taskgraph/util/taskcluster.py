@@ -223,6 +223,9 @@ def
 _do_request
 (
 url
+force_get
+=
+False
 *
 *
 kwargs
@@ -237,6 +240,9 @@ get_session
     
 if
 kwargs
+and
+not
+force_get
 :
         
 response
@@ -2197,6 +2203,9 @@ resp
 _do_request
 (
 url
+force_get
+=
+True
 params
 =
 params
