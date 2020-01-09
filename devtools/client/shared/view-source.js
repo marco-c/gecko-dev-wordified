@@ -195,6 +195,7 @@ function
 toolbox
 sourceURL
 sourceLine
+sourceColumn
 )
 {
 const
@@ -219,6 +220,7 @@ selectStyleSheet
 (
 sourceURL
 sourceLine
+sourceColumn
 )
 ;
 await
