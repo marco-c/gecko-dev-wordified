@@ -6781,6 +6781,12 @@ HandleObject
 parent
 HandleScope
 newScope
+Handle
+<
+ScriptSourceObject
+*
+>
+sourceObject
 gc
 :
 :
