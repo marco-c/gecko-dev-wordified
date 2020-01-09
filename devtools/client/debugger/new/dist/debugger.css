@@ -3824,6 +3824,12 @@ cursor
 :
 default
 ;
+user
+-
+select
+:
+none
+;
 }
 .
 shortcuts
