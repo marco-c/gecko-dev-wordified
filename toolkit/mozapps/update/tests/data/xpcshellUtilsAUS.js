@@ -11488,7 +11488,7 @@ update
 status
 when
 the
-test
+update
 finishes
 .
 For
@@ -11723,6 +11723,8 @@ aInstallDirPath
 aApplyToDirPath
 |
 |
+!
+!
 aCallbackPath
 ;
 let
@@ -12428,11 +12430,6 @@ string
 ;
 }
 }
-executeSoon
-(
-runUpdateFinished
-)
-;
 }
 /
 *
