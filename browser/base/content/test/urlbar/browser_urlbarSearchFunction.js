@@ -793,6 +793,8 @@ gURLBar
 popup
 .
 oneOffSearchButtons
+.
+container
 )
 .
 display
