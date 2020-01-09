@@ -16467,9 +16467,6 @@ case
 JSOP_EXCEPTION
 :
 case
-JSOP_THROWING
-:
-case
 JSOP_ISGENCLOSING
 :
 case
@@ -16569,6 +16566,9 @@ implemented
 .
 break
 ;
+case
+JSOP_UNUSED151
+:
 case
 JSOP_UNUSED206
 :
