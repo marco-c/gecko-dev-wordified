@@ -57218,7 +57218,7 @@ GetParent
 ;
 if
 (
-aFrame
+inFlowFrame
 -
 >
 HasAnyStateBits
@@ -57273,7 +57273,7 @@ span
 -
 wrapper
 .
-aFrame
+inFlowFrame
 -
 >
 IsColumnSpan
@@ -57343,7 +57343,7 @@ CreateColumnSpanSiblings
 (
 )
 .
-aFrame
+inFlowFrame
 -
 >
 GetProperty
@@ -57506,7 +57506,7 @@ across
 columns
 )
 !
-aFrame
+inFlowFrame
 -
 >
 GetPrevSibling
@@ -57515,7 +57515,7 @@ GetPrevSibling
 &
 &
 !
-aFrame
+inFlowFrame
 -
 >
 GetNextSibling
@@ -57585,7 +57585,7 @@ containingBlock
 =
 GetMultiColumnContainingBlockFor
 (
-aFrame
+inFlowFrame
 )
 ;
 #
@@ -57595,7 +57595,7 @@ if
 (
 IsFramePartOfIBSplit
 (
-aFrame
+inFlowFrame
 )
 )
 {
@@ -57605,7 +57605,7 @@ ibContainingBlock
 =
 GetIBContainingBlockFor
 (
-aFrame
+inFlowFrame
 )
 ;
 MOZ_ASSERT
