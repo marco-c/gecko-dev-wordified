@@ -203,9 +203,7 @@ cranelift_codegen
 entity
 :
 :
-{
 EntityMap
-}
 ;
 use
 cranelift_codegen

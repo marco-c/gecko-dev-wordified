@@ -217,6 +217,12 @@ use
 std
 :
 :
+error
+;
+use
+std
+:
+:
 mem
 ;
 use
@@ -229,12 +235,6 @@ str
 FromStr
 ;
 use
-std
-:
-:
-error
-;
-use
 target_lexicon
 ;
 use
@@ -242,8 +242,8 @@ utils
 :
 :
 {
-DashResult
 BasicError
+DashResult
 }
 ;
 use
