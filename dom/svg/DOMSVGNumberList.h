@@ -173,6 +173,15 @@ ErrorResult
 .
 h
 "
+#
+include
+"
+mozilla
+/
+RefPtr
+.
+h
+"
 namespace
 mozilla
 {

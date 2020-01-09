@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 SVGElement
 .
 h

@@ -135,7 +135,9 @@ h
 #
 include
 "
-nsCOMPtr
+mozilla
+/
+AlreadyAddRefed
 .
 h
 "
