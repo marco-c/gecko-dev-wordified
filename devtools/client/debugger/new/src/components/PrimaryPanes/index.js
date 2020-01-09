@@ -115,6 +115,7 @@ import
 {
 getRelativeSources
 getActiveSearch
+getProjectDirectoryRoot
 getSelectedPrimaryPaneTab
 getThreads
 }
@@ -280,6 +281,9 @@ SourcesMapByThread
 horizontal
 :
 boolean
+projectRoot
+:
+string
 sourceSearchOn
 :
 boolean
@@ -638,6 +642,7 @@ render
 const
 {
 selectedTab
+projectRoot
 }
 =
 this
@@ -710,6 +715,9 @@ TabList
 TabPanels
 className
 =
+{
+classnames
+(
 "
 source
 -
@@ -717,6 +725,17 @@ outline
 -
 panel
 "
+{
+"
+has
+-
+root
+"
+:
+projectRoot
+}
+)
+}
 hasFocusableContent
 >
 <
@@ -800,6 +819,12 @@ source
 threads
 :
 getThreads
+(
+state
+)
+projectRoot
+:
+getProjectDirectoryRoot
 (
 state
 )
