@@ -207,7 +207,7 @@ include
 "
 mozilla
 /
-Mutex
+DataMutex
 .
 h
 "
@@ -1848,9 +1848,8 @@ false
 ;
 }
 ;
-Mutex
-mFrameCountMapLock
-;
+DataMutex
+<
 std
 :
 :
@@ -1859,6 +1858,7 @@ unordered_map
 uint64_t
 WindowInfo
 *
+>
 >
 mWindowInfos
 ;
