@@ -1235,18 +1235,6 @@ true
 "
 )
 ;
-if
-(
-!
-this
-.
-ui
-.
-promptContainer
-.
-hidden
-)
-{
 /
 /
 For
@@ -1295,7 +1283,6 @@ setDefaultFocus
 true
 )
 ;
-}
 if
 (
 this
