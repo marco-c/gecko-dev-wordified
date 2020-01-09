@@ -135,7 +135,14 @@ path
 ;
 if
 (
-IS_WIN
+AppConstants
+.
+platform
+=
+=
+"
+win
+"
 )
 {
 path
