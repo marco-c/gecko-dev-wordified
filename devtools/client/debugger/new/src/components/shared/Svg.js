@@ -74,8 +74,6 @@ React
 Components
 in
 the
-assets
-/
 images
 directory
 .
