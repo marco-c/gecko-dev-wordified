@@ -1055,6 +1055,17 @@ DEFAULT_COLOR
 ;
 }
 get
+container
+(
+)
+{
+return
+this
+.
+currentNode
+;
+}
+get
 ctx
 (
 )
@@ -1725,7 +1736,7 @@ getComputedStyle
 (
 this
 .
-currentNode
+container
 )
 ;
 }
@@ -1734,7 +1745,7 @@ flex
 =
 this
 .
-currentNode
+container
 .
 getAsFlexContainer
 (
@@ -1831,7 +1842,7 @@ getFlexData
 (
 this
 .
-currentNode
+container
 )
 ;
 const
@@ -2913,7 +2924,7 @@ getUntransformedQuad
 (
 this
 .
-currentNode
+container
 "
 content
 "
@@ -3316,7 +3327,7 @@ getUntransformedQuad
 (
 this
 .
-currentNode
+container
 "
 content
 "
@@ -3886,7 +3897,7 @@ getUntransformedQuad
 (
 this
 .
-currentNode
+container
 "
 content
 "
@@ -4707,7 +4718,7 @@ getComputedStyle
 (
 this
 .
-currentNode
+container
 )
 ;
 const
@@ -4745,7 +4756,7 @@ offsetX
 =
 this
 .
-currentNode
+container
 .
 scrollLeft
 /
@@ -4756,7 +4767,7 @@ offsetY
 =
 this
 .
-currentNode
+container
 .
 scrollTop
 /
@@ -4808,7 +4819,7 @@ getAbsoluteScrollOffsetsForNode
 (
 this
 .
-currentNode
+container
 )
 ;
 offsetX
@@ -5076,7 +5087,7 @@ getCurrentMatrix
 (
 this
 .
-currentNode
+container
 this
 .
 win
