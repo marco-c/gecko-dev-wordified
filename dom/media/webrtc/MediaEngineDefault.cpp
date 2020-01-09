@@ -963,7 +963,7 @@ mYChannel
 )
 ;
 }
-nsresult
+void
 MediaEngineDefaultVideoSource
 :
 :
@@ -1049,9 +1049,6 @@ SourceMediaStream
 :
 ADDTRACK_QUEUED
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
@@ -2333,7 +2330,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 MediaEngineDefaultAudioSource
 :
 :
@@ -2425,9 +2422,6 @@ SourceMediaStream
 :
 ADDTRACK_QUEUED
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

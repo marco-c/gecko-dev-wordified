@@ -854,7 +854,7 @@ AllocationHandle
 *
 /
 virtual
-nsresult
+void
 SetTrack
 (
 const

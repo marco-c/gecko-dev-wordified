@@ -6125,7 +6125,7 @@ aOutBadConstraint
 )
 ;
 }
-nsresult
+void
 MediaDevice
 :
 :
@@ -6161,7 +6161,6 @@ MOZ_ASSERT
 mSource
 )
 ;
-return
 mSource
 -
 >
@@ -26656,9 +26655,6 @@ if
 audioDevice
 )
 {
-nsresult
-rv
-=
 audioDevice
 -
 >
@@ -26669,14 +26665,7 @@ kAudioTrack
 principal
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
+nsresult
 rv
 =
 audioDevice
@@ -26686,7 +26675,6 @@ Start
 (
 )
 ;
-}
 if
 (
 NS_FAILED
@@ -26784,9 +26772,6 @@ if
 videoDevice
 )
 {
-nsresult
-rv
-=
 videoDevice
 -
 >
@@ -26797,14 +26782,7 @@ kVideoTrack
 principal
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
+nsresult
 rv
 =
 videoDevice
@@ -26814,7 +26792,6 @@ Start
 (
 )
 ;
-}
 if
 (
 NS_FAILED
