@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 React
 from
@@ -181,6 +184,15 @@ jest
 fn
 (
 )
+disableContextMenu
+:
+false
+displayFullUrl
+:
+false
+selectable
+:
+true
 }
 ;
 const

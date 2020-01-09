@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 React
 from
@@ -404,6 +407,9 @@ createMockEditor
 (
 )
 ;
+/
+/
+FlowIgnore
 const
 component
 =

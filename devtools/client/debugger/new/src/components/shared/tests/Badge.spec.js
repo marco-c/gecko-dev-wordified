@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 React
 from
@@ -110,14 +113,9 @@ shallow
 <
 Badge
 >
-<
-p
->
+{
 3
-<
-/
-p
->
+}
 <
 /
 Badge

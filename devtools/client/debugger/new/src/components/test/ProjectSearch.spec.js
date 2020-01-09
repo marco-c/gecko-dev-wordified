@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 React
 from
@@ -513,6 +516,13 @@ jest
 fn
 (
 )
+setActiveSearch
+:
+jest
+.
+fn
+(
+)
 .
 .
 .
@@ -618,7 +628,8 @@ render
 {
 activeSearch
 :
-null
+"
+"
 }
 )
 ;

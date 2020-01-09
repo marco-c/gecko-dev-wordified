@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 React
 from
@@ -272,7 +275,9 @@ i
 )
 {
 return
+{
 i
+}
 ;
 }
 return

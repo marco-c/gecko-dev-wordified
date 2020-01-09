@@ -75,6 +75,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 React
 from
@@ -317,6 +320,9 @@ id
 doc
 )
 ;
+/
+/
+FlowIgnore
 const
 component
 =
@@ -480,6 +486,9 @@ toEqual
 [
 toEditorLine
 (
+"
+foo
+"
 line
 )
 "
@@ -639,6 +648,9 @@ toEqual
 [
 toEditorLine
 (
+"
+foo
+"
 firstLine
 )
 "
@@ -672,6 +684,9 @@ toEqual
 [
 toEditorLine
 (
+"
+foo
+"
 firstLine
 )
 "
@@ -688,6 +703,9 @@ line
 [
 toEditorLine
 (
+"
+foo
+"
 secondLine
 )
 "
@@ -727,6 +745,9 @@ line
 :
 toEditorLine
 (
+"
+foo
+"
 firstLine
 )
 }
@@ -738,6 +759,9 @@ line
 :
 toEditorLine
 (
+"
+foo
+"
 firstLine
 )
 }
@@ -760,6 +784,9 @@ line
 :
 toEditorLine
 (
+"
+foo
+"
 secondLine
 )
 }
@@ -771,6 +798,9 @@ line
 :
 toEditorLine
 (
+"
+foo
+"
 secondLine
 )
 }

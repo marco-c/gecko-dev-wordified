@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 React
 from
@@ -182,6 +185,9 @@ defaultProps
 overrides
 }
 ;
+/
+/
+FlowIgnore
 const
 component
 =
@@ -769,6 +775,9 @@ component
 =
 mount
 (
+/
+/
+FlowIgnore
 <
 Frames
 .
@@ -1224,7 +1233,9 @@ const
 sources
 =
 {
+"
 1
+"
 :
 {
 id
@@ -1233,7 +1244,9 @@ id
 1
 "
 }
+"
 2
+"
 :
 {
 id

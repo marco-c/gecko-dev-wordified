@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 React
 from
@@ -116,6 +119,9 @@ utils
 editor
 "
 ;
+/
+/
+FlowIgnore
 const
 SearchBarComponent
 =

@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 React
 from
@@ -93,6 +96,9 @@ from
 immutable
 "
 ;
+/
+/
+FlowIgnore
 const
 BreakpointsComponent
 =

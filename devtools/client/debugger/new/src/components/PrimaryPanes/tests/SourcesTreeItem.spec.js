@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 React
 from
@@ -213,7 +216,11 @@ afterEach
 =
 >
 {
+(
 copyToTheClipboard
+:
+any
+)
 .
 mockClear
 (
@@ -1769,9 +1776,7 @@ async
 >
 {
 const
-{
 node
-}
 =
 render
 (
@@ -2149,6 +2154,9 @@ generateDefaults
 overrides
 )
 ;
+/
+/
+FlowIgnore
 const
 component
 =
@@ -2238,9 +2246,14 @@ overrides
 )
 {
 overrides
-.
-contents
 =
+{
+.
+.
+.
+overrides
+contents
+:
 createSource
 (
 {
@@ -2269,6 +2282,7 @@ contents
 )
 }
 )
+}
 ;
 return
 {

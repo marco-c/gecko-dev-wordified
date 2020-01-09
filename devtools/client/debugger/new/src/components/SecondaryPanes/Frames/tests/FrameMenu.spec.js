@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 import
 FrameMenu
 from
@@ -216,6 +219,8 @@ FrameMenu
 {
 let
 mockEvent
+:
+any
 ;
 let
 mockFrame
