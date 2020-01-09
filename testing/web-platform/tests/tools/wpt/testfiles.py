@@ -2252,14 +2252,11 @@ file_contents
 )
 :
                         
-affected_testfiles
-.
-add
-(
-test_full_path
-)
-                        
-break
+return
+True
+        
+return
+False
     
 for
 root
