@@ -26,9 +26,9 @@ spec_validator
 import
 argparse
 def
-expand_test_expansion_pattern
+expand_pattern
 (
-spec_test_expansion
+expansion_pattern
 test_expansion_schema
 )
 :
@@ -39,16 +39,16 @@ expansion
 }
     
 for
-artifact
+artifact_key
 in
-spec_test_expansion
+expansion_pattern
 :
         
 artifact_value
 =
-spec_test_expansion
+expansion_pattern
 [
-artifact
+artifact_key
 ]
         
 if
@@ -62,12 +62,12 @@ artifact_value
             
 expansion
 [
-artifact
+artifact_key
 ]
 =
 test_expansion_schema
 [
-artifact
+artifact_key
 ]
         
 elif
@@ -80,17 +80,71 @@ list
             
 expansion
 [
-artifact
+artifact_key
 ]
 =
 artifact_value
+        
+elif
+isinstance
+(
+artifact_value
+dict
+)
+:
+            
+#
+Flattened
+expansion
+.
+            
+expansion
+[
+artifact_key
+]
+=
+[
+]
+            
+values_dict
+=
+expand_pattern
+(
+artifact_value
+                                         
+test_expansion_schema
+[
+artifact_key
+]
+)
+            
+for
+sub_key
+in
+values_dict
+.
+keys
+(
+)
+:
+                
+expansion
+[
+artifact_key
+]
++
+=
+values_dict
+[
+sub_key
+]
         
 else
 :
             
 expansion
 [
-artifact
+artifact_key
 ]
 =
 [
@@ -103,6 +157,7 @@ def
 permute_expansion
 (
 expansion
+artifact_order
 selection
 =
 {
@@ -113,36 +168,19 @@ artifact_index
 )
 :
     
+assert
+isinstance
+(
 artifact_order
-=
-[
-'
-delivery_method
-'
-'
-redirection
-'
-'
-origin
-'
-                      
-'
-source_protocol
-'
-'
-target_protocol
-'
-'
-subresource
-'
-                      
-'
-referrer_url
-'
-'
-name
-'
-]
+list
+)
+"
+artifact_order
+should
+be
+a
+list
+"
     
 if
 artifact_index
@@ -188,6 +226,8 @@ in
 permute_expansion
 (
 expansion
+                                                
+artifact_order
                                                 
 selection
                                                 
@@ -901,22 +941,18 @@ meta_delivery_method
 '
 ]
     
-with
-open
+#
+Write
+out
+the
+generated
+HTML
+file
+.
+    
+write_file
 (
 test_filename
-'
-w
-'
-)
-as
-f
-:
-        
-f
-.
-write
-(
 test_html_template
 %
 selection
@@ -960,24 +996,11 @@ template
 '
 )
     
-with
-open
+write_file
 (
 generated_spec_json_filename
-'
-w
-'
-)
-as
-f
-:
-        
-f
-.
-write
-(
+               
 spec_json_js_template
-                
 %
 {
 '
@@ -1021,6 +1044,29 @@ template
 %
 target
     
+artifact_order
+=
+test_expansion_schema
+.
+keys
+(
+)
++
+[
+'
+name
+'
+]
+    
+artifact_order
+.
+remove
+(
+'
+expansion
+'
+)
+    
 #
 Create
 list
@@ -1049,10 +1095,9 @@ excluded_expansion
 =
 \
             
-expand_test_expansion_pattern
+expand_pattern
 (
 excluded_pattern
-                                          
 test_expansion_schema
 )
         
@@ -1062,6 +1107,8 @@ in
 permute_expansion
 (
 excluded_expansion
+                                                    
+artifact_order
 )
 :
             
@@ -1114,7 +1161,7 @@ output_dict
 }
         
 for
-spec_test_expansion
+expansion_pattern
 in
 spec
 [
@@ -1126,10 +1173,9 @@ test_expansion
             
 expansion
 =
-expand_test_expansion_pattern
+expand_pattern
 (
-spec_test_expansion
-                                                      
+expansion_pattern
 test_expansion_schema
 )
             
@@ -1139,6 +1185,7 @@ in
 permute_expansion
 (
 expansion
+artifact_order
 )
 :
                 
@@ -1162,7 +1209,7 @@ output_dict
 :
                         
 if
-spec_test_expansion
+expansion_pattern
 [
 '
 expansion
@@ -1279,17 +1326,18 @@ subresource
 generate_selection
 (
 selection
-                           
+                               
 spec
-                           
+                               
 subresource_path
-                           
+                               
 html_template
 )
 def
 main
 (
 target
+spec_filename
 )
 :
     
@@ -1297,8 +1345,8 @@ spec_json
 =
 load_spec_json
 (
+spec_filename
 )
-;
     
 spec_validator
 .
@@ -1383,6 +1431,42 @@ tests
 '
 )
     
+parser
+.
+add_argument
+(
+'
+-
+s
+'
+'
+-
+-
+spec
+'
+type
+=
+str
+default
+=
+None
+        
+help
+=
+'
+Specify
+a
+file
+used
+for
+describing
+and
+generating
+the
+tests
+'
+)
+    
 #
 TODO
 (
@@ -1410,4 +1494,7 @@ main
 args
 .
 target
+args
+.
+spec
 )
