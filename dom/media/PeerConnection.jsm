@@ -8011,7 +8011,10 @@ stream
 addTrack
 (
 track
-stream
+.
+.
+.
+streams
 )
 {
 this
@@ -8139,9 +8142,7 @@ sender
 .
 setStreams
 (
-[
-stream
-]
+streams
 )
 ;
 if
@@ -8201,10 +8202,6 @@ _addTransceiverNoEvents
 track
 {
 streams
-:
-[
-stream
-]
 direction
 :
 "
