@@ -427,7 +427,7 @@ query
 define
 MOBILE_BOOKMARKS_VIRTUAL_GUID
 "
-mobile____v
+mobile_____v
 "
 #
 define
