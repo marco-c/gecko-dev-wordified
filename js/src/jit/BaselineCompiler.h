@@ -349,6 +349,11 @@ JSOP_UINT24
 \
 _
 (
+JSOP_RESUMEINDEX
+)
+\
+_
+(
 JSOP_DOUBLE
 )
 \

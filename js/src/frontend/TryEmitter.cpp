@@ -538,9 +538,8 @@ if
 bce_
 -
 >
-emitJump
+emitGoSub
 (
-JSOP_GOSUB
 &
 controlInfo_
 -
@@ -855,9 +854,8 @@ if
 bce_
 -
 >
-emitJump
+emitGoSub
 (
-JSOP_GOSUB
 &
 controlInfo_
 -

@@ -4813,6 +4813,9 @@ case
 JSOP_UINT24
 :
 case
+JSOP_RESUMEINDEX
+:
+case
 JSOP_BITAND
 :
 case
@@ -15336,6 +15339,9 @@ pc
 case
 JSOP_UINT24
 :
+case
+JSOP_RESUMEINDEX
+:
 pushConstant
 (
 Int32Value
@@ -16563,9 +16569,6 @@ implemented
 .
 break
 ;
-case
-JSOP_UNUSED126
-:
 case
 JSOP_UNUSED206
 :

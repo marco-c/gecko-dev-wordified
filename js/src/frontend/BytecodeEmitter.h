@@ -4537,6 +4537,15 @@ TryNode
 tryNode
 )
 ;
+MOZ_MUST_USE
+bool
+emitGoSub
+(
+JumpList
+*
+jump
+)
+;
 enum
 DestructuringFlavor
 {
