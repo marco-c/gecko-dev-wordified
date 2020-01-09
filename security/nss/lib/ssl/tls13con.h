@@ -403,6 +403,8 @@ tls13_SetupClientHello
 sslSocket
 *
 ss
+sslClientHelloType
+chType
 )
 ;
 SECStatus

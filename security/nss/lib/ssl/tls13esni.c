@@ -3080,6 +3080,17 @@ PR_Now
 /
 PR_USEC_PER_SEC
 ;
+PORT_Assert
+(
+!
+ss
+-
+>
+xtnData
+.
+esniPrivateKey
+)
+;
 if
 (
 !
