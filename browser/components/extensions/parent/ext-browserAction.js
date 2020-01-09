@@ -824,6 +824,13 @@ this
 defaults
 .
 area
+showInPrivateBrowsing
+:
+this
+.
+extension
+.
+privateBrowsingAllowed
 /
 /
 Don
