@@ -3557,26 +3557,13 @@ e
         
 out
 =
+str
+(
 e
 .
 adb_process
 .
 stdout
-        
-print
-(
-"
-exception
-output
-:
-%
-s
-"
-%
-str
-(
-out
-)
 )
         
 returncode
