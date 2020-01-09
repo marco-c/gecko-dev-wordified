@@ -566,11 +566,6 @@ loadSubScript
 (
 uri
 sandbox
-"
-UTF
--
-8
-"
 )
 ;
 }

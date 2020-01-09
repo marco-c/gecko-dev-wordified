@@ -2775,11 +2775,6 @@ url
 this
 .
 sandbox
-"
-UTF
--
-8
-"
 )
 ;
 }

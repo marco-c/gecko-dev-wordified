@@ -2997,11 +2997,6 @@ loadSubScript
 (
 url
 sandbox
-"
-utf
--
-8
-"
 )
 ;
 return

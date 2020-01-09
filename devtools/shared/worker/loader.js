@@ -3418,11 +3418,6 @@ loadSubScript
 (
 url
 sandbox
-"
-UTF
--
-8
-"
 )
 ;
 }

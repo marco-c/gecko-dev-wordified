@@ -148,11 +148,6 @@ tests
 script
 }
 this
-"
-utf
--
-8
-"
 )
 ;
 }

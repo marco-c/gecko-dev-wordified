@@ -2229,9 +2229,6 @@ switching
 js
 "
 win
-"
-utf8
-"
 )
 ;
 this
@@ -2454,9 +2451,6 @@ loadSubScript
 (
 url
 win
-"
-utf8
-"
 )
 ;
 }
@@ -3504,9 +3498,6 @@ loadSubScript
 (
 url
 win
-"
-utf8
-"
 )
 ;
 }

@@ -122,12 +122,8 @@ const
 result
 =
 "
-\
-u2764
 "
 ;
-/
-/
 const
 TEST_JSON_URL
 =

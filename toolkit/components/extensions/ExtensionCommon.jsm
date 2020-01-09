@@ -9218,11 +9218,6 @@ url
 this
 .
 global
-"
-UTF
--
-8
-"
 )
 ;
 module
@@ -10066,11 +10061,6 @@ loadSubScript
 (
 scriptUrl
 scope
-"
-UTF
--
-8
-"
 )
 ;
 /
