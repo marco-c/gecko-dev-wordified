@@ -6725,7 +6725,9 @@ let
 error
 =
 new
-Error
+Components
+.
+Exception
 (
 Could
 not
@@ -6739,13 +6741,8 @@ path
 {
 status
 }
+status
 )
-;
-error
-.
-status
-=
-status
 ;
 reject
 (
