@@ -2513,6 +2513,19 @@ Stringify
 nsAString
 &
 aResult
+FlushFrames
+aFlushFrames
+)
+{
+if
+(
+aFlushFrames
+=
+=
+FlushFrames
+:
+:
+Yes
 )
 {
 /
@@ -2606,6 +2619,7 @@ FlushType
 Frames
 )
 ;
+}
 IgnoredErrorResult
 rv
 ;
