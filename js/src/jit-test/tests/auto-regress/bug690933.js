@@ -7,6 +7,11 @@ test
 |
 slow
 ;
+error
+:
+allocation
+size
+overflow
 /
 /
 Binary
