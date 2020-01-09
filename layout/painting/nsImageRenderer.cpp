@@ -465,7 +465,10 @@ CLAMP
 )
 mMaskOp
 (
-NS_STYLE_MASK_MODE_MATCH_SOURCE
+StyleMaskMode
+:
+:
+MatchSource
 )
 {
 }
@@ -2966,7 +2969,10 @@ OP_OVER
 mMaskOp
 =
 =
-NS_STYLE_MASK_MODE_LUMINANCE
+StyleMaskMode
+:
+:
+Luminance
 )
 {
 gfxRect
@@ -3415,7 +3421,10 @@ if
 mMaskOp
 =
 =
-NS_STYLE_MASK_MODE_LUMINANCE
+StyleMaskMode
+:
+:
+Luminance
 )
 {
 RefPtr

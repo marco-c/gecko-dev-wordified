@@ -4688,7 +4688,7 @@ shouldGenerateMaskLayer
 maskFrame
 )
 {
-uint8_t
+StyleMaskMode
 maskMode
 =
 aFrame

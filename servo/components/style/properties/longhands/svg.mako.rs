@@ -707,6 +707,11 @@ source
 alpha
 luminance
 "
+gecko_enum_prefix
+=
+"
+StyleMaskMode
+"
 vector
 =
 True
