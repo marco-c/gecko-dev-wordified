@@ -14540,15 +14540,6 @@ MOZ_DIAGNOSTIC_ASSERT
 aOpener
 |
 |
-!
-aOpener
--
->
-GetDocShell
-(
-)
-|
-|
 (
 GetBrowsingContext
 (
@@ -43122,7 +43113,7 @@ inner
 AntiTrackingCommon
 :
 :
-eHeuristic
+eOpener
 )
 ;
 }

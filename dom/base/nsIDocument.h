@@ -22327,7 +22327,7 @@ GetSameTypeParentDocument
 )
 ;
 void
-MaybeAllowStorageForOpener
+MaybeAllowStorageForOpenerAfterUserInteraction
 (
 )
 ;
