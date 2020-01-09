@@ -169,7 +169,7 @@ height
 .
 textLayer
 >
-div
+span
 {
 color
 :
@@ -2127,7 +2127,7 @@ screen
 .
 textLayer
 >
-div
+span
 {
 cursor
 :
@@ -2141,7 +2141,7 @@ fullscreen
 .
 textLayer
 >
-div
+span
 {
 cursor
 :
@@ -2161,7 +2161,7 @@ pdfPresentationModeControls
 .
 textLayer
 >
-div
+span
 {
 cursor
 :
@@ -11212,7 +11212,7 @@ visible
 .
 textLayer
 >
-div
+span
 {
 background
 -
@@ -11264,7 +11264,7 @@ hover
 .
 textLayer
 >
-div
+span
 :
 hover
 {
@@ -11288,7 +11288,7 @@ shadow
 .
 textLayer
 >
-div
+span
 {
 background
 -
