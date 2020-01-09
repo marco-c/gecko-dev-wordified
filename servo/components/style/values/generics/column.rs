@@ -88,6 +88,7 @@ ComputeSquaredDistance
 Copy
 Debug
 MallocSizeOf
+Parse
 PartialEq
 SpecifiedValueInfo
 ToAnimatedValue

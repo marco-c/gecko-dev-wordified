@@ -521,6 +521,7 @@ color
 :
 {
 Color
+ColorOrAuto
 ColorPropertyValue
 RGBAColor
 }
@@ -1085,7 +1086,6 @@ ui
 :
 :
 {
-ColorOrAuto
 Cursor
 MozForceBrokenImageIcon
 UserSelect
