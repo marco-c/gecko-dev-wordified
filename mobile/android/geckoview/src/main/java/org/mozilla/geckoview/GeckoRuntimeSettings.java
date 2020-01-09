@@ -4003,6 +4003,17 @@ flushLocales
 (
 )
 {
+if
+(
+mRequestedLocales
+=
+=
+null
+)
+{
+return
+;
+}
 final
 GeckoBundle
 data
