@@ -811,6 +811,13 @@ aLastSample
 )
 ;
 void
+DiscardSamplesBeforeTime
+(
+double
+aTime
+)
+;
+void
 AddStoredMarker
 (
 ProfilerMarker

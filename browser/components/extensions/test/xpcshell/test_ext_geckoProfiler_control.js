@@ -148,6 +148,9 @@ start
 bufferSize
 :
 10000
+windowLength
+:
+20
 interval
 :
 0

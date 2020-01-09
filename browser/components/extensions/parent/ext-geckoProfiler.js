@@ -2192,6 +2192,7 @@ options
 const
 {
 bufferSize
+windowLength
 interval
 features
 threads
@@ -2230,6 +2231,7 @@ threads
 threads
 .
 length
+windowLength
 )
 ;
 }
@@ -2247,6 +2249,10 @@ features
 features
 .
 length
+[
+]
+0
+windowLength
 )
 ;
 }
