@@ -1017,8 +1017,7 @@ event
 and
 return
 .
-DispatchFromMainThreadAfterNextStreamStateUpdate
-*
+NS_DispatchToCurrentThread
 would
 be
 a
@@ -8968,8 +8967,14 @@ stream
 state
 has
 been
-next
 updated
+i
+.
+e
+.
+during
+stable
+state
 .
 *
 *
@@ -9013,7 +9018,7 @@ thread
 *
 /
 void
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 already_AddRefed
 <

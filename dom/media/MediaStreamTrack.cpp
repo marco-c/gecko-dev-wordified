@@ -580,7 +580,7 @@ override
 mGraph
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 NewRunnableMethod
 <
@@ -661,7 +661,7 @@ us
 mGraph
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 NS_NewRunnableFunction
 (
@@ -755,7 +755,7 @@ override
 mGraph
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 NewRunnableMethod
 (

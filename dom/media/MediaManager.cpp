@@ -7159,7 +7159,7 @@ __func__
 ;
 /
 /
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 will
 make
 the
@@ -7190,7 +7190,7 @@ dispatch
 mGraph
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 NS_NewRunnableFunction
 (

@@ -931,7 +931,7 @@ Graph
 )
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 NewRunnableMethod
 <

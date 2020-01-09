@@ -461,7 +461,7 @@ Graph
 )
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 refchanged
 .
@@ -557,7 +557,7 @@ Graph
 )
 -
 >
-DispatchToMainThreadAfterStreamStateUpdate
+DispatchToMainThreadStableState
 (
 refchanged
 .
