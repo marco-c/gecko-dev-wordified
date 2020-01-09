@@ -27787,8 +27787,8 @@ RecomputeCurrentAnimatedGeometryRoot
 )
 ;
 }
-if
-(
+mIsScrollableLayerInRootContainer
+=
 gfxPrefs
 :
 :
@@ -27801,13 +27801,7 @@ mWillBuildScrollableLayer
 &
 &
 mIsRoot
-)
-{
-mIsScrollableLayerInRootContainer
-=
-true
 ;
-}
 return
 mWillBuildScrollableLayer
 ;
