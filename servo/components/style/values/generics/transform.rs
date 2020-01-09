@@ -4857,9 +4857,9 @@ fmt
 Write
 {
 match
+*
 self
 {
-&
 Scale
 :
 :
@@ -4874,7 +4874,6 @@ write_str
 none
 "
 )
-&
 Scale
 :
 :
@@ -4926,7 +4925,6 @@ Ok
 )
 )
 }
-&
 Scale
 :
 :
