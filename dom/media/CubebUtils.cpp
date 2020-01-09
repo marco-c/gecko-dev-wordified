@@ -513,6 +513,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+XP_WIN
+)
 #
 define
 MOZ_CUBEB_REMOTING
