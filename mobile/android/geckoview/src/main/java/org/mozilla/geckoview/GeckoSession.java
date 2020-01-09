@@ -10219,7 +10219,6 @@ operation
 AnyThread
 public
 static
-final
 class
 FinderResult
 {
