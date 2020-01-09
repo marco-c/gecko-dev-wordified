@@ -3464,11 +3464,6 @@ return
 mTextInputHandler
 ;
 }
-void
-ClearVibrantAreas
-(
-)
-;
 NSColor
 *
 VibrancyFillColorForThemeGeometryType
