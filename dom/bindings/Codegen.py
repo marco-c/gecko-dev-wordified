@@ -23419,6 +23419,24 @@ isGlobal
 )
 ;
             
+if
+(
+protoCache
+&
+&
+!
+*
+protoCache
+)
+{
+              
+*
+{
+maybeCrash
+}
+            
+}
+            
 "
 "
 "
@@ -23512,6 +23530,21 @@ isGlobal
 toStringBool
 (
 isGlobal
+)
+            
+maybeCrash
+=
+maybecrash
+(
+"
+dom
+:
+:
+CreateInterfaceObjects
+failed
+for
+Document
+"
 )
 )
         
