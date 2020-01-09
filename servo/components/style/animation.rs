@@ -333,6 +333,17 @@ crate
 :
 Atom
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+servo
+"
+)
+]
 use
 crossbeam_channel
 :
