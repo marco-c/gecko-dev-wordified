@@ -3333,6 +3333,12 @@ return
 isGenerator
 (
 )
+&
+&
+!
+isAsync
+(
+)
 ;
 }
 bool
