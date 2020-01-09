@@ -730,10 +730,7 @@ families
 typedef
 nsTArray
 <
-RefPtr
-<
-gfxFontFamily
->
+FontFamily
 >
 PrefFontList
 ;
@@ -1232,8 +1229,7 @@ system
 default
 font
 family
-gfxFontFamily
-*
+FontFamily
 GetDefaultFont
 (
 const
@@ -2462,6 +2458,8 @@ families
 ]
 .
 mFamily
+.
+mUnshared
 :
 nullptr
 ;
@@ -2565,8 +2563,7 @@ const
 gfxFontStyle
 *
 aMatchStyle
-gfxFontFamily
-*
+FontFamily
 *
 aMatchedFamily
 )
@@ -2603,8 +2600,7 @@ aMatchStyle
 uint32_t
 &
 aCmapCount
-gfxFontFamily
-*
+FontFamily
 *
 aMatchedFamily
 )
@@ -2657,8 +2653,7 @@ const
 gfxFontStyle
 *
 aMatchStyle
-gfxFontFamily
-*
+FontFamily
 *
 aMatchedFamily
 )
@@ -3197,8 +3192,7 @@ GetDefaultFont
 )
 .
 virtual
-gfxFontFamily
-*
+FontFamily
 GetDefaultFontForPlatform
 (
 const
@@ -3538,10 +3532,7 @@ with
 lots
 of
 problems
-RefPtr
-<
-gfxFontFamily
->
+FontFamily
 mReplacementCharFallbackFamily
 ;
 /

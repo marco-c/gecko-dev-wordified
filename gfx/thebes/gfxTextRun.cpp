@@ -12260,6 +12260,8 @@ AddFamilyToFontList
 f
 .
 mFamily
+.
+mUnshared
 f
 .
 mGeneric
@@ -13328,8 +13330,7 @@ PlatformFontList
 (
 )
 ;
-gfxFontFamily
-*
+FontFamily
 defaultFamily
 =
 pfl
@@ -13343,7 +13344,15 @@ mStyle
 ;
 NS_ASSERTION
 (
+!
 defaultFamily
+.
+mIsShared
+&
+&
+defaultFamily
+.
+mUnshared
 "
 invalid
 default
@@ -13357,6 +13366,8 @@ GetDefaultFont
 if
 (
 defaultFamily
+.
+mUnshared
 )
 {
 gfxFontEntry
@@ -13364,6 +13375,8 @@ gfxFontEntry
 fe
 =
 defaultFamily
+.
+mUnshared
 -
 >
 FindFontForStyle
@@ -22813,8 +22826,7 @@ up
 the
 appropriate
 face
-gfxFontFamily
-*
+FontFamily
 family
 =
 (
@@ -22827,8 +22839,11 @@ j
 ;
 if
 (
-!
 family
+.
+IsNull
+(
+)
 )
 {
 continue
@@ -22917,6 +22932,8 @@ gfxFontEntry
 fe
 =
 family
+.
+mUnshared
 -
 >
 FindFontForStyle
@@ -23040,6 +23057,8 @@ prefFont
 FindFallbackFaceForChar
 (
 family
+.
+mUnshared
 aCh
 )
 ;

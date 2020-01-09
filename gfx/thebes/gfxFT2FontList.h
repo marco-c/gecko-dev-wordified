@@ -1014,9 +1014,7 @@ FontNameCache
 aFNC
 )
 ;
-virtual
-gfxFontFamily
-*
+FontFamily
 GetDefaultFontForPlatform
 (
 const

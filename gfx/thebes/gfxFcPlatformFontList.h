@@ -1941,9 +1941,7 @@ void
 aThis
 )
 ;
-virtual
-gfxFontFamily
-*
+FontFamily
 GetDefaultFontForPlatform
 (
 const

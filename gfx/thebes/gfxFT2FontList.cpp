@@ -10455,8 +10455,7 @@ return
 fe
 ;
 }
-gfxFontFamily
-*
+FontFamily
 gfxFT2FontList
 :
 :
@@ -10532,7 +10531,10 @@ this
 *
 /
 return
+FontFamily
+(
 ff
+)
 ;
 }
 gfxFontEntry

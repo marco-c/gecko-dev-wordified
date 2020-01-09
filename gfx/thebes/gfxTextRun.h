@@ -8184,10 +8184,7 @@ general
 pref
 font
 lookup
-RefPtr
-<
-gfxFontFamily
->
+FontFamily
 mLastPrefFamily
 ;
 RefPtr

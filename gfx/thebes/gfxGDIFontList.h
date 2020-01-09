@@ -1762,9 +1762,7 @@ const
 ;
 protected
 :
-virtual
-gfxFontFamily
-*
+FontFamily
 GetDefaultFontForPlatform
 (
 const
