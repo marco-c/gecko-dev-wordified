@@ -17566,11 +17566,6 @@ freeScriptData
 (
 )
 {
-if
-(
-scriptData_
-)
-{
 scriptData_
 -
 >
@@ -17582,7 +17577,6 @@ scriptData_
 =
 nullptr
 ;
-}
 }
 void
 JSScript
