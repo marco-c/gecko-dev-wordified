@@ -136,6 +136,9 @@ class
 LSDatabase
 final
 {
+class
+Observer
+;
 LSDatabaseChild
 *
 mActor
@@ -153,6 +156,13 @@ mAllowedToClose
 ;
 bool
 mRequestedAllowToClose
+;
+static
+StaticRefPtr
+<
+Observer
+>
+sObserver
 ;
 public
 :
