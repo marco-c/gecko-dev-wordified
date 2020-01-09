@@ -76,7 +76,6 @@ Domain
 constructor
 (
 session
-target
 )
 {
 this
@@ -84,12 +83,6 @@ this
 session
 =
 session
-;
-this
-.
-target
-=
-target
 ;
 this
 .
