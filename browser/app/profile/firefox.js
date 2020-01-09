@@ -18084,15 +18084,6 @@ tracking
 resources
 by
 default
-on
-/
-/
-Nightly
-and
-Beta
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 pref
 (
 "
@@ -18110,8 +18101,6 @@ BEHAVIOR_REJECT_TRACKER
 /
 )
 ;
-#
-endif
 pref
 (
 "
