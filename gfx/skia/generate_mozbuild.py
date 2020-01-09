@@ -2291,6 +2291,10 @@ SkInterpolator
 '
     
 '
+SkJSON
+'
+    
+'
 SkMultiPictureDocument
 '
     
