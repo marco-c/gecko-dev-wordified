@@ -20769,7 +20769,7 @@ StartDynamicModuleImportFn
 (
 JSContext
 *
-HandleObject
+HandleScript
 HandleValue
 )
 ;
@@ -20819,7 +20819,7 @@ pushArg
 (
 ImmGCPtr
 (
-lir
+current
 -
 >
 mir
@@ -20827,7 +20827,11 @@ mir
 )
 -
 >
-referencingScriptSource
+info
+(
+)
+.
+script
 (
 )
 )
