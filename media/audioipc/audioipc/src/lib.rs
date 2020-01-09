@@ -136,6 +136,13 @@ pub
 mod
 core
 ;
+#
+[
+allow
+(
+deprecated
+)
+]
 pub
 mod
 errors

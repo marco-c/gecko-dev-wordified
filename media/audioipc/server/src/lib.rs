@@ -188,6 +188,13 @@ UnixStream
 mod
 server
 ;
+#
+[
+allow
+(
+deprecated
+)
+]
 pub
 mod
 errors
