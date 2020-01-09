@@ -1712,7 +1712,10 @@ the
 inputStream
 directly
 .
-void
+JS
+:
+:
+ReadableStreamUnderlyingSource
 *
 underlyingSource
 =
