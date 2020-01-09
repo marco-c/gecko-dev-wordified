@@ -108,10 +108,6 @@ BaseMarionetteArguments
     
 BaseMarionetteTestRunner
     
-BrowserMobProxyArguments
-    
-BrowserMobProxyTestCaseMixin
-    
 Marionette
     
 MarionetteTest

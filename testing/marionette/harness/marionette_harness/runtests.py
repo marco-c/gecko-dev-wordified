@@ -78,8 +78,6 @@ BaseMarionetteTestRunner
     
 BaseMarionetteArguments
     
-BrowserMobProxyArguments
-    
 MarionetteTestCase
 )
 class
@@ -123,34 +121,7 @@ BaseMarionetteArguments
 )
 :
     
-def
-__init__
-(
-self
-*
-*
-kwargs
-)
-:
-        
-BaseMarionetteArguments
-.
-__init__
-(
-self
-*
-*
-kwargs
-)
-        
-self
-.
-register_argument_container
-(
-BrowserMobProxyArguments
-(
-)
-)
+pass
 class
 MarionetteHarness
 (
