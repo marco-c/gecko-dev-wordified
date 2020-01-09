@@ -912,6 +912,16 @@ platform
 "
 win
 "
+|
+|
+AppConstants
+.
+platform
+=
+=
+"
+linux
+"
 )
 {
 ok
@@ -923,8 +933,9 @@ isNSSKeyStore
 "
 OS
 X
-and
 Windows
+and
+Linux
 should
 use
 the
