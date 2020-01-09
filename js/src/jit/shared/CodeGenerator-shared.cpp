@@ -819,6 +819,11 @@ info
 (
 )
 .
+script
+(
+)
+-
+>
 trackRecordReplayProgress
 (
 )
