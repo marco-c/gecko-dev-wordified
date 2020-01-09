@@ -414,9 +414,9 @@ include
 "
 cairo
 -
-d2d
+win32
 -
-private
+refptr
 .
 h
 "
@@ -2960,12 +2960,12 @@ default_quality
 =
 CAIRO_ANTIALIAS_SUBPIXEL
 ?
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_NORMAL
 :
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_NO_CLEARTYPE
@@ -6235,7 +6235,7 @@ font
 rendering_mode
 =
 =
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_NORMAL
@@ -6246,7 +6246,7 @@ font
 >
 rendering_mode
 =
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_GDI_CLASSIC
@@ -6265,7 +6265,7 @@ font
 rendering_mode
 =
 =
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_GDI_CLASSIC
@@ -6276,7 +6276,7 @@ font
 >
 rendering_mode
 =
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_NORMAL
@@ -6311,7 +6311,7 @@ font
 rendering_mode
 =
 =
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_GDI_CLASSIC
@@ -6407,7 +6407,7 @@ rt
 HRESULT
 rv
 ;
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TextRenderingState
@@ -6483,7 +6483,7 @@ if
 renderingState
 =
 =
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_NORMAL
@@ -6492,7 +6492,7 @@ TEXT_RENDERING_NORMAL
 renderingState
 =
 =
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_GDI_CLASSIC
@@ -6510,7 +6510,7 @@ permit_subpixel_antialiasing
 {
 renderingState
 =
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_NO_CLEARTYPE
@@ -6714,13 +6714,13 @@ renderingState
 )
 {
 case
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_GDI_CLASSIC
 :
 case
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_NO_CLEARTYPE

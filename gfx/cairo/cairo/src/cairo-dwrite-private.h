@@ -438,9 +438,15 @@ measuring_mode
 cairo_bool_t
 manual_show_glyphs_allowed
 ;
-cairo_d2d_surface_t
-:
-:
+enum
+TextRenderingState
+{
+TEXT_RENDERING_UNINITIALIZED
+TEXT_RENDERING_NO_CLEARTYPE
+TEXT_RENDERING_NORMAL
+TEXT_RENDERING_GDI_CLASSIC
+}
+;
 TextRenderingState
 rendering_mode
 ;
@@ -658,7 +664,7 @@ IDWriteRenderingParams
 *
 RenderingParams
 (
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TextRenderingState
@@ -693,7 +699,7 @@ if
 mode
 =
 =
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_NO_CLEARTYPE
@@ -710,7 +716,7 @@ if
 mode
 =
 =
-cairo_d2d_surface_t
+cairo_dwrite_scaled_font_t
 :
 :
 TEXT_RENDERING_GDI_CLASSIC
