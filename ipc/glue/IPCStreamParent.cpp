@@ -128,7 +128,7 @@ mozilla
 /
 dom
 /
-ContentParent
+nsIContentParent
 .
 h
 "
@@ -472,7 +472,7 @@ aInputStream
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aManager
 )

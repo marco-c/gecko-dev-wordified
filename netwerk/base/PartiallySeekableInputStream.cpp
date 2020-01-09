@@ -1270,7 +1270,7 @@ mozilla
 dom
 :
 :
-ContentChild
+nsIContentChild
 *
 aManager
 )
@@ -1364,7 +1364,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aManager
 )

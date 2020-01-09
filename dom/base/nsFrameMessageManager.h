@@ -347,10 +347,10 @@ namespace
 dom
 {
 class
-ContentParent
+nsIContentParent
 ;
 class
-ContentChild
+nsIContentChild
 ;
 class
 ChildProcessMessageManager
@@ -596,7 +596,7 @@ protected
 bool
 BuildClonedMessageDataForParent
 (
-ContentParent
+nsIContentParent
 *
 aParent
 StructuredCloneData
@@ -610,7 +610,7 @@ aClonedData
 bool
 BuildClonedMessageDataForChild
 (
-ContentChild
+nsIContentChild
 *
 aChild
 StructuredCloneData

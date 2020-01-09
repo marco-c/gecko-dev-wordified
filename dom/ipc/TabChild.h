@@ -1305,7 +1305,7 @@ object
 /
 TabChild
 (
-ContentChild
+nsIContentChild
 *
 aManager
 const
@@ -1351,7 +1351,7 @@ TabChild
 >
 Create
 (
-ContentChild
+nsIContentChild
 *
 aManager
 const
@@ -2648,7 +2648,7 @@ IsVisible
 (
 )
 ;
-ContentChild
+nsIContentChild
 *
 Manager
 (
@@ -4533,7 +4533,7 @@ mLastURI
 ;
 RefPtr
 <
-ContentChild
+nsIContentChild
 >
 mManager
 ;

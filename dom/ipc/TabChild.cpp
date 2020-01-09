@@ -2399,7 +2399,7 @@ TabChild
 :
 Create
 (
-ContentChild
+nsIContentChild
 *
 aManager
 const
@@ -2476,7 +2476,7 @@ TabChild
 :
 TabChild
 (
-ContentChild
+nsIContentChild
 *
 aManager
 const

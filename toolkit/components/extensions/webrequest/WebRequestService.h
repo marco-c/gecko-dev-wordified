@@ -193,7 +193,7 @@ class
 TabParent
 ;
 class
-ContentParent
+nsIContentParent
 ;
 }
 /
@@ -318,7 +318,7 @@ aAddonId
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aContentParent
 )

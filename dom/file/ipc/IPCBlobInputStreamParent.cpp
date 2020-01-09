@@ -349,7 +349,7 @@ nsID
 aID
 uint64_t
 aSize
-ContentParent
+nsIContentParent
 *
 aManager
 )

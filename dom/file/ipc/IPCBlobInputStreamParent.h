@@ -384,7 +384,7 @@ nsID
 aID
 uint64_t
 aSize
-ContentParent
+nsIContentParent
 *
 aManager
 )
@@ -456,7 +456,7 @@ nullified
 in
 ActorDestroyed
 .
-ContentParent
+nsIContentParent
 *
 mContentManager
 ;

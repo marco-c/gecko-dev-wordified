@@ -665,7 +665,7 @@ actor
 ClonedMessageData
 msgData
 ;
-ContentChild
+nsIContentChild
 *
 cc
 =
