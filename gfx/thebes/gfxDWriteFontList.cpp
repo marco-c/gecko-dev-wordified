@@ -6265,10 +6265,8 @@ failed
 ;
 if
 (
-FAILED
-(
-hr
-)
+!
+mSystemFonts
 )
 {
 Telemetry
