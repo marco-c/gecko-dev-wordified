@@ -2251,13 +2251,6 @@ kLineHeightKTable
 static
 const
 KTableEntry
-kContainKTable
-[
-]
-;
-static
-const
-KTableEntry
 kTextAlignKTable
 [
 ]

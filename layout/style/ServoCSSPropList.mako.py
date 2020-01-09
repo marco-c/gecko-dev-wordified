@@ -520,10 +520,6 @@ width
 "
     
 "
-contain
-"
-    
-"
 display
 "
     

@@ -1966,14 +1966,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetContain
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetWillChange
 (
 )
