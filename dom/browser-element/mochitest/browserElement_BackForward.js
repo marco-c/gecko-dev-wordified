@@ -196,11 +196,11 @@ getCanGoBack
 (
 )
 .
-onsuccess
-=
+then
+(
 function
 (
-e
+result
 )
 {
 is
@@ -226,10 +226,6 @@ true
 ;
 is
 (
-e
-.
-target
-.
 result
 canGoBack
 )
@@ -239,6 +235,7 @@ maybeRunNextTest
 )
 ;
 }
+)
 ;
 var
 seenCanGoForwardResult
@@ -251,11 +248,11 @@ getCanGoForward
 (
 )
 .
-onsuccess
-=
+then
+(
 function
 (
-e
+result
 )
 {
 is
@@ -281,10 +278,6 @@ true
 ;
 is
 (
-e
-.
-target
-.
 result
 canGoForward
 )
@@ -294,6 +287,7 @@ maybeRunNextTest
 )
 ;
 }
+)
 ;
 function
 maybeRunNextTest
