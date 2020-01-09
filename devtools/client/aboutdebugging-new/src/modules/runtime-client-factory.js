@@ -192,6 +192,12 @@ registerAllActors
 (
 )
 ;
+DebuggerServer
+.
+allowChromeProcess
+=
+true
+;
 const
 client
 =
