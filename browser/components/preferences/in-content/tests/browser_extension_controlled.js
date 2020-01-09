@@ -6153,7 +6153,7 @@ networkProxyAutoconfigURL
 otherControls
 :
 [
-manualControlContainer
+doc
 .
 querySelector
 (
