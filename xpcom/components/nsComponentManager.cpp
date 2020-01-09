@@ -816,6 +816,9 @@ BeginWriting
 }
 ;
 }
+/
+/
+namespace
 namespace
 mozilla
 {

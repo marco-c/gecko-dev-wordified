@@ -1472,6 +1472,7 @@ detail
 ThreadLocal
 <
 TYPE
+\
 :
 :
 mozilla

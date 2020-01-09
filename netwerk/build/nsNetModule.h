@@ -316,6 +316,14 @@ aResult
 )
 ;
 }
+/
+/
+namespace
+net
 }
+/
+/
+namespace
+mozilla
 #
 endif
