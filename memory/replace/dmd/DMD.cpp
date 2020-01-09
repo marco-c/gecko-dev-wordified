@@ -1070,7 +1070,7 @@ gMallocTable
 .
 calloc
 (
-1
+aCount
 aSize
 )
 ;
