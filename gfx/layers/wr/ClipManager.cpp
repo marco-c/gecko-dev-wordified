@@ -1020,10 +1020,6 @@ SwitchItem
 nsDisplayItem
 *
 aItem
-const
-StackingContextHelper
-&
-aStackingContext
 )
 {
 const
@@ -1845,7 +1841,6 @@ DefineScrollLayers
 (
 leafmostASR
 aItem
-aStackingContext
 )
 ;
 /
@@ -1880,7 +1875,6 @@ DefineClipChain
 (
 clip
 auPerDevPixel
-aStackingContext
 )
 ;
 Maybe
@@ -2185,10 +2179,6 @@ aASR
 nsDisplayItem
 *
 aItem
-const
-StackingContextHelper
-&
-aSc
 )
 {
 if
@@ -2287,7 +2277,6 @@ aASR
 >
 mParent
 aItem
-aSc
 )
 ;
 Maybe
@@ -2649,10 +2638,6 @@ DisplayItemClipChain
 aChain
 int32_t
 aAppUnitsPerDevPixel
-const
-StackingContextHelper
-&
-aSc
 )
 {
 AutoTArray
@@ -2871,7 +2856,6 @@ mClip
 ToComplexClipRegions
 (
 aAppUnitsPerDevPixel
-aSc
 wrRoundedRects
 )
 ;
