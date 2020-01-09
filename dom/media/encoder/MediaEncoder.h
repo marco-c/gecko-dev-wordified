@@ -201,6 +201,9 @@ VideoStreamTrack
 namespace
 dom
 class
+DriftCompensator
+;
+class
 MediaEncoder
 ;
 class
@@ -1629,6 +1632,13 @@ RefPtr
 TaskQueue
 >
 mEncoderThread
+;
+const
+RefPtr
+<
+DriftCompensator
+>
+mDriftCompensator
 ;
 UniquePtr
 <
