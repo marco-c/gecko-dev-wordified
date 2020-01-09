@@ -175,7 +175,7 @@ namespace
 dom
 {
 class
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 ;
 class
 SVGGraphicsElement
@@ -255,7 +255,7 @@ override
 WebIDL
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 Transform
 (

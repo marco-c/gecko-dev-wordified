@@ -135,11 +135,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 .
 h
 "
@@ -248,7 +244,7 @@ dom
 {
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 SVGTransformableElement
 :
@@ -276,7 +272,7 @@ GetAnimatedTransformList
 to
 allocate
 the
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 if
 it
 hasn
@@ -287,7 +283,7 @@ done
 so
 :
 return
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 :
 :
 GetDOMWrapper

@@ -181,7 +181,7 @@ dom
 *
 *
 Class
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 *
 *
 This
@@ -297,7 +297,7 @@ refs
 *
 /
 class
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 final
 :
 public
@@ -314,11 +314,11 @@ public
 :
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 )
 /
 *
@@ -331,7 +331,7 @@ create
 and
 return
 a
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 wrapper
 *
 for
@@ -426,7 +426,7 @@ in
 a
 new
 *
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 being
 returned
 .
@@ -435,7 +435,7 @@ returned
 static
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 GetDOMWrapper
 (
@@ -455,7 +455,7 @@ This
 method
 returns
 the
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 wrapper
 for
 an
@@ -483,7 +483,7 @@ returned
 *
 /
 static
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 *
 GetDOMWrapperIfExists
 (
@@ -770,7 +770,7 @@ type
 *
 /
 explicit
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 (
 SVGElement
 *
@@ -792,7 +792,7 @@ aElement
 {
 }
 ~
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 (
 )
 ;

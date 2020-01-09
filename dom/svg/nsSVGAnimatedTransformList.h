@@ -223,7 +223,7 @@ class
 -
 see
 *
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 for
 the
 heavier
@@ -275,7 +275,7 @@ the
 comment
 in
 *
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 :
 :
 InternalBaseValListWillChangeTo
@@ -370,7 +370,7 @@ the
 comment
 in
 *
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 :
 :
 InternalBaseValListWillChangeTo

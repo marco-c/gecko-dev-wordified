@@ -137,11 +137,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 .
 h
 "
@@ -643,7 +639,7 @@ this
 }
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 SVGGradientElement
 :
@@ -671,7 +667,7 @@ GetAnimatedTransformList
 to
 allocate
 the
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 if
 it
 hasn
@@ -682,7 +678,7 @@ done
 so
 :
 return
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 :
 :
 GetDOMWrapper

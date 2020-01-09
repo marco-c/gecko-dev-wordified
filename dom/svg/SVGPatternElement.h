@@ -208,7 +208,7 @@ namespace
 dom
 {
 class
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 ;
 typedef
 SVGElement
@@ -419,7 +419,7 @@ PatternContentUnits
 ;
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 PatternTransform
 (

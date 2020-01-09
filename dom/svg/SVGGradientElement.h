@@ -222,7 +222,7 @@ namespace
 dom
 {
 class
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 ;
 /
 /
@@ -409,7 +409,7 @@ GradientUnits
 ;
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 GradientTransform
 (

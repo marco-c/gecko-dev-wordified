@@ -481,7 +481,7 @@ method
 to
 /
 /
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 and
 having
 that
@@ -491,9 +491,9 @@ as
 an
 intermediary
 so
+/
+/
 it
-/
-/
 can
 take
 care

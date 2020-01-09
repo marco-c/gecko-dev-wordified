@@ -123,11 +123,7 @@ MOZILLA_DOMSVGTRANSFORMLIST_H__
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 .
 h
 "
@@ -229,7 +225,7 @@ the
 architecture
 comment
 in
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 .
 h
 .
@@ -339,7 +335,7 @@ DOMSVGTransformList
 dom
 :
 :
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 *
 aAList
 const
@@ -1117,7 +1113,7 @@ RefPtr
 dom
 :
 :
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 mAList
 ;
