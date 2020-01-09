@@ -45,6 +45,7 @@ reject
 res
 =
 resolve
+;
 }
 )
 ;
@@ -83,7 +84,7 @@ function
 )
 {
 var
-state
+state2
 =
 PromiseDebugging
 .
@@ -96,7 +97,7 @@ Assert
 .
 equal
 (
-state
+state2
 .
 state
 "
@@ -108,7 +109,7 @@ Assert
 .
 equal
 (
-state
+state2
 .
 value
 5
