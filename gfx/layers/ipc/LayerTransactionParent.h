@@ -462,6 +462,10 @@ TimeStamp
 &
 aTxnStartTime
 const
+TimeStamp
+&
+aTxnEndTime
+const
 nsCString
 &
 aURL
@@ -490,6 +494,10 @@ aRefreshStartTime
 mTxnStartTime
 =
 aTxnStartTime
+;
+mTxnEndTime
+=
+aTxnEndTime
 ;
 mTxnURL
 =
@@ -1256,6 +1264,9 @@ mRefreshStartTime
 ;
 TimeStamp
 mTxnStartTime
+;
+TimeStamp
+mTxnEndTime
 ;
 TimeStamp
 mFwdTime
