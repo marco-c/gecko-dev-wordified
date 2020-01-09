@@ -4748,6 +4748,11 @@ prim_key
 .
 to_instance_kind
 (
+&
+mut
+self
+.
+prim_store
 )
 }
 }
