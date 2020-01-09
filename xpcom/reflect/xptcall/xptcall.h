@@ -322,6 +322,9 @@ true
 nsXPTCMiniVariant
 mini
 ;
+nsID
+nsid
+;
 nsCString
 nscstr
 ;

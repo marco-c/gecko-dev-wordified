@@ -1594,7 +1594,7 @@ nsXPTType
 Idx
 :
 :
-PNSIID
+NSIDPTR
 )
 ;
 break
@@ -2978,7 +2978,7 @@ void
 &
 v
 {
-TD_PNSIID
+TD_NSIDPTR
 }
 &
 iid
@@ -3861,7 +3861,7 @@ nsXPTType
 Idx
 :
 :
-PNSIID
+NSIDPTR
 ;
 break
 ;
