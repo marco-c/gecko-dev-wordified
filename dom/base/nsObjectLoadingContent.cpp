@@ -5943,6 +5943,13 @@ QueueCheckPluginStopEvent
 )
 ;
 }
+nsImageLoadingContent
+:
+:
+NotifyOwnerDocumentActivityChanged
+(
+)
+;
 }
 /
 /

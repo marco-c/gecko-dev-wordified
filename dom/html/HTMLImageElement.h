@@ -1233,6 +1233,17 @@ nsAString
 aValue
 )
 ;
+already_AddRefed
+<
+Promise
+>
+Decode
+(
+ErrorResult
+&
+aRv
+)
+;
 net
 :
 :
