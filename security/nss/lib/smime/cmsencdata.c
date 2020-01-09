@@ -489,6 +489,14 @@ the
 storage
 *
 /
+if
+(
+encd
+!
+=
+NULL
+)
+{
 NSS_CMSContentInfo_Destroy
 (
 &
@@ -500,6 +508,7 @@ contentInfo
 )
 )
 ;
+}
 return
 ;
 }
