@@ -15232,6 +15232,9 @@ if
 IsReplaying
 (
 )
+&
+&
+releaseData
 )
 {
 /
@@ -15477,6 +15480,9 @@ MiddlemanCallPhase
 :
 :
 ReplayInput
+&
+&
+releaseData
 )
 {
 releaseData
