@@ -425,9 +425,9 @@ blocking
 blockingAllowed
 )
 {
-throw
-new
-ExtensionError
+Cu
+.
+reportError
 (
 "
 Using
@@ -436,11 +436,11 @@ webRequest
 addListener
 with
 the
+blocking
+option
 "
 +
 "
-blocking
-option
 requires
 the
 '
