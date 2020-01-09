@@ -149,7 +149,7 @@ encoding_rs
 .
 8
 .
-14
+16
 "
 )
 ]
@@ -12686,7 +12686,7 @@ accel
 "
 feature
 (
-platform_intrinsics
+stdsimd
 core_intrinsics
 )
 )
@@ -12749,9 +12749,16 @@ neon
 )
 )
 ]
+#
+[
+macro_use
+(
+shuffle
+)
+]
 extern
 crate
-simd
+packed_simd
 ;
 #
 [
