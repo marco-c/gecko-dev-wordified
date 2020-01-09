@@ -947,7 +947,9 @@ AccessibleImage
 className
 =
 "
-moreTabs
+more
+-
+tabs
 "
 /
 >
