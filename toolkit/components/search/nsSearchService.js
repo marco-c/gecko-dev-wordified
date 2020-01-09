@@ -10952,7 +10952,7 @@ errorCode
 =
 Ci
 .
-nsISearchInstallCallback
+nsISearchService
 .
 ERROR_UNKNOWN_FAILURE
 )
@@ -11530,7 +11530,7 @@ error_invalid_engine_title
 }
 Ci
 .
-nsISearchInstallCallback
+nsISearchService
 .
 ERROR_DUPLICATE_ENGINE
 )
@@ -11542,7 +11542,7 @@ onError
 (
 Ci
 .
-nsISearchInstallCallback
+nsISearchService
 .
 ERROR_DUPLICATE_ENGINE
 )
