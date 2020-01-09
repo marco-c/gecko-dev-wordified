@@ -108,7 +108,7 @@ import
     
 docker_worker_add_workspace_cache
     
-setup_secrets
+docker_worker_setup_secrets
     
 docker_worker_add_artifacts
     
@@ -372,7 +372,7 @@ job
 taskdesc
 )
     
-setup_secrets
+docker_worker_setup_secrets
 (
 config
 job
