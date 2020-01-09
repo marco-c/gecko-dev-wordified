@@ -16243,6 +16243,7 @@ forget
 )
 ;
 }
+static
 void
 ReleaseLayerUserData
 (

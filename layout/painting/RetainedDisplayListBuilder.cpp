@@ -7676,6 +7676,7 @@ be
 visited
 )
 .
+static
 void
 FindContainingBlocks
 (

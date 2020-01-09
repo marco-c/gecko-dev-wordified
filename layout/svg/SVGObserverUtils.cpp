@@ -5879,6 +5879,7 @@ nsSVGPaintingProperty
 >
 *
 ;
+static
 void
 DestroyFilterProperty
 (

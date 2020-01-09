@@ -2703,6 +2703,7 @@ false
 }
 #
 endif
+static
 bool
 IsPdfJs
 (
