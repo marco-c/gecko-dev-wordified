@@ -2374,12 +2374,7 @@ index
 &
 context
 .
-results
-[
-index
-]
-.
-autofill
+autofillValue
 ;
 details
 .
