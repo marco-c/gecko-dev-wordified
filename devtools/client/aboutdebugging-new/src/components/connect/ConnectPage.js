@@ -1219,7 +1219,7 @@ about
 -
 debugging
 -
-connect
+setup
 -
 network
 "
@@ -1291,7 +1291,7 @@ about
 -
 debugging
 -
-connect
+setup
 -
 network
 -
@@ -1323,7 +1323,7 @@ about
 -
 debugging
 -
-connect
+setup
 -
 network
 -
@@ -1369,7 +1369,7 @@ about
 -
 debugging
 -
-connect
+setup
 -
 title
 "
