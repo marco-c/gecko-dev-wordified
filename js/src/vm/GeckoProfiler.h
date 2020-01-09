@@ -1552,6 +1552,10 @@ Category
 :
 :
 JS
+uint32_t
+flags
+=
+0
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
