@@ -225,9 +225,9 @@ menu_action_save_to_pocket
 "
 :
 "
-Gwoki
+Gwok
 i
-jaba
+Pocket
 "
 "
 menu_action_delete_pocket
@@ -1168,15 +1168,6 @@ context_menu_title
 Yab
 jami
 ayera
-"
-"
-pocket_learn_more
-"
-:
-"
-Nong
-ngec
-mapol
 "
 }
 ;

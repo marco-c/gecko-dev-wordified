@@ -717,11 +717,5 @@ context_menu_title
 :
 "
 "
-"
-pocket_learn_more
-"
-:
-"
-"
 }
 ;
