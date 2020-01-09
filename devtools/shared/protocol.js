@@ -8429,6 +8429,12 @@ this
 ;
 this
 .
+clearEvents
+(
+)
+;
+this
+.
 actorID
 =
 null
