@@ -557,6 +557,17 @@ close
 "
 "
         
+if
+exceptions
+is
+None
+:
+            
+exceptions
+=
+[
+]
+        
 #
 Get
 handles
