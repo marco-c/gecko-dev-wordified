@@ -5093,7 +5093,6 @@ mCurrentBlock
 List
 (
 stdout
-0
 )
 ;
 #
@@ -6858,7 +6857,6 @@ mCurrentBlock
 List
 (
 stdout
-0
 )
 ;
 printf
