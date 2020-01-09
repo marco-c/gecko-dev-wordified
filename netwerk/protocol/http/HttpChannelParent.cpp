@@ -1019,6 +1019,11 @@ topWindowURI
 )
 a
 .
+topWindowPrincipal
+(
+)
+a
+.
 loadFlags
 (
 )
@@ -2940,6 +2945,9 @@ const
 OptionalURIParams
 &
 aTopWindowURI
+nsIPrincipal
+*
+aTopWindowPrincipal
 const
 uint32_t
 &
@@ -3640,6 +3648,14 @@ rv
 )
 ;
 }
+httpChannel
+-
+>
+SetTopWindowPrincipal
+(
+aTopWindowPrincipal
+)
+;
 if
 (
 aLoadFlags
