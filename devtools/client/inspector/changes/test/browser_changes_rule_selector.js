@@ -357,7 +357,7 @@ querySelectorAll
 (
 "
 .
-rule
+changes__rule
 "
 )
 ;
@@ -391,7 +391,7 @@ querySelectorAll
 (
 "
 .
-selector
+changes__selector
 "
 )
 ;
