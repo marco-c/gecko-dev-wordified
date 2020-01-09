@@ -36,7 +36,7 @@ comments
 .
 wast
 :
-47
+51
 let
 2
 =
@@ -68,7 +68,7 @@ comments
 .
 wast
 :
-58
+62
 let
 3
 =
@@ -100,7 +100,7 @@ comments
 .
 wast
 :
-67
+71
 let
 4
 =

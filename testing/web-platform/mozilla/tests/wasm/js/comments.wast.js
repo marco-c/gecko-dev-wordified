@@ -1,3 +1,9 @@
+(
+function
+comments_wast_js
+(
+)
+{
 /
 /
 comments
@@ -36,7 +42,7 @@ comments
 .
 wast
 :
-47
+51
 let
 2
 =
@@ -68,7 +74,7 @@ comments
 .
 wast
 :
-58
+62
 let
 3
 =
@@ -100,7 +106,7 @@ comments
 .
 wast
 :
-67
+71
 let
 4
 =
@@ -124,5 +130,14 @@ x00
 \
 x00
 "
+)
+;
+reinitializeRegistry
+(
+)
+;
+}
+)
+(
 )
 ;

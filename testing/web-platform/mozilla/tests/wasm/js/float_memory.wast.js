@@ -1,3 +1,9 @@
+(
+function
+float_memory_wast_js
+(
+)
+{
 /
 /
 float_memory
@@ -15080,3 +15086,12 @@ load
 )
 NaN
 )
+reinitializeRegistry
+(
+)
+;
+}
+)
+(
+)
+;
