@@ -104,11 +104,9 @@ opened
 ;
 ok
 (
-isJstermFocused
+isInputFocused
 (
 hud
-.
-jsterm
 )
 "
 input
