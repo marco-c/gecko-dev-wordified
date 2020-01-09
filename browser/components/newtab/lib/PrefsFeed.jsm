@@ -876,7 +876,11 @@ improvesearch
 .
 topSiteSearchShortcuts
 "
+{
+value
+:
 searchTopSiteExperimentPrefValue
+}
 )
 ;
 /
@@ -952,7 +956,11 @@ improvesearch
 .
 handoffToAwesomebar
 "
+{
+value
+:
 handoffToAwesomebarPrefValue
+}
 )
 ;
 /
