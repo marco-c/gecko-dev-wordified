@@ -98,11 +98,6 @@ UrlbarProvidersManager
 "
 ]
 ;
-const
-{
-XPCOMUtils
-}
-=
 ChromeUtils
 .
 import
@@ -1499,7 +1494,7 @@ The
 muxer
 to
 sort
-matches
+results
 *
 param
 {
@@ -1582,7 +1577,7 @@ false
 Array
 of
 acceptable
-MATCH_SOURCE
+RESULT_SOURCE
 values
 for
 this
@@ -1602,7 +1597,7 @@ skipped
 as
 well
 as
-matches
+results
 not
 part
 of
@@ -3234,7 +3229,7 @@ values
 (
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 )
 )
 {
@@ -3288,7 +3283,7 @@ source
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 BOOKMARKS
 :
@@ -3347,7 +3342,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 HISTORY
 :
@@ -3395,7 +3390,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 SEARCH
 :
@@ -3443,7 +3438,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 TABS
 :
@@ -3491,7 +3486,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 OTHER_NETWORK
 :
@@ -3520,7 +3515,7 @@ break
 case
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 OTHER_LOCAL
 :

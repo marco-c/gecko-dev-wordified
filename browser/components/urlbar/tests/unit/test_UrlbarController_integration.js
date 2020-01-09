@@ -49,11 +49,6 @@ use
 strict
 "
 ;
-const
-{
-PromiseUtils
-}
-=
 ChromeUtils
 .
 import
@@ -99,7 +94,7 @@ RESULT_TYPE
 TAB_SWITCH
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 TABS
 {

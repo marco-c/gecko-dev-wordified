@@ -70,11 +70,6 @@ UrlbarView
 "
 ]
 ;
-const
-{
-XPCOMUtils
-}
-=
 ChromeUtils
 .
 import
@@ -1890,7 +1885,7 @@ source
 =
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 TABS
 )
@@ -1918,7 +1913,7 @@ source
 =
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 .
 BOOKMARKS
 )

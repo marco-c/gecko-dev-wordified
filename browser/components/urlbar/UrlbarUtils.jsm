@@ -108,11 +108,6 @@ UrlbarUtils
 "
 ]
 ;
-const
-{
-XPCOMUtils
-}
-=
 ChromeUtils
 .
 import
@@ -622,7 +617,7 @@ defines
 the
 source
 of
-matches
+results
 returned
 by
 a
@@ -634,7 +629,7 @@ provider
 /
 can
 return
-matches
+results
 from
 more
 than
@@ -660,12 +655,12 @@ and
 which
 /
 /
-matches
+results
 can
 be
 returned
 .
-MATCH_SOURCE
+RESULT_SOURCE
 :
 {
 BOOKMARKS
@@ -2836,7 +2831,7 @@ List
 of
 UrlbarUtils
 .
-MATCH_SOURCE
+RESULT_SOURCE
 representing
 the
 data
