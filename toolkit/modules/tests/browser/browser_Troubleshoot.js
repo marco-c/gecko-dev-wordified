@@ -1763,15 +1763,6 @@ object
 }
 }
 }
-lowEndMachine
-:
-{
-type
-:
-"
-boolean
-"
-}
 targetFrameRate
 :
 {

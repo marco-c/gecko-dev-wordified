@@ -3239,11 +3239,6 @@ OffMainThreadPaintWorkerCount
 "
 offMainThreadPaintWorkerCount
 "
-LowEndMachine
-:
-"
-lowEndMachine
-"
 TargetFrameRate
 :
 "
