@@ -8,6 +8,8 @@ in
 a
 browser
 environment
+on
+nightly
 .
 var
 functionDeclarationsConfigurable
@@ -20,6 +22,14 @@ document
 "
 undefined
 "
+&
+&
+!
+getBuildConfiguration
+(
+)
+.
+release_or_beta
 ;
 var
 o
