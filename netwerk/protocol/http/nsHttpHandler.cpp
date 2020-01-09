@@ -3296,6 +3296,7 @@ nsRFPService
 GetSpoofedUserAgent
 (
 mSpoofedUserAgent
+true
 )
 ;
 if

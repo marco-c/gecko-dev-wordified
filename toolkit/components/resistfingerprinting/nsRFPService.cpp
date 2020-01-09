@@ -4938,6 +4938,8 @@ GetSpoofedUserAgent
 nsACString
 &
 userAgent
+bool
+isForHTTPHeader
 )
 {
 /
@@ -5290,6 +5292,17 @@ firefoxVersion
 7
 )
 ;
+const
+char
+*
+spoofedOS
+=
+isForHTTPHeader
+?
+SPOOFED_HTTP_UA_OS
+:
+SPOOFED_UA_OS
+;
 userAgent
 .
 Assign
@@ -5324,7 +5337,7 @@ d
 .
 0
 "
-SPOOFED_UA_OS
+spoofedOS
 spoofedVersion
 LEGACY_UA_GECKO_TRAIL
 spoofedVersion
