@@ -577,7 +577,8 @@ in
 this
 file
 .
-bool
+JSScript
+*
 CopyScript
 (
 JSContext
@@ -587,8 +588,6 @@ HandleScript
 src
 HandleScriptSourceObject
 sourceObject
-MutableHandleScript
-dst
 MutableHandle
 <
 GCVector
@@ -11971,7 +11970,8 @@ scopes
 )
 ;
 friend
-bool
+JSScript
+*
 js
 :
 :
@@ -11993,11 +11993,6 @@ js
 :
 HandleScriptSourceObject
 sourceObject
-js
-:
-:
-MutableHandleScript
-dst
 js
 :
 :
