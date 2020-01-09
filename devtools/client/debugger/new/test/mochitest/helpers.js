@@ -7175,7 +7175,7 @@ conditional
 breakpoint
 -
 panel
-textarea
+input
 "
 searchField
 :
