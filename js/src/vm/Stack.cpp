@@ -1664,13 +1664,6 @@ script
 )
 )
 {
-if
-(
-isGlobalFrame
-(
-)
-)
-{
 /
 /
 Treat
@@ -1704,7 +1697,6 @@ AdvanceExecutionProgressCounter
 (
 )
 ;
-}
 }
 return
 false
