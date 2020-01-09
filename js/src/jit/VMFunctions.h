@@ -6525,9 +6525,10 @@ CheckGlobalOrEvalDeclarationConflicts
 JSContext
 *
 cx
-BaselineFrame
-*
-frame
+HandleObject
+envChain
+HandleScript
+script
 )
 ;
 MOZ_MUST_USE
