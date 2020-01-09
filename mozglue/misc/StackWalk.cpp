@@ -5664,6 +5664,7 @@ aBp
 |
 next
 >
+=
 aStackEnd
 |
 |
