@@ -26658,11 +26658,13 @@ graph
 jit
 :
 :
-SpewBeginFunction
+SpewBeginWasmFunction
 (
 &
 mir
-nullptr
+func
+.
+index
 )
 ;
 jit
