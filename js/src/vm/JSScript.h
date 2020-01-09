@@ -14649,7 +14649,7 @@ needsArgsObj
 )
 ;
 static
-bool
+void
 argumentsOptimizationFailed
 (
 JSContext
