@@ -230,11 +230,6 @@ ShouldEnableClassifier
 nsIChannel
 *
 aChannel
-AntiTrackingCommon
-:
-:
-ContentBlockingAllowListPurpose
-aBlockingPurpose
 )
 ;
 static
