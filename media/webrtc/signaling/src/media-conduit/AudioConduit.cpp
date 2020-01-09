@@ -1232,16 +1232,6 @@ ASSERT_ON_THREAD
 mStsThread
 )
 ;
-unsigned
-int
-maxJitterMs
-=
-0
-;
-unsigned
-int
-discardedPackets
-;
 *
 jitterMs
 =
@@ -1261,8 +1251,6 @@ GetRTPStatistics
 (
 *
 jitterMs
-maxJitterMs
-discardedPackets
 *
 cumulativeLost
 )
