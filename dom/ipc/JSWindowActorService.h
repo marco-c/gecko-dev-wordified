@@ -303,6 +303,10 @@ aBrowsingContext
 nsIURI
 *
 aURI
+const
+nsString
+&
+aRemoteType
 JS
 :
 :
