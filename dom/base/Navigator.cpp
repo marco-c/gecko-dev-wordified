@@ -268,7 +268,7 @@ h
 #
 include
 "
-nsIWebContentHandlerRegistrar
+nsIWebProtocolHandlerRegistrar
 .
 h
 "
@@ -6209,13 +6209,13 @@ return
 }
 nsCOMPtr
 <
-nsIWebContentHandlerRegistrar
+nsIWebProtocolHandlerRegistrar
 >
 registrar
 =
 do_GetService
 (
-NS_WEBCONTENTHANDLERREGISTRAR_CONTRACTID
+NS_WEBPROTOCOLHANDLERREGISTRAR_CONTRACTID
 )
 ;
 if
