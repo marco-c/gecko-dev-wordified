@@ -701,6 +701,8 @@ values
                     
 low_value_tasks
 =
+set
+(
 task_list
 .
 values
@@ -709,59 +711,7 @@ values
 [
 0
 ]
-                    
-#
-bb
-job
-types
-return
-a
-list
-instead
-of
-a
-single
-string
-                    
-#
-convert
-to
-a
-single
-string
-to
-match
-tc
-tasks
-format
-                    
-if
-type
-(
-low_value_tasks
-[
-0
-]
 )
-=
-=
-list
-:
-                        
-low_value_tasks
-=
-[
-self
-.
-_get_task_string
-(
-x
-)
-for
-x
-in
-low_value_tasks
-]
             
 #
 hack
@@ -906,6 +856,8 @@ values
                     
 high_value_tasks
 =
+set
+(
 task_list
 .
 values
@@ -914,6 +866,7 @@ values
 [
 0
 ]
+)
             
 #
 hack
@@ -970,7 +923,7 @@ high_value_tasks
             
 low_value_tasks
 .
-extend
+update
 (
 high_value_android_tasks
 )
@@ -1163,7 +1116,7 @@ low_value_tasks
                     
 low_value_tasks
 .
-extend
+update
 (
                         
 [
@@ -1221,7 +1174,7 @@ high_value_tasks
                     
 high_value_tasks
 .
-extend
+update
 (
                         
 [
@@ -1332,6 +1285,8 @@ opt
             
 low_value_tasks
 =
+set
+(
 [
 x
 for
@@ -1345,6 +1300,7 @@ new_as_old_is_high_value
 x
 )
 ]
+)
             
 #
 ensure
@@ -1363,6 +1319,8 @@ those
             
 low_value_tasks
 =
+set
+(
 [
 x
 for
@@ -1377,6 +1335,7 @@ not
 in
 x
 ]
+)
         
 #
 In
