@@ -385,7 +385,7 @@ Curiously_recurring_template_pattern
 template
 <
 typename
-Super
+Derived
 >
 class
 ParseNodeVisitor
@@ -461,7 +461,7 @@ KIND
 return
 static_cast
 <
-Super
+Derived
 *
 >
 (
@@ -502,7 +502,7 @@ kind
 using
 static_cast
 <
-Super
+Derived
 *
 >
 here
@@ -583,7 +583,7 @@ accept
 *
 static_cast
 <
-Super
+Derived
 *
 >
 (
