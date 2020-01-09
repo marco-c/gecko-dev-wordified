@@ -2479,6 +2479,12 @@ heapSnapshots
 target
 .
 isAddon
+&
+&
+!
+target
+.
+isWorkerTarget
 ;
 }
 build
@@ -2654,6 +2660,12 @@ getTrait
 networkMonitor
 "
 )
+&
+&
+!
+target
+.
+isWorkerTarget
 ;
 }
 build
