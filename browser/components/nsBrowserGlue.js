@@ -13930,7 +13930,7 @@ QueryInterface
 (
 Ci
 .
-nsIPropertyBag
+nsIWritablePropertyBag
 )
 ;
 }

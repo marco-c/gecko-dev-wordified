@@ -504,7 +504,7 @@ QueryInterface
 (
 Ci
 .
-nsIPropertyBag
+nsIWritablePropertyBag
 )
 ;
 Assert
@@ -1011,7 +1011,7 @@ QueryInterface
 (
 Ci
 .
-nsIPropertyBag
+nsIWritablePropertyBag
 )
 ;
 Assert
