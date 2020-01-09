@@ -343,6 +343,10 @@ JS
 Value
 >
 aResult
+bool
+aFilterTest
+=
+false
 )
 ;
 /
@@ -439,6 +443,10 @@ JS
 Value
 >
 aResult
+bool
+aFilterTest
+=
+false
 )
 ;
 /

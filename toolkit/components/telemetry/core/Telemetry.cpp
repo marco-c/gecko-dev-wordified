@@ -3423,6 +3423,8 @@ nsACString
 aStoreName
 bool
 aClearStore
+bool
+aFilterTest
 JSContext
 *
 aCx
@@ -3459,6 +3461,7 @@ aCx
 aResult
 dataset
 aClearStore
+aFilterTest
 )
 ;
 }
@@ -3474,6 +3477,8 @@ nsACString
 aStoreName
 bool
 aClearStore
+bool
+aFilterTest
 JSContext
 *
 aCx
@@ -3510,6 +3515,7 @@ aCx
 aResult
 dataset
 aClearStore
+aFilterTest
 )
 ;
 }
@@ -3525,6 +3531,8 @@ nsACString
 aStoreName
 bool
 aClearStore
+bool
+aFilterTest
 JSContext
 *
 aCx
@@ -3562,6 +3570,7 @@ aClearStore
 aCx
 1
 aResult
+aFilterTest
 )
 ;
 }
@@ -3577,6 +3586,8 @@ nsACString
 aStoreName
 bool
 aClearStore
+bool
+aFilterTest
 JSContext
 *
 aCx
@@ -3614,6 +3625,7 @@ aClearStore
 aCx
 1
 aResult
+aFilterTest
 )
 ;
 }
