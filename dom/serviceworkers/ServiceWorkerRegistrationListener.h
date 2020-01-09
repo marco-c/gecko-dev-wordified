@@ -167,6 +167,14 @@ aDescriptor
 ;
 virtual
 void
+FireUpdateFound
+(
+)
+=
+0
+;
+virtual
+void
 RegistrationRemoved
 (
 )
