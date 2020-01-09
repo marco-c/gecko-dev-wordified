@@ -467,6 +467,8 @@ aFailureCB
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {
@@ -663,6 +665,8 @@ aFailureCB
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {
@@ -871,6 +875,8 @@ aFailureCB
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {
@@ -1035,6 +1041,8 @@ aFailureCB
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {

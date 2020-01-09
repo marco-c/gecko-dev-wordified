@@ -2717,6 +2717,8 @@ ipc
 :
 :
 FileDescriptor
+&
+&
 aFD
 )
 {
@@ -2740,7 +2742,13 @@ ipc
 :
 FileDescriptor
 (
+std
+:
+:
+move
+(
 aFD
+)
 )
 ;
 }
@@ -2754,6 +2762,8 @@ ipc
 :
 :
 ResponseRejectReason
+&
+&
 aReason
 )
 {

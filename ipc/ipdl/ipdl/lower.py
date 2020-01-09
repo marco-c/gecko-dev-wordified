@@ -1848,21 +1848,21 @@ bareType
 side
 )
     
-needmove
-=
-not
-all
-(
-d
+#
+MozPromise
+is
+purposefully
+made
+to
+be
+exclusive
+only
 .
-isCopyable
-(
-)
-for
-d
-in
-returns
-)
+Really
+we
+mean
+it
+.
     
 return
 _promise
@@ -1878,12 +1878,6 @@ Type
 ExprLiteral
 .
 TRUE
-if
-needmove
-else
-ExprLiteral
-.
-FALSE
                     
 resolver
 =
@@ -31992,7 +31986,10 @@ Reject
 args
 =
 [
+ExprMove
+(
 reason
+)
 ]
 )
 )
@@ -36616,6 +36613,20 @@ __func__
 ]
 )
         
+rejecttype
+=
+_ResponseRejectReason
+.
+Type
+(
+)
+        
+rejecttype
+.
+ref
+=
+2
+        
 rejectfn
 =
 ExprLambda
@@ -36627,11 +36638,7 @@ retpromise
 [
 Decl
 (
-_ResponseRejectReason
-.
-Type
-(
-)
+rejecttype
 "
 aReason
 "
@@ -36664,11 +36671,14 @@ Reject
 args
 =
 [
+ExprMove
+(
 ExprVar
 (
 '
 aReason
 '
+)
 )
                                     
 ExprVar
