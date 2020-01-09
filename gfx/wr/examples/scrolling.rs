@@ -309,7 +309,7 @@ ScrollSensitivity
 :
 :
 ScriptAndInputEvents
-LayoutPoint
+LayoutVector2D
 :
 :
 zero
@@ -642,7 +642,7 @@ ScrollSensitivity
 :
 :
 ScriptAndInputEvents
-LayoutPoint
+LayoutVector2D
 :
 :
 zero
