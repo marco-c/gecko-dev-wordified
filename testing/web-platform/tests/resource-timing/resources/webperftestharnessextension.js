@@ -364,6 +364,12 @@ entries
 expected_entries
 )
 {
+test
+(
+function
+(
+)
+{
 /
 /
 This
@@ -466,7 +472,7 @@ in
 actual_entries
 )
 {
-test_fail
+assert_unreached
 (
 expected_entry
 +
@@ -499,7 +505,7 @@ if
 found
 )
 {
-test_fail
+assert_unreached
 (
 entries
 [
@@ -567,7 +573,7 @@ sorted_urls
 i
 ]
 ;
-test_equals
+assert_equals
 (
 actual_entries
 [
@@ -616,7 +622,7 @@ actual_entries
 )
 )
 {
-test_fail
+assert_unreached
 (
 origin
 +
@@ -637,6 +643,14 @@ buffer
 ;
 }
 }
+}
+"
+Testing
+resource
+entries
+"
+)
+;
 }
 function
 performance_entrylist_checker
