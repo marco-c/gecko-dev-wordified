@@ -214,6 +214,16 @@ root
 ]
 )
         
+data
+.
+setdefault
+(
+"
+lineno
+"
+0
+)
+        
 results
 .
 append

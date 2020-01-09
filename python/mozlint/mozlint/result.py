@@ -595,6 +595,10 @@ int
 (
 lineno
 )
+if
+lineno
+else
+0
         
 self
 .
