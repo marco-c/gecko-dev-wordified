@@ -25108,12 +25108,6 @@ props_need_device
 =
 [
 "
-content
-"
-"
-list_style_type
-"
-"
 font_variant_alternates
 "
 ]

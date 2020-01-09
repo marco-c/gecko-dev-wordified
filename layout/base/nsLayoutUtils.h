@@ -20701,10 +20701,6 @@ FixupNoneGeneric
 nsFont
 *
 aFont
-const
-nsPresContext
-*
-aPresContext
 uint8_t
 aGenericFontID
 const
@@ -20755,9 +20751,14 @@ nsStyleFont
 *
 aFont
 const
-nsPresContext
+mozilla
+:
+:
+dom
+:
+:
+Document
 *
-aPresContext
 nscoord
 aMinFontSize
 )
