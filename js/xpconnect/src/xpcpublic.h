@@ -625,14 +625,6 @@ obj
 )
 ;
 bool
-IsInSandboxCompartment
-(
-JSObject
-*
-obj
-)
-;
-bool
 MightBeWebContentCompartment
 (
 JS
