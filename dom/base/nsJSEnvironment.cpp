@@ -14663,6 +14663,10 @@ cx
 (
 )
 ConsumeStream
+FetchUtil
+:
+:
+ReportJSStreamError
 )
 ;
 /

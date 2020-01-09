@@ -712,6 +712,10 @@ consumeStreamCallback
 (
 nullptr
 )
+reportStreamErrorCallback
+(
+nullptr
+)
 readableStreamDataRequestCallback
 (
 nullptr
