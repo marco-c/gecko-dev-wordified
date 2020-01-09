@@ -249,12 +249,6 @@ target_tasks_method
 '
 ash_tasks
 '
-        
-'
-optimize_target_tasks
-'
-:
-True
     
 }
     
@@ -271,12 +265,6 @@ target_tasks_method
 '
 cedar_tasks
 '
-        
-'
-optimize_target_tasks
-'
-:
-True
     
 }
     
@@ -293,12 +281,6 @@ target_tasks_method
 '
 graphics_tasks
 '
-        
-'
-optimize_target_tasks
-'
-:
-True
     
 }
     
@@ -317,12 +299,6 @@ target_tasks_method
 '
 default
 '
-        
-'
-optimize_target_tasks
-'
-:
-True
         
 '
 release_type
@@ -349,12 +325,6 @@ target_tasks_method
 '
 mozilla_beta_tasks
 '
-        
-'
-optimize_target_tasks
-'
-:
-True
         
 '
 release_type
@@ -383,12 +353,6 @@ mozilla_release_tasks
 '
         
 '
-optimize_target_tasks
-'
-:
-True
-        
-'
 release_type
 '
 :
@@ -413,12 +377,6 @@ target_tasks_method
 '
 mozilla_esr60_tasks
 '
-        
-'
-optimize_target_tasks
-'
-:
-True
         
 '
 release_type
@@ -447,12 +405,6 @@ default
 '
         
 '
-optimize_target_tasks
-'
-:
-True
-        
-'
 release_type
 '
 :
@@ -477,12 +429,6 @@ target_tasks_method
 '
 mozilla_beta_tasks
 '
-        
-'
-optimize_target_tasks
-'
-:
-True
         
 '
 release_type
@@ -511,12 +457,6 @@ mozilla_esr60_tasks
 '
         
 '
-optimize_target_tasks
-'
-:
-True
-        
-'
 release_type
 '
 :
@@ -539,12 +479,6 @@ target_tasks_method
 '
 pine_tasks
 '
-        
-'
-optimize_target_tasks
-'
-:
-True
     
 }
     
@@ -576,12 +510,6 @@ target_tasks_method
 '
 default
 '
-        
-'
-optimize_target_tasks
-'
-:
-True
     
 }
 }
@@ -1409,6 +1337,15 @@ target_tasks_method
 '
     
 ]
+    
+parameters
+[
+'
+optimize_target_tasks
+'
+]
+=
+True
     
 parameters
 [
