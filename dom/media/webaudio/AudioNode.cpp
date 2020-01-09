@@ -336,6 +336,13 @@ aContext
 GetOwnerGlobal
 (
 )
+?
+aContext
+-
+>
+GetOwnerGlobal
+(
+)
 -
 >
 AbstractMainThreadFor
@@ -345,6 +352,8 @@ TaskCategory
 :
 Other
 )
+:
+nullptr
 )
 {
 MOZ_ASSERT

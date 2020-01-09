@@ -2517,9 +2517,14 @@ IsFinished
 if
 (
 mIsOffline
+&
+&
+GetAbstractMainThread
+(
+)
 )
 {
-AbstractMainThread
+GetAbstractMainThread
 (
 )
 -
