@@ -2921,14 +2921,6 @@ final
 public
 RInstruction
 {
-private
-:
-gc
-:
-:
-InitialHeap
-initialHeap_
-;
 public
 :
 RINSTRUCTION_HEADER_NUM_OP_
