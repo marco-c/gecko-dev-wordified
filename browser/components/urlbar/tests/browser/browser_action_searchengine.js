@@ -273,6 +273,9 @@ engine
 "
 MozSearch
 "
+keyword
+:
+undefined
 query
 :
 "
