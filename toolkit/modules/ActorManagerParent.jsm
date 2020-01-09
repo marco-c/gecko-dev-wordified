@@ -1236,6 +1236,9 @@ MozOpenDateTimePicker
 {
 }
 }
+allFrames
+:
+true
 }
 }
 ExtFind
