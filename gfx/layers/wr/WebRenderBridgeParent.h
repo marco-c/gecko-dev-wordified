@@ -2508,6 +2508,9 @@ wr
 IdNamespace
 mIdNamespace
 ;
+VsyncId
+mSkippedCompositeId
+;
 bool
 mPaused
 ;
