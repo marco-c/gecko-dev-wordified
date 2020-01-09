@@ -5448,9 +5448,6 @@ nsUpdateProcessor
 :
 ProcessUpdate
 (
-nsIUpdate
-*
-aUpdate
 )
 {
 nsresult

@@ -13836,9 +13836,6 @@ nsIUpdateProcessor
 .
 processUpdate
 (
-gUpdateManager
-.
-activeUpdate
 )
 ;
 }
