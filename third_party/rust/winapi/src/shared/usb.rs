@@ -2321,10 +2321,10 @@ UCHAR
 [
 cfg
 (
-target_pointer_width
+target_arch
 =
 "
-64
+x86_64
 "
 )
 ]
