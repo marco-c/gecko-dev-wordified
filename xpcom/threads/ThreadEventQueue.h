@@ -185,9 +185,6 @@ class
 PrioritizedEventQueue
 ;
 class
-LabeledEventQueue
-;
-class
 ThreadEventTarget
 ;
 /
@@ -729,17 +726,6 @@ ThreadEventQueue
 PrioritizedEventQueue
 <
 EventQueue
->
->
-;
-extern
-template
-class
-ThreadEventQueue
-<
-PrioritizedEventQueue
-<
-LabeledEventQueue
 >
 >
 ;
