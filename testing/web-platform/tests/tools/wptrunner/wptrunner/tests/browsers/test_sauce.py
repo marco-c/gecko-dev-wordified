@@ -187,6 +187,11 @@ sauce_connect_binary
 "
 ddd
 "
+            
+sauce_connect_args
+=
+[
+]
 )
         
 with
@@ -389,6 +394,11 @@ sauce_connect_binary
 "
 ddd
 "
+            
+sauce_connect_args
+=
+[
+]
 )
         
 with
@@ -614,6 +624,11 @@ sauce_connect_binary
 "
 ddd
 "
+            
+sauce_connect_args
+=
+[
+]
 )
         
 with
@@ -791,6 +806,11 @@ sauce_connect_binary
 "
 ddd
 "
+            
+sauce_connect_args
+=
+[
+]
 )
         
 with
@@ -991,6 +1011,11 @@ sauce_connect_binary
 "
 ddd
 "
+            
+sauce_connect_args
+=
+[
+]
 )
         
 with

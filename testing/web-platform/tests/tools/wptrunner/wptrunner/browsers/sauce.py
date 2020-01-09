@@ -850,6 +850,19 @@ sauce_connect_binary
         
 self
 .
+sauce_connect_args
+=
+kwargs
+.
+get
+(
+"
+sauce_connect_args
+"
+)
+        
+self
+.
 sauce_init_timeout
 =
 kwargs
@@ -1230,6 +1243,10 @@ domains_set
 )
         
 ]
++
+self
+.
+sauce_connect_args
 )
         
 tot_wait
