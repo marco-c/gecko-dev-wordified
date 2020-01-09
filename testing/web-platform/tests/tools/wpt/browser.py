@@ -2068,10 +2068,13 @@ version
             
 dest
 =
-dest
+os
+.
+path
 .
 join
 (
+dest
 version
 )
         
