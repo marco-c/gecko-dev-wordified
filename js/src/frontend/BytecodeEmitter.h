@@ -1103,16 +1103,6 @@ script
 frame
 *
 /
-unsigned
-emitLevel
-;
-/
-*
-emitTree
-recursion
-level
-*
-/
 uint32_t
 bodyScopeIndex
 ;
