@@ -202,7 +202,6 @@ com
 justsystems
 .
 atokmobile
-.
 "
 ;
 public
