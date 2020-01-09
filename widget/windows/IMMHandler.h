@@ -2936,9 +2936,6 @@ mIsComposing
 bool
 mIsComposingOnPlugin
 ;
-bool
-mNativeCaretIsCreated
-;
 static
 mozilla
 :
@@ -2969,10 +2966,6 @@ sAssumeVerticalWritingModeNotSupported
 static
 bool
 sHasFocus
-;
-static
-bool
-sNativeCaretIsCreatedForPlugin
 ;
 }
 ;
