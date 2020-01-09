@@ -309,6 +309,15 @@ className
 default
 -
 button
+js
+-
+debug
+-
+target
+-
+inspect
+-
+button
 "
 }
 "
