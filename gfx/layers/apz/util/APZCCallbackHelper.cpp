@@ -2683,10 +2683,13 @@ shell
 SetResolutionAndScaleTo
 (
 presShellResolution
-nsGkAtoms
+nsIPresShell
 :
 :
-apz
+ChangeOrigin
+:
+:
+eApz
 )
 ;
 }

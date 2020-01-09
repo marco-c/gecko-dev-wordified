@@ -2368,10 +2368,13 @@ SetResolutionAndScaleTo
 resolution
 .
 scale
-nsGkAtoms
+nsIPresShell
 :
 :
-other
+ChangeOrigin
+:
+:
+eOther
 )
 ;
 MVM_LOG

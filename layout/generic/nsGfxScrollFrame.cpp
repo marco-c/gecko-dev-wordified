@@ -43209,10 +43209,13 @@ aState
 resolution
 (
 )
-nsGkAtoms
+nsIPresShell
 :
 :
-restore
+ChangeOrigin
+:
+:
+eRestore
 )
 ;
 }

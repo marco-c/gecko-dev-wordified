@@ -34207,8 +34207,7 @@ SetResolutionAndScaleTo
 (
 float
 aResolution
-nsAtom
-*
+ChangeOrigin
 aOrigin
 )
 {
@@ -34294,10 +34293,10 @@ if
 aOrigin
 !
 =
-nsGkAtoms
+ChangeOrigin
 :
 :
-apz
+eApz
 )
 {
 mResolutionUpdated
