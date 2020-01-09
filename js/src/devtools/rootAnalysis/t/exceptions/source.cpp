@@ -197,6 +197,13 @@ asm
 }
 ;
 extern
+Cell
+*
+getcell
+(
+)
+;
+extern
 void
 usevar
 (
@@ -214,7 +221,9 @@ Cell
 *
 thing
 =
-nullptr
+getcell
+(
+)
 ;
 /
 /
