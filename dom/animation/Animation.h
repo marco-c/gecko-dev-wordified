@@ -2487,8 +2487,10 @@ Running
 bool
 ShouldBeSynchronizedWithMainThread
 (
-nsCSSPropertyID
-aProperty
+const
+nsCSSPropertyIDSet
+&
+aPropertySet
 const
 nsIFrame
 *

@@ -2297,8 +2297,10 @@ NoAndBlockThisProperty
 MatchForCompositor
 IsMatchForCompositor
 (
-nsCSSPropertyID
-aProperty
+const
+nsCSSPropertyIDSet
+&
+aPropertySet
 const
 nsIFrame
 *
