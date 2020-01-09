@@ -280,6 +280,15 @@ nullable
 :
 string
 "
+workers
+:
+"
+nullable
+:
+array
+:
+json
+"
 }
 )
 ;
