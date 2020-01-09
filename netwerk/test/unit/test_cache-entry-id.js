@@ -477,7 +477,6 @@ preferAlternativeDataType
 altContentType
 "
 "
-true
 )
 ;
 }

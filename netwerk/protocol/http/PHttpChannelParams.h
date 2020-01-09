@@ -255,6 +255,17 @@ RequestHeaderTuple
 >
 RequestHeaderTuples
 ;
+typedef
+nsTArray
+<
+Tuple
+<
+nsCString
+nsCString
+>
+>
+ArrayOfStringPairs
+;
 }
 /
 /

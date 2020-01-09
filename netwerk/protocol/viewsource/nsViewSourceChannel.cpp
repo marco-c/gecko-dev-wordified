@@ -5202,10 +5202,11 @@ nsTArray
 mozilla
 :
 :
-net
-:
-:
-PreferredAlternativeDataTypeParams
+Tuple
+<
+nsCString
+nsCString
+>
 >
 &
 nsViewSourceChannel
