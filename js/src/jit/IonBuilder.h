@@ -5480,6 +5480,14 @@ native
 )
 ;
 InliningResult
+inlineIsTypedArrayConstructor
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineIsTypedArrayHelper
 (
 CallInfo

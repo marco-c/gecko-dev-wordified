@@ -18518,7 +18518,7 @@ TypedArrayObject
 0
 IntrinsicIsPossiblyWrappedTypedArray
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 IsTypedArrayConstructor
@@ -18526,6 +18526,7 @@ IsTypedArrayConstructor
 intrinsic_IsTypedArrayConstructor
 1
 0
+IntrinsicIsTypedArrayConstructor
 )
 JS_FN
 (
