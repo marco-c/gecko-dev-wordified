@@ -732,15 +732,9 @@ FAILURE
 )
 ;
 {
-AUTO_PROFILER_LABEL
+AUTO_PROFILER_LABEL_CATEGORY_PAIR
 (
-"
-Decoder
-:
-:
-Decode
-"
-GRAPHICS
+GRAPHICS_ImageDecoding
 )
 ;
 AutoRecordDecoderTelemetry

@@ -28034,7 +28034,7 @@ ContainerState
 :
 ProcessDisplayItems
 "
-GRAPHICS
+GRAPHICS_LayerBuilding
 )
 ;
 nsPoint
@@ -45796,7 +45796,7 @@ FrameLayerBuilder
 :
 PaintItems
 "
-GRAPHICS
+GRAPHICS_Rasterization
 item
 -
 >
@@ -45815,7 +45815,7 @@ FrameLayerBuilder
 :
 PaintItems
 "
-GRAPHICS
+GRAPHICS_Rasterization
 )
 ;
 #
@@ -47088,7 +47088,7 @@ FrameLayerBuilder
 :
 DrawPaintedLayer
 "
-GRAPHICS
+GRAPHICS_Rasterization
 )
 ;
 nsDisplayListBuilder

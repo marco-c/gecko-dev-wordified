@@ -16816,6 +16816,11 @@ ContainerLayer
 root
 ;
 {
+AUTO_PROFILER_LABEL_CATEGORY_PAIR
+(
+GRAPHICS_LayerBuilding
+)
+;
 #
 ifdef
 MOZ_GECKO_PROFILER

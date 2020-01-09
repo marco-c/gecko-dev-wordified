@@ -2877,15 +2877,9 @@ FlushAsyncPaints
 (
 )
 {
-AUTO_PROFILER_LABEL
+AUTO_PROFILER_LABEL_CATEGORY_PAIR
 (
-"
-ClientLayerManager
-:
-:
-FlushAsyncPaints
-"
-GRAPHICS
+GRAPHICS_FlushingAsyncPaints
 )
 ;
 CompositorBridgeChild
