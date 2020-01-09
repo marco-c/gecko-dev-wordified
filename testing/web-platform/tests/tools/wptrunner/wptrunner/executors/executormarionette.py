@@ -5129,6 +5129,26 @@ done
                 
 break
         
+try
+:
+            
+self
+.
+protocol
+.
+testharness
+.
+close_old_windows
+(
+protocol
+)
+        
+except
+Exception
+:
+            
+pass
+        
 if
 self
 .
