@@ -78,7 +78,7 @@ use
 image
 :
 :
-GenericImage
+GenericImageView
 ;
 use
 parse_function
