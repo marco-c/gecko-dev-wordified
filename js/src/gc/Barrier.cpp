@@ -473,7 +473,7 @@ target
 )
 ;
 }
-CheckTargetIsNotGray
+AssertTargetIsNotGray
 (
 obj
 )

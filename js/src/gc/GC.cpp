@@ -58045,7 +58045,7 @@ tc
 ifdef
 DEBUG
 JS_PUBLIC_API
-bool
+void
 js
 :
 :
@@ -58055,7 +58055,7 @@ gc
 detail
 :
 :
-CellIsNotGray
+AssertCellIsNotGray
 (
 const
 Cell
@@ -58136,7 +58136,6 @@ cell
 )
 {
 return
-true
 ;
 }
 /
@@ -58193,7 +58192,8 @@ asTenured
 (
 )
 ;
-return
+MOZ_ASSERT
+(
 !
 detail
 :
@@ -58201,6 +58201,7 @@ detail
 CellIsMarkedGray
 (
 tc
+)
 )
 ;
 }

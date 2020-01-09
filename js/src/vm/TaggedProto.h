@@ -636,8 +636,8 @@ toObject
 ifdef
 DEBUG
 MOZ_ALWAYS_INLINE
-bool
-TaggedProtoIsNotGray
+void
+AssertTaggedProtoIsNotGray
 (
 const
 TaggedProto
@@ -647,7 +647,6 @@ proto
 {
 if
 (
-!
 proto
 .
 isObject
@@ -655,15 +654,10 @@ isObject
 )
 )
 {
-return
-true
-;
-}
-return
 JS
 :
 :
-ObjectIsNotGray
+AssertObjectIsNotGray
 (
 proto
 .
@@ -672,6 +666,7 @@ toObject
 )
 )
 ;
+}
 }
 #
 endif
@@ -738,8 +733,8 @@ isObject
 ifdef
 DEBUG
 static
-bool
-thingIsNotGray
+void
+assertThingIsNotGray
 (
 const
 TaggedProto
@@ -747,8 +742,7 @@ TaggedProto
 proto
 )
 {
-return
-TaggedProtoIsNotGray
+AssertTaggedProtoIsNotGray
 (
 proto
 )

@@ -3099,8 +3099,8 @@ ifdef
 DEBUG
 extern
 JS_PUBLIC_API
-bool
-CellIsNotGray
+void
+AssertCellIsNotGray
 (
 const
 Cell

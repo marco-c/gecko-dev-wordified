@@ -28126,15 +28126,12 @@ global
 )
 ;
             
-MOZ_ASSERT
-(
 JS
 :
 :
-ObjectIsNotGray
+AssertObjectIsNotGray
 (
 global
-)
 )
 ;
             

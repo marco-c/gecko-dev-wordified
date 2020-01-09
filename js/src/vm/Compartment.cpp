@@ -2262,15 +2262,12 @@ in
 the
 past
 .
-MOZ_ASSERT
-(
 JS
 :
 :
-ObjectIsNotGray
+AssertObjectIsNotGray
 (
 obj
-)
 )
 ;
 /
