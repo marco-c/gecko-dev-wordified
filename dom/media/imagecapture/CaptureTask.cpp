@@ -219,7 +219,7 @@ aCaptureTask
 ;
 /
 /
-MediaStreamListener
+MediaStreamTrackListener
 methods
 .
 void
