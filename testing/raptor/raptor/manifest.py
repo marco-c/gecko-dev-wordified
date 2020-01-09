@@ -1972,12 +1972,15 @@ else
 :
             
 if
+int
+(
 next_test
 [
 '
 page_cycles
 '
 ]
+)
 >
 max_page_cycles
 :
