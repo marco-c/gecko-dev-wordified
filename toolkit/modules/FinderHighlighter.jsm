@@ -5549,6 +5549,8 @@ shift
 )
 ;
 return
+!
+(
 new
 Color
 (
@@ -5557,8 +5559,9 @@ Color
 .
 cssColor
 )
+)
 .
-isBright
+useBrightText
 ;
 }
 /
