@@ -1648,6 +1648,16 @@ flags
 =
 flags
 ;
+info
+.
+prefs
+=
+settings
+.
+getPrefsMap
+(
+)
+;
 if
 (
 !
