@@ -309,7 +309,10 @@ Unused
 Send__delete__
 (
 this
+Some
+(
 info
+)
 aErrorCode
 )
 ;
@@ -338,7 +341,7 @@ Unused
 Send__delete__
 (
 this
-void_t
+Nothing
 (
 )
 NS_ERROR_FAILURE
