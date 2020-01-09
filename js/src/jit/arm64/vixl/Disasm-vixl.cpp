@@ -303,6 +303,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
 <
 cstdlib
 >
