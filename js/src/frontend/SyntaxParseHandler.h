@@ -2964,7 +2964,7 @@ kind
 ParseNodeKind
 :
 :
-VarStmt
+Var
 )
 ;
 MOZ_ASSERT
@@ -2975,7 +2975,7 @@ kind
 ParseNodeKind
 :
 :
-LetDecl
+Let
 )
 ;
 MOZ_ASSERT
@@ -2986,7 +2986,7 @@ kind
 ParseNodeKind
 :
 :
-ConstDecl
+Const
 )
 ;
 return
@@ -3031,7 +3031,7 @@ kind
 ParseNodeKind
 :
 :
-VarStmt
+Var
 )
 {
 return
@@ -3046,7 +3046,7 @@ kind
 ParseNodeKind
 :
 :
-LetDecl
+Let
 |
 |
 kind
@@ -3055,7 +3055,7 @@ kind
 ParseNodeKind
 :
 :
-ConstDecl
+Const
 )
 ;
 return
@@ -3196,7 +3196,7 @@ kind
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 ?
 NodeUnparenthesizedAssignment
 :

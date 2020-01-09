@@ -8073,7 +8073,7 @@ isKind
 ParseNodeKind
 :
 :
-ImportDecl
+Import
 )
 )
 ;
@@ -8141,7 +8141,7 @@ isKind
 ParseNodeKind
 :
 :
-StringExpr
+String
 )
 )
 ;
@@ -8415,7 +8415,7 @@ isKind
 ParseNodeKind
 :
 :
-ExportStmt
+Export
 )
 |
 |
@@ -8427,7 +8427,7 @@ isKind
 ParseNodeKind
 :
 :
-ExportDefaultStmt
+ExportDefault
 )
 )
 ;
@@ -8442,7 +8442,7 @@ isKind
 ParseNodeKind
 :
 :
-ExportDefaultStmt
+ExportDefault
 )
 ;
 ParseNode
@@ -8708,7 +8708,7 @@ case
 ParseNodeKind
 :
 :
-ClassDecl
+Class
 :
 {
 const
@@ -8799,19 +8799,19 @@ case
 ParseNodeKind
 :
 :
-VarStmt
+Var
 :
 case
 ParseNodeKind
 :
 :
-ConstDecl
+Const
 :
 case
 ParseNodeKind
 :
 :
-LetDecl
+Let
 :
 {
 RootedAtom
@@ -8857,7 +8857,7 @@ isKind
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 )
 )
 {
@@ -8970,7 +8970,7 @@ isKind
 ParseNodeKind
 :
 :
-ArrayExpr
+Array
 )
 )
 {
@@ -9009,7 +9009,7 @@ isKind
 ParseNodeKind
 :
 :
-ObjectExpr
+Object
 )
 )
 ;
@@ -9227,7 +9227,7 @@ isKind
 ParseNodeKind
 :
 :
-ArrayExpr
+Array
 )
 )
 {
@@ -9257,7 +9257,7 @@ isKind
 ParseNodeKind
 :
 :
-ObjectExpr
+Object
 )
 )
 ;
@@ -9308,7 +9308,7 @@ isKind
 ParseNodeKind
 :
 :
-ArrayExpr
+Array
 )
 )
 ;
@@ -9385,7 +9385,7 @@ isKind
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 )
 )
 {
@@ -9455,7 +9455,7 @@ isKind
 ParseNodeKind
 :
 :
-ObjectExpr
+Object
 )
 )
 ;
@@ -9620,7 +9620,7 @@ isKind
 ParseNodeKind
 :
 :
-AssignExpr
+Assign
 )
 )
 {
@@ -9691,7 +9691,7 @@ isKind
 ParseNodeKind
 :
 :
-ExportFromStmt
+ExportFrom
 )
 )
 ;
@@ -9759,7 +9759,7 @@ isKind
 ParseNodeKind
 :
 :
-StringExpr
+String
 )
 )
 ;
@@ -9930,7 +9930,7 @@ isKind
 ParseNodeKind
 :
 :
-ExportBatchSpecStmt
+ExportBatchSpec
 )
 )
 ;
