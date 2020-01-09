@@ -556,6 +556,14 @@ pc
 )
 ;
 bool
+hasSeenNonIntegerIndex
+(
+jsbytecode
+*
+pc
+)
+;
+bool
 hasSeenAccessedGetter
 (
 jsbytecode

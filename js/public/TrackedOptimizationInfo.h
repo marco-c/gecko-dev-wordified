@@ -615,6 +615,11 @@ ArraySeenNegativeIndex
 \
 _
 (
+ArraySeenNonIntegerIndex
+)
+\
+_
+(
 TypedObjectHasDetachedBuffer
 )
 \
