@@ -112,6 +112,9 @@ include
 <
 string
 >
+class
+DeviceInfoIosObjC
+;
 namespace
 webrtc
 {
@@ -270,6 +273,10 @@ string
 VideoCaptureCapabilities
 >
 _capabilitiesMap
+;
+DeviceInfoIosObjC
+*
+_captureInfo
 ;
 }
 ;
