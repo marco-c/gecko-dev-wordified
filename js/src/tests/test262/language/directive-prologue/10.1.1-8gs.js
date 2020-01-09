@@ -1,13 +1,5 @@
 /
 /
-|
-reftest
-|
-error
-:
-SyntaxError
-/
-/
 Copyright
 (
 c
