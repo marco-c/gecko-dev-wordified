@@ -188,6 +188,15 @@ ScriptSettings
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ScriptPreloader
+.
+h
+"
 using
 namespace
 mozilla
