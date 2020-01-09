@@ -34432,7 +34432,13 @@ a
 request
 when
 STATE_BLOCKED_TRACKING_CONTENT
-is
+or
+/
+/
+other
+blocking
+events
+are
 observed
 )
 .
