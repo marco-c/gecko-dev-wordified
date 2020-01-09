@@ -96,7 +96,7 @@ types
 import
 type
 {
-Location
+SourceLocation
 Source
 SourceId
 }
@@ -233,7 +233,7 @@ AstPosition
 Promise
 <
 ?
-Location
+SourceLocation
 >
 =
 >
@@ -279,7 +279,7 @@ async
 (
 location
 :
-Location
+SourceLocation
 )
 :
 Promise

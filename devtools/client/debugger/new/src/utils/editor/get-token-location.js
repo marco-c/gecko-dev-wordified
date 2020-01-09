@@ -64,7 +64,7 @@ flow
 import
 type
 {
-ColumnPosition
+Position
 }
 from
 "
@@ -89,7 +89,7 @@ tokenEl
 HTMLElement
 )
 :
-ColumnPosition
+Position
 {
 const
 {

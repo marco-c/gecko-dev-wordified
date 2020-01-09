@@ -210,7 +210,7 @@ types
 import
 type
 {
-Location
+SourceLocation
 }
 from
 "
@@ -533,7 +533,7 @@ toEditorPosition
 (
 location
 :
-Location
+SourceLocation
 )
 :
 EditorPosition
@@ -1131,7 +1131,7 @@ _editor
 Object
 selectedLocation
 :
-Location
+SourceLocation
 e
 :
 MouseEvent

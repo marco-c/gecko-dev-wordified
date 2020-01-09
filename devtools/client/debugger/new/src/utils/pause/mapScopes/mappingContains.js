@@ -64,7 +64,7 @@ flow
 import
 type
 {
-Position
+PartialPosition
 }
 from
 "
@@ -101,11 +101,11 @@ mapped
 +
 start
 :
-Position
+PartialPosition
 +
 end
 :
-Position
+PartialPosition
 }
 item
 :
@@ -113,11 +113,11 @@ item
 +
 start
 :
-Position
+PartialPosition
 +
 end
 :
-Position
+PartialPosition
 }
 )
 {

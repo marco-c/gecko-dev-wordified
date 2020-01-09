@@ -432,7 +432,7 @@ parser
 import
 type
 {
-Location
+SourceLocation
 Source
 }
 from
@@ -488,7 +488,7 @@ Props
 selectedLocation
 :
 ?
-Location
+SourceLocation
 selectedSource
 :
 ?
@@ -2944,6 +2944,11 @@ editorWrapper
 ;
 <
 Footer
+editor
+=
+{
+editor
+}
 horizontal
 =
 {
