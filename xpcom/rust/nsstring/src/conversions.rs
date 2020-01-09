@@ -148,7 +148,7 @@ always
 )
 ]
 fn
-times_three_plus_one
+times_three
 (
 a
 :
@@ -166,12 +166,6 @@ a
 checked_mul
 (
 3
-)
-?
-.
-checked_add
-(
-1
 )
 }
 #
@@ -2909,7 +2903,7 @@ inline_capacity
 let
 worst_case
 =
-times_three_plus_one
+times_three
 (
 other
 .
@@ -3070,7 +3064,7 @@ written
 let
 needed
 =
-times_three_plus_one
+times_three
 (
 left
 )
@@ -3147,7 +3141,7 @@ n
 }
 else
 {
-times_three_plus_one
+times_three
 (
 other
 .

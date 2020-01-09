@@ -916,9 +916,6 @@ of
 aSource
 times
 three
-*
-_plus
-one_
 .
 *
 *

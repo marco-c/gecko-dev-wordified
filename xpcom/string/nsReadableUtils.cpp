@@ -448,14 +448,12 @@ case
 Times
 3
 plus
-2
+1
 because
 ConvertUTF16toUTF8
 requires
 times
 3
-plus
-1
 and
 /
 /
@@ -503,7 +501,7 @@ destLen
 destLen
 +
 =
-2
+1
 ;
 if
 (
