@@ -669,6 +669,7 @@ manifest
 .
 json
 "
+;
 }
 module
 .
