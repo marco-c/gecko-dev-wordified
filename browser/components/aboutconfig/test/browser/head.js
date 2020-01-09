@@ -300,7 +300,7 @@ this
 querySelector
 (
 "
-td
+th
 "
 )
 ;
