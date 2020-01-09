@@ -3139,11 +3139,6 @@ globalWriteBarriered
 =
 0
 ;
-uint32_t
-warnedAboutStringGenericsMethods
-=
-0
-;
 #
 ifdef
 DEBUG
