@@ -470,6 +470,14 @@ return
 mPrevious
 ;
 }
+already_AddRefed
+<
+nsTreeColumn
+>
+GetPreviousColumn
+(
+)
+;
 void
 Invalidate
 (
