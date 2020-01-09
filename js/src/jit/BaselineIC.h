@@ -10408,11 +10408,6 @@ getStubCode
 /
 /
 TypeUpdate
-extern
-const
-VMFunction
-DoTypeUpdateFallbackInfo
-;
 /
 /
 The

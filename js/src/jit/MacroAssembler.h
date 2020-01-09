@@ -2755,7 +2755,7 @@ addr
 void
 PushEmptyRooted
 (
-VMFunction
+VMFunctionData
 :
 :
 RootType
@@ -2839,7 +2839,7 @@ x86_shared
 void
 popRooted
 (
-VMFunction
+VMFunctionData
 :
 :
 RootType
