@@ -200,7 +200,13 @@ onDelayedMarkingList_
 MOZ_ASSERT
 (
 !
-hasDelayedMarking_
+hasDelayedBlackMarking_
+)
+;
+MOZ_ASSERT
+(
+!
+hasDelayedGrayMarking_
 )
 ;
 MOZ_ASSERT
@@ -230,7 +236,11 @@ onDelayedMarkingList_
 =
 0
 ;
-hasDelayedMarking_
+hasDelayedBlackMarking_
+=
+0
+;
+hasDelayedGrayMarking_
 =
 0
 ;
