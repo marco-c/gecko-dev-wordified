@@ -728,7 +728,7 @@ server_
 >
 ExpectSendAlert
 (
-kTlsAlertBadRecordMac
+kTlsAlertUnexpectedMessage
 )
 ;
 ConnectExpectFail
@@ -2027,7 +2027,7 @@ server_
 >
 ExpectSendAlert
 (
-kTlsAlertBadRecordMac
+kTlsAlertUnexpectedMessage
 )
 ;
 ConnectExpectFail
@@ -2289,7 +2289,7 @@ server_
 >
 ExpectSendAlert
 (
-kTlsAlertBadRecordMac
+kTlsAlertUnexpectedMessage
 )
 ;
 ConnectExpectFail
@@ -2535,7 +2535,7 @@ server_
 >
 ExpectSendAlert
 (
-kTlsAlertBadRecordMac
+kTlsAlertUnexpectedMessage
 )
 ;
 ConnectExpectFail
