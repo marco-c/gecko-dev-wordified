@@ -3817,7 +3817,7 @@ NS_IMETHODIMP
 FTPChannelParent
 :
 :
-NotifyTrackingCookieBlocked
+NotifyCookieBlocked
 (
 uint32_t
 aRejectedReason

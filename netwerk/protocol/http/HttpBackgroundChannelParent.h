@@ -432,14 +432,14 @@ OnNotifyCookieAllowed
 /
 To
 send
-NotifyTrackingCookieBlocked
+NotifyCookieBlocked
 message
 over
 background
 channel
 .
 bool
-OnNotifyTrackingCookieBlocked
+OnNotifyCookieBlocked
 (
 uint32_t
 aRejectedReason

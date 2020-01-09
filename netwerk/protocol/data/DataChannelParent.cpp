@@ -254,7 +254,7 @@ NS_IMETHODIMP
 DataChannelParent
 :
 :
-NotifyTrackingCookieBlocked
+NotifyCookieBlocked
 (
 uint32_t
 aRejectedReason
