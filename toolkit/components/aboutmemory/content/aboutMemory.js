@@ -11589,6 +11589,18 @@ degenerate
 trees
 first
 .
+if
+(
+otherTrees
+.
+length
+|
+|
+otherDegenerates
+.
+length
+)
+{
 let
 pre
 =
@@ -11694,6 +11706,7 @@ we
 copy
 and
 paste
+}
 /
 /
 Add
