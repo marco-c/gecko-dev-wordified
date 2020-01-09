@@ -233,34 +233,17 @@ run
 defer
 to
 the
-run_task
+mach
 implementation
     
 run
 [
 '
-command
+mach
 '
 ]
 =
 '
-cd
-{
-workdir
-}
-/
-checkouts
-/
-gecko
-&
-&
-'
-\
-        
-'
-.
-/
-mach
 python
 -
 test
@@ -295,9 +278,7 @@ using
 ]
 =
 '
-run
--
-task
+mach
 '
     
 del
