@@ -149,6 +149,13 @@ util
 import
 android
 .
+content
+.
+Context
+;
+import
+android
+.
 os
 .
 StrictMode
@@ -297,6 +304,9 @@ public
 HttpBin
 (
 NonNull
+Context
+context
+NonNull
 URI
 endpoint
 )
@@ -307,6 +317,7 @@ endpoint
 new
 HttpBinHandler
 (
+context
 )
 )
 ;
