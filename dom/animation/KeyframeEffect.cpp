@@ -7485,7 +7485,7 @@ GetPrimaryFrame
 )
 record
 .
-mLayerType
+mDisplayItemType
 )
 ;
 /
