@@ -1242,10 +1242,9 @@ ui
 .
 checkbox
 .
-setChecked
-(
+checked
+=
 true
-)
 ;
 ui
 .
