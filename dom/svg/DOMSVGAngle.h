@@ -144,7 +144,7 @@ Attributes
 h
 "
 class
-nsSVGAngle
+SVGAngle
 ;
 namespace
 mozilla
@@ -198,7 +198,7 @@ attribute
 /
 DOMSVGAngle
 (
-nsSVGAngle
+SVGAngle
 *
 aVal
 SVGElement
@@ -378,7 +378,7 @@ DOMSVGAngle
 (
 )
 ;
-nsSVGAngle
+SVGAngle
 *
 mVal
 ;

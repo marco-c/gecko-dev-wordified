@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsSVGAngle
+SVGAngle
 .
 h
 "
@@ -221,7 +221,7 @@ SVGAttrValueWrapper
 ToString
 (
 const
-nsSVGAngle
+SVGAngle
 *
 aAngle
 nsAString

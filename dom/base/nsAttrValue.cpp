@@ -2229,7 +2229,7 @@ nsAttrValue
 SetTo
 (
 const
-nsSVGAngle
+SVGAngle
 &
 aValue
 const
@@ -9364,7 +9364,7 @@ mSVGAngle
 static_cast
 <
 const
-nsSVGAngle
+SVGAngle
 *
 >
 (

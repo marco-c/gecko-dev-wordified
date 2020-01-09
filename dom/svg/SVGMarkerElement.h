@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsSVGAngle
+SVGAngle
 .
 h
 "
@@ -342,7 +342,7 @@ need
 to
 notify
 since
-nsSVGAngle
+SVGAngle
 does
 that
 void
@@ -964,7 +964,7 @@ enum
 ORIENT
 }
 ;
-nsSVGAngle
+SVGAngle
 mAngleAttributes
 [
 1

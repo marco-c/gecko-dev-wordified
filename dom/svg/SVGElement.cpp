@@ -370,7 +370,7 @@ h
 #
 include
 "
-nsSVGAngle
+SVGAngle
 .
 h
 "
@@ -3218,7 +3218,7 @@ foundMatch
 /
 Check
 for
-nsSVGAngle
+SVGAngle
 attribute
 AngleAttributesInfo
 angleInfo

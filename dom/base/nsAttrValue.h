@@ -973,7 +973,7 @@ void
 SetTo
 (
 const
-nsSVGAngle
+SVGAngle
 &
 aValue
 const

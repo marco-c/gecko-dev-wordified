@@ -208,7 +208,7 @@ dom
 namespace
 mozilla
 class
-nsSVGAngle
+SVGAngle
 {
 friend
 class
@@ -666,7 +666,7 @@ dom
 nsSVGOrientType
 *
 aOrientType
-nsSVGAngle
+SVGAngle
 *
 aAngle
 SVGElement
@@ -733,7 +733,7 @@ nsSVGOrientType
 *
 mOrientType
 ;
-nsSVGAngle
+SVGAngle
 *
 mAngle
 ;

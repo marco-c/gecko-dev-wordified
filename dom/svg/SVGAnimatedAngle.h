@@ -144,7 +144,7 @@ Attributes
 h
 "
 class
-nsSVGAngle
+SVGAngle
 ;
 namespace
 mozilla
@@ -174,7 +174,7 @@ SVGAnimatedAngle
 )
 SVGAnimatedAngle
 (
-nsSVGAngle
+SVGAngle
 *
 aVal
 SVGElement
@@ -248,7 +248,7 @@ SVGAnimatedAngle
 (
 )
 ;
-nsSVGAngle
+SVGAngle
 *
 mVal
 ;
