@@ -329,8 +329,6 @@ aSystemFontName
 gfxFontStyle
 &
 aFontStyle
-float
-aDevPixPerCSSPixel
 )
 ;
 virtual

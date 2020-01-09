@@ -6189,7 +6189,6 @@ ComputeSystemFont
 (
 aDest
 fontID
-aPresContext
 defaultVariableFont
 )
 ;

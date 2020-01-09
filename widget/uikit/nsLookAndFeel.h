@@ -171,7 +171,6 @@ float
 aResult
 )
 ;
-virtual
 bool
 GetFontImpl
 (
@@ -183,9 +182,8 @@ aFontName
 gfxFontStyle
 &
 aFontStyle
-float
-aDevPixPerCSSPixel
 )
+override
 ;
 virtual
 char16_t
