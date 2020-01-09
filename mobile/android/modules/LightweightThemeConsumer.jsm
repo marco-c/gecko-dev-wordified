@@ -190,7 +190,7 @@ _update
 (
 LightweightThemeManager
 .
-currentThemeForDisplay
+currentThemeWithPersistedData
 )
 ;
 }
@@ -280,7 +280,7 @@ _update
 (
 LightweightThemeManager
 .
-currentThemeForDisplay
+currentThemeWithPersistedData
 )
 ;
 }
