@@ -127,8 +127,8 @@ Vec
 ;
 use
 {
-EntityMap
 EntityRef
+SecondaryMap
 }
 ;
 /
@@ -267,7 +267,7 @@ Memory
 usage
 equivalent
 to
-EntityMap
+SecondaryMap
 <
 K
 u32
@@ -284,7 +284,7 @@ than
 /
 /
 /
-EntityMap
+SecondaryMap
 <
 K
 V
@@ -307,7 +307,7 @@ lookup
 slightly
 slower
 than
-EntityMap
+SecondaryMap
 .
 /
 /
@@ -359,7 +359,7 @@ V
 #
 Compared
 to
-EntityMap
+SecondaryMap
 /
 /
 /
@@ -376,7 +376,7 @@ instead
 of
 a
 secondary
-EntityMap
+SecondaryMap
 ?
 First
 of
@@ -503,7 +503,7 @@ the
 contents
 of
 an
-EntityMap
+SecondaryMap
 is
 linear
 in
@@ -566,7 +566,7 @@ super
 -
 fast
 .
-EntityMap
+SecondaryMap
 :
 :
 clear
@@ -649,7 +649,7 @@ K
 {
 sparse
 :
-EntityMap
+SecondaryMap
 <
 K
 u32
@@ -704,7 +704,7 @@ Self
 {
 sparse
 :
-EntityMap
+SecondaryMap
 :
 :
 new
