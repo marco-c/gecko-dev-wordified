@@ -254,7 +254,7 @@ nextConnID
 ;
 }
 get
-connected
+listening
 (
 )
 {
@@ -461,7 +461,7 @@ if
 (
 this
 .
-connected
+listening
 )
 {
 const
@@ -503,7 +503,7 @@ toString
 return
 [
 object
-Debugger
+TargetListener
 {
 this
 .
