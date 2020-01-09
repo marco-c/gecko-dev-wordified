@@ -2217,6 +2217,11 @@ screenshot_msg
 1
 :
 ]
++
+"
+\
+n
+"
 )
         
 return
