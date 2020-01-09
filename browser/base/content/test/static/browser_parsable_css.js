@@ -383,6 +383,8 @@ html
 mathml
 |
 ua
+|
+pluginproblem
 )
 \
 .
