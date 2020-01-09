@@ -22545,7 +22545,7 @@ rv
 ioService
 -
 >
-NewChannelFromURIWithProxyFlags2
+NewChannelFromURIWithProxyFlags
 (
 localURI
 mURI

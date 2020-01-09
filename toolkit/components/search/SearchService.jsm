@@ -5880,7 +5880,7 @@ Services
 .
 io
 .
-newChannelFromURI2
+newChannelFromURI
 (
 uri
 null

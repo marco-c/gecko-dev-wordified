@@ -850,7 +850,7 @@ chan
 =
 ioService
 .
-newChannelFromURIWithProxyFlags2
+newChannelFromURIWithProxyFlags
 (
 uri
 proxyURI
@@ -1038,7 +1038,7 @@ chan
 =
 ioService
 .
-newChannelFromURIWithProxyFlags2
+newChannelFromURIWithProxyFlags
 (
 uri
 proxyURI

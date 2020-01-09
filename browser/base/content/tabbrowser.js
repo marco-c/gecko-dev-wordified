@@ -4520,7 +4520,7 @@ Services
 .
 io
 .
-newChannelFromURI2
+newChannelFromURI
 (
 aURI
 null
