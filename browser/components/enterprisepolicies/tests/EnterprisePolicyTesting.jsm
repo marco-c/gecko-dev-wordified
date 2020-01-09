@@ -779,6 +779,9 @@ hoistedSetDefaultPref
 (
 prefName
 prefValue
+locked
+=
+false
 )
 {
 /
@@ -994,6 +997,7 @@ _originalFunc
 (
 prefName
 prefValue
+locked
 )
 ;
 }
