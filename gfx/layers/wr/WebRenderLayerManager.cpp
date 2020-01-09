@@ -1538,13 +1538,7 @@ aDisplayList
 nsDisplayListBuilder
 *
 aDisplayListBuilder
-nsTArray
-<
-wr
-:
-:
-FilterOp
->
+WrFiltersHolder
 &
 &
 aFilters
