@@ -6143,17 +6143,6 @@ group
 ;
 JSObject
 *
-NewSingletonCallObject
-(
-JSContext
-*
-cx
-HandleShape
-shape
-)
-;
-JSObject
-*
 NewStringObject
 (
 JSContext
