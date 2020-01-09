@@ -284,6 +284,12 @@ documentUrlPatterns
 all_urls
 >
 "
+"
+about
+:
+reader
+*
+"
 ]
 }
 )
