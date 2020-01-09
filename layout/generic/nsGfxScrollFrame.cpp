@@ -2360,7 +2360,6 @@ aState
 aAssumeHScroll
 aAssumeVScroll
 aKidMetrics
-false
 )
 ;
 }
@@ -3344,8 +3343,6 @@ aAssumeVScroll
 ReflowOutput
 *
 aMetrics
-bool
-aFirstPass
 )
 {
 WritingMode
@@ -4947,7 +4944,6 @@ aState
 )
 &
 kidDesiredSize
-true
 )
 ;
 /
@@ -5298,7 +5294,6 @@ false
 false
 &
 kidDesiredSize
-false
 )
 ;
 }
