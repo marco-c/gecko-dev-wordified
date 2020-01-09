@@ -322,3 +322,7 @@ DEPRECATED_OPERATION
 (
 External_AddSearchProvider
 )
+DEPRECATED_OPERATION
+(
+MouseEvent_MozPressure
+)
