@@ -987,6 +987,9 @@ nightly
 -
 l10n
 '
+'
+shippable
+'
 )
         
 #
@@ -12799,6 +12802,35 @@ en
 US
 "
 )
+    
+return
+task
+index_builder
+(
+'
+shippable
+'
+)
+def
+add_shippable_index_routes
+(
+config
+task
+)
+:
+    
+#
+Don
+'
+t
+do
+any
+shippable
+index
+'
+s
+yet
+.
     
 return
 task
