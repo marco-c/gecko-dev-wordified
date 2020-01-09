@@ -730,10 +730,6 @@ mCachedRequests
 (
 0
 )
-mTimedNonCachedRequestsUntilOnEndPageLoad
-(
-0
-)
 {
 NS_INIT_AGGREGATED
 (
@@ -3518,13 +3514,6 @@ IsNull
 +
 +
 mCachedRequests
-;
-}
-else
-{
-mTimedNonCachedRequestsUntilOnEndPageLoad
-+
-+
 ;
 }
 rv
