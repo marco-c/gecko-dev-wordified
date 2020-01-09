@@ -152,7 +152,7 @@ mozversion
 .
 5
 '
-       
+        
 ]
 #
 we
@@ -234,7 +234,7 @@ Python
 .
 7
 '
-		   
+                   
 '
 Programming
 Language
@@ -248,7 +248,7 @@ Python
 :
 Only
 '
-		  
+                   
 ]
 #
 Get

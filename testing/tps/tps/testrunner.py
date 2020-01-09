@@ -58,10 +58,6 @@ json
 import
 os
 import
-platform
-import
-random
-import
 re
 import
 tempfile
@@ -1412,6 +1408,7 @@ dir
 )
         
 except
+Exception
 :
             
 #
@@ -1513,6 +1510,7 @@ s
 \
 n
 '
+                     
 %
 profiles
 [
@@ -1531,6 +1529,7 @@ os
 .
 walk
 (
+                    
 os
 .
 path
@@ -1567,6 +1566,7 @@ path
 .
 join
 (
+                        
 profiles
 [
 profile
@@ -1668,7 +1668,7 @@ M
 %
 S
 '
-                                            
+                                                              
 time
 .
 localtime
@@ -1821,6 +1821,7 @@ testcontent
 )
         
 except
+Exception
 :
             
 test
@@ -1919,8 +1920,8 @@ if
 necessary
             
 if
-not
 profilename
+not
 in
 profiles
 :
@@ -2064,7 +2065,6 @@ failed
 True
                 
 break
-;
         
 for
 profilename
@@ -2443,6 +2443,7 @@ testname
 s
 '
 %
+                                                          
 result
 [
 1
@@ -2473,6 +2474,7 @@ binary
 )
         
 except
+Exception
 :
             
 repoinfo
@@ -2574,13 +2576,13 @@ version
 '
 :
 firefox_version
-                                            
+                                          
 '
 buildid
 '
 :
 firefox_buildid
-                                            
+                                          
 '
 builddate
 '
@@ -2591,7 +2593,7 @@ firefox_buildid
 :
 8
 ]
-                                            
+                                          
 '
 product
 '
@@ -2599,13 +2601,13 @@ product
 '
 Firefox
 '
-                                            
+                                          
 '
 repository
 '
 :
 apprepo
-                                            
+                                          
 '
 changeset
 '
@@ -2613,7 +2615,7 @@ changeset
 appchangeset
                                           
 }
-                        
+                       
 '
 addonversion
 '
@@ -2624,7 +2626,7 @@ version
 '
 :
 sync_version
-                                          
+                                        
 '
 product
 '
@@ -2634,13 +2636,13 @@ Firefox
 Sync
 '
 }
-                        
+                       
 '
 name
 '
 :
 testname
-                        
+                       
 '
 message
 '
@@ -2649,7 +2651,7 @@ result
 [
 1
 ]
-                        
+                       
 '
 state
 '
@@ -2658,13 +2660,13 @@ result
 [
 0
 ]
-                        
+                       
 '
 logdata
 '
 :
 logdata
-                      
+                       
 }
 )
         
@@ -3076,6 +3078,7 @@ run_test_group
 )
         
 except
+Exception
 :
             
 traceback
@@ -3127,6 +3130,7 @@ format_exc
 )
             
 except
+Exception
 :
                 
 traceback
@@ -3209,6 +3213,7 @@ To
 )
             
 except
+Exception
 :
                 
 traceback
@@ -3248,6 +3253,7 @@ format_exc
 )
                 
 except
+Exception
 :
                     
 traceback
@@ -3740,6 +3746,10 @@ on
 error
 specified
 ;
+'
+\
+                          
+'
 not
 running
 any
@@ -3788,7 +3798,7 @@ tests
 self
 .
 results
-                          
+                         
 '
 os
 '
@@ -3808,7 +3818,7 @@ mozinfo
 .
 bits
 )
-                          
+                         
 '
 testtype
 '
@@ -3816,7 +3826,7 @@ testtype
 '
 crossweave
 '
-                          
+                         
 '
 productversion
 '
@@ -3824,7 +3834,7 @@ productversion
 self
 .
 productversion
-                          
+                         
 '
 addonversion
 '
@@ -3832,7 +3842,7 @@ addonversion
 self
 .
 addonversion
-                          
+                         
 '
 synctype
 '
@@ -3840,5 +3850,5 @@ synctype
 self
 .
 synctype
-                        
+                         
 }

@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+#
+flake8
+:
+noqa
 from
 .
 firefoxrunner
