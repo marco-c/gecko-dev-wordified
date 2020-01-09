@@ -35,6 +35,11 @@ use
 strict
 "
 ;
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -54,6 +59,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

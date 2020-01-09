@@ -50,8 +50,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -76,8 +74,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const

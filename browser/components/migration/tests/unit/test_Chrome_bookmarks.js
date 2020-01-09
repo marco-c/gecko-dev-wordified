@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -244,6 +249,11 @@ for
 them
 anymore
 .
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import

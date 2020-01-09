@@ -83,8 +83,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -109,8 +107,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 XPCOMUtils
@@ -215,8 +211,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 /

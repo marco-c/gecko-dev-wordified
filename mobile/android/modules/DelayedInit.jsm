@@ -76,6 +76,11 @@ DelayedInit
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

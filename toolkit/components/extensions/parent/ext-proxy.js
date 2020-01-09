@@ -152,6 +152,11 @@ jsm
 "
 )
 ;
+var
+{
+ExtensionPreferencesManager
+}
+=
 ChromeUtils
 .
 import

@@ -70,6 +70,11 @@ CustomizeMode
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ jsm
 "
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import

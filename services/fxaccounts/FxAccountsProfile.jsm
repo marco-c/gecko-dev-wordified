@@ -125,6 +125,11 @@ FxAccountsProfile
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -144,6 +149,12 @@ jsm
 "
 )
 ;
+const
+{
+ON_PROFILE_CHANGE_NOTIFICATION
+log
+}
+=
 ChromeUtils
 .
 import
@@ -163,6 +174,11 @@ js
 "
 )
 ;
+const
+{
+fxAccounts
+}
+=
 ChromeUtils
 .
 import

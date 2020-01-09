@@ -73,6 +73,11 @@ MessageListener
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

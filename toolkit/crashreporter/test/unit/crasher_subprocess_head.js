@@ -1,3 +1,8 @@
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -242,6 +247,11 @@ test
 curDirURI
 )
 ;
+const
+{
+CrashTestUtils
+}
+=
 ChromeUtils
 .
 import

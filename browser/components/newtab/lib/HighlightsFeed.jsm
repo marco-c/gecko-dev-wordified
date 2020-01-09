@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -106,8 +111,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -134,8 +137,6 @@ ShortURL
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -162,8 +163,6 @@ SectionsManager
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -191,8 +190,6 @@ Reducers
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -219,8 +216,6 @@ Dedupe
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

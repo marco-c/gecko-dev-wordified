@@ -91,6 +91,11 @@ AsanReporter
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

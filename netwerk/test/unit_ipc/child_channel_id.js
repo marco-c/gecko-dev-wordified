@@ -14,6 +14,11 @@ their
 channelId
 *
 /
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

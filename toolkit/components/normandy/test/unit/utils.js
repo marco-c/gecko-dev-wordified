@@ -38,6 +38,11 @@ head_xpc
 js
 *
 /
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import

@@ -93,6 +93,11 @@ MPL
 .
 *
 /
+const
+{
+ExtensionSearchHandler
+}
+=
 ChromeUtils
 .
 import

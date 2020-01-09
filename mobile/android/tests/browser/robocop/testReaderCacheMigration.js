@@ -99,6 +99,11 @@ MPL
 .
 *
 /
+const
+{
+ReaderMode
+}
+=
 ChromeUtils
 .
 import

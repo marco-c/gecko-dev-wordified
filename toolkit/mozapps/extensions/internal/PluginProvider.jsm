@@ -73,6 +73,12 @@ EXPORTED_SYMBOLS
 [
 ]
 ;
+const
+{
+AddonManager
+AddonManagerPrivate
+}
+=
 ChromeUtils
 .
 import
@@ -98,6 +104,11 @@ globals
 AddonManagerPrivate
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -183,6 +194,11 @@ shockwave
 flash
 "
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import

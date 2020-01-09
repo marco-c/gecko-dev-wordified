@@ -91,8 +91,6 @@ httpd
 .
 js
 "
-{
-}
 )
 ;
 const

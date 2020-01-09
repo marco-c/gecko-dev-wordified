@@ -70,6 +70,11 @@ request
 .
 *
 /
+const
+{
+CommonUtils
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ js
 "
 )
 ;
+const
+{
+ClientID
+}
+=
 ChromeUtils
 .
 import
@@ -108,6 +118,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -247,6 +262,11 @@ jsm
 this
 )
 ;
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import

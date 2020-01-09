@@ -129,6 +129,11 @@ of
 the
 snapshot
 .
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -148,6 +153,11 @@ jsm
 "
 )
 ;
+const
+{
+ExtensionTestUtils
+}
+=
 ChromeUtils
 .
 import

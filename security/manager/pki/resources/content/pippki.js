@@ -124,8 +124,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

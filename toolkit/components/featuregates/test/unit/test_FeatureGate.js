@@ -775,8 +775,7 @@ FeatureGate
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

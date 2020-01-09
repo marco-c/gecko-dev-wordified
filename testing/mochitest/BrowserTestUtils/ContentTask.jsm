@@ -116,6 +116,11 @@ ContentTask
 "
 ]
 ;
+const
+{
+Promise
+}
+=
 ChromeUtils
 .
 import
@@ -135,6 +140,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

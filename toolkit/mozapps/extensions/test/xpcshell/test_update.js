@@ -100,6 +100,11 @@ enabled
 true
 )
 ;
+const
+{
+LightweightThemeManager
+}
+=
 ChromeUtils
 .
 import

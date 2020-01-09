@@ -112,8 +112,7 @@ osfile_shared_allthreads
 .
 jsm
 "
-{
-}
+null
 )
 ;
 var
@@ -230,8 +229,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 /

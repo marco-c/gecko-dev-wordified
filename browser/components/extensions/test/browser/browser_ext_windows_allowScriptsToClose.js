@@ -76,8 +76,6 @@ PromiseTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 PromiseTestUtils

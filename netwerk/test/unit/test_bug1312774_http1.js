@@ -161,6 +161,11 @@ test
 will
 time
 out
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -180,6 +185,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

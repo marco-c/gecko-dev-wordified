@@ -95,8 +95,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 const

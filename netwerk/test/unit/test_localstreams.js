@@ -3,6 +3,11 @@
 Tests
 bug
 304414
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

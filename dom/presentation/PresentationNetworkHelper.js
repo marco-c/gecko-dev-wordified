@@ -105,6 +105,11 @@ use
 strict
 "
 ;
+const
+{
+EventDispatcher
+}
+=
 ChromeUtils
 .
 import
@@ -124,6 +129,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

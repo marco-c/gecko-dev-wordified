@@ -89,6 +89,11 @@ prompt
 1
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

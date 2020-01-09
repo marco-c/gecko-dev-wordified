@@ -9,6 +9,11 @@ globals
 ExtensionAPI
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -70,6 +70,11 @@ AddonUtils
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ jsm
 "
 )
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import
@@ -108,6 +118,11 @@ jsm
 "
 )
 ;
+const
+{
+Svc
+}
+=
 ChromeUtils
 .
 import

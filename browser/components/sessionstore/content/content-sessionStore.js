@@ -73,6 +73,11 @@ use
 strict
 "
 ;
+const
+{
+ContentSessionStore
+}
+=
 ChromeUtils
 .
 import

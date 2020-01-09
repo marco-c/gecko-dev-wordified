@@ -22,6 +22,11 @@ frame
 s
 principals
 .
+const
+{
+addDebuggerToGlobal
+}
+=
 ChromeUtils
 .
 import

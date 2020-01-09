@@ -28,6 +28,11 @@ zero
 /
 *
 /
+const
+{
+BinarySearch
+}
+=
 ChromeUtils
 .
 import

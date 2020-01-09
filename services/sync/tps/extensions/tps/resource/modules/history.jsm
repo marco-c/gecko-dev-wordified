@@ -115,6 +115,11 @@ DumpHistory
 "
 ]
 ;
+const
+{
+PlacesUtils
+}
+=
 ChromeUtils
 .
 import
@@ -134,6 +139,11 @@ jsm
 "
 )
 ;
+const
+{
+PlacesSyncUtils
+}
+=
 ChromeUtils
 .
 import
@@ -153,6 +163,11 @@ jsm
 "
 )
 ;
+const
+{
+Logger
+}
+=
 ChromeUtils
 .
 import

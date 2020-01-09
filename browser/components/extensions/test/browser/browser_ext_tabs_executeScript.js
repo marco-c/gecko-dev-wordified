@@ -96,8 +96,6 @@ MessageChannel
 .
 jsm
 "
-{
-}
 )
 ;
 function

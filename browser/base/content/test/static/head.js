@@ -107,6 +107,11 @@ open
 "
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -126,6 +131,12 @@ jsm
 "
 )
 ;
+var
+{
+OS
+require
+}
+=
 ChromeUtils
 .
 import

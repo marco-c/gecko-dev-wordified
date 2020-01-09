@@ -88,6 +88,11 @@ top
 level
 windows
 .
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -107,6 +112,11 @@ jsm
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import
@@ -126,6 +136,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -211,6 +211,11 @@ DOMRequestIpcHelper
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

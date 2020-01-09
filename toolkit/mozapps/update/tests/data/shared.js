@@ -78,6 +78,11 @@ no
 undef
 *
 /
+var
+{
+FileUtils
+}
+=
 ChromeUtils
 .
 import
@@ -97,6 +102,11 @@ jsm
 "
 )
 ;
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

@@ -95,6 +95,11 @@ PageActions
 ACTION_ID_TRANSIENT_SEPARATOR
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

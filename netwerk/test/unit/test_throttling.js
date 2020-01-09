@@ -4,6 +4,11 @@ Test
 nsIThrottledInputChannel
 interface
 .
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -23,6 +28,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

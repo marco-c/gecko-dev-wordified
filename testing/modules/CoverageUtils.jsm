@@ -98,8 +98,6 @@ jsdebugger
 .
 jsm
 "
-{
-}
 )
 ;
 addDebuggerToGlobal

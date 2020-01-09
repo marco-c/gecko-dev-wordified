@@ -48,6 +48,11 @@ use
 strict
 "
 ;
+const
+{
+SchemaRoot
+}
+=
 ChromeUtils
 .
 import
@@ -67,6 +72,11 @@ jsm
 "
 )
 ;
+const
+{
+ExtensionCommon
+}
+=
 ChromeUtils
 .
 import

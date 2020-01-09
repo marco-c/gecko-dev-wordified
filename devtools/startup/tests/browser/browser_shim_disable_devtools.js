@@ -80,8 +80,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -105,8 +103,6 @@ CustomizableUI
 .
 jsm
 "
-{
-}
 )
 ;
 const

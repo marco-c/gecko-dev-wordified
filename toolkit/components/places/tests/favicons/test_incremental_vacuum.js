@@ -38,6 +38,11 @@ the
 favicons
 database
 .
+const
+{
+PlacesDBUtils
+}
+=
 ChromeUtils
 .
 import

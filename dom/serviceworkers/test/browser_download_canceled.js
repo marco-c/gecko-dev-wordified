@@ -277,8 +277,6 @@ Downloads
 .
 jsm
 "
-{
-}
 )
 ;
 /

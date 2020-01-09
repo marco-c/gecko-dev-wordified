@@ -93,6 +93,11 @@ ReaderParent
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

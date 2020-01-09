@@ -75,8 +75,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 var

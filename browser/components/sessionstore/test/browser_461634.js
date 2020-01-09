@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+SessionStore
+}
+=
 ChromeUtils
 .
 import

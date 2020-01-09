@@ -374,6 +374,11 @@ nsIMemoryReporter
 .
 UNITS_PERCENTAGE
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -393,6 +398,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -412,6 +422,11 @@ jsm
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

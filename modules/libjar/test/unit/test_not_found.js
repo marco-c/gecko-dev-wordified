@@ -10,6 +10,11 @@ non
 -
 existent
 files
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

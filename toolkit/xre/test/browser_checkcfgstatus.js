@@ -315,6 +315,11 @@ privateNoteIntentionalCrash
 (
 )
 ;
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import

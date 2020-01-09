@@ -120,6 +120,11 @@ nsIAboutNewTabService
 "
 )
 ;
+var
+{
+ExtensionPreferencesManager
+}
+=
 ChromeUtils
 .
 import

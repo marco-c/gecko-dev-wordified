@@ -195,8 +195,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -219,8 +217,6 @@ FormAutofillStorage
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -245,8 +241,6 @@ OSKeyStoreTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -273,10 +267,13 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
+var
+{
+BrowserWindowTracker
+}
+=
 ChromeUtils
 .
 import
@@ -295,6 +292,11 @@ jsm
 "
 )
 ;
+var
+{
+CreditCard
+}
+=
 ChromeUtils
 .
 import
@@ -2963,8 +2965,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 info
@@ -4423,8 +4423,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -4860,8 +4858,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 /

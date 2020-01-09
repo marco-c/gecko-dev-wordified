@@ -54,8 +54,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 Object

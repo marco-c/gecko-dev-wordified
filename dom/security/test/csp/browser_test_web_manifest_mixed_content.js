@@ -57,8 +57,6 @@ ManifestObtainer
 .
 jsm
 "
-{
-}
 )
 ;
 const

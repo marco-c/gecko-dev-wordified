@@ -708,6 +708,11 @@ T_URI
 /
 Run
 maintenance
+const
+{
+PlacesDBUtils
+}
+=
 ChromeUtils
 .
 import

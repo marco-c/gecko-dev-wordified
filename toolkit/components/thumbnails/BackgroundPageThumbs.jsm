@@ -138,6 +138,12 @@ jsm
 this
 )
 ;
+const
+{
+PageThumbs
+PageThumbsStorage
+}
+=
 ChromeUtils
 .
 import
@@ -157,6 +163,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -78,8 +78,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 async

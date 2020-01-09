@@ -95,8 +95,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return
@@ -154,6 +153,11 @@ nsIAboutNewTabService
 "
 )
 ;
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import

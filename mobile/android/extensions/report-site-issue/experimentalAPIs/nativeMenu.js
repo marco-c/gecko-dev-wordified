@@ -98,8 +98,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 function

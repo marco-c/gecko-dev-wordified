@@ -36,6 +36,11 @@ HTTPS
 /
 -
 Proxies
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

@@ -62,6 +62,11 @@ registerContentScript
 unregisterContentScript
 *
 /
+var
+{
+ExtensionUtils
+}
+=
 ChromeUtils
 .
 import

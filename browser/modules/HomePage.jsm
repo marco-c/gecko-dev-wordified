@@ -83,6 +83,11 @@ HomePage
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

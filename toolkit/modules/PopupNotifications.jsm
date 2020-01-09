@@ -65,6 +65,11 @@ PopupNotifications
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -84,6 +89,11 @@ jsm
 "
 )
 ;
+const
+{
+PrivateBrowsingUtils
+}
+=
 ChromeUtils
 .
 import
@@ -103,6 +113,11 @@ jsm
 "
 )
 ;
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import

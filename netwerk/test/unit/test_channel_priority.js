@@ -108,6 +108,11 @@ globals
 NetUtil
 *
 /
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import
@@ -133,6 +138,11 @@ globals
 HttpServer
 *
 /
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import

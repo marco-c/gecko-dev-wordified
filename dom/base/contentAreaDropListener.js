@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -75,6 +80,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -94,6 +104,11 @@ jsm
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import

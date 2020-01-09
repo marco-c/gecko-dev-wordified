@@ -114,6 +114,11 @@ SimpleServiceDiscovery
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -133,6 +138,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -152,6 +162,11 @@ jsm
 "
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import

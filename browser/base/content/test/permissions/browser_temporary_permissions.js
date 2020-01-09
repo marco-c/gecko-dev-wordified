@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+const
+{
+E10SUtils
+}
+=
 ChromeUtils
 .
 import

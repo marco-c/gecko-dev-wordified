@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+navigate
+}
+=
 ChromeUtils
 .
 import

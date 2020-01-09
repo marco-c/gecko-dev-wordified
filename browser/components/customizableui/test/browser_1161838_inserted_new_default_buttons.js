@@ -84,8 +84,7 @@ CustomizableUI
 .
 jsm
 "
-{
-}
+null
 )
 ;
 is

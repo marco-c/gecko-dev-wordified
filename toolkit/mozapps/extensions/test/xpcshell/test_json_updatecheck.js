@@ -105,6 +105,11 @@ XPCShell
 "
 )
 ;
+const
+{
+AddonUpdateChecker
+}
+=
 ChromeUtils
 .
 import

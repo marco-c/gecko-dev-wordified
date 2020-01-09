@@ -83,6 +83,11 @@ frame
 script
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -102,6 +107,11 @@ jsm
 "
 )
 ;
+var
+{
+FormAutofillContent
+}
+=
 ChromeUtils
 .
 import

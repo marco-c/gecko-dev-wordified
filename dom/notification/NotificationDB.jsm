@@ -98,6 +98,11 @@ n
 )
 ;
 }
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -117,6 +122,11 @@ jsm
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import

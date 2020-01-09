@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -128,8 +138,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -156,8 +164,6 @@ TippyTopProvider
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -185,8 +191,6 @@ Reducers
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -213,8 +217,6 @@ Dedupe
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -241,8 +243,6 @@ ShortURL
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -269,8 +269,6 @@ ActivityStreamStorage
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -302,8 +300,6 @@ SearchShortcuts
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

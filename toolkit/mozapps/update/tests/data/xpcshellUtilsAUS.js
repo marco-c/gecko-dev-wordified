@@ -25426,6 +25426,11 @@ overrideUpdatePrompt
 aCallback
 )
 {
+const
+{
+MockRegistrar
+}
+=
 ChromeUtils
 .
 import
@@ -26078,8 +26083,6 @@ httpd
 .
 js
 "
-{
-}
 )
 ;
 gTestserver

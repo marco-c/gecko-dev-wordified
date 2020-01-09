@@ -91,6 +91,11 @@ init
 finish
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

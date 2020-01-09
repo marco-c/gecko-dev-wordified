@@ -49,6 +49,11 @@ start
 with
 ENSURE_CALLED_BEFORE_CONNECT
 :
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -68,6 +73,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

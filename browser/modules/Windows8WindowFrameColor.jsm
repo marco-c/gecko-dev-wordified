@@ -94,7 +94,6 @@ WindowsRegistry
 .
 jsm
 "
-null
 )
 ;
 var

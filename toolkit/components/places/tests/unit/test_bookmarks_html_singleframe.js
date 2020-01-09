@@ -110,6 +110,11 @@ bug
 /
 Get
 Services
+const
+{
+BookmarkHTMLUtils
+}
+=
 ChromeUtils
 .
 import

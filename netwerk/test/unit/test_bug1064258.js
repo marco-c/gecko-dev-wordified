@@ -128,6 +128,11 @@ second
 request
 *
 /
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -147,6 +152,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

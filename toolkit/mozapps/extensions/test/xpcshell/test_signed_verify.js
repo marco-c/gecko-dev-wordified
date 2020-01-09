@@ -145,8 +145,7 @@ XPIProvider
 .
 jsm
 "
-{
-}
+null
 )
 ;
 XPIscope

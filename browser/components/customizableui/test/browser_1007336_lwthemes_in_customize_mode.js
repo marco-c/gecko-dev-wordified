@@ -123,8 +123,6 @@ LightweightThemeManager
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

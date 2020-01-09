@@ -105,6 +105,11 @@ the
 parent
 process
 .
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -484,8 +489,6 @@ RemotePageManagerChild
 .
 jsm
 "
-{
-}
 )
 ;
 /

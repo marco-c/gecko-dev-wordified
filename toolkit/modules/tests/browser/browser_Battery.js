@@ -84,8 +84,7 @@ Battery
 .
 jsm
 "
-{
-}
+null
 )
 ;
 ChromeUtils

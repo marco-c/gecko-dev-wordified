@@ -192,6 +192,11 @@ formAutofillParent
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -211,6 +216,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -230,6 +240,11 @@ jsm
 "
 )
 ;
+const
+{
+FormAutofill
+}
+=
 ChromeUtils
 .
 import
@@ -443,8 +458,6 @@ FormAutofillStorage
 .
 jsm
 "
-{
-}
 )
 ;
 log
@@ -656,7 +669,7 @@ addObserver
 (
 this
 "
-privacy
+sync
 -
 pane
 -
@@ -887,7 +900,7 @@ topic
 {
 case
 "
-privacy
+sync
 -
 pane
 -
@@ -1797,7 +1810,7 @@ removeObserver
 (
 this
 "
-privacy
+sync
 -
 pane
 -

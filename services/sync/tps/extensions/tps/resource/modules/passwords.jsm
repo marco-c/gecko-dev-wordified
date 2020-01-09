@@ -115,6 +115,11 @@ DumpPasswords
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -134,6 +139,11 @@ jsm
 "
 )
 ;
+const
+{
+Logger
+}
+=
 ChromeUtils
 .
 import

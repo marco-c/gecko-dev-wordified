@@ -93,8 +93,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 this

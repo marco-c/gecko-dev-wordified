@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Localization
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+FxAccountsConfig
+}
+=
 ChromeUtils
 .
 import
@@ -99,6 +109,11 @@ jsm
 "
 )
 ;
+const
+{
+AttributionCode
+}
+=
 ChromeUtils
 .
 import
@@ -117,6 +132,11 @@ jsm
 "
 )
 ;
+const
+{
+AddonRepository
+}
+=
 ChromeUtils
 .
 import

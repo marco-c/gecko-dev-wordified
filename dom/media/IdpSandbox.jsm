@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

@@ -59,6 +59,11 @@ disconnected
 /
 )
 ;
+const
+{
+MockRegistrar
+}
+=
 ChromeUtils
 .
 import

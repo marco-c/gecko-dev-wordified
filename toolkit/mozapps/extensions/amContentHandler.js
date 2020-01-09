@@ -79,6 +79,11 @@ MSG_INSTALL_ADDON
 WebInstallerInstallAddonFromWebpage
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -98,6 +103,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

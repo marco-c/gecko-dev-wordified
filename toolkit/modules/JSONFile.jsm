@@ -294,6 +294,11 @@ JSONFile
 /
 /
 Globals
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

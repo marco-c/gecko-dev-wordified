@@ -71,6 +71,11 @@ ExtensionStorageIDB
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -90,6 +95,11 @@ jsm
 "
 )
 ;
+const
+{
+IndexedDB
+}
+=
 ChromeUtils
 .
 import

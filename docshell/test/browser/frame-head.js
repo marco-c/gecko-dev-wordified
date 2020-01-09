@@ -43,6 +43,11 @@ for
 timeline
 tests
 .
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import

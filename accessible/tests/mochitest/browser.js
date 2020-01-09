@@ -1,3 +1,8 @@
+var
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -467,6 +472,11 @@ button
 /
 private
 section
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

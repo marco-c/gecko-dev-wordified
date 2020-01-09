@@ -58,8 +58,6 @@ ManifestObtainer
 .
 jsm
 "
-{
-}
 )
 ;
 const

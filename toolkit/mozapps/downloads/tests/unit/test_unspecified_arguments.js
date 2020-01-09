@@ -81,6 +81,11 @@ result
 .
 *
 /
+const
+{
+DownloadUtils
+}
+=
 ChromeUtils
 .
 import

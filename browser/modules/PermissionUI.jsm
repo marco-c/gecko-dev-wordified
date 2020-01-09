@@ -466,6 +466,11 @@ createPermissionPrompt
 .
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

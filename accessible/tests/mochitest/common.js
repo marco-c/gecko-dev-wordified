@@ -746,6 +746,11 @@ enabled
 .
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

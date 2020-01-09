@@ -594,8 +594,6 @@ ToolboxProcess
 .
 jsm
 "
-{
-}
 )
 ;
 is

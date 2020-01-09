@@ -83,8 +83,6 @@ MockRegistrar
 .
 jsm
 "
-{
-}
 )
 ;
 /

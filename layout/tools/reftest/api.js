@@ -63,6 +63,11 @@ Components
 .
 manager
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -82,6 +87,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -100,6 +110,10 @@ XPCOMUtils
 jsm
 "
 )
+;
+var
+OnRefTestLoad
+OnRefTestUnload
 ;
 XPCOMUtils
 .
@@ -633,6 +647,12 @@ Android
 "
 )
 {
+(
+{
+OnRefTestLoad
+OnRefTestUnload
+}
+=
 ChromeUtils
 .
 import
@@ -648,6 +668,7 @@ reftest
 .
 jsm
 "
+)
 )
 ;
 if
@@ -751,6 +772,11 @@ close
 (
 )
 ;
+const
+{
+PerTestCoverageUtils
+}
+=
 ChromeUtils
 .
 import

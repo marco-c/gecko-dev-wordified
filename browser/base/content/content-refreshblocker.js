@@ -68,6 +68,11 @@ frame
 script
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

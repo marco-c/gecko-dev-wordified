@@ -307,6 +307,11 @@ getGlobalForObject
 this
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

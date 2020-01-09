@@ -85,6 +85,11 @@ globals
 ReaderMode
 *
 /
+const
+{
+ReaderMode
+}
+=
 ChromeUtils
 .
 import
@@ -104,6 +109,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -56,8 +56,6 @@ Utils
 .
 jsm
 "
-{
-}
 )
 ;
 const

@@ -94,6 +94,11 @@ FormAutofillDoorhanger
 "
 ]
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -113,6 +118,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -132,6 +142,11 @@ jsm
 "
 )
 ;
+const
+{
+FormAutofill
+}
+=
 ChromeUtils
 .
 import
@@ -149,6 +164,11 @@ jsm
 "
 )
 ;
+const
+{
+FormAutofillUtils
+}
+=
 ChromeUtils
 .
 import

@@ -574,6 +574,11 @@ History
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

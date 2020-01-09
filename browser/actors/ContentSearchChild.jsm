@@ -91,6 +91,11 @@ ContentSearchChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

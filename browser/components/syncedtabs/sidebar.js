@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+SyncedTabs
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+SyncedTabsDeckComponent
+}
+=
 ChromeUtils
 .
 import
@@ -100,6 +110,11 @@ js
 "
 )
 ;
+const
+{
+LightweightThemeChild
+}
+=
 ChromeUtils
 .
 import

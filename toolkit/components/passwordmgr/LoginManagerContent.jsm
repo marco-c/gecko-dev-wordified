@@ -86,6 +86,11 @@ AUTOCOMPLETE_AFTER_RIGHT_CLICK_THRESHOLD_MS
 =
 400
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -105,6 +110,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -124,6 +134,11 @@ jsm
 "
 )
 ;
+const
+{
+PrivateBrowsingUtils
+}
+=
 ChromeUtils
 .
 import
@@ -143,6 +158,11 @@ jsm
 "
 )
 ;
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import

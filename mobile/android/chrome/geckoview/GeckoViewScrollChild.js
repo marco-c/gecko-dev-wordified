@@ -81,6 +81,11 @@ MPL
 .
 *
 /
+const
+{
+GeckoViewChildModule
+}
+=
 ChromeUtils
 .
 import

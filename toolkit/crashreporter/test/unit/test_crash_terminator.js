@@ -48,6 +48,11 @@ setup_crash
 (
 )
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

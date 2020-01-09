@@ -94,6 +94,11 @@ globals
 ControllerStateMachine
 *
 /
+const
+{
+ControllerStateMachine
+}
+=
 ChromeUtils
 .
 import
@@ -121,6 +126,11 @@ globals
 ReceiverStateMachine
 *
 /
+const
+{
+ReceiverStateMachine
+}
+=
 ChromeUtils
 .
 import
@@ -148,6 +158,11 @@ globals
 State
 *
 /
+const
+{
+State
+}
+=
 ChromeUtils
 .
 import

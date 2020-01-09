@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+CommonUtils
+}
+=
 ChromeUtils
 .
 import
@@ -99,6 +109,11 @@ js
 "
 )
 ;
+const
+{
+Utils
+}
+=
 ChromeUtils
 .
 import

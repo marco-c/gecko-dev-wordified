@@ -79,6 +79,11 @@ MPL
 0
 /
 .
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

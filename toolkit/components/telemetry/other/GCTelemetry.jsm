@@ -253,6 +253,11 @@ jsm
 this
 )
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import

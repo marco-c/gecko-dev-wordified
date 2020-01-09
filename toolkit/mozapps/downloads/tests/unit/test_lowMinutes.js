@@ -94,6 +94,11 @@ plenty
 .
 *
 /
+const
+{
+DownloadUtils
+}
+=
 ChromeUtils
 .
 import

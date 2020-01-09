@@ -89,6 +89,11 @@ onto
 window
 .
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -6753,8 +6758,6 @@ PromiseUtils
 .
 jsm
 "
-{
-}
 )
 ;
 this

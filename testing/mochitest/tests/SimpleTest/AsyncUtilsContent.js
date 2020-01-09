@@ -25,6 +25,11 @@ js
 .
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

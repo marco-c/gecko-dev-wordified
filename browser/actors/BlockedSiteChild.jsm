@@ -81,6 +81,11 @@ MPL
 .
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -109,6 +114,11 @@ BlockedSiteChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

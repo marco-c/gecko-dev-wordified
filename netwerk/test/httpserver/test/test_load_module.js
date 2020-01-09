@@ -55,6 +55,11 @@ run_test
 (
 )
 {
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import

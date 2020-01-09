@@ -905,8 +905,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 await
@@ -1192,8 +1190,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 return
@@ -1409,8 +1405,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 await

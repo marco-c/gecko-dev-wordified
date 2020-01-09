@@ -70,6 +70,11 @@ GeckoViewChildModule
 "
 ]
 ;
+const
+{
+GeckoViewUtils
+}
+=
 ChromeUtils
 .
 import

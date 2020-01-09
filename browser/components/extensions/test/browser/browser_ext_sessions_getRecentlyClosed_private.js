@@ -236,8 +236,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

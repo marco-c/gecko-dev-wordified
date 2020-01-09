@@ -47,6 +47,11 @@ PanelViews
 .
 *
 /
+const
+{
+PanelMultiView
+}
+=
 ChromeUtils
 .
 import

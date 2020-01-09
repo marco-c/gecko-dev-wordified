@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+BrowserUtils
+}
+=
 ChromeUtils
 .
 import

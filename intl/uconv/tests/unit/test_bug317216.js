@@ -70,6 +70,11 @@ surrogate
 pair
 *
 /
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

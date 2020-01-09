@@ -999,6 +999,11 @@ ActorManagerParent
 "
 ]
 ;
+const
+{
+ExtensionUtils
+}
+=
 ChromeUtils
 .
 import
@@ -1018,6 +1023,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

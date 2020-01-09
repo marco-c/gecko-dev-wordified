@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -109,8 +114,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

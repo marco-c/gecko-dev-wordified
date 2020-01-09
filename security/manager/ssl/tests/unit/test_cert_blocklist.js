@@ -185,8 +185,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -213,8 +211,6 @@ settings
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -239,8 +235,7 @@ clients
 .
 js
 "
-{
-}
+null
 )
 ;
 /

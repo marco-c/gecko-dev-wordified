@@ -48,6 +48,11 @@ use
 strict
 "
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -67,6 +72,11 @@ jsm
 "
 )
 ;
+const
+{
+Downloads
+}
+=
 ChromeUtils
 .
 import

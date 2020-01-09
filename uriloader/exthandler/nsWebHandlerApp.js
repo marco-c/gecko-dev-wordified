@@ -141,6 +141,11 @@ MPL
 /
 /
 Constants
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -160,6 +165,11 @@ jsm
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import
@@ -179,6 +189,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

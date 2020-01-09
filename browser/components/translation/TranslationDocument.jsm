@@ -70,6 +70,11 @@ TranslationDocument
 "
 ]
 ;
+const
+{
+Async
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ js
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

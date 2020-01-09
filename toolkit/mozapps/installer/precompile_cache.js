@@ -127,6 +127,11 @@ Weave
 js
 #
 76
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

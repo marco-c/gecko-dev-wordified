@@ -35,6 +35,11 @@ run_test
 (
 )
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

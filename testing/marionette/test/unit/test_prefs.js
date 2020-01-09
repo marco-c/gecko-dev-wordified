@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -99,6 +109,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -166,8 +181,7 @@ prefs
 .
 js
 "
-{
-}
+null
 )
 ;
 function

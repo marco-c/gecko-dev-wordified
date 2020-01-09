@@ -87,8 +87,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -115,8 +113,6 @@ Dedupe
 .
 jsm
 "
-{
-}
 )
 ;
 const

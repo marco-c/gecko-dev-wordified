@@ -28,6 +28,11 @@ zero
 /
 *
 /
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import

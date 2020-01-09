@@ -598,8 +598,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 /

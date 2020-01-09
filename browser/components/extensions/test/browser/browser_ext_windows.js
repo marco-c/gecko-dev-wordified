@@ -909,8 +909,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 async

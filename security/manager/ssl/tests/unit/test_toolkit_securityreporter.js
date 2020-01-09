@@ -184,6 +184,11 @@ Components
 .
 manager
 ;
+const
+{
+updateAppInfo
+}
+=
 ChromeUtils
 .
 import

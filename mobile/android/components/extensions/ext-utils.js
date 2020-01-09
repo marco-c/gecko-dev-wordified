@@ -77,6 +77,11 @@ globals
 EventDispatcher
 *
 /
+var
+{
+EventDispatcher
+}
+=
 ChromeUtils
 .
 import
@@ -96,6 +101,11 @@ jsm
 "
 )
 ;
+var
+{
+ExtensionCommon
+}
+=
 ChromeUtils
 .
 import
@@ -115,6 +125,11 @@ jsm
 "
 )
 ;
+var
+{
+ExtensionUtils
+}
+=
 ChromeUtils
 .
 import

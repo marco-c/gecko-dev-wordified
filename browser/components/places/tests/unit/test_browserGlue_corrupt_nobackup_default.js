@@ -128,6 +128,11 @@ available
 .
 *
 /
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import

@@ -34,8 +34,6 @@ AddonManager
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -60,8 +58,6 @@ AddonTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 AddonTestUtils

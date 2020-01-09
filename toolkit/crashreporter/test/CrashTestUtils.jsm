@@ -173,6 +173,11 @@ the
 testcrasher
 shared
 library
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -192,6 +197,11 @@ jsm
 "
 )
 ;
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import

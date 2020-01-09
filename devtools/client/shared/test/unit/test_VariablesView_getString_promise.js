@@ -101,8 +101,6 @@ VariablesView
 .
 jsm
 "
-{
-}
 )
 ;
 const

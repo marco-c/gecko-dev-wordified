@@ -89,8 +89,7 @@ DER
 .
 jsm
 "
-{
-}
+null
 )
 ;
 function

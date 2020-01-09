@@ -121,6 +121,11 @@ DumpCreditCards
 "
 ]
 ;
+const
+{
+Logger
+}
+=
 ChromeUtils
 .
 import

@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+const
+{
+CreditCard
+}
+=
 ChromeUtils
 .
 import
@@ -52,6 +57,11 @@ jsm
 "
 )
 ;
+const
+{
+OSKeyStore
+}
+=
 ChromeUtils
 .
 import
@@ -69,6 +79,11 @@ jsm
 "
 )
 ;
+const
+{
+OSKeyStoreTestUtils
+}
+=
 ChromeUtils
 .
 import

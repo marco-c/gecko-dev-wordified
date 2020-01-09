@@ -53,6 +53,11 @@ com
 "
 )
 ;
+var
+{
+ExtensionsUI
+}
+=
 ChromeUtils
 .
 import
@@ -118,8 +123,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return
@@ -304,6 +308,11 @@ promiseAppMenuNotificationShown
 id
 )
 {
+const
+{
+AppMenuNotifications
+}
+=
 ChromeUtils
 .
 import

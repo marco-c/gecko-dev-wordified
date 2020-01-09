@@ -18,6 +18,11 @@ cgi
 id
 =
 1273251
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -37,6 +42,11 @@ jsm
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import
@@ -75,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+TestUtils
+}
+=
 ChromeUtils
 .
 import

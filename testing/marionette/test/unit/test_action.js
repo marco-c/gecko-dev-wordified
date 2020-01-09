@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+action
+}
+=
 ChromeUtils
 .
 import
@@ -102,8 +107,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 const

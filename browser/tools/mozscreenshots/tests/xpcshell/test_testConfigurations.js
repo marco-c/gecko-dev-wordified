@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+const
+{
+TestRunner
+}
+=
 ChromeUtils
 .
 import

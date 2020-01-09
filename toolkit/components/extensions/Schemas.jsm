@@ -111,6 +111,11 @@ global
 =
 this
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -130,6 +135,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -149,6 +159,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -180,6 +195,11 @@ URL
 ]
 )
 ;
+const
+{
+ExtensionUtils
+}
+=
 ChromeUtils
 .
 import

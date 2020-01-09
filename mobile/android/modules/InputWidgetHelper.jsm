@@ -70,6 +70,11 @@ InputWidgetHelper
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

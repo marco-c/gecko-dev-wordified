@@ -88,6 +88,11 @@ module
 .
 *
 /
+const
+{
+PluralForm
+}
+=
 ChromeUtils
 .
 import

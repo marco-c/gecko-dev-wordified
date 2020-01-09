@@ -76,6 +76,11 @@ PerTestCoverageUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

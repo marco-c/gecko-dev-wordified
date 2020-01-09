@@ -155,6 +155,11 @@ retrieved
 .
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -174,6 +179,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -245,8 +255,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 this

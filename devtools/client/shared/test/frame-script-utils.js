@@ -99,8 +99,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const

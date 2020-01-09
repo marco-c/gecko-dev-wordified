@@ -111,8 +111,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -270,8 +268,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 const

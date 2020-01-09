@@ -166,7 +166,7 @@ false
 AddonManager
 "
 :
-false
+true
 "
 AddonManagerPermissions
 "
@@ -1589,16 +1589,6 @@ IntersectionObserver
 false
 "
 IntersectionObserverEntry
-"
-:
-false
-"
-JSWindowActorChild
-"
-:
-false
-"
-JSWindowActorParent
 "
 :
 false

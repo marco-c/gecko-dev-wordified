@@ -28,6 +28,11 @@ zero
 /
 *
 /
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import

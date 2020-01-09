@@ -75,6 +75,11 @@ Ci
 .
 nsIProfileStartup
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -94,6 +99,11 @@ jsm
 "
 )
 ;
+const
+{
+MigrationUtils
+}
+=
 ChromeUtils
 .
 import

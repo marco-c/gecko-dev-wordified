@@ -198,6 +198,11 @@ MAX_STRING_PREF_LENGTH
 =
 128
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -217,6 +222,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

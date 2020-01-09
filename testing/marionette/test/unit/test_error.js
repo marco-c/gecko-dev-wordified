@@ -104,8 +104,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 function

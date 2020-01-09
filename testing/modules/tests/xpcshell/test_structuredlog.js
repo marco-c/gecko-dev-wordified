@@ -32,6 +32,11 @@ run_test
 (
 )
 {
+const
+{
+StructuredLogger
+}
+=
 ChromeUtils
 .
 import

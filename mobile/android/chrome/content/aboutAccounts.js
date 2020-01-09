@@ -250,6 +250,11 @@ use
 strict
 "
 ;
+const
+{
+Accounts
+}
+=
 ChromeUtils
 .
 import
@@ -269,6 +274,11 @@ jsm
 "
 )
 ;
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import
@@ -288,6 +298,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -307,6 +322,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

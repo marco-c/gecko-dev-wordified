@@ -116,6 +116,11 @@ DNSResourceRecord
 "
 ]
 ;
+const
+{
+DataReader
+}
+=
 ChromeUtils
 .
 import
@@ -135,6 +140,11 @@ jsm
 "
 )
 ;
+const
+{
+DataWriter
+}
+=
 ChromeUtils
 .
 import
@@ -154,6 +164,11 @@ jsm
 "
 )
 ;
+const
+{
+DNSRecord
+}
+=
 ChromeUtils
 .
 import
@@ -173,6 +188,11 @@ jsm
 "
 )
 ;
+const
+{
+DNS_RECORD_TYPES
+}
+=
 ChromeUtils
 .
 import

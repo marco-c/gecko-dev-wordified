@@ -223,8 +223,6 @@ Translation
 .
 jsm
 "
-{
-}
 )
 ;
 add_task
@@ -402,6 +400,11 @@ function
 (
 )
 {
+const
+{
+TranslationDocument
+}
+=
 ChromeUtils
 .
 import
@@ -422,6 +425,11 @@ jsm
 "
 )
 ;
+const
+{
+YandexTranslator
+}
+=
 ChromeUtils
 .
 import

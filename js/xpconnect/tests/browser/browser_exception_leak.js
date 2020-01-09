@@ -179,8 +179,6 @@ TestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -205,8 +203,6 @@ Assert
 .
 jsm
 "
-{
-}
 )
 ;
 const

@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -126,8 +131,6 @@ util
 .
 js
 "
-{
-}
 )
 ;
 let

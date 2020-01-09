@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+const
+{
+SitePermissions
+}
+=
 ChromeUtils
 .
 import
@@ -51,6 +56,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

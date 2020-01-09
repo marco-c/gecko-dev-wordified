@@ -56,6 +56,11 @@ ignoreAllUncaughtExceptions
 true
 )
 ;
+const
+{
+AppMenuNotifications
+}
+=
 ChromeUtils
 .
 import

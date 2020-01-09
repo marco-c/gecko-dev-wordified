@@ -168,6 +168,11 @@ PreloadedHPKPins
 .
 json
 ]
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

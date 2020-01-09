@@ -1189,8 +1189,6 @@ ReaderMode
 .
 jsm
 "
-{
-}
 )
 ;
 let

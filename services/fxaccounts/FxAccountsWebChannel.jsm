@@ -96,6 +96,11 @@ EnsureFxAccountsWebChannel
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -115,6 +120,15 @@ jsm
 "
 )
 ;
+const
+{
+ON_PROFILE_CHANGE_NOTIFICATION
+PREF_LAST_FXA_USER
+WEBCHANNEL_ID
+log
+logPII
+}
+=
 ChromeUtils
 .
 import

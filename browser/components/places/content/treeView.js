@@ -68,6 +68,11 @@ controller
 js
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

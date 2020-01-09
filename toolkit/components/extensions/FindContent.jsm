@@ -151,8 +151,6 @@ Finder
 .
 jsm
 "
-{
-}
 )
 ;
 this
@@ -201,8 +199,6 @@ FinderIterator
 .
 jsm
 "
-{
-}
 )
 ;
 this
@@ -402,8 +398,6 @@ FinderHighlighter
 .
 jsm
 "
-{
-}
 )
 ;
 this

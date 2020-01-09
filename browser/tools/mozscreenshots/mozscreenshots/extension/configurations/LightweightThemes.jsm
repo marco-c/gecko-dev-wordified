@@ -70,6 +70,11 @@ LightweightThemes
 "
 ]
 ;
+const
+{
+LightweightThemeManager
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -108,6 +118,11 @@ jsm
 "
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import

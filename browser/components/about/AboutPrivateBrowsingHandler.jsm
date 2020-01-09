@@ -70,6 +70,11 @@ AboutPrivateBrowsingHandler
 "
 ]
 ;
+const
+{
+RemotePages
+}
+=
 ChromeUtils
 .
 import
@@ -91,6 +96,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -106,6 +106,11 @@ preferencesBindings
 js
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

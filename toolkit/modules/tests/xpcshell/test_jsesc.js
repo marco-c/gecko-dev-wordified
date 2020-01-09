@@ -28,6 +28,11 @@ zero
 /
 *
 /
+const
+{
+jsesc
+}
+=
 ChromeUtils
 .
 import

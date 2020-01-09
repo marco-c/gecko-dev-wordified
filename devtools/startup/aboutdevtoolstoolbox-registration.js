@@ -113,8 +113,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -139,8 +137,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const

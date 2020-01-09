@@ -52,8 +52,6 @@ ForgetAboutSite
 .
 jsm
 "
-{
-}
 )
 ;
 const

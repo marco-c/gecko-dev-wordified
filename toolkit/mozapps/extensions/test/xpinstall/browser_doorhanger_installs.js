@@ -543,6 +543,11 @@ dismiss
 false
 )
 {
+const
+{
+AppMenuNotifications
+}
+=
 ChromeUtils
 .
 import

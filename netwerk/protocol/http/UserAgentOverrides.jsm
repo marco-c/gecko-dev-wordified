@@ -70,6 +70,11 @@ UserAgentOverrides
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -108,6 +118,11 @@ jsm
 "
 )
 ;
+const
+{
+UserAgentUpdates
+}
+=
 ChromeUtils
 .
 import

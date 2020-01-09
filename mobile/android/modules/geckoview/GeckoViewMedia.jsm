@@ -70,6 +70,11 @@ GeckoViewMedia
 "
 ]
 ;
+const
+{
+GeckoViewModule
+}
+=
 ChromeUtils
 .
 import

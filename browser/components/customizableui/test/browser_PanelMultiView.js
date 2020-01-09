@@ -46,6 +46,11 @@ module
 .
 *
 /
+const
+{
+PanelMultiView
+}
+=
 ChromeUtils
 .
 import

@@ -18,6 +18,11 @@ future
 notifications
 correctly
 .
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -37,6 +42,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

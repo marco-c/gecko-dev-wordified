@@ -100,8 +100,6 @@ SearchTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 SearchTestUtils
@@ -5544,6 +5542,11 @@ if
 gDidInitialSetUp
 )
 {
+var
+{
+ContentSearch
+}
+=
 ChromeUtils
 .
 import

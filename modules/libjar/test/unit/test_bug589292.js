@@ -11,6 +11,11 @@ for
 content
 -
 disposition
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

@@ -27,6 +27,11 @@ zero
 /
 *
 /
+const
+{
+PasswordValidator
+}
+=
 ChromeUtils
 .
 import

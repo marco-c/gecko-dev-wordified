@@ -205,8 +205,6 @@ DownloadUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -230,8 +228,6 @@ SiteDataManager
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -256,8 +252,6 @@ offlineAppCache
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

@@ -50,6 +50,11 @@ age
 /
 take
 precedence
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -69,6 +74,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

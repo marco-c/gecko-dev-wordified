@@ -49,8 +49,7 @@ FormAutofillParent
 .
 jsm
 "
-{
-}
+null
 )
 )
 ;

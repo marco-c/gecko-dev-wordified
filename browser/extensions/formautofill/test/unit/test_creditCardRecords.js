@@ -39,6 +39,11 @@ jsm
 "
 )
 ;
+const
+{
+CreditCard
+}
+=
 ChromeUtils
 .
 import
@@ -89,8 +94,7 @@ FormAutofillStorage
 .
 jsm
 "
-{
-}
+null
 )
 )
 ;

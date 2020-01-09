@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

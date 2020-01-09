@@ -70,6 +70,11 @@ SecurityInfo
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

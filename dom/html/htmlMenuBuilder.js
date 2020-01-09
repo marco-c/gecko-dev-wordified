@@ -72,6 +72,11 @@ HTML
 contextmenu
 attribute
 .
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

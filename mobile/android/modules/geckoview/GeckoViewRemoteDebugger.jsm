@@ -70,6 +70,11 @@ GeckoViewRemoteDebugger
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ jsm
 "
 )
 ;
+const
+{
+GeckoViewUtils
+}
+=
 ChromeUtils
 .
 import
@@ -167,8 +177,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 return

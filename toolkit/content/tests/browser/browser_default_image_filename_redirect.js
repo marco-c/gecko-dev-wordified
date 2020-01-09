@@ -76,8 +76,6 @@ WebRequest
 .
 jsm
 "
-{
-}
 )
 ;
 let

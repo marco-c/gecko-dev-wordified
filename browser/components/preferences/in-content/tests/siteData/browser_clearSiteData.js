@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+var
+{
+SitePermissions
+}
+=
 ChromeUtils
 .
 import

@@ -70,6 +70,11 @@ FormAssistant
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

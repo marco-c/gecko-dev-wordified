@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+const
+{
+DownloadHistory
+}
+=
 ChromeUtils
 .
 import

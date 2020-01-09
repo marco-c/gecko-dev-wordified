@@ -79,8 +79,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -107,6 +105,11 @@ provider
 "
 )
 ;
+const
+{
+addDebuggerToGlobal
+}
+=
 ChromeUtils
 .
 import

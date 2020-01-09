@@ -77,6 +77,11 @@ Services
 "
 ]
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -96,6 +101,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

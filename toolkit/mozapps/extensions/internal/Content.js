@@ -94,8 +94,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const

@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+LogManager
+}
+=
 ChromeUtils
 .
 import

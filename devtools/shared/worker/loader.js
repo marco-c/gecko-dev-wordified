@@ -3449,8 +3449,7 @@ Timer
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

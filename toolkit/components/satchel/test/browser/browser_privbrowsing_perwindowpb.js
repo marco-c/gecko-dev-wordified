@@ -79,8 +79,6 @@ FormHistory
 .
 jsm
 "
-{
-}
 )
 )
 ;

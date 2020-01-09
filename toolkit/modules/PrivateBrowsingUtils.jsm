@@ -65,6 +65,11 @@ PrivateBrowsingUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

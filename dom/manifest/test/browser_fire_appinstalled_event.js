@@ -41,8 +41,6 @@ PromiseMessage
 .
 jsm
 "
-{
-}
 )
 ;
 const

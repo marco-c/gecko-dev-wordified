@@ -55,8 +55,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 /

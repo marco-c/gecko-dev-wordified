@@ -154,6 +154,11 @@ profile
 .
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -173,6 +178,12 @@ jsm
 "
 )
 ;
+const
+{
+MigrationUtils
+MigratorPrototype
+}
+=
 ChromeUtils
 .
 import
@@ -191,6 +202,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

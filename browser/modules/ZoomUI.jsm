@@ -93,6 +93,11 @@ ZoomUI
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -782,6 +787,11 @@ label
 ;
 }
 }
+const
+{
+CustomizableUI
+}
+=
 ChromeUtils
 .
 import

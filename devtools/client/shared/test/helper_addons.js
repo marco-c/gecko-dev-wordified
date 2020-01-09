@@ -163,8 +163,6 @@ AddonManager
 .
 jsm
 "
-{
-}
 )
 ;
 /

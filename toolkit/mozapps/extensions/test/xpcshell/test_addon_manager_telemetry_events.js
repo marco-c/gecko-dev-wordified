@@ -28,6 +28,11 @@ zero
 /
 *
 /
+const
+{
+TelemetryController
+}
+=
 ChromeUtils
 .
 import

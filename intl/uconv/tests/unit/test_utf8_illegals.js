@@ -13,6 +13,11 @@ Components
 .
 Constructor
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

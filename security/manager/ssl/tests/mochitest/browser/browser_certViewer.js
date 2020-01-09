@@ -125,8 +125,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

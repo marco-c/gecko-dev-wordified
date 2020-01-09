@@ -129,8 +129,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -159,8 +157,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 /

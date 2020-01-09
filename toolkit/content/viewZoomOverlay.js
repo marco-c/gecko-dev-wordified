@@ -118,6 +118,11 @@ modified
 *
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

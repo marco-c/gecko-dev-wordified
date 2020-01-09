@@ -237,8 +237,6 @@ utils
 .
 js
 "
-{
-}
 )
 ;
 const

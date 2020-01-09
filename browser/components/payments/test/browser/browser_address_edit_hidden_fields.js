@@ -447,8 +447,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -785,8 +783,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -1078,8 +1074,6 @@ PaymentTestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let

@@ -163,6 +163,11 @@ frame
 script
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -706,8 +711,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return

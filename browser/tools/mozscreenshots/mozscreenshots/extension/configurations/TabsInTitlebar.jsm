@@ -81,6 +81,11 @@ tabs
 drawInTitlebar
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

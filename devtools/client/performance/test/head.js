@@ -81,8 +81,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 try

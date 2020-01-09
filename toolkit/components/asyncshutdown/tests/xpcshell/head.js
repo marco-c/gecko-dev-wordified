@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -52,6 +57,11 @@ jsm
 "
 )
 ;
+var
+{
+AsyncShutdown
+}
+=
 ChromeUtils
 .
 import

@@ -88,7 +88,9 @@ const
 Management
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -103,6 +105,7 @@ Extension
 .
 jsm
 "
+null
 )
 ;
 const

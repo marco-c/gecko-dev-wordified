@@ -71,6 +71,11 @@ for
 deleted
 table
 tests
+const
+{
+Promise
+}
+=
 ChromeUtils
 .
 import

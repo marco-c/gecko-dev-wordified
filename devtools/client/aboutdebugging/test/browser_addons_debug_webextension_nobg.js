@@ -167,8 +167,6 @@ ToolboxProcess
 .
 jsm
 "
-{
-}
 )
 ;
 /

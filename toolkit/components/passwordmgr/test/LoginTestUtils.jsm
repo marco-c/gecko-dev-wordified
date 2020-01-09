@@ -56,6 +56,11 @@ LoginTestUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -75,6 +80,11 @@ jsm
 "
 )
 ;
+const
+{
+Assert
+}
+=
 ChromeUtils
 .
 import
@@ -94,6 +104,11 @@ jsm
 "
 )
 ;
+const
+{
+TestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -2043,8 +2058,6 @@ LoginManagerParent
 .
 jsm
 "
-{
-}
 )
 ;
 if

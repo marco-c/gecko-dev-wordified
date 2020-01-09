@@ -8,6 +8,11 @@ introduced
 in
 bug
 324985
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -27,6 +32,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

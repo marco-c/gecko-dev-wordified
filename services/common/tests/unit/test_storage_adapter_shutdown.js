@@ -27,6 +27,11 @@ zero
 /
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -46,6 +51,11 @@ jsm
 "
 )
 ;
+const
+{
+AsyncShutdown
+}
+=
 ChromeUtils
 .
 import
@@ -65,6 +75,11 @@ jsm
 "
 )
 ;
+const
+{
+FirefoxAdapter
+}
+=
 ChromeUtils
 .
 import

@@ -28,6 +28,11 @@ zero
 /
 *
 /
+const
+{
+Observers
+}
+=
 ChromeUtils
 .
 import

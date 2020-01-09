@@ -144,8 +144,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const

@@ -70,6 +70,11 @@ WebrtcUI
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

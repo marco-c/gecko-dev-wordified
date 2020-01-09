@@ -68,6 +68,11 @@ ExtensionAPI
 XPCOMUtils
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

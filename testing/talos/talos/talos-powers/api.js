@@ -62,6 +62,11 @@ globals
 ExtensionAPI
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -2251,6 +2256,11 @@ callback
 win
 )
 {
+const
+{
+Troubleshoot
+}
+=
 ChromeUtils
 .
 import

@@ -70,6 +70,11 @@ UIDensities
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

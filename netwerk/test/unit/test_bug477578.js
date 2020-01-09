@@ -6,6 +6,11 @@ methods
 are
 not
 normalized
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

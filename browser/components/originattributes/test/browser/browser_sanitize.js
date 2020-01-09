@@ -60,8 +60,6 @@ Sanitizer
 .
 jsm
 "
-{
-}
 )
 ;
 function

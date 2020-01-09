@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -99,6 +109,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -118,6 +133,11 @@ jsm
 "
 )
 ;
+const
+{
+assert
+}
+=
 ChromeUtils
 .
 import
@@ -137,6 +157,11 @@ js
 "
 )
 ;
+const
+{
+capture
+}
+=
 ChromeUtils
 .
 import
@@ -178,8 +203,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -204,8 +227,6 @@ log
 .
 js
 "
-{
-}
 )
 ;
 XPCOMUtils

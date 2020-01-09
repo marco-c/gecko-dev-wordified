@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+var
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -75,6 +80,12 @@ jsm
 "
 )
 ;
+var
+{
+OS
+require
+}
+=
 ChromeUtils
 .
 import

@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+ContextualIdentityService
+}
+=
 ChromeUtils
 .
 import

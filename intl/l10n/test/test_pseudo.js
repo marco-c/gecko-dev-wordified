@@ -49,8 +49,6 @@ Localization
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -75,8 +73,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -102,8 +98,6 @@ L10nRegistry
 .
 jsm
 "
-{
-}
 )
 ;
 const

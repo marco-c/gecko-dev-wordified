@@ -122,6 +122,11 @@ global
 sendAsyncMessage
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -141,6 +146,11 @@ jsm
 "
 )
 ;
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -160,6 +170,11 @@ jsm
 "
 )
 ;
+var
+{
+ActorManagerChild
+}
+=
 ChromeUtils
 .
 import

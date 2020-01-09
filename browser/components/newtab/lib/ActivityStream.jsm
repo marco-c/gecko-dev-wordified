@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -187,8 +192,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -215,8 +218,6 @@ AboutPreferences
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -243,8 +244,6 @@ ActivityStreamPrefs
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -271,8 +270,6 @@ ManualMigration
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -299,8 +296,6 @@ NewTabInit
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -327,8 +322,6 @@ SectionsManager
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -355,8 +348,6 @@ PlacesFeed
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -383,8 +374,6 @@ PrefsFeed
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -411,8 +400,6 @@ Store
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -439,8 +426,6 @@ SnippetsFeed
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -467,8 +452,6 @@ SystemTickFeed
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -495,8 +478,6 @@ TelemetryFeed
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -523,8 +504,6 @@ FaviconFeed
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -551,8 +530,6 @@ TopSitesFeed
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -579,8 +556,6 @@ TopStoriesFeed
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -607,8 +582,6 @@ HighlightsFeed
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -635,8 +608,6 @@ ASRouterFeed
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -663,8 +634,6 @@ DiscoveryStreamFeed
 .
 jsm
 "
-{
-}
 )
 ;
 const

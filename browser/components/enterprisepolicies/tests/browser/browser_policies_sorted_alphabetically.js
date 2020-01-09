@@ -151,8 +151,6 @@ schema
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -178,8 +176,6 @@ Policies
 .
 jsm
 "
-{
-}
 )
 ;
 checkArrayIsSorted
@@ -258,8 +254,6 @@ schema
 .
 jsm
 "
-{
-}
 )
 ;
 is

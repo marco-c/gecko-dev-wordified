@@ -40,6 +40,11 @@ the
 telemetry
 service
 .
+const
+{
+PlacesDBUtils
+}
+=
 ChromeUtils
 .
 import

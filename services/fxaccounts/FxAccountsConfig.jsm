@@ -70,6 +70,11 @@ FxAccountsConfig
 "
 ]
 ;
+const
+{
+RESTRequest
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ js
 "
 )
 ;
+const
+{
+log
+}
+=
 ChromeUtils
 .
 import
@@ -108,6 +118,11 @@ js
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -127,6 +142,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

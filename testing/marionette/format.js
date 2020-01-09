@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -102,8 +107,6 @@ log
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -128,8 +131,7 @@ prefs
 .
 js
 "
-{
-}
+null
 )
 ;
 XPCOMUtils

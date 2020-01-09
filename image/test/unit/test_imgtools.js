@@ -6,6 +6,11 @@ for
 imgITools
 *
 /
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

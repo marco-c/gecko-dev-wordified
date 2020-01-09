@@ -169,8 +169,6 @@ PlacesUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -194,8 +192,6 @@ LiveBookmarkMigrator
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -1071,8 +1067,7 @@ LiveBookmarkMigrator
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

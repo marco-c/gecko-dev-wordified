@@ -94,6 +94,11 @@ English
 .
 *
 /
+const
+{
+PluralForm
+}
+=
 ChromeUtils
 .
 import

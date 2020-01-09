@@ -143,6 +143,11 @@ none
 ]
 *
 /
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

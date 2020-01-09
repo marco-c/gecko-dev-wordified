@@ -76,6 +76,11 @@ STATE_DISABLED
 "
 ]
 ;
+const
+{
+AddonManager
+}
+=
 ChromeUtils
 .
 import
@@ -95,6 +100,11 @@ jsm
 "
 )
 ;
+const
+{
+AddonUtils
+}
+=
 ChromeUtils
 .
 import
@@ -114,6 +124,11 @@ js
 "
 )
 ;
+const
+{
+Logger
+}
+=
 ChromeUtils
 .
 import

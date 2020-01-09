@@ -346,6 +346,11 @@ ExtensionSettingsStore
 "
 ]
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -365,6 +370,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

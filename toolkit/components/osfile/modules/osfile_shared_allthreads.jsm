@@ -564,6 +564,11 @@ global
 OS
 *
 /
+var
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import
@@ -608,6 +613,15 @@ nsIOSFileConstantsService
 init
 (
 )
+;
+}
+else
+{
+ctypes
+=
+self
+.
+ctypes
 ;
 }
 exports

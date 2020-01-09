@@ -248,6 +248,11 @@ Range
 -
 header
 .
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -267,6 +272,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

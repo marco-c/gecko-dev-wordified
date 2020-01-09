@@ -91,6 +91,11 @@ URIFixupChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

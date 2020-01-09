@@ -48,8 +48,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const
@@ -1155,8 +1154,6 @@ httpd
 .
 js
 "
-{
-}
 )
 ;
 const

@@ -32,6 +32,11 @@ use
 strict
 "
 ;
+const
+{
+UIState
+}
+=
 ChromeUtils
 .
 import

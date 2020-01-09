@@ -76,6 +76,11 @@ cgi
 id
 =
 1273251
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

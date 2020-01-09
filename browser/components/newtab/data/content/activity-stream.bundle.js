@@ -41307,6 +41307,11 @@ undefined
 "
 )
 {
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -205,6 +205,11 @@ use
 strict
 "
 ;
+const
+{
+PromiseMessage
+}
+=
 ChromeUtils
 .
 import
@@ -224,6 +229,11 @@ jsm
 "
 )
 ;
+const
+{
+ManifestProcessor
+}
+=
 ChromeUtils
 .
 import

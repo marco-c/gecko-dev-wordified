@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+cookie
+}
+=
 ChromeUtils
 .
 import

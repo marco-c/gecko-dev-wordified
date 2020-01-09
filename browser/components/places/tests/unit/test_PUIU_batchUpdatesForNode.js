@@ -76,6 +76,14 @@ v2
 .
 2
 /
+const
+{
+setTimeout
+clearTimeout
+setInterval
+clearInterval
+}
+=
 ChromeUtils
 .
 import

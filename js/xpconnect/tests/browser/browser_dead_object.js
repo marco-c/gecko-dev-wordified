@@ -182,8 +182,6 @@ TestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let

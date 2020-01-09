@@ -122,8 +122,6 @@ PageThumbUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let

@@ -252,6 +252,11 @@ aSecs
 )
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

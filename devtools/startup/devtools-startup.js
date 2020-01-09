@@ -266,8 +266,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils
@@ -442,8 +440,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 /
@@ -4622,8 +4618,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 /
@@ -5530,8 +5524,6 @@ ToolboxProcess
 .
 jsm
 "
-{
-}
 )
 ;
 BrowserToolboxProcess
@@ -5947,8 +5939,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 try

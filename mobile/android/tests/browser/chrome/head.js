@@ -351,6 +351,11 @@ promiseNotification
 aTopic
 )
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -456,6 +461,11 @@ promiseLinkVisit
 url
 )
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

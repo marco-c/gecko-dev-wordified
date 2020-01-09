@@ -70,6 +70,11 @@ PromiseUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -184,8 +184,6 @@ TestUtils
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -701,8 +699,7 @@ ExtensionContent
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let
@@ -962,8 +959,7 @@ ExtensionContent
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let
@@ -1252,8 +1248,6 @@ ExtensionPageChild
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -1538,8 +1532,6 @@ ExtensionPageChild
 .
 jsm
 "
-{
-}
 )
 ;
 let

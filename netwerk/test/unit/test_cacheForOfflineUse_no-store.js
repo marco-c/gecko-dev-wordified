@@ -22,6 +22,11 @@ cgi
 id
 =
 760955
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -41,6 +46,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

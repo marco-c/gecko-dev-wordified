@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -104,8 +109,6 @@ sync
 .
 js
 "
-{
-}
 )
 ;
 /

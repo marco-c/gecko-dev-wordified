@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -75,6 +80,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -94,6 +104,11 @@ jsm
 "
 )
 ;
+const
+{
+FileUtils
+}
+=
 ChromeUtils
 .
 import
@@ -155,6 +170,11 @@ tpsStartup
 {
 try
 {
+var
+{
+TPS
+}
+=
 ChromeUtils
 .
 import

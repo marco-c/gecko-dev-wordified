@@ -13,6 +13,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -32,6 +37,11 @@ jsm
 "
 )
 ;
+const
+{
+Downloads
+}
+=
 ChromeUtils
 .
 import
@@ -51,6 +61,11 @@ jsm
 "
 )
 ;
+const
+{
+FileTestUtils
+}
+=
 ChromeUtils
 .
 import

@@ -88,6 +88,11 @@ DownloadPaths
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

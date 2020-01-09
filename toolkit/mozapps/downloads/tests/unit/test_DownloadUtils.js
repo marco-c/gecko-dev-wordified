@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+DownloadUtils
+}
+=
 ChromeUtils
 .
 import

@@ -131,6 +131,11 @@ histograms
 .
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

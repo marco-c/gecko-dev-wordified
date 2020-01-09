@@ -84,6 +84,11 @@ off
 "
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -103,6 +108,11 @@ jsm
 "
 )
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -122,6 +132,11 @@ jsm
 "
 )
 ;
+const
+{
+E10SUtils
+}
+=
 ChromeUtils
 .
 import

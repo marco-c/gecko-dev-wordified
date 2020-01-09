@@ -70,6 +70,11 @@ HiddenFrame
 "
 ]
 ;
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

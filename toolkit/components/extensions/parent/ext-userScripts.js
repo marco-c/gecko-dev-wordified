@@ -48,6 +48,11 @@ use
 strict
 "
 ;
+var
+{
+ExtensionUtils
+}
+=
 ChromeUtils
 .
 import

@@ -101,6 +101,11 @@ jsm
 this
 )
 ;
+const
+{
+parseKeyValuePairs
+}
+=
 ChromeUtils
 .
 import

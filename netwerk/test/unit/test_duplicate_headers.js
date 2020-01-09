@@ -109,6 +109,11 @@ etc
 /
 Test
 infrastructure
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -128,6 +133,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

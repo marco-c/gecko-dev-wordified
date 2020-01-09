@@ -100,6 +100,11 @@ globals
 HttpServer
 *
 /
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import

@@ -91,6 +91,11 @@ ExtFindChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

@@ -64,6 +64,11 @@ FormHistory
 Accounts
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -83,6 +88,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -102,6 +112,11 @@ jsm
 "
 )
 ;
+const
+{
+Integration
+}
+=
 ChromeUtils
 .
 import

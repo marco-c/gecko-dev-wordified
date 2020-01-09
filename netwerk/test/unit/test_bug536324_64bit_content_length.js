@@ -20,6 +20,11 @@ HTTP
 case
 *
 /
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -39,6 +44,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

@@ -10,6 +10,11 @@ createHttpServer
 promiseConsoleOutput
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -29,6 +34,11 @@ jsm
 "
 )
 ;
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

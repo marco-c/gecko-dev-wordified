@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+BookmarkJSONUtils
+}
+=
 ChromeUtils
 .
 import

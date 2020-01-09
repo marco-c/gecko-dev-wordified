@@ -157,6 +157,11 @@ fetch
 ]
 )
 ;
+const
+{
+AsyncShutdown
+}
+=
 ChromeUtils
 .
 import
@@ -176,6 +181,11 @@ jsm
 "
 )
 ;
+const
+{
+FileUtils
+}
+=
 ChromeUtils
 .
 import
@@ -195,6 +205,11 @@ jsm
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import
@@ -214,6 +229,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -233,6 +253,11 @@ jsm
 "
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import
@@ -252,6 +277,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -293,8 +323,6 @@ EventEmitter
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -319,8 +347,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils
@@ -404,8 +430,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return
@@ -808,8 +833,7 @@ AddonManager
 .
 jsm
 "
-{
-}
+null
 )
 ;
 var
@@ -5243,8 +5267,7 @@ Blocklist
 .
 jsm
 "
-{
-}
+null
 )
 ;
 Object
@@ -5478,7 +5501,6 @@ XPIProvider
 .
 jsm
 "
-null
 )
 ;
 await
@@ -5745,8 +5767,7 @@ XPIProvider
 .
 jsm
 "
-{
-}
+null
 )
 ;
 /
@@ -6043,8 +6064,7 @@ XPIProvider
 .
 jsm
 "
-{
-}
+null
 )
 ;
 XPIScope

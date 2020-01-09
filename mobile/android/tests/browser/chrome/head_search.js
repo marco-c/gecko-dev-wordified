@@ -18,6 +18,11 @@ xpcshell
 head_search
 .
 js
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -37,6 +42,11 @@ jsm
 "
 )
 ;
+var
+{
+Task
+}
+=
 ChromeUtils
 .
 import

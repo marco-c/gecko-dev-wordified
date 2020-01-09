@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+var
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import

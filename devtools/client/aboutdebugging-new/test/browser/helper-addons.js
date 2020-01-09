@@ -66,8 +66,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 function

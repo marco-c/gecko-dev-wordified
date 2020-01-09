@@ -63,8 +63,6 @@ RecipeRunner
 .
 jsm
 "
-{
-}
 )
 ;
 await

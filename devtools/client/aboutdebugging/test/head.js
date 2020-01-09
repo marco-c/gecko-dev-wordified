@@ -153,8 +153,6 @@ AddonManager
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -179,8 +177,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const
@@ -205,8 +202,6 @@ ExtensionTestCommon
 .
 jsm
 "
-{
-}
 )
 ;
 async

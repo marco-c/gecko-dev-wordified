@@ -77,6 +77,11 @@ strict
 mode
 *
 /
+const
+{
+PluralForm
+}
+=
 ChromeUtils
 .
 import

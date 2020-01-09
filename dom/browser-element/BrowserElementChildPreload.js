@@ -95,6 +95,11 @@ loaded
 var
 BrowserElementIsReady
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -114,6 +119,11 @@ jsm
 "
 )
 ;
+var
+{
+BrowserElementPromptService
+}
+=
 ChromeUtils
 .
 import

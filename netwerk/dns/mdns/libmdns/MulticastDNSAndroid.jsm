@@ -114,6 +114,11 @@ MulticastDNS
 "
 ]
 ;
+const
+{
+EventDispatcher
+}
+=
 ChromeUtils
 .
 import

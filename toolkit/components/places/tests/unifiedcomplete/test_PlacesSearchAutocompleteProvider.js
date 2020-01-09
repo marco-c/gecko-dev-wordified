@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+PlacesSearchAutocompleteProvider
+}
+=
 ChromeUtils
 .
 import
@@ -75,6 +80,11 @@ jsm
 "
 )
 ;
+const
+{
+updateAppInfo
+}
+=
 ChromeUtils
 .
 import

@@ -133,6 +133,11 @@ globals
 WebExtensionPolicy
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

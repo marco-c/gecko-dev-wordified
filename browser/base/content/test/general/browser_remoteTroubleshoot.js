@@ -78,8 +78,6 @@ WebChannel
 .
 jsm
 "
-{
-}
 )
 ;
 const

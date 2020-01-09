@@ -99,6 +99,11 @@ MPL
 .
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -116,9 +121,13 @@ Services
 .
 jsm
 "
-this
 )
 ;
+var
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import
@@ -136,7 +145,6 @@ NetUtil
 .
 jsm
 "
-this
 )
 ;
 /

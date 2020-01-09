@@ -154,6 +154,11 @@ iff
 both
 succeeds
 .
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -173,6 +178,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

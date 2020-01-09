@@ -107,6 +107,11 @@ use
 strict
 "
 ;
+const
+{
+FileUtils
+}
+=
 ChromeUtils
 .
 import
@@ -126,6 +131,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -48,6 +48,11 @@ use
 strict
 "
 ;
+const
+{
+PageActions
+}
+=
 ChromeUtils
 .
 import
@@ -66,6 +71,11 @@ jsm
 "
 )
 ;
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import

@@ -15,6 +15,11 @@ lone
 blocks
 *
 /
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import

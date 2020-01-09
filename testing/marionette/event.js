@@ -101,6 +101,11 @@ restricted
 globals
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -120,6 +125,11 @@ jsm
 "
 )
 ;
+const
+{
+element
+}
+=
 ChromeUtils
 .
 import

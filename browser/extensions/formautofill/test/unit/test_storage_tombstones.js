@@ -48,8 +48,7 @@ FormAutofillStorage
 .
 jsm
 "
-{
-}
+null
 )
 )
 ;

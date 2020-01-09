@@ -14,6 +14,11 @@ child
 process
 /
 /
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

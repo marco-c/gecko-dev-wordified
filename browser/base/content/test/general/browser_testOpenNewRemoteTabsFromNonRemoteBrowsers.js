@@ -48,6 +48,11 @@ about
 welcomeback
 "
 ;
+const
+{
+PrivateBrowsingUtils
+}
+=
 ChromeUtils
 .
 import

@@ -154,6 +154,11 @@ response
 /
 globals
 Services
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

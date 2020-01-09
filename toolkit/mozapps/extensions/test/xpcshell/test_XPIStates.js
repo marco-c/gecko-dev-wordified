@@ -430,8 +430,7 @@ XPIProvider
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return

@@ -70,6 +70,11 @@ LightweightThemePersister
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

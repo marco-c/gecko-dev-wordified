@@ -54,8 +54,6 @@ ContentTaskUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -80,8 +78,6 @@ TelemetryUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -106,8 +102,6 @@ ObjectUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const

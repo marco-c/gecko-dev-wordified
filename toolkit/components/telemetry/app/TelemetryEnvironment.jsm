@@ -75,6 +75,11 @@ myScope
 =
 this
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import
@@ -94,6 +99,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -133,6 +143,11 @@ jsm
 this
 )
 ;
+const
+{
+ObjectUtils
+}
+=
 ChromeUtils
 .
 import
@@ -152,6 +167,11 @@ jsm
 "
 )
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -198,8 +218,6 @@ AddonManager
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils
@@ -9919,8 +9937,6 @@ ShellService
 .
 jsm
 "
-{
-}
 )
 ;
 /

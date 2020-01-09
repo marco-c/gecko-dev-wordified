@@ -37,6 +37,11 @@ is
 correctly
 modified
 .
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -56,6 +61,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

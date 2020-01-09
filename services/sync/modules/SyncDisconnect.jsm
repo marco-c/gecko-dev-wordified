@@ -80,6 +80,11 @@ of
 the
 process
 .
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

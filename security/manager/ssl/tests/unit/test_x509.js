@@ -89,8 +89,6 @@ X509
 .
 jsm
 "
-{
-}
 )
 ;
 function

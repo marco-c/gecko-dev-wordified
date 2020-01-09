@@ -72,6 +72,11 @@ ChromeUtils
 ]
 )
 ;
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import

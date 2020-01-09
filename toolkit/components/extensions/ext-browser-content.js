@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -183,6 +193,11 @@ jsm
 }
 )
 ;
+var
+{
+ExtensionUtils
+}
+=
 ChromeUtils
 .
 import

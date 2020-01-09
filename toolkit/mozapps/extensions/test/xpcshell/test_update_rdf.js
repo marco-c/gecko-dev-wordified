@@ -13,6 +13,11 @@ to
 JSON
 converter
 .
+const
+{
+AddonUpdateChecker
+}
+=
 ChromeUtils
 .
 import

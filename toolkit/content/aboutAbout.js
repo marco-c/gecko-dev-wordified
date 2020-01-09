@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+AboutPagesUtils
+}
+=
 ChromeUtils
 .
 import

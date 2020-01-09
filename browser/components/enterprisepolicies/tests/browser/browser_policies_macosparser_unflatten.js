@@ -56,8 +56,6 @@ macOSPoliciesParser
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

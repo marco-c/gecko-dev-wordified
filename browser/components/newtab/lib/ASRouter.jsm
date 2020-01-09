@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -226,8 +236,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -254,8 +262,6 @@ CFRMessageProvider
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -282,8 +288,6 @@ OnboardingMessageProvider
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -310,8 +314,6 @@ SnippetsTestMessageProvider
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -338,8 +340,6 @@ settings
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -366,8 +366,6 @@ CFRPageActions
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils
@@ -470,6 +468,11 @@ jsm
 "
 )
 ;
+const
+{
+AttributionCode
+}
+=
 ChromeUtils
 .
 import

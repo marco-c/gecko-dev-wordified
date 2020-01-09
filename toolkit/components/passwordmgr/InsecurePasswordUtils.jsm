@@ -110,6 +110,11 @@ security
 properties
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -129,6 +134,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

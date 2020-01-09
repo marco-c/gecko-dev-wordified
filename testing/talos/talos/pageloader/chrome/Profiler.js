@@ -937,6 +937,11 @@ currentTest
 profile
 "
 ;
+const
+{
+NetUtil
+}
+=
 Cu
 .
 import
@@ -956,6 +961,11 @@ jsm
 "
 )
 ;
+const
+{
+FileUtils
+}
+=
 Cu
 .
 import

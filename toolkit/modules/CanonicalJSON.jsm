@@ -201,8 +201,6 @@ jsesc
 .
 js
 "
-{
-}
 )
 ;
 jsescFn

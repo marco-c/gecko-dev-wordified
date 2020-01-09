@@ -558,8 +558,6 @@ Blocklist
 .
 jsm
 "
-{
-}
 )
 ;
 let

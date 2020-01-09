@@ -85,8 +85,6 @@ settings
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -115,8 +113,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils
@@ -168,8 +164,6 @@ NaiveBayesTextTagger
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -196,8 +190,6 @@ NmfTextTagger
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -224,8 +216,6 @@ RecipeExecutor
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils
@@ -251,6 +241,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -270,6 +265,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

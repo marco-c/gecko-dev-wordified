@@ -65,6 +65,13 @@ Panel
 "
 ]
 ;
+const
+{
+clearInterval
+setInterval
+setTimeout
+}
+=
 ChromeUtils
 .
 import

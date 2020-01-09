@@ -70,6 +70,11 @@ makeFakeAppDir
 "
 ]
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ jsm
 "
 )
 ;
+const
+{
+Promise
+}
+=
 ChromeUtils
 .
 import
@@ -108,6 +118,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -27,6 +27,12 @@ zero
 /
 *
 /
+const
+{
+Collection
+WBORecord
+}
+=
 ChromeUtils
 .
 import
@@ -46,6 +52,11 @@ js
 "
 )
 ;
+const
+{
+Service
+}
+=
 ChromeUtils
 .
 import

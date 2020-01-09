@@ -25,8 +25,6 @@ ExtensionTestCommon
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -260,8 +258,6 @@ PluralForm
 .
 jsm
 "
-{
-}
 )
 ;
 let

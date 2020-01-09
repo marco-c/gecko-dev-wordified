@@ -81,6 +81,11 @@ MPL
 .
 *
 /
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -126,6 +131,9 @@ jsm
 var
 sessionCheckpointsPath
 ;
+var
+CrashMonitor
+;
 /
 *
 *
@@ -170,6 +178,11 @@ json
 "
 )
 ;
+(
+{
+CrashMonitor
+}
+=
 ChromeUtils
 .
 import
@@ -187,6 +200,7 @@ CrashMonitor
 .
 jsm
 "
+)
 )
 ;
 run_next_test

@@ -119,6 +119,11 @@ Credentials
 "
 ]
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import
@@ -138,6 +143,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -157,6 +167,11 @@ jsm
 "
 )
 ;
+const
+{
+CryptoUtils
+}
+=
 ChromeUtils
 .
 import
@@ -176,6 +191,11 @@ js
 "
 )
 ;
+const
+{
+CommonUtils
+}
+=
 ChromeUtils
 .
 import

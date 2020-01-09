@@ -89,8 +89,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 Object

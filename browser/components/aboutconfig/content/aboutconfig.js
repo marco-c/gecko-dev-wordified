@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+DeferredTask
+}
+=
 ChromeUtils
 .
 import
@@ -75,6 +80,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -94,6 +104,11 @@ jsm
 "
 )
 ;
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import

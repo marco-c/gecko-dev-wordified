@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -99,6 +109,11 @@ jsm
 "
 )
 ;
+const
+{
+DOMRequestIpcHelper
+}
+=
 ChromeUtils
 .
 import
@@ -153,8 +168,6 @@ Console
 .
 jsm
 "
-{
-}
 )
 ;
 return

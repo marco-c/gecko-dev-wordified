@@ -41,6 +41,11 @@ cancelAll
 API
 in
 XPIProvider
+const
+{
+XPIInstall
+}
+=
 ChromeUtils
 .
 import

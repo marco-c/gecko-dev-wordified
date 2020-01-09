@@ -65,6 +65,11 @@ CommonDialog
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

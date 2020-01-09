@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+ExtensionParent
+}
+=
 ChromeUtils
 .
 import
@@ -963,8 +968,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 let

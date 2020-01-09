@@ -76,6 +76,11 @@ exported
 WebRequestUpload
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -95,6 +100,11 @@ jsm
 "
 )
 ;
+const
+{
+ExtensionUtils
+}
+=
 ChromeUtils
 .
 import

@@ -91,6 +91,11 @@ myScope
 =
 this
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import
@@ -210,6 +215,11 @@ jsm
 this
 )
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import

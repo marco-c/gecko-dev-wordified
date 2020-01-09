@@ -577,6 +577,11 @@ AndroidLog
 "
 ]
 ;
+var
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import

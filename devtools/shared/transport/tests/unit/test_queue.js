@@ -79,8 +79,6 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
 ;
 function

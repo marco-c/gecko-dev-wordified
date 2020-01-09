@@ -489,6 +489,11 @@ Bookmarks
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

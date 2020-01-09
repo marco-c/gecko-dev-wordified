@@ -99,6 +99,11 @@ BYTES_PER_MEBIBYTE
 =
 1048576
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

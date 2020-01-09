@@ -70,6 +70,11 @@ AutoCompletePopup
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

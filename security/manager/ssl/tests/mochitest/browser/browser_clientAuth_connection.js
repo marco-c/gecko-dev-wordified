@@ -114,8 +114,6 @@ MockRegistrar
 .
 jsm
 "
-{
-}
 )
 ;
 const

@@ -124,8 +124,7 @@ CustomizableUI
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

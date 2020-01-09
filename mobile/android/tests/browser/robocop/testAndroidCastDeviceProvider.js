@@ -145,6 +145,11 @@ use
 strict
 "
 ;
+const
+{
+EventDispatcher
+}
+=
 ChromeUtils
 .
 import

@@ -297,8 +297,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let
@@ -1007,8 +1006,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let
@@ -1934,8 +1932,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

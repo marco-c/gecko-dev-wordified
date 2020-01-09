@@ -106,8 +106,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 var
@@ -136,8 +134,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 var

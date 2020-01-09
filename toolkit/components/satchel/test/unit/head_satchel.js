@@ -100,6 +100,11 @@ PR_HOURS
 *
 1000000
 ;
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -119,6 +124,11 @@ jsm
 "
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -138,6 +148,11 @@ jsm
 "
 )
 ;
+var
+{
+FormHistory
+}
+=
 ChromeUtils
 .
 import

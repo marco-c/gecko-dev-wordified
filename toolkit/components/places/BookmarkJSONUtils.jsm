@@ -65,6 +65,11 @@ BookmarkJSONUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -84,6 +89,11 @@ jsm
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -103,6 +113,11 @@ jsm
 "
 )
 ;
+const
+{
+PlacesUtils
+}
+=
 ChromeUtils
 .
 import

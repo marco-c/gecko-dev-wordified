@@ -48,6 +48,11 @@ use
 strict
 "
 ;
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -67,6 +72,11 @@ jsm
 "
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import

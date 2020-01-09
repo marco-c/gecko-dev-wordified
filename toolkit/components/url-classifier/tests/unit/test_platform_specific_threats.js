@@ -27,6 +27,11 @@ zero
 /
 *
 /
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import

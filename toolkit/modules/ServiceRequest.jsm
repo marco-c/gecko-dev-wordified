@@ -91,6 +91,11 @@ place
 .
 *
 /
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import
@@ -110,6 +115,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -75,6 +80,11 @@ jsm
 "
 )
 ;
+const
+{
+FormAutoCompleteResult
+}
+=
 ChromeUtils
 .
 import

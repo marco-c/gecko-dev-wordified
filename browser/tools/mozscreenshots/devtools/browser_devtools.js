@@ -100,8 +100,6 @@ gDevTools
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -130,8 +128,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

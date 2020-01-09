@@ -19,6 +19,11 @@ disable
 complexity
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

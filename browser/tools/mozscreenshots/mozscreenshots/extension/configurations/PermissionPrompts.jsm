@@ -70,6 +70,11 @@ PermissionPrompts
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ jsm
 "
 )
 ;
+const
+{
+E10SUtils
+}
+=
 ChromeUtils
 .
 import
@@ -108,6 +118,11 @@ jsm
 "
 )
 ;
+const
+{
+ContentTask
+}
+=
 ChromeUtils
 .
 import
@@ -127,6 +142,11 @@ jsm
 "
 )
 ;
+const
+{
+BrowserTestUtils
+}
+=
 ChromeUtils
 .
 import

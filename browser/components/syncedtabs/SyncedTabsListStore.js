@@ -84,8 +84,6 @@ EventEmitter
 .
 jsm
 "
-{
-}
 )
 ;
 var

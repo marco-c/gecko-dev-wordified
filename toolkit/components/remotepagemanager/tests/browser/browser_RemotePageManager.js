@@ -84,8 +84,6 @@ RemotePageManagerParent
 .
 jsm
 "
-{
-}
 )
 ;
 function

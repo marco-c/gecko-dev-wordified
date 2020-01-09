@@ -351,8 +351,7 @@ WebNavigation
 .
 jsm
 "
-{
-}
+null
 )
 ;
 Assert

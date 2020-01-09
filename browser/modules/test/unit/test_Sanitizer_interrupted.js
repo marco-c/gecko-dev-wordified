@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -73,6 +78,11 @@ function
 (
 )
 {
+const
+{
+Sanitizer
+}
+=
 ChromeUtils
 .
 import

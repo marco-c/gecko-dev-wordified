@@ -39,6 +39,11 @@ head_global
 js
 *
 /
+var
+{
+CommonUtils
+}
+=
 ChromeUtils
 .
 import

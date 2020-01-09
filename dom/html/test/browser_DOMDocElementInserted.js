@@ -62,6 +62,11 @@ function
 (
 )
 {
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import

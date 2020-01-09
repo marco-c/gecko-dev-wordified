@@ -89,6 +89,11 @@ UrlbarMuxerUnifiedComplete
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

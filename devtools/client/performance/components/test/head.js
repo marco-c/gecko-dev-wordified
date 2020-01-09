@@ -95,8 +95,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 let
@@ -147,8 +145,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 const

@@ -67,6 +67,11 @@ global
 ExtensionAPI
 *
 /
+var
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -86,6 +91,11 @@ jsm
 "
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

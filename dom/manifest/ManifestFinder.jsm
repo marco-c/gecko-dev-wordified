@@ -69,6 +69,11 @@ use
 strict
 "
 ;
+const
+{
+PromiseMessage
+}
+=
 ChromeUtils
 .
 import

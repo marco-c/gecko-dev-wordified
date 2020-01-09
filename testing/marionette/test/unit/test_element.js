@@ -83,8 +83,6 @@ element
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -109,8 +107,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 const

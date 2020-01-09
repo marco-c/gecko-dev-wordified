@@ -81,8 +81,6 @@ DevToolsShim
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -107,8 +105,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 /

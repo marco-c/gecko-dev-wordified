@@ -124,6 +124,11 @@ create
 an
 AddonInternal
 .
+const
+{
+AddonInternal
+}
+=
 ChromeUtils
 .
 import
@@ -145,12 +150,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-AddonInternal
-*
-/
 let
 addon
 =

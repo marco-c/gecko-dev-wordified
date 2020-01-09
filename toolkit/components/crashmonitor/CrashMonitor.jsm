@@ -328,6 +328,11 @@ CrashMonitor
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -347,6 +352,11 @@ jsm
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -366,6 +376,11 @@ jsm
 "
 )
 ;
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import

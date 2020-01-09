@@ -82,6 +82,11 @@ functionality
 .
 *
 /
+const
+{
+PluralForm
+}
+=
 ChromeUtils
 .
 import

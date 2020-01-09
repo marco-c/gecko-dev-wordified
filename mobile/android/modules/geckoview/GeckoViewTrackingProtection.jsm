@@ -70,6 +70,11 @@ GeckoViewTrackingProtection
 "
 ]
 ;
+const
+{
+GeckoViewModule
+}
+=
 ChromeUtils
 .
 import

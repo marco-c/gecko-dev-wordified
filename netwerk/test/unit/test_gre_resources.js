@@ -15,6 +15,11 @@ resources
 are
 still
 there
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

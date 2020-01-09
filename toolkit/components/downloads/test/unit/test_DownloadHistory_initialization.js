@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+const
+{
+DownloadHistory
+}
+=
 ChromeUtils
 .
 import
@@ -52,6 +57,11 @@ jsm
 "
 )
 ;
+const
+{
+PlacesTestUtils
+}
+=
 ChromeUtils
 .
 import

@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+assert
+}
+=
 ChromeUtils
 .
 import
@@ -122,8 +132,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -148,8 +156,6 @@ format
 .
 js
 "
-{
-}
 )
 ;
 this

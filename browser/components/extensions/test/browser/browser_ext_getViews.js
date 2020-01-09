@@ -1019,8 +1019,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 let

@@ -99,6 +99,11 @@ chk
 >
 "
 ;
+const
+{
+SessionStore
+}
+=
 ChromeUtils
 .
 import

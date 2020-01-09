@@ -31,6 +31,11 @@ function
 .
 *
 /
+const
+{
+SessionStore
+}
+=
 ChromeUtils
 .
 import

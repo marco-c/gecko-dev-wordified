@@ -107,6 +107,11 @@ jsm
 .
 *
 /
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import
@@ -126,6 +131,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -145,6 +155,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

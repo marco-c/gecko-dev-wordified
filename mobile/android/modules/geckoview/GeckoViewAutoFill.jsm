@@ -93,6 +93,11 @@ GeckoViewAutoFill
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -112,6 +117,11 @@ jsm
 "
 )
 ;
+const
+{
+GeckoViewUtils
+}
+=
 ChromeUtils
 .
 import

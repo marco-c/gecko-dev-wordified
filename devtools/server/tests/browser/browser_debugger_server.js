@@ -207,8 +207,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -315,8 +313,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -453,8 +449,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const

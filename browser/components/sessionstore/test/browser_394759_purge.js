@@ -78,8 +78,6 @@ ForgetAboutSite
 .
 jsm
 "
-{
-}
 )
 ;
 function

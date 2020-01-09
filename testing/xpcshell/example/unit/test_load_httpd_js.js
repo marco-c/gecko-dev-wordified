@@ -99,6 +99,11 @@ MPL
 .
 *
 /
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import

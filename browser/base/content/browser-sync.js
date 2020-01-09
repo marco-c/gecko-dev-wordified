@@ -80,6 +80,11 @@ browser
 window
 *
 /
+const
+{
+UIState
+}
+=
 ChromeUtils
 .
 import

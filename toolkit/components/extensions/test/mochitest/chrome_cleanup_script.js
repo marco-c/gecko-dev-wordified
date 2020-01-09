@@ -10,6 +10,11 @@ addMessageListener
 sendAsyncMessage
 *
 /
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -29,6 +34,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -67,6 +67,11 @@ globals
 gChromeWin
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -86,6 +91,11 @@ jsm
 "
 )
 ;
+const
+{
+AddonManager
+}
+=
 ChromeUtils
 .
 import
@@ -105,6 +115,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

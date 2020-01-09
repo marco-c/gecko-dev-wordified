@@ -101,8 +101,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 var

@@ -92,6 +92,11 @@ AsyncTabSwitcher
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

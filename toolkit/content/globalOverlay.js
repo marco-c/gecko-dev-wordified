@@ -85,8 +85,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 /

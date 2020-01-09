@@ -163,6 +163,11 @@ linDEBUG
 =
 true
 ;
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -182,6 +187,11 @@ jsm
 "
 )
 ;
+var
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

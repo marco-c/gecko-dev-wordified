@@ -95,6 +95,11 @@ BrowserElementPromptService
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

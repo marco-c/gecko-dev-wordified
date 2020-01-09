@@ -380,8 +380,6 @@ distribution
 .
 js
 "
-{
-}
 )
 ;
 let

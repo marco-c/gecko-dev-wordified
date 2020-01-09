@@ -969,6 +969,11 @@ formAutofillStorage
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -988,6 +993,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -1007,6 +1017,11 @@ jsm
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -1026,6 +1041,11 @@ jsm
 "
 )
 ;
+const
+{
+FormAutofill
+}
+=
 ChromeUtils
 .
 import

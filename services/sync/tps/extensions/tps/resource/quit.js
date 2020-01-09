@@ -99,6 +99,11 @@ goQuitApplication
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

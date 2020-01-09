@@ -23,6 +23,11 @@ level
 -
 *
 /
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

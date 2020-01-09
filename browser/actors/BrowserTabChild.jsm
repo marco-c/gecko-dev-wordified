@@ -91,6 +91,11 @@ BrowserTabChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

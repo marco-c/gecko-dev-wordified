@@ -83,8 +83,6 @@ format
 .
 js
 "
-{
-}
 )
 ;
 const

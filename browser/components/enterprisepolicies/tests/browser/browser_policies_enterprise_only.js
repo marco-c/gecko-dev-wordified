@@ -77,8 +77,6 @@ Policies
 .
 jsm
 "
-{
-}
 )
 ;
 let

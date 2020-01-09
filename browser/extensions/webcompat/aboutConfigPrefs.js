@@ -68,6 +68,11 @@ ExtensionAPI
 ExtensionCommon
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

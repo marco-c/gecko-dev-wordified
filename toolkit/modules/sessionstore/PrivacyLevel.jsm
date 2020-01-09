@@ -70,6 +70,11 @@ PrivacyLevel
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

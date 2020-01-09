@@ -48,6 +48,11 @@ use
 strict
 "
 ;
+const
+{
+AddonTestUtils
+}
+=
 ChromeUtils
 .
 import

@@ -93,6 +93,11 @@ Home
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -112,6 +117,11 @@ jsm
 "
 )
 ;
+const
+{
+SharedPreferences
+}
+=
 ChromeUtils
 .
 import
@@ -131,6 +141,11 @@ jsm
 "
 )
 ;
+const
+{
+EventDispatcher
+}
+=
 ChromeUtils
 .
 import

@@ -69,6 +69,11 @@ trustworthy
 .
 *
 /
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import
@@ -88,6 +93,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -107,6 +117,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

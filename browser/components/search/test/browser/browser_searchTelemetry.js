@@ -71,7 +71,6 @@ SearchTelemetry
 .
 jsm
 "
-null
 )
 ;
 const

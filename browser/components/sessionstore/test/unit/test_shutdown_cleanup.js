@@ -78,8 +78,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -105,8 +103,6 @@ SessionWorker
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -139,8 +135,6 @@ SessionFile
 .
 jsm
 "
-{
-}
 )
 ;
 const

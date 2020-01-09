@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -52,6 +57,11 @@ jsm
 "
 )
 ;
+const
+{
+AttributionCode
+}
+=
 ChromeUtils
 .
 import
@@ -70,6 +80,11 @@ jsm
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +104,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

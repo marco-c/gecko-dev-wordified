@@ -137,8 +137,6 @@ Log
 .
 jsm
 "
-{
-}
 )
 ;
 delete

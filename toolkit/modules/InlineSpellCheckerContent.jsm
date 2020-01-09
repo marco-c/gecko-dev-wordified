@@ -104,8 +104,6 @@ InlineSpellChecker
 .
 jsm
 "
-{
-}
 )
 ;
 var

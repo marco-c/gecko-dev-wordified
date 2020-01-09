@@ -143,6 +143,11 @@ response
 /
 globals
 XPCOMUtils
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -166,6 +171,11 @@ jsm
 /
 globals
 Services
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

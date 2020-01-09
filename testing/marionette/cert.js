@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

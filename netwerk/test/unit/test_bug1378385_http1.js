@@ -296,6 +296,11 @@ focused
 window
 id
 .
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -315,6 +320,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

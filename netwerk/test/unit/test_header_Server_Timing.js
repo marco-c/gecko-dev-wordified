@@ -68,6 +68,11 @@ header
 test
 /
 /
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

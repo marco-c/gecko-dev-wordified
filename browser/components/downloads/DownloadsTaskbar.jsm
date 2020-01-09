@@ -134,6 +134,11 @@ DownloadsTaskbar
 /
 /
 Globals
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

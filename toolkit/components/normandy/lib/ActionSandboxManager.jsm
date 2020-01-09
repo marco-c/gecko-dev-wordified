@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+NormandyDriver
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+SandboxManager
+}
+=
 ChromeUtils
 .
 import

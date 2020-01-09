@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+webrtcUI
+}
+=
 ChromeUtils
 .
 import

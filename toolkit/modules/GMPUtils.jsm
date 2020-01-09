@@ -82,6 +82,11 @@ WIDEVINE_ID
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -101,6 +106,11 @@ jsm
 "
 )
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import

@@ -83,8 +83,7 @@ loader
 .
 js
 "
-{
-}
+null
 )
 ;
 const
@@ -110,8 +109,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const

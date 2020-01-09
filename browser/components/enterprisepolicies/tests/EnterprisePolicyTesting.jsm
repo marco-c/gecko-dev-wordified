@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import
@@ -80,6 +85,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -99,6 +109,11 @@ jsm
 "
 )
 ;
+const
+{
+OS
+}
+=
 ChromeUtils
 .
 import
@@ -118,6 +133,11 @@ jsm
 "
 )
 ;
+const
+{
+Assert
+}
+=
 ChromeUtils
 .
 import
@@ -417,8 +437,7 @@ schema
 .
 jsm
 "
-{
-}
+null
 )
 ;
 schemaModule
@@ -682,8 +701,7 @@ Policies
 .
 jsm
 "
-{
-}
+null
 )
 ;
 this
@@ -739,8 +757,7 @@ Policies
 .
 jsm
 "
-{
-}
+null
 )
 ;
 PoliciesBackstage

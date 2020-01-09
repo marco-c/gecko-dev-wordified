@@ -87,6 +87,11 @@ PlacesSearchAutocompleteProvider
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

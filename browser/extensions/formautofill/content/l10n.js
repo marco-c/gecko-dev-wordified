@@ -106,6 +106,11 @@ global
 content
 *
 /
+const
+{
+FormAutofillUtils
+}
+=
 ChromeUtils
 .
 import

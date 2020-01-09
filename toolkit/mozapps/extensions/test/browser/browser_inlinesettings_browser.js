@@ -70,8 +70,6 @@ ExtensionTestCommon
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

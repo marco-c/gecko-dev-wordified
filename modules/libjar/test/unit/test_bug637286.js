@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

@@ -91,6 +91,11 @@ bindDOMWindowUtils
 SpecialPowersAPI
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

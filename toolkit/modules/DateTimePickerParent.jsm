@@ -106,6 +106,11 @@ DateTimePickerParent
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

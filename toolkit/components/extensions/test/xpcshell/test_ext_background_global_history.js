@@ -48,6 +48,11 @@ use
 strict
 "
 ;
+const
+{
+PlacesTestUtils
+}
+=
 ChromeUtils
 .
 import

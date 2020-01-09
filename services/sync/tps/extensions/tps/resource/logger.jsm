@@ -110,6 +110,11 @@ Logger
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

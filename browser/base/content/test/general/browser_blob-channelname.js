@@ -27,6 +27,11 @@ zero
 /
 *
 /
+var
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

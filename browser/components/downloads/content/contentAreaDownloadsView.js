@@ -68,6 +68,11 @@ allDownloadsView
 js
 *
 /
+const
+{
+PrivateBrowsingUtils
+}
+=
 ChromeUtils
 .
 import

@@ -77,8 +77,7 @@ XPIProvider
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

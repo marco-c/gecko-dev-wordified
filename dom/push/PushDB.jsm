@@ -72,6 +72,11 @@ use
 strict
 "
 ;
+const
+{
+IndexedDBHelper
+}
+=
 ChromeUtils
 .
 import
@@ -91,6 +96,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -166,8 +176,6 @@ Console
 .
 jsm
 "
-{
-}
 )
 ;
 return

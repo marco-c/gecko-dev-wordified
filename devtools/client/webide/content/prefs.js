@@ -83,8 +83,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 window

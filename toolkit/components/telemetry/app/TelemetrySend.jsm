@@ -155,6 +155,11 @@ jsm
 this
 )
 ;
+const
+{
+ClientID
+}
+=
 ChromeUtils
 .
 import
@@ -194,6 +199,11 @@ jsm
 this
 )
 ;
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import

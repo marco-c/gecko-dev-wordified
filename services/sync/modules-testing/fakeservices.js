@@ -79,6 +79,11 @@ fakeSHA256HMAC
 "
 ]
 ;
+const
+{
+Weave
+}
+=
 ChromeUtils
 .
 import
@@ -98,6 +103,11 @@ js
 "
 )
 ;
+const
+{
+CryptoWrapper
+}
+=
 ChromeUtils
 .
 import
@@ -117,6 +127,11 @@ js
 "
 )
 ;
+const
+{
+Utils
+}
+=
 ChromeUtils
 .
 import

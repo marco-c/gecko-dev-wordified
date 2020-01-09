@@ -283,8 +283,7 @@ TelemetryReportingPolicy
 .
 jsm
 "
-{
-}
+null
 )
 ;
 reportingPolicy

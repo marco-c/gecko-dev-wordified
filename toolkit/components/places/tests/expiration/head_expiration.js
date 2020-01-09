@@ -100,6 +100,11 @@ MPL
 .
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

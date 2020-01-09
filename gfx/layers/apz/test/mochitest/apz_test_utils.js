@@ -3215,6 +3215,11 @@ function
 (
 )
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -4456,6 +4461,11 @@ function
 parentRect
 )
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

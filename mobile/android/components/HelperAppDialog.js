@@ -184,6 +184,11 @@ drawable
 alert_download
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

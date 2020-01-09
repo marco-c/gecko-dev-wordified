@@ -99,6 +99,11 @@ BrowserUtils
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

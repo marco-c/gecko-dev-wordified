@@ -116,6 +116,11 @@ one
 .
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -135,6 +140,11 @@ jsm
 "
 )
 ;
+const
+{
+AboutPages
+}
+=
 ChromeUtils
 .
 import

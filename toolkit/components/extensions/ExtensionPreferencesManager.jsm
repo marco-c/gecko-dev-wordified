@@ -245,10 +245,14 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

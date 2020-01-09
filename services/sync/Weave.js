@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -75,6 +80,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -620,6 +630,11 @@ ensureLoaded
 (
 )
 {
+const
+{
+Weave
+}
+=
 ChromeUtils
 .
 import
@@ -884,6 +899,11 @@ many
 false
 positives
 .
+var
+{
+Weave
+}
+=
 ChromeUtils
 .
 import

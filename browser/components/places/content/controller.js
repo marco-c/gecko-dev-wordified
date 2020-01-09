@@ -1566,8 +1566,6 @@ ForgetAboutSite
 .
 jsm
 "
-{
-}
 )
 ;
 ForgetAboutSite

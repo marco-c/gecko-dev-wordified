@@ -114,6 +114,11 @@ MediaPlayerApp
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -133,6 +138,11 @@ jsm
 "
 )
 ;
+const
+{
+EventDispatcher
+}
+=
 ChromeUtils
 .
 import

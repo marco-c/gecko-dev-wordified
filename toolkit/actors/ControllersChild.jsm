@@ -91,6 +91,11 @@ ControllersChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

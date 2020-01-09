@@ -48,6 +48,11 @@ globals
 ExtensionAPI
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -67,6 +72,11 @@ jsm
 "
 )
 ;
+const
+{
+RemotePages
+}
+=
 ChromeUtils
 .
 import

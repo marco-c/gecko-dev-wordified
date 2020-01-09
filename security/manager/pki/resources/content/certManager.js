@@ -217,8 +217,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 var

@@ -68,7 +68,7 @@ scope1
 }
 ;
 var
-global1
+exports1
 =
 ChromeUtils
 .
@@ -97,7 +97,7 @@ scope2
 }
 ;
 var
-global2
+exports2
 =
 ChromeUtils
 .
@@ -123,11 +123,11 @@ Assert
 .
 ok
 (
-global1
+exports1
 =
 =
 =
-global2
+exports2
 )
 ;
 Assert
@@ -171,7 +171,7 @@ scope3
 }
 ;
 var
-global3
+exports3
 =
 ChromeUtils
 .
@@ -198,11 +198,11 @@ Assert
 equal
 (
 false
-global1
+exports1
 =
 =
 =
-global3
+exports3
 )
 ;
 Assert

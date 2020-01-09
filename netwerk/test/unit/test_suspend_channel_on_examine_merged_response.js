@@ -96,6 +96,11 @@ test_bug482601
 .
 js
 .
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -115,6 +120,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

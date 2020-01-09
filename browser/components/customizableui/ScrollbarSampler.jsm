@@ -70,6 +70,11 @@ ScrollbarSampler
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

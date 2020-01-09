@@ -151,6 +151,11 @@ TalosParentProfiler
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -70,6 +70,11 @@ Pocket
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

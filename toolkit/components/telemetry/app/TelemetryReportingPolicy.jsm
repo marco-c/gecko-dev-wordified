@@ -2654,8 +2654,6 @@ BrowserWindowTracker
 .
 jsm
 "
-{
-}
 )
 ;
 let

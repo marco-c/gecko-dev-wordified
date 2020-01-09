@@ -4,6 +4,11 @@ global
 ChromeUtils
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -54,6 +59,11 @@ ctypes
 '
 object
 .
+var
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import

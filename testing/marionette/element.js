@@ -67,6 +67,11 @@ global
 XPCNativeWrapper
 *
 /
+const
+{
+assert
+}
+=
 ChromeUtils
 .
 import
@@ -86,6 +91,11 @@ js
 "
 )
 ;
+const
+{
+atom
+}
+=
 ChromeUtils
 .
 import
@@ -130,8 +140,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -156,8 +164,6 @@ format
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -182,8 +188,6 @@ sync
 .
 js
 "
-{
-}
 )
 ;
 this

@@ -70,6 +70,11 @@ AppMenuNotifications
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

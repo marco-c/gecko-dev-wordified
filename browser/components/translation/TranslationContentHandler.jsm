@@ -70,6 +70,11 @@ TranslationContentHandler
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -724,6 +729,11 @@ TranslateDocument
 "
 :
 {
+var
+{
+TranslationDocument
+}
+=
 ChromeUtils
 .
 import

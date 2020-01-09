@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -84,6 +89,11 @@ PageStyleChild
 "
 ]
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

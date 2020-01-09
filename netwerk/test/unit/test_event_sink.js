@@ -12,6 +12,11 @@ bug
 et
 al
 )
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -31,6 +36,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

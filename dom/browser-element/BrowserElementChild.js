@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import

@@ -79,8 +79,6 @@ Utils
 .
 jsm
 "
-{
-}
 )
 ;
 const

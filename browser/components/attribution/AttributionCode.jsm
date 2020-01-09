@@ -70,6 +70,11 @@ AttributionCode
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

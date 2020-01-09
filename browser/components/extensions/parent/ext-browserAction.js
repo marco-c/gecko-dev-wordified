@@ -169,6 +169,11 @@ ExtensionError
 =
 ExtensionUtils
 ;
+var
+{
+ExtensionParent
+}
+=
 ChromeUtils
 .
 import

@@ -68,6 +68,11 @@ Components
 .
 Constructor
 ;
+const
+{
+EventEmitter
+}
+=
 ChromeUtils
 .
 import
@@ -87,6 +92,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

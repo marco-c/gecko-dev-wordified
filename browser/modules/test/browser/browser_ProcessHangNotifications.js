@@ -35,6 +35,11 @@ jsm
 )
 )
 ;
+const
+{
+UpdateUtils
+}
+=
 ChromeUtils
 .
 import

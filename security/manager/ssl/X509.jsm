@@ -109,8 +109,7 @@ DER
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

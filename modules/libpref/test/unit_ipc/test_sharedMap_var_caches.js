@@ -265,6 +265,11 @@ PREF2_VALUE
 =
 true
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -284,6 +289,11 @@ jsm
 "
 )
 ;
+const
+{
+ExtensionTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -482,6 +492,11 @@ prefs
 =
 >
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

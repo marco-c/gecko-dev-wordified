@@ -316,16 +316,6 @@ defer
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 KeyShortcuts
 =
 require
@@ -4676,8 +4666,6 @@ httpd
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -5269,8 +5257,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const

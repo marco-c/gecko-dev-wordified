@@ -35,6 +35,11 @@ File
 ]
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

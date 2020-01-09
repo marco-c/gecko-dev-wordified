@@ -48,6 +48,11 @@ allow_eval_with_system_principal
 }
 )
 ;
+const
+{
+addDebuggerToGlobal
+}
+=
 ChromeUtils
 .
 import

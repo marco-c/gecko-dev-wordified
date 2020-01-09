@@ -70,6 +70,11 @@ GeckoViewNavigation
 "
 ]
 ;
+const
+{
+GeckoViewModule
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

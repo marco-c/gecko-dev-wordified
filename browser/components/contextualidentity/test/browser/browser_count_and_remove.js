@@ -28,6 +28,11 @@ zero
 /
 *
 /
+const
+{
+ContextualIdentityService
+}
+=
 ChromeUtils
 .
 import

@@ -88,6 +88,11 @@ DownloadUIHelper
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -107,6 +112,11 @@ jsm
 "
 )
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import

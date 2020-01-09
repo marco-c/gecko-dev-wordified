@@ -156,6 +156,12 @@ State
 CommandType
 *
 /
+const
+{
+CommandType
+State
+}
+=
 ChromeUtils
 .
 import

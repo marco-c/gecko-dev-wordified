@@ -27,6 +27,11 @@ zero
 /
 *
 /
+const
+{
+BookmarkRepairRequestor
+}
+=
 ChromeUtils
 .
 import

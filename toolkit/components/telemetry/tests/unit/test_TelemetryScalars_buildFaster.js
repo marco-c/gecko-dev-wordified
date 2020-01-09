@@ -71,6 +71,11 @@ test
 keyed_unsigned_int
 "
 ;
+const
+{
+CommonUtils
+}
+=
 ChromeUtils
 .
 import

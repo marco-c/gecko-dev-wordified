@@ -28,6 +28,11 @@ zero
 /
 *
 /
+var
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import

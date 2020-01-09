@@ -110,6 +110,11 @@ FormData
 "
 ]
 ;
+const
+{
+Logger
+}
+=
 ChromeUtils
 .
 import
@@ -127,6 +132,11 @@ jsm
 "
 )
 ;
+const
+{
+FormHistory
+}
+=
 ChromeUtils
 .
 import
@@ -146,6 +156,11 @@ jsm
 "
 )
 ;
+const
+{
+Log
+}
+=
 ChromeUtils
 .
 import

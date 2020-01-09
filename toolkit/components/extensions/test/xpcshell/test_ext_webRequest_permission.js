@@ -443,6 +443,11 @@ result
 }
 }
 ;
+const
+{
+MessageChannel
+}
+=
 ChromeUtils
 .
 import

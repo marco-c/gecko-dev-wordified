@@ -27,6 +27,11 @@ of
 bounds
 /
 /
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -46,6 +51,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

@@ -43,6 +43,11 @@ use
 strict
 "
 ;
+const
+{
+Weave
+}
+=
 ChromeUtils
 .
 import

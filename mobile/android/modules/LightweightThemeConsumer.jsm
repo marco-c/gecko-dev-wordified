@@ -65,6 +65,11 @@ LightweightThemeConsumer
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -84,6 +89,11 @@ jsm
 "
 )
 ;
+const
+{
+LightweightThemeManager
+}
+=
 ChromeUtils
 .
 import

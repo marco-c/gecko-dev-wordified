@@ -291,8 +291,7 @@ HealthPing
 .
 jsm
 "
-{
-}
+null
 )
 ;
 telemetryHealthPing
@@ -409,8 +408,7 @@ TelemetrySend
 .
 jsm
 "
-{
-}
+null
 )
 ;
 telemetryHealthPing
@@ -1067,8 +1065,7 @@ TelemetrySend
 .
 jsm
 "
-{
-}
+null
 )
 ;
 scheduler
@@ -1350,8 +1347,7 @@ TelemetrySend
 .
 jsm
 "
-{
-}
+null
 )
 ;
 fakeSendSubmissionTimeout

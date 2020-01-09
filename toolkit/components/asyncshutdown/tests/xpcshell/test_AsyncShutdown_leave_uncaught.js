@@ -70,6 +70,11 @@ file
 .
 /
 /
+const
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import

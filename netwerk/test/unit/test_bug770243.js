@@ -64,6 +64,11 @@ by
 304
 *
 /
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -83,6 +88,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

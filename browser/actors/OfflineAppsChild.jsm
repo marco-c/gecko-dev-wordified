@@ -111,6 +111,11 @@ OfflineAppsChild
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -130,6 +135,11 @@ jsm
 "
 )
 ;
+const
+{
+ActorChild
+}
+=
 ChromeUtils
 .
 import

@@ -120,8 +120,6 @@ RemoteSecuritySettings
 .
 jsm
 "
-{
-}
 )
 ;
 let

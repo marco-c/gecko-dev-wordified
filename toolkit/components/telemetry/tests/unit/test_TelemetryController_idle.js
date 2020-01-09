@@ -499,12 +499,6 @@ correctly
 received
 .
 let
-ns
-=
-{
-}
-;
-let
 module
 =
 ChromeUtils
@@ -524,7 +518,7 @@ TelemetrySend
 .
 jsm
 "
-ns
+null
 )
 ;
 module

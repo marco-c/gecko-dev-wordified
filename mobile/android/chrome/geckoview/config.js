@@ -68,6 +68,11 @@ Components
 .
 manager
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

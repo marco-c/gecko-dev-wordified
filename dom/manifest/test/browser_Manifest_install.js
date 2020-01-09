@@ -41,8 +41,6 @@ Manifest
 .
 jsm
 "
-{
-}
 )
 ;
 const

@@ -79,6 +79,12 @@ jshint
 ignore
 :
 line
+const
+{
+PrefCache
+Utils
+}
+=
 ChromeUtils
 .
 import

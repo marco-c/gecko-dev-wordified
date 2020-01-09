@@ -100,8 +100,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 var

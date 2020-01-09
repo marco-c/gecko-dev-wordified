@@ -28,6 +28,11 @@ zero
 /
 *
 /
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

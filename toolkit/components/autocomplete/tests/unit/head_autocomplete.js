@@ -27,6 +27,11 @@ zero
 /
 *
 /
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

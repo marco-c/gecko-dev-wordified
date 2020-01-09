@@ -436,8 +436,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 getId

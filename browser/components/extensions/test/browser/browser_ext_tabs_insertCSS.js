@@ -78,8 +78,6 @@ MessageChannel
 .
 jsm
 "
-{
-}
 )
 ;
 /

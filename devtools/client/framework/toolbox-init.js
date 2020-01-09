@@ -169,8 +169,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const

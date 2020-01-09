@@ -121,8 +121,6 @@ PrivateBrowsingUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const

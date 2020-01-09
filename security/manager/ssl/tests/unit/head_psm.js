@@ -83,8 +83,6 @@ AppConstants
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -109,8 +107,6 @@ ctypes
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -135,8 +131,6 @@ FileUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -161,8 +155,6 @@ httpd
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -187,8 +179,6 @@ MockRegistrar
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -213,8 +203,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -239,8 +227,6 @@ Promise
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -265,8 +251,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -291,8 +275,6 @@ XPCOMUtils
 .
 jsm
 "
-{
-}
 )
 ;
 const

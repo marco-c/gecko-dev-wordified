@@ -99,6 +99,11 @@ MPL
 .
 *
 /
+const
+{
+BookmarkHTMLUtils
+}
+=
 ChromeUtils
 .
 import

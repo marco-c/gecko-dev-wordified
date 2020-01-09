@@ -65,7 +65,7 @@ ChromeUtils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -77,9 +77,7 @@ modules
 Services
 .
 jsm
-'
-{
-}
+"
 )
 ;
 const

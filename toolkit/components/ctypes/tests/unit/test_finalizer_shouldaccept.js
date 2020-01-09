@@ -29,6 +29,11 @@ ctypes
 '
 object
 .
+var
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import

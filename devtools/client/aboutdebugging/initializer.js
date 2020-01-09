@@ -97,8 +97,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -127,8 +125,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -153,8 +149,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 loader

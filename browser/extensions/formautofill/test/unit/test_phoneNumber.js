@@ -18,6 +18,10 @@ use
 strict
 "
 ;
+var
+PhoneNumber
+PhoneNumberNormalizer
+;
 add_task
 (
 async
@@ -26,6 +30,11 @@ setup
 (
 )
 {
+(
+{
+PhoneNumber
+}
+=
 ChromeUtils
 .
 import
@@ -44,7 +53,13 @@ PhoneNumber
 jsm
 "
 )
+)
 ;
+(
+{
+PhoneNumberNormalizer
+}
+=
 ChromeUtils
 .
 import
@@ -62,6 +77,7 @@ PhoneNumberNormalizer
 .
 jsm
 "
+)
 )
 ;
 }

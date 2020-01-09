@@ -65,6 +65,11 @@ Preferences
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

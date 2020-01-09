@@ -217,6 +217,11 @@ function
 (
 )
 {
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import
@@ -696,6 +701,11 @@ aUtils
 =
 >
 {
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import
@@ -1032,6 +1042,11 @@ aUtils
 =
 >
 {
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import

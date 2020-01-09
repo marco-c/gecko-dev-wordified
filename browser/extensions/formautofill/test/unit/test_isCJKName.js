@@ -19,6 +19,9 @@ use
 strict
 "
 ;
+var
+FormAutofillNameUtils
+;
 add_task
 (
 async
@@ -27,6 +30,11 @@ setup
 (
 )
 {
+(
+{
+FormAutofillNameUtils
+}
+=
 ChromeUtils
 .
 import
@@ -42,6 +50,7 @@ FormAutofillNameUtils
 .
 jsm
 "
+)
 )
 ;
 }

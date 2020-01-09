@@ -42,6 +42,11 @@ error
 "
 )
 ;
+const
+{
+BookmarksEngine
+}
+=
 ChromeUtils
 .
 import
@@ -63,6 +68,11 @@ js
 "
 )
 ;
+const
+{
+Service
+}
+=
 ChromeUtils
 .
 import

@@ -30,6 +30,11 @@ zero
 /
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

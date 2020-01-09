@@ -47,6 +47,11 @@ use
 strict
 "
 ;
+const
+{
+PromiseUtils
+}
+=
 ChromeUtils
 .
 import
@@ -66,6 +71,11 @@ jsm
 "
 )
 ;
+const
+{
+setTimeout
+}
+=
 ChromeUtils
 .
 import
@@ -85,6 +95,11 @@ jsm
 "
 )
 ;
+const
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import

@@ -38,6 +38,11 @@ Directory
 ]
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

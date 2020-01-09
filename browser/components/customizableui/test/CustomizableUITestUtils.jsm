@@ -66,6 +66,11 @@ CustomizableUITestUtils
 "
 ]
 ;
+const
+{
+Assert
+}
+=
 ChromeUtils
 .
 import
@@ -85,6 +90,11 @@ jsm
 "
 )
 ;
+const
+{
+BrowserTestUtils
+}
+=
 ChromeUtils
 .
 import
@@ -104,6 +114,11 @@ jsm
 "
 )
 ;
+const
+{
+TestUtils
+}
+=
 ChromeUtils
 .
 import

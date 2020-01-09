@@ -44,6 +44,11 @@ callback
 .
 *
 /
+const
+{
+MockRegistrar
+}
+=
 ChromeUtils
 .
 import

@@ -144,6 +144,11 @@ jsm
 "
 )
 ;
+const
+{
+EventDispatcher
+}
+=
 ChromeUtils
 .
 import
@@ -170,6 +175,11 @@ global
 EventDispatcher
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -196,6 +206,11 @@ global
 Services
 *
 /
+const
+{
+Preferences
+}
+=
 ChromeUtils
 .
 import
@@ -222,6 +237,11 @@ global
 Preferences
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -325,8 +345,6 @@ Console
 .
 jsm
 "
-{
-}
 )
 ;
 return

@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -75,6 +80,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -94,6 +104,11 @@ jsm
 "
 )
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -423,8 +438,6 @@ Console
 .
 jsm
 "
-{
-}
 )
 ;
 return
@@ -803,8 +816,6 @@ schema
 .
 jsm
 "
-{
-}
 )
 ;
 for
@@ -1331,8 +1342,6 @@ PromiseUtils
 .
 jsm
 "
-{
-}
 )
 ;
 /

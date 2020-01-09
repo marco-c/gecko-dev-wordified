@@ -554,8 +554,7 @@ ExtensionContent
 .
 jsm
 "
-{
-}
+null
 )
 ;
 this

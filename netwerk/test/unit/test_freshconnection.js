@@ -33,6 +33,11 @@ assertions
 in
 necko
 .
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

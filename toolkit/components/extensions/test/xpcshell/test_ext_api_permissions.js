@@ -70,8 +70,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 function

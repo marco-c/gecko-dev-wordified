@@ -81,6 +81,11 @@ MPL
 .
 *
 /
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -107,6 +112,11 @@ Services
 .
 startup
 ;
+const
+{
+ResetProfile
+}
+=
 ChromeUtils
 .
 import

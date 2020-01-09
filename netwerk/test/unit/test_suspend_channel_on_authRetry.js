@@ -38,6 +38,11 @@ Components
 .
 Constructor
 ;
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -57,6 +62,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

@@ -90,6 +90,11 @@ FileUtils
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

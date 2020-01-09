@@ -9,6 +9,11 @@ getRemoteHost
 /
 getRemotePort
 .
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -28,6 +33,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

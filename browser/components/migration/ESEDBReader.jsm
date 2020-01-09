@@ -76,6 +76,11 @@ exported
 ESEDBReader
 *
 /
+const
+{
+ctypes
+}
+=
 ChromeUtils
 .
 import
@@ -95,6 +100,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -114,6 +124,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

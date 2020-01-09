@@ -87,8 +87,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

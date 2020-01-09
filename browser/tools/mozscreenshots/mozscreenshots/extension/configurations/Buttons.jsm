@@ -70,6 +70,11 @@ Buttons
 "
 ]
 ;
+const
+{
+CustomizableUI
+}
+=
 ChromeUtils
 .
 import
@@ -88,6 +93,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

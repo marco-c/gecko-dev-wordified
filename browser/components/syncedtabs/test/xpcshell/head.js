@@ -1,3 +1,8 @@
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -17,6 +22,11 @@ jsm
 "
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -165,6 +175,16 @@ v2
 .
 2
 /
+var
+{
+clearInterval
+clearTimeout
+setInterval
+setIntervalWithTarget
+setTimeout
+setTimeoutWithTarget
+}
+=
 ChromeUtils
 .
 import

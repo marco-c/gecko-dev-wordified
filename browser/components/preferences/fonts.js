@@ -1074,8 +1074,6 @@ Services
 .
 jsm
 "
-{
-}
 )
 ;
 let

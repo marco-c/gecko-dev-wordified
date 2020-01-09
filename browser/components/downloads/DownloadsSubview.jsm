@@ -70,6 +70,11 @@ DownloadsSubview
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

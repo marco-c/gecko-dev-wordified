@@ -116,8 +116,6 @@ UIState
 .
 jsm
 "
-{
-}
 )
 ;
 let

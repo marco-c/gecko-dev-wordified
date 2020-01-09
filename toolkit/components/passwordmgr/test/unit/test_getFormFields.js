@@ -62,8 +62,7 @@ LoginManagerContent
 .
 jsm
 "
-{
-}
+null
 )
 ;
 const

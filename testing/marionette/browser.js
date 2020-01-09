@@ -89,10 +89,13 @@ dom
 .
 js
 "
-{
-}
 )
 ;
+const
+{
+element
+}
+=
 ChromeUtils
 .
 import
@@ -135,8 +138,6 @@ error
 .
 js
 "
-{
-}
 )
 ;
 const
@@ -163,8 +164,6 @@ sync
 .
 js
 "
-{
-}
 )
 ;
 this

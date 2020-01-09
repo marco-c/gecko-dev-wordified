@@ -68,6 +68,11 @@ preferences
 js
 *
 /
+var
+{
+ContextualIdentityService
+}
+=
 ChromeUtils
 .
 import

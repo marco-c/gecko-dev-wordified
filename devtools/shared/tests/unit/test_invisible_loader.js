@@ -54,8 +54,6 @@ jsdebugger
 .
 jsm
 "
-{
-}
 )
 ;
 addDebuggerToGlobal

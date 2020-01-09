@@ -87,8 +87,6 @@ loader
 .
 js
 "
-{
-}
 )
 ;
 const

@@ -95,8 +95,7 @@ Extension
 .
 jsm
 "
-{
-}
+null
 )
 ;
 return

@@ -65,6 +65,11 @@ management
 .
 /
 /
+var
+{
+PromiseTestUtils
+}
+=
 ChromeUtils
 .
 import

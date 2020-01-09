@@ -65,6 +65,11 @@ LightweightThemeConsumer
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

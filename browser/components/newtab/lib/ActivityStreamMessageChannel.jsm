@@ -61,6 +61,11 @@ use
 strict
 "
 ;
+const
+{
+AboutNewTab
+}
+=
 ChromeUtils
 .
 import
@@ -101,6 +106,11 @@ mozilla
 .
 0
 +
+const
+{
+RemotePages
+}
+=
 ChromeUtils
 .
 import
@@ -154,8 +164,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const

@@ -74,6 +74,11 @@ use
 strict
 "
 ;
+const
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -93,6 +98,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

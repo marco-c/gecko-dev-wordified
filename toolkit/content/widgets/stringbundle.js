@@ -89,6 +89,11 @@ onto
 window
 .
 {
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

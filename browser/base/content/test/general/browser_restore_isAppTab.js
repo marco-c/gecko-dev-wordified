@@ -63,8 +63,6 @@ TabStateFlusher
 .
 jsm
 "
-{
-}
 )
 ;
 const

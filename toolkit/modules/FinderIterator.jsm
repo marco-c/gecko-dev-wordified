@@ -70,6 +70,11 @@ FinderIterator
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -89,6 +94,12 @@ jsm
 "
 )
 ;
+const
+{
+clearTimeout
+setTimeout
+}
+=
 ChromeUtils
 .
 import

@@ -109,8 +109,6 @@ LiveBookmarkMigrator
 .
 jsm
 "
-{
-}
 )
 ;
 LiveBookmarkMigrator

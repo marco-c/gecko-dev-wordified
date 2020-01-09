@@ -74,8 +74,6 @@ Sanitizer
 .
 jsm
 "
-{
-}
 )
 ;
 /

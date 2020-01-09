@@ -88,8 +88,6 @@ Timer
 .
 jsm
 "
-{
-}
 )
 ;
 add_task

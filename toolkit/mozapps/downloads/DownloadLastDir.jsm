@@ -319,6 +319,11 @@ DownloadLastDir
 "
 ]
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

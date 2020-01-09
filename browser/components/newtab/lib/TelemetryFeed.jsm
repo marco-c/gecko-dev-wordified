@@ -67,6 +67,11 @@ use
 strict
 "
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -86,6 +91,11 @@ jsm
 "
 )
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -134,8 +144,6 @@ Actions
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -162,8 +170,6 @@ ActivityStreamPrefs
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -190,8 +196,6 @@ SiteClassifier
 .
 jsm
 "
-{
-}
 )
 ;
 ChromeUtils

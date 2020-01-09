@@ -20,6 +20,11 @@ use
 strict
 "
 ;
+const
+{
+CreditCard
+}
+=
 ChromeUtils
 .
 import
@@ -73,8 +78,7 @@ FormAutofillParent
 .
 jsm
 "
-{
-}
+null
 )
 )
 ;
@@ -98,8 +102,6 @@ OSKeyStore
 .
 jsm
 "
-{
-}
 )
 )
 ;

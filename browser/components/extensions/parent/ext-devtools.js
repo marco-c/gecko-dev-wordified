@@ -104,6 +104,11 @@ jsm
 "
 )
 ;
+var
+{
+ExtensionParent
+}
+=
 ChromeUtils
 .
 import

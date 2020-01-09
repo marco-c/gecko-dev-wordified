@@ -54,6 +54,11 @@ use
 strict
 "
 ;
+const
+{
+SearchSuggestionController
+}
+=
 ChromeUtils
 .
 import

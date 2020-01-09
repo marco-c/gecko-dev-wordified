@@ -187,8 +187,6 @@ ToolboxProcess
 .
 jsm
 "
-{
-}
 )
 ;
 let

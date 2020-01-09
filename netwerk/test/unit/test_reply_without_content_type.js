@@ -32,6 +32,11 @@ Cc
 and
 Ci
 variables
+const
+{
+HttpServer
+}
+=
 ChromeUtils
 .
 import
@@ -51,6 +56,11 @@ js
 "
 )
 ;
+const
+{
+NetUtil
+}
+=
 ChromeUtils
 .
 import

@@ -265,8 +265,6 @@ Loader
 .
 jsm
 "
-{
-}
 )
 ;
 return

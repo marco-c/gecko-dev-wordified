@@ -2133,6 +2133,11 @@ TRANSACTIONS_QUEUE_TIMEOUT_MS
 4
 Mins
 .
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -2152,6 +2157,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

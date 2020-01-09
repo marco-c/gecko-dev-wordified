@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

@@ -91,8 +91,6 @@ ExtensionParent
 .
 jsm
 "
-{
-}
 )
 ;
 const

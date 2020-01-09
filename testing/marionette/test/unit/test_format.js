@@ -79,8 +79,6 @@ format
 .
 js
 "
-{
-}
 )
 ;
 const

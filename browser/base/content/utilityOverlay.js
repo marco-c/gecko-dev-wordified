@@ -90,6 +90,11 @@ for
 common
 XPCOM
 services
+var
+{
+AppConstants
+}
+=
 ChromeUtils
 .
 import
@@ -109,6 +114,11 @@ jsm
 "
 )
 ;
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -128,6 +138,11 @@ jsm
 "
 )
 ;
+var
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

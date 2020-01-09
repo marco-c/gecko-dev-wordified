@@ -16,6 +16,11 @@ un
 privileged
 globals
 .
+const
+{
+addDebuggerToGlobal
+}
+=
 ChromeUtils
 .
 import

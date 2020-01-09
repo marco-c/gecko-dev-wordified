@@ -81,6 +81,11 @@ preferencesBindings
 js
 *
 /
+var
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -1281,7 +1286,7 @@ popup
 =
 menulist
 .
-menupopup
+firstElementChild
 ;
 this
 .

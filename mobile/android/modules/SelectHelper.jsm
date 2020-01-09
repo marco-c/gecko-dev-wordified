@@ -70,6 +70,11 @@ SelectHelper
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

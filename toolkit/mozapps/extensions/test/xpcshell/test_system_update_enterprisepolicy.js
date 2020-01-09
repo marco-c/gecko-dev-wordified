@@ -53,6 +53,11 @@ DisableSystemAddonUpdate
 enterprise
 policy
 .
+const
+{
+EnterprisePolicyTesting
+}
+=
 ChromeUtils
 .
 import

@@ -123,6 +123,11 @@ initWithPath
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import

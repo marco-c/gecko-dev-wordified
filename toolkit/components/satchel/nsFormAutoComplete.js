@@ -82,6 +82,11 @@ use
 strict
 "
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
@@ -101,6 +106,11 @@ jsm
 "
 )
 ;
+const
+{
+Services
+}
+=
 ChromeUtils
 .
 import
@@ -3165,8 +3175,6 @@ nsFormAutoCompleteResult
 .
 jsm
 "
-{
-}
 )
 ;
 return
