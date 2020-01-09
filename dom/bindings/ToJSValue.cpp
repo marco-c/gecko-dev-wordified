@@ -550,7 +550,7 @@ if
 bc
 -
 >
-GetDocShell
+IsInProcess
 (
 )
 )
