@@ -527,6 +527,12 @@ logValue
 string
 |
 null
+logGroupId
+?
+:
+string
+|
+null
 }
 ;
 export
