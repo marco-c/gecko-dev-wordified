@@ -935,8 +935,9 @@ test_details
 get
 (
 '
-subtest_lower
+subtest_lower_is_better
 '
+                           
 test_settings
 [
 '
@@ -952,6 +953,15 @@ lower_is_better
 ]
 )
     
+if
+val
+=
+=
+"
+false
+"
+:
+        
 test_settings
 [
 '
@@ -966,7 +976,26 @@ subtest_lower_is_better
 '
 ]
 =
-val
+False
+    
+else
+:
+        
+test_settings
+[
+'
+raptor
+-
+options
+'
+]
+[
+'
+subtest_lower_is_better
+'
+]
+=
+True
     
 if
 test_details
