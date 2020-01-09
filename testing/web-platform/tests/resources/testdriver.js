@@ -1401,8 +1401,6 @@ errors
 *
 /
 action_sequence
-:
-function
 (
 actions
 )

@@ -3007,6 +3007,24 @@ webdriver_binary
 =
 webdriver_binary
 class
+SafariWebDriver
+(
+Safari
+)
+:
+    
+name
+=
+"
+safari_webdriver
+"
+    
+browser_cls
+=
+browser
+.
+SafariWebDriver
+class
 Sauce
 (
 BrowserSetup
@@ -3320,6 +3338,12 @@ safari
 "
 :
 Safari
+    
+"
+safari_webdriver
+"
+:
+SafariWebDriver
     
 "
 servo

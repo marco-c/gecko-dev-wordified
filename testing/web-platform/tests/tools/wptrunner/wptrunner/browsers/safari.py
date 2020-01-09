@@ -24,16 +24,16 @@ from
 .
 executors
 .
-executorwebdriver
+executorselenium
 import
 (
-WebDriverTestharnessExecutor
+SeleniumTestharnessExecutor
 #
 noqa
 :
 F401
-                                           
-WebDriverRefTestExecutor
+                                          
+SeleniumRefTestExecutor
 )
 #
 noqa
@@ -88,7 +88,7 @@ testharness
 "
 :
 "
-WebDriverTestharnessExecutor
+SeleniumTestharnessExecutor
 "
                               
 "
@@ -96,7 +96,7 @@ reftest
 "
 :
 "
-WebDriverRefTestExecutor
+SeleniumRefTestExecutor
 "
                               
 "
