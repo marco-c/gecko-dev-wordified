@@ -12727,10 +12727,12 @@ context
 )
 ;
 }
-BigInt
-*
+RootedBigInt
 result
-=
+(
+context
+(
+)
 BigInt
 :
 :
@@ -12741,6 +12743,7 @@ context
 )
 length
 isNegative
+)
 )
 ;
 if
