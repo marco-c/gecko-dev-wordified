@@ -1583,14 +1583,6 @@ FIXME
 JS
 :
 :
-SetAsmJSCacheOps
-/
-/
-FIXME
-:
-JS
-:
-:
 SetAsyncTaskCallbacks
 /
 /
