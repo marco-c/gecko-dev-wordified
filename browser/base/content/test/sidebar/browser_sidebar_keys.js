@@ -42,6 +42,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 gURLBar
+.
+textbox
 {
 }
 )
