@@ -1774,14 +1774,6 @@ GetBasicWaveFormCache
 (
 )
 ;
-bool
-CheckClosed
-(
-ErrorResult
-&
-aRv
-)
-;
 /
 /
 Steals
