@@ -3140,7 +3140,7 @@ len
 tarray
 -
 >
-setFixedSlot
+initFixedSlot
 (
 TypedArrayObject
 :
@@ -3154,7 +3154,7 @@ NullValue
 tarray
 -
 >
-setFixedSlot
+initFixedSlot
 (
 TypedArrayObject
 :
@@ -3169,7 +3169,7 @@ len
 tarray
 -
 >
-setFixedSlot
+initFixedSlot
 (
 TypedArrayObject
 :
