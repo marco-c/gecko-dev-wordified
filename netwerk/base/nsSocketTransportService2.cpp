@@ -3807,6 +3807,7 @@ nsSocketTransportService
 nsISocketTransportService
 nsIRoutedSocketTransportService
 nsIEventTarget
+nsISerialEventTarget
 nsIThreadObserver
 nsIRunnable
 nsPISocketTransportService

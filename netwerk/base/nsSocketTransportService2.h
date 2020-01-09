@@ -796,7 +796,7 @@ final
 public
 nsPISocketTransportService
 public
-nsIEventTarget
+nsISerialEventTarget
 public
 nsIThreadObserver
 public
