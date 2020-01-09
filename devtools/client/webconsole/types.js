@@ -202,9 +202,6 @@ assign
 id
 :
 null
-innerWindowID
-:
-null
 allowRepeating
 :
 true
@@ -221,9 +218,6 @@ helperType
 :
 null
 level
-:
-null
-category
 :
 null
 messageText
