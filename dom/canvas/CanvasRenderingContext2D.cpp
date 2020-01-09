@@ -23571,7 +23571,10 @@ CreateFontGroup
 (
 FontFamilyList
 (
-eFamily_sans_serif
+StyleGenericFontFamily
+:
+:
+SansSerif
 )
 &
 style

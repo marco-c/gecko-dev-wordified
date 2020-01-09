@@ -67524,7 +67524,10 @@ NS_ConvertUTF16toUTF8
 (
 systemFontName
 )
-eUnquotedName
+StyleFontFamilyNameSyntax
+:
+:
+Identifiers
 )
 ;
 aSystemFont
@@ -67534,7 +67537,10 @@ fontlist
 .
 SetDefaultFontType
 (
-eFamily_none
+StyleGenericFontFamily
+:
+:
+None
 )
 ;
 aSystemFont
