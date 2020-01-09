@@ -212,6 +212,7 @@ Source
 Breakpoint
 as
 BreakpointType
+ThreadContext
 }
 from
 "
@@ -256,6 +257,9 @@ type
 Props
 =
 {
+cx
+:
+ThreadContext
 breakpoint
 :
 BreakpointType
@@ -436,6 +440,7 @@ MouseEvent
 {
 const
 {
+cx
 breakpointActions
 editorActions
 breakpoint
@@ -514,6 +519,7 @@ editorActions
 .
 continueToHere
 (
+cx
 selectedLocation
 .
 line
@@ -539,6 +545,7 @@ breakpointActions
 .
 toggleBreakpointsAtLine
 (
+cx
 !
 breakpoint
 .
@@ -554,6 +561,7 @@ breakpointActions
 .
 toggleDisabledBreakpoint
 (
+cx
 breakpoint
 )
 ;
@@ -563,6 +571,7 @@ breakpointActions
 .
 removeBreakpointsAtLine
 (
+cx
 selectedLocation
 .
 sourceId
@@ -585,6 +594,7 @@ MouseEvent
 {
 const
 {
+cx
 breakpoint
 breakpointActions
 }
@@ -610,6 +620,7 @@ showMenu
 event
 breakpointItems
 (
+cx
 breakpoint
 breakpointActions
 )

@@ -169,6 +169,19 @@ types
 import
 type
 {
+Context
+}
+from
+"
+.
+.
+/
+types
+"
+;
+import
+type
+{
 SearchOperation
 }
 from
@@ -189,6 +202,9 @@ export
 function
 addSearchQuery
 (
+cx
+:
+Context
 query
 :
 string
@@ -203,6 +219,7 @@ type
 "
 ADD_QUERY
 "
+cx
 query
 }
 ;
@@ -211,6 +228,9 @@ export
 function
 addOngoingSearch
 (
+cx
+:
+Context
 ongoingSearch
 :
 SearchOperation
@@ -225,6 +245,7 @@ type
 "
 ADD_ONGOING_SEARCH
 "
+cx
 ongoingSearch
 }
 ;
@@ -233,6 +254,9 @@ export
 function
 addSearchResult
 (
+cx
+:
+Context
 sourceId
 :
 string
@@ -255,6 +279,7 @@ type
 "
 ADD_SEARCH_RESULT
 "
+cx
 result
 :
 {
@@ -269,6 +294,9 @@ export
 function
 clearSearchResults
 (
+cx
+:
+Context
 )
 :
 Action
@@ -280,6 +308,7 @@ type
 "
 CLEAR_SEARCH_RESULTS
 "
+cx
 }
 ;
 }
@@ -287,6 +316,9 @@ export
 function
 clearSearch
 (
+cx
+:
+Context
 )
 :
 Action
@@ -298,6 +330,7 @@ type
 "
 CLEAR_SEARCH
 "
+cx
 }
 ;
 }
@@ -305,6 +338,9 @@ export
 function
 updateSearchStatus
 (
+cx
+:
+Context
 status
 :
 string
@@ -319,6 +355,7 @@ type
 "
 UPDATE_STATUS
 "
+cx
 status
 }
 ;
@@ -327,6 +364,9 @@ export
 function
 closeProjectSearch
 (
+cx
+:
+Context
 )
 {
 return
@@ -345,6 +385,7 @@ dispatch
 (
 stopOngoingSearch
 (
+cx
 )
 )
 ;
@@ -366,6 +407,9 @@ export
 function
 stopOngoingSearch
 (
+cx
+:
+Context
 )
 {
 return
@@ -427,6 +471,7 @@ dispatch
 (
 updateSearchStatus
 (
+cx
 statusType
 .
 cancelled
@@ -441,6 +486,9 @@ export
 function
 searchSources
 (
+cx
+:
+Context
 query
 :
 string
@@ -470,6 +518,7 @@ dispatch
 (
 stopOngoingSearch
 (
+cx
 )
 )
 ;
@@ -478,6 +527,7 @@ dispatch
 (
 addOngoingSearch
 (
+cx
 search
 )
 )
@@ -487,6 +537,7 @@ dispatch
 (
 clearSearchResults
 (
+cx
 )
 )
 ;
@@ -495,6 +546,7 @@ dispatch
 (
 addSearchQuery
 (
+cx
 query
 )
 )
@@ -503,6 +555,7 @@ dispatch
 (
 updateSearchStatus
 (
+cx
 statusType
 .
 fetching
@@ -564,9 +617,8 @@ dispatch
 (
 loadSourceText
 (
-{
+cx
 source
-}
 )
 )
 ;
@@ -575,6 +627,7 @@ dispatch
 (
 searchSource
 (
+cx
 source
 .
 id
@@ -587,6 +640,7 @@ dispatch
 (
 updateSearchStatus
 (
+cx
 statusType
 .
 done
@@ -618,6 +672,9 @@ export
 function
 searchSource
 (
+cx
+:
+Context
 sourceId
 :
 string
@@ -684,6 +741,7 @@ dispatch
 (
 addSearchResult
 (
+cx
 source
 .
 id

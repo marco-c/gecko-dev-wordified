@@ -301,6 +301,18 @@ frame
 )
 )
 ;
+const
+cx
+=
+selectors
+.
+getThreadContext
+(
+getState
+(
+)
+)
+;
 await
 dispatch
 (
@@ -308,6 +320,7 @@ actions
 .
 selectLocation
 (
+cx
 {
 sourceId
 :
@@ -470,6 +483,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -547,6 +561,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -569,6 +584,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -591,6 +607,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -615,6 +632,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -645,6 +663,7 @@ actions
 .
 closeTab
 (
+cx
 fooSource
 )
 )
@@ -717,6 +736,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -748,6 +768,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -832,6 +853,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -905,6 +927,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -923,6 +946,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -941,6 +965,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -959,6 +984,7 @@ actions
 .
 closeTab
 (
+cx
 bazSource
 )
 )
@@ -1033,6 +1059,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -1110,6 +1137,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -1132,6 +1160,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -1154,6 +1183,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -1178,6 +1208,7 @@ actions
 .
 selectLocation
 (
+cx
 initialLocation
 (
 "
@@ -1196,6 +1227,7 @@ actions
 .
 closeTab
 (
+cx
 bazSource
 )
 )
@@ -1362,6 +1394,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -1404,6 +1437,7 @@ actions
 .
 setSelectedLocation
 (
+cx
 source
 location
 )
@@ -1444,6 +1478,7 @@ actions
 .
 clearSelectedLocation
 (
+cx
 )
 )
 ;
@@ -1485,6 +1520,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -1524,6 +1560,7 @@ actions
 .
 setPendingSelectedLocation
 (
+cx
 url
 options
 )
@@ -1569,6 +1606,7 @@ actions
 .
 clearSelectedLocation
 (
+cx
 )
 )
 ;
@@ -1630,6 +1668,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 store
@@ -1664,6 +1703,7 @@ actions
 .
 selectLocation
 (
+cx
 {
 sourceId
 :
@@ -1742,6 +1782,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -1871,6 +1912,7 @@ actions
 .
 selectSource
 (
+cx
 originalBaseSource
 .
 id
@@ -1907,6 +1949,7 @@ actions
 .
 selectLocation
 (
+cx
 {
 sourceId
 :
@@ -1969,6 +2012,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -2076,6 +2120,7 @@ actions
 .
 selectSource
 (
+cx
 baseSource
 .
 id
@@ -2089,6 +2134,7 @@ actions
 .
 selectSpecificLocation
 (
+cx
 {
 sourceId
 :
@@ -2160,6 +2206,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -2186,6 +2233,7 @@ actions
 .
 selectSourceURL
 (
+cx
 baseSource
 .
 url

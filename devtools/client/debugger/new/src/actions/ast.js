@@ -118,6 +118,19 @@ source
 import
 type
 {
+Context
+}
+from
+"
+.
+.
+/
+types
+"
+;
+import
+type
+{
 ThunkArgs
 Action
 }
@@ -132,6 +145,9 @@ export
 function
 setOutOfScopeLocations
 (
+cx
+:
+Context
 )
 {
 return
@@ -245,6 +261,7 @@ type
 "
 OUT_OF_SCOPE_LOCATIONS
 "
+cx
 locations
 }
 :
@@ -256,6 +273,7 @@ dispatch
 (
 setInScopeLines
 (
+cx
 )
 )
 ;

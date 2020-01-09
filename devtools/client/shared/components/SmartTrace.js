@@ -1260,6 +1260,7 @@ frames
 selectFrame
 :
 (
+cx
 {
 location
 }

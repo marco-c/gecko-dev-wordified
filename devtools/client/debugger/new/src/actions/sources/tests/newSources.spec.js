@@ -414,6 +414,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 createStore
@@ -440,6 +441,7 @@ actions
 .
 selectSourceURL
 (
+cx
 baseSource
 .
 url

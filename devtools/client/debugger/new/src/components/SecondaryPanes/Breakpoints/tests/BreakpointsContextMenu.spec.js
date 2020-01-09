@@ -102,6 +102,7 @@ import
 {
 makeMockBreakpoint
 makeMockSource
+mockcx
 }
 from
 "
@@ -341,6 +342,9 @@ const
 props
 =
 {
+cx
+:
+mockcx
 breakpoints
 breakpoint
 :
@@ -606,7 +610,7 @@ calls
 0
 ]
 [
-0
+1
 ]
 )
 .
@@ -722,7 +726,7 @@ calls
 0
 ]
 [
-0
+1
 ]
 )
 .
@@ -762,7 +766,7 @@ calls
 0
 ]
 [
-1
+2
 ]
 )
 .
@@ -877,7 +881,7 @@ calls
 0
 ]
 [
-0
+1
 ]
 )
 .
@@ -917,7 +921,7 @@ calls
 0
 ]
 [
-1
+2
 ]
 )
 .

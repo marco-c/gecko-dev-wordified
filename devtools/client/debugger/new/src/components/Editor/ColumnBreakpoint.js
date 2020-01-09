@@ -191,6 +191,7 @@ import
 type
 {
 Source
+Context
 }
 from
 "
@@ -216,6 +217,9 @@ type
 Props
 =
 {
+cx
+:
+Context
 editor
 :
 Object
@@ -587,6 +591,7 @@ preventDefault
 ;
 const
 {
+cx
 columnBreakpoint
 breakpointActions
 }
@@ -606,6 +611,7 @@ breakpointActions
 .
 removeBreakpoint
 (
+cx
 columnBreakpoint
 .
 breakpoint
@@ -618,6 +624,7 @@ breakpointActions
 .
 addBreakpoint
 (
+cx
 columnBreakpoint
 .
 location
@@ -650,6 +657,7 @@ preventDefault
 ;
 const
 {
+cx
 columnBreakpoint
 :
 {
@@ -670,12 +678,14 @@ breakpoint
 ?
 breakpointItems
 (
+cx
 breakpoint
 breakpointActions
 )
 :
 createBreakpointItems
 (
+cx
 location
 breakpointActions
 )

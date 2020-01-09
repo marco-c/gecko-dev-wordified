@@ -164,6 +164,7 @@ import
 getSelectedSource
 getSymbols
 getSelectedLocation
+getContext
 }
 from
 "
@@ -241,6 +242,7 @@ import
 type
 {
 Source
+Context
 }
 from
 "
@@ -257,6 +259,9 @@ type
 Props
 =
 {
+cx
+:
+Context
 symbols
 :
 SymbolDeclarations
@@ -472,6 +477,7 @@ AstLocation
 {
 const
 {
+cx
 selectedSource
 selectLocation
 }
@@ -491,6 +497,7 @@ return
 }
 selectLocation
 (
+cx
 {
 sourceId
 :
@@ -1590,6 +1597,12 @@ null
 ;
 return
 {
+cx
+:
+getContext
+(
+state
+)
 symbols
 selectedSource
 selectedLocation

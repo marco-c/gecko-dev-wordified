@@ -145,6 +145,7 @@ getFileSearchQuery
 getFileSearchModifiers
 getFileSearchResults
 getHighlightedLineRange
+getContext
 }
 from
 "
@@ -204,6 +205,7 @@ import
 type
 {
 Source
+Context
 }
 from
 "
@@ -383,6 +385,9 @@ type
 Props
 =
 {
+cx
+:
+Context
 editor
 :
 SourceEditor
@@ -811,6 +816,7 @@ HTMLElement
 {
 const
 {
+cx
 closeFileSearch
 editor
 searchOn
@@ -836,6 +842,7 @@ clearSearch
 ;
 closeFileSearch
 (
+cx
 editor
 )
 ;
@@ -1008,6 +1015,7 @@ string
 {
 const
 {
+cx
 selectedSource
 }
 =
@@ -1036,6 +1044,7 @@ props
 .
 doSearch
 (
+cx
 query
 this
 .
@@ -1098,6 +1107,11 @@ props
 .
 traverseResults
 (
+this
+.
+props
+.
+cx
 rev
 editor
 )
@@ -1407,6 +1421,7 @@ renderSearchModifiers
 {
 const
 {
+cx
 modifiers
 toggleFileSearchModifier
 query
@@ -1474,6 +1489,7 @@ onMouseDown
 {
 toggleFileSearchModifier
 (
+cx
 modVal
 )
 ;
@@ -1510,6 +1526,7 @@ Enter
 {
 toggleFileSearchModifier
 (
+cx
 modVal
 )
 ;
@@ -2063,6 +2080,12 @@ state
 >
 (
 {
+cx
+:
+getContext
+(
+state
+)
 searchOn
 :
 getActiveSearch

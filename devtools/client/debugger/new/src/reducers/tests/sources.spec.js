@@ -164,6 +164,7 @@ prefs
 import
 {
 makeMockSource
+mockcx
 }
 from
 "
@@ -404,6 +405,9 @@ type
 "
 ADD_SOURCE
 "
+cx
+:
+mockcx
 source
 :
 makeMockSource
@@ -490,6 +494,9 @@ type
 "
 ADD_SOURCES
 "
+cx
+:
+mockcx
 /
 /
 coercing
@@ -596,6 +603,9 @@ type
 "
 ADD_SOURCES
 "
+cx
+:
+mockcx
 /
 /
 coercing

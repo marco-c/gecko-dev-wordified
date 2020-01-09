@@ -410,6 +410,10 @@ actions
 .
 jumpToMappedSelectedLocation
 (
+getContext
+(
+dbg
+)
 )
 ;
 await

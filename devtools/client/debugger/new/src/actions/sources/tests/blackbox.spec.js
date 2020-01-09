@@ -131,6 +131,7 @@ const
 {
 dispatch
 getState
+cx
 }
 =
 store
@@ -163,6 +164,7 @@ actions
 .
 toggleBlackBox
 (
+cx
 foo1Source
 )
 )
