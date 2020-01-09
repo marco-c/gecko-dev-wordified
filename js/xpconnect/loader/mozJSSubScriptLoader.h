@@ -223,10 +223,6 @@ JS
 HandleObject
 targetObj
 const
-nsAString
-&
-charset
-const
 char
 *
 uriStr
@@ -260,10 +256,6 @@ JS
 :
 HandleObject
 loadScope
-const
-nsAString
-&
-charset
 nsIIOService
 *
 serv
