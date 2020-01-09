@@ -3168,12 +3168,6 @@ defined
 (
 JS_ION_PERF
 )
-|
-|
-defined
-(
-DEBUG
-)
 lineno_
 (
 0u
