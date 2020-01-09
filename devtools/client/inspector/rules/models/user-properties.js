@@ -82,8 +82,10 @@ user
 .
 *
 /
-function
+class
 UserProperties
+{
+constructor
 (
 )
 {
@@ -97,11 +99,6 @@ Map
 )
 ;
 }
-UserProperties
-.
-prototype
-=
-{
 /
 *
 *
@@ -182,8 +179,6 @@ otherwise
 *
 /
 getProperty
-:
-function
 (
 style
 name
@@ -299,8 +294,6 @@ set
 *
 /
 setProperty
-:
-function
 (
 style
 name
@@ -423,8 +416,6 @@ check
 *
 /
 contains
-:
-function
 (
 style
 name
@@ -466,8 +457,6 @@ entry
 ;
 }
 getKey
-:
-function
 (
 style
 name
@@ -486,8 +475,6 @@ name
 ;
 }
 clear
-:
-function
 (
 )
 {
@@ -501,7 +488,6 @@ clear
 ;
 }
 }
-;
 module
 .
 exports

@@ -274,6 +274,13 @@ given
 element
 .
 *
+/
+class
+ElementStyle
+{
+/
+*
+*
 *
 param
 {
@@ -375,8 +382,7 @@ inspected
 ?
 *
 /
-function
-ElementStyle
+constructor
 (
 element
 ruleView
@@ -566,14 +572,7 @@ onStyleSheetUpdated
 ;
 }
 }
-ElementStyle
-.
-prototype
-=
-{
 destroy
-:
-function
 (
 )
 {
@@ -671,8 +670,6 @@ methods
 *
 /
 _changed
-:
-function
 (
 )
 {
@@ -743,8 +740,6 @@ ready
 *
 /
 populate
-:
-function
 (
 )
 {
@@ -1048,8 +1043,6 @@ found
 *
 /
 getRule
-:
-function
 (
 id
 )
@@ -1117,8 +1110,6 @@ duplicates
 *
 /
 getUsedFontFamilies
-:
-function
 (
 )
 {
@@ -1218,8 +1209,6 @@ others
 *
 /
 _sortRulesForPseudoElement
-:
-function
 (
 )
 {
@@ -1357,8 +1346,6 @@ rule
 *
 /
 _maybeAddRule
-:
-function
 (
 options
 existingRules
@@ -1594,8 +1581,6 @@ elements
 *
 /
 markOverriddenAll
-:
-function
 (
 )
 {
@@ -1694,8 +1679,6 @@ element
 *
 /
 markOverridden
-:
-function
 (
 pseudo
 =
@@ -2456,8 +2439,6 @@ value
 *
 /
 addNewDeclaration
-:
-function
 (
 ruleId
 value
@@ -2654,10 +2635,8 @@ name
 .
 *
 /
-modifyDeclarationName
-:
 async
-function
+modifyDeclarationName
 (
 ruleID
 declarationId
@@ -2880,8 +2859,6 @@ added
 *
 /
 _addMultipleDeclarations
-:
-function
 (
 rule
 declarationsToAdd
@@ -3069,8 +3046,6 @@ priority
 *
 /
 _getValueAndExtraProperties
-:
-function
 (
 value
 )
@@ -3398,10 +3373,8 @@ value
 .
 *
 /
-modifyDeclarationValue
-:
 async
-function
+modifyDeclarationValue
 (
 ruleId
 declarationId
@@ -3608,10 +3581,8 @@ value
 .
 *
 /
-modifySelector
-:
 async
-function
+modifySelector
 (
 ruleId
 selector
@@ -4104,8 +4075,6 @@ declaration
 *
 /
 toggleDeclaration
-:
-function
 (
 ruleId
 declarationId
@@ -4235,8 +4204,6 @@ changed
 *
 /
 _updatePropertyOverridden
-:
-function
 (
 prop
 )
@@ -4376,8 +4343,6 @@ defined
 *
 /
 getVariable
-:
-function
 (
 name
 )
@@ -4420,10 +4385,8 @@ page
 .
 *
 /
-onStyleSheetUpdated
-:
 async
-function
+onStyleSheetUpdated
 (
 )
 {
@@ -4497,7 +4460,6 @@ _changed
 ;
 }
 }
-;
 module
 .
 exports
