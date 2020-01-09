@@ -75,6 +75,10 @@ darling
 ;
 extern
 crate
+derive_common
+;
+extern
+crate
 proc_macro
 ;
 extern
@@ -109,9 +113,6 @@ TokenStream
 ;
 mod
 animate
-;
-mod
-cg
 ;
 mod
 compute_squared_distance

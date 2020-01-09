@@ -70,7 +70,7 @@ AnimationVariantAttrs
 }
 ;
 use
-crate
+derive_common
 :
 :
 cg
