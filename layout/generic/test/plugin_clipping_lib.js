@@ -1072,13 +1072,9 @@ hwidth
 =
 h2
 .
-boxObject
-.
 screenX
 -
 h1
-.
-boxObject
 .
 screenX
 ;
@@ -1174,8 +1170,6 @@ windowFrameX
 =
 h1
 .
-boxObject
-.
 screenX
 -
 bounds
@@ -1189,8 +1183,6 @@ screenX
 windowFrameY
 =
 h1
-.
-boxObject
 .
 screenY
 -
