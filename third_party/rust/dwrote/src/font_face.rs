@@ -1431,13 +1431,10 @@ render_mode
 )
 ;
 if
-!
-(
 hr
 !
 =
 0
-)
 {
 return
 DWRITE_RENDERING_MODE_NATURAL_SYMMETRIC
