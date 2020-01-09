@@ -1811,10 +1811,15 @@ index
 ;
 index
 <
+uint32_t
+(
 Client
 :
 :
-TYPE_MAX
+TypeMax
+(
+)
+)
 ;
 index
 +

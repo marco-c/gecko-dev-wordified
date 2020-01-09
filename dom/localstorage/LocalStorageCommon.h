@@ -1986,6 +1986,11 @@ NextGenLocalStorageEnabled
 (
 )
 ;
+bool
+CachedNextGenLocalStorageEnabled
+(
+)
+;
 }
 /
 /
