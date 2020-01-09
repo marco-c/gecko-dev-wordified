@@ -332,7 +332,7 @@ worker
 const
 {
 name
-registrationActor
+registrationFront
 scope
 subscription
 workerTargetFront
@@ -384,7 +384,9 @@ workerTargetFront
 .
 actorID
 :
-registrationActor
+registrationFront
+.
+actorID
 ;
 let
 isActive
@@ -465,7 +467,7 @@ fetch
 isActive
 isRunning
 pushServiceEndpoint
-registrationActor
+registrationFront
 scope
 status
 }

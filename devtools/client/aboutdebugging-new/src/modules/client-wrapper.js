@@ -214,6 +214,13 @@ contentProcessFronts
 [
 ]
 ;
+this
+.
+serviceWorkerRegistrationFronts
+=
+[
+]
+;
 }
 addOneTimeListener
 (

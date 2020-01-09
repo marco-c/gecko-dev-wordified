@@ -116,7 +116,7 @@ registrations
 "
 array
 :
-json
+serviceWorkerRegistration
 "
 }
 )

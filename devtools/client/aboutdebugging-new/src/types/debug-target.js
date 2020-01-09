@@ -247,8 +247,7 @@ PropTypes
 bool
 /
 /
-actor
-id
+front
 for
 the
 ServiceWorkerRegistration
@@ -258,11 +257,11 @@ this
 service
 worker
 .
-registrationActor
+registrationFront
 :
 PropTypes
 .
-string
+object
 /
 /
 (

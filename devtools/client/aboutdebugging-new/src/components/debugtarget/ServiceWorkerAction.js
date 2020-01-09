@@ -370,7 +370,7 @@ target
 .
 details
 .
-registrationActor
+registrationFront
 )
 )
 ;
