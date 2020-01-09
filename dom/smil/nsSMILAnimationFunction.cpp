@@ -151,7 +151,7 @@ h
 #
 include
 "
-nsSMILCSSValueType
+SMILCSSValueType
 .
 h
 "
@@ -2554,7 +2554,7 @@ CSS
 .
 if
 (
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 PropertyFromValue
@@ -3337,7 +3337,7 @@ with
 type
 /
 /
-nsSMILCSSValueType
+SMILCSSValueType
 but
 a
 null
@@ -3445,7 +3445,7 @@ to
 just
 special
 case
-nsSMILCSSValueType
+SMILCSSValueType
 .
 if
 (
@@ -3455,7 +3455,7 @@ mType
 =
 =
 &
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -3578,7 +3578,7 @@ in
 the
 series
 .
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 FinalizeValue

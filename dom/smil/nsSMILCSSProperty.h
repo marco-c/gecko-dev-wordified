@@ -301,7 +301,7 @@ initialized
 with
 *
 the
-nsSMILCSSValueType
+SMILCSSValueType
 will
 be
 returned

@@ -132,7 +132,7 @@ property
 #
 include
 "
-nsSMILCSSValueType
+SMILCSSValueType
 .
 h
 "
@@ -291,14 +291,13 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
+namespace
+mozilla
+{
 typedef
 AutoTArray
 <
@@ -315,8 +314,8 @@ ServoAnimationValues
 static
 *
 /
-nsSMILCSSValueType
-nsSMILCSSValueType
+SMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -875,7 +874,7 @@ methods
 -
 -
 void
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 Init
@@ -917,7 +916,7 @@ this
 ;
 }
 void
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 Destroy
@@ -971,7 +970,7 @@ Singleton
 ;
 }
 nsresult
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 Assign
@@ -1152,7 +1151,7 @@ NS_OK
 ;
 }
 bool
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 IsEqual
@@ -1691,7 +1690,7 @@ mType
 =
 =
 &
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -1958,7 +1957,7 @@ aCount
 ;
 }
 nsresult
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 SandwichAdd
@@ -1991,7 +1990,7 @@ NS_ERROR_FAILURE
 ;
 }
 nsresult
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 Add
@@ -2229,7 +2228,7 @@ NS_OK
 ;
 }
 nsresult
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 ComputeDistance
@@ -2704,7 +2703,7 @@ NS_OK
 ;
 }
 nsresult
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 Interpolate
@@ -2987,7 +2986,7 @@ result
 /
 static
 void
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 ValueFromString
@@ -3217,7 +3216,7 @@ parsedValues
 /
 static
 nsSMILValue
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 ValueFromAnimationValue
@@ -3385,7 +3384,7 @@ result
 /
 static
 bool
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 SetPropertyValues
@@ -3407,7 +3406,7 @@ mType
 =
 =
 &
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -3479,7 +3478,7 @@ changed
 /
 static
 nsCSSPropertyID
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 PropertyFromValue
@@ -3498,7 +3497,7 @@ mType
 !
 =
 &
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -3539,7 +3538,7 @@ mPropID
 /
 static
 void
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 FinalizeValue
@@ -3578,7 +3577,7 @@ mType
 =
 =
 &
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -3745,3 +3744,8 @@ zeroValues
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

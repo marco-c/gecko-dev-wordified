@@ -184,7 +184,7 @@ h
 #
 include
 "
-nsSMILCSSValueType
+SMILCSSValueType
 .
 h
 "
@@ -517,7 +517,7 @@ nsSMILValue
 tmpVal
 (
 &
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 sSingleton
@@ -564,7 +564,7 @@ baseValue
 }
 baseValue
 =
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 ValueFromAnimationValue
@@ -610,7 +610,7 @@ mPropID
 NS_ERROR_FAILURE
 )
 ;
-nsSMILCSSValueType
+SMILCSSValueType
 :
 :
 ValueFromString
