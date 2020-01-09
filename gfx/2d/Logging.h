@@ -5040,6 +5040,8 @@ matching
 the
 syntax
 of
+/
+/
 gfxCriticalError
 .
 /

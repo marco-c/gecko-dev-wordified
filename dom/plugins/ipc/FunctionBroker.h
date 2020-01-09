@@ -511,6 +511,7 @@ FunctionHookList
 &
 )
 or
+*
 AddBrokeredFunctionHook
 (
 FunctionHookList
@@ -788,6 +789,7 @@ ShouldMarshal
 3
 >
 {
+*
 static
 const
 bool
@@ -795,6 +797,7 @@ value
 =
 true
 ;
+*
 }
 ;
 *
@@ -1132,6 +1135,7 @@ HOOK_CALL
 nsDependentCSubstring
 )
 >
+*
 HookedFuncDelegateReq
 ;
 *
@@ -1157,6 +1161,7 @@ void
 *
 &
 aBuf
+*
 const
 int
 &
@@ -1177,6 +1182,7 @@ HookedFuncDelegateReq
 Marshal
 (
 aTuple
+*
 nsDependentCSubstring
 (
 aBuf

@@ -3187,6 +3187,7 @@ from
 nsIContentPolicy
 such
 as
+*
 TYPE_STYLESHEET
 *
 param
@@ -3228,6 +3229,7 @@ violation
 (
 UNSAFE_INLINE
 for
+*
 most
 )
 *

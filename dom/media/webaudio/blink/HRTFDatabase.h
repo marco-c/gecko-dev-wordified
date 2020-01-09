@@ -338,6 +338,12 @@ sampleRate
 ;
 /
 /
+clang
+-
+format
+off
+/
+/
 getKernelsFromAzimuthElevation
 (
 )
@@ -415,6 +421,12 @@ MinElevation
 >
 MaxElevation
 .
+/
+/
+clang
+-
+format
+on
 void
 getKernelsFromAzimuthElevation
 (
