@@ -567,6 +567,12 @@ __ARM_ARCH_7R__
 )
 )
 )
+#
+if
+defined
+(
+IS_LITTLE_ENDIAN
+)
 static
 __inline__
 PRUint32
@@ -619,6 +625,8 @@ swap4b
 (
 x
 )
+#
+endif
 #
 endif
 /
