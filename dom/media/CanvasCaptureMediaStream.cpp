@@ -677,14 +677,6 @@ aTrackId
 mSourceStream
 -
 >
-AdvanceKnownTracksTime
-(
-STREAM_TIME_MAX
-)
-;
-mSourceStream
--
->
 SetPullEnabled
 (
 true

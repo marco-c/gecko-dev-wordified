@@ -27658,14 +27658,6 @@ FinishAddTracks
 (
 )
 ;
-stream
--
->
-AdvanceKnownTracksTime
-(
-STREAM_TIME_MAX
-)
-;
 LOG
 (
 (

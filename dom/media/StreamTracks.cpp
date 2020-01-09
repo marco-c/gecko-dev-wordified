@@ -154,13 +154,9 @@ LogLevel
 Info
 (
 "
-DumpTracks
-:
-mTracksKnownTime
-%
+Dumping
+StreamTracks
 "
-PRId64
-mTracksKnownTime
 )
 )
 ;

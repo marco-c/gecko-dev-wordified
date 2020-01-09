@@ -522,11 +522,6 @@ SentDuration
 )
 ;
 void
-AdvanceTracks
-(
-)
-;
-void
 SendData
 (
 )
