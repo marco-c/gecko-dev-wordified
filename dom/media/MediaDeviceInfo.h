@@ -160,6 +160,10 @@ const
 nsAString
 &
 aGroupId
+=
+nsString
+(
+)
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

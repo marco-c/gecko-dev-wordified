@@ -138,13 +138,6 @@ GetUUID
 const
 override
 ;
-nsString
-GetGroupId
-(
-)
-const
-override
-;
 bool
 GetScary
 (
