@@ -1436,7 +1436,7 @@ pc_
 BINJS_TRY_DECL
 (
 body
-factory_
+handler_
 .
 newLexicalScope
 (
@@ -2169,7 +2169,7 @@ kind
 BINJS_TRY_DECL
 (
 result
-factory_
+handler_
 .
 newFunction
 (
@@ -2178,7 +2178,7 @@ pos
 )
 )
 ;
-factory_
+handler_
 .
 setFunctionBox
 (
@@ -2338,7 +2338,7 @@ funbox
 )
 )
 ;
-factory_
+handler_
 .
 setFunctionFormalParametersAndBody
 (
@@ -2806,7 +2806,7 @@ id
 BINJS_TRY_DECL
 (
 dotGen
-factory_
+handler_
 .
 newName
 (
@@ -2856,7 +2856,7 @@ ListNode
 ;
 BINJS_TRY
 (
-factory_
+handler_
 .
 prependInitialYield
 (
@@ -4744,7 +4744,7 @@ next
 BINJS_TRY_DECL
 (
 statement
-factory_
+handler_
 .
 newExprStatement
 (
