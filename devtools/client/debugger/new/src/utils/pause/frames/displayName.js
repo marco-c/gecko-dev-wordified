@@ -161,6 +161,7 @@ objectProperty
 w
 \
 d
+\
 ]
 +
 )
