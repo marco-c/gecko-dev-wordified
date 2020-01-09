@@ -51,7 +51,7 @@ array
 when
 target
 has
-now
+no
 own
 properties
 .
