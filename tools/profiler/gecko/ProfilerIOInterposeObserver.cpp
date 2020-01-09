@@ -98,6 +98,12 @@ if
 IsMainThread
 (
 )
+|
+|
+!
+profiler_thread_is_being_profiled
+(
+)
 )
 {
 return

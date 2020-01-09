@@ -11831,6 +11831,13 @@ IsInCompositorThread
 )
 )
 ;
+if
+(
+profiler_thread_is_being_profiled
+(
+)
+)
+{
 profiler_add_marker
 (
 "
@@ -11845,6 +11852,7 @@ aVsyncTimestamp
 )
 )
 ;
+}
 }
 #
 endif

@@ -5628,7 +5628,7 @@ ifdef
 MOZ_GECKO_PROFILER
 if
 (
-profiler_is_active
+profiler_thread_is_being_profiled
 (
 )
 )
@@ -6237,7 +6237,7 @@ GCNurseryProgress
 GC_NURSERY_COLLECTION_END
 &
 &
-profiler_is_active
+profiler_thread_is_being_profiled
 (
 )
 )
