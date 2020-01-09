@@ -4358,11 +4358,14 @@ JSOP_INITHOMEOBJECT
 :
 /
 /
-Keep
+Pop
 the
 top
-2
-values
+value
+keep
+the
+other
+value
 .
 MOZ_ASSERT
 (
@@ -4377,7 +4380,7 @@ MOZ_ASSERT
 ndefs
 =
 =
-2
+1
 )
 ;
 break
