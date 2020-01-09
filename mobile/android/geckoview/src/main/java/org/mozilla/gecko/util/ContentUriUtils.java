@@ -531,9 +531,6 @@ docPath
 null
 ;
 }
-/
-/
-DownloadsProvider
 else
 if
 (
@@ -543,6 +540,9 @@ uri
 )
 )
 {
+/
+/
+DownloadsProvider
 final
 String
 id
@@ -694,9 +694,6 @@ null
 }
 }
 }
-/
-/
-MediaProvider
 else
 if
 (
@@ -706,6 +703,9 @@ uri
 )
 )
 {
+/
+/
+MediaProvider
 final
 String
 docId
@@ -855,13 +855,6 @@ selectionArgs
 ;
 }
 }
-/
-/
-MediaStore
-(
-and
-general
-)
 else
 if
 (
@@ -879,6 +872,13 @@ getScheme
 )
 )
 {
+/
+/
+MediaStore
+(
+and
+general
+)
 /
 /
 Return
@@ -909,9 +909,6 @@ null
 )
 ;
 }
-/
-/
-File
 else
 if
 (
@@ -929,6 +926,9 @@ getScheme
 )
 )
 {
+/
+/
+File
 return
 uri
 .
