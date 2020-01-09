@@ -1889,6 +1889,14 @@ void
 aPromise
 )
 ;
+void
+CloseInternal
+(
+void
+*
+aPromise
+)
+;
 /
 /
 Will
