@@ -369,6 +369,12 @@ MutableHandleValue
 aOut
 )
 ;
+nsIGlobalObject
+*
+GetGlobalObject
+(
+)
+;
 using
 NativesBase
 :
