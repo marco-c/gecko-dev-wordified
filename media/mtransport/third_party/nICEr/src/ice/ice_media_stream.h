@@ -655,7 +655,7 @@ char
 foundation
 )
 ;
-int
+void
 nr_ice_media_stream_dump_state
 (
 nr_ice_peer_ctx
@@ -664,9 +664,8 @@ pctx
 nr_ice_media_stream
 *
 stream
-FILE
-*
-out
+int
+log_level
 )
 ;
 void

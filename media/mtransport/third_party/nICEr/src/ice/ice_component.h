@@ -638,6 +638,16 @@ nr_ice_component
 comp
 )
 ;
+void
+nr_ice_component_dump_state
+(
+nr_ice_component
+*
+comp
+int
+log_level
+)
+;
 #
 ifdef
 __cplusplus
