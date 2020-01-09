@@ -81,7 +81,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip_if_mobile
 WindowManagerMixin
 def
 inline

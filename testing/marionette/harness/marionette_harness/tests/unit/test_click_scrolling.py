@@ -75,7 +75,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip_if_mobile
 def
 inline
 (
@@ -372,28 +371,6 @@ be
 out
 of
 bounds
-"
-)
-    
-skip_if_mobile
-(
-"
-Bug
-1293855
--
-Lists
-differ
-:
-[
-70
-70
-]
-!
-=
-[
-70
-120
-]
 "
 )
     
