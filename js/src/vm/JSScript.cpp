@@ -29128,7 +29128,6 @@ isMarkingTracer
 )
 )
 {
-return
 GCMarker
 :
 :
