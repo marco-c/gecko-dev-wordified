@@ -489,12 +489,5 @@ saveStartupPrefs
 (
 )
 ;
-await
-PreferenceRollouts
-.
-closeDB
-(
-)
-;
 }
 }
