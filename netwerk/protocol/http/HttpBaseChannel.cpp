@@ -1895,7 +1895,7 @@ uint64_t
 aChannelId
 )
 {
-LOG
+LOG1
 (
 (
 "
@@ -2063,7 +2063,7 @@ rv
 return
 rv
 ;
-LOG
+LOG1
 (
 (
 "
@@ -2107,7 +2107,7 @@ rv
 return
 rv
 ;
-LOG
+LOG1
 (
 (
 "
