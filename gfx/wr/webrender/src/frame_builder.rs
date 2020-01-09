@@ -2053,10 +2053,6 @@ gpu_cache
 begin_frame
 (
 stamp
-.
-frame_id
-(
-)
 )
 ;
 let
@@ -2499,6 +2495,10 @@ gpu_cache
 end_frame
 (
 gpu_cache_profile
+)
+.
+frame_id
+(
 )
 ;
 render_tasks

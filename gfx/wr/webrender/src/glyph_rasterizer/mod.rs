@@ -5003,7 +5003,7 @@ gpu_cache
 GpuCache
 :
 :
-new
+new_for_testing
 (
 )
 ;
