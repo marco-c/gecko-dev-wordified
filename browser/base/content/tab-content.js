@@ -340,6 +340,7 @@ aURI
 aReferrer
 aHasPostData
 aTriggeringPrincipal
+aCsp
 )
 {
 if
@@ -365,6 +366,8 @@ aURI
 aReferrer
 aTriggeringPrincipal
 false
+null
+aCsp
 )
 ;
 return
@@ -413,6 +416,7 @@ aURI
 aReferrer
 aTriggeringPrincipal
 aLoadFlags
+aCsp
 )
 {
 E10SUtils
@@ -425,6 +429,7 @@ aReferrer
 aTriggeringPrincipal
 true
 aLoadFlags
+aCsp
 )
 ;
 return
