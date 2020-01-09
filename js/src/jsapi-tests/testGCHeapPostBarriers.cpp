@@ -226,7 +226,7 @@ GCPtr
 that
 adds
 a
-trace
+zone
 (
 )
 method
