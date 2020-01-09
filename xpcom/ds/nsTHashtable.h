@@ -2914,12 +2914,15 @@ aKey
 {
 return
 (
-(
+static_cast
+<
 const
 EntryType
 *
-)
+>
+(
 aEntry
+)
 )
 -
 >
