@@ -332,7 +332,7 @@ actor
 }
 >
 <
-img
+AccessibleImage
 className
 =
 "
