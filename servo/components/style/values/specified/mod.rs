@@ -934,10 +934,9 @@ text
 :
 :
 {
-TextAlignKeyword
-TextDecorationLine
-TextOverflow
-WordSpacing
+OverflowWrap
+TextEmphasisPosition
+TextEmphasisStyle
 }
 ;
 pub
@@ -949,9 +948,10 @@ text
 :
 :
 {
-TextEmphasisPosition
-TextEmphasisStyle
-OverflowWrap
+TextAlignKeyword
+TextDecorationLine
+TextOverflow
+WordSpacing
 }
 ;
 pub

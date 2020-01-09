@@ -922,9 +922,9 @@ text
 :
 :
 {
-TextAlign
-TextEmphasisPosition
-TextEmphasisStyle
+OverflowWrap
+TextOverflow
+WordSpacing
 }
 ;
 pub
@@ -936,9 +936,9 @@ text
 :
 :
 {
-TextOverflow
-WordSpacing
-OverflowWrap
+TextAlign
+TextEmphasisPosition
+TextEmphasisStyle
 }
 ;
 pub
