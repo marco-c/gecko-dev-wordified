@@ -3042,9 +3042,11 @@ cmd_paste
 "
 )
 )
+{
 return
 NS_OK
 ;
+}
 nsCOMPtr
 <
 nsPIDOMWindowOuter
@@ -3062,7 +3064,7 @@ window
 NS_ERROR_FAILURE
 )
 ;
-nsCOMPtr
+RefPtr
 <
 Document
 >
@@ -3073,6 +3075,12 @@ window
 >
 GetExtantDoc
 (
+)
+;
+NS_ENSURE_TRUE
+(
+doc
+NS_ERROR_FAILURE
 )
 ;
 if
