@@ -1678,6 +1678,12 @@ DisplayItemType
 :
 TYPE_MASK
 :
+case
+DisplayItemType
+:
+:
+TYPE_PERSPECTIVE
+:
 {
 return
 true
