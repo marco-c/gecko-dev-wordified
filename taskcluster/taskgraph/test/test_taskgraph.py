@@ -351,6 +351,13 @@ b
 }
                 
 '
+soft_dependencies
+'
+:
+[
+]
+                
+'
 optimization
 '
 :
@@ -414,6 +421,13 @@ dependencies
 :
 {
 }
+                
+'
+soft_dependencies
+'
+:
+[
+]
                 
 '
 optimization
