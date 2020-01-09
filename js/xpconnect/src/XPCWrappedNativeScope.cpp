@@ -171,6 +171,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
