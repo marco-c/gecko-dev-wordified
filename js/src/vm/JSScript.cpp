@@ -1570,7 +1570,7 @@ XDR_ENCODE
 script
 -
 >
-isRelazifiable
+isRelazifiableIgnoringJitCode
 (
 )
 &
@@ -2733,7 +2733,7 @@ if
 script
 -
 >
-isRelazifiable
+isRelazifiableIgnoringJitCode
 (
 )
 )

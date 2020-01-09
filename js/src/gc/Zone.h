@@ -1378,6 +1378,10 @@ bool
 discardBaselineCode
 =
 true
+bool
+releaseTypes
+=
+false
 )
 ;
 void
@@ -1549,8 +1553,6 @@ reportAllocationOverflow
 void
 beginSweepTypes
 (
-bool
-releaseTypes
 )
 ;
 bool
