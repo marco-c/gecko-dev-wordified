@@ -63128,6 +63128,12 @@ for
 VR
 module
 .
+#
+if
+defined
+(
+XP_WIN
+)
 pref
 (
 "
@@ -63142,6 +63148,8 @@ enabled
 false
 )
 ;
+#
+endif
 /
 /
 Puppet
