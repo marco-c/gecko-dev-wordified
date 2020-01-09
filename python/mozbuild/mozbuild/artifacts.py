@@ -1449,7 +1449,7 @@ log
 (
 logging
 .
-DEBUG
+INFO
 '
 artifact
 '
@@ -5125,7 +5125,7 @@ log
 (
 logging
 .
-DEBUG
+INFO
 '
 artifact
 '
@@ -5293,7 +5293,7 @@ log
 (
 logging
 .
-DEBUG
+INFO
 '
 artifact
 '
@@ -5372,7 +5372,7 @@ log
 (
 logging
 .
-DEBUG
+INFO
 '
 artifact
 '
@@ -7201,7 +7201,7 @@ log
 (
 logging
 .
-DEBUG
+INFO
 '
 artifact
 '
@@ -7539,7 +7539,7 @@ log
 (
 logging
 .
-DEBUG
+INFO
 '
 artifact
 '
@@ -9068,7 +9068,7 @@ log
 (
 logging
 .
-DEBUG
+INFO
 '
 artifact
 '
@@ -9099,7 +9099,7 @@ log
 (
 logging
 .
-DEBUG
+INFO
 '
 artifact
 '
@@ -9554,7 +9554,7 @@ log
 (
 logging
 .
-DEBUG
+INFO
 '
 artifact
 '
@@ -10100,7 +10100,7 @@ log
 (
 logging
 .
-DEBUG
+INFO
 '
 artifact
 '
