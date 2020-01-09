@@ -2682,6 +2682,14 @@ aResult
 )
 const
 ;
+void
+ReportPreloadErrorsToConsole
+(
+ScriptLoadRequest
+*
+aRequest
+)
+;
 nsresult
 AttemptAsyncScriptCompile
 (
