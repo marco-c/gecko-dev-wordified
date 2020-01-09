@@ -10144,6 +10144,13 @@ mNodeIterator
 Current
 (
 )
+&
+&
+mNodeIterator
+.
+Current
+(
+)
 !
 =
 node
