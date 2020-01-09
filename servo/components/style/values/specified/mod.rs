@@ -4168,11 +4168,6 @@ input
 map
 (
 GreaterThanOrEqualToOne
-:
-:
-<
-Integer
->
 )
 }
 }

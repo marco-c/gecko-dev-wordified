@@ -8336,7 +8336,12 @@ mFlexShrink
 )
 mZIndex
 (
-eStyleUnit_Auto
+StyleZIndex
+:
+:
+Auto
+(
+)
 )
 mColumnGap
 (
@@ -18735,7 +18740,12 @@ CoordConstructor
 }
 mChildPerspective
 (
-eStyleUnit_None
+StylePerspective
+:
+:
+None
+(
+)
 )
 mPerspectiveOrigin
 {

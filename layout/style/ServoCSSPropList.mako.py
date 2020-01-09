@@ -789,6 +789,14 @@ NonNegativeLengthOrNumberRect
 "
 NonNegativeLengthOrNumber
 "
+    
+"
+ZIndex
+"
+    
+"
+Perspective
+"
 ]
 def
 serialized_by_servo

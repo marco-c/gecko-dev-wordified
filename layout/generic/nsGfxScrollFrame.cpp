@@ -21251,12 +21251,9 @@ StylePosition
 >
 mZIndex
 .
-GetUnit
+IsInteger
 (
 )
-=
-=
-eStyleUnit_Integer
 )
 {
 zIndex
@@ -21273,9 +21270,9 @@ StylePosition
 >
 mZIndex
 .
-GetIntValue
-(
-)
+integer
+.
+_0
 )
 ;
 }
