@@ -16671,7 +16671,13 @@ time
 expected
 :
 '
+calc
+(
+0
+%
++
 200px
+)
 calc
 (
 25

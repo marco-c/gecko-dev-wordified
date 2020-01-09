@@ -284,7 +284,7 @@ new
 LengthOrPercentage
 :
 :
-Percentage
+new_percent
 (
 Percentage
 (
@@ -296,7 +296,7 @@ Percentage
 LengthOrPercentage
 :
 :
-Percentage
+new_percent
 (
 Percentage
 (
