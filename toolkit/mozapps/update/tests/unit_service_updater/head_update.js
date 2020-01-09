@@ -28,11 +28,6 @@ zero
 /
 *
 /
-const
-IS_SERVICE_TEST
-=
-true
-;
 /
 *
 import
@@ -58,4 +53,8 @@ xpcshellUtilsAUS
 js
 "
 )
+;
+gIsServiceTest
+=
+true
 ;

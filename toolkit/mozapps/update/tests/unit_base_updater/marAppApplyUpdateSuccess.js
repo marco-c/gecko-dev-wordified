@@ -37,15 +37,10 @@ applying
 an
 update
 by
-staging
-an
-update
-and
 launching
 an
 application
 to
-*
 apply
 it
 .

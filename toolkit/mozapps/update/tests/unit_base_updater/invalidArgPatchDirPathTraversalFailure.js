@@ -86,7 +86,7 @@ return
 const
 STATE_AFTER_RUNUPDATE
 =
-IS_SERVICE_TEST
+gIsServiceTest
 ?
 STATE_PENDING_SVC
 :
