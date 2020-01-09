@@ -2866,15 +2866,6 @@ GetClientOffset
 (
 )
 ;
-LayoutDevicePoint
-AdjustTapToChildWidget
-(
-const
-LayoutDevicePoint
-&
-aPoint
-)
-;
 /
 *
 *
