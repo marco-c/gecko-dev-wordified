@@ -633,6 +633,10 @@ TextAlign
 "
     
 "
+Translate
+"
+    
+"
 TimingFunction
 "
     

@@ -2188,14 +2188,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetTranslate
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetRotate
 (
 )
