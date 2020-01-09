@@ -176,6 +176,10 @@ l10n_chunk
 '
     
 '
+locale
+'
+    
+'
 nightly
 '
     
