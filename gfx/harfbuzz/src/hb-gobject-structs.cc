@@ -417,7 +417,6 @@ name
 #
 _destroy
 )
-;
 #
 define
 HB_DEFINE_VALUE_TYPE
@@ -563,7 +562,6 @@ name
 #
 _destroy
 )
-;
 HB_DEFINE_OBJECT_TYPE
 (
 buffer

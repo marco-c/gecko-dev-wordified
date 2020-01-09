@@ -275,7 +275,7 @@ lookups
 table_index
 ]
 .
-len
+length
 ;
 i
 +
@@ -595,7 +595,7 @@ seq
 =
 feature_infos
 .
-len
+length
 ;
 info
 -
@@ -1097,7 +1097,7 @@ if
 (
 feature_infos
 .
-len
+length
 )
 {
 feature_infos
@@ -1124,7 +1124,7 @@ i
 <
 feature_infos
 .
-len
+length
 ;
 i
 +
@@ -1378,7 +1378,7 @@ i
 <
 feature_infos
 .
-len
+length
 ;
 i
 +
@@ -2041,7 +2041,7 @@ m
 .
 features
 .
-len
+length
 ;
 i
 +
@@ -2139,7 +2139,7 @@ lookups
 table_index
 ]
 .
-len
+length
 )
 {
 m
@@ -2159,7 +2159,7 @@ lookups
 table_index
 ]
 .
-len
+length
 )
 ;
 unsigned
@@ -2187,7 +2187,7 @@ lookups
 table_index
 ]
 .
-len
+length
 ;
 i
 +
@@ -2344,7 +2344,7 @@ lookups
 table_index
 ]
 .
-len
+length
 ;
 if
 (
@@ -2355,7 +2355,7 @@ stages
 table_index
 ]
 .
-len
+length
 &
 &
 stages

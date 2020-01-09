@@ -1441,12 +1441,12 @@ DEFINE_SIZE_STATIC
 struct
 STAT
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_STAT
-}
 ;
 bool
 sanitize
@@ -1634,13 +1634,12 @@ zero
 .
 *
 /
-LOffsetTo
+LNNOffsetTo
 <
 UnsizedArrayOf
 <
 StatAxisRecord
 >
-false
 >
 designAxesOffset
 ;
@@ -1705,7 +1704,7 @@ tables
 .
 *
 /
-LOffsetTo
+LNNOffsetTo
 <
 UnsizedArrayOf
 <
@@ -1714,7 +1713,6 @@ OffsetTo
 AxisValue
 >
 >
-false
 >
 offsetToAxisValueOffsets
 ;

@@ -295,7 +295,6 @@ hb_lockable_set_t
 hb_vector_t
 <
 item_t
-1
 >
 items
 ;
@@ -466,7 +465,7 @@ items
 [
 items
 .
-len
+length
 -
 1
 ]
@@ -629,15 +628,15 @@ if
 !
 items
 .
-len
+length
 )
 {
 /
 *
 No
 need
-for
-locking
+to
+lock
 .
 *
 /
@@ -660,7 +659,7 @@ while
 (
 items
 .
-len
+length
 )
 {
 item_t
@@ -670,7 +669,7 @@ items
 [
 items
 .
-len
+length
 -
 1
 ]

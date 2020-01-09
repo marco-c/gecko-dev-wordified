@@ -587,12 +587,12 @@ DEFINE_SIZE_STATIC
 struct
 fvar
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_fvar
-}
 ;
 bool
 has_data
@@ -1713,7 +1713,7 @@ i
 <
 instanceCoords
 .
-len
+length
 ;
 i
 +

@@ -1123,12 +1123,12 @@ jstf
 struct
 JSTF
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_JSTF
-}
 ;
 unsigned
 int

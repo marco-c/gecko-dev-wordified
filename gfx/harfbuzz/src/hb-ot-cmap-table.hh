@@ -550,7 +550,7 @@ set
 (
 segments
 .
-len
+length
 *
 2
 )
@@ -569,7 +569,7 @@ hb_bit_storage
 (
 segments
 .
-len
+length
 )
 )
 -
@@ -605,7 +605,7 @@ set
 (
 segments
 .
-len
+length
 *
 2
 >
@@ -618,7 +618,7 @@ searchRange
 *
 segments
 .
-len
+length
 -
 this
 -
@@ -647,7 +647,7 @@ static_size
 *
 segments
 .
-len
+length
 )
 ;
 c
@@ -690,7 +690,7 @@ static_size
 *
 segments
 .
-len
+length
 )
 ;
 HBINT16
@@ -712,7 +712,7 @@ static_size
 *
 segments
 .
-len
+length
 )
 ;
 HBUINT16
@@ -734,7 +734,7 @@ static_size
 *
 segments
 .
-len
+length
 )
 ;
 if
@@ -761,7 +761,7 @@ i
 <
 segments
 .
-len
+length
 ;
 i
 +
@@ -1141,7 +1141,7 @@ i
 <
 segments
 .
-len
+length
 ;
 i
 +
@@ -3481,7 +3481,7 @@ return
 *
 groups
 .
-len
+length
 ;
 }
 static
@@ -3656,7 +3656,7 @@ i
 groups
 -
 >
-len
+length
 ;
 i
 +
@@ -5220,12 +5220,12 @@ DEFINE_SIZE_STATIC
 struct
 cmap
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_cmap
-}
 ;
 struct
 subset_plan
@@ -6536,7 +6536,7 @@ done
 first_unicode
 =
 &
-StructAtOffset
+StructAtOffsetUnaligned
 <
 hb_codepoint_t
 >
@@ -6548,7 +6548,7 @@ unicode_stride
 first_glyph
 =
 &
-StructAtOffset
+StructAtOffsetUnaligned
 <
 hb_codepoint_t
 >

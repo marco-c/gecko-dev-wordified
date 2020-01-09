@@ -384,7 +384,7 @@ count
 =
 array
 .
-len
+length
 ;
 for
 (
@@ -1185,7 +1185,7 @@ count
 =
 array
 .
-len
+length
 ;
 for
 (
@@ -1770,12 +1770,12 @@ gdef
 struct
 GDEF
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_GDEF
-}
 ;
 enum
 GlyphClasses

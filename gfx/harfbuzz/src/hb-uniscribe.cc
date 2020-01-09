@@ -816,6 +816,24 @@ if
 hinstLib
 )
 {
+#
+pragma
+GCC
+diagnostic
+push
+#
+pragma
+GCC
+diagnostic
+ignored
+"
+-
+Wcast
+-
+function
+-
+type
+"
 this
 -
 >
@@ -864,6 +882,11 @@ ScriptPlaceOpenType
 "
 )
 ;
+#
+pragma
+GCC
+diagnostic
+pop
 }
 if
 (
@@ -3611,7 +3634,7 @@ i
 <
 feature_events
 .
-len
+length
 ;
 i
 +
@@ -3669,7 +3692,7 @@ offset
 =
 feature_records
 .
-len
+length
 ;
 active_features
 .
@@ -3689,7 +3712,7 @@ j
 <
 active_features
 .
-len
+length
 ;
 j
 +
@@ -3716,7 +3739,7 @@ feature_records
 [
 feature_records
 .
-len
+length
 -
 1
 ]
@@ -3753,7 +3776,7 @@ feature_records
 [
 feature_records
 .
-len
+length
 -
 1
 ]
@@ -3820,7 +3843,7 @@ cotfRecords
 =
 feature_records
 .
-len
+length
 -
 offset
 ;
@@ -3911,7 +3934,7 @@ if
 !
 range_records
 .
-len
+length
 )
 /
 *
@@ -3946,7 +3969,7 @@ i
 <
 range_records
 .
-len
+length
 ;
 i
 +
@@ -3970,6 +3993,10 @@ props
 .
 potfRecords
 =
+(
+OPENTYPE_FEATURE_RECORD
+*
+)
 feature_records
 +
 reinterpret_cast
@@ -4691,7 +4718,7 @@ failed
 :
 0x
 %
-08xL
+08lx
 "
 hr
 )
@@ -4911,7 +4938,7 @@ if
 !
 range_properties
 .
-len
+length
 |
 |
 &
@@ -4925,7 +4952,7 @@ range_properties
 [
 range_properties
 .
-len
+length
 -
 1
 ]
@@ -5003,7 +5030,7 @@ range_char_counts
 [
 range_char_counts
 .
-len
+length
 -
 1
 ]
@@ -5089,7 +5116,7 @@ arrayZ
 )
 range_properties
 .
-len
+length
 pchars
 +
 chars_offset
@@ -5274,7 +5301,7 @@ failed
 :
 0x
 %
-08xL
+08lx
 "
 hr
 )
@@ -5346,7 +5373,7 @@ arrayZ
 )
 range_properties
 .
-len
+length
 pchars
 +
 chars_offset
@@ -5398,7 +5425,7 @@ failed
 :
 0x
 %
-08xL
+08lx
 "
 hr
 )
@@ -5545,6 +5572,9 @@ vis_clusters
 i
 ]
 =
+(
+uint32_t
+)
 -
 1
 ;
@@ -5634,6 +5664,9 @@ i
 ]
 =
 =
+(
+uint32_t
+)
 -
 1
 )

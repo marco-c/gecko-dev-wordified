@@ -898,7 +898,7 @@ stages
 table_index
 ]
 .
-len
+length
 )
 ;
 unsigned
@@ -932,7 +932,7 @@ stages
 table_index
 ]
 .
-len
+length
 ?
 stages
 [
@@ -949,7 +949,7 @@ lookups
 table_index
 ]
 .
-len
+length
 ;
 *
 plookups
@@ -1077,14 +1077,12 @@ global_mask
 hb_vector_t
 <
 feature_map_t
-8
 >
 features
 ;
 hb_vector_t
 <
 lookup_map_t
-16
 >
 lookups
 [
@@ -1101,7 +1099,6 @@ GPOS
 hb_vector_t
 <
 stage_map_t
-4
 >
 stages
 [
@@ -1706,14 +1703,12 @@ GPOS
 hb_vector_t
 <
 feature_info_t
-32
 >
 feature_infos
 ;
 hb_vector_t
 <
 stage_info_t
-8
 >
 stages
 [

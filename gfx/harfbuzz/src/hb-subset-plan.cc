@@ -859,7 +859,7 @@ i
 <
 glyphs
 .
-len
+length
 ;
 i
 +

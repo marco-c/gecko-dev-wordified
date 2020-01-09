@@ -2498,7 +2498,6 @@ blob
 hb_vector_t
 <
 table_entry_t
-32
 >
 tables
 ;
@@ -2586,7 +2585,7 @@ data
 >
 tables
 .
-len
+length
 ;
 i
 +
@@ -2639,7 +2638,7 @@ data
 >
 tables
 .
-len
+length
 ;
 unsigned
 int
