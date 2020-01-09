@@ -504,6 +504,12 @@ endif
 /
 /
 __NR_socketcall
+/
+/
+clang
+-
+format
+off
 #
 define
 DISPATCH_SOCKETCALL
@@ -788,6 +794,12 @@ endif
 /
 /
 __NR_socketcall
+/
+/
+clang
+-
+format
+on
 default
 :
 return
