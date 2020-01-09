@@ -331,8 +331,6 @@ parentNode
 parentNode
 .
 parentNode
-.
-parentNode
 "
 Panel
 for

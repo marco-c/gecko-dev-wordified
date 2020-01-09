@@ -4619,7 +4619,7 @@ getAnonymousElementByAttribute
 (
 gBrowser
 .
-getNotificationBox
+getPanel
 (
 )
 "

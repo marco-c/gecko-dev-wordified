@@ -446,11 +446,11 @@ ownerDocument
 ;
 this
 .
-_nbox
+_browserContainer
 =
 gBrowser
 .
-getNotificationBox
+getBrowserContainer
 (
 this
 .
@@ -581,7 +581,7 @@ heightPref
 )
 this
 .
-_nbox
+_browserContainer
 .
 clientHeight
 -
@@ -590,7 +590,7 @@ MIN_PAGE_SIZE
 ;
 this
 .
-_nbox
+_browserContainer
 .
 appendChild
 (
@@ -601,7 +601,7 @@ _splitter
 ;
 this
 .
-_nbox
+_browserContainer
 .
 appendChild
 (
@@ -826,7 +826,7 @@ height
 ;
 this
 .
-_nbox
+_browserContainer
 .
 removeChild
 (
@@ -837,7 +837,7 @@ _splitter
 ;
 this
 .
-_nbox
+_browserContainer
 .
 removeChild
 (
@@ -854,7 +854,7 @@ null
 ;
 this
 .
-_nbox
+_browserContainer
 =
 null
 ;
@@ -990,7 +990,7 @@ ownerDocument
 ;
 this
 .
-_browser
+_browserContainer
 =
 gBrowser
 .
@@ -1005,11 +1005,11 @@ linkedBrowser
 ;
 this
 .
-_sidebar
+_browserPanel
 =
 gBrowser
 .
-getSidebarContainer
+getPanel
 (
 this
 .
@@ -1120,7 +1120,7 @@ widthPref
 )
 this
 .
-_sidebar
+_browserPanel
 .
 clientWidth
 -
@@ -1211,7 +1211,7 @@ left
 {
 this
 .
-_sidebar
+_browserPanel
 .
 appendChild
 (
@@ -1222,7 +1222,7 @@ _splitter
 ;
 this
 .
-_sidebar
+_browserPanel
 .
 appendChild
 (
@@ -1236,7 +1236,7 @@ else
 {
 this
 .
-_sidebar
+_browserPanel
 .
 insertBefore
 (
@@ -1245,12 +1245,12 @@ this
 frame
 this
 .
-_browser
+_browserContainer
 )
 ;
 this
 .
-_sidebar
+_browserPanel
 .
 insertBefore
 (
@@ -1259,7 +1259,7 @@ this
 _splitter
 this
 .
-_browser
+_browserContainer
 )
 ;
 }
@@ -1456,7 +1456,7 @@ width
 ;
 this
 .
-_sidebar
+_browserPanel
 .
 removeChild
 (
@@ -1467,7 +1467,7 @@ _splitter
 ;
 this
 .
-_sidebar
+_browserPanel
 .
 removeChild
 (
