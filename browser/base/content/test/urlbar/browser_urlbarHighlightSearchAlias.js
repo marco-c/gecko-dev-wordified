@@ -1366,7 +1366,7 @@ add_task
 (
 async
 function
-nonAtMarkAlias
+nonTokenAlias
 (
 )
 {
@@ -1374,7 +1374,7 @@ let
 alias
 =
 "
-notatmarkalias
+nontokenalias
 "
 ;
 let
@@ -1396,7 +1396,7 @@ engine
 alias
 =
 "
-notatmarkalias
+nontokenalias
 "
 ;
 Assert
