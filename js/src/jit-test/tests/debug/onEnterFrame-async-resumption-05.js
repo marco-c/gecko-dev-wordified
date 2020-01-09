@@ -14,7 +14,7 @@ onEnterFrame
 for
 an
 async
-function
+generator
 .
 /
 /
@@ -65,6 +65,7 @@ eval
 (
 async
 function
+*
 f
 (
 x

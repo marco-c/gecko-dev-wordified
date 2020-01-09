@@ -1691,7 +1691,7 @@ promise
 )
 ;
 class
-GeneratorObject
+AsyncFunctionGeneratorObject
 ;
 MOZ_MUST_USE
 bool
@@ -1734,7 +1734,7 @@ JSContext
 cx
 Handle
 <
-GeneratorObject
+AsyncFunctionGeneratorObject
 *
 >
 genObj

@@ -136,7 +136,7 @@ namespace
 js
 {
 class
-GeneratorObject
+AsyncFunctionGeneratorObject
 ;
 /
 /
@@ -463,7 +463,7 @@ PromiseObject
 resultPromise
 Handle
 <
-GeneratorObject
+AsyncFunctionGeneratorObject
 *
 >
 generator
@@ -486,7 +486,7 @@ PromiseObject
 resultPromise
 Handle
 <
-GeneratorObject
+AsyncFunctionGeneratorObject
 *
 >
 generator

@@ -1581,7 +1581,7 @@ Slot_Generator
 )
 ;
 }
-GeneratorObject
+AsyncGeneratorGeneratorObject
 *
 generatorObj
 (
@@ -1601,7 +1601,7 @@ toObject
 .
 as
 <
-GeneratorObject
+AsyncGeneratorGeneratorObject
 >
 (
 )
