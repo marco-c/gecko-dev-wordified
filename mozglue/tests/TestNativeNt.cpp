@@ -117,6 +117,8 @@ MPL
 #
 include
 "
+mozilla
+/
 NativeNt
 .
 h
