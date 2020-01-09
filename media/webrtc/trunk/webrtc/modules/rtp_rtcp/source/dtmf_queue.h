@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_RTP_RTCP_SOURCE_DTMF_QUEUE_H_
+MODULES_RTP_RTCP_SOURCE_DTMF_QUEUE_H_
 #
 define
-WEBRTC_MODULES_RTP_RTCP_SOURCE_DTMF_QUEUE_H_
+MODULES_RTP_RTCP_SOURCE_DTMF_QUEUE_H_
 #
 include
 <
@@ -99,9 +99,7 @@ list
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 criticalsection
 .
@@ -200,4 +198,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_RTP_RTCP_SOURCE_DTMF_QUEUE_H_
+MODULES_RTP_RTCP_SOURCE_DTMF_QUEUE_H_

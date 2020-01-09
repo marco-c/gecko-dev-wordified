@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_AUDIO_PROCESSING_RESIDUAL_ECHO_DETECTOR_H_
+MODULES_AUDIO_PROCESSING_RESIDUAL_ECHO_DETECTOR_H_
 #
 define
-WEBRTC_MODULES_AUDIO_PROCESSING_RESIDUAL_ECHO_DETECTOR_H_
+MODULES_AUDIO_PROCESSING_RESIDUAL_ECHO_DETECTOR_H_
 #
 include
 <
@@ -99,9 +99,7 @@ vector
 #
 include
 "
-webrtc
-/
-base
+api
 /
 array_view
 .
@@ -110,8 +108,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -125,8 +121,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -140,8 +134,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -155,8 +147,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -170,6 +160,9 @@ h
 namespace
 webrtc
 {
+class
+ApmDataDumper
+;
 class
 AudioBuffer
 ;
@@ -341,6 +334,19 @@ max
 }
 private
 :
+static
+int
+instance_count_
+;
+std
+:
+:
+unique_ptr
+<
+ApmDataDumper
+>
+data_dumper_
+;
 /
 /
 Keep
@@ -596,6 +602,11 @@ f
 MovingMax
 recent_likelihood_max_
 ;
+int
+log_counter_
+=
+0
+;
 }
 ;
 }
@@ -607,4 +618,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_AUDIO_PROCESSING_RESIDUAL_ECHO_DETECTOR_H_
+MODULES_AUDIO_PROCESSING_RESIDUAL_ECHO_DETECTOR_H_

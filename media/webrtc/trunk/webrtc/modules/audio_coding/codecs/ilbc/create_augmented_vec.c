@@ -247,9 +247,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 sanitizer
 .
@@ -258,8 +256,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing

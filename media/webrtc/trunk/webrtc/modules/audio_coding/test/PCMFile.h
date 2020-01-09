@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_TEST_PCMFILE_H_
+MODULES_AUDIO_CODING_TEST_PCMFILE_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_TEST_PCMFILE_H_
+MODULES_AUDIO_CODING_TEST_PCMFILE_H_
 #
 include
 <
@@ -113,9 +113,7 @@ string
 #
 include
 "
-webrtc
-/
-base
+api
 /
 optional
 .
@@ -124,8 +122,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 include
@@ -137,12 +133,18 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
 "
+/
+/
+NOLINT
+(
+build
+/
+include
+)
 namespace
 webrtc
 {
@@ -199,6 +201,7 @@ audio_frame
 void
 Write10MsData
 (
+const
 int16_t
 *
 playout_buffer
@@ -209,6 +212,7 @@ length_smpls
 void
 Write10MsData
 (
+const
 AudioFrame
 &
 audio_frame
@@ -434,4 +438,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_AUDIO_CODING_TEST_PCMFILE_H_
+MODULES_AUDIO_CODING_TEST_PCMFILE_H_

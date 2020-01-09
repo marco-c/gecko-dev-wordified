@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -103,8 +101,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -118,8 +114,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -129,12 +123,18 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
 "
+/
+/
+NOLINT
+(
+build
+/
+include
+)
 namespace
 webrtc
 {
@@ -346,7 +346,7 @@ EXPECT_TRUE
 fft
 =
 =
-NULL
+nullptr
 )
 ;
 fft
@@ -362,7 +362,7 @@ EXPECT_TRUE
 fft
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -501,7 +501,6 @@ imaginary
 parts
 .
 }
-;
 /
 /
 Create
@@ -525,7 +524,7 @@ EXPECT_TRUE
 fft
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ

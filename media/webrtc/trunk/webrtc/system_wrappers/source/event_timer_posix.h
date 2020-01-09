@@ -87,15 +87,13 @@ tree
 /
 #
 ifndef
-WEBRTC_SYSTEM_WRAPPERS_SOURCE_EVENT_POSIX_H_
+SYSTEM_WRAPPERS_SOURCE_EVENT_POSIX_H_
 #
 define
-WEBRTC_SYSTEM_WRAPPERS_SOURCE_EVENT_POSIX_H_
+SYSTEM_WRAPPERS_SOURCE_EVENT_POSIX_H_
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -126,9 +124,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 platform_thread
 .
@@ -310,4 +306,4 @@ webrtc
 endif
 /
 /
-WEBRTC_SYSTEM_WRAPPERS_SOURCE_EVENT_POSIX_H_
+SYSTEM_WRAPPERS_SOURCE_EVENT_POSIX_H_

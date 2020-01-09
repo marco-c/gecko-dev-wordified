@@ -102,9 +102,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -113,8 +111,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing

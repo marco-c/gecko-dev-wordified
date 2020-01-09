@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_TEST_TESTSUPPORT_FRAME_READER_H_
+TEST_TESTSUPPORT_FRAME_READER_H_
 #
 define
-WEBRTC_TEST_TESTSUPPORT_FRAME_READER_H_
+TEST_TESTSUPPORT_FRAME_READER_H_
 #
 include
 <
@@ -106,9 +106,7 @@ string
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 scoped_ref_ptr
 .
@@ -117,12 +115,18 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
 "
+/
+/
+NOLINT
+(
+build
+/
+include
+)
 namespace
 webrtc
 {
@@ -330,7 +334,7 @@ NumberOfFrames
 }
 ;
 class
-FrameReaderImpl
+YuvFrameReaderImpl
 :
 public
 FrameReader
@@ -379,7 +383,7 @@ frame
 to
 read
 .
-FrameReaderImpl
+YuvFrameReaderImpl
 (
 std
 :
@@ -393,7 +397,7 @@ height
 )
 ;
 ~
-FrameReaderImpl
+YuvFrameReaderImpl
 (
 )
 override
@@ -436,6 +440,7 @@ override
 ;
 private
 :
+const
 std
 :
 :
@@ -445,9 +450,11 @@ input_filename_
 size_t
 frame_length_in_bytes_
 ;
+const
 int
 width_
 ;
+const
 int
 height_
 ;
@@ -474,4 +481,4 @@ webrtc
 endif
 /
 /
-WEBRTC_TEST_TESTSUPPORT_FRAME_READER_H_
+TEST_TESTSUPPORT_FRAME_READER_H_

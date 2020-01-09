@@ -168,7 +168,9 @@ dispose
 (
 )
 {
-free
+JniCommon
+.
+nativeReleaseRef
 (
 nativeSource
 )
@@ -182,16 +184,6 @@ nativeState
 (
 long
 pointer
-)
-;
-private
-static
-native
-void
-free
-(
-long
-nativeSource
 )
 ;
 }

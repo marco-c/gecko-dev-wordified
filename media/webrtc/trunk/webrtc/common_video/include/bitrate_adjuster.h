@@ -84,10 +84,10 @@ tree
 /
 #
 ifndef
-WEBRTC_COMMON_VIDEO_INCLUDE_BITRATE_ADJUSTER_H_
+COMMON_VIDEO_INCLUDE_BITRATE_ADJUSTER_H_
 #
 define
-WEBRTC_COMMON_VIDEO_INCLUDE_BITRATE_ADJUSTER_H_
+COMMON_VIDEO_INCLUDE_BITRATE_ADJUSTER_H_
 #
 include
 <
@@ -96,9 +96,7 @@ functional
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 criticalsection
 .
@@ -107,9 +105,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 rate_statistics
 .
@@ -392,7 +388,7 @@ GetMinAdjustedBitrateBps
 (
 )
 const
-EXCLUSIVE_LOCKS_REQUIRED
+RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
 crit_
 )
@@ -410,7 +406,7 @@ GetMaxAdjustedBitrateBps
 (
 )
 const
-EXCLUSIVE_LOCKS_REQUIRED
+RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
 crit_
 )
@@ -426,7 +422,7 @@ UpdateBitrate
 uint32_t
 current_time_ms
 )
-EXCLUSIVE_LOCKS_REQUIRED
+RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
 crit_
 )
@@ -460,7 +456,7 @@ want
 volatile
 uint32_t
 target_bitrate_bps_
-GUARDED_BY
+RTC_GUARDED_BY
 (
 crit_
 )
@@ -480,7 +476,7 @@ want
 volatile
 uint32_t
 adjusted_bitrate_bps_
-GUARDED_BY
+RTC_GUARDED_BY
 (
 crit_
 )
@@ -501,7 +497,7 @@ from
 volatile
 uint32_t
 last_adjusted_target_bitrate_bps_
-GUARDED_BY
+RTC_GUARDED_BY
 (
 crit_
 )
@@ -515,7 +511,7 @@ bitrate
 .
 RateStatistics
 bitrate_tracker_
-GUARDED_BY
+RTC_GUARDED_BY
 (
 crit_
 )
@@ -534,7 +530,7 @@ bitrate
 .
 uint32_t
 last_bitrate_update_time_ms_
-GUARDED_BY
+RTC_GUARDED_BY
 (
 crit_
 )
@@ -558,7 +554,7 @@ bitrate
 .
 uint32_t
 frames_since_last_update_
-GUARDED_BY
+RTC_GUARDED_BY
 (
 crit_
 )
@@ -574,4 +570,4 @@ webrtc
 endif
 /
 /
-WEBRTC_COMMON_VIDEO_INCLUDE_BITRATE_ADJUSTER_H_
+COMMON_VIDEO_INCLUDE_BITRATE_ADJUSTER_H_

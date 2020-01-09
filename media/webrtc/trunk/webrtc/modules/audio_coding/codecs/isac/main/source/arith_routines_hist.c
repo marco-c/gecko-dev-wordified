@@ -141,6 +141,7 @@ vector
 const
 uint16_t
 *
+const
 *
 cdf
 /
@@ -589,6 +590,7 @@ bitstream
 const
 uint16_t
 *
+const
 *
 cdf
 /
@@ -1271,6 +1273,7 @@ bitstream
 const
 uint16_t
 *
+const
 *
 cdf
 /

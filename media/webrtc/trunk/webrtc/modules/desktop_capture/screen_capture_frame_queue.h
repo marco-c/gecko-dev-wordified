@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURE_FRAME_QUEUE_H_
+MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURE_FRAME_QUEUE_H_
 #
 define
-WEBRTC_MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURE_FRAME_QUEUE_H_
+MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURE_FRAME_QUEUE_H_
 #
 include
 <
@@ -99,9 +99,7 @@ memory
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -146,8 +144,6 @@ files
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -162,8 +158,6 @@ Remove
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -632,4 +626,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURE_FRAME_QUEUE_H_
+MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURE_FRAME_QUEUE_H_

@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 video
 /
 quality_threshold
@@ -99,9 +97,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -110,9 +106,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 logging
 .

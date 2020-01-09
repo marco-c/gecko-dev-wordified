@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_API_CALL_AUDIO_SINK_H_
+API_CALL_AUDIO_SINK_H_
 #
 define
-WEBRTC_API_CALL_AUDIO_SINK_H_
+API_CALL_AUDIO_SINK_H_
 #
 if
 defined
@@ -161,6 +161,7 @@ Data
 {
 Data
 (
+const
 int16_t
 *
 data
@@ -196,6 +197,7 @@ timestamp
 )
 {
 }
+const
 int16_t
 *
 data
@@ -281,4 +283,4 @@ webrtc
 endif
 /
 /
-WEBRTC_API_CALL_AUDIO_SINK_H_
+API_CALL_AUDIO_SINK_H_

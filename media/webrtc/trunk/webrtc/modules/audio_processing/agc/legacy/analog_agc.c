@@ -139,8 +139,6 @@ gain
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -175,9 +173,7 @@ endif
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

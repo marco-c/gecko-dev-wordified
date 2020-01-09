@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 test
 /
 video_renderer
@@ -99,8 +97,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 linux

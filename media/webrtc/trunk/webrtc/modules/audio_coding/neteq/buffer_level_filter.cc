@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -335,9 +333,13 @@ filtered_current_level_
 -
 (
 time_stretched_samples
+*
+(
+1
 <
 <
 8
+)
 )
 /
 static_cast

@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_COMMON_AUDIO_AUDIO_CONVERTER_H_
+COMMON_AUDIO_AUDIO_CONVERTER_H_
 #
 define
-WEBRTC_COMMON_AUDIO_AUDIO_CONVERTER_H_
+COMMON_AUDIO_AUDIO_CONVERTER_H_
 #
 include
 <
@@ -99,9 +99,7 @@ memory
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -253,7 +251,6 @@ AudioConverter
 )
 {
 }
-;
 /
 /
 Convert
@@ -447,4 +444,4 @@ webrtc
 endif
 /
 /
-WEBRTC_COMMON_AUDIO_AUDIO_CONVERTER_H_
+COMMON_AUDIO_AUDIO_CONVERTER_H_

@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 video
 /
 send_delay_stats
@@ -104,9 +102,7 @@ utility
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 logging
 .
@@ -115,8 +111,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -245,7 +239,7 @@ num_skipped_packets_
 0
 )
 {
-LOG
+RTC_LOG
 (
 LS_WARNING
 )
@@ -358,7 +352,7 @@ stats
 average
 )
 ;
-LOG
+RTC_LOG
 (
 LS_INFO
 )

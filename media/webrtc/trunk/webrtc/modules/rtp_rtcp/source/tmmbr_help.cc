@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -113,9 +111,7 @@ limits
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

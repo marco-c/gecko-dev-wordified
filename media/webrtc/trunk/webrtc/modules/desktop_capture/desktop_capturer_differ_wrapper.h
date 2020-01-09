@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_DIFFER_WRAPPER_H_
+MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_DIFFER_WRAPPER_H_
 #
 define
-WEBRTC_MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_DIFFER_WRAPPER_H_
+MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_DIFFER_WRAPPER_H_
 #
 include
 <
@@ -99,8 +99,6 @@ memory
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -112,8 +110,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -274,12 +270,6 @@ callback
 override
 ;
 void
-Stop
-(
-)
-override
-;
-void
 SetSharedMemoryFactory
 (
 std
@@ -327,6 +317,16 @@ override
 bool
 FocusOnSelectedSource
 (
+)
+override
+;
+bool
+IsOccluded
+(
+const
+DesktopVector
+&
+pos
 )
 override
 ;
@@ -393,4 +393,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_DIFFER_WRAPPER_H_
+MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_DIFFER_WRAPPER_H_

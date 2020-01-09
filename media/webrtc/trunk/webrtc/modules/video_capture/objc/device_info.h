@@ -87,15 +87,13 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_VIDEO_CAPTURE_OBJC_DEVICE_INFO_H_
+MODULES_VIDEO_CAPTURE_OBJC_DEVICE_INFO_H_
 #
 define
-WEBRTC_MODULES_VIDEO_CAPTURE_OBJC_DEVICE_INFO_H_
+MODULES_VIDEO_CAPTURE_OBJC_DEVICE_INFO_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 video_capture
@@ -178,11 +176,6 @@ productUniqueIdUTF8
 0
 uint32_t
 productUniqueIdUTF8Length
-=
-0
-pid_t
-*
-pid
 =
 0
 )
@@ -289,4 +282,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_VIDEO_CAPTURE_OBJC_DEVICE_INFO_H_
+MODULES_VIDEO_CAPTURE_OBJC_DEVICE_INFO_H_

@@ -88,16 +88,14 @@ tree
 /
 #
 ifndef
-WEBRTC_MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_RRTR_H_
+MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_RRTR_H_
 #
 define
-WEBRTC_MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_RRTR_H_
+MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_RRTR_H_
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 basictypes
 .
@@ -106,8 +104,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -267,4 +263,4 @@ webrtc
 endif
 /
 /
-WEBRTC_MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_RRTR_H_
+MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_RRTR_H_

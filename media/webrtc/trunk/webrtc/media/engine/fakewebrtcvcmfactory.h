@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_MEDIA_ENGINE_FAKEWEBRTCVCMFACTORY_H_
+MEDIA_ENGINE_FAKEWEBRTCVCMFACTORY_H_
 #
 define
-WEBRTC_MEDIA_ENGINE_FAKEWEBRTCVCMFACTORY_H_
+MEDIA_ENGINE_FAKEWEBRTCVCMFACTORY_H_
 #
 include
 <
@@ -99,8 +99,6 @@ vector
 #
 include
 "
-webrtc
-/
 media
 /
 engine
@@ -112,8 +110,6 @@ h
 #
 include
 "
-webrtc
-/
 media
 /
 engine
@@ -125,8 +121,6 @@ h
 #
 include
 "
-webrtc
-/
 media
 /
 engine
@@ -337,4 +331,4 @@ this
 endif
 /
 /
-WEBRTC_MEDIA_ENGINE_FAKEWEBRTCVCMFACTORY_H_
+MEDIA_ENGINE_FAKEWEBRTCVCMFACTORY_H_

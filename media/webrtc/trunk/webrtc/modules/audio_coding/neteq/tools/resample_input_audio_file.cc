@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -110,9 +108,7 @@ memory
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

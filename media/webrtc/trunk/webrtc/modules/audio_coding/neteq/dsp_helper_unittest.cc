@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -103,8 +101,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -118,8 +114,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -129,12 +123,18 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
 "
+/
+/
+NOLINT
+(
+build
+/
+include
+)
 namespace
 webrtc
 {

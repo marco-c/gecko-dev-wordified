@@ -87,15 +87,13 @@ tree
 /
 #
 ifndef
-WEBRTC_COMMON_AUDIO_VAD_MOCK_MOCK_VAD_H_
+COMMON_AUDIO_VAD_MOCK_MOCK_VAD_H_
 #
 define
-WEBRTC_COMMON_AUDIO_VAD_MOCK_MOCK_VAD_H_
+COMMON_AUDIO_VAD_MOCK_MOCK_VAD_H_
 #
 include
 "
-webrtc
-/
 common_audio
 /
 vad
@@ -109,8 +107,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock
@@ -183,4 +179,4 @@ webrtc
 endif
 /
 /
-WEBRTC_COMMON_AUDIO_VAD_MOCK_MOCK_VAD_H_
+COMMON_AUDIO_VAD_MOCK_MOCK_VAD_H_

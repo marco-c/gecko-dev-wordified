@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBRTC_TEST_FRAME_UTILS_H_
+TEST_FRAME_UTILS_H_
 #
 define
-WEBRTC_TEST_FRAME_UTILS_H_
+TEST_FRAME_UTILS_H_
 #
 include
 <
@@ -101,9 +101,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 scoped_ref_ptr
 .
@@ -259,4 +257,4 @@ webrtc
 endif
 /
 /
-WEBRTC_TEST_FRAME_UTILS_H_
+TEST_FRAME_UTILS_H_

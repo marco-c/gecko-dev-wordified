@@ -98,8 +98,6 @@ memory
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -113,8 +111,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -124,8 +120,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 rtp_file_reader
@@ -135,8 +129,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport

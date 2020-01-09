@@ -95,8 +95,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 vad
@@ -108,8 +106,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -119,12 +115,18 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
 "
+/
+/
+NOLINT
+(
+build
+/
+include
+)
 extern
 "
 C
@@ -133,8 +135,6 @@ C
 #
 include
 "
-webrtc
-/
 common_audio
 /
 vad
@@ -146,8 +146,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 vad
@@ -158,6 +156,10 @@ h
 "
 }
 namespace
+webrtc
+{
+namespace
+test
 {
 const
 int
@@ -688,3 +690,9 @@ self
 /
 /
 namespace
+test
+}
+/
+/
+namespace
+webrtc

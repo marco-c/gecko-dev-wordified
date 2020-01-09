@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -112,8 +110,6 @@ max
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing

@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -140,19 +138,6 @@ T
 #
 include
 "
-webrtc
-/
-base
-/
-safe_conversions
-.
-h
-"
-#
-include
-"
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -166,8 +151,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -181,8 +164,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -196,8 +177,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -211,8 +190,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -226,8 +203,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -241,8 +216,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -250,6 +223,17 @@ audio_coding
 neteq
 /
 sync_buffer
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+numerics
+/
+safe_conversions
 .
 h
 "
@@ -1764,7 +1748,7 @@ WebRtcSpl_NormW32
 rtc
 :
 :
-checked_cast
+dchecked_cast
 <
 int32_t
 >
@@ -2454,7 +2438,7 @@ expand_duration_samples_
 rtc
 :
 :
-checked_cast
+dchecked_cast
 <
 size_t
 >
@@ -2506,7 +2490,7 @@ LogDelayedPacketOutageEvent
 rtc
 :
 :
-checked_cast
+dchecked_cast
 <
 int
 >
