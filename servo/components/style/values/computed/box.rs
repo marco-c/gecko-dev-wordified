@@ -182,6 +182,7 @@ box_
 AnimationName
 Appearance
 BreakBetween
+BreakWithin
 }
 ;
 pub

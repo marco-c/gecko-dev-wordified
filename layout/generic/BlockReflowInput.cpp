@@ -7716,7 +7716,10 @@ wm
 )
 &
 &
-NS_STYLE_PAGE_BREAK_AVOID
+StyleBreakWithin
+:
+:
+Avoid
 =
 =
 aFloat

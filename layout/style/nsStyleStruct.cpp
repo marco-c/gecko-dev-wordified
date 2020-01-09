@@ -18970,7 +18970,10 @@ None
 )
 mBreakInside
 (
-NS_STYLE_PAGE_BREAK_AUTO
+StyleBreakWithin
+:
+:
+Auto
 )
 mPageBreakBefore
 (
