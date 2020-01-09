@@ -534,7 +534,7 @@ disabled
 )
 ;
 await
-waitForAdbStop
+stopAdbProcess
 (
 )
 ;

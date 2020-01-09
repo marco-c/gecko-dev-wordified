@@ -616,7 +616,7 @@ again
 )
 ;
 await
-waitForAdbStop
+stopAdbProcess
 (
 )
 ;
