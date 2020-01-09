@@ -2263,6 +2263,15 @@ storage
 )
 ;
 }
+ExtensionPermissions
+.
+removeAll
+(
+addon
+.
+id
+)
+;
 if
 (
 !
@@ -4806,6 +4815,8 @@ ExtensionPermissions
 get
 (
 this
+.
+id
 )
 ;
 for
@@ -10187,6 +10198,8 @@ tabManager
 static
 getBootstrapScope
 (
+id
+file
 )
 {
 return
@@ -14125,6 +14138,8 @@ startupData
 static
 getBootstrapScope
 (
+id
+file
 )
 {
 return
@@ -14296,6 +14311,8 @@ version
 static
 getBootstrapScope
 (
+id
+file
 )
 {
 return
