@@ -757,13 +757,6 @@ h
 #
 include
 "
-xpcjsid
-.
-h
-"
-#
-include
-"
 nsITimedChannel
 .
 h

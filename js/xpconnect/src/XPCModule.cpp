@@ -157,8 +157,4 @@ ReleaseXPConnectSingleton
 (
 )
 ;
-xpc_DestroyJSxIDClassObjects
-(
-)
-;
 }
