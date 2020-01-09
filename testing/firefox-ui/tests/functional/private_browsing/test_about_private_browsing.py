@@ -306,6 +306,7 @@ showNormal
 '
 )
             
+#
 self
 .
 assertEqual
@@ -313,7 +314,8 @@ assertEqual
 status_node
 .
 text
-                             
+            
+#
 self
 .
 browser
@@ -326,7 +328,8 @@ aboutPrivateBrowsing
 notPrivate
 '
 )
-                             
+            
+#
 '
 Status
 text
@@ -739,6 +742,7 @@ showNormal
 '
 )
             
+#
 self
 .
 assertEqual
@@ -746,7 +750,8 @@ assertEqual
 status_node
 .
 text
-                             
+            
+#
 self
 .
 browser
@@ -759,7 +764,8 @@ aboutPrivateBrowsing
 notPrivate
 '
 )
-                             
+            
+#
 '
 Status
 text
