@@ -138,7 +138,7 @@ target
 hasActor
 (
 "
-storage
+webaudio
 "
 )
 true
@@ -200,7 +200,7 @@ target
 getFront
 (
 "
-storage
+webaudio
 "
 )
 ;
@@ -213,7 +213,7 @@ target
 getActorDescription
 (
 "
-storage
+webaudio
 "
 )
 ;
@@ -223,7 +223,7 @@ desc
 .
 typeName
 "
-storage
+webaudio
 "
 "
 target
@@ -247,15 +247,15 @@ desc
 events
 [
 "
-stores
+start
 -
-update
+context
 "
 ]
 .
 type
 "
-storesUpdate
+startContext
 "
 "
 target
@@ -340,10 +340,10 @@ target
 actorHasMethod
 (
 "
-storage
+audionode
 "
 "
-listStores
+getType
 "
 )
 ;
@@ -375,7 +375,7 @@ target
 actorHasMethod
 (
 "
-localStorage
+audionode
 "
 "
 nope
