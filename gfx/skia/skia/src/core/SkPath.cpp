@@ -5333,7 +5333,7 @@ SkPath
 :
 incReserve
 (
-U16CPU
+int
 inc
 )
 {
@@ -5347,6 +5347,13 @@ validate
 )
 ;
 )
+if
+(
+inc
+>
+0
+)
+{
 SkPathRef
 :
 :
@@ -5358,6 +5365,7 @@ inc
 inc
 )
 ;
+}
 SkDEBUGCODE
 (
 this

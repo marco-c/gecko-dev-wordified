@@ -3879,7 +3879,7 @@ allocate
 void
 incReserve
 (
-unsigned
+int
 extraPtCount
 )
 ;
