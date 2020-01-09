@@ -4107,11 +4107,6 @@ SetScaleToResolution
 (
 attrs
 .
-scaleToResolution
-(
-)
-attrs
-.
 presShellResolution
 (
 )

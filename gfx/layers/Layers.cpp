@@ -5359,10 +5359,6 @@ mPresShellResolution
 .
 0f
 )
-mScaleToResolution
-(
-false
-)
 mUseIntermediateSurface
 (
 false
@@ -6440,7 +6436,6 @@ mPreYScale
 mInheritedXScale
 mInheritedYScale
 mPresShellResolution
-mScaleToResolution
 )
 ;
 }
@@ -13703,11 +13698,6 @@ get
 )
 ;
 }
-if
-(
-mScaleToResolution
-)
-{
 aStream
 <
 <
@@ -13728,7 +13718,6 @@ get
 (
 )
 ;
-}
 }
 void
 ContainerLayer
