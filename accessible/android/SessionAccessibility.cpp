@@ -2261,11 +2261,6 @@ data
 DOMNodeID
 (
 )
-data
-.
-Description
-(
-)
 )
 ;
 infos
@@ -2466,11 +2461,6 @@ TextValue
 data
 .
 DOMNodeID
-(
-)
-data
-.
-Description
 (
 )
 data
@@ -2695,11 +2685,6 @@ TextValue
 data
 .
 DOMNodeID
-(
-)
-data
-.
-Description
 (
 )
 )
