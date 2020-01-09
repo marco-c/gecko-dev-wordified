@@ -353,6 +353,11 @@ aError
 )
 ;
 void
+AbortOngoingTransaction
+(
+)
+;
+void
 ClearTransaction
 (
 )
