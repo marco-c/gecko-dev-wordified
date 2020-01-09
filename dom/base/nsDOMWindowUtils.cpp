@@ -20130,9 +20130,9 @@ nsDOMWindowUtils
 :
 XpconnectArgument
 (
-nsIDOMWindowUtils
+nsISupports
 *
-aThis
+aObj
 )
 {
 /
