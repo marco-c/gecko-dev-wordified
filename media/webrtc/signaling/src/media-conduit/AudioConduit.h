@@ -1178,8 +1178,7 @@ DeleteStreams
 (
 )
 override
-{
-}
+;
 WebrtcAudioConduit
 (
 RefPtr
