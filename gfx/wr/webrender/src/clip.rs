@@ -2262,6 +2262,17 @@ u32
 MAX
 )
 ;
+pub
+const
+INVALID
+:
+Self
+=
+ClipChainId
+(
+0xDEADBEEF
+)
+;
 }
 /
 /

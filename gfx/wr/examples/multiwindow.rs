@@ -1160,6 +1160,19 @@ layout_size
 )
 ;
 let
+space_and_clip
+=
+SpaceAndClipInfo
+:
+:
+root_scroll
+(
+self
+.
+pipeline_id
+)
+;
+let
 bounds
 =
 LayoutRect
@@ -1197,6 +1210,9 @@ push_stacking_context
 (
 &
 info
+space_and_clip
+.
+spatial_id
 None
 TransformStyle
 :
@@ -1261,6 +1277,8 @@ push_rect
 (
 &
 info
+&
+space_and_clip
 ColorF
 :
 :
@@ -1580,6 +1598,8 @@ push_text
 (
 &
 info
+&
+space_and_clip
 &
 glyphs
 self
