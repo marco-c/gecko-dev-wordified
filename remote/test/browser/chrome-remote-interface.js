@@ -227587,17 +227587,6 @@ parseUrl
 url
 )
 ;
-/
-/
-!
-!
-!
-WORKAROUND
-for
-misbehaving
-server
-/
-/
 options
 .
 host
@@ -227606,8 +227595,6 @@ urlObject
 .
 hostname
 ;
-/
-/
 options
 .
 port
