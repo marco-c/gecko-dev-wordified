@@ -309,6 +309,17 @@ SendStopVRService
 (
 )
 ;
+if
+(
+!
+vrGPUChild
+-
+>
+IsClosed
+(
+)
+)
+{
 vrGPUChild
 -
 >
@@ -316,6 +327,7 @@ Close
 (
 )
 ;
+}
 VRGPUChild
 :
 :

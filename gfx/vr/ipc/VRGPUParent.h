@@ -182,6 +182,11 @@ aWhy
 )
 override
 ;
+bool
+IsClosed
+(
+)
+;
 protected
 :
 void
@@ -262,6 +267,9 @@ mVRService
 ;
 #
 endif
+bool
+mClosed
+;
 DISALLOW_COPY_AND_ASSIGN
 (
 VRGPUParent
