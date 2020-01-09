@@ -15559,6 +15559,7 @@ inline
 bool
 IsFixedPosContainingBlockForNonSVGTextFrames
 (
+const
 mozilla
 :
 :
