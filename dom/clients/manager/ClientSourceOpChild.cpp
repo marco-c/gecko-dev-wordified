@@ -408,7 +408,7 @@ ActorDestroy
 )
 which
 ensures
-nethier
+neither
 lambda
 is
 called
