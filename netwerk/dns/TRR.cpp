@@ -6099,7 +6099,7 @@ instance
 to
 pass
 on
-RefPtr
+nsAutoPtr
 <
 AddrInfo
 >
@@ -6260,6 +6260,10 @@ CompleteLookup
 mRec
 NS_OK
 ai
+.
+forget
+(
+)
 mPB
 mOriginSuffix
 )
@@ -6363,10 +6367,8 @@ this
 comes
 from
 TRR
-RefPtr
-<
 AddrInfo
->
+*
 ai
 =
 new

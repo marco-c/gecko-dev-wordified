@@ -1182,8 +1182,6 @@ addr_info
 |
 *
 /
-RefPtr
-<
 mozilla
 :
 :
@@ -1191,7 +1189,7 @@ net
 :
 :
 AddrInfo
->
+*
 addr_info
 ;
 mozilla
@@ -1398,7 +1396,7 @@ mozilla
 TimeDuration
 mNativeDuration
 ;
-RefPtr
+nsAutoPtr
 <
 mozilla
 :

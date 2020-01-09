@@ -4042,7 +4042,7 @@ MOZ_ASSERT
 rec
 )
 ;
-RefPtr
+nsAutoPtr
 <
 AddrInfo
 >

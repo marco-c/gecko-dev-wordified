@@ -158,13 +158,6 @@ h
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 mozilla
 /
 LinkedList
@@ -1177,10 +1170,6 @@ mAddress
 class
 AddrInfo
 {
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-AddrInfo
-)
 public
 :
 /
@@ -1276,6 +1265,11 @@ int
 TRRType
 )
 ;
+~
+AddrInfo
+(
+)
+;
 explicit
 AddrInfo
 (
@@ -1327,7 +1321,7 @@ uint32_t
 -
 1
 ;
-AutoCleanLinkedList
+LinkedList
 <
 NetAddrElement
 >
@@ -1345,11 +1339,6 @@ mFromTRR
 }
 private
 :
-~
-AddrInfo
-(
-)
-;
 unsigned
 int
 mFromTRR
