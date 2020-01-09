@@ -585,6 +585,9 @@ gecko
 ]
 {
 use
+crate
+:
+:
 properties
 :
 :

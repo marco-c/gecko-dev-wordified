@@ -231,6 +231,7 @@ bool
 {
 unsafe
 {
+crate
 :
 :
 gecko_bindings
@@ -326,6 +327,7 @@ debug_assert
 (
 unsafe
 {
+crate
 :
 :
 gecko_bindings
@@ -347,6 +349,7 @@ unsafe
 {
 &
 mut
+crate
 :
 :
 gecko_bindings

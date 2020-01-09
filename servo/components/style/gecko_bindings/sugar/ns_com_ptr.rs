@@ -65,6 +65,9 @@ for
 nsCOMPtr
 .
 use
+crate
+:
+:
 gecko_bindings
 :
 :

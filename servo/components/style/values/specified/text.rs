@@ -4906,6 +4906,9 @@ u32
 Self
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -5197,6 +5200,9 @@ TextEmphasisPosition
 u8
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :

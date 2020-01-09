@@ -95,7 +95,7 @@ cfg
 feature
 =
 "
-servo
+gecko
 "
 )
 ]
@@ -104,7 +104,7 @@ use
 crate
 :
 :
-servo
+gecko
 :
 :
 url
@@ -122,13 +122,16 @@ cfg
 feature
 =
 "
-gecko
+servo
 "
 )
 ]
 pub
 use
-gecko
+crate
+:
+:
+servo
 :
 :
 url

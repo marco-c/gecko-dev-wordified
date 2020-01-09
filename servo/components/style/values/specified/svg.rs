@@ -296,6 +296,9 @@ is
 blocked
 .
 use
+crate
+:
+:
 gecko_bindings
 :
 :

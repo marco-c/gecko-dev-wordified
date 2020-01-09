@@ -290,6 +290,7 @@ stylesheet
 .
 Sheet
 (
+crate
 :
 :
 gecko
@@ -363,6 +364,7 @@ new
 (
 sheet
 :
+crate
 :
 :
 gecko
@@ -459,6 +461,7 @@ self
 Option
 <
 &
+crate
 :
 :
 gecko
@@ -540,6 +543,9 @@ DeepCloneParams
 Self
 {
 use
+crate
+:
+:
 gecko
 :
 :
@@ -549,6 +555,9 @@ data
 GeckoStyleSheet
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :

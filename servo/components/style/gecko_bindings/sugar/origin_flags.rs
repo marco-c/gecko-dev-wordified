@@ -67,6 +67,9 @@ OriginFlags
 bits
 .
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -76,6 +79,9 @@ structs
 OriginFlags
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -85,6 +91,9 @@ structs
 OriginFlags_Author
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -94,6 +103,9 @@ structs
 OriginFlags_User
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -103,6 +115,9 @@ structs
 OriginFlags_UserAgent
 ;
 use
+crate
+:
+:
 stylesheets
 :
 :
@@ -130,6 +145,9 @@ assert_flags_match
 )
 {
 use
+crate
+:
+:
 stylesheets
 :
 :
