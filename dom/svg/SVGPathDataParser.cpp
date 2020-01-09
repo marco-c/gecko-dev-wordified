@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsSVGPathDataParser
+SVGPathDataParser
 .
 h
 "
@@ -135,7 +135,7 @@ h
 #
 include
 "
-nsSVGDataParser
+SVGDataParser
 .
 h
 "
@@ -163,10 +163,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -181,6 +177,9 @@ mozilla
 :
 gfx
 ;
+namespace
+mozilla
+{
 static
 inline
 char16_t
@@ -220,7 +219,7 @@ aCh
 ;
 }
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 Parse
@@ -313,7 +312,7 @@ ParsePath
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseCoordPair
@@ -355,7 +354,7 @@ aY
 ;
 }
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseFlag
@@ -490,7 +489,7 @@ true
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParsePath
@@ -594,7 +593,7 @@ true
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseSubPath
@@ -613,7 +612,7 @@ ParseSubPathElements
 ;
 }
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseSubPathElements
@@ -700,7 +699,7 @@ true
 ;
 }
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseSubPathElement
@@ -820,7 +819,7 @@ false
 ;
 }
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 IsStartOfSubPath
@@ -920,7 +919,7 @@ M
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseMoveto
@@ -1152,7 +1151,7 @@ absCoords
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseClosePath
@@ -1245,7 +1244,7 @@ PATHSEG_CLOSEPATH
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseLineto
@@ -1410,7 +1409,7 @@ SkipCommaWsp
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseHorizontalLineto
@@ -1577,7 +1576,7 @@ SkipCommaWsp
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseVerticalLineto
@@ -1744,7 +1743,7 @@ SkipCommaWsp
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseCurveto
@@ -1943,7 +1942,7 @@ SkipCommaWsp
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseSmoothCurveto
@@ -2126,7 +2125,7 @@ SkipCommaWsp
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseQuadBezierCurveto
@@ -2305,7 +2304,7 @@ SkipCommaWsp
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseSmoothQuadBezierCurveto
@@ -2470,7 +2469,7 @@ SkipCommaWsp
 -
 -
 bool
-nsSVGPathDataParser
+SVGPathDataParser
 :
 :
 ParseEllipticalArc
@@ -2822,10 +2821,10 @@ tb
 )
 ;
 }
-nsSVGArcConverter
+SVGArcConverter
 :
 :
-nsSVGArcConverter
+SVGArcConverter
 (
 const
 Point
@@ -3508,7 +3507,7 @@ from
 ;
 }
 bool
-nsSVGArcConverter
+SVGArcConverter
 :
 :
 GetNextSegment
@@ -3767,3 +3766,8 @@ return
 true
 ;
 }
+}
+/
+/
+namespace
+mozilla

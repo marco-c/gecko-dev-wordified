@@ -200,7 +200,7 @@ h
 #
 include
 "
-nsSVGPathDataParser
+SVGPathDataParser
 .
 h
 "
@@ -1699,7 +1699,7 @@ attr
 SVGPathData
 path
 ;
-nsSVGPathDataParser
+SVGPathDataParser
 pathParser
 (
 pathSpec

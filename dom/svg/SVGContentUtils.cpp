@@ -330,7 +330,7 @@ h
 #
 include
 "
-nsSVGPathDataParser
+SVGPathDataParser
 .
 h
 "
@@ -5303,7 +5303,7 @@ aPathString
 SVGPathData
 pathData
 ;
-nsSVGPathDataParser
+SVGPathDataParser
 parser
 (
 aPathString

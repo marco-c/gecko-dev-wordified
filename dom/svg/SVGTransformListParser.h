@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsSVGDataParser
+SVGDataParser
 .
 h
 "
@@ -283,7 +283,7 @@ class
 SVGTransformListParser
 :
 public
-nsSVGDataParser
+SVGDataParser
 {
 public
 :
@@ -296,7 +296,7 @@ nsAString
 aValue
 )
 :
-nsSVGDataParser
+SVGDataParser
 (
 aValue
 )

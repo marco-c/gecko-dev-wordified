@@ -136,6 +136,9 @@ nsString
 .
 h
 "
+namespace
+mozilla
+{
 /
 /
 /
@@ -210,7 +213,7 @@ h
 /
 /
 /
-nsSVGDataParser
+SVGDataParser
 :
 a
 simple
@@ -230,12 +233,12 @@ values
 /
 /
 class
-nsSVGDataParser
+SVGDataParser
 {
 public
 :
 explicit
-nsSVGDataParser
+SVGDataParser
 (
 const
 nsAString
@@ -341,6 +344,11 @@ mEnd
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
