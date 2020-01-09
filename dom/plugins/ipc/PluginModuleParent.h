@@ -597,9 +597,7 @@ nsCString
 &
 aValues
 )
-override
 ;
-virtual
 bool
 DeallocPPluginInstanceParent
 (
@@ -607,7 +605,6 @@ PPluginInstanceParent
 *
 aActor
 )
-override
 ;
 public
 :

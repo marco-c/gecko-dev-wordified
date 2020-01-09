@@ -1265,7 +1265,6 @@ OtherPid
 )
 ;
 }
-virtual
 PTextureChild
 *
 AllocPTextureChild
@@ -1298,9 +1297,7 @@ MaybeExternalImageId
 &
 aExternalImageId
 )
-override
 ;
-virtual
 bool
 DeallocPTextureChild
 (
@@ -1308,14 +1305,12 @@ PTextureChild
 *
 actor
 )
-override
 ;
 PMediaSystemResourceManagerChild
 *
 AllocPMediaSystemResourceManagerChild
 (
 )
-override
 ;
 bool
 DeallocPMediaSystemResourceManagerChild
@@ -1324,7 +1319,6 @@ PMediaSystemResourceManagerChild
 *
 aActor
 )
-override
 ;
 virtual
 mozilla

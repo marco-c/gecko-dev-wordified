@@ -640,7 +640,6 @@ VRManagerChild
 aVRManagerChild
 )
 ;
-virtual
 PVRLayerChild
 *
 AllocPVRLayerChild
@@ -654,9 +653,7 @@ uint32_t
 &
 aGroup
 )
-override
 ;
-virtual
 bool
 DeallocPVRLayerChild
 (
@@ -664,7 +661,6 @@ PVRLayerChild
 *
 actor
 )
-override
 ;
 virtual
 mozilla

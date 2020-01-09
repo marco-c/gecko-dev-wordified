@@ -508,7 +508,6 @@ CompositorBridgeOptions
 &
 aOptions
 )
-override
 ;
 bool
 DeallocPCompositorBridgeChild
@@ -517,7 +516,6 @@ PCompositorBridgeChild
 *
 aActor
 )
-override
 ;
 bool
 ShouldContinueFromReplyTimeout

@@ -325,7 +325,6 @@ RecvShutdown
 )
 override
 ;
-virtual
 PServiceWorkerUpdaterParent
 *
 AllocPServiceWorkerUpdaterParent
@@ -339,7 +338,6 @@ nsCString
 &
 aScope
 )
-override
 ;
 virtual
 mozilla
@@ -365,7 +363,6 @@ aScope
 )
 override
 ;
-virtual
 bool
 DeallocPServiceWorkerUpdaterParent
 (
@@ -373,7 +370,6 @@ PServiceWorkerUpdaterParent
 *
 aActor
 )
-override
 ;
 virtual
 void

@@ -198,13 +198,11 @@ aNewFlags
 )
 override
 ;
-virtual
 PWebBrowserPersistResourcesChild
 *
 AllocPWebBrowserPersistResourcesChild
 (
 )
-override
 ;
 virtual
 mozilla
@@ -222,7 +220,6 @@ aActor
 )
 override
 ;
-virtual
 bool
 DeallocPWebBrowserPersistResourcesChild
 (
@@ -230,9 +227,7 @@ PWebBrowserPersistResourcesChild
 *
 aActor
 )
-override
 ;
-virtual
 PWebBrowserPersistSerializeChild
 *
 AllocPWebBrowserPersistSerializeChild
@@ -254,7 +249,6 @@ uint32_t
 &
 aWrapColumn
 )
-override
 ;
 virtual
 mozilla
@@ -288,7 +282,6 @@ aWrapColumn
 )
 override
 ;
-virtual
 bool
 DeallocPWebBrowserPersistSerializeChild
 (
@@ -296,7 +289,6 @@ PWebBrowserPersistSerializeChild
 *
 aActor
 )
-override
 ;
 private
 :

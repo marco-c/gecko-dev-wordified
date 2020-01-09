@@ -265,7 +265,6 @@ nsCString
 *
 aErrorDescription
 )
-override
 ;
 bool
 DeallocPRemoteVideoDecoderChild
@@ -274,7 +273,6 @@ PRemoteVideoDecoderChild
 *
 actor
 )
-override
 ;
 private
 :

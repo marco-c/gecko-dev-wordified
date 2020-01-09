@@ -383,7 +383,6 @@ aReason
 )
 override
 ;
-virtual
 PCacheOpChild
 *
 AllocPCacheOpChild
@@ -393,9 +392,7 @@ CacheOpArgs
 &
 aOpArgs
 )
-override
 ;
-virtual
 bool
 DeallocPCacheOpChild
 (
@@ -403,7 +400,6 @@ PCacheOpChild
 *
 aActor
 )
-override
 ;
 /
 /

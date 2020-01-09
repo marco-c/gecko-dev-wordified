@@ -265,7 +265,6 @@ aRequest
 )
 override
 ;
-virtual
 PPresentationRequestParent
 *
 AllocPPresentationRequestParent
@@ -275,9 +274,7 @@ PresentationIPCRequest
 &
 aRequest
 )
-override
 ;
-virtual
 bool
 DeallocPPresentationRequestParent
 (
@@ -285,9 +282,7 @@ PPresentationRequestParent
 *
 aActor
 )
-override
 ;
-virtual
 PPresentationBuilderParent
 *
 AllocPPresentationBuilderParent
@@ -301,9 +296,7 @@ uint8_t
 &
 aRole
 )
-override
 ;
-virtual
 bool
 DeallocPPresentationBuilderParent
 (
@@ -311,7 +304,6 @@ PPresentationBuilderParent
 *
 aActor
 )
-override
 ;
 virtual
 mozilla

@@ -448,7 +448,6 @@ endpoint
 )
 override
 ;
-virtual
 PPluginInstanceChild
 *
 AllocPPluginInstanceChild
@@ -472,9 +471,7 @@ nsCString
 &
 aValues
 )
-override
 ;
-virtual
 bool
 DeallocPPluginInstanceChild
 (
@@ -482,7 +479,6 @@ PPluginInstanceChild
 *
 aActor
 )
-override
 ;
 virtual
 mozilla

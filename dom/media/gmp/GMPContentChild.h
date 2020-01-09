@@ -214,7 +214,6 @@ uint32_t
 &
 aDecryptorId
 )
-override
 ;
 bool
 DeallocPGMPVideoDecoderChild
@@ -223,14 +222,12 @@ PGMPVideoDecoderChild
 *
 aActor
 )
-override
 ;
 PGMPVideoEncoderChild
 *
 AllocPGMPVideoEncoderChild
 (
 )
-override
 ;
 bool
 DeallocPGMPVideoEncoderChild
@@ -239,14 +236,12 @@ PGMPVideoEncoderChild
 *
 aActor
 )
-override
 ;
 PChromiumCDMChild
 *
 AllocPChromiumCDMChild
 (
 )
-override
 ;
 bool
 DeallocPChromiumCDMChild
@@ -255,7 +250,6 @@ PChromiumCDMChild
 *
 aActor
 )
-override
 ;
 void
 ActorDestroy

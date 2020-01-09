@@ -317,7 +317,6 @@ aActor
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -333,9 +332,7 @@ WindowGlobalInit
 &
 aInit
 )
-override
 ;
-virtual
 bool
 DeallocPWindowGlobalChild
 (
@@ -349,7 +346,6 @@ PWindowGlobalChild
 *
 aActor
 )
-override
 ;
 private
 :

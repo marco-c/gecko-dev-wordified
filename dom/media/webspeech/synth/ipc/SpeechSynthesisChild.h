@@ -286,7 +286,6 @@ bool
 &
 aIsChrome
 )
-override
 ;
 bool
 DeallocPSpeechSynthesisRequestChild
@@ -295,7 +294,6 @@ PSpeechSynthesisRequestChild
 *
 aActor
 )
-override
 ;
 }
 ;

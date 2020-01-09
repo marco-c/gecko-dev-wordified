@@ -317,7 +317,6 @@ aActor
 ;
 protected
 :
-virtual
 mozilla
 :
 :
@@ -333,9 +332,7 @@ WindowGlobalInit
 &
 aInit
 )
-override
 ;
-virtual
 bool
 DeallocPWindowGlobalParent
 (
@@ -349,7 +346,6 @@ PWindowGlobalParent
 *
 aActor
 )
-override
 ;
 virtual
 IPCResult

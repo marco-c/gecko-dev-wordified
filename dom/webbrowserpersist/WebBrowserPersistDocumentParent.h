@@ -385,15 +385,12 @@ aFailure
 )
 override
 ;
-virtual
 PWebBrowserPersistResourcesParent
 *
 AllocPWebBrowserPersistResourcesParent
 (
 )
-override
 ;
-virtual
 bool
 DeallocPWebBrowserPersistResourcesParent
 (
@@ -401,9 +398,7 @@ PWebBrowserPersistResourcesParent
 *
 aActor
 )
-override
 ;
-virtual
 PWebBrowserPersistSerializeParent
 *
 AllocPWebBrowserPersistSerializeParent
@@ -425,9 +420,7 @@ uint32_t
 &
 aWrapColumn
 )
-override
 ;
-virtual
 bool
 DeallocPWebBrowserPersistSerializeParent
 (
@@ -435,7 +428,6 @@ PWebBrowserPersistSerializeParent
 *
 aActor
 )
-override
 ;
 virtual
 void

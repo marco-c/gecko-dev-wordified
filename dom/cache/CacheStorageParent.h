@@ -229,7 +229,6 @@ aReason
 )
 override
 ;
-virtual
 PCacheOpParent
 *
 AllocPCacheOpParent
@@ -239,9 +238,7 @@ CacheOpArgs
 &
 aOpArgs
 )
-override
 ;
-virtual
 bool
 DeallocPCacheOpParent
 (
@@ -249,7 +246,6 @@ PCacheOpParent
 *
 aActor
 )
-override
 ;
 virtual
 mozilla

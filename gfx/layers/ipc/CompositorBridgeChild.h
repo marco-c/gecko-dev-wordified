@@ -660,7 +660,6 @@ aParentWidget
 )
 override
 ;
-virtual
 PTextureChild
 *
 AllocPTextureChild
@@ -697,9 +696,7 @@ MaybeExternalImageId
 &
 aExternalImageId
 )
-override
 ;
-virtual
 bool
 DeallocPTextureChild
 (
@@ -707,7 +704,6 @@ PTextureChild
 *
 actor
 )
-override
 ;
 virtual
 mozilla
@@ -1323,7 +1319,6 @@ CompositorWidgetInitData
 &
 aInitData
 )
-override
 ;
 bool
 DeallocPCompositorWidgetChild
@@ -1332,7 +1327,6 @@ PCompositorWidgetChild
 *
 aActor
 )
-override
 ;
 PAPZCTreeManagerChild
 *
@@ -1343,7 +1337,6 @@ LayersId
 &
 aLayersId
 )
-override
 ;
 bool
 DeallocPAPZCTreeManagerChild
@@ -1352,7 +1345,6 @@ PAPZCTreeManagerChild
 *
 aActor
 )
-override
 ;
 PAPZChild
 *
@@ -1363,7 +1355,6 @@ LayersId
 &
 aLayersId
 )
-override
 ;
 bool
 DeallocPAPZChild
@@ -1372,7 +1363,6 @@ PAPZChild
 *
 aActor
 )
-override
 ;
 void
 WillEndTransaction
@@ -1394,7 +1384,6 @@ const
 LayoutDeviceIntSize
 &
 )
-override
 ;
 bool
 DeallocPWebRenderBridgeChild
@@ -1403,7 +1392,6 @@ PWebRenderBridgeChild
 *
 aActor
 )
-override
 ;
 wr
 :
@@ -1768,7 +1756,6 @@ AfterDestroy
 (
 )
 ;
-virtual
 PLayerTransactionChild
 *
 AllocPLayerTransactionChild
@@ -1785,9 +1772,7 @@ LayersId
 &
 aId
 )
-override
 ;
-virtual
 bool
 DeallocPLayerTransactionChild
 (
@@ -1795,7 +1780,6 @@ PLayerTransactionChild
 *
 aChild
 )
-override
 ;
 virtual
 void

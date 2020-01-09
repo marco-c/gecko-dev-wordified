@@ -254,7 +254,6 @@ nsCString
 *
 aErrorDescription
 )
-override
 ;
 bool
 DeallocPVideoDecoderParent
@@ -263,7 +262,6 @@ PVideoDecoderParent
 *
 actor
 )
-override
 ;
 mozilla
 :

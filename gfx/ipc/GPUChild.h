@@ -252,7 +252,6 @@ LayersId
 &
 aLayersId
 )
-override
 ;
 bool
 DeallocPAPZInputBridgeChild
@@ -261,7 +260,6 @@ PAPZInputBridgeChild
 *
 aActor
 )
-override
 ;
 /
 /

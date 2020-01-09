@@ -284,7 +284,6 @@ RecvNotifyRemoveAll
 )
 override
 ;
-virtual
 PServiceWorkerUpdaterChild
 *
 AllocPServiceWorkerUpdaterChild
@@ -298,9 +297,7 @@ nsCString
 &
 scope
 )
-override
 ;
-virtual
 bool
 DeallocPServiceWorkerUpdaterChild
 (
@@ -308,7 +305,6 @@ PServiceWorkerUpdaterChild
 *
 aActor
 )
-override
 ;
 private
 :
