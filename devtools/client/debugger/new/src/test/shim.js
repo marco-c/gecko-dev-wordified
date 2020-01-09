@@ -58,6 +58,9 @@ MPL
 .
 *
 /
+/
+/
+flow
 global
 .
 requestAnimationFrame

@@ -129,6 +129,8 @@ test
 ;
 const
 source
+:
+any
 =
 null
 ;
@@ -180,6 +182,8 @@ test
 ;
 const
 source
+:
+any
 =
 {
 }
@@ -226,6 +230,8 @@ foo
 ;
 const
 source
+:
+any
 =
 {
 text
@@ -304,6 +310,8 @@ test
 ;
 const
 source
+:
+any
 =
 {
 text

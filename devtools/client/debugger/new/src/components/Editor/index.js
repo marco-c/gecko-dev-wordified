@@ -703,7 +703,11 @@ highlightedLineRange
 null
 editor
 :
+(
 null
+:
+any
+)
 contextMenu
 :
 null
@@ -1399,7 +1403,11 @@ setState
 {
 editor
 :
+(
 null
+:
+any
+)
 }
 )
 ;
@@ -3218,7 +3226,6 @@ editorWrapper
 }
 /
 >
-;
 <
 Footer
 editor

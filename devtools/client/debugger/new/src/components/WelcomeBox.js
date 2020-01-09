@@ -239,7 +239,6 @@ end
 collapsed
 =
 {
-!
 endPanelCollapsed
 }
 horizontal
@@ -598,6 +597,10 @@ p
 /
 div
 >
+<
+/
+div
+>
 {
 this
 .
@@ -605,10 +608,6 @@ renderToggleButton
 (
 )
 }
-<
-/
-div
->
 <
 /
 div
