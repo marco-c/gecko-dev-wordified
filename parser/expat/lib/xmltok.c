@@ -9983,7 +9983,7 @@ encPtr
 if
 (
 ptr
-=
+>
 =
 end
 )
