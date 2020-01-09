@@ -2349,6 +2349,16 @@ friend
 class
 nsIDocShell
 ;
+friend
+class
+mozilla
+:
+:
+dom
+:
+:
+BrowsingContext
+;
 /
 /
 It
