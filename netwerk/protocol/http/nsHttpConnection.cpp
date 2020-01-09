@@ -4399,7 +4399,7 @@ return
 true
 ;
 }
-void
+nsresult
 nsHttpConnection
 :
 :
@@ -4449,6 +4449,7 @@ mTLSFilter
 )
 {
 return
+NS_OK
 ;
 }
 LOG
@@ -4470,9 +4471,7 @@ this
 )
 )
 ;
-Unused
-<
-<
+return
 OnSocketWritable
 (
 )
