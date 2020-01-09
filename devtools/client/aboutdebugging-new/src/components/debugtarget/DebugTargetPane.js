@@ -239,6 +239,11 @@ additionalActionsComponent
 PropTypes
 .
 any
+children
+:
+PropTypes
+.
+node
 collapsibilityKey
 :
 PropTypes
@@ -351,6 +356,7 @@ const
 {
 actionComponent
 additionalActionsComponent
+children
 detailComponent
 dispatch
 getString
@@ -546,6 +552,7 @@ svg
 )
 )
 )
+children
 DebugTargetList
 (
 {
