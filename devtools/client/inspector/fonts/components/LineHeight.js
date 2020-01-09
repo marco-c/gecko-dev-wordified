@@ -169,6 +169,13 @@ propTypes
 {
 return
 {
+disabled
+:
+PropTypes
+.
+bool
+.
+isRequired
 onChange
 :
 PropTypes
@@ -465,6 +472,13 @@ FontPropertyValue
 autoIncrement
 :
 true
+disabled
+:
+this
+.
+props
+.
+disabled
 label
 :
 getStr
